@@ -1,0 +1,17 @@
+{
+  "bitwise": true,
+  "curly": true,
+  "eqeqeq": true,
+  "esversion": 6,
+  "futurehostile": true,
+  "globals": false,
+  "latedef": true,
+  "nocomma": true,
+  "node": true,
+  "nonew": true,
+  "predef": [ "console" ],
+  "strict": true,
+  "undef": true,
+  "unused": true,
+  "varstmt": false
+}
