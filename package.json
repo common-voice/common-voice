@@ -1,0 +1,26 @@
+{
+  "name": "VoiceBank",
+  "version": "1.0.0",
+  "description": "VoiceBank",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config config/webpack.config.js",
+    "build-watch": "webpack --watch --config config/webpack.config.js",
+    "build-debug": "webpack --display-reasons --progress --config config/webpack.config.js",
+    "build-release": "webpack -p --config config/webpack.config.js"
+  },
+  "author": "Mozilla",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^0.14.33",
+    "@types/react-dom": "^0.14.16",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.2.2",
+    "webpack": "^2.3.3"
+  },
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-tap-event-plugin": "^2.0.1"
+  }
+}
