@@ -1,0 +1,5 @@
+{
+  "esversion": 6,
+  "predef": [ "require", "module", "__dirname" ],
+  "varstmt": true
+}

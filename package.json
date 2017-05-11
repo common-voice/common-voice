@@ -1,0 +1,20 @@
+{
+  "name": "voice-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "dependencies": {
+    "ff": "0.2.1",
+    "glob": "7.1.1 ",
+    "gulp": "3.9.1",
+    "gulp-shell": "0.6.3",
+    "gulp-typescript": "^3.1.6",
+    "mediaserver": "0.1.0",
+    "node-static": "0.7.9"
+  },
+  "devDependencies": {
+    "gulp-nodemon": "2.2.1",
+    "gulp-jshint": "^2.0.4",
+    "jshint": "^2.9.4"
+  }
+}
