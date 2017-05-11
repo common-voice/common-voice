@@ -6,20 +6,22 @@
   let path = require('path');
   let ts = require('gulp-typescript');
 
-  const PATH_JS = __dirname + '/client/js/';
+  const DIR_JS = path.join(__dirname, '/client/js/');
+  const PATH_JS = path.join(DIR_JS, '/**/*.js');
+  const PATH_TS = path.join(__dirname, '/client/src/', '/**/*.ts');
   const PATH_SERVER = __dirname + '/server/';
   const PATH_UPLOAD = __dirname + '/server/upload/';
   const CONFIG_FILE = __dirname + '/config.json';
 
   gulp.task('ts', function () {
-    return gulp.src('client/src/**/*.ts')
+    return gulp.src(PATH_TS)
       .pipe(ts({
         noImplicitAny: false,
         out: 'index.js',
-        "target": "es5",
-        "lib": ["es2015", "dom"]
+        target: 'es5',
+        lib: ['es2015', 'dom']
       }))
-      .pipe(gulp.dest('client/js'));
+      .pipe(gulp.dest(DIR_JS));
   });
 
   gulp.task('npm-install', shell.task(['npm install']));
@@ -37,7 +39,7 @@
   gulp.task('lint', () => {
     let jshint = require('gulp-jshint');
     let lintPaths = [
-      path.join(PATH_JS, '/**/*.js'),
+      PATH_JS,
       path.join(PATH_SERVER, '**/*.js'),
       'gulpfile.js'
     ];
@@ -48,12 +50,13 @@
   gulp.task('watch', () => {
     let watchPaths = [
       CONFIG_FILE,
-      PATH_JS + '/**/*.ts',
+      PATH_JS,
       PATH_SERVER + '/**/*.js',
       'gulpfile.js'
     ];
     gulp.watch(watchPaths, ['lint']);
     gulp.watch('package.json', ['npm-install']);
+    gulp.watch(PATH_TS, ['ts']);
   });
 
   gulp.task('default', ['ts', 'lint', 'watch', 'listen']);
