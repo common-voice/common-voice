@@ -17,7 +17,7 @@
     return gulp.src(PATH_TS)
       .pipe(ts({
         noImplicitAny: false,
-        out: 'index.js',
+        out: 'bundle.js',
         target: 'es5',
         lib: ['es2015', 'dom']
       }))
