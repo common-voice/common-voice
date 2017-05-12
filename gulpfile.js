@@ -1,7 +1,8 @@
 (function() {
   'use strict';
 
-  let gulp = require('gulp');
+  // Add gulp help functionality.
+  let gulp = require('gulp-help')(require('gulp'));
   let shell = require('gulp-shell');
   let path = require('path');
   let ts = require('gulp-typescript');
@@ -14,17 +15,19 @@
   const PATH_UPLOAD = __dirname + '/server/upload/';
   const CONFIG_FILE = __dirname + '/config.json';
 
-  gulp.task("ts", function () {
+  gulp.task('ts', 'Compile typescript files into bundle.js', () => {
     return tsProject.src()
           .pipe(tsProject())
           .js.pipe(gulp.dest(DIR_JS));
   });
 
-  gulp.task('npm-install', shell.task(['npm install']));
+  gulp.task('npm-install', 'Install npm dependencies.',
+            shell.task(['npm install']));
 
-  gulp.task('clean', shell.task([`git clean -idx ${PATH_UPLOAD}`]));
+  gulp.task('clean', 'Remove uploaded clips.',
+            shell.task([`git clean -idx ${PATH_UPLOAD}`]));
 
-  gulp.task('listen', () => {
+  gulp.task('listen', 'Run development server.', () => {
     require('gulp-nodemon')({
       script: 'server/server.js',
       // Use [c] here to workaround nodemon bug #951
@@ -32,7 +35,7 @@
     });
   });
 
-  gulp.task('watch', () => {
+  gulp.task('watch', 'Rebuild, rebundle, re-install on file changes.', () => {
     let watchPaths = [
       CONFIG_FILE,
       PATH_JS,
@@ -43,5 +46,5 @@
     gulp.watch(PATH_TS, ['ts']);
   });
 
-  gulp.task('default', ['ts', 'watch', 'listen']);
+  gulp.task('default', 'Running just `gulp`.', ['ts', 'watch', 'listen']);
 })();
