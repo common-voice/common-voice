@@ -787,12 +787,8 @@ define("app", ["require", "exports", "record"], function (require, exports, reco
          * Entry point for the application.
          */
         App.prototype.run = function () {
-            var voiceButton = document.createElement('button');
-            voiceButton.textContent = 'Record Voice';
-            voiceButton.onclick = function () {
-                record_1.default();
-            };
-            this.container.appendChild(voiceButton);
+            // For now, we will just show recording screen.
+            record_1.default();
         };
         return App;
     }());
