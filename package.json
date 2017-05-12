@@ -4,6 +4,7 @@
   "description": "",
   "main": "server/server.js",
   "dependencies": {
+    "bluebird": "^3.5.0",
     "ff": "0.2.1",
     "glob": "7.1.1 ",
     "gulp": "3.9.1",

@@ -2,15 +2,16 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var http = require("http");
 var path = require("path");
-var nodeStatic = require("node-static");
+var api_1 = require("./lib/api");
 var DEFAULT_PORT = 9000;
 var CONFIG_PATH = path.resolve(__dirname, '../..', 'config.json');
 var CLIENT_PATH = './client';
+var nodeStatic = require('node-static');
 var clip = require('./lib/clip');
-var api = require('./lib/api');
 var config = require(CONFIG_PATH);
 // TODO: turn on caching for PROD.
 var fileServer = new nodeStatic.Server(CLIENT_PATH, { cache: false });
+var api = new api_1.default();
 /**
  * handleRequest
  *   Route requests to appropriate controller based on
