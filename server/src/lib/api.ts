@@ -4,7 +4,8 @@ const path = require('path');
 const fs = require('fs');
 const Promise = require('bluebird');
 
-const SENTENCE_FILE = path.resolve(__dirname, 'temporary-sentences.txt');
+const SENTENCE_FILE = path.resolve(__dirname, '../../data',
+                                   'temporary-sentences.txt');
 
 export default class API {
   sentencesCache: String[];

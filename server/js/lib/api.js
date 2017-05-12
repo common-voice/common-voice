@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var path = require('path');
 var fs = require('fs');
 var Promise = require('bluebird');
-var SENTENCE_FILE = path.resolve(__dirname, 'temporary-sentences.txt');
+var SENTENCE_FILE = path.resolve(__dirname, '../../data', 'temporary-sentences.txt');
 var API = (function () {
     function API() {
     }
