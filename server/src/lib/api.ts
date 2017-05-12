@@ -21,7 +21,8 @@ export default class API {
   /**
    * Give api response.
    */
-  handleRequest(request: http.IncomingMessage, response: http.ServerResponse) {
+  handleRequest(request: http.IncomingMessage,
+                response: http.ServerResponse) {
     if (request.url.includes('/sentence')) {
       this.returnRandomSentence(response);
     } else {

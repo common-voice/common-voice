@@ -1,18 +1,19 @@
 import * as http from 'http';
 import * as path from 'path';
 import API from './lib/api';
+import Clip from './lib/clip';
 
 const DEFAULT_PORT = 9000;
 const CONFIG_PATH = path.resolve(__dirname, '../..', 'config.json');
 const CLIENT_PATH = './client';
 
 const nodeStatic = require('node-static');
-const clip = require('./lib/clip');
 const config = require(CONFIG_PATH);
 
 // TODO: turn on caching for PROD.
 let fileServer = new nodeStatic.Server(CLIENT_PATH, { cache: false });
 let api = new API();
+let clip = new Clip();
 
 /**
  * handleRequest
