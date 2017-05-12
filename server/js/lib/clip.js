@@ -7,18 +7,22 @@ var ff = require('ff');
 var fs = require('fs');
 var crypto = require('crypto');
 var Promise = require('bluebird');
+var mkdirp = require('mkdirp');
 var UPLOAD_PATH = path.resolve(__dirname, '../..', 'upload');
 var CONFIG_PATH = path.resolve(__dirname, '../../..', 'config.json');
 var ACCEPTED_EXT = ['ogg', 'webm', 'm4a'];
 var DEFAULT_SALT = '8hd3e8sddFSdfj';
 var config = require(CONFIG_PATH);
 var salt = config.salt || DEFAULT_SALT;
-function hash(str) {
-    return crypto.createHmac('sha256', salt).update(str).digest('hex');
-}
+/**
+ * Clip - Responsibly for saving and serving clips.
+ */
 var Clip = (function () {
     function Clip() {
     }
+    Clip.prototype.hash = function (str) {
+        return crypto.createHmac('sha256', salt).update(str).digest('hex');
+    };
     /**
      * Is this request directed at voice clips?
      */
@@ -47,6 +51,7 @@ var Clip = (function () {
      * Save the request body as an audio file.
      */
     Clip.prototype.save = function (request) {
+        var _this = this;
         var info = request.headers;
         var uid = info.uid;
         var sentence = decodeURI(info.sentence);
@@ -60,13 +65,13 @@ var Clip = (function () {
             }
             // if the folder does not exist, we create it
             var folder = path.join(UPLOAD_PATH, uid);
-            var filePrefix = hash(sentence);
+            var filePrefix = _this.hash(sentence);
             var file = path.join(folder, filePrefix + extension);
             var f = ff(function () {
                 fs.exists(folder, f.slotPlain());
             }, function (exists) {
                 if (!exists) {
-                    fs.mkdir(folder, f());
+                    mkdirp(folder, f());
                 }
             }, function () {
                 var writeStream = fs.createWriteStream(file);

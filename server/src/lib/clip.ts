@@ -7,21 +7,24 @@ const ff = require('ff');
 const fs = require('fs');
 const crypto = require('crypto');
 const Promise = require('bluebird');
+const mkdirp = require('mkdirp');
 
 const UPLOAD_PATH = path.resolve(__dirname, '../..', 'upload');
 const CONFIG_PATH = path.resolve(__dirname, '../../..', 'config.json');
 const ACCEPTED_EXT = [ 'ogg', 'webm', 'm4a' ];
 const DEFAULT_SALT = '8hd3e8sddFSdfj';
-
 const config = require(CONFIG_PATH);
 const salt = config.salt || DEFAULT_SALT;
 
-function hash(str: string) {
-  return crypto.createHmac('sha256', salt).update(str).digest('hex');
-}
-
+/**
+ * Clip - Responsibly for saving and serving clips.
+ */
 export default class Clip {
   constructor() {}
+
+  private hash(str: string): string {
+    return crypto.createHmac('sha256', salt).update(str).digest('hex');
+  }
 
   /**
    * Is this request directed at voice clips?
@@ -34,7 +37,7 @@ export default class Clip {
    * Distinguish between uploading and listening requests.
    */
   handleRequest(request: http.IncomingMessage,
-                response: http.ServerResponse) {
+                response: http.ServerResponse): void {
     if (request.method === 'POST') {
       this.save(request).then(timestamp => {
         response.writeHead(200);
@@ -67,14 +70,14 @@ export default class Clip {
 
       // if the folder does not exist, we create it
       let folder = path.join(UPLOAD_PATH, uid);
-      let filePrefix = hash(sentence);
+      let filePrefix = this.hash(sentence);
       let file = path.join(folder, filePrefix + extension);
 
       let f = ff(() => {
         fs.exists(folder, f.slotPlain());
       }, exists => {
         if (!exists) {
-          fs.mkdir(folder, f());
+          mkdirp(folder, f());
         }
       }, () => {
         let writeStream = fs.createWriteStream(file);
