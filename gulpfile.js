@@ -51,5 +51,6 @@
     gulp.watch(PATH_TS_SERVER, ['ts-server']);
   });
 
-  gulp.task('default', 'Running just `gulp`.', ['ts', 'watch', 'listen']);
+  gulp.task('default', 'Running just `gulp`.',
+            ['ts', 'ts-server', 'watch', 'listen']);
 })();
