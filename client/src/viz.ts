@@ -1,3 +1,5 @@
+import { FrequencyBins } from "./dsp";
+
 declare var chroma;
 
 const MIN_DB_LEVEL = -85;      // The dB level that is 0 in the levels display
@@ -87,22 +89,9 @@ class CanvasView {
   }
 }
 
-class FrequencyBins {
-  private temp: Float32Array;
-  bins: Float32Array;
-  constructor(private analyzerNode: AnalyserNode, private skip = 2) {
-    let binCount = this.analyzerNode.frequencyBinCount;
-    this.temp = new Float32Array(binCount);
-    this.bins = new Float32Array(binCount - skip);
-  }
-  update() {
-    this.analyzerNode.getFloatFrequencyData(this.temp);
-    this.bins.set(this.temp.subarray(this.skip));
-  }
-}
-
 export class AnalyzerNodeView extends CanvasView {
   frequency: FrequencyBins;
+  isRecording: boolean = false;
   constructor(analyzerNode: AnalyserNode,
     canvas: HTMLCanvasElement,
     width: number,
@@ -225,10 +214,19 @@ export class RadialAnalyzerNodeView extends AnalyzerNodeView {
     ctx.scale(this.ratio, this.ratio);
     ctx.fillStyle = this.theme.backgroundColor;
     ctx.fillRect(0, 0, this.width, this.height);
+    let innerRadius = 12 * this.ratio;
+    if (this.isRecording) {
+      ctx.beginPath();
+      let animation = Math.abs(Math.sin(performance.now() / 1000));
+      let radius = innerRadius / 3 + innerRadius / 4 * animation;
+      ctx.fillStyle = this.theme.scale(animation);
+      ctx.arc(this.width / 2, this.height / 2, radius, 0, Math.PI * 2);
+      ctx.fill();
+    }
     let binCount = this.frequency.bins.length;
     ctx.translate(this.width / 2, this.height / 2);
     let angle = Math.PI * 2 / binCount;
-    let innerRadius = 12 * this.ratio;
+
     for (let i = 0; i < binCount; i++) {
       ctx.rotate(angle);
       let value = clamp((this.frequency.bins[i] - MIN_DB_LEVEL) / DB_LEVEL_RANGE, 0, 1);
