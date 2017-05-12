@@ -1,13 +1,11 @@
-import API from './api';
+import record from './record';
 
 export default class App {
-  api: API;
 
   /**
    * App will handle routing to page controllers.
    */
   constructor(public container: HTMLElement) {
-    this.api = new API();
   }
 
 
@@ -15,9 +13,12 @@ export default class App {
    * Entry point for the application.
    */
   run() {
-    this.container.innerHTML = 'Loading...';
-    this.api.getSentence().then(sentence => {
-      this.container.innerHTML = sentence;
-    });
+    let voiceButton = document.createElement('button');
+    voiceButton.textContent = 'Record Voice';
+    voiceButton.onclick = () => {
+      record();
+    };
+
+    this.container.appendChild(voiceButton);
   }
 }

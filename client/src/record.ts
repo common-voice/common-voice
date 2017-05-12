@@ -1,3 +1,4 @@
+import API from './api';
 import { LinearAnalyzerNodeView, RadialAnalyzerNodeView, SpectogramAnalyzerNodeView } from "./viz";
 
 declare global {
@@ -23,7 +24,7 @@ declare global {
 
 declare var MediaRecorder: any;
 
-export function start() {
+export default function start() {
   'use strict';
 
   function getQuery() {
@@ -135,13 +136,64 @@ export function start() {
   }
 
   function setupPage() {
+    let content = `
+  <p id="message" class="panel"></p>
+  <div id="record-screen" class="screen disabled">
+    <div id="error-screen" class="screen panel" hidden>
+      <div class="panel-head">Error</div>
+      <div class="panel-content">
+        <p class="title" id="error-message"></p>
+        <h2 hidden id="error-reload">
+          Reload the page to try again
+        </h2>
+        <p id="error-supported">
+          Please check your browser's compatibility:
+          <table>
+            <tr><th>Platform<th>Browser</tr>
+            <tr><td>Desktop<td>Firefox, Chrome supported</tr>
+            <tr><td>Android<td>Firefox supported</tr>
+            <tr><td>iPhone, iPad<td><b>Not supported</b></tr>
+          </table>
+        </p>
+      </div>
+    </div>
+
+    <div id="title" class="title">
+      Please grant microphone access
+    </div>
+
+    <div id="sentence" class="title">Say something out loud!</div>
+    <span id="record-progress" class="progress small"></span>
+    <button id="recordButton" class="active" type="button">
+      Record
+    </button>
+    <button id="playButton" type="button">Play</button>
+    <button id="uploadButton" type="button">Submit</button>
+    <input id="excerpt" type="hidden" name="excerpt" value="">
+    <div id="elapsedtime">00.0s</div>
+    <div id="divlevels">
+      <canvas id="levels" width=100 height=100></canvas>
+      <canvas id="radialLevels" width=100 height=100></canvas>
+      <canvas id="spectrogram" width=100 height=100></canvas>
+    </div>
+    <span id="upload-progress" class="progress small"></span>
+    <input id="sensitivity" style="display: none"
+                            type="range" min="1" max="200"></input>
+    <audio id="player" controls="controls" class="disabled"></audio>
+  </div>`;
+    document.getElementById('content').innerHTML = content;
+
     setMessage('Loading...');
     var query = getQuery();
 
-    // Fill in the sence from the query string.
-    currentSentence = 'Temporary sentence, I love it';
-    $('#sentence').textContent = '"' + currentSentence + '"';
-    $('#excerpt').value = currentSentence;
+    // Fetch sentence from our server api.
+    var api = new API();
+    api.getSentence().then(sentence => {
+      currentSentence = sentence;
+      $('#sentence').textContent = '"' + currentSentence + '"';
+      $('#excerpt').value = currentSentence;
+      setMessage('record');
+    });
   }
 
   // Use getUserMedia() to get access to the user's microphone.
