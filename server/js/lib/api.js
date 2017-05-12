@@ -47,7 +47,6 @@ var API = (function () {
     API.prototype.returnRandomSentence = function (response) {
         this.getSentences().then(function (sentences) {
             var random = sentences[Math.floor(Math.random() * sentences.length)];
-            console.log('choosen sentence:', random);
             response.writeHead(200);
             response.end(random);
         }).catch(function (err) {

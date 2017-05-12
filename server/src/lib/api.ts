@@ -57,7 +57,6 @@ export default class API {
   returnRandomSentence(response: http.ServerResponse) {
     this.getSentences().then((sentences: String[]) => {
       let random = sentences[Math.floor(Math.random()*sentences.length)];
-      console.log('choosen sentence:', random);
       response.writeHead(200);
       response.end(random);
     }).catch((err: any) => {
