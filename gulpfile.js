@@ -42,6 +42,7 @@
       script: 'server/js/server.js',
       // Use [c] here to workaround nodemon bug #951
       watch: ['server/js', '[c]onfig.json'],
+      delay: 2.5,
     });
   });
 
