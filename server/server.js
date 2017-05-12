@@ -5,6 +5,7 @@
   const http = require('http');
   const nodeStatic = require('node-static');
   const clip = require('./lib/clip');
+  const api = require('./lib/api');
 
   const DEFAULT_PORT = 9000;
   const CONFIG_PATH = path.resolve(__dirname, '..', 'config.json');
@@ -22,6 +23,11 @@
     // Handle all clip related requests first.
     if (clip.isClipRequest(request)) {
       clip.handleRequest(request, response);
+      return;
+    }
+
+    if (api.isApiRequest(request)) {
+      api.handleRequest(request, response);
       return;
     }
 
