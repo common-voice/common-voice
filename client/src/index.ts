@@ -1,26 +1,29 @@
+import { LinearAnalyzerNodeView, RadialAnalyzerNodeView, SpectogramAnalyzerNodeView } from "./viz";
 
-interface Window {
-  _query: any;
-  AudioContext: any;
-  MediaRecorder: any;
-}
+declare global {
+  interface Window {
+    _query: any;
+    AudioContext: any;
+    MediaRecorder: any;
+  }
 
-interface AudioContext {
-  createMediaStreamDestination: any;
-}
+  interface AudioContext {
+    createMediaStreamDestination: any;
+  }
 
-interface Navigator {
-  webkitGetUserMedia: any;
-  mozGetUserMedia: any;
-}
+  interface Navigator {
+    webkitGetUserMedia: any;
+    mozGetUserMedia: any;
+  }
 
-interface Element {
-  hidden: boolean;
+  interface Element {
+    hidden: boolean;
+  }
 }
 
 declare var MediaRecorder: any;
 
-(function() {
+export function start() {
   'use strict';
 
   function getQuery() {
@@ -53,9 +56,9 @@ declare var MediaRecorder: any;
     return localStorage.userId;
   }
 
-  var MIN_DB_LEVEL = -85;      // The dB level that is 0 in the levels display
-  var MAX_DB_LEVEL = -30;      // The dB level that is 100% in the levels display
-  var LOUD_THRESHOLD = -40;    // Above this dB level we display in red
+  // var MIN_DB_LEVEL = -85;      // The dB level that is 0 in the levels display
+  // var MAX_DB_LEVEL = -30;      // The dB level that is 100% in the levels display
+  // var LOUD_THRESHOLD = -40;    // Above this dB level we display in red
   var SILENCE_THRESHOLD = -65; // Levels below this db threshold count as silence
   var SILENCE_DURATION = 1.5;  // How many seconds of quiet before stop recording
   var STOP_BEEP_HZ = 440;      // Frequency and duration of beep
@@ -224,9 +227,7 @@ declare var MediaRecorder: any;
     // FFT size 64 gives us 32 bins. But those bins hold frequencies up to
     // 22kHz or more, and we only care about visualizing lower frequencies
     // which is where most human voice lies, so we use fewer bins
-    analyzerNode.fftSize = 64;
-    var bufferLength = analyzerNode.frequencyBinCount;
-    var frequencyBins = new Float32Array(bufferLength);
+    analyzerNode.fftSize = 128;
 
     // Another audio node used by the beep() function
     var beeperVolume = audioContext.createGain();
@@ -234,6 +235,8 @@ declare var MediaRecorder: any;
 
     // This canvas object displays the audio levels for the incoming signal
     var levels = element.querySelector('#levels');
+    var radialLevels = element.querySelector('#radialLevels');
+    var spectrogram = element.querySelector('#spectrogram');
 
     var recording = false;  // Are we currently recording?
     var lastSoundTime;      // When was the last time we heard a sound?
@@ -397,94 +400,98 @@ declare var MediaRecorder: any;
       }
     }
 
-    function visualize() {
-      // Clear the canvas
-      var context = levels.getContext('2d');
-      context.clearRect(0, 0, levels.width, levels.height);
+    // function visualize() {
+    //   // Clear the canvas
+    //   var context = levels.getContext('2d');
+    //   context.clearRect(0, 0, levels.width, levels.height);
 
-      // Get the FFT data
-      analyzerNode.getFloatFrequencyData(frequencyBins);
+    //   // Get the FFT data
+    //   analyzerNode.getFloatFrequencyData(frequencyBins);
 
-      // Display it as a barchart.
-      // Drop bottom few bins, since they are often misleadingly high
-      var skip = 2;
-      var n = frequencyBins.length - skip;
-      var barwidth = levels.width/n;
-      var maxValue = MIN_DB_LEVEL;
-      var dbRange = (MAX_DB_LEVEL - MIN_DB_LEVEL);
-      // Loop through the values and draw the bars
-      // while we're at it, find the maximum value
-      rightside = !rightside;
+    //   // Display it as a barchart.
+    //   // Drop bottom few bins, since they are often misleadingly high
+    //   var skip = 2;
+    //   var n = frequencyBins.length - skip;
+    //   var barwidth = levels.width/n;
+    //   var maxValue = MIN_DB_LEVEL;
+    //   var dbRange = (MAX_DB_LEVEL - MIN_DB_LEVEL);
+    //   // Loop through the values and draw the bars
+    //   // while we're at it, find the maximum value
+    //   rightside = !rightside;
 
-      for(var i = 0; i < n; i++) {
-        var value = frequencyBins[i+skip];
-        if (value > maxValue) {
-          maxValue = value;
-        }
-        var ratio = (value - MIN_DB_LEVEL) / dbRange;
-        var height = levels.height * ratio;
-        if (height < 0) {
-          continue;
-        }
+    //   for(var i = 0; i < n; i++) {
+    //     var value = frequencyBins[i+skip];
+    //     if (value > maxValue) {
+    //       maxValue = value;
+    //     }
+    //     var ratio = (value - MIN_DB_LEVEL) / dbRange;
+    //     var height = levels.height * ratio;
+    //     if (height < 0) {
+    //       continue;
+    //     }
 
-        // calculate height
-        var total;
-        var inverso;
-        total = levels.height - height - 50;
-        inverso = total + height;
+    //     // calculate height
+    //     var total;
+    //     var inverso;
+    //     total = levels.height - height - 50;
+    //     inverso = total + height;
 
-        // here other side
-        var x_bar = i * barwidth;
+    //     // here other side
+    //     var x_bar = i * barwidth;
 
-        var fillStyle = 'black';
-        if (recording) {
-          var r = Math.round(100 + (ratio) * 255 * 2.5);
-          var g = 24;
-          var b = 24;
-          fillStyle = 'rgb(' + r + ', ' + g + ', ' + b + ')';
-        }
+    //     var fillStyle = 'black';
+    //     if (recording) {
+    //       var r = Math.round(100 + (ratio) * 255 * 2.5);
+    //       var g = 24;
+    //       var b = 24;
+    //       fillStyle = 'rgb(' + r + ', ' + g + ', ' + b + ')';
+    //     }
 
-        context.fillStyle = fillStyle;
-        context.fillRect(x_bar, total,
-          barwidth, height);
-        context.fillStyle = 'white';
-        context.fillRect(x_bar+25, total,
-          barwidth, height);
+    //     context.fillStyle = fillStyle;
+    //     context.fillRect(x_bar, total,
+    //       barwidth, height);
+    //     context.fillStyle = 'white';
+    //     context.fillRect(x_bar+25, total,
+    //       barwidth, height);
 
 
-        context.fillStyle = fillStyle;
-        context.fillRect(x_bar, inverso,
-          barwidth, height);
-        context.fillStyle = 'white';
-        context.fillRect(x_bar+25, inverso,
-          barwidth, height+20);
+    //     context.fillStyle = fillStyle;
+    //     context.fillRect(x_bar, inverso,
+    //       barwidth, height);
+    //     context.fillStyle = 'white';
+    //     context.fillRect(x_bar+25, inverso,
+    //       barwidth, height+20);
 
-      }
+    //   }
 
-      // If we are currently recording, then test to see if the user has
-      // been silent for long enough that we should stop recording
-      if (recording) {
-        var now = audioContext.currentTime;
-        if (maxValue < SILENCE_THRESHOLD) {
-          if (now - lastSoundTime > SILENCE_DURATION) {
-            stopRecording();
-          }
-        }
-        else {
-          lastSoundTime = now;
-        }
-      }
+    //   // If we are currently recording, then test to see if the user has
+    //   // been silent for long enough that we should stop recording
+    //   if (recording) {
+    //     var now = audioContext.currentTime;
+    //     if (maxValue < SILENCE_THRESHOLD) {
+    //       if (now - lastSoundTime > SILENCE_DURATION) {
+    //         stopRecording();
+    //       }
+    //     }
+    //     else {
+    //       lastSoundTime = now;
+    //     }
+    //   }
 
-      // Update visualization faster when recording.
-      /*
-    if (recording) {
-      requestAnimationFrame(visualize);
-    } else {
-      setTimeout(visualize, 70)
-    }
-    */
-      setTimeout(visualize, 50);
-    }
+    //   // Update visualization faster when recording.
+    //   /*
+    // if (recording) {
+    //   requestAnimationFrame(visualize);
+    // } else {
+    //   setTimeout(visualize, 70)
+    // }
+    // */
+    //   setTimeout(visualize, 50);
+    // }
+
+    let visualizer = new LinearAnalyzerNodeView(analyzerNode, levels, 384, 300);
+    let radialVisualizer = new RadialAnalyzerNodeView(analyzerNode, radialLevels, 300, 300);
+    let spectrogramVisualizer = new SpectogramAnalyzerNodeView(analyzerNode, spectrogram, 500, 300);
 
     // The button responds to clicks to start and stop recording
     recordButton.addEventListener('click', function() {
@@ -521,7 +528,6 @@ declare var MediaRecorder: any;
       this.player.play();
     }.bind(this));
 
-    visualize();
   }
 
   // Once the async initialization is complete, this is where the
@@ -587,4 +593,4 @@ declare var MediaRecorder: any;
     .then(getMicrophone)
     .then(initializeAndRun)
     .catch(displayErrorMessage);
-})();
+}
