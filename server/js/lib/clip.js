@@ -9,7 +9,7 @@
   const crypto = require('crypto');
 
   const UPLOAD_PATH = path.resolve(__dirname, '..', 'upload');
-  const CONFIG_PATH = path.resolve(__dirname, '../..', 'config.json');
+  const CONFIG_PATH = path.resolve(__dirname, '../../..', 'config.json');
   const ACCEPTED_EXT = [ 'ogg', 'webm', 'm4a' ];
   const DEFAULT_SALT = '8hd3e8sddFSdfj';
 
