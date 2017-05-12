@@ -26,8 +26,7 @@
     return compile(tsProject, DIR_JS);
   });
 
-  gulp.task('ts-server', 'Compile typescript server files into bundle.js',
-  () => {
+  gulp.task('ts-server', 'Compile typescript server files.', () => {
     return compile(tsServerProject, DIR_SERVER_JS);
   });
 
