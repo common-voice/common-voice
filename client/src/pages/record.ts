@@ -1,5 +1,5 @@
-import API from './api';
-import { AnalyzerNodeView, LinearAnalyzerNodeView, RadialAnalyzerNodeView, SpectogramAnalyzerNodeView } from "./viz";
+import API from './../api';
+import { AnalyzerNodeView, LinearAnalyzerNodeView, RadialAnalyzerNodeView, SpectogramAnalyzerNodeView } from "./../viz";
 
 export function assert(c: any, message: string = "") {
   if (!c) {

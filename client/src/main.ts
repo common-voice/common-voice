@@ -1,5 +1,8 @@
 /// <reference path="./vendor/require.d.ts" />
 
+/**
+ * Boot the app.
+ */
 function run(appModule) {
   let App = appModule.default;
   let container = document.getElementById('content');

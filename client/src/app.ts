@@ -1,11 +1,14 @@
-import record from './record';
+import Pages from './pages';
 
 export default class App {
+
+  pages: Pages;
 
   /**
    * App will handle routing to page controllers.
    */
   constructor(public container: HTMLElement) {
+    this.pages = new Pages();
   }
 
 
@@ -14,6 +17,6 @@ export default class App {
    */
   run() {
     // For now, we will just show recording screen.
-    record();
+    this.pages.record();
   }
 }
