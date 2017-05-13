@@ -5,7 +5,7 @@ const fs = require('fs');
 const Promise = require('bluebird');
 
 const SENTENCE_FILE = path.resolve(__dirname, '../../data',
-                                   'temporary-sentences.txt');
+                                   'temporary-sentences-2.txt');
 
 export default class API {
   sentencesCache: String[];
@@ -41,7 +41,10 @@ export default class API {
         encoding: 'utf8'
       });
 
-      this.sentencesCache = contents.split('\n');
+      let sentences = contents.split('\n');
+      // TODO: Spaces are used to mark paragraphs, ignore them for now.
+      sentences = sentences.filter(s => s.length);
+      this.sentencesCache = sentences;
       if (this.sentencesCache.length < 10) {
         reject('not enough sentences');
         return;
@@ -52,11 +55,11 @@ export default class API {
   }
 
   /**
-   * Load setence file (if necessary), pick random sentence.
+   * Load sentence file (if necessary), pick random sentence.
    */
   returnRandomSentence(response: http.ServerResponse) {
     this.getSentences().then((sentences: String[]) => {
-      let random = sentences[Math.floor(Math.random()*sentences.length)];
+      let random = sentences[Math.floor(Math.random() * sentences.length)];
       response.writeHead(200);
       response.end(random);
     }).catch((err: any) => {
