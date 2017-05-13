@@ -311,10 +311,6 @@ define("pages/record", ["require", "exports", "api", "viz"], function (require, 
         'This may be a temporary problem. Please try again.';
     var REPLAY_TIMEOUT = 200;
     var SOUNDCLIP_URL = '/upload/';
-    /* Uneeded for now, but these are good to know
-    var PROD_URL = 'https://www.mturk.com';
-    var PROD_ACTION = PROD_URL + '/mturk/externalSubmit';
-    */
     function generateGUID() {
         return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
             var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);

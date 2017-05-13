@@ -7,27 +7,6 @@ export function assert(c: any, message: string = "") {
   }
 }
 
-declare global {
-  interface Window {
-    _query: any;
-    AudioContext: any;
-    MediaRecorder: any;
-  }
-
-  interface AudioContext {
-    createMediaStreamDestination: any;
-  }
-
-  interface Navigator {
-    webkitGetUserMedia: any;
-    mozGetUserMedia: any;
-  }
-
-  interface Element {
-    hidden: boolean;
-  }
-}
-
 declare var MediaRecorder: any;
 
 // These are some things that can go wrong:
@@ -45,10 +24,6 @@ var ERR_DATA_FAILED = 'Submitting your profile data failed. ' +
 var REPLAY_TIMEOUT = 200;
 
 var SOUNDCLIP_URL = '/upload/';
-/* Uneeded for now, but these are good to know
-var PROD_URL = 'https://www.mturk.com';
-var PROD_ACTION = PROD_URL + '/mturk/externalSubmit';
-*/
 
 function generateGUID() {
   return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
