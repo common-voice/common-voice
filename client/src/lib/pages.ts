@@ -1,4 +1,4 @@
-import record from './pages/record';
+import record from './../pages/record';
 
 export default class Pages {
 
