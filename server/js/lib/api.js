@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var path = require('path');
 var fs = require('fs');
 var Promise = require('bluebird');
-var SENTENCE_FILE = path.resolve(__dirname, '../../data', 'temporary-sentences.txt');
+var SENTENCE_FILE = path.resolve(__dirname, '../../data', 'temporary-sentences-2.txt');
 var API = (function () {
     function API() {
     }
@@ -33,7 +33,10 @@ var API = (function () {
             var contents = fs.readFileSync(SENTENCE_FILE, {
                 encoding: 'utf8'
             });
-            _this.sentencesCache = contents.split('\n');
+            var sentences = contents.split('\n');
+            // TODO: Spaces are used to mark paragraphs, ignore them for now.
+            sentences = sentences.filter(function (s) { return s.length; });
+            _this.sentencesCache = sentences;
             if (_this.sentencesCache.length < 10) {
                 reject('not enough sentences');
                 return;
@@ -42,7 +45,7 @@ var API = (function () {
         });
     };
     /**
-     * Load setence file (if necessary), pick random sentence.
+     * Load sentence file (if necessary), pick random sentence.
      */
     API.prototype.returnRandomSentence = function (response) {
         this.getSentences().then(function (sentences) {

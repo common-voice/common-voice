@@ -11,12 +11,31 @@ export default class App {
     this.pages = new Pages();
   }
 
-
   /**
    * Entry point for the application.
    */
   run() {
-    // For now, we will just show recording screen.
-    this.pages.record();
+    this.pages.init().then(() => {
+      this.route();
+    });
+  }
+
+  /**
+   * Figure out wich page to load.
+   */
+  route() {
+    let url = new URL(window.location.href);
+    console.log('urrl', url.pathname);
+
+    switch (url.pathname) {
+      case '/':
+      case '/home':
+        this.pages.home.show();
+        break;
+
+      case '/record':
+        this.pages.record.show();
+        break;
+    }
   }
 }

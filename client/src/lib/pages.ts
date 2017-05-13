@@ -1,10 +1,20 @@
-import record from './../pages/record';
+import Record from './../pages/record';
+import Home from './../pages/home';
 
 export default class Pages {
 
-  public record: Function;
+  public home: Home;
+  public record: Record;
 
   constructor() {
-    this.record = record;
+    this.home = new Home();
+    this.record = new Record();
+  }
+
+  init() {
+    return Promise.all([
+      this.home.init(),
+      this.record.init()
+    ]);
   }
 }

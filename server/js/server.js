@@ -30,7 +30,11 @@ function handleRequest(request, response) {
     }
     // If we get here, feed request to static parser.
     request.addListener('end', function () {
-        fileServer.serve(request, response);
+        fileServer.serve(request, response, function (err) {
+            if (err && err.status === 404) {
+                fileServer.serveFile('index.html', 200, {}, request, response);
+            }
+        });
     }).resume();
 }
 // Now run the app.

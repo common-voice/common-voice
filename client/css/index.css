@@ -3,6 +3,7 @@ body {
   font-size: 15px;
   background-color: #212121;
   color: #F5F5F5;
+  margin: 0;
 }
 
 button {
@@ -33,6 +34,37 @@ button:active {
 button.disabled {
   opacity: 0.3;
   pointer-events: none;
+}
+
+#main-nav {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+#main-nav > a {
+  padding: 1rem;
+  flex: 1 1 auto;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  border-bottom: 2px solid #757575;
+}
+
+#main-nav > a.active {
+  border-radius: 3px 3px 0 0;
+  border: 2px solid #757575;
+  background-color: transparent;
+  border-bottom: none;
+}
+
+#content > div {
+  display: none;
+}
+
+#content > div.active {
+  display: block;
 }
 
 #toolbar {

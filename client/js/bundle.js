@@ -8,7 +8,28 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-define("api", ["require", "exports"], function (require, exports) {
+/// <reference path="./vendor/require.d.ts" />
+var APP_FILE = './lib/app';
+/**
+ * Boot the app.
+ */
+function run(appModule) {
+    var App = appModule.default;
+    var container = document.getElementById('content');
+    var app = new App(container);
+    app.run();
+}
+// Configure entry point regaurdless of if requirejs has loaded yet.
+if (!require) {
+    var require_1 = {
+        deps: [APP_FILE],
+        callback: run
+    };
+}
+else {
+    require([APP_FILE], run);
+}
+define("lib/api", ["require", "exports"], function (require, exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var DEFAULT_BASE = './api/';
@@ -27,7 +48,40 @@ define("api", ["require", "exports"], function (require, exports) {
     }());
     exports.default = API;
 });
-define("dsp", ["require", "exports"], function (require, exports) {
+define("lib/page", ["require", "exports"], function (require, exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    /**
+     * Represents a single page. Automatically highights
+     * navigation when page active and removes content
+     * when page navigates away.
+     */
+    var Page = (function () {
+        function Page(name) {
+            this.name = name;
+            this.container = document.getElementById('content');
+            this.content = document.createElement('div');
+            this.nav = document.createElement('a');
+            this.nav.href = name;
+            this.nav.textContent = name;
+            document.querySelector('#main-nav').appendChild(this.nav);
+        }
+        Page.prototype.show = function () {
+            this.nav.classList.add('active');
+            this.content.classList.add('active');
+            if (!this.content.parentNode) {
+                this.container.appendChild(this.content);
+            }
+        };
+        Page.prototype.hide = function () {
+            this.nav.classList.remove('active');
+            this.content.classList.remove('active');
+        };
+        return Page;
+    }());
+    exports.default = Page;
+});
+define("lib/dsp", ["require", "exports"], function (require, exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var FrequencyBins = (function () {
@@ -47,7 +101,7 @@ define("dsp", ["require", "exports"], function (require, exports) {
     }());
     exports.FrequencyBins = FrequencyBins;
 });
-define("viz", ["require", "exports", "dsp"], function (require, exports, dsp_1) {
+define("lib/viz", ["require", "exports", "lib/dsp"], function (require, exports, dsp_1) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var MIN_DB_LEVEL = -85; // The dB level that is 0 in the levels display
@@ -287,7 +341,7 @@ define("viz", ["require", "exports", "dsp"], function (require, exports, dsp_1) 
     }(AnalyzerNodeView));
     exports.RadialAnalyzerNodeView = RadialAnalyzerNodeView;
 });
-define("pages/record", ["require", "exports", "api", "viz"], function (require, exports, api_1, viz_1) {
+define("pages/record", ["require", "exports", "lib/page", "lib/api", "lib/viz"], function (require, exports, page_1, api_1, viz_1) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     function assert(c, message) {
@@ -456,13 +510,12 @@ define("pages/record", ["require", "exports", "api", "viz"], function (require, 
             return _this;
         }
         RecordComponent.prototype.mount = function () {
-            this.container.innerHTML = "\n    <p id=\"message\" class=\"panel\"></p>\n    <div id=\"record-screen\" class=\"screen disabled\">\n      <div id=\"error-screen\" class=\"screen panel\" hidden>\n        <div class=\"panel-head\">Error</div>\n        <div class=\"panel-content\">\n          <p class=\"title\" id=\"error-message\"></p>\n          <h2 hidden id=\"error-reload\">\n            Reload the page to try again\n          </h2>\n          <p id=\"error-supported\">\n            Please check your browser's compatibility:\n            <table>\n              <tr><th>Platform<th>Browser</tr>\n              <tr><td>Desktop<td>Firefox, Chrome supported</tr>\n              <tr><td>Android<td>Firefox supported</tr>\n              <tr><td>iPhone, iPad<td><b>Not supported</b></tr>\n            </table>\n          </p>\n        </div>\n      </div>\n\n      <div id=\"sentence\" class=\"title\">Say something out loud!</div>\n      <span id=\"record-progress\" class=\"progress small\"></span>\n      <div id=\"toolbar\">\n        <button id=\"recordButton\" class=\"active\" type=\"button\">Record</button>\n        <button id=\"playButton\" type=\"button\">Play</button>\n        <button id=\"uploadButton\" type=\"button\">Submit</button>\n        <button id=\"nextButton\" type=\"button\">Next</button>\n      </div>\n      <input id=\"excerpt\" type=\"hidden\" name=\"excerpt\" value=\"\">\n      <div id=\"elapsedTime\"></div>\n      <div id=\"viz\">\n        <canvas id=\"radialLevels\" width=100 height=100></canvas>\n      </div>\n      <span id=\"upload-progress\" class=\"progress small\"></span>\n      <input id=\"sensitivity\" style=\"display: none\"\n                              type=\"range\" min=\"1\" max=\"200\"></input>\n      <audio id=\"player\" controls=\"controls\" class=\"disabled\"></audio>\n    </div>";
             // <canvas id="levels" width=100 height=100></canvas>
             // <canvas id="spectrogram" width=100 height=100></canvas>
-            var $ = document.querySelector.bind(document);
+            var $ = this.container.querySelector.bind(this.container);
             this.messageEl = $('#message');
             this.sentenceEl = $('#sentence');
-            var el = document.querySelector('#record-screen');
+            var el = $('#record-screen');
             this.recordButtonEl = el.querySelector('#recordButton');
             this.playButtonEl = el.querySelector('#playButton');
             this.uploadButtonEl = el.querySelector('#uploadButton');
@@ -578,6 +631,15 @@ define("pages/record", ["require", "exports", "api", "viz"], function (require, 
                 var elapsedTime = this.audio.audioContext.currentTime - this.state.recordingStartTime;
                 // this.elapsedTimeEl.innerText = elapsedTime.toFixed(2);
             }
+            // TODO: 20 chars per second is a reasonable reading speed. We could adapt to the user.
+            var time = Math.ceil(this.state.sentence.length / 20);
+            if (this.state.recording) {
+                this.sentenceEl.style.transition = "background-position " + time + "s linear";
+            }
+            else {
+                this.sentenceEl.style.transition = "none";
+            }
+            this.sentenceEl.classList.toggle('active', this.state.recording);
             this.recordButtonEl.classList.toggle('disabled', this.state.playing);
             this.playButtonEl.classList.toggle('disabled', this.state.recording || !this.audio.lastRecording);
             this.uploadButtonEl.classList.toggle('disabled', !this.audio.lastRecording || this.state.recording || this.state.playing);
@@ -586,25 +648,63 @@ define("pages/record", ["require", "exports", "api", "viz"], function (require, 
         return RecordComponent;
     }(Component));
     exports.RecordComponent = RecordComponent;
-    function start() {
-        Audio.getMicrophone().then(function (microphone) {
-            new RecordComponent(document.getElementById('content'), microphone);
-        });
-    }
-    exports.default = start;
+    var RecordPage = (function (_super) {
+        __extends(RecordPage, _super);
+        function RecordPage() {
+            return _super.call(this, 'record') || this;
+        }
+        RecordPage.prototype.init = function () {
+            this.content.innerHTML = "\n    <p id=\"message\" class=\"panel\"></p>\n    <div id=\"record-screen\" class=\"screen disabled\">\n      <div id=\"error-screen\" class=\"screen panel\" hidden>\n        <div class=\"panel-head\">Error</div>\n        <div class=\"panel-content\">\n          <p class=\"title\" id=\"error-message\"></p>\n          <h2 hidden id=\"error-reload\">\n            Reload the page to try again\n          </h2>\n          <p id=\"error-supported\">\n            Please check your browser's compatibility:\n            <table>\n              <tr><th>Platform<th>Browser</tr>\n              <tr><td>Desktop<td>Firefox, Chrome supported</tr>\n              <tr><td>Android<td>Firefox supported</tr>\n              <tr><td>iPhone, iPad<td><b>Not supported</b></tr>\n            </table>\n          </p>\n        </div>\n      </div>\n\n      <div id=\"sentence\" class=\"title\">Say something out loud!</div>\n      <span id=\"record-progress\" class=\"progress small\"></span>\n      <div id=\"toolbar\">\n        <button id=\"recordButton\" class=\"active\" type=\"button\">Record</button>\n        <button id=\"playButton\" type=\"button\">Play</button>\n        <button id=\"uploadButton\" type=\"button\">Submit</button>\n        <button id=\"nextButton\" type=\"button\">Next</button>\n      </div>\n      <input id=\"excerpt\" type=\"hidden\" name=\"excerpt\" value=\"\">\n      <div id=\"elapsedTime\"></div>\n      <div id=\"viz\">\n        <canvas id=\"radialLevels\" width=100 height=100></canvas>\n      </div>\n      <span id=\"upload-progress\" class=\"progress small\"></span>\n      <input id=\"sensitivity\" style=\"display: none\"\n                              type=\"range\" min=\"1\" max=\"200\"></input>\n      <audio id=\"player\" controls=\"controls\" class=\"disabled\"></audio>\n    </div>";
+            return Promise.resolve();
+        };
+        RecordPage.prototype.show = function () {
+            var _this = this;
+            _super.prototype.show.call(this);
+            return Audio.getMicrophone().then(function (microphone) {
+                _this.microphone = microphone;
+                new RecordComponent(_this.content, microphone);
+            });
+        };
+        return RecordPage;
+    }(page_1.default));
+    exports.default = RecordPage;
 });
-define("pages", ["require", "exports", "pages/record"], function (require, exports, record_1) {
+define("pages/home", ["require", "exports", "lib/page"], function (require, exports, page_2) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    var CLASS_NAME = 'home';
+    var HomePage = (function (_super) {
+        __extends(HomePage, _super);
+        function HomePage() {
+            return _super.call(this, CLASS_NAME) || this;
+        }
+        HomePage.prototype.init = function () {
+            this.content.innerHTML = 'Welcome to Common Voice';
+            return null;
+        };
+        return HomePage;
+    }(page_2.default));
+    exports.default = HomePage;
+});
+define("lib/pages", ["require", "exports", "pages/record", "pages/home"], function (require, exports, record_1, home_1) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var Pages = (function () {
         function Pages() {
-            this.record = record_1.default;
+            this.home = new home_1.default();
+            this.record = new record_1.default();
         }
+        Pages.prototype.init = function () {
+            return Promise.all([
+                this.home.init(),
+                this.record.init()
+            ]);
+        };
         return Pages;
     }());
     exports.default = Pages;
 });
-define("app", ["require", "exports", "pages"], function (require, exports, pages_1) {
+define("lib/app", ["require", "exports", "lib/pages"], function (require, exports, pages_1) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var App = (function () {
@@ -619,40 +719,28 @@ define("app", ["require", "exports", "pages"], function (require, exports, pages
          * Entry point for the application.
          */
         App.prototype.run = function () {
-            // For now, we will just show recording screen.
-            this.pages.record();
+            var _this = this;
+            this.pages.init().then(function () {
+                _this.route();
+            });
+        };
+        /**
+         * Figure out wich page to load.
+         */
+        App.prototype.route = function () {
+            var url = new URL(window.location.href);
+            console.log('urrl', url.pathname);
+            switch (url.pathname) {
+                case '/':
+                case '/home':
+                    this.pages.home.show();
+                    break;
+                case '/record':
+                    this.pages.record.show();
+                    break;
+            }
         };
         return App;
     }());
     exports.default = App;
-});
-/// <reference path="./vendor/require.d.ts" />
-/**
- * Boot the app.
- */
-function run(appModule) {
-    var App = appModule.default;
-    var container = document.getElementById('content');
-    var app = new App(container);
-    app.run();
-}
-// Configure entry point regaurdless of if requirejs has loaded yet.
-if (!require) {
-    var require_1 = {
-        deps: ["app"],
-        callback: run
-    };
-}
-else {
-    require(['app'], run);
-}
-define("pages/page", ["require", "exports"], function (require, exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    var Page = (function () {
-        function Page() {
-        }
-        return Page;
-    }());
-    exports.default = Page;
 });
