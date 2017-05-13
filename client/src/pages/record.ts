@@ -166,7 +166,7 @@ export class RecordComponent extends Component<{
 }> {
   api: API;
   messageEl: HTMLDivElement;
-  sentenceEl: HTMLDivElement;
+  sentenceEl: HTMLSpanElement;
   elapsedTimeEl: HTMLDivElement;
   playButtonEl: HTMLButtonElement;
   recordButtonEl: HTMLButtonElement;
@@ -215,7 +215,7 @@ export class RecordComponent extends Component<{
         </div>
       </div>
 
-      <div id="sentence" class="title">Say something out loud!</div>
+      <div id="sentenceContainer" class="title"><span id="sentence">Say something out loud!</span></div>
       <span id="record-progress" class="progress small"></span>
       <div id="toolbar">
         <button id="recordButton" class="active" type="button">Record</button>
@@ -369,6 +369,15 @@ export class RecordComponent extends Component<{
       let elapsedTime = this.audio.audioContext.currentTime - this.state.recordingStartTime;
       // this.elapsedTimeEl.innerText = elapsedTime.toFixed(2);
     }
+
+    // TODO: 20 chars per second is a reasonable reading speed. We could adapt to the user.
+    let time = Math.ceil(this.state.sentence.length / 20);
+    if (this.state.recording) {
+      this.sentenceEl.style.transition = `background-position ${time}s linear`;
+    } else {
+      this.sentenceEl.style.transition = `none`;
+    }
+    this.sentenceEl.classList.toggle('active', this.state.recording);
 
     this.recordButtonEl.classList.toggle('disabled', this.state.playing);
     this.playButtonEl.classList.toggle('disabled', this.state.recording || !this.audio.lastRecording);

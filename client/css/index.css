@@ -60,18 +60,36 @@ button.disabled {
   display: none;
 }
 
-#sentence {
+#sentenceContainer {
   border: none;
   text-align: center;
   color: #FAFAFA;
   background-color: #212121;
   transition: transform 0.2s ease-in;
-  padding: 10px 10px;
+  padding: 30px 10px;
   margin: 0 0 10px;
   position: relative;
   z-index: 2;
-  font-size: 16px;
+  font-size: 18px;
   height: 100px;
+  font-family: 'Roboto Slab', serif;
+}
+
+#sentence {
+  background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, #ddd 50%);
+  background-position: -0% 0;
+  background-size: 200% auto;
+  line-height: 2.3em;
+  text-decoration: none;
+  padding: 6px;
+  transition: background-position 1.5s linear;
+  color: #212121;
+  background-color: #FAFAFA;
+}
+
+#sentence.active {
+  background-position: -99.99% 0;
+  color: #222;
 }
 
 #viz {
