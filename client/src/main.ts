@@ -1,5 +1,7 @@
 /// <reference path="./vendor/require.d.ts" />
 
+const APP_FILE = './lib/app';
+
 /**
  * Boot the app.
  */
@@ -13,9 +15,9 @@ function run(appModule) {
 // Configure entry point regaurdless of if requirejs has loaded yet.
 if (!require) {
   let require = {
-    deps: ["app"],
+    deps: [APP_FILE],
     callback: run
   };
 } else {
-  require(['app'], run);
+  require([APP_FILE], run);
 }
