@@ -7,7 +7,8 @@ export default class HomePage extends Page {
     super(CLASS_NAME);
   }
 
-  init() {
+  init(navHandler: Function) {
+    super.init(navHandler);
     this.content.innerHTML = 'Welcome to Common Voice';
     return null;
   }

@@ -1,8 +1,10 @@
+import Page from './pages/page';
 import Pages from './pages';
 
 export default class App {
 
   pages: Pages;
+  currentPage: Page;
 
   /**
    * App will handle routing to page controllers.
@@ -12,9 +14,34 @@ export default class App {
   }
 
   /**
+   * Get the appropriate page controller for current page
+   */
+  private getPageController(): Page {
+    let url = new URL(window.location.href);
+    let page = url.pathname;
+
+    switch (page) {
+      case '/':
+      case '/home':
+        return this.pages.home;
+
+      case '/record':
+        return this.pages.record;
+
+      default:
+        return this.pages.notFound;
+    }
+  }
+
+  /**
    * Entry point for the application.
    */
-  run() {
+  run(): void {
+    this.pages.on('nav', (page: string) => {
+      history.pushState(null, '', page);
+      this.route();
+    });
+
     this.pages.init().then(() => {
       this.route();
     });
@@ -23,23 +50,18 @@ export default class App {
   /**
    * Figure out wich page to load.
    */
-  route() {
-    let url = new URL(window.location.href);
-    console.log('urrl', url.pathname);
+  route(): void {
+    let previousPage = this.currentPage;
+    this.currentPage = this.getPageController();
 
-    switch (url.pathname) {
-      case '/':
-      case '/home':
-        this.pages.home.show();
-        break;
-
-      case '/record':
-        this.pages.record.show();
-        break;
-
-      default:
-        this.pages.notFound.show();
-        break;
+    if (previousPage === this.currentPage) {
+      return;
     }
+
+    if(previousPage) {
+      previousPage.hide();
+    }
+
+    this.currentPage.show();
   }
 }

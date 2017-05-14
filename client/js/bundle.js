@@ -48,7 +48,28 @@ define("lib/api", ["require", "exports"], function (require, exports) {
     }());
     exports.default = API;
 });
-define("lib/pages/page", ["require", "exports"], function (require, exports) {
+define("lib/eventer", ["require", "exports"], function (require, exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    var Eventer = (function () {
+        function Eventer() {
+        }
+        Eventer.prototype.on = function (type, cb) {
+            this['_on' + type] = this['_on' + type] || [];
+            this['_on' + type].push(cb);
+        };
+        Eventer.prototype.trigger = function (type, value) {
+            if (this['_on' + type]) {
+                this['_on' + type].forEach(function (cb) {
+                    cb(value);
+                });
+            }
+        };
+        return Eventer;
+    }());
+    exports.default = Eventer;
+});
+define("lib/pages/page", ["require", "exports", "lib/eventer"], function (require, exports, eventer_1) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     /**
@@ -56,24 +77,40 @@ define("lib/pages/page", ["require", "exports"], function (require, exports) {
      * navigation when page active and removes content
      * when page navigates away.
      */
-    var Page = (function () {
+    var Page = (function (_super) {
+        __extends(Page, _super);
         /**
          * Create a page object
          *   @name - the name of the page
          *   @noNav - do we want a main navigation item for this page?
          */
         function Page(name, noNav) {
-            this.name = name;
-            this.noNav = noNav;
-            this.container = document.getElementById('content');
-            this.content = document.createElement('div');
+            var _this = _super.call(this) || this;
+            _this.name = name;
+            _this.noNav = noNav;
+            _this.container = document.getElementById('content');
+            _this.content = document.createElement('div');
             if (!noNav) {
-                this.nav = document.createElement('a');
-                this.nav.href = '/' + name;
-                this.nav.textContent = name;
-                document.querySelector('#main-nav').appendChild(this.nav);
+                _this.nav = document.createElement('a');
+                _this.nav.href = '/' + name;
+                _this.nav.textContent = name;
+                document.querySelector('#main-nav').appendChild(_this.nav);
+                _this.nav.addEventListener('click', function (evt) {
+                    evt.preventDefault();
+                    evt.stopPropagation();
+                    _this.trigger('nav', _this.nav.href);
+                }, true);
             }
+            return _this;
         }
+        /**
+         * init function must be defined by any page object
+         * to set up the nav element and content.
+         */
+        Page.prototype.init = function (navHandler) {
+            this.on('nav', navHandler);
+            return null;
+        };
         Page.prototype.show = function () {
             if (!this.noNav) {
                 this.nav.classList.add('active');
@@ -90,7 +127,7 @@ define("lib/pages/page", ["require", "exports"], function (require, exports) {
             this.content.classList.remove('active');
         };
         return Page;
-    }());
+    }(eventer_1.default));
     exports.default = Page;
 });
 define("lib/dsp", ["require", "exports"], function (require, exports) {
@@ -665,7 +702,8 @@ define("lib/pages/record", ["require", "exports", "lib/pages/page", "lib/api", "
         function RecordPage() {
             return _super.call(this, 'record') || this;
         }
-        RecordPage.prototype.init = function () {
+        RecordPage.prototype.init = function (navHandler) {
+            _super.prototype.init.call(this, navHandler);
             this.content.innerHTML = "\n    <p id=\"message\" class=\"panel\"></p>\n    <div id=\"record-screen\" class=\"screen disabled\">\n      <div id=\"error-screen\" class=\"screen panel\" hidden>\n        <div class=\"panel-head\">Error</div>\n        <div class=\"panel-content\">\n          <p class=\"title\" id=\"error-message\"></p>\n          <h2 hidden id=\"error-reload\">\n            Reload the page to try again\n          </h2>\n          <p id=\"error-supported\">\n            Please check your browser's compatibility:\n            <table>\n              <tr><th>Platform<th>Browser</tr>\n              <tr><td>Desktop<td>Firefox, Chrome supported</tr>\n              <tr><td>Android<td>Firefox supported</tr>\n              <tr><td>iPhone, iPad<td><b>Not supported</b></tr>\n            </table>\n          </p>\n        </div>\n      </div>\n\n      <div id=\"sentence\" class=\"title\">Say something out loud!</div>\n      <span id=\"record-progress\" class=\"progress small\"></span>\n      <div id=\"toolbar\">\n        <button id=\"recordButton\" class=\"active\" type=\"button\">Record</button>\n        <button id=\"playButton\" type=\"button\">Play</button>\n        <button id=\"uploadButton\" type=\"button\">Submit</button>\n        <button id=\"nextButton\" type=\"button\">Next</button>\n      </div>\n      <input id=\"excerpt\" type=\"hidden\" name=\"excerpt\" value=\"\">\n      <div id=\"elapsedTime\"></div>\n      <div id=\"viz\">\n        <canvas id=\"radialLevels\" width=100 height=100></canvas>\n      </div>\n      <span id=\"upload-progress\" class=\"progress small\"></span>\n      <input id=\"sensitivity\" style=\"display: none\"\n                              type=\"range\" min=\"1\" max=\"200\"></input>\n      <audio id=\"player\" controls=\"controls\" class=\"disabled\"></audio>\n    </div>";
             return Promise.resolve();
         };
@@ -690,7 +728,8 @@ define("lib/pages/home", ["require", "exports", "lib/pages/page"], function (req
         function HomePage() {
             return _super.call(this, CLASS_NAME) || this;
         }
-        HomePage.prototype.init = function () {
+        HomePage.prototype.init = function (navHandler) {
+            _super.prototype.init.call(this, navHandler);
             this.content.innerHTML = 'Welcome to Common Voice';
             return null;
         };
@@ -707,7 +746,8 @@ define("lib/pages/not-found", ["require", "exports", "lib/pages/page"], function
         function NotFoundPage() {
             return _super.call(this, CLASS_NAME, true) || this;
         }
-        NotFoundPage.prototype.init = function () {
+        NotFoundPage.prototype.init = function (navHandler) {
+            _super.prototype.init.call(this, navHandler);
             this.content.innerHTML = 'Page not found.';
             return null;
         };
@@ -715,24 +755,31 @@ define("lib/pages/not-found", ["require", "exports", "lib/pages/page"], function
     }(page_3.default));
     exports.default = NotFoundPage;
 });
-define("lib/pages", ["require", "exports", "lib/pages/record", "lib/pages/home", "lib/pages/not-found"], function (require, exports, record_1, home_1, not_found_1) {
+define("lib/pages", ["require", "exports", "lib/eventer", "lib/pages/record", "lib/pages/home", "lib/pages/not-found"], function (require, exports, eventer_2, record_1, home_1, not_found_1) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    var Pages = (function () {
+    var Pages = (function (_super) {
+        __extends(Pages, _super);
         function Pages() {
-            this.home = new home_1.default();
-            this.record = new record_1.default();
-            this.notFound = new not_found_1.default();
+            var _this = _super.call(this) || this;
+            _this.home = new home_1.default();
+            _this.record = new record_1.default();
+            _this.notFound = new not_found_1.default();
+            return _this;
         }
         Pages.prototype.init = function () {
+            var navPageHandler = this.handlePageNav.bind(this);
             return Promise.all([
-                this.home.init(),
-                this.record.init(),
-                this.notFound.init(),
+                this.home.init(navPageHandler),
+                this.record.init(navPageHandler),
+                this.notFound.init(navPageHandler),
             ]);
         };
+        Pages.prototype.handlePageNav = function (page) {
+            this.trigger('nav', page);
+        };
         return Pages;
-    }());
+    }(eventer_2.default));
     exports.default = Pages;
 });
 define("lib/app", ["require", "exports", "lib/pages"], function (require, exports, pages_1) {
@@ -747,10 +794,30 @@ define("lib/app", ["require", "exports", "lib/pages"], function (require, export
             this.pages = new pages_1.default();
         }
         /**
+         * Get the appropriate page controller for current page
+         */
+        App.prototype.getPageController = function () {
+            var url = new URL(window.location.href);
+            var page = url.pathname;
+            switch (page) {
+                case '/':
+                case '/home':
+                    return this.pages.home;
+                case '/record':
+                    return this.pages.record;
+                default:
+                    return this.pages.notFound;
+            }
+        };
+        /**
          * Entry point for the application.
          */
         App.prototype.run = function () {
             var _this = this;
+            this.pages.on('nav', function (page) {
+                history.pushState(null, '', page);
+                _this.route();
+            });
             this.pages.init().then(function () {
                 _this.route();
             });
@@ -759,20 +826,15 @@ define("lib/app", ["require", "exports", "lib/pages"], function (require, export
          * Figure out wich page to load.
          */
         App.prototype.route = function () {
-            var url = new URL(window.location.href);
-            console.log('urrl', url.pathname);
-            switch (url.pathname) {
-                case '/':
-                case '/home':
-                    this.pages.home.show();
-                    break;
-                case '/record':
-                    this.pages.record.show();
-                    break;
-                default:
-                    this.pages.notFound.show();
-                    break;
+            var previousPage = this.currentPage;
+            this.currentPage = this.getPageController();
+            if (previousPage === this.currentPage) {
+                return;
             }
+            if (previousPage) {
+                previousPage.hide();
+            }
+            this.currentPage.show();
         };
         return App;
     }());

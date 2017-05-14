@@ -1,9 +1,11 @@
+import Eventer from './../eventer';
+
 /**
  * Represents a single page. Automatically highights
  * navigation when page active and removes content
  * when page navigates away.
  */
-export default abstract class Page {
+export default abstract class Page extends Eventer {
   nav: HTMLAnchorElement;
   content: HTMLDivElement;
   container: HTMLElement;
@@ -14,6 +16,7 @@ export default abstract class Page {
    *   @noNav - do we want a main navigation item for this page?
    */
   constructor(public name: string, public noNav?: boolean) {
+    super();
     this.container = document.getElementById('content');
     this.content = document.createElement('div');
     if (!noNav) {
@@ -21,6 +24,11 @@ export default abstract class Page {
       this.nav.href = '/' + name;
       this.nav.textContent = name;
       document.querySelector('#main-nav').appendChild(this.nav);
+      this.nav.addEventListener('click', (evt: MouseEvent) => {
+        evt.preventDefault();
+        evt.stopPropagation();
+        this.trigger('nav', this.nav.href);
+      }, true);
     }
   }
 
@@ -28,7 +36,10 @@ export default abstract class Page {
    * init function must be defined by any page object
    * to set up the nav element and content.
    */
-  abstract init?(): Promise<void>;
+  init(navHandler: Function): Promise<void> {
+    this.on('nav', navHandler);
+    return null;
+  }
 
   show(): void {
     if (!this.noNav) {
@@ -45,6 +56,7 @@ export default abstract class Page {
     if (!this.noNav) {
       this.nav.classList.remove('active');
     }
+
     this.content.classList.remove('active');
   }
 }

@@ -353,7 +353,8 @@ export default class RecordPage extends Page {
     super('record');
   }
 
-  init() {
+  init(navHandler: Function) {
+    super.init(navHandler);
     this.content.innerHTML = `
     <p id="message" class="panel"></p>
     <div id="record-screen" class="screen disabled">

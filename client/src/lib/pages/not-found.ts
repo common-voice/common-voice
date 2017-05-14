@@ -7,7 +7,8 @@ export default class NotFoundPage extends Page {
     super(CLASS_NAME, true);
   }
 
-  init() {
+  init(navHandler: Function) {
+    super.init(navHandler);
     this.content.innerHTML = 'Page not found.';
     return null;
   }
