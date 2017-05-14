@@ -28,26 +28,12 @@ define("error-msg", ["require", "exports"], function (require, exports) {
     ERROR_MSG.ERR_DATA_FAILED = "Submitting your profile data failed. This may be a temporary problem. Please try again.";
     exports.default = ERROR_MSG;
 });
-var APP_FILE = './lib/app';
-/**
- * Boot the app.
- */
-function run(appModule) {
-    var App = appModule.default;
+document.addEventListener('DOMContentLoaded', function () {
     var container = document.getElementById('content');
+    var App = require('./lib/app').default;
     var app = new App(container);
     app.run();
-}
-// Configure entry point regaurdless of if requirejs has loaded yet.
-if (!require) {
-    var require_1 = {
-        deps: [APP_FILE],
-        callback: run
-    };
-}
-else {
-    require([APP_FILE], run);
-}
+});
 define("lib/api", ["require", "exports"], function (require, exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
