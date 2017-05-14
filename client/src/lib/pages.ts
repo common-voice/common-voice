@@ -1,5 +1,5 @@
-import Record from './../pages/record';
-import Home from './../pages/home';
+import Record from './pages/record';
+import Home from './pages/home';
 
 export default class Pages {
 

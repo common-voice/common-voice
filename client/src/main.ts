@@ -1,4 +1,4 @@
-/// <reference path="./vendor/require.d.ts" />
+/// <reference path="./lib/vendor/require.d.ts" />
 
 const APP_FILE = './lib/app';
 

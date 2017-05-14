@@ -1,4 +1,4 @@
-import Page from './../lib/page';
+import Page from './page';
 
 const CLASS_NAME = 'home';
 

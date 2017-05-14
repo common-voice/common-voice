@@ -8,7 +8,7 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-/// <reference path="./vendor/require.d.ts" />
+/// <reference path="./lib/vendor/require.d.ts" />
 var APP_FILE = './lib/app';
 /**
  * Boot the app.
@@ -48,7 +48,7 @@ define("lib/api", ["require", "exports"], function (require, exports) {
     }());
     exports.default = API;
 });
-define("lib/page", ["require", "exports"], function (require, exports) {
+define("lib/pages/page", ["require", "exports"], function (require, exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     /**
@@ -341,7 +341,7 @@ define("lib/viz", ["require", "exports", "lib/dsp"], function (require, exports,
     }(AnalyzerNodeView));
     exports.RadialAnalyzerNodeView = RadialAnalyzerNodeView;
 });
-define("pages/record", ["require", "exports", "lib/page", "lib/api", "lib/viz"], function (require, exports, page_1, api_1, viz_1) {
+define("lib/pages/record", ["require", "exports", "lib/pages/page", "lib/api", "lib/viz"], function (require, exports, page_1, api_1, viz_1) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     function assert(c, message) {
@@ -669,7 +669,7 @@ define("pages/record", ["require", "exports", "lib/page", "lib/api", "lib/viz"],
     }(page_1.default));
     exports.default = RecordPage;
 });
-define("pages/home", ["require", "exports", "lib/page"], function (require, exports, page_2) {
+define("lib/pages/home", ["require", "exports", "lib/pages/page"], function (require, exports, page_2) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var CLASS_NAME = 'home';
@@ -686,7 +686,7 @@ define("pages/home", ["require", "exports", "lib/page"], function (require, expo
     }(page_2.default));
     exports.default = HomePage;
 });
-define("lib/pages", ["require", "exports", "pages/record", "pages/home"], function (require, exports, record_1, home_1) {
+define("lib/pages", ["require", "exports", "lib/pages/record", "lib/pages/home"], function (require, exports, record_1, home_1) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var Pages = (function () {

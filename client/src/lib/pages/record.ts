@@ -1,6 +1,6 @@
-import Page from './../lib/page';
-import API from './../lib/api';
-import { AnalyzerNodeView, LinearAnalyzerNodeView, RadialAnalyzerNodeView, SpectogramAnalyzerNodeView } from "./../lib/viz";
+import Page from './page';
+import API from './../api';
+import { AnalyzerNodeView, LinearAnalyzerNodeView, RadialAnalyzerNodeView, SpectogramAnalyzerNodeView } from "./../viz";
 
 export function assert(c: any, message: string = "") {
   if (!c) {
