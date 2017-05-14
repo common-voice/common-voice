@@ -795,6 +795,11 @@ define("lib/pages", ["require", "exports", "lib/eventer", "lib/pages/record", "l
         __extends(Pages, _super);
         function Pages() {
             var _this = _super.call(this) || this;
+            // Create a list of pages for quick validation later.
+            _this.pages = Object.keys(Pages.PAGES).map(function (key) {
+                return Pages.PAGES[key];
+            });
+            // These are the page controllers.
             _this.home = new home_1.default();
             _this.record = new record_1.default();
             _this.notFound = new not_found_1.default();
@@ -810,7 +815,10 @@ define("lib/pages", ["require", "exports", "lib/eventer", "lib/pages/record", "l
                 this.home.init(navPageHandler),
                 this.record.init(navPageHandler),
                 this.notFound.init(navPageHandler),
-            ]);
+            ]).then(function (results) {
+                // Clear the output.
+                return;
+            });
         };
         /**
          * Get the appropriate page controller for current page
@@ -825,6 +833,9 @@ define("lib/pages", ["require", "exports", "lib/eventer", "lib/pages/record", "l
                 default:
                     return this.notFound;
             }
+        };
+        Pages.prototype.isValidPage = function (pageName) {
+            return (this.pages.indexOf(pageName) !== -1);
         };
         /**
          * Figure out which page to load.
@@ -843,6 +854,12 @@ define("lib/pages", ["require", "exports", "lib/eventer", "lib/pages/record", "l
         };
         return Pages;
     }(eventer_2.default));
+    Pages.PAGES = {
+        ROOT: '/',
+        HOME: '/home',
+        RECORD: '/record',
+        NOT_FOUND: '/notFound'
+    };
     exports.default = Pages;
 });
 define("lib/app", ["require", "exports", "lib/pages"], function (require, exports, pages_1) {
@@ -860,29 +877,41 @@ define("lib/app", ["require", "exports", "lib/pages"], function (require, export
             this.container = container;
             this.pages = new pages_1.default();
         }
-        App.prototype.parseUrl = function () {
-            this.url = new URL(window.location.href);
-            return this.url;
+        App.prototype.parseUrl = function (href) {
+            if (!href) {
+                href = window.location.href;
+            }
+            return new URL(href);
         };
-        App.prototype.getPageName = function () {
-            var url = this.parseUrl();
+        App.prototype.getPageName = function (href) {
+            var url = this.parseUrl(href);
             return url.pathname;
+        };
+        App.prototype.handleNavigation = function (href) {
+            var page = this.getPageName(href);
+            // If page is unrecognized, direct to 404 page.
+            if (!this.pages.isValidPage(page)) {
+                console.error('Page not found', page);
+                page = pages_1.default.PAGES.NOT_FOUND;
+            }
+            // Update the url history and inform apprioriate controller.
+            window.history.pushState(null, '', page);
+            this.route();
         };
         /**
          * Entry point for the application.
          */
         App.prototype.run = function () {
-            var _this = this;
+            // We'll need a bound navigation handler both now and later.
+            var handler = this.handleNavigation.bind(this);
             // Listen and respond to any navigation requests.
-            this.pages.on('nav', function (page) {
-                window.history.pushState(null, '', page);
-                _this.route();
-            });
-            // Init the helper.
-            this.pages.init().then(function () {
-                _this.route();
-            });
+            this.pages.on('nav', handler);
+            // Init the page controllers.
+            this.pages.init().then(handler);
         };
+        /**
+         * Give our page contoller the right page name.
+         */
         App.prototype.route = function () {
             var name = this.getPageName();
             this.pages.route(name);

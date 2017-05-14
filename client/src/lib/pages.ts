@@ -6,14 +6,29 @@ import NotFound from './pages/not-found';
 
 export default class Pages extends Eventer {
 
-  public home: Home;
-  public record: Record;
-  public notFound: NotFound;
+  public static PAGES = {
+    ROOT: '/',
+    HOME: '/home',
+    RECORD: '/record',
+    NOT_FOUND: '/notFound'
+  }
 
-  public currentPage: Page<any>;
+  private pages: string[];
+  private home: Home;
+  private record: Record;
+  private notFound: NotFound;
+
+  private currentPage: Page<any>;
 
   constructor() {
     super();
+
+    // Create a list of pages for quick validation later.
+    this.pages = Object.keys(Pages.PAGES).map((key: string) => {
+      return Pages.PAGES[key];
+    });
+
+    // These are the page controllers.
     this.home = new Home();
     this.record = new Record();
     this.notFound = new NotFound();
@@ -29,7 +44,10 @@ export default class Pages extends Eventer {
       this.home.init(navPageHandler),
       this.record.init(navPageHandler),
       this.notFound.init(navPageHandler),
-    ]);
+    ]).then(results => {
+      // Clear the output.
+      return;
+    });
   }
 
   /**
@@ -47,6 +65,10 @@ export default class Pages extends Eventer {
       default:
         return this.notFound;
     }
+  }
+
+  public isValidPage(pageName: string): boolean {
+    return (this.pages.indexOf(pageName) !== -1);
   }
 
   /**

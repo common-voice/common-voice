@@ -8,7 +8,6 @@ export default class App {
 
   // Allows controls of the different pages.
   pages: Pages;
-  url: URL;
 
   /**
    * App will handle routing to page controllers.
@@ -17,33 +16,49 @@ export default class App {
     this.pages = new Pages();
   }
 
-  private parseUrl(): URL {
-    this.url = new URL(window.location.href);
-    return this.url;
+  private parseUrl(href?: string): URL {
+    if (!href) {
+      href = window.location.href;
+    }
+    return new URL(href);
   }
 
-  private getPageName(): string {
-    let url = this.parseUrl();
+  private getPageName(href?: string): string {
+    let url = this.parseUrl(href);
     return url.pathname;
+  }
+
+  private handleNavigation(href: string) {
+    let page = this.getPageName(href);
+
+    // If page is unrecognized, direct to 404 page.
+    if (!this.pages.isValidPage(page)) {
+      console.error('Page not found', page);
+      page = Pages.PAGES.NOT_FOUND;
+    }
+
+    // Update the url history and inform apprioriate controller.
+    window.history.pushState(null, '', page);
+    this.route();
   }
 
   /**
    * Entry point for the application.
    */
   run(): void {
+    // We'll need a bound navigation handler both now and later.
+    let handler = this.handleNavigation.bind(this);
 
     // Listen and respond to any navigation requests.
-    this.pages.on('nav', (page: string) => {
-      window.history.pushState(null, '', page);
-      this.route();
-    });
+    this.pages.on('nav', handler);
 
-    // Init the helper.
-    this.pages.init().then(() => {
-      this.route();
-    });
+    // Init the page controllers.
+    this.pages.init().then(handler);
   }
 
+  /**
+   * Give our page contoller the right page name.
+   */
   route(): void {
     let name: string = this.getPageName();
     this.pages.route(name);
