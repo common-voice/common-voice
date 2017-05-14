@@ -48,7 +48,7 @@ export default class App {
   }
 
   /**
-   * Figure out wich page to load.
+   * Figure out which page to load.
    */
   route(): void {
     let previousPage = this.currentPage;

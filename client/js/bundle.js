@@ -8,6 +8,26 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
+define("error-msg", ["require", "exports"], function (require, exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    /*
+     * Error strings.
+     */
+    var ERROR_MSG = (function () {
+        function ERROR_MSG() {
+        }
+        return ERROR_MSG;
+    }());
+    ERROR_MSG.ERR_NO_RECORDING = "Please record first.";
+    ERROR_MSG.ERR_NO_PLAYBACK = "Please listen before submitting.";
+    ERROR_MSG.ERR_PLATFORM = "Your browser does not support audio recording.";
+    ERROR_MSG.ERR_NO_CONSENT = "You did not consent to recording. You must click the \"I Agree\" button in order to use this website.";
+    ERROR_MSG.ERR_NO_MIC = "You did not allow this website to use the microphone. The website needs the microphone to record your voice.";
+    ERROR_MSG.ERR_UPLOAD_FAILED = "Uploading your recording to the server failed. This may be a temporary problem. Please try again.";
+    ERROR_MSG.ERR_DATA_FAILED = "Submitting your profile data failed. This may be a temporary problem. Please try again.";
+    exports.default = ERROR_MSG;
+});
 /// <reference path="./lib/vendor/require.d.ts" />
 var APP_FILE = './lib/app';
 /**
@@ -129,6 +149,164 @@ define("lib/pages/page", ["require", "exports", "lib/eventer"], function (requir
         return Page;
     }(eventer_1.default));
     exports.default = Page;
+});
+define("lib/pages/record/component", ["require", "exports"], function (require, exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    var Component = (function () {
+        function Component() {
+            this.state = Object.create(null);
+        }
+        Component.prototype.setState = function (state) {
+            var needsUpdating = false;
+            for (var k in state) {
+                if (this.state[k] != state[k]) {
+                    this.state[k] = state[k];
+                    needsUpdating = true;
+                }
+            }
+            if (needsUpdating) {
+                this.forceUpdate();
+            }
+        };
+        Component.prototype.forceUpdate = function () {
+            var _this = this;
+            if (this.updateTimeout) {
+                return;
+            }
+            this.updateTimeout = setTimeout(function () {
+                _this.update();
+                _this.updateTimeout = 0;
+            });
+        };
+        Component.prototype.update = function () { };
+        return Component;
+    }());
+    exports.default = Component;
+});
+define("lib/pages/record/audio", ["require", "exports", "error-msg"], function (require, exports, error_msg_1) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    var Audio = (function () {
+        function Audio(microphone) {
+            this.chunks = [];
+            var audioContext = new AudioContext();
+            var sourceNode = audioContext.createMediaStreamSource(microphone);
+            var volumeNode = audioContext.createGain();
+            var analyzerNode = audioContext.createAnalyser();
+            var outputNode = audioContext.createMediaStreamDestination();
+            // Make sure we're doing mono everywhere.
+            sourceNode.channelCount = 1;
+            volumeNode.channelCount = 1;
+            analyzerNode.channelCount = 1;
+            outputNode.channelCount = 1;
+            // Connect the nodes together
+            sourceNode.connect(volumeNode);
+            volumeNode.connect(analyzerNode);
+            analyzerNode.connect(outputNode);
+            // and set up the recorder.
+            this.recorder = new MediaRecorder(outputNode.stream);
+            // Set up the analyzer node, and allocate an array for its data
+            // FFT size 64 gives us 32 bins. But those bins hold frequencies up to
+            // 22kHz or more, and we only care about visualizing lower frequencies
+            // which is where most human voice lies, so we use fewer bins
+            analyzerNode.fftSize = 128;
+            // Another audio node used by the beep() function
+            var beeperVolume = audioContext.createGain();
+            beeperVolume.connect(audioContext.destination);
+            this.analyzerNode = analyzerNode;
+            this.audioContext = audioContext;
+        }
+        Audio.prototype.start = function () {
+            var _this = this;
+            this.recorder.ondataavailable = function (e) {
+                console.log("Recording ...");
+                _this.chunks.push(e.data);
+            };
+            // We want to be able to record up to 60s of audio in a single blob.
+            // Without this argument to start(), Chrome will call dataavailable
+            // very frequently.
+            this.recorder.start(20000);
+        };
+        Audio.prototype.stop = function () {
+            var self = this;
+            return new Promise(function (res, reject) {
+                self.recorder.onstop = function (e) {
+                    console.log("Recorder Stopped");
+                    var blob = new Blob(self.chunks, { 'type': 'audio/ogg; codecs=opus' });
+                    self.chunks = [];
+                    self.lastRecording = blob;
+                    res(blob);
+                };
+                self.recorder.stop();
+            });
+        };
+        Audio.getMicrophone = function () {
+            return new Promise(function (res, reject) {
+                function resolve(stream) {
+                    res(stream);
+                }
+                // Reject the promise with a 'permission denied' error code
+                function deny() { reject(error_msg_1.default.ERR_NO_MIC); }
+                if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+                    navigator.mediaDevices.getUserMedia({ audio: true }).then(resolve, deny);
+                }
+                else if (navigator.getUserMedia) {
+                    navigator.getUserMedia({ audio: true }, resolve, deny);
+                }
+                else if (navigator.webkitGetUserMedia) {
+                    navigator.webkitGetUserMedia({ audio: true }, resolve, deny);
+                }
+                else if (navigator.mozGetUserMedia) {
+                    navigator.mozGetUserMedia({ audio: true }, resolve, deny);
+                }
+                else {
+                    reject(error_msg_1.default.ERR_PLATFORM); // Browser does not support getUserMedia
+                }
+            });
+        };
+        return Audio;
+    }());
+    exports.default = Audio;
+});
+/**
+ * Functions to be shared across mutiple modules.
+ */
+define("lib/utility", ["require", "exports"], function (require, exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    /**
+     * Runtime checks.
+     */
+    function assert(c, message) {
+        if (message === void 0) { message = ""; }
+        if (!c) {
+            throw new Error(message);
+        }
+    }
+    exports.assert = assert;
+    /**
+     * Get some random string in a certain format.
+     */
+    function generateGUID() {
+        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+            var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+            return v.toString(16);
+        });
+    }
+    exports.generateGUID = generateGUID;
+    // TODO: Move this functionality into a player module.
+    /**
+     * Generate and save userid, return that from now on.
+     */
+    function getUserId() {
+        if (localStorage.userId) {
+            return localStorage.userId;
+        }
+        localStorage.userId = generateGUID();
+        return localStorage.userId;
+    }
+    exports.getUserId = getUserId;
 });
 define("lib/dsp", ["require", "exports"], function (require, exports) {
     "use strict";
@@ -390,155 +568,11 @@ define("lib/viz", ["require", "exports", "lib/dsp"], function (require, exports,
     }(AnalyzerNodeView));
     exports.RadialAnalyzerNodeView = RadialAnalyzerNodeView;
 });
-define("lib/pages/record", ["require", "exports", "lib/pages/page", "lib/api", "lib/viz"], function (require, exports, page_1, api_1, viz_1) {
+define("lib/pages/record", ["require", "exports", "lib/pages/page", "lib/api", "lib/pages/record/component", "lib/pages/record/audio", "error-msg", "lib/utility", "lib/viz"], function (require, exports, page_1, api_1, component_1, audio_1, error_msg_2, utility_1, viz_1) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    function assert(c, message) {
-        if (message === void 0) { message = ""; }
-        if (!c) {
-            throw new Error(message);
-        }
-    }
-    exports.assert = assert;
-    // These are some things that can go wrong:
-    var ERR_NO_RECORDING = 'Please record first.';
-    var ERR_NO_PLAYBACK = 'Please listen before submitting.';
-    var ERR_PLATFORM = 'Your browser does not support audio recording.';
-    var ERR_NO_CONSENT = 'You did not consent to recording. ' +
-        'You must click the "I Agree" button in order to use this website.';
-    var ERR_NO_MIC = 'You did not allow this website to use the microphone. ' +
-        'The website needs the microphone to record your voice.';
-    var ERR_UPLOAD_FAILED = 'Uploading your recording to the server failed. ' +
-        'This may be a temporary problem. Please try again.';
-    var ERR_DATA_FAILED = 'Submitting your profile data failed. ' +
-        'This may be a temporary problem. Please try again.';
     var REPLAY_TIMEOUT = 200;
     var SOUNDCLIP_URL = '/upload/';
-    function generateGUID() {
-        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
-            var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
-            return v.toString(16);
-        });
-    }
-    function getUserId() {
-        if (localStorage.userId) {
-            return localStorage.userId;
-        }
-        localStorage.userId = generateGUID();
-        return localStorage.userId;
-    }
-    var Component = (function () {
-        function Component() {
-            this.state = Object.create(null);
-        }
-        Component.prototype.setState = function (state) {
-            var needsUpdating = false;
-            for (var k in state) {
-                if (this.state[k] != state[k]) {
-                    this.state[k] = state[k];
-                    needsUpdating = true;
-                }
-            }
-            if (needsUpdating) {
-                this.forceUpdate();
-            }
-        };
-        Component.prototype.forceUpdate = function () {
-            var _this = this;
-            if (this.updateTimeout) {
-                return;
-            }
-            this.updateTimeout = setTimeout(function () {
-                _this.update();
-                _this.updateTimeout = 0;
-            });
-        };
-        Component.prototype.update = function () {
-        };
-        return Component;
-    }());
-    exports.Component = Component;
-    var Audio = (function () {
-        function Audio(microphone) {
-            this.chunks = [];
-            var audioContext = new AudioContext();
-            var sourceNode = audioContext.createMediaStreamSource(microphone);
-            var volumeNode = audioContext.createGain();
-            var analyzerNode = audioContext.createAnalyser();
-            var outputNode = audioContext.createMediaStreamDestination();
-            // Make sure we're doing mono everywhere.
-            sourceNode.channelCount = 1;
-            volumeNode.channelCount = 1;
-            analyzerNode.channelCount = 1;
-            outputNode.channelCount = 1;
-            // Connect the nodes together
-            sourceNode.connect(volumeNode);
-            volumeNode.connect(analyzerNode);
-            analyzerNode.connect(outputNode);
-            // and set up the recorder.
-            this.recorder = new MediaRecorder(outputNode.stream);
-            // Set up the analyzer node, and allocate an array for its data
-            // FFT size 64 gives us 32 bins. But those bins hold frequencies up to
-            // 22kHz or more, and we only care about visualizing lower frequencies
-            // which is where most human voice lies, so we use fewer bins
-            analyzerNode.fftSize = 128;
-            // Another audio node used by the beep() function
-            var beeperVolume = audioContext.createGain();
-            beeperVolume.connect(audioContext.destination);
-            this.analyzerNode = analyzerNode;
-            this.audioContext = audioContext;
-        }
-        Audio.prototype.start = function () {
-            var _this = this;
-            this.recorder.ondataavailable = function (e) {
-                console.log("Recording ...");
-                _this.chunks.push(e.data);
-            };
-            // We want to be able to record up to 60s of audio in a single blob.
-            // Without this argument to start(), Chrome will call dataavailable
-            // very frequently.
-            this.recorder.start(20000);
-        };
-        Audio.prototype.stop = function () {
-            var self = this;
-            return new Promise(function (res, reject) {
-                self.recorder.onstop = function (e) {
-                    console.log("Recorder Stopped");
-                    var blob = new Blob(self.chunks, { 'type': 'audio/ogg; codecs=opus' });
-                    self.chunks = [];
-                    self.lastRecording = blob;
-                    res(blob);
-                };
-                self.recorder.stop();
-            });
-        };
-        Audio.getMicrophone = function () {
-            return new Promise(function (res, reject) {
-                function resolve(stream) {
-                    res(stream);
-                }
-                // Reject the promise with a 'permission denied' error code
-                function deny() { reject(ERR_NO_MIC); }
-                if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
-                    navigator.mediaDevices.getUserMedia({ audio: true }).then(resolve, deny);
-                }
-                else if (navigator.getUserMedia) {
-                    navigator.getUserMedia({ audio: true }, resolve, deny);
-                }
-                else if (navigator.webkitGetUserMedia) {
-                    navigator.webkitGetUserMedia({ audio: true }, resolve, deny);
-                }
-                else if (navigator.mozGetUserMedia) {
-                    navigator.mozGetUserMedia({ audio: true }, resolve, deny);
-                }
-                else {
-                    reject(ERR_PLATFORM); // Browser does not support getUserMedia
-                }
-            });
-        };
-        return Audio;
-    }());
-    exports.Audio = Audio;
     var RecordComponent = (function (_super) {
         __extends(RecordComponent, _super);
         function RecordComponent(container, microphone) {
@@ -553,7 +587,7 @@ define("lib/pages/record", ["require", "exports", "lib/pages/page", "lib/api", "
                 recordingStartTime: 0
             };
             _this.api = new api_1.default();
-            _this.audio = new Audio(microphone);
+            _this.audio = new audio_1.default(microphone);
             _this.mount();
             _this.newSentence();
             return _this;
@@ -607,7 +641,7 @@ define("lib/pages/record", ["require", "exports", "lib/pages/page", "lib/api", "
         RecordComponent.prototype.stopRecording = function () {
             var _this = this;
             this.setState({ recording: false });
-            assert(this.recordingInterval);
+            utility_1.assert(this.recordingInterval);
             clearInterval(this.recordingInterval);
             this.recordingInterval = 0;
             this.audio.stop().then(function () {
@@ -631,14 +665,14 @@ define("lib/pages/record", ["require", "exports", "lib/pages/page", "lib/api", "
                 req.upload.addEventListener('load', resolve);
                 req.upload.addEventListener("error", reject);
                 req.open('POST', SOUNDCLIP_URL);
-                req.setRequestHeader('uid', getUserId());
+                req.setRequestHeader('uid', utility_1.getUserId());
                 req.setRequestHeader('sentence', encodeURIComponent(self.state.sentence));
                 req.send(self.audio.lastRecording);
             });
             upload.then(function () {
                 console.log("Uploaded Ok.");
             }).catch(function (e) {
-                console.log("Upload Error: " + ERR_UPLOAD_FAILED);
+                console.log("Upload Error: " + error_msg_2.default.ERR_UPLOAD_FAILED);
             });
         };
         RecordComponent.prototype.onPlayClick = function () {
@@ -695,7 +729,7 @@ define("lib/pages/record", ["require", "exports", "lib/pages/page", "lib/api", "
             this.nextButtonEl.classList.toggle('disabled', this.state.recording || this.state.playing);
         };
         return RecordComponent;
-    }(Component));
+    }(component_1.default));
     exports.RecordComponent = RecordComponent;
     var RecordPage = (function (_super) {
         __extends(RecordPage, _super);
@@ -710,7 +744,7 @@ define("lib/pages/record", ["require", "exports", "lib/pages/page", "lib/api", "
         RecordPage.prototype.show = function () {
             var _this = this;
             _super.prototype.show.call(this);
-            return Audio.getMicrophone().then(function (microphone) {
+            return audio_1.default.getMicrophone().then(function (microphone) {
                 _this.microphone = microphone;
                 new RecordComponent(_this.content, microphone);
             });
@@ -823,7 +857,7 @@ define("lib/app", ["require", "exports", "lib/pages"], function (require, export
             });
         };
         /**
-         * Figure out wich page to load.
+         * Figure out which page to load.
          */
         App.prototype.route = function () {
             var previousPage = this.currentPage;

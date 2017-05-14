@@ -1,162 +1,20 @@
 import Page from './page';
 import API from './../api';
-import { AnalyzerNodeView, LinearAnalyzerNodeView, RadialAnalyzerNodeView, SpectogramAnalyzerNodeView } from "./../viz";
+import Component from './record/component';
+import Audio from './record/audio';
+import ERROR_MSG from '../../error-msg';
+import { assert, generateGUID, getUserId } from '../utility';
 
-export function assert(c: any, message: string = "") {
-  if (!c) {
-    throw new Error(message);
-  }
-}
+import {
+  AnalyzerNodeView,
+  LinearAnalyzerNodeView,
+  RadialAnalyzerNodeView,
+  SpectogramAnalyzerNodeView
+} from "./../viz";
 
-declare var MediaRecorder: any;
-
-// These are some things that can go wrong:
-var ERR_NO_RECORDING = 'Please record first.';
-var ERR_NO_PLAYBACK = 'Please listen before submitting.';
-var ERR_PLATFORM = 'Your browser does not support audio recording.';
-var ERR_NO_CONSENT = 'You did not consent to recording. ' +
-  'You must click the "I Agree" button in order to use this website.';
-var ERR_NO_MIC = 'You did not allow this website to use the microphone. ' +
-  'The website needs the microphone to record your voice.';
-var ERR_UPLOAD_FAILED = 'Uploading your recording to the server failed. ' +
-  'This may be a temporary problem. Please try again.';
-var ERR_DATA_FAILED = 'Submitting your profile data failed. ' +
-  'This may be a temporary problem. Please try again.';
 var REPLAY_TIMEOUT = 200;
 
 var SOUNDCLIP_URL = '/upload/';
-
-function generateGUID() {
-  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
-    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
-    return v.toString(16);
-  });
-}
-
-function getUserId() {
-  if (localStorage.userId) {
-    return localStorage.userId;
-  }
-  localStorage.userId = generateGUID();
-  return localStorage.userId;
-}
-
-export class Component<State> {
-  state: State = Object.create(null);
-  updateTimeout: number;
-  setState(state: State) {
-    let needsUpdating = false;
-    for (let k in state) {
-      if (this.state[k] != state[k]) {
-        this.state[k] = state[k];
-        needsUpdating = true;
-      }
-    }
-    if (needsUpdating) {
-      this.forceUpdate();
-    }
-  }
-  forceUpdate() {
-    if (this.updateTimeout) {
-      return;
-    }
-    this.updateTimeout = setTimeout(() => {
-      this.update();
-      this.updateTimeout = 0;
-    });
-  }
-  update() {
-
-  }
-}
-
-export class Audio {
-  analyzerNode: AnalyserNode;
-  audioContext: AudioContext;
-  recorder: any;
-  lastRecording: Blob;
-  private chunks = [];
-  constructor(microphone) {
-    var audioContext = new AudioContext();
-    var sourceNode = audioContext.createMediaStreamSource(microphone);
-    var volumeNode = audioContext.createGain();
-    var analyzerNode = audioContext.createAnalyser();
-    var outputNode = audioContext.createMediaStreamDestination();
-    // Make sure we're doing mono everywhere.
-    sourceNode.channelCount = 1;
-    volumeNode.channelCount = 1;
-    analyzerNode.channelCount = 1;
-    outputNode.channelCount = 1;
-    // Connect the nodes together
-    sourceNode.connect(volumeNode);
-    volumeNode.connect(analyzerNode);
-    analyzerNode.connect(outputNode);
-    // and set up the recorder.
-    this.recorder = new MediaRecorder(outputNode.stream);
-
-    // Set up the analyzer node, and allocate an array for its data
-    // FFT size 64 gives us 32 bins. But those bins hold frequencies up to
-    // 22kHz or more, and we only care about visualizing lower frequencies
-    // which is where most human voice lies, so we use fewer bins
-    analyzerNode.fftSize = 128;
-
-    // Another audio node used by the beep() function
-    var beeperVolume = audioContext.createGain();
-    beeperVolume.connect(audioContext.destination);
-
-    this.analyzerNode = analyzerNode;
-    this.audioContext = audioContext;
-  }
-  start() {
-    this.recorder.ondataavailable = (e) => {
-      console.log("Recording ...");
-      this.chunks.push(e.data);
-    };
-
-    // We want to be able to record up to 60s of audio in a single blob.
-    // Without this argument to start(), Chrome will call dataavailable
-    // very frequently.
-    this.recorder.start(20000);
-  }
-  stop() {
-    let self = this;
-    return new Promise(function (res, reject) {
-      self.recorder.onstop = (e) => {
-        console.log("Recorder Stopped");
-        var blob = new Blob(self.chunks, { 'type': 'audio/ogg; codecs=opus' });
-        self.chunks = [];
-        self.lastRecording = blob;
-        res(blob);
-      };
-      self.recorder.stop();
-    });
-  }
-  static getMicrophone(): Promise<MediaStream> {
-    return new Promise(function (res, reject) {
-      function resolve(stream) {
-        res(stream);
-      }
-      // Reject the promise with a 'permission denied' error code
-      function deny() { reject(ERR_NO_MIC); }
-
-      if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
-        navigator.mediaDevices.getUserMedia({ audio: true }).then(resolve, deny);
-      }
-      else if (navigator.getUserMedia) {
-        navigator.getUserMedia({ audio: true }, resolve, deny);
-      }
-      else if (navigator.webkitGetUserMedia) {
-        navigator.webkitGetUserMedia({ audio: true }, resolve, deny);
-      }
-      else if (navigator.mozGetUserMedia) {
-        navigator.mozGetUserMedia({ audio: true }, resolve, deny);
-      }
-      else {
-        reject(ERR_PLATFORM);  // Browser does not support getUserMedia
-      }
-    });
-  }
-}
 
 export class RecordComponent extends Component<{
   sentence: string,
@@ -284,7 +142,7 @@ export class RecordComponent extends Component<{
     upload.then(function() {
       console.log("Uploaded Ok.");
     }).catch(function(e) {
-      console.log("Upload Error: " + ERR_UPLOAD_FAILED);
+      console.log("Upload Error: " + ERROR_MSG.ERR_UPLOAD_FAILED);
     });
   }
   onPlayClick() {
