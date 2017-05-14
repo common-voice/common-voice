@@ -1,4 +1,4 @@
-import Eventer from '../eventer';
+import Component from '../component';
 import User from '../user';
 
 /**
@@ -6,13 +6,10 @@ import User from '../user';
  * navigation when page active and removes content
  * when page navigates away.
  */
-export default abstract class Page<State> extends Eventer {
-
-  state: State = Object.create(null);
+export default abstract class Page<State> extends Component<State> {
   name: string;
-  updateTimeout: number;
   nav: HTMLAnchorElement;
-  content: HTMLDivElement;
+  content: HTMLElement;
   container: HTMLElement;
 
   /**
@@ -47,35 +44,9 @@ export default abstract class Page<State> extends Eventer {
     this.on('nav', navHandler);
     return null;
   }
-
-  setState(state: State) {
-    let needsUpdating = false;
-    for (let k in state) {
-      if (this.state[k] != state[k]) {
-        this.state[k] = state[k];
-        needsUpdating = true;
-      }
-    }
-    if (needsUpdating) {
-      this.forceUpdate();
-    }
-  }
-
-  forceUpdate() {
-    if (this.updateTimeout) {
-      return;
-    }
-    this.updateTimeout = setTimeout(() => {
-      this.update();
-      this.updateTimeout = 0;
-    });
-  }
-
   /**
-   * Called whenever page state has changed (debounced).
+   * Show this page using css.
    */
-  update() {}
-
   show(): void {
     if (!this.noNav) {
       this.nav.classList.add('active');
@@ -87,6 +58,9 @@ export default abstract class Page<State> extends Eventer {
     }
   }
 
+  /**
+   * Hide this page using css.
+   */
   hide(): void {
     if (!this.noNav) {
       this.nav.classList.remove('active');

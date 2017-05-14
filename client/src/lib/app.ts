@@ -14,7 +14,7 @@ export default class App {
   /**
    * App will handle routing to page controllers.
    */
-  constructor(public container: HTMLElement) {
+  constructor() {
     this.user = new User();
     this.pages = new Pages(this.user);
   }

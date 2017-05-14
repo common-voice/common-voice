@@ -4,7 +4,6 @@ import API from './../api';
 import Audio from './record/audio';
 import ERROR_MSG from '../../error-msg';
 import { assert, generateGUID } from '../utility';
-
 import {
   AnalyzerNodeView,
   LinearAnalyzerNodeView,
@@ -16,13 +15,15 @@ const REPLAY_TIMEOUT = 200;
 const SOUNDCLIP_URL = '/upload/';
 const PAGE_NAME = 'record';
 
-export default class RecordPage extends Page<{
+interface RecordState {
   sentence: string,
   message: string,
   playing: boolean,
   recording: boolean,
   recordingStartTime: number
-}> {
+}
+
+export default class RecordPage extends Page<RecordState> {
   name: string = PAGE_NAME;
   api: API;
   microphone: MediaStream;

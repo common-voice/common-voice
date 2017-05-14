@@ -1,8 +1,12 @@
-import Eventer from '../eventer';
+import Eventer from 'eventer';
 
+/**
+ * Allows debounced updates when state chages.
+ */
 export default class Component<State> extends Eventer {
   state: State = Object.create(null);
   updateTimeout: number;
+
   setState(state: State) {
     let needsUpdating = false;
     for (let k in state) {
@@ -15,6 +19,7 @@ export default class Component<State> extends Eventer {
       this.forceUpdate();
     }
   }
+
   forceUpdate() {
     if (this.updateTimeout) {
       return;
@@ -24,18 +29,10 @@ export default class Component<State> extends Eventer {
       this.updateTimeout = 0;
     });
   }
+
+  /**
+   * Called whenever page state has changed (debounced).
+   */
   update() {}
 
-  on(type: string, cb: Function) {
-    this['_on' + type] = this['_on' + type] || [];
-    this['_on' + type].push(cb);
-  }
-
-  trigger(type: string, value: any) {
-    if (this['_on' + type]) {
-      this['_on' + type].forEach((cb: Function) => {
-        cb(value, this.state)
-      });
-    }
-  }
 }
