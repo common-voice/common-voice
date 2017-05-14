@@ -735,6 +735,10 @@ define("lib/pages/record", ["require", "exports", "lib/pages/page", "lib/api", "
         RecordPage.prototype.show = function () {
             var _this = this;
             _super.prototype.show.call(this);
+            // If we already grabbed he micorphone before, we're done.
+            if (this.microphone) {
+                return;
+            }
             // TODO: only request microphone when user presses record.
             audio_1.default.getMicrophone().then(function (microphone) {
                 _this.microphone = microphone;

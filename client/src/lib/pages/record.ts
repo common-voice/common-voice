@@ -260,6 +260,11 @@ export default class RecordPage extends Page<{
   show() {
     super.show();
 
+    // If we already grabbed he micorphone before, we're done.
+    if (this.microphone) {
+      return;
+    }
+
     // TODO: only request microphone when user presses record.
     Audio.getMicrophone().then((microphone) => {
       this.microphone = microphone;
