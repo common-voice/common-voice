@@ -18,7 +18,7 @@ export default abstract class Page {
     this.content = document.createElement('div');
     if (!noNav) {
       this.nav = document.createElement('a');
-      this.nav.href = name;
+      this.nav.href = '/' + name;
       this.nav.textContent = name;
       document.querySelector('#main-nav').appendChild(this.nav);
     }
