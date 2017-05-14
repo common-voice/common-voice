@@ -57,24 +57,36 @@ define("lib/pages/page", ["require", "exports"], function (require, exports) {
      * when page navigates away.
      */
     var Page = (function () {
-        function Page(name) {
+        /**
+         * Create a page object
+         *   @name - the name of the page
+         *   @noNav - do we want a main navigation item for this page?
+         */
+        function Page(name, noNav) {
             this.name = name;
+            this.noNav = noNav;
             this.container = document.getElementById('content');
             this.content = document.createElement('div');
-            this.nav = document.createElement('a');
-            this.nav.href = name;
-            this.nav.textContent = name;
-            document.querySelector('#main-nav').appendChild(this.nav);
+            if (!noNav) {
+                this.nav = document.createElement('a');
+                this.nav.href = name;
+                this.nav.textContent = name;
+                document.querySelector('#main-nav').appendChild(this.nav);
+            }
         }
         Page.prototype.show = function () {
-            this.nav.classList.add('active');
+            if (!this.noNav) {
+                this.nav.classList.add('active');
+            }
             this.content.classList.add('active');
             if (!this.content.parentNode) {
                 this.container.appendChild(this.content);
             }
         };
         Page.prototype.hide = function () {
-            this.nav.classList.remove('active');
+            if (!this.noNav) {
+                this.nav.classList.remove('active');
+            }
             this.content.classList.remove('active');
         };
         return Page;
@@ -686,18 +698,37 @@ define("lib/pages/home", ["require", "exports", "lib/pages/page"], function (req
     }(page_2.default));
     exports.default = HomePage;
 });
-define("lib/pages", ["require", "exports", "lib/pages/record", "lib/pages/home"], function (require, exports, record_1, home_1) {
+define("lib/pages/not-found", ["require", "exports", "lib/pages/page"], function (require, exports, page_3) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    var CLASS_NAME = 'notFound';
+    var NotFoundPage = (function (_super) {
+        __extends(NotFoundPage, _super);
+        function NotFoundPage() {
+            return _super.call(this, CLASS_NAME, true) || this;
+        }
+        NotFoundPage.prototype.init = function () {
+            this.content.innerHTML = 'Page not found.';
+            return null;
+        };
+        return NotFoundPage;
+    }(page_3.default));
+    exports.default = NotFoundPage;
+});
+define("lib/pages", ["require", "exports", "lib/pages/record", "lib/pages/home", "lib/pages/not-found"], function (require, exports, record_1, home_1, not_found_1) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var Pages = (function () {
         function Pages() {
             this.home = new home_1.default();
             this.record = new record_1.default();
+            this.notFound = new not_found_1.default();
         }
         Pages.prototype.init = function () {
             return Promise.all([
                 this.home.init(),
-                this.record.init()
+                this.record.init(),
+                this.notFound.init(),
             ]);
         };
         return Pages;
@@ -737,6 +768,9 @@ define("lib/app", ["require", "exports", "lib/pages"], function (require, export
                     break;
                 case '/record':
                     this.pages.record.show();
+                    break;
+                default:
+                    this.pages.notFound.show();
                     break;
             }
         };

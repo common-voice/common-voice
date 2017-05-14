@@ -36,6 +36,10 @@ export default class App {
       case '/record':
         this.pages.record.show();
         break;
+
+      default:
+        this.pages.notFound.show();
+        break;
     }
   }
 }
