@@ -28,7 +28,6 @@ define("error-msg", ["require", "exports"], function (require, exports) {
     ERROR_MSG.ERR_DATA_FAILED = "Submitting your profile data failed. This may be a temporary problem. Please try again.";
     exports.default = ERROR_MSG;
 });
-/// <reference path="./lib/vendor/require.d.ts" />
 var APP_FILE = './lib/app';
 /**
  * Boot the app.
@@ -154,6 +153,9 @@ define("lib/pages/page", ["require", "exports", "lib/eventer"], function (requir
                 _this.updateTimeout = 0;
             });
         };
+        /**
+         * Called whenever page state has changed (debounced).
+         */
         Page.prototype.update = function () { };
         Page.prototype.show = function () {
             if (!this.noNav) {

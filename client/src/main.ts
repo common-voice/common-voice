@@ -1,5 +1,3 @@
-/// <reference path="./lib/vendor/require.d.ts" />
-
 const APP_FILE = './lib/app';
 
 /**
