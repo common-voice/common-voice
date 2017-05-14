@@ -113,7 +113,7 @@ define("lib/user", ["require", "exports", "lib/utility"], function (require, exp
             return localStorage.userId;
         };
         User.prototype.getId = function () {
-            return this.userid;
+            return this.userId;
         };
         return User;
     }());

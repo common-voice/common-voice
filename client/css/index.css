@@ -67,6 +67,7 @@ button.disabled {
   display: block;
 }
 
+#message,
 #toolbar {
   border: none;
   text-align: center;
@@ -80,31 +81,7 @@ button.disabled {
 }
 
 #message {
-  border: none;
-  text-align: center;
-  color: #757575;
-  background-color: #424242;
-  transition: transform 0.2s ease-in;
-  padding: 10px 10px;
-  margin: 0 0 10px;
-  position: relative;
-  z-index: 2;
   display: none;
-}
-
-#sentenceContainer {
-  border: none;
-  text-align: center;
-  color: #FAFAFA;
-  background-color: #212121;
-  transition: transform 0.2s ease-in;
-  padding: 30px 10px;
-  margin: 0 0 10px;
-  position: relative;
-  z-index: 2;
-  font-size: 18px;
-  height: 100px;
-  font-family: 'Roboto Slab', serif;
 }
 
 #sentence {

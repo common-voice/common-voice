@@ -5,6 +5,8 @@ import { generateGUID } from './utility';
  */
 export default class User {
 
+  userId: string;
+
   // Store userid on this object.
   constructor() {
     this.userId = this.getIdFromStorage();
@@ -20,6 +22,6 @@ export default class User {
   }
 
   public getId(): string {
-    return this.userid;
+    return this.userId;
   }
 }
