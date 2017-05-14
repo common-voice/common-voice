@@ -1,4 +1,6 @@
-export default class Component<State> {
+import Eventer from '../eventer';
+
+export default class Component<State> extends Eventer {
   state: State = Object.create(null);
   updateTimeout: number;
   setState(state: State) {
@@ -23,4 +25,17 @@ export default class Component<State> {
     });
   }
   update() {}
+
+  on(type: string, cb: Function) {
+    this['_on' + type] = this['_on' + type] || [];
+    this['_on' + type].push(cb);
+  }
+
+  trigger(type: string, value: any) {
+    if (this['_on' + type]) {
+      this['_on' + type].forEach((cb: Function) => {
+        cb(value, this.state)
+      });
+    }
+  }
 }

@@ -1,11 +1,15 @@
-import Eventer from './../eventer';
+import Eventer from '../eventer';
 
 /**
  * Represents a single page. Automatically highights
  * navigation when page active and removes content
  * when page navigates away.
  */
-export default abstract class Page extends Eventer {
+export default abstract class Page<State> extends Eventer {
+
+  state: State = Object.create(null);
+  name: string;
+  updateTimeout: number;
   nav: HTMLAnchorElement;
   content: HTMLDivElement;
   container: HTMLElement;
@@ -15,10 +19,12 @@ export default abstract class Page extends Eventer {
    *   @name - the name of the page
    *   @noNav - do we want a main navigation item for this page?
    */
-  constructor(public name: string, public noNav?: boolean) {
+  constructor(name: string, public noNav?: boolean) {
     super();
     this.container = document.getElementById('content');
     this.content = document.createElement('div');
+
+    // Some pages (like 404) will not need a navigation tab.
     if (!noNav) {
       this.nav = document.createElement('a');
       this.nav.href = '/' + name;
@@ -40,6 +46,34 @@ export default abstract class Page extends Eventer {
     this.on('nav', navHandler);
     return null;
   }
+
+  setState(state: State) {
+    let needsUpdating = false;
+    for (let k in state) {
+      if (this.state[k] != state[k]) {
+        this.state[k] = state[k];
+        needsUpdating = true;
+      }
+    }
+    if (needsUpdating) {
+      this.forceUpdate();
+    }
+  }
+
+  forceUpdate() {
+    if (this.updateTimeout) {
+      return;
+    }
+    this.updateTimeout = setTimeout(() => {
+      this.update();
+      this.updateTimeout = 0;
+    });
+  }
+
+  /**
+   * Called whenever page state has changed (debounced).
+   */
+  update() {}
 
   show(): void {
     if (!this.noNav) {

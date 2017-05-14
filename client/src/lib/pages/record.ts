@@ -1,6 +1,5 @@
 import Page from './page';
 import API from './../api';
-import Component from './record/component';
 import Audio from './record/audio';
 import ERROR_MSG from '../../error-msg';
 import { assert, generateGUID, getUserId } from '../utility';
@@ -12,18 +11,20 @@ import {
   SpectogramAnalyzerNodeView
 } from "./../viz";
 
-var REPLAY_TIMEOUT = 200;
+const REPLAY_TIMEOUT = 200;
+const SOUNDCLIP_URL = '/upload/';
+const PAGE_NAME = 'record';
 
-var SOUNDCLIP_URL = '/upload/';
-
-export class RecordComponent extends Component<{
+export default class RecordPage extends Page<{
   sentence: string,
   message: string,
   playing: boolean,
   recording: boolean,
   recordingStartTime: number
 }> {
+  name: string = PAGE_NAME;
   api: API;
+  microphone: MediaStream;
   messageEl: HTMLDivElement;
   sentenceEl: HTMLSpanElement;
   elapsedTimeEl: HTMLDivElement;
@@ -35,10 +36,9 @@ export class RecordComponent extends Component<{
   visualizer: AnalyzerNodeView;
   radialVisualizer: AnalyzerNodeView;
   spectrogramVisualizer: AnalyzerNodeView;
-
   audio: Audio;
-  constructor(private container: HTMLDivElement, microphone: MediaStream) {
-    super();
+  constructor() {
+    super(PAGE_NAME);
     this.state = {
       sentence: "",
       message: "",
@@ -47,15 +47,54 @@ export class RecordComponent extends Component<{
       recordingStartTime: 0
     }
     this.api = new API();
-    this.audio = new Audio(microphone);
-    this.mount();
-    this.newSentence();
   }
   mount() {
+    this.content.innerHTML = `
+    <p id="message" class="panel"></p>
+    <div id="record-screen" class="screen disabled">
+      <div id="error-screen" class="screen panel" hidden>
+        <div class="panel-head">Error</div>
+        <div class="panel-content">
+          <p class="title" id="error-message"></p>
+          <h2 hidden id="error-reload">
+            Reload the page to try again
+          </h2>
+          <p id="error-supported">
+            Please check your browser's compatibility:
+            <table>
+              <tr><th>Platform<th>Browser</tr>
+              <tr><td>Desktop<td>Firefox, Chrome supported</tr>
+              <tr><td>Android<td>Firefox supported</tr>
+              <tr><td>iPhone, iPad<td><b>Not supported</b></tr>
+            </table>
+          </p>
+        </div>
+      </div>
+
+      <div id="sentence" class="title">Say something out loud!</div>
+      <span id="record-progress" class="progress small"></span>
+      <div id="toolbar">
+        <button id="recordButton" class="active" type="button">Record</button>
+        <button id="playButton" type="button">Play</button>
+        <button id="uploadButton" type="button">Submit</button>
+        <button id="nextButton" type="button">Next</button>
+      </div>
+      <input id="excerpt" type="hidden" name="excerpt" value="">
+      <div id="elapsedTime"></div>
+      <div id="viz">
+        <canvas id="radialLevels" width=100 height=100></canvas>
+      </div>
+      <span id="upload-progress" class="progress small"></span>
+      <input id="sensitivity" style="display: none"
+                              type="range" min="1" max="200"></input>
+      <audio id="player" controls="controls" class="disabled"></audio>
+    </div>`;
+
+
     // <canvas id="levels" width=100 height=100></canvas>
     // <canvas id="spectrogram" width=100 height=100></canvas>
 
-    var $ = this.container.querySelector.bind(this.container);
+    var $ = this.content.querySelector.bind(this.content);
     this.messageEl = $('#message');
     this.sentenceEl = $('#sentence');
 
@@ -66,12 +105,18 @@ export class RecordComponent extends Component<{
     this.nextButtonEl = el.querySelector('#nextButton') as HTMLButtonElement;
     this.elapsedTimeEl = el.querySelector('#elapsedTime') as HTMLDivElement;
     this.playerEl = el.querySelector('#player') as HTMLMediaElement;
+    this.playerEl.addEventListener('canplaythrough', this.onCanPlayThrough.bind(this));
+    this.playerEl.addEventListener('play', this.onPlay.bind(this));
+    this.playerEl.addEventListener('ended', this.onPlayEnded.bind(this));
 
     this.recordButtonEl.addEventListener('click', this.onRecordClick.bind(this));
     this.uploadButtonEl.addEventListener('click', this.onUploadClick.bind(this));
     this.playButtonEl.addEventListener('click', this.onPlayClick.bind(this));
     this.nextButtonEl.addEventListener('click', this.onNextClick.bind(this));
+  }
 
+  showViz() {
+    let el = this.content.querySelector('#record-screen');
     // var levels = el.querySelector('#levels') as HTMLCanvasElement;
     var radialLevels = el.querySelector('#radialLevels') as HTMLCanvasElement;
     // var spectrogram = el.querySelector('#spectrogram') as HTMLCanvasElement;
@@ -80,10 +125,6 @@ export class RecordComponent extends Component<{
     this.radialVisualizer = new RadialAnalyzerNodeView(this.audio.analyzerNode, radialLevels, 300, 300);
     // this.spectrogramVisualizer = new SpectogramAnalyzerNodeView(this.audio.analyzerNode, spectrogram, 500, 300);
 
-
-    this.playerEl.addEventListener('canplaythrough', this.onCanPlayThrough.bind(this));
-    this.playerEl.addEventListener('play', this.onPlay.bind(this));
-    this.playerEl.addEventListener('ended', this.onPlayEnded.bind(this));
   }
 
   onRecordClick() {
@@ -174,8 +215,15 @@ export class RecordComponent extends Component<{
     });
   }
   update() {
+    super.update();
     this.sentenceEl.textContent = `${this.state.sentence}`;
     this.messageEl.textContent = this.state.message ? `${this.state.message}` : "N/A";
+
+    // Only update the radio tools if we've been granted microphone access.
+    if (!this.microphone) {
+      return;
+    }
+
     this.recordButtonEl.textContent = this.state.recording ? 'Stop' : 'Record';
     this.playButtonEl.textContent = this.state.playing ? 'Stop' : 'Play';
 
@@ -202,66 +250,24 @@ export class RecordComponent extends Component<{
     this.uploadButtonEl.classList.toggle('disabled', !this.audio.lastRecording || this.state.recording || this.state.playing);
     this.nextButtonEl.classList.toggle('disabled', this.state.recording || this.state.playing);
   }
-}
-
-export default class RecordPage extends Page {
-  microphone: MediaStream;
-
-  constructor() {
-    super('record');
-  }
 
   init(navHandler: Function) {
     super.init(navHandler);
-    this.content.innerHTML = `
-    <p id="message" class="panel"></p>
-    <div id="record-screen" class="screen disabled">
-      <div id="error-screen" class="screen panel" hidden>
-        <div class="panel-head">Error</div>
-        <div class="panel-content">
-          <p class="title" id="error-message"></p>
-          <h2 hidden id="error-reload">
-            Reload the page to try again
-          </h2>
-          <p id="error-supported">
-            Please check your browser's compatibility:
-            <table>
-              <tr><th>Platform<th>Browser</tr>
-              <tr><td>Desktop<td>Firefox, Chrome supported</tr>
-              <tr><td>Android<td>Firefox supported</tr>
-              <tr><td>iPhone, iPad<td><b>Not supported</b></tr>
-            </table>
-          </p>
-        </div>
-      </div>
-
-      <div id="sentence" class="title">Say something out loud!</div>
-      <span id="record-progress" class="progress small"></span>
-      <div id="toolbar">
-        <button id="recordButton" class="active" type="button">Record</button>
-        <button id="playButton" type="button">Play</button>
-        <button id="uploadButton" type="button">Submit</button>
-        <button id="nextButton" type="button">Next</button>
-      </div>
-      <input id="excerpt" type="hidden" name="excerpt" value="">
-      <div id="elapsedTime"></div>
-      <div id="viz">
-        <canvas id="radialLevels" width=100 height=100></canvas>
-      </div>
-      <span id="upload-progress" class="progress small"></span>
-      <input id="sensitivity" style="display: none"
-                              type="range" min="1" max="200"></input>
-      <audio id="player" controls="controls" class="disabled"></audio>
-    </div>`;
-
-    return Promise.resolve();
+    this.mount();
+    return null;
   }
 
   show() {
     super.show();
-    return Audio.getMicrophone().then((microphone) => {
+
+    // TODO: only request microphone when user presses record.
+    Audio.getMicrophone().then((microphone) => {
       this.microphone = microphone;
-      new RecordComponent(this.content as HTMLDivElement, microphone);
+      this.audio = new Audio(microphone);
+      this.showViz();
+
+      // Trigger page update.
+      this.newSentence();
     });
   }
 }

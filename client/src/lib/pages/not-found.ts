@@ -1,10 +1,12 @@
 import Page from './page';
 
-const CLASS_NAME = 'notFound';
+const PAGE_NAME = 'notFound';
 
-export default class NotFoundPage extends Page {
+export default class NotFoundPage extends Page<void> {
+  name: string = PAGE_NAME;
+
   constructor() {
-    super(CLASS_NAME, true);
+    super(PAGE_NAME, true);
   }
 
   init(navHandler: Function) {

@@ -1,10 +1,12 @@
 import Page from './page';
 
-const CLASS_NAME = 'home';
+const PAGE_NAME = 'home'
 
-export default class HomePage extends Page {
+export default class HomePage extends Page<void> {
+  name: string = PAGE_NAME;
+
   constructor() {
-    super(CLASS_NAME);
+    super(PAGE_NAME);
   }
 
   init(navHandler: Function) {

@@ -106,10 +106,11 @@ define("lib/pages/page", ["require", "exports", "lib/eventer"], function (requir
          */
         function Page(name, noNav) {
             var _this = _super.call(this) || this;
-            _this.name = name;
             _this.noNav = noNav;
+            _this.state = Object.create(null);
             _this.container = document.getElementById('content');
             _this.content = document.createElement('div');
+            // Some pages (like 404) will not need a navigation tab.
             if (!noNav) {
                 _this.nav = document.createElement('a');
                 _this.nav.href = '/' + name;
@@ -131,6 +132,29 @@ define("lib/pages/page", ["require", "exports", "lib/eventer"], function (requir
             this.on('nav', navHandler);
             return null;
         };
+        Page.prototype.setState = function (state) {
+            var needsUpdating = false;
+            for (var k in state) {
+                if (this.state[k] != state[k]) {
+                    this.state[k] = state[k];
+                    needsUpdating = true;
+                }
+            }
+            if (needsUpdating) {
+                this.forceUpdate();
+            }
+        };
+        Page.prototype.forceUpdate = function () {
+            var _this = this;
+            if (this.updateTimeout) {
+                return;
+            }
+            this.updateTimeout = setTimeout(function () {
+                _this.update();
+                _this.updateTimeout = 0;
+            });
+        };
+        Page.prototype.update = function () { };
         Page.prototype.show = function () {
             if (!this.noNav) {
                 this.nav.classList.add('active');
@@ -149,40 +173,6 @@ define("lib/pages/page", ["require", "exports", "lib/eventer"], function (requir
         return Page;
     }(eventer_1.default));
     exports.default = Page;
-});
-define("lib/pages/record/component", ["require", "exports"], function (require, exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    var Component = (function () {
-        function Component() {
-            this.state = Object.create(null);
-        }
-        Component.prototype.setState = function (state) {
-            var needsUpdating = false;
-            for (var k in state) {
-                if (this.state[k] != state[k]) {
-                    this.state[k] = state[k];
-                    needsUpdating = true;
-                }
-            }
-            if (needsUpdating) {
-                this.forceUpdate();
-            }
-        };
-        Component.prototype.forceUpdate = function () {
-            var _this = this;
-            if (this.updateTimeout) {
-                return;
-            }
-            this.updateTimeout = setTimeout(function () {
-                _this.update();
-                _this.updateTimeout = 0;
-            });
-        };
-        Component.prototype.update = function () { };
-        return Component;
-    }());
-    exports.default = Component;
 });
 define("lib/pages/record/audio", ["require", "exports", "error-msg"], function (require, exports, error_msg_1) {
     "use strict";
@@ -568,16 +558,17 @@ define("lib/viz", ["require", "exports", "lib/dsp"], function (require, exports,
     }(AnalyzerNodeView));
     exports.RadialAnalyzerNodeView = RadialAnalyzerNodeView;
 });
-define("lib/pages/record", ["require", "exports", "lib/pages/page", "lib/api", "lib/pages/record/component", "lib/pages/record/audio", "error-msg", "lib/utility", "lib/viz"], function (require, exports, page_1, api_1, component_1, audio_1, error_msg_2, utility_1, viz_1) {
+define("lib/pages/record", ["require", "exports", "lib/pages/page", "lib/api", "lib/pages/record/audio", "error-msg", "lib/utility", "lib/viz"], function (require, exports, page_1, api_1, audio_1, error_msg_2, utility_1, viz_1) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var REPLAY_TIMEOUT = 200;
     var SOUNDCLIP_URL = '/upload/';
-    var RecordComponent = (function (_super) {
-        __extends(RecordComponent, _super);
-        function RecordComponent(container, microphone) {
-            var _this = _super.call(this) || this;
-            _this.container = container;
+    var PAGE_NAME = 'record';
+    var RecordPage = (function (_super) {
+        __extends(RecordPage, _super);
+        function RecordPage() {
+            var _this = _super.call(this, PAGE_NAME) || this;
+            _this.name = PAGE_NAME;
             _this.recordingInterval = 0;
             _this.state = {
                 sentence: "",
@@ -587,15 +578,13 @@ define("lib/pages/record", ["require", "exports", "lib/pages/page", "lib/api", "
                 recordingStartTime: 0
             };
             _this.api = new api_1.default();
-            _this.audio = new audio_1.default(microphone);
-            _this.mount();
-            _this.newSentence();
             return _this;
         }
-        RecordComponent.prototype.mount = function () {
+        RecordPage.prototype.mount = function () {
+            this.content.innerHTML = "\n    <p id=\"message\" class=\"panel\"></p>\n    <div id=\"record-screen\" class=\"screen disabled\">\n      <div id=\"error-screen\" class=\"screen panel\" hidden>\n        <div class=\"panel-head\">Error</div>\n        <div class=\"panel-content\">\n          <p class=\"title\" id=\"error-message\"></p>\n          <h2 hidden id=\"error-reload\">\n            Reload the page to try again\n          </h2>\n          <p id=\"error-supported\">\n            Please check your browser's compatibility:\n            <table>\n              <tr><th>Platform<th>Browser</tr>\n              <tr><td>Desktop<td>Firefox, Chrome supported</tr>\n              <tr><td>Android<td>Firefox supported</tr>\n              <tr><td>iPhone, iPad<td><b>Not supported</b></tr>\n            </table>\n          </p>\n        </div>\n      </div>\n\n      <div id=\"sentence\" class=\"title\">Say something out loud!</div>\n      <span id=\"record-progress\" class=\"progress small\"></span>\n      <div id=\"toolbar\">\n        <button id=\"recordButton\" class=\"active\" type=\"button\">Record</button>\n        <button id=\"playButton\" type=\"button\">Play</button>\n        <button id=\"uploadButton\" type=\"button\">Submit</button>\n        <button id=\"nextButton\" type=\"button\">Next</button>\n      </div>\n      <input id=\"excerpt\" type=\"hidden\" name=\"excerpt\" value=\"\">\n      <div id=\"elapsedTime\"></div>\n      <div id=\"viz\">\n        <canvas id=\"radialLevels\" width=100 height=100></canvas>\n      </div>\n      <span id=\"upload-progress\" class=\"progress small\"></span>\n      <input id=\"sensitivity\" style=\"display: none\"\n                              type=\"range\" min=\"1\" max=\"200\"></input>\n      <audio id=\"player\" controls=\"controls\" class=\"disabled\"></audio>\n    </div>";
             // <canvas id="levels" width=100 height=100></canvas>
             // <canvas id="spectrogram" width=100 height=100></canvas>
-            var $ = this.container.querySelector.bind(this.container);
+            var $ = this.content.querySelector.bind(this.content);
             this.messageEl = $('#message');
             this.sentenceEl = $('#sentence');
             var el = $('#record-screen');
@@ -605,21 +594,24 @@ define("lib/pages/record", ["require", "exports", "lib/pages/page", "lib/api", "
             this.nextButtonEl = el.querySelector('#nextButton');
             this.elapsedTimeEl = el.querySelector('#elapsedTime');
             this.playerEl = el.querySelector('#player');
+            this.playerEl.addEventListener('canplaythrough', this.onCanPlayThrough.bind(this));
+            this.playerEl.addEventListener('play', this.onPlay.bind(this));
+            this.playerEl.addEventListener('ended', this.onPlayEnded.bind(this));
             this.recordButtonEl.addEventListener('click', this.onRecordClick.bind(this));
             this.uploadButtonEl.addEventListener('click', this.onUploadClick.bind(this));
             this.playButtonEl.addEventListener('click', this.onPlayClick.bind(this));
             this.nextButtonEl.addEventListener('click', this.onNextClick.bind(this));
+        };
+        RecordPage.prototype.showViz = function () {
+            var el = this.content.querySelector('#record-screen');
             // var levels = el.querySelector('#levels') as HTMLCanvasElement;
             var radialLevels = el.querySelector('#radialLevels');
             // var spectrogram = el.querySelector('#spectrogram') as HTMLCanvasElement;
             // this.visualizer = new LinearAnalyzerNodeView(this.audio.analyzerNode, levels, 384, 300);
             this.radialVisualizer = new viz_1.RadialAnalyzerNodeView(this.audio.analyzerNode, radialLevels, 300, 300);
             // this.spectrogramVisualizer = new SpectogramAnalyzerNodeView(this.audio.analyzerNode, spectrogram, 500, 300);
-            this.playerEl.addEventListener('canplaythrough', this.onCanPlayThrough.bind(this));
-            this.playerEl.addEventListener('play', this.onPlay.bind(this));
-            this.playerEl.addEventListener('ended', this.onPlayEnded.bind(this));
         };
-        RecordComponent.prototype.onRecordClick = function () {
+        RecordPage.prototype.onRecordClick = function () {
             if (this.state.recording) {
                 this.stopRecording();
             }
@@ -627,7 +619,7 @@ define("lib/pages/record", ["require", "exports", "lib/pages/page", "lib/api", "
                 this.startRecording();
             }
         };
-        RecordComponent.prototype.startRecording = function () {
+        RecordPage.prototype.startRecording = function () {
             var _this = this;
             this.setState({
                 recording: true,
@@ -638,7 +630,7 @@ define("lib/pages/record", ["require", "exports", "lib/pages/page", "lib/api", "
             });
             this.audio.start();
         };
-        RecordComponent.prototype.stopRecording = function () {
+        RecordPage.prototype.stopRecording = function () {
             var _this = this;
             this.setState({ recording: false });
             utility_1.assert(this.recordingInterval);
@@ -648,7 +640,7 @@ define("lib/pages/record", ["require", "exports", "lib/pages/page", "lib/api", "
                 _this.forceUpdate();
             });
         };
-        RecordComponent.prototype.onUploadClick = function () {
+        RecordPage.prototype.onUploadClick = function () {
             // Save
             // var a = document.createElement('a');
             // var url = window.URL.createObjectURL(this.audio.lastRecording);
@@ -675,7 +667,7 @@ define("lib/pages/record", ["require", "exports", "lib/pages/page", "lib/api", "
                 console.log("Upload Error: " + error_msg_2.default.ERR_UPLOAD_FAILED);
             });
         };
-        RecordComponent.prototype.onPlayClick = function () {
+        RecordPage.prototype.onPlayClick = function () {
             this.playerEl.src = URL.createObjectURL(this.audio.lastRecording);
             if (this.state.playing) {
                 this.playerEl.pause();
@@ -685,26 +677,31 @@ define("lib/pages/record", ["require", "exports", "lib/pages/page", "lib/api", "
             this.playerEl.play();
             this.setState({ playing: true });
         };
-        RecordComponent.prototype.onPlay = function () {
+        RecordPage.prototype.onPlay = function () {
         };
-        RecordComponent.prototype.onCanPlayThrough = function () {
+        RecordPage.prototype.onCanPlayThrough = function () {
         };
-        RecordComponent.prototype.onPlayEnded = function () {
+        RecordPage.prototype.onPlayEnded = function () {
             this.setState({ playing: false });
         };
-        RecordComponent.prototype.onNextClick = function () {
+        RecordPage.prototype.onNextClick = function () {
             this.newSentence();
         };
-        RecordComponent.prototype.newSentence = function () {
+        RecordPage.prototype.newSentence = function () {
             var _this = this;
             this.setState({ message: "Fetching Sentence" });
             this.api.getSentence().then(function (sentence) {
                 _this.setState({ sentence: sentence });
             });
         };
-        RecordComponent.prototype.update = function () {
+        RecordPage.prototype.update = function () {
+            _super.prototype.update.call(this);
             this.sentenceEl.textContent = "" + this.state.sentence;
             this.messageEl.textContent = this.state.message ? "" + this.state.message : "N/A";
+            // Only update the radio tools if we've been granted microphone access.
+            if (!this.microphone) {
+                return;
+            }
             this.recordButtonEl.textContent = this.state.recording ? 'Stop' : 'Record';
             this.playButtonEl.textContent = this.state.playing ? 'Stop' : 'Play';
             // this.visualizer.isRecording = this.state.recording;
@@ -728,25 +725,21 @@ define("lib/pages/record", ["require", "exports", "lib/pages/page", "lib/api", "
             this.uploadButtonEl.classList.toggle('disabled', !this.audio.lastRecording || this.state.recording || this.state.playing);
             this.nextButtonEl.classList.toggle('disabled', this.state.recording || this.state.playing);
         };
-        return RecordComponent;
-    }(component_1.default));
-    exports.RecordComponent = RecordComponent;
-    var RecordPage = (function (_super) {
-        __extends(RecordPage, _super);
-        function RecordPage() {
-            return _super.call(this, 'record') || this;
-        }
         RecordPage.prototype.init = function (navHandler) {
             _super.prototype.init.call(this, navHandler);
-            this.content.innerHTML = "\n    <p id=\"message\" class=\"panel\"></p>\n    <div id=\"record-screen\" class=\"screen disabled\">\n      <div id=\"error-screen\" class=\"screen panel\" hidden>\n        <div class=\"panel-head\">Error</div>\n        <div class=\"panel-content\">\n          <p class=\"title\" id=\"error-message\"></p>\n          <h2 hidden id=\"error-reload\">\n            Reload the page to try again\n          </h2>\n          <p id=\"error-supported\">\n            Please check your browser's compatibility:\n            <table>\n              <tr><th>Platform<th>Browser</tr>\n              <tr><td>Desktop<td>Firefox, Chrome supported</tr>\n              <tr><td>Android<td>Firefox supported</tr>\n              <tr><td>iPhone, iPad<td><b>Not supported</b></tr>\n            </table>\n          </p>\n        </div>\n      </div>\n\n      <div id=\"sentence\" class=\"title\">Say something out loud!</div>\n      <span id=\"record-progress\" class=\"progress small\"></span>\n      <div id=\"toolbar\">\n        <button id=\"recordButton\" class=\"active\" type=\"button\">Record</button>\n        <button id=\"playButton\" type=\"button\">Play</button>\n        <button id=\"uploadButton\" type=\"button\">Submit</button>\n        <button id=\"nextButton\" type=\"button\">Next</button>\n      </div>\n      <input id=\"excerpt\" type=\"hidden\" name=\"excerpt\" value=\"\">\n      <div id=\"elapsedTime\"></div>\n      <div id=\"viz\">\n        <canvas id=\"radialLevels\" width=100 height=100></canvas>\n      </div>\n      <span id=\"upload-progress\" class=\"progress small\"></span>\n      <input id=\"sensitivity\" style=\"display: none\"\n                              type=\"range\" min=\"1\" max=\"200\"></input>\n      <audio id=\"player\" controls=\"controls\" class=\"disabled\"></audio>\n    </div>";
-            return Promise.resolve();
+            this.mount();
+            return null;
         };
         RecordPage.prototype.show = function () {
             var _this = this;
             _super.prototype.show.call(this);
-            return audio_1.default.getMicrophone().then(function (microphone) {
+            // TODO: only request microphone when user presses record.
+            audio_1.default.getMicrophone().then(function (microphone) {
                 _this.microphone = microphone;
-                new RecordComponent(_this.content, microphone);
+                _this.audio = new audio_1.default(microphone);
+                _this.showViz();
+                // Trigger page update.
+                _this.newSentence();
             });
         };
         return RecordPage;
@@ -756,11 +749,13 @@ define("lib/pages/record", ["require", "exports", "lib/pages/page", "lib/api", "
 define("lib/pages/home", ["require", "exports", "lib/pages/page"], function (require, exports, page_2) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    var CLASS_NAME = 'home';
+    var PAGE_NAME = 'home';
     var HomePage = (function (_super) {
         __extends(HomePage, _super);
         function HomePage() {
-            return _super.call(this, CLASS_NAME) || this;
+            var _this = _super.call(this, PAGE_NAME) || this;
+            _this.name = PAGE_NAME;
+            return _this;
         }
         HomePage.prototype.init = function (navHandler) {
             _super.prototype.init.call(this, navHandler);
@@ -774,11 +769,13 @@ define("lib/pages/home", ["require", "exports", "lib/pages/page"], function (req
 define("lib/pages/not-found", ["require", "exports", "lib/pages/page"], function (require, exports, page_3) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    var CLASS_NAME = 'notFound';
+    var PAGE_NAME = 'notFound';
     var NotFoundPage = (function (_super) {
         __extends(NotFoundPage, _super);
         function NotFoundPage() {
-            return _super.call(this, CLASS_NAME, true) || this;
+            var _this = _super.call(this, PAGE_NAME, true) || this;
+            _this.name = PAGE_NAME;
+            return _this;
         }
         NotFoundPage.prototype.init = function (navHandler) {
             _super.prototype.init.call(this, navHandler);
@@ -802,66 +799,38 @@ define("lib/pages", ["require", "exports", "lib/eventer", "lib/pages/record", "l
             return _this;
         }
         Pages.prototype.init = function () {
-            var navPageHandler = this.handlePageNav.bind(this);
+            var _this = this;
+            // Forward nav events from any page controller onward.
+            var navPageHandler = function (page) {
+                _this.trigger('nav', page);
+            };
             return Promise.all([
                 this.home.init(navPageHandler),
                 this.record.init(navPageHandler),
                 this.notFound.init(navPageHandler),
             ]);
         };
-        Pages.prototype.handlePageNav = function (page) {
-            this.trigger('nav', page);
-        };
-        return Pages;
-    }(eventer_2.default));
-    exports.default = Pages;
-});
-define("lib/app", ["require", "exports", "lib/pages"], function (require, exports, pages_1) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    var App = (function () {
-        /**
-         * App will handle routing to page controllers.
-         */
-        function App(container) {
-            this.container = container;
-            this.pages = new pages_1.default();
-        }
         /**
          * Get the appropriate page controller for current page
          */
-        App.prototype.getPageController = function () {
-            var url = new URL(window.location.href);
-            var page = url.pathname;
-            switch (page) {
+        Pages.prototype.getPageController = function (pageName) {
+            switch (pageName) {
                 case '/':
                 case '/home':
-                    return this.pages.home;
+                    return this.home;
                 case '/record':
-                    return this.pages.record;
+                    return this.record;
                 default:
-                    return this.pages.notFound;
+                    return this.notFound;
             }
-        };
-        /**
-         * Entry point for the application.
-         */
-        App.prototype.run = function () {
-            var _this = this;
-            this.pages.on('nav', function (page) {
-                history.pushState(null, '', page);
-                _this.route();
-            });
-            this.pages.init().then(function () {
-                _this.route();
-            });
         };
         /**
          * Figure out which page to load.
          */
-        App.prototype.route = function () {
+        Pages.prototype.route = function (name) {
             var previousPage = this.currentPage;
-            this.currentPage = this.getPageController();
+            this.currentPage = this.getPageController(name);
+            // If we are trying to navigate to the same page as before, do nothing.
             if (previousPage === this.currentPage) {
                 return;
             }
@@ -870,7 +839,102 @@ define("lib/app", ["require", "exports", "lib/pages"], function (require, export
             }
             this.currentPage.show();
         };
+        return Pages;
+    }(eventer_2.default));
+    exports.default = Pages;
+});
+define("lib/app", ["require", "exports", "lib/pages"], function (require, exports, pages_1) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    /**
+     * Main app controller, rensponsible for routing between page
+     * controllers.
+     */
+    var App = (function () {
+        /**
+         * App will handle routing to page controllers.
+         */
+        function App(container) {
+            this.container = container;
+            this.pages = new pages_1.default();
+        }
+        App.prototype.parseUrl = function () {
+            this.url = new URL(window.location.href);
+            return this.url;
+        };
+        App.prototype.getPageName = function () {
+            var url = this.parseUrl();
+            return url.pathname;
+        };
+        /**
+         * Entry point for the application.
+         */
+        App.prototype.run = function () {
+            var _this = this;
+            // Listen and respond to any navigation requests.
+            this.pages.on('nav', function (page) {
+                window.history.pushState(null, '', page);
+                _this.route();
+            });
+            // Init the helper.
+            this.pages.init().then(function () {
+                _this.route();
+            });
+        };
+        App.prototype.route = function () {
+            var name = this.getPageName();
+            this.pages.route(name);
+        };
         return App;
     }());
     exports.default = App;
+});
+define("lib/pages/component", ["require", "exports", "lib/eventer"], function (require, exports, eventer_3) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    var Component = (function (_super) {
+        __extends(Component, _super);
+        function Component() {
+            var _this = _super !== null && _super.apply(this, arguments) || this;
+            _this.state = Object.create(null);
+            return _this;
+        }
+        Component.prototype.setState = function (state) {
+            var needsUpdating = false;
+            for (var k in state) {
+                if (this.state[k] != state[k]) {
+                    this.state[k] = state[k];
+                    needsUpdating = true;
+                }
+            }
+            if (needsUpdating) {
+                this.forceUpdate();
+            }
+        };
+        Component.prototype.forceUpdate = function () {
+            var _this = this;
+            if (this.updateTimeout) {
+                return;
+            }
+            this.updateTimeout = setTimeout(function () {
+                _this.update();
+                _this.updateTimeout = 0;
+            });
+        };
+        Component.prototype.update = function () { };
+        Component.prototype.on = function (type, cb) {
+            this['_on' + type] = this['_on' + type] || [];
+            this['_on' + type].push(cb);
+        };
+        Component.prototype.trigger = function (type, value) {
+            var _this = this;
+            if (this['_on' + type]) {
+                this['_on' + type].forEach(function (cb) {
+                    cb(value, _this.state);
+                });
+            }
+        };
+        return Component;
+    }(eventer_3.default));
+    exports.default = Component;
 });
