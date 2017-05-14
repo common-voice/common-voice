@@ -53,6 +53,70 @@ define("lib/api", ["require", "exports"], function (require, exports) {
     }());
     exports.default = API;
 });
+define("lib/eventer", ["require", "exports"], function (require, exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    var Eventer = (function () {
+        function Eventer() {
+        }
+        Eventer.prototype.on = function (type, cb) {
+            this['_on' + type] = this['_on' + type] || [];
+            this['_on' + type].push(cb);
+        };
+        Eventer.prototype.trigger = function (type, value) {
+            if (this['_on' + type]) {
+                this['_on' + type].forEach(function (cb) {
+                    cb(value);
+                });
+            }
+        };
+        return Eventer;
+    }());
+    exports.default = Eventer;
+});
+define("lib/component", ["require", "exports", "lib/eventer"], function (require, exports, eventer_1) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    /**
+     * Allows debounced updates when state chages.
+     */
+    var Component = (function (_super) {
+        __extends(Component, _super);
+        function Component() {
+            var _this = _super !== null && _super.apply(this, arguments) || this;
+            _this.state = Object.create(null);
+            return _this;
+        }
+        Component.prototype.setState = function (state) {
+            var needsUpdating = false;
+            for (var k in state) {
+                if (this.state[k] != state[k]) {
+                    this.state[k] = state[k];
+                    needsUpdating = true;
+                }
+            }
+            if (needsUpdating) {
+                this.forceUpdate();
+            }
+        };
+        Component.prototype.forceUpdate = function () {
+            var _this = this;
+            if (this.updateTimeout) {
+                return;
+            }
+            this.updateTimeout = setTimeout(function () {
+                _this.update();
+                _this.updateTimeout = 0;
+            });
+        };
+        /**
+         * Called whenever page state has changed (debounced).
+         */
+        Component.prototype.update = function () { };
+        return Component;
+    }(eventer_1.default));
+    exports.default = Component;
+});
 /**
  * Functions to be shared across mutiple modules.
  */
@@ -80,53 +144,44 @@ define("lib/utility", ["require", "exports"], function (require, exports) {
     }
     exports.generateGUID = generateGUID;
 });
-define("lib/user", ["require", "exports", "lib/utility"], function (require, exports, utility_1) {
+define("lib/user", ["require", "exports", "lib/component"], function (require, exports, Component_1) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
+    var USER_KEY = '__userid';
     /**
      * User tracking
      */
-    var User = (function () {
+    var User = (function (_super) {
+        __extends(User, _super);
         // Store userid on this object.
         function User() {
-            this.userId = this.getIdFromStorage();
+            var _this = _super.call(this) || this;
+            _this.state = {
+                userId: null,
+                clips: null
+            };
+            _this.restore();
+            return _this;
         }
-        User.prototype.getIdFromStorage = function () {
-            if (localStorage.userId) {
-                return localStorage.userId;
+        User.prototype.restore = function () {
+            if (localStorage[USER_KEY]) {
+                return localStorage[USER_KEY];
             }
-            localStorage.userId = utility_1.generateGUID();
-            return localStorage.userId;
+            // Generate new state.
+            localStorage[USER_KEY] = {
+                return: localStorage[USER_KEY]
+            };
+        };
+        User.prototype.store = function () {
         };
         User.prototype.getId = function () {
             return this.userId;
         };
         return User;
-    }());
+    }(Component_1.default));
     exports.default = User;
 });
-define("lib/eventer", ["require", "exports"], function (require, exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    var Eventer = (function () {
-        function Eventer() {
-        }
-        Eventer.prototype.on = function (type, cb) {
-            this['_on' + type] = this['_on' + type] || [];
-            this['_on' + type].push(cb);
-        };
-        Eventer.prototype.trigger = function (type, value) {
-            if (this['_on' + type]) {
-                this['_on' + type].forEach(function (cb) {
-                    cb(value);
-                });
-            }
-        };
-        return Eventer;
-    }());
-    exports.default = Eventer;
-});
-define("lib/pages/page", ["require", "exports", "lib/eventer"], function (require, exports, eventer_1) {
+define("lib/pages/page", ["require", "exports", "lib/component"], function (require, exports, component_1) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     /**
@@ -145,7 +200,6 @@ define("lib/pages/page", ["require", "exports", "lib/eventer"], function (requir
             var _this = _super.call(this) || this;
             _this.user = user;
             _this.noNav = noNav;
-            _this.state = Object.create(null);
             _this.container = document.getElementById('content');
             _this.content = document.createElement('div');
             // Some pages (like 404) will not need a navigation tab.
@@ -160,6 +214,7 @@ define("lib/pages/page", ["require", "exports", "lib/eventer"], function (requir
                     _this.trigger('nav', _this.nav.href);
                 }, true);
             }
+            user.on('change', _this.update.bind(_this));
             return _this;
         }
         /**
@@ -170,32 +225,9 @@ define("lib/pages/page", ["require", "exports", "lib/eventer"], function (requir
             this.on('nav', navHandler);
             return null;
         };
-        Page.prototype.setState = function (state) {
-            var needsUpdating = false;
-            for (var k in state) {
-                if (this.state[k] != state[k]) {
-                    this.state[k] = state[k];
-                    needsUpdating = true;
-                }
-            }
-            if (needsUpdating) {
-                this.forceUpdate();
-            }
-        };
-        Page.prototype.forceUpdate = function () {
-            var _this = this;
-            if (this.updateTimeout) {
-                return;
-            }
-            this.updateTimeout = setTimeout(function () {
-                _this.update();
-                _this.updateTimeout = 0;
-            });
-        };
         /**
-         * Called whenever page state has changed (debounced).
+         * Show this page using css.
          */
-        Page.prototype.update = function () { };
         Page.prototype.show = function () {
             if (!this.noNav) {
                 this.nav.classList.add('active');
@@ -205,6 +237,9 @@ define("lib/pages/page", ["require", "exports", "lib/eventer"], function (requir
                 this.container.appendChild(this.content);
             }
         };
+        /**
+         * Hide this page using css.
+         */
         Page.prototype.hide = function () {
             if (!this.noNav) {
                 this.nav.classList.remove('active');
@@ -212,7 +247,7 @@ define("lib/pages/page", ["require", "exports", "lib/eventer"], function (requir
             this.content.classList.remove('active');
         };
         return Page;
-    }(eventer_1.default));
+    }(component_1.default));
     exports.default = Page;
 });
 define("lib/pages/record/audio", ["require", "exports", "error-msg"], function (require, exports, error_msg_1) {
@@ -560,7 +595,7 @@ define("lib/viz", ["require", "exports", "lib/dsp"], function (require, exports,
     }(AnalyzerNodeView));
     exports.RadialAnalyzerNodeView = RadialAnalyzerNodeView;
 });
-define("lib/pages/record", ["require", "exports", "lib/pages/page", "lib/api", "lib/pages/record/audio", "error-msg", "lib/utility", "lib/viz"], function (require, exports, page_1, api_1, audio_1, error_msg_2, utility_2, viz_1) {
+define("lib/pages/record", ["require", "exports", "lib/pages/page", "lib/api", "lib/pages/record/audio", "error-msg", "lib/utility", "lib/viz"], function (require, exports, page_1, api_1, audio_1, error_msg_2, utility_1, viz_1) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var REPLAY_TIMEOUT = 200;
@@ -635,7 +670,7 @@ define("lib/pages/record", ["require", "exports", "lib/pages/page", "lib/api", "
         RecordPage.prototype.stopRecording = function () {
             var _this = this;
             this.setState({ recording: false });
-            utility_2.assert(this.recordingInterval);
+            utility_1.assert(this.recordingInterval);
             clearInterval(this.recordingInterval);
             this.recordingInterval = 0;
             this.audio.stop().then(function () {
@@ -921,53 +956,4 @@ define("lib/app", ["require", "exports", "lib/user", "lib/pages"], function (req
         return App;
     }());
     exports.default = App;
-});
-define("lib/pages/component", ["require", "exports", "lib/eventer"], function (require, exports, eventer_3) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    var Component = (function (_super) {
-        __extends(Component, _super);
-        function Component() {
-            var _this = _super !== null && _super.apply(this, arguments) || this;
-            _this.state = Object.create(null);
-            return _this;
-        }
-        Component.prototype.setState = function (state) {
-            var needsUpdating = false;
-            for (var k in state) {
-                if (this.state[k] != state[k]) {
-                    this.state[k] = state[k];
-                    needsUpdating = true;
-                }
-            }
-            if (needsUpdating) {
-                this.forceUpdate();
-            }
-        };
-        Component.prototype.forceUpdate = function () {
-            var _this = this;
-            if (this.updateTimeout) {
-                return;
-            }
-            this.updateTimeout = setTimeout(function () {
-                _this.update();
-                _this.updateTimeout = 0;
-            });
-        };
-        Component.prototype.update = function () { };
-        Component.prototype.on = function (type, cb) {
-            this['_on' + type] = this['_on' + type] || [];
-            this['_on' + type].push(cb);
-        };
-        Component.prototype.trigger = function (type, value) {
-            var _this = this;
-            if (this['_on' + type]) {
-                this['_on' + type].forEach(function (cb) {
-                    cb(value, _this.state);
-                });
-            }
-        };
-        return Component;
-    }(eventer_3.default));
-    exports.default = Component;
 });
