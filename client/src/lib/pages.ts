@@ -1,4 +1,5 @@
 import Eventer from './eventer';
+import User from './user';
 import Page from './pages/page';
 import Record from './pages/record';
 import Home from './pages/home';
@@ -20,7 +21,7 @@ export default class Pages extends Eventer {
 
   private currentPage: Page<any>;
 
-  constructor() {
+  constructor(public user: User) {
     super();
 
     // Create a list of pages for quick validation later.
@@ -29,9 +30,9 @@ export default class Pages extends Eventer {
     });
 
     // These are the page controllers.
-    this.home = new Home();
-    this.record = new Record();
-    this.notFound = new NotFound();
+    this.home = new Home(user);
+    this.record = new Record(user);
+    this.notFound = new NotFound(user);
   }
 
   init() {

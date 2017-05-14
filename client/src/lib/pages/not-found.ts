@@ -1,12 +1,13 @@
 import Page from './page';
+import User from '../user';
 
 const PAGE_NAME = 'notFound';
 
 export default class NotFoundPage extends Page<void> {
   name: string = PAGE_NAME;
 
-  constructor() {
-    super(PAGE_NAME, true);
+  constructor(user: User) {
+    super(user, PAGE_NAME, true);
   }
 
   init(navHandler: Function) {

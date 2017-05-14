@@ -1,4 +1,5 @@
 import Eventer from '../eventer';
+import User from '../user';
 
 /**
  * Represents a single page. Automatically highights
@@ -19,7 +20,7 @@ export default abstract class Page<State> extends Eventer {
    *   @name - the name of the page
    *   @noNav - do we want a main navigation item for this page?
    */
-  constructor(name: string, public noNav?: boolean) {
+  constructor(public user: User, name: string, public noNav?: boolean) {
     super();
     this.container = document.getElementById('content');
     this.content = document.createElement('div');

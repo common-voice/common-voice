@@ -1,3 +1,4 @@
+import User from './user';
 import Pages from './pages';
 
 /**
@@ -8,12 +9,14 @@ export default class App {
 
   // Allows controls of the different pages.
   pages: Pages;
+  user: User;
 
   /**
    * App will handle routing to page controllers.
    */
   constructor(public container: HTMLElement) {
-    this.pages = new Pages();
+    this.user = new User();
+    this.pages = new Pages(this.user);
   }
 
   /**

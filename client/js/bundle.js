@@ -67,6 +67,58 @@ define("lib/api", ["require", "exports"], function (require, exports) {
     }());
     exports.default = API;
 });
+/**
+ * Functions to be shared across mutiple modules.
+ */
+define("lib/utility", ["require", "exports"], function (require, exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    /**
+     * Runtime checks.
+     */
+    function assert(c, message) {
+        if (message === void 0) { message = ""; }
+        if (!c) {
+            throw new Error(message);
+        }
+    }
+    exports.assert = assert;
+    /**
+     * Get some random string in a certain format.
+     */
+    function generateGUID() {
+        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+            var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+            return v.toString(16);
+        });
+    }
+    exports.generateGUID = generateGUID;
+});
+define("lib/user", ["require", "exports", "lib/utility"], function (require, exports, utility_1) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    /**
+     * User tracking
+     */
+    var User = (function () {
+        // Store userid on this object.
+        function User() {
+            this.userId = this.getIdFromStorage();
+        }
+        User.prototype.getIdFromStorage = function () {
+            if (localStorage.userId) {
+                return localStorage.userId;
+            }
+            localStorage.userId = utility_1.generateGUID();
+            return localStorage.userId;
+        };
+        User.prototype.getId = function () {
+            return this.userid;
+        };
+        return User;
+    }());
+    exports.default = User;
+});
 define("lib/eventer", ["require", "exports"], function (require, exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
@@ -103,8 +155,9 @@ define("lib/pages/page", ["require", "exports", "lib/eventer"], function (requir
          *   @name - the name of the page
          *   @noNav - do we want a main navigation item for this page?
          */
-        function Page(name, noNav) {
+        function Page(user, name, noNav) {
             var _this = _super.call(this) || this;
+            _this.user = user;
             _this.noNav = noNav;
             _this.state = Object.create(null);
             _this.container = document.getElementById('content');
@@ -260,45 +313,6 @@ define("lib/pages/record/audio", ["require", "exports", "error-msg"], function (
         return Audio;
     }());
     exports.default = Audio;
-});
-/**
- * Functions to be shared across mutiple modules.
- */
-define("lib/utility", ["require", "exports"], function (require, exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    /**
-     * Runtime checks.
-     */
-    function assert(c, message) {
-        if (message === void 0) { message = ""; }
-        if (!c) {
-            throw new Error(message);
-        }
-    }
-    exports.assert = assert;
-    /**
-     * Get some random string in a certain format.
-     */
-    function generateGUID() {
-        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
-            var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
-            return v.toString(16);
-        });
-    }
-    exports.generateGUID = generateGUID;
-    // TODO: Move this functionality into a player module.
-    /**
-     * Generate and save userid, return that from now on.
-     */
-    function getUserId() {
-        if (localStorage.userId) {
-            return localStorage.userId;
-        }
-        localStorage.userId = generateGUID();
-        return localStorage.userId;
-    }
-    exports.getUserId = getUserId;
 });
 define("lib/dsp", ["require", "exports"], function (require, exports) {
     "use strict";
@@ -560,7 +574,7 @@ define("lib/viz", ["require", "exports", "lib/dsp"], function (require, exports,
     }(AnalyzerNodeView));
     exports.RadialAnalyzerNodeView = RadialAnalyzerNodeView;
 });
-define("lib/pages/record", ["require", "exports", "lib/pages/page", "lib/api", "lib/pages/record/audio", "error-msg", "lib/utility", "lib/viz"], function (require, exports, page_1, api_1, audio_1, error_msg_2, utility_1, viz_1) {
+define("lib/pages/record", ["require", "exports", "lib/pages/page", "lib/api", "lib/pages/record/audio", "error-msg", "lib/utility", "lib/viz"], function (require, exports, page_1, api_1, audio_1, error_msg_2, utility_2, viz_1) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var REPLAY_TIMEOUT = 200;
@@ -568,8 +582,8 @@ define("lib/pages/record", ["require", "exports", "lib/pages/page", "lib/api", "
     var PAGE_NAME = 'record';
     var RecordPage = (function (_super) {
         __extends(RecordPage, _super);
-        function RecordPage() {
-            var _this = _super.call(this, PAGE_NAME) || this;
+        function RecordPage(user) {
+            var _this = _super.call(this, user, PAGE_NAME) || this;
             _this.name = PAGE_NAME;
             _this.recordingInterval = 0;
             _this.state = {
@@ -635,7 +649,7 @@ define("lib/pages/record", ["require", "exports", "lib/pages/page", "lib/api", "
         RecordPage.prototype.stopRecording = function () {
             var _this = this;
             this.setState({ recording: false });
-            utility_1.assert(this.recordingInterval);
+            utility_2.assert(this.recordingInterval);
             clearInterval(this.recordingInterval);
             this.recordingInterval = 0;
             this.audio.stop().then(function () {
@@ -659,7 +673,7 @@ define("lib/pages/record", ["require", "exports", "lib/pages/page", "lib/api", "
                 req.upload.addEventListener('load', resolve);
                 req.upload.addEventListener("error", reject);
                 req.open('POST', SOUNDCLIP_URL);
-                req.setRequestHeader('uid', utility_1.getUserId());
+                req.setRequestHeader('uid', this.user.getId());
                 req.setRequestHeader('sentence', encodeURIComponent(self.state.sentence));
                 req.send(self.audio.lastRecording);
             });
@@ -757,8 +771,8 @@ define("lib/pages/home", ["require", "exports", "lib/pages/page"], function (req
     var PAGE_NAME = 'home';
     var HomePage = (function (_super) {
         __extends(HomePage, _super);
-        function HomePage() {
-            var _this = _super.call(this, PAGE_NAME) || this;
+        function HomePage(user) {
+            var _this = _super.call(this, user, PAGE_NAME) || this;
             _this.name = PAGE_NAME;
             return _this;
         }
@@ -776,8 +790,8 @@ define("lib/pages/not-found", ["require", "exports", "lib/pages/page"], function
     var PAGE_NAME = 'notFound';
     var NotFoundPage = (function (_super) {
         __extends(NotFoundPage, _super);
-        function NotFoundPage() {
-            var _this = _super.call(this, PAGE_NAME, true) || this;
+        function NotFoundPage(user) {
+            var _this = _super.call(this, user, PAGE_NAME, true) || this;
             _this.name = PAGE_NAME;
             return _this;
         }
@@ -794,16 +808,17 @@ define("lib/pages", ["require", "exports", "lib/eventer", "lib/pages/record", "l
     Object.defineProperty(exports, "__esModule", { value: true });
     var Pages = (function (_super) {
         __extends(Pages, _super);
-        function Pages() {
+        function Pages(user) {
             var _this = _super.call(this) || this;
+            _this.user = user;
             // Create a list of pages for quick validation later.
             _this.pages = Object.keys(Pages.PAGES).map(function (key) {
                 return Pages.PAGES[key];
             });
             // These are the page controllers.
-            _this.home = new home_1.default();
-            _this.record = new record_1.default();
-            _this.notFound = new not_found_1.default();
+            _this.home = new home_1.default(user);
+            _this.record = new record_1.default(user);
+            _this.notFound = new not_found_1.default(user);
             return _this;
         }
         Pages.prototype.init = function () {
@@ -858,7 +873,7 @@ define("lib/pages", ["require", "exports", "lib/eventer", "lib/pages/record", "l
     };
     exports.default = Pages;
 });
-define("lib/app", ["require", "exports", "lib/pages"], function (require, exports, pages_1) {
+define("lib/app", ["require", "exports", "lib/user", "lib/pages"], function (require, exports, user_1, pages_1) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     /**
@@ -871,7 +886,8 @@ define("lib/app", ["require", "exports", "lib/pages"], function (require, export
          */
         function App(container) {
             this.container = container;
-            this.pages = new pages_1.default();
+            this.user = new user_1.default();
+            this.pages = new pages_1.default(this.user);
         }
         /**
          * Get the page name from the url.

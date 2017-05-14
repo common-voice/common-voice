@@ -20,15 +20,3 @@ export function generateGUID() {
     return v.toString(16);
   });
 }
-
-// TODO: Move this functionality into a player module.
-/**
- * Generate and save userid, return that from now on.
- */
-export function getUserId() {
-  if (localStorage.userId) {
-    return localStorage.userId;
-  }
-  localStorage.userId = generateGUID();
-  return localStorage.userId;
-}

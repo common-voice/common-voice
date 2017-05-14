@@ -1,8 +1,9 @@
 import Page from './page';
+import User from '../user';
 import API from './../api';
 import Audio from './record/audio';
 import ERROR_MSG from '../../error-msg';
-import { assert, generateGUID, getUserId } from '../utility';
+import { assert, generateGUID } from '../utility';
 
 import {
   AnalyzerNodeView,
@@ -37,8 +38,9 @@ export default class RecordPage extends Page<{
   radialVisualizer: AnalyzerNodeView;
   spectrogramVisualizer: AnalyzerNodeView;
   audio: Audio;
-  constructor() {
-    super(PAGE_NAME);
+
+  constructor(user: User) {
+    super(user, PAGE_NAME);
     this.state = {
       sentence: "",
       message: "",
@@ -175,7 +177,7 @@ export default class RecordPage extends Page<{
       req.upload.addEventListener('load', resolve);
       req.upload.addEventListener("error", reject);
       req.open('POST', SOUNDCLIP_URL);
-      req.setRequestHeader('uid', getUserId());
+      req.setRequestHeader('uid', this.user.getId());
       req.setRequestHeader('sentence', encodeURIComponent(self.state.sentence));
       req.send(self.audio.lastRecording);
     });
