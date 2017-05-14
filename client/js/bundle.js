@@ -730,7 +730,6 @@ define("lib/pages/record", ["require", "exports", "lib/pages/page", "lib/api", "
         RecordPage.prototype.init = function (navHandler) {
             _super.prototype.init.call(this, navHandler);
             this.mount();
-            return null;
         };
         RecordPage.prototype.show = function () {
             var _this = this;
@@ -766,7 +765,6 @@ define("lib/pages/home", ["require", "exports", "lib/pages/page"], function (req
         HomePage.prototype.init = function (navHandler) {
             _super.prototype.init.call(this, navHandler);
             this.content.innerHTML = 'Welcome to Common Voice';
-            return null;
         };
         return HomePage;
     }(page_2.default));
@@ -786,7 +784,6 @@ define("lib/pages/not-found", ["require", "exports", "lib/pages/page"], function
         NotFoundPage.prototype.init = function (navHandler) {
             _super.prototype.init.call(this, navHandler);
             this.content.innerHTML = 'Page not found.';
-            return null;
         };
         return NotFoundPage;
     }(page_3.default));
@@ -815,14 +812,9 @@ define("lib/pages", ["require", "exports", "lib/eventer", "lib/pages/record", "l
             var navPageHandler = function (page) {
                 _this.trigger('nav', page);
             };
-            return Promise.all([
-                this.home.init(navPageHandler),
-                this.record.init(navPageHandler),
-                this.notFound.init(navPageHandler),
-            ]).then(function (results) {
-                // Clear the output.
-                return;
-            });
+            this.home.init(navPageHandler);
+            this.record.init(navPageHandler);
+            this.notFound.init(navPageHandler);
         };
         /**
          * Get the appropriate page controller for current page
@@ -881,16 +873,19 @@ define("lib/app", ["require", "exports", "lib/pages"], function (require, export
             this.container = container;
             this.pages = new pages_1.default();
         }
-        App.prototype.parseUrl = function (href) {
+        /**
+         * Get the page name from the url.
+         */
+        App.prototype.getPageName = function (href) {
             if (!href) {
                 href = window.location.href;
             }
-            return new URL(href);
-        };
-        App.prototype.getPageName = function (href) {
-            var url = this.parseUrl(href);
+            var url = new URL(href);
             return url.pathname;
         };
+        /**
+         * Update the current page based on new url.
+         */
         App.prototype.handleNavigation = function (href) {
             var page = this.getPageName(href);
             // If page is unrecognized, direct to 404 page.
@@ -911,7 +906,8 @@ define("lib/app", ["require", "exports", "lib/pages"], function (require, export
             // Listen and respond to any navigation requests.
             this.pages.on('nav', handler);
             // Init the page controllers.
-            this.pages.init().then(handler);
+            this.pages.init();
+            handler();
         };
         /**
          * Give our page contoller the right page name.

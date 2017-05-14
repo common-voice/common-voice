@@ -40,14 +40,9 @@ export default class Pages extends Eventer {
       this.trigger('nav', page);
     };
 
-    return Promise.all([
-      this.home.init(navPageHandler),
-      this.record.init(navPageHandler),
-      this.notFound.init(navPageHandler),
-    ]).then(results => {
-      // Clear the output.
-      return;
-    });
+    this.home.init(navPageHandler);
+    this.record.init(navPageHandler);
+    this.notFound.init(navPageHandler);
   }
 
   /**

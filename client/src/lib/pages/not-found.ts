@@ -12,6 +12,5 @@ export default class NotFoundPage extends Page<void> {
   init(navHandler: Function) {
     super.init(navHandler);
     this.content.innerHTML = 'Page not found.';
-    return null;
   }
 }

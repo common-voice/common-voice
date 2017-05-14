@@ -42,7 +42,7 @@ export default abstract class Page<State> extends Eventer {
    * init function must be defined by any page object
    * to set up the nav element and content.
    */
-  init(navHandler: Function): Promise<void> {
+  init(navHandler: Function) {
     this.on('nav', navHandler);
     return null;
   }

@@ -12,6 +12,5 @@ export default class HomePage extends Page<void> {
   init(navHandler: Function) {
     super.init(navHandler);
     this.content.innerHTML = 'Welcome to Common Voice';
-    return null;
   }
 }

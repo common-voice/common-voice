@@ -254,7 +254,6 @@ export default class RecordPage extends Page<{
   init(navHandler: Function) {
     super.init(navHandler);
     this.mount();
-    return null;
   }
 
   show() {

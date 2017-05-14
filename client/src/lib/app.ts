@@ -16,18 +16,20 @@ export default class App {
     this.pages = new Pages();
   }
 
-  private parseUrl(href?: string): URL {
+  /**
+   * Get the page name from the url.
+   */
+  private getPageName(href?: string): string {
     if (!href) {
       href = window.location.href;
     }
-    return new URL(href);
-  }
-
-  private getPageName(href?: string): string {
-    let url = this.parseUrl(href);
+    let url = new URL(href);
     return url.pathname;
   }
 
+  /**
+   * Update the current page based on new url.
+   */
   private handleNavigation(href: string) {
     let page = this.getPageName(href);
 
@@ -53,7 +55,8 @@ export default class App {
     this.pages.on('nav', handler);
 
     // Init the page controllers.
-    this.pages.init().then(handler);
+    this.pages.init()
+    handler();
   }
 
   /**
