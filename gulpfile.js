@@ -20,6 +20,21 @@
     return project.src().pipe(project()).js;
   }
 
+  function listen() {
+    require('gulp-nodemon')({
+      script: 'server/js/server.js',
+      // Use [c] here to workaround nodemon bug #951
+      watch: ['server/js', '[c]onfig.json'],
+      delay: 2.5,
+    });
+  }
+
+  function watch() {
+    gulp.watch('package.json', ['npm-install']);
+    gulp.watch(PATH_TS, ['ts']);
+    gulp.watch(PATH_TS_SERVER, ['ts-server']);
+  }
+
   gulp.task('ts', 'Compile typescript files into bundle.js', () => {
     let fs = require('fs');
     let uglify = require('gulp-uglify');
@@ -47,21 +62,12 @@
   gulp.task('clean', 'Remove uploaded clips.',
             shell.task([`git clean -idx ${DIR_UPLOAD}`]));
 
-  gulp.task('listen', 'Run development server.', () => {
-    require('gulp-nodemon')({
-      script: 'server/js/server.js',
-      // Use [c] here to workaround nodemon bug #951
-      watch: ['server/js', '[c]onfig.json'],
-      delay: 2.5,
-    });
-  });
+  gulp.task('listen', 'Run development server.', listen);
 
-  gulp.task('watch', 'Rebuild, rebundle, re-install on file changes.', () => {
-    gulp.watch('package.json', ['npm-install']);
-    gulp.watch(PATH_TS, ['ts']);
-    gulp.watch(PATH_TS_SERVER, ['ts-server']);
-  });
+  gulp.task('watch', 'Rebuild, rebundle, re-install on file changes.', watch);
 
-  gulp.task('default', 'Running just `gulp`.',
-            ['ts', 'ts-server', 'watch', 'listen']);
+  gulp.task('default', 'Running just `gulp`.', ['ts', 'ts-server'], () => {
+    watch();
+    listen();
+  });
 })();
