@@ -7,6 +7,10 @@
   let path = require('path');
   let ts = require('gulp-typescript');
   let insert = require('gulp-insert');
+  let fs = require('fs');
+  let uglify = require('gulp-uglify');
+  let sourcemaps = require('gulp-sourcemaps');
+  let config = require('./config.json');
 
   const DIR_SERVER = path.join(__dirname, 'server');
   const DIR_UPLOAD = path.join(DIR_SERVER, 'upload');
@@ -17,22 +21,29 @@
   const PATH_AMD_LOADER = path.join(__dirname,'client/vendor/almond.js');
 
   function compile(project) {
-    return project.src().pipe(project()).js;
+    let src = project.src();
+    if (!config.PROD) {
+      src = src.pipe(sourcemaps.init());
+    }
+
+    return src.pipe(project()).js;
   }
 
   gulp.task('ts', 'Compile typescript files into bundle.js', () => {
-    let fs = require('fs');
-    let uglify = require('gulp-uglify');
     let project = ts.createProject(__dirname + '/client/tsconfig.json');
-    return compile(project)
+    let src = compile(project)
       .pipe(require('gulp-insert')
             .prepend(fs.readFileSync(PATH_AMD_LOADER)))
+      .pipe(sourcemaps.init())
       .pipe(uglify({ mangle: false, compress: false, output: {
-        beautify: true,
-        indent_level: 2,
         semicolons: false
-      }}))
-      .pipe(gulp.dest(DIR_JS));
+      }}));
+
+    if (!config.PROD) {
+      src = src.pipe(sourcemaps.write());
+    }
+
+    return src.pipe(gulp.dest(DIR_JS));
   });
 
   gulp.task('ts-server', 'Compile typescript server files.', () => {
