@@ -14,7 +14,8 @@
     "gulp-uglify": "^2.1.2",
     "mediaserver": "0.1.0",
     "mkdirp": "^0.5.1",
-    "node-static": "0.7.9"
+    "node-static": "0.7.9",
+    "pm2": "^2.4.6"
   },
   "devDependencies": {
     "gulp-nodemon": "2.2.1",

@@ -8,6 +8,7 @@
   let ts = require('gulp-typescript');
   let insert = require('gulp-insert');
 
+  const APP_NAME = 'common-voice';
   const DIR_SERVER = path.join(__dirname, 'server');
   const DIR_UPLOAD = path.join(DIR_SERVER, 'upload');
   const DIR_JS = path.join(__dirname, '/client/js/');
@@ -67,6 +68,30 @@
   gulp.task('listen', 'Run development server.', listen);
 
   gulp.task('watch', 'Rebuild, rebundle, re-install on file changes.', watch);
+
+  gulp.task('deploy', 'deploy production',
+    ['npm-install', 'build'], (done) => {
+    let pm2 = require('pm2');
+    let ff = require('ff');
+    let f = ff(() => {
+      pm2.connect(f.wait());
+    }, () => {
+      pm2.stop(APP_NAME, f.waitPlain());
+    }, (config) => {
+      pm2.start({
+        name: APP_NAME,
+        script: "server/js/server.js",
+        output: config.logfile || "log.txt",
+        error: config.logfile || "log.txt",
+      }, f());
+    }).onComplete((err) => {
+      if (err) {
+        console.log('prod error', err);
+      }
+      pm2.disconnect();
+      done();
+    });
+  });
 
   gulp.task('default', 'Running just `gulp`.', ['build'], () => {
     watch();
