@@ -27,3 +27,14 @@ export function generateGUID() {
 export function capitalizeFirstLetter(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
+
+/**
+ * Add js handler for link clicking.
+ */
+export function jsifyLink(link: HTMLAnchorElement, handler: Function) {
+  link.addEventListener('click', (evt: Event) => {
+    evt.preventDefault();
+    evt.stopPropagation();
+    handler(link.href);
+  }, true);
+}

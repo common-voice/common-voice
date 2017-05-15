@@ -411,6 +411,14 @@ define("lib/utility", [ "require", "exports" ], function(require, exports) {
     return string.charAt(0).toUpperCase() + string.slice(1);
   }
   exports.capitalizeFirstLetter = capitalizeFirstLetter;
+  function jsifyLink(link, handler) {
+    link.addEventListener("click", function(evt) {
+      evt.preventDefault();
+      evt.stopPropagation();
+      handler(link.href);
+    }, true);
+  }
+  exports.jsifyLink = jsifyLink;
 });
 
 define("lib/user", [ "require", "exports", "lib/component", "lib/utility" ], function(require, exports, component_1, utility_1) {
@@ -467,11 +475,7 @@ define("lib/pages/page", [ "require", "exports", "lib/component", "lib/utility" 
         _this.nav.href = "/" + name;
         _this.nav.textContent = utility_2.capitalizeFirstLetter(name);
         document.querySelector("#main-nav").appendChild(_this.nav);
-        _this.nav.addEventListener("click", function(evt) {
-          evt.preventDefault();
-          evt.stopPropagation();
-          _this.trigger("nav", _this.nav.href);
-        }, true);
+        utility_2.jsifyLink(_this.nav, _this.trigger.bind(_this, "nav"));
       }
       return _this;
     }
@@ -1129,7 +1133,7 @@ define("lib/pages", [ "require", "exports", "lib/eventer", "lib/pages/record", "
   exports.default = Pages;
 });
 
-define("lib/app", [ "require", "exports", "lib/user", "lib/pages" ], function(require, exports, user_1, pages_1) {
+define("lib/app", [ "require", "exports", "lib/user", "lib/pages", "lib/utility" ], function(require, exports, user_1, pages_1, utility_4) {
   "use strict";
   Object.defineProperty(exports, "__esModule", {
     value: true
@@ -1158,6 +1162,8 @@ define("lib/app", [ "require", "exports", "lib/user", "lib/pages" ], function(re
     App.prototype.run = function() {
       var handler = this.handleNavigation.bind(this);
       this.pages.on("nav", handler);
+      var logo = document.getElementById("main-logo");
+      utility_4.jsifyLink(logo, handler);
       this.pages.init();
       handler();
     };

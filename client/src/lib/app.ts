@@ -1,5 +1,6 @@
-import User from './user';
-import Pages from './pages';
+import User from 'user';
+import Pages from 'pages';
+import { jsifyLink } from 'utility';
 
 /**
  * Main app controller, rensponsible for routing between page
@@ -56,6 +57,10 @@ export default class App {
 
     // Listen and respond to any navigation requests.
     this.pages.on('nav', handler);
+
+    // Use ja navigation for logo too.
+    let logo = document.getElementById('main-logo') as HTMLAnchorElement;
+    jsifyLink(logo, handler);
 
     // Init the page controllers.
     this.pages.init()

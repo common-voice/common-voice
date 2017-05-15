@@ -1,6 +1,6 @@
 import Component from '../component';
 import User from '../user';
-import { capitalizeFirstLetter } from '../utility';
+import { capitalizeFirstLetter, jsifyLink } from '../utility';
 
 /**
  * Represents a single page. Automatically highights
@@ -30,11 +30,7 @@ export default abstract class Page<State> extends Component<State> {
       this.nav.href = '/' + name;
       this.nav.textContent = capitalizeFirstLetter(name);
       document.querySelector('#main-nav').appendChild(this.nav);
-      this.nav.addEventListener('click', (evt: MouseEvent) => {
-        evt.preventDefault();
-        evt.stopPropagation();
-        this.trigger('nav', this.nav.href);
-      }, true);
+      jsifyLink(this.nav, this.trigger.bind(this, 'nav'));
     }
   }
 
