@@ -1,5 +1,4 @@
 node_modules
-config.json
 server/upload/
 client/js/
 server/js/
