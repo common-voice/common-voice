@@ -56,6 +56,8 @@
       .pipe(gulp.dest(DIR_SERVER_JS));
   });
 
+  gulp.task('build', 'Build both server and client js', ['ts', 'ts-server']);
+
   gulp.task('npm-install', 'Install npm dependencies.',
             shell.task(['npm install']));
 
@@ -66,7 +68,7 @@
 
   gulp.task('watch', 'Rebuild, rebundle, re-install on file changes.', watch);
 
-  gulp.task('default', 'Running just `gulp`.', ['ts', 'ts-server'], () => {
+  gulp.task('default', 'Running just `gulp`.', ['build'], () => {
     watch();
     listen();
   });
