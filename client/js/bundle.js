@@ -407,6 +407,10 @@ define("lib/utility", [ "require", "exports" ], function(require, exports) {
     });
   }
   exports.generateGUID = generateGUID;
+  function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  }
+  exports.capitalizeFirstLetter = capitalizeFirstLetter;
 });
 
 define("lib/user", [ "require", "exports", "lib/component", "lib/utility" ], function(require, exports, component_1, utility_1) {
@@ -444,7 +448,7 @@ define("lib/user", [ "require", "exports", "lib/component", "lib/utility" ], fun
   exports.default = User;
 });
 
-define("lib/pages/page", [ "require", "exports", "lib/component" ], function(require, exports, component_2) {
+define("lib/pages/page", [ "require", "exports", "lib/component", "lib/utility" ], function(require, exports, component_2, utility_2) {
   "use strict";
   Object.defineProperty(exports, "__esModule", {
     value: true
@@ -459,8 +463,9 @@ define("lib/pages/page", [ "require", "exports", "lib/component" ], function(req
       _this.content = document.createElement("div");
       if (!noNav) {
         _this.nav = document.createElement("a");
+        _this.nav.className = "tab";
         _this.nav.href = "/" + name;
-        _this.nav.textContent = name;
+        _this.nav.textContent = utility_2.capitalizeFirstLetter(name);
         document.querySelector("#main-nav").appendChild(_this.nav);
         _this.nav.addEventListener("click", function(evt) {
           evt.preventDefault();
@@ -837,7 +842,7 @@ define("lib/viz", [ "require", "exports", "lib/dsp" ], function(require, exports
   exports.RadialAnalyzerNodeView = RadialAnalyzerNodeView;
 });
 
-define("lib/pages/record", [ "require", "exports", "lib/pages/page", "lib/api", "lib/pages/record/audio", "error-msg", "lib/utility", "lib/viz" ], function(require, exports, page_1, api_1, audio_1, error_msg_2, utility_2, viz_1) {
+define("lib/pages/record", [ "require", "exports", "lib/pages/page", "lib/api", "lib/pages/record/audio", "error-msg", "lib/utility", "lib/viz" ], function(require, exports, page_1, api_1, audio_1, error_msg_2, utility_3, viz_1) {
   "use strict";
   Object.defineProperty(exports, "__esModule", {
     value: true
@@ -909,7 +914,7 @@ define("lib/pages/record", [ "require", "exports", "lib/pages/page", "lib/api", 
       this.setState({
         recording: false
       });
-      utility_2.assert(this.recordingInterval);
+      utility_3.assert(this.recordingInterval);
       clearInterval(this.recordingInterval);
       this.recordingInterval = 0;
       this.audio.stop().then(function() {
@@ -1024,7 +1029,7 @@ define("lib/pages/home", [ "require", "exports", "lib/pages/page" ], function(re
   var HomePage = function(_super) {
     __extends(HomePage, _super);
     function HomePage(user) {
-      var _this = _super.call(this, user, PAGE_NAME) || this;
+      var _this = _super.call(this, user, PAGE_NAME, true) || this;
       _this.name = PAGE_NAME;
       return _this;
     }

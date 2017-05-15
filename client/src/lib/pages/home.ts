@@ -7,7 +7,7 @@ export default class HomePage extends Page<void> {
   name: string = PAGE_NAME;
 
   constructor(user: User) {
-    super(user, PAGE_NAME);
+    super(user, PAGE_NAME, true); // Don't need a nav item since we have logo.
   }
 
   init(navHandler: Function) {

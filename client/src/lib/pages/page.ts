@@ -1,5 +1,6 @@
 import Component from '../component';
 import User from '../user';
+import { capitalizeFirstLetter } from '../utility';
 
 /**
  * Represents a single page. Automatically highights
@@ -25,8 +26,9 @@ export default abstract class Page<State> extends Component<State> {
     // Some pages (like 404) will not need a navigation tab.
     if (!noNav) {
       this.nav = document.createElement('a');
+      this.nav.className = 'tab';
       this.nav.href = '/' + name;
-      this.nav.textContent = name;
+      this.nav.textContent = capitalizeFirstLetter(name);
       document.querySelector('#main-nav').appendChild(this.nav);
       this.nav.addEventListener('click', (evt: MouseEvent) => {
         evt.preventDefault();

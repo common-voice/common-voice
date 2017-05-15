@@ -1,9 +1,28 @@
+:root {
+  --base-font-size: 15px;
+  --header-height: 3rem;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
 body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 15px;
+  font-size: var(--base-font-size);
   background-color: #212121;
   color: #F5F5F5;
-  margin: 0;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: white;
 }
 
 button {
@@ -36,27 +55,52 @@ button.disabled {
   pointer-events: none;
 }
 
-#main-nav {
+header, section#content, footer {
+  padding: 0 0.5rem;
+}
+
+header {
   display: flex;
+  flex-flow: row nowrap;
+  height: var(--header-height);
+  padding: 0.5rem 0.5rem;
+}
+
+#main-logo {
+  flex: 0 0 auto;
+  background: url("/img/mic.svg") no-repeat left/contain;
+  filter: invert(100%);
+  font-weight: bold;
+  color: black;
+  padding-left: 1.7rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+#main-nav {
+  flex: 1 1 auto;
+  display: flex;
+  flex-flow: row-reverse nowrap;
   margin: 0;
   padding: 0;
 }
 
-#main-nav > a {
-  padding: 1rem;
-  flex: 1 1 auto;
-  font-weight: bold;
-  color: white;
-  text-decoration: none;
-  background-color: black;
-  border-bottom: 2px solid #757575;
+.tab {
+  flex-grow: 0;
+  padding: 0 1rem;
+  line-height: calc(1.2 * var(--header-height));
+  display: table-cell;
+  vertical-align: bottom;
 }
 
-#main-nav > a.active {
-  border-radius: 3px 3px 0 0;
-  border: 2px solid #757575;
-  background-color: transparent;
-  border-bottom: none;
+.tab.active {
+  border-bottom: 2px solid orange;
+}
+
+#content {
+  flex: 1 1 auto;
 }
 
 #content > div {

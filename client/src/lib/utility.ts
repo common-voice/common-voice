@@ -20,3 +20,10 @@ export function generateGUID() {
     return v.toString(16);
   });
 }
+
+/**
+ * Capitalize first letter for nice display.
+ */
+export function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
