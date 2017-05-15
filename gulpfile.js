@@ -5,9 +5,9 @@
   let gulp = require('gulp-help')(require('gulp'));
   let shell = require('gulp-shell');
   let path = require('path');
+  let fs = require('fs');
   let ts = require('gulp-typescript');
-  let tsProject = ts.createProject(__dirname + '/client/tsconfig.json');
-  let tsServerProject = ts.createProject(__dirname + '/server/tsconfig.json');
+  let insert = require('gulp-insert');
 
   const DIR_SERVER = path.join(__dirname, 'server');
   const DIR_UPLOAD = path.join(DIR_SERVER, 'upload');
@@ -15,19 +15,23 @@
   const DIR_SERVER_JS = path.join(DIR_SERVER, '/js/');
   const PATH_TS = path.join(__dirname, '/client/src/', '/**/*.ts');
   const PATH_TS_SERVER = path.join(DIR_SERVER, '/src/**/*.ts');
+  const PATH_AMD_LOADER = path.join(__dirname,'client/vendor/almond.js');
 
-  function compile(project, output) {
-    return project.src()
-           .pipe(project())
-           .js.pipe(gulp.dest(output));
+  function compile(project) {
+    return project.src().pipe(project()).js;
   }
 
   gulp.task('ts', 'Compile typescript files into bundle.js', () => {
-    return compile(tsProject, DIR_JS);
+    let project = ts.createProject(__dirname + '/client/tsconfig.json');
+    return compile(project)
+      .pipe(insert.prepend(fs.readFileSync(PATH_AMD_LOADER)))
+      .pipe(gulp.dest(DIR_JS));
   });
 
   gulp.task('ts-server', 'Compile typescript server files.', () => {
-    return compile(tsServerProject, DIR_SERVER_JS);
+    let project = ts.createProject(__dirname + '/server/tsconfig.json');
+    return compile(project)
+      .pipe(gulp.dest(DIR_SERVER_JS));
   });
 
   gulp.task('npm-install', 'Install npm dependencies.',
