@@ -71,13 +71,14 @@
 
   gulp.task('deploy', 'deploy production',
     ['npm-install', 'build'], (done) => {
+    let config = require('./config.json');
     let pm2 = require('pm2');
     let ff = require('ff');
     let f = ff(() => {
       pm2.connect(f.wait());
     }, () => {
       pm2.stop(APP_NAME, f.waitPlain());
-    }, (config) => {
+    }, () => {
       pm2.start({
         name: APP_NAME,
         script: "server/js/server.js",
