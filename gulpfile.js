@@ -5,7 +5,6 @@
   let gulp = require('gulp-help')(require('gulp'));
   let shell = require('gulp-shell');
   let path = require('path');
-  let fs = require('fs');
   let ts = require('gulp-typescript');
   let insert = require('gulp-insert');
 
@@ -22,9 +21,17 @@
   }
 
   gulp.task('ts', 'Compile typescript files into bundle.js', () => {
+    let fs = require('fs');
+    let uglify = require('gulp-uglify');
     let project = ts.createProject(__dirname + '/client/tsconfig.json');
     return compile(project)
-      .pipe(insert.prepend(fs.readFileSync(PATH_AMD_LOADER)))
+      .pipe(require('gulp-insert')
+            .prepend(fs.readFileSync(PATH_AMD_LOADER)))
+      .pipe(uglify({ mangle: false, compress: false, output: {
+        beautify: true,
+        indent_level: 2,
+        semicolons: false
+      }}))
       .pipe(gulp.dest(DIR_JS));
   });
 
