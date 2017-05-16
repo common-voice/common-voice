@@ -1,7 +1,7 @@
 import Component from './component';
 import { generateGUID } from './utility';
 
-const USER_KEY = '__userid';
+const USER_KEY = 'userdata';
 
 interface UserState {
   userId: string;
