@@ -15,7 +15,8 @@
     "mediaserver": "0.1.0",
     "mkdirp": "^0.5.1",
     "node-static": "0.7.9",
-    "pm2": "^2.4.6"
+    "pm2": "^2.4.6",
+    "simple-git": "^1.72.0"
   },
   "devDependencies": {
     "gulp-nodemon": "2.2.1",

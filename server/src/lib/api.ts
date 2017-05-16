@@ -1,4 +1,5 @@
 import * as http from 'http';
+import WebHook from './webhook';
 
 const path = require('path');
 const fs = require('fs');
@@ -9,8 +10,11 @@ const SENTENCE_FILE = path.resolve(__dirname, '../../data',
 
 export default class API {
   sentencesCache: String[];
+  webhook: WebHook;
 
-  constructor() {}
+  constructor() {
+    this.webhook = new WebHook();
+  }
 
   /**
    * Is this request directed at the api?
@@ -24,10 +28,20 @@ export default class API {
    */
   handleRequest(request: http.IncomingMessage,
                 response: http.ServerResponse) {
+
+    // Most often this will be a sentence request.
     if (request.url.includes('/sentence')) {
       this.returnRandomSentence(response);
+
+    // Webhooks from github.
+    } else if (this.webhook.isHookRequest(request)) {
+      this.webhook.handleWebhookRequest(request, response);
+
+    // Unrecognized requests get here.
     } else {
       console.error('unrecongized api url', request.url);
+      response.writeHead(404);
+      response.end('I\'m not sure what you want.');
     }
   }
 

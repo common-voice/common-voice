@@ -38,6 +38,7 @@ function handleRequest(request: http.IncomingMessage,
   request.addListener('end', () => {
     fileServer.serve(request, response, (err: any) => {
       if (err && err.status === 404) {
+        // Let the front end handle url routing.
         fileServer.serveFile('index.html', 200, {}, request, response);
       }
     })
