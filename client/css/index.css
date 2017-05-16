@@ -1,6 +1,7 @@
 :root {
   --base-font-size: 15px;
   --header-height: 3rem;
+  --tab-line: 1px solid orange;
 }
 
 html, body {
@@ -17,6 +18,12 @@ body {
   color: #F5F5F5;
   display: flex;
   flex-flow: column nowrap;
+}
+
+@media (min-width: 600px) {
+  body {
+    flex-flow: row nowrap;
+  }
 }
 
 a {
@@ -66,6 +73,13 @@ header {
   padding: 0.5rem 0.5rem;
 }
 
+@media (min-width: 600px) {
+  header {
+    flex-flow: column;
+    max-width: 10rem;
+  }
+}
+
 #main-logo {
   flex: 0 0 auto;
   background: url("/img/mic.svg") no-repeat left/contain;
@@ -87,20 +101,45 @@ header {
   padding: 0;
 }
 
+@media (min-width: 600px) {
+  #main-nav {
+    flex-flow: unset;
+    display: block;
+  }
+}
+
 .tab {
   flex-grow: 0;
   padding: 0 1rem;
   line-height: calc(1.2 * var(--header-height));
-  display: table-cell;
   vertical-align: bottom;
 }
 
+@media (min-width: 600px) {
+  #main-nav .tab {
+    display: block;
+    line-height: 2rem;
+  }
+  #main-nav .tab.active {
+    border-right: var(--tab-line);
+    border-bottom: 0px;
+  }
+}
+
 .tab.active {
-  border-bottom: 2px solid orange;
+  border-bottom: var(--tab-line);
 }
 
 #content {
   flex: 1 1 auto;
+}
+
+@media (min-width: 600px) {
+  section#content {
+    padding-left: 2rem;
+    padding-right: 3rem;
+    padding-top: 3rem;
+  }
 }
 
 #content > div {
@@ -163,3 +202,4 @@ header {
   opacity: 0.3;
   pointer-events: none;
 }
+
