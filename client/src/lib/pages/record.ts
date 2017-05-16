@@ -134,7 +134,20 @@ export default class RecordPage extends Page<RecordState> {
     if (this.state.recording) {
       this.stopRecording();
     } else {
-      this.startRecording();
+
+      // If we already have microphone permissions, start recording.
+      if (this.microphone) {
+        this.startRecording()
+        return;
+      }
+
+      // Prompt for microphone permission before setting up visuals.
+      Audio.getMicrophone().then((microphone) => {
+        this.microphone = microphone;
+        this.audio = new Audio(microphone);
+        this.showViz();
+        this.startRecording();
+      });
     }
   }
 
@@ -267,14 +280,7 @@ export default class RecordPage extends Page<RecordState> {
       return;
     }
 
-    // TODO: only request microphone when user presses record.
-    Audio.getMicrophone().then((microphone) => {
-      this.microphone = microphone;
-      this.audio = new Audio(microphone);
-      this.showViz();
-
-      // Trigger page update.
-      this.newSentence();
-    });
+    // Trigger page update.
+    this.newSentence();
   }
 }
