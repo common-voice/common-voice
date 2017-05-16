@@ -18,6 +18,23 @@ export default class App {
   constructor() {
     this.user = new User();
     this.pages = new Pages(this.user);
+    this.signalLoading();
+  }
+
+  /**
+   * Inform user that page is loading.
+   */
+  private signalLoading(): void {
+    document.body.classList.remove('loaded');
+    document.body.classList.add('loading');
+  }
+
+  /**
+   * Inform user that page has loaded.
+   */
+  private signalLoaded(): void {
+    document.body.classList.remove('loading');
+    document.body.classList.add('loaded');
   }
 
   /**
@@ -64,6 +81,7 @@ export default class App {
 
     // Init the page controllers.
     this.pages.init()
+    this.signalLoaded();
     handler();
   }
 

@@ -18,6 +18,15 @@ body {
   color: #F5F5F5;
   display: flex;
   flex-flow: column nowrap;
+  transform: opacity 0.5s linear;
+}
+
+body.loading {
+  opacity: 0;
+}
+
+body.loaded {
+  opacity: 1;
 }
 
 @media (min-width: 600px) {
