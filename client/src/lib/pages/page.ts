@@ -22,6 +22,7 @@ export default abstract class Page<State> extends Component<State> {
     super();
     this.container = document.getElementById('content');
     this.content = document.createElement('div');
+    this.content.className = 'container';
 
     // Some pages (like 404) will not need a navigation tab.
     if (!noNav) {
