@@ -36,7 +36,17 @@
     gulp.watch(PATH_TS_SERVER, ['ts-server']);
   }
 
-  gulp.task('ts', 'Compile typescript files into bundle.js', () => {
+  function watchAndListen() {
+    watch();
+    listen();
+  }
+
+  function doEverything() {
+    return Promise.all([compileClient, compileServer])
+      .then(watchAndListen);
+  }
+
+  function compileClient() {
     let fs = require('fs');
     let uglify = require('gulp-uglify');
     let project = ts.createProject(__dirname + '/client/tsconfig.json');
@@ -49,13 +59,17 @@
         semicolons: false
       }}))
       .pipe(gulp.dest(DIR_JS));
-  });
+  }
 
-  gulp.task('ts-server', 'Compile typescript server files.', () => {
+  function compileServer() {
     let project = ts.createProject(__dirname + '/server/tsconfig.json');
     return compile(project)
       .pipe(gulp.dest(DIR_SERVER_JS));
-  });
+  }
+
+  gulp.task('ts', 'Compile typescript files into bundle.js', compileClient);
+
+  gulp.task('ts-server', 'Compile typescript server files.', compileServer);
 
   gulp.task('build', 'Build both server and client js', ['ts', 'ts-server']);
 
@@ -81,7 +95,7 @@
     }, () => {
       pm2.start({
         name: APP_NAME,
-        script: "server/js/server.js",
+        script: "./gulpfile.js",
         output: config.logfile || "log.txt",
         error: config.logfile || "log.txt",
       }, f());
@@ -95,7 +109,11 @@
   });
 
   gulp.task('default', 'Running just `gulp`.', ['build'], () => {
-    watch();
-    listen();
+    watchAndListen();
   });
+
+  // Deploy script also runs this file, so exec the default task.
+  if (require.main === module) {
+    doEverything();
+  }
 })();
