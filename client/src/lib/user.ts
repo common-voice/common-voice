@@ -12,29 +12,31 @@ interface UserState {
  * User tracking
  */
 export default class User extends Component<UserState> {
+  storage: any;
 
   // Store userid on this object.
   constructor() {
     super();
+    this.storage = localStorage || {};
     this.state = this.restore();
   }
 
   private restore(): UserState {
-    let state: UserState = localStorage[USER_KEY];
+    let state: UserState = this.storage[USER_KEY];
 
     if (!state) {
       state = {
         userId: generateGUID(),
         clips: 0
       };
-      localStorage[USER_KEY] = state;
+      this.storage[USER_KEY] = state;
     }
 
     return state;
   }
 
   private store(): void {
-    localStorage[USER_KEY] =  this.state;
+    this.storage[USER_KEY] =  this.state;
   }
 
   public getId(): string {
