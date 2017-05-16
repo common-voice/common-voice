@@ -3,6 +3,7 @@ import User from './user';
 import Page from './pages/page';
 import Record from './pages/record';
 import Home from './pages/home';
+import About from './pages/about';
 import NotFound from './pages/not-found';
 
 export default class Pages extends Eventer {
@@ -11,12 +12,14 @@ export default class Pages extends Eventer {
     ROOT: '/',
     HOME: '/home',
     RECORD: '/record',
+    ABOUT: '/about',
     NOT_FOUND: '/notFound'
   }
 
   private pages: string[];
   private home: Home;
   private record: Record;
+  private about: About;
   private notFound: NotFound;
 
   private currentPage: Page<any>;
@@ -31,6 +34,7 @@ export default class Pages extends Eventer {
 
     // These are the page controllers.
     this.home = new Home(user);
+    this.about = new About(user);
     this.record = new Record(user);
     this.notFound = new NotFound(user);
   }
@@ -43,6 +47,7 @@ export default class Pages extends Eventer {
 
     this.home.init(navPageHandler);
     this.record.init(navPageHandler);
+    this.about.init(navPageHandler);
     this.notFound.init(navPageHandler);
   }
 
@@ -57,6 +62,9 @@ export default class Pages extends Eventer {
 
       case '/record':
         return this.record;
+
+      case '/about':
+        return this.about;
 
       default:
         return this.notFound;
