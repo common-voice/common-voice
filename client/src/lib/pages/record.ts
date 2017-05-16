@@ -185,21 +185,24 @@ export default class RecordPage extends Page<RecordState> {
     // window.URL.revokeObjectURL(url);
 
     // Upload
-    let self = this;
-    let upload = new Promise(function (resolve, reject) {
-      var req = new XMLHttpRequest();
-      req.upload.addEventListener('load', resolve);
-      req.upload.addEventListener("error", reject);
-      req.open('POST', SOUNDCLIP_URL);
-      req.setRequestHeader('uid', this.user.getId());
-      req.setRequestHeader('sentence', encodeURIComponent(self.state.sentence));
-      req.send(self.audio.lastRecording);
-    });
+    let upload = new Promise(
+      (resolve: EventListener, reject: EventListener) => {
+        var req = new XMLHttpRequest();
+        req.upload.addEventListener('load', resolve);
+        req.upload.addEventListener("error", reject);
+        req.open('POST', SOUNDCLIP_URL);
+        req.setRequestHeader('uid', this.user.getId());
+        req.setRequestHeader('sentence',
+          encodeURIComponent(this.state.sentence));
+        req.send(this.audio.lastRecording);
+      });
 
     upload.then(function() {
       console.log("Uploaded Ok.");
     }).catch(function(e) {
-      console.log("Upload Error: " + ERROR_MSG.ERR_UPLOAD_FAILED);
+      console.error("Upload Error: " + e);
+      // TODO: put this message in the DOM
+      // ERROR_MSG.ERR_UPLOAD_FAILED);
     });
   }
   onPlayClick() {
