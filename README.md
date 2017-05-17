@@ -1,3 +1,7 @@
+## Project Common Voice ![Travis Status](https://travis-ci.org/mozilla/voice-web.svg?branch=master "Travis Status")
+This is a web, android and ios app for collection speech
+donations for Project Common Voice.
+
 ### Development
 ```
 npm install
