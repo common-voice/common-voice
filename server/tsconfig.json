@@ -3,7 +3,7 @@
     "target": "es5",
     "noImplicitAny": false,
     "strictNullChecks": false,
-    "typeRoots": [ "./typings" ],
+    "typeRoots": [ "../node_modules/@types" ],
     "rootDir": "./src"
   }
 }
