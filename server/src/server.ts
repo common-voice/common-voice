@@ -5,7 +5,7 @@ import Clip from './lib/clip';
 
 const DEFAULT_PORT = 9000;
 const CONFIG_PATH = path.resolve(__dirname, '../..', 'config.json');
-const CLIENT_PATH = './client';
+const CLIENT_PATH = './web';
 
 const nodeStatic = require('node-static');
 const config = require(CONFIG_PATH);

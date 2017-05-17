@@ -1,21 +1,24 @@
 (function() {
   'use strict';
 
+  const APP_NAME = 'common-voice';
+  const TS_CONFIG = 'tsconfig.json';
+  const TS_GLOB = 'src/**/*.ts';
+  const DIR_CLIENT = './web/';
+  const DIR_SERVER = './server/';
+  const DIR_UPLOAD = DIR_SERVER + 'upload/';
+  const DIR_JS = DIR_CLIENT + 'js/'
+  const DIR_SERVER_JS = DIR_SERVER + 'js/';
+  const PATH_TS = DIR_CLIENT + TS_GLOB;
+  const PATH_TS_SERVER = DIR_SERVER + TS_GLOB;
+  const PATH_AMD_LOADER = DIR_CLIENT + 'vendor/almond.js';
+
   // Add gulp help functionality.
   let gulp = require('gulp-help')(require('gulp'));
   let shell = require('gulp-shell');
   let path = require('path');
   let ts = require('gulp-typescript');
   let insert = require('gulp-insert');
-
-  const APP_NAME = 'common-voice';
-  const DIR_SERVER = path.join(__dirname, 'server');
-  const DIR_UPLOAD = path.join(DIR_SERVER, 'upload');
-  const DIR_JS = path.join(__dirname, '/client/js/');
-  const DIR_SERVER_JS = path.join(DIR_SERVER, '/js/');
-  const PATH_TS = path.join(__dirname, '/client/src/', '/**/*.ts');
-  const PATH_TS_SERVER = path.join(DIR_SERVER, '/src/**/*.ts');
-  const PATH_AMD_LOADER = path.join(__dirname,'client/vendor/almond.js');
 
   function compile(project) {
     return project.src().pipe(project()).js;
@@ -49,7 +52,7 @@
   function compileClient() {
     let fs = require('fs');
     let uglify = require('gulp-uglify');
-    let project = ts.createProject(__dirname + '/client/tsconfig.json');
+    let project = ts.createProject(DIR_CLIENT + TS_CONFIG);
     return compile(project)
       .pipe(require('gulp-insert')
             .prepend(fs.readFileSync(PATH_AMD_LOADER)))
@@ -62,7 +65,7 @@
   }
 
   function compileServer() {
-    let project = ts.createProject(__dirname + '/server/tsconfig.json');
+    let project = ts.createProject(DIR_SERVER + TS_CONFIG);
     return compile(project)
       .pipe(gulp.dest(DIR_SERVER_JS));
   }

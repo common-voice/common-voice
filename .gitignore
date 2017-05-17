@@ -1,4 +1,4 @@
 node_modules
-server/upload/
-client/js/
+web/js/
 server/js/
+server/upload/
