@@ -167,7 +167,7 @@ header {
   text-align: center;
   color: #757575;
   transition: transform 0.2s ease-out;
-  padding: 10px 0x;
+  padding: 10px 0;
   margin: 10px 0;
   position: relative;
 }
