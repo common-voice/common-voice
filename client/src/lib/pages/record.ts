@@ -3,7 +3,7 @@ import User from '../user';
 import API from './../api';
 import Audio from './record/audio';
 import ERROR_MSG from '../../error-msg';
-import { assert, generateGUID } from '../utility';
+import { generateGUID } from '../utility';
 import {
   AnalyzerNodeView,
   LinearAnalyzerNodeView,
@@ -25,8 +25,8 @@ interface RecordState {
 
 export default class RecordPage extends Page<RecordState> {
   name: string = PAGE_NAME;
+  audio: Audio;
   api: API;
-  microphone: MediaStream;
   messageEl: HTMLDivElement;
   sentenceEl: HTMLSpanElement;
   elapsedTimeEl: HTMLDivElement;
@@ -38,7 +38,6 @@ export default class RecordPage extends Page<RecordState> {
   visualizer: AnalyzerNodeView;
   radialVisualizer: AnalyzerNodeView;
   spectrogramVisualizer: AnalyzerNodeView;
-  audio: Audio;
 
   constructor(user: User) {
     super(user, PAGE_NAME);
@@ -50,7 +49,20 @@ export default class RecordPage extends Page<RecordState> {
       recordingStartTime: 0
     }
     this.api = new API();
+    this.audio = new Audio();
   }
+
+  private prepareToRecord(): Promise<void> {
+    if (this.audio.ready) {
+      return Promise.resolve();
+    }
+
+    // Set up the adio and any page visuals.
+    return this.audio.init().then(() => {
+      this.showViz();
+    });
+  }
+
   mount() {
     this.content.innerHTML = `
     <p id="message" class="panel"></p>
@@ -134,42 +146,23 @@ export default class RecordPage extends Page<RecordState> {
     if (this.state.recording) {
       this.stopRecording();
     } else {
-
-      // If we already have microphone permissions, start recording.
-      if (this.microphone) {
-        this.startRecording()
-        return;
-      }
-
-      // Prompt for microphone permission before setting up visuals.
-      Audio.getMicrophone().then((microphone) => {
-        this.microphone = microphone;
-        this.audio = new Audio(microphone);
-        this.showViz();
+      this.prepareToRecord().then(() => {
         this.startRecording();
       });
     }
   }
 
-  recordingInterval = 0;
   startRecording() {
     this.setState({
       recording: true,
       recordingStartTime: this.audio.audioContext.currentTime
     } as any);
-    this.recordingInterval = setInterval(() => {
-      this.forceUpdate();
-    });
     this.audio.start();
   }
 
   stopRecording() {
-    this.setState({ recording: false } as any);
-    assert(this.recordingInterval);
-    clearInterval(this.recordingInterval);
-    this.recordingInterval = 0;
     this.audio.stop().then(() => {
-      this.forceUpdate();
+      this.setState({ recording: false } as any);
     });
   }
 
@@ -238,8 +231,8 @@ export default class RecordPage extends Page<RecordState> {
     this.sentenceEl.textContent = `${this.state.sentence}`;
     this.messageEl.textContent = this.state.message ? `${this.state.message}` : "N/A";
 
-    // Only update the radio tools if we've been granted microphone access.
-    if (!this.microphone) {
+    // If we have not set up audio yet, no need to update audio controls.
+    if (!this.audio.ready) {
       return;
     }
 
@@ -278,12 +271,9 @@ export default class RecordPage extends Page<RecordState> {
   show() {
     super.show();
 
-    // If we already grabbed he micorphone before, we're done.
-    if (this.microphone) {
-      return;
+    // Grab a sentence if we don't already have one.
+    if (!this.state.sentence) {
+      this.newSentence();
     }
-
-    // Trigger page update.
-    this.newSentence();
   }
 }

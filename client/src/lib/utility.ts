@@ -3,15 +3,6 @@
  */
 
 /**
- * Runtime checks.
- */
-export function assert(c: any, message: string = "") {
-  if (!c) {
-    throw new Error(message);
-  }
-}
-
-/**
  * Get some random string in a certain format.
  */
 export function generateGUID() {
