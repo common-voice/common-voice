@@ -2,4 +2,3 @@
 declare var webkit: any;
 
 declare var MediaRecorder: any;
-

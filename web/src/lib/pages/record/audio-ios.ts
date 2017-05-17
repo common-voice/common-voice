@@ -3,26 +3,36 @@ import ERROR_MSG from '../../../error-msg';
 import { isNativeIOS } from '../../utility';
 
 export default class AudioIOS extends AudioBase {
+  postMessage: Function;
+
   constructor(container: HTMLElement) {
     super(container);
     // Make sure we are in the right context before we allow instantiation.
     if (isNativeIOS()) {
       throw new Error('cannot use ios audio in web app');
     }
+
+    // Store our native message bridge for later.
+    let messenger = webkit.messageHandlers['scriptHandler'];
+    this.postMessage = messenger.postMessage.bind(messenger);
+  }
+
+  private handleAudioFromNative(data: any) {
+    console.log('got data!', data);
   }
 
   init() {
-    // iOS handles all the audio init for us, so we do nothing here.
+    window['uploadData'] = this.handleAudioFromNative.bind(this);
     return Promise.resolve();
   }
 
-  // TODO: implement me.
   start() {
-    return Promise.reject('Unimplemented');
+    this.postMessage('startCapture');
+    return Promise.resolve();
   }
 
-  // TODO: implement me.
   stop() {
-    return Promise.reject('Unimplemented');
+    this.postMessage('stopCapture');
+    return Promise.resolve();
   }
 }
