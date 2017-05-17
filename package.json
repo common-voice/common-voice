@@ -4,8 +4,6 @@
   "description": "",
   "main": "server/server.js",
   "dependencies": {
-    "@types/mongodb": "file:@types/mongodb",
-    "@types/node": "file:@types/node",
     "bluebird": "^3.5.0",
     "ff": "0.2.1",
     "glob": "7.1.1 ",
@@ -21,6 +19,8 @@
     "simple-git": "^1.72.0"
   },
   "devDependencies": {
+    "@types/mongodb": "^2.2.2",
+    "@types/node": "^7.0.18",
     "gulp-nodemon": "2.2.1",
     "gulp-typescript": "^3.1.6",
     "typescript": "^2.3.2"
