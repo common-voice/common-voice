@@ -199,6 +199,11 @@ export default class RecordPage extends Page<RecordState> {
     });
   }
   onPlayClick() {
+    if (!this.audio.lastRecording) {
+      console.error('cannot play when there is no recording');
+      return;
+    }
+
     this.playerEl.src = URL.createObjectURL(this.audio.lastRecording);
     if (this.state.playing) {
       this.playerEl.pause();
