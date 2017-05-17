@@ -1,17 +1,26 @@
+import AudioBase from 'audio-base';
 import ERROR_MSG from '../../../error-msg';
+import { AnalyzerNodeView, RadialAnalyzerNodeView } from '../../viz';
+import { isNativeIOS } from '../../utility';
 
-const AUDIO_TYPE = 'audio/ogg; codecs=opus';
-
-export default class Audio {
+export default class AudioWeb extends AudioBase {
   ready: boolean;
   lastRecording: Blob;
   microphone: MediaStream;
   analyzerNode: AnalyserNode;
   audioContext: AudioContext;
+  radialVisualizer: AnalyzerNodeView;
   recorder: any;
   chunks: any[];
 
-  constructor() {
+  constructor(container: HTMLElement) {
+    super(container);
+
+    // Make sure we are in the right context before we allow instantiation.
+    if (isNativeIOS()) {
+      throw new Error('cannot use web audio in iOS app');
+    }
+
     this.ready = false;
   }
 
@@ -41,7 +50,23 @@ export default class Audio {
     });
   }
 
-  init(): Promise<void> {
+  private showViz() {
+    if (this.radialVisualizer) {
+      return;
+    }
+
+    let vizContainer = document.createElement('div');
+    let levels = document.createElement('canvas');
+    levels.height = levels.width = 100;
+    vizContainer.appendChild(levels);
+    this.container.appendChild(vizContainer);
+
+    this.radialVisualizer =
+      new RadialAnalyzerNodeView(this.analyzerNode, levels, 300, 300);
+  }
+
+
+  init() {
     if (this.ready) {
       return Promise.resolve();
     }
@@ -78,6 +103,8 @@ export default class Audio {
       this.analyzerNode = analyzerNode;
       this.audioContext = audioContext;
 
+      this.showViz();
+
       this.ready = true;
     });
   }
@@ -85,36 +112,43 @@ export default class Audio {
   start() {
     if (!this.ready) {
       console.error('Cannot record audio before microhphone is ready.');
-      return;
+      return Promise.resolve();;
     }
 
-    this.chunks = [];
-    this.recorder.ondataavailable = (e) => {
-      this.chunks.push(e.data);
-    };
+    return new Promise((res: Function, rej: Function) => {
+      this.chunks = [];
+      this.recorder.ondataavailable = (e) => {
+        this.chunks.push(e.data);
+      };
 
-    // We want to be able to record up to 60s of audio in a single blob.
-    // Without this argument to start(), Chrome will call dataavailable
-    // very frequently.
-    this.recorder.start(20000);
+      this.recorder.onstart = (e) => {
+        this.radialVisualizer.isRecording = true;
+        this.lastRecording = null;
+        res();
+      }
+
+      // We want to be able to record up to 60s of audio in a single blob.
+      // Without this argument to start(), Chrome will call dataavailable
+      // very frequently.
+      this.recorder.start(20000);
+    });
   }
 
   stop() {
     if (!this.ready) {
       console.error('Cannot stop audio before microhphone is ready.');
-      return;
+      return Promise.resolve();;
     }
 
-    return new Promise((res: Function, reject: Function) => {
+    return new Promise((res: Function, rej: Function) => {
       this.recorder.onstop = (e) => {
-        var blob = new Blob(this.chunks, { 'type': AUDIO_TYPE });
+        this.radialVisualizer.isRecording = false;
+        var blob = new Blob(this.chunks, { 'type': AudioBase.AUDIO_TYPE });
         this.lastRecording = blob;
-        this.chunks = [];
         res(blob);
       };
       this.recorder.stop();
     });
   }
-
 }
 

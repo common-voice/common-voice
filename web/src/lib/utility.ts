@@ -5,7 +5,7 @@
 /**
  * Get some random string in a certain format.
  */
-export function generateGUID() {
+export function generateGUID(): string {
   return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
     var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
     return v.toString(16);
@@ -22,10 +22,17 @@ export function capitalizeFirstLetter(string) {
 /**
  * Add js handler for link clicking.
  */
-export function jsifyLink(link: HTMLAnchorElement, handler: Function) {
+export function jsifyLink(link: HTMLAnchorElement, handler: Function): void {
   link.addEventListener('click', (evt: Event) => {
     evt.preventDefault();
     evt.stopPropagation();
     handler(link.href);
   }, true);
+}
+
+/**
+ * Test if we are running in the iOS native app wrapper.
+ */
+export function isNativeIOS(): boolean {
+  return typeof webkit !== 'undefined';
 }
