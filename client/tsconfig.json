@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
+    "target": "es5",
     "module": "amd",
     "noImplicitAny": false,
-    "target": "es5",
+    "noEmitOnError": true,
     "lib": ["es2015", "dom"],
     "outFile": "bundle.js"
   },

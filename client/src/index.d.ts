@@ -1,12 +1,2 @@
-declare global {
-  interface AudioContext {
-    createMediaStreamDestination: any;
-  }
-
-  interface Navigator {
-    webkitGetUserMedia: any;
-    mozGetUserMedia: any;
-  }
-}
-
-export {};
+// Exposed by our native iOS wrapper
+declare var webkit: any;

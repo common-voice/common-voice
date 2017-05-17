@@ -3,6 +3,7 @@
     "target": "es5",
     "noImplicitAny": false,
     "strictNullChecks": false,
+    "noEmitOnError": true,
     "typeRoots": [ "../node_modules/@types" ],
     "rootDir": "./src"
   }
