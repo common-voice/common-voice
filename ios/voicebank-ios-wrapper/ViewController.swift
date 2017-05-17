@@ -19,7 +19,7 @@ class ViewController: UIViewController, WKScriptMessageHandler {
         webView = WKWebView(frame: self.view.frame)
         webView?.configuration.userContentController.add(self, name: "scriptHandler")
         self.view.addSubview(webView!)
-        let url = URL(string: "https://murmur.vaani.io/index_cv.html")
+        let url = URL(string: "https://test.mozvoice.org/record")
         let request = URLRequest(url: url!)
         webView?.load(request)
         

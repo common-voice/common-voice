@@ -4,33 +4,9 @@
 
 <script>
 
+// functions to detect if we are running inside an iOS Webview 
 function isiOS(){
     return window.webkit;
-}
-
-function start_recording() {
-    document.getElementById('placeholder').innerHTML = 'start_recording called';
-    window.webkit.messageHandlers["scriptHandler"].postMessage("startCapture");
-}
-
-function stop_recording() {
-    document.getElementById('placeholder').innerHTML = 'stop_recording called';
-    window.webkit.messageHandlers["scriptHandler"].postMessage("stopCapture");
-}
-
-function play_recording() {
-    document.getElementById('placeholder').innerHTML = 'play_recording called';
-    window.webkit.messageHandlers["scriptHandler"].postMessage("playCapture");
-}
-
-// this is called when the audio blob gets uploaded from
-// native to the webview
-function uploadData(sBinaryParam) {
-    // This 'atob' decodes the Base64 encoded data sent by swift
-    let sDecodedParam = window.atob(sBinaryParam);
-    // this is the blob we should upload blob to the server
-    let blob = new Blob([sDecodedParam])
-    document.getElementById('placeholder').innerHTML = "Blob size" + blob.size;
 }
 
 function displayiOS(){
@@ -41,6 +17,37 @@ function displayiOS(){
   }
 }
 
+
+// function to send a message to ios switft code to start to record audio
+function start_recording() {
+    document.getElementById('placeholder').innerHTML = 'start_recording called';
+    window.webkit.messageHandlers["scriptHandler"].postMessage("startCapture");
+}
+
+// function to send a message to ios switft code to stop recording audio
+function stop_recording() {
+    document.getElementById('placeholder').innerHTML = 'stop_recording called';
+    window.webkit.messageHandlers["scriptHandler"].postMessage("stopCapture");
+}
+
+// function to send a message to ios switft code to play latest recording
+function play_recording() {
+    document.getElementById('placeholder').innerHTML = 'play_recording called';
+    window.webkit.messageHandlers["scriptHandler"].postMessage("playCapture");
+}
+
+// this is called by swift when the recording stops
+function uploadData(sBinaryParam) {
+    // This 'atob' decodes the Base64 encoded data sent by swift
+    let sDecodedParam = window.atob(sBinaryParam);
+    // this is the blob we should upload blob to the server
+    let blob = new Blob([sDecodedParam])
+    // let's check the size of the blob to see if we have actual data
+    document.getElementById('placeholder').innerHTML = "Blob size" + blob.size;
+}
+
+// this is called by swift every 0.1 seconds with the peak and current dblevel 
+// of the audio being captured
 function levels(dblevel, peaklevel){
     document.querySelector('#placeholder').innerHTML = 'peaklevel: ' + peaklevel + ' - dblevel: ' + dblevel;
 }
