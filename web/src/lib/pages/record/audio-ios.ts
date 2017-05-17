@@ -8,7 +8,7 @@ export default class AudioIOS extends AudioBase {
   constructor(container: HTMLElement) {
     super(container);
     // Make sure we are in the right context before we allow instantiation.
-    if (isNativeIOS()) {
+    if (!isNativeIOS()) {
       throw new Error('cannot use ios audio in web app');
     }
 
