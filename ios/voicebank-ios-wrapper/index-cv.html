@@ -1,0 +1,58 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+
+<script>
+
+function isiOS(){
+    return window.webkit;
+}
+
+function start_recording() {
+    document.getElementById('placeholder').innerHTML = 'start_recording called';
+    window.webkit.messageHandlers["scriptHandler"].postMessage("startCapture");
+}
+
+function stop_recording() {
+    document.getElementById('placeholder').innerHTML = 'stop_recording called';
+    window.webkit.messageHandlers["scriptHandler"].postMessage("stopCapture");
+}
+
+function play_recording() {
+    document.getElementById('placeholder').innerHTML = 'play_recording called';
+    window.webkit.messageHandlers["scriptHandler"].postMessage("playCapture");
+}
+
+// this is called when the audio blob gets uploaded from
+// native to the webview
+function uploadData(sBinaryParam) {
+    // This 'atob' decodes the Base64 encoded data sent by swift
+    let sDecodedParam = window.atob(sBinaryParam);
+    // this is the blob we should upload blob to the server
+    let blob = new Blob([sDecodedParam])
+    document.getElementById('placeholder').innerHTML = "Blob size" + blob.size;
+}
+
+function displayiOS(){
+    if (isiOS()){
+      document.querySelector('#placeholder').innerHTML = 'running iOS Webview';
+    } else {
+      document.querySelector('#placeholder').innerHTML = 'not running iOS Webview';
+  }
+}
+
+function levels(dblevel, peaklevel){
+    document.querySelector('#placeholder').innerHTML = 'peaklevel: ' + peaklevel + ' - dblevel: ' + dblevel;
+}
+
+</script>
+
+<br><br><br>
+<input type="button" value="Start Recording" width="300" height="300" onclick="start_recording()"/> <br> <br>
+<input type="button" value="Stop Recording" width="300" height="300" onclick="stop_recording()"/>  <br> <br>
+<input type="button" value="Play Recording" width="300" height="300" onclick="play_recording()"/>  <br> <br>
+
+<div id='placeholder'></div>
+<script> displayiOS(); </script>
+</body>
+</html>
