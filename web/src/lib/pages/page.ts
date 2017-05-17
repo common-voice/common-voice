@@ -27,6 +27,7 @@ export default abstract class Page<State> extends Component<State> {
     // Some pages (like 404) will not need a navigation tab.
     if (!noNav) {
       this.nav = document.createElement('a');
+      this.nav.id = name;
       this.nav.className = 'tab';
       this.nav.href = '/' + name;
       this.nav.textContent = capitalizeFirstLetter(name);
