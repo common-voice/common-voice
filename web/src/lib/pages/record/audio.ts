@@ -1,5 +1,3 @@
-declare var MediaRecorder: any;
-
 import ERROR_MSG from '../../../error-msg';
 
 const AUDIO_TYPE = 'audio/ogg; codecs=opus';
