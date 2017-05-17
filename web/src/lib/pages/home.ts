@@ -13,6 +13,7 @@ export default class HomePage extends Page<void> {
   init(navHandler: Function) {
     super.init(navHandler);
     this.content.innerHTML = `
+<h2>Mozilla's Common Voice</h2>
 <p>Build the world's most diverse set of voice data that researchers
 and others can use for free to create better voice technologies for
 the Internet.</p>
