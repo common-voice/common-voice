@@ -1,6 +1,7 @@
-import User from 'user';
-import Pages from 'pages';
-import { jsifyLink } from 'utility';
+import User from './user';
+import Pages from './pages';
+import { isNativeIOS, jsifyLink } from './utility';
+import DebugBox from './debug-box';
 
 /**
  * Main app controller, rensponsible for routing between page
@@ -9,6 +10,7 @@ import { jsifyLink } from 'utility';
 export default class App {
 
   // Allows controls of the different pages.
+  box: DebugBox;
   pages: Pages;
   user: User;
 
@@ -16,6 +18,11 @@ export default class App {
    * App will handle routing to page controllers.
    */
   constructor() {
+    // Put up the debug box in ios app for now.
+    if (isNativeIOS()) {
+      this.box = new DebugBox();
+    }
+
     this.user = new User();
     this.pages = new Pages(this.user);
     this.signalLoading();
