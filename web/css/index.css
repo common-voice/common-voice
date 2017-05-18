@@ -144,6 +144,10 @@ header {
 }
 
 #about-container {
+  padding: 0rem 0.7rem;
+}
+
+#about-container {
   padding: 0.3rem 2rem;
 }
 #listen-container {
