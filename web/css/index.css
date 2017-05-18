@@ -64,6 +64,7 @@ button:active {
 
 button.disabled {
   pointer-events: none;
+  color: #BDBDBD;
 }
 
 @media (max-width: 600px) {
