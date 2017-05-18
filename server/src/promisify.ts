@@ -21,6 +21,6 @@ export default function make(context: any, method: Function, args?: any[]) {
 
 export function map(context: any, method: Function, items: any[]) {
   return Promise.all(items.map(item => {
-    return method.call(context, item);
+    return make(context, method, item);
   }));
 }

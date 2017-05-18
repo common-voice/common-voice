@@ -4,6 +4,7 @@
   "description": "",
   "main": "server/server.js",
   "dependencies": {
+    "better-queue": "^3.8.5",
     "bluebird": "^3.5.0",
     "ff": "0.2.1",
     "glob": "7.1.1 ",
@@ -16,7 +17,8 @@
     "mkdirp": "^0.5.1",
     "node-static": "0.7.9",
     "pm2": "^2.4.6",
-    "simple-git": "^1.72.0"
+    "simple-git": "^1.72.0",
+    "walk": "^2.3.9"
   },
   "devDependencies": {
     "@types/mongodb": "^2.2.2",

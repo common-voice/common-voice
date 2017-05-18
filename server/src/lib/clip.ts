@@ -25,6 +25,7 @@ export default class Clip {
 
   constructor() {
     this.files = new Files();
+    this.files.init();
   }
 
   private hash(str: string): string {
