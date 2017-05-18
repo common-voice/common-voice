@@ -1,4 +1,4 @@
-import Eventer from 'eventer';
+import Eventer from './eventer';
 
 /**
  * Allows debounced updates when state chages.

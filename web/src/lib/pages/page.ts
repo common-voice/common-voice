@@ -1,7 +1,7 @@
 import Component from '../component';
 import User from '../user';
 import { capitalizeFirstLetter, jsifyLink } from '../utility';
-import API from 'api';
+import API from '../api';
 
 /**
  * Represents a single page. Automatically highights
