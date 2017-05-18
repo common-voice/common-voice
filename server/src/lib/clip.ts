@@ -117,7 +117,10 @@ export default class Clip {
       // Yup, this is a hack. We trick ourselves into thinking
       // that the url points to some randomly selected clip path.
       request.url = clip[0].split('/').slice(-2).join('/');
-      response.setHeader('sentence', encodeURIComponent(clip[1]));
+
+      // Send sentence string to client in the header.
+      // Note: saved file is already url encoded.
+      response.setHeader('sentence', clip[1]);
       this.serve(request, response);
     });
   }
