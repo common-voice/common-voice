@@ -159,6 +159,11 @@ header {
   cursor: pointer;
 }
 
+#levels {
+  display: block;
+  margin: 0 auto;
+}
+
 #content {
   flex: 1 1 auto;
   position: relative;

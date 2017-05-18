@@ -57,6 +57,7 @@ export default class AudioWeb extends AudioBase {
 
     let vizContainer = document.createElement('div');
     let levels = document.createElement('canvas');
+    levels.id = 'levels';
     levels.height = levels.width = 100;
     vizContainer.appendChild(levels);
     this.container.appendChild(vizContainer);
