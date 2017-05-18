@@ -22,7 +22,13 @@ export default class User extends Component<UserState> {
   }
 
   private restore(): UserState {
-    let state: UserState = this.storage[USER_KEY];
+    let state: UserState;
+
+    try {
+      state= JSON.parse(this.storage[USER_KEY]);
+    } catch (e) {
+      console.error('failed parsing storage', this.state[USER_KEY], e);
+    }
 
     if (!state) {
       state = {
@@ -36,7 +42,7 @@ export default class User extends Component<UserState> {
   }
 
   private store(): void {
-    this.storage[USER_KEY] =  this.state;
+    this.storage[USER_KEY] =  JSON.stringify(this.state);
   }
 
   public getId(): string {
