@@ -12,37 +12,42 @@ interface UserState {
  * User tracking
  */
 export default class User extends Component<UserState> {
-  storage: any;
 
   // Store userid on this object.
   constructor() {
     super();
-    this.storage = localStorage || {};
-    this.state = this.restore();
+    this.restore();
   }
 
   private restore(): UserState {
     let state: UserState;
 
     try {
-      state= JSON.parse(this.storage[USER_KEY]);
+      console.log(this.getStore());
+      state = JSON.parse(this.getStore());
     } catch (e) {
-      console.error('failed parsing storage', this.state[USER_KEY], e);
+      console.error('failed parsing storage', e);
+      localStorage.removeItem(USER_KEY);
+      state = null;
     }
 
     if (!state) {
-      state = {
+      this.setState({
         userId: generateGUID(),
         clips: 0
-      };
-      this.storage[USER_KEY] = state;
+      });
+      this.store();
     }
 
     return state;
   }
 
+  private getStore(): string {
+    return localStorage && localStorage.getItem(USER_KEY);
+  }
+
   private store(): void {
-    this.storage[USER_KEY] =  JSON.stringify(this.state);
+    localStorage && (localStorage[USER_KEY] = JSON.stringify(this.state));
   }
 
   public getId(): string {

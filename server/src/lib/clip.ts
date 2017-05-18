@@ -156,7 +156,6 @@ export default class Clip {
         return;
       }
 
-      console.log('serving file', file);
       ms.pipe(request, response, file);
     });
   }
