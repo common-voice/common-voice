@@ -51,10 +51,11 @@ button {
   border: 1px solid transparent;
   border-radius: 4px;
   outline: none;
+  background-color: #E8E8E7;
 }
 
 button:hover {
-  background: gray;
+  background: #808080;
 }
 
 button:active {
@@ -62,8 +63,16 @@ button:active {
 }
 
 button.disabled {
-  opacity: 0.3;
   pointer-events: none;
+}
+
+@media (max-width: 600px) {
+  #record-screen > #toolbar > button {
+    border-radius: 14px;
+    display: block;
+    width: 70%;
+    margin: 1rem auto;
+  }
 }
 
 header, .container, footer {
@@ -134,9 +143,11 @@ header {
   border-bottom: var(--tab-line);
 }
 
+#about-container {
+  padding: 0.3rem 2rem;
+}
 #listen-container {
   background: ivory;
-  border-radius: 10px;
   padding: 0.7rem;
   color: black;
   text-align: center;
@@ -206,7 +217,7 @@ header {
 
 #toolbar > button {
   width: 6rem;
-  height: 2.5rem;
+  height: 2.8rem;
   margin: 0.5rem 0.25rem;
 }
 
