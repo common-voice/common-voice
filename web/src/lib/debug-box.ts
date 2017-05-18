@@ -24,5 +24,11 @@ export default class DebugBox {
       log(...args);
       this.box.appendChild(this.$(args.join(', ')));
     }
+
+    let err = window.console.error.bind(window.console);
+    window.console.error = (...args) => {
+      err(...args);
+      this.box.appendChild(this.$(args.join(', ')));
+    }
   }
 }
