@@ -12,6 +12,8 @@
   const PATH_TS = DIR_CLIENT + TS_GLOB;
   const PATH_TS_SERVER = DIR_SERVER + TS_GLOB;
   const PATH_AMD_LOADER = DIR_CLIENT + 'vendor/almond.js';
+  const RELOAD_DELAY = 100;
+
 
   // Add gulp help functionality.
   let gulp = require('gulp-help')(require('gulp'));
@@ -29,7 +31,7 @@
       script: 'server/js/server.js',
       // Use [c] here to workaround nodemon bug #951
       watch: ['server/js', '[c]onfig.json'],
-      delay: 2.5,
+      delay: RELOAD_DELAY,
     });
   }
 
