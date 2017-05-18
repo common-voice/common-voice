@@ -4,7 +4,7 @@ import AudioBase from './record/audio-base';
 import AudioIOS from './record/audio-ios';
 import AudioWeb from './record/audio-web';
 import ERROR_MSG from '../../error-msg';
-import { isNativeIOS, generateGUID } from '../utility';
+import { countSyllables, isNativeIOS, generateGUID } from '../utility';
 
 const REPLAY_TIMEOUT = 200;
 const SOUNDCLIP_URL = '/upload/';
@@ -231,15 +231,19 @@ export default class RecordPage extends Page<RecordState> {
     }
      */
 
-    // TODO: 20 chars per second is a reasonable reading speed for now.
-    // Better would be to adapt to the user.
-    let time = Math.ceil(this.state.sentence.length / 20);
-    if (this.state.recording) {
-      this.sentenceEl.style.transition = `background-position ${time}s linear`;
-    } else {
-      this.sentenceEl.style.transition = `none`;
+    if (this.state.sentence) {
+      let syllables = countSyllables(this.state.sentence);
+
+      // We are going with a reading rate of about 3 syllables per second.
+      let seconds = syllables / 3;
+      if (this.state.recording) {
+        this.sentenceEl.style.transitionDuration = seconds + 's';
+      } else {
+        this.sentenceEl.style.transitionDuration = '0s';
+      }
+
+      this.sentenceEl.classList.toggle('active', this.state.recording);
     }
-    this.sentenceEl.classList.toggle('active', this.state.recording);
 
     this.recordButtonEl.classList.toggle('disabled', this.state.playing);
     this.playButtonEl.classList.toggle('disabled',

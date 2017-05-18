@@ -243,22 +243,28 @@ header {
 }
 
 #sentence {
-  background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, #ddd 50%);
-  background-position: -0% 0;
-  background-size: 200% auto;
+  background-image: linear-gradient(297deg, #cacaca, #f5efe0, #f0d497);
+  background-size: 0% 150%;
+  background-repeat: no-repeat;
   line-height: 2em;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  transition: background-position 1.5s linear;
   color: #212121;
   background-color: #FAFAFA;
   min-height: 7rem;
   border-radius: 3px;
+  animation: flow 9s ease infinite;
+  transition: background-size 3s linear;
 }
 
 #sentence.active {
-  background-position: -99.99% 0;
-  color: #222;
+  background-size: 100% 150%;
+}
+
+@keyframes flow {
+  0%{background-position-y:0%}
+  50%{background-position-y:100%}
+  100%{background-position-y:0%}
 }
 
 #viz {
