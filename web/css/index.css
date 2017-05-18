@@ -2,6 +2,7 @@
   --base-font-size: 15px;
   --header-height: 3rem;
   --tab-line: 1px solid orange;
+  --debug-box-height: 8rem;
 }
 
 html, body {
@@ -21,6 +22,18 @@ body {
   transition: opacity 0.5s linear;
   opacity: 0;
 }
+
+/**
+ * TODO: Figure out a way to not have content overlap
+ * the debug box
+ *
+@media (max-width: 600px) {
+  #content {
+    margin-bottom: var(--debug-box-height);
+  }
+}
+ */
+
 
 body.loading {}
 
@@ -85,12 +98,15 @@ header {
   flex-flow: row nowrap;
   height: var(--header-height);
   padding: 0.5rem 0.5rem;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 @media (min-width: 600px) {
   header {
     flex-flow: column;
     max-width: 10rem;
+    overflow: unset;
   }
 }
 
@@ -262,5 +278,17 @@ header {
 #player.disabled {
   opacity: 0.3;
   pointer-events: none;
+}
+
+#debug-box {
+  display: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: var(--debug-box-height);
+  background-color: white;
+  color: black;
+  z-index: 2;
+  overflow: scroll;
 }
 
