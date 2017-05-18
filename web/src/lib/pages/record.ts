@@ -167,9 +167,11 @@ export default class RecordPage extends Page<RecordState> {
         req.send(this.audio.lastRecording);
       });
 
-    upload.then(function() {
+    upload.then(() => {
       console.log("Uploaded Ok.");
-    }).catch(function(e) {
+      this.audio.lastRecording = null;
+      this.newSentence();
+    }).catch((e) => {
       console.error("Upload Error: " + e);
       // TODO: put this message in the DOM
       // ERROR_MSG.ERR_UPLOAD_FAILED);
