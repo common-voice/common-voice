@@ -1,4 +1,5 @@
 import * as http from 'http';
+import Files from './files';
 
 const glob = require('glob');
 const ms = require('mediaserver');
@@ -20,7 +21,11 @@ const salt = config.salt || DEFAULT_SALT;
  * Clip - Responsibly for saving and serving clips.
  */
 export default class Clip {
-  constructor() {}
+  private files: Files;
+
+  constructor() {
+    this.files = new Files();
+  }
 
   private hash(str: string): string {
     return crypto.createHmac('sha256', salt).update(str).digest('hex');
@@ -32,6 +37,14 @@ export default class Clip {
   isClipRequest(request: http.IncomingMessage) {
     return request.url.includes('/upload/');
   }
+
+  /**
+   * Is this request directed at a random voice clip?
+   */
+  isRandomClipRequest(request: http.IncomingMessage) {
+    return request.url.includes('/upload/random');
+  }
+
 
   /**
    * Distinguish between uploading and listening requests.
@@ -47,6 +60,8 @@ export default class Clip {
         console.error('saving clip error', e, e.stack);
         response.end('Error');
       });
+    } else if (this.isRandomClipRequest(request)) {
+      this.serveRandomClip(request, response);
     } else {
       this.serve(request, response);
     }
@@ -55,7 +70,7 @@ export default class Clip {
   /**
    * Save the request body as an audio file.
    */
-  save(request: http.IncomingMessage) {
+  save(request: http.IncomingMessage): Promise<string> {
     let info = request.headers;
     let uid = info.uid;
     let sentence = decodeURI(info.sentence);
@@ -91,17 +106,35 @@ export default class Clip {
     });
   }
 
+  /**
+   * Fetch random clip file and associated sentence.
+   */
+  serveRandomClip(request: http.IncomingMessage,
+                  response: http.ServerResponse) {
+    this.files.getRandomClip().then((clip: string[2]) => {
+
+      // Yup, this is a hack. We trick ourselves into thinking
+      // that the url points to some randomly selected clip path.
+      request.url = clip[0].split('/').slice(-2).join('/');
+      response.setHeader('sentence', encodeURIComponent(clip[1]));
+      this.serve(request, response);
+    });
+  }
+
   /*
    * Fetch an audio file.
    */
   serve(request: http.IncomingMessage, response: http.ServerResponse) {
     let ids = request.url.split('/');
     let clipId = ids.pop();
-    let prefix = path.join(UPLOAD_PATH, clipId);
+    let folder = ids.pop();
+    let prefix = path.join(UPLOAD_PATH, folder, clipId);
 
     glob(prefix + '.*', (err: any, files: String[]) => {
       if (err) {
         console.error('could not glob for clip', err);
+        response.writeHead(404);
+        response.end('Unknown File');
         return;
       }
 
@@ -117,9 +150,12 @@ export default class Clip {
 
       if (!file) {
         console.error('could not find clip', files);
+        response.writeHead(404);
+        response.end('Unknown File');
         return;
       }
 
+      console.log('serving file', file);
       ms.pipe(request, response, file);
     });
   }

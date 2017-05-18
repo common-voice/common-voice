@@ -2,6 +2,7 @@ import Eventer from './eventer';
 import User from './user';
 import Page from './pages/page';
 import Record from './pages/record';
+import Listen from './pages/listen';
 import Home from './pages/home';
 import About from './pages/about';
 import NotFound from './pages/not-found';
@@ -12,6 +13,7 @@ export default class Pages extends Eventer {
     ROOT: '/',
     HOME: '/home',
     RECORD: '/record',
+    LISTEN: '/listen',
     ABOUT: '/about',
     NOT_FOUND: '/notFound'
   }
@@ -19,6 +21,7 @@ export default class Pages extends Eventer {
   private pages: string[];
   private home: Home;
   private record: Record;
+  private listen: Listen;
   private about: About;
   private notFound: NotFound;
 
@@ -36,6 +39,7 @@ export default class Pages extends Eventer {
     this.home = new Home(user);
     this.about = new About(user);
     this.record = new Record(user);
+    this.listen = new Listen(user);
     this.notFound = new NotFound(user);
   }
 
@@ -47,6 +51,7 @@ export default class Pages extends Eventer {
 
     this.home.init(navPageHandler);
     this.record.init(navPageHandler);
+    this.listen.init(navPageHandler);
     this.about.init(navPageHandler);
     this.notFound.init(navPageHandler);
   }
@@ -62,6 +67,9 @@ export default class Pages extends Eventer {
 
       case '/record':
         return this.record;
+
+      case '/listen':
+        return this.listen;
 
       case '/about':
         return this.about;

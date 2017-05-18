@@ -1,6 +1,5 @@
 import Page from './page';
 import User from '../user';
-import API from './../api';
 import AudioBase from './record/audio-base';
 import AudioIOS from './record/audio-ios';
 import AudioWeb from './record/audio-web';
@@ -22,7 +21,6 @@ interface RecordState {
 export default class RecordPage extends Page<RecordState> {
   name: string = PAGE_NAME;
   audio: AudioBase;
-  api: API;
   messageEl: HTMLDivElement;
   sentenceEl: HTMLSpanElement;
   elapsedTimeEl: HTMLDivElement;
@@ -41,7 +39,6 @@ export default class RecordPage extends Page<RecordState> {
       playing: false,
       recordingStartTime: 0
     }
-    this.api = new API();
 
     // Use different audio helpers depending on if we are web or native iOS.
     if (isNativeIOS()) {

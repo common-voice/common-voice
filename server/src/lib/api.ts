@@ -1,12 +1,11 @@
 import * as http from 'http';
 import WebHook from './webhook';
 
+const SENTENCE_FILE = '../../data/temporary-sentences-2.txt';
+
 const path = require('path');
 const fs = require('fs');
 const Promise = require('bluebird');
-
-const SENTENCE_FILE = path.resolve(__dirname, '../../data',
-                                   'temporary-sentences-2.txt');
 
 export default class API {
   sentencesCache: String[];
@@ -32,7 +31,6 @@ export default class API {
     // Most often this will be a sentence request.
     if (request.url.includes('/sentence')) {
       this.returnRandomSentence(response);
-
     // Webhooks from github.
     } else if (this.webhook.isHookRequest(request)) {
       this.webhook.handleWebhookRequest(request, response);
@@ -51,7 +49,8 @@ export default class API {
     }
 
     return new Promise((resolve: Function, reject: Function) => {
-      let contents = fs.readFileSync(SENTENCE_FILE, {
+      let sentencePath = path.join(__dirname, SENTENCE_FILE);
+      let contents = fs.readFileSync(sentencePath, {
         encoding: 'utf8'
       });
 

@@ -134,6 +134,31 @@ header {
   border-bottom: var(--tab-line);
 }
 
+#listen-container {
+  background: ivory;
+  border-radius: 10px;
+  padding: 0.7rem;
+  color: black;
+  text-align: center;
+}
+
+#listen-audio {
+  display: block;
+  width: 70%;
+  margin: 1rem auto;
+  border-radius: 14px;
+}
+
+.validate-lbl {
+  line-height: 1.7rem;
+  border: 1px solid gray;
+  display: inline-block;
+  padding: 0 0.5rem;
+  border: 1px solid rgba(24, 24, 24, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 #content {
   flex: 1 1 auto;
   position: relative;

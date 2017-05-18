@@ -1,6 +1,7 @@
 import Component from '../component';
 import User from '../user';
 import { capitalizeFirstLetter, jsifyLink } from '../utility';
+import API from 'api';
 
 /**
  * Represents a single page. Automatically highights
@@ -9,6 +10,7 @@ import { capitalizeFirstLetter, jsifyLink } from '../utility';
  */
 export default abstract class Page<State> extends Component<State> {
   name: string;
+  api: API;
   nav: HTMLAnchorElement;
   content: HTMLElement;
   container: HTMLElement;
@@ -20,8 +22,12 @@ export default abstract class Page<State> extends Component<State> {
    */
   constructor(public user: User, name: string, public noNav?: boolean) {
     super();
+    this.api = new API();
+
+    // TODO: Fix this nonsense flipping between content and container names.
     this.container = document.getElementById('content');
     this.content = document.createElement('div');
+    this.content.id = name + '-container';
     this.content.className = 'container';
 
     // Some pages (like 404) will not need a navigation tab.
