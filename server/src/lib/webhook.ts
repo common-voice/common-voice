@@ -58,7 +58,7 @@ export default class WebHook {
           if (err) {
             console.error('could not pull', err);
           }
-          console.log('local tree updated', update.summary);
+          console.log('local tree updated', update && update.summary);
         });
       }
     });
