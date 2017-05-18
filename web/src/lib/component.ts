@@ -25,8 +25,8 @@ export default class Component<State> extends Eventer {
       return;
     }
     this.updateTimeout = setTimeout(() => {
+      this.updateTimeout = null;
       this.update();
-      this.updateTimeout = 0;
     });
   }
 
