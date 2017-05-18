@@ -37,6 +37,9 @@ class ViewController: UIViewController, WKScriptMessageHandler {
             recorder.playCapture()
         }
     }
-
+    
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
     
 }
