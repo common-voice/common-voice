@@ -17,6 +17,8 @@ class ViewController: UIViewController, WKScriptMessageHandler {
         
         // create the webview and load the commonvoice website in it
         webView = WKWebView(frame: self.view.frame)
+        webView.scrollView.scrollEnabled = NO;
+        webView.scrollView.bounces = NO;
         webView?.configuration.userContentController.add(self, name: "scriptHandler")
         self.view.addSubview(webView!)
         let url = URL(string: "https://test.mozvoice.org/record")
