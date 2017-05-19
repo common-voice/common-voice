@@ -19,27 +19,22 @@ export default class User extends Component<UserState> {
     this.restore();
   }
 
-  private restore(): UserState {
-    let state: UserState;
-
+  private restore(): void {
     try {
-      console.log(this.getStore());
-      state = JSON.parse(this.getStore());
+      this.state = JSON.parse(this.getStore());
     } catch (e) {
       console.error('failed parsing storage', e);
       localStorage.removeItem(USER_KEY);
-      state = null;
+      this.state = null;
     }
 
-    if (!state) {
+    if (!this.state) {
       this.setState({
         userId: generateGUID(),
         clips: 0
       });
       this.store();
     }
-
-    return state;
   }
 
   private getStore(): string {
