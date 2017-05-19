@@ -146,6 +146,12 @@ export default class Clip {
   serveRandomClip(request: http.IncomingMessage,
                   response: http.ServerResponse) {
     this.files.getRandomClip().then((clip: string[2]) => {
+      if (!clip) {
+        // We must not have uploaded any clips yet.
+        response.writeHead(500);
+        response.end('No files.');
+        return;
+      }
 
       // Yup, this is a hack. We trick ourselves into thinking
       // that the url points to some randomly selected clip path.
