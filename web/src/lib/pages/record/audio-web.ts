@@ -5,7 +5,6 @@ import { isNativeIOS } from '../../utility';
 
 export default class AudioWeb extends AudioBase {
   ready: boolean;
-  lastRecording: Blob;
   microphone: MediaStream;
   analyzerNode: AnalyserNode;
   audioContext: AudioContext;
@@ -124,7 +123,7 @@ export default class AudioWeb extends AudioBase {
 
       this.recorder.onstart = (e) => {
         this.radialVisualizer.isRecording = true;
-        this.lastRecording = null;
+        this.clear();
         res();
       }
 
@@ -145,11 +144,19 @@ export default class AudioWeb extends AudioBase {
       this.recorder.onstop = (e) => {
         this.radialVisualizer.isRecording = false;
         var blob = new Blob(this.chunks, { 'type': AudioBase.AUDIO_TYPE });
-        this.lastRecording = blob;
+        this.lastRecordingData = blob;
+        this.lastRecordingUrl = URL.createObjectURL(blob);
         res(blob);
       };
       this.recorder.stop();
     });
+  }
+
+  clear() {
+    if (this.lastRecordingUrl) {
+      URL.revokeObjectURL(this.lastRecordingUrl);
+    }
+    super.clear();
   }
 }
 

@@ -6,6 +6,12 @@ export default class DebugBox {
 
   constructor() {
     this.init();
+
+    // Add top level error handler.
+    // Perhaps this should be moved into App?
+    window.onerror = (err) => {
+      console.log('got a top level error', err);
+    };
   }
 
   private $(message: string): HTMLElement {

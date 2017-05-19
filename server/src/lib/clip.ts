@@ -77,30 +77,63 @@ export default class Clip {
     let sentence = decodeURI(info.sentence);
 
     return new Promise((resolve: Function, reject: Function) => {
-      let extension = '.ogg';  // Firefox gives us opus in ogg
-      if (info['content-type'].startsWith('audio/webm')) {
-        extension = '.webm';   // Chrome gives us opus in webm
-      } else if (info['content-type'].startsWith('audio/mp4a')) {
-        extension = '.m4a'; // iOS gives us mp4a
+
+      // First we need to figure out the file extension.
+      let extension;
+      let contentType = info['content-type'];
+
+      if (contentType.startsWith('audio/ogg')) {
+        // Firefox gives us opus in an ogg.
+        extension = '.ogg';
+      } else if (contentType.startsWith('audio/webm')) {
+        // Chrome gives us opus in webm
+        extension = '.webm';
+      } else if (contentType.startsWith('audio/m4a')) {
+        // iOS gives us mp4a
+        extension = '.m4a';
+      } else {
+        // Default to ogg.
+        console.error('unrecognized audio type!', contentType);
+        extension = '.ogg';
       }
 
-      // if the folder does not exist, we create it
+      // Where is our audio clip going to be located?
       let folder = path.join(UPLOAD_PATH, uid);
       let filePrefix = this.hash(sentence);
       let file = path.join(folder, filePrefix + extension);
 
       let f = ff(() => {
-        fs.exists(folder, f.slotPlain());
-      }, exists => {
-        if (!exists) {
-          mkdirp(folder, f());
+        // if the folder does not exist, we create it
+        mkdirp(folder, f.wait());
+
+        // If we were given base64, we'll need to concat it all first
+        // So we can decode it in the next step.
+        if (contentType.includes('base64')) {
+          let chunks = [];
+          f.pass(chunks);
+          request.on('data', (chunk: Buffer) => {
+            chunks.push(chunk);
+          });
+          request.on('end', f.wait());
         }
-      }, () => {
-        let writeStream = fs.createWriteStream(file);
-        request.pipe(writeStream);
-        request.on('end', f());
+      }, (chunks) => {
+
+        // If upload was base64, make sure we decode it first.
+        if (contentType.includes('base64')) {
+          let blob = Buffer.from(Buffer.concat(chunks).toString(), 'base64');
+          fs.writeFile(file, blob, f());
+        } else {
+          // For now base64 uploads, we can just stream data into a file.
+          let writeStream = fs.createWriteStream(file);
+          request.pipe(writeStream);
+          request.on('end', f());
+        }
+
+        // Don't forget about the sentence text!
         fs.writeFile(path.join(folder, filePrefix + '.txt'), sentence, f());
       }, () => {
+
+        // File saving is now complete.
         console.log('file written', file);
         resolve(filePrefix);
       }).onError(reject);

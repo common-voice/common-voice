@@ -109,6 +109,9 @@ export default class RecordPage extends Page<RecordState> {
       this.onCanPlayThrough.bind(this));
     this.playerEl.addEventListener('play', this.onPlay.bind(this));
     this.playerEl.addEventListener('ended', this.onPlayEnded.bind(this));
+    this.playerEl.addEventListener('error', (err: ErrorEvent) => {
+      console.log('got audio error', err.message);
+    });
 
     this.recordButtonEl.addEventListener('click',
       this.onRecordClick.bind(this));
@@ -164,12 +167,19 @@ export default class RecordPage extends Page<RecordState> {
         req.setRequestHeader('uid', this.user.getId());
         req.setRequestHeader('sentence',
           encodeURIComponent(this.state.sentence));
-        req.send(this.audio.lastRecording);
+
+        // For IOS, we don't upload binary data but base64. Here we
+        // make sure the server knows what to expect.
+        if (this.audio.lastRecordingData.type === AudioIOS.AUDIO_TYPE) {
+          req.setRequestHeader('content-type', AudioIOS.AUDIO_TYPE);
+        }
+
+        req.send(this.audio.lastRecordingData);
       });
 
     upload.then(() => {
       console.log("Uploaded Ok.");
-      this.audio.lastRecording = null;
+      this.audio.clear();
       this.newSentence();
     }).catch((e) => {
       console.error("Upload Error: " + e);
@@ -179,17 +189,18 @@ export default class RecordPage extends Page<RecordState> {
   }
 
   onPlayClick() {
-    if (!this.audio.lastRecording) {
+    if (!this.audio.lastRecordingData) {
       console.error('cannot play when there is no recording');
       return;
     }
 
-    this.playerEl.src = URL.createObjectURL(this.audio.lastRecording);
     if (this.state.playing) {
       this.playerEl.pause();
       this.setState({ playing: false } as any);
       return;
     }
+
+    this.playerEl.src = this.audio.lastRecordingUrl;
     this.playerEl.play();
     this.setState({ playing: true } as any);
   }
@@ -216,7 +227,8 @@ export default class RecordPage extends Page<RecordState> {
   update() {
     super.update();
     this.sentenceEl.textContent = `${this.state.sentence}`;
-    this.messageEl.textContent = this.state.message ? `${this.state.message}` : "N/A";
+    this.messageEl.textContent = this.state.message ?
+      `${this.state.message}` : "N/A";
 
     this.recordButtonEl.textContent =
       this.state.recording ? 'Stop' : 'Record';
@@ -247,9 +259,9 @@ export default class RecordPage extends Page<RecordState> {
 
     this.recordButtonEl.classList.toggle('disabled', this.state.playing);
     this.playButtonEl.classList.toggle('disabled',
-      this.state.recording || !this.audio.lastRecording);
+      this.state.recording || !this.audio.lastRecordingData);
     this.uploadButtonEl.classList.toggle('disabled',
-      !this.audio.lastRecording || this.state.recording || this.state.playing);
+      !this.audio.lastRecordingData || this.state.recording || this.state.playing);
     this.nextButtonEl.classList.toggle('disabled',
       this.state.recording || this.state.playing);
   }

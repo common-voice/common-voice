@@ -5,6 +5,12 @@ import { isNativeIOS } from '../../utility';
 export default class AudioIOS extends AudioBase {
   postMessage: Function;
 
+  static AUDIO_TYPE: string = 'audio/m4a;base64';
+
+  // For audio src URL, we need to trick webkit into
+  // thinking this is an mp4 base64 encoding.
+  static AUDIO_TYPE_URL: string = 'audio/mp4;base64';
+
   constructor(container: HTMLElement) {
     super(container);
 
@@ -13,17 +19,16 @@ export default class AudioIOS extends AudioBase {
       throw new Error('cannot use ios audio in web app');
     }
 
+    // Native will call this function with audio info,
+    // but we are not yet interested.
+    window['levels'] = () => {};
+
     // Store our native message bridge for later.
     let messenger = webkit.messageHandlers['scriptHandler'];
     this.postMessage = messenger.postMessage.bind(messenger);
   }
 
-  private handleAudioFromNative(data: any) {
-    console.log('got data!', data);
-  }
-
   init() {
-    window['uploadData'] = this.handleAudioFromNative.bind(this);
     return Promise.resolve();
   }
 
@@ -33,7 +38,25 @@ export default class AudioIOS extends AudioBase {
   }
 
   stop() {
-    this.postMessage('stopCapture');
-    return Promise.resolve();
+    return new Promise((res: Function, rej: Function) => {
+      // Liten for the next data call from Native, that will
+      // have our sound data in base64 format.
+
+      window['uploadData'] = (data: string) => {
+        this.lastRecordingUrl = 'data:' + AudioIOS.AUDIO_TYPE_URL + ',' + data;
+        this.lastRecordingData = new Blob([data], {
+          type: AudioIOS.AUDIO_TYPE
+        });
+        res();
+      };
+
+      this.postMessage('stopCapture');
+    });
+  }
+
+  // We aren't using this for now, but this performs better
+  // than the base64 url for obvious reasons.
+  play(): void {
+    this.postMessage("playCapture");
   }
 }
