@@ -19,9 +19,9 @@ export default class App {
    */
   constructor() {
     // Put up the debug box in ios app for now.
-    // if (isNativeIOS()) {
+    if (isNativeIOS()) {
       this.box = new DebugBox();
-    // }
+    }
 
     this.user = new User();
     this.pages = new Pages(this.user);
