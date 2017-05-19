@@ -116,6 +116,10 @@ export default class Files {
    */
   getRandomClip(): Promise<string[2]> {
     return this.ensure().then(() => {
+      if (this.paths.length === 0) {
+        return null;
+      }
+
       let items = this.paths;
       let path = items[Math.floor(Math.random()*items.length)];
       let file = this.files[path];
