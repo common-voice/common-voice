@@ -1,5 +1,6 @@
 import * as http from 'http';
 import Files from './files';
+import { getFileExt } from './utility';
 
 const glob = require('glob');
 const ms = require('mediaserver');
@@ -12,7 +13,7 @@ const mkdirp = require('mkdirp');
 
 const UPLOAD_PATH = path.resolve(__dirname, '../..', 'upload');
 const CONFIG_PATH = path.resolve(__dirname, '../../..', 'config.json');
-const ACCEPTED_EXT = [ 'ogg', 'webm', 'm4a' ];
+const ACCEPTED_EXT = [ '.mp3', '.ogg', '.webm', '.m4a' ];
 const DEFAULT_SALT = '8hd3e8sddFSdfj';
 const config = require(CONFIG_PATH);
 const salt = config.salt || DEFAULT_SALT;
@@ -25,11 +26,27 @@ export default class Clip {
 
   constructor() {
     this.files = new Files();
-    this.files.init();
   }
 
   private hash(str: string): string {
     return crypto.createHmac('sha256', salt).update(str).digest('hex');
+  }
+
+  /**
+   * Turn a server url into a local file path.
+   */
+  private getLocalFilePath(url: string): string {
+    let parts = url.split('/');
+    let fileName = parts.pop();
+    let folder = parts.pop();
+    return path.join(UPLOAD_PATH, folder, fileName);
+  }
+
+  /**
+   * Load the files module.
+   */
+  init() {
+    return this.files.init();
   }
 
   /**
@@ -86,11 +103,13 @@ export default class Clip {
         // Firefox gives us opus in an ogg.
         extension = '.ogg';
       } else if (contentType.startsWith('audio/webm')) {
-        // Chrome gives us opus in webm
+        // Chrome gives us opus in webm.
         extension = '.webm';
       } else if (contentType.startsWith('audio/m4a')) {
-        // iOS gives us mp4a
-        extension = '.m4a';
+        // iOS gives us mp4a.
+        // Note: Firefox cannot play m4a's,
+        // but if we save this clipa s mp3 everything just works.
+        extension = '.mp3';
       } else {
         // Default to ogg.
         console.error('unrecognized audio type!', contentType);
@@ -147,20 +166,24 @@ export default class Clip {
                   response: http.ServerResponse) {
     this.files.getRandomClip().then((clip: string[2]) => {
       if (!clip) {
-        // We must not have uploaded any clips yet.
-        response.writeHead(500);
-        response.end('No files.');
-        return;
       }
 
-      // Yup, this is a hack. We trick ourselves into thinking
-      // that the url points to some randomly selected clip path.
-      request.url = clip[0].split('/').slice(-2).join('/');
+      // Generate the full local path to the file.
+      let path = clip[0];
+      let sentence = clip[1]
+      let file = this.getLocalFilePath(path);
 
       // Send sentence string to client in the header.
-      // Note: saved file is already url encoded.
-      response.setHeader('sentence', clip[1]);
-      this.serve(request, response);
+      // Note: header is already URL encoded in the file.
+      response.setHeader('sentence', sentence);
+
+      // Use mediaserver to stream the audio file to the client.
+      ms.pipe(request, response, file);
+    }).catch(err => {
+      console.error('problem getting a random clip: ', err);
+      response.writeHead(500);
+      response.end('Cannot fetch random clip right now.');
+      return;
     });
   }
 
@@ -168,12 +191,9 @@ export default class Clip {
    * Fetch an audio file.
    */
   serve(request: http.IncomingMessage, response: http.ServerResponse) {
-    let ids = request.url.split('/');
-    let clipId = ids.pop();
-    let folder = ids.pop();
-    let prefix = path.join(UPLOAD_PATH, folder, clipId);
+    let prefix = this.getLocalFilePath(request.url);
 
-    glob(prefix + '.*', (err: any, files: String[]) => {
+    glob(prefix + '.*', (err: any, files: string[]) => {
       if (err) {
         console.error('could not glob for clip', err);
         response.writeHead(404);
@@ -184,7 +204,7 @@ export default class Clip {
       // Try to find the right file, since we don't know the extension.
       let file = null;
       for (let i = 0; i < files.length; i++) {
-        let ext = files[i].split('.').pop();
+        let ext = getFileExt(files[i]);
         if (ACCEPTED_EXT.indexOf(ext) !== -1) {
           file = files[i];
           break;

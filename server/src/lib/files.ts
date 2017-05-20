@@ -1,11 +1,12 @@
 import { map } from '../promisify';
+import { getFileExt } from './utility';
 
 // This is how many file reads we can do at once.
 const BATCH_SIZE = 5;
 const UPLOAD_PATH = '../../upload/';
 
 // Files we want to convert to mp3.
-const CONVERTABLE_EXTS = ['.ogg'];
+const CONVERTABLE_EXTS = ['.ogg', '.m4a'];
 const MP3_EXT = '.mp3';
 
 const fs = require('fs');
@@ -29,21 +30,8 @@ export default class Files {
   constructor() {
     this.initialized = false;
     this.files = {};
-  }
-
-  private ensure(): Promise<any> {
-    if (this.initialized) {
-      return Promise.resolve();
-    }
-
-    return this.init();
-  }
-
-  /**
-   * Get the file extension.
-   */
-  private getExt(path: string): string {
-    return path.substr(path.indexOf('.') - path.length);
+    this.paths = [];
+    this.mp3s = [];
   }
 
   /**
@@ -128,6 +116,7 @@ export default class Files {
     }
 
     return new Promise((res: Function, rej: Function) => {
+
       let batches = new Queue(this.convert.bind(this), { batchSize: 5 });
       batches.on('error', (err: any) => {
         console.error('error process mp3 conversions', err);
@@ -177,8 +166,8 @@ export default class Files {
    * Load a list of files from the filesystem.
    */
   init(): Promise<any> {
-    // Create our batch processing unit, to keep from overloading
-    // on boot.
+    // Create our batch processor to help us read all sentences
+    // from the filesystem without overloading the server.
     let batches = new Queue(this.processBatch.bind(this),
       { batchSize: BATCH_SIZE });
 
@@ -188,7 +177,7 @@ export default class Files {
       walker.on('file', (root, fileStats, next) => {
         let file = path.join(root, fileStats.name);
         let glob = this.getGlob(file);
-        let ext = this.getExt(file);
+        let ext = getFileExt(file);
 
         // Track file gobs and extensions of the voice clips.
         if (!this.files[glob]) {
@@ -213,8 +202,18 @@ export default class Files {
 
       walker.on('end', () => {
         this.paths = Object.keys(this.files);
+        if (this.paths.length === 0) {
+          // No files found, so we are done
+          console.log('warning, no sound files found');
+          this.initialized = true;
+          res();
+          return;
+        }
+
+        // Convert any files that haven't been converted to mp3 yet.
         this.convertMissingToMP3s().then(() => {
           this.generateMP3List();
+          this.initialized = true;
           res();
         });
       });
@@ -225,15 +224,21 @@ export default class Files {
    * Grab a random sentence and associated sound file path.
    */
   getRandomClip(): Promise<string[2]> {
-    return this.ensure().then(() => {
-      if (this.mp3s.length === 0) {
-        return null;
-      }
+    // If we haven't been initialized yet, we cannot get a random clip.
+    if (!this.initialized) {
+      console.error('cannot get random clip before files is initialized');
+      return Promise.reject('Files not init.');
+    }
 
-      let items = this.mp3s;
-      let path = items[Math.floor(Math.random()*items.length)];
-      let file = this.files[path];
-      return Promise.resolve([path, file.sentence]);
-    });
+    // Make sure we have at least 1 file to choose from.
+    if (this.mp3s.length === 0) {
+      return Promise.reject('No files.');
+    }
+
+    let items = this.mp3s;
+    let glob = items[Math.floor(Math.random()*items.length)];
+    let file = glob + MP3_EXT;
+    let info = this.files[glob];
+    return Promise.resolve([file, info.sentence]);
   }
 }
