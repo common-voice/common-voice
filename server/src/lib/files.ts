@@ -4,15 +4,24 @@ import { map } from '../promisify';
 const BATCH_SIZE = 5;
 const UPLOAD_PATH = '../../upload/';
 
+// Files we want to convert to mp3.
+const CONVERTABLE_EXTS = ['.ogg'];
+
 const fs = require('fs');
 const path = require('path');
 const Promise = require('bluebird');
 const walk = require('walk').walk;
 const Queue = require('better-queue');
+const spawn = require('child_process').spawn;
 
 export default class Files {
   private initialized: boolean;
-  private files: {};
+  private files: {
+    // fileGlob: [
+    //   sentence: 'the text of the sentenct',
+    //   exts : ['.txt', '.ogg', '.mp3', etc..]
+    // ]
+  };
   private paths: string[];
 
   constructor() {
@@ -67,6 +76,80 @@ export default class Files {
   }
 
   /**
+   * Find the uploads that haven't been converted to mp3.
+   */
+  private getMissingMP3s() {
+    let missing = [];
+    this.paths.forEach((path: string) => {
+      if (this.files[path].exts.indexOf('.mp3') === -1) {
+        missing.push(path);
+      }
+    });
+
+    return missing;
+  }
+
+  private convert(jobs: any, cb: Function) {
+    if (!Array.isArray(jobs)) {
+      jobs = [jobs];
+    }
+    let finished = 0;
+    jobs.forEach(job => {
+      let glob = job.glob;
+      let ext = job.ext;
+      let proc = spawn('ffmpeg', ['-i', glob + ext, glob + '.mp3']);
+      proc.on('close', () => {
+        ++finished;
+        if (finished === jobs.length) {
+          cb();
+        }
+      });
+    });
+  }
+
+  private convertToMP3s(): Promise<any> {
+    let missing = this.getMissingMP3s();
+    if (missing.length < 1) {
+      // Nothing to convert, so we are done here;
+      return Promise.resolve();
+    }
+
+    return new Promise((res: Function, rej: Function) => {
+      let batches = new Queue(this.convert.bind(this), { batchSize: 5 });
+      batches.on('error', (err: any) => {
+        console.error('error process mp3 conversions', err);
+        rej(err);
+        return;
+      });
+
+      missing.forEach(glob => {
+        let ext;
+        let info = this.files[glob];
+        for (let i = 0; i < info.exts.length; i++) {
+          if (CONVERTABLE_EXTS.indexOf(info.exts[i]) !== -1) {
+            ext = info.exts[i];
+            break;
+          }
+        }
+
+        // If we got a convertable extension, add it to our task queue
+        if (ext) {
+          batches.push({
+            glob: glob,
+            ext: ext
+          });
+        }
+      });
+
+      batches.on('drain', () => {
+        console.log(`Converted ${missing.length} files to mp3.`);
+        res();
+      });
+    });
+  }
+
+
+  /**
    * Load a list of files from the filesystem.
    */
   init(): Promise<any> {
@@ -87,7 +170,7 @@ export default class Files {
         if (!this.files[glob]) {
           this.files[glob] = {
             sentence: null,
-            ext: null
+            exts: []
           }
         }
 
@@ -98,7 +181,7 @@ export default class Files {
             glob: glob
           });
         } else {
-          this.files[glob].ext = ext;
+          this.files[glob].exts.push(ext);
         }
 
         next();
@@ -106,7 +189,9 @@ export default class Files {
 
       walker.on('end', () => {
         this.paths = Object.keys(this.files);
-        res();
+        this.convertToMP3s().then(() => {
+          res();
+        });
       });
     });
   }
