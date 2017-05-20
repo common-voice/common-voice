@@ -214,6 +214,7 @@ export default class RecordPage extends Page<RecordState> {
   }
 
   onNextClick() {
+    this.audio.clear();
     this.newSentence();
   }
 
