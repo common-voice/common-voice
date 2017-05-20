@@ -6,6 +6,7 @@ const UPLOAD_PATH = '../../upload/';
 
 // Files we want to convert to mp3.
 const CONVERTABLE_EXTS = ['.ogg'];
+const MP3_EXT = '.mp3';
 
 const fs = require('fs');
 const path = require('path');
@@ -23,6 +24,7 @@ export default class Files {
     // ]
   };
   private paths: string[];
+  private mp3s: string[];
 
   constructor() {
     this.initialized = false;
@@ -81,7 +83,7 @@ export default class Files {
   private getMissingMP3s() {
     let missing = [];
     this.paths.forEach((path: string) => {
-      if (this.files[path].exts.indexOf('.mp3') === -1) {
+      if (this.files[path].exts.indexOf(MP3_EXT) === -1) {
         missing.push(path);
       }
     });
@@ -93,21 +95,32 @@ export default class Files {
     if (!Array.isArray(jobs)) {
       jobs = [jobs];
     }
+
     let finished = 0;
     jobs.forEach(job => {
       let glob = job.glob;
       let ext = job.ext;
-      let proc = spawn('ffmpeg', ['-i', glob + ext, glob + '.mp3']);
+      let proc = spawn('ffmpeg', ['-i', glob + ext, glob + MP3_EXT]);
+
       proc.on('close', () => {
+        this.files[glob].exts.push(MP3_EXT);
         ++finished;
         if (finished === jobs.length) {
           cb();
         }
       });
+
+      proc.on('error', (err: ErrorEvent) => {
+        console.error('could not spawn task', err);
+        cb();
+      });
     });
   }
 
-  private convertToMP3s(): Promise<any> {
+  /**
+   * Convert any sound clips that are not mp3 format into mp3.
+   */
+  private convertMissingToMP3s(): Promise<any> {
     let missing = this.getMissingMP3s();
     if (missing.length < 1) {
       // Nothing to convert, so we are done here;
@@ -148,6 +161,17 @@ export default class Files {
     });
   }
 
+  /**
+   * Make a list of mp3s so we can randomly choose one later.
+   */
+  private generateMP3List() {
+    this.mp3s = [];
+    this.paths.forEach(glob => {
+      if (this.files[glob].exts.indexOf(MP3_EXT) !== -1) {
+        this.mp3s.push(glob);
+      }
+    });
+  }
 
   /**
    * Load a list of files from the filesystem.
@@ -189,7 +213,8 @@ export default class Files {
 
       walker.on('end', () => {
         this.paths = Object.keys(this.files);
-        this.convertToMP3s().then(() => {
+        this.convertMissingToMP3s().then(() => {
+          this.generateMP3List();
           res();
         });
       });
@@ -201,7 +226,7 @@ export default class Files {
    */
   getRandomClip(): Promise<string[2]> {
     return this.ensure().then(() => {
-      let items = this.paths;
+      let items = this.mp3s;
       let path = items[Math.floor(Math.random()*items.length)];
       let file = this.files[path];
       return Promise.resolve([path, file.sentence]);
