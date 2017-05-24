@@ -20,7 +20,7 @@ class ViewController: UIViewController, WKScriptMessageHandler {
         webView?.configuration.userContentController.add(self, name: "scriptHandler")
         webView?.scrollView.isScrollEnabled = false
         self.view.addSubview(webView!)
-        let url = URL(string: "https://test.mozvoice.org/record")
+        let url = URL(string: "https://test.mozvoice.org")
         let request = URLRequest(url: url!)
         webView?.load(request)
         
