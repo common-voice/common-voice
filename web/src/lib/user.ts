@@ -29,6 +29,7 @@ export default class User extends Component<UserState> {
     }
 
     if (!this.state) {
+      this.state = Object.create(null);
       this.setState({
         userId: generateGUID(),
         clips: 0
