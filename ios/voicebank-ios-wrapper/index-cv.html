@@ -35,6 +35,12 @@ function play_recording() {
     window.webkit.messageHandlers["scriptHandler"].postMessage("playCapture");
 }
 
+// function to send a message to ios switft code to stop playing audio
+function stop_playing() {
+    document.getElementById('placeholder').innerHTML = 'stop_playing called';
+    window.webkit.messageHandlers["scriptHandler"].postMessage("stopPlaying");
+}
+
 // this is called by swift when the recording stops
 function uploadData(sBinaryParam) {
     // This 'atob' decodes the Base64 encoded data sent by swift
@@ -61,6 +67,7 @@ function nativemsgs(permission){
 <input type="button" value="Start Recording" width="300" height="300" onclick="start_recording()"/> <br> <br>
 <input type="button" value="Stop Recording" width="300" height="300" onclick="stop_recording()"/>  <br> <br>
 <input type="button" value="Play Recording" width="300" height="300" onclick="play_recording()"/>  <br> <br>
+<input type="button" value="Stop Recording" width="300" height="300" onclick="stop_playing()"/>  <br> <br>
 
 <div id='placeholder'></div>
 <script> displayiOS(); </script>

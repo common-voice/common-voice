@@ -38,7 +38,7 @@ class ViewController: UIViewController, WKScriptMessageHandler {
                 recorder.stopRecording()
             case "playCapture":
                 recorder.playCapture()
-            case "stopPlayingCapture":
+            case "stopPlaying":
                 recorder.stopPlayingCapture()
             default :
                 break
