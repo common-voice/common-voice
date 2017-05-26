@@ -15,6 +15,7 @@
 		3E0027E31EC3C7870050B4AC /* voicebank_ios_wrapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0027E21EC3C7870050B4AC /* voicebank_ios_wrapperTests.swift */; };
 		3E0027EE1EC3C7870050B4AC /* voicebank_ios_wrapperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0027ED1EC3C7870050B4AC /* voicebank_ios_wrapperUITests.swift */; };
 		3E42BC791ECA43B8002E3CDA /* Recorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E42BC781ECA43B8002E3CDA /* Recorder.swift */; };
+		3EE991BC1ED8B81800432FC5 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE991BB1ED8B81800432FC5 /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3E0027ED1EC3C7870050B4AC /* voicebank_ios_wrapperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voicebank_ios_wrapperUITests.swift; sourceTree = "<group>"; };
 		3E0027EF1EC3C7870050B4AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E42BC781ECA43B8002E3CDA /* Recorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recorder.swift; sourceTree = "<group>"; };
+		3EE991BB1ED8B81800432FC5 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				3E0027D61EC3C7870050B4AC /* LaunchScreen.storyboard */,
 				3E0027D91EC3C7870050B4AC /* Info.plist */,
 				3E42BC781ECA43B8002E3CDA /* Recorder.swift */,
+				3EE991BB1ED8B81800432FC5 /* Reachability.swift */,
 			);
 			path = "voicebank-ios-wrapper";
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			files = (
 				3E42BC791ECA43B8002E3CDA /* Recorder.swift in Sources */,
 				3E0027D01EC3C7860050B4AC /* ViewController.swift in Sources */,
+				3EE991BC1ED8B81800432FC5 /* Reachability.swift in Sources */,
 				3E0027CE1EC3C7860050B4AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
