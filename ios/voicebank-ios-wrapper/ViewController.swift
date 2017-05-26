@@ -4,10 +4,11 @@
 
 import WebKit
 
-class ViewController: UIViewController, WKScriptMessageHandler {
+class ViewController: UIViewController, WKScriptMessageHandler, WKNavigationDelegate {
     var webView: WKWebView?
     var recorder: Recorder!
     @IBOutlet weak var labelStatus: UILabel!
+    @IBOutlet weak var activityIndicatorView: UIActivityIndicatorView!
 
     override func loadView() {
         super.loadView()
@@ -15,15 +16,17 @@ class ViewController: UIViewController, WKScriptMessageHandler {
         if !Reachability.isConnectedToNetwork(){
             labelStatus.text = "Internet Connection not available!"
         } else {
+            self.activityIndicatorView.isHidden = false
             // create the webview and load the commonvoice website in it
             webView = WKWebView(frame: self.view.frame)
+            webView?.isHidden = true
+            webView?.navigationDelegate = self
             webView?.configuration.userContentController.add(self, name: "scriptHandler")
             webView?.scrollView.isScrollEnabled = false
             self.view.addSubview(webView!)
-            let url = URL(string: "http://192.168.0.44:8000/index-cv.html")
+            let url = URL(string: "https://test.mozvoice.org/")
             let request = URLRequest(url: url!)
             webView?.load(request)
-            
             // start the recorder object and ask permission to capture
             recorder = Recorder()
             recorder.webView = webView!
@@ -48,6 +51,17 @@ class ViewController: UIViewController, WKScriptMessageHandler {
     
     override var prefersStatusBarHidden: Bool {
         return true
+    }
+    
+    func webView(_ webView: UIWebView, didFailLoadWithError error: Error)
+    {
+        labelStatus.text = "Error loading the webapp"
+    }
+    
+    func webView(_ webView: WKWebView,
+                 didFinish navigation: WKNavigation!) {
+        webView.isHidden = false
+        self.activityIndicatorView.isHidden = true
     }
     
 }

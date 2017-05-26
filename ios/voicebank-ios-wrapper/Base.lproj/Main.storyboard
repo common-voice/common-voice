@@ -27,14 +27,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="iCj-1t-oGY">
+                                <rect key="frame" x="177" y="323" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="iCj-1t-oGY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2a2-wJ-IOi"/>
                             <constraint firstItem="gcR-lo-ZPX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MSB-mA-aFd"/>
                             <constraint firstItem="gcR-lo-ZPX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="djG-ZD-DcZ"/>
+                            <constraint firstItem="iCj-1t-oGY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xH0-Sc-HKy"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="activityIndicatorView" destination="iCj-1t-oGY" id="rkJ-jU-itr"/>
                         <outlet property="labelStatus" destination="gcR-lo-ZPX" id="1BL-yf-t6l"/>
                     </connections>
                 </viewController>
