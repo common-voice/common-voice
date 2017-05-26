@@ -117,7 +117,7 @@ class Recorder:  NSObject, AVAudioRecorderDelegate {
         let dBLevel = self.audioRecorder.averagePower(forChannel: 0)
         let peaklevel = self.audioRecorder.peakPower(forChannel: 0)
         NSLog("peaklevel \(peaklevel) dblevel \(dBLevel) ")
-        webView?.evaluateJavaScript("levels('\(dBLevel), \(peaklevel)')")
+        webView?.evaluateJavaScript("levels('\(dBLevel)', '\(peaklevel)')")
     }
     
     func audioRecorderDidFinishRecording(_ recorder: AVAudioRecorder, successfully flag: Bool) {
