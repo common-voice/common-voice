@@ -14,13 +14,12 @@ import WebKit
 class Recorder:  NSObject, AVAudioRecorderDelegate {
 
     var recordingSession: AVAudioSession!
-    var permission_granted = false
     var audioRecorder: AVAudioRecorder!
     var audioFilename: URL? = nil
-    var recordingCanceled = false
     var webView: WKWebView? = nil
     var audioPlayer:AVAudioPlayer!
     var metertimer : Timer? = nil
+    var hasMicPermission: Bool = false
     
     override init() {
         super.init()
@@ -31,35 +30,64 @@ class Recorder:  NSObject, AVAudioRecorderDelegate {
         do {
             try self.recordingSession.setCategory(AVAudioSessionCategoryPlayAndRecord, with: [.defaultToSpeaker])
             try self.recordingSession.setActive(true)
-            recordingSession.requestRecordPermission() { [unowned self] allowed in
-                DispatchQueue.main.async {
-                    if allowed {
-                        self.permission_granted = true
-                        self.createRecorder()
-                    } else {
-                        self.permission_granted = false
-                    }
-                }
-            }
         } catch {
             // failed to record!
         }
     }
     
     func startRecording() {
-        NSLog("startRecording")
-        self.audioRecorder.record()
-        self.audioRecorder.isMeteringEnabled = true;
-        self.metertimer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(self.updateAudioMeter), userInfo: nil, repeats: true);
+        // first we declare the closure to start recording
+        let record = { () -> Void in
+            self.audioRecorder.record()
+            self.audioRecorder.isMeteringEnabled = true;
+            self.metertimer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(self.updateAudioMeter), userInfo: nil, repeats: true);
+        }
+        
+        // then we check if we have mic permission
+        if (!self.hasMicPermission){
+            // if not, we ask it
+            requestPermission(completion:{(allowed: Bool) -> Void in
+                if (!allowed) {
+                    // if permission wasn't given, we let the webapp now
+                    self.hasMicPermission = false
+                    self.webView?.evaluateJavaScript("nativemsgs('nomicpermission')")
+                } else {
+                    // if permission was given, we start recording
+                    if (self.createRecorder()) {
+                        self.hasMicPermission = true
+                        record()
+                        self.webView?.evaluateJavaScript("nativemsgs('capturestarted')")
+                    } else {
+                        self.webView?.evaluateJavaScript("nativemsgs('errorrecording')")
+                    }
+                }
+            })
+        } else {
+            // if we have permission, then we start capturing
+            record()
+            self.webView?.evaluateJavaScript("nativemsgs('capturestarted')")
+        }
     }
     
-    func stopRecording(canceled: Bool) {
+    func requestPermission(completion: @escaping (Bool) -> Void) {
+        // first we show the permissions popup
+        recordingSession.requestRecordPermission() { [unowned self] allowed in
+            DispatchQueue.main.async {
+                completion(allowed)
+            }
+        }
+    }
+    
+    func stopRecording() {
         self.audioRecorder.stop()
-        self.recordingCanceled = canceled
         self.metertimer?.invalidate()
     }
     
-    func createRecorder() {
+    func stopPlayingCapture() {
+        self.audioPlayer.stop()
+    }
+    
+    func createRecorder() -> Bool {
         let settings = [
             AVFormatIDKey: Int(kAudioFormatMPEG4AAC),
             AVSampleRateKey: 48000,
@@ -70,10 +98,11 @@ class Recorder:  NSObject, AVAudioRecorderDelegate {
         do {
             self.audioRecorder = try AVAudioRecorder(url: self.audioFilename!, settings: settings)
         } catch {
-            NSLog("Error Recording")
+            return false
         }
         
         self.audioRecorder.delegate = self
+        return true
     }
     
     func playCapture() {
@@ -83,7 +112,7 @@ class Recorder:  NSObject, AVAudioRecorderDelegate {
             audioPlayer.prepareToPlay()
             audioPlayer.play()
         } catch {
-            NSLog("Error Recording")
+            self.webView?.evaluateJavaScript("nativemsgs('errorplaying')")
         }
     }
     
@@ -96,7 +125,7 @@ class Recorder:  NSObject, AVAudioRecorderDelegate {
     }
     
     func audioRecorderDidFinishRecording(_ recorder: AVAudioRecorder, successfully flag: Bool) {
-        if (!self.recordingCanceled && flag){
+        if (flag){
             do {
                 let data: NSData = try NSData(contentsOfFile: self.audioFilename!.path)
                 // Convert swift dictionary into encoded json

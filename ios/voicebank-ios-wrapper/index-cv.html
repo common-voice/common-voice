@@ -17,7 +17,6 @@ function displayiOS(){
   }
 }
 
-
 // function to send a message to ios switft code to start to record audio
 function start_recording() {
     document.getElementById('placeholder').innerHTML = 'start_recording called';
@@ -50,6 +49,10 @@ function uploadData(sBinaryParam) {
 // of the audio being captured
 function levels(dblevel, peaklevel){
     document.querySelector('#placeholder').innerHTML = 'peaklevel: ' + peaklevel + ' - dblevel: ' + dblevel;
+}
+
+function nativemsgs(permission){
+    document.querySelector('#placeholder').innerHTML = 'Native msgs ' + permission;
 }
 
 </script>

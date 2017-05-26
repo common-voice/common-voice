@@ -30,12 +30,18 @@ class ViewController: UIViewController, WKScriptMessageHandler {
     }
     
     public func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
-        if (message.body as? String == "startCapture") {
-            recorder.startRecording()
-        } else if (message.body as? String == "stopCapture") {
-            recorder.stopRecording(canceled: false)
-        } else if (message.body as? String == "playCapture") {
-            recorder.playCapture()
+        let msg = message.body as! String
+        switch msg {
+            case "startCapture":
+                recorder.startRecording()
+            case "stopCapture":
+                recorder.stopRecording()
+            case "playCapture":
+                recorder.playCapture()
+            case "stopPlayingCapture":
+                recorder.stopPlayingCapture()
+            default :
+                break
         }
     }
     
