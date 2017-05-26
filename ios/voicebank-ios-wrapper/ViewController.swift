@@ -44,6 +44,8 @@ class ViewController: UIViewController, WKScriptMessageHandler, WKNavigationDele
                 recorder.playCapture()
             case "stopPlaying":
                 recorder.stopPlayingCapture()
+            case "openSettings":
+                UIApplication.shared.open(URL(string: UIApplicationOpenSettingsURLString)!, options: [:], completionHandler: nil)
             default :
                 break
         }

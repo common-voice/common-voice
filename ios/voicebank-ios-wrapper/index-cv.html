@@ -41,6 +41,12 @@ function stop_playing() {
     window.webkit.messageHandlers["scriptHandler"].postMessage("stopPlaying");
 }
 
+// function to open settings app
+function open_settings() {
+    document.getElementById('placeholder').innerHTML = 'open_settings called';
+    window.webkit.messageHandlers["scriptHandler"].postMessage("openSettings");
+}
+
 // this is called by swift when the recording stops
 function uploadData(sBinaryParam) {
     // This 'atob' decodes the Base64 encoded data sent by swift
@@ -68,6 +74,7 @@ function nativemsgs(permission){
 <input type="button" value="Stop Recording" width="300" height="300" onclick="stop_recording()"/>  <br> <br>
 <input type="button" value="Play Recording" width="300" height="300" onclick="play_recording()"/>  <br> <br>
 <input type="button" value="Stop Recording" width="300" height="300" onclick="stop_playing()"/>  <br> <br>
+<input type="button" value="Open Settings" width="300" height="300" onclick="open_settings()"/>  <br> <br>
 
 <div id='placeholder'></div>
 <script> displayiOS(); </script>
