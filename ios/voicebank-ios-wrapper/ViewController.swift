@@ -64,6 +64,8 @@ class ViewController: UIViewController, WKScriptMessageHandler, WKNavigationDele
                  didFinish navigation: WKNavigation!) {
         webView.isHidden = false
         self.activityIndicatorView.isHidden = true
+        // register javascript function to open settings page
+        webView.evaluateJavaScript("window.vcopensettings = function () { window.webkit.messageHandlers['scriptHandler'].postMessage('openSettings'); }")
     }
     
 }

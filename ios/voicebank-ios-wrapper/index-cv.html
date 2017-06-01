@@ -43,8 +43,7 @@ function stop_playing() {
 
 // function to open settings app
 function open_settings() {
-    document.getElementById('placeholder').innerHTML = 'open_settings called';
-    window.webkit.messageHandlers["scriptHandler"].postMessage("openSettings");
+    window.vcopensettings();
 }
 
 // this is called by swift when the recording stops
