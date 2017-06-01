@@ -18,9 +18,12 @@ export default class App {
    * App will handle routing to page controllers.
    */
   constructor() {
-    // Put up the debug box in ios app for now.
     if (isNativeIOS()) {
+      // Put up the debug box in ios app for now.
       this.box = new DebugBox();
+
+      // For styling fixes on ios.
+      document.body.classList.add('ios');
     }
 
     this.user = new User();
