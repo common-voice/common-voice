@@ -68,8 +68,10 @@ button {
   background-color: #E8E8E7;
 }
 
-button:hover {
-  background: #808080;
+@media (min-width: 600px) {
+  button:hover:not(.ios) {
+    background: #808080;
+  }
 }
 
 button:active {
