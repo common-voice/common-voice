@@ -4,15 +4,24 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
     <meta charset="utf-8" />
     <title>Common Voice</title>
+    <link rel="stylesheet" href="/css/hamburgers.css">
     <link rel="stylesheet" href="/css/index.css">
   </head>
   <body>
     <header>
       <a id="main-logo" href="/">Voice<br />Commons</a>
-      <nav id="main-nav"></nav>
+      <button id="hamburger-menu" class="hamburger hamburger--vortex" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      <nav id="main-nav" class="nav-list"></nav>
     </header>
     <section id="content"></section>
     <script src="/vendor/chroma.min.js"></script>
     <script src="/js/bundle.js"></script>
+    <div id="navigation-modal">
+      <nav class="nav-list"></nav>
+    </div>
   </body>
 </html>

@@ -11,7 +11,7 @@ import API from '../api';
 export default abstract class Page<State> extends Component<State> {
   name: string;
   api: API;
-  nav: HTMLAnchorElement;
+  private navElements: HTMLAnchorElement[] = [];
   content: HTMLElement;
   container: HTMLElement;
 
@@ -32,13 +32,16 @@ export default abstract class Page<State> extends Component<State> {
 
     // Some pages (like 404) will not need a navigation tab.
     if (!noNav) {
-      this.nav = document.createElement('a');
-      this.nav.id = name;
-      this.nav.className = 'tab';
-      this.nav.href = '/' + name;
-      this.nav.textContent = capitalizeFirstLetter(name);
-      document.querySelector('#main-nav').appendChild(this.nav);
-      jsifyLink(this.nav, this.trigger.bind(this, 'nav'));
+      for (let list of Array.from(document.querySelectorAll('.nav-list'))) {
+        let nav = document.createElement('a');
+        nav.id = name;
+        nav.className = 'tab';
+        nav.href = '/' + name;
+        nav.textContent = capitalizeFirstLetter(name);
+        this.navElements.push(nav);
+        jsifyLink(nav, this.trigger.bind(this, 'nav'));
+        list.appendChild(nav);
+      }
     }
   }
 
@@ -55,7 +58,7 @@ export default abstract class Page<State> extends Component<State> {
    */
   show(): void {
     if (!this.noNav) {
-      this.nav.classList.add('active');
+      this.navElements.forEach(el => el.classList.add('active'));
     }
 
     this.content.classList.add('active');
@@ -69,7 +72,7 @@ export default abstract class Page<State> extends Component<State> {
    */
   hide(): void {
     if (!this.noNav) {
-      this.nav.classList.remove('active');
+      this.navElements.forEach(el => el.classList.remove('active'));
     }
 
     this.content.classList.remove('active');

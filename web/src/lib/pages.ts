@@ -6,6 +6,7 @@ import Listen from './pages/listen';
 import Home from './pages/home';
 import About from './pages/about';
 import NotFound from './pages/not-found';
+import HamburgerMenu from './hamburger-menu';
 
 export default class Pages extends Eventer {
 
@@ -27,6 +28,8 @@ export default class Pages extends Eventer {
 
   private currentPage: Page<any>;
 
+  private hamburgerMenu: HamburgerMenu;
+
   constructor(public user: User) {
     super();
 
@@ -41,6 +44,11 @@ export default class Pages extends Eventer {
     this.record = new Record(user);
     this.listen = new Listen(user);
     this.notFound = new NotFound(user);
+
+    this.hamburgerMenu = new HamburgerMenu({
+      button: document.getElementById('hamburger-menu'),
+      modal: document.getElementById('navigation-modal')
+    });
   }
 
   init() {
@@ -100,5 +108,7 @@ export default class Pages extends Eventer {
     }
 
     this.currentPage.show();
+
+    this.hamburgerMenu.setActive(false);
   }
 }

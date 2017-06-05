@@ -42,12 +42,6 @@ body.loaded {
   opacity: 1;
 }
 
-@media (min-width: 600px) {
-  body {
-    flex-flow: row nowrap;
-  }
-}
-
 a {
   outline: none;
   text-decoration: none;
@@ -104,14 +98,6 @@ header {
   overflow: hidden;
 }
 
-@media (min-width: 600px) {
-  header {
-    flex-flow: column;
-    max-width: 10rem;
-    overflow: unset;
-  }
-}
-
 #main-logo {
   flex: 0 0 auto;
   background: url("/img/mic.svg") no-repeat left/contain;
@@ -123,42 +109,79 @@ header {
   align-items: center;
   text-align: center;
   margin: 0.5rem 0;
+  margin-right: auto;
+}
+
+#hamburger-menu {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 1001;
 }
 
 #main-nav {
+  display: none;
   flex: 1 1 auto;
-  display: flex;
-  flex-flow: row-reverse nowrap;
   margin: 0;
+  flex-flow: row-reverse nowrap;
   padding: 0;
 }
 
 @media (min-width: 600px) {
-  #main-nav {
-    flex-flow: unset;
-    display: block;
+  #hamburger-menu {
+    display: none;
   }
+  #main-nav {
+    display: flex;
+  }
+}
+
+#navigation-modal {
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.9);
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  padding: 2rem;
+  pointer-events: none;
+  transform: translateY(-100vh);
+}
+
+#navigation-modal.is-active {
+  display: block;
+  opacity: 1;
+  transition: all 0.2s ease-out;
+  transform: translateY(0);
+  pointer-events: all;
+}
+
+.nav-list {
+  display: flex;
 }
 
 .tab {
+  display: block;
+  cursor: pointer;
   flex-grow: 0;
   padding: 0 1rem;
-  line-height: calc(1.2 * var(--header-height));
+  line-height: 3;
   vertical-align: bottom;
 }
 
-@media (min-width: 600px) {
-  #main-nav .tab {
-    display: block;
-    line-height: 2rem;
-  }
-  #main-nav .tab.active {
-    border-right: var(--tab-line);
-    border-bottom: 0px;
-  }
+#navigation-modal .nav-list {
+  flex-flow: column;
 }
-
-.tab.active {
+#navigation-modal .tab.active {
+  border-left: var(--tab-line);
+}
+#main-nav .tab {
+  line-height: calc(1.2 * var(--header-height));
+}
+#main-nav .tab.active {
   border-bottom: var(--tab-line);
 }
 
