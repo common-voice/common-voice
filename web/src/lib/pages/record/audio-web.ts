@@ -2,6 +2,7 @@ import AudioBase from 'audio-base';
 import ERROR_MSG from '../../../error-msg';
 import { AnalyzerNodeView, RadialAnalyzerNodeView } from '../../viz';
 import { isNativeIOS } from '../../utility';
+import confirm from '../../confirm';
 
 export default class AudioWeb extends AudioBase {
   ready: boolean;
@@ -106,6 +107,14 @@ export default class AudioWeb extends AudioBase {
       this.showViz();
 
       this.ready = true;
+    }).catch((err) => {
+      if (err === ERROR_MSG.ERR_NO_MIC) {
+        return confirm('You must allow microphone access.', 'Retry', 'Cancel').then(() => {
+          (window as any).reload();
+        });
+      } else {
+        throw err;
+      }
     });
   }
 
