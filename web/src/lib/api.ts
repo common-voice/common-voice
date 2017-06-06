@@ -1,3 +1,8 @@
+export interface Clip {
+  audio: string;
+  sentence: string;
+}
+
 /**
  * Handles any ajax and web 2.0 server ninjas.
  */
@@ -59,12 +64,12 @@ export default class API {
   /**
    * Ask the server for a clip
    */
-  getRandomClip(): Promise<any> {
+  getRandomClip(): Promise<Clip> {
     return this.fetch('upload/random', { responseType: 'blob' })
       .then((req: XMLHttpRequest) => {
         let src = window.URL.createObjectURL(req.response);
         let sentence = decodeURIComponent(req.getResponseHeader('sentence'));
-        return Promise.resolve([src, sentence]);
+        return Promise.resolve({ audio: src, sentence });
       });
   }
 }

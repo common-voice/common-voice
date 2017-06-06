@@ -1,19 +1,25 @@
-import AudioBase from 'audio-base';
 import ERROR_MSG from '../../../error-msg';
 import { isNativeIOS } from '../../utility';
 
-export default class AudioIOS extends AudioBase {
+declare var webkit;
+
+export default class AudioIOS {
   postMessage: Function;
 
   static AUDIO_TYPE: string = 'audio/m4a;base64';
+  lastRecordingData: Blob;
+  lastRecordingUrl: string;
+
+  clear(): void {
+    this.lastRecordingData = null;
+    this.lastRecordingUrl = null;
+  }
 
   // For audio src URL, we need to trick webkit into
   // thinking this is an mp4 base64 encoding.
   static AUDIO_TYPE_URL: string = 'audio/mp4;base64';
 
-  constructor(container: HTMLElement) {
-    super(container);
-
+  constructor() {
     // Make sure we are in the right context before we allow instantiation.
     if (!isNativeIOS()) {
       throw new Error('cannot use ios audio in web app');
