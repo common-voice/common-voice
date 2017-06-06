@@ -26,7 +26,7 @@ function run(callback) {
 
   let pg = new Postgres({
     user: user,
-    pass: pass,
+    password: pass,
     database: 'template1'
   });
 

@@ -3,8 +3,10 @@ const config = require('../config.json');
 const Postgres = require('../server/js/lib/db/postgres').default;
 const DB = require('../server/js/lib/db').default;
 
-const DBNAME = 'voiceweb' || config.PBDATABASE;
-const USERNAME = 'voiceweb' || config.PGUSER;
+const DEFAULT = 'voiceweb';
+const USERNAME = config.PGUSER || DEFAULT;
+const PASSWORD = config.PGPASS || DEFAULT;
+const DBNAME = config.PGNAME || DEFAULT;
 
 /**
  * Create the database.
@@ -25,13 +27,14 @@ function run(callback) {
     return;
   }
 
+  // Log in as superuser to create user and tables for voice-web.
   let pg = new Postgres({
     user: user,
-    pass: pass,
+    password: pass,
     database: 'template1' // Default db for postgres.
   });
 
-  let db; // db object, for when we connect like the server does.
+  let db; // db object, for when we connect through the server api.
 
   let f = ff(
     () => {
@@ -41,7 +44,7 @@ function run(callback) {
 
     result => {
       if (result && result.rowCount < 1) {
-        pg.query(`CREATE USER ${USERNAME};`, f());
+        pg.query(`CREATE USER ${USERNAME} WITH PASSWORD '${PASSWORD}';`, f());
       }
     },
 
