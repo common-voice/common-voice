@@ -1,6 +1,7 @@
+import { h, render } from 'preact';
 import User from './user';
 import Pages from './pages';
-import { isNativeIOS, jsifyLink } from './utility';
+import { isNativeIOS } from './utility';
 import DebugBox from './debug-box';
 
 /**
@@ -27,7 +28,6 @@ export default class App {
     }
 
     this.user = new User();
-    this.pages = new Pages(this.user);
     this.signalLoading();
   }
 
@@ -54,8 +54,9 @@ export default class App {
     if (!href) {
       href = window.location.href;
     }
-    let url = new URL(href);
-    return url.pathname;
+    let link = document.createElement('a');
+    link.href = href;
+    return link.pathname;
   }
 
   /**
@@ -63,13 +64,6 @@ export default class App {
    */
   private handleNavigation(href: string) {
     let page = this.getPageName(href);
-
-    // If page is unrecognized, direct to 404 page.
-    if (!this.pages.isValidPage(page)) {
-      console.error('Page not found', page);
-      page = Pages.PAGES.NOT_FOUND;
-    }
-
     // Update the url history and inform apprioriate controller.
     window.history.pushState(null, '', page);
     this.route();
@@ -83,14 +77,8 @@ export default class App {
     let handler = this.handleNavigation.bind(this);
 
     // Listen and respond to any navigation requests.
-    this.pages.on('nav', handler);
+    //this.pages.on('nav', handler);
 
-    // Use ja navigation for logo too.
-    let logo = document.getElementById('main-logo') as HTMLAnchorElement;
-    jsifyLink(logo, handler);
-
-    // Init the page controllers.
-    this.pages.init()
     this.signalLoaded();
     handler();
   }
@@ -100,6 +88,7 @@ export default class App {
    */
   route(): void {
     let name: string = this.getPageName();
-    this.pages.route(name);
+    let root = document.getElementById('pages');
+    render(<Pages user={this.user} navigate={this.handleNavigation.bind(this)} currentPage={name} />, root, root.firstElementChild);
   }
 }

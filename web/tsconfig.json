@@ -4,10 +4,15 @@
     "module": "amd",
     "noImplicitAny": false,
     "noEmitOnError": true,
+    "jsx": "react",
+    "jsxFactory": "h",
     "lib": ["es2015", "dom"],
-    "outFile": "bundle.js"
+    "outFile": "bundle.js",
+    "types": [
+      "preact"
+    ]
   },
   "files": [
-    "src/**/*.ts"
+    "src/**/*"
   ]
 }

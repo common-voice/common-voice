@@ -2,7 +2,7 @@
 
 const APP_NAME = 'common-voice';
 const TS_CONFIG = 'tsconfig.json';
-const TS_GLOB = 'src/**/*.ts';
+const TS_GLOB = 'src/**/*';
 const DIR_CLIENT = './web/';
 const DIR_SERVER = './server/';
 const DIR_UPLOAD = DIR_SERVER + 'upload/';
@@ -54,7 +54,7 @@ function getVendorJS() {
   let fs = require('fs');
   let files = fs.readdirSync(PATH_VENDOR);
   return files.reduce((acc, file) => {
-    return acc + fs.readFileSync(PATH_VENDOR + file);
+    return acc + fs.readFileSync(PATH_VENDOR + file) + '\n';
   }, '');
 }
 
@@ -73,8 +73,8 @@ function compileClient() {
   };
 
   return compile(project)
-    .pipe(insert.prepend(getVendorJS()))
     .pipe(uglify(uglifyOptions))
+    .pipe(insert.prepend(getVendorJS()))
     .pipe(gulp.dest(DIR_JS));
 }
 
