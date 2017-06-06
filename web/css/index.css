@@ -35,9 +35,6 @@ body {
 }
  */
 
-
-body.loading {}
-
 body.loaded {
   opacity: 1;
 }
