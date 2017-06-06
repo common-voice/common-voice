@@ -1,6 +1,7 @@
 const ff = require('ff');
 const config = require('../config.json');
 const Postgres = require('../server/js/lib/db/postgres').default;
+const DB = require('../server/js/lib/db').default;
 
 const DBNAME = 'voiceweb' || config.PBDATABASE;
 const USERNAME = 'voiceweb' || config.PGUSER;
@@ -27,8 +28,10 @@ function run(callback) {
   let pg = new Postgres({
     user: user,
     pass: pass,
-    database: 'template1'
+    database: 'template1' // Default db for postgres.
   });
+
+  let db; // db object, for when we connect like the server does.
 
   let f = ff(
     () => {
@@ -55,21 +58,26 @@ function run(callback) {
 
     (result) => {
       // Now let's use the user we just created to create the schema.
-      pg.disconnect();
-      let pg = new Postgres();
-      pg.query(
-        `CREATE TABLE users (
-          id text primary key,
-          email text unique,
-          birthyear smallserial
-        );`, f()
-      );
+      // To do so, we will need to as the server (through db object).
+      pg.end();
+      pg = null;
+      db = new DB();
+      db.createAll().then(f.slotPlain())
+
+        // Forward promise errors to ff.
+        .catch(f.fail.bind(f));
     })
 
     .onComplete((err, result) => {
-      console.log('database created.');
-      pg.disconnect();
-      callback();
+      if (err) {
+        console.error('database create error', err);
+      }
+
+      // Clean up any open connections.
+      db && db.end();
+      pg && pg.end();
+
+      callback(err);
     });
 }
 

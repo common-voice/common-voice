@@ -90,7 +90,12 @@
 
   gulp.task('create', 'Create the database.', ['ts-server'], (done) => {
     let create = require('./tools/createDb');
-    create.run(done);
+    create.run(err => {
+      if (!err) {
+        console.log('Db created.');
+      }
+      done();
+    });
   });
 
   gulp.task('drop', 'Detroy the database.', ['ts-server'], (done) => {

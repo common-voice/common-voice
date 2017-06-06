@@ -42,7 +42,7 @@ function run(callback) {
     }
 
     console.log('database dropped.');
-    pg.disconnect();
+    pg.end();
     callback();
   });
 }
