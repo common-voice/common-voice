@@ -10,9 +10,8 @@ const DIR_JS = DIR_CLIENT + 'js/'
 const DIR_SERVER_JS = DIR_SERVER + 'js/';
 const PATH_TS = DIR_CLIENT + TS_GLOB;
 const PATH_TS_SERVER = DIR_SERVER + TS_GLOB;
-const PATH_AMD_LOADER = DIR_CLIENT + 'vendor/almond.js';
+const PATH_VENDOR = DIR_CLIENT + 'vendor/';
 const RELOAD_DELAY = 100;
-
 
 // Add gulp help functionality.
 let gulp = require('gulp-help')(require('gulp'));
@@ -37,6 +36,7 @@ function listen() {
 function watch() {
   gulp.watch('package.json', ['npm-install']);
   gulp.watch(PATH_TS, ['ts']);
+  gulp.watch(PATH_VENDOR, ['ts']);
   gulp.watch(PATH_TS_SERVER, ['ts-server']);
 }
 
@@ -50,18 +50,31 @@ function doEverything() {
     .then(watchAndListen);
 }
 
-function compileClient() {
+function getVendorJS() {
   let fs = require('fs');
-  let uglify = require('gulp-uglify');
+  let files = fs.readdirSync(PATH_VENDOR);
+  return files.reduce((acc, file) => {
+    return acc + fs.readFileSync(PATH_VENDOR + file);
+  }, '');
+}
+
+function compileClient() {
   let project = ts.createProject(DIR_CLIENT + TS_CONFIG);
-  return compile(project)
-    .pipe(require('gulp-insert')
-      .prepend(fs.readFileSync(PATH_AMD_LOADER)))
-    .pipe(uglify({ mangle: false, compress: false, output: {
+  let insert = require('gulp-insert');
+  let uglify = require('gulp-uglify');
+  let uglifyOptions = {
+    mangle: false,
+    compress: false,
+    output: {
       beautify: true,
       indent_level: 2,
       semicolons: false
-    }}))
+    }
+  };
+
+  return compile(project)
+    .pipe(insert.prepend(getVendorJS()))
+    .pipe(uglify(uglifyOptions))
     .pipe(gulp.dest(DIR_JS));
 }
 
