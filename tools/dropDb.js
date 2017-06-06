@@ -10,16 +10,11 @@ const USERNAME = 'voiceweb' || config.PGUSER;
  */
 function run(callback) {
   // Make sure we have a superuser username and password
-  let user = config.DB_ROOT_USER;
-  let pass = config.DB_ROOT_PASS;
+  let user = config.DB_ROOT_USER || 'postgres';
+  let pass = config.DB_ROOT_PASS || '';
+
   if (!user) {
     console.error('need DB_ROOT_USER defined in config.json');
-    process.exitCode = 1;
-    return;
-  }
-
-  if (!pass) {
-    console.error('need DB_ROOT_PASS defined in config.json');
     process.exitCode = 1;
     return;
   }

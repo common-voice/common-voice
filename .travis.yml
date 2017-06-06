@@ -4,7 +4,9 @@ node_js:
   - "7"
 services:
   - postgresql
+addons:
+    postgresql: "9.5"
 before_script:
-  - npm install -g gulp
+  - npm install -g gulp-cli
 script:
-  - gulp build
+  - gulp create && gulp ts
