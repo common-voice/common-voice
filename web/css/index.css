@@ -72,7 +72,7 @@ button:active {
   background: #484848;
 }
 
-button.disabled {
+button:disabled {
   pointer-events: none;
   color: #BDBDBD;
 }
@@ -185,21 +185,17 @@ header {
   border-bottom: var(--tab-line);
 }
 
-#about-container {
-  padding: 0rem 0.7rem;
-}
-
-#about-container {
+.about-container {
   padding: 0.3rem 2rem;
 }
-#listen-container {
+.listen-container {
   background: ivory;
   padding: 0.7rem;
   color: black;
   text-align: center;
 }
 
-#listen-audio {
+.listen-container audio {
   display: block;
   width: 70%;
   margin: 1rem auto;
@@ -234,23 +230,7 @@ header {
   }
 }
 
-.container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  transition: opacity 0.2s linear;
-  opacity: 0;
-  z-index: 1;
-}
-
-.container.active {
-  opacity: 1;
-  z-index: 2;
-}
-
-#message,
+.record-message,
 #toolbar {
   border: none;
   text-align: center;
@@ -267,11 +247,11 @@ header {
   margin: 0.5rem 0.25rem;
 }
 
-#message {
+.record-message {
   display: none;
 }
 
-#sentence {
+.record-sentence {
   background-image: linear-gradient(297deg, #cacaca, #f5efe0, #f0d497);
   background-size: 0% 150%;
   background-repeat: no-repeat;
@@ -286,7 +266,7 @@ header {
   transition: background-size 3s linear;
 }
 
-#sentence.active {
+.record-sentence.active {
   background-size: 100% 150%;
 }
 

@@ -3,7 +3,7 @@
 
   const APP_NAME = 'common-voice';
   const TS_CONFIG = 'tsconfig.json';
-  const TS_GLOB = 'src/**/*.ts';
+  const TS_GLOB = 'src/**/*';
   const DIR_CLIENT = './web/';
   const DIR_SERVER = './server/';
   const DIR_UPLOAD = DIR_SERVER + 'upload/';

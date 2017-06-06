@@ -3,3 +3,6 @@ web/js/
 server/js/
 server/upload/
 _ignore/
+.DS_Store
+.vscode/
+web/vendor/preact.min.js

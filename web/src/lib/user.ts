@@ -1,4 +1,3 @@
-import Component from './component';
 import { generateGUID } from './utility';
 
 const USER_KEY = 'userdata';
@@ -11,11 +10,11 @@ interface UserState {
 /**
  * User tracking
  */
-export default class User extends Component<UserState> {
+export default class User {
 
-  // Store userid on this object.
+  state: UserState;
+
   constructor() {
-    super();
     this.restore();
   }
 
@@ -29,11 +28,10 @@ export default class User extends Component<UserState> {
     }
 
     if (!this.state) {
-      this.state = Object.create(null);
-      this.setState({
+      this.state = {
         userId: generateGUID(),
         clips: 0
-      });
+      };
       this.store();
     }
   }

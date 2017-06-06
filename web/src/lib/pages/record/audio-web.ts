@@ -1,9 +1,10 @@
-import AudioBase from 'audio-base';
 import ERROR_MSG from '../../../error-msg';
 import { AnalyzerNodeView, RadialAnalyzerNodeView } from '../../viz';
 import { isNativeIOS } from '../../utility';
 
-export default class AudioWeb extends AudioBase {
+const AUDIO_TYPE = 'audio/ogg; codecs=opus';
+
+export default class AudioWeb {
   ready: boolean;
   microphone: MediaStream;
   analyzerNode: AnalyserNode;
@@ -11,9 +12,10 @@ export default class AudioWeb extends AudioBase {
   radialVisualizer: AnalyzerNodeView;
   recorder: any;
   chunks: any[];
+  lastRecordingData: Blob;
+  lastRecordingUrl: string;
 
-  constructor(container: HTMLElement) {
-    super(container);
+  constructor() {
 
     // Make sure we are in the right context before we allow instantiation.
     if (isNativeIOS()) {
@@ -59,7 +61,12 @@ export default class AudioWeb extends AudioBase {
     levels.id = 'levels';
     levels.height = levels.width = 100;
     vizContainer.appendChild(levels);
-    this.container.appendChild(vizContainer);
+
+    let viz = document.getElementById('audio-viz');
+    if (viz) {
+      viz.innerHTML = ''; // clear it out first
+      viz.appendChild(vizContainer);
+    }
 
     this.radialVisualizer =
       new RadialAnalyzerNodeView(this.analyzerNode, levels, 300, 300);
@@ -137,13 +144,13 @@ export default class AudioWeb extends AudioBase {
   stop() {
     if (!this.ready) {
       console.error('Cannot stop audio before microhphone is ready.');
-      return Promise.resolve();;
+      return Promise.resolve({});
     }
 
     return new Promise((res: Function, rej: Function) => {
       this.recorder.onstop = (e) => {
         this.radialVisualizer.isRecording = false;
-        var blob = new Blob(this.chunks, { 'type': AudioBase.AUDIO_TYPE });
+        var blob = new Blob(this.chunks, { 'type': AUDIO_TYPE });
         this.lastRecordingData = blob;
         this.lastRecordingUrl = URL.createObjectURL(blob);
         res(blob);
@@ -156,7 +163,9 @@ export default class AudioWeb extends AudioBase {
     if (this.lastRecordingUrl) {
       URL.revokeObjectURL(this.lastRecordingUrl);
     }
-    super.clear();
+
+    this.lastRecordingData = null;
+    this.lastRecordingUrl = null;
   }
 }
 
