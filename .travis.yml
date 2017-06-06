@@ -1,6 +1,9 @@
+dist: trusty
 language: node_js
 node_js:
   - "7"
+services:
+  - postgresql
 before_script:
   - npm install -g gulp
 script:
