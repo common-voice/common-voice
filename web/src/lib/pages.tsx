@@ -53,7 +53,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
         onClick={(e) => this.props.navigate(url)}>{name}</a>;
     };
 
-    return <div>
+    return <div id="main">
       <header>
         <a id="main-logo" href="/" onClick={(e) => this.props.navigate('/')}>Voice<br />Commons</a>
         <button id="hamburger-menu" onClick={this.toggleMenu}
@@ -68,7 +68,9 @@ export default class Pages extends Component<PagesProps, PagesState> {
           {renderTab('/listen', 'Listen')}
         </nav>
       </header>
-      {this.renderCurrentPage()}
+      <div id="content">
+        {this.renderCurrentPage()}
+      </div>
       <div id="navigation-modal" className={this.state.isMenuVisible && 'is-active'}>
         <nav className="nav-list">
           {renderTab('/about', 'About')}

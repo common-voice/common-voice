@@ -1,39 +1,39 @@
 :root {
+  --base-font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   --base-font-size: 15px;
-  --header-height: 3rem;
+  --base-font-color: #f5f5f5;
+  --header-height: 4rem;
   --tab-line: 1px solid orange;
   --debug-box-height: 8rem;
+  --base-background-color: #212121;
+
+  /* Z-indexing */
+  --top-z-index: 2;
+  --middle-z-index: 1;
+  --bottom-z-index: 0;
 }
 
-html, body {
+html {
+  font-family: var(--base-font-family);
+  font-size: var(--base-font-size);
+  color: var(--base-font-color);
+  background-color: var(--base-background-color);
+}
+
+html, body, #main {
   padding: 0;
   margin: 0;
-  height: 100%;
+  min-height: 100%;
   width: 100%;
 }
 
 body {
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: var(--base-font-size);
-  background-color: #212121;
-  color: #F5F5F5;
-  display: flex;
-  flex-flow: column nowrap;
   transition: opacity 0.5s linear;
   opacity: 0;
-  overflow:hidden
 }
 
-/**
- * TODO: Figure out a way to not have content overlap
- * the debug box
- *
-@media (max-width: 600px) {
-  #content {
-    margin-bottom: var(--debug-box-height);
-  }
+#main {
 }
- */
 
 body.loaded {
   opacity: 1;
@@ -83,16 +83,26 @@ button:disabled {
   }
 }
 
-header, .container, footer {
-  padding: 0 0.5rem;
+header, #content {
+  padding: 0.5rem 0.5rem;
 }
 
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   flex-flow: row nowrap;
   height: var(--header-height);
-  padding: 0.5rem 0.5rem;
   overflow: hidden;
+  box-sizing: border-box;
+  z-index: var(--top-z-index);
+}
+
+#content {
+  margin-top: var(--header-height);
+  position: relative;
 }
 
 #main-logo {
@@ -110,10 +120,7 @@ header {
 }
 
 #hamburger-menu {
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  z-index: 1001;
+  padding: 0;
 }
 
 #main-nav {
@@ -137,15 +144,14 @@ header {
   box-sizing: border-box;
   background: rgba(0, 0, 0, 0.9);
   opacity: 0;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  z-index: 1000;
-  padding: 2rem;
+  z-index: var(--middle-z-index);
+  padding: var(--header-height) 2rem 0;
   pointer-events: none;
-  transform: translateY(-100vh);
+  transform: translateY(-100%);
 }
 
 #navigation-modal.is-active {
@@ -212,19 +218,6 @@ header {
 #levels {
   display: block;
   margin: 0 auto;
-}
-
-#content {
-  flex: 1 1 auto;
-  position: relative;
-}
-
-@media (min-width: 600px) {
-  section#content {
-    margin-left: 2rem;
-    margin-right: 3rem;
-    margin-top: 3rem;
-  }
 }
 
 .record-message,
@@ -300,7 +293,7 @@ header {
   height: var(--debug-box-height);
   background-color: white;
   color: black;
-  z-index: 2;
+  z-index: var(--top-z-index);
   overflow: scroll;
 }
 
@@ -322,7 +315,7 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 2000;
+  z-index: var(--top-z-index);
   pointer-events: none;
   opacity: 0;
   transition: opacity 0.2s;
