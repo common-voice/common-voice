@@ -25,6 +25,8 @@
     "@types/node": "^7.0.18",
     "gulp-nodemon": "2.2.1",
     "gulp-typescript": "^3.1.6",
+    "pg": "^6.2.3",
+    "pg-native": "^1.10.1",
     "typescript": "^2.3.2"
   }
 }

@@ -88,6 +88,16 @@
 
   gulp.task('watch', 'Rebuild, rebundle, re-install on file changes.', watch);
 
+  gulp.task('create', 'Create the database.', ['ts-server'], (done) => {
+    let create = require('./tools/createDb');
+    create.run(done);
+  });
+
+  gulp.task('drop', 'Detroy the database.', ['ts-server'], (done) => {
+    let drop = require('./tools/dropDb');
+    drop.run(done);
+  });
+
   gulp.task('deploy', 'deploy production',
     ['npm-install', 'build'], (done) => {
     let config = require('./config.json');
