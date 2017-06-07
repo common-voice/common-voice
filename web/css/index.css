@@ -68,21 +68,20 @@ a {
 
 button {
   display: inline-block;
-  padding: 6px 12px;
+  padding: 0.5rem 1rem;
   margin-bottom: 0;
-  font-size: 15px;
+  font-size: var(--base-font-size);
   font-weight: normal;
   text-align: center;
   cursor: pointer;
-  border: 1px solid transparent;
-  border-radius: 4px;
+  border: 1px solid #fb8e92;
   outline: none;
-  background-color: #E8E8E7;
+  background-color: #fdc6c8;
 }
 
 @media (min-width: 600px) {
   button:hover:not(.ios) {
-    background: #808080;
+    background: #c07578;
   }
 }
 
