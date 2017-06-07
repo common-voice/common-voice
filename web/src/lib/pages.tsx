@@ -60,6 +60,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
 
   private renderNav(id?: string) {
     return <nav id={id} className="nav-list">
+      {this.renderTab('/', 'Home')}
       {this.renderTab('/about', 'About')}
       {this.renderTab('/record', 'Record')}
       {this.renderTab('/listen', 'Listen')}
