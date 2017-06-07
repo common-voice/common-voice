@@ -1,12 +1,26 @@
+/* Define our icon font. */
+@font-face {
+  font-family: Icons;
+  src: url("/font/icons.ttf");
+}
+
+@font-face {
+  font-family: ZillaSlab;
+  src: url("/font/ZillaSlab-Medium.ttf");
+}
+
 :root {
   --base-font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  --base-font-size: 15px;
-  --base-font-color: #f5f5f5;
+  --strong-font-family: ZillaSlab,Georgia,Utopia,Charter,serif;
+  --base-font-size: 16px;
+  --base-font-color: black;
   --header-height: 4rem;
   --tab-line: 1px solid orange;
   --debug-box-height: 8rem;
-  --base-background-color: #212121;
+  --base-background-color: white;
   --page-margin: 0.5rem;
+  --hamburger: calc(var(--header-height) * 0.7);
+  --transition-default: 0.3s;
 
   /* Z-indexing */
   --top-z-index: 2;
@@ -33,19 +47,18 @@ body {
   opacity: 0;
 }
 
-/* We only need to add scroll on native ios. */
-.ios #main {
-  overflow-y: scroll;
-}
-
 body.loaded {
   opacity: 1;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--strong-font-family);
 }
 
 a {
   outline: none;
   text-decoration: none;
-  color: white;
+  color: unset;
 }
 
 button {
@@ -77,6 +90,15 @@ button:disabled {
   color: #BDBDBD;
 }
 
+/* Icon font element. */
+[data-icon]:before {
+  font-family: Icons;
+  content: attr(data-icon);
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 @media (max-width: 600px) {
   #record-screen > #toolbar > button {
     border-radius: 14px;
@@ -84,10 +106,6 @@ button:disabled {
     width: 70%;
     margin: 1rem auto;
   }
-}
-
-header {
-  padding: var(--page-margin);
 }
 
 header {
@@ -102,6 +120,13 @@ header {
   box-sizing: border-box;
   z-index: var(--top-z-index);
   background-color: var(--base-background-color);
+  padding: 0 var(--page-margin);
+  align-items: center;
+}
+
+/* We only need to add scroll on native ios. */
+.ios #main {
+  overflow-y: scroll;
 }
 
 #content {
@@ -124,20 +149,42 @@ header {
 
 #main-logo {
   flex: 0 0 auto;
-  background: url("/img/mic.svg") no-repeat left/contain;
-  filter: invert(100%);
-  font-weight: bold;
-  color: black;
-  padding-left: 1.7rem;
-  display: flex;
-  align-items: center;
+  font-family: var(--strong-font-family);
   text-align: center;
-  margin: 0.5rem 0;
-  margin-right: auto;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#main-icon {
+  font-size: 1.3rem;
+  margin-right: 0.3rem;
+}
+
+#main-logo .powered-by {
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-right: 0.2rem;
+}
+
+#main-mozilla-logo {
+  height: calc(var(--header-height) / 3);
 }
 
 #hamburger-menu {
+  height: var(--hamburger);
+  width: var(--hamburger);
   padding: 0;
+  margin-left: auto;
+  background-color: var(--base-font-color);
+  color: var(--base-background-color);
+  font-size: 1.7rem;
+  border-radius: 50%;
+  transition: transform 0.2s ease-in-out;
+  transform: rotate(0deg);
+}
+
+#hamburger-menu.is-active {
+  transform: rotate(90deg);
 }
 
 #main-nav {
@@ -194,6 +241,7 @@ header {
 }
 
 #navigation-modal .nav-list {
+  color: white;
   flex-flow: column;
 }
 #navigation-modal .tab.active {
@@ -213,7 +261,6 @@ header {
 #listen-container {
   background: ivory;
   padding: 0.7rem;
-  color: black;
   text-align: center;
 }
 
@@ -310,8 +357,8 @@ header {
   left: 0;
   right: 0;
   height: var(--debug-box-height);
-  background-color: white;
-  color: black;
+  background-color: var(--base-font-color);
+  color: var(--base-background-color);
   z-index: var(--top-z-index);
   overflow: scroll;
 }
