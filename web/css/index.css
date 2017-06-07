@@ -15,13 +15,14 @@
   --base-font-size: 16px;
   --base-font-color: black;
   --header-height: 4rem;
-  --tab-line: 1px solid orange;
+  --tab-line: 2px solid #3dfefd;
   --debug-box-height: 8rem;
   --base-background-color: white;
   --base-background-image: url("/img/swoosh.png");
   --page-margin: 0.5rem;
   --hamburger: calc(var(--header-height) * 0.7);
   --transition-default: 0.3s;
+  --desktop-width: 800px;
 
   /* Z-indexing */
   --top-z-index: 2;
@@ -31,7 +32,7 @@
 
 html {
   font-family: var(--base-font-family);
-  font-size: var(--base-font-size);
+  font-size: 16px;
   color: var(--base-font-color);
   background-color: var(--base-background-color);
   background-image: url("/img/swoosh.png");
@@ -103,6 +104,20 @@ button:disabled {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@media (min-width: 600px) {
+  #main {
+    display: flex;
+    flex-direction: row;
+    max-width: var(--desktop-width);
+    margin: 0 auto;
+  }
+}
+
+/* We only need to add scroll on native ios. */
+.ios #main {
+  overflow-y: scroll;
+}
+
 @media (max-width: 600px) {
   #record-screen > #toolbar > button {
     border-radius: 14px;
@@ -120,21 +135,26 @@ header {
   display: flex;
   flex-flow: row nowrap;
   height: var(--header-height);
-  overflow: hidden;
   box-sizing: border-box;
   z-index: var(--top-z-index);
   padding: 0 var(--page-margin);
   align-items: center;
 }
 
-/* We only need to add scroll on native ios. */
-.ios #main {
-  overflow-y: scroll;
+@media (min-width: 600px) {
+  header {
+    width: 17rem;
+    position: static;
+    height: unset;
+    align-items: baseline;
+    flex-direction: column;
+  }
 }
 
 #content {
   margin-top: var(--header-height);
   padding: var(--page-margin);
+  flex: 1 1 100%;
 }
 
 #content > div {
@@ -195,7 +215,7 @@ header {
   display: none;
   flex: 1 1 auto;
   margin: 0;
-  flex-flow: row-reverse nowrap;
+  flex-flow: column nowrap;
   padding: 0;
 }
 
@@ -205,6 +225,7 @@ header {
   }
   #main-nav {
     display: flex;
+    margin-top: 0.7rem;
   }
 }
 
@@ -232,6 +253,7 @@ header {
 }
 
 .nav-list {
+  font-family: var(--strong-font-family);
   display: flex;
 }
 
@@ -240,22 +262,17 @@ header {
   cursor: pointer;
   flex-grow: 0;
   padding: 0 1rem;
-  line-height: 3;
+  line-height: 2.3;
   vertical-align: bottom;
+}
+
+.tab.active {
+  border-right: var(--tab-line);
 }
 
 #navigation-modal .nav-list {
   color: white;
   flex-flow: column;
-}
-#navigation-modal .tab.active {
-  border-left: var(--tab-line);
-}
-#main-nav .tab {
-  line-height: calc(1.2 * var(--header-height));
-}
-#main-nav .tab.active {
-  border-bottom: var(--tab-line);
 }
 
 #about-container {
