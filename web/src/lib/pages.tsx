@@ -1,4 +1,5 @@
 import { h, Component } from 'preact';
+import Icon from './icon';
 import About from './pages/about';
 import Home from './pages/home';
 import Listen from './pages/listen';
@@ -85,13 +86,14 @@ export default class Pages extends Component<PagesProps, PagesState> {
             evt.stopPropagation();
             this.props.navigate('/');
           }}>
-          Voice<br />Commons
+          <Icon id="main-icon" type="bullhorn" />
+          <span>Common Voice</span><br />
+          <span className="powered-by">powered by</span>
+          <img id="main-mozilla-logo" src="/img/mozilla.svg" />
         </a>
         <button id="hamburger-menu" onClick={this.toggleMenu}
-          className={'hamburger hamburger--vortex' + (this.state.isMenuVisible ? ' is-active' : '')} type="button">
-          <span className="hamburger-box">
-            <span className="hamburger-inner"></span>
-          </span>
+          className={(this.state.isMenuVisible ? ' is-active' : '')}>
+          <Icon type="hamburger" />
         </button>
         {this.renderNav('main-nav')}
       </header>
@@ -104,7 +106,8 @@ export default class Pages extends Component<PagesProps, PagesState> {
         <About active={this.isPageActive(URLS.ABOUT)} />
         <NotFound active={this.isNotFoundActive()} />
       </div>
-      <div id="navigation-modal" className={this.state.isMenuVisible && 'is-active'}>
+      <div id="navigation-modal"
+           className={this.state.isMenuVisible && 'is-active'}>
       {this.renderNav()}
       </div>
     </div>;
