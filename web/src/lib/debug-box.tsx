@@ -46,8 +46,8 @@ export default class DebugBox extends Component<Props, State> {
     }
 
     if (!window.onerror) {
-      window.onerror = (err) => {
-        console.log('got a top level error', err);
+      window.onerror = (err: any) => {
+        console.log('got a top level error', err, err.stack);
       };
     }
   }
