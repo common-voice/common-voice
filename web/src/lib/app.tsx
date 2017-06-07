@@ -19,9 +19,6 @@ export default class App {
   constructor() {
     if (isNativeIOS()) {
       this.bootstrapIOS();
-    } else {
-      // For now we make sure to use the debugger.
-      this.renderDebugBox();
     }
 
     this.user = new User();
