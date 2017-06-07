@@ -80,7 +80,11 @@ export default class Pages extends Component<PagesProps, PagesState> {
     return <div id="main">
       <header>
         <a id="main-logo" href="/"
-          onClick={(e) => this.props.navigate('/')}>
+          onClick={(evt) =>  {
+            evt.preventDefault();
+            evt.stopPropagation();
+            this.props.navigate('/');
+          }}>
           Voice<br />Commons
         </a>
         <button id="hamburger-menu" onClick={this.toggleMenu}
