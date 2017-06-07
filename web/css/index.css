@@ -110,13 +110,12 @@ header {
 }
 
 #content > div {
-  padding: var(--page-margin);
   opacity: 0;
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  transition: opacity 0.2s ease-in;
+  top: var(--page-margin);
+  left: var(--page-margin);
+  right: var(--page-margin);
+  transition: opacity 0.4s ease-in;
 }
 
 #content > div.active {
@@ -208,7 +207,7 @@ header {
 }
 
 #about-container {
-  padding: 0.3rem 2rem;
+  padding: 0.3rem 1rem;
 }
 
 #listen-container {
