@@ -3,7 +3,17 @@ import About from './pages/about';
 import Home from './pages/home';
 import Listen from './pages/listen';
 import Record from './pages/record';
+import NotFound from './pages/not-found';
 import User from './user';
+
+const URLS = {
+  ROOT: '/',
+  HOME: '/home',
+  RECORD: '/record',
+  LISTEN: '/listen',
+  ABOUT: '/about',
+  NOTFOUND: '/not-found'
+};
 
 interface PagesProps {
   user: User;
@@ -20,20 +30,29 @@ export default class Pages extends Component<PagesProps, PagesState> {
     isMenuVisible: false
   };
 
-  private renderCurrentPage(): any {
-    switch (this.props.currentPage) {
-      case '/':
-      case '/home':
-        return <Home navigate={this.props.navigate} />;
-      case '/record':
-        return <Record user={this.props.user} />;
-      case '/listen':
-        return <Listen />;
-      case '/about':
-        return <About />;
-      default:
-        return <div>Page Not Found</div>;
+  private isPageActive(url): string {
+    if (!Array.isArray(url)) {
+      url = [url];
     }
+
+    let isActive = url.some(u => {
+      return u === this.props.currentPage;
+    });
+
+    return isActive ? 'active' : '';
+  }
+
+  private renderTab(url: string, name: string) {
+    return <a className={'tab ' + this.isPageActive(url)}
+              onClick={this.props.navigate.bind(null, url)}>{name}</a>;
+  }
+
+  private renderNav(id?: string) {
+    return <nav id={id} className="nav-list">
+      {this.renderTab('/about', 'About')}
+      {this.renderTab('/record', 'Record')}
+      {this.renderTab('/listen', 'Listen')}
+    </nav>;
   }
 
   componentWillUpdate(nextProps: PagesProps) {
@@ -48,35 +67,31 @@ export default class Pages extends Component<PagesProps, PagesState> {
   }
 
   render() {
-    const renderTab = (url, name) => {
-      return <a className={'tab ' + (url === name ? 'active' : '')}
-        onClick={(e) => this.props.navigate(url)}>{name}</a>;
-    };
-
     return <div id="main">
       <header>
-        <a id="main-logo" href="/" onClick={(e) => this.props.navigate('/')}>Voice<br />Commons</a>
+        <a id="main-logo" href="/"
+          onClick={(e) => this.props.navigate('/')}>
+          Voice<br />Commons
+        </a>
         <button id="hamburger-menu" onClick={this.toggleMenu}
           className={'hamburger hamburger--vortex' + (this.state.isMenuVisible ? ' is-active' : '')} type="button">
           <span className="hamburger-box">
             <span className="hamburger-inner"></span>
           </span>
         </button>
-        <nav id="main-nav" className="nav-list">
-          {renderTab('/about', 'About')}
-          {renderTab('/record', 'Record')}
-          {renderTab('/listen', 'Listen')}
-        </nav>
+        {this.renderNav('main-nav')}
       </header>
       <div id="content">
-        {this.renderCurrentPage()}
+        <Home active={this.isPageActive([URLS.HOME, URLS.ROOT])}
+              navigate={this.props.navigate} />
+        <Record active={this.isPageActive(URLS.RECORD)}
+                user={this.props.user} />
+        <Listen active={this.isPageActive(URLS.LISTEN)} />
+        <About active={this.isPageActive(URLS.ABOUT)} />
+        <NotFound active={this.isPageActive(URLS.NOTFOUND)} />
       </div>
       <div id="navigation-modal" className={this.state.isMenuVisible && 'is-active'}>
-        <nav className="nav-list">
-          {renderTab('/about', 'About')}
-          {renderTab('/record', 'Record')}
-          {renderTab('/listen', 'Listen')}
-        </nav>
+      {this.renderNav()}
       </div>
     </div>;
   }

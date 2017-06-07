@@ -2,7 +2,7 @@ import { h, Component } from 'preact';
 import { Clip, default as API } from '../api';
 
 interface ListenPageProps {
-
+  active: string;
 }
 
 interface State {
@@ -25,7 +25,7 @@ export default class Listen extends Component<ListenPageProps, State> {
   }
 
   render() {
-    return <div className="container listen-container">
+    return <div id="listen-container" className={this.props.active}>
       {this.state.error && <div>{this.state.error}</div>}
       {this.state.clip && <PreviewClip clip={this.state.clip} />}
     </div>

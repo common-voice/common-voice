@@ -10,6 +10,7 @@ const SOUNDCLIP_URL = '/upload/';
 const PAGE_NAME = 'record';
 
 interface RecordProps {
+  active: string;
   user: User;
 }
 
@@ -57,9 +58,10 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
   render() {
     // We are going with a reading rate of about 3 syllables per second.
-    let seconds = this.state.recording ? countSyllables(this.state.sentence) / 3 : 0;
+    let seconds = this.state.recording ?
+      countSyllables(this.state.sentence) / 3 : 0;
 
-    return <div className="container record-container">
+    return <div className={this.props.active}>
       <p class="record-message panel">{this.state.message || 'N/A'}</p>
       <div id="record-screen" class="screen disabled">
         <div id="error-screen" class="screen panel" hidden>

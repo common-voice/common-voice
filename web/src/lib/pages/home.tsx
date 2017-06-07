@@ -1,12 +1,13 @@
 import { h, Component } from 'preact';
 
 interface Props {
+  active: string;
   navigate(url: string): void;
 }
 
 export default class Home extends Component<Props, void> {
   render() {
-    return <div className="container home-container">
+    return <div className={this.props.active}>
       <h2>Mozilla's Common Voice</h2>
       <p>Build the world's most diverse set of voice data that researchers
       and others can use for free to create better voice technologies for

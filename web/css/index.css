@@ -108,6 +108,14 @@ header {
   position: relative;
 }
 
+#content > div {
+  display: none;
+}
+
+#content > div.active {
+  display: block;
+}
+
 #main-logo {
   flex: 0 0 auto;
   background: url("/img/mic.svg") no-repeat left/contain;
@@ -192,17 +200,18 @@ header {
   border-bottom: var(--tab-line);
 }
 
-.about-container {
+#about-container {
   padding: 0.3rem 2rem;
 }
-.listen-container {
+
+#listen-container {
   background: ivory;
   padding: 0.7rem;
   color: black;
   text-align: center;
 }
 
-.listen-container audio {
+#listen-container audio {
   display: block;
   width: 70%;
   margin: 1rem auto;
