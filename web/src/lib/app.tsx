@@ -19,6 +19,9 @@ export default class App {
   constructor() {
     if (isNativeIOS()) {
       this.bootstrapIOS();
+    } else {
+      // For now we make sure to use the debugger.
+      this.renderDebugBox();
     }
 
     this.user = new User();
@@ -32,11 +35,8 @@ export default class App {
    * Perform any native iOS specific operations.
    */
   private bootstrapIOS() {
-    // For styling fixes on ios.
     document.body.classList.add('ios');
-
-    // Put up the debug box in ios app for now.
-    this.box = new DebugBox();
+    this.renderDebugBox();
   }
 
   /**
@@ -60,13 +60,17 @@ export default class App {
     this.renderCurrentPage();
   }
 
+  private renderDebugBox() {
+    render(<DebugBox />, document.body);
+  }
+
   private renderCurrentPage() {
     // Render the main controller, Pages.
     render((
       <Pages user={this.user}
              navigate={this.handleNavigation}
              currentPage={this.getPageName()} />
-    ), document.body, document.body.lastChild as Element);
+    ), document.body, document.body.firstElementChild);
   }
 
   /**
