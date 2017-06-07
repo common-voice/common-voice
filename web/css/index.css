@@ -18,6 +18,7 @@
   --tab-line: 1px solid orange;
   --debug-box-height: 8rem;
   --base-background-color: white;
+  --base-background-image: url("/img/swoosh.png");
   --page-margin: 0.5rem;
   --hamburger: calc(var(--header-height) * 0.7);
   --transition-default: 0.3s;
@@ -33,6 +34,9 @@ html {
   font-size: var(--base-font-size);
   color: var(--base-font-color);
   background-color: var(--base-background-color);
+  background-image: url("/img/swoosh.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
 html, body, #main {
@@ -119,7 +123,6 @@ header {
   overflow: hidden;
   box-sizing: border-box;
   z-index: var(--top-z-index);
-  background-color: var(--base-background-color);
   padding: 0 var(--page-margin);
   align-items: center;
 }
@@ -139,6 +142,7 @@ header {
   opacity: 0;
   transition: opacity 0.4s ease-in;
   z-index: var(--bottom-z-index);
+  background-color: rgba(255, 255, 255, 0.85);
 }
 
 #content > div.active {
@@ -222,7 +226,7 @@ header {
 #navigation-modal.is-active {
   display: block;
   opacity: 1;
-  transition: all 0.2s ease-out;
+  transition: all 0.25s ease-in-out;
   transform: translateY(0);
   pointer-events: all;
 }
