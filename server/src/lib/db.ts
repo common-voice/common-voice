@@ -1,19 +1,24 @@
-import Connection from './db/connection';
-import User from './db/user';
+import Postgres from './db/postgres';
+import UserDB from './db/user-db';
+
+const Promise = require('bluebird');
 
 export default class DB {
-  connection: Connection;
-  user: User;
+  pg: Postgres;
+  user: UserDB;
 
   constructor() {
-    this.connection = new Connection();
+    this.pg = new Postgres();
+    this.user = new UserDB(this.pg);
   }
 
-  init() {
-    return this.connection.init()
-      .then(() => {
-        let users = this.connection.getCollection('users');
-        this.user = new User(users);
-      });
+  createAll() {
+    return Promise.all([
+      this.user.create()
+    ]);
+  }
+
+  end() {
+    this.pg.end();
   }
 }

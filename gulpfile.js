@@ -1,95 +1,122 @@
-(function() {
-  'use strict';
+'use strict';
 
-  const APP_NAME = 'common-voice';
-  const TS_CONFIG = 'tsconfig.json';
-  const TS_GLOB = 'src/**/*.ts';
-  const DIR_CLIENT = './web/';
-  const DIR_SERVER = './server/';
-  const DIR_UPLOAD = DIR_SERVER + 'upload/';
-  const DIR_JS = DIR_CLIENT + 'js/'
-  const DIR_SERVER_JS = DIR_SERVER + 'js/';
-  const PATH_TS = DIR_CLIENT + TS_GLOB;
-  const PATH_TS_SERVER = DIR_SERVER + TS_GLOB;
-  const PATH_AMD_LOADER = DIR_CLIENT + 'vendor/almond.js';
-  const RELOAD_DELAY = 100;
+const APP_NAME = 'common-voice';
+const TS_CONFIG = 'tsconfig.json';
+const TS_GLOB = 'src/**/*';
+const DIR_CLIENT = './web/';
+const DIR_SERVER = './server/';
+const DIR_UPLOAD = DIR_SERVER + 'upload/';
+const DIR_JS = DIR_CLIENT + 'js/'
+const DIR_SERVER_JS = DIR_SERVER + 'js/';
+const PATH_TS = DIR_CLIENT + TS_GLOB;
+const PATH_TS_SERVER = DIR_SERVER + TS_GLOB;
+const PATH_VENDOR = DIR_CLIENT + 'vendor/';
+const RELOAD_DELAY = 100;
 
+// Add gulp help functionality.
+let gulp = require('gulp-help')(require('gulp'));
+let shell = require('gulp-shell');
+let path = require('path');
+let ts = require('gulp-typescript');
+let insert = require('gulp-insert');
 
-  // Add gulp help functionality.
-  let gulp = require('gulp-help')(require('gulp'));
-  let shell = require('gulp-shell');
-  let path = require('path');
-  let ts = require('gulp-typescript');
+function compile(project) {
+  return project.src().pipe(project()).js;
+}
+
+function listen() {
+  require('gulp-nodemon')({
+    script: 'server/js/server.js',
+    // Use [c] here to workaround nodemon bug #951
+    watch: ['server/js', '[c]onfig.json'],
+    delay: RELOAD_DELAY,
+  });
+}
+
+function watch() {
+  gulp.watch('package.json', ['npm-install']);
+  gulp.watch(PATH_TS, ['ts']);
+  gulp.watch(PATH_VENDOR, ['ts']);
+  gulp.watch(PATH_TS_SERVER, ['ts-server']);
+}
+
+function watchAndListen() {
+  watch();
+  listen();
+}
+
+function doEverything() {
+  return Promise.all([compileClient, compileServer])
+    .then(watchAndListen);
+}
+
+function getVendorJS() {
+  let fs = require('fs');
+  let files = fs.readdirSync(PATH_VENDOR);
+  return files.reduce((acc, file) => {
+    return acc + fs.readFileSync(PATH_VENDOR + file) + '\n';
+  }, '');
+}
+
+function compileClient() {
+  let project = ts.createProject(DIR_CLIENT + TS_CONFIG);
   let insert = require('gulp-insert');
+  let uglify = require('gulp-uglify');
+  let uglifyOptions = {
+    mangle: false,
+    compress: false,
+    output: {
+      beautify: true,
+      indent_level: 2,
+      semicolons: false
+    }
+  };
 
-  function compile(project) {
-    return project.src().pipe(project()).js;
-  }
+  return compile(project)
+    .pipe(uglify(uglifyOptions))
+    .pipe(insert.prepend(getVendorJS()))
+    .pipe(gulp.dest(DIR_JS));
+}
 
-  function listen() {
-    require('gulp-nodemon')({
-      script: 'server/js/server.js',
-      // Use [c] here to workaround nodemon bug #951
-      watch: ['server/js', '[c]onfig.json'],
-      delay: RELOAD_DELAY,
-    });
-  }
+function compileServer() {
+  let project = ts.createProject(DIR_SERVER + TS_CONFIG);
+  return compile(project)
+    .pipe(gulp.dest(DIR_SERVER_JS));
+}
 
-  function watch() {
-    gulp.watch('package.json', ['npm-install']);
-    gulp.watch(PATH_TS, ['ts']);
-    gulp.watch(PATH_TS_SERVER, ['ts-server']);
-  }
+gulp.task('ts', 'Compile typescript files into bundle.js', compileClient);
 
-  function watchAndListen() {
-    watch();
-    listen();
-  }
+gulp.task('ts-server', 'Compile typescript server files.', compileServer);
 
-  function doEverything() {
-    return Promise.all([compileClient, compileServer])
-      .then(watchAndListen);
-  }
+gulp.task('build', 'Build both server and client js', ['ts', 'ts-server']);
 
-  function compileClient() {
-    let fs = require('fs');
-    let uglify = require('gulp-uglify');
-    let project = ts.createProject(DIR_CLIENT + TS_CONFIG);
-    return compile(project)
-      .pipe(require('gulp-insert')
-            .prepend(fs.readFileSync(PATH_AMD_LOADER)))
-      .pipe(uglify({ mangle: false, compress: false, output: {
-        beautify: true,
-        indent_level: 2,
-        semicolons: false
-      }}))
-      .pipe(gulp.dest(DIR_JS));
-  }
+gulp.task('npm-install', 'Install npm dependencies.',
+  shell.task(['npm install']));
 
-  function compileServer() {
-    let project = ts.createProject(DIR_SERVER + TS_CONFIG);
-    return compile(project)
-      .pipe(gulp.dest(DIR_SERVER_JS));
-  }
+gulp.task('clean', 'Remove uploaded clips.',
+  shell.task([`git clean -idx ${DIR_UPLOAD}`]));
 
-  gulp.task('ts', 'Compile typescript files into bundle.js', compileClient);
+gulp.task('listen', 'Run development server.', listen);
 
-  gulp.task('ts-server', 'Compile typescript server files.', compileServer);
+gulp.task('watch', 'Rebuild, rebundle, re-install on file changes.', watch);
 
-  gulp.task('build', 'Build both server and client js', ['ts', 'ts-server']);
+gulp.task('create', 'Create the database.', ['ts-server'], (done) => {
+  let create = require('./tools/createDb');
+  create.run(err => {
+    if (!err) {
+      console.log('Db created.');
+    }
+    done();
+  });
+});
 
-  gulp.task('npm-install', 'Install npm dependencies.',
-            shell.task(['npm install']));
+gulp.task('drop', 'Detroy the database.', ['ts-server'], (done) => {
+  let drop = require('./tools/dropDb');
+  drop.run(done);
+});
 
-  gulp.task('clean', 'Remove uploaded clips.',
-            shell.task([`git clean -idx ${DIR_UPLOAD}`]));
-
-  gulp.task('listen', 'Run development server.', listen);
-
-  gulp.task('watch', 'Rebuild, rebundle, re-install on file changes.', watch);
-
-  gulp.task('deploy', 'deploy production',
-    ['npm-install', 'build'], (done) => {
+gulp.task('deploy', 'deploy production',
+  ['npm-install', 'build'], (done) => {
     let config = require('./config.json');
     let pm2 = require('pm2');
     let ff = require('ff');
@@ -113,12 +140,11 @@
     });
   });
 
-  gulp.task('default', 'Running just `gulp`.', ['build'], () => {
-    watchAndListen();
-  });
+gulp.task('default', 'Running just `gulp`.', ['build'], () => {
+  watchAndListen();
+});
 
-  // Deploy script also runs this file, so exec the default task.
-  if (require.main === module) {
-    doEverything();
-  }
-})();
+// Deploy script also runs this file, so exec the default task.
+if (require.main === module) {
+  doEverything();
+}

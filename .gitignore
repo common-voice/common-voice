@@ -2,3 +2,6 @@ node_modules
 web/js/
 server/js/
 server/upload/
+_ignore/
+.DS_Store
+.vscode/

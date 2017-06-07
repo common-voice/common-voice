@@ -20,17 +20,6 @@ export function capitalizeFirstLetter(string) {
 }
 
 /**
- * Add js handler for link clicking.
- */
-export function jsifyLink(link: HTMLAnchorElement, handler: Function): void {
-  link.addEventListener('click', (evt: Event) => {
-    evt.preventDefault();
-    evt.stopPropagation();
-    handler(link.href);
-  }, true);
-}
-
-/**
  * Count the syllables in a string. Completely stolen from:
  * https://codegolf.stackexchange.com/
  *   questions/47322/how-to-count-the-syllables-in-a-word

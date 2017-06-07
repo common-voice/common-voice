@@ -1,51 +1,45 @@
 :root {
+  --base-font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   --base-font-size: 15px;
-  --header-height: 3rem;
+  --base-font-color: #f5f5f5;
+  --header-height: 4rem;
   --tab-line: 1px solid orange;
   --debug-box-height: 8rem;
+  --base-background-color: #212121;
+  --page-margin: 0.5rem;
+
+  /* Z-indexing */
+  --top-z-index: 2;
+  --middle-z-index: 1;
+  --bottom-z-index: 0;
 }
 
-html, body {
+html {
+  font-family: var(--base-font-family);
+  font-size: var(--base-font-size);
+  color: var(--base-font-color);
+  background-color: var(--base-background-color);
+}
+
+html, body, #main {
   padding: 0;
   margin: 0;
-  height: 100%;
+  min-height: 100%;
   width: 100%;
 }
 
 body {
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: var(--base-font-size);
-  background-color: #212121;
-  color: #F5F5F5;
-  display: flex;
-  flex-flow: column nowrap;
   transition: opacity 0.5s linear;
   opacity: 0;
-  overflow:hidden
 }
 
-/**
- * TODO: Figure out a way to not have content overlap
- * the debug box
- *
-@media (max-width: 600px) {
-  #content {
-    margin-bottom: var(--debug-box-height);
-  }
+/* We only need to add scroll on native ios. */
+.ios #main {
+  overflow-y: scroll;
 }
- */
-
-
-body.loading {}
 
 body.loaded {
   opacity: 1;
-}
-
-@media (min-width: 600px) {
-  body {
-    flex-flow: row nowrap;
-  }
 }
 
 a {
@@ -78,7 +72,7 @@ button:active {
   background: #484848;
 }
 
-button.disabled {
+button:disabled {
   pointer-events: none;
   color: #BDBDBD;
 }
@@ -92,24 +86,40 @@ button.disabled {
   }
 }
 
-header, .container, footer {
-  padding: 0 0.5rem;
+header {
+  padding: var(--page-margin);
 }
 
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   flex-flow: row nowrap;
   height: var(--header-height);
-  padding: 0.5rem 0.5rem;
   overflow: hidden;
+  box-sizing: border-box;
+  z-index: var(--top-z-index);
+  background-color: var(--base-background-color);
 }
 
-@media (min-width: 600px) {
-  header {
-    flex-flow: column;
-    max-width: 10rem;
-    overflow: unset;
-  }
+#content {
+  margin-top: var(--header-height);
+  padding: var(--page-margin);
+}
+
+#content > div {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+  z-index: var(--bottom-z-index);
+}
+
+#content > div.active {
+  display: block;
+  opacity: 1;
+  z-index: var(--top-z-index);
 }
 
 #main-logo {
@@ -123,52 +133,83 @@ header {
   align-items: center;
   text-align: center;
   margin: 0.5rem 0;
+  margin-right: auto;
+}
+
+#hamburger-menu {
+  padding: 0;
 }
 
 #main-nav {
+  display: none;
   flex: 1 1 auto;
-  display: flex;
-  flex-flow: row-reverse nowrap;
   margin: 0;
+  flex-flow: row-reverse nowrap;
   padding: 0;
 }
 
 @media (min-width: 600px) {
-  #main-nav {
-    flex-flow: unset;
-    display: block;
+  #hamburger-menu {
+    display: none;
   }
+  #main-nav {
+    display: flex;
+  }
+}
+
+#navigation-modal {
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.9);
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: var(--middle-z-index);
+  padding: var(--header-height) 2rem 0;
+  pointer-events: none;
+  transform: translateY(-100vh);
+}
+
+#navigation-modal.is-active {
+  display: block;
+  opacity: 1;
+  transition: all 0.2s ease-out;
+  transform: translateY(0);
+  pointer-events: all;
+}
+
+.nav-list {
+  display: flex;
 }
 
 .tab {
+  display: block;
+  cursor: pointer;
   flex-grow: 0;
   padding: 0 1rem;
-  line-height: calc(1.2 * var(--header-height));
+  line-height: 3;
   vertical-align: bottom;
 }
 
-@media (min-width: 600px) {
-  #main-nav .tab {
-    display: block;
-    line-height: 2rem;
-  }
-  #main-nav .tab.active {
-    border-right: var(--tab-line);
-    border-bottom: 0px;
-  }
+#navigation-modal .nav-list {
+  flex-flow: column;
 }
-
-.tab.active {
+#navigation-modal .tab.active {
+  border-left: var(--tab-line);
+}
+#main-nav .tab {
+  line-height: calc(1.2 * var(--header-height));
+}
+#main-nav .tab.active {
   border-bottom: var(--tab-line);
 }
 
 #about-container {
-  padding: 0rem 0.7rem;
+  padding: 0.3rem 1rem;
 }
 
-#about-container {
-  padding: 0.3rem 2rem;
-}
 #listen-container {
   background: ivory;
   padding: 0.7rem;
@@ -176,7 +217,7 @@ header {
   text-align: center;
 }
 
-#listen-audio {
+#listen-container audio {
   display: block;
   width: 70%;
   margin: 1rem auto;
@@ -198,36 +239,7 @@ header {
   margin: 0 auto;
 }
 
-#content {
-  flex: 1 1 auto;
-  position: relative;
-}
-
-@media (min-width: 600px) {
-  section#content {
-    margin-left: 2rem;
-    margin-right: 3rem;
-    margin-top: 3rem;
-  }
-}
-
-.container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  transition: opacity 0.2s linear;
-  opacity: 0;
-  z-index: 1;
-}
-
-.container.active {
-  opacity: 1;
-  z-index: 2;
-}
-
-#message,
+.record-message,
 #toolbar {
   border: none;
   text-align: center;
@@ -244,11 +256,11 @@ header {
   margin: 0.5rem 0.25rem;
 }
 
-#message {
+.record-message {
   display: none;
 }
 
-#sentence {
+.record-sentence {
   background-image: linear-gradient(297deg, #cacaca, #f5efe0, #f0d497);
   background-size: 0% 150%;
   background-repeat: no-repeat;
@@ -263,7 +275,7 @@ header {
   transition: background-size 3s linear;
 }
 
-#sentence.active {
+.record-sentence.active {
   background-size: 100% 150%;
 }
 
@@ -300,8 +312,12 @@ header {
   height: var(--debug-box-height);
   background-color: white;
   color: black;
-  z-index: 2;
+  z-index: var(--top-z-index);
   overflow: scroll;
+}
+
+#debug-box.hidden {
+  display: none;
 }
 
 .loading {
@@ -315,3 +331,47 @@ header {
   100%{background-position:0% 50%}
 }
 
+
+.confirm-modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: var(--top-z-index);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirm-modal label {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: larger;
+}
+
+.confirm-modal button {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  min-width: 10rem;
+}
+
+.confirm-modal.visible {
+  pointer-events: all;
+  opacity: 1;
+}
+
+.confirm-modal .main-section {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 1rem;
+  background: #444;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 30rem;
+}
