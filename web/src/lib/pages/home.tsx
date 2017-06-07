@@ -15,7 +15,8 @@ export default class Home extends Component<Props, void> {
 
       <p>Interested in helping out? It only takes a minute and doesn't
       cost you a dime!</p>
-      <button id="donate" onClick={e => this.props.navigate('/donate')}>Donate now!</button>
+      <button id="donate" onClick={evt => {
+        this.props.navigate('/record')}}>Donate now!</button>
 
       <p>Your voice donations will be made available for researchers and
       others to use under a
