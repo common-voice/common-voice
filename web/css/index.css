@@ -316,6 +316,10 @@ header {
   overflow: scroll;
 }
 
+#debug-box.hidden {
+  display: none;
+}
+
 .loading {
   animation: loading 2.5s ease infinite;
   background-size: 600% 600%

@@ -53,6 +53,9 @@ export default class DebugBox extends Component<Props, State> {
   }
 
   render() {
-    return <div id="debug-box">{this.renderMessages()}</div>;
+    let maybeHide = this.state.messages.length < 1 ? 'hidden': '';
+
+    return <div className={maybeHide} id="debug-box">
+      {this.renderMessages()}</div>;
   }
 }
