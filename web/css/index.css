@@ -32,7 +32,9 @@ body {
   opacity: 0;
 }
 
-#main {
+/* We only need to add scroll on native ios. */
+.ios #main {
+  overflow-y: scroll;
 }
 
 body.loaded {
@@ -98,6 +100,7 @@ header {
   overflow: hidden;
   box-sizing: border-box;
   z-index: var(--top-z-index);
+  background-color: var(--base-background-color);
 }
 
 #content {

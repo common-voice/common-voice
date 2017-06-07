@@ -18,11 +18,7 @@ export default class App {
    */
   constructor() {
     if (isNativeIOS()) {
-      // For styling fixes on ios.
-      document.body.classList.add('ios');
-
-      // Put up the debug box in ios app for now.
-      this.box = new DebugBox();
+      this.bootstrapIOS();
     }
 
     this.user = new User();
@@ -30,6 +26,17 @@ export default class App {
 
     // Force binding of handleNavigation to this instance.
     this.handleNavigation = this.handleNavigation.bind(this);
+  }
+
+  /**
+   * Perform any native iOS specific operations.
+   */
+  private bootstrapIOS() {
+    // For styling fixes on ios.
+    document.body.classList.add('ios');
+
+    // Put up the debug box in ios app for now.
+    this.box = new DebugBox();
   }
 
   /**
