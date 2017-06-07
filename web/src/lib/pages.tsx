@@ -30,6 +30,12 @@ export default class Pages extends Component<PagesProps, PagesState> {
     isMenuVisible: false
   };
 
+  private isValidPage(url): boolean {
+    return Object.keys(URLS).some(key => {
+      return URLS[key] === url;
+    });
+  }
+
   private isPageActive(url): string {
     if (!Array.isArray(url)) {
       url = [url];
@@ -40,6 +46,10 @@ export default class Pages extends Component<PagesProps, PagesState> {
     });
 
     return isActive ? 'active' : '';
+  }
+
+  private isNotFoundActive(): string {
+    return !this.isValidPage(this.props.currentPage) ? 'active' : '';
   }
 
   private renderTab(url: string, name: string) {
@@ -88,7 +98,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
                 user={this.props.user} />
         <Listen active={this.isPageActive(URLS.LISTEN)} />
         <About active={this.isPageActive(URLS.ABOUT)} />
-        <NotFound active={this.isPageActive(URLS.NOTFOUND)} />
+        <NotFound active={this.isNotFoundActive()} />
       </div>
       <div id="navigation-modal" className={this.state.isMenuVisible && 'is-active'}>
       {this.renderNav()}
