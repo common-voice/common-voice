@@ -151,10 +151,11 @@ header {
   top: 0;
   left: 0;
   width: 100%;
+  height: 100%;
   z-index: var(--middle-z-index);
   padding: var(--header-height) 2rem 0;
   pointer-events: none;
-  transform: translateY(-100%);
+  transform: translateY(-100vh);
 }
 
 #navigation-modal.is-active {
