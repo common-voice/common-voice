@@ -60,10 +60,10 @@ export default class Pages extends Component<PagesProps, PagesState> {
 
   private renderNav(id?: string) {
     return <nav id={id} className="nav-list">
-      {this.renderTab('/', 'Home')}
-      {this.renderTab('/about', 'About')}
-      {this.renderTab('/record', 'Record')}
-      {this.renderTab('/listen', 'Listen')}
+      {this.renderTab('/', 'home')}
+      {this.renderTab('/about', 'about')}
+      {this.renderTab('/record', 'record')}
+      {this.renderTab('/listen', 'listen')}
     </nav>;
   }
 
@@ -87,9 +87,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
             evt.stopPropagation();
             this.props.navigate('/');
           }}>
-          <Icon id="main-icon" type="bullhorn" />
-          <span>Common Voice</span><br />
-          <span className="powered-by">powered by</span>
+          <span id="main-title">Common Voice</span><br />
           <img id="main-mozilla-logo" src="/img/mozilla.svg" />
         </a>
         <button id="hamburger-menu" onClick={this.toggleMenu}
