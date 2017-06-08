@@ -28,6 +28,14 @@ export default class About extends Component<Props, void> {
     people aren't locked-in to using services from a small number of
     Internet giants.</p>
 
+      <p>Our aim with Project Common Voice is to enable "voice donors"
+    to build the world's largest and most diverse set of voice data
+    that is freely available for anyone to use. Our vision is that
+    researchers and others will be able to use this data to increase
+    innovation in voice related technologies. This will help everyone
+    have access to a new wave of voice technologies, and ensure that
+    people aren't locked-in to using services from a small number of
+    Internet giants.</p>
       </div>;
   }
 }
