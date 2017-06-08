@@ -15,6 +15,7 @@
   --base-font-size: 15px;
   --base-font-color: black;
   --header-height: 4rem;
+  --sidebar-width: 15rem;
   --tab-line: 2px solid #3dfefd;
   --debug-box-height: 8rem;
   --base-background-color: white;
@@ -144,7 +145,7 @@ header {
 
 @media (min-width: 600px) {
   header {
-    width: 17rem;
+    width: var(--sidebar-width);
     position: static;
     height: unset;
     align-items: baseline;
@@ -176,10 +177,12 @@ header {
   opacity: 0;
   transition: opacity 0.4s ease-in;
   z-index: var(--bottom-z-index);
+  padding: 0 0.5rem;
 }
 
 @media (max-width: 600px) {
   #content > div {
+    padding: 0 3rem;
     background-image: var(--base-background-image);
     background-size: 120% 20rem;
     background-size: 100% 20rem;
@@ -193,7 +196,6 @@ header {
   opacity: 1;
   z-index: var(--top-z-index);
   text-align: center;
-  padding: 0 3rem;
 }
 
 #main-logo {
