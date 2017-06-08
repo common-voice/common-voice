@@ -168,6 +168,8 @@ header {
   display: block;
   opacity: 1;
   z-index: var(--top-z-index);
+  text-align: center;
+  padding: 0 3rem;
 }
 
 #main-logo {
@@ -204,6 +206,7 @@ header {
   border-radius: 50%;
   transition: transform 0.2s ease-in-out;
   transform: rotate(0deg);
+  border: none;
 }
 
 #hamburger-menu.is-active {
@@ -272,6 +275,12 @@ header {
 #navigation-modal .nav-list {
   color: white;
   flex-flow: column;
+  font-size: 1.3rem;
+}
+
+#navigation-modal .tab.active {
+  border-right: none;
+  border-left: var(--tab-line);
 }
 
 #about-container {
