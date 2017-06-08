@@ -12,17 +12,17 @@
 :root {
   --base-font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   --strong-font-family: ZillaSlab,Georgia,Utopia,Charter,serif;
-  --base-font-size: 16px;
+  --base-font-size: 15px;
   --base-font-color: black;
   --header-height: 4rem;
   --tab-line: 2px solid #3dfefd;
   --debug-box-height: 8rem;
   --base-background-color: white;
-  --base-background-image: url("/img/swoosh.png");
+  --base-background-image: url("/img/blotchy.jpg");
   --page-margin: 0.5rem;
   --hamburger: calc(var(--header-height) * 0.7);
   --transition-default: 0.3s;
-  --desktop-width: 800px;
+  --desktop-width: 700px;
 
   /* Z-indexing */
   --top-z-index: 2;
@@ -32,12 +32,19 @@
 
 html {
   font-family: var(--base-font-family);
-  font-size: 16px;
+  font-size: var(--base-font-size);
   color: var(--base-font-color);
   background-color: var(--base-background-color);
-  background-image: url("/img/swoosh.png");
-  background-size: 100% auto;
+  background-image: var(--base-background-image);
+  background-size: 100% 20rem;
   background-repeat: no-repeat;
+  background-position: center -10vw;
+}
+
+@media (max-width: 600px) {
+  html {
+    background: none;
+  }
 }
 
 html, body, #main {
@@ -142,7 +149,7 @@ header {
     height: unset;
     align-items: baseline;
     flex-direction: column;
-    padding-top: 1rem;
+    padding-top: 11rem;
   }
 }
 
@@ -157,6 +164,7 @@ header {
 
 @media (min-width: 600px) {
   #content {
+    background: none;
     position: unset;
     overflow-y: unset;
     flex: 1 1 100%;
@@ -168,7 +176,16 @@ header {
   opacity: 0;
   transition: opacity 0.4s ease-in;
   z-index: var(--bottom-z-index);
-  background-color: rgba(255, 255, 255, 0.85);
+}
+
+@media (max-width: 600px) {
+  #content > div {
+    background-image: var(--base-background-image);
+    background-size: 120% 20rem;
+    background-size: 100% 20rem;
+    background-repeat: no-repeat;
+    background-position: center -10vw;
+  }
 }
 
 #content > div.active {
@@ -235,7 +252,6 @@ header {
 #navigation-modal {
   box-sizing: border-box;
   background: rgba(0, 0, 0, 0.9);
-  opacity: 0;
   position: fixed;
   top: 0;
   left: 0;
@@ -249,7 +265,6 @@ header {
 
 #navigation-modal.is-active {
   display: block;
-  opacity: 1;
   transition: all 0.25s ease-in-out;
   transform: translateY(0);
   pointer-events: all;
@@ -282,6 +297,11 @@ header {
 #navigation-modal .tab.active {
   border-right: none;
   border-left: var(--tab-line);
+}
+
+#home-robot {
+  width: 10rem;
+  margin: 5rem auto 0;
 }
 
 #about-container {
