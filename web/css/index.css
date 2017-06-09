@@ -336,7 +336,7 @@ header.active {
   border-bottom-color: var(--color-accent);
 }
 
-#home-robot {
+.robot {
   width: 10rem;
   margin: 5rem auto 0;
 }
@@ -375,13 +375,7 @@ header.active {
 }
 
 .record-sentence {
-  background-size: 0% 150%;
-  background-repeat: no-repeat;
-  line-height: 2em;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  color: #212121;
-  background-color: #FAFAFA;
+  line-height: 1.2em;
   min-height: 7rem;
   border-radius: 3px;
 }

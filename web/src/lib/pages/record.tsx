@@ -55,38 +55,6 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     this.newSentence();
   }
 
-  render() {
-    return <div className={this.props.active}>
-      <p>{this.state.recordings.length + 1} of 3</p>
-      <div
-        class={'record-sentence title' + (this.state.recording ? ' active' : '')}>
-          {this.state.sentence}
-      </div>
-      <div id="toolbar">
-        <button
-            onClick={this.onRecordClick} class="active" type="button"
-            disabled={this.state.playing}>
-          {this.state.recording ? 'Stop' : 'Record'}</button>
-        <button
-        onClick={this.onPlayClick} type="button"
-          disabled={this.state.recording || !this.audio.lastRecordingData}>
-          {this.state.playing ? 'Stop' : 'Play'}</button>
-        <button onClick={this.onUploadClick} type="button"
-          disabled={!this.audio.lastRecordingData || this.state.recording || this.state.playing}>
-          Submit</button>
-        <button onClick={this.onNextClick} type="button"
-          disabled={this.state.recording || this.state.playing}>Next</button>
-      </div>
-      <input id="sensitivity" style="display: none" type="range" min="1" max="200"></input>
-      <audio id="player" controls class="disabled"
-        onCanPlayThrough={this.onCanPlayThrough}
-        onPlay={this.onPlay}
-        onEnded={this.onPlayEnded}
-
-        ref={el => this.playerEl = el as HTMLAudioElement} />
-    </div>;
-  }
-
   onRecordClick = () => {
     if (this.state.recording) {
       this.stopRecording();
@@ -188,5 +156,38 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     this.api.getSentence().then(sentence => {
       this.setState({ sentence });
     });
+  }
+
+  render() {
+    return <div className={this.props.active +
+                           (this.state.recording ? 'recording': '')}>
+      <img className="robot" src="/img/robot.png" />
+      <p>{this.state.recordings.length + 1} of 3</p>
+      <div className="record-sentence">
+          {this.state.sentence}
+      </div>
+      <div id="toolbar">
+        <button
+            onClick={this.onRecordClick} class="active" type="button"
+            disabled={this.state.playing}>
+          {this.state.recording ? 'Stop' : 'Record'}</button>
+        <button
+        onClick={this.onPlayClick} type="button"
+          disabled={this.state.recording || !this.audio.lastRecordingData}>
+          {this.state.playing ? 'Stop' : 'Play'}</button>
+        <button onClick={this.onUploadClick} type="button"
+          disabled={!this.audio.lastRecordingData || this.state.recording || this.state.playing}>
+          Submit</button>
+        <button onClick={this.onNextClick} type="button"
+          disabled={this.state.recording || this.state.playing}>Next</button>
+      </div>
+      <input id="sensitivity" style="display: none" type="range" min="1" max="200"></input>
+      <audio id="player" controls class="disabled"
+        onCanPlayThrough={this.onCanPlayThrough}
+        onPlay={this.onPlay}
+        onEnded={this.onPlayEnded}
+
+        ref={el => this.playerEl = el as HTMLAudioElement} />
+    </div>;
   }
 }
