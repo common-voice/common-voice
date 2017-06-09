@@ -37,7 +37,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
     isMenuVisible: false,
     pageTransitioning: false,
     scrolled: false,
-    currentPage: '/'
+    currentPage: null
   };
 
   private isValidPage(url): boolean {
@@ -75,6 +75,9 @@ export default class Pages extends Component<PagesProps, PagesState> {
     this.content = document.getElementById('content');
     this.header = document.querySelector('header');
     this.addScrollListener();
+    this.setState({
+      currentPage: this.props.currentPage,
+    });
   }
 
   private isNotFoundActive(): string {
