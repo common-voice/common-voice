@@ -147,8 +147,10 @@ header {
   z-index: var(--top-z-index);
   padding: var(--page-margin);
   align-items: flex-start;
+  background-color: var(--base-background-color);
 }
 
+header.active,
 header.scrolled {
   box-shadow: var(--shadow-overhang);
 }

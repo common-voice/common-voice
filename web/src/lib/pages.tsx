@@ -81,7 +81,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
 
   render() {
     return <div id="main">
-      <header>
+      <header className={(this.state.isMenuVisible ? 'active' : '')}>
         <a id="main-logo" href="/"
           onClick={(evt) =>  {
             evt.preventDefault();
