@@ -231,6 +231,8 @@ header.active {
 
 @media (max-width: 600px) {
   #content > div {
+    box-sizing: border-box;
+    min-height: 100%;
     padding: 0 3rem;
     background-image: var(--base-background-image);
     background-size: 120% 20rem;
@@ -372,6 +374,22 @@ header.active {
   width: 6rem;
   height: 2.8rem;
   margin: 0.5rem 0.25rem;
+}
+
+#record-container.recording {
+  animation: color-change 2.5s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    background-color: unset;
+  }
+  50% {
+    background-color: #fdc6c8;
+  }
+  0% {
+    background-color: unset;
+  }
 }
 
 .record-sentence {

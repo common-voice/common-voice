@@ -159,8 +159,8 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   }
 
   render() {
-    return <div className={this.props.active +
-                           (this.state.recording ? 'recording': '')}>
+    return <div id="record-container" className={this.props.active +
+                (this.state.recording ? ' recording': '')}>
       <img className="robot" src="/img/robot.png" />
       <p>{this.state.recordings.length + 1} of 3</p>
       <div className="record-sentence">
