@@ -291,11 +291,10 @@ header {
   padding: var(--header-height) 0 0;
   pointer-events: none;
   transform: translateY(-100vh);
-  transition: all 0.3s var(--bounce-curve);
+  transition: all 0.55s var(--bounce-curve);
 }
 
 #navigation-modal.is-active {
-  opacity: 1;
   display: block;
   transform: translateY(0);
   pointer-events: all;
@@ -308,15 +307,17 @@ header {
 }
 
 #navigation-modal .tab {
-  line-height: 3;
+  line-height: 3.2;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.3rem;
   border-bottom: 2px dashed;
   border-bottom-color: var(--color-accent);
 }
 
-#navigation-modal .tab.active {
+#navigation-modal .tab.active .tab-name {
   background-image: linear-gradient(297deg, #cacaca, #f5efe0, #f0d497);
+  padding-right: 6rem;
+  border-radius: 2px;
 }
 
 #home-robot {

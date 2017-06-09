@@ -55,7 +55,9 @@ export default class Pages extends Component<PagesProps, PagesState> {
 
   private renderTab(url: string, name: string) {
     return <a className={'tab ' + this.isPageActive(url)}
-              onClick={this.props.navigate.bind(null, url)}>{name}</a>;
+              onClick={this.props.navigate.bind(null, url)}>
+             <span className="tab-name">{name}</span>
+           </a>;
   }
 
   private renderNav(id?: string) {
