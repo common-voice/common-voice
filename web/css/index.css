@@ -104,7 +104,8 @@ button {
 }
 
 button:active {
-  background: #484848;
+  background: #fb8e92;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 button:disabled {
