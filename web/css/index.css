@@ -80,6 +80,10 @@ a {
   color: var(--base-font-color);
 }
 
+a:active {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
 button {
   display: inline-block;
   padding: 0.5rem 1rem;
