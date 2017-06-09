@@ -8,8 +8,8 @@ const DIR_SERVER = './server/';
 const DIR_UPLOAD = DIR_SERVER + 'upload/';
 const DIR_SERVER_JS = DIR_SERVER + 'js/';
 const DIR_DIST = DIR_CLIENT + 'dist/';
-const CSS_GLOB = DIR_CLIENT + 'css/*.css';
 
+const PATH_CSS = DIR_CLIENT + 'css/*.css';
 const PATH_TS = DIR_CLIENT + TS_GLOB;
 const PATH_TS_SERVER = DIR_SERVER + TS_GLOB;
 const PATH_VENDOR = DIR_CLIENT + 'vendor/';
@@ -41,6 +41,7 @@ function watch() {
   gulp.watch(PATH_TS, ['ts']);
   gulp.watch(PATH_VENDOR, ['ts']);
   gulp.watch(PATH_TS_SERVER, ['ts-server']);
+  gulp.watch(PATH_CSS, ['css']);
 }
 
 function watchAndListen() {
@@ -63,7 +64,7 @@ function getVendorJS() {
 
 function compileCSS() {
   var cleanCSS = require('gulp-clean-css');
-  return gulp.src(CSS_GLOB)
+  return gulp.src(PATH_CSS)
     .pipe(cleanCSS())
     .pipe(gulp.dest(DIR_DIST));
 }
