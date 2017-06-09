@@ -24,6 +24,8 @@ interface PagesProps {
 
 interface PagesState {
   isMenuVisible: boolean;
+  pageTransitioning: boolean;
+  currentPage: string;
 }
 
 export default class Pages extends Component<PagesProps, PagesState> {
@@ -31,7 +33,9 @@ export default class Pages extends Component<PagesProps, PagesState> {
   private content: HTMLElement;
 
   state = {
-    isMenuVisible: false
+    isMenuVisible: false,
+    pageTransitioning: false,
+    currentPage: '/'
   };
 
   private isValidPage(url): boolean {
@@ -40,13 +44,17 @@ export default class Pages extends Component<PagesProps, PagesState> {
     });
   }
 
-  private isPageActive(url): string {
+  private isPageActive(url: string|string[], page?: string): string {
+    if (!page) {
+      page = this.state.currentPage;
+    }
+
     if (!Array.isArray(url)) {
       url = [url];
     }
 
     let isActive = url.some(u => {
-      return u === this.props.currentPage;
+      return u === page;
     });
 
     return isActive ? 'active' : '';
@@ -71,7 +79,19 @@ export default class Pages extends Component<PagesProps, PagesState> {
   componentWillUpdate(nextProps: PagesProps) {
     // When the current page changes, hide the menu.
     if (nextProps.currentPage !== this.props.currentPage) {
-      this.setState({ isMenuVisible: false });
+      var self = this;
+      this.content.addEventListener('transitionend', function remove() {
+        self.content.removeEventListener('transitionend', remove);
+        self.setState({
+          currentPage: nextProps.currentPage,
+          pageTransitioning: false
+        });
+      });
+
+      this.setState({
+        isMenuVisible: false,
+        pageTransitioning: true
+      });
     }
   }
 
@@ -97,7 +117,8 @@ export default class Pages extends Component<PagesProps, PagesState> {
         </button>
         {this.renderNav('main-nav')}
       </header>
-      <div id="content">
+      <div id="content" className={this.state.pageTransitioning ?
+                                   'transitioning': ''}>
         <Home active={this.isPageActive([URLS.HOME, URLS.ROOT])}
               navigate={this.props.navigate} />
         <Record active={this.isPageActive(URLS.RECORD)}
@@ -114,7 +135,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
   }
 
   private renderTab(url: string, name: string) {
-    return <a className={'tab ' + this.isPageActive(url)}
+    return <a className={'tab ' + this.isPageActive(url, this.props.currentPage)}
               onClick={this.props.navigate.bind(null, url)}>
              <span className="tab-name">{name}</span>
            </a>;

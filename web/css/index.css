@@ -207,6 +207,12 @@ header.scrolled {
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
+  transition: opacity 0.15s linear;
+  opacity: 1;
+}
+
+#content.transitioning {
+  opacity: 0;
 }
 
 @media (min-width: 600px) {
