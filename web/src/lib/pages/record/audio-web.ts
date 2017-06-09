@@ -1,5 +1,4 @@
 import ERROR_MSG from '../../../error-msg';
-import { AnalyzerNodeView, RadialAnalyzerNodeView } from '../../viz';
 import { isNativeIOS } from '../../utility';
 import confirm from '../../confirm';
 
@@ -10,7 +9,6 @@ export default class AudioWeb {
   microphone: MediaStream;
   analyzerNode: AnalyserNode;
   audioContext: AudioContext;
-  radialVisualizer: AnalyzerNodeView;
   recorder: any;
   chunks: any[];
   lastRecordingData: Blob;
@@ -52,28 +50,6 @@ export default class AudioWeb {
     });
   }
 
-  private showViz() {
-    if (this.radialVisualizer) {
-      return;
-    }
-
-    let vizContainer = document.createElement('div');
-    let levels = document.createElement('canvas');
-    levels.id = 'levels';
-    levels.height = levels.width = 100;
-    vizContainer.appendChild(levels);
-
-    let viz = document.getElementById('audio-viz');
-    if (viz) {
-      viz.innerHTML = ''; // clear it out first
-      viz.appendChild(vizContainer);
-    }
-
-    this.radialVisualizer =
-      new RadialAnalyzerNodeView(this.analyzerNode, levels, 300, 300);
-  }
-
-
   init() {
     if (this.ready) {
       return Promise.resolve();
@@ -86,15 +62,18 @@ export default class AudioWeb {
       var volumeNode = audioContext.createGain();
       var analyzerNode = audioContext.createAnalyser();
       var outputNode = audioContext.createMediaStreamDestination();
+
       // Make sure we're doing mono everywhere.
       sourceNode.channelCount = 1;
       volumeNode.channelCount = 1;
       analyzerNode.channelCount = 1;
       outputNode.channelCount = 1;
+
       // Connect the nodes together
       sourceNode.connect(volumeNode);
       volumeNode.connect(analyzerNode);
       analyzerNode.connect(outputNode);
+
       // and set up the recorder.
       this.recorder = new MediaRecorder(outputNode.stream);
 
@@ -110,8 +89,6 @@ export default class AudioWeb {
 
       this.analyzerNode = analyzerNode;
       this.audioContext = audioContext;
-
-      this.showViz();
 
       this.ready = true;
     }).catch((err) => {
@@ -138,7 +115,6 @@ export default class AudioWeb {
       };
 
       this.recorder.onstart = (e) => {
-        this.radialVisualizer.isRecording = true;
         this.clear();
         res();
       }
@@ -158,7 +134,6 @@ export default class AudioWeb {
 
     return new Promise((res: Function, rej: Function) => {
       this.recorder.onstop = (e) => {
-        this.radialVisualizer.isRecording = false;
         var blob = new Blob(this.chunks, { 'type': AUDIO_TYPE });
         this.lastRecordingData = blob;
         this.lastRecordingUrl = URL.createObjectURL(blob);

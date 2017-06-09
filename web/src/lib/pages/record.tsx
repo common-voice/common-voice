@@ -84,7 +84,6 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
         class={'record-sentence title' + (this.state.recording ? ' active' : '')}>
           {this.state.sentence}
       </div>
-      <span id="record-progress" class="progress small"></span>
       <div id="toolbar">
         <button
             onClick={this.onRecordClick} class="active" type="button"
@@ -100,9 +99,6 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
         <button onClick={this.onNextClick} type="button"
           disabled={this.state.recording || this.state.playing}>Next</button>
       </div>
-      <input id="excerpt" type="hidden" name="excerpt" value="" />
-      <div id="elapsedTime" />
-      <span id="upload-progress" class="progress small" />
       <input id="sensitivity" style="display: none" type="range" min="1" max="200"></input>
       <audio id="player" controls class="disabled"
         onCanPlayThrough={this.onCanPlayThrough}
@@ -110,7 +106,6 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
         onEnded={this.onPlayEnded}
 
         ref={el => this.playerEl = el as HTMLAudioElement} />
-      <div id="audio-viz" />
     </div>;
   }
 

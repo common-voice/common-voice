@@ -377,12 +377,6 @@ header.active {
   cursor: pointer;
 }
 
-#levels {
-  display: block;
-  margin: 0 auto;
-  border-radius: 50%;
-}
-
 .record-message,
 #toolbar {
   border: none;
@@ -418,16 +412,6 @@ header.active {
 
 .record-sentence.active {
   background-size: 100% 150%;
-}
-
-#viz {
-  border: none;
-  text-align: center;
-  transition: transform 0.2s ease-in;
-  padding: 10px 10px;
-  margin: 0 0 10px;
-  position: relative;
-  height: 100px;
 }
 
 #player {
