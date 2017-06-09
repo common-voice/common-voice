@@ -163,6 +163,7 @@ header.scrolled {
     align-items: baseline;
     flex-direction: column;
     padding-top: 11rem;
+    background-color: transparent;
   }
 }
 
