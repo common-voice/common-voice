@@ -14,16 +14,17 @@
   --strong-font-family: ZillaSlab,Georgia,Utopia,Charter,serif;
   --base-font-size: 15px;
   --base-font-color: black;
-  --header-height: 4rem;
+  --header-height: 4.5rem;
   --sidebar-width: 15rem;
   --tab-line: 2px solid #3dfefd;
   --debug-box-height: 8rem;
   --base-background-color: white;
   --base-background-image: url("/img/blotchy.jpg");
-  --page-margin: 0.5rem;
+  --page-margin: 1rem;
   --hamburger: calc(var(--header-height) * 0.7);
   --transition-default: 0.3s;
   --desktop-width: 700px;
+  --color-accent: #f8b83e;
 
   /* Z-indexing */
   --top-z-index: 2;
@@ -71,7 +72,7 @@ h1, h2, h3, h4 {
 a {
   outline: none;
   text-decoration: none;
-  color: unset;
+  color: var(--base-font-color);
 }
 
 button {
@@ -139,8 +140,8 @@ header {
   height: var(--header-height);
   box-sizing: border-box;
   z-index: var(--top-z-index);
-  padding: 0 var(--page-margin);
-  align-items: center;
+  padding: var(--page-margin);
+  align-items: flex-start;
 }
 
 @media (min-width: 600px) {
@@ -152,6 +153,31 @@ header {
     flex-direction: column;
     padding-top: 11rem;
   }
+}
+
+.nav-list {
+  font-family: var(--strong-font-family);
+  display: flex;
+}
+
+.tab {
+  display: block;
+  box-sizing: border-box;
+  cursor: pointer;
+  flex-grow: 0;
+  margin: 0 var(--page-margin);
+  vertical-align: bottom;
+  background-color: var(--base-background-color);
+  transition: background-color 0.15s ease-in;
+}
+
+#main-nav .tab {
+  line-height: 1.4;
+  margin: 0.35rem 0;
+}
+
+#main-nav .tab.active {
+  background-color: var(--color-accent);
 }
 
 #content {
@@ -208,6 +234,7 @@ header {
   padding: 0 0.1rem;
   color: var(--base-background-color);
   background-color: var(--base-font-color);
+  line-height: 1.3;
 }
 
 #main-mozilla-logo {
@@ -221,7 +248,7 @@ header {
   margin-left: auto;
   background-color: var(--base-font-color);
   color: var(--base-background-color);
-  font-size: 1.7rem;
+  font-size: 200%;
   border-radius: 50%;
   transition: transform 0.2s ease-in-out;
   transform: rotate(0deg);
@@ -253,52 +280,43 @@ header {
 
 #navigation-modal {
   box-sizing: border-box;
-  background: rgba(0, 0, 0, 0.9);
+  background-color: var(--base-background-color);
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   z-index: var(--middle-z-index);
-  padding: var(--header-height) 2rem 0;
+  padding: var(--header-height) 0 0;
   pointer-events: none;
   transform: translateY(-100vh);
+  transition: all 0.1s ease-in;
+  opacity: 0;
 }
 
 #navigation-modal.is-active {
+  opacity: 1;
   display: block;
-  transition: all 0.25s ease-in-out;
   transform: translateY(0);
   pointer-events: all;
-}
-
-.nav-list {
-  font-family: var(--strong-font-family);
-  display: flex;
-}
-
-.tab {
-  display: block;
-  cursor: pointer;
-  flex-grow: 0;
-  padding: 0 1rem;
-  line-height: 2.3;
-  vertical-align: bottom;
-}
-
-.tab.active {
-  border-right: var(--tab-line);
+  transition-duration: 0.2s;
 }
 
 #navigation-modal .nav-list {
-  color: white;
   flex-flow: column;
   font-size: 1.3rem;
 }
 
+#navigation-modal .tab {
+  line-height: 3;
+  font-weight: bold;
+  font-size: 2rem;
+  border-bottom: 2px dashed;
+  border-bottom-color: var(--color-accent);
+}
+
 #navigation-modal .tab.active {
-  border-right: none;
-  border-left: var(--tab-line);
+  background-image: linear-gradient(297deg, #cacaca, #f5efe0, #f0d497);
 }
 
 #home-robot {
