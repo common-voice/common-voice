@@ -27,6 +27,9 @@ interface PagesState {
 }
 
 export default class Pages extends Component<PagesProps, PagesState> {
+  private header: HTMLElement;
+  private content: HTMLElement;
+
   state = {
     isMenuVisible: false
   };
@@ -47,6 +50,18 @@ export default class Pages extends Component<PagesProps, PagesState> {
     });
 
     return isActive ? 'active' : '';
+  }
+
+  private addScrollListener() {
+    this.content.addEventListener('scroll', evt => {
+      this.header.classList.toggle('scrolled', this.content.scrollTop > 0);
+    });
+  }
+
+  componentDidMount() {
+    this.content = document.getElementById('content');
+    this.header = document.querySelector('header');
+    this.addScrollListener();
   }
 
   private isNotFoundActive(): string {
