@@ -15,6 +15,16 @@ export default class API {
     this.webhook = new WebHook();
   }
 
+  private getRandomSentences(count: number): Promise<string[]> {
+    return this.getSentences().then(sentences => {
+      let randoms = [];
+      for (var i = 0; i < count; i++) {
+        randoms.push(sentences[Math.floor(Math.random() * sentences.length)]);
+      }
+      return randoms;
+    });
+  }
+
   /**
    * Is this request directed at the api?
    */
@@ -30,7 +40,10 @@ export default class API {
 
     // Most often this will be a sentence request.
     if (request.url.includes('/sentence')) {
-      this.returnRandomSentence(response);
+      let parts = request.url.split('/');
+      let index = parts.indexOf('sentence');
+      let count = parts[index + 1] && parseInt(parts[index + 1], 10);
+      this.returnRandomSentence(response, count);
     // Webhooks from github.
     } else if (this.webhook.isHookRequest(request)) {
       this.webhook.handleWebhookRequest(request, response);
@@ -70,11 +83,15 @@ export default class API {
   /**
    * Load sentence file (if necessary), pick random sentence.
    */
-  returnRandomSentence(response: http.ServerResponse) {
+  returnRandomSentence(response: http.ServerResponse, count: number) {
+    count = count || 1;
+
     this.getSentences().then((sentences: String[]) => {
-      let random = sentences[Math.floor(Math.random() * sentences.length)];
+      return this.getRandomSentences(count);
+    }).then(randoms => {
+      console.log('got some randoms', count, randoms);
       response.writeHead(200);
-      response.end(random);
+      response.end(randoms.join('\n'));
     }).catch((err: any) => {
       console.error('Could not load sentences', err);
       response.writeHead(500);
