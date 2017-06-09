@@ -16,16 +16,15 @@ interface RecordProps {
 
 interface RecordState {
   sentence: string,
-  message: string,
   playing: boolean,
   recording: boolean,
-  recordingStartTime: number
+  recordingStartTime: number,
+  recordings: any[]
 }
 
 export default class RecordPage extends Component<RecordProps, RecordState> {
   name: string = PAGE_NAME;
   audio: AudioWeb | AudioIOS;
-  messageEl: HTMLDivElement;
   sentenceEl: HTMLSpanElement;
   elapsedTimeEl: HTMLDivElement;
   playButtonEl: HTMLButtonElement;
@@ -37,10 +36,10 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
   state = {
     sentence: "",
-    message: "",
     recording: false,
     playing: false,
-    recordingStartTime: 0
+    recordingStartTime: 0,
+    recordings: []
   };
 
   constructor() {
@@ -58,28 +57,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
   render() {
     return <div className={this.props.active}>
-      <p class="record-message panel">{this.state.message || 'N/A'}</p>
-      <div id="record-screen" class="screen disabled">
-        <div id="error-screen" class="screen panel" hidden>
-          <div class="panel-head">Error</div>
-          <div class="panel-content">
-            <p class="title" id="error-message"></p>
-            <h2 hidden id="error-reload">
-              Reload the page to try again
-            </h2>
-            <p id="error-supported">
-              Please check your browser's compatibility:
-              <table>
-                <tr><th>Platform</th><th>Browser</th></tr>
-                <tr><td>Desktop</td><td>Firefox, Chrome supported</td></tr>
-                <tr><td>Android</td><td>Firefox supported</td></tr>
-                <tr><td>iPhone, iPad</td><td><b>Not supported</b></td></tr>
-              </table>
-            </p>
-          </div>
-        </div>
-      </div>
-
+      <p>{this.state.recordings.length + 1} of 3</p>
       <div
         class={'record-sentence title' + (this.state.recording ? ' active' : '')}>
           {this.state.sentence}
@@ -207,7 +185,6 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   }
 
   newSentence() {
-    this.setState({ message: "Fetching Sentence" });
     this.api.getSentence().then(sentence => {
       this.setState({ sentence });
     });

@@ -131,15 +131,6 @@ button:disabled {
   }
 }
 
-@media (max-width: 600px) {
-  #record-screen > #toolbar > button {
-    border-radius: 14px;
-    display: block;
-    width: 70%;
-    margin: 1rem auto;
-  }
-}
-
 header {
   position: fixed;
   top: 0;
@@ -377,25 +368,10 @@ header.active {
   cursor: pointer;
 }
 
-.record-message,
-#toolbar {
-  border: none;
-  text-align: center;
-  color: #757575;
-  transition: transform 0.2s ease-out;
-  padding: 10px 0;
-  margin: 10px 0;
-  position: relative;
-}
-
 #toolbar > button {
   width: 6rem;
   height: 2.8rem;
   margin: 0.5rem 0.25rem;
-}
-
-.record-message {
-  display: none;
 }
 
 .record-sentence {
@@ -408,10 +384,6 @@ header.active {
   background-color: #FAFAFA;
   min-height: 7rem;
   border-radius: 3px;
-}
-
-.record-sentence.active {
-  background-size: 100% 150%;
 }
 
 #player {
