@@ -34,6 +34,6 @@ export function countSyllables(text: string): number {
  * Test if we are running in the iOS native app wrapper.
  */
 export function isNativeIOS(): boolean {
-  return webkit && webkit.messageHandlers &&
+  return window['webkit'] && webkit.messageHandlers &&
          webkit.messageHandlers.scriptHandler;
 }
