@@ -7,7 +7,7 @@ interface Props {
 
 export default class Home extends Component<Props, void> {
   render() {
-    return <div className={this.props.active}>
+    return <div id="home-container" className={this.props.active}>
       <img className="robot" src="/img/robot.png" />
       <h2>Mozilla's Common Voice</h2>
       <p>Build the world's most diverse set of voice data that researchers

@@ -1,6 +1,7 @@
 import API from '../api';
 import User from '../user';
 import { h, Component } from 'preact';
+import Icon from '../icon';
 import AudioIOS from './record/audio-ios';
 import AudioWeb from './record/audio-web';
 import ERROR_MSG from '../../error-msg';
@@ -25,12 +26,6 @@ interface RecordState {
 export default class RecordPage extends Component<RecordProps, RecordState> {
   name: string = PAGE_NAME;
   audio: AudioWeb | AudioIOS;
-  sentenceEl: HTMLSpanElement;
-  elapsedTimeEl: HTMLDivElement;
-  playButtonEl: HTMLButtonElement;
-  recordButtonEl: HTMLButtonElement;
-  uploadButtonEl: HTMLButtonElement;
-  nextButtonEl: HTMLButtonElement;
   playerEl: HTMLMediaElement;
   api: API;
 
@@ -80,7 +75,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     });
   }
 
-  onUploadClick = () => {
+  upload() {
     // Save
     // var a = document.createElement('a');
     // var url = window.URL.createObjectURL(this.audio.lastRecording);
@@ -92,7 +87,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     // window.URL.revokeObjectURL(url);
 
     // Upload
-    let upload = new Promise(
+    let uploadPromise = new Promise(
       (resolve: EventListener, reject: EventListener) => {
         var req = new XMLHttpRequest();
         req.upload.addEventListener('load', resolve);
@@ -111,7 +106,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
         req.send(this.audio.lastRecordingData);
       });
 
-    upload.then(() => {
+    uploadPromise.then(() => {
       console.log("Uploaded Ok.");
       this.audio.clear();
       this.newSentence();
@@ -122,7 +117,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     });
   }
 
-  onPlayClick = () => {
+  play = () => {
     if (!this.audio.lastRecordingData) {
       console.error('cannot play when there is no recording');
       return;
@@ -161,32 +156,21 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   render() {
     return <div id="record-container" className={this.props.active +
                 (this.state.recording ? ' recording': '')}>
-      <img className="robot" src="/img/robot.png" />
-      <p>{this.state.recordings.length + 1} of 3</p>
+      <p id="recordings-count">{this.state.recordings.length + 1} of 3</p>
       <div className="record-sentence">
-          {this.state.sentence}
+          "{this.state.sentence}"
       </div>
+      <img onClick={this.onRecordClick} className="robot" src="/img/robot.png" />
+      <p id="record-help">Please read the above sentence and tap me to record.</p>
       <div id="toolbar">
-        <button
-            onClick={this.onRecordClick} class="active" type="button"
-            disabled={this.state.playing}>
-          {this.state.recording ? 'Stop' : 'Record'}</button>
-        <button
-        onClick={this.onPlayClick} type="button"
-          disabled={this.state.recording || !this.audio.lastRecordingData}>
-          {this.state.playing ? 'Stop' : 'Play'}</button>
-        <button onClick={this.onUploadClick} type="button"
-          disabled={!this.audio.lastRecordingData || this.state.recording || this.state.playing}>
-          Submit</button>
-        <button onClick={this.onNextClick} type="button"
-          disabled={this.state.recording || this.state.playing}>Next</button>
+        <Icon type="redo" onClick={this.onNextClick} />
+        <p>Naw, generate a new sentence please.</p>
       </div>
       <input id="sensitivity" style="display: none" type="range" min="1" max="200"></input>
       <audio id="player" controls class="disabled"
         onCanPlayThrough={this.onCanPlayThrough}
         onPlay={this.onPlay}
         onEnded={this.onPlayEnded}
-
         ref={el => this.playerEl = el as HTMLAudioElement} />
     </div>;
   }

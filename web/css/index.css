@@ -340,6 +340,9 @@ header.active {
 
 .robot {
   width: 10rem;
+}
+
+#home-container .robot {
   margin: 5rem auto 0;
 }
 
@@ -370,32 +373,48 @@ header.active {
   cursor: pointer;
 }
 
-#toolbar > button {
-  width: 6rem;
-  height: 2.8rem;
-  margin: 0.5rem 0.25rem;
+#record-container {
+  font-family: var(--strong-font-family);
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
-#record-container.recording {
-  animation: color-change 2.5s infinite;
-}
-
-@keyframes color-change {
-  0% {
-    background-color: unset;
-  }
-  50% {
-    background-color: #fdc6c8;
-  }
-  0% {
-    background-color: unset;
-  }
+#recordings-count {
+  font-size: 0.8rem;
 }
 
 .record-sentence {
   line-height: 1.2em;
   min-height: 7rem;
   border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin: 2.2rem 0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+#record-container.recording .robot {
+  animation: robot-move 0.8s linear infinite;
+}
+
+@keyframes robot-move {
+  0% {
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  0% {
+  }
+}
+
+#record-help {
+  font-size: 1rem;
+  padding: 0 2rem;
+}
+
+#toolbar {
+  font-size: 0.8rem;
 }
 
 #player {

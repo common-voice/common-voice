@@ -2,12 +2,14 @@ import { h, Component } from 'preact';
 
 const ICONS = {
   bullhorn: '',
-  hamburger: ''
+  hamburger: '',
+  redo: ''
 }
 
 interface Props {
   id?: string;
   type: string;
+  onClick?(event: MouseEvent): void;
 }
 
 /**
@@ -20,7 +22,7 @@ export default class Icon extends Component<Props, void> {
 
   render() {
     let icon = this.getIcon(this.props.type);
-    return <span id={this.props.id} aria-hidden="true"
-                 data-icon={icon}></span>;
+    return <span onClick={this.props.onClick} id={this.props.id}
+                 aria-hidden="true" data-icon={icon}></span>;
   }
 }
