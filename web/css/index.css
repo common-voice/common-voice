@@ -405,7 +405,6 @@ header.active {
 }
 
 .record-sentence {
-  background-image: linear-gradient(297deg, #cacaca, #f5efe0, #f0d497);
   background-size: 0% 150%;
   background-repeat: no-repeat;
   line-height: 2em;
@@ -415,18 +414,10 @@ header.active {
   background-color: #FAFAFA;
   min-height: 7rem;
   border-radius: 3px;
-  animation: flow 9s ease infinite;
-  transition: background-size 3s linear;
 }
 
 .record-sentence.active {
   background-size: 100% 150%;
-}
-
-@keyframes flow {
-  0%{background-position-y:0%}
-  50%{background-position-y:100%}
-  100%{background-position-y:0%}
 }
 
 #viz {

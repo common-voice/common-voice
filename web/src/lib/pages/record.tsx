@@ -57,10 +57,6 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   }
 
   render() {
-    // We are going with a reading rate of about 3 syllables per second.
-    let seconds = this.state.recording ?
-      countSyllables(this.state.sentence) / 3 : 0;
-
     return <div className={this.props.active}>
       <p class="record-message panel">{this.state.message || 'N/A'}</p>
       <div id="record-screen" class="screen disabled">
@@ -85,7 +81,6 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       </div>
 
       <div
-        style={{transitionDuration: seconds + 's'}}
         class={'record-sentence title' + (this.state.recording ? ' active' : '')}>
           {this.state.sentence}
       </div>
