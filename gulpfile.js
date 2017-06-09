@@ -6,12 +6,15 @@ const TS_GLOB = 'src/**/*';
 const DIR_CLIENT = './web/';
 const DIR_SERVER = './server/';
 const DIR_UPLOAD = DIR_SERVER + 'upload/';
-const DIR_JS = DIR_CLIENT + 'js/'
 const DIR_SERVER_JS = DIR_SERVER + 'js/';
+const DIR_DIST = DIR_CLIENT + 'dist/';
+const CSS_GLOB = DIR_CLIENT + 'css/*.css';
+
 const PATH_TS = DIR_CLIENT + TS_GLOB;
 const PATH_TS_SERVER = DIR_SERVER + TS_GLOB;
 const PATH_VENDOR = DIR_CLIENT + 'vendor/';
 const RELOAD_DELAY = 100;
+
 
 // Add gulp help functionality.
 let gulp = require('gulp-help')(require('gulp'));
@@ -46,7 +49,7 @@ function watchAndListen() {
 }
 
 function doEverything() {
-  return Promise.all([compileClient, compileServer])
+  return Promise.all([compileClient, compileServer, compileCSS])
     .then(watchAndListen);
 }
 
@@ -56,6 +59,13 @@ function getVendorJS() {
   return files.reduce((acc, file) => {
     return acc + fs.readFileSync(PATH_VENDOR + file) + '\n';
   }, '');
+}
+
+function compileCSS() {
+  var cleanCSS = require('gulp-clean-css');
+  return gulp.src(CSS_GLOB)
+    .pipe(cleanCSS())
+    .pipe(gulp.dest(DIR_DIST));
 }
 
 function compileClient() {
@@ -75,7 +85,7 @@ function compileClient() {
   return compile(project)
     .pipe(uglify(uglifyOptions))
     .pipe(insert.prepend(getVendorJS()))
-    .pipe(gulp.dest(DIR_JS));
+    .pipe(gulp.dest(DIR_DIST));
 }
 
 function compileServer() {
@@ -84,11 +94,13 @@ function compileServer() {
     .pipe(gulp.dest(DIR_SERVER_JS));
 }
 
+gulp.task('css', 'Minify CSS files', compileCSS);
+
 gulp.task('ts', 'Compile typescript files into bundle.js', compileClient);
 
 gulp.task('ts-server', 'Compile typescript server files.', compileServer);
 
-gulp.task('build', 'Build both server and client js', ['ts', 'ts-server']);
+gulp.task('build', 'Build both server and client js', ['ts', 'ts-server', 'css']);
 
 gulp.task('npm-install', 'Install npm dependencies.',
   shell.task(['npm install']));

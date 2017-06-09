@@ -1,5 +1,5 @@
 node_modules
-web/js/
+web/dist/
 server/js/
 server/upload/
 _ignore/
