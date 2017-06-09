@@ -15,7 +15,7 @@
   --base-font-size: 15px;
   --base-font-color: black;
   --header-height: 4.5rem;
-  --sidebar-width: 15rem;
+  --sidebar-width: 16rem;
   --tab-line: 2px solid #3dfefd;
   --debug-box-height: 8rem;
   --base-background-color: white;
@@ -180,6 +180,11 @@ header.scrolled {
   transition: background-color 0.15s ease-in;
 }
 
+.tab.active .tab-name {
+  background-color: var(--color-accent);
+  padding-right: 6rem;
+}
+
 #main-nav .tab {
   line-height: 1.4;
   margin: 0.35rem 0;
@@ -187,6 +192,7 @@ header.scrolled {
 
 #main-nav .tab.active {
   background-color: var(--color-accent);
+  transition: none;
 }
 
 #content {
@@ -322,11 +328,6 @@ header.scrolled {
   font-size: 1.3rem;
   border-bottom: 2px dashed;
   border-bottom-color: var(--color-accent);
-}
-
-#navigation-modal .tab.active .tab-name {
-  background-color: var(--color-accent);
-  padding-right: 6rem;
 }
 
 #home-robot {
