@@ -315,9 +315,8 @@ header {
 }
 
 #navigation-modal .tab.active .tab-name {
-  background-image: linear-gradient(297deg, #cacaca, #f5efe0, #f0d497);
+  background-color: var(--color-accent);
   padding-right: 6rem;
-  border-radius: 2px;
 }
 
 #home-robot {
