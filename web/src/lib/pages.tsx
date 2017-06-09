@@ -68,22 +68,6 @@ export default class Pages extends Component<PagesProps, PagesState> {
     return !this.isValidPage(this.props.currentPage) ? 'active' : '';
   }
 
-  private renderTab(url: string, name: string) {
-    return <a className={'tab ' + this.isPageActive(url)}
-              onClick={this.props.navigate.bind(null, url)}>
-             <span className="tab-name">{name}</span>
-           </a>;
-  }
-
-  private renderNav(id?: string) {
-    return <nav id={id} className="nav-list">
-      {this.renderTab('/', 'home')}
-      {this.renderTab('/about', 'about')}
-      {this.renderTab('/record', 'record')}
-      {this.renderTab('/listen', 'listen')}
-    </nav>;
-  }
-
   componentWillUpdate(nextProps: PagesProps) {
     // When the current page changes, hide the menu.
     if (nextProps.currentPage !== this.props.currentPage) {
@@ -127,5 +111,21 @@ export default class Pages extends Component<PagesProps, PagesState> {
       {this.renderNav()}
       </div>
     </div>;
+  }
+
+  private renderTab(url: string, name: string) {
+    return <a className={'tab ' + this.isPageActive(url)}
+              onClick={this.props.navigate.bind(null, url)}>
+             <span className="tab-name">{name}</span>
+           </a>;
+  }
+
+  private renderNav(id?: string) {
+    return <nav id={id} className="nav-list">
+      {this.renderTab('/', 'home')}
+      {this.renderTab('/about', 'about')}
+      {this.renderTab('/record', 'record')}
+      {this.renderTab('/listen', 'listen')}
+    </nav>;
   }
 }
