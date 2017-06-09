@@ -150,8 +150,7 @@ header {
   background-color: var(--base-background-color);
 }
 
-header.active,
-header.scrolled {
+header.active {
   box-shadow: var(--shadow-overhang);
 }
 

@@ -25,6 +25,7 @@ interface PagesProps {
 interface PagesState {
   isMenuVisible: boolean;
   pageTransitioning: boolean;
+  scrolled: boolean;
   currentPage: string;
 }
 
@@ -35,6 +36,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
   state = {
     isMenuVisible: false,
     pageTransitioning: false,
+    scrolled: false,
     currentPage: '/'
   };
 
@@ -62,7 +64,10 @@ export default class Pages extends Component<PagesProps, PagesState> {
 
   private addScrollListener() {
     this.content.addEventListener('scroll', evt => {
-      this.header.classList.toggle('scrolled', this.content.scrollTop > 0);
+      let scrolled = this.content.scrollTop > 0;
+      if (scrolled !== this.state.scrolled) {
+        this.setState({ scrolled: scrolled });
+      }
     });
   }
 
@@ -101,7 +106,8 @@ export default class Pages extends Component<PagesProps, PagesState> {
 
   render() {
     return <div id="main">
-      <header className={(this.state.isMenuVisible ? 'active' : '')}>
+      <header className={(this.state.isMenuVisible || this.state.scrolled ?
+                          'active' : '')}>
         <a id="main-logo" href="/"
           onClick={(evt) =>  {
             evt.preventDefault();
