@@ -188,6 +188,8 @@ header {
   left: 0;
   right: 0;
   overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
 }
 
 @media (min-width: 600px) {
