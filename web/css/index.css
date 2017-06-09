@@ -25,6 +25,7 @@
   --transition-default: 0.3s;
   --desktop-width: 700px;
   --color-accent: #f8b83e;
+  --bounce-curve: cubic-bezier(0.000, 1.430, 0.700, 0.940);
 
   /* Z-indexing */
   --top-z-index: 2;
@@ -290,8 +291,7 @@ header {
   padding: var(--header-height) 0 0;
   pointer-events: none;
   transform: translateY(-100vh);
-  transition: all 0.1s ease-in;
-  opacity: 0;
+  transition: all 0.3s var(--bounce-curve);
 }
 
 #navigation-modal.is-active {
@@ -299,7 +299,7 @@ header {
   display: block;
   transform: translateY(0);
   pointer-events: all;
-  transition-duration: 0.2s;
+  transition-duration: 0.4s;
 }
 
 #navigation-modal .nav-list {
@@ -448,7 +448,6 @@ header {
   50%{background-position:100% 50%}
   100%{background-position:0% 50%}
 }
-
 
 .confirm-modal {
   position: absolute;
