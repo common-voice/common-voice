@@ -178,6 +178,9 @@ header.active {
   flex-grow: 0;
   margin: 0 var(--page-margin);
   vertical-align: bottom;
+}
+
+.tab .tab-name {
   background-color: var(--base-background-color);
   transition: background-color 0.15s ease-in;
 }
@@ -193,7 +196,6 @@ header.active {
 }
 
 #main-nav .tab.active {
-  background-color: var(--color-accent);
   transition: none;
 }
 

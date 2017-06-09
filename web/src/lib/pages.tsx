@@ -89,12 +89,12 @@ export default class Pages extends Component<PagesProps, PagesState> {
         self.content.removeEventListener('transitionend', remove);
         self.setState({
           currentPage: nextProps.currentPage,
-          pageTransitioning: false
+          pageTransitioning: false,
+          isMenuVisible: false
         });
       });
 
       this.setState({
-        isMenuVisible: false,
         pageTransitioning: true
       });
     }
