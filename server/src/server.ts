@@ -44,7 +44,8 @@ export default class Server {
     request.addListener('end', () => {
       this.staticServer.serve(request, response, (err: any) => {
         if (err && err.status === 404) {
-          // Let the front end handle url routing.
+          // If file was not front, use main page and
+          // let the front end handle url routing.
           this.staticServer.serveFile('index.html', 200, {}, request, response);
         }
       })
