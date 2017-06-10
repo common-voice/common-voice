@@ -89,7 +89,6 @@ export default class API {
     this.getSentences().then((sentences: String[]) => {
       return this.getRandomSentences(count);
     }).then(randoms => {
-      console.log('got some randoms', count, randoms);
       response.writeHead(200);
       response.end(randoms.join('\n'));
     }).catch((err: any) => {
