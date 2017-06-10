@@ -57,15 +57,15 @@ export default class API {
     return API.DEFAULT_BASE + resource;
   }
 
-  getSentence() {
-    return this.requestResourceText('sentence');
+  getRandomSentences(count?: number): Promise<string> {
+    return this.requestResourceText('sentence' + (count ? '/' + count : ''));
   }
 
   /**
    * Ask the server for a clip
    */
   getRandomClip(): Promise<Clip> {
-    return this.fetch('upload/random', { responseType: 'blob' })
+    return this.fetch('upload/random/', { responseType: 'blob' })
       .then((req: XMLHttpRequest) => {
         let src = window.URL.createObjectURL(req.response);
         let sentence = decodeURIComponent(req.getResponseHeader('sentence'));

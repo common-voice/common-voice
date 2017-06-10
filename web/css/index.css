@@ -377,35 +377,63 @@ header.active {
   font-family: var(--strong-font-family);
   font-size: 1.3rem;
   font-weight: bold;
+  overflow: hidden;
 }
 
 #recordings-count {
   font-size: 0.8rem;
+  padding: 0.5rem 0;
+}
+
+.full #recordings-count {
+  visibility: hidden;
 }
 
 .record-sentence {
+  position: relative;
   line-height: 1.2em;
   min-height: 7rem;
   border-radius: 3px;
   background-color: rgba(255, 255, 255, 0.7);
-  margin: 2.2rem 0;
   border-radius: 5px;
-  display: flex;
-  align-items: center;
+  height: 12rem;
+  transition: transform 0.2s ease-in;
+}
+
+.full .record-sentence {
+  transform: scale(0);
+}
+
+.text-box {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: transform 0.4s var(--bounce-curve);
+}
+
+.text-box.left {
+  transform: translateX(-100vw);
+}
+
+.text-box.right {
+  transform: translateX(100vw);
 }
 
 #record-container.recording .robot {
   animation: robot-move 0.8s linear infinite;
 }
 
+
 @keyframes robot-move {
-  0% {
-  }
   50% {
     transform: scale(1.15);
   }
-  0% {
-  }
+}
+
+#record-container.full .robot {
+  transform: translateY(-7rem);
 }
 
 #record-help {
@@ -413,8 +441,25 @@ header.active {
   padding: 0 2rem;
 }
 
+.full #record-help {
+  visibility: hidden;
+}
+
 #toolbar {
   font-size: 0.8rem;
+}
+
+.full #toolbar {
+  visibility: hidden;
+}
+
+#voice-submit {
+  transition: transform 0.2s var(--bounce-curve);
+  transform: translateY(7rem);
+}
+
+.full #voice-submit {
+  transform: translateY(-14rem);
 }
 
 #player {

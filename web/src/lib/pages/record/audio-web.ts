@@ -4,6 +4,11 @@ import confirm from '../../confirm';
 
 const AUDIO_TYPE = 'audio/ogg; codecs=opus';
 
+export interface AudioInfo {
+  url: string;
+  blob: Blob;
+}
+
 export default class AudioWeb {
   ready: boolean;
   microphone: MediaStream;
@@ -11,8 +16,10 @@ export default class AudioWeb {
   audioContext: AudioContext;
   recorder: any;
   chunks: any[];
+  last: AudioInfo;
   lastRecordingData: Blob;
   lastRecordingUrl: string;
+  initPromise: Promise<void>;
 
   constructor() {
 
@@ -51,11 +58,13 @@ export default class AudioWeb {
   }
 
   init() {
-    if (this.ready) {
-      return Promise.resolve();
+    if (this.initPromise) {
+      return this.initPromise;
     }
 
-    return this.getMicrophone().then((microphone: MediaStream) => {
+    return this.initPromise = this.getMicrophone().then(
+      (microphone: MediaStream) => {
+
       this.microphone = microphone;
       var audioContext = new AudioContext();
       var sourceNode = audioContext.createMediaStreamSource(microphone);
@@ -134,10 +143,12 @@ export default class AudioWeb {
 
     return new Promise((res: Function, rej: Function) => {
       this.recorder.onstop = (e) => {
-        var blob = new Blob(this.chunks, { 'type': AUDIO_TYPE });
-        this.lastRecordingData = blob;
-        this.lastRecordingUrl = URL.createObjectURL(blob);
-        res(blob);
+        let blob = new Blob(this.chunks, { 'type': AUDIO_TYPE });
+        this.last = {
+          url: URL.createObjectURL(blob),
+          blob: blob
+        };
+        res(this.last);
       };
       this.recorder.stop();
     });

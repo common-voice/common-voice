@@ -1,5 +1,6 @@
 import ERROR_MSG from '../../../error-msg';
 import { isNativeIOS } from '../../utility';
+import { AudioInfo } from './audio-web';
 
 declare var webkit;
 
@@ -7,12 +8,10 @@ export default class AudioIOS {
   postMessage: Function;
 
   static AUDIO_TYPE: string = 'audio/m4a;base64';
-  lastRecordingData: Blob;
-  lastRecordingUrl: string;
+  last: AudioInfo;
 
   clear(): void {
-    this.lastRecordingData = null;
-    this.lastRecordingUrl = null;
+    this.last = null;
   }
 
   // For audio src URL, we need to trick webkit into
@@ -49,11 +48,13 @@ export default class AudioIOS {
       // have our sound data in base64 format.
 
       window['uploadData'] = (data: string) => {
-        this.lastRecordingUrl = 'data:' + AudioIOS.AUDIO_TYPE_URL + ',' + data;
-        this.lastRecordingData = new Blob([data], {
-          type: AudioIOS.AUDIO_TYPE
-        });
-        res();
+        this.last = {
+          url: 'data:' + AudioIOS.AUDIO_TYPE_URL + ',' + data,
+          blob: new Blob([data], {
+            type: AudioIOS.AUDIO_TYPE
+          })
+        };
+        res(this.last);
       };
 
       this.postMessage('stopCapture');
