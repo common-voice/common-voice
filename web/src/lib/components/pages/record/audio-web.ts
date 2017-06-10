@@ -1,5 +1,5 @@
-import ERROR_MSG from '../../../error-msg';
-import { isNativeIOS } from '../../utility';
+import ERROR_MSG from '../../../../error-msg';
+import { isNativeIOS } from '../../../utility';
 import confirm from '../../confirm';
 
 const AUDIO_TYPE = 'audio/ogg; codecs=opus';

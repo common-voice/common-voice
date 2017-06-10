@@ -1,5 +1,5 @@
 import { h, Component } from 'preact';
-import { Clip, default as API } from '../api';
+import { Clip, default as API } from '../../api';
 
 interface ListenPageProps {
   active: string;

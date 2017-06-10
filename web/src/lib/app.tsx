@@ -1,8 +1,8 @@
 import { h, render } from 'preact';
 import User from './user';
-import Pages from './pages';
+import Pages from './components/pages';
 import { isNativeIOS } from './utility';
-import DebugBox from './debug-box';
+import DebugBox from './components/debug-box';
 
 /**
  * Main app controller, rensponsible for routing between page

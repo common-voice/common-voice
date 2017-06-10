@@ -5,7 +5,7 @@ import Home from './pages/home';
 import Listen from './pages/listen';
 import Record from './pages/record';
 import NotFound from './pages/not-found';
-import User from './user';
+import User from '../user';
 
 const URLS = {
   ROOT: '/',

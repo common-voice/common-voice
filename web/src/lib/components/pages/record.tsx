@@ -1,11 +1,11 @@
-import API from '../api';
-import User from '../user';
+import API from '../../api';
+import User from '../../user';
 import { h, Component } from 'preact';
 import Icon from '../icon';
 import AudioIOS from './record/audio-ios';
 import AudioWeb, { AudioInfo } from './record/audio-web';
-import ERROR_MSG from '../../error-msg';
-import { countSyllables, isNativeIOS, generateGUID } from '../utility';
+import ERROR_MSG from '../../../error-msg';
+import { countSyllables, isNativeIOS, generateGUID } from '../../utility';
 
 const SET_COUNT = 3;
 const SOUNDCLIP_URL = '/upload/';
