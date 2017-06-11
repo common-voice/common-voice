@@ -3,7 +3,8 @@ import { h, Component } from 'preact';
 const ICONS = {
   bullhorn: '',
   hamburger: '',
-  redo: ''
+  redo: '',
+  play: ''
 }
 
 interface Props {

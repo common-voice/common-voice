@@ -4,6 +4,7 @@ import { h, Component } from 'preact';
 import Icon from '../icon';
 import AudioIOS from './record/audio-ios';
 import AudioWeb, { AudioInfo } from './record/audio-web';
+import ListenBox from '../listen-box';
 import ERROR_MSG from '../../../error-msg';
 import { countSyllables, isNativeIOS, generateGUID } from '../../utility';
 
@@ -18,7 +19,6 @@ interface RecordProps {
 
 interface RecordState {
   sentences: string[],
-  playing: boolean,
   recording: boolean,
   recordingStartTime: number,
   recordings: any[],
@@ -28,13 +28,11 @@ interface RecordState {
 export default class RecordPage extends Component<RecordProps, RecordState> {
   name: string = PAGE_NAME;
   audio: AudioWeb | AudioIOS;
-  playerEl: HTMLMediaElement;
   api: API;
 
   state = {
     sentences: [],
     recording: false,
-    playing: false,
     recordingStartTime: 0,
     recordings: [],
     uploadProgress: 0
@@ -53,11 +51,12 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     this.newSentenceSet();
 
     // Bind now, to avoid memory leak when setting handler.
-    this.processNextClip = this.processNextClip.bind(this);
     this.uploadSet = this.uploadSet.bind(this);
+    this.onRecordClick = this.onRecordClick.bind(this);
+    this.processRecording = this.processRecording.bind(this);
   }
 
-  private processNextClip(info: AudioInfo) {
+  private processRecording(info: AudioInfo) {
     let recordings = this.state.recordings;
     recordings.push(info);
 
@@ -67,27 +66,14 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     });
   }
 
-  onRecordClick = () => {
-    if (this.state.recording) {
-      this.stopRecording();
-    } else {
-      this.audio.init().then(() => {
-        this.startRecording();
-      });
-    }
+  private getRecordingUrl(which: number): string {
+    let r = this.state.recordings[which] && this.state.recordings[which].url;
+    return r || '';
   }
 
-  startRecording() {
-    this.setState({
-      recording: true,
-      // TODO: reanble display of recording time at some point.
-      // recordingStartTime: this.audio.audioContext.currentTime
-    });
-    this.audio.start();
-  }
-
-  stopRecording() {
-    this.audio.stop().then(this.processNextClip);;
+  private getSentence(which: number): string {
+    let s = this.state.sentences[which] && this.state.sentences[which];
+    return s || '';
   }
 
   private uploadOne(blob: Blob, sentence: string, progress?: Function) {
@@ -116,46 +102,69 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
       req.send(blob);
     });
-
   }
 
   private uploadSet() {
-    let blob = this.state.recordings[0].blob;
-    let sentence = this.state.sentences[0];
-    this.uploadOne(blob, sentence, loaded => {
-      this.setState({ uploadProgress: loaded });
-    }).then(() => {
-      this.newSentenceSet();
-      this.setState({
-        recordings: [],
-        uploadProgress: 0
+    let recordings = this.state.recordings;
+    let sentences = this.state.sentences;
+    let runningTotal = 0;
+    let uploadNext = () => {
+
+      if (recordings.length === 0) {
+        this.newSentenceSet();
+        this.setState({
+          recordings: [],
+          sentences: [],
+          uploadProgress: 0
+        });
+        return;
+      }
+
+      let recording = recordings.pop();
+      let blob = recording.blob;
+      let sentence = this.state.sentences.pop();
+
+      this.uploadOne(blob, sentence, loaded => {
+        this.setState({ uploadProgress: runningTotal + loaded });
+      }).then((evt) => {
+        console.log('upload evt', evt);
+        runningTotal += 100;
+        this.setState({ uploadProgress: runningTotal });
+        uploadNext();
       });
+    };
+
+    // Start the recursive chain to upload the recordings serially.
+    uploadNext();
+  }
+
+  private isFull(): boolean {
+    return this.state.recordings.length >= SET_COUNT;
+  }
+
+  onRecordClick() {
+    if (this.state.recording) {
+      this.stopRecording();
+
+    // Don't start a new recording when full.
+    } else if (!this.isFull()) {
+      this.audio.init().then(() => {
+        this.startRecording();
+      });
+    }
+  }
+
+  startRecording() {
+    this.setState({
+      recording: true,
+      // TODO: reanble display of recording time at some point.
+      // recordingStartTime: this.audio.audioContext.currentTime
     });
+    this.audio.start();
   }
 
-  play = () => {
-    if (!this.audio.last) {
-      console.error('cannot play when there is no recording');
-      return;
-    }
-
-    if (this.state.playing) {
-      this.playerEl.pause();
-      this.setState({ playing: false });
-      return;
-    }
-
-    this.playerEl.src = this.audio.last.url;
-    this.playerEl.play();
-    this.setState({ playing: true });
-  }
-
-  onPlay = () => {}
-
-  onCanPlayThrough = () => {}
-
-  onPlayEnded = () => {
-    this.setState({ playing: false });
+  stopRecording() {
+    this.audio.stop().then(this.processRecording);;
   }
 
   onNextClick = () => {
@@ -170,22 +179,26 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   }
 
   render() {
-    let isFull = this.state.recordings.length >= SET_COUNT;
-    let texts = [];
+    let isFull = this.isFull();
+    let texts = [];   // sentence elements
+    let listens = []; // listen boxes
 
     // Get the text prompts.
-    if (!isFull) {
-      for (let i = 0; i < SET_COUNT; ++i) {
+    for (let i = 0; i < SET_COUNT; i++) {
 
-        // Figure out where each item is positioned.
-        let className = 'text-box';
-        if (i < this.state.recordings.length) {
-          className = className + ' left';
-        } else if (i > this.state.recordings.length) {
-          className = className + ' right';
-        }
-        texts.push(<p className={className}>{this.state.sentences[i]}</p>);
+      // For the sentences elements, we need to 
+      // figure out where each item is positioned.
+      let className = 'text-box';
+      let length = this.state.recordings.length;
+      if (i < length) {
+        className = className + ' left';
+      } else if (i > length) {
+        className = className + ' right';
       }
+      texts.push(<p className={className}>{this.state.sentences[i]}</p>);
+
+      listens.push(<ListenBox src={this.getRecordingUrl(i)}
+                   sentence={this.getSentence(i)}/>);
     }
 
     let className = this.props.active +
@@ -205,15 +218,13 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
         <p>Naw, generate a new sentence please.</p>
       </div>
       <div id="voice-submit">
-        <div>Thank you!</div>
+        <p id="thank-you">Thank you!</p>
+        <p id="want-to-review">Want to review your recording?</p>
+        <p id="tap-to-play">Tap to play/stop</p>
+        {listens}
         <button onClick={this.uploadSet}>Submit</button>
         <div className="progress">{this.state.uploadProgress}</div>
       </div>
-      <audio id="player" controls class="disabled"
-        onCanPlayThrough={this.onCanPlayThrough}
-        onPlay={this.onPlay}
-        onEnded={this.onPlayEnded}
-        ref={el => this.playerEl = el as HTMLAudioElement} />
     </div>;
   }
 }

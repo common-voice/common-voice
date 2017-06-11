@@ -80,6 +80,11 @@ a {
   color: var(--base-font-color);
 }
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
 a:active {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -120,6 +125,47 @@ button:disabled {
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Listen Box Component */
+.listen-box {
+  --listen-box-height: 4rem;
+  --space-between: 0.2rem;
+  height: var(--listen-box-height);
+  display: flex;
+  margin-bottom: var(--space-between);
+  opacity: 0.3;
+}
+
+.listen-box.loaded {
+  opacity: 1;
+}
+
+.sentence-box,
+.play-box {
+  opacity: 1;
+  background-color: #b7d43f;
+}
+
+.sentence-box {
+  padding: 0 0.2rem;
+  overflow: hidden;
+  text-overflow: clip;
+  line-height: 1.6;
+  flex: 1 1 auto;
+  margin-right: var(--space-between);
+  display: flex;
+  align-items: center;
+}
+
+.play-box {
+  min-width: var(--listen-box-height);
+  line-height: var(--listen-box-height);
+  font-size: 180%;
+}
+
+.audio-box {
+  display: none;
 }
 
 @media (min-width: 600px) {
@@ -233,7 +279,7 @@ header.active {
   #content > div {
     box-sizing: border-box;
     min-height: 100%;
-    padding: 0 3rem;
+    padding: 0 var(--page-margin);
     background-image: var(--base-background-image);
     background-size: 120% 20rem;
     background-size: 100% 20rem;
@@ -340,10 +386,11 @@ header.active {
 
 .robot {
   width: 10rem;
+  margin: 0 auto;
 }
 
 #home-container .robot {
-  margin: 5rem auto 0;
+  margin-top: 5rem;
 }
 
 #about-container {
@@ -374,15 +421,12 @@ header.active {
 }
 
 #record-container {
-  font-family: var(--strong-font-family);
-  font-size: 1.3rem;
-  font-weight: bold;
   overflow: hidden;
 }
 
 #recordings-count {
   font-size: 0.8rem;
-  padding: 0.5rem 0;
+  margin-top: 0.5rem;
 }
 
 .full #recordings-count {
@@ -390,18 +434,10 @@ header.active {
 }
 
 .record-sentence {
+  height: 8rem;
+  margin-top: 2rem;
   position: relative;
-  line-height: 1.2em;
-  min-height: 7rem;
-  border-radius: 3px;
-  background-color: rgba(255, 255, 255, 0.7);
-  border-radius: 5px;
-  height: 12rem;
   transition: transform 0.2s ease-in;
-}
-
-.full .record-sentence {
-  transform: scale(0);
 }
 
 .text-box {
@@ -410,7 +446,15 @@ header.active {
   bottom: 0;
   left: 0;
   right: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
   transition: transform 0.4s var(--bounce-curve);
+  font-family: var(--strong-font-family);
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .text-box.left {
@@ -422,18 +466,18 @@ header.active {
 }
 
 #record-container.recording .robot {
-  animation: robot-move 0.8s linear infinite;
+  animation: robot-pulse 0.8s linear infinite;
 }
 
 
-@keyframes robot-move {
+@keyframes robot-pulse {
   50% {
     transform: scale(1.15);
   }
 }
 
 #record-container.full .robot {
-  transform: translateY(-7rem);
+  transform: translateY(-9rem);
 }
 
 #record-help {
@@ -454,21 +498,31 @@ header.active {
 }
 
 #voice-submit {
-  transition: transform 0.2s var(--bounce-curve);
-  transform: translateY(7rem);
+  opacity: 0;
+  transition: all 0.2s var(--bounce-curve);
 }
 
 .full #voice-submit {
+  opacity: 1;
   transform: translateY(-14rem);
 }
 
-#player {
-  display: none;
+#thank-you {
+  font-family: var(--strong-font-family);
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
 }
 
-#player.disabled {
-  opacity: 0.3;
-  pointer-events: none;
+#tap-to-play {
+  text-align: left;
+  font-weight: bold;
+  font-size: 0.8rem;
+  padding: 0.3rem;
+}
+
+#want-to-review {
+  padding: 1rem 0;
 }
 
 #debug-box {
