@@ -134,7 +134,7 @@ button:disabled {
   height: var(--listen-box-height);
   display: flex;
   margin-bottom: var(--space-between);
-  opacity: 0.3;
+  opacity: 0.9;
 }
 
 .listen-box.loaded {

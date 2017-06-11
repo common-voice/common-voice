@@ -4,7 +4,8 @@ const ICONS = {
   bullhorn: '',
   hamburger: '',
   redo: '',
-  play: ''
+  play: '',
+  pause: ''
 }
 
 interface Props {

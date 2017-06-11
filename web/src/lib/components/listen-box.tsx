@@ -41,7 +41,6 @@ export default class ListenBox extends Component<Props, State> {
   }
 
   private onCanPlayThrough() {
-    console.log('hello');
     this.setState({
       loaded: true
     });
@@ -68,7 +67,7 @@ export default class ListenBox extends Component<Props, State> {
                            (this.state.playing ? ' playing' : '')}>
       <div className="sentence-box">{this.props.sentence}</div>
       <div onClick={this.onPlay} class="play-box">
-        <Icon type="play" />
+        <Icon type={this.state.playing ? 'pause': 'play'} />
       </div>
       <audio className="audio-box"
         src={this.props.src}
