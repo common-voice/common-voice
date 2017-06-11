@@ -100,6 +100,14 @@ button {
   border: 1px solid #fb8e92;
   outline: none;
   background-color: #fdc6c8;
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  button {
+    display: block;
+    width: 100%;
+  }
 }
 
 @media (min-width: 600px) {
@@ -166,6 +174,20 @@ button:disabled {
 
 .audio-box {
   display: none;
+}
+
+.progress-button {
+  overflow: hidden;
+}
+
+.progress-button .progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s linear;
 }
 
 @media (min-width: 600px) {

@@ -5,6 +5,7 @@ import Icon from '../icon';
 import AudioIOS from './record/audio-ios';
 import AudioWeb, { AudioInfo } from './record/audio-web';
 import ListenBox from '../listen-box';
+import ProgressButton from '../progress-button';
 import ERROR_MSG from '../../../error-msg';
 import { countSyllables, isNativeIOS, generateGUID } from '../../utility';
 
@@ -125,11 +126,8 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       let blob = recording.blob;
       let sentence = this.state.sentences.pop();
 
-      this.uploadOne(blob, sentence, loaded => {
-        this.setState({ uploadProgress: runningTotal + loaded });
-      }).then((evt) => {
-        console.log('upload evt', evt);
-        runningTotal += 100;
+      this.uploadOne(blob, sentence).then(() => {
+        runningTotal += 100 / SET_COUNT;
         this.setState({ uploadProgress: runningTotal });
         uploadNext();
       });
@@ -240,8 +238,8 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
         <p id="want-to-review">Want to review your recording?</p>
         <p id="tap-to-play">Tap to play/stop</p>
         {listens}
-        <button onClick={this.uploadSet}>Submit</button>
-        <div className="progress">{this.state.uploadProgress}</div>
+        <ProgressButton percent={this.state.uploadProgress}
+                        onClick={this.uploadSet} text="Submit" />
       </div>
     </div>;
   }
