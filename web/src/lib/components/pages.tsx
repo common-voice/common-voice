@@ -38,6 +38,10 @@ export default class Pages extends Component<PagesProps, PagesState> {
     currentPage: null
   };
 
+  private getCurrentPageName() {
+    return this.state.currentPage && this.state.currentPage.substr(1);
+  }
+
   private isValidPage(url): boolean {
     return Object.keys(URLS).some(key => {
       return URLS[key] === url;
@@ -106,7 +110,8 @@ export default class Pages extends Component<PagesProps, PagesState> {
   }
 
   render() {
-    return <div id="main">
+    let pageName = this.getCurrentPageName();
+    return <div id="main" className={pageName}>
       <header className={(this.state.isMenuVisible || this.state.scrolled ?
                           'active' : '')}>
         <a id="main-logo" href="/"
@@ -124,6 +129,10 @@ export default class Pages extends Component<PagesProps, PagesState> {
         </button>
         {this.renderNav('main-nav')}
       </header>
+      <div class="hero">
+        <img className="robot" src="/img/robot.png" />
+        <div class="divider"></div>
+      </div>
       <div id="content" className={this.state.pageTransitioning ?
                                    'transitioning': ''}>
         <Home active={this.isPageActive([URLS.HOME, URLS.ROOT])}
@@ -149,7 +158,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
 
   private renderNav(id?: string) {
     return <nav id={id} className="nav-list">
-      {this.renderTab('/', 'home')}
+      {this.renderTab('/', 'about')}
       {this.renderTab('/record', 'record')}
       {this.renderTab('/listen', 'listen')}
     </nav>;
