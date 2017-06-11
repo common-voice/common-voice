@@ -1,6 +1,5 @@
 import { h, Component } from 'preact';
 import Icon from './icon';
-import About from './pages/about';
 import Home from './pages/home';
 import Listen from './pages/listen';
 import Record from './pages/record';
@@ -12,7 +11,6 @@ const URLS = {
   HOME: '/home',
   RECORD: '/record',
   LISTEN: '/listen',
-  ABOUT: '/about',
   NOTFOUND: '/not-found'
 };
 
@@ -133,7 +131,6 @@ export default class Pages extends Component<PagesProps, PagesState> {
         <Record active={this.isPageActive(URLS.RECORD)}
                 user={this.props.user} />
         <Listen active={this.isPageActive(URLS.LISTEN)} />
-        <About active={this.isPageActive(URLS.ABOUT)} />
         <NotFound active={this.isNotFoundActive()} />
       </div>
       <div id="navigation-modal"
@@ -153,7 +150,6 @@ export default class Pages extends Component<PagesProps, PagesState> {
   private renderNav(id?: string) {
     return <nav id={id} className="nav-list">
       {this.renderTab('/', 'home')}
-      {this.renderTab('/about', 'about')}
       {this.renderTab('/record', 'record')}
       {this.renderTab('/listen', 'listen')}
     </nav>;
