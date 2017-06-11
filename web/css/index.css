@@ -121,6 +121,7 @@ button:disabled {
 /* Icon font element. */
 [data-icon]:before {
   font-family: Icons;
+  font-size: 200%;
   content: attr(data-icon);
   speak: none;
   -webkit-font-smoothing: antialiased;
@@ -161,7 +162,6 @@ button:disabled {
 .play-box {
   min-width: var(--listen-box-height);
   line-height: var(--listen-box-height);
-  font-size: 180%;
 }
 
 .audio-box {
@@ -319,7 +319,6 @@ header.active {
   margin-left: auto;
   background-color: var(--base-font-color);
   color: var(--base-background-color);
-  font-size: 200%;
   border-radius: 50%;
   transition: transform 0.2s ease-in-out;
   transform: rotate(0deg);
@@ -463,6 +462,19 @@ header.active {
 
 .text-box.right {
   transform: translateX(100vw);
+}
+
+#undo-clip {
+  position: absolute;
+  bottom: -50%;
+  color: red;
+  left: 2rem;
+  z-index: var(--middle-z-index);
+  transition: transform 0.2s ease-out;
+}
+
+#undo-clip.hide {
+  transform: translateX(-10rem);
 }
 
 #record-container.recording .robot {

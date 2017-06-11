@@ -54,6 +54,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     this.uploadSet = this.uploadSet.bind(this);
     this.onRecordClick = this.onRecordClick.bind(this);
     this.processRecording = this.processRecording.bind(this);
+    this.goBack = this.goBack.bind(this);
   }
 
   private processRecording(info: AudioInfo) {
@@ -142,6 +143,19 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     return this.state.recordings.length >= SET_COUNT;
   }
 
+  private goBack(): void {
+    if (this.state.recordings.length < 1) {
+      console.error('cannot undo, no recordings');
+      return;
+    }
+
+    let r = this.state.recordings;
+    r.pop();
+    this.setState({
+      recordings: r
+    });
+  }
+
   onRecordClick() {
     if (this.state.recording) {
       this.stopRecording();
@@ -207,7 +221,11 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
     return <div id="record-container" className={className}>
       <p id="recordings-count">{this.state.recordings.length + 1} of 3</p>
-      <div className="record-sentence">{texts}</div>
+      <div className="record-sentence">
+        {texts}
+        <Icon id="undo-clip" type="undo" onClick={this.goBack}
+              className={(this.state.recordings.length === 0 ? 'hide' : '')}/>
+      </div>
       <img onClick={this.onRecordClick} className="robot"
            src="/img/robot.png" />
       <p id="record-help">

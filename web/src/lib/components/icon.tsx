@@ -5,12 +5,14 @@ const ICONS = {
   hamburger: '',
   redo: '',
   play: '',
-  pause: ''
+  pause: '',
+  undo: ''
 }
 
 interface Props {
-  id?: string;
   type: string;
+  id?: string;
+  className?: string;
   onClick?(event: MouseEvent): void;
 }
 
@@ -25,6 +27,8 @@ export default class Icon extends Component<Props, void> {
   render() {
     let icon = this.getIcon(this.props.type);
     return <span onClick={this.props.onClick} id={this.props.id}
-                 aria-hidden="true" data-icon={icon}></span>;
+                 className={this.props.className} aria-hidden="true"
+                 data-icon={icon}>
+           </span>;
   }
 }

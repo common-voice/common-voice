@@ -31,7 +31,8 @@ export default class ListenBox extends Component<Props, State> {
   state = {
     loaded: false,
     playing: false,
-    audio: null
+    audio: null,
+    className: ''
   };
 
   private onLoadStart() {
