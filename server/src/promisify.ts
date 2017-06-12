@@ -8,8 +8,8 @@ export default function make(context: any, method: Function, args?: any[]) {
     args = [args];
   }
 
-  return new Promise((resolve: EventListener, reject: EventListener) => {
-    method.apply(context, args.concat([(err: Event, result: any) => {
+  return new Promise((resolve: any, reject: any) => {
+    method.apply(context, args.concat([(err: any, result: any) => {
       if (err) {
         reject(err);
         return;
