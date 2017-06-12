@@ -240,6 +240,10 @@ header.active {
     flex-direction: column;
     padding-top: 11rem;
     background-color: transparent;
+    pointer-events: none;
+  }
+  header > * {
+    pointer-events: auto;
   }
 }
 
@@ -310,6 +314,7 @@ footer {
 #content > div {
   display: none;
   opacity: 0;
+  box-sizing: border-box;
   transition: opacity 0.4s ease-in;
   z-index: var(--bottom-z-index);
   max-width: var(--desktop-width);
