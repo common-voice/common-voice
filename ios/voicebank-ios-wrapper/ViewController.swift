@@ -7,6 +7,8 @@ import WebKit
 class ViewController: UIViewController, WKScriptMessageHandler, WKNavigationDelegate {
     var webView: WKWebView?
     var recorder: Recorder!
+    var orientation: UIInterfaceOrientationMask!
+    
     @IBOutlet weak var labelStatus: UILabel!
     @IBOutlet weak var activityIndicatorView: UIActivityIndicatorView!
 
@@ -46,6 +48,12 @@ class ViewController: UIViewController, WKScriptMessageHandler, WKNavigationDele
                 recorder.stopPlayingCapture()
             case "openSettings":
                 UIApplication.shared.open(URL(string: UIApplicationOpenSettingsURLString)!, options: [:], completionHandler: nil)
+            case "lockportrait":
+                orientation = [UIInterfaceOrientationMask.portrait, UIInterfaceOrientationMask.portraitUpsideDown]
+            case "locklandscape":
+                orientation = UIInterfaceOrientationMask.landscape
+            case "unlockall":
+                orientation = UIInterfaceOrientationMask.all
             default :
                 break
         }
@@ -60,6 +68,15 @@ class ViewController: UIViewController, WKScriptMessageHandler, WKNavigationDele
         labelStatus.text = "Error loading the webapp"
     }
     
+    override var supportedInterfaceOrientations:UIInterfaceOrientationMask {
+        if (orientation != nil) {
+            return orientation
+        }
+        else {
+            return  [UIInterfaceOrientationMask.portrait, UIInterfaceOrientationMask.portraitUpsideDown]
+        }
+    }
+        
     func webView(_ webView: WKWebView,
                  didFinish navigation: WKNavigation!) {
         webView.isHidden = false
