@@ -66,6 +66,10 @@ function nativemsgs(permission){
     document.querySelector('#placeholder').innerHTML = 'Native msgs ' + permission;
 }
 
+function orientationapi(orientation){
+    window.webkit.messageHandlers["scriptHandler"].postMessage(orientation);
+}
+
 </script>
 
 <br><br><br>
@@ -74,6 +78,9 @@ function nativemsgs(permission){
 <input type="button" value="Play Recording" width="300" height="300" onclick="play_recording()"/>  <br> <br>
 <input type="button" value="Stop Recording" width="300" height="300" onclick="stop_playing()"/>  <br> <br>
 <input type="button" value="Open Settings" width="300" height="300" onclick="open_settings()"/>  <br> <br>
+<input type="button" value="Lock portrait orientation" width="300" height="300" onclick="orientationapi('lockportrait')"/>  <br> <br>
+<input type="button" value="Lock landscape orientation" width="300" height="300" onclick="orientationapi('locklandscape')"/>  <br> <br>
+<input type="button" value="Unlock orientation" width="300" height="300" onclick="orientationapi('unlockall')"/>  <br> <br>
 
 <div id='placeholder'></div>
 <script> displayiOS(); </script>
