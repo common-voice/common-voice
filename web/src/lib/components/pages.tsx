@@ -141,6 +141,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
                 user={this.props.user} />
         <Listen active={this.isPageActive(URLS.LISTEN)} />
         <NotFound active={this.isNotFoundActive()} />
+        <footer></footer>
       </div>
       <div id="navigation-modal"
            className={this.state.isMenuVisible && 'is-active'}>
