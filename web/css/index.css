@@ -170,15 +170,38 @@ button:disabled {
   text-overflow: clip;
   line-height: 1.6;
   flex: 1 1 auto;
-  margin-right: var(--space-between);
   display: flex;
   align-items: center;
+  margin-right: var(--space-between);
 }
 
 .play-box {
   min-width: var(--listen-box-height);
   line-height: var(--listen-box-height);
   text-align: center;
+}
+
+.vote-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+
+.vote-box > a {
+  height: 50%;
+  box-sizing: border-box;
+  font-size: 0.8rem;
+  line-height: 2rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.vote-box > :first-child {
+  border-bottom: 1px dotted black;
+}
+
+.vote-box > :not(:first-child) {
+  color: red;
 }
 
 .audio-box {

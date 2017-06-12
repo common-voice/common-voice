@@ -6,7 +6,9 @@ const ICONS = {
   redo: '',
   play: '',
   pause: '',
-  undo: ''
+  undo: '',
+  check: '',
+  x: ''
 }
 
 interface Props {

@@ -1,5 +1,5 @@
 import { h, Component } from 'preact';
-import ListenBox from '../listen-box';
+import Validator from '../validator';
 
 interface Props {
   active: string;
@@ -28,7 +28,7 @@ export default class Home extends Component<Props, void> {
       </div>
       <div id="try-it-container">
         <h2>Try it!</h2>
-        <ListenBox src="missing" sentence="First sentence to read."/>
+        <Validator />
       </div>
     </div>;
   }

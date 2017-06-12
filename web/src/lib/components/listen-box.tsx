@@ -2,8 +2,10 @@ import { h, Component } from 'preact';
 import Icon from './icon';
 
 interface Props {
-  src: string;
-  sentence: string;
+  src?: string;
+  sentence?: string;
+  vote?: string;
+  onVote?(valid: boolean): void;
 }
 
 interface State {
@@ -31,8 +33,7 @@ export default class ListenBox extends Component<Props, State> {
   state = {
     loaded: false,
     playing: false,
-    audio: null,
-    className: ''
+    audio: null
   };
 
   private onLoadStart() {
@@ -69,6 +70,12 @@ export default class ListenBox extends Component<Props, State> {
       <div className="sentence-box">{this.props.sentence}</div>
       <div onClick={this.onPlay} class="play-box">
         <Icon type={this.state.playing ? 'pause': 'play'} />
+      </div>
+      <div style={!this.props.vote ? 'display: none;' : ''} class="vote-box">
+        <a onClick={e=>{this.props.onVote(true);}}>
+          <Icon type="check"/>Sure is!</a>
+        <a onClick={e=>{this.props.onVote(false);}}>
+          <Icon type="x"/>Nope.</a>
       </div>
       <audio className="audio-box"
         src={this.props.src}
