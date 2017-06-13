@@ -8,7 +8,8 @@ const ICONS = {
   pause: '',
   undo: '',
   check: '',
-  x: ''
+  x: '',
+  github: ''
 }
 
 interface Props {

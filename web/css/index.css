@@ -270,6 +270,8 @@ header.active {
 footer {
   height: 6rem;
   background-color: #3dfefd;
+  text-align: center;
+  padding-top: 1.4rem;
 }
 
 .nav-list {

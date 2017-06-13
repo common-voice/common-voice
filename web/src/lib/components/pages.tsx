@@ -149,7 +149,13 @@ export default class Pages extends Component<PagesProps, PagesState> {
           <Profile active={this.isPageActive(URLS.PROFILE)} />
           <NotFound active={this.isNotFoundActive()} />
         </div>
-        <footer></footer>
+        <footer>
+          <a target="_blank" href="https://github.com/mozilla/voice-web">
+            <Icon type="github" />
+            <p class="strong">Contribute</p>
+            <p>on Github</p>
+          </a>
+        </footer>
       </div>
       <div id="navigation-modal"
            className={this.state.isMenuVisible && 'is-active'}>
@@ -159,7 +165,8 @@ export default class Pages extends Component<PagesProps, PagesState> {
   }
 
   private renderTab(url: string, name: string) {
-    return <a className={'tab ' + this.isPageActive(url, this.props.currentPage)}
+    let c = 'tab ' + this.isPageActive(url, this.props.currentPage);
+    return <a className={c}
               onClick={this.props.navigate.bind(null, url)}>
              <span className="tab-name">{name}</span>
            </a>;
