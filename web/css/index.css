@@ -312,6 +312,8 @@ footer {
   background-repeat: no-repeat;
   background-position: center -3rem;
   background-attachment: local;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
 }
 
 @media (max-width: 600px) {
@@ -324,8 +326,6 @@ footer {
 }
 
 #content {
-  -webkit-overflow-scrolling: touch;
-  scroll-behavior: smooth;
   transition: opacity 0.15s linear;
   opacity: 1;
 }
