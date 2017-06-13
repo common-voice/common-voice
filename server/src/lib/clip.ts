@@ -91,13 +91,13 @@ export default class Clip {
   save(request: http.IncomingMessage): Promise<string> {
     let info = request.headers;
     let uid = info.uid;
-    let sentence = decodeURI(info.sentence);
+    let sentence = decodeURI(info.sentence as string);
 
     return new Promise((resolve: Function, reject: Function) => {
 
       // First we need to figure out the file extension.
       let extension;
-      let contentType = info['content-type'];
+      let contentType = info['content-type'] as string;
 
       if (contentType.startsWith('audio/ogg')) {
         // Firefox gives us opus in an ogg.
