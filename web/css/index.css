@@ -45,17 +45,7 @@ html {
   font-size: var(--base-font-size);
   color: var(--base-font-color);
   background-color: var(--base-background-color);
-  background-image: var(--base-background-image);
-  background-size: 100% 20rem;
-  background-repeat: no-repeat;
-  background-position: center -3rem;
   overflow-x: hidden;
-}
-
-@media (max-width: 600px) {
-  html {
-    background: none;
-  }
 }
 
 html, body, #main {
@@ -105,9 +95,9 @@ button {
   font-weight: bold;
   text-align: center;
   cursor: pointer;
-  border: 1px solid #fb8e92;
+  border: 1px solid black;
   outline: none;
-  background-color: #fdc6c8;
+  background-color: transparent;
   position: relative;
 }
 
@@ -125,7 +115,8 @@ button {
 }
 
 button:active {
-  background: #fb8e92;
+  background: black;
+  color: white;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
@@ -239,11 +230,12 @@ header {
   box-sizing: border-box;
   z-index: var(--top-z-index);
   align-items: flex-start;
-  background-color: var(--base-background-color);
+  transition: background-color 0.15s linear;
 }
 
 header.active {
   box-shadow: var(--shadow-overhang);
+  background-color: var(--base-background-color);
 }
 
 @media (max-width: 600px) {
@@ -256,8 +248,8 @@ header.active {
   header {
     max-width: var(--desktop-width);
     padding-right: calc(var(--desktop-width) - var(--sidebar-width));
-    margin: 0 auto;
     position: absolute;
+    margin: 0 auto;
     height: unset;
     align-items: baseline;
     flex-direction: column;
@@ -309,13 +301,24 @@ footer {
   transition: none;
 }
 
+#scroller {
+  background-image: var(--base-background-image);
+  background-size: 100% 20rem;
+  background-repeat: no-repeat;
+  background-position: center -3rem;
+  background-attachment: local;
+}
+
+@media (max-width: 600px) {
+  #scroller {
+    position: fixed;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    overflow-y: scroll;
+  }
+}
+
 #content {
-  position: fixed;
-  top: var(--header-height);
-  bottom: 0;
-  left: 0;
-  right: 0;
-  overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
   transition: opacity 0.15s linear;
@@ -329,7 +332,6 @@ footer {
 @media (min-width: 600px) {
   #content {
     position: unset;
-    overflow-y: unset;
     flex: 1 1 100%;
   }
 }
@@ -342,10 +344,6 @@ footer {
   z-index: var(--bottom-z-index);
   max-width: var(--desktop-width);
   margin: 0 auto;
-  background-image: url("/img/dot.png");
-  background-repeat: repeat-y;
-  background-position: 3rem center;
-  background-size: 0.5rem;
 }
 
 @media (max-width: 600px) {
@@ -353,10 +351,6 @@ footer {
     box-sizing: border-box;
     min-height: 100%;
     padding: 0 var(--page-margin);
-    background-image: var(--base-background-image);
-    background-size: 100% 20rem;
-    background-repeat: no-repeat;
-    background-position: center -10vw;
     text-align: center;
   }
 }
@@ -454,7 +448,7 @@ footer {
   font-weight: bold;
   font-size: 1.3rem;
   border-bottom: 2px dashed;
-  border-bottom-color: var(--color-accent);
+  border-bottom-color: #d5d5d5;
 }
 
 .hero {
@@ -463,40 +457,27 @@ footer {
   border-bottom: 3px solid var(--base-font-color);
 }
 
-/* Don't display hero on record page. */
-.record .hero {
-  display: none;
-}
-
-@media (max-width: 600px) {
-  .hero {
-    display: none;
-  }
-}
-
 .hero-space {
   height: 9.5rem;
   background-color: var(--base-background-color);
 }
 
-/* Don't display hero on record page. */
-.record .hero-space {
-  display: none;
+@media (max-width: 600px) {
+  .hero-space {
+    height: 2.5rem;
+    background: none;
+  }
 }
 
 .robot {
   height: 15rem;
   margin: 0 auto;
-}
-
-.hero .robot {
   bottom: -4rem;
   position: absolute;
   left: 0;
   right: 0;
   z-index: var(--middle-z-index);
 }
-
 
 #about-container {
   padding: 0.3rem 1rem;
@@ -506,14 +487,13 @@ footer {
 }
 
 #home-title {
-  padding-bottom: 1rem;
+  padding: 1rem 0;
   background-color: var(--base-background-color);
 }
 
 @media (max-width: 600px) {
   #home-title {
     background: none;
-    padding-top: 5rem;
   }
   #home-layout div.left-column {
     padding-left: 0;
@@ -635,21 +615,6 @@ footer {
 #undo-clip.hide {
   transform: translateX(-10rem);
   opacity: 0;
-}
-
-#record-container.recording .robot {
-  animation: robot-pulse 0.8s linear infinite;
-}
-
-
-@keyframes robot-pulse {
-  50% {
-    transform: scale(1.15);
-  }
-}
-
-#record-container.full .robot {
-  transform: translateY(-9rem);
 }
 
 #record-help {

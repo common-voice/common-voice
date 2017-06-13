@@ -31,6 +31,7 @@ interface PagesState {
 
 export default class Pages extends Component<PagesProps, PagesState> {
   private header: HTMLElement;
+  private scroller: HTMLElement;
   private content: HTMLElement;
 
   state = {
@@ -67,8 +68,8 @@ export default class Pages extends Component<PagesProps, PagesState> {
   }
 
   private addScrollListener() {
-    this.content.addEventListener('scroll', evt => {
-      let scrolled = this.content.scrollTop > 0;
+    this.scroller.addEventListener('scroll', evt => {
+      let scrolled = this.scroller.scrollTop > 0;
       if (scrolled !== this.state.scrolled) {
         this.setState({ scrolled: scrolled });
       }
@@ -76,6 +77,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
   }
 
   componentDidMount() {
+    this.scroller = document.getElementById('scroller');
     this.content = document.getElementById('content');
     this.header = document.querySelector('header');
     this.addScrollListener();
@@ -131,20 +133,22 @@ export default class Pages extends Component<PagesProps, PagesState> {
         </button>
         {this.renderNav('main-nav')}
       </header>
-      <div class="hero">
-        <img className="robot" src="/img/robot.png" />
-        <div class="divider"></div>
-      </div>
-      <div class="hero-space"></div>
-      <div id="content" className={this.state.pageTransitioning ?
-                                   'transitioning': ''}>
-        <Home active={this.isPageActive([URLS.HOME, URLS.ROOT])}
-              navigate={this.props.navigate} />
-        <Record active={this.isPageActive(URLS.RECORD)}
-                user={this.props.user} />
-        <Listen active={this.isPageActive(URLS.LISTEN)} />
-        <Profile active={this.isPageActive(URLS.PROFILE)} />
-        <NotFound active={this.isNotFoundActive()} />
+      <div id="scroller">
+        <div class="hero">
+          <img className="robot" src="/img/robot.png" />
+          <div class="divider"></div>
+        </div>
+        <div class="hero-space"></div>
+        <div id="content" className={this.state.pageTransitioning ?
+                                     'transitioning': ''}>
+          <Home active={this.isPageActive([URLS.HOME, URLS.ROOT])}
+                navigate={this.props.navigate} />
+          <Record active={this.isPageActive(URLS.RECORD)}
+                  user={this.props.user} />
+          <Listen active={this.isPageActive(URLS.LISTEN)} />
+          <Profile active={this.isPageActive(URLS.PROFILE)} />
+          <NotFound active={this.isNotFoundActive()} />
+        </div>
         <footer></footer>
       </div>
       <div id="navigation-modal"

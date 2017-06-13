@@ -224,8 +224,6 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
         <Icon id="undo-clip" type="undo" onClick={this.goBack}
               className={(this.state.recordings.length === 0 ? 'hide' : '')}/>
       </div>
-      <img onClick={this.onRecordClick} className="robot"
-           src="/img/robot.png" />
       <p id="record-help">
         Please read the above sentence and tap me to record.
       </p>
