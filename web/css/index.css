@@ -541,16 +541,8 @@ footer {
 }
 
 #listen-container {
-  background: ivory;
   padding: 0.7rem;
   text-align: center;
-}
-
-#listen-container audio {
-  display: block;
-  width: 70%;
-  margin: 1rem auto;
-  border-radius: 14px;
 }
 
 .validate-lbl {
