@@ -454,7 +454,12 @@ footer {
 .hero {
   position: relative;
   height: var(--hero-height);
-  border-bottom: 3px solid var(--base-font-color);
+}
+
+@media (min-width: 600px) {
+  .hero {
+    border-bottom: 3px solid var(--base-font-color);
+  }
 }
 
 .hero-space {
@@ -464,7 +469,7 @@ footer {
 
 @media (max-width: 600px) {
   .hero-space {
-    height: 2.5rem;
+    height: 3rem;
     background: none;
   }
 }
@@ -555,7 +560,8 @@ footer {
 }
 
 #record-container {
-  overflow: hidden;
+  position: relative;
+  top: -4.5rem;
   padding-left: var(--sidebar-width);
   text-align: center;
   padding-top: 0;
@@ -563,16 +569,13 @@ footer {
 
 #recordings-count {
   font-size: 0.8rem;
+  font-weight: bold;
   margin-top: 0.5rem;
-}
-
-.full #recordings-count {
-  visibility: hidden;
 }
 
 .record-sentence {
   height: 8rem;
-  margin-top: 2rem;
+  margin-top: 0.5rem;
   position: relative;
   transition: transform 0.2s ease-in;
 }
@@ -583,11 +586,13 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(255, 255, 255, 0.7);
-  border-radius: 5px;
+  padding: 0 0.3rem;
+  background-color: var(--base-background-color);
+  border: 1px solid black;
+  box-shadow: 4px 4px 0 black;
   transition: transform 0.4s var(--bounce-curve);
   font-family: var(--strong-font-family);
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -602,6 +607,32 @@ footer {
   transform: translateX(100vw);
 }
 
+.refresh {
+  position: absolute;
+  right: 0.2rem;
+  bottom: 0.3rem;;
+  font-size: 0.6rem;
+}
+
+#refresh-help {
+  text-align: right;
+  padding-top: 0.3rem;
+  padding-right: 0.6rem;
+}
+
+#record-button {
+  display: inline-block;
+  border-radius: 50%;
+  border: 0.6rem solid black;
+  background-color: white;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.recording #record-button {
+  background-color: red;
+}
+
 #undo-clip {
   position: absolute;
   bottom: -50%;
@@ -612,6 +643,7 @@ footer {
   transition: all 0.2s ease-out;
 }
 
+.full #undo-clip,
 #undo-clip.hide {
   transform: translateX(-10rem);
   opacity: 0;
@@ -622,33 +654,24 @@ footer {
   padding: 0 2rem;
 }
 
-.full #record-help {
-  visibility: hidden;
-}
-
-#toolbar {
-  font-size: 0.8rem;
-}
-
-.full #toolbar {
-  visibility: hidden;
-}
-
 #voice-submit {
   opacity: 0;
   transition: all 0.2s var(--bounce-curve);
 }
 
+.full #voice-record {
+  visibility: hidden;
+}
+
 .full #voice-submit {
   opacity: 1;
-  transform: translateY(-14rem);
+  transform: translateY(-13rem);
 }
 
 #thank-you {
   font-family: var(--strong-font-family);
   font-size: 2rem;
   font-weight: bold;
-  margin-bottom: 2rem;
 }
 
 #tap-to-play {
