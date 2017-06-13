@@ -249,13 +249,18 @@ header.active {
     max-width: var(--desktop-width);
     padding-right: calc(var(--desktop-width) - var(--sidebar-width));
     position: absolute;
+    bottom: 0;
     margin: 0 auto;
     height: unset;
     align-items: baseline;
     flex-direction: column;
     padding-top: 11rem;
-    background-color: transparent;
     pointer-events: none;
+    background-color: transparent;
+    background-image: url("/img/dot.png");
+    background-repeat: repeat-y;
+    background-position: 3rem center;
+    background-size: 0.5rem;
   }
   header > * {
     pointer-events: auto;
@@ -398,7 +403,6 @@ footer {
 
 #main-nav {
   display: none;
-  flex: 1 1 auto;
   margin: 0;
   flex-flow: column nowrap;
   padding: 0;
