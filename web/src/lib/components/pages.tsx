@@ -3,6 +3,7 @@ import Icon from './icon';
 import Home from './pages/home';
 import Listen from './pages/listen';
 import Record from './pages/record';
+import Profile from './pages/profile';
 import NotFound from './pages/not-found';
 import User from '../user';
 
@@ -11,6 +12,7 @@ const URLS = {
   HOME: '/home',
   RECORD: '/record',
   LISTEN: '/listen',
+  PROFILE: '/profile',
   NOTFOUND: '/not-found'
 };
 
@@ -133,6 +135,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
         <img className="robot" src="/img/robot.png" />
         <div class="divider"></div>
       </div>
+      <div class="hero-space"></div>
       <div id="content" className={this.state.pageTransitioning ?
                                    'transitioning': ''}>
         <Home active={this.isPageActive([URLS.HOME, URLS.ROOT])}
@@ -140,6 +143,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
         <Record active={this.isPageActive(URLS.RECORD)}
                 user={this.props.user} />
         <Listen active={this.isPageActive(URLS.LISTEN)} />
+        <Profile active={this.isPageActive(URLS.PROFILE)} />
         <NotFound active={this.isNotFoundActive()} />
         <footer></footer>
       </div>
@@ -162,6 +166,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
       {this.renderTab('/', 'about')}
       {this.renderTab('/record', 'record')}
       {this.renderTab('/listen', 'listen')}
+      {this.renderTab('/profile', 'profile')}
     </nav>;
   }
 }

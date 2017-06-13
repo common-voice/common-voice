@@ -458,10 +458,7 @@ footer {
 }
 
 .hero {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
+  position: relative;
   height: var(--hero-height);
   border-bottom: 3px solid var(--base-font-color);
 }
@@ -475,6 +472,16 @@ footer {
   .hero {
     display: none;
   }
+}
+
+.hero-space {
+  height: 9.5rem;
+  background-color: var(--base-background-color);
+}
+
+/* Don't display hero on record page. */
+.record .hero-space {
+  display: none;
 }
 
 .robot {
@@ -496,11 +503,9 @@ footer {
 }
 
 #home-container {
-  padding-top: var(--hero-height);
 }
 
 #home-title {
-  padding-top: 9.5rem;
   padding-bottom: 1rem;
   background-color: var(--base-background-color);
 }
@@ -573,6 +578,7 @@ footer {
   overflow: hidden;
   padding-left: var(--sidebar-width);
   text-align: center;
+  padding-top: 0;
 }
 
 #recordings-count {
@@ -689,6 +695,10 @@ footer {
 
 #want-to-review {
   padding: 1rem 0;
+}
+
+#profile-container {
+  text-align: center;
 }
 
 #debug-box {
