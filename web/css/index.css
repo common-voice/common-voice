@@ -571,6 +571,12 @@ footer {
   padding-top: 0;
 }
 
+@media (max-width: 600px) {
+  #record-container {
+    overflow-x: hidden;
+  }
+}
+
 #recordings-count {
   font-size: 0.8rem;
   font-weight: bold;
