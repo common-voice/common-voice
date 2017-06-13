@@ -13,6 +13,13 @@
       "source": "./",
       "destination": "/var/www/voice",
       "order": "2"
+    },
+    {
+      "type": "shell",
+      "inline": [
+        "sudo chown -R root:root /var/www/voice"
+      ],
+      "order": "3"
     }
   ]
 }
