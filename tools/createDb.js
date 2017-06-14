@@ -74,11 +74,9 @@ function run(callback) {
       })
         // Forward promise errors to ff.
         .catch((err) => {
-            db.end();
-            f.fail();
             console.error('database create error', err);
-            process.exitCode = 1;
-            callback(err);
+            db.end();
+            f.fail(err);
         });
     })
 
