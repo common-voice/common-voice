@@ -10,6 +10,7 @@ const fs = require('fs');
 const crypto = require('crypto');
 const Promise = require('bluebird');
 const mkdirp = require('mkdirp');
+const findRemoveSync = require('find-remove');
 
 const UPLOAD_PATH = path.resolve(__dirname, '../..', 'upload');
 const CONFIG_PATH = path.resolve(__dirname, '../../..', 'config.json');
@@ -50,11 +51,11 @@ export default class Clip {
     }, (awsResult) => {
       let tmpFile = fs.createWriteStream(tmpFilePath);
       tmpFile = awsResult.createReadStream().pipe(tmpFile);
-      tmpFile.on('end', f.wait());
+      tmpFile.on('finish', f.wait());
     }, () => {
-      ms.pipe(request, response, tmpFilePath, null, f.wait()) 
+      ms.pipe(request, response, tmpFilePath);
     }, () => {
-        fs.unlink(tmpFilePath);
+      findRemoveSync(UPLOAD_PATH, {age: {seconds: 3600}, extensions: '.mp3'});
     });
   }
 
