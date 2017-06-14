@@ -1,15 +1,15 @@
-import Postgres from './db/postgres';
+import Mysql from './db/mysql';
 import UserDB from './db/user-db';
 
 const Promise = require('bluebird');
 
 export default class DB {
-  pg: Postgres;
+  mysql: Mysql;
   user: UserDB;
 
   constructor() {
-    this.pg = new Postgres();
-    this.user = new UserDB(this.pg);
+    this.mysql = new Mysql();
+    this.user = new UserDB(this.mysql);
   }
 
   createAll() {
@@ -19,6 +19,6 @@ export default class DB {
   }
 
   end() {
-    this.pg.end();
+    this.mysql.end();
   }
 }

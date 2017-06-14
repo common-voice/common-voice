@@ -1,16 +1,20 @@
-import Postgres from './postgres';
+import Mysql from './mysql';
 import BaseDB from './base-db';
 
 const NAME = 'users';
 
 const COLUMNS = {
-  'id': 'text primary key',
-  'email': 'text unique',
-  'birthyear': 'smallserial'
+  'id': 'BIGINT NOT NULL AUTO_INCREMENT primary key',
+  'email': 'varchar(200) unique',
+  'birthyear': 'smallint',
+  'accent':   'varchar(100)',
+  'gender':   'varchar(1)',
+  'name':     'varchar(50)',
+  'userid':   'bigint'
 };
 
 export default class UserDB extends BaseDB {
-  constructor(pg: Postgres) {
+  constructor(pg: Mysql) {
     super(pg, NAME, COLUMNS);
   }
 }

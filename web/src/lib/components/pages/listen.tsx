@@ -1,5 +1,6 @@
 import { h, Component } from 'preact';
 import { Clip, default as API } from '../../api';
+import ListenBox from '../listen-box';
 
 interface ListenPageProps {
   active: string;
@@ -27,25 +28,8 @@ export default class Listen extends Component<ListenPageProps, State> {
   render() {
     return <div id="listen-container" className={this.props.active}>
       {this.state.error && <div>{this.state.error}</div>}
-      {this.state.clip && <PreviewClip clip={this.state.clip} />}
+      {this.state.clip && <ListenBox vote="true" src={this.state.clip.audio}
+                                     sentence={this.state.clip.sentence}/>}
     </div>
   }
 }
-
-const PreviewClip = (props: {clip: Clip}) => (
-  <div>
-    <audio src={props.clip.audio} controls></audio>
-    <p>{props.clip.sentence}</p>
-    <form>
-      <label className="validate-lbl" for="yes-validate">
-        <input id="yes-validate" type="radio" name="validate" value="yes" />
-        Yes
-      </label>
-      <label className="validate-lbl" for="no-validate">
-        <input id="no-validate" type="radio" name="validate" value="no" />
-        No
-      </label>
-      <button id="listen-submit" type="submit">Submit</button>
-    </form>
-  </div>
-);

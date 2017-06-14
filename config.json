@@ -1,8 +1,11 @@
 {
   "PROD": false,
-  "DB_ROOT_USER": "",
-  "DB_ROOT_PASS": "",
-  "PGUSER": "",
-  "PGPASS": "",
-  "PGNAME": ""
+  "DB_ROOT_USER": "root",
+  "DB_ROOT_PASS": "root",
+  "MSQLUSER": "voicecommons",
+  "MSQLPASS": "voicecommons",
+  "MSQLDBNAME": "voiceweb",
+  "MSQLHOST": "localhost",
+  "MYSQLPORT":  "3306"
+
 }

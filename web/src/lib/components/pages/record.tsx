@@ -207,7 +207,11 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       } else if (i > length) {
         className = className + ' right';
       }
-      texts.push(<p className={className}>{this.state.sentences[i]}</p>);
+
+      texts.push(<p className={className}>
+        {this.state.sentences[i]}
+        <Icon className="refresh" type="redo" onClick={this.onNextClick} />
+      </p>);
 
       listens.push(<ListenBox src={this.getRecordingUrl(i)}
                    sentence={this.getSentence(i)}/>);
@@ -218,20 +222,18 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       (isFull ? ' full': '');
 
     return <div id="record-container" className={className}>
-      <p id="recordings-count">{this.state.recordings.length + 1} of 3</p>
-      <div className="record-sentence">
-        {texts}
-        <Icon id="undo-clip" type="undo" onClick={this.goBack}
-              className={(this.state.recordings.length === 0 ? 'hide' : '')}/>
-      </div>
-      <img onClick={this.onRecordClick} className="robot"
-           src="/img/robot.png" />
-      <p id="record-help">
-        Please read the above sentence and tap me to record.
-      </p>
-      <div id="toolbar">
-        <Icon type="redo" onClick={this.onNextClick} />
-        <p>Naw, generate a new sentence please.</p>
+      <div id="voice-record">
+        <p id="recordings-count">{this.state.recordings.length + 1} of 3</p>
+        <div className="record-sentence">
+          {texts}
+          <Icon id="undo-clip" type="undo" onClick={this.goBack}
+            className={(this.state.recordings.length === 0 ? 'hide' : '')}/>
+        </div>
+        <p onClick={this.onNextClick} id="refresh-help">Skip this sentence</p>
+        <div id="record-button" onClick={this.onRecordClick}></div>
+        <p id="record-help">
+          Please read the above sentence and tap to record.
+        </p>
       </div>
       <div id="voice-submit">
         <p id="thank-you">Thank you!</p>
