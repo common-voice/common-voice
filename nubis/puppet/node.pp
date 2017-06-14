@@ -9,21 +9,12 @@ package { 'gulp':
   provider => 'npm',
 }
 
-package { 'pm2':
-  ensure   => '2.5.0',
-  provider => 'npm',
-}
-
-package { 'libpq-dev':
-  ensure => 'latest',
-}
-
+# Install mysql libraries
 package { 'libmysqlclient-dev':
   ensure => 'latest',
 }
 
-
-# Build and Prep Node for service
+# Install service dependencies
 exec { 'install deps':
   command => 'npm --verbose install',
   cwd     => "/var/www/$project_name",
@@ -31,9 +22,11 @@ exec { 'install deps':
   require => [
     Class['Nodejs'],
     Package['gulp'],
-    Package['libpq-dev'],
+    Package['libmysqlclient-dev'],
   ],
-}->
+}
+
+# Prepare Node for runtime, build assets and precompile
 exec { 'build':
   command => 'gulp build',
   cwd     => "/var/www/$project_name",
@@ -41,10 +34,12 @@ exec { 'build':
   require => [
     Class['Nodejs'],
     Package['gulp'],
-    Package['libpq-dev'],
+    Package['libmysqlclient-dev'],
+    Exec['install deps'],
   ],
 }
 
+# Create the service with upstart
 include 'upstart'
 
 upstart::job { $project_name:
