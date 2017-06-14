@@ -13,8 +13,10 @@ const COLUMNS = {
   'userid':   'bigint'
 };
 
+const INDEX = "";
+
 export default class UserDB extends BaseDB {
   constructor(pg: Mysql) {
-    super(pg, NAME, COLUMNS);
+    super(pg, NAME, COLUMNS, INDEX);
   }
 }

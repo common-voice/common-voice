@@ -43,7 +43,7 @@ export default class Mysql {
     };
 
     this.pool  = mysql.createPool({
-        connectionLimit : 20,
+        connectionLimit : 100,
         host            : myConfig.host,
         user            : myConfig.user,
         password        : myConfig.password,
