@@ -2,9 +2,11 @@
   "port": 9000,
   "logfile": "/var/log/voice.log",
   "PROD": true,
-  "DB_ROOT_USER": "",
-  "DB_ROOT_PASS": "",
-  "PGUSER": "",
-  "PGPASS": "",
-  "PGNAME": ""
+  "DB_ROOT_USER": "{{ if exists "/config/DBuser" }}{{ getv "/config/DBuser" }}{{ else }}voicecommons{{ end }}",
+  "DB_ROOT_PASS": "{{ if exists "/config/DBpassword" }}{{ getv "/config/DBpassword" }}{{ else }}voicecommons{{ end }}",
+  "MSQLUSER": "{{ if exists "/config/DBuser" }}{{ getv "/config/DBuser" }}{{ else }}voicecommons{{ end }}",
+  "MSQLPASS": "{{ if exists "/config/DBpassword" }}{{ getv "/config/DBpassword" }}{{ else }}voicecommons{{ end }}",
+  "MSQLDBNAME": "{{ if exists "/config/DBname" }}{{ getv "/config/DBname" }}{{ else }}voiceweb{{ end }}",
+  "MSQLHOST": "{{ if exists "/config/DBserver" }}{{ getv "/config/DBserver" }}{{ else }}localhost{{ end }}",
+  "MYSQLPORT":  "3306"
 }
