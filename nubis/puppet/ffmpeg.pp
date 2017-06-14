@@ -6,4 +6,4 @@ package { 'libav-tools':
 file { '/usr/bin/ffmpeg':
   ensure => 'link',
   target => '/usr/bin/avconv',
-} 
+}

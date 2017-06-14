@@ -1,6 +1,6 @@
 # Install dependencies
 
-class { 'nodejs': 
+class { 'nodejs':
   repo_url_suffix => '6.x',
 }
 
@@ -17,7 +17,7 @@ package { 'libmysqlclient-dev':
 # Install service dependencies
 exec { 'install deps':
   command => 'npm --verbose install',
-  cwd     => "/var/www/$project_name",
+  cwd     => "/var/www/${project_name}",
   path    => [ '/bin', '/usr/bin', '/usr/local/bin' ],
   require => [
     Class['Nodejs'],
@@ -29,7 +29,7 @@ exec { 'install deps':
 # Prepare Node for runtime, build assets and precompile
 exec { 'build':
   command => 'gulp build',
-  cwd     => "/var/www/$project_name",
+  cwd     => "/var/www/${project_name}",
   path    => [ '/bin', '/usr/bin', '/usr/local/bin' ],
   require => [
     Class['Nodejs'],
@@ -49,9 +49,9 @@ upstart::job { $project_name:
     respawn        => true,
     respawn_limit  => 'unlimited',
     start_on       => '(local-filesystems and net-device-up IFACE!=lo)',
-    chdir          => "/var/www/$project_name",
+    chdir          => "/var/www/${project_name}",
     env            => {
-      'HOME' => "/var/www/$project_name",
+      'HOME' => "/var/www/${project_name}",
     },
     user           => 'root',
     group          => 'root',
