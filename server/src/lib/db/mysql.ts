@@ -53,7 +53,7 @@ export default class Mysql {
     this.pool.on('error', this.handleIdleError.bind(this));
   }
 
-  private handleIdleError(err: ErrorEvent) {
+  private handleIdleError(err: any) {
     console.error('idle client error', err.message);
   }
 

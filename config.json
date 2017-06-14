@@ -6,6 +6,7 @@
   "MSQLPASS": "voicecommons",
   "MSQLDBNAME": "voiceweb",
   "MSQLHOST": "localhost",
-  "MYSQLPORT":  "3306"
-
+  "MYSQLPORT":  "3306",
+  "BUCKET_NAME": "",
+  "BUCKET_LOCATION": ""
 }
