@@ -221,7 +221,9 @@ export default class Files {
 
       awsRequest.on('complete', (response) => {
         if (response.error) {
-          console.error('Did not find any clips', response.error);
+          console.error('Error while fetching clip list', response.error);
+          this.initialized = true;
+          res();
           return;
         }
 
