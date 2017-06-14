@@ -1,6 +1,4 @@
-import Postgres from './postgres';
-import promisify from '../../promisify';
-
+import Mysql from './mysql';
 const Promise = require('bluebird');
 
 /**
@@ -9,7 +7,7 @@ const Promise = require('bluebird');
 export default class BaseDB {
 
   constructor(
-    public pg: Postgres,
+    public mysql: Mysql,
     public name: string,
     public columns: Object
   ) {}
@@ -18,8 +16,15 @@ export default class BaseDB {
    * Query database, but using promises.
    */
   q(text: string, values?: any[]) {
-    return promisify(this.pg, this.pg.query, [text, values]);
-  }
+
+    return new Promise((resolve, reject) => {
+
+      this.mysql.query(text,null,(error, results) => {
+        error ? reject(error) : resolve(results);
+      });
+
+    })
+  };
 
   /**
    * Create the postgres table this object represents.

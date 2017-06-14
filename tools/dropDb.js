@@ -1,16 +1,16 @@
 const ff = require('ff');
 const config = require('../config.json');
-const Postgres = require('../server/js/lib/db/postgres').default;
+const Mysql = require('../server/js/lib/db/mysql').default;
 
-const DBNAME = 'voiceweb' || config.PBDATABASE;
-const USERNAME = 'voiceweb' || config.PGUSER;
+const DBNAME = '' || config.MSQLDBNAME;
+const USERNAME = '' || config.MSQLUSER;
 
 /**
- * Create the database.
+ * Drop the database.
  */
 function run(callback) {
   // Make sure we have a superuser username and password
-  let user = config.DB_ROOT_USER || 'postgres';
+  let user = config.DB_ROOT_USER || 'root';
   let pass = config.DB_ROOT_PASS || '';
 
   if (!user) {
@@ -19,16 +19,16 @@ function run(callback) {
     return;
   }
 
-  let pg = new Postgres({
+  let mysql = new Mysql({
     user: user,
     password: pass,
-    database: 'template1'
+    database: 'sys'
   });
 
   let f = ff(() => {
-    pg.query(`DROP DATABASE IF EXISTS ${DBNAME};`, f());
+    mysql.query(`DROP DATABASE IF EXISTS ${DBNAME};`, null, f.slot());
   }, () => {
-    pg.query(`DROP USER IF EXISTS ${USERNAME};`, f());
+    mysql.query(`DROP USER IF EXISTS ${USERNAME}@localhost;`, null, f.slot());
   }).onComplete((err, result) => {
     if (err) {
       console.error('drop error', err);
@@ -37,7 +37,7 @@ function run(callback) {
     }
 
     console.log('database dropped.');
-    pg.end();
+    mysql.end();
     callback();
   });
 }
