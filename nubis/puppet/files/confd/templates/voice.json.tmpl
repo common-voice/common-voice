@@ -1,0 +1,14 @@
+{
+  "port": 9000,
+  "logfile": "/var/log/voice.log",
+  "PROD": true,
+  "DB_ROOT_USER": "{{ if exists "/config/DBuser" }}{{ getv "/config/DBuser" }}{{ else }}voicecommons{{ end }}",
+  "DB_ROOT_PASS": "{{ if exists "/config/DBpassword" }}{{ getv "/config/DBpassword" }}{{ else }}voicecommons{{ end }}",
+  "MSQLUSER": "{{ if exists "/config/DBuser" }}{{ getv "/config/DBuser" }}{{ else }}voicecommons{{ end }}",
+  "MSQLPASS": "{{ if exists "/config/DBpassword" }}{{ getv "/config/DBpassword" }}{{ else }}voicecommons{{ end }}",
+  "MSQLDBNAME": "{{ if exists "/config/DBname" }}{{ getv "/config/DBname" }}{{ else }}voiceweb{{ end }}",
+  "MSQLHOST": "{{ if exists "/config/DBserver" }}{{ getv "/config/DBserver" }}{{ else }}localhost{{ end }}",
+  "MYSQLPORT":  "3306",
+  "BUCKET_NAME": "{{ if exists "/config/Bucket/Clips/Name" }}{{ getv "/config/Bucket/Clips/Name" }}{{ end }}",
+  "BUCKET_LOCATION": "{{ if exists "/config/Bucket/Clips/Region" }}{{ getv "/config/Bucket/Clips/Region" }}{{ end }}"
+}

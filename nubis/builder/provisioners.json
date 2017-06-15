@@ -1,0 +1,25 @@
+{
+  "provisioners": [
+    {
+      "type": "shell",
+      "inline": [
+        "sudo mkdir -p -m 755 /var/www/voice",
+        "sudo chown ubuntu:ubuntu /var/www/voice"
+      ],
+      "order": "1"
+    },
+    {
+      "type": "file",
+      "source": "./",
+      "destination": "/var/www/voice",
+      "order": "2"
+    },
+    {
+      "type": "shell",
+      "inline": [
+        "sudo chown -R root:root /var/www/voice"
+      ],
+      "order": "3"
+    }
+  ]
+}
