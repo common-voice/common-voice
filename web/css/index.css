@@ -144,6 +144,11 @@ button.dark {
   color: white;
 }
 
+button.dark:active {
+  background-color: white;
+  color: black;
+}
+
 select {
   display: block;
   background: none;
@@ -864,6 +869,11 @@ header.active {
 
 #profile-container select {
   margin-bottom: 0.5rem;
+}
+
+#profile-container #save-demos {
+  margin-top: 1rem;
+  width: 100%;
 }
 
 #opt-in {

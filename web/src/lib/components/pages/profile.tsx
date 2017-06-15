@@ -1,5 +1,5 @@
 import { h, Component } from 'preact';
-import { ACCENTS, default as User } from '../../user';
+import { ACCENTS, AGES, default as User } from '../../user';
 
 interface Props {
   user: User;
@@ -30,6 +30,9 @@ export default class Profile extends Component<Props, State> {
   private saveDemographics() {
     let el = document.getElementById('profile-accent') as HTMLSelectElement;
     this.props.user.setAccent(el.options[el.selectedIndex].value);
+
+    el = document.getElementById('profile-age') as HTMLSelectElement;
+    this.props.user.setAge(el.options[el.selectedIndex].value);
   }
 
   render() {
@@ -40,6 +43,14 @@ export default class Profile extends Component<Props, State> {
       accentOptions.push(
         <option value={accent} selected={user.accent === accent}>
           {ACCENTS[accent]}
+        </option>);
+    });
+
+    let ageOptions = [];
+    Object.keys(AGES).forEach(age => {
+      ageOptions.push(
+        <option value={age} selected={user.age === age}>
+          {AGES[age]}
         </option>);
     });
 
@@ -67,15 +78,7 @@ export default class Profile extends Component<Props, State> {
       <label for="profile-age">Your age</label>
       <select id="profile-age">
         <option>--</option>
-        <option>&lt; 19</option>
-        <option>19 - 29</option>
-        <option>30 - 39</option>
-        <option>40 - 49</option>
-        <option>50 - 59</option>
-        <option>60 - 69</option>
-        <option>70 - 79</option>
-        <option>80 - 89</option>
-        <option>&gt; 89</option>
+        {ageOptions}
       </select>
       <label for="profile-gender">Your gender</label>
       <select id="profile-gender">
@@ -84,7 +87,7 @@ export default class Profile extends Component<Props, State> {
         <option>Female</option>
         <option>Other</option>
       </select>
-      <button class="dark" onClick={this.saveDemographics}>
+      <button id="save-demos" class="dark" onClick={this.saveDemographics}>
         Save changes
       </button>
     </div>;

@@ -20,11 +20,24 @@ export const ACCENTS = {
   'singapore': 'Singapore',
 };
 
+export const AGES = {
+  'teens': '< 19',
+  'twenties': '19 - 29',
+  'thirties': '30 - 39',
+  'fourties': '40 - 49',
+  'fifties': '50 - 59',
+  'sixties': '60 - 69',
+  'seventies': '70 - 79',
+  'eighties': '80 - 89',
+  'nineties': '> 89',
+};
+
 interface UserState {
   userId: string;
   email: string;
   sendEmails: boolean;
   accent: string;
+  age: string;
   clips: number;
 }
 
@@ -54,6 +67,7 @@ export default class User {
         email: '',
         sendEmails: false,
         accent: '',
+        age: '',
         clips: 0
       };
       this.save();
@@ -89,6 +103,16 @@ export default class User {
     }
 
     this.state.accent = accent;
+    this.save();
+  }
+
+  public setAge(age: string): void {
+    if (!AGES[age]) {
+      console.error('cannot set unrecognized age', age);
+      return;
+    }
+
+    this.state.age = age;
     this.save();
   }
 
