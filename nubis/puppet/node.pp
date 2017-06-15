@@ -11,7 +11,7 @@ package { 'gulp':
 
 # Needed for binary compilation (i.e. bcrypt)s
 package { 'node-gyp':
-  ensure   => '0.6.36',
+  ensure   => '3.6.2',
   provider => 'npm',
 }
 
