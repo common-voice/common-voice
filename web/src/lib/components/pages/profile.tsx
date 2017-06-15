@@ -13,6 +13,7 @@ export default class Profile extends Component<Props, State> {
   constructor(props) {
     super(props);
     this.saveEmail = this.saveEmail.bind(this);
+    this.configSendEmails = this.configSendEmails.bind(this);
   }
 
   private saveEmail() {
@@ -20,18 +21,24 @@ export default class Profile extends Component<Props, State> {
     this.props.user.setEmail(el.value);
   }
 
+  private configSendEmails(e) {
+    let el = e.currentTarget;
+    this.props.user.setSendEmails(el.checked);
+  }
+
   render() {
-    let state = this.props.user.getState();
+    let user = this.props.user.getState();
 
     return <div id="profile-container" className={this.props.active}>
       <h2>Profile Data</h2>
       <div className="input-and-button">
         <label for="email">Your email address</label>
-        <input id="email" type="email" name="email" value={state.email}/>
+        <input id="email" type="email" name="email" value={user.email}/>
         <button onClick={this.saveEmail}>Save</button>
       </div>
       <div id="opt-in">
-        <input id="send-emails" type="checkbox" />
+        <input onClick={this.configSendEmails} id="send-emails"
+               type="checkbox" checked={user.sendEmails} />
         <label for="send-emails">Send me emails</label>
         <p id="email-explanation">
           I'd like to stay informed about the Common Voice Project.

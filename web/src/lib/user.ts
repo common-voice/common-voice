@@ -5,6 +5,7 @@ const USER_KEY = 'userdata';
 interface UserState {
   userId: string;
   email: string;
+  sendEmails: boolean;
   clips: number;
 }
 
@@ -32,6 +33,7 @@ export default class User {
       this.state = {
         userId: generateGUID(),
         email: '',
+        sendEmails: false,
         clips: 0
       };
       this.store();
@@ -52,6 +54,11 @@ export default class User {
 
   public setEmail(email: string): void {
     this.state.email = email;
+    this.store();
+  }
+
+  public setSendEmails(value: boolean): void {
+    this.state.sendEmails = value;
     this.store();
   }
 
