@@ -58,8 +58,8 @@ upstart::job { $project_name:
     env            => {
       'HOME' => "/var/www/${project_name}",
     },
-    user           => 'root',
-    group          => 'root',
+    user           => "${project_name}-data",
+    group          => "${project_name}-data",
     script         => '
   if [ -r /etc/profile.d/proxy.sh ]; then
     echo "Loading Proxy settings"
