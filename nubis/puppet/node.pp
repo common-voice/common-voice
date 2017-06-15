@@ -9,6 +9,12 @@ package { 'gulp':
   provider => 'npm',
 }
 
+# Needed for binary compilation (i.e. bcrypt)s
+package { 'node-gyp':
+  ensure   => '0.6.36',
+  provider => 'npm',
+}
+
 # Install mysql libraries
 package { 'libmysqlclient-dev':
   ensure => 'latest',
@@ -21,7 +27,7 @@ package { 'libpq-dev':
 
 # Install service dependencies
 exec { 'install deps':
-  command => 'npm install',
+  command => 'npm install --unsafe-perm',
   cwd     => "/var/www/${project_name}",
   path    => [ '/bin', '/usr/bin', '/usr/local/bin' ],
   require => [
