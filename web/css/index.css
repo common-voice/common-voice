@@ -139,6 +139,11 @@ button:disabled {
   color: #BDBDBD;
 }
 
+button.dark {
+  background-color: black;
+  color: white;
+}
+
 select {
   display: block;
   background: none;

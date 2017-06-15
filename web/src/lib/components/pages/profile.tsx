@@ -1,5 +1,5 @@
 import { h, Component } from 'preact';
-import User from '../../user';
+import { ACCENTS, default as User } from '../../user';
 
 interface Props {
   user: User;
@@ -14,6 +14,7 @@ export default class Profile extends Component<Props, State> {
     super(props);
     this.saveEmail = this.saveEmail.bind(this);
     this.configSendEmails = this.configSendEmails.bind(this);
+    this.saveDemographics = this.saveDemographics.bind(this);
   }
 
   private saveEmail() {
@@ -26,16 +27,28 @@ export default class Profile extends Component<Props, State> {
     this.props.user.setSendEmails(el.checked);
   }
 
+  private saveDemographics() {
+    let el = document.getElementById('profile-accent') as HTMLSelectElement;
+    this.props.user.setAccent(el.options[el.selectedIndex].value);
+  }
+
   render() {
     let user = this.props.user.getState();
+
+    let accentOptions = [];
+    Object.keys(ACCENTS).forEach(accent => {
+      accentOptions.push(
+        <option value={accent} selected={user.accent === accent}>
+          {ACCENTS[accent]}
+        </option>);
+    });
 
     return <div id="profile-container" className={this.props.active}>
       <h2>Profile Data</h2>
       <div className="input-and-button">
         <label for="email">Your email address</label>
         <input id="email" type="email" name="email" value={user.email}/>
-        <button onClick={this.saveEmail}>Save</button>
-      </div>
+        <button onClick={this.saveEmail}>Save</button> </div>
       <div id="opt-in">
         <input onClick={this.configSendEmails} id="send-emails"
                type="checkbox" checked={user.sendEmails} />
@@ -48,24 +61,8 @@ export default class Profile extends Component<Props, State> {
       <h2>Demographic Data</h2>
       <label for="profile-accent">Your English accent</label>
       <select id="profile-accent">
-        <option>--</option>
-        <option>United States</option>
-        <option>England</option>
-        <option>Scotland</option>
-        <option>Wales</option>
-        <option>Ireland</option>
-        <option>Canada</option>
-        <option>
-          West Indies and Bermuda (Bahamas, Bermuda, Jamaica, Trinidad)
-        </option>
-        <option>Australia</option>
-        <option>New Zealand</option>
-        <option>South Atlantic (Falkland Islands, Saint Helena, )</option>
-        <option>Southern Africa (South Africa, Zimbabwe, Namibia)</option>
-        <option>Philippines</option>
-        <option>Hong Kong</option>
-        <option>Malaysia</option>
-        <option>Singapore</option>
+        <option value="">--</option>
+        {accentOptions}
       </select>
       <label for="profile-age">Your age</label>
       <select id="profile-age">
@@ -87,6 +84,9 @@ export default class Profile extends Component<Props, State> {
         <option>Female</option>
         <option>Other</option>
       </select>
+      <button class="dark" onClick={this.saveDemographics}>
+        Save changes
+      </button>
     </div>;
   }
 }
