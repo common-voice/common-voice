@@ -80,14 +80,13 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
   private uploadOne(blob: Blob, sentence: string, progress?: Function) {
     return new Promise((resolve: EventListener, reject: EventListener) => {
-      let blob = this.audio.last.blob;
       var req = new XMLHttpRequest();
       req.upload.addEventListener('load', resolve);
       req.upload.addEventListener("error", reject);
       req.open('POST', SOUNDCLIP_URL);
       req.setRequestHeader('uid', this.props.user.getId());
       req.setRequestHeader('sentence',
-        encodeURIComponent(this.state.sentences[0]));
+        encodeURIComponent(sentence));
 
       // For IOS, we don't upload binary data but base64. Here we
       // make sure the server knows what to expect.
@@ -124,7 +123,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
       let recording = recordings.pop();
       let blob = recording.blob;
-      let sentence = this.state.sentences.pop();
+      let sentence = sentences.pop();
 
       this.uploadOne(blob, sentence).then(() => {
         runningTotal += 100 / SET_COUNT;
