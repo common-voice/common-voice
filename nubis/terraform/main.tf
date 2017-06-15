@@ -49,3 +49,12 @@ module "storage" {
   client_security_groups = "${module.worker.security_group}"
 }
 
+module "clips" {
+  source       = "github.com/nubisproject/nubis-terraform//bucket?ref=v1.4.2"
+  region       = "${var.region}"
+  environment  = "${var.environment}"
+  account      = "${var.account}"
+  service_name = "${var.service_name}"
+  purpose      = "clips"
+  role         = "${module.worker.role}"
+}
