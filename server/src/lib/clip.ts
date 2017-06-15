@@ -1,8 +1,8 @@
 import * as http from 'http';
 import Files from './files';
 import { getFileExt } from './utility';
+import S3 = require('aws-sdk/clients/s3');
 
-const glob = require('glob');
 const ms = require('mediaserver');
 const path = require('path');
 const ff = require('ff');
@@ -10,6 +10,7 @@ const fs = require('fs');
 const crypto = require('crypto');
 const Promise = require('bluebird');
 const mkdirp = require('mkdirp');
+const findRemoveSync = require('find-remove');
 
 const UPLOAD_PATH = path.resolve(__dirname, '../..', 'upload');
 const CONFIG_PATH = path.resolve(__dirname, '../../..', 'config.json');
@@ -17,14 +18,17 @@ const ACCEPTED_EXT = [ '.mp3', '.ogg', '.webm', '.m4a' ];
 const DEFAULT_SALT = '8hd3e8sddFSdfj';
 const config = require(CONFIG_PATH);
 const salt = config.salt || DEFAULT_SALT;
+const BUCKET_NAME = config.BUCKET_NAME || 'common-voice-corpus';
 
 /**
  * Clip - Responsibly for saving and serving clips.
  */
 export default class Clip {
+  private s3: S3;
   private files: Files;
 
   constructor() {
+    this.s3 = new S3();
     this.files = new Files();
   }
 
@@ -32,14 +36,37 @@ export default class Clip {
     return crypto.createHmac('sha256', salt).update(str).digest('hex');
   }
 
+  private streamAudio(request: http.IncomingMessage,
+                      response: http.ServerResponse,
+                      key: string): void {
+    // Save the data locally, stream to client, remove local data (Performance?)
+    let tmpFilePath = path.join(UPLOAD_PATH, key);
+    let tmpFileDirectory = path.dirname(tmpFilePath);
+    let f = ff(() => {
+      mkdirp(tmpFileDirectory, f.wait());
+    }, () => {
+      let retrieveParam = {Bucket: BUCKET_NAME, Key: key};
+      let awsResult = this.s3.getObject(retrieveParam);
+      f.pass(awsResult);
+    }, (awsResult) => {
+      let tmpFile = fs.createWriteStream(tmpFilePath);
+      tmpFile = awsResult.createReadStream().pipe(tmpFile);
+      tmpFile.on('finish', f.wait());
+    }, () => {
+      ms.pipe(request, response, tmpFilePath);
+    }, () => {
+      findRemoveSync(UPLOAD_PATH, {age: {seconds: 3600}, extensions: '.mp3'});
+    });
+  }
+
   /**
-   * Turn a server url into a local file path.
+   * Turn a server url into a S3 file path.
    */
-  private getLocalFilePath(url: string): string {
+  private getS3FilePath(url: string): string {
     let parts = url.split('/');
     let fileName = parts.pop();
     let folder = parts.pop();
-    return path.join(UPLOAD_PATH, folder, fileName);
+    return folder + '/' + fileName;
   }
 
   /**
@@ -117,13 +144,15 @@ export default class Clip {
       }
 
       // Where is our audio clip going to be located?
-      let folder = path.join(UPLOAD_PATH, uid);
+      let folder = uid + '/';
       let filePrefix = this.hash(sentence);
-      let file = path.join(folder, filePrefix + extension);
+      let file = folder + filePrefix + extension;
+      let txtFile = folder + filePrefix + '.txt';
 
       let f = ff(() => {
         // if the folder does not exist, we create it
-        mkdirp(folder, f.wait());
+        let params = {Bucket: BUCKET_NAME, Key: folder};
+        this.s3.putObject(params, f.wait());
 
         // If we were given base64, we'll need to concat it all first
         // So we can decode it in the next step.
@@ -140,20 +169,24 @@ export default class Clip {
         // If upload was base64, make sure we decode it first.
         if (contentType.includes('base64')) {
           let blob = Buffer.from(Buffer.concat(chunks).toString(), 'base64');
-          fs.writeFile(file, blob, f());
+          let params = {Bucket: BUCKET_NAME, Key: file, Body: blob};
+          this.s3.upload(params, f());
         } else {
-          // For now base64 uploads, we can just stream data into a file.
-          let writeStream = fs.createWriteStream(file);
-          request.pipe(writeStream);
-          request.on('end', f());
+          // For now base64 uploads, we can just stream data.
+          let params = {Bucket: BUCKET_NAME, Key: file, Body: request};
+          this.s3.upload(params, f());
         }
 
         // Don't forget about the sentence text!
-        fs.writeFile(path.join(folder, filePrefix + '.txt'), sentence, f());
+        let params = {Bucket: BUCKET_NAME, Key: txtFile, Body: sentence};
+        this.s3.putObject(params, f());
+      }, () => {
+        // Converts audio to mp3 if required
+        this.files.init().then(f());
       }, () => {
 
         // File saving is now complete.
-        console.log('file written', file);
+        console.log('file written to s3', file);
         resolve(filePrefix);
       }).onError(reject);
     });
@@ -168,17 +201,17 @@ export default class Clip {
       if (!clip) {
       }
 
-      // Generate the full local path to the file.
-      let path = clip[0];
+      // Get full key to the file.
+      let key = clip[0];
       let sentence = clip[1]
-      let file = this.getLocalFilePath(path);
 
       // Send sentence string to client in the header.
       // Note: header is already URL encoded in the file.
       response.setHeader('sentence', sentence);
 
-      // Use mediaserver to stream the audio file to the client.
-      ms.pipe(request, response, file);
+
+      // Stream audio to client
+      this.streamAudio(request, response, key);
     }).catch(err => {
       console.error('problem getting a random clip: ', err);
       response.writeHead(500);
@@ -191,34 +224,36 @@ export default class Clip {
    * Fetch an audio file.
    */
   serve(request: http.IncomingMessage, response: http.ServerResponse) {
-    let prefix = this.getLocalFilePath(request.url);
+    let prefix = this.getS3FilePath(request.url);
 
-    glob(prefix + '.*', (err: any, files: string[]) => {
+    let searchParam = {Bucket: BUCKET_NAME, Prefix: prefix};
+    this.s3.listObjectsV2(searchParam, (err: any, data: any) => {
       if (err) {
-        console.error('could not glob for clip', err);
+        console.error('Did not find specified clip', err);
         response.writeHead(404);
         response.end('Unknown File');
         return;
       }
 
-      // Try to find the right file, since we don't know the extension.
-      let file = null;
-      for (let i = 0; i < files.length; i++) {
-        let ext = getFileExt(files[i]);
+      // Try to find the right key, since we don't know the extension.
+      let key = null;
+      for (let i = 0; i < data.Contents.length; i++) {
+        let ext = getFileExt(data.Contents[i].Key);
         if (ACCEPTED_EXT.indexOf(ext) !== -1) {
-          file = files[i];
+          key = data.Contents[i].Key;
           break;
         }
       }
 
-      if (!file) {
-        console.error('could not find clip', files);
+      if (!key) {
+        console.error('could not find clip', data.Contents);
         response.writeHead(404);
         response.end('Unknown File');
         return;
       }
 
-      ms.pipe(request, response, file);
+      // Stream audio to client
+      this.streamAudio(request, response, key);
     });
   }
 }

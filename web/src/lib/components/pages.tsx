@@ -146,7 +146,8 @@ export default class Pages extends Component<PagesProps, PagesState> {
           <Record active={this.isPageActive(URLS.RECORD)}
                   user={this.props.user} />
           <Listen active={this.isPageActive(URLS.LISTEN)} />
-          <Profile active={this.isPageActive(URLS.PROFILE)} />
+          <Profile user={this.props.user}
+                   active={this.isPageActive(URLS.PROFILE)} />
           <NotFound active={this.isNotFoundActive()} />
         </div>
         <footer>

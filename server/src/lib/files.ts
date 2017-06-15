@@ -1,23 +1,23 @@
 import { map } from '../promisify';
 import { getFileExt } from './utility';
+import S3 = require('aws-sdk/clients/s3');
 
-// This is how many file reads we can do at once.
-const BATCH_SIZE = 5;
-const UPLOAD_PATH = '../../upload/';
-
-// Files we want to convert to mp3.
-const CONVERTABLE_EXTS = ['.ogg', '.m4a'];
-const MP3_EXT = '.mp3';
-
-const fs = require('fs');
+const MemoryStream = require('memorystream');
 const path = require('path');
 const Promise = require('bluebird');
-const walk = require('walk').walk;
 const Queue = require('better-queue');
-const spawn = require('child_process').spawn;
+const sox = require('sox-stream');
+
+const BATCH_SIZE = 5;
+const MP3_EXT = '.mp3';
+const CONVERTABLE_EXTS = ['.ogg', '.m4a'];
+const CONFIG_PATH = path.resolve(__dirname, '../../..', 'config.json');
+const config = require(CONFIG_PATH);
+const BUCKET_NAME = config.BUCKET_NAME || 'common-voice-corpus';
 
 export default class Files {
   private initialized: boolean;
+  private s3: S3;
   private files: {
     // fileGlob: [
     //   sentence: 'the text of the sentenct',
@@ -29,6 +29,7 @@ export default class Files {
 
   constructor() {
     this.initialized = false;
+    this.s3 = new S3();
     this.files = {};
     this.paths = [];
     this.mp3s = [];
@@ -42,16 +43,17 @@ export default class Files {
   }
 
   /**
-   * Read a sentence in from a file.
+   * Read a sentence in from s3.
    */
   private process(data: any, cb: Function) {
-    fs.readFile(data.path, (err: ErrorEvent, txt: Buffer) => {
+    let params = {Bucket: BUCKET_NAME, Key: data.path};
+    this.s3.getObject(params, (err: any, s3Data: any) => {
       if (err) {
-        console.error('Could not read file', data.path, err);
+        console.error('Could not read from s3', data.path, err);
         return cb(err);
       }
 
-      let sentence = txt.toString();
+      let sentence = s3Data.Body.toString();
       this.files[data.glob].sentence = sentence;
       cb(null);
     });
@@ -60,7 +62,7 @@ export default class Files {
   private processBatch(batches: any[], cb: Function) {
     map(this, this.process, batches)
       .then(cb)
-      .error((err: ErrorEvent) => {
+      .error((err: any) => {
         console.log('got an error pocessing the batches', err);
       });
   }
@@ -88,19 +90,37 @@ export default class Files {
     jobs.forEach(job => {
       let glob = job.glob;
       let ext = job.ext;
-      let proc = spawn('ffmpeg', ['-i', glob + ext, glob + MP3_EXT]);
 
-      proc.on('close', () => {
+      // Convert s3 audio from ext to mp3
+      let sourceParams = {Bucket: BUCKET_NAME, Key: glob + ext};
+      let awsRequest = this.s3.getObject(sourceParams);
+      let soxStream = awsRequest.createReadStream()
+        .on('error', (err) => {
+          console.error('could not create aws audio stream', err);
+        })
+        .pipe(sox({output: { type: 'mp3' } }))
+        .on('error', (err) => {
+          console.error('could not stream audio into sox', err);
+        });
+
+      // Pipe mp3 data into a read/write MemoryStream
+      let memStream = new MemoryStream();
+      soxStream.pipe(memStream);
+
+      // Write memStream to s3
+      let sinkParams = {Bucket: BUCKET_NAME, Key: glob + MP3_EXT, Body: memStream};
+      this.s3.upload(sinkParams, (err, data) => {
+        if (err) {
+          console.error('Could not write mp3 back to s3', err);
+          cb();
+          return;
+        }
+
         this.files[glob].exts.push(MP3_EXT);
         ++finished;
         if (finished === jobs.length) {
           cb();
         }
-      });
-
-      proc.on('error', (err: ErrorEvent) => {
-        console.error('could not spawn task', err);
-        cb();
       });
     });
   }
@@ -117,7 +137,7 @@ export default class Files {
 
     return new Promise((res: Function, rej: Function) => {
 
-      let batches = new Queue(this.convert.bind(this), { batchSize: 5 });
+      let batches = new Queue(this.convert.bind(this), { batchSize: BATCH_SIZE });
       batches.on('error', (err: any) => {
         console.error('error process mp3 conversions', err);
         rej(err);
@@ -144,7 +164,7 @@ export default class Files {
       });
 
       batches.on('drain', () => {
-        console.log(`Converted ${missing.length} files to mp3.`);
+        console.log(`Converted ${missing.length} file(s) to mp3.`);
         res();
       });
     });
@@ -168,39 +188,52 @@ export default class Files {
   init(): Promise<any> {
     // Create our batch processor to help us read all sentences
     // from the filesystem without overloading the server.
-    let batches = new Queue(this.processBatch.bind(this),
-      { batchSize: BATCH_SIZE });
+    let batches = new Queue(this.processBatch.bind(this), { batchSize: BATCH_SIZE });
 
     return new Promise((res: Function, rej: Function) => {
-      let walker = walk(path.resolve(__dirname, UPLOAD_PATH));
+      let searchParam = {Bucket: BUCKET_NAME};
+      let awsRequest = this.s3.listObjectsV2(searchParam);
 
-      walker.on('file', (root, fileStats, next) => {
-        let file = path.join(root, fileStats.name);
-        let glob = this.getGlob(file);
-        let ext = getFileExt(file);
+      awsRequest.on('success', (response) => {
+        let contents = response['data']['Contents'];
+        for (let i = 0; i < contents.length; i++) {
+          let key = contents[i].Key;
+          let glob = this.getGlob(key);
+          let ext = getFileExt(key);
 
-        // Track file gobs and extensions of the voice clips.
-        if (!this.files[glob]) {
-          this.files[glob] = {
-            sentence: null,
-            exts: []
+          // Ignore directories
+          if (!glob) {
+            continue;
+          }
+
+          // Track file gobs and extensions of the voice clips.
+          if (!this.files[glob]) {
+            this.files[glob] = {
+              sentence: null,
+              exts: []
+            }
+          }
+
+          // Text files go into our batch processing queue for later reading.
+          if (ext === '.txt') {
+            batches.push({
+              path: key,
+              glob: glob
+            });
+          } else {
+            this.files[glob].exts.push(ext);
           }
         }
-
-        // Text files go into our batch processing queue for later reading.
-        if (ext === '.txt') {
-          batches.push({
-            path: file,
-            glob: glob
-          });
-        } else {
-          this.files[glob].exts.push(ext);
-        }
-
-        next();
       });
 
-      walker.on('end', () => {
+      awsRequest.on('complete', (response) => {
+        if (response.error) {
+          console.error('Error while fetching clip list', response.error);
+          this.initialized = true;
+          res();
+          return;
+        }
+
         this.paths = Object.keys(this.files);
         if (this.paths.length === 0) {
           // No files found, so we are done
@@ -217,6 +250,8 @@ export default class Files {
           res();
         });
       });
+
+      awsRequest.send();
     });
   }
 
@@ -237,8 +272,8 @@ export default class Files {
 
     let items = this.mp3s;
     let glob = items[Math.floor(Math.random()*items.length)];
-    let file = glob + MP3_EXT;
+    let key = glob + MP3_EXT;
     let info = this.files[glob];
-    return Promise.resolve([file, info.sentence]);
+    return Promise.resolve([key, info.sentence]);
   }
 }

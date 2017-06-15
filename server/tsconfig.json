@@ -5,6 +5,10 @@
     "strictNullChecks": false,
     "noEmitOnError": true,
     "typeRoots": [ "../node_modules/@types" ],
-    "rootDir": "./src"
+    "rootDir": "./src",
+    "lib": [
+        "es5",
+        "es2015.promise"
+    ]
   }
 }

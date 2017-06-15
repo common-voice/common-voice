@@ -15,6 +15,7 @@
   --base-font-size: 15px;
   --base-font-color: black;
   --header-height: 4.5rem;
+  --input-height: 2.5rem;
   --sidebar-width: 11rem;
   --debug-box-height: 8rem;
   --base-background-image: url("/img/blotchy.jpg");
@@ -72,6 +73,10 @@ h1 {
   font-size: 2.5rem;
 }
 
+h2 {
+  font-size: 1.7rem;
+}
+
 a {
   outline: none;
   text-decoration: none;
@@ -81,6 +86,10 @@ a {
 p, h1, h2, h3, h4 {
   margin: 0;
   padding: 0;
+}
+
+hr {
+  border-color: var(--base-font-color);
 }
 
 a:active {
@@ -123,6 +132,56 @@ button:active {
 button:disabled {
   pointer-events: none;
   color: #BDBDBD;
+}
+
+select {
+  display: block;
+  background: none;
+  font-size: 1rem;
+  width: 100%;
+  height: var(--input-height);
+  border: 1px solid var(--base-font-color);
+}
+
+input[type="email"],
+input[type="text"] {
+  height: var(--input-height);
+  border: 1px solid black;
+  font-size: var(--base-font-size);
+  box-sizing: border-box;
+  padding: 0.8rem 0.2rem 0;
+}
+
+label {
+  font-size: 0.7rem;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+.input-and-button {
+  display: flex;
+  position: relative;
+}
+
+.input-and-button input {
+  width: 70%;
+}
+
+.input-and-button label {
+  position: absolute;
+  top: 0.2rem;
+  left: 0.2rem;
+}
+
+.input-and-button button {
+  display: inline-block;
+  width: unset;
+  flex: 1 1 auto;
+  color: var(--base-background-color);
+  background-color: var(--base-font-color);
+  padding: 0;
 }
 
 /* Icon font element. */
@@ -327,6 +386,10 @@ footer {
   }
 }
 
+.profile #scroller {
+  background: none;
+}
+
 #content {
   transition: opacity 0.15s linear;
   opacity: 1;
@@ -478,6 +541,14 @@ footer {
     height: 3rem;
     background: none;
   }
+}
+
+.profile .hero {
+  display: none;
+}
+
+.profile .hero-space {
+  display: none;
 }
 
 .robot {
@@ -689,8 +760,42 @@ footer {
   padding: 1rem 0;
 }
 
-#profile-container {
-  text-align: center;
+#content > #profile-container {
+  padding-top: calc(var(--header-height) + 0.5rem);
+  padding-bottom: 2rem;
+  text-align: left;
+}
+
+@media (min-width: 600px) {
+  #content > #profile-container {
+    padding-left: var(--sidebar-width);
+  }
+}
+
+#profile-container h2 {
+  padding: 0.8rem 0;;
+}
+
+#profile-container hr {
+  margin-top: 1.5rem;
+}
+
+#profile-container select {
+  margin-bottom: 0.5rem;
+}
+
+#opt-in {
+  margin-top: 1rem;
+}
+
+label[for="send-emails"] {
+  font-size: 1rem;
+}
+
+#email-explanation {
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  font-size: 0.8rem;
 }
 
 #debug-box {

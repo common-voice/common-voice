@@ -9,7 +9,8 @@ export default class BaseDB {
   constructor(
     public mysql: Mysql,
     public name: string,
-    public columns: Object
+    public columns: Object,
+    public index: string
   ) {}
 
   /**
@@ -18,11 +19,9 @@ export default class BaseDB {
   q(text: string, values?: any[]) {
 
     return new Promise((resolve, reject) => {
-
       this.mysql.query(text,null,(error, results) => {
         error ? reject(error) : resolve(results);
       });
-
     })
   };
 
@@ -39,6 +38,6 @@ export default class BaseDB {
       return `${acc}${id} ${this.columns[id]}`;
     }, '');
 
-    return this.q(`CREATE TABLE IF NOT EXISTS ${this.name} (${columns})`);
+    return this.q(`CREATE TABLE IF NOT EXISTS ${this.name} (${columns} ${this.index})`);
   }
 }
