@@ -13,7 +13,6 @@
   --base-font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   --strong-font-family: ZillaSlab,Georgia,Utopia,Charter,serif;
   --base-font-size: 15px;
-  --base-font-color: black;
   --header-height: 4.5rem;
   --input-height: 2.5rem;
   --sidebar-width: 11rem;
@@ -31,8 +30,12 @@
                      0 1px 1px rgba(12,13,14,0.025);
 
   --base-background-color: white;
-  --color-listen: #b7d43f;
-  --color-accent: #f8b83e;
+  --base-font-color: black;
+  --color-speak: #FB8E92;
+  --color-listen: #B7D43F;
+  --color-about: #f8b83e;
+  --color-profile: #9D9D9C;
+  --color-help: #3DFEFD;
   --tab-line: 2px solid #3dfefd;
 
   /* Z-indexing */
@@ -194,6 +197,11 @@ input:invalid {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.strong {
+  font-family: var(--strong-font-family);
+  font-weight: bold;
+}
+
 /* Listen Box Component */
 .listen-box {
   --listen-box-height: 4rem;
@@ -326,11 +334,74 @@ header.active {
   }
 }
 
-footer {
+@media (min-width: 600px) {
+  #help-links .content,
+  #moz-links .content {
+    width: var(--desktop-width);
+    margin: 0 auto;
+  }
+}
+
+#help-links {
   height: 6rem;
-  background-color: #3dfefd;
   text-align: center;
   padding-top: 1.4rem;
+  background-color: var(--color-help);
+}
+
+#help-links #contribute .strong {
+  font-size: 1.4rem;
+}
+
+#moz-links {
+  font-size: 0.7rem;
+  color: white;
+  background-color: black;
+}
+@media (min-width: 600px) {
+  #moz-links {
+    height: 4rem;
+    padding: 0.4rem 0;
+  }
+}
+
+#moz-links .content {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  #moz-links .content {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--page-margin);
+  }
+}
+
+
+#moz-links .main-logo {
+  font-size: 1rem;
+  padding-right: 4rem;
+}
+
+#moz-links .main-mozilla-logo {
+  height: 1.2rem;
+}
+
+#moz-links .links a {
+  color: var(--color-help);
+  margin-right: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  #moz-links .links a {
+    display: block;
+    padding: 0.5rem 0;
+  }
+}
+
+#moz-links .links > :first-child {
+  margin-bottom: 0.2rem;
 }
 
 .nav-list {
@@ -354,7 +425,7 @@ footer {
 }
 
 .tab.active .tab-name {
-  background-color: var(--color-accent);
+  background-color: var(--color-about);
   padding-right: 6rem;
 }
 
@@ -431,21 +502,21 @@ footer {
   z-index: var(--top-z-index);
 }
 
-#main-logo {
+.main-logo {
   flex: 0 0 auto;
   font-family: var(--strong-font-family);
   font-size: 1.5rem;
 }
 
-#main-title {
+.main-title {
   padding: 0 0.1rem;
   color: var(--base-background-color);
   background-color: var(--base-font-color);
   line-height: 1.4;
 }
 
-#main-mozilla-logo {
-  height: calc(var(--header-height) / 3);
+.main-mozilla-logo {
+  height: 1.5rem;
   background-color: var(--base-background-color);
 }
 

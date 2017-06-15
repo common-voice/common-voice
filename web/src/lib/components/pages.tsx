@@ -1,4 +1,5 @@
 import { h, Component } from 'preact';
+import Logo from './logo';
 import Icon from './icon';
 import Home from './pages/home';
 import Listen from './pages/listen';
@@ -118,15 +119,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
     return <div id="main" className={pageName}>
       <header className={(this.state.isMenuVisible || this.state.scrolled ?
                           'active' : '')}>
-        <a id="main-logo" href="/"
-          onClick={(evt) =>  {
-            evt.preventDefault();
-            evt.stopPropagation();
-            this.props.navigate('/');
-          }}>
-          <span id="main-title">Common Voice</span><br />
-          <img id="main-mozilla-logo" src="/img/mozilla.svg" />
-        </a>
+        <Logo />
         <button id="hamburger-menu" onClick={this.toggleMenu}
           className={(this.state.isMenuVisible ? ' is-active' : '')}>
           <Icon type="hamburger" />
@@ -151,11 +144,31 @@ export default class Pages extends Component<PagesProps, PagesState> {
           <NotFound active={this.isNotFoundActive()} />
         </div>
         <footer>
-          <a target="_blank" href="https://github.com/mozilla/voice-web">
-            <Icon type="github" />
-            <p class="strong">Contribute</p>
-            <p>on Github</p>
-          </a>
+          <div id="help-links">
+            <div class="content">
+              <a id="contribute"
+                 target="_blank" href="https://github.com/mozilla/voice-web">
+                <Icon type="github" />
+                <p class="strong">Contribute</p>
+                <p>on Github</p>
+              </a>
+            </div>
+          </div>
+          <div id="moz-links">
+            <div class="content">
+              <Logo />
+              <div class="links">
+                <p>
+                  <a href="https://www.mozilla.org/en-US/privacy/">Privacy</a>
+                  <a href="https://www.mozilla.org/en-US/privacy/websites/#cookies">Cookies</a>
+                  <a href="https://www.mozilla.org/en-US/about/legal/">
+                    Privacy</a>
+                  <a href="/">About Project Common Voice</a>
+                </p>
+                <p>Content available under a&nbsp;<a href="https://www.mozilla.org/en-US/foundation/licensing/website-content/">Creative Commons license</a></p>
+              </div>
+            </div>
+          </div>
         </footer>
       </div>
       <div id="navigation-modal"
