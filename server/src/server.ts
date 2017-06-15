@@ -1,6 +1,7 @@
 import * as http from 'http';
 import API from './lib/api';
 import Clip from './lib/clip';
+import Prometheus from './lib/prometheus';
 
 const DEFAULT_PORT = 9000;
 const CONFIG_PATH = '../../config.json';
@@ -12,6 +13,7 @@ const config = require(CONFIG_PATH);
 export default class Server {
   api: API;
   clip: Clip;
+  metrics: Prometheus;
   staticServer: any;
 
   constructor() {
@@ -19,6 +21,7 @@ export default class Server {
     this.staticServer = new nodeStatic.Server(CLIENT_PATH, { cache: false });
     this.api = new API();
     this.clip = new Clip();
+    this.metrics = new Prometheus();
   }
 
   /**
@@ -29,14 +32,24 @@ export default class Server {
   private handleRequest(request: http.IncomingMessage,
                         response: http.ServerResponse) {
 
-    // Handle all clip related requests first.  if (this.clip.isClipRequest(request)) {
+    this.metrics.countRequest(request);
+
+    // Handle all clip related requests first.
     if (this.clip.isClipRequest(request)) {
+      this.metrics.countClipRequest(request);
       this.clip.handleRequest(request, response);
       return;
     }
 
     if (this.api.isApiRequest(request)) {
+      this.metrics.countApiRequest(request);
       this.api.handleRequest(request, response);
+      return;
+    }
+
+    if (this.metrics.isPrometheusRequest(request)) {
+      this.metrics.countPrometheusRequest(request);
+      this.metrics.handleRequest(request, response);
       return;
     }
 
