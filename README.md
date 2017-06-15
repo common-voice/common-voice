@@ -20,3 +20,5 @@ For more options type:
 ```
 gulp help
 ```
+
+Note also that sox with `ogg` support is required on the server.
