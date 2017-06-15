@@ -16,7 +16,7 @@ package { 'libmysqlclient-dev':
 
 # Install service dependencies
 exec { 'install deps':
-  command => 'npm --verbose install',
+  command => 'npm install',
   cwd     => "/var/www/${project_name}",
   path    => [ '/bin', '/usr/bin', '/usr/local/bin' ],
   require => [
