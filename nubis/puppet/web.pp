@@ -5,7 +5,6 @@ class { 'nubis_apache':
 class { 'apache::mod::rewrite': }
 class { 'apache::mod::proxy': }
 class { 'apache::mod::proxy_http': }
-class { 'apache::mod::proxy_html': }
 
 apache::vhost { $project_name:
     port               => 80,
@@ -28,9 +27,16 @@ apache::vhost { $project_name:
 
 ",
     headers            => [
+      # Nubis headers
       "set X-Nubis-Version ${project_version}",
       "set X-Nubis-Project ${project_name}",
       "set X-Nubis-Build   ${packer_build_name}",
+
+      # Security Headers
+      'set X-Content-Type-Options "nosniff"',
+      'set X-XSS-Protection "1; mode=block"',
+      'set X-Frame-Options "DENY"',
+      'set Strict-Transport-Security "max-age=31536000"',
     ],
     rewrites           => [
       {
