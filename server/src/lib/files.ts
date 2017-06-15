@@ -98,7 +98,10 @@ export default class Files {
         .on('error', (err) => {
           console.error('could not create aws audio stream', err);
         })
-        .pipe(sox({output: { type: 'mp3' } }));
+        .pipe(sox({output: { type: 'mp3' } }))
+        .on('error', (err) => {
+          console.error('could not stream audio into sox', err);
+        });
 
       // Pipe mp3 data into a read/write MemoryStream
       let memStream = new MemoryStream();
