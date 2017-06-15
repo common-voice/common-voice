@@ -22,10 +22,9 @@ apache::vhost { $project_name:
     access_log_env_var => '!internal',
     access_log_format  => '%a %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-agent}i\"',
     custom_fragment    => "
-# Clustered without coordination
-FileETag None
-    ProxyPass http://localhost:9000
-    ProxyPassReverse http://localhost:9000
+    # Proxy to nodejs
+    ProxyPass / http://localhost:9000/
+    ProxyPassReverse / http://localhost:9000/
 
 ",
     headers            => [
