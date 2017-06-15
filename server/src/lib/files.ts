@@ -94,7 +94,11 @@ export default class Files {
       // Convert s3 audio from ext to mp3
       let sourceParams = {Bucket: BUCKET_NAME, Key: glob + ext};
       let awsRequest = this.s3.getObject(sourceParams);
-      let soxStream = awsRequest.createReadStream().pipe(sox({output: { type: 'mp3' } }));
+      let soxStream = awsRequest.createReadStream()
+        .on('error', (err) => {
+          console.error('could not create aws audio stream', err);
+        })
+        .pipe(sox({output: { type: 'mp3' } }));
 
       // Pipe mp3 data into a read/write MemoryStream
       let memStream = new MemoryStream();
