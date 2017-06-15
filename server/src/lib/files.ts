@@ -1,12 +1,12 @@
 import { map } from '../promisify';
 import { getFileExt } from './utility';
-import S3 = require('aws-sdk/clients/s3');
 
 const MemoryStream = require('memorystream');
 const path = require('path');
 const Promise = require('bluebird');
 const Queue = require('better-queue');
 const sox = require('sox-stream');
+const AWS = require('./aws');
 
 const BATCH_SIZE = 5;
 const MP3_EXT = '.mp3';
@@ -17,7 +17,7 @@ const BUCKET_NAME = config.BUCKET_NAME || 'common-voice-corpus';
 
 export default class Files {
   private initialized: boolean;
-  private s3: S3;
+  private s3: any;
   private files: {
     // fileGlob: [
     //   sentence: 'the text of the sentenct',
@@ -29,7 +29,7 @@ export default class Files {
 
   constructor() {
     this.initialized = false;
-    this.s3 = new S3();
+    this.s3 = new AWS.S3();
     this.files = {};
     this.paths = [];
     this.mp3s = [];

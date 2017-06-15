@@ -1,7 +1,6 @@
 import * as http from 'http';
 import Files from './files';
 import { getFileExt } from './utility';
-import S3 = require('aws-sdk/clients/s3');
 
 const ms = require('mediaserver');
 const path = require('path');
@@ -11,6 +10,7 @@ const crypto = require('crypto');
 const Promise = require('bluebird');
 const mkdirp = require('mkdirp');
 const findRemoveSync = require('find-remove');
+const AWS = require('./aws');
 
 const UPLOAD_PATH = path.resolve(__dirname, '../..', 'upload');
 const CONFIG_PATH = path.resolve(__dirname, '../../..', 'config.json');
@@ -24,11 +24,11 @@ const BUCKET_NAME = config.BUCKET_NAME || 'common-voice-corpus';
  * Clip - Responsibly for saving and serving clips.
  */
 export default class Clip {
-  private s3: S3;
+  private s3: any;
   private files: Files;
 
   constructor() {
-    this.s3 = new S3();
+    this.s3 = new AWS.S3();
     this.files = new Files();
     setInterval(findRemoveSync.bind(this, UPLOAD_PATH, {age: {seconds: 300}, extensions: '.mp3'}), 300);
   }

@@ -22,6 +22,7 @@
     "node-static": "0.7.9",
     "pm2": "^2.4.6",
     "preact": "^8.1.0",
+    "proxy-agent": "^2.0.0",
     "simple-git": "^1.72.0",
     "sox-stream": "^2.0.1",
     "walk": "^2.3.9"
