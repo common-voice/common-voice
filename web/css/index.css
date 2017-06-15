@@ -112,6 +112,7 @@ button {
   outline: none;
   background-color: transparent;
   position: relative;
+  transition: all 0.1s linear;
 }
 
 @media (max-width: 600px) {
@@ -123,7 +124,7 @@ button {
 
 @media (min-width: 600px) {
   button:hover:not(.ios) {
-    background: #c07578;
+    transform: scale(1.1);
   }
 }
 
