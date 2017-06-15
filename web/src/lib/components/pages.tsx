@@ -119,7 +119,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
     return <div id="main" className={pageName}>
       <header className={(this.state.isMenuVisible || this.state.scrolled ?
                           'active' : '')}>
-        <Logo />
+        <Logo navigate={this.props.navigate}/>
         <button id="hamburger-menu" onClick={this.toggleMenu}
           className={(this.state.isMenuVisible ? ' is-active' : '')}>
           <Icon type="hamburger" />
@@ -150,13 +150,13 @@ export default class Pages extends Component<PagesProps, PagesState> {
                  target="_blank" href="https://github.com/mozilla/voice-web">
                 <Icon type="github" />
                 <p class="strong">Contribute</p>
-                <p>on Github</p>
+                <p>on GitHub</p>
               </a>
             </div>
           </div>
           <div id="moz-links">
             <div class="content">
-              <Logo />
+              <Logo navigate={this.props.navigate}/>
               <div class="links">
                 <p>
                   <a href="https://www.mozilla.org/en-US/privacy/">Privacy</a>

@@ -17,7 +17,7 @@
   --input-height: 2.5rem;
   --sidebar-width: 11rem;
   --debug-box-height: 8rem;
-  --base-background-image: url("/img/blotchy.jpg");
+  --base-background-image: url("/img/wave-blue-large@2x.png");
   --page-margin: 1rem;
   --hamburger: calc(var(--header-height) * 0.7);
   --transition-default: 0.3s;
@@ -324,7 +324,6 @@ header.active {
     padding-top: 11rem;
     pointer-events: none;
     background-color: transparent;
-    background-image: url("/img/dot.png");
     background-repeat: repeat-y;
     background-position: 3rem center;
     background-size: 0.5rem;
@@ -419,7 +418,7 @@ header.active {
 }
 
 .tab .tab-name {
-  background-color: var(--base-background-color);
+  background-color: rgba(255, 255, 255, 0.4);
   transition: background-color 0.15s ease-in;
   padding: 0.2rem 6rem 0.2rem 0.6rem;
 }
@@ -442,7 +441,7 @@ header.active {
   background-image: var(--base-background-image);
   background-size: 100% 20rem;
   background-repeat: no-repeat;
-  background-position: center -3rem;
+  background-position: center 0.7rem;
   background-attachment: local;
   -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
@@ -499,7 +498,7 @@ header.active {
 #content > div.active {
   display: block;
   opacity: 1;
-  z-index: var(--top-z-index);
+  z-index: var(--middle-z-index);
 }
 
 .main-logo {
@@ -543,7 +542,6 @@ header.active {
   flex-flow: column nowrap;
   padding: 0;
   font-weight: bold;
-  background-color: var(--base-background-color);
 }
 
 @media (min-width: 600px) {
@@ -604,7 +602,6 @@ header.active {
 
 .hero-space {
   height: 9.5rem;
-  background-color: var(--base-background-color);
 }
 
 @media (max-width: 600px) {
