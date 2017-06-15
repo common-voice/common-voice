@@ -443,7 +443,6 @@ header.active {
   background-size: 100% 20rem;
   background-repeat: no-repeat;
   background-position: center 0.7rem;
-  background-attachment: local;
   -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
 }
@@ -461,6 +460,7 @@ header.active {
 @media (min-width: 600px) {
   #scroller {
     background-image: var(--base-background-image);
+    background-attachment: local;
   }
 }
 
