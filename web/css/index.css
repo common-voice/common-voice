@@ -17,7 +17,8 @@
   --input-height: 2.5rem;
   --sidebar-width: 11rem;
   --debug-box-height: 8rem;
-  --base-background-image: url("/img/wave-blue-large@2x.png");
+  --base-background-image: url("/img/wave-blue-large.png");
+  --base-background-image-mobile: url("/img/wave-blue-mobile.png");
   --page-margin: 1rem;
   --hamburger: calc(var(--header-height) * 0.7);
   --transition-default: 0.3s;
@@ -438,7 +439,6 @@ header.active {
 }
 
 #scroller {
-  background-image: var(--base-background-image);
   background-size: 100% 20rem;
   background-repeat: no-repeat;
   background-position: center 0.7rem;
@@ -449,10 +449,17 @@ header.active {
 
 @media (max-width: 600px) {
   #scroller {
+    background-image: var(--base-background-image-mobile);
     position: fixed;
     top: 0; bottom: 0;
     left: 0; right: 0;
     overflow-y: scroll;
+  }
+}
+
+@media (min-width: 600px) {
+  #scroller {
+    background-image: var(--base-background-image);
   }
 }
 
