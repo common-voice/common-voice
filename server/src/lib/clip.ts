@@ -30,6 +30,7 @@ export default class Clip {
   constructor() {
     this.s3 = new S3();
     this.files = new Files();
+    setInterval(findRemoveSync.bind(this, UPLOAD_PATH, {age: {seconds: 300}, extensions: '.mp3'}), 300);
   }
 
   private hash(str: string): string {
@@ -54,8 +55,6 @@ export default class Clip {
       tmpFile.on('finish', f.wait());
     }, () => {
       ms.pipe(request, response, tmpFilePath);
-    }, () => {
-      findRemoveSync(UPLOAD_PATH, {age: {seconds: 3600}, extensions: '.mp3'});
     });
   }
 
