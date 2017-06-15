@@ -1,7 +1,6 @@
 import * as http from 'http';
 import Files from './files';
 import { getFileExt } from './utility';
-import S3 = require('aws-sdk/clients/s3');
 
 const ms = require('mediaserver');
 const path = require('path');
@@ -20,15 +19,25 @@ const config = require(CONFIG_PATH);
 const salt = config.salt || DEFAULT_SALT;
 const BUCKET_NAME = config.BUCKET_NAME || 'common-voice-corpus';
 
+var AWS = require('aws-sdk');
+
+if(process.env.HTTP_PROXY) {
+  var proxy = require('proxy-agent');
+
+  AWS.config.update({
+    httpOptions: { agent: proxy(process.env.HTTP_PROXY) }
+  });
+}
+
 /**
  * Clip - Responsibly for saving and serving clips.
  */
 export default class Clip {
-  private s3: S3;
+  private s3: any;
   private files: Files;
 
   constructor() {
-    this.s3 = new S3();
+    this.s3 = new AWS.S3();
     this.files = new Files();
     setInterval(findRemoveSync.bind(this, UPLOAD_PATH, {age: {seconds: 300}, extensions: '.mp3'}), 300);
   }

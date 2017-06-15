@@ -1,6 +1,5 @@
 import { map } from '../promisify';
 import { getFileExt } from './utility';
-import S3 = require('aws-sdk/clients/s3');
 
 const MemoryStream = require('memorystream');
 const path = require('path');
@@ -15,9 +14,19 @@ const CONFIG_PATH = path.resolve(__dirname, '../../..', 'config.json');
 const config = require(CONFIG_PATH);
 const BUCKET_NAME = config.BUCKET_NAME || 'common-voice-corpus';
 
+var AWS = require('aws-sdk');
+
+if(process.env.HTTP_PROXY) {
+  var proxy = require('proxy-agent');
+
+  AWS.config.update({
+    httpOptions: { agent: proxy(process.env.HTTP_PROXY) }
+  });
+}
+
 export default class Files {
   private initialized: boolean;
-  private s3: S3;
+  private s3: any;
   private files: {
     // fileGlob: [
     //   sentence: 'the text of the sentenct',
@@ -29,7 +38,7 @@ export default class Files {
 
   constructor() {
     this.initialized = false;
-    this.s3 = new S3();
+    this.s3 = new AWS.S3();
     this.files = {};
     this.paths = [];
     this.mp3s = [];
