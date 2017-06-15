@@ -14,6 +14,11 @@ package { 'libmysqlclient-dev':
   ensure => 'latest',
 }
 
+# Install postgresql libraries
+package { 'libpq-dev':
+  ensure => 'latest',
+}
+
 # Install service dependencies
 exec { 'install deps':
   command => 'npm install',
