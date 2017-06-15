@@ -6,6 +6,7 @@ const path = require('path');
 const Promise = require('bluebird');
 const Queue = require('better-queue');
 const sox = require('sox-stream');
+const AWS = require('./aws');
 
 const BATCH_SIZE = 5;
 const MP3_EXT = '.mp3';
@@ -14,15 +15,7 @@ const CONFIG_PATH = path.resolve(__dirname, '../../..', 'config.json');
 const config = require(CONFIG_PATH);
 const BUCKET_NAME = config.BUCKET_NAME || 'common-voice-corpus';
 
-var AWS = require('aws-sdk');
 
-if(process.env.HTTP_PROXY) {
-  var proxy = require('proxy-agent');
-
-  AWS.config.update({
-    httpOptions: { agent: proxy(process.env.HTTP_PROXY) }
-  });
-}
 
 export default class Files {
   private initialized: boolean;

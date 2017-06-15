@@ -10,6 +10,7 @@ const crypto = require('crypto');
 const Promise = require('bluebird');
 const mkdirp = require('mkdirp');
 const findRemoveSync = require('find-remove');
+const AWS = require('./aws');
 
 const UPLOAD_PATH = path.resolve(__dirname, '../..', 'upload');
 const CONFIG_PATH = path.resolve(__dirname, '../../..', 'config.json');
@@ -18,16 +19,6 @@ const DEFAULT_SALT = '8hd3e8sddFSdfj';
 const config = require(CONFIG_PATH);
 const salt = config.salt || DEFAULT_SALT;
 const BUCKET_NAME = config.BUCKET_NAME || 'common-voice-corpus';
-
-var AWS = require('aws-sdk');
-
-if(process.env.HTTP_PROXY) {
-  var proxy = require('proxy-agent');
-
-  AWS.config.update({
-    httpOptions: { agent: proxy(process.env.HTTP_PROXY) }
-  });
-}
 
 /**
  * Clip - Responsibly for saving and serving clips.
