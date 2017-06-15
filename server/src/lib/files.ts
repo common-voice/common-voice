@@ -15,8 +15,6 @@ const CONFIG_PATH = path.resolve(__dirname, '../../..', 'config.json');
 const config = require(CONFIG_PATH);
 const BUCKET_NAME = config.BUCKET_NAME || 'common-voice-corpus';
 
-
-
 export default class Files {
   private initialized: boolean;
   private s3: any;
