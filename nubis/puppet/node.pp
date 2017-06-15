@@ -55,7 +55,11 @@ include 'upstart'
 
 upstart::job { $project_name:
     description    => 'Mozilla Common Voice',
+
+    # let confd start us up
     service_ensure => 'stopped',
+    service_enable => false,
+
     # Never give up
     respawn        => true,
     respawn_limit  => 'unlimited',
