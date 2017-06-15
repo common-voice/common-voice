@@ -21,6 +21,10 @@ apache::vhost { $project_name:
     access_log_env_var => '!internal',
     access_log_format  => '%a %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-agent}i\"',
     custom_fragment    => "
+
+    # Don't set default expiry on anything
+    ExpiresActive Off
+
     # Proxy to nodejs
     ProxyPass / http://localhost:9000/
     ProxyPassReverse / http://localhost:9000/
