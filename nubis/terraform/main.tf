@@ -17,10 +17,7 @@ module "load_balancer" {
   account      = "${var.account}"
   service_name = "${var.service_name}"
 
-  health_check_target = "HTTP:80/"
-
-  backend_port_http  = "80"
-  backend_port_https = "80"
+  ssl_cert_name_prefix = "${var.service_name}"
 }
 
 module "dns" {
