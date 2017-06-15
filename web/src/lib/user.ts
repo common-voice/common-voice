@@ -4,6 +4,7 @@ const USER_KEY = 'userdata';
 
 interface UserState {
   userId: string;
+  email: string;
   clips: number;
 }
 
@@ -30,6 +31,7 @@ export default class User {
     if (!this.state) {
       this.state = {
         userId: generateGUID(),
+        email: '',
         clips: 0
       };
       this.store();
@@ -46,5 +48,14 @@ export default class User {
 
   public getId(): string {
     return this.state.userId;
+  }
+
+  public setEmail(email: string): void {
+    this.state.email = email;
+    this.store();
+  }
+
+  public getState(): UserState {
+    return this.state;
   }
 }

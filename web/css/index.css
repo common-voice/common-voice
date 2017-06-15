@@ -152,6 +152,7 @@ input[type="email"],
 input[type="text"] {
   height: var(--input-height);
   border: 1px solid black;
+  border-radius: 0;
   font-size: var(--base-font-size);
   box-sizing: border-box;
   padding: 0.8rem 0.2rem 0;

@@ -7,17 +7,28 @@ interface Props {
 }
 
 interface State {
-
 }
 
-export default class Home extends Component<Props, State> {
+export default class Profile extends Component<Props, State> {
+  constructor(props) {
+    super(props);
+    this.saveEmail = this.saveEmail.bind(this);
+  }
+
+  private saveEmail() {
+    let el = document.getElementById('email') as HTMLInputElement;
+    this.props.user.setEmail(el.value);
+  }
+
   render() {
+    let state = this.props.user.getState();
+
     return <div id="profile-container" className={this.props.active}>
       <h2>Profile Data</h2>
       <div className="input-and-button">
         <label for="email">Your email address</label>
-        <input id="email" type="email" />
-        <button>Save</button>
+        <input id="email" type="email" name="email" value={state.email}/>
+        <button onClick={this.saveEmail}>Save</button>
       </div>
       <div id="opt-in">
         <input id="send-emails" type="checkbox" />
