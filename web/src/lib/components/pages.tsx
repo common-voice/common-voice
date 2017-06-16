@@ -116,7 +116,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
 
   render() {
     let pageName = this.getCurrentPageName();
-    return <div id="main" className={pageName}>
+    return <div id="main" className={pageName ? pageName : 'home'}>
       <header className={(this.state.isMenuVisible || this.state.scrolled ?
                           'active' : '')}>
         <Logo navigate={this.props.navigate}/>
@@ -129,7 +129,8 @@ export default class Pages extends Component<PagesProps, PagesState> {
       <div id="scroller"><div id="scrollee">
         <div class="hero">
           <img className="robot" src="/img/robot.png" />
-          <div class="divider"></div>
+          <div onClick={e => {this.props.navigate('/record'); }}
+               class="speech-bubble">CLICK HERE<br />TO HELP ME LEARN!</div>
         </div>
         <div class="hero-space"></div>
         <div id="content" className={this.state.pageTransitioning ?

@@ -22,7 +22,7 @@
   --page-margin: 1rem;
   --hamburger: calc(var(--header-height) * 0.7);
   --transition-default: 0.3s;
-  --desktop-width: 700px;
+  --desktop-width: 50rem;
   --hero-height: 15.3rem;
   --hero-height-mobile: 12.5rem;
   --bounce-curve: cubic-bezier(0.000, 1.430, 0.700, 0.940);
@@ -700,20 +700,71 @@ header.active {
 }
 
 .robot {
-  height: 15rem;
+  height: 19rem;
   margin: 0 auto;
-  bottom: -4rem;
+  bottom: -7rem;
   position: absolute;
   left: 0;
   right: 0;
   z-index: var(--middle-z-index);
+  transition: transform 0.2s ease-in-out;
+  transition-delay: 0.2s;
 }
 
 @media (max-width: 600px) {
   .robot {
     height: 12rem;
+    bottom: -3.5rem;
+    right: 3.5rem;
   }
 }
+
+.record .robot {
+  transform: translate(5.5rem, 5rem);
+}
+
+@media (max-width: 600px) {
+  .record .robot {
+    transform: translate(1.85rem, 1rem);
+  }
+}
+
+.speech-bubble {
+  font-weight: bold;
+  position: absolute;
+  height: 5rem;
+  padding-left: 3rem;
+  padding-right: 2rem;
+  top: 13rem;
+  left: 60%;
+  background-image: url("/img/speech-bubble.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  animation: throb-size 2s ease-in-out infinite;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+@media (max-width: 600px) {
+  .speech-bubble {
+    top: 8rem;
+    left: 50%;
+    background-size: cover;
+    padding-left: 2rem;
+  }
+}
+
+.home .speech-bubble {
+  visibility: visible;
+}
+
+@keyframes throb-size {
+  50%{ transform: scale(1.05); }
+}
+
 
 #about-container {
   padding: 0.3rem 1rem;
@@ -761,6 +812,10 @@ header.active {
   line-height: 1.55;
 }
 
+#home-layout .left-column p:first-child {
+  margin-bottom: 1rem;
+}
+
 #home-layout .left-column > button {
   float: right;
 }
@@ -789,10 +844,10 @@ header.active {
   margin: 0 auto;
   padding: 0 5rem;
   height: 3rem;
-  animation: throb 3.5s ease-in-out infinite;
+  animation: throb-color 3.5s ease-in-out infinite;
 }
 
-@keyframes throb {
+@keyframes throb-color {
   50%{background-color: var(--color-speak-light);}
 }
 
