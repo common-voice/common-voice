@@ -9,11 +9,10 @@ const fs = require('fs');
 const crypto = require('crypto');
 const Promise = require('bluebird');
 const mkdirp = require('mkdirp');
-const MemoryStream = require('memorystream');
 const findRemoveSync = require('find-remove');
 const AWS = require('./aws');
 const PassThrough = require('stream').PassThrough;
-const sox = require('sox-stream');
+const Transcoder = require('stream-transcoder');
 
 const UPLOAD_PATH = path.resolve(__dirname, '../..', 'upload');
 const CONFIG_PATH = path.resolve(__dirname, '../../..', 'config.json');
@@ -147,14 +146,17 @@ export default class Clip {
         if (contentType.includes('base64')) {
           let passThrough = new PassThrough();
           passThrough.end(Buffer.from(Buffer.concat(chunks).toString(), 'base64'));
-          let memStream = new MemoryStream();
-          memStream = passThrough.pipe(sox({output: { type: 'mp3' } })).pipe(memStream);
-          let params = {Bucket: BUCKET_NAME, Key: file, Body: memStream};
+          let transcoder = new Transcoder(passThrough);
+          transcoder = transcoder.audioCodec('mp3').format('mp3');
+          let transcoderStream = transcoder.stream();
+          let params = {Bucket: BUCKET_NAME, Key: file, Body: transcoderStream};
           this.s3.upload(params, f());
         } else {
           // For now base64 uploads, we can just stream data.
-          let memStream = request.pipe(sox({output: { type: 'mp3' } })).pipe(new MemoryStream());
-          let params = {Bucket: BUCKET_NAME, Key: file, Body: memStream};
+          let transcoder = new Transcoder(request);
+          transcoder = transcoder.audioCodec('mp3').format('mp3');
+          let transcoderStream = transcoder.stream();
+          let params = {Bucket: BUCKET_NAME, Key: file, Body: transcoderStream};
           this.s3.upload(params, f());
         }
 
