@@ -27,7 +27,7 @@ class ViewController: UIViewController, WKScriptMessageHandler, WKNavigationDele
             webView?.configuration.userContentController.add(self, name: "scriptHandler")
             webView?.scrollView.isScrollEnabled = false
             self.view.addSubview(webView!)
-            let url = URL(string: "https://test.mozvoice.org/")
+            let url = URL(string: "https://voice.mozilla.org/")
             let request = URLRequest(url: url!)
             webView?.load(request)
             // start the recorder object and ask permission to capture
