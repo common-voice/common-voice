@@ -9,8 +9,11 @@ const fs = require('fs');
 const crypto = require('crypto');
 const Promise = require('bluebird');
 const mkdirp = require('mkdirp');
+const MemoryStream = require('memorystream');
 const findRemoveSync = require('find-remove');
 const AWS = require('./aws');
+const PassThrough = require('stream').PassThrough;
+const sox = require('sox-stream');
 
 const UPLOAD_PATH = path.resolve(__dirname, '../..', 'upload');
 const CONFIG_PATH = path.resolve(__dirname, '../../..', 'config.json');
@@ -30,7 +33,7 @@ export default class Clip {
   constructor() {
     this.s3 = new AWS.S3();
     this.files = new Files();
-    setInterval(findRemoveSync.bind(this, UPLOAD_PATH, {age: {seconds: 300}, extensions: '.mp3'}), 300);
+    setInterval(findRemoveSync.bind(this, UPLOAD_PATH, {age: {seconds: 300}, extensions: '.mp3'}), 300000);
   }
 
   private hash(str: string): string {
@@ -66,13 +69,6 @@ export default class Clip {
     let fileName = parts.pop();
     let folder = parts.pop();
     return folder + '/' + fileName;
-  }
-
-  /**
-   * Load the files module.
-   */
-  init() {
-    return this.files.init();
   }
 
   /**
@@ -120,35 +116,17 @@ export default class Clip {
     let sentence = decodeURI(info.sentence as string);
 
     return new Promise((resolve: Function, reject: Function) => {
-
-      // First we need to figure out the file extension.
-      let extension;
+      // Obtain contentType
       let contentType = info['content-type'] as string;
-
-      if (contentType.startsWith('audio/ogg')) {
-        // Firefox gives us opus in an ogg.
-        extension = '.ogg';
-      } else if (contentType.startsWith('audio/webm')) {
-        // Chrome gives us opus in webm.
-        extension = '.webm';
-      } else if (contentType.startsWith('audio/m4a')) {
-        // iOS gives us mp4a.
-        // Note: Firefox cannot play m4a's,
-        // but if we save this clipa s mp3 everything just works.
-        extension = '.mp3';
-      } else {
-        // Default to ogg.
-        console.error('unrecognized audio type!', contentType);
-        extension = '.ogg';
-      }
 
       // Where is our audio clip going to be located?
       let folder = uid + '/';
       let filePrefix = this.hash(sentence);
-      let file = folder + filePrefix + extension;
+      let file = folder + filePrefix + '.mp3';
       let txtFile = folder + filePrefix + '.txt';
 
       let f = ff(() => {
+
         // if the folder does not exist, we create it
         let params = {Bucket: BUCKET_NAME, Key: folder};
         this.s3.putObject(params, f.wait());
@@ -167,21 +145,22 @@ export default class Clip {
 
         // If upload was base64, make sure we decode it first.
         if (contentType.includes('base64')) {
-          let blob = Buffer.from(Buffer.concat(chunks).toString(), 'base64');
-          let params = {Bucket: BUCKET_NAME, Key: file, Body: blob};
+          let passThrough = new PassThrough();
+          passThrough.end(Buffer.from(Buffer.concat(chunks).toString(), 'base64'));
+          let memStream = new MemoryStream();
+          memStream = passThrough.pipe(sox({output: { type: 'mp3' } })).pipe(memStream);
+          let params = {Bucket: BUCKET_NAME, Key: file, Body: memStream};
           this.s3.upload(params, f());
         } else {
           // For now base64 uploads, we can just stream data.
-          let params = {Bucket: BUCKET_NAME, Key: file, Body: request};
+          let memStream = request.pipe(sox({output: { type: 'mp3' } })).pipe(new MemoryStream());
+          let params = {Bucket: BUCKET_NAME, Key: file, Body: memStream};
           this.s3.upload(params, f());
         }
 
         // Don't forget about the sentence text!
         let params = {Bucket: BUCKET_NAME, Key: txtFile, Body: sentence};
         this.s3.putObject(params, f());
-      }, () => {
-        // Converts audio to mp3 if required
-        this.files.init().then(f());
       }, () => {
 
         // File saving is now complete.
