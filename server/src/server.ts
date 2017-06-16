@@ -53,14 +53,6 @@ export default class Server {
   }
 
   /**
-   * Boot up all our dependencies.
-   */
-  init(): Promise<any> {
-    // Clip needs some initializatin to load all the local clips.
-    return this.clip.init();
-  }
-
-  /**
    * Start up everything.
    */
   run(): void {
@@ -75,7 +67,5 @@ export default class Server {
 // If this file is run, boot up a new server instance.
 if (require.main === module) {
   let server = new Server();
-  server.init().then(() => {
-    server.run();
-  });
+  server.run();
 }
