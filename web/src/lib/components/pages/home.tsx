@@ -19,11 +19,13 @@ export default class Home extends Component<Props, void> {
           industry. Lorem Ipsum has been the industry's standard dummy text
           ever since the 1500s, when an unknown printer took a galley of type
           and scrambled it to make a type specimen book.</p>
-          <button id="donate" onClick={evt => {
-            this.props.navigate('/record')}}>Get started!</button>
         </div>
         <div className="right-column">
-          <p>You can also help by validating donations!</p>
+          <p class="strong">You can also help by validating donations!</p>
+        </div>
+        <div id="donate">
+          <button onClick={evt => {
+            this.props.navigate('/record')}}>Get started!</button>
         </div>
       </div>
       <div id="try-it-container">

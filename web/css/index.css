@@ -24,6 +24,7 @@
   --transition-default: 0.3s;
   --desktop-width: 700px;
   --hero-height: 15.3rem;
+  --hero-height-mobile: 12.5rem;
   --bounce-curve: cubic-bezier(0.000, 1.430, 0.700, 0.940);
   --shadow-overhang: 0 1px 0 rgba(12,13,14,0.1),
                      0 1px 3px rgba(12,13,14,0.1),
@@ -33,11 +34,18 @@
   --base-background-color: white;
   --base-font-color: black;
   --color-speak: #FB8E92;
+  --color-speak-light: #FDC6C8;
   --color-listen: #B7D43F;
   --color-about: #f8b83e;
   --color-profile: #9D9D9C;
   --color-help: #3DFEFD;
   --tab-line: 2px solid #3dfefd;
+
+  --highlight-shadow-listen:
+    1px 1px 6px var(--color-listen),
+    2px 2px 6px var(--color-listen),
+    3px 3px 3px var(--color-listen),
+    4px 4px 2px var(--color-listen);
 
   /* Z-indexing */
   --top-z-index: 2;
@@ -74,11 +82,11 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 1.8rem;
 }
 
 h2 {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 
 a {
@@ -315,6 +323,10 @@ header {
   z-index: var(--top-z-index);
   align-items: flex-start;
   transition: background-color 0.15s linear;
+  background-image: url("/img/strip-top.png");
+  background-position: 2rem 0;
+  background-size: 2rem;
+  background-repeat: no-repeat;
 }
 
 header.active {
@@ -325,6 +337,7 @@ header.active {
 @media (max-width: 600px) {
   header {
     padding: var(--page-margin) var(--page-margin) 0;
+    background: none;
   }
 }
 
@@ -340,10 +353,6 @@ header.active {
     flex-direction: column;
     padding-top: 11rem;
     pointer-events: none;
-    background-color: transparent;
-    background-repeat: repeat-y;
-    background-position: 3rem center;
-    background-size: 0.5rem;
   }
   header > * {
     pointer-events: auto;
@@ -473,6 +482,7 @@ header.active {
 
 @media (max-width: 600px) {
   #scrollee {
+    background-size: 100% 12.5rem;
     background-image: var(--base-background-image-mobile);
   }
 }
@@ -518,7 +528,6 @@ header.active {
     box-sizing: border-box;
     min-height: 100%;
     padding: 0 var(--page-margin);
-    text-align: center;
   }
 }
 
@@ -619,16 +628,17 @@ header.active {
 .hero {
   position: relative;
   height: var(--hero-height);
+  border-bottom: 3px solid var(--base-font-color);
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
   .hero {
-    border-bottom: 3px solid var(--base-font-color);
+    height: var(--hero-height-mobile);
   }
 }
 
 .hero-space {
-  height: 9.5rem;
+  height: 8.5rem;
 }
 
 @media (max-width: 600px) {
@@ -656,6 +666,12 @@ header.active {
   z-index: var(--middle-z-index);
 }
 
+@media (max-width: 600px) {
+  .robot {
+    height: 12rem;
+  }
+}
+
 #about-container {
   padding: 0.3rem 1rem;
 }
@@ -666,6 +682,15 @@ header.active {
 #home-title {
   padding: 1rem 0;
   background-color: var(--base-background-color);
+}
+
+@media (min-width: 600px) {
+  #home-layout {
+    background-image: url("/img/strip-repeat.png");
+    background-position: 2.5rem 0;
+    background-size: 0.2rem;
+    background-repeat: repeat-y;
+  }
 }
 
 @media (max-width: 600px) {
@@ -681,12 +706,15 @@ header.active {
 }
 
 #home-layout {
+  --donate-height: 5rem;
+  position: relative;
   display: flex;
   align-items: flex-end;
+  padding-bottom: var(--donate-height);
 }
 
 #home-layout .left-column {
-  padding-left: var(--sidebar-width);
+  padding-left: 8rem;
   line-height: 1.55;
 }
 
@@ -697,14 +725,36 @@ header.active {
 #home-layout .right-column {
   flex: 0 0 30%;
   padding-bottom: 3rem;
+  margin-left: 2rem;
+  font-size: 1.2rem;
 }
 
 #home-layout .right-column > p {
-  background-color: var(--color-listen);
+  text-shadow: var(--highlight-shadow-listen);
+}
+
+#donate {
+  height: var(--donate-height);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3rem;
+  text-align: center;
+}
+
+#donate button {
+  margin: 0 auto;
+  height: 3rem;
+  animation: throb 3s ease-in-out infinite;
+}
+
+@keyframes throb {
+  50%{background-color: var(--color-speak-light);}
 }
 
 #try-it-container {
-  height: 5rem;
+  height: 7rem;
 }
 
 #listen-container {
