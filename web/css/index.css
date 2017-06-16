@@ -13,7 +13,7 @@
   --base-font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   --strong-font-family: ZillaSlab,Georgia,Utopia,Charter,serif;
   --base-font-size: 15px;
-  --header-height: 4.5rem;
+  --header-height: 5rem;
   --input-height: 2.5rem;
   --sidebar-width: 11rem;
   --debug-box-height: 8rem;
@@ -110,7 +110,7 @@ button {
   cursor: pointer;
   border: 1px solid black;
   outline: none;
-  background-color: transparent;
+  background-color: var(--base-background-color);
   position: relative;
   transition: all 0.1s linear;
 }
@@ -454,32 +454,36 @@ header.active {
   transition: none;
 }
 
-#scroller {
-  background-size: 100% 20rem;
-  background-repeat: no-repeat;
-  background-position: center 0.7rem;
-  -webkit-overflow-scrolling: touch;
-  scroll-behavior: smooth;
-}
-
 @media (max-width: 600px) {
   #scroller {
-    background-image: var(--base-background-image-mobile);
     position: fixed;
     top: 0; bottom: 0;
     left: 0; right: 0;
     overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+  }
+}
+
+#scrollee {
+  background-size: 100% 20rem;
+  background-repeat: no-repeat;
+  background-position: center 0.7rem;
+}
+
+@media (max-width: 600px) {
+  #scrollee {
+    background-image: var(--base-background-image-mobile);
   }
 }
 
 @media (min-width: 600px) {
-  #scroller {
+  #scrollee {
     background-image: var(--base-background-image);
-    background-attachment: local;
   }
 }
 
-.profile #scroller {
+.profile #scrollee {
   background: none;
 }
 
@@ -700,7 +704,6 @@ header.active {
 }
 
 #try-it-container {
-  background-color: var(--base-background-color);
   height: 5rem;
 }
 

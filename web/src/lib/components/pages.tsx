@@ -126,7 +126,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
         </button>
         {this.renderNav('main-nav')}
       </header>
-      <div id="scroller">
+      <div id="scroller"><div id="scrollee">
         <div class="hero">
           <img className="robot" src="/img/robot.png" />
           <div class="divider"></div>
@@ -170,7 +170,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
             </div>
           </div>
         </footer>
-      </div>
+      </div></div>
       <div id="navigation-modal"
            className={this.state.isMenuVisible && 'is-active'}>
       {this.renderNav()}
