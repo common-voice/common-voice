@@ -5,7 +5,6 @@ const MemoryStream = require('memorystream');
 const path = require('path');
 const Promise = require('bluebird');
 const Queue = require('better-queue');
-const sox = require('sox-stream');
 const AWS = require('./aws');
 
 const BATCH_SIZE = 5;
