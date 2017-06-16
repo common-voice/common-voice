@@ -17,9 +17,10 @@ export default class App {
    * App will handle routing to page controllers.
    */
   constructor() {
-    if (isNativeIOS()) {
-      this.bootstrapIOS();
-    }
+    // Disable the debug box for now.
+    // if (isNativeIOS()) {
+    //   this.bootstrapIOS();
+    // }
 
     this.user = new User();
     document.body.classList.add('loaded');
