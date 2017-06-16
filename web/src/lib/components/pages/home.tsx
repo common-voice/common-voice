@@ -29,7 +29,8 @@ export default class Home extends Component<Props, void> {
         </div>
       </div>
       <div id="try-it-container">
-        <h2>Try it!</h2>
+        <h1>Try it!</h1>
+        <p id="help-home" class="strong">Help us validate&nbsp;<span>5 sentences</span></p>
         <Validator />
       </div>
     </div>;

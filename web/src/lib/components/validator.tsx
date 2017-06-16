@@ -32,7 +32,7 @@ export default class Validator extends Component<Props, State> {
   }
 
   render() {
-    return <div>
+    return <div class="validator">
       <ListenBox src={this.state.clip && this.state.clip.audio}
                  sentence={this.state.clip && this.state.clip.sentence}
                  onVote={this.loadClip} vote="true" />
