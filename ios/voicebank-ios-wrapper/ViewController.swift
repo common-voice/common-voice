@@ -8,7 +8,8 @@ class ViewController: UIViewController, WKScriptMessageHandler, WKNavigationDele
     var webView: WKWebView?
     var recorder: Recorder!
     var orientation: UIInterfaceOrientationMask!
-    
+    var browserViewController: UIViewController? = nil
+
     @IBOutlet weak var labelStatus: UILabel!
     @IBOutlet weak var activityIndicatorView: UIActivityIndicatorView!
 
@@ -32,6 +33,8 @@ class ViewController: UIViewController, WKScriptMessageHandler, WKNavigationDele
             // start the recorder object and ask permission to capture
             recorder = Recorder()
             recorder.webView = webView!
+            let mainStoryboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+            browserViewController = mainStoryboard.instantiateViewController(withIdentifier: "browser")
         }
     }
     
@@ -76,7 +79,7 @@ class ViewController: UIViewController, WKScriptMessageHandler, WKNavigationDele
             return  [UIInterfaceOrientationMask.portrait, UIInterfaceOrientationMask.portraitUpsideDown]
         }
     }
-        
+    
     func webView(_ webView: WKWebView,
                  didFinish navigation: WKNavigation!) {
         webView.isHidden = false
@@ -85,4 +88,20 @@ class ViewController: UIViewController, WKScriptMessageHandler, WKNavigationDele
         webView.evaluateJavaScript("window.vcopensettings = function () { window.webkit.messageHandlers['scriptHandler'].postMessage('openSettings'); }")
     }
     
+    func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping ((WKNavigationActionPolicy) -> Void)) {
+        if (navigationAction.navigationType == WKNavigationType.linkActivated){
+            print(navigationAction.request.url?.relativeString as Any)
+            decisionHandler(WKNavigationActionPolicy.cancel)
+            self.present(browserViewController!, animated: true, completion: nil)
+            (browserViewController as! BrowserViewController).setUrl(url: (navigationAction.request.url?.absoluteString)!)
+        } else {
+            decisionHandler(WKNavigationActionPolicy.allow)
+        }
+    }
+    
+
+    @IBAction func closeBrowserView() {
+        let prefs = UserDefaults.standard
+        prefs.setValue(0, forKey: "userDetails")
+    }
 }
