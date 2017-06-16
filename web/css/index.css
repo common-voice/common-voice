@@ -232,9 +232,14 @@ input:invalid {
   --listen-box-height: 4rem;
   --space-between: 0.2rem;
   display: flex;
-  flex-wrap: wrap;
   margin-bottom: var(--space-between);
   opacity: 0.9;
+}
+
+@media (max-width: 600px) {
+  .listen-box {
+    flex-wrap: wrap;
+  }
 }
 
 .listen-box.loaded {
@@ -479,7 +484,7 @@ header.active {
   padding-right: 6rem;
 }
 
-.tab.active .tab-name.record {
+.tab.active .tab-name.speak {
   background-color: var(--color-speak);
 }
 
@@ -811,6 +816,10 @@ header.active {
 #listen-container {
   padding: 0.7rem;
   text-align: center;
+}
+
+#listen-container .listen-box {
+  margin-top: 2rem;
 }
 
 .validate-lbl {
