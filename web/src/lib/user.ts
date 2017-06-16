@@ -32,12 +32,19 @@ export const AGES = {
   'nineties': '> 89',
 };
 
+export const GENDER = {
+  'male': 'Male',
+  'female': 'Female',
+  'other': 'Other'
+};
+
 interface UserState {
   userId: string;
   email: string;
   sendEmails: boolean;
   accent: string;
   age: string;
+  gender: string;
   clips: number;
 }
 
@@ -68,6 +75,7 @@ export default class User {
         sendEmails: false,
         accent: '',
         age: '',
+        gender: '',
         clips: 0
       };
       this.save();
@@ -113,6 +121,16 @@ export default class User {
     }
 
     this.state.age = age;
+    this.save();
+  }
+
+  public setGender(gender: string): void {
+    if (!GENDER[gender]) {
+      console.error('cannot set unrecognized gender', gender);
+      return;
+    }
+
+    this.state.gender = gender;
     this.save();
   }
 

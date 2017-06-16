@@ -1,5 +1,5 @@
 import { h, Component } from 'preact';
-import { ACCENTS, AGES, default as User } from '../../user';
+import { ACCENTS, AGES, GENDER, default as User } from '../../user';
 
 interface Props {
   user: User;
@@ -33,6 +33,9 @@ export default class Profile extends Component<Props, State> {
 
     el = document.getElementById('profile-age') as HTMLSelectElement;
     this.props.user.setAge(el.options[el.selectedIndex].value);
+
+    el = document.getElementById('profile-gender') as HTMLSelectElement;
+    this.props.user.setGender(el.options[el.selectedIndex].value);
   }
 
   render() {
@@ -54,6 +57,13 @@ export default class Profile extends Component<Props, State> {
         </option>);
     });
 
+    let genderOptions = [];
+    Object.keys(GENDER).forEach(gender => {
+      genderOptions.push(
+        <option value={gender} selected={user.gender === gender}>
+          {GENDER[gender]}
+        </option>);
+    });
     return <div id="profile-container" className={this.props.active}>
       <h2>Profile Data</h2>
       <div className="input-and-button">
@@ -83,9 +93,7 @@ export default class Profile extends Component<Props, State> {
       <label for="profile-gender">Your gender</label>
       <select id="profile-gender">
         <option>--</option>
-        <option>Male</option>
-        <option>Female</option>
-        <option>Other</option>
+        {genderOptions}
       </select>
       <button id="save-demos" class="dark" onClick={this.saveDemographics}>
         Save changes
