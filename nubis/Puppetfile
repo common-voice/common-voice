@@ -10,3 +10,7 @@ mod 'spantree/upstart','0.0.3'
 
 mod 'puppet/nodejs', '2.3.0'
 
+# XXX: should be included in base
+mod 'srf/fluentd',
+    :git => 'https://github.com/gozer/puppet-fluentd.git',
+    :ref => 'bba6a41c967c1de12299ed31a67996e9be081d0e'
