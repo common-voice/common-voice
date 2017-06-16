@@ -24,7 +24,7 @@
     "preact": "^8.1.0",
     "proxy-agent": "^2.0.0",
     "simple-git": "^1.72.0",
-    "sox-stream": "^2.0.1",
+    "stream-transcoder": "0.0.5",
     "walk": "^2.3.9"
   },
   "devDependencies": {
