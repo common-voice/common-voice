@@ -182,13 +182,13 @@ export default class Pages extends Component<PagesProps, PagesState> {
     let c = 'tab ' + this.isPageActive(url, this.props.currentPage);
     return <a className={c}
               onClick={this.props.navigate.bind(null, url)}>
-             <span className="tab-name">{name}</span>
+             <span className={'tab-name ' + name}>{name}</span>
            </a>;
   }
 
   private renderNav(id?: string) {
     return <nav id={id} className="nav-list">
-      {this.renderTab('/', 'about')}
+      {this.renderTab('/', 'home')}
       {this.renderTab('/record', 'record')}
       {this.renderTab('/listen', 'listen')}
       {this.renderTab('/profile', 'profile')}

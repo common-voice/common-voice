@@ -454,6 +454,19 @@ header.active {
   padding-right: 6rem;
 }
 
+.tab.active .tab-name.record {
+  background-color: var(--color-speak);
+}
+
+.tab.active .tab-name.listen {
+  background-color: var(--color-listen);
+}
+
+.tab.active .tab-name.profile {
+  background-color: var(--color-profile);
+}
+
+
 #main-nav .tab {
   line-height: 1.4;
   margin: 0.35rem 0;
@@ -745,8 +758,9 @@ header.active {
 
 #donate button {
   margin: 0 auto;
+  padding: 0 5rem;
   height: 3rem;
-  animation: throb 3s ease-in-out infinite;
+  animation: throb 3.5s ease-in-out infinite;
 }
 
 @keyframes throb {
