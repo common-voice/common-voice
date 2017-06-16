@@ -3,6 +3,7 @@ import { generateGUID } from './utility';
 const USER_KEY = 'userdata';
 
 export const ACCENTS = {
+  '': '--',
   'us': 'United States',
   'england': 'England',
   'scotland': 'Scotland',
@@ -21,6 +22,7 @@ export const ACCENTS = {
 };
 
 export const AGES = {
+  '': '--',
   'teens': '< 19',
   'twenties': '19 - 29',
   'thirties': '30 - 39',
@@ -33,6 +35,7 @@ export const AGES = {
 };
 
 export const GENDER = {
+  '': '--',
   'male': 'Male',
   'female': 'Female',
   'other': 'Other'
