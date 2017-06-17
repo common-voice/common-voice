@@ -56,6 +56,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       this.isUnsupportedPlatform = true;
       return;
     }
+      this.isUnsupportedPlatform = true;
 
     this.newSentenceSet();
 
@@ -176,13 +177,13 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
           We're sorry, but your platform is not currently supported.
         </h2>
         <p>
-          Please download the latest:
+          On desktop computers, you can download the latest:
           <a target="_blank" href="https://www.firefox.com/">
             <Icon type="firefox" />Firefox</a> or
           <a target="_blank" href="https://www.google.com/chrome">
             <Icon type="chrome" />Chrome</a>
         </p>
-        <p>Also, <b>iOS app</b> is coming soon!</p>
+        <p>For iPhones and iPads, an <b>iOS app</b> is coming soon!</p>
       </div>;
     }
 
