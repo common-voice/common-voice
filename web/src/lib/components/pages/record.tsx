@@ -142,12 +142,13 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   }
 
   startRecording() {
-    this.setState({
-      recording: true,
-      // TODO: reanble display of recording time at some point.
-      // recordingStartTime: this.audio.audioContext.currentTime
+    this.audio.start().then(() => {
+      this.setState({
+        recording: true,
+        // TODO: reanble display of recording time at some point.
+        // recordingStartTime: this.audio.audioContext.currentTime
+      });
     });
-    this.audio.start();
   }
 
   stopRecording() {

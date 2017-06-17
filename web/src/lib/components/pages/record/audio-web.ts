@@ -118,13 +118,13 @@ export default class AudioWeb {
     });
   }
 
-  start() {
+  start(): Promise<void> {
     if (!this.ready) {
       console.error('Cannot record audio before microhphone is ready.');
       return Promise.resolve();;
     }
 
-    return new Promise((res: Function, rej: Function) => {
+    return new Promise<void>((res: Function, rej: Function) => {
       this.chunks = [];
       this.recorder.ondataavailable = (e) => {
         this.chunks.push(e.data);

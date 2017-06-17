@@ -8,6 +8,8 @@ declare var vcopensettings;
 
 export default class AudioIOS {
   postMessage: Function;
+  pendingStart: Function;
+  pendingStartError: Function;
 
   static AUDIO_TYPE: string = 'audio/m4a;base64';
   last: AudioInfo;
@@ -26,6 +28,8 @@ export default class AudioIOS {
   static AUDIO_TYPE_URL: string = 'audio/mp4;base64';
 
   private handleNativeMessage(msg: string): void {
+    console.log('got a native message', msg);
+
     if (msg === 'nomicpermission') {
       confirm('Please allow microphone access to record your voice.',
         'Go to Settings', 'Cancel').then((gotoSettings) => {
@@ -33,6 +37,20 @@ export default class AudioIOS {
             vcopensettings();
           }
         });
+    } else if (msg === 'capturestarted') {
+      if (this.pendingStart) {
+        let cb = this.pendingStart;
+        this.pendingStart = null;
+        this.pendingStartError = null;
+        cb();
+      }
+    } else if (msg === 'errorrecording') {
+      if (this.pendingStart) {
+        let cb = this.pendingStartError;
+        this.pendingStart = null;
+        this.pendingStartError = null;
+        cb('Unable to start recording');
+      }
     } else {
       console.log('unhandled native message', msg);
     }
@@ -63,9 +81,12 @@ export default class AudioIOS {
     return Promise.resolve();
   }
 
-  start() {
-    this.postMessage('startCapture');
-    return Promise.resolve();
+  start(): Promise<void> {
+    return new Promise<void>((res, rej) => {
+      this.pendingStart = res;
+      this.pendingStartError = rej;
+      this.postMessage('startCapture');
+    });
   }
 
   stop() {
