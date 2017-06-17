@@ -56,7 +56,6 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       this.isUnsupportedPlatform = true;
       return;
     }
-      this.isUnsupportedPlatform = true;
 
     this.newSentenceSet();
 
