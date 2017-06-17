@@ -20,9 +20,9 @@ export default class App {
    */
   constructor() {
     // Disable the debug box for now.
-    // if (isNativeIOS()) {
-    //   this.bootstrapIOS();
-    // }
+    if (isNativeIOS()) {
+      this.bootstrapIOS();
+    }
 
     this.user = new User();
     this.api = new API(this.user);
