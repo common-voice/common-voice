@@ -7,6 +7,7 @@ import Home from './pages/home';
 import Listen from './pages/listen';
 import Record from './pages/record';
 import Profile from './pages/profile';
+import Privacy from './pages/privacy';
 import NotFound from './pages/not-found';
 
 import API from '../api';
@@ -18,6 +19,7 @@ const URLS = {
   RECORD: '/record',
   LISTEN: '/listen',
   PROFILE: '/profile',
+  PRIVACY: '/privacy',
   NOTFOUND: '/not-found'
 };
 
@@ -219,6 +221,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
           <Listen active={this.isPageActive(URLS.LISTEN)} api={this.props.api}/>
           <Profile user={this.props.user}
                    active={this.isPageActive(URLS.PROFILE)} />
+          <Privacy active={this.isPageActive(URLS.PRIVACY)} />
           <NotFound active={this.isNotFoundActive()} />
         </div>
         <footer>
@@ -237,10 +240,14 @@ export default class Pages extends Component<PagesProps, PagesState> {
               <Logo navigate={this.props.navigate}/>
               <div class="links">
                 <p>
-                  <a href="https://www.mozilla.org/en-US/privacy/">Privacy</a>
+                  <a onClick={evt => {
+                    evt.stopPropagation();
+                    evt.preventDefault();
+                    this.props.navigate('/privacy');
+                  }} href="/privacy">Privacy</a>
                   <a href="https://www.mozilla.org/en-US/privacy/websites/#cookies">Cookies</a>
                   <a href="https://www.mozilla.org/en-US/about/legal/">
-                    Privacy</a>
+                    Legal</a>
                   <a href="/">About Project Common Voice</a>
                 </p>
                 <p>Content available under a&nbsp;<a href="https://www.mozilla.org/en-US/foundation/licensing/website-content/">Creative Commons license</a></p>

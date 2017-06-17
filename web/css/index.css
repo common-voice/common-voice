@@ -1143,7 +1143,7 @@ label[for="send-emails"] {
   background-color: var(--color-help);
 }
 
-#privacy-page {
+.privacy-content {
   background-color: var(--base-background-color);
   width: var(--desktop-width);
   padding: var(--page-margin);
@@ -1151,27 +1151,33 @@ label[for="send-emails"] {
   transition: transform 0.2s ease-out;
 }
 
-.active #privacy-page {
+.active .privacy-content {
   transform: scale(1);
 }
 
 @media (min-width: 600px) {
-  #privacy-page {
+  .privacy-content {
     border-radius: 4px;
   }
 }
 
-#privacy-page > * {
+#privacy-container .privacy-content {
+  width: unset;
+  padding: 0;
+}
+
+.privacy-content > * {
   margin: 2.5rem 0;
 }
 
-#privacy-page > h1:first-child {
+.privacy-content > h1:first-child {
   margin-top: 1rem;
   text-decoration: underline;
 }
 
-#privacy-page a {
-  color: var(--color-help);
+.privacy-content a {
+  display: block;
+  color: blue;
 }
 
 .button-holder {

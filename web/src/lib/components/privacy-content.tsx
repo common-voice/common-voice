@@ -19,7 +19,7 @@ export default class PrivacyContent extends Component<Props, State> {
       <button onClick={this.props.onDisagree}>I do not agree</button>
     </div> : '';
 
-    return <div id="privacy-page">
+    return <div class="privacy-content">
       <h1>Common Voice Privacy Policy</h1>
       {formHeader}
       <p>When Mozilla (that’s us), receives information
