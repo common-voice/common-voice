@@ -49,6 +49,9 @@ export default class AudioIOS {
     // Store our native message bridge for later.
     let messenger = webkit.messageHandlers['scriptHandler'];
     this.postMessage = messenger.postMessage.bind(messenger);
+
+    // For now, we will always use portrait mode for the app.
+    this.postMessage('lockportrait');
   }
 
   init() {
