@@ -1,7 +1,9 @@
 import { h, Component } from 'preact';
 import Validator from '../validator';
+import API from '../../api';
 
 interface Props {
+  api: API;
   active: string;
   navigate(url: string): void;
 }
@@ -27,7 +29,7 @@ export default class Home extends Component<Props, void> {
       <div id="try-it-container">
         <h1>Try it!</h1>
         <p id="help-home" class="strong">Help us validate&nbsp;<span>5 sentences</span></p>
-        <Validator />
+        <Validator api={this.props.api} />
       </div>
     </div>;
   }

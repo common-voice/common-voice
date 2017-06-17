@@ -49,6 +49,7 @@ interface UserState {
   age: string;
   gender: string;
   clips: number;
+  privacyAgreed: boolean;
 }
 
 /**
@@ -79,7 +80,8 @@ export default class User {
         accent: '',
         age: '',
         gender: '',
-        clips: 0
+        clips: 0,
+        privacyAgreed: false
       };
       this.save();
     }
@@ -139,5 +141,14 @@ export default class User {
 
   public getState(): UserState {
     return this.state;
+  }
+
+  public hasAgreedToPrivacy() {
+    return this.state.privacyAgreed;
+  }
+
+  public agreeToPrivacy() {
+    this.state.privacyAgreed = true;
+    this.save();
   }
 }

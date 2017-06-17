@@ -8,14 +8,17 @@ import ListenBox from '../listen-box';
 import ProgressButton from '../progress-button';
 import ERROR_MSG from '../../../error-msg';
 import { countSyllables, isNativeIOS, generateGUID } from '../../utility';
+import confirm from '../confirm';
 
 const SET_COUNT = 3;
-const SOUNDCLIP_URL = '/upload/';
 const PAGE_NAME = 'record';
 
 interface RecordProps {
   active: string;
   user: User;
+  api: API;
+  navigate(url: string): void;
+  onRecordingSet(recordings: Blob[], sentences: string[]): Promise<void>;
 }
 
 interface RecordState {
@@ -29,7 +32,6 @@ interface RecordState {
 export default class RecordPage extends Component<RecordProps, RecordState> {
   name: string = PAGE_NAME;
   audio: AudioWeb | AudioIOS;
-  api: API;
 
   state = {
     sentences: [],
@@ -39,9 +41,9 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     uploadProgress: 0
   };
 
-  constructor() {
-    super();
-    this.api = new API();
+  constructor(props) {
+    super(props);
+
     // Use different audio helpers depending on if we are web or native iOS.
     if (isNativeIOS()) {
       this.audio = new AudioIOS();
@@ -52,7 +54,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     this.newSentenceSet();
 
     // Bind now, to avoid memory leak when setting handler.
-    this.uploadSet = this.uploadSet.bind(this);
+    this.onSetReady = this.onSetReady.bind(this);
     this.onRecordClick = this.onRecordClick.bind(this);
     this.processRecording = this.processRecording.bind(this);
     this.goBack = this.goBack.bind(this);
@@ -78,62 +80,20 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     return s || '';
   }
 
-  private uploadOne(blob: Blob, sentence: string, progress?: Function) {
-    return new Promise((resolve: EventListener, reject: EventListener) => {
-      var req = new XMLHttpRequest();
-      req.upload.addEventListener('load', resolve);
-      req.upload.addEventListener("error", reject);
-      req.open('POST', SOUNDCLIP_URL);
-      req.setRequestHeader('uid', this.props.user.getId());
-      req.setRequestHeader('sentence',
-        encodeURIComponent(sentence));
-
-      // For IOS, we don't upload binary data but base64. Here we
-      // make sure the server knows what to expect.
-      if (blob.type === AudioIOS.AUDIO_TYPE) {
-        req.setRequestHeader('content-type', AudioIOS.AUDIO_TYPE);
-      }
-
-      if (progress) {
-        req.addEventListener('progress', evt => {
-          let total = evt.lengthComputable ? evt.total : 100;
-          progress(100 * evt.loaded / total);
-        });
-      }
-
-      req.send(blob);
-    });
-  }
-
-  private uploadSet() {
-    let recordings = this.state.recordings;
-    let sentences = this.state.sentences;
-    let runningTotal = 0;
-    let uploadNext = () => {
-
-      if (recordings.length === 0) {
-        this.newSentenceSet();
-        this.setState({
-          recordings: [],
-          sentences: [],
-          uploadProgress: 0
-        });
-        return;
-      }
-
-      let recording = recordings.pop();
-      let blob = recording.blob;
-      let sentence = sentences.pop();
-
-      this.uploadOne(blob, sentence).then(() => {
-        runningTotal += 100 / SET_COUNT;
-        this.setState({ uploadProgress: runningTotal });
-        uploadNext();
+  private onSetReady() {
+    this.props.onRecordingSet(this.state.recordings, this.state.sentences)
+      .then(() => {
+        // TODO: display thank you page!
+        this.reset();
+      })
+      .catch(() => {
+        confirm('You did not agree to our Privacy Policy. Do you want to delete your recordings?', 'Keep the recordings', 'Delete my recordings').then((keep) => {
+          if (!keep) {
+            this.reset();
+            this.props.navigate('/');
+          }
+        })
       });
-    };
-
-    // Start the recursive chain to upload the recordings serially.
-    uploadNext();
   }
 
   private isFull(): boolean {
@@ -150,6 +110,15 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     r.pop();
     this.setState({
       recordings: r
+    });
+  }
+
+  private reset(): void {
+    this.newSentenceSet();
+    this.setState({
+      recordings: [],
+      sentences: [],
+      uploadProgress: 0
     });
   }
 
@@ -186,7 +155,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   newSentenceSet() {
     let recordedSentenceCount = this.state.recordings.length;
     let numberOfSentenceToGet = SET_COUNT - recordedSentenceCount;
-    this.api.getRandomSentences(numberOfSentenceToGet).then(newSentences => {
+    this.props.api.getRandomSentences(numberOfSentenceToGet).then(newSentences => {
       let targetSentences = this.state.sentences.slice(0,recordedSentenceCount);
       targetSentences = targetSentences.concat(newSentences.split('\n'));
       this.setState({ sentences: targetSentences});
@@ -244,7 +213,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
         <p id="tap-to-play">Tap to play/stop</p>
         {listens}
         <ProgressButton percent={this.state.uploadProgress}
-                        onClick={this.uploadSet} text="Submit" />
+                        onClick={this.onSetReady} text="Submit" />
       </div>
     </div>;
   }

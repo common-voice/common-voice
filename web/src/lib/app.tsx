@@ -1,5 +1,6 @@
 import { h, render } from 'preact';
 import User from './user';
+import API from './api';
 import Pages from './components/pages';
 import { isNativeIOS } from './utility';
 import DebugBox from './components/debug-box';
@@ -12,6 +13,7 @@ export default class App {
 
   box: DebugBox;
   user: User;
+  api: API;
 
   /**
    * App will handle routing to page controllers.
@@ -23,6 +25,7 @@ export default class App {
     // }
 
     this.user = new User();
+    this.api = new API(this.user);
     document.body.classList.add('loaded');
 
     // Force binding of handleNavigation to this instance.
@@ -66,6 +69,7 @@ export default class App {
     // Render the main controller, Pages.
     render((
       <Pages user={this.user}
+             api={this.api}
              navigate={this.handleNavigation}
              currentPage={this.getPageName()} />
     ), document.body, document.body.firstElementChild);

@@ -3,6 +3,7 @@ import ListenBox from './listen-box';
 import { Clip, default as API } from '../api';
 
 interface Props {
+  api: API;
 }
 
 interface State {
@@ -13,18 +14,15 @@ interface State {
  * Widget for validating voice clips.
  */
 export default class Validator extends Component<Props, State> {
-  api: API;
 
   constructor(props) {
     super(props);
-    this.api = new API();
-
     this.loadClip = this.loadClip.bind(this);
     this.loadClip();
   }
 
   private loadClip() {
-    this.api.getRandomClip().then((clip) => {
+    this.props.api.getRandomClip().then((clip) => {
       this.setState({ clip: clip });
     }, (err) => {
       console.error('could not fetch random clip for validator', err);

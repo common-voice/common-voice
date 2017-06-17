@@ -1,11 +1,15 @@
 import { h, Component } from 'preact';
 import Logo from './logo';
 import Icon from './icon';
+import PrivacyContent from './privacy-content';
+
 import Home from './pages/home';
 import Listen from './pages/listen';
 import Record from './pages/record';
 import Profile from './pages/profile';
 import NotFound from './pages/not-found';
+
+import API from '../api';
 import User from '../user';
 
 const URLS = {
@@ -19,6 +23,7 @@ const URLS = {
 
 interface PagesProps {
   user: User;
+  api: API;
   currentPage: string;
   navigate(url: string): void;
 }
@@ -28,6 +33,9 @@ interface PagesState {
   pageTransitioning: boolean;
   scrolled: boolean;
   currentPage: string;
+  showingPrivacy: boolean;
+  onPrivacyAgree?(evt): void;
+  onPrivacyDisagree?(evt): void;
 }
 
 export default class Pages extends Component<PagesProps, PagesState> {
@@ -39,8 +47,16 @@ export default class Pages extends Component<PagesProps, PagesState> {
     isMenuVisible: false,
     pageTransitioning: false,
     scrolled: false,
-    currentPage: null
+    currentPage: null,
+    showingPrivacy: false,
+    onPrivacyAgree: null,
+    onPrivacyDisagree: null
   };
+
+  constructor(props) {
+    super(props);
+    this.uploadRecordings = this.uploadRecordings.bind(this);
+  }
 
   private getCurrentPageName() {
     return this.state.currentPage && this.state.currentPage.substr(1);
@@ -77,6 +93,70 @@ export default class Pages extends Component<PagesProps, PagesState> {
     });
   }
 
+  private isNotFoundActive(): string {
+    return !this.isValidPage(this.props.currentPage) ? 'active' : '';
+  }
+
+  private ensurePrivacyAgreement(): Promise<void> {
+    if (this.props.user.hasAgreedToPrivacy()) {
+      return Promise.resolve();
+    }
+
+    return new Promise<void>((res, rej) => {
+      // To be called when user closes the privacy dialog.
+      let onFinish = (didAgree: boolean): void => {
+        this.setState({
+          showingPrivacy: false,
+          onPrivacyAgree: null,
+          onPrivacyDisagree: null
+        });
+
+        if (didAgree) {
+          this.props.user.agreeToPrivacy();
+          res();
+        } else {
+          rej();
+        }
+      };
+
+      this.setState({
+        showingPrivacy: true,
+        onPrivacyAgree: onFinish.bind(this, true),
+        onPrivacyDisagree: onFinish.bind(this, false)
+      });
+    });
+  }
+
+  private uploadRecordings(recordings: any[], sentences: string[]): Promise<void> {
+    return new Promise<void>((res, rej) => {
+      this.ensurePrivacyAgreement().then(() => {
+        let runningTotal = 0;
+
+        // This function calls itself recursively until all recordings are uploaded.
+        let uploadNext = () => {
+          if (recordings.length === 0) {
+            res();
+            return;
+          }
+
+          let recording = recordings.pop();
+          let blob = recording.blob;
+          let sentence = sentences.pop();
+
+          this.props.api.uploadAudio(blob, sentence).then(() => {
+            // TODO: figure out how to pass progress into record component.
+            // runningTotal += 100 / SET_COUNT;
+            // this.setState({ uploadProgress: runningTotal });
+            uploadNext();
+          });
+        };
+
+        // Start the recursive chain to upload the recordings serially.
+        uploadNext();
+      }).catch(rej);
+    });
+  }
+
   componentDidMount() {
     this.scroller = document.getElementById('scroller');
     this.content = document.getElementById('content');
@@ -85,10 +165,6 @@ export default class Pages extends Component<PagesProps, PagesState> {
     this.setState({
       currentPage: this.props.currentPage,
     });
-  }
-
-  private isNotFoundActive(): string {
-    return !this.isValidPage(this.props.currentPage) ? 'active' : '';
   }
 
   componentWillUpdate(nextProps: PagesProps) {
@@ -136,10 +212,11 @@ export default class Pages extends Component<PagesProps, PagesState> {
         <div id="content" className={this.state.pageTransitioning ?
                                      'transitioning': ''}>
           <Home active={this.isPageActive([URLS.HOME, URLS.ROOT])}
-                navigate={this.props.navigate} />
-          <Record active={this.isPageActive(URLS.RECORD)}
-                  user={this.props.user} />
-          <Listen active={this.isPageActive(URLS.LISTEN)} />
+                navigate={this.props.navigate} api={this.props.api} />
+          <Record active={this.isPageActive(URLS.RECORD)} api={this.props.api}
+                  onRecordingSet={this.uploadRecordings}
+                  navigate={this.props.navigate} user={this.props.user} />
+          <Listen active={this.isPageActive(URLS.LISTEN)} api={this.props.api}/>
           <Profile user={this.props.user}
                    active={this.isPageActive(URLS.PROFILE)} />
           <NotFound active={this.isNotFoundActive()} />
@@ -175,6 +252,10 @@ export default class Pages extends Component<PagesProps, PagesState> {
       <div id="navigation-modal"
            className={this.state.isMenuVisible && 'is-active'}>
       {this.renderNav()}
+      </div>
+      <div className={'overlay' + (this.state.showingPrivacy ? ' active' : '')}>
+        <PrivacyContent isForm={true}
+          onAgree={this.state.onPrivacyAgree} onDisagree={this.state.onPrivacyDisagree} />
       </div>
     </div>;
   }

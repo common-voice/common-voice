@@ -511,6 +511,7 @@ header.active {
     position: fixed;
     top: 0; bottom: 0;
     left: 0; right: 0;
+    overflow-x: hidden;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
     scroll-behavior: smooth;
@@ -1132,8 +1133,85 @@ label[for="send-emails"] {
   flex-direction: column;
   margin: 1rem;
   padding: 1rem;
-  background: #444;
+  background: var(--base-background-color);
   border-radius: 1rem;
   width: 100%;
   max-width: 30rem;
 }
+
+#confirm-confirm {
+  background-color: var(--color-help);
+}
+
+#privacy-page {
+  background-color: var(--base-background-color);
+  width: var(--desktop-width);
+  padding: var(--page-margin);
+  transform: scale(0);
+  transition: transform 0.2s ease-out;
+}
+
+.active #privacy-page {
+  transform: scale(1);
+}
+
+@media (min-width: 600px) {
+  #privacy-page {
+    border-radius: 4px;
+  }
+}
+
+#privacy-page > * {
+  margin: 2.5rem 0;
+}
+
+#privacy-page > h1:first-child {
+  margin-top: 1rem;
+  text-decoration: underline;
+}
+
+#privacy-page a {
+  color: var(--color-help);
+}
+
+.button-holder {
+  text-align:center;
+}
+
+@media (min-width: 600px) {
+  .button-holder button {
+    margin: 0 1rem;
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: var(--top-z-index);
+  background: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  pointer-events: none;
+  transform: opacity 0.2s linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .overlay {
+    overflow-y: scroll;
+    align-items: flex-start;
+  }
+}
+
+
+.overlay.active {
+  pointer-events: all;
+  opacity: 1;
+}
+

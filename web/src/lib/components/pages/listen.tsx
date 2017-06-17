@@ -3,6 +3,7 @@ import { Clip, default as API } from '../../api';
 import ListenBox from '../listen-box';
 
 interface ListenPageProps {
+  api: API;
   active: string;
 }
 
@@ -16,9 +17,8 @@ export default class Listen extends Component<ListenPageProps, State> {
   sentence: HTMLElement;
 
   componentWillMount() {
-    const api = new API();
     // Ask the server for some random clip to verify.
-    api.getRandomClip().then((clip) => {
+    this.props.api.getRandomClip().then((clip) => {
       this.setState({ clip: clip });
     }, (err) => {
       this.setState({ error: err });
