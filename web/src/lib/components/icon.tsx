@@ -9,7 +9,9 @@ const ICONS = {
   undo: '',
   check: '',
   x: '',
-  github: ''
+  github: '',
+  firefox: '',
+  chrome: ''
 }
 
 interface Props {

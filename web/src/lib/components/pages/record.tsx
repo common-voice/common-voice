@@ -32,6 +32,7 @@ interface RecordState {
 export default class RecordPage extends Component<RecordProps, RecordState> {
   name: string = PAGE_NAME;
   audio: AudioWeb | AudioIOS;
+  isUnsupportedPlatform: boolean;
 
   state = {
     sentences: [],
@@ -49,6 +50,11 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       this.audio = new AudioIOS();
     } else {
       this.audio = new AudioWeb();
+    }
+
+    if (!this.audio.isMicrophoneSupported()) {
+      this.isUnsupportedPlatform = true;
+      return;
     }
 
     this.newSentenceSet();
@@ -163,6 +169,23 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   }
 
   render() {
+    // Make sure we can get the microphone before displaying anything.
+    if (this.isUnsupportedPlatform) {
+      return <div className={'unsupported ' + this.props.active}>
+        <h2>
+          We're sorry, but your platform is not currently supported.
+        </h2>
+        <p>
+          Please download the latest:
+          <a target="_blank" href="https://www.firefox.com/">
+            <Icon type="firefox" />Firefox</a> or
+          <a target="_blank" href="https://www.google.com/chrome">
+            <Icon type="chrome" />Chrome</a>
+        </p>
+        <p>Also, <b>iOS app</b> is coming soon!</p>
+      </div>;
+    }
+
     let isFull = this.isFull();
     let texts = [];   // sentence elements
     let listens = []; // listen boxes

@@ -16,6 +16,11 @@ export default class AudioIOS {
     this.last = null;
   }
 
+  // Microphone is definitely supported on iOS.
+  isMicrophoneSupported() {
+    return true;
+  }
+
   // For audio src URL, we need to trick webkit into
   // thinking this is an mp4 base64 encoding.
   static AUDIO_TYPE_URL: string = 'audio/mp4;base64';

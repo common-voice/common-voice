@@ -896,6 +896,24 @@ header.active {
   padding-top: 0;
 }
 
+.unsupported > :first-child {
+  padding-top: 3rem;
+}
+
+.unsupported a {
+  display: block;
+  color: blue;
+  margin: 0.5rem 0;
+}
+
+.unsupported span {
+  margin-right: 0.5rem;
+}
+
+.unsupported p {
+  padding: 1rem 0;
+}
+
 @media (max-width: 600px) {
   #record-container {
     overflow-x: hidden;

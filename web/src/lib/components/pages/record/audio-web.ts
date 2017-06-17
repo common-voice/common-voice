@@ -57,6 +57,13 @@ export default class AudioWeb {
     });
   }
 
+  // Check all the browser prefixes for microhpone support.
+  isMicrophoneSupported() {
+    return (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) ||
+      navigator.getUserMedia || navigator.webkitGetUserMedia ||
+      navigator.mozGetUserMedia;
+  }
+
   init() {
     if (this.initPromise) {
       return this.initPromise;
