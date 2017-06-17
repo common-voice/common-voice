@@ -175,6 +175,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
       var self = this;
       this.content.addEventListener('transitionend', function remove() {
         self.content.removeEventListener('transitionend', remove);
+        self.scroller.scrollTop = 0; // scroll back to the top of the page
         self.setState({
           currentPage: nextProps.currentPage,
           pageTransitioning: false,
