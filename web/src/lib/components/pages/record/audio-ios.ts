@@ -1,8 +1,10 @@
 import ERROR_MSG from '../../../../error-msg';
 import { isNativeIOS } from '../../../utility';
 import { AudioInfo } from './audio-web';
+import confirm from '../../confirm';
 
 declare var webkit;
+declare var vcopensettings;
 
 export default class AudioIOS {
   postMessage: Function;
@@ -18,6 +20,19 @@ export default class AudioIOS {
   // thinking this is an mp4 base64 encoding.
   static AUDIO_TYPE_URL: string = 'audio/mp4;base64';
 
+  private handleNativeMessage(msg: string): void {
+    if (msg === 'nomicpermission') {
+      confirm('Please allow microphone access to record your voice.',
+        'Go to Settings', 'Cancel').then((gotoSettings) => {
+          if (gotoSettings) {
+            vcopensettings();
+          }
+        });
+    } else {
+      console.log('unhandled native message', msg);
+    }
+  }
+
   constructor() {
     // Make sure we are in the right context before we allow instantiation.
     if (!isNativeIOS()) {
@@ -27,6 +42,9 @@ export default class AudioIOS {
     // Native will call this function with audio info,
     // but we are not yet interested.
     window['levels'] = () => {};
+
+    // Handle any messages coming from native.
+    window['nativemsgs'] = this.handleNativeMessage.bind(this);
 
     // Store our native message bridge for later.
     let messenger = webkit.messageHandlers['scriptHandler'];
