@@ -17,7 +17,7 @@ class ViewController: UIViewController, WKScriptMessageHandler, WKNavigationDele
         super.loadView()
         
         if !Reachability.isConnectedToNetwork(){
-            labelStatus.text = "Internet Connection not available!"
+            labelStatus.text = "Voice Commons needs an internet connection to function properly. Please connect to the internet and try again."
         } else {
             self.activityIndicatorView.isHidden = false
             // create the webview and load the commonvoice website in it
