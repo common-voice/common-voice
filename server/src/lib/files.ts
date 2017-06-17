@@ -8,6 +8,7 @@ const Queue = require('better-queue');
 const AWS = require('./aws');
 
 const BATCH_SIZE = 5;
+const REFRESH_INTERVAL = 20000; // how often we refresh our S3 list
 const MP3_EXT = '.mp3';
 const CONVERTABLE_EXTS = ['.ogg', '.m4a'];
 const CONFIG_PATH = path.resolve(__dirname, '../../..', 'config.json');
@@ -31,7 +32,7 @@ export default class Files {
     this.paths = [];
     this.mp3s = [];
     this.init().then(() => {
-      setInterval(this.init.bind(this), 1000);
+      setInterval(this.init.bind(this), REFRESH_INTERVAL);
     });
   }
 
