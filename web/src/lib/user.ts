@@ -164,7 +164,6 @@ export default class User {
   }
 
   public tallyVerification() {
-    console.log('something');
     this.state.validateTally = this.state.validateTally || 0;
     this.state.validateTally++
     this.save();

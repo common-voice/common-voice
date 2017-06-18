@@ -73,6 +73,12 @@ html {
   overflow: scroll;
 }
 
+@media (max-width: 600px) {
+  html {
+    overflow: hidden;
+  }
+}
+
 html, body, #main {
   padding: 0;
   margin: 0;
@@ -822,7 +828,6 @@ header.active {
   /*transform: translate(5rem,1rem) scale(0.3);*/
   transform: translate(13rem,-7px) scale(.3) rotate(8deg);
   transition-delay: 0s;
-  opacity: 0.6;
 }
 
 @media (max-width: 600px) {

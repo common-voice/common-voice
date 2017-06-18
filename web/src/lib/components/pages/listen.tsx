@@ -11,9 +11,19 @@ interface ListenPageProps {
 }
 
 export default class Listen extends Component<ListenPageProps, void> {
+  constructor(props) {
+    super(props);
+    this.onVote = this.onVote.bind(this);
+  }
+
+  onVote() {
+    this.props.user.tallyVerification();
+    this.props.navigate('/listen'); // force page render
+  }
+
   render() {
     return <div id="listen-container" className={this.props.active}>
-        <Validator onVote={() => {console.log('got iddddd');}} api={this.props.api} />
+        <Validator onVote={this.onVote} api={this.props.api} />
     </div>;
   }
 }
