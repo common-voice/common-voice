@@ -64,11 +64,13 @@ export default class App {
       let loadedSoFar = 0;
       let onLoad = () => {
         ++loadedSoFar;
-        progressCallback(loadedSoFar / PRELOAD.length);
-
         if (loadedSoFar === PRELOAD.length) {
           res();
+          return;
         }
+
+        progressCallback(loadedSoFar / PRELOAD.length);
+
       };
       for (let i = 0; i < PRELOAD.length; i++) {
         let image = new Image();
@@ -141,7 +143,10 @@ export default class App {
   init(): Promise<void> {
     return this.loadImages(progress => {
       if (this.progressMeter) {
-        this.progressMeter.style.cssText = `opacity: ${100 - progress};`;
+        // TODO: find something performant here. (ie not this)
+        // let whatsLeft = 1 - progress;
+        // this.progressMeter.style.cssText =
+        //   `transform: scale(${whatsLeft});`;
       }
     }).then(() => {
       this.loaded = true;

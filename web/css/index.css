@@ -1347,7 +1347,6 @@ label[for="send-emails"] {
 }
 
 #spinner {
-  background-color: black;
   position: fixed;
   left: 0;
   right: 0;
@@ -1361,14 +1360,18 @@ label[for="send-emails"] {
 }
 
 #spinner span {
+  border-radius: 50%;
   display: inline-block;
   position: absolute;
+  height: var(--spinner-height);
+  width: var(--spinner-height);
   top: 0; bottom: 0;
   left: 0; right: 0;
-  /* animation: spin 4s linear infinite;*/
+  margin: auto;
+  animation: spin 4s linear infinite;
   background-color: black;
   opacity: 1;
-  transition: opacity 0.2s linear;
+  transition: opacity 0.1s linear;
 }
 
 @keyframes spin {
