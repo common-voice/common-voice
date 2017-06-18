@@ -543,13 +543,19 @@ header.active {
   background: none;
 }
 
+/**
+ * We have two different page transition types:
+ * one for desktop and one for mobile.
+ */
 #content {
-  transition: opacity 0.15s linear;
-  opacity: 1;
+  transition: transform 0.2s var(--bounce-curve);
+  transform: translateY(0);
 }
 
 #content.transitioning {
-  opacity: 0.9;
+  transform: translateY(100vh);
+  transition: opacity 0.2s linear;
+  opacity: 0;
 }
 
 @media (min-width: 600px) {
@@ -732,12 +738,22 @@ header.active {
   }
 }
 
-.robot.record {
+.listen .robot {
+  transform: translate(6rem, 5rem);
+}
+
+@media (max-width: 600px) {
+  .listen .robot {
+    transform: translate(10rem,1rem);
+  }
+}
+
+.record .robot {
   transform: translate(7.2rem, 7.5rem);
 }
 
 @media (max-width: 600px) {
-  .robot.record {
+  .record .robot {
     transform: translate(4.5rem,0.5rem);
   }
 }
@@ -787,7 +803,6 @@ header.active {
 
 #home-title {
   padding: 1rem 0;
-  background-color: var(--base-background-color);
 }
 
 @media (min-width: 600px) {
@@ -800,9 +815,6 @@ header.active {
 }
 
 @media (max-width: 600px) {
-  #home-title {
-    background: none;
-  }
   #home-layout div.left-column {
     padding-left: 0;
   }

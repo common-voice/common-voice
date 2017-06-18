@@ -2,6 +2,7 @@ import { h, Component } from 'preact';
 
 const MODE_GREETINGS = '/img/robot-greetings.png';
 const MODE_LISTENING = '/img/robot-listening.png';
+const MODE_THINKING = '/img/robot-thinking.png';
 
 const SPEECH_GREETINGS = 'Click here to help me learn!';
 
@@ -39,6 +40,9 @@ export default class Robot extends Component<Props, State> {
     if (nextProps.pageName === 'record') {
       text = ''; // hides speech
       src = MODE_LISTENING;
+    } else if (nextProps.pageName === 'listen') {
+      text = '';
+      src = MODE_THINKING;
     } else {
       text = SPEECH_GREETINGS;
       src = MODE_GREETINGS;
