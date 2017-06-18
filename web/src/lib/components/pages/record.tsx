@@ -18,7 +18,10 @@ interface RecordProps {
   user: User;
   api: API;
   navigate(url: string): void;
-  onRecordingSet(recordings: Blob[], sentences: string[]): Promise<void>;
+  onSubmit(recordings: Blob[], sentences: string[]): Promise<void>;
+  onRecord: Function;
+  onRecordStop: Function;
+  onRecordingSet: Function;
 }
 
 interface RecordState {
@@ -60,7 +63,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     this.newSentenceSet();
 
     // Bind now, to avoid memory leak when setting handler.
-    this.onSetReady = this.onSetReady.bind(this);
+    this.onSubmit = this.onSubmit.bind(this);
     this.onRecordClick = this.onRecordClick.bind(this);
     this.processRecording = this.processRecording.bind(this);
     this.goBack = this.goBack.bind(this);
@@ -74,6 +77,12 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       recordings: recordings,
       recording: false
     });
+
+    this.props.onRecordStop && this.props.onRecordStop();
+
+    if (this.isFull()) {
+      this.props.onRecordingSet && this.props.onRecordingSet();
+    }
   }
 
   private getRecordingUrl(which: number): string {
@@ -86,8 +95,8 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     return s || '';
   }
 
-  private onSetReady() {
-    this.props.onRecordingSet(this.state.recordings, this.state.sentences)
+  private onSubmit() {
+    this.props.onSubmit(this.state.recordings, this.state.sentences)
       .then(() => {
         // TODO: display thank you page!
         this.reset();
@@ -147,6 +156,8 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
         // TODO: reanble display of recording time at some point.
         // recordingStartTime: this.audio.audioContext.currentTime
       });
+
+      this.props.onRecord && this.props.onRecord();
     });
   }
 
@@ -213,9 +224,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
                    sentence={this.getSentence(i)}/>);
     }
 
-    let className = this.props.active +
-      (this.state.recording ? ' recording': '') +
-      (isFull ? ' full': '');
+    let className = this.props.active + (isFull ? ' full': '');
 
     return <div id="record-container" className={className}>
       <div id="voice-record">
@@ -234,12 +243,12 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
         </p>
       </div>
       <div id="voice-submit">
-        <p id="thank-you">Thank you!</p>
-        <p id="want-to-review">Want to review your recording?</p>
+        <p id="thank-you"><span>Thank you!</span></p>
+        <p id="want-to-review"><span>Want to review your recording?</span></p>
         <p id="tap-to-play">Tap to play/stop</p>
         {listens}
         <ProgressButton percent={this.state.uploadProgress}
-                        onClick={this.onSetReady} text="Submit" />
+                        onClick={this.onSubmit} text="Submit" />
       </div>
     </div>;
   }

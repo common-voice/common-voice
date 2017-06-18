@@ -39,6 +39,8 @@ interface PagesState {
   showingPrivacy: boolean;
   onPrivacyAgree?(evt): void;
   onPrivacyDisagree?(evt): void;
+  recording: boolean;
+  robot: string;
 }
 
 export default class Pages extends Component<PagesProps, PagesState> {
@@ -53,16 +55,27 @@ export default class Pages extends Component<PagesProps, PagesState> {
     currentPage: null,
     showingPrivacy: false,
     onPrivacyAgree: null,
-    onPrivacyDisagree: null
+    onPrivacyDisagree: null,
+    recording: false,
+    robot: ''
   };
 
   constructor(props) {
     super(props);
     this.uploadRecordings = this.uploadRecordings.bind(this);
+    this.onRecord = this.onRecord.bind(this);
+    this.onRecordStop = this.onRecordStop.bind(this);
+    this.sayThanks = this.sayThanks.bind(this);
   }
 
   private getCurrentPageName() {
     return this.state.currentPage && this.state.currentPage.substr(1);
+  }
+
+  private sayThanks(): void {
+    this.setState({
+      robot: 'thanks'
+    });
   }
 
   private isValidPage(url): boolean {
@@ -85,6 +98,18 @@ export default class Pages extends Component<PagesProps, PagesState> {
     });
 
     return isActive ? 'active' : '';
+  }
+
+  private onRecord() {
+    this.setState({
+      recording: true
+    });
+  }
+
+  private onRecordStop() {
+    this.setState({
+      recording: false
+    });
   }
 
   private addScrollListener() {
@@ -130,12 +155,15 @@ export default class Pages extends Component<PagesProps, PagesState> {
     });
   }
 
-  private uploadRecordings(recordings: any[], sentences: string[]): Promise<void> {
+  private uploadRecordings(recordings: any[],
+                           sentences: string[]): Promise<void> {
+
     return new Promise<void>((res, rej) => {
       this.ensurePrivacyAgreement().then(() => {
         let runningTotal = 0;
 
-        // This function calls itself recursively until all recordings are uploaded.
+        // This function calls itself recursively until
+        // all recordings are uploaded.
         let uploadNext = () => {
           if (recordings.length === 0) {
             res();
@@ -196,7 +224,11 @@ export default class Pages extends Component<PagesProps, PagesState> {
 
   render() {
     let pageName = this.getCurrentPageName();
-    return <div id="main" className={pageName ? pageName : 'home'}>
+    let robotPosition = pageName === 'record' ? this.state.robot : pageName;
+
+    let className = (pageName ? pageName : 'home') +
+                    (this.state.recording ? ' recording' : '');
+    return <div id="main" className={className}>
       <header className={(this.state.isMenuVisible || this.state.scrolled ?
                           'active' : '')}>
         <Logo navigate={this.props.navigate}/>
@@ -208,7 +240,8 @@ export default class Pages extends Component<PagesProps, PagesState> {
       </header>
       <div id="scroller"><div id="scrollee">
         <div class="hero">
-          <Robot pageName={pageName} onClick={page => {
+          <Robot position={(pageName === 'record' && this.state.robot) ||
+                           pageName} onClick={page => {
             this.props.navigate('/' + page); 
           }} />
         </div>
@@ -218,7 +251,10 @@ export default class Pages extends Component<PagesProps, PagesState> {
           <Home active={this.isPageActive([URLS.HOME, URLS.ROOT])}
                 navigate={this.props.navigate} api={this.props.api} />
           <Record active={this.isPageActive(URLS.RECORD)} api={this.props.api}
-                  onRecordingSet={this.uploadRecordings}
+                  onRecord={this.onRecord}
+                  onRecordStop={this.onRecordStop}
+                  onRecordingSet={this.sayThanks}
+                  onSubmit={this.uploadRecordings}
                   navigate={this.props.navigate} user={this.props.user} />
           <Listen active={this.isPageActive(URLS.LISTEN)} api={this.props.api}/>
           <Profile user={this.props.user}

@@ -3,11 +3,12 @@ import { h, Component } from 'preact';
 const MODE_GREETINGS = '/img/robot-greetings.png';
 const MODE_LISTENING = '/img/robot-listening.png';
 const MODE_THINKING = '/img/robot-thinking.png';
+const MODE_THANKS = '/img/robot-thanks.png';
 
 const SPEECH_GREETINGS = 'Click here to help me learn!';
 
 interface Props {
-  pageName?: string;
+  position?: string;
   onClick(page: string): void;
 }
 
@@ -37,12 +38,15 @@ export default class Robot extends Component<Props, State> {
 
   componentWillUpdate(nextProps: Props) {
     let text, src;
-    if (nextProps.pageName === 'record') {
+    if (nextProps.position === 'record') {
       text = ''; // hides speech
       src = MODE_LISTENING;
-    } else if (nextProps.pageName === 'listen') {
+    } else if (nextProps.position === 'listen') {
       text = '';
       src = MODE_THINKING;
+    } else if (nextProps.position === 'thanks') {
+      text = '';
+      src = MODE_THANKS;
     } else {
       text = SPEECH_GREETINGS;
       src = MODE_GREETINGS;
@@ -55,7 +59,7 @@ export default class Robot extends Component<Props, State> {
   }
 
   render() {
-    return <div className={'robot ' + this.props.pageName}>
+    return <div className={'robot ' + this.props.position}>
              <div class="bubble" onClick={this.handleSpeechClick}>
                {this.state.speech}
              </div>

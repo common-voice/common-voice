@@ -19,6 +19,8 @@
   --debug-box-height: 4rem;
   --base-background-image: url("/img/wave-blue-large.png");
   --base-background-image-mobile: url("/img/wave-blue-mobile.png");
+  --record-background-image: url("/img/wave-red-large.png");
+  --record-background-image-mobile: url("/img/wave-red-mobile.png");
   --page-margin: 1rem;
   --hamburger: calc(var(--header-height) * 0.7);
   --transition-default: 0.3s;
@@ -231,8 +233,8 @@ input:invalid {
 
 /* Listen Box Component */
 .listen-box {
-  --listen-box-height: 4rem;
-  --space-between: 0.2rem;
+  --listen-box-height: 5rem;
+  --space-between: 0.3rem;
   display: flex;
   margin-bottom: var(--space-between);
   opacity: 0.9;
@@ -250,7 +252,6 @@ input:invalid {
 
 .listen-box > div {
   height: var(--listen-box-height);
-  margin-bottom: 2rem;
 }
 
 .sentence-box,
@@ -291,7 +292,7 @@ input:invalid {
 }
 
 .play-box {
-  min-width: 9rem;
+  min-width: var(--listen-box-height);
   line-height: var(--listen-box-height);
   text-align: center;
 }
@@ -522,9 +523,15 @@ header.active {
 
 #scrollee {
   background-size: 100% 20rem;
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-position: center 0.7rem;
+  animation: mario-scroll 5s linear infinite;
 }
+
+@keyframes mario-scroll {
+  100%{ background-position: 20% 0.7rem; }
+}
+
 
 @media (max-width: 600px) {
   #scrollee {
@@ -539,9 +546,24 @@ header.active {
   }
 }
 
+@media (min-width: 600px) {
+  .recording #scrollee {
+    background-size: 100% 20rem;
+    background-image: var(--record-background-image);
+  }
+}
+
+@media (max-width: 600px) {
+  .recording #scrollee {
+    background-size: 100% 12.5rem;
+    background-image: var(--record-background-image-mobile);
+  }
+}
+
 .profile #scrollee {
   background: none;
 }
+
 
 /**
  * We have two different page transition types:
@@ -725,6 +747,16 @@ header.active {
     height: 12rem;
     bottom: -3.5rem;
     right: 3.5rem;
+  }
+}
+
+.record .robot.thanks {
+  transform: translate(5.5rem, 2rem);
+}
+
+@media (max-width: 600px) {
+  .record .robot.thanks {
+    transform: translate(3.7rem,0.5rem);
   }
 }
 
@@ -1011,7 +1043,8 @@ header.active {
 }
 
 .recording #record-button {
-  background-color: red;
+  background-color: var(--color-speak-light);
+  border-color: var(--color-speak);
 }
 
 #undo-clip {
@@ -1042,21 +1075,24 @@ header.active {
 
 .full #voice-record {
   visibility: hidden;
+  
 }
 
 .full #voice-submit {
   opacity: 1;
-  transform: translateY(-13rem);
+  transform: translateY(-25rem);
+  background-color: rgba(255, 255,255, 0.8);
 }
 
 #thank-you {
   font-family: var(--strong-font-family);
   font-size: 2rem;
   font-weight: bold;
+  pointer-events: none
 }
 
 #tap-to-play {
-  text-align: left;
+  text-align: right;
   font-weight: bold;
   font-size: 0.8rem;
   padding: 0.3rem;
@@ -1064,6 +1100,12 @@ header.active {
 
 #want-to-review {
   padding: 1rem 0;
+}
+
+#want-to-review span,
+#thank-you span {
+  color: white;
+  background-color: black;
 }
 
 #content > #profile-container {

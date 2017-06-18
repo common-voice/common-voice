@@ -67,9 +67,13 @@ export default class ListenBox extends Component<Props, State> {
     return <div className={'listen-box' +
                            (this.state.loaded ? ' loaded' : '') +
                            (this.state.playing ? ' playing' : '')}>
-      <div className="sentence-box"><b>What we asked them to read:</b>{this.props.sentence}</div>
+      <div className="sentence-box">
+        <b style={!this.props.vote ? 'display: none;' : ''}>
+          What we asked them to read:
+        </b>{this.props.sentence}
+      </div>
       <div onClick={this.onPlay} class="play-box">
-        <b>What they said:</b>
+        <b style={!this.props.vote ? 'display: none;' : ''}>What they said:</b>
         <Icon type={this.state.playing ? 'pause': 'play'} />
       </div>
       <div style={!this.props.vote ? 'display: none;' : ''} class="vote-box">
