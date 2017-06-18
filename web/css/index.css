@@ -292,6 +292,8 @@ input:invalid {
 
 @media (max-width: 600px) {
   .sentence-box {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
     min-width: 50%;
     height: var(--listen-box-height);
     flex: 1;
