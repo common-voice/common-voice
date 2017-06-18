@@ -244,7 +244,9 @@ export default class Clip {
    */
   serveRandomClip(request: http.IncomingMessage,
                   response: http.ServerResponse) {
-    this.files.getRandomClip().then((clip: string[2]) => {
+    let uid = request.headers.uid as string;
+
+    this.files.getRandomClip(uid).then((clip: string[2]) => {
       if (!clip) {
       }
 

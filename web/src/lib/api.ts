@@ -77,7 +77,7 @@ export default class API {
    * Ask the server for a clip
    */
   getRandomClip(): Promise<Clip> {
-    return this.fetch('upload/random/', { responseType: 'blob' })
+    return this.fetch('upload/random/', { responseType: 'blob', headers: {'uid': this.user.getId()}})
       .then((req: XMLHttpRequest) => {
         let src = window.URL.createObjectURL(req.response);
         let glob = decodeURIComponent(req.getResponseHeader('glob'));
