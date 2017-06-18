@@ -89,6 +89,7 @@ export default class API {
     this.getSentences().then((sentences: String[]) => {
       return this.getRandomSentences(count);
     }).then(randoms => {
+      response.setHeader('Content-Type', 'text/plain');
       response.writeHead(200);
       response.end(randoms.join('\n'));
     }).catch((err: any) => {
