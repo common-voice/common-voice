@@ -2,7 +2,7 @@ node_modules
 web/dist/
 server/js/
 server/upload/
-_ignore/
+.ignore/
 .DS_Store
 .vscode/
 
