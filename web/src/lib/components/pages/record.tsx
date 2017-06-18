@@ -80,8 +80,12 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
     this.props.onRecordStop && this.props.onRecordStop();
 
+    if (!this.props.onRecordingSet) {
+      return;
+    }
+
     if (this.isFull()) {
-      this.props.onRecordingSet && this.props.onRecordingSet();
+      this.props.onRecordingSet();
     }
   }
 
