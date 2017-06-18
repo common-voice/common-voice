@@ -1,4 +1,4 @@
-t readline = require('readline');
+readline = require('readline');
 const fs = require('fs');
 const crypto = require('crypto');
 
@@ -10,13 +10,13 @@ const input = readline.createInterface({
   input: fs.createReadStream(process.argv[2])
 });
 
-var lines = {};
+var lines = []
 
 input.on('line', line => {
-  lines[hash(line)] = line;
+  lines.push(line.trim());
 });
 
 input.on('close', () => {
-  console.log(JSON.stringify(lines, null, 2));
+  console.log(lines.join("\n"));
 });
 
