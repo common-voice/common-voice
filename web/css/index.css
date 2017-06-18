@@ -70,7 +70,7 @@ html {
   font-size: var(--base-font-size);
   color: var(--base-font-color);
   background-color: var(--base-background-color);
-  overflow-x: hidden;
+  overflow: scroll;
 }
 
 html, body, #main {
@@ -292,7 +292,7 @@ input:invalid {
 
 @media (max-width: 600px) {
   .sentence-box {
-    width: 100%;
+    min-width: 50%;
     height: var(--listen-box-height);
     flex: 1;
   }
@@ -308,6 +308,7 @@ input:invalid {
   display: flex;
   flex-direction: column;
 }
+
 
 .vote-box > a {
   height: 50%;
@@ -328,6 +329,16 @@ input:invalid {
 
 .vote-box > :first-child {
   border-bottom: 1px dotted black;
+}
+
+@media (max-width: 600px) {
+  .vote-box {
+    flex-direction: row;
+    align-items: center;
+  }
+  .vote-box a {
+    min-width: 50%;
+  }
 }
 
 .vote-box > :not(:first-child) {
