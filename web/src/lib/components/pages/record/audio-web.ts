@@ -110,7 +110,7 @@ export default class AudioWeb {
     }).catch((err) => {
       if (err === ERROR_MSG.ERR_NO_MIC) {
         return confirm('You must allow microphone access.', 'Retry', 'Cancel').then(() => {
-          (window as any).reload();
+          window.location.reload();
         });
       } else {
         throw err;

@@ -28,8 +28,6 @@ export default class AudioIOS {
   static AUDIO_TYPE_URL: string = 'audio/mp4;base64';
 
   private handleNativeMessage(msg: string): void {
-    console.log('got a native message', msg);
-
     if (msg === 'nomicpermission') {
       confirm('Please allow microphone access to record your voice.',
         'Go to Settings', 'Cancel').then((gotoSettings) => {
