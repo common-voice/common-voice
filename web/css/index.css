@@ -28,6 +28,7 @@
   --hero-height: 15.3rem;
   --hero-height-mobile: 12.5rem;
   --robot-height: 19rem;
+  --robot-height-mobile: 10rem;
   --bounce-curve: cubic-bezier(0.000, 1.430, 0.700, 0.940);
   --shadow-overhang: 0 1px 0 rgba(12,13,14,0.1),
                      0 1px 3px rgba(12,13,14,0.1),
@@ -55,6 +56,12 @@
   --top-z-index: 2;
   --middle-z-index: 1;
   --bottom-z-index: 0;
+}
+
+@media (max-width: 600px) {
+  :root {
+    --robot-height: 16rem;
+  }
 }
 
 html {
@@ -242,7 +249,7 @@ input:invalid {
 
 @media (max-width: 600px) {
   .listen-box {
-    flex-wrap: wrap;
+    --listen-box-height: 6rem;
   }
 }
 
@@ -275,8 +282,10 @@ input:invalid {
 }
 
 .sentence-box {
-  padding: 0 0.2rem;
-  text-overflow: clip;
+  padding: 0 0.5rem;
+  text-align: left;
+  text-overflow: ellipsis;
+  overflow: hidden;
   line-height: 1.6;
   flex: 1 1 auto;
   display: flex;
@@ -734,8 +743,9 @@ header.active {
   position: relative;
   display: inline-block;
   height: var(--robot-height);
-  transition: transform 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   transition-delay: 0.2s;
+  transform: translate(0,0) scale(0);
 }
 
 .robot > img {
@@ -751,12 +761,16 @@ header.active {
 }
 
 .record .robot.thanks {
-  transform: translate(5.5rem, 2rem);
+  /*transform: translate(-7.5rem,4rem) rotate(-22deg);*/
+  /*transform: translate(5rem,1rem) scale(0.3);*/
+  transform: translate(13rem,-7px) scale(.3) rotate(8deg);
+  transition-delay: 0s;
+  opacity: 0.6;
 }
 
 @media (max-width: 600px) {
   .record .robot.thanks {
-    transform: translate(3.7rem,0.5rem);
+    transform: translate(11rem,-1.5rem) rotate(17deg) scale(0.5);
   }
 }
 
@@ -766,7 +780,8 @@ header.active {
 
 @media (max-width: 600px) {
   .home .robot {
-    transform: translate(0, 1.2rem);
+    transform: translate(-1rem,2.2rem);
+    height: 10rem;
   }
 }
 
@@ -776,7 +791,7 @@ header.active {
 
 @media (max-width: 600px) {
   .listen .robot {
-    transform: translate(10rem,1rem);
+    transform: translate(8rem,1rem);
   }
 }
 
@@ -951,6 +966,11 @@ header.active {
   padding-top: 0;
 }
 
+@media (max-width: 600px) {
+  #record-container {
+  }
+}
+
 .unsupported > :first-child {
   padding-top: 3rem;
 }
@@ -967,12 +987,6 @@ header.active {
 
 .unsupported p {
   padding: 1rem 0;
-}
-
-@media (max-width: 600px) {
-  #record-container {
-    overflow-x: hidden;
-  }
 }
 
 #recordings-count {
@@ -1075,14 +1089,19 @@ header.active {
 
 .full #voice-record {
   visibility: hidden;
-  
 }
 
 .full #voice-submit {
   opacity: 1;
-  transform: translateY(-25rem);
-  background-color: rgba(255, 255,255, 0.8);
+  transform: translateY(-27.5rem);
 }
+
+@media (max-width: 600px) {
+  .full #voice-submit {
+    transform: translateY(-22.5rem);
+  }
+}
+
 
 #thank-you {
   font-family: var(--strong-font-family);
@@ -1098,14 +1117,29 @@ header.active {
   padding: 0.3rem;
 }
 
+@media (max-width: 600px) {
+  #tap-to-play {
+    visibility: hidden;
+  }
+}
+
+
+#tap-to-play,
+#thank-you,
 #want-to-review {
-  padding: 1rem 0;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select:none;
+  user-select:none;
+  -o-user-select:none;
 }
 
 #want-to-review span,
 #thank-you span {
   color: white;
   background-color: black;
+  padding: 0.5rem;
+  display: inline-block;
 }
 
 #content > #profile-container {

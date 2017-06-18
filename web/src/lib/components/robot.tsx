@@ -4,6 +4,7 @@ const MODE_GREETINGS = '/img/robot-greetings.png';
 const MODE_LISTENING = '/img/robot-listening.png';
 const MODE_THINKING = '/img/robot-thinking.png';
 const MODE_THANKS = '/img/robot-thanks.png';
+const MODE_THUMBS_UP = '/img/robot-thumbs-up.png';
 
 const SPEECH_GREETINGS = 'Click here to help me learn!';
 
@@ -46,7 +47,7 @@ export default class Robot extends Component<Props, State> {
       src = MODE_THINKING;
     } else if (nextProps.position === 'thanks') {
       text = '';
-      src = MODE_THANKS;
+      src = MODE_THUMBS_UP; // Thumbs up for thanks :)
     } else {
       text = SPEECH_GREETINGS;
       src = MODE_GREETINGS;
