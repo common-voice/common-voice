@@ -8,5 +8,5 @@
   "MSQLHOST": "localhost",
   "MYSQLPORT":  "3306",
   "BUCKET_NAME": "",
-  "BUCKET_LOCATION": "mozvoice-test"
+  "BUCKET_LOCATION": ""
 }
