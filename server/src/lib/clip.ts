@@ -35,6 +35,13 @@ export default class Clip {
     setInterval(findRemoveSync.bind(this, UPLOAD_PATH, {age: {seconds: 300}, extensions: '.mp3'}), 300000);
   }
 
+  /**
+   * Returns the file path with extension stripped.
+   */
+  private getGlob(path: string): string {
+    return path.substr(0, path.indexOf('.'));
+  }
+
   private hash(str: string): string {
     return crypto.createHmac('sha256', salt).update(str).digest('hex');
   }
@@ -84,6 +91,13 @@ export default class Clip {
     return request.url.includes('/upload/random');
   }
 
+  /**
+   * Is this request to vote on a voice clip?
+   */
+  isClipVoteRequest(request: http.IncomingMessage) {
+    return request.url.includes('/upload/vote');
+  }
+
 
   /**
    * Distinguish between uploading and listening requests.
@@ -91,6 +105,64 @@ export default class Clip {
   handleRequest(request: http.IncomingMessage,
                 response: http.ServerResponse): void {
     if (request.method === 'POST') {
+      if (this.isClipVoteRequest(request)) {   // Note: Check must occur first
+        this.saveClipVote(request, response);
+      } else {
+        this.saveClip(request, response);
+      }
+    } else if (this.isRandomClipRequest(request)) {
+      this.serveRandomClip(request, response);
+    } else {
+      this.serve(request, response);
+    }
+  }
+
+  /**
+   * Save clip vote posted to server
+   */
+  saveClipVote(request: http.IncomingMessage,
+                  response: http.ServerResponse) {
+      this.saveVote(request).then(timestamp => {
+        response.writeHead(200);
+        response.end('' + timestamp);
+      }).catch(e => {
+        response.writeHead(500);
+        console.error('saving clip vote error', e, e.stack);
+        response.end('Error');
+      });
+  }
+
+  /**
+   * Save the request clip vote in S3
+   */
+  saveVote(request: http.IncomingMessage): Promise<string> {
+    let uid = request.headers.uid;
+    let glob = request.headers.glob;
+    let vote = decodeURI(request.headers.vote as string);
+
+    return new Promise((resolve: Function, reject: Function) => {
+      // Where is the clip vote going to be located?
+      let voteFile = glob + '-by-' + uid + '.vote';
+
+      let f = ff(() => {
+
+        // Save vote to S3
+        let params = {Bucket: BUCKET_NAME, Key: voteFile, Body: vote};
+        this.s3.putObject(params, f());
+      }, () => {
+
+        // File saving is now complete.
+        console.log('clip vote written to s3', voteFile);
+        resolve(glob);
+      }).onError(reject);
+    });
+  }
+
+  /**
+   * Save clip posted to server
+   */
+  saveClip(request: http.IncomingMessage,
+                  response: http.ServerResponse) {
       this.save(request).then(timestamp => {
         response.writeHead(200);
         response.end('' + timestamp);
@@ -99,11 +171,6 @@ export default class Clip {
         console.error('saving clip error', e, e.stack);
         response.end('Error');
       });
-    } else if (this.isRandomClipRequest(request)) {
-      this.serveRandomClip(request, response);
-    } else {
-      this.serve(request, response);
-    }
   }
 
   /**
@@ -185,9 +252,10 @@ export default class Clip {
       let key = clip[0];
       let sentence = clip[1]
 
-      // Send sentence string to client in the header.
+      // Send sentence + glob strings to client in the header.
       // Note: header is already URL encoded in the file.
       response.setHeader('sentence', sentence);
+      response.setHeader('glob', this.getGlob(key));
 
 
       // Stream audio to client

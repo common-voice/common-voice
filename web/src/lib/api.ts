@@ -2,6 +2,7 @@ import User from './user';
 import AudioIOS from './components/pages/record/audio-ios';
 
 export interface Clip {
+  glob: string;
   audio: string;
   sentence: string;
 }
@@ -12,6 +13,7 @@ export interface Clip {
 export default class API {
   private static DEFAULT_BASE: string = './api/';
   private static SOUNDCLIP_URL: string = '/upload/';
+  private static CLIP_VOTE_URL: string = '/upload/vote/';
 
   private user: User;
 
@@ -78,9 +80,24 @@ export default class API {
     return this.fetch('upload/random/', { responseType: 'blob' })
       .then((req: XMLHttpRequest) => {
         let src = window.URL.createObjectURL(req.response);
+        let glob = decodeURIComponent(req.getResponseHeader('glob'));
         let sentence = decodeURIComponent(req.getResponseHeader('sentence'));
-        return Promise.resolve({ audio: src, sentence });
+        return Promise.resolve({ glob: glob, audio: src, sentence: sentence });
       });
+  }
+
+  castVote(glob: string, vote: boolean): Promise<Event> {
+    return new Promise((resolve: EventListener, reject: EventListener) => {
+      var req = new XMLHttpRequest();
+      req.upload.addEventListener('load', resolve);
+      req.upload.addEventListener('error', reject);
+      req.open('POST', API.CLIP_VOTE_URL);
+      req.setRequestHeader('glob', glob);
+      req.setRequestHeader('uid', this.user.getId());
+      req.setRequestHeader('vote', encodeURIComponent(vote.toString()));
+
+      req.send(vote);
+    });
   }
 
   uploadAudio(blob: Blob, sentence: string, progress?: Function): Promise<Event> {

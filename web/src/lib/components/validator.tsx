@@ -17,8 +17,17 @@ export default class Validator extends Component<Props, State> {
 
   constructor(props) {
     super(props);
+    this.onVote = this.onVote.bind(this);
     this.loadClip = this.loadClip.bind(this);
     this.loadClip();
+  }
+
+  private onVote(vote: boolean) {
+    this.props.api.castVote(this.state.clip.glob, vote).then(() => {
+      this.loadClip();
+    }, (err) => {
+      console.error('could not vote on clip from validator', err);
+    });
   }
 
   private loadClip() {
@@ -33,7 +42,7 @@ export default class Validator extends Component<Props, State> {
     return <div class="validator">
       <ListenBox src={this.state.clip && this.state.clip.audio}
                  sentence={this.state.clip && this.state.clip.sentence}
-                 onVote={this.loadClip} vote="true" />
+                 onVote={this.onVote} vote="true" />
     </div>;
   }
 }
