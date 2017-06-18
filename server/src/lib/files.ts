@@ -151,13 +151,18 @@ export default class Files {
   /**
    * Grab a random sentence and associated sound file path.
    */
-  getRandomClip(): Promise<string[2]> {
+  getRandomClip(uid: string): Promise<string[2]> {
     // Make sure we have at least 1 file to choose from.
     if (this.mp3s.length === 0) {
       return Promise.reject('No files.');
     }
 
-    let items = this.mp3s;
+    let items = this.mp3s.filter(glob => !glob.includes(uid));
+    // Make sure we have at least 1 file to choose from that's not from us.
+    if (items.length === 0) {
+      return Promise.reject('No files not from us.');
+    }
+
     let glob = items[Math.floor(Math.random()*items.length)];
     let key = glob + MP3_EXT;
     let info = this.files[glob];
