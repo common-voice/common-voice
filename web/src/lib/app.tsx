@@ -24,7 +24,8 @@ const PRELOAD = [
   '/img/wave-blue-large.png',
   '/img/wave-blue-mobile.png',
   '/img/wave-red-large.png',
-  '/img/wave-red-mobile.png'
+  '/img/wave-red-mobile.png',
+  '/img/circle.png'
 ];
 
 /**

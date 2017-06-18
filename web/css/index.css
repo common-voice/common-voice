@@ -971,6 +971,13 @@ header.active {
   right: -5rem;
 }
 
+#home-layout .circle {
+  position: absolute;
+  left: -25%;
+  top: 0;
+  height: 8rem;
+}
+
 #donate {
   height: var(--donate-height);
   position: absolute;
