@@ -5,6 +5,27 @@ import Pages from './components/pages';
 import { isNativeIOS } from './utility';
 import DebugBox from './components/debug-box';
 
+const LOAD_DELAY = 500; // before pulling the curtain
+
+/**
+ * Preload these images before revealing contents.
+ */
+const PRELOAD = [
+  '/img/mozilla.svg',
+  '/img/robot-greetings.png',
+  '/img/robot-listening.png',
+  '/img/robot-thanks.png',
+  '/img/robot-thinking.png',
+  '/img/robot-thumbs-up.png',
+  '/img/speech-bubble.png',
+  '/img/strip-repeat.png',
+  '/img/strip-top.png',
+  '/img/wave-blue-large.png',
+  '/img/wave-blue-mobile.png',
+  '/img/wave-red-large.png',
+  '/img/wave-red-mobile.png',
+];
+
 /**
  * Main app controller, rensponsible for routing between page
  * controllers.
@@ -14,6 +35,9 @@ export default class App {
   box: DebugBox;
   user: User;
   api: API;
+  loaded: boolean;
+  loadProgress: number;
+  progressMeter: HTMLSpanElement;
 
   /**
    * App will handle routing to page controllers.
@@ -26,11 +50,37 @@ export default class App {
 
     this.user = new User();
     this.api = new API(this.user);
-    document.body.classList.add('loaded');
+    this.loaded = false;
 
     // Force binding of handleNavigation to this instance.
     this.handleNavigation = this.handleNavigation.bind(this);
+
+    // Render before loaded.
+    this.renderCurrentPage();
   }
+
+  private loadImages(progressCallback?: Function): Promise<void> {
+    return new Promise<void>((res, rej) => {
+      let loadedSoFar = 0;
+      let onLoad = () => {
+        ++loadedSoFar;
+        progressCallback(loadedSoFar / PRELOAD.length);
+
+        if (loadedSoFar === PRELOAD.length) {
+          res();
+        }
+      };
+      for (let i = 0; i < PRELOAD.length; i++) {
+        let image = new Image();
+        image.onload = onLoad;
+        image.src = PRELOAD[i];
+      }
+    });
+  }
+
+  /**
+   * LOAD ALL IMAGES BEFORE FIRST RENDER
+   * */
 
   /**
    * Perform any native iOS specific operations.
@@ -66,6 +116,19 @@ export default class App {
   }
 
   private renderCurrentPage() {
+    if (!this.loaded) {
+      render(
+        <div id="spinner">
+          <span ref={(el) => {
+            if (this.progressMeter) {
+              return;
+            }
+
+            this.progressMeter = el as HTMLSpanElement; }} />
+        </div>, document.body, document.body.firstElementChild);
+      return;
+    }
+
     // Render the main controller, Pages.
     render((
       <Pages user={this.user}
@@ -73,6 +136,19 @@ export default class App {
              navigate={this.handleNavigation}
              currentPage={this.getPageName()} />
     ), document.body, document.body.firstElementChild);
+  }
+
+  init(): Promise<void> {
+    return this.loadImages(progress => {
+      if (this.progressMeter) {
+        this.progressMeter.style.cssText = `opacity: ${100 - progress};`;
+      }
+    }).then(() => {
+      this.loaded = true;
+      setTimeout(() => {
+        document.body.classList.add('loaded');
+      }, LOAD_DELAY);
+    });
   }
 
   /**
