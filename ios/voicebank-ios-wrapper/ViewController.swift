@@ -9,7 +9,7 @@ class ViewController: UIViewController, WKScriptMessageHandler, WKNavigationDele
     var recorder: Recorder!
     var orientation: UIInterfaceOrientationMask!
     var browserViewController: UIViewController? = nil
-
+    var timerconn: Timer!
     @IBOutlet weak var labelStatus: UILabel!
     @IBOutlet weak var activityIndicatorView: UIActivityIndicatorView!
 
@@ -17,27 +17,42 @@ class ViewController: UIViewController, WKScriptMessageHandler, WKNavigationDele
         super.loadView()
         
         if !Reachability.isConnectedToNetwork(){
+            self.activityIndicatorView.stopAnimating()
             labelStatus.text = "Voice Commons needs an internet connection to function properly. Please connect to the internet and try again."
+            timerconn = Timer.scheduledTimer(timeInterval: 0.4, target: self, selector: #selector(self.checkconnectivity), userInfo: nil, repeats: true)
         } else {
-            self.activityIndicatorView.isHidden = false
-            // create the webview and load the commonvoice website in it
-            webView = WKWebView(frame: self.view.frame)
-            webView?.isHidden = true
-            webView?.navigationDelegate = self
-            webView?.configuration.userContentController.add(self, name: "scriptHandler")
-            webView?.scrollView.isScrollEnabled = false
-            self.view.addSubview(webView!)
-            let url = URL(string: "https://voice.mozilla.org/")
-            let request = URLRequest(url: url!)
-            webView?.load(request)
-            // start the recorder object and ask permission to capture
-            recorder = Recorder()
-            recorder.webView = webView!
-            let mainStoryboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-            browserViewController = mainStoryboard.instantiateViewController(withIdentifier: "browser")
+            self.loadWebView()
         }
     }
-    
+
+    func loadWebView(){
+        self.activityIndicatorView.isHidden = false
+        // create the webview and load the commonvoice website in it
+        webView = WKWebView(frame: self.view.frame)
+        webView?.isHidden = true
+        webView?.navigationDelegate = self
+        webView?.configuration.userContentController.add(self, name: "scriptHandler")
+        webView?.scrollView.isScrollEnabled = false
+        self.view.addSubview(webView!)
+        let url = URL(string: "https://voice.mozilla.org/")
+        let request = URLRequest(url: url!)
+        webView?.load(request)
+        // start the recorder object and ask permission to capture
+        recorder = Recorder()
+        recorder.webView = webView!
+        let mainStoryboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        browserViewController = mainStoryboard.instantiateViewController(withIdentifier: "browser")
+    }
+
+    @objc func checkconnectivity() {
+        if Reachability.isConnectedToNetwork(){
+            timerconn.invalidate()
+            timerconn = nil
+            labelStatus.text = "Connection re-established"
+            self.loadWebView()
+        }
+    }
+
     public func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
         let msg = message.body as! String
         switch msg {
