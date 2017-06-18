@@ -235,7 +235,7 @@ input:invalid {
 
 /* Listen Box Component */
 .listen-box {
-  --listen-box-height: 5rem;
+  --listen-box-height: 6rem;
   --space-between: 0.3rem;
   display: flex;
   margin-bottom: var(--space-between);
@@ -244,7 +244,8 @@ input:invalid {
 
 @media (max-width: 600px) {
   .listen-box {
-    --listen-box-height: 6rem;
+    --listen-box-height: 5rem;
+    flex-wrap: wrap;
   }
 }
 
@@ -268,7 +269,8 @@ input:invalid {
   position: absolute;
   top: -1.3rem;
   line-height: 1rem;
-  font-size: 0.6rem;
+  font-size: 0.65rem;
+  left: 0;
 }
 
 .sentence-box,
@@ -281,7 +283,6 @@ input:invalid {
   text-align: left;
   text-overflow: ellipsis;
   font-weight: bold;
-  overflow: hidden;
   line-height: 1.3;
   flex: 1 1 auto;
   display: flex;
@@ -293,6 +294,7 @@ input:invalid {
   .sentence-box {
     width: 100%;
     height: var(--listen-box-height);
+    flex: 1;
   }
 }
 
@@ -305,16 +307,23 @@ input:invalid {
 .vote-box {
   display: flex;
   flex-direction: column;
-  margin-left: 2rem;
 }
 
 .vote-box > a {
   height: 50%;
   box-sizing: border-box;
-  font-size: 0.8rem;
+  font-size: 1rem;
   line-height: 2rem;
   cursor: pointer;
   font-weight: bold;
+  padding: 0 1rem;
+  margin: 0 1rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+.vote-box > a :first-child {
+  margin-right: 1rem;
 }
 
 .vote-box > :first-child {
@@ -322,6 +331,7 @@ input:invalid {
 }
 
 .vote-box > :not(:first-child) {
+  font-size: 0.9rem;
   color: red;
 }
 
@@ -816,7 +826,7 @@ header.active {
   padding-left: 1.5rem;
   height: 4rem;
   width: 13.8rem;
-  top: calc(var(--robot-height) / 2);
+  top: calc(var(--robot-height) / 1.75);
   right: -120%;
   background-image: url("/img/speech-bubble.png");
   background-size: auto 4rem;
@@ -898,10 +908,18 @@ header.active {
   flex: 0 0 30%;
   margin-left: 2rem;
   font-size: 1.2rem;
+  position: relative;
+  bottom: -12rem;
 }
 
 #home-layout .right-column > p {
   text-shadow: var(--highlight-shadow-listen);
+}
+
+#home-layout .curved-arrow {
+  height: 13rem;
+  position: relative;
+  right: -5rem;
 }
 
 #donate {
@@ -918,7 +936,7 @@ header.active {
   margin: 0 auto;
   padding: 0 5rem;
   height: 3rem;
-  animation: throb-color 3.5s ease-in-out infinite;
+  animation: throb-color 4s ease-in-out infinite;
 }
 
 @keyframes throb-color {
@@ -932,6 +950,7 @@ header.active {
 #help-home {
   font-weight: bold;
   padding: 0.5rem 0;
+  font-size: 1.2rem;
 }
 
 #help-home span {

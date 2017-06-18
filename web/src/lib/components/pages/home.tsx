@@ -20,6 +20,7 @@ export default class Home extends Component<Props, void> {
         </div>
         <div className="right-column">
           <p class="strong">You can also help by validating donations!</p>
+          <img class="curved-arrow" src="/img/curved-arrow.png" />
         </div>
         <div id="donate">
           <button onClick={evt => {
