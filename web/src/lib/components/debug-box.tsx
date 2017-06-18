@@ -1,5 +1,7 @@
 import { h, Component } from 'preact';
 
+const HIDE_DELAY = 4000;
+
 interface Props {
 }
 
@@ -11,6 +13,8 @@ interface State {
  * Allows us to see console log on the ios app.
  */
 export default class DebugBox extends Component<Props, State> {
+  hideTimeout: number;
+
   constructor(props) {
     super(props);
     this.state = {
@@ -24,6 +28,16 @@ export default class DebugBox extends Component<Props, State> {
     this.setState({
       messages: messages
     });
+
+    // Hide the box after a short delay.
+    if (this.hideTimeout) {
+      clearTimeout(this.hideTimeout);
+    }
+    this.hideTimeout = setTimeout(() => {
+      this.setState({
+        messages: []
+      });
+    }, HIDE_DELAY);
   }
 
   private renderMessages() {
