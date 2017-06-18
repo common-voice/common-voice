@@ -25,6 +25,7 @@
   --desktop-width: 50rem;
   --hero-height: 15.3rem;
   --hero-height-mobile: 12.5rem;
+  --robot-height: 19rem;
   --bounce-curve: cubic-bezier(0.000, 1.430, 0.700, 0.940);
   --shadow-overhang: 0 1px 0 rgba(12,13,14,0.1),
                      0 1px 3px rgba(12,13,14,0.1),
@@ -39,6 +40,7 @@
   --color-about: #f8b83e;
   --color-profile: #9D9D9C;
   --color-help: #3DFEFD;
+  --color-text-help: rgba(255, 255, 255, 0.4);
   --tab-line: 2px solid #3dfefd;
 
   --highlight-shadow-listen:
@@ -474,7 +476,7 @@ header.active {
 }
 
 .tab .tab-name {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: var(--color-text-help);
   transition: background-color 0.15s ease-in;
   padding: 0.2rem 6rem 0.2rem 0.6rem;
 }
@@ -547,7 +549,7 @@ header.active {
 }
 
 #content.transitioning {
-  opacity: 0;
+  opacity: 0.9;
 }
 
 @media (min-width: 600px) {
@@ -670,7 +672,7 @@ header.active {
 }
 
 .hero {
-  position: relative;
+  text-align: center;
   height: var(--hero-height);
   border-bottom: 3px solid var(--base-font-color);
 }
@@ -701,15 +703,15 @@ header.active {
 }
 
 .robot {
-  height: 19rem;
-  margin: 0 auto;
-  bottom: -7rem;
-  position: absolute;
-  left: 0;
-  right: 0;
-  z-index: var(--middle-z-index);
+  position: relative;
+  display: inline-block;
+  height: var(--robot-height);
   transition: transform 0.2s ease-in-out;
   transition-delay: 0.2s;
+}
+
+.robot > img {
+  height: 100%
 }
 
 @media (max-width: 600px) {
@@ -720,52 +722,61 @@ header.active {
   }
 }
 
-.record .robot {
-  transform: translate(5.5rem, 5rem);
+.home .robot {
+  transform: translate(-5rem,2rem)
 }
 
 @media (max-width: 600px) {
-  .record .robot {
-    transform: translate(1.85rem, 1rem);
+  .home .robot {
+    transform: translate(0, 1.2rem);
   }
 }
 
-.speech-bubble {
-  font-weight: bold;
-  position: absolute;
-  height: 5rem;
-  padding-left: 3rem;
-  padding-right: 2rem;
-  top: 13rem;
-  left: 60%;
-  background-image: url("/img/speech-bubble.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  text-align: center;
-  display: flex;
+.robot.record {
+  transform: translate(7.2rem, 7.5rem);
+}
+
+@media (max-width: 600px) {
+  .robot.record {
+    transform: translate(4.5rem,0.5rem);
+  }
+}
+
+.robot .bubble {
+  display: none;
   align-items: center;
+  position: absolute;
+  box-sizing: border-box;
+  padding-left: 1.5rem;
+  height: 4rem;
+  width: 13.8rem;
+  top: calc(var(--robot-height) / 2);
+  right: -120%;
+  background-image: url("/img/speech-bubble.png");
+  background-size: auto 4rem;
+  font-weight: bold;
   animation: throb-size 2s ease-in-out infinite;
   cursor: pointer;
-  visibility: hidden;
 }
 
 @media (max-width: 600px) {
-  .speech-bubble {
-    top: 8rem;
-    left: 50%;
-    background-size: cover;
-    padding-left: 2rem;
+  .robot .bubble {
+    height: 4rem;
+    width: 11rem;
+    right: -150%;
+    top: 6rem;
+    background-size: 11rem 4rem;
   }
-}
-
-.home .speech-bubble {
-  visibility: visible;
 }
 
 @keyframes throb-size {
   50%{ transform: scale(1.05); }
 }
 
+/** For now we only see the bubble on the home page */
+.home .bubble {
+  display: flex;
+}
 
 #about-container {
   padding: 0.3rem 1rem;
@@ -924,6 +935,11 @@ header.active {
   font-size: 0.8rem;
   font-weight: bold;
   margin-top: 0.5rem;
+}
+
+#recordings-count span {
+  padding: 0.3rem;
+  background-color: var(--color-text-help);
 }
 
 .record-sentence {

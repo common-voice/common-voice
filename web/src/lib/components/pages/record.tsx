@@ -219,7 +219,9 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
     return <div id="record-container" className={className}>
       <div id="voice-record">
-        <p id="recordings-count">{this.state.recordings.length + 1} of 3</p>
+        <p id="recordings-count">
+          <span>{this.state.recordings.length + 1} of 3</span>
+        </p>
         <div className="record-sentence">
           {texts}
           <Icon id="undo-clip" type="undo" onClick={this.goBack}

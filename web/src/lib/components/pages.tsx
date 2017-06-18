@@ -2,6 +2,7 @@ import { h, Component } from 'preact';
 import Logo from './logo';
 import Icon from './icon';
 import PrivacyContent from './privacy-content';
+import Robot from './robot';
 
 import Home from './pages/home';
 import Listen from './pages/listen';
@@ -207,9 +208,9 @@ export default class Pages extends Component<PagesProps, PagesState> {
       </header>
       <div id="scroller"><div id="scrollee">
         <div class="hero">
-          <img className="robot" src="/img/robot.png" />
-          <div onClick={e => {this.props.navigate('/record'); }}
-               class="speech-bubble">CLICK HERE<br />TO HELP ME LEARN!</div>
+          <Robot pageName={pageName} onClick={page => {
+            this.props.navigate('/' + page); 
+          }} />
         </div>
         <div class="hero-space"></div>
         <div id="content" className={this.state.pageTransitioning ?
