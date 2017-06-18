@@ -699,6 +699,37 @@ header.active {
   }
 }
 
+#tally-box {
+  position: absolute;
+  top: 0;
+}
+
+@media (max-width: 600px) {
+  #tally-box {
+    position: static;
+  }
+  #tally-box span:first-child {
+    text-align: center;
+    margin-right: 0;
+  }
+}
+
+#tally-box span {
+  display: inline-block;
+  font-weight: bold
+}
+
+#tally-box .tally-recordings {
+  width: 2rem;
+  margin-right: 2rem;
+  text-align: right;
+  color: var(--color-speak);
+}
+
+#tally-box .tally-verifications {
+  color: var(--color-listen);
+}
+
 #navigation-modal {
   box-sizing: border-box;
   background-color: var(--base-background-color);
@@ -1292,7 +1323,6 @@ label[for="send-emails"] {
   margin: 1rem;
   padding: 1rem;
   background: var(--base-background-color);
-  border-radius: 1rem;
   width: 100%;
   max-width: 30rem;
 }
@@ -1370,6 +1400,8 @@ label[for="send-emails"] {
   .overlay {
     overflow-y: scroll;
     align-items: flex-start;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
   }
 }
 

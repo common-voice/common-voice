@@ -1,14 +1,27 @@
 import { h, Component } from 'preact';
 import Validator from '../validator';
 import API from '../../api';
+import User from '../../user';
 
 interface Props {
   api: API;
   active: string;
   navigate(url: string): void;
+  user?: User;
 }
 
 export default class Home extends Component<Props, void> {
+  constructor(props) {
+    super(props);
+    this.onVote = this.onVote.bind(this);
+  }
+
+  onVote() {
+    console.log('got a vote');
+    this.props.user && this.props.user.tallyVerification();
+    this.props.navigate('/'); // force top level page render
+  }
+
   render() {
     return <div id="home-container" className={this.props.active}>
       <h1 id="home-title">Project Common Voice</h1>
@@ -30,7 +43,7 @@ export default class Home extends Component<Props, void> {
       <div id="try-it-container">
         <h1>Try it!</h1>
         <p id="help-home" class="strong">Help us validate&nbsp;<span>5 sentences</span></p>
-        <Validator api={this.props.api} />
+        <Validator onVote={this.onVote} api={this.props.api} />
       </div>
     </div>;
   }

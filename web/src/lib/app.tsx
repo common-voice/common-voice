@@ -9,6 +9,7 @@ const LOAD_DELAY = 500; // before pulling the curtain
 
 /**
  * Preload these images before revealing contents.
+ * TODO: right now we load all images, which is unnecessary.
  */
 const PRELOAD = [
   '/img/mozilla.svg',
@@ -24,6 +25,7 @@ const PRELOAD = [
   '/img/wave-blue-mobile.png',
   '/img/wave-red-large.png',
   '/img/wave-red-mobile.png',
+  '/img/circle.png',
 ];
 
 /**

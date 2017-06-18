@@ -66,6 +66,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
     this.onRecord = this.onRecord.bind(this);
     this.onRecordStop = this.onRecordStop.bind(this);
     this.sayThanks = this.sayThanks.bind(this);
+    this.renderUser = this.renderUser.bind(this);
   }
 
   private getCurrentPageName() {
@@ -178,6 +179,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
             // TODO: figure out how to pass progress into record component.
             // runningTotal += 100 / SET_COUNT;
             // this.setState({ uploadProgress: runningTotal });
+            this.props.user.tallyRecording();
             uploadNext();
           });
         };
@@ -236,6 +238,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
       <header className={(this.state.isMenuVisible || this.state.scrolled ?
                           'active' : '')}>
         <Logo navigate={this.props.navigate}/>
+        {this.renderUser()}
         <button id="hamburger-menu" onClick={this.toggleMenu}
           className={(this.state.isMenuVisible ? ' is-active' : '')}>
           <Icon type="hamburger" />
@@ -253,14 +256,17 @@ export default class Pages extends Component<PagesProps, PagesState> {
         <div id="content" className={this.state.pageTransitioning ?
                                      'transitioning': ''}>
           <Home active={this.isPageActive([URLS.HOME, URLS.ROOT])}
-                navigate={this.props.navigate} api={this.props.api} />
+                navigate={this.props.navigate}
+                api={this.props.api} user={this.props.user} />
           <Record active={this.isPageActive(URLS.RECORD)} api={this.props.api}
                   onRecord={this.onRecord}
                   onRecordStop={this.onRecordStop}
                   onRecordingSet={this.sayThanks}
                   onSubmit={this.uploadRecordings}
                   navigate={this.props.navigate} user={this.props.user} />
-          <Listen active={this.isPageActive(URLS.LISTEN)} api={this.props.api}/>
+          <Listen active={this.isPageActive(URLS.LISTEN)}
+                  navigate={this.props.navigate}
+                  api={this.props.api} user={this.props.user}/>
           <Profile user={this.props.user}
                    active={this.isPageActive(URLS.PROFILE)} />
           <Privacy active={this.isPageActive(URLS.PRIVACY)} />
@@ -324,5 +330,18 @@ export default class Pages extends Component<PagesProps, PagesState> {
       {this.renderTab('/listen', 'listen')}
       {this.renderTab('/profile', 'profile')}
     </nav>;
+  }
+
+  private renderUser() {
+    return (
+      <div id="tally-box">
+        <span class="tally-recordings">
+          {this.props.user.state.recordTally}
+        </span>
+        <span class="tally-verifications">
+          {this.props.user.state.validateTally}
+        </span>
+      </div>
+    );
   }
 }

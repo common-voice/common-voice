@@ -4,6 +4,7 @@ import { Clip, default as API } from '../api';
 
 interface Props {
   api: API;
+  onVote?(valid: boolean): void;
 }
 
 interface State {
@@ -24,8 +25,9 @@ export default class Validator extends Component<Props, State> {
 
   private onVote(vote: boolean) {
     this.props.api.castVote(this.state.clip.glob, vote).then(() => {
+      this.props.onVote && this.props.onVote(vote);
       this.loadClip();
-    }, (err) => {
+    }).catch((err) => {
       console.error('could not vote on clip from validator', err);
     });
   }

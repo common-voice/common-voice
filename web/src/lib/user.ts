@@ -50,6 +50,9 @@ interface UserState {
   gender: string;
   clips: number;
   privacyAgreed: boolean;
+
+  recordTally: number;
+  validateTally: number;
 }
 
 /**
@@ -81,7 +84,9 @@ export default class User {
         age: '',
         gender: '',
         clips: 0,
-        privacyAgreed: false
+        privacyAgreed: false,
+        recordTally: 0,
+        validateTally: 0
       };
       this.save();
     }
@@ -150,5 +155,21 @@ export default class User {
   public agreeToPrivacy() {
     this.state.privacyAgreed = true;
     this.save();
+  }
+
+  public tallyRecording() {
+    this.state.recordTally = this.state.recordTally || 0;
+    this.state.recordTally++
+    this.save();
+  }
+
+  public tallyVerification() {
+    console.log('something');
+    this.state.validateTally = this.state.validateTally || 0;
+    this.state.validateTally++
+    this.save();
+  }
+
+  public onUpdate(callback: Function): void {
   }
 }
