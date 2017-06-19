@@ -14,6 +14,7 @@ export default class API {
   private static DEFAULT_BASE: string = './api/';
   private static SOUNDCLIP_URL: string = '/upload/';
   private static CLIP_VOTE_URL: string = '/upload/vote/';
+  private static DEMOGRAPHIC_URL: string = '/upload/demographic/';
 
   private user: User;
 
@@ -97,6 +98,24 @@ export default class API {
       req.setRequestHeader('vote', encodeURIComponent(vote.toString()));
 
       req.send(vote);
+    });
+  }
+
+  uploadDemographicInfo(): Promise<Event> {
+    return new Promise((resolve: EventListener, reject: EventListener) => {
+      var req = new XMLHttpRequest();
+      req.upload.addEventListener('load', resolve);
+      req.upload.addEventListener('error', reject);
+      req.open('POST', API.DEMOGRAPHIC_URL);
+      req.setRequestHeader('uid', this.user.getId());
+      // Note: Do not add more properties of this.user w/o legal review
+      let demographicInfo = {
+        accent: this.user.getState().accent,
+        age: this.user.getState().age,
+        gender: this.user.getState().gender
+      };
+      req.setRequestHeader('demographic', JSON.stringify(demographicInfo));
+      req.send(demographicInfo);
     });
   }
 
