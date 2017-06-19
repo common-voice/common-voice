@@ -976,6 +976,11 @@ header.active {
   left: -25%;
   top: 0;
   height: 8rem;
+  animation: spin-forward 80s linear infinite;
+}
+
+@keyframes spin-forward {
+  100% { transform: rotate(360deg); }
 }
 
 #donate {
