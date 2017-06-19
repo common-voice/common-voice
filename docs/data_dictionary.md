@@ -1,7 +1,7 @@
 Here is the information that our app collects when you visit it:
 
 ## Page Information
-* URL – the URL of the page the user is viewing
+* URL – the URL of the page the user is viewing on the Common Voice app
 * Title – the title of the page the user is viewing
 ## Browser Information
 * Browser name – the browser the user is using
