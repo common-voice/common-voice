@@ -169,11 +169,6 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     this.audio.stop().then(this.processRecording);;
   }
 
-  onNextClick = () => {
-    this.audio.clear();
-    this.newSentenceSet();
-  }
-
   newSentenceSet() {
     let recordedSentenceCount = this.state.recordings.length;
     let numberOfSentenceToGet = SET_COUNT - recordedSentenceCount;
@@ -221,7 +216,6 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
       texts.push(<p className={className}>
         {this.state.sentences[i]}
-        <Icon className="refresh" type="redo" onClick={this.onNextClick} />
       </p>);
 
       listens.push(<ListenBox src={this.getRecordingUrl(i)}
@@ -240,7 +234,6 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
           <Icon id="undo-clip" type="undo" onClick={this.goBack}
             className={(this.state.recordings.length === 0 ? 'hide' : '')}/>
         </div>
-        <p onClick={this.onNextClick} id="refresh-help">Skip this sentence</p>
         <div id="record-button" onClick={this.onRecordClick}></div>
         <p id="record-help">
           Please read the above sentence and tap to record.

@@ -1112,9 +1112,17 @@ header.active {
 .text-box.left {
   transform: translateX(-100vw);
 }
-
 .text-box.right {
   transform: translateX(100vw);
+}
+
+@media (min-width: 600px) {
+  .text-box.left {
+    transform: translateX(-70vw);
+  }
+  .text-box.right {
+    transform: translateX(70vw);
+  }
 }
 
 .refresh {
@@ -1137,6 +1145,15 @@ header.active {
   background-color: white;
   height: 2.5rem;
   width: 2.5rem;
+  margin: 1rem 0;
+  cursor: pointer;
+  transition: transform 0.2s linear;
+}
+
+@media (min-width: 600px) {
+  #record-button:hover:not(.ios) {
+    transform: scale(1.2);
+  }
 }
 
 .recording #record-button {
@@ -1168,6 +1185,17 @@ header.active {
 #voice-submit {
   opacity: 0;
   transition: all 0.2s var(--bounce-curve);
+}
+
+#voice-record {
+  overflow-x: hidden;
+  padding: 0 0.5rem;
+}
+
+@media (min-width: 600px) {
+  #voice-record {
+    padding: 0 1.5rem;
+  }
 }
 
 .full #voice-record {
