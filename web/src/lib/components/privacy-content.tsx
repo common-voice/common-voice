@@ -20,11 +20,11 @@ export default class PrivacyContent extends Component<Props, State> {
     </div> : '';
 
     return <div class="privacy-content">
-      <h1>Common Voice Privacy Policy</h1>
+      <h1>Common Voice Privacy Notice</h1>
+      <h2>Effective June 19, 2017</h2>
       {formHeader}
       <p>When Mozilla (that’s us), receives information
-         from you, our Mozilla Privacy Policy describes
-         how we handle that information.</p>
+         from you, our <a target="_blank" href="https://www.mozilla.org/privacy">Mozilla Privacy Policy</a> describes how we handle that information.</p>
       <ul>
         <li><b>Demographic data.</b>You can optionally send
             us information such as your accent, age, and gender.

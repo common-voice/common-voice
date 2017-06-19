@@ -601,6 +601,7 @@ header.active {
   }
 }
 
+.privacy #scrollee,
 .profile #scrollee {
   background: none;
 }
@@ -794,10 +795,12 @@ header.active {
   }
 }
 
+.privacy .hero,
 .profile .hero {
   display: none;
 }
 
+.privacy .hero-space,
 .profile .hero-space {
   display: none;
 }
@@ -1254,6 +1257,7 @@ header.active {
   display: inline-block;
 }
 
+#content > #privacy-container,
 #content > #profile-container {
   padding-top: calc(var(--header-height) + 0.5rem);
   padding-bottom: 2rem;
@@ -1261,6 +1265,7 @@ header.active {
 }
 
 @media (min-width: 600px) {
+  #content > #privacy-container,
   #content > #profile-container {
     padding-left: var(--sidebar-width);
   }
@@ -1376,6 +1381,10 @@ label[for="send-emails"] {
   background-color: var(--color-help);
 }
 
+#privacy-container {
+  padding-left: var(--sidebar-width);
+}
+
 .privacy-content {
   background-color: var(--base-background-color);
   width: var(--desktop-width);
@@ -1409,7 +1418,7 @@ label[for="send-emails"] {
 }
 
 .privacy-content a {
-  display: block;
+  display: inline-block;
   color: blue;
 }
 
