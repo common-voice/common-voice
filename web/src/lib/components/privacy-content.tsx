@@ -11,8 +11,7 @@ interface State {
 
 export default class PrivacyContent extends Component<Props, State> {
   render() {
-    let formHeader = this.props.isForm ? <h2>Before you can participate, you must agree
-      to our Privacy Policy.</h2> : '';
+    let formHeader = this.props.isForm ? <h2>By using Common Voice, you agree to our <a target="_blank" href="/terms">Terms</a> and <a target="_blank" href="/privacy">Privacy Notice.</a></h2> : '';
 
     let buttons = this.props.isForm ? <div class="button-holder">
       <button onClick={this.props.onAgree}>I agree</button>
