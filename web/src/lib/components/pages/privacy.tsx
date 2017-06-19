@@ -8,7 +8,7 @@ interface Props {
 interface State {
 }
 
-export default class Home extends Component<Props, State> {
+export default class Privacy extends Component<Props, State> {
   render() {
     return <div id="privacy-container" className={this.props.active}>
       <PrivacyContent isForm={false} />

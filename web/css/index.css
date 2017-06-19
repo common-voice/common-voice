@@ -601,6 +601,7 @@ header.active {
   }
 }
 
+.terms #scrollee,
 .privacy #scrollee,
 .profile #scrollee {
   background: none;
@@ -795,11 +796,13 @@ header.active {
   }
 }
 
+.terms .hero,
 .privacy .hero,
 .profile .hero {
   display: none;
 }
 
+.terms .hero-space,
 .privacy .hero-space,
 .profile .hero-space {
   display: none;
@@ -1257,6 +1260,7 @@ header.active {
   display: inline-block;
 }
 
+#content > #terms-container,
 #content > #privacy-container,
 #content > #profile-container {
   padding-top: calc(var(--header-height) + 0.5rem);
@@ -1265,6 +1269,7 @@ header.active {
 }
 
 @media (min-width: 600px) {
+  #content > #terms-container,
   #content > #privacy-container,
   #content > #profile-container {
     padding-left: var(--sidebar-width);
@@ -1381,6 +1386,7 @@ label[for="send-emails"] {
   background-color: var(--color-help);
 }
 
+#terms-container,
 #privacy-container {
   padding-left: var(--sidebar-width);
 }
@@ -1403,6 +1409,7 @@ label[for="send-emails"] {
   }
 }
 
+#terms-container .terms-content,
 #privacy-container .privacy-content {
   width: unset;
   padding: 0;
@@ -1412,8 +1419,9 @@ label[for="send-emails"] {
   margin: 2.5rem 0;
 }
 
+.terms-content > h1:first-child,
 .privacy-content > h1:first-child {
-  margin-top: 1rem;
+  margin: 1rem 0;
   text-decoration: underline;
 }
 
@@ -1430,6 +1438,14 @@ label[for="send-emails"] {
   .button-holder button {
     margin: 0 1rem;
   }
+}
+
+#terms-container h3 {
+  margin: 1.5rem 0 0.5rem;
+}
+
+#terms-container p {
+  margin-bottom: 1rem;
 }
 
 .overlay {

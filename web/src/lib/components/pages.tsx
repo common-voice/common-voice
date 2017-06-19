@@ -9,6 +9,7 @@ import Listen from './pages/listen';
 import Record from './pages/record';
 import Profile from './pages/profile';
 import Privacy from './pages/privacy';
+import Terms from './pages/terms';
 import NotFound from './pages/not-found';
 
 import API from '../api';
@@ -21,6 +22,7 @@ const URLS = {
   LISTEN: '/listen',
   PROFILE: '/profile',
   PRIVACY: '/privacy',
+  TERMS: '/terms',
   NOTFOUND: '/not-found'
 };
 
@@ -270,6 +272,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
           <Profile user={this.props.user}
                    active={this.isPageActive(URLS.PROFILE)} />
           <Privacy active={this.isPageActive(URLS.PRIVACY)} />
+          <Terms active={this.isPageActive(URLS.TERMS)} />
           <NotFound active={this.isNotFoundActive()} />
         </div>
         <footer>
