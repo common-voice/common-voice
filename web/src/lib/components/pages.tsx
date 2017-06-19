@@ -170,7 +170,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
         let uploadNext = () => {
           if (recordings.length === 0) {
             this.props.api.uploadDemographicInfo().then(() => {
-              console.log('Uploaded demographic info');
+              return;
             });
             res();
             return;
