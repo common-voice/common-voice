@@ -17,7 +17,6 @@ export default class Home extends Component<Props, void> {
   }
 
   onVote() {
-    console.log('got a vote');
     this.props.user && this.props.user.tallyVerification();
     this.props.navigate('/'); // force top level page render
   }
