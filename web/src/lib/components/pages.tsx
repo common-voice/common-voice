@@ -8,6 +8,7 @@ import Home from './pages/home';
 import Listen from './pages/listen';
 import Record from './pages/record';
 import Profile from './pages/profile';
+import FAQ from './pages/faq';
 import Privacy from './pages/privacy';
 import Terms from './pages/terms';
 import NotFound from './pages/not-found';
@@ -21,6 +22,7 @@ const URLS = {
   RECORD: '/record',
   LISTEN: '/listen',
   PROFILE: '/profile',
+  FAQ: '/faq',
   PRIVACY: '/privacy',
   TERMS: '/terms',
   NOTFOUND: '/not-found'
@@ -300,6 +302,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
                   api={this.props.api} user={this.props.user}/>
           <Profile user={this.props.user}
                    active={this.isPageActive(URLS.PROFILE)} />
+          <FAQ active={this.isPageActive(URLS.FAQ)} />
           <Privacy active={this.isPageActive(URLS.PRIVACY)} />
           <Terms active={this.isPageActive(URLS.TERMS)} />
           <NotFound active={this.isNotFoundActive()} />
@@ -307,11 +310,15 @@ export default class Pages extends Component<PagesProps, PagesState> {
         <footer>
           <div id="help-links">
             <div class="content">
+              <a id="help" onClick={this.linkNavigate}
+                 href="/faq">
+                <Icon type="help" />
+                <p class="strong">Help</p>
+              </a>
               <a id="contribute"
                  target="_blank" href="https://github.com/mozilla/voice-web">
                 <Icon type="github" />
                 <p class="strong">Contribute</p>
-                <p>on GitHub</p>
               </a>
             </div>
           </div>

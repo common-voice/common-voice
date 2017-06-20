@@ -11,7 +11,8 @@ const ICONS = {
   x: '',
   github: '',
   firefox: '',
-  chrome: ''
+  chrome: '',
+  help: ''
 }
 
 interface Props {

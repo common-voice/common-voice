@@ -443,13 +443,16 @@ header.active {
 
 #help-links {
   height: 6rem;
-  text-align: center;
-  padding-top: 1.4rem;
   background-color: var(--color-help);
 }
 
-#help-links #contribute .strong {
-  font-size: 1.4rem;
+#help-links a {
+  text-align: center;
+  width: 10rem;
+}
+
+#help-links a:first-child {
+  border-right: 1px solid black;
 }
 
 #moz-links {
@@ -457,6 +460,7 @@ header.active {
   color: white;
   background-color: black;
 }
+
 @media (min-width: 600px) {
   #moz-links {
     height: 4rem;
@@ -464,9 +468,12 @@ header.active {
   }
 }
 
+#help-links .content,
 #moz-links .content {
   display: flex;
   align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 
 @media (max-width: 600px) {
@@ -601,6 +608,7 @@ header.active {
   }
 }
 
+.faq #scrollee,
 .terms #scrollee,
 .privacy #scrollee,
 .profile #scrollee {
@@ -796,12 +804,14 @@ header.active {
   }
 }
 
+.faq .hero,
 .terms .hero,
 .privacy .hero,
 .profile .hero {
   display: none;
 }
 
+.faq .hero-space,
 .terms .hero-space,
 .privacy .hero-space,
 .profile .hero-space {
@@ -1084,11 +1094,6 @@ header.active {
   padding-top: 0;
 }
 
-@media (max-width: 600px) {
-  #record-container {
-  }
-}
-
 .unsupported > :first-child {
   padding-top: 3rem;
 }
@@ -1289,6 +1294,7 @@ header.active {
   display: inline-block;
 }
 
+#content > #faq-container,
 #content > #terms-container,
 #content > #privacy-container,
 #content > #profile-container {
@@ -1298,6 +1304,8 @@ header.active {
 }
 
 @media (min-width: 600px) {
+  #content > #not-found-container,
+  #content > #faq-container,
   #content > #terms-container,
   #content > #privacy-container,
   #content > #profile-container {
@@ -1415,11 +1423,6 @@ label[for="send-emails"] {
   background-color: var(--color-help);
 }
 
-#terms-container,
-#privacy-container {
-  padding-left: var(--sidebar-width);
-}
-
 .privacy-content {
   background-color: var(--base-background-color);
   width: var(--desktop-width);
@@ -1469,10 +1472,12 @@ label[for="send-emails"] {
   }
 }
 
+#faq-container h3,
 #terms-container h3 {
   margin: 1.5rem 0 0.5rem;
 }
 
+#faq-container p,
 #terms-container p {
   margin-bottom: 1rem;
 }
