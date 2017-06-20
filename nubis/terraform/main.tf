@@ -9,6 +9,13 @@ module "worker" {
   elb                       = "${module.load_balancer.name}"
   min_instances             = 2
   max_instances             = 30
+
+  # Wait up to 10 minutes for warming up (in seconds)
+  health_check_grace_period = "600"
+ 
+  # Wait 12 minutes for nodes to be avaialble (in minutes)
+  wait_for_capacity_timeout = "12m"
+
   nubis_sudo_groups         = "team_webops,nubis_global_admins,voice-dev"
 }
 
