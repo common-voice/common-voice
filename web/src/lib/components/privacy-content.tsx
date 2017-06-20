@@ -41,6 +41,11 @@ export default class PrivacyContent extends Component<Props, State> {
             website.  For example, this includes number of voice samples
             you record or listen to, interactions with buttons and menus,
             session length.</li>
+        <li><b>Technical data.</b>Using Google Analytics, we collect the
+            URL and title of the Common Voice pages you visit. We collect
+            your browser, viewport size, and screen resolution. We also
+            collect your location, and the language setting in your
+            browser.</li>
       </ul>
       <a target="_blank"
          href="https://github.com/mozilla/voice-web/blob/data-dictionary/docs/data_dictionary.md">
