@@ -1,4 +1,5 @@
 import { h, Component } from 'preact';
+import RobotTalker from 'robot-talker';
 
 const MODE_GREETINGS = '/img/robot-greetings.png';
 const MODE_LISTENING = '/img/robot-listening.png';
@@ -65,6 +66,7 @@ export default class Robot extends Component<Props, State> {
                {this.state.speech}
              </div>
              <img src={this.state.src} />
+             <RobotTalker>{this.props.children}</RobotTalker>
            </div>;
   }
 }

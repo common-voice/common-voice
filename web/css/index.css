@@ -843,12 +843,12 @@ header.active {
 }
 
 .home .robot {
-  transform: translate(-5rem,2rem)
+  transform: translate(-6rem, 5rem)
 }
 
 @media (max-width: 600px) {
   .home .robot {
-    transform: translate(-1rem,2.2rem);
+    transform: translate(-3rem,2.2rem);
     height: 10rem;
   }
 }
@@ -873,6 +873,39 @@ header.active {
   }
 }
 
+.robot-talker {
+  font-family: var(--strong-font-family);
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 0px var(--color-text-help);
+  text-align: left;
+  position: absolute;
+  box-sizing: border-box;
+  top: 3rem;
+  right: -19rem;
+  width: 18rem;
+  padding: 0.2rem;
+  opacity: 0;
+  transition: opacity 0.2s linear;
+}
+
+@media (max-width: 600px) {
+  .robot-talker {
+    top: -1.5rem;
+    right: -15.5rem;
+    width: 15rem;
+  }
+}
+
+.home .robot-talker {
+  opacity: 1;
+}
+
+.robot-talker > * {
+  background-color: var(--color-text-help);
+  display: inline;
+}
+
 .robot .bubble {
   display: none;
   align-items: center;
@@ -886,8 +919,12 @@ header.active {
   background-image: url("/img/speech-bubble.png");
   background-size: auto 4rem;
   font-weight: bold;
-  animation: throb-size 2s ease-in-out infinite;
   cursor: pointer;
+  transition: transform 0.2s var(--bounce-curve);
+}
+
+.robot .bubble:hover {
+  transform: scale(1.05);
 }
 
 @media (max-width: 600px) {
@@ -900,17 +937,9 @@ header.active {
   }
 }
 
-@keyframes throb-size {
-  50%{ transform: scale(1.05); }
-}
-
 /** For now we only see the bubble on the home page */
 .home .bubble {
   display: flex;
-}
-
-#about-container {
-  padding: 0.3rem 1rem;
 }
 
 #home-container {

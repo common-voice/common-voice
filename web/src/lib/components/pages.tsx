@@ -26,6 +26,18 @@ const URLS = {
   NOTFOUND: '/not-found'
 };
 
+const ROBOT_TALK = {
+  'home': [
+    <p>Greetings human!</p>,
+    <p>My name is M.A.R.S. and I am a learning robot.</p>,
+    <p>Right now, I am learning to speak like a human.</p>,
+    <p>But. . .  it's so hard!</p>,
+    <p>Can you help me learn?</p>,
+    <p>All I need is for you to read to me. :)</p>,
+    <p>Please click on the heart below to get started teaching me.</p>,
+  ]
+}
+
 interface PagesProps {
   user: User;
   api: API;
@@ -72,7 +84,13 @@ export default class Pages extends Component<PagesProps, PagesState> {
   }
 
   private getCurrentPageName() {
-    return this.state.currentPage && this.state.currentPage.substr(1);
+    if (!this.state.currentPage) {
+      return 'home';
+    }
+
+    let p = this.state.currentPage.substr(1);
+    p = p || 'home';
+    return p;
   }
 
   private sayThanks(): void {
@@ -237,8 +255,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
     let pageName = this.getCurrentPageName();
     let robotPosition = pageName === 'record' ? this.state.robot : pageName;
 
-    let className = (pageName ? pageName : 'home') +
-                    (this.state.recording ? ' recording' : '');
+    let className = pageName + (this.state.recording ? ' recording' : '');
     return <div id="main" className={className}>
       <header className={(this.state.isMenuVisible || this.state.scrolled ?
                           'active' : '')}>
@@ -254,8 +271,9 @@ export default class Pages extends Component<PagesProps, PagesState> {
         <div class="hero">
           <Robot position={(pageName === 'record' && this.state.robot) ||
                            pageName} onClick={page => {
-            this.props.navigate('/' + page); 
-          }} />
+            this.props.navigate('/' + page);
+          //}}>{pageName === '/home' ? roboTalk : '<p>heloo</p>'}</Robot>
+          }}>{ROBOT_TALK[pageName]}</Robot>
         </div>
         <div class="hero-space"></div>
         <div id="content" className={this.state.pageTransitioning ?
