@@ -81,6 +81,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
     this.onRecordStop = this.onRecordStop.bind(this);
     this.sayThanks = this.sayThanks.bind(this);
     this.renderUser = this.renderUser.bind(this);
+    this.linkNavigate = this.linkNavigate.bind(this);
   }
 
   private getCurrentPageName() {
@@ -140,6 +141,13 @@ export default class Pages extends Component<PagesProps, PagesState> {
         this.setState({ scrolled: scrolled });
       }
     });
+  }
+
+  private linkNavigate(evt: Event): void {
+    evt.stopPropagation();
+    evt.preventDefault();
+    let href = (evt.currentTarget as HTMLAnchorElement).href;
+    this.props.navigate(href);
   }
 
   private isNotFoundActive(): string {
@@ -312,15 +320,11 @@ export default class Pages extends Component<PagesProps, PagesState> {
               <Logo navigate={this.props.navigate}/>
               <div class="links">
                 <p>
-                  <a onClick={evt => {
-                    evt.stopPropagation();
-                    evt.preventDefault();
-                    this.props.navigate('/privacy');
-                  }} href="/privacy">Privacy</a>
+                  <a onClick={this.linkNavigate} href="/privacy">Privacy</a>
                   <a href="https://www.mozilla.org/en-US/privacy/websites/#cookies">Cookies</a>
                   <a href="https://www.mozilla.org/en-US/about/legal/">
                     Legal</a>
-                  <a href="/">About Project Common Voice</a>
+                  <a onClick={this.linkNavigate} href="/terms">Common Voice Terms</a>
                 </p>
                 <p>Content available under a&nbsp;<a href="https://www.mozilla.org/en-US/foundation/licensing/website-content/">Creative Commons license</a></p>
               </div>
