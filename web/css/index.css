@@ -1552,3 +1552,7 @@ label[for="send-emails"] {
 .focus #try-it-container {
   display: none;
 }
+
+.focus #donate {
+  padding-bottom: 1rem;
+}
