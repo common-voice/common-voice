@@ -149,6 +149,10 @@ export default class Clip {
     let glob = request.headers.glob;
     let vote = decodeURI(request.headers.vote as string);
 
+    if (!uid || !glob || !vote) {
+      return Promise.reject('Invalid headers');
+    }
+
     return new Promise((resolve: Function, reject: Function) => {
       // Where is the clip vote going to be located?
       let voteFile = glob + '-by-' + uid + '.vote';
@@ -188,6 +192,10 @@ export default class Clip {
   saveDemographic(request: http.IncomingMessage): Promise<string> {
     let uid = request.headers.uid;
     let demographic = request.headers.demographic as string;
+
+    if (!uid || !demographic) {
+      return Promise.reject('Invalid headers');
+    }
 
     return new Promise((resolve: Function, reject: Function) => {
       // Where is the clip demographic going to be located?
@@ -229,6 +237,10 @@ export default class Clip {
     let info = request.headers;
     let uid = info.uid;
     let sentence = decodeURI(info.sentence as string);
+
+    if (!uid || !sentence) {
+      return Promise.reject('Invalid headers');
+    }
 
     return new Promise((resolve: Function, reject: Function) => {
       // Obtain contentType
@@ -294,6 +306,10 @@ export default class Clip {
   serveRandomClip(request: http.IncomingMessage,
                   response: http.ServerResponse) {
     let uid = request.headers.uid as string;
+
+    if (!uid) {
+      return Promise.reject('Invalid headers');
+    }
 
     this.files.getRandomClip(uid).then((clip: string[2]) => {
       if (!clip) {
