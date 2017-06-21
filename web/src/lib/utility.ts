@@ -37,3 +37,7 @@ export function isNativeIOS(): boolean {
   return window['webkit'] && webkit.messageHandlers &&
          webkit.messageHandlers.scriptHandler;
 }
+
+export function isFocus(): boolean {
+  return navigator.userAgent.indexOf('Focus') !== -1;
+}

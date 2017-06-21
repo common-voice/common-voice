@@ -7,7 +7,7 @@ import AudioWeb, { AudioInfo } from './record/audio-web';
 import ListenBox from '../listen-box';
 import ProgressButton from '../progress-button';
 import ERROR_MSG from '../../../error-msg';
-import { countSyllables, isNativeIOS, generateGUID } from '../../utility';
+import { isFocus, countSyllables, isNativeIOS, generateGUID } from '../../utility';
 import confirm from '../confirm';
 
 const SET_COUNT = 3;
@@ -56,6 +56,11 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     }
 
     if (!this.audio.isMicrophoneSupported()) {
+      this.isUnsupportedPlatform = true;
+      return;
+    }
+
+    if (isFocus()) {
       this.isUnsupportedPlatform = true;
       return;
     }
