@@ -1547,7 +1547,7 @@ label[for="send-emails"] {
   100%{ transform: rotate(-360deg); }
 }
 
-.focus .tab.speak,
+.focus .tab.listen,
 .focus .right-column,
 .focus #try-it-container {
   display: none;
