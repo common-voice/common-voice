@@ -89,7 +89,7 @@ export default class Files {
     let batches = new Queue(this.processBatch.bind(this), { batchSize: BATCH_SIZE });
 
     return new Promise((res: Function, rej: Function) => {
-      let searchParam = {Bucket: BUCKET_NAME, MaxKeys: 5000};
+      let searchParam = {Bucket: BUCKET_NAME, MaxKeys: 1000};
       let awsRequest = this.s3.listObjectsV2(searchParam);
 
       awsRequest.on('success', (response) => {
