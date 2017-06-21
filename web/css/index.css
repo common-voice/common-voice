@@ -1546,3 +1546,9 @@ label[for="send-emails"] {
   50%{ border-radius: 0; }
   100%{ transform: rotate(-360deg); }
 }
+
+.focus .tab.speak,
+.focus .right-column,
+.focus #try-it-container {
+  display: none;
+}
