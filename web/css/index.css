@@ -564,6 +564,8 @@ header.active {
     left: 0; right: 0;
     overflow-x: hidden;
     overflow-y: scroll;
+  }
+  body:not(.focus) #scroller {
     -webkit-overflow-scrolling: touch;
     scroll-behavior: smooth;
   }
