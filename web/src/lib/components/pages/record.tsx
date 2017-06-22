@@ -111,7 +111,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
         this.reset();
       })
       .catch(() => {
-        confirm('You did not agree to our Privacy Policy. Do you want to delete your recordings?', 'Keep the recordings', 'Delete my recordings').then((keep) => {
+        confirm('You did not agree to our Terms of Service. Do you want to delete your recordings?', 'Keep the recordings', 'Delete my recordings').then((keep) => {
           if (!keep) {
             this.reset();
             this.props.navigate('/');

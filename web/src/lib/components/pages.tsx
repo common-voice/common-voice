@@ -53,10 +53,9 @@ interface PagesState {
   scrolled: boolean;
   currentPage: string;
   showingPrivacy: boolean;
-  onPrivacyAgree?(evt): void;
-  onPrivacyDisagree?(evt): void;
   recording: boolean;
   robot: string;
+  onPrivacyAction(didAgree: boolean): void;
 }
 
 export default class Pages extends Component<PagesProps, PagesState> {
@@ -70,10 +69,9 @@ export default class Pages extends Component<PagesProps, PagesState> {
     scrolled: false,
     currentPage: null,
     showingPrivacy: false,
-    onPrivacyAgree: null,
-    onPrivacyDisagree: null,
     recording: false,
-    robot: ''
+    robot: '',
+    onPrivacyAction: undefined
   };
 
   constructor(props) {
@@ -166,8 +164,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
       let onFinish = (didAgree: boolean): void => {
         this.setState({
           showingPrivacy: false,
-          onPrivacyAgree: null,
-          onPrivacyDisagree: null
+          onPrivacyAction: undefined
         });
 
         if (didAgree) {
@@ -180,8 +177,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
 
       this.setState({
         showingPrivacy: true,
-        onPrivacyAgree: onFinish.bind(this, true),
-        onPrivacyDisagree: onFinish.bind(this, false)
+        onPrivacyAction: onFinish
       });
     });
   }
@@ -343,8 +339,14 @@ export default class Pages extends Component<PagesProps, PagesState> {
       {this.renderNav()}
       </div>
       <div className={'overlay' + (this.state.showingPrivacy ? ' active' : '')}>
-        <PrivacyContent isForm={true}
-          onAgree={this.state.onPrivacyAgree} onDisagree={this.state.onPrivacyDisagree} />
+        <div class="privacy-content">
+          <h2>By using Common Voice, you agree to our <a target="_blank" href="/terms">Terms</a> and <a target="_blank" href="/privacy">Privacy Notice</a>.
+          </h2>
+          <div class="button-holder">
+            <button onClick={e => { this.state.onPrivacyAction && this.state.onPrivacyAction(true); }}>I agree</button>
+            <button onClick={e => { this.state.onPrivacyAction && this.state.onPrivacyAction(false); }}>I do not agree</button>
+          </div>
+        </div>
       </div>
     </div>;
   }
