@@ -328,10 +328,9 @@ export default class Pages extends Component<PagesProps, PagesState> {
               <div class="links">
                 <p>
                   <a onClick={this.linkNavigate} href="/privacy">Privacy</a>
-                  <a href="https://www.mozilla.org/en-US/privacy/websites/#cookies">Cookies</a>
-                  <a href="https://www.mozilla.org/en-US/about/legal/">
-                    Legal</a>
-                  <a onClick={this.linkNavigate} href="/terms">Common Voice Terms</a>
+                  <a onClick={this.linkNavigate} href="/terms">Terms</a>
+                  <a target="_blank" href="https://www.mozilla.org/en-US/privacy/websites/#cookies">Cookies</a>
+                  <a onClick={this.linkNavigate} href="/faq">FAQ</a>
                 </p>
                 <p>Content available under a&nbsp;<a href="https://www.mozilla.org/en-US/foundation/licensing/website-content/">Creative Commons license</a></p>
               </div>

@@ -496,11 +496,15 @@ header.active {
 
 #moz-links .links a {
   color: var(--color-help);
+}
+
+#moz-links .links > :first-child a {
   margin-right: 1.5rem;
 }
 
 @media (max-width: 600px) {
-  #moz-links .links a {
+  #moz-links .links > p:last-child,
+  #moz-links .links > :first-child a {
     display: block;
     padding: 0.5rem 0;
   }
