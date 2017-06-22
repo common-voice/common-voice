@@ -95,7 +95,7 @@ export default class App {
    */
   private bootstrapIOS() {
     document.body.classList.add('ios');
-    this.renderDebugBox();
+    //this.renderDebugBox();
   }
 
   /**
