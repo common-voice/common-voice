@@ -198,7 +198,8 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
           <a target="_blank" href="https://www.google.com/chrome">
             <Icon type="chrome" />Chrome</a>
         </p>
-        <p>For iPhones and iPads, an <b>iOS app</b> is coming soon!</p>
+        <p><b>iOS</b> users can download our free app:</p>
+        <a target="_blank" href="https://itunes.apple.com/us/app/project-common-voice-by-mozilla/id1240588326"><img src="/img/appstore.svg" /></a>
       </div>;
     }
 
