@@ -97,11 +97,8 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   private deleteRecording(index: number): void {
     // Move redo sentence to the end.
     let sentences = this.state.sentences;
-    console.log('before', sentences);
     let redoSentence = sentences.splice(index, 1);
-    console.log('redo', redoSentence);
     sentences.push(redoSentence[0]);
-    console.log('final', sentences);
 
     let recordings = this.state.recordings;
     recordings.splice(index, 1);
