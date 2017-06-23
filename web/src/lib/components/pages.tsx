@@ -278,8 +278,8 @@ export default class Pages extends Component<PagesProps, PagesState> {
           <Robot position={(pageName === 'record' && this.state.robot) ||
                            pageName} onClick={page => {
             this.props.navigate('/' + page);
-          //}}>{pageName === '/home' ? roboTalk : '<p>heloo</p>'}</Robot>
-          }}>{ROBOT_TALK[pageName]}</Robot>
+          //}}>{ROBOT_TALK[pageName]}</Robot> (Disable talking robot for now)
+          }}></Robot>
         </div>
         <div class="hero-space"></div>
         <div id="content" className={this.state.pageTransitioning ?

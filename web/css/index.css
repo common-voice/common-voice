@@ -939,7 +939,7 @@ header.active {
   padding-left: 1.5rem;
   height: 4rem;
   width: 13.8rem;
-  top: calc(var(--robot-height) / 1.75);
+  top: calc(var(--robot-height) / 4);
   right: -120%;
   background-image: url("/img/speech-bubble.png");
   background-size: auto 4rem;
@@ -956,8 +956,8 @@ header.active {
   .robot .bubble {
     height: 4rem;
     width: 11rem;
-    right: -150%;
-    top: 6rem;
+    right: -180%;
+    top: 2rem;
     background-size: 11rem 4rem;
   }
 }
