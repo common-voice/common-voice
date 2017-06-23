@@ -326,7 +326,6 @@ input:invalid {
   flex-direction: column;
 }
 
-
 .vote-box > a {
   height: 50%;
   box-sizing: border-box;
@@ -344,17 +343,23 @@ input:invalid {
   margin-right: 1rem;
 }
 
-.vote-box > :first-child {
-  border-bottom: 1px dotted black;
+@media (min-width: 600px) {
+  .vote-box > :first-child {
+    border-bottom: 1px dotted black;
+  }
 }
 
 @media (max-width: 600px) {
   .vote-box {
     flex-direction: row;
     align-items: center;
+    width: 100%;
   }
   .vote-box a {
     min-width: 50%;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
   }
 }
 
