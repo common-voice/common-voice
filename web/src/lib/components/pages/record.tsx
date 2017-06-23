@@ -94,6 +94,23 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     }
   }
 
+  private deleteRecording(index: number): void {
+    // Move redo sentence to the end.
+    let sentences = this.state.sentences;
+    console.log('before', sentences);
+    let redoSentence = sentences.splice(index, 1);
+    console.log('redo', redoSentence);
+    sentences.push(redoSentence[0]);
+    console.log('final', sentences);
+
+    let recordings = this.state.recordings;
+    recordings.splice(index, 1);
+    this.setState({
+      recordings: recordings,
+      sentences: sentences
+    });
+  }
+
   private getRecordingUrl(which: number): string {
     let r = this.state.recordings[which] && this.state.recordings[which].url;
     return r || '';
@@ -225,7 +242,8 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       </p>);
 
       listens.push(<ListenBox src={this.getRecordingUrl(i)}
-                   sentence={this.getSentence(i)}/>);
+                              onDelete={this.deleteRecording.bind(this, i)}
+                              sentence={this.getSentence(i)}/>);
     }
 
     let className = this.props.active + (isFull ? ' full': '');
@@ -248,7 +266,10 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       <div id="voice-submit">
         <p id="thank-you"><span>Thank you!</span></p>
         <p id="want-to-review"><span>Want to review your recording?</span></p>
-        <p id="tap-to-play">Tap to play/stop</p>
+        <p id="box-headers">
+          <span>Play/Stop</span>
+          <span>Re-record</span>
+        </p>
         {listens}
         <ProgressButton percent={this.state.uploadProgress}
                         onClick={this.onSubmit} text="Submit" />
