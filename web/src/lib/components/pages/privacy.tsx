@@ -11,7 +11,7 @@ interface State {
 export default class Privacy extends Component<Props, State> {
   render() {
     return <div id="privacy-container" className={this.props.active}>
-      <PrivacyContent isForm={false} />
+      <PrivacyContent />
     </div>;
   }
 }

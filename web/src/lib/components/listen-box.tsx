@@ -6,6 +6,7 @@ interface Props {
   sentence?: string;
   vote?: string;
   onVote?(valid: boolean): void;
+  onDelete?(): void;
 }
 
 interface State {
@@ -28,6 +29,7 @@ export default class ListenBox extends Component<Props, State> {
     this.onCanPlayThrough = this.onCanPlayThrough.bind(this);
     this.onPlayEnded = this.onPlayEnded.bind(this);
     this.onPlay = this.onPlay.bind(this);
+    this.onDelete = this.onDelete.bind(this);
   }
 
   state = {
@@ -63,6 +65,16 @@ export default class ListenBox extends Component<Props, State> {
     this.setState({ playing: true });
   }
 
+  private onDelete() {
+    if (this.state.playing) {
+      this.el.pause();
+      this.setState({ playing: false });
+      return;
+    }
+
+    this.props.onDelete && this.props.onDelete();
+  }
+
   render() {
     return <div className={'listen-box' +
                            (this.state.loaded ? ' loaded' : '') +
@@ -75,6 +87,10 @@ export default class ListenBox extends Component<Props, State> {
       <div onClick={this.onPlay} class="play-box">
         <b style={!this.props.vote ? 'display: none;' : ''}>What they said:</b>
         <Icon type={this.state.playing ? 'pause': 'play'} />
+      </div>
+      <div style={this.props.vote ? 'display: none;' : ''} class="delete-box"
+           onClick={this.onDelete}>
+        <Icon type="x"/>
       </div>
       <div style={!this.props.vote ? 'display: none;' : ''} class="vote-box">
         <a onClick={e=>{this.props.onVote(true);}}>

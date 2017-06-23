@@ -7,7 +7,7 @@ import AudioWeb, { AudioInfo } from './record/audio-web';
 import ListenBox from '../listen-box';
 import ProgressButton from '../progress-button';
 import ERROR_MSG from '../../../error-msg';
-import { countSyllables, isNativeIOS, generateGUID } from '../../utility';
+import { isFocus, countSyllables, isNativeIOS, generateGUID } from '../../utility';
 import confirm from '../confirm';
 
 const SET_COUNT = 3;
@@ -60,6 +60,11 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       return;
     }
 
+    if (isFocus()) {
+      this.isUnsupportedPlatform = true;
+      return;
+    }
+
     this.newSentenceSet();
 
     // Bind now, to avoid memory leak when setting handler.
@@ -89,6 +94,20 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     }
   }
 
+  private deleteRecording(index: number): void {
+    // Move redo sentence to the end.
+    let sentences = this.state.sentences;
+    let redoSentence = sentences.splice(index, 1);
+    sentences.push(redoSentence[0]);
+
+    let recordings = this.state.recordings;
+    recordings.splice(index, 1);
+    this.setState({
+      recordings: recordings,
+      sentences: sentences
+    });
+  }
+
   private getRecordingUrl(which: number): string {
     let r = this.state.recordings[which] && this.state.recordings[which].url;
     return r || '';
@@ -106,7 +125,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
         this.reset();
       })
       .catch(() => {
-        confirm('You did not agree to our Privacy Policy. Do you want to delete your recordings?', 'Keep the recordings', 'Delete my recordings').then((keep) => {
+        confirm('You did not agree to our Terms of Service. Do you want to delete your recordings?', 'Keep the recordings', 'Delete my recordings').then((keep) => {
           if (!keep) {
             this.reset();
             this.props.navigate('/');
@@ -125,10 +144,17 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       return;
     }
 
-    let r = this.state.recordings;
-    r.pop();
+
+    // If user was recording when going back, make sure to throw
+    // out this new recording too.
+    if (this.state.recording) {
+      this.stopRecordingHard();
+    }
+
+    let recordings = this.state.recordings;
+    recordings.pop();
     this.setState({
-      recordings: r
+      recordings: recordings,
     });
   }
 
@@ -169,6 +195,18 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     this.audio.stop().then(this.processRecording);;
   }
 
+  /**
+   * Stop the current recording and throw out the audio.
+   */
+  stopRecordingHard() {
+    this.audio.stop();
+    this.setState({
+      recording: false
+    });
+
+    this.props.onRecordStop && this.props.onRecordStop();
+  }
+
   newSentenceSet() {
     let recordedSentenceCount = this.state.recordings.length;
     let numberOfSentenceToGet = SET_COUNT - recordedSentenceCount;
@@ -193,7 +231,8 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
           <a target="_blank" href="https://www.google.com/chrome">
             <Icon type="chrome" />Chrome</a>
         </p>
-        <p>For iPhones and iPads, an <b>iOS app</b> is coming soon!</p>
+        <p><b>iOS</b> users can download our free app:</p>
+        <a target="_blank" href="https://itunes.apple.com/us/app/project-common-voice-by-mozilla/id1240588326"><img src="/img/appstore.svg" /></a>
       </div>;
     }
 
@@ -219,7 +258,8 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       </p>);
 
       listens.push(<ListenBox src={this.getRecordingUrl(i)}
-                   sentence={this.getSentence(i)}/>);
+                              onDelete={this.deleteRecording.bind(this, i)}
+                              sentence={this.getSentence(i)}/>);
     }
 
     let className = this.props.active + (isFull ? ' full': '');
@@ -236,13 +276,16 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
         </div>
         <div id="record-button" onClick={this.onRecordClick}></div>
         <p id="record-help">
-          Please read the above sentence and tap to record.
+          Please tap to record, then read the above sentence aloud.
         </p>
       </div>
       <div id="voice-submit">
         <p id="thank-you"><span>Thank you!</span></p>
         <p id="want-to-review"><span>Want to review your recording?</span></p>
-        <p id="tap-to-play">Tap to play/stop</p>
+        <p id="box-headers">
+          <span>Play/Stop</span>
+          <span>Re-record</span>
+        </p>
         {listens}
         <ProgressButton percent={this.state.uploadProgress}
                         onClick={this.onSubmit} text="Submit" />

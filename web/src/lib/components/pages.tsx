@@ -53,10 +53,9 @@ interface PagesState {
   scrolled: boolean;
   currentPage: string;
   showingPrivacy: boolean;
-  onPrivacyAgree?(evt): void;
-  onPrivacyDisagree?(evt): void;
   recording: boolean;
   robot: string;
+  onPrivacyAction(didAgree: boolean): void;
 }
 
 export default class Pages extends Component<PagesProps, PagesState> {
@@ -70,10 +69,9 @@ export default class Pages extends Component<PagesProps, PagesState> {
     scrolled: false,
     currentPage: null,
     showingPrivacy: false,
-    onPrivacyAgree: null,
-    onPrivacyDisagree: null,
     recording: false,
-    robot: ''
+    robot: '',
+    onPrivacyAction: undefined
   };
 
   constructor(props) {
@@ -166,8 +164,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
       let onFinish = (didAgree: boolean): void => {
         this.setState({
           showingPrivacy: false,
-          onPrivacyAgree: null,
-          onPrivacyDisagree: null
+          onPrivacyAction: undefined
         });
 
         if (didAgree) {
@@ -180,8 +177,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
 
       this.setState({
         showingPrivacy: true,
-        onPrivacyAgree: onFinish.bind(this, true),
-        onPrivacyDisagree: onFinish.bind(this, false)
+        onPrivacyAction: onFinish
       });
     });
   }
@@ -282,8 +278,8 @@ export default class Pages extends Component<PagesProps, PagesState> {
           <Robot position={(pageName === 'record' && this.state.robot) ||
                            pageName} onClick={page => {
             this.props.navigate('/' + page);
-          //}}>{pageName === '/home' ? roboTalk : '<p>heloo</p>'}</Robot>
-          }}>{ROBOT_TALK[pageName]}</Robot>
+          //}}>{ROBOT_TALK[pageName]}</Robot> (Disable talking robot for now)
+          }}></Robot>
         </div>
         <div class="hero-space"></div>
         <div id="content" className={this.state.pageTransitioning ?
@@ -328,12 +324,11 @@ export default class Pages extends Component<PagesProps, PagesState> {
               <div class="links">
                 <p>
                   <a onClick={this.linkNavigate} href="/privacy">Privacy</a>
-                  <a href="https://www.mozilla.org/en-US/privacy/websites/#cookies">Cookies</a>
-                  <a href="https://www.mozilla.org/en-US/about/legal/">
-                    Legal</a>
-                  <a onClick={this.linkNavigate} href="/terms">Common Voice Terms</a>
+                  <a onClick={this.linkNavigate} href="/terms">Terms</a>
+                  <a target="_blank" href="https://www.mozilla.org/en-US/privacy/websites/#cookies">Cookies</a>
+                  <a onClick={this.linkNavigate} href="/faq">FAQ</a>
                 </p>
-                <p>Content available under a&nbsp;<a href="https://www.mozilla.org/en-US/foundation/licensing/website-content/">Creative Commons license</a></p>
+                <p>Content available under a&nbsp;<a target="_blank" href="https://www.mozilla.org/en-US/foundation/licensing/website-content/">Creative Commons license</a></p>
               </div>
             </div>
           </div>
@@ -344,14 +339,20 @@ export default class Pages extends Component<PagesProps, PagesState> {
       {this.renderNav()}
       </div>
       <div className={'overlay' + (this.state.showingPrivacy ? ' active' : '')}>
-        <PrivacyContent isForm={true}
-          onAgree={this.state.onPrivacyAgree} onDisagree={this.state.onPrivacyDisagree} />
+        <div class="privacy-content">
+          <h2>By using Common Voice, you agree to our <a target="_blank" href="/terms">Terms</a> and <a target="_blank" href="/privacy">Privacy Notice</a>.
+          </h2>
+          <div class="button-holder">
+            <button onClick={e => { this.state.onPrivacyAction && this.state.onPrivacyAction(true); }}>I agree</button>
+            <button onClick={e => { this.state.onPrivacyAction && this.state.onPrivacyAction(false); }}>I do not agree</button>
+          </div>
+        </div>
       </div>
     </div>;
   }
 
   private renderTab(url: string, name: string) {
-    let c = 'tab ' + this.isPageActive(url, this.props.currentPage);
+    let c = 'tab ' + name + ' ' + this.isPageActive(url, this.props.currentPage);
     return <a className={c}
               onClick={this.props.navigate.bind(null, url)}>
              <span className={'tab-name ' + name}>{name}</span>

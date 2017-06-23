@@ -1,9 +1,6 @@
 import { h, Component } from 'preact';
 
 interface Props {
-  isForm?: boolean;
-  onAgree?(evt): void;
-  onDisagree?(evt): void;
 }
 
 interface State {
@@ -11,17 +8,9 @@ interface State {
 
 export default class PrivacyContent extends Component<Props, State> {
   render() {
-    let formHeader = this.props.isForm ? <h2>By using Common Voice, you agree to our <a target="_blank" href="/terms">Terms</a> and <a target="_blank" href="/privacy">Privacy Notice.</a></h2> : '';
-
-    let buttons = this.props.isForm ? <div class="button-holder">
-      <button onClick={this.props.onAgree}>I agree</button>
-      <button onClick={this.props.onDisagree}>I do not agree</button>
-    </div> : '';
-
     return <div class="privacy-content">
       <h1>Common Voice Privacy Notice</h1>
       <h2>Effective June 19, 2017</h2>
-      {formHeader}
       <p>When Mozilla (that’s us), receives information
          from you, our <a target="_blank" href="https://www.mozilla.org/privacy">Mozilla Privacy Policy</a> describes how we handle that information.</p>
       <ul>
@@ -51,7 +40,6 @@ export default class PrivacyContent extends Component<Props, State> {
          href="https://github.com/mozilla/voice-web/blob/data-dictionary/docs/data_dictionary.md">
         Learn more
       </a>
-      {buttons}
     </div>;
   }
 }
