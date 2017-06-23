@@ -1224,6 +1224,8 @@ header.active {
   z-index: var(--middle-z-index);
   opacity: 1;
   transition: all 0.2s ease-out;
+  padding: 0.5rem;
+  cursor: pointer;
 }
 
 .full #undo-clip,

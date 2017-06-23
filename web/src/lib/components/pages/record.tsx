@@ -144,10 +144,17 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       return;
     }
 
-    let r = this.state.recordings;
-    r.pop();
+
+    // If user was recording when going back, make sure to throw
+    // out this new recording too.
+    if (this.state.recording) {
+      this.stopRecordingHard();
+    }
+
+    let recordings = this.state.recordings;
+    recordings.pop();
     this.setState({
-      recordings: r
+      recordings: recordings,
     });
   }
 
@@ -186,6 +193,18 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
   stopRecording() {
     this.audio.stop().then(this.processRecording);;
+  }
+
+  /**
+   * Stop the current recording and throw out the audio.
+   */
+  stopRecordingHard() {
+    this.audio.stop();
+    this.setState({
+      recording: false
+    });
+
+    this.props.onRecordStop && this.props.onRecordStop();
   }
 
   newSentenceSet() {
