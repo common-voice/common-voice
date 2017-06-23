@@ -14,7 +14,7 @@ module "worker" {
   health_check_grace_period = "600"
  
   # Wait 12 minutes for nodes to be avaialble (in minutes)
-  wait_for_capacity_timeout = "12m"
+  wait_for_capacity_timeout = "20m"
 
   nubis_sudo_groups         = "team_webops,nubis_global_admins,voice-dev"
 }
