@@ -276,7 +276,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
         </div>
         <div id="record-button" onClick={this.onRecordClick}></div>
         <p id="record-help">
-          Please read the above sentence and tap to record.
+          Please tap to record, then read the above sentence aloud.
         </p>
       </div>
       <div id="voice-submit">
