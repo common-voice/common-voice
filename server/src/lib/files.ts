@@ -104,6 +104,11 @@ export default class Files {
             continue;
           }
 
+          // Ignore non-text and non-mp3 files
+          if ((ext !== '.txt') && (ext !== MP3_EXT)) {
+            continue;
+          }
+
           // Track file gobs and extensions of the voice clips.
           if (!this.files[glob]) {
             this.files[glob] = {
@@ -163,9 +168,17 @@ export default class Files {
       return Promise.reject('No files not from us.');
     }
 
-    let glob = items[Math.floor(Math.random()*items.length)];
-    let key = glob + MP3_EXT;
-    let info = this.files[glob];
-    return Promise.resolve([key, info.sentence]);
+    // Make a reasonable effort to find a valid sentence
+    for(let attempt = 0; attempt < items.length; attempt++) {
+      let glob = items[Math.floor(Math.random()*items.length)];
+      let key = glob + MP3_EXT;
+      let info = this.files[glob];
+
+      if (info && info.sentence && /\S/.test(info.sentence) && key) {
+        return Promise.resolve([key, info.sentence]);
+      }
+    }
+
+    return Promise.reject('No valid sentences.');
   }
 }
