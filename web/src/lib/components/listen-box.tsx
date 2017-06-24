@@ -1,4 +1,5 @@
 import { h, Component } from 'preact';
+import Tracker from '../tracker';
 import Icon from './icon';
 
 interface Props {
@@ -20,9 +21,12 @@ interface State {
  */
 export default class ListenBox extends Component<Props, State> {
   el: HTMLAudioElement;
+  tracker: Tracker;
 
   constructor(props: Props) {
     super(props);
+
+    this.tracker = new Tracker();
 
     // Pre-bind some handlers to avoid memory leaks later.
     this.onLoadStart = this.onLoadStart.bind(this);
@@ -30,6 +34,8 @@ export default class ListenBox extends Component<Props, State> {
     this.onPlayEnded = this.onPlayEnded.bind(this);
     this.onPlay = this.onPlay.bind(this);
     this.onDelete = this.onDelete.bind(this);
+    this.voteYes = this.voteYes.bind(this);
+    this.voteNo = this.voteNo.bind(this);
   }
 
   state = {
@@ -52,6 +58,7 @@ export default class ListenBox extends Component<Props, State> {
 
   private onPlayEnded() {
     this.setState({ playing: false });
+    this.tracker.trackListen();
   }
 
   private onPlay() {
@@ -75,6 +82,16 @@ export default class ListenBox extends Component<Props, State> {
     this.props.onDelete && this.props.onDelete();
   }
 
+  private voteYes() {
+    this.props.onVote && this.props.onVote(true);
+    this.tracker.trackVoteYes();
+  }
+
+  private voteNo() {
+    this.props.onVote && this.props.onVote(false);
+    this.tracker.trackVoteNo();
+  }
+
   render() {
     return <div className={'listen-box' +
                            (this.state.loaded ? ' loaded' : '') +
@@ -93,9 +110,9 @@ export default class ListenBox extends Component<Props, State> {
         <Icon type="x"/>
       </div>
       <div style={!this.props.vote ? 'display: none;' : ''} class="vote-box">
-        <a onClick={e=>{this.props.onVote(true);}}>
+        <a onClick={this.voteYes}>
           <Icon type="check"/>Yes!</a>
-        <a onClick={e=>{this.props.onVote(false);}}>
+        <a onClick={this.voteNo}>
           <Icon type="x"/>Nope.</a>
       </div>
       <audio className="audio-box"

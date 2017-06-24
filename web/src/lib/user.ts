@@ -1,4 +1,5 @@
 import { generateGUID } from './utility';
+import Tracker from './tracker';
 
 const USER_KEY = 'userdata';
 
@@ -61,8 +62,10 @@ interface UserState {
 export default class User {
 
   state: UserState;
+  tracker: Tracker;
 
   constructor() {
+    this.tracker = new Tracker();
     this.restore();
   }
 
@@ -107,6 +110,7 @@ export default class User {
   public setEmail(email: string): void {
     this.state.email = email;
     this.save();
+    this.tracker.trackGiveEmail();
   }
 
   public setSendEmails(value: boolean): void {
@@ -122,6 +126,7 @@ export default class User {
 
     this.state.accent = accent;
     this.save();
+    this.tracker.trackGiveAccent();
   }
 
   public setAge(age: string): void {
@@ -132,6 +137,7 @@ export default class User {
 
     this.state.age = age;
     this.save();
+    this.tracker.trackGiveAge();
   }
 
   public setGender(gender: string): void {
@@ -142,6 +148,7 @@ export default class User {
 
     this.state.gender = gender;
     this.save();
+    this.tracker.trackGiveGender();
   }
 
   public getState(): UserState {
@@ -167,8 +174,5 @@ export default class User {
     this.state.validateTally = this.state.validateTally || 0;
     this.state.validateTally++
     this.save();
-  }
-
-  public onUpdate(callback: Function): void {
   }
 }

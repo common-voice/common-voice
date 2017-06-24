@@ -41,3 +41,7 @@ export function isNativeIOS(): boolean {
 export function isFocus(): boolean {
   return navigator.userAgent.indexOf('Focus') !== -1;
 }
+
+export function isProduction(): boolean {
+  return window.location.origin === 'https://voice.mozilla.org';
+}

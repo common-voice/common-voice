@@ -1,5 +1,6 @@
 import API from '../../api';
 import User from '../../user';
+import Tracker from '../../tracker';
 import { h, Component } from 'preact';
 import Icon from '../icon';
 import AudioIOS from './record/audio-ios';
@@ -36,6 +37,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   name: string = PAGE_NAME;
   audio: AudioWeb | AudioIOS;
   isUnsupportedPlatform: boolean;
+  tracker: Tracker;
 
   state = {
     sentences: [],
@@ -47,6 +49,8 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
   constructor(props) {
     super(props);
+
+    this.tracker = new Tracker();
 
     // Use different audio helpers depending on if we are web or native iOS.
     if (isNativeIOS()) {
@@ -82,6 +86,8 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       recordings: recordings,
       recording: false
     });
+
+    this.tracker.trackRecord();
 
     this.props.onRecordStop && this.props.onRecordStop();
 
@@ -121,8 +127,8 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   private onSubmit() {
     this.props.onSubmit(this.state.recordings, this.state.sentences)
       .then(() => {
-        // TODO: display thank you page!
         this.reset();
+        this.tracker.trackSubmitRecordings();
       })
       .catch(() => {
         confirm('You did not agree to our Terms of Service. Do you want to delete your recordings?', 'Keep the recordings', 'Delete my recordings').then((keep) => {
