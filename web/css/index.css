@@ -145,7 +145,7 @@ button {
 
 @media (min-width: 600px) {
   button:hover:not(.ios) {
-    transform: scale(1.1);
+    background-color: var(--color-speak);
   }
 }
 
@@ -1062,11 +1062,6 @@ header.active {
   margin: 0 auto;
   padding: 0 5rem;
   height: 3rem;
-  animation: throb-color 4s ease-in-out infinite;
-}
-
-@keyframes throb-color {
-  50%{background-color: var(--color-speak-light);}
 }
 
 #try-it-container {
