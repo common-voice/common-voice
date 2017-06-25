@@ -432,7 +432,6 @@ header.active {
 @media (min-width: 600px) {
   header {
     max-width: var(--desktop-width);
-    padding-right: calc(var(--desktop-width) - var(--sidebar-width));
     position: absolute;
     bottom: 0;
     margin: 0 auto;
@@ -450,7 +449,7 @@ header.active {
 @media (min-width: 600px) {
   #help-links .content,
   #moz-links .content {
-    width: var(--desktop-width);
+    max-width: var(--desktop-width);
     margin: 0 auto;
   }
 }
@@ -1041,11 +1040,6 @@ header.active {
   left: -25%;
   top: 0;
   height: 8rem;
-  animation: spin-forward 80s linear infinite;
-}
-
-@keyframes spin-forward {
-  100% { transform: rotate(360deg); }
 }
 
 #donate {
@@ -1452,7 +1446,7 @@ label[for="send-emails"] {
 
 .privacy-content {
   background-color: var(--base-background-color);
-  width: var(--desktop-width);
+  max-width: var(--desktop-width);
   padding: var(--page-margin);
   transform: scale(0);
   transition: transform 0.2s ease-out;
