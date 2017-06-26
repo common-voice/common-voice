@@ -245,7 +245,8 @@ input:invalid {
   --space-between: 0.3rem;
   display: flex;
   margin-bottom: var(--space-between);
-  opacity: 0.9;
+  opacity: 0.3;
+  pointer-events: none;
 }
 
 @media (max-width: 600px) {
@@ -257,6 +258,7 @@ input:invalid {
 
 .listen-box.loaded {
   opacity: 1;
+  pointer-events: all;
 }
 
 .listen-box > div {
@@ -337,6 +339,17 @@ input:invalid {
   margin: 0 1rem;
   display: flex;
   align-items: flex-end;
+}
+
+@media (min-width: 600px) {
+  .vote-box > a:hover {
+    background-color: var(--color-listen);
+  }
+}
+
+.vote-box > a:active {
+  background-color: black;
+  color: white;
 }
 
 .vote-box > a :first-child {
