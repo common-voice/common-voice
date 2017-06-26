@@ -82,6 +82,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
     this.sayThanks = this.sayThanks.bind(this);
     this.renderUser = this.renderUser.bind(this);
     this.linkNavigate = this.linkNavigate.bind(this);
+    this.clearRobot = this.clearRobot.bind(this);
   }
 
   private getCurrentPageName() {
@@ -97,6 +98,12 @@ export default class Pages extends Component<PagesProps, PagesState> {
   private sayThanks(): void {
     this.setState({
       robot: 'thanks'
+    });
+  }
+
+  private clearRobot(): void {
+    this.setState({
+      robot: ''
     });
   }
 
@@ -292,6 +299,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
                   onRecordStop={this.onRecordStop}
                   onRecordingSet={this.sayThanks}
                   onSubmit={this.uploadRecordings}
+                  onDelete={this.clearRobot}
                   navigate={this.props.navigate} user={this.props.user} />
           <Listen active={this.isPageActive(URLS.LISTEN)}
                   navigate={this.props.navigate}

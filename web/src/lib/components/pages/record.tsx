@@ -23,6 +23,7 @@ interface RecordProps {
   onRecord: Function;
   onRecordStop: Function;
   onRecordingSet: Function;
+  onDelete: Function;
 }
 
 interface RecordState {
@@ -30,7 +31,8 @@ interface RecordState {
   recording: boolean,
   recordingStartTime: number,
   recordings: any[],
-  uploadProgress: number
+  uploadProgress: number,
+  isReRecord: boolean
 }
 
 export default class RecordPage extends Component<RecordProps, RecordState> {
@@ -44,7 +46,8 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     recording: false,
     recordingStartTime: 0,
     recordings: [],
-    uploadProgress: 0
+    uploadProgress: 0,
+    isReRecord: false
   };
 
   constructor(props) {
@@ -84,7 +87,8 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
     this.setState({
       recordings: recordings,
-      recording: false
+      recording: false,
+      isReRecord: false
     });
 
     this.tracker.trackRecord();
@@ -110,8 +114,11 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     recordings.splice(index, 1);
     this.setState({
       recordings: recordings,
-      sentences: sentences
+      sentences: sentences,
+      isReRecord: true,
     });
+
+    this.props.onDelete();
   }
 
   private getRecordingUrl(which: number): string {
@@ -186,15 +193,13 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   }
 
   startRecording() {
-    this.audio.start().then(() => {
-      this.setState({
-        recording: true,
-        // TODO: reanble display of recording time at some point.
-        // recordingStartTime: this.audio.audioContext.currentTime
-      });
-
-      this.props.onRecord && this.props.onRecord();
+    this.audio.start();
+    this.setState({
+      recording: true,
+      // TODO: reanble display of recording time at some point.
+      // recordingStartTime: this.audio.audioContext.currentTime
     });
+    this.props.onRecord && this.props.onRecord();
   }
 
   stopRecording() {
@@ -268,17 +273,19 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
                               sentence={this.getSentence(i)}/>);
     }
 
+    let showBack = this.state.recordings.length !== 0 && !this.state.isReRecord;
     let className = this.props.active + (isFull ? ' full': '');
 
     return <div id="record-container" className={className}>
       <div id="voice-record">
         <p id="recordings-count">
-          <span>{this.state.recordings.length + 1} of 3</span>
+          <span style={this.state.isReRecord ? 'display: none;' : ''}>
+            {this.state.recordings.length + 1} of 3</span>
         </p>
         <div className="record-sentence">
           {texts}
           <Icon id="undo-clip" type="undo" onClick={this.goBack}
-            className={(this.state.recordings.length === 0 ? 'hide' : '')}/>
+            className={!showBack ? 'hide' : ''}/>
         </div>
         <div id="record-button" onClick={this.onRecordClick}></div>
         <p id="record-help">
