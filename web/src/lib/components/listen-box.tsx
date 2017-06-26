@@ -135,6 +135,7 @@ export default class ListenBox extends Component<Props, State> {
         src={this.props.src}
         onLoadStart={this.onLoadStart}
         onCanPlayThrough={this.onCanPlayThrough}
+        onDurationChange={this.onCanPlayThrough}
         // onPlay={this.onPlay}
         onEnded={this.onPlayEnded}
         ref={el => this.el = el as HTMLAudioElement} />
