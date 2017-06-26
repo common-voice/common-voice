@@ -609,11 +609,6 @@ header.active {
   background-size: 100% 20rem;
   background-repeat: repeat-x;
   background-position: center 0.7rem;
-  animation: mario-scroll 5s linear infinite;
-}
-
-@keyframes mario-scroll {
-  100%{ background-position: 20% 0.7rem; }
 }
 
 
