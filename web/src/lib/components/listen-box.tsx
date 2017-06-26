@@ -133,6 +133,7 @@ export default class ListenBox extends Component<Props, State> {
       </div>
       <audio className="audio-box"
         src={this.props.src}
+        preload="auto"
         onLoadStart={this.onLoadStart}
         onCanPlayThrough={this.onCanPlayThrough}
         onDurationChange={this.onCanPlayThrough}
