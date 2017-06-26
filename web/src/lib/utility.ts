@@ -42,6 +42,14 @@ export function isFocus(): boolean {
   return navigator.userAgent.indexOf('Focus') !== -1;
 }
 
+export function isSafari(): boolean {
+  return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+}
+
 export function isProduction(): boolean {
   return window.location.origin === 'https://voice.mozilla.org';
+}
+
+export function getItunesURL(): string {
+  return 'https://itunes.apple.com/us/app/project-common-voice-by-mozilla/id1240588326';
 }

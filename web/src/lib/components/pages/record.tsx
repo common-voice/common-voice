@@ -8,7 +8,8 @@ import AudioWeb, { AudioInfo } from './record/audio-web';
 import ListenBox from '../listen-box';
 import ProgressButton from '../progress-button';
 import ERROR_MSG from '../../../error-msg';
-import { isFocus, countSyllables, isNativeIOS, generateGUID } from '../../utility';
+import { getItunesURL, isFocus, countSyllables, isNativeIOS, generateGUID }
+  from '../../utility';
 import confirm from '../confirm';
 
 const SET_COUNT = 3;
@@ -243,7 +244,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
             <Icon type="chrome" />Chrome</a>
         </p>
         <p><b>iOS</b> users can download our free app:</p>
-        <a target="_blank" href="https://itunes.apple.com/us/app/project-common-voice-by-mozilla/id1240588326"><img src="/img/appstore.svg" /></a>
+        <a target="_blank" href={getItunesURL()}><img src="/img/appstore.svg" /></a>
       </div>;
     }
 

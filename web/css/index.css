@@ -646,6 +646,39 @@ header.active {
   background: none;
 }
 
+#install-app {
+  position: fixed;
+  bottom: 0;
+  left: 0; right: 0;
+  background-color: rgba(61, 254, 253, 0.9);
+  height: 3rem;
+  line-height: 3rem;
+  vertical-align: middle;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  z-index: var(--top-z-index);
+  transform: translateY(3rem);
+  transition: transform 0.2s linear;
+}
+
+@media (max-width: 600px) {
+  .safari #install-app {
+    transform: translateY(0);
+  }
+  .safari #install-app.hide {
+    transform: translateY(3rem);
+  }
+}
+
+#install-app a {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 3rem;
+  color: white;
+}
 
 /**
  * We have two different page transition types:
