@@ -261,7 +261,13 @@ input:invalid {
   pointer-events: all;
 }
 
-.listen-box > div {
+.sentence-box {
+  min-height: var(--listen-box-height);
+}
+
+.play-box,
+.delete-box,
+.vote-box {
   height: var(--listen-box-height);
 }
 
@@ -305,7 +311,6 @@ input:invalid {
   .sentence-box {
     font-size: 0.8rem;
     line-height: 1.2rem;
-    height: var(--listen-box-height);
     flex: 1;
   }
 }
