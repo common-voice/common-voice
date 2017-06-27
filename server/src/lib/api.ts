@@ -1,7 +1,7 @@
 import * as http from 'http';
 import WebHook from './webhook';
 
-const SENTENCE_FILE = '../../data/funny.txt';
+const SENTENCE_FILE = '../../data/new-sentences.txt';
 
 const path = require('path');
 const fs = require('fs');
