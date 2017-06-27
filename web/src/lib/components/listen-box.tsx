@@ -82,29 +82,26 @@ export default class ListenBox extends Component<Props, State> {
     this.props.onDelete && this.props.onDelete();
   }
 
-  private voteYes() {
+  private vote(votedYes: boolean): void {
     if (!this.state.loaded) {
       return;
     }
 
     this.setState({
-      loaded: false
+      loaded: false,
+      playing: false
     });
 
-    this.props.onVote && this.props.onVote(true);
+    this.props.onVote && this.props.onVote(votedYes);
+  }
+
+  private voteYes() {
+    this.vote(true);
     this.tracker.trackVoteYes();
   }
 
   private voteNo() {
-    if (!this.state.loaded) {
-      return;
-    }
-
-    this.setState({
-      loaded: false
-    });
-
-    this.props.onVote && this.props.onVote(false);
+    this.vote(false);
     this.tracker.trackVoteNo();
   }
 
