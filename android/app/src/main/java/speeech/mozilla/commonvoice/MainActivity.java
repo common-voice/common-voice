@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     private static String TAG = "CommonVoice";
     private static final int RECORD_REQUEST_CODE = 101;
     private static final String APP_HOST = "test.mozvoice.org";
-    private static final String APP_URL = "https://" + APP_HOST + "/record";
+    private static final String APP_URL = "https://" + APP_HOST;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
