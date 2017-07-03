@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
                     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
                     @Override
                     public void run() {
+                        requestPermissions();
                         request.grant(request.getResources());
                     }
                 });
@@ -67,21 +68,18 @@ public class MainActivity extends AppCompatActivity {
 
         myWebView.loadUrl(APP_URL);
 
+    }
+
+    // Ask the permission to use the mic if it hasn't already been granted
+    protected void requestPermissions() {
         int permission = ContextCompat.checkSelfPermission(this,
                 Manifest.permission.RECORD_AUDIO);
 
         if (permission != PackageManager.PERMISSION_GRANTED) {
-            Log.i(TAG, "Permission to record denied");
-            makeRequest();
+            ActivityCompat.requestPermissions(this,
+                    new String[]{Manifest.permission.RECORD_AUDIO},
+                    RECORD_REQUEST_CODE);
         }
-
-    }
-
-    // Ask the permission to use the mic
-    protected void makeRequest() {
-        ActivityCompat.requestPermissions(this,
-                new String[]{Manifest.permission.RECORD_AUDIO},
-                RECORD_REQUEST_CODE);
     }
 
     @Override
