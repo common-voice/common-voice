@@ -2,7 +2,9 @@ package speeech.mozilla.commonvoice;
 
 import android.Manifest;
 import android.annotation.TargetApi;
+import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.os.Build;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
@@ -21,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
     WebView myWebView;
     private static String TAG = "CommonVoice";
     private static final int RECORD_REQUEST_CODE = 101;
+    private static final String APP_HOST = "test.mozvoice.org";
+    private static final String APP_URL = "https://" + APP_HOST;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,29 +43,43 @@ public class MainActivity extends AppCompatActivity {
                     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
                     @Override
                     public void run() {
+                        requestPermissions();
                         request.grant(request.getResources());
                     }
                 });
             }
         });
 
-        myWebView.loadUrl("https://test.mozvoice.org/record");
+        myWebView.setWebViewClient(new WebViewClient() {
+            // Open off-site URLs in the browser app instead of in this app
+            @Override
+            public boolean shouldOverrideUrlLoading(WebView view, String url) {
+                Uri uri = Uri.parse(url);
+                if (uri.getHost().equals(APP_HOST)) {
+                    return false;
+                } else {
+                    // Use the default app to open this URL
+                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                    startActivity(intent);
+                    return true;
+                }
+            }
+        });
 
+        myWebView.loadUrl(APP_URL);
+
+    }
+
+    // Ask the permission to use the mic if it hasn't already been granted
+    protected void requestPermissions() {
         int permission = ContextCompat.checkSelfPermission(this,
                 Manifest.permission.RECORD_AUDIO);
 
         if (permission != PackageManager.PERMISSION_GRANTED) {
-            Log.i(TAG, "Permission to record denied");
-            makeRequest();
+            ActivityCompat.requestPermissions(this,
+                    new String[]{Manifest.permission.RECORD_AUDIO},
+                    RECORD_REQUEST_CODE);
         }
-
-    }
-
-    // Ask the permission to use the mic
-    protected void makeRequest() {
-        ActivityCompat.requestPermissions(this,
-                new String[]{Manifest.permission.RECORD_AUDIO},
-                RECORD_REQUEST_CODE);
     }
 
     @Override
