@@ -13,7 +13,7 @@ const PATH_CSS = DIR_CLIENT + 'css/*.css';
 const PATH_TS = DIR_CLIENT + TS_GLOB;
 const PATH_TS_SERVER = DIR_SERVER + TS_GLOB;
 const PATH_VENDOR = DIR_CLIENT + 'vendor/';
-const RELOAD_DELAY = 100;
+const RELOAD_DELAY = 2500;
 
 
 // Add gulp help functionality.
