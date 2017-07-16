@@ -320,10 +320,20 @@ export default class Clip {
       let sentence = clip[1]
 
       // Send sentence + glob strings to client in the header.
-      // Note: header is already URL encoded in the file.
-      response.setHeader('sentence', sentence);
-      response.setHeader('glob', this.getGlob(key));
+      // First, we make sure to encode the sentence proprly.
+      let isEncoded = sentence !== decodeURIComponent(sentence);
+      let encoded = isEncoded ? sentence : encodeURIComponent(sentence);
 
+      try {
+        response.setHeader('sentence', encoded);
+      } catch(err) {
+        // If sentence cannot be set as a header (e.g. mixed encodings)
+        // bail out and try a new random setence
+        console.error('could not set header', sentence, isEncoded, encoded);
+        this.serveRandomClip(request, response);
+        return;
+      }
+      response.setHeader('glob', this.getGlob(key));
 
       // Stream audio to client
       this.streamAudio(request, response, key);
