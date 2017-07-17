@@ -16,6 +16,7 @@ export const ACCENTS = {
   'newzealand': 'New Zealand English',
   'southatlandtic': 'South Atlantic (Falkland Islands, Saint Helena)',
   'african': 'Southern African (South Africa, Zimbabwe, Namibia)',
+  'indian': 'India and South Asia (India, Pakistan, Sri Lanka)',
   'philippines': 'Philippino',
   'hongkong': 'Hong Kong English',
   'malaysia': 'Malaysian English',
