@@ -173,12 +173,12 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   }
 
   private reset(): void {
-    this.newSentenceSet();
     this.setState({
       recordings: [],
       sentences: [],
       uploadProgress: 0
     });
+    this.newSentenceSet();
   }
 
   onRecordClick() {
