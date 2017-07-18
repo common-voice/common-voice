@@ -32,10 +32,10 @@ export default class Mysql {
     //   2. options in config.json
     //   3. hard coded DEFAULTS
     var myConfig = {
-        user: options.user || config.MSQLUSER || DEFAULTS.user,
+        user: options.user || config.MYSQLUSER || DEFAULTS.user,
         database: options.database || config.MYSQLDB || DEFAULTS.database,
-        password: options.password || config.MSQLPASS || DEFAULTS.password,
-        host: options.host || config.MSQLHOST || DEFAULTS.host,
+        password: options.password || config.MYSQLPASS || DEFAULTS.password,
+        host: options.host || config.MYSQLHOST || DEFAULTS.host,
         port: options.port || config.MYSQLPORT || DEFAULTS.port,
         max: options.max || DEFAULTS.max,
         idleTimeoutMillis: options.idleTimeoutMillis ||

@@ -4,9 +4,9 @@ const Mysql = require('../server/js/lib/db/mysql').default;
 const DB = require('../server/js/lib/db').default;
 
 const DEFAULT = 'voiceweb';
-const USERNAME = config.MSQLUSER || DEFAULT;
-const PASSWORD = config.MSQLPASS || DEFAULT;
-const DBNAME = config.MSQLDBNAME || DEFAULT;
+const USERNAME = config.MYSQLUSER || DEFAULT;
+const PASSWORD = config.MYSQLPASS || DEFAULT;
+const DBNAME = config.MYSQLDBNAME || DEFAULT;
 
 /**
  * Create the database.
