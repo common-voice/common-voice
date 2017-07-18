@@ -76,7 +76,10 @@ export default class Files {
         .then(sentence => {
           cb();
         })
-        .catch(cb);
+        .catch(err => {
+          console.error('error fetching sentence', err);
+          cb();
+        });
     }, { concurrent: BATCH_SIZE });
 
     awsRequest.on('success', (response) => {
