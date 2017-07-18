@@ -1,4 +1,5 @@
 import { h, Component } from 'preact';
+import { getItunesURL } from '../utility';
 import Logo from './logo';
 import Icon from './icon';
 import PrivacyContent from './privacy-content';
@@ -82,6 +83,19 @@ export default class Pages extends Component<PagesProps, PagesState> {
     this.sayThanks = this.sayThanks.bind(this);
     this.renderUser = this.renderUser.bind(this);
     this.linkNavigate = this.linkNavigate.bind(this);
+    this.clearRobot = this.clearRobot.bind(this);
+    this.openInApp = this.openInApp.bind(this);
+    this.closeOpenInApp = this.closeOpenInApp.bind(this);
+  }
+
+  private openInApp() {
+    window.location.href = getItunesURL();
+  }
+
+  private closeOpenInApp(evt) {
+    evt.stopPropagation();
+    evt.preventDefault();
+    document.getElementById('install-app').classList.add('hide');
   }
 
   private getCurrentPageName() {
@@ -97,6 +111,12 @@ export default class Pages extends Component<PagesProps, PagesState> {
   private sayThanks(): void {
     this.setState({
       robot: 'thanks'
+    });
+  }
+
+  private clearRobot(): void {
+    this.setState({
+      robot: ''
     });
   }
 
@@ -263,6 +283,8 @@ export default class Pages extends Component<PagesProps, PagesState> {
 
     let className = pageName + (this.state.recording ? ' recording' : '');
     return <div id="main" className={className}>
+      <div onClick={this.openInApp} id="install-app">Open in App
+        <a onClick={this.closeOpenInApp}>X</a></div>
       <header className={(this.state.isMenuVisible || this.state.scrolled ?
                           'active' : '')}>
         <Logo navigate={this.props.navigate}/>
@@ -292,6 +314,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
                   onRecordStop={this.onRecordStop}
                   onRecordingSet={this.sayThanks}
                   onSubmit={this.uploadRecordings}
+                  onDelete={this.clearRobot}
                   navigate={this.props.navigate} user={this.props.user} />
           <Listen active={this.isPageActive(URLS.LISTEN)}
                   navigate={this.props.navigate}

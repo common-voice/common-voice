@@ -1,5 +1,6 @@
 import API from '../../api';
 import User from '../../user';
+import Tracker from '../../tracker';
 import { h, Component } from 'preact';
 import Icon from '../icon';
 import AudioIOS from './record/audio-ios';
@@ -7,7 +8,8 @@ import AudioWeb, { AudioInfo } from './record/audio-web';
 import ListenBox from '../listen-box';
 import ProgressButton from '../progress-button';
 import ERROR_MSG from '../../../error-msg';
-import { isFocus, countSyllables, isNativeIOS, generateGUID } from '../../utility';
+import { getItunesURL, isFocus, countSyllables, isNativeIOS, generateGUID }
+  from '../../utility';
 import confirm from '../confirm';
 
 const SET_COUNT = 3;
@@ -22,6 +24,7 @@ interface RecordProps {
   onRecord: Function;
   onRecordStop: Function;
   onRecordingSet: Function;
+  onDelete: Function;
 }
 
 interface RecordState {
@@ -29,24 +32,29 @@ interface RecordState {
   recording: boolean,
   recordingStartTime: number,
   recordings: any[],
-  uploadProgress: number
+  uploadProgress: number,
+  isReRecord: boolean
 }
 
 export default class RecordPage extends Component<RecordProps, RecordState> {
   name: string = PAGE_NAME;
   audio: AudioWeb | AudioIOS;
   isUnsupportedPlatform: boolean;
+  tracker: Tracker;
 
   state = {
     sentences: [],
     recording: false,
     recordingStartTime: 0,
     recordings: [],
-    uploadProgress: 0
+    uploadProgress: 0,
+    isReRecord: false
   };
 
   constructor(props) {
     super(props);
+
+    this.tracker = new Tracker();
 
     // Use different audio helpers depending on if we are web or native iOS.
     if (isNativeIOS()) {
@@ -80,8 +88,11 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
     this.setState({
       recordings: recordings,
-      recording: false
+      recording: false,
+      isReRecord: false
     });
+
+    this.tracker.trackRecord();
 
     this.props.onRecordStop && this.props.onRecordStop();
 
@@ -104,8 +115,11 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     recordings.splice(index, 1);
     this.setState({
       recordings: recordings,
-      sentences: sentences
+      sentences: sentences,
+      isReRecord: true,
     });
+
+    this.props.onDelete();
   }
 
   private getRecordingUrl(which: number): string {
@@ -121,8 +135,8 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   private onSubmit() {
     this.props.onSubmit(this.state.recordings, this.state.sentences)
       .then(() => {
-        // TODO: display thank you page!
         this.reset();
+        this.tracker.trackSubmitRecordings();
       })
       .catch(() => {
         confirm('You did not agree to our Terms of Service. Do you want to delete your recordings?', 'Keep the recordings', 'Delete my recordings').then((keep) => {
@@ -180,15 +194,13 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   }
 
   startRecording() {
-    this.audio.start().then(() => {
-      this.setState({
-        recording: true,
-        // TODO: reanble display of recording time at some point.
-        // recordingStartTime: this.audio.audioContext.currentTime
-      });
-
-      this.props.onRecord && this.props.onRecord();
+    this.audio.start();
+    this.setState({
+      recording: true,
+      // TODO: reanble display of recording time at some point.
+      // recordingStartTime: this.audio.audioContext.currentTime
     });
+    this.props.onRecord && this.props.onRecord();
   }
 
   stopRecording() {
@@ -232,7 +244,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
             <Icon type="chrome" />Chrome</a>
         </p>
         <p><b>iOS</b> users can download our free app:</p>
-        <a target="_blank" href="https://itunes.apple.com/us/app/project-common-voice-by-mozilla/id1240588326"><img src="/img/appstore.svg" /></a>
+        <a target="_blank" href={getItunesURL()}><img src="/img/appstore.svg" /></a>
       </div>;
     }
 
@@ -262,17 +274,19 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
                               sentence={this.getSentence(i)}/>);
     }
 
+    let showBack = this.state.recordings.length !== 0 && !this.state.isReRecord;
     let className = this.props.active + (isFull ? ' full': '');
 
     return <div id="record-container" className={className}>
       <div id="voice-record">
         <p id="recordings-count">
-          <span>{this.state.recordings.length + 1} of 3</span>
+          <span style={this.state.isReRecord ? 'display: none;' : ''}>
+            {this.state.recordings.length + 1} of 3</span>
         </p>
         <div className="record-sentence">
           {texts}
           <Icon id="undo-clip" type="undo" onClick={this.goBack}
-            className={(this.state.recordings.length === 0 ? 'hide' : '')}/>
+            className={!showBack ? 'hide' : ''}/>
         </div>
         <div id="record-button" onClick={this.onRecordClick}></div>
         <p id="record-help">

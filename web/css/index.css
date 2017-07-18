@@ -145,7 +145,7 @@ button {
 
 @media (min-width: 600px) {
   button:hover:not(.ios) {
-    transform: scale(1.1);
+    background-color: var(--color-speak);
   }
 }
 
@@ -245,7 +245,8 @@ input:invalid {
   --space-between: 0.3rem;
   display: flex;
   margin-bottom: var(--space-between);
-  opacity: 0.9;
+  opacity: 0.3;
+  pointer-events: none;
 }
 
 @media (max-width: 600px) {
@@ -257,9 +258,16 @@ input:invalid {
 
 .listen-box.loaded {
   opacity: 1;
+  pointer-events: all;
 }
 
-.listen-box > div {
+.sentence-box {
+  min-height: var(--listen-box-height);
+}
+
+.play-box,
+.delete-box,
+.vote-box {
   height: var(--listen-box-height);
 }
 
@@ -303,8 +311,6 @@ input:invalid {
   .sentence-box {
     font-size: 0.8rem;
     line-height: 1.2rem;
-    min-width: 50%;
-    height: var(--listen-box-height);
     flex: 1;
   }
 }
@@ -337,6 +343,17 @@ input:invalid {
   margin: 0 1rem;
   display: flex;
   align-items: flex-end;
+}
+
+@media (min-width: 600px) {
+  .vote-box > a:hover {
+    background-color: var(--color-listen);
+  }
+}
+
+.vote-box > a:active {
+  background-color: black;
+  color: white;
 }
 
 .vote-box > a :first-child {
@@ -432,7 +449,6 @@ header.active {
 @media (min-width: 600px) {
   header {
     max-width: var(--desktop-width);
-    padding-right: calc(var(--desktop-width) - var(--sidebar-width));
     position: absolute;
     bottom: 0;
     margin: 0 auto;
@@ -450,7 +466,7 @@ header.active {
 @media (min-width: 600px) {
   #help-links .content,
   #moz-links .content {
-    width: var(--desktop-width);
+    max-width: var(--desktop-width);
     margin: 0 auto;
   }
 }
@@ -593,11 +609,6 @@ header.active {
   background-size: 100% 20rem;
   background-repeat: repeat-x;
   background-position: center 0.7rem;
-  animation: mario-scroll 5s linear infinite;
-}
-
-@keyframes mario-scroll {
-  100%{ background-position: 20% 0.7rem; }
 }
 
 
@@ -635,6 +646,39 @@ header.active {
   background: none;
 }
 
+#install-app {
+  position: fixed;
+  bottom: 0;
+  left: 0; right: 0;
+  background-color: rgba(61, 254, 253, 0.9);
+  height: 3rem;
+  line-height: 3rem;
+  vertical-align: middle;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  z-index: var(--top-z-index);
+  transform: translateY(3rem);
+  transition: transform 0.2s linear;
+}
+
+@media (max-width: 600px) {
+  .safari #install-app {
+    transform: translateY(0);
+  }
+  .safari #install-app.hide {
+    transform: translateY(3rem);
+  }
+}
+
+#install-app a {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 3rem;
+  color: white;
+}
 
 /**
  * We have two different page transition types:
@@ -1041,11 +1085,6 @@ header.active {
   left: -25%;
   top: 0;
   height: 8rem;
-  animation: spin-forward 80s linear infinite;
-}
-
-@keyframes spin-forward {
-  100% { transform: rotate(360deg); }
 }
 
 #donate {
@@ -1062,11 +1101,6 @@ header.active {
   margin: 0 auto;
   padding: 0 5rem;
   height: 3rem;
-  animation: throb-color 4s ease-in-out infinite;
-}
-
-@keyframes throb-color {
-  50%{background-color: var(--color-speak-light);}
 }
 
 #try-it-container {
@@ -1457,7 +1491,7 @@ label[for="send-emails"] {
 
 .privacy-content {
   background-color: var(--base-background-color);
-  width: var(--desktop-width);
+  max-width: var(--desktop-width);
   padding: var(--page-margin);
   transform: scale(0);
   transition: transform 0.2s ease-out;

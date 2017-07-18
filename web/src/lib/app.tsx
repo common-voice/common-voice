@@ -2,7 +2,7 @@ import { h, render } from 'preact';
 import User from './user';
 import API from './api';
 import Pages from './components/pages';
-import { isFocus, isNativeIOS } from './utility';
+import { isSafari, isFocus, isNativeIOS } from './utility';
 import DebugBox from './components/debug-box';
 
 const LOAD_DELAY = 500; // before pulling the curtain
@@ -52,6 +52,10 @@ export default class App {
 
     if (isFocus()) {
       document.body.classList.add('focus');
+    }
+
+    if (isSafari()) {
+      document.body.classList.add('safari');
     }
 
     this.user = new User();

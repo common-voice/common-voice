@@ -32,7 +32,7 @@ class ViewController: UIViewController, WKScriptMessageHandler, WKNavigationDele
         webView?.isHidden = true
         webView?.navigationDelegate = self
         webView?.configuration.userContentController.add(self, name: "scriptHandler")
-        webView?.scrollView.isScrollEnabled = false
+        webView?.scrollView.isScrollEnabled = UIDevice.current.userInterfaceIdiom == .pad
         self.view.addSubview(webView!)
         let url = URL(string: "https://voice.mozilla.org/")
         let request = URLRequest(url: url!)

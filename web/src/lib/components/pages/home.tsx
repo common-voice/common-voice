@@ -42,7 +42,7 @@ export default class Home extends Component<Props, void> {
       </div>
       <div id="try-it-container">
         <h1>Try it!</h1>
-        <p id="help-home" class="strong">Help us validate&nbsp;<span>5 sentences</span></p>
+        <p id="help-home" class="strong">Help us validate&nbsp;<span>sentences.</span></p>
         <Validator onVote={this.onVote} api={this.props.api} />
       </div>
     </div>;
