@@ -28,4 +28,17 @@ resource "consul_keys" "config" {
     value  = "${var.region}"
     delete = true
   }
+
+  key {
+    path   = "${module.consul.config_prefix}/Bucket/Clips/Users/Read-Only/AccessKeyID"
+    value  = "${aws_iam_access_key.clips_bucket.id}"
+    delete = true
+  }
+
+  key {
+    path   = "${module.consul.config_prefix}/Bucket/Clips/Users/Read-Only/SecretKey"
+    value  = "${aws_iam_access_key.clips_bucket.secret}"
+    delete = true
+  }
+
 }
