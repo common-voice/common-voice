@@ -42,10 +42,11 @@ export default class API {
       }
 
       req.onload = () => {
-        res(req);
-      };
-      req.onerror = (err: ErrorEvent) => {
-        rej(err);
+        if (req.status === 200) {
+          res(req);
+        } else {
+          rej(req);
+        }
       };
 
       req.send(options.body || '');
