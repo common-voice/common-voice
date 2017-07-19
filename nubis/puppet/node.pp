@@ -9,6 +9,11 @@ package { 'gulp':
   provider => 'npm',
 }
 
+package { 'forever':
+  ensure   => '0.15.3',
+  provider => 'npm',
+}
+
 # Needed for binary compilation (i.e. bcrypt)s
 package { 'node-gyp':
   ensure   => '3.6.2',
@@ -76,6 +81,6 @@ upstart::job { $project_name:
     . /etc/profile.d/proxy.sh
   fi
 
-  exec /usr/bin/gulp listen
+  exec /usr/bin/forever --minUptime 1000 --spinSleepTime 1000 /usr/bin/gulp run
 ',
 }
