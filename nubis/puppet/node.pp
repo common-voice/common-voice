@@ -75,12 +75,12 @@ upstart::job { $project_name:
     },
     user           => "${project_name}-data",
     group          => "${project_name}-data",
-    script         => '
+    script         => "
   if [ -r /etc/profile.d/proxy.sh ]; then
     echo "Loading Proxy settings"
     . /etc/profile.d/proxy.sh
   fi
 
-  exec /usr/bin/forever --minUptime 1000 --spinSleepTime 1000 /usr/bin/gulp run
-',
+  exec /usr/bin/forever --workingDir /var/www/${project_name} --minUptime 1000 --spinSleepTime 1000 /usr/bin/gulp run
+",
 }
