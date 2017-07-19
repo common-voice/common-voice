@@ -64,6 +64,10 @@ export default class Clip {
       tmpFile.on('finish', f.wait());
     }, () => {
       ms.pipe(request, response, tmpFilePath);
+    }).onError(err => {
+      console.error('streaming audio error', err, err.stack);
+      response.writeHead(500);
+      response.end('Server error, could not fetch audio data.');
     });
   }
 

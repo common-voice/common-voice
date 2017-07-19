@@ -64,6 +64,10 @@ export default class Server {
   }
 }
 
+process.on('uncaughtException', function(err) {
+  console.error('uncaught exception', err);
+});
+
 // If this file is run, boot up a new server instance.
 if (require.main === module) {
   let server = new Server();
