@@ -7,7 +7,7 @@ module "worker" {
   purpose                   = "webserver"
   ami                       = "${var.ami}"
   elb                       = "${module.load_balancer.name}"
-  min_instances             = 2
+  min_instances             = 4
   max_instances             = 30
 
   # Wait up to 10 minutes for warming up (in seconds)
