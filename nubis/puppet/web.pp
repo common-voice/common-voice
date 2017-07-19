@@ -26,6 +26,7 @@ apache::vhost { $project_name:
     ExpiresActive Off
 
     # Proxy to nodejs ( keep retrying on backend failures )
+    ProxyPass /server-status !
     ProxyPass / http://localhost:9000/ retry=0
     ProxyPassReverse / http://localhost:9000/
 
