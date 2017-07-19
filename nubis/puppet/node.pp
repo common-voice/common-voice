@@ -77,7 +77,7 @@ upstart::job { $project_name:
     group          => "${project_name}-data",
     script         => "
   if [ -r /etc/profile.d/proxy.sh ]; then
-    echo "Loading Proxy settings"
+    echo 'Loading Proxy settings'
     . /etc/profile.d/proxy.sh
   fi
 
