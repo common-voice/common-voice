@@ -14,6 +14,7 @@ const PATH_TS = DIR_CLIENT + TS_GLOB;
 const PATH_TS_SERVER = DIR_SERVER + TS_GLOB;
 const PATH_VENDOR = DIR_CLIENT + 'vendor/';
 const RELOAD_DELAY = 2500;
+const SERVER_SCRIPT = 'server/js/server.js'
 
 
 // Add gulp help functionality.
@@ -29,7 +30,7 @@ function compile(project) {
 
 function listen() {
   require('gulp-nodemon')({
-    script: 'server/js/server.js',
+    script: SERVER_SCRIPT,
     // Use [c] here to workaround nodemon bug #951
     watch: ['server/js', '[c]onfig.json'],
     delay: RELOAD_DELAY,
@@ -110,6 +111,8 @@ gulp.task('clean', 'Remove uploaded clips.',
   shell.task([`git clean -idx ${DIR_UPLOAD}`]));
 
 gulp.task('listen', 'Run development server.', listen);
+
+gulp.task('run', 'Just run the server', shell.task(['node ' + SERVER_SCRIPT]));
 
 gulp.task('watch', 'Rebuild, rebundle, re-install on file changes.', watch);
 
