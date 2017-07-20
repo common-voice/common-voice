@@ -17,10 +17,10 @@ npm install -g gulp
 gulp
 ```
 This will:
-1. Install all dependencies, and Mysql
-1. Serve files located in the `client` folder on localhost
-1. Listen for and save voice clips into the `server/upload` folder
-1. Lint all js files on every change
+1. Install all JavaScript dependencies.
+1. Build and serve files located in the `web` folder on localhost.
+1. Listen for and save voice clips onto Amazon's S3.
+1. Lint and rebuild all js files on every change.
 
 ### Help
 
