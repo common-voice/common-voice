@@ -220,12 +220,8 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   }
 
   newSentenceSet() {
-    let recordedSentenceCount = this.state.recordings.length;
-    let numberOfSentenceToGet = SET_COUNT - recordedSentenceCount;
-    this.props.api.getRandomSentences(numberOfSentenceToGet).then(newSentences => {
-      let targetSentences = this.state.sentences.slice(0,recordedSentenceCount);
-      targetSentences = targetSentences.concat(newSentences.split('\n'));
-      this.setState({ sentences: targetSentences});
+    this.props.api.getRandomSentences(SET_COUNT).then(newSentences => {
+      this.setState({ sentences: newSentences.split('\n')});
     });
   }
 
