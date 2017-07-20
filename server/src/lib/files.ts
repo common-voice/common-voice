@@ -7,7 +7,7 @@ const path = require('path');
 const Promise = require('bluebird');
 const AWS = require('./aws');
 
-const KEYS_PER_REQUEST = 200; // Default is 1000.
+const KEYS_PER_REQUEST = 20; // Default is 1000.
 const BATCH_SIZE = 5;
 const MP3_EXT = '.mp3';
 const CONVERTABLE_EXTS = ['.ogg', '.m4a'];
@@ -112,14 +112,17 @@ export default class Files {
       }
 
       if (next) {
-        this.loadCache(next);
+        setTimeout(() => {
+          console.log('loading so far', this.paths.length);
+          this.loadCache(next);
+        }, 2000);
       } else {
         console.log('found sentences', this.paths.length);
       }
     });
 
     awsRequest.on('error', (response) => {
-      console.error('Error while fetching clip list', response.error);
+      console.error('Error while fetching clip list', response);
     });
 
     awsRequest.send();
