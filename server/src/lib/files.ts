@@ -1,6 +1,8 @@
 import { map } from '../promisify';
 import { getFileExt } from './utility';
 
+import Bunyan from 'bunyan';
+
 const MemoryStream = require('memorystream');
 const Queue = require('better-queue');
 const path = require('path');
@@ -18,6 +20,7 @@ const BUCKET_NAME = config.BUCKET_NAME || 'common-voice-corpus';
 
 export default class Files {
   private s3: any;
+  private log: Bunyan;
   private files: {
     // fileGlob: [
     //   sentence: 'the text of the sentenct'
@@ -25,10 +28,11 @@ export default class Files {
   };
   private paths: string[];
 
-  constructor() {
+  constructor(log: Bunyan) {
     this.s3 = new AWS.S3();
     this.files = {};
     this.paths = [];
+    this.log = log;
     this.init();
   }
 
@@ -48,7 +52,7 @@ export default class Files {
       let params = {Bucket: BUCKET_NAME, Key: key};
       this.s3.getObject(params, (err: any, s3Data: any) => {
         if (err) {
-          console.error('Could not read from s3', key, err);
+          this.log.error('Could not read from s3', key, err);
           delete this.files[glob];
           rej(err);
           return;
@@ -77,7 +81,7 @@ export default class Files {
           cb();
         })
         .catch(err => {
-          console.error('error fetching sentence', err);
+          this.log.error('error fetching sentence', err);
           cb();
         });
     }, { concurrent: BATCH_SIZE });
@@ -108,21 +112,21 @@ export default class Files {
 
       this.paths = Object.keys(this.files);
       if (this.paths.length === 0) {
-        console.log('warning, no sound files found');
+        this.log.warning('warning, no sound files found');
       }
 
       if (next) {
         setTimeout(() => {
-          console.log('loaded so far', this.paths.length);
+          this.log.info('loaded so far', this.paths.length);
           this.loadCache(next);
         }, 2000);
       } else {
-        console.log('found sentences', this.paths.length);
+        this.log.info('found sentences', this.paths.length);
       }
     });
 
     awsRequest.on('error', (response) => {
-      console.error('Error while fetching clip list', response);
+      this.log.error('Error while fetching clip list', response);
     });
 
     awsRequest.send();

@@ -1,4 +1,5 @@
 import * as http from 'http';
+import Bunyan from 'bunyan';
 
 const path = require('path');
 const SimpleGit = require('simple-git');
@@ -7,8 +8,10 @@ const PROJECT_PATH = path.resolve(__dirname, '../../../');
 
 export default class WebHook {
   git: any;
+  log: Bunyan;
 
-  constructor() {
+  constructor(log: Bunyan) {
+    this.log = log;
     this.git = new SimpleGit(PROJECT_PATH);
   }
 
@@ -53,12 +56,12 @@ export default class WebHook {
 
       // Update local repository if commit was to master branch.
       if (info.ref === 'refs/heads/master') {
-        console.log('detected changes on master, updating local tree');
+        this.log.info('detected changes on master, updating local tree');
         this.git.pull('origin', 'master', (err: Error, update: any) => {
           if (err) {
-            console.error('could not pull', err);
+            this.log.error('could not pull', err);
           }
-          console.log('local tree updated', update && update.summary);
+          this.log.info('local tree updated', update && update.summary);
         });
       }
     });

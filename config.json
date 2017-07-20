@@ -7,6 +7,6 @@
   "MYSQLDBNAME": "voiceweb",
   "MYSQLHOST": "localhost",
   "MYSQLPORT":  "3306",
-  "BUCKET_NAME": "",
-  "BUCKET_LOCATION": ""
+  "BUCKET_NAME": "voice-stage-clips-8ff937d791abf543da8ae38f66b705445e1ef7eb",
+  "BUCKET_LOCATION": "us-west-2"
 }

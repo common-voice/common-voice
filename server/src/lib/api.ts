@@ -1,5 +1,6 @@
 import * as http from 'http';
 import WebHook from './webhook';
+import Bunyan from 'bunyan';
 
 const SENTENCE_FILE = '../../data/new-sentences.txt';
 
@@ -10,9 +11,11 @@ const Promise = require('bluebird');
 export default class API {
   sentencesCache: String[];
   webhook: WebHook;
+  log: Bunyan;
 
-  constructor() {
-    this.webhook = new WebHook();
+  constructor(log: Bunyan) {
+    this.webhook = new WebHook(log);
+    this.log = log;
   }
 
   private getRandomSentences(count: number): Promise<string[]> {
@@ -50,7 +53,7 @@ export default class API {
 
     // Unrecognized requests get here.
     } else {
-      console.error('unrecongized api url', request.url);
+      this.log.error('unrecongized api url', request.url);
       response.writeHead(404);
       response.end('I\'m not sure what you want.');
     }
@@ -93,7 +96,7 @@ export default class API {
       response.writeHead(200);
       response.end(randoms.join('\n'));
     }).catch((err: any) => {
-      console.error('Could not load sentences', err);
+      this.log.error('Could not load sentences', err);
       response.writeHead(500);
       response.end('No sentences right now');
     });

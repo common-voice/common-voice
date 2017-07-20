@@ -1,5 +1,6 @@
 import * as http from 'http';
 import Files from './files';
+import Bunyan from 'bunyan';
 import { getFileExt } from './utility';
 
 const ms = require('mediaserver');
@@ -28,10 +29,12 @@ const BUCKET_NAME = config.BUCKET_NAME || 'common-voice-corpus';
 export default class Clip {
   private s3: any;
   private files: Files;
+  private log: Bunyan;
 
-  constructor() {
+  constructor(log: Bunyan) {
+    this.log = log;
     this.s3 = new AWS.S3();
-    this.files = new Files();
+    this.files = new Files(log);
     setInterval(findRemoveSync.bind(this, UPLOAD_PATH, {age: {seconds: 300}, extensions: '.mp3'}), 300000);
   }
 
@@ -65,7 +68,7 @@ export default class Clip {
     }, () => {
       ms.pipe(request, response, tmpFilePath);
     }).onError(err => {
-      console.error('streaming audio error', err, err.stack);
+      this.log.error('streaming audio error', err, err.stack);
       response.writeHead(500);
       response.end('Server error, could not fetch audio data.');
     });
@@ -140,7 +143,7 @@ export default class Clip {
         response.end('' + timestamp);
       }).catch(e => {
         response.writeHead(500);
-        console.error('saving clip vote error', e, e.stack);
+        this.log.error('saving clip vote error', e, e.stack);
         response.end('Error');
       });
   }
@@ -169,7 +172,7 @@ export default class Clip {
       }, () => {
 
         // File saving is now complete.
-        console.log('clip vote written to s3', voteFile);
+        this.log.info('clip vote written to s3', voteFile);
         resolve(glob);
       }).onError(reject);
     });
@@ -185,7 +188,7 @@ export default class Clip {
         response.end('' + timestamp);
       }).catch(e => {
         response.writeHead(500);
-        console.error('saving clip demographic error', e, e.stack);
+        this.log.error('saving clip demographic error', e, e.stack);
         response.end('Error');
       });
   }
@@ -213,7 +216,7 @@ export default class Clip {
       }, () => {
 
         // File saving is now complete.
-        console.log('clip demographic written to s3', demographicFile);
+        this.log.info('clip demographic written to s3', demographicFile);
         resolve(uid);
       }).onError(reject);
     });
@@ -229,7 +232,7 @@ export default class Clip {
         response.end('' + timestamp);
       }).catch(e => {
         response.writeHead(500);
-        console.error('saving clip error', e, e.stack);
+        this.log.error('saving clip error', e, e.stack);
         response.end('Error');
       });
   }
@@ -298,7 +301,7 @@ export default class Clip {
       }, () => {
 
         // File saving is now complete.
-        console.log('file written to s3', file);
+        this.log.info('file written to s3', file);
         resolve(filePrefix);
       }).onError(reject);
     });
@@ -333,7 +336,7 @@ export default class Clip {
       } catch(err) {
         // If sentence cannot be set as a header (e.g. mixed encodings)
         // bail out and try a new random setence
-        console.error('could not set header', sentence, isEncoded, encoded);
+        this.log.error('could not set header', sentence, isEncoded, encoded);
         this.serveRandomClip(request, response);
         return;
       }
@@ -342,7 +345,7 @@ export default class Clip {
       // Stream audio to client
       this.streamAudio(request, response, key);
     }).catch(err => {
-      console.error('problem getting a random clip: ', err);
+      this.log.error('problem getting a random clip: ', err);
       response.writeHead(500);
       response.end('Cannot fetch random clip right now.');
       return;
@@ -358,7 +361,7 @@ export default class Clip {
     let searchParam = {Bucket: BUCKET_NAME, Prefix: prefix};
     this.s3.listObjectsV2(searchParam, (err: any, data: any) => {
       if (err) {
-        console.error('Did not find specified clip', err);
+        this.log.error('Did not find specified clip', err);
         response.writeHead(404);
         response.end('Unknown File');
         return;
@@ -375,7 +378,7 @@ export default class Clip {
       }
 
       if (!key) {
-        console.error('could not find clip', data.Contents);
+        this.log.error('could not find clip', data.Contents);
         response.writeHead(404);
         response.end('Unknown File');
         return;

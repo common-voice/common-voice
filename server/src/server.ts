@@ -9,16 +9,22 @@ const CLIENT_PATH = './web';
 const nodeStatic = require('node-static');
 const config = require(CONFIG_PATH);
 
+import Bunyan from 'bunyan';
+var bunyan = require('bunyan');
+var log = bunyan.createLogger({name: 'voice'});
+
 export default class Server {
   api: API;
   clip: Clip;
   staticServer: any;
+  log: Bunyan;
 
   constructor() {
     // TODO: turn on caching for PROD.
     this.staticServer = new nodeStatic.Server(CLIENT_PATH, { cache: false });
-    this.api = new API();
-    this.clip = new Clip();
+    this.log = log;
+    this.api = new API(this.log);
+    this.clip = new Clip(this.log);
   }
 
   /**
@@ -60,12 +66,12 @@ export default class Server {
     let port = config.port || DEFAULT_PORT;
     let server = http.createServer(this.handleRequest.bind(this));
     server.listen(port);
-    console.log(`listening at http://localhost:${port}`);
+    this.log.info(`listening at http://localhost:${port}`);
   }
 }
 
 process.on('uncaughtException', function(err) {
-  console.error('uncaught exception', err);
+  log.error('uncaught exception', err);
 });
 
 // If this file is run, boot up a new server instance.
