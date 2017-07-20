@@ -5,6 +5,11 @@ donations for Project Common Voice.
 ### Official Website
 [voice.mozilla.org](https://voice.mozilla.org)
 
+### Contribution
+Did you notice a bug? Do you have a feature request? Please file an issue [here on GitHub](https://github.com/mozilla/voice-web/issues)
+
+For general discussion (feedback, ideas, random musings), check out our [Discorse Category](https://discourse.mozilla-community.org/c/voice)
+
 ### Development
 ```
 npm install
