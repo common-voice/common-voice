@@ -3,7 +3,7 @@ import ListenBox from './listen-box';
 import { Clip, default as API } from '../api';
 
 const LOADING_MESSAGE = 'Loading...';
-const ERROR_MESSAGE = 'Sorry! We coudln\'t load the audio, please try again later';
+const ERROR_MESSAGE = 'Sorry! We are processing our audio files, please try again shortly.';
 
 interface Props {
   api: API;
