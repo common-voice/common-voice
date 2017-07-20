@@ -1,7 +1,7 @@
 import * as http from 'http';
 import WebHook from './webhook';
 
-const SENTENCE_FILE = '../../data/new-sentences.txt';
+const SENTENCE_FILE = '../../data/snli1.0/snli.txt';
 
 const path = require('path');
 const fs = require('fs');

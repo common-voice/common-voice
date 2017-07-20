@@ -1,0 +1,7 @@
+Stanford Natural Language Inference Corpus (SNLI) is a collection of 570k human-written English sentence pairs licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+
+Contact: sbowman@stanford.edu
+
+Project page: http://nlp.stanford.edu/projects/snli/
+
+There are 104k unique sentences extracted from the entire corpus in snil.txt after filtering by the Flesch–Kincaid readability tests, length, and preprocessed for white-space, capitalization, and periods. 
