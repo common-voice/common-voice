@@ -113,7 +113,7 @@ export default class Files {
 
       if (next) {
         setTimeout(() => {
-          console.log('loading so far', this.paths.length);
+          console.log('loaded so far', this.paths.length);
           this.loadCache(next);
         }, 2000);
       } else {
