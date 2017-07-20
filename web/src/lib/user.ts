@@ -21,6 +21,7 @@ export const ACCENTS = {
   'hongkong': 'Hong Kong English',
   'malaysia': 'Malaysian English',
   'singapore': 'Singaporian English',
+  'czech': 'Czech Republic English',
 };
 
 export const AGES = {
