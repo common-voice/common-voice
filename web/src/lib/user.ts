@@ -5,6 +5,7 @@ const USER_KEY = 'userdata';
 
 export const ACCENTS = {
   '': '--',
+  'us': 'United States English',
   'australia': 'Australian English',
   'england': 'British English',
   'canada': 'Canadian English',
@@ -18,7 +19,6 @@ export const ACCENTS = {
   'singapore': 'Singaporian English',
   'southatlandtic': 'South Atlantic (Falkland Islands, Saint Helena)',
   'african': 'Southern African (South Africa, Zimbabwe, Namibia)',
-  'us': 'United States English',
   'wales': 'Welsh English',
   'bermuda': 'West Indies and Bermuda (Bahamas, Bermuda, Jamaica, Trinidad)',
 };
