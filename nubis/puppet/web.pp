@@ -42,6 +42,8 @@ apache::vhost { $project_name:
       'set X-XSS-Protection "1; mode=block"',
       'set X-Frame-Options "DENY"',
       'set Strict-Transport-Security "max-age=31536000"',
+      # The media-src directive is required for recording audio.
+      'set Content-Security-Policy "default-src \'self\'; object-src \'none\'; media-src blob: \'self\'"',
     ],
     rewrites           => [
       {
