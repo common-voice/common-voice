@@ -109,8 +109,10 @@ export default class AudioWeb {
       this.ready = true;
     }).catch((err) => {
       if (err === ERROR_MSG.ERR_NO_MIC) {
-        return confirm('You must allow microphone access.', 'Retry', 'Cancel').then(() => {
-          window.location.reload();
+        return confirm('You must allow microphone access.', 'Retry', 'Cancel').then((retry) => {
+          if(retry){
+            window.location.reload();
+          }
         });
       } else {
         throw err;
