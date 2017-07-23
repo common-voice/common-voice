@@ -33,7 +33,8 @@ export default class FAQ extends Component<Props, State> {
 
       <h3>Where can I find the sample text?</h3>
       <p>Common Voice is an open source project that is on <a href="https://github.com/mozilla/voice-web/">Github</a></p>
-      <p>Our sets of samples are available <a href="https://github.com/mozilla/voice-web/blob/master/server/data/temporary-sentences.txt">here</a>, <a href="https://github.com/mozilla/voice-web/blob/master/server/data/temporary-sentences-2.txt">here</a>, <a href="https://github.com/mozilla/voice-web/blob/master/server/data/funny.txt">here</a>, and <a href="https://github.com/mozilla/voice-web/blob/master/server/data/new-sentences.txt">here</a>.</p>
+      <p>Our list of sentences are available <a href="https://github.com/mozilla/voice-web/blob/master/server/data/new-sentences.txt">here</a>.</p>
+      <p>This list is pulled from War of the Worlds, by H. G. Wells, and The Alchemist, by Paulo Coelho.</p>
     </div>;
   }
 }
