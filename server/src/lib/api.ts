@@ -1,11 +1,11 @@
 import * as http from 'http';
 import WebHook from './webhook';
 
-const SENTENCE_FILE = '../../data/new-sentences.txt';
-
 const path = require('path');
 const fs = require('fs');
 const Promise = require('bluebird');
+
+const SENTENCE_FOLDER = '../../data/';
 
 export default class API {
   sentencesCache: String[];
@@ -13,6 +13,11 @@ export default class API {
 
   constructor() {
     this.webhook = new WebHook();
+    this.getSentences();
+  }
+
+  private getSentenceFolder() {
+    return path.join(__dirname, SENTENCE_FOLDER);
   }
 
   private getRandomSentences(count: number): Promise<string[]> {
@@ -25,6 +30,33 @@ export default class API {
     });
   }
 
+  private getFilesInFolder(folderpath) {
+    return new Promise((res, rej) => {
+      fs.readdir(folderpath, (err, files) => {
+        if (err) {
+          rej(err);
+          return;
+        }
+
+        res(files);
+      });
+    });
+  }
+
+  private getFileContents(filepath) {
+    return new Promise((res, rej) => {
+      fs.readFile(filepath, {
+        contents: 'utf8'
+      }, (err, data) => {
+        if (err) {
+          rej(err);
+          return;
+        }
+
+        res(data.toString());
+      });
+    });
+  }
   /**
    * Is this request directed at the api?
    */
@@ -61,23 +93,39 @@ export default class API {
       return Promise.resolve(this.sentencesCache);
     }
 
-    return new Promise((resolve: Function, reject: Function) => {
-      let sentencePath = path.join(__dirname, SENTENCE_FILE);
-      let contents = fs.readFileSync(sentencePath, {
-        encoding: 'utf8'
+    return this.getFilesInFolder(this.getSentenceFolder())
+      .then(files => {
+        return Promise.all(files.map(filename => {
+
+          // Only parse the top-level text files, not any sub folders.
+          if (filename.split('.').pop() !== 'txt') {
+            return null;
+          }
+
+          let filepath = path.join(this.getSentenceFolder(), filename);
+          return this.getFileContents(filepath);
+        }));
+      })
+
+
+      // Chop the array of content strings into an array of sentences.
+      .then((values) => {
+        let sentences = [];
+        let sentenceArrays = values.map(fileContents => {
+          if (!fileContents) {
+            return [];
+          }
+
+          return fileContents.split('\n');
+        });
+
+        sentences = sentences.concat.apply(sentences, sentenceArrays);
+        console.log('sentences loaded', sentences.length);
+        this.sentencesCache = sentences;
+      })
+      .catch(err => {
+        console.error('could not retrieve sentences', err);
       });
-
-      let sentences = contents.split('\n');
-      // TODO: Spaces are used to mark paragraphs, ignore them for now.
-      sentences = sentences.filter(s => s.length);
-      this.sentencesCache = sentences;
-      if (this.sentencesCache.length < 10) {
-        reject('not enough sentences');
-        return;
-      }
-
-      resolve(this.sentencesCache);
-    });
   }
 
   /**
