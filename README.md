@@ -1,5 +1,5 @@
 ## Project Common Voice ![Travis Status](https://travis-ci.org/mozilla/voice-web.svg?branch=master "Travis Status")
-This is a web, android and ios app for collection speech
+This is a web, android and iOS app for collection speech
 donations for Project Common Voice.
 
 ### Official Website
@@ -8,7 +8,7 @@ donations for Project Common Voice.
 ### Contribution
 Did you notice a bug? Do you have a feature request? Please file an issue [here on GitHub](https://github.com/mozilla/voice-web/issues)
 
-For general discussion (feedback, ideas, random musings), check out our [Discorse Category](https://discourse.mozilla-community.org/c/voice)
+For general discussion (feedback, ideas, random musings), check out our [DiscoUrse Category](https://discourse.mozilla-community.org/c/voice)
 
 ### Development
 ```
