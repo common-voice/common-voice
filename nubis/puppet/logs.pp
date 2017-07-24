@@ -1,9 +1,10 @@
 fluentd::configfile { $project_name: }
 
 fluentd::source { 'node-output':
-  configfile => $project_name,
-  type       => 'tail',
-  format     => 'none',
+  configfile  => $project_name,
+  type        => 'tail',
+  format      => 'json',
+  time_format => '%Y-%m-%dT%H:%M:%S.%L%Z',
 
   tag        => 'forward.voice.node.stdout',
   config     => {
