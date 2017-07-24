@@ -1548,6 +1548,11 @@ label[for="send-emails"] {
   margin-bottom: 1rem;
 }
 
+#faq-container a,
+#terms-container a {
+  color: blue;
+}
+
 .overlay {
   position: fixed;
   top: 0;

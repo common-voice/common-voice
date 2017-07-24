@@ -30,6 +30,11 @@ export default class FAQ extends Component<Props, State> {
 
       <h3>Why is 10,000 hours the goal for capturing audio?</h3>
       <p>This is approximately the number of hours required to train a production STT system.</p>
+
+      <h3>Where does the source text come from?</h3>
+      <p>The current sentences come from contributor donations, as well as dialogue
+         from public domain movie scripts like <i>It's a Wonderful Life.</i></p>
+      <p>You can view our source sentences in <a target="_blank" href="https://github.com/mozilla/voice-web/blob/master/server/data/">this GitHub folder</a>.</p>
     </div>;
   }
 }
