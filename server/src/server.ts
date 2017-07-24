@@ -62,6 +62,8 @@ export default class Server {
    * Start up everything.
    */
   run(): void {
+    // Log the start.
+    console.log('STARTING APPLICATION');
     // Now run the app.
     let port = config.port || DEFAULT_PORT;
     let server = http.createServer(this.handleRequest.bind(this));
