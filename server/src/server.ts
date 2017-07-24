@@ -1,6 +1,7 @@
 import * as http from 'http';
 import API from './lib/api';
 import Clip from './lib/clip';
+import Logger from './lib/logger';
 
 const DEFAULT_PORT = 9000;
 const CONFIG_PATH = '../../config.json';
@@ -12,6 +13,7 @@ const config = require(CONFIG_PATH);
 export default class Server {
   api: API;
   clip: Clip;
+  logger: Logger;
   staticServer: any;
 
   constructor() {
@@ -19,6 +21,10 @@ export default class Server {
     this.staticServer = new nodeStatic.Server(CLIENT_PATH, { cache: false });
     this.api = new API();
     this.clip = new Clip();
+
+    // JSON format all console operations.
+    this.logger = new Logger();
+    this.logger.overrideConsole();
   }
 
   /**
