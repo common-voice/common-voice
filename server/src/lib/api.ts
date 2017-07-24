@@ -4,16 +4,20 @@ import WebHook from './webhook';
 const path = require('path');
 const fs = require('fs');
 const Promise = require('bluebird');
+const Random = require('random-js');
 
 const SENTENCE_FOLDER = '../../data/';
 
 export default class API {
   sentencesCache: String[];
   webhook: WebHook;
+  randomEngine: any
 
   constructor() {
     this.webhook = new WebHook();
     this.getSentences();
+    this.randomEngine = Random.engines.mt19937();
+    this.randomEngine.autoSeed();
   }
 
   private getSentenceFolder() {
@@ -24,7 +28,9 @@ export default class API {
     return this.getSentences().then(sentences => {
       let randoms = [];
       for (var i = 0; i < count; i++) {
-        randoms.push(sentences[Math.floor(Math.random() * sentences.length)]);
+        let distribution = Random.integer(0, sentences.length - 1);
+        let randomIndex = distribution(this.randomEngine);
+        randoms.push(sentences[randomIndex]);
       }
       return randoms;
     });
