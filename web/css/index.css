@@ -1405,6 +1405,12 @@ header.active {
   margin-top: 1rem;
 }
 
+input[type="checkbox"]{
+  width: .8rem;
+  height: .8rem;
+  margin: .1rem .1rem .1rem .1rem;
+}
+
 label[for="send-emails"] {
   font-size: 1rem;
 }
