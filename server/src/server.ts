@@ -34,8 +34,6 @@ export default class Server {
    */
   private handleRequest(request: http.IncomingMessage,
                         response: http.ServerResponse) {
-    let startTime = Date.now();
-
     // Handle all clip related requests first.
     if (this.clip.isClipRequest(request)) {
       this.clip.handleRequest(request, response);

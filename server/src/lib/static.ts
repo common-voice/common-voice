@@ -59,9 +59,11 @@ export default class Static {
     // Try to get the file contents from memory.
     if (this.fileCache[filePath]) {
       this.send(response, contentType, this.fileCache[filePath]);
+      return;
     }
 
     // Serve the file from the file system.
+    let startTime = Date.now();
     fs.readFile(filePath, (error, content) => {
       // For 404 pages, we send the index page, and let the app display 404.
       if(error && error.code == 'ENOENT'){
@@ -74,6 +76,12 @@ export default class Static {
         response.writeHead(500);
         response.end('Unable to load page.');
         return;
+      }
+
+      // Log any slow requests.
+      let elapsed = Date.now() - startTime;
+      if (elapsed > 2000) {
+        console.log('slow static', elapsed, filePath);
       }
 
       this.fileCache[filePath] = content;
