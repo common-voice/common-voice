@@ -125,8 +125,8 @@ export default class Profile extends Component<Props, State> {
 
     return <div id="profile-container" className={this.props.active}>
       <h2>Profile Data</h2>
+      <label for="email">Your email address</label>
       <div className="input-and-button">
-        <label for="email">Your email address</label>
         <input onKeyUp={this.update}
                className={emailModified ? 'unsaved': ''}
                id="email" type="email" name="email" value={this.state.email}/>
