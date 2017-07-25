@@ -26,6 +26,10 @@ module "load_balancer" {
   account      = "${var.account}"
   service_name = "${var.service_name}"
 
+  health_check_timeout = 5
+  health_check_healthy_threshold = 3
+  health_check_unhealthy_threshold = 3
+
   ssl_cert_name_prefix = "${var.service_name}"
 }
 
