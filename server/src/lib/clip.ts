@@ -330,6 +330,10 @@ export default class Clip {
     return this.files.getRandomClipJson(uid).then(clipJson => {
       response.writeHead(200);
       response.end(clipJson);
+    }).catch(err => {
+      console.error('could not get random clip', err);
+      response.writeHead(500);
+      response.end('Still loading');
     });
   }
 

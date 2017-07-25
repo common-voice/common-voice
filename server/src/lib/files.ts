@@ -7,7 +7,8 @@ const Promise = require('bluebird');
 const Random = require('random-js');
 const AWS = require('./aws');
 
-const KEYS_PER_REQUEST = 1000; // Max is 1000.
+const KEYS_PER_REQUEST = 100; // Max is 1000.
+const LOAD_DELAY = 200;
 const MP3_EXT = '.mp3';
 const TEXT_EXT = '.txt';
 const VOTE_EXT = '.vote';
@@ -130,7 +131,9 @@ export default class Files {
       if (next) {
         console.log('loaded so far', this.paths.length, this.votes);
         // Start the next bactch after a short delay.
-        this.loadNext(res, rej, next);
+        setTimeout(() => {
+          this.loadNext(res, rej, next);
+        }, LOAD_DELAY);
       } else {
         console.log('clips loaded', this.paths.length, this.votes);
 
@@ -181,6 +184,10 @@ export default class Files {
    * Fetch a random clip but make sure it's not the current user's.
    */
   private getGlobNotFromMe(myUid: string) {
+    if (this.paths.length === 0) {
+      return null;
+    }
+
     let distribution = Random.integer(0, this.paths.length - 1);
     let glob;
     do {
@@ -201,6 +208,10 @@ export default class Files {
    */
   getRandomClipJson(uid: string): Promise<string> {
     let glob = this.getGlobNotFromMe(uid);
+    if (!glob) {
+      return Promise.reject('No globs from me');
+    }
+
     let info = this.files[glob];
     let clipJson = {
       glob: glob,
