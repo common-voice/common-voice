@@ -84,7 +84,7 @@ export default class Static {
       if(error && error.code == 'ENOENT'){
         this.notFounds[filePath] = true;
         this.send(response, 'text/html', this.indexFile);
-        return
+        return;
       }
 
       if (error) {

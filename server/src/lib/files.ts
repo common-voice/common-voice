@@ -7,7 +7,7 @@ const Promise = require('bluebird');
 const Random = require('random-js');
 const AWS = require('./aws');
 
-const KEYS_PER_REQUEST = 200; // Max is 1000.
+const KEYS_PER_REQUEST = 1000; // Max is 1000.
 const LOAD_DELAY = 200;
 const MP3_EXT = '.mp3';
 const TEXT_EXT = '.txt';
@@ -116,9 +116,12 @@ export default class Files {
       ContinuationToken: continuationToken
     });
 
+    let startRequest = Date.now();
     awsRequest.on('success', (response) => {
       let next = response['data']['NextContinuationToken'];
       let contents = response['data']['Contents'];
+
+      let startParsing = Date.now();
       for (let i = 0; i < contents.length; i++) {
         let key = contents[i].Key;
         let glob = this.getGlob(key);
@@ -164,6 +167,7 @@ export default class Files {
       // we are not trying to reverify any.
       this.filterPaths();
       console.log('clips load', this.paths.length, this.votes, this.validated);
+      console.log(`load time ${startParsing - startRequest} parse time ${Date.now() - startParsing}`);
 
       // If there is no continuation token, we are done.
       if (!next) {
