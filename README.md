@@ -22,6 +22,13 @@ This will:
 1. Listen for and save voice clips onto Amazon's S3.
 1. Lint and rebuild all js files on every change.
 
+### Help
+
+For more options type:
+```
+gulp help
+```
+
 ### Project directory structure
 
 The project is organized into the following directories:
@@ -33,10 +40,3 @@ The project is organized into the following directories:
 - *server*: The server-side program for the Common Voice website.
 - *tools*: Some scripts for managing the server and the database.
 - *web*: The Common Voice website.
-
-### Help
-
-For more options type:
-```
-gulp help
-```
