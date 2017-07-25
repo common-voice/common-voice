@@ -7,7 +7,7 @@ const Promise = require('bluebird');
 const Random = require('random-js');
 const AWS = require('./aws');
 
-const KEYS_PER_REQUEST = 100; // Max is 1000.
+const KEYS_PER_REQUEST = 200; // Max is 1000.
 const LOAD_DELAY = 200;
 const MP3_EXT = '.mp3';
 const TEXT_EXT = '.txt';
@@ -27,12 +27,14 @@ export default class Files {
   };
   private paths: string[];
   private votes: number;
+  private validated: number;
   private randomEngine: any
 
   constructor() {
     this.s3 = new AWS.S3();
     this.files = {};
     this.votes = 0;
+    this.validated = 0;
     this.paths = [];
 
     this.randomEngine = Random.engines.mt19937();
@@ -79,6 +81,31 @@ export default class Files {
   }
 
   /**
+   * Remove any clips from our pool that have already been voted on.
+   */
+  private filterPaths() {
+    this.paths = this.paths.filter(glob => {
+      let info = this.files[glob];
+      if (!info) {
+        console.error('glob not in file map', glob);
+        return false;
+      }
+
+      if (!info.text || !info.sound) {
+        console.log('missing data for glob', info);
+        return false;
+      }
+
+      if (info.votes > 3) {
+        this.validated++;
+        return false;
+      }
+
+      return true;
+    });
+  }
+
+  /**
    * Load a single set of file keys based on KEYS_PER_REQUEST.
    */
   private loadNext(res: Function, rej: Function,continuationToken?: string): void {
@@ -108,60 +135,45 @@ export default class Files {
         // Track globs and sentence of the voice clips.
         if (!this.files[glob]) {
           this.files[glob] = {
+            pushed: false,
             votes: 0
           };
         }
 
+        let info = this.files[glob];
+
         // Is it text or audio?
         if (ext === TEXT_EXT) {
-          this.files[glob].text = key;
+          info.text = key;
         } else if (ext === MP3_EXT) {
-          this.files[glob].sound = key;
+          info.sound = key;
         } else if (ext === VOTE_EXT) {
-          this.files[glob].votes++;
+          info.votes++;
           this.votes++;
         }
 
         // If we have both text and audio, add it to our random pool.
-        if (this.files[glob].text && this.files[glob].sound) {
+        if (!info.pushed && info.text && info.sound && info.votes < 3) {
           this.paths.push(glob);
+          info.pushed = true;
         }
       }
 
-      if (next) {
-        console.log('loaded so far', this.paths.length, this.votes);
-        // Start the next bactch after a short delay.
-        setTimeout(() => {
-          this.loadNext(res, rej, next);
-        }, LOAD_DELAY);
-      } else {
-        console.log('clips loaded', this.paths.length, this.votes);
+      // Filter the elligible clips for verification, making sure
+      // we are not trying to reverify any.
+      this.filterPaths();
+      console.log('clips load', this.paths.length, this.votes, this.validated);
 
-        // Filter the elligible clips for verification, making sure
-        // we are not trying to reverify any.
-        this.paths = this.paths.filter(glob => {
-          let info = this.files[glob];
-          if (!info) {
-            console.error('glob not in file map', glob);
-            return false;
-          }
-
-          if (!info.text || !info.sound) {
-            console.log('missing data for glob', info);
-            return false;
-          }
-
-          if (info.votes > 3) {
-            return false;
-          }
-
-          return true;
-        });
-
-        console.log('clips left after filter', this.paths.length);
-
+      // If there is no continuation token, we are done.
+      if (!next) {
         res();
+        return;
       }
+
+      // Load the next batch.
+      setTimeout(() => {
+        this.loadNext(res, rej, next);
+      }, LOAD_DELAY);
     });
 
     awsRequest.on('error', (response) => {

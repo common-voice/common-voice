@@ -126,7 +126,7 @@ export default class API {
         });
 
         sentences = sentences.concat.apply(sentences, sentenceArrays);
-        console.log('sentences loaded', sentences.length);
+        console.log('sentences found', sentences.length);
         this.sentencesCache = sentences;
       })
       .catch(err => {
