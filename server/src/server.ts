@@ -34,6 +34,7 @@ export default class Server {
    */
   private handleRequest(request: http.IncomingMessage,
                         response: http.ServerResponse) {
+    let startTime = Date.now();
 
     // Handle all clip related requests first.
     if (this.clip.isClipRequest(request)) {
@@ -49,6 +50,9 @@ export default class Server {
     // If we get here, feed request to static parser.
     request.addListener('end', () => {
       this.staticServer.serve(request, response, (err: any) => {
+        console.log('served static file time',
+                    request.url, Date.now() - startTime);
+
         if (err && err.status === 404) {
           // If file was not front, use main page and
           // let the front end handle url routing.

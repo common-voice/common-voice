@@ -190,7 +190,7 @@ input[type="text"] {
   border-radius: 0;
   font-size: var(--base-font-size);
   box-sizing: border-box;
-  padding: 0.8rem 0.2rem 0;
+  padding: 0px 2px 1px;
 }
 
 label {
