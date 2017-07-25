@@ -4,6 +4,7 @@ import Clip from './lib/clip';
 import Logger from './lib/logger';
 
 const DEFAULT_PORT = 9000;
+const SLOW_REQUEST_LIMIT = 2000;
 const CONFIG_PATH = '../../config.json';
 const CLIENT_PATH = './web';
 
@@ -50,14 +51,21 @@ export default class Server {
     // If we get here, feed request to static parser.
     request.addListener('end', () => {
       this.staticServer.serve(request, response, (err: any) => {
-        console.log('served static file time',
-                    request.url, Date.now() - startTime);
-
         if (err && err.status === 404) {
+          console.error('page not found', request.url);
+
           // If file was not front, use main page and
           // let the front end handle url routing.
           this.staticServer.serveFile('index.html', 200, {}, request, response);
+          return;
         }
+
+        // Log slow static requests
+        let elapsed = Date.now() - startTime;
+        if (elapsed > SLOW_REQUEST_LIMIT) {
+          console.log('slow static request', request.url, elapsed);
+        }
+
       })
     }).resume();
   }
