@@ -1,9 +1,9 @@
 import { h, Component } from 'preact';
 import ListenBox from './listen-box';
-import { Clip, default as API } from '../api';
+import { ClipJson, default as API } from '../api';
 
 const LOADING_MESSAGE = 'Loading...';
-const ERROR_MESSAGE = 'Sorry! We are processing our audio files, please try again shortly.';
+const LOAD_ERROR_MESSAGE = 'Sorry! We are processing our audio files, please try again shortly.';
 
 interface Props {
   api: API;
@@ -12,7 +12,9 @@ interface Props {
 
 interface State {
   loading: boolean;
-  clip: Clip;
+  glob: string;
+  sentence: string;
+  audioSrc: string;
 }
 
 /**
@@ -28,7 +30,7 @@ export default class Validator extends Component<Props, State> {
   }
 
   private onVote(vote: boolean) {
-    this.props.api.castVote(this.state.clip.glob, vote).then(() => {
+    this.props.api.castVote(this.state.glob, vote).then(() => {
       this.props.onVote && this.props.onVote(vote);
       this.loadClip();
     }).catch((err) => {
@@ -38,11 +40,17 @@ export default class Validator extends Component<Props, State> {
 
   private loadClip() {
     this.setState({ loading: true });
-    this.props.api.getRandomClip().then((clip) => {
-      this.setState({ loading: false, clip: clip });
+    this.props.api.getRandomClipJson().then((clipJson: ClipJson) => {
+
+      this.setState({
+        loading: false,
+        glob: clipJson.glob,
+        sentence: decodeURIComponent(clipJson.text),
+        audioSrc: clipJson.sound
+      });
     }, (err) => {
       console.error('could not fetch random clip for validator', err);
-      this.setState({ loading: false, clip: null });
+      this.setState({ loading: false, sentence: null, audioSrc: null });
     });
   }
 
@@ -50,14 +58,14 @@ export default class Validator extends Component<Props, State> {
     let sentence;
     if (this.state.loading) {
       sentence = LOADING_MESSAGE;
-    } else if (this.state.clip) {
-      sentence = this.state.clip.sentence;
+    } else if (this.state.sentence) {
+      sentence = this.state.sentence;
     } else {
-      sentence = ERROR_MESSAGE;
+      sentence = LOAD_ERROR_MESSAGE;
     }
 
     return <div class="validator">
-      <ListenBox src={this.state.clip && this.state.clip.audio}
+      <ListenBox src={this.state.audioSrc}
                  sentence={sentence}
                  onVote={this.onVote} vote="true" />
     </div>;

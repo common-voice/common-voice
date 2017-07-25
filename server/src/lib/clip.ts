@@ -82,6 +82,13 @@ export default class Clip {
   }
 
   /**
+   * Prepare a list of files from s3.
+   */
+  init(): Promise<void> {
+    return this.files.init();
+  }
+
+  /**
    * Is this request directed at voice clips?
    */
   isClipRequest(request: http.IncomingMessage) {
@@ -91,8 +98,15 @@ export default class Clip {
   /**
    * Is this request directed at a random voice clip?
    */
-  isRandomClipRequest(request: http.IncomingMessage) {
+  isRandomClipRequest(request: http.IncomingMessage): boolean {
     return request.url.includes('/upload/random');
+  }
+
+  /**
+   * Is this a random clip for voice file urls?
+   */
+  isRandomClipJsonRequest(request: http.IncomingMessage): boolean {
+    return request.url.includes('/upload/random.json');
   }
 
   /**
@@ -123,6 +137,8 @@ export default class Clip {
       } else {
         this.saveClip(request, response);
       }
+    } else if (this.isRandomClipJsonRequest(request)) {
+      this.serveRandomClipJson(request, response);
     } else if (this.isRandomClipRequest(request)) {
       this.serveRandomClip(request, response);
     } else {
@@ -301,6 +317,19 @@ export default class Clip {
         console.log('file written to s3', file);
         resolve(filePrefix);
       }).onError(reject);
+    });
+  }
+
+  serveRandomClipJson(request: http.IncomingMessage,
+                      response: http.ServerResponse) {
+    let uid = request.headers.uid as string;
+    if (!uid) {
+      return Promise.reject('Invalid headers');
+    }
+
+    return this.files.getRandomClipJson(uid).then(clipJson => {
+      response.writeHead(200);
+      response.end(clipJson);
     });
   }
 

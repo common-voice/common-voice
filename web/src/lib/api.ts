@@ -7,6 +7,12 @@ export interface Clip {
   sentence: string;
 }
 
+export interface ClipJson {
+  glob: string;
+  text: string;
+  sound: string;
+}
+
 /**
  * Handles any ajax and web 2.0 server ninjas.
  */
@@ -53,10 +59,11 @@ export default class API {
     });
   }
 
-  private fetchText(path: string, options?: any): Promise<any> {
-    return this.fetch(path, options).then((req: XMLHttpRequest) => {
-      return req.responseText;
-    });
+  private fetchText(path: string): Promise<any> {
+    return this.fetch(path, { responseType: 'text' })
+      .then((req: XMLHttpRequest) => {
+        return req.responseText;
+      });
   }
 
   private requestResourceText(resource): Promise<string> {
@@ -75,6 +82,10 @@ export default class API {
     return this.requestResourceText('sentence' + (count ? '/' + count : ''));
   }
 
+  getTextFromUrl(url): Promise<string> {
+    return this.fetchText(url);
+  }
+
   /**
    * Ask the server for a clip
    */
@@ -85,6 +96,17 @@ export default class API {
         let glob = decodeURIComponent(req.getResponseHeader('glob'));
         let sentence = decodeURIComponent(req.getResponseHeader('sentence'));
         return Promise.resolve({ glob: glob, audio: src, sentence: sentence });
+      });
+  }
+
+  /**
+   * Ask the server for a clip
+   */
+  getRandomClipJson(): Promise<ClipJson> {
+    return this.fetch('upload/random.json', { responseType: 'json', headers: {'uid': this.user.getId()}})
+      .then((req: XMLHttpRequest) => {
+        let response = req.response as ClipJson;
+        return Promise.resolve(response);
       });
   }
 

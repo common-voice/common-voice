@@ -35,7 +35,7 @@ export default class Server {
   private handleRequest(request: http.IncomingMessage,
                         response: http.ServerResponse) {
 
-    // Handle all clip related requests first.  if (this.clip.isClipRequest(request)) {
+    // Handle all clip related requests first.
     if (this.clip.isClipRequest(request)) {
       this.clip.handleRequest(request, response);
       return;
@@ -64,7 +64,15 @@ export default class Server {
   run(): void {
     // Log the start.
     console.log('STARTING APPLICATION');
-    // Now run the app.
+
+    // Initialize our clip list.
+    let start = Date.now();
+    this.clip.init().then(() => {
+      let elapsedSeconds = Math.round( (Date.now() - start) / 1000 );
+      console.log('APPLICATION LOADED', elapsedSeconds);
+    });
+
+    // Begin handling requests before clip list is loaded.
     let port = config.port || DEFAULT_PORT;
     let server = http.createServer(this.handleRequest.bind(this));
     server.listen(port);

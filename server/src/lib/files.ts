@@ -7,9 +7,7 @@ const Promise = require('bluebird');
 const Random = require('random-js');
 const AWS = require('./aws');
 
-const KEYS_PER_REQUEST = 1000; // Default is 1000.
-const BATCH_SIZE = 5;
-const DELAY_LOAD = 200; // Delaying request.
+const KEYS_PER_REQUEST = 1000; // Max is 1000.
 const MP3_EXT = '.mp3';
 const TEXT_EXT = '.txt';
 const CONVERTABLE_EXTS = ['.ogg', '.m4a'];
@@ -35,7 +33,6 @@ export default class Files {
 
     this.randomEngine = Random.engines.mt19937();
     this.randomEngine.autoSeed();
-    this.loadCache();
   }
 
   /**
@@ -60,15 +57,27 @@ export default class Files {
           return;
         }
 
-        res(s3Data.Body.toString());
+        let sentence = s3Data.Body.toString();
+        this.files[glob].sentence = sentence;
+        res(sentence);
       });
     });
   }
 
   /**
-   * Load sound file metadata into memory.
+   * Fetch a public url for the resource.
    */
-  private loadCache(continuationToken?: string) {
+  private getPublicUrl(key: string) {
+    return this.s3.getSignedUrl('getObject', {
+      Bucket: BUCKET_NAME,
+      Key: key
+    });
+  }
+
+  /**
+   * Load a single set of file keys based on KEYS_PER_REQUEST.
+   */
+  private loadNext(res: Function, rej: Function,continuationToken?: string): void {
     let awsRequest = this.s3.listObjectsV2({
       Bucket: BUCKET_NAME,
       MaxKeys: KEYS_PER_REQUEST,
@@ -84,17 +93,24 @@ export default class Files {
         let ext = getFileExt(key);
 
         // Ignore non-text files
-        if (ext !== TEXT_EXT) {
+        if (ext !== TEXT_EXT && ext !== MP3_EXT) {
           continue;
         }
 
-        // Track gobs and sentence of the voice clips.
+        // Track globs and sentence of the voice clips.
         if (!this.files[glob]) {
-          this.files[glob] = {
-            key: key,
-            sentence: null
-          }
+          this.files[glob] = {}
+        }
 
+        // Is it text or audio?
+        if (ext === TEXT_EXT) {
+          this.files[glob].text = key;
+        } else if (ext === MP3_EXT) {
+          this.files[glob].sound = key;
+        }
+
+        // If we have both text and audio, add it to our random pool.
+        if (this.files[glob].text && this.files[glob].sound) {
           this.paths.push(glob);
         }
       }
@@ -102,10 +118,10 @@ export default class Files {
       if (next) {
         console.log('loaded so far', this.paths.length);
         // Start the next bactch after a short delay
-        setTimeout(() => { this.loadCache(next); }, DELAY_LOAD);
+        this.loadNext(res, rej, next);
       } else {
         console.log('clips loaded', this.paths.length);
-        console.log('LOADED APPLICATION');
+        res();
       }
     });
 
@@ -117,6 +133,56 @@ export default class Files {
   }
 
   /**
+   * Load sound file metadata into memory.
+   */
+  private loadCache(): Promise<void> {
+    return new Promise((res, rej) => {
+      this.loadNext(res, rej);
+    });
+  }
+
+  /**
+   * Fetch a random clip but make sure it's not the current user's.
+   */
+  private getGlobNotFromMe(myUid: string) {
+    let distribution = Random.integer(0, this.paths.length - 1);
+    let glob;
+    do {
+      glob = this.paths[distribution(this.randomEngine)];
+    } while (glob.includes(myUid));
+    return glob;
+  }
+
+  /**
+   * Prepare a list of files from s3.
+   */
+  init(): Promise<void> {
+    return this.loadCache();
+  }
+
+  /**
+   * Grab a random sentence url and mp3 url.
+   */
+  getRandomClipJson(uid: string): Promise<string> {
+    let glob = this.getGlobNotFromMe(uid);
+    let info = this.files[glob];
+    let clipJson = {
+      glob: glob,
+      text: info.sentence,
+      sound: this.getPublicUrl(info.sound),
+    };
+
+    if (clipJson.text) {
+      return Promise.resolve(JSON.stringify(clipJson));
+    }
+
+    return this.fetchSentenceFromS3(glob).then(sentence => {
+      clipJson.text = sentence;
+      return Promise.resolve(JSON.stringify(clipJson));
+    });
+  }
+
+  /**
    * Grab a random sentence and associated sound file path.
    */
   getRandomClip(uid: string): Promise<string[2]> {
@@ -125,17 +191,12 @@ export default class Files {
       return Promise.reject('No files.');
     }
 
-    // Fetch a random clip but make sure it's not the current user's.
-    let distribution = Random.integer(0, this.paths.length - 1);
-    let glob;
-    do {
-      glob = this.paths[distribution(this.randomEngine)];
-    } while (glob.includes(uid));
+    let glob = this.getGlobNotFromMe(uid);
 
     // Grab clip metadata.
     let info = this.files[glob];
     let soundfile = glob + MP3_EXT;
-    if (!info || !info.key) {
+    if (!info || !info.text || !info.sound) {
       console.error('unidentified random glob', glob);
       return Promise.reject('glob info not found');
     }
@@ -147,7 +208,6 @@ export default class Files {
 
     // Grab the sentence contence from s3.
     return this.fetchSentenceFromS3(glob).then(sentence => {
-      this.files[glob].sentence = sentence;
       return Promise.resolve([soundfile, info.sentence]);
     });
   }
