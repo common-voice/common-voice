@@ -6,6 +6,7 @@ import { isSafari, isFocus, isNativeIOS } from './utility';
 import DebugBox from './components/debug-box';
 
 const LOAD_DELAY = 500; // before pulling the curtain
+const LOAD_TIMEOUT = 5000; // we can only wait so long.
 
 /**
  * Preload these images before revealing contents.
@@ -151,6 +152,13 @@ export default class App {
   }
 
   init(): Promise<void> {
+
+    // Always force page to be ready after a specified time.
+    setTimeout(() => {
+      this.loaded = true;
+      document.body.classList.add('loaded');
+    }, LOAD_TIMEOUT);
+
     return this.loadImages(progress => {
       if (this.progressMeter) {
         // TODO: find something performant here. (ie not this)
