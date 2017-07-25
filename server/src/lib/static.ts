@@ -24,10 +24,12 @@ export default class Static {
   private webroot: string;
   private indexFile: string;
   private fileCache: any;
+  private notFounds: any;
 
   constructor(webroot: string) {
     this.webroot = webroot;
     this.fileCache = {};
+    this.notFounds = {};
 
     // Pre-emptively fetch the index page.
     fs.readFile(this.webroot + '/index.html', (error, content) => {
@@ -46,13 +48,20 @@ export default class Static {
     response.end(content, 'utf-8');
   }
 
+  private sendIndexFile(response) {
+    this.send(response, 'text/html', this.indexFile);
+  }
+
   handleRequest(request: http.IncomingMessage,
                 response: http.ServerResponse) {
-    if (request.url === '/') {
-      this.send(response, 'text/html', this.indexFile);
+
+    let url = request.url;
+    if (url === '/') {
+      this.sendIndexFile(response);
+      return;
     }
 
-    let filePath = this.webroot + request.url;
+    let filePath = this.webroot + url;
     let extname = path.extname(filePath).toLowerCase();
     let contentType = MIME_TYPES[extname] || 'application/octet-stream';
 
@@ -62,17 +71,24 @@ export default class Static {
       return;
     }
 
+    // For requests that have 404'ed in the past, serve the index page
+    if (this.notFounds[filePath]) {
+      this.sendIndexFile(response);
+    }
+
     // Serve the file from the file system.
     let startTime = Date.now();
     fs.readFile(filePath, (error, content) => {
+
       // For 404 pages, we send the index page, and let the app display 404.
       if(error && error.code == 'ENOENT'){
+        this.notFounds[filePath] = true;
         this.send(response, 'text/html', this.indexFile);
         return
       }
 
       if (error) {
-        console.error('error loading static file', error);
+        console.error('error loading static file', filePath, error);
         response.writeHead(500);
         response.end('Unable to load page.');
         return;

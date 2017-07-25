@@ -7,9 +7,10 @@ import Static from './lib/static';
 const DEFAULT_PORT = 9000;
 const SLOW_REQUEST_LIMIT = 2000;
 const CONFIG_PATH = '../../config.json';
-const CLIENT_PATH = './web';
+const CLIENT_PATH = '../../web';
 
 const config = require(CONFIG_PATH);
+const path = require('path');
 
 export default class Server {
   api: API;
@@ -18,7 +19,7 @@ export default class Server {
   staticServer: Static;
 
   constructor() {
-    this.staticServer = new Static(CLIENT_PATH);
+    this.staticServer = new Static(path.join(__dirname, CLIENT_PATH));
     this.api = new API();
     this.clip = new Clip();
 
