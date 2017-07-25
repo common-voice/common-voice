@@ -1,0 +1,98 @@
+The weights in W can be negative.
+The comparison to other works on different databases is still problematic.
+How would the method behave with kernels of different size?
+I don’t understand why you use the negative gradient.
+Is it for humans?
+I would appreciate if you could create a concise table.
+My impression after reading the article is that you are going to make the dataset public.
+The article seems to propose replacing the method of approximate nearest neighbor search.
+However, the article is written poorly and incomprehensibly.
+Does it make sense to have negative weights?
+Equation 5 does not include translation which the text suggests it does.
+The article should be largely rewritten before any resubmission.
+Its observation probabilities are computed as a product of pixel probabilities.
+Anyway, what is the motivation for equation 13?
+It would help the reader to understand your method better.
+The data from Figures 5 and 6 should be represented much better.
+I would argue that much better global and local contrast enhancement methods exist.
+Image registration could be easily incorporated into low-power embedded devices.
+Without the dataset, the article is useless.
+Every image processing software contains automatic contrast and color enhancement.
+Why are the weights computed this way?
+The article references previous biometric work in a reasonable way.
+The review of related methods is simple to understand and informative.
+No one can verify your results.
+Most algorithms are not very sensitive to the type of normalization used.
+The article should discuss possible approaches to image registration.
+It considers the horizontal dimension as time.
+It could be computed in many ways which would give more or less equivalent results.
+He does not need to understand how the transformation is computed.
+The text is often unnecessarily obscure.
+You should show that your method improves results.
+The text does not discuss the meaning and effect of the weights.
+The references are good in the very narrow area of histogram methods.
+I understand that it is your dataset, and that it is new.
+The paper presents a variant of a hidden Markov model for images.
+The article addresses image classification with local image descriptors.
+I believe that this is not explained in the text.
+No one can compare to your results.
+I don’t know how comfortable it would be for a person.
+Is it for further automatic processing? 
+I can not help but feel that this topic is hopelessly outdated.
+The experiments are unconvincing.
+The only meaningful results are currently in Table 9.
+It should provided results comparable to the state of the art.
+I feel quite ambivalent about the article.
+The text implies that method handles scaling, rotation, and translation.
+The fact that you can write equations the way you do does not mean you should to it.
+The experimental methodology lacks separate validation set.
+Explanations are illogical and confusing.
+You should evaluate it in a perceptual experiment.
+It is true that some methods benefit from normalization of image inputs.
+No baselines or comparison to state of the art is provided.
+However, the authors ignore a very large body of work on tone mapping.
+Could you provide an example of a realistic scenario?
+You don’t compare directly to existing state-of-the-art methods.
+The ideas should be presented in a more concise and direct manner.
+Rarely have I seen such a collection of poorly motivated simple methods.
+The model has effectively three fully connected layers.
+I failed to reach a conclusive interpretation.
+The presented method can be applied to more realistic scenarios with a fixed camera.
+I have a problem with how you motivate the method.
+The achieved results are far behind the state-of-the-art in image classification.
+I still find the article to be unnecessarily obscure.
+You have missed more than two decades of rapid progress in image processing.
+Your method is systematic and mostly reasonably motivated.
+However, the presentation of the previous work could be deeper.
+The model can be initialized with sparse coding.
+Without the dataset, the article would be meaningless.
+I found the compression phase problematic.
+Doesn’t it defeat the purpose of hashing?
+The discrepancy between reader’s expectations created by the text and the real behaviour should be resolved.
+The article in the current state is not good enough for publication.
+I find the other argument dubious.
+Evaluation should be extended to other datasets.
+Formatting of tables should be improved.
+The article would benefit from examples demonstrating the dataset weighting.
+The article should contain URL where the dataset can be downloaded.
+How are the weights computed?
+It could have been written much more clearly.
+Isn’t this a parameter of the method?
+Some of the presented conclusions are not supported by the reported results.
+This sentence does not make any sense.
+What is the benefit of the method in terms of identification accuracy?
+The parameters are selected on the test set.
+I would not recommend publishing the article without the dataset.
+I find the need for biometric identification from palm images taken by infrared handheld camera questionable.
+The article introduces a very fast, small, and shallow feed-forward network which is trained end-to-end.
+The proposed approach provides state-of-the-art results at very low computational cost.
+The authors claim to specifically address variations due to geometric transformations in the acquired images.
+The reader just needs to know what it does.
+The full network is trained to minimize L2 pixel loss.
+The usage of high information content is meaningless.
+The reader does not need to know how it is actually computed.
+The pixel probabilities are conditioned on the model state.
+The method does not have to be the best.
+I tried to understand the proposed application of to the best of my ability.
+Image registration and invariant representations could both be done in a computationally very efficient way.
+How do you handle the negative weights?
