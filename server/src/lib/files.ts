@@ -10,6 +10,7 @@ const AWS = require('./aws');
 const KEYS_PER_REQUEST = 1000; // Max is 1000.
 const MP3_EXT = '.mp3';
 const TEXT_EXT = '.txt';
+const VOTE_EXT = '.vote';
 const CONVERTABLE_EXTS = ['.ogg', '.m4a'];
 const CONFIG_PATH = path.resolve(__dirname, '../../..',
                                  'config.json');
@@ -24,11 +25,13 @@ export default class Files {
     // ]
   };
   private paths: string[];
+  private votes: number;
   private randomEngine: any
 
   constructor() {
     this.s3 = new AWS.S3();
     this.files = {};
+    this.votes = 0;
     this.paths = [];
 
     this.randomEngine = Random.engines.mt19937();
@@ -93,13 +96,19 @@ export default class Files {
         let ext = getFileExt(key);
 
         // Ignore non-text files
-        if (ext !== TEXT_EXT && ext !== MP3_EXT) {
+        if (ext !== TEXT_EXT && ext !== MP3_EXT && ext !== VOTE_EXT) {
           continue;
+        }
+
+         if (ext === VOTE_EXT) {
+          glob = glob.substr(0, glob.indexOf('-by-'));
         }
 
         // Track globs and sentence of the voice clips.
         if (!this.files[glob]) {
-          this.files[glob] = {}
+          this.files[glob] = {
+            votes: 0
+          };
         }
 
         // Is it text or audio?
@@ -107,6 +116,9 @@ export default class Files {
           this.files[glob].text = key;
         } else if (ext === MP3_EXT) {
           this.files[glob].sound = key;
+        } else if (ext === VOTE_EXT) {
+          this.files[glob].votes++;
+          this.votes++;
         }
 
         // If we have both text and audio, add it to our random pool.
@@ -116,11 +128,35 @@ export default class Files {
       }
 
       if (next) {
-        console.log('loaded so far', this.paths.length);
-        // Start the next bactch after a short delay
+        console.log('loaded so far', this.paths.length, this.votes);
+        // Start the next bactch after a short delay.
         this.loadNext(res, rej, next);
       } else {
-        console.log('clips loaded', this.paths.length);
+        console.log('clips loaded', this.paths.length, this.votes);
+
+        // Filter the elligible clips for verification, making sure
+        // we are not trying to reverify any.
+        this.paths = this.paths.filter(glob => {
+          let info = this.files[glob];
+          if (!info) {
+            console.error('glob not in file map', glob);
+            return false;
+          }
+
+          if (!info.text || !info.sound) {
+            console.log('missing data for glob', info);
+            return false;
+          }
+
+          if (info.votes > 3) {
+            return false;
+          }
+
+          return true;
+        });
+
+        console.log('clips left after filter', this.paths.length);
+
         res();
       }
     });
