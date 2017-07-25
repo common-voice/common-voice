@@ -108,7 +108,8 @@ export default class Files {
   /**
    * Load a single set of file keys based on KEYS_PER_REQUEST.
    */
-  private loadNext(res: Function, rej: Function,continuationToken?: string): void {
+  private loadNext(res: Function, rej: Function,
+                   continuationToken?: string): void {
     let awsRequest = this.s3.listObjectsV2({
       Bucket: BUCKET_NAME,
       MaxKeys: KEYS_PER_REQUEST,
@@ -178,6 +179,11 @@ export default class Files {
 
     awsRequest.on('error', (response) => {
       console.error('Error while fetching clip list', response);
+
+      // Retry loading current batch.
+      setTimeout(() => {
+        this.loadNext(res, rej, continuationToken);
+      }, LOAD_DELAY);
     });
 
     awsRequest.send();
