@@ -9,8 +9,3 @@ mod 'puppetlabs/apt','2.4.0'
 mod 'spantree/upstart','0.0.3'
 
 mod 'puppet/nodejs', '2.3.0'
-
-# Varnish
-mod 'maxchk/varnish',
-  :git => 'https://github.com/maxchk/puppet-varnish.git',
-  :ref => 'b55587388f016bc1327aba6a0700ba76c5f13f99'
