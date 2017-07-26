@@ -7,7 +7,7 @@ class { 'apache::mod::proxy': }
 class { 'apache::mod::proxy_http': }
 
 apache::vhost { $project_name:
-    port               => 80,
+    port               => 81,
     default_vhost      => true,
     docroot            => '/var/www/html',
     docroot_owner      => 'root',
