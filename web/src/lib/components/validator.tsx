@@ -68,6 +68,7 @@ export default class Validator extends Component<Props, State> {
       <ListenBox src={this.state.audioSrc}
                  sentence={sentence}
                  onVote={this.onVote} vote="true" />
+      <p>When validating, please press the "nope" button if the sentence is not read exactly.</p>
     </div>;
   }
 }
