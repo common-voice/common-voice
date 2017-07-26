@@ -1,0 +1,297 @@
+Doing a handstand needs a lot of practice to learn.
+Astronomy might be complicated, but it's not rocket science.
+Potatoes are less space-saving, durable and cheap than pasta.
+Eggs, milk and flour are the main ingredients of pancakes.
+Chickens lay so many eggs a week, it wouldn't be possible to breed them all.
+Cheese is made from milk, as well as many other diary products.
+Agriculture was a very important achievement in human history.
+It required people to settle down.
+As long as there is water in a cooking pot, the temperature cannot rise above a hundred degrees Celsius.
+Proteins have many functions in the human body.
+The same is true for animals.
+Charles Darwin became famous for his evolutionary theory.
+He voyaged on a ship called Beagle.
+Java is not only an island, but also a popular programming language.
+Many programming languages are named after real people.
+Java is not the same as JavaScript.
+Embedded scripts from external sources can harm the users privacy.
+Advertisements are rarely hosted by the same web server as the actual content.
+Using script blockers is generally a good idea, but it requires the user to learn a bit.
+Nobody is born as a hero but everyone can become a hero.
+When you find a bug in software, please report it.
+Before creating a new topic, please use the search function to find similar threads.
+Always be constructive when you criticize others.
+After writing a bug report, one should regularly check if someone responded.
+Important information might be missing.
+People should spend time on improving open-source projects instead of helping market dominating companies.
+For example, instead of editing Google Maps, consider contributing to OpenStreetMap.
+For users it is important that they can trust their operating system.
+Opening the source code can be a measure to create trust in software.
+Not everyone is able to read source code.
+Even if you're an expert, reading all of it is often not feasible due to lack of time.
+The package has been flagged as outdated.
+In general, people have difficulties estimating risks correctly.
+In Europe many people are afraid of terrorism although getting killed in a car accident is much more likely.
+Thousands of people die every year as a consequence of air pollution.
+It's always nice if you can learn something new, isn't it?
+Nostalgia isn't what it used to be.
+Bravery is the ability to overcome fear.
+Fear is often the cause of violence.
+Communism is the opposite of capitalism.
+Sometimes it's not the right thing to do the right thing.
+Life is complicated.
+Nobody said it would be easy.
+Every purchase is a vote.
+Think about that.
+Thank you for reading this out loud.
+You're doing a great job so far.
+Yeah, I'm talking to you.
+The servers of the common voice project couldn't handle the heavy load.
+Mind the gap.
+Don't trust the smiling penguin.
+Tux is not smiling, he just looks nice all the time.
+Lemon trees are not yellow, it's just the fruit.
+Who would have thought that?
+Do male kangaroos have a pouch?
+Plastic bags turned out to be a problem for the environment.
+Separation of garbage makes recycling possible.
+Please don't be lazy.
+Some people like sea gulls, others don't.
+Television can make you dumb, but it can also be good education.
+Drinking too much water in a short period of time can be lethal.
+It is recommended to drink at least two liters of water a day.
+On warm days and when doing sports you should drink more.
+In Saudi Arabia water is more expensive than oil.
+Most cars have air conditioning these days.
+Turning the air conditioning on leads to an increased fuel consumption.
+Turning off gadgets that are not in use can save a lot of energy.
+One of the world's biggest problems is the growth of human population.
+Education is very important.
+Everyone should have the right of education.
+Many people are not able to use their first language correctly.
+Parents should look out for correct grammar and pronunciation when speaking to their children.
+Reading is not the same as understanding.
+Reading between the lines requires understanding.
+Many people think computers will never have feelings.
+At the same time, they cannot find an exact definition of what a feeling is.
+Creativity is not something exclusive to humans.
+Are children more creative than adults?
+When playing, children often just reenact what they experienced before.
+Artificial neural networks can do something very similar.
+An important difference is the amount of experiences, that is to say inputs.
+This behavior of neural networks is sometimes called dreaming.
+The human brain is still not fully understood.
+Voyager 1 has left our solar system.
+Some people make the same mistakes over and over again.
+There is no universal definition of intelligence, but everyone agrees that the ability of learning belongs to it.
+Scientific work is hard.
+The road was so steep that the biker had to shift down a few gears.
+It's a pity most people do not know what gearshifts are good for.
+Don't forget to brush your teeth in the morning.
+The light-year is a unit of distance, not of time.
+"This is a common misconception", Sheldon said.
+The term "just my two cents" is about opinion, not about money.
+Sticks and stones will break my bones but what doesn't kill me makes me strong.
+Chess is a simulation of war.
+Classification is, among other things, a discipline of machine learning.
+Parachuting is dangerous.
+There is a counter on the top left of the web page.
+The moon is responsible for tides on earth.
+The international space station is an awesome project.
+The global positioning system works with triangulation.
+In 1969 the first man set his foot onto the moon's surface.
+He bought some tinfoil to build a hat.
+I have the most beautiful voice you have ever heard.
+What he did was definitively illegal.
+She was beautiful from behind, but he couldn't see her face yet.
+She was accused of making wrong accusations.
+"Before you go, I want to hug you", she said.
+He could see tears in her eyes.
+Watch out, blues ahead!
+Diamonds are made under pressure.
+Greece is the country where democracy was invented.
+Watch your step!
+Forget it, there is no such thing.
+She apparently didn't listen.
+Pencils down, time is over.
+The kids loved to listen to his stories.
+Aren't we godlike?
+This horse has more than one horse power.
+Even an ordinary man has more than one horse power, but gets tired quickly.
+Being with him alone made her feel uncomfortable.
+There is not even the possibility of doing that.
+The file had a size of multiple gigabytes.
+His internet connection was too slow.
+He got jailed for no reason.
+The church is right next to the gas station.
+The weather forecast for this week didn't look good at all.
+She couldn't decide which dress to wear.
+The chair lift took them up the mountain.
+To calibrate the motion capturing system, please do a T-pose.
+The railway station was locked up by the police.
+No-one knows what's behind this gate.
+The runway seems way to short for this type of plane.
+When she tried to withdraw some money from her bank account, the ATM claimed her card was invalid.
+The men at the bar were obviously drunk.
+Americans love to have a barbecue.
+Fast-food is convenient but often unhealthy.
+He offered the kids some ice-cream.
+The cake is a lie.
+The restaurant was quite expensive.
+The library is open to everyone.
+He felt unsafe like during his first lesson in driving school.
+She learned how to play the piano in a music school.
+Visiting a university offers great chances for your career.
+James Watt didn't invent the steam engine, but he improved it significantly.
+After the accident, his bicycle had to be repaired.
+The car however was not damaged.
+The emergency team came quickly.
+The least you can do is call 911.
+They rented a boat and went down the river.
+When she called her friend for help with her computer, she repeatedly emphasized, that she hadn't done anything.
+He nodded and said nothing.
+Only a few meters away there is a bus station.
+Improving the public transport system would help avoid traffic jams.
+Taking the ferry was a wise choice.
+There are four different sorts of fuel at this gas station.
+Diesel is the cheapest one, because of lower taxes.
+His speech ended in standing ovations.
+The motorcycle made loud noise.
+This parking space is for customers only.
+Don't worry, I took a cab to get home safely.
+The teller didn't have enough change.
+Plastic surgery has become more popular.
+There is a dentist and some other doctors inside this clinic.
+When he was in hospital, the nurse took an x-ray photograph of his arm.
+It was easy to see on the radiogram, that his bones were broken.
+She went to the pharmacy to get her pills.
+Taking part in road traffic is potentially dangerous after donating blood.
+Emoticons are familiar to everyone nowadays.
+There is a social facility on the other side of the road.
+He lost a lot of money through gambling in the casino.
+A new movie is shown the first time in cinema.
+This picture is pure art.
+A crowd of people stood around the fountain.
+When she entered the dance floor, everyone in the nightclub was looking at her.
+Wikipedia is a non-profit organization.
+The clock of the town center took damage from a lightening strike.
+Water boarding is a terrible form of torture.
+The lawyer successfully defended his client.
+When the judge spoke the death sentence, the defendant showed no emotion.
+They were kissing in the backyard.
+Two women were still missing when the firefighters arrived.
+The agent secretly entered the embassy from the roof.
+The ladder of the fire truck was not long enough.
+How could this happen?
+Linus is known for his clear and explicit language.
+Policemen are investigating in this case.
+Divers found a dead person in the lake.
+To measure the performance accurately we need a benchmark.
+Many soldiers of world war 2 have never been buried on a grave yard.
+He went to gym to strengthen his muscles.
+Please do not feed the ducks!
+I'm not hungry, I'm starving.
+Peer-to-peer networks are more robust than client-server architectures.
+She bought cucumbers at the marketplace.
+The European Union has often been criticized for their regulations.
+You will need some rubber boots.
+Although everything should be under the state's control, there is a lot of violence in prisons.
+Surveillance does not always bring security.
+Smoking is prohibited.
+The mountain rescue team gave up its work.
+She couldn't decide whether to take a shower or to have a bath.
+Only one third of the rubbish is being recycled in this country.
+Too much food is being wasted.
+Firewalls can be used to protect a network against intruders.
+There was a round table in the middle of the room.
+The telephone didn't work without electricity.
+He went to the vending machine and bought a coffee.
+She couldn't find a waste basket.
+She could not manage to climb over the fence.
+One of the town's landmarks is the city-wall.
+Even the guard rail couldn't stop the truck from falling off the bridge.
+The government decided to focus on border control because of the refugees.
+The chain rule is applied twice to this formula.
+History teaches us that humans do not learn from history.
+This farm had cattle, chicken, sheep and many other animals.
+This part of the town was half residential, half industrial.
+The determinant is the product of all eigenvectors of a matrix.
+Today's world is full of commercials.
+The bakery was next to the slaughterhouse.
+He learned swimming in school.
+This beer has been brewed in Germany, more specifically in Bavaria.
+Take that fire extinguisher and put out the fire!
+Forty-two is not a random number.
+Lifeguards were standing on a tower, staring at the water.
+Some of them had binoculars.
+Oxygen is important for us, but some bacteria don't need it at all.
+The phone call got interrupted due to unknown reasons.
+He was not able to find words for his feelings.
+The motorway is not the fastest connection between Hamburg and Munich.
+Pedestrians were standing on a sidewalk paved with cobblestone.
+Everyone has once heard of the chicken-egg-problem.
+The frog had no chance to escape.
+Three-phase alternating current is an efficient way of transmitting energy.
+Bus-only lanes are debated controversially.
+This building has an elevator which is necessary for wheelchairs.
+The path through the forest was unlit and scary.
+It was not clear who had the right of way, since the traffic lights were off.
+The Chinese built a monorail train that floats on a magnetic field.
+Excuse me, nudism is not allowed at this part of the beach.
+Form follows function.
+Laser tag is a game quite similar to paintball.
+Although searching in binary search trees is efficient, you won't find any fruits in there.
+Salmon is one of the most popular fish and very delicious, though usually not sustainable.
+A group of people, one of them with a guitar, were sitting by the campfire and singing songs.
+Golf stands for the letter G in the NATO phonetic alphabet.
+Compiling the Linux kernel can be time consuming.
+Good playgrounds have much more to offer than swings and slides.
+Sunburns can be avoided by applying sunscreen or by staying in the shadows.
+Bitcoin mining can be done with graphic cards or with specialized hardware.
+Historic mills were usually powered by water, wind or horse power.
+Inverse kinematics are a mathematical challenge for robot engineers.
+Nobody knows how much ammunition the military has in its checkpoints.
+Salim moved from India to the Netherlands.
+Glaciers are melting because of global warming.
+The peak of this mountain is over two thousand meters above sea level.
+I hope some of the lines make you smile.
+The Tropic of Capricorn is on the Southern Hemisphere of the earth.
+Everyone should have health insurance.
+Debian is an operating system which is free as in freedom.
+Football is often confused with soccer.
+Accidents in nuclear power plants are potentially catastrophic.
+Cables need insulation to prevent short circuits.
+Portals are used in many computer games to instantly travel from one place to another.
+Burning fridges, televisions and washing machines are not as unusual as one might think.
+Inline skates are like ice skates, but with wheels instead of blades.
+All beverages in this shop are free of alcohol.
+A famous company from Sweden sells furniture in many countries of the world.
+When I have read a million of these sentences, I am going to apply as a professional narrator.
+Without questioning he said what the screen of his computer dictated to him.
+Asymmetric cryptography uses pairs of keys.
+They are called private and public key.
+One key is for encryption, the other one for decryption.
+Given only the public key, it is very hard to compute the private one.
+Besides encryption, it can also be used for authentication.
+The process of encrypting the hash value of a message is called digital signature.
+Hash functions are one-way functions with a number of mathematical requirements.
+Strong cryptography can prevent a man in the middle to read a conversation.
+The green lock in the address bar of your browser does NOT mean you can trust the site.
+The system with certificate authorities has some serious issues.
+In symmetric cryptography the same key is used for encryption and decryption.
+Symmetric algorithms tend to be faster than asymmetric ones.
+Strong passwords don't have to be hard to remember.
+The world wide web is not the same as the internet.
+The Google search bar is for searching, not for typing URLs!
+If you don't know any alternative search engines, just google them.
+You can create bookmarks in you web browser to make browsing more convenient.
+Local solutions should be preferred to cloud solutions in many cases.
+From a technical point of view, the MP3-standard is completely outdated and yet it's still very successful.
+His girlfriend always has cold feet in the morning.
+Palm oil is cheap, but workers on illegal plantations get exploited and huge areas of jungle get destroyed for its production.
+Spending time with each other can be more valuable than any material present.
+It would be very useful if my web browser could synchronize all of its preferences, not just some.
+I promise, I will be careful!
+I have disabled some of the certificate authorities, but they're not grayed out in this list.
+Honest Ahmed did not convince the developers.
+There might be secret messages in this text.
