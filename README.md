@@ -28,3 +28,15 @@ For more options type:
 ```
 gulp help
 ```
+
+### Project directory structure
+
+The project is organized into the following directories:
+
+- *android*: The Android app. This app is not currently used as it is just a wrapper for the website.
+- *docs*: Design specifications for Common Voice.
+- *ios*: The iOS app. The iOS app is just a wrapper for the website as well, but it was published on the App Store because of an issue in Safari which made recording audio impossible.
+- *nubis*: Configuration files for [Nubis](https://github.com/nubisproject), which is used for deploying the website.
+- *server*: The server-side program for the Common Voice website.
+- *tools*: Some scripts for managing the server and the database.
+- *web*: The Common Voice website.
