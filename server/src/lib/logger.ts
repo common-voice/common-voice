@@ -34,11 +34,11 @@ export default class Logger {
 
   private getMessageFields(level: string, msg: string): MessageFields {
     return {
+      msg: msg,
       name: this.name,
       level: level,
       hostname: this.hostname,
       pid: this.pid,
-      msg: msg,
       time: this.getDateString()
     };
   }
