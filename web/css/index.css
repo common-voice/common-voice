@@ -42,6 +42,7 @@
   --color-speak: #FB8E92;
   --color-speak-light: #FDC6C8;
   --color-listen: #B7D43F;
+  --color-listen-dark: #7F9622;
   --color-about: #f8b83e;
   --color-profile: #9D9D9C;
   --color-help: #3DFEFD;
@@ -321,6 +322,12 @@ input:invalid {
   line-height: var(--listen-box-height);
   text-align: center;
   cursor: pointer;
+  transition: 100ms;
+}
+
+.delete-box:hover,
+.play-box:hover {
+  background-color: var(--color-listen-dark);
 }
 
 .delete-box {
