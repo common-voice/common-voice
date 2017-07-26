@@ -12,6 +12,7 @@ interface Props {
 
 interface State {
   loaded: boolean;
+  played: boolean;
   playing: boolean;
   audio: HTMLAudioElement;
 }
@@ -41,6 +42,7 @@ export default class ListenBox extends Component<Props, State> {
   state = {
     loaded: false,
     playing: false,
+    played: false,
     audio: null
   };
 
@@ -57,7 +59,7 @@ export default class ListenBox extends Component<Props, State> {
   }
 
   private onPlayEnded() {
-    this.setState({ playing: false });
+    this.setState({ playing: false, played: true });
     this.tracker.trackListen();
   }
 
@@ -89,18 +91,25 @@ export default class ListenBox extends Component<Props, State> {
 
     this.setState({
       loaded: false,
-      playing: false
+      playing: false,
+      played: false
     });
 
     this.props.onVote && this.props.onVote(votedYes);
   }
 
   private voteYes() {
+    if (!this.state.played) {
+      return;
+    }
     this.vote(true);
     this.tracker.trackVoteYes();
   }
 
   private voteNo() {
+    if (!this.state.played) {
+      return;
+    }
     this.vote(false);
     this.tracker.trackVoteNo();
   }
@@ -122,7 +131,7 @@ export default class ListenBox extends Component<Props, State> {
            onClick={this.onDelete}>
         <Icon type="x"/>
       </div>
-      <div style={!this.props.vote ? 'display: none;' : ''} class="vote-box">
+      <div style={!this.props.vote ? 'display: none;' : ''} className={'vote-box ' + (this.state.played ? '' : 'disabled')}>
         <a onClick={this.voteYes}>
           <Icon type="check"/>Yes!</a>
         <a onClick={this.voteNo}>
@@ -134,7 +143,6 @@ export default class ListenBox extends Component<Props, State> {
         onLoadStart={this.onLoadStart}
         onCanPlayThrough={this.onCanPlayThrough}
         onDurationChange={this.onCanPlayThrough}
-        // onPlay={this.onPlay}
         onEnded={this.onPlayEnded}
         ref={el => this.el = el as HTMLAudioElement} />
     </div>;

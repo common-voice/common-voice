@@ -358,6 +358,10 @@ input:invalid {
   }
 }
 
+.vote-box.disabled > a {
+  visibility: hidden;
+}
+
 .vote-box > a:active {
   background-color: black;
   color: white;
