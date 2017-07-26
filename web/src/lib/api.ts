@@ -78,8 +78,11 @@ export default class API {
     return API.DEFAULT_BASE + resource;
   }
 
-  getRandomSentences(count?: number): Promise<string> {
-    return this.requestResourceText('sentence' + (count ? '/' + count : ''));
+  getRandomSentences(count?: number): Promise<string[]> {
+    return this.requestResourceText('sentence' + (count ? '/' + count : ''))
+      .then(sentencesText => {
+        return sentencesText.split('\n');
+      });
   }
 
   getTextFromUrl(url): Promise<string> {
@@ -113,6 +116,7 @@ export default class API {
   castVote(glob: string, vote: boolean): Promise<Event> {
     return new Promise((resolve: EventListener, reject: EventListener) => {
       var req = new XMLHttpRequest();
+      req.responseType = 'text';
       req.upload.addEventListener('load', resolve);
       req.upload.addEventListener('error', reject);
       req.open('POST', API.CLIP_VOTE_URL);

@@ -203,11 +203,13 @@ export default class Pages extends Component<PagesProps, PagesState> {
   }
 
   private uploadRecordings(recordings: any[],
-                           sentences: string[]): Promise<void> {
+                           sentences: string[],
+                           progressCb: Function): Promise<void> {
 
     return new Promise<void>((res, rej) => {
       this.ensurePrivacyAgreement().then(() => {
         let runningTotal = 0;
+        let originalTotal = recordings.length;
 
         // This function calls itself recursively until
         // all recordings are uploaded.
@@ -225,9 +227,9 @@ export default class Pages extends Component<PagesProps, PagesState> {
           let sentence = sentences.pop();
 
           this.props.api.uploadAudio(blob, sentence).then(() => {
-            // TODO: figure out how to pass progress into record component.
-            // runningTotal += 100 / SET_COUNT;
-            // this.setState({ uploadProgress: runningTotal });
+            runningTotal++;
+            let percentage = Math.floor((runningTotal / originalTotal) * 100);
+            progressCb && progressCb(percentage);
             this.props.user.tallyRecording();
             uploadNext();
           });

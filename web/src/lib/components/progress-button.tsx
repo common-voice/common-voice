@@ -1,6 +1,7 @@
 import { h, Component } from 'preact';
 
 interface Props {
+  disabled: boolean;
   percent: number;
   text: string;
   onClick?(): void;
@@ -14,10 +15,10 @@ interface State {
  */
 export default class ProgressButton extends Component<Props, State> {
   render() {
-    let percent = Math.min(this.props.percent - 100, 0);
-    return <button className="progress-button" onClick={this.props.onClick}>
+    return <button className="progress-button" onClick={this.props.onClick}
+           disabled={( this.props.disabled ? true: false )} >
         <span class="progress"
-          style={`transform: translateX(${percent}%);`}></span>
+          style={`transform: translateX(${this.props.percent - 100}%);`}></span>
         {this.props.text}
       </button>
   }

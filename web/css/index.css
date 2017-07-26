@@ -400,7 +400,7 @@ input:invalid {
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.4);
-  transition: transform 0.2s linear;
+  transition: transform 1s var(--bounce-curve);
 }
 
 /* Begin cross page code */

@@ -12,6 +12,7 @@ import { getItunesURL, isFocus, countSyllables, isNativeIOS, generateGUID }
   from '../../utility';
 import confirm from '../confirm';
 
+const CACHE_SET_COUNT = 9;
 const SET_COUNT = 3;
 const PAGE_NAME = 'record';
 
@@ -20,7 +21,8 @@ interface RecordProps {
   user: User;
   api: API;
   navigate(url: string): void;
-  onSubmit(recordings: Blob[], sentences: string[]): Promise<void>;
+  onSubmit(recordings: Blob[], sentences: string[],
+           progressCb: Function): Promise<void>;
   onRecord: Function;
   onRecordStop: Function;
   onRecordingSet: Function;
@@ -28,12 +30,13 @@ interface RecordProps {
 }
 
 interface RecordState {
-  sentences: string[],
-  recording: boolean,
-  recordingStartTime: number,
-  recordings: any[],
-  uploadProgress: number,
-  isReRecord: boolean
+  sentences: string[];
+  recording: boolean;
+  recordingStartTime: number;
+  recordings: any[];
+  uploading: boolean;
+  uploadProgress: number;
+  isReRecord: boolean;
 }
 
 export default class RecordPage extends Component<RecordProps, RecordState> {
@@ -41,12 +44,14 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   audio: AudioWeb | AudioIOS;
   isUnsupportedPlatform: boolean;
   tracker: Tracker;
+  sentenceCache: string[];
 
   state = {
     sentences: [],
     recording: false,
     recordingStartTime: 0,
     recordings: [],
+    uploading: false,
     uploadProgress: 0,
     isReRecord: false
   };
@@ -55,6 +60,9 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     super(props);
 
     this.tracker = new Tracker();
+
+    this.sentenceCache = [];
+    this.refillSentenceCache().then(this.newSentenceSet.bind(this));
 
     // Use different audio helpers depending on if we are web or native iOS.
     if (isNativeIOS()) {
@@ -73,13 +81,20 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       return;
     }
 
-    this.newSentenceSet();
 
     // Bind now, to avoid memory leak when setting handler.
     this.onSubmit = this.onSubmit.bind(this);
     this.onRecordClick = this.onRecordClick.bind(this);
     this.processRecording = this.processRecording.bind(this);
     this.goBack = this.goBack.bind(this);
+    this.onProgress = this.onProgress.bind(this);
+  }
+
+  private refillSentenceCache() {
+    return this.props.api.getRandomSentences(CACHE_SET_COUNT)
+      .then(newSentences => {
+        this.sentenceCache = this.sentenceCache.concat(newSentences);
+      });
   }
 
   private processRecording(info: AudioInfo) {
@@ -132,13 +147,28 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     return s || '';
   }
 
+  private onProgress(percent: number) {
+    this.setState({ uploadProgress: percent });
+  }
+
   private onSubmit() {
-    this.props.onSubmit(this.state.recordings, this.state.sentences)
+    if (this.state.uploading) {
+      return;
+    }
+
+    this.setState({
+      uploading: true
+    });
+
+    this.props.onSubmit(this.state.recordings, this.state.sentences, this.onProgress)
       .then(() => {
         this.reset();
         this.tracker.trackSubmitRecordings();
       })
       .catch(() => {
+        this.setState({
+          uploading: false
+        });
         confirm('You did not agree to our Terms of Service. Do you want to delete your recordings?', 'Keep the recordings', 'Delete my recordings').then((keep) => {
           if (!keep) {
             this.reset();
@@ -176,6 +206,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     this.setState({
       recordings: [],
       sentences: [],
+      uploading: false,
       uploadProgress: 0
     });
     this.newSentenceSet();
@@ -220,9 +251,20 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   }
 
   newSentenceSet() {
-    this.props.api.getRandomSentences(SET_COUNT).then(newSentences => {
-      this.setState({ sentences: newSentences.split('\n')});
-    });
+    // If we don't have any sentences in our cache, fill it and try again.
+    if (this.sentenceCache.length < SET_COUNT) {
+      console.error('slow path for getting new sentences');
+      this.refillSentenceCache().then(this.newSentenceSet.bind(this));
+      return;
+    }
+
+    let newOnes = this.sentenceCache.splice(0, SET_COUNT);
+    this.setState({ sentences: newOnes });
+
+    // Preemptively fill setnece cache when we get low.
+    if (this.sentenceCache.length < SET_COUNT * 2) {
+      this.refillSentenceCache();
+    }
   }
 
   render() {
@@ -244,7 +286,8 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       </div>;
     }
 
-    let isFull = this.isFull();
+    // During uploading, we display the submit page for progress.
+    let isFull = this.isFull() || this.state.uploading;
     let texts = [];   // sentence elements
     let listens = []; // listen boxes
 
@@ -272,6 +315,11 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
     let showBack = this.state.recordings.length !== 0 && !this.state.isReRecord;
     let className = this.props.active + (isFull ? ' full': '');
+    let progress = this.state.uploadProgress;
+    if (this.state.uploading) {
+      // Look ahead in the progress bar when uploading.
+      progress += (100 / SET_COUNT) * 1;
+    }
 
     return <div id="record-container" className={className}>
       <div id="voice-record">
@@ -297,7 +345,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
           <span>Re-record</span>
         </p>
         {listens}
-        <ProgressButton percent={this.state.uploadProgress}
+        <ProgressButton percent={progress} disabled={this.state.uploading}
                         onClick={this.onSubmit} text="Submit" />
       </div>
     </div>;
