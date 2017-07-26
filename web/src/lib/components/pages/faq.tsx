@@ -18,7 +18,8 @@ export default class FAQ extends Component<Props, State> {
       <p>Voice is natural, voice is human. It’s the easiest and most natural way to communicate. With Common Voice, developers can build amazing things––from real-time translators to voice-enabled administrative assistants. But the data they need to build these apps isn’t publicly available. Common Voice will give them what they need to innovate.</p>
 
       <h3>When will the dataset be available?</h3>
-      <p>Mozilla aims to begin to capture voices in June and release the open source database later in 2017.</p>
+      <p>Mozilla started capturing voices in June and aims to release the open source database later in 2017, under the <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC-0</a> license. The database will be free to download.</p>
+
       <h3>Why is Common Voice part of the Mozilla mission?</h3>
       <p>Mozilla is dedicated to keeping the web open and accessible for everyone. To do it we need to empower web creators through projects like Common Voice. As voice technologies proliferate beyond niche applications, we believe they must serve all users equally well. We see a need to include more languages, accents and demographics when building and testing voice technologies. Mozilla wants to see a healthy, vibrant internet. That means giving new creators access to voice data so they can build new, extraordinary projects. Common Voice will be a public resource that will help Mozilla teams and developers around the world. </p>
 
