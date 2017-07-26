@@ -18,12 +18,6 @@ class { 'varnish::vcl':
   unset_headers          => [ ],
   unset_headers_debugips => [ ],
 
-  # More options
-  cookiekeeps            => [
-    'JSESSIONID[^=]*',
-    'jenkins[^=]*',
-  ],
-
   logrealip              => true,
   honor_backend_ttl      => true,
   x_forwarded_proto      => true,
