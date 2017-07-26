@@ -5,6 +5,7 @@ server/upload/
 .ignore/
 .DS_Store
 .vscode/
+.idea
 
 # Nubis
 nubis/librarian-puppet.tar.gz
