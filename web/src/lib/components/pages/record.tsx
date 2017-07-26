@@ -187,10 +187,12 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
     // Don't start a new recording when full.
     } else if (!this.isFull()) {
-      this.audio.init().then(() => {
-        this.startRecording();
-      });
-    }
+      	this.audio.init().then(() => {
+        	this.startRecording();
+      	}).catch((err) =>{
+      		window.location.href = "/";
+    	});
+  	}
   }
 
   startRecording() {

@@ -109,8 +109,14 @@ export default class AudioWeb {
       this.ready = true;
     }).catch((err) => {
       if (err === ERROR_MSG.ERR_NO_MIC) {
-        return confirm('You must allow microphone access.', 'Retry', 'Cancel').then(() => {
-          window.location.reload();
+        return confirm('You must allow microphone access.', 'Retry', 'Cancel').then((retry) => {
+          if(retry){
+            window.location.reload();
+          }
+          else{
+            console.error('Microphone access not provided');
+            throw new Error('Microphone access not provided');
+          }
         });
       } else {
         throw err;
@@ -121,7 +127,7 @@ export default class AudioWeb {
   start(): Promise<void> {
     if (!this.ready) {
       console.error('Cannot record audio before microhphone is ready.');
-      return Promise.resolve();;
+      return Promise.resolve();
     }
 
     return new Promise<void>((res: Function, rej: Function) => {
