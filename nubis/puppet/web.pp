@@ -31,11 +31,11 @@ apache::vhost { $project_name:
     ExpiresDefault none
 
     # Assets
-    ExpiresByType image/* 'modification plus 30 minutes'
-    ExpiresByType text/* 'modification plus 30 minutes'
+    ExpiresByType image/*  'now plus 30 minutes'
+    ExpiresByType text/css 'now plus 30 minutes'
 
     # Fonts
-    ExpiresByType application/x-font-ttf 'modification plus 6 hours'
+    ExpiresByType application/x-font-ttf 'now plus 6 hours'
       ",
       }
     ],
