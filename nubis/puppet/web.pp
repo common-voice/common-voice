@@ -20,6 +20,27 @@ apache::vhost { $project_name:
     ],
     access_log_env_var => '!internal',
     access_log_format  => '%a %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-agent}i\"',
+
+    directories        => [
+      {
+        path            => "/var/www/${project_name}/web",
+        custom_fragment => "
+    AddType application/x-font-ttf        .ttf
+
+    ExpiresActive On
+    ExpiresDefault none
+
+    # Assets
+    ExpiresByType image/* 'modification plus 30 minutes'
+    ExpiresByType text/* 'modification plus 30 minutes'
+
+    # Fonts
+    ExpiresByType application/x-font-ttf 'modification plus 6 hours'
+      ",
+      }
+    ],
+
+
     custom_fragment    => "
 
     # Don't set default expiry on anything
