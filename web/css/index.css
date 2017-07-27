@@ -745,7 +745,7 @@ header.active {
 }
 
 .main-title {
-  padding: 0 0.1rem;
+  padding: 0 0.2rem;
   color: var(--base-background-color);
   background-color: var(--base-font-color);
   line-height: 1.4;
