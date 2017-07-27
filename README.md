@@ -6,11 +6,13 @@ donations for Project Common Voice.
 [voice.mozilla.org](https://voice.mozilla.org)
 
 ### Contribution
-[HELP WANTED] Please help us add sentences to be read by our users. See [issue 341](https://github.com/mozilla/voice-web/issues/341) for details.
+[Non-code] Please help us add sentences to be read by our users. See [issue 341](https://github.com/mozilla/voice-web/issues/341) for details.
 
-Did you notice a bug? Do you have a feature request? Please file an issue [here on GitHub](https://github.com/mozilla/voice-web/issues)
+[Code] Check out our list of [help wanted bugs](https://github.com/mozilla/voice-web/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22).
 
-For general discussion (feedback, ideas, random musings), check out our [Discourse Category](https://discourse.mozilla-community.org/c/voice)
+Did you notice a bug? Do you have a feature request? Please file an issue [here on GitHub](https://github.com/mozilla/voice-web/issues).
+
+For general discussion (feedback, ideas, random musings), check out our [Discourse Category](https://discourse.mozilla-community.org/c/voice).
 
 ### Development
 ```
