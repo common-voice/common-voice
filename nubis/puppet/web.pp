@@ -1,4 +1,5 @@
 class { 'nubis_apache':
+  port      => 81,
 }
 
 # Add modules
