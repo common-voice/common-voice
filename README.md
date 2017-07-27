@@ -6,7 +6,7 @@ donations for Project Common Voice.
 [voice.mozilla.org](https://voice.mozilla.org)
 
 ### Contribution
-[Non-code] Please help us add sentences to be read by our users. See [issue 341](https://github.com/mozilla/voice-web/issues/341) for details.
+[Non-code] Please help us add sentences to read. See [issue 341](https://github.com/mozilla/voice-web/issues/341) for details.
 
 [Code] Check out our list of [help wanted bugs](https://github.com/mozilla/voice-web/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22).
 
