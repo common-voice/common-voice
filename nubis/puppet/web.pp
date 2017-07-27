@@ -29,7 +29,8 @@ apache::vhost { $project_name:
     ProxyPass /server-status !
 
     # Handle static content ourselves
-    ProxyPass /dist !
+    ProxyPass /dist/bundle.js !
+    ProxyPass /dist/index.css !
     ProxyPass /img !
     ProxyPass /font !
 
