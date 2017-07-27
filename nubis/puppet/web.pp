@@ -29,8 +29,8 @@ apache::vhost { $project_name:
     ProxyPass /server-status !
 
     # Handle static content ourselves
+    ProxyPass /dist !
     ProxyPass /img !
-    ProxyPass /css !
     ProxyPass /font !
 
     ProxyPass / http://localhost:9000/ retry=0
