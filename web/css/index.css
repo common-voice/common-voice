@@ -359,7 +359,8 @@ input:invalid {
 }
 
 .vote-box.disabled > a {
-  visibility: hidden;
+  opacity: 0.3;
+  pointer-events: none;
 }
 
 .vote-box > a:active {
