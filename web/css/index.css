@@ -374,7 +374,7 @@ input:invalid {
 
 @media (min-width: 600px) {
   .vote-box > :first-child {
-    border-bottom: 1px dotted black;
+    border-bottom: 1px dashed black;
   }
 }
 
