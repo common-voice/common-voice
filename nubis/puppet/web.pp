@@ -25,8 +25,14 @@ apache::vhost { $project_name:
       {
         path            => "/var/www/${project_name}/web",
         custom_fragment => "
+    # Handle and compress font files
     AddType application/x-font-ttf        .ttf
+    AddOutputFilterByType DEFLATE application/x-font-ttf
 
+    # Deflate JavaScript
+    AddOutputFilterByType DEFLATE text/javascript
+
+    # Sane expires defaults
     ExpiresActive On
     ExpiresDefault none
 
