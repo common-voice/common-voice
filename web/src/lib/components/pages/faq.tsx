@@ -23,6 +23,9 @@ export default class FAQ extends Component<Props, State> {
       <h3>Why is Common Voice part of the Mozilla mission?</h3>
       <p>Mozilla is dedicated to keeping the web open and accessible for everyone. To do it we need to empower web creators through projects like Common Voice. As voice technologies proliferate beyond niche applications, we believe they must serve all users equally well. We see a need to include more languages, accents and demographics when building and testing voice technologies. Mozilla wants to see a healthy, vibrant internet. That means giving new creators access to voice data so they can build new, extraordinary projects. Common Voice will be a public resource that will help Mozilla teams and developers around the world. </p>
 
+      <h3>I am a non-native English speaker and I speak with an accent, do you still want my voice?</h3>
+      <p>Yes, we definitely want your voice! Part of the aim of Common Voice is to gather as many different accents as possible, so that computers can better understand <b>everyone</b> when they speak.</p>
+
       <h3>Will speech to text, via Common Voice, ever become part of Firefox?</h3>
       <p>Common Voice has unlimited potential and we would eventually integrate these engines into our Mozilla products as well—that means Firefox.</p>
 
