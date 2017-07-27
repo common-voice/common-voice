@@ -3,21 +3,21 @@
     {
       "type": "shell",
       "inline": [
-        "sudo mkdir -p -m 755 /var/www/voice",
-        "sudo chown ubuntu:ubuntu /var/www/voice"
+        "sudo mkdir -p -m 755 /var/www/{{user `project_name`}}",
+        "sudo chown ubuntu:ubuntu /var/www/{{user `project_name`}}"
       ],
       "order": "1"
     },
     {
       "type": "file",
       "source": "./",
-      "destination": "/var/www/voice",
+      "destination": "/var/www/{{user `project_name`}}",
       "order": "2"
     },
     {
       "type": "shell",
       "inline": [
-        "sudo chown -R root:root /var/www/voice"
+        "sudo chown -R root:root /var/www/{{user `project_name`}}"
       ],
       "order": "3"
     }

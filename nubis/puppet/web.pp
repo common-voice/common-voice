@@ -9,7 +9,7 @@ class { 'apache::mod::proxy_http': }
 apache::vhost { $project_name:
     port               => 80,
     default_vhost      => true,
-    docroot            => '/var/www/html',
+    docroot            => "/var/www/${project_name}/web",
     docroot_owner      => 'root',
     docroot_group      => 'root',
     block              => ['scm'],
@@ -27,6 +27,12 @@ apache::vhost { $project_name:
 
     # Proxy to nodejs ( keep retrying on backend failures )
     ProxyPass /server-status !
+
+    # Handle static content ourselves
+    ProxyPass /img !
+    ProxyPass /css !
+    ProxyPass /font !
+
     ProxyPass / http://localhost:9000/ retry=0
     ProxyPassReverse / http://localhost:9000/
 
