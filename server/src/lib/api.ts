@@ -122,7 +122,9 @@ export default class API {
             return [];
           }
 
-          return fileContents.split('\n');
+          // Remove any blank line sentences.
+          let fileSentences = fileContents.split('\n');
+          return fileSentences.filter(sentence => { return !!sentence; });
         });
 
         sentences = sentences.concat.apply(sentences, sentenceArrays);
