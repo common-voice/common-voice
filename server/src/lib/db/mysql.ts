@@ -15,7 +15,7 @@ type MysqlOptions = {
 const DEFAULTS = {
   user: 'voiceweb',
   database: 'voiceweb',
-  password: '',
+  password: null,
   host: 'localhost',
   port: 3306,
   max: 10,
@@ -42,7 +42,17 @@ export default class Mysql {
             DEFAULTS.idleTimeoutMillis,
     };
 
-    this.pool  = mysql.createPool({
+    let isEmptyString = function(str: string): boolean {
+      return typeof str !== 'undefined'
+           && !str.length;
+    };
+
+    if (isEmptyString(options.password)
+        || (!options.password && isEmptyString(config.MYSQLPASS))) {
+      myConfig.password = null;
+    }
+
+    this.pool = mysql.createPool({
         connectionLimit : 100,
         host            : myConfig.host,
         user            : myConfig.user,
