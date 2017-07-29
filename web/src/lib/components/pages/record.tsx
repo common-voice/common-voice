@@ -27,6 +27,7 @@ interface RecordProps {
   onRecordStop: Function;
   onRecordingSet: Function;
   onDelete: Function;
+  onVolume(volume: number): void;
 }
 
 interface RecordState {
@@ -70,6 +71,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     } else {
       this.audio = new AudioWeb();
     }
+    this.audio.setVolumeCallback(this.updateVolume.bind(this));
 
     if (!this.audio.isMicrophoneSupported()) {
       this.isUnsupportedPlatform = true;
@@ -85,7 +87,6 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       this.isUnsupportedPlatform = true;
       return;
     }
-
 
     // Bind now, to avoid memory leak when setting handler.
     this.onSubmit = this.onSubmit.bind(this);
@@ -156,6 +157,14 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     this.setState({ uploadProgress: percent });
   }
 
+  private updateVolume(volume: number) {
+    if (!this.state.recording || !this.props.onVolume) {
+      return;
+    }
+
+    this.props.onVolume(volume);
+  }
+
   private onSubmit() {
     if (this.state.uploading) {
       return;
@@ -209,6 +218,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
   private reset(): void {
     this.setState({
+      recording: false,
       recordings: [],
       sentences: [],
       uploading: false,

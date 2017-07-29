@@ -10,6 +10,7 @@ export default class AudioIOS {
   postMessage: Function;
   pendingStart: Function;
   pendingStartError: Function;
+  volumeCallback: Function
 
   static AUDIO_TYPE: string = 'audio/m4a;base64';
   last: AudioInfo;
@@ -81,6 +82,10 @@ export default class AudioIOS {
 
   init() {
     return Promise.resolve();
+  }
+
+  setVolumeCallback(cb: Function) {
+    this.volumeCallback = cb;
   }
 
   start(): Promise<void> {

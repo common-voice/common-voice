@@ -20,6 +20,9 @@ export default class AudioWeb {
   lastRecordingData: Blob;
   lastRecordingUrl: string;
   initPromise: Promise<void>;
+  frequencyBins: Uint8Array;
+  volumeCallback: Function;
+  jsNode: any;
 
   constructor() {
 
@@ -27,6 +30,8 @@ export default class AudioWeb {
     if (isNativeIOS()) {
       throw new Error('cannot use web audio in iOS app');
     }
+
+    this.visualize = this.visualize.bind(this);
 
     this.ready = false;
   }
@@ -69,6 +74,36 @@ export default class AudioWeb {
     return (typeof MediaRecorder !== 'undefined');
   }
 
+  private visualize() {
+    this.analyzerNode.getByteFrequencyData(this.frequencyBins);
+
+    let sum = 0;
+    for (var i = 0; i < this.frequencyBins.length; i++) {
+      sum += this.frequencyBins[i];
+    }
+
+    let average = sum / this.frequencyBins.length;
+
+    if (this.volumeCallback) {
+      this.volumeCallback(average);
+    }
+  }
+
+  private startVisualize() {
+    this.jsNode.onaudioprocess = this.visualize;
+  }
+
+  private stopVisualize() {
+    this.jsNode.onaudioprocess = undefined;
+    if (this.volumeCallback) {
+      this.volumeCallback(100);
+    }
+  }
+
+  setVolumeCallback(cb: Function) {
+    this.volumeCallback = cb;
+  }
+
   init() {
     if (this.initPromise) {
       return this.initPromise;
@@ -103,6 +138,12 @@ export default class AudioWeb {
       // 22kHz or more, and we only care about visualizing lower frequencies
       // which is where most human voice lies, so we use fewer bins
       analyzerNode.fftSize = 128;
+      analyzerNode.smoothingTimeConstant = 0.96;
+      this.frequencyBins = new Uint8Array(analyzerNode.frequencyBinCount);
+
+      // Setup audio visualizer.
+      this.jsNode = audioContext.createScriptProcessor(256, 1, 1);
+      this.jsNode.connect(audioContext.destination);
 
       // Another audio node used by the beep() function
       var beeperVolume = audioContext.createGain();
@@ -143,6 +184,7 @@ export default class AudioWeb {
       // We want to be able to record up to 60s of audio in a single blob.
       // Without this argument to start(), Chrome will call dataavailable
       // very frequently.
+      this.startVisualize();
       this.recorder.start(20000);
     });
   }
@@ -154,6 +196,8 @@ export default class AudioWeb {
     }
 
     return new Promise((res: Function, rej: Function) => {
+      this.stopVisualize();
+
       this.recorder.onstop = (e) => {
         let blob = new Blob(this.chunks, { 'type': AUDIO_TYPE });
         this.last = {
