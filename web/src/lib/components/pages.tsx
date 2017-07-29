@@ -54,15 +54,18 @@ interface PagesState {
   scrolled: boolean;
   currentPage: string;
   showingPrivacy: boolean;
+  transitioning: boolean;
   recording: boolean;
   robot: string;
   onPrivacyAction(didAgree: boolean): void;
+  recorderVolume: number;
 }
 
 export default class Pages extends Component<PagesProps, PagesState> {
   private header: HTMLElement;
   private scroller: HTMLElement;
   private content: HTMLElement;
+  private bg: HTMLElement;
 
   state = {
     isMenuVisible: false,
@@ -70,9 +73,11 @@ export default class Pages extends Component<PagesProps, PagesState> {
     scrolled: false,
     currentPage: null,
     showingPrivacy: false,
+    transitioning: false,
     recording: false,
     robot: '',
-    onPrivacyAction: undefined
+    onPrivacyAction: undefined,
+    recorderVolume: 100
   };
 
   constructor(props) {
@@ -86,6 +91,13 @@ export default class Pages extends Component<PagesProps, PagesState> {
     this.clearRobot = this.clearRobot.bind(this);
     this.openInApp = this.openInApp.bind(this);
     this.closeOpenInApp = this.closeOpenInApp.bind(this);
+    this.onVolume = this.onVolume.bind(this);
+  }
+
+  private onVolume(volume: number) {
+    if (!this.state.transitioning && this.state.recording) {
+      this.setState({ recorderVolume: volume });
+    }
   }
 
   private openInApp() {
@@ -143,8 +155,21 @@ export default class Pages extends Component<PagesProps, PagesState> {
   }
 
   private onRecord() {
+
+    // Callback function for when we've hidden the normal background.
+    let cb = () => {
+      console.log('does this ever happen?');
+      this.bg.removeEventListener('transitionend', cb);
+      this.setState({
+        transitioning: false,
+        recording: true
+      });
+    };
+    this.bg.addEventListener('transitionend', cb);
+
     this.setState({
-      recording: true
+      transitioning: true,
+      recording: false
     });
   }
 
@@ -154,8 +179,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
     });
   }
 
-  private addScrollListener() {
-    this.scroller.addEventListener('scroll', evt => {
+  private addScrollListener() { this.scroller.addEventListener('scroll', evt => {
       let scrolled = this.scroller.scrollTop > 0;
       if (scrolled !== this.state.scrolled) {
         this.setState({ scrolled: scrolled });
@@ -249,6 +273,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
     this.scroller = document.getElementById('scroller');
     this.content = document.getElementById('content');
     this.header = document.querySelector('header');
+    this.bg = document.getElementById('background-container');
     this.addScrollListener();
     this.setState({
       currentPage: this.props.currentPage,
@@ -282,8 +307,19 @@ export default class Pages extends Component<PagesProps, PagesState> {
   render() {
     let pageName = this.getCurrentPageName();
     let robotPosition = pageName === 'record' ? this.state.robot : pageName;
+    let className = pageName;
+    if (this.state.transitioning) {
+      className += ' hiding';
+    } else if (this.state.recording) {
+      className += ' recording';
+    }
 
-    let className = pageName + (this.state.recording ? ' recording' : '');
+    let bgStyle = '';
+    if (this.state.recording) {
+      let scale = Math.max(( 1.3 * (this.state.recorderVolume - 28) / 100 ), 0);
+      bgStyle = 'transform: scaleY(' + scale + ');';
+    }
+
     return <div id="main" className={className}>
       <div onClick={this.openInApp} id="install-app">Open in App
         <a onClick={this.closeOpenInApp}>X</a></div>
@@ -298,6 +334,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
         {this.renderNav('main-nav')}
       </header>
       <div id="scroller"><div id="scrollee">
+        <div id="background-container" style={bgStyle}></div>
         <div class="hero">
           <Robot position={(pageName === 'record' && this.state.robot) ||
                            pageName} onClick={page => {
@@ -315,6 +352,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
                   onRecord={this.onRecord}
                   onRecordStop={this.onRecordStop}
                   onRecordingSet={this.sayThanks}
+                  onVolume={this.onVolume}
                   onSubmit={this.uploadRecordings}
                   onDelete={this.clearRobot}
                   navigate={this.props.navigate} user={this.props.user} />
