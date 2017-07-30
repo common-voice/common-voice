@@ -12,7 +12,7 @@ export default class FAQ extends Component<Props, State> {
     return <div id="faq-container" className={this.props.active}>
       <h1>Frequently Asked Questions</h1>
       <h3>What is Common Voice?</h3>
-      <p>Voice recognition technology could revolutionize the way we interact with machines, but it’s expensive and proprietary. Common Voice is a project to make voice recognition technology easily accessible to everyone. People donate their voices to a massive database that will let anyone quickly and easily train voice-enabled apps. All voice data will be available to developers.</p>
+      <p>Voice recognition technology could revolutionize the way we interact with machines, but the currently available systems are expensive and proprietary. Common Voice is a project to make voice recognition technology easily accessible to everyone. People donate their voices to a massive database that will let anyone quickly and easily train voice-enabled apps. All voice data will be available to developers.</p>
 
       <h3>Why is it important?</h3>
       <p>Voice is natural, voice is human. It’s the easiest and most natural way to communicate. With Common Voice, developers can build amazing things––from real-time translators to voice-enabled administrative assistants. But the data they need to build these apps isn’t publicly available. Common Voice will give them what they need to innovate.</p>
@@ -42,8 +42,3 @@ export default class FAQ extends Component<Props, State> {
     </div>;
   }
 }
-
-
-
-
-
