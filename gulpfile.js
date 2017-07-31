@@ -32,7 +32,7 @@ function listen() {
   require('gulp-nodemon')({
     script: SERVER_SCRIPT,
     // Use [c] here to workaround nodemon bug #951
-    watch: [DIR_SERVER_JS, DIR_DIST, '[c]onfig.json'],
+    watch: [DIR_SERVER_JS, DIR_CLIENT, '[c]onfig.json'],
     delay: RELOAD_DELAY,
   });
 }
