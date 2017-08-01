@@ -76,6 +76,11 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       return;
     }
 
+    if (!this.audio.isAudioRecordingSupported()) {
+      this.isUnsupportedPlatform = true;
+      return;
+    }
+
     if (isFocus()) {
       this.isUnsupportedPlatform = true;
       return;

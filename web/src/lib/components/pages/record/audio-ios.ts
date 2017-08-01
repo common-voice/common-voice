@@ -23,6 +23,10 @@ export default class AudioIOS {
     return true;
   }
 
+  isAudioRecordingSupported() {
+    return true;
+  }
+
   // For audio src URL, we need to trick webkit into
   // thinking this is an mp4 base64 encoding.
   static AUDIO_TYPE_URL: string = 'audio/mp4;base64';
