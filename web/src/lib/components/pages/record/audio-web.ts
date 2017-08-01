@@ -64,6 +64,11 @@ export default class AudioWeb {
       navigator.mozGetUserMedia;
   }
 
+  // Check if audio recording is supported
+  isAudioRecordingSupported() {
+    return (typeof MediaRecorder !== 'undefined');
+  }
+
   init() {
     if (this.initPromise) {
       return this.initPromise;
