@@ -42,13 +42,12 @@ export default class Mysql {
             DEFAULTS.idleTimeoutMillis,
     };
 
-    let isEmptyString = function(str: string): boolean {
-      return typeof str !== 'undefined'
-           && !str.length;
-    };
-
-    if (isEmptyString(options.password)
-        || (!options.password && isEmptyString(config.MYSQLPASS))) {
+    // Empty strings are evaluated to false, so if the password is an empty
+    // string, the next one in the order of priority would be used. Prevent
+    // this.
+    if (options.password === ''
+        || (!options.password && config.MYSQLPASS === '')) {
+      // An empty password is equivalent to no password.
       myConfig.password = null;
     }
 
