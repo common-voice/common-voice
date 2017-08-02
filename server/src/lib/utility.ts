@@ -14,9 +14,9 @@ export function getFileExt(path: string): string {
  * arguments.
  */
 export function getFirstDefined(...options) {
-  for (var i = 0; i < arguments.length; i++) {
-    if (arguments[i] !== undefined) {
-      return arguments[i];
+  for (var i = 0; i < options.length; i++) {
+    if (options[i] !== undefined) {
+      return options[i];
     }
   }
   return null;
