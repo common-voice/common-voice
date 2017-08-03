@@ -1,3 +1,5 @@
+import { getFirstDefined } from '../utility';
+
 const mysql = require('mysql');
 const config = require('../../../../config.json');
 
@@ -27,22 +29,29 @@ export default class Mysql {
 
   constructor(options?: MysqlOptions) {
     options = options || Object.create(null);
+
     // For configuring, use the following order of priority:
     //   1. passed in options
     //   2. options in config.json
     //   3. hard coded DEFAULTS
     var myConfig = {
-        user: options.user || config.MYSQLUSER || DEFAULTS.user,
-        database: options.database || config.MYSQLDB || DEFAULTS.database,
-        password: options.password || config.MYSQLPASS || DEFAULTS.password,
-        host: options.host || config.MYSQLHOST || DEFAULTS.host,
-        port: options.port || config.MYSQLPORT || DEFAULTS.port,
-        max: options.max || DEFAULTS.max,
-        idleTimeoutMillis: options.idleTimeoutMillis ||
-            DEFAULTS.idleTimeoutMillis,
+        user: getFirstDefined(
+          options.user, config.MYSQLUSER, DEFAULTS.user),
+        database: getFirstDefined(
+          options.database, config.MYSQLDB, DEFAULTS.database),
+        password: getFirstDefined(
+          options.password, config.MYSQLPASS, DEFAULTS.password),
+        host: getFirstDefined(
+          options.host, config.MYSQLHOST, DEFAULTS.host),
+        port: getFirstDefined(
+          options.port, config.MYSQLPORT, DEFAULTS.port),
+        max: getFirstDefined(
+          options.max, DEFAULTS.max),
+        idleTimeoutMillis: getFirstDefined(
+          options.idleTimeoutMillis, DEFAULTS.idleTimeoutMillis),
     };
 
-    this.pool  = mysql.createPool({
+    this.pool = mysql.createPool({
         connectionLimit : 100,
         host            : myConfig.host,
         user            : myConfig.user,
