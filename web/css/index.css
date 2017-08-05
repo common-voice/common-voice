@@ -618,44 +618,114 @@ header.active {
 }
 
 #scrollee {
-  background-size: 100% 20rem;
-  background-repeat: repeat-x;
-  background-position: center 0.7rem;
+  position: relative;
 }
 
+.faq #background-container,
+.terms #background-container,
+.privacy #background-container,
+.profile #background-container {
+  opacity: 0;
+}
+
+#background-container {
+  position: absolute;
+  top: 0.7rem;
+  left: 0;
+  right: 0;
+  height: 20rem;
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: 100% 100%;
+  z-index: var(--bottom-z-index);
+  transition: opacity 0.4s var(--bounce-curve), transform 0.2s linear;
+}
+
+#background-container:after {
+  content : "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 20rem;
+  opacity: 0;
+  transition: opacity 0.2s linear;
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.hiding #background-container {
+  transform: scaleY(0.4);
+}
+
+/* Don't use background transitions on desktop since
+ * Normal scaling is already smooth enough */
+body:not(.ios) .recording #background-container {
+  transition: opacity 0.4 var(--bounce-curve);
+}
+
+/* For native iOS css background image is not performance
+ * so we use inline images instead */
+.ios #background-container {
+  background: none !important;
+}
+
+.ios #background-container:after {
+  display: none !important;
+}
+
+.ios #background-container img {
+  position: absolute;
+  top: 0; bottom: 0;
+  left: 0; right: 0;
+  transition: opacity 0.2s linear;
+}
+
+.ios .recording #background-container img:first-child,
+.ios #background-container img:last-child {
+  opacity: 0;
+}
+
+.ios .recording #background-container img:last-child {
+  opacity: 1;
+}
 
 @media (max-width: 600px) {
-  #scrollee {
-    background-size: 100% 12.5rem;
+  #background-container {
+    height: 12.5rem;
     background-image: var(--base-background-image-mobile);
   }
-}
-
-@media (min-width: 600px) {
-  #scrollee {
-    background-image: var(--base-background-image);
-  }
-}
-
-@media (min-width: 600px) {
-  .recording #scrollee {
-    background-size: 100% 20rem;
-    background-image: var(--record-background-image);
-  }
-}
-
-@media (max-width: 600px) {
-  .recording #scrollee {
-    background-size: 100% 12.5rem;
+  #background-container:after {
+    height: 12.5rem;
     background-image: var(--record-background-image-mobile);
   }
 }
 
-.faq #scrollee,
-.terms #scrollee,
-.privacy #scrollee,
-.profile #scrollee {
-  background: none;
+@media (min-width: 600px) {
+  #background-container {
+    height: 20rem;
+    background-image: var(--base-background-image);
+  }
+  #background-container:after {
+    background-image: var(--record-background-image);
+  }
+}
+
+@media (min-width: 600px) {
+  .recording #background-container:after {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  .recording #background-container {
+    background:none;
+  }
+  .recording #background-container:after {
+    opacity: 1;
+  }
 }
 
 #install-app {
@@ -861,6 +931,7 @@ header.active {
   text-align: center;
   height: var(--hero-height);
   border-bottom: 3px solid var(--base-font-color);
+  position: relative;
 }
 
 @media (max-width: 600px) {
@@ -1253,18 +1324,16 @@ header.active {
   width: 2.5rem;
   margin: 1rem 0;
   cursor: pointer;
-  transition: transform 0.2s linear;
-}
-
-@media (min-width: 600px) {
-  #record-button:hover:not(.ios) {
-    transform: scale(1.2);
-  }
 }
 
 .recording #record-button {
   background-color: var(--color-speak-light);
   border-color: var(--color-speak);
+  animation: throb 1.2s ease-in-out infinite;
+}
+
+@keyframes throb {
+  50%{transform: scale(1.1);}
 }
 
 #undo-clip {

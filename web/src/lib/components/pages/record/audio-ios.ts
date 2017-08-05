@@ -3,6 +3,8 @@ import { isNativeIOS } from '../../../utility';
 import { AudioInfo } from './audio-web';
 import confirm from '../../confirm';
 
+const LEVELS_THROTTLE = 50;
+
 declare var webkit;
 declare var vcopensettings;
 
@@ -10,6 +12,8 @@ export default class AudioIOS {
   postMessage: Function;
   pendingStart: Function;
   pendingStartError: Function;
+  volumeCallback: Function;
+  lastUpdate: number;
 
   static AUDIO_TYPE: string = 'audio/m4a;base64';
   last: AudioInfo;
@@ -64,9 +68,21 @@ export default class AudioIOS {
       throw new Error('cannot use ios audio in web app');
     }
 
-    // Native will call this function with audio info,
-    // but we are not yet interested.
-    window['levels'] = () => {};
+    // Native will call this function with decibels from -120 to 0.
+    this.lastUpdate = Date.now();
+    window['levels'] = (decibels) => {
+      if (!this.volumeCallback) {
+        return;
+      }
+
+      let now = Date.now();
+      if (now - this.lastUpdate > LEVELS_THROTTLE) {
+        this.lastUpdate = now;
+        // Scale and shift to get a nice sound curve.
+        let volume = (parseInt(decibels, 10) + 70) * 1.5;
+        this.volumeCallback(volume);
+      }
+    };
 
     // Handle any messages coming from native.
     window['nativemsgs'] = this.handleNativeMessage.bind(this);
@@ -81,6 +97,10 @@ export default class AudioIOS {
 
   init() {
     return Promise.resolve();
+  }
+
+  setVolumeCallback(cb: Function) {
+    this.volumeCallback = cb;
   }
 
   start(): Promise<void> {
