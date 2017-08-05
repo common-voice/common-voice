@@ -87,7 +87,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
     // On native iOS, we found some issues animating the css background
     // image during recording, so we use this as a more performant alternative.
     this.iOSBackground = [];
-    if (true || isNativeIOS()) {
+    if (isNativeIOS()) {
       this.iOSBackground = [
         <img src="/img/wave-blue-mobile.png" />,
         <img src="/img/wave-red-mobile.png" />
