@@ -660,8 +660,36 @@ header.active {
   transform: scaleY(0.4);
 }
 
-.recording #background-container {
+/* Don't use background transitions on desktop since
+ * Normal scaling is already smooth enough */
+body:not(.ios) .recording #background-container {
   transition: opacity 0.4 var(--bounce-curve);
+}
+
+/* For native iOS css background image is not performance
+ * so we use inline images instead */
+.ios #background-container {
+  background: none !important;
+}
+
+.ios #background-container:after {
+  display: none !important;
+}
+
+.ios #background-container img {
+  position: absolute;
+  top: 0; bottom: 0;
+  left: 0; right: 0;
+  transition: opacity 0.2s linear;
+}
+
+.ios .recording #background-container img:first-child,
+.ios #background-container img:last-child {
+  opacity: 0;
+}
+
+.ios .recording #background-container img:last-child {
+  opacity: 1;
 }
 
 @media (max-width: 600px) {
@@ -904,7 +932,6 @@ header.active {
   height: var(--hero-height);
   border-bottom: 3px solid var(--base-font-color);
   position: relative;
-  z-index: var(--middle-z-index: 1);
 }
 
 @media (max-width: 600px) {

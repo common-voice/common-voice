@@ -24,7 +24,7 @@ export default class DebugBox extends Component<Props, State> {
 
   private addMessage(message: string) {
     let messages = this.state.messages;
-    messages.push(message);
+    messages.unshift(message);
     this.setState({
       messages: messages
     });

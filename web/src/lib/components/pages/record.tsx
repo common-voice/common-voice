@@ -222,7 +222,10 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     this.newSentenceSet();
   }
 
-  onRecordClick() {
+  onRecordClick(evt?: any) {
+    evt.preventDefault();
+    evt.stopImmediatePropagation();
+
     if (this.state.recording) {
       this.stopRecording();
 
@@ -342,7 +345,8 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
           <Icon id="undo-clip" type="undo" onClick={this.goBack}
             className={!showBack ? 'hide' : ''}/>
         </div>
-        <div id="record-button" onClick={this.onRecordClick}></div>
+        <div id="record-button" onTouchStart={this.onRecordClick}
+                                onClick={this.onRecordClick}></div>
         <p id="record-help">
           Please tap to record, then read the above sentence aloud.
         </p>
