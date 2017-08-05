@@ -1,5 +1,5 @@
 import { h, Component } from 'preact';
-import { getItunesURL } from '../utility';
+import { getItunesURL, isNativeIOS } from '../utility';
 import Logo from './logo';
 import Icon from './icon';
 import PrivacyContent from './privacy-content';
@@ -66,6 +66,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
   private scroller: HTMLElement;
   private content: HTMLElement;
   private bg: HTMLElement;
+  private iOSBackground: any[];
 
   state = {
     isMenuVisible: false,
@@ -82,6 +83,17 @@ export default class Pages extends Component<PagesProps, PagesState> {
 
   constructor(props) {
     super(props);
+
+    // On native iOS, we found some issues animating the css background
+    // image during recording, so we use this as a more performant alternative.
+    this.iOSBackground = [];
+    if (true || isNativeIOS()) {
+      this.iOSBackground = [
+        <img src="/img/wave-blue-mobile.png" />,
+        <img src="/img/wave-red-mobile.png" />
+      ];
+    }
+
     this.uploadRecordings = this.uploadRecordings.bind(this);
     this.onRecord = this.onRecord.bind(this);
     this.onRecordStop = this.onRecordStop.bind(this);
@@ -158,7 +170,6 @@ export default class Pages extends Component<PagesProps, PagesState> {
 
     // Callback function for when we've hidden the normal background.
     let cb = () => {
-      console.log('does this ever happen?');
       this.bg.removeEventListener('transitionend', cb);
       this.setState({
         transitioning: false,
@@ -334,7 +345,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
         {this.renderNav('main-nav')}
       </header>
       <div id="scroller"><div id="scrollee">
-        <div id="background-container" style={bgStyle}></div>
+        <div id="background-container" style={bgStyle}>{this.iOSBackground}</div>
         <div class="hero">
           <Robot position={(pageName === 'record' && this.state.robot) ||
                            pageName} onClick={page => {
