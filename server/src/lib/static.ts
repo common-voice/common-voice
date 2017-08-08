@@ -1,23 +1,24 @@
 import * as http from 'http';
+import Responder from './responder';
 
 const path = require('path');
 const fs = require('fs');
 
 const MIME_TYPES = {
-  '.html': 'text/html',
-  '.js': 'text/javascript',
-  '.css': 'text/css',
-  '.json': 'application/json',
-  '.png': 'image/png',
-  '.jpg': 'image/jpg',
-  '.gif': 'image/gif',
-  '.svg': 'image/svg+xml',
-  '.wav': 'audio/wav',
-  '.mp4': 'video/mp4',
-  '.woff': 'application/font-woff',
-  '.ttf': 'application/font-ttf',
-  '.eot': 'application/vnd.ms-fontobject',
-  '.otf': 'application/font-otf',
+  '.html': Responder.CONTENT_TYPES.HTML,
+  '.js'  : Responder.CONTENT_TYPES.JS,
+  '.css' : Responder.CONTENT_TYPES.CSS,
+  '.json': Responder.CONTENT_TYPES.JSON,
+  '.png' : Responder.CONTENT_TYPES.PNG,
+  '.jpg' : Responder.CONTENT_TYPES.JPG,
+  '.gif' : Responder.CONTENT_TYPES.GIF,
+  '.svg' : Responder.CONTENT_TYPES.SVG,
+  '.wav' : Responder.CONTENT_TYPES.WAV,
+  '.mp4' : Responder.CONTENT_TYPES.MP4,
+  '.woff': Responder.CONTENT_TYPES.WOFF,
+  '.ttf' : Responder.CONTENT_TYPES.TTF,
+  '.eot' : Responder.CONTENT_TYPES.EOT,
+  '.otf' : Responder.CONTENT_TYPES.OTF,
 };
 
 export default class Static {
@@ -43,13 +44,10 @@ export default class Static {
     });
   }
 
-  private send(response: http.ServerResponse, type: string, content: string) {
-    response.writeHead(200, { 'Content-Type': type });
-    response.end(content, 'utf-8');
-  }
-
   private sendIndexFile(response) {
-    this.send(response, 'text/html', this.indexFile);
+    new Responder(response).setContentType(Responder.CONTENT_TYPES.HTML)
+                           .setContent(this.indexFile)
+                           .send();
   }
 
   handleRequest(request: http.IncomingMessage,
@@ -67,7 +65,9 @@ export default class Static {
 
     // Try to get the file contents from memory.
     if (this.fileCache[filePath]) {
-      this.send(response, contentType, this.fileCache[filePath]);
+      new Responder(response).setContentType(contentType)
+                             .setContent(this.fileCache[filePath])
+                             .send();
       return;
     }
 
@@ -83,14 +83,17 @@ export default class Static {
       // For 404 pages, we send the index page, and let the app display 404.
       if(error && error.code == 'ENOENT'){
         this.notFounds[filePath] = true;
-        this.send(response, 'text/html', this.indexFile);
+        new Responder(response).setContentType(Responder.CONTENT_TYPES.HTML)
+                               .setContent(this.indexFile)
+                               .send();
         return;
       }
 
       if (error) {
         console.error('error loading static file', filePath, error);
-        response.writeHead(500);
-        response.end('Unable to load page.');
+        new Responder(response).setStatusCode(500)
+                               .setContent('Unable to load page.')
+                               .send();
         return;
       }
 
@@ -101,7 +104,9 @@ export default class Static {
       }
 
       this.fileCache[filePath] = content;
-      this.send(response, contentType, content);
+      new Responder(response).setContentType(contentType)
+                             .setContent(content)
+                             .send();
     });
   }
 }
