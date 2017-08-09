@@ -1357,8 +1357,6 @@ body:not(.ios) .recording #background-container {
 #record-help {
   font-size: 1rem;
   padding: 0 2rem;
-  line-height: 1em;
-  margin-bottom: 2px;
 }
 
 #voice-submit {
