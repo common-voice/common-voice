@@ -29,10 +29,12 @@
   },
   "devDependencies": {
     "@types/node": "7.0.29",
-    "gulp-clean-css": "^3.4.1",
+    "cssnano": "^3.10.0",
     "gulp-nodemon": "2.2.1",
+    "gulp-postcss": "^7.0.0",
     "gulp-typescript": "^3.1.6",
-    "typescript": "^2.3.4",
-    "mysql": "2.13.0"
+    "mysql": "2.13.0",
+    "postcss-cssnext": "^3.0.2",
+    "typescript": "^2.3.4"
   }
 }
