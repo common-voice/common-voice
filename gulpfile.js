@@ -64,9 +64,15 @@ function getVendorJS() {
 }
 
 function compileCSS() {
-  var cleanCSS = require('gulp-clean-css');
+  var postcss = require('gulp-postcss');
+  var cssnext = require('postcss-cssnext');
+  var cssnano = require('cssnano');
+  var plugins = [
+    cssnext({browsers: ['last 2 versions']}),
+    cssnano()
+  ];
   return gulp.src(PATH_CSS)
-    .pipe(cleanCSS())
+    .pipe(postcss(plugins))
     .pipe(gulp.dest(DIR_DIST));
 }
 
