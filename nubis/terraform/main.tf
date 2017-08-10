@@ -53,16 +53,6 @@ module "database" {
   client_security_groups = "${module.worker.security_group}"
 }
 
-module "storage" {
-  source                 = "github.com/nubisproject/nubis-terraform//storage?ref=v1.5.0"
-  region                 = "${var.region}"
-  environment            = "${var.environment}"
-  account                = "${var.account}"
-  service_name           = "${var.service_name}"
-  storage_name           = "${var.service_name}"
-  client_security_groups = "${module.worker.security_group}"
-}
-
 module "clips" {
   source       = "github.com/nubisproject/nubis-terraform//bucket?ref=v1.5.0"
   region       = "${var.region}"
