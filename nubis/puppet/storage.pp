@@ -1,10 +1,3 @@
-include nubis_storage
-nubis::storage { $project_name:
-  type  => 'efs',
-  owner => 'voice-data',
-  group => 'voice-data',
-}
-
 # Create a user and a group for this
 group { "${project_name}-data":
   ensure => 'present',
@@ -24,6 +17,12 @@ user { "${project_name}-data":
 
 # Link to our mountpoint
 file { "/var/www/${project_name}/server/upload":
-  ensure => 'link',
-  target => "/data/${project_name}",
+  ensure  => 'directory',
+  owner   => "${project_name}-data",
+  group   => "${project_name}-data",
+  mode    => '0770',
+  require => [
+    Group["${project_name}-data"],
+    User["${project_name}-data"],
+  ],
 }
