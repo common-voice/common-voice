@@ -390,6 +390,11 @@ export default class Pages extends Component<PagesProps, PagesState> {
                 <Icon type="github" />
                 <p class="strong">Contribute</p>
               </a>
+              <a id="discourse"
+                 target="blank" href="https://discourse.mozilla-community.org/c/voice">
+                <Icon type="discourse" />
+                <p class="strong">Discourse</p>
+              </a>
             </div>
           </div>
           <div id="moz-links">
@@ -401,7 +406,6 @@ export default class Pages extends Component<PagesProps, PagesState> {
                   <a onClick={this.linkNavigate} href="/terms">Terms</a>
                   <a target="_blank" href="https://www.mozilla.org/en-US/privacy/websites/#cookies">Cookies</a>
                   <a onClick={this.linkNavigate} href="/faq">FAQ</a>
-                  <a target="blank" href="https://discourse.mozilla-community.org/c/voice">Discourse</a>
                 </p>
                 <p>Content available under a&nbsp;<a target="_blank" href="https://www.mozilla.org/en-US/foundation/licensing/website-content/">Creative Commons license</a></p>
               </div>
