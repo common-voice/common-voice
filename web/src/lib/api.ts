@@ -59,11 +59,9 @@ export default class API {
     });
   }
 
-  private fetchText(path: string): Promise<any> {
-    return this.fetch(path, { responseType: 'text' })
-      .then((req: XMLHttpRequest) => {
-        return req.responseText;
-      });
+  private async fetchText(path: string): Promise<any> {
+    const req = await this.fetch(path, { responseType: 'text' });
+    return req.responseText;
   }
 
   private requestResourceText(resource): Promise<string> {
@@ -78,11 +76,9 @@ export default class API {
     return API.DEFAULT_BASE + resource;
   }
 
-  getRandomSentences(count?: number): Promise<string[]> {
-    return this.requestResourceText('sentence' + (count ? '/' + count : ''))
-      .then(sentencesText => {
-        return sentencesText.split('\n');
-      });
+  async getRandomSentences(count?: number): Promise<string[]> {
+    const sentencesText = await this.requestResourceText('sentence' + (count ? '/' + count : ''))
+    return sentencesText.split('\n');
   }
 
   getTextFromUrl(url): Promise<string> {
@@ -92,25 +88,23 @@ export default class API {
   /**
    * Ask the server for a clip
    */
-  getRandomClip(): Promise<Clip> {
-    return this.fetch('upload/random/', { responseType: 'blob', headers: {'uid': this.user.getId()}})
-      .then((req: XMLHttpRequest) => {
-        let src = window.URL.createObjectURL(req.response);
-        let glob = decodeURIComponent(req.getResponseHeader('glob'));
-        let sentence = decodeURIComponent(req.getResponseHeader('sentence'));
-        return Promise.resolve({ glob: glob, audio: src, sentence: sentence });
-      });
+  async getRandomClip(): Promise<Clip> {
+    const req = await this.fetch('upload/random/', { responseType: 'blob', headers: {'uid': this.user.getId()}})
+    let src = window.URL.createObjectURL(await req.response);
+    let glob = decodeURIComponent(await req.getResponseHeader('glob'));
+    let sentence = decodeURIComponent(await req.getResponseHeader('sentence'));
+    return { glob: glob, audio: src, sentence: sentence };
+    
   }
 
   /**
    * Ask the server for a clip
    */
-  getRandomClipJson(): Promise<ClipJson> {
-    return this.fetch('upload/random.json', { responseType: 'json', headers: {'uid': this.user.getId()}})
-      .then((req: XMLHttpRequest) => {
-        let response = req.response as ClipJson;
-        return Promise.resolve(response);
-      });
+  async getRandomClipJson(): Promise<ClipJson> {
+    const req = await this.fetch('upload/random.json', { responseType: 'json', headers: {'uid': this.user.getId()}})
+
+    let response = req.response as ClipJson;
+    return await response;
   }
 
   castVote(glob: string, vote: boolean): Promise<Event> {
