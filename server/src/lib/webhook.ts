@@ -1,5 +1,5 @@
 import * as http from 'http';
-import Responder from './responder';
+import respond from './responder';
 
 const path = require('path');
 const SimpleGit = require('simple-git');
@@ -32,9 +32,7 @@ export default class WebHook {
 
     // Only post requests allowed.
     if (request.method !== 'POST') {
-      new Responder(response).setStatusCode(400)
-                             .setContent('BAD REQUEST')
-                             .send();
+      respond(response, 'BAD REQUEST', 400);
       return;
     }
 
@@ -44,14 +42,12 @@ export default class WebHook {
       try {
         info = JSON.parse(buffer.toString());
       } catch(e) {
-        new Responder(response).setStatusCode(400)
-                               .setContent('BAD REQUEST')
-                               .send();
+        respond(response, 'BAD REQUEST', 400);
         return;
       }
 
       // Thank you github, you can go home now.
-      new Responder(response).setContent('OK').send();
+      respond(response, 'OK');
 
       // Update local repository if commit was to master branch.
       if (info.ref === 'refs/heads/master') {

@@ -1,6 +1,6 @@
 import * as http from 'http';
 import WebHook from './webhook';
-import Responder from './responder';
+import respond from './responder';
 
 const path = require('path');
 const fs = require('fs');
@@ -90,9 +90,7 @@ export default class API {
     // Unrecognized requests get here.
     } else {
       console.error('unrecongized api url', request.url);
-      new Responder(response).setStatusCode(404)
-                             .setContent('I\'m not sure what you want.')
-                             .send();
+      respond(response, 'I\'m not sure what you want.', 404);
     }
   }
 
@@ -147,12 +145,10 @@ export default class API {
     this.getSentences().then((sentences: String[]) => {
       return this.getRandomSentences(count);
     }).then(randoms => {
-      new Responder(response).setContent(randoms.join('\n')).send();
+      respond(response, randoms.join('\n'));
     }).catch((err: any) => {
       console.error('Could not load sentences', err);
-      new Responder(response).setStatusCode(500)
-                             .setContent('No sentences right now')
-                             .send();
+      respond(response, 'No sentences right now', 500);
     });
   }
 }

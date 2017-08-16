@@ -1,7 +1,7 @@
 import * as http from 'http';
 import Files from './files';
 import { getFileExt } from './utility';
-import Responder from './responder';
+import respond, { CONTENT_TYPES } from './responder';
 
 const ms = require('mediaserver');
 const path = require('path');
@@ -67,9 +67,7 @@ export default class Clip {
       ms.pipe(request, response, tmpFilePath);
     }).onError(err => {
       console.error('streaming audio error', err, err.stack);
-      new Responder(response).setStatusCode(500)
-                        .setContent('Server error, could not fetch audio data.')
-                        .send();
+      respond(response, 'Server error, could not fetch audio data.', 500);
     });
   }
 
@@ -154,10 +152,10 @@ export default class Clip {
   saveClipVote(request: http.IncomingMessage,
                   response: http.ServerResponse) {
       this.saveVote(request).then(timestamp => {
-        new Responder(response).setContent('' + timestamp).send();
+        respond(response, '' + timestamp);
       }).catch(e => {
         console.error('saving clip vote error', e, e.stack);
-        new Responder(response).setStatusCode(500).setContent('Error').send();
+        respond(response, 'Error', 500);
       });
   }
 
@@ -197,10 +195,10 @@ export default class Clip {
   saveClipDemographic(request: http.IncomingMessage,
                   response: http.ServerResponse) {
       this.saveDemographic(request).then(timestamp => {
-        new Responder(response).setContent('' + timestamp).send();
+        respond(response, '' + timestamp);
       }).catch(e => {
         console.error('saving clip demographic error', e, e.stack);
-        new Responder(response).setStatusCode(500).setContent('Error').send();
+        respond(response, 'Error', 500);
       });
   }
 
@@ -239,10 +237,10 @@ export default class Clip {
   saveClip(request: http.IncomingMessage,
                   response: http.ServerResponse) {
       this.save(request).then(timestamp => {
-        new Responder(response).setContent('' + timestamp).send();
+        respond(response, '' + timestamp);
       }).catch(e => {
         console.error('saving clip error', e, e.stack);
-        new Responder(response).setStatusCode(500).setContent('Error').send();
+        respond(response, 'Error', 500);
       });
   }
 
@@ -324,14 +322,10 @@ export default class Clip {
     }
 
     return this.files.getRandomClipJson(uid).then(clipJson => {
-      new Responder(response).setContentType(Responder.CONTENT_TYPES.JSON)
-                             .setContent(clipJson)
-                             .send();
+      respond(response, clipJson, 200, CONTENT_TYPES.JSON);
     }).catch(err => {
       console.error('could not get random clip', err);
-      new Responder(response).setStatusCode(500)
-                             .setContent('Still loading')
-                             .send();
+      respond(response, 'Still loading', 500);
     });
   }
 
@@ -374,9 +368,7 @@ export default class Clip {
       this.streamAudio(request, response, key);
     }).catch(err => {
       console.error('problem getting a random clip: ', err);
-      new Responder(response).setStatusCode(500)
-                             .setContent('Cannot fetch random clip right now.')
-                             .send();
+      respond(response, 'Cannot fetch random clip right now.', 500);
       return;
     });
   }
@@ -391,9 +383,7 @@ export default class Clip {
     this.s3.listObjectsV2(searchParam, (err: any, data: any) => {
       if (err) {
         console.error('Did not find specified clip', err);
-        new Responder(response).setStatusCode(404)
-                               .setContent('Unknown File')
-                               .send();
+        respond(response, 'Unknown File', 404);
         return;
       }
 
@@ -409,9 +399,7 @@ export default class Clip {
 
       if (!key) {
         console.error('could not find clip', data.Contents);
-        new Responder(response).setStatusCode(404)
-                               .setContent('Unknown File')
-                               .send();
+        respond(response, 'Unknown File', 404);
         return;
       }
 
