@@ -17,6 +17,7 @@ const SET_COUNT = 3;
 const PAGE_NAME = 'record';
 const MIN_RECORDING_LENGTH = 400;   // ms
 const MAX_RECORDING_LENGTH = 10000; // ms
+const MIN_VOLUME = 1;
 
 interface RecordProps {
   active: string;
@@ -37,6 +38,7 @@ interface RecordState {
   recording: boolean;
   recordingStartTime: number;
   recordingStopTime: number;
+  maxVolume: number;
   recordings: any[];
   uploading: boolean;
   uploadProgress: number;
@@ -55,6 +57,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     recording: false,
     recordingStartTime: 0,
     recordingStopTime: 0,
+    maxVolume: 0,
     recordings: [],
     uploading: false,
     uploadProgress: 0,
@@ -151,6 +154,9 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     if (length > MAX_RECORDING_LENGTH) {
       return 'The recording is too long.';
     }
+    if (this.state.maxVolume < MIN_VOLUME) {
+      return 'The recording is silent.';
+    }
   }
 
   private deleteRecording(index: number): void {
@@ -185,11 +191,21 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   }
 
   private updateVolume(volume: number) {
-    if (!this.state.recording || !this.props.onVolume) {
+    if (!this.state.recording) {
       return;
     }
 
-    this.props.onVolume(volume);
+    // For some reason, volume is always exactly 100 at the end of the
+    // recording, even if it is silent; so ignore that.
+    if (volume !== 100 && volume > this.state.maxVolume) {
+      this.setState({
+        maxVolume: volume
+      });
+    }
+
+    if (this.props.onVolume) {
+      this.props.onVolume(volume);
+    }
   }
 
   private onSubmit() {
@@ -274,7 +290,8 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     this.setState({
       recording: true,
       // TODO: reanble display of recording time at some point.
-      recordingStartTime: Date.now()
+      recordingStartTime: Date.now(),
+      maxVolume: 0
     });
     this.props.onRecord && this.props.onRecord();
   }
