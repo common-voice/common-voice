@@ -2,13 +2,13 @@ import * as http from 'http';
 import API from './lib/api';
 import Clip from './lib/clip';
 import Logger from './lib/logger';
-import Static from './lib/static';
 
 const DEFAULT_PORT = 9000;
 const SLOW_REQUEST_LIMIT = 2000;
 const CONFIG_PATH = '../../config.json';
 const CLIENT_PATH = '../../web';
 
+const nodeStatic = require('node-static');
 const config = require(CONFIG_PATH);
 const path = require('path');
 
@@ -16,10 +16,10 @@ export default class Server {
   api: API;
   clip: Clip;
   logger: Logger;
-  staticServer: Static;
+  staticServer: any;
 
   constructor() {
-    this.staticServer = new Static(path.join(__dirname, CLIENT_PATH));
+    this.staticServer = new nodeStatic.Server(path.join(__dirname, CLIENT_PATH), { cache: false });
     this.api = new API();
     this.clip = new Clip();
 
@@ -35,6 +35,8 @@ export default class Server {
    */
   private handleRequest(request: http.IncomingMessage,
                         response: http.ServerResponse) {
+    let startTime = Date.now();
+
     // Handle all clip related requests first.
     if (this.clip.isClipRequest(request)) {
       this.clip.handleRequest(request, response);
@@ -46,7 +48,26 @@ export default class Server {
       return;
     }
 
-    this.staticServer.handleRequest(request, response);
+    // If we get here, feed request to static parser.
+    request.addListener('end', () => {
+      this.staticServer.serve(request, response, (err: any) => {
+        if (err && err.status === 404) {
+          console.error('page not found', request.url);
+
+          // If file was not front, use main page and
+          // let the front end handle url routing.
+          this.staticServer.serveFile('index.html', 200, {}, request, response);
+          return;
+        }
+
+        // Log slow static requests
+        let elapsed = Date.now() - startTime;
+        if (elapsed > SLOW_REQUEST_LIMIT) {
+          console.log('slow static request', elapsed, request.url);
+        }
+
+      })
+    }).resume();
   }
 
   /**
