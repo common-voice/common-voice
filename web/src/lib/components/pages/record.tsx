@@ -124,14 +124,6 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
     this.props.onRecordStop && this.props.onRecordStop();
 
-    if (!this.props.onRecordingSet) {
-      return;
-    }
-
-    if (this.isFull()) {
-      this.props.onRecordingSet();
-    }
-
     let error = this.checkRecording();
     if (error) {
       // Remove the invalid recording to go back.
@@ -143,6 +135,14 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
       console.log(error);
       // TODO display error to user
+    }
+
+    if (!this.props.onRecordingSet) {
+      return;
+    }
+
+    if (this.isFull()) {
+      this.props.onRecordingSet();
     }
   }
 
