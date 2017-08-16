@@ -112,7 +112,13 @@ export default class App {
     }
     let link = document.createElement('a');
     link.href = href;
-    return link.pathname;
+    
+    // Workaround for IE bug where pathname was not prefixed by '/'
+    const pathname = link.pathname;
+    if (pathname.indexOf('/') !== 0) {
+      return '/' + pathname;
+    }
+    return pathname;
   }
 
   /**

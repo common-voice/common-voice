@@ -7,7 +7,7 @@ export const ACCENTS = {
   '': '--',
   'us': 'United States English',
   'australia': 'Australian English',
-  'england': 'British English',
+  'england': 'England English',
   'canada': 'Canadian English',
   'philippines': 'Filipino',
   'hongkong': 'Hong Kong English',

@@ -10,7 +10,6 @@ const fs = require('fs');
 const crypto = require('crypto');
 const Promise = require('bluebird');
 const mkdirp = require('mkdirp');
-const findRemoveSync = require('find-remove');
 const AWS = require('./aws');
 const PassThrough = require('stream').PassThrough;
 const Transcoder = require('stream-transcoder');
@@ -33,7 +32,6 @@ export default class Clip {
   constructor() {
     this.s3 = new AWS.S3();
     this.files = new Files();
-    setInterval(findRemoveSync.bind(this, UPLOAD_PATH, {age: {seconds: 300}, extensions: '.mp3'}), 300000);
   }
 
   /**
