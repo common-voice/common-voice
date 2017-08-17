@@ -2,6 +2,7 @@
   "name": "voice-web",
   "version": "1.0.0",
   "description": "",
+  "license": "MPL-2.0",
   "main": "server/server.js",
   "dependencies": {
     "aws-sdk": "^2.67.0",
