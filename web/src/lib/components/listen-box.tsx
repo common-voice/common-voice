@@ -46,6 +46,21 @@ export default class ListenBox extends Component<Props, State> {
     audio: null
   };
 
+  private resetState() {
+    this.setState({
+      loaded: false,
+      playing: false,
+      played: false,
+      audio: null
+    });
+  }
+
+  componentWillReceiveProps(nextProps: Props) {
+    if (nextProps.sentence !== this.props.sentence) {
+      this.resetState();
+    }
+  }
+
   private onLoadStart() {
     this.setState({
       loaded: false
