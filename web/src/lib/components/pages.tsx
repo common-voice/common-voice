@@ -393,7 +393,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
               <a id="discourse"
                  target="blank" href="https://discourse.mozilla-community.org/c/voice">
                 <Icon type="discourse" />
-                <p class="strong">Discourse</p>
+                <p class="strong">Community</p>
               </a>
             </div>
           </div>

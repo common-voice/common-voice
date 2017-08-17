@@ -13,7 +13,7 @@ const ICONS = {
   firefox: '',
   chrome: '',
   help: '',
-  discourse: ''
+  discourse: ''
 }
 
 interface Props {
