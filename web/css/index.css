@@ -497,6 +497,10 @@ header.active {
   border-right: 1px solid black;
 }
 
+#help-links a:nth-child(2) {
+  border-right: 1px solid black;
+}
+
 #moz-links {
   font-size: 0.7rem;
   color: white;
