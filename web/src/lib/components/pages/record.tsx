@@ -19,6 +19,13 @@ const MIN_RECORDING_LENGTH = 400;   // ms
 const MAX_RECORDING_LENGTH = 10000; // ms
 const MIN_VOLUME = 1;
 
+enum RecordingValidity {
+  VALID,
+  TOO_SHORT,
+  TOO_LONG,
+  TOO_QUIET
+};
+
 interface RecordProps {
   active: string;
   user: User;
@@ -146,17 +153,18 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     }
   }
 
-  private checkRecording(): string {
+  private checkRecording(): RecordingValidity {
     const length = this.state.recordingStopTime - this.state.recordingStartTime;
     if (length < MIN_RECORDING_LENGTH) {
-      return 'The recording is too short.';
+      return RecordingValidity.TOO_SHORT;
     }
     if (length > MAX_RECORDING_LENGTH) {
-      return 'The recording is too long.';
+      return RecordingValidity.TOO_LONG;
     }
     if (this.state.maxVolume < MIN_VOLUME) {
-      return 'The recording is silent.';
+      return RecordingValidity.TOO_QUIET;
     }
+    return RecordingValidity.VALID;
   }
 
   private deleteRecording(index: number): void {
