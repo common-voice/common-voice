@@ -124,7 +124,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
     this.props.onRecordStop && this.props.onRecordStop();
 
-    let error = this.checkRecording();
+    const error = this.checkRecording();
     if (error) {
       // Remove the invalid recording to go back.
       let recordings = this.state.recordings;
@@ -147,7 +147,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   }
 
   private checkRecording(): string {
-    let length = this.state.recordingStopTime - this.state.recordingStartTime;
+    const length = this.state.recordingStopTime - this.state.recordingStartTime;
     if (length < MIN_RECORDING_LENGTH) {
       return 'The recording is too short.';
     }
