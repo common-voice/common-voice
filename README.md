@@ -14,6 +14,9 @@ Did you notice a bug? Do you have a feature request? Please file an issue [here 
 
 For general discussion (feedback, ideas, random musings), check out our [Discourse Category](https://discourse.mozilla-community.org/c/voice).
 
+### OS Dependencies
+* ffmpeg
+
 ### Development
 ```
 npm install
