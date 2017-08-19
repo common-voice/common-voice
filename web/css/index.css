@@ -545,10 +545,6 @@ header.active {
   color: var(--color-help);
 }
 
-#moz-links .links > :first-child a {
-  margin-right: 1.5rem;
-}
-
 @media (max-width: 600px) {
   #moz-links .links > p:last-child,
   #moz-links .links > :first-child a {
@@ -559,6 +555,8 @@ header.active {
 
 #moz-links .links > :first-child {
   margin-bottom: 0.2rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-list {
