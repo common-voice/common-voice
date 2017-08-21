@@ -96,11 +96,10 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     this.onProgress = this.onProgress.bind(this);
   }
 
-  private refillSentenceCache() {
-    return this.props.api.getRandomSentences(CACHE_SET_COUNT)
-      .then(newSentences => {
-        this.sentenceCache = this.sentenceCache.concat(newSentences);
-      });
+  private async refillSentenceCache() {
+    const newSentences = await this.props.api.getRandomSentences(CACHE_SET_COUNT)
+    this.sentenceCache = this.sentenceCache.concat(newSentences);
+    return this.sentenceCache;
   }
 
   private processRecording(info: AudioInfo) {
@@ -165,7 +164,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     this.props.onVolume(volume);
   }
 
-  private onSubmit() {
+  private async onSubmit() {
     if (this.state.uploading) {
       return;
     }
@@ -174,22 +173,20 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       uploading: true
     });
 
-    this.props.onSubmit(this.state.recordings, this.state.sentences, this.onProgress)
-      .then(() => {
-        this.reset();
-        this.tracker.trackSubmitRecordings();
-      })
-      .catch(() => {
-        this.setState({
-          uploading: false
-        });
-        confirm('You did not agree to our Terms of Service. Do you want to delete your recordings?', 'Keep the recordings', 'Delete my recordings').then((keep) => {
-          if (!keep) {
-            this.reset();
-            this.props.navigate('/');
-          }
-        })
+    try {
+      await this.props.onSubmit(this.state.recordings, this.state.sentences, this.onProgress);
+      this.reset();
+      this.tracker.trackSubmitRecordings();
+    } catch(e) {
+      this.setState({
+        uploading: false
       });
+      const keep = await confirm('You did not agree to our Terms of Service. Do you want to delete your recordings?', 'Keep the recordings', 'Delete my recordings')
+      if (!keep) {
+        this.reset();
+        this.props.navigate('/');
+      }
+    }
   }
 
   private isFull(): boolean {
@@ -227,7 +224,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     this.newSentenceSet();
   }
 
-  onRecordClick(evt?: any) {
+  async onRecordClick(evt?: any) {
     evt.preventDefault();
     evt.stopImmediatePropagation();
 
@@ -236,9 +233,8 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
     // Don't start a new recording when full.
     } else if (!this.isFull()) {
-      this.audio.init().then(() => {
-        this.startRecording();
-      });
+      await this.audio.init();
+      this.startRecording();
     }
   }
 
@@ -268,11 +264,12 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     this.props.onRecordStop && this.props.onRecordStop();
   }
 
-  newSentenceSet() {
+  async newSentenceSet() {
     // If we don't have any sentences in our cache, fill it and try again.
     if (this.sentenceCache.length < SET_COUNT) {
       console.error('slow path for getting new sentences');
-      this.refillSentenceCache().then(this.newSentenceSet.bind(this));
+      await this.refillSentenceCache();
+      this.newSentenceSet();
       return;
     }
 

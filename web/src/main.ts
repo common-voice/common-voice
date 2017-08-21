@@ -6,10 +6,9 @@ define('preact', () => { return preact; })
 document.addEventListener("touchstart", function(){}, true);
 
 // Start the app when DOM is ready.
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
   let App = require('./lib/app').default;
   let app = new App();
-  app.init().then(() => {
-    app.run();
-  });
+  await app.init();
+  app.run();
 });

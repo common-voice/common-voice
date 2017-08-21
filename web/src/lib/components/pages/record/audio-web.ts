@@ -189,7 +189,7 @@ export default class AudioWeb {
     });
   }
 
-  stop() {
+  stop(): Promise<AudioInfo | {}> {
     if (!this.ready) {
       console.error('Cannot stop audio before microhphone is ready.');
       return Promise.resolve({});

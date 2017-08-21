@@ -157,7 +157,7 @@ export default class App {
     ), document.body, document.body.firstElementChild);
   }
 
-  init(): Promise<void> {
+  async init(): Promise<void> {
 
     // Always force page to be ready after a specified time.
     setTimeout(() => {
@@ -165,19 +165,18 @@ export default class App {
       document.body.classList.add('loaded');
     }, LOAD_TIMEOUT);
 
-    return this.loadImages(progress => {
+    await this.loadImages(progress => {
       if (this.progressMeter) {
         // TODO: find something performant here. (ie not this)
         // let whatsLeft = 1 - progress;
         // this.progressMeter.style.cssText =
         //   `transform: scale(${whatsLeft});`;
       }
-    }).then(() => {
-      this.loaded = true;
-      setTimeout(() => {
-        document.body.classList.add('loaded');
-      }, LOAD_DELAY);
     });
+    this.loaded = true;
+    setTimeout(() => {
+      document.body.classList.add('loaded');
+    }, LOAD_DELAY);
   }
 
   /**

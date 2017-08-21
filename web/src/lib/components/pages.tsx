@@ -237,47 +237,42 @@ export default class Pages extends Component<PagesProps, PagesState> {
     });
   }
 
-  private uploadRecordings(recordings: any[],
+  private async uploadRecordings(recordings: any[],
                            sentences: string[],
                            progressCb: Function): Promise<void> {
+    try {
+      await this.ensurePrivacyAgreement();
+      let runningTotal = 0;
+      let originalTotal = recordings.length;
 
-    return new Promise<void>((res, rej) => {
-      this.ensurePrivacyAgreement().then(() => {
-        let runningTotal = 0;
-        let originalTotal = recordings.length;
+      // This function calls itself recursively until
+      // all recordings are uploaded.
+      let uploadNext = async () => {
+        if (recordings.length === 0) {
+          await this.props.api.uploadDemographicInfo();
+          return;
+        }
 
-        // This function calls itself recursively until
-        // all recordings are uploaded.
-        let uploadNext = () => {
-          if (recordings.length === 0) {
-            this.props.api.uploadDemographicInfo().then(() => {
-              return;
-            });
-            res();
-            return;
-          }
+        let recording = recordings.pop();
+        let blob = recording.blob;
+        let sentence = sentences.pop();
 
-          let recording = recordings.pop();
-          let blob = recording.blob;
-          let sentence = sentences.pop();
-
-          this.props.api.uploadAudio(blob, sentence).then(() => {
-            runningTotal++;
-            let percentage = Math.floor((runningTotal / originalTotal) * 100);
-            progressCb && progressCb(percentage);
-            this.props.user.tallyRecording();
-            uploadNext();
-          });
-        };
-
-        // Start the recursive chain to upload the recordings serially.
+        await this.props.api.uploadAudio(blob, sentence);
+        runningTotal++;
+        let percentage = Math.floor((runningTotal / originalTotal) * 100);
+        progressCb && progressCb(percentage);
+        this.props.user.tallyRecording();
         uploadNext();
-      }).catch(rej);
-    }).then(() => {
+      };
+
+      // Start the recursive chain to upload the recordings serially.
+      uploadNext();
+    }
+    finally {
       this.setState({
         robot: ''
       });
-    });
+    }
   }
 
   componentDidMount() {
