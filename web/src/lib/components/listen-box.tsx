@@ -138,7 +138,9 @@ export default class ListenBox extends Component<Props, State> {
           <Icon type="x"/>Nope.</a>
       </div>
       <audio className="audio-box"
-        src={this.props.src}
+        // Only include the src attribute if the source is defined
+        // (empty src attributes are invalid)
+        {...this.props.src && {src: this.props.src}}
         preload="auto"
         onLoadStart={this.onLoadStart}
         onCanPlayThrough={this.onCanPlayThrough}
