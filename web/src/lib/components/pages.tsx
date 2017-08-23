@@ -242,31 +242,21 @@ export default class Pages extends Component<PagesProps, PagesState> {
                            progressCb: Function): Promise<void> {
     try {
       await this.ensurePrivacyAgreement();
-      let runningTotal = 0;
-      let originalTotal = recordings.length;
+      const originalTotal = recordings.length;
 
       // This function calls itself recursively until
       // all recordings are uploaded.
-      let uploadNext = async () => {
-        if (recordings.length === 0) {
-          await this.props.api.uploadDemographicInfo();
-          return;
-        }
-
-        let recording = recordings.pop();
-        let blob = recording.blob;
-        let sentence = sentences.pop();
+      for (let runningTotal = 1; runningTotal <= originalTotal; runningTotal++) {
+        const recording = recordings.pop();
+        const blob = recording.blob;
+        const sentence = sentences.pop();
 
         await this.props.api.uploadAudio(blob, sentence);
-        runningTotal++;
         let percentage = Math.floor((runningTotal / originalTotal) * 100);
         progressCb && progressCb(percentage);
         this.props.user.tallyRecording();
-        uploadNext();
-      };
-
-      // Start the recursive chain to upload the recordings serially.
-      uploadNext();
+      }
+      await this.props.api.uploadDemographicInfo();
     } finally {
       this.setState({
         robot: ''
