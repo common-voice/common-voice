@@ -99,7 +99,6 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   private async refillSentenceCache() {
     const newSentences = await this.props.api.getRandomSentences(CACHE_SET_COUNT)
     this.sentenceCache = this.sentenceCache.concat(newSentences);
-    return this.sentenceCache;
   }
 
   private processRecording(info: AudioInfo) {
@@ -177,7 +176,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       await this.props.onSubmit(this.state.recordings, this.state.sentences, this.onProgress);
       this.reset();
       this.tracker.trackSubmitRecordings();
-    } catch(e) {
+    } catch (e) {
       this.setState({
         uploading: false
       });
@@ -264,7 +263,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     this.props.onRecordStop && this.props.onRecordStop();
   }
 
-  async newSentenceSet() {
+  private async newSentenceSet() {
     // If we don't have any sentences in our cache, fill it and try again.
     if (this.sentenceCache.length < SET_COUNT) {
       console.error('slow path for getting new sentences');

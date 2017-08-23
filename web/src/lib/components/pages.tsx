@@ -267,8 +267,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
 
       // Start the recursive chain to upload the recordings serially.
       uploadNext();
-    }
-    finally {
+    } finally {
       this.setState({
         robot: ''
       });
