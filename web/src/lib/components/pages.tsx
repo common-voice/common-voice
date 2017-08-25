@@ -244,8 +244,6 @@ export default class Pages extends Component<PagesProps, PagesState> {
       await this.ensurePrivacyAgreement();
       const originalTotal = recordings.length;
 
-      // This function calls itself recursively until
-      // all recordings are uploaded.
       for (let runningTotal = 1; runningTotal <= originalTotal; runningTotal++) {
         const recording = recordings.pop();
         const blob = recording.blob;
