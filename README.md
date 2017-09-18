@@ -1,6 +1,6 @@
-## Common Voice Project ![Travis Status](https://travis-ci.org/mozilla/voice-web.svg?branch=master "Travis Status")
+## Common Voice ![Travis Status](https://travis-ci.org/mozilla/voice-web.svg?branch=master "Travis Status")
 This is a web, android and iOS app for collecting speech
-donations for Common Voice Project.
+donations for the Common Voice project.
 
 ### Official Website
 [voice.mozilla.org](https://voice.mozilla.org)
@@ -21,9 +21,9 @@ npm install -g gulp
 gulp
 ```
 This will:
-1. Install all the JavaScript dependencies.
+1. Install all JavaScript dependencies.
 1. Build and serve files located in the `web` folder on localhost.
-1. Listening and save voice clips onto Amazon's S3.
+1. Save uploaded voice clips onto Amazon's S3.
 1. Lint and rebuild all js files on every change.
 
 ### Help
