@@ -264,7 +264,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   }
 
   private async newSentenceSet() {
-    // if we don't have enough sentences in our cache, fill it before continuing
+    // If we don't have enough sentences in our cache, fill it before continuing.
     while (this.sentenceCache.length < SET_COUNT) {
       console.error('slow path for getting new sentences');
       await this.refillSentenceCache();

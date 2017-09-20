@@ -77,7 +77,7 @@ export default class API {
   }
 
   async getRandomSentences(count?: number): Promise<string[]> {
-    const sentencesText = await this.requestResourceText('sentence' + (count ? '/' + count : ''))
+    const sentencesText = await this.requestResourceText('sentence' + (count ? '/' + count : ''));
     return sentencesText.split('\n');
   }
 
@@ -94,7 +94,6 @@ export default class API {
     let glob = decodeURIComponent(req.getResponseHeader('glob'));
     let sentence = decodeURIComponent(req.getResponseHeader('sentence'));
     return { glob: glob, audio: src, sentence: sentence };
-    
   }
 
   /**

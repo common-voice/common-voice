@@ -238,8 +238,8 @@ export default class Pages extends Component<PagesProps, PagesState> {
   }
 
   private async uploadRecordings(recordings: any[],
-                           sentences: string[],
-                           progressCb: Function): Promise<void> {
+                                 sentences: string[],
+                                 progressCb: Function): Promise<void> {
     try {
       await this.ensurePrivacyAgreement();
       const originalTotal = recordings.length;
