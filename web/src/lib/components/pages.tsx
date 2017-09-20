@@ -240,26 +240,20 @@ export default class Pages extends Component<PagesProps, PagesState> {
   private async uploadRecordings(recordings: any[],
                                  sentences: string[],
                                  progressCb: Function): Promise<void> {
-    try {
-      await this.ensurePrivacyAgreement();
-      const originalTotal = recordings.length;
+    await this.ensurePrivacyAgreement();
+    const originalTotal = recordings.length;
 
-      for (let runningTotal = 1; runningTotal <= originalTotal; runningTotal++) {
-        const recording = recordings.pop();
-        const blob = recording.blob;
-        const sentence = sentences.pop();
+    for (let runningTotal = 1; runningTotal <= originalTotal; runningTotal++) {
+      const recording = recordings.pop();
+      const blob = recording.blob;
+      const sentence = sentences.pop();
 
-        await this.props.api.uploadAudio(blob, sentence);
-        let percentage = Math.floor((runningTotal / originalTotal) * 100);
-        progressCb && progressCb(percentage);
-        this.props.user.tallyRecording();
-      }
-      await this.props.api.uploadDemographicInfo();
-    } finally {
-      this.setState({
-        robot: ''
-      });
+      await this.props.api.uploadAudio(blob, sentence);
+      let percentage = Math.floor((runningTotal / originalTotal) * 100);
+      progressCb && progressCb(percentage);
+      this.props.user.tallyRecording();
     }
+    await this.props.api.uploadDemographicInfo();
   }
 
   componentDidMount() {

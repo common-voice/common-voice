@@ -180,7 +180,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       this.setState({
         uploading: false
       });
-      const keep = await confirm('You did not agree to our Terms of Service. Do you want to delete your recordings?', 'Keep the recordings', 'Delete my recordings')
+      const keep = await confirm('Upload aborted. Do you want to delete your recordings?', 'Keep the recordings', 'Delete my recordings')
       if (!keep) {
         this.reset();
         this.props.navigate('/');
