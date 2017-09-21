@@ -15,7 +15,7 @@ import confirm from '../confirm';
 const CACHE_SET_COUNT = 9;
 const SET_COUNT = 3;
 const PAGE_NAME = 'record';
-const MIN_RECORDING_LENGTH = 400;   // ms
+const MIN_RECORDING_LENGTH = 300;   // ms
 const MAX_RECORDING_LENGTH = 10000; // ms
 const MIN_VOLUME = 1;
 
