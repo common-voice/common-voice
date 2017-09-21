@@ -133,14 +133,21 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
     const error = this.getRecordingError();
     if (error) {
-      // Remove the invalid recording to go back.
-      let recordings = this.state.recordings;
-      recordings.pop();
-      this.setState({
-        recordings: recordings
-      });
-
-      console.log(error);
+      let message;
+      switch (error) {
+        case RecordingError.TOO_SHORT:
+          message = 'The recording was too short.';
+          break;
+        case RecordingError.TOO_LONG:
+          message = 'The recording was too long.';
+          break;
+        case RecordingError.TOO_QUIET:
+          message = 'The recording was too quiet.';
+          break;
+        default:
+          message = 'There was something wrong with the recording.';
+      }
+      console.log(message);
       // TODO display error to user
     }
 
