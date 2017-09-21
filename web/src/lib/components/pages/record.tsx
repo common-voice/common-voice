@@ -19,9 +19,8 @@ const MIN_RECORDING_LENGTH = 300;   // ms
 const MAX_RECORDING_LENGTH = 10000; // ms
 const MIN_VOLUME = 1;
 
-enum RecordingValidity {
-  VALID,
-  TOO_SHORT,
+enum RecordingError {
+  TOO_SHORT = 1,
   TOO_LONG,
   TOO_QUIET
 };
@@ -45,7 +44,6 @@ interface RecordState {
   recording: boolean;
   recordingStartTime: number;
   recordingStopTime: number;
-  maxVolume: number;
   recordings: any[];
   uploading: boolean;
   uploadProgress: number;
@@ -58,13 +56,13 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   isUnsupportedPlatform: boolean;
   tracker: Tracker;
   sentenceCache: string[];
+  maxVolume: number;
 
   state = {
     sentences: [],
     recording: false,
     recordingStartTime: 0,
     recordingStopTime: 0,
-    maxVolume: 0,
     recordings: [],
     uploading: false,
     uploadProgress: 0,
@@ -102,6 +100,8 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       return;
     }
 
+    this.maxVolume = 0;
+
     // Bind now, to avoid memory leak when setting handler.
     this.onSubmit = this.onSubmit.bind(this);
     this.onRecordClick = this.onRecordClick.bind(this);
@@ -131,7 +131,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
     this.props.onRecordStop && this.props.onRecordStop();
 
-    const error = this.checkRecording();
+    const error = this.getRecordingError();
     if (error) {
       // Remove the invalid recording to go back.
       let recordings = this.state.recordings;
@@ -153,18 +153,18 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     }
   }
 
-  private checkRecording(): RecordingValidity {
+  private getRecordingError(): RecordingError {
     const length = this.state.recordingStopTime - this.state.recordingStartTime;
     if (length < MIN_RECORDING_LENGTH) {
-      return RecordingValidity.TOO_SHORT;
+      return RecordingError.TOO_SHORT;
     }
     if (length > MAX_RECORDING_LENGTH) {
-      return RecordingValidity.TOO_LONG;
+      return RecordingError.TOO_LONG;
     }
-    if (this.state.maxVolume < MIN_VOLUME) {
-      return RecordingValidity.TOO_QUIET;
+    if (this.maxVolume < MIN_VOLUME) {
+      return RecordingError.TOO_QUIET;
     }
-    return RecordingValidity.VALID;
+    return null;
   }
 
   private deleteRecording(index: number): void {
@@ -205,10 +205,8 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
     // For some reason, volume is always exactly 100 at the end of the
     // recording, even if it is silent; so ignore that.
-    if (volume !== 100 && volume > this.state.maxVolume) {
-      this.setState({
-        maxVolume: volume
-      });
+    if (volume !== 100 && volume > this.maxVolume) {
+      this.maxVolume = volume;
     }
 
     if (this.props.onVolume) {
@@ -295,11 +293,12 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
   startRecording() {
     this.audio.start();
+    this.maxVolume = 0;
     this.setState({
       recording: true,
       // TODO: reanble display of recording time at some point.
       recordingStartTime: Date.now(),
-      maxVolume: 0
+      recordingStopTime: 0,
     });
     this.props.onRecord && this.props.onRecord();
   }
