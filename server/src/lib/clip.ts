@@ -30,7 +30,7 @@ export default class Clip {
   private files: Files;
 
   constructor() {
-    this.s3 = new AWS.S3();
+    this.s3 = new AWS.S3({signatureVersion: 'v4'});
     this.files = new Files();
   }
 
