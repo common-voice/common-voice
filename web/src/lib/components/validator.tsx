@@ -29,29 +29,30 @@ export default class Validator extends Component<Props, State> {
     this.loadClip();
   }
 
-  private onVote(vote: boolean) {
-    this.props.api.castVote(this.state.glob, vote).then(() => {
+  private async onVote(vote: boolean) {
+    try {
+      await this.props.api.castVote(this.state.glob, vote);
       this.props.onVote && this.props.onVote(vote);
       this.loadClip();
-    }).catch((err) => {
+    } catch (err) {
       console.error('could not vote on clip from validator', err);
-    });
+    }
   }
 
-  private loadClip() {
+  private async loadClip() {
     this.setState({ loading: true });
-    this.props.api.getRandomClipJson().then((clipJson: ClipJson) => {
-
+    try {
+      const clipJson = await this.props.api.getRandomClipJson();
       this.setState({
         loading: false,
         glob: clipJson.glob,
         sentence: decodeURIComponent(clipJson.text),
         audioSrc: clipJson.sound
       });
-    }, (err) => {
+    } catch (err) {
       console.error('could not fetch random clip for validator', err);
       this.setState({ loading: false, sentence: null, audioSrc: null });
-    });
+    }
   }
 
   render() {
