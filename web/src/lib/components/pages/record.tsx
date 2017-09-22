@@ -15,6 +15,15 @@ import confirm from '../confirm';
 const CACHE_SET_COUNT = 9;
 const SET_COUNT = 3;
 const PAGE_NAME = 'record';
+const MIN_RECORDING_LENGTH = 300;   // ms
+const MAX_RECORDING_LENGTH = 10000; // ms
+const MIN_VOLUME = 1;
+
+enum RecordingError {
+  TOO_SHORT = 1,
+  TOO_LONG,
+  TOO_QUIET
+};
 
 interface RecordProps {
   active: string;
@@ -34,6 +43,7 @@ interface RecordState {
   sentences: string[];
   recording: boolean;
   recordingStartTime: number;
+  recordingStopTime: number;
   recordings: any[];
   uploading: boolean;
   uploadProgress: number;
@@ -46,11 +56,13 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   isUnsupportedPlatform: boolean;
   tracker: Tracker;
   sentenceCache: string[];
+  maxVolume: number;
 
   state = {
     sentences: [],
     recording: false,
     recordingStartTime: 0,
+    recordingStopTime: 0,
     recordings: [],
     uploading: false,
     uploadProgress: 0,
@@ -88,6 +100,8 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       return;
     }
 
+    this.maxVolume = 0;
+
     // Bind now, to avoid memory leak when setting handler.
     this.onSubmit = this.onSubmit.bind(this);
     this.onRecordClick = this.onRecordClick.bind(this);
@@ -115,6 +129,26 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
     this.props.onRecordStop && this.props.onRecordStop();
 
+    const error = this.getRecordingError();
+    if (error) {
+      let message;
+      switch (error) {
+        case RecordingError.TOO_SHORT:
+          message = 'The recording was too short.';
+          break;
+        case RecordingError.TOO_LONG:
+          message = 'The recording was too long.';
+          break;
+        case RecordingError.TOO_QUIET:
+          message = 'The recording was too quiet.';
+          break;
+        default:
+          message = 'There was something wrong with the recording.';
+      }
+      console.log(message);
+      // TODO display error to user
+    }
+
     if (!this.props.onRecordingSet) {
       return;
     }
@@ -122,6 +156,20 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     if (this.isFull()) {
       this.props.onRecordingSet();
     }
+  }
+
+  private getRecordingError(): RecordingError {
+    const length = this.state.recordingStopTime - this.state.recordingStartTime;
+    if (length < MIN_RECORDING_LENGTH) {
+      return RecordingError.TOO_SHORT;
+    }
+    if (length > MAX_RECORDING_LENGTH) {
+      return RecordingError.TOO_LONG;
+    }
+    if (this.maxVolume < MIN_VOLUME) {
+      return RecordingError.TOO_QUIET;
+    }
+    return null;
   }
 
   private deleteRecording(index: number): void {
@@ -156,11 +204,19 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   }
 
   private updateVolume(volume: number) {
-    if (!this.state.recording || !this.props.onVolume) {
+    if (!this.state.recording) {
       return;
     }
 
-    this.props.onVolume(volume);
+    // For some reason, volume is always exactly 100 at the end of the
+    // recording, even if it is silent; so ignore that.
+    if (volume !== 100 && volume > this.maxVolume) {
+      this.maxVolume = volume;
+    }
+
+    if (this.props.onVolume) {
+      this.props.onVolume(volume);
+    }
   }
 
   private async onSubmit() {
@@ -239,16 +295,21 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
   startRecording() {
     this.audio.start();
+    this.maxVolume = 0;
     this.setState({
       recording: true,
       // TODO: reanble display of recording time at some point.
-      // recordingStartTime: this.audio.audioContext.currentTime
+      recordingStartTime: Date.now(),
+      recordingStopTime: 0,
     });
     this.props.onRecord && this.props.onRecord();
   }
 
   stopRecording() {
-    this.audio.stop().then(this.processRecording);;
+    this.audio.stop().then(this.processRecording);
+    this.setState({
+      recordingStopTime: Date.now()
+    });
   }
 
   /**
@@ -306,7 +367,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     // Get the text prompts.
     for (let i = 0; i < SET_COUNT; i++) {
 
-      // For the sentences elements, we need to 
+      // For the sentences elements, we need to
       // figure out where each item is positioned.
       let className = 'text-box';
       let length = this.state.recordings.length;
