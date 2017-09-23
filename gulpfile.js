@@ -68,7 +68,14 @@ function compileCSS() {
   var cssnext = require('postcss-cssnext');
   var cssnano = require('cssnano');
   var plugins = [
-    cssnext({ browsers: ['last 2 versions' ]}),
+    cssnext({
+      browsers: ['last 2 versions' ],
+      features: {
+        customProperties: {
+          warnings: false
+        }
+      },
+    }),
     cssnano({ autoprefixer: false })
   ];
   return gulp.src(PATH_CSS)

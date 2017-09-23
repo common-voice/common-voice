@@ -23,13 +23,14 @@
   --record-background-image: url("/img/wave-red-large.png");
   --record-background-image-mobile: url("/img/wave-red-mobile.png");
   --page-margin: 1rem;
+  --standard-margin: 0.3rem;
   --hamburger: calc(var(--header-height) * 0.7);
   --transition-default: 0.3s;
   --desktop-width: 50rem;
   --hero-height: 15.3rem;
   --hero-height-mobile: 12.5rem;
   --robot-height: 19rem;
-  --robot-height-mobile: 10rem;
+  --robot-height-mobile: 16rem;
   --spinner-height: 10rem;
   --bounce-curve: cubic-bezier(0.000, 1.430, 0.700, 0.940);
   --shadow-overhang: 0 1px 0 rgba(12,13,14,0.1),
@@ -59,12 +60,6 @@
   --top-z-index: 2;
   --middle-z-index: 1;
   --bottom-z-index: 0;
-}
-
-@media (max-width: 600px) {
-  :root {
-    --robot-height: 16rem;
-  }
 }
 
 html {
@@ -243,9 +238,8 @@ input:invalid {
 
 /* Listen Box Component */
 .listen-box {
-  --space-between: 0.3rem;
   display: flex;
-  margin-bottom: var(--space-between);
+  margin-bottom: var(--standard-margin);
   opacity: 0.3;
   pointer-events: none;
 }
@@ -305,7 +299,7 @@ input:invalid {
   flex: 1 1 auto;
   display: flex;
   align-items: center;
-  margin-right: var(--space-between);
+  margin-right: var(--standard-margin);
 }
 
 @media (max-width: 600px) {
@@ -331,7 +325,7 @@ input:invalid {
 }
 
 .delete-box {
-  margin-left: var(--space-between);
+  margin-left: var(--standard-margin);
 }
 
 .vote-box {
@@ -977,6 +971,12 @@ body:not(.ios) .recording #background-container {
   transform: translate(0,0) scale(0);
 }
 
+@media (max-width: 600px) {
+  .robot {
+    height: var(--robot-height-mobile);
+  }
+}
+
 .robot > img {
   height: 100%
 }
@@ -1081,6 +1081,12 @@ body:not(.ios) .recording #background-container {
   font-weight: bold;
   cursor: pointer;
   transition: transform 0.2s var(--bounce-curve);
+}
+
+@media (max-width: 600px) {
+  .robot .bubble {
+    top: calc(var(--robot-height-mobile) / 4);
+  }
 }
 
 .robot .bubble:hover {
