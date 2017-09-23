@@ -21,6 +21,7 @@
     "mkdirp": "^0.5.1",
     "node-static": "0.7.9",
     "pm2": "^2.4.6",
+    "postcss-cssnext": "^3.0.2",
     "preact": "^8.1.0",
     "proxy-agent": "^2.0.0",
     "random-js": "^1.0.8",
@@ -36,7 +37,6 @@
     "gulp-postcss": "^7.0.0",
     "gulp-typescript": "^3.1.6",
     "mysql": "2.13.0",
-    "postcss-cssnext": "^3.0.2",
     "typescript": "^2.3.4"
   }
 }
