@@ -9,7 +9,7 @@ export default class BaseDB {
   constructor(
     public mysql: Mysql,
     public name: string,
-    public columns: Object,
+    public columns: any,
     public index: string
   ) {}
 
@@ -17,9 +17,9 @@ export default class BaseDB {
    * Query database, but using promises.
    */
   q(text: string, values?: any[]) {
-
-    return new Promise((resolve, reject) => {
-      this.mysql.query(text,null,(error, results) => {
+    return new Promise((resolve: (rows: any[]) => void,
+                        reject: (error: any) => void) => {
+      this.mysql.query(text, null, (error: any, results: any) => {
         error ? reject(error) : resolve(results);
       });
     })

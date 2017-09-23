@@ -22,7 +22,7 @@ export default function respond(response: ServerResponse,
                         content:           string = '',
                         statusCode:        number = 200,
                         contentType:       string = CONTENT_TYPES.TXT,
-                        headers:           object = {},
+                        headers:           any = {},
                         characterEncoding: string = 'utf-8') {
 
   headers['Content-Type'] = contentType;

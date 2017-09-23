@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "noImplicitAny": false,
+    "noImplicitAny": true,
     "strictNullChecks": false,
     "noEmitOnError": true,
     "typeRoots": [ "../node_modules/@types" ],

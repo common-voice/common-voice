@@ -67,7 +67,7 @@ export default class Mysql {
   }
 
   query(text: string, values: any[], callback: Function) {
-    this.pool.query(text, function (error, results, fields) {
+    this.pool.query(text, function (error: any, results: any, fields: any) {
         error ? callback(error.message, null) : callback(null, results);
     });
   }

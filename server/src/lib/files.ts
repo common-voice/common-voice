@@ -18,13 +18,21 @@ const CONFIG_PATH = path.resolve(__dirname, '../../..',
 const config = require(CONFIG_PATH);
 const BUCKET_NAME = config.BUCKET_NAME || 'common-voice-corpus';
 
+interface FileData {
+  sentence: string;
+  text: string;
+  sound: string;
+  votes: number;
+  pushed: boolean;
+}
+
+interface FileHolder {
+  [key: string]: FileData;
+}
+
 export default class Files {
   private s3: any;
-  private files: {
-    // fileGlob: [
-    //   sentence: 'the text of the sentenct'
-    // ]
-  };
+  private files: FileHolder;
   private paths: string[];
   private votes: number;
   private validated: number;
@@ -53,7 +61,8 @@ export default class Files {
    */
   private fetchSentenceFromS3(glob: string): Promise<string> {
     let key = glob + TEXT_EXT;
-    return new Promise((res, rej) => {
+    return new Promise((res: (stentence: string) => void,
+                        rej: (error: any) => void) => {
       let glob = this.getGlob(key);
       let params = {Bucket: BUCKET_NAME, Key: key};
       this.s3.getObject(params, (err: any, s3Data: any) => {
@@ -117,7 +126,7 @@ export default class Files {
     });
 
     let startRequest = Date.now();
-    awsRequest.on('success', (response) => {
+    awsRequest.on('success', (response: any) => {
       let next = response['data']['NextContinuationToken'];
       let contents = response['data']['Contents'];
 
@@ -140,7 +149,10 @@ export default class Files {
         if (!this.files[glob]) {
           this.files[glob] = {
             pushed: false,
-            votes: 0
+            sentence: null,
+            text: null,
+            sound: null,
+            votes: 0,
           };
         }
 
@@ -181,7 +193,7 @@ export default class Files {
       }, LOAD_DELAY);
     });
 
-    awsRequest.on('error', (response) => {
+    awsRequest.on('error', (response: any) => {
       console.error('Error while fetching clip list', response);
 
       // Retry loading current batch.
@@ -197,7 +209,7 @@ export default class Files {
    * Load sound file metadata into memory.
    */
   private loadCache(): Promise<void> {
-    return new Promise((res, rej) => {
+    return new Promise((res: Function, rej: Function) => {
       this.loadNext(res, rej);
     });
   }

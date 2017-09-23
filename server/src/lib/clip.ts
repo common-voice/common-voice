@@ -57,13 +57,13 @@ export default class Clip {
       let retrieveParam = {Bucket: BUCKET_NAME, Key: key};
       let awsResult = this.s3.getObject(retrieveParam);
       f.pass(awsResult);
-    }, (awsResult) => {
+    }, (awsResult: any) => {
       let tmpFile = fs.createWriteStream(tmpFilePath);
       tmpFile = awsResult.createReadStream().pipe(tmpFile);
       tmpFile.on('finish', f.wait());
     }, () => {
       ms.pipe(request, response, tmpFilePath);
-    }).onError(err => {
+    }).onError((err: any) => {
       console.error('streaming audio error', err, err.stack);
       respond(response, 'Server error, could not fetch audio data.', 500);
     });
@@ -273,14 +273,14 @@ export default class Clip {
         // If we were given base64, we'll need to concat it all first
         // So we can decode it in the next step.
         if (contentType.includes('base64')) {
-          let chunks = [];
+          let chunks: Buffer[] = [];
           f.pass(chunks);
           request.on('data', (chunk: Buffer) => {
             chunks.push(chunk);
           });
           request.on('end', f.wait());
         }
-      }, (chunks) => {
+      }, (chunks: Buffer[]) => {
 
         // If upload was base64, make sure we decode it first.
         if (contentType.includes('base64')) {

@@ -57,11 +57,11 @@ export default class Logger {
     }
   }
 
-  log(...args) {
+  log(...args: any[]) {
     this.printFields(this.getMessageFields(LEVEL_LOG, args.join(', ')));
   }
 
-  error(...args) {
+  error(...args: any[]) {
     this.printFields(this.getMessageFields(LEVEL_ERROR, args.join(', ')));
   }
 
@@ -73,13 +73,13 @@ export default class Logger {
 
     // Override console.log to user our json logger.
     this.boundLog = console.log.bind(console);
-    console.log = (...args) => {
+    console.log = (...args: any[]) => {
       this.log(...args);
     }
 
     // Override console.error to user our json logger.
     this.boundError = console.error.bind(console);
-    console.error = (...args) => {
+    console.error = (...args: any[]) => {
       this.error(...args);
     }
   }

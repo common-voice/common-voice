@@ -26,7 +26,7 @@ export default class API {
   }
 
   private getRandomSentences(count: number): Promise<string[]> {
-    return this.getSentences().then(sentences => {
+    return this.getSentences().then((sentences: string[]) => {
       let randoms = [];
       for (var i = 0; i < count; i++) {
         let distribution = Random.integer(0, sentences.length - 1);
@@ -37,9 +37,10 @@ export default class API {
     });
   }
 
-  private getFilesInFolder(folderpath) {
-    return new Promise((res, rej) => {
-      fs.readdir(folderpath, (err, files) => {
+  private getFilesInFolder(folderpath: string) {
+    return new Promise((res: (files: string[]) => void,
+                        rej: (error: any) => void) => {
+      fs.readdir(folderpath, (err: any, files: string[]) => {
         if (err) {
           rej(err);
           return;
@@ -50,11 +51,12 @@ export default class API {
     });
   }
 
-  private getFileContents(filepath) {
-    return new Promise((res, rej) => {
+  private getFileContents(filepath: string) {
+    return new Promise((res: (contents: string) => void,
+                        rej: (error: any) => void) => {
       fs.readFile(filepath, {
         contents: 'utf8'
-      }, (err, data) => {
+      }, (err: any, data: Buffer) => {
         if (err) {
           rej(err);
           return;
@@ -100,7 +102,7 @@ export default class API {
     }
 
     return this.getFilesInFolder(this.getSentenceFolder())
-      .then(files => {
+      .then((files: string[]) => {
         return Promise.all(files.map(filename => {
 
           // Only parse the top-level text files, not any sub folders.
@@ -115,8 +117,8 @@ export default class API {
 
 
       // Chop the array of content strings into an array of sentences.
-      .then((values) => {
-        let sentences = [];
+      .then((values: string[]) => {
+        let sentences: string[] = [];
         let sentenceArrays = values.map(fileContents => {
           if (!fileContents) {
             return [];
@@ -131,7 +133,7 @@ export default class API {
         console.log('sentences found', sentences.length);
         this.sentencesCache = sentences;
       })
-      .catch(err => {
+      .catch((err: any) => {
         console.error('could not retrieve sentences', err);
       });
   }
@@ -144,7 +146,7 @@ export default class API {
 
     this.getSentences().then((sentences: String[]) => {
       return this.getRandomSentences(count);
-    }).then(randoms => {
+    }).then((randoms: string[]) => {
       respond(response, randoms.join('\n'));
     }).catch((err: any) => {
       console.error('Could not load sentences', err);

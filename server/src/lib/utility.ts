@@ -13,7 +13,7 @@ export function getFileExt(path: string): string {
  * Returns the first defined argument. Returns null if there are no defined
  * arguments.
  */
-export function getFirstDefined(...options) {
+export function getFirstDefined(...options: any[]) {
   for (var i = 0; i < options.length; i++) {
     if (options[i] !== undefined) {
       return options[i];

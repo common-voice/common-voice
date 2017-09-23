@@ -92,7 +92,7 @@ export default class Server {
   }
 }
 
-process.on('uncaughtException', function(err) {
+process.on('uncaughtException', function(err: any) {
   console.error('uncaught exception', err);
 });
 
