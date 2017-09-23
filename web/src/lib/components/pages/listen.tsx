@@ -11,7 +11,7 @@ interface ListenPageProps {
 }
 
 export default class Listen extends Component<ListenPageProps, void> {
-  constructor(props) {
+  constructor(props: ListenPageProps) {
     super(props);
     this.onVote = this.onVote.bind(this);
   }

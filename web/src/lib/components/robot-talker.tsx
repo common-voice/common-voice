@@ -3,7 +3,7 @@ import { h, Component } from 'preact';
 const CHARACTER_DELAY = 80;
 const PARAGRAPH_DELAY = 3500;
 
-interface Props {
+interface Props extends preact.ComponentProps<RobotTalker> {
 }
 
 interface State {
@@ -14,10 +14,10 @@ interface State {
  * Handle robot transitions.
  */
 export default class RobotTalker extends Component<Props, State> {
-  timeoutHandle: number;
+  timeoutHandle: any;
   remainingParagraphs: string[];
 
-  constructor(props) {
+  constructor(props: Props) {
     super(props);
     this.nextParagraph = this.nextParagraph.bind(this);
     this.updateCharacter = this.updateCharacter.bind(this);
@@ -64,13 +64,13 @@ export default class RobotTalker extends Component<Props, State> {
     }, PARAGRAPH_DELAY * 0.85);
   }
 
-  componentWillReceiveProps(nextProps) {
+  componentWillReceiveProps(nextProps: Props) {
     if (nextProps.children !== this.props.children) {
       this.remainingParagraphs = [];
       for (let i = 0; i < nextProps.children.length; i++) {
-        let textParent = nextProps.children[i];
+        let textParent: JSX.Element = nextProps.children[i];
         if (textParent) {
-          this.remainingParagraphs.push(textParent.children[0]);
+          this.remainingParagraphs.push(textParent.children[0].toString());
         }
       }
 

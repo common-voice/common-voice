@@ -4,6 +4,10 @@ import confirm from '../../confirm';
 
 const AUDIO_TYPE = 'audio/ogg; codecs=opus';
 
+interface BlobEvent extends Event {
+  data: Blob;
+}
+
 export interface AudioInfo {
   url: string;
   blob: Blob;
@@ -172,11 +176,11 @@ export default class AudioWeb {
 
     return new Promise<void>((res: Function, rej: Function) => {
       this.chunks = [];
-      this.recorder.ondataavailable = (e) => {
+      this.recorder.ondataavailable = (e: BlobEvent) => {
         this.chunks.push(e.data);
       };
 
-      this.recorder.onstart = (e) => {
+      this.recorder.onstart = (e: Event) => {
         this.clear();
         res();
       }
@@ -198,7 +202,7 @@ export default class AudioWeb {
     return new Promise((res: Function, rej: Function) => {
       this.stopVisualize();
 
-      this.recorder.onstop = (e) => {
+      this.recorder.onstop = (e: Event) => {
         let blob = new Blob(this.chunks, { 'type': AUDIO_TYPE });
         this.last = {
           url: URL.createObjectURL(blob),

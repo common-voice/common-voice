@@ -1,6 +1,6 @@
 import { h, Component } from 'preact';
 
-export default (props) => {
+export default (props: any) => {
   return <a class="main-logo" href="/"
     onClick={(evt) =>  {
       evt.preventDefault();

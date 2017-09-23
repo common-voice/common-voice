@@ -13,9 +13,9 @@ interface State {
  * Allows us to see console log on the ios app.
  */
 export default class DebugBox extends Component<Props, State> {
-  hideTimeout: number;
+  hideTimeout: any;
 
-  constructor(props) {
+  constructor(props?: Props) {
     super(props);
     this.state = {
       messages: []
@@ -33,6 +33,7 @@ export default class DebugBox extends Component<Props, State> {
     if (this.hideTimeout) {
       clearTimeout(this.hideTimeout);
     }
+
     this.hideTimeout = setTimeout(() => {
       this.setState({
         messages: []
@@ -48,13 +49,13 @@ export default class DebugBox extends Component<Props, State> {
 
   componentDidMount() {
     let log = window.console.log.bind(window.console);
-    window.console.log = (...args) => {
+    window.console.log = (...args: any[]) => {
       log(...args);
       this.addMessage(args.join(', '));
     }
 
     let err = window.console.error.bind(window.console);
-    window.console.error = (...args) => {
+    window.console.error = (...args: any[]) => {
       err(...args);
       this.addMessage(args.join(', '));
     }

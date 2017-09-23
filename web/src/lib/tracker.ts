@@ -1,6 +1,6 @@
 import { isProduction } from './utility';
 
-declare var ga;
+declare var ga: any;
 
 const CATEGORY_RECORD = 'Recording';
 const CATEGORY_LISTEN = 'Listening';

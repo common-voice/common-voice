@@ -1,6 +1,23 @@
 import { h, Component } from 'preact';
 
-const ICONS = {
+interface FontIcons {
+  [key: string]: string;
+  bullhorn: string;
+  hamburger: string;
+  redo: string;
+  play: string;
+  pause: string;
+  undo: string;
+  check: string;
+  x: string;
+  github: string;
+  firefox: string;
+  chrome: string;
+  help: string;
+  discourse: string;
+}
+
+const ICONS: FontIcons = {
   bullhorn: '',
   hamburger: '',
   redo: '',
@@ -28,7 +45,7 @@ interface Props {
  */
 export default class Icon extends Component<Props, void> {
   getIcon(name: string): string {
-    return ICONS[name] || '';
+    return ICONS[name];
   }
 
   render() {

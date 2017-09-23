@@ -22,7 +22,7 @@ interface State {
  */
 export default class Validator extends Component<Props, State> {
 
-  constructor(props) {
+  constructor(props: Props) {
     super(props);
     this.onVote = this.onVote.bind(this);
     this.loadClip = this.loadClip.bind(this);

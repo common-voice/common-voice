@@ -9,7 +9,7 @@ const MODE_THUMBS_UP = '/img/robot-thumbs-up.png';
 
 const SPEECH_GREETINGS = 'Click here to help me learn!';
 
-interface Props {
+interface Props extends preact.ComponentProps<Robot> {
   position?: string;
   onClick(page: string): void;
 }
@@ -28,7 +28,7 @@ export default class Robot extends Component<Props, State> {
     speech: ''
   }
 
-  constructor(props) {
+  constructor(props: Props) {
     super(props);
 
     this.handleSpeechClick = this.handleSpeechClick.bind(this);

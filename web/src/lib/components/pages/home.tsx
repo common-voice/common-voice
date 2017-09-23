@@ -11,7 +11,7 @@ interface Props {
 }
 
 export default class Home extends Component<Props, void> {
-  constructor(props) {
+  constructor(props: Props) {
     super(props);
     this.onVote = this.onVote.bind(this);
   }

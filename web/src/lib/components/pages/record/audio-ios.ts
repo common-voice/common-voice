@@ -5,8 +5,8 @@ import confirm from '../../confirm';
 
 const LEVELS_THROTTLE = 50;
 
-declare var webkit;
-declare var vcopensettings;
+declare var webkit: any;
+declare var vcopensettings: any;
 
 export default class AudioIOS {
   postMessage: Function;
@@ -70,7 +70,7 @@ export default class AudioIOS {
 
     // Native will call this function with decibels from -120 to 0.
     this.lastUpdate = Date.now();
-    window['levels'] = (decibels) => {
+    window['levels'] = (decibels: string) => {
       if (!this.volumeCallback) {
         return;
       }

@@ -165,7 +165,7 @@ export default class App {
       document.body.classList.add('loaded');
     }, LOAD_TIMEOUT);
 
-    await this.loadImages(progress => {
+    await this.loadImages((progress: number) => {
       if (this.progressMeter) {
         // TODO: find something performant here. (ie not this)
         // let whatsLeft = 1 - progress;
@@ -173,11 +173,10 @@ export default class App {
         //   `transform: scale(${whatsLeft});`;
       }
     });
+
     this.loaded = true;
     setTimeout(() => {
-      document.body.classList.add('loaded');
-    }, LOAD_DELAY);
-  }
+      document.body.classList.add('loaded'); }, LOAD_DELAY); }
 
   /**
    * Entry point for the application.

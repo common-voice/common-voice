@@ -64,11 +64,11 @@ export default class API {
     return req.responseText;
   }
 
-  private requestResourceText(resource): Promise<string> {
+  private requestResourceText(resource: string): Promise<string> {
     return this.fetchText(this.getPath(resource));
   }
 
-  private requestResource(resource): Promise<string> {
+  private requestResource(resource: string): Promise<string> {
     return this.fetch(this.getPath(resource));
   }
 
@@ -81,7 +81,7 @@ export default class API {
     return sentencesText.split('\n');
   }
 
-  getTextFromUrl(url): Promise<string> {
+  getTextFromUrl(url: string): Promise<string> {
     return this.fetchText(url);
   }
 

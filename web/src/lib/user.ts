@@ -3,7 +3,28 @@ import Tracker from './tracker';
 
 const USER_KEY = 'userdata';
 
-export const ACCENTS = {
+interface UserAccents {
+  [key: string]: string;
+  '': string;
+  'us': string;
+  'australia': string;
+  'england': string;
+  'canada': string;
+  'philippines': string;
+  'hongkong': string;
+  'indian': string;
+  'ireland': string;
+  'malaysia': string;
+  'newzealand': string;
+  'scotland': string;
+  'singapore': string;
+  'southatlandtic': string;
+  'african': string;
+  'wales': string;
+  'bermuda': string;
+};
+
+export const ACCENTS: UserAccents = {
   '': '--',
   'us': 'United States English',
   'australia': 'Australian English',
@@ -23,7 +44,21 @@ export const ACCENTS = {
   'bermuda': 'West Indies and Bermuda (Bahamas, Bermuda, Jamaica, Trinidad)',
 };
 
-export const AGES = {
+interface UserAges {
+  [key: string]: string;
+  '': string;
+  'teens': string;
+  'twenties': string;
+  'thirties': string;
+  'fourties': string;
+  'fifties': string;
+  'sixties': string;
+  'seventies': string;
+  'eighties': string;
+  'nineties': string;
+};
+
+export const AGES: UserAges = {
   '': '--',
   'teens': '< 19',
   'twenties': '19 - 29',
@@ -36,7 +71,15 @@ export const AGES = {
   'nineties': '> 89',
 };
 
-export const GENDER = {
+interface UserGender {
+  [key: string]: string;
+  '': '--',
+  'male': 'Male',
+  'female': 'Female',
+  'other': 'Other'
+};
+
+export const GENDER: UserGender = {
   '': '--',
   'male': 'Male',
   'female': 'Female',

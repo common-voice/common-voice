@@ -14,7 +14,7 @@ interface State {
 }
 
 export default class Profile extends Component<Props, State> {
-  constructor(props) {
+  constructor(props: Props) {
     super(props);
 
     let user = this.props.user.getState();
@@ -43,8 +43,8 @@ export default class Profile extends Component<Props, State> {
     this.render();
   }
 
-  private configSendEmails(e) {
-    let el = e.currentTarget;
+  private configSendEmails(e: Event) {
+    let el = e.currentTarget as HTMLInputElement;
     this.props.user.setSendEmails(el.checked);
   }
 
@@ -99,7 +99,7 @@ export default class Profile extends Component<Props, State> {
     let ageModified = this.state.age !== user.age;
     let genderModified = this.state.gender !== user.gender;
 
-    let accentOptions = [];
+    let accentOptions: any[] = [];
     Object.keys(ACCENTS).forEach(accent => {
       accentOptions.push(
         <option value={accent} selected={this.state.accent === accent}>
@@ -107,7 +107,7 @@ export default class Profile extends Component<Props, State> {
         </option>);
     });
 
-    let ageOptions = [];
+    let ageOptions: any[] = [];
     Object.keys(AGES).forEach(age => {
       ageOptions.push(
         <option value={age} selected={this.state.age === age}>
@@ -115,7 +115,7 @@ export default class Profile extends Component<Props, State> {
         </option>);
     });
 
-    let genderOptions = [];
+    let genderOptions: any[] = [];
     Object.keys(GENDER).forEach(gender => {
       genderOptions.push(
         <option value={gender} selected={this.state.gender === gender}>

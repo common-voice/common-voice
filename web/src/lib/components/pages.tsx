@@ -17,7 +17,20 @@ import NotFound from './pages/not-found';
 import API from '../api';
 import User from '../user';
 
-const URLS = {
+interface PageUrls {
+  [key: string]: string;
+  ROOT: string;
+  HOME: string;
+  RECORD: string;
+  LISTEN: string;
+  PROFILE: string;
+  FAQ: string;
+  PRIVACY: string;
+  TERMS: string;
+  NOTFOUND: string;
+};
+
+const URLS: PageUrls = {
   ROOT: '/',
   HOME: '/home',
   RECORD: '/record',
@@ -68,7 +81,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
   private bg: HTMLElement;
   private iOSBackground: any[];
 
-  state = {
+  state: PagesState = {
     isMenuVisible: false,
     pageTransitioning: false,
     scrolled: false,
@@ -81,7 +94,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
     recorderVolume: 100
   };
 
-  constructor(props) {
+  constructor(props?: PagesProps) {
     super(props);
 
     // On native iOS, we found some issues animating the css background
@@ -116,7 +129,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
     window.location.href = getItunesURL();
   }
 
-  private closeOpenInApp(evt) {
+  private closeOpenInApp(evt: Event) {
     evt.stopPropagation();
     evt.preventDefault();
     document.getElementById('install-app').classList.add('hide');
@@ -144,8 +157,8 @@ export default class Pages extends Component<PagesProps, PagesState> {
     });
   }
 
-  private isValidPage(url): boolean {
-    return Object.keys(URLS).some(key => {
+  private isValidPage(url: string): boolean {
+    return Object.keys(URLS).some((key: string) => {
       return URLS[key] === url;
     });
   }

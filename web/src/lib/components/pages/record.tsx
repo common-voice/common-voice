@@ -58,7 +58,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   sentenceCache: string[];
   maxVolume: number;
 
-  state = {
+  state: RecordState = {
     sentences: [],
     recording: false,
     recordingStartTime: 0,
@@ -69,7 +69,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     isReRecord: false
   };
 
-  constructor(props) {
+  constructor(props: RecordProps) {
     super(props);
 
     this.tracker = new Tracker();

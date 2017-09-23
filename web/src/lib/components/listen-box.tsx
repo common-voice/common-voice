@@ -39,7 +39,7 @@ export default class ListenBox extends Component<Props, State> {
     this.voteNo = this.voteNo.bind(this);
   }
 
-  state = {
+  state: State = {
     loaded: false,
     playing: false,
     played: false,

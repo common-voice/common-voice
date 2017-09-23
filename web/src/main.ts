@@ -1,5 +1,6 @@
-declare var define;
-declare var require;
+declare var define: any;
+declare var require: any;
+
 define('preact', () => { return preact; })
 
 // Safari hack to allow :active styles.
