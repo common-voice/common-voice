@@ -486,6 +486,8 @@ header.active {
   box-sizing: border-box;
   text-align: center;
   width: 10rem;
+  height: 4.8rem;
+  padding: .2rem 0;
 }
 
 #help-links a:first-child {
@@ -494,6 +496,14 @@ header.active {
 
 #help-links a:nth-child(2) {
   border-right: 1px solid black;
+}
+
+#help-links a .help-link-label {
+  margin-top: .2rem;
+}
+
+#help-links a .help-link-name {
+  font-size: .7rem;
 }
 
 #moz-links {

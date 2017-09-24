@@ -380,17 +380,19 @@ export default class Pages extends Component<PagesProps, PagesState> {
               <a id="help" onClick={this.linkNavigate}
                  href="/faq">
                 <Icon type="help" />
-                <p class="strong">Help</p>
+                <p class="strong help-link-label">Help</p>
               </a>
               <a id="contribute"
                  target="_blank" href="https://github.com/mozilla/voice-web">
                 <Icon type="github" />
-                <p class="strong">Contribute</p>
+                <p class="strong help-link-label">Contribute</p>
+                <p class="help-link-name">on GitHub</p>
               </a>
               <a id="discourse"
                  target="blank" href="https://discourse.mozilla-community.org/c/voice">
                 <Icon type="discourse" />
-                <p class="strong">Community</p>
+                <p class="strong help-link-label">Community</p>
+                <p class="help-link-name">on Discourse</p>
               </a>
             </div>
           </div>
