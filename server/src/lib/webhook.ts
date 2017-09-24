@@ -27,9 +27,10 @@ export default class WebHook {
     return request.url.includes('/webhook');
   }
 
-  handleWebhookRequest(request: http.IncomingMessage,
-    response: http.ServerResponse) {
-
+  handleWebhookRequest(
+    request: http.IncomingMessage,
+    response: http.ServerResponse
+  ) {
     // Only post requests allowed.
     if (request.method !== 'POST') {
       respond(response, 'BAD REQUEST', 400);
@@ -41,7 +42,7 @@ export default class WebHook {
       let info: any;
       try {
         info = JSON.parse(buffer.toString());
-      } catch(e) {
+      } catch (e) {
         respond(response, 'BAD REQUEST', 400);
         return;
       }

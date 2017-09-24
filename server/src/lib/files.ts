@@ -13,8 +13,7 @@ const MP3_EXT = '.mp3';
 const TEXT_EXT = '.txt';
 const VOTE_EXT = '.vote';
 const CONVERTABLE_EXTS = ['.ogg', '.m4a'];
-const CONFIG_PATH = path.resolve(__dirname, '../../..',
-                                 'config.json');
+const CONFIG_PATH = path.resolve(__dirname, '../../..', 'config.json');
 const config = require(CONFIG_PATH);
 const BUCKET_NAME = config.BUCKET_NAME || 'common-voice-corpus';
 
@@ -36,7 +35,7 @@ export default class Files {
   private paths: string[];
   private votes: number;
   private validated: number;
-  private randomEngine: any
+  private randomEngine: any;
 
   constructor() {
     this.s3 = new AWS.S3();
@@ -61,22 +60,23 @@ export default class Files {
    */
   private fetchSentenceFromS3(glob: string): Promise<string> {
     let key = glob + TEXT_EXT;
-    return new Promise((res: (stentence: string) => void,
-                        rej: (error: any) => void) => {
-      let glob = this.getGlob(key);
-      let params = {Bucket: BUCKET_NAME, Key: key};
-      this.s3.getObject(params, (err: any, s3Data: any) => {
-        if (err) {
-          console.error('Could not read from s3', key, err);
-          rej(err);
-          return;
-        }
+    return new Promise(
+      (res: (stentence: string) => void, rej: (error: any) => void) => {
+        let glob = this.getGlob(key);
+        let params = { Bucket: BUCKET_NAME, Key: key };
+        this.s3.getObject(params, (err: any, s3Data: any) => {
+          if (err) {
+            console.error('Could not read from s3', key, err);
+            rej(err);
+            return;
+          }
 
-        let sentence = s3Data.Body.toString();
-        this.files[glob].sentence = sentence;
-        res(sentence);
-      });
-    });
+          let sentence = s3Data.Body.toString();
+          this.files[glob].sentence = sentence;
+          res(sentence);
+        });
+      }
+    );
   }
 
   /**
@@ -85,7 +85,7 @@ export default class Files {
   private getPublicUrl(key: string) {
     return this.s3.getSignedUrl('getObject', {
       Bucket: BUCKET_NAME,
-      Key: key
+      Key: key,
     });
   }
 
@@ -117,12 +117,15 @@ export default class Files {
   /**
    * Load a single set of file keys based on KEYS_PER_REQUEST.
    */
-  private loadNext(res: Function, rej: Function,
-                   continuationToken?: string): void {
+  private loadNext(
+    res: Function,
+    rej: Function,
+    continuationToken?: string
+  ): void {
     let awsRequest = this.s3.listObjectsV2({
       Bucket: BUCKET_NAME,
       MaxKeys: KEYS_PER_REQUEST,
-      ContinuationToken: continuationToken
+      ContinuationToken: continuationToken,
     });
 
     let startRequest = Date.now();
@@ -141,7 +144,7 @@ export default class Files {
           continue;
         }
 
-         if (ext === VOTE_EXT) {
+        if (ext === VOTE_EXT) {
           glob = glob.substr(0, glob.indexOf('-by-'));
         }
 
@@ -179,7 +182,10 @@ export default class Files {
       // we are not trying to reverify any.
       this.filterPaths();
       console.log('clips load', this.paths.length, this.votes, this.validated);
-      console.log(`load time ${startParsing - startRequest} parse time ${Date.now() - startParsing}`);
+      console.log(
+        `load time ${startParsing - startRequest} parse time ${Date.now() -
+          startParsing}`
+      );
 
       // If there is no continuation token, we are done.
       if (!next) {
