@@ -3,7 +3,7 @@
  */
 
 /**
- * Get some random string in a certain format.
+ * Generate RFC4122 compliant globally unique identifier.
  */
 export function generateGUID(): string {
   return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {

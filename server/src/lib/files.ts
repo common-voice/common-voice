@@ -61,7 +61,7 @@ export default class Files {
   private fetchSentenceFromS3(glob: string): Promise<string> {
     let key = glob + TEXT_EXT;
     return new Promise(
-      (res: (stentence: string) => void, rej: (error: any) => void) => {
+      (res: (sentence: string) => void, rej: (error: any) => void) => {
         let glob = this.getGlob(key);
         let params = { Bucket: BUCKET_NAME, Key: key };
         this.s3.getObject(params, (err: any, s3Data: any) => {
