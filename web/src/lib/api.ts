@@ -77,7 +77,9 @@ export default class API {
   }
 
   async getRandomSentences(count?: number): Promise<string[]> {
-    const sentencesText = await this.requestResourceText('sentence' + (count ? '/' + count : ''));
+    const sentencesText = await this.requestResourceText(
+      'sentence' + (count ? '/' + count : '')
+    );
     return sentencesText.split('\n');
   }
 
@@ -89,7 +91,10 @@ export default class API {
    * Ask the server for a clip
    */
   async getRandomClip(): Promise<Clip> {
-    const req = await this.fetch('upload/random/', { responseType: 'blob', headers: {'uid': this.user.getId()}})
+    const req = await this.fetch('upload/random/', {
+      responseType: 'blob',
+      headers: { uid: this.user.getId() },
+    });
     let src = window.URL.createObjectURL(req.response);
     let glob = decodeURIComponent(req.getResponseHeader('glob'));
     let sentence = decodeURIComponent(req.getResponseHeader('sentence'));
@@ -100,7 +105,10 @@ export default class API {
    * Ask the server for a clip
    */
   async getRandomClipJson(): Promise<ClipJson> {
-    const req = await this.fetch('upload/random.json', { responseType: 'json', headers: {'uid': this.user.getId()}});
+    const req = await this.fetch('upload/random.json', {
+      responseType: 'json',
+      headers: { uid: this.user.getId() },
+    });
 
     let response = req.response as ClipJson;
     return response;
@@ -132,22 +140,25 @@ export default class API {
       let demographicInfo = {
         accent: this.user.getState().accent,
         age: this.user.getState().age,
-        gender: this.user.getState().gender
+        gender: this.user.getState().gender,
       };
       req.setRequestHeader('demographic', JSON.stringify(demographicInfo));
       req.send(demographicInfo);
     });
   }
 
-  uploadAudio(blob: Blob, sentence: string, progress?: Function): Promise<Event> {
+  uploadAudio(
+    blob: Blob,
+    sentence: string,
+    progress?: Function
+  ): Promise<Event> {
     return new Promise((resolve: EventListener, reject: EventListener) => {
       var req = new XMLHttpRequest();
       req.upload.addEventListener('load', resolve);
       req.upload.addEventListener('error', reject);
       req.open('POST', API.SOUNDCLIP_URL);
       req.setRequestHeader('uid', this.user.getId());
-      req.setRequestHeader('sentence',
-        encodeURIComponent(sentence));
+      req.setRequestHeader('sentence', encodeURIComponent(sentence));
 
       // For IOS, we don't upload binary data but base64. Here we
       // make sure the server knows what to expect.

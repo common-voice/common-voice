@@ -34,8 +34,12 @@ export default class Tracker {
     return this.isProduction && this.isLoaded();
   }
 
-  private track(category: string, action: string,
-                label?: string, value?: string): void {
+  private track(
+    category: string,
+    action: string,
+    label?: string,
+    value?: string
+  ): void {
     if (!this.shouldTrack()) {
       return;
     }

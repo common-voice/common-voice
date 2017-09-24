@@ -3,7 +3,8 @@ import ListenBox from './listen-box';
 import { ClipJson, default as API } from '../api';
 
 const LOADING_MESSAGE = 'Loading...';
-const LOAD_ERROR_MESSAGE = 'Sorry! We are processing our audio files, please try again shortly.';
+const LOAD_ERROR_MESSAGE =
+  'Sorry! We are processing our audio files, please try again shortly.';
 
 interface Props {
   api: API;
@@ -21,7 +22,6 @@ interface State {
  * Widget for validating voice clips.
  */
 export default class Validator extends Component<Props, State> {
-
   constructor(props: Props) {
     super(props);
     this.onVote = this.onVote.bind(this);
@@ -47,7 +47,7 @@ export default class Validator extends Component<Props, State> {
         loading: false,
         glob: clipJson.glob,
         sentence: decodeURIComponent(clipJson.text),
-        audioSrc: clipJson.sound
+        audioSrc: clipJson.sound,
       });
     } catch (err) {
       console.error('could not fetch random clip for validator', err);
@@ -65,10 +65,15 @@ export default class Validator extends Component<Props, State> {
       sentence = LOAD_ERROR_MESSAGE;
     }
 
-    return <div class="validator">
-      <ListenBox src={this.state.audioSrc}
-                 sentence={sentence}
-                 onVote={this.onVote} vote="true" />
-    </div>;
+    return (
+      <div class="validator">
+        <ListenBox
+          src={this.state.audioSrc}
+          sentence={sentence}
+          onVote={this.onVote}
+          vote="true"
+        />
+      </div>
+    );
   }
 }

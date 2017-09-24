@@ -8,30 +8,38 @@ import AudioWeb, { AudioInfo } from './record/audio-web';
 import ListenBox from '../listen-box';
 import ProgressButton from '../progress-button';
 import ERROR_MSG from '../../../error-msg';
-import { getItunesURL, isFocus, countSyllables, isNativeIOS, generateGUID }
-  from '../../utility';
+import {
+  getItunesURL,
+  isFocus,
+  countSyllables,
+  isNativeIOS,
+  generateGUID,
+} from '../../utility';
 import confirm from '../confirm';
 
 const CACHE_SET_COUNT = 9;
 const SET_COUNT = 3;
 const PAGE_NAME = 'record';
-const MIN_RECORDING_LENGTH = 300;   // ms
+const MIN_RECORDING_LENGTH = 300; // ms
 const MAX_RECORDING_LENGTH = 10000; // ms
 const MIN_VOLUME = 1;
 
 enum RecordingError {
   TOO_SHORT = 1,
   TOO_LONG,
-  TOO_QUIET
-};
+  TOO_QUIET,
+}
 
 interface RecordProps {
   active: string;
   user: User;
   api: API;
   navigate(url: string): void;
-  onSubmit(recordings: Blob[], sentences: string[],
-           progressCb: Function): Promise<void>;
+  onSubmit(
+    recordings: Blob[],
+    sentences: string[],
+    progressCb: Function
+  ): Promise<void>;
   onRecord: Function;
   onRecordStop: Function;
   onRecordingSet: Function;
@@ -66,7 +74,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     recordings: [],
     uploading: false,
     uploadProgress: 0,
-    isReRecord: false
+    isReRecord: false,
   };
 
   constructor(props: RecordProps) {
@@ -111,7 +119,9 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   }
 
   private async refillSentenceCache() {
-    const newSentences = await this.props.api.getRandomSentences(CACHE_SET_COUNT)
+    const newSentences = await this.props.api.getRandomSentences(
+      CACHE_SET_COUNT
+    );
     this.sentenceCache = this.sentenceCache.concat(newSentences);
   }
 
@@ -122,7 +132,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     this.setState({
       recordings: recordings,
       recording: false,
-      isReRecord: false
+      isReRecord: false,
     });
 
     this.tracker.trackRecord();
@@ -225,18 +235,26 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     }
 
     this.setState({
-      uploading: true
+      uploading: true,
     });
 
     try {
-      await this.props.onSubmit(this.state.recordings, this.state.sentences, this.onProgress);
+      await this.props.onSubmit(
+        this.state.recordings,
+        this.state.sentences,
+        this.onProgress
+      );
       this.reset();
       this.tracker.trackSubmitRecordings();
     } catch (e) {
       this.setState({
-        uploading: false
+        uploading: false,
       });
-      const keep = await confirm('Upload aborted. Do you want to delete your recordings?', 'Keep the recordings', 'Delete my recordings')
+      const keep = await confirm(
+        'Upload aborted. Do you want to delete your recordings?',
+        'Keep the recordings',
+        'Delete my recordings'
+      );
       if (!keep) {
         this.reset();
         this.props.navigate('/');
@@ -253,7 +271,6 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       console.error('cannot undo, no recordings');
       return;
     }
-
 
     // If user was recording when going back, make sure to throw
     // out this new recording too.
@@ -274,7 +291,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       recordings: [],
       sentences: [],
       uploading: false,
-      uploadProgress: 0
+      uploadProgress: 0,
     });
     this.newSentenceSet();
   }
@@ -286,7 +303,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     if (this.state.recording) {
       this.stopRecording();
 
-    // Don't start a new recording when full.
+      // Don't start a new recording when full.
     } else if (!this.isFull()) {
       await this.audio.init();
       this.startRecording();
@@ -308,7 +325,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   stopRecording() {
     this.audio.stop().then(this.processRecording);
     this.setState({
-      recordingStopTime: Date.now()
+      recordingStopTime: Date.now(),
     });
   }
 
@@ -318,7 +335,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   stopRecordingHard() {
     this.audio.stop();
     this.setState({
-      recording: false
+      recording: false,
     });
 
     this.props.onRecordStop && this.props.onRecordStop();
@@ -343,30 +360,36 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   render() {
     // Make sure we can get the microphone before displaying anything.
     if (this.isUnsupportedPlatform) {
-      return <div className={'unsupported ' + this.props.active}>
-        <h2>
-          We're sorry, but your platform is not currently supported.
-        </h2>
-        <p>
-          On desktop computers, you can download the latest:
-          <a target="_blank" href="https://www.firefox.com/">
-            <Icon type="firefox" />Firefox</a> or
-          <a target="_blank" href="https://www.google.com/chrome">
-            <Icon type="chrome" />Chrome</a>
-        </p>
-        <p><b>iOS</b> users can download our free app:</p>
-        <a target="_blank" href={getItunesURL()}><img src="/img/appstore.svg" /></a>
-      </div>;
+      return (
+        <div className={'unsupported ' + this.props.active}>
+          <h2>We're sorry, but your platform is not currently supported.</h2>
+          <p>
+            On desktop computers, you can download the latest:
+            <a target="_blank" href="https://www.firefox.com/">
+              <Icon type="firefox" />Firefox
+            </a>{' '}
+            or
+            <a target="_blank" href="https://www.google.com/chrome">
+              <Icon type="chrome" />Chrome
+            </a>
+          </p>
+          <p>
+            <b>iOS</b> users can download our free app:
+          </p>
+          <a target="_blank" href={getItunesURL()}>
+            <img src="/img/appstore.svg" />
+          </a>
+        </div>
+      );
     }
 
     // During uploading, we display the submit page for progress.
     let isFull = this.isFull() || this.state.uploading;
-    let texts = [];   // sentence elements
+    let texts = []; // sentence elements
     let listens = []; // listen boxes
 
     // Get the text prompts.
     for (let i = 0; i < SET_COUNT; i++) {
-
       // For the sentences elements, we need to
       // figure out where each item is positioned.
       let className = 'text-box';
@@ -377,51 +400,71 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
         className = className + ' right';
       }
 
-      texts.push(<p className={className}>
-        {this.state.sentences[i]}
-      </p>);
+      texts.push(<p className={className}>{this.state.sentences[i]}</p>);
 
-      listens.push(<ListenBox src={this.getRecordingUrl(i)}
-                              onDelete={this.deleteRecording.bind(this, i)}
-                              sentence={this.getSentence(i)}/>);
+      listens.push(
+        <ListenBox
+          src={this.getRecordingUrl(i)}
+          onDelete={this.deleteRecording.bind(this, i)}
+          sentence={this.getSentence(i)}
+        />
+      );
     }
 
     let showBack = this.state.recordings.length !== 0 && !this.state.isReRecord;
-    let className = this.props.active + (isFull ? ' full': '');
+    let className = this.props.active + (isFull ? ' full' : '');
     let progress = this.state.uploadProgress;
     if (this.state.uploading) {
       // Look ahead in the progress bar when uploading.
-      progress += (100 / SET_COUNT) * 1;
+      progress += 100 / SET_COUNT * 1;
     }
 
-    return <div id="record-container" className={className}>
-      <div id="voice-record">
-        <p id="recordings-count">
-          <span style={this.state.isReRecord ? 'display: none;' : ''}>
-            {this.state.recordings.length + 1} of 3</span>
-        </p>
-        <div className="record-sentence">
-          {texts}
-          <Icon id="undo-clip" type="undo" onClick={this.goBack}
-            className={!showBack ? 'hide' : ''}/>
+    return (
+      <div id="record-container" className={className}>
+        <div id="voice-record">
+          <p id="recordings-count">
+            <span style={this.state.isReRecord ? 'display: none;' : ''}>
+              {this.state.recordings.length + 1} of 3
+            </span>
+          </p>
+          <div className="record-sentence">
+            {texts}
+            <Icon
+              id="undo-clip"
+              type="undo"
+              onClick={this.goBack}
+              className={!showBack ? 'hide' : ''}
+            />
+          </div>
+          <div
+            id="record-button"
+            onTouchStart={this.onRecordClick}
+            onClick={this.onRecordClick}
+          />
+          <p id="record-help">
+            Please tap to record, then read the above sentence aloud.
+          </p>
         </div>
-        <div id="record-button" onTouchStart={this.onRecordClick}
-                                onClick={this.onRecordClick}></div>
-        <p id="record-help">
-          Please tap to record, then read the above sentence aloud.
-        </p>
+        <div id="voice-submit">
+          <p id="thank-you">
+            <span>Thank you!</span>
+          </p>
+          <p id="want-to-review">
+            <span>Want to review your recording?</span>
+          </p>
+          <p id="box-headers">
+            <span>Play/Stop</span>
+            <span>Re-record</span>
+          </p>
+          {listens}
+          <ProgressButton
+            percent={progress}
+            disabled={this.state.uploading}
+            onClick={this.onSubmit}
+            text="Submit"
+          />
+        </div>
       </div>
-      <div id="voice-submit">
-        <p id="thank-you"><span>Thank you!</span></p>
-        <p id="want-to-review"><span>Want to review your recording?</span></p>
-        <p id="box-headers">
-          <span>Play/Stop</span>
-          <span>Re-record</span>
-        </p>
-        {listens}
-        <ProgressButton percent={progress} disabled={this.state.uploading}
-                        onClick={this.onSubmit} text="Submit" />
-      </div>
-    </div>;
+    );
   }
 }

@@ -26,7 +26,7 @@ const PRELOAD = [
   '/img/wave-blue-mobile.png',
   '/img/wave-red-large.png',
   '/img/wave-red-mobile.png',
-  '/img/circle.png'
+  '/img/circle.png',
 ];
 
 /**
@@ -34,7 +34,6 @@ const PRELOAD = [
  * controllers.
  */
 export default class App {
-
   box: DebugBox;
   user: User;
   api: API;
@@ -81,7 +80,6 @@ export default class App {
         }
 
         progressCallback(loadedSoFar / PRELOAD.length);
-
       };
       for (let i = 0; i < PRELOAD.length; i++) {
         let image = new Image();
@@ -112,7 +110,7 @@ export default class App {
     }
     let link = document.createElement('a');
     link.href = href;
-    
+
     // Workaround for IE bug where pathname was not prefixed by '/'
     const pathname = link.pathname;
     if (pathname.indexOf('/') !== 0) {
@@ -138,27 +136,36 @@ export default class App {
     if (!this.loaded) {
       render(
         <div id="spinner">
-          <span ref={(el) => {
-            if (this.progressMeter) {
-              return;
-            }
+          <span
+            ref={el => {
+              if (this.progressMeter) {
+                return;
+              }
 
-            this.progressMeter = el as HTMLSpanElement; }} />
-        </div>, document.body, document.body.firstElementChild);
+              this.progressMeter = el as HTMLSpanElement;
+            }}
+          />
+        </div>,
+        document.body,
+        document.body.firstElementChild
+      );
       return;
     }
 
     // Render the main controller, Pages.
-    render((
-      <Pages user={this.user}
-             api={this.api}
-             navigate={this.handleNavigation}
-             currentPage={this.getPageName()} />
-    ), document.body, document.body.firstElementChild);
+    render(
+      <Pages
+        user={this.user}
+        api={this.api}
+        navigate={this.handleNavigation}
+        currentPage={this.getPageName()}
+      />,
+      document.body,
+      document.body.firstElementChild
+    );
   }
 
   async init(): Promise<void> {
-
     // Always force page to be ready after a specified time.
     setTimeout(() => {
       this.loaded = true;
@@ -176,7 +183,9 @@ export default class App {
 
     this.loaded = true;
     setTimeout(() => {
-      document.body.classList.add('loaded'); }, LOAD_DELAY); }
+      document.body.classList.add('loaded');
+    }, LOAD_DELAY);
+  }
 
   /**
    * Entry point for the application.

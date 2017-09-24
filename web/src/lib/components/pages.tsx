@@ -28,7 +28,7 @@ interface PageUrls {
   PRIVACY: string;
   TERMS: string;
   NOTFOUND: string;
-};
+}
 
 const URLS: PageUrls = {
   ROOT: '/',
@@ -39,20 +39,20 @@ const URLS: PageUrls = {
   FAQ: '/faq',
   PRIVACY: '/privacy',
   TERMS: '/terms',
-  NOTFOUND: '/not-found'
+  NOTFOUND: '/not-found',
 };
 
 const ROBOT_TALK = {
-  'home': [
+  home: [
     <p>Greetings human!</p>,
     <p>My name is M.A.R.S. and I am a learning robot.</p>,
     <p>Right now, I am learning to speak like a human.</p>,
-    <p>But. . .  it's so hard!</p>,
+    <p>But. . . it's so hard!</p>,
     <p>Can you help me learn?</p>,
     <p>All I need is for you to read to me. :)</p>,
     <p>Please click on the heart below to get started teaching me.</p>,
-  ]
-}
+  ],
+};
 
 interface PagesProps {
   user: User;
@@ -91,7 +91,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
     recording: false,
     robot: '',
     onPrivacyAction: undefined,
-    recorderVolume: 100
+    recorderVolume: 100,
   };
 
   constructor(props?: PagesProps) {
@@ -103,7 +103,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
     if (isNativeIOS()) {
       this.iOSBackground = [
         <img src="/img/wave-blue-mobile.png" />,
-        <img src="/img/wave-red-mobile.png" />
+        <img src="/img/wave-red-mobile.png" />,
       ];
     }
 
@@ -147,13 +147,13 @@ export default class Pages extends Component<PagesProps, PagesState> {
 
   private sayThanks(): void {
     this.setState({
-      robot: 'thanks'
+      robot: 'thanks',
     });
   }
 
   private clearRobot(): void {
     this.setState({
-      robot: ''
+      robot: '',
     });
   }
 
@@ -163,7 +163,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
     });
   }
 
-  private isPageActive(url: string|string[], page?: string): string {
+  private isPageActive(url: string | string[], page?: string): string {
     if (!page) {
       page = this.state.currentPage;
     }
@@ -180,30 +180,30 @@ export default class Pages extends Component<PagesProps, PagesState> {
   }
 
   private onRecord() {
-
     // Callback function for when we've hidden the normal background.
     let cb = () => {
       this.bg.removeEventListener('transitionend', cb);
       this.setState({
         transitioning: false,
-        recording: true
+        recording: true,
       });
     };
     this.bg.addEventListener('transitionend', cb);
 
     this.setState({
       transitioning: true,
-      recording: false
+      recording: false,
     });
   }
 
   private onRecordStop() {
     this.setState({
-      recording: false
+      recording: false,
     });
   }
 
-  private addScrollListener() { this.scroller.addEventListener('scroll', evt => {
+  private addScrollListener() {
+    this.scroller.addEventListener('scroll', evt => {
       let scrolled = this.scroller.scrollTop > 0;
       if (scrolled !== this.state.scrolled) {
         this.setState({ scrolled: scrolled });
@@ -232,7 +232,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
       let onFinish = (didAgree: boolean): void => {
         this.setState({
           showingPrivacy: false,
-          onPrivacyAction: undefined
+          onPrivacyAction: undefined,
         });
 
         if (didAgree) {
@@ -245,14 +245,16 @@ export default class Pages extends Component<PagesProps, PagesState> {
 
       this.setState({
         showingPrivacy: true,
-        onPrivacyAction: onFinish
+        onPrivacyAction: onFinish,
       });
     });
   }
 
-  private async uploadRecordings(recordings: any[],
-                                 sentences: string[],
-                                 progressCb: Function): Promise<void> {
+  private async uploadRecordings(
+    recordings: any[],
+    sentences: string[],
+    progressCb: Function
+  ): Promise<void> {
     await this.ensurePrivacyAgreement();
     const originalTotal = recordings.length;
 
@@ -264,7 +266,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
       await this.props.api.uploadAudio(blob, sentence);
 
       if (recordings.length !== 0) {
-        let percentage = Math.floor((runningTotal / originalTotal) * 100);
+        let percentage = Math.floor(runningTotal / originalTotal * 100);
         progressCb && progressCb(percentage);
         this.props.user.tallyRecording();
       }
@@ -273,7 +275,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
 
     // Reset robot state to initial state
     this.setState({
-      robot: ''
+      robot: '',
     });
   }
 
@@ -298,19 +300,19 @@ export default class Pages extends Component<PagesProps, PagesState> {
         self.setState({
           currentPage: nextProps.currentPage,
           pageTransitioning: false,
-          isMenuVisible: false
+          isMenuVisible: false,
         });
       });
 
       this.setState({
-        pageTransitioning: true
+        pageTransitioning: true,
       });
     }
   }
 
   toggleMenu = () => {
     this.setState({ isMenuVisible: !this.state.isMenuVisible });
-  }
+  };
 
   render() {
     let pageName = this.getCurrentPageName();
@@ -324,124 +326,198 @@ export default class Pages extends Component<PagesProps, PagesState> {
 
     let bgStyle = '';
     if (this.state.recording) {
-      let scale = Math.max(( 1.3 * (this.state.recorderVolume - 28) / 100 ), 0);
+      let scale = Math.max(1.3 * (this.state.recorderVolume - 28) / 100, 0);
       bgStyle = 'transform: scaleY(' + scale + ');';
     }
 
-    return <div id="main" className={className}>
-      <div onClick={this.openInApp} id="install-app">Open in App
-        <a onClick={this.closeOpenInApp}>X</a></div>
-      <header className={(this.state.isMenuVisible || this.state.scrolled ?
-                          'active' : '')}>
-        <Logo navigate={this.props.navigate}/>
-        {this.renderUser()}
-        <button id="hamburger-menu" onClick={this.toggleMenu}
-          className={(this.state.isMenuVisible ? ' is-active' : '')}>
-          <Icon type="hamburger" />
-        </button>
-        {this.renderNav('main-nav')}
-      </header>
-      <div id="scroller"><div id="scrollee">
-        <div id="background-container" style={bgStyle}>{this.iOSBackground}</div>
-        <div class="hero">
-          <Robot position={(pageName === 'record' && this.state.robot) ||
-                           pageName} onClick={page => {
-            this.props.navigate('/' + page);
-          //}}>{ROBOT_TALK[pageName]}</Robot> (Disable talking robot for now)
-          }}></Robot>
+    return (
+      <div id="main" className={className}>
+        <div onClick={this.openInApp} id="install-app">
+          Open in App
+          <a onClick={this.closeOpenInApp}>X</a>
         </div>
-        <div class="hero-space"></div>
-        <div id="content" className={this.state.pageTransitioning ?
-                                     'transitioning': ''}>
-          <Home active={this.isPageActive([URLS.HOME, URLS.ROOT])}
+        <header
+          className={
+            this.state.isMenuVisible || this.state.scrolled ? 'active' : ''
+          }>
+          <Logo navigate={this.props.navigate} />
+          {this.renderUser()}
+          <button
+            id="hamburger-menu"
+            onClick={this.toggleMenu}
+            className={this.state.isMenuVisible ? ' is-active' : ''}>
+            <Icon type="hamburger" />
+          </button>
+          {this.renderNav('main-nav')}
+        </header>
+        <div id="scroller">
+          <div id="scrollee">
+            <div id="background-container" style={bgStyle}>
+              {this.iOSBackground}
+            </div>
+            <div class="hero">
+              <Robot
+                position={
+                  (pageName === 'record' && this.state.robot) || pageName
+                }
+                onClick={page => {
+                  this.props.navigate('/' + page);
+                  //}}>{ROBOT_TALK[pageName]}</Robot> (Disable talking robot for now)
+                }}
+              />
+            </div>
+            <div class="hero-space" />
+            <div
+              id="content"
+              className={this.state.pageTransitioning ? 'transitioning' : ''}>
+              <Home
+                active={this.isPageActive([URLS.HOME, URLS.ROOT])}
                 navigate={this.props.navigate}
-                api={this.props.api} user={this.props.user} />
-          <Record active={this.isPageActive(URLS.RECORD)} api={this.props.api}
-                  onRecord={this.onRecord}
-                  onRecordStop={this.onRecordStop}
-                  onRecordingSet={this.sayThanks}
-                  onVolume={this.onVolume}
-                  onSubmit={this.uploadRecordings}
-                  onDelete={this.clearRobot}
-                  navigate={this.props.navigate} user={this.props.user} />
-          <Listen active={this.isPageActive(URLS.LISTEN)}
-                  navigate={this.props.navigate}
-                  api={this.props.api} user={this.props.user}/>
-          <Profile user={this.props.user}
-                   active={this.isPageActive(URLS.PROFILE)} />
-          <FAQ active={this.isPageActive(URLS.FAQ)} />
-          <Privacy active={this.isPageActive(URLS.PRIVACY)} />
-          <Terms active={this.isPageActive(URLS.TERMS)} />
-          <NotFound active={this.isNotFoundActive()} />
-        </div>
-        <footer>
-          <div id="help-links">
-            <div class="content">
-              <a id="help" onClick={this.linkNavigate}
-                 href="/faq">
-                <Icon type="help" />
-                <p class="strong">Help</p>
-              </a>
-              <a id="contribute"
-                 target="_blank" href="https://github.com/mozilla/voice-web">
-                <Icon type="github" />
-                <p class="strong">Contribute</p>
-              </a>
-              <a id="discourse"
-                 target="blank" href="https://discourse.mozilla-community.org/c/voice">
-                <Icon type="discourse" />
-                <p class="strong">Community</p>
-              </a>
+                api={this.props.api}
+                user={this.props.user}
+              />
+              <Record
+                active={this.isPageActive(URLS.RECORD)}
+                api={this.props.api}
+                onRecord={this.onRecord}
+                onRecordStop={this.onRecordStop}
+                onRecordingSet={this.sayThanks}
+                onVolume={this.onVolume}
+                onSubmit={this.uploadRecordings}
+                onDelete={this.clearRobot}
+                navigate={this.props.navigate}
+                user={this.props.user}
+              />
+              <Listen
+                active={this.isPageActive(URLS.LISTEN)}
+                navigate={this.props.navigate}
+                api={this.props.api}
+                user={this.props.user}
+              />
+              <Profile
+                user={this.props.user}
+                active={this.isPageActive(URLS.PROFILE)}
+              />
+              <FAQ active={this.isPageActive(URLS.FAQ)} />
+              <Privacy active={this.isPageActive(URLS.PRIVACY)} />
+              <Terms active={this.isPageActive(URLS.TERMS)} />
+              <NotFound active={this.isNotFoundActive()} />
             </div>
-          </div>
-          <div id="moz-links">
-            <div class="content">
-              <Logo navigate={this.props.navigate}/>
-              <div class="links">
-                <p>
-                  <a onClick={this.linkNavigate} href="/privacy">Privacy</a>
-                  <a onClick={this.linkNavigate} href="/terms">Terms</a>
-                  <a target="_blank" href="https://www.mozilla.org/en-US/privacy/websites/#cookies">Cookies</a>
-                  <a onClick={this.linkNavigate} href="/faq">FAQ</a>
-                </p>
-                <p>Content available under a&nbsp;<a target="_blank" href="https://www.mozilla.org/en-US/foundation/licensing/website-content/">Creative Commons license</a></p>
+            <footer>
+              <div id="help-links">
+                <div class="content">
+                  <a id="help" onClick={this.linkNavigate} href="/faq">
+                    <Icon type="help" />
+                    <p class="strong">Help</p>
+                  </a>
+                  <a
+                    id="contribute"
+                    target="_blank"
+                    href="https://github.com/mozilla/voice-web">
+                    <Icon type="github" />
+                    <p class="strong">Contribute</p>
+                  </a>
+                  <a
+                    id="discourse"
+                    target="blank"
+                    href="https://discourse.mozilla-community.org/c/voice">
+                    <Icon type="discourse" />
+                    <p class="strong">Community</p>
+                  </a>
+                </div>
               </div>
-            </div>
+              <div id="moz-links">
+                <div class="content">
+                  <Logo navigate={this.props.navigate} />
+                  <div class="links">
+                    <p>
+                      <a onClick={this.linkNavigate} href="/privacy">
+                        Privacy
+                      </a>
+                      <a onClick={this.linkNavigate} href="/terms">
+                        Terms
+                      </a>
+                      <a
+                        target="_blank"
+                        href="https://www.mozilla.org/en-US/privacy/websites/#cookies">
+                        Cookies
+                      </a>
+                      <a onClick={this.linkNavigate} href="/faq">
+                        FAQ
+                      </a>
+                    </p>
+                    <p>
+                      Content available under a&nbsp;<a
+                        target="_blank"
+                        href="https://www.mozilla.org/en-US/foundation/licensing/website-content/">
+                        Creative Commons license
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </footer>
           </div>
-        </footer>
-      </div></div>
-      <div id="navigation-modal"
-           className={this.state.isMenuVisible && 'is-active'}>
-      {this.renderNav()}
-      </div>
-      <div className={'overlay' + (this.state.showingPrivacy ? ' active' : '')}>
-        <div class="privacy-content">
-          <h2>By using Common Voice, you agree to our <a target="_blank" href="/terms">Terms</a> and <a target="_blank" href="/privacy">Privacy Notice</a>.
-          </h2>
-          <div class="button-holder">
-            <button onClick={e => { this.state.onPrivacyAction && this.state.onPrivacyAction(true); }}>I agree</button>
-            <button onClick={e => { this.state.onPrivacyAction && this.state.onPrivacyAction(false); }}>I do not agree</button>
+        </div>
+        <div
+          id="navigation-modal"
+          className={this.state.isMenuVisible && 'is-active'}>
+          {this.renderNav()}
+        </div>
+        <div
+          className={'overlay' + (this.state.showingPrivacy ? ' active' : '')}>
+          <div class="privacy-content">
+            <h2>
+              By using Common Voice, you agree to our{' '}
+              <a target="_blank" href="/terms">
+                Terms
+              </a>{' '}
+              and{' '}
+              <a target="_blank" href="/privacy">
+                Privacy Notice
+              </a>.
+            </h2>
+            <div class="button-holder">
+              <button
+                onClick={e => {
+                  this.state.onPrivacyAction &&
+                    this.state.onPrivacyAction(true);
+                }}>
+                I agree
+              </button>
+              <button
+                onClick={e => {
+                  this.state.onPrivacyAction &&
+                    this.state.onPrivacyAction(false);
+                }}>
+                I do not agree
+              </button>
+            </div>
           </div>
         </div>
       </div>
-    </div>;
+    );
   }
 
   private renderTab(url: string, name: string) {
-    let c = 'tab ' + name + ' ' + this.isPageActive(url, this.props.currentPage);
-    return <a className={c}
-              onClick={this.props.navigate.bind(null, url)}>
-             <span className={'tab-name ' + name}>{name}</span>
-           </a>;
+    let c =
+      'tab ' + name + ' ' + this.isPageActive(url, this.props.currentPage);
+    return (
+      <a className={c} onClick={this.props.navigate.bind(null, url)}>
+        <span className={'tab-name ' + name}>{name}</span>
+      </a>
+    );
   }
 
   private renderNav(id?: string) {
-    return <nav id={id} className="nav-list">
-      {this.renderTab('/', 'home')}
-      {this.renderTab('/record', 'speak')}
-      {this.renderTab('/listen', 'listen')}
-      {this.renderTab('/profile', 'profile')}
-    </nav>;
+    return (
+      <nav id={id} className="nav-list">
+        {this.renderTab('/', 'home')}
+        {this.renderTab('/record', 'speak')}
+        {this.renderTab('/listen', 'listen')}
+        {this.renderTab('/profile', 'profile')}
+      </nav>
+    );
   }
 
   private renderUser() {

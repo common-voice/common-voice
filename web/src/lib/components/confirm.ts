@@ -6,7 +6,11 @@
  * @param label A string label.
  * @return {Promise}
  */
-export default function confirm(label: string, okLabel: string, cancelLabel: string) {
+export default function confirm(
+  label: string,
+  okLabel: string,
+  cancelLabel: string
+) {
   let element = document.createElement('div');
   element.classList.add('confirm-modal');
 

@@ -37,12 +37,15 @@ export default class AudioIOS {
 
   private handleNativeMessage(msg: string): void {
     if (msg === 'nomicpermission') {
-      confirm('Please allow microphone access to record your voice.',
-        'Go to Settings', 'Cancel').then((gotoSettings) => {
-          if (gotoSettings) {
-            vcopensettings();
-          }
-        });
+      confirm(
+        'Please allow microphone access to record your voice.',
+        'Go to Settings',
+        'Cancel'
+      ).then(gotoSettings => {
+        if (gotoSettings) {
+          vcopensettings();
+        }
+      });
     } else if (msg === 'capturestarted') {
       if (this.pendingStart) {
         let cb = this.pendingStart;
@@ -120,8 +123,8 @@ export default class AudioIOS {
         this.last = {
           url: 'data:' + AudioIOS.AUDIO_TYPE_URL + ',' + data,
           blob: new Blob([data], {
-            type: AudioIOS.AUDIO_TYPE
-          })
+            type: AudioIOS.AUDIO_TYPE,
+          }),
         };
         res(this.last);
       };
@@ -133,6 +136,6 @@ export default class AudioIOS {
   // We aren't using this for now, but this performs better
   // than the base64 url for obvious reasons.
   play(): void {
-    this.postMessage("playCapture");
+    this.postMessage('playCapture');
   }
 }
