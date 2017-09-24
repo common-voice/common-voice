@@ -8,7 +8,7 @@
     "typeRoots": [ "../node_modules/@types" ],
     "rootDir": "./src",
     "lib": [
-        "es5",
+        "es6",
         "es2015.promise"
     ]
   }
