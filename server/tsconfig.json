@@ -7,9 +7,6 @@
     "noEmitOnError": true,
     "typeRoots": [ "../node_modules/@types" ],
     "rootDir": "./src",
-    "lib": [
-        "es5",
-        "es2015.promise"
-    ]
+    "lib": [ "es6" ]
   }
 }

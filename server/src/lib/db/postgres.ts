@@ -19,7 +19,7 @@ const DEFAULTS = {
   host: 'localhost',
   port: 5432,
   max: 10,
-  idleTimeoutMillis: 30000
+  idleTimeoutMillis: 30000,
 };
 
 export default class Postgres {
@@ -39,8 +39,8 @@ export default class Postgres {
       host: options.host || config.PGHOST || DEFAULTS.host,
       port: options.port || config.PGPORT || DEFAULTS.port,
       max: options.max || DEFAULTS.max,
-      idleTimeoutMillis: options.idleTimeoutMillis ||
-                         DEFAULTS.idleTimeoutMillis,
+      idleTimeoutMillis:
+        options.idleTimeoutMillis || DEFAULTS.idleTimeoutMillis,
     };
 
     this.pool = new pg.Pool(pgConfig);

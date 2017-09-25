@@ -3,8 +3,7 @@ import { h, Component } from 'preact';
 const CHARACTER_DELAY = 80;
 const PARAGRAPH_DELAY = 3500;
 
-interface Props extends preact.ComponentProps<RobotTalker> {
-}
+interface Props extends preact.ComponentProps<RobotTalker> {}
 
 interface State {
   displayedText: string;
@@ -24,7 +23,9 @@ export default class RobotTalker extends Component<Props, State> {
   }
 
   private updateCharacter() {
-    if (this.remainingParagraphs.length < 1) { return; }
+    if (this.remainingParagraphs.length < 1) {
+      return;
+    }
 
     let currentParagraph = this.remainingParagraphs[0];
     if (currentParagraph.length < 1) {
@@ -37,7 +38,7 @@ export default class RobotTalker extends Component<Props, State> {
     this.remainingParagraphs[0] = currentParagraph.substr(1);
     let newText = this.state.displayedText + c;
     this.setState({
-      displayedText: newText
+      displayedText: newText,
     });
 
     if (this.timeoutHandle) {
@@ -59,7 +60,7 @@ export default class RobotTalker extends Component<Props, State> {
     // Clear text after a half delay
     setTimeout(() => {
       this.setState({
-        displayedText: ''
+        displayedText: '',
       });
     }, PARAGRAPH_DELAY * 0.85);
   }
@@ -75,7 +76,7 @@ export default class RobotTalker extends Component<Props, State> {
       }
 
       this.setState({
-        displayedText: ''
+        displayedText: '',
       });
       setTimeout(this.updateCharacter, 2000);
     }

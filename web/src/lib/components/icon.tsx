@@ -30,8 +30,8 @@ const ICONS: FontIcons = {
   firefox: '',
   chrome: '',
   help: '',
-  discourse: ''
-}
+  discourse: '',
+};
 
 interface Props {
   type: string;
@@ -50,9 +50,14 @@ export default class Icon extends Component<Props, void> {
 
   render() {
     let icon = this.getIcon(this.props.type);
-    return <span onClick={this.props.onClick} id={this.props.id}
-                 className={this.props.className} aria-hidden="true"
-                 data-icon={icon}>
-           </span>;
+    return (
+      <span
+        onClick={this.props.onClick}
+        id={this.props.id}
+        className={this.props.className}
+        aria-hidden="true"
+        data-icon={icon}
+      />
+    );
   }
 }

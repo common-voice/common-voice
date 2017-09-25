@@ -25,8 +25,8 @@ interface State {
 export default class Robot extends Component<Props, State> {
   state = {
     src: MODE_GREETINGS,
-    speech: ''
-  }
+    speech: '',
+  };
 
   constructor(props: Props) {
     super(props);
@@ -56,17 +56,19 @@ export default class Robot extends Component<Props, State> {
 
     this.setState({
       src: src,
-      speech: text
+      speech: text,
     });
   }
 
   render() {
-    return <div className={'robot ' + this.props.position}>
-             <div class="bubble" onClick={this.handleSpeechClick}>
-               {this.state.speech}
-             </div>
-             <img src={this.state.src} />
-             <RobotTalker>{this.props.children}</RobotTalker>
-           </div>;
+    return (
+      <div className={'robot ' + this.props.position}>
+        <div class="bubble" onClick={this.handleSpeechClick}>
+          {this.state.speech}
+        </div>
+        <img src={this.state.src} />
+        <RobotTalker>{this.props.children}</RobotTalker>
+      </div>
+    );
   }
 }

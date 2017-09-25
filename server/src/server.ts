@@ -19,7 +19,10 @@ export default class Server {
   staticServer: any;
 
   constructor() {
-    this.staticServer = new nodeStatic.Server(path.join(__dirname, CLIENT_PATH), { cache: false });
+    this.staticServer = new nodeStatic.Server(
+      path.join(__dirname, CLIENT_PATH),
+      { cache: false }
+    );
     this.api = new API();
     this.clip = new Clip();
 
@@ -33,8 +36,10 @@ export default class Server {
    *   Route requests to appropriate controller based on
    *   if the request deals with voice clips or web content.
    */
-  private handleRequest(request: http.IncomingMessage,
-                        response: http.ServerResponse) {
+  private handleRequest(
+    request: http.IncomingMessage,
+    response: http.ServerResponse
+  ) {
     let startTime = Date.now();
 
     // Handle all clip related requests first.
@@ -49,25 +54,32 @@ export default class Server {
     }
 
     // If we get here, feed request to static parser.
-    request.addListener('end', () => {
-      this.staticServer.serve(request, response, (err: any) => {
-        if (err && err.status === 404) {
-          console.error('page not found', request.url);
+    request
+      .addListener('end', () => {
+        this.staticServer.serve(request, response, (err: any) => {
+          if (err && err.status === 404) {
+            console.error('page not found', request.url);
 
-          // If file was not front, use main page and
-          // let the front end handle url routing.
-          this.staticServer.serveFile('index.html', 200, {}, request, response);
-          return;
-        }
+            // If file was not front, use main page and
+            // let the front end handle url routing.
+            this.staticServer.serveFile(
+              'index.html',
+              200,
+              {},
+              request,
+              response
+            );
+            return;
+          }
 
-        // Log slow static requests
-        let elapsed = Date.now() - startTime;
-        if (elapsed > SLOW_REQUEST_LIMIT) {
-          console.log('slow static request', elapsed, request.url);
-        }
-
+          // Log slow static requests
+          let elapsed = Date.now() - startTime;
+          if (elapsed > SLOW_REQUEST_LIMIT) {
+            console.log('slow static request', elapsed, request.url);
+          }
+        });
       })
-    }).resume();
+      .resume();
   }
 
   /**
@@ -80,7 +92,7 @@ export default class Server {
     // Initialize our clip list.
     let start = Date.now();
     this.clip.init().then(() => {
-      let elapsedSeconds = Math.round( (Date.now() - start) / 1000 );
+      let elapsedSeconds = Math.round((Date.now() - start) / 1000);
       console.log('APPLICATION LOADED', elapsedSeconds);
     });
 

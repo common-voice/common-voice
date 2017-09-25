@@ -22,8 +22,10 @@ export default class Listen extends Component<ListenPageProps, void> {
   }
 
   render() {
-    return <div id="listen-container" className={this.props.active}>
+    return (
+      <div id="listen-container" className={this.props.active}>
         <Validator onVote={this.onVote} api={this.props.api} />
-    </div>;
+      </div>
+    );
   }
 }

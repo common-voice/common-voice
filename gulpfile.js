@@ -1,21 +1,27 @@
 'use strict';
 
+const CWD = process.cwd() + '/';
+
 const APP_NAME = 'common-voice';
 const TS_CONFIG = 'tsconfig.json';
-const TS_GLOB = 'src/**/*';
-const DIR_CLIENT = './web/';
-const DIR_SERVER = './server/';
+const TS_GLOB = '**/*.ts*';
+const DIR_CLIENT = CWD + 'web/';
+const DIR_CLIENT_SRC = DIR_CLIENT + 'src/';
+const DIR_SERVER = CWD + 'server/';
+const DIR_SERVER_SRC = DIR_SERVER + 'src/';
 const DIR_UPLOAD = DIR_SERVER + 'upload/';
 const DIR_SERVER_JS = DIR_SERVER + 'js/';
 const DIR_DIST = DIR_CLIENT + 'dist/';
 
 const PATH_CSS = DIR_CLIENT + 'css/*.css';
-const PATH_TS = DIR_CLIENT + TS_GLOB;
-const PATH_TS_SERVER = DIR_SERVER + TS_GLOB;
+const PATH_TS = DIR_CLIENT_SRC + TS_GLOB;
+const PATH_TS_CONFIG = DIR_CLIENT + TS_CONFIG;
+const PATH_TS_SERVER = DIR_SERVER_SRC + TS_GLOB;
+const PATH_TS_CONFIG_SERVER = DIR_SERVER + TS_CONFIG;
 const PATH_VENDOR = DIR_CLIENT + 'vendor/';
-const RELOAD_DELAY = 2500;
 const SERVER_SCRIPT = 'server/js/server.js'
 
+const RELOAD_DELAY = 2500;
 
 // Add gulp help functionality.
 let gulp = require('gulp-help')(require('gulp'));
@@ -23,10 +29,7 @@ let shell = require('gulp-shell');
 let path = require('path');
 let ts = require('gulp-typescript');
 let insert = require('gulp-insert');
-
-function compile(project) {
-  return project.src().pipe(project()).js;
-}
+let eslint = require('gulp-eslint');
 
 function listen() {
   require('gulp-nodemon')({
@@ -63,6 +66,39 @@ function getVendorJS() {
   }, '');
 }
 
+function compile(pathConfig, pathSrc) {
+  let project = ts.createProject(pathConfig);
+
+  // Always lint before compiling.
+  return lint(pathSrc)
+    .pipe(project())
+    .js;
+}
+
+function compileClient() {
+  let insert = require('gulp-insert');
+  let uglify = require('gulp-uglify');
+  let uglifyOptions = {
+    mangle: false,
+    compress: false,
+    output: {
+      beautify: true,
+      indent_level: 2,
+      semicolons: false
+    }
+  };
+
+  return compile(PATH_TS_CONFIG, PATH_TS)
+    .pipe(uglify(uglifyOptions))
+    .pipe(insert.prepend(getVendorJS()))
+    .pipe(gulp.dest(DIR_DIST));
+}
+
+function compileServer() {
+  return compile(PATH_TS_CONFIG_SERVER, PATH_TS_SERVER)
+    .pipe(gulp.dest(DIR_SERVER_JS));
+}
+
 function compileCSS() {
   var postcss = require('gulp-postcss');
   var cssnext = require('postcss-cssnext');
@@ -83,31 +119,30 @@ function compileCSS() {
     .pipe(gulp.dest(DIR_DIST));
 }
 
-function compileClient() {
-  let project = ts.createProject(DIR_CLIENT + TS_CONFIG);
-  let insert = require('gulp-insert');
-  let uglify = require('gulp-uglify');
-  let uglifyOptions = {
-    mangle: false,
-    compress: false,
-    output: {
-      beautify: true,
-      indent_level: 2,
-      semicolons: false
-    }
-  };
-
-  return compile(project)
-    .pipe(uglify(uglifyOptions))
-    .pipe(insert.prepend(getVendorJS()))
-    .pipe(gulp.dest(DIR_DIST));
+function lint(src) {
+  return gulp.src(src)
+    .pipe(eslint())
+    .pipe(eslint.format())
+    .pipe(eslint.failAfterError());
 }
 
-function compileServer() {
-  let project = ts.createProject(DIR_SERVER + TS_CONFIG);
-  return compile(project)
-    .pipe(gulp.dest(DIR_SERVER_JS));
+function lintAll() {
+  return lint([PATH_TS, PATH_TS_SERVER]);
 }
+
+function prettify(src) {
+  return gulp.src(src, { base: CWD })
+    .pipe(eslint({ fix: true }))
+    .pipe(gulp.dest(CWD));
+}
+
+function prettifyAll() {
+  return prettify([PATH_TS, PATH_TS_SERVER]);
+}
+
+gulp.task('lint', 'Perform style checks on all typescript code', lintAll);
+
+gulp.task('prettify', 'Auto-format all typescript code', prettifyAll);
 
 gulp.task('css', 'Minify CSS files', compileCSS);
 

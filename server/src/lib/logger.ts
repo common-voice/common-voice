@@ -29,7 +29,7 @@ export default class Logger {
   }
 
   private getDateString() {
-    return new Date().toISOString()
+    return new Date().toISOString();
   }
 
   private getMessageFields(level: string, msg: string): MessageFields {
@@ -39,7 +39,7 @@ export default class Logger {
       level: level,
       hostname: this.hostname,
       pid: this.pid,
-      time: this.getDateString()
+      time: this.getDateString(),
     };
   }
 
@@ -75,12 +75,12 @@ export default class Logger {
     this.boundLog = console.log.bind(console);
     console.log = (...args: any[]) => {
       this.log(...args);
-    }
+    };
 
     // Override console.error to user our json logger.
     this.boundError = console.error.bind(console);
     console.error = (...args: any[]) => {
       this.error(...args);
-    }
+    };
   }
 }
