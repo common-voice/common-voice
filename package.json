@@ -22,7 +22,7 @@
     "mediaserver": "0.1.0",
     "memorystream": "^0.3.1",
     "mkdirp": "^0.5.1",
-    "node-static": "0.7.9",
+    "node-static": "^0.7.10",
     "pm2": "^2.4.6",
     "postcss-cssnext": "^3.0.2",
     "preact": "^8.2.5",
