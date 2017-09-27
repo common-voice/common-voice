@@ -296,12 +296,24 @@ export default class Pages extends Component<PagesProps, PagesState> {
       var self = this;
       this.content.addEventListener('transitionend', function remove() {
         self.content.removeEventListener('transitionend', remove);
-        self.scroller.scrollTop = 0; // scroll back to the top of the page
-        self.setState({
-          currentPage: nextProps.currentPage,
-          pageTransitioning: false,
-          isMenuVisible: false,
-        });
+
+        // After changing pages we will scroll to the top, which
+        // is accomplished differentonly on mobile vs. desktop.
+        self.scroller.scrollTop = 0; // Scroll up on mobile.
+        self.setState(
+          {
+            currentPage: nextProps.currentPage,
+            pageTransitioning: false,
+            isMenuVisible: false,
+          },
+          () => {
+            // Scroll to top on desktop.
+            window.scrollTo({
+              top: 0,
+              behavior: 'smooth',
+            });
+          }
+        );
       });
 
       this.setState({
