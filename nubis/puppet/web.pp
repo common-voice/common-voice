@@ -77,7 +77,7 @@ apache::vhost { $project_name:
       'set X-Frame-Options "DENY"',
       'set Strict-Transport-Security "max-age=31536000"',
       # media-src blob: is required for recording audio.
-      'set Content-Security-Policy "default-src \'self\'; img-src \'self\' https://www.google-analytics.com; media-src blob: https://*.amazonaws.com; script-src \'self\' \'unsafe-eval\' https://www.google-analytics.com/analytics.js"'
+      'set Content-Security-Policy "default-src \'none\'; style-src \'self\'; img-src \'self\' www.google-analytics.com; media-src blob: https://*.amazonaws.com; script-src \'self\' https://www.google-analytics.com/analytics.js; font-src \'self\'; connect-src \'self\'"'
     ],
     rewrites           => [
       {

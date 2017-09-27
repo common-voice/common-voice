@@ -21,7 +21,13 @@ export default class Server {
   constructor() {
     this.staticServer = new nodeStatic.Server(
       path.join(__dirname, CLIENT_PATH),
-      { cache: false }
+      {
+        cache: false,
+        headers: {
+          'Content-Security-Policy':
+            "default-src 'none'; style-src 'self'; img-src 'self' www.google-analytics.com; media-src blob: https://*.amazonaws.com; script-src 'self' https://www.google-analytics.com/analytics.js; font-src 'self'; connect-src 'self'",
+        },
+      }
     );
     this.api = new API();
     this.clip = new Clip();
