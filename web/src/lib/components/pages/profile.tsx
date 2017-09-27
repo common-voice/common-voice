@@ -137,10 +137,12 @@ export default class Profile extends Component<Props, State> {
             id="email"
             type="email"
             name="email"
+            tabIndex={1}
             value={this.state.email}
           />
           <button
             onClick={this.saveEmail}
+            tabIndex={3}
             className={emailModified ? 'highlight' : ''}>
             Save
           </button>
@@ -150,6 +152,7 @@ export default class Profile extends Component<Props, State> {
             onClick={this.configSendEmails}
             id="send-emails"
             type="checkbox"
+            tabIndex={2}
             checked={user.sendEmails}
           />
           <label for="send-emails">Send me emails</label>
@@ -163,6 +166,7 @@ export default class Profile extends Component<Props, State> {
         <select
           onChange={this.update}
           id="profile-accent"
+          tabIndex={4}
           className={accentModified ? 'unsaved' : ''}>
           {accentOptions}
         </select>
@@ -170,6 +174,7 @@ export default class Profile extends Component<Props, State> {
         <select
           onChange={this.update}
           id="profile-age"
+          tabIndex={5}
           className={ageModified ? 'unsaved' : ''}>
           {ageOptions}
         </select>
@@ -177,12 +182,14 @@ export default class Profile extends Component<Props, State> {
         <select
           onChange={this.update}
           id="profile-gender"
+          tabIndex={6}
           className={genderModified ? 'unsaved' : ''}>
           {genderOptions}
         </select>
         <button
           id="save-demos"
           onClick={this.saveDemographics}
+          tabIndex={7}
           className={
             accentModified || ageModified || genderModified
               ? 'dark highlight'
