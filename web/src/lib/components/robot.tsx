@@ -1,5 +1,5 @@
 import { h, Component } from 'preact';
-import RobotTalker from 'robot-talker';
+import RobotTalker from './robot-talker';
 
 const MODE_GREETINGS = '/img/robot-greetings.png';
 const MODE_LISTENING = '/img/robot-listening.png';
@@ -11,7 +11,6 @@ const SPEECH_GREETINGS = 'Click here to help me learn!';
 
 interface Props extends preact.ComponentProps<Robot> {
   position?: string;
-  onClick(page: string): void;
 }
 
 interface State {
@@ -30,12 +29,6 @@ export default class Robot extends Component<Props, State> {
 
   constructor(props: Props) {
     super(props);
-
-    this.handleSpeechClick = this.handleSpeechClick.bind(this);
-  }
-
-  private handleSpeechClick() {
-    this.props.onClick('record');
   }
 
   componentWillUpdate(nextProps: Props) {
@@ -63,9 +56,9 @@ export default class Robot extends Component<Props, State> {
   render() {
     return (
       <div className={'robot ' + this.props.position}>
-        <div class="bubble" onClick={this.handleSpeechClick}>
+        <a class="bubble" href="/record">
           {this.state.speech}
-        </div>
+        </a>
         <img src={this.state.src} />
         <RobotTalker>{this.props.children}</RobotTalker>
       </div>

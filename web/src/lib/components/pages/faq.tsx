@@ -1,7 +1,7 @@
 import { h, Component } from 'preact';
 
 interface Props {
-  active: string;
+  path: string;
 }
 
 interface State {}
@@ -9,7 +9,7 @@ interface State {}
 export default class FAQ extends Component<Props, State> {
   render() {
     return (
-      <div id="faq-container" className={this.props.active}>
+      <div id="faq-container" className={'active'}>
         <h1>Frequently Asked Questions</h1>
         <h3>What is Common Voice?</h3>
         <p>

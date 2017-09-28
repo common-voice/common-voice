@@ -1,12 +1,12 @@
 import { h, Component } from 'preact';
+import { route } from 'preact-router';
 import Validator from '../validator';
 import API from '../../api';
 import User from '../../user';
 
 interface Props {
   api: API;
-  active: string;
-  navigate(url: string): void;
+  path: string;
   user?: User;
 }
 
@@ -18,12 +18,12 @@ export default class Home extends Component<Props, void> {
 
   onVote() {
     this.props.user && this.props.user.tallyVerification();
-    this.props.navigate('/'); // force top level page render
+    route('/'); // force top level page render
   }
 
   render() {
     return (
-      <div id="home-container" className={this.props.active}>
+      <div id="home-container" className={'active'}>
         <h1 id="home-title">Project Common Voice</h1>
         <div id="home-layout">
           <div className="left-column">
@@ -53,7 +53,7 @@ export default class Home extends Component<Props, void> {
           <div id="donate">
             <button
               onClick={evt => {
-                this.props.navigate('/record');
+                route('/record');
               }}>
               Donate your voice!
             </button>

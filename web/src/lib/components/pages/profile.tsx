@@ -3,7 +3,7 @@ import { ACCENTS, AGES, GENDER, default as User } from '../../user';
 
 interface Props {
   user: User;
-  active: string;
+  path: string;
 }
 
 interface State {
@@ -127,7 +127,7 @@ export default class Profile extends Component<Props, State> {
     });
 
     return (
-      <div id="profile-container" className={this.props.active}>
+      <div id="profile-container" className={'active'}>
         <h2>Profile Data</h2>
         <label for="email">Your email address</label>
         <div className="input-and-button">
