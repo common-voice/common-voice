@@ -46,8 +46,18 @@ export function isFocus(): boolean {
   return navigator.userAgent.indexOf('Focus') !== -1;
 }
 
-export function isSafari(): boolean {
-  return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+/**
+ * Check whether the browser is mobile Safari (i.e. on iOS).
+ * 
+ * The logic is collected from answers to this SO question: https://stackoverflow.com/q/3007480
+ */
+export function isMobileSafari(): boolean {
+  const userAgent = window.navigator.userAgent;
+  const isIOS = /(iPod|iPhone|iPad)/i.test(userAgent);
+  const isWebkit = /AppleWebKit/i.test(userAgent);
+  const isIOSSafari =
+    isIOS && isWebkit && !/(Chrome|CriOS|OPiOS)/.test(userAgent);
+  return isIOSSafari;
 }
 
 export function isProduction(): boolean {
