@@ -139,10 +139,8 @@ button {
   }
 }
 
-@media (min-width: 600px) {
-  button:hover:not(.ios) {
-    background-color: var(--color-speak);
-  }
+body:not(.mobile-safari) button:hover {
+  background-color: var(--color-speak);
 }
 
 button.highlight {
@@ -319,8 +317,10 @@ input:invalid {
   transition: 100ms;
 }
 
-.delete-box:hover,
-.play-box:hover {
+body:not(.mobile-safari) .delete-box:hover,
+body.mobile-safari .delete-box:active,
+body:not(.mobile-safari) .play-box:hover,
+body.mobile-safari .play-box:active {
   background-color: var(--color-listen-dark);
 }
 
@@ -346,10 +346,8 @@ input:invalid {
   align-items: flex-end;
 }
 
-@media (min-width: 600px) {
-  .vote-box > a:hover {
-    background-color: var(--color-listen);
-  }
+body:not(.mobile-safari) .vote-box > a:hover {
+  background-color: var(--color-listen);
 }
 
 .vote-box.disabled > a {
@@ -1088,7 +1086,7 @@ body.mobile-safari:not(.ios) #install-app.hide {
   }
 }
 
-.robot .bubble:hover {
+body:not(.mobile-safari) .robot .bubble:hover {
   transform: scale(1.05);
 }
 
