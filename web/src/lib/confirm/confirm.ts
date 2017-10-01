@@ -1,20 +1,24 @@
 /**
  * Present a modal dialog (asynchronously). Usage:
  *
- *   confirm('are you sure?').then(...)
+ *   const isConfirmed = await confirm('are you sure?', 'yes', 'no')
+ *   if (!isConfirmed) { ... show error ... }
  *
- * @param label A string label.
- * @return {Promise}
+ * @param label The main text/label for the dialog.
+ * @param okLabel Label for the "OK" button.
+ * @param cancelLabel Label for the "Cancel" button.
+ * @returns A Promise that is resolved with `true` if user clicks the "OK" button, 
+ *    or resolved with `false` if user clicks the "Cancel" button.
  */
 export default function confirm(
   label: string,
   okLabel: string,
   cancelLabel: string
 ) {
-  let element = document.createElement('div');
+  const element = document.createElement('div');
   element.classList.add('confirm-modal');
 
-  let mainSection = document.createElement('div');
+  const mainSection = document.createElement('div');
   mainSection.classList.add('main-section');
   element.appendChild(mainSection);
 
