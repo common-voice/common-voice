@@ -110,7 +110,16 @@ export default class AudioWeb {
     this.volumeCallback = cb;
   }
 
-  async init(): Promise<void> {
+  /**
+   * Initialize the recorder, opening the microphone media stream.
+   * 
+   * If microphone access is currently denied, the user is asked to grant access. Since these permission changes
+   * take effect only after a reload, the page is reloaded if the user decides to do so.
+   * 
+   * @returns A Promise that resolves to `true` if the microphone stream is opened successfully; or resolves to
+   * `false` if microphone access is denied; or is rejected if another error occurs.
+   */
+  async init(): Promise<boolean> {
     try {
       const microphone = await this.getMicrophone();
 
@@ -155,6 +164,7 @@ export default class AudioWeb {
       this.audioContext = audioContext;
 
       this.ready = true;
+      return true;
     } catch (err) {
       if (err === ERROR_MSG.ERR_NO_MIC) {
         const shouldRetry = await confirm(
@@ -162,7 +172,10 @@ export default class AudioWeb {
           'Retry',
           'Cancel'
         );
-        window.location.reload();
+        if (shouldRetry) {
+          window.location.reload();
+        }
+        return false;
       } else {
         throw err;
       }

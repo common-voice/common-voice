@@ -98,8 +98,13 @@ export default class AudioIOS {
     this.postMessage('lockportrait');
   }
 
-  async init(): Promise<void> {
-    return;
+  /**
+   * Initialize the recorder. For this iOS implementation, this is a no-op.
+   * 
+   * @returns A Promise that resolves to `true` immediately.
+   */
+  async init(): Promise<boolean> {
+    return true;
   }
 
   setVolumeCallback(cb: Function) {
