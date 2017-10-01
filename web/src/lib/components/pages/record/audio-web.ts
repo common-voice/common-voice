@@ -111,68 +111,71 @@ export default class AudioWeb {
     this.volumeCallback = cb;
   }
 
-  init() {
-    if (this.initPromise) {
-      return this.initPromise;
+  init(): Promise<void> {
+    if (!this.initPromise) {
+      this.initPromise = this.doInit();
     }
 
-    return (this.initPromise = this.getMicrophone()
-      .then((microphone: MediaStream) => {
-        this.microphone = microphone;
-        var audioContext = new AudioContext();
-        var sourceNode = audioContext.createMediaStreamSource(microphone);
-        var volumeNode = audioContext.createGain();
-        var analyzerNode = audioContext.createAnalyser();
-        var outputNode = audioContext.createMediaStreamDestination();
+    return this.initPromise;
+  }
 
-        // Make sure we're doing mono everywhere.
-        sourceNode.channelCount = 1;
-        volumeNode.channelCount = 1;
-        analyzerNode.channelCount = 1;
-        outputNode.channelCount = 1;
+  private async doInit(): Promise<void> {
+    try {
+      const microphone = await this.getMicrophone();
 
-        // Connect the nodes together
-        sourceNode.connect(volumeNode);
-        volumeNode.connect(analyzerNode);
-        analyzerNode.connect(outputNode);
+      this.microphone = microphone;
+      var audioContext = new AudioContext();
+      var sourceNode = audioContext.createMediaStreamSource(microphone);
+      var volumeNode = audioContext.createGain();
+      var analyzerNode = audioContext.createAnalyser();
+      var outputNode = audioContext.createMediaStreamDestination();
 
-        // and set up the recorder.
-        this.recorder = new MediaRecorder(outputNode.stream);
+      // Make sure we're doing mono everywhere.
+      sourceNode.channelCount = 1;
+      volumeNode.channelCount = 1;
+      analyzerNode.channelCount = 1;
+      outputNode.channelCount = 1;
 
-        // Set up the analyzer node, and allocate an array for its data
-        // FFT size 64 gives us 32 bins. But those bins hold frequencies up to
-        // 22kHz or more, and we only care about visualizing lower frequencies
-        // which is where most human voice lies, so we use fewer bins
-        analyzerNode.fftSize = 128;
-        analyzerNode.smoothingTimeConstant = 0.96;
-        this.frequencyBins = new Uint8Array(analyzerNode.frequencyBinCount);
+      // Connect the nodes together
+      sourceNode.connect(volumeNode);
+      volumeNode.connect(analyzerNode);
+      analyzerNode.connect(outputNode);
 
-        // Setup audio visualizer.
-        this.jsNode = audioContext.createScriptProcessor(256, 1, 1);
-        this.jsNode.connect(audioContext.destination);
+      // and set up the recorder.
+      this.recorder = new MediaRecorder(outputNode.stream);
 
-        // Another audio node used by the beep() function
-        var beeperVolume = audioContext.createGain();
-        beeperVolume.connect(audioContext.destination);
+      // Set up the analyzer node, and allocate an array for its data
+      // FFT size 64 gives us 32 bins. But those bins hold frequencies up to
+      // 22kHz or more, and we only care about visualizing lower frequencies
+      // which is where most human voice lies, so we use fewer bins
+      analyzerNode.fftSize = 128;
+      analyzerNode.smoothingTimeConstant = 0.96;
+      this.frequencyBins = new Uint8Array(analyzerNode.frequencyBinCount);
 
-        this.analyzerNode = analyzerNode;
-        this.audioContext = audioContext;
+      // Setup audio visualizer.
+      this.jsNode = audioContext.createScriptProcessor(256, 1, 1);
+      this.jsNode.connect(audioContext.destination);
 
-        this.ready = true;
-      })
-      .catch(err => {
-        if (err === ERROR_MSG.ERR_NO_MIC) {
-          return confirm(
-            'You must allow microphone access.',
-            'Retry',
-            'Cancel'
-          ).then(() => {
-            window.location.reload();
-          });
-        } else {
-          throw err;
-        }
-      }));
+      // Another audio node used by the beep() function
+      var beeperVolume = audioContext.createGain();
+      beeperVolume.connect(audioContext.destination);
+
+      this.analyzerNode = analyzerNode;
+      this.audioContext = audioContext;
+
+      this.ready = true;
+    } catch (err) {
+      if (err === ERROR_MSG.ERR_NO_MIC) {
+        const shouldRetry = await confirm(
+          'You must allow microphone access.',
+          'Retry',
+          'Cancel'
+        );
+        window.location.reload();
+      } else {
+        throw err;
+      }
+    }
   }
 
   start(): Promise<void> {
