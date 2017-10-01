@@ -1369,11 +1369,13 @@ body:not(.ios) .recording #background-container {
 }
 
 #voice-submit {
+  display: none;
   opacity: 0;
   transition: all 0.2s var(--bounce-curve);
 }
 
 #voice-record {
+  display: initial;
   overflow-x: hidden;
   padding: 0 0.5rem;
 }
@@ -1385,10 +1387,11 @@ body:not(.ios) .recording #background-container {
 }
 
 .full #voice-record {
-  visibility: hidden;
+  display: none;
 }
 
 .full #voice-submit {
+  display: initial;
   opacity: 1;
   transform: translateY(-27.5rem);
 }
