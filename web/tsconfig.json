@@ -12,7 +12,8 @@
     "outFile": "bundle.js",
     "types": [
       "preact"
-    ]
+    ],
+    "baseUrl": "../"
   },
   "files": [
     "src/**/*"
