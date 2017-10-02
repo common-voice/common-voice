@@ -742,13 +742,12 @@ body:not(.ios) .recording #background-container {
   transition: transform 0.2s linear;
 }
 
-@media (max-width: 600px) {
-  .safari #install-app {
-    transform: translateY(0);
-  }
-  .safari #install-app.hide {
-    transform: translateY(3rem);
-  }
+body.mobile-safari:not(.ios) #install-app {
+  transform: translateY(0);
+}
+
+body.mobile-safari:not(.ios) #install-app.hide {
+  transform: translateY(3rem);
 }
 
 #install-app a {
