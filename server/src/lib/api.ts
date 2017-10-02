@@ -1,9 +1,10 @@
+import * as fs from 'fs';
 import * as http from 'http';
+import * as path from 'path';
+
 import WebHook from './webhook';
 import respond from './responder';
 
-const path = require('path');
-const fs = require('fs');
 const Promise = require('bluebird');
 const Random = require('random-js');
 
@@ -55,20 +56,14 @@ export default class API {
   private getFileContents(filepath: string) {
     return new Promise(
       (res: (contents: string) => void, rej: (error: any) => void) => {
-        fs.readFile(
-          filepath,
-          {
-            contents: 'utf8',
-          },
-          (err: any, data: Buffer) => {
-            if (err) {
-              rej(err);
-              return;
-            }
-
-            res(data.toString());
+        fs.readFile(filepath, (err: any, data: Buffer) => {
+          if (err) {
+            rej(err);
+            return;
           }
-        );
+
+          res(data.toString());
+        });
       }
     );
   }

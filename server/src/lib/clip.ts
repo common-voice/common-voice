@@ -1,17 +1,18 @@
+import * as crypto from 'crypto';
+import * as fs from 'fs';
 import * as http from 'http';
+import * as path from 'path';
+import { PassThrough } from 'stream';
+
 import Files from './files';
 import { getFileExt } from './utility';
 import respond, { CONTENT_TYPES } from './responder';
 
 const ms = require('mediaserver');
-const path = require('path');
 const ff = require('ff');
-const fs = require('fs');
-const crypto = require('crypto');
 const Promise = require('bluebird');
 const mkdirp = require('mkdirp');
 const AWS = require('./aws');
-const PassThrough = require('stream').PassThrough;
 const Transcoder = require('stream-transcoder');
 
 const UPLOAD_PATH = path.resolve(__dirname, '../..', 'upload');

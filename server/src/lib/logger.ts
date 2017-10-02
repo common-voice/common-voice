@@ -1,4 +1,4 @@
-const os = require('os');
+import * as os from 'os';
 
 const NAME = 'voice';
 const LEVEL_LOG = 'log';
