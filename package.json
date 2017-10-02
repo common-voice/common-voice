@@ -26,6 +26,7 @@
     "pm2": "^2.4.6",
     "postcss-cssnext": "^3.0.2",
     "preact": "^8.2.5",
+    "preact-router": "^2.5.7",
     "prettier": "^1.7.0",
     "proxy-agent": "^2.0.0",
     "random-js": "^1.0.8",

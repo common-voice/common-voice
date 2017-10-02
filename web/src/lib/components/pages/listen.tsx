@@ -1,4 +1,5 @@
 import { h, Component } from 'preact';
+import { route } from 'preact-router';
 import { Clip, default as API } from '../../api';
 import Validator from '../validator';
 import User from '../../user';
@@ -6,8 +7,7 @@ import User from '../../user';
 interface ListenPageProps {
   user: User;
   api: API;
-  active: string;
-  navigate(url: string): void;
+  path: string;
 }
 
 export default class Listen extends Component<ListenPageProps, void> {
@@ -18,12 +18,12 @@ export default class Listen extends Component<ListenPageProps, void> {
 
   onVote() {
     this.props.user.tallyVerification();
-    this.props.navigate('/listen'); // force page render
+    route('/listen'); // force page render
   }
 
   render() {
     return (
-      <div id="listen-container" className={this.props.active}>
+      <div id="listen-container" className={'active'}>
         <Validator onVote={this.onVote} api={this.props.api} />
       </div>
     );

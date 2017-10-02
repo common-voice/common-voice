@@ -1,5 +1,8 @@
 import { h, Component } from 'preact';
 import { getItunesURL, isNativeIOS } from '../utility';
+import Router, { Link } from 'preact-router';
+import Match from 'preact-router/match';
+
 import Logo from './logo';
 import Icon from './icon';
 import PrivacyContent from './privacy-content';
@@ -57,15 +60,12 @@ const ROBOT_TALK = {
 interface PagesProps {
   user: User;
   api: API;
-  currentPage: string;
-  navigate(url: string): void;
 }
 
 interface PagesState {
   isMenuVisible: boolean;
   pageTransitioning: boolean;
   scrolled: boolean;
-  currentPage: string;
   showingPrivacy: boolean;
   transitioning: boolean;
   recording: boolean;
@@ -85,7 +85,6 @@ export default class Pages extends Component<PagesProps, PagesState> {
     isMenuVisible: false,
     pageTransitioning: false,
     scrolled: false,
-    currentPage: null,
     showingPrivacy: false,
     transitioning: false,
     recording: false,
@@ -112,7 +111,6 @@ export default class Pages extends Component<PagesProps, PagesState> {
     this.onRecordStop = this.onRecordStop.bind(this);
     this.sayThanks = this.sayThanks.bind(this);
     this.renderUser = this.renderUser.bind(this);
-    this.linkNavigate = this.linkNavigate.bind(this);
     this.clearRobot = this.clearRobot.bind(this);
     this.openInApp = this.openInApp.bind(this);
     this.closeOpenInApp = this.closeOpenInApp.bind(this);
@@ -135,16 +133,6 @@ export default class Pages extends Component<PagesProps, PagesState> {
     document.getElementById('install-app').classList.add('hide');
   }
 
-  private getCurrentPageName() {
-    if (!this.state.currentPage) {
-      return 'home';
-    }
-
-    let p = this.state.currentPage.substr(1);
-    p = p || 'home';
-    return p;
-  }
-
   private sayThanks(): void {
     this.setState({
       robot: 'thanks',
@@ -161,22 +149,6 @@ export default class Pages extends Component<PagesProps, PagesState> {
     return Object.keys(URLS).some((key: string) => {
       return URLS[key] === url;
     });
-  }
-
-  private isPageActive(url: string | string[], page?: string): string {
-    if (!page) {
-      page = this.state.currentPage;
-    }
-
-    if (!Array.isArray(url)) {
-      url = [url];
-    }
-
-    let isActive = url.some(u => {
-      return u === page;
-    });
-
-    return isActive ? 'active' : '';
   }
 
   private onRecord() {
@@ -209,17 +181,6 @@ export default class Pages extends Component<PagesProps, PagesState> {
         this.setState({ scrolled: scrolled });
       }
     });
-  }
-
-  private linkNavigate(evt: Event): void {
-    evt.stopPropagation();
-    evt.preventDefault();
-    let href = (evt.currentTarget as HTMLAnchorElement).href;
-    this.props.navigate(href);
-  }
-
-  private isNotFoundActive(): string {
-    return !this.isValidPage(this.props.currentPage) ? 'active' : '';
   }
 
   private ensurePrivacyAgreement(): Promise<void> {
@@ -285,50 +246,47 @@ export default class Pages extends Component<PagesProps, PagesState> {
     this.header = document.querySelector('header');
     this.bg = document.getElementById('background-container');
     this.addScrollListener();
-    this.setState({
-      currentPage: this.props.currentPage,
-    });
   }
 
-  componentWillUpdate(nextProps: PagesProps) {
-    // When the current page changes, hide the menu.
-    if (nextProps.currentPage !== this.props.currentPage) {
-      var self = this;
-      this.content.addEventListener('transitionend', function remove() {
-        self.content.removeEventListener('transitionend', remove);
+  // TODO: Fix this, how to get current route via preact-router?
+  // componentWillUpdate(nextProps: PagesProps) {
+  //   // When the current page changes, hide the menu.
+  //   if (nextProps.currentPage !== this.props.currentPage) {
+  //     var self = this;
+  //     this.content.addEventListener('transitionend', function remove() {
+  //       self.content.removeEventListener('transitionend', remove);
 
-        // After changing pages we will scroll to the top, which
-        // is accomplished differentonly on mobile vs. desktop.
-        self.scroller.scrollTop = 0; // Scroll up on mobile.
-        self.setState(
-          {
-            currentPage: nextProps.currentPage,
-            pageTransitioning: false,
-            isMenuVisible: false,
-          },
-          () => {
-            // Scroll to top on desktop.
-            window.scrollTo({
-              top: 0,
-              behavior: 'smooth',
-            });
-          }
-        );
-      });
+  //       // After changing pages we will scroll to the top, which
+  //       // is accomplished differentonly on mobile vs. desktop.
+  //       self.scroller.scrollTop = 0; // Scroll up on mobile.
+  //       self.setState(
+  //         {
+  //           pageTransitioning: false,
+  //           isMenuVisible: false,
+  //         },
+  //         () => {
+  //           // Scroll to top on desktop.
+  //           window.scrollTo({
+  //             top: 0,
+  //             behavior: 'smooth',
+  //           });
+  //         }
+  //       );
+  //     });
 
-      this.setState({
-        pageTransitioning: true,
-      });
-    }
-  }
+  //     this.setState({
+  //       pageTransitioning: true,
+  //     });
+  //   }
+  // }
 
   toggleMenu = () => {
     this.setState({ isMenuVisible: !this.state.isMenuVisible });
   };
 
   render() {
-    let pageName = this.getCurrentPageName();
-    let robotPosition = pageName === 'record' ? this.state.robot : pageName;
+    const pageName = 'something';
+
     let className = pageName;
     if (this.state.transitioning) {
       className += ' hiding';
@@ -352,7 +310,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
           className={
             this.state.isMenuVisible || this.state.scrolled ? 'active' : ''
           }>
-          <Logo navigate={this.props.navigate} />
+          <Logo />
           {this.renderUser()}
           <button
             id="hamburger-menu"
@@ -368,57 +326,51 @@ export default class Pages extends Component<PagesProps, PagesState> {
               {this.iOSBackground}
             </div>
             <div class="hero">
-              <Robot
-                position={
-                  (pageName === 'record' && this.state.robot) || pageName
-                }
-                onClick={page => {
-                  this.props.navigate('/' + page);
-                  //}}>{ROBOT_TALK[pageName]}</Robot> (Disable talking robot for now)
+              <Match path="/">
+                {({ path }: { path: string }) => {
+                  const robotPosition =
+                    path === URLS.RECORD ? this.state.robot : path.substr(1);
+                  return <Robot position={robotPosition} />;
                 }}
-              />
+              </Match>
             </div>
             <div class="hero-space" />
             <div
               id="content"
               className={this.state.pageTransitioning ? 'transitioning' : ''}>
-              <Home
-                active={this.isPageActive([URLS.HOME, URLS.ROOT])}
-                navigate={this.props.navigate}
-                api={this.props.api}
-                user={this.props.user}
-              />
-              <Record
-                active={this.isPageActive(URLS.RECORD)}
-                api={this.props.api}
-                onRecord={this.onRecord}
-                onRecordStop={this.onRecordStop}
-                onRecordingSet={this.sayThanks}
-                onVolume={this.onVolume}
-                onSubmit={this.uploadRecordings}
-                onDelete={this.clearRobot}
-                navigate={this.props.navigate}
-                user={this.props.user}
-              />
-              <Listen
-                active={this.isPageActive(URLS.LISTEN)}
-                navigate={this.props.navigate}
-                api={this.props.api}
-                user={this.props.user}
-              />
-              <Profile
-                user={this.props.user}
-                active={this.isPageActive(URLS.PROFILE)}
-              />
-              <FAQ active={this.isPageActive(URLS.FAQ)} />
-              <Privacy active={this.isPageActive(URLS.PRIVACY)} />
-              <Terms active={this.isPageActive(URLS.TERMS)} />
-              <NotFound active={this.isNotFoundActive()} />
+              <Router>
+                <Home
+                  path={URLS.HOME}
+                  api={this.props.api}
+                  user={this.props.user}
+                />
+                <Record
+                  path={URLS.RECORD}
+                  api={this.props.api}
+                  onRecord={this.onRecord}
+                  onRecordStop={this.onRecordStop}
+                  onRecordingSet={this.sayThanks}
+                  onVolume={this.onVolume}
+                  onSubmit={this.uploadRecordings}
+                  onDelete={this.clearRobot}
+                  user={this.props.user}
+                />
+                <Listen
+                  path={URLS.LISTEN}
+                  api={this.props.api}
+                  user={this.props.user}
+                />
+                <Profile user={this.props.user} path={URLS.PROFILE} />
+                <FAQ path={URLS.FAQ} />
+                <Privacy path={URLS.PRIVACY} />
+                <Terms path={URLS.TERMS} />
+                <NotFound default />
+              </Router>
             </div>
             <footer>
               <div id="help-links">
                 <div class="content">
-                  <a id="help" onClick={this.linkNavigate} href="/faq">
+                  <a id="help" href="/faq">
                     <Icon type="help" />
                     <p class="strong">Help</p>
                   </a>
@@ -440,23 +392,17 @@ export default class Pages extends Component<PagesProps, PagesState> {
               </div>
               <div id="moz-links">
                 <div class="content">
-                  <Logo navigate={this.props.navigate} />
+                  <Logo />
                   <div class="links">
                     <p>
-                      <a onClick={this.linkNavigate} href="/privacy">
-                        Privacy
-                      </a>
-                      <a onClick={this.linkNavigate} href="/terms">
-                        Terms
-                      </a>
+                      <a href="/privacy">Privacy</a>
+                      <a href="/terms">Terms</a>
                       <a
                         target="_blank"
                         href="https://www.mozilla.org/en-US/privacy/websites/#cookies">
                         Cookies
                       </a>
-                      <a onClick={this.linkNavigate} href="/faq">
-                        FAQ
-                      </a>
+                      <a href="/faq">FAQ</a>
                     </p>
                     <p>
                       Content available under a&nbsp;<a
@@ -512,12 +458,10 @@ export default class Pages extends Component<PagesProps, PagesState> {
   }
 
   private renderTab(url: string, name: string) {
-    let tabClass =
-      'tab ' + name + ' ' + this.isPageActive(url, this.props.currentPage);
     return (
-      <a className={tabClass} onClick={this.props.navigate.bind(null, url)}>
+      <Link activeClassName="active" href={url} className={`tab${name}`}>
         <span className={'tab-name ' + name}>{name}</span>
-      </a>
+      </Link>
     );
   }
 

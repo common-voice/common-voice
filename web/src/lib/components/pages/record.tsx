@@ -16,6 +16,7 @@ import {
   generateGUID,
 } from '../../utility';
 import confirm from '../confirm';
+import { route } from 'preact-router';
 
 const CACHE_SET_COUNT = 9;
 const SET_COUNT = 3;
@@ -31,10 +32,9 @@ enum RecordingError {
 }
 
 interface RecordProps {
-  active: string;
+  path: string;
   user: User;
   api: API;
-  navigate(url: string): void;
   onSubmit(
     recordings: Blob[],
     sentences: string[],
@@ -257,7 +257,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       );
       if (!keep) {
         this.reset();
-        this.props.navigate('/');
+        route('/');
       }
     }
   }
@@ -361,7 +361,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     // Make sure we can get the microphone before displaying anything.
     if (this.isUnsupportedPlatform) {
       return (
-        <div className={'unsupported ' + this.props.active}>
+        <div className={'unsupported ' + 'active'}>
           <h2>We're sorry, but your platform is not currently supported.</h2>
           <p>
             On desktop computers, you can download the latest:
@@ -412,7 +412,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     }
 
     let showBack = this.state.recordings.length !== 0 && !this.state.isReRecord;
-    let className = this.props.active + (isFull ? ' full' : '');
+    let className = 'active' + (isFull ? ' full' : '');
     let progress = this.state.uploadProgress;
     if (this.state.uploading) {
       // Look ahead in the progress bar when uploading.

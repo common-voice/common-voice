@@ -62,9 +62,6 @@ export default class App {
     this.api = new API(this.user);
     this.loaded = false;
 
-    // Force binding of handleNavigation to this instance.
-    this.handleNavigation = this.handleNavigation.bind(this);
-
     // Render before loaded.
     this.renderCurrentPage();
   }
@@ -101,33 +98,6 @@ export default class App {
     // this.renderDebugBox();
   }
 
-  /**
-   * Get the page name from the url.
-   */
-  private getPageName(href?: string): string {
-    if (!href) {
-      href = window.location.href;
-    }
-    let link = document.createElement('a');
-    link.href = href;
-
-    // Workaround for IE bug where pathname was not prefixed by '/'
-    const pathname = link.pathname;
-    if (pathname.indexOf('/') !== 0) {
-      return '/' + pathname;
-    }
-    return pathname;
-  }
-
-  /**
-   * Update the current page based on new url.
-   */
-  private handleNavigation(href: string) {
-    let page = this.getPageName(href);
-    window.history.pushState(null, '', page);
-    this.renderCurrentPage();
-  }
-
   private renderDebugBox() {
     render(<DebugBox />, document.body);
   }
@@ -154,12 +124,7 @@ export default class App {
 
     // Render the main controller, Pages.
     render(
-      <Pages
-        user={this.user}
-        api={this.api}
-        navigate={this.handleNavigation}
-        currentPage={this.getPageName()}
-      />,
+      <Pages user={this.user} api={this.api} />,
       document.body,
       document.body.firstElementChild
     );
