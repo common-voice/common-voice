@@ -5,35 +5,12 @@ donations for the Common Voice project.
 ### Official Website
 [voice.mozilla.org](https://voice.mozilla.org)
 
-### Contribution
-[Non-code] Please help us add sentences to read. See [issue 341](https://github.com/mozilla/voice-web/issues/341) for details.
+### Contributing
+From adding sentences to read to enhancing our front end architecture, there are many ways to get involved with Common Voice. For more information, check out [CONTRIBUTING.md](https://github.com/mozilla/voice-web/blob/master/CONTRIBUTING.md).
 
-[Code] Check out our list of [help wanted bugs](https://github.com/mozilla/voice-web/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22).
+Or for general discussion (feedback, ideas, random musings), head to our [Discourse Category](https://discourse.mozilla-community.org/c/voice).
 
-Did you notice a bug? Do you have a feature request? Please file an issue [here on GitHub](https://github.com/mozilla/voice-web/issues).
-
-For general discussion (feedback, ideas, random musings), check out our [Discourse Category](https://discourse.mozilla-community.org/c/voice).
-
-### Development
-```
-npm install
-npm install -g gulp
-gulp
-```
-This will:
-1. Install all JavaScript dependencies.
-1. Build and serve files located in the `web` folder on localhost.
-1. Save uploaded voice clips onto Amazon's S3.
-1. Lint and rebuild all js files on every change.
-
-### Help
-
-For more options type:
-```
-gulp help
-```
-
-### Project directory structure
+### Project Directory Structure
 
 The project is organized into the following directories:
 
