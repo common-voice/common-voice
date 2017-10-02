@@ -25,7 +25,7 @@ export default class Server {
         cache: false,
         headers: {
           'Content-Security-Policy':
-            "default-src 'none'; style-src 'self'; img-src 'self' www.google-analytics.com; media-src blob: https://*.amazonaws.com; script-src 'self' https://www.google-analytics.com/analytics.js; font-src 'self'; connect-src 'self'",
+            "default-src 'none'; style-src 'self'; img-src 'self' www.google-analytics.com; media-src data: blob: https://*.amazonaws.com; script-src 'self' https://www.google-analytics.com/analytics.js; font-src 'self'; connect-src 'self'",
         },
       }
     );
