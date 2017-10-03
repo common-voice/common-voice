@@ -16,7 +16,7 @@ All of our current issues can be found here on GitHub. Anything with a [help wan
 #### Requirements
 - [NodeJS](https://nodejs.org/en/) (v7 or higher)
 - [npm](https://www.npmjs.com/) (4 or higher)
-- [ffmpeg](https://www.ffmpeg.org/download.html )
+- [ffmpeg](https://www.ffmpeg.org/download.html)
 
 #### Local Development
 If you haven't already, install the latest version of NodeJS and npm: https://nodejs.org/en/download/
