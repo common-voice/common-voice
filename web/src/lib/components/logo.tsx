@@ -10,9 +10,7 @@ export default (props: any) => {
         evt.stopPropagation();
         props.navigate('/');
       }}>
-      <span class="main-title">Common Voice</span>
-      <br />
-      <img class="main-mozilla-logo" src="/img/mozilla.svg" />
+      <img class="main-mozilla-logo" src="/img/cv-logo-bw.svg" />
     </a>
   );
 };
