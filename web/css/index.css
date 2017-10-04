@@ -732,15 +732,11 @@ body:not(.ios) .recording #background-container {
   color: white;
   font-weight: bold;
   z-index: var(--top-z-index);
-  transform: translateY(3rem);
+  transform: translateY(0);
   transition: transform 0.2s linear;
 }
 
-body.mobile-safari:not(.ios) #install-app {
-  transform: translateY(0);
-}
-
-body.mobile-safari:not(.ios) #install-app.hide {
+#install-app.hide {
   transform: translateY(3rem);
 }
 
