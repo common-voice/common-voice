@@ -802,9 +802,6 @@ body.mobile-safari:not(.ios) #install-app.hide {
   width: 10rem;
 }
 
-.main-title {
-}
-
 #hamburger-menu {
   height: var(--hamburger);
   width: var(--hamburger);
