@@ -440,7 +440,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
               </div>
               <div id="moz-links">
                 <div class="content">
-                  <Logo navigate={this.props.navigate} />
+                  <Logo navigate={this.props.navigate} reverse={true} />
                   <div class="links">
                     <p>
                       <a onClick={this.linkNavigate} href="/privacy">

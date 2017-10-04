@@ -459,7 +459,7 @@ header.active {
     height: unset;
     align-items: baseline;
     flex-direction: column;
-    padding-top: 11rem;
+    padding-top: 12.5rem;
     pointer-events: none;
   }
   header > * {
@@ -527,10 +527,6 @@ header.active {
 #moz-links .main-logo {
   font-size: 1rem;
   padding-right: 4rem;
-}
-
-#moz-links .main-mozilla-logo {
-  height: 1.2rem;
 }
 
 #moz-links .links a {
@@ -803,21 +799,7 @@ body.mobile-safari:not(.ios) #install-app.hide {
 }
 
 .main-logo {
-  flex: 0 0 auto;
-  font-family: var(--strong-font-family);
-  font-size: 1.5rem;
-}
-
-.main-title {
-  padding: 0 0.2rem;
-  color: var(--base-background-color);
-  background-color: var(--base-font-color);
-  line-height: 1.4;
-}
-
-.main-mozilla-logo {
-  height: 1.5rem;
-  background-color: var(--base-background-color);
+  width: 10rem;
 }
 
 #hamburger-menu {
