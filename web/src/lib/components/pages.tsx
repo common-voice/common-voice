@@ -344,13 +344,14 @@ export default class Pages extends Component<PagesProps, PagesState> {
 
     return (
       <div id="main" className={className}>
-        {isIOS() && !isSafari() &&
-          // In iOS Safari, we display a Smart App Banner instead.
-          <div onClick={this.openInApp} id="install-app">
-            Open in App
-            <a onClick={this.closeOpenInApp}>X</a>
-          </div>
-        }
+        {isIOS() &&
+          !isSafari() && (
+            // In iOS Safari, we display a Smart App Banner instead.
+            <div onClick={this.openInApp} id="install-app">
+              Open in App
+              <a onClick={this.closeOpenInApp}>X</a>
+            </div>
+          )}
         <header
           className={
             this.state.isMenuVisible || this.state.scrolled ? 'active' : ''
