@@ -44,11 +44,6 @@ The project is organized into the following directories:
 - *tools*: Just some scripts for managing data.
 - *web*: The Common Voice website files.
 
-#### Before Opening a Pull Request
-When you're done with some code changes that you want to submit, please ensure the following before opening your Pull Request (PR):
-1. All code passes linting (`gulp lint` finishes without errors or warnings).
-2. All code compiles (`gulp ts ts-server` finishes without errors or warnings).
-
 #### Need Help?
 For more options, just type:
 ```
