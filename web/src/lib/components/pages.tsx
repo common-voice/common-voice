@@ -114,8 +114,6 @@ export default class Pages extends Component<PagesProps, PagesState> {
     this.renderUser = this.renderUser.bind(this);
     this.linkNavigate = this.linkNavigate.bind(this);
     this.clearRobot = this.clearRobot.bind(this);
-    this.openInApp = this.openInApp.bind(this);
-    this.closeOpenInApp = this.closeOpenInApp.bind(this);
     this.onVolume = this.onVolume.bind(this);
   }
 
@@ -123,16 +121,6 @@ export default class Pages extends Component<PagesProps, PagesState> {
     if (!this.state.transitioning && this.state.recording) {
       this.setState({ recorderVolume: volume });
     }
-  }
-
-  private openInApp() {
-    window.location.href = getItunesURL();
-  }
-
-  private closeOpenInApp(evt: Event) {
-    evt.stopPropagation();
-    evt.preventDefault();
-    document.getElementById('install-app').classList.add('hide');
   }
 
   private getCurrentPageName() {
@@ -344,10 +332,6 @@ export default class Pages extends Component<PagesProps, PagesState> {
 
     return (
       <div id="main" className={className}>
-        <div onClick={this.openInApp} id="install-app">
-          Open in App
-          <a onClick={this.closeOpenInApp}>X</a>
-        </div>
         <header
           className={
             this.state.isMenuVisible || this.state.scrolled ? 'active' : ''
