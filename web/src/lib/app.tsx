@@ -13,7 +13,8 @@ const LOAD_TIMEOUT = 5000; // we can only wait so long.
  * TODO: right now we load all images, which is unnecessary.
  */
 const PRELOAD = [
-  '/img/mozilla.svg',
+  '/img/cv-logo-bw.svg',
+  '/img/cv-logo-one-color-white.svg',
   '/img/robot-greetings.png',
   '/img/robot-listening.png',
   '/img/robot-thanks.png',

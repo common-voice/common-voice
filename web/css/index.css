@@ -529,10 +529,6 @@ header.active {
   padding-right: 4rem;
 }
 
-#moz-links .main-mozilla-logo {
-  height: 1.2rem;
-}
-
 #moz-links .links a {
   color: var(--color-help);
 }
