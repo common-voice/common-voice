@@ -125,8 +125,15 @@ export default class Pages extends Component<PagesProps, PagesState> {
     }
   }
 
+  /**
+   * If the iOS app is installed, open it. Otherwise, open the App Store.
+   */
   private openInApp() {
-    window.location.href = getItunesURL();
+    window.location.href = 'commonvoice://';
+
+    setTimeout(function() {
+      window.location.href = getItunesURL();
+    }, 500);
   }
 
   private closeOpenInApp(evt: Event) {
