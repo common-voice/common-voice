@@ -740,14 +740,6 @@ body:not(.ios) .recording #background-container {
   transition: transform 0.2s linear;
 }
 
-body.mobile-safari:not(.ios) #install-app {
-  transform: translateY(0);
-}
-
-body.mobile-safari:not(.ios) #install-app.hide {
-  transform: translateY(3rem);
-}
-
 #install-app a {
   position: absolute;
   right: 0;
