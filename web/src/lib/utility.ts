@@ -79,12 +79,11 @@ export function isSafari(): boolean {
  * The logic is collected from answers to this SO question: https://stackoverflow.com/q/3007480
  */
 export function isMobileWebkit(): boolean {
-  const userAgent = window.navigator.userAgent;
-  const isIOS = /(iPod|iPhone|iPad)/i.test(userAgent);
-  const isWebkit = this.isWebkit();
-  const isIOSSafari =
-    isIOS && isWebkit && !/(Chrome|CriOS|OPiOS)/.test(userAgent);
-  return isIOSSafari;
+  return (
+    this.isIOS() &&
+    this.isWebkit() &&
+    !/(Chrome|CriOS|OPiOS)/.test(window.navigator.userAgent)
+  );
 }
 
 export function isProduction(): boolean {
