@@ -33,22 +33,24 @@ This will:
 3. Save uploaded voice clips onto Amazon's S3.
 4. Lint and rebuild all js files on every change.
 
-#### Project Directory Structure
-The project is organized into the following directories:
-
-- *android*: The Android app, simple webview wrapper of voice.mozilla.org. This app is not currently published.
-- *docs*: Design and data specifications for Common Voice.
-- *ios*: The iOS app. At the time of it's publishing, this was a workaround for Safari not supporting getUserMedia.
-- *nubis*: Configuration files for [Nubis](https://github.com/nubisproject), our deployment tool.
-- *server*: The server-side code app logic written in NodeJS.
-- *tools*: Just some scripts for managing data.
-- *web*: The Common Voice website files.
+You can then access the website at [http://localhost:9000](http://localhost:9000).
 
 #### Need Help?
 For more options, just type:
 ```
 gulp help
 ```
+
+#### Project Directory Structure
+The project is organized into the following directories:
+
+- *android*: The Android app, a simple webview wrapper of voice.mozilla.org. This app is currently not published.
+- *docs*: Design and data specifications for Common Voice.
+- *ios*: The iOS app. This is a simple wrapper app for the website, as a workaround for a microphone issue in Safari.
+- *nubis*: Configuration files for [Nubis](https://github.com/nubisproject), our deployment tool.
+- *server*: The server-side app logic, written in [TypeScript](http://www.typescriptlang.org/).
+- *tools*: Some scripts for managing data.
+- *web*: The Common Voice website files, written in [TypeScript](http://www.typescriptlang.org/). We use [Preact](https://preactjs.com/) to build the website.
 
 ## Submitting an Issue
 Did you notice a bug? Do you have a feature request? Please file an issue [here on GitHub](https://github.com/mozilla/voice-web/issues).
