@@ -5,6 +5,7 @@ import API from './lib/api';
 import Clip from './lib/clip';
 import Logger from './lib/logger';
 import Prometheus from './lib/prometheus';
+import { isMasterServer } from './lib/utility';
 
 const DEFAULT_PORT = 9000;
 const SLOW_REQUEST_LIMIT = 2000;
@@ -104,7 +105,7 @@ export default class Server {
   /**
    * Start up everything.
    */
-  run(): void {
+  async run(): Promise<void> {
     // Log the start.
     console.log('STARTING APPLICATION');
 
@@ -120,6 +121,9 @@ export default class Server {
     let server = http.createServer(this.handleRequest.bind(this));
     server.listen(port);
     console.log(`listening at http://localhost:${port}`);
+
+    let isMaster = await isMasterServer();
+    console.log('master?', isMaster, config.PROD);
   }
 }
 

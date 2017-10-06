@@ -2,6 +2,8 @@
  * Functions to be shared across mutiple modules.
  */
 
+const child = require('child_process');
+
 /**
  * Returns the file extension of some path.
  */
@@ -20,4 +22,24 @@ export function getFirstDefined(...options: any[]) {
     }
   }
   return null;
+}
+
+/**
+ * Are we the chosen one?
+ * Returns promise which resolves to true is we are the master deploy server.
+ */
+export function isMasterServer(): Promise<boolean> {
+  return new Promise((res: Function, rej: Function) => {
+    child.exec(
+      'consol-do common-voice $(hostname)',
+      (err: any, stdout: any, stderr: any) => {
+        console.log('checkmaster', stdout, stderr);
+        if (err) {
+          res(false);
+        } else {
+          res(true);
+        }
+      }
+    );
+  });
 }
