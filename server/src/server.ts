@@ -38,7 +38,9 @@ export default class Server {
 
     // JSON format all console operations.
     this.logger = new Logger();
-    this.logger.overrideConsole();
+    if (config.PROD) {
+      this.logger.overrideConsole();
+    }
     this.metrics = new Prometheus();
   }
 
