@@ -4,7 +4,7 @@ var client = require('prom-client');
 
 var collectDefaultMetrics = client.collectDefaultMetrics;
 // Probe every 5th second.
-collectDefaultMetrics(5000);
+collectDefaultMetrics({ timeout: 5000 });
 
 export default class Prometheus {
   register: any;
