@@ -264,11 +264,11 @@ export default class Pages extends Component<PagesProps, PagesState> {
       const sentence = sentences.pop();
 
       await this.props.api.uploadAudio(blob, sentence);
+      this.props.user.tallyRecording();
 
       if (recordings.length !== 0) {
         let percentage = Math.floor(runningTotal / originalTotal * 100);
         progressCb && progressCb(percentage);
-        this.props.user.tallyRecording();
       }
     }
     await this.props.api.uploadDemographicInfo();
