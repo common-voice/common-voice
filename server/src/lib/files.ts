@@ -200,8 +200,13 @@ export default class Files {
       }, LOAD_DELAY);
     });
 
-    awsRequest.on('error', (response: any) => {
-      console.error('Error while fetching clip list', response);
+    awsRequest.on('error', (err: any) => {
+      if (err.code === 'AccessDenied') {
+        console.error('s3 aws creds not configured properly');
+        return;
+      }
+
+      console.error('Error while fetching clip list:', err.message);
 
       // Retry loading current batch.
       setTimeout(() => {
