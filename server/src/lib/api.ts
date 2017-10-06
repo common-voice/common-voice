@@ -56,13 +56,13 @@ export default class API {
   private getFileContents(filepath: string) {
     return new Promise(
       (res: (contents: string) => void, rej: (error: any) => void) => {
-        fs.readFile(filepath, (err: any, data: Buffer) => {
+        fs.readFile(filepath, 'utf8', (err: any, data: string) => {
           if (err) {
             rej(err);
             return;
           }
 
-          res(data.toString());
+          res(data);
         });
       }
     );
