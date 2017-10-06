@@ -43,9 +43,9 @@ function listen() {
 
 function watch() {
   gulp.watch('package.json', ['npm-install']);
-  gulp.watch(PATH_TS, ['ts']);
-  gulp.watch(PATH_VENDOR, ['ts']);
-  gulp.watch(PATH_TS_SERVER, ['ts-server']);
+  gulp.watch(PATH_TS, [ 'lint-web', 'ts' ]);
+  gulp.watch(PATH_VENDOR, [ 'lint-web', 'ts' ]);
+  gulp.watch(PATH_TS_SERVER, [ 'lint-server', 'ts-server' ]);
   gulp.watch(PATH_CSS, ['css']);
 }
 
@@ -69,11 +69,8 @@ function getVendorJS() {
 
 function compile(pathConfig, pathSrc) {
   let project = ts.createProject(pathConfig);
-
-  // Always lint before compiling.
-  return lint(pathSrc)
-    .pipe(project())
-    .js;
+  return gulp.src(pathSrc)
+    .pipe(project()).js;
 }
 
 function compileClient() {
@@ -124,11 +121,12 @@ function lint(src) {
   return gulp.src(src)
     .pipe(eslint())
     .pipe(eslint.format())
+    .pipe(eslint.results(results => {
+      if (results.errorCount > 0) {
+        console.error('Lint failed. Run `gulp prettify` to format your code.\n');
+      }
+    }))
     .pipe(eslint.failAfterError());
-}
-
-function lintAll() {
-  return lint([PATH_TS, PATH_TS_SERVER]);
 }
 
 function prettify(src) {
@@ -141,17 +139,20 @@ function prettifyAll() {
   return prettify([PATH_TS, PATH_TS_SERVER]);
 }
 
-gulp.task('lint', 'Perform style checks on all typescript code', lintAll);
+gulp.task('lint-web', lint.bind(null, PATH_TS));
+gulp.task('lint-server', lint.bind(null, PATH_TS_SERVER));
+gulp.task('lint', 'Perform style checks on all typescript code',
+  ['lint-web', 'lint-server']);
 
 gulp.task('prettify', 'Auto-format all typescript code', prettifyAll);
 
 gulp.task('css', 'Minify CSS files', compileCSS);
 
-gulp.task('ts', 'Compile typescript files into bundle.js', compileClient);
+gulp.task('ts', 'Compile typescript files into bundle.js', ['lint-web'], compileClient);
 
-gulp.task('ts-server', 'Compile typescript server files.', compileServer);
+gulp.task('ts-server', 'Compile typescript server files.', ['lint-server'], compileServer);
 
-gulp.task('build', 'Build both server and client js', ['ts', 'ts-server', 'css']);
+gulp.task('build', 'Build both server and client js', ['lint', 'ts', 'ts-server', 'css']);
 
 gulp.task('npm-install', 'Install npm dependencies.',
   shell.task(['npm install']));
