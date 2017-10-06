@@ -4,6 +4,7 @@ import * as path from 'path';
 import API from './lib/api';
 import Clip from './lib/clip';
 import Logger from './lib/logger';
+import Prometheus from './lib/prometheus';
 
 const DEFAULT_PORT = 9000;
 const SLOW_REQUEST_LIMIT = 2000;
@@ -17,6 +18,7 @@ export default class Server {
   api: API;
   clip: Clip;
   logger: Logger;
+  metrics: Prometheus;
   staticServer: any;
 
   constructor() {
@@ -36,6 +38,7 @@ export default class Server {
     // JSON format all console operations.
     this.logger = new Logger();
     this.logger.overrideConsole();
+    this.metrics = new Prometheus();
   }
 
   /**
@@ -48,15 +51,24 @@ export default class Server {
     response: http.ServerResponse
   ) {
     let startTime = Date.now();
+    this.metrics.countRequest(request);
 
     // Handle all clip related requests first.
     if (this.clip.isClipRequest(request)) {
+      this.metrics.countClipRequest(request);
       this.clip.handleRequest(request, response);
       return;
     }
 
     if (this.api.isApiRequest(request)) {
+      this.metrics.countApiRequest(request);
       this.api.handleRequest(request, response);
+      return;
+    }
+
+    if (this.metrics.isPrometheusRequest(request)) {
+      this.metrics.countPrometheusRequest(request);
+      this.metrics.handleRequest(request, response);
       return;
     }
 
