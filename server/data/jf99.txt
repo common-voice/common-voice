@@ -702,7 +702,8 @@ Oscar is dancing foxtrot together with Clara.
 In colloquial language the term Yankee is used for U.S. citizens.
 "Bravo!", Charlie applauded.
 Romeo and Juliet might be the most famous act of William Shakespeare.
-Many mountain ranges on earth are named Sierra Nevada, e.g. in Colombia, Chile, Argentina and Venezuela.
+Many mountain ranges on earth are named Sierra Nevada.
+For example, Colombia, Chile, Argentina and Venezuela.
 Many languages are spoken in Tanzania, one of them is Zulu.
 By area, Quebec is the largest province of Canada.
 This swallow is twittering without internet connection and has a swarm of followers.
@@ -715,7 +716,6 @@ You ain't gonna ruin this heist!
 Dude, you've got swag!
 Two nibbles are one byte.
 Bit is the short term for binary digit.
-Circumcision is a tradition still practiced by most Jews and Muslims.
 Jeez, you look stoned!
 Bonnie loves Clyde and vice versa.
 We strolled along the promenade and through the mall.
@@ -742,7 +742,7 @@ The dentist was ranting about my mediocre oral hygiene.
 Oh my god, they killed Kenny!
 Facebook collects data about non-members.
 WhatsApp is a tool to isolate those who don't have it.
-In other words: It's not an open platform.
+In other words, it's not an open platform.
 Uranium and plutonium are radioactive.
 I love the fjords of Norway.
 One of Saturn's moons is called Helene.
@@ -776,7 +776,7 @@ Presumably Ryan never did any sanity checks.
 The hormone oxytocin is released when a mother breastfeeds her baby.
 Have you ever heard the national anthem of South Korea?
 If you tackled these outliers that would reduce the artifacts.
-After experiencing a mind-blowing sensual orgy, Mike was sure he had took an overdose.
+After experiencing a mind-blowing sensual orgy, Mike was sure he had taken an overdose.
 Marek is so shortsighted, he can't identify faces from a distance of 10 meters.
 Lily is just as nearsighted as him.
 Who is the blonde girl with the red skirt?
@@ -824,7 +824,7 @@ No category seems to fit.
 We can constrain the amplitude so that the signal gets clipped.
 There are too many obstacles for the robot to find its way.
 This coat is fur-lined.
-I recommend to use a spell checker to avoid such typos henceforth.
+I recommend using a spell checker to avoid such typos henceforth.
 The scene begins with a closeup to Paula's face.
 Mr Lincoln is my mentor.
 Hooray, we're going to Alaska!
@@ -842,9 +842,9 @@ The bartender went to the keypad to unlock the entrance to the cellar storeroom.
 Let's spawn next to the monument and wait for the rest of our squad.
 The lorry driver yawned and decided to head for the next motel.
 Thinking of him or his accomplice alone gives me goose bumps.
-Those guys are hard to bust, since their clan that supports them with excellent advocates.
+Those guys are hard to bust since their clan supports them with excellent advocates.
 May I escort you to the garage?
-I had to teach my nephew the facts of life, because his parents are prude.
+I had to teach my nephew the facts of life, because his parents are prudes.
 The apiarist told us a story about birds and bees.
 By increasing the salinity of the water, we alter its dew point.
 Ladies and gentlemen, this wagon is going to be detached.
@@ -950,7 +950,7 @@ Let's deploy chirp modulation.
 The train conductor nabbed a woman who had dodged the fare.
 Apparently, most of the sentences have been written by nerds and scientists.
 The more you read, the better you will be understood.
-I can reassure you, that we won't retreat until the oil... until the peace is secured.
+I can reassure you, that we won't retreat until the oil until the peace is secured.
 Nobody's intending to build a wall.
 The toll bridges scan all license plates.
 The C++ framework Qt is pronounced like "cute".

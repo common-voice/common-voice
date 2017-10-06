@@ -97,17 +97,17 @@ This no good alternative.
 The shop is open from 8am to 8pm.
 The shop is closed on mondays.
 If you tell me why you came here, I'll show you the project I've been working on.
-Its too early to tell whether the strategy will pay off.
+It's too early to tell whether the strategy will pay off.
 The story of the city starts a few thousand years ago.
-The command was given to erect an outpost to defend from strikes from the east.
+The command was given to erect an outpost to defend strikes from the east.
 The little town quickly evolved into a trade center between east and west.
 It was located on a shallow river crossing.
 The river marked a natural border.
-On most places, the river was too deep to cross.
-Also, on many places it was hard to leave the water.
+At most places, the river was too deep to cross.
+Also, at many places it was hard to leave the water.
 Later, a bridge was built.
 Anyone passing the bridge had to pay.
-In the first few centuries of the town's existence, it was a wodden bridge.
+In the first few centuries of the town's existence, it was a wooden bridge.
 Two hundred years after founding, the town got the right to mint its own coin.
 This was thanks to gold being discovered and the building of gold mines.
 The city had once been famous for its yearly celebrations.
@@ -119,7 +119,7 @@ The huge city walls gave the wall epoch its name.
 The epoch lasted two hundred years.
 The period was enabled by novel stone working techniques.
 During the epoch, a majority of the city's buildings were erected.
-For examle, two of the five bridges in the city today were built back then.
+For example, two of the five bridges in the city today were built back then.
 One bridge was only to be used by citizens.
 Passing the bridge was free.
 The other bridge was for everyone else.
@@ -150,20 +150,20 @@ This obviously hurt the economy, as well as city income.
 The mines had been ran by the city council.
 The two events, less trade and no more gold mines, forced the mint to close.
 Third, the empire had shifted its military focus to the west.
-Due to this, the city lost a majority of its stationed soilders.
+Due to this, the city lost a majority of its stationed soldiers.
 The city guard had to be reduced as well due to finance shortages.
 The loss exposed the city to foreign attackers.
 In the end this led to the second sacking of the city.
 There was no replacement for armed forces lost in the fight.
 There was not enough economic power left to rebuild the city guards.
-It didn't help that back then he empire was in the midst of a succession conflict.
+It didn't help that back then the empire was in the midst of a succession conflict.
 So the city was left defenseless for a period of 20 years.
 It led to a large exodus of the city, with a majority of the population leaving.
 After the empire got a stable government again, the city was reclaimed.
 But it was only an image of its former self.
 After its demise, the city would never attain its old glory again.
 Many of the old buildings still exist today.
-Today, people in the city are very thankful of this fact.
+Today, people in the city are very thankful for this fact.
 Unlike in other cities, most of the buildings weren't destroyed in later times.
 This is probably because the buildings were made out of stone.
 Stone buildings don't burn.
@@ -174,13 +174,13 @@ Today, tourism is one of the major economic factors inside the city.
 Fortunately its not the sole driving factor of the local economy.
 In recent years, the city gained international attention.
 The local internet economy is very strong.
-Its still young, but who knows where it will lead us.
+It's still young, but who knows where it will lead us.
 The final chapter in the city's history has not been opened yet.
 The attraction between moon and earth goes both ways, which causes tides.
 Marine life has adapted to tides.
 Different species have different ways of dealing with tides.
 At the start of the 21st century, we are searching for alternative energy sources.
-Oil doesn't make it any more, it harms the climate.
+Oil doesn't make it anymore, it harms the climate.
 Same for coal.
 I wonder whether we will be able to harvest energy from fusion reactors.
 Solar seems like a good replacement.
@@ -197,7 +197,7 @@ One economic mechanism of exposing these costs is internalizing them.
 So basically establishing a system where the externalities are added to the price.
 This can be done by a tax on oil.
 Alternatively, by making oil companies pay for externalities.
-Both of this will lead to higher oil prices, and make renewables more attractive.
+Both of these will lead to higher oil prices and make renewables more attractive.
 We will tackle this issue, I hope.
 In the end it boils down to how much we want it to be solved.
 If we actually do want it solved, it will be.
