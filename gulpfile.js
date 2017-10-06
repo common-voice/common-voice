@@ -12,6 +12,7 @@ const DIR_SERVER_SRC = DIR_SERVER + 'src/';
 const DIR_UPLOAD = DIR_SERVER + 'upload/';
 const DIR_SERVER_JS = DIR_SERVER + 'js/';
 const DIR_DIST = DIR_CLIENT + 'dist/';
+const DIR_TOOLS = CWD + 'tools/';
 
 const PATH_CSS = DIR_CLIENT + 'css/*.css';
 const PATH_TS = DIR_CLIENT_SRC + TS_GLOB;
@@ -165,7 +166,7 @@ gulp.task('run', 'Just run the server', shell.task(['node ' + SERVER_SCRIPT]));
 gulp.task('watch', 'Rebuild, rebundle, re-install on file changes.', watch);
 
 gulp.task('create', 'Create the database.', ['ts-server'], (done) => {
-  let create = require('./tools/createDb');
+  let create = require(DIR_TOOLS + 'createDb');
   create.run(err => {
     if (!err) {
       console.log('Db created.');
@@ -175,7 +176,7 @@ gulp.task('create', 'Create the database.', ['ts-server'], (done) => {
 });
 
 gulp.task('drop', 'Detroy the database.', ['ts-server'], (done) => {
-  let drop = require('./tools/dropDb');
+  let drop = require(DIR_TOOLS + 'dropDb');
   drop.run(done);
 });
 
@@ -203,6 +204,12 @@ gulp.task('deploy', 'deploy production',
       done();
     });
   });
+
+gulp.task('count', 'Print sentence collection count.', () => {
+  const countCorpus = require(DIR_TOOLS + 'countCorpus');
+  return countCorpus();
+});
+
 
 gulp.task('default', 'Running just `gulp`.', ['build'], () => {
   watchAndListen();
