@@ -31,7 +31,7 @@ export function getFirstDefined(...options: any[]) {
 export function isMasterServer(): Promise<boolean> {
   return new Promise((res: Function, rej: Function) => {
     child.exec(
-      'consol-do common-voice $(hostname)',
+      'consul-do common-voice $(hostname)',
       (err: any, stdout: any, stderr: any) => {
         console.log('checkmaster', stdout, stderr);
         if (err) {
