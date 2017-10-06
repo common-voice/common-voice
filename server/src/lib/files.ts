@@ -1,8 +1,9 @@
+import * as path from 'path';
+
 import { map } from '../promisify';
 import { getFileExt } from './utility';
 
 const MemoryStream = require('memorystream');
-const path = require('path');
 const Promise = require('bluebird');
 const Random = require('random-js');
 const AWS = require('./aws');

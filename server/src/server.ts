@@ -1,4 +1,6 @@
 import * as http from 'http';
+import * as path from 'path';
+
 import API from './lib/api';
 import Clip from './lib/clip';
 import Logger from './lib/logger';
@@ -10,7 +12,6 @@ const CLIENT_PATH = '../../web';
 
 const nodeStatic = require('node-static');
 const config = require(CONFIG_PATH);
-const path = require('path');
 
 export default class Server {
   api: API;

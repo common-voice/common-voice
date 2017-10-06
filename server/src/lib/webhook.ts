@@ -1,7 +1,8 @@
 import * as http from 'http';
+import * as path from 'path';
+
 import respond from './responder';
 
-const path = require('path');
 const SimpleGit = require('simple-git');
 
 const PROJECT_PATH = path.resolve(__dirname, '../../../');
