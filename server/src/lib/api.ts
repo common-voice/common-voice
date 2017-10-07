@@ -5,13 +5,12 @@ import * as path from 'path';
 import WebHook from './webhook';
 import respond from './responder';
 
-const Promise = require('bluebird');
 const Random = require('random-js');
 
 const SENTENCE_FOLDER = '../../data/';
 
 export default class API {
-  sentencesCache: String[];
+  sentencesCache: string[];
   webhook: WebHook;
   randomEngine: any;
 
@@ -95,7 +94,7 @@ export default class API {
     }
   }
 
-  getSentences() {
+  getSentences(): Promise<string[]> {
     if (this.sentencesCache) {
       return Promise.resolve(this.sentencesCache);
     }
@@ -133,9 +132,11 @@ export default class API {
           sentences = sentences.concat.apply(sentences, sentenceArrays);
           console.log('sentences found', sentences.length);
           this.sentencesCache = sentences;
+          return this.sentencesCache;
         })
         .catch((err: any) => {
           console.error('could not retrieve sentences', err);
+          return [];
         })
     );
   }

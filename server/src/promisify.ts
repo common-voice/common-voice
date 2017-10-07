@@ -1,5 +1,3 @@
-let Promise = require('bluebird');
-
 /**
  * Turn a callback function into a promise function.
  */
@@ -8,7 +6,7 @@ export default function make(context: any, method: Function, args?: any[]) {
     args = [args];
   }
 
-  return new Promise((resolve: any, reject: any) => {
+  return new Promise((resolve, reject) => {
     method.apply(
       context,
       args.concat([

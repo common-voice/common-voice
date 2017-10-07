@@ -10,7 +10,6 @@ import respond, { CONTENT_TYPES } from './responder';
 
 const ms = require('mediaserver');
 const ff = require('ff');
-const Promise = require('bluebird');
 const mkdirp = require('mkdirp');
 const AWS = require('./aws');
 const Transcoder = require('stream-transcoder');
@@ -383,7 +382,7 @@ export default class Clip {
 
     this.files
       .getRandomClip(uid)
-      .then((clip: string[2]) => {
+      .then((clip: string[]) => {
         if (!clip) {
         }
 

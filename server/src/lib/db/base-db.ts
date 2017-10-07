@@ -1,5 +1,4 @@
 import Mysql from './mysql';
-const Promise = require('bluebird');
 
 /**
  * Base object for dealing with data in Postgres table
