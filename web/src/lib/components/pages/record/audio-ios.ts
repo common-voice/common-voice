@@ -98,8 +98,8 @@ export default class AudioIOS {
     this.postMessage('lockportrait');
   }
 
-  init() {
-    return Promise.resolve();
+  async init(): Promise<void> {
+    return;
   }
 
   setVolumeCallback(cb: Function) {

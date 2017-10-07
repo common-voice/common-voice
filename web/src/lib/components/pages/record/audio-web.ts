@@ -23,7 +23,6 @@ export default class AudioWeb {
   last: AudioInfo;
   lastRecordingData: Blob;
   lastRecordingUrl: string;
-  initPromise: Promise<void>;
   frequencyBins: Uint8Array;
   volumeCallback: Function;
   jsNode: any;
@@ -111,15 +110,7 @@ export default class AudioWeb {
     this.volumeCallback = cb;
   }
 
-  init(): Promise<void> {
-    if (!this.initPromise) {
-      this.initPromise = this.doInit();
-    }
-
-    return this.initPromise;
-  }
-
-  private async doInit(): Promise<void> {
+  async init(): Promise<void> {
     try {
       const microphone = await this.getMicrophone();
 
