@@ -33,7 +33,7 @@ export function isLeaderServer(): Promise<boolean> {
     child.exec(
       'consul-do common-voice $(hostname) && echo success',
       (err: any, stdout: any, stderr: any) => {
-        console.log('checkleader', !err, stdout, stderr);
+        console.log('checkleader', !err, stdout.length, stderr.length);
         if (err) {
           res(false);
         } else {

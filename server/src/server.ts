@@ -130,9 +130,12 @@ export default class Server {
     server.listen(port);
     console.log(`listening at http://localhost:${port}`);
 
-    let isLeader = await isLeaderServer();
-    if (isLeader) {
-      console.log('LEADER');
+    if (config.PROD) {
+      console.log('checking leader');
+      let isLeader = await isLeaderServer();
+      if (isLeader) {
+        console.log('LEADER');
+      }
     }
   }
 }
