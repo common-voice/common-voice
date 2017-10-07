@@ -85,7 +85,7 @@ The workaround is surprisingly elaborate, but the good news is I've already done
 The basic idea is that we will call into their C API from Python.
 The raw API is extremely complicated for our needs, so I wrote a simple wrapper DLL.
 It has a few basic functions to connect to the eye tracker, get position data, and activate the current gaze point.
-You can get the source code and binary distribution of the wrapper from my github repository.
+You can get the source code and binary distribution of the wrapper from my GitHub repository.
 It's useful to have separate commands for moving the pointer and clicking.
 The eye tracker accuracy isn't always perfect.
 Foot pedals are another alternative to voice commands.
