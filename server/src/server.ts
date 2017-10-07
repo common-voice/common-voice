@@ -5,7 +5,7 @@ import API from './lib/api';
 import Clip from './lib/clip';
 import Logger from './lib/logger';
 import Prometheus from './lib/prometheus';
-import { isMasterServer } from './lib/utility';
+import { isLeaderServer } from './lib/utility';
 
 const DEFAULT_PORT = 9000;
 const SLOW_REQUEST_LIMIT = 2000;
@@ -113,10 +113,16 @@ export default class Server {
 
     // Initialize our clip list.
     let start = Date.now();
-    this.clip.init().then(() => {
-      let elapsedSeconds = Math.round((Date.now() - start) / 1000);
-      console.log('APPLICATION LOADED', elapsedSeconds);
-    });
+    this.clip
+      .init()
+      .then(() => {
+        let elapsedSeconds = Math.round((Date.now() - start) / 1000);
+        console.log(`APPLICATION LOADED in ${elapsedSeconds} seconds`);
+      })
+      .catch(err => {
+        let elapsedSeconds = Math.round((Date.now() - start) / 1000);
+        console.log(`APPLICATION FAILED LOADING, ${elapsedSeconds} seconds`);
+      });
 
     // Begin handling requests before clip list is loaded.
     let port = config.port || DEFAULT_PORT;
@@ -124,8 +130,10 @@ export default class Server {
     server.listen(port);
     console.log(`listening at http://localhost:${port}`);
 
-    let isMaster = await isMasterServer();
-    console.log('master?', isMaster, config.PROD);
+    let isLeader = await isLeaderServer();
+    if (isLeader) {
+      console.log('LEADER');
+    }
   }
 }
 

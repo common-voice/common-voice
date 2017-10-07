@@ -28,12 +28,12 @@ export function getFirstDefined(...options: any[]) {
  * Are we the chosen one?
  * Returns promise which resolves to true is we are the master deploy server.
  */
-export function isMasterServer(): Promise<boolean> {
+export function isLeaderServer(): Promise<boolean> {
   return new Promise((res: Function, rej: Function) => {
     child.exec(
-      'consul-do common-voice $(hostname)',
+      'consul-do common-voice $(hostname) && echo success',
       (err: any, stdout: any, stderr: any) => {
-        console.log('checkmaster', stdout, stderr);
+        console.log('checkleader', !err, stdout, stderr);
         if (err) {
           res(false);
         } else {

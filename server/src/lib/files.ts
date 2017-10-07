@@ -203,6 +203,7 @@ export default class Files {
     awsRequest.on('error', (err: any) => {
       if (err.code === 'AccessDenied') {
         console.error('s3 aws creds not configured properly');
+        rej(err);
         return;
       }
 
