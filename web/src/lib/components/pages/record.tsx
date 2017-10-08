@@ -14,6 +14,7 @@ import {
   countSyllables,
   isNativeIOS,
   generateGUID,
+  sleep,
 } from '../../utility';
 import confirm from '../confirm';
 
@@ -23,6 +24,7 @@ const PAGE_NAME = 'record';
 const MIN_RECORDING_LENGTH = 300; // ms
 const MAX_RECORDING_LENGTH = 10000; // ms
 const MIN_VOLUME = 1;
+const RETRY_TIMEOUT = 1000;
 
 enum RecordingError {
   TOO_SHORT = 1,
@@ -119,10 +121,14 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   }
 
   private async refillSentenceCache() {
-    const newSentences = await this.props.api.getRandomSentences(
-      CACHE_SET_COUNT
-    );
-    this.sentenceCache = this.sentenceCache.concat(newSentences);
+    try {
+      const newSentences = await this.props.api.getRandomSentences(
+        CACHE_SET_COUNT
+      );
+      this.sentenceCache = this.sentenceCache.concat(newSentences);
+    } catch (err) {
+      console.log('could not setch sentences');
+    }
   }
 
   private processRecording(info: AudioInfo) {
@@ -345,6 +351,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     // If we don't have enough sentences in our cache, fill it before continuing.
     while (this.sentenceCache.length < SET_COUNT) {
       console.error('slow path for getting new sentences');
+      await sleep(RETRY_TIMEOUT);
       await this.refillSentenceCache();
     }
 

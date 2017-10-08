@@ -20,13 +20,12 @@ export default class Corpus {
   }
 
   /**
-   * Load sentences from file system into memory.
+   * Load txt files from path, and parse into an array of lines.
    */
-  async loadCache(): Promise<void> {
-    this.cache = [];
-
+  private async loadSentences(path: string): Promise<string[]> {
+    let allSentences: string[] = [];
     // Get all text files in the sentences folder.
-    let filePaths = await getFilesInFolder(SENTENCE_FOLDER);
+    let filePaths = await getFilesInFolder(path);
     filePaths = filePaths.filter((name: string) => {
       return getFileExt(name) === '.txt';
     });
@@ -46,20 +45,34 @@ export default class Corpus {
         continue;
       }
 
-      // Add any non-black lines to the sentence cache.
-      this.cache = this.cache.concat(
+      allSentences = allSentences.concat(
         sentences.filter((s: string) => {
           return !!s;
         })
       );
     }
-    console.log('finished', this.cache.length);
+
+    return allSentences;
+  }
+
+  /**
+   * Load sentences from file system into memory.
+   */
+  async loadCache(): Promise<void> {
+    if (this.cache) {
+      return;
+    }
+    this.cache = await this.loadSentences(SENTENCE_FOLDER);
+    console.log(`corpus loaded ${this.cache.length} sentences`);
   }
 
   /**
    * Get a random sentence from loaded corpus.
    */
   getRandom(): string {
+    if (!this.cache) {
+      return null;
+    }
     let distribution = Random.integer(0, this.cache.length - 1);
     return this.cache[distribution(this.randomEngine)];
   }
@@ -68,6 +81,9 @@ export default class Corpus {
    * Get a bunch of random sentences at once.
    */
   getMultipleRandom(count: number): string[] {
+    if (!this.cache) {
+      return null;
+    }
     let randoms = [];
     for (var i = 0; i < count; i++) {
       randoms.push(this.getRandom());

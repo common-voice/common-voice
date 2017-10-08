@@ -67,3 +67,10 @@ export function isProduction(): boolean {
 export function getItunesURL(): string {
   return 'https://itunes.apple.com/us/app/project-common-voice-by-mozilla/id1240588326';
 }
+
+/**
+ * Returns a promise that resolves after ms.
+ */
+export function sleep(ms: number): Promise<void> {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}

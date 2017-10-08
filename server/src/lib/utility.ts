@@ -47,3 +47,10 @@ export function isLeaderServer(): Promise<boolean> {
     );
   });
 }
+
+/**
+ * Returns a promise that resolves after ms.
+ */
+export function sleep(ms: number): Promise<void> {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}

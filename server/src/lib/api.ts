@@ -84,6 +84,12 @@ export default class API {
   async returnRandomSentence(response: http.ServerResponse, count: number) {
     count = count || 1;
     let randoms = this.corpus.getMultipleRandom(count);
+
+    // Make sure we were able to feature the right amount of random sentences.
+    if (!randoms || randoms.length < count) {
+      respond(response, 'No sentences right now', 500);
+      return;
+    }
     respond(response, randoms.join('\n'));
   }
 }
