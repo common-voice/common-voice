@@ -6,12 +6,15 @@ const Random = require('random-js');
 
 const CWD = process.cwd();
 const SENTENCE_FOLDER = path.resolve(CWD, 'server/data/');
+const UNUSED_FOLDER = path.join(SENTENCE_FOLDER, 'not-used');
 
 /**
  * Corpus. Handles local text corpus.
  */
 export default class Corpus {
   cache: string[];
+  deactive: string[];
+  sources: number;
   randomEngine: any;
 
   constructor() {
@@ -23,6 +26,7 @@ export default class Corpus {
    * Load txt files from path, and parse into an array of lines.
    */
   private async loadSentences(path: string): Promise<string[]> {
+    this.sources = 0;
     let allSentences: string[] = [];
     // Get all text files in the sentences folder.
     let filePaths = await getFilesInFolder(path);
@@ -45,6 +49,8 @@ export default class Corpus {
         continue;
       }
 
+      ++this.sources;
+
       allSentences = allSentences.concat(
         sentences.filter((s: string) => {
           return !!s;
@@ -64,6 +70,28 @@ export default class Corpus {
     }
     this.cache = await this.loadSentences(SENTENCE_FOLDER);
     console.log(`corpus loaded ${this.cache.length} sentences`);
+  }
+
+  async loadCacheDeactive(): Promise<void> {
+    if (this.deactive) {
+      return;
+    }
+    this.deactive = await this.loadSentences(UNUSED_FOLDER);
+    console.log(`deactive corpus loaded ${this.deactive.length} sentences`);
+  }
+
+  /**
+   * Display a nice count of the senteces in our corpus.
+   */
+  async displayMetrics(): Promise<void> {
+    await this.loadCache();
+    const sources = this.sources;
+    await this.loadCacheDeactive();
+    const dSources = this.sources;
+    console.log(`\nActive: ${this.cache.length} lines from ${sources} sources`);
+    console.log(
+      `Deactive: ${this.deactive.length} lines from ${dSources} sources\n`
+    );
   }
 
   /**

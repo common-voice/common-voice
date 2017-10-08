@@ -20,9 +20,11 @@ const PATH_TS_CONFIG = DIR_CLIENT + TS_CONFIG;
 const PATH_TS_SERVER = DIR_SERVER_SRC + TS_GLOB;
 const PATH_TS_CONFIG_SERVER = DIR_SERVER + TS_CONFIG;
 const PATH_VENDOR = DIR_CLIENT + 'vendor/';
-const SERVER_SCRIPT = 'server/js/server.js'
+const SERVER_SCRIPT = './server/js/server.js'
 
 const RELOAD_DELAY = 2500;
+
+const Server = require(SERVER_SCRIPT).default;
 
 // Add gulp help functionality.
 let gulp = require('gulp-help')(require('gulp'));
@@ -206,9 +208,9 @@ gulp.task('deploy', 'deploy production',
     });
   });
 
-gulp.task('count', 'Print sentence collection count.', () => {
-  const countCorpus = require(DIR_TOOLS + 'countCorpus');
-  return countCorpus();
+gulp.task('count', 'Print sentence collection count.', ['ts-server'], () => {
+  let server = new Server();
+  return server.countCorpus()
 });
 
 

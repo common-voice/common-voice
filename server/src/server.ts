@@ -34,9 +34,9 @@ export default class Server {
 
     this.api = new API();
 
-    // JSON format all console operations.
-    this.logger = new Logger();
+    // Make console.log output json.
     if (config.PROD) {
+      this.logger = new Logger();
       this.logger.overrideConsole();
     }
   }
@@ -86,11 +86,11 @@ export default class Server {
       .resume();
   }
 
-  async checkLeader(): Promise<boolean> {
+  private async checkLeader(): Promise<boolean> {
     return await isLeaderServer();
   }
 
-  async loadCache(): Promise<void> {
+  private async loadCache(): Promise<void> {
     await this.api.loadCache();
   }
 
@@ -125,6 +125,7 @@ export default class Server {
       console.log(`APPLICATION LOADED in ${elapsedSeconds} seconds`);
     }
 
+    // Figure out if this server is the leader.
     try {
       let isLeader = await this.checkLeader();
       console.log('leader is', isLeader);
@@ -132,13 +133,20 @@ export default class Server {
       console.error('error checking for leader', err.message);
     }
   }
+
+  /**
+   * Display metrics of the current corpus.
+   */
+  async countCorpus(): Promise<void> {
+    this.api.corpus.displayMetrics();
+  }
 }
 
 process.on('uncaughtException', function(err: any) {
   console.error('uncaught exception', err);
 });
 
-// If this file is run, boot up a new server instance.
+// If this file is run directly, boot up a new server instance.
 if (require.main === module) {
   let server = new Server();
   server.run();
