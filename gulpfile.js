@@ -24,8 +24,6 @@ const SERVER_SCRIPT = './server/js/server.js'
 
 const RELOAD_DELAY = 2500;
 
-const Server = require(SERVER_SCRIPT).default;
-
 // Add gulp help functionality.
 let gulp = require('gulp-help')(require('gulp'));
 let shell = require('gulp-shell');
@@ -209,6 +207,7 @@ gulp.task('deploy', 'deploy production',
   });
 
 gulp.task('count', 'Print sentence collection count.', ['ts-server'], () => {
+  const Server = require(SERVER_SCRIPT).default;
   let server = new Server();
   return server.countCorpus()
 });
