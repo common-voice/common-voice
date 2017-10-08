@@ -127,7 +127,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       );
       this.sentenceCache = this.sentenceCache.concat(newSentences);
     } catch (err) {
-      console.log('could not setch sentences');
+      console.log('could not fetch sentences');
     }
   }
 
