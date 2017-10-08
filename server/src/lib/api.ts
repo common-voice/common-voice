@@ -1,84 +1,32 @@
-import * as fs from 'fs';
 import * as http from 'http';
 import * as path from 'path';
 
 import Clip from './clip';
+import Corpus from './corpus';
 import Prometheus from './prometheus';
 import WebHook from './webhook';
 import respond from './responder';
 
-const Random = require('random-js');
-
-const SENTENCE_FOLDER = '../../data/';
-
 export default class API {
   clip: Clip;
+  corpus: Corpus;
   metrics: Prometheus;
-  sentencesCache: String[];
   webhook: WebHook;
-  randomEngine: any;
 
   constructor() {
     this.clip = new Clip();
+    this.corpus = new Corpus();
     this.metrics = new Prometheus();
     this.webhook = new WebHook();
-    this.getSentences();
-    this.randomEngine = Random.engines.mt19937();
-    this.randomEngine.autoSeed();
   }
 
   /**
    * Loads cache. API will still be responsive to requests while loading cache.
    */
-  async init(): Promise<void> {
-    await this.clip.init();
+  async loadCache(): Promise<void> {
+    await Promise.all([this.clip.loadCache(), this.corpus.loadCache()]);
   }
 
-  private getSentenceFolder() {
-    return path.join(__dirname, SENTENCE_FOLDER);
-  }
-
-  private getRandomSentences(count: number): Promise<string[]> {
-    return this.getSentences().then((sentences: string[]) => {
-      let randoms = [];
-      for (var i = 0; i < count; i++) {
-        let distribution = Random.integer(0, sentences.length - 1);
-        let randomIndex = distribution(this.randomEngine);
-        randoms.push(sentences[randomIndex]);
-      }
-      return randoms;
-    });
-  }
-
-  private getFilesInFolder(folderpath: string) {
-    return new Promise(
-      (res: (files: string[]) => void, rej: (error: any) => void) => {
-        fs.readdir(folderpath, (err: any, files: string[]) => {
-          if (err) {
-            rej(err);
-            return;
-          }
-
-          res(files);
-        });
-      }
-    );
-  }
-
-  private getFileContents(filepath: string) {
-    return new Promise(
-      (res: (contents: string) => void, rej: (error: any) => void) => {
-        fs.readFile(filepath, 'utf8', (err: any, data: string) => {
-          if (err) {
-            rej(err);
-            return;
-          }
-
-          res(data);
-        });
-      }
-    );
-  }
   /**
    * Is this request directed at the api?
    */
@@ -130,67 +78,12 @@ export default class API {
     }
   }
 
-  getSentences(): Promise<any> {
-    if (this.sentencesCache) {
-      return Promise.resolve(this.sentencesCache);
-    }
-
-    return (
-      this.getFilesInFolder(this.getSentenceFolder())
-        .then((files: string[]) => {
-          return Promise.all(
-            files.map(filename => {
-              // Only parse the top-level text files, not any sub folders.
-              if (filename.split('.').pop() !== 'txt') {
-                return null;
-              }
-
-              let filepath = path.join(this.getSentenceFolder(), filename);
-              return this.getFileContents(filepath);
-            })
-          );
-        })
-        // Chop the array of content strings into an array of sentences.
-        .then((values: string[]) => {
-          let sentences: string[] = [];
-          let sentenceArrays = values.map(fileContents => {
-            if (!fileContents) {
-              return [];
-            }
-
-            // Remove any blank line sentences.
-            let fileSentences = fileContents.split('\n');
-            return fileSentences.filter(sentence => {
-              return !!sentence;
-            });
-          });
-
-          sentences = sentences.concat.apply(sentences, sentenceArrays);
-          console.log('sentences found', sentences.length);
-          this.sentencesCache = sentences;
-        })
-        .catch((err: any) => {
-          console.error('could not retrieve sentences', err);
-        })
-    );
-  }
-
   /**
    * Load sentence file (if necessary), pick random sentence.
    */
-  returnRandomSentence(response: http.ServerResponse, count: number) {
+  async returnRandomSentence(response: http.ServerResponse, count: number) {
     count = count || 1;
-
-    this.getSentences()
-      .then((sentences: String[]) => {
-        return this.getRandomSentences(count);
-      })
-      .then((randoms: string[]) => {
-        respond(response, randoms.join('\n'));
-      })
-      .catch((err: any) => {
-        console.error('Could not load sentences', err);
-        respond(response, 'No sentences right now', 500);
-      });
+    let randoms = this.corpus.getMultipleRandom(count);
+    respond(response, randoms.join('\n'));
   }
 }

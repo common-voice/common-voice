@@ -31,6 +31,7 @@ export default class Server {
         },
       }
     );
+
     this.api = new API();
 
     // JSON format all console operations.
@@ -89,8 +90,8 @@ export default class Server {
     return await isLeaderServer();
   }
 
-  async load(): Promise<void> {
-    await this.api.init();
+  async loadCache(): Promise<void> {
+    await this.api.loadCache();
   }
 
   listen(): void {
@@ -114,9 +115,9 @@ export default class Server {
     // Boot up our http server.
     this.listen();
 
-    // Attemp to load the audio clips.
+    // Attemp to load cache (sentences and audio metadata).
     try {
-      await this.load();
+      await this.loadCache();
     } catch (err) {
       console.error('error loading clips', err.message);
     } finally {

@@ -8,7 +8,11 @@ const child = require('child_process');
  * Returns the file extension of some path.
  */
 export function getFileExt(path: string): string {
-  return path.substr(path.lastIndexOf('.') - path.length);
+  let i = path.lastIndexOf('.');
+  if (i === -1) {
+    return '';
+  }
+  return path.substr(i - path.length);
 }
 
 /**
