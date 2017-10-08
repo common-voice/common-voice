@@ -4,7 +4,7 @@ import * as http from 'http';
 import * as path from 'path';
 import { PassThrough } from 'stream';
 
-import Files from './files';
+import Bucket from './bucket';
 import { getFileExt } from './utility';
 import respond, { CONTENT_TYPES } from './responder';
 
@@ -28,11 +28,11 @@ const BUCKET_NAME = config.BUCKET_NAME || 'common-voice-corpus';
  */
 export default class Clip {
   private s3: any;
-  private files: Files;
+  private bucket: Bucket;
 
   constructor() {
     this.s3 = new AWS.S3({ signatureVersion: 'v4' });
-    this.files = new Files();
+    this.bucket = new Bucket();
   }
 
   /**
@@ -96,10 +96,10 @@ export default class Clip {
   }
 
   /**
-   * Prepare a list of files from our data bucket.
+   * Prepare a list of data files from our data bucket.
    */
   init(): Promise<void> {
-    return this.files.loadCache();
+    return this.bucket.loadCache();
   }
 
   /**
@@ -362,7 +362,7 @@ export default class Clip {
       return Promise.reject('Invalid headers');
     }
 
-    return this.files
+    return this.bucket
       .getRandomClipJson(uid)
       .then(clipJson => {
         respond(response, clipJson, 200, CONTENT_TYPES.JSON);
@@ -389,7 +389,7 @@ export default class Clip {
       return Promise.reject('Invalid headers');
     }
 
-    this.files
+    this.bucket
       .getRandomClip(uid)
       .then((clip: string[2]) => {
         if (!clip) {

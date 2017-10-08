@@ -30,7 +30,7 @@ interface FileHolder {
   [key: string]: FileData;
 }
 
-export default class Files {
+export default class Bucket {
   private s3: any;
   private files: FileHolder;
   private paths: string[];
