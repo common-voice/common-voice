@@ -1,9 +1,11 @@
-let Promise = require('bluebird');
-
 /**
  * Turn a callback function into a promise function.
  */
-export default function make(context: any, method: Function, args?: any[]) {
+export default function run(
+  context: any,
+  method: Function,
+  args?: any
+): Promise<any> {
   if (!Array.isArray(args)) {
     args = [args];
   }
@@ -24,10 +26,10 @@ export default function make(context: any, method: Function, args?: any[]) {
   });
 }
 
-export function map(context: any, method: Function, items: any[]) {
+export function map(context: any, method: Function, items: any): Promise<any> {
   return Promise.all(
-    items.map(item => {
-      return make(context, method, item);
+    items.map((item: any) => {
+      return run(context, method, item);
     })
   );
 }
