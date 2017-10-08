@@ -182,11 +182,13 @@ export default class Files {
       // Filter the elligible clips for verification, making sure
       // we are not trying to reverify any.
       this.filterPaths();
-      console.log('clips load', this.paths.length, this.votes, this.validated);
       console.log(
-        `load time ${startParsing - startRequest} parse time ${Date.now() -
-          startParsing}`
+        `clips load ${this.paths.length}, votes ${this.votes}, validated ${this
+          .validated}`
       );
+      let secondsToLoad = ((startParsing - startRequest) / 1000).toFixed(3);
+      let secondsToParse = ((Date.now() - startParsing) / 1000).toFixed(2);
+      console.log(`load time ${secondsToLoad}s, parse time ${secondsToParse}`);
 
       // If there is no continuation token, we are done.
       if (!next) {
@@ -201,16 +203,17 @@ export default class Files {
     });
 
     awsRequest.on('error', (err: any) => {
-      if (err.code === 'AccessDenied') {
+      if (err.code === 'AccessDenied' || err.code === 'CredentialsError') {
         console.error('s3 aws creds not configured properly');
         rej(err);
         return;
       }
 
-      console.error('Error while fetching clip list:', err.message);
+      console.error('Error while fetching clip list:', err.code);
 
       // Retry loading current batch.
       setTimeout(() => {
+        console.log('retrying loading from s3');
         this.loadNext(res, rej, continuationToken);
       }, LOAD_DELAY);
     });

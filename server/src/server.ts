@@ -16,6 +16,7 @@ const nodeStatic = require('node-static');
 const config = require(CONFIG_PATH);
 
 export default class Server {
+  server: http.Server;
   api: API;
   clip: Clip;
   logger: Logger;
@@ -104,6 +105,22 @@ export default class Server {
       .resume();
   }
 
+  async checkLeader(): Promise<boolean> {
+    return await isLeaderServer();
+  }
+
+  async load(): Promise<void> {
+    await this.clip.init();
+  }
+
+  listen(): void {
+    // Begin handling requests before clip list is loaded.
+    let port = config.port || DEFAULT_PORT;
+    this.server = http.createServer(this.handleRequest.bind(this));
+    this.server.listen(port);
+    console.log(`listening at http://localhost:${port}`);
+  }
+
   /**
    * Start up everything.
    */
@@ -113,29 +130,25 @@ export default class Server {
 
     // Initialize our clip list.
     let start = Date.now();
-    this.clip
-      .init()
-      .then(() => {
-        let elapsedSeconds = Math.round((Date.now() - start) / 1000);
-        console.log(`APPLICATION LOADED in ${elapsedSeconds} seconds`);
-      })
-      .catch(err => {
-        let elapsedSeconds = Math.round((Date.now() - start) / 1000);
-        console.log(`APPLICATION FAILED LOADING, ${elapsedSeconds} seconds`);
-      });
 
-    // Begin handling requests before clip list is loaded.
-    let port = config.port || DEFAULT_PORT;
-    let server = http.createServer(this.handleRequest.bind(this));
-    server.listen(port);
-    console.log(`listening at http://localhost:${port}`);
+    // Boot up our http server.
+    this.listen();
 
-    if (config.PROD) {
-      console.log('checking leader');
-      let isLeader = await isLeaderServer();
-      if (isLeader) {
-        console.log('LEADER');
-      }
+    // Attemp to load the audio clips.
+    try {
+      await this.load();
+    } catch (err) {
+      console.error('error loading clips', err.message);
+    } finally {
+      let elapsedSeconds = Math.round((Date.now() - start) / 1000);
+      console.log(`APPLICATION LOADED in ${elapsedSeconds} seconds`);
+    }
+
+    try {
+      let isLeader = await this.checkLeader();
+      console.log('leader is', isLeader);
+    } catch (err) {
+      console.error('error checking for leader', err.message);
     }
   }
 }
