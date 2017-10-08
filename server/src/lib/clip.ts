@@ -49,6 +49,11 @@ export default class Clip {
       .digest('hex');
   }
 
+  /**
+   * This function downloads and clip from s3 and streams to the broweer.
+   * Note: this function is rarely used as we now issue a temporary s3 url
+   *       directly to the client rather than stream from the server.
+   */
   private streamAudio(
     request: http.IncomingMessage,
     response: http.ServerResponse,
@@ -370,6 +375,9 @@ export default class Clip {
 
   /**
    * Fetch random clip file and associated sentence.
+   * Note: we no longer use this api from the browser
+   *       as we prefer to s3 clips straight from S3
+   *       rather than stream through our app.
    */
   serveRandomClip(
     request: http.IncomingMessage,
