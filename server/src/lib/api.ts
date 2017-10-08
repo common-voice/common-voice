@@ -2,24 +2,36 @@ import * as fs from 'fs';
 import * as http from 'http';
 import * as path from 'path';
 
+import Clip from './clip';
+import Prometheus from './prometheus';
 import WebHook from './webhook';
 import respond from './responder';
 
-const Promise = require('bluebird');
 const Random = require('random-js');
 
 const SENTENCE_FOLDER = '../../data/';
 
 export default class API {
+  clip: Clip;
+  metrics: Prometheus;
   sentencesCache: String[];
   webhook: WebHook;
   randomEngine: any;
 
   constructor() {
+    this.clip = new Clip();
+    this.metrics = new Prometheus();
     this.webhook = new WebHook();
     this.getSentences();
     this.randomEngine = Random.engines.mt19937();
     this.randomEngine.autoSeed();
+  }
+
+  /**
+   * Loads cache. API will still be responsive to requests while loading cache.
+   */
+  async init(): Promise<void> {
+    await this.clip.init();
   }
 
   private getSentenceFolder() {
@@ -71,13 +83,36 @@ export default class API {
    * Is this request directed at the api?
    */
   isApiRequest(request: http.IncomingMessage) {
-    return request.url.includes('/api/');
+    return (
+      request.url.includes('/api/') ||
+      this.clip.isClipRequest(request) ||
+      this.metrics.isPrometheusRequest(request)
+    );
   }
 
   /**
    * Give api response.
    */
   handleRequest(request: http.IncomingMessage, response: http.ServerResponse) {
+    this.metrics.countRequest(request);
+
+    // Handle all clip related requests first.
+    if (this.clip.isClipRequest(request)) {
+      this.metrics.countClipRequest(request);
+      this.clip.handleRequest(request, response);
+      return;
+    }
+
+    // Check for Prometheus metrics request.
+    if (this.metrics.isPrometheusRequest(request)) {
+      this.metrics.countPrometheusRequest(request);
+      this.metrics.handleRequest(request, response);
+      return;
+    }
+
+    // If we get here, we are at an API request.
+    this.metrics.countApiRequest(request);
+
     // Most often this will be a sentence request.
     if (request.url.includes('/sentence')) {
       let parts = request.url.split('/');
@@ -95,7 +130,7 @@ export default class API {
     }
   }
 
-  getSentences() {
+  getSentences(): Promise<any> {
     if (this.sentencesCache) {
       return Promise.resolve(this.sentencesCache);
     }

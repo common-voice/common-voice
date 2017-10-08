@@ -2,9 +2,7 @@ import * as http from 'http';
 import * as path from 'path';
 
 import API from './lib/api';
-import Clip from './lib/clip';
 import Logger from './lib/logger';
-import Prometheus from './lib/prometheus';
 import { isLeaderServer } from './lib/utility';
 
 const DEFAULT_PORT = 9000;
@@ -12,15 +10,15 @@ const SLOW_REQUEST_LIMIT = 2000;
 const CONFIG_PATH = '../../config.json';
 const CLIENT_PATH = '../../web';
 
+const CSP_HEADER = `default-src 'none'; style-src 'self' 'nonce-123456789' 'nonce-987654321'; img-src 'self' www.google-analytics.com; media-src data: blob: https://*.amazonaws.com; script-src 'self' https://www.google-analytics.com/analytics.js; font-src 'self'; connect-src 'self'`;
+
 const nodeStatic = require('node-static');
 const config = require(CONFIG_PATH);
 
 export default class Server {
   server: http.Server;
   api: API;
-  clip: Clip;
   logger: Logger;
-  metrics: Prometheus;
   staticServer: any;
 
   constructor() {
@@ -29,20 +27,17 @@ export default class Server {
       {
         cache: false,
         headers: {
-          'Content-Security-Policy':
-            "default-src 'none'; style-src 'self' 'nonce-123456789' 'nonce-987654321'; img-src 'self' www.google-analytics.com; media-src data: blob: https://*.amazonaws.com; script-src 'self' https://www.google-analytics.com/analytics.js; font-src 'self'; connect-src 'self'",
+          'Content-Security-Policy': CSP_HEADER,
         },
       }
     );
     this.api = new API();
-    this.clip = new Clip();
 
     // JSON format all console operations.
     this.logger = new Logger();
     if (config.PROD) {
       this.logger.overrideConsole();
     }
-    this.metrics = new Prometheus();
   }
 
   /**
@@ -55,24 +50,9 @@ export default class Server {
     response: http.ServerResponse
   ) {
     let startTime = Date.now();
-    this.metrics.countRequest(request);
-
-    // Handle all clip related requests first.
-    if (this.clip.isClipRequest(request)) {
-      this.metrics.countClipRequest(request);
-      this.clip.handleRequest(request, response);
-      return;
-    }
 
     if (this.api.isApiRequest(request)) {
-      this.metrics.countApiRequest(request);
       this.api.handleRequest(request, response);
-      return;
-    }
-
-    if (this.metrics.isPrometheusRequest(request)) {
-      this.metrics.countPrometheusRequest(request);
-      this.metrics.handleRequest(request, response);
       return;
     }
 
@@ -110,7 +90,7 @@ export default class Server {
   }
 
   async load(): Promise<void> {
-    await this.clip.init();
+    await this.api.init();
   }
 
   listen(): void {

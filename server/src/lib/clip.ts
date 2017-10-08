@@ -96,10 +96,10 @@ export default class Clip {
   }
 
   /**
-   * Prepare a list of files from s3.
+   * Prepare a list of files from our data bucket.
    */
   init(): Promise<void> {
-    return this.files.init();
+    return this.files.loadCache();
   }
 
   /**

@@ -224,7 +224,7 @@ export default class Files {
   /**
    * Load sound file metadata into memory.
    */
-  private loadCache(): Promise<void> {
+  loadCache(): Promise<void> {
     return new Promise((res: Function, rej: Function) => {
       this.loadNext(res, rej);
     });
@@ -244,13 +244,6 @@ export default class Files {
       glob = this.paths[distribution(this.randomEngine)];
     } while (glob.includes(myUid));
     return glob;
-  }
-
-  /**
-   * Prepare a list of files from s3.
-   */
-  init(): Promise<void> {
-    return this.loadCache();
   }
 
   /**
