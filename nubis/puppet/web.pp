@@ -1,4 +1,7 @@
 class { 'nubis_apache':
+  tags => [
+    'metrics',
+  ],
 }
 
 # Add modules
