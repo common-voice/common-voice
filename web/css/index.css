@@ -478,7 +478,7 @@ header.active {
 
 #help-links {
   height: 6rem;
-  background-color: var(--color-help);
+  background-color: #e7e5e2;
 }
 
 #help-links a {
