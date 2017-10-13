@@ -27,7 +27,10 @@ const config: webpack.Configuration = {
     new CopyWebpackPlugin([{
       from: 'css/index.css',
       to: OUTPUT_PATH }
-    ])
+    ]),
+
+    /** See https://github.com/webpack-contrib/uglifyjs-webpack-plugin/tree/v0.4.6 */
+    new webpack.optimize.UglifyJsPlugin()
   ]
 };
 
