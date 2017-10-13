@@ -9,4 +9,4 @@ before_install:
   - mysql -e "SET PASSWORD FOR 'root'@'localhost' =  PASSWORD('');"
   - npm install -g gulp-cli
 script:
-  - gulp build && gulp test
+  - npm run build && gulp test
