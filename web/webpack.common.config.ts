@@ -5,7 +5,7 @@ import * as ExtractTextPlugin from 'extract-text-webpack-plugin';
 
 const OUTPUT_PATH = path.resolve(__dirname, 'dist');
 
-const config: webpack.Configuration = {
+export const commonConfig: webpack.Configuration = {
   entry: './src/main.ts',
   output: {
     path: OUTPUT_PATH,
@@ -44,12 +44,7 @@ const config: webpack.Configuration = {
       ]
   },
   plugins: [
-    /** See https://github.com/webpack-contrib/uglifyjs-webpack-plugin/tree/v0.4.6 */
-    new webpack.optimize.UglifyJsPlugin(),
-
     /** See https://webpack.js.org/plugins/extract-text-webpack-plugin/ */
     new ExtractTextPlugin('index.css')
   ]
 };
-
-export default config;

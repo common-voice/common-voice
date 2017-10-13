@@ -9,6 +9,7 @@ document.addEventListener('touchstart', function() {}, true);
 document.addEventListener('DOMContentLoaded', async () => {
   let App = require('./lib/app').default;
   let app = new App();
+
   await app.init();
   app.run();
 });

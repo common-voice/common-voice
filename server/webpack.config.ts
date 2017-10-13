@@ -4,6 +4,13 @@ import * as fs from 'fs';
 
 const OUTPUT_PATH = path.resolve(__dirname, 'js');
 
+/**
+ * For backend builds, we want to prevent webpack from bundling dependencies
+ * from node_modules into our output file (since we have access to node_modules
+ * at runtime), so this inserts runtime 'require()' calls using modules.
+ * 
+ * See http://jlongster.com/Backend-Apps-with-Webpack--Part-I
+ */
 const nodeModules: {[mod: string]: string} = {};
 fs.readdirSync(path.resolve(__dirname, '..', 'node_modules'))
   .filter(function(x) {
@@ -12,7 +19,6 @@ fs.readdirSync(path.resolve(__dirname, '..', 'node_modules'))
   .forEach(function(mod) {
     nodeModules[mod] = 'commonjs ' + mod;
   });
-
 
 const config: webpack.Configuration = {
   entry: './src/server.ts',
