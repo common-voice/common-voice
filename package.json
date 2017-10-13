@@ -52,7 +52,6 @@
     "@types/node-static": "^0.7.0",
     "@types/random-js": "^1.0.30",
     "@types/webpack": "^3.0.13",
-    "copy-webpack-plugin": "^4.1.1",
     "css-loader": "^0.28.7",
     "cssnano": "^3.10.0",
     "extract-text-webpack-plugin": "^3.0.1",

@@ -1,7 +1,6 @@
 import * as webpack from 'webpack';
 import * as path from 'path';
 
-import * as CopyWebpackPlugin from 'copy-webpack-plugin';
 import * as ExtractTextPlugin from 'extract-text-webpack-plugin';
 
 const OUTPUT_PATH = path.resolve(__dirname, 'dist');
@@ -45,11 +44,6 @@ const config: webpack.Configuration = {
       ]
   },
   plugins: [
-    // new CopyWebpackPlugin([{
-    //   from: 'css/index.css',
-    //   to: OUTPUT_PATH }
-    // ]),
-
     /** See https://github.com/webpack-contrib/uglifyjs-webpack-plugin/tree/v0.4.6 */
     new webpack.optimize.UglifyJsPlugin(),
 
