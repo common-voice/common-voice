@@ -74,7 +74,9 @@
   },
   "scripts": {
     "build": "npm run build:web",
+    "build:server": "npm run lint:server && npm run compile:server",
     "build:web": "npm run lint:web && npm run compile:web",
+    "compile:server": "cd server/ && webpack --config webpack.config.ts",
     "compile:web": "cd web/ && webpack --config webpack.config.ts",
     "lint:server": "eslint server/**/*.ts",
     "lint:web": "eslint web/**/*.ts",

@@ -5,7 +5,7 @@ import respond from './responder';
 
 import * as simpleGit from 'simple-git/promise';
 
-const PROJECT_PATH = path.resolve(__dirname, '../../../');
+const PROJECT_PATH = path.resolve(__dirname, '../../');
 
 export default class WebHook {
   git: any;

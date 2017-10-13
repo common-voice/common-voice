@@ -2,11 +2,13 @@
   "compileOnSave": true,
   "compilerOptions": {
     "target": "es5",
+    "module": "commonjs",
     "noImplicitAny": true,
     "strictNullChecks": false,
     "noEmitOnError": true,
-    "typeRoots": [ "../node_modules/@types" ],
-    "rootDir": "./src",
     "lib": [ "es6" ]
-  }
+  },
+  "files": [
+    "src/server.ts"
+  ]
 }
