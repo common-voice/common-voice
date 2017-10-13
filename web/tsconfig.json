@@ -2,18 +2,20 @@
   "compileOnSave": true,
   "compilerOptions": {
     "target": "es5",
-    "module": "amd",
+    "module": "commonjs",
     "noImplicitAny": true,
     "noEmitOnError": true,
     "jsx": "react",
     "jsxFactory": "h",
     "lib": ["es2015", "dom"],
-    "outFile": "bundle.js",
     "types": [
       "preact"
     ]
   },
   "files": [
-    "src/**/*"
+    "src/main.ts"
+  ],
+  "include": [
+    "src/*.d.ts"
   ]
 }

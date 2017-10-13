@@ -1,9 +1,9 @@
-declare var define: any;
+// declare var define: any;
 declare var require: any;
 
-define('preact', () => {
-  return preact;
-});
+// define('preact', () => {
+//   return preact;
+// });
 
 // Safari hack to allow :active styles.
 document.addEventListener('touchstart', function() {}, true);
