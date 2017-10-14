@@ -4,15 +4,15 @@ import * as http from 'http';
 import * as path from 'path';
 import { PassThrough } from 'stream';
 import { S3 } from 'aws-sdk';
+import * as ms from 'mediaserver';
+import * as mkdirp from 'mkdirp';
 
 import Bucket from './bucket';
 import { getFileExt } from './utility';
 import respond, { CONTENT_TYPES } from './responder';
 import './aws';
 
-import * as ms from 'mediaserver';
 const ff = require('ff');
-const mkdirp = require('mkdirp');
 const Transcoder = require('stream-transcoder');
 
 const UPLOAD_PATH = path.resolve(__dirname, '../..', 'upload');
