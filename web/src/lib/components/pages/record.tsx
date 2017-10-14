@@ -460,7 +460,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
             <span>Want to review your recording?</span>
           </p>
           <p id="box-headers">
-            <span>Play/Stop</span>
+            <span>Review</span>
             <span>Re-record</span>
           </p>
           {listens}
