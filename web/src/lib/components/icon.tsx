@@ -23,7 +23,7 @@ const ICONS: FontIcons = {
   redo: '',
   play: '',
   pause: '',
-  undo: '',
+  undo: '←',
   check: '',
   x: '',
   github: '',
@@ -31,6 +31,7 @@ const ICONS: FontIcons = {
   chrome: '',
   help: '',
   discourse: '',
+  re_record: '●',
 };
 
 interface Props {

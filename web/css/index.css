@@ -229,6 +229,12 @@ input:invalid {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.re-record-box [data-icon]:before {
+  font-family: sans-serif;
+  font-size: 65px;
+  line-height: 125%;
+}
+
 .strong {
   font-family: var(--strong-font-family);
   font-weight: bold;
@@ -259,21 +265,21 @@ input:invalid {
 }
 
 .play-box,
-.delete-box,
+.re-record-box,
 .vote-box {
   height: var(--listen-box-height);
 }
 
 .sentence-box,
 .play-box,
-.delete-box,
+.re-record-box,
 .vote-box {
   position: relative;
 }
 
 .sentence-box b,
 .play-box b,
-.delete-box b,
+.re-record-box b,
 .vote-box b {
   position: absolute;
   top: -1.3rem;
@@ -283,7 +289,7 @@ input:invalid {
 }
 
 .sentence-box,
-.delete-box,
+.re-record-box,
 .play-box {
   background-color: var(--color-listen);
 }
@@ -308,7 +314,7 @@ input:invalid {
   }
 }
 
-.delete-box,
+.re-record-box,
 .play-box {
   min-width: var(--listen-box-height);
   line-height: var(--listen-box-height);
@@ -317,14 +323,14 @@ input:invalid {
   transition: 100ms;
 }
 
-body:not(.mobile-safari) .delete-box:hover,
-body.mobile-safari .delete-box:active,
+body:not(.mobile-safari) .re-record-box:hover,
+body.mobile-safari .re-record-box:active,
 body:not(.mobile-safari) .play-box:hover,
 body.mobile-safari .play-box:active {
   background-color: var(--color-listen-dark);
 }
 
-.delete-box {
+.re-record-box {
   margin-left: var(--standard-margin);
 }
 
