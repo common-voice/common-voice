@@ -283,7 +283,6 @@ input:invalid {
 }
 
 .sentence-box,
-.delete-box,
 .play-box {
   background-color: var(--color-listen);
 }
@@ -326,6 +325,16 @@ body.mobile-safari .play-box:active {
 
 .delete-box {
   margin-left: var(--standard-margin);
+  border: 1px solid black;
+}
+
+.play-box {
+  border: 1px solid var(--color-listen);
+}
+
+body:not(.mobile-safari) .play-box:hover,
+body.mobile-safari .play-box:active {
+  border-color: var(--color-listen-dark);
 }
 
 .vote-box {
