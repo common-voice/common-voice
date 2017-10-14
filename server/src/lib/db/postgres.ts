@@ -1,4 +1,4 @@
-const pg = require('pg').native;
+import { native, Client, Pool, QueryResult } from 'pg';
 const config = require('../../../../config.json');
 
 type PostgresOptions = {
@@ -23,7 +23,7 @@ const DEFAULTS = {
 };
 
 export default class Postgres {
-  pool: any;
+  pool: Pool;
 
   constructor(options?: PostgresOptions) {
     options = options || Object.create(null);
@@ -43,7 +43,7 @@ export default class Postgres {
         options.idleTimeoutMillis || DEFAULTS.idleTimeoutMillis,
     };
 
-    this.pool = new pg.Pool(pgConfig);
+    this.pool = new Pool(pgConfig);
     this.pool.on('error', this.handleIdleError.bind(this));
   }
 
@@ -51,11 +51,15 @@ export default class Postgres {
     console.error('idle client error', err.message);
   }
 
-  query(text: string, values: any[], callback: Function) {
+  query(
+    text: string,
+    values: any[],
+    callback: (err: Error, result: QueryResult) => void
+  ) {
     return this.pool.query(text, values, callback);
   }
 
-  connect(callback: Function) {
+  connect(callback: (err: Error, client: Client, done: () => void) => void) {
     return this.pool.connect(callback);
   }
 
