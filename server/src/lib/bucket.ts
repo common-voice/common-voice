@@ -6,8 +6,6 @@ import { map } from '../promisify';
 import { getFileExt } from './utility';
 import './aws';
 
-const MemoryStream = require('memorystream');
-
 const KEYS_PER_REQUEST = 1000; // Max is 1000.
 const LOAD_DELAY = 200;
 const MP3_EXT = '.mp3';
