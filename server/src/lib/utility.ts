@@ -1,8 +1,8 @@
 /**
- * Functions to be shared across mutiple modules.
+ * Functions to be shared across multiple modules.
  */
 
-const child = require('child_process');
+import { exec } from 'child_process';
 
 /**
  * Returns the file extension of some path.
@@ -34,7 +34,7 @@ export function getFirstDefined(...options: any[]) {
  */
 export function isLeaderServer(): Promise<boolean> {
   return new Promise((res: Function, rej: Function) => {
-    child.exec(
+    exec(
       'consul-do common-voice $(hostname) && echo success',
       (err: any, stdout: any, stderr: any) => {
         console.log('checkleader', !err, stdout.length, stderr.length);
