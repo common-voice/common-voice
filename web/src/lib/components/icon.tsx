@@ -23,7 +23,7 @@ const ICONS: FontIcons = {
   redo: '',
   play: '',
   pause: '',
-  undo: '',
+  undo: '←',
   check: '',
   x: '',
   github: '',
