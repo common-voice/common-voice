@@ -44,6 +44,7 @@
   --color-speak-light: #FDC6C8;
   --color-listen: #B7D43F;
   --color-listen-dark: #7F9622;
+  --color-sentence: #E7E5E2;
   --color-about: #f8b83e;
   --color-profile: #9D9D9C;
   --color-help: #3DFEFD;
@@ -282,7 +283,6 @@ input:invalid {
   left: 0;
 }
 
-.sentence-box,
 .delete-box,
 .play-box {
   background-color: var(--color-listen);
@@ -298,6 +298,7 @@ input:invalid {
   display: flex;
   align-items: center;
   margin-right: var(--standard-margin);
+  background-color: var(--color-sentence);
 }
 
 @media (max-width: 600px) {
