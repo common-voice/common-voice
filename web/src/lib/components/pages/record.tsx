@@ -454,13 +454,15 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
         </div>
         <div id="voice-submit">
           <p id="thank-you">
-            <span>Thank you!</span>
+            <span>Review &amp; Submit</span>
           </p>
           <p id="want-to-review">
-            <span>Want to review your recording?</span>
+            <span>
+              Thank you for recording! Now review and submit your clips below.
+            </span>
           </p>
           <p id="box-headers">
-            <span>Play/Stop</span>
+            <span>Review</span>
             <span>Re-record</span>
           </p>
           {listens}

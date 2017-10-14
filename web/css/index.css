@@ -44,6 +44,7 @@
   --color-speak-light: #FDC6C8;
   --color-listen: #B7D43F;
   --color-listen-dark: #7F9622;
+  --color-sentence: #E7E5E2;
   --color-about: #f8b83e;
   --color-profile: #9D9D9C;
   --color-help: #3DFEFD;
@@ -282,7 +283,6 @@ input:invalid {
   left: 0;
 }
 
-.sentence-box,
 .play-box {
   background-color: var(--color-listen);
 }
@@ -297,6 +297,7 @@ input:invalid {
   display: flex;
   align-items: center;
   margin-right: var(--standard-margin);
+  background-color: var(--color-sentence);
 }
 
 @media (max-width: 600px) {
@@ -986,13 +987,13 @@ body.mobile-safari:not(.ios) #install-app.hide {
 .record .robot.thanks {
   /*transform: translate(-7.5rem,4rem) rotate(-22deg);*/
   /*transform: translate(5rem,1rem) scale(0.3);*/
-  transform: translate(13rem,-7px) scale(.3) rotate(8deg);
+  transform: translate(16rem,-7px) scale(.3) rotate(8deg);
   transition-delay: 0s;
 }
 
 @media (max-width: 600px) {
   .record .robot.thanks {
-    transform: translate(11rem,-1.5rem) rotate(17deg) scale(0.5);
+    transform: translate(14rem,-2rem) rotate(17deg) scale(0.5);
   }
 }
 
@@ -1190,17 +1191,7 @@ body:not(.mobile-safari) .robot .bubble:hover {
 }
 
 #try-it-container {
-  margin: 2rem 0;
-}
-
-#help-home {
-  font-weight: bold;
-  padding: 0.5rem 0;
-  font-size: 1.2rem;
-}
-
-#help-home span {
-  color: var(--color-listen);
+  margin: 2.5rem 0;
 }
 
 #home-container .validator {

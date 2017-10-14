@@ -60,10 +60,7 @@ export default class Home extends Component<Props, void> {
           </div>
         </div>
         <div id="try-it-container">
-          <h1>Try it!</h1>
-          <p id="help-home" class="strong">
-            Help us validate&nbsp;<span>sentences.</span>
-          </p>
+          <h1>Help us validate sentences.</h1>
           <Validator onVote={this.onVote} api={this.props.api} />
         </div>
       </div>
