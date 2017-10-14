@@ -3,7 +3,7 @@ import * as path from 'path';
 
 import respond from './responder';
 
-const SimpleGit = require('simple-git');
+import * as simpleGit from 'simple-git/promise';
 
 const PROJECT_PATH = path.resolve(__dirname, '../../../');
 
@@ -11,7 +11,7 @@ export default class WebHook {
   git: any;
 
   constructor() {
-    this.git = new SimpleGit(PROJECT_PATH);
+    this.git = simpleGit(PROJECT_PATH);
   }
 
   private concat(request: http.IncomingMessage, callback: Function): void {
