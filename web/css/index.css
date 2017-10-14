@@ -328,6 +328,12 @@ body.mobile-safari .play-box:active {
   border: 1px solid black;
 }
 
+body:not(.mobile-safari) .delete-box:hover,
+body.mobile-safari .delete-box:active {
+  background-color: black;
+  color: white;
+}
+
 .play-box {
   border: 1px solid var(--color-listen);
 }
