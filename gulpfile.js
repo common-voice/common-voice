@@ -9,6 +9,7 @@ const DIR_CLIENT = CWD + 'web/';
 const DIR_CLIENT_SRC = DIR_CLIENT + 'src/';
 const DIR_SERVER = CWD + 'server/';
 const DIR_SERVER_SRC = DIR_SERVER + 'src/';
+const DIR_SERVER_DEFS = DIR_SERVER + '@types/';
 const DIR_UPLOAD = DIR_SERVER + 'upload/';
 const DIR_SERVER_JS = DIR_SERVER + 'js/';
 const DIR_DIST = DIR_CLIENT + 'dist/';
@@ -18,6 +19,7 @@ const PATH_CSS = DIR_CLIENT + 'css/*.css';
 const PATH_TS = DIR_CLIENT_SRC + TS_GLOB;
 const PATH_TS_CONFIG = DIR_CLIENT + TS_CONFIG;
 const PATH_TS_SERVER = DIR_SERVER_SRC + TS_GLOB;
+const PATH_TS_DEFS_SERVER = DIR_SERVER_DEFS + TS_GLOB;
 const PATH_TS_CONFIG_SERVER = DIR_SERVER + TS_CONFIG;
 const PATH_VENDOR = DIR_CLIENT + 'vendor/';
 const SERVER_SCRIPT = './server/js/server.js'
@@ -93,7 +95,7 @@ function compileClient() {
 }
 
 function compileServer() {
-  return compile(PATH_TS_CONFIG_SERVER, PATH_TS_SERVER)
+  return compile(PATH_TS_CONFIG_SERVER, [PATH_TS_SERVER, PATH_TS_DEFS_SERVER])
     .pipe(gulp.dest(DIR_SERVER_JS));
 }
 

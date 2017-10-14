@@ -10,7 +10,7 @@ import { getFileExt } from './utility';
 import respond, { CONTENT_TYPES } from './responder';
 import './aws';
 
-const ms = require('mediaserver');
+import * as ms from 'mediaserver';
 const ff = require('ff');
 const mkdirp = require('mkdirp');
 const Transcoder = require('stream-transcoder');
