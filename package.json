@@ -38,6 +38,7 @@
   },
   "devDependencies": {
     "@types/node": "7.0.29",
+    "@types/node-static": "^0.7.0",
     "@types/random-js": "^1.0.30",
     "cssnano": "^3.10.0",
     "gulp-nodemon": "2.2.1",
