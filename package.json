@@ -37,6 +37,7 @@
     "walk": "^2.3.9"
   },
   "devDependencies": {
+    "@types/mysql": "0.0.34",
     "@types/node": "7.0.29",
     "@types/node-static": "^0.7.0",
     "@types/pg": "^7.1.4",
