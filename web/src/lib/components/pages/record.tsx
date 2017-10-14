@@ -351,7 +351,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
   private async newSentenceSet() {
     // If we don't have enough sentences in our cache, fill it before continuing.
-    while (!this.areSentencesLoaded()) {
+    while (!this.areSentencesLoaded) {
       console.error('slow path for getting new sentences');
       await sleep(RETRY_TIMEOUT);
       await this.refillSentenceCache();
@@ -366,7 +366,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     }
   }
 
-  areSentencesLoaded() {
+  private get areSentencesLoaded(): boolean {
     return this.sentenceCache.length >= SET_COUNT;
   }
 
@@ -432,7 +432,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       progress += 100 / SET_COUNT * 1;
     }
 
-    const controlElements = this.areSentencesLoaded()
+    const controlElements = this.areSentencesLoaded
       ? [
           <div
             id="record-button"
