@@ -31,6 +31,7 @@ const ICONS: FontIcons = {
   chrome: '',
   help: '',
   discourse: '',
+  re_record: '●',
 };
 
 interface Props {
