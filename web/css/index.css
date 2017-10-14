@@ -972,13 +972,13 @@ body.mobile-safari:not(.ios) #install-app.hide {
 .record .robot.thanks {
   /*transform: translate(-7.5rem,4rem) rotate(-22deg);*/
   /*transform: translate(5rem,1rem) scale(0.3);*/
-  transform: translate(13rem,-7px) scale(.3) rotate(8deg);
+  transform: translate(16rem,-7px) scale(.3) rotate(8deg);
   transition-delay: 0s;
 }
 
 @media (max-width: 600px) {
   .record .robot.thanks {
-    transform: translate(11rem,-1.5rem) rotate(17deg) scale(0.5);
+    transform: translate(14rem,-2rem) rotate(17deg) scale(0.5);
   }
 }
 
