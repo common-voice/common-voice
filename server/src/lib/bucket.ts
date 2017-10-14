@@ -1,10 +1,10 @@
 import * as path from 'path';
+import * as Random from 'random-js';
 
 import { map } from '../promisify';
 import { getFileExt } from './utility';
 
 const MemoryStream = require('memorystream');
-const Random = require('random-js');
 const AWS = require('./aws');
 
 const KEYS_PER_REQUEST = 1000; // Max is 1000.
