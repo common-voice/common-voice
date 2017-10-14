@@ -1,6 +1,23 @@
 import { h, Component } from 'preact';
 
-const ICONS = {
+interface FontIcons {
+  [key: string]: string;
+  bullhorn: string;
+  hamburger: string;
+  redo: string;
+  play: string;
+  pause: string;
+  undo: string;
+  check: string;
+  x: string;
+  github: string;
+  firefox: string;
+  chrome: string;
+  help: string;
+  discourse: string;
+}
+
+const ICONS: FontIcons = {
   bullhorn: '',
   hamburger: '',
   redo: '',
@@ -12,8 +29,9 @@ const ICONS = {
   github: '',
   firefox: '',
   chrome: '',
-  help: ''
-}
+  help: '',
+  discourse: '',
+};
 
 interface Props {
   type: string;
@@ -27,14 +45,19 @@ interface Props {
  */
 export default class Icon extends Component<Props, void> {
   getIcon(name: string): string {
-    return ICONS[name] || '';
+    return ICONS[name];
   }
 
   render() {
     let icon = this.getIcon(this.props.type);
-    return <span onClick={this.props.onClick} id={this.props.id}
-                 className={this.props.className} aria-hidden="true"
-                 data-icon={icon}>
-           </span>;
+    return (
+      <span
+        onClick={this.props.onClick}
+        id={this.props.id}
+        className={this.props.className}
+        aria-hidden="true"
+        data-icon={icon}
+      />
+    );
   }
 }

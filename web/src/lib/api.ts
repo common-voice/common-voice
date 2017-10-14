@@ -7,6 +7,12 @@ export interface Clip {
   sentence: string;
 }
 
+export interface ClipJson {
+  glob: string;
+  text: string;
+  sound: string;
+}
+
 /**
  * Handles any ajax and web 2.0 server ninjas.
  */
@@ -42,27 +48,27 @@ export default class API {
       }
 
       req.onload = () => {
-        res(req);
-      };
-      req.onerror = (err: ErrorEvent) => {
-        rej(err);
+        if (req.status === 200) {
+          res(req);
+        } else {
+          rej(req);
+        }
       };
 
       req.send(options.body || '');
     });
   }
 
-  private fetchText(path: string, options?: any): Promise<any> {
-    return this.fetch(path, options).then((req: XMLHttpRequest) => {
-      return req.responseText;
-    });
+  private async fetchText(path: string): Promise<any> {
+    const req = await this.fetch(path, { responseType: 'text' });
+    return req.responseText;
   }
 
-  private requestResourceText(resource): Promise<string> {
+  private requestResourceText(resource: string): Promise<string> {
     return this.fetchText(this.getPath(resource));
   }
 
-  private requestResource(resource): Promise<string> {
+  private requestResource(resource: string): Promise<string> {
     return this.fetch(this.getPath(resource));
   }
 
@@ -70,26 +76,48 @@ export default class API {
     return API.DEFAULT_BASE + resource;
   }
 
-  getRandomSentences(count?: number): Promise<string> {
-    return this.requestResourceText('sentence' + (count ? '/' + count : ''));
+  async getRandomSentences(count?: number): Promise<string[]> {
+    const sentencesText = await this.requestResourceText(
+      'sentence' + (count ? '/' + count : '')
+    );
+    return sentencesText.split('\n');
+  }
+
+  getTextFromUrl(url: string): Promise<string> {
+    return this.fetchText(url);
   }
 
   /**
    * Ask the server for a clip
    */
-  getRandomClip(): Promise<Clip> {
-    return this.fetch('upload/random/', { responseType: 'blob', headers: {'uid': this.user.getId()}})
-      .then((req: XMLHttpRequest) => {
-        let src = window.URL.createObjectURL(req.response);
-        let glob = decodeURIComponent(req.getResponseHeader('glob'));
-        let sentence = decodeURIComponent(req.getResponseHeader('sentence'));
-        return Promise.resolve({ glob: glob, audio: src, sentence: sentence });
-      });
+  async getRandomClip(): Promise<Clip> {
+    const req = await this.fetch('upload/random/', {
+      responseType: 'blob',
+      headers: { uid: this.user.getId() },
+    });
+    let src = window.URL.createObjectURL(req.response);
+    let glob = decodeURIComponent(req.getResponseHeader('glob'));
+    let sentence = decodeURIComponent(req.getResponseHeader('sentence'));
+    return { glob: glob, audio: src, sentence: sentence };
+  }
+
+  /**
+   * Ask the server for a clip
+   */
+  async getRandomClipJson(): Promise<ClipJson> {
+    const req = await this.fetch('upload/random.json', {
+      responseType: 'json',
+      headers: { uid: this.user.getId() },
+    });
+
+    let response = req.response as ClipJson;
+    return response;
   }
 
   castVote(glob: string, vote: boolean): Promise<Event> {
     return new Promise((resolve: EventListener, reject: EventListener) => {
       var req = new XMLHttpRequest();
+      req.responseType = 'text';
       req.upload.addEventListener('load', resolve);
       req.upload.addEventListener('error', reject);
       req.open('POST', API.CLIP_VOTE_URL);
@@ -112,22 +140,25 @@ export default class API {
       let demographicInfo = {
         accent: this.user.getState().accent,
         age: this.user.getState().age,
-        gender: this.user.getState().gender
+        gender: this.user.getState().gender,
       };
       req.setRequestHeader('demographic', JSON.stringify(demographicInfo));
       req.send(demographicInfo);
     });
   }
 
-  uploadAudio(blob: Blob, sentence: string, progress?: Function): Promise<Event> {
+  uploadAudio(
+    blob: Blob,
+    sentence: string,
+    progress?: Function
+  ): Promise<Event> {
     return new Promise((resolve: EventListener, reject: EventListener) => {
       var req = new XMLHttpRequest();
       req.upload.addEventListener('load', resolve);
       req.upload.addEventListener('error', reject);
       req.open('POST', API.SOUNDCLIP_URL);
       req.setRequestHeader('uid', this.user.getId());
-      req.setRequestHeader('sentence',
-        encodeURIComponent(sentence));
+      req.setRequestHeader('sentence', encodeURIComponent(sentence));
 
       // For IOS, we don't upload binary data but base64. Here we
       // make sure the server knows what to expect.

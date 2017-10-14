@@ -2,17 +2,19 @@ import { h, render } from 'preact';
 import User from './user';
 import API from './api';
 import Pages from './components/pages';
-import { isFocus, isNativeIOS } from './utility';
+import { isMobileSafari, isFocus, isNativeIOS } from './utility';
 import DebugBox from './components/debug-box';
 
 const LOAD_DELAY = 500; // before pulling the curtain
+const LOAD_TIMEOUT = 5000; // we can only wait so long.
 
 /**
  * Preload these images before revealing contents.
  * TODO: right now we load all images, which is unnecessary.
  */
 const PRELOAD = [
-  '/img/mozilla.svg',
+  '/img/cv-logo-bw.svg',
+  '/img/cv-logo-one-color-white.svg',
   '/img/robot-greetings.png',
   '/img/robot-listening.png',
   '/img/robot-thanks.png',
@@ -25,7 +27,7 @@ const PRELOAD = [
   '/img/wave-blue-mobile.png',
   '/img/wave-red-large.png',
   '/img/wave-red-mobile.png',
-  '/img/circle.png'
+  '/img/circle.png',
 ];
 
 /**
@@ -33,7 +35,6 @@ const PRELOAD = [
  * controllers.
  */
 export default class App {
-
   box: DebugBox;
   user: User;
   api: API;
@@ -52,6 +53,10 @@ export default class App {
 
     if (isFocus()) {
       document.body.classList.add('focus');
+    }
+
+    if (isMobileSafari()) {
+      document.body.classList.add('mobile-safari');
     }
 
     this.user = new User();
@@ -76,7 +81,6 @@ export default class App {
         }
 
         progressCallback(loadedSoFar / PRELOAD.length);
-
       };
       for (let i = 0; i < PRELOAD.length; i++) {
         let image = new Image();
@@ -95,7 +99,7 @@ export default class App {
    */
   private bootstrapIOS() {
     document.body.classList.add('ios');
-    //this.renderDebugBox();
+    // this.renderDebugBox();
   }
 
   /**
@@ -107,7 +111,13 @@ export default class App {
     }
     let link = document.createElement('a');
     link.href = href;
-    return link.pathname;
+
+    // Workaround for IE bug where pathname was not prefixed by '/'
+    const pathname = link.pathname;
+    if (pathname.indexOf('/') !== 0) {
+      return '/' + pathname;
+    }
+    return pathname;
   }
 
   /**
@@ -127,39 +137,55 @@ export default class App {
     if (!this.loaded) {
       render(
         <div id="spinner">
-          <span ref={(el) => {
-            if (this.progressMeter) {
-              return;
-            }
+          <span
+            ref={el => {
+              if (this.progressMeter) {
+                return;
+              }
 
-            this.progressMeter = el as HTMLSpanElement; }} />
-        </div>, document.body, document.body.firstElementChild);
+              this.progressMeter = el as HTMLSpanElement;
+            }}
+          />
+        </div>,
+        document.body,
+        document.body.firstElementChild
+      );
       return;
     }
 
     // Render the main controller, Pages.
-    render((
-      <Pages user={this.user}
-             api={this.api}
-             navigate={this.handleNavigation}
-             currentPage={this.getPageName()} />
-    ), document.body, document.body.firstElementChild);
+    render(
+      <Pages
+        user={this.user}
+        api={this.api}
+        navigate={this.handleNavigation}
+        currentPage={this.getPageName()}
+      />,
+      document.body,
+      document.body.firstElementChild
+    );
   }
 
-  init(): Promise<void> {
-    return this.loadImages(progress => {
+  async init(): Promise<void> {
+    // Always force page to be ready after a specified time.
+    setTimeout(() => {
+      this.loaded = true;
+      document.body.classList.add('loaded');
+    }, LOAD_TIMEOUT);
+
+    await this.loadImages((progress: number) => {
       if (this.progressMeter) {
         // TODO: find something performant here. (ie not this)
         // let whatsLeft = 1 - progress;
         // this.progressMeter.style.cssText =
         //   `transform: scale(${whatsLeft});`;
       }
-    }).then(() => {
-      this.loaded = true;
-      setTimeout(() => {
-        document.body.classList.add('loaded');
-      }, LOAD_DELAY);
     });
+
+    this.loaded = true;
+    setTimeout(() => {
+      document.body.classList.add('loaded');
+    }, LOAD_DELAY);
   }
 
   /**

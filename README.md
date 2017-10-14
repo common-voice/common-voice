@@ -1,22 +1,20 @@
-## Project Common Voice ![Travis Status](https://travis-ci.org/mozilla/voice-web.svg?branch=master "Travis Status")
-This is a web, android and ios app for collection speech
-donations for Project Common Voice.
+## Common Voice [![Travis Status](https://travis-ci.org/mozilla/voice-web.svg?branch=master)](https://travis-ci.org/mozilla/voice-web)
+This is a web, android and iOS app for collecting speech
+donations for the Common Voice project.
 
-### Development
-```
-npm install
-npm install -g gulp
-gulp
-```
-This will:
-1. Install all dependencies, and Mysql
-1. Serve files located in the `client` folder on localhost
-1. Listen for and save voice clips into the `server/upload` folder
-1. Lint all js files on every change
+### Official Website
+[voice.mozilla.org](https://voice.mozilla.org)
 
-### Help
+### Contributing
+From writing and reading sentences to enhancing our front-end architecture, there are many ways to get involved with Common Voice. For more information, check out [CONTRIBUTING.md](./CONTRIBUTING.md).
 
-For more options type:
-```
-gulp help
-```
+### Discussion
+For general discussion (feedback, ideas, random musings), head to our [Discourse Category](https://discourse.mozilla-community.org/c/voice).
+
+For technical problems or suggestions, please use the [GitHub issue tracker](https://github.com/mozilla/voice-web/issues).
+
+You can also chat on our IRC channel. Check [Mozilla IRC](https://wiki.mozilla.org/IRC) for instructions on how to set up your IRC client.  
+Hostname: `irc.mozilla.org`  
+Port: `6697` (or `8843` if your ISP blocks that port)  
+SSL: Yes  
+Channel: `#common-voice`

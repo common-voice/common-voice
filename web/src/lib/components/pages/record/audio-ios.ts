@@ -3,13 +3,17 @@ import { isNativeIOS } from '../../../utility';
 import { AudioInfo } from './audio-web';
 import confirm from '../../confirm';
 
-declare var webkit;
-declare var vcopensettings;
+const LEVELS_THROTTLE = 50;
+
+declare var webkit: any;
+declare var vcopensettings: any;
 
 export default class AudioIOS {
   postMessage: Function;
   pendingStart: Function;
   pendingStartError: Function;
+  volumeCallback: Function;
+  lastUpdate: number;
 
   static AUDIO_TYPE: string = 'audio/m4a;base64';
   last: AudioInfo;
@@ -23,18 +27,25 @@ export default class AudioIOS {
     return true;
   }
 
+  isAudioRecordingSupported() {
+    return true;
+  }
+
   // For audio src URL, we need to trick webkit into
   // thinking this is an mp4 base64 encoding.
   static AUDIO_TYPE_URL: string = 'audio/mp4;base64';
 
   private handleNativeMessage(msg: string): void {
     if (msg === 'nomicpermission') {
-      confirm('Please allow microphone access to record your voice.',
-        'Go to Settings', 'Cancel').then((gotoSettings) => {
-          if (gotoSettings) {
-            vcopensettings();
-          }
-        });
+      confirm(
+        'Please allow microphone access to record your voice.',
+        'Go to Settings',
+        'Cancel'
+      ).then(gotoSettings => {
+        if (gotoSettings) {
+          vcopensettings();
+        }
+      });
     } else if (msg === 'capturestarted') {
       if (this.pendingStart) {
         let cb = this.pendingStart;
@@ -60,9 +71,21 @@ export default class AudioIOS {
       throw new Error('cannot use ios audio in web app');
     }
 
-    // Native will call this function with audio info,
-    // but we are not yet interested.
-    window['levels'] = () => {};
+    // Native will call this function with decibels from -120 to 0.
+    this.lastUpdate = Date.now();
+    window['levels'] = (decibels: string) => {
+      if (!this.volumeCallback) {
+        return;
+      }
+
+      let now = Date.now();
+      if (now - this.lastUpdate > LEVELS_THROTTLE) {
+        this.lastUpdate = now;
+        // Scale and shift to get a nice sound curve.
+        let volume = (parseInt(decibels, 10) + 70) * 1.5;
+        this.volumeCallback(volume);
+      }
+    };
 
     // Handle any messages coming from native.
     window['nativemsgs'] = this.handleNativeMessage.bind(this);
@@ -77,6 +100,10 @@ export default class AudioIOS {
 
   init() {
     return Promise.resolve();
+  }
+
+  setVolumeCallback(cb: Function) {
+    this.volumeCallback = cb;
   }
 
   start(): Promise<void> {
@@ -96,8 +123,8 @@ export default class AudioIOS {
         this.last = {
           url: 'data:' + AudioIOS.AUDIO_TYPE_URL + ',' + data,
           blob: new Blob([data], {
-            type: AudioIOS.AUDIO_TYPE
-          })
+            type: AudioIOS.AUDIO_TYPE,
+          }),
         };
         res(this.last);
       };
@@ -109,6 +136,6 @@ export default class AudioIOS {
   // We aren't using this for now, but this performs better
   // than the base64 url for obvious reasons.
   play(): void {
-    this.postMessage("playCapture");
+    this.postMessage('playCapture');
   }
 }

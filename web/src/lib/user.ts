@@ -1,44 +1,89 @@
 import { generateGUID } from './utility';
+import Tracker from './tracker';
 
 const USER_KEY = 'userdata';
 
-export const ACCENTS = {
+interface UserAccents {
+  [key: string]: string;
+  '': string;
+  us: string;
+  australia: string;
+  england: string;
+  canada: string;
+  philippines: string;
+  hongkong: string;
+  indian: string;
+  ireland: string;
+  malaysia: string;
+  newzealand: string;
+  scotland: string;
+  singapore: string;
+  southatlandtic: string;
+  african: string;
+  wales: string;
+  bermuda: string;
+}
+
+export const ACCENTS: UserAccents = {
   '': '--',
-  'us': 'United States English',
-  'england': 'British English',
-  'scotland': 'Scottish English',
-  'wales': 'Welsh English',
-  'ireland': 'Irish English',
-  'canada': 'Canadian English',
-  'bermuda': 'West Indies and Bermuda (Bahamas, Bermuda, Jamaica, Trinidad)',
-  'australia': 'Australian English',
-  'newzealand': 'New Zealand English',
-  'southatlandtic': 'South Atlantic (Falkland Islands, Saint Helena)',
-  'african': 'Southern African (South Africa, Zimbabwe, Namibia)',
-  'philippines': 'Philippino',
-  'hongkong': 'Hong Kong English',
-  'malaysia': 'Malaysian English',
-  'singapore': 'Singaporian English',
+  us: 'United States English',
+  australia: 'Australian English',
+  england: 'England English',
+  canada: 'Canadian English',
+  philippines: 'Filipino',
+  hongkong: 'Hong Kong English',
+  indian: 'India and South Asia (India, Pakistan, Sri Lanka)',
+  ireland: 'Irish English',
+  malaysia: 'Malaysian English',
+  newzealand: 'New Zealand English',
+  scotland: 'Scottish English',
+  singapore: 'Singaporean English',
+  southatlandtic: 'South Atlantic (Falkland Islands, Saint Helena)',
+  african: 'Southern African (South Africa, Zimbabwe, Namibia)',
+  wales: 'Welsh English',
+  bermuda: 'West Indies and Bermuda (Bahamas, Bermuda, Jamaica, Trinidad)',
 };
 
-export const AGES = {
+interface UserAges {
+  [key: string]: string;
+  '': string;
+  teens: string;
+  twenties: string;
+  thirties: string;
+  fourties: string;
+  fifties: string;
+  sixties: string;
+  seventies: string;
+  eighties: string;
+  nineties: string;
+}
+
+export const AGES: UserAges = {
   '': '--',
-  'teens': '< 19',
-  'twenties': '19 - 29',
-  'thirties': '30 - 39',
-  'fourties': '40 - 49',
-  'fifties': '50 - 59',
-  'sixties': '60 - 69',
-  'seventies': '70 - 79',
-  'eighties': '80 - 89',
-  'nineties': '> 89',
+  teens: '< 19',
+  twenties: '19 - 29',
+  thirties: '30 - 39',
+  fourties: '40 - 49',
+  fifties: '50 - 59',
+  sixties: '60 - 69',
+  seventies: '70 - 79',
+  eighties: '80 - 89',
+  nineties: '> 89',
 };
 
-export const GENDER = {
+interface UserGender {
+  [key: string]: string;
+  '': '--';
+  male: 'Male';
+  female: 'Female';
+  other: 'Other';
+}
+
+export const GENDER: UserGender = {
   '': '--',
-  'male': 'Male',
-  'female': 'Female',
-  'other': 'Other'
+  male: 'Male',
+  female: 'Female',
+  other: 'Other',
 };
 
 interface UserState {
@@ -59,10 +104,11 @@ interface UserState {
  * User tracking
  */
 export default class User {
-
   state: UserState;
+  tracker: Tracker;
 
   constructor() {
+    this.tracker = new Tracker();
     this.restore();
   }
 
@@ -86,7 +132,7 @@ export default class User {
         clips: 0,
         privacyAgreed: false,
         recordTally: 0,
-        validateTally: 0
+        validateTally: 0,
       };
       this.save();
     }
@@ -107,6 +153,7 @@ export default class User {
   public setEmail(email: string): void {
     this.state.email = email;
     this.save();
+    this.tracker.trackGiveEmail();
   }
 
   public setSendEmails(value: boolean): void {
@@ -122,6 +169,7 @@ export default class User {
 
     this.state.accent = accent;
     this.save();
+    this.tracker.trackGiveAccent();
   }
 
   public setAge(age: string): void {
@@ -132,6 +180,7 @@ export default class User {
 
     this.state.age = age;
     this.save();
+    this.tracker.trackGiveAge();
   }
 
   public setGender(gender: string): void {
@@ -142,6 +191,7 @@ export default class User {
 
     this.state.gender = gender;
     this.save();
+    this.tracker.trackGiveGender();
   }
 
   public getState(): UserState {
@@ -159,16 +209,13 @@ export default class User {
 
   public tallyRecording() {
     this.state.recordTally = this.state.recordTally || 0;
-    this.state.recordTally++
+    this.state.recordTally++;
     this.save();
   }
 
   public tallyVerification() {
     this.state.validateTally = this.state.validateTally || 0;
-    this.state.validateTally++
+    this.state.validateTally++;
     this.save();
-  }
-
-  public onUpdate(callback: Function): void {
   }
 }

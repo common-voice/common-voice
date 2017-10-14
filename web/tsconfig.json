@@ -1,8 +1,9 @@
 {
+  "compileOnSave": true,
   "compilerOptions": {
     "target": "es5",
     "module": "amd",
-    "noImplicitAny": false,
+    "noImplicitAny": true,
     "noEmitOnError": true,
     "jsx": "react",
     "jsxFactory": "h",

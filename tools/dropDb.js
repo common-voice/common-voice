@@ -2,8 +2,8 @@ const ff = require('ff');
 const config = require('../config.json');
 const Mysql = require('../server/js/lib/db/mysql').default;
 
-const DBNAME = '' || config.MSQLDBNAME;
-const USERNAME = '' || config.MSQLUSER;
+const DBNAME = '' || config.MYSQLDBNAME;
+const USERNAME = '' || config.MYSQLUSER;
 
 /**
  * Drop the database.

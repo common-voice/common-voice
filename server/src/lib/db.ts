@@ -18,9 +18,14 @@ export default class DB {
   }
 
   createAll() {
-    return this.user.create()
-        .then(() =>{return this.badges.create()})
-        .then(() =>{return this.progress.create()})
+    return this.user
+      .create()
+      .then(() => {
+        return this.badges.create();
+      })
+      .then(() => {
+        return this.progress.create();
+      });
   }
 
   end() {

@@ -2,9 +2,11 @@ node_modules
 web/dist/
 server/js/
 server/upload/
+xcuserdata/
 .ignore/
 .DS_Store
 .vscode/
+.idea
 
 # Nubis
 nubis/librarian-puppet.tar.gz

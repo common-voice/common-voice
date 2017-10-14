@@ -1,6 +1,10 @@
 import { h, Component } from 'preact';
 import ListenBox from './listen-box';
-import { Clip, default as API } from '../api';
+import { ClipJson, default as API } from '../api';
+
+const LOADING_MESSAGE = 'Loading...';
+const LOAD_ERROR_MESSAGE =
+  'Sorry! We are processing our audio files, please try again shortly.';
 
 interface Props {
   api: API;
@@ -8,43 +12,68 @@ interface Props {
 }
 
 interface State {
-  clip: Clip
+  loading: boolean;
+  glob: string;
+  sentence: string;
+  audioSrc: string;
 }
 
 /**
  * Widget for validating voice clips.
  */
 export default class Validator extends Component<Props, State> {
-
-  constructor(props) {
+  constructor(props: Props) {
     super(props);
     this.onVote = this.onVote.bind(this);
     this.loadClip = this.loadClip.bind(this);
     this.loadClip();
   }
 
-  private onVote(vote: boolean) {
-    this.props.api.castVote(this.state.clip.glob, vote).then(() => {
+  private async onVote(vote: boolean) {
+    try {
+      await this.props.api.castVote(this.state.glob, vote);
       this.props.onVote && this.props.onVote(vote);
       this.loadClip();
-    }).catch((err) => {
+    } catch (err) {
       console.error('could not vote on clip from validator', err);
-    });
+    }
   }
 
-  private loadClip() {
-    this.props.api.getRandomClip().then((clip) => {
-      this.setState({ clip: clip });
-    }, (err) => {
+  private async loadClip() {
+    this.setState({ loading: true });
+    try {
+      const clipJson = await this.props.api.getRandomClipJson();
+      this.setState({
+        loading: false,
+        glob: clipJson.glob,
+        sentence: decodeURIComponent(clipJson.text),
+        audioSrc: clipJson.sound,
+      });
+    } catch (err) {
       console.error('could not fetch random clip for validator', err);
-    });
+      this.setState({ loading: false, sentence: null, audioSrc: null });
+    }
   }
 
   render() {
-    return <div class="validator">
-      <ListenBox src={this.state.clip && this.state.clip.audio}
-                 sentence={this.state.clip && this.state.clip.sentence}
-                 onVote={this.onVote} vote="true" />
-    </div>;
+    let sentence;
+    if (this.state.loading) {
+      sentence = LOADING_MESSAGE;
+    } else if (this.state.sentence) {
+      sentence = this.state.sentence;
+    } else {
+      sentence = LOAD_ERROR_MESSAGE;
+    }
+
+    return (
+      <div class="validator">
+        <ListenBox
+          src={this.state.audioSrc}
+          sentence={sentence}
+          onVote={this.onVote}
+          vote="true"
+        />
+      </div>
+    );
   }
 }

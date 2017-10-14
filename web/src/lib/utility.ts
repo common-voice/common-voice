@@ -3,11 +3,12 @@
  */
 
 /**
- * Get some random string in a certain format.
+ * Generate RFC4122 compliant globally unique identifier.
  */
 export function generateGUID(): string {
-  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
-    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+    var r = (Math.random() * 16) | 0,
+      v = c == 'x' ? r : (r & 0x3) | 0x8;
     return v.toString(16);
   });
 }
@@ -15,8 +16,8 @@ export function generateGUID(): string {
 /**
  * Capitalize first letter for nice display.
  */
-export function capitalizeFirstLetter(string) {
-  return string.charAt(0).toUpperCase() + string.slice(1);
+export function capitalizeFirstLetter(str: string) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
 /**
@@ -34,10 +35,42 @@ export function countSyllables(text: string): number {
  * Test if we are running in the iOS native app wrapper.
  */
 export function isNativeIOS(): boolean {
-  return window['webkit'] && webkit.messageHandlers &&
-         webkit.messageHandlers.scriptHandler;
+  return (
+    window['webkit'] &&
+    webkit.messageHandlers &&
+    webkit.messageHandlers.scriptHandler
+  );
 }
 
 export function isFocus(): boolean {
   return navigator.userAgent.indexOf('Focus') !== -1;
+}
+
+/**
+ * Check whether the browser is mobile Safari (i.e. on iOS).
+ * 
+ * The logic is collected from answers to this SO question: https://stackoverflow.com/q/3007480
+ */
+export function isMobileSafari(): boolean {
+  const userAgent = window.navigator.userAgent;
+  const isIOS = /(iPod|iPhone|iPad)/i.test(userAgent);
+  const isWebkit = /AppleWebKit/i.test(userAgent);
+  const isIOSSafari =
+    isIOS && isWebkit && !/(Chrome|CriOS|OPiOS)/.test(userAgent);
+  return isIOSSafari;
+}
+
+export function isProduction(): boolean {
+  return window.location.origin === 'https://voice.mozilla.org';
+}
+
+export function getItunesURL(): string {
+  return 'https://itunes.apple.com/us/app/project-common-voice-by-mozilla/id1240588326';
+}
+
+/**
+ * Returns a promise that resolves after ms.
+ */
+export function sleep(ms: number): Promise<void> {
+  return new Promise(resolve => setTimeout(resolve, ms));
 }

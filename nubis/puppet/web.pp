@@ -1,4 +1,7 @@
 class { 'nubis_apache':
+  tags => [
+    'metrics',
+  ],
 }
 
 # Add modules
@@ -9,7 +12,7 @@ class { 'apache::mod::proxy_http': }
 apache::vhost { $project_name:
     port               => 80,
     default_vhost      => true,
-    docroot            => '/var/www/html',
+    docroot            => "/var/www/${project_name}/web",
     docroot_owner      => 'root',
     docroot_group      => 'root',
     block              => ['scm'],
@@ -20,12 +23,47 @@ apache::vhost { $project_name:
     ],
     access_log_env_var => '!internal',
     access_log_format  => '%a %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-agent}i\"',
+
+    directories        => [
+      {
+        path            => "/var/www/${project_name}/web",
+        custom_fragment => "
+    # Handle and compress font files
+    AddType application/x-font-ttf        .ttf
+    AddOutputFilterByType DEFLATE application/x-font-ttf
+
+    # Deflate JavaScript
+    AddOutputFilterByType DEFLATE text/javascript
+
+    # Sane expires defaults
+    ExpiresActive On
+    ExpiresDefault none
+
+    # Assets
+    ExpiresByType image/*  'now plus 30 minutes'
+    ExpiresByType text/css 'now plus 30 minutes'
+
+    # Fonts
+    ExpiresByType application/x-font-ttf 'now plus 6 hours'
+      ",
+      }
+    ],
+
+
     custom_fragment    => "
 
     # Don't set default expiry on anything
     ExpiresActive Off
 
     # Proxy to nodejs ( keep retrying on backend failures )
+    ProxyPass /server-status !
+
+    # Handle static content ourselves
+    ProxyPass /dist/bundle.js !
+    ProxyPass /dist/index.css !
+    ProxyPass /img !
+    ProxyPass /font !
+
     ProxyPass / http://localhost:9000/ retry=0
     ProxyPassReverse / http://localhost:9000/
 
@@ -41,6 +79,8 @@ apache::vhost { $project_name:
       'set X-XSS-Protection "1; mode=block"',
       'set X-Frame-Options "DENY"',
       'set Strict-Transport-Security "max-age=31536000"',
+      # media-src blob: is required for recording audio.
+      'set Content-Security-Policy "default-src \'none\'; style-src \'self\' \'nonce-123456789\' \'nonce-987654321\'; img-src \'self\' www.google-analytics.com; media-src data: blob: https://*.amazonaws.com; script-src \'self\' https://www.google-analytics.com/analytics.js; font-src \'self\'; connect-src \'self\'"'
     ],
     rewrites           => [
       {

@@ -3,8 +3,7 @@ import { h, Component } from 'preact';
 const CHARACTER_DELAY = 80;
 const PARAGRAPH_DELAY = 3500;
 
-interface Props {
-}
+interface Props extends preact.ComponentProps<RobotTalker> {}
 
 interface State {
   displayedText: string;
@@ -14,17 +13,19 @@ interface State {
  * Handle robot transitions.
  */
 export default class RobotTalker extends Component<Props, State> {
-  timeoutHandle: number;
+  timeoutHandle: any;
   remainingParagraphs: string[];
 
-  constructor(props) {
+  constructor(props: Props) {
     super(props);
     this.nextParagraph = this.nextParagraph.bind(this);
     this.updateCharacter = this.updateCharacter.bind(this);
   }
 
   private updateCharacter() {
-    if (this.remainingParagraphs.length < 1) { return; }
+    if (this.remainingParagraphs.length < 1) {
+      return;
+    }
 
     let currentParagraph = this.remainingParagraphs[0];
     if (currentParagraph.length < 1) {
@@ -37,7 +38,7 @@ export default class RobotTalker extends Component<Props, State> {
     this.remainingParagraphs[0] = currentParagraph.substr(1);
     let newText = this.state.displayedText + c;
     this.setState({
-      displayedText: newText
+      displayedText: newText,
     });
 
     if (this.timeoutHandle) {
@@ -59,23 +60,23 @@ export default class RobotTalker extends Component<Props, State> {
     // Clear text after a half delay
     setTimeout(() => {
       this.setState({
-        displayedText: ''
+        displayedText: '',
       });
     }, PARAGRAPH_DELAY * 0.85);
   }
 
-  componentWillReceiveProps(nextProps) {
+  componentWillReceiveProps(nextProps: Props) {
     if (nextProps.children !== this.props.children) {
       this.remainingParagraphs = [];
       for (let i = 0; i < nextProps.children.length; i++) {
-        let textParent = nextProps.children[i];
+        let textParent: JSX.Element = nextProps.children[i];
         if (textParent) {
-          this.remainingParagraphs.push(textParent.children[0]);
+          this.remainingParagraphs.push(textParent.children[0].toString());
         }
       }
 
       this.setState({
-        displayedText: ''
+        displayedText: '',
       });
       setTimeout(this.updateCharacter, 2000);
     }

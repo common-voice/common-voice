@@ -2,8 +2,7 @@ import { h, Component } from 'preact';
 
 const HIDE_DELAY = 4000;
 
-interface Props {
-}
+interface Props {}
 
 interface State {
   messages: string[];
@@ -13,29 +12,30 @@ interface State {
  * Allows us to see console log on the ios app.
  */
 export default class DebugBox extends Component<Props, State> {
-  hideTimeout: number;
+  hideTimeout: any;
 
-  constructor(props) {
+  constructor(props?: Props) {
     super(props);
     this.state = {
-      messages: []
+      messages: [],
     };
   }
 
   private addMessage(message: string) {
     let messages = this.state.messages;
-    messages.push(message);
+    messages.unshift(message);
     this.setState({
-      messages: messages
+      messages: messages,
     });
 
     // Hide the box after a short delay.
     if (this.hideTimeout) {
       clearTimeout(this.hideTimeout);
     }
+
     this.hideTimeout = setTimeout(() => {
       this.setState({
-        messages: []
+        messages: [],
       });
     }, HIDE_DELAY);
   }
@@ -48,16 +48,16 @@ export default class DebugBox extends Component<Props, State> {
 
   componentDidMount() {
     let log = window.console.log.bind(window.console);
-    window.console.log = (...args) => {
+    window.console.log = (...args: any[]) => {
       log(...args);
       this.addMessage(args.join(', '));
-    }
+    };
 
     let err = window.console.error.bind(window.console);
-    window.console.error = (...args) => {
+    window.console.error = (...args: any[]) => {
       err(...args);
       this.addMessage(args.join(', '));
-    }
+    };
 
     if (!window.onerror) {
       window.onerror = (err: any) => {
@@ -67,9 +67,12 @@ export default class DebugBox extends Component<Props, State> {
   }
 
   render() {
-    let maybeHide = this.state.messages.length < 1 ? 'hidden': '';
+    let maybeHide = this.state.messages.length < 1 ? 'hidden' : '';
 
-    return <div className={maybeHide} id="debug-box">
-      {this.renderMessages()}</div>;
+    return (
+      <div className={maybeHide} id="debug-box">
+        {this.renderMessages()}
+      </div>
+    );
   }
 }

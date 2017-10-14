@@ -9,7 +9,7 @@ const MODE_THUMBS_UP = '/img/robot-thumbs-up.png';
 
 const SPEECH_GREETINGS = 'Click here to help me learn!';
 
-interface Props {
+interface Props extends preact.ComponentProps<Robot> {
   position?: string;
   onClick(page: string): void;
 }
@@ -25,10 +25,10 @@ interface State {
 export default class Robot extends Component<Props, State> {
   state = {
     src: MODE_GREETINGS,
-    speech: ''
-  }
+    speech: '',
+  };
 
-  constructor(props) {
+  constructor(props: Props) {
     super(props);
 
     this.handleSpeechClick = this.handleSpeechClick.bind(this);
@@ -56,17 +56,19 @@ export default class Robot extends Component<Props, State> {
 
     this.setState({
       src: src,
-      speech: text
+      speech: text,
     });
   }
 
   render() {
-    return <div className={'robot ' + this.props.position}>
-             <div class="bubble" onClick={this.handleSpeechClick}>
-               {this.state.speech}
-             </div>
-             <img src={this.state.src} />
-             <RobotTalker>{this.props.children}</RobotTalker>
-           </div>;
+    return (
+      <div className={'robot ' + this.props.position}>
+        <div class="bubble" onClick={this.handleSpeechClick}>
+          {this.state.speech}
+        </div>
+        <img src={this.state.src} />
+        <RobotTalker>{this.props.children}</RobotTalker>
+      </div>
+    );
   }
 }
