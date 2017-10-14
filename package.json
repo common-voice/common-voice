@@ -8,7 +8,6 @@
   "dependencies": {
     "aws-sdk": "^2.67.0",
     "bcrypt": "^1.0.2",
-    "bluebird": "^3.5.0",
     "eslint": "^4.7.2",
     "eslint-plugin-prettier": "^2.3.1",
     "ff": "0.2.1",
