@@ -3,15 +3,16 @@ import * as fs from 'fs';
 import * as http from 'http';
 import * as path from 'path';
 import { PassThrough } from 'stream';
+import { S3 } from 'aws-sdk';
 
 import Bucket from './bucket';
 import { getFileExt } from './utility';
 import respond, { CONTENT_TYPES } from './responder';
+import './aws';
 
 const ms = require('mediaserver');
 const ff = require('ff');
 const mkdirp = require('mkdirp');
-const AWS = require('./aws');
 const Transcoder = require('stream-transcoder');
 
 const UPLOAD_PATH = path.resolve(__dirname, '../..', 'upload');
@@ -26,11 +27,11 @@ const BUCKET_NAME = config.BUCKET_NAME || 'common-voice-corpus';
  * Clip - Responsibly for saving and serving clips.
  */
 export default class Clip {
-  private s3: any;
+  private s3: S3;
   private bucket: Bucket;
 
   constructor() {
-    this.s3 = new AWS.S3({ signatureVersion: 'v4' });
+    this.s3 = new S3({ signatureVersion: 'v4' });
     this.bucket = new Bucket();
   }
 

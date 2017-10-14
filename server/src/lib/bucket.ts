@@ -1,11 +1,12 @@
 import * as path from 'path';
 import * as Random from 'random-js';
+import { S3 } from 'aws-sdk';
 
 import { map } from '../promisify';
 import { getFileExt } from './utility';
+import './aws';
 
 const MemoryStream = require('memorystream');
-const AWS = require('./aws');
 
 const KEYS_PER_REQUEST = 1000; // Max is 1000.
 const LOAD_DELAY = 200;
@@ -30,15 +31,15 @@ interface FileHolder {
 }
 
 export default class Bucket {
-  private s3: any;
+  private s3: S3;
   private files: FileHolder;
   private paths: string[];
   private votes: number;
   private validated: number;
-  private randomEngine: any;
+  private randomEngine: Random.MT19937;
 
   constructor() {
-    this.s3 = new AWS.S3();
+    this.s3 = new S3();
     this.files = {};
     this.votes = 0;
     this.validated = 0;
