@@ -10,7 +10,7 @@ export default function run(
     args = [args];
   }
 
-  return new Promise((resolve: any, reject: any) => {
+  return new Promise((resolve, reject) => {
     method.apply(
       context,
       args.concat([

@@ -4,7 +4,6 @@ import { map } from '../promisify';
 import { getFileExt } from './utility';
 
 const MemoryStream = require('memorystream');
-const Promise = require('bluebird');
 const Random = require('random-js');
 const AWS = require('./aws');
 
@@ -275,7 +274,7 @@ export default class Bucket {
   /**
    * Grab a random sentence and associated sound file path.
    */
-  getRandomClip(uid: string): Promise<string[2]> {
+  getRandomClip(uid: string): Promise<string[]> {
     // Make sure we have at least 1 file to choose from.
     if (this.paths.length === 0) {
       return Promise.reject('No files.');

@@ -2,7 +2,6 @@ import Mysql from './db/mysql';
 import UserDB from './db/user-db';
 import BadgesDB from './db/badges-db';
 import ProgressDB from './db/progress-db';
-const Promise = require('bluebird');
 
 export default class DB {
   mysql: Mysql;
