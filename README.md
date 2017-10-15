@@ -2,13 +2,6 @@
 This is a web, android and iOS app for collecting speech
 donations for the Common Voice project.
 
-Table of Contents (ToC)
-=========================
-
-* [Official Website](*official-website)
-* [Contributing](*contributing)
-* [Discussion](*discussion)
-
 ### Official Website
 [voice.mozilla.org](https://voice.mozilla.org)
 
