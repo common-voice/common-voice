@@ -8,4 +8,4 @@ before_install:
 before_script:
   - npm install -g gulp-cli
 script:
-  - gulp create && gulp ts && gulp ts-server
+  - gulp build
