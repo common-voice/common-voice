@@ -154,7 +154,7 @@ gulp.task('ts', 'Compile typescript files into bundle.js', ['lint-web'], compile
 
 gulp.task('ts-server', 'Compile typescript server files.', ['lint-server'], compileServer);
 
-gulp.task('build', 'Build both server and client js', ['lint', 'ts', 'ts-server', 'css']);
+gulp.task('build', 'Build both server and client js', ['ts', 'ts-server', 'css']);
 
 gulp.task('npm-install', 'Install npm dependencies.',
   shell.task(['npm install']));
