@@ -37,7 +37,7 @@ You can then access the website at [http://localhost:9000](http://localhost:9000
 
 #### Setting up Amazon S3 for development
 The Common Voice project uses S3 for voice clip storage. If you need help configuring
-S3, check out [HOWTO_S3.md](./HOWTO_S3.md)
+S3, check out [HOWTO_S3.md](./docs/HOWTO_S3.md)
 
 #### Need Help?
 For more options, just type:
