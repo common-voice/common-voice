@@ -1,11 +1,10 @@
-var AWS = require('aws-sdk');
+import { config } from 'aws-sdk';
 
 if (process.env.HTTP_PROXY) {
-  var proxy = require('proxy-agent');
+  // Currently have no TS typings for proxy-agent, so have to use plain require().
+  const proxy = require('proxy-agent');
 
-  AWS.config.update({
+  config.update({
     httpOptions: { agent: proxy(process.env.HTTP_PROXY) },
   });
 }
-
-module.exports = AWS;

@@ -1,8 +1,7 @@
 import * as path from 'path';
 import { getFilesInFolder, getAllFileContents } from './fs-helper';
 import { getFileExt } from './utility';
-
-const Random = require('random-js');
+import * as Random from 'random-js';
 
 const CWD = process.cwd();
 const SENTENCE_FOLDER = path.resolve(CWD, 'server/data/');

@@ -4,6 +4,7 @@ import * as path from 'path';
 import API from './lib/api';
 import Logger from './lib/logger';
 import { isLeaderServer } from './lib/utility';
+import { Server as NodeStaticServer } from 'node-static';
 
 const DEFAULT_PORT = 9000;
 const SLOW_REQUEST_LIMIT = 2000;
@@ -12,7 +13,6 @@ const CLIENT_PATH = '../../web';
 
 const CSP_HEADER = `default-src 'none'; style-src 'self' 'nonce-123456789' 'nonce-987654321'; img-src 'self' www.google-analytics.com; media-src data: blob: https://*.amazonaws.com; script-src 'self' https://www.google-analytics.com/analytics.js; font-src 'self'; connect-src 'self'`;
 
-const nodeStatic = require('node-static');
 const config = require(CONFIG_PATH);
 
 export default class Server {
@@ -22,7 +22,7 @@ export default class Server {
   staticServer: any;
 
   constructor() {
-    this.staticServer = new nodeStatic.Server(
+    this.staticServer = new NodeStaticServer(
       path.join(__dirname, CLIENT_PATH),
       {
         cache: false,

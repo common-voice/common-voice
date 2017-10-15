@@ -1,6 +1,6 @@
 import { getFirstDefined } from '../utility';
+import { createPool, IPool } from 'mysql';
 
-const mysql = require('mysql');
 const config = require('../../../../config.json');
 
 type MysqlOptions = {
@@ -25,7 +25,7 @@ const DEFAULTS = {
 };
 
 export default class Mysql {
-  pool: any;
+  pool: IPool;
 
   constructor(options?: MysqlOptions) {
     options = options || Object.create(null);
@@ -55,7 +55,7 @@ export default class Mysql {
       ),
     };
 
-    this.pool = mysql.createPool({
+    this.pool = createPool({
       connectionLimit: 100,
       host: myConfig.host,
       user: myConfig.user,
@@ -74,10 +74,6 @@ export default class Mysql {
     this.pool.query(text, (error: any, results: any, fields: any) => {
       error ? callback(error.message, null) : callback(null, results);
     });
-  }
-
-  connect(callback: Function) {
-    return this.pool.connect(callback);
   }
 
   end() {

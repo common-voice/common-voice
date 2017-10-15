@@ -19,7 +19,6 @@
     "gulp-shell": "0.6.3",
     "gulp-uglify": "^2.1.2",
     "mediaserver": "0.1.0",
-    "memorystream": "^0.3.1",
     "mkdirp": "^0.5.1",
     "node-static": "^0.7.10",
     "pm2": "^2.4.6",
@@ -37,7 +36,12 @@
     "walk": "^2.3.9"
   },
   "devDependencies": {
+    "@types/mkdirp": "^0.5.1",
+    "@types/mysql": "0.0.34",
     "@types/node": "7.0.29",
+    "@types/node-static": "^0.7.0",
+    "@types/pg": "^7.1.4",
+    "@types/random-js": "^1.0.30",
     "cssnano": "^3.10.0",
     "gulp-nodemon": "2.2.1",
     "gulp-postcss": "^7.0.0",

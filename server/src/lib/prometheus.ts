@@ -1,33 +1,36 @@
 import * as http from 'http';
+import {
+  collectDefaultMetrics,
+  register,
+  Counter,
+  Registry,
+} from 'prom-client';
 
-var client = require('prom-client');
-
-var collectDefaultMetrics = client.collectDefaultMetrics;
 // Probe every 5th second.
 collectDefaultMetrics({ timeout: 5000 });
 
 export default class Prometheus {
-  register: any;
-  requests: any;
-  clip_cnt: any;
-  api_cnt: any;
-  prometheus_cnt: any;
+  register: Registry;
+  requests: Counter;
+  clip_cnt: Counter;
+  api_cnt: Counter;
+  prometheus_cnt: Counter;
 
   constructor() {
-    this.register = client.register;
-    this.requests = new client.Counter({
+    this.register = register;
+    this.requests = new Counter({
       name: 'voice_requests',
       help: 'Total Requests Served',
     });
-    this.clip_cnt = new client.Counter({
+    this.clip_cnt = new Counter({
       name: 'voice_clips_requests',
       help: 'Total Clip Requests Served',
     });
-    this.api_cnt = new client.Counter({
+    this.api_cnt = new Counter({
       name: 'voice_api_requests',
       help: 'Total API Requests Served',
     });
-    this.prometheus_cnt = new client.Counter({
+    this.prometheus_cnt = new Counter({
       name: 'voice_prometheus_requests',
       help: 'Total Prometheus Requests Served',
     });
@@ -36,7 +39,7 @@ export default class Prometheus {
   /**
    * Is this request directed at the api?
    */
-  isPrometheusRequest(request: http.IncomingMessage) {
+  isPrometheusRequest(request: http.IncomingMessage): boolean {
     return request.url.includes('/metrics');
   }
 
