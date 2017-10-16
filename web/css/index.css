@@ -1361,7 +1361,7 @@ body:not(.mobile-safari) .robot .bubble:hover {
 }
 
 #voice-record {
-  overflow-x: hidden;
+  overflow: hidden;
   padding: 0 0.5rem;
 }
 
