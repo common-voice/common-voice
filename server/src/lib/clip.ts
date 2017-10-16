@@ -7,6 +7,7 @@ import { S3 } from 'aws-sdk';
 import * as ms from 'mediaserver';
 import * as mkdirp from 'mkdirp';
 
+import Model from './model';
 import Bucket from './bucket';
 import { getFileExt } from './utility';
 import respond, { CONTENT_TYPES } from './responder';
@@ -29,10 +30,12 @@ const BUCKET_NAME = config.BUCKET_NAME || 'common-voice-corpus';
 export default class Clip {
   private s3: S3;
   private bucket: Bucket;
+  private model: Model;
 
   constructor() {
     this.s3 = new S3({ signatureVersion: 'v4' });
-    this.bucket = new Bucket();
+    this.model = new Model();
+    this.bucket = new Bucket(this.model);
   }
 
   /**
@@ -353,24 +356,23 @@ export default class Clip {
     });
   }
 
-  serveRandomClipJson(
+  async serveRandomClipJson(
     request: http.IncomingMessage,
     response: http.ServerResponse
-  ) {
+  ): Promise<void> {
     let uid = request.headers.uid as string;
     if (!uid) {
+      respond(response, 'Invalid headers', 400);
       return Promise.reject('Invalid headers');
     }
 
-    return this.bucket
-      .getRandomClipJson(uid)
-      .then(clipJson => {
-        respond(response, clipJson, 200, CONTENT_TYPES.JSON);
-      })
-      .catch(err => {
-        console.error('could not get random clip', err);
-        respond(response, 'Still loading', 500);
-      });
+    try {
+      const clipJson = await this.bucket.getRandomClipJson(uid);
+      respond(response, clipJson, 200, CONTENT_TYPES.JSON);
+    } catch (err) {
+      console.error('could not get random clip', err);
+      respond(response, 'Still loading', 500);
+    }
   }
 
   /**

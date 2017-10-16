@@ -2,46 +2,35 @@ import * as path from 'path';
 import * as Random from 'random-js';
 import { S3 } from 'aws-sdk';
 
+import Model from './model';
 import { map } from '../promisify';
 import { getFileExt } from './utility';
 import './aws';
 
 const KEYS_PER_REQUEST = 1000; // Max is 1000.
 const LOAD_DELAY = 200;
-const MP3_EXT = '.mp3';
 const TEXT_EXT = '.txt';
-const VOTE_EXT = '.vote';
-const CONVERTABLE_EXTS = ['.ogg', '.m4a'];
 const CONFIG_PATH = path.resolve(__dirname, '../../..', 'config.json');
 const config = require(CONFIG_PATH);
 const BUCKET_NAME = config.BUCKET_NAME || 'common-voice-corpus';
 
-interface FileData {
-  sentence: string;
-  text: string;
-  sound: string;
-  votes: number;
-  pushed: boolean;
-}
-
-interface FileHolder {
-  [key: string]: FileData;
-}
-
+/**
+ * Bucket
+ *   The bucket class is responsible for loading clip
+ *   metadata into the Model from s3.
+ */
 export default class Bucket {
+  private model: Model;
   private s3: S3;
-  private files: FileHolder;
-  private paths: string[];
   private votes: number;
   private validated: number;
   private randomEngine: Random.MT19937;
 
-  constructor() {
+  constructor(model: Model) {
+    this.model = model;
     this.s3 = new S3();
-    this.files = {};
     this.votes = 0;
     this.validated = 0;
-    this.paths = [];
 
     this.randomEngine = Random.engines.mt19937();
     this.randomEngine.autoSeed();
@@ -71,7 +60,6 @@ export default class Bucket {
           }
 
           let sentence = s3Data.Body.toString();
-          this.files[glob].sentence = sentence;
           res(sentence);
         });
       }
@@ -85,31 +73,6 @@ export default class Bucket {
     return this.s3.getSignedUrl('getObject', {
       Bucket: BUCKET_NAME,
       Key: key,
-    });
-  }
-
-  /**
-   * Remove any clips from our pool that have already been voted on.
-   */
-  private filterPaths() {
-    this.paths = this.paths.filter(glob => {
-      let info = this.files[glob];
-      if (!info) {
-        console.error('glob not in file map', glob);
-        return false;
-      }
-
-      if (!info.text || !info.sound) {
-        console.log('missing data for glob', info);
-        return false;
-      }
-
-      if (info.votes > 3) {
-        this.validated++;
-        return false;
-      }
-
-      return true;
     });
   }
 
@@ -132,64 +95,21 @@ export default class Bucket {
       let next = response['data']['NextContinuationToken'];
       let contents = response['data']['Contents'];
 
+      // Pass file path to the Model for metadata processing.
       let startParsing = Date.now();
       for (let i = 0; i < contents.length; i++) {
         let key = contents[i].Key;
-        let glob = this.getGlob(key);
-        let ext = getFileExt(key);
-
-        // Ignore non-text files
-        if (ext !== TEXT_EXT && ext !== MP3_EXT && ext !== VOTE_EXT) {
-          continue;
-        }
-
-        if (ext === VOTE_EXT) {
-          glob = glob.substr(0, glob.indexOf('-by-'));
-        }
-
-        // Track globs and sentence of the voice clips.
-        if (!this.files[glob]) {
-          this.files[glob] = {
-            pushed: false,
-            sentence: null,
-            text: null,
-            sound: null,
-            votes: 0,
-          };
-        }
-
-        let info = this.files[glob];
-
-        // Is it text or audio?
-        if (ext === TEXT_EXT) {
-          info.text = key;
-        } else if (ext === MP3_EXT) {
-          info.sound = key;
-        } else if (ext === VOTE_EXT) {
-          info.votes++;
-          this.votes++;
-        }
-
-        // If we have both text and audio, add it to our random pool.
-        if (!info.pushed && info.text && info.sound && info.votes < 3) {
-          this.paths.push(glob);
-          info.pushed = true;
-        }
+        this.model.processFilePath(key);
       }
 
-      // Filter the elligible clips for verification, making sure
-      // we are not trying to reverify any.
-      this.filterPaths();
-      console.log(
-        `clips load ${this.paths.length}, votes ${this.votes}, validated ${this
-          .validated}`
-      );
       let secondsToLoad = ((startParsing - startRequest) / 1000).toFixed(3);
       let secondsToParse = ((Date.now() - startParsing) / 1000).toFixed(2);
       console.log(`load time ${secondsToLoad}s, parse time ${secondsToParse}`);
 
       // If there is no continuation token, we are done.
       if (!next) {
+        this.model.setLoaded();
+        this.model.printMetrics();
         res();
         return;
       }
@@ -229,74 +149,60 @@ export default class Bucket {
   }
 
   /**
-   * Fetch a random clip but make sure it's not the current user's.
+   * Grab metadata to play clip on the front end.
    */
-  private getGlobNotFromMe(myUid: string) {
-    if (this.paths.length === 0) {
-      return null;
-    }
-
-    let distribution = Random.integer(0, this.paths.length - 1);
-    let glob;
-    do {
-      glob = this.paths[distribution(this.randomEngine)];
-    } while (glob.includes(myUid));
-    return glob;
-  }
-
-  /**
-   * Grab a random sentence url and mp3 url.
-   */
-  getRandomClipJson(uid: string): Promise<string> {
-    let glob = this.getGlobNotFromMe(uid);
-    if (!glob) {
+  async getRandomClipJson(uid: string): Promise<string> {
+    const clip = this.model.getEllibleClip(uid);
+    if (!clip) {
       return Promise.reject('No globs from me');
     }
 
-    let info = this.files[glob];
+    // On the client, the clipid is called 'glob'
+    let glob = clip.clipid;
+
     let clipJson = {
       glob: glob,
-      text: info.sentence,
-      sound: this.getPublicUrl(info.sound),
+      text: clip.sentenceText,
+      sound: this.getPublicUrl(clip.clipPath),
     };
 
     if (clipJson.text) {
       return Promise.resolve(JSON.stringify(clipJson));
     }
 
-    return this.fetchSentenceFromS3(glob).then(sentence => {
-      clipJson.text = sentence;
-      return Promise.resolve(JSON.stringify(clipJson));
-    });
+    if (!clipJson.text) {
+      clipJson.text = await this.fetchSentenceFromS3(glob);
+      this.model.addSentenceContent(uid, clip.sentenceid, clipJson.text);
+    }
+
+    return JSON.stringify(clipJson);
   }
 
   /**
    * Grab a random sentence and associated sound file path.
    */
-  getRandomClip(uid: string): Promise<string[]> {
-    // Make sure we have at least 1 file to choose from.
-    if (this.paths.length === 0) {
-      return Promise.reject('No files.');
+  async getRandomClip(uid: string): Promise<string[]> {
+    const clip = this.model.getEllibleClip(uid);
+    if (!clip) {
+      return Promise.reject('No globs from me');
     }
 
-    let glob = this.getGlobNotFromMe(uid);
+    // On the client, the clipid is called 'glob'
+    let glob = clip.clipid;
 
     // Grab clip metadata.
-    let info = this.files[glob];
-    let soundfile = glob + MP3_EXT;
-    if (!info || !info.text || !info.sound) {
+    let text = clip.sentenceText;
+    let soundfile = clip.clipPath;
+    if (!clip || !soundfile) {
       console.error('unidentified random glob', glob);
       return Promise.reject('glob info not found');
     }
 
-    // If we have a cached sentence, return it immediately.
-    if (info.sentence && /\S/.test(info.sentence)) {
-      return Promise.resolve([soundfile, info.sentence]);
+    if (!text) {
+      text = await this.fetchSentenceFromS3(glob);
+      this.model.addSentenceContent(uid, clip.sentenceid, text);
     }
 
-    // Grab the sentence contence from s3.
-    return this.fetchSentenceFromS3(glob).then(sentence => {
-      return Promise.resolve([soundfile, info.sentence]);
-    });
+    return [soundfile, text];
   }
 }
