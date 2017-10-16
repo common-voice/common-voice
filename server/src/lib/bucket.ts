@@ -177,32 +177,4 @@ export default class Bucket {
 
     return JSON.stringify(clipJson);
   }
-
-  /**
-   * Grab a random sentence and associated sound file path.
-   */
-  async getRandomClip(uid: string): Promise<string[]> {
-    const clip = this.model.getEllibleClip(uid);
-    if (!clip) {
-      return Promise.reject('No globs from me');
-    }
-
-    // On the client, the clipid is called 'glob'
-    let glob = clip.clipid;
-
-    // Grab clip metadata.
-    let text = clip.sentenceText;
-    let soundfile = clip.clipPath;
-    if (!clip || !soundfile) {
-      console.error('unidentified random glob', glob);
-      return Promise.reject('glob info not found');
-    }
-
-    if (!text) {
-      text = await this.fetchSentenceFromS3(glob);
-      this.model.addSentenceContent(uid, clip.sentenceid, text);
-    }
-
-    return [soundfile, text];
-  }
 }

@@ -90,20 +90,6 @@ export default class API {
   /**
    * Ask the server for a clip
    */
-  async getRandomClip(): Promise<Clip> {
-    const req = await this.fetch('upload/random/', {
-      responseType: 'blob',
-      headers: { uid: this.user.getId() },
-    });
-    let src = window.URL.createObjectURL(req.response);
-    let glob = decodeURIComponent(req.getResponseHeader('glob'));
-    let sentence = decodeURIComponent(req.getResponseHeader('sentence'));
-    return { glob: glob, audio: src, sentence: sentence };
-  }
-
-  /**
-   * Ask the server for a clip
-   */
   async getRandomClipJson(): Promise<ClipJson> {
     const req = await this.fetch('upload/random.json', {
       responseType: 'json',

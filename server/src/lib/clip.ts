@@ -113,13 +113,6 @@ export default class Clip {
   }
 
   /**
-   * Is this request directed at a random voice clip?
-   */
-  isRandomClipRequest(request: http.IncomingMessage): boolean {
-    return request.url.includes('/upload/random');
-  }
-
-  /**
    * Is this a random clip for voice file urls?
    */
   isRandomClipJsonRequest(request: http.IncomingMessage): boolean {
@@ -158,8 +151,6 @@ export default class Clip {
       }
     } else if (this.isRandomClipJsonRequest(request)) {
       this.serveRandomClipJson(request, response);
-    } else if (this.isRandomClipRequest(request)) {
-      this.serveRandomClip(request, response);
     } else {
       this.serve(request, response);
     }
@@ -373,58 +364,6 @@ export default class Clip {
       console.error('could not get random clip', err);
       respond(response, 'Still loading', 500);
     }
-  }
-
-  /**
-   * Fetch random clip file and associated sentence.
-   * Note: we no longer use this api from the browser
-   *       as we prefer to s3 clips straight from S3
-   *       rather than stream through our app.
-   */
-  serveRandomClip(
-    request: http.IncomingMessage,
-    response: http.ServerResponse
-  ) {
-    let uid = request.headers.uid as string;
-
-    if (!uid) {
-      return Promise.reject('Invalid headers');
-    }
-
-    this.bucket
-      .getRandomClip(uid)
-      .then((clip: string[]) => {
-        if (!clip) {
-        }
-
-        // Get full key to the file.
-        let key = clip[0];
-        let sentence = clip[1];
-
-        // Send sentence + glob strings to client in the header.
-        // First, we make sure to encode the sentence proprly.
-        let isEncoded = sentence !== decodeURIComponent(sentence);
-        let encoded = isEncoded ? sentence : encodeURIComponent(sentence);
-
-        try {
-          response.setHeader('sentence', encoded);
-        } catch (err) {
-          // If sentence cannot be set as a header (e.g. mixed encodings)
-          // bail out and try a new random setence
-          console.error('could not set header', sentence, isEncoded, encoded);
-          this.serveRandomClip(request, response);
-          return;
-        }
-        response.setHeader('glob', this.getGlob(key));
-
-        // Stream audio to client
-        this.streamAudio(request, response, key);
-      })
-      .catch(err => {
-        console.error('problem getting a random clip: ', err);
-        respond(response, 'Cannot fetch random clip right now.', 500);
-        return;
-      });
   }
 
   /*
