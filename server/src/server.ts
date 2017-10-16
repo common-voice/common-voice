@@ -11,7 +11,7 @@ const SLOW_REQUEST_LIMIT = 2000;
 const CONFIG_PATH = '../../config.json';
 const CLIENT_PATH = '../../web';
 
-const CSP_HEADER = `default-src 'none'; style-src 'self' 'nonce-123456789' 'nonce-987654321'; img-src 'self' www.google-analytics.com; media-src data: blob: https://*.amazonaws.com; script-src 'self' https://www.google-analytics.com/analytics.js; font-src 'self'; connect-src 'self'`;
+const CSP_HEADER = `default-src 'none'; style-src 'self' 'nonce-123456789' 'nonce-987654321' https://fonts.googleapis.com; img-src 'self' www.google-analytics.com; media-src data: blob: https://*.amazonaws.com; script-src 'self' https://www.google-analytics.com/analytics.js; font-src 'self' https://fonts.gstatic.com; connect-src 'self'`;
 
 const config = require(CONFIG_PATH);
 
