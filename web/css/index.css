@@ -530,7 +530,7 @@ header.active {
 }
 
 #moz-links .links a {
-  color: #b7d43f;
+  color: var(--color-listen);
 }
 
 @media (max-width: 600px) {
