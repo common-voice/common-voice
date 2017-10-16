@@ -25,6 +25,8 @@ const MIN_RECORDING_LENGTH = 300; // ms
 const MAX_RECORDING_LENGTH = 10000; // ms
 const MIN_VOLUME = 1;
 const RETRY_TIMEOUT = 1000;
+const ERR_SENTENCES_NOT_LOADED =
+  'Sorry! Sentinces are being loaded, please wait or try again shortly.';
 
 enum RecordingError {
   TOO_SHORT = 1,
@@ -349,7 +351,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
   private async newSentenceSet() {
     // If we don't have enough sentences in our cache, fill it before continuing.
-    while (this.sentenceCache.length < SET_COUNT) {
+    while (!this.areSentencesLoaded) {
       console.error('slow path for getting new sentences');
       await sleep(RETRY_TIMEOUT);
       await this.refillSentenceCache();
@@ -362,6 +364,10 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     if (this.sentenceCache.length < SET_COUNT * 2) {
       this.refillSentenceCache();
     }
+  }
+
+  private get areSentencesLoaded(): boolean {
+    return this.sentenceCache.length >= SET_COUNT;
   }
 
   render() {
@@ -426,6 +432,19 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       progress += 100 / SET_COUNT * 1;
     }
 
+    const controlElements = this.areSentencesLoaded
+      ? [
+          <div
+            id="record-button"
+            onTouchStart={this.onRecordClick}
+            onClick={this.onRecordClick}
+          />,
+          <p id="record-help">
+            Please tap to record, then read the above sentence aloud.
+          </p>,
+        ]
+      : ERR_SENTENCES_NOT_LOADED;
+
     return (
       <div id="record-container" className={className}>
         <div id="voice-record">
@@ -443,14 +462,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
               className={!showBack ? 'hide' : ''}
             />
           </div>
-          <div
-            id="record-button"
-            onTouchStart={this.onRecordClick}
-            onClick={this.onRecordClick}
-          />
-          <p id="record-help">
-            Please tap to record, then read the above sentence aloud.
-          </p>
+          <div class="record-controls">{controlElements}</div>
         </div>
         <div id="voice-submit">
           <p id="thank-you">

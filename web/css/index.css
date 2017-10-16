@@ -1297,8 +1297,13 @@ body:not(.mobile-safari) .robot .bubble:hover {
   height: 2.5rem;
   width: 2.5rem;
   margin: 1rem auto;
-  margin-top: calc(1rem + 4px);
   cursor: pointer;
+}
+
+.record-controls {
+  height:  5rem;
+  margin: 1rem auto;
+  margin-top: calc(1rem + 4px);
 }
 
 .recording #record-button {
