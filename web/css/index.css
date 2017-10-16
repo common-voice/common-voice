@@ -531,7 +531,7 @@ header.active {
 }
 
 #moz-links .links a {
-  color: var(--color-help);
+  color: var(--color-listen);
 }
 
 @media (max-width: 600px) {
