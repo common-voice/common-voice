@@ -81,6 +81,7 @@ export default class ListenBox extends Component<Props, State> {
   private onPlay() {
     if (this.state.playing) {
       this.el.pause();
+      this.el.currentTime = 0;
       this.setState({ playing: false });
       return;
     }
@@ -147,7 +148,7 @@ export default class ListenBox extends Component<Props, State> {
           <b style={!this.props.vote ? 'display: none;' : ''}>
             What they said:
           </b>
-          <Icon type={this.state.playing ? 'pause' : 'play'} />
+          <Icon type={this.state.playing ? 'stop' : 'play'} />
         </div>
         <div
           style={this.props.vote ? 'display: none;' : ''}
