@@ -101,8 +101,8 @@ export default class Clip {
   /**
    * Prepare a list of data files from our data bucket.
    */
-  loadCache(): Promise<void> {
-    return this.bucket.loadCache();
+  async loadCache(): Promise<void> {
+    await this.bucket.loadCache();
   }
 
   /**

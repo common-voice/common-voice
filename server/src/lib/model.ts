@@ -121,6 +121,10 @@ export default class Model {
     }
   }
 
+  processFilePaths(filePaths: string[]) {
+    filePaths.forEach(this.processFilePath.bind(this));
+  }
+
   /**
    * Fetch a random clip but make sure it's not the user's.
    */

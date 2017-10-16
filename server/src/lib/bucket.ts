@@ -4,7 +4,7 @@ import { S3 } from 'aws-sdk';
 
 import Model from './model';
 import { map } from '../promisify';
-import { getFileExt } from './utility';
+import { getFileExt, sleep } from './utility';
 import './aws';
 
 const KEYS_PER_REQUEST = 1000; // Max is 1000.
@@ -13,6 +13,11 @@ const TEXT_EXT = '.txt';
 const CONFIG_PATH = path.resolve(__dirname, '../../..', 'config.json');
 const config = require(CONFIG_PATH);
 const BUCKET_NAME = config.BUCKET_NAME || 'common-voice-corpus';
+
+interface S3Results {
+  filePaths: string[];
+  continuationToken: string | null;
+}
 
 /**
  * Bucket
@@ -77,75 +82,83 @@ export default class Bucket {
   }
 
   /**
-   * Load a single set of file keys based on KEYS_PER_REQUEST.
+   * Fetches a partial list of file paths from s3.
    */
-  private loadNext(
-    res: Function,
-    rej: Function,
-    continuationToken?: string
-  ): void {
-    let awsRequest = this.s3.listObjectsV2({
-      Bucket: BUCKET_NAME,
-      MaxKeys: KEYS_PER_REQUEST,
-      ContinuationToken: continuationToken,
+  private fetchObjects(continuationToken?: string): Promise<S3Results> {
+    return new Promise((res, rej) => {
+      let awsRequest = this.s3.listObjectsV2({
+        Bucket: BUCKET_NAME,
+        MaxKeys: KEYS_PER_REQUEST,
+        ContinuationToken: continuationToken,
+      });
+
+      awsRequest.on('success', (response: any) => {
+        const results: S3Results = {
+          filePaths: [],
+          continuationToken: response['data']['NextContinuationToken'],
+        };
+
+        // Grab all the file paths from the response object.
+        let contents = response['data']['Contents'];
+        for (let i = 0; i < contents.length; i++) {
+          results.filePaths.push(contents[i].Key);
+        }
+
+        res(results);
+      });
+
+      awsRequest.on('error', (err: any) => {
+        if (err.code === 'AccessDenied' || err.code === 'CredentialsError') {
+          console.error('s3 aws creds not configured properly');
+          rej(err);
+          return;
+        }
+
+        // For other errors like timeout, we trap the error here, and return
+        // the same continuation token we were given so that the caller
+        // may try again.
+        console.error('Error while fetching clip list:', err.code);
+        res({
+          filePaths: [],
+          continuationToken: continuationToken,
+        });
+      });
+
+      awsRequest.send();
     });
-
-    let startRequest = Date.now();
-    awsRequest.on('success', (response: any) => {
-      let next = response['data']['NextContinuationToken'];
-      let contents = response['data']['Contents'];
-
-      // Pass file path to the Model for metadata processing.
-      let startParsing = Date.now();
-      for (let i = 0; i < contents.length; i++) {
-        let key = contents[i].Key;
-        this.model.processFilePath(key);
-      }
-
-      let secondsToLoad = ((startParsing - startRequest) / 1000).toFixed(3);
-      let secondsToParse = ((Date.now() - startParsing) / 1000).toFixed(2);
-      console.log(`load time ${secondsToLoad}s, parse time ${secondsToParse}`);
-
-      // If there is no continuation token, we are done.
-      if (!next) {
-        this.model.setLoaded();
-        this.model.printMetrics();
-        res();
-        return;
-      }
-
-      // Load the next batch.
-      setTimeout(() => {
-        this.loadNext(res, rej, next);
-      }, LOAD_DELAY);
-    });
-
-    awsRequest.on('error', (err: any) => {
-      if (err.code === 'AccessDenied' || err.code === 'CredentialsError') {
-        console.error('s3 aws creds not configured properly');
-        rej(err);
-        return;
-      }
-
-      console.error('Error while fetching clip list:', err.code);
-
-      // Retry loading current batch.
-      setTimeout(() => {
-        console.log('retrying loading from s3');
-        this.loadNext(res, rej, continuationToken);
-      }, LOAD_DELAY);
-    });
-
-    awsRequest.send();
   }
 
   /**
    * Load sound file metadata into memory.
    */
-  loadCache(): Promise<void> {
-    return new Promise((res: Function, rej: Function) => {
-      this.loadNext(res, rej);
-    });
+  async loadCache(): Promise<void> {
+    let next: string;
+
+    // Keep processing s3 objects as long as we get a continuationToken.
+    do {
+      const startRequest = Date.now();
+      const results = await this.fetchObjects(next);
+
+      const startParsing = Date.now();
+      this.model.processFilePaths(results.filePaths);
+
+      // Print some loading stats.
+      let secondsToLoad = ((startParsing - startRequest) / 1000).toFixed(3);
+      let secondsToParse = ((Date.now() - startParsing) / 1000).toFixed(2);
+      console.log(
+        `chunk loaded in ${secondsToLoad}s, parse time ${secondsToParse}`
+      );
+
+      next = results.continuationToken;
+      if (next) {
+        // Take a breather in between chunks to handle incoming requests.
+        await sleep(LOAD_DELAY);
+      }
+    } while (next);
+
+    // Finalize model processing, and print stats.
+    this.model.setLoaded();
+    this.model.printMetrics();
   }
 
   /**
