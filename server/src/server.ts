@@ -42,6 +42,14 @@ export default class Server {
   }
 
   /**
+   * Log application level messages in a common format.
+   */
+  private print(...args: any[]) {
+    args.unshift('APPLICATION --');
+    console.log.apply(console, args);
+  }
+
+  /**
    * handleRequest
    *   Route requests to appropriate controller based on
    *   if the request deals with voice clips or web content.
@@ -79,7 +87,7 @@ export default class Server {
           // Log slow static requests
           let elapsed = Date.now() - startTime;
           if (elapsed > SLOW_REQUEST_LIMIT) {
-            console.log('slow static request', elapsed, request.url);
+            this.print('slow static request', elapsed, request.url);
           }
         });
       })
@@ -99,7 +107,7 @@ export default class Server {
     let port = config.port || DEFAULT_PORT;
     this.server = http.createServer(this.handleRequest.bind(this));
     this.server.listen(port);
-    console.log(`listening at http://localhost:${port}`);
+    this.print(`listening at http://localhost:${port}`);
   }
 
   /**
@@ -107,7 +115,7 @@ export default class Server {
    */
   async run(): Promise<void> {
     // Log the start.
-    console.log('STARTING APPLICATION');
+    this.print('starting');
 
     // Initialize our clip list.
     let start = Date.now();
@@ -122,13 +130,13 @@ export default class Server {
       console.error('error loading clips', err.message);
     } finally {
       let elapsedSeconds = Math.round((Date.now() - start) / 1000);
-      console.log(`APPLICATION LOADED in ${elapsedSeconds} seconds`);
+      this.print(`${elapsedSeconds}s to load`);
     }
 
     // Figure out if this server is the leader.
     try {
       let isLeader = await this.checkLeader();
-      console.log('leader is', isLeader);
+      this.print(isLeader, 'leader');
     } catch (err) {
       console.error('error checking for leader', err.message);
     }

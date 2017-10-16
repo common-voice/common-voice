@@ -22,6 +22,14 @@ export default class Corpus {
   }
 
   /**
+   * Log corpus level messages in a common format.
+   */
+  private print(...args: any[]) {
+    args.unshift('CORPUS --');
+    console.log.apply(console, args);
+  }
+
+  /**
    * Load txt files from path, and parse into an array of lines.
    */
   private async loadSentences(path: string): Promise<string[]> {
@@ -68,7 +76,7 @@ export default class Corpus {
       return;
     }
     this.cache = await this.loadSentences(SENTENCE_FOLDER);
-    console.log(`corpus loaded ${this.cache.length} sentences`);
+    this.print(`${this.cache.length} sentences loaded`);
   }
 
   async loadCacheDeactive(): Promise<void> {
@@ -76,7 +84,7 @@ export default class Corpus {
       return;
     }
     this.deactive = await this.loadSentences(UNUSED_FOLDER);
-    console.log(`deactive corpus loaded ${this.deactive.length} sentences`);
+    this.print(`${this.deactive.length} deactive sentences loaded`);
   }
 
   /**

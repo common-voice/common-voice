@@ -138,6 +138,15 @@ export default class Model {
   setLoaded() {
     this.users.setLoaded();
     this.clips.setLoaded();
+
+    // Print Model status.
+    const userMetrics = this.users.getCurrentMetrics();
+    let users = userMetrics.users;
+    const clipMetrics = this.clips.getCurrentMetrics();
+    let clips = clipMetrics.clips;
+    let votes = clipMetrics.votes;
+    this.print(`${clips} clips, ${users} users, ${votes} votes`);
+
     this.loaded = true;
   }
 }

@@ -42,6 +42,14 @@ export default class Bucket {
   }
 
   /**
+   * Log bucket level messages in a common format.
+   */
+  private print(...args: any[]) {
+    args.unshift('BUCKET --');
+    console.log.apply(console, args);
+  }
+
+  /**
    * Returns the file path with extension stripped.
    */
   private getGlob(path: string): string {
@@ -132,9 +140,10 @@ export default class Bucket {
    * Load sound file metadata into memory.
    */
   async loadCache(): Promise<void> {
-    let next: string;
+    this.print('loading clip data');
 
     // Keep processing s3 objects as long as we get a continuationToken.
+    let next: string;
     do {
       const startRequest = Date.now();
       const results = await this.fetchObjects(next);
@@ -143,10 +152,10 @@ export default class Bucket {
       this.model.processFilePaths(results.filePaths);
 
       // Print some loading stats.
-      let secondsToLoad = ((startParsing - startRequest) / 1000).toFixed(3);
+      let secondsToLoad = ((startParsing - startRequest) / 1000).toFixed(2);
       let secondsToParse = ((Date.now() - startParsing) / 1000).toFixed(2);
-      console.log(
-        `chunk loaded in ${secondsToLoad}s, parse time ${secondsToParse}`
+      this.print(
+        `${secondsToLoad}s to load chunk, ${secondsToParse}s to parse`
       );
 
       next = results.continuationToken;
@@ -158,7 +167,6 @@ export default class Bucket {
 
     // Finalize model processing, and print stats.
     this.model.setLoaded();
-    this.model.printMetrics();
   }
 
   /**
