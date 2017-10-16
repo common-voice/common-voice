@@ -7,6 +7,7 @@ interface FontIcons {
   redo: string;
   play: string;
   pause: string;
+  stop: string;
   undo: string;
   check: string;
   x: string;
@@ -23,6 +24,7 @@ const ICONS: FontIcons = {
   redo: '',
   play: '',
   pause: '',
+  stop: '',
   undo: '←',
   check: '',
   x: '',
