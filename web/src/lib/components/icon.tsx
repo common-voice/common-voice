@@ -24,7 +24,7 @@ const ICONS: FontIcons = {
   redo: '',
   play: '',
   pause: '',
-  stop: '',
+  stop: '',
   undo: '←',
   check: '',
   x: '',
