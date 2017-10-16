@@ -283,7 +283,6 @@ input:invalid {
   left: 0;
 }
 
-.delete-box,
 .play-box {
   background-color: var(--color-listen);
 }
@@ -327,6 +326,22 @@ body.mobile-safari .play-box:active {
 
 .delete-box {
   margin-left: var(--standard-margin);
+  border: 1px solid black;
+}
+
+body:not(.mobile-safari) .delete-box:hover,
+body.mobile-safari .delete-box:active {
+  background-color: black;
+  color: white;
+}
+
+.play-box {
+  border: 1px solid var(--color-listen);
+}
+
+body:not(.mobile-safari) .play-box:hover,
+body.mobile-safari .play-box:active {
+  border-color: var(--color-listen-dark);
 }
 
 .vote-box {

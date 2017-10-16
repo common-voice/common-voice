@@ -154,7 +154,7 @@ export default class ListenBox extends Component<Props, State> {
           style={this.props.vote ? 'display: none;' : ''}
           class="delete-box"
           onClick={this.onDelete}>
-          <Icon type="x" />
+          <Icon type="redo" />
         </div>
         <div
           style={!this.props.vote ? 'display: none;' : ''}
