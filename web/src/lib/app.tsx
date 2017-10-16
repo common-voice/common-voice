@@ -2,7 +2,7 @@ import { h, render } from 'preact';
 import User from './user';
 import API from './api';
 import Pages from './components/pages';
-import { isMobileSafari, isFocus, isNativeIOS } from './utility';
+import { isMobileWebkit, isFocus, isNativeIOS } from './utility';
 import DebugBox from './components/debug-box';
 
 const LOAD_DELAY = 500; // before pulling the curtain
@@ -55,7 +55,7 @@ export default class App {
       document.body.classList.add('focus');
     }
 
-    if (isMobileSafari()) {
+    if (isMobileWebkit()) {
       document.body.classList.add('mobile-safari');
     }
 
