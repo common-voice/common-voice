@@ -44,7 +44,7 @@
   --color-speak-light: #FDC6C8;
   --color-listen: #B7D43F;
   --color-listen-dark: #7F9622;
-  --color-sentence: #E7E5E2;
+  --color-secondary: #E7E5E2;
   --color-about: #f8b83e;
   --color-profile: #9D9D9C;
   --color-help: #3DFEFD;
@@ -298,7 +298,7 @@ input:invalid {
   display: flex;
   align-items: center;
   margin-right: var(--standard-margin);
-  background-color: var(--color-sentence);
+  background-color: var(--color-secondary);
 }
 
 @media (max-width: 600px) {
@@ -478,7 +478,7 @@ header.active {
 
 #help-links {
   height: 6rem;
-  background-color: #e7e5e2;
+  background-color: var(--color-secondary);
 }
 
 #help-links a {
