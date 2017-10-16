@@ -325,6 +325,7 @@ body.mobile-safari .play-box:active {
 }
 
 .delete-box {
+  background-color: white;
   margin-left: var(--standard-margin);
   border: 1px solid black;
 }
