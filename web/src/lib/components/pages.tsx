@@ -351,6 +351,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
     return (
       <div id="main" className={className}>
         {isIOS() &&
+          !isNativeIOS() &&
           !isSafari() && (
             // This is a banner for non-Safari browsers on iOS.
             // In iOS Safari, we display a 'Smart App Banner' instead.
