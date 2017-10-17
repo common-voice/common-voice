@@ -142,9 +142,13 @@ export default class Bucket {
   async loadCache(): Promise<void> {
     this.print('loading clip data');
 
+    let chunkCount = 0;
+    let startLoading = Date.now();
+
     // Keep processing s3 objects as long as we get a continuationToken.
     let next: string;
     do {
+      ++chunkCount;
       const startRequest = Date.now();
       const results = await this.fetchObjects(next);
 
@@ -152,10 +156,12 @@ export default class Bucket {
       this.model.processFilePaths(results.filePaths);
 
       // Print some loading stats.
+      let now = Date.now();
       let secondsToLoad = ((startParsing - startRequest) / 1000).toFixed(2);
-      let secondsToParse = ((Date.now() - startParsing) / 1000).toFixed(2);
+      let secondsToParse = ((now - startParsing) / 1000).toFixed(2);
+      let timeSoFar = ((now - startLoading) / 1000).toFixed(2);
       this.print(
-        `${secondsToLoad}s to load chunk, ${secondsToParse}s to parse`
+        `${secondsToLoad}s to load, ${secondsToParse}s to parse, ${timeSoFar}s total, ${chunkCount} chunks`
       );
 
       next = results.continuationToken;
@@ -164,6 +170,10 @@ export default class Bucket {
         await sleep(LOAD_DELAY);
       }
     } while (next);
+
+    // Output bucket loading metrics.
+    let totalTime = ((Date.now() - startLoading) / 1000).toFixed(2);
+    this.print(`${totalTime}s to load ${chunkCount} chunks`);
 
     // Finalize model processing, and print stats.
     this.model.setLoaded();
