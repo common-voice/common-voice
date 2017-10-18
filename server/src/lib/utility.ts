@@ -32,10 +32,10 @@ export function getFirstDefined(...options: any[]) {
  * Are we the chosen one?
  * Returns promise which resolves to true is we are the master deploy server.
  */
-export function isLeaderServer(): Promise<boolean> {
+export function isLeaderServer(environment: string): Promise<boolean> {
   return new Promise((res: Function, rej: Function) => {
     exec(
-      'consul-do common-voice $(hostname) && echo success',
+      'consul-do common-voice-' + environment + ' $(hostname) && echo success',
       (err: any, stdout: any, stderr: any) => {
         console.log('checkleader', !err, stdout.length, stderr.length);
         if (err) {
