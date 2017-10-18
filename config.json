@@ -8,5 +8,6 @@
   "MYSQLHOST": "localhost",
   "MYSQLPORT":  "3306",
   "BUCKET_NAME": "",
-  "BUCKET_LOCATION": ""
+  "BUCKET_LOCATION": "",
+  "ENVIRONMENT": "default"
 }
