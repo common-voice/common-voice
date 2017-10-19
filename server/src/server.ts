@@ -70,7 +70,7 @@ export default class Server {
       .addListener('end', () => {
         this.staticServer.serve(request, response, (err: any) => {
           if (err && err.status === 404) {
-            console.error('page not found', request.url);
+            console.log('non-static resource request', request.url);
 
             // If file was not front, use main page and
             // let the front end handle url routing.
