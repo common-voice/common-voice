@@ -35,9 +35,8 @@ export function getFirstDefined(...options: any[]) {
 export function isLeaderServer(environment: string): Promise<boolean> {
   return new Promise((res: Function, rej: Function) => {
     exec(
-      'consul-do common-voice-' + environment + ' $(hostname) && echo success',
+      `consul-do common-voice-${environment} $(hostname)`,
       (err: any, stdout: any, stderr: any) => {
-        console.log('checkleader', !err, stdout.length, stderr.length);
         if (err) {
           res(false);
         } else {
