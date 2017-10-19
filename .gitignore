@@ -3,10 +3,11 @@ web/dist/
 server/js/
 server/upload/
 xcuserdata/
-.ignore/
+.ignore
+.ignored_files/
 .DS_Store
 .vscode/
-.idea
+ZZidea
 
 # Nubis
 nubis/librarian-puppet.tar.gz
