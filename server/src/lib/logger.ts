@@ -1,11 +1,14 @@
 import * as os from 'os';
 
+const RandomName = require('node-random-name');
+
 const NAME = 'voice';
 const LEVEL_LOG = 'log';
 const LEVEL_ERROR = 'error';
 
 interface MessageFields {
   name: string;
+  nickname: string;
   level: string;
   hostname: string;
   pid: number;
@@ -15,6 +18,7 @@ interface MessageFields {
 
 export default class Logger {
   name: string;
+  nickname: string;
   hostname: string;
   pid: number;
   boundLog: Function;
@@ -22,10 +26,13 @@ export default class Logger {
 
   constructor() {
     this.name = NAME;
+    this.nickname = RandomName({ last: true });
     this.hostname = os.hostname();
     this.pid = process.pid;
     this.boundLog = null;
     this.boundError = null;
+
+    console.log('hello', this.nickname);
   }
 
   private getDateString() {
@@ -36,6 +43,7 @@ export default class Logger {
     return {
       msg: msg,
       name: this.name,
+      nickname: this.nickname,
       level: level,
       hostname: this.hostname,
       pid: this.pid,
