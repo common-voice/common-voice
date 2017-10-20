@@ -27,26 +27,32 @@ const SERVER_SCRIPT = './server/js/server.js'
 const RELOAD_DELAY = 2500;
 
 // Add gulp help functionality.
-let gulp = require('gulp-help')(require('gulp'));
-let shell = require('gulp-shell');
-let path = require('path');
-let ts = require('gulp-typescript');
-let insert = require('gulp-insert');
-let eslint = require('gulp-eslint');
+const gulp = require('gulp-help')(require('gulp'));
+const shell = require('gulp-shell');
+const path = require('path');
+const ts = require('gulp-typescript');
+const insert = require('gulp-insert');
+const eslint = require('gulp-eslint');
+const clean = require('gulp-clean');
+const nodemon = require('gulp-nodemon');
 
 function listen() {
-  require('gulp-nodemon')({
+  const stream = nodemon({
     script: SERVER_SCRIPT,
     // Use [c] here to workaround nodemon bug #951
     watch: [DIR_SERVER_JS, DIR_CLIENT, '[c]onfig.json'],
     delay: RELOAD_DELAY,
   });
+
+  stream.on('crash', () => {
+    console.error('\n** Mostly likely your build failed. Fix errors and try again. **\n');
+  });
 }
 
 function watch() {
   gulp.watch('package.json', ['npm-install']);
-  gulp.watch(PATH_TS, [ 'lint-web', 'ts' ]);
-  gulp.watch(PATH_VENDOR, [ 'lint-web', 'ts' ]);
+  gulp.watch(PATH_TS, [ 'ts' ]);
+  gulp.watch(PATH_VENDOR, [ 'ts' ]);
   gulp.watch(PATH_TS_SERVER, [ 'lint-server', 'ts-server' ]);
   gulp.watch(PATH_CSS, ['css']);
 }
@@ -131,6 +137,11 @@ function lint(src) {
     .pipe(eslint.failAfterError());
 }
 
+function cleanFolder(src) {
+  return gulp.src(src, { read: false })
+    .pipe(clean());
+}
+
 function prettify(src) {
   return gulp.src(src, { base: CWD })
     .pipe(eslint({ fix: true }))
@@ -150,16 +161,25 @@ gulp.task('prettify', 'Auto-format all typescript code', prettifyAll);
 
 gulp.task('css', 'Minify CSS files', compileCSS);
 
-gulp.task('ts', 'Compile typescript files into bundle.js', ['lint-web'], compileClient);
+gulp.task('ts', 'Compile typescript files into bundle.js',
+  ['clean-web', 'lint-web'], compileClient);
 
-gulp.task('ts-server', 'Compile typescript server files.', ['lint-server'], compileServer);
+gulp.task('ts-server', 'Compile typescript server files.',
+  ['clean-server', 'lint-server'], compileServer);
 
 gulp.task('build', 'Build both server and client js', ['ts', 'ts-server', 'css']);
 
 gulp.task('npm-install', 'Install npm dependencies.',
   shell.task(['npm install']));
 
-gulp.task('clean', 'Remove uploaded clips.',
+gulp.task('clean-web', cleanFolder.bind(null, DIR_DIST));
+
+gulp.task('clean-server', cleanFolder.bind(null, DIR_SERVER_JS));
+
+gulp.task('clean', 'Remove all build files.',
+  ['clien-web', 'clien-server']);
+
+gulp.task('clean-upload', 'Remove uploaded clips.',
   shell.task([`git clean -idx ${DIR_UPLOAD}`]));
 
 gulp.task('listen', 'Run development server.', listen);
