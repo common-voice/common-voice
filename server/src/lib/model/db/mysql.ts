@@ -1,7 +1,8 @@
-import { getFirstDefined } from '../utility';
+import { getFirstDefined } from '../../utility';
 import { createPool, IPool } from 'mysql';
 
-const config = require('../../../../config.json');
+const CWD = process.cwd();
+const config = require(CWD + '/config.json');
 
 type MysqlOptions = {
   user: string;
