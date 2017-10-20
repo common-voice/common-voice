@@ -171,6 +171,7 @@ export default class App {
     setTimeout(() => {
       this.loaded = true;
       document.body.classList.add('loaded');
+      this.renderCurrentPage();
     }, LOAD_TIMEOUT);
 
     await this.loadImages((progress: number) => {
