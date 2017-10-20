@@ -1,7 +1,7 @@
 {
   "PROD": false,
   "DB_ROOT_USER": "root",
-  "DB_ROOT_PASS": "root",
+  "DB_ROOT_PASS": "",
   "MYSQLUSER": "voicecommons",
   "MYSQLPASS": "voicecommons",
   "MYSQLDBNAME": "voiceweb",
