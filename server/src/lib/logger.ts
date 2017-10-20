@@ -31,8 +31,6 @@ export default class Logger {
     this.pid = process.pid;
     this.boundLog = null;
     this.boundError = null;
-
-    console.log('hello', this.nickname);
   }
 
   private getDateString() {
