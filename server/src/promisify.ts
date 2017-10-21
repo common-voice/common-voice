@@ -14,12 +14,12 @@ export default function run(
     method.apply(
       context,
       args.concat([
-        (err: any, result: any) => {
+        (err: any, ...rest: any[]) => {
           if (err) {
             reject(err);
             return;
           }
-          resolve(result);
+          resolve.apply(null, rest);
         },
       ])
     );

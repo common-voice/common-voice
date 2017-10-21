@@ -4,6 +4,16 @@
 
 import { exec } from 'child_process';
 
+const md5 = require('js-md5');
+const DEFAULT_SALT = '8shd9fg3oi0fj';
+
+/**
+ * Hash the string.
+ */
+export function hash(str: string, salt?: string): string {
+  return md5(str + (salt || DEFAULT_SALT));
+}
+
 /**
  * Returns the file extension of some path.
  */

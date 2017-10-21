@@ -92,4 +92,11 @@ export default class API {
     }
     respond(response, randoms.join('\n'));
   }
+
+  /**
+   * Upgrade backend systems like the database.
+   */
+  async performMaintenance(): Promise<void> {
+    return this.clip.upgradeDatabase();
+  }
 }

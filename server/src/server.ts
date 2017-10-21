@@ -70,7 +70,7 @@ export default class Server {
       .addListener('end', () => {
         this.staticServer.serve(request, response, (err: any) => {
           if (err && err.status === 404) {
-            console.log('non-static resource request', request.url);
+            this.print('non-static resource request', request.url);
 
             // If file was not front, use main page and
             // let the front end handle url routing.
@@ -95,7 +95,8 @@ export default class Server {
   }
 
   private async checkLeader(): Promise<boolean> {
-    return await isLeaderServer(config.ENVIRONMENT || 'default');
+    return true;
+    //return await isLeaderServer(config.ENVIRONMENT || 'default');
   }
 
   private async loadCache(): Promise<void> {
@@ -134,11 +135,23 @@ export default class Server {
     }
 
     // Figure out if this server is the leader.
+    let isLeader = false;
     try {
-      let isLeader = await this.checkLeader();
+      isLeader = await this.checkLeader();
       this.print(isLeader, 'leader');
     } catch (err) {
       console.error('error checking for leader', err.message);
+    }
+
+    // Leader servers will perform database maintenance.
+    if (isLeader) {
+      this.print('performing Maintenance');
+      try {
+        await this.api.performMaintenance();
+        this.print('Maintenance complete');
+      } catch (err) {
+        console.error('DB Maintenance error', err.code);
+      }
     }
   }
 
