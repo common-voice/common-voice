@@ -19,7 +19,6 @@ export type MysqlOptions = {
   max: number;
   idleTimeoutMillis: number;
   multipleStatements: boolean;
-  maxPacketSize: number;
 };
 
 // Default configuration values, notice we dont have password.
@@ -31,7 +30,6 @@ const DEFAULTS = {
   port: 3306,
   max: 10,
   idleTimeoutMillis: 30000,
-  maxPacketSize: 65535,
 };
 
 export default class Mysql {
@@ -68,7 +66,6 @@ export default class Mysql {
         DEFAULTS.idleTimeoutMillis
       ),
       multipleStatements: false,
-      maxPacketSize: DEFAULTS.maxPacketSize,
     };
   }
 
