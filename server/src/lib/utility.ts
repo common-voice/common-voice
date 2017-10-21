@@ -15,6 +15,13 @@ export function hash(str: string, salt?: string): string {
 }
 
 /**
+ * Get elapsed seconds from timestamp.
+ */
+export function getElapsedSeconds(timestamp: number): number {
+  return Math.round((Date.now() - timestamp) / 1000);
+}
+
+/**
  * Returns the file extension of some path.
  */
 export function getFileExt(path: string): string {

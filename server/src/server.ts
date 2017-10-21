@@ -3,7 +3,7 @@ import * as path from 'path';
 
 import API from './lib/api';
 import Logger from './lib/logger';
-import { isLeaderServer } from './lib/utility';
+import { isLeaderServer, getElapsedSeconds } from './lib/utility';
 import { Server as NodeStaticServer } from 'node-static';
 
 const DEFAULT_PORT = 9000;
@@ -20,25 +20,30 @@ export default class Server {
   api: API;
   logger: Logger;
   staticServer: any;
+  isLeader: boolean;
 
   constructor() {
-    this.staticServer = new NodeStaticServer(
-      path.join(__dirname, CLIENT_PATH),
-      {
-        cache: false,
-        headers: {
-          'Content-Security-Policy': CSP_HEADER,
-        },
-      }
-    );
-
+    this.staticServer = this.getServer();
     this.api = new API();
+    this.logger = new Logger();
+    this.isLeader = null;
 
     // Make console.log output json.
     if (config.PROD) {
-      this.logger = new Logger();
       this.logger.overrideConsole();
     }
+  }
+
+  /**
+   * Create our http server object.
+   */
+  private getServer() {
+    return new NodeStaticServer(path.join(__dirname, CLIENT_PATH), {
+      cache: false,
+      headers: {
+        'Content-Security-Policy': CSP_HEADER,
+      },
+    });
   }
 
   /**
@@ -94,14 +99,56 @@ export default class Server {
       .resume();
   }
 
+  /**
+   * Check if we are the chosen leader server (for performance maintenance).
+   */
   private async checkLeader(): Promise<boolean> {
-    return await isLeaderServer(config.ENVIRONMENT || 'default');
+    if (this.isLeader !== null) {
+      return this.isLeader;
+    }
+
+    try {
+      this.isLeader = await isLeaderServer(config.ENVIRONMENT || 'default');
+      this.print('leader', this.isLeader);
+    } catch (err) {
+      console.error('error checking for leader', err.message);
+      this.isLeader = false;
+    }
+
+    return this.isLeader;
   }
 
+  /**
+   * Load our memory cache of site data (users, clips sentences).
+   */
   private async loadCache(): Promise<void> {
-    await this.api.loadCache();
+    const start = Date.now();
+
+    try {
+      await this.api.loadCache();
+    } catch (err) {
+      console.error('error loading clips', err.message);
+    } finally {
+      this.print(`${getElapsedSeconds(start)}s to load`);
+    }
   }
 
+  private async performMaintenance(): Promise<void> {
+    const start = Date.now();
+    this.print('performing Maintenance');
+    try {
+      await this.api.performMaintenance();
+      this.print('Maintenance complete');
+    } catch (err) {
+      console.error('DB Maintenance error', err.code);
+    } finally {
+      this.print(`${getElapsedSeconds(start)}s to perform maintenance`);
+    }
+  }
+
+  /**
+   * Boot up the http server.
+   */
   listen(): void {
     // Begin handling requests before clip list is loaded.
     let port = config.port || DEFAULT_PORT;
@@ -117,40 +164,18 @@ export default class Server {
     // Log the start.
     this.print('starting');
 
-    // Initialize our clip list.
-    let start = Date.now();
-
     // Boot up our http server.
     this.listen();
 
     // Attemp to load cache (sentences and audio metadata).
-    try {
-      await this.loadCache();
-    } catch (err) {
-      console.error('error loading clips', err.message);
-    } finally {
-      let elapsedSeconds = Math.round((Date.now() - start) / 1000);
-      this.print(`${elapsedSeconds}s to load`);
-    }
+    this.loadCache();
 
     // Figure out if this server is the leader.
-    let isLeader = false;
-    try {
-      isLeader = await this.checkLeader();
-      this.print(isLeader, 'leader');
-    } catch (err) {
-      console.error('error checking for leader', err.message);
-    }
+    const isLeader = await this.checkLeader();
 
     // Leader servers will perform database maintenance.
     if (isLeader) {
-      this.print('performing Maintenance');
-      try {
-        await this.api.performMaintenance();
-        this.print('Maintenance complete');
-      } catch (err) {
-        console.error('DB Maintenance error', err.code);
-      }
+      await this.performMaintenance();
     }
   }
 
