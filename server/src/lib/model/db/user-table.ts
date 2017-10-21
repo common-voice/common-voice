@@ -7,11 +7,7 @@ const UserSchema: TableSchema = {
   name: NAME,
   columns: {
     id: Table.PRIMARY_KEY_TYPE,
-    email: 'varchar(200) unique',
-    birthyear: 'smallint',
-    accent: 'varchar(100)',
-    gender: 'varchar(1)',
-    name: 'varchar(50)',
+    email: 'varchar(255) unique',
   },
   indexes: null,
 };
