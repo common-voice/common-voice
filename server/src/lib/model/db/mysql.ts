@@ -3,7 +3,6 @@ import { IConnection } from 'mysql2Types';
 import promisify from '../../../promisify';
 
 const SALT = 'hoads8fh49hgfls';
-const DELIMITER = '$$';
 const CWD = process.cwd();
 const config = require(CWD + '/config.json');
 
