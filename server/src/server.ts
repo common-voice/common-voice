@@ -168,6 +168,7 @@ export default class Server {
     this.listen();
 
     // Attemp to load cache (sentences and audio metadata).
+    // Note: we don't wait for this to finish before continuing.
     this.loadCache();
 
     // Figure out if this server is the leader.
