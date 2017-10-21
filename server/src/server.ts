@@ -95,8 +95,7 @@ export default class Server {
   }
 
   private async checkLeader(): Promise<boolean> {
-    return true;
-    //return await isLeaderServer(config.ENVIRONMENT || 'default');
+    return await isLeaderServer(config.ENVIRONMENT || 'default');
   }
 
   private async loadCache(): Promise<void> {
