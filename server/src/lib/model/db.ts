@@ -28,7 +28,7 @@ export default class DB {
   /**
    * Make sure we have a fully updated schema.
    */
-  async ensureLatest() {
+  async ensureLatest(): Promise<void> {
     await this.schema.ensure();
     let version;
 
@@ -39,6 +39,6 @@ export default class DB {
       version = 0;
     }
 
-    return this.schema.upgrade(version);
+    await this.schema.upgrade(version);
   }
 }

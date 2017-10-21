@@ -100,5 +100,7 @@ export default class Schema {
       const upgradeVersion = oldVersion + 1;
       await this.upgradeToVersion(upgradeVersion);
     }
+
+    this.print('updated to version', CURRENT_VERSION);
   }
 }
