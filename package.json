@@ -6,7 +6,7 @@
   "repository": "mozilla/voice-web",
   "main": "server/server.js",
   "dependencies": {
-    "aws-sdk": "^2.67.0",
+    "aws-sdk": "^2.133.0",
     "bcrypt": "^1.0.2",
     "eslint": "^4.7.2",
     "eslint-plugin-prettier": "^2.3.1",
@@ -38,6 +38,7 @@
     "walk": "^2.3.9"
   },
   "devDependencies": {
+    "@types/aws-sdk": "^2.7.0",
     "@types/mkdirp": "^0.5.1",
     "@types/mysql": "0.0.34",
     "@types/node": "7.0.29",

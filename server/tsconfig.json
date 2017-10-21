@@ -2,10 +2,12 @@
   "compileOnSave": true,
   "compilerOptions": {
     "target": "es5",
+    "module": "system",
     "noImplicitAny": true,
     "strictNullChecks": false,
     "noEmitOnError": true,
     "typeRoots": [ "../node_modules/@types" ],
+    "outFile": "bundle.js",
     "rootDir": "./src",
     "lib": [ "es6" ]
   }
