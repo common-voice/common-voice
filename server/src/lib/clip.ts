@@ -400,4 +400,11 @@ export default class Clip {
       this.streamAudio(request, response, key);
     });
   }
+
+  /**
+   * Upgrade to current version of the database.
+   */
+  async upgradeDatabase(): Promise<void> {
+    return this.model.ensureLatestDatabase();
+  }
 }

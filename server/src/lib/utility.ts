@@ -4,6 +4,23 @@
 
 import { exec } from 'child_process';
 
+const md5 = require('js-md5');
+const DEFAULT_SALT = '8shd9fg3oi0fj';
+
+/**
+ * Hash the string.
+ */
+export function hash(str: string, salt?: string): string {
+  return md5(str + (salt || DEFAULT_SALT));
+}
+
+/**
+ * Get elapsed seconds from timestamp.
+ */
+export function getElapsedSeconds(timestamp: number): number {
+  return Math.round((Date.now() - timestamp) / 1000);
+}
+
 /**
  * Returns the file extension of some path.
  */
@@ -33,6 +50,11 @@ export function getFirstDefined(...options: any[]) {
  * Returns promise which resolves to true is we are the master deploy server.
  */
 export function isLeaderServer(environment: string): Promise<boolean> {
+  // Local server is always the leader.
+  if (environment === 'default') {
+    return Promise.resolve(true);
+  }
+
   return new Promise((res: Function, rej: Function) => {
     exec(
       `consul-do common-voice-${environment} $(hostname)`,

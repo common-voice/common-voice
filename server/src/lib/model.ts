@@ -1,3 +1,4 @@
+import DB from './model/db';
 import Users from './model/users';
 import { default as Clips, Clip } from './model/clips';
 
@@ -10,11 +11,13 @@ const JSON_EXT = '.json';
  * The Model loads all clip and user data into memory for quick access.
  */
 export default class Model {
+  db: DB;
   users: Users;
   clips: Clips;
   loaded: boolean;
 
   constructor() {
+    this.db = new DB();
     this.users = new Users();
     this.clips = new Clips();
     this.loaded = false;
@@ -148,5 +151,12 @@ export default class Model {
     this.print(`${clips} clips, ${users} users, ${votes} votes`);
 
     this.loaded = true;
+  }
+
+  /**
+   * Upgrade to the latest version of the db.
+   */
+  async ensureLatestDatabase() {
+    return this.db.ensureLatest();
   }
 }
