@@ -26,10 +26,24 @@ export default class DB {
   }
 
   /**
+   * Ensure we can connect to database at least as root.
+   */
+  async ensureConnection(): Promise<void> {
+    return this.mysql.ensureConnection(true);
+  }
+
+  /**
+   * Ensure the database is setup.
+   */
+  async ensureSetup(): Promise<void> {
+    return this.schema.ensure();
+  }
+
+  /**
    * Make sure we have a fully updated schema.
    */
   async ensureLatest(): Promise<void> {
-    await this.schema.ensure();
+    await this.ensureSetup();
     let version;
 
     try {
@@ -40,5 +54,12 @@ export default class DB {
     }
 
     await this.schema.upgrade(version);
+  }
+
+  /**
+   * End connection to the database.
+   */
+  endConnection(): void {
+    this.mysql.endConnection();
   }
 }

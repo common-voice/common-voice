@@ -1,6 +1,7 @@
 import * as http from 'http';
 import * as path from 'path';
 
+import Model from './lib/model';
 import API from './lib/api';
 import Logger from './lib/logger';
 import { isLeaderServer, getElapsedSeconds } from './lib/utility';
@@ -17,6 +18,7 @@ const config = require(CONFIG_PATH);
 
 export default class Server {
   server: http.Server;
+  model: Model;
   api: API;
   logger: Logger;
   staticServer: any;
@@ -24,7 +26,8 @@ export default class Server {
 
   constructor() {
     this.staticServer = this.getServer();
-    this.api = new API();
+    this.model = new Model();
+    this.api = new API(this.model);
     this.logger = new Logger();
     this.isLeader = null;
 
@@ -123,6 +126,7 @@ export default class Server {
    */
   private async loadCache(): Promise<void> {
     const start = Date.now();
+    this.print('loading clip cache');
 
     try {
       await this.api.loadCache();
@@ -133,17 +137,32 @@ export default class Server {
     }
   }
 
+  /**
+   * Perform any scheduled maintenance on the data model.
+   */
   private async performMaintenance(): Promise<void> {
     const start = Date.now();
     this.print('performing Maintenance');
+
     try {
-      await this.api.performMaintenance();
+      await this.model.performMaintenance();
       this.print('Maintenance complete');
     } catch (err) {
       console.error('DB Maintenance error', err.code);
     } finally {
       this.print(`${getElapsedSeconds(start)}s to perform maintenance`);
     }
+  }
+
+  /**
+   * Kill the http server if it's running.
+   */
+  kill(): void {
+    if (this.server) {
+      this.server.close();
+      this.server = null;
+    }
+    this.model.cleanUp();
   }
 
   /**
@@ -185,6 +204,27 @@ export default class Server {
    */
   async countCorpus(): Promise<void> {
     this.api.corpus.displayMetrics();
+  }
+
+  /**
+   * Make sure the server can connect to the database.
+   */
+  async ensureDatabaseConnection(): Promise<void> {
+    return this.model.ensureDatabaseConnection();
+  }
+
+  /**
+   * Make sure the database is set up.
+   */
+  async ensureDatabaseSetup(): Promise<void> {
+    return this.model.ensureDatabaseSetup();
+  }
+
+  /**
+   * Grab the latest version number from the database.
+   */
+  async getDatabaseVersion(): Promise<number> {
+    return this.model.db.version.getCurrentVersion();
   }
 }
 

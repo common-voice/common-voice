@@ -1,6 +1,7 @@
 import * as http from 'http';
 import * as path from 'path';
 
+import Model from './model';
 import Clip from './clip';
 import Corpus from './corpus';
 import Prometheus from './prometheus';
@@ -8,13 +9,15 @@ import WebHook from './webhook';
 import respond from './responder';
 
 export default class API {
+  model: Model;
   clip: Clip;
   corpus: Corpus;
   metrics: Prometheus;
   webhook: WebHook;
 
-  constructor() {
-    this.clip = new Clip();
+  constructor(model: Model) {
+    this.model = model;
+    this.clip = new Clip(this.model);
     this.corpus = new Corpus();
     this.metrics = new Prometheus();
     this.webhook = new WebHook();
@@ -91,12 +94,5 @@ export default class API {
       return;
     }
     respond(response, randoms.join('\n'));
-  }
-
-  /**
-   * Upgrade backend systems like the database.
-   */
-  async performMaintenance(): Promise<void> {
-    return this.clip.upgradeDatabase();
   }
 }

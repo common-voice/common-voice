@@ -32,9 +32,9 @@ export default class Clip {
   private bucket: Bucket;
   private model: Model;
 
-  constructor() {
+  constructor(model: Model) {
     this.s3 = new S3({ signatureVersion: 'v4' });
-    this.model = new Model();
+    this.model = model;
     this.bucket = new Bucket(this.model);
   }
 
@@ -399,12 +399,5 @@ export default class Clip {
       // Stream audio to client
       this.streamAudio(request, response, key);
     });
-  }
-
-  /**
-   * Upgrade to current version of the database.
-   */
-  async upgradeDatabase(): Promise<void> {
-    return this.model.ensureLatestDatabase();
   }
 }

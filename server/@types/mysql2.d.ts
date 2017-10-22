@@ -5,5 +5,4 @@ declare module 'mysql2Types' {
   export interface IConnection extends mysql.IConnection {
     execute(sql: string, values?: any[]): Promise<any[]>;
   }
-
 }

@@ -15,6 +15,8 @@ const DIR_UPLOAD = DIR_SERVER + 'upload/';
 const DIR_SERVER_JS = DIR_SERVER + 'js/';
 const DIR_DIST = DIR_CLIENT + 'dist/';
 const DIR_TOOLS = CWD + 'tools/';
+const DIR_TEST_TS = DIR_SERVER_SRC + 'test/'
+const DIR_TEST_JS = DIR_SERVER_JS + 'test/';
 
 const PATH_CSS = DIR_CLIENT + 'css/*.css';
 const PATH_TS = DIR_CLIENT_SRC + TS_GLOB;
@@ -24,7 +26,8 @@ const PATH_TS_DEFS_SERVER = DIR_SERVER_DEFS + TS_GLOB;
 const PATH_TS_CONFIG_SERVER = DIR_SERVER + TS_CONFIG;
 const PATH_CLIENT_JS = DIR_DIST + JS_GLOB;
 const PATH_VENDOR = DIR_CLIENT + 'vendor/';
-const SERVER_SCRIPT = './server/js/server.js';
+const PATH_TEST_JS = DIR_TEST_JS + '*.js';
+const SERVER_SCRIPT = './server/js/server.js'
 
 const RELOAD_DELAY = 2500;
 
@@ -179,7 +182,7 @@ gulp.task('clean-web', cleanFolder.bind(null, PATH_CLIENT_JS));
 gulp.task('clean-server', cleanFolder.bind(null, DIR_SERVER_JS));
 
 gulp.task('clean', 'Remove all build files.',
-  ['clien-web', 'clien-server']);
+  ['clean-web', 'clean-server']);
 
 gulp.task('clean-upload', 'Remove uploaded clips.',
   shell.task([`git clean -idx ${DIR_UPLOAD}`]));
@@ -239,6 +242,16 @@ gulp.task('count', 'Print sentence collection count.', ['ts-server'], () => {
 
 gulp.task('default', 'Running just `gulp`.', ['build'], () => {
   watchAndListen();
+});
+
+gulp.task('test', 'Run all tests.', ['ts-server'], () => {
+  const tape = require('gulp-tape');
+  const colorize = require('tap-colorize');
+  return gulp.src(PATH_TEST_JS)
+    .pipe(tape({
+      bail: true,
+      reporter: colorize(),
+    }));
 });
 
 // Deploy script also runs this file, so exec the default task.

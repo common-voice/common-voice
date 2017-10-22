@@ -154,9 +154,30 @@ export default class Model {
   }
 
   /**
+   * Make sure we can connect to the database.
+   */
+  async ensureDatabaseConnection(): Promise<void> {
+    return this.db.ensureConnection();
+  }
+
+  /**
+   * Ensure the database is properly set up.
+   */
+  async ensureDatabaseSetup(): Promise<void> {
+    await this.db.ensureSetup();
+  }
+
+  /**
    * Upgrade to the latest version of the db.
    */
-  async ensureLatestDatabase() {
+  async performMaintenance(): Promise<void> {
     return this.db.ensureLatest();
+  }
+
+  /**
+   * Perform any cleanup work to the model before shutting down.
+   */
+  cleanUp(): void {
+    this.db.endConnection();
   }
 }

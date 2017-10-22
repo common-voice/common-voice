@@ -1,4 +1,3 @@
-
 declare module 'mediaserver' {
     import { IncomingMessage, ServerResponse } from 'http';
 
