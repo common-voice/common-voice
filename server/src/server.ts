@@ -1,6 +1,7 @@
 import * as http from 'http';
 import * as path from 'path';
 
+import promisify from './promisify';
 import API from './lib/api';
 import Logger from './lib/logger';
 import { isLeaderServer, getElapsedSeconds } from './lib/utility';
@@ -149,12 +150,19 @@ export default class Server {
   /**
    * Boot up the http server.
    */
-  listen(): void {
+  async listen(): Promise<void> {
     // Begin handling requests before clip list is loaded.
     let port = config.port || DEFAULT_PORT;
     this.server = http.createServer(this.handleRequest.bind(this));
-    this.server.listen(port);
-    this.print(`listening at http://localhost:${port}`);
+    try {
+      this.server.listen(port);
+      await promisify(this.server, this.server.listen, port);
+      this.print(`listening at:: http://localhost:${port}`);
+    } catch (err) {
+      // If we are unable to listen we cannot serve anything, so crash the app.
+      console.error('unable to start server', err);
+      process.exit(1);
+    }
   }
 
   /**
@@ -165,7 +173,7 @@ export default class Server {
     this.print('starting');
 
     // Boot up our http server.
-    this.listen();
+    await this.listen();
 
     // Attemp to load cache (sentences and audio metadata).
     // Note: we don't wait for this to finish before continuing.
