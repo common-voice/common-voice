@@ -1,7 +1,6 @@
 import * as http from 'http';
 import * as path from 'path';
 
-import promisify from './promisify';
 import API from './lib/api';
 import Logger from './lib/logger';
 import { isLeaderServer, getElapsedSeconds } from './lib/utility';
@@ -150,19 +149,12 @@ export default class Server {
   /**
    * Boot up the http server.
    */
-  async listen(): Promise<void> {
+  listen(): void {
     // Begin handling requests before clip list is loaded.
     let port = config.port || DEFAULT_PORT;
     this.server = http.createServer(this.handleRequest.bind(this));
-    try {
-      this.server.listen(port);
-      await promisify(this.server, this.server.listen, port);
-      this.print(`listening at:: http://localhost:${port}`);
-    } catch (err) {
-      // If we are unable to listen we cannot serve anything, so crash the app.
-      console.error('unable to start server', err);
-      process.exit(1);
-    }
+    this.server.listen(port);
+    this.print(`listening at http://localhost:${port}`);
   }
 
   /**
@@ -173,7 +165,7 @@ export default class Server {
     this.print('starting');
 
     // Boot up our http server.
-    await this.listen();
+    this.listen();
 
     // Attemp to load cache (sentences and audio metadata).
     // Note: we don't wait for this to finish before continuing.
@@ -196,8 +188,15 @@ export default class Server {
   }
 }
 
+// Handle any top-level exceptions uncaught in the app.
 process.on('uncaughtException', function(err: any) {
-  console.error('uncaught exception', err);
+  if (err.code === 'EADDRINUSE') {
+    console.error('ERROR: server already running');
+  } else {
+    console.error('uncaught exception', err);
+  }
+  // We will crash the app when getting top-level exceptions.
+  process.exit(1);
 });
 
 // If this file is run directly, boot up a new server instance.
