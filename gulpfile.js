@@ -5,6 +5,7 @@ const CWD = process.cwd() + '/';
 const APP_NAME = 'common-voice';
 const TS_CONFIG = 'tsconfig.json';
 const TS_GLOB = '**/*.ts*';
+const JS_GLOB = '**/*.js';
 const DIR_CLIENT = CWD + 'web/';
 const DIR_CLIENT_SRC = DIR_CLIENT + 'src/';
 const DIR_SERVER = CWD + 'server/';
@@ -21,8 +22,9 @@ const PATH_TS_CONFIG = DIR_CLIENT + TS_CONFIG;
 const PATH_TS_SERVER = DIR_SERVER_SRC + TS_GLOB;
 const PATH_TS_DEFS_SERVER = DIR_SERVER_DEFS + TS_GLOB;
 const PATH_TS_CONFIG_SERVER = DIR_SERVER + TS_CONFIG;
+const PATH_CLIENT_JS = DIR_DIST + JS_GLOB;
 const PATH_VENDOR = DIR_CLIENT + 'vendor/';
-const SERVER_SCRIPT = './server/js/server.js'
+const SERVER_SCRIPT = './server/js/server.js';
 
 const RELOAD_DELAY = 2500;
 
@@ -172,7 +174,7 @@ gulp.task('build', 'Build both server and client js', ['ts', 'ts-server', 'css']
 gulp.task('npm-install', 'Install npm dependencies.',
   shell.task(['npm install']));
 
-gulp.task('clean-web', cleanFolder.bind(null, DIR_DIST));
+gulp.task('clean-web', cleanFolder.bind(null, PATH_CLIENT_JS));
 
 gulp.task('clean-server', cleanFolder.bind(null, DIR_SERVER_JS));
 
