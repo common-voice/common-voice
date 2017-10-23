@@ -1,0 +1,98 @@
+.home .bubble {
+    display: flex;
+}
+
+#home-container {
+}
+
+#home-title {
+    padding: 1rem 0;
+}
+
+@media (min-width: 600px) {
+    #home-layout {
+        background-image: url("/img/strip-repeat.png");
+        background-position: 2.5rem 0;
+        background-size: 0.2rem;
+        background-repeat: repeat-y;
+    }
+}
+
+@media (max-width: 600px) {
+    #home-layout div.left-column {
+        padding-left: 0;
+    }
+    #home-layout div.right-column {
+        display: none;
+    }
+}
+
+#home-layout {
+    --donate-height: 5rem;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: var(--donate-height);
+}
+
+#home-layout .left-column {
+    padding-left: 8rem;
+    line-height: 1.55;
+}
+
+#home-layout .left-column p:first-child {
+    margin-bottom: 1rem;
+}
+
+#home-layout .left-column > button {
+    float: right;
+}
+
+#home-layout .right-column {
+    flex: 0 0 30%;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    position: relative;
+    bottom: -12rem;
+}
+
+#home-layout .right-column > p {
+    text-shadow: var(--highlight-shadow-listen);
+}
+
+#home-layout .curved-arrow {
+    height: 13rem;
+    position: relative;
+    right: -5rem;
+}
+
+#home-layout .circle {
+    position: absolute;
+    left: -25%;
+    top: 0;
+    height: 8rem;
+}
+
+#donate {
+    height: var(--donate-height);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3rem;
+    text-align: center;
+}
+
+#donate button {
+    margin: 0 auto;
+    padding: 0 5rem;
+    height: 3rem;
+}
+
+#try-it-container {
+    margin: 2.5rem 0;
+}
+
+#home-container .validator {
+    margin-top: 2rem;
+}

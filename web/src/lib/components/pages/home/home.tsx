@@ -1,7 +1,7 @@
 import { h, Component } from 'preact';
-import Validator from '../validator';
-import API from '../../api';
-import User from '../../user';
+import Validator from '../../validator';
+import API from '../../../api';
+import User from '../../../user';
 
 interface Props {
   api: API;

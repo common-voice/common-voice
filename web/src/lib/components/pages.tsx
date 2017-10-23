@@ -5,10 +5,10 @@ import Icon from './icon';
 import PrivacyContent from './privacy-content';
 import Robot from './robot';
 
-import Home from './pages/home';
+import Home from './pages/home/home';
 import Listen from './pages/listen';
-import Record from './pages/record';
-import Profile from './pages/profile';
+import Record from './pages/record/record';
+import Profile from './pages/profile/profile';
 import FAQ from './pages/faq';
 import Privacy from './pages/privacy';
 import Terms from './pages/terms';
