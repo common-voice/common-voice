@@ -15,8 +15,8 @@ const DIR_UPLOAD = DIR_SERVER + 'upload/';
 const DIR_SERVER_JS = DIR_SERVER + 'js/';
 const DIR_DIST = DIR_CLIENT + 'dist/';
 const DIR_TOOLS = CWD + 'tools/';
-const PATH_CSS = DIR_CLIENT + 'css/*.css';
 
+const PATH_CSS = DIR_CLIENT + 'css/*.css';
 const PATH_TS = DIR_CLIENT_SRC + TS_GLOB;
 const PATH_TS_CONFIG = DIR_CLIENT + TS_CONFIG;
 const PATH_TS_SERVER = DIR_SERVER_SRC + TS_GLOB;
