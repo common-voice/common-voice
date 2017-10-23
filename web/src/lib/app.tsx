@@ -68,6 +68,9 @@ export default class App {
 
     // Render before loaded.
     this.renderCurrentPage();
+
+    // React to external navigation (i.e. browser back/forward button)
+    window.addEventListener('popstate', this.renderCurrentPage.bind(this));
   }
 
   private loadImages(progressCallback?: Function): Promise<void> {
