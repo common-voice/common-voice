@@ -372,7 +372,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
             className={this.state.isMenuVisible ? ' is-active' : ''}>
             <Icon type="hamburger" />
           </button>
-          {this.renderNav('main-nav')}
+          {this.renderNav('main-nav', true)}
         </header>
         <div id="scroller">
           <div id="scrollee">
@@ -533,10 +533,10 @@ export default class Pages extends Component<PagesProps, PagesState> {
     );
   }
 
-  private renderNav(id?: string) {
+  private renderNav(id?: string, hideHome?: boolean) {
     return (
       <nav id={id} className="nav-list">
-        {this.renderTab('/', 'home')}
+        {!hideHome && this.renderTab('/', 'home')}
         {this.renderTab('/record', 'speak')}
         {this.renderTab('/listen', 'listen')}
         {this.renderTab('/profile', 'profile')}
