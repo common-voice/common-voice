@@ -1241,6 +1241,7 @@ body:not(.mobile-safari) .robot .bubble:hover {
 }
 
 #recordings-count {
+  color: var(--color-speak);
   font-size: 0.8rem;
   font-weight: bold;
   margin-top: 0.5rem;
@@ -1248,7 +1249,6 @@ body:not(.mobile-safari) .robot .bubble:hover {
 
 #recordings-count span {
   padding: 0.3rem;
-  background-color: var(--color-text-help);
 }
 
 .record-sentence {
@@ -1308,16 +1308,28 @@ body:not(.mobile-safari) .robot .bubble:hover {
 
 #record-button {
   border-radius: 50%;
-  border: 0.6rem solid black;
+  border: 0.3rem solid var(--color-speak);
   background-color: white;
   height: 2.5rem;
   width: 2.5rem;
-  margin: 1rem auto;
+  margin: 1.5rem auto 1rem;
   cursor: pointer;
+  position: relative;
+}
+
+#record-button:after {
+  background-color: var(--color-speak);
+  border-radius: 50%;
+  content: " ";
+  position: absolute;
+  bottom: 0.3rem;
+  left: 0.3rem;
+  right: 0.3rem;
+  top: 0.3rem;
 }
 
 .record-controls {
-  height:  5rem;
+  height: 6.5rem;
   margin: 1rem auto;
   margin-top: calc(1rem + 4px);
 }
