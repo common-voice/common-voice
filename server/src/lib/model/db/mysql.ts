@@ -1,10 +1,9 @@
 import { hash, getFirstDefined } from '../../utility';
 import { IConnection } from 'mysql2Types';
 import promisify from '../../../promisify';
+import { CommonVoiceConfig } from '../../../config-helper';
 
 const SALT = 'hoads8fh49hgfls';
-const CWD = process.cwd();
-const config = require(CWD + '/config.json');
 
 // Mysql2 has more or less the same interface as @types/mysql,
 // so we will use mysql types here where we can.
@@ -22,7 +21,7 @@ export type MysqlOptions = {
 };
 
 // Default configuration values, notice we dont have password.
-const DEFAULTS = {
+const DEFAULTS: MysqlOptions = {
   user: 'voiceweb',
   database: 'voiceweb',
   password: '',
@@ -30,9 +29,11 @@ const DEFAULTS = {
   port: 3306,
   max: 10,
   idleTimeoutMillis: 30000,
+  multipleStatements: false,
 };
 
 export default class Mysql {
+  config: CommonVoiceConfig;
   options: MysqlOptions;
   conn: IConnection;
   rootConn: IConnection;
@@ -40,37 +41,25 @@ export default class Mysql {
   /**
    * Get options from params first, then config, and falling back to defaults.
    *   For configuring, use the following order of priority:
-   *     1. passed in options
-   *     2. options in config.json
-   *     3. hard coded DEFAULTS
+   *     1. options in config.json
+   *     2. hard coded DEFAULTS
    */
-  private getFullOptions(options?: MysqlOptions): MysqlOptions {
-    options = options || Object.create(null);
+  private getMysqlOptions(config: CommonVoiceConfig): MysqlOptions {
     return {
-      user: getFirstDefined(options.user, config.MYSQLUSER, DEFAULTS.user),
-      database: getFirstDefined(
-        options.database,
-        config.MYSQLDBNAME,
-        DEFAULTS.database
-      ),
-      password: getFirstDefined(
-        options.password,
-        config.MYSQLPASS,
-        DEFAULTS.password
-      ),
-      host: getFirstDefined(options.host, config.MYSQLHOST, DEFAULTS.host),
-      port: getFirstDefined(options.port, config.MYSQLPORT, DEFAULTS.port),
-      max: getFirstDefined(options.max, DEFAULTS.max),
-      idleTimeoutMillis: getFirstDefined(
-        options.idleTimeoutMillis,
-        DEFAULTS.idleTimeoutMillis
-      ),
+      user: getFirstDefined(config.MYSQLUSER, DEFAULTS.user),
+      database: getFirstDefined(config.MYSQLDBNAME, DEFAULTS.database),
+      password: getFirstDefined(config.MYSQLPASS, DEFAULTS.password),
+      host: getFirstDefined(config.MYSQLHOST, DEFAULTS.host),
+      port: getFirstDefined(config.MYSQLPORT, DEFAULTS.port),
+      max: DEFAULTS.max,
+      idleTimeoutMillis: DEFAULTS.idleTimeoutMillis,
       multipleStatements: false,
     };
   }
 
-  constructor(options?: MysqlOptions) {
-    this.options = this.getFullOptions(options);
+  constructor(config: CommonVoiceConfig) {
+    this.config = config;
+    this.options = this.getMysqlOptions(config);
     this.conn = null;
     this.rootConn = null;
   }
@@ -93,8 +82,8 @@ export default class Mysql {
 
     // Root gets an upgraded connection optimized for schema migration.
     if (root) {
-      opts.user = config.DB_ROOT_USER;
-      opts.password = config.DB_ROOT_PASS;
+      opts.user = this.config.DB_ROOT_USER;
+      opts.password = this.config.DB_ROOT_PASS;
       opts.multipleStatements = true;
     }
 

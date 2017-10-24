@@ -7,6 +7,7 @@ import { S3 } from 'aws-sdk';
 import * as ms from 'mediaserver';
 import * as mkdirp from 'mkdirp';
 
+import { CommonVoiceConfig } from '../config-helper';
 import Model from './model';
 import Bucket from './bucket';
 import { getFileExt } from './utility';
@@ -17,25 +18,23 @@ const ff = require('ff');
 const Transcoder = require('stream-transcoder');
 
 const UPLOAD_PATH = path.resolve(__dirname, '../..', 'upload');
-const CONFIG_PATH = path.resolve(__dirname, '../../..', 'config.json');
 const ACCEPTED_EXT = ['.mp3', '.ogg', '.webm', '.m4a'];
-const DEFAULT_SALT = '8hd3e8sddFSdfj';
-const config = require(CONFIG_PATH);
-const salt = config.salt || DEFAULT_SALT;
-const BUCKET_NAME = config.BUCKET_NAME || 'common-voice-corpus';
+const SALT = '8hd3e8sddFSdfj';
 
 /**
  * Clip - Responsibly for saving and serving clips.
  */
 export default class Clip {
+  private config: CommonVoiceConfig;
   private s3: S3;
   private bucket: Bucket;
   private model: Model;
 
-  constructor(model: Model) {
+  constructor(config: CommonVoiceConfig, model: Model) {
+    this.config = config;
     this.s3 = new S3({ signatureVersion: 'v4' });
     this.model = model;
-    this.bucket = new Bucket(this.model);
+    this.bucket = new Bucket(this.config, this.model);
   }
 
   /**
@@ -47,7 +46,7 @@ export default class Clip {
 
   private hash(str: string): string {
     return crypto
-      .createHmac('sha256', salt)
+      .createHmac('sha256', SALT)
       .update(str)
       .digest('hex');
   }
@@ -63,15 +62,15 @@ export default class Clip {
     key: string
   ): void {
     // Save the data locally, stream to client, remove local data (Performance?)
-    let tmpFilePath = path.join(UPLOAD_PATH, key);
-    let tmpFileDirectory = path.dirname(tmpFilePath);
-    let f = ff(
+    const tmpFilePath = path.join(UPLOAD_PATH, key);
+    const tmpFileDirectory = path.dirname(tmpFilePath);
+    const f = ff(
       () => {
         mkdirp(tmpFileDirectory, f.wait());
       },
       () => {
-        let retrieveParam = { Bucket: BUCKET_NAME, Key: key };
-        let awsResult = this.s3.getObject(retrieveParam);
+        const retrieveParam = { Bucket: this.config.BUCKET_NAME, Key: key };
+        const awsResult = this.s3.getObject(retrieveParam);
         f.pass(awsResult);
       },
       (awsResult: any) => {
@@ -189,7 +188,11 @@ export default class Clip {
       let f = ff(
         () => {
           // Save vote to S3
-          let params = { Bucket: BUCKET_NAME, Key: voteFile, Body: vote };
+          let params = {
+            Bucket: this.config.BUCKET_NAME,
+            Key: voteFile,
+            Body: vote,
+          };
           this.s3.putObject(params, f());
         },
         () => {
@@ -237,7 +240,7 @@ export default class Clip {
         () => {
           // Save demographic to S3
           let params = {
-            Bucket: BUCKET_NAME,
+            Bucket: this.config.BUCKET_NAME,
             Key: demographicFile,
             Body: demographic,
           };
@@ -291,7 +294,7 @@ export default class Clip {
       let f = ff(
         () => {
           // if the folder does not exist, we create it
-          let params = { Bucket: BUCKET_NAME, Key: folder };
+          let params = { Bucket: this.config.BUCKET_NAME, Key: folder };
           this.s3.putObject(params, f.wait());
 
           // If we were given base64, we'll need to concat it all first
@@ -316,7 +319,7 @@ export default class Clip {
             transcoder = transcoder.audioCodec('mp3').format('mp3');
             let transcoderStream = transcoder.stream();
             let params = {
-              Bucket: BUCKET_NAME,
+              Bucket: this.config.BUCKET_NAME,
               Key: file,
               Body: transcoderStream,
             };
@@ -327,7 +330,7 @@ export default class Clip {
             transcoder = transcoder.audioCodec('mp3').format('mp3');
             let transcoderStream = transcoder.stream();
             let params = {
-              Bucket: BUCKET_NAME,
+              Bucket: this.config.BUCKET_NAME,
               Key: file,
               Body: transcoderStream,
             };
@@ -335,7 +338,11 @@ export default class Clip {
           }
 
           // Don't forget about the sentence text!
-          let params = { Bucket: BUCKET_NAME, Key: txtFile, Body: sentence };
+          let params = {
+            Bucket: this.config.BUCKET_NAME,
+            Key: txtFile,
+            Body: sentence,
+          };
           this.s3.putObject(params, f());
         },
         () => {
@@ -372,7 +379,7 @@ export default class Clip {
   serve(request: http.IncomingMessage, response: http.ServerResponse) {
     let prefix = this.getS3FilePath(request.url);
 
-    let searchParam = { Bucket: BUCKET_NAME, Prefix: prefix };
+    let searchParam = { Bucket: this.config.BUCKET_NAME, Prefix: prefix };
     this.s3.listObjectsV2(searchParam, (err: any, data: any) => {
       if (err) {
         console.error('Did not find specified clip', err);

@@ -43,7 +43,8 @@ in which to store voice clips.
 1. Install the AWS command line UI. https://aws.amazon.com/cli/
 2. Run `aws configure` to configure credentials via the aws command line ui.
 
-#### Modify `config.json`
+#### Add options to local `config.json`
 
-1. Update BUCKET_NAME with the bucket we chose earlier "voice-web"
-2. Update BUCKET_LOATION with Region corresponding to your region name listed here: http://docs.aws.amazon.com/general/latest/gr/rande.html
+1. Create a file in your repository folder called `config.json`
+2. Add a key `BUCKET_NAME`, and enter a value of the bucket we chose earlier "voice-web"
+3. Add a key `BUCKET_LOATION` with Region corresponding to your region name listed here: http://docs.aws.amazon.com/general/latest/gr/rande.html

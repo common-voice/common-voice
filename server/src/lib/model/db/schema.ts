@@ -5,10 +5,6 @@ import { Tables } from '../db';
 
 const CURRENT_VERSION = 1;
 
-const CWD = process.cwd();
-const CONFIG_FILE = CWD + '/config.json';
-const config = require(CONFIG_FILE);
-
 /**
  * Handles Overall DB Schema and Migrations, usually using root connection.
  * We try to run each upgrade through a transaction in a stored procedure.

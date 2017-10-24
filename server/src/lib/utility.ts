@@ -51,7 +51,7 @@ export function getFirstDefined(...options: any[]) {
  */
 export function isLeaderServer(environment: string): Promise<boolean> {
   // Local server is always the leader.
-  if (environment === 'default') {
+  if (!environment || environment === 'default') {
     return Promise.resolve(true);
   }
 
