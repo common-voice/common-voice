@@ -434,25 +434,20 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
     const controlElements = this.areSentencesLoaded
       ? [
+          <p id="record-help">
+            Please tap to record, then read the above sentence aloud.
+          </p>,
           <div
             id="record-button"
             onTouchStart={this.onRecordClick}
             onClick={this.onRecordClick}
           />,
-          <p id="record-help">
-            Please tap to record, then read the above sentence aloud.
-          </p>,
         ]
       : ERR_SENTENCES_NOT_LOADED;
 
     return (
       <div id="record-container" className={className}>
         <div id="voice-record">
-          <p id="recordings-count">
-            <span style={this.state.isReRecord ? 'display: none;' : ''}>
-              {this.state.recordings.length + 1} of 3
-            </span>
-          </p>
           <div className="record-sentence">
             {texts}
             <Icon
@@ -463,6 +458,11 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
             />
           </div>
           <div class="record-controls">{controlElements}</div>
+          <p id="recordings-count">
+            <span style={this.state.isReRecord ? 'display: none;' : ''}>
+              {this.state.recordings.length + 1} of 3
+            </span>
+          </p>
         </div>
         <div id="voice-submit">
           <p id="thank-you">
