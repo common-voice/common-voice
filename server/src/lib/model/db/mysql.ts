@@ -194,4 +194,18 @@ export default class Mysql {
     await this.ensureConnection(true);
     return this.rootConn.query(sql);
   }
+
+  /**
+   * Close all connections to the database.
+   */
+  endConnection(): void {
+    if (this.conn) {
+      this.conn.destroy();
+      this.conn = null;
+    }
+    if (this.rootConn) {
+      this.rootConn.destroy();
+      this.rootConn = null;
+    }
+  }
 }
