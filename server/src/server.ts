@@ -231,12 +231,13 @@ export default class Server {
 // Handle any top-level exceptions uncaught in the app.
 process.on('uncaughtException', function(err: any) {
   if (err.code === 'EADDRINUSE') {
+    // For now, do nothing when we are unable to start the http server.
     console.error('ERROR: server already running');
   } else {
+    // We will crash the app when getting unknown top-level exceptions.
     console.error('uncaught exception', err);
+    process.exit(1);
   }
-  // We will crash the app when getting top-level exceptions.
-  process.exit(1);
 });
 
 // If this file is run directly, boot up a new server instance.
