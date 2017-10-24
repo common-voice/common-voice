@@ -1267,7 +1267,7 @@ body:not(.mobile-safari) .robot .bubble:hover {
   padding: 0 0.3rem;
   background-color: var(--base-background-color);
   border: 1px solid black;
-  box-shadow: 4px 4px 0 black;
+  box-shadow: 6px 6px 0 black;
   transition: transform 0.4s var(--bounce-curve);
   font-family: var(--strong-font-family);
   font-size: 1.4rem;
