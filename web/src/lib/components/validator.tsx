@@ -1,5 +1,5 @@
 import { h, Component } from 'preact';
-import ListenBox from './listen-box';
+import ListenBox from './listen-box/listen-box';
 import { ClipJson, default as API } from '../api';
 
 const LOADING_MESSAGE = 'Loading...';

@@ -1,22 +1,14 @@
-import API from '../../api';
-import User from '../../user';
-import Tracker from '../../tracker';
+import API from '../../../api';
+import User from '../../../user';
+import Tracker from '../../../tracker';
 import { h, Component } from 'preact';
-import Icon from '../icon';
-import AudioIOS from './record/audio-ios';
-import AudioWeb, { AudioInfo } from './record/audio-web';
-import ListenBox from '../listen-box';
-import ProgressButton from '../progress-button';
-import ERROR_MSG from '../../../error-msg';
-import {
-  getItunesURL,
-  isFocus,
-  countSyllables,
-  isNativeIOS,
-  generateGUID,
-  sleep,
-} from '../../utility';
-import confirm from '../confirm';
+import Icon from '../../icon';
+import AudioIOS from './audio-ios';
+import AudioWeb, { AudioInfo } from './audio-web';
+import ListenBox from '../../listen-box/listen-box';
+import ProgressButton from '../../progress-button';
+import { getItunesURL, isFocus, isNativeIOS, sleep } from '../../../utility';
+import confirm from '../../../confirm/confirm';
 
 const CACHE_SET_COUNT = 9;
 const SET_COUNT = 3;

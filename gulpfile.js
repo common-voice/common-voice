@@ -6,6 +6,7 @@ const APP_NAME = 'common-voice';
 const TS_CONFIG = 'tsconfig.json';
 const TS_GLOB = '**/*.ts*';
 const JS_GLOB = '**/*.js';
+const CSS_GLOB = '**/*.css';
 const DIR_CLIENT = CWD + 'web/';
 const DIR_CLIENT_SRC = DIR_CLIENT + 'src/';
 const DIR_SERVER = CWD + 'server/';
@@ -14,11 +15,12 @@ const DIR_SERVER_DEFS = DIR_SERVER + '@types/';
 const DIR_UPLOAD = DIR_SERVER + 'upload/';
 const DIR_SERVER_JS = DIR_SERVER + 'js/';
 const DIR_DIST = DIR_CLIENT + 'dist/';
+
 const DIR_TOOLS = CWD + 'tools/';
 const DIR_TEST_TS = DIR_SERVER_SRC + 'test/'
 const DIR_TEST_JS = DIR_SERVER_JS + 'test/';
 
-const PATH_CSS = DIR_CLIENT + 'css/*.css';
+const PATH_CSS = DIR_CLIENT_SRC + '/lib/components/index.css';
 const PATH_TS = DIR_CLIENT_SRC + TS_GLOB;
 const PATH_TS_CONFIG = DIR_CLIENT + TS_CONFIG;
 const PATH_TS_SERVER = DIR_SERVER_SRC + TS_GLOB;
@@ -114,6 +116,7 @@ function compileCSS() {
   var postcss = require('gulp-postcss');
   var cssnext = require('postcss-cssnext');
   var cssnano = require('cssnano');
+  var cssImport = require('gulp-cssimport');
   var plugins = [
     cssnext({
       browsers: ['last 2 versions' ],
@@ -126,6 +129,7 @@ function compileCSS() {
     cssnano({ autoprefixer: false })
   ];
   return gulp.src(PATH_CSS)
+    .pipe(cssImport())
     .pipe(postcss(plugins))
     .pipe(gulp.dest(DIR_DIST));
 }

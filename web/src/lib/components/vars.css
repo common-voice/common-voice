@@ -1,0 +1,53 @@
+:root {
+    --base-font-family: 'Open Sans',sans-serif;
+    --strong-font-family: ZillaSlab,Georgia,Utopia,Charter,serif;
+    --base-font-size: 15px;
+    --header-height: 5rem;
+    --input-height: 2.5rem;
+    --sidebar-width: 11rem;
+    --debug-box-height: 4rem;
+    --listen-box-height: 6rem;
+    --base-background-image: url("/img/wave-blue-large.png");
+    --base-background-image-mobile: url("/img/wave-blue-mobile.png");
+    --record-background-image: url("/img/wave-red-large.png");
+    --record-background-image-mobile: url("/img/wave-red-mobile.png");
+    --page-margin: 1rem;
+    --standard-margin: 0.3rem;
+    --hamburger: calc(var(--header-height) * 0.7);
+    --transition-default: 0.3s;
+    --desktop-width: 50rem;
+    --hero-height: 15.3rem;
+    --hero-height-mobile: 12.5rem;
+    --robot-height: 19rem;
+    --robot-height-mobile: 16rem;
+    --spinner-height: 10rem;
+    --bounce-curve: cubic-bezier(0.000, 1.430, 0.700, 0.940);
+    --shadow-overhang: 0 1px 0 rgba(12,13,14,0.1),
+    0 1px 3px rgba(12,13,14,0.1),
+    0 4px 20px rgba(12,13,14,0.035),
+    0 1px 1px rgba(12,13,14,0.025);
+
+    --base-background-color: white;
+    --base-font-color: black;
+    --color-speak: #FB8E92;
+    --color-speak-light: #FDC6C8;
+    --color-listen: #B7D43F;
+    --color-listen-dark: #7F9622;
+    --color-secondary: #E7E5E2;
+    --color-about: #f8b83e;
+    --color-profile: #9D9D9C;
+    --color-help: #3DFEFD;
+    --color-text-help: rgba(255, 255, 255, 0.4);
+    --tab-line: 2px solid #3dfefd;
+
+    --highlight-shadow-listen:
+            1px 1px 6px var(--color-listen),
+            2px 2px 6px var(--color-listen),
+            3px 3px 3px var(--color-listen),
+            4px 4px 2px var(--color-listen);
+
+    /* Z-indexing */
+    --top-z-index: 2;
+    --middle-z-index: 1;
+    --bottom-z-index: 0;
+}

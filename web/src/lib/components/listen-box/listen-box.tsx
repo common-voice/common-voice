@@ -1,6 +1,6 @@
 import { h, Component } from 'preact';
-import Tracker from '../tracker';
-import Icon from './icon';
+import Tracker from '../../tracker';
+import Icon from '../icon';
 
 interface Props {
   src?: string;

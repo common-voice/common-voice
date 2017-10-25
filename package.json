@@ -48,6 +48,7 @@
     "@types/node-static": "^0.7.0",
     "@types/random-js": "^1.0.30",
     "cssnano": "^3.10.0",
+    "gulp-cssimport": "^6.0.0",
     "gulp-nodemon": "2.2.1",
     "gulp-postcss": "^7.0.0",
     "gulp-tape": "0.0.9",

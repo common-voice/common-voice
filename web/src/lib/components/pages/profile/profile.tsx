@@ -1,5 +1,5 @@
 import { h, Component } from 'preact';
-import { ACCENTS, AGES, GENDER, default as User } from '../../user';
+import { ACCENTS, AGES, GENDER, default as User } from '../../../user';
 
 interface Props {
   user: User;
