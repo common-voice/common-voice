@@ -20,7 +20,7 @@ export type CommonVoiceConfig = {
 };
 
 const DEFAULTS: CommonVoiceConfig = {
-  VERSION: 1,
+  VERSION: 2,
   PROD: false,
   SERVER_PORT: 9000,
   DB_ROOT_USER: 'root',
