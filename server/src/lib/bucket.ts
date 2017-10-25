@@ -2,6 +2,7 @@ import * as path from 'path';
 import * as Random from 'random-js';
 import { S3 } from 'aws-sdk';
 
+import { CommonVoiceConfig } from '../config-helper';
 import Model from './model';
 import { map } from '../promisify';
 import { getFileExt, sleep } from './utility';
@@ -10,9 +11,6 @@ import './aws';
 const KEYS_PER_REQUEST = 1000; // Max is 1000.
 const LOAD_DELAY = 200;
 const TEXT_EXT = '.txt';
-const CONFIG_PATH = path.resolve(__dirname, '../../..', 'config.json');
-const config = require(CONFIG_PATH);
-const BUCKET_NAME = config.BUCKET_NAME || 'common-voice-corpus';
 
 interface S3Results {
   filePaths: string[];
@@ -25,13 +23,15 @@ interface S3Results {
  *   metadata into the Model from s3.
  */
 export default class Bucket {
+  private config: CommonVoiceConfig;
   private model: Model;
   private s3: S3;
   private votes: number;
   private validated: number;
   private randomEngine: Random.MT19937;
 
-  constructor(model: Model) {
+  constructor(config: CommonVoiceConfig, model: Model) {
+    this.config = config;
     this.model = model;
     this.s3 = new S3();
     this.votes = 0;
@@ -63,8 +63,8 @@ export default class Bucket {
     let key = glob + TEXT_EXT;
     return new Promise(
       (res: (sentence: string) => void, rej: (error: any) => void) => {
-        let glob = this.getGlob(key);
-        let params = { Bucket: BUCKET_NAME, Key: key };
+        const glob = this.getGlob(key);
+        const params = { Bucket: this.config.BUCKET_NAME, Key: key };
         this.s3.getObject(params, (err: any, s3Data: any) => {
           if (err) {
             console.error('Could not read from s3', key, err);
@@ -84,7 +84,7 @@ export default class Bucket {
    */
   private getPublicUrl(key: string) {
     return this.s3.getSignedUrl('getObject', {
-      Bucket: BUCKET_NAME,
+      Bucket: this.config.BUCKET_NAME,
       Key: key,
     });
   }
@@ -95,7 +95,7 @@ export default class Bucket {
   private fetchObjects(continuationToken?: string): Promise<S3Results> {
     return new Promise((res, rej) => {
       let awsRequest = this.s3.listObjectsV2({
-        Bucket: BUCKET_NAME,
+        Bucket: this.config.BUCKET_NAME,
         MaxKeys: KEYS_PER_REQUEST,
         ContinuationToken: continuationToken,
       });

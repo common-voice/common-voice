@@ -3,18 +3,21 @@ import Schema from './db/schema';
 import Table from './db/table';
 import UserTable from './db/user-table';
 import VersionTable from './db/version-table';
+import { CommonVoiceConfig } from '../../config-helper';
 
 export type Tables = Table[];
 
 export default class DB {
+  config: CommonVoiceConfig;
   mysql: Mysql;
   schema: Schema;
   tables: Tables;
   user: UserTable;
   version: VersionTable;
 
-  constructor() {
-    this.mysql = new Mysql();
+  constructor(config: CommonVoiceConfig) {
+    this.config = config;
+    this.mysql = new Mysql(this.config);
     this.user = new UserTable(this.mysql);
     this.version = new VersionTable(this.mysql);
 

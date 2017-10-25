@@ -1,6 +1,7 @@
 import * as http from 'http';
 import * as path from 'path';
 
+import { CommonVoiceConfig } from '../config-helper';
 import Model from './model';
 import Clip from './clip';
 import Corpus from './corpus';
@@ -9,15 +10,17 @@ import WebHook from './webhook';
 import respond from './responder';
 
 export default class API {
+  config: CommonVoiceConfig;
   model: Model;
   clip: Clip;
   corpus: Corpus;
   metrics: Prometheus;
   webhook: WebHook;
 
-  constructor(model: Model) {
+  constructor(config: CommonVoiceConfig, model: Model) {
+    this.config = config;
     this.model = model;
-    this.clip = new Clip(this.model);
+    this.clip = new Clip(this.config, this.model);
     this.corpus = new Corpus();
     this.metrics = new Prometheus();
     this.webhook = new WebHook();

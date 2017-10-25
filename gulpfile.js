@@ -210,7 +210,6 @@ gulp.task('drop', 'Detroy the database.', ['ts-server'], (done) => {
 
 gulp.task('deploy', 'deploy production',
   ['npm-install', 'build'], (done) => {
-    let config = require('./config.json');
     let pm2 = require('pm2');
     let ff = require('ff');
     let f = ff(() => {
@@ -221,8 +220,8 @@ gulp.task('deploy', 'deploy production',
       pm2.start({
         name: APP_NAME,
         script: "./gulpfile.js",
-        output: config.logfile || "log.txt",
-        error: config.logfile || "log.txt",
+        output: "log.txt",
+        error: "log.txt",
       }, f());
     }).onComplete((err) => {
       if (err) {

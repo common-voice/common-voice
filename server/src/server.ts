@@ -6,17 +6,15 @@ import API from './lib/api';
 import Logger from './lib/logger';
 import { isLeaderServer, getElapsedSeconds } from './lib/utility';
 import { Server as NodeStaticServer } from 'node-static';
+import { CommonVoiceConfig, getConfig } from './config-helper';
 
-const DEFAULT_PORT = 9000;
 const SLOW_REQUEST_LIMIT = 2000;
-const CONFIG_PATH = '../../config.json';
 const CLIENT_PATH = '../../web';
 
 const CSP_HEADER = `default-src 'none'; style-src 'self' 'nonce-123456789' 'nonce-987654321' https://fonts.googleapis.com; img-src 'self' www.google-analytics.com; media-src data: blob: https://*.amazonaws.com https://*.amazon.com; script-src 'self' https://www.google-analytics.com/analytics.js; font-src 'self' https://fonts.gstatic.com; connect-src 'self'`;
 
-const config = require(CONFIG_PATH);
-
 export default class Server {
+  config: CommonVoiceConfig;
   server: http.Server;
   model: Model;
   api: API;
@@ -24,15 +22,16 @@ export default class Server {
   staticServer: any;
   isLeader: boolean;
 
-  constructor() {
+  constructor(config?: CommonVoiceConfig) {
+    this.config = config ? config : getConfig();
     this.staticServer = this.getServer();
-    this.model = new Model();
-    this.api = new API(this.model);
+    this.model = new Model(this.config);
+    this.api = new API(this.config, this.model);
     this.logger = new Logger();
     this.isLeader = null;
 
     // Make console.log output json.
-    if (config.PROD) {
+    if (this.config.PROD) {
       this.logger.overrideConsole();
     }
   }
@@ -111,7 +110,7 @@ export default class Server {
     }
 
     try {
-      this.isLeader = await isLeaderServer(config.ENVIRONMENT || 'default');
+      this.isLeader = await isLeaderServer(this.config.ENVIRONMENT);
       this.print('leader', this.isLeader);
     } catch (err) {
       console.error('error checking for leader', err.message);
@@ -170,7 +169,7 @@ export default class Server {
    */
   listen(): void {
     // Begin handling requests before clip list is loaded.
-    let port = config.port || DEFAULT_PORT;
+    let port = this.config.SERVER_PORT;
     this.server = http.createServer(this.handleRequest.bind(this));
     this.server.listen(port);
     this.print(`listening at http://localhost:${port}`);

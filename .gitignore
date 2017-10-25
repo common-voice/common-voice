@@ -1,4 +1,5 @@
 node_modules
+config.json
 web/dist/
 server/js/
 server/upload/
