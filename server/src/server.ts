@@ -27,7 +27,7 @@ export default class Server {
     this.staticServer = this.getServer();
     this.model = new Model(this.config);
     this.api = new API(this.config, this.model);
-    this.logger = new Logger();
+    this.logger = new Logger(this.config);
     this.isLeader = null;
 
     // Make console.log output json.

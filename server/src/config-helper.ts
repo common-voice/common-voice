@@ -4,6 +4,7 @@ const LOCAL_CONFIG_PATH = '../../config.json';
  * Definition for all common voice config options.
  */
 export type CommonVoiceConfig = {
+  VERSION: number;
   PROD: boolean;
   SERVER_PORT: number;
   DB_ROOT_USER: string;
@@ -19,6 +20,7 @@ export type CommonVoiceConfig = {
 };
 
 const DEFAULTS: CommonVoiceConfig = {
+  VERSION: 1,
   PROD: false,
   SERVER_PORT: 9000,
   DB_ROOT_USER: 'root',
@@ -34,7 +36,7 @@ const DEFAULTS: CommonVoiceConfig = {
 };
 
 /**
- * Create our configuration by merging config.json and local.config.json.
+ * Create our configuration by merging config.json and our DEFAULTS.
  */
 export function getConfig(): CommonVoiceConfig {
   const localConfig = load(LOCAL_CONFIG_PATH);
