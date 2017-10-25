@@ -11,7 +11,7 @@ in which to store voice clips.
 #### Create a new S3 bucket:
 
 1. Log into your new Amazon Services account:
-2. Choose "S3" under the "Storage" catagory in the "Services" drop down.
+2. Choose "S3" under the "Storage" category in the "Services" drop down.
 3. Click "Create bucket"
 4. Choose a bucket name. For this example guide we'll choose "voice-web".
 5. Choose a region.
@@ -47,4 +47,4 @@ in which to store voice clips.
 
 1. Create a file in your repository folder called `config.json`
 2. Add a key `BUCKET_NAME`, and enter a value of the bucket we chose earlier "voice-web"
-3. Add a key `BUCKET_LOATION` with Region corresponding to your region name listed here: http://docs.aws.amazon.com/general/latest/gr/rande.html
+3. Add a key `BUCKET_LOCATION` with Region corresponding to your region name listed here: http://docs.aws.amazon.com/general/latest/gr/rande.html
