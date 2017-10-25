@@ -4,7 +4,7 @@
   "PROD": true,
   "DB_ROOT_USER": "{{ if exists "/config/Database/User" }}{{ getv "/config/Database/User" }}{{ else }}voicecommons{{ end }}",
   "DB_ROOT_PASS": "{{ if exists "/config/Database/Password" }}{{ getv "/config/Database/Password" }}{{ else }}voicecommons{{ end }}",
-  "MYSQLUSER": "{{ if exists "/config/DBuser" }}{{ getv "/config/DBuser" }}{{ else }}voicecommons{{ end }}",
+  "MYSQLUSER": "{{ if exists "/config/Database/User" }}{{ getv "/config/Database/User" }}{{ else }}voicecommons{{ end }}",
   "MYSQLPASS": "{{ if exists "/config/Database/Password" }}{{ getv "/config/Database/Password" }}{{ else }}voicecommons{{ end }}",
   "MYSQLDBNAME": "{{ if exists "/config/Database/Name" }}{{ getv "/config/Database/Name" }}{{ else }}voiceweb{{ end }}",
   "MYSQLHOST": "{{ if exists "/config/Database/Server" }}{{ getv "/config/Database/Server" }}{{ else }}localhost{{ end }}",
