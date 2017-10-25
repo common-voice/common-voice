@@ -179,7 +179,7 @@ gulp.task('ts-server', 'Compile typescript server files.',
 gulp.task('build', 'Build both server and client js', ['ts', 'ts-server', 'css']);
 
 gulp.task('npm-install', 'Install npm dependencies.',
-  shell.task(['npm install']));
+  shell.task(['yarn']));
 
 gulp.task('clean-web', cleanFolder.bind(null, PATH_CLIENT_JS));
 
