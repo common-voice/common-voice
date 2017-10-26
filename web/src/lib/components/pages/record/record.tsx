@@ -52,6 +52,7 @@ interface RecordState {
   uploading: boolean;
   uploadProgress: number;
   isReRecord: boolean;
+  whyProfileVisible: boolean;
 }
 
 export default class RecordPage extends Component<RecordProps, RecordState> {
@@ -71,6 +72,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     uploading: false,
     uploadProgress: 0,
     isReRecord: false,
+    whyProfileVisible: false,
   };
 
   constructor(props: RecordProps) {
@@ -362,6 +364,13 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     return this.sentenceCache.length >= SET_COUNT;
   }
 
+  private showWhyProfile(): void {
+    console.log('SHOW WHY PROFILE');
+    this.setState({
+      whyProfileVisible: !this.state.whyProfileVisible,
+    });
+  }
+
   render() {
     // Make sure we can get the microphone before displaying anything.
     if (this.isUnsupportedPlatform) {
@@ -437,6 +446,20 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
         ]
       : ERR_SENTENCES_NOT_LOADED;
 
+    const whyProfile = (
+      <p>
+        Why a profile?
+        <div id="why-profile">
+          Copy explaining value of profile & demographic capture.
+          <p>
+            <a name="" onClick={this.showWhyProfile.bind(this)}>
+              Close
+            </a>
+          </p>
+        </div>
+      </p>
+    );
+
     return (
       <div id="record-container" className={className}>
         <div id="voice-record">
@@ -455,6 +478,17 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
             />
           </div>
           <div class="record-controls">{controlElements}</div>
+          <div id="profile-actions">
+            <hr />
+            <button>Create a profile</button>
+            {!this.state.whyProfileVisible ? (
+              <p>
+                <a onClick={this.showWhyProfile.bind(this)}>Why a profile?</a>
+              </p>
+            ) : (
+              whyProfile
+            )}
+          </div>
         </div>
         <div id="voice-submit">
           <p id="thank-you">
