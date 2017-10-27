@@ -34,7 +34,7 @@
 }
 
 #recordings-count {
-    color: var(--color-speak);
+    color: var(--color-speak-dark);
     font-size: 0.8rem;
     font-weight: bold;
     margin-top: 0.5rem;
@@ -101,7 +101,7 @@
 
 #record-button {
     border-radius: 50%;
-    border: 0.3rem solid var(--color-speak);
+    border: 0.3rem solid var(--color-speak-dark);
     background-color: white;
     height: 2.5rem;
     width: 2.5rem;
@@ -111,7 +111,7 @@
 }
 
 #record-button:after {
-    background-color: var(--color-speak);
+    background-color: var(--color-speak-dark);
     border-radius: 50%;
     content: " ";
     position: absolute;
@@ -129,7 +129,6 @@
 
 .recording #record-button {
     background-color: var(--color-speak-light);
-    border-color: var(--color-speak);
     animation: throb 1.2s ease-in-out infinite;
 }
 
