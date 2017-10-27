@@ -364,8 +364,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     return this.sentenceCache.length >= SET_COUNT;
   }
 
-  private showWhyProfile(): void {
-    console.log('SHOW WHY PROFILE');
+  private toggleWhyProfile(): void {
     this.setState({
       whyProfileVisible: !this.state.whyProfileVisible,
     });
@@ -447,17 +446,21 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       : ERR_SENTENCES_NOT_LOADED;
 
     const whyProfile = (
-      <p>
-        Why a profile?
+      <div>
+        <span id="why-profile-title">Why a profile?</span>
         <div id="why-profile">
-          Copy explaining value of profile & demographic capture.
+          <p id="why-profile-text">
+            Copy explaining value of profile &amp; demographic capture: Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit. Nulla id orci
+            dui.
+          </p>
           <p>
-            <a name="" onClick={this.showWhyProfile.bind(this)}>
+            <a name="" onClick={this.toggleWhyProfile.bind(this)}>
               Close
             </a>
           </p>
         </div>
-      </p>
+      </div>
     );
 
     return (
@@ -481,13 +484,17 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
           <div id="profile-actions">
             <hr />
             <button>Create a profile</button>
-            {!this.state.whyProfileVisible ? (
-              <p>
-                <a onClick={this.showWhyProfile.bind(this)}>Why a profile?</a>
-              </p>
-            ) : (
-              whyProfile
-            )}
+            <div>
+              {!this.state.whyProfileVisible ? (
+                <span id="why-profile-title">
+                  <a onClick={this.toggleWhyProfile.bind(this)}>
+                    Why a profile?
+                  </a>
+                </span>
+              ) : (
+                whyProfile
+              )}
+            </div>
           </div>
         </div>
         <div id="voice-submit">
