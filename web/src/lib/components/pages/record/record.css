@@ -225,7 +225,7 @@
 }
 
 #profile-actions hr {
-    color: var(--color-hr);
+    color: var(--color-record-hr);
     border: solid 0.1rem;
 }
 
@@ -239,7 +239,7 @@
 }
 
 #why-profile {
-    background-color: var(--color-why-profile);
+    background-color: var(--color-record-why-profile);
     padding: 1rem;
     width: 70%;
 }

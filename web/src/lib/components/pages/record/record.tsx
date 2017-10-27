@@ -114,6 +114,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     this.processRecording = this.processRecording.bind(this);
     this.goBack = this.goBack.bind(this);
     this.onProgress = this.onProgress.bind(this);
+    this.toggleWhyProfile = this.toggleWhyProfile.bind(this);
   }
 
   private async refillSentenceCache() {
@@ -455,7 +456,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
             dui.
           </p>
           <p>
-            <a name="" onClick={this.toggleWhyProfile.bind(this)}>
+            <a name="" onClick={this.toggleWhyProfile}>
               Close
             </a>
           </p>
@@ -487,9 +488,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
             <div>
               {!this.state.whyProfileVisible ? (
                 <span id="why-profile-title">
-                  <a onClick={this.toggleWhyProfile.bind(this)}>
-                    Why a profile?
-                  </a>
+                  <a onClick={this.toggleWhyProfile}>Why a profile?</a>
                 </span>
               ) : (
                 whyProfile
