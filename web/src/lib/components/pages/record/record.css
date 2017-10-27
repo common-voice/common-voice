@@ -45,7 +45,7 @@
 }
 
 .record-sentence {
-    height: 8rem;
+    height: 12rem;
     margin-top: 0.5rem;
     position: relative;
     transition: transform 0.2s ease-in;
@@ -59,8 +59,7 @@
     right: 0;
     padding: 0 0.3rem;
     background-color: var(--base-background-color);
-    border: 1px solid black;
-    box-shadow: 4px 4px 0 black;
+    box-shadow: 0 1px 5px 0 #E2E2E2;
     transition: transform 0.4s var(--bounce-curve);
     font-family: var(--strong-font-family);
     font-size: 1.4rem;
@@ -147,7 +146,7 @@
 
 @media (min-width: 600px) {
     #voice-record {
-        padding: 0 1.5rem;
+        padding: 0 0.25rem;
     }
 }
 
