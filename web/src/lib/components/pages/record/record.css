@@ -34,6 +34,7 @@
 }
 
 #recordings-count {
+    color: var(--color-speak);
     font-size: 0.8rem;
     font-weight: bold;
     margin-top: 0.5rem;
@@ -41,11 +42,10 @@
 
 #recordings-count span {
     padding: 0.3rem;
-    background-color: var(--color-text-help);
 }
 
 .record-sentence {
-    height: 12rem;
+    height: 8rem;
     margin-top: 0.5rem;
     position: relative;
     transition: transform 0.2s ease-in;
@@ -59,7 +59,8 @@
     right: 0;
     padding: 0 0.3rem;
     background-color: var(--base-background-color);
-    box-shadow: 0 1px 5px 0 #E2E2E2;
+    border: 1px solid black;
+    box-shadow: 4px 4px 0 black;
     transition: transform 0.4s var(--bounce-curve);
     font-family: var(--strong-font-family);
     font-size: 1.4rem;
@@ -85,18 +86,43 @@
     }
 }
 
+.refresh {
+    position: absolute;
+    right: 0.2rem;
+    bottom: 0.3rem;;
+    font-size: 0.6rem;
+}
+
+#refresh-help {
+    text-align: right;
+    padding-top: 0.3rem;
+    padding-right: 0.6rem;
+}
+
 #record-button {
     border-radius: 50%;
-    border: 0.6rem solid black;
+    border: 0.3rem solid var(--color-speak);
     background-color: white;
     height: 2.5rem;
     width: 2.5rem;
-    margin: 1rem auto;
+    margin: 1.5rem auto 1rem;
     cursor: pointer;
+    position: relative;
+}
+
+#record-button:after {
+    background-color: var(--color-speak);
+    border-radius: 50%;
+    content: " ";
+    position: absolute;
+    bottom: 0.3rem;
+    left: 0.3rem;
+    right: 0.3rem;
+    top: 0.3rem;
 }
 
 .record-controls {
-    height:  5rem;
+    height: 6.5rem;
     margin: 1rem auto;
     margin-top: calc(1rem + 4px);
 }
