@@ -258,11 +258,7 @@ gulp.task('count', 'Print sentence collection count.', ['ts-server'], () => {
 });
 
 
-gulp.task('default', 'Running just `gulp`.', ['build'], () => {
-  watchAndListen();
-});
-
-gulp.task('develop', 'Run everything in dev (with sourcemaps).', ['build-dev'], () => {
+gulp.task('default', 'Run everything in dev (with sourcemaps).', ['build-dev'], () => {
   watchAndListen(true);
 });
 
