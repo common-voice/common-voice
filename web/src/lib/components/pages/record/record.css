@@ -237,3 +237,40 @@
     padding: 0.5rem;
     display: inline-block;
 }
+
+#profile-actions {
+    margin: 2rem auto;
+}
+
+#profile-actions button {
+    text-transform: uppercase;
+    color: black;
+}
+
+#profile-actions hr {
+    color: var(--color-record-hr);
+    border: solid 0.1rem;
+}
+
+#profile-actions p, div, hr {
+    margin: 1rem auto;
+}
+
+#profile-actions a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#why-profile {
+    background-color: var(--color-record-why-profile);
+    padding: 1rem;
+    width: 70%;
+}
+
+#why-profile-text {
+    text-align: left;
+}
+
+#why-profile-title {
+    font-weight: bold
+}

@@ -52,6 +52,7 @@ interface RecordState {
   uploading: boolean;
   uploadProgress: number;
   isReRecord: boolean;
+  whyProfileVisible: boolean;
 }
 
 export default class RecordPage extends Component<RecordProps, RecordState> {
@@ -71,6 +72,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     uploading: false,
     uploadProgress: 0,
     isReRecord: false,
+    whyProfileVisible: false,
   };
 
   constructor(props: RecordProps) {
@@ -112,6 +114,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     this.processRecording = this.processRecording.bind(this);
     this.goBack = this.goBack.bind(this);
     this.onProgress = this.onProgress.bind(this);
+    this.toggleWhyProfile = this.toggleWhyProfile.bind(this);
   }
 
   private async refillSentenceCache() {
@@ -362,6 +365,12 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     return this.sentenceCache.length >= SET_COUNT;
   }
 
+  private toggleWhyProfile(): void {
+    this.setState({
+      whyProfileVisible: !this.state.whyProfileVisible,
+    });
+  }
+
   render() {
     // Make sure we can get the microphone before displaying anything.
     if (this.isUnsupportedPlatform) {
@@ -437,6 +446,24 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
         ]
       : ERR_SENTENCES_NOT_LOADED;
 
+    const whyProfile = (
+      <div>
+        <span id="why-profile-title">Why a profile?</span>
+        <div id="why-profile">
+          <p id="why-profile-text">
+            Copy explaining value of profile &amp; demographic capture: Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit. Nulla id orci
+            dui.
+          </p>
+          <p>
+            <a name="" onClick={this.toggleWhyProfile}>
+              Close
+            </a>
+          </p>
+        </div>
+      </div>
+    );
+
     return (
       <div id="record-container" className={className}>
         <div id="voice-record">
@@ -455,6 +482,19 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
               {this.state.recordings.length + 1} of 3
             </span>
           </p>
+          <div id="profile-actions">
+            <hr />
+            <button>Create a profile</button>
+            <div>
+              {!this.state.whyProfileVisible ? (
+                <span id="why-profile-title">
+                  <a onClick={this.toggleWhyProfile}>Why a profile?</a>
+                </span>
+              ) : (
+                whyProfile
+              )}
+            </div>
+          </div>
         </div>
         <div id="voice-submit">
           <p id="thank-you">
