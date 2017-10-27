@@ -45,7 +45,7 @@
 }
 
 .record-sentence {
-    height: 12rem;
+    height: 8rem;
     margin-top: 0.5rem;
     position: relative;
     transition: transform 0.2s ease-in;
@@ -252,7 +252,7 @@
     border: solid 0.1rem;
 }
 
-#profile-actions p, div, hr {
+#profile-actions p, #profile-actions div, #profile-actions hr {
     margin: 1rem auto;
 }
 
