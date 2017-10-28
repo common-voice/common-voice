@@ -79,6 +79,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
   private scroller: HTMLElement;
   private content: HTMLElement;
   private bg: HTMLElement;
+  private installApp: HTMLElement;
   private iOSBackground: any[];
 
   state: PagesState = {
@@ -138,7 +139,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
   private closeOpenInApp(evt: Event) {
     evt.stopPropagation();
     evt.preventDefault();
-    document.getElementById('install-app').classList.add('hide');
+    this.installApp.classList.add('hide');
   }
 
   private getCurrentPageName() {
@@ -286,10 +287,6 @@ export default class Pages extends Component<PagesProps, PagesState> {
   }
 
   componentDidMount() {
-    this.scroller = document.getElementById('scroller');
-    this.content = document.getElementById('content');
-    this.header = document.querySelector('header');
-    this.bg = document.getElementById('background-container');
     this.addScrollListener();
     this.setState({
       currentPage: this.props.currentPage,
@@ -355,7 +352,12 @@ export default class Pages extends Component<PagesProps, PagesState> {
           !isSafari() && (
             // This is a banner for non-Safari browsers on iOS.
             // In iOS Safari, we display a 'Smart App Banner' instead.
-            <div onClick={this.openInApp} id="install-app">
+            <div
+              id="install-app"
+              onClick={this.openInApp}
+              ref={div => {
+                this.installApp = div as HTMLElement;
+              }}>
               Open in App
               <a onClick={this.closeOpenInApp}>X</a>
             </div>
@@ -363,7 +365,10 @@ export default class Pages extends Component<PagesProps, PagesState> {
         <header
           className={
             this.state.isMenuVisible || this.state.scrolled ? 'active' : ''
-          }>
+          }
+          ref={header => {
+            this.header = header as HTMLElement;
+          }}>
           <Logo navigate={this.props.navigate} />
           {this.renderUser()}
           <button
@@ -374,9 +379,18 @@ export default class Pages extends Component<PagesProps, PagesState> {
           </button>
           {this.renderNav('main-nav', true)}
         </header>
-        <div id="scroller">
+        <div
+          id="scroller"
+          ref={div => {
+            this.scroller = div as HTMLElement;
+          }}>
           <div id="scrollee">
-            <div id="background-container" style={bgStyle}>
+            <div
+              id="background-container"
+              style={bgStyle}
+              ref={div => {
+                this.bg = div as HTMLElement;
+              }}>
               {this.iOSBackground}
             </div>
             <div class="hero">
@@ -393,7 +407,10 @@ export default class Pages extends Component<PagesProps, PagesState> {
             <div class="hero-space" />
             <div
               id="content"
-              className={this.state.pageTransitioning ? 'transitioning' : ''}>
+              className={this.state.pageTransitioning ? 'transitioning' : ''}
+              ref={div => {
+                this.content = div as HTMLElement;
+              }}>
               <Home
                 active={this.isPageActive([URLS.HOME, URLS.ROOT])}
                 navigate={this.props.navigate}

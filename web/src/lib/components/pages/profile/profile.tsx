@@ -14,6 +14,11 @@ interface State {
 }
 
 export default class Profile extends Component<Props, State> {
+  private email: HTMLInputElement;
+  private profileAccent: HTMLSelectElement;
+  private profileAge: HTMLSelectElement;
+  private profileGender: HTMLSelectElement;
+
   constructor(props: Props) {
     super(props);
 
@@ -32,8 +37,7 @@ export default class Profile extends Component<Props, State> {
   }
 
   private saveEmail() {
-    let el = document.getElementById('email') as HTMLInputElement;
-    let email = el.value;
+    let email = this.email.value;
     this.props.user.setEmail(email);
 
     this.setState({
@@ -49,16 +53,16 @@ export default class Profile extends Component<Props, State> {
   }
 
   private saveDemographics() {
-    let el = document.getElementById('profile-accent') as HTMLSelectElement;
-    let accent = el.options[el.selectedIndex].value;
+    let selectedIndex = this.profileAccent.selectedIndex;
+    let accent = this.profileAccent.options[selectedIndex].value;
     this.props.user.setAccent(accent);
 
-    el = document.getElementById('profile-age') as HTMLSelectElement;
-    let age = el.options[el.selectedIndex].value;
+    selectedIndex = this.profileAge.selectedIndex;
+    let age = this.profileAge.options[selectedIndex].value;
     this.props.user.setAge(age);
 
-    el = document.getElementById('profile-gender') as HTMLSelectElement;
-    let gender = el.options[el.selectedIndex].value;
+    selectedIndex = this.profileGender.selectedIndex;
+    let gender = this.profileGender.options[selectedIndex].value;
     this.props.user.setGender(gender);
 
     this.setState({
@@ -73,14 +77,15 @@ export default class Profile extends Component<Props, State> {
   private update() {
     let user = this.props.user.getState();
 
-    let el = document.getElementById('email') as HTMLInputElement;
-    let email = el.value;
-    let select = document.getElementById('profile-accent') as HTMLSelectElement;
-    let accent = select.options[select.selectedIndex].value;
-    select = document.getElementById('profile-age') as HTMLSelectElement;
-    let age = select.options[select.selectedIndex].value;
-    select = document.getElementById('profile-gender') as HTMLSelectElement;
-    let gender = select.options[select.selectedIndex].value;
+    let email = this.email.value;
+    let selectedIndex = this.profileAccent.selectedIndex;
+    let accent = this.profileAccent.options[selectedIndex].value;
+
+    selectedIndex = this.profileAge.selectedIndex;
+    let age = this.profileAge.options[selectedIndex].value;
+
+    selectedIndex = this.profileGender.selectedIndex;
+    let gender = this.profileGender.options[selectedIndex].value;
 
     this.setState({
       email: email,
@@ -134,11 +139,13 @@ export default class Profile extends Component<Props, State> {
           <input
             onKeyUp={this.update}
             className={emailModified ? 'unsaved' : ''}
-            id="email"
             type="email"
             name="email"
             tabIndex={1}
             value={this.state.email}
+            ref={input => {
+              this.email = input as HTMLInputElement;
+            }}
           />
           <button
             onClick={this.saveEmail}
@@ -167,7 +174,10 @@ export default class Profile extends Component<Props, State> {
           onChange={this.update}
           id="profile-accent"
           tabIndex={4}
-          className={accentModified ? 'unsaved' : ''}>
+          className={accentModified ? 'unsaved' : ''}
+          ref={select => {
+            this.profileAccent = select as HTMLSelectElement;
+          }}>
           {accentOptions}
         </select>
         <label for="profile-age">Your age</label>
@@ -175,7 +185,10 @@ export default class Profile extends Component<Props, State> {
           onChange={this.update}
           id="profile-age"
           tabIndex={5}
-          className={ageModified ? 'unsaved' : ''}>
+          className={ageModified ? 'unsaved' : ''}
+          ref={select => {
+            this.profileAge = select as HTMLSelectElement;
+          }}>
           {ageOptions}
         </select>
         <label for="profile-gender">Your gender</label>
@@ -183,7 +196,10 @@ export default class Profile extends Component<Props, State> {
           onChange={this.update}
           id="profile-gender"
           tabIndex={6}
-          className={genderModified ? 'unsaved' : ''}>
+          className={genderModified ? 'unsaved' : ''}
+          ref={select => {
+            this.profileGender = select as HTMLSelectElement;
+          }}>
           {genderOptions}
         </select>
         <button
