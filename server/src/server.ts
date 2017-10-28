@@ -7,6 +7,7 @@ import Logger from './lib/logger';
 import { isLeaderServer, getElapsedSeconds } from './lib/utility';
 import { Server as NodeStaticServer } from 'node-static';
 import { CommonVoiceConfig, getConfig } from './config-helper';
+import { S3Service } from './s3-service';
 
 const SLOW_REQUEST_LIMIT = 2000;
 const CLIENT_PATH = '../../web';
@@ -26,7 +27,7 @@ export default class Server {
     this.config = config ? config : getConfig();
     this.staticServer = this.getServer();
     this.model = new Model(this.config);
-    this.api = new API(this.config, this.model);
+    this.api = new API(this.config, this.model, S3Service.getInstance());
     this.logger = new Logger(this.config);
     this.isLeader = null;
 

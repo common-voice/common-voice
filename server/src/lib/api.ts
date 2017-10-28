@@ -9,6 +9,8 @@ import Prometheus from './prometheus';
 import WebHook from './webhook';
 import respond from './responder';
 
+import { S3 } from 'aws-sdk';
+
 export default class API {
   config: CommonVoiceConfig;
   model: Model;
@@ -17,10 +19,10 @@ export default class API {
   metrics: Prometheus;
   webhook: WebHook;
 
-  constructor(config: CommonVoiceConfig, model: Model) {
+  constructor(config: CommonVoiceConfig, model: Model, s3: S3) {
     this.config = config;
     this.model = model;
-    this.clip = new Clip(this.config, this.model);
+    this.clip = new Clip(this.config, this.model, s3);
     this.corpus = new Corpus();
     this.metrics = new Prometheus();
     this.webhook = new WebHook();
