@@ -31,14 +31,12 @@ const PRELOAD = [
 ];
 
 /**
- * Main app controller, rensponsible for routing between page
- * controllers.
+ * Main app controller, rensponsible for routing between page controllers.
  */
 export default class App {
   box: DebugBox;
   user: User;
   api: API;
-  loadProgress: number;
   progressMeter: HTMLSpanElement;
 
   /**
@@ -71,29 +69,32 @@ export default class App {
     window.addEventListener('popstate', this.renderCurrentPage.bind(this));
   }
 
-  private loadImages(progressCallback?: Function): Promise<void> {
-    return new Promise<void>((res, rej) => {
+  /**
+   * Pre-Load all images before first content render.
+   */
+  private preloadImages(
+    progressCallback?: (percentLoaded: number) => void
+  ): Promise<void> {
+    return new Promise<void>(resolve => {
       let loadedSoFar = 0;
-      let onLoad = () => {
+      const onLoad = () => {
         ++loadedSoFar;
         if (loadedSoFar === PRELOAD.length) {
-          res();
+          resolve();
           return;
         }
 
-        progressCallback(loadedSoFar / PRELOAD.length);
+        if (progressCallback) {
+          progressCallback(loadedSoFar / PRELOAD.length);
+        }
       };
-      for (let i = 0; i < PRELOAD.length; i++) {
-        let image = new Image();
-        image.onload = onLoad;
-        image.src = PRELOAD[i];
-      }
+      PRELOAD.forEach(imageUrl => {
+        const image = new Image();
+        image.addEventListener('load', onLoad);
+        image.src = imageUrl;
+      });
     });
   }
-
-  /**
-   * LOAD ALL IMAGES BEFORE FIRST RENDER
-   * */
 
   /**
    * Perform any native iOS specific operations.
@@ -170,7 +171,7 @@ export default class App {
     // Force page to be ready after a specified time, unless pre-loading images finishes first.
     await Promise.race([
       sleep(LOAD_TIMEOUT),
-      this.loadImages((progress: number) => {
+      this.preloadImages((progress: number) => {
         if (this.progressMeter) {
           // TODO: find something performant here. (ie not this)
           // let whatsLeft = 1 - progress;
