@@ -7,6 +7,13 @@ export interface Clip {
   sound: string;
 }
 
+interface FetchOptions {
+  type?: 'GET';
+  responseType?: 'text' | 'json';
+  headers?: { [headerName: string]: string };
+  body?: any;
+}
+
 /**
  * Handles any ajax and web 2.0 server ninjas.
  */
@@ -23,34 +30,42 @@ export default class API {
   }
 
   /**
-   * Sadly, had to implement fetch myself as it's not supported enough.
+   * Sadly, had to implement fetch ourselves as it's not supported enough.
+   * See: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
    */
-  private fetch(path: string, options?: any): Promise<any> {
-    options = options || {};
-    return new Promise((res: Function, rej: Function) => {
-      var req = new XMLHttpRequest();
-      req.open(options.type || 'GET', path);
+  private fetch(
+    path: string,
+    options: FetchOptions = {}
+  ): Promise<XMLHttpRequest> {
+    return new Promise(
+      (
+        resolve: (r: XMLHttpRequest) => void,
+        reject: (r: XMLHttpRequest) => void
+      ) => {
+        const req = new XMLHttpRequest();
+        req.open(options.type || 'GET', path);
 
-      if (options.headers) {
-        Object.keys(options.headers).forEach((header: string) => {
-          req.setRequestHeader(header, options.headers[header]);
-        });
-      }
-
-      if (options.responseType) {
-        req.responseType = options.responseType;
-      }
-
-      req.onload = () => {
-        if (req.status === 200) {
-          res(req);
-        } else {
-          rej(req);
+        if (options.headers) {
+          Object.keys(options.headers).forEach((header: string) => {
+            req.setRequestHeader(header, options.headers[header]);
+          });
         }
-      };
 
-      req.send(options.body || '');
-    });
+        if (options.responseType) {
+          req.responseType = options.responseType;
+        }
+
+        req.addEventListener('load', () => {
+          if (req.status === 200) {
+            resolve(req);
+          } else {
+            reject(req);
+          }
+        });
+
+        req.send(options.body || null);
+      }
+    );
   }
 
   private async fetchText(path: string): Promise<any> {
@@ -60,10 +75,6 @@ export default class API {
 
   private requestResourceText(resource: string): Promise<string> {
     return this.fetchText(this.getPath(resource));
-  }
-
-  private requestResource(resource: string): Promise<string> {
-    return this.fetch(this.getPath(resource));
   }
 
   private getPath(resource: string): string {
