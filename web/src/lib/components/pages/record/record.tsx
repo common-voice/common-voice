@@ -18,7 +18,7 @@ const MAX_RECORDING_LENGTH = 10000; // ms
 const MIN_VOLUME = 1;
 const RETRY_TIMEOUT = 1000;
 const ERR_SENTENCES_NOT_LOADED =
-  'Sorry! Sentinces are being loaded, please wait or try again shortly.';
+  'Sorry! Sentences are being loaded, please wait or try again shortly.';
 
 enum RecordingError {
   TOO_SHORT = 1,
@@ -318,7 +318,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     this.maxVolume = 0;
     this.setState({
       recording: true,
-      // TODO: reanble display of recording time at some point.
+      // TODO: re-enable display of recording time at some point.
       recordingStartTime: Date.now(),
       recordingStopTime: 0,
     });
@@ -355,7 +355,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     let newOnes = this.sentenceCache.splice(0, SET_COUNT);
     this.setState({ sentences: newOnes });
 
-    // Preemptively fill setnece cache when we get low.
+    // Preemptively fill sentence cache when we get low.
     if (this.sentenceCache.length < SET_COUNT * 2) {
       this.refillSentenceCache();
     }
