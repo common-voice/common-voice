@@ -7,10 +7,14 @@ export interface Clip {
   sound: string;
 }
 
+interface HeadersMap {
+  [headerName: string]: string;
+}
+
 interface FetchOptions {
-  type?: 'GET';
-  responseType?: 'text' | 'json';
-  headers?: { [headerName: string]: string };
+  type?: 'GET' | 'POST' | 'PUT' | 'DELETE';
+  responseType?: XMLHttpRequestResponseType;
+  headers?: HeadersMap;
   body?: any;
 }
 
@@ -104,35 +108,63 @@ export default class API {
     return req.response;
   }
 
-  castVote(glob: string, vote: boolean): Promise<Event> {
+  /**
+   * Create a new XMLHttpRequest with method 'POST', to the given `url`, using
+   * the given `headers` for the request.
+   * 
+   * **IMPORTANT:** The created request is not sent by this method. You have
+   * to invoke the request's `send()` method yourself in the `requestCallback`
+   * that you pass to this method!
+   * 
+   * @returns A Promise that resolves to the success event when the POST 
+   *   request succeeds, or rejects with the error event if an error occurs.
+   */
+  private createPostRequest(
+    url: string,
+    headers: HeadersMap,
+    requestCallback: (request: XMLHttpRequest) => void
+  ) {
     return new Promise((resolve: EventListener, reject: EventListener) => {
-      var req = new XMLHttpRequest();
-      req.responseType = 'text';
+      const req = new XMLHttpRequest();
       req.upload.addEventListener('load', resolve);
       req.upload.addEventListener('error', reject);
-      req.open('POST', API.CLIP_VOTE_URL);
-      req.setRequestHeader('glob', glob);
-      req.setRequestHeader('uid', this.user.getId());
-      req.setRequestHeader('vote', encodeURIComponent(vote.toString()));
+      req.open('POST', url);
 
+      Object.keys(headers).forEach((header: string) => {
+        req.setRequestHeader(header, headers[header]);
+      });
+
+      requestCallback(req);
+    });
+  }
+
+  castVote(glob: string, vote: boolean): Promise<Event> {
+    const headers = {
+      glob,
+      uid: this.user.getId(),
+      vote: encodeURIComponent(vote.toString()),
+    };
+
+    return this.createPostRequest(API.CLIP_VOTE_URL, headers, req => {
+      req.responseType = 'text';
       req.send(vote);
     });
   }
 
   uploadDemographicInfo(): Promise<Event> {
-    return new Promise((resolve: EventListener, reject: EventListener) => {
-      var req = new XMLHttpRequest();
-      req.upload.addEventListener('load', resolve);
-      req.upload.addEventListener('error', reject);
-      req.open('POST', API.DEMOGRAPHIC_URL);
-      req.setRequestHeader('uid', this.user.getId());
-      // Note: Do not add more properties of this.user w/o legal review
-      let demographicInfo = {
-        accent: this.user.getState().accent,
-        age: this.user.getState().age,
-        gender: this.user.getState().gender,
-      };
-      req.setRequestHeader('demographic', JSON.stringify(demographicInfo));
+    // Note: Do not add more properties of this.user w/o legal review
+    const demographicInfo = {
+      accent: this.user.getState().accent,
+      age: this.user.getState().age,
+      gender: this.user.getState().gender,
+    };
+
+    const headers = {
+      uid: this.user.getId(),
+      demographic: JSON.stringify(demographicInfo),
+    };
+
+    return this.createPostRequest(API.DEMOGRAPHIC_URL, headers, req => {
       req.send(demographicInfo);
     });
   }
@@ -142,20 +174,18 @@ export default class API {
     sentence: string,
     progress?: Function
   ): Promise<Event> {
-    return new Promise((resolve: EventListener, reject: EventListener) => {
-      var req = new XMLHttpRequest();
-      req.upload.addEventListener('load', resolve);
-      req.upload.addEventListener('error', reject);
-      req.open('POST', API.SOUNDCLIP_URL);
-      req.setRequestHeader('uid', this.user.getId());
-      req.setRequestHeader('sentence', encodeURIComponent(sentence));
+    const headers: HeadersMap = {
+      uid: this.user.getId(),
+      sentence: encodeURIComponent(sentence),
+    };
 
-      // For IOS, we don't upload binary data but base64. Here we
-      // make sure the server knows what to expect.
-      if (blob.type === AudioIOS.AUDIO_TYPE) {
-        req.setRequestHeader('content-type', AudioIOS.AUDIO_TYPE);
-      }
+    // For IOS, we don't upload binary data but base64. Here we
+    // make sure the server knows what to expect.
+    if (blob.type === AudioIOS.AUDIO_TYPE) {
+      headers['content-type'] = AudioIOS.AUDIO_TYPE;
+    }
 
+    return this.createPostRequest(API.SOUNDCLIP_URL, headers, req => {
       if (progress) {
         req.addEventListener('progress', evt => {
           let total = evt.lengthComputable ? evt.total : 100;
