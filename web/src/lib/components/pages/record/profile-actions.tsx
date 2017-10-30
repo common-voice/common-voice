@@ -2,26 +2,45 @@ import { h, Component } from 'preact';
 import Profile from '../profile/profile';
 import User from '../../../user';
 
-interface WhyProfileProps {
-  onClose: () => any;
+interface WhyProfileProps {}
+
+interface WhyProfileState {
+  expanded: boolean;
 }
 
-const WhyProfile = ({ onClose }: WhyProfileProps) => (
-  <div>
-    <span id="why-profile-title">Why a profile?</span>
-    <div id="why-profile">
-      <p id="why-profile-text">
-        Copy explaining value of profile &amp; demographic capture: Lorem ipsum
-        dolor sit amet, consectetur adipiscing elit. Nulla id orci dui.
-      </p>
-      <p>
-        <a name="" onClick={onClose}>
-          Close
-        </a>
-      </p>
-    </div>
-  </div>
-);
+const WHY_PROFILE_TITLE = 'Why a profile?';
+
+class WhyProfile extends Component<WhyProfileProps, WhyProfileState> {
+  state = { expanded: false };
+
+  private toggle = () => {
+    this.setState({ expanded: !this.state.expanded });
+  };
+
+  render() {
+    return this.state.expanded ? (
+      <div>
+        <span id="why-profile-title">{WHY_PROFILE_TITLE}</span>
+        <div id="why-profile">
+          <p id="why-profile-text">
+            Copy explaining value of profile &amp; demographic capture: Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit. Nulla id orci
+            dui.
+          </p>
+          <p>
+            <a name="" onClick={this.toggle}>
+              Close
+            </a>
+          </p>
+        </div>
+      </div>
+    ) : (
+      <div id="why-profile-title">
+        <a onClick={this.toggle}>{WHY_PROFILE_TITLE}</a>
+      </div>
+    );
+  }
+}
 
 interface Props {
   user: User;
@@ -29,28 +48,23 @@ interface Props {
 
 interface State {
   profileFormVisible: boolean;
-  whyProfileVisible: boolean;
 }
 
 export default class ProfileActions extends Component<Props, State> {
   state: State = {
     profileFormVisible: false,
-    whyProfileVisible: false,
   };
 
   private toggleProfileForm = () => {
     this.setState({ profileFormVisible: !this.state.profileFormVisible });
   };
 
-  private toggleWhyProfile = () => {
-    this.setState({ whyProfileVisible: !this.state.whyProfileVisible });
-  };
-
   render() {
+    const { profileFormVisible } = this.state;
     return (
       <div id="profile-actions">
         <hr />
-        {this.state.profileFormVisible ? (
+        {profileFormVisible ? (
           <div id="profile-form-container">
             <a class="cancel" onClick={this.toggleProfileForm}>
               Cancel
@@ -60,30 +74,17 @@ export default class ProfileActions extends Component<Props, State> {
         ) : this.props.user.hasEnteredInfo() ? (
           <a onClick={this.toggleProfileForm}>Edit Profile</a>
         ) : (
-          this.renderOnboarding()
+          [
+            <button
+              type="button"
+              id="create-profile-button"
+              onClick={this.toggleProfileForm}>
+              Create a profile
+            </button>,
+            <WhyProfile />,
+          ]
         )}
       </div>
     );
-  }
-
-  private renderOnboarding() {
-    const { profileFormVisible, whyProfileVisible } = this.state;
-    return [
-      !profileFormVisible && (
-        <button
-          type="button"
-          id="create-profile-button"
-          onClick={this.toggleProfileForm}>
-          Create a profile
-        </button>
-      ),
-      whyProfileVisible ? (
-        <WhyProfile onClose={this.toggleWhyProfile} />
-      ) : (
-        <div id="why-profile-title">
-          <a onClick={this.toggleWhyProfile}>Why a profile?</a>
-        </div>
-      ),
-    ];
   }
 }
