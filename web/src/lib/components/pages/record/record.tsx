@@ -6,6 +6,7 @@ import Icon from '../../icon';
 import AudioIOS from './audio-ios';
 import AudioWeb, { AudioInfo } from './audio-web';
 import ListenBox from '../../listen-box/listen-box';
+import Alert from '../../alert/alert';
 import { getItunesURL, isFocus, isNativeIOS, sleep } from '../../../utility';
 import confirm from '../../../confirm/confirm';
 import Review from './review';
@@ -54,6 +55,7 @@ interface RecordState {
   uploadProgress: number;
   isReRecord: boolean;
   reRecordIndex: number;
+  alertVisible: boolean;
 }
 
 export default class RecordPage extends Component<RecordProps, RecordState> {
@@ -74,6 +76,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     uploadProgress: 0,
     isReRecord: false,
     reRecordIndex: -1,
+    alertVisible: false,
   };
 
   constructor(props: RecordProps) {
@@ -141,6 +144,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       recording: false,
       isReRecord: false,
       reRecordIndex: -1,
+      alertVisible: true,
     });
 
     this.tracker.trackRecord();
@@ -197,6 +201,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       recordings: recordings,
       isReRecord: true,
       reRecordIndex: index,
+      alertVisible: false,
     });
 
     this.props.onDelete();
@@ -285,6 +290,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     recordings.pop();
     this.setState({
       recordings: recordings,
+      alertVisible: false,
     });
   }
 
@@ -295,6 +301,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       sentences: [],
       uploading: false,
       uploadProgress: 0,
+      alertVisible: false,
     });
     this.newSentenceSet();
   }
@@ -321,6 +328,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       // TODO: re-enable display of recording time at some point.
       recordingStartTime: Date.now(),
       recordingStopTime: 0,
+      alertVisible: false,
     });
     this.props.onRecord && this.props.onRecord();
   }
@@ -447,6 +455,10 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     return (
       <div id="record-container" className={className}>
         <div id="voice-record">
+          <Alert
+            text="Submit success! Want to record again?"
+            active={this.state.alertVisible}
+          />
           <div className="record-sentence">
             {texts}
             <Icon
