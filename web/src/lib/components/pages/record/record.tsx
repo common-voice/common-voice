@@ -52,6 +52,7 @@ interface RecordState {
   uploading: boolean;
   uploadProgress: number;
   isReRecord: boolean;
+  reRecordIndex: number;
   whyProfileVisible: boolean;
 }
 
@@ -72,6 +73,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     uploading: false,
     uploadProgress: 0,
     isReRecord: false,
+    reRecordIndex: -1,
     whyProfileVisible: false,
   };
 
@@ -130,12 +132,17 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
   private processRecording(info: AudioInfo) {
     let recordings = this.state.recordings;
-    recordings.push(info);
+    if (this.state.isReRecord) {
+      recordings.splice(this.state.reRecordIndex, 0, info);
+    } else {
+      recordings.push(info);
+    }
 
     this.setState({
       recordings: recordings,
       recording: false,
       isReRecord: false,
+      reRecordIndex: -1,
     });
 
     this.tracker.trackRecord();
@@ -186,17 +193,12 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
   }
 
   private deleteRecording(index: number): void {
-    // Move redo sentence to the end.
-    let sentences = this.state.sentences;
-    let redoSentence = sentences.splice(index, 1);
-    sentences.push(redoSentence[0]);
-
     let recordings = this.state.recordings;
     recordings.splice(index, 1);
     this.setState({
       recordings: recordings,
-      sentences: sentences,
       isReRecord: true,
+      reRecordIndex: index,
     });
 
     this.props.onDelete();
@@ -406,11 +408,15 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     for (let i = 0; i < SET_COUNT; i++) {
       // For the sentences elements, we need to
       // figure out where each item is positioned.
+      // When rerecording, this is determined by reRecordIndex.
+      // Otherwise, this is determined by the number of sentences recorded.
       let className = 'text-box';
-      let length = this.state.recordings.length;
-      if (i < length) {
+      const length = this.state.recordings.length;
+      const reRecordIndex = this.state.reRecordIndex;
+      const recordIndex = this.state.isReRecord ? reRecordIndex : length;
+      if (i < recordIndex) {
         className = className + ' left';
-      } else if (i > length) {
+      } else if (i > recordIndex) {
         className = className + ' right';
       }
 
