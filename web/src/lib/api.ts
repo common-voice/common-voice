@@ -1,12 +1,6 @@
 import User from './user';
 import AudioIOS from './components/pages/record/audio-ios';
 
-export interface Clip {
-  glob: string;
-  audio: string;
-  sentence: string;
-}
-
 export interface ClipJson {
   glob: string;
   text: string;

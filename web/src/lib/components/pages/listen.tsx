@@ -1,5 +1,5 @@
 import { h, Component } from 'preact';
-import { Clip, default as API } from '../../api';
+import API from '../../api';
 import Validator from '../validator';
 import User from '../../user';
 
