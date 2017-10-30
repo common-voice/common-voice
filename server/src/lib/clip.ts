@@ -149,7 +149,7 @@ export default class Clip {
         this.saveClip(request, response);
       }
     } else if (this.isRandomClipJsonRequest(request)) {
-      this.serveRandomClipJson(request, response);
+      this.serveRandomClip(request, response);
     } else {
       this.serve(request, response);
     }
@@ -354,7 +354,7 @@ export default class Clip {
     });
   }
 
-  async serveRandomClipJson(
+  async serveRandomClip(
     request: http.IncomingMessage,
     response: http.ServerResponse
   ): Promise<void> {
@@ -368,7 +368,7 @@ export default class Clip {
       const clipJson = await this.bucket.getRandomClipJson(uid);
       respond(response, clipJson, 200, CONTENT_TYPES.JSON);
     } catch (err) {
-      console.error('could not get random clip', err);
+      console.error('could not get random clip:', (err as Error).message);
       respond(response, 'Still loading', 500);
     }
   }

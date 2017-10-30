@@ -3,12 +3,6 @@ import AudioIOS from './components/pages/record/audio-ios';
 
 export interface Clip {
   glob: string;
-  audio: string;
-  sentence: string;
-}
-
-export interface ClipJson {
-  glob: string;
   text: string;
   sound: string;
 }
@@ -88,16 +82,15 @@ export default class API {
   }
 
   /**
-   * Ask the server for a clip
+   * Ask the server for a random clip.
    */
-  async getRandomClipJson(): Promise<ClipJson> {
+  async getRandomClip(): Promise<Clip> {
     const req = await this.fetch('upload/random.json', {
       responseType: 'json',
       headers: { uid: this.user.getId() },
     });
 
-    let response = req.response as ClipJson;
-    return response;
+    return req.response;
   }
 
   castVote(glob: string, vote: boolean): Promise<Event> {

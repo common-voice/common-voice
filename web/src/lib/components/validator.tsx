@@ -1,6 +1,6 @@
 import { h, Component } from 'preact';
 import ListenBox from './listen-box/listen-box';
-import { ClipJson, default as API } from '../api';
+import API from '../api';
 
 const LOADING_MESSAGE = 'Loading...';
 const LOAD_ERROR_MESSAGE =
@@ -42,12 +42,12 @@ export default class Validator extends Component<Props, State> {
   private async loadClip() {
     this.setState({ loading: true });
     try {
-      const clipJson = await this.props.api.getRandomClipJson();
+      const clip = await this.props.api.getRandomClip();
       this.setState({
         loading: false,
-        glob: clipJson.glob,
-        sentence: decodeURIComponent(clipJson.text),
-        audioSrc: clipJson.sound,
+        glob: clip.glob,
+        sentence: decodeURIComponent(clip.text),
+        audioSrc: clip.sound,
       });
     } catch (err) {
       console.error('could not fetch random clip for validator', err);

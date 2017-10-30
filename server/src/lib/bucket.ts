@@ -185,21 +185,17 @@ export default class Bucket {
   async getRandomClipJson(uid: string): Promise<string> {
     const clip = this.model.getEllibleClip(uid);
     if (!clip) {
-      return Promise.reject('No globs from me');
+      throw new Error('Could not find any eligible clips for this user');
     }
 
     // On the client, the clipid is called 'glob'
-    let glob = clip.clipid;
+    const glob = clip.clipid;
 
-    let clipJson = {
+    const clipJson = {
       glob: glob,
       text: clip.sentenceText,
       sound: this.getPublicUrl(clip.clipPath),
     };
-
-    if (clipJson.text) {
-      return Promise.resolve(JSON.stringify(clipJson));
-    }
 
     if (!clipJson.text) {
       clipJson.text = await this.fetchSentenceFromS3(glob);
