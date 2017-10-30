@@ -2,6 +2,27 @@ import { h, Component } from 'preact';
 import Profile from '../profile/profile';
 import User from '../../../user';
 
+interface WhyProfileProps {
+  onClose: () => any;
+}
+
+const WhyProfile = ({ onClose }: WhyProfileProps) => (
+  <div>
+    <span id="why-profile-title">Why a profile?</span>
+    <div id="why-profile">
+      <p id="why-profile-text">
+        Copy explaining value of profile &amp; demographic capture: Lorem ipsum
+        dolor sit amet, consectetur adipiscing elit. Nulla id orci dui.
+      </p>
+      <p>
+        <a name="" onClick={onClose}>
+          Close
+        </a>
+      </p>
+    </div>
+  </div>
+);
+
 interface Props {
   user: User;
 }
@@ -56,29 +77,13 @@ export default class ProfileActions extends Component<Props, State> {
           Create a profile
         </button>
       ),
-      <div>
-        {whyProfileVisible ? (
-          <div>
-            <span id="why-profile-title">Why a profile?</span>
-            <div id="why-profile">
-              <p id="why-profile-text">
-                Copy explaining value of profile &amp; demographic capture:
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-                id orci dui.
-              </p>
-              <p>
-                <a name="" onClick={this.toggleWhyProfile}>
-                  Close
-                </a>
-              </p>
-            </div>
-          </div>
-        ) : (
-          <span id="why-profile-title">
-            <a onClick={this.toggleWhyProfile}>Why a profile?</a>
-          </span>
-        )}
-      </div>,
+      whyProfileVisible ? (
+        <WhyProfile onClose={this.toggleWhyProfile} />
+      ) : (
+        <div id="why-profile-title">
+          <a onClick={this.toggleWhyProfile}>Why a profile?</a>
+        </div>
+      ),
     ];
   }
 }
