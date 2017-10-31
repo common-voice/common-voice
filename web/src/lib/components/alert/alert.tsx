@@ -18,13 +18,13 @@ export default class Alert extends Component<Props, State> {
   }
 
   state: State = {
-    active: false,
+    active: this.props.active,
   };
 
-  componentWillReceiveProps(nextProps: Props) {
-    if (nextProps.active !== this.props.active) {
+  componentWillReceiveProps({ active }: Props) {
+    if (active !== this.state.active) {
       this.setState({
-        active: nextProps.active,
+        active,
       });
     }
   }
