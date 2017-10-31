@@ -3,6 +3,8 @@
 If you don't already have one you will need a configured S3 account, and a bucket
 in which to store voice clips.
 
+** Note ** Making requests to s3 is subject to their [pricing policy](https://aws.amazon.com/s3/pricing/).
+
 #### Set up an Amazon Services Account
 
 1. Visit https://aws.amazon.com/s3/
