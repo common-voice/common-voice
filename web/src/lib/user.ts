@@ -218,4 +218,9 @@ export default class User {
     this.state.validateTally++;
     this.save();
   }
+
+  public hasEnteredInfo(): boolean {
+    const { email, accent, age, gender } = this.state;
+    return Boolean(email || accent || age || gender);
+  }
 }
