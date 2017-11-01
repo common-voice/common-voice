@@ -2,15 +2,13 @@ import { h, Component } from 'preact';
 import Profile from '../profile/profile';
 import User from '../../../user';
 
-interface WhyProfileProps {}
-
 interface WhyProfileState {
   expanded: boolean;
 }
 
 const WHY_PROFILE_TITLE = 'Why a profile?';
 
-class WhyProfile extends Component<WhyProfileProps, WhyProfileState> {
+class WhyProfile extends Component<{}, WhyProfileState> {
   state = { expanded: false };
 
   private toggle = () => {
