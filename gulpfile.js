@@ -37,6 +37,7 @@ const RELOAD_DELAY = 2500;
 const gulp = require('gulp-help')(require('gulp'));
 const shell = require('gulp-shell');
 const path = require('path');
+const eventStream = require('event-stream');
 const ts = require('gulp-typescript');
 const insert = require('gulp-insert');
 const eslint = require('gulp-eslint');
@@ -142,10 +143,21 @@ function compileCSS() {
     }),
     cssnano({ autoprefixer: false })
   ];
-  return gulp.src(DIR_CLIENT_SRC + '/lib/components/index.css')
+  return gulp.src(DIR_CLIENT_SRC + 'lib/components/index.css')
     .pipe(cssImport())
     .pipe(postcss(plugins))
     .pipe(gulp.dest(DIR_DIST));
+}
+
+function copyStaticWebAssets() {
+  return eventStream.merge([
+    gulp.src([
+      DIR_CLIENT + 'index.html',
+      DIR_CLIENT + 'favicon.ico'
+    ]).pipe(gulp.dest(DIR_DIST)),
+    gulp.src(DIR_CLIENT + 'img/**/*').pipe(gulp.dest(DIR_DIST + 'img/')),
+    gulp.src(DIR_CLIENT + 'font/**/*').pipe(gulp.dest(DIR_DIST + 'font/'))
+  ]);
 }
 
 function lint(src) {
@@ -182,7 +194,7 @@ gulp.task('lint', 'Perform style checks on all typescript code',
 
 gulp.task('prettify', 'Auto-format all typescript code', prettifyAll);
 
-gulp.task('css', 'Minify CSS files', compileCSS);
+gulp.task('css', 'Minify CSS files', ['clean-web'], compileCSS);
 
 gulp.task('ts', 'Compile typescript files into bundle.js',
   ['clean-web', 'lint-web'], () => compileClient(false));
@@ -193,13 +205,15 @@ gulp.task('ts-dev', 'Compile typescript files into bundle.js with sourcemaps',
 gulp.task('ts-server', 'Compile typescript server files.',
   ['clean-server', 'lint-server'], compileServer);
 
-gulp.task('build', 'Build both server and client js', ['ts', 'ts-server', 'css']);
-gulp.task('build-dev', 'Build both server and client js', ['ts-dev', 'ts-server', 'css']);
+gulp.task('copy-static-web-assets', 'Copy static web assets to output', ['clean-web'], copyStaticWebAssets);
+
+gulp.task('build', 'Build both server and client js', ['ts', 'ts-server', 'css', 'copy-static-web-assets']);
+gulp.task('build-dev', 'Build both server and client js', ['ts-dev', 'ts-server', 'css', 'copy-static-web-assets']);
 
 gulp.task('npm-install', 'Install npm dependencies.',
   shell.task(['yarn']));
 
-gulp.task('clean-web', cleanFolder.bind(null, PATH_CLIENT_JS));
+gulp.task('clean-web', cleanFolder.bind(null, DIR_DIST));
 
 gulp.task('clean-server', cleanFolder.bind(null, DIR_SERVER_JS));
 
