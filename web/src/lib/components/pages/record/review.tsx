@@ -30,7 +30,7 @@ export default ({ children, progress, user, onSubmit }: Props) => (
       percent={progress}
       disabled={false}
       onClick={onSubmit}
-      text="Submit"
+      text="SUBMIT"
     />
     <ProfileActions user={user} />
   </div>
