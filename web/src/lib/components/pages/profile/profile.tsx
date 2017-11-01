@@ -64,7 +64,7 @@ export default class Profile extends Component<Props, State> {
     });
   }
 
-  private update() {
+  private update(): State {
     const data = {
       email: this.email.value,
       accent: this.profileAccent.value,
