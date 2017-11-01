@@ -51,6 +51,7 @@
     "gulp-cssimport": "^6.0.0",
     "gulp-nodemon": "2.2.1",
     "gulp-postcss": "^7.0.0",
+    "gulp-sourcemaps": "^2.6.1",
     "gulp-tape": "0.0.9",
     "gulp-typescript": "^3.2.2",
     "tap-colorize": "^1.2.0"
