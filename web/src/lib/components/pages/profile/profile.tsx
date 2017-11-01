@@ -22,12 +22,12 @@ export default class Profile extends Component<Props, State> {
   constructor(props: Props) {
     super(props);
 
-    let user = this.props.user.getState();
+    const { email, accent, age, gender } = this.props.user.getState();
     this.state = {
-      email: user.email,
-      accent: user.accent,
-      age: user.age,
-      gender: user.gender,
+      email,
+      accent,
+      age,
+      gender,
     };
 
     this.saveEmail = this.saveEmail.bind(this);
@@ -37,99 +37,53 @@ export default class Profile extends Component<Props, State> {
   }
 
   private saveEmail() {
-    let email = this.email.value;
+    const email = this.email.value;
     this.props.user.setEmail(email);
 
     this.setState({
-      email: email,
+      email,
     });
-
-    this.render();
   }
 
   private configSendEmails(e: Event) {
-    let el = e.currentTarget as HTMLInputElement;
+    const el = e.currentTarget as HTMLInputElement;
     this.props.user.setSendEmails(el.checked);
   }
 
   private saveDemographics() {
-    let selectedIndex = this.profileAccent.selectedIndex;
-    let accent = this.profileAccent.options[selectedIndex].value;
+    const { accent, age, gender } = this.update();
+
     this.props.user.setAccent(accent);
-
-    selectedIndex = this.profileAge.selectedIndex;
-    let age = this.profileAge.options[selectedIndex].value;
     this.props.user.setAge(age);
-
-    selectedIndex = this.profileGender.selectedIndex;
-    let gender = this.profileGender.options[selectedIndex].value;
     this.props.user.setGender(gender);
 
     this.setState({
-      accent: accent,
-      age: age,
-      gender: gender,
+      accent,
+      age,
+      gender,
     });
-
-    this.render();
   }
 
-  private update() {
-    let user = this.props.user.getState();
-
-    let email = this.email.value;
-    let selectedIndex = this.profileAccent.selectedIndex;
-    let accent = this.profileAccent.options[selectedIndex].value;
-
-    selectedIndex = this.profileAge.selectedIndex;
-    let age = this.profileAge.options[selectedIndex].value;
-
-    selectedIndex = this.profileGender.selectedIndex;
-    let gender = this.profileGender.options[selectedIndex].value;
-
-    this.setState({
-      email: email,
-      accent: accent,
-      age: age,
-      gender: gender,
-    });
+  private update(): State {
+    const data = {
+      email: this.email.value,
+      accent: this.profileAccent.value,
+      age: this.profileAge.value,
+      gender: this.profileGender.value,
+    };
+    this.setState(data);
+    return data;
   }
 
   render() {
-    let user = this.props.user.getState();
+    const { email, accent, age, gender } = this.state;
+    const user = this.props.user.getState();
 
     // Check for modified form fields.
-    let emailModified = this.state.email !== user.email;
-    let accentModified = this.state.accent !== user.accent;
-    let ageModified = this.state.age !== user.age;
-    let genderModified = this.state.gender !== user.gender;
-
-    let accentOptions: any[] = [];
-    Object.keys(ACCENTS).forEach(accent => {
-      accentOptions.push(
-        <option value={accent} selected={this.state.accent === accent}>
-          {ACCENTS[accent]}
-        </option>
-      );
-    });
-
-    let ageOptions: any[] = [];
-    Object.keys(AGES).forEach(age => {
-      ageOptions.push(
-        <option value={age} selected={this.state.age === age}>
-          {AGES[age]}
-        </option>
-      );
-    });
-
-    let genderOptions: any[] = [];
-    Object.keys(GENDER).forEach(gender => {
-      genderOptions.push(
-        <option value={gender} selected={this.state.gender === gender}>
-          {GENDER[gender]}
-        </option>
-      );
-    });
+    const emailModified = email !== user.email;
+    const accentModified = accent !== user.accent;
+    const ageModified = age !== user.age;
+    const genderModified = gender !== user.gender;
 
     return (
       <div id="profile-container" className={this.props.active}>
@@ -142,7 +96,7 @@ export default class Profile extends Component<Props, State> {
             type="email"
             name="email"
             tabIndex={1}
-            value={this.state.email}
+            value={email}
             ref={input => {
               this.email = input as HTMLInputElement;
             }}
@@ -178,7 +132,7 @@ export default class Profile extends Component<Props, State> {
           ref={select => {
             this.profileAccent = select as HTMLSelectElement;
           }}>
-          {accentOptions}
+          {this.renderOptionsFor(ACCENTS, accent)}
         </select>
         <label for="profile-age">Your age</label>
         <select
@@ -189,7 +143,7 @@ export default class Profile extends Component<Props, State> {
           ref={select => {
             this.profileAge = select as HTMLSelectElement;
           }}>
-          {ageOptions}
+          {this.renderOptionsFor(AGES, age)}
         </select>
         <label for="profile-gender">Your gender</label>
         <select
@@ -200,7 +154,7 @@ export default class Profile extends Component<Props, State> {
           ref={select => {
             this.profileGender = select as HTMLSelectElement;
           }}>
-          {genderOptions}
+          {this.renderOptionsFor(GENDER, gender)}
         </select>
         <button
           id="save-demos"
@@ -215,5 +169,13 @@ export default class Profile extends Component<Props, State> {
         </button>
       </div>
     );
+  }
+
+  private renderOptionsFor(options: any, selected: string) {
+    return Object.keys(options).map(key => (
+      <option value={key} selected={key === selected}>
+        {options[key]}
+      </option>
+    ));
   }
 }
