@@ -21,9 +21,9 @@ class WhyProfile extends Component<{}, WhyProfileState> {
         <span id="why-profile-title">{WHY_PROFILE_TITLE}</span>
         <div id="why-profile">
           <p id="why-profile-text">
-            Copy explaining value of profile &amp; demographic capture: Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit. Nulla id orci
-            dui.
+            By providing some information about yourself, the audio data you
+            submit to Common Voice will be more useful to Speech Recognition
+            engines that use this data to improve their accuracy.
           </p>
           <p>
             <a name="" onClick={this.toggle}>
