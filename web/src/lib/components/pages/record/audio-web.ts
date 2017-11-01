@@ -23,7 +23,6 @@ export default class AudioWeb {
   last: AudioInfo;
   lastRecordingData: Blob;
   lastRecordingUrl: string;
-  isInitialized: boolean = false;
   frequencyBins: Uint8Array;
   volumeCallback: Function;
   jsNode: any;
@@ -112,7 +111,7 @@ export default class AudioWeb {
   }
 
   async init(): Promise<void> {
-    if (this.isInitialized) {
+    if (this.ready) {
       return;
     }
 
