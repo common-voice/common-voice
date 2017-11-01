@@ -12,19 +12,20 @@ interface Props {
 
 export default ({ children, progress, user, onSubmit }: Props) => (
   <div id="voice-submit">
-    <p id="thank-you">
-      <span>Review &amp; Submit</span>
-    </p>
-    <p id="want-to-review">
-      <span>
-        Thank you for recording! Now review and submit your clips below.
-      </span>
-    </p>
+    <div id="voice-submit-review">
+      <h2>Review &amp; Submit</h2>
+      <br />
+      <p>
+        Thank you for recording!<br />
+        Now review and submit your clips below.
+      </p>
+    </div>
     <p id="box-headers">
       <span>Review</span>
       <span>Re-record</span>
     </p>
     {children}
+    <br />
     <ProgressButton
       percent={progress}
       disabled={false}

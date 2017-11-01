@@ -62,7 +62,7 @@
     right: 0;
     padding: 0 1rem;
     background-color: var(--base-background-color);
-    box-shadow: 0 1px 5px 0 #E2E2E2;
+    box-shadow: var(--card-shadow);
     transition: transform 0.4s var(--bounce-curve);
     font-family: var(--strong-font-family);
     font-size: 1.4rem;
@@ -185,23 +185,4 @@
     .full #voice-submit {
         transform: translateY(-22.5rem);
     }
-}
-
-.sentence-box,
-#box-headers,
-#thank-you,
-#want-to-review {
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select:none;
-    user-select:none;
-    -o-user-select:none;
-}
-
-#want-to-review span,
-#thank-you span {
-    color: white;
-    background-color: black;
-    padding: 0.5rem;
-    display: inline-block;
 }
