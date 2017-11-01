@@ -12,7 +12,7 @@ class { 'apache::mod::proxy_http': }
 apache::vhost { $project_name:
     port               => 80,
     default_vhost      => true,
-    docroot            => "/var/www/${project_name}/web",
+    docroot            => "/var/www/${project_name}/web/dist",
     docroot_owner      => 'root',
     docroot_group      => 'root',
     block              => ['scm'],
@@ -26,7 +26,7 @@ apache::vhost { $project_name:
 
     directories        => [
       {
-        path            => "/var/www/${project_name}/web",
+        path            => "/var/www/${project_name}/web/dist",
         custom_fragment => "
     # Handle and compress font files
     AddType application/x-font-ttf        .ttf
