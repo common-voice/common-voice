@@ -2,7 +2,7 @@ import { h, render } from 'preact';
 import User from './user';
 import API from './api';
 import Pages from './components/pages';
-import { isMobileWebkit, isFocus, isNativeIOS } from './utility';
+import { isMobileWebkit, isFocus, isNativeIOS, sleep } from './utility';
 import DebugBox from './components/debug-box';
 
 const LOAD_DELAY = 500; // before pulling the curtain
@@ -31,15 +31,12 @@ const PRELOAD = [
 ];
 
 /**
- * Main app controller, rensponsible for routing between page
- * controllers.
+ * Main app controller, rensponsible for routing between page controllers.
  */
 export default class App {
   box: DebugBox;
   user: User;
   api: API;
-  loaded: boolean;
-  loadProgress: number;
   progressMeter: HTMLSpanElement;
 
   /**
@@ -61,41 +58,43 @@ export default class App {
 
     this.user = new User();
     this.api = new API(this.user);
-    this.loaded = false;
 
     // Force binding of handleNavigation to this instance.
     this.handleNavigation = this.handleNavigation.bind(this);
 
-    // Render before loaded.
-    this.renderCurrentPage();
+    // Render loading spinner before loaded.
+    this.renderSpinner();
 
     // React to external navigation (i.e. browser back/forward button)
     window.addEventListener('popstate', this.renderCurrentPage.bind(this));
   }
 
-  private loadImages(progressCallback?: Function): Promise<void> {
-    return new Promise<void>((res, rej) => {
+  /**
+   * Pre-Load all images before first content render.
+   */
+  private preloadImages(
+    progressCallback?: (percentLoaded: number) => void
+  ): Promise<void> {
+    return new Promise<void>(resolve => {
       let loadedSoFar = 0;
-      let onLoad = () => {
+      const onLoad = () => {
         ++loadedSoFar;
         if (loadedSoFar === PRELOAD.length) {
-          res();
+          resolve();
           return;
         }
 
-        progressCallback(loadedSoFar / PRELOAD.length);
+        if (progressCallback) {
+          progressCallback(loadedSoFar / PRELOAD.length);
+        }
       };
-      for (let i = 0; i < PRELOAD.length; i++) {
-        let image = new Image();
-        image.onload = onLoad;
-        image.src = PRELOAD[i];
-      }
+      PRELOAD.forEach(imageUrl => {
+        const image = new Image();
+        image.addEventListener('load', onLoad);
+        image.src = imageUrl;
+      });
     });
   }
-
-  /**
-   * LOAD ALL IMAGES BEFORE FIRST RENDER
-   * */
 
   /**
    * Perform any native iOS specific operations.
@@ -136,26 +135,25 @@ export default class App {
     render(<DebugBox />, document.body);
   }
 
+  private renderSpinner() {
+    render(
+      <div id="spinner">
+        <span
+          ref={el => {
+            if (this.progressMeter) {
+              return;
+            }
+
+            this.progressMeter = el as HTMLSpanElement;
+          }}
+        />
+      </div>,
+      document.body,
+      document.getElementById('spinner')
+    );
+  }
+
   private renderCurrentPage() {
-    if (!this.loaded) {
-      render(
-        <div id="spinner">
-          <span
-            ref={el => {
-              if (this.progressMeter) {
-                return;
-              }
-
-              this.progressMeter = el as HTMLSpanElement;
-            }}
-          />
-        </div>,
-        document.body,
-        document.body.firstElementChild
-      );
-      return;
-    }
-
     // Render the main controller, Pages.
     render(
       <Pages
@@ -165,37 +163,39 @@ export default class App {
         currentPage={this.getPageName()}
       />,
       document.body,
-      document.body.firstElementChild
+      document.getElementById('main')
     );
   }
 
   async init(): Promise<void> {
-    // Always force page to be ready after a specified time.
-    setTimeout(() => {
-      this.loaded = true;
-      document.body.classList.add('loaded');
-      this.renderCurrentPage();
-    }, LOAD_TIMEOUT);
-
-    await this.loadImages((progress: number) => {
-      if (this.progressMeter) {
-        // TODO: find something performant here. (ie not this)
-        // let whatsLeft = 1 - progress;
-        // this.progressMeter.style.cssText =
-        //   `transform: scale(${whatsLeft});`;
-      }
-    });
-
-    this.loaded = true;
-    setTimeout(() => {
-      document.body.classList.add('loaded');
-    }, LOAD_DELAY);
+    // Force page to be ready after a specified time, unless pre-loading images finishes first.
+    await Promise.race([
+      sleep(LOAD_TIMEOUT),
+      this.preloadImages((progress: number) => {
+        if (this.progressMeter) {
+          // TODO: find something performant here. (ie not this)
+          // let whatsLeft = 1 - progress;
+          // this.progressMeter.style.cssText =
+          //   `transform: scale(${whatsLeft});`;
+        }
+      }),
+    ]);
   }
 
   /**
    * Entry point for the application.
    */
-  run(): void {
+  async run(): Promise<void> {
     this.renderCurrentPage();
+
+    await sleep(LOAD_DELAY);
+    document.body.classList.add('loaded');
+
+    const mainElement = document.getElementById('main');
+    const transitionEndHandler = () => {
+      document.body.removeChild(document.getElementById('spinner'));
+      mainElement.removeEventListener('transitionend', transitionEndHandler);
+    };
+    mainElement.addEventListener('transitionend', transitionEndHandler);
   }
 }
