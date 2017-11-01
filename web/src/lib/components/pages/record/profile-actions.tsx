@@ -62,6 +62,7 @@ export default class ProfileActions extends Component<Props, State> {
     return (
       <div id="profile-actions">
         <hr />
+        <br />
         {profileFormVisible ? (
           <div id="profile-form-container">
             <a class="cancel" onClick={this.toggleProfileForm}>
