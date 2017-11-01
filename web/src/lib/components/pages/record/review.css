@@ -1,0 +1,50 @@
+#voice-submit {
+    opacity: 0;
+    transition: all 0.2s var(--bounce-curve);
+}
+
+#thank-you {
+    font-family: var(--strong-font-family);
+    font-size: 2rem;
+    font-weight: bold;
+    pointer-events: none
+}
+
+#want-to-review {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+    -o-user-select:none;
+}
+
+#want-to-review span,
+#thank-you span {
+    color: white;
+    background-color: black;
+    padding: 0.5rem;
+    display: inline-block;
+}
+
+#box-headers {
+    text-align: right;
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding: 1.5rem 0 0.3rem;
+}
+
+#box-headers > span {
+    display: inline-block;
+    width: var(--listen-box-height);
+    text-align: center;
+}
+
+#box-headers > span:last-child {
+    margin-left: 0.3rem;
+}
+
+@media (max-width: 600px) {
+    #box-headers {
+        visibility: hidden;
+    }
+}
