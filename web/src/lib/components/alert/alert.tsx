@@ -4,39 +4,39 @@ import Icon from '../icon';
 interface Props {
   text: string;
   active: boolean;
+  autoHide: boolean;
+  hideAlert: Function;
 }
 
-interface State {
-  active: boolean;
-}
+export default class Alert extends Component<Props, void> {
+  timeout: number;
 
-export default class Alert extends Component<Props, State> {
   constructor(props: Props) {
     super(props);
 
     this.onClick = this.onClick.bind(this);
   }
 
-  state: State = {
-    active: this.props.active,
-  };
-
-  componentWillReceiveProps({ active }: Props) {
-    if (active !== this.state.active) {
-      this.setState({
-        active,
-      });
+  componentWillUpdate({ active, autoHide }: Props) {
+    if (autoHide && active !== this.props.active) {
+      if (active) {
+        this.timeout = setTimeout(this.props.hideAlert, 5000);
+      } else {
+        clearTimeout(this.timeout);
+      }
     }
   }
 
   private onClick() {
-    this.setState({
-      active: false,
-    });
+    if (this.timeout) {
+      clearTimeout(this.timeout);
+    }
+
+    this.props.hideAlert();
   }
 
   render() {
-    if (!this.state.active) {
+    if (!this.props.active) {
       return null;
     }
 

@@ -118,6 +118,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     this.processRecording = this.processRecording.bind(this);
     this.goBack = this.goBack.bind(this);
     this.onProgress = this.onProgress.bind(this);
+    this.hideAlert = this.hideAlert.bind(this);
   }
 
   private async refillSentenceCache() {
@@ -139,12 +140,14 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       recordings.push(info);
     }
 
+    const isFull = this.isFull();
+
     this.setState({
       recordings: recordings,
       recording: false,
       isReRecord: false,
       reRecordIndex: -1,
-      alertVisible: true,
+      alertVisible: isFull ? false : true,
     });
 
     this.tracker.trackRecord();
@@ -175,7 +178,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       return;
     }
 
-    if (this.isFull()) {
+    if (isFull) {
       this.props.onRecordingSet();
     }
   }
@@ -301,7 +304,6 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       sentences: [],
       uploading: false,
       uploadProgress: 0,
-      alertVisible: false,
     });
     this.newSentenceSet();
   }
@@ -371,6 +373,12 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
   private get areSentencesLoaded(): boolean {
     return this.sentenceCache.length >= SET_COUNT;
+  }
+
+  private hideAlert(): void {
+    this.setState({
+      alertVisible: false,
+    });
   }
 
   render() {
@@ -458,6 +466,8 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
           <Alert
             text="Submit success! Want to record again?"
             active={this.state.alertVisible}
+            autoHide
+            hideAlert={this.hideAlert}
           />
           <div className="record-sentence">
             {texts}
