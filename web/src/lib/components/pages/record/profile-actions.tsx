@@ -41,6 +41,7 @@ class WhyProfile extends Component<{}, WhyProfileState> {
 }
 
 interface Props {
+  navigate(url: string): void;
   user: User;
 }
 
@@ -71,7 +72,14 @@ export default class ProfileActions extends Component<Props, State> {
             <Profile active="" user={this.props.user} />
           </div>
         ) : this.props.user.hasEnteredInfo() ? (
-          <a onClick={this.toggleProfileForm}>Edit Profile</a>
+          <a
+            href="/profile"
+            onClick={evt => {
+              evt.preventDefault();
+              this.props.navigate('/profile');
+            }}>
+            Edit Profile
+          </a>
         ) : (
           [
             <button

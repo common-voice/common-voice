@@ -462,11 +462,15 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
               {this.state.recordings.length + 1} of 3
             </span>
           </p>
-          <ProfileActions user={this.props.user} />
+          <ProfileActions
+            user={this.props.user}
+            navigate={this.props.navigate}
+          />
         </div>
         <Review
           progress={progress}
           user={this.props.user}
+          navigate={this.props.navigate}
           onSubmit={this.onSubmit}>
           {listens}
         </Review>

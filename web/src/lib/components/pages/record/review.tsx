@@ -7,10 +7,11 @@ interface Props {
   children?: JSX.Element[];
   progress: number;
   user: User;
+  navigate(url: string): void;
   onSubmit(): Promise<void>;
 }
 
-export default ({ children, progress, user, onSubmit }: Props) => (
+export default ({ children, progress, navigate, user, onSubmit }: Props) => (
   <div id="voice-submit">
     <div id="voice-submit-review">
       <h2>Review &amp; Submit</h2>
@@ -32,6 +33,6 @@ export default ({ children, progress, user, onSubmit }: Props) => (
       onClick={onSubmit}
       text="SUBMIT"
     />
-    <ProfileActions user={user} />
+    <ProfileActions user={user} navigate={navigate} />
   </div>
 );
