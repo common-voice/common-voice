@@ -421,7 +421,6 @@ body:not(.ios) .recording #background-container {
 .hero {
   text-align: center;
   height: var(--hero-height);
-  border-bottom: 3px solid var(--base-font-color);
   position: relative;
 }
 
