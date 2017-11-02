@@ -26,6 +26,7 @@
     0 1px 3px rgba(12,13,14,0.1),
     0 4px 20px rgba(12,13,14,0.035),
     0 1px 1px rgba(12,13,14,0.025);
+    --card-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
 
     --base-background-color: white;
     --base-font-color: black;
@@ -33,7 +34,6 @@
     --color-speak: #FB8E92;
     --color-speak-light: #FDC6C8;
     --color-listen: #B7D43F;
-    --color-listen-dark: #7F9622;
     --color-secondary: #E7E5E2;
     --color-about: #f8b83e;
     --color-profile: #9D9D9C;

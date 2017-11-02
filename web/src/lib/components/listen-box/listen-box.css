@@ -1,6 +1,6 @@
 .listen-box {
     display: flex;
-    margin-bottom: var(--standard-margin);
+    margin-bottom: calc(2 * var(--standard-margin));
     opacity: 0.3;
     pointer-events: none;
 }
@@ -46,20 +46,25 @@
 }
 
 .play-box {
+    color: var(--color-listen);
+}
+
+body:not(.mobile-safari) .play-box:hover,
+body.mobile-safari .play-box:active {
     background-color: var(--color-listen);
+    color: white;
 }
 
 .sentence-box {
-    padding: 0 0.5rem;
+    padding: 0 1.5rem;
     text-align: left;
     text-overflow: ellipsis;
-    font-weight: bold;
     line-height: 1.3;
     flex: 1 1 auto;
     display: flex;
     align-items: center;
     margin-right: var(--standard-margin);
-    background-color: var(--color-secondary);
+    box-shadow: var(--card-shadow);
 }
 
 @media (max-width: 600px) {
@@ -77,34 +82,24 @@
     text-align: center;
     cursor: pointer;
     transition: 100ms;
-}
-
-body:not(.mobile-safari) .delete-box:hover,
-body.mobile-safari .delete-box:active,
-body:not(.mobile-safari) .play-box:hover,
-body.mobile-safari .play-box:active {
-    background-color: var(--color-listen-dark);
+    font-size: 23px;
 }
 
 .delete-box {
     background-color: white;
     margin-left: var(--standard-margin);
-    border: 1px solid black;
+    font-weight: bold;
+}
+
+.delete-box span {
+    display: block;
+    transform: scaleX(-1) rotate(-90deg);
 }
 
 body:not(.mobile-safari) .delete-box:hover,
 body.mobile-safari .delete-box:active {
     background-color: black;
     color: white;
-}
-
-.play-box {
-    border: 1px solid var(--color-listen);
-}
-
-body:not(.mobile-safari) .play-box:hover,
-body.mobile-safari .play-box:active {
-    border-color: var(--color-listen-dark);
 }
 
 .vote-box {

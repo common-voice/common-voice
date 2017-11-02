@@ -6,9 +6,9 @@ import Icon from '../../icon';
 import AudioIOS from './audio-ios';
 import AudioWeb, { AudioInfo } from './audio-web';
 import ListenBox from '../../listen-box/listen-box';
-import ProgressButton from '../../progress-button';
 import { getItunesURL, isFocus, isNativeIOS, sleep } from '../../../utility';
 import confirm from '../../../confirm/confirm';
+import Review from './review';
 import ProfileActions from './profile-actions';
 
 const CACHE_SET_COUNT = 9;
@@ -428,7 +428,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     let progress = this.state.uploadProgress;
     if (this.state.uploading) {
       // Look ahead in the progress bar when uploading.
-      progress += 100 / SET_COUNT * 1;
+      progress += 100 / SET_COUNT;
     }
 
     const controlElements = this.areSentencesLoaded
@@ -464,27 +464,12 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
           </p>
           <ProfileActions user={this.props.user} />
         </div>
-        <div id="voice-submit">
-          <p id="thank-you">
-            <span>Review &amp; Submit</span>
-          </p>
-          <p id="want-to-review">
-            <span>
-              Thank you for recording! Now review and submit your clips below.
-            </span>
-          </p>
-          <p id="box-headers">
-            <span>Review</span>
-            <span>Re-record</span>
-          </p>
+        <Review
+          progress={progress}
+          user={this.props.user}
+          onSubmit={this.onSubmit}>
           {listens}
-          <ProgressButton
-            percent={progress}
-            disabled={this.state.uploading}
-            onClick={this.onSubmit}
-            text="Submit"
-          />
-        </div>
+        </Review>
       </div>
     );
   }

@@ -21,8 +21,8 @@ interface FontIcons {
 const ICONS: FontIcons = {
   bullhorn: '',
   hamburger: '',
-  redo: '',
-  play: '',
+  redo: '↺',
+  play: '►',
   pause: '',
   stop: '',
   undo: '←',
