@@ -1,13 +1,8 @@
 .alert {
-  display: none;
   background-color: #bdd159;
   color: #fff;
   padding: 8px;
   font-size: 0.8rem;
-}
-
-.alert.active {
-  display: block;
 }
 
 .alert > .icon {

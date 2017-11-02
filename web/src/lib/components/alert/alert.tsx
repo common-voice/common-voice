@@ -36,10 +36,12 @@ export default class Alert extends Component<Props, State> {
   }
 
   render() {
-    const className = 'alert ' + (this.state.active ? 'active' : '');
+    if (!this.state.active) {
+      return null;
+    }
 
     return (
-      <div className={className}>
+      <div className="alert">
         {this.props.text}
 
         <Icon type="x" onClick={this.onClick} className="icon" />
