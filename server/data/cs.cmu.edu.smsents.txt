@@ -1,0 +1,530 @@
+Identify all of the diesel powered ships in the arctic ocean.
+Why don't we have freighters from Germany?
+Find all the steam turbine powered craft with a draft less than eleven yards.
+Don't we have any tugboats with an economic speed of twenty five knots?
+What is the number of American hovercraft?
+Why do we have oilers that are gas turbine powered with a width of forty feet?
+Show the cruise liners employed by Burks with a beam larger than twelve yards.
+Tell us the coal powered freighters south of San Diego.
+For what reason will Reddy's cruise liner carry conventional cargo?
+Who is the Constellation's skipper?
+Monitor oilers with an average speed greater than sixty kilometers per hour.
+Where is the solar powered barge owned by Lerner?
+Print the German tankers in Diego Garcia.
+Who is the Campbell's owner?
+Print out the French barges owned by Green.
+For what reason is Miller the cook of the ranger?
+List Carbonell's tugboats closest to the Cook Islands.
+Redisplay steamers with a cruising speed less than forty-five miles per hour.
+Why can't the French luxury liner near Canada change cargo resource status?
+Select the hovercraft east of the Philippine Sea.
+Retype all of the liners with a maximum sustained speed below thirteen knots.
+Check any carriers located north of the Pacific Ocean.
+Relist any of the cruise liners employed by Hauptmann.
+What is the freighter that is west of New Zealand?
+Get me the tanker that has an equipment resource code of b8.
+What are the oilers that expect a system readiness status of b7?
+Don't all carriers have a maximum sustained speed less than forty five knots?
+Report the fuel capacity of the African Queen.
+Show the destinations of the ships carrying cars.
+Won't all of the hydrofoils have nuclear cargo?
+Display the position of the Ajax.
+Why won't the luxury liners have an engine maintenance status of b1?
+Find the fuel capacities of all the vessels loaded with automobiles.
+Tell me the positions of all of the craft transporting cargo.
+Do we have any boats employed by Alleva that are carrying bananas?
+Tell us the displacements of any boats that are carrying freight.
+Why can't Hauptmann's hovercraft report a b0 system readiness status?
+Type out the destination of the Apollo.
+What is the Constant's i.d. ?
+Get me the registry of the Caine.
+List the remarks of any of the freighters that are loaded with nuclear cargo.
+Repeat the fuel level on the Arkansas.
+What are the i.d.'s of the hovercraft with an engine readiness code of b8?
+What is the Confidence's home port?
+Monitor the fuel levels of the oilers that are transporting conventional cargo.
+Print out the profit figures of Hayes's barges from Germany.
+What are the home ports of the steamers with a cargo readiness status of b9?
+Relist the reports of John's tugboats with a width above fourteen feet.
+Print the latitudes and longitudes of the tankers that are carrying passengers.
+Who is the mate of the luxury liner located in the Philippines?
+Type the identifications of Heibert's lighters.
+What is the Downes's width in meters?
+Who is the physician aboard the carrier from Germany?
+Is O'Neill the first mate of the ship?
+Type out the American tugs with an equipment maintenance rating of b4.
+Read the locations of Howell's tugs from France.
+Print the Horne's gross displacement in long tons.
+Why are the beams of the boats from France larger than seventeen meters?
+Don't all the tankers have a beam larger than nineteen meters?
+For what reason won't the cruise liners have a max speed of forty kilometers per hour?
+Redisplay the Cleveland's remark.
+Isn't Reddy the engineer of the French vessel located in the Southern Pacific?
+Why is Pierce the owner of the Roanoke?
+Are the widths of all ships in the Bering Strait less than sixteen feet?
+Select the Columbia's latitude and longitude.
+For what reason is the Constellation b8 on equipment readiness code?
+Add up the German barges loaded with containers owned by Bisiani.
+What if the hydrofoils changed system maintenance code from b9 to b0?
+Why is the width of the carrier which is transporting containers nineteen feet?
+Is the cargo readiness code of the Yankee b0?
+Give me the flags of the hydrofoils with a length below seventy meters.
+Isn't the maximum sustained speed of the Vancouver below twenty five miles per hour?
+Why is the Apollo sailing to the Great Australian Bight from home port?
+How many boats were b0 on equipment resource rating?
+What if the coal powered cruise liners were north of the Pacific Ocean?
+Type all the British lighters with a max speed above thirty five knots.
+For what reason is Venus's max speed less than fifty five kilometers per hour?
+Display all of the vessels transporting corn.
+Retype the Bounty's profit figure.
+Why is Tomita the physician of the boat loaded with containers?
+For what reason is the system maintenance rating of the African Queen b5?
+Check the report on the Brooke.
+Why aren't the drafts of the British freighters more than eighteen feet?
+Is the draft of the Pluto close to ten yards?
+For what reason aren't the tugs destined for Canada from the Eastern Pacific?
+Where are the British barges destined for?
+List the Hector's maximum sustained speed in miles per hour.
+Who is the engineer of the Dixon?
+Print out the Jason's displacement in metric tons.
+Tell me all of the diesel propelled boats near San Francisco.
+Show me the width of the hydrofoil that is in the United States.
+Why isn't Peters the mate of the Sacramento?
+Aren't the lengths of all vessels that are steam turbine propelled greater than ninety yards?
+What if the carriers that are carrying corn were from Mexico?
+Get me the flag of the California.
+Who is the Denver's captain?
+Report the Dunlap's length in feet.
+For what reason is the tug employed by Brown below the southern Pacific?
+What if the Downes downgraded system maintenance rating from b7 to b5?
+Display the draft of the steamer employed by Jones.
+Repeat Cole's hydrofoils carrying passengers.
+Type out the Prairie's owner after August twentieth nineteen eighty six.
+Isn't the maximum sustained speed of the Vancouver below twenty five miles per hour?
+Count all boats that were located south of the Sea of Japan during this month.
+Give me a list of tugs from France that report an engine resource code of b1.
+Why isn't Sears Morgan's owner?
+Let me see the Worden's draft in feet four days ago.
+Could the American boat have an engine readiness rating of b5?
+Retype the locations of all oilers that are near the Gulf of Mexico on Thursday.
+Relist the Taft's gross displacement in long tons yesterday.
+Relist the identifications of all of the tankers that are south of home port on Saturday.
+Who was the captain of the Yankee on January second nineteen eighty six?
+Aren't the oilers from Mexico steam turbine powered?
+Get me the Vancouver's fuel capacity in liters two days ago.
+Select the lengths of all of the ships located near the Straits of Gibraltar until last year.
+Where are the American ships that are loaded with bananas?
+Give me a list of the steamers near the United States after May twenty ninth.
+Why isn't Williams Patterson's captain?
+Show me the Morgan's engine resource rating this year.
+What if the luxury liners were b5 on equipment maintenance code?
+Didn't the Constellation have a draft around ten yards on November thirteenth?
+Let me see the ships that were owned by Williams after June sixth.
+What if the hydrofoils changed system maintenance code from b9 to b0?
+Show me the Citrus's displacement.
+Monitor the vessel that was located in the Straits of Gibraltar on April sixteenth nineteen eighty six.
+Why isn't the barge destined for the North Atlantic?
+Redisplay the Constant's latitude and longitude before Monday.
+Aren't the steam turbine propelled tankers located in the Yellow River?
+I want to see the id's of every hydrofoil below Western Samoa today.
+Report the Brooke's max speed now.
+Give me the tugboat with a gross displacement greater than one thousand tons.
+Can't all of the French vessels have a cargo readiness rating above b1?
+Recount all of the luxury liners that were located west of the Arctic Ocean yesterday.
+Tell us the Cleveland's fuel capacity on Wednesday.
+Isn't the engine readiness status of the boat transporting wheat b3?
+Which steamer has a displacement below six thousand tons?
+List the system readiness codes of the hovercraft above American Samoa since last year.
+What is the Texas's fuel capacity in liters today?
+Type the Jupiter's fuel capacity in gallons.
+Count the number of hydrofoils with a system readiness rating of b2.
+Where is the lighter from France enroute to?
+Get me Smith's oiler that reported a b9 cargo maintenance status this year.
+What if the Hector were steam turbine propelled?
+Monitor the fuel levels of every craft west of the Red Sea before Friday.
+Why aren't the carriers owned by Carrington b6 on cargo readiness status?
+Tell me the max speed of the tugboat owned by Lehmann.
+Are all the lighters from Germany  close to the Gulf of Alaska?
+I want to see the Manhattan's engine readiness rating this month.
+Relist all oilers that were steam turbine powered.
+For what reason isn't Richie Manhattan's skipper?
+Show me the width of the hydrofoil that is in the United States.
+Why is the California above the West Atlantic?
+Repeat the mate aboard the Pigeon today.
+Can all barges south of the Yellow River have an engine resource code of b2?
+Redisplay the widths of all the cruise liners located in French Polynesia since January nineteenth.
+Aren't all of the hovercraft from Mexico east of the Atlantic Ocean?
+Show the beam of the England.
+How many of the hydrofoils are loaded with automobiles?
+Report the Vancouver's first mates until September ninth.
+Who was the skipper aboard the Worden before April fourth?
+For what reason aren't Carbonell's ships b7 on system maintenance rating?
+Tell us the captains aboard the Pluto during February fourteenth nineteen eighty six.
+Is the steam turbine propelled freighter b5 on engine maintenance code?
+Check all of the freighters that were close to the Bering Strait last month.
+Don't all the boats carrying wheat have a length below eighty five yards?
+Couldn't the Hayes's vessel change system resource status to b5 on February fifteenth?
+Find the number of ships that were located close to Diego Garcia before Tuesday.
+Tell us the Fresno's cruising speed in kilometers per hour.
+How many of the barges are south of San Diego?
+Check the Saturn's max speed in kilometers per hour on Wednesday.
+Aren't the displacements of Bisiani's oilers more than three thousand long tons?
+I want to see the reports of all the tugs that are north of the eastern Pacific Wednesday.
+Display the draft of the steamer employed by Jones.
+Isn't Smith Norton's physician?
+Retype all the boats that were north of Wake Island last week.
+For what reason isn't Taft's average speed greater than thirty five knots?
+Get me the remarks of the lighters that are west of Canada Tuesday.
+Isn't the beam of the cruise liner owned by Alleva around nine meters?
+Display the speeds of the vessels south of the Ross Sea today.
+Doesn't the Wilson have a max speed greater than thirty five miles per hour?
+Where is the tugboat that is coal powered sailing to?
+Could the McDowell's lighter transport wheat before July seventeenth nineteen eighty seven?
+Is the length of the Sample greater than eighty meters?
+Show me the gas powered carriers east of Honolulu that are loaded with corn.
+Find the Fox's average speed in knots.
+Type the engineer aboard the Ranger until July nineteenth.
+Why is the Bounty b9 on engine resource status?
+Redisplay Stern's boat that was transporting conventional cargo yesterday.
+Can the steam turbine powered ship carry bananas?
+Report the Mercury's equipment maintenance status last month.
+Let me see the drafts of the ships near the USA.
+Can't the luxury liner employed by Lehmann upgrade system readiness code from b4 to b3 on June seventeen?
+For what reason is the Constellation b8 on equipment readiness code?
+Sum up Tomita's steamers that expect an average speed of thirty knots now.
+Retype the Pluto's speed in miles per hour today.
+Isn't McDowell the skipper of the Prairie?
+Why are the fuel levels of the barges equal to eight hundred gallons?
+Show me a list of coal powered steamers which are transporting grain.
+Isn't the Cleveland gas turbine propelled?
+I want to see the England's home port Thursday.
+Type out the Linus's fuel level in gallons.
+For what reason aren't the tugs destined for Canada from the Eastern Pacific?
+Print the first mate of the Sacramento on May seventeenth nineteen eighty six.
+Sum up Davis's barges west of the Philippine Sea until October seventh.
+Print out the Pigeon's engine maintenance code during this year.
+Give me the Downes's remark today.
+Aren't the ships located in Honolulu transporting nuclear cargo?
+Who is closest to Diego Garcia?
+Let me see the Horne's cargo resource code this week.
+What ships have a speed greater than twenty five knots?
+Let me see the flags of all of the steamers that are closest to the South China Sea Sunday.
+Print out the roanoke's physicians since June eighteenth.
+Whose freighter was b1 on cargo readiness status?
+Read the craft that were loaded with nuclear cargo today.
+Is the gross displacement of the Wilson below two thousand metric tons?
+Type the Prairie's system maintenance status before this week.
+Will the diesel propelled hydrofoil be b9 on equipment resource status?
+List any solar propelled boat.
+What was Scott's boat that was gas turbine propelled?
+Show me the California's maximum sustained speed this year.
+Can't the lighter downgrade cargo readiness code from b3 to b4?
+Let me see the home ports of all tugboats that are close to the East China Sea Friday.
+Name any ship that reports a cargo maintenance status of b0.
+How many of the tugboats are steam turbine powered?
+Print the fuel capacities of any boats north of the North Atlantic on Saturday.
+Why are the British hydrofoils sailing to the English Channel?
+Count the ships with a b9 system resource status yesterday.
+What if the Linus were solar powered?
+Report every vessel from Germany that is carrying wheat.
+Don't we have any freighters that were located north of Hongkong on Monday?
+Let me see the Dunlap's report yesterday.
+Can Hiebert's ship expect a b7 engine resource status on March eleventh nineteen eighty four?
+Make me a list of Brown's luxury liners located in Pearl Harbor.
+Display the owners of the Texas on November eleventh nineteen eighty six.
+Is Siegel Neptune's engineer?
+Type out the Confidence's position yesterday.
+Show the Venus's physicians on October tenth.
+Did the Linus have a speed of twelve knots on January twelfth nineteen eighty seven?
+I want to see the Titan's beam in yards.
+Why couldn't the barge report a b1 system maintenance code?
+Repeat the latitudes and longitudes of any freighters that are in the Korean Bay on Tuesday.
+Where is the tanker which is coal powered?
+Select the cook on the Peoria yesterday.
+Show the Meteor's cargo resource rating last year.
+What if the Dunlap upgraded cargo maintenance rating to b8?
+Are all the freighters with a draft larger than eleven feet coal powered?
+Make a list of the vessels that were located in San Francisco on Thursday.
+Who were the captains of the African Queen during February?
+Name the skipper of the Norton that had a b8 system readiness status last week.
+Find the Citrus's gross displacement now.
+Tell us the Patterson's engine maintenance rating yesterday.
+Why are all of the diesel powered steamers headed for Western Samoa?
+Who were the skippers on the Bounty before March third nineteen eighty six?
+Monitor the equipment maintenance ratings of the luxury liners that are below the English Channel after last month.
+I want to see the Ajax's draft.
+Total the lighters east of the Pacific Ocean since September one.
+Is the cruising speed of the luxury liner to twenty knots?
+Doesn't the Yankee have a width equal to ninety five feet?
+Can't Green's vessel report a b4 system resource rating?
+What is the Dover's profit figure after Sunday?
+For what reason isn't the equipment readiness code of the Ajax b6?
+Type out the equipment readiness status of all carriers that are above the British Solomon Islands after last week.
+Aren't the French carriers diesel propelled?
+Read the positions of all of the freighters close to Norfolk on Sunday.
+Let me see the Arkansas's average speed last month.
+Why is the cargo rating of the ship south of French Polynesia b1?
+Add up Richie's tankers north of the Cook Islands on November eight.
+Who is the Casper's first mate?
+What if the luxury liners in home port were carrying passengers?
+Print the Peoria's cargo maintenance code Monday.
+Who is the cook aboard the Dover?
+List the skippers on the Sample until March fifteenth.
+Type the destinations of all the boats closest to the North Pacific this week.
+Can all German ships report a b0 engine resource rating?
+Let me see the Mars's system readiness rating last week.
+Didn't the Manhattan have a cruising speed of twelve knots on February twentieth?
+What if the Fresno were from France?
+Find the cooks on the Taft before December twelfth.
+Is Brill's steamer south of the Ross Sea?
+How many tankers are carrying nuclear cargo?
+Why aren't tugboats with a displacement of four thousand long tons loaded with cars?
+Show me a list of craft located north of Pearl Harbor during Sunday.
+Why is the Confidence carrying corn?
+Won't the freighter west of the U.S.A. be b7 on equipment rating?
+Sum up Black's oilers.
+Select the Denver's location since Wednesday.
+Where is the Logan headed for?
+Whose hydrofoil is solar propelled?
+For what reason is Richards Logan's captain?
+Tell me the displacements of the vessels east of the Yellow River this month.
+Where is the oiler from France?
+For what reason are all the tugboats enroute to the East China Sea?
+I want to see the Fresno's flag.
+Can the cruise liner employed by Jones be loaded with nuclear cargo until May fourteenth?
+Add up every tugboat employed by Lerner that reported a cruising speed of fifty kilometers per hour now.
+Is Mccracken the captain of the Pigeon?
+Which tug is from France?
+Doesn't the Worden have a draft more than eighteen meters?
+Total all the French tankers south of the Atlantic Ocean.
+Find the Norton's equipment maintenance code now.
+Could the ship that is owned by Degraaf report a system resource code of b6 until January eighteenth nineteen eighty seven?
+Read the Ranger's width.
+Can the tug owned by Rudnicky be loaded with freight?
+Show me the Titan's engineers today.
+For what reason is the system maintenance rating of the African Queen b5?
+Which vessel is near San Francisco?
+Tell me the boatswains aboard the Saturn since January thirteenth.
+How many of the vessels have an engine maintenance code of b5?
+What if the Logan were loaded with conventional cargo?
+Display the Neptune's system resource rating yesterday.
+Why isn't Weaver the boatswain of the freighter?
+Get me a list of lighters with a length less than fifty meters.
+How many steamers have a b4 cargo readiness code?
+What are the profit figures of all the barges that are east of the Great Australian Bight Monday?
+I want to see the Fox's registry.
+Do we have any vessels that were located near San Diego until Wednesday?
+Name Patterson's captain on Monday.
+What if the lighter from Mexico were diesel propelled?
+Whose tanker is transporting passengers?
+Check the Dixon's identification on Friday.
+Tell me the Patrick's cargo readiness rating today.
+Don't we have Sanders's hydrofoils in the Southern Pacific on April twenty eighth?
+Why won't the luxury liners have an engine maintenance status of b1?
+What tugs are from Germany?
+Print out the Casper's destination today.
+Isn't Sanders Mercury's mate?
+Let me see the beams of the ships in the West Atlantic.
+What were the tankers that reported a b2 equipment resource code last year?
+Count all the vessels that are near the Gulf of Alaska.
+What if the England were b4 on system maintenance code?
+Find the number of O'Neill's tankers that had a b7 system maintenance status last week.
+Whose tugboat has a b3 cargo resource status?
+Recount the British tankers.
+Don't all the tankers have a beam larger than nineteen meters?
+I want to see the Casper's economic speed.
+Who was the mate on the Wilson since May fifth nineteen eighty six?
+For what reason will the steamer be b0 on equipment readiness code?
+Is Weide Peoria's skipper?
+Count the number of boats located close to Honolulu on Saturday.
+Did the Logan have a draft of thirteen feet before December thirtyieth?
+Can't the Howell's freighter be b3 on cargo resource rating before April fifteen?
+Give me the Wilson's length in yards.
+What if the Manhattan were transporting freight?
+Who is b3 on system maintenance code?
+Identify Patrick's first mates after last week.
+Is the system resource status of the solar powered freighter b4?
+Let me see the Hector's id.
+Couldn't the ship owned by Cole upgrade cargo maintenance rating to b6?
+Isn't the equipment resource status of the Apollo b7?
+Get me a list of the tugboats close to the Philippines during June thirtyieth.
+Who is the boatswain aboard the cruise liner that is gas turbine propelled?
+I want to see the ship that was employed by Weide on July seventh.
+What was the number of ships located in the Indian Ocean on Friday?
+Could the German tugboat have an engine readiness status of b7?
+Let me see McCracken's vessels that reported a system readiness status higher than b5 on August eighth nineteen eighty six.
+What barge has a system resource code of b7?
+What if the Fox were b3 on engine maintenance code?
+Show the Caine's cruising speed last year.
+Couldn't all tugboats upgrade cargo maintenance status to b8?
+Isn't the Caine near the U.S.A.?
+Let me see the barges that expected a cruising speed around twenty knots since October twenty second.
+What was the Venus's fuel level in liters three days ago?
+Is Rudnicky Mars's first mate?
+What if Jupiter's cargo resource status were b2?
+Why couldn't the oiler report a b8 system readiness rating?
+Total Weaver's carriers in the West Atlantic now.
+Where was the Wilson on Ooctober tenth?
+Why is Scott Meteor's cook?
+Why can't freighters that are near the Ross Sea carry cars?
+Isn't the Denver loaded with freight?
+I want to see Sears's barge that had an economic speed higher than sixty miles per hour on November twenty third.
+Why is Stern Patrick's boatswain?
+Is Burks's luxury liner solar propelled?
+Why won't the coal powered oilers have an engine maintenance code of b9?
+Didn't Miller's tugboat have an maximum sustained speed greater than seventy kilometers per hour on August sixteen?
+How many oilers have a b2 equipment readiness rating?
+Who is coal powered?
+Can't all of the tugs report a b6 system resource code?
+Why isn't the engine code of the vessel north of Samoa b2?
+For what reason won't the steamers that are gas turbine propelled transport cargo?
+Couldn't the lighters from Mexico be b5 on equipment maintenance code?
+Identify the Neptune's captain.
+Aren't the fuel capacities of the tankers higher than nine hundred gallons?
+What if the coal powered cruise liners were north of the Pacific Ocean?
+Why aren't any hovercraft from Germany carrying cargo?
+Make a list of the cruise liners that were carrying wheat during December twenty fourth.
+Why isn't the fuel capacity of the Worden more than three hundred gallons?
+Are the German oilers in the Red Sea?
+What if Jason's equipment readiness status were b1?
+Get me a list of cruise liners that were located east of the Gulf of Alaska today.
+Why isn't the economic speed of the Saturn thirty miles per hour?
+Are any vessels in Pearl Harbor b4 on equipment resource rating?
+Give me the tanker employed by Siegel with a max speed around forty kilometers per hour after September twenty first.
+For what reason are all the luxury liners north of the Arctic Ocean?
+Why don't we have all of the freighters that reported a b2 engine maintenance code after this week?
+Is the Citrus west of HongKong?
+Who has a cargo resource code of b6?
+Repeat the Roanoke's length.
+Why will the carrier be b2 on equipment readiness status?
+Could all the British craft downgrade maintenance rating from b2 to b3?
+Can't the hydrofoil owned by Pierce be loaded with conventional cargo on september sixteenth.
+Is the Brooke enroute to Norfolk from the Korean Bay?
+Which oiler has a length equal to ninety feet?
+Why won't the tanker transporting conventional cargo change cargo resource code?
+List the Columbia's fuel level on Thursday.
+Why do we have all the oilers owned by Richards that were transporting corn on December nine nineteen eighty six?
+Why isn't the Constant transporting automobiles?
+Do we have every vessel owned by Peters with an average speed of eighteen knots this month?
+Isn't the Arkansas headed for the Gulf of Mexico?
+Why do we have all of the German oilers that expected a maximum sustained speed of nineteen miles per hour this week?
+Give me a list of carriers that were located south of the Atlantic Ocean after Tuesday.
+Are the speeds of the American craft loaded with grain equal to forty knots?
+What is the number of the carriers that reported a b0 engine readiness code before January twenty fifth nineteen eighty six?
+What ships are in the Indian Ocean?
+I want to see the Campbell's beam.
+Show me a list of the hovercraft with a max speed of twenty miles per hour on March twenty seventh nineteen eighty six.
+Isn't the Columbia diesel powered?
+Count the number of the luxury liners that expect a b1 engine resource code until February twenty sixth.
+Sum up Peter's tankers.
+Total all the English tankers in the Pacific Ocean.
+What if the German vessels were transporting cars?
+Who is the captain of the Campbell.
+Will the Roanoke have a b9 engine readiness rating?
+Report the Bounty's cargo maintenance code monday.
+For what reason was the length on every oiler thirteen meters?
+Who are the Neptune's skippers?
+Display the Neptune's beam.
+Select the Casper's fuel level.
+Which ship wasn't carrying nuclear cargo?
+Read the speeds on any gas tubine powered liner.
+Count the number of boats since march twenty one.
+Was the Arkansas b0 on engine resource status fifteen weeks ago?
+Retype the Taft's displacement during september eighteenth.
+Why was every tug located west of the Red Sea?
+Redisplay the Columbia's max speed.
+Give me the captain on the Constellation.
+Display the California's engineer on august twenty second.
+Wasn't Richards the boatswain aboard the Jason eighty weeks ago?
+Isn't the width on the Ranger one meter?
+How many hydrofoils were carrying freight?
+I want to see any craft which is from Mexico.
+Can the Linus carry grain this month?
+Why wasn't the Dunlap loaded with cars thursday?
+Tell us the physician of the Saturn.
+Repeat the Titan's displacement.
+Where is the Morgan until March thirty?
+Check the system readiness code of the Vancouver.
+What was the Pigeon's beam in meters?
+Print the Logan's economic speed.
+Sum up the mates of the Columbia.
+Where was the Horne on wednesday?
+Don't we have the Ajax's boatswains?
+Type the African Queen's gross displacement.
+I want to see the Hector's fuel level.
+Tell me the skippers aboard Jones' luxury liners.
+Relist the Constant's width.
+Don't we have McDowell's oilers?
+Wasn't the fuel level of the Apollo one gallon on saturday?
+Couldn't any American lighter carry cargo?
+Who expects a b6 system maintenance rating thursday?
+Select coal powered boats thursday.
+Read the average speed of the Jupiter?
+Let me see the Mars' mates on monday.
+How many of the ships aren't transporting containers?
+I want to see the Arkansas' captains.
+Tell us the owners of French hovercraft now.
+Read the speeds on any gas turbine powered liner.
+Which carrier reports a system maintenance status equal to b3 now?
+Identify British tugboats.
+How many of the cruise liners are headed for San Diego?
+Display the Meteor's skippers after March twenty.
+How many oilers are destined for Western Samoa since tuesday?
+Recount Carrington's craft.
+Show me any German cruise liner.
+What barges weren't loaded with corn last month?
+Show the system readiness code on the French liner.
+Retype tankers on November thirty.
+Monitor the Manhattan.
+Print out the average speed of Pierces's hovercraft.
+Make a list of every British barge one week ago.
+Type the Dunlap's owners.
+What if the Apollo were located west of the Gulf of Mexico on thursday?
+Type the Sacramento's beam in feet this month.
+Select the Morgan's cargo readiness status.
+Relist the locations of any lighter from Mexico.
+Print the Denver's beam in meters.
+Isn't the Fox located closest to the Korean Bay?
+Isn't Alleva's craft b2 on engine maintenance rating?
+Can't the Logan transport nuclear cargo after this week?
+Redisplay the gross displacements of any coal powered liner.
+Didn't all the barges have a draft of ninety yards?
+Who was the Titan's engineer?
+Make a list of the Norton's owners.
+What ship is coal powered?
+Tell us the Neptune's gross displacement in tons.
+Who is the first mate on every boat?
+Did Miller's hovercraft upgrade cargo readiness rating?
+Which tugs have a b2 cargo readiness code?
+Who expects a fuel capacity equal to one gallon on friday?
+Select the Ranger's beam.
+Check the skipper of the Apollo.
+Find the Titan's gross displacement last year.
+Type out the captains of the Confidence.
+Isn't Black the Caine's cook?
+Is the Arkansas west of New Zealand?
+Whose boat is south of the Indian Ocean?
+Could Hauptmann's tug have a b7 system resource rating?
+Who expects a b5 equipment maintenance rating?
+Monitor any diesel powered hovercraft.
+Type the gross displacements on any solar propelled barges.
+Get me the fuel levels of any oiler transporting passengers.
+Get me the beams of every French oiler.
+Why isn't the Mercury carrying automobiles?
+Will Hauptmann's tugboat expect a B2 system readiness status?
+Tell us the physician of the Pluto.
+Which tugs weren't carrying cargo?
+Who was b5 on engine readiness status on monday?
+Count the Fresno's first mates.
+Who are the Cleveland's skippers?
+Who has an engine resource rating above b9?
+Did the Saturn have a beam of one meter?
+Don't we have the Taft's first mates on July thirty one?
+Check the Dixon's engine maintenance code tuesday.
+Give me every ship north of New Zealand.
+Who is closest to the USA?
+What boat expects a fuel level of seventy gallons on wednesday?
+List the engineer of the England after last month.
+Why were coal powered lighters west of San Diego last month?
+Let me see the Citrus' mates.
+Sum up the cooks on the Roanoke.
