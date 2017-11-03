@@ -150,12 +150,6 @@
     cursor: pointer;
 }
 
-.full #undo-clip,
-#undo-clip.hide {
-    transform: translateX(-10rem);
-    opacity: 0;
-}
-
 #record-help {
     font-size: 1rem;
     padding: 0 2rem;
@@ -169,20 +163,5 @@
 @media (min-width: 600px) {
     #voice-record {
         padding: 0 0.25rem;
-    }
-}
-
-.full #voice-record {
-    visibility: hidden;
-}
-
-.full #voice-submit {
-    opacity: 1;
-    transform: translateY(-27.5rem);
-}
-
-@media (max-width: 600px) {
-    .full #voice-submit {
-        transform: translateY(-22.5rem);
     }
 }
