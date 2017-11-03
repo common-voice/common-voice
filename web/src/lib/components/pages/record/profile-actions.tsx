@@ -1,12 +1,11 @@
 import { h, Component } from 'preact';
-import Profile from '../profile/profile';
+import ProfileForm from '../../profile-form/profile-form';
 import User from '../../../user';
+import messages from '../../../../messages';
 
 interface WhyProfileState {
   expanded: boolean;
 }
-
-const WHY_PROFILE_TITLE = 'Why a profile?';
 
 class WhyProfile extends Component<{}, WhyProfileState> {
   state = { expanded: false };
@@ -16,25 +15,22 @@ class WhyProfile extends Component<{}, WhyProfileState> {
   };
 
   render() {
-    return this.state.expanded ? (
+    const { expanded } = this.state;
+    return (
       <div>
-        <span id="why-profile-title">{WHY_PROFILE_TITLE}</span>
-        <div id="why-profile">
-          <p id="why-profile-text">
-            By providing some information about yourself, the audio data you
-            submit to Common Voice will be more useful to Speech Recognition
-            engines that use this data to improve their accuracy.
-          </p>
-          <p>
-            <a name="" onClick={this.toggle}>
-              Close
-            </a>
-          </p>
+        <div id="why-profile-title">
+          {expanded ? (
+            messages.WHY_PROFILE.TITLE
+          ) : (
+            <a onClick={this.toggle}>{messages.WHY_PROFILE.TITLE}</a>
+          )}
         </div>
-      </div>
-    ) : (
-      <div id="why-profile-title">
-        <a onClick={this.toggle}>{WHY_PROFILE_TITLE}</a>
+        {expanded && (
+          <div id="why-profile">
+            <p id="why-profile-text">{messages.WHY_PROFILE.CONTENT}</p>
+            <a onClick={this.toggle}>Close</a>
+          </div>
+        )}
       </div>
     );
   }
@@ -62,16 +58,8 @@ export default class ProfileActions extends Component<Props, State> {
     const { profileFormVisible } = this.state;
     return (
       <div id="profile-actions">
-        <hr />
-        <br />
-        {profileFormVisible ? (
-          <div id="profile-form-container">
-            <a class="cancel" onClick={this.toggleProfileForm}>
-              Cancel
-            </a>
-            <Profile active="" user={this.props.user} />
-          </div>
-        ) : this.props.user.hasEnteredInfo() ? (
+        {!profileFormVisible && <hr />}
+        {this.props.user.hasEnteredInfo() ? (
           <a
             href="/profile"
             onClick={evt => {
@@ -81,15 +69,24 @@ export default class ProfileActions extends Component<Props, State> {
             Edit Profile
           </a>
         ) : (
-          [
-            <button
-              type="button"
-              id="create-profile-button"
-              onClick={this.toggleProfileForm}>
-              Create a profile
-            </button>,
-            <WhyProfile />,
-          ]
+          <div>
+            {profileFormVisible ? (
+              <div id="profile-form-container">
+                <ProfileForm
+                  user={this.props.user}
+                  onExit={this.toggleProfileForm}
+                />
+              </div>
+            ) : (
+              <button
+                type="button"
+                id="create-profile-button"
+                onClick={this.toggleProfileForm}>
+                Create a profile
+              </button>
+            )}
+            <WhyProfile />
+          </div>
         )}
       </div>
     );

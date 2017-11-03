@@ -12,6 +12,7 @@ const ACTION_LISTEN = 'listen';
 const ACTION_VOTE_YES = 'vote-yes';
 const ACTION_VOTE_NO = 'vote-no';
 const ACTION_GIVE_EMAIL = 'give-email';
+const ACTION_GIVE_USERNAME = 'give-username';
 const ACTION_GIVE_ACCENT = 'give-accent';
 const ACTION_GIVE_AGE = 'give-age';
 const ACTION_GIVE_GENDER = 'give-gender';
@@ -61,6 +62,10 @@ export default class Tracker {
 
   trackGiveEmail() {
     this.track(CATEGORY_PROFILE, ACTION_GIVE_EMAIL);
+  }
+
+  trackGiveUsername() {
+    this.track(CATEGORY_PROFILE, ACTION_GIVE_USERNAME);
   }
 
   trackGiveAccent() {
