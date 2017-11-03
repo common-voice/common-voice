@@ -144,30 +144,6 @@ input:invalid {
   border-color: red;
 }
 
-.input-and-button {
-  display: flex;
-  position: relative;
-}
-
-.input-and-button input {
-  width: 70%;
-}
-
-.input-and-button label {
-  position: absolute;
-  top: 0.2rem;
-  left: 0.2rem;
-}
-
-.input-and-button button {
-  display: inline-block;
-  width: unset;
-  flex: 1 1 auto;
-  color: var(--base-background-color);
-  background-color: var(--base-font-color);
-  padding: 0;
-}
-
 /* Icon font element. */
 [data-icon]:before {
   font-family: Icons;
@@ -616,7 +592,7 @@ body:not(.mobile-safari) .robot .bubble:hover {
   }
 }
 
-@import url('./pages/profile/profile.css');
+@import url('profile-form/profile-form.css');
 
 #debug-box {
   position: fixed;
