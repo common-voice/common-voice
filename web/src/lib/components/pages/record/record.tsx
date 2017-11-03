@@ -467,7 +467,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
             text="Submit success! Want to record again?"
             active={this.state.alertVisible}
             autoHide
-            hideAlert={this.hideAlert}
+            onClose={this.hideAlert}
           />
           <div className="record-sentence">
             {texts}

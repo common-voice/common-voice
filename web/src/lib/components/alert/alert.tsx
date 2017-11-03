@@ -5,7 +5,7 @@ interface Props {
   text: string;
   active: boolean;
   autoHide: boolean;
-  hideAlert: Function;
+  onClose: Function;
 }
 
 export default class Alert extends Component<Props, void> {
@@ -20,11 +20,15 @@ export default class Alert extends Component<Props, void> {
   componentWillUpdate({ active, autoHide }: Props) {
     if (autoHide && active !== this.props.active) {
       if (active) {
-        this.timeout = setTimeout(this.props.hideAlert, 5000);
+        this.timeout = setTimeout(this.props.onClose, 5000);
       } else {
         clearTimeout(this.timeout);
       }
     }
+  }
+
+  componentWillUnmount() {
+    clearTimeout(this.timeout);
   }
 
   private onClick() {
@@ -32,7 +36,7 @@ export default class Alert extends Component<Props, void> {
       clearTimeout(this.timeout);
     }
 
-    this.props.hideAlert();
+    this.props.onClose();
   }
 
   render() {
