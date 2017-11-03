@@ -483,15 +483,13 @@ body:not(.ios) .recording #background-container {
 }
 
 .record .robot.thanks {
-  /*transform: translate(-7.5rem,4rem) rotate(-22deg);*/
-  /*transform: translate(5rem,1rem) scale(0.3);*/
-  transform: translate(13rem, 7rem) scale(1);
+  transform: translate(13rem, 5rem) scale(1);
   transition-delay: 0s;
 }
 
 @media (max-width: 600px) {
   .record .robot.thanks {
-    transform: translate(14rem,-2rem) rotate(17deg) scale(0.5);
+    transform: translate(9rem, 2rem) scale(1);
   }
 }
 
