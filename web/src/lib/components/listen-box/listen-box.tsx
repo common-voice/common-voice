@@ -40,7 +40,7 @@ export default class ListenBox extends Component<Props, State> {
   }
 
   state: State = {
-    loaded: false,
+    loaded: true,
     playing: false,
     played: false,
     audio: null,
@@ -173,6 +173,7 @@ export default class ListenBox extends Component<Props, State> {
           {...this.props.src && { src: this.props.src }}
           preload="auto"
           onLoadStart={this.onLoadStart}
+          onLoadedData={this.onCanPlayThrough}
           onCanPlayThrough={this.onCanPlayThrough}
           onDurationChange={this.onCanPlayThrough}
           onEnded={this.onPlayEnded}

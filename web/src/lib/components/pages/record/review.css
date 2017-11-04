@@ -1,6 +1,15 @@
+@keyframes slidein {
+    from {
+        transform: translateY(50rem);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
 #voice-submit {
-    opacity: 0;
     transition: all 0.2s var(--bounce-curve);
+    animation: slidein .2s;
 }
 
 #voice-submit-review {

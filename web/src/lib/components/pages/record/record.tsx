@@ -398,7 +398,6 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     }
 
     // During uploading, we display the submit page for progress.
-    let isFull = this.isFull() || this.state.uploading;
     let texts = []; // sentence elements
     let listens = []; // listen boxes
 
@@ -430,7 +429,6 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     }
 
     let showBack = this.state.recordings.length !== 0 && !this.state.isReRecord;
-    let className = this.props.active + (isFull ? ' full' : '');
     let progress = this.state.uploadProgress;
     if (this.state.uploading) {
       // Look ahead in the progress bar when uploading.
@@ -450,36 +448,43 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
         ]
       : ERR_SENTENCES_NOT_LOADED;
 
+    const recordingsCount = this.state.recordings.length;
     return (
-      <div id="record-container" className={className}>
-        <div id="voice-record">
-          <div className="record-sentence">
-            {texts}
-            <Icon
-              id="undo-clip"
-              type="undo"
-              onClick={this.goBack}
-              className={!showBack ? 'hide' : ''}
+      <div id="record-container" className={this.props.active}>
+        {!this.isFull() && !this.state.uploading ? (
+          <div id="voice-record">
+            <div className="record-sentence">
+              {texts}
+              {recordingsCount > 0 &&
+                !this.state.isReRecord && (
+                  <Icon
+                    id="undo-clip"
+                    type="undo"
+                    onClick={this.goBack}
+                    className={!showBack ? 'hide' : ''}
+                  />
+                )}
+            </div>
+            <div class="record-controls">{controlElements}</div>
+            <p id="recordings-count">
+              <span style={this.state.isReRecord ? 'display: none;' : ''}>
+                {recordingsCount + 1} of 3
+              </span>
+            </p>
+            <ProfileActions
+              user={this.props.user}
+              navigate={this.props.navigate}
             />
           </div>
-          <div class="record-controls">{controlElements}</div>
-          <p id="recordings-count">
-            <span style={this.state.isReRecord ? 'display: none;' : ''}>
-              {this.state.recordings.length + 1} of 3
-            </span>
-          </p>
-          <ProfileActions
+        ) : (
+          <Review
+            progress={progress}
             user={this.props.user}
             navigate={this.props.navigate}
-          />
-        </div>
-        <Review
-          progress={progress}
-          user={this.props.user}
-          navigate={this.props.navigate}
-          onSubmit={this.onSubmit}>
-          {listens}
-        </Review>
+            onSubmit={this.onSubmit}>
+            {listens}
+          </Review>
+        )}
       </div>
     );
   }

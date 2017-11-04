@@ -1,7 +1,5 @@
 #profile-actions {
     margin: 2rem auto;
-    /* Disable editing profile from the recording flow for now */
-    visibility: hidden;
 }
 
 #create-profile-button {
