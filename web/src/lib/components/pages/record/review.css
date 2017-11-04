@@ -9,11 +9,12 @@
 
 #voice-submit {
     transition: all 0.2s var(--bounce-curve);
-    animation: slidein .2s;
+    animation: slidein 0.2s var(--bounce-curve);
 }
 
 #voice-submit-review {
     text-align: start;
+    padding-top: 1rem;
 }
 
 #box-headers {
