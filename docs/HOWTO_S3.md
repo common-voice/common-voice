@@ -44,6 +44,7 @@ in which to store voice clips.
 
 1. Install the AWS command line UI. https://aws.amazon.com/cli/
 2. Run `aws configure` to configure credentials via the aws command line ui.
+3. Set the default signature version to be version 4: `aws configure set default.s3.signature_version s3v4`
 
 #### Add options to local `config.json`
 
