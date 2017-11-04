@@ -14,7 +14,6 @@ export interface AudioInfo {
 }
 
 export default class AudioWeb {
-  ready: boolean;
   microphone: MediaStream;
   analyzerNode: AnalyserNode;
   audioContext: AudioContext;
@@ -34,8 +33,10 @@ export default class AudioWeb {
     }
 
     this.visualize = this.visualize.bind(this);
+  }
 
-    this.ready = false;
+  private isReady(): boolean {
+    return !!this.microphone;
   }
 
   private getMicrophone(): Promise<MediaStream> {
@@ -110,9 +111,20 @@ export default class AudioWeb {
     this.volumeCallback = cb;
   }
 
-  async init(): Promise<void> {
-    if (this.ready) {
-      return;
+  /**
+   * Initialize the recorder, opening the microphone media stream.
+   *
+   * If microphone access is currently denied, the user is asked to grant
+   * access. Since these permission changes take effect only after a reload,
+   * the page is reloaded if the user decides to do so.
+   *
+   * @returns A Promise that resolves to `true` if the microphone stream is
+   *          opened successfully; or resolves to `false` if microphone access
+   *          is denied; or is rejected if another error occurs.
+   */
+  async init(): Promise<boolean> {
+    if (this.isReady()) {
+      return true;
     }
 
     try {
@@ -158,7 +170,7 @@ export default class AudioWeb {
       this.analyzerNode = analyzerNode;
       this.audioContext = audioContext;
 
-      this.ready = true;
+      return true;
     } catch (err) {
       if (err === ERROR_MSG.ERR_NO_MIC) {
         const shouldRetry = await confirm(
@@ -166,7 +178,10 @@ export default class AudioWeb {
           'Retry',
           'Cancel'
         );
-        window.location.reload();
+        if (shouldRetry) {
+          window.location.reload();
+        }
+        return false;
       } else {
         throw err;
       }
@@ -174,7 +189,7 @@ export default class AudioWeb {
   }
 
   start(): Promise<void> {
-    if (!this.ready) {
+    if (!this.isReady()) {
       console.error('Cannot record audio before microhphone is ready.');
       return Promise.resolve();
     }
@@ -199,7 +214,7 @@ export default class AudioWeb {
   }
 
   stop(): Promise<AudioInfo | {}> {
-    if (!this.ready) {
+    if (!this.isReady()) {
       console.error('Cannot stop audio before microhphone is ready.');
       return Promise.resolve({});
     }
