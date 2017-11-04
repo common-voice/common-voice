@@ -1,9 +1,7 @@
 import Mysql from './mysql';
 import Table from './table';
-import Version from './version-table';
+import VersionTable from './tables/version-table';
 import { Tables } from '../db';
-
-const CURRENT_VERSION = 1;
 
 /**
  * Handles Overall DB Schema and Migrations, usually using root connection.
@@ -13,13 +11,15 @@ export default class Schema {
   mysql: Mysql;
   name: string;
   tables: Tables;
-  version: Version;
+  version: VersionTable;
+  currentVersion: number;
 
-  constructor(mysql: Mysql, tables: Tables, version: Version) {
+  constructor(mysql: Mysql, tables: Tables, versionTable: VersionTable) {
     this.mysql = mysql;
     this.name = mysql.options.database;
     this.tables = tables;
-    this.version = version;
+    this.version = versionTable;
+    this.currentVersion = this.version.getCodeVersion();
   }
 
   /**
@@ -41,6 +41,13 @@ export default class Schema {
   }
 
   /**
+   * Drop the current database.
+   */
+  async dropDatabase(): Promise<void> {
+    await this.mysql.rootQuery(`DROP DATABASE IF EXISTS ${this.name}`);
+  }
+
+  /**
    * Make sure we have the user privs set up.
    */
   private async ensureDatabaseUser() {
@@ -51,7 +58,9 @@ export default class Schema {
     const host = opts.host;
     const database = opts.database;
     await this.mysql.rootTransaction(
-      `GRANT SELECT, INSERT ON ${database}.* TO '${username}'@'${host}' IDENTIFIED BY '${password}'; FLUSH PRIVILEGES;`
+      `GRANT SELECT, INSERT, UPDATE, DELETE
+       ON ${database}.* TO '${username}'@'${host}'
+       IDENTIFIED BY '${password}'; FLUSH PRIVILEGES;`
     );
 
     // Have the new user use the database.
@@ -81,21 +90,60 @@ export default class Schema {
   }
 
   /**
-   * Upgrade to CURRENT_VERSION of database.
+   * Upgrade to current version of database.
    */
   async upgrade(oldVersion: number): Promise<void> {
-    if (oldVersion === CURRENT_VERSION) {
+    if (oldVersion === this.currentVersion) {
       this.print('schema up to date');
       return;
     }
 
-    this.print(`upgrading from ${oldVersion} to ${CURRENT_VERSION}`);
-    for (let i = oldVersion; i < CURRENT_VERSION; i++) {
-      const upgradeVersion = oldVersion + 1;
+    let checkVersion = oldVersion;
+
+    this.print(`upgrading from ${oldVersion} to ${this.currentVersion}`);
+    for (let i = oldVersion; i < this.currentVersion; i++) {
+      const upgradeVersion = i + 1;
       await this.upgradeToVersion(upgradeVersion);
+
+      // Validate the upgrade
+      checkVersion = await this.version.getCurrentVersion();
+      if (checkVersion !== upgradeVersion) {
+        throw new Error(
+          `error from ${oldVersion} to ${checkVersion}, ${this.currentVersion}}`
+        );
+      }
     }
 
-    const newVersion = await this.version.getCurrentVersion();
-    this.print(`upgraded to ${newVersion}, target ${CURRENT_VERSION}`);
+    this.print(
+      `upgraded from ${oldVersion} to ${checkVersion}, ${this.currentVersion}`
+    );
+  }
+
+  /**
+   * Show all the tables in the current db.
+   */
+  async listTables(): Promise<string[]> {
+    const [rows, fields] = await this.mysql.rootQuery(
+      `SELECT table_name FROM information_schema.tables
+       WHERE table_schema = '${this.name}'`
+    );
+
+    return rows.map((row: any) => {
+      return row.table_name;
+    });
+  }
+
+  /**
+   * Get a list of expected table values for a version.
+   */
+  getTablesForVersion(version: number): string[] {
+    return this.tables
+      .map((table: Table) => {
+        const schema = table.getSchemaForVersion(version);
+        return schema ? schema.name : null;
+      })
+      .filter((name?: string) => {
+        return !!name;
+      });
   }
 }

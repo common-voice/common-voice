@@ -58,6 +58,9 @@ export default class App {
 
     this.user = new User();
     this.api = new API(this.user);
+    this.api.syncUser();
+
+    this.user.onUpdate(this.handleUserUpdate.bind(this));
 
     // Force binding of handleNavigation to this instance.
     this.handleNavigation = this.handleNavigation.bind(this);
@@ -94,6 +97,10 @@ export default class App {
         image.src = imageUrl;
       });
     });
+  }
+
+  private handleUserUpdate(): void {
+    this.api.syncUser();
   }
 
   /**

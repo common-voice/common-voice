@@ -116,6 +116,33 @@ export default class Mysql {
     return this.conn.query(sql);
   }
 
+  /**
+   * Insert or update query generator.
+   */
+  async upsert(
+    tableName: string,
+    columns: string[],
+    values: any[]
+  ): Promise<void> {
+    // Generate our bounded parameters.
+    const params = values.map((val: any) => {
+      return '?';
+    });
+    const dupeSql = columns.map((column: string) => {
+      return `${column} = ?`;
+    });
+
+    // We are using the same values twice in the query.
+    const allValues = values.concat(values);
+
+    const results = await this.exec(
+      `INSERT INTO ${tableName} (${columns.join(',')})
+       VALUES (${params.join(',')})
+       ON DUPLICATE KEY UPDATE ${dupeSql.join(',')};`,
+      allValues
+    );
+  }
+
   private getProcedureName(body: string): string {
     return 'F_' + hash(body, SALT);
   }
@@ -172,7 +199,7 @@ export default class Mysql {
    */
   async rootExec(sql: string, values?: any[]): Promise<any> {
     values = values || [];
-    await this.ensureConnection(true);
+    await this.ensureRootConnection();
     return this.rootConn.execute(sql, values);
   }
 
@@ -180,7 +207,7 @@ export default class Mysql {
    * Execute a regular query on the root connection.
    */
   async rootQuery(sql: string): Promise<any> {
-    await this.ensureConnection(true);
+    await this.ensureRootConnection();
     return this.rootConn.query(sql);
   }
 

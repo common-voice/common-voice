@@ -1,5 +1,5 @@
-import Mysql from './mysql';
-import { TableSchema, SchemaVersions, default as Table } from './table';
+import Mysql from '../mysql';
+import { TableSchema, SchemaVersions, default as Table } from '../table';
 
 const NAME = 'version';
 
@@ -23,12 +23,23 @@ const VERSIONS: SchemaVersions = {
  *   upgraded to.
  */
 export default class VersionTable extends Table {
-  constructor(mysql: Mysql) {
+  // Contains the version number stored in code config, not necessarily in db.
+  codeVersion: number;
+
+  constructor(mysql: Mysql, version: number) {
     super(mysql, VERSIONS);
+    this.codeVersion = version || 0;
   }
 
   /**
-   * Fetch latest version number of the database.
+   * Return the version stored in code, no necessarily in the db.
+   */
+  getCodeVersion(): number {
+    return this.codeVersion;
+  }
+
+  /**
+   * Fetch latest version number of the DATABASE.
    */
   async getCurrentVersion(): Promise<number> {
     let version = -1;
@@ -37,7 +48,7 @@ export default class VersionTable extends Table {
     try {
       let results, fields;
       [results, fields] = await this.mysql.exec(
-        `SELECT number FROM ${NAME} ORDER BY timestamp DESC`
+        `SELECT number FROM ${NAME} ORDER BY number DESC`
       );
 
       // If there is nothing in the table, default to version 0.

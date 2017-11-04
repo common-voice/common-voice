@@ -139,7 +139,7 @@ export default class Server {
   /**
    * Perform any scheduled maintenance on the data model.
    */
-  private async performMaintenance(): Promise<void> {
+  async performMaintenance(): Promise<void> {
     const start = Date.now();
     this.print('performing Maintenance');
 
@@ -147,7 +147,7 @@ export default class Server {
       await this.model.performMaintenance();
       this.print('Maintenance complete');
     } catch (err) {
-      console.error('DB Maintenance error', err.code);
+      console.error('DB Maintenance error', err);
     } finally {
       this.print(`${getElapsedSeconds(start)}s to perform maintenance`);
     }
@@ -206,17 +206,11 @@ export default class Server {
   }
 
   /**
-   * Make sure the server can connect to the database.
+   * Reset the database to initial factory settings.
    */
-  async ensureDatabaseConnection(): Promise<void> {
-    return this.model.ensureDatabaseConnection();
-  }
-
-  /**
-   * Make sure the database is set up.
-   */
-  async ensureDatabaseSetup(): Promise<void> {
-    return this.model.ensureDatabaseSetup();
+  async resetDatabase(): Promise<void> {
+    await this.model.db.drop();
+    await this.model.ensureDatabaseSetup();
   }
 
   /**

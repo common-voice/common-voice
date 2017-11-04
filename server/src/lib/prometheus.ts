@@ -1,4 +1,5 @@
 import * as http from 'http';
+import { CommonVoiceConfig } from '../config-helper';
 import {
   collectDefaultMetrics,
   register,
@@ -10,30 +11,36 @@ import {
 collectDefaultMetrics({ timeout: 5000 });
 
 export default class Prometheus {
+  config: CommonVoiceConfig;
   register: Registry;
   requests: Counter;
   clip_cnt: Counter;
   api_cnt: Counter;
   prometheus_cnt: Counter;
 
-  constructor() {
+  constructor(config: CommonVoiceConfig) {
+    this.config = config;
     this.register = register;
-    this.requests = new Counter({
-      name: 'voice_requests',
-      help: 'Total Requests Served',
-    });
-    this.clip_cnt = new Counter({
-      name: 'voice_clips_requests',
-      help: 'Total Clip Requests Served',
-    });
-    this.api_cnt = new Counter({
-      name: 'voice_api_requests',
-      help: 'Total API Requests Served',
-    });
-    this.prometheus_cnt = new Counter({
-      name: 'voice_prometheus_requests',
-      help: 'Total Prometheus Requests Served',
-    });
+
+    // Do not run prometheus endpoints on non prod site.
+    if (this.config.PROD) {
+      this.requests = new Counter({
+        name: 'voice_requests',
+        help: 'Total Requests Served',
+      });
+      this.clip_cnt = new Counter({
+        name: 'voice_clips_requests',
+        help: 'Total Clip Requests Served',
+      });
+      this.api_cnt = new Counter({
+        name: 'voice_api_requests',
+        help: 'Total API Requests Served',
+      });
+      this.prometheus_cnt = new Counter({
+        name: 'voice_prometheus_requests',
+        help: 'Total Prometheus Requests Served',
+      });
+    }
   }
 
   /**
@@ -44,19 +51,19 @@ export default class Prometheus {
   }
 
   countRequest(request: http.IncomingMessage) {
-    this.requests.inc();
+    this.requests && this.requests.inc();
   }
 
   countClipRequest(request: http.IncomingMessage) {
-    this.clip_cnt.inc();
+    this.clip_cnt && this.clip_cnt.inc();
   }
 
   countApiRequest(request: http.IncomingMessage) {
-    this.api_cnt.inc();
+    this.api_cnt && this.api_cnt.inc();
   }
 
   countPrometheusRequest(request: http.IncomingMessage) {
-    this.prometheus_cnt.inc();
+    this.prometheus_cnt && this.prometheus_cnt.inc();
   }
 
   /**

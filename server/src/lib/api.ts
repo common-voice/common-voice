@@ -22,8 +22,25 @@ export default class API {
     this.model = model;
     this.clip = new Clip(this.config, this.model);
     this.corpus = new Corpus();
-    this.metrics = new Prometheus();
+    this.metrics = new Prometheus(this.config);
     this.webhook = new WebHook();
+  }
+
+  /**
+   * Get the body of the request.
+   */
+  private getRequestBody(request: http.IncomingMessage): Promise<string> {
+    request.setEncoding('utf8');
+    return new Promise((res, rej) => {
+      let body = '';
+      request.on('error', rej);
+      request.on('data', (chunk: Buffer) => {
+        body += chunk.toString();
+      });
+      request.on('end', () => {
+        res(body);
+      });
+    });
   }
 
   /**
@@ -44,10 +61,30 @@ export default class API {
     );
   }
 
+  async handleUserSync(
+    request: http.IncomingMessage,
+    response: http.ServerResponse
+  ) {
+    try {
+      const uid = request.headers.uid;
+      const body = await this.getRequestBody(request);
+      const data = JSON.parse(body);
+      const email = data.email;
+      await this.model.syncUser(uid, email);
+      respond(response, 'user synced');
+    } catch (err) {
+      console.error('could not sync user', err);
+      respond(response, 'could not sync user', 500);
+    }
+  }
+
   /**
    * Give api response.
    */
-  handleRequest(request: http.IncomingMessage, response: http.ServerResponse) {
+  async handleRequest(
+    request: http.IncomingMessage,
+    response: http.ServerResponse
+  ) {
     this.metrics.countRequest(request);
 
     // Handle all clip related requests first.
@@ -67,8 +104,9 @@ export default class API {
     // If we get here, we are at an API request.
     this.metrics.countApiRequest(request);
 
-    // Most often this will be a sentence request.
-    if (request.url.includes('/sentence')) {
+    if (request.url.includes('/user')) {
+      this.handleUserSync(request, response);
+    } else if (request.url.includes('/sentence')) {
       let parts = request.url.split('/');
       let index = parts.indexOf('sentence');
       let count = parts[index + 1] && parseInt(parts[index + 1], 10);

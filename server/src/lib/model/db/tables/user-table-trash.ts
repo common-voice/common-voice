@@ -1,9 +1,18 @@
-import Mysql from './mysql';
-import { TableSchema, SchemaVersions, default as Table } from './table';
+import Mysql from '../mysql';
+import { TableSchema, SchemaVersions, default as Table } from '../table';
 
 const NAME = 'users';
 
-const UserSchema: TableSchema = {
+const UserSchema_V2: TableSchema = {
+  name: NAME,
+  columns: {
+    id: Table.PRIMARY_KEY_TYPE,
+    email: Table.EMAIL_TYPE + ' unique',
+  },
+  indexes: null,
+};
+
+const UserSchema_V1: TableSchema = {
   name: NAME,
   columns: {
     id: Table.PRIMARY_KEY_TYPE,
@@ -13,7 +22,8 @@ const UserSchema: TableSchema = {
 };
 
 const VERSIONS: SchemaVersions = {
-  1: UserSchema,
+  1: UserSchema_V1,
+  2: UserSchema_V2,
 };
 
 /**

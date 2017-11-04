@@ -6,6 +6,7 @@
   "repository": "mozilla/voice-web",
   "main": "server/server.js",
   "dependencies": {
+    "@types/node-fetch": "^1.6.7",
     "@types/tape": "^4.2.30",
     "aws-sdk": "^2.67.0",
     "bcrypt": "^1.0.2",
@@ -24,6 +25,7 @@
     "mediaserver": "0.1.0",
     "mkdirp": "^0.5.1",
     "mysql2": "^1.4.2",
+    "node-fetch": "^1.7.3",
     "node-random-name": "^1.0.1",
     "node-static": "^0.7.10",
     "pm2": "^2.4.6",
