@@ -6,7 +6,6 @@ import { CommonVoiceConfig } from '../config-helper';
 import Model from './model';
 import { map } from '../promisify';
 import { getFileExt, sleep } from './utility';
-import './aws';
 
 const KEYS_PER_REQUEST = 1000; // Max is 1000.
 const LOAD_DELAY = 200;

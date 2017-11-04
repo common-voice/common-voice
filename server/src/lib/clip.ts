@@ -8,11 +8,11 @@ import * as ms from 'mediaserver';
 import * as mkdirp from 'mkdirp';
 
 import { CommonVoiceConfig } from '../config-helper';
+import { AWS } from './aws';
 import Model from './model';
 import Bucket from './bucket';
 import { getFileExt } from './utility';
 import respond, { CONTENT_TYPES } from './responder';
-import './aws';
 
 const ff = require('ff');
 const Transcoder = require('stream-transcoder');
@@ -30,9 +30,9 @@ export default class Clip {
   private bucket: Bucket;
   private model: Model;
 
-  constructor(config: CommonVoiceConfig, model: Model, s3: S3) {
+  constructor(config: CommonVoiceConfig, model: Model) {
     this.config = config;
-    this.s3 = s3;
+    this.s3 = AWS.getS3();
     this.model = model;
     this.bucket = new Bucket(this.config, this.model, this.s3);
   }
