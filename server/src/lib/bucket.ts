@@ -30,10 +30,10 @@ export default class Bucket {
   private validated: number;
   private randomEngine: Random.MT19937;
 
-  constructor(config: CommonVoiceConfig, model: Model) {
+  constructor(config: CommonVoiceConfig, model: Model, s3: S3) {
     this.config = config;
     this.model = model;
-    this.s3 = new S3();
+    this.s3 = s3;
     this.votes = 0;
     this.validated = 0;
 

@@ -30,11 +30,11 @@ export default class Clip {
   private bucket: Bucket;
   private model: Model;
 
-  constructor(config: CommonVoiceConfig, model: Model) {
+  constructor(config: CommonVoiceConfig, model: Model, s3: S3) {
     this.config = config;
-    this.s3 = new S3({ signatureVersion: 'v4' });
+    this.s3 = s3;
     this.model = model;
-    this.bucket = new Bucket(this.config, this.model);
+    this.bucket = new Bucket(this.config, this.model, this.s3);
   }
 
   /**
