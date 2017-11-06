@@ -1,12 +1,17 @@
 import Mysql from './mysql';
 
+export enum IndexTypeValues {
+  UNIQUE = 'UNIQUE',
+  INDEX = 'INDEX',
+}
+
 export type ColumnType = {
   [key: string]: string;
 };
 
 export type IndexType = {
   name: string;
-  type: string; // UNIQUE|INDEX
+  type: IndexTypeValues;
   columns: string[];
 };
 

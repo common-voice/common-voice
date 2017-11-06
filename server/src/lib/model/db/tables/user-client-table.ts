@@ -1,5 +1,10 @@
 import Mysql from '../mysql';
-import { TableSchema, SchemaVersions, default as Table } from '../table';
+import {
+  IndexTypeValues,
+  TableSchema,
+  SchemaVersions,
+  default as Table,
+} from '../table';
 
 const NAME = 'user_clients';
 
@@ -14,12 +19,12 @@ const UserSchema: TableSchema = {
   indexes: [
     {
       name: 'full_index',
-      type: 'UNIQUE',
+      type: IndexTypeValues.UNIQUE,
       columns: ['client_id', 'email'],
     },
     {
       name: 'email_index',
-      type: 'INDEX',
+      type: IndexTypeValues.INDEX,
       columns: ['email'],
     },
   ],
