@@ -147,7 +147,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       recording: false,
       isReRecord: false,
       reRecordIndex: -1,
-      alertVisible: isFull ? false : true,
+      alertVisible: isFull,
     });
 
     this.tracker.trackRecord();
@@ -469,12 +469,15 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       <div id="record-container" className={this.props.active}>
         {!this.isFull() && !this.state.uploading ? (
           <div id="voice-record">
-            <Alert
-              text="Submit success! Want to record again?"
-              active={this.state.alertVisible}
-              autoHide
-              onClose={this.hideAlert}
-            />
+            {this.state.alertVisible && (
+              <div id="alert-container">
+                <Alert
+                  text="Submit success! Want to record again?"
+                  autoHide
+                  onClose={this.hideAlert}
+                />
+              </div>
+            )}
             <div className="record-sentence">
               {texts}
               {recordingsCount > 0 &&

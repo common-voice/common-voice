@@ -48,7 +48,7 @@
 }
 
 .record-sentence {
-    height: 8rem;
+    height: 11rem;
     margin-top: 0.5rem;
     position: relative;
     transition: transform 0.2s ease-in;
@@ -156,8 +156,19 @@
 }
 
 #voice-record {
+    position: relative;
     overflow: hidden;
     padding: 0 0.5rem;
+}
+
+#alert-container {
+    position: absolute;
+    top: var(--page-margin);
+    left: 0;
+    right: 0;
+    z-index: var(--middle-z-index);
+    margin: 0 auto;
+    width: calc(100% - 1.5rem);
 }
 
 @media (min-width: 600px) {
