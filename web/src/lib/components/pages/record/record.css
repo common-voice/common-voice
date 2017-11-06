@@ -150,6 +150,12 @@
     cursor: pointer;
 }
 
+@media (max-width: 600px) {
+    #undo-clip {
+        bottom: -80%;
+    }
+}
+
 #record-help {
     font-size: 1rem;
     padding: 0 2rem;
