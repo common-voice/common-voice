@@ -13,8 +13,4 @@ For general discussion (feedback, ideas, random musings), head to our [Discourse
 
 For technical problems or suggestions, please use the [GitHub issue tracker](https://github.com/mozilla/voice-web/issues).
 
-You can also chat on our IRC channel. Check [Mozilla IRC](https://wiki.mozilla.org/IRC) for instructions on how to set up your IRC client.  
-Hostname: `irc.mozilla.org`  
-Port: `6697` (or `8843` if your ISP blocks that port)  
-SSL: Yes  
-Channel: `#common-voice`
+Or come chat with us on Slack: [Invite Link](https://common-voice-slack-invite.herokuapp.com/)
