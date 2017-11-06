@@ -159,12 +159,8 @@ export default class ListenBox extends Component<Props, State> {
         <div
           style={!this.props.vote ? 'display: none;' : ''}
           className={'vote-box ' + (this.state.played ? '' : 'disabled')}>
-          <a onClick={this.voteYes}>
-            <Icon type="check" />Yes!
-          </a>
-          <a onClick={this.voteNo}>
-            <Icon type="x" />Nope.
-          </a>
+          <a onClick={this.voteYes}>Yes</a>
+          <a onClick={this.voteNo}>No</a>
         </div>
         <audio
           className="audio-box"
