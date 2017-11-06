@@ -20,12 +20,12 @@ export type CommonVoiceConfig = {
 };
 
 const DEFAULTS: CommonVoiceConfig = {
-  VERSION: 2,
-  PROD: false,
+  VERSION: 2, // Used for logging and database versioning.
+  PROD: false, // Set to true for staging and production.
   SERVER_PORT: 9000,
-  DB_ROOT_USER: 'root',
+  DB_ROOT_USER: 'root', // For running schema migrations.
   DB_ROOT_PASS: '',
-  MYSQLUSER: 'voicecommons',
+  MYSQLUSER: 'voicecommons', // For normal DB interactions.
   MYSQLPASS: 'voicecommons',
   MYSQLDBNAME: 'voiceweb',
   MYSQLHOST: 'localhost',

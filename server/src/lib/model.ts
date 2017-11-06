@@ -157,10 +157,10 @@ export default class Model {
   }
 
   /**
-   * Make sure we can connect to the database.
+   * Update current user
    */
-  async ensureDatabaseConnection(): Promise<void> {
-    return this.db.ensureConnection();
+  async syncUser(uid: string, email?: string): Promise<void> {
+    return this.db.updateUser(uid, email);
   }
 
   /**

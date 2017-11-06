@@ -35,6 +35,12 @@
   dependencies:
     "@types/node" "*"
 
+"@types/node-fetch@^1.6.7":
+  version "1.6.7"
+  resolved "https://registry.yarnpkg.com/@types/node-fetch/-/node-fetch-1.6.7.tgz#521078e8f0c69a158e5022005aca92d2620f6d57"
+  dependencies:
+    "@types/node" "*"
+
 "@types/node-static@^0.7.0":
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/@types/node-static/-/node-static-0.7.0.tgz#135c408a9976d8ed8fb94c4b6e958ecaddfdca12"
@@ -43,8 +49,8 @@
     "@types/node" "*"
 
 "@types/node@*":
-  version "8.0.46"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.46.tgz#6e1766b2d0ed06631d5b5f87bb8e72c8dbb6888e"
+  version "8.0.47"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.47.tgz#968e596f91acd59069054558a00708c445ca30c2"
 
 "@types/node@7.0.29":
   version "7.0.29"
@@ -55,8 +61,8 @@
   resolved "https://registry.yarnpkg.com/@types/random-js/-/random-js-1.0.30.tgz#33fd57ae4fdbdc1aed3f76a875bd1da5a9428808"
 
 "@types/tape@^4.2.30":
-  version "4.2.30"
-  resolved "https://registry.yarnpkg.com/@types/tape/-/tape-4.2.30.tgz#3c1917c4dfd6f27271b9922772513515bc6c46b4"
+  version "4.2.31"
+  resolved "https://registry.yarnpkg.com/@types/tape/-/tape-4.2.31.tgz#d2cd0f2e410d2c288a5eb54c01c04e6b8a301fd2"
   dependencies:
     "@types/node" "*"
 
@@ -1110,6 +1116,12 @@ emitter-listener@^1.0.1:
   resolved "https://registry.yarnpkg.com/emitter-listener/-/emitter-listener-1.0.1.tgz#b2499ea6e58230a52c268d5df261eecd9f10fe97"
   dependencies:
     shimmer "1.0.0"
+
+encoding@^0.1.11:
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/encoding/-/encoding-0.1.12.tgz#538b66f3ee62cd1ab51ec323829d1f9480c74beb"
+  dependencies:
+    iconv-lite "~0.4.13"
 
 end-of-stream@^1.0.0:
   version "1.4.0"
@@ -2181,7 +2193,7 @@ https-proxy-agent@1, https-proxy-agent@^1.0.0:
     debug "2"
     extend "3"
 
-iconv-lite@0.4.19, iconv-lite@^0.4.17, iconv-lite@^0.4.18, iconv-lite@^0.4.4:
+iconv-lite@0.4.19, iconv-lite@^0.4.17, iconv-lite@^0.4.18, iconv-lite@^0.4.4, iconv-lite@~0.4.13:
   version "0.4.19"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.19.tgz#f7468f60135f5e5dad3399c0a81be9a1603a082b"
 
@@ -3212,6 +3224,13 @@ netmask@^1.0.6:
 next-tick@1:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
+
+node-fetch@^1.7.3:
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-1.7.3.tgz#980f6f72d85211a5347c6b2bc18c5b84c3eb47ef"
+  dependencies:
+    encoding "^0.1.11"
+    is-stream "^1.0.1"
 
 node-pre-gyp@0.6.36:
   version "0.6.36"
