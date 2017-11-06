@@ -48,7 +48,7 @@
 }
 
 .record-sentence {
-    height: 8rem;
+    height: 11rem;
     margin-top: 0.5rem;
     position: relative;
     transition: transform 0.2s ease-in;
@@ -150,39 +150,29 @@
     cursor: pointer;
 }
 
-.full #undo-clip,
-#undo-clip.hide {
-    transform: translateX(-10rem);
-    opacity: 0;
-}
-
 #record-help {
     font-size: 1rem;
     padding: 0 2rem;
 }
 
 #voice-record {
+    position: relative;
     overflow: hidden;
     padding: 0 0.5rem;
+}
+
+#alert-container {
+    position: absolute;
+    top: var(--page-margin);
+    left: 0;
+    right: 0;
+    z-index: var(--middle-z-index);
+    margin: 0 auto;
+    width: calc(100% - 1.5rem);
 }
 
 @media (min-width: 600px) {
     #voice-record {
         padding: 0 0.25rem;
-    }
-}
-
-.full #voice-record {
-    visibility: hidden;
-}
-
-.full #voice-submit {
-    opacity: 1;
-    transform: translateY(-27.5rem);
-}
-
-@media (max-width: 600px) {
-    .full #voice-submit {
-        transform: translateY(-22.5rem);
     }
 }

@@ -23,6 +23,7 @@ interface FetchOptions {
  */
 export default class API {
   private static DEFAULT_BASE: string = './api/';
+  private static USER_URL: string = '/api/user/';
   private static SOUNDCLIP_URL: string = '/upload/';
   private static CLIP_VOTE_URL: string = '/upload/vote/';
   private static DEMOGRAPHIC_URL: string = '/upload/demographic/';
@@ -134,7 +135,7 @@ export default class API {
         req.setRequestHeader(header, headers[header]);
       });
 
-      requestCallback(req);
+      requestCallback && requestCallback(req);
     });
   }
 
@@ -194,6 +195,20 @@ export default class API {
       }
 
       req.send(blob);
+    });
+  }
+
+  async syncUser(): Promise<Event> {
+    const headers = {
+      uid: this.user.getId(),
+    };
+
+    const body = {
+      email: this.user.getEmail(),
+    };
+
+    return this.createPostRequest(API.USER_URL, headers, req => {
+      req.send(JSON.stringify(body));
     });
   }
 }

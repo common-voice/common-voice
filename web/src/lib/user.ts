@@ -120,6 +120,7 @@ interface FieldConfig {
 export default class User {
   state: UserState;
   tracker: Tracker;
+  updateHandlers: Function[];
 
   private fieldConfigs: FieldConfig = {
     email: [null, () => this.tracker.trackGiveEmail()],
@@ -131,12 +132,14 @@ export default class User {
 
   constructor() {
     this.tracker = new Tracker();
+    this.updateHandlers = [];
     this.restore();
   }
 
   private restore(): void {
     try {
       this.state = JSON.parse(this.getStore());
+      this.signalUpdate();
     } catch (e) {
       console.error('failed parsing storage', e);
       localStorage.removeItem(USER_KEY);
@@ -161,12 +164,26 @@ export default class User {
     }
   }
 
+  /**
+   * Add a new callback handler for when the user is updated.
+   */
+  onUpdate(callback: Function) {
+    this.updateHandlers.push(callback);
+  }
+
+  private signalUpdate(): void {
+    this.updateHandlers.forEach(handler => {
+      handler();
+    });
+  }
+
   private getStore(): string {
     return localStorage && localStorage.getItem(USER_KEY);
   }
 
   private save(): void {
     localStorage && (localStorage[USER_KEY] = JSON.stringify(this.state));
+    this.signalUpdate();
   }
 
   public getId(): string {

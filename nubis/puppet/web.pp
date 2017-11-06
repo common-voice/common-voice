@@ -33,7 +33,13 @@ apache::vhost { $project_name:
     AddOutputFilterByType DEFLATE application/x-font-ttf
 
     # Deflate JavaScript
-    AddOutputFilterByType DEFLATE text/javascript
+    AddOutputFilterByType DEFLATE text/javascript application/javascript
+
+    # Deflate CSS
+    AddOutputFilterByType DEFLATE text/css
+
+    # Deflate SVG images
+    AddOutputFilterByType DEFLATE image/svg+xml
 
     # Sane expires defaults
     ExpiresActive On

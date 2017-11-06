@@ -1,38 +1,60 @@
 import Mysql from './db/mysql';
 import Schema from './db/schema';
 import Table from './db/table';
-import UserTable from './db/user-table';
-import VersionTable from './db/version-table';
+import UserTable from './db/tables/user-table';
+import UserClientTable from './db/tables/user-client-table';
+import VersionTable from './db/tables/version-table';
 import { CommonVoiceConfig } from '../../config-helper';
 
 export type Tables = Table[];
 
 export default class DB {
   config: CommonVoiceConfig;
+  currentVersion: number;
   mysql: Mysql;
   schema: Schema;
   tables: Tables;
   user: UserTable;
+  userClient: UserClientTable;
   version: VersionTable;
 
   constructor(config: CommonVoiceConfig) {
     this.config = config;
+    this.currentVersion = config.VERSION;
     this.mysql = new Mysql(this.config);
     this.user = new UserTable(this.mysql);
-    this.version = new VersionTable(this.mysql);
+    this.userClient = new UserClientTable(this.mysql);
+    this.version = new VersionTable(this.mysql, this.currentVersion);
 
     this.tables = [];
     this.tables.push(this.user as Table);
+    this.tables.push(this.userClient as Table);
     this.tables.push(this.version as Table);
 
     this.schema = new Schema(this.mysql, this.tables, this.version);
   }
 
   /**
-   * Ensure we can connect to database at least as root.
+   * Normalize email address as input.
+   * TODO: add validation here.
    */
-  async ensureConnection(): Promise<void> {
-    return this.mysql.ensureConnection(true);
+  private formatEmail(email?: string): string {
+    if (!email) {
+      return '';
+    }
+
+    return email.toLowerCase();
+  }
+
+  /**
+   * Insert or update user client row.
+   */
+  async updateUser(clientId: string, email?: string): Promise<void> {
+    email = this.formatEmail(email);
+    await Promise.all([
+      this.user.update(email),
+      this.userClient.update(clientId, email),
+    ]);
   }
 
   /**
@@ -40,6 +62,13 @@ export default class DB {
    */
   async ensureSetup(): Promise<void> {
     return this.schema.ensure();
+  }
+
+  /**
+   * I hope you know what you're doing.
+   */
+  async drop(): Promise<void> {
+    return this.schema.dropDatabase();
   }
 
   /**

@@ -6,7 +6,6 @@ import { CommonVoiceConfig } from '../config-helper';
 import Model from './model';
 import { map } from '../promisify';
 import { getFileExt, sleep } from './utility';
-import './aws';
 
 const KEYS_PER_REQUEST = 1000; // Max is 1000.
 const LOAD_DELAY = 200;
@@ -30,10 +29,10 @@ export default class Bucket {
   private validated: number;
   private randomEngine: Random.MT19937;
 
-  constructor(config: CommonVoiceConfig, model: Model) {
+  constructor(config: CommonVoiceConfig, model: Model, s3: S3) {
     this.config = config;
     this.model = model;
-    this.s3 = new S3();
+    this.s3 = s3;
     this.votes = 0;
     this.validated = 0;
 

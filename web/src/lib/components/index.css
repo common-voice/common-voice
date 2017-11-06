@@ -159,6 +159,7 @@ input:invalid {
   font-weight: bold;
 }
 
+@import url('alert/alert.css');
 @import url('listen-box/listen-box.css');
 
 .progress-button {

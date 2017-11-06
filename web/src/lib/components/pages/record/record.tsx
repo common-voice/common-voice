@@ -6,6 +6,7 @@ import Icon from '../../icon';
 import AudioIOS from './audio-ios';
 import AudioWeb, { AudioInfo } from './audio-web';
 import ListenBox from '../../listen-box/listen-box';
+import Alert from '../../alert/alert';
 import { getItunesURL, isFocus, isNativeIOS, sleep } from '../../../utility';
 import confirm from '../../../confirm/confirm';
 import Review from './review';
@@ -54,6 +55,7 @@ interface RecordState {
   uploadProgress: number;
   isReRecord: boolean;
   reRecordIndex: number;
+  alertVisible: boolean;
 }
 
 export default class RecordPage extends Component<RecordProps, RecordState> {
@@ -74,6 +76,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     uploadProgress: 0,
     isReRecord: false,
     reRecordIndex: -1,
+    alertVisible: false,
   };
 
   constructor(props: RecordProps) {
@@ -115,6 +118,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     this.processRecording = this.processRecording.bind(this);
     this.goBack = this.goBack.bind(this);
     this.onProgress = this.onProgress.bind(this);
+    this.hideAlert = this.hideAlert.bind(this);
   }
 
   private async refillSentenceCache() {
@@ -136,11 +140,14 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       recordings.push(info);
     }
 
+    const isFull = this.isFull();
+
     this.setState({
       recordings: recordings,
       recording: false,
       isReRecord: false,
       reRecordIndex: -1,
+      alertVisible: isFull,
     });
 
     this.tracker.trackRecord();
@@ -171,7 +178,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       return;
     }
 
-    if (this.isFull()) {
+    if (isFull) {
       this.props.onRecordingSet();
     }
   }
@@ -197,6 +204,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       recordings: recordings,
       isReRecord: true,
       reRecordIndex: index,
+      alertVisible: false,
     });
 
     this.props.onDelete();
@@ -285,6 +293,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     recordings.pop();
     this.setState({
       recordings: recordings,
+      alertVisible: false,
     });
   }
 
@@ -305,10 +314,16 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
     if (this.state.recording) {
       this.stopRecording();
+      return;
+    }
 
-      // Don't start a new recording when full.
-    } else if (!this.isFull()) {
-      await this.audio.init();
+    // Don't start a new recording when full.
+    if (this.isFull()) {
+      return;
+    }
+
+    const initSuccess = await this.audio.init();
+    if (initSuccess) {
       this.startRecording();
     }
   }
@@ -321,6 +336,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       // TODO: re-enable display of recording time at some point.
       recordingStartTime: Date.now(),
       recordingStopTime: 0,
+      alertVisible: false,
     });
     this.props.onRecord && this.props.onRecord();
   }
@@ -365,6 +381,12 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     return this.sentenceCache.length >= SET_COUNT;
   }
 
+  private hideAlert(): void {
+    this.setState({
+      alertVisible: false,
+    });
+  }
+
   render() {
     // Make sure we can get the microphone before displaying anything.
     if (this.isUnsupportedPlatform) {
@@ -392,7 +414,6 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     }
 
     // During uploading, we display the submit page for progress.
-    let isFull = this.isFull() || this.state.uploading;
     let texts = []; // sentence elements
     let listens = []; // listen boxes
 
@@ -424,7 +445,6 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     }
 
     let showBack = this.state.recordings.length !== 0 && !this.state.isReRecord;
-    let className = this.props.active + (isFull ? ' full' : '');
     let progress = this.state.uploadProgress;
     if (this.state.uploading) {
       // Look ahead in the progress bar when uploading.
@@ -444,36 +464,52 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
         ]
       : ERR_SENTENCES_NOT_LOADED;
 
+    const recordingsCount = this.state.recordings.length;
     return (
-      <div id="record-container" className={className}>
-        <div id="voice-record">
-          <div className="record-sentence">
-            {texts}
-            <Icon
-              id="undo-clip"
-              type="undo"
-              onClick={this.goBack}
-              className={!showBack ? 'hide' : ''}
+      <div id="record-container" className={this.props.active}>
+        {!this.isFull() && !this.state.uploading ? (
+          <div id="voice-record">
+            {this.state.alertVisible && (
+              <div id="alert-container">
+                <Alert
+                  text="Submit success! Want to record again?"
+                  autoHide
+                  onClose={this.hideAlert}
+                />
+              </div>
+            )}
+            <div className="record-sentence">
+              {texts}
+              {recordingsCount > 0 &&
+                !this.state.isReRecord && (
+                  <Icon
+                    id="undo-clip"
+                    type="undo"
+                    onClick={this.goBack}
+                    className={!showBack ? 'hide' : ''}
+                  />
+                )}
+            </div>
+            <div class="record-controls">{controlElements}</div>
+            <p id="recordings-count">
+              <span style={this.state.isReRecord ? 'display: none;' : ''}>
+                {recordingsCount + 1} of 3
+              </span>
+            </p>
+            <ProfileActions
+              user={this.props.user}
+              navigate={this.props.navigate}
             />
           </div>
-          <div class="record-controls">{controlElements}</div>
-          <p id="recordings-count">
-            <span style={this.state.isReRecord ? 'display: none;' : ''}>
-              {this.state.recordings.length + 1} of 3
-            </span>
-          </p>
-          <ProfileActions
+        ) : (
+          <Review
+            progress={progress}
             user={this.props.user}
             navigate={this.props.navigate}
-          />
-        </div>
-        <Review
-          progress={progress}
-          user={this.props.user}
-          navigate={this.props.navigate}
-          onSubmit={this.onSubmit}>
-          {listens}
-        </Review>
+            onSubmit={this.onSubmit}>
+            {listens}
+          </Review>
+        )}
       </div>
     );
   }
