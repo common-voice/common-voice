@@ -23,6 +23,7 @@
     "concurrently": "^3.5.0",
     "css-loader": "^0.28.7",
     "cssnano": "^3.10.0",
+    "es6-promise": "^4.1.1",
     "eslint": "^4.7.2",
     "eslint-plugin-prettier": "^2.3.1",
     "extract-text-webpack-plugin": "^3.0.1",
@@ -64,9 +65,9 @@
   "scripts": {
     "build": "concurrently \"node scripts/build-server.js\" \"cd web/ && webpack --config webpack.prod.config.js\"",
     "lint": "eslint **/*.ts **/*.tsx",
-    "prettier": "npm run lint -- --fix",
+    "prettier": "yarn lint -- --fix",
     "start": "node scripts/dev-server.js",
-    "start:prod": "node server/js/server.js",
+    "start:prod": "yarn build && node server/js/server.js",
     "test": "tape server/js/test/*.js"
   }
 }

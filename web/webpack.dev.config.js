@@ -17,7 +17,7 @@ module.exports = merge(commonConfig, {
             },
             loader: require.resolve('eslint-loader'),
           },
-        ]
+        ],
       },
     ],
   },

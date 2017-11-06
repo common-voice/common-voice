@@ -2,6 +2,8 @@ import './lib/components/index.css';
 
 declare var require: any;
 
+require('es6-promise').polyfill();
+
 // Safari hack to allow :active styles.
 document.addEventListener('touchstart', function() {}, true);
 
