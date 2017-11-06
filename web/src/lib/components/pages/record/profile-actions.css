@@ -1,12 +1,20 @@
 #profile-actions {
     margin: 2rem auto;
-    /* Disable editing profile from the recording flow for now */
-    visibility: hidden;
+    padding-top: var(--standard-margin);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #create-profile-button {
+    font-weight: normal;
     text-transform: uppercase;
     color: black;
+}
+
+#profile-actions hr {
+    margin-bottom: 1.5rem;
+    width: 100%;
 }
 
 #profile-actions hr {
@@ -19,25 +27,11 @@
     text-align: start;
 }
 
-#profile-form-container .cancel {
-    position: absolute;
-    top: .8rem;
-    right: 0;
-}
-
-#profile-actions p, #profile-actions div, #profile-actions hr {
-    margin: 1rem auto;
-}
-
-#profile-actions a {
-    text-decoration: underline;
-    cursor: pointer;
-}
-
 #why-profile {
-    background-color: var(--color-record-why-profile);
+    margin: 0 auto;
     padding: 1rem;
     width: 70%;
+    background-color: var(--color-record-why-profile);
 }
 
 #why-profile-text {
@@ -45,5 +39,16 @@
 }
 
 #why-profile-title {
+    margin: 1rem auto;
     font-weight: bold;
+}
+
+#profile-actions a {
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#profile-actions a, #why-profile-title {
+    font-size: .8rem;
 }

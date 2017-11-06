@@ -59,7 +59,7 @@ interface UserAges {
 }
 
 export const AGES: UserAges = {
-  '': '--',
+  '': '',
   teens: '< 19',
   twenties: '19 - 29',
   thirties: '30 - 39',
@@ -73,14 +73,14 @@ export const AGES: UserAges = {
 
 interface UserGender {
   [key: string]: string;
-  '': '--';
+  '': '';
   male: 'Male';
   female: 'Female';
   other: 'Other';
 }
 
 export const GENDER: UserGender = {
-  '': '--',
+  '': '',
   male: 'Male',
   female: 'Female',
   other: 'Other',
@@ -89,6 +89,7 @@ export const GENDER: UserGender = {
 interface UserState {
   userId: string;
   email: string;
+  username: string;
   sendEmails: boolean;
   accent: string;
   age: string;
@@ -100,6 +101,19 @@ interface UserState {
   validateTally: number;
 }
 
+interface UpdatableUserState {
+  email?: string;
+  username?: string;
+  sendEmails?: boolean;
+  accent?: string;
+  age?: string;
+  gender?: string;
+}
+
+interface FieldConfig {
+  [key: string]: [any, () => void];
+}
+
 /**
  * User tracking
  */
@@ -107,6 +121,14 @@ export default class User {
   state: UserState;
   tracker: Tracker;
   updateHandlers: Function[];
+
+  private fieldConfigs: FieldConfig = {
+    email: [null, () => this.tracker.trackGiveEmail()],
+    username: [null, () => this.tracker.trackGiveUsername()],
+    accent: [ACCENTS, () => this.tracker.trackGiveAccent()],
+    age: [AGES, () => this.tracker.trackGiveAge()],
+    gender: [GENDER, () => this.tracker.trackGiveGender()],
+  };
 
   constructor() {
     this.tracker = new Tracker();
@@ -128,6 +150,7 @@ export default class User {
       this.state = {
         userId: generateGUID(),
         email: '',
+        username: '',
         sendEmails: false,
         accent: '',
         age: '',
@@ -167,56 +190,23 @@ export default class User {
     return this.state.userId;
   }
 
-  public getEmail(): string {
-    return this.state.email;
-  }
-
-  public setEmail(email: string): void {
-    this.state.email = email;
-    this.save();
-    this.tracker.trackGiveEmail();
-  }
-
-  public setSendEmails(value: boolean): void {
-    this.state.sendEmails = value;
-    this.save();
-  }
-
-  public setAccent(accent: string): void {
-    if (!ACCENTS[accent]) {
-      console.error('cannot set unrecognized accent', accent);
-      return;
+  public setState(stateChange: UpdatableUserState) {
+    const keys = Object.keys(stateChange) as Array<keyof UpdatableUserState>;
+    for (const key of keys) {
+      const value = stateChange[key];
+      const [possibleValues, callback]: any = this.fieldConfigs[key] || [];
+      if (value && possibleValues && !possibleValues[value as string]) {
+        console.error('cannot set unrecognized', key, ':', value);
+        return;
+      }
+      this.state[key] = value;
+      if (callback) callback();
     }
-
-    this.state.accent = accent;
     this.save();
-    this.tracker.trackGiveAccent();
-  }
-
-  public setAge(age: string): void {
-    if (!AGES[age]) {
-      console.error('cannot set unrecognized age', age);
-      return;
-    }
-
-    this.state.age = age;
-    this.save();
-    this.tracker.trackGiveAge();
-  }
-
-  public setGender(gender: string): void {
-    if (!GENDER[gender]) {
-      console.error('cannot set unrecognized gender', gender);
-      return;
-    }
-
-    this.state.gender = gender;
-    this.save();
-    this.tracker.trackGiveGender();
   }
 
   public getState(): UserState {
-    return this.state;
+    return { ...this.state };
   }
 
   public hasAgreedToPrivacy() {
@@ -241,7 +231,7 @@ export default class User {
   }
 
   public hasEnteredInfo(): boolean {
-    const { email, accent, age, gender } = this.state;
-    return Boolean(email || accent || age || gender);
+    const { email, username, accent, age, gender } = this.state;
+    return Boolean(email || username || accent || age || gender);
   }
 }

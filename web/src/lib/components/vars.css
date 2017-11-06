@@ -41,7 +41,7 @@
     --color-text-help: rgba(255, 255, 255, 0.4);
     --color-record-hr: #E6E5E3;
     --color-record-why-profile: #F9F9F9;
-    --tab-line: 2px solid #3dfefd;
+    --color-input-background: #F3F2F0;
 
     --highlight-shadow-listen:
             1px 1px 6px var(--color-listen),
