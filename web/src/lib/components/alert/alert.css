@@ -1,0 +1,13 @@
+.alert {
+  background-color: #bdd159;
+  color: #fff;
+  padding: 8px;
+  font-size: 0.8rem;
+}
+
+.alert > .icon {
+  font-size: 0.3rem;
+  margin: 5px;
+  float: right;
+  cursor: pointer;
+}
