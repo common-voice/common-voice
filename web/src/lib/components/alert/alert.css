@@ -1,5 +1,5 @@
 .alert {
-  background-color: #bdd159;
+  background-color: var(--color-listen);
   color: #fff;
   padding: 8px;
   font-size: 0.8rem;
