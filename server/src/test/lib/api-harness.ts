@@ -39,7 +39,6 @@ export default class ApiHarness {
         email: email,
       }),
     });
-    console.log('got respones');
   }
 
   /**
