@@ -204,7 +204,7 @@ export default class API {
     };
 
     const body = {
-      email: this.user.getEmail(),
+      email: this.user.getState().email,
     };
 
     return this.createPostRequest(API.USER_URL, headers, req => {
