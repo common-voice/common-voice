@@ -76,7 +76,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     uploadProgress: 0,
     isReRecord: false,
     reRecordIndex: -1,
-    alertVisible: true,
+    alertVisible: false,
   };
 
   constructor(props: RecordProps) {
