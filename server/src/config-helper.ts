@@ -1,5 +1,3 @@
-const LOCAL_CONFIG_PATH = '../../config.json';
-
 /**
  * Definition for all common voice config options.
  */
@@ -39,17 +37,17 @@ const DEFAULTS: CommonVoiceConfig = {
  * Create our configuration by merging config.json and our DEFAULTS.
  */
 export function getConfig(): CommonVoiceConfig {
-  const localConfig = load(LOCAL_CONFIG_PATH);
+  const localConfig = load();
   return Object.assign(DEFAULTS, localConfig);
 }
 
 /**
  * Attempt to load a json file, but return null if not found.
  */
-function load(path: string): CommonVoiceConfig {
+function load(): CommonVoiceConfig {
   let config = null;
   try {
-    config = require(path);
+    config = require('../config.json');
   } catch (err) {}
   return config;
 }

@@ -1,5 +1,5 @@
 import { h, Component } from 'preact';
-import RobotTalker from 'robot-talker';
+import RobotTalker from './robot-talker';
 
 const MODE_GREETINGS = '/img/robot-greetings.png';
 const MODE_LISTENING = '/img/robot-listening.png';

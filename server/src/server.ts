@@ -9,7 +9,7 @@ import { Server as NodeStaticServer } from 'node-static';
 import { CommonVoiceConfig, getConfig } from './config-helper';
 
 const SLOW_REQUEST_LIMIT = 2000;
-const CLIENT_PATH = '../../web';
+const CLIENT_PATH = '../web';
 
 const CSP_HEADER = `default-src 'none'; style-src 'self' 'nonce-123456789' 'nonce-987654321' https://fonts.googleapis.com; img-src 'self' www.google-analytics.com; media-src data: blob: https://*.amazonaws.com https://*.amazon.com; script-src 'self' https://www.google-analytics.com/analytics.js; font-src 'self' https://fonts.gstatic.com; connect-src 'self'`;
 
