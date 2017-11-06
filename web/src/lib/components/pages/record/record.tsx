@@ -76,7 +76,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
     uploadProgress: 0,
     isReRecord: false,
     reRecordIndex: -1,
-    alertVisible: false,
+    alertVisible: true,
   };
 
   constructor(props: RecordProps) {
@@ -471,11 +471,9 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
           <div id="voice-record">
             {this.state.alertVisible && (
               <div id="alert-container">
-                <Alert
-                  text="Submit success! Want to record again?"
-                  autoHide
-                  onClose={this.hideAlert}
-                />
+                <Alert autoHide onClose={this.hideAlert}>
+                  Submit success! Want to record again?
+                </Alert>
               </div>
             )}
             <div className="record-sentence">

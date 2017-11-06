@@ -4,7 +4,7 @@ import Icon from '../icon';
 const AUTO_HIDE_TIME_MS = 5000;
 
 interface Props {
-  text: string;
+  children?: any;
   autoHide: boolean;
   onClose: Function;
 }
@@ -47,7 +47,7 @@ export default class Alert extends Component<Props, void> {
   render() {
     return (
       <div className="alert">
-        {this.props.text}
+        {this.props.children}
 
         <Icon type="x" onClick={this.onClick} className="icon" />
       </div>
