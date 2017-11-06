@@ -1,6 +1,5 @@
-import * as webpack from 'webpack';
-import * as path from 'path';
-import * as fs from 'fs';
+const fs = require('fs');
+const path = require('path');
 
 const OUTPUT_PATH = path.resolve(__dirname, 'js');
 
@@ -11,8 +10,9 @@ const OUTPUT_PATH = path.resolve(__dirname, 'js');
  * 
  * See http://jlongster.com/Backend-Apps-with-Webpack--Part-I
  */
-const nodeModules: {[mod: string]: string} = {};
-fs.readdirSync(path.resolve(__dirname, '..', 'node_modules'))
+const nodeModules = {};
+fs
+  .readdirSync(path.resolve(__dirname, '..', 'node_modules'))
   .filter(function(x) {
     return ['.bin'].indexOf(x) === -1;
   })
@@ -20,36 +20,33 @@ fs.readdirSync(path.resolve(__dirname, '..', 'node_modules'))
     nodeModules[mod] = 'commonjs ' + mod;
   });
 
-const config: webpack.Configuration = {
+module.exports = {
   entry: './src/server.ts',
   output: {
     path: OUTPUT_PATH,
-    filename: 'server.js'
+    filename: 'server.js',
   },
   target: 'node',
 
   node: {
     __dirname: true,
-    __filename: true
+    __filename: true,
   },
   externals: nodeModules,
   resolve: {
-      /**
+    /**
        * See https://webpack.js.org/configuration/resolve/#resolve-extensions
        */
-      extensions: ['.ts', '.tsx']
+    extensions: ['.ts', '.tsx', '.js'],
   },
   module: {
-      rules: [
-        {
-            test: /\.tsx?$/,
-            exclude: /node_modules/,
-            use: ['ts-loader']
-        }
-      ]
+    rules: [
+      {
+        test: /\.tsx?$/,
+        exclude: /node_modules/,
+        use: ['ts-loader'],
+      },
+    ],
   },
-  plugins: [
-  ]
+  plugins: [],
 };
-
-export default config;

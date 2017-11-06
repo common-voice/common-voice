@@ -4,11 +4,12 @@
     "target": "es5",
     "module": "commonjs",
     "noImplicitAny": true,
-    "strictNullChecks": false,
     "noEmitOnError": true,
-    "lib": [ "es6" ]
+    "jsx": "react",
+    "jsxFactory": "h",
+    "lib": ["es2015", "dom"]
   },
-  "files": [
-    "src/server.ts"
+  "include": [
+    "**/*.d.ts"
   ]
 }

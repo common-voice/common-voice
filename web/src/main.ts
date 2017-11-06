@@ -1,4 +1,4 @@
-import '../css/index.css';
+import './lib/components/index.css';
 
 declare var require: any;
 
