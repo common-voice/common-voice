@@ -1,7 +1,7 @@
 import tape = require('tape');
 
 const SUITE_TIMEOUT = 10000;
-const TIMEOUT = 1000;
+const TIMEOUT = 3000;
 
 export type AsyncFunction = () => Promise<void>;
 export type HelperFunction = (callback: AsyncFunction) => void;
