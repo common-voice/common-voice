@@ -1,5 +1,6 @@
 const path = require('path');
 const chalk = require('chalk');
+const ESLint = require('eslint');
 const nodemon = require('nodemon');
 const webpack = require('webpack');
 const buildServer = require('./build-server');

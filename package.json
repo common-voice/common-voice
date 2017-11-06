@@ -57,7 +57,9 @@
   },
   "devDependencies": {
     "chalk": "^2.3.0",
-    "nodemon": "^1.12.1"
+    "eslint-loader": "^1.9.0",
+    "nodemon": "^1.12.1",
+    "react-dev-utils": "^4.2.1"
   },
   "scripts": {
     "build": "concurrently \"node scripts/build-server.js\" \"cd web/ && webpack --config webpack.prod.config.js\"",
