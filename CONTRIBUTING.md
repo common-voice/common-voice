@@ -25,8 +25,7 @@ If you haven't already, install the latest version of NodeJS and npm: https://no
 Then enter the following commands:
 ```
 yarn
-npm install -g gulp
-gulp
+yarn start
 ```
 This will:
 1. Install all JavaScript dependencies.
@@ -43,7 +42,7 @@ S3, check out [HOWTO_S3.md](./docs/HOWTO_S3.md)
 #### Need Help?
 For more options, just type:
 ```
-gulp help
+yarn run
 ```
 
 #### Project Directory Structure
