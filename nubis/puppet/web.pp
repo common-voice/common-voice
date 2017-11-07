@@ -46,11 +46,14 @@ apache::vhost { $project_name:
     ExpiresDefault none
 
     # Assets
-    ExpiresByType image/*  'now plus 30 minutes'
-    ExpiresByType text/css 'now plus 30 minutes'
+    AddType image/ico .ico
+    ExpiresByType image/*  'access plus 60 days'
+    ExpiresByType text/javascript 'access plus 1 hour'
+    ExpiresByType application/javascript 'access plus 1 hour'
+    ExpiresByType text/css 'access plus 1 hour'
 
     # Fonts
-    ExpiresByType application/x-font-ttf 'now plus 6 hours'
+    ExpiresByType application/x-font-ttf 'access plus 60 days'
       ",
       }
     ],
