@@ -1,4 +1,4 @@
-import { h, Component } from 'preact';
+import * as React from 'react';
 import RobotTalker from './robot-talker';
 
 const MODE_GREETINGS = '/img/robot-greetings.png';
@@ -9,7 +9,8 @@ const MODE_THUMBS_UP = '/img/robot-thumbs-up.png';
 
 const SPEECH_GREETINGS = 'Click here to help me learn!';
 
-interface Props extends preact.ComponentProps<Robot> {
+interface Props {
+  children?: any;
   position?: string;
   onClick(page: string): void;
 }
@@ -22,7 +23,7 @@ interface State {
 /**
  * Handle robot transitions.
  */
-export default class Robot extends Component<Props, State> {
+export default class Robot extends React.Component<Props, State> {
   state = {
     src: MODE_GREETINGS,
     speech: '',
@@ -63,7 +64,7 @@ export default class Robot extends Component<Props, State> {
   render() {
     return (
       <div className={'robot ' + this.props.position}>
-        <div class="bubble" onClick={this.handleSpeechClick}>
+        <div className="bubble" onClick={this.handleSpeechClick}>
           {this.state.speech}
         </div>
         <img src={this.state.src} />

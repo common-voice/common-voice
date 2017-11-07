@@ -1,4 +1,4 @@
-import { h, Component } from 'preact';
+import * as React from 'react';
 
 export default (props: any) => {
   const imgSrc = props.reverse
@@ -7,14 +7,14 @@ export default (props: any) => {
 
   return (
     <a
-      class="main-logo"
+      className="main-logo"
       href="/"
       onClick={evt => {
         evt.preventDefault();
         evt.stopPropagation();
         props.navigate('/');
       }}>
-      <img class="main-mozilla-logo" src={imgSrc} />
+      <img className="main-mozilla-logo" src={imgSrc} />
     </a>
   );
 };

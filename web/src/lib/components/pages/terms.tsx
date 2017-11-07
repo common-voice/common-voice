@@ -1,4 +1,4 @@
-import { h, Component } from 'preact';
+import * as React from 'react';
 import TermsContent from '../terms-content';
 
 interface Props {
@@ -7,7 +7,7 @@ interface Props {
 
 interface State {}
 
-export default class Terms extends Component<Props, State> {
+export default class Terms extends React.Component<Props, State> {
   render() {
     return (
       <div id="terms-container" className={this.props.active}>

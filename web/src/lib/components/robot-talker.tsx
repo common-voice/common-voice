@@ -1,9 +1,11 @@
-import { h, Component } from 'preact';
+import * as React from 'react';
 
 const CHARACTER_DELAY = 80;
 const PARAGRAPH_DELAY = 3500;
 
-interface Props extends preact.ComponentProps<RobotTalker> {}
+interface Props {
+  children?: any;
+}
 
 interface State {
   displayedText: string;
@@ -12,9 +14,11 @@ interface State {
 /**
  * Handle robot transitions.
  */
-export default class RobotTalker extends Component<Props, State> {
+export default class RobotTalker extends React.Component<Props, State> {
   timeoutHandle: any;
   remainingParagraphs: string[];
+
+  state = { displayedText: '' };
 
   constructor(props: Props) {
     super(props);
@@ -71,7 +75,7 @@ export default class RobotTalker extends Component<Props, State> {
       for (let i = 0; i < nextProps.children.length; i++) {
         let textParent: JSX.Element = nextProps.children[i];
         if (textParent) {
-          this.remainingParagraphs.push(textParent.children[0].toString());
+          // this.remainingParagraphs.push(textParent.children[0].toString());
         }
       }
 
@@ -83,6 +87,6 @@ export default class RobotTalker extends Component<Props, State> {
   }
 
   render() {
-    return <div class="robot-talker">{this.state.displayedText}</div>;
+    return <div className="robot-talker">{this.state.displayedText}</div>;
   }
 }

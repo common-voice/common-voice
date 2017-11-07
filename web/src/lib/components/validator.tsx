@@ -1,4 +1,4 @@
-import { h, Component } from 'preact';
+import * as React from 'react';
 import ListenBox from './listen-box/listen-box';
 import API from '../api';
 
@@ -21,12 +21,17 @@ interface State {
 /**
  * Widget for validating voice clips.
  */
-export default class Validator extends Component<Props, State> {
+export default class Validator extends React.Component<Props, State> {
+  state = { loading: false, glob: '', sentence: '', audioSrc: '' };
+
   constructor(props: Props) {
     super(props);
     this.onVote = this.onVote.bind(this);
     this.loadClip = this.loadClip.bind(this);
-    this.loadClip();
+  }
+
+  async componentDidMount() {
+    await this.loadClip();
   }
 
   private async onVote(vote: boolean) {
@@ -66,7 +71,7 @@ export default class Validator extends Component<Props, State> {
     }
 
     return (
-      <div class="validator">
+      <div className="validator">
         <ListenBox
           src={this.state.audioSrc}
           sentence={sentence}

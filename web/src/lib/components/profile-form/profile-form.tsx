@@ -1,4 +1,4 @@
-import { h, Component } from 'preact';
+import * as React from 'react';
 import { ACCENTS, AGES, GENDER, default as User } from '../../user';
 
 interface Props {
@@ -19,7 +19,7 @@ const CLEAR_MODAL_TEXT =
   'Clearing your profile data means this demographic information will no longer be submitted to Common Voice with' +
   'your clip recordings.';
 
-export default class ProfileCard extends Component<Props, State> {
+export default class ProfileCard extends React.Component<Props, State> {
   state = this.props.user.getState();
 
   private clear = () => {
@@ -43,7 +43,7 @@ export default class ProfileCard extends Component<Props, State> {
     });
   };
 
-  private save = (evt: Event) => {
+  private save = (evt: React.FormEvent<HTMLFormElement>) => {
     evt.preventDefault();
     const { user, onExit } = this.props;
     user.setState(this.state);
@@ -81,7 +81,7 @@ export default class ProfileCard extends Component<Props, State> {
           <label className="half-width">
             Email
             <input
-              onKeyUp={this.update}
+              onChange={this.update}
               type="email"
               name="email"
               tabIndex={1}
@@ -92,7 +92,7 @@ export default class ProfileCard extends Component<Props, State> {
           <label className="half-width">
             User Name
             <input
-              onKeyUp={this.update}
+              onChange={this.update}
               type="text"
               name="username"
               tabIndex={1}
@@ -123,22 +123,30 @@ export default class ProfileCard extends Component<Props, State> {
 
           <label className="half-width">
             Accent
-            <select name="accent" onChange={this.update} tabIndex={4}>
-              {this.renderOptionsFor(ACCENTS, accent)}
+            <select
+              name="accent"
+              onChange={this.update}
+              tabIndex={4}
+              value={accent}>
+              {this.renderOptionsFor(ACCENTS)}
             </select>
           </label>
 
           <label className="half-width">
             Age
-            <select name="age" onChange={this.update} tabIndex={5}>
-              {this.renderOptionsFor(AGES, age)}
+            <select name="age" onChange={this.update} tabIndex={5} value={age}>
+              {this.renderOptionsFor(AGES)}
             </select>
           </label>
 
           <label className="half-width">
             Gender
-            <select name="gender" onChange={this.update} tabIndex={6}>
-              {this.renderOptionsFor(GENDER, gender)}
+            <select
+              name="gender"
+              onChange={this.update}
+              tabIndex={6}
+              value={gender}>
+              {this.renderOptionsFor(GENDER)}
             </select>
           </label>
 
@@ -155,9 +163,9 @@ export default class ProfileCard extends Component<Props, State> {
     );
   }
 
-  private renderOptionsFor(options: any, selected: string) {
+  private renderOptionsFor(options: any) {
     return Object.keys(options).map(key => (
-      <option value={key} selected={key === selected}>
+      <option key={key} value={key}>
         {options[key]}
       </option>
     ));

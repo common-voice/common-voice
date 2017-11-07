@@ -1,4 +1,4 @@
-import { h, Component } from 'preact';
+import * as React from 'react';
 import API from '../../api';
 import Validator from '../validator';
 import User from '../../user';
@@ -10,7 +10,7 @@ interface ListenPageProps {
   navigate(url: string): void;
 }
 
-export default class Listen extends Component<ListenPageProps, void> {
+export default class Listen extends React.Component<ListenPageProps, {}> {
   constructor(props: ListenPageProps) {
     super(props);
     this.onVote = this.onVote.bind(this);

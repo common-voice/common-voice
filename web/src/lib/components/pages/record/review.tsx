@@ -1,4 +1,4 @@
-import { h } from 'preact';
+import * as React from 'react';
 import User from '../../../user';
 import ProgressButton from '../../progress-button';
 import ProfileActions from './profile-actions';

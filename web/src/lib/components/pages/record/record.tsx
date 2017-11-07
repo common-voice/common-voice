@@ -1,7 +1,7 @@
 import API from '../../../api';
 import User from '../../../user';
 import Tracker from '../../../tracker';
-import { h, Component } from 'preact';
+import * as React from 'react';
 import Icon from '../../icon';
 import AudioIOS from './audio-ios';
 import AudioWeb, { AudioInfo } from './audio-web';
@@ -58,7 +58,10 @@ interface RecordState {
   alertVisible: boolean;
 }
 
-export default class RecordPage extends Component<RecordProps, RecordState> {
+export default class RecordPage extends React.Component<
+  RecordProps,
+  RecordState
+> {
   name: string = PAGE_NAME;
   audio: AudioWeb | AudioIOS;
   isUnsupportedPlatform: boolean;
@@ -393,7 +396,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
       return (
         <div className={'unsupported ' + this.props.active}>
           <h2>We're sorry, but your platform is not currently supported.</h2>
-          <p>
+          <p key="desktop">
             On desktop computers, you can download the latest:
             <a target="_blank" href="https://www.firefox.com/">
               <Icon type="firefox" />Firefox
@@ -403,7 +406,7 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
               <Icon type="chrome" />Chrome
             </a>
           </p>
-          <p>
+          <p key="ios">
             <b>iOS</b> users can download our free app:
           </p>
           <a target="_blank" href={getItunesURL()}>
@@ -433,11 +436,18 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
         className = className + ' right';
       }
 
-      texts.push(<p className={className}>{this.state.sentences[i]}</p>);
+      const sentence = this.state.sentences[i];
+      texts.push(
+        <p key={sentence + '' + i} className={className}>
+          {sentence}
+        </p>
+      );
 
+      const recordingUrl = this.getRecordingUrl(i);
       listens.push(
         <ListenBox
-          src={this.getRecordingUrl(i)}
+          key={recordingUrl + '' + i}
+          src={recordingUrl}
           onDelete={this.deleteRecording.bind(this, i)}
           sentence={this.getSentence(i)}
         />
@@ -453,10 +463,11 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
 
     const controlElements = this.areSentencesLoaded
       ? [
-          <p id="record-help">
+          <p key="record-help" id="record-help">
             Please tap to record, then read the above sentence aloud.
           </p>,
           <div
+            key="record-button"
             id="record-button"
             onTouchStart={this.onRecordClick}
             onClick={this.onRecordClick}
@@ -488,11 +499,9 @@ export default class RecordPage extends Component<RecordProps, RecordState> {
                   />
                 )}
             </div>
-            <div class="record-controls">{controlElements}</div>
+            <div className="record-controls">{controlElements}</div>
             <p id="recordings-count">
-              <span style={this.state.isReRecord ? 'display: none;' : ''}>
-                {recordingsCount + 1} of 3
-              </span>
+              {this.state.isReRecord && <span>{recordingsCount + 1} of 3</span>}
             </p>
             <ProfileActions
               user={this.props.user}

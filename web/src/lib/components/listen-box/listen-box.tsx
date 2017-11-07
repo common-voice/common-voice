@@ -1,4 +1,4 @@
-import { h, Component } from 'preact';
+import * as React from 'react';
 import Tracker from '../../tracker';
 import Icon from '../icon';
 
@@ -20,7 +20,7 @@ interface State {
 /**
  * Widget for listening to a recording.
  */
-export default class ListenBox extends Component<Props, State> {
+export default class ListenBox extends React.Component<Props, State> {
   el: HTMLAudioElement;
   tracker: Tracker;
 
@@ -139,25 +139,25 @@ export default class ListenBox extends Component<Props, State> {
           (this.state.playing ? ' playing' : '')
         }>
         <div className="sentence-box">
-          <b style={!this.props.vote ? 'display: none;' : ''}>
+          <b style={!this.props.vote ? { display: 'none' } : {}}>
             What we asked them to read:
           </b>
           {this.props.sentence}
         </div>
-        <div onClick={this.onPlay} class="play-box">
-          <b style={!this.props.vote ? 'display: none;' : ''}>
+        <div onClick={this.onPlay} className="play-box">
+          <b style={!this.props.vote ? { display: 'none' } : {}}>
             What they said:
           </b>
           <Icon type={this.state.playing ? 'stop' : 'play'} />
         </div>
         <div
-          style={this.props.vote ? 'display: none;' : ''}
-          class="delete-box"
+          style={this.props.vote ? { display: 'none' } : {}}
+          className="delete-box"
           onClick={this.onDelete}>
           <Icon type="redo" />
         </div>
         <div
-          style={!this.props.vote ? 'display: none;' : ''}
+          style={!this.props.vote ? { display: 'none' } : {}}
           className={'vote-box ' + (this.state.played ? '' : 'disabled')}>
           <a onClick={this.voteYes}>Yes</a>
           <a onClick={this.voteNo}>No</a>

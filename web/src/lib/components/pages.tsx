@@ -1,4 +1,4 @@
-import { h, Component } from 'preact';
+import * as React from 'react';
 import { getItunesURL, isNativeIOS, isIOS, isSafari } from '../utility';
 import Logo from './logo';
 import Icon from './icon';
@@ -57,8 +57,6 @@ const ROBOT_TALK = {
 interface PagesProps {
   user: User;
   api: API;
-  currentPage: string;
-  navigate(url: string): void;
 }
 
 interface PagesState {
@@ -74,7 +72,7 @@ interface PagesState {
   recorderVolume: number;
 }
 
-export default class Pages extends Component<PagesProps, PagesState> {
+export default class Pages extends React.Component<PagesProps, PagesState> {
   private header: HTMLElement;
   private scroller: HTMLElement;
   private content: HTMLElement;
@@ -136,7 +134,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
     window.location.href = getItunesURL();
   }
 
-  private closeOpenInApp(evt: Event) {
+  private closeOpenInApp(evt: React.MouseEvent<HTMLElement>) {
     evt.stopPropagation();
     evt.preventDefault();
     this.installApp.classList.add('hide');
@@ -210,19 +208,12 @@ export default class Pages extends Component<PagesProps, PagesState> {
   }
 
   private addScrollListener() {
-    this.scroller.addEventListener('scroll', evt => {
-      let scrolled = this.scroller.scrollTop > 0;
-      if (scrolled !== this.state.scrolled) {
-        this.setState({ scrolled: scrolled });
-      }
-    });
-  }
-
-  private linkNavigate(evt: Event): void {
-    evt.stopPropagation();
-    evt.preventDefault();
-    let href = (evt.currentTarget as HTMLAnchorElement).href;
-    this.props.navigate(href);
+    // this.scroller.addEventListener('scroll', evt => {
+    //   let scrolled = this.scroller.scrollTop > 0;
+    //   if (scrolled !== this.state.scrolled) {
+    //     this.setState({ scrolled: scrolled });
+    //   }
+    // });
   }
 
   private isNotFoundActive(): string {
@@ -339,10 +330,10 @@ export default class Pages extends Component<PagesProps, PagesState> {
       className += ' recording';
     }
 
-    let bgStyle = '';
+    let bgStyle: any = {};
     if (this.state.recording) {
       let scale = Math.max(1.3 * (this.state.recorderVolume - 28) / 100, 0);
-      bgStyle = 'transform: scaleY(' + scale + ');';
+      bgStyle.transform = 'scaleY(' + scale + ')';
     }
 
     return (
@@ -393,7 +384,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
               }}>
               {this.iOSBackground}
             </div>
-            <div class="hero">
+            <div className="hero">
               <Robot
                 position={
                   (pageName === 'record' && this.state.robot) || pageName
@@ -404,7 +395,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
                 }}
               />
             </div>
-            <div class="hero-space" />
+            <div className="hero-space" />
             <div
               id="content"
               className={this.state.pageTransitioning ? 'transitioning' : ''}
@@ -446,31 +437,31 @@ export default class Pages extends Component<PagesProps, PagesState> {
             </div>
             <footer>
               <div id="help-links">
-                <div class="content">
+                <div className="content">
                   <a id="help" onClick={this.linkNavigate} href="/faq">
                     <Icon type="help" />
-                    <p class="strong">Help</p>
+                    <p className="strong">Help</p>
                   </a>
                   <a
                     id="contribute"
                     target="_blank"
                     href="https://github.com/mozilla/voice-web">
                     <Icon type="github" />
-                    <p class="strong">Contribute</p>
+                    <p className="strong">Contribute</p>
                   </a>
                   <a
                     id="discourse"
                     target="blank"
                     href="https://discourse.mozilla-community.org/c/voice">
                     <Icon type="discourse" />
-                    <p class="strong">Community</p>
+                    <p className="strong">Community</p>
                   </a>
                 </div>
               </div>
               <div id="moz-links">
-                <div class="content">
+                <div className="content">
                   <Logo navigate={this.props.navigate} reverse={true} />
-                  <div class="links">
+                  <div className="links">
                     <p>
                       <a onClick={this.linkNavigate} href="/privacy">
                         Privacy
@@ -502,12 +493,12 @@ export default class Pages extends Component<PagesProps, PagesState> {
         </div>
         <div
           id="navigation-modal"
-          className={this.state.isMenuVisible && 'is-active'}>
+          className={this.state.isMenuVisible ? 'is-active' : ''}>
           {this.renderNav()}
         </div>
         <div
           className={'overlay' + (this.state.showingPrivacy ? ' active' : '')}>
-          <div class="privacy-content">
+          <div className="privacy-content">
             <h2>
               By using Common Voice, you agree to our{' '}
               <a target="_blank" href="/terms">
@@ -518,7 +509,7 @@ export default class Pages extends Component<PagesProps, PagesState> {
                 Privacy Notice
               </a>.
             </h2>
-            <div class="button-holder">
+            <div className="button-holder">
               <button
                 onClick={e => {
                   this.state.onPrivacyAction &&
@@ -564,10 +555,10 @@ export default class Pages extends Component<PagesProps, PagesState> {
   private renderUser() {
     return (
       <div id="tally-box">
-        <span class="tally-recordings">
+        <span className="tally-recordings">
           {this.props.user.state.recordTally}
         </span>
-        <span class="tally-verifications">
+        <span className="tally-verifications">
           {this.props.user.state.validateTally}
         </span>
       </div>

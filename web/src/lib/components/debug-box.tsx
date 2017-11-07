@@ -1,4 +1,4 @@
-import { h, Component } from 'preact';
+import * as React from 'react';
 
 const HIDE_DELAY = 4000;
 
@@ -11,7 +11,7 @@ interface State {
 /**
  * Allows us to see console log on the ios app.
  */
-export default class DebugBox extends Component<Props, State> {
+export default class DebugBox extends React.Component<Props, State> {
   hideTimeout: any;
 
   constructor(props?: Props) {

@@ -1,4 +1,4 @@
-import { h, Component } from 'preact';
+import * as React from 'react';
 import Validator from '../../validator';
 import API from '../../../api';
 import User from '../../../user';
@@ -10,7 +10,7 @@ interface Props {
   user?: User;
 }
 
-export default class Home extends Component<Props, void> {
+export default class Home extends React.Component<Props, {}> {
   constructor(props: Props) {
     super(props);
     this.onVote = this.onVote.bind(this);
@@ -46,9 +46,9 @@ export default class Home extends Component<Props, void> {
             </p>
           </div>
           <div className="right-column">
-            <p class="strong">You can also help by validating donations!</p>
-            <img class="curved-arrow" src="/img/curved-arrow.png" />
-            <img class="circle" src="/img/circle.png" />
+            <p className="strong">You can also help by validating donations!</p>
+            <img className="curved-arrow" src="/img/curved-arrow.png" />
+            <img className="circle" src="/img/circle.png" />
           </div>
           <div id="donate">
             <button

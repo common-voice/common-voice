@@ -1,4 +1,4 @@
-import { h, Component } from 'preact';
+import * as React from 'react';
 import PrivacyContent from '../privacy-content';
 
 interface Props {
@@ -7,7 +7,7 @@ interface Props {
 
 interface State {}
 
-export default class Privacy extends Component<Props, State> {
+export default class Privacy extends React.Component<Props, State> {
   render() {
     return (
       <div id="privacy-container" className={this.props.active}>

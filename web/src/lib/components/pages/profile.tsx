@@ -1,4 +1,4 @@
-import { h } from 'preact';
+import * as React from 'react';
 import messages from '../../../messages';
 import User from '../../user';
 import ProfileForm from '../profile-form/profile-form';

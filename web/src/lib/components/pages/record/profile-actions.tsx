@@ -1,4 +1,4 @@
-import { h, Component } from 'preact';
+import * as React from 'react';
 import ProfileForm from '../../profile-form/profile-form';
 import User from '../../../user';
 import messages from '../../../../messages';
@@ -7,7 +7,7 @@ interface WhyProfileState {
   expanded: boolean;
 }
 
-class WhyProfile extends Component<{}, WhyProfileState> {
+class WhyProfile extends React.Component<{}, WhyProfileState> {
   state = { expanded: false };
 
   private toggle = () => {
@@ -45,7 +45,7 @@ interface State {
   profileFormVisible: boolean;
 }
 
-export default class ProfileActions extends Component<Props, State> {
+export default class ProfileActions extends React.Component<Props, State> {
   state: State = {
     profileFormVisible: false,
   };

@@ -1,4 +1,4 @@
-import { h, Component } from 'preact';
+import * as React from 'react';
 
 interface Props {
   active: string;
@@ -6,7 +6,7 @@ interface Props {
 
 interface State {}
 
-export default class FAQ extends Component<Props, State> {
+export default class FAQ extends React.Component<Props, State> {
   render() {
     return (
       <div id="faq-container" className={this.props.active}>
