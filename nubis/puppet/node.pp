@@ -4,11 +4,9 @@ class { 'nodejs':
   repo_url_suffix => '6.x',
 }
 
-class { 'yarn':
-  manage_repo    => false,
-  install_method => 'npm',
-  require        => Class['nodejs'],
-}
+class { 'yarn': }
+
+Package['nodejs'] -> Package['yarn']
 
 package { 'forever':
   ensure   => '0.15.3',
