@@ -21,7 +21,7 @@ export default class ProgressButton extends React.Component<Props, State> {
         disabled={this.props.disabled}>
         <span
           className="progress"
-          style={{ transform: 'translateX(${this.props.percent - 100}%)' }}
+          style={{ transform: `translateX(${this.props.percent - 100}%)` }}
         />
         {this.props.text}
       </button>
