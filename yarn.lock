@@ -86,11 +86,7 @@
     "@types/history" "*"
     "@types/react" "*"
 
-"@types/react@*":
-  version "15.6.6"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-15.6.6.tgz#21c93d921d63e5c8478ad54b917f52c9abd547e2"
-
-"@types/react@^16.0.2":
+"@types/react@*", "@types/react@^16.0.2":
   version "16.0.20"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.0.20.tgz#dc16feb9c0bdf50e439482c6fd3c43d5a1d9f3b1"
 
