@@ -123,7 +123,7 @@ export default class Server {
   /**
    * Load our memory cache of site data (users, clips sentences).
    */
-  private async loadCache(): Promise<void> {
+  private async loadClipCache(): Promise<void> {
     const start = Date.now();
     this.print('loading clip cache');
 
@@ -176,18 +176,32 @@ export default class Server {
   }
 
   /**
+   * Make sure we have a connection to the database.
+   */
+  async ensureDatabase(): Promise<void> {
+    try {
+      await this.model.ensureDatabaseSetup();
+    } catch (err) {
+      console.error('could not connect to db', err);
+    }
+  }
+
+  /**
    * Start up everything.
    */
   async run(): Promise<void> {
     // Log the start.
     this.print('starting');
 
+    // Set up db connection.
+    await this.ensureDatabase();
+
     // Boot up our http server.
     this.listen();
 
     // Attemp to load cache (sentences and audio metadata).
     // Note: we don't wait for this to finish before continuing.
-    this.loadCache();
+    this.loadClipCache();
 
     // Figure out if this server is the leader.
     const isLeader = await this.checkLeader();
