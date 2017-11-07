@@ -23,6 +23,7 @@ interface State {
  */
 export default class Validator extends React.Component<Props, State> {
   state = { loading: false, glob: '', sentence: '', audioSrc: '' };
+  private _isMounted = false;
 
   constructor(props: Props) {
     super(props);
@@ -31,12 +32,18 @@ export default class Validator extends React.Component<Props, State> {
   }
 
   async componentDidMount() {
+    this._isMounted = true;
     await this.loadClip();
+  }
+
+  componentWillUnmount() {
+    this._isMounted = false;
   }
 
   private async onVote(vote: boolean) {
     try {
       await this.props.api.castVote(this.state.glob, vote);
+      if (!this._isMounted) return;
       this.props.onVote && this.props.onVote(vote);
       this.loadClip();
     } catch (err) {
@@ -48,6 +55,7 @@ export default class Validator extends React.Component<Props, State> {
     this.setState({ loading: true });
     try {
       const clip = await this.props.api.getRandomClip();
+      if (!this._isMounted) return;
       this.setState({
         loading: false,
         glob: clip.glob,
@@ -56,6 +64,7 @@ export default class Validator extends React.Component<Props, State> {
       });
     } catch (err) {
       console.error('could not fetch random clip for validator', err);
+      if (!this._isMounted) return;
       this.setState({ loading: false, sentence: null, audioSrc: null });
     }
   }
