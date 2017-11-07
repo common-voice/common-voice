@@ -3,6 +3,7 @@ import User from './user';
 import API from './api';
 import Pages from './components/pages';
 import { isMobileWebkit, isFocus, isNativeIOS, sleep } from './utility';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 const LOAD_DELAY = 500; // before pulling the curtain
 const LOAD_TIMEOUT = 5000; // we can only wait so long.
@@ -136,7 +137,9 @@ export default class App extends React.Component<{}, State> {
     return (
       <div className={loaded ? 'loaded' : ''}>
         {loaded ? (
-          <Pages user={this.user} api={this.api} />
+          <Router>
+            <Pages user={this.user} api={this.api} />
+          </Router>
         ) : (
           <div id="spinner">
             <span

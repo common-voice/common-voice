@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link } from 'react-router-dom';
 
 export default (props: any) => {
   const imgSrc = props.reverse
@@ -6,15 +7,8 @@ export default (props: any) => {
     : '/img/cv-logo-bw.svg';
 
   return (
-    <a
-      className="main-logo"
-      href="/"
-      onClick={evt => {
-        evt.preventDefault();
-        evt.stopPropagation();
-        props.navigate('/');
-      }}>
+    <Link className="main-logo" to="/">
       <img className="main-mozilla-logo" src={imgSrc} />
-    </a>
+    </Link>
   );
 };

@@ -1,5 +1,6 @@
 import * as React from 'react';
 import RobotTalker from './robot-talker';
+import { withRouter, RouteComponentProps } from 'react-router';
 
 const MODE_GREETINGS = '/img/robot-greetings.png';
 const MODE_LISTENING = '/img/robot-listening.png';
@@ -9,10 +10,9 @@ const MODE_THUMBS_UP = '/img/robot-thumbs-up.png';
 
 const SPEECH_GREETINGS = 'Click here to help me learn!';
 
-interface Props {
+interface Props extends RouteComponentProps<any> {
   children?: any;
   position?: string;
-  onClick(page: string): void;
 }
 
 interface State {
@@ -23,7 +23,7 @@ interface State {
 /**
  * Handle robot transitions.
  */
-export default class Robot extends React.Component<Props, State> {
+class Robot extends React.Component<Props, State> {
   state = {
     src: MODE_GREETINGS,
     speech: '',
@@ -36,7 +36,7 @@ export default class Robot extends React.Component<Props, State> {
   }
 
   private handleSpeechClick() {
-    this.props.onClick('record');
+    this.props.history.push('/record');
   }
 
   componentWillUpdate(nextProps: Props) {
@@ -73,3 +73,4 @@ export default class Robot extends React.Component<Props, State> {
     );
   }
 }
+export default withRouter(Robot);

@@ -1,15 +1,15 @@
 import * as React from 'react';
 
-interface Props {
-  active: string;
-}
+import { RouteComponentProps } from 'react-router';
+
+interface Props extends RouteComponentProps<any> {}
 
 interface State {}
 
 export default class FAQ extends React.Component<Props, State> {
   render() {
     return (
-      <div id="faq-container" className={this.props.active}>
+      <div id="faq-container">
         <h1>Frequently Asked Questions</h1>
         <h3>What is Common Voice?</h3>
         <p>

@@ -1,4 +1,6 @@
 import * as React from 'react';
+import { Switch, Route } from 'react-router';
+import { Link } from 'react-router-dom';
 import { getItunesURL, isNativeIOS, isIOS, isSafari } from '../utility';
 import Logo from './logo';
 import Icon from './icon';
@@ -111,7 +113,6 @@ export default class Pages extends React.Component<PagesProps, PagesState> {
     this.onRecordStop = this.onRecordStop.bind(this);
     this.sayThanks = this.sayThanks.bind(this);
     this.renderUser = this.renderUser.bind(this);
-    this.linkNavigate = this.linkNavigate.bind(this);
     this.clearRobot = this.clearRobot.bind(this);
     this.openInApp = this.openInApp.bind(this);
     this.closeOpenInApp = this.closeOpenInApp.bind(this);
@@ -216,10 +217,6 @@ export default class Pages extends React.Component<PagesProps, PagesState> {
     // });
   }
 
-  private isNotFoundActive(): string {
-    return !this.isValidPage(this.props.currentPage) ? 'active' : '';
-  }
-
   private ensurePrivacyAgreement(): Promise<void> {
     if (this.props.user.hasAgreedToPrivacy()) {
       return Promise.resolve();
@@ -279,42 +276,39 @@ export default class Pages extends React.Component<PagesProps, PagesState> {
 
   componentDidMount() {
     this.addScrollListener();
-    this.setState({
-      currentPage: this.props.currentPage,
-    });
   }
 
-  componentWillUpdate(nextProps: PagesProps) {
-    // When the current page changes, hide the menu.
-    if (nextProps.currentPage !== this.props.currentPage) {
-      var self = this;
-      this.content.addEventListener('transitionend', function remove() {
-        self.content.removeEventListener('transitionend', remove);
+  // componentWillUpdate(nextProps: PagesProps) {
+  //   // When the current page changes, hide the menu.
+  //   if (nextProps.currentPage !== this.props.currentPage) {
+  //     var self = this;
+  //     this.content.addEventListener('transitionend', function remove() {
+  //       self.content.removeEventListener('transitionend', remove);
 
-        // After changing pages we will scroll to the top, which
-        // is accomplished differentonly on mobile vs. desktop.
-        self.scroller.scrollTop = 0; // Scroll up on mobile.
-        self.setState(
-          {
-            currentPage: nextProps.currentPage,
-            pageTransitioning: false,
-            isMenuVisible: false,
-          },
-          () => {
-            // Scroll to top on desktop.
-            window.scrollTo({
-              top: 0,
-              behavior: 'smooth',
-            });
-          }
-        );
-      });
+  //       // After changing pages we will scroll to the top, which
+  //       // is accomplished differentonly on mobile vs. desktop.
+  //       self.scroller.scrollTop = 0; // Scroll up on mobile.
+  //       self.setState(
+  //         {
+  //           currentPage: nextProps.currentPage,
+  //           pageTransitioning: false,
+  //           isMenuVisible: false,
+  //         },
+  //         () => {
+  //           // Scroll to top on desktop.
+  //           window.scrollTo({
+  //             top: 0,
+  //             behavior: 'smooth',
+  //           });
+  //         }
+  //       );
+  //     });
 
-      this.setState({
-        pageTransitioning: true,
-      });
-    }
-  }
+  //     this.setState({
+  //       pageTransitioning: true,
+  //     });
+  //   }
+  // }
 
   toggleMenu = () => {
     this.setState({ isMenuVisible: !this.state.isMenuVisible });
@@ -360,7 +354,7 @@ export default class Pages extends React.Component<PagesProps, PagesState> {
           ref={header => {
             this.header = header as HTMLElement;
           }}>
-          <Logo navigate={this.props.navigate} />
+          <Logo />
           {this.renderUser()}
           <button
             id="hamburger-menu"
@@ -389,10 +383,6 @@ export default class Pages extends React.Component<PagesProps, PagesState> {
                 position={
                   (pageName === 'record' && this.state.robot) || pageName
                 }
-                onClick={page => {
-                  this.props.navigate('/' + page);
-                  //}}>{ROBOT_TALK[pageName]}</Robot> (Disable talking robot for now)
-                }}
               />
             </div>
             <div className="hero-space" />
@@ -402,46 +392,75 @@ export default class Pages extends React.Component<PagesProps, PagesState> {
               ref={div => {
                 this.content = div as HTMLElement;
               }}>
-              <Home
-                active={this.isPageActive([URLS.HOME, URLS.ROOT])}
-                navigate={this.props.navigate}
-                api={this.props.api}
-                user={this.props.user}
-              />
-              <Record
-                active={this.isPageActive(URLS.RECORD)}
-                api={this.props.api}
-                onRecord={this.onRecord}
-                onRecordStop={this.onRecordStop}
-                onRecordingSet={this.sayThanks}
-                onVolume={this.onVolume}
-                onSubmit={this.uploadRecordings}
-                onDelete={this.clearRobot}
-                navigate={this.props.navigate}
-                user={this.props.user}
-              />
-              <Listen
-                active={this.isPageActive(URLS.LISTEN)}
-                navigate={this.props.navigate}
-                api={this.props.api}
-                user={this.props.user}
-              />
-              <Profile
-                user={this.props.user}
-                active={this.isPageActive(URLS.PROFILE)}
-              />
-              <FAQ active={this.isPageActive(URLS.FAQ)} />
-              <Privacy active={this.isPageActive(URLS.PRIVACY)} />
-              <Terms active={this.isPageActive(URLS.TERMS)} />
-              <NotFound active={this.isNotFoundActive()} />
+              <Switch>
+                <Route
+                  exact
+                  path={URLS.HOME}
+                  render={() => (
+                    <Home api={this.props.api} user={this.props.user} />
+                  )}
+                />
+                <Route
+                  exact
+                  path={URLS.RECORD}
+                  render={routerProps => (
+                    <Record
+                      api={this.props.api}
+                      onRecord={this.onRecord}
+                      onRecordStop={this.onRecordStop}
+                      onRecordingSet={this.sayThanks}
+                      onVolume={this.onVolume}
+                      onSubmit={this.uploadRecordings}
+                      onDelete={this.clearRobot}
+                      user={this.props.user}
+                      {...routerProps}
+                    />
+                  )}
+                />
+                <Route
+                  exact
+                  path={URLS.LISTEN}
+                  render={routerProps => (
+                    <Listen
+                      api={this.props.api}
+                      user={this.props.user}
+                      {...routerProps}
+                    />
+                  )}
+                />
+                <Route
+                  exact
+                  path={URLS.PROFILE}
+                  render={routerProps => (
+                    <Profile user={this.props.user} {...routerProps} />
+                  )}
+                />
+
+                <Route
+                  exact
+                  path={URLS.FAQ}
+                  render={routerProps => <FAQ {...routerProps} />}
+                />
+                <Route
+                  exact
+                  path={URLS.PRIVACY}
+                  render={routerProps => <Privacy {...routerProps} />}
+                />
+                <Route
+                  exact
+                  path={URLS.TERMS}
+                  render={routerProps => <Terms {...routerProps} />}
+                />
+                <Route render={routerProps => <NotFound {...routerProps} />} />
+              </Switch>
             </div>
             <footer>
               <div id="help-links">
                 <div className="content">
-                  <a id="help" onClick={this.linkNavigate} href="/faq">
+                  <Link id="help" to={URLS.FAQ}>
                     <Icon type="help" />
                     <p className="strong">Help</p>
-                  </a>
+                  </Link>
                   <a
                     id="contribute"
                     target="_blank"
@@ -460,23 +479,17 @@ export default class Pages extends React.Component<PagesProps, PagesState> {
               </div>
               <div id="moz-links">
                 <div className="content">
-                  <Logo navigate={this.props.navigate} reverse={true} />
+                  <Logo reverse={true} />
                   <div className="links">
                     <p>
-                      <a onClick={this.linkNavigate} href="/privacy">
-                        Privacy
-                      </a>
-                      <a onClick={this.linkNavigate} href="/terms">
-                        Terms
-                      </a>
+                      <Link to={URLS.PRIVACY}>Privacy</Link>
+                      <Link to={URLS.TERMS}>Terms</Link>
                       <a
                         target="_blank"
                         href="https://www.mozilla.org/en-US/privacy/websites/#cookies">
                         Cookies
                       </a>
-                      <a onClick={this.linkNavigate} href="/faq">
-                        FAQ
-                      </a>
+                      <Link to={URLS.FAQ}>FAQ</Link>
                     </p>
                     <p>
                       Content available under a&nbsp;<a
@@ -532,12 +545,11 @@ export default class Pages extends React.Component<PagesProps, PagesState> {
   }
 
   private renderTab(url: string, name: string) {
-    let tabClass =
-      'tab ' + name + ' ' + this.isPageActive(url, this.props.currentPage);
+    let tabClass = 'tab ' + name;
     return (
-      <a className={tabClass} onClick={this.props.navigate.bind(null, url)}>
+      <Link className={tabClass} to={url}>
         <span className={'tab-name ' + name}>{name}</span>
-      </a>
+      </Link>
     );
   }
 

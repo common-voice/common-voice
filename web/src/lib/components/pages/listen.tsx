@@ -2,12 +2,11 @@ import * as React from 'react';
 import API from '../../api';
 import Validator from '../validator';
 import User from '../../user';
+import { RouteComponentProps } from 'react-router';
 
-interface ListenPageProps {
+interface ListenPageProps extends RouteComponentProps<any> {
   user: User;
   api: API;
-  active: string;
-  navigate(url: string): void;
 }
 
 export default class Listen extends React.Component<ListenPageProps, {}> {
@@ -18,12 +17,12 @@ export default class Listen extends React.Component<ListenPageProps, {}> {
 
   onVote() {
     this.props.user.tallyVerification();
-    this.props.navigate('/listen'); // force page render
+    // this.props.navigate('/listen'); // force page render
   }
 
   render() {
     return (
-      <div id="listen-container" className={this.props.active}>
+      <div id="listen-container">
         <Validator onVote={this.onVote} api={this.props.api} />
       </div>
     );

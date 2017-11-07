@@ -2,15 +2,14 @@ import * as React from 'react';
 import Validator from '../../validator';
 import API from '../../../api';
 import User from '../../../user';
+import { withRouter, RouteComponentProps } from 'react-router';
 
-interface Props {
+interface Props extends RouteComponentProps<any> {
   api: API;
-  active: string;
-  navigate(url: string): void;
   user?: User;
 }
 
-export default class Home extends React.Component<Props, {}> {
+class Home extends React.Component<Props, {}> {
   constructor(props: Props) {
     super(props);
     this.onVote = this.onVote.bind(this);
@@ -18,12 +17,11 @@ export default class Home extends React.Component<Props, {}> {
 
   onVote() {
     this.props.user && this.props.user.tallyVerification();
-    this.props.navigate('/'); // force top level page render
   }
 
   render() {
     return (
-      <div id="home-container" className={this.props.active}>
+      <div id="home-container">
         <h1 id="home-title">Project Common Voice</h1>
         <div id="home-layout">
           <div className="left-column">
@@ -53,7 +51,7 @@ export default class Home extends React.Component<Props, {}> {
           <div id="donate">
             <button
               onClick={evt => {
-                this.props.navigate('/record');
+                this.props.history.push('/record');
               }}>
               Donate your voice!
             </button>
@@ -67,3 +65,4 @@ export default class Home extends React.Component<Props, {}> {
     );
   }
 }
+export default withRouter(Home);

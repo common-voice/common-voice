@@ -11,6 +11,7 @@ import { getItunesURL, isFocus, isNativeIOS, sleep } from '../../../utility';
 import confirm from '../../../confirm/confirm';
 import Review from './review';
 import ProfileActions from './profile-actions';
+import { RouteComponentProps } from 'react-router';
 
 const CACHE_SET_COUNT = 9;
 const SET_COUNT = 3;
@@ -28,11 +29,9 @@ enum RecordingError {
   TOO_QUIET,
 }
 
-interface RecordProps {
-  active: string;
+interface RecordProps extends RouteComponentProps<any> {
   user: User;
   api: API;
-  navigate(url: string): void;
   onSubmit(
     recordings: Blob[],
     sentences: string[],
@@ -477,7 +476,7 @@ export default class RecordPage extends React.Component<
 
     const recordingsCount = this.state.recordings.length;
     return (
-      <div id="record-container" className={this.props.active}>
+      <div id="record-container">
         {!this.isFull() && !this.state.uploading ? (
           <div id="voice-record">
             {this.state.alertVisible && (
