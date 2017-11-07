@@ -176,17 +176,20 @@ input:invalid {
   transition: transform 1s var(--bounce-curve);
 }
 
-/* Begin cross page code */
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 #main {
-  opacity: 0;
   position: relative;
   box-sizing: border-box;
   background-color: var(--base-background-color);
-}
-
-.loaded #main {
-  transition: opacity 0.5s linear;
-  opacity: 1;
+  animation: fadein 0.5s linear;
 }
 
 @import url('./nav.css');

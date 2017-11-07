@@ -6,7 +6,6 @@ import { isMobileWebkit, isFocus, isNativeIOS, sleep } from './utility';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 const LOAD_DELAY = 500; // before pulling the curtain
-const LOAD_TIMEOUT = 5000; // we can only wait so long.
 
 /**
  * Preload these images before revealing contents.
@@ -37,6 +36,7 @@ interface State {
 export default class App extends React.Component<{}, State> {
   user: User;
   api: API;
+  main: HTMLElement;
   progressMeter: HTMLSpanElement;
 
   state = { loaded: false };
@@ -44,8 +44,8 @@ export default class App extends React.Component<{}, State> {
   /**
    * App will handle routing to page controllers.
    */
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
 
     if (isNativeIOS()) {
       this.bootstrapIOS();
@@ -105,9 +105,8 @@ export default class App extends React.Component<{}, State> {
   }
 
   async componentDidMount() {
-    // Force page to be ready after a specified time, unless pre-loading images finishes first.
     await Promise.race([
-      sleep(LOAD_TIMEOUT),
+      sleep(LOAD_DELAY),
       this.preloadImages((progress: number) => {
         if (this.progressMeter) {
           // TODO: find something performant here. (ie not this)
@@ -117,25 +116,14 @@ export default class App extends React.Component<{}, State> {
         }
       }),
     ]);
-  }
 
-  async run(): Promise<void> {
-    await sleep(LOAD_DELAY);
-    document.body.classList.add('loaded');
-
-    const mainElement = document.getElementById('main');
-    const transitionEndHandler = () => {
-      const spinner = document.getElementById('spinner');
-      if (spinner) spinner.remove();
-      mainElement.removeEventListener('transitionend', transitionEndHandler);
-    };
-    mainElement.addEventListener('transitionend', transitionEndHandler);
+    this.setState({ loaded: true });
   }
 
   render() {
     const loaded = this.state.loaded;
     return (
-      <div className={loaded ? 'loaded' : ''}>
+      <div>
         {loaded ? (
           <Router>
             <Pages user={this.user} api={this.api} />

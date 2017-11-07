@@ -12,5 +12,5 @@ document.addEventListener('touchstart', function() {}, true);
 // Start the app when DOM is ready.
 document.addEventListener('DOMContentLoaded', () => {
   const App = require('./lib/app').default;
-  render(<App />, document.getElementById('root'));
+  render(React.createElement(App), document.getElementById('root'));
 });
