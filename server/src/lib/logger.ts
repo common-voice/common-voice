@@ -68,21 +68,6 @@ export default class Logger {
     }
   }
 
-  /**
-   * This function will log the first couple of minutes to make sure
-   * we are getting logs in production when our server first boots up.
-   */
-  private initiateHeartbeat() {
-    let count = 0;
-    const start = Date.now();
-    const timer = setInterval(() => {
-      console.log(`LOGGER - heartbeat ${++count}, ${Date.now() - start}`);
-      if (count > 100) {
-        clearInterval(timer);
-      }
-    }, 1000);
-  }
-
   log(...args: any[]) {
     this.printFields(this.getMessageFields(LEVEL_LOG, args.join(', ')));
   }
@@ -108,7 +93,5 @@ export default class Logger {
     console.error = (...args: any[]) => {
       this.error(...args);
     };
-
-    this.initiateHeartbeat();
   }
 }
