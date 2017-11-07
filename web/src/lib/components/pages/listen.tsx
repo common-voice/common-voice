@@ -17,7 +17,6 @@ export default class Listen extends React.Component<ListenPageProps, {}> {
 
   onVote() {
     this.props.user.tallyVerification();
-    // this.props.navigate('/listen'); // force page render
   }
 
   render() {

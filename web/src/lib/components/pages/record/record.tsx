@@ -270,7 +270,7 @@ export default class RecordPage extends React.Component<
       );
       if (!keep) {
         this.reset();
-        this.props.navigate('/');
+        this.props.history.push('/');
       }
     }
   }
@@ -312,7 +312,7 @@ export default class RecordPage extends React.Component<
 
   async onRecordClick(evt?: any) {
     evt.preventDefault();
-    evt.stopImmediatePropagation();
+    evt.stopPropagation();
 
     if (this.state.recording) {
       this.stopRecording();
@@ -393,7 +393,7 @@ export default class RecordPage extends React.Component<
     // Make sure we can get the microphone before displaying anything.
     if (this.isUnsupportedPlatform) {
       return (
-        <div className={'unsupported ' + this.props.active}>
+        <div className="unsupported">
           <h2>We're sorry, but your platform is not currently supported.</h2>
           <p key="desktop">
             On desktop computers, you can download the latest:
@@ -500,18 +500,16 @@ export default class RecordPage extends React.Component<
             </div>
             <div className="record-controls">{controlElements}</div>
             <p id="recordings-count">
-              {this.state.isReRecord && <span>{recordingsCount + 1} of 3</span>}
+              {!this.state.isReRecord && (
+                <span>{recordingsCount + 1} of 3</span>
+              )}
             </p>
-            <ProfileActions
-              user={this.props.user}
-              navigate={this.props.navigate}
-            />
+            <ProfileActions user={this.props.user} />
           </div>
         ) : (
           <Review
             progress={progress}
             user={this.props.user}
-            navigate={this.props.navigate}
             onSubmit={this.onSubmit}>
             {listens}
           </Review>

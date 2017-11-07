@@ -1,10 +1,9 @@
 import * as React from 'react';
-import { Switch, Route } from 'react-router';
-import { Link } from 'react-router-dom';
+import { Switch, Route, RouteComponentProps, withRouter } from 'react-router';
+import { Link, NavLink } from 'react-router-dom';
 import { getItunesURL, isNativeIOS, isIOS, isSafari } from '../utility';
 import Logo from './logo';
 import Icon from './icon';
-import PrivacyContent from './privacy-content';
 import Robot from './robot';
 
 import Home from './pages/home/home';
@@ -22,7 +21,6 @@ import User from '../user';
 interface PageUrls {
   [key: string]: string;
   ROOT: string;
-  HOME: string;
   RECORD: string;
   LISTEN: string;
   PROFILE: string;
@@ -34,7 +32,6 @@ interface PageUrls {
 
 const URLS: PageUrls = {
   ROOT: '/',
-  HOME: '/home',
   RECORD: '/record',
   LISTEN: '/listen',
   PROFILE: '/profile',
@@ -44,19 +41,7 @@ const URLS: PageUrls = {
   NOTFOUND: '/not-found',
 };
 
-const ROBOT_TALK = {
-  home: [
-    <p>Greetings human!</p>,
-    <p>My name is M.A.R.S. and I am a learning robot.</p>,
-    <p>Right now, I am learning to speak like a human.</p>,
-    <p>But. . . it's so hard!</p>,
-    <p>Can you help me learn?</p>,
-    <p>All I need is for you to read to me. :)</p>,
-    <p>Please click on the heart below to get started teaching me.</p>,
-  ],
-};
-
-interface PagesProps {
+interface PagesProps extends RouteComponentProps<any> {
   user: User;
   api: API;
 }
@@ -65,7 +50,6 @@ interface PagesState {
   isMenuVisible: boolean;
   pageTransitioning: boolean;
   scrolled: boolean;
-  currentPage: string;
   showingPrivacy: boolean;
   transitioning: boolean;
   recording: boolean;
@@ -74,7 +58,7 @@ interface PagesState {
   recorderVolume: number;
 }
 
-export default class Pages extends React.Component<PagesProps, PagesState> {
+class Pages extends React.Component<PagesProps, PagesState> {
   private header: HTMLElement;
   private scroller: HTMLElement;
   private content: HTMLElement;
@@ -86,7 +70,6 @@ export default class Pages extends React.Component<PagesProps, PagesState> {
     isMenuVisible: false,
     pageTransitioning: false,
     scrolled: false,
-    currentPage: null,
     showingPrivacy: false,
     transitioning: false,
     recording: false,
@@ -141,16 +124,6 @@ export default class Pages extends React.Component<PagesProps, PagesState> {
     this.installApp.classList.add('hide');
   }
 
-  private getCurrentPageName() {
-    if (!this.state.currentPage) {
-      return 'home';
-    }
-
-    let p = this.state.currentPage.substr(1);
-    p = p || 'home';
-    return p;
-  }
-
   private sayThanks(): void {
     this.setState({
       robot: 'thanks',
@@ -161,28 +134,6 @@ export default class Pages extends React.Component<PagesProps, PagesState> {
     this.setState({
       robot: '',
     });
-  }
-
-  private isValidPage(url: string): boolean {
-    return Object.keys(URLS).some((key: string) => {
-      return URLS[key] === url;
-    });
-  }
-
-  private isPageActive(url: string | string[], page?: string): string {
-    if (!page) {
-      page = this.state.currentPage;
-    }
-
-    if (!Array.isArray(url)) {
-      url = [url];
-    }
-
-    let isActive = url.some(u => {
-      return u === page;
-    });
-
-    return isActive ? 'active' : '';
   }
 
   private onRecord() {
@@ -209,12 +160,12 @@ export default class Pages extends React.Component<PagesProps, PagesState> {
   }
 
   private addScrollListener() {
-    // this.scroller.addEventListener('scroll', evt => {
-    //   let scrolled = this.scroller.scrollTop > 0;
-    //   if (scrolled !== this.state.scrolled) {
-    //     this.setState({ scrolled: scrolled });
-    //   }
-    // });
+    this.scroller.addEventListener('scroll', evt => {
+      let scrolled = this.scroller.scrollTop > 0;
+      if (scrolled !== this.state.scrolled) {
+        this.setState({ scrolled: scrolled });
+      }
+    });
   }
 
   private ensurePrivacyAgreement(): Promise<void> {
@@ -278,45 +229,43 @@ export default class Pages extends React.Component<PagesProps, PagesState> {
     this.addScrollListener();
   }
 
-  // componentWillUpdate(nextProps: PagesProps) {
-  //   // When the current page changes, hide the menu.
-  //   if (nextProps.currentPage !== this.props.currentPage) {
-  //     var self = this;
-  //     this.content.addEventListener('transitionend', function remove() {
-  //       self.content.removeEventListener('transitionend', remove);
+  componentDidUpdate(nextProps: PagesProps) {
+    // When the current page changes, hide the menu.
+    if (this.props.location !== nextProps.location) {
+      const self = this;
+      this.content.addEventListener('transitionend', function remove() {
+        self.content.removeEventListener('transitionend', remove);
 
-  //       // After changing pages we will scroll to the top, which
-  //       // is accomplished differentonly on mobile vs. desktop.
-  //       self.scroller.scrollTop = 0; // Scroll up on mobile.
-  //       self.setState(
-  //         {
-  //           currentPage: nextProps.currentPage,
-  //           pageTransitioning: false,
-  //           isMenuVisible: false,
-  //         },
-  //         () => {
-  //           // Scroll to top on desktop.
-  //           window.scrollTo({
-  //             top: 0,
-  //             behavior: 'smooth',
-  //           });
-  //         }
-  //       );
-  //     });
+        // After changing pages we will scroll to the top, which
+        // is accomplished differentonly on mobile vs. desktop.
+        self.scroller.scrollTop = 0; // Scroll up on mobile.
+        self.setState(
+          {
+            pageTransitioning: false,
+            isMenuVisible: false,
+          },
+          () => {
+            // Scroll to top on desktop.
+            window.scrollTo({
+              top: 0,
+              behavior: 'smooth',
+            });
+          }
+        );
+      });
 
-  //     this.setState({
-  //       pageTransitioning: true,
-  //     });
-  //   }
-  // }
+      this.setState({
+        pageTransitioning: true,
+      });
+    }
+  }
 
   toggleMenu = () => {
     this.setState({ isMenuVisible: !this.state.isMenuVisible });
   };
 
   render() {
-    let pageName = this.getCurrentPageName();
-    let robotPosition = pageName === 'record' ? this.state.robot : pageName;
+    const pageName = this.props.location.pathname.substr(1) || 'home';
     let className = pageName;
     if (this.state.transitioning) {
       className += ' hiding';
@@ -380,6 +329,9 @@ export default class Pages extends React.Component<PagesProps, PagesState> {
             </div>
             <div className="hero">
               <Robot
+                match={null}
+                location={null}
+                history={null}
                 position={
                   (pageName === 'record' && this.state.robot) || pageName
                 }
@@ -395,15 +347,19 @@ export default class Pages extends React.Component<PagesProps, PagesState> {
               <Switch>
                 <Route
                   exact
-                  path={URLS.HOME}
-                  render={() => (
-                    <Home api={this.props.api} user={this.props.user} />
+                  path={URLS.ROOT}
+                  render={props => (
+                    <Home
+                      api={this.props.api}
+                      user={this.props.user}
+                      {...props}
+                    />
                   )}
                 />
                 <Route
                   exact
                   path={URLS.RECORD}
-                  render={routerProps => (
+                  render={props => (
                     <Record
                       api={this.props.api}
                       onRecord={this.onRecord}
@@ -413,45 +369,32 @@ export default class Pages extends React.Component<PagesProps, PagesState> {
                       onSubmit={this.uploadRecordings}
                       onDelete={this.clearRobot}
                       user={this.props.user}
-                      {...routerProps}
+                      {...props}
                     />
                   )}
                 />
                 <Route
                   exact
                   path={URLS.LISTEN}
-                  render={routerProps => (
+                  render={props => (
                     <Listen
                       api={this.props.api}
                       user={this.props.user}
-                      {...routerProps}
+                      {...props}
                     />
                   )}
                 />
                 <Route
                   exact
                   path={URLS.PROFILE}
-                  render={routerProps => (
-                    <Profile user={this.props.user} {...routerProps} />
+                  render={props => (
+                    <Profile user={this.props.user} {...props} />
                   )}
                 />
-
-                <Route
-                  exact
-                  path={URLS.FAQ}
-                  render={routerProps => <FAQ {...routerProps} />}
-                />
-                <Route
-                  exact
-                  path={URLS.PRIVACY}
-                  render={routerProps => <Privacy {...routerProps} />}
-                />
-                <Route
-                  exact
-                  path={URLS.TERMS}
-                  render={routerProps => <Terms {...routerProps} />}
-                />
-                <Route render={routerProps => <NotFound {...routerProps} />} />
+                <Route exact path={URLS.FAQ} component={FAQ} />} />
+                <Route exact path={URLS.PRIVACY} component={Privacy} />} />
+                <Route exact path={URLS.TERMS} component={Terms} />} />
+                <Route component={NotFound} />
               </Switch>
             </div>
             <footer>
@@ -545,11 +488,12 @@ export default class Pages extends React.Component<PagesProps, PagesState> {
   }
 
   private renderTab(url: string, name: string) {
-    let tabClass = 'tab ' + name;
     return (
-      <Link className={tabClass} to={url}>
-        <span className={'tab-name ' + name}>{name}</span>
-      </Link>
+      <div className="tab">
+        <NavLink to={url} exact>
+          <span className={'tab-name ' + name}>{name}</span>
+        </NavLink>
+      </div>
     );
   }
 
@@ -577,3 +521,5 @@ export default class Pages extends React.Component<PagesProps, PagesState> {
     );
   }
 }
+
+export default withRouter(Pages);

@@ -126,7 +126,13 @@ export default class App extends React.Component<{}, State> {
       <div>
         {loaded ? (
           <Router>
-            <Pages user={this.user} api={this.api} />
+            <Pages
+              user={this.user}
+              api={this.api}
+              match={null}
+              location={null}
+              history={null}
+            />
           </Router>
         ) : (
           <div id="spinner">

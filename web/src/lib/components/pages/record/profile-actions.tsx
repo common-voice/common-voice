@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link } from 'react-router-dom';
 import ProfileForm from '../../profile-form/profile-form';
 import User from '../../../user';
 import messages from '../../../../messages';
@@ -37,7 +38,6 @@ class WhyProfile extends React.Component<{}, WhyProfileState> {
 }
 
 interface Props {
-  navigate(url: string): void;
   user: User;
 }
 
@@ -60,14 +60,7 @@ export default class ProfileActions extends React.Component<Props, State> {
       <div id="profile-actions">
         {!profileFormVisible && <hr />}
         {this.props.user.hasEnteredInfo() ? (
-          <a
-            href="/profile"
-            onClick={evt => {
-              evt.preventDefault();
-              this.props.navigate('/profile');
-            }}>
-            Edit Profile
-          </a>
+          <Link to="/profile">Edit Profile</Link>
         ) : (
           <div>
             {profileFormVisible ? (
