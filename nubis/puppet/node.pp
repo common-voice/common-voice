@@ -83,6 +83,6 @@ upstart::job { $project_name:
   #voice-<env>/<env>/config/Environment
   consulate kv set \"$(nubis-metadata NUBIS_PROJECT)-$(nubis-metadata NUBIS_ENVIRONMENT)/$(nubis-metadata NUBIS_ENVIRONMENT)/config/Environment\" \"$(nubis-metadata NUBIS_ENVIRONMENT)\"
 
-  exec /usr/bin/forever --workingDir /var/www/${project_name} --minUptime 1000 --spinSleepTime 1000 -c "/usr/bin/yarn start:prod" /
+  exec /usr/bin/forever --workingDir /var/www/${project_name} --minUptime 1000 --spinSleepTime 1000 -c \"/usr/bin/yarn start:prod\" /
 ",
 }
