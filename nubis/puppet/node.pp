@@ -32,6 +32,7 @@ package { 'libpq-dev':
 # Install service dependencies
 exec { 'install deps':
   command => 'yarn',
+  logoutput => true,
   cwd     => "/var/www/${project_name}",
   path    => [ '/bin', '/usr/bin', '/usr/local/bin' ],
   require => [
@@ -44,6 +45,7 @@ exec { 'install deps':
 # Prepare Node for runtime, build assets and precompile
 exec { 'build':
   command => 'yarn build',
+  logoutput => true,
   cwd     => "/var/www/${project_name}",
   path    => [ '/bin', '/usr/bin', '/usr/local/bin' ],
   require => [
