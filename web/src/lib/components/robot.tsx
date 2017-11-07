@@ -1,6 +1,6 @@
 import * as React from 'react';
-import RobotTalker from './robot-talker';
-import { withRouter, RouteComponentProps } from 'react-router';
+import { RouteComponentProps, withRouter } from 'react-router';
+import { Link } from 'react-router-dom';
 
 const MODE_GREETINGS = '/img/robot-greetings.png';
 const MODE_LISTENING = '/img/robot-listening.png';
@@ -10,67 +10,34 @@ const MODE_THUMBS_UP = '/img/robot-thumbs-up.png';
 
 const SPEECH_GREETINGS = 'Click here to help me learn!';
 
-interface Props extends RouteComponentProps<any> {
-  children?: any;
+interface Props extends RouteComponentProps<{}> {
+  children?: React.ReactNode;
   position?: string;
 }
 
-interface State {
-  src: string;
-  speech: string;
-}
-
-/**
- * Handle robot transitions.
- */
-class Robot extends React.Component<Props, State> {
-  state = {
-    src: MODE_GREETINGS,
-    speech: '',
-  };
-
-  constructor(props: Props) {
-    super(props);
-
-    this.handleSpeechClick = this.handleSpeechClick.bind(this);
+const Robot = ({ children, position }: Props) => {
+  let speech = '';
+  let src = '';
+  if (position === 'record') {
+    src = MODE_LISTENING;
+  } else if (position === 'listen') {
+    src = MODE_THINKING;
+  } else if (position === 'thanks') {
+    src = MODE_THUMBS_UP; // Thumbs up for thanks :)
+  } else {
+    speech = SPEECH_GREETINGS;
+    src = MODE_GREETINGS;
   }
 
-  private handleSpeechClick() {
-    this.props.history.push('/record');
-  }
+  return (
+    <div className={'robot ' + position}>
+      <Link className="bubble" to="/record">
+        {speech}
+      </Link>
+      <img src={src} />
+      <div className="robot-talker">{children}</div>
+    </div>
+  );
+};
 
-  componentWillUpdate(nextProps: Props) {
-    let text, src;
-    if (nextProps.position === 'record') {
-      text = ''; // hides speech
-      src = MODE_LISTENING;
-    } else if (nextProps.position === 'listen') {
-      text = '';
-      src = MODE_THINKING;
-    } else if (nextProps.position === 'thanks') {
-      text = '';
-      src = MODE_THUMBS_UP; // Thumbs up for thanks :)
-    } else {
-      text = SPEECH_GREETINGS;
-      src = MODE_GREETINGS;
-    }
-
-    this.setState({
-      src: src,
-      speech: text,
-    });
-  }
-
-  render() {
-    return (
-      <div className={'robot ' + this.props.position}>
-        <div className="bubble" onClick={this.handleSpeechClick}>
-          {this.state.speech}
-        </div>
-        <img src={this.state.src} />
-        <RobotTalker>{this.props.children}</RobotTalker>
-      </div>
-    );
-  }
-}
 export default withRouter(Robot);
