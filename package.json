@@ -67,7 +67,7 @@
     "lint": "eslint **/*.ts **/*.tsx",
     "prettier": "yarn lint -- --fix",
     "start": "node scripts/dev-server.js",
-    "start:prod": "yarn build && node server/js/server.js",
+    "start:prod": "node server/js/server.js",
     "test": "tape server/js/test/*.js"
   }
 }
