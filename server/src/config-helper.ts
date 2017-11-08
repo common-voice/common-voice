@@ -47,7 +47,7 @@ export function getConfig(): CommonVoiceConfig {
 function load(): CommonVoiceConfig {
   let config = null;
   try {
-    config = require('../../config.json');
+    config = require('../config.json');
   } catch (err) {}
   return config;
 }
