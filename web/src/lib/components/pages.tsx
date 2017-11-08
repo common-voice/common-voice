@@ -223,36 +223,40 @@ class Pages extends React.Component<PagesProps, PagesState> {
     });
   }
 
+  private scrollToTop = () => {
+    this.content.children[0].removeEventListener(
+      'animationend',
+      this.scrollToTop
+    );
+
+    // After changing pages we will scroll to the top, which
+    // is accomplished differentonly on mobile vs. desktop.
+    this.scroller.scrollTop = 0; // Scroll up on mobile.
+    this.setState(
+      {
+        isMenuVisible: false,
+      },
+      () => {
+        // Scroll to top on desktop.
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth',
+        });
+      }
+    );
+  };
+
   componentDidMount() {
     this.addScrollListener();
   }
 
   componentDidUpdate(nextProps: PagesProps) {
-    if (this.props.location === nextProps.location) {
-      return;
-    }
-
-    const page = this.content.children[0];
-    const transitionListener = () => {
-      page.removeEventListener('animationend', transitionListener);
-
-      // After changing pages we will scroll to the top, which
-      // is accomplished differentonly on mobile vs. desktop.
-      this.scroller.scrollTop = 0; // Scroll up on mobile.
-      this.setState(
-        {
-          isMenuVisible: false,
-        },
-        () => {
-          // Scroll to top on desktop.
-          window.scrollTo({
-            top: 0,
-            behavior: 'smooth',
-          });
-        }
+    if (this.props.location !== nextProps.location) {
+      this.content.children[0].addEventListener(
+        'animationend',
+        this.scrollToTop
       );
-    };
-    page.addEventListener('animationend', transitionListener);
+    }
   }
 
   toggleMenu = () => {
