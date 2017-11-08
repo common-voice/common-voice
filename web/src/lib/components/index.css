@@ -352,15 +352,19 @@ body:not(.ios) .recording #background-container {
  * We have two different page transition types:
  * one for desktop and one for mobile.
  */
-#content {
-  transition: transform 0.2s var(--bounce-curve);
-  transform: translateY(0);
+@keyframes slide-fade-in {
+  from {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
-#content.transitioning {
-  transform: translateY(100vh);
-  transition: opacity 0.2s linear;
-  opacity: 0;
+#content > div {
+  animation: slide-fade-in 0.2s var(--bounce-curve);
 }
 
 @media (min-width: 600px) {

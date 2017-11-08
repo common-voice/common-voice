@@ -48,7 +48,6 @@ interface PagesProps extends RouteComponentProps<any> {
 
 interface PagesState {
   isMenuVisible: boolean;
-  pageTransitioning: boolean;
   scrolled: boolean;
   showingPrivacy: boolean;
   transitioning: boolean;
@@ -68,7 +67,6 @@ class Pages extends React.Component<PagesProps, PagesState> {
 
   state: PagesState = {
     isMenuVisible: false,
-    pageTransitioning: false,
     scrolled: false,
     showingPrivacy: false,
     transitioning: false,
@@ -230,34 +228,31 @@ class Pages extends React.Component<PagesProps, PagesState> {
   }
 
   componentDidUpdate(nextProps: PagesProps) {
-    // When the current page changes, hide the menu.
-    if (this.props.location !== nextProps.location) {
-      const self = this;
-      this.content.addEventListener('transitionend', function remove() {
-        self.content.removeEventListener('transitionend', remove);
-
-        // After changing pages we will scroll to the top, which
-        // is accomplished differentonly on mobile vs. desktop.
-        self.scroller.scrollTop = 0; // Scroll up on mobile.
-        self.setState(
-          {
-            pageTransitioning: false,
-            isMenuVisible: false,
-          },
-          () => {
-            // Scroll to top on desktop.
-            window.scrollTo({
-              top: 0,
-              behavior: 'smooth',
-            });
-          }
-        );
-      });
-
-      this.setState({
-        pageTransitioning: true,
-      });
+    if (this.props.location === nextProps.location) {
+      return;
     }
+
+    const page = this.content.children[0];
+    const transitionListener = () => {
+      page.removeEventListener('animationend', transitionListener);
+
+      // After changing pages we will scroll to the top, which
+      // is accomplished differentonly on mobile vs. desktop.
+      this.scroller.scrollTop = 0; // Scroll up on mobile.
+      this.setState(
+        {
+          isMenuVisible: false,
+        },
+        () => {
+          // Scroll to top on desktop.
+          window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+          });
+        }
+      );
+    };
+    page.addEventListener('animationend', transitionListener);
   }
 
   toggleMenu = () => {
@@ -340,7 +335,6 @@ class Pages extends React.Component<PagesProps, PagesState> {
             <div className="hero-space" />
             <div
               id="content"
-              className={this.state.pageTransitioning ? 'transitioning' : ''}
               ref={div => {
                 this.content = div as HTMLElement;
               }}>
