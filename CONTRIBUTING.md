@@ -54,7 +54,7 @@ The project is organized into the following directories:
 - *nubis*: Configuration files for [Nubis](https://github.com/nubisproject), our deployment tool.
 - *server*: The server-side app logic, written in [TypeScript](http://www.typescriptlang.org/).
 - *tools*: Some scripts for managing data.
-- *web*: The Common Voice website files, written in [TypeScript](http://www.typescriptlang.org/). We use [Preact](https://preactjs.com/) to build the website.
+- *web*: The Common Voice website files, written in [TypeScript](http://www.typescriptlang.org/). We use [React](https://reactjs.org/) to build the website.
 
 ## Submitting an Issue
 Did you notice a bug? Do you have a feature request? Please file an issue [here on GitHub](https://github.com/mozilla/voice-web/issues).

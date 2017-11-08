@@ -1,11 +1,10 @@
-import { h, render } from 'preact';
+import * as React from 'react';
 import User from './user';
 import API from './api';
 import Pages from './components/pages';
 import { isMobileWebkit, isFocus, isNativeIOS, sleep } from './utility';
-import DebugBox from './components/debug-box';
+import { BrowserRouter as Router } from 'react-router-dom';
 
-const LOAD_DELAY = 500; // before pulling the curtain
 const LOAD_TIMEOUT = 5000; // we can only wait so long.
 
 /**
@@ -30,20 +29,24 @@ const PRELOAD = [
   '/img/circle.png',
 ];
 
-/**
- * Main app controller, rensponsible for routing between page controllers.
- */
-export default class App {
-  box: DebugBox;
+interface State {
+  loaded: boolean;
+}
+
+export default class App extends React.Component<{}, State> {
   user: User;
   api: API;
+  main: HTMLElement;
   progressMeter: HTMLSpanElement;
+
+  state = { loaded: false };
 
   /**
    * App will handle routing to page controllers.
    */
   constructor() {
-    // Disable the debug box for now.
+    super();
+
     if (isNativeIOS()) {
       this.bootstrapIOS();
     }
@@ -61,15 +64,6 @@ export default class App {
     this.api.syncUser();
 
     this.user.onUpdate(this.handleUserUpdate.bind(this));
-
-    // Force binding of handleNavigation to this instance.
-    this.handleNavigation = this.handleNavigation.bind(this);
-
-    // Render loading spinner before loaded.
-    this.renderSpinner();
-
-    // React to external navigation (i.e. browser back/forward button)
-    window.addEventListener('popstate', this.renderCurrentPage.bind(this));
   }
 
   /**
@@ -108,74 +102,9 @@ export default class App {
    */
   private bootstrapIOS() {
     document.body.classList.add('ios');
-    // this.renderDebugBox();
   }
 
-  /**
-   * Get the page name from the url.
-   */
-  private getPageName(href?: string): string {
-    if (!href) {
-      href = window.location.href;
-    }
-    let link = document.createElement('a');
-    link.href = href;
-
-    // Workaround for IE bug where pathname was not prefixed by '/'
-    const pathname = link.pathname;
-    if (pathname.indexOf('/') !== 0) {
-      return '/' + pathname;
-    }
-    return pathname;
-  }
-
-  /**
-   * Update the current page based on new url.
-   */
-  private handleNavigation(href: string) {
-    let page = this.getPageName(href);
-    window.history.pushState(null, '', page);
-    this.renderCurrentPage();
-  }
-
-  private renderDebugBox() {
-    render(<DebugBox />, document.body);
-  }
-
-  private renderSpinner() {
-    render(
-      <div id="spinner">
-        <span
-          ref={el => {
-            if (this.progressMeter) {
-              return;
-            }
-
-            this.progressMeter = el as HTMLSpanElement;
-          }}
-        />
-      </div>,
-      document.body,
-      document.getElementById('spinner')
-    );
-  }
-
-  private renderCurrentPage() {
-    // Render the main controller, Pages.
-    render(
-      <Pages
-        user={this.user}
-        api={this.api}
-        navigate={this.handleNavigation}
-        currentPage={this.getPageName()}
-      />,
-      document.body,
-      document.getElementById('main')
-    );
-  }
-
-  async init(): Promise<void> {
-    // Force page to be ready after a specified time, unless pre-loading images finishes first.
+  async componentDidMount() {
     await Promise.race([
       sleep(LOAD_TIMEOUT),
       this.preloadImages((progress: number) => {
@@ -187,22 +116,33 @@ export default class App {
         }
       }),
     ]);
+
+    this.setState({ loaded: true });
   }
 
-  /**
-   * Entry point for the application.
-   */
-  async run(): Promise<void> {
-    this.renderCurrentPage();
+  render() {
+    return this.state.loaded ? (
+      <Router>
+        <Pages
+          user={this.user}
+          api={this.api}
+          match={null}
+          location={null}
+          history={null}
+        />
+      </Router>
+    ) : (
+      <div id="spinner">
+        <span
+          ref={el => {
+            if (this.progressMeter) {
+              return;
+            }
 
-    await sleep(LOAD_DELAY);
-    document.body.classList.add('loaded');
-
-    const mainElement = document.getElementById('main');
-    const transitionEndHandler = () => {
-      document.body.removeChild(document.getElementById('spinner'));
-      mainElement.removeEventListener('transitionend', transitionEndHandler);
-    };
-    mainElement.addEventListener('transitionend', transitionEndHandler);
+            this.progressMeter = el as HTMLSpanElement;
+          }}
+        />
+      </div>
+    );
   }
 }

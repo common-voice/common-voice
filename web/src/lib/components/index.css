@@ -176,17 +176,20 @@ input:invalid {
   transition: transform 1s var(--bounce-curve);
 }
 
-/* Begin cross page code */
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 #main {
-  opacity: 0;
   position: relative;
   box-sizing: border-box;
   background-color: var(--base-background-color);
-}
-
-.loaded #main {
-  transition: opacity 0.5s linear;
-  opacity: 1;
+  animation: fadein 0.5s linear;
 }
 
 @import url('./nav.css');
@@ -368,11 +371,8 @@ body:not(.ios) .recording #background-container {
 }
 
 #content > div {
-  display: none;
-  opacity: 0;
   box-sizing: border-box;
   transition: opacity 0.4s ease-in;
-  z-index: var(--bottom-z-index);
   max-width: var(--desktop-width);
   margin: 0 auto;
 }
@@ -383,12 +383,6 @@ body:not(.ios) .recording #background-container {
     min-height: 100%;
     padding: 0 var(--page-margin);
   }
-}
-
-#content > div.active {
-  display: block;
-  opacity: 1;
-  z-index: var(--middle-z-index);
 }
 
 .main-logo {
@@ -628,12 +622,6 @@ body:not(.mobile-safari) .robot .bubble:hover {
   background-color: var(--base-background-color);
   max-width: var(--desktop-width);
   padding: var(--page-margin);
-  transform: scale(0);
-  transition: transform 0.2s ease-out;
-}
-
-.active .privacy-content {
-  transform: scale(1);
 }
 
 @media (min-width: 600px) {

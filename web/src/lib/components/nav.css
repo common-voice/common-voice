@@ -145,20 +145,20 @@ header.active {
     padding: 0.2rem 6rem 0.2rem 0.6rem;
 }
 
-.tab.active .tab-name {
+.tab > .active .tab-name {
     background-color: var(--color-about);
     padding-right: 6rem;
 }
 
-.tab.active .tab-name.speak {
+.tab > .active .tab-name.speak {
     background-color: var(--color-speak);
 }
 
-.tab.active .tab-name.listen {
+.tab > .active .tab-name.listen {
     background-color: var(--color-listen);
 }
 
-.tab.active .tab-name.profile {
+.tab > .active .tab-name.profile {
     background-color: var(--color-profile);
 }
 

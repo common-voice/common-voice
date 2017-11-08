@@ -1,15 +1,16 @@
-import { h } from 'preact';
+import * as React from 'react';
 import messages from '../../../messages';
 import User from '../../user';
 import ProfileForm from '../profile-form/profile-form';
 
-interface Props {
-  active: string;
+import { RouteComponentProps } from 'react-router';
+
+interface Props extends RouteComponentProps<any> {
   user: User;
 }
 
-export default ({ active, user }: Props) => (
-  <div id="profile-container" className={active}>
+export default ({ user }: Props) => (
+  <div id="profile-container">
     <ProfileForm user={user} />
 
     <br />

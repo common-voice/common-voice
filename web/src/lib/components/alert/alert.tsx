@@ -1,4 +1,4 @@
-import { h, Component } from 'preact';
+import * as React from 'react';
 import Icon from '../icon';
 
 const AUTO_HIDE_TIME_MS = 5000;
@@ -9,7 +9,7 @@ interface Props {
   onClose: Function;
 }
 
-export default class Alert extends Component<Props, void> {
+export default class Alert extends React.Component<Props, {}> {
   timeout: number;
 
   constructor(props: Props) {

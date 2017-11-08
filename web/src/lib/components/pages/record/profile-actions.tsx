@@ -1,4 +1,5 @@
-import { h, Component } from 'preact';
+import * as React from 'react';
+import { Link } from 'react-router-dom';
 import ProfileForm from '../../profile-form/profile-form';
 import User from '../../../user';
 import messages from '../../../../messages';
@@ -7,7 +8,7 @@ interface WhyProfileState {
   expanded: boolean;
 }
 
-class WhyProfile extends Component<{}, WhyProfileState> {
+class WhyProfile extends React.Component<{}, WhyProfileState> {
   state = { expanded: false };
 
   private toggle = () => {
@@ -37,7 +38,6 @@ class WhyProfile extends Component<{}, WhyProfileState> {
 }
 
 interface Props {
-  navigate(url: string): void;
   user: User;
 }
 
@@ -45,7 +45,7 @@ interface State {
   profileFormVisible: boolean;
 }
 
-export default class ProfileActions extends Component<Props, State> {
+export default class ProfileActions extends React.Component<Props, State> {
   state: State = {
     profileFormVisible: false,
   };
@@ -60,14 +60,7 @@ export default class ProfileActions extends Component<Props, State> {
       <div id="profile-actions">
         {!profileFormVisible && <hr />}
         {this.props.user.hasEnteredInfo() ? (
-          <a
-            href="/profile"
-            onClick={evt => {
-              evt.preventDefault();
-              this.props.navigate('/profile');
-            }}>
-            Edit Profile
-          </a>
+          <Link to="/profile">Edit Profile</Link>
         ) : (
           <div>
             {profileFormVisible ? (

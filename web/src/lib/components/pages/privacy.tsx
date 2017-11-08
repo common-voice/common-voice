@@ -1,16 +1,16 @@
-import { h, Component } from 'preact';
+import * as React from 'react';
 import PrivacyContent from '../privacy-content';
 
-interface Props {
-  active: string;
-}
+import { RouteComponentProps } from 'react-router';
+
+interface Props extends RouteComponentProps<any> {}
 
 interface State {}
 
-export default class Privacy extends Component<Props, State> {
+export default class Privacy extends React.Component<Props, State> {
   render() {
     return (
-      <div id="privacy-container" className={this.props.active}>
+      <div id="privacy-container">
         <PrivacyContent />
       </div>
     );

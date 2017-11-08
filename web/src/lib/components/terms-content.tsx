@@ -1,13 +1,13 @@
-import { h, Component } from 'preact';
+import * as React from 'react';
 
 interface Props {}
 
 interface State {}
 
-export default class PrivacyContent extends Component<Props, State> {
+export default class PrivacyContent extends React.Component<Props, State> {
   render() {
     return (
-      <div class="terms-content">
+      <div className="terms-content">
         <h1>Common Voice Legal Terms</h1>
         <h2>Effective June 19, 2017</h2>
         <h3>Eligibility</h3>

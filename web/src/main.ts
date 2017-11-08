@@ -1,3 +1,5 @@
+import * as React from 'react';
+import { render } from 'react-dom';
 import './lib/components/index.css';
 
 declare var require: any;
@@ -8,10 +10,7 @@ require('es6-promise').polyfill();
 document.addEventListener('touchstart', function() {}, true);
 
 // Start the app when DOM is ready.
-document.addEventListener('DOMContentLoaded', async () => {
-  let App = require('./lib/app').default;
-  let app = new App();
-
-  await app.init();
-  app.run();
+document.addEventListener('DOMContentLoaded', () => {
+  const App = require('./lib/app').default;
+  render(React.createElement(App), document.getElementById('root'));
 });

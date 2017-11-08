@@ -1,4 +1,4 @@
-import { h, Component } from 'preact';
+import * as React from 'react';
 
 interface FontIcons {
   [key: string]: string;
@@ -39,13 +39,13 @@ interface Props {
   type: string;
   id?: string;
   className?: string;
-  onClick?(event: MouseEvent): void;
+  onClick?(event: React.MouseEvent<HTMLElement>): void;
 }
 
 /**
  * Helper component for using icon fonts.
  */
-export default class Icon extends Component<Props, void> {
+export default class Icon extends React.Component<Props, {}> {
   getIcon(name: string): string {
     return ICONS[name];
   }
