@@ -312,7 +312,9 @@ export default class RecordPage extends React.Component<
 
   async onRecordClick(evt?: any) {
     evt.preventDefault();
-    evt.stopPropagation();
+    if (evt.stopImmediatePropagation) {
+      evt.stopImmediatePropagation();
+    }
 
     if (this.state.recording) {
       this.stopRecording();
