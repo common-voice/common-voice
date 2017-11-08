@@ -5,7 +5,7 @@ import Pages from './components/pages';
 import { isMobileWebkit, isFocus, isNativeIOS, sleep } from './utility';
 import { BrowserRouter as Router } from 'react-router-dom';
 
-const LOAD_DELAY = 500; // before pulling the curtain
+const LOAD_TIMEOUT = 5000; // we can only wait so long.
 
 /**
  * Preload these images before revealing contents.
@@ -106,7 +106,7 @@ export default class App extends React.Component<{}, State> {
 
   async componentDidMount() {
     await Promise.race([
-      sleep(LOAD_DELAY),
+      sleep(LOAD_TIMEOUT),
       this.preloadImages((progress: number) => {
         if (this.progressMeter) {
           // TODO: find something performant here. (ie not this)
