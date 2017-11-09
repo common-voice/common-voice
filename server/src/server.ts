@@ -42,9 +42,11 @@ export default class Server {
   private getServer() {
     return new NodeStaticServer(path.join(__dirname, CLIENT_PATH), {
       cache: false,
-      headers: {
-        'Content-Security-Policy': CSP_HEADER,
-      },
+      headers: this.config.PROD
+        ? {
+            'Content-Security-Policy': CSP_HEADER,
+          }
+        : {},
     });
   }
 

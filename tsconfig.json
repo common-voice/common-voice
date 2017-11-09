@@ -5,6 +5,7 @@
     "module": "commonjs",
     "noImplicitAny": true,
     "noEmitOnError": true,
+    "sourceMap": true,
     "jsx": "react",
     "lib": ["es2015", "dom"]
   },
