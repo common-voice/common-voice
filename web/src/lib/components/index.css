@@ -681,38 +681,6 @@ body:not(.mobile-safari) .robot .bubble:hover {
   color: blue;
 }
 
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  z-index: var(--top-z-index);
-  background: rgba(0, 0, 0, 0.8);
-  opacity: 0;
-  pointer-events: none;
-  transform: opacity 0.2s linear;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-@media (max-width: 600px) {
-  .overlay {
-    overflow-y: scroll;
-    align-items: flex-start;
-    -webkit-overflow-scrolling: touch;
-    scroll-behavior: smooth;
-  }
-}
-
-.overlay.active {
-  pointer-events: all;
-  opacity: 1;
-}
-
 #spinner {
   position: fixed;
   left: 0;
