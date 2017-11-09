@@ -6,12 +6,18 @@ interface ButtonConfig {
 }
 
 interface Props {
-  buttons: ButtonConfig;
-  onRequestClose?: (event: MouseEvent | KeyboardEvent) => any;
+  buttons?: ButtonConfig;
   children?: React.ReactNode;
+  innerClassName?: string;
+  onRequestClose?: (event: MouseEvent | KeyboardEvent) => any;
 }
 
-export default ({ buttons, children, ...props }: Props) => (
+export default ({
+  buttons,
+  children,
+  innerClassName = '',
+  ...props,
+}: Props) => (
   <Modal
     isOpen={true}
     contentLabel="modal"
@@ -24,14 +30,15 @@ export default ({ buttons, children, ...props }: Props) => (
         background: 'transparent',
       },
     }}>
-    <div className="inner">
+    <div className={'inner ' + innerClassName}>
       {children}
       <div className="buttons">
-        {Object.keys(buttons).map(label => (
-          <button key={label} type="button" onClick={buttons[label]}>
-            {label}
-          </button>
-        ))}
+        {buttons &&
+          Object.keys(buttons).map(label => (
+            <button key={label} type="button" onClick={buttons[label]}>
+              {label}
+            </button>
+          ))}
       </div>
     </div>
   </Modal>
