@@ -620,7 +620,7 @@ body:not(.mobile-safari) .robot .bubble:hover {
   100%{background-position:0% 50%}
 }
 
-@import url('../confirm/confirm.css');
+@import url('./modal/modal.css');
 
 .privacy-content {
   background-color: var(--base-background-color);
