@@ -5,10 +5,11 @@ import * as React from 'react';
 import Icon from '../../icon';
 import AudioIOS from './audio-ios';
 import AudioWeb, { AudioInfo } from './audio-web';
+import ERROR_MSG from '../../../../error-msg';
 import ListenBox from '../../listen-box/listen-box';
 import Alert from '../../alert/alert';
+import Modal from '../../modal/modal';
 import { getItunesURL, isFocus, isNativeIOS, sleep } from '../../../utility';
-import confirm from '../../../confirm/confirm';
 import Review from './review';
 import ProfileActions from './profile-actions';
 import { RouteComponentProps } from 'react-router';
@@ -55,6 +56,8 @@ interface RecordState {
   isReRecord: boolean;
   reRecordIndex: number;
   alertVisible: boolean;
+  showRetryModal: boolean;
+  showResetModal: boolean;
 }
 
 export default class RecordPage extends React.Component<
@@ -79,6 +82,8 @@ export default class RecordPage extends React.Component<
     isReRecord: false,
     reRecordIndex: -1,
     alertVisible: false,
+    showRetryModal: false,
+    showResetModal: false,
   };
 
   constructor(props: RecordProps) {
@@ -120,7 +125,6 @@ export default class RecordPage extends React.Component<
     this.processRecording = this.processRecording.bind(this);
     this.goBack = this.goBack.bind(this);
     this.onProgress = this.onProgress.bind(this);
-    this.hideAlert = this.hideAlert.bind(this);
   }
 
   private async refillSentenceCache() {
@@ -263,15 +267,7 @@ export default class RecordPage extends React.Component<
       this.setState({
         uploading: false,
       });
-      const keep = await confirm(
-        'Upload aborted. Do you want to delete your recordings?',
-        'Keep the recordings',
-        'Delete my recordings'
-      );
-      if (!keep) {
-        this.reset();
-        this.props.history.push('/');
-      }
+      this.setState({ showResetModal: true });
     }
   }
 
@@ -326,9 +322,15 @@ export default class RecordPage extends React.Component<
       return;
     }
 
-    const initSuccess = await this.audio.init();
-    if (initSuccess) {
+    try {
+      await this.audio.init();
       this.startRecording();
+    } catch (err) {
+      if (err === ERROR_MSG.ERR_NO_MIC) {
+        this.setState({ showRetryModal: true });
+      } else {
+        throw err;
+      }
     }
   }
 
@@ -364,6 +366,10 @@ export default class RecordPage extends React.Component<
     this.props.onRecordStop && this.props.onRecordStop();
   }
 
+  private closeRetryModal = () => {
+    this.setState({ showRetryModal: false });
+  };
+
   private async newSentenceSet() {
     // If we don't have enough sentences in our cache, fill it before continuing.
     while (!this.areSentencesLoaded) {
@@ -385,11 +391,20 @@ export default class RecordPage extends React.Component<
     return this.sentenceCache.length >= SET_COUNT;
   }
 
-  private hideAlert(): void {
+  private closeAlert = () => {
     this.setState({
       alertVisible: false,
     });
-  }
+  };
+
+  private resetAndGoHome = () => {
+    this.reset();
+    this.props.history.push('/');
+  };
+
+  private closeResetModal = () => {
+    this.setState({ showResetModal: false });
+  };
 
   render() {
     // Make sure we can get the microphone before displaying anything.
@@ -479,11 +494,30 @@ export default class RecordPage extends React.Component<
     const recordingsCount = this.state.recordings.length;
     return (
       <div id="record-container">
+        {this.state.showRetryModal && (
+          <Modal
+            onRequestClose={this.closeRetryModal}
+            buttons={{
+              Cancel: this.closeRetryModal,
+              Retry: () => window.location.reload(),
+            }}>
+            You must allow microphone access.
+          </Modal>
+        )}
+        {this.state.showResetModal && (
+          <Modal
+            buttons={{
+              'Keep the recordings': this.closeResetModal,
+              'Delete my recordings': this.resetAndGoHome,
+            }}>
+            Upload aborted. Do you want to delete your recordings?
+          </Modal>
+        )}
         {!this.isFull() && !this.state.uploading ? (
           <div id="voice-record">
             {this.state.alertVisible && (
               <div id="alert-container">
-                <Alert autoHide onClose={this.hideAlert}>
+                <Alert autoHide onClose={this.closeAlert}>
                   Submit success! Want to record again?
                 </Alert>
               </div>

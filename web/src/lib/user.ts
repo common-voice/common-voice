@@ -86,7 +86,7 @@ export const GENDER: UserGender = {
   other: 'Other',
 };
 
-interface UserState {
+export interface UserState {
   userId: string;
   email: string;
   username: string;
@@ -136,6 +136,22 @@ export default class User {
     this.restore();
   }
 
+  private getDefaultState() {
+    return {
+      userId: generateGUID(),
+      email: '',
+      username: '',
+      sendEmails: false,
+      accent: '',
+      age: '',
+      gender: '',
+      clips: 0,
+      privacyAgreed: false,
+      recordTally: 0,
+      validateTally: 0,
+    };
+  }
+
   private restore(): void {
     try {
       this.state = JSON.parse(this.getStore());
@@ -147,19 +163,7 @@ export default class User {
     }
 
     if (!this.state) {
-      this.state = {
-        userId: generateGUID(),
-        email: '',
-        username: '',
-        sendEmails: false,
-        accent: '',
-        age: '',
-        gender: '',
-        clips: 0,
-        privacyAgreed: false,
-        recordTally: 0,
-        validateTally: 0,
-      };
+      this.state = this.getDefaultState();
       this.save();
     }
   }
@@ -233,5 +237,10 @@ export default class User {
   public hasEnteredInfo(): boolean {
     const { email, username, accent, age, gender } = this.state;
     return Boolean(email || username || accent || age || gender);
+  }
+
+  public clear(): UserState {
+    this.setState(this.getDefaultState());
+    return this.getState();
   }
 }

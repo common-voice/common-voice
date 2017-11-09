@@ -5,6 +5,7 @@ import { getItunesURL, isNativeIOS, isIOS, isSafari } from '../utility';
 import Logo from './logo';
 import Icon from './icon';
 import Robot from './robot';
+import Modal from './modal/modal';
 
 import Home from './pages/home/home';
 import Listen from './pages/listen';
@@ -49,11 +50,10 @@ interface PagesProps extends RouteComponentProps<any> {
 interface PagesState {
   isMenuVisible: boolean;
   scrolled: boolean;
-  showingPrivacy: boolean;
+  showPrivacyModal: boolean;
   transitioning: boolean;
   recording: boolean;
   robot: string;
-  onPrivacyAction(didAgree: boolean): void;
   recorderVolume: number;
 }
 
@@ -68,11 +68,10 @@ class Pages extends React.Component<PagesProps, PagesState> {
   state: PagesState = {
     isMenuVisible: false,
     scrolled: false,
-    showingPrivacy: false,
+    showPrivacyModal: false,
     transitioning: false,
     recording: false,
     robot: '',
-    onPrivacyAction: undefined,
     recorderVolume: 100,
   };
 
@@ -166,30 +165,29 @@ class Pages extends React.Component<PagesProps, PagesState> {
     });
   }
 
+  private handlePrivacyAction(didAgree: boolean): void {}
+
   private ensurePrivacyAgreement(): Promise<void> {
     if (this.props.user.hasAgreedToPrivacy()) {
       return Promise.resolve();
     }
 
-    return new Promise<void>((res, rej) => {
-      // To be called when user closes the privacy dialog.
-      let onFinish = (didAgree: boolean): void => {
+    return new Promise<void>((resolve, reject) => {
+      this.handlePrivacyAction = (didAgree: boolean): void => {
+        this.handlePrivacyAction = null;
         this.setState({
-          showingPrivacy: false,
-          onPrivacyAction: undefined,
+          showPrivacyModal: false,
         });
 
         if (didAgree) {
           this.props.user.agreeToPrivacy();
-          res();
+          resolve();
         } else {
-          rej();
+          reject();
         }
       };
-
       this.setState({
-        showingPrivacy: true,
-        onPrivacyAction: onFinish,
+        showPrivacyModal: true,
       });
     });
   }
@@ -450,37 +448,22 @@ class Pages extends React.Component<PagesProps, PagesState> {
           className={this.state.isMenuVisible ? 'is-active' : ''}>
           {this.renderNav()}
         </div>
-        <div
-          className={'overlay' + (this.state.showingPrivacy ? ' active' : '')}>
-          <div className="privacy-content">
-            <h2>
-              By using Common Voice, you agree to our{' '}
-              <a target="_blank" href="/terms">
-                Terms
-              </a>{' '}
-              and{' '}
-              <a target="_blank" href="/privacy">
-                Privacy Notice
-              </a>.
-            </h2>
-            <div className="button-holder">
-              <button
-                onClick={e => {
-                  this.state.onPrivacyAction &&
-                    this.state.onPrivacyAction(true);
-                }}>
-                I agree
-              </button>
-              <button
-                onClick={e => {
-                  this.state.onPrivacyAction &&
-                    this.state.onPrivacyAction(false);
-                }}>
-                I do not agree
-              </button>
-            </div>
-          </div>
-        </div>
+        {this.state.showPrivacyModal && (
+          <Modal
+            buttons={{
+              'I agree': () => this.handlePrivacyAction(true),
+              'I do not agree': () => this.handlePrivacyAction(false),
+            }}>
+            By using Common Voice, you agree to our{' '}
+            <a target="_blank" href="/terms">
+              Terms
+            </a>{' '}
+            and{' '}
+            <a target="_blank" href="/privacy">
+              Privacy Notice
+            </a>.
+          </Modal>
+        )}
       </div>
     );
   }
