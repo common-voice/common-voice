@@ -1,24 +1,27 @@
 import * as React from 'react';
 
-const Label = ({ className = '', ...props }) => (
-  <label className={'labeled-form-control ' + className} {...props} />
-);
-
-export const LabeledInput = ({ className, label, ...props }: any) => (
-  <Label className={className}>
-    {label}
-    <input {...props} />
-  </Label>
-);
-
-export const LabeledSelect = ({
-  children: options,
-  className,
+const LabeledFormControl = ({
+  className = '',
+  component: Component,
   label,
+  required,
   ...props,
 }: any) => (
-  <Label className={className}>
+  <label className={'labeled-form-control ' + className} {...props}>
     {label}
-    <select {...props}>{options}</select>
-  </Label>
+    {required && '*'}
+    <Component {...{ required, ...props }} />
+  </label>
+);
+
+export const LabeledInput = (props: any) => (
+  <LabeledFormControl component="input" {...props} />
+);
+
+export const LabeledSelect = (props: any) => (
+  <LabeledFormControl component="select" {...props} />
+);
+
+export const LabeledTextArea = (props: any) => (
+  <LabeledFormControl component="textarea" {...props} />
 );

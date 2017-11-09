@@ -1,4 +1,5 @@
 .labeled-form-control {
+    margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -9,12 +10,19 @@
     font-size: var(--small-font-size);
 }
 
-.labeled-form-control input, .labeled-form-control select {
+.labeled-form-control input, .labeled-form-control select, .labeled-form-control textarea {
     box-sizing: border-box;
     border: none;
     margin-top: .2rem;
     padding: .5rem;
-    height: var(--input-height);
     font-size: var(--base-font-size);
     background-color: var(--color-input-background);
+}
+
+.labeled-form-control input, .labeled-form-control select {
+    height: var(--input-height);
+}
+
+.labeled-form-control :required, .labeled-form-control :valid {
+    box-shadow:none;
 }

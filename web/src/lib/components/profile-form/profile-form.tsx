@@ -76,7 +76,7 @@ export default class ProfileCard extends React.Component<Props, State> {
           </Modal>
         )}
 
-        <div className="card-head">
+        <div className="title-and-action">
           <h1>Create a Profile</h1>
           <a onClick={onExit || this.toggleClearModal}>
             {onExit

@@ -1,3 +1,4 @@
+@import url('./contact-modal/contact-modal.css');
 @import url('./vars.css');
 @import url('./ui/ui.css');
 
@@ -116,10 +117,6 @@ button.dark {
 button.dark:active {
   background-color: white;
   color: black;
-}
-
-input:invalid {
-  border-color: red;
 }
 
 /* Icon font element. */
@@ -700,4 +697,18 @@ body:not(.mobile-safari) .robot .bubble:hover {
 
 .focus #donate {
   padding-bottom: 1rem;
+}
+
+.title-and-action {
+  margin-bottom: var(--standard-margin);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-and-action a {
+  font-size: var(--small-font-size);
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
 }
