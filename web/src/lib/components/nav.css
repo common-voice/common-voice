@@ -64,12 +64,13 @@ header.active {
     width: 10rem;
 }
 
-#help-links a:first-child {
+#help-links a {
+    cursor: pointer;
     border-right: 1px solid black;
 }
 
-#help-links a:nth-child(2) {
-    border-right: 1px solid black;
+#help-links a:last-child {
+    border-right: none;
 }
 
 #moz-links {

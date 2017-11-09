@@ -2,10 +2,11 @@ import * as React from 'react';
 import { Switch, Route, RouteComponentProps, withRouter } from 'react-router';
 import { Link, NavLink } from 'react-router-dom';
 import { getItunesURL, isNativeIOS, isIOS, isSafari } from '../utility';
+import Modal from './modal/modal';
+import ContactModal from './contact-modal/contact-modal';
 import Logo from './logo';
 import Icon from './icon';
 import Robot from './robot';
-import Modal from './modal/modal';
 
 import Home from './pages/home/home';
 import Listen from './pages/listen';
@@ -50,6 +51,7 @@ interface PagesProps extends RouteComponentProps<any> {
 interface PagesState {
   isMenuVisible: boolean;
   scrolled: boolean;
+  showContactModal: boolean;
   showPrivacyModal: boolean;
   transitioning: boolean;
   recording: boolean;
@@ -68,6 +70,7 @@ class Pages extends React.Component<PagesProps, PagesState> {
   state: PagesState = {
     isMenuVisible: false,
     scrolled: false,
+    showContactModal: false,
     showPrivacyModal: false,
     transitioning: false,
     recording: false,
@@ -257,6 +260,10 @@ class Pages extends React.Component<PagesProps, PagesState> {
     }
   }
 
+  private toggleContactModal = () => {
+    this.setState(state => ({ showContactModal: !state.showContactModal }));
+  };
+
   toggleMenu = () => {
     this.setState({ isMenuVisible: !this.state.isMenuVisible });
   };
@@ -278,6 +285,9 @@ class Pages extends React.Component<PagesProps, PagesState> {
 
     return (
       <div id="main" className={className}>
+        {this.state.showContactModal && (
+          <ContactModal onRequestClose={this.toggleContactModal} />
+        )}
         {isIOS() &&
           !isNativeIOS() &&
           !isSafari() && (
@@ -413,6 +423,10 @@ class Pages extends React.Component<PagesProps, PagesState> {
                     href="https://discourse.mozilla-community.org/c/voice">
                     <Icon type="discourse" />
                     <p className="strong">Community</p>
+                  </a>
+                  <a onClick={this.toggleContactModal}>
+                    <Icon type="contact" />
+                    <p className="strong">Contact</p>
                   </a>
                 </div>
               </div>

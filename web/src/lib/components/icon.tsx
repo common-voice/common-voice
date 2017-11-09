@@ -33,6 +33,7 @@ const ICONS: FontIcons = {
   chrome: '',
   help: '',
   discourse: '',
+  contact: '',
 };
 
 interface Props {

@@ -1,0 +1,27 @@
+.ReactModal__Content .inner.contact-modal {
+    max-width: 35rem;
+    text-align: start;
+}
+
+.contact-modal .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-modal .actions > * {
+    flex: 1;
+}
+
+.contact-modal .actions button {
+    width: 100%;
+    max-width: 12rem;
+    background: black;
+    color: white;
+    font-weight: normal;
+}
+
+.contact-modal .actions div {
+    font-size: var(--small-font-size);
+    font-style: italic;
+}
