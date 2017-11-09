@@ -1,6 +1,5 @@
 import ERROR_MSG from '../../../../error-msg';
 import { isNativeIOS } from '../../../utility';
-import confirm from '../../../confirm/confirm';
 
 const AUDIO_TYPE = 'audio/ogg; codecs=opus';
 
@@ -118,74 +117,53 @@ export default class AudioWeb {
    * access. Since these permission changes take effect only after a reload,
    * the page is reloaded if the user decides to do so.
    *
-   * @returns A Promise that resolves to `true` if the microphone stream is
-   *          opened successfully; or resolves to `false` if microphone access
-   *          is denied; or is rejected if another error occurs.
    */
-  async init(): Promise<boolean> {
+  async init() {
     if (this.isReady()) {
-      return true;
+      return;
     }
 
-    try {
-      const microphone = await this.getMicrophone();
+    const microphone = await this.getMicrophone();
 
-      this.microphone = microphone;
-      var audioContext = new AudioContext();
-      var sourceNode = audioContext.createMediaStreamSource(microphone);
-      var volumeNode = audioContext.createGain();
-      var analyzerNode = audioContext.createAnalyser();
-      var outputNode = audioContext.createMediaStreamDestination();
+    this.microphone = microphone;
+    var audioContext = new AudioContext();
+    var sourceNode = audioContext.createMediaStreamSource(microphone);
+    var volumeNode = audioContext.createGain();
+    var analyzerNode = audioContext.createAnalyser();
+    var outputNode = audioContext.createMediaStreamDestination();
 
-      // Make sure we're doing mono everywhere.
-      sourceNode.channelCount = 1;
-      volumeNode.channelCount = 1;
-      analyzerNode.channelCount = 1;
-      outputNode.channelCount = 1;
+    // Make sure we're doing mono everywhere.
+    sourceNode.channelCount = 1;
+    volumeNode.channelCount = 1;
+    analyzerNode.channelCount = 1;
+    outputNode.channelCount = 1;
 
-      // Connect the nodes together
-      sourceNode.connect(volumeNode);
-      volumeNode.connect(analyzerNode);
-      analyzerNode.connect(outputNode);
+    // Connect the nodes together
+    sourceNode.connect(volumeNode);
+    volumeNode.connect(analyzerNode);
+    analyzerNode.connect(outputNode);
 
-      // and set up the recorder.
-      this.recorder = new MediaRecorder(outputNode.stream);
+    // and set up the recorder.
+    this.recorder = new MediaRecorder(outputNode.stream);
 
-      // Set up the analyzer node, and allocate an array for its data
-      // FFT size 64 gives us 32 bins. But those bins hold frequencies up to
-      // 22kHz or more, and we only care about visualizing lower frequencies
-      // which is where most human voice lies, so we use fewer bins
-      analyzerNode.fftSize = 128;
-      analyzerNode.smoothingTimeConstant = 0.96;
-      this.frequencyBins = new Uint8Array(analyzerNode.frequencyBinCount);
+    // Set up the analyzer node, and allocate an array for its data
+    // FFT size 64 gives us 32 bins. But those bins hold frequencies up to
+    // 22kHz or more, and we only care about visualizing lower frequencies
+    // which is where most human voice lies, so we use fewer bins
+    analyzerNode.fftSize = 128;
+    analyzerNode.smoothingTimeConstant = 0.96;
+    this.frequencyBins = new Uint8Array(analyzerNode.frequencyBinCount);
 
-      // Setup audio visualizer.
-      this.jsNode = audioContext.createScriptProcessor(256, 1, 1);
-      this.jsNode.connect(audioContext.destination);
+    // Setup audio visualizer.
+    this.jsNode = audioContext.createScriptProcessor(256, 1, 1);
+    this.jsNode.connect(audioContext.destination);
 
-      // Another audio node used by the beep() function
-      var beeperVolume = audioContext.createGain();
-      beeperVolume.connect(audioContext.destination);
+    // Another audio node used by the beep() function
+    var beeperVolume = audioContext.createGain();
+    beeperVolume.connect(audioContext.destination);
 
-      this.analyzerNode = analyzerNode;
-      this.audioContext = audioContext;
-
-      return true;
-    } catch (err) {
-      if (err === ERROR_MSG.ERR_NO_MIC) {
-        const shouldRetry = await confirm(
-          'You must allow microphone access.',
-          'Retry',
-          'Cancel'
-        );
-        if (shouldRetry) {
-          window.location.reload();
-        }
-        return false;
-      } else {
-        throw err;
-      }
-    }
+    this.analyzerNode = analyzerNode;
+    this.audioContext = audioContext;
   }
 
   start(): Promise<void> {

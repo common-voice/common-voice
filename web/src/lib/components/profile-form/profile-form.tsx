@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { ACCENTS, AGES, GENDER, default as User } from '../../user';
+import Modal from '../modal/modal';
+import { ACCENTS, AGES, GENDER, default as User, UserState } from '../../user';
 
 interface Props {
   user: User;
@@ -13,28 +14,21 @@ interface State {
   age: string;
   gender: string;
   sendEmails: boolean;
+  showClearModal: boolean;
 }
 
-const CLEAR_MODAL_TEXT =
-  'Clearing your profile data means this demographic information will no longer be submitted to Common Voice with' +
-  'your clip recordings.';
-
 export default class ProfileCard extends React.Component<Props, State> {
-  state = this.props.user.getState();
+  state = { ...this.props.user.getState(), showClearModal: false };
+
+  private toggleClearModal = () => {
+    this.setState(state => ({ showClearModal: !state.showClearModal }));
+  };
 
   private clear = () => {
-    if (!confirm(CLEAR_MODAL_TEXT)) return;
-
-    const emptyState: State = {
-      email: '',
-      username: '',
-      accent: '',
-      age: '',
-      gender: '',
-      sendEmails: false,
-    };
-    this.setState(emptyState);
-    this.props.user.setState(emptyState);
+    this.setState({
+      ...(this.props.user.clear() as any),
+      showClearModal: false,
+    });
   };
 
   private update = ({ target }: any) => {
@@ -53,7 +47,7 @@ export default class ProfileCard extends React.Component<Props, State> {
   render() {
     const { onExit } = this.props;
     const { email, username, accent, age, gender, sendEmails } = this.state;
-    const user = this.props.user.getState();
+    const userState = this.props.user.getState();
 
     const isModified = [
       'email',
@@ -63,16 +57,30 @@ export default class ProfileCard extends React.Component<Props, State> {
       'gender',
       'sendEmails',
     ].some(key => {
-      const typedKey = key as keyof State;
-      return this.state[typedKey] !== user[typedKey];
+      const typedKey = key as keyof UserState;
+      return this.state[typedKey] !== userState[typedKey];
     });
 
     return (
       <div id="profile-card">
+        {this.state.showClearModal && (
+          <Modal
+            onRequestClose={this.toggleClearModal}
+            buttons={{
+              'Keep Data': this.toggleClearModal,
+              'Delete Data': this.clear,
+            }}>
+            Clearing your profile data means this demographic information will
+            no longer be submitted to Common Voice with your clip recordings.
+          </Modal>
+        )}
+
         <div className="card-head">
           <h1>Create a Profile</h1>
-          <a onClick={onExit || this.clear}>
-            {onExit ? 'Exit Form' : 'Clear Form'}
+          <a onClick={onExit || this.toggleClearModal}>
+            {onExit
+              ? 'Exit Form'
+              : this.props.user.hasEnteredInfo() && 'Clear Form'}
           </a>
         </div>
         <br />
