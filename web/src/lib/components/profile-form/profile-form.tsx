@@ -1,6 +1,7 @@
 import * as React from 'react';
-import Modal from '../modal/modal';
 import { ACCENTS, AGES, GENDER, default as User, UserState } from '../../user';
+import Modal from '../modal/modal';
+import { LabeledInput, LabeledSelect } from '../ui/ui';
 
 interface Props {
   user: User;
@@ -86,34 +87,29 @@ export default class ProfileCard extends React.Component<Props, State> {
         <br />
 
         <form onSubmit={this.save}>
-          <label className="half-width">
-            Email
-            <input
-              onChange={this.update}
-              type="email"
-              name="email"
-              tabIndex={1}
-              value={email}
-            />
-          </label>
+          <LabeledInput
+            className="half-width"
+            label="Email"
+            name="email"
+            onChange={this.update}
+            type="email"
+            value={email}
+          />
 
-          <label className="half-width">
-            User Name
-            <input
-              onChange={this.update}
-              type="text"
-              name="username"
-              tabIndex={1}
-              value={username}
-            />
-          </label>
+          <LabeledInput
+            className="half-width"
+            label="User Name"
+            name="username"
+            onChange={this.update}
+            type="text"
+            value={username}
+          />
 
           <label id="opt-in">
             <input
               onChange={this.update}
               name="sendEmails"
               type="checkbox"
-              tabIndex={3}
               checked={sendEmails}
             />
             Yes, send me emails. I'd like to stay informed about the Common
@@ -122,47 +118,44 @@ export default class ProfileCard extends React.Component<Props, State> {
 
           <hr />
 
-          <label className="half-width">
-            Language
-            <select name="language" tabIndex={-1} disabled>
-              <option value="">More languages coming soon!</option>
-            </select>
-          </label>
+          <LabeledSelect
+            className="half-width"
+            disabled
+            label="Language"
+            name="language"
+            tabIndex={-1}>
+            <option value="">More languages coming soon!</option>
+          </LabeledSelect>
 
-          <label className="half-width">
-            Accent
-            <select
-              name="accent"
-              onChange={this.update}
-              tabIndex={4}
-              value={accent}>
-              {this.renderOptionsFor(ACCENTS)}
-            </select>
-          </label>
+          <LabeledSelect
+            className="half-width"
+            label="Accent"
+            name="accent"
+            onChange={this.update}
+            value={accent}>
+            {this.renderOptionsFor(ACCENTS)}
+          </LabeledSelect>
 
-          <label className="half-width">
-            Age
-            <select name="age" onChange={this.update} tabIndex={5} value={age}>
-              {this.renderOptionsFor(AGES)}
-            </select>
-          </label>
+          <LabeledSelect
+            className="half-width"
+            label="Age"
+            name="age"
+            onChange={this.update}
+            value={age}>
+            {this.renderOptionsFor(AGES)}
+          </LabeledSelect>
 
-          <label className="half-width">
-            Gender
-            <select
-              name="gender"
-              onChange={this.update}
-              tabIndex={6}
-              value={gender}>
-              {this.renderOptionsFor(GENDER)}
-            </select>
-          </label>
+          <LabeledSelect
+            className="half-width"
+            label="Gender"
+            name="gender"
+            onChange={this.update}
+            value={gender}>
+            {this.renderOptionsFor(GENDER)}
+          </LabeledSelect>
 
           <div className="buttons">
-            <button
-              type="submit"
-              tabIndex={7}
-              className={isModified ? 'dark' : ''}>
+            <button type="submit" className={isModified ? 'dark' : ''}>
               {isModified ? 'SAVE' : 'SAVED'}
             </button>
           </div>

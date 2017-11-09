@@ -1,4 +1,5 @@
 @import url('./vars.css');
+@import url('./ui/ui.css');
 
 /* Define our icon font. */
 @font-face {
@@ -115,29 +116,6 @@ button.dark {
 button.dark:active {
   background-color: white;
   color: black;
-}
-
-select {
-  display: block;
-  background: none;
-  font-size: 1rem;
-  width: 100%;
-  height: var(--input-height);
-  border: 1px solid var(--base-font-color);
-}
-
-input[type="email"],
-input[type="text"] {
-  height: var(--input-height);
-  border: 1px solid black;
-  border-radius: 0;
-  font-size: var(--base-font-size);
-  box-sizing: border-box;
-  padding: 0px 2px 1px;
-}
-
-label {
-  font-size: 0.7rem;
 }
 
 input:invalid {

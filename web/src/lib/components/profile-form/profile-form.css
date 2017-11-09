@@ -11,7 +11,7 @@
 }
 
 #profile-card a {
-    font-size: .8rem;
+    font-size: var(--small-font-size);
     font-weight: bold;
     text-decoration: underline;
     cursor: pointer;
@@ -21,13 +21,6 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-}
-
-#profile-card .half-width {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    font-style: italic;
 }
 
 @media (max-width: 449px) {
@@ -53,13 +46,6 @@
     }
 }
 
-#profile-card input, #profile-card select {
-    margin-top: .2rem;
-    border: none;
-    padding: .5rem;
-    background-color: var(--color-input-background);
-}
-
 #profile-card hr {
     margin: 1.5rem 0;
     border-color: rgba(0, 0, 0, 0.2);
@@ -68,6 +54,10 @@
 
 #opt-in {
     display: flex;
+}
+
+#opt-in {
+    font-size: var(--small-font-size);
 }
 
 #opt-in input {
