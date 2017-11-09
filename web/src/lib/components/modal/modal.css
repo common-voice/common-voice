@@ -26,7 +26,7 @@
 .ReactModal__Content .inner {
     margin: 0 auto;
     box-sizing: border-box;
-    padding: 3rem;
+    padding: 1rem 2rem;
     width: 100%;
     max-width: 40rem;
     text-align: center;
