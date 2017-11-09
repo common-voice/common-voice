@@ -28,9 +28,10 @@
     box-sizing: border-box;
     padding: 3rem;
     width: 100%;
-    max-width: 30rem;
+    max-width: 40rem;
     text-align: center;
     background: var(--base-background-color);
+    pointer-events: all;
 }
 
 .ReactModal__Content .buttons {
