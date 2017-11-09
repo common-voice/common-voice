@@ -50,5 +50,5 @@
 }
 
 #profile-actions a, #why-profile-title {
-    font-size: .8rem;
+    font-size: var(--small-font-size);
 }

@@ -19,7 +19,7 @@
 
 #box-headers {
     text-align: right;
-    font-size: 0.8rem;
+    font-size: var(--small-font-size);
     padding: 1.5rem 0 0.3rem;
 }
 

@@ -69,7 +69,7 @@ body.mobile-safari .play-box:active {
 
 @media (max-width: 600px) {
     .sentence-box {
-        font-size: 0.8rem;
+        font-size: var(--small-font-size);
         line-height: 1.2rem;
         flex: 1;
     }

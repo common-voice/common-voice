@@ -38,7 +38,7 @@
 
 #recordings-count {
     color: var(--color-speak-dark);
-    font-size: 0.8rem;
+    font-size: var(--small-font-size);
     font-weight: bold;
     margin-top: 0.5rem;
 }
