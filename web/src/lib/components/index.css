@@ -230,6 +230,7 @@ input:invalid {
   background-size: 100% 100%;
   z-index: var(--bottom-z-index);
   transition: opacity 0.4s var(--bounce-curve), transform 0.2s linear;
+  pointer-events: none;
 }
 
 #background-container:after {
