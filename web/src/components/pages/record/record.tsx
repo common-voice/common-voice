@@ -1,11 +1,11 @@
-import API from '../../../api';
+import API from '../../../services/api';
 import User from '../../../user';
-import Tracker from '../../../tracker';
+import Tracker from '../../../services/tracker';
 import * as React from 'react';
 import Icon from '../../icon';
 import AudioIOS from './audio-ios';
 import AudioWeb, { AudioInfo } from './audio-web';
-import ERROR_MSG from '../../../../error-msg';
+import ERROR_MSG from '../../../error-msg';
 import ListenBox from '../../listen-box/listen-box';
 import Alert from '../../alert/alert';
 import Modal from '../../modal/modal';

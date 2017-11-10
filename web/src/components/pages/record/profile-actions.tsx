@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Link } from 'react-router-dom';
 import ProfileForm from '../../profile-form/profile-form';
 import User from '../../../user';
-import messages from '../../../../messages';
+import messages from '../../../messages';
 
 interface WhyProfileState {
   expanded: boolean;

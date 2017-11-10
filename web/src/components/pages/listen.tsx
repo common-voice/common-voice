@@ -1,5 +1,5 @@
 import * as React from 'react';
-import API from '../../api';
+import API from '../../services/api';
 import Validator from '../validator';
 import User from '../../user';
 import { RouteComponentProps } from 'react-router';

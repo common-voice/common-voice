@@ -1,8 +1,8 @@
 import * as React from 'react';
-import User from './user';
-import API from './api';
-import Pages from './components/pages';
-import { isMobileWebkit, isFocus, isNativeIOS, sleep } from './utility';
+import User from '../user';
+import API from '../services/api';
+import Pages from './pages';
+import { isMobileWebkit, isFocus, isNativeIOS, sleep } from '../utility';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 const LOAD_TIMEOUT = 5000; // we can only wait so long.

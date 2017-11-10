@@ -1,6 +1,6 @@
-@import url('./contact-modal/contact-modal.css');
-@import url('./vars.css');
-@import url('./ui/ui.css');
+@import url('contact-modal/contact-modal.css');
+@import url('vars.css');
+@import url('ui/ui.css');
 
 /* Define our icon font. */
 @font-face {
@@ -167,7 +167,7 @@ button.dark:active {
   animation: fadein 0.5s linear;
 }
 
-@import url('./nav.css');
+@import url('nav.css');
 
 @media (max-width: 600px) {
   #scroller {
@@ -545,8 +545,8 @@ body:not(.mobile-safari) .robot .bubble:hover {
   }
 }
 
-@import url('./pages/home/home.css');
-@import url('./pages/record/record.css');
+@import url('pages/home/home.css');
+@import url('pages/record/record.css');
 
 #content > #faq-container,
 #content > #terms-container,
@@ -596,7 +596,7 @@ body:not(.mobile-safari) .robot .bubble:hover {
   100%{background-position:0% 50%}
 }
 
-@import url('./modal/modal.css');
+@import url('modal/modal.css');
 
 .privacy-content {
   background-color: var(--base-background-color);
