@@ -1,19 +1,9 @@
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
     display: flex;
-    flex-flow: row nowrap;
     height: var(--header-height);
     box-sizing: border-box;
     z-index: var(--top-z-index);
-    align-items: flex-start;
     transition: background-color 0.15s linear;
-    background-image: url("/img/strip-top.png");
-    background-position: 2rem 0;
-    background-size: 2rem;
-    background-repeat: no-repeat;
 }
 
 header.active {
@@ -23,6 +13,10 @@ header.active {
 
 @media (max-width: 600px) {
     header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
         padding: var(--page-margin) var(--page-margin) 0;
         background: none;
     }
@@ -30,14 +24,13 @@ header.active {
 
 @media (min-width: 600px) {
     header {
-        max-width: var(--desktop-width);
-        position: absolute;
-        bottom: 0;
         margin: 0 auto;
+        padding-top: 1.5rem;
+        max-width: var(--desktop-width);
         height: unset;
+        flex-direction: row;
         align-items: baseline;
-        flex-direction: column;
-        padding-top: 12.5rem;
+        justify-content: space-between;
         pointer-events: none;
     }
     header > * {
@@ -131,46 +124,17 @@ header.active {
     display: flex;
 }
 
-.tab {
+.nav-list a {
+    padding: 0 1rem;
     display: block;
-    box-sizing: border-box;
-    cursor: pointer;
-    flex-grow: 0;
-    margin: 0 var(--page-margin);
-    vertical-align: bottom;
+    font-family: var(--base-font-family);
+    font-size: var(--small-font-size);
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
-.tab .tab-name {
-    background-color: var(--color-text-help);
-    transition: background-color 0.15s ease-in;
-    padding: 0.2rem 6rem 0.2rem 0.6rem;
-}
-
-.tab > .active .tab-name {
-    background-color: var(--color-about);
-    padding-right: 6rem;
-}
-
-.tab > .active .tab-name.speak {
-    background-color: var(--color-speak);
-}
-
-.tab > .active .tab-name.listen {
-    background-color: var(--color-listen);
-}
-
-.tab > .active .tab-name.profile {
-    background-color: var(--color-profile);
-}
-
-
-#main-nav .tab {
-    line-height: 1.4;
-    margin: 0.35rem 0;
-}
-
-#main-nav .tab.active {
-    transition: none;
+.nav-list a.active {
+    color: var(--color-speak);
 }
 
 #hamburger-menu {
@@ -192,10 +156,6 @@ header.active {
 
 #main-nav {
     display: none;
-    margin: 0;
-    flex-flow: column nowrap;
-    padding: 0;
-    font-weight: bold;
 }
 
 @media (min-width: 600px) {
@@ -204,7 +164,6 @@ header.active {
     }
     #main-nav {
         display: flex;
-        margin-top: 0.7rem;
     }
 }
 
@@ -266,10 +225,8 @@ header.active {
     font-size: 1.3rem;
 }
 
-#navigation-modal .tab {
+#navigation-modal a {
     line-height: 3.2;
     font-weight: bold;
     font-size: 1.3rem;
-    border-bottom: 2px dashed;
-    border-bottom-color: #d5d5d5;
 }

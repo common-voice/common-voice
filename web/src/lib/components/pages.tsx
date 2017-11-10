@@ -9,7 +9,6 @@ import Icon from './icon';
 import Robot from './robot';
 
 import Home from './pages/home/home';
-import Listen from './pages/listen';
 import Record from './pages/record/record';
 import Profile from './pages/profile';
 import FAQ from './pages/faq';
@@ -24,7 +23,6 @@ interface PageUrls {
   [key: string]: string;
   ROOT: string;
   RECORD: string;
-  LISTEN: string;
   PROFILE: string;
   FAQ: string;
   PRIVACY: string;
@@ -35,7 +33,6 @@ interface PageUrls {
 const URLS: PageUrls = {
   ROOT: '/',
   RECORD: '/record',
-  LISTEN: '/listen',
   PROFILE: '/profile',
   FAQ: '/faq',
   PRIVACY: '/privacy',
@@ -95,7 +92,6 @@ class Pages extends React.Component<PagesProps, PagesState> {
     this.onRecord = this.onRecord.bind(this);
     this.onRecordStop = this.onRecordStop.bind(this);
     this.sayThanks = this.sayThanks.bind(this);
-    this.renderUser = this.renderUser.bind(this);
     this.clearRobot = this.clearRobot.bind(this);
     this.openInApp = this.openInApp.bind(this);
     this.closeOpenInApp = this.closeOpenInApp.bind(this);
@@ -311,7 +307,6 @@ class Pages extends React.Component<PagesProps, PagesState> {
             this.header = header as HTMLElement;
           }}>
           <Logo />
-          {this.renderUser()}
           <button
             id="hamburger-menu"
             onClick={this.toggleMenu}
@@ -336,9 +331,6 @@ class Pages extends React.Component<PagesProps, PagesState> {
             </div>
             <div className="hero">
               <Robot
-                match={null}
-                location={null}
-                history={null}
                 position={
                   (pageName === 'record' && this.state.robot) || pageName
                 }
@@ -374,17 +366,6 @@ class Pages extends React.Component<PagesProps, PagesState> {
                       onVolume={this.onVolume}
                       onSubmit={this.uploadRecordings}
                       onDelete={this.clearRobot}
-                      user={this.props.user}
-                      {...props}
-                    />
-                  )}
-                />
-                <Route
-                  exact
-                  path={URLS.LISTEN}
-                  render={props => (
-                    <Listen
-                      api={this.props.api}
                       user={this.props.user}
                       {...props}
                     />
@@ -482,23 +463,20 @@ class Pages extends React.Component<PagesProps, PagesState> {
     );
   }
 
-  private renderTab(url: string, name: string) {
-    return (
-      <div className="tab">
-        <NavLink to={url} exact>
-          <span className={'tab-name ' + name}>{name}</span>
-        </NavLink>
-      </div>
-    );
-  }
-
   private renderNav(id?: string, hideHome?: boolean) {
     return (
       <nav id={id} className="nav-list">
-        {!hideHome && this.renderTab('/', 'home')}
-        {this.renderTab('/record', 'speak')}
-        {this.renderTab('/listen', 'listen')}
-        {this.renderTab('/profile', 'profile')}
+        {!hideHome && (
+          <NavLink to="/" exact>
+            Home
+          </NavLink>
+        )}
+        <NavLink to="/record" exact>
+          Speak
+        </NavLink>
+        <NavLink to="/profile" exact>
+          Profile
+        </NavLink>
       </nav>
     );
   }

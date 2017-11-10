@@ -445,7 +445,7 @@ body:not(.ios) .recording #background-container {
 }
 
 .home .robot {
-  transform: translate(-6rem, 5rem)
+  transform: translate(2rem, 5rem)
 }
 
 @media (max-width: 600px) {
@@ -455,93 +455,13 @@ body:not(.ios) .recording #background-container {
   }
 }
 
-.listen .robot {
-  transform: translate(6rem, 5rem);
-}
-
-@media (max-width: 600px) {
-  .listen .robot {
-    transform: translate(8rem,1rem);
-  }
-}
-
 .record .robot {
-  transform: translate(7.2rem, 7.5rem);
+  transform: translate(1.3rem, 4.4rem);
 }
 
 @media (max-width: 600px) {
   .record .robot {
     transform: translate(4.5rem,0.5rem);
-  }
-}
-
-.robot-talker {
-  font-family: var(--strong-font-family);
-  font-size: 1.4rem;
-  font-weight: bold;
-  text-shadow: 1px 1px 0px var(--color-text-help);
-  text-align: left;
-  position: absolute;
-  box-sizing: border-box;
-  top: 3rem;
-  right: -19rem;
-  width: 18rem;
-  padding: 0.2rem;
-  opacity: 0;
-  transition: opacity 0.2s linear;
-}
-
-@media (max-width: 600px) {
-  .robot-talker {
-    top: -1.5rem;
-    right: -15.5rem;
-    width: 15rem;
-  }
-}
-
-.home .robot-talker {
-  opacity: 1;
-}
-
-.robot-talker > * {
-  background-color: var(--color-text-help);
-  display: inline;
-}
-
-.robot .bubble {
-  display: none;
-  align-items: center;
-  position: absolute;
-  box-sizing: border-box;
-  padding-left: 1.5rem;
-  height: 4rem;
-  width: 13.8rem;
-  top: calc(var(--robot-height) / 4);
-  right: -120%;
-  background-image: url("/img/speech-bubble.png");
-  background-size: auto 4rem;
-  font-weight: bold;
-  cursor: pointer;
-  transition: transform 0.2s var(--bounce-curve);
-}
-
-@media (max-width: 600px) {
-  .robot .bubble {
-    top: calc(var(--robot-height-mobile) / 4);
-  }
-}
-
-body:not(.mobile-safari) .robot .bubble:hover {
-  transform: scale(1.05);
-}
-
-@media (max-width: 600px) {
-  .robot .bubble {
-    height: 4rem;
-    width: 11rem;
-    right: -180%;
-    top: 2rem;
-    background-size: 11rem 4rem;
   }
 }
 
@@ -555,16 +475,6 @@ body:not(.mobile-safari) .robot .bubble:hover {
   padding-top: calc(var(--header-height) + 0.5rem);
   padding-bottom: 2rem;
   text-align: left;
-}
-
-@media (min-width: 600px) {
-  #content > #not-found-container,
-  #content > #faq-container,
-  #content > #terms-container,
-  #content > #privacy-container,
-  #content > #profile-container {
-    padding-left: var(--sidebar-width);
-  }
 }
 
 @import url('profile-form/profile-form.css');
@@ -689,7 +599,6 @@ body:not(.mobile-safari) .robot .bubble:hover {
   100%{ transform: rotate(-360deg); }
 }
 
-.focus .tab.listen,
 .focus .right-column,
 .focus #try-it-container {
   display: none;

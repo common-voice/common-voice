@@ -1,19 +1,9 @@
 @import url('./profile-actions.css');
 @import url('./review.css');
 
-#listen-container {
-    padding: 0.7rem;
-    text-align: center;
-}
-
-#listen-container .listen-box {
-    margin-top: 2rem;
-}
-
 #record-container {
     position: relative;
     top: -4.5rem;
-    padding-left: var(--sidebar-width);
     text-align: center;
     padding-top: 0;
 }
