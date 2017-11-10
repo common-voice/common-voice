@@ -150,7 +150,7 @@ header.active {
     border: none;
 }
 
-#hamburger-menu.is-active {
+#hamburger-menu.active {
     transform: rotate(90deg);
 }
 
@@ -210,10 +210,10 @@ header.active {
     padding: var(--header-height) 0 0;
     pointer-events: none;
     transform: translateY(-100vh);
-    transition: all 0.55s var(--bounce-curve);
+    transition: all 0.55s var(--easing);
 }
 
-#navigation-modal.is-active {
+#navigation-modal.active {
     display: block;
     transform: translateY(0);
     pointer-events: all;

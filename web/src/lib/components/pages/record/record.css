@@ -53,7 +53,7 @@
     padding: 0 1rem;
     background-color: var(--base-background-color);
     box-shadow: var(--card-shadow);
-    transition: transform 0.4s var(--bounce-curve);
+    transition: transform 0.4s var(--easing);
     font-family: var(--strong-font-family);
     font-size: 1.4rem;
     font-weight: bold;
@@ -147,7 +147,7 @@
 }
 
 #record-help {
-    font-size: 1rem;
+    font-size: var(--small-font-size);
     padding: 0 2rem;
 }
 

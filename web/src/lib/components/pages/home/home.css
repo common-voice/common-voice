@@ -1,98 +1,92 @@
-.home .robot .bubble {
-    display: flex;
-}
-
-#home-container {
-}
-
-#home-title {
-    padding: 1rem 0;
-}
-
 @media (min-width: 600px) {
-    #home-layout {
-        background-image: url("/img/strip-repeat.png");
-        background-position: 2.5rem 0;
-        background-size: 0.2rem;
-        background-repeat: repeat-y;
+    #home-title {
+        position: absolute;
+        top: 0;
+        margin-top: 3rem;
+        width: var(--desktop-width);
+        animation: fade-in .5s;
+    }
+
+    #wall-of-text {
+        width: calc(100% - 290px);
+        margin-left: auto;
+    }
+
+    #contribute-button {
+        top: 19.8rem;
     }
 }
 
 @media (max-width: 600px) {
-    #home-layout div.left-column {
-        padding-left: 0;
+    #home-title {
+        margin: 1rem 0;
     }
-    #home-layout div.right-column {
-        display: none;
+
+    #contribute-button {
+        top: 5rem;
+        margin: 0 var(--standard-margin) 0 10rem;
     }
 }
 
-#home-layout {
-    --donate-height: 5rem;
-    position: relative;
+#contribute-button {
+    position: absolute;
+    padding: 1rem 1rem;
     display: flex;
-    align-items: flex-end;
-    padding-bottom: var(--donate-height);
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    box-shadow: var(--card-shadow);
+    background: white;
+    text-transform: none;
+    animation: fade-in .5s;
 }
 
-#home-layout .left-column {
-    padding-left: 8rem;
-    line-height: 1.55;
+#record-icon {
+    border: 2px solid var(--color-speak-dark);
+    border-radius: 50%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 16px;
+    width: 16px;
 }
 
-#home-layout .left-column p:first-child {
-    margin-bottom: 1rem;
-}
-
-#home-layout .left-column > button {
-    float: right;
-}
-
-#home-layout .right-column {
-    flex: 0 0 30%;
-    margin-left: 2rem;
-    font-size: 1.2rem;
-    position: relative;
-    bottom: -12rem;
-}
-
-#home-layout .right-column > p {
-    text-shadow: var(--highlight-shadow-listen);
-}
-
-#home-layout .curved-arrow {
-    height: 13rem;
-    position: relative;
-    right: -5rem;
-}
-
-#home-layout .circle {
+#record-icon::after {
     position: absolute;
-    left: -25%;
-    top: 0;
-    height: 8rem;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 12px;
+    height: 12px;
+    content: " ";
+    background-color: var(--color-speak-dark);
+    border-radius: 50%;
 }
 
-#donate {
-    height: var(--donate-height);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 3rem;
-    text-align: center;
+#contribute-button #record-icon {
+    margin-right: 1rem;
 }
 
-#donate button {
-    margin: 0 auto;
-    padding: 0 5rem;
-    height: 3rem;
+#wall-of-text p:first-child {
+    margin-bottom: var(--standard-margin);
 }
 
-#try-it-container {
-    margin: 2.5rem 0;
+#show-more-text {
+    font-size: var(--small-font-size);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
-#home-container .validator {
-    margin-top: 2rem;
+#home-container hr {
+    margin: 2rem 0;
+    border-color: #E5E4E2;
+}
+
+#help-explain {
+    margin: var(--standard-margin) 0 1.5rem;
+    font-size: var(--small-font-size);
+    font-style: italic;
 }

@@ -5,7 +5,7 @@ import Icon from '../icon';
 interface Props {
   src?: string;
   sentence?: string;
-  vote?: string;
+  vote?: boolean;
   onVote?(valid: boolean): void;
   onDelete?(): void;
 }
@@ -138,30 +138,20 @@ export default class ListenBox extends React.Component<Props, State> {
           (this.state.loaded ? ' loaded' : '') +
           (this.state.playing ? ' playing' : '')
         }>
-        <div className="sentence-box">
-          <b style={!this.props.vote ? { display: 'none' } : {}}>
-            What we asked them to read:
-          </b>
-          {this.props.sentence}
-        </div>
+        <div className="sentence-box">{this.props.sentence}</div>
         <div onClick={this.onPlay} className="play-box">
-          <b style={!this.props.vote ? { display: 'none' } : {}}>
-            What they said:
-          </b>
           <Icon type={this.state.playing ? 'stop' : 'play'} />
         </div>
-        <div
-          style={this.props.vote ? { display: 'none' } : {}}
-          className="delete-box"
-          onClick={this.onDelete}>
-          <Icon type="redo" />
-        </div>
-        <div
-          style={!this.props.vote ? { display: 'none' } : {}}
-          className={'vote-box ' + (this.state.played ? '' : 'disabled')}>
-          <a onClick={this.voteYes}>Yes</a>
-          <a onClick={this.voteNo}>No</a>
-        </div>
+        {this.props.vote ? (
+          <div className={'vote-box ' + (this.state.played ? '' : 'disabled')}>
+            <a onClick={this.voteYes}>Yes</a>
+            <a onClick={this.voteNo}>No</a>
+          </div>
+        ) : (
+          <div className="delete-box" onClick={this.onDelete}>
+            <Icon type="redo" />
+          </div>
+        )}
         <audio
           className="audio-box"
           // Only include the src attribute if the source is defined

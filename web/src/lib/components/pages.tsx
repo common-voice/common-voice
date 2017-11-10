@@ -310,7 +310,7 @@ class Pages extends React.Component<PagesProps, PagesState> {
           <button
             id="hamburger-menu"
             onClick={this.toggleMenu}
-            className={this.state.isMenuVisible ? ' is-active' : ''}>
+            className={this.state.isMenuVisible ? 'active' : ''}>
             <Icon type="hamburger" />
           </button>
           {this.renderNav('main-nav', true)}
@@ -440,7 +440,7 @@ class Pages extends React.Component<PagesProps, PagesState> {
         </div>
         <div
           id="navigation-modal"
-          className={this.state.isMenuVisible ? 'is-active' : ''}>
+          className={this.state.isMenuVisible ? 'active' : ''}>
           {this.renderNav()}
         </div>
         {this.state.showPrivacyModal && (

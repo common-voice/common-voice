@@ -85,7 +85,7 @@ export default class Validator extends React.Component<Props, State> {
           src={this.state.audioSrc}
           sentence={sentence}
           onVote={this.onVote}
-          vote="true"
+          vote
         />
       </div>
     );

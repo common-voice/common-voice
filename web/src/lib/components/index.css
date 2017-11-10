@@ -60,10 +60,6 @@ p, h1, h2, h3, h4 {
   padding: 0;
 }
 
-hr {
-  border-color: var(--base-font-color);
-}
-
 a:active {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -148,7 +144,7 @@ button.dark:active {
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.4);
-  transition: transform 1s var(--bounce-curve);
+  transition: transform 1s var(--easing);
 }
 
 @keyframes fadein {
@@ -204,7 +200,7 @@ button.dark:active {
   background-position: center;
   background-size: 100% 100%;
   z-index: var(--bottom-z-index);
-  transition: opacity 0.4s var(--bounce-curve), transform 0.2s linear;
+  transition: opacity 0.4s var(--easing), transform 0.2s var(--easing);
   pointer-events: none;
 }
 
@@ -218,8 +214,7 @@ button.dark:active {
   height: 20rem;
   opacity: 0;
   transition: opacity 0.2s linear;
-  background-repeat: repeat-x;
-  background-position: center;
+  background: repeat-x center;
   background-size: 100% 100%;
 }
 
@@ -227,10 +222,20 @@ button.dark:active {
   transform: scaleY(0.4);
 }
 
+@media (min-width: 600px) {
+  .home #background-container {
+    transform: translateY(10rem);
+  }
+
+  .home .hero-space {
+    height: 17rem;
+  }
+}
+
 /* Don't use background transitions on desktop since
  * Normal scaling is already smooth enough */
 body:not(.ios) .recording #background-container {
-  transition: opacity 0.4 var(--bounce-curve);
+  transition: opacity 0.4 var(--easing);
 }
 
 /* For native iOS css background image is not performance
@@ -339,8 +344,8 @@ body:not(.ios) .recording #background-container {
   }
 }
 
-#content > div {
-  animation: slide-fade-in 0.2s var(--bounce-curve);
+#content > #profile-container, #content > #record-container {
+  animation: slide-fade-in 0.2s var(--easing);
 }
 
 @media (min-width: 600px) {
@@ -382,7 +387,7 @@ body:not(.ios) .recording #background-container {
 }
 
 .hero-space {
-  height: 8.5rem;
+  height: 10rem;
 }
 
 @media (max-width: 600px) {
@@ -411,7 +416,6 @@ body:not(.ios) .recording #background-container {
   display: inline-block;
   height: var(--robot-height);
   transition: all 0.2s ease-in-out;
-  transition-delay: 0.2s;
   transform: translate(0,0) scale(0);
 }
 
@@ -445,7 +449,7 @@ body:not(.ios) .recording #background-container {
 }
 
 .home .robot {
-  transform: translate(2rem, 5rem)
+  transform: translate(-15rem, 20rem);
 }
 
 @media (max-width: 600px) {
@@ -456,7 +460,7 @@ body:not(.ios) .recording #background-container {
 }
 
 .record .robot {
-  transform: translate(1.3rem, 4.4rem);
+  transform: translate(1.3rem, 5.8rem);
 }
 
 @media (max-width: 600px) {
@@ -597,11 +601,6 @@ body:not(.ios) .recording #background-container {
 @keyframes spin {
   50%{ border-radius: 0; }
   100%{ transform: rotate(-360deg); }
-}
-
-.focus .right-column,
-.focus #try-it-container {
-  display: none;
 }
 
 .focus #donate {
