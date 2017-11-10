@@ -14,7 +14,7 @@ export default ({ onRequestClose }: Props) => (
       encType="text/plain">
       <div className="title-and-action">
         <h1>Contact Form</h1>
-        <a onClick={this.props.onRequestClose}>Cancel</a>
+        <a onClick={onRequestClose}>Cancel</a>
       </div>
 
       <br />
