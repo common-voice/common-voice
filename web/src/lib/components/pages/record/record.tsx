@@ -13,6 +13,7 @@ import { getItunesURL, isFocus, isNativeIOS, sleep } from '../../../utility';
 import Review from './review';
 import ProfileActions from './profile-actions';
 import { RouteComponentProps } from 'react-router';
+import { RecordIcon } from '../../ui/icons';
 
 const CACHE_SET_COUNT = 9;
 const SET_COUNT = 3;
@@ -477,20 +478,6 @@ export default class RecordPage extends React.Component<
       progress += 100 / SET_COUNT;
     }
 
-    const controlElements = this.areSentencesLoaded
-      ? [
-          <p key="record-help" id="record-help">
-            Please tap to record, then read the above sentence aloud.
-          </p>,
-          <div
-            key="record-button"
-            id="record-button"
-            onTouchStart={this.onRecordClick}
-            onClick={this.onRecordClick}
-          />,
-        ]
-      : ERR_SENTENCES_NOT_LOADED;
-
     const recordingsCount = this.state.recordings.length;
     return (
       <div id="record-container">
@@ -534,7 +521,22 @@ export default class RecordPage extends React.Component<
                   />
                 )}
             </div>
-            <div className="record-controls">{controlElements}</div>
+            <div className="record-controls">
+              {this.areSentencesLoaded
+                ? [
+                    <p key="record-help" id="record-help">
+                      Please tap to record, then read the above sentence aloud.
+                    </p>,
+                    <button
+                      key="record-button"
+                      id="record-button"
+                      onTouchStart={this.onRecordClick}
+                      onClick={this.onRecordClick}>
+                      <RecordIcon size={2} />
+                    </button>,
+                  ]
+                : ERR_SENTENCES_NOT_LOADED}
+            </div>
             <p id="recordings-count">
               {!this.state.isReRecord && (
                 <span>{recordingsCount + 1} of 3</span>

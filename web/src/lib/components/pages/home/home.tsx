@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import API from '../../../api';
 import User from '../../../user';
 import Validator from '../../validator';
-import Icon from '../../icon';
+import { RecordIcon } from '../../ui/icons';
 
 interface Props extends RouteComponentProps<any> {
   api: API;
@@ -34,7 +34,9 @@ class Home extends React.Component<Props, {}> {
         </h1>
         <div id="wall-of-text">
           <Link id="contribute-button" to="/record">
-            <div id="record-icon" />
+            <div>
+              <RecordIcon />
+            </div>
             Speak up, contribute here!
           </Link>
 

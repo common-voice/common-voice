@@ -41,30 +41,8 @@
     animation: fade-in .5s;
 }
 
-#record-icon {
-    border: 2px solid var(--color-speak-dark);
-    border-radius: 50%;
-    flex-grow: 0;
-    flex-shrink: 0;
+#contribute-button div {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 16px;
-    width: 16px;
-}
-
-#record-icon::after {
-    position: absolute;
-    flex-grow: 0;
-    flex-shrink: 0;
-    width: 12px;
-    height: 12px;
-    content: " ";
-    background-color: var(--color-speak-dark);
-    border-radius: 50%;
-}
-
-#contribute-button #record-icon {
     margin-right: 1rem;
 }
 
