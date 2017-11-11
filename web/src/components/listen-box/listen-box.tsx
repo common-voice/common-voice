@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Tracker from '../../tracker';
+import Tracker from '../../services/tracker';
 import Icon from '../icon';
 
 interface Props {

@@ -17,7 +17,7 @@ import Privacy from './pages/privacy';
 import Terms from './pages/terms';
 import NotFound from './pages/not-found';
 
-import API from '../api';
+import API from '../services/api';
 import User from '../user';
 
 interface PageUrls {

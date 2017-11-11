@@ -1,6 +1,6 @@
 import * as React from 'react';
 import ListenBox from './listen-box/listen-box';
-import API from '../api';
+import API from '../services/api';
 
 const LOADING_MESSAGE = 'Loading...';
 const LOAD_ERROR_MESSAGE =

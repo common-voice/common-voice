@@ -1,4 +1,4 @@
-import { isProduction } from './utility';
+import { isProduction } from '../utility';
 
 declare var ga: any;
 
