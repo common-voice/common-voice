@@ -52,3 +52,7 @@
 #profile-actions a, #why-profile-title {
     font-size: var(--small-font-size);
 }
+
+#profile-actions .alert {
+    margin-bottom: 1rem;
+}

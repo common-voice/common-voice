@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import ProfileForm from '../../profile-form/profile-form';
 import User from '../../../user';
 import messages from '../../../../messages';
+import Alert from '../../alert/alert';
 
 interface WhyProfileState {
   expanded: boolean;
@@ -43,22 +44,38 @@ interface Props {
 
 interface State {
   profileFormVisible: boolean;
+  alertVisible: boolean;
 }
 
 export default class ProfileActions extends React.Component<Props, State> {
   state: State = {
     profileFormVisible: false,
+    alertVisible: false,
   };
 
   private toggleProfileForm = () => {
-    this.setState({ profileFormVisible: !this.state.profileFormVisible });
+    this.setState({
+      profileFormVisible: !this.state.profileFormVisible,
+      alertVisible: this.props.user.hasEnteredInfo(),
+    });
+  };
+
+  private closeAlert = () => {
+    this.setState({
+      alertVisible: false,
+    });
   };
 
   render() {
-    const { profileFormVisible } = this.state;
+    const { profileFormVisible, alertVisible } = this.state;
     return (
       <div id="profile-actions">
         {!profileFormVisible && <hr />}
+        {alertVisible && (
+          <Alert autoHide onClose={this.closeAlert}>
+            Success, profile created!
+          </Alert>
+        )}
         {this.props.user.hasEnteredInfo() ? (
           <Link to="/profile">Edit Profile</Link>
         ) : (
