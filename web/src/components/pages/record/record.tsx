@@ -12,7 +12,7 @@ import Modal from '../../modal/modal';
 import { getItunesURL, isFocus, isNativeIOS, sleep } from '../../../utility';
 import Review from './review';
 import ProfileActions from './profile-actions';
-import { RouteComponentProps } from 'react-router';
+import { Prompt, RouteComponentProps } from 'react-router';
 import { RecordIcon } from '../../ui/icons';
 
 const CACHE_SET_COUNT = 9;
@@ -481,6 +481,10 @@ export default class RecordPage extends React.Component<
     const recordingsCount = this.state.recordings.length;
     return (
       <div id="record-container">
+        <Prompt
+          when={recordingsCount > 0}
+          message="Navigating to a different page will delete your recordings. Do you want to proceed?"
+        />
         {this.state.showRetryModal && (
           <Modal
             onRequestClose={this.closeRetryModal}
