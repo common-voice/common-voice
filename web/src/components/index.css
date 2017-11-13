@@ -338,14 +338,17 @@ body:not(.ios) .recording #background-container {
     transform: translateY(100vh);
     opacity: 0;
   }
+  80% {
+    opacity: 0.1;
+  }
   to {
     transform: translateY(0);
     opacity: 1;
   }
 }
 
-#content > #profile-container, #content > #record-container {
-  animation: slide-fade-in 0.2s var(--easing);
+#profile-container, #record-container, #terms-container, #privacy-container, #faq-container {
+  animation: slide-fade-in .2s var(--easing);
 }
 
 @media (min-width: 600px) {
