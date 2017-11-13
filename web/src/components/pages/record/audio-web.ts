@@ -1,4 +1,4 @@
-import ERROR_MSG from '../../../../error-msg';
+import ERROR_MSG from '../../../error-msg';
 import { isNativeIOS } from '../../../utility';
 
 const AUDIO_TYPE = 'audio/ogg; codecs=opus';

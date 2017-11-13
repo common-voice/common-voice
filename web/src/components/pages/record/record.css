@@ -1,5 +1,5 @@
-@import url('./profile-actions.css');
-@import url('./review.css');
+@import url('profile-actions.css');
+@import url('review.css');
 
 #record-container {
     position: relative;

@@ -1,5 +1,5 @@
 import { generateGUID } from './utility';
-import Tracker from './tracker';
+import Tracker from './services/tracker';
 
 const USER_KEY = 'userdata';
 

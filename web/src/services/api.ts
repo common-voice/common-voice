@@ -1,5 +1,5 @@
-import User from './user';
-import AudioIOS from './components/pages/record/audio-ios';
+import User from '../user';
+import AudioIOS from '../components/pages/record/audio-ios';
 
 export interface Clip {
   glob: string;

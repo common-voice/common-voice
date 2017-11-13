@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { withRouter, RouteComponentProps } from 'react-router';
 import { Link } from 'react-router-dom';
-import API from '../../../api';
+import API from '../../../services/api';
 import User from '../../../user';
 import Validator from '../../validator';
 import { RecordIcon } from '../../ui/icons';
