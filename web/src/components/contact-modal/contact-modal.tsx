@@ -8,10 +8,7 @@ interface Props {
 
 export default ({ onRequestClose }: Props) => (
   <Modal innerClassName="contact-modal">
-    <form
-      action="mailto:someone@example.com"
-      method="post"
-      encType="text/plain">
+    <form action="mailto:mikey@mozilla.com" method="post" encType="text/plain">
       <div className="title-and-action">
         <h1>Contact Form</h1>
         <a onClick={onRequestClose}>Cancel</a>
