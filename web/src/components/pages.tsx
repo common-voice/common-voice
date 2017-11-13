@@ -261,6 +261,7 @@ class Pages extends React.Component<PagesProps, PagesState> {
 
   componentDidUpdate(nextProps: PagesProps) {
     if (this.props.location !== nextProps.location) {
+      this.setState({ robot: '' });
       this.content.children[0].addEventListener(
         'animationend',
         this.scrollToTop
