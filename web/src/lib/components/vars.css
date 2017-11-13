@@ -5,7 +5,6 @@
     --small-font-size: .8rem;
     --header-height: 5rem;
     --input-height: 2.5rem;
-    --sidebar-width: 11rem;
     --debug-box-height: 4rem;
     --listen-box-height: 6rem;
     --base-background-image: url("/img/wave-blue-large.png");
@@ -16,18 +15,18 @@
     --standard-margin: 0.3rem;
     --hamburger: calc(var(--header-height) * 0.7);
     --transition-default: 0.3s;
-    --desktop-width: 50rem;
+    --desktop-width: 45rem;
     --hero-height: 15.3rem;
     --hero-height-mobile: 12.5rem;
-    --robot-height: 19rem;
+    --robot-height: 22rem;
     --robot-height-mobile: 16rem;
     --spinner-height: 10rem;
-    --bounce-curve: cubic-bezier(0.000, 1.430, 0.700, 0.940);
+    --easing: cubic-bezier(0.4, 0.0, 0.2, 1);
     --shadow-overhang: 0 1px 0 rgba(12,13,14,0.1),
     0 1px 3px rgba(12,13,14,0.1),
     0 4px 20px rgba(12,13,14,0.035),
     0 1px 1px rgba(12,13,14,0.025);
-    --card-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+    --card-shadow: rgba(0, 0, 0, 0.09) 0px 1px 6px, rgba(0, 0, 0, 0.09) 0px 1px 4px;
 
     --base-background-color: white;
     --base-font-color: black;
@@ -54,4 +53,15 @@
     --top-z-index: 2;
     --middle-z-index: 1;
     --bottom-z-index: 0;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        pointer-events: none;
+    }
+    to {
+        opacity: 1;
+        pointer-events: all;
+    }
 }

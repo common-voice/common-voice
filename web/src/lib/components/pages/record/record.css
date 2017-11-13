@@ -1,19 +1,9 @@
 @import url('./profile-actions.css');
 @import url('./review.css');
 
-#listen-container {
-    padding: 0.7rem;
-    text-align: center;
-}
-
-#listen-container .listen-box {
-    margin-top: 2rem;
-}
-
 #record-container {
     position: relative;
     top: -4.5rem;
-    padding-left: var(--sidebar-width);
     text-align: center;
     padding-top: 0;
 }
@@ -63,7 +53,7 @@
     padding: 0 1rem;
     background-color: var(--base-background-color);
     box-shadow: var(--card-shadow);
-    transition: transform 0.4s var(--bounce-curve);
+    transition: transform 0.4s var(--easing);
     font-family: var(--strong-font-family);
     font-size: 1.4rem;
     font-weight: bold;
@@ -101,32 +91,25 @@
     padding-right: 0.6rem;
 }
 
-#record-button {
-    border-radius: 50%;
-    border: 0.3rem solid var(--color-speak-dark);
-    background-color: white;
-    height: 2.5rem;
-    width: 2.5rem;
-    margin: 1.5rem auto 1rem;
-    cursor: pointer;
-    position: relative;
-}
-
-#record-button:after {
-    background-color: var(--color-speak-dark);
-    border-radius: 50%;
-    content: " ";
-    position: absolute;
-    bottom: 0.3rem;
-    left: 0.3rem;
-    right: 0.3rem;
-    top: 0.3rem;
-}
-
 .record-controls {
+    margin: calc(1rem + 4px) auto 1rem;
     height: 6.5rem;
-    margin: 1rem auto;
-    margin-top: calc(1rem + 4px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+#record-button {
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+}
+
+#record-button:hover {
+    background: none;
 }
 
 .recording #record-button {
@@ -157,7 +140,7 @@
 }
 
 #record-help {
-    font-size: 1rem;
+    font-size: var(--small-font-size);
     padding: 0 2rem;
 }
 

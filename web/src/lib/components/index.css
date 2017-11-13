@@ -60,10 +60,6 @@ p, h1, h2, h3, h4 {
   padding: 0;
 }
 
-hr {
-  border-color: var(--base-font-color);
-}
-
 a:active {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -148,7 +144,7 @@ button.dark:active {
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.4);
-  transition: transform 1s var(--bounce-curve);
+  transition: transform 1s var(--easing);
 }
 
 @keyframes fadein {
@@ -204,7 +200,7 @@ button.dark:active {
   background-position: center;
   background-size: 100% 100%;
   z-index: var(--bottom-z-index);
-  transition: opacity 0.4s var(--bounce-curve), transform 0.2s linear;
+  transition: opacity 0.4s var(--easing), transform 0.2s var(--easing);
   pointer-events: none;
 }
 
@@ -218,8 +214,7 @@ button.dark:active {
   height: 20rem;
   opacity: 0;
   transition: opacity 0.2s linear;
-  background-repeat: repeat-x;
-  background-position: center;
+  background: repeat-x center;
   background-size: 100% 100%;
 }
 
@@ -227,10 +222,20 @@ button.dark:active {
   transform: scaleY(0.4);
 }
 
+@media (min-width: 600px) {
+  .home #background-container {
+    transform: translateY(10rem);
+  }
+
+  .home .hero-space {
+    height: 17rem;
+  }
+}
+
 /* Don't use background transitions on desktop since
  * Normal scaling is already smooth enough */
 body:not(.ios) .recording #background-container {
-  transition: opacity 0.4 var(--bounce-curve);
+  transition: opacity 0.4 var(--easing);
 }
 
 /* For native iOS css background image is not performance
@@ -339,8 +344,8 @@ body:not(.ios) .recording #background-container {
   }
 }
 
-#content > div {
-  animation: slide-fade-in 0.2s var(--bounce-curve);
+#content > #profile-container, #content > #record-container {
+  animation: slide-fade-in 0.2s var(--easing);
 }
 
 @media (min-width: 600px) {
@@ -382,7 +387,7 @@ body:not(.ios) .recording #background-container {
 }
 
 .hero-space {
-  height: 8.5rem;
+  height: 10rem;
 }
 
 @media (max-width: 600px) {
@@ -411,7 +416,6 @@ body:not(.ios) .recording #background-container {
   display: inline-block;
   height: var(--robot-height);
   transition: all 0.2s ease-in-out;
-  transition-delay: 0.2s;
   transform: translate(0,0) scale(0);
 }
 
@@ -445,7 +449,7 @@ body:not(.ios) .recording #background-container {
 }
 
 .home .robot {
-  transform: translate(-6rem, 5rem)
+  transform: translate(-15rem, 20rem);
 }
 
 @media (max-width: 600px) {
@@ -455,93 +459,13 @@ body:not(.ios) .recording #background-container {
   }
 }
 
-.listen .robot {
-  transform: translate(6rem, 5rem);
-}
-
-@media (max-width: 600px) {
-  .listen .robot {
-    transform: translate(8rem,1rem);
-  }
-}
-
 .record .robot {
-  transform: translate(7.2rem, 7.5rem);
+  transform: translate(1.3rem, 5.8rem);
 }
 
 @media (max-width: 600px) {
   .record .robot {
     transform: translate(4.5rem,0.5rem);
-  }
-}
-
-.robot-talker {
-  font-family: var(--strong-font-family);
-  font-size: 1.4rem;
-  font-weight: bold;
-  text-shadow: 1px 1px 0px var(--color-text-help);
-  text-align: left;
-  position: absolute;
-  box-sizing: border-box;
-  top: 3rem;
-  right: -19rem;
-  width: 18rem;
-  padding: 0.2rem;
-  opacity: 0;
-  transition: opacity 0.2s linear;
-}
-
-@media (max-width: 600px) {
-  .robot-talker {
-    top: -1.5rem;
-    right: -15.5rem;
-    width: 15rem;
-  }
-}
-
-.home .robot-talker {
-  opacity: 1;
-}
-
-.robot-talker > * {
-  background-color: var(--color-text-help);
-  display: inline;
-}
-
-.robot .bubble {
-  display: none;
-  align-items: center;
-  position: absolute;
-  box-sizing: border-box;
-  padding-left: 1.5rem;
-  height: 4rem;
-  width: 13.8rem;
-  top: calc(var(--robot-height) / 4);
-  right: -120%;
-  background-image: url("/img/speech-bubble.png");
-  background-size: auto 4rem;
-  font-weight: bold;
-  cursor: pointer;
-  transition: transform 0.2s var(--bounce-curve);
-}
-
-@media (max-width: 600px) {
-  .robot .bubble {
-    top: calc(var(--robot-height-mobile) / 4);
-  }
-}
-
-body:not(.mobile-safari) .robot .bubble:hover {
-  transform: scale(1.05);
-}
-
-@media (max-width: 600px) {
-  .robot .bubble {
-    height: 4rem;
-    width: 11rem;
-    right: -180%;
-    top: 2rem;
-    background-size: 11rem 4rem;
   }
 }
 
@@ -555,16 +479,6 @@ body:not(.mobile-safari) .robot .bubble:hover {
   padding-top: calc(var(--header-height) + 0.5rem);
   padding-bottom: 2rem;
   text-align: left;
-}
-
-@media (min-width: 600px) {
-  #content > #not-found-container,
-  #content > #faq-container,
-  #content > #terms-container,
-  #content > #privacy-container,
-  #content > #profile-container {
-    padding-left: var(--sidebar-width);
-  }
 }
 
 @import url('profile-form/profile-form.css');
@@ -687,12 +601,6 @@ body:not(.mobile-safari) .robot .bubble:hover {
 @keyframes spin {
   50%{ border-radius: 0; }
   100%{ transform: rotate(-360deg); }
-}
-
-.focus .tab.listen,
-.focus .right-column,
-.focus #try-it-container {
-  display: none;
 }
 
 .focus #donate {

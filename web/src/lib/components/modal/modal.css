@@ -1,14 +1,3 @@
-@keyframes fade-in {
-    from {
-        opacity: 0;
-        pointer-events: none;
-    }
-    to {
-        opacity: 1;
-        pointer-events: all;
-    }
-}
-
 .ReactModal__Overlay {
     display: table;
     z-index: var(--top-z-index);

@@ -20,13 +20,10 @@ const PRELOAD = [
   '/img/robot-thinking.png',
   '/img/robot-thumbs-up.png',
   '/img/speech-bubble.png',
-  '/img/strip-repeat.png',
-  '/img/strip-top.png',
   '/img/wave-blue-large.png',
   '/img/wave-blue-mobile.png',
   '/img/wave-red-large.png',
   '/img/wave-red-mobile.png',
-  '/img/circle.png',
 ];
 
 interface State {

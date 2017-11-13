@@ -8,8 +8,8 @@
 }
 
 #voice-submit {
-    transition: all 0.2s var(--bounce-curve);
-    animation: slidein 0.2s var(--bounce-curve);
+    transition: all 0.2s var(--easing);
+    animation: slidein 0.2s var(--easing);
 }
 
 #voice-submit-review {
