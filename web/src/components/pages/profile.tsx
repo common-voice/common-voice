@@ -1,17 +1,12 @@
 import * as React from 'react';
 import messages from '../../messages';
-import User from '../../user';
 import ProfileForm from '../profile-form/profile-form';
 
 import { RouteComponentProps } from 'react-router';
 
-interface Props extends RouteComponentProps<any> {
-  user: User;
-}
-
-export default ({ user }: Props) => (
+export default (props: RouteComponentProps<any>) => (
   <div id="profile-container">
-    <ProfileForm user={user} />
+    <ProfileForm />
 
     <br />
     <br />

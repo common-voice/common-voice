@@ -1,4 +1,4 @@
-import User from '../user';
+import { UserState } from '../stores/user';
 import AudioIOS from '../components/pages/record/audio-ios';
 
 export interface Clip {
@@ -28,9 +28,9 @@ export default class API {
   private static CLIP_VOTE_URL: string = '/upload/vote/';
   private static DEMOGRAPHIC_URL: string = '/upload/demographic/';
 
-  private user: User;
+  private user: UserState;
 
-  constructor(user: User) {
+  constructor(user: UserState) {
     this.user = user;
   }
 
@@ -103,7 +103,7 @@ export default class API {
   async getRandomClip(): Promise<Clip> {
     const req = await this.fetch('upload/random.json', {
       responseType: 'json',
-      headers: { uid: this.user.getId() },
+      headers: { uid: this.user.userId },
     });
 
     return req.response;
@@ -142,7 +142,7 @@ export default class API {
   castVote(glob: string, vote: boolean): Promise<Event> {
     const headers = {
       glob,
-      uid: this.user.getId(),
+      uid: this.user.userId,
       vote: encodeURIComponent(vote.toString()),
     };
 
@@ -155,13 +155,13 @@ export default class API {
   uploadDemographicInfo(): Promise<Event> {
     // Note: Do not add more properties of this.user w/o legal review
     const demographicInfo = {
-      accent: this.user.getState().accent,
-      age: this.user.getState().age,
-      gender: this.user.getState().gender,
+      accent: this.user.accent,
+      age: this.user.age,
+      gender: this.user.gender,
     };
 
     const headers = {
-      uid: this.user.getId(),
+      uid: this.user.userId,
       demographic: JSON.stringify(demographicInfo),
     };
 
@@ -176,7 +176,7 @@ export default class API {
     progress?: Function
   ): Promise<Event> {
     const headers: HeadersMap = {
-      uid: this.user.getId(),
+      uid: this.user.userId,
       sentence: encodeURIComponent(sentence),
     };
 
@@ -198,13 +198,13 @@ export default class API {
     });
   }
 
-  async syncUser(): Promise<Event> {
+  async syncUser(user: UserState): Promise<any> {
     const headers = {
-      uid: this.user.getId(),
+      uid: user.userId,
     };
 
     const body = {
-      email: this.user.getState().email,
+      email: user.email,
     };
 
     return this.createPostRequest(API.USER_URL, headers, req => {

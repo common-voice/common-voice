@@ -1,7 +1,8 @@
 import * as React from 'react';
+import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import ProfileForm from '../../profile-form/profile-form';
-import User from '../../../user';
+import { hasEnteredInfoSelector } from '../../../stores/user';
 import messages from '../../../messages';
 import Alert from '../../alert/alert';
 
@@ -38,8 +39,8 @@ class WhyProfile extends React.Component<{}, WhyProfileState> {
   }
 }
 
-interface Props {
-  user: User;
+interface PropsFromState {
+  hasEnteredInfo: boolean;
 }
 
 interface State {
@@ -47,7 +48,7 @@ interface State {
   alertVisible: boolean;
 }
 
-export default class ProfileActions extends React.Component<Props, State> {
+class ProfileActions extends React.Component<PropsFromState, State> {
   state: State = {
     profileFormVisible: false,
     alertVisible: false,
@@ -56,7 +57,7 @@ export default class ProfileActions extends React.Component<Props, State> {
   private toggleProfileForm = () => {
     this.setState({
       profileFormVisible: !this.state.profileFormVisible,
-      alertVisible: this.props.user.hasEnteredInfo(),
+      alertVisible: this.props.hasEnteredInfo,
     });
   };
 
@@ -76,16 +77,13 @@ export default class ProfileActions extends React.Component<Props, State> {
             Success, profile created!
           </Alert>
         )}
-        {this.props.user.hasEnteredInfo() ? (
+        {this.props.hasEnteredInfo ? (
           <Link to="/profile">Edit Profile</Link>
         ) : (
           <div>
             {profileFormVisible ? (
               <div id="profile-form-container">
-                <ProfileForm
-                  user={this.props.user}
-                  onExit={this.toggleProfileForm}
-                />
+                <ProfileForm onExit={this.toggleProfileForm} />
               </div>
             ) : (
               <button
@@ -102,3 +100,7 @@ export default class ProfileActions extends React.Component<Props, State> {
     );
   }
 }
+
+export default connect<PropsFromState>(({ user }) => ({
+  hasEnteredInfo: hasEnteredInfoSelector(user),
+}))(ProfileActions);

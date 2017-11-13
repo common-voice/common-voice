@@ -2,13 +2,18 @@ import * as React from 'react';
 import { withRouter, RouteComponentProps } from 'react-router';
 import { Link } from 'react-router-dom';
 import API from '../../../services/api';
-import User from '../../../user';
+import { actions } from '../../../stores/user';
 import Validator from '../../validator';
 import { RecordIcon } from '../../ui/icons';
+import { connect } from 'react-redux';
+import pick = require('lodash.pick');
 
-interface Props extends RouteComponentProps<any> {
+interface PropsFromDispatch {
+  tallyVerification: () => void;
+}
+
+interface Props extends PropsFromDispatch, RouteComponentProps<any> {
   api: API;
-  user?: User;
 }
 
 interface State {
@@ -21,7 +26,7 @@ class Home extends React.Component<Props, {}> {
   };
 
   onVote = () => {
-    this.props.user && this.props.user.tallyVerification();
+    this.props.tallyVerification();
   };
 
   render() {
@@ -79,7 +84,7 @@ class Home extends React.Component<Props, {}> {
             below?
           </div>
 
-          <Validator onVote={this.onVote} api={this.props.api} />
+          <Validator onVote={this.onVote} />
         </div>
 
         <br />
@@ -87,4 +92,6 @@ class Home extends React.Component<Props, {}> {
     );
   }
 }
-export default withRouter(Home);
+export default withRouter(
+  connect<{}, PropsFromDispatch>(null, pick(actions, 'tallyVerification'))(Home)
+);

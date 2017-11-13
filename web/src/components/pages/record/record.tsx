@@ -1,5 +1,5 @@
+import { connect } from 'react-redux';
 import API from '../../../services/api';
-import User from '../../../user';
 import Tracker from '../../../services/tracker';
 import * as React from 'react';
 import Icon from '../../icon';
@@ -14,6 +14,7 @@ import Review from './review';
 import ProfileActions from './profile-actions';
 import { Prompt, RouteComponentProps } from 'react-router';
 import { RecordIcon } from '../../ui/icons';
+import { apiSelector } from '../../../stores/root';
 
 const CACHE_SET_COUNT = 9;
 const SET_COUNT = 3;
@@ -31,8 +32,11 @@ enum RecordingError {
   TOO_QUIET,
 }
 
-interface RecordProps extends RouteComponentProps<any> {
-  user: User;
+interface PropsFromState {
+  api: API;
+}
+
+interface RecordProps extends RouteComponentProps<any>, PropsFromState {
   api: API;
   onSubmit(
     recordings: Blob[],
@@ -61,10 +65,7 @@ interface RecordState {
   showResetModal: boolean;
 }
 
-export default class RecordPage extends React.Component<
-  RecordProps,
-  RecordState
-> {
+class RecordPage extends React.Component<RecordProps, RecordState> {
   name: string = PAGE_NAME;
   audio: AudioWeb | AudioIOS;
   isUnsupportedPlatform: boolean;
@@ -546,13 +547,10 @@ export default class RecordPage extends React.Component<
                 <span>{recordingsCount + 1} of 3</span>
               )}
             </p>
-            <ProfileActions user={this.props.user} />
+            <ProfileActions />
           </div>
         ) : (
-          <Review
-            progress={progress}
-            user={this.props.user}
-            onSubmit={this.onSubmit}>
+          <Review progress={progress} onSubmit={this.onSubmit}>
             {listens}
           </Review>
         )}
@@ -560,3 +558,7 @@ export default class RecordPage extends React.Component<
     );
   }
 }
+
+export default connect<PropsFromState>((state: any) => ({
+  api: apiSelector(state),
+}))(RecordPage);

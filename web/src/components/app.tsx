@@ -1,9 +1,9 @@
 import * as React from 'react';
-import User from '../user';
-import API from '../services/api';
+import { Provider } from 'react-redux';
 import Pages from './pages';
 import { isMobileWebkit, isFocus, isNativeIOS, sleep } from '../utility';
 import { BrowserRouter as Router } from 'react-router-dom';
+import store from '../stores/root';
 
 const LOAD_TIMEOUT = 5000; // we can only wait so long.
 
@@ -31,8 +31,6 @@ interface State {
 }
 
 export default class App extends React.Component<{}, State> {
-  user: User;
-  api: API;
   main: HTMLElement;
   progressMeter: HTMLSpanElement;
 
@@ -55,12 +53,6 @@ export default class App extends React.Component<{}, State> {
     if (isMobileWebkit()) {
       document.body.classList.add('mobile-safari');
     }
-
-    this.user = new User();
-    this.api = new API(this.user);
-    this.api.syncUser();
-
-    this.user.onUpdate(this.handleUserUpdate.bind(this));
   }
 
   /**
@@ -90,10 +82,6 @@ export default class App extends React.Component<{}, State> {
     });
   }
 
-  private handleUserUpdate(): void {
-    this.api.syncUser();
-  }
-
   /**
    * Perform any native iOS specific operations.
    */
@@ -120,13 +108,9 @@ export default class App extends React.Component<{}, State> {
   render() {
     return this.state.loaded ? (
       <Router>
-        <Pages
-          user={this.user}
-          api={this.api}
-          match={null}
-          location={null}
-          history={null}
-        />
+        <Provider store={store}>
+          <Pages match={null} location={null} history={null} />
+        </Provider>
       </Router>
     ) : (
       <div id="spinner">

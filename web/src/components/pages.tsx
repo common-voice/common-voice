@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { connect } from 'react-redux';
 import { Switch, Route, RouteComponentProps, withRouter } from 'react-router';
 import { Link, NavLink } from 'react-router-dom';
 import { getItunesURL, isNativeIOS, isIOS, isSafari } from '../utility';
@@ -17,7 +18,8 @@ import Terms from './pages/terms';
 import NotFound from './pages/not-found';
 
 import API from '../services/api';
-import User from '../user';
+import { actions, UserState } from '../stores/user';
+import { apiSelector } from '../stores/root';
 
 interface PageUrls {
   [key: string]: string;
@@ -40,10 +42,20 @@ const URLS: PageUrls = {
   NOTFOUND: '/not-found',
 };
 
-interface PagesProps extends RouteComponentProps<any> {
-  user: User;
+interface PropsFromState {
   api: API;
+  user: UserState;
 }
+
+interface PropsFromDispatch {
+  tallyRecording: typeof actions.tallyRecording;
+  updateUser: typeof actions.update;
+}
+
+interface PagesProps
+  extends PropsFromState,
+    PropsFromDispatch,
+    RouteComponentProps<any> {}
 
 interface PagesState {
   isMenuVisible: boolean;
@@ -167,7 +179,7 @@ class Pages extends React.Component<PagesProps, PagesState> {
   private handlePrivacyAction(didAgree: boolean): void {}
 
   private ensurePrivacyAgreement(): Promise<void> {
-    if (this.props.user.hasAgreedToPrivacy()) {
+    if (this.props.user.privacyAgreed) {
       return Promise.resolve();
     }
 
@@ -179,7 +191,7 @@ class Pages extends React.Component<PagesProps, PagesState> {
         });
 
         if (didAgree) {
-          this.props.user.agreeToPrivacy();
+          this.props.updateUser({ privacyAgreed: true });
           resolve();
         } else {
           reject();
@@ -205,7 +217,7 @@ class Pages extends React.Component<PagesProps, PagesState> {
       const sentence = sentences.pop();
 
       await this.props.api.uploadAudio(blob, sentence);
-      this.props.user.tallyRecording();
+      this.props.tallyRecording();
 
       if (recordings.length !== 0) {
         let percentage = Math.floor(runningTotal / originalTotal * 100);
@@ -346,27 +358,19 @@ class Pages extends React.Component<PagesProps, PagesState> {
                 <Route
                   exact
                   path={URLS.ROOT}
-                  render={props => (
-                    <Home
-                      api={this.props.api}
-                      user={this.props.user}
-                      {...props}
-                    />
-                  )}
+                  render={props => <Home api={this.props.api} {...props} />}
                 />
                 <Route
                   exact
                   path={URLS.RECORD}
                   render={props => (
                     <Record
-                      api={this.props.api}
                       onRecord={this.onRecord}
                       onRecordStop={this.onRecordStop}
                       onRecordingSet={this.sayThanks}
                       onVolume={this.onVolume}
                       onSubmit={this.uploadRecordings}
                       onDelete={this.clearRobot}
-                      user={this.props.user}
                       {...props}
                     />
                   )}
@@ -374,9 +378,7 @@ class Pages extends React.Component<PagesProps, PagesState> {
                 <Route
                   exact
                   path={URLS.PROFILE}
-                  render={props => (
-                    <Profile user={this.props.user} {...props} />
-                  )}
+                  render={props => <Profile {...props} />}
                 />
                 <Route exact path={URLS.FAQ} component={FAQ} />} />
                 <Route exact path={URLS.PRIVACY} component={Privacy} />} />
@@ -484,15 +486,28 @@ class Pages extends React.Component<PagesProps, PagesState> {
   private renderUser() {
     return (
       <div id="tally-box">
-        <span className="tally-recordings">
-          {this.props.user.state.recordTally}
-        </span>
+        <span className="tally-recordings">{this.props.user.recordTally}</span>
         <span className="tally-verifications">
-          {this.props.user.state.validateTally}
+          {this.props.user.validateTally}
         </span>
       </div>
     );
   }
 }
 
-export default withRouter(Pages);
+const mapStateToProps = (state: any) => ({
+  api: apiSelector(state),
+  user: state.user,
+});
+
+const mapDispatchToProps = {
+  tallyRecording: actions.tallyRecording,
+  updateUser: actions.update,
+};
+
+export default withRouter(
+  connect<PropsFromState, PropsFromDispatch>(
+    mapStateToProps,
+    mapDispatchToProps
+  )(Pages)
+);

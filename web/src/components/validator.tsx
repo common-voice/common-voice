@@ -1,13 +1,18 @@
 import * as React from 'react';
-import ListenBox from './listen-box/listen-box';
+import { connect } from 'react-redux';
 import API from '../services/api';
+import { apiSelector } from '../stores/root';
+import ListenBox from './listen-box/listen-box';
 
 const LOADING_MESSAGE = 'Loading...';
 const LOAD_ERROR_MESSAGE =
   'Sorry! We are processing our audio files, please try again shortly.';
 
-interface Props {
+interface PropsFromState {
   api: API;
+}
+
+interface Props extends PropsFromState {
   onVote?(valid: boolean): void;
 }
 
@@ -21,7 +26,7 @@ interface State {
 /**
  * Widget for validating voice clips.
  */
-export default class Validator extends React.Component<Props, State> {
+class Validator extends React.Component<Props, State> {
   state = { loading: false, glob: '', sentence: '', audioSrc: '' };
   private _isMounted = false;
 
@@ -91,3 +96,7 @@ export default class Validator extends React.Component<Props, State> {
     );
   }
 }
+
+export default connect<PropsFromState>((state: any) => ({
+  api: apiSelector(state),
+}))(Validator);

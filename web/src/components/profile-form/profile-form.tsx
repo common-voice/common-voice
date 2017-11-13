@@ -1,34 +1,70 @@
+import pick = require('lodash.pick');
 import * as React from 'react';
-import { ACCENTS, AGES, GENDER, default as User, UserState } from '../../user';
+import { connect } from 'react-redux';
+import {
+  ACCENTS,
+  actions,
+  AGES,
+  GENDERS,
+  hasEnteredInfoSelector,
+} from '../../stores/user';
 import Modal from '../modal/modal';
 import { LabeledInput, LabeledSelect } from '../ui/ui';
 
-interface Props {
-  user: User;
-  onExit?: () => any;
-}
-
-interface State {
+interface EditableUser {
   email: string;
   username: string;
   accent: string;
   age: string;
   gender: string;
   sendEmails: boolean;
+}
+
+const userFormFields = [
+  'email',
+  'username',
+  'accent',
+  'age',
+  'gender',
+  'sendEmails',
+];
+
+const filterUserFields = (data: any) =>
+  pick(data, userFormFields) as EditableUser;
+
+interface PropsFromState {
+  user: EditableUser;
+  hasEnteredInfo: boolean;
+}
+
+interface PropsFromDispatch {
+  clear: () => void;
+  updateUser: (state: any) => void;
+}
+
+interface Props extends PropsFromState, PropsFromDispatch {
+  onExit?: () => any;
+}
+
+interface State extends EditableUser {
   showClearModal: boolean;
 }
 
-export default class ProfileCard extends React.Component<Props, State> {
-  state = { ...this.props.user.getState(), showClearModal: false };
+class ProfileForm extends React.Component<Props, State> {
+  state = { ...filterUserFields(this.props.user), showClearModal: false };
 
   private toggleClearModal = () => {
     this.setState(state => ({ showClearModal: !state.showClearModal }));
   };
 
   private clear = () => {
-    this.setState({
-      ...(this.props.user.clear() as any),
-      showClearModal: false,
+    this.props.clear();
+    // We have to use setTimeout here because the new user-props will only be available after the next tick
+    setTimeout(() => {
+      this.setState({
+        ...filterUserFields(this.props.user),
+        showClearModal: false,
+      });
     });
   };
 
@@ -40,26 +76,18 @@ export default class ProfileCard extends React.Component<Props, State> {
 
   private save = (evt: React.FormEvent<HTMLFormElement>) => {
     evt.preventDefault();
-    const { user, onExit } = this.props;
-    user.setState(this.state);
+    const { updateUser, onExit } = this.props;
+    updateUser(filterUserFields(this.state));
     onExit && onExit();
   };
 
   render() {
-    const { onExit } = this.props;
+    const { user, onExit } = this.props;
     const { email, username, accent, age, gender, sendEmails } = this.state;
-    const userState = this.props.user.getState();
 
-    const isModified = [
-      'email',
-      'username',
-      'accent',
-      'age',
-      'gender',
-      'sendEmails',
-    ].some(key => {
-      const typedKey = key as keyof UserState;
-      return this.state[typedKey] !== userState[typedKey];
+    const isModified = userFormFields.some(key => {
+      const typedKey = key as keyof EditableUser;
+      return this.state[typedKey] !== user[typedKey];
     });
 
     return (
@@ -81,7 +109,7 @@ export default class ProfileCard extends React.Component<Props, State> {
           <a onClick={onExit || this.toggleClearModal}>
             {onExit
               ? 'Exit Form'
-              : this.props.user.hasEnteredInfo() && 'Clear Form'}
+              : this.props.hasEnteredInfo && 'Delete Profile'}
           </a>
         </div>
         <br />
@@ -151,7 +179,7 @@ export default class ProfileCard extends React.Component<Props, State> {
             name="gender"
             onChange={this.update}
             value={gender}>
-            {this.renderOptionsFor(GENDER)}
+            {this.renderOptionsFor(GENDERS)}
           </LabeledSelect>
 
           <div className="buttons">
@@ -172,3 +200,18 @@ export default class ProfileCard extends React.Component<Props, State> {
     ));
   }
 }
+
+const mapStateToProps = ({ user }: any) => ({
+  user,
+  hasEnteredInfo: hasEnteredInfoSelector(user),
+});
+
+const mapDispatchToProps = (dispatch: any) => ({
+  clear: () => dispatch(actions.clear()),
+  updateUser: (state: any) => dispatch(actions.update(state)),
+});
+
+export default connect<PropsFromState, PropsFromDispatch>(
+  mapStateToProps,
+  mapDispatchToProps
+)(ProfileForm);
