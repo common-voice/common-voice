@@ -30,7 +30,7 @@
 
 #contribute-button {
     position: absolute;
-    padding: 1rem 1rem;
+    padding: 0.7rem 1.2rem;
     display: flex;
     flex-direction: row;
     align-items: center;
