@@ -443,7 +443,8 @@ class Pages extends React.Component<PagesProps, PagesState> {
         </div>
         <div
           id="navigation-modal"
-          className={this.state.isMenuVisible ? 'active' : ''}>
+          className={this.state.isMenuVisible ? 'active' : ''}
+          onClick={this.toggleMenu}>
           {this.renderNav()}
         </div>
         {this.state.showPrivacyModal && (
