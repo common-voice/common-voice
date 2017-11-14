@@ -7,5 +7,3 @@ services:
   - mysql
 before_install:
   - mysql -e "SET PASSWORD FOR 'root'@'localhost' =  PASSWORD('');"
-script:
-  - npm run build && npm run test
