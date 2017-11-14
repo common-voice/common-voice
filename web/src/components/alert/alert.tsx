@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Icon from '../icon';
+import { FontIcon } from '../ui/icons';
 
 const AUTO_HIDE_TIME_MS = 5000;
 
@@ -49,7 +49,7 @@ export default class Alert extends React.Component<Props, {}> {
       <div className="alert">
         {this.props.children}
 
-        <Icon type="x" onClick={this.onClick} className="icon" />
+        <FontIcon type="x" onClick={this.onClick} className="icon" />
       </div>
     );
   }

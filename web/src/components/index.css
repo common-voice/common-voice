@@ -1,11 +1,12 @@
-@import url('contact-modal/contact-modal.css');
 @import url('vars.css');
+@import url('contact-modal/contact-modal.css');
+@import url('pages/data/data.css');
 @import url('ui/ui.css');
 
 /* Define our icon font. */
 @font-face {
   font-family: Icons;
-  src: url("/font/icons.ttf");
+  src: url("/font/icomoon.ttf");
 }
 
 @font-face {
@@ -222,6 +223,12 @@ button.dark:active {
   transform: scaleY(0.4);
 }
 
+@media (max-width: 600px) {
+  .data #background-container {
+    transform: translateY(1rem);
+  }
+}
+
 @media (min-width: 600px) {
   .home #background-container {
     transform: translateY(10rem);
@@ -418,8 +425,9 @@ body:not(.ios) .recording #background-container {
   position: relative;
   display: inline-block;
   height: var(--robot-height);
-  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out, opacity .1s linear;
   transform: translate(0,0) scale(0);
+  opacity: 0;
 }
 
 @media (max-width: 600px) {
@@ -441,6 +449,7 @@ body:not(.ios) .recording #background-container {
 }
 
 .record .robot.thanks {
+  opacity: 1;
   transform: translate(13rem, 5rem) scale(1);
   transition-delay: 0s;
 }
@@ -452,7 +461,8 @@ body:not(.ios) .recording #background-container {
 }
 
 .home .robot {
-  transform: translate(-15rem, 20rem);
+  opacity: 1;
+  transform: translate(-13rem, 20.5rem) scale(1.1);
 }
 
 @media (max-width: 600px) {
@@ -463,7 +473,8 @@ body:not(.ios) .recording #background-container {
 }
 
 .record .robot {
-  transform: translate(1.3rem, 5.8rem);
+  opacity: 1;
+  transform: translate(1.3rem, 5.8rem) scale(1.1);
 }
 
 @media (max-width: 600px) {
@@ -479,7 +490,7 @@ body:not(.ios) .recording #background-container {
 #content > #terms-container,
 #content > #privacy-container,
 #content > #profile-container {
-  padding-top: calc(var(--header-height) + 0.5rem);
+  margin-top: var(--standard-margin);
   padding-bottom: 2rem;
   text-align: left;
 }

@@ -1,20 +1,25 @@
+import pick = require('lodash.pick');
 import * as React from 'react';
+import { connect } from 'react-redux';
 import { withRouter, RouteComponentProps } from 'react-router';
-import { Link } from 'react-router-dom';
 import API from '../../../services/api';
 import { actions } from '../../../stores/user';
 import Validator from '../../validator';
 import { RecordIcon } from '../../ui/icons';
-import { connect } from 'react-redux';
-import pick = require('lodash.pick');
+import { CardAction, Hr } from '../../ui/ui';
+
+interface PropsFromState {
+  api: API;
+}
 
 interface PropsFromDispatch {
   tallyVerification: () => void;
 }
 
-interface Props extends PropsFromDispatch, RouteComponentProps<any> {
-  api: API;
-}
+interface Props
+  extends PropsFromState,
+    PropsFromDispatch,
+    RouteComponentProps<any> {}
 
 interface State {
   showWallOfText: boolean;
@@ -38,12 +43,12 @@ class Home extends React.Component<Props, {}> {
           machines how real people speak.
         </h1>
         <div id="wall-of-text">
-          <Link id="contribute-button" to="/record">
+          <CardAction id="contribute-button" to="/record">
             <div>
               <RecordIcon />
             </div>
             Speak up, contribute here!
-          </Link>
+          </CardAction>
 
           <p>
             Voice is natural, voice is human. That’s why we’re fascinated with
@@ -75,7 +80,7 @@ class Home extends React.Component<Props, {}> {
           )}
         </div>
 
-        <hr />
+        <Hr />
 
         <div>
           <h1>Help us validate sentences!</h1>
@@ -93,5 +98,8 @@ class Home extends React.Component<Props, {}> {
   }
 }
 export default withRouter(
-  connect<{}, PropsFromDispatch>(null, pick(actions, 'tallyVerification'))(Home)
+  connect<PropsFromState, PropsFromDispatch>(
+    state => pick(state, 'api'),
+    pick(actions, 'tallyVerification')
+  )(Home)
 );

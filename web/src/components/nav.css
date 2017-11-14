@@ -29,7 +29,7 @@ header.active {
         max-width: var(--desktop-width);
         height: unset;
         flex-direction: row;
-        align-items: baseline;
+        align-items: center;
         justify-content: space-between;
         pointer-events: none;
     }
@@ -134,7 +134,7 @@ header.active {
 }
 
 .nav-list a.active {
-    color: var(--color-speak);
+    color: var(--color-speak-dark);
 }
 
 #hamburger-menu {

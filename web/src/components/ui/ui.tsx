@@ -1,4 +1,14 @@
 import * as React from 'react';
+import { Link, LinkProps } from 'react-router-dom';
+
+export const CardAction = (props: any) =>
+  props.to ? (
+    <Link className="card-action" {...props} />
+  ) : (
+    <button type="button" className="card-action" {...props} />
+  );
+
+export const Hr = (props: any) => <hr className="hr" {...props} />;
 
 const LabeledFormControl = ({
   className = '',

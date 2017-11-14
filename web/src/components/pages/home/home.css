@@ -8,7 +8,7 @@
     }
 
     #wall-of-text {
-        width: calc(100% - 290px);
+        width: calc(100% - 391px);
         margin-left: auto;
     }
 
@@ -30,15 +30,6 @@
 
 #contribute-button {
     position: absolute;
-    padding: 0.7rem 1.2rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-weight: bold;
-    box-shadow: var(--card-shadow);
-    background: white;
-    text-transform: none;
-    animation: fade-in .5s;
 }
 
 #contribute-button div {
@@ -56,11 +47,6 @@
     text-transform: uppercase;
     text-decoration: underline;
     cursor: pointer;
-}
-
-#home-container hr {
-    margin: 2rem 0;
-    border-color: #E5E4E2;
 }
 
 #help-explain {

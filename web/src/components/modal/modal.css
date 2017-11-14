@@ -15,7 +15,7 @@
 .ReactModal__Content .inner {
     margin: 0 auto;
     box-sizing: border-box;
-    padding: 1rem 2rem;
+    padding: 2rem;
     width: 100%;
     max-width: 40rem;
     text-align: center;
@@ -27,7 +27,24 @@
     margin-top: 1rem;
 }
 
-.ReactModal__Content button {
+.ReactModal__Content .buttons button, .ReactModal__Content .buttons a {
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid black;
     margin: var(--standard-margin);
+    padding: 0.5rem 5rem;
     text-transform: uppercase;
+    font-size: var(--small-font-size);
+    font-weight: bold;
+}
+
+.ReactModal__Content .buttons button:hover, .ReactModal__Content .buttons a:hover {
+    color: white;
+    background-color: black;
+}
+
+@media (max-width: 600px) {
+    .ReactModal__Content .buttons button, .ReactModal__Content .buttons a {
+        width: 100%;
+    }
 }

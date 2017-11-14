@@ -1,0 +1,121 @@
+@media (max-width: 600px) {
+    #common-voice-data {
+        top: 4rem;
+    }
+}
+
+@media (min-width: 600px) {
+    #common-voice-data {
+        top: 10rem;
+    }
+
+    .dataset {
+        width: calc(50% - 2 * var(--item-margin));
+    }
+
+    .dataset:nth-child(odd) {
+        margin-right: var(--item-margin);
+    }
+
+    .dataset:nth-child(even) {
+        margin-left: var(--item-margin);
+    }
+}
+
+#data-container a[target=_blank] {
+    font-size: var(--small-font-size);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#data-container .download-icon {
+    margin-right: 1rem;
+}
+
+#common-voice-data {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+#common-voice-license, #common-voice-license a {
+    margin-top: var(--standard-margin);
+    width: 100%;
+    text-align: end;
+    color: white;
+    font-size: var(--small-font-size);
+}
+
+#explanatory-text {
+    margin: 2rem 0;
+}
+
+#data-container hr {
+    margin: 3rem 0;
+}
+
+#datasets {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.dataset {
+    --item-margin: .7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: calc(2 * var(--item-margin));
+    box-shadow: var(--card-shadow);
+}
+
+.dataset .contents {
+    padding: 1.5rem;
+}
+
+.dataset h2 {
+    color: var(--color-speak-dark);
+}
+
+.dataset p {
+    margin: var(--standard-margin) 0;
+}
+
+.dataset .license {
+    padding: 1rem 1.5rem;
+    font-size: var(--small-font-size);
+}
+
+.dataset .action {
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-record-why-profile);
+}
+
+.dataset button {
+    width: auto;
+    border: 2px solid black;
+}
+
+#dataset-bundle {
+    border-top: .4rem solid var(--color-speak-dark);
+    margin: 5rem 0;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-record-why-profile);
+}
+
+#bundle-info {
+    margin-top: 1rem;
+    font-size: var(--small-font-size);
+    font-style: italic;
+}

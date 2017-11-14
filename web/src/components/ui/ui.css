@@ -1,3 +1,36 @@
+.card-action {
+    border: none;
+    padding: 0.8rem 1.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    box-shadow: var(--card-shadow);
+    background: white;
+    text-transform: none;
+    animation: fade-in .5s;
+}
+
+.download-icon {
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-table;
+    width: 15px;
+    max-width: 15px;
+    height: 15px;
+    max-height: 15px;
+    text-align: center;
+    font-size: .4rem;
+    font-weight: normal;
+}
+
+.hr {
+    border: solid 0.1rem;
+    margin: 1.5rem 0;
+    width: 100%;
+    color: var(--color-record-hr);
+}
+
 .labeled-form-control {
     margin-bottom: 1rem;
     display: flex;

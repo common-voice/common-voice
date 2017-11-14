@@ -5,6 +5,7 @@ import ProfileForm from '../../profile-form/profile-form';
 import { hasEnteredInfoSelector } from '../../../stores/user';
 import messages from '../../../messages';
 import Alert from '../../alert/alert';
+import { Hr } from '../../ui/ui';
 
 interface WhyProfileState {
   expanded: boolean;
@@ -71,7 +72,7 @@ class ProfileActions extends React.Component<PropsFromState, State> {
     const { profileFormVisible, alertVisible } = this.state;
     return (
       <div id="profile-actions">
-        {!profileFormVisible && <hr />}
+        {!profileFormVisible && <Hr />}
         {alertVisible && (
           <Alert autoHide onClose={this.closeAlert}>
             Success, profile created!

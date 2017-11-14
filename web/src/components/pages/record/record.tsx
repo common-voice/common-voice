@@ -2,7 +2,7 @@ import { connect } from 'react-redux';
 import API from '../../../services/api';
 import Tracker from '../../../services/tracker';
 import * as React from 'react';
-import Icon from '../../icon';
+import { FontIcon } from '../../ui/icons';
 import AudioIOS from './audio-ios';
 import AudioWeb, { AudioInfo } from './audio-web';
 import ERROR_MSG from '../../../error-msg';
@@ -417,11 +417,11 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
           <p key="desktop">
             On desktop computers, you can download the latest:
             <a target="_blank" href="https://www.firefox.com/">
-              <Icon type="firefox" />Firefox
+              <FontIcon type="firefox" />Firefox
             </a>{' '}
             or
             <a target="_blank" href="https://www.google.com/chrome">
-              <Icon type="chrome" />Chrome
+              <FontIcon type="chrome" />Chrome
             </a>
           </p>
           <p key="ios">
@@ -518,7 +518,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
               {texts}
               {recordingsCount > 0 &&
                 !this.state.isReRecord && (
-                  <Icon
+                  <FontIcon
                     id="undo-clip"
                     type="undo"
                     onClick={this.goBack}

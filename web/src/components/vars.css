@@ -15,7 +15,7 @@
     --standard-margin: 0.3rem;
     --hamburger: calc(var(--header-height) * 0.7);
     --transition-default: 0.3s;
-    --desktop-width: 45rem;
+    --desktop-width: 52rem;
     --hero-height: 15.3rem;
     --hero-height-mobile: 12.5rem;
     --robot-height: 22rem;
@@ -30,7 +30,7 @@
 
     --base-background-color: white;
     --base-font-color: black;
-    --color-speak-dark: #FF4E5E;
+    --color-speak-dark: #E45D68;
     --color-speak: #FB8E92;
     --color-speak-light: #FDC6C8;
     --color-listen: #B7D43F;

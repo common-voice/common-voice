@@ -6,11 +6,12 @@ import { getItunesURL, isNativeIOS, isIOS, isSafari } from '../utility';
 import Modal from './modal/modal';
 import ContactModal from './contact-modal/contact-modal';
 import Logo from './logo';
-import Icon from './icon';
+import { FontIcon } from './ui/icons';
 import Robot from './robot';
 
 import Home from './pages/home/home';
 import Record from './pages/record/record';
+import Data from './pages/data/data';
 import Profile from './pages/profile';
 import FAQ from './pages/faq';
 import Privacy from './pages/privacy';
@@ -21,21 +22,13 @@ import API from '../services/api';
 import { actions, UserState } from '../stores/user';
 import { apiSelector } from '../stores/root';
 
-interface PageUrls {
-  [key: string]: string;
-  ROOT: string;
-  RECORD: string;
-  PROFILE: string;
-  FAQ: string;
-  PRIVACY: string;
-  TERMS: string;
-  NOTFOUND: string;
-}
+const showDatasetsPage = localStorage.getItem('showDatasetsPage');
 
-const URLS: PageUrls = {
+const URLS = {
   ROOT: '/',
   RECORD: '/record',
   PROFILE: '/profile',
+  DATA: '/data',
   FAQ: '/faq',
   PRIVACY: '/privacy',
   TERMS: '/terms',
@@ -324,7 +317,7 @@ class Pages extends React.Component<PagesProps, PagesState> {
             id="hamburger-menu"
             onClick={this.toggleMenu}
             className={this.state.isMenuVisible ? 'active' : ''}>
-            <Icon type="hamburger" />
+            <FontIcon type="hamburger" />
           </button>
           {this.renderNav('main-nav', true)}
         </header>
@@ -356,11 +349,7 @@ class Pages extends React.Component<PagesProps, PagesState> {
                 this.content = div as HTMLElement;
               }}>
               <Switch>
-                <Route
-                  exact
-                  path={URLS.ROOT}
-                  render={props => <Home api={this.props.api} {...props} />}
-                />
+                <Route exact path={URLS.ROOT} component={Home} />
                 <Route
                   exact
                   path={URLS.RECORD}
@@ -376,11 +365,8 @@ class Pages extends React.Component<PagesProps, PagesState> {
                     />
                   )}
                 />
-                <Route
-                  exact
-                  path={URLS.PROFILE}
-                  render={props => <Profile {...props} />}
-                />
+                <Route exact path={URLS.DATA} component={Data} />
+                <Route exact path={URLS.PROFILE} component={Profile} />
                 <Route exact path={URLS.FAQ} component={FAQ} />} />
                 <Route exact path={URLS.PRIVACY} component={Privacy} />} />
                 <Route exact path={URLS.TERMS} component={Terms} />} />
@@ -391,25 +377,25 @@ class Pages extends React.Component<PagesProps, PagesState> {
               <div id="help-links">
                 <div className="content">
                   <Link id="help" to={URLS.FAQ}>
-                    <Icon type="help" />
+                    <FontIcon type="help" />
                     <p className="strong">Help</p>
                   </Link>
                   <a
                     id="contribute"
                     target="_blank"
                     href="https://github.com/mozilla/voice-web">
-                    <Icon type="github" />
+                    <FontIcon type="github" />
                     <p className="strong">Contribute</p>
                   </a>
                   <a
                     id="discourse"
                     target="blank"
                     href="https://discourse.mozilla-community.org/c/voice">
-                    <Icon type="discourse" />
+                    <FontIcon type="discourse" />
                     <p className="strong">Community</p>
                   </a>
                   <a onClick={this.toggleContactModal}>
-                    <Icon type="contact" />
+                    <FontIcon type="contact" />
                     <p className="strong">Contact</p>
                   </a>
                 </div>
@@ -475,10 +461,15 @@ class Pages extends React.Component<PagesProps, PagesState> {
             Home
           </NavLink>
         )}
-        <NavLink to="/record" exact>
+        <NavLink to={URLS.RECORD} exact>
           Speak
         </NavLink>
-        <NavLink to="/profile" exact>
+        {showDatasetsPage && (
+          <NavLink to={URLS.DATA} exact>
+            Datasets
+          </NavLink>
+        )}
+        <NavLink to={URLS.PROFILE} exact>
           Profile
         </NavLink>
       </nav>
