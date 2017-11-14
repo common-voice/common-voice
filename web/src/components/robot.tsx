@@ -15,9 +15,42 @@ const modes: any = {
   thanks: MODE_THUMBS_UP,
 };
 
-export default ({ position }: Props) => (
-  <img
-    className={'robot ' + position}
-    src={modes[position] || MODE_GREETINGS}
-  />
-);
+const head = [30, 0, 80, 35];
+const heart = [53, 45, 65, 55];
+
+const touchCode = [head, head, heart, head];
+
+export default class Robot extends React.Component<Props> {
+  private remainingCode = touchCode.slice();
+  private secretDoorToStaging = ({
+    currentTarget,
+    targetTouches,
+  }: React.TouchEvent<HTMLImageElement>) => {
+    const touch = targetTouches[0];
+    if (!touch) return;
+
+    const rect = currentTarget.getBoundingClientRect();
+    const x = 100 * (touch.clientX - rect.left) / rect.width;
+    const y = 100 * (touch.clientY - rect.top) / rect.height;
+
+    const [x1, y1, x2, y2] = this.remainingCode.shift();
+
+    if (x < x1 || x > x2 || y < y1 || y > y2) {
+      this.remainingCode = touchCode.slice();
+    }
+    if (this.remainingCode.length == 0) {
+      location.href = 'https://voice.allizom.org/';
+    }
+  };
+
+  render() {
+    const { position } = this.props;
+    return (
+      <img
+        className={'robot ' + position}
+        src={modes[position] || MODE_GREETINGS}
+        onTouchStart={this.secretDoorToStaging}
+      />
+    );
+  }
+}
