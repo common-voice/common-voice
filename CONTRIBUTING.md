@@ -14,13 +14,13 @@ Help us add more sentences for other volunteers to read. See [issue 341](https:/
 All of our current issues can be found here on GitHub. Anything with a [help wanted](https://github.com/mozilla/voice-web/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) tag is up for grabs.
 
 #### Requirements
-- [NodeJS](https://nodejs.org/en/) (v7 or higher)
-- [npm](https://www.npmjs.com/) (v4 or higher)
-- [yarn](https://yarnpkg.com/en/) (v1 or higher)
+- [NodeJS](https://nodejs.org) (v7 or higher)
+- [npm](https://www.npmjs.com) (v4 or higher)
+- [yarn](https://yarnpkg.com) (v1 or higher)
 - [ffmpeg](https://www.ffmpeg.org/download.html)
 
 #### Local Development
-If you haven't already, install the latest version of NodeJS and npm: https://nodejs.org/en/download/; and yarn: https://yarnpkg.com/en/
+If you haven't already, install the latest version of [NodeJS and npm](https://nodejs.org/en/download) and [yarn](https://yarnpkg.com)
 
 Then enter the following commands:
 ```
@@ -34,6 +34,9 @@ This will:
 4. Lint and rebuild all js files on every change.
 
 You can then access the website at [http://localhost:9000](http://localhost:9000).
+
+#### Configuration
+You can find configurable options, like the port CommonVoice is running on, in `/server/src/config-helper.ts`. Just create a `/server/config.json` with the config you want to override.
 
 #### Setting up Amazon S3 for development
 The Common Voice project uses S3 for voice clip storage. If you need help configuring
