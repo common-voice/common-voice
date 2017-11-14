@@ -13,7 +13,9 @@ const USER_KEY = 'userdata';
 
 let preloadedState = null;
 try {
-  preloadedState = { user: JSON.parse(localStorage.getItem(USER_KEY)) };
+  preloadedState = {
+    user: JSON.parse(localStorage.getItem(USER_KEY)) || undefined,
+  };
 } catch (e) {
   console.error('failed parsing storage', e);
   localStorage.removeItem(USER_KEY);
