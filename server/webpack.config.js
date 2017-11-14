@@ -21,10 +21,10 @@ fs
   });
 
 module.exports = {
-  entry: './src/server.ts',
+  entry: './src/index.ts',
   output: {
     path: OUTPUT_PATH,
-    filename: 'server.js',
+    filename: 'index.js',
   },
   target: 'node',
 

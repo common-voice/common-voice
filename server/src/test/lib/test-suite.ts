@@ -57,11 +57,7 @@ class SuiteState {
    */
   private createTest(testCase: SuiteTestCase): void {
     const testName = `${this.name}::${testCase.name}`;
-    this.tape.test(
-      testName,
-      { timeout: TIMEOUT },
-      this.runTest.bind(this, testCase)
-    );
+    this.tape.test(testName, this.runTest.bind(this, testCase));
   }
 
   /**
