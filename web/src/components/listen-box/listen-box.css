@@ -93,7 +93,7 @@ body.mobile-safari .play-box:active {
 
 .delete-box span {
     display: block;
-    transform: scaleX(-1) rotate(-90deg);
+    font-size: 1.2rem;
 }
 
 body:not(.mobile-safari) .delete-box:hover,
