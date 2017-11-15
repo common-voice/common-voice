@@ -10,7 +10,7 @@
     }
 
     .dataset {
-        width: calc(50% - 2 * var(--item-margin));
+        width: calc(50% - var(--item-margin));
     }
 
     .dataset:nth-child(odd) {

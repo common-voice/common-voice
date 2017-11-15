@@ -8,7 +8,14 @@
     box-shadow: var(--card-shadow);
     background: white;
     text-transform: none;
+    white-space: nowrap;
     animation: fade-in .5s;
+}
+
+@media (max-width: 600px) {
+    .card-action {
+        white-space: normal;
+    }
 }
 
 .download-icon {
