@@ -60,9 +60,10 @@ interface RecordState {
   uploadProgress: number;
   isReRecord: boolean;
   reRecordIndex: number;
-  alertVisible: boolean;
+  showSubmitSuccess: boolean;
   showRetryModal: boolean;
   showResetModal: boolean;
+  recordingError?: string;
 }
 
 class RecordPage extends React.Component<RecordProps, RecordState> {
@@ -83,9 +84,10 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
     uploadProgress: 0,
     isReRecord: false,
     reRecordIndex: -1,
-    alertVisible: false,
+    showSubmitSuccess: false,
     showRetryModal: false,
     showResetModal: false,
+    recordingError: null,
   };
 
   constructor(props: RecordProps) {
@@ -141,6 +143,23 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
   }
 
   private processRecording(info: AudioInfo) {
+    this.setState({
+      recording: false,
+    });
+    this.props.onRecordStop && this.props.onRecordStop();
+
+    const error = this.getRecordingError();
+    if (error) {
+      this.setState({
+        recordingError: {
+          [RecordingError.TOO_SHORT]: 'The recording was too short.',
+          [RecordingError.TOO_LONG]: 'The recording was too long.',
+          [RecordingError.TOO_QUIET]: 'The recording was too quiet.',
+        }[error],
+      });
+      return;
+    }
+
     let recordings = this.state.recordings;
     if (this.state.isReRecord) {
       recordings.splice(this.state.reRecordIndex, 0, info);
@@ -155,32 +174,10 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
       recording: false,
       isReRecord: false,
       reRecordIndex: -1,
-      alertVisible: isFull,
+      showSubmitSuccess: isFull,
     });
 
     this.tracker.trackRecord();
-
-    this.props.onRecordStop && this.props.onRecordStop();
-
-    const error = this.getRecordingError();
-    if (error) {
-      let message;
-      switch (error) {
-        case RecordingError.TOO_SHORT:
-          message = 'The recording was too short.';
-          break;
-        case RecordingError.TOO_LONG:
-          message = 'The recording was too long.';
-          break;
-        case RecordingError.TOO_QUIET:
-          message = 'The recording was too quiet.';
-          break;
-        default:
-          message = 'There was something wrong with the recording.';
-      }
-      console.log(message);
-      // TODO display error to user
-    }
 
     if (!this.props.onRecordingSet) {
       return;
@@ -212,7 +209,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
       recordings: recordings,
       isReRecord: true,
       reRecordIndex: index,
-      alertVisible: false,
+      showSubmitSuccess: false,
     });
 
     this.props.onDelete();
@@ -293,7 +290,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
     recordings.pop();
     this.setState({
       recordings: recordings,
-      alertVisible: false,
+      showSubmitSuccess: false,
     });
   }
 
@@ -344,7 +341,8 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
       // TODO: re-enable display of recording time at some point.
       recordingStartTime: Date.now(),
       recordingStopTime: 0,
-      alertVisible: false,
+      showSubmitSuccess: false,
+      recordingError: null,
     });
     this.props.onRecord && this.props.onRecord();
   }
@@ -395,8 +393,12 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
 
   private closeAlert = () => {
     this.setState({
-      alertVisible: false,
+      showSubmitSuccess: false,
     });
+  };
+
+  private clearRecordingError = () => {
+    this.setState({ recordingError: null });
   };
 
   private resetAndGoHome = () => {
@@ -507,7 +509,14 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
         )}
         {!this.isFull() && !this.state.uploading ? (
           <div id="voice-record">
-            {this.state.alertVisible && (
+            {this.state.recordingError && (
+              <div id="alert-container">
+                <Alert autoHide type="error" onClose={this.clearRecordingError}>
+                  {this.state.recordingError}
+                </Alert>
+              </div>
+            )}
+            {this.state.showSubmitSuccess && (
               <div id="alert-container">
                 <Alert autoHide onClose={this.closeAlert}>
                   Submit success! Want to record again?

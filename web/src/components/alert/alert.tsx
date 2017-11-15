@@ -7,9 +7,14 @@ interface Props {
   children?: any;
   autoHide: boolean;
   onClose: Function;
+  type?: 'success' | 'error';
 }
 
 export default class Alert extends React.Component<Props, {}> {
+  static defaultProps = {
+    type: 'success',
+  };
+
   timeout: number;
 
   constructor(props: Props) {
@@ -46,7 +51,7 @@ export default class Alert extends React.Component<Props, {}> {
 
   render() {
     return (
-      <div className="alert">
+      <div className={'alert ' + this.props.type}>
         {this.props.children}
 
         <FontIcon type="x" onClick={this.onClick} className="icon" />

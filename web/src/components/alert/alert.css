@@ -1,8 +1,15 @@
 .alert {
-  background-color: var(--color-listen);
   color: #fff;
   padding: 8px;
   font-size: var(--small-font-size);
+}
+
+.alert.success {
+  background-color: var(--color-listen);
+}
+
+.alert.error {
+  background-color: #FF4E5E;
 }
 
 .alert > .icon {
