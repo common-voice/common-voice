@@ -202,6 +202,44 @@ footer {
     color: var(--color-speak-dark);
 }
 
+#tallies, #tallies > * {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#tallies .divider {
+    margin: 0 var(--standard-margin);
+    border-right: 2px solid var(--color-record-hr);
+    height: 1rem;
+}
+
+#tallies .icon {
+    margin-right: var(--standard-margin);
+}
+
+#record-tally {
+    color: var(--color-speak);
+}
+
+#validate-tally {
+    color: var(--color-listen);
+}
+
+#validate-tally .icon {
+    display: block;
+    font-size: .6rem;
+}
+
+@media (min-width: 600px) {
+    #tallies {
+        margin-left: 1rem;
+    }
+}
+
 #hamburger-menu {
     height: var(--hamburger);
     width: var(--hamburger);
@@ -229,38 +267,8 @@ footer {
     }
     #main-nav {
         display: flex;
+        align-items: center;
     }
-}
-
-#tally-box {
-    position: absolute;
-    top: 0;
-}
-
-@media (max-width: 600px) {
-    #tally-box {
-        position: static;
-    }
-    #tally-box span:first-child {
-        text-align: center;
-        margin-right: 0;
-    }
-}
-
-#tally-box span {
-    display: inline-block;
-    font-weight: bold
-}
-
-#tally-box .tally-recordings {
-    width: 2rem;
-    margin-right: 2rem;
-    text-align: right;
-    color: var(--color-speak);
-}
-
-#tally-box .tally-verifications {
-    color: var(--color-listen);
 }
 
 #navigation-modal {

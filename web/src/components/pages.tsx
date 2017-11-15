@@ -6,7 +6,7 @@ import { getItunesURL, isNativeIOS, isIOS, isSafari } from '../utility';
 import Modal from './modal/modal';
 import ContactModal from './contact-modal/contact-modal';
 import Logo from './logo';
-import { FontIcon } from './ui/icons';
+import { FontIcon, RecordIcon } from './ui/icons';
 import Robot from './robot';
 
 import Home from './pages/home/home';
@@ -500,6 +500,7 @@ class Pages extends React.Component<PagesProps, PagesState> {
   }
 
   private renderNav(id?: string, hideHome?: boolean) {
+    const { user } = this.props;
     return (
       <nav id={id} className="nav-list">
         {!hideHome && (
@@ -518,18 +519,18 @@ class Pages extends React.Component<PagesProps, PagesState> {
         <NavLink to={URLS.PROFILE} exact>
           Profile
         </NavLink>
+        <div id="tallies">
+          <div id="record-tally">
+            <RecordIcon size={0.7} className="icon" />
+            <div>{user.recordTally}</div>
+          </div>
+          <div className="divider" />
+          <div id="validate-tally">
+            <FontIcon type="play" className="icon" />
+            {user.validateTally}
+          </div>
+        </div>
       </nav>
-    );
-  }
-
-  private renderUser() {
-    return (
-      <div id="tally-box">
-        <span className="tally-recordings">{this.props.user.recordTally}</span>
-        <span className="tally-verifications">
-          {this.props.user.validateTally}
-        </span>
-      </div>
     );
   }
 }

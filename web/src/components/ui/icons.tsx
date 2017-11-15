@@ -33,11 +33,11 @@ export const FontIcon = ({ type, ...props }: FontIconProps) => (
   <span aria-hidden="true" data-icon={FONT_ICONS[type]} {...props} />
 );
 
-export const RecordIcon = ({ size = 1 }) => {
+export const RecordIcon = ({ size = 1, ...props }: any) => {
   const totalSize = size * 25;
   const halfSize = totalSize / 2;
   return (
-    <svg width={totalSize} height={totalSize}>
+    <svg width={totalSize} height={totalSize} {...props}>
       <circle
         cx={halfSize}
         cy={halfSize}
