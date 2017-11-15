@@ -108,6 +108,7 @@ export default class Bucket {
         // Grab all the file paths from the response object.
         let contents = response['data']['Contents'];
         for (let i = 0; i < contents.length; i++) {
+          this.model.processFilePath(contents[i].Key);
           results.filePaths.push(contents[i].Key);
         }
 
@@ -152,7 +153,6 @@ export default class Bucket {
       const results = await this.fetchObjects(next);
 
       const startParsing = Date.now();
-      this.model.processFilePaths(results.filePaths);
 
       // Print some loading stats.
       let now = Date.now();
