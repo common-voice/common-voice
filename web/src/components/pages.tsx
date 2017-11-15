@@ -24,6 +24,11 @@ import { apiSelector } from '../stores/root';
 
 const showDatasetsPage = localStorage.getItem('showDatasetsPage');
 
+const shareURL = 'https://voice.mozilla.org/';
+const encodedShareText = encodeURIComponent(
+  'Help robots talk, donate your voice at ' + shareURL
+);
+
 const URLS = {
   ROOT: '/',
   RECORD: '/record',
@@ -67,6 +72,7 @@ class Pages extends React.Component<PagesProps, PagesState> {
   private content: HTMLElement;
   private bg: HTMLElement;
   private installApp: HTMLElement;
+  private shareURLInput: HTMLInputElement;
   private iOSBackground: any[];
 
   state: PagesState = {
@@ -248,6 +254,11 @@ class Pages extends React.Component<PagesProps, PagesState> {
     );
   };
 
+  private copyShareURL = () => {
+    this.shareURLInput.select();
+    document.execCommand('copy');
+  };
+
   componentDidMount() {
     this.addScrollListener();
   }
@@ -375,30 +386,31 @@ class Pages extends React.Component<PagesProps, PagesState> {
             </div>
             <footer>
               <div id="help-links">
-                <div className="content">
-                  <Link id="help" to={URLS.FAQ}>
-                    <FontIcon type="help" />
-                    <p className="strong">Help</p>
-                  </Link>
-                  <a
-                    id="contribute"
-                    target="_blank"
-                    href="https://github.com/mozilla/voice-web">
-                    <FontIcon type="github" />
-                    <p className="strong">Contribute</p>
-                  </a>
-                  <a
-                    id="discourse"
-                    target="blank"
-                    href="https://discourse.mozilla-community.org/c/voice">
-                    <FontIcon type="discourse" />
-                    <p className="strong">Community</p>
-                  </a>
-                  <a onClick={this.toggleContactModal}>
-                    <FontIcon type="contact" />
-                    <p className="strong">Contact</p>
-                  </a>
-                </div>
+                <Link id="help" to={URLS.FAQ}>
+                  <FontIcon type="help" />
+                  <div>Help</div>
+                </Link>
+                <div className="divider" />
+                <a
+                  id="contribute"
+                  target="_blank"
+                  href="https://github.com/mozilla/voice-web">
+                  <FontIcon type="github" />
+                  <div>GitHub</div>
+                </a>
+                <div className="divider" />
+                <a
+                  id="discourse"
+                  target="blank"
+                  href="https://discourse.mozilla-community.org/c/voice">
+                  <FontIcon type="discourse" />
+                  <div>Discourse</div>
+                </a>
+                <div className="divider" />
+                <a onClick={this.toggleContactModal}>
+                  <FontIcon type="contact" />
+                  <div>Contact</div>
+                </a>
               </div>
               <div id="moz-links">
                 <div className="content">
@@ -417,10 +429,44 @@ class Pages extends React.Component<PagesProps, PagesState> {
                     <p>
                       Content available under a&nbsp;<a
                         target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.mozilla.org/en-US/foundation/licensing/website-content/">
                         Creative Commons license
                       </a>
                     </p>
+                  </div>
+                </div>
+                <div id="sharing">
+                  <h3>Help us find others to donate their voice!</h3>
+
+                  <div className="icons">
+                    <button id="link-copy" onClick={this.copyShareURL}>
+                      <input
+                        type="text"
+                        readOnly
+                        value={shareURL}
+                        ref={node => (this.shareURLInput = node)}
+                      />
+                      <FontIcon type="link" />
+                    </button>
+                    <a
+                      href={
+                        'https://twitter.com/intent/tweet?text=' +
+                        encodedShareText
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer">
+                      <FontIcon type="twitter" />
+                    </a>
+                    <a
+                      href={
+                        'https://www.facebook.com/sharer/sharer.php?u=' +
+                        encodeURIComponent(shareURL)
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer">
+                      <FontIcon type="facebook" />
+                    </a>
                   </div>
                 </div>
               </div>

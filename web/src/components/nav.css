@@ -38,63 +38,83 @@ header.active {
     }
 }
 
-@media (min-width: 600px) {
-    #help-links .content,
-    #moz-links .content {
-        max-width: var(--desktop-width);
-        margin: 0 auto;
-    }
+footer {
+    background-color: black;
 }
 
 #help-links {
-    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8rem;
     background-color: var(--color-secondary);
 }
 
 #help-links a {
+    font-family: sans-serif;
     box-sizing: border-box;
     text-align: center;
     width: 10rem;
-}
-
-#help-links a {
     cursor: pointer;
-    border-right: 1px solid black;
 }
 
-#help-links a:last-child {
-    border-right: none;
+#help-links .divider {
+    border-right: 2px solid darkgrey;
+    height: 2.5rem;
+}
+
+#help-links {
+    margin-top: calc(2 * var(--standard-margin));
 }
 
 #moz-links {
+    height: 100%;
     font-size: 0.7rem;
     color: white;
-    background-color: black;
 }
 
 @media (min-width: 600px) {
     #moz-links {
-        height: 4rem;
         padding: 0.4rem 0;
     }
 }
 
-#help-links .content,
+
+#moz-links {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 600px) {
+    #moz-links {
+        margin: 0 auto;
+        width: var(--desktop-width);
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #moz-links > * {
+        margin-top: 3rem;
+    }
+}
+
 #moz-links .content {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 @media (max-width: 600px) {
     #moz-links .content {
-        flex-direction: column;
-        align-items: flex-start;
         padding: var(--page-margin);
     }
 }
 
+@media (min-width: 600px) {
+    #moz-links .content {
+        padding-right: 1rem;
+    }
+}
 
 #moz-links .main-logo {
     font-size: 1rem;
@@ -117,6 +137,51 @@ header.active {
     margin-bottom: 0.2rem;
     display: flex;
     justify-content: space-between;
+}
+
+#sharing {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #262626;
+}
+
+#sharing h3 {
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-style: italic;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+#sharing .icons {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#sharing a, #link-copy {
+    font-size: .8rem;
+    color: white;
+}
+
+#link-copy {
+    border: none;
+    padding: 0;
+    width: auto;
+    background: transparent;
+}
+
+#link-copy input {
+    position: fixed;
+    top: 1000rem;
+    left: 1000rem;
+}
+
+#link-copy:active {
+    color: black;
 }
 
 .nav-list {
