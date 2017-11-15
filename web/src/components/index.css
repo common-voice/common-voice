@@ -425,8 +425,8 @@ body:not(.ios) .recording #background-container {
   position: relative;
   display: inline-block;
   height: var(--robot-height);
-  transition: all 0.2s ease-in-out, opacity .1s linear;
-  transform: translate(0,0) scale(0);
+  transition: transform 0.2s ease-in-out;
+  transform: translate(0, 15rem) scale(0);
   opacity: 0;
 }
 
