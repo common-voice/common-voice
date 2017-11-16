@@ -69,13 +69,13 @@ interface PropsFromDispatch {
 
 interface RecordProps extends PropsFromState, PropsFromDispatch {
   api: API;
+  isRecording: boolean;
   onRecord: Function;
   onRecordStop: Function;
   onVolume(volume: number): void;
 }
 
 interface RecordState {
-  recording: boolean;
   recordingStartTime: number;
   recordingStopTime: number;
   isReRecord: boolean;
@@ -92,7 +92,6 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
   maxVolume: number;
 
   state: RecordState = {
-    recording: false,
     recordingStartTime: 0,
     recordingStopTime: 0,
     isReRecord: false,
@@ -127,9 +126,6 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
 
   private processRecording = (info: AudioInfo) => {
     const { onRecordStop, recordingsCount, sentenceRecordings } = this.props;
-    this.setState({
-      recording: false,
-    });
     onRecordStop && onRecordStop();
 
     const error = this.getRecordingError();
@@ -185,19 +181,14 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
   };
 
   private updateVolume = (volume: number) => {
-    if (!this.state.recording) {
-      return;
-    }
-
     // For some reason, volume is always exactly 100 at the end of the
     // recording, even if it is silent; so ignore that.
     if (volume !== 100 && volume > this.maxVolume) {
       this.maxVolume = volume;
     }
 
-    if (this.props.onVolume) {
-      this.props.onVolume(volume);
-    }
+    const { onVolume } = this.props;
+    onVolume && onVolume(volume);
   };
 
   private goBack = (): void => {
@@ -210,7 +201,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
 
     // If user was recording when going back, make sure to throw
     // out this new recording too.
-    if (this.state.recording) {
+    if (this.props.isRecording) {
       this.stopRecordingHard();
     }
 
@@ -229,7 +220,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
       evt.stopImmediatePropagation();
     }
 
-    if (this.state.recording) {
+    if (this.props.isRecording) {
       this.stopRecording();
       return;
     }
@@ -250,7 +241,6 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
     this.audio.start();
     this.maxVolume = 0;
     this.setState({
-      recording: true,
       // TODO: re-enable display of recording time at some point.
       recordingStartTime: Date.now(),
       recordingStopTime: 0,
@@ -272,10 +262,6 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
    */
   stopRecordingHard = () => {
     this.audio.stop();
-    this.setState({
-      recording: false,
-    });
-
     this.props.onRecordStop && this.props.onRecordStop();
   };
 

@@ -68,8 +68,7 @@ interface PagesState {
   scrolled: boolean;
   showContactModal: boolean;
   transitioning: boolean;
-  recording: boolean;
-  recorderVolume: number;
+  isRecording: boolean;
 }
 
 class Pages extends React.Component<PagesProps, PagesState> {
@@ -79,6 +78,7 @@ class Pages extends React.Component<PagesProps, PagesState> {
   private bg: HTMLElement;
   private installApp: HTMLElement;
   private shareURLInput: HTMLInputElement;
+  private stopBackgroundRender: boolean;
 
   // On native iOS, we found some issues animating the css background
   // image during recording, so we use this as a more performant alternative.
@@ -94,8 +94,7 @@ class Pages extends React.Component<PagesProps, PagesState> {
     scrolled: false,
     showContactModal: false,
     transitioning: false,
-    recording: false,
-    recorderVolume: 100,
+    isRecording: false,
   };
 
   componentDidMount() {
@@ -103,9 +102,17 @@ class Pages extends React.Component<PagesProps, PagesState> {
     this.addScrollListener();
   }
 
-  componentDidUpdate(nextProps: PagesProps) {
+  componentDidUpdate(nextProps: PagesProps, nextState: PagesState) {
+    if (nextState.isRecording) {
+      this.stopBackgroundRender = false;
+      this.renderBackground();
+    } else if (!nextState.isRecording) {
+      this.stopBackgroundRender = true;
+      this.bg.style.transform = '';
+    }
+
     if (this.props.location !== nextProps.location) {
-      this.setState({ recording: false });
+      this.setState({ isRecording: false });
       this.content.children[0].addEventListener(
         'animationend',
         this.scrollToTop
@@ -113,10 +120,16 @@ class Pages extends React.Component<PagesProps, PagesState> {
     }
   }
 
-  private onVolume = (volume: number) => {
-    if (!this.state.transitioning && this.state.recording) {
-      this.setState({ recorderVolume: volume });
-    }
+  private volume = 0;
+  private handleVolumeChange = (volume: number) => {
+    this.volume = volume;
+  };
+
+  private renderBackground = () => {
+    if (this.stopBackgroundRender) return;
+    const scale = Math.max(1.3 * (this.volume - 28) / 100, 0);
+    this.bg.style.transform = `scaleY(${scale})`;
+    requestAnimationFrame(this.renderBackground);
   };
 
   /**
@@ -141,20 +154,19 @@ class Pages extends React.Component<PagesProps, PagesState> {
       this.bg.removeEventListener('transitionend', cb);
       this.setState({
         transitioning: false,
-        recording: true,
       });
     };
     this.bg.addEventListener('transitionend', cb);
 
     this.setState({
+      isRecording: true,
       transitioning: true,
-      recording: false,
     });
   };
 
   private onRecordStop = () => {
     this.setState({
-      recording: false,
+      isRecording: false,
     });
   };
 
@@ -206,16 +218,8 @@ class Pages extends React.Component<PagesProps, PagesState> {
   render() {
     const pageName = this.props.location.pathname.substr(1) || 'home';
     let className = pageName;
-    if (this.state.transitioning) {
-      className += ' hiding';
-    } else if (this.state.recording) {
+    if (this.state.isRecording) {
       className += ' recording';
-    }
-
-    let bgStyle: any = {};
-    if (this.state.recording) {
-      let scale = Math.max(1.3 * (this.state.recorderVolume - 28) / 100, 0);
-      bgStyle.transform = 'scaleY(' + scale + ')';
     }
 
     return (
@@ -262,7 +266,6 @@ class Pages extends React.Component<PagesProps, PagesState> {
           <div id="scrollee">
             <div
               id="background-container"
-              style={bgStyle}
               ref={div => {
                 this.bg = div as HTMLElement;
               }}>
@@ -290,9 +293,10 @@ class Pages extends React.Component<PagesProps, PagesState> {
                   path={URLS.RECORD}
                   render={props => (
                     <Record
+                      isRecording={this.state.isRecording}
                       onRecord={this.onRecord}
                       onRecordStop={this.onRecordStop}
-                      onVolume={this.onVolume}
+                      onVolume={this.handleVolumeChange}
                       {...props}
                     />
                   )}
