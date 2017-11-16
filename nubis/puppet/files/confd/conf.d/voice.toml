@@ -1,6 +1,6 @@
 [template]
 src = "voice.json.tmpl"
-dest = "/var/www/voice/config.json"
+dest = "/var/www/voice/server/config.json"
 prefix = "/%%PROJECT%%-%%ENVIRONMENT%%/%%ENVIRONMENT%%"
 
 uid = 0
