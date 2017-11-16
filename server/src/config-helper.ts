@@ -48,6 +48,8 @@ function load(): CommonVoiceConfig {
   let config = null;
   try {
     config = require('../../config.json');
-  } catch (err) {}
+  } catch (err) {
+    console.log('no config.json found, using defaults', err);
+  }
   return config;
 }
