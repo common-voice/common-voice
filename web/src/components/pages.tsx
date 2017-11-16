@@ -2,8 +2,13 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import { Switch, Route, RouteComponentProps, withRouter } from 'react-router';
 import { Link, NavLink } from 'react-router-dom';
+import {
+  actions as recordingsActions,
+  isSetFullSelector,
+} from '../stores/recordings';
+import StateTree from '../stores/tree';
+import { UserState } from '../stores/user';
 import { getItunesURL, isNativeIOS, isIOS, isSafari } from '../utility';
-import Modal from './modal/modal';
 import ContactModal from './contact-modal/contact-modal';
 import Logo from './logo';
 import {
@@ -26,10 +31,6 @@ import Privacy from './pages/privacy';
 import Terms from './pages/terms';
 import NotFound from './pages/not-found';
 
-import API from '../services/api';
-import { actions, UserState } from '../stores/user';
-import { apiSelector } from '../stores/root';
-
 const showDatasetsPage = localStorage.getItem('showDatasetsPage');
 
 const shareURL = 'https://voice.mozilla.org/';
@@ -49,13 +50,12 @@ const URLS = {
 };
 
 interface PropsFromState {
-  api: API;
+  isSetFull: boolean;
   user: UserState;
 }
 
 interface PropsFromDispatch {
-  tallyRecording: typeof actions.tallyRecording;
-  updateUser: typeof actions.update;
+  buildNewSentenceSet: typeof recordingsActions.buildNewSentenceSet;
 }
 
 interface PagesProps
@@ -67,10 +67,8 @@ interface PagesState {
   isMenuVisible: boolean;
   scrolled: boolean;
   showContactModal: boolean;
-  showPrivacyModal: boolean;
   transitioning: boolean;
   recording: boolean;
-  robot: string;
   recorderVolume: number;
 }
 
@@ -81,77 +79,62 @@ class Pages extends React.Component<PagesProps, PagesState> {
   private bg: HTMLElement;
   private installApp: HTMLElement;
   private shareURLInput: HTMLInputElement;
-  private iOSBackground: any[];
+
+  // On native iOS, we found some issues animating the css background
+  // image during recording, so we use this as a more performant alternative.
+  private iOSBackground = isNativeIOS()
+    ? [
+        <img src="/img/wave-blue-mobile.png" />,
+        <img src="/img/wave-red-mobile.png" />,
+      ]
+    : [];
 
   state: PagesState = {
     isMenuVisible: false,
     scrolled: false,
     showContactModal: false,
-    showPrivacyModal: false,
     transitioning: false,
     recording: false,
-    robot: '',
     recorderVolume: 100,
   };
 
-  constructor(props?: PagesProps) {
-    super(props);
-
-    // On native iOS, we found some issues animating the css background
-    // image during recording, so we use this as a more performant alternative.
-    this.iOSBackground = [];
-    if (isNativeIOS()) {
-      this.iOSBackground = [
-        <img src="/img/wave-blue-mobile.png" />,
-        <img src="/img/wave-red-mobile.png" />,
-      ];
-    }
-
-    this.uploadRecordings = this.uploadRecordings.bind(this);
-    this.onRecord = this.onRecord.bind(this);
-    this.onRecordStop = this.onRecordStop.bind(this);
-    this.sayThanks = this.sayThanks.bind(this);
-    this.clearRobot = this.clearRobot.bind(this);
-    this.openInApp = this.openInApp.bind(this);
-    this.closeOpenInApp = this.closeOpenInApp.bind(this);
-    this.onVolume = this.onVolume.bind(this);
+  componentDidMount() {
+    this.props.buildNewSentenceSet();
+    this.addScrollListener();
   }
 
-  private onVolume(volume: number) {
+  componentDidUpdate(nextProps: PagesProps) {
+    if (this.props.location !== nextProps.location) {
+      this.content.children[0].addEventListener(
+        'animationend',
+        this.scrollToTop
+      );
+    }
+  }
+
+  private onVolume = (volume: number) => {
     if (!this.state.transitioning && this.state.recording) {
       this.setState({ recorderVolume: volume });
     }
-  }
+  };
 
   /**
    * If the iOS app is installed, open it. Otherwise, open the App Store.
    */
-  private openInApp() {
+  private openInApp = () => {
     // TODO: Enable custom protocol when we publish an ios app update.
     // window.location.href = 'commonvoice://';
 
     window.location.href = getItunesURL();
-  }
+  };
 
-  private closeOpenInApp(evt: React.MouseEvent<HTMLElement>) {
+  private closeOpenInApp = (evt: React.MouseEvent<HTMLElement>) => {
     evt.stopPropagation();
     evt.preventDefault();
     this.installApp.classList.add('hide');
-  }
+  };
 
-  private sayThanks(): void {
-    this.setState({
-      robot: 'thanks',
-    });
-  }
-
-  private clearRobot(): void {
-    this.setState({
-      robot: '',
-    });
-  }
-
-  private onRecord() {
+  private onRecord = () => {
     // Callback function for when we've hidden the normal background.
     let cb = () => {
       this.bg.removeEventListener('transitionend', cb);
@@ -166,78 +149,22 @@ class Pages extends React.Component<PagesProps, PagesState> {
       transitioning: true,
       recording: false,
     });
-  }
+  };
 
-  private onRecordStop() {
+  private onRecordStop = () => {
     this.setState({
       recording: false,
     });
-  }
+  };
 
-  private addScrollListener() {
+  private addScrollListener = () => {
     this.scroller.addEventListener('scroll', evt => {
       let scrolled = this.scroller.scrollTop > 0;
       if (scrolled !== this.state.scrolled) {
         this.setState({ scrolled: scrolled });
       }
     });
-  }
-
-  private handlePrivacyAction(didAgree: boolean): void {}
-
-  private ensurePrivacyAgreement(): Promise<void> {
-    if (this.props.user.privacyAgreed) {
-      return Promise.resolve();
-    }
-
-    return new Promise<void>((resolve, reject) => {
-      this.handlePrivacyAction = (didAgree: boolean): void => {
-        this.handlePrivacyAction = null;
-        this.setState({
-          showPrivacyModal: false,
-        });
-
-        if (didAgree) {
-          this.props.updateUser({ privacyAgreed: true });
-          resolve();
-        } else {
-          reject();
-        }
-      };
-      this.setState({
-        showPrivacyModal: true,
-      });
-    });
-  }
-
-  private async uploadRecordings(
-    recordings: any[],
-    sentences: string[],
-    progressCb: Function
-  ): Promise<void> {
-    await this.ensurePrivacyAgreement();
-    const originalTotal = recordings.length;
-
-    for (let runningTotal = 1; runningTotal <= originalTotal; runningTotal++) {
-      const recording = recordings.pop();
-      const blob = recording.blob;
-      const sentence = sentences.pop();
-
-      await this.props.api.uploadAudio(blob, sentence);
-      this.props.tallyRecording();
-
-      if (recordings.length !== 0) {
-        let percentage = Math.floor(runningTotal / originalTotal * 100);
-        progressCb && progressCb(percentage);
-      }
-    }
-    await this.props.api.uploadDemographicInfo();
-
-    // Reset robot state to initial state
-    this.setState({
-      robot: '',
-    });
-  }
+  };
 
   private scrollToTop = () => {
     this.content.children[0].removeEventListener(
@@ -267,25 +194,11 @@ class Pages extends React.Component<PagesProps, PagesState> {
     document.execCommand('copy');
   };
 
-  componentDidMount() {
-    this.addScrollListener();
-  }
-
-  componentDidUpdate(nextProps: PagesProps) {
-    if (this.props.location !== nextProps.location) {
-      this.setState({ robot: '' });
-      this.content.children[0].addEventListener(
-        'animationend',
-        this.scrollToTop
-      );
-    }
-  }
-
   private toggleContactModal = () => {
     this.setState(state => ({ showContactModal: !state.showContactModal }));
   };
 
-  toggleMenu = () => {
+  private toggleMenu = () => {
     this.setState({ isMenuVisible: !this.state.isMenuVisible });
   };
 
@@ -357,7 +270,9 @@ class Pages extends React.Component<PagesProps, PagesState> {
             <div className="hero">
               <Robot
                 position={
-                  (pageName === 'record' && this.state.robot) || pageName
+                  pageName === 'record'
+                    ? this.props.isSetFull ? 'thanks' : 'record'
+                    : null
                 }
               />
             </div>
@@ -376,10 +291,7 @@ class Pages extends React.Component<PagesProps, PagesState> {
                     <Record
                       onRecord={this.onRecord}
                       onRecordStop={this.onRecordStop}
-                      onRecordingSet={this.sayThanks}
                       onVolume={this.onVolume}
-                      onSubmit={this.uploadRecordings}
-                      onDelete={this.clearRobot}
                       {...props}
                     />
                   )}
@@ -487,22 +399,6 @@ class Pages extends React.Component<PagesProps, PagesState> {
           onClick={this.toggleMenu}>
           {this.renderNav()}
         </div>
-        {this.state.showPrivacyModal && (
-          <Modal
-            buttons={{
-              'I agree': () => this.handlePrivacyAction(true),
-              'I do not agree': () => this.handlePrivacyAction(false),
-            }}>
-            By using Common Voice, you agree to our{' '}
-            <a target="_blank" href="/terms">
-              Terms
-            </a>{' '}
-            and{' '}
-            <a target="_blank" href="/privacy">
-              Privacy Notice
-            </a>.
-          </Modal>
-        )}
       </div>
     );
   }
@@ -529,7 +425,7 @@ class Pages extends React.Component<PagesProps, PagesState> {
         </NavLink>
         <div id="tallies">
           <div id="record-tally">
-            <RecordIcon size={0.7} className="icon" />
+            <RecordIcon className="icon" />
             <div>{user.recordTally}</div>
           </div>
           <div className="divider" />
@@ -543,14 +439,13 @@ class Pages extends React.Component<PagesProps, PagesState> {
   }
 }
 
-const mapStateToProps = (state: any) => ({
-  api: apiSelector(state),
-  user: state.user,
+const mapStateToProps = ({ recordings, user }: StateTree) => ({
+  isSetFull: isSetFullSelector(recordings),
+  user,
 });
 
 const mapDispatchToProps = {
-  tallyRecording: actions.tallyRecording,
-  updateUser: actions.update,
+  buildNewSentenceSet: recordingsActions.buildNewSentenceSet,
 };
 
 export default withRouter(

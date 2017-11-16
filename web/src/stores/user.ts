@@ -1,5 +1,6 @@
 import pick = require('lodash.pick');
 import { createSelector } from 'reselect';
+import API from '../services/api';
 import { generateGUID } from '../utility';
 
 export const ACCENTS = {
@@ -142,7 +143,17 @@ export default function reducer(state = getDefaultState(), action: Action) {
   }
 }
 
-export const hasEnteredInfoSelector = createSelector(
-  state => pick(state, 'email', 'username', 'accent', 'age', 'gender'),
+export const apiSelector = createSelector<UserState, UserState, API>(
+  user => user,
+  user => new API(user)
+);
+
+export const hasEnteredInfoSelector = createSelector<
+  UserState,
+  UpdatableState,
+  boolean
+>(
+  (state: UserState) =>
+    pick(state, 'email', 'username', 'accent', 'age', 'gender'),
   (state: any) => Object.keys(state).some(k => Boolean(state[k]))
 );

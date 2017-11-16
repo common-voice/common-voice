@@ -5,15 +5,15 @@ const MODE_LISTENING = '/img/robot-listening.png';
 const MODE_THINKING = '/img/robot-thinking.png';
 const MODE_THUMBS_UP = '/img/robot-thumbs-up.png';
 
-interface Props {
-  position?: string;
-}
-
-const modes: any = {
+const MODES: any = {
   record: MODE_LISTENING,
   listen: MODE_THINKING,
   thanks: MODE_THUMBS_UP,
 };
+
+interface Props {
+  position?: keyof typeof MODES;
+}
 
 const head = [30, 0, 80, 35];
 const heart = [53, 45, 65, 55];
@@ -48,7 +48,7 @@ export default class Robot extends React.Component<Props> {
     return (
       <img
         className={'robot ' + position}
-        src={modes[position] || MODE_GREETINGS}
+        src={MODES[position] || MODE_GREETINGS}
         onTouchStart={this.secretDoorToStaging}
       />
     );

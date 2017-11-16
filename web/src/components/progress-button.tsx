@@ -7,24 +7,12 @@ interface Props {
   onClick?(): void;
 }
 
-interface State {}
-
-/**
- * Widget for listening to a recording.
- */
-export default class ProgressButton extends React.Component<Props, State> {
-  render() {
-    return (
-      <button
-        className="progress-button"
-        onClick={this.props.onClick}
-        disabled={this.props.disabled}>
-        <span
-          className="progress"
-          style={{ transform: `translateX(${this.props.percent - 100}%)` }}
-        />
-        {this.props.text}
-      </button>
-    );
-  }
-}
+export default ({ disabled, percent, text, onClick }: Props) => (
+  <button className="progress-button" onClick={onClick} disabled={disabled}>
+    <span
+      className="progress"
+      style={{ transform: `translateX(${percent - 100}%)` }}
+    />
+    {text}
+  </button>
+);

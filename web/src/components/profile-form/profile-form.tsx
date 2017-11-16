@@ -1,6 +1,7 @@
 import pick = require('lodash.pick');
 import * as React from 'react';
 import { connect } from 'react-redux';
+import StateTree from '../../stores/tree';
 import {
   ACCENTS,
   actions,
@@ -201,7 +202,7 @@ class ProfileForm extends React.Component<Props, State> {
   }
 }
 
-const mapStateToProps = ({ user }: any) => ({
+const mapStateToProps = ({ user }: StateTree) => ({
   user,
   hasEnteredInfo: hasEnteredInfoSelector(user),
 });

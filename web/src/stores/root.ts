@@ -1,13 +1,9 @@
-import { combineReducers, createStore } from 'redux';
-import { createSelector } from 'reselect';
-import API from '../services/api';
+import { applyMiddleware, combineReducers, compose, createStore } from 'redux';
+import thunk from 'redux-thunk';
 import Tracker from '../services/tracker';
+import recordings from './recordings';
+import StateTree from './tree';
 import user, { UserState } from './user';
-
-export const apiSelector = createSelector(
-  (state: any) => state.user,
-  user => new API(user)
-);
 
 const USER_KEY = 'userdata';
 
@@ -21,11 +17,11 @@ try {
   localStorage.removeItem(USER_KEY);
 }
 
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const store = createStore(
-  combineReducers({ user }),
+  combineReducers<StateTree>({ recordings, user }),
   preloadedState,
-  (window as any).__REDUX_DEVTOOLS_EXTENSION__ &&
-    (window as any).__REDUX_DEVTOOLS_EXTENSION__()
+  composeEnhancers(applyMiddleware(thunk))
 );
 
 const tracker = new Tracker();

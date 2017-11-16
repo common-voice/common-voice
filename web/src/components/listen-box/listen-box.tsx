@@ -46,6 +46,12 @@ export default class ListenBox extends React.Component<Props, State> {
     audio: null,
   };
 
+  componentWillReceiveProps(nextProps: Props) {
+    if (nextProps.sentence !== this.props.sentence) {
+      this.resetState();
+    }
+  }
+
   private resetState() {
     this.setState({
       loaded: false,
@@ -53,12 +59,6 @@ export default class ListenBox extends React.Component<Props, State> {
       played: false,
       audio: null,
     });
-  }
-
-  componentWillReceiveProps(nextProps: Props) {
-    if (nextProps.sentence !== this.props.sentence) {
-      this.resetState();
-    }
   }
 
   private onLoadStart() {

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
 import API from '../services/api';
-import { apiSelector } from '../stores/root';
+import { apiSelector } from '../stores/user';
 import ListenBox from './listen-box/listen-box';
 
 const LOADING_MESSAGE = 'Loading...';
