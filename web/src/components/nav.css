@@ -58,6 +58,11 @@ footer {
     cursor: pointer;
 }
 
+#help-links img {
+    margin-bottom: var(--standard-margin);
+    width: 26px;
+}
+
 #help-links .divider {
     border-right: 2px solid darkgrey;
     height: 2.5rem;
@@ -212,13 +217,14 @@ footer {
 }
 
 #tallies .divider {
-    margin: 0 var(--standard-margin);
-    border-right: 2px solid var(--color-record-hr);
+    margin: 0 .5rem;
+    border-right: 1px solid var(--color-record-hr);
     height: 1rem;
 }
 
 #tallies .icon {
     margin-right: var(--standard-margin);
+    height: 15px;
 }
 
 #record-tally {

@@ -18,19 +18,6 @@
     }
 }
 
-.download-icon {
-    border: 2px solid black;
-    border-radius: 50%;
-    display: inline-table;
-    width: 15px;
-    max-width: 15px;
-    height: 15px;
-    max-height: 15px;
-    text-align: center;
-    font-size: .4rem;
-    font-weight: normal;
-}
-
 .hr {
     border: solid 0.1rem;
     margin: 1.5rem 0;

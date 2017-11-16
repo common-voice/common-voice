@@ -1,27 +1,54 @@
 import * as React from 'react';
 
-export const DownloadIcon = () => (
-  <FontIcon type="arrowDown" className="download-icon" />
+const Icon = (path: string) => (props: any) => <img src={path} {...props} />;
+
+export const CloseIcon = Icon('/img/close.svg');
+
+export const ContactIcon = Icon('/img/contact.svg');
+
+export const DiscourseIcon = Icon('/img/discourse.svg');
+
+export const DownloadIcon = Icon('/img/download.svg');
+
+export const GithubIcon = Icon('/img/github.svg');
+
+export const PlayIcon = (props: any) => (
+  <svg viewBox="0 0 13 15" {...props}>
+    <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+      <g id="icon-/-play" fill="#B7D43F">
+        <path
+          d="M0.978009259,0 C1.03819475,0 1.09587164,0.00733847847 1.15104167,0.0220156556 C1.2062117,0.0366928327 1.2613809,0.0538159491 1.31655093,0.0733855186 C1.37172095,0.0929550881 1.42438247,0.117416683 1.47453704,0.146771037 L12.5486111,6.7074364 C12.6388893,6.75636032 12.7191355,6.82240663 12.7893519,6.9055773 C12.8595683,6.98874797 12.9122298,7.08170203 12.947338,7.18444227 C12.9824462,7.28718251 13,7.39236737 13,7.5 C13,7.85225225 12.8495385,8.11643748 12.5486111,8.2925636 L1.45949074,14.853229 C1.38927434,14.9021529 1.31153592,14.9388453 1.22627315,14.9633072 C1.14101038,14.9877692 1.05324119,15 0.962962963,15 C0.882715648,15 0.802469537,14.9902154 0.722222222,14.9706458 C0.641974907,14.9510762 0.566744178,14.9217223 0.496527778,14.8825832 C0.165507604,14.6966723 0,14.4227024 0,14.0606654 L0.0150462963,0.939334638 C0.0150462963,0.577297603 0.1805539,0.30332774 0.511574074,0.11741683 C0.652006875,0.0391385519 0.807483715,0 0.978009259,0 Z"
+          id="play-button"
+        />
+      </g>
+    </g>
+  </svg>
 );
 
+export const RedoIcon = (props: any) => (
+  <svg>
+    <g strokeWidth="1" fill="none" fillRule="evenodd">
+      <g fill="#000000">
+        <path d="M28.5714626,3.19044781 C28.5714626,2.70681628 28.2738432,2.27898839 27.8460153,2.09297626 C27.3995862,1.90696413 26.8787523,1.9999702 26.5439305,2.35339324 L24.1257728,4.75294967 C21.5030018,2.27898839 17.9501702,0.809492588 14.2857313,0.809492588 C6.41741836,0.809492588 0,7.22691095 0,15.0952239 C0,22.9635369 6.41741836,29.3809552 14.2857313,29.3809552 C18.545409,29.3809552 22.5632709,27.5022327 25.279048,24.2284193 C25.4650601,23.9866036 25.4650601,23.6331805 25.2418456,23.4285672 L22.6934794,20.8615998 C22.5632709,20.7499925 22.39586,20.6941889 22.2284491,20.6941889 C22.0610382,20.7127901 21.8936273,20.787195 21.8006212,20.9174035 C19.9777024,23.2797575 17.2433241,24.6190448 14.2857313,24.6190448 C9.04018935,24.6190448 4.76191044,20.3407659 4.76191044,15.0952239 C4.76191044,9.84968194 9.04018935,5.57140303 14.2857313,5.57140303 C16.7224902,5.57140303 19.0290405,6.50146366 20.7775545,8.11976916 L18.2105872,10.6867365 C17.8571641,11.0215583 17.7641581,11.5423923 17.9501702,11.9702202 C18.1361823,12.4166493 18.5640102,12.7142687 19.0476418,12.7142687 L27.380985,12.7142687 C28.0320275,12.7142687 28.5714626,12.1748335 28.5714626,11.5237911 L28.5714626,3.19044781 Z" />
+      </g>
+    </g>
+  </svg>
+);
+
+export const RecordIcon = Icon('/img/record.svg');
+
+export const SupportIcon = Icon('/img/support.svg');
+
 const FONT_ICONS = {
-  arrowDown: '',
   chrome: '',
-  contact: '',
-  discourse: '',
   facebook: '',
   firefox: '',
-  github: '',
   hamburger: '',
-  help: '',
   link: '',
   pause: '',
-  play: '',
-  redo: '',
   stop: '',
   twitter: '',
   undo: '',
-  x: '',
 };
 
 interface FontIconProps {
@@ -32,21 +59,3 @@ interface FontIconProps {
 export const FontIcon = ({ type, ...props }: FontIconProps) => (
   <span aria-hidden="true" data-icon={FONT_ICONS[type]} {...props} />
 );
-
-export const RecordIcon = ({ size = 1, ...props }: any) => {
-  const totalSize = size * 25;
-  const halfSize = totalSize / 2;
-  return (
-    <svg width={totalSize} height={totalSize} {...props}>
-      <circle
-        cx={halfSize}
-        cy={halfSize}
-        r={totalSize * 0.4}
-        stroke="#FF4E5E"
-        strokeWidth={totalSize / 15}
-        fill="transparent"
-      />
-      <circle cx={halfSize} cy={halfSize} r={totalSize * 0.28} fill="#FF4E5E" />
-    </svg>
-  );
-};

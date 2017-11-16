@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Tracker from '../../services/tracker';
-import { FontIcon } from '../ui/icons';
+import { FontIcon, PlayIcon, RedoIcon } from '../ui/icons';
 
 interface Props {
   src?: string;
@@ -140,7 +140,7 @@ export default class ListenBox extends React.Component<Props, State> {
         }>
         <div className="sentence-box">{this.props.sentence}</div>
         <div onClick={this.onPlay} className="play-box">
-          <FontIcon type={this.state.playing ? 'stop' : 'play'} />
+          {this.state.playing ? <FontIcon type="stop" /> : <PlayIcon />}
         </div>
         {this.props.vote ? (
           <div className={'vote-box ' + (this.state.played ? '' : 'disabled')}>
@@ -149,7 +149,7 @@ export default class ListenBox extends React.Component<Props, State> {
           </div>
         ) : (
           <div className="delete-box" onClick={this.onDelete}>
-            <FontIcon type="redo" />
+            <RedoIcon />
           </div>
         )}
         <audio

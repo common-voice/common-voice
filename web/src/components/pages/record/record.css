@@ -108,6 +108,10 @@
     height: 50px;
 }
 
+#record-button img {
+    width: 100%;
+}
+
 #record-button:hover {
     background: none;
 }

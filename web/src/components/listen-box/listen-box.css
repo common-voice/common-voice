@@ -27,6 +27,13 @@
     height: var(--listen-box-height);
 }
 
+.play-box svg,
+.delete-box svg {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
 .sentence-box,
 .play-box,
 .delete-box,
@@ -50,9 +57,12 @@
 }
 
 body:not(.mobile-safari) .play-box:hover,
-body.mobile-safari .play-box:active {
+body:not(.mobile-safari) .play-box:hover path,
+body.mobile-safari .play-box:active,
+body.mobile-safari .play-box:active path {
     background-color: var(--color-listen);
     color: white;
+    fill: white;
 }
 
 .sentence-box {
@@ -97,9 +107,12 @@ body.mobile-safari .play-box:active {
 }
 
 body:not(.mobile-safari) .delete-box:hover,
-body.mobile-safari .delete-box:active {
+body:not(.mobile-safari) .delete-box:hover path,
+body.mobile-safari .delete-box:active,
+body.mobile-safari .delete-box:active path {
     background-color: black;
     color: white;
+    fill: white;
 }
 
 .vote-box {

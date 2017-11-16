@@ -6,7 +6,15 @@ import { getItunesURL, isNativeIOS, isIOS, isSafari } from '../utility';
 import Modal from './modal/modal';
 import ContactModal from './contact-modal/contact-modal';
 import Logo from './logo';
-import { FontIcon, RecordIcon } from './ui/icons';
+import {
+  ContactIcon,
+  FontIcon,
+  RecordIcon,
+  DiscourseIcon,
+  SupportIcon,
+  GithubIcon,
+  PlayIcon,
+} from './ui/icons';
 import Robot from './robot';
 
 import Home from './pages/home/home';
@@ -387,7 +395,7 @@ class Pages extends React.Component<PagesProps, PagesState> {
             <footer>
               <div id="help-links">
                 <Link id="help" to={URLS.FAQ}>
-                  <FontIcon type="help" />
+                  <SupportIcon />
                   <div>Help</div>
                 </Link>
                 <div className="divider" />
@@ -395,7 +403,7 @@ class Pages extends React.Component<PagesProps, PagesState> {
                   id="contribute"
                   target="_blank"
                   href="https://github.com/mozilla/voice-web">
-                  <FontIcon type="github" />
+                  <GithubIcon />
                   <div>GitHub</div>
                 </a>
                 <div className="divider" />
@@ -403,12 +411,12 @@ class Pages extends React.Component<PagesProps, PagesState> {
                   id="discourse"
                   target="blank"
                   href="https://discourse.mozilla-community.org/c/voice">
-                  <FontIcon type="discourse" />
+                  <DiscourseIcon />
                   <div>Discourse</div>
                 </a>
                 <div className="divider" />
                 <a onClick={this.toggleContactModal}>
-                  <FontIcon type="contact" />
+                  <ContactIcon />
                   <div>Contact</div>
                 </a>
               </div>
@@ -526,7 +534,7 @@ class Pages extends React.Component<PagesProps, PagesState> {
           </div>
           <div className="divider" />
           <div id="validate-tally">
-            <FontIcon type="play" className="icon" />
+            <PlayIcon className="icon" />
             {user.validateTally}
           </div>
         </div>

@@ -28,8 +28,9 @@
     text-decoration: underline;
 }
 
-#data-container .download-icon {
+#data-container img {
     margin-right: 1rem;
+    width: 18px;
 }
 
 #common-voice-data {

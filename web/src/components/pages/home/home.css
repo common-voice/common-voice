@@ -32,6 +32,11 @@
     position: absolute;
 }
 
+#contribute-button img {
+    width: 20px;
+    height: 20px;
+}
+
 #contribute-button div {
     display: flex;
     margin-right: 1rem;
