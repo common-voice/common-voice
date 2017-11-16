@@ -1,6 +1,8 @@
 /**
  * Definition for all common voice config options.
  */
+import * as fs from 'fs';
+
 export type CommonVoiceConfig = {
   VERSION: number;
   PROD: boolean;
@@ -47,7 +49,7 @@ export function getConfig(): CommonVoiceConfig {
 function load(): CommonVoiceConfig {
   let config = null;
   try {
-    config = require('../../config.json');
+    config = JSON.parse(fs.readFileSync('./config.json', 'utf-8'));
   } catch (err) {
     console.log('no config.json found, using defaults', err);
   }
