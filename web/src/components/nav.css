@@ -46,16 +46,19 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 8rem;
-    background-color: var(--color-secondary);
+    height: 9.3rem;
+    background-color: #F3F2F1;
 }
 
 #help-links a {
-    font-family: sans-serif;
     box-sizing: border-box;
     text-align: center;
     width: 10rem;
     cursor: pointer;
+}
+
+#help-links a:hover {
+    opacity: .6;
 }
 
 #help-links img {
