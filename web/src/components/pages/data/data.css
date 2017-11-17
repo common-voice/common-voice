@@ -110,6 +110,7 @@
 .dataset button {
     width: auto;
     border: 1px solid black;
+    box-shadow: none;
 }
 
 #dataset-bundle {

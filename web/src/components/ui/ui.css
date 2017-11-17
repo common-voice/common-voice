@@ -6,7 +6,7 @@
     align-items: center;
     font-family: var(--base-font-family);
     font-weight: 600;
-    box-shadow: var(--card-shadow);
+    box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 0 2px;;
     background: white;
     text-transform: none;
     white-space: nowrap;
