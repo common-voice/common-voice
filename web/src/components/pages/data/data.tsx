@@ -95,7 +95,7 @@ export default class DataPage extends React.Component<{}, State> {
 
         <div id="common-voice-data">
           <CardAction onClick={() => this.showModalFor(commonVoiceDataset)}>
-            <DownloadIcon />Download CommonVoice Data
+            <DownloadIcon />Download Common Voice Data
           </CardAction>
           <div id="common-voice-license">
             License:{' '}

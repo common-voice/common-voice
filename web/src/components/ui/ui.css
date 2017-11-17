@@ -4,7 +4,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-weight: bold;
+    font-family: var(--base-font-family);
+    font-weight: 600;
     box-shadow: var(--card-shadow);
     background: white;
     text-transform: none;

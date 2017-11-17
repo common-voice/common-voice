@@ -30,8 +30,8 @@
 
 #data-container svg {
     margin-right: 1rem;
-    width: 18px;
-    height: 18px;
+    width: 22px;
+    height: 22px;
 }
 
 #common-voice-data {
@@ -45,7 +45,7 @@
 }
 
 #common-voice-license, #common-voice-license a {
-    margin-top: var(--standard-margin);
+    margin-top: 1rem;
     width: 100%;
     text-align: end;
     color: white;
