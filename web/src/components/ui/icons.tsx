@@ -45,6 +45,8 @@ export const RedoIcon = (props: any) => (
 
 export const RecordIcon = Icon('/img/record.svg');
 
+export const SuccessIcon = Icon('/img/success.svg');
+
 export const SupportIcon = Icon('/img/support.svg');
 
 const FONT_ICONS = {

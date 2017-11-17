@@ -6,11 +6,6 @@
     justify-content: center;
 }
 
-#create-profile-button {
-    font-weight: normal;
-    text-transform: uppercase;
-}
-
 #profile-form-container {
     position: relative;
     text-align: start;

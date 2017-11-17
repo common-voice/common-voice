@@ -1,7 +1,11 @@
 import * as React from 'react';
+import { connect } from 'react-redux';
 import Modal from '../../modal/modal';
 import { CardAction, Hr } from '../../ui/ui';
+import StateTree from '../../../stores/tree';
+import { User } from '../../../stores/user';
 import { DownloadIcon } from '../../ui/icons';
+import EmailModal from './email-modal';
 
 const commonVoiceDataset = {
   size: 30,
@@ -60,20 +64,38 @@ const datasetBundle = {
   url: 'https://mozilla.org',
 };
 
+interface PropsFromState {
+  user: User.State;
+}
+
+interface PropsFromDispatch {
+  updateUser: typeof User.actions.update;
+}
+
+interface Props extends PropsFromState, PropsFromDispatch {}
+
 interface ModalInfo {
   size: number;
   url: string;
 }
 
 interface State {
-  showModalFor?: ModalInfo;
+  showModalFor?: 'email' | ModalInfo;
 }
 
-export default class DataPage extends React.Component<{}, State> {
+class DataPage extends React.Component<Props, State> {
   state: State = { showModalFor: null };
 
   showModalFor = (info?: ModalInfo) => {
     this.setState({ showModalFor: info });
+  };
+
+  showEmailModal = () => {
+    const { user } = this.props;
+
+    if (user.hasDownloaded) return;
+
+    this.setState({ showModalFor: 'email' });
   };
 
   hideModal = () => {
@@ -84,13 +106,20 @@ export default class DataPage extends React.Component<{}, State> {
     const { showModalFor } = this.state;
     return (
       <div id="data-container">
-        {showModalFor && (
-          <Modal
-            buttons={{ Yes: showModalFor.url, No: this.hideModal }}
-            onRequestClose={this.hideModal}>
-            You are about to initiate a download of <b>{showModalFor.size}GB</b>,
-            proceed?
-          </Modal>
+        {showModalFor === 'email' ? (
+          <EmailModal onRequestClose={this.hideModal} />
+        ) : (
+          showModalFor && (
+            <Modal
+              buttons={{
+                Yes: { url: showModalFor.url, onClick: this.showEmailModal },
+                No: this.hideModal,
+              }}
+              onRequestClose={this.hideModal}>
+              You are about to initiate a download of{' '}
+              <b>{showModalFor.size}GB</b>, proceed?
+            </Modal>
+          )
         )}
 
         <div id="common-voice-data">
@@ -169,3 +198,16 @@ export default class DataPage extends React.Component<{}, State> {
     );
   }
 }
+
+const mapStateToProps = (state: StateTree) => ({
+  user: state.user,
+});
+
+const mapDispatchToProps = {
+  updateUser: User.actions.update,
+};
+
+export default connect<PropsFromState, PropsFromDispatch>(
+  mapStateToProps,
+  mapDispatchToProps
+)(DataPage);

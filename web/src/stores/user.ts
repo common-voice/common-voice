@@ -58,6 +58,7 @@ export namespace User {
     gender: Gender;
     clips: number;
     privacyAgreed: boolean;
+    hasDownloaded: boolean;
 
     recordTally: number;
     validateTally: number;
@@ -71,6 +72,7 @@ export namespace User {
     age?: Age;
     gender?: Gender;
     privacyAgreed?: boolean;
+    hasDownloaded?: boolean;
   }
 
   function getDefaultState(): State {
@@ -84,6 +86,7 @@ export namespace User {
       gender: '',
       clips: 0,
       privacyAgreed: false,
+      hasDownloaded: false,
       recordTally: 0,
       validateTally: 0,
     };

@@ -69,8 +69,10 @@ button {
   display: inline-block;
   padding: 0.5rem 3rem;
   margin-bottom: 0;
-  font-size: var(--base-font-size);
-  font-weight: bold;
+  font-size: .9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: var(--base-font-family);
   text-align: center;
   cursor: pointer;
   border: 1px solid black;

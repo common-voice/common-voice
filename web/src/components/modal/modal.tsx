@@ -2,7 +2,7 @@ import * as React from 'react';
 import * as Modal from 'react-modal';
 
 interface ButtonConfig {
-  [name: string]: (() => any) | string;
+  [name: string]: (() => any) | string | { url: string; onClick: () => void };
 }
 
 interface Props {
@@ -36,17 +36,22 @@ export default ({
         {buttons &&
           Object.keys(buttons).map(label => {
             const action = buttons[label];
-            return typeof action == 'string' ? (
+            const isString = typeof action == 'string';
+            const isObject = typeof action == 'object';
+            return isString || isObject ? (
               <a
                 key={label}
-                href={action}
+                href={isString ? action : (action as any).url}
                 target="__blank"
                 rel="noopener noreferrer"
-                onClick={() => props.onRequestClose && props.onRequestClose()}>
+                onClick={() =>
+                  isObject
+                    ? (action as any).onClick()
+                    : props.onRequestClose && props.onRequestClose()}>
                 {label}
               </a>
             ) : (
-              <button key={label} type="button" onClick={action}>
+              <button key={label} type="button" onClick={action as any}>
                 {label}
               </button>
             );

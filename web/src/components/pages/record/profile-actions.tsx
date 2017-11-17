@@ -87,10 +87,7 @@ class ProfileActions extends React.Component<PropsFromState, State> {
                 <ProfileForm onExit={this.toggleProfileForm} />
               </div>
             ) : (
-              <button
-                type="button"
-                id="create-profile-button"
-                onClick={this.toggleProfileForm}>
+              <button type="button" onClick={this.toggleProfileForm}>
                 Create a profile
               </button>
             )}

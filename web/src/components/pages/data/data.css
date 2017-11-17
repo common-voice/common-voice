@@ -131,3 +131,66 @@
     font-size: var(--small-font-size);
     font-style: italic;
 }
+
+.email-modal {
+    color: var(--grey-font-color);
+}
+
+.email-modal .head {
+    margin: -2rem -2rem 0;
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-record-why-profile);
+}
+
+.email-modal .head img {
+    margin-right: 1rem;
+}
+
+.email-modal form {
+    max-width: 25rem;
+    margin: 0 auto;
+    text-align: start;
+}
+
+.email-modal p:first-child {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.email-modal label {
+    margin-bottom: .5rem;
+}
+
+.email-modal input:disabled {
+    color: black;
+    text-align: center;
+    font-family: var(--strong-font-family);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.email-modal button {
+    width: 100%;
+}
+
+.email-modal a {
+    text-decoration: underline;
+}
+
+.email-modal .cancel {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    font-size: var(--small-font-size);
+    font-weight: 600;
+}
+
+.email-modal .fine-print {
+    font-size: var(--small-font-size);
+}
