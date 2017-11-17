@@ -24,7 +24,7 @@
 
 #data-container a[target=_blank] {
     font-size: var(--small-font-size);
-    font-weight: bold;
+    font-weight: 600;
     text-decoration: underline;
 }
 
@@ -89,12 +89,12 @@
 }
 
 .dataset p {
-    color: #4A4A4A;
+    color: var(--grey-font-color);
     margin: var(--standard-margin) 0;
 }
 
 .dataset .license {
-    color: #4A4A4A;
+    color: var(--grey-font-color);
     padding: 1rem 1.5rem;
     font-size: var(--small-font-size);
 }
@@ -125,6 +125,7 @@
 
 #bundle-info {
     margin-top: 1rem;
+    color: var(--grey-font-color);
     font-size: var(--small-font-size);
     font-style: italic;
 }
