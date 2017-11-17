@@ -60,6 +60,10 @@
     margin: 3rem 0;
 }
 
+#others-head {
+    margin: 4rem 0 2rem;
+}
+
 #datasets {
     display: flex;
     flex-direction: row;

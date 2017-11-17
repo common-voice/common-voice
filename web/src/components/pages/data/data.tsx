@@ -126,9 +126,7 @@ export default class DataPage extends React.Component<{}, State> {
 
         <Hr />
 
-        <h2>Other voice datasets...</h2>
-
-        <br />
+        <h2 id="others-head">Other voice datasets...</h2>
 
         <div id="datasets">
           {datasets.map(dataset => (
