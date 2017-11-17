@@ -85,7 +85,7 @@
 
 .dataset h2 {
     font-weight: normal;
-    color: #FF4F5E;
+    color: var(--color-speak);
 }
 
 .dataset p {
@@ -113,7 +113,7 @@
 }
 
 #dataset-bundle {
-    border-top: .4rem solid var(--color-speak-dark);
+    border-top: .4rem solid var(--color-speak);
     margin: 5rem 0;
     padding: 1.5rem;
     display: flex;
