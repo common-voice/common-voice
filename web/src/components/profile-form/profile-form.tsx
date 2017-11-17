@@ -2,13 +2,7 @@ import pick = require('lodash.pick');
 import * as React from 'react';
 import { connect } from 'react-redux';
 import StateTree from '../../stores/tree';
-import {
-  ACCENTS,
-  actions,
-  AGES,
-  GENDERS,
-  hasEnteredInfoSelector,
-} from '../../stores/user';
+import { ACCENTS, AGES, GENDERS, User } from '../../stores/user';
 import Modal from '../modal/modal';
 import { LabeledInput, LabeledSelect } from '../ui/ui';
 
@@ -79,11 +73,12 @@ class ProfileForm extends React.Component<Props, State> {
     evt.preventDefault();
     const { updateUser, onExit } = this.props;
     updateUser(filterUserFields(this.state));
+
     onExit && onExit();
   };
 
   render() {
-    const { user, onExit } = this.props;
+    const { hasEnteredInfo, onExit, user } = this.props;
     const { email, username, accent, age, gender, sendEmails } = this.state;
 
     const isModified = userFormFields.some(key => {
@@ -108,9 +103,7 @@ class ProfileForm extends React.Component<Props, State> {
         <div className="title-and-action">
           <h1>Create a Profile</h1>
           <a onClick={onExit || this.toggleClearModal}>
-            {onExit
-              ? 'Exit Form'
-              : this.props.hasEnteredInfo && 'Delete Profile'}
+            {onExit ? 'Exit Form' : hasEnteredInfo && 'Delete Profile'}
           </a>
         </div>
         <br />
@@ -204,12 +197,12 @@ class ProfileForm extends React.Component<Props, State> {
 
 const mapStateToProps = ({ user }: StateTree) => ({
   user,
-  hasEnteredInfo: hasEnteredInfoSelector(user),
+  hasEnteredInfo: User.selectors.hasEnteredInfo(user),
 });
 
 const mapDispatchToProps = (dispatch: any) => ({
-  clear: () => dispatch(actions.clear()),
-  updateUser: (state: any) => dispatch(actions.update(state)),
+  clear: () => dispatch(User.actions.clear()),
+  updateUser: (state: any) => dispatch(User.actions.update(state)),
 });
 
 export default connect<PropsFromState, PropsFromDispatch>(

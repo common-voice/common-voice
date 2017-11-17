@@ -2,12 +2,9 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import { Switch, Route, RouteComponentProps, withRouter } from 'react-router';
 import { Link, NavLink } from 'react-router-dom';
-import {
-  actions as recordingsActions,
-  isSetFullSelector,
-} from '../stores/recordings';
+import { Recordings } from '../stores/recordings';
 import StateTree from '../stores/tree';
-import { UserState } from '../stores/user';
+import { User } from '../stores/user';
 import { getItunesURL, isNativeIOS, isIOS, isSafari } from '../utility';
 import ContactModal from './contact-modal/contact-modal';
 import Logo from './logo';
@@ -51,11 +48,11 @@ const URLS = {
 
 interface PropsFromState {
   isSetFull: boolean;
-  user: UserState;
+  user: User.State;
 }
 
 interface PropsFromDispatch {
-  buildNewSentenceSet: typeof recordingsActions.buildNewSentenceSet;
+  buildNewSentenceSet: typeof Recordings.actions.buildNewSentenceSet;
 }
 
 interface PagesProps
@@ -445,12 +442,12 @@ class Pages extends React.Component<PagesProps, PagesState> {
 }
 
 const mapStateToProps = ({ recordings, user }: StateTree) => ({
-  isSetFull: isSetFullSelector(recordings),
+  isSetFull: Recordings.selectors.isSetFull(recordings),
   user,
 });
 
 const mapDispatchToProps = {
-  buildNewSentenceSet: recordingsActions.buildNewSentenceSet,
+  buildNewSentenceSet: Recordings.actions.buildNewSentenceSet,
 };
 
 export default withRouter(

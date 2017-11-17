@@ -3,17 +3,9 @@ import { connect } from 'react-redux';
 import { RouteComponentProps, withRouter } from 'react-router';
 import API from '../../../services/api';
 import Tracker from '../../../services/tracker';
-import {
-  actions as recordingsActions,
-  recordingsCountSelector,
-  SentenceRecordings,
-} from '../../../stores/recordings';
+import { Recordings } from '../../../stores/recordings';
 import StateTree from '../../../stores/tree';
-import {
-  actions as userActions,
-  apiSelector,
-  UserState,
-} from '../../../stores/user';
+import { User } from '../../../stores/user';
 import ListenBox from '../../listen-box/listen-box';
 import Modal from '../../modal/modal';
 import ProgressButton from '../../progress-button';
@@ -22,14 +14,14 @@ import ProfileActions from './profile-actions';
 interface PropsFromState {
   api: API;
   recordingsCount: number;
-  sentenceRecordings: SentenceRecordings;
-  user: UserState;
+  sentenceRecordings: Recordings.SentenceRecordings;
+  user: User.State;
 }
 
 interface PropsFromDispatch {
-  buildNewSentenceSet: typeof recordingsActions.buildNewSentenceSet;
-  tallyRecording: typeof userActions.tallyRecording;
-  updateUser: typeof userActions.update;
+  buildNewSentenceSet: typeof Recordings.actions.buildNewSentenceSet;
+  tallyRecording: typeof User.actions.tallyRecording;
+  updateUser: typeof User.actions.update;
 }
 
 interface Props
@@ -194,17 +186,17 @@ class Review extends React.Component<Props, State> {
   }
 }
 
-const mapStateToProps = ({ recordings, user }: StateTree) => ({
-  api: apiSelector(user),
-  recordingsCount: recordingsCountSelector(recordings),
+const mapStateToProps = ({ api, recordings, user }: StateTree) => ({
+  api,
+  recordingsCount: Recordings.selectors.recordingsCount(recordings),
   sentenceRecordings: recordings.sentenceRecordings,
   user,
 });
 
 const mapDispatchToProps = {
-  buildNewSentenceSet: recordingsActions.buildNewSentenceSet,
-  tallyRecording: userActions.tallyRecording,
-  updateUser: userActions.update,
+  buildNewSentenceSet: Recordings.actions.buildNewSentenceSet,
+  tallyRecording: User.actions.tallyRecording,
+  updateUser: User.actions.update,
 };
 
 export default withRouter(

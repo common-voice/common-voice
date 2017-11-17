@@ -2,7 +2,7 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import ProfileForm from '../../profile-form/profile-form';
-import { hasEnteredInfoSelector } from '../../../stores/user';
+import { User } from '../../../stores/user';
 import messages from '../../../messages';
 import Alert from '../../alert/alert';
 import { Hr } from '../../ui/ui';
@@ -103,5 +103,5 @@ class ProfileActions extends React.Component<PropsFromState, State> {
 }
 
 export default connect<PropsFromState>(({ user }) => ({
-  hasEnteredInfo: hasEnteredInfoSelector(user),
+  hasEnteredInfo: User.selectors.hasEnteredInfo(user),
 }))(ProfileActions);

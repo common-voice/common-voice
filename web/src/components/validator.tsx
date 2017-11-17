@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
 import API from '../services/api';
-import { apiSelector } from '../stores/user';
+import StateTree from '../stores/tree';
 import ListenBox from './listen-box/listen-box';
 
 const LOADING_MESSAGE = 'Loading...';
@@ -97,6 +97,6 @@ class Validator extends React.Component<Props, State> {
   }
 }
 
-export default connect<PropsFromState>((state: any) => ({
-  api: apiSelector(state),
+export default connect<PropsFromState>(({ api }: StateTree) => ({
+  api,
 }))(Validator);

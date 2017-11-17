@@ -1,9 +1,10 @@
-import { applyMiddleware, combineReducers, compose, createStore } from 'redux';
+import { applyMiddleware, compose, createStore } from 'redux';
 import thunk from 'redux-thunk';
+import API from '../services/api';
 import Tracker from '../services/tracker';
-import recordings from './recordings';
+import { Recordings } from './recordings';
 import StateTree from './tree';
-import user, { UserState } from './user';
+import { User } from './user';
 
 const USER_KEY = 'userdata';
 
@@ -19,7 +20,20 @@ try {
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const store = createStore(
-  combineReducers<StateTree>({ recordings, user }),
+  function root(
+    { recordings, user }: StateTree = {
+      api: undefined,
+      recordings: undefined,
+      user: undefined,
+    },
+    action: Recordings.Action | User.Action
+  ): StateTree {
+    const newState = {
+      recordings: Recordings.reducer(recordings, action as Recordings.Action),
+      user: User.reducer(user, action as User.Action),
+    };
+    return { api: new API(newState.user), ...newState };
+  },
   preloadedState,
   composeEnhancers(applyMiddleware(thunk))
 );
@@ -33,11 +47,11 @@ const fieldTrackers: any = {
   gender: () => tracker.trackGiveGender(),
 };
 
-let prevUser: UserState = null;
+let prevUser: User.State = null;
 store.subscribe(() => {
-  const user = (store.getState() as any).user as UserState;
+  const user = (store.getState() as any).user as User.State;
   for (const field of Object.keys(fieldTrackers)) {
-    const typedField = field as keyof UserState;
+    const typedField = field as keyof User.State;
     if (!prevUser || user[typedField] !== prevUser[typedField]) {
       fieldTrackers[typedField]();
     }

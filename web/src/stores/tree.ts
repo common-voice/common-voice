@@ -1,7 +1,9 @@
-import { RecordingsState } from './recordings';
-import { UserState } from './user';
+import API from '../services/api';
+import { Recordings } from './recordings';
+import { User } from './user';
 
 export default interface StateTree {
-  recordings: RecordingsState;
-  user: UserState;
+  api: API;
+  recordings: Recordings.State;
+  user: User.State;
 };

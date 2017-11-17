@@ -3,14 +3,7 @@ import { connect } from 'react-redux';
 import ERROR_MSG from '../../../error-msg';
 import API from '../../../services/api';
 import Tracker from '../../../services/tracker';
-import { apiSelector } from '../../../stores/user';
-import {
-  actions as recordingsActions,
-  areEnoughSentencesLoadedSelector,
-  isSetFullSelector,
-  recordingsCountSelector,
-  SentenceRecordings,
-} from '../../../stores/recordings';
+import { Recordings } from '../../../stores/recordings';
 import StateTree from '../../../stores/tree';
 import { getItunesURL, isFocus, isNativeIOS } from '../../../utility';
 import Alert from '../../alert/alert';
@@ -60,11 +53,11 @@ interface PropsFromState {
   areSentencesLoaded: boolean;
   isSetFull: boolean;
   recordingsCount: number;
-  sentenceRecordings: SentenceRecordings;
+  sentenceRecordings: Recordings.SentenceRecordings;
 }
 
 interface PropsFromDispatch {
-  setRecording: typeof recordingsActions.set;
+  setRecording: typeof Recordings.actions.set;
 }
 
 interface RecordProps extends PropsFromState, PropsFromDispatch {
@@ -383,16 +376,16 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
   }
 }
 
-const mapStateToProps = ({ recordings, user }: StateTree) => ({
-  api: apiSelector(user),
-  areSentencesLoaded: areEnoughSentencesLoadedSelector(recordings),
-  isSetFull: isSetFullSelector(recordings),
-  recordingsCount: recordingsCountSelector(recordings),
+const mapStateToProps = ({ api, recordings }: StateTree) => ({
+  api,
+  areSentencesLoaded: Recordings.selectors.areEnoughSentencesLoaded(recordings),
+  isSetFull: Recordings.selectors.isSetFull(recordings),
+  recordingsCount: Recordings.selectors.recordingsCount(recordings),
   sentenceRecordings: recordings.sentenceRecordings,
 });
 
 const mapDispatchToProps = {
-  setRecording: recordingsActions.set,
+  setRecording: Recordings.actions.set,
 };
 
 export default connect<PropsFromState, PropsFromDispatch>(

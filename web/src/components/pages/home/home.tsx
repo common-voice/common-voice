@@ -3,7 +3,7 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import { withRouter, RouteComponentProps } from 'react-router';
 import API from '../../../services/api';
-import { actions } from '../../../stores/user';
+import { User } from '../../../stores/user';
 import Validator from '../../validator';
 import { RecordIcon } from '../../ui/icons';
 import { CardAction, Hr } from '../../ui/ui';
@@ -13,7 +13,7 @@ interface PropsFromState {
 }
 
 interface PropsFromDispatch {
-  tallyVerification: () => void;
+  tallyVerification: typeof User.actions.tallyVerification;
 }
 
 interface Props
@@ -100,6 +100,6 @@ class Home extends React.Component<Props, {}> {
 export default withRouter(
   connect<PropsFromState, PropsFromDispatch>(
     state => pick(state, 'api'),
-    pick(actions, 'tallyVerification')
+    pick(User.actions, 'tallyVerification')
   )(Home)
 );

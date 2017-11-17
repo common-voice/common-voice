@@ -1,4 +1,4 @@
-import { UserState } from '../stores/user';
+import { User } from '../stores/user';
 import AudioIOS from '../components/pages/record/audio-ios';
 
 export interface Clip {
@@ -28,9 +28,9 @@ export default class API {
   private static CLIP_VOTE_URL: string = '/upload/vote/';
   private static DEMOGRAPHIC_URL: string = '/upload/demographic/';
 
-  private user: UserState;
+  private user: User.State;
 
-  constructor(user: UserState) {
+  constructor(user: User.State) {
     this.user = user;
   }
 
@@ -198,13 +198,13 @@ export default class API {
     });
   }
 
-  async syncUser(user: UserState): Promise<any> {
+  async syncUser(): Promise<any> {
     const headers = {
-      uid: user.userId,
+      uid: this.user.userId,
     };
 
     const body = {
-      email: user.email,
+      email: this.user.email,
     };
 
     return this.createPostRequest(API.USER_URL, headers, req => {
