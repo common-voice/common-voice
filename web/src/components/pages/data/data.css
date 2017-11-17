@@ -28,9 +28,10 @@
     text-decoration: underline;
 }
 
-#data-container img {
+#data-container svg {
     margin-right: 1rem;
     width: 18px;
+    height: 18px;
 }
 
 #common-voice-data {

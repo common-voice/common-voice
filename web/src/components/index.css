@@ -88,7 +88,12 @@ button {
 }
 
 body:not(.mobile-safari) button:hover {
-  background-color: var(--color-speak);
+  background-color: black;
+  color: white;
+}
+
+body:not(.mobile-safari) button:hover path {
+  fill: white;
 }
 
 button.highlight {
