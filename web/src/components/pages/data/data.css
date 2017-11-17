@@ -84,14 +84,17 @@
 }
 
 .dataset h2 {
-    color: var(--color-speak-dark);
+    font-weight: normal;
+    color: #FF4F5E;
 }
 
 .dataset p {
+    color: #4A4A4A;
     margin: var(--standard-margin) 0;
 }
 
 .dataset .license {
+    color: #4A4A4A;
     padding: 1rem 1.5rem;
     font-size: var(--small-font-size);
 }
