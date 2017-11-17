@@ -54,6 +54,7 @@
 
 #explanatory-text {
     margin: 2rem 0;
+    color: var(--grey-font-color);
 }
 
 #data-container hr {
