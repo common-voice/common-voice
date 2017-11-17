@@ -312,6 +312,18 @@ body:not(.ios) .recording #background-container {
   }
 }
 
+@media (max-width: 600px) {
+  .data #background-container {
+    background-image: var(--record-background-image-mobile);
+  }
+}
+
+@media (min-width: 600px) {
+  .data #background-container{
+    background-image: var(--record-background-image);
+  }
+}
+
 #install-app {
   position: fixed;
   bottom: 0;
