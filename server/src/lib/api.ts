@@ -48,6 +48,7 @@ export default class API {
    */
   async loadCache(): Promise<void> {
     await Promise.all([this.clip.loadCache(), this.corpus.loadCache()]);
+    this.model.printMetrics();
   }
 
   /**
