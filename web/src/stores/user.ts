@@ -11,7 +11,7 @@ export const ACCENTS = {
   canada: 'Canadian English',
   philippines: 'Filipino',
   hongkong: 'Hong Kong English',
-  indian: 'India and South Asia (India, Pakistan, Sri Lanka)',
+  indian: 'India and South Asia (India, Pakistan, Sri Lanka, Nepal, Bangladesh, Afghanisthan)',
   ireland: 'Irish English',
   malaysia: 'Malaysian English',
   newzealand: 'New Zealand English',
