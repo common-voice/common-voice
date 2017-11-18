@@ -51,7 +51,7 @@ function load(): CommonVoiceConfig {
   try {
     config = JSON.parse(fs.readFileSync('./config.json', 'utf-8'));
   } catch (err) {
-    console.log('no config.json found, using defaults', err);
+    console.log('could not load config.json, using defaults');
   }
   return config;
 }
