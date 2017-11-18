@@ -72,11 +72,11 @@ export default class Model {
 
     this.print(totalUsers, ' total users');
     this.print((listeners / totalUsers).toFixed(2), '% users who listen');
-    this.print((submitters / totalUsers).toFixed(2), '% users who submit\n');
+    this.print((submitters / totalUsers).toFixed(2), '% users who submit');
     this.print(totalClips, ' total clips');
     this.print(votes, ' total votes');
     this.print(unverified, ' unverified clips');
-    this.print(clipSubmitters, ' users with clips (', submitters, ')\n');
+    this.print(clipSubmitters, ' users with clips (', submitters, ')');
   }
 
   /**
