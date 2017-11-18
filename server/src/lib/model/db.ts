@@ -72,6 +72,13 @@ export default class DB {
   }
 
   /**
+   * Print the current count of users in db.
+   */
+  async getUserCount(): Promise<number> {
+    return this.user.getCount();
+  }
+
+  /**
    * Make sure we have a fully updated schema.
    */
   async ensureLatest(): Promise<void> {

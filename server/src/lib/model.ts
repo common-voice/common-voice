@@ -164,6 +164,14 @@ export default class Model {
   }
 
   /**
+   * Print the current count of users in db.
+   */
+  async printUserCount(): Promise<void> {
+    const count = await this.db.getUserCount();
+    this.print('db user count', count);
+  }
+
+  /**
    * Ensure the database is properly set up.
    */
   async ensureDatabaseSetup(): Promise<void> {
@@ -174,7 +182,7 @@ export default class Model {
    * Upgrade to the latest version of the db.
    */
   async performMaintenance(): Promise<void> {
-    return this.db.ensureLatest();
+    await this.db.ensureLatest();
   }
 
   /**
