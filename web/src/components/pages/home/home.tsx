@@ -60,7 +60,7 @@ class Home extends React.Component<Props, {}> {
             recognition open to everyone.{' '}
             {showWallOfText &&
               'Now you can donate your voice to help us build an open-source voice database' +
-                'that anyone can use to make innovative apps for devices and the web.'}
+                ' that anyone can use to make innovative apps for devices and the web.'}
           </p>
 
           {!showWallOfText && (
