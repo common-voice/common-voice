@@ -15,8 +15,8 @@ interface Props {
   position?: keyof typeof MODES;
 }
 
-const head = [30, 0, 80, 35];
-const heart = [53, 45, 65, 55];
+const head = [20, 0, 90, 35];
+const heart = [50, 45, 75, 55];
 
 const touchCode = [head, head, heart, head];
 
@@ -35,6 +35,7 @@ export default class Robot extends React.Component<Props> {
 
     const [x1, y1, x2, y2] = this.remainingCode.shift();
 
+    console.log(x < x1, x > x2, y < y1, y > y2);
     if (x < x1 || x > x2 || y < y1 || y > y2) {
       this.remainingCode = touchCode.slice();
     }
