@@ -72,11 +72,11 @@ export default class Model {
 
     this.print(totalUsers, ' total users');
     this.print((listeners / totalUsers).toFixed(2), '% users who listen');
-    this.print((submitters / totalUsers).toFixed(2), '% users who submit\n');
+    this.print((submitters / totalUsers).toFixed(2), '% users who submit');
     this.print(totalClips, ' total clips');
     this.print(votes, ' total votes');
     this.print(unverified, ' unverified clips');
-    this.print(clipSubmitters, ' users with clips (', submitters, ')\n');
+    this.print(clipSubmitters, ' users with clips (', submitters, ')');
   }
 
   /**
@@ -164,6 +164,14 @@ export default class Model {
   }
 
   /**
+   * Print the current count of users in db.
+   */
+  async printUserCount(): Promise<void> {
+    const count = await this.db.getUserCount();
+    this.print('db user count', count);
+  }
+
+  /**
    * Ensure the database is properly set up.
    */
   async ensureDatabaseSetup(): Promise<void> {
@@ -174,7 +182,7 @@ export default class Model {
    * Upgrade to the latest version of the db.
    */
   async performMaintenance(): Promise<void> {
-    return this.db.ensureLatest();
+    await this.db.ensureLatest();
   }
 
   /**

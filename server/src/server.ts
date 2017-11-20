@@ -148,6 +148,7 @@ export default class Server {
     try {
       await this.model.performMaintenance();
       this.print('Maintenance complete');
+      await this.model.printUserCount();
     } catch (err) {
       console.error('DB Maintenance error', err);
     } finally {
