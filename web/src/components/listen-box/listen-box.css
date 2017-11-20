@@ -65,6 +65,10 @@ body.mobile-safari .play-box:active path {
     fill: white;
 }
 
+.play-box:hover svg, .delete-box:hover svg {
+    transform: scale(1.1);
+}
+
 .sentence-box {
     padding: 0 1.5rem;
     text-align: left;
