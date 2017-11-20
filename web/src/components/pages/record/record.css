@@ -69,15 +69,6 @@
     transform: translateX(100vw);
 }
 
-@media (min-width: 600px) {
-    .text-box.left {
-        transform: translateX(-70vw);
-    }
-    .text-box.right {
-        transform: translateX(70vw);
-    }
-}
-
 .refresh {
     position: absolute;
     right: 0.2rem;
