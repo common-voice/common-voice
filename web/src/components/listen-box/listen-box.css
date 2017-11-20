@@ -3,6 +3,7 @@
     margin-bottom: calc(2 * var(--standard-margin));
     opacity: 0.3;
     pointer-events: none;
+    color:#4A4A4A;
 }
 
 @media (max-width: 600px) {

@@ -17,10 +17,15 @@
     padding-top: 1rem;
 }
 
+#voice-submit-review > p {
+    color: #4A4A4A;
+}
+
 #box-headers {
     text-align: right;
     font-size: var(--small-font-size);
     padding: 1.5rem 0 0.3rem;
+    color: #4A4A4A;
 }
 
 #box-headers > span {
