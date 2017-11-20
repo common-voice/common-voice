@@ -15,7 +15,7 @@
     margin: 0 auto;
     padding: 1rem;
     width: 70%;
-    background-color: var(--color-record-why-profile);
+    background-color: var(--color-grey-background);
 }
 
 #why-profile-text {

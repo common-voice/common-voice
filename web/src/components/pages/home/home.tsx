@@ -7,6 +7,7 @@ import { User } from '../../../stores/user';
 import Validator from '../../validator';
 import { RecordIcon } from '../../ui/icons';
 import { CardAction, Hr } from '../../ui/ui';
+import ProjectStatus from './project-status';
 
 interface PropsFromState {
   api: API;
@@ -91,6 +92,12 @@ class Home extends React.Component<Props, {}> {
 
           <Validator onVote={this.onVote} />
         </div>
+
+        <br />
+        <Hr />
+        <br />
+
+        <ProjectStatus />
 
         <br />
       </div>

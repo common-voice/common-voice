@@ -115,7 +115,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--color-record-why-profile);
+    background-color: var(--color-grey-background);
 }
 
 .dataset button {
@@ -132,7 +132,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--color-record-why-profile);
+    background-color: var(--color-grey-background);
 }
 
 #bundle-info {
@@ -153,7 +153,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: var(--color-record-why-profile);
+    background-color: var(--color-grey-background);
 }
 
 .email-modal .head img {

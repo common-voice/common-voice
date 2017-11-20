@@ -1,3 +1,5 @@
+@import url('./project-status.css');
+
 @media (min-width: 600px) {
     #home-title {
         margin-top: 3rem;
