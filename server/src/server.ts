@@ -130,6 +130,8 @@ export default class Server {
     this.print('loading clip cache');
 
     try {
+      // Print user count before loading cache.
+      await this.model.printUserCount();
       await this.api.loadCache();
     } catch (err) {
       console.error('error loading clips', err.message);
@@ -148,7 +150,6 @@ export default class Server {
     try {
       await this.model.performMaintenance();
       this.print('Maintenance complete');
-      await this.model.printUserCount();
     } catch (err) {
       console.error('DB Maintenance error', err);
     } finally {
