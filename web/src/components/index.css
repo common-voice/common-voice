@@ -666,7 +666,7 @@ body:not(.ios) .recording #background-container {
 
 .title-and-action a {
   font-size: var(--small-font-size);
-  font-weight: bold;
+  font-weight: 600;
   text-decoration: underline;
   cursor: pointer;
 }

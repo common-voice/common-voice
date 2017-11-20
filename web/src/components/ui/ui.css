@@ -32,6 +32,7 @@
     flex-direction: column;
     box-sizing: border-box;
     font-style: italic;
+    color: #4A4A4A;
 }
 
 .labeled-form-control {
@@ -44,7 +45,9 @@
     margin-top: .2rem;
     padding: .5rem;
     font-size: var(--base-font-size);
+    font-family: var(--base-font-family);
     background-color: var(--color-input-background);
+    color: #959595;
 }
 
 .labeled-form-control input, .labeled-form-control select {

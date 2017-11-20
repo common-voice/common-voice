@@ -1,4 +1,5 @@
 #profile-card {
+    border-top: 5px solid black;
     padding: 2rem;
     box-shadow: var(--card-shadow);
 }
@@ -31,7 +32,7 @@
 }
 
 #profile-card hr {
-    margin: 1.5rem 0;
+    margin: 2.3rem 0;
     border-color: rgba(0, 0, 0, 0.2);
     width: 100%;
 }
