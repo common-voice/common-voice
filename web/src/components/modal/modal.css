@@ -33,6 +33,7 @@
     border: 1px solid black;
     margin: var(--standard-margin);
     padding: 0.5rem 1.5rem;
+    min-width: 12rem;
     text-transform: uppercase;
     font-size: var(--small-font-size);
     font-weight: bold;

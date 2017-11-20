@@ -67,6 +67,8 @@ class EmailModal extends React.Component<Props, State> {
             {isSubmitted ? 'Return to Common Voice Datasets' : 'No Thanks'}
           </a>
 
+          {isSubmitted && <br />}
+
           <p className="fine-print">
             We at Mozilla are building a community around voice technology. We
             would like to stay in touch with updates, new data sources and to

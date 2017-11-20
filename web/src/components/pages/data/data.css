@@ -162,7 +162,7 @@
 
 .email-modal form {
     max-width: 25rem;
-    margin: 0 auto;
+    margin: 0 auto 1rem;
     text-align: start;
 }
 
@@ -176,6 +176,7 @@
 }
 
 .email-modal input:disabled {
+    margin: 1rem 0;
     color: black;
     text-align: center;
     font-family: var(--strong-font-family);

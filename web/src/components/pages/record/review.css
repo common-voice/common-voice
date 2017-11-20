@@ -48,6 +48,7 @@
     font-size: var(--small-font-size);
     font-weight: bold;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 @media (max-width: 600px) {
