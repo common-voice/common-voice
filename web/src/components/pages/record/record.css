@@ -132,7 +132,7 @@
 #undo-clip {
     position: absolute;
     bottom: -50%;
-    color: red;
+    color: var(--color-speak);
     left: 2rem;
     z-index: var(--middle-z-index);
     opacity: 1;
