@@ -10,6 +10,9 @@ xcuserdata/
 .vscode/
 ZZidea
 
+#IDE
+.idea
+
 # Nubis
 nubis/librarian-puppet.tar.gz
 nubis/librarian-puppet
