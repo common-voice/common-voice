@@ -111,13 +111,16 @@ class DataPage extends React.Component<Props, State> {
         ) : (
           showModalFor && (
             <Modal
+              innerClassName="download-modal"
               buttons={{
                 Yes: { url: showModalFor.url, onClick: this.showEmailModal },
                 No: this.hideModal,
               }}
               onRequestClose={this.hideModal}>
-              You are about to initiate a download of{' '}
-              <b>{showModalFor.size}GB</b>, proceed?
+              <p>
+                You are about to initiate a download of{' '}
+                <b>{showModalFor.size}GB</b>, proceed?
+              </p>
             </Modal>
           )
         )}

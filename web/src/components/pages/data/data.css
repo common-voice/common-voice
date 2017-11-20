@@ -34,6 +34,16 @@
     height: 22px;
 }
 
+.ReactModal__Content .download-modal.inner {
+    padding: 3rem 2rem;
+    max-width: 50rem;
+}
+
+.download-modal p {
+    margin-bottom: 2rem;
+    color: var(--grey-font-color);
+}
+
 #common-voice-data {
     position: absolute;
     left: 50%;

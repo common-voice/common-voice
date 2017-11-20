@@ -30,7 +30,7 @@
 .ReactModal__Content .buttons button, .ReactModal__Content .buttons a {
     display: inline-block;
     box-sizing: border-box;
-    border: 2px solid black;
+    border: 1px solid black;
     margin: var(--standard-margin);
     padding: 0.5rem 5rem;
     text-transform: uppercase;
