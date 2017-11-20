@@ -32,7 +32,7 @@
     box-sizing: border-box;
     border: 1px solid black;
     margin: var(--standard-margin);
-    padding: 0.5rem 5rem;
+    padding: 0.5rem 1.5rem;
     text-transform: uppercase;
     font-size: var(--small-font-size);
     font-weight: bold;

@@ -38,3 +38,37 @@
         visibility: hidden;
     }
 }
+
+#voice-submit .actions {
+    display: flex;
+    align-items: center;
+}
+
+#voice-submit .actions a {
+    font-size: var(--small-font-size);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    #voice-submit .actions {
+        flex-direction: column-reverse;
+    }
+
+    #voice-submit .actions button {
+        margin-bottom: var(--standard-margin);
+    }
+}
+
+@media (min-width: 600px) {
+    #voice-submit .actions {
+        flex-direction: row;
+    }
+
+    #voice-submit .actions button {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+}

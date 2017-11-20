@@ -80,8 +80,8 @@ class Review extends React.Component<Props, State> {
     this.props.history.push('/');
   };
 
-  private closeResetModal = () => {
-    this.setState({ showResetModal: false });
+  private toggleResetModal = () => {
+    this.setState({ showResetModal: !this.state.showResetModal });
   };
 
   private handleSubmit = async () => {
@@ -145,7 +145,7 @@ class Review extends React.Component<Props, State> {
         {showResetModal && (
           <Modal
             buttons={{
-              'Keep the recordings': this.closeResetModal,
+              'Keep the recordings': this.toggleResetModal,
               'Delete my recordings': this.resetAndGoHome,
             }}>
             Upload aborted. Do you want to delete your recordings?
@@ -174,12 +174,15 @@ class Review extends React.Component<Props, State> {
           />
         ))}
         <br />
-        <ProgressButton
-          percent={uploading ? 100 : 0}
-          disabled={uploading}
-          onClick={this.handleSubmit}
-          text="SUBMIT"
-        />
+        <div className="actions">
+          <a onClick={this.toggleResetModal}>Cancel Submission</a>
+          <ProgressButton
+            percent={uploading ? 100 : 0}
+            disabled={uploading}
+            onClick={this.handleSubmit}
+            text="SUBMIT"
+          />
+        </div>
         <ProfileActions />
       </div>
     );
