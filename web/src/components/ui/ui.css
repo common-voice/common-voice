@@ -54,3 +54,19 @@
 .labeled-form-control :required, .labeled-form-control :valid {
     box-shadow:none;
 }
+
+.menu-icon {
+    transform: scale(2);
+}
+
+.menu-icon rect {
+    transition: transform .2s var(--easing);
+}
+
+.menu-icon.active  .left {
+    transform: translateX(-4px);
+}
+
+.menu-icon.active .right {
+    transform: translateX(4px);
+}

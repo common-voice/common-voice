@@ -11,6 +11,7 @@ import Logo from './logo';
 import {
   ContactIcon,
   FontIcon,
+  MenuIcon,
   RecordIcon,
   DiscourseIcon,
   SupportIcon,
@@ -241,17 +242,18 @@ class Pages extends React.Component<PagesProps, PagesState> {
           )}
         <header
           className={
-            this.state.isMenuVisible || this.state.scrolled ? 'active' : ''
+            !this.state.isMenuVisible && this.state.scrolled ? 'active' : ''
           }
           ref={header => {
             this.header = header as HTMLElement;
           }}>
           <Logo />
+          {this.renderTallies()}
           <button
             id="hamburger-menu"
             onClick={this.toggleMenu}
             className={this.state.isMenuVisible ? 'active' : ''}>
-            <FontIcon type="hamburger" />
+            <MenuIcon className={this.state.isMenuVisible ? 'active' : ''} />
           </button>
           {this.renderNav('main-nav', true)}
         </header>
@@ -405,15 +407,9 @@ class Pages extends React.Component<PagesProps, PagesState> {
     );
   }
 
-  private renderNav(id?: string, hideHome?: boolean) {
-    const { user } = this.props;
+  private renderNav(id?: string, withTallies?: boolean) {
     return (
       <nav id={id} className="nav-list">
-        {!hideHome && (
-          <NavLink to="/" exact>
-            Home
-          </NavLink>
-        )}
         <NavLink to={URLS.RECORD} exact>
           Speak
         </NavLink>
@@ -425,18 +421,25 @@ class Pages extends React.Component<PagesProps, PagesState> {
         <NavLink to={URLS.PROFILE} exact>
           Profile
         </NavLink>
-        <div id="tallies">
-          <div id="record-tally">
-            <RecordIcon className="icon" />
-            <div>{user.recordTally}</div>
-          </div>
-          <div className="divider" />
-          <div id="validate-tally">
-            <PlayIcon className="icon" />
-            {user.validateTally}
-          </div>
-        </div>
+        {withTallies && this.renderTallies()}
       </nav>
+    );
+  }
+
+  private renderTallies() {
+    const { user } = this.props;
+    return (
+      <div className="tallies">
+        <div className="record-tally">
+          <RecordIcon className="icon" />
+          <div>{user.recordTally}</div>
+        </div>
+        <div className="divider" />
+        <div className="validate-tally">
+          <PlayIcon className="icon" />
+          {user.validateTally}
+        </div>
+      </div>
     );
   }
 }

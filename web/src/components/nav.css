@@ -1,9 +1,10 @@
 header {
     display: flex;
+    align-items: center;
     height: var(--header-height);
     box-sizing: border-box;
     z-index: var(--top-z-index);
-    transition: background-color 0.15s linear;
+    transition: background-color 0.15s linear, box-shadow .2s linear;
 }
 
 header.active {
@@ -17,8 +18,8 @@ header.active {
         top: 0;
         left: 0;
         right: 0;
-        padding: var(--page-margin) var(--page-margin) 0;
-        background: none;
+        padding: var(--page-margin);
+        background: var(--base-background-color);
     }
 }
 
@@ -203,14 +204,15 @@ footer a:hover, footer button:hover {
     font-family: var(--base-font-family);
     font-size: var(--small-font-size);
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 600;
+    text-align: center;
 }
 
 .nav-list a.active {
     color: var(--color-speak-dark);
 }
 
-#tallies, #tallies > * {
+.tallies, .tallies > * {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -219,51 +221,55 @@ footer a:hover, footer button:hover {
     font-weight: bold;
 }
 
-#tallies .divider {
+.tallies .divider {
     margin: 0 .5rem;
     border-right: 1px solid var(--color-record-hr);
     height: 1rem;
 }
 
-#tallies .icon {
+.tallies .icon {
     margin-right: var(--standard-margin);
     height: 15px;
 }
 
-#record-tally {
+.record-tally {
     color: var(--color-speak);
 }
 
-#validate-tally {
+.validate-tally {
     color: var(--color-listen);
 }
 
-#validate-tally .icon {
+.validate-tally .icon {
     display: block;
     font-size: .6rem;
 }
 
+@media (max-width: 600px) {
+    .tallies {
+        margin: 0 auto;
+    }
+}
+
 @media (min-width: 600px) {
-    #tallies {
+    .tallies {
         margin-left: 1rem;
+    }
+
+    header > .tallies {
+        display: none;
     }
 }
 
 #hamburger-menu {
     height: var(--hamburger);
     width: var(--hamburger);
-    padding: 0;
-    margin-left: auto;
-    background-color: var(--base-font-color);
-    color: var(--base-background-color);
-    border-radius: 50%;
-    transition: transform 0.2s ease-in-out;
-    transform: rotate(0deg);
     border: none;
+    padding: 0;
 }
 
-#hamburger-menu.active {
-    transform: rotate(90deg);
+#hamburger-menu:hover {
+    background-color: transparent;
 }
 
 #main-nav {
@@ -309,6 +315,5 @@ footer a:hover, footer button:hover {
 
 #navigation-modal a {
     line-height: 3.2;
-    font-weight: bold;
     font-size: 1.3rem;
 }

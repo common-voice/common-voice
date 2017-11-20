@@ -176,7 +176,7 @@ button.dark:active {
 @media (max-width: 600px) {
   #scroller {
     position: fixed;
-    top: 0; bottom: 0;
+    top: var(--header-height); bottom: 0;
     left: 0; right: 0;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -233,6 +233,14 @@ button.dark:active {
 @media (max-width: 600px) {
   .data #background-container {
     transform: translateY(1rem);
+  }
+
+  .home #background-container {
+    transform: translateY(11rem);
+  }
+
+  .home .hero-space {
+    height: 25rem;
   }
 }
 
@@ -397,10 +405,20 @@ body:not(.ios) .recording #background-container {
     min-height: 100%;
     padding: 0 var(--page-margin);
   }
+
+  .main-logo {
+    height: 100%;
+  }
+
+  .main-mozilla-logo {
+    height: 100%;
+  }
 }
 
-.main-logo {
-  width: 10rem;
+@media (min-width: 600px) {
+  .main-logo {
+    width: 10rem;
+  }
 }
 
 .hero {
@@ -486,8 +504,7 @@ body:not(.ios) .recording #background-container {
 
 @media (max-width: 600px) {
   .home .robot {
-    transform: translate(-3rem,2.2rem);
-    height: 10rem;
+    transform: translate(50%, 19rem) scale(1.3);
   }
 }
 
