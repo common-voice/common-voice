@@ -7,12 +7,12 @@ import Modal from '../modal/modal';
 import { LabeledInput, LabeledSelect } from '../ui/ui';
 
 interface EditableUser {
-  email: string;
-  username: string;
-  accent: string;
-  age: string;
-  gender: string;
-  sendEmails: boolean;
+  email?: string;
+  username?: string;
+  accent?: string;
+  age?: string;
+  gender?: string;
+  sendEmails?: boolean;
 }
 
 const userFormFields = [
@@ -47,6 +47,14 @@ interface State extends EditableUser {
 
 class ProfileForm extends React.Component<Props, State> {
   state = { ...filterUserFields(this.props.user), showClearModal: false };
+
+  private isFormInitialized = false;
+  componentWillReceiveProps(nextProps: Props) {
+    if (!this.isFormInitialized) {
+      this.isFormInitialized = true;
+      this.setState({ ...filterUserFields(nextProps.user) });
+    }
+  }
 
   private toggleClearModal = () => {
     this.setState(state => ({ showClearModal: !state.showClearModal }));

@@ -69,6 +69,7 @@ interface RecordProps extends PropsFromState, PropsFromDispatch {
 }
 
 interface RecordState {
+  isUnsupportedPlatform?: boolean;
   recordingStartTime: number;
   recordingStopTime: number;
   isReRecord: boolean;
@@ -105,16 +106,16 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
     this.audio = isNativeIOS() ? new AudioIOS() : new AudioWeb();
     this.audio.setVolumeCallback(this.updateVolume.bind(this));
 
-    if (
-      !this.audio.isMicrophoneSupported() ||
-      !this.audio.isAudioRecordingSupported() ||
-      isFocus()
-    ) {
-      this.isUnsupportedPlatform = true;
-      return;
-    }
-
     this.maxVolume = 0;
+  }
+
+  componentDidMount() {
+    this.setState({
+      isUnsupportedPlatform:
+        !this.audio.isMicrophoneSupported() ||
+        !this.audio.isAudioRecordingSupported() ||
+        isFocus(),
+    });
   }
 
   private processRecording = (info: AudioInfo) => {
@@ -273,11 +274,27 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
   };
 
   render() {
-    if (this.isUnsupportedPlatform) {
+    const {
+      areSentencesLoaded,
+      isSetFull,
+      recordingsCount,
+      sentenceRecordings,
+    } = this.props;
+    const {
+      isUnsupportedPlatform,
+      isReRecord,
+      recordingError,
+      reRecordSentence,
+      showRetryModal,
+      showSubmitSuccess,
+    } = this.state;
+
+    if (isUnsupportedPlatform === undefined) return <div />;
+    if (isUnsupportedPlatform) {
       return <UnsupportedInfo />;
     }
 
-    if (this.props.isSetFull) {
+    if (isSetFull) {
       return (
         <div id="record-container">
           <Review
@@ -290,18 +307,6 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
       );
     }
 
-    const {
-      areSentencesLoaded,
-      recordingsCount,
-      sentenceRecordings,
-    } = this.props;
-    const {
-      isReRecord,
-      recordingError,
-      reRecordSentence,
-      showRetryModal,
-      showSubmitSuccess,
-    } = this.state;
     const recordIndex = isReRecord
       ? Object.keys(sentenceRecordings).indexOf(reRecordSentence)
       : recordingsCount;

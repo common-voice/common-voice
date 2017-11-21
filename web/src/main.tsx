@@ -1,8 +1,8 @@
 import * as React from 'react';
-import { render } from 'react-dom';
+import { hydrate } from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
+import App from './components/app';
 import './components/index.css';
-
-declare var require: any;
 
 if (typeof Promise === 'undefined') {
   require('es6-promise').polyfill();
@@ -22,8 +22,9 @@ if (!Object.entries) {
 // Safari hack to allow :active styles.
 document.addEventListener('touchstart', function() {}, true);
 
-// Start the app when DOM is ready.
-document.addEventListener('DOMContentLoaded', () => {
-  const App = require('./components/app').default;
-  render(React.createElement(App), document.getElementById('root'));
-});
+hydrate(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
+  document.getElementById('root')
+);

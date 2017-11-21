@@ -7,6 +7,7 @@ import Logger from './lib/logger';
 import { isLeaderServer, getElapsedSeconds } from './lib/utility';
 import { Server as NodeStaticServer } from 'node-static';
 import { CommonVoiceConfig, getConfig } from './config-helper';
+import renderWeb from './render-web/render-web';
 
 const SLOW_REQUEST_LIMIT = 2000;
 const CLIENT_PATH = '../web';
@@ -79,17 +80,9 @@ export default class Server {
       .addListener('end', () => {
         this.staticServer.serve(request, response, (err: any) => {
           if (err && err.status === 404) {
-            this.print('non-static resource request', request.url);
-
             // If file was not front, use main page and
             // let the front end handle url routing.
-            this.staticServer.serveFile(
-              'index.html',
-              200,
-              {},
-              request,
-              response
-            );
+            renderWeb(request, response);
             return;
           }
 

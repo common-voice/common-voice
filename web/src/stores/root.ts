@@ -5,38 +5,57 @@ import Tracker from '../services/tracker';
 import { Recordings } from './recordings';
 import StateTree from './tree';
 import { User } from './user';
+import { isBrowser } from '../utility';
 
 const USER_KEY = 'userdata';
 
-let preloadedState = null;
-try {
-  preloadedState = {
-    user: JSON.parse(localStorage.getItem(USER_KEY)) || undefined,
-  };
-} catch (e) {
-  console.error('failed parsing storage', e);
-  localStorage.removeItem(USER_KEY);
+let preloadedState: StateTree = {
+  api: undefined,
+  recordings: undefined,
+  user: undefined,
+};
+
+const composeEnhancers =
+  (isBrowser && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__) || compose;
+
+interface MergeAction {
+  type: 'MERGE';
+  state: StateTree;
 }
 
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const store = createStore(
   function root(
-    { recordings, user }: StateTree = {
-      api: undefined,
-      recordings: undefined,
-      user: undefined,
-    },
-    action: Recordings.Action | User.Action
+    { recordings, user }: StateTree,
+    action: MergeAction | Recordings.Action | User.Action
   ): StateTree {
     const newState = {
       recordings: Recordings.reducer(recordings, action as Recordings.Action),
       user: User.reducer(user, action as User.Action),
     };
-    return { api: new API(newState.user), ...newState };
+    return {
+      api: new API(newState.user),
+      ...newState,
+      ...action.type == 'MERGE' ? action.state : null,
+    };
   },
   preloadedState,
   composeEnhancers(applyMiddleware(thunk))
 );
+
+if (isBrowser)
+  setTimeout(() => {
+    try {
+      store.dispatch({
+        type: 'MERGE',
+        state: {
+          user: JSON.parse(localStorage.getItem(USER_KEY)) || undefined,
+        },
+      });
+    } catch (e) {
+      console.error('failed parsing storage', e);
+      localStorage.removeItem(USER_KEY);
+    }
+  });
 
 const tracker = new Tracker();
 const fieldTrackers: any = {

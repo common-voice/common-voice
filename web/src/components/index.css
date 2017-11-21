@@ -155,20 +155,10 @@ button.dark:active {
   transition: transform 1s var(--easing);
 }
 
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
 #main {
   position: relative;
   box-sizing: border-box;
   background-color: var(--base-background-color);
-  animation: fadein 0.5s linear;
 }
 
 @import url('nav.css');
@@ -618,39 +608,6 @@ body:not(.ios) .recording #background-container {
 #faq-container a,
 #terms-container a {
   color: blue;
-}
-
-#spinner {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-}
-
-#spinner span {
-  border-radius: 50%;
-  display: inline-block;
-  position: absolute;
-  height: var(--spinner-height);
-  width: var(--spinner-height);
-  top: 0; bottom: 0;
-  left: 0; right: 0;
-  margin: auto;
-  animation: spin 4s linear infinite;
-  background-color: black;
-  opacity: 1;
-  transition: opacity 0.1s linear;
-}
-
-@keyframes spin {
-  50%{ border-radius: 0; }
-  100%{ transform: rotate(-360deg); }
 }
 
 .focus #donate {
