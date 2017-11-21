@@ -28,6 +28,9 @@ export default function renderWeb(
 ) {
   response.write(startHTML, 'utf-8');
 
+  const { NODE_ENV } = process.env;
+
+  process.env.NODE_ENV = 'production';
   const reactNodeStream = renderToNodeStream(
     <StaticRouter context={{}} location={request.url}>
       <App />
@@ -38,5 +41,6 @@ export default function renderWeb(
 
   reactNodeStream.on('end', () => {
     response.end(endHTML, 'utf-8');
+    process.env.NODE_ENV = NODE_ENV;
   });
 }
