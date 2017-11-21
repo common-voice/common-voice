@@ -31,6 +31,7 @@ export type SchemaVersions = {
 export default class Table {
   static PRIMARY_KEY_TYPE = 'BIGINT UNSIGNED NOT NULL AUTO_INCREMENT primary key';
   static TIMESTAMP_TYPE = 'TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP';
+  static FLAG_TYPE = 'BOOLEAN NOT NULL DEFAULT false';
   static EMAIL_TYPE = 'varchar(255)';
   static CLIENTID_TYPE = 'char(36)';
 
@@ -62,6 +63,20 @@ export default class Table {
   }
 
   /**
+   * Return the schema previous to the passed in, or current version.
+   */
+  getPreviousSchema(version?: number): TableSchema {
+    let schema = null;
+    for (let i = version - 1; i >= 0; i--) {
+      if (this.schemaVersions[i]) {
+        schema = this.schemaVersions[i];
+        break;
+      }
+    }
+    return schema;
+  }
+
+  /**
    * Upgrade table schema to current one, if exists.
    */
   getUpgradeSql(version: number): string {
@@ -71,23 +86,24 @@ export default class Table {
       return '';
     }
 
-    // TODO: turn this into ALTER TABLE query when needed.
-    return this.getCreateSql(version);
+    return this.getAlterOrCreateSql(version);
   }
 
   /**
    * Generate our columns section for create query.
    */
-  private getColumnsSql(columns: ColumnType): string {
+  private getColumnsSql(columns: ColumnType, alter?:boolean): string {
     if (!columns) {
       return '';
     }
+
+    let alterSql = alter ? 'ADD COLUMN ' : '';
 
     return Object.keys(columns).reduce((acc, id) => {
       if (acc.length > 0) {
         acc += ',\n';
       }
-      return `${acc}${id} ${columns[id]}`;
+      return `${acc}${alterSql}${id} ${columns[id]}`;
     }, '');
   }
 
@@ -131,6 +147,46 @@ export default class Table {
     } while (!schema && --version > 0);
 
     return schema;
+  }
+
+  /**
+   * Return query for table, assuming version exists.
+   */
+  getAlterOrCreateSql(version: number): string {
+    // If it's brand new, use the create sql.
+    // Otherwise, we alter the table.
+    if (!this.getPreviousSchema(version)) {
+      return this.getCreateSql(version);
+    } else {
+      return this.getAlterSql(version);
+    }
+  }
+
+  /**
+   * Generate an alter sql string.
+   */
+  getAlterSql(version: number): string {
+    const schema = this.schemaVersions[version];
+    const prev = this.getPreviousSchema(version);
+
+    // Were there any columns added?
+    const newColumns = Object.keys(schema.columns).reduce((
+      acc: ColumnType,
+      column: string
+    ): ColumnType => {
+      if (!prev.columns[column]) {
+        acc[column] = schema.columns[column];
+      }
+      return acc;
+    }, {});
+
+    // If there are no new columns, nothing to do here.
+    if (Object.keys(newColumns).length === 0) {
+      return '';
+    }
+
+    const columnSql = this.getColumnsSql(newColumns, true);
+    return `ALTER TABLE ${schema.name} ${columnSql};`;
   }
 
   /**
