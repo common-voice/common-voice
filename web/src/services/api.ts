@@ -199,16 +199,22 @@ export default class API {
   }
 
   async syncUser(): Promise<any> {
-    const headers = {
-      uid: this.user.userId,
-    };
+    const { userId, email, hasDownloaded, sendEmails } = this.user;
 
-    const body = {
-      email: this.user.email,
-    };
-
-    return this.createPostRequest(API.USER_URL, headers, req => {
-      req.send(JSON.stringify(body));
-    });
+    return this.createPostRequest(
+      API.USER_URL,
+      {
+        uid: userId,
+      },
+      req => {
+        req.send(
+          JSON.stringify({
+            email,
+            has_downloaded: hasDownloaded,
+            send_emails: sendEmails,
+          })
+        );
+      }
+    );
   }
 }

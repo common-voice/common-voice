@@ -1,15 +1,15 @@
 import Mysql from '../mysql';
-import { TableSchema, SchemaVersions, default as Table } from '../table';
+import { TableSchema, SchemaVersions, default as BaseTable } from '../table';
 
 const NAME = 'users';
 
 const UserSchema_V3: TableSchema = {
   name: NAME,
   columns: {
-    id: Table.PRIMARY_KEY_TYPE,
+    id: BaseTable.PRIMARY_KEY_TYPE,
     email: 'varchar(255) unique',
-    send_emails: Table.FLAG_TYPE,
-    has_downloaded: Table.FLAG_TYPE,
+    send_emails: BaseTable.FLAG_TYPE,
+    has_downloaded: BaseTable.FLAG_TYPE,
   },
   indexes: null,
 };
@@ -17,7 +17,7 @@ const UserSchema_V3: TableSchema = {
 const UserSchema_V1: TableSchema = {
   name: NAME,
   columns: {
-    id: Table.PRIMARY_KEY_TYPE,
+    id: BaseTable.PRIMARY_KEY_TYPE,
     email: 'varchar(255) unique',
   },
   indexes: null,
@@ -28,22 +28,33 @@ const VERSIONS: SchemaVersions = {
   3: UserSchema_V3,
 };
 
-/**
- * Handles transactions with the user table.
- */
-export default class UserTable extends Table {
-  constructor(mysql: Mysql) {
-    super(mysql, VERSIONS);
+export namespace User {
+  export interface UpdatableFields {
+    email?: string;
+    send_emails?: boolean;
+    has_downloaded?: boolean;
   }
 
   /**
-   * Update and Insert user record.
+   * Handles transactions with the user table.
    */
-  async update(email: string): Promise<void> {
-    if (!email) {
-      return;
+  export class Table extends BaseTable {
+    constructor(mysql: Mysql) {
+      super(mysql, VERSIONS);
     }
 
-    await this.mysql.upsert(NAME, ['email'], [email]);
+    /**
+     * Update and Insert user record.
+     */
+    async update(fields: UpdatableFields): Promise<void> {
+      const [columns, values] = Object.entries(fields).reduce(
+        ([columns, values], [column, value]) => [
+          columns.concat(column),
+          values.concat(typeof value == 'boolean' ? Number(value) : value),
+        ],
+        [[], []]
+      );
+      await this.mysql.upsert(NAME, columns, values);
+    }
   }
 }

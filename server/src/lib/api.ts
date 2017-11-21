@@ -69,9 +69,7 @@ export default class API {
     try {
       const uid = request.headers.uid;
       const body = await this.getRequestBody(request);
-      const data = JSON.parse(body);
-      const email = data.email;
-      await this.model.syncUser(uid, email);
+      await this.model.syncUser(uid, JSON.parse(body));
       respond(response, 'user synced');
     } catch (err) {
       console.error('could not sync user', err);
