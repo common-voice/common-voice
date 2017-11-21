@@ -13,6 +13,14 @@
     animation: fade-in .5s;
 }
 
+.card-action:hover {
+    margin: 1px -1px -1px 1px;
+    opacity: .8;
+    box-shadow: none;
+    background: black;
+    color: white;
+}
+
 @media (max-width: 600px) {
     .card-action {
         white-space: normal;
