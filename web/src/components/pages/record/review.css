@@ -17,6 +17,10 @@
     padding-top: 1rem;
 }
 
+#voice-submit-review > p {
+	color : var(--grey-font-color);
+}
+
 #box-headers {
     text-align: right;
     font-size: var(--small-font-size);
@@ -27,6 +31,7 @@
     display: inline-block;
     width: var(--listen-box-height);
     text-align: center;
+	color : var(--grey-font-color);
 }
 
 #box-headers > span:last-child {
