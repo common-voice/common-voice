@@ -1,38 +1,17 @@
-import pick = require('lodash.pick');
 import * as React from 'react';
-import { connect } from 'react-redux';
 import { withRouter, RouteComponentProps } from 'react-router';
-import API from '../../../services/api';
-import { User } from '../../../stores/user';
 import Validator from '../../validator';
 import { RecordIcon } from '../../ui/icons';
 import { CardAction, Hr } from '../../ui/ui';
 import ProjectStatus from './project-status';
 
-interface PropsFromState {
-  api: API;
-}
-
-interface PropsFromDispatch {
-  tallyVerification: typeof User.actions.tallyVerification;
-}
-
-interface Props
-  extends PropsFromState,
-    PropsFromDispatch,
-    RouteComponentProps<any> {}
-
 interface State {
   showWallOfText: boolean;
 }
 
-class Home extends React.Component<Props, {}> {
+class Home extends React.Component<RouteComponentProps<any>, State> {
   state = {
     showWallOfText: false,
-  };
-
-  onVote = () => {
-    this.props.tallyVerification();
   };
 
   render() {
@@ -90,7 +69,7 @@ class Home extends React.Component<Props, {}> {
             below?
           </div>
 
-          <Validator onVote={this.onVote} />
+          <Validator />
         </div>
 
         <br />
@@ -104,9 +83,4 @@ class Home extends React.Component<Props, {}> {
     );
   }
 }
-export default withRouter(
-  connect<PropsFromState, PropsFromDispatch>(
-    state => pick(state, 'api'),
-    pick(User.actions, 'tallyVerification')
-  )(Home)
-);
+export default withRouter(Home);

@@ -6,6 +6,7 @@ import { Recordings } from './recordings';
 import StateTree from './tree';
 import { User } from './user';
 import { isBrowser } from '../utility';
+import { Validations } from './validations';
 
 const USER_KEY = 'userdata';
 
@@ -13,6 +14,7 @@ let preloadedState: StateTree = {
   api: undefined,
   recordings: undefined,
   user: undefined,
+  validations: undefined
 };
 
 const composeEnhancers =
@@ -25,12 +27,16 @@ interface MergeAction {
 
 const store = createStore(
   function root(
-    { recordings, user }: StateTree,
-    action: MergeAction | Recordings.Action | User.Action
+    { recordings, user, validations }: StateTree,
+    action: MergeAction | Recordings.Action | User.Action| Validations.Action
   ): StateTree {
     const newState = {
       recordings: Recordings.reducer(recordings, action as Recordings.Action),
       user: User.reducer(user, action as User.Action),
+      validations: Validations.reducer(
+        validations,
+        action as Validations.Action
+      ),
     };
     return {
       api: new API(newState.user),

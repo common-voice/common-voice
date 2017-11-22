@@ -20,6 +20,7 @@ interface PropsFromState {
 
 interface PropsFromDispatch {
   buildNewSentenceSet: typeof Recordings.actions.buildNewSentenceSet;
+  setReRecordSentence: typeof Recordings.actions.setReRecordSentence;
   tallyRecording: typeof User.actions.tallyRecording;
   updateUser: typeof User.actions.update;
 }
@@ -27,9 +28,7 @@ interface PropsFromDispatch {
 interface Props
   extends PropsFromState,
     PropsFromDispatch,
-    RouteComponentProps<any> {
-  onRedo(sentence: string): any;
-}
+    RouteComponentProps<any> {}
 
 interface State {
   showPrivacyModal: boolean;
@@ -123,7 +122,12 @@ class Review extends React.Component<Props, State> {
   };
 
   render() {
-    const { uploading, showPrivacyModal, showResetModal } = this.state;
+    const {
+      progress,
+      uploading,
+      showPrivacyModal,
+      showResetModal,
+    } = this.state;
     return (
       <div id="voice-submit">
         {showPrivacyModal && (
@@ -169,7 +173,7 @@ class Review extends React.Component<Props, State> {
           <ListenBox
             key={sentence}
             src={recording.url}
-            onDelete={this.props.onRedo.bind(this, sentence)}
+            onDelete={() => this.props.setReRecordSentence(sentence)}
             sentence={sentence}
           />
         ))}
@@ -177,7 +181,7 @@ class Review extends React.Component<Props, State> {
         <div className="actions">
           <a onClick={this.toggleResetModal}>Cancel Submission</a>
           <ProgressButton
-            percent={uploading ? 100 : 0}
+            percent={uploading ? progress : 0}
             disabled={uploading}
             onClick={this.handleSubmit}
             text="SUBMIT"
@@ -198,6 +202,7 @@ const mapStateToProps = ({ api, recordings, user }: StateTree) => ({
 
 const mapDispatchToProps = {
   buildNewSentenceSet: Recordings.actions.buildNewSentenceSet,
+  setReRecordSentence: Recordings.actions.setReRecordSentence,
   tallyRecording: User.actions.tallyRecording,
   updateUser: User.actions.update,
 };

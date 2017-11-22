@@ -53,11 +53,13 @@ interface PropsFromState {
   areSentencesLoaded: boolean;
   isSetFull: boolean;
   recordingsCount: number;
+  reRecordSentence?: string;
   sentenceRecordings: Recordings.SentenceRecordings;
 }
 
 interface PropsFromDispatch {
   setRecording: typeof Recordings.actions.set;
+  setReRecordSentence: typeof Recordings.actions.setReRecordSentence;
 }
 
 interface RecordProps extends PropsFromState, PropsFromDispatch {
@@ -72,8 +74,6 @@ interface RecordState {
   isUnsupportedPlatform?: boolean;
   recordingStartTime: number;
   recordingStopTime: number;
-  isReRecord: boolean;
-  reRecordSentence?: string;
   showSubmitSuccess: boolean;
   showRetryModal: boolean;
   recordingError?: string;
@@ -82,15 +82,13 @@ interface RecordState {
 class RecordPage extends React.Component<RecordProps, RecordState> {
   audio: AudioWeb | AudioIOS;
   isUnsupportedPlatform: boolean;
-  tracker: Tracker;
-  maxVolume: number;
+  tracker: Tracker = new Tracker();
+  maxVolume: number = 0;
 
   state: RecordState = {
     recordingStartTime: 0,
     recordingStopTime: 0,
-    isReRecord: false,
-    reRecordSentence: null,
-    showSubmitSuccess: false,
+    showSubmitSuccess: this.props.isSetFull,
     showRetryModal: false,
     recordingError: null,
   };
@@ -98,15 +96,9 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
   constructor(props: RecordProps) {
     super(props);
 
-    this.state.showSubmitSuccess = props.isSetFull;
-
-    this.tracker = new Tracker();
-
     // Use different audio helpers depending on if we are web or native iOS.
     this.audio = isNativeIOS() ? new AudioIOS() : new AudioWeb();
     this.audio.setVolumeCallback(this.updateVolume.bind(this));
-
-    this.maxVolume = 0;
   }
 
   componentDidMount() {
@@ -134,15 +126,13 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
     }
 
     this.props.setRecording(
-      this.state.reRecordSentence ||
+      this.props.reRecordSentence ||
         Object.keys(sentenceRecordings)[recordingsCount],
       info
     );
 
     setTimeout(() => {
       this.setState({
-        isReRecord: false,
-        reRecordSentence: null,
         showSubmitSuccess: this.props.isSetFull,
       });
     });
@@ -162,16 +152,6 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
       return RecordingError.TOO_QUIET;
     }
     return null;
-  };
-
-  private deleteRecording = (sentence: string): void => {
-    this.setState({
-      isReRecord: true,
-      reRecordSentence: sentence,
-      showSubmitSuccess: false,
-    });
-
-    this.props.setRecording(sentence, null);
   };
 
   private updateVolume = (volume: number) => {
@@ -278,13 +258,12 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
       areSentencesLoaded,
       isSetFull,
       recordingsCount,
+      reRecordSentence,
       sentenceRecordings,
     } = this.props;
     const {
       isUnsupportedPlatform,
-      isReRecord,
       recordingError,
-      reRecordSentence,
       showRetryModal,
       showSubmitSuccess,
     } = this.state;
@@ -294,20 +273,23 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
       return <UnsupportedInfo />;
     }
 
-    if (isSetFull) {
+    if (!reRecordSentence && isSetFull) {
       return (
         <div id="record-container">
-          <Review
-            onRedo={this.deleteRecording}
-            match={null}
-            location={null}
-            history={null}
-          />
+          <Review match={null} location={null} history={null} />
         </div>
       );
     }
 
-    const recordIndex = isReRecord
+    if (isSetFull) {
+      return (
+        <div id="record-container">
+          <Review match={null} location={null} history={null} />
+        </div>
+      );
+    }
+
+    const recordIndex = reRecordSentence
       ? Object.keys(sentenceRecordings).indexOf(reRecordSentence)
       : recordingsCount;
 
@@ -331,13 +313,14 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
               </Alert>
             </div>
           )}
-          {showSubmitSuccess && (
-            <div id="alert-container">
-              <Alert autoHide onClose={this.closeSubmitSuccess}>
-                Submit success! Want to record again?
-              </Alert>
-            </div>
-          )}
+          {!reRecordSentence &&
+            showSubmitSuccess && (
+              <div id="alert-container">
+                <Alert autoHide onClose={this.closeSubmitSuccess}>
+                  Submit success! Want to record again?
+                </Alert>
+              </div>
+            )}
           <div className="record-sentence">
             {Object.keys(sentenceRecordings).map((sentence, i) => (
               <p
@@ -350,7 +333,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
               </p>
             ))}
             {recordingsCount > 0 &&
-              !isReRecord && (
+              !reRecordSentence && (
                 <FontIcon id="undo-clip" type="undo" onClick={this.goBack} />
               )}
           </div>
@@ -361,18 +344,26 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
                   <p key="record-help" id="record-help">
                     Please tap to record, then read the above sentence aloud.
                   </p>,
-                  <button
-                    key="record-button"
-                    id="record-button"
-                    onTouchStart={this.onRecordClick}
-                    onClick={this.onRecordClick}>
-                    <RecordIcon />
-                  </button>,
+                  <div key="record-button" className="record-actions">
+                    <button
+                      id="record-button"
+                      onTouchStart={this.onRecordClick}
+                      onClick={this.onRecordClick}>
+                      <RecordIcon />
+                    </button>
+                    {reRecordSentence && (
+                      <a
+                        className="rerecord"
+                        onClick={() => this.props.setReRecordSentence(null)}>
+                        Cancel Re-recording
+                      </a>
+                    )}
+                  </div>,
                 ]
               : ERR_SENTENCES_NOT_LOADED}
           </div>
           <p id="recordings-count">
-            {!isReRecord && <span>{recordingsCount + 1} of 3</span>}
+            {!reRecordSentence && <span>{recordingsCount + 1} of 3</span>}
           </p>
           <ProfileActions />
         </div>
@@ -386,11 +377,13 @@ const mapStateToProps = ({ api, recordings }: StateTree) => ({
   areSentencesLoaded: Recordings.selectors.areEnoughSentencesLoaded(recordings),
   isSetFull: Recordings.selectors.isSetFull(recordings),
   recordingsCount: Recordings.selectors.recordingsCount(recordings),
+  reRecordSentence: recordings.reRecordSentence,
   sentenceRecordings: recordings.sentenceRecordings,
 });
 
 const mapDispatchToProps = {
   setRecording: Recordings.actions.set,
+  setReRecordSentence: Recordings.actions.setReRecordSentence,
 };
 
 export default connect<PropsFromState, PropsFromDispatch>(

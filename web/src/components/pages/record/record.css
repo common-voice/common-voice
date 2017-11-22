@@ -92,6 +92,7 @@
 }
 
 #record-button {
+    display: inline-block;
     border: none;
     border-radius: 50%;
     padding: 0;
@@ -163,4 +164,37 @@
     #voice-record {
         padding: 0 0.25rem;
     }
+}
+
+@media (min-width: 600px) {
+    .record-actions {
+        position: relative;
+        width: 100%
+    }
+
+    .rerecord {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+@media (max-width: 600px) {
+    .record-actions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rerecord {
+        margin-top: var(--standard-margin);
+    }
+}
+
+.rerecord {
+    font-size: var(--small-font-size);
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
 }

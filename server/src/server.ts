@@ -125,6 +125,11 @@ export default class Server {
     try {
       // Print user count before loading cache.
       await this.model.printUserCount();
+    } catch (err) {
+      // For now, we don' care about errors getting user count.
+    }
+
+    try {
       await this.api.loadCache();
     } catch (err) {
       console.error('error loading clips', err.message);
