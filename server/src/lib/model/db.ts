@@ -1,7 +1,8 @@
+import { pick } from 'lodash';
 import Mysql from './db/mysql';
 import Schema from './db/schema';
 import Table from './db/table';
-import UserTable from './db/tables/user-table';
+import { UpdatableUserFields, UserTable } from './db/tables/user-table';
 import UserClientTable from './db/tables/user-client-table';
 import VersionTable from './db/tables/version-table';
 import { CommonVoiceConfig } from '../../config-helper';
@@ -49,10 +50,17 @@ export default class DB {
   /**
    * Insert or update user client row.
    */
-  async updateUser(clientId: string, email?: string): Promise<void> {
-    email = this.formatEmail(email);
+  async updateUser(
+    clientId: string,
+    fields: UpdatableUserFields
+  ): Promise<void> {
+    let { email } = fields;
+    if (email) email = this.formatEmail(email);
     await Promise.all([
-      this.user.update(email),
+      this.user.update({
+        email,
+        ...pick(fields, 'send_emails', 'has_downloaded'),
+      }),
       this.userClient.update(clientId, email),
     ]);
   }

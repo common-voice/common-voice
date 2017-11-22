@@ -28,10 +28,16 @@ const VERSIONS: SchemaVersions = {
   3: UserSchema_V3,
 };
 
+export interface UpdatableUserFields {
+  email?: string;
+  send_emails?: boolean;
+  has_downloaded?: boolean;
+}
+
 /**
  * Handles transactions with the user table.
  */
-export default class UserTable extends Table {
+export class UserTable extends Table {
   constructor(mysql: Mysql) {
     super(mysql, VERSIONS);
   }
@@ -39,11 +45,14 @@ export default class UserTable extends Table {
   /**
    * Update and Insert user record.
    */
-  async update(email: string): Promise<void> {
-    if (!email) {
-      return;
-    }
-
-    await this.mysql.upsert(NAME, ['email'], [email]);
+  async update(fields: UpdatableUserFields): Promise<void> {
+    const [columns, values] = Object.entries(fields).reduce(
+      ([columns, values], [column, value]) => [
+        columns.concat(column),
+        values.concat(typeof value == 'boolean' ? Number(value) : value),
+      ],
+      [[], []]
+    );
+    await this.mysql.upsert(NAME, columns, values);
   }
 }

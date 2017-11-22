@@ -93,7 +93,12 @@ class DataPage extends React.Component<Props, State> {
   showEmailModal = () => {
     const { user } = this.props;
 
-    if (user.hasDownloaded) return;
+    if (user.hasDownloaded) {
+      this.setState({ showModalFor: null });
+      return;
+    }
+
+    this.props.updateUser({ hasDownloaded: true });
 
     this.setState({ showModalFor: 'email' });
   };

@@ -121,13 +121,13 @@ export namespace User {
       dispatch: any,
       getState: () => StateTree
     ) => {
-      getState()
-        .api.syncUser()
-        .catch(error => console.log(error));
       dispatch({
         type: ActionType.UPDATE,
         state,
       });
+      getState()
+        .api.syncUser()
+        .catch(error => console.log(error));
     },
 
     tallyRecording: (): TallyRecordingAction => ({
