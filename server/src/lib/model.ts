@@ -161,6 +161,7 @@ export default class Model {
    * Update current user
    */
   async syncUser(uid: string, data: UpdatableUserFields): Promise<void> {
+    this.print(`user ${uid}`, data);
     return this.db.updateUser(uid, data);
   }
 
