@@ -1,7 +1,7 @@
 import { applyMiddleware, compose, createStore } from 'redux';
 import thunk from 'redux-thunk';
 import API from '../services/api';
-import Tracker from '../services/tracker';
+import { trackProfile } from '../services/tracker';
 import { Recordings } from './recordings';
 import StateTree from './tree';
 import { User } from './user';
@@ -44,13 +44,12 @@ const store = createStore(
   composeEnhancers(applyMiddleware(thunk))
 );
 
-const tracker = new Tracker();
 const fieldTrackers: any = {
-  email: () => tracker.trackGiveEmail(),
-  username: () => tracker.trackGiveUsername(),
-  accent: () => tracker.trackGiveAccent(),
-  age: () => tracker.trackGiveAge(),
-  gender: () => tracker.trackGiveGender(),
+  email: () => trackProfile('give-email'),
+  username: () => trackProfile('give-username'),
+  accent: () => trackProfile('give-accent'),
+  age: () => trackProfile('give-age'),
+  gender: () => trackProfile('give-gender'),
 };
 
 let prevUser: User.State = null;

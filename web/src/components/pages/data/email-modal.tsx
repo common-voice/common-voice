@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
+import { trackDataset } from '../../../services/tracker';
 import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
 import Modal from '../../modal/modal';
 import { SuccessIcon } from '../../ui/icons';
 import { LabeledInput } from '../../ui/ui';
-import { FormEvent } from 'react';
 
 interface PropsFromState {
   user: User.State;
@@ -27,8 +27,9 @@ interface State {
 class EmailModal extends React.Component<Props, State> {
   state = { email: this.props.user.email, isSubmitted: false };
 
-  handleSubmit = (event: FormEvent<any>) => {
+  handleSubmit = (event: React.FormEvent<any>) => {
     event.preventDefault();
+    trackDataset('post-download-signup');
     this.props.updateUser({
       email: this.state.email,
       sendEmails: true,

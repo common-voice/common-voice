@@ -2,6 +2,7 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import Modal from '../../modal/modal';
 import { CardAction, Hr } from '../../ui/ui';
+import { trackDataset } from '../../../services/tracker';
 import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
 import { DownloadIcon } from '../../ui/icons';
@@ -87,11 +88,16 @@ class DataPage extends React.Component<Props, State> {
   state: State = { showModalFor: null };
 
   showModalFor = (info?: ModalInfo) => {
+    trackDataset(info === datasetBundle ? 'open-bundle-modal' : 'open-modal');
     this.setState({ showModalFor: info });
   };
 
   showEmailModal = () => {
     const { user } = this.props;
+
+    trackDataset(
+      this.state.showModalFor === datasetBundle ? 'download-bundle' : 'download'
+    );
 
     if (user.hasDownloaded) {
       this.setState({ showModalFor: null });

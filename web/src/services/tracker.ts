@@ -1,90 +1,46 @@
 import { isProduction } from '../utility';
 
-declare var ga: any;
+declare const ga: any;
 
-const CATEGORY_RECORD = 'Recording';
-const CATEGORY_LISTEN = 'Listening';
-const CATEGORY_PROFILE = 'Profile';
-
-const ACTION_RECORD = 'record';
-const ACTION_SUBMIT = 'submit';
-const ACTION_LISTEN = 'listen';
-const ACTION_VOTE_YES = 'vote-yes';
-const ACTION_VOTE_NO = 'vote-no';
-const ACTION_GIVE_EMAIL = 'give-email';
-const ACTION_GIVE_USERNAME = 'give-username';
-const ACTION_GIVE_ACCENT = 'give-accent';
-const ACTION_GIVE_AGE = 'give-age';
-const ACTION_GIVE_GENDER = 'give-gender';
-
-/**
- * Event tracking.
- */
-export default class Tracker {
-  isProduction: boolean;
-
-  constructor() {
-    this.isProduction = isProduction();
+function track(
+  category: 'Navigation' | 'Recording' | 'Listening' | 'Profile' | 'Data',
+  action: string
+) {
+  if (isProduction() && typeof ga === 'function') {
+    ga('send', 'event', category, action);
   }
+}
 
-  private isLoaded() {
-    return typeof ga === 'function';
-  }
+export function trackRecording(action: 'record' | 'submit') {
+  track('Recording', action);
+}
 
-  private shouldTrack() {
-    return this.isProduction && this.isLoaded();
-  }
+export function trackListening(action: 'listen' | 'vote-yes' | 'vote-no') {
+  track('Listening', action);
+}
 
-  private track(
-    category: string,
-    action: string,
-    label?: string,
-    value?: string
-  ): void {
-    if (!this.shouldTrack()) {
-      return;
-    }
+export function trackProfile(
+  action:
+    | 'give-email'
+    | 'give-username'
+    | 'give-accent'
+    | 'give-age'
+    | 'give-gender'
+) {
+  track('Profile', action);
+}
 
-    ga('send', 'event', category, action, label, value);
-  }
+export function trackDataset(
+  action:
+    | 'open-modal'
+    | 'open-bundle-modal'
+    | 'download'
+    | 'download-bundle'
+    | 'post-download-signup'
+) {
+  track('Data', action);
+}
 
-  trackRecord() {
-    this.track(CATEGORY_RECORD, ACTION_RECORD);
-  }
-
-  trackListen() {
-    this.track(CATEGORY_LISTEN, ACTION_LISTEN);
-  }
-
-  trackSubmitRecordings() {
-    this.track(CATEGORY_RECORD, ACTION_SUBMIT);
-  }
-
-  trackGiveEmail() {
-    this.track(CATEGORY_PROFILE, ACTION_GIVE_EMAIL);
-  }
-
-  trackGiveUsername() {
-    this.track(CATEGORY_PROFILE, ACTION_GIVE_USERNAME);
-  }
-
-  trackGiveAccent() {
-    this.track(CATEGORY_PROFILE, ACTION_GIVE_ACCENT);
-  }
-
-  trackGiveAge() {
-    this.track(CATEGORY_PROFILE, ACTION_GIVE_AGE);
-  }
-
-  trackGiveGender() {
-    this.track(CATEGORY_PROFILE, ACTION_GIVE_GENDER);
-  }
-
-  trackVoteYes() {
-    this.track(CATEGORY_LISTEN, ACTION_VOTE_YES);
-  }
-
-  trackVoteNo() {
-    this.track(CATEGORY_LISTEN, ACTION_VOTE_NO);
-  }
+export function trackNavigation(action: 'progress-to-record') {
+  track('Navigation', action);
 }

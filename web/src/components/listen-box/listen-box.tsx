@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Tracker from '../../services/tracker';
+import { trackListening } from '../../services/tracker';
 import { FontIcon, PlayIcon, RedoIcon } from '../ui/icons';
 
 interface Props {
@@ -22,12 +22,9 @@ interface State {
  */
 export default class ListenBox extends React.Component<Props, State> {
   el: HTMLAudioElement;
-  tracker: Tracker;
 
   constructor(props: Props) {
     super(props);
-
-    this.tracker = new Tracker();
 
     // Pre-bind some handlers to avoid memory leaks later.
     this.onLoadStart = this.onLoadStart.bind(this);
@@ -75,7 +72,7 @@ export default class ListenBox extends React.Component<Props, State> {
 
   private onPlayEnded() {
     this.setState({ playing: false, played: true });
-    this.tracker.trackListen();
+    trackListening('listen');
   }
 
   private onPlay() {
@@ -119,7 +116,7 @@ export default class ListenBox extends React.Component<Props, State> {
       return;
     }
     this.vote(true);
-    this.tracker.trackVoteYes();
+    trackListening('vote-yes');
   }
 
   private voteNo() {
@@ -127,7 +124,7 @@ export default class ListenBox extends React.Component<Props, State> {
       return;
     }
     this.vote(false);
-    this.tracker.trackVoteNo();
+    trackListening('vote-no');
   }
 
   render() {

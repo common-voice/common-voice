@@ -2,7 +2,7 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, withRouter } from 'react-router';
 import API from '../../../services/api';
-import Tracker from '../../../services/tracker';
+import { trackRecording } from '../../../services/tracker';
 import { Recordings } from '../../../stores/recordings';
 import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
@@ -38,8 +38,6 @@ interface State {
 }
 
 class Review extends React.Component<Props, State> {
-  tracker = new Tracker();
-
   state = {
     showPrivacyModal: false,
     showResetModal: false,
@@ -112,7 +110,7 @@ class Review extends React.Component<Props, State> {
       }
       await this.props.api.uploadDemographicInfo();
       this.props.buildNewSentenceSet();
-      this.tracker.trackSubmitRecordings();
+      trackRecording('submit');
     } catch (e) {
       this.setState({
         uploading: false,

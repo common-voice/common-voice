@@ -2,7 +2,7 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import ERROR_MSG from '../../../error-msg';
 import API from '../../../services/api';
-import Tracker from '../../../services/tracker';
+import { trackRecording } from '../../../services/tracker';
 import { Recordings } from '../../../stores/recordings';
 import StateTree from '../../../stores/tree';
 import { getItunesURL, isFocus, isNativeIOS } from '../../../utility';
@@ -81,7 +81,6 @@ interface RecordState {
 class RecordPage extends React.Component<RecordProps, RecordState> {
   audio: AudioWeb | AudioIOS;
   isUnsupportedPlatform: boolean;
-  tracker: Tracker = new Tracker();
   maxVolume: number = 0;
 
   state: RecordState = {
@@ -136,7 +135,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
       });
     });
 
-    this.tracker.trackRecord();
+    trackRecording('record');
   };
 
   private getRecordingError = (): RecordingError => {
