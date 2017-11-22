@@ -14,7 +14,7 @@ let preloadedState: StateTree = {
   api: undefined,
   recordings: undefined,
   user: undefined,
-  validations: undefined
+  validations: undefined,
 };
 
 const composeEnhancers =
@@ -28,7 +28,7 @@ interface MergeAction {
 const store = createStore(
   function root(
     { recordings, user, validations }: StateTree,
-    action: MergeAction | Recordings.Action | User.Action| Validations.Action
+    action: MergeAction | Recordings.Action | User.Action | Validations.Action
   ): StateTree {
     const newState = {
       recordings: Recordings.reducer(recordings, action as Recordings.Action),
@@ -48,20 +48,20 @@ const store = createStore(
   composeEnhancers(applyMiddleware(thunk))
 );
 
-if (isBrowser)
-  setTimeout(() => {
-    try {
+if (isBrowser) {
+  try {
+    const user = JSON.parse(localStorage.getItem(USER_KEY)) || undefined;
+    if (user) {
       store.dispatch({
         type: 'MERGE',
-        state: {
-          user: JSON.parse(localStorage.getItem(USER_KEY)) || undefined,
-        },
+        state: { user },
       });
-    } catch (e) {
-      console.error('failed parsing storage', e);
-      localStorage.removeItem(USER_KEY);
     }
-  });
+  } catch (e) {
+    console.error('failed parsing storage', e);
+    localStorage.removeItem(USER_KEY);
+  }
+}
 
 const tracker = new Tracker();
 const fieldTrackers: any = {
