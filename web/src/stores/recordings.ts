@@ -6,15 +6,26 @@ const CACHE_SET_COUNT = 9;
 const SET_COUNT = 3;
 
 export namespace Recordings {
+  interface Recording {
+    blob: Blob;
+    url: string;
+  }
+
+  export interface SentenceRecordings {
+    [sentence: string]: Recording;
+  }
+
+  export interface State {
+    reRecordSentence?: string;
+    sentenceCache: string[];
+    sentenceRecordings: SentenceRecordings;
+  }
+
   enum ActionType {
     SET_RECORDING = 'SET_RECORDING',
     REFILL_SENTENCE_CACHE = 'REFILL_SENTENCE_CACHE',
     SET_SENTENCES = 'SET_SENTENCES',
-  }
-
-  interface Recording {
-    blob: Blob;
-    url: string;
+    RE_RECORD_SENTENCE = 'RE_RECORD_SENTENCE',
   }
 
   interface SetRecordingAction extends ReduxAction {
@@ -34,10 +45,16 @@ export namespace Recordings {
     sentenceCache: string[];
   }
 
+  interface ReRecordSentenceAction extends ReduxAction {
+    type: ActionType.RE_RECORD_SENTENCE;
+    sentence: string;
+  }
+
   export type Action =
     | SetRecordingAction
     | RefillSentenceCacheAction
-    | SetSentencesAction;
+    | SetSentencesAction
+    | ReRecordSentenceAction;
 
   export const actions = {
     set: (sentence: string, recording?: Recording): SetRecordingAction => ({
@@ -88,19 +105,16 @@ export namespace Recordings {
         await actions.refillSentenceCache()(dispatch, getState);
       }
     },
+
+    setReRecordSentence: (sentence: string): ReRecordSentenceAction => ({
+      type: ActionType.RE_RECORD_SENTENCE,
+      sentence,
+    }),
   };
-
-  export interface SentenceRecordings {
-    [sentence: string]: Recording;
-  }
-
-  export interface State {
-    sentenceCache: string[];
-    sentenceRecordings: SentenceRecordings;
-  }
 
   export function reducer(
     state: State = {
+      reRecordSentence: null,
       sentenceRecordings: {},
       sentenceCache: [],
     },
@@ -111,6 +125,7 @@ export namespace Recordings {
         const { sentence, recording } = action;
         return {
           ...state,
+          reRecordSentence: null,
           sentenceRecordings: {
             ...state.sentenceRecordings,
             [sentence]: recording,
@@ -136,6 +151,12 @@ export namespace Recordings {
           ),
         };
 
+      case ActionType.RE_RECORD_SENTENCE:
+        return {
+          ...state,
+          reRecordSentence: action.sentence,
+        };
+
       default:
         return state;
     }
@@ -147,9 +168,11 @@ export namespace Recordings {
       sentenceCache => sentenceCache.length >= SET_COUNT
     ),
 
-    isSetFull: createSelector<State, SentenceRecordings, boolean>(
+    isSetFull: createSelector<State, SentenceRecordings, string, boolean>(
       state => state.sentenceRecordings,
-      sentenceRecordings =>
+      state => state.reRecordSentence,
+      (sentenceRecordings, reRecordSentence) =>
+        !reRecordSentence &&
         Object.entries(sentenceRecordings).filter(
           ([sentence, recording]) => recording
         ).length >= SET_COUNT
