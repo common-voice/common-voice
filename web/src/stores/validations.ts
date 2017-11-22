@@ -19,7 +19,7 @@ export namespace Validations {
 
   enum ActionType {
     REFILL_CACHE = 'REFILL_VALIDATIONS_CACHE',
-    NEW_VALIDATION = 'NEW_VALIDATION',
+    NEXT_VALIDATION = 'NEXT_VALIDATION',
   }
 
   interface RefillCacheAction extends ReduxAction {
@@ -28,7 +28,7 @@ export namespace Validations {
   }
 
   interface NewValidationAction extends ReduxAction {
-    type: ActionType.NEW_VALIDATION;
+    type: ActionType.NEXT_VALIDATION;
   }
 
   export type Action = RefillCacheAction | NewValidationAction;
@@ -56,12 +56,19 @@ export namespace Validations {
           });
           await new Promise(resolve => {
             const audioElement = document.createElement('audio');
-            audioElement.addEventListener('canplaythrough', resolve);
+            audioElement.addEventListener('canplaythrough', () => {
+              audioElement.remove();
+              resolve();
+            });
             audioElement.setAttribute('src', clip.sound);
           });
         }
       } catch (err) {
-        dispatch({ type: ActionType.REFILL_CACHE });
+        if (err instanceof XMLHttpRequest) {
+          dispatch({ type: ActionType.REFILL_CACHE });
+        } else {
+          throw err;
+        }
       }
     },
 
@@ -72,7 +79,7 @@ export namespace Validations {
       const { api, validations } = getState();
       await api.castVote(validations.next.glob, isValid);
       dispatch(User.actions.tallyVerification());
-      dispatch({ type: ActionType.NEW_VALIDATION });
+      dispatch({ type: ActionType.NEXT_VALIDATION });
       actions.refillCache()(dispatch, getState);
     },
   };
@@ -93,12 +100,12 @@ export namespace Validations {
         return {
           ...state,
           cache,
-          loadError: Boolean(next),
+          loadError: !next,
           next,
         };
       }
 
-      case ActionType.NEW_VALIDATION: {
+      case ActionType.NEXT_VALIDATION: {
         const cache = state.cache.slice();
         const next = cache.pop();
         return { ...state, cache, next };
