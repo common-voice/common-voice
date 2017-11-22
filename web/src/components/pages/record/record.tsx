@@ -71,6 +71,7 @@ interface RecordProps extends PropsFromState, PropsFromDispatch {
 }
 
 interface RecordState {
+  isUnsupportedPlatform?: boolean;
   recordingStartTime: number;
   recordingStopTime: number;
   showSubmitSuccess: boolean;
@@ -98,15 +99,15 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
     // Use different audio helpers depending on if we are web or native iOS.
     this.audio = isNativeIOS() ? new AudioIOS() : new AudioWeb();
     this.audio.setVolumeCallback(this.updateVolume.bind(this));
+  }
 
-    if (
-      !this.audio.isMicrophoneSupported() ||
-      !this.audio.isAudioRecordingSupported() ||
-      isFocus()
-    ) {
-      this.isUnsupportedPlatform = true;
-      return;
-    }
+  componentDidMount() {
+    this.setState({
+      isUnsupportedPlatform:
+        !this.audio.isMicrophoneSupported() ||
+        !this.audio.isAudioRecordingSupported() ||
+        isFocus(),
+    });
   }
 
   private processRecording = (info: AudioInfo) => {
@@ -260,13 +261,27 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
       reRecordSentence,
       sentenceRecordings,
     } = this.props;
-    const { recordingError, showRetryModal, showSubmitSuccess } = this.state;
+    const {
+      isUnsupportedPlatform,
+      recordingError,
+      showRetryModal,
+      showSubmitSuccess,
+    } = this.state;
 
-    if (this.isUnsupportedPlatform) {
+    if (isUnsupportedPlatform === undefined) return <div />;
+    if (isUnsupportedPlatform) {
       return <UnsupportedInfo />;
     }
 
     if (!reRecordSentence && isSetFull) {
+      return (
+        <div id="record-container">
+          <Review match={null} location={null} history={null} />
+        </div>
+      );
+    }
+
+    if (isSetFull) {
       return (
         <div id="record-container">
           <Review match={null} location={null} history={null} />

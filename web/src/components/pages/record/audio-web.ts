@@ -1,5 +1,5 @@
 import ERROR_MSG from '../../../error-msg';
-import { isNativeIOS } from '../../../utility';
+import { isBrowser, isNativeIOS } from '../../../utility';
 
 const AUDIO_TYPE = 'audio/ogg; codecs=opus';
 
@@ -68,10 +68,11 @@ export default class AudioWeb {
   // Check all the browser prefixes for microhpone support.
   isMicrophoneSupported() {
     return (
-      (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) ||
-      navigator.getUserMedia ||
-      navigator.webkitGetUserMedia ||
-      navigator.mozGetUserMedia
+      isBrowser &&
+      ((navigator.mediaDevices && navigator.mediaDevices.getUserMedia) ||
+        navigator.getUserMedia ||
+        navigator.webkitGetUserMedia ||
+        navigator.mozGetUserMedia)
     );
   }
 

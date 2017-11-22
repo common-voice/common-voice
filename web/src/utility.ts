@@ -2,6 +2,8 @@
  * Functions to be shared across mutiple modules.
  */
 
+export const isBrowser = typeof window !== 'undefined';
+
 /**
  * Generate RFC4122 compliant globally unique identifier.
  */
@@ -36,6 +38,7 @@ export function countSyllables(text: string): number {
  */
 export function isNativeIOS(): boolean {
   return (
+    isBrowser &&
     window['webkit'] &&
     webkit.messageHandlers &&
     webkit.messageHandlers.scriptHandler
@@ -43,24 +46,28 @@ export function isNativeIOS(): boolean {
 }
 
 export function isFocus(): boolean {
-  return navigator.userAgent.indexOf('Focus') !== -1;
+  return (
+    typeof navigator !== 'undefined' &&
+    navigator.userAgent.indexOf('Focus') !== -1
+  );
 }
 
 /**
  * Test whether this is a browser on iOS.
  */
 export function isIOS(): boolean {
-  return /(iPod|iPhone|iPad)/i.test(window.navigator.userAgent);
+  return isBrowser && /(iPod|iPhone|iPad)/i.test(window.navigator.userAgent);
 }
 
 export function isWebkit(): boolean {
-  return /AppleWebKit/i.test(window.navigator.userAgent);
+  return isBrowser && /AppleWebKit/i.test(window.navigator.userAgent);
 }
 
 /**
  * Check whether the browser is Safari (either desktop or mobile).
  */
 export function isSafari(): boolean {
+  if (!isBrowser) return false;
   const userAgent = window.navigator.userAgent;
   /* Just checking isSafari isn't enough, because multiple browsers on iOS
    * identify as Safari. The difference is that they have a different version
@@ -80,6 +87,7 @@ export function isSafari(): boolean {
  */
 export function isMobileWebkit(): boolean {
   return (
+    isBrowser &&
     this.isIOS() &&
     this.isWebkit() &&
     !/(Chrome|CriOS|OPiOS)/.test(window.navigator.userAgent)
@@ -87,7 +95,7 @@ export function isMobileWebkit(): boolean {
 }
 
 export function isProduction(): boolean {
-  return window.location.origin === 'https://voice.mozilla.org';
+  return isBrowser && window.location.origin === 'https://voice.mozilla.org';
 }
 
 export function getItunesURL(): string {
