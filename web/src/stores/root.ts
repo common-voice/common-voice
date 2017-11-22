@@ -57,7 +57,7 @@ store.subscribe(() => {
   const user = (store.getState() as any).user as User.State;
   for (const field of Object.keys(fieldTrackers)) {
     const typedField = field as keyof User.State;
-    if (!prevUser || user[typedField] !== prevUser[typedField]) {
+    if (prevUser && user[typedField] !== prevUser[typedField]) {
       fieldTrackers[typedField]();
     }
   }
