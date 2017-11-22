@@ -1,5 +1,5 @@
 import DB from './model/db';
-import { User } from './model/db/tables/user-table';
+import { UpdatableUserFields } from './model/db/tables/user-table';
 import Users from './model/users';
 import { default as Clips, Clip } from './model/clips';
 import { CommonVoiceConfig } from '../config-helper';
@@ -160,7 +160,7 @@ export default class Model {
   /**
    * Update current user
    */
-  async syncUser(uid: string, data: User.UpdatableFields): Promise<void> {
+  async syncUser(uid: string, data: UpdatableUserFields): Promise<void> {
     return this.db.updateUser(uid, data);
   }
 
