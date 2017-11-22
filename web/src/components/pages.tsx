@@ -5,6 +5,7 @@ import { Link, NavLink } from 'react-router-dom';
 import { Recordings } from '../stores/recordings';
 import StateTree from '../stores/tree';
 import { User } from '../stores/user';
+import { Validations } from '../stores/validations';
 import { getItunesURL, isNativeIOS, isIOS, isSafari } from '../utility';
 import ContactModal from './contact-modal/contact-modal';
 import Logo from './logo';
@@ -54,6 +55,7 @@ interface PropsFromState {
 
 interface PropsFromDispatch {
   buildNewSentenceSet: typeof Recordings.actions.buildNewSentenceSet;
+  fillValidations: typeof Validations.actions.refillCache;
 }
 
 interface PagesProps
@@ -97,6 +99,7 @@ class Pages extends React.Component<PagesProps, PagesState> {
 
   componentDidMount() {
     this.props.buildNewSentenceSet();
+    this.props.fillValidations();
     this.addScrollListener();
   }
 
@@ -451,6 +454,7 @@ const mapStateToProps = ({ recordings, user }: StateTree) => ({
 
 const mapDispatchToProps = {
   buildNewSentenceSet: Recordings.actions.buildNewSentenceSet,
+  fillValidations: Validations.actions.refillCache,
 };
 
 export default withRouter(
