@@ -54,5 +54,11 @@ export class UserTable extends Table {
       [[], []]
     );
     await this.mysql.upsert(NAME, columns, values);
+    const [
+      [user],
+    ] = await this.mysql.exec(`SELECT * FROM ${NAME} WHERE email = ?`, [
+      fields.email,
+    ]);
+    console.log('DB --', 'User', JSON.stringify(user, null, 2));
   }
 }
