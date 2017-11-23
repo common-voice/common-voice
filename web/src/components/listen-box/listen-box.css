@@ -124,11 +124,13 @@ body.mobile-safari .delete-box:active path {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: var(--standard-margin);
 }
 
 @media (max-width: 600px) {
     .vote-box {
         width: 100%;
+        margin-left: 0;
     }
 }
 
