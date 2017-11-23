@@ -184,7 +184,11 @@ class DataPage extends React.Component<Props, State> {
           ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </p>
 
-        <a href="https://mozilla.org" target="_blank" rel="noopener noreferrer">
+        <a
+          id="speech-blog-link"
+          href="https://mozilla.org"
+          target="_blank"
+          rel="noopener noreferrer">
           Get Started with Speech Recognition
         </a>
 

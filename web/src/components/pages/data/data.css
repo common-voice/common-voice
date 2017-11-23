@@ -67,6 +67,12 @@
     color: var(--grey-font-color);
 }
 
+#speech-blog-link {
+    text-decoration: underline;
+    font-size: var(--small-font-size);
+    font-weight: 600;
+}
+
 #data-container hr {
     margin: 3rem 0;
 }
