@@ -146,7 +146,8 @@
     font-style: italic;
 }
 
-.email-modal {
+.ReactModal__Content .inner.email-modal {
+    max-width: 45rem;
     color: var(--grey-font-color);
 }
 
