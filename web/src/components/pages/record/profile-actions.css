@@ -6,6 +6,10 @@
     justify-content: center;
 }
 
+#profile-actions > hr {
+    margin-bottom: 2.3rem;
+}
+
 #profile-form-container {
     position: relative;
     text-align: start;
@@ -28,7 +32,7 @@
 }
 
 #profile-actions a {
-    font-weight: bold;
+    font-weight: 600;
     text-decoration: underline;
     cursor: pointer;
 }

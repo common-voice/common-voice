@@ -28,7 +28,7 @@
 
 #recordings-count {
     color: var(--color-speak);
-    font-size: var(--small-font-size);
+    font-size: .9rem;
     font-weight: bold;
     margin-top: 0.5rem;
 }
@@ -83,7 +83,7 @@
 }
 
 .record-controls {
-    margin: calc(1rem + 4px) auto 1rem;
+    margin: 2rem auto 1rem;
     height: 6.5rem;
     display: flex;
     justify-content: space-between;
@@ -140,8 +140,9 @@
 }
 
 #record-help {
-    font-size: var(--small-font-size);
     padding: 0 2rem;
+    font-size: .9rem;
+    color: var(--grey-font-color);
 }
 
 #voice-record {
