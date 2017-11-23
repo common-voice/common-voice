@@ -110,6 +110,10 @@
     font-size: var(--small-font-size);
 }
 
+.dataset .license a {
+    color: var(--grey-font-color);
+}
+
 .dataset .action {
     height: 6rem;
     display: flex;
