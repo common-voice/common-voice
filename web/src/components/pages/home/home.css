@@ -55,6 +55,11 @@
     margin-right: 1rem;
 }
 
+#wall-of-text p {
+    color: var(--grey-font-color);
+    line-height: calc(135% + 2px);
+}
+
 #wall-of-text p:first-child {
     margin-bottom: var(--standard-margin);
 }
