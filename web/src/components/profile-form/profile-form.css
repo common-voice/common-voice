@@ -1,4 +1,5 @@
 #profile-card {
+    margin-top: 3rem;
     border-top: 5px solid black;
     padding: 2rem;
     box-shadow: var(--card-shadow);
