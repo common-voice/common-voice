@@ -5,7 +5,7 @@ import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
 import Modal from '../../modal/modal';
 import { SuccessIcon } from '../../ui/icons';
-import { LabeledInput } from '../../ui/ui';
+import { Button, LabeledInput } from '../../ui/ui';
 
 interface PropsFromState {
   user: User.State;
@@ -62,7 +62,11 @@ class EmailModal extends React.Component<Props, State> {
               this.setState({ email: event.target.value })}
           />
 
-          {!isSubmitted && <button type="submit">Submit</button>}
+          {!isSubmitted && (
+            <Button type="submit" outline>
+              Submit
+            </Button>
+          )}
 
           <a onClick={onRequestClose} className="cancel">
             {isSubmitted ? 'Return to Common Voice Datasets' : 'No Thanks'}

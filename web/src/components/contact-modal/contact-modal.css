@@ -15,9 +15,8 @@
 
 .contact-modal .actions button {
     width: 100%;
+    min-width: unset;
     max-width: 12rem;
-    background: black;
-    color: white;
     font-weight: normal;
 }
 

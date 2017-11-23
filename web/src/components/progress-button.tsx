@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Button } from './ui/ui';
 
 interface Props {
   disabled: boolean;
@@ -8,11 +9,11 @@ interface Props {
 }
 
 export default ({ disabled, percent, text, onClick }: Props) => (
-  <button className="progress-button" onClick={onClick} disabled={disabled}>
+  <Button className="progress-button" onClick={onClick} disabled={disabled}>
     <span
       className="progress"
       style={{ transform: `translateX(${percent - 100}%)` }}
     />
     {text}
-  </button>
+  </Button>
 );

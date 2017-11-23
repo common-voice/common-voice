@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Modal from '../modal/modal';
-import { LabeledInput, LabeledTextArea } from '../ui/ui';
+import { Button, LabeledInput, LabeledTextArea } from '../ui/ui';
 
 interface Props {
   onRequestClose: () => void;
@@ -24,7 +24,7 @@ export default ({ onRequestClose }: Props) => (
 
       <div className="actions">
         <div>*required</div>
-        <button type="submit">Submit</button>
+        <Button type="submit">Submit</Button>
         <div />
       </div>
     </form>

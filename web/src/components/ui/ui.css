@@ -1,6 +1,60 @@
+.button {
+    position: relative;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+    min-width: 14rem;
+    font-size: .9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: var(--base-font-family);
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid black;
+    outline: none;
+    transition: all 0.1s linear;
+    background: black;
+    color: white;
+}
+
+.button.outline {
+    background-color: var(--base-background-color);
+    color: black;
+}
+
+@media (max-width: 600px) {
+    .button {
+        display: block;
+        width: 100%;
+    }
+}
+
+body:not(.mobile-safari) .button:hover {
+    background-color: var(--base-background-color);
+    color: black;
+}
+
+body:not(.mobile-safari) .button.outline:hover {
+    background-color: black;
+    color: white;
+}
+
+body:not(.mobile-safari) .button:hover path {
+    fill: black;
+}
+
+body:not(.mobile-safari) .button.outline:hover path {
+    fill: var(--base-background-color);
+}
+
+.button:disabled {
+    pointer-events: none;
+    opacity: 0.3;
+}
+
 .card-action {
     border: none;
     padding: 0.8rem 1.2rem;
+    min-width: unset;
     display: flex;
     flex-direction: row;
     align-items: center;

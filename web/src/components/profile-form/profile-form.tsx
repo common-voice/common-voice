@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import StateTree from '../../stores/tree';
 import { ACCENTS, AGES, GENDERS, User } from '../../stores/user';
 import Modal from '../modal/modal';
-import { LabeledInput, LabeledSelect } from '../ui/ui';
+import { Button, LabeledInput, LabeledSelect } from '../ui/ui';
 
 interface EditableUser {
   email: string;
@@ -177,9 +177,9 @@ class ProfileForm extends React.Component<Props, State> {
           </LabeledSelect>
 
           <div className="buttons">
-            <button type="submit" className={isModified ? 'dark' : ''}>
+            <Button type="submit" outline={!isModified}>
               {isModified ? 'SAVE' : 'SAVED'}
-            </button>
+            </Button>
           </div>
         </form>
       </div>

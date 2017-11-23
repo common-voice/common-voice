@@ -5,7 +5,7 @@ import ProfileForm from '../../profile-form/profile-form';
 import { User } from '../../../stores/user';
 import messages from '../../../messages';
 import Alert from '../../alert/alert';
-import { Hr } from '../../ui/ui';
+import { Button, Hr } from '../../ui/ui';
 
 interface WhyProfileState {
   expanded: boolean;
@@ -87,9 +87,9 @@ class ProfileActions extends React.Component<PropsFromState, State> {
                 <ProfileForm onExit={this.toggleProfileForm} />
               </div>
             ) : (
-              <button type="button" onClick={this.toggleProfileForm}>
+              <Button outline onClick={this.toggleProfileForm}>
                 Create a profile
-              </button>
+              </Button>
             )}
             <WhyProfile />
           </div>

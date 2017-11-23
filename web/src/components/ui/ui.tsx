@@ -1,11 +1,19 @@
 import * as React from 'react';
-import { Link, LinkProps } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+
+export const Button = ({ className = '', outline = false, ...props }) => (
+  <button
+    type="button"
+    className={['button', outline ? 'outline' : '', className].join(' ')}
+    {...props}
+  />
+);
 
 export const CardAction = (props: any) =>
   props.to ? (
     <Link className="card-action" {...props} />
   ) : (
-    <button type="button" className="card-action" {...props} />
+    <Button outline className="card-action" {...props} />
   );
 
 export const Hr = (props: any) => <hr className="hr" {...props} />;

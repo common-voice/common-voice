@@ -1,5 +1,6 @@
 import * as React from 'react';
 import * as Modal from 'react-modal';
+import { Button } from '../ui/ui';
 
 interface ButtonConfig {
   [name: string]: () => any;
@@ -35,9 +36,9 @@ export default ({
       <div className="buttons">
         {buttons &&
           Object.keys(buttons).map(label => (
-            <button key={label} type="button" onClick={buttons[label] as any}>
+            <Button key={label} outline onClick={buttons[label] as any}>
               {label}
-            </button>
+            </Button>
           ))}
       </div>
     </div>

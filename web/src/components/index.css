@@ -71,61 +71,8 @@ a:active {
 }
 
 button {
-  display: inline-block;
-  padding: 0.5rem 3rem;
-  margin-bottom: 0;
-  font-size: .9rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-family: var(--base-font-family);
-  text-align: center;
+  background: none;
   cursor: pointer;
-  border: 1px solid black;
-  outline: none;
-  background-color: var(--base-background-color);
-  position: relative;
-  transition: all 0.1s linear;
-}
-
-@media (max-width: 600px) {
-  button {
-    display: block;
-    width: 100%;
-  }
-}
-
-body:not(.mobile-safari) button:hover {
-  background-color: black;
-  color: white;
-}
-
-body:not(.mobile-safari) button:hover path {
-  fill: white;
-}
-
-button.highlight {
-  transform: scale(1.1);
-}
-
-button:active {
-  background: black;
-  color: white;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-}
-
-button:disabled {
-  pointer-events: none;
-  opacity: 0.3;
-}
-
-button.dark {
-  background-color: black;
-  color: white;
-}
-
-button.dark:active {
-  background-color: white;
-  color: black;
 }
 
 /* Icon font element. */
@@ -148,6 +95,10 @@ button.dark:active {
 
 .progress-button {
   overflow: hidden;
+}
+
+.progress-button:disabled {
+  background: white;
 }
 
 .progress-button .progress {

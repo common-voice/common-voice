@@ -25,27 +25,9 @@
 
 .ReactModal__Content .buttons {
     margin-top: 1rem;
-}
-
-.ReactModal__Content .buttons button, .ReactModal__Content .buttons a {
-    display: inline-block;
-    box-sizing: border-box;
-    border: 1px solid black;
-    margin: var(--standard-margin);
-    padding: 0.5rem 1.5rem;
     min-width: 12rem;
-    text-transform: uppercase;
-    font-size: var(--small-font-size);
-    font-weight: bold;
 }
 
-.ReactModal__Content .buttons button:hover, .ReactModal__Content .buttons a:hover {
-    color: white;
-    background-color: black;
-}
-
-@media (max-width: 600px) {
-    .ReactModal__Content .buttons button, .ReactModal__Content .buttons a {
-        width: 100%;
-    }
+.ReactModal__Content .buttons .button {
+    margin: var(--standard-margin);
 }
