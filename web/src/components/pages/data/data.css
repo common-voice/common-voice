@@ -134,8 +134,14 @@
     box-shadow: none;
 }
 
-.dataset button:hover {
+body:not(.mobile-safari) .dataset .button.card-action:hover {
     margin: 0;
+    background: black;
+    color: white;
+}
+
+body:not(.mobile-safari) .dataset .button.card-action:hover path {
+    fill: white;
 }
 
 #dataset-bundle {
