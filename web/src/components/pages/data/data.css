@@ -22,7 +22,7 @@
     }
 }
 
-#data-container a[target=_blank] {
+#data-container .license a {
     font-size: var(--small-font-size);
     font-weight: 600;
     text-decoration: underline;
@@ -94,7 +94,7 @@
     padding: 1.5rem;
 }
 
-.dataset h2 {
+.dataset h2 a {
     font-weight: normal;
     color: var(--color-speak);
 }

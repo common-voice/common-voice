@@ -10,7 +10,7 @@ import EmailModal from './email-modal';
 
 const commonVoiceDataset = {
   size: 30,
-  url: 'https://mozilla.org',
+  download: ['https://mozilla.org'],
 };
 
 const datasets = [
@@ -18,8 +18,17 @@ const datasets = [
     name: 'LibriSpeech',
     description:
       'LibriSpeech is a corpus of approximately 1000 hours of 16Khz read English speech.',
-    size: 20,
-    url: 'https://mozilla.org',
+    size: 57.2,
+    url: 'http://www.openslr.org/12',
+    download: [
+      'http://www.openslr.org/resources/12/dev-clean.tar.gz',
+      'http://www.openslr.org/resources/12/dev-other.tar.gz',
+      'http://www.openslr.org/resources/12/test-clean.tar.gz',
+      'http://www.openslr.org/resources/12/test-other.tar.gz',
+      'http://www.openslr.org/resources/12/train-clean-100.tar.gz',
+      'http://www.openslr.org/resources/12/train-clean-360.tar.gz',
+      'http://www.openslr.org/resources/12/train-other-500.tar.gz',
+    ],
     license: {
       name: 'CC-BY-4.0',
       url: 'https://creativecommons.org/licenses/by/4.0/',
@@ -29,8 +38,9 @@ const datasets = [
     name: 'TED-LIUM Corpus',
     description:
       'The TED-LIUM corpus was made from audio talks and their transcriptions available on the TED website.',
-    size: 35,
-    url: 'https://mozilla.org',
+    size: 19.8,
+    url: 'http://www.openslr.org/7/',
+    download: ['http://www.openslr.org/resources/7/TEDLIUM_release1.tar.gz'],
     license: {
       name: 'CC-BY-NC-ND 3.0',
       url: 'https://creativecommons.org/licenses/by-nc-nd/3.0/',
@@ -41,7 +51,8 @@ const datasets = [
     description:
       'VoxForge was set up to collect transcribed speech for use with Free and Open Source Speech Rcognition Engines.',
     size: 52,
-    url: 'https://mozilla.org',
+    url: 'http://www.repository.voxforge1.org/downloads/SpeechCorpus/Trunk/',
+    download: [],
     license: {
       name: 'GNU-GPL',
       url: 'https://www.gnu.org/licenses/gpl-3.0.en.html',
@@ -52,7 +63,10 @@ const datasets = [
     description:
       'Tatoeba is a large database of sentences and translations. Its content is ever-growing and results from the voluntary contributions of thousands of members.',
     size: 17,
-    url: 'https://mozilla.org',
+    url: 'https://tatoeba.org/eng/downloads',
+    download: [
+      'http://downloads.tatoeba.org/exports/sentences_with_audio.tar.bz2',
+    ],
     license: {
       name: 'CC-BY-2.0',
       url: 'https://creativecommons.org/licenses/by/2.0/',
@@ -61,8 +75,11 @@ const datasets = [
 ];
 
 const datasetBundle = {
-  size: 135,
-  url: 'https://mozilla.org',
+  size: commonVoiceDataset.size + datasets.reduce((sum, d) => sum + d.size, 0),
+  download: [
+    commonVoiceDataset.download,
+    ...datasets.reduce((urls, d) => [...urls, ...d.download], []),
+  ],
 };
 
 interface PropsFromState {
@@ -77,7 +94,7 @@ interface Props extends PropsFromState, PropsFromDispatch {}
 
 interface ModalInfo {
   size: number;
-  url: string;
+  download: string[];
 }
 
 interface State {
@@ -92,7 +109,11 @@ class DataPage extends React.Component<Props, State> {
     this.setState({ showModalFor: info });
   };
 
-  showEmailModal = () => {
+  startDownload = () => {
+    for (const url of (this.state.showModalFor as ModalInfo).download) {
+      window.open(url, '_blank');
+    }
+
     const { user } = this.props;
 
     trackDataset(
@@ -124,7 +145,7 @@ class DataPage extends React.Component<Props, State> {
             <Modal
               innerClassName="download-modal"
               buttons={{
-                Yes: { url: showModalFor.url, onClick: this.showEmailModal },
+                Yes: this.startDownload,
                 No: this.hideModal,
               }}
               onRequestClose={this.hideModal}>
@@ -175,7 +196,14 @@ class DataPage extends React.Component<Props, State> {
           {datasets.map(dataset => (
             <div key={dataset.name} className="dataset">
               <div className="contents">
-                <h2>{dataset.name}</h2>
+                <h2>
+                  <a
+                    href={dataset.url}
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    {dataset.name}
+                  </a>
+                </h2>
                 <p>{dataset.description}</p>
               </div>
 
