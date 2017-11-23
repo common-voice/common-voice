@@ -56,6 +56,11 @@ a {
   color: var(--base-font-color);
 }
 
+a:hover {
+  opacity: .8;
+  text-decoration: none !important;
+}
+
 p, h1, h2, h3, h4 {
   margin: 0;
   padding: 0;
