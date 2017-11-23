@@ -405,7 +405,8 @@ body:not(.ios) .recording #background-container {
   box-sizing: border-box;
   transition: opacity 0.4s ease-in;
   max-width: var(--desktop-width);
-  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media (max-width: 600px) {

@@ -35,6 +35,14 @@
     }
 }
 
+#home-container {
+    margin-bottom: 6rem;
+}
+
+#home-container hr {
+    margin: 3rem 0;
+}
+
 #home-title {
     position: absolute;
     top: 0;
