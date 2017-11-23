@@ -84,4 +84,5 @@
     margin: var(--standard-margin) 0 1.5rem;
     font-size: var(--small-font-size);
     font-style: italic;
+    color: var(--grey-font-color);
 }
