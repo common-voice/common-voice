@@ -236,6 +236,10 @@ button.dark:active {
 }
 
 @media (max-width: 600px) {
+  #home-title {
+    top: 3.5rem;
+  }
+
   .data #background-container {
     transform: translateY(1rem);
   }
@@ -251,11 +255,11 @@ button.dark:active {
 
 @media (min-width: 600px) {
   .home #background-container {
-    transform: translateY(10rem);
+    transform: translateY(var(--home-background-offset));
   }
 
   .home .hero-space {
-    height: 17rem;
+    height: calc(var(--home-background-offset) + 7rem);
   }
 }
 
@@ -504,7 +508,7 @@ body:not(.ios) .recording #background-container {
 
 .home .robot {
   opacity: 1;
-  transform: translate(-13rem, 20.5rem) scale(1.1);
+  transform: translate(-13rem, calc(var(--home-background-offset) + 10.5rem)) scale(1.1);
 }
 
 @media (max-width: 600px) {

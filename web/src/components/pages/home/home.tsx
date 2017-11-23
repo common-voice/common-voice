@@ -18,10 +18,10 @@ class Home extends React.Component<RouteComponentProps<any>, State> {
     const { showWallOfText } = this.state;
     return (
       <div id="home-container">
-        <h1 id="home-title">
+        <h2 id="home-title">
           The Common Voice project is Mozilla's initiative to help teach
           machines how real people speak.
-        </h1>
+        </h2>
         <div id="wall-of-text">
           <CardAction id="contribute-button" to="/record">
             <div>

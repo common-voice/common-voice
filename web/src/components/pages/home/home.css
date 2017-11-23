@@ -2,7 +2,7 @@
 
 @media (min-width: 600px) {
     #home-title {
-        margin-top: 3rem;
+        margin-top: 3.8rem;
         width: var(--desktop-width);
     }
 
@@ -12,7 +12,7 @@
     }
 
     #contribute-button {
-        top: 19.8rem;
+        top: calc(var(--home-background-offset) + 9.8rem);
     }
 }
 
