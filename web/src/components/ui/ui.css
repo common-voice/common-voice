@@ -86,10 +86,11 @@ body:not(.mobile-safari) .button.card-action:hover path {
 }
 
 .hr {
-    border: solid 0.1rem;
+    border: none;
     margin: 1.5rem 0;
     width: 100%;
-    color: var(--color-record-hr);
+    height: 0.05rem;
+    background-color: var(--color-record-hr);
 }
 
 .labeled-form-control {
