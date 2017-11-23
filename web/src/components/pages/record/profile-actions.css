@@ -24,11 +24,12 @@
 
 #why-profile-text {
     text-align: left;
+    color: var(--grey-font-color);
 }
 
 #why-profile-title {
     margin: 1rem auto;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 #profile-actions a {
