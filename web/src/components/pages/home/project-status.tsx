@@ -10,7 +10,7 @@ export default () => (
     <div className="title-and-action">
       <h4>Overall project status: see how far we've come!</h4>
       <Link to="/record" onClick={() => trackNavigation('progress-to-record')}>
-        Contribute your voice
+        Contribute Your Voice
       </Link>
     </div>
 
