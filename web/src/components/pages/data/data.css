@@ -137,6 +137,7 @@
     margin: 5rem 0;
     padding: 1.5rem;
     display: flex;
+    display: none; /* TODO: un-hide when we host a bundle */
     flex-direction: column;
     justify-content: center;
     align-items: center;
