@@ -61,15 +61,15 @@ const datasets = [
   {
     name: 'Tatoeba',
     description:
-      'Tatoeba is a large database of sentences and translations. Its content is ever-growing and results from the voluntary contributions of thousands of members.',
+      'Tatoeba is a large database of sentences, translations, and spoken audio for use in language learning. For convenience, we have bundled all English audio into a single downloadable archive.',
     size: 17,
     url: 'https://tatoeba.org/eng/downloads',
     download: [
       'http://downloads.tatoeba.org/exports/sentences_with_audio.tar.bz2',
     ],
     license: {
-      name: 'CC-BY-2.0',
-      url: 'https://creativecommons.org/licenses/by/2.0/',
+      name: 'Mixed',
+      url: 'https://tatoeba.org/eng/downloads',
     },
   },
 ];
