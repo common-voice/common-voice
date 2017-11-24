@@ -30,7 +30,7 @@ export default () => (
       </div>
 
       <div>
-        Second language coming soon!
+        More languages coming soon!
         <div className="progress-bar" />
       </div>
     </div>
