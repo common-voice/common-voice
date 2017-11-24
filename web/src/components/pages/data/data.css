@@ -106,7 +106,6 @@
 .dataset h2 a {
     font-weight: normal;
     color: var(--color-speak);
-    text-decoration: underline;
 }
 
 .dataset p {
