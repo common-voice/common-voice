@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Link } from 'react-router-dom';
 import { trackNavigation } from '../../../services/tracker';
 
-const VALIDATED_HOURS = 200;
+const VALIDATED_HOURS = 253;
 const GOAL_HOURS = 500;
 
 export default () => (
