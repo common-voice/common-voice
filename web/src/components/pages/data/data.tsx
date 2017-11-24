@@ -9,7 +9,7 @@ import { DownloadIcon } from '../../ui/icons';
 import EmailModal from './email-modal';
 
 const commonVoiceDataset = {
-  size: 30,
+  size: 13,
   download: ['https://mozilla.org'],
 };
 
