@@ -164,15 +164,14 @@ export default class Mysql {
     const transactionQuery = `
       CREATE PROCEDURE \`${name}\`()
       BEGIN
-          DECLARE \`_rollback\` BOOL DEFAULT 0;
-          DECLARE CONTINUE HANDLER FOR SQLEXCEPTION SET \`_rollback\` = 1;
+          DECLARE CONTINUE HANDLER FOR SQLEXCEPTION
+          BEGIN
+            ROLLBACK;
+            RESIGNAL;
+          END;
           START TRANSACTION;
           ${body}
-          IF \`_rollback\` THEN
-              ROLLBACK;
-          ELSE
-              COMMIT;
-          END IF;
+          COMMIT;
       END;`;
 
     // Ensure root.
