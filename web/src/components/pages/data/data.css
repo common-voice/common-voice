@@ -62,6 +62,10 @@
     font-size: var(--small-font-size);
 }
 
+#common-voice-license a {
+  text-decoration: underline;
+}
+
 #explanatory-text {
     margin: 2rem 0;
     color: var(--grey-font-color);
