@@ -186,7 +186,7 @@ class DataPage extends React.Component<Props, State> {
 
         <a
           id="speech-blog-link"
-          href="https://mozilla.org"
+          href="https://github.com/mozilla/DeepSpeech/blob/master/README.md#common-voice-training-data"
           target="_blank"
           rel="noopener noreferrer">
           Get Started with Speech Recognition
