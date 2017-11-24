@@ -15,10 +15,18 @@ export type IndexType = {
   columns: string[];
 };
 
+export type ForeignKeyType = {
+  targetTable: string;
+  columns: {
+    [ownColumn: string]: string;
+  };
+};
+
 export type TableSchema = {
   name: string;
   columns: ColumnType;
-  indexes: IndexType[];
+  indexes?: IndexType[];
+  foreignKeys?: ForeignKeyType[];
 };
 
 export type SchemaVersions = {
@@ -92,7 +100,7 @@ export default class Table {
   /**
    * Generate our columns section for create query.
    */
-  private getColumnsSql(columns: ColumnType, alter?:boolean): string {
+  private getColumnsSql(columns: ColumnType, alter?: boolean): string {
     if (!columns) {
       return '';
     }
@@ -122,14 +130,35 @@ export default class Table {
       .join(', ');
   }
 
+  private getForeignKeySql(foreignKeys: ForeignKeyType[]): string {
+    if (!foreignKeys || foreignKeys.length < 1) {
+      return '';
+    }
+
+    return foreignKeys
+      .map(({ columns, targetTable }: ForeignKeyType) => {
+        const ownColumns = Object.keys(columns).join(', ');
+        const foreignColumns = Object.keys(columns)
+          .map(k => columns[k])
+          .join(', ');
+        return `FOREIGN KEY (${ownColumns}) REFERENCES ${targetTable}(${foreignColumns})`;
+      })
+      .join(', ');
+  }
+
   /**
    * Generate the table content (columns and indexes) part of the query.
    */
   private getContentSql(schema: TableSchema): string {
     const columns = this.getColumnsSql(schema.columns);
     const indexes = this.getIndexSql(schema.indexes);
+    const foreignKeys = this.getForeignKeySql(schema.foreignKeys);
     // Make sure we have a separator if indexes are present.
-    return columns + (indexes ? ', ' + indexes : '');
+    return (
+      columns +
+      (indexes ? ', ' + indexes : '') +
+      (foreignKeys ? ', ' + foreignKeys : '')
+    );
   }
 
   /**
@@ -170,10 +199,9 @@ export default class Table {
     const prev = this.getPreviousSchema(version);
 
     // Were there any columns added?
-    const newColumns = Object.keys(schema.columns).reduce((
-      acc: ColumnType,
-      column: string
-    ): ColumnType => {
+    const newColumns = Object.keys(
+      schema.columns
+    ).reduce((acc: ColumnType, column: string): ColumnType => {
       if (!prev.columns[column]) {
         acc[column] = schema.columns[column];
       }
