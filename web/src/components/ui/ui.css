@@ -67,7 +67,7 @@ body:not(.mobile-safari) .button.outline:hover path {
     animation: fade-in .5s;
 }
 
-body:not(.mobile-safari) .button.card-action:hover {
+body:not(.mobile-safari) .card-action:hover, body:not(.mobile-safari) .button.card-action:hover {
     background: white;
     color: black;
     margin: 1px -1px -1px 1px;
