@@ -1,6 +1,6 @@
 @import url('./project-status.css');
 
-@media (min-width: 600px) {
+@media (--desktop) {
     #home-title {
         margin-top: 3.8rem;
         width: var(--desktop-width);
@@ -16,7 +16,7 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (--mobile) {
     #home-title {
         left: 0;
         box-sizing: border-box;

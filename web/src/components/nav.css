@@ -12,7 +12,7 @@ header.active {
     background-color: var(--base-background-color);
 }
 
-@media (max-width: 600px) {
+@media (--mobile) {
     header {
         position: fixed;
         top: 0;
@@ -23,7 +23,7 @@ header.active {
     }
 }
 
-@media (min-width: 600px) {
+@media (--desktop) {
     header {
         margin: 0 auto;
         padding-top: 1.5rem;
@@ -82,7 +82,7 @@ footer a:hover, footer button:hover {
     color: white;
 }
 
-@media (min-width: 600px) {
+@media (--desktop) {
     #moz-links {
         padding: 0.4rem 0;
     }
@@ -94,7 +94,7 @@ footer a:hover, footer button:hover {
     flex-direction: column;
 }
 
-@media (min-width: 600px) {
+@media (--desktop) {
     #moz-links {
         margin: 0 auto;
         width: var(--desktop-width);
@@ -113,13 +113,13 @@ footer a:hover, footer button:hover {
     justify-content: space-between;
 }
 
-@media (max-width: 600px) {
+@media (--mobile) {
     #moz-links .content {
         padding: var(--page-margin);
     }
 }
 
-@media (min-width: 600px) {
+@media (--desktop) {
     #moz-links .content {
         padding-right: 1rem;
     }
@@ -134,7 +134,7 @@ footer a:hover, footer button:hover {
     color: var(--color-listen);
 }
 
-@media (max-width: 600px) {
+@media (--mobile) {
     #moz-links .links > p:last-child,
     #moz-links .links > :first-child a {
         display: block;
@@ -245,13 +245,13 @@ footer a:hover, footer button:hover {
     font-size: .6rem;
 }
 
-@media (max-width: 600px) {
+@media (--mobile) {
     .tallies {
         margin: 0 auto;
     }
 }
 
-@media (min-width: 600px) {
+@media (--desktop) {
     .tallies {
         margin-left: 1rem;
     }
@@ -276,7 +276,7 @@ footer a:hover, footer button:hover {
     display: none;
 }
 
-@media (min-width: 600px) {
+@media (--desktop) {
     #hamburger-menu {
         display: none;
     }

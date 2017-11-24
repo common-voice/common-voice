@@ -1,6 +1,13 @@
 @import url('vars.css');
+@import url('nav.css');
+@import url('alert/alert.css');
 @import url('contact-modal/contact-modal.css');
+@import url('listen-box/listen-box.css');
+@import url('modal/modal.css');
 @import url('pages/data/data.css');
+@import url('pages/home/home.css');
+@import url('pages/record/record.css');
+@import url('profile-form/profile-form.css');
 @import url('ui/ui.css');
 
 /* Define our icon font. */
@@ -22,7 +29,7 @@ html {
   overflow: scroll;
 }
 
-@media (max-width: 600px) {
+@media (--mobile) {
   html {
     overflow: hidden;
   }
@@ -90,9 +97,6 @@ button {
   font-weight: bold;
 }
 
-@import url('alert/alert.css');
-@import url('listen-box/listen-box.css');
-
 .progress-button {
   overflow: hidden;
 }
@@ -127,9 +131,7 @@ button {
   animation: fadein 0.5s linear;
 }
 
-@import url('nav.css');
-
-@media (max-width: 600px) {
+@media (--mobile) {
   #scroller {
     position: fixed;
     top: var(--header-height); bottom: 0;
@@ -186,7 +188,7 @@ button {
   transform: scaleY(0.4);
 }
 
-@media (max-width: 600px) {
+@media (--mobile) {
   #home-title {
     top: 3.5rem;
   }
@@ -204,7 +206,7 @@ button {
   }
 }
 
-@media (min-width: 600px) {
+@media (--desktop) {
   .home #background-container {
     transform: translateY(var(--home-background-offset));
   }
@@ -246,7 +248,7 @@ body:not(.ios) .recording #background-container {
   opacity: 1;
 }
 
-@media (max-width: 600px) {
+@media (--mobile) {
   #background-container {
     height: 12.5rem;
     background-image: var(--base-background-image-mobile);
@@ -257,7 +259,7 @@ body:not(.ios) .recording #background-container {
   }
 }
 
-@media (min-width: 600px) {
+@media (--desktop) {
   #background-container {
     height: 20rem;
     background-image: var(--base-background-image);
@@ -267,13 +269,13 @@ body:not(.ios) .recording #background-container {
   }
 }
 
-@media (min-width: 600px) {
+@media (--desktop) {
   .recording #background-container:after {
     opacity: 1;
   }
 }
 
-@media (max-width: 600px) {
+@media (--mobile) {
   .recording #background-container {
     background:none;
   }
@@ -282,13 +284,13 @@ body:not(.ios) .recording #background-container {
   }
 }
 
-@media (max-width: 600px) {
+@media (--mobile) {
   .data #background-container {
     background-image: var(--record-background-image-mobile);
   }
 }
 
-@media (min-width: 600px) {
+@media (--desktop) {
   .data #background-container{
     background-image: var(--record-background-image);
   }
@@ -345,7 +347,7 @@ body:not(.ios) .recording #background-container {
   animation: slide-fade-in .2s var(--easing);
 }
 
-@media (min-width: 600px) {
+@media (--desktop) {
   #content {
     position: unset;
     flex: 1 1 100%;
@@ -360,7 +362,7 @@ body:not(.ios) .recording #background-container {
   margin-left: auto;
 }
 
-@media (max-width: 600px) {
+@media (--mobile) {
   #content > div {
     box-sizing: border-box;
     min-height: 100%;
@@ -376,7 +378,7 @@ body:not(.ios) .recording #background-container {
   }
 }
 
-@media (min-width: 600px) {
+@media (--desktop) {
   .main-logo {
     width: 10rem;
   }
@@ -388,7 +390,7 @@ body:not(.ios) .recording #background-container {
   position: relative;
 }
 
-@media (max-width: 600px) {
+@media (--mobile) {
   .hero {
     height: var(--hero-height-mobile);
   }
@@ -398,7 +400,7 @@ body:not(.ios) .recording #background-container {
   height: 10rem;
 }
 
-@media (max-width: 600px) {
+@media (--mobile) {
   .hero-space {
     height: 3rem;
     background: none;
@@ -428,7 +430,7 @@ body:not(.ios) .recording #background-container {
   opacity: 0;
 }
 
-@media (max-width: 600px) {
+@media (--mobile) {
   .robot {
     height: var(--robot-height-mobile);
   }
@@ -438,7 +440,7 @@ body:not(.ios) .recording #background-container {
   height: 100%
 }
 
-@media (max-width: 600px) {
+@media (--mobile) {
   .robot {
     height: 12rem;
     bottom: -3.5rem;
@@ -452,7 +454,7 @@ body:not(.ios) .recording #background-container {
   transition-delay: 0s;
 }
 
-@media (max-width: 600px) {
+@media (--mobile) {
   .record .robot.thanks {
     transform: translate(9rem, 2rem) scale(1);
   }
@@ -463,7 +465,7 @@ body:not(.ios) .recording #background-container {
   transform: translate(-13rem, calc(var(--home-background-offset) + 10.5rem)) scale(1.1);
 }
 
-@media (max-width: 600px) {
+@media (--mobile) {
   .home .robot {
     transform: translate(50%, 19rem) scale(1.3);
   }
@@ -474,14 +476,11 @@ body:not(.ios) .recording #background-container {
   transform: translate(1.3rem, 5.8rem) scale(1.1);
 }
 
-@media (max-width: 600px) {
+@media (--mobile) {
   .record .robot {
     transform: translate(4.5rem,0.5rem);
   }
 }
-
-@import url('pages/home/home.css');
-@import url('pages/record/record.css');
 
 #content > #faq-container,
 #content > #terms-container,
@@ -491,8 +490,6 @@ body:not(.ios) .recording #background-container {
   padding-bottom: 2rem;
   text-align: left;
 }
-
-@import url('profile-form/profile-form.css');
 
 #debug-box {
   position: fixed;
@@ -521,15 +518,13 @@ body:not(.ios) .recording #background-container {
   100%{background-position:0% 50%}
 }
 
-@import url('modal/modal.css');
-
 .privacy-content {
   background-color: var(--base-background-color);
   max-width: var(--desktop-width);
   padding: var(--page-margin);
 }
 
-@media (min-width: 600px) {
+@media (--desktop) {
   .privacy-content {
     border-radius: 4px;
   }
@@ -560,7 +555,7 @@ body:not(.ios) .recording #background-container {
   text-align:center;
 }
 
-@media (min-width: 600px) {
+@media (--desktop) {
   .button-holder button {
     margin: 0 1rem;
   }

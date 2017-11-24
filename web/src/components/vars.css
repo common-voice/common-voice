@@ -55,7 +55,12 @@
     --top-z-index: 2;
     --middle-z-index: 1;
     --bottom-z-index: 0;
+
+    --dataset-item-margin: .7rem;
 }
+
+@custom-media --mobile (max-width: 600px);
+@custom-media --desktop (min-width: 600px);
 
 @keyframes fade-in {
     from {

@@ -47,6 +47,7 @@
     "node-random-name": "^1.0.1",
     "node-static": "^0.7.10",
     "postcss-cssnext": "^3.0.2",
+    "postcss-import": "^11.0.0",
     "postcss-loader": "^2.0.7",
     "prettier": "^1.7.0",
     "prom-client": "^10.1.1",

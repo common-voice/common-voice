@@ -5,7 +5,7 @@
     pointer-events: none;
 }
 
-@media (max-width: 600px) {
+@media (--mobile) {
     .listen-box {
         --listen-box-height: 5rem;
         flex-wrap: wrap;
@@ -82,7 +82,7 @@ body.mobile-safari .play-box:active path {
     box-shadow: var(--card-shadow);
 }
 
-@media (max-width: 600px) {
+@media (--mobile) {
     .sentence-box {
         font-size: var(--small-font-size);
         line-height: 1.2rem;
@@ -127,7 +127,7 @@ body.mobile-safari .delete-box:active path {
     margin-left: var(--standard-margin);
 }
 
-@media (max-width: 600px) {
+@media (--mobile) {
     .vote-box {
         width: 100%;
         margin-left: 0;

@@ -43,10 +43,7 @@ module.exports = {
           fallback: 'style-loader',
           use: [
             { loader: 'css-loader', options: { importLoaders: 1 } },
-            {
-              loader: 'postcss-loader',
-              options: { features: { rem: { html: false } } },
-            },
+            'postcss-loader',
           ],
         }),
       },

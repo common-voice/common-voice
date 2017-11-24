@@ -21,7 +21,7 @@
     color: black;
 }
 
-@media (max-width: 600px) {
+@media (--mobile) {
     .button {
         display: block;
         width: 100%;
@@ -79,7 +79,7 @@ body:not(.mobile-safari) .button.card-action:hover path {
     fill: black;
 }
 
-@media (max-width: 600px) {
+@media (--mobile) {
     .card-action {
         white-space: normal;
     }

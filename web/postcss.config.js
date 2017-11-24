@@ -1,13 +1,15 @@
 module.exports = {
-    plugins: {
-      'postcss-cssnext': {
-        browsers: ['last 2 versions' ],
-        features: {
-          customProperties: {
-            warnings: false
-          }
+  plugins: {
+    'postcss-import': {},
+    'postcss-cssnext': {
+      browsers: ['last 2 versions'],
+      features: {
+        customProperties: {
+          warnings: false,
         },
+        rem: { html: false },
       },
-      'cssnano': { autoprefixer: false }
-    }
+    },
+    cssnano: { autoprefixer: false },
+  },
 };

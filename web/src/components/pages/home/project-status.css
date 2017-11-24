@@ -39,7 +39,7 @@
     flex-direction: row;
 }
 
-@media (max-width: 600px) {
+@media (--mobile) {
     .project-status .title-and-action, .language-progress .numbers {
         flex-direction: column;
     }

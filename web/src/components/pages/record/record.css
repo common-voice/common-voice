@@ -133,7 +133,7 @@
     cursor: pointer;
 }
 
-@media (max-width: 600px) {
+@media (--mobile) {
     #undo-clip {
         bottom: -80%;
     }
@@ -161,13 +161,13 @@
     width: calc(100% - 1.5rem);
 }
 
-@media (min-width: 600px) {
+@media (--desktop) {
     #voice-record {
         padding: 0 0.25rem;
     }
 }
 
-@media (min-width: 600px) {
+@media (--desktop) {
     .record-actions {
         position: relative;
         width: 100%
@@ -181,7 +181,7 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (--mobile) {
     .record-actions {
         display: flex;
         flex-direction: column;

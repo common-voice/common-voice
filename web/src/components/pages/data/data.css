@@ -1,24 +1,24 @@
-@media (max-width: 600px) {
+@media (--mobile) {
     #common-voice-data {
         top: 4rem;
     }
 }
 
-@media (min-width: 600px) {
+@media (--desktop) {
     #common-voice-data {
         top: 10rem;
     }
 
     .dataset {
-        width: calc(50% - var(--item-margin));
+        width: calc(50% - var(--dataset-item-margin));
     }
 
     .dataset:nth-child(odd) {
-        margin-right: var(--item-margin);
+        margin-right: var(--dataset-item-margin);
     }
 
     .dataset:nth-child(even) {
-        margin-left: var(--item-margin);
+        margin-left: var(--dataset-item-margin);
     }
 }
 
@@ -92,11 +92,10 @@
 }
 
 .dataset {
-    --item-margin: .7rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-bottom: calc(2 * var(--item-margin));
+    margin-bottom: calc(2 * var(--dataset-item-margin));
     box-shadow: var(--card-shadow);
 }
 
