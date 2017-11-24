@@ -49,7 +49,7 @@ const datasets = [
   {
     name: 'VoxForge',
     description:
-      'VoxForge was set up to collect transcribed speech for use with Free and Open Source Speech Rcognition Engines.',
+      'VoxForge was set up to collect transcribed speech for use with Free and Open Source Speech Recognition Engines.',
     size: 52,
     url: 'http://www.repository.voxforge1.org/downloads/SpeechCorpus/Trunk/',
     download: [],
