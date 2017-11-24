@@ -17,7 +17,7 @@ const datasets = [
   {
     name: 'LibriSpeech',
     description:
-      'LibriSpeech is a corpus of approximately 1000 hours of 16Khz read English speech.',
+      'LibriSpeech is a corpus of approximately 1000 hours of 16Khz read English speech derived from read audiobooks from the LibriVox project.',
     size: 57.2,
     url: 'http://www.openslr.org/12',
     download: [
