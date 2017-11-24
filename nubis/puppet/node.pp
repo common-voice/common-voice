@@ -4,10 +4,6 @@ class { 'nodejs':
   repo_url_suffix => '6.x',
 }
 
-class { 'yarn': }
-
-Package['nodejs'] -> Package['yarn']
-
 package { 'forever':
   ensure   => '0.15.3',
   provider => 'npm',
@@ -29,6 +25,17 @@ package { 'libpq-dev':
   ensure => 'latest',
 }
 
+# Install yarn
+exec { 'install yarn':
+  command => 'npm install -g yarn',
+  logoutput => true,
+  cwd     => "/var/www/${project_name}",
+  path    => [ '/bin', '/usr/bin', '/usr/local/bin' ],
+  require => [
+    Class['Nodejs'],
+  ],
+}
+
 # Install service dependencies
 exec { 'install deps':
   command => 'yarn',
@@ -39,6 +46,7 @@ exec { 'install deps':
     Class['Nodejs'],
     Class['Yarn'],
     Package['libmysqlclient-dev'],
+    Exec['install yarn'],
   ],
 }
 
