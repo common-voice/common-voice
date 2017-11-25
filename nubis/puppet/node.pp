@@ -44,7 +44,6 @@ exec { 'install deps':
   path    => [ '/bin', '/usr/bin', '/usr/local/bin' ],
   require => [
     Class['Nodejs'],
-    Class['Yarn'],
     Package['libmysqlclient-dev'],
     Exec['install yarn'],
   ],
@@ -58,7 +57,6 @@ exec { 'build':
   path    => [ '/bin', '/usr/bin', '/usr/local/bin' ],
   require => [
     Class['Nodejs'],
-    Class['Yarn'],
     Package['libmysqlclient-dev'],
     Exec['install deps'],
   ],
