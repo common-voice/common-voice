@@ -6,9 +6,9 @@ import Table from './db/table';
 import { UpdatableUserFields, UserTable } from './db/tables/user-table';
 import UserClientTable from './db/tables/user-client-table';
 import VersionTable from './db/tables/version-table';
-import ClipTable from './db/tables/clips-table';
-import SentenceTable from './db/tables/sentences-table';
-import VoteTable from './db/tables/votes-table';
+import ClipTable from './db/tables/clip-table';
+import SentenceTable from './db/tables/sentence-table';
+import VoteTable from './db/tables/vote-table';
 
 export type Tables = Table[];
 

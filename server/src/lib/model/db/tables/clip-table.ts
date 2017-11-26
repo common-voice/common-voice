@@ -15,7 +15,7 @@ const ClipSchema: TableSchema = {
     client_id: Table.CLIENTID_TYPE,
     path: 'varchar(255) NOT NULL',
     sentence: 'varchar(255) NOT NULL',
-    original_sentence_id: 'varchar(255) NOT NULL',
+    original_sentence_id: 'bigint(255) UNSIGNED NOT NULL',
   },
 
   indexes: [
@@ -37,7 +37,7 @@ const ClipSchema: TableSchema = {
       columns: {
         client_id: 'client_id',
       },
-    }
+    },
   ],
 };
 
