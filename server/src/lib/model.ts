@@ -168,8 +168,11 @@ export default class Model {
    * Print the current count of users in db.
    */
   async printUserCount(): Promise<void> {
-    const count = await this.db.getUserCount();
-    this.print('db user count', count);
+    const [ users, clients ] = await Promise.all([
+      this.db.getUserCount(),
+      this.db.getClientCount(),
+    ]);
+    this.print('db users', users, 'db clients', clients);
   }
 
   /**
