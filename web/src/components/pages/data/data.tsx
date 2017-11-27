@@ -173,15 +173,16 @@ class DataPage extends React.Component<Props, State> {
         </div>
 
         <h2>
-          Data dissemination positioning statement, lorem ipsum dolor sit amet,
-          consectetur adipisicing elit, sed do eiusmod tempor incididunt.
+          With Common Voice, we are continually building an open and publicly
+          available collection of voices from people all over the world.
         </h2>
 
         <p id="explanatory-text">
-          If needed, explanatory copy. Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          We believe an open and particapatory dataset of voices will empower
+          more people to create usable voice technology. In addition to
+          improving the quality speech recognition software, we also hope to
+          make it more inclusive, reflecting the diversity of voices around the
+          world.
         </p>
 
         <a
