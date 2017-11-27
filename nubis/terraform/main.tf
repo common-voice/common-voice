@@ -51,6 +51,7 @@ module "database" {
   region                 = "${var.region}"
   environment            = "${var.environment}"
   account                = "${var.account}"
+  nubis_sudo_groups      = "${var.nubis_sudo_groups}"
   monitoring             = true
   service_name           = "${var.service_name}"
   client_security_groups = "${module.worker.security_group}"
