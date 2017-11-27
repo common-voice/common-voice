@@ -11,10 +11,8 @@ export async function migrateClips(
   const [[sentenceRows], [userClientRows]] = (await Promise.all([
     connection.query('SELECT id, text FROM sentences'),
     connection.query(
-      connection.format(
-        'SELECT client_id FROM user_clients WHERE client_id IN (?)',
-        [clips.map(c => c.client_id)]
-      )
+      'SELECT client_id FROM user_clients WHERE client_id IN (?)',
+      [clips.map(c => c.client_id)]
     ),
   ])) as any;
 

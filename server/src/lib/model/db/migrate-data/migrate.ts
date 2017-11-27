@@ -2,6 +2,7 @@ import { IConnection } from 'mysql2Types';
 import { fetchS3Data } from './fetch-s3-data';
 import { migrateClips } from './migrate-clips';
 import { migrateSentences } from './migrate-sentences';
+import { migrateVotes } from './migrate-votes';
 
 function print(...args: any[]) {
   args.unshift('MIGRATION --');
@@ -24,6 +25,7 @@ export async function migrate(connection: IConnection) {
     migrateSentences(connection, print),
   ]);
   await migrateClips(connection, s3Data.clips, print);
+  await migrateVotes(connection, s3Data.votes, print);
 
   await connection.commit(err => console.error(err));
 }
