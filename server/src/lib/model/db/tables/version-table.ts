@@ -22,7 +22,7 @@ const VERSIONS: SchemaVersions = {
  *   We insert a row for every version number we have
  *   upgraded to.
  */
-export default class VersionTable extends Table {
+export default class VersionTable extends Table<{}> {
   // Contains the version number stored in code config, not necessarily in db.
   codeVersion: number;
 

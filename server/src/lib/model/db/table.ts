@@ -36,12 +36,12 @@ export type SchemaVersions = {
 /**
  * Base object for dealing with data in MySQL table.
  */
-export default class Table {
+export default class Table<T> {
   static PRIMARY_KEY_TYPE = 'BIGINT UNSIGNED NOT NULL AUTO_INCREMENT primary key';
   static TIMESTAMP_TYPE = 'TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP';
   static FLAG_TYPE = 'BOOLEAN NOT NULL DEFAULT false';
   static EMAIL_TYPE = 'varchar(255)';
-  static CLIENTID_TYPE = 'char(36)';
+  static CLIENTID_TYPE = 'char(36) CHARACTER SET latin1';
 
   mysql: Mysql;
   schemaVersions: SchemaVersions;
@@ -233,5 +233,15 @@ export default class Table {
   async create(version: number): Promise<any> {
     const sql = this.getCreateSql(version);
     return this.mysql.rootQuery(sql);
+  }
+
+  async update(fields: T): Promise<void> {
+    const [columns, values] = Object.entries(fields).reduce(
+      ([columns, values], [column, value]) => [
+        columns.concat(column),
+        values.concat(typeof value == 'boolean' ? Number(value) : value),
+      ],
+      [[], []]
+    );
   }
 }

@@ -70,6 +70,7 @@
     "ts-loader": "^2.3.7",
     "typescript": "^2.5.2",
     "typescript-eslint-parser": "^8.0.0",
+    "utf8": "^2.1.2",
     "walk": "^2.3.9",
     "webpack": "^3.7.1",
     "webpack-merge": "^4.1.0"

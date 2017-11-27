@@ -11,8 +11,7 @@ const VotesSchema: TableSchema = {
   columns: {
     id: Table.PRIMARY_KEY_TYPE,
     clip_id: 'BIGINT UNSIGNED NOT NULL',
-    is_valid: 'BOOLEAN NOT NULL',
-    sentence: Table.FLAG_TYPE,
+    is_valid: Table.FLAG_TYPE,
     client_id: Table.CLIENTID_TYPE,
   },
 
@@ -25,9 +24,9 @@ const VotesSchema: TableSchema = {
   ],
   foreignKeys: [
     {
-      targetTable: 'user_clients',
+      targetTable: 'clips',
       columns: {
-        client_id: 'client_id',
+        clip_id: 'id',
       },
     },
     {
@@ -43,7 +42,7 @@ const VERSIONS: SchemaVersions = {
   6: VotesSchema,
 };
 
-export default class VotesTable extends Table {
+export default class VotesTable extends Table<{}> {
   constructor(mysql: Mysql) {
     super(mysql, VERSIONS);
   }

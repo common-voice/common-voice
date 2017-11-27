@@ -138,7 +138,7 @@ export default class Schema {
    */
   getTablesForVersion(version: number): string[] {
     return this.tables
-      .map((table: Table) => {
+      .map((table: Table<{}>) => {
         const schema = table.getSchemaForVersion(version);
         return schema ? schema.name : null;
       })

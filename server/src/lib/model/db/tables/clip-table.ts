@@ -12,10 +12,10 @@ const ClipSchema: TableSchema = {
   name: NAME,
   columns: {
     id: Table.PRIMARY_KEY_TYPE,
-    client_id: Table.CLIENTID_TYPE,
+    client_id: 'char(36) CHARACTER SET latin1 NOT NULL',
     path: 'varchar(255) NOT NULL',
-    sentence: 'varchar(255) NOT NULL',
-    original_sentence_id: 'bigint(255) UNSIGNED NOT NULL',
+    sentence: 'TEXT CHARACTER SET utf8 NOT NULL',
+    original_sentence_id: 'varchar(255) NOT NULL',
   },
 
   indexes: [
@@ -45,7 +45,7 @@ const VERSIONS: SchemaVersions = {
   5: ClipSchema,
 };
 
-export default class ClipsTable extends Table {
+export default class ClipsTable extends Table<{}> {
   constructor(mysql: Mysql) {
     super(mysql, VERSIONS);
   }

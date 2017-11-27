@@ -2,6 +2,7 @@ import { pick } from 'lodash';
 import { CommonVoiceConfig } from '../../config-helper';
 import Mysql from './db/mysql';
 import Schema from './db/schema';
+import { migrate } from './db/migrate-data/migrate';
 import Table from './db/table';
 import { UpdatableUserFields, UserTable } from './db/tables/user-table';
 import UserClientTable from './db/tables/user-client-table';
@@ -10,7 +11,7 @@ import ClipTable from './db/tables/clip-table';
 import SentenceTable from './db/tables/sentence-table';
 import VoteTable from './db/tables/vote-table';
 
-export type Tables = Table[];
+export type Tables = Table<{}>[];
 
 export default class DB {
   clip: ClipTable;
@@ -47,6 +48,10 @@ export default class DB {
     ];
 
     this.schema = new Schema(this.mysql, this.tables, this.version);
+    this.schema
+      .ensure()
+      .then(() => migrate(this.mysql.conn))
+      .catch(e => console.error(e));
   }
 
   /**
