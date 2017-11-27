@@ -1,4 +1,6 @@
 import { IConnection } from 'mysql2Types';
+import { fetchS3Data } from './fetch-s3-data';
+import { migrateClips } from './migrate-clips';
 import { migrateSentences } from './migrate-sentences';
 
 function print(...args: any[]) {
@@ -16,7 +18,12 @@ export async function migrate(connection: IConnection) {
 
   print('starting');
   await connection.beginTransaction(err => console.error(err));
-  const sentencesCount = await migrateSentences(connection);
-  print(sentencesCount, 'sentences');
+
+  const [s3Data] = await Promise.all([
+    fetchS3Data(print),
+    migrateSentences(connection, print),
+  ]);
+  await migrateClips(connection, s3Data.clips, print);
+
   await connection.commit(err => console.error(err));
 }

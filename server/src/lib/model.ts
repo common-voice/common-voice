@@ -4,11 +4,6 @@ import Users from './model/users';
 import { default as Clips, Clip } from './model/clips';
 import { CommonVoiceConfig } from '../config-helper';
 
-const MP3_EXT = '.mp3';
-const TEXT_EXT = '.txt';
-const VOTE_EXT = '.vote';
-const JSON_EXT = '.json';
-
 /**
  * The Model loads all clip and user data into memory for quick access.
  */
@@ -81,58 +76,6 @@ export default class Model {
   }
 
   /**
-   * This function extracts the metadata (userid, file type, etc)
-   * from filePath, and updates appropriate sub models.
-   */
-  processFilePath(filePath: string) {
-    const dotIndex = filePath.indexOf('.');
-
-    // Filter out any directories.
-    if (dotIndex === -1) {
-      return;
-    }
-
-    // Glob is a path in the form $userid/$sentenceid.
-    const glob = filePath.substr(0, dotIndex);
-    const ext = filePath.substr(dotIndex);
-
-    let userid, sentenceid;
-    [userid, sentenceid] = glob.split('/');
-
-    switch (ext) {
-      case TEXT_EXT:
-        this.addSentence(userid, sentenceid, filePath);
-        break;
-
-      case MP3_EXT:
-        this.addClip(userid, sentenceid, filePath);
-        break;
-
-      case VOTE_EXT:
-        let voterid;
-        [sentenceid, voterid] = sentenceid.split('-by-');
-        this.addVote(userid, sentenceid, voterid, filePath);
-        break;
-
-      case JSON_EXT:
-        if (sentenceid !== 'demographic') {
-          console.error('unknown json file found', filePath);
-          return;
-        }
-        this.addDemographics(userid, filePath);
-        break;
-
-      default:
-        console.error('unrecognized file', filePath, ext, dotIndex);
-        break;
-    }
-  }
-
-  processFilePaths(filePaths: string[]) {
-    filePaths.forEach(this.processFilePath.bind(this));
-  }
-
-  /**
    * Fetch a random clip but make sure it's not the user's.
    */
   getEllibleClip(userid: string): Clip {
@@ -147,11 +90,8 @@ export default class Model {
     this.clips.setLoaded();
 
     // Print Model status.
-    const userMetrics = this.users.getCurrentMetrics();
-    let users = userMetrics.users;
-    const clipMetrics = this.clips.getCurrentMetrics();
-    let clips = clipMetrics.clips;
-    let votes = clipMetrics.votes;
+    const { users } = this.users.getCurrentMetrics();
+    const { clips, votes } = this.clips.getCurrentMetrics();
     this.print(`${clips} clips, ${users} users, ${votes} votes`);
 
     this.loaded = true;

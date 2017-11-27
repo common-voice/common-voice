@@ -7,6 +7,7 @@ import Logger from './lib/logger';
 import { isLeaderServer, getElapsedSeconds } from './lib/utility';
 import { Server as NodeStaticServer } from 'node-static';
 import { CommonVoiceConfig, getConfig } from './config-helper';
+import { migrate } from './lib/model/db/migrate-data/migrate';
 
 const SLOW_REQUEST_LIMIT = 2000;
 const CLIENT_PATH = '../web';
@@ -160,6 +161,8 @@ export default class Server {
     } finally {
       this.print(`${getElapsedSeconds(start)}s to perform maintenance`);
     }
+
+    await migrate(this.model.db.mysql.conn);
   }
 
   /**
@@ -219,13 +222,6 @@ export default class Server {
     if (isLeader) {
       await this.performMaintenance();
     }
-  }
-
-  /**
-   * Display metrics of the current corpus.
-   */
-  async countCorpus(): Promise<void> {
-    this.api.corpus.displayMetrics();
   }
 
   /**

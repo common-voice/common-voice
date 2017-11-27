@@ -1,10 +1,10 @@
 import * as fs from 'fs';
 import * as path from 'path';
 const utf8 = require('utf8');
+import { IConnection } from 'mysql2Types';
 import promisify from '../../../../promisify';
 import { getFileExt } from '../../../utility';
 import { hash } from '../../../clip';
-import { IConnection } from 'mysql2Types';
 
 const CWD = process.cwd();
 const SENTENCE_FOLDER = path.resolve(CWD, 'server/data/');
@@ -90,27 +90,26 @@ const loadSentences = async (path: string): Promise<string[]> => {
       continue;
     }
 
-    allSentences = allSentences.concat(
-      sentences.filter((s: string) => {
-        return !!s;
-      })
-    );
+    allSentences = allSentences.concat(sentences.filter((s: string) => !!s));
   }
 
   return allSentences;
 };
 
-export async function migrateSentences(
-  connection: IConnection
-): Promise<number> {
+export async function migrateSentences(connection: IConnection, print: any) {
   const sentences = (await loadSentences(SENTENCE_FOLDER)).concat(
     await loadSentences(UNUSED_FOLDER)
   );
   const [{ affectedRows }] = await connection.execute(
     connection.format(
       'INSERT INTO sentences (id, text) VALUES ? ON DUPLICATE KEY UPDATE id = id',
-      [sentences.map(s => [hash(s), utf8.encode(s)])]
+      [
+        sentences.map(sentence => {
+          const encodedSentence = utf8.encode(sentence).trim();
+          return [hash(encodedSentence), encodedSentence];
+        }),
+      ]
     )
   );
-  return affectedRows;
+  print(affectedRows, 'sentences');
 }

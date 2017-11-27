@@ -12,7 +12,7 @@ const ClipSchema: TableSchema = {
   name: NAME,
   columns: {
     id: Table.PRIMARY_KEY_TYPE,
-    client_id: 'char(36) CHARACTER SET latin1 NOT NULL',
+    client_id: 'char(36) CHARACTER SET latin1',
     path: 'varchar(255) NOT NULL',
     sentence: 'TEXT CHARACTER SET utf8 NOT NULL',
     original_sentence_id: 'varchar(255) NOT NULL',
