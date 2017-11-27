@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
 import Modal from '../../modal/modal';
-import { CardAction, Hr } from '../../ui/ui';
+import { CardAction, Button, Hr } from '../../ui/ui';
 import { trackDataset } from '../../../services/tracker';
 import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
@@ -224,9 +224,20 @@ class DataPage extends React.Component<Props, State> {
                 </div>
 
                 <div className="action">
-                  <CardAction onClick={() => this.showModalFor(dataset)}>
-                    <DownloadIcon />Download
-                  </CardAction>
+                  {dataset.name === 'LibriSpeech' ? (
+                    <Button
+                      outline
+                      className="card-action"
+                      onClick={() => {
+                        window.open('http://www.openslr.org/12/', '_blank');
+                      }}>
+                      Go to LibriSpeech
+                    </Button>
+                  ) : (
+                    <CardAction onClick={() => this.showModalFor(dataset)}>
+                      <DownloadIcon />Download Data
+                    </CardAction>
+                  )}
                 </div>
               </div>
             </div>
