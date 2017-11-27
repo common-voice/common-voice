@@ -5,6 +5,7 @@ import { migrateClips } from './migrate-clips';
 import { migrateSentences } from './migrate-sentences';
 import { migrateVotes } from './migrate-votes';
 import { hash } from '../../../clip';
+import {migrateUserClients} from "./migrate-user-clients";
 
 function print(...args: any[]) {
   args.unshift('MIGRATION --');
@@ -39,13 +40,6 @@ async function buildSentenceMapWithDiverseIndexes(
 }
 
 export async function migrate(connection: IConnection) {
-  const [[result]] = (await connection.query(
-    'SELECT 1 FROM sentences LIMIT 1'
-  )) as any;
-  if (result) {
-    return print('skipping');
-  }
-
   print('starting');
   await connection.beginTransaction(err => console.error(err));
 
@@ -55,6 +49,7 @@ export async function migrate(connection: IConnection) {
       buildSentenceMapWithDiverseIndexes(connection)
     ),
   ]);
+  await migrateUserClients(connection, s3Data.client_ids, print);
   await migrateClips(connection, s3Data.clips, sentences, print);
   await migrateVotes(connection, s3Data.votes, sentences, print);
 

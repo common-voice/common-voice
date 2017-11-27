@@ -33,27 +33,11 @@ export async function migrateVotes(
     );
   }
 
-  const [
-    userClientRows,
-  ] = (await connection.query(
-    'SELECT client_id FROM user_clients WHERE client_id IN (?)',
-    [votes.map(v => v.voter_client_id)]
-  )) as any;
-  const userClients: { [id: string]: boolean } = {};
-  for (const row of userClientRows) {
-    userClients[row.client_id] = true;
-  }
-
   const [{ affectedRows }] = await connection.execute(
     connection.format(
-      'INSERT INTO votes (clip_id, is_valid, client_id) VALUES ?',
-      [
-        votesWithClips.map((v: any) => [
-          v.clip_id,
-          true,
-          userClients[v.voter_client_id] ? v.voter_client_id : null,
-        ]),
-      ]
+      'INSERT INTO votes (clip_id, client_id, is_valid) VALUES ? ' +
+        'ON DUPLICATE KEY UPDATE id = id',
+      [votesWithClips.map((v: any) => [v.clip_id, v.voter_client_id, true])]
     )
   );
 

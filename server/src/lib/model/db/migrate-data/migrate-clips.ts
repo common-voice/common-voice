@@ -38,7 +38,8 @@ export async function migrateClips(
 
   const [{ affectedRows }] = await connection.execute(
     connection.format(
-      'INSERT INTO clips (client_id, original_sentence_id, path, sentence) VALUES ?',
+      'INSERT INTO clips (client_id, original_sentence_id, path, sentence) VALUES ? ' +
+      'ON DUPLICATE KEY UPDATE id = id',
       [
         clipsWithSentences.map(c => {
           const sentence = sentences[c.original_sentence_id];

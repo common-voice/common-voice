@@ -6,9 +6,7 @@ const KEYS_PER_REQUEST = 1000; // Max is 1000.
 const LOAD_DELAY = 200;
 
 const MP3_EXT = '.mp3';
-const TEXT_EXT = '.txt';
 const VOTE_EXT = '.vote';
-const JSON_EXT = '.json';
 
 export interface ClipData {
   client_id: string;
@@ -23,8 +21,8 @@ export interface VoteData {
 }
 
 export interface S3Data {
+  client_ids: string[];
   clips: ClipData[];
-  sentences: string[];
   votes: VoteData[];
 }
 
@@ -36,8 +34,8 @@ interface S3Results {
 export class S3Fetcher {
   private parentPrint: any;
   private result: S3Data = {
+    client_ids: [],
     clips: [],
-    sentences: [],
     votes: [],
   };
 
@@ -60,10 +58,8 @@ export class S3Fetcher {
     let [client_id, sentence_id] = glob.split('/');
 
     switch (ext) {
-      case TEXT_EXT:
-        break;
-
       case MP3_EXT:
+        this.result.client_ids.push(client_id);
         this.result.clips.push({
           client_id,
           original_sentence_id: sentence_id,
@@ -73,24 +69,13 @@ export class S3Fetcher {
 
       case VOTE_EXT:
         let [clip_sentence_id, voter_client_id] = sentence_id.split('-by-');
+        this.result.client_ids.push(voter_client_id, client_id);
         this.result.votes.push({
           clip_sentence_id,
           clip_client_id: client_id,
           voter_client_id,
         });
         break;
-
-      // case JSON_EXT:
-      //   if (sentenceid !== 'demographic') {
-      //     console.error('unknown json file found', filePath);
-      //     return;
-      //   }
-      //   this.addDemographics(userid, filePath);
-      //   break;
-
-      // default:
-      //   console.error('unrecognized file', filePath, ext, dotIndex);
-      //   break;
     }
   }
 

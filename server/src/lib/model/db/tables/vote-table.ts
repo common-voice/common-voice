@@ -12,7 +12,7 @@ const VotesSchema: TableSchema = {
     id: Table.PRIMARY_KEY_TYPE,
     clip_id: 'BIGINT UNSIGNED NOT NULL',
     is_valid: Table.FLAG_TYPE,
-    client_id: Table.CLIENTID_TYPE,
+    client_id: Table.CLIENTID_TYPE + ' NOT NULL',
   },
 
   indexes: [
