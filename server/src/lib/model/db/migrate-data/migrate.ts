@@ -51,6 +51,7 @@ export async function migrate(connection: IConnection) {
     await migrateUserClients(connection, s3Data.client_ids, print);
     await migrateClips(connection, s3Data.clips, sentences, print);
     await migrateVotes(connection, s3Data.votes, sentences, print);
+    print('done!!!!!');
   } catch (e) {
     console.error(e);
     print('failed');

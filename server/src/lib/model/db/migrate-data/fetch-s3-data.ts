@@ -32,6 +32,7 @@ interface S3Results {
 }
 
 export class S3Fetcher {
+  private fileCount: number;
   private parentPrint: any;
   private result: S3Data = {
     client_ids: [],
@@ -40,6 +41,7 @@ export class S3Fetcher {
   };
 
   constructor(print: any) {
+    this.fileCount = 0;
     this.parentPrint = print;
   }
 
@@ -50,6 +52,8 @@ export class S3Fetcher {
     if (dotIndex === -1) {
       return;
     }
+
+    ++this.fileCount;
 
     // Glob is a path in the form $userid/$sentenceid.
     const glob = path.substr(0, dotIndex);
@@ -143,7 +147,7 @@ export class S3Fetcher {
       const secondsToLoad = ((now - startRequest) / 1000).toFixed(2);
       const timeSoFar = ((now - startLoading) / 1000).toFixed(2);
       this.print(
-        `${secondsToLoad}s to load, ${timeSoFar}s total, ${chunkCount} chunks`
+        `${secondsToLoad}s to load, ${timeSoFar}s total, ${chunkCount} chunks, ${this.fileCount} files, ${this.result.client_ids.length} clients, ${this.result.clips.length} clips, ${this.result.votes.length} votes`
       );
 
       next = results.continuationToken;

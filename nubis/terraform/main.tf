@@ -9,7 +9,7 @@ module "worker" {
   elb                       = "${module.load_balancer.name}"
   min_instances             = 3
   max_instances             = 30
-  instance_type             = "t2.small"
+  instance_type             = "t2.medium"
 
   # Wait up to 10 minutes for warming up (in seconds)
   health_check_grace_period = "600"
