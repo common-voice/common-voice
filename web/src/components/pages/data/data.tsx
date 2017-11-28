@@ -20,15 +20,7 @@ const datasets = [
       'LibriSpeech is a corpus of approximately 1000 hours of 16Khz read English speech derived from read audiobooks from the LibriVox project.',
     size: 57.2,
     url: 'http://www.openslr.org/12',
-    download: [
-      'http://www.openslr.org/resources/12/dev-clean.tar.gz',
-      'http://www.openslr.org/resources/12/dev-other.tar.gz',
-      'http://www.openslr.org/resources/12/test-clean.tar.gz',
-      'http://www.openslr.org/resources/12/test-other.tar.gz',
-      'http://www.openslr.org/resources/12/train-clean-100.tar.gz',
-      'http://www.openslr.org/resources/12/train-clean-360.tar.gz',
-      'http://www.openslr.org/resources/12/train-other-500.tar.gz',
-    ],
+    download: [],
     license: {
       name: 'CC-BY-4.0',
       url: 'https://creativecommons.org/licenses/by/4.0/',
@@ -224,12 +216,12 @@ class DataPage extends React.Component<Props, State> {
                 </div>
 
                 <div className="action">
-                  {dataset.name === 'LibriSpeech' ? (
+                  {dataset.download.length < 1 ? (
                     <Button
                       outline
                       className="card-action"
                       onClick={() => {
-                        window.open('http://www.openslr.org/12/', '_blank');
+                        window.open(dataset.url, '_blank');
                       }}>
                       Go to LibriSpeech
                     </Button>
