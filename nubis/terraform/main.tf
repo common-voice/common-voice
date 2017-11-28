@@ -17,7 +17,7 @@ module "worker" {
   # Wait 12 minutes for nodes to be avaialble (in minutes)
   wait_for_capacity_timeout = "20m"
 
-  nubis_sudo_groups         = "team_webops,nubis_global_admins,voice-dev"
+  nubis_sudo_groups         = "${var.nubis_sudo_groups}"
 
   # CPU utilisation based autoscaling (with good defaults)
   scale_load_defaults = true
