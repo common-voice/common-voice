@@ -21,6 +21,10 @@
     margin-bottom: 2rem;
 }
 
+.language-progress {
+    font-size: .9rem;
+}
+
 .progress-bar {
     margin: var(--standard-margin) 0;
     height: 2rem;
@@ -30,6 +34,13 @@
 
 .progress-bar .validated-hours {
     height: 100%;
+    box-sizing: border-box;
+    padding-right: var(--standard-margin);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    font-weight: bold;
     background: var(--color-listen);
 }
 
