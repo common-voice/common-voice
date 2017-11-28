@@ -72,6 +72,11 @@ export default class Server {
     let startTime = Date.now();
 
     if (this.api.isApiRequest(request)) {
+      if (this.isLeader && !this.hasPerformedMaintenance) {
+        response.writeHead(302, { Location: request.url });
+        response.end();
+        return;
+      }
       this.api.handleRequest(request, response);
       return;
     }
