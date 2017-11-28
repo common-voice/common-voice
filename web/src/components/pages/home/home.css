@@ -100,3 +100,9 @@
     font-style: italic;
     color: var(--grey-font-color);
 }
+
+@media (--mobile) {
+    #help-explain {
+        font-size: .9rem;
+    }
+}
