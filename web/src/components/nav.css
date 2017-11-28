@@ -128,6 +128,7 @@ footer a:hover, footer button:hover {
 #moz-links .main-logo {
     font-size: 1rem;
     padding-right: 4rem;
+    max-height: 2rem;
 }
 
 #moz-links .links a {
