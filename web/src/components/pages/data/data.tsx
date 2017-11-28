@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
 import Modal from '../../modal/modal';
-import { CardAction, Hr } from '../../ui/ui';
+import { CardAction, Button, Hr } from '../../ui/ui';
 import { trackDataset } from '../../../services/tracker';
 import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
@@ -20,15 +20,7 @@ const datasets = [
       'LibriSpeech is a corpus of approximately 1000 hours of 16Khz read English speech derived from read audiobooks from the LibriVox project.',
     size: 57.2,
     url: 'http://www.openslr.org/12',
-    download: [
-      'http://www.openslr.org/resources/12/dev-clean.tar.gz',
-      'http://www.openslr.org/resources/12/dev-other.tar.gz',
-      'http://www.openslr.org/resources/12/test-clean.tar.gz',
-      'http://www.openslr.org/resources/12/test-other.tar.gz',
-      'http://www.openslr.org/resources/12/train-clean-100.tar.gz',
-      'http://www.openslr.org/resources/12/train-clean-360.tar.gz',
-      'http://www.openslr.org/resources/12/train-other-500.tar.gz',
-    ],
+    download: [],
     license: {
       name: 'CC-BY-4.0',
       url: 'https://creativecommons.org/licenses/by/4.0/',
@@ -224,9 +216,20 @@ class DataPage extends React.Component<Props, State> {
                 </div>
 
                 <div className="action">
-                  <CardAction onClick={() => this.showModalFor(dataset)}>
-                    <DownloadIcon />Download
-                  </CardAction>
+                  {dataset.download.length < 1 ? (
+                    <Button
+                      outline
+                      className="card-action"
+                      onClick={() => {
+                        window.open(dataset.url, '_blank');
+                      }}>
+                      Go to LibriSpeech
+                    </Button>
+                  ) : (
+                    <CardAction onClick={() => this.showModalFor(dataset)}>
+                      <DownloadIcon />Download Data
+                    </CardAction>
+                  )}
                 </div>
               </div>
             </div>
