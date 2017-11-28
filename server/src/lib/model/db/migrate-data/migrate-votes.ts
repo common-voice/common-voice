@@ -28,7 +28,7 @@ export async function migrateVotes(
   if (votesWithUnknowns.length) {
     print(
       votesWithUnknowns.length,
-      'votes unknown foreign keys found. Those will NOT be migrated:',
+      'votes unknown foreign keys found. Those will NOT be migrated:'
       // JSON.stringify(votesWithUnknowns)
     );
   }
@@ -38,9 +38,9 @@ export async function migrateVotes(
       completeVotes.map((v: any) =>
         connection.execute(
           connection.format(
-            'INSERT INTO votes (clip_id, client_id, is_valid) VALUES ? ' +
+            'INSERT INTO votes (clip_id, client_id) VALUES ? ' +
               'ON DUPLICATE KEY UPDATE id = id',
-            [v.clip_id, v.voter_client_id, true]
+            [v.clip_id, v.voter_client_id]
           )
         )
       )

@@ -11,7 +11,7 @@ const VotesSchema: TableSchema = {
   columns: {
     id: Table.PRIMARY_KEY_TYPE,
     clip_id: 'BIGINT UNSIGNED NOT NULL',
-    is_valid: Table.FLAG_TYPE,
+    is_valid: 'BOOLEAN',
     client_id: Table.CLIENTID_TYPE + ' NOT NULL',
   },
 
