@@ -131,7 +131,7 @@ export default class Server {
     }
 
     try {
-      this.isLeader = await isLeaderServer(this.config.ENVIRONMENT);
+      this.isLeader = await isLeaderServer(this.config.ENVIRONMENT, this.config.VERSION);
       this.print('leader', this.isLeader);
     } catch (err) {
       console.error('error checking for leader', err.message);
