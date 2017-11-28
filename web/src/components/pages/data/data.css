@@ -1,12 +1,26 @@
 @media (--mobile) {
     #common-voice-data {
-        top: 4rem;
+        top: 5.5rem;
+        width: 100%;
+    }
+
+    #common-voice-data button {
+        display: flex;
+        justify-content: center;
+    }
+
+    #common-voice-license {
+        text-align: center;
     }
 }
 
 @media (--desktop) {
     #common-voice-data {
         top: 10rem;
+    }
+
+    #common-voice-license {
+        text-align: end;
     }
 
     .dataset {
@@ -57,7 +71,6 @@
 #common-voice-license, #common-voice-license a {
     margin-top: .5rem;
     width: 100%;
-    text-align: end;
     color: white;
     font-size: var(--small-font-size);
 }
