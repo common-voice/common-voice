@@ -9,8 +9,10 @@ import { DownloadIcon } from '../../ui/icons';
 import EmailModal from './email-modal';
 
 const commonVoiceDataset = {
-  size: 13,
-  download: ['https://mozilla.org'],
+  size: 12,
+  download: [
+    'https://common-voice-data-download.s3.amazonaws.com/cv_corpus_v1.tar.gz',
+  ],
 };
 
 const datasets = [
