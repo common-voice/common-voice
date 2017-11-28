@@ -22,6 +22,7 @@ export default class Server {
   logger: Logger;
   staticServer: any;
   isLeader: boolean;
+  hasPerformedMaintenance = false;
 
   constructor(config?: CommonVoiceConfig) {
     this.config = config ? config : getConfig();
@@ -127,15 +128,18 @@ export default class Server {
    * Load our memory cache of site data (users, clips sentences).
    */
   private async loadClipCache(): Promise<void> {
-    const start = Date.now();
-    this.print('loading clip cache');
-
     try {
       // Print user count before loading cache.
       await this.model.printUserCount();
     } catch (err) {
       // For now, we don' care about errors getting user count.
     }
+
+    // Don't load cache for leader, as we need plenty of memory for the migration
+    if (this.isLeader && !this.hasPerformedMaintenance) return;
+
+    const start = Date.now();
+    this.print('loading clip cache');
 
     try {
       await this.api.loadCache();
@@ -221,6 +225,8 @@ export default class Server {
     // Leader servers will perform database maintenance.
     if (isLeader) {
       await this.performMaintenance();
+      this.hasPerformedMaintenance = true;
+      await this.loadClipCache();
     }
   }
 
