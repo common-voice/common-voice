@@ -86,12 +86,8 @@ export default class Clips {
     this.loaded = false;
   }
 
-  private getClipId(userid: string, sentenceid: string) {
-    return `${userid}/${sentenceid}`;
-  }
-
   private getClip(userid: string, sentenceid: string): Clip {
-    const clipid = this.getClipId(userid, sentenceid);
+    const clipid = `${userid}/${sentenceid}`;
     let clip = this.allClips[clipid];
     if (!clip) {
       clip = new Clip(clipid, userid, sentenceid);
@@ -108,7 +104,7 @@ export default class Clips {
       return;
     }
 
-    const clipid = clip.clipid;
+    const { clipid } = clip;
     if (clip.isUnverified()) {
       if (this.unverifiedClips.indexOf(clipid) === -1) {
         this.unverifiedClips.push(clipid);

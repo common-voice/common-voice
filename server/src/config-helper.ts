@@ -20,7 +20,7 @@ export type CommonVoiceConfig = {
 };
 
 const DEFAULTS: CommonVoiceConfig = {
-  VERSION: 3, // Used for logging and database versioning.
+  VERSION: 6, // Used for logging and database versioning.
   PROD: false, // Set to true for staging and production.
   SERVER_PORT: 9000,
   DB_ROOT_USER: 'root', // For running schema migrations.

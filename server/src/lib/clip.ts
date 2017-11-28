@@ -21,6 +21,12 @@ const UPLOAD_PATH = path.resolve(__dirname, '../..', 'upload');
 const ACCEPTED_EXT = ['.mp3', '.ogg', '.webm', '.m4a'];
 const SALT = '8hd3e8sddFSdfj';
 
+export const hash = (str: string) =>
+  crypto
+    .createHmac('sha256', SALT)
+    .update(str)
+    .digest('hex');
+
 /**
  * Clip - Responsibly for saving and serving clips.
  */
@@ -35,20 +41,6 @@ export default class Clip {
     this.s3 = AWS.getS3();
     this.model = model;
     this.bucket = new Bucket(this.config, this.model, this.s3);
-  }
-
-  /**
-   * Returns the file path with extension stripped.
-   */
-  private getGlob(path: string): string {
-    return path.substr(0, path.indexOf('.'));
-  }
-
-  private hash(str: string): string {
-    return crypto
-      .createHmac('sha256', SALT)
-      .update(str)
-      .digest('hex');
   }
 
   /**
@@ -287,7 +279,7 @@ export default class Clip {
 
       // Where is our audio clip going to be located?
       let folder = uid + '/';
-      let filePrefix = this.hash(sentence);
+      let filePrefix = hash(sentence);
       let file = folder + filePrefix + '.mp3';
       let txtFile = folder + filePrefix + '.txt';
 

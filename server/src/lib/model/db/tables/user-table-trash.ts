@@ -29,7 +29,7 @@ const VERSIONS: SchemaVersions = {
 /**
  * Handles transactions with the user table.
  */
-export default class UserTable extends Table {
+export default class UserTable extends Table<{}> {
   constructor(mysql: Mysql) {
     super(mysql, VERSIONS);
   }

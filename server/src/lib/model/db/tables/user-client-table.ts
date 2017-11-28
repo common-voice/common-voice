@@ -37,7 +37,7 @@ const VERSIONS: SchemaVersions = {
 /**
  * Trackers email to clientid associations.
  */
-export default class UserClientTable extends Table {
+export default class UserClientTable extends Table<{}> {
   constructor(mysql: Mysql) {
     super(mysql, VERSIONS);
   }

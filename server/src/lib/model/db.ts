@@ -1,36 +1,50 @@
 import { pick } from 'lodash';
+import { CommonVoiceConfig } from '../../config-helper';
 import Mysql from './db/mysql';
 import Schema from './db/schema';
 import Table from './db/table';
 import { UpdatableUserFields, UserTable } from './db/tables/user-table';
 import UserClientTable from './db/tables/user-client-table';
 import VersionTable from './db/tables/version-table';
-import { CommonVoiceConfig } from '../../config-helper';
+import ClipTable from './db/tables/clip-table';
+import SentenceTable from './db/tables/sentence-table';
+import VoteTable from './db/tables/vote-table';
 
-export type Tables = Table[];
+export type Tables = Table<{}>[];
 
 export default class DB {
+  clip: ClipTable;
   config: CommonVoiceConfig;
   currentVersion: number;
   mysql: Mysql;
+  sentence: SentenceTable;
   schema: Schema;
   tables: Tables;
   user: UserTable;
   userClient: UserClientTable;
   version: VersionTable;
+  vote: VoteTable;
 
   constructor(config: CommonVoiceConfig) {
     this.config = config;
     this.currentVersion = config.VERSION;
     this.mysql = new Mysql(this.config);
+
+    this.clip = new ClipTable(this.mysql);
+    this.sentence = new SentenceTable(this.mysql);
     this.user = new UserTable(this.mysql);
     this.userClient = new UserClientTable(this.mysql);
     this.version = new VersionTable(this.mysql, this.currentVersion);
+    this.vote = new VoteTable(this.mysql);
 
-    this.tables = [];
-    this.tables.push(this.user as Table);
-    this.tables.push(this.userClient as Table);
-    this.tables.push(this.version as Table);
+    this.tables = [
+      this.clip,
+      this.sentence,
+      this.user,
+      this.userClient,
+      this.version,
+      this.vote,
+    ];
 
     this.schema = new Schema(this.mysql, this.tables, this.version);
   }

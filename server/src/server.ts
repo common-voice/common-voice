@@ -7,6 +7,7 @@ import Logger from './lib/logger';
 import { isLeaderServer, getElapsedSeconds } from './lib/utility';
 import { Server as NodeStaticServer } from 'node-static';
 import { CommonVoiceConfig, getConfig } from './config-helper';
+import { migrate } from './lib/model/db/migrate-data/migrate';
 
 const SLOW_REQUEST_LIMIT = 2000;
 const CLIENT_PATH = '../web';
@@ -33,6 +34,7 @@ export default class Server {
   logger: Logger;
   staticServer: any;
   isLeader: boolean;
+  hasPerformedMaintenance = false;
 
   constructor(config?: CommonVoiceConfig) {
     this.config = config ? config : getConfig();
@@ -75,13 +77,18 @@ export default class Server {
    *   Route requests to appropriate controller based on
    *   if the request deals with voice clips or web content.
    */
-  private handleRequest(
+  private async handleRequest(
     request: http.IncomingMessage,
     response: http.ServerResponse
   ) {
     let startTime = Date.now();
 
     if (this.api.isApiRequest(request)) {
+      if ((await this.checkLeader()) && !this.hasPerformedMaintenance) {
+        response.writeHead(302, { Location: request.url });
+        response.end();
+        return;
+      }
       this.api.handleRequest(request, response);
       return;
     }
@@ -138,6 +145,9 @@ export default class Server {
    * Load our memory cache of site data (users, clips sentences).
    */
   private async loadClipCache(): Promise<void> {
+    // Don't load cache for leader, as we need plenty of memory for the migration
+    if ((await this.checkLeader()) && !this.hasPerformedMaintenance) return;
+
     const start = Date.now();
     this.print('loading clip cache');
 
@@ -165,6 +175,8 @@ export default class Server {
     } finally {
       this.print(`${getElapsedSeconds(start)}s to perform maintenance`);
     }
+
+    await migrate(this.model.db.mysql.conn);
   }
 
   /**
@@ -229,16 +241,11 @@ export default class Server {
     // Leader servers will perform database maintenance.
     if (isLeader) {
       await this.performMaintenance();
+      this.hasPerformedMaintenance = true;
+      await this.loadClipCache();
     }
 
     this.startHeartbeat();
-  }
-
-  /**
-   * Display metrics of the current corpus.
-   */
-  async countCorpus(): Promise<void> {
-    this.api.corpus.displayMetrics();
   }
 
   /**
