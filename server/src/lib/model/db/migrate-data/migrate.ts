@@ -42,8 +42,6 @@ async function buildSentenceMapWithDiverseIndexes(
 export async function migrate(connection: IConnection) {
   print('starting');
   try {
-    await connection.beginTransaction(err => console.error(err));
-
     const [s3Data, sentences] = await Promise.all([
       fetchS3Data(print),
       migrateSentences(connection, print).then(() =>
@@ -53,9 +51,6 @@ export async function migrate(connection: IConnection) {
     await migrateUserClients(connection, s3Data.client_ids, print);
     await migrateClips(connection, s3Data.clips, sentences, print);
     await migrateVotes(connection, s3Data.votes, sentences, print);
-
-    await connection.commit(err => console.error(err));
-    print('done');
   } catch (e) {
     console.error(e);
     print('failed');
