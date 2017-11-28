@@ -57,6 +57,7 @@ export async function migrate(connection: IConnection) {
     await connection.commit(err => console.error(err));
     print('done');
   } catch (e) {
+    console.error(e);
     print('failed');
   }
 }

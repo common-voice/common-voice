@@ -28,8 +28,8 @@ export async function migrateVotes(
   if (votesWithUnknowns.length) {
     print(
       votesWithUnknowns.length,
-      'votes unknown foreign keys found. Those will NOT be migrated:'
-      // JSON.stringify(votesWithUnknowns)
+      'votes with unknown foreign keys found. Those will NOT be migrated:',
+      JSON.stringify(votesWithUnknowns)
     );
   }
 
@@ -37,18 +37,16 @@ export async function migrateVotes(
     await Promise.all(
       completeVotes.map((v: any) =>
         connection.execute(
-          connection.format(
-            'INSERT INTO votes (clip_id, client_id) VALUES ? ' +
-              'ON DUPLICATE KEY UPDATE id = id',
-            [v.clip_id, v.voter_client_id]
-          )
+          'INSERT INTO votes (clip_id, client_id) VALUES (?, ?) ' +
+            'ON DUPLICATE KEY UPDATE id = id',
+          [v.clip_id, v.voter_client_id]
         )
       )
     );
 
     print(completeVotes.length, 'votes');
   } catch (e) {
-    print('votes migration failed because', e);
+    print('votes failed', e);
     throw e;
   }
 }

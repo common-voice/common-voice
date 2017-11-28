@@ -19,8 +19,8 @@ export async function migrateClips(
   if (clipsWithUnknowns.length) {
     print(
       clipsWithUnknowns.length,
-      'clips with unknown foreign keys found. Those will NOT be migrated:'
-      // JSON.stringify(clipsWithUnknowns)
+      'clips with unknown foreign keys found. Those will NOT be migrated:',
+      JSON.stringify(clipsWithUnknowns)
     );
   }
 
@@ -29,18 +29,16 @@ export async function migrateClips(
       completeClips.map(c => {
         const sentence = sentences[c.original_sentence_id];
         return connection.execute(
-          connection.format(
-            'INSERT INTO clips (client_id, original_sentence_id, path, sentence) VALUES ? ' +
-              'ON DUPLICATE KEY UPDATE id = id',
-            [c.client_id, sentence.id, c.path, sentence.text]
-          )
+          'INSERT INTO clips (client_id, original_sentence_id, path, sentence) VALUES (?, ?, ?, ?) ' +
+            'ON DUPLICATE KEY UPDATE id = id',
+          [c.client_id, sentence.id, c.path, sentence.text]
         );
       })
     );
 
     print(completeClips.length, 'clips');
   } catch (e) {
-    print('clips migration failed because', e);
+    print('clips failed');
     throw e;
   }
 }
