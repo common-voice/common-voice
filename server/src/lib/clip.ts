@@ -90,6 +90,13 @@ export default class Clip {
   }
 
   /**
+   * Prepare a list of data files from our data bucket.
+   */
+  async loadCache(): Promise<void> {
+    await this.bucket.loadCache();
+  }
+
+  /**
    * Is this request directed at voice clips?
    */
   isClipRequest(request: http.IncomingMessage) {
