@@ -130,6 +130,10 @@ footer a:hover, footer button:hover {
     padding-right: 4rem;
 }
 
+#moz-links .main-logo, #moz-links .main-mozilla-logo {
+    max-height: 2rem;
+}
+
 #moz-links .links a {
     color: var(--color-listen);
 }

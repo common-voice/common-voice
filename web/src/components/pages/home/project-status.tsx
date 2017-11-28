@@ -20,8 +20,9 @@ export default () => (
         <div className="progress-bar">
           <div
             className="validated-hours"
-            style={{ width: 100 * VALIDATED_HOURS / GOAL_HOURS + '%' }}
-          />
+            style={{ width: 100 * VALIDATED_HOURS / GOAL_HOURS + '%' }}>
+            {VALIDATED_HOURS}
+          </div>
         </div>
         <div className="numbers">
           <div>{VALIDATED_HOURS} validated hours so far!</div>

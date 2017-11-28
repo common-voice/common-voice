@@ -72,12 +72,26 @@
     margin-bottom: var(--standard-margin);
 }
 
-#show-more-text {
+#show-more-button {
     font-size: var(--small-font-size);
-    font-weight: bold;
+    font-weight: 600;
     text-transform: uppercase;
     text-decoration: underline;
     cursor: pointer;
+}
+
+.more-text-desktop {
+    display: none;
+}
+
+@media (--mobile) {
+    .more-text-mobile {
+        display: none;
+    }
+}
+
+.show-more-text .more-text-mobile, .show-more-text .more-text-desktop {
+    display: block;
 }
 
 #help-explain {
@@ -85,4 +99,10 @@
     font-size: var(--small-font-size);
     font-style: italic;
     color: var(--grey-font-color);
+}
+
+@media (--mobile) {
+    #help-explain {
+        font-size: .9rem;
+    }
 }

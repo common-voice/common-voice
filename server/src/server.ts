@@ -133,13 +133,6 @@ export default class Server {
    * Load our memory cache of site data (users, clips sentences).
    */
   private async loadClipCache(): Promise<void> {
-    try {
-      // Print user count before loading cache.
-      await this.model.printUserCount();
-    } catch (err) {
-      // For now, we don' care about errors getting user count.
-    }
-
     // Don't load cache for leader, as we need plenty of memory for the migration
     if (this.isLeader && !this.hasPerformedMaintenance) return;
 
@@ -207,6 +200,12 @@ export default class Server {
     }
   }
 
+  startHeartbeat(): void {
+    setInterval(() => {
+      this.model.printUserCount();
+    }, 60000);
+  }
+
   /**
    * Start up everything.
    */
@@ -233,6 +232,8 @@ export default class Server {
       this.hasPerformedMaintenance = true;
       await this.loadClipCache();
     }
+
+    this.startHeartbeat();
   }
 
   /**

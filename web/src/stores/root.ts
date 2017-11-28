@@ -44,6 +44,8 @@ const store = createStore(
   composeEnhancers(applyMiddleware(thunk))
 );
 
+store.dispatch(User.actions.update({}));
+
 const fieldTrackers: any = {
   email: () => trackProfile('give-email'),
   username: () => trackProfile('give-username'),

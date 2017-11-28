@@ -101,6 +101,13 @@ export default class DB {
   }
 
   /**
+   * Print the current count of clients in db.
+   */
+  async getClientCount(): Promise<number> {
+    return this.userClient.getCount();
+  }
+
+  /**
    * Make sure we have a fully updated schema.
    */
   async ensureLatest(): Promise<void> {

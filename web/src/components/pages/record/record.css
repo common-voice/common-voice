@@ -56,7 +56,6 @@
     transition: transform 0.4s var(--easing);
     font-family: var(--strong-font-family);
     font-size: 1.4rem;
-    font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
