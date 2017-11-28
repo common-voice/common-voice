@@ -13,6 +13,6 @@ export default (props: RouteComponentProps<any>) => (
 
     <h1>{messages.WHY_PROFILE.TITLE}</h1>
     <br />
-    <p>{messages.WHY_PROFILE.CONTENT}</p>
+    <p style={{ marginBottom: '3rem' }}>{messages.WHY_PROFILE.CONTENT}</p>
   </div>
 );
