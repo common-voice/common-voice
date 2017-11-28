@@ -65,14 +65,14 @@ export default class Server {
    *   Route requests to appropriate controller based on
    *   if the request deals with voice clips or web content.
    */
-  private handleRequest(
+  private async handleRequest(
     request: http.IncomingMessage,
     response: http.ServerResponse
   ) {
     let startTime = Date.now();
 
     if (this.api.isApiRequest(request)) {
-      if (this.isLeader && !this.hasPerformedMaintenance) {
+      if ((await this.checkLeader()) && !this.hasPerformedMaintenance) {
         response.writeHead(302, { Location: request.url });
         response.end();
         return;
@@ -134,7 +134,7 @@ export default class Server {
    */
   private async loadClipCache(): Promise<void> {
     // Don't load cache for leader, as we need plenty of memory for the migration
-    if (this.isLeader && !this.hasPerformedMaintenance) return;
+    if ((await this.checkLeader()) && !this.hasPerformedMaintenance) return;
 
     const start = Date.now();
     this.print('loading clip cache');
