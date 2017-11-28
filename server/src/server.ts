@@ -84,8 +84,8 @@ export default class Server {
     let startTime = Date.now();
 
     if (this.api.isApiRequest(request)) {
-      if ((await this.checkLeader()) && !this.hasPerformedMaintenance) {
-        response.writeHead(302, { Location: request.url });
+      if (this.isLeader && !this.hasPerformedMaintenance) {
+        response.writeHead(307, { Location: request.url });
         response.end();
         return;
       }
@@ -146,7 +146,7 @@ export default class Server {
    */
   private async loadClipCache(): Promise<void> {
     // Don't load cache for leader, as we need plenty of memory for the migration
-    if ((await this.checkLeader()) && !this.hasPerformedMaintenance) return;
+    if (this.isLeader && !this.hasPerformedMaintenance) return;
 
     const start = Date.now();
     this.print('loading clip cache');
@@ -231,12 +231,12 @@ export default class Server {
     // Boot up our http server.
     this.listen();
 
+    // Figure out if this server is the leader.
+    const isLeader = await this.checkLeader();
+
     // Attemp to load cache (sentences and audio metadata).
     // Note: we don't wait for this to finish before continuing.
     this.loadClipCache();
-
-    // Figure out if this server is the leader.
-    const isLeader = await this.checkLeader();
 
     // Leader servers will perform database maintenance.
     if (isLeader) {
