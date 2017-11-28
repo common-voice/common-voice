@@ -8,7 +8,7 @@ export async function migrateUserClients(
   const [{ affectedRows }] = await connection.execute(
     connection.format(
       'INSERT INTO user_clients (client_id) VALUES ? ON DUPLICATE KEY UPDATE client_id = client_id',
-      [client_ids.map(id => [id])]
+      [client_ids.filter(Boolean).map(id => [id])]
     )
   );
   print(affectedRows, 'user_clients');

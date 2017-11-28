@@ -1,11 +1,11 @@
 import { IConnection } from 'mysql2Types';
 const utf8 = require('utf8');
+import { hash } from '../../../clip';
 import { fetchS3Data } from './fetch-s3-data';
 import { migrateClips } from './migrate-clips';
 import { migrateSentences } from './migrate-sentences';
 import { migrateVotes } from './migrate-votes';
-import { hash } from '../../../clip';
-import {migrateUserClients} from "./migrate-user-clients";
+import { migrateUserClients } from './migrate-user-clients';
 
 function print(...args: any[]) {
   args.unshift('MIGRATION --');
@@ -41,18 +41,22 @@ async function buildSentenceMapWithDiverseIndexes(
 
 export async function migrate(connection: IConnection) {
   print('starting');
-  await connection.beginTransaction(err => console.error(err));
+  try {
+    await connection.beginTransaction(err => console.error(err));
 
-  const [s3Data, sentences] = await Promise.all([
-    fetchS3Data(print),
-    migrateSentences(connection, print).then(() =>
-      buildSentenceMapWithDiverseIndexes(connection)
-    ),
-  ]);
-  await migrateUserClients(connection, s3Data.client_ids, print);
-  await migrateClips(connection, s3Data.clips, sentences, print);
-  await migrateVotes(connection, s3Data.votes, sentences, print);
+    const [s3Data, sentences] = await Promise.all([
+      fetchS3Data(print),
+      migrateSentences(connection, print).then(() =>
+        buildSentenceMapWithDiverseIndexes(connection)
+      ),
+    ]);
+    await migrateUserClients(connection, s3Data.client_ids, print);
+    await migrateClips(connection, s3Data.clips, sentences, print);
+    await migrateVotes(connection, s3Data.votes, sentences, print);
 
-  await connection.commit(err => console.error(err));
-  print('done');
+    await connection.commit(err => console.error(err));
+    print('done');
+  } catch (e) {
+    print('failed');
+  }
 }

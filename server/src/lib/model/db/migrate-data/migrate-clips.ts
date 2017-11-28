@@ -7,52 +7,40 @@ export async function migrateClips(
   sentences: any,
   print: any
 ) {
-  const [
-    userClientRows,
-  ] = (await connection.query(
-    'SELECT client_id FROM user_clients WHERE client_id IN (?)',
-    [clips.map(c => c.client_id)]
-  )) as any;
-
-  const userClients: { [id: string]: boolean } = {};
-  for (const row of userClientRows) {
-    userClients[row.client_id] = true;
-  }
-
-  const clipsWithSentences: any[] = [];
-  const clipsWithoutSentences: any[] = [];
+  const completeClips: any[] = [];
+  const clipsWithUnknowns: any[] = [];
   for (const clip of clips) {
-    (sentences[clip.original_sentence_id]
-      ? clipsWithSentences
-      : clipsWithoutSentences
+    (sentences[clip.original_sentence_id] && clip.client_id
+      ? completeClips
+      : clipsWithUnknowns
     ).push(clip);
   }
 
-  if (clipsWithoutSentences.length) {
+  if (clipsWithUnknowns.length) {
     print(
-      clipsWithoutSentences.length,
-      'clips without known sentences found. Those will NOT be migrated:',
-      JSON.stringify(clipsWithoutSentences)
+      clipsWithUnknowns.length,
+      'clips with unknown foreign keys found. Those will NOT be migrated:'
+      // JSON.stringify(clipsWithUnknowns)
     );
   }
 
-  const [{ affectedRows }] = await connection.execute(
-    connection.format(
-      'INSERT INTO clips (client_id, original_sentence_id, path, sentence) VALUES ? ' +
-      'ON DUPLICATE KEY UPDATE id = id',
-      [
-        clipsWithSentences.map(c => {
-          const sentence = sentences[c.original_sentence_id];
-          return [
-            userClients[c.client_id] ? c.client_id : null,
-            sentence.id,
-            c.path,
-            sentence.text,
-          ];
-        }),
-      ]
-    )
-  );
+  try {
+    await Promise.all(
+      completeClips.map(c => {
+        const sentence = sentences[c.original_sentence_id];
+        return connection.execute(
+          connection.format(
+            'INSERT INTO clips (client_id, original_sentence_id, path, sentence) VALUES ? ' +
+              'ON DUPLICATE KEY UPDATE id = id',
+            [c.client_id, sentence.id, c.path, sentence.text]
+          )
+        );
+      })
+    );
 
-  print(affectedRows, 'clips');
+    print(completeClips.length, 'clips');
+  } catch (e) {
+    print('clips migration failed because', e);
+    throw e;
+  }
 }

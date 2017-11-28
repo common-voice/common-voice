@@ -7,8 +7,8 @@ export async function migrateVotes(
   sentences: any,
   print: any
 ) {
-  const votesWithClips: any[] = [];
-  const votesWithoutClips: VoteData[] = [];
+  const completeVotes: any[] = [];
+  const votesWithUnknowns: VoteData[] = [];
   for (const vote of votes as VoteData[]) {
     const sentence = sentences[vote.clip_sentence_id];
     const [
@@ -17,29 +17,38 @@ export async function migrateVotes(
       'SELECT id FROM clips WHERE client_id = ? AND original_sentence_id = ?',
       [vote.clip_client_id, sentence ? sentence.id : vote.clip_sentence_id]
     );
-    if (row) {
+    if (row && vote.clip_client_id && vote.voter_client_id) {
       (vote as any).clip_id = row.id;
-      votesWithClips.push(vote);
+      completeVotes.push(vote);
     } else {
-      votesWithoutClips.push(vote);
+      votesWithUnknowns.push(vote);
     }
   }
 
-  if (votesWithoutClips.length) {
+  if (votesWithUnknowns.length) {
     print(
-      votesWithoutClips.length,
-      'votes without known clips found. Those will NOT be migrated:',
-      JSON.stringify(votesWithoutClips)
+      votesWithUnknowns.length,
+      'votes unknown foreign keys found. Those will NOT be migrated:',
+      // JSON.stringify(votesWithUnknowns)
     );
   }
 
-  const [{ affectedRows }] = await connection.execute(
-    connection.format(
-      'INSERT INTO votes (clip_id, client_id, is_valid) VALUES ? ' +
-        'ON DUPLICATE KEY UPDATE id = id',
-      [votesWithClips.map((v: any) => [v.clip_id, v.voter_client_id, true])]
-    )
-  );
+  try {
+    await Promise.all(
+      completeVotes.map((v: any) =>
+        connection.execute(
+          connection.format(
+            'INSERT INTO votes (clip_id, client_id, is_valid) VALUES ? ' +
+              'ON DUPLICATE KEY UPDATE id = id',
+            [v.clip_id, v.voter_client_id, true]
+          )
+        )
+      )
+    );
 
-  print(affectedRows, 'votes');
+    print(completeVotes.length, 'votes');
+  } catch (e) {
+    print('votes migration failed because', e);
+    throw e;
+  }
 }
