@@ -13,6 +13,18 @@ const CLIENT_PATH = '../web';
 
 const CSP_HEADER = `default-src 'none'; style-src 'self' 'nonce-123456789' 'nonce-987654321' https://fonts.googleapis.com; img-src 'self' www.google-analytics.com; media-src data: blob: https://*.amazonaws.com https://*.amazon.com; script-src 'self' 'sha256-WpzorOw/T4TS/msLlrO6krn6LdCwAldXSATNewBTrNE=' https://www.google-analytics.com/analytics.js; font-src 'self' https://fonts.gstatic.com; connect-src 'self'`;
 
+// TODO delete once we move to node >= 7
+if (!Object.entries) {
+  Object.entries = function entries(obj: any): any {
+    const ownProps = Object.keys(obj);
+    let i = ownProps.length;
+    let resArray = new Array<any>(i); // preallocate the Array
+    while (i--) resArray[i] = [ownProps[i], obj[ownProps[i]]];
+
+    return resArray;
+  };
+}
+
 export default class Server {
   config: CommonVoiceConfig;
   server: http.Server;
