@@ -44,9 +44,11 @@ const datasets = [
     name: 'VoxForge',
     description:
       'VoxForge was set up to collect transcribed speech for use with Free and Open Source Speech Recognition Engines.',
-    size: 52,
+    size: 10.4,
     url: 'http://www.repository.voxforge1.org/downloads/SpeechCorpus/Trunk/',
-    download: [],
+    download: [
+      'https://s3.us-east-2.amazonaws.com/common-voice-data-download/voxforge_corpus_v1.0.0.tar.gz',
+    ],
     license: {
       name: 'GNU-GPL',
       url: 'https://www.gnu.org/licenses/gpl-3.0.en.html',
