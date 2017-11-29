@@ -49,7 +49,10 @@ export function getFirstDefined(...options: any[]) {
  * Are we the chosen one?
  * Returns promise which resolves to true is we are the master deploy server.
  */
-export function isLeaderServer(environment: string, version: number): Promise<boolean> {
+export function isLeaderServer(
+  environment: string,
+  version: number
+): Promise<boolean> {
   // Local server is always the leader.
   if (!environment || environment === 'default') {
     return Promise.resolve(true);
@@ -57,7 +60,7 @@ export function isLeaderServer(environment: string, version: number): Promise<bo
 
   return new Promise((res: Function, rej: Function) => {
     exec(
-      `consul-do common-voice-${environment}-${version + 2} $(hostname)`,
+      `consul-do common-voice-${environment}-${version + 3} $(hostname)`,
       (err: any, stdout: any, stderr: any) => {
         if (err) {
           res(false);
