@@ -34,7 +34,7 @@ const showDatasetsPage = localStorage.getItem('showDatasetsPage');
 
 const shareURL = 'https://voice.mozilla.org/';
 const encodedShareText = encodeURIComponent(
-  'Help robots talk, donate your voice at ' + shareURL
+  'Help teach machines how real people speak, donate your voice at ' + shareURL
 );
 
 const URLS = {
