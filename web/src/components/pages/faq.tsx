@@ -19,13 +19,14 @@ export default () => (
       communicate. We want developers to be able to build amazing things from
       real-time translators to voice-enabled administrative assistants. But
       right now there isn't enough publicly available data to build these kinds
-      of apps. Common Voice will give developers what they need to innovate.
+      of apps. We hope that Common Voice will give developers what they need to
+      innovate.
     </p>
 
-    <h3>When will the dataset be available?</h3>
+    <h3>How can I get the Common Voice data?</h3>
     <p>
-      Mozilla started capturing voices in June and aims to release the open
-      source database later in 2017, under the{' '}
+      The dataset is available now on our{' '}
+      <a href="http://voice.mozilla.org/data">download page</a> under the{' '}
       <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC-0</a>{' '}
       license.
     </p>
@@ -53,10 +54,10 @@ export default () => (
       understand <b>everyone</b> when they speak.
     </p>
 
-    <h3>Will speech to text, via Common Voice, ever become part of Firefox?</h3>
+    <h3>Will speech-to-text, via Common Voice, ever become part of Firefox?</h3>
     <p>
-      Common Voice has unlimited potential and we would eventually integrate
-      these engines into our Mozilla products as well—that means Firefox.
+      Common Voice has unlimited potential and we are indeed exploring speech
+      interfaces in many Mozilla products, including Firefox.
     </p>
 
     <h3>
