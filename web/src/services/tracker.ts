@@ -31,12 +31,12 @@ export function trackProfile(
 }
 
 export function trackDataset(
-  action:
-    | 'open-modal'
-    | 'open-bundle-modal'
-    | 'download'
-    | 'download-bundle'
-    | 'post-download-signup'
+  action: string
+  //   | 'open-modal'
+  //   | 'open-bundle-modal'
+  //   | 'download-{datasetname}
+  //   | 'download-bundle'
+  //   | 'post-download-signup'
 ) {
   track('Data', action);
 }
