@@ -9,6 +9,7 @@ import { DownloadIcon } from '../../ui/icons';
 import EmailModal from './email-modal';
 
 const commonVoiceDataset = {
+  nick: 'commonvoice',
   size: 12,
   download: [
     'https://common-voice-data-download.s3.amazonaws.com/cv_corpus_v1.tar.gz',
@@ -18,6 +19,7 @@ const commonVoiceDataset = {
 const datasets = [
   {
     name: 'LibriSpeech',
+    nick: 'librispeech',
     description:
       'LibriSpeech is a corpus of approximately 1000 hours of 16Khz read English speech derived from read audiobooks from the LibriVox project.',
     size: 57.2,
@@ -30,6 +32,7 @@ const datasets = [
   },
   {
     name: 'TED-LIUM Corpus',
+    nick: 'ted',
     description:
       'The TED-LIUM corpus was made from audio talks and their transcriptions available on the TED website.',
     size: 19.8,
@@ -42,6 +45,7 @@ const datasets = [
   },
   {
     name: 'VoxForge',
+    nick: 'voxforge',
     description:
       'VoxForge was set up to collect transcribed speech for use with Free and Open Source Speech Recognition Engines.',
     size: 10.4,
@@ -56,6 +60,7 @@ const datasets = [
   },
   {
     name: 'Tatoeba',
+    nick: 'tatoeba',
     description:
       'Tatoeba is a large database of sentences, translations, and spoken audio for use in language learning. This download contains all of the spoken English recorded by their community.',
     size: 3.8,
@@ -69,6 +74,7 @@ const datasets = [
 ];
 
 const datasetBundle = {
+  nick: 'bundle',
   size: commonVoiceDataset.size + datasets.reduce((sum, d) => sum + d.size, 0),
   download: [
     commonVoiceDataset.download,
@@ -87,6 +93,7 @@ interface PropsFromDispatch {
 interface Props extends PropsFromState, PropsFromDispatch {}
 
 interface ModalInfo {
+  nick: string;
   size: number;
   download: string[];
 }
@@ -104,15 +111,14 @@ class DataPage extends React.Component<Props, State> {
   };
 
   startDownload = () => {
-    for (const url of (this.state.showModalFor as ModalInfo).download) {
+    const info: ModalInfo = this.state.showModalFor as ModalInfo;
+    for (const url of info.download) {
       window.open(url, '_blank');
     }
 
     const { user } = this.props;
 
-    trackDataset(
-      this.state.showModalFor === datasetBundle ? 'download-bundle' : 'download'
-    );
+    trackDataset(`download-${info.nick}`);
 
     if (user.hasDownloaded) {
       this.setState({ showModalFor: null });
