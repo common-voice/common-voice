@@ -30,8 +30,6 @@ import Privacy from './pages/privacy';
 import Terms from './pages/terms';
 import NotFound from './pages/not-found';
 
-const showDatasetsPage = localStorage.getItem('showDatasetsPage');
-
 const shareURL = 'https://voice.mozilla.org/';
 const encodedShareText = encodeURIComponent(
   'Help teach machines how real people speak, donate your voice at ' + shareURL
@@ -416,11 +414,9 @@ class Pages extends React.Component<PagesProps, PagesState> {
         <NavLink to={URLS.RECORD} exact>
           Speak
         </NavLink>
-        {showDatasetsPage && (
-          <NavLink to={URLS.DATA} exact>
-            Datasets
-          </NavLink>
-        )}
+        <NavLink to={URLS.DATA} exact>
+          Datasets
+        </NavLink>
         <NavLink to={URLS.PROFILE} exact>
           Profile
         </NavLink>
