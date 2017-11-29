@@ -7,6 +7,8 @@
     #common-voice-data button {
         display: flex;
         justify-content: center;
+        margin: 0 auto;
+        width: auto;
     }
 
     #common-voice-license {
