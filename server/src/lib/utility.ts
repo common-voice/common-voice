@@ -57,7 +57,7 @@ export function isLeaderServer(environment: string, version: number): Promise<bo
 
   return new Promise((res: Function, rej: Function) => {
     exec(
-      `consul-do common-voice-${environment}-${version + 1} $(hostname)`,
+      `consul-do common-voice-${environment}-${version + 2} $(hostname)`,
       (err: any, stdout: any, stderr: any) => {
         if (err) {
           res(false);
