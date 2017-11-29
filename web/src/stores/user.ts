@@ -125,9 +125,10 @@ export namespace User {
         type: ActionType.UPDATE,
         state,
       });
-      getState()
-        .api.syncUser()
-        .catch(error => console.log(error));
+      const { api, user } = getState();
+      if (user.email) {
+        api.syncUser().catch(error => console.log(error));
+      }
     },
 
     tallyRecording: (): TallyRecordingAction => ({

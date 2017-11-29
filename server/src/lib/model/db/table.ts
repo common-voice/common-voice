@@ -243,5 +243,6 @@ export default class Table<T> {
       ],
       [[], []]
     );
+    await this.mysql.upsert(this.getName(), columns, values);
   }
 }
