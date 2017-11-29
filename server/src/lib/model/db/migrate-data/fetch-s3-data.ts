@@ -59,6 +59,10 @@ export class S3Fetcher {
     const glob = path.substr(0, dotIndex);
     const ext = path.substr(dotIndex);
 
+    if (!glob) {
+      return;
+    }
+
     let [client_id, sentence_id] = glob.split('/');
 
     switch (ext) {
@@ -147,7 +151,9 @@ export class S3Fetcher {
       const secondsToLoad = ((now - startRequest) / 1000).toFixed(2);
       const timeSoFar = ((now - startLoading) / 1000).toFixed(2);
       this.print(
-        `${secondsToLoad}s to load, ${timeSoFar}s total, ${chunkCount} chunks, ${this.fileCount} files, ${this.result.client_ids.length} clients, ${this.result.clips.length} clips, ${this.result.votes.length} votes`
+        `${secondsToLoad}s to load, ${timeSoFar}s total, ${chunkCount} chunks, ${this
+          .fileCount} files, ${this.result.client_ids.length} clients, ${this
+          .result.clips.length} clips, ${this.result.votes.length} votes`
       );
 
       next = results.continuationToken;
