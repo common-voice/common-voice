@@ -15,14 +15,11 @@
 
 .project-status .contents {
     padding: 1.5rem 2rem;
+    font-size: .9rem;
 }
 
 .language-progress {
     margin-bottom: 2rem;
-}
-
-.language-progress {
-    font-size: .9rem;
 }
 
 .progress-bar {
