@@ -58,11 +58,9 @@ const datasets = [
     name: 'Tatoeba',
     description:
       'Tatoeba is a large database of sentences, translations, and spoken audio for use in language learning. This download contains all of the spoken English recorded by their community.',
-    size: 17,
+    size: 3.8,
     url: 'https://tatoeba.org/eng/downloads',
-    download: [
-      'http://downloads.tatoeba.org/exports/sentences_with_audio.tar.bz2',
-    ],
+    download: ['https://downloads.tatoeba.org/audio/tatoeba_audio_eng.zip'],
     license: {
       name: 'Mixed',
       url: 'https://tatoeba.org/eng/downloads',
