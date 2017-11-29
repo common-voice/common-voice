@@ -167,16 +167,16 @@ class DataPage extends React.Component<Props, State> {
         </div>
 
         <h2>
-          With Common Voice, we are continually building an open and publicly
-          available collection of voices from people all over the world.
+          We are building an open and publicly available dataset of voices that
+          everyone can use to train speech-enabled applications.
         </h2>
 
         <p id="explanatory-text">
-          We believe an open and particapatory dataset of voices will empower
-          more people to create usable voice technology. In addition to
-          improving the quality speech recognition software, we also hope to
-          make it more inclusive, reflecting the diversity of voices around the
-          world.
+          We believe that large and publicly available voice datasets foster
+          innovation and healthy commercial competition in machine-learning
+          based speech technology. This is a global effort and we invite
+          everyone to participate. Our aim is to help speech technology be more
+          inclusive, reflecting the diversity of voices from around the world.
         </p>
 
         <a
