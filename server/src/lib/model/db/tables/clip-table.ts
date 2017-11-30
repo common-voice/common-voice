@@ -46,6 +46,18 @@ const ClipSchema: TableSchema = {
   ],
 };
 
+export type DBClip = {
+  id: number;
+  client_id: string;
+  path: string;
+  sentence: string;
+  original_sentence_id: string;
+}
+
+export interface DBClipWithVoters extends DBClip {
+  voters: string[];
+}
+
 const VERSIONS: SchemaVersions = {
   5: ClipSchema,
 };
