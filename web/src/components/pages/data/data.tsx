@@ -6,7 +6,7 @@ import { trackDataset } from '../../../services/tracker';
 import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
 import { DownloadIcon } from '../../ui/icons';
-import EmailModal from './email-modal';
+import AfterDownloadModal from './after-download-modal';
 
 const commonVoiceDataset = {
   nick: 'commonvoice',
@@ -99,7 +99,7 @@ interface ModalInfo {
 }
 
 interface State {
-  showModalFor?: 'email' | ModalInfo;
+  showModalFor?: 'download-starting' | 'email' | ModalInfo;
 }
 
 class DataPage extends React.Component<Props, State> {
@@ -120,14 +120,14 @@ class DataPage extends React.Component<Props, State> {
 
     trackDataset(`download-${info.nick}`);
 
-    if (user.hasDownloaded) {
-      this.setState({ showModalFor: null });
-      return;
+    if (!user.hasDownloaded) {
+      this.props.updateUser({ hasDownloaded: true });
     }
 
-    this.props.updateUser({ hasDownloaded: true });
-
-    this.setState({ showModalFor: 'email' });
+    this.setState({
+      showModalFor:
+        user.hasDownloaded || user.sendEmails ? 'download-starting' : 'email',
+    });
   };
 
   hideModal = () => {
@@ -138,8 +138,11 @@ class DataPage extends React.Component<Props, State> {
     const { showModalFor } = this.state;
     return (
       <div id="data-container">
-        {showModalFor === 'email' ? (
-          <EmailModal onRequestClose={this.hideModal} />
+        {typeof showModalFor === 'string' ? (
+          <AfterDownloadModal
+            onRequestClose={this.hideModal}
+            titleOnly={showModalFor == 'download-starting'}
+          />
         ) : (
           showModalFor && (
             <Modal

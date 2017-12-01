@@ -186,6 +186,10 @@ body:not(.mobile-safari) .dataset .button.card-action:hover path {
     color: var(--grey-font-color);
 }
 
+.email-modal.compact {
+    padding: 0 2rem;
+}
+
 .email-modal .head {
     margin: -2rem -2rem 0;
     padding: 3rem 0;
