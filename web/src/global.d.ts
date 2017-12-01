@@ -7,6 +7,10 @@ declare global {
     webkitGetUserMedia: any;
     mozGetUserMedia: any;
   }
+
+  interface Window {
+    [key: string]: any;
+  }
 }
 
 export {};

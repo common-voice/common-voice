@@ -1,11 +1,9 @@
 dist: trusty
-sudo: required
+sudo: enabled
 language: node_js
 node_js:
   - "7"
+services:
+  - mysql
 before_install:
-  - mysql -e "SET PASSWORD FOR 'root'@'localhost' =  PASSWORD('root');"
-before_script:
-  - npm install -g gulp-cli
-script:
-  - gulp create && gulp ts
+  - mysql -e "SET PASSWORD FOR 'root'@'localhost' =  PASSWORD('');"

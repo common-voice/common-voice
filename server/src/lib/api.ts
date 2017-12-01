@@ -1,157 +1,138 @@
 import * as http from 'http';
+import * as path from 'path';
+
+import { CommonVoiceConfig } from '../config-helper';
+import Model from './model';
+import Clip from './clip';
+import Corpus from './corpus';
+import Prometheus from './prometheus';
 import WebHook from './webhook';
-
-const path = require('path');
-const fs = require('fs');
-const Promise = require('bluebird');
-const Random = require('random-js');
-
-const SENTENCE_FOLDER = '../../data/';
+import respond from './responder';
 
 export default class API {
-  sentencesCache: String[];
+  config: CommonVoiceConfig;
+  model: Model;
+  clip: Clip;
+  corpus: Corpus;
+  metrics: Prometheus;
   webhook: WebHook;
-  randomEngine: any
 
-  constructor() {
+  constructor(config: CommonVoiceConfig, model: Model) {
+    this.config = config;
+    this.model = model;
+    this.clip = new Clip(this.config, this.model);
+    this.corpus = new Corpus();
+    this.metrics = new Prometheus(this.config);
     this.webhook = new WebHook();
-    this.getSentences();
-    this.randomEngine = Random.engines.mt19937();
-    this.randomEngine.autoSeed();
   }
 
-  private getSentenceFolder() {
-    return path.join(__dirname, SENTENCE_FOLDER);
-  }
-
-  private getRandomSentences(count: number): Promise<string[]> {
-    return this.getSentences().then(sentences => {
-      let randoms = [];
-      for (var i = 0; i < count; i++) {
-        let distribution = Random.integer(0, sentences.length - 1);
-        let randomIndex = distribution(this.randomEngine);
-        randoms.push(sentences[randomIndex]);
-      }
-      return randoms;
-    });
-  }
-
-  private getFilesInFolder(folderpath) {
+  /**
+   * Get the body of the request.
+   */
+  private getRequestBody(request: http.IncomingMessage): Promise<string> {
+    request.setEncoding('utf8');
     return new Promise((res, rej) => {
-      fs.readdir(folderpath, (err, files) => {
-        if (err) {
-          rej(err);
-          return;
-        }
-
-        res(files);
+      let body = '';
+      request.on('error', rej);
+      request.on('data', (chunk: Buffer) => {
+        body += chunk.toString();
+      });
+      request.on('end', () => {
+        res(body);
       });
     });
   }
 
-  private getFileContents(filepath) {
-    return new Promise((res, rej) => {
-      fs.readFile(filepath, {
-        contents: 'utf8'
-      }, (err, data) => {
-        if (err) {
-          rej(err);
-          return;
-        }
-
-        res(data.toString());
-      });
-    });
+  /**
+   * Loads cache. API will still be responsive to requests while loading cache.
+   */
+  async loadCache(): Promise<void> {
+    await Promise.all([this.clip.loadCache(), this.corpus.loadCache()]);
+    this.model.printMetrics();
   }
+
   /**
    * Is this request directed at the api?
    */
   isApiRequest(request: http.IncomingMessage) {
-    return request.url.includes('/api/');
+    return (
+      request.url.includes('/api/') ||
+      this.clip.isClipRequest(request) ||
+      this.metrics.isPrometheusRequest(request)
+    );
+  }
+
+  async handleUserSync(
+    request: http.IncomingMessage,
+    response: http.ServerResponse
+  ) {
+    try {
+      const uid = request.headers.uid;
+      const body = await this.getRequestBody(request);
+      await this.model.syncUser(uid, JSON.parse(body));
+      respond(response, 'user synced');
+    } catch (err) {
+      console.error('could not sync user', err);
+      respond(response, 'could not sync user', 500);
+    }
   }
 
   /**
    * Give api response.
    */
-  handleRequest(request: http.IncomingMessage,
-                response: http.ServerResponse) {
+  async handleRequest(
+    request: http.IncomingMessage,
+    response: http.ServerResponse
+  ) {
+    this.metrics.countRequest(request);
 
-    // Most often this will be a sentence request.
-    if (request.url.includes('/sentence')) {
+    // Handle all clip related requests first.
+    if (this.clip.isClipRequest(request)) {
+      this.metrics.countClipRequest(request);
+      this.clip.handleRequest(request, response);
+      return;
+    }
+
+    // Check for Prometheus metrics request.
+    if (this.metrics.isPrometheusRequest(request)) {
+      this.metrics.countPrometheusRequest(request);
+      this.metrics.handleRequest(request, response);
+      return;
+    }
+
+    // If we get here, we are at an API request.
+    this.metrics.countApiRequest(request);
+
+    if (request.url.includes('/user')) {
+      this.handleUserSync(request, response);
+    } else if (request.url.includes('/sentence')) {
       let parts = request.url.split('/');
       let index = parts.indexOf('sentence');
       let count = parts[index + 1] && parseInt(parts[index + 1], 10);
       this.returnRandomSentence(response, count);
-    // Webhooks from github.
+      // Webhooks from github.
     } else if (this.webhook.isHookRequest(request)) {
       this.webhook.handleWebhookRequest(request, response);
 
-    // Unrecognized requests get here.
+      // Unrecognized requests get here.
     } else {
       console.error('unrecongized api url', request.url);
-      response.writeHead(404);
-      response.end('I\'m not sure what you want.');
+      respond(response, "I'm not sure what you want.", 404);
     }
-  }
-
-  getSentences() {
-    if (this.sentencesCache) {
-      return Promise.resolve(this.sentencesCache);
-    }
-
-    return this.getFilesInFolder(this.getSentenceFolder())
-      .then(files => {
-        return Promise.all(files.map(filename => {
-
-          // Only parse the top-level text files, not any sub folders.
-          if (filename.split('.').pop() !== 'txt') {
-            return null;
-          }
-
-          let filepath = path.join(this.getSentenceFolder(), filename);
-          return this.getFileContents(filepath);
-        }));
-      })
-
-
-      // Chop the array of content strings into an array of sentences.
-      .then((values) => {
-        let sentences = [];
-        let sentenceArrays = values.map(fileContents => {
-          if (!fileContents) {
-            return [];
-          }
-
-          // Remove any blank line sentences.
-          let fileSentences = fileContents.split('\n');
-          return fileSentences.filter(sentence => { return !!sentence; });
-        });
-
-        sentences = sentences.concat.apply(sentences, sentenceArrays);
-        console.log('sentences found', sentences.length);
-        this.sentencesCache = sentences;
-      })
-      .catch(err => {
-        console.error('could not retrieve sentences', err);
-      });
   }
 
   /**
    * Load sentence file (if necessary), pick random sentence.
    */
-  returnRandomSentence(response: http.ServerResponse, count: number) {
+  async returnRandomSentence(response: http.ServerResponse, count: number) {
     count = count || 1;
+    let randoms = this.corpus.getMultipleRandom(count);
 
-    this.getSentences().then((sentences: String[]) => {
-      return this.getRandomSentences(count);
-    }).then(randoms => {
-      response.setHeader('Content-Type', 'text/plain');
-      response.writeHead(200);
-      response.end(randoms.join('\n'));
-    }).catch((err: any) => {
-      console.error('Could not load sentences', err);
-      response.writeHead(500);
-      response.end('No sentences right now');
-    });
+    // Make sure we were able to feature the right amount of random sentences.
+    if (!randoms || randoms.length < count) {
+      respond(response, 'No sentences right now', 500);
+      return;
+    }
+    respond(response, randoms.join('\n'));
   }
 }

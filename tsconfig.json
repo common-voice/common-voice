@@ -1,0 +1,15 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "noEmitOnError": true,
+    "sourceMap": true,
+    "jsx": "react",
+    "lib": ["es2017", "dom"]
+  },
+  "include": [
+    "**/*.d.ts"
+  ]
+}

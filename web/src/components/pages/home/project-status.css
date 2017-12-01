@@ -1,0 +1,54 @@
+.project-status {
+    color: var(--grey-font-color);
+    box-shadow: var(--card-shadow);
+}
+
+.project-status .title-and-action {
+    padding: 1.5rem 2rem;
+    background: var(--color-grey-background);
+}
+
+.project-status h4 {
+    font-family: var(--base-font-family);
+    font-weight: normal;
+}
+
+.project-status .contents {
+    padding: 1.5rem 2rem;
+    font-size: .9rem;
+}
+
+.language-progress {
+    margin-bottom: 2rem;
+}
+
+.progress-bar {
+    margin: var(--standard-margin) 0;
+    height: 2rem;
+    width: 100%;
+    background: var(--color-grey-background);
+}
+
+.progress-bar .validated-hours {
+    height: 100%;
+    box-sizing: border-box;
+    padding-right: var(--standard-margin);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    background: var(--color-listen);
+}
+
+.language-progress .numbers {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+@media (--mobile) {
+    .project-status .title-and-action, .language-progress .numbers {
+        flex-direction: column;
+    }
+}

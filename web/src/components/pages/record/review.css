@@ -1,0 +1,79 @@
+@keyframes slidein {
+    from {
+        transform: translateY(50rem);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+#voice-submit {
+    transition: all 0.2s var(--easing);
+    animation: slidein 0.2s var(--easing);
+}
+
+#voice-submit-review {
+    text-align: start;
+    padding-top: 1rem;
+}
+
+#voice-submit-review p {
+    color: var(--grey-font-color);
+}
+
+#box-headers {
+    text-align: right;
+    font-size: var(--small-font-size);
+    padding: 1.5rem 0 0.3rem;
+    color: var(--grey-font-color);
+}
+
+#box-headers > span {
+    display: inline-block;
+    width: var(--listen-box-height);
+    text-align: center;
+}
+
+#box-headers > span:last-child {
+    margin-left: 0.3rem;
+}
+
+@media (--mobile) {
+    #box-headers {
+        visibility: hidden;
+    }
+}
+
+#voice-submit .actions {
+    display: flex;
+    align-items: center;
+}
+
+#voice-submit .actions a {
+    font-size: var(--small-font-size);
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media (--mobile) {
+    #voice-submit .actions {
+        flex-direction: column-reverse;
+    }
+
+    #voice-submit .actions button {
+        margin-bottom: var(--standard-margin);
+    }
+}
+
+@media (--desktop) {
+    #voice-submit .actions {
+        flex-direction: row;
+    }
+
+    #voice-submit .actions button {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

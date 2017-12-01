@@ -4,11 +4,6 @@ class { 'nodejs':
   repo_url_suffix => '6.x',
 }
 
-package { 'gulp':
-  ensure   => '3.9.1',
-  provider => 'npm',
-}
-
 package { 'forever':
   ensure   => '0.15.3',
   provider => 'npm',
@@ -30,26 +25,38 @@ package { 'libpq-dev':
   ensure => 'latest',
 }
 
-# Install service dependencies
-exec { 'install deps':
-  command => 'npm install --unsafe-perm',
+# Install yarn
+exec { 'install yarn':
+  command => 'npm install -g yarn',
+  logoutput => true,
   cwd     => "/var/www/${project_name}",
   path    => [ '/bin', '/usr/bin', '/usr/local/bin' ],
   require => [
     Class['Nodejs'],
-    Package['gulp'],
+  ],
+}
+
+# Install service dependencies
+exec { 'install deps':
+  command => 'yarn',
+  logoutput => true,
+  cwd     => "/var/www/${project_name}",
+  path    => [ '/bin', '/usr/bin', '/usr/local/bin' ],
+  require => [
+    Class['Nodejs'],
     Package['libmysqlclient-dev'],
+    Exec['install yarn'],
   ],
 }
 
 # Prepare Node for runtime, build assets and precompile
 exec { 'build':
-  command => 'gulp build',
+  command => 'yarn build',
+  logoutput => true,
   cwd     => "/var/www/${project_name}",
   path    => [ '/bin', '/usr/bin', '/usr/local/bin' ],
   require => [
     Class['Nodejs'],
-    Package['gulp'],
     Package['libmysqlclient-dev'],
     Exec['install deps'],
   ],
@@ -81,6 +88,9 @@ upstart::job { $project_name:
     . /etc/profile.d/proxy.sh
   fi
 
-  exec /usr/bin/forever --workingDir /var/www/${project_name} --minUptime 1000 --spinSleepTime 1000 /usr/bin/gulp run
+  #voice-<env>/<env>/config/Environment
+  consulate kv set \"$(nubis-metadata NUBIS_PROJECT)-$(nubis-metadata NUBIS_ENVIRONMENT)/$(nubis-metadata NUBIS_ENVIRONMENT)/config/Environment\" \"$(nubis-metadata NUBIS_ENVIRONMENT)\"
+
+  exec /usr/bin/forever --workingDir /var/www/${project_name} --minUptime 1000 --spinSleepTime 1000 -c \"/usr/bin/yarn start:prod\" /
 ",
 }

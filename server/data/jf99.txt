@@ -130,7 +130,7 @@ The chair lift took them up the mountain.
 To calibrate the motion capturing system, please do a T-pose.
 The railway station was locked up by the police.
 No-one knows what's behind this gate.
-The runway seems way to short for this type of plane.
+The runway seems way too short for this type of plane.
 When she tried to withdraw some money from her bank account, the ATM claimed her card was invalid.
 The men at the bar were obviously drunk.
 Americans love to have a barbecue.
@@ -668,7 +668,7 @@ The little girl wanted to have a balloon, but was too shy to ask.
 I didn't read what's in parentheses due to laziness.
 Yesterday he felt invincible, now he has a hangover.
 To my satisfaction, I have been mentioned in the credits for my proficiency.
-Unfortunately, nobody can warrant the sanctions that will have an effect on the community.
+Unfortunately, nobody can warrant that the sanctions will have an effect on the community.
 This sapling will once become a giant oak tree.
 Amen.
 The millennium edition of the album contains multiple remixes and the lyrics.
@@ -696,3 +696,408 @@ Sentences are built of nouns, verbs and sometimes adjectives.
 To find out the exact threshold, we need to repeat this in a reproducible manner.
 Please stop the recording by pressing the button again, when you have finished reading this sentence.
 You can verify and re-record your own recordings before submitting them.
+It takes two to tango.
+Lima is the capital of Peru.
+Oscar is dancing foxtrot together with Clara.
+In colloquial language the term Yankee is used for U.S. citizens.
+"Bravo!", Charlie applauded.
+Romeo and Juliet might be the most famous act of William Shakespeare.
+Many mountain ranges on earth are named Sierra Nevada.
+For example, Colombia, Chile, Argentina and Venezuela.
+Many languages are spoken in Tanzania, one of them is Zulu.
+By area, Quebec is the largest province of Canada.
+This swallow is twittering without internet connection and has a swarm of followers.
+If you release the clutch too quickly, the engine will stall.
+Quit whining!
+"Bacardi, rye, vodka – what do you want?", asked the barkeeper.
+Oh Lord, give me patience – immediately!
+The goalie is showing off his reflexes today.
+You ain't gonna ruin this heist!
+Dude, you've got swag!
+Two nibbles are one byte.
+Bit is the short term for binary digit.
+Jeez, you look stoned!
+Bonnie loves Clyde and vice versa.
+We strolled along the promenade and through the mall.
+The next episode is set in a Siberian crater.
+Helena tied up her spouse, for whatever reason.
+We got off with a slap on the wrist.
+The new patch is less invasive than the old one, but still causes regressions.
+How is Mozilla going to handle ambiguities like queue and cue?
+Context is needed.
+Also, will numbers be written as digits or as words?
+Shawty, you look jaw-dropping in that jersey.
+The grim reaper is waiting for you, reckless driver!
+They found all sorts of drugs at Howard's house: Cocaine, meth, heroine...
+undefined reference to 'swizzle'
+undeclared identifier 'jitter'
+The transaction is still pending.
+My roommate always causes chaos.
+ICBM is the abbreviation for intercontinental ballistic missile.
+Diana is suffering from migraine again.
+Look, fireflies!
+Mrs. Travis, when I leave my kids in kindergarten, I expect you to supervise them.
+I started with ballet when I was still in elementary school.
+The dentist was ranting about my mediocre oral hygiene.
+Oh my god, they killed Kenny!
+Facebook collects data about non-members.
+WhatsApp is a tool to isolate those who don't have it.
+In other words, it's not an open platform.
+Uranium and plutonium are radioactive.
+I love the fjords of Norway.
+One of Saturn's moons is called Helene.
+Galileo Galilei was the first man who observed the planet Neptune through his telescope.
+It's a long way to Tipperary, it's a long way to go!
+I'd love to hear readers sing this.
+I heard speech-to-text software often has problems when people are whispering.
+But what if all our readers were whispering?
+It's worthwhile to at least try to minimize the delta.
+We're not allowed to export our goods to Afghanistan, due to the embargo.
+Did you rewind the cassette?
+Most of the energy will be absorbed by kinetic friction.
+With that new haircut you look ridiculous.
+Completing objectives will unlock new skins and skills.
+Ransomware is the kind of malware that blackmails you after encrypting your files.
+It takes decades until you're qualified to join the granny gang.
+Last night my little sister crawled into my bed, after she'd had a nightmare.
+You can choose either yes or nope.
+You can reduce the quality of the anisotropic filter to gain some performance.
+A rooster will attack other cocks that enter its territory.
+"How many hens are there for one cock?", I asked the farmer.
+Look, the seam is now broken, it couldn't stand the jerk.
+Believe it or not, this peanut butter is homemade.
+The proprietary software uses multi-threading for some intermediate steps.
+Whistle-blower Edward Snowden still lives in exile in Russia.
+Do yourself a favor, learn the language and socialize.
+Transistors have replaced relays in many scopes of application since their invention.
+Let's see what I can find out about the GDP of the Federal Republic of Cameroon.
+The carpenter offered me a discount of 20 percent.
+Presumably Ryan never did any sanity checks.
+The hormone oxytocin is released when a mother breastfeeds her baby.
+Have you ever heard the national anthem of South Korea?
+If you tackled these outliers that would reduce the artifacts.
+After experiencing a mind-blowing sensual orgy, Mike was sure he had taken an overdose.
+Marek is so shortsighted, he can't identify faces from a distance of 10 meters.
+Lily is just as nearsighted as him.
+Who is the blonde girl with the red skirt?
+I think her name is Olivia.
+No, Olivia is a brunette.
+I have blisters on my hands because I was bouldering yesterday.
+We don't have the budget to produce it in studio quality.
+Do you notice the flickering of the neon lights?
+The orchestra has its debut today.
+To no surprise, the equator indeed crosses Ecuador.
+The homeless guy was searching for returnable bottles in a garbage dumpster.
+That blond guy over there is a git.
+Unbelievable how many piercings this centerfold girl has.
+"Another reason why Apple is superior to Microsoft", the troll posted and grabbed some popcorn for the subsequent flame war.
+Latvia and Estonia are both between the Baltic Sea and Russia.
+Nobody ever received the Nobel prize for the invention of chewing tobacco.
+Christy has an engaging personality.
+I always confuse estrogen with progesterone.
+Male animals secrete pheromones that attract females.
+I heard the land where the hobbits live, the Shire, has actually been filmed in New Zealand.
+Eating oat flakes for breakfast combined with hard training will hopefully give me a six-pack stomach soon enough.
+Geoffrey's parents are from the Ivory Coast.
+The organ of this cathedral is made of ebony, except the pipes of course.
+Is Lena flirting with me or just making compliments?
+Stop bashing Ivy all the time!
+Her low self-esteem is pathetic.
+Henry is sitting in the bathtub.
+Philip was standing on the levee watching the waves roll off the rocks and the splashes of spume.
+Zora, can you teach me how to yodel?
+The legend has it that two slaves were hoping for the pharaoh to grant them amnesty.
+This looks like a viable infrastructure to me.
+Samuel wrote in his testament that his grandchildren should inherit all his money.
+He's an idol, but he's not a saint.
+Hamilton quaternions can be used to replace many matrices, but not to represent view frustums.
+Toby said, he's gonna sue his ex-wife.
+The Islamic law is called shariah.
+Theodore explained to us what a convolution filter is.
+Kathleen loves to dress up like a princess.
+Kirsten shrugged her shoulders.
+You need to be an optimist to play the lottery.
+The butcher  gave me a kilo of ham for free!
+Officials of the government toasted the fiscal sovereignty last night.
+Valgrind detected multiple memory leaks.
+No category seems to fit.
+We can constrain the amplitude so that the signal gets clipped.
+There are too many obstacles for the robot to find its way.
+This coat is fur-lined.
+I recommend using a spell checker to avoid such typos henceforth.
+The scene begins with a closeup to Paula's face.
+Mr Lincoln is my mentor.
+Hooray, we're going to Alaska!
+Well, the merry-go-round wasn't exactly spectacular.
+Contrary to common belief, children won't gain computer literacy, if you just hand them tablet computers and smartphones.
+Marc, would you please give me the fly swatter?
+Strip down the rig until you know exactly where the error is located.
+I've wrenched my ankle.
+One can craft amazingly strong permanent magnets from neodymium.
+Opus is a state-of-the-art loyalty-free audio codec for both speech and music.
+Are they twins or just normal siblings?
+Paraguay shares a border with Bolivia, while Uruguay does not.
+I wrote my bachelor thesis with latex.
+The bartender went to the keypad to unlock the entrance to the cellar storeroom.
+Let's spawn next to the monument and wait for the rest of our squad.
+The lorry driver yawned and decided to head for the next motel.
+Thinking of him or his accomplice alone gives me goose bumps.
+Those guys are hard to bust since their clan supports them with excellent advocates.
+May I escort you to the garage?
+I had to teach my nephew the facts of life, because his parents are prudes.
+The apiarist told us a story about birds and bees.
+By increasing the salinity of the water, we alter its dew point.
+Ladies and gentlemen, this wagon is going to be detached.
+Natalie gave me a pleasing massage, when we were in Luxembourg last week.
+You're faltering.
+I'm feeling a little tipsy.
+Let's hope you don't have to vomit.
+Don't be a pessimist!
+My watch wouldn't work without a quartz resonator.
+Simon tried to evade, but Timmy restrained him.
+Rick was in the first aid club as a sixth-former.
+The cinnamon desktop is not as widespread as gnome.
+When you travel at warp speed, do it with caution!
+Nora finds herself ugly, because she has pimples.
+How is the climate in Jamaica?
+"That homicide case is giving me headaches", the police officer said.
+Ironically, you just gave me the perfect alibi.
+Luckily, the dagger couldn't penetrate the bullet proof vest.
+Slovakia has common borders with Ukraine, Hungary, Poland and the Czech Republic.
+The tenement agency deems me unreliable due to my debts.
+How can we obtain a priori knowledge for each individual?
+I don't have a single penny left.
+The alley was too narrow for the bulldozer.
+The recluse from Lithuania and his compatriot were making up stories about mermaids and fays.
+Let's do this in chronological order.
+I can't clone this git repository.
+The brake pedal was vibrating as the anti-skid system intervened.
+There is mildew on the facade.
+The pubic bone is part of the pelvis.
+Compare the checksum to verify its integrity.
+"Sue is short and pregnant", the father-to-be stated, thinking of a name for his future daughter.
+"Still a better love story than Twilight", he commented on the porn movie.
+Pretty please with a cherry on top!
+Why are gully covers round?
+Please make sure your recordings are not cut off.
+Thanks to the exhaust turbo charger, we could double the engine torque.
+Sally was shrieking when she heard the horn of the cement-mixer behind her.
+An excavator left the quarry with coarse gravel in its shovel.
+There are multiple subduction zones in Indonesia.
+"Prepare for detonation", he announced and started the countdown.
+Lee bought a ticket for the metro at central station.
+The one time pad is an ultimate encryption if applied correctly.
+Don't spank your kids!
+How can we reconcile this conflict?
+Let's toss a coin.
+Kelvin, Fahrenheit or Celsius – which one is the best unit of temperature?
+Do you have any remedy for louses?
+In my opinion, you went too far with your satire poem.
+That's a fair amount of loot.
+I'm sure Carley is not a coward.
+Jeffery really pulled a boner, but in the end everyone could laugh about it.
+The cannibal was looking for another victim to appease his appetite.
+The barrel is greasy from the oil.
+Emily wants to get her hair bleached.
+A thick ice crust made it impossible to pull the anchor.
+I'm not so much into anatomy, where's the bladder again?
+A ritzy limousine was driving along the fifth avenue.
+Keep in mind that the denominator is positive.
+Mario went to the CD player and pressed shuffle.
+My empire reaches from the ocean in the East to the mountain ridge in the West.
+Have you seen my USB dongle?
+I think this font fits well to the overall theme.
+Just pick up a first aid kit to restore your health.
+Is it actually unusual for a planet that its axis is tilted?
+Those people are kick-ass samba dancers!
+It's wicked how Lara neglects her pussy cat.
+Andy is down with influenza.
+I thought he's immune to the flu.
+For better physical understanding, let's first recap where the pivot point is.
+This has become a bit of a cult in Romania.
+They practiced an old Mongolian ritual to expel the demons.
+Raccoons are mammals as well.
+Is there really no sort of mandatory access control?
+The father was unable to cut the umbilical cord of his newborn baby.
+The solution is banal.
+My lawn-mower is broken.
+You two in the last row, stop giggling!
+When it comes to the crunch, our company will become insolvent.
+These machines are built for number crunching.
+The life of that bungee jumper dangles on a string, in the truest sense of the word.
+Did the dog sniff anyone out yet?
+They mocked him by imitating all of his actions.
+Wow, look how deep this canyon is!
+Can you see the beacon at the top of the wind turbine?
+Alice, who the fuck is Bob?
+Tobias tried to inject contempt into his tone.
+High latencies are annoying during video conferences.
+My alarm clock doesn't have a snooze button.
+Lisa is playing the sax.
+There's always a stiff breeze blowing at the coast.
+I can't find an airline offering flights to the Virgin Islands.
+After I had finished the first batch of papers, I was getting into the workflow.
+The girl wore glossy pantyhose.
+She didn't like the trend of nylon stockings.
+The attack on our root server overstrained our senior administrator.
+Marta curry favored with her teacher to get better grades.
+Vivian's trying to fine-tune some parameters to maximize the magnitude.
+Nina wants to fry tofu because it's vegan.
+Your rusty bicycle chain could use some lube.
+These chimes have a mellow sound.
+Clementine is longsighted.
+Let's deploy chirp modulation.
+The train conductor nabbed a woman who had dodged the fare.
+Apparently, most of the sentences have been written by nerds and scientists.
+The more you read, the better you will be understood.
+I can reassure you, that we won't retreat until the oil until the peace is secured.
+Nobody's intending to build a wall.
+The toll bridges scan all license plates.
+The C++ framework Qt is pronounced like "cute".
+Those egoistic businessmen always consider themselves important, just because they wear a cravat.
+A good thing about English is, that you don't have to memorize whether things are feminine or masculine.
+Edgar is a geek.
+The psychopath often has hallucinations.
+Policemen consider the mafia responsible for the massacre.
+I can't find the ruler in my pencil case.
+Tara tried to deescalate.
+Today the committee implicitly decided to extend the arsenal.
+Constable Beaver was leaning over the balustrade and observing the happenings around the pavilion.
+I leased ten hectares of land and it turned out that it was barren.
+We found out this switch is a dummy.
+Touchscreens do not provide haptic feedback.
+I guess, it's a never-ending story.
+I really like the instrumental part, but the vocals are rude.
+The majority always claims to be pacifist, BUT ...
+A firmware update is available.
+I think the party was an amusement for most of the guests, but Mirco felt really out of place.
+Does the new splinter cell game come with a multiplayer mode?
+He always stutters when he's nervous, that's why he delegated the speech.
+A drunk man's talk is a sober man's thought.
+What a bummer!
+Wine is not an emulator.
+They hope to get a hybrid embryo by merging the DNA of a different species.
+My name is Atlas and I'm going to guide you through Rapture.
+I was in hot pursuit of the scooter when I cycled down the boulevard.
+I don't like superstars with Botox faces.
+Zak is a wannabe skater.
+Witnesses report a Caucasian rampage murderer equipped with Molotov cocktails.
+The earl is walking on the parquet floor in his plush mansion.
+I'd propose a dictionary attack instead of brute force.
+Ignorance is bliss.
+I need a pacifier for my baby.
+Our collision detection only works for rigid bodies.
+On his visit in Iran, the diplomat criticized the strict censorship.
+No western movie without a brawl in a saloon.
+The unemployment rate is alarming.
+My foster son is a sleepwalker.
+I don't believe in voodoo.
+The audience clapped enthusiastically after an outstanding performance.
+"I still have no idea what to do next with my raspberry pi", Emmett sighed.
+When is the usual monsoon period in Bangladesh?
+Julian is presumably in favor of legalizing cannabis.
+Come on Betty, let's go for a drink and sink a few.
+Felix, please show me how to correctly throw a boomerang.
+Perpendicular recording has increased the data density of hard disks for sure.
+Please tell me the corresponding longitude and latitude!
+Nether portals are built of obsidian.
+Please put a clothes-peg on your nose before reading this.
+They use the terraforming tool to modify the terrain.
+You can say mutex instead of mutual exclusion.
+Does the sensor still have the same deficits when it comes to interoperability with other vendors?
+The allies lost another airborne division during the raid.
+Only stumps are left where hundreds of spruce firs stood yesterday.
+Dora has a trampoline in her garden.
+In the simulation game, I think I will hijack this fancy Lamborghini. 
+You should've learned that thumbnails with women wearing plunging necklines are just click bait.
+Oops, I didn't want to barge in on you!
+Due to the lack of a bug bounty program, Johanna decided to sell her exploit on the black market.
+Eve had a secret affair with Ronald.
+The time allotted for speaking doesn't leave a margin for questions.
+The Phantom of the Opera is the only musical I've ever seen.
+Sooner or later, they'll find out how to read these hieroglyphics.
+There's a podium discussion about the pros and cons of daylight saving time.
+It's raining gin!
+We chose a torus topology for our network.
+I won't give your niece a lollipop if she gets naughty again.
+Why is pinball so addictive?
+I have to use the toilet. 
+Agent Keys took out his neuralizer and flashy-thinged the coroner.
+Most people using the term "exponentially" don't know what it actually means.
+This blurry tomography doesn't help me a lot with the diagnosis.
+I met your stepdad in the liquor shop yesterday.
+Is he a drunkard or what?
+The Viking rudder was harsh on the oars.
+We should celebrate our anniversary in the new karaoke bar.
+Parents should warn their kids about possible undertow near sieves in swimming pools.
+The selfish Welsh wish to sell fish, which smells swell when getting squished.
+One picture in the gallery shows how diligent slaves erect the statue of admiral Thompson.
+Arnold presented a chart showing how many storks he had counted in the past ten years.
+Whether and how to ethically kill lobsters is disputed.
+The homemade chili dip by your stepmother is really tasty.
+This section deals with the caveats of the proposed method.
+You might as well play Russian roulette.
+All of our trainees failed the polygraph test.
+I wonder if C-sections will get more popular than natural births one day.
+The prevailing notion among midwifes is that vaginal childbirths should be preferred to cesareans.
+We had a lot of hurricanes this year.
+Ground station to flight 101, please correct your altitude, over!
+By accepting our privacy policy, you agree that we save your data for 21 days to detect frauds.
+Anna Austen asked about the acceptation of the word "alliteration."
+Mrs Brickman wants to know why her rating score is so terribly low.
+Can you sing me a lullaby?
+I only know the refrain.
+The whole region was affected by the flood calamity.
+Oh man, I think I got friend-zoned once again.
+Attacking these virtual villains will increase your notoriety online.
+Web developers shouldn't embed scripts directly from jQuery.com since it enables a third party to track all users.
+It was my moral incentive for all endeavors I've made so far.
+Mayday, we crashed into an iceberg!
+There's no point in disclaiming, we have everything on tape.
+While some admired the prophet, others accused him of blasphemy, and now he seeks sanctuary abroad.
+I'd add a separate subsection which deals with this aspect.
+You have dilated pupils.
+A bus shuttle took us from the airport to the metro.
+I have a baseball bat in my room to defend against intruders.
+It's probably a good idea to merge the two subsections in the synopsis.
+Cheryl asked me about visiting the poetry slam with her tomorrow.
+Hey, stop staring at my decollete!
+I'm just gazing at the marble of your necklace.
+It's the first time my grandpa does online banking.
+Two scorpions were menacing each other with their stings.
+Their venom is however not deadly to humans.
+An inferno destroyed half of Lisbon during the Portuguese inquisition.
+The incubation period is typically about two weeks.
+There's a group of unruly teens bumming around in your garden.
+Let's hope the state secretary can exert influence on the chancellor.
+Your so-called sedative only exacerbates the pain.
+Lawrence was baffled by the amount of things he had learned about fuzzy logic.
+When Luke had finished the hazard analysis, he frowned.
+The police was still interrogating witnesses of the rape when a mob outside began to practice lynch law.
+As a preliminary, familiarize yourself with the basic concept of nuclear fission.
+The fascinating consequence of Bayes' theorem is that we can infer against the direction of causality.
+Tabitha on the other hand, chose a more pragmatic approach.
+The chocolate bar looked so tempting that Lenna just couldn't abstain from it.
+There's a variety of possibilities, but the checkerboard pattern doesn't seem appropriate here.
+Sylvester needed to meditate to clear his mind.
+Sigmund depicted the occurrence with all its obscene details.
+To summarize, our comprehensive survey discloses the true versatility of their method.
+My daughter is happy that she found a feather on the street.
+After the prince had been rescued, he showed evidence of Stockholm syndrome.
+One can still see the scar where the acid was accidentally poured on my arm.
+I wonder if we'll ever get rid of all the nukes.
+The merit of their paper is to alleviate the extraction of isolines and isosurfaces.
+Before you get too excited, keep in mind that it only applies to low-dimensional problems.
+The Fury X is a very potent graphics card.
+Taran was so bored that he took his biro and drew some glyphs on the table.
+When Alvin was a little boy, he loved to watch Bud Spencer and Terence Hill.
+Tiffany told us, the bench is made of beech wood.
+I like the avenger of the new episode, he really is a badass.
+The epileptic seizure could have been cause by the strobe lights.
+Wow, the stroboscope effect on the ball is really astonishing!
+That's the centigrade scale.
+Sometimes Yasmin's ambitions have no limits.
+We have offices all around the globe.
+This is probably web jargon.
+Come to my ranch, and I'm gonna show you what damage the tornado has caused.
+We cannot condone how the state drifts into anarchy.

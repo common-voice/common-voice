@@ -1,4 +1,7 @@
 class { 'nubis_apache':
+  tags => [
+    'metrics',
+  ],
 }
 
 # Add modules
@@ -30,18 +33,27 @@ apache::vhost { $project_name:
     AddOutputFilterByType DEFLATE application/x-font-ttf
 
     # Deflate JavaScript
-    AddOutputFilterByType DEFLATE text/javascript
+    AddOutputFilterByType DEFLATE text/javascript application/javascript
+
+    # Deflate CSS
+    AddOutputFilterByType DEFLATE text/css
+
+    # Deflate SVG images
+    AddOutputFilterByType DEFLATE image/svg+xml
 
     # Sane expires defaults
     ExpiresActive On
     ExpiresDefault none
 
     # Assets
-    ExpiresByType image/*  'now plus 30 minutes'
-    ExpiresByType text/css 'now plus 30 minutes'
+    AddType image/ico .ico
+    ExpiresByType image/*  'access plus 60 days'
+    ExpiresByType text/javascript 'access plus 1 hour'
+    ExpiresByType application/javascript 'access plus 1 hour'
+    ExpiresByType text/css 'access plus 1 hour'
 
     # Fonts
-    ExpiresByType application/x-font-ttf 'now plus 6 hours'
+    ExpiresByType application/x-font-ttf 'access plus 60 days'
       ",
       }
     ],
@@ -76,6 +88,8 @@ apache::vhost { $project_name:
       'set X-XSS-Protection "1; mode=block"',
       'set X-Frame-Options "DENY"',
       'set Strict-Transport-Security "max-age=31536000"',
+      # media-src blob: is required for recording audio.
+      'set Content-Security-Policy "default-src \'none\'; style-src \'self\' \'unsafe-inline\' https://fonts.googleapis.com; img-src \'self\' www.google-analytics.com; media-src data: blob: https://*.amazonaws.com https://*.amazon.com; script-src \'self\' \'sha256-WpzorOw/T4TS/msLlrO6krn6LdCwAldXSATNewBTrNE=\' https://www.google-analytics.com/analytics.js; font-src \'self\' https://fonts.gstatic.com; connect-src \'self\'"'
     ],
     rewrites           => [
       {

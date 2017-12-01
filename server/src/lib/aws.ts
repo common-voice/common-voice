@@ -1,11 +1,18 @@
-var AWS = require('aws-sdk');
+import { config, S3 } from 'aws-sdk';
 
-if(process.env.HTTP_PROXY) {
-  var proxy = require('proxy-agent');
+if (process.env.HTTP_PROXY) {
+  // Currently have no TS typings for proxy-agent, so have to use plain require().
+  const proxy = require('proxy-agent');
 
-  AWS.config.update({
-    httpOptions: { agent: proxy(process.env.HTTP_PROXY) }
+  config.update({
+    httpOptions: { agent: proxy(process.env.HTTP_PROXY) },
   });
 }
 
-module.exports = AWS;
+export namespace AWS {
+  let s3 = new S3({ signatureVersion: 'v4' });
+
+  export function getS3() {
+    return s3;
+  }
+}

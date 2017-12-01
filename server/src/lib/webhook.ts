@@ -1,15 +1,17 @@
 import * as http from 'http';
+import * as path from 'path';
 
-const path = require('path');
-const SimpleGit = require('simple-git');
+import respond from './responder';
 
-const PROJECT_PATH = path.resolve(__dirname, '../../../');
+import * as simpleGit from 'simple-git/promise';
+
+const PROJECT_PATH = path.resolve(__dirname, '../../');
 
 export default class WebHook {
   git: any;
 
   constructor() {
-    this.git = new SimpleGit(PROJECT_PATH);
+    this.git = simpleGit(PROJECT_PATH);
   }
 
   private concat(request: http.IncomingMessage, callback: Function): void {
@@ -26,13 +28,13 @@ export default class WebHook {
     return request.url.includes('/webhook');
   }
 
-  handleWebhookRequest(request: http.IncomingMessage,
-    response: http.ServerResponse) {
-
+  handleWebhookRequest(
+    request: http.IncomingMessage,
+    response: http.ServerResponse
+  ) {
     // Only post requests allowed.
     if (request.method !== 'POST') {
-      response.writeHead(400);
-      response.end('BAD REQUEST');
+      respond(response, 'BAD REQUEST', 400);
       return;
     }
 
@@ -41,15 +43,13 @@ export default class WebHook {
       let info: any;
       try {
         info = JSON.parse(buffer.toString());
-      } catch(e) {
-        response.writeHead(400);
-        response.end('BAD REQUEST');
+      } catch (e) {
+        respond(response, 'BAD REQUEST', 400);
         return;
       }
 
       // Thank you github, you can go home now.
-      response.writeHead(200);
-      response.end('OK');
+      respond(response, 'OK');
 
       // Update local repository if commit was to master branch.
       if (info.ref === 'refs/heads/master') {

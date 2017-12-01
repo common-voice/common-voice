@@ -1,5 +1,5 @@
 module "worker" {
-  source                    = "github.com/nubisproject/nubis-terraform//worker?ref=v1.5.0"
+  source                    = "github.com/nubisproject/nubis-terraform//worker?ref=v2.0.1"
   region                    = "${var.region}"
   environment               = "${var.environment}"
   account                   = "${var.account}"
@@ -9,7 +9,7 @@ module "worker" {
   elb                       = "${module.load_balancer.name}"
   min_instances             = 3
   max_instances             = 30
-  instance_type             = "t2.small"
+  instance_type             = "t2.medium"
 
   # Wait up to 10 minutes for warming up (in seconds)
   health_check_grace_period = "600"
@@ -17,11 +17,14 @@ module "worker" {
   # Wait 12 minutes for nodes to be avaialble (in minutes)
   wait_for_capacity_timeout = "20m"
 
-  nubis_sudo_groups         = "team_webops,nubis_global_admins,voice-dev"
+  nubis_sudo_groups         = "${var.nubis_sudo_groups}"
+
+  # CPU utilisation based autoscaling (with good defaults)
+  scale_load_defaults = true
 }
 
 module "load_balancer" {
-  source       = "github.com/nubisproject/nubis-terraform//load_balancer?ref=v1.5.0"
+  source       = "github.com/nubisproject/nubis-terraform//load_balancer?ref=v2.0.1"
   region       = "${var.region}"
   environment  = "${var.environment}"
   account      = "${var.account}"
@@ -35,7 +38,7 @@ module "load_balancer" {
 }
 
 module "dns" {
-  source       = "github.com/nubisproject/nubis-terraform//dns?ref=v1.5.0"
+  source       = "github.com/nubisproject/nubis-terraform//dns?ref=v2.0.1"
   region       = "${var.region}"
   environment  = "${var.environment}"
   account      = "${var.account}"
@@ -44,27 +47,18 @@ module "dns" {
 }
 
 module "database" {
-  source                 = "github.com/nubisproject/nubis-terraform//database?ref=v1.5.0"
+  source                 = "github.com/nubisproject/nubis-terraform//database?ref=v2.0.1"
   region                 = "${var.region}"
   environment            = "${var.environment}"
   account                = "${var.account}"
+  nubis_sudo_groups      = "${var.nubis_sudo_groups}"
   monitoring             = true
   service_name           = "${var.service_name}"
   client_security_groups = "${module.worker.security_group}"
 }
 
-module "storage" {
-  source                 = "github.com/nubisproject/nubis-terraform//storage?ref=v1.5.0"
-  region                 = "${var.region}"
-  environment            = "${var.environment}"
-  account                = "${var.account}"
-  service_name           = "${var.service_name}"
-  storage_name           = "${var.service_name}"
-  client_security_groups = "${module.worker.security_group}"
-}
-
 module "clips" {
-  source       = "github.com/nubisproject/nubis-terraform//bucket?ref=v1.5.0"
+  source       = "github.com/nubisproject/nubis-terraform//bucket?ref=v2.0.1"
   region       = "${var.region}"
   environment  = "${var.environment}"
   account      = "${var.account}"

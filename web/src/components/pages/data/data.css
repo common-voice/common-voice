@@ -1,0 +1,251 @@
+@media (--mobile) {
+    #common-voice-data {
+        top: 5.5rem;
+        width: 100%;
+    }
+
+    #common-voice-data button {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: auto;
+    }
+
+    #common-voice-license {
+        text-align: center;
+    }
+}
+
+@media (--desktop) {
+    #common-voice-data {
+        top: 10rem;
+    }
+
+    #common-voice-license {
+        text-align: end;
+    }
+
+    .dataset {
+        width: calc(50% - var(--dataset-item-margin));
+    }
+
+    .dataset:nth-child(odd) {
+        margin-right: var(--dataset-item-margin);
+    }
+
+    .dataset:nth-child(even) {
+        margin-left: var(--dataset-item-margin);
+    }
+}
+
+#data-container .license a {
+    font-size: var(--small-font-size);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+#data-container svg {
+    margin-right: 1rem;
+    width: 22px;
+    height: 22px;
+}
+
+.ReactModal__Content .download-modal.inner {
+    padding: 3rem 2rem;
+    max-width: 50rem;
+}
+
+.download-modal p {
+    margin-bottom: 2rem;
+    color: var(--grey-font-color);
+}
+
+#common-voice-data {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+#common-voice-license, #common-voice-license a {
+    margin-top: .5rem;
+    width: 100%;
+    color: white;
+    font-size: var(--small-font-size);
+}
+
+#common-voice-license a {
+  text-decoration: underline;
+}
+
+#explanatory-text {
+    margin: 2rem 0;
+    color: var(--grey-font-color);
+}
+
+#speech-blog-link {
+    text-decoration: underline;
+    font-size: var(--small-font-size);
+    font-weight: 600;
+}
+
+#data-container hr {
+    margin: 3rem 0;
+}
+
+#others-head {
+    margin: 4rem 0 2rem;
+}
+
+#datasets {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.dataset {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: calc(2 * var(--dataset-item-margin));
+    box-shadow: var(--card-shadow);
+}
+
+.dataset .contents {
+    padding: 1.5rem;
+}
+
+.dataset h2 a {
+    font-weight: normal;
+    color: var(--color-speak);
+}
+
+.dataset p {
+    color: var(--grey-font-color);
+    margin: var(--standard-margin) 0;
+}
+
+.dataset .license {
+    color: var(--grey-font-color);
+    padding: 1rem 1.5rem;
+    font-size: var(--small-font-size);
+}
+
+.dataset .license a {
+    color: var(--grey-font-color);
+}
+
+.dataset .action {
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-grey-background);
+}
+
+.dataset button {
+    width: auto;
+    border: 1px solid black;
+    box-shadow: none;
+}
+
+body:not(.mobile-safari) .dataset .button.card-action:hover {
+    margin: 0;
+    background: black;
+    color: white;
+}
+
+body:not(.mobile-safari) .dataset .button.card-action:hover path {
+    fill: white;
+}
+
+#dataset-bundle {
+    border-top: .4rem solid var(--color-speak);
+    margin: 5rem 0;
+    padding: 1.5rem;
+    display: flex;
+    display: none; /* TODO: un-hide when we host a bundle */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-grey-background);
+}
+
+#bundle-info {
+    margin-top: 1rem;
+    color: var(--grey-font-color);
+    font-size: var(--small-font-size);
+    font-style: italic;
+}
+
+.ReactModal__Content .inner.email-modal {
+    max-width: 45rem;
+    color: var(--grey-font-color);
+}
+
+.email-modal.compact {
+    padding: 0 2rem;
+}
+
+.email-modal .head {
+    margin: -2rem -2rem 0;
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-grey-background);
+}
+
+.email-modal .head img {
+    margin-right: 1rem;
+}
+
+.email-modal form {
+    max-width: 25rem;
+    margin: 0 auto 1rem;
+    text-align: start;
+}
+
+.email-modal p:first-child {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.email-modal label {
+    margin-bottom: .5rem;
+}
+
+.email-modal input:disabled {
+    margin: 1rem 0;
+    color: black;
+    text-align: center;
+    font-family: var(--strong-font-family);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.email-modal button {
+    width: 100%;
+}
+
+.email-modal a {
+    text-decoration: underline;
+}
+
+.email-modal .cancel {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    font-size: var(--small-font-size);
+    font-weight: 600;
+}
+
+.email-modal .fine-print {
+    font-size: var(--small-font-size);
+}

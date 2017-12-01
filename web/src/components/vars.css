@@ -1,0 +1,74 @@
+:root {
+    --base-font-family: 'Open Sans',sans-serif;
+    --strong-font-family: ZillaSlab,Georgia,Utopia,Charter,serif;
+    --base-font-size: 16px;
+    --small-font-size: .8rem;
+    --header-height: 4rem;
+    --input-height: 2.5rem;
+    --debug-box-height: 4rem;
+    --listen-box-height: 6rem;
+    --base-background-image: url("/img/wave-blue-large.png");
+    --base-background-image-mobile: url("/img/wave-blue-mobile.png");
+    --record-background-image: url("/img/wave-red-large.png");
+    --record-background-image-mobile: url("/img/wave-red-mobile.png");
+    --page-margin: 1rem;
+    --standard-margin: 0.3rem;
+    --hamburger: calc(var(--header-height) * 0.7);
+    --transition-default: 0.3s;
+    --desktop-width: 52rem;
+    --hero-height: 15.3rem;
+    --hero-height-mobile: 12.5rem;
+    --robot-height: 22rem;
+    --robot-height-mobile: 16rem;
+    --spinner-height: 10rem;
+    --home-background-offset: 12.5rem;
+    --easing: cubic-bezier(0.4, 0.0, 0.2, 1);
+    --shadow-overhang: 0 1px 0 rgba(12,13,14,0.1),
+    0 1px 3px rgba(12,13,14,0.1),
+    0 4px 20px rgba(12,13,14,0.035),
+    0 1px 1px rgba(12,13,14,0.025);
+    --card-shadow: rgba(0, 0, 0, 0.09) 0px 1px 6px, rgba(0, 0, 0, 0.09) 0px 1px 4px;
+
+    --base-background-color: white;
+    --base-font-color: black;
+    --grey-font-color: #4A4A4A;
+    --color-speak-dark: #E45D68;
+    --color-speak: #FF4F5E;
+    --color-speak-light: #FDC6C8;
+    --color-listen: #B7D43F;
+    --color-secondary: #E7E5E2;
+    --color-about: #f8b83e;
+    --color-profile: #9D9D9C;
+    --color-help: #3DFEFD;
+    --color-text-help: rgba(255, 255, 255, 0.4);
+    --color-record-hr: #E6E5E3;
+    --color-grey-background: #F9F9F9;
+    --color-input-background: #F3F2F0;
+
+    --highlight-shadow-listen:
+            1px 1px 6px var(--color-listen),
+            2px 2px 6px var(--color-listen),
+            3px 3px 3px var(--color-listen),
+            4px 4px 2px var(--color-listen);
+
+    /* Z-indexing */
+    --top-z-index: 2;
+    --middle-z-index: 1;
+    --bottom-z-index: 0;
+
+    --dataset-item-margin: .7rem;
+}
+
+@custom-media --mobile (max-width: 600px);
+@custom-media --desktop (min-width: 600px);
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        pointer-events: none;
+    }
+    to {
+        opacity: 1;
+        pointer-events: all;
+    }
+}

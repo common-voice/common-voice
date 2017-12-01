@@ -8,7 +8,8 @@ fluentd::source { 'node-output':
 
   tag         => 'forward.voice.node.stdout',
   config      => {
-    'path'     => "/var/log/upstart/${project_name}.log",
-    'pos_file' => "/var/log/upstart/${project_name}.pos",
+    'read_from_head' => true,
+    'path'           => "/var/log/upstart/${project_name}.log",
+    'pos_file'       => "/var/log/upstart/${project_name}.pos",
   },
 }

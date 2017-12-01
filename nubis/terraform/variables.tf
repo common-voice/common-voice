@@ -14,4 +14,8 @@ variable "service_name" {
   default = "voice"
 }
 
+variable "nubis_sudo_groups" {
+  default = "nubis_global_admins,voice-dev"
+}
+
 variable "ami" {}
