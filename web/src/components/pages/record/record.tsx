@@ -186,7 +186,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
     });
   };
 
-  onRecordClick = async (evt?: any) => {
+  private onRecordClick = async (evt?: any) => {
     evt.preventDefault();
     if (evt.stopImmediatePropagation) {
       evt.stopImmediatePropagation();
@@ -209,7 +209,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
     }
   };
 
-  startRecording() {
+  private startRecording() {
     this.audio.start();
     this.maxVolume = 0;
     this.setState({
@@ -222,17 +222,14 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
     this.props.onRecord && this.props.onRecord();
   }
 
-  stopRecording = () => {
+  private stopRecording = () => {
     this.audio.stop().then(this.processRecording);
     this.setState({
       recordingStopTime: Date.now(),
     });
   };
 
-  /**
-   * Stop the current recording and throw out the audio.
-   */
-  stopRecordingHard = () => {
+  private stopRecordingHard = () => {
     this.audio.stop();
     this.props.onRecordStop && this.props.onRecordStop();
   };
@@ -249,6 +246,11 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
 
   private clearRecordingError = () => {
     this.setState({ recordingError: null });
+  };
+
+  private cancelReRecord = () => {
+    this.stopRecordingHard();
+    this.props.setReRecordSentence(null);
   };
 
   render() {
@@ -336,9 +338,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
                       <RecordIcon />
                     </button>
                     {reRecordSentence && (
-                      <a
-                        className="rerecord"
-                        onClick={() => this.props.setReRecordSentence(null)}>
+                      <a className="rerecord" onClick={this.cancelReRecord}>
                         Cancel Re-recording
                       </a>
                     )}
