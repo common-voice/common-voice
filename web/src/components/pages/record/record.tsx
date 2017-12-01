@@ -268,7 +268,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
     if (!reRecordSentence && isSetFull) {
       return (
         <div id="record-container">
-          <Review match={null} location={null} history={null} />
+          <Review />
         </div>
       );
     }

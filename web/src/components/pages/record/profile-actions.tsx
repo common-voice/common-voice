@@ -2,6 +2,7 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import ProfileForm from '../../profile-form/profile-form';
+import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
 import messages from '../../../messages';
 import Alert from '../../alert/alert';
@@ -99,6 +100,6 @@ class ProfileActions extends React.Component<PropsFromState, State> {
   }
 }
 
-export default connect<PropsFromState>(({ user }) => ({
+export default connect<PropsFromState>(({ user }: StateTree) => ({
   hasEnteredInfo: User.selectors.hasEnteredInfo(user),
 }))(ProfileActions);

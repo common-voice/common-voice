@@ -39,8 +39,8 @@ export default class App extends React.Component<{}, State> {
   /**
    * App will handle routing to page controllers.
    */
-  constructor() {
-    super();
+  constructor(props: any, context: any) {
+    super(props, context);
 
     if (isNativeIOS()) {
       this.bootstrapIOS();
@@ -109,7 +109,7 @@ export default class App extends React.Component<{}, State> {
     return this.state.loaded ? (
       <Router>
         <Provider store={store}>
-          <Pages match={null} location={null} history={null} />
+          <Pages />
         </Provider>
       </Router>
     ) : (
