@@ -3,6 +3,7 @@ import { UpdatableUserFields } from './model/db/tables/user-table';
 import Users from './model/users';
 import { default as Clips, Clip } from './model/clips';
 import { CommonVoiceConfig } from '../config-helper';
+import { DBClipWithVoters } from './model/db/tables/clip-table';
 
 const MP3_EXT = '.mp3';
 const TEXT_EXT = '.txt';
@@ -23,8 +24,12 @@ export default class Model {
     this.config = config;
     this.db = new DB(this.config);
     this.users = new Users();
-    this.clips = new Clips();
+    this.clips = new Clips(this.db);
     this.loaded = false;
+  }
+
+  set isMigrated(val: boolean) {
+    this.clips.isMigrated = val;
   }
 
   private addClip(userid: string, sentenceid: string, path: string) {
@@ -135,8 +140,8 @@ export default class Model {
   /**
    * Fetch a random clip but make sure it's not the user's.
    */
-  getEllibleClip(userid: string): Clip {
-    return this.clips.getEllibleClip(userid);
+  getEllibleClip(client_id: string): Promise<DBClipWithVoters | Clip> {
+    return this.clips.getEllibleClip(client_id);
   }
 
   /**
@@ -168,7 +173,7 @@ export default class Model {
    * Print the current count of users in db.
    */
   async printUserCount(): Promise<void> {
-    const [ users, clients ] = await Promise.all([
+    const [users, clients] = await Promise.all([
       this.db.getUserCount(),
       this.db.getClientCount(),
     ]);

@@ -179,7 +179,10 @@ export default class Server {
       this.print(`${getElapsedSeconds(start)}s to perform maintenance`);
     }
 
-    // await migrate(this.model.db.mysql.conn);
+    if (this.config.ENABLE_MIGRATIONS) {
+      await migrate(this.model.db.mysql.conn);
+      this.model.isMigrated = true;
+    }
   }
 
   /**

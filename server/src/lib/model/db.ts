@@ -6,7 +6,7 @@ import Table from './db/table';
 import { UpdatableUserFields, UserTable } from './db/tables/user-table';
 import UserClientTable from './db/tables/user-client-table';
 import VersionTable from './db/tables/version-table';
-import ClipTable from './db/tables/clip-table';
+import ClipTable, { DBClipWithVoters } from './db/tables/clip-table';
 import SentenceTable from './db/tables/sentence-table';
 import VoteTable from './db/tables/vote-table';
 
@@ -129,5 +129,23 @@ export default class DB {
    */
   endConnection(): void {
     this.mysql.endConnection();
+  }
+
+  async findClipsWithFewVotes(limit: number): Promise<DBClipWithVoters[]> {
+    const [clips] = await this.mysql.exec(
+      `
+      SELECT clips.*, group_concat(votes.client_id) AS voters
+      FROM clips
+        LEFT JOIN votes ON clips.id = votes.clip_id
+      GROUP BY clips.id
+      ORDER BY COUNT(votes.id)
+      LIMIT ?
+    `,
+      [limit]
+    );
+    for (const clip of clips) {
+      clip.voters = clip.voters ? clip.voters.split(',') : [];
+    }
+    return clips as DBClipWithVoters[];
   }
 }
