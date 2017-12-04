@@ -100,16 +100,14 @@ export async function migrateSentences(connection: IConnection, print: any) {
   const sentences = (await loadSentences(SENTENCE_FOLDER)).concat(
     await loadSentences(UNUSED_FOLDER)
   );
-  const [{ affectedRows }] = await connection.execute(
-    connection.format(
-      'INSERT INTO sentences (id, text) VALUES ? ON DUPLICATE KEY UPDATE id = id',
-      [
-        sentences.map(sentence => {
-          const encodedSentence = utf8.encode(sentence).trim();
-          return [hash(encodedSentence), encodedSentence];
-        }),
-      ]
-    )
+  await Promise.all(
+    sentences.map(sentence => {
+      const encodedSentence = utf8.encode(sentence).trim();
+      return connection.execute(
+        'INSERT INTO sentences (id, text) VALUES (?, ?) ON DUPLICATE KEY UPDATE id = id',
+        [hash(encodedSentence), encodedSentence]
+      );
+    })
   );
-  print(affectedRows, 'sentences');
+  print(sentences.length, 'sentences');
 }
