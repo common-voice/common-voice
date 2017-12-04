@@ -20,9 +20,12 @@ All of our current issues can be found here on GitHub. Anything with a [help wan
 - [ffmpeg](https://www.ffmpeg.org/download.html)
 
 #### Local Development
+
+First fork and then clone the repository into your computer.
+
 If you haven't already, install the latest version of [NodeJS and npm](https://nodejs.org/en/download) and [yarn](https://yarnpkg.com)
 
-Then enter the following commands:
+In the project directory, enter the following commands:
 ```
 yarn
 yarn start
