@@ -36,7 +36,11 @@ export async function migrateClips(
       })
     );
 
-    print(completeClips.length, 'clips');
+    const [[{ count }]] = (await connection.query(
+      'SELECT COUNT(*) AS count FROM clips'
+    )) as any;
+
+    print(count, 'clips');
   } catch (e) {
     print('clips failed');
     throw e;

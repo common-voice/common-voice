@@ -109,5 +109,10 @@ export async function migrateSentences(connection: IConnection, print: any) {
       );
     })
   );
-  print(sentences.length, 'sentences');
+
+  const [[{ count }]] = (await connection.query(
+    'SELECT COUNT(*) AS count FROM sentences'
+  )) as any;
+
+  print(count, 'sentences');
 }
