@@ -2,7 +2,7 @@ import * as Random from 'random-js';
 import DB from './db';
 import { DBClipWithVoters } from './db/tables/clip-table';
 
-const CLIP_CACHE_SIZE = 100;
+const CLIP_CACHE_SIZE = 1000;
 
 export class Clip {
   clipid: string;
@@ -81,7 +81,7 @@ export default class Clips {
   metrics: ClipMetrics;
   loaded: boolean;
   randomEngine: Random.MT19937;
-  isMigrated = false;
+  isMigrated: boolean;
 
   constructor(db: DB) {
     this.allClips = {};
@@ -91,6 +91,7 @@ export default class Clips {
     this.randomEngine = Random.engines.mt19937();
     this.randomEngine.autoSeed();
     this.loaded = false;
+    this.isMigrated = false;
   }
 
   private getClip(userid: string, sentenceid: string): Clip {
@@ -171,7 +172,8 @@ export default class Clips {
    */
   async getEllibleClip(client_id: string): Promise<DBClipWithVoters | Clip> {
     if (this.isMigrated) {
-      if (!this.clipsWithFewVotes.length) await this.refillClipsWithFewVotes();
+      if (this.clipsWithFewVotes.length == 0)
+        await this.refillClipsWithFewVotes();
 
       const i = this.clipsWithFewVotes.findIndex(
         clip => clip.client_id !== client_id && !clip.voters.includes(client_id)
