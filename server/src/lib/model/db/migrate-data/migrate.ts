@@ -27,7 +27,11 @@ async function buildSentenceMapWithDiverseIndexes(
   for (const row of sentenceRows) {
     sentences[row.id] = row;
     sentences[hash(row.text.trim())] = row;
-    sentences[hash(utf8.decode(row.text))] = row;
+    try {
+      sentences[hash(utf8.decode(row.text))] = row;
+    } catch (e) {
+      console.error("couldn't decode sentence", `"${row.text}"`);
+    }
     sentences[
       hash(
         row.text.replace(/([?;,/:@&=+$])/g, (s: string) =>
