@@ -21,11 +21,11 @@ All of our current issues can be found here on GitHub. Anything with a [help wan
 
 #### Local Development
 
-First fork and then clone the repository into your computer.
-
 If you haven't already, install the latest version of [NodeJS and npm](https://nodejs.org/en/download) and [yarn](https://yarnpkg.com)
 
-In the project directory, enter the following commands:
+Then, [fork](https://help.github.com/articles/fork-a-repo/) and [clone](https://help.github.com/articles/cloning-a-repository/) the repository onto your computer.
+
+Then `cd` into the project directory and enter the following commands:
 ```
 yarn
 yarn start
