@@ -318,6 +318,6 @@ footer a:hover, footer button:hover {
 }
 
 #navigation-modal a {
-    padding-top: 2.5rem;
+    line-height: 3.2;
     font-size: 1.3rem;
 }
