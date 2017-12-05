@@ -199,7 +199,7 @@ export default class API {
   }
 
   async syncUser(): Promise<any> {
-    const { userId, email, hasDownloaded, sendEmails } = this.user;
+    const { age, accent, email, gender, hasDownloaded, sendEmails, userId } = this.user;
 
     return this.createPostRequest(
       API.USER_URL,
@@ -209,7 +209,10 @@ export default class API {
       req => {
         req.send(
           JSON.stringify({
+            age,
+            accent,
             email,
+            gender,
             has_downloaded: hasDownloaded,
             send_emails: sendEmails,
           })
