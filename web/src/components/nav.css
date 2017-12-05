@@ -72,6 +72,20 @@ footer a:hover, footer button:hover {
     height: 2.5rem;
 }
 
+@media (--mobile) {
+    #help-links .divider {
+        display: none;
+    }
+
+    #help-links img {
+        width: 21px;
+    }
+
+    #help-links a {
+        font-size: .8em;
+    }
+}
+
 #help-links {
     margin-top: calc(2 * var(--standard-margin));
 }
