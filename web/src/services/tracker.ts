@@ -15,7 +15,7 @@ export function trackRecording(action: 'record' | 'submit') {
   track('Recording', action);
 }
 
-export function trackListening(action: 'listen' | 'vote-yes' | 'vote-no') {
+export function trackListening(action: 'listen' | 'vote-yes' | 'vote-no' | 'shortcut') {
   track('Listening', action);
 }
 
