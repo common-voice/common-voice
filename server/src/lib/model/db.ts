@@ -64,18 +64,16 @@ export default class DB {
   /**
    * Insert or update user client row.
    */
-  async updateUser(
-    clientId: string,
-    fields: UpdatableUserFields
-  ): Promise<void> {
-    let { email } = fields;
-    if (email) email = this.formatEmail(email);
+  async updateUser(client_id: string, fields: any): Promise<void> {
+    let { age, accent, email, gender } = fields;
+    email = this.formatEmail(email);
     await Promise.all([
-      this.user.update({
-        email,
-        ...pick(fields, 'send_emails', 'has_downloaded'),
-      }),
-      this.userClient.update(clientId, email),
+      email &&
+        this.user.update({
+          email,
+          ...pick(fields, 'send_emails', 'has_downloaded'),
+        }),
+      this.userClient.update({ client_id, email, age, accent, gender }),
     ]);
   }
 
@@ -147,5 +145,9 @@ export default class DB {
       clip.voters = clip.voters ? clip.voters.split(',') : [];
     }
     return clips as DBClipWithVoters[];
+  }
+
+  updateUserClient(client_id: string, attributes: any) {
+    this.userClient.update({ client_id, ...attributes });
   }
 }
