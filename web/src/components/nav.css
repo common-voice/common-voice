@@ -324,6 +324,7 @@ footer a:hover, footer button:hover {
 #navigation-modal .nav-list {
     flex-flow: column;
     font-size: 1.3rem;
+    padding-top: 1rem;
 }
 
 #navigation-modal a {
