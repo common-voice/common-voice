@@ -199,7 +199,15 @@ export default class API {
   }
 
   async syncUser(): Promise<any> {
-    const { age, accent, email, gender, hasDownloaded, sendEmails, userId } = this.user;
+    const {
+      age,
+      accent,
+      email,
+      gender,
+      hasDownloaded,
+      sendEmails,
+      userId,
+    } = this.user;
 
     return this.createPostRequest(
       API.USER_URL,

@@ -118,6 +118,13 @@ export default class Clip {
   }
 
   /**
+   * Is this request to save demographic info?
+   */
+  isClipDemographic(request: http.IncomingMessage) {
+    return request.url.includes('/upload/demographic');
+  }
+
+  /**
    * Distinguish between uploading and listening requests.
    */
   handleRequest(
@@ -128,6 +135,8 @@ export default class Clip {
       if (this.isClipVoteRequest(request)) {
         // Note: Check must occur first
         this.saveClipVote(request, response);
+      } else if (this.isClipDemographic(request)) {
+        this.saveClipDemographic(request, response);
       } else {
         this.saveClip(request, response);
       }
@@ -182,6 +191,57 @@ export default class Clip {
           // File saving is now complete.
           console.log('clip vote written to s3', voteFile);
           resolve(glob);
+        }
+      ).onError(reject);
+    });
+  }
+
+  /**
+   * Save clip demographic posted to server
+   */
+  saveClipDemographic(
+    request: http.IncomingMessage,
+    response: http.ServerResponse
+  ) {
+    this.saveDemographic(request)
+      .then(timestamp => {
+        respond(response, '' + timestamp);
+      })
+      .catch(e => {
+        console.error('saving clip demographic error', e, e.stack);
+        respond(response, 'Error', 500);
+      });
+  }
+
+  /**
+   * Save the request clip demographic in S3
+   */
+  saveDemographic(request: http.IncomingMessage): Promise<string> {
+    let uid = request.headers.uid;
+    let demographic = request.headers.demographic as string;
+
+    if (!uid || !demographic) {
+      return Promise.reject('Invalid headers');
+    }
+
+    return new Promise((resolve: Function, reject: Function) => {
+      // Where is the clip demographic going to be located?
+      let demographicFile = uid + '/demographic.json';
+
+      let f = ff(
+        () => {
+          // Save demographic to S3
+          let params = {
+            Bucket: this.config.BUCKET_NAME,
+            Key: demographicFile,
+            Body: demographic,
+          };
+          this.s3.putObject(params, f());
+        },
+        () => {
+          // File saving is now complete.
+          console.log('clip demographic written to s3', demographicFile);
+          resolve(uid);
         }
       ).onError(reject);
     });
