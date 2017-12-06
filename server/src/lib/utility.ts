@@ -51,7 +51,6 @@ export function getFirstDefined(...options: any[]) {
  */
 export function isLeaderServer(
   environment: string,
-  version: number
 ): Promise<boolean> {
   // Local server is always the leader.
   if (!environment || environment === 'default') {
@@ -60,7 +59,7 @@ export function isLeaderServer(
 
   return new Promise((res: Function, rej: Function) => {
     exec(
-      `consul-do common-voice-${environment}-${version + 3} $(hostname)`,
+      `consul-do common-voice-${environment} $(hostname)`,
       (err: any, stdout: any, stderr: any) => {
         if (err) {
           res(false);

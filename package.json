@@ -31,6 +31,9 @@
     "concurrently": "^3.5.0",
     "css-loader": "^0.28.7",
     "cssnano": "^3.10.0",
+    "db-migrate": "^0.10.2",
+    "db-migrate-mysql": "^1.1.10",
+    "db-migrate-plugin-typescript": "^1.0.1",
     "es6-promise": "^4.1.1",
     "eslint": "^4.7.2",
     "eslint-plugin-prettier": "^2.3.1",
@@ -85,6 +88,7 @@
   "scripts": {
     "build": "concurrently \"node scripts/build-server.js\" \"cd web/ && webpack --config webpack.prod.config.js\"",
     "lint": "eslint **/*.ts **/*.tsx",
+    "migrate": "cd server/src/lib/model/db && db-migrate",
     "prettier": "yarn lint -- --fix",
     "start": "node scripts/dev-server.js",
     "start:prod": "node server/js/server.js",

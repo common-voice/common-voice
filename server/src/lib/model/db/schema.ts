@@ -1,25 +1,17 @@
+import * as path from 'path';
+const DBMigrate = require('db-migrate');
+import { CommonVoiceConfig } from '../../../config-helper';
 import Mysql from './mysql';
-import Table from './table';
-import VersionTable from './tables/version-table';
-import { Tables } from '../db';
 
-/**
- * Handles Overall DB Schema and Migrations, usually using root connection.
- * We try to run each upgrade through a transaction in a stored procedure.
- */
 export default class Schema {
-  mysql: Mysql;
-  name: string;
-  tables: Tables;
-  version: VersionTable;
-  currentVersion: number;
+  private mysql: Mysql;
+  private name: string;
+  private config: CommonVoiceConfig;
 
-  constructor(mysql: Mysql, tables: Tables, versionTable: VersionTable) {
+  constructor(mysql: Mysql, config: CommonVoiceConfig) {
     this.mysql = mysql;
+    this.config = config;
     this.name = mysql.options.database;
-    this.tables = tables;
-    this.version = versionTable;
-    this.currentVersion = this.version.getCodeVersion();
   }
 
   /**
@@ -76,50 +68,6 @@ export default class Schema {
   }
 
   /**
-   * Upgrades all tables to current version.
-   */
-  async upgradeToVersion(version: number): Promise<void> {
-    // Generate all the sql queries for the upgrade.
-    let sql = '';
-    for (var i = 0; i < this.tables.length; i++) {
-      sql += this.tables[i].getUpgradeSql(version) + '\n';
-    }
-
-    sql += '\n' + this.version.getInsertUpgradeSql(version);
-    await this.mysql.rootTransaction(sql);
-  }
-
-  /**
-   * Upgrade to current version of database.
-   */
-  async upgrade(oldVersion: number): Promise<void> {
-    if (oldVersion === this.currentVersion) {
-      this.print('schema up to date');
-      return;
-    }
-
-    let checkVersion = oldVersion;
-
-    this.print(`upgrading from ${oldVersion} to ${this.currentVersion}`);
-    for (let i = oldVersion; i < this.currentVersion; i++) {
-      const upgradeVersion = i + 1;
-      await this.upgradeToVersion(upgradeVersion);
-
-      // Validate the upgrade
-      checkVersion = await this.version.getCurrentVersion();
-      if (checkVersion !== upgradeVersion) {
-        throw new Error(
-          `error from ${oldVersion} to ${checkVersion}, ${this.currentVersion}}`
-        );
-      }
-    }
-
-    this.print(
-      `upgraded from ${oldVersion} to ${checkVersion}, ${this.currentVersion}`
-    );
-  }
-
-  /**
    * Show all the tables in the current db.
    */
   async listTables(): Promise<string[]> {
@@ -133,17 +81,27 @@ export default class Schema {
     });
   }
 
-  /**
-   * Get a list of expected table values for a version.
-   */
-  getTablesForVersion(version: number): string[] {
-    return this.tables
-      .map((table: Table<{}>) => {
-        const schema = table.getSchemaForVersion(version);
-        return schema ? schema.name : null;
-      })
-      .filter((name?: string) => {
-        return !!name;
-      });
+  async upgrade() {
+    const {
+      MYSQLDBNAME,
+      MYSQLHOST,
+      DB_ROOT_PASS,
+      DB_ROOT_USER,
+      VERSION,
+    } = this.config;
+    const dbMigrate = DBMigrate.getInstance(true, {
+      config: {
+        dev: {
+          driver: 'mysql',
+          database: MYSQLDBNAME,
+          host: MYSQLHOST,
+          password: DB_ROOT_PASS,
+          user: DB_ROOT_USER,
+          multipleStatements: true,
+        },
+      },
+      cwd: path.resolve(path.join('server', __dirname)),
+    });
+    await (VERSION ? dbMigrate.sync(VERSION) : dbMigrate.up());
   }
 }

@@ -32,13 +32,6 @@ export default class ServerHarness {
   }
 
   /**
-   * Get the version of the code.
-   */
-  getCodeVersion() {
-    return this.config.VERSION;
-  }
-
-  /**
    * Make sure we are able to connect to the database.
    */
   async connectToDatabase(): Promise<void> {
@@ -50,13 +43,6 @@ export default class ServerHarness {
    */
   async resetDatabase(): Promise<void> {
     return this.server.resetDatabase();
-  }
-
-  /**
-   * Get the database version from the server.
-   */
-  async getDatabaseVersion(): Promise<number> {
-    return this.server.getDatabaseVersion();
   }
 
   /**

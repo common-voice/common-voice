@@ -4,7 +4,7 @@
 import * as fs from 'fs';
 
 export type CommonVoiceConfig = {
-  VERSION: number;
+  VERSION: string;
   PROD: boolean;
   SERVER_PORT: number;
   DB_ROOT_USER: string;
@@ -21,7 +21,7 @@ export type CommonVoiceConfig = {
 };
 
 const DEFAULTS: CommonVoiceConfig = {
-  VERSION: 7, // Used for logging and database versioning.
+  VERSION: null, // Migration number (e.g. 20171205171637), null = most recent
   PROD: false, // Set to true for staging and production.
   SERVER_PORT: 9000,
   DB_ROOT_USER: 'root', // For running schema migrations.

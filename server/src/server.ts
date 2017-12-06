@@ -138,8 +138,7 @@ export default class Server {
 
     try {
       this.isLeader = await isLeaderServer(
-        this.config.ENVIRONMENT,
-        this.config.VERSION
+        this.config.ENVIRONMENT
       );
       this.print('leader', this.isLeader);
     } catch (err) {
@@ -266,13 +265,6 @@ export default class Server {
   async resetDatabase(): Promise<void> {
     await this.model.db.drop();
     await this.model.ensureDatabaseSetup();
-  }
-
-  /**
-   * Grab the latest version number from the database.
-   */
-  async getDatabaseVersion(): Promise<number> {
-    return this.model.db.version.getCurrentVersion();
   }
 }
 
