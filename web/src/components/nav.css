@@ -73,6 +73,10 @@ footer a:hover, footer button:hover {
 }
 
 @media (--mobile) {
+    #help-links {
+        height: 6rem;
+    }
+
     #help-links .divider {
         display: none;
     }
