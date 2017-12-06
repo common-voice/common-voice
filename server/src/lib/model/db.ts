@@ -147,7 +147,39 @@ export default class DB {
     return clips as DBClipWithVoters[];
   }
 
-  updateUserClient(client_id: string, attributes: any) {
-    this.userClient.update({ client_id, ...attributes });
+  async saveVote(glob: string, client_id: string, vote: string) {
+    const [
+      [row],
+    ] = await this.mysql.exec('SELECT id FROM clips WHERE path = ? LIMIT 1', [
+      glob,
+    ]);
+    if (!row) {
+      console.error('No clip found for vote', { glob, client_id, vote });
+      return;
+    }
+    await this.mysql.exec(
+      `
+      INSERT INTO votes (clip_id, client_id, is_valid) VALUES (?, ?, ?)
+      ON DUPLICATE KEY UPDATE is_valid = VALUES(is_valid)
+    `,
+      [row.id, client_id, vote == 'true' ? 1 : 0]
+    );
+  }
+
+  async saveClip(
+    client_id: string,
+    original_sentence_id: string,
+    path: string,
+    sentence: string
+  ) {
+    try {
+      await this.mysql.exec(
+        'INSERT INTO clips (client_id, original_sentence_id, path, sentence) VALUES (?, ?, ?, ?) ' +
+          'ON DUPLICATE KEY UPDATE id = id',
+        [client_id, original_sentence_id, path, sentence]
+      );
+    } catch (e) {
+      console.error('No sentence found with id', original_sentence_id);
+    }
   }
 }
