@@ -51,7 +51,7 @@
 
 #voice-submit .actions a {
     font-size: var(--small-font-size);
-    font-weight: bold;
+    font-weight: 600;
     text-decoration: underline;
     cursor: pointer;
 }
@@ -69,9 +69,11 @@
 @media (--desktop) {
     #voice-submit .actions {
         flex-direction: row;
+        height: 5rem;
     }
 
     #voice-submit .actions button {
+        height: 70px;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
