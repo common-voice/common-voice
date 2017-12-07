@@ -139,7 +139,7 @@ export default class Server {
     try {
       this.isLeader = await isLeaderServer(
         this.config.ENVIRONMENT,
-        this.config.VERSION
+        this.config.RELEASE_VERSION
       );
       this.print('leader', this.isLeader);
     } catch (err) {
