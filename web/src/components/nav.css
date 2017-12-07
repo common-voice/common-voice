@@ -86,7 +86,7 @@ footer a:hover, footer button:hover {
     }
 
     #help-links a {
-        font-size: .8em;
+        font-size: var(--small-font-size);
     }
 }
 
