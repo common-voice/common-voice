@@ -9,7 +9,7 @@ let serverRunning = false;
 
 function startServer() {
   serverRunning = true;
-  const SERVER_JS = 'server/js/server.js';
+  const SERVER_JS = 'server/js/index.js';
   nodemon({
     script: SERVER_JS,
     watch: SERVER_JS,
