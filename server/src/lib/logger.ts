@@ -15,7 +15,8 @@ interface MessageFields {
   pid: number;
   msg: string;
   time: string;
-  version: number;
+  db_version: number;
+  release_version?: string;
 }
 
 export default class Logger {
@@ -50,7 +51,8 @@ export default class Logger {
       hostname: this.hostname,
       pid: this.pid,
       time: this.getDateString(),
-      version: this.config.VERSION,
+      db_version: this.config.VERSION,
+      release_version: this.config.RELEASE_VERSION,
     };
   }
 
