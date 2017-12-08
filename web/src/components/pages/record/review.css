@@ -73,7 +73,6 @@
     }
 
     #voice-submit .actions button {
-        height: 70px;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
