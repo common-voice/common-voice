@@ -8,6 +8,7 @@
   "dependencies": {
     "@types/copy-webpack-plugin": "^4.0.1",
     "@types/extract-text-webpack-plugin": "^3.0.0",
+    "@types/jest": "^21.1.8",
     "@types/lodash.pick": "^4.4.3",
     "@types/mkdirp": "^0.5.1",
     "@types/mysql": "0.0.34",
@@ -22,7 +23,6 @@
     "@types/react-router": "^4.0.16",
     "@types/react-router-dom": "^4.2.0",
     "@types/redux-thunk": "^2.1.0",
-    "@types/tape": "^4.2.30",
     "@types/webpack": "^3.0.13",
     "@types/webpack-merge": "^4.1.0",
     "aws-sdk": "^2.67.0",
@@ -37,6 +37,7 @@
     "extract-text-webpack-plugin": "^3.0.1",
     "ff": "0.2.1",
     "glob": "7.1.1 ",
+    "jest": "^21.2.1",
     "js-md5": "^0.6.1",
     "lodash.pick": "^4.4.0",
     "mediaserver": "0.1.0",
@@ -66,7 +67,7 @@
     "simple-git": "^1.72.0",
     "stream-transcoder": "0.0.5",
     "style-loader": "^0.19.0",
-    "tape": "^4.8.0",
+    "ts-jest": "^21.2.4",
     "ts-loader": "^2.3.7",
     "typescript": "^2.5.2",
     "typescript-eslint-parser": "^8.0.0",
@@ -88,6 +89,6 @@
     "prettier": "yarn lint -- --fix",
     "start": "node scripts/dev-server.js",
     "start:prod": "node server/js/server.js",
-    "test": "yarn build && bundlesize -f \"web/dist/*.js\" -s 100kb && tape server/js/test/*.js"
+    "test": "jest && yarn build && bundlesize -f \"web/dist/*.js\" -s 100kb"
   }
 }

@@ -14,6 +14,7 @@ export default class ServerHarness {
     this.config = config ? config : getConfig();
     // Use a different database name then default for tests.
     this.config.MYSQLDBNAME = DB_PREFIX + this.config.MYSQLDBNAME;
+    this.config.ENABLE_MIGRATIONS = false;
     this.server = new RealServer(this.config);
   }
 
