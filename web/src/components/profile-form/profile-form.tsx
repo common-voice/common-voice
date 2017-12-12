@@ -179,8 +179,8 @@ class ProfileForm extends React.Component<Props, State> {
           </LabeledSelect>
 
           <div className="buttons">
-            <Button type="submit" disabled={!isModified} outline={!isModified}>
-              {isModified ? 'SAVE' : 'SAVED'}
+            <Button type="submit" outline={!isModified}>
+              {isModified ? 'SAVE PROFILE' : 'SAVED'}
             </Button>
           </div>
         </form>
