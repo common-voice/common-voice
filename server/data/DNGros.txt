@@ -306,7 +306,7 @@ The model predicts that by 2030, the chances could more than double.
 The recipe requires three-quarters of a cups of sugar.
 The irrational number Pi, which represents the ratio between a circle's circumference and its diameter, approximately equals three point one four one five.
 The pin number is three, seven, two, six.
-I thought of buying the hat, but then saw that it cost $84.
+I thought of buying the hat, but then saw that it cost eighty-four dollars.
 The car sold for twelve thousand three hundred and sixty nine euros.
 The car sold for twelve thousand four hundred and sixty nine dollars.
 The car sold for six thousand three hundred and sixty nine pounds.
@@ -464,7 +464,7 @@ Harry Styles was a member of the boy band One Direction.
 Britney Spears is a pop singer.
 C.S. Lewis is the author of The Chronicles of Narnia series.
 Matthew McConaughey is an American actor.
-Michael Jackson began his career as part of the Jackson 5.
+Michael Jackson began his career as part of the Jackson Five.
 Albert Einstein's famous equation E equals MC squared is one of the best known equations in physics.
 Albert Einstein was a German physicist who developed the Theory of Relativity.
 Mahatma Gandhi led the Indian independence movement in the twentieth century.

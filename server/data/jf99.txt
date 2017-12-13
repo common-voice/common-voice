@@ -81,7 +81,7 @@ Artificial neural networks can do something very similar.
 An important difference is the amount of experiences, that is to say inputs.
 This behavior of neural networks is sometimes called dreaming.
 The human brain is still not fully understood.
-Voyager 1 has left our solar system.
+Voyager One has left our solar system.
 Some people make the same mistakes over and over again.
 There is no universal definition of intelligence, but everyone agrees that the ability of learning belongs to it.
 Scientific work is hard.
@@ -146,7 +146,7 @@ James Watt didn't invent the steam engine, but he improved it significantly.
 After the accident, his bicycle had to be repaired.
 The car however was not damaged.
 The emergency team came quickly.
-The least you can do is call 911.
+The least you can do is call Nine-One-One.
 They rented a boat and went down the river.
 When she called her friend for help with her computer, she repeatedly emphasized, that she hadn't done anything.
 He nodded and said nothing.
@@ -187,7 +187,7 @@ Linus is known for his clear and explicit language.
 Policemen are investigating in this case.
 Divers found a dead person in the lake.
 To measure the performance accurately we need a benchmark.
-Many soldiers of world war 2 have never been buried on a grave yard.
+Many soldiers of world war two have never been buried on a grave yard.
 He went to gym to strengthen his muscles.
 Please do not feed the ducks!
 I'm not hungry, I'm starving.
@@ -325,7 +325,7 @@ Many of the reviews in this app-store are faked by bots to manipulate the rankin
 The police insisted on confiscating even the printer for forensic analysis.
 The referee decided on a free kick instead of a penalty kick.
 After that foul, the whole stadium was yelling angry things.
-When the game is still undecided after 60 minutes, overtime begins.
+When the game is still undecided after sixty minutes, overtime begins.
 From its unique gesture it was clear, that the rhino was hostile.
 When he kissed her cheek, she suddenly blushed, changing her color faster than a chameleon.
 To save fuel, the Ariane rocket has been launched not far from the equator.
@@ -355,7 +355,7 @@ The volcano eruption itself was a catastrophe, but the ash is an excellent ferti
 Mission accomplished!
 Compared to other countries in the world, Japan has a very low birth rate.
 Tourists in socks and sandals look hilarious.
-Happy hardcore is a fast style of techno music, that was kind of popular in the 90s.
+Happy hardcore is a fast style of techno music, that was kind of popular in the nineties.
 If I had the choice between honey and jam, I would choose the latter.
 The plural of mouse is mice.
 These scissors can cut metal.
@@ -456,7 +456,7 @@ Always save your code as plain text.
 You chose an incompatible encoding.
 After passing her final exam she will have a bachelor of science degree in chemistry.
 Spain is producing lots of lettuce, paprika and tomatoes.
-The fourth component of homogeneous coordinates is usually set to 1.
+The fourth component of homogeneous coordinates is usually set to one.
 Hash tables can access their elements in constant time.
 Activists claim the pipeline through the Baltic Sea is leaking.
 After his massive abuse of alcohol he started therapy.
@@ -481,7 +481,7 @@ We were sitting in the VIP lounge of the theater, when the drama reached its cli
 Flaring torches were filling the dungeon with an ambient noise.
 Our galaxy, the Milky Way, apparently contains dark matter.
 The trade union was negotiating higher loans with the other stakeholders.
-Her blouse consists of 95 percent cotton and 5 percent polyester.
+Her blouse consists of ninety-five percent cotton and five percent polyester.
 Some tin and a soldering iron are laying on the workbench.
 Made in Taiwan.
 In Nuremberg the subway trains are driving autonomously.
@@ -771,13 +771,13 @@ Whistle-blower Edward Snowden still lives in exile in Russia.
 Do yourself a favor, learn the language and socialize.
 Transistors have replaced relays in many scopes of application since their invention.
 Let's see what I can find out about the GDP of the Federal Republic of Cameroon.
-The carpenter offered me a discount of 20 percent.
+The carpenter offered me a discount of twenty percent.
 Presumably Ryan never did any sanity checks.
 The hormone oxytocin is released when a mother breastfeeds her baby.
 Have you ever heard the national anthem of South Korea?
 If you tackled these outliers that would reduce the artifacts.
 After experiencing a mind-blowing sensual orgy, Mike was sure he had taken an overdose.
-Marek is so shortsighted, he can't identify faces from a distance of 10 meters.
+Marek is so shortsighted, he can't identify faces from a distance of ten meters.
 Lily is just as nearsighted as him.
 Who is the blonde girl with the red skirt?
 I think her name is Olivia.
@@ -1041,8 +1041,8 @@ All of our trainees failed the polygraph test.
 I wonder if C-sections will get more popular than natural births one day.
 The prevailing notion among midwifes is that vaginal childbirths should be preferred to cesareans.
 We had a lot of hurricanes this year.
-Ground station to flight 101, please correct your altitude, over!
-By accepting our privacy policy, you agree that we save your data for 21 days to detect frauds.
+Ground station to flight one-oh-one, please correct your altitude, over!
+By accepting our privacy policy, you agree that we save your data for twenty-one days to detect frauds.
 Anna Austen asked about the acceptation of the word "alliteration".
 Mrs Brickman wants to know why her rating score is so terribly low.
 Can you sing me a lullaby?
