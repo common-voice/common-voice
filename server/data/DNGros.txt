@@ -21,7 +21,7 @@ Despite years of research, the problem remained intractable.
 Where is my dress?
 The children learned how knit.
 The yellow fish swam across the lake.
-Can we please leave now.
+Can we please leave now?
 Fedric was unable to find his lucky marble.
 Delete this file.
 Ines loves to go swimming.
@@ -104,7 +104,7 @@ Does this mean he will go to jail?
 That is one possibility, but we would both prefer it did not happen.
 Maybe he could just pay for the device.
 No, that is not a good solution.
-What if he made a new version.
+What if he made a new version?
 She would need to replicate it exactly.
 Hm, that does seem difficult.
 Yes, it would be difficult.
@@ -125,7 +125,7 @@ I came to pickup my package that arrived today.
 Do you know what kind of package it was?
 I think it came in a long, red box.
 I do not remember seeing anything that looked like that.
-Can you please check your inventory.
+Can you please check your inventory?
 Sure, I will be right back.
 Wow, this is a nice table!
 I found five things that you described.
@@ -193,7 +193,7 @@ Did you try any Japanese food while you were there.
 I do not like sushi, so I did not really enjoy the meal.
 How about Egypt?
 I went to Egypt with my grandmother.
-What did you think of that trip.
+What did you think of that trip?
 My grandmother and I went inside the Great Pyramid.
 Did you see any ghosts?
 No, but I saw a gift shop.
