@@ -729,8 +729,8 @@ Also, will numbers be written as digits or as words?
 Shawty, you look jaw-dropping in that jersey.
 The grim reaper is waiting for you, reckless driver!
 They found all sorts of drugs at Howard's house: Cocaine, meth, heroine...
-undefined reference to 'swizzle'
-undeclared identifier 'jitter'
+Undefined reference to 'swizzle'.
+Undeclared identifier 'jitter'.
 The transaction is still pending.
 My roommate always causes chaos.
 ICBM is the abbreviation for intercontinental ballistic missile.
