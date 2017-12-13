@@ -188,9 +188,6 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
 
   private onRecordClick = async (evt?: any) => {
     evt.preventDefault();
-    if (evt.stopImmediatePropagation) {
-      evt.stopImmediatePropagation();
-    }
 
     if (this.props.isRecording) {
       this.stopRecording();
@@ -331,10 +328,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
                     Please tap to record, then read the above sentence aloud.
                   </p>,
                   <div key="record-button" className="record-actions">
-                    <button
-                      id="record-button"
-                      onTouchStart={this.onRecordClick}
-                      onClick={this.onRecordClick}>
+                    <button id="record-button" onClick={this.onRecordClick}>
                       <RecordIcon />
                     </button>
                     {reRecordSentence && (
