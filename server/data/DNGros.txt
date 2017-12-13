@@ -307,10 +307,10 @@ The recipe requires three-quarters of a cups of sugar.
 The irrational number Pi, which represents the ratio between a circle's circumference and its diameter, approximately equals three point one four one five.
 The pin number is three, seven, two, six.
 I thought of buying the hat, but then saw that it cost $84.
-The car sold for twelve thousand three hundred and sixty nine Euros.
-The car sold for twelve thousand four hundred and sixty nine Dollars.
-The car sold for six thousand three hundred and sixty nine Pounds.
-The item costs five euros
+The car sold for twelve thousand three hundred and sixty nine euros.
+The car sold for twelve thousand four hundred and sixty nine dollars.
+The car sold for six thousand three hundred and sixty nine pounds.
+The item costs five euros.
 The item costs five Yen.
 The new highway is expected to cost nine point two four million dollars.
 We are opening the a new location at ten eighty-seven Oak Street.
@@ -328,7 +328,7 @@ The CIA and MI6 are secret spy agencies.
 Most reports of UFOs have never been verified.
 If you have an issue in the workplace, you are encouraged to contact the HR department.
 The new proposal goes by the acronym WNA.
-Every computer on the internet has an IP address.
+Every computer on the Internet has an IP address.
 Do you want to play a game.
 What game do you want to play?
 Have you played chess?

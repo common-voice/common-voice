@@ -121,7 +121,7 @@ Even an ordinary man has more than one horse power, but gets tired quickly.
 Being with him alone made her feel uncomfortable.
 There is not even the possibility of doing that.
 The file had a size of multiple gigabytes.
-His internet connection was too slow.
+His Internet connection was too slow.
 He got jailed for no reason.
 The church is right next to the gas station.
 The weather forecast for this week didn't look good at all.
@@ -281,7 +281,7 @@ The system with certificate authorities has some serious issues.
 In symmetric cryptography the same key is used for encryption and decryption.
 Symmetric algorithms tend to be faster than asymmetric ones.
 Strong passwords don't have to be hard to remember.
-The world wide web is not the same as the internet.
+The world wide web is not the same as the Internet.
 The Google search bar is for searching, not for typing URLs!
 If you don't know any alternative search engines, just google them.
 You can create bookmarks in you web browser to make browsing more convenient.
@@ -444,7 +444,7 @@ That's comparing apples and oranges.
 According to the recipe, we need mild mustard.
 Guards are patrolling around the perimeter of the base.
 Onion routing is a technique of using cascades of proxies for the purpose of anonymisation.
-The internet of uncontrolled things brought us a distributed denial of service attack once again.
+The Internet of uncontrolled things brought us a distributed denial of service attack once again.
 The visual acuity is astonishing.
 Your behavior is embarrassing; go learn the art of social intercourse!
 An LED was indicating the proximity detector was working properly.
@@ -706,7 +706,7 @@ Many mountain ranges on earth are named Sierra Nevada.
 For example, Colombia, Chile, Argentina and Venezuela.
 Many languages are spoken in Tanzania, one of them is Zulu.
 By area, Quebec is the largest province of Canada.
-This swallow is twittering without internet connection and has a swarm of followers.
+This swallow is twittering without Internet connection and has a swarm of followers.
 If you release the clutch too quickly, the engine will stall.
 Quit whining!
 "Bacardi, rye, vodka – what do you want?", asked the barkeeper.
