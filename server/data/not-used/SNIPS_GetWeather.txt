@@ -290,7 +290,7 @@ Tell me when there will be a snowstorm in Clifton Forge
 is it going to be chillier in Saint Augustine, Wyoming on may 3rd
 How much hotter will it be 40 weeks from now in Blue Island, North Dakota?
 What's the weather going to be one hour from now in Taiwan
-Will the weather be temperate 188 days from now in Zimbabwe
+Will the weather be temperate one hundred eighty-eight days from now in Zimbabwe
 Give me a weather forecast for California 
 What's the weather like here
 What will the weather be like at me current position in seventeen seconds?
@@ -372,7 +372,7 @@ How will the weather be in six and a half months in Colorado ?
 Let me get the forecast in Allardt, Canada.
 is it going to be chilly on 12/13/2025 in Haugan Pakistan
 Will it be cold in Allardt, Aruba?
-What is the weather forecast 131 days from now in Atanassow-See
+What is the weather forecast one hundred thirty-one days from now in Atanassow-See
 in Taiwan will there be rainfall in Willimantic
 What will it feel like on Oct. 21 in Kentucky
 What's the weather forecast for Hooven, Lithuania on National Grandparents Day?
@@ -513,7 +513,7 @@ what is the AMerican Samoa forecast for hot weather
 What will the weather be like not far from Alabama on May 9, two thousand and thirty-seven?
 will it be chilly in Cistern
 What will the weather be in Post Falls on feb. 17?
-Will there be a cloud in the sky in 175 days from now in Golconda in Vermont
+Will there be a cloud in the sky in one hundred seventy-five days from now in Golconda in Vermont
 what will the weather be like in Farmington Canal State Park Trail
 Will there be fog in Nebraska?
 what is the weather forecast this week close-by my current position
@@ -1254,7 +1254,7 @@ Will it be warmer in 20 minutes at Natural Park of Las Batuecas
 Will there be sun at four PM at Runkaus Strict Nature Reserve
 What's the weather forecast for Saint Pierre and Miquelon?
 Is it freezing in Offerman, California?
-Is it going to be warmer 165 days from now at Nairobi National Park
+Is it going to be warmer one hundred sixty-five days from now at Nairobi National Park
 Check the forecast for the current spot in the future Oct. 19, two thousand and thirty-seven.
 is it going to get colder in Parc national marin Mahatma Gandhi
 What weather will it be in Battlement Mesa?
@@ -1639,7 +1639,7 @@ Is it going to get hotter in my current position
 What's the weather now in Salmon Lake State Park
 Is it supposed to be chillier in Favoretta
 What's the weather here at three PM
-How will be the weather condition near Michigan 129 days and a half from now?
+How will be the weather condition near Michigan one hundred twenty-nine days and a half from now?
 What's the weather going to be in jun. in Burkina
 What's the weather close-by Triumph
 Is it warmer in Monson, U.S. Minor Outlying Islands

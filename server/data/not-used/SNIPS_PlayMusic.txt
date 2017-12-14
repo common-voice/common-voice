@@ -399,7 +399,7 @@ Play music on Lastfm
 Play Eve
 Play music from two thousand and eleven.
 Play some Psychedelic Rock.
-play Top 100 Indie Tracks on Spotify on Lastfm
+play Top one hundred Indie Tracks on Spotify on Lastfm
 play an eighties track 
 Can you play me some eighties music by Adele
 Play Oliver Cheatham's symphony from the thirties.
@@ -1613,7 +1613,7 @@ play a popular sort of fifties tune music
 I'd like to hear Helen Baylor
 Play music from nineteen eighty-nine by Maya.
 Play Kool Keith Presents Thee Undatakerz by John Mccrea.
-play Piano 100
+play Piano one hundred
 Play some music on Lastfm
 Play a concerto top ten sort by Lloyd.
 Play Arif music from the fourties.

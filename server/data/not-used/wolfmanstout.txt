@@ -122,7 +122,7 @@ Any decent editor can show you line numbers and let you jump to a specific line.
 But try editing a file with several hundred lines, and you'll find that this is pretty clunky.
 There are a couple ways to improve on this.
 You can show line numbers relative to your current position, or you can show the numbers.
-For example, if you never have more than 100 lines on screen at once, you could just show the last two digits.
+For example, if you never have more than one hundred lines on screen at once, you could just show the last two digits.
 Personally, I prefer to use relative line numbers such as "up ten" or "down five".
 Also, the number of syllables scales nicely with the amount of movement.
 The main advantage to using modulo is that you can chain together successive commands easily.
