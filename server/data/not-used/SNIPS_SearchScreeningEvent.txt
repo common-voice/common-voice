@@ -1497,7 +1497,7 @@ Find the movie schedule for animated movies in the area.
 Can you pull up a movie schedule for me?
 What is the movie schedule for animated movies in the area
 whats the movie schedule for movies nearby
-I'd like to know when I can see The Taking of Flight 847: The Uli Derickson Story at Amco Entertainment.
+I'd like to know when I can see The Taking of Flight eight hundred forty-seven: The Uli Derickson Story at Amco Entertainment.
 What movies are playing at Southern Theatres
 What films are going to be playing at Harkins Theatres at zero a.m.?
 What are movie times for movies playing in the neighborhood?
@@ -1838,7 +1838,7 @@ is The Singing Nun at Regal Entertainment Group
 find movies at Amco Entertainment starting in 8 seconds from now
 Find the schedule for The Devil Diamond at a movie theatre.
 When and where is Invitation to the Waltz playing 
-when is Nattbuss 807 playing at a movie theatre near me
+when is Nattbuss eight hundred seven playing at a movie theatre near me
 Find Captain Kronos - Vampire Hunter.
 Is Redacted playing at the closest cinema?
 Where is the closest movie house playing films now
