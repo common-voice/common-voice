@@ -536,7 +536,7 @@ Where is the nearest movie theatre I can go watch films today?
 What animated movies are playing AMC Theaters
 What time is Three Cuckoo Clocks playing?
 Show movie times at Kerasotes Theatres
-What time is Balkan Rhapsodies: 78 Measures of War playing at Malco Theatres?
+What time is Balkan Rhapsodies: seventy-eight Measures of War playing at Malco Theatres?
 When is Robotix playing?
 show me the schedule of movie The Duchess of Langeais in cinema
 Find the movie schedules for Speakeasy Theaters.
@@ -1237,7 +1237,7 @@ Find movie schedules for movies in the area.
 find Belle of the Yukon
 Fine movie times.
 find Kerasotes Theatres movie schedules
-Where and at what time can I see Paragraphe 78
+Where and at what time can I see Paragraphe seventy-eight
 Find time for Enkitta Mothathe at Pacific Theatres
 What time is Holiday Heart showing at the movie house
 What are the movie schedules
