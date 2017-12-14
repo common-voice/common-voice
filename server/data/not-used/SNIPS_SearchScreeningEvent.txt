@@ -171,7 +171,7 @@ What's the nearest movie theatre playing Testament of Orpheus?
 find animated movie at Landmark Theatres
 Give me the movie times for Fox Theatres
 I'd like to watch animated movies at National Amusements
-I'd like to watch Apocalypse 2024
+I'd like to watch Apocalypse two thousand and twenty-four
 I'd like to see Forgetting the Girl.
 When is Blood and Ice Cream-trilogie playing at the nearest movie theatre?
 show movie schedules
@@ -679,7 +679,7 @@ What time are films showing in the neighborhood
 What are some movies playing in the neighbourhood?
 List movie times at General Cinema Corporation
 Can you bring up the movie schedule for ArcLight Hollywood?
-Is Live from Sturgis 2006 playing at four o'clock at the nearest cinema?
+Is Live from Sturgis two thousand and six playing at four o'clock at the nearest cinema?
 what movie theatre closest to me is playing animated movies and when
 what animated movies are at Cobb Theatres
 find movie times
