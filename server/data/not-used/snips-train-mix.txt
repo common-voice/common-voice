@@ -472,7 +472,7 @@ Please book reservations in New York for two in one month at Windows on the Worl
 book spot for two at a restaurant that serves pastas
 book a party of nine for The Wieners Circle in Palau
 I want to book a restaurant for three people next year in Delaware.
-I need a table for four at a restaurant around 0 Am.
+I need a table for four at a restaurant around zero Am.
 book me and my grandparents a restaurant in Saint Helens South Dakota
 I want to book The Bishops Buttery for five people in Shrewsbury.
 I want a table at a pub that serves brunswick stew in Ohio
@@ -632,7 +632,7 @@ How cold will it get in Tajikistan around oct. eleventh?
 What is the weather forecast here
 Will it be warmer near here on jan. the fifteenth?
 Tell me the weather forecast for eight A.m. in Reminderville, Florida
-will it be chilly at 0 pm in Guam
+will it be chilly at zero pm in Guam
 Is it chillier here
 Is it hot in the current location?
 is it cold in Vigus Tennessee
@@ -1177,16 +1177,16 @@ Give this album four points
 Give The Best Mysteries of Isaac Asimov four stars out of six.
 Rate this current novel one out of six points.
 Give this textbook five points
-Give this series 0 out of six stars
+Give this series zero out of six stars
 Rate The Ultimate Solution two out of six points
 Give this essay four stars out of six.
 rate The Braindead Megaphone series zero out of six points
-Rate The Change 0 out of six points
+Rate The Change zero out of six points
 rate this series five out of six stars
 Give a four rating to Faber Book of Irish Verse
 I would like to give the current textbook a rating of three out of six.
 Give The Starmen four out of six stars
-Rate The Loneliness of the Long Distance Runner 0 points out of six
+Rate The Loneliness of the Long Distance Runner zero points out of six
 Give the current album one star
 rate this essay a one
 Give this series three stars
@@ -1203,8 +1203,8 @@ Give White House Diary two points
 mark the current textbook a one from the total of six
 Give the current series two stars.
 Give five out of six stars to Learning Perl
-Give 0 out of six stars to the current saga
-Give The Diamond Chariot a 0 out of six.
+Give zero out of six stars to the current saga
+Give The Diamond Chariot a zero out of six.
 Give Poop: A Natural History of the Unmentionable four of six stars
 Give A History of the Mind a two out of six points.
 Rate this novel three out of six points.
@@ -1218,7 +1218,7 @@ the current book I'm reading should be rated zero out of six
 Rate Gota's War a one
 rate The Adventures of Mr. Nicholas Wisdom a one out of six
 Rate The Slap five of six
-Give 0 out of six stars to the current novel
+Give zero out of six stars to the current novel
 Give Eight Days of Luke a rating of five.
 Give the current novel three stars
 Give The Blue Equinox series five points
@@ -1231,7 +1231,7 @@ Give After the First Death a two out of six points rating.
 Rate The CIowa and the Cult of Intelligence a five.
 I would like to rate The Hundred-Year Christmas four stars.
 Give The Sacred Fount three of six stars
-Set my rating for this chronicle to 0 stars
+Set my rating for this chronicle to zero stars
 Rate the current essay four out of six.
 Rate this album a one out of six
 rate this textbook a five
@@ -1255,7 +1255,7 @@ Rate the current book a zero.
 Give this essay four stars
 Rate She Returns to the Floating World four out of six stars.
 rate this chronicle two points
-rate the current novel a 0 of six
+rate the current novel a zero of six
 Give the current album a four out of six.
 Give this novel four of six points
 Give this current series a rating of one.
@@ -1264,7 +1264,7 @@ Rate Making Sense of Marx two stars.
 Give this album two points.
 I'd like to give The Harder They Come two points
 Give the current essay five out of six stars
-this album deserves a 0 out of six
+this album deserves a zero out of six
 rate this series zero out of six stars
 Give four stars to the current essay
 please give a two out of six to House of Many Ways
@@ -1286,13 +1286,13 @@ rate the current essay a one
 Give The Game of Silence three points
 Give the current novel two points out of six
 Give two stars to Scribblings
-I want to rate this book 0 points out of six
-rate The Willows at Christmas 0 out of six stars
+I want to rate this book zero points out of six
+rate The Willows at Christmas zero out of six stars
 rate the Dry series two out of six stars
 Give Good Building Design and Construction in the Philippines one of six points
 Rate the current album a five out of six
 Give this novel five stars
-Rate the current book 0 stars
+Rate the current book zero stars
 Rate The Fall-Down Artist five stars.
 rat the current textbook a two out of six points
 rate Notable American Women a three star
@@ -1303,22 +1303,22 @@ Give one out of six stars to The Shiva Option
 Give Double Persephone series two stars
 Give zero of six stars to the current album
 rate the current textbook four points
-rate this book a 0 out of six
+rate this book a zero out of six
 I would rate Coming Through Slaughter a four out of six.
-rate the current album 0 out of six
-rate Queen of the Falls 0 of six
+rate the current album zero out of six
+rate Queen of the Falls zero of six
 Give this textbook four points.
 Rate this novel three out of six stars
 Give one six stars to this book
 Give Unleashing Nepal zero stars
 Give the current novel two stars of six.
 Give three stars out of six to My Sister, My Love
-Rate Small Screen, Big Picture a 0 out of six.
+Rate Small Screen, Big Picture a zero out of six.
 Give this saga a five out of six rating.
 Give one points to The Body of Christopher Creed
 Rate this novel a one out of six
 Rate Stars in My Pocket Like Grains of Sand three out of six points.
-Rate this current textbook a 0.
+Rate this current textbook a zero.
 Give four stars out of six to Practice to Deceive
 rate the current textbook five stars
 rate the current textbook zero out of six points
@@ -1347,33 +1347,33 @@ Give The Onion Field two points out of six.
 rate the current novel zero points
 Give this textbook one stars out of six
 Gie this textbook three stars
-Give Hornblower in the West Indies 0 out of six points
+Give Hornblower in the West Indies zero out of six points
 rate this textbook a one
 Rate this book five stars
 Give this novel two out of six stars
 Give a rating of one out of six points to the current album
 rate The Stone Key a five
-rate the current novel 0 of six
+rate the current novel zero of six
 Give The Gates Ajar four stars
 give the current textbook one out of six stars
-rate the current album 0 out of six stars
+rate the current album zero out of six stars
 Give the current book four stars
-I want to rate this essay 0 of six stars
+I want to rate this essay zero of six stars
 Give The Frog Prince, Continued two points out of six.
 Give this book a rating of two out of six.
-Rate this chronicle 0 points
+Rate this chronicle zero points
 Give Ring Around the Sun three stars out of six.
 Rate the Wild Boy series three out of six stars
 Give this book a rating of four out of six.
 Give five out of six stars to No Country for Old Men
-rate The White Juga series 0 out of six points
+rate The White Juga series zero out of six points
 Give this book four of six points
 Assign Glass and Amber two of six stars
 Give this essay one of six points
 Give five points to An Ice-Cream War
 Give the current novel three stars.
 give my current album a one out of six rating
-Give 0 points to The Latimers
+Give zero points to The Latimers
 rate The Zenith Angle one out of six points
 Rate the current essay four out of six
 Give Souls in Metal four out of six points
@@ -1406,7 +1406,7 @@ Rate this current essay four out of six.
 I would like to rate The Giant Devil Dingo a four.
 Give A Mile Beyond the Moon five points
 Give four out of six points to Empire of Death
-Assign 0 points out of six to The Gate of Worlds
+Assign zero points out of six to The Gate of Worlds
 Rate The Hundred Brothers two stars.
 Give this series five stars.
 Rate The Life and Loves of a She-Devil five out of six
@@ -1419,7 +1419,7 @@ Give Tom Swift and His Motor Cycle chronicle four points.
 rate this current textbook three out of six points
 Give four points to Leven Thumps and the Gateway to Foo
 Give this novel two stars.
-Rate The Simon & Schuster Encyclopedia of Dinosaurs and Prehistoric Creatures 0 points.
+Rate The Simon & Schuster Encyclopedia of Dinosaurs and Prehistoric Creatures zero points.
 Give one star to Flashman and the Redskins
 Rate this current album three stars
 Rate this chronicle a one of six
@@ -1436,7 +1436,7 @@ Give the current saga a four out of six points.
 I give one points to Summer of the Swans.
 Rate this album five out of six stars.
 Give this textbook three stars.
-Rate A Demon of Our Own Design 0 out of six
+Rate A Demon of Our Own Design zero out of six
 Give the current chronicle two stars.
 rate this book five points
 Give this chronicle zero points out of six
@@ -1453,7 +1453,7 @@ Rate Wolves Eat Dogs five out of six points
 Rate the current novel two points
 Assign four stars out of six to the chronicle, God and Man at Yale.
 Rate A Voyage to Arcturus a two.
-Give this album 0 stars
+Give this album zero stars
 Give two stars to The Doom Brigade
 Rate this saga two out of six.
 Give this chronicle one out of six points

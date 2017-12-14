@@ -335,7 +335,7 @@ Book a table for nine people at a brasserie on Jan. sixteen, two thousand and th
 Book a table for six at a top-rated restaurant in North AMityville Massachusetts that serves south tyrolean food
 book a fried fish serving restaurant for one at twenty hours from now
 I'd like to book at a place in Michigan for a party of three, name of the restaurant is Carter House Inn.
-I need a table for four at a restaurant around 0 AM.
+I need a table for four at a restaurant around zero AM.
 Find a reservation for a highly rated brasserie for me and my step sister
 Book a table for one at Thomas Hynes House.
 Please book a restaurant in Village Green, California .
@@ -644,7 +644,7 @@ book a spot for five at a brasserie on jan. seven, two thousand and twenty-three
 Book a bar with a pool in Mountain Iron.
 book a table with wifi in Delaware at a restaurant in one minute
 I need to book a highly rated restaurant in Coronado
-Make me a reservation in Cedarburg at 0 pm
+Make me a reservation in Cedarburg at zero pm
 Book a reservation for a trentino restaurant in Kansas
 book me and my grandparents a restaurant in Saint Helens South Dakota
 Reserve a table for teresa and elnora at a fast food joint which serves fish and chips
@@ -1190,7 +1190,7 @@ restaurant in Zambia that is close for a party of ten
  restaurant that is brasserie for  eight and has wifi
 I want eat at the best spanish restaurant in the Georgia area that is within walking distance for me and my nephew at noon
 book rosalie stewart and evelyn at a restaurant
-book a table for 0 pm in Fayette for rachael morris and shannon near there
+book a table for zero pm in Fayette for rachael morris and shannon near there
 I need a table for one
 book a spot for nona gray, myrtle and alison at a top-rated brasserie that is distant from Wilson Av on Nov. the 4th, two thousand and thirty that serves ouzeri
 Book the Ballylickey House for 7/16/2027.
@@ -1537,7 +1537,7 @@ Book reservation at a restaurant in Rocky Fork for two people
 book a restaurant in Lake Fenton for four 
 book a spot for three at a bar in Antarctica
 I'd like to eat at a highly rated pub with six people
-What is the best restaurant in Kentucky for ten at 0 am
+What is the best restaurant in Kentucky for ten at zero am
 book for ten in a restaurant
 I want a table for eight at GU
 Book a brasserie type restaurant that serves pizzas in AMerican Samoa
@@ -1710,7 +1710,7 @@ I want to book a cafe for three in Fargo
 I'm looking for a local cafeteria that has wifi accesss for a party of four
 book a restaurant for four of us
 table at Nankin Cafe fr one
-Book a restaurant in West Hattiesburg for 0 o'clock.
+Book a restaurant in West Hattiesburg for zero o'clock.
 book a spot for two at a restaurant in PW
 Book the Bobcat Bite in the Isle of Man for six people.
 Get me a table at Prospect of Whitby in Blaine Hill, Idaho
@@ -1885,8 +1885,8 @@ BOok me a table for five at a best rated restaurant in Italy
 book a table at one o'clock at a bar that has parking
 book a spot at The Red Onion in San Marino for next week
 book a table for six at Hubbell House in Nebraska
-I need a restaurant in Iowa for 0 o'clock
-book a table for three at 0 am at a bar with wifi in Schuyler Lake
+I need a restaurant in Iowa for zero o'clock
+book a table for three at zero am at a bar with wifi in Schuyler Lake
 Book a restaurant for one for this month.
 book a table at Atlantic Grill in Lofgreen
 I'm looking for the best bistro that serves mongolian food that has room for two people in Marshall Islands.
