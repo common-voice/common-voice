@@ -126,7 +126,7 @@ show the movies at the nearest movie house
 What cinema is The Railway Children
 What are the movie times for movies around here
 Where is The Beach of Lost Children playing
-I'd like to see the showtimes for Silly Movie two.0 at the movie house
+I'd like to see the showtimes for Silly Movie two dot zero at the movie house
 eleven seconds from now find a cinema with First Monday in October
 Is The King of the Kitchen playing in fifteen hours?
 What movies are going to be screened at Caribbean Cinemas at fourteen o'clock?
@@ -379,7 +379,7 @@ Find me a showing of The Vanquished that starts nine hours and one second from n
 When is For One Night playing at Loews Cineplex Entertainment?
 I'd like to watch Mission to Mir
 show the schedule of movie The Statue
-When is Em4Jay playing at the movie theatre?
+When is Em-Four-Jay playing at the movie theatre?
 Find the movie schedule.
 What are the movie times for films playing nearby
 What are the current movie schedules for AMC Theatres?

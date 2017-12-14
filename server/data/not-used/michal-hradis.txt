@@ -88,7 +88,7 @@ The article introduces a very fast, small, and shallow feed-forward network whic
 The proposed approach provides state-of-the-art results at very low computational cost.
 The authors claim to specifically address variations due to geometric transformations in the acquired images.
 The reader just needs to know what it does.
-The full network is trained to minimize L2 pixel loss.
+The full network is trained to minimize L-Two pixel loss.
 The usage of high information content is meaningless.
 The reader does not need to know how it is actually computed.
 The pixel probabilities are conditioned on the model state.
