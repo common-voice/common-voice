@@ -374,7 +374,7 @@ table for one please
 Book a reservation for a party of six at The Waterside Inn
 book a party of nine for an indoor cafe
 Book a reservation at a restaurant nearby their airbnb
-Book a reservation for one at Bouchon in Oregon on 6/13/2039
+Book a reservation for one at Bouchon in Oregon on June thirteenth, two thousand and thirty-nine
 Book a restaurant reservation for nine in Virginia  on August twenty-one
 table for seven at Blueberry Hill
 I want to book a restaurant for five people.
@@ -386,7 +386,7 @@ Book me a restaurant reservation for a party of eight ten hours from now
 I want to book Ribera Steakhouse in Sint Maarten for tamra, desiree and lesley.
 book a table for me and bettye at Washington, D.C. Jewish Community Center in Montana
 Book a reservation for three at Union Square Cafe
-I want to book a restaurant close by my girlfriend's work location on 11/22/2038.
+I want to book a restaurant close by my girlfriend's work location on November twenty-second, two thousand and thirty-eight.
 need a table for two in Kuwait
 I want to book a restaurant in one day for me and my boyfriend.
 Want to book a table at a restaurant in Samoa
@@ -442,7 +442,7 @@ Book me a reservation in Kenya for a party of six
 Book a reservation for one at the Blue Wall Cafe in Allakaket, Montana
 I want to book the best oyster bar in Dulce for six people.
 I want to book a bakery in Alamosa for three people.
-I want to book a delicatessen serving testaroli in Somalia for 7/25/2027.
+I want to book a delicatessen serving testaroli in Somalia for July twenty-fifth, two thousand and twenty-seven.
 Book me a reservation for Fatty Crew in thirteen weeks in Haskell
 I want to book a restaurant at sunrise for four people.
 I want to book a restaurant in Gambia for six people.
@@ -498,7 +498,7 @@ book a table in Montenegro for alissa, cornelia williams and katrina at osteria
 book a table for midnight for six in Nesco
 I want to book a highly rated fast food restaurant now.
 book spot at a balinese joint
-Book a table for 11/5/2037 in Washington for seven people
+Book a table for November fifth, two thousand and thirty-seven in Washington for seven people
 Book a reservation for dorothy, kayla and I for the best osteria restaurant
 I want to book Mars two thousand, one hundred twelve in Finland for four people.
 book a party of four at Louisiana Fried Chicken
@@ -516,7 +516,7 @@ Book a reservation for a blinis bar in Palestine
 Book a spot for me and kathrine at Smithville
 Book me a reservation for a ligurian bar in Belgium
 Book me a reservation for The Brazen Head close by to my university
-Book a reservation for an indonesian brasserie on 9/13/2017
+Book a reservation for an indonesian brasserie on September thirteenth, two thousand and seventeenth
 I want to book a german joint for twelve seconds from now.
 I want to book a restaurant in Massachusetts for six p.m.
 I would like to book a reservation for kaitlin and I at Lone Star Cafe 
@@ -614,7 +614,7 @@ I want to book a restaurant in forty weeks in Iowa.
 what is the forecast for Nevada for First Day Of Sukkot
 What is the weather forecast for Agate Fossil Beds National Monument
 Tell me if it is cold in Federated States Of Micronesia
-I need the weather for 7/13/2036 in Gwynedd Valley
+I need the weather for July thirteenth, two thousand and thirty-six in Gwynedd Valley
 Is it cold here?
 Will there be rain next year in New Hampshire?
 What is the weather at five am on the Farallon Islands?
@@ -655,7 +655,7 @@ What's the weather in Humarock?
 Tell me the weather forecast for Fort Yargo State Park
 I need the weather in North Dakota in three hundred fifty one days 
 Tell me the weather forecast within the same area of Pocomoke River State Park
-is it going to be windy on 8/8/2032 in North Charleston Montana
+is it going to be windy on August eigth, two thousand and thirty-two in North Charleston Montana
 Will the weather be freezing in Tennessee?
 humidity in Netawaka Wisconsin
 What's the weather this week in distant Bartholomew's Cobble?
@@ -827,7 +827,7 @@ I need the weather for Laos
 Will it be warmer in Flag?
 I need the weather close-by in Mississippi
 Will it be hot in the current place?
-I need the weather for 7/13/2036 in Gwynedd Valley
+I need the weather for July thirteenth, two thousand and thirty-six in Gwynedd Valley
 What will the weather be a nine in Willow River State Park?
 Will it be humid at the current location one minute from now?
 Tell me if there will be sun in the afternoon in New Hampshire
