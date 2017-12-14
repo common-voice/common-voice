@@ -91,7 +91,7 @@ Is it forecast to be windy here in seven seconds?
 Will it be cold close-by Iowa on september twenty-first, two thousand and twenty-five
 What will the weather be a nine in Willow River State Park?
 What will the weather be here?
-in 257 days what will the weather be like in Cannon Ball
+in two hundred fifty-seven days what will the weather be like in Cannon Ball
 What will the weather be like 56 weeks from now, will there be sun in Tabor?
 What's the weather like in North Brunswick Township Virginia
 Is the forecast windy in Nigeria on Nov. the 6th
@@ -1514,7 +1514,7 @@ What's the weather in New Zealand?
 What will the weather be in New Mexico in 1 minute 
 Will it get hotter next year in Springside Nature Reserve?
 What is the weather like in Phnom Sankos Wildlife Sanctuary
-I need a table in Uruguay in 213 days when it's chillier
+I need a table in Uruguay in two hundred thirteen days when it's chillier
 How will the weather be in six minutes close to Moosic
 Show me weather forecast in Clontarf, Kentucky from 4 hours from now.
 What will the weather be in Grand Coteau Utah at six pm?
@@ -1949,7 +1949,7 @@ What is the weather forecast tomorrow in French, Utah?
 Is it going to be snowy in Ochopee Massachusetts?
 is it going to be windy faraway from the Valley of Fire
 will the weather conditions be temperate and pleasant in Togo
-Will it be chillier in Uruguay in 213 days?
+Will it be chillier in Uruguay in two hundred thirteen days?
 Is it chilly on oct. 19th in Illinois
 Is it temperate in the current location now
 Will there be snowfall faraway from Robinson Forest
