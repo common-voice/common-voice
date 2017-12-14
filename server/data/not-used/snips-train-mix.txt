@@ -110,7 +110,7 @@ Please add a song to ines's playlist called Metal Party
 Add the tune to the peace playlist.
 add Ljubim te pesmama in my playlist Gold School
 Add this edwyn collins track to Canadian Country
-add an  entry for mon beau sapin in lela's música libre playlist
+add an entry for mon beau sapin in lela's música libre playlist
 Add this John Tesh tune to the friendesemana playlist
 add Me Kommeni Tin Anasa to my propuesta alternativa playlist
 add paulinho da viola to my Radio Rock song list
@@ -375,7 +375,7 @@ Book a reservation for a party of 6 at The Waterside Inn
 book a party of nine for an indoor cafe
 Book a reservation at a restaurant nearby their airbnb
 Book a reservation for one at Bouchon in Oregon on 6/13/2039
-Book a restaurant reservation for nine in Virginia  on August 21
+Book a restaurant reservation for nine in Virginia on August 21
 table for 7 at Blueberry Hill
 I want to book a restaurant for five people.
 I want to book a bistro that serves pasta salad in Brazil.
@@ -427,7 +427,7 @@ I want to book a restaurant for eight in Harding.
 book a table at a pub on jun. 17, 2023
 Please make a booking at Sonoy in Montague, Louisiana.
 book a party of four at a highly rated pub
-I want to book a highly rated restaurant in Virginia  for one person at zero am.
+I want to book a highly rated restaurant in Virginia for one person at zero am.
 Book a reservation for arlene stewart and I at The Laundromat Cafe in South Dakota
 Need a table for breakfast in North Carolina for the Bobcat Bite
 I want a table at a highly rated pub sometime this year
@@ -527,7 +527,7 @@ I need a table for seven in Honduras within walking distance
 Book a reservation for four this Afternoon at a highly rated food court
 Book a reservation for seven people at Fraser Mansion in Illinois
 Book me a table around 11 at a restaurant which serves macaroni and cheese in Tyronza.
-book a table in California  for 2 people in 3 hours
+book a table in California for 2 people in 3 hours
 Book me a reservation at a goan restaurant for 5 people
 I want to book a bar in New Mexico.
 I want to book Meriton Grand Hotel Tallinn in New Jersey for four people.
@@ -703,7 +703,7 @@ Tell me if it will be humid in West Lafayette, Oklahoma
 What's the weather in Poland?
 What is the humidity at my current position
 Will it be colder in the Apache-Sitgreaves National Forest at 6 Pm .
-What kind of weather will be in Virginia  12 years from now?
+What kind of weather will be in Virginia 12 years from now?
 Need weather close-by where I am in state of Mississippi
 What will the weather be in East Tawakoni on november twenty-fourth, 2031?
 Will it be hot at four in Louisiana?
@@ -800,7 +800,7 @@ Will it be hotter on the Isle of Man at lunch?
 how's the forecast for my current spot
 Will there be wind in Anguilla?
 what is the forecast starting on september 1, 2039 for chillier conditions in Alaska
-What will the weather be in a week  near Unionville Center?
+What will the weather be in a week near Unionville Center?
 Tell me when it will blizzard in Estes Park, Utah
 how is the overcast condition to start in one minute in Lower Marlboro in Montserrat
 Give me the weather forecast for Svalbard and Jan Mayen
@@ -862,7 +862,7 @@ What will the weather be here on January twenty-first, 2029?
 What is the weather like in Wyatte
 What will the humidity be here this week?
 Will it still be warm nineteen hours from now in Pennsylvania
-What will the weather be in 3 years  in Eros North Carolina?
+What will the weather be in 3 years in Eros North Carolina?
 Will it be snowy at 04:43 a.m. in North Carolina
 what is the forecast for Gambier
 What kind of temperate will be in Slade?
@@ -2043,7 +2043,7 @@ Find the schedule for The Wild Eye.
 Please look for The Pagans at movie house.
 When will The Flower and the Angry Waves be showing?
 I want to see The Band of Honest Men at the nearest movie theatre.
-What is playing  at the closest movie house
+What is playing at the closest movie house
 show me the movies playing around here
 When is Four Days in November playing at the movie house?
 Can I get the newest movie schedule

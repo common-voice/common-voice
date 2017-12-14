@@ -270,7 +270,7 @@ It does impose some constraints on command ordering, but this isn't a big proble
 Of course, this only reduces the severity of the problem.
 I avoid this entirely, but I don't force the commands to be in a separate utterance.
 This isn't exactly cheap, but it is scalable if we assume hierarchical contexts.
-If I want to dictate variable or function names from code, I just use "cap", "no caps",  and "no space" to help.
+If I want to dictate variable or function names from code, I just use "cap", "no caps", and "no space" to help.
 This way I can keep dictating without any pauses.
 Note that the "Show all" button is helpful for expanding ellipses in commands.
 It costs $40 after a 15-day trial, so I will help you decide whether it is worth the money.

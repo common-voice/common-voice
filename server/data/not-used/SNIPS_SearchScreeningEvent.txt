@@ -1,6 +1,6 @@
 What are the movie schedule at Malco Theatres
 I want to get the movie schedule
-Show me movie time for I Am Sorry  at my movie house
+Show me movie time for I Am Sorry at my movie house
 Find time for Trouble for Two in one minute at Landmark Theatres
 Please show me the movie schedule for movies playing in the neighborhood.
 What are the time for movies playing at Star Theatres?
@@ -157,7 +157,7 @@ movie schedules of movies in the neighbourhood at zero am
 show movie times at sunrise
 Show me the films at the closest cinema
 find movies around here
-show the movie schedule for 9 pm  at Cobb Theatres
+show the movie schedule for 9 pm at Cobb Theatres
 Is The Strange Case of the End of Civilization as We Know It playing at the movie theatre
 What are the movie schedules for Speakeasy Theaters
 What is the movie schedule for movies in the neighborhood
@@ -195,7 +195,7 @@ What time are animated movies playing in the area
 show animated movie at Century Theatres
 find seven AM movies at Dipson Theatres
 Is Prophecy playing at Malco Theatres
-I need a list of places in the area  that I can see animated movies in six minutes
+I need a list of places in the area that I can see animated movies in six minutes
 List movie times at Cinemark Theatres
 Show me a movie theatre where Screamplay is playing
 Find movie times for Great Escape Theatres
@@ -321,7 +321,7 @@ I need to know when Sensation in Morgan’s Creek is playing
 find On Dress Parade
 What are the movie schedules for movies playing in the neighborhood
 show movie schedule at Cinemark Theatres
-movie schedule  of films around here
+movie schedule of films around here
 Which animated movies are playing in the neighbourhood and when?
 Can i get the movie schedules for Speakeasy Theaters?
 What time is Sontha Ooru playing
@@ -492,8 +492,8 @@ Is A Short Film About Killing at North American Cinemas
 What are the movie times for films playing in the area?
 Find time for Hendthighelbedi at the nearest cinema
 Find the schedule for for Corn at eleven A.M. at Loews Cineplex Entertainment.
-What time will the Amco Entertainment  be plying The Teeth of the Tiger
-Find movie schedules for  United Paramount Theatres.
+What time will the Amco Entertainment be plying The Teeth of the Tiger
+Find movie schedules for United Paramount Theatres.
 What animated movies are playing at the closest movie theatre
 Find the schedule for To Shoot an Elephant at the nearest movie theatre.
 find the nearest movie house with Pirates of the 20th Century
@@ -572,7 +572,7 @@ When is Percy Jackson playing at the movie theatre?
 what time is Utamaro and His Five Women showing at Alamo Drafthouse Cinema
 Find the schedule for the closest films at a cinema at meal time.
 What movie times are at Bow Tie Cinemas?
-I'd like to see a movies  at the nearest movie house
+I'd like to see a movies at the nearest movie house
 Which films are playing at the closest cinema?
 What is the movie schedule in five minutes for movies playing in the neighborhood
 I want the nearest movie house with The Debtors
@@ -601,7 +601,7 @@ What are the movie times at the Malco Theatres?
 What films are showing in the neighbourhood?
 find movie schedules for Loews Cineplex
 Show me the nearest movie house showing The Luckiest Girl in the World
-What time is The Cobbler playing  at the closest movie theatre?
+What time is The Cobbler playing at the closest movie theatre?
 can i have the movie schedule for IMassachusettsX Corporation
 what are the movie times for United Paramount Theatres
 Find the schedule for Better This World at a movie house.
@@ -611,7 +611,7 @@ Can I get the movie schedule for 8 a.m.?
 What films are showing in the area?
 What time is The Daring Dobermans playing
 I'm looking for a movie schedule at the Cooper Foundation.
-What is the closest movie house  playing films
+What is the closest movie house playing films
 what is the nearest movie house showing animated movies
 What is the movie schedule for films that are playing nearby in 15 minutes
 What movies are currently at Star Theatres?
@@ -762,7 +762,7 @@ Where and when can I see The Image Makers
 find a Cineplex Odeon Corporation showing movies
 what films are showing around here
 When is Twentynine Palms playing at Plitt Theatres?
-is The Sleeping Beauty playing at 8 A.M.  at Cobb Theatres
+is The Sleeping Beauty playing at 8 A.M. at Cobb Theatres
 When is Dead Birds playing?
 What's the movie schedule for films in the neighbourhood
 Give me the schedule for Getting There: Sweet 16 and Licensed to Drive
@@ -850,7 +850,7 @@ I'd like to watch movies at the nearest movie house
 Find the movie schedule for animated movies in the area.
 find Alamo Drafthouse Cinema with animated movies
 Find the movie schedule for Dipson Theatres.
-Can I get the newest movie schedule in the area  for animated movies?
+Can I get the newest movie schedule in the area for animated movies?
 Find the schedule for animated movies in the area.
 What is the movie schedule at Loews Cineplex Entertainment
 find a cinema nearest for films
@@ -897,7 +897,7 @@ What are the morning movie schedules for movies in the neighborhood?
 Recite the movie schedule.
 Is The Love Guru playing
 find Now and Forever
-Can I get the movie schedules  for Loews Cineplex in six hours seventeen minutes and eighteen seconds.
+Can I get the movie schedules for Loews Cineplex in six hours seventeen minutes and eighteen seconds.
 Can I watch Flower and Snake at movie house in one hour from now?
 I'd like to know what movies are on the movie schedules nearby.
 What time is The Lottery Man playing?
@@ -922,7 +922,7 @@ What is the movie schedule near me?
 What time is Atlantis, terre engloutie playing?
 show me the schedule of films in the neighbourhood
 give me the movie times for movies showing in the neighborhood
-list movies  in the neighbourhood
+list movies in the neighbourhood
 Give me the movie times at Goodrich Quality Theaters.
 Find the movies and movie times in the neighbourhood
 what films are playing at the closest movie house ar
@@ -1011,7 +1011,7 @@ Find the schedule for movie times for movies around here.
 find animated movies around here
 Show films at the nearest cinema
 show the movie schedules
-What are the animated movies in the neighbourhood  for the recent movie times
+What are the animated movies in the neighbourhood for the recent movie times
 What is the movie schedule at the IMassachusettsX Corporation three minutes from now
 When is For Lovers Only playing?
 Is Love and Other Troubles playing
@@ -1207,7 +1207,7 @@ What are the Mann Theatres showtimes for Secret Sunshine
 What are the timings for Starship Troopers 2?
 What movies are playing at Regal Entertainment Group
 what time is The Clutching Hand playing at Amco Entertainment
-Can i get the movie schedule  for films nearby.
+Can i get the movie schedule for films nearby.
 Where is All Night Long 3 playing 1 hour from now
 show movie times now
 Find time for movie times now
@@ -1382,7 +1382,7 @@ What are the movie times for the Caribbean Cinemas?
 Give me the showtimes for Sign of the Anchor.
 Where is The Man with a Cross playing
 Find the schedule for Salt of the Black Earth at the closest movie house.
-When will The Boys Next Door be playing at the nearest  movie house
+When will The Boys Next Door be playing at the nearest movie house
 is Tarzan of the Apes playing at Cobb Theatres
 I want to watch Looney Tunes Platinum Collection: Volume 1 at a movie theatre
 Show me Dombey and Son movies.
@@ -1448,7 +1448,7 @@ Find movie schedules for nearby films.
 show movie schedule in the neighbourhood films at five hours from now
 What is the movie schedule for General Cinema Corporation?
 find a nearby movie schedules for movies
-Show me movie times  at Harkins Theatres.
+Show me movie times at Harkins Theatres.
 show nearest movie theatre to watch Black Jesus
 What movies are playing at AMC Theatres?
 When is That Forward Center Died at Dawn playing at the closest cinema?
@@ -1891,7 +1891,7 @@ find films at Alamo Drafthouse Cinema
 Look up the movie schedule
 What movies are playing at the closest cinema
 What are the movie schedules for animated movies playing in the neighborhood
-Can I get the movies  showtimes for the closest movie house.
+Can I get the movies showtimes for the closest movie house.
 find animated movies in the area
 find close by films with a movie schedule
 find films scheudle in the neighborhood at 2
@@ -1909,7 +1909,7 @@ What time does the next movie play around here
 movie times at Consolidated Theatres
 what movies are showing at Fox Theatres at 11 am
 What time is A Man for Burning playing
-Can I get the showtimes for The Scarlet and the Black  at 12 pm.
+Can I get the showtimes for The Scarlet and the Black at 12 pm.
 Find the movie schedules for animated movies in the neighbourhood.
 What is the movie schedule at Douglas Theatre Company
 Is Love Is a Ball playing right now?
