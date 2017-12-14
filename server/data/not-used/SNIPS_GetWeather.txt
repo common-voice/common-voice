@@ -177,7 +177,7 @@ What is the expected weather forecast for Beckley?
 what is the forecast for the current position
 Will it be overcast at night in Kenmore, Florida?
 Is it cold in Brian Head
-What will the weather be faraway from here 308 days from now
+What will the weather be faraway from here three hundred eight days from now
 is it going to be rainy in Kings Valley, Kosovo next mon.
 Is there snow in jan. in Castle Dale Mayotte
 weather in Radnor Township, West Virginia
@@ -264,7 +264,7 @@ What will the weather be in Overton at 8 pm?
 Will it be overcast a month from now here
 Will there be a storm nearby
 What is the forecast for my current place at 23 o'clock
-Is there going to be any rainfall close to Windber in 365 days
+Is there going to be any rainfall close to Windber in three hundred sixty-five days
 Will it be overcast at lunch time in Saint Vincent and the Grenadines
 Weather in Grey Eagle on Feb. fifteenth, two thousand and thirty-four
 Is it going to rain at my current position
@@ -1809,7 +1809,7 @@ What are the weather conditions in Noel?
 what will the weather be in Florida on 1/11/2030
 What is the forecast here for September 16
 What is the weather forecast for Monument of Lihula
-Tell me if it'll be freezing 333 days from now in Caplinger Mills, Florida
+Tell me if it'll be freezing three hundred thirty-three days from now in Caplinger Mills, Florida
 I need the wather for next week in the Philippines
 What will the weather be like in the Bahamas eleven years and a half from now
 What's the weather like in Topock

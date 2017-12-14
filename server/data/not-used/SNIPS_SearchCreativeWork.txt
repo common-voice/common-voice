@@ -98,7 +98,7 @@ Find a soundtrack called The Dragon.
 Find a television show called Swing High.
 Show me the TV show Have a Nice Day
 Locate me the novel entitled Isthmus.
-find 300: March to Glory, a song
+find three hundred: March to Glory, a song
 I want to watch the show Food Force
 Search for Big Ideas painting
 Please look for the TV show Memoirs from a Bedroom: Issue 1
