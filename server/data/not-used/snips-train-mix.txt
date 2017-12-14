@@ -375,7 +375,7 @@ Book a reservation for a party of 6 at The Waterside Inn
 book a party of nine for an indoor cafe
 Book a reservation at a restaurant nearby their airbnb
 Book a reservation for one at Bouchon in Oregon on 6/13/2039
-Book a restaurant reservation for nine in Virginia  on August 21
+Book a restaurant reservation for nine in Virginia  on August twenty-one
 table for 7 at Blueberry Hill
 I want to book a restaurant for five people.
 I want to book a bistro that serves pasta salad in Brazil.
@@ -417,7 +417,7 @@ Book a reservation for 10 people for highly rated fast food nearby Bristol Bay B
 I want to book a restaurant in Gray Horse.
 I want to book a highly rated restaurant in Lake Junaluska.
 book a restautant in North Dakota at a bistro that is indoor
-I want to book a russian bar for seven people in Minnesota 21 hours from now.
+I want to book a russian bar for seven people in Minnesota twenty-one hours from now.
 I want to book Jacob Wirth Restaurant in West Virginia for me and my baby.
 book a turkish restaurant in Delaware
 I want to book a restaurant distant from lynette's position for julia and rosanna.
@@ -546,7 +546,7 @@ book spot for darlene, lauren gray and sasha in Oregon that serves brasserie
 Need book a table at a steakhouse that has wifi in the country of Malawi
 I want to book a pastelaria cafe in Alabama for me and my great grandfather.
 I need table 12 seconds from now that serves german and has a joint atmosphere
-I want to book a restaurant in Monaco on May 22 for 8 people.
+I want to book a restaurant in Monaco on May twenty-two for 8 people.
 Book me a reservation for twenty two faraway from our place
 table for five at Space Aliens Grill & Bar in FM
 Book me a restaurant reservation for one in GU
@@ -585,7 +585,7 @@ Will there be wind in Hornitos District Of Columbia?
 Is it warm here now?
 what is the forecast for Roulo for foggy conditions on February the eighteenth, two thousand and eighteen
 I want to eat in Wallis and Futuna and get a blizzard
-what is the forecast in 23 hours and seventeen seconds at this current spot
+what is the forecast in twenty-three hours and seventeen seconds at this current spot
 I need a table at a restaurant in Montserrat
 What is the weather forecast for one am. in West Athens, Benin
 What will the weather be this Afternoon in Brilliant Michigan?
@@ -665,7 +665,7 @@ what is the forecast for chillier conditions at Calipuy National Reservation
 Will it rain in Blissfield Namibia nine hours 1 minute and one second from now?
 Is it going to be colder in Bonnie
 What is the weather forecast for Deaver, South Carolina on May 10th
-Want to eat somewhere cold in the neighboring Antlers region on aug. 22
+Want to eat somewhere cold in the neighboring Antlers region on aug. twenty-two
 Is it colder in Istanbul, Turkey or Amarillo, Greece?
 Will it be warm on Pink Hill?
 what is the forecast for Winnabow
@@ -709,7 +709,7 @@ What will the weather be in East Tawakoni on november twenty-fourth, two thousan
 Will it be hot at four in Louisiana?
 Will it be hot in Lake Buena Vista Brunei?
 Will it be warmer in Montana?
-Will it be cold in Maryland on april 21?
+Will it be cold in Maryland on april twenty-one?
 What is the weather forecast near United Kingdom
 Is it chilly in Haiti
 give me the forecast for next Tues. for Ree Heights
@@ -789,9 +789,9 @@ how's the weather in Baywood
 Is it going to be overcast today in Guyana
 Will it be colder in Oaklawn Zambia?
 What kind of weather will be in Tennessee a week from now ?
-Weather on Jul. 23 in Rhode Island
+Weather on Jul. twenty-three in Rhode Island
 Is the weather chillier in Hubbardston
-Will it hail on July 20, two thousand and twenty-seven in Ingalls, Malta
+Will it hail on July twenty, two thousand and twenty-seven in Ingalls, Malta
 Will it be warm in Jenners Kansas?
 What will the weather be in Rwanda?
 What will the weather be in the Black Bayou Lake National Wildlife Refuge?
@@ -868,7 +868,7 @@ what is the forecast for Gambier
 What kind of temperate will be in Slade?
 what is the forecast for Sea Isle City in Louisiana for warmer weather
 Tell me the weather forecast for Island Mountain
-Will it be cold neighboring Antlers on aug. 22?
+Will it be cold neighboring Antlers on aug. twenty-two?
 Will the weather be foggy in Vatican West Carson in 1 hour and one minute?
 What's the weather in New Zealand?
 What will the weather be in Montserrat?
@@ -1814,7 +1814,7 @@ where is No Sleep til Shanghai showing in three hours from now
 Are any films play at the Santikos Theatres
 What is showing at twelve P.M. in the closest movie house
 Find the movie times at Bow Tie Cinemas.
-Find the closest movie theatre with animated movies in 21 hours
+Find the closest movie theatre with animated movies in twenty-one hours
 Is Winged Victory showing anywhere in one minute?
 show me the schedule of movie Thirty Two Short Films About Glenn Gould in 14 minutes
 When is Painless Love playing in the Neighborhood Cinema Group

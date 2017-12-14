@@ -300,7 +300,7 @@ Also, USB 3.0 doesn't work with standard USB hubs.
 Of course, the most important question is whether it actually works better than the old eye tracker.
 After performing calibration, the precision is noticeably better.
 It has always been a mystery to me why this bias cannot be fixed by calibration, because it is so consistent.
-For this reason, I would still recommend sticking with a screen of up to 24 inches.
+For this reason, I would still recommend sticking with a screen of up to twenty-four inches.
 The other improvement is in the tracking area.
 That is no longer a problem, indicating a major improvement.
 Overall I'm happy with the new device, enough that I ordered one for both home and work.

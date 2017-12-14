@@ -132,7 +132,7 @@ Is The King of the Kitchen playing in fifteen hours?
 What movies are going to be screened at Caribbean Cinemas at fourteen o'clock?
 What time is Goodbye Mothers playing?
 show movie times for AMC Theatres
-What movie times start in 22 seconds at Magic Johnson Theatres
+What movie times start in twenty-two seconds at Magic Johnson Theatres
 find films at Showcase Cinemas
 is The Couch Trip at the nearest cinema
 What time is High Tide at Noon showing
@@ -785,7 +785,7 @@ What movie times are there at ArcLight Hollywood
 List movie schedules at Showcase Cinemas
 When is Cooper Foundation on the movie schedule?
 When is Lake City playing at Dipson Theatres?
-What is the movie schedules for the movies nearby playing 23 seconds from now
+What is the movie schedules for the movies nearby playing twenty-three seconds from now
 What is the nearest cinema showing Love in Mandya?
 Find the movie times at Consolidated Theatres.
 What time is Truth About Kerry playing at movie house
@@ -811,7 +811,7 @@ What is the movie schedule for today?
 what are the movies movie times nearby
 Where can I find movie schedules
 Is The Passion of Anna playing four seconds from now at the cinema
-What time is 26 Years Diary showing in the movie house?
+What time is twenty-six Years Diary showing in the movie house?
 Find a movie schedule.
 find a cinema nearest with Sulle Sathya
 find Invisible Child at Southern Theatres
@@ -880,7 +880,7 @@ I want to know the films playing at the closest movie house.
 Where the The Housemaid playing and when
 Find the schedule for movies at Harkins Theatres.
 Are any animated movies playing at Magic Johnson Theatres?
-Is the film Goodrich Quality Theaters playing at 12:26 AM?
+Is the film Goodrich Quality Theaters playing at 12:twenty-six AM?
 Which cinema is currently showing The Youngest Profession?
 Where is the nearest movie house that is playing Sirivantha
 Is Mentioned in Confidence at the cinema
@@ -905,7 +905,7 @@ What is the movie schedule 1 second from now
 What's the closest movie house that's showing animated movies?
 What animated movies are playing at the closest cinema
 What time is The Mourner playing at the movie house?
-Is the start eim 23 hours twenty one minutes and one second from now for Morgan – A Suitable Case for Treatment at Santikos Theatres
+Is the start eim twenty-three hours twenty one minutes and one second from now for Morgan – A Suitable Case for Treatment at Santikos Theatres
 Find the schedule for movie times.
 I'd like to know the movie times for movies nearby me
 Which movies are showing at Southern Theatres?
@@ -1122,7 +1122,7 @@ What movies are at Malco Theatres
 Show a movie schedule with Bow Tie Cinemas
 What time is The Riders of the Whistling Skull playing at Magic Johnson Theatres
 Where can I find the movie schedule?
-Is Arthur 2 – On the Rocks playing at 20:forty-four?
+Is Arthur 2 – On the Rocks playing at twenty:forty-four?
 What movies are playing at Dipson Theatres
 Find the movie schedule.
 Show movie schedule at Amco Entertainment
@@ -1302,7 +1302,7 @@ find Kerasotes Theatres with movie times
 find movie schedules for AMC Theaters
 Can you let me know when Troopers Three is scheduled?
 find films in 12 hours at the nearest movie theatre
-What cinema is showing Ice Station Zebra at 07:25 P.M.?
+What cinema is showing Ice Station Zebra at 07:twenty-five P.M.?
 find a movie schedule
 Can i get the movie times for Fox Theatres?
 find animated movies at Amco Entertainment
@@ -1520,7 +1520,7 @@ find films in the neighborhood
 Find movie schedules.
 What time is The Night Before the Premiere playing at the movie house
 I'd like to watch The Details at the cinema
-is The Slut playing at 07:27 A.M. at Harkins Theatres
+is The Slut playing at 07:twenty-seven A.M. at Harkins Theatres
 Find the movie schedules at Magic Johnson Theatres
 Show movie times of movies in the neighbourhood
 Which is the nearest cinema showing movies that start in nineteen seconds?
@@ -1549,7 +1549,7 @@ What is the movie schedule today at Neighborhood Cinema Group?
 Find what movies are showing at the nearest movie house
 find the nearest movie theatre with movies
 show movie times of Regal Entertainment Group
-I'd like to watch films in 23 hours in the neighborhood
+I'd like to watch films in twenty-three hours in the neighborhood
 What time is The Sea Chase playing
 Find movie schedules for close by films.
 what animated movie are at the theater in the neighborhood
