@@ -571,7 +571,7 @@ Need a table for six close to Big Sandy
 Book a restaurant reservation for my gf and I within walking distance of sondra's university
 Book a reservation at Sunset in Frye Island
 Book a reservation for four for Cherry Hut at Noon
-I want to book a restaurant on april 7th for ten people.
+I want to book a restaurant on april seventh for ten people.
 book a restaurant that serves rolled oyster in Merkel
 Book me a reservation for midday at French Camp Academy
 I want to book a restaurant close by kristie's flat for one person.
@@ -603,7 +603,7 @@ Is the weather chilly in Pintura
 What's the weather in Nigeria?
 Is it hot in the current location?
 Tell me the weather for Oct. the 26th in Rosewood Heights.
-What is the South Dakota forecast for oct. 6th, two thousand and thirty-seven for hot weather at Belle Vernon
+What is the South Dakota forecast for oct. sixth, two thousand and thirty-seven for hot weather at Belle Vernon
 Is it rainy in Greely Center?
 I need the weather in Hubbardston, will it be chillier?
 Will it be colder in Texas?
@@ -724,7 +724,7 @@ Will the weather be good at breakfast in Bay Harbor Islands
 What weather will Hawaii have will there be hail twenty one minutes from now
 What will the weather be nearby in Delaware?
 What will the weather be here at twelve P.m.?
-What is the forecast for Dec. 1st, two thousand and thirty-six in Keeneland
+What is the forecast for Dec. first, two thousand and thirty-six in Keeneland
 Will there be a blizzard this month in Uganda
 Will it be hot in West Union, Malaysia
 What is the weather forecast for Sanborn
@@ -756,7 +756,7 @@ forecast for Guatemala
 Will it be stormy in Old Fort Saint Lucia right now?
 Will the weather be sunny in Lovettsville on may the twenty-fourth, two thousand and twenty?
 What will the weather be in East Liberty Minnesota?
-what is the forecast for Cropsey for Aug. the 5th for warmer weather
+what is the forecast for Cropsey for Aug. the fifth for warmer weather
 what is the forecast within the same area of Zambia
 What will the weather be in Idaho?
 what is the forecast for freezing weather here
@@ -843,7 +843,7 @@ What is the weather now nearby Petit Manan National Wildlife Refuge?
 What will the weather be in Deer River?
 Please check the weather forecast near supper time here.
 Tell me when it will be temperate at Carl's Corner, in Nevada
-What will the weather be in Carlock on nov. the 9th?
+What will the weather be in Carlock on nov. the nineth?
 Tell me the weather forecast for one month from now in Wilkesboro
 weather in Hillsview Massachusetts
 What will the weather be three hours from now within walking distance of Okanogan National Forest?
