@@ -21,7 +21,7 @@ I'd like to see Snowball Express
 find movie schedules at Goodrich Quality Theaters
 When is Beyond My Reach scheduled at the nearest cinema?
 Find the schedule for films at Cobb Theatres.
-find 16 starting time for Heavenly Body
+find sixteen starting time for Heavenly Body
 What animated movies are playing close by at four o'clock?
 Find the movie schedule for films in the area.
 What AMC Theaters is The Red Dance playing at?
@@ -95,7 +95,7 @@ can you find me a showing for Before the Music Dies in one second ?
 Find the movie schedules for Cobb Theatres.
 What is the movie schedules for the Harkins Theatres
 find movie times
-what theaters are showing A Lonely Place to Die – Todesfalle Highlands starting at 14:forty
+what theaters are showing A Lonely Place to Die – Todesfalle Highlands starting at fourteen:forty
 find a cinema closest with animated movies
 Show me movie times at Cooper Foundation.
 find movie times for films close by
@@ -119,7 +119,7 @@ show me movies in the area
 Which animated movies are showing at the Neighborhood Cinema Group?
 What films are playing at the nearest movie theatre
 What time is film showing at Southern Theatres
-Find movie times for Alamo Drafthouse Cinema at 10:thirty-seven P.M..
+Find movie times for Alamo Drafthouse Cinema at ten:thirty-seven P.M..
 What time is I Know That You Know That I Know lpaying
 Show me the films currently playing at the nearest movie theatre
 show the movies at the nearest movie house
@@ -127,7 +127,7 @@ What cinema is The Railway Children
 What are the movie times for movies around here
 Where is The Beach of Lost Children playing
 I'd like to see the showtimes for Silly Movie 2.0 at the movie house
-11 seconds from now find a cinema with First Monday in October
+eleven seconds from now find a cinema with First Monday in October
 Is The King of the Kitchen playing in fifteen hours?
 What movies are going to be screened at Caribbean Cinemas at fourteen o'clock?
 What time is Goodbye Mothers playing?
@@ -268,7 +268,7 @@ what day does the movie Star of the Circus play at ten PM
 what time can i see Older Office Lady: Using Her Seductive Tongue at Star Theatres
 What movies are playing Douglas Theatre Company
 What time is Adam at Six A.M. playing
-Show me the closest 12 A.M. showing at a movie house of an animated movie
+Show me the closest twelve A.M. showing at a movie house of an animated movie
 When and where can I watch National Priority?
 Show me the new showings for animated movies in the neighborhood
 Where can I watch The Sword of Ali Baba at two p.m.?
@@ -283,12 +283,12 @@ What is the movie schedule at MJR Theatres?
 What movie times
 show me the schedule of films in Cobb Theatres
 What time is The Toll of the Sea playing
-ticket for The Perfect Man at Dickinson Theatres at 10 A.M.
+ticket for The Perfect Man at Dickinson Theatres at ten A.M.
 movie schedules for animated movies playing in the neighbourhood
 What is the nearest movie theatre playing Kate y Leopold?
 Find movie times for Century Theatres.
 Where can I see Joy of Learning?
-What films are at IMassachusettsX Corporation at 11 p.m.
+What films are at IMassachusettsX Corporation at eleven p.m.
 Where is Nichiren to Mōko Daishūrai playing
 Find me showtimes for animated movies in the neighbourhood.
 find movie schedule in Pacific Theatres
@@ -400,7 +400,7 @@ When is Scaramouche playing?
 show me the schedule of Outlaw of Gor at nearest movie house at 5 A.M.
 What time is Tommy and Quadrophenia Live playing at Marcus Corporation
 Find the schedule for The Tale of Sweeney Todd at seven o'clock.
-find start time in 12 seconds for National Bomb
+find start time in twelve seconds for National Bomb
 When will Third Person Singular Number be playing?
 Where is Project A Part II playing?
 Which films are playing at the IMassachusettsX Corporation?
@@ -613,7 +613,7 @@ What time is The Daring Dobermans playing
 I'm looking for a movie schedule at the Cooper Foundation.
 What is the closest movie house  playing films
 what is the nearest movie house showing animated movies
-What is the movie schedule for films that are playing nearby in 15 minutes
+What is the movie schedule for films that are playing nearby in fifteen minutes
 What movies are currently at Star Theatres?
 when can iw atch Great Balls of Fire! - Vampate di fuoco
 Find the schedule for Metallica Through the Never.
@@ -635,7 +635,7 @@ I want to know the animated movies playing at Malco Theatres
 what time is The Dungeonmaster playing at AMC Theaters
 Is Lord Jim at the movie house
 I want a list of showings of Days of Fire at Harkins Theatres
-I'm looking for movie times, search movies close by that start at 11:12.
+I'm looking for movie times, search movies close by that start at eleven:twelve.
 What time is the Wanda Group playing The Honor of an Outlaw
 show movie times for animated movies nearby
 fimd films around here
@@ -765,7 +765,7 @@ When is Twentynine Palms playing at Plitt Theatres?
 is The Sleeping Beauty playing at 8 A.M.  at Cobb Theatres
 When is Dead Birds playing?
 What's the movie schedule for films in the neighbourhood
-Give me the schedule for Getting There: Sweet 16 and Licensed to Drive
+Give me the schedule for Getting There: Sweet sixteen and Licensed to Drive
 what time is Twin Peaks: Fire Walk with Me showing
 What are the movie schedules for movies around here?
 What time is Phil Ochs: There but for Fortune playing at the movie house
@@ -827,7 +827,7 @@ List movie schedules for movies playing close by
 show movie times
 Can I get the movie schedules for Megaplex Theatres?
 What movie theatre is playing The Missing Picture
-Is Liberator playing at the IMassachusettsX Corporation at 11?
+Is Liberator playing at the IMassachusettsX Corporation at eleven?
 Which is the nearest cinema showing A Cooler Climate that starts now?
 find Dickinson Theatres showing From Bondage to Freedom
 find Plitt Theatres now showing Poverty and Nobility
@@ -880,7 +880,7 @@ I want to know the films playing at the closest movie house.
 Where the The Housemaid playing and when
 Find the schedule for movies at Harkins Theatres.
 Are any animated movies playing at Magic Johnson Theatres?
-Is the film Goodrich Quality Theaters playing at 12:twenty-six AM?
+Is the film Goodrich Quality Theaters playing at twelve:twenty-six AM?
 Which cinema is currently showing The Youngest Profession?
 Where is the nearest movie house that is playing Sirivantha
 Is Mentioned in Confidence at the cinema
@@ -942,11 +942,11 @@ Show me the movie schedule for movies opening today close by
 Can I see the movie schedules?
 Find the movie schedules for Cineplex Odeon Corporation.
 When will The Flower and the Angry Waves be showing?
-Is I Was an American Spy playing at 11 a.m. at Southern Theatres
+Is I Was an American Spy playing at eleven a.m. at Southern Theatres
 I'd like to know what films are scheduled at Alamo Drafthouse Cinema.
 find movies at the nearest cinema
 What movie times at Megaplex Theatres
-Which cinema is playing Das Ende – Assault on Precinct 13?
+Which cinema is playing Das Ende – Assault on Precinct thirteen?
 Please inform me when I can see The Abdication at a movie theatre.
 What time could I see A Mile in His Shoes?
 What time does A King in New York play in Malco Theatres
@@ -957,7 +957,7 @@ Find the movie schedule for Marcus Corporation.
 find movie times
 What are the movie times for Amco Entertainment
 find movie schedules
-I'd like to watch Demolition Man at 11:09 PM
+I'd like to watch Demolition Man at eleven:09 PM
 What are the movie schedules
 Find the nearest movie theatre that plays Sea Racketeers
 What time is Irreconcilable Differences playing Regal Entertainment Group
@@ -1000,7 +1000,7 @@ When does Of Stars and Men play?
 Which movies are playing at AMC Theaters 1 second from now?
 Find Fish Story 
 Will you show me a schedule for movies around here?
-What films are playing at 11 A.M. at Dickinson Theatres
+What films are playing at eleven A.M. at Dickinson Theatres
 Find the movie schedule.
 What is the movie schedule for films in the neighbourhood
 find movie schedules with animated movies close by
@@ -1215,7 +1215,7 @@ What time will the closest movie house be playing Mark Shoots First
 list animated movies at the nearest cinema
 I'd like to watch All on the Red at 9 o'clock
 find the movie schedules
-Can I get the movie schedules for Southern Theatres at around 15:02
+Can I get the movie schedules for Southern Theatres at around fifteen:02
 Can I get the movie times for in the neighbourhood movies
 what films are playing at KB Theatres
 Find the closest cinema playing The St. Francisville Experiment.
@@ -1290,7 +1290,7 @@ Find the schedule for movies at Star Theatres.
 What films and movie schedule are in the area
 what animated movies are at Fox Theatres
 Find the schedule for films in the neighborhood.
-Whats the closest cinema that shows movies at 12 A.M.
+Whats the closest cinema that shows movies at twelve A.M.
 What films are going to be shown at the nearest movie house?
 Is Race Gurram playing
 Is Blood Is Not Fresh Water playing at this movie theatre at 2 AM?
@@ -1301,7 +1301,7 @@ What are movie times for animated movies close by?
 find Kerasotes Theatres with movie times
 find movie schedules for AMC Theaters
 Can you let me know when Troopers Three is scheduled?
-find films in 12 hours at the nearest movie theatre
+find films in twelve hours at the nearest movie theatre
 What cinema is showing Ice Station Zebra at 07:twenty-five P.M.?
 find a movie schedule
 Can i get the movie times for Fox Theatres?
@@ -1430,7 +1430,7 @@ Which films are playing at Consolidated Theatres?
 Is The Mystical Adventures of Billy Owens playing at the closest movie house
 I'd like to watch movies around here, can I see the movie schedules
 What are the movie schedules for movies showing in the neighbourhood?
-Find a movie schedule for 12 hours from now.
+Find a movie schedule for twelve hours from now.
 Find movie times for films in the area.
 Which cinema is showing A Dedicated Life starting at eleven PM
 What's today's movie schedule
@@ -1467,7 +1467,7 @@ Find the schedule for Without Witness twenty two hours from now.
 movie schedules for Neighborhood Cinema Group
 What is the movie times for General Cinema Corporation
 What Are the showings for The Natural History of Parking Lots movie house
-What is the movie schedule at Cineplex Odeon Corporation 12 hours from now
+What is the movie schedule at Cineplex Odeon Corporation twelve hours from now
 where is The Country Bears playing
 is Ce cher intrus at IMassachusettsX Corporation
 What time is Trouble Every Day playing
@@ -1512,7 +1512,7 @@ find Cinemark Theatres with films
 What time is Stranger in Town playing at the nearest cinema?
 I'd like to watch Nathan the Wise at the closest movie house
 What time is Crawlspace playing at the Caribbean Cinemas
-Find the movie schedule for 12:fifty-three AM
+Find the movie schedule for twelve:fifty-three AM
 Find the movie schedule for movies in the area.
 Find me the movie schedule for ArcLight Hollywood
 What are the movie schedules for Kerasotes Theatres
@@ -1539,7 +1539,7 @@ Find me the showtimes for How to Commit Marriage.
 Find the schedule for No Time to Be Young at AMC Theaters.
 Find movies playing at the closest movie theatre
 Can I know what animated movies are scheduled in the neighbourhood?
-Find the schedule for for The Unnaturals at 13.
+Find the schedule for for The Unnaturals at thirteen.
 find Plitt Theatres showing animated movies
 What is the movie schedule for the North American Cinemas
 When will The Honor of an Outlaw be showing?
@@ -1567,7 +1567,7 @@ Can I get the Cineplex Odeon Corporation showings for Small Town Story?
 what's the closest cinema playing Six Days: Three Activists, Three Wars, One Dream at sunrise
 Can you let me know what animated movies are playing close by?
 Where is Feast II: No Limit playing
-Where theater is playing The Ranger and the Lady at 10 AM
+Where theater is playing The Ranger and the Lady at ten AM
 Find the schedule for movies at the nearest cinema.
 what time is Mulawin: The Movie showing at the nearest movie house
 I want movie times for Fox Theatres
@@ -1628,7 +1628,7 @@ Is Black & White: The Dawn of Justice playing at the movie theatre?
 Is The Umbrellas of Cherbourg playing near me?
 What are the movie schedules
 whats the closest movie house showing Home Room
-What is the nearest movie theatre showing Ocean’s 13?
+What is the nearest movie theatre showing Ocean’s thirteen?
 Find movie times.
 show movie schedule in MJR Theatres
 Tell me what films are playing at Plitt Theatres
@@ -1672,7 +1672,7 @@ What cinema is playing The Edge
 Please show me the movie schedule for today.
 Find the schedule for Heart Beats.
 Show movie schedules at AMC Theaters
-Is the films 19 hours from now playing at Landmark Theatres
+Is the films nineteen hours from now playing at Landmark Theatres
 Show me the movie times
 Show me showtimes at the cinema for Chain of Events.
 What is the films with movie times in the area
@@ -1716,7 +1716,7 @@ I want to go see A Simple Noodle Story in seventeen seconds at Goodrich Quality 
 What films are playing now at the closest movie house?
 what movies are around here
 find animated movies at the nearest movie theatre
-in the neighbourhood find 11 p.m. movie schedules for movies
+in the neighbourhood find eleven p.m. movie schedules for movies
 What time is 楽園追放 -Expelled from Paradise-
 What films are at National Amusements
 Find a movie schedule.
@@ -1761,7 +1761,7 @@ show me the schedule of A Man, a Woman, and a Bank in nearest Neighborhood Cinem
 what time can I expect films to start at the Bow Tie Cinemas
 Is Proudly She Marches playing anywhere?
 Find the schedule for Grand Canyon Trail.
-show me the schedule of movie Thirty Two Short Films About Glenn Gould in 14 minutes
+show me the schedule of movie Thirty Two Short Films About Glenn Gould in fourteen minutes
 What time is American Gun playing
 find Fox Theatres with The Caretaker
 Please tell me the current and local movie times
@@ -1907,9 +1907,9 @@ Where is the closest movie theatre playing Mighty Baby now
 Can I see the movie schedules?
 What time does the next movie play around here
 movie times at Consolidated Theatres
-what movies are showing at Fox Theatres at 11 am
+what movies are showing at Fox Theatres at eleven am
 What time is A Man for Burning playing
-Can I get the showtimes for The Scarlet and the Black  at 12 pm.
+Can I get the showtimes for The Scarlet and the Black  at twelve pm.
 Find the movie schedules for animated movies in the neighbourhood.
 What is the movie schedule at Douglas Theatre Company
 Is Love Is a Ball playing right now?

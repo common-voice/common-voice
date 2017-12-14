@@ -41,8 +41,8 @@ This post will teach you how to set up the basic voice recognition environment.
 I also use eye tracking, but I'll cover that in a separate post.
 Sadly, it's only available for Windows, so you'll have to do Linux development using a virtual machine or remote access.
 I recommend Windows 7, because there are still a lot of bugs in Windows 8.1.
-Dragon 13 only supports select-and-say in particular apps, which is a huge limitation.
-I used Dragon 13 for several months before downgrading thanks to readers' advice in the comments.
+Dragon thirteen only supports select-and-say in particular apps, which is a huge limitation.
+I used Dragon thirteen for several months before downgrading thanks to readers' advice in the comments.
 I don't miss a single feature.
 Any edition is fine, and I use the premium edition.
 I recommend investing in a good microphone.
@@ -273,7 +273,7 @@ This isn't exactly cheap, but it is scalable if we assume hierarchical contexts.
 If I want to dictate variable or function names from code, I just use "cap", "no caps",  and "no space" to help.
 This way I can keep dictating without any pauses.
 Note that the "Show all" button is helpful for expanding ellipses in commands.
-It costs $40 after a 15-day trial, so I will help you decide whether it is worth the money.
+It costs $40 after a fifteen-day trial, so I will help you decide whether it is worth the money.
 It supports three different styles of overlays, although I prefer the circles.
 You can turn the microphone on and off using only your voice.
 Is much less sensitive to spurious awakenings than the sleep mode.
@@ -312,7 +312,7 @@ DeepSpeech is a state-of-the-art deep-learning-based speech recognition system.
 Currently, Mozilla's implementation requires that users train their own speech models.
 This is a resource-intensive process that requires expensive closed-source speech data to get a good model.
 But that brings me to Mozilla's more recent announcement: Project Common Voice.
-Their goal is to crowd-source collection of 10,000 hours of speech data and open source it all.
+Their goal is to crowd-source collection of ten,000 hours of speech data and open source it all.
 Once this is done, DeepSpeech can be used to train a high-quality open source recognition engine.
 This is a Big Deal for hands-free coding.
 To accelerate progress towards this new world of end-to-end open source hands-free coding.

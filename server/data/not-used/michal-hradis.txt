@@ -11,7 +11,7 @@ Does it make sense to have negative weights?
 Equation 5 does not include translation which the text suggests it does.
 The article should be largely rewritten before any resubmission.
 Its observation probabilities are computed as a product of pixel probabilities.
-Anyway, what is the motivation for equation 13?
+Anyway, what is the motivation for equation thirteen?
 It would help the reader to understand your method better.
 The data from Figures 5 and 6 should be represented much better.
 I would argue that much better global and local contrast enhancement methods exist.
