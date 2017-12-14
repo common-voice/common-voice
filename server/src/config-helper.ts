@@ -22,7 +22,7 @@ export type CommonVoiceConfig = {
 };
 
 const DEFAULTS: CommonVoiceConfig = {
-  VERSION: 7, // Used for logging and database versioning.
+  VERSION: 8, // Used for logging and database versioning.
   RELEASE_VERSION: null, // release version set by nubis
   PROD: false, // Set to true for staging and production.
   SERVER_PORT: 9000,
