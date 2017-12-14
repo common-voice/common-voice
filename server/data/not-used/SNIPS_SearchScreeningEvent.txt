@@ -856,7 +856,7 @@ What is the movie schedule at Loews Cineplex Entertainment
 find a cinema nearest for films
 What movies are currently playing at the Caribbean Cinemas
 I'd like to watch films anywhere nearby
-Where is the nearest cinema that has Southside 1-1000?
+Where is the nearest cinema that has Southside 1 to 1000?
 What are the movie schedules at Loews Cineplex Entertainment
 What times will animated movies be showing nearby?
 When are the movie schedules
@@ -1194,7 +1194,7 @@ show me movie schedules
 Is Unsettled Land playing at the movie theatre
 Show me when Scandalous John is playing.
 Is The Matinee Idol 06:30 cinema sold out?
-where is The Yellow Star: The Persecution of the Jews in Europe 1933-45 playing
+where is The Yellow Star: The Persecution of the Jews in Europe 1933 to 45 playing
 show animated movies in nearest movie theatre
 what time can i see Girls to Marry
 I'd like to see the current showtimes for His Kind of Woman
