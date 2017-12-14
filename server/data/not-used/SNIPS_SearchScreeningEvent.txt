@@ -745,7 +745,7 @@ Show movie schedule and movies in the area
 Are any films play at the Santikos Theatres
 find movie times
 Find movie schedules for Bow Tie Cinemas.
-Find the movie schedules for animated movies nearby at 09:forty-four am.
+Find the movie schedules for animated movies nearby at nine:forty-four am.
 what time is The World According to John Coltrane playing
 What movie theatre is the closest that is playing Cheat You Fair: The Story of Maxwell Street right now
 show movie schedules for animated movies playing close by now
@@ -957,7 +957,7 @@ Find the movie schedule for Marcus Corporation.
 find movie times
 What are the movie times for Amco Entertainment
 find movie schedules
-I'd like to watch Demolition Man at eleven:09 PM
+I'd like to watch Demolition Man at eleven:nine PM
 What are the movie schedules
 Find the nearest movie theatre that plays Sea Racketeers
 What time is Irreconcilable Differences playing Regal Entertainment Group
@@ -1033,7 +1033,7 @@ What films are showing at Cineplex Odeon Corporation?
 what are the movie schedules?
 Where is the closest cinema playing Osmanthus Alley
 What are the movie times for the movies in the neighbourhood
-Does The Yacoubian Building start at 08:thirty-nine pm
+Does The Yacoubian Building start at eight:thirty-nine pm
 When's Fools for Luck showing?
 What time is Just Around the Corner playing
 what animated movies are at the nearest movie house
@@ -1193,7 +1193,7 @@ What is the movie schedule
 show me movie schedules
 Is Unsettled Land playing at the movie theatre
 Show me when Scandalous John is playing.
-Is The Matinee Idol 06:thirty cinema sold out?
+Is The Matinee Idol six:thirty cinema sold out?
 where is The Yellow Star: The Persecution of the Jews in Europe nineteen thirty-three to forty-five playing
 show animated movies in nearest movie theatre
 what time can i see Girls to Marry
@@ -1215,7 +1215,7 @@ What time will the closest movie house be playing Mark Shoots First
 list animated movies at the nearest cinema
 I'd like to watch All on the Red at nine o'clock
 find the movie schedules
-Can I get the movie schedules for Southern Theatres at around fifteen:02
+Can I get the movie schedules for Southern Theatres at around fifteen:two
 Can I get the movie times for in the neighbourhood movies
 what films are playing at KB Theatres
 Find the closest cinema playing The St. Francisville Experiment.
@@ -1302,7 +1302,7 @@ find Kerasotes Theatres with movie times
 find movie schedules for AMC Theaters
 Can you let me know when Troopers Three is scheduled?
 find films in twelve hours at the nearest movie theatre
-What cinema is showing Ice Station Zebra at 07:twenty-five P.M.?
+What cinema is showing Ice Station Zebra at seven:twenty-five P.M.?
 find a movie schedule
 Can i get the movie times for Fox Theatres?
 find animated movies at Amco Entertainment
@@ -1360,7 +1360,7 @@ What animated movies are playing at IMassachusettsX Corporation?
 What time is See Grace Fly playing at Cineplex Odeon Corporation
 Show movie schedules for Marcus Corporation
 Can I get the showtimes for Fit for a King?
-find a movie house for 07:fifty-two showing Ganges: River to Heaven
+find a movie house for seven:fifty-two showing Ganges: River to Heaven
 Can you tell me the movie times for Alamo Drafthouse Cinema
 what films are on the movie schedule around here 
 Can you give me the movie schedule for Amco Entertainment?
@@ -1520,7 +1520,7 @@ find films in the neighborhood
 Find movie schedules.
 What time is The Night Before the Premiere playing at the movie house
 I'd like to watch The Details at the cinema
-is The Slut playing at 07:twenty-seven A.M. at Harkins Theatres
+is The Slut playing at seven:twenty-seven A.M. at Harkins Theatres
 Find the movie schedules at Magic Johnson Theatres
 Show movie times of movies in the neighbourhood
 Which is the nearest cinema showing movies that start in nineteen seconds?
