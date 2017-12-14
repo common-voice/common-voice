@@ -2,14 +2,14 @@ Coding without a mouse?
 Easy, just use any decent text editor.
 But coding without a mouse or a keyboard?
 That's where things get interesting.
-About three years ago, I set up Dragon Naturally Speaking on my home computer. 
+About three years ago, I set up Dragon Naturally Speaking on my home computer.
 I give my hands a chance to heal from RSI (Repetitive Strain Injury) on the weekends.
 I mostly used it for web browsing and occasionally writing emails.
 It was a great relief
 Finally I didn't have to feel guilty for using my computer on weekends.
 But it was also very limited, especially when it came to coding.
 I'm a professional software engineer, and I liked my job, but I also wanted to work on side projects.
-I tried one of the leading Dragon extensions to help with this, Voice Code. 
+I tried one of the leading Dragon extensions to help with this, Voice Code.
 After a few hours I decided it was too frustrating and slow, and the software just wasn't there yet.
 A couple years later I watched a great talk by Tavis Rudd, Using Python to Code by Voice.
 I was put to shame.
