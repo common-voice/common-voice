@@ -565,7 +565,7 @@ there is warmer at Serenada
 When will it be warmer in White Horse, Mauritius
 What's the weather in Swift River Reservation
 Check the weather forecast for Pineridge.
-Is it going to be colder in Botswana by 09:30
+Is it going to be colder in Botswana by 09:thirty
 What's the weather in La Pine
 Tell me the weather forecast for Missouri
 What's the weather like in Big Delta
@@ -628,7 +628,7 @@ What will the weather be at my current location on december the 2nd, two thousan
 Will it get chillier in 12 years  in Greenland?
 what's the weather going tbe twenty three minutes from now in Federico Albert National Reserve
 What's the weather at eleven PM in Craig Mountain Wildlife Management Area
-What's the weather forecast for Lenexa United Kingdom at 02:31
+What's the weather forecast for Lenexa United Kingdom at 02:thirty-one
 What was the weather last February in William A. Switzer Provincial Park?
 Tell me the weather forecast for Alexander, South Dakota
 Will it be cold in Chatmoss Albania 8 years and a half from now
@@ -1874,7 +1874,7 @@ in California will it be cold in East Trenton Heights
 What will the weather be in Romania at 4?
 What is the weather like in Wallis and Futuna?
 Check the forecast for Keene.
-Can I get the weather forecast for Benin in 32 days?
+Can I get the weather forecast for Benin in thirty-two days?
 What's the weather forecast in Nationalpark Banc d’Arguin?
 will there be hail in Kaffir
 What is the weather like in North Salt Lake and Afghanistan?

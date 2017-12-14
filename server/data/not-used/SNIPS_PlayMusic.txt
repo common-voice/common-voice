@@ -176,7 +176,7 @@ Play Johnny Gimble
 play music from nineteen eighty-one
 play music on Netflix
 Play a tune by Andrew Findon
-Play the playlist, A Mis Niños de 30.
+Play the playlist, A Mis Niños de thirty.
 Play some chanson music
 Play a movement from nineteen seventy-four.
 Can you play Maggie Mae on Netflix
@@ -937,7 +937,7 @@ Play some fast fusion on Spotify
 Play The God That Failed on Vimeo.
 Open up music on Last Fm.
 Play some David Mallett on last fm
-play playlist A Mis Niños de 30
+play playlist A Mis Niños de thirty
 Play This Is: Animal Collective please
 play the latest melody from Cliff Edwards on Deezer
 play any sixties song

@@ -119,7 +119,7 @@ show me movies in the area
 Which animated movies are showing at the Neighborhood Cinema Group?
 What films are playing at the nearest movie theatre
 What time is film showing at Southern Theatres
-Find movie times for Alamo Drafthouse Cinema at 10:37 P.M..
+Find movie times for Alamo Drafthouse Cinema at 10:thirty-seven P.M..
 What time is I Know That You Know That I Know lpaying
 Show me the films currently playing at the nearest movie theatre
 show the movies at the nearest movie house
@@ -1033,7 +1033,7 @@ What films are showing at Cineplex Odeon Corporation?
 what are the movie schedules?
 Where is the closest cinema playing Osmanthus Alley
 What are the movie times for the movies in the neighbourhood
-Does The Yacoubian Building start at 08:39 pm
+Does The Yacoubian Building start at 08:thirty-nine pm
 When's Fools for Luck showing?
 What time is Just Around the Corner playing
 what animated movies are at the nearest movie house
@@ -1178,7 +1178,7 @@ are there any movies playing around here
 Where can I watch Hank Williams: The Show He Never Gave?
 Showtimes for Butterfly on a Wheel.
 What movies are playing at the closest cinema
-What time is 30 Days of Night playing?
+What time is thirty Days of Night playing?
 Fine movie times for animated movies in the neighborhood.
 Show me schedules to see A Film with Me in It.
 movie schedule for animated movies in the neighborhood
@@ -1193,7 +1193,7 @@ What is the movie schedule
 show me movie schedules
 Is Unsettled Land playing at the movie theatre
 Show me when Scandalous John is playing.
-Is The Matinee Idol 06:30 cinema sold out?
+Is The Matinee Idol 06:thirty cinema sold out?
 where is The Yellow Star: The Persecution of the Jews in Europe nineteen thirty-three to forty-five playing
 show animated movies in nearest movie theatre
 what time can i see Girls to Marry

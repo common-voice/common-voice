@@ -175,7 +175,7 @@ Can you get seating for a group of 6 at twenty o'clock at a restaurant and spa f
 I want to go to the Freight House in Gabon
 I need a table for nine at a restaurant in Pelican Bay serving chips on December 6, two thousand and thirty-one
 book a spot for robyn martinez, maude and I at a steakhouse not far from their place
-I would like to book a restaurant in Poncha Springs for 8 at 00:32 am
+I would like to book a restaurant in Poncha Springs for 8 at 00:thirty-two am
 book in South Dakota for lobster newberg at a pub
 book a masala bar on march 6, two thousand and thirty-four
 Book a reservation for ten at a restaurant in AMerican Samoa at 2 am
@@ -562,7 +562,7 @@ book a pub in Clermont for 8 people
 Book reservations at restaurant in Edgemoor New Mexico on august 3, two thousand and twenty-four
 I would like to book a restaurant for two in forty-two weeks from now in Wagram
 Book a restaurant in Everson Nevada that serves conchiglie for two people.
-Please book a restaurant for ten members near downtown at 20:38
+Please book a restaurant for ten members near downtown at 20:thirty-eight
 Book a table for 6 in The Cheese Course, Blocher on February the 10th.
 Book a table for me, naomi and elisabeth at a brasserie with wifi
 need a table at a highly rated south tyrolean joint
@@ -784,7 +784,7 @@ Book a reservation for six for a tyrolean oyster bar
 Book me a reservation for Fatty Crew in 13 weeks in Haskell
 Make me a reservation at a fast food restaurant for elba and corina at a restaurant with parking
 book Itsu for Tonight
-book The Kegs Drive-In in 37 weeks  in Saudi Arabia
+book The Kegs Drive-In in thirty-seven weeks  in Saudi Arabia
 I'd like a table at a top-rated tea house with javanese cuisine this week in Germany
 book a restaurant for me and my mother in law in Montserrat
 Book me a table at a top-rated tea house in Suriname
@@ -1123,7 +1123,7 @@ book a restaurant close to Grant Av
 Book reservation for 2 people tomorrow in Whitewater
 I need a table for 8 people at a restaurant in District Of Columbia.
 book a table for ten people
-Book a restaurant for 9 at 00:37 PM
+Book a restaurant for 9 at 00:thirty-seven PM
 Book a restaurant in Botswana for seven people.
 Book Georgetown Cupcake in Keller for tea time.
 Book a restaurant for marcella, erma and leanne rivera.
