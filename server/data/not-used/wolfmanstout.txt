@@ -40,7 +40,7 @@ A hands-free coding environment has a lot of moving parts, which can be overwhel
 This post will teach you how to set up the basic voice recognition environment.
 I also use eye tracking, but I'll cover that in a separate post.
 Sadly, it's only available for Windows, so you'll have to do Linux development using a virtual machine or remote access.
-I recommend Windows 7, because there are still a lot of bugs in Windows 8.1.
+I recommend Windows seven, because there are still a lot of bugs in Windows eight.1.
 Dragon thirteen only supports select-and-say in particular apps, which is a huge limitation.
 I used Dragon thirteen for several months before downgrading thanks to readers' advice in the comments.
 I don't miss a single feature.
@@ -194,7 +194,7 @@ VirtualBox provides its own rootless mode.
 When I tried it about a year ago it didn't work nearly as well as using it on my local machine.
 The trick to setting this up is to configure port forwarding within Virtual Box.
 Then connect to localhost within Windows.
-The process is a bit complicated due to recent changes that have limited the free feature set in version 4.
+The process is a bit complicated due to recent changes that have limited the free feature set in version four.
 You can also try open source clients, but make sure to choose one that supports rootless mode.
 The final component of my setup is to use Putty for SSH port tunneling.
 As I will describe in another post, I run an HTTP server.
@@ -295,8 +295,8 @@ If you know of other games that play well with hands-free control, please post i
 It arrived just a few days after I ordered it, and came with a complementary USB extension cable.
 I got used to the bright red lights, but I'm happy to not have those blaring at me all the time anymore.
 The new lights are primarily using infrared wavelength, although you will still see a red glow.
-This is supposed to reduce host CPU load and makes it possible to use USB 2.0 instead of 3.0.
-Also, USB 3.0 doesn't work with standard USB hubs.
+This is supposed to reduce host CPU load and makes it possible to use USB two.0 instead of three.0.
+Also, USB three.0 doesn't work with standard USB hubs.
 Of course, the most important question is whether it actually works better than the old eye tracker.
 After performing calibration, the precision is noticeably better.
 It has always been a mystery to me why this bias cannot be fixed by calibration, because it is so consistent.

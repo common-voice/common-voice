@@ -8,12 +8,12 @@ My impression after reading the article is that you are going to make the datase
 The article seems to propose replacing the method of approximate nearest neighbor search.
 However, the article is written poorly and incomprehensibly.
 Does it make sense to have negative weights?
-Equation 5 does not include translation which the text suggests it does.
+Equation five does not include translation which the text suggests it does.
 The article should be largely rewritten before any resubmission.
 Its observation probabilities are computed as a product of pixel probabilities.
 Anyway, what is the motivation for equation thirteen?
 It would help the reader to understand your method better.
-The data from Figures 5 and 6 should be represented much better.
+The data from Figures five and six should be represented much better.
 I would argue that much better global and local contrast enhancement methods exist.
 Image registration could be easily incorporated into low-power embedded devices.
 Without the dataset, the article is useless.
@@ -40,7 +40,7 @@ I don’t know how comfortable it would be for a person.
 Is it for further automatic processing? 
 I can not help but feel that this topic is hopelessly outdated.
 The experiments are unconvincing.
-The only meaningful results are currently in Table 9.
+The only meaningful results are currently in Table nine.
 It should provided results comparable to the state of the art.
 I feel quite ambivalent about the article.
 The text implies that method handles scaling, rotation, and translation.
