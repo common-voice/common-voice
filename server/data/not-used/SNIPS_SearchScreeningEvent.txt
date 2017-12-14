@@ -856,7 +856,7 @@ What is the movie schedule at Loews Cineplex Entertainment
 find a cinema nearest for films
 What movies are currently playing at the Caribbean Cinemas
 I'd like to watch films anywhere nearby
-Where is the nearest cinema that has Southside 1 to 1000?
+Where is the nearest cinema that has Southside 1 to one thousand?
 What are the movie schedules at Loews Cineplex Entertainment
 What times will animated movies be showing nearby?
 When are the movie schedules
