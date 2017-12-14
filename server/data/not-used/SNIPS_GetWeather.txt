@@ -303,13 +303,13 @@ Will it be nice in Reager MP
 What is the weather like now in Washington
 Will it get chilly one minute from now in Carterville?
 Will be it cloudy close by Azerbaijan in fifty-five weeks ?
-Will it rain on sep. 25th in East Tawakoni
+Will it rain on sep. twenty-fifth in East Tawakoni
 Will it be freezing close to my current location
 Will there be snowfall this month in Utah
 whats the forecast for Redby
 What's the weather like in Wyandotte Netherlands Antilles
 I'd like the weather forecast for Albania
-What will the weather be in Rutherfordton Rhode Island on September 22nd, two thousand and seventeen?
+What will the weather be in Rutherfordton Rhode Island on September twenty-second, two thousand and seventeen?
 what is the Currituck National Wildlife Refuge forecast for chilly conditions
 Will it be cold at one am in Boon?
 Give me the weather forecast for the city of Woburn
@@ -420,7 +420,7 @@ What will the weather be like one second from now in Pugu Hills Forest Reserve
 What is the weather forecast for Boden
 Is it snowy in Fort Ross State Historic Park?
 I need the weather in Hubbardston, will it be chillier?
-What will the weather be here on dec. 25th?
+What will the weather be here on dec. twenty-fifth?
 Will it be warmer in Flag?
 will the sun come out today in Houston
 Will it be warmer at fourteen o'clock in Atlas Mongolia
@@ -480,7 +480,7 @@ Weather here at two pm
 What is the weather forecast for my current place?
 What's the weather going to be like around Lewis and Clark Trail sixteen hours from now?
 What's the weather in Oregon
-Will it get chillier in Las Lomas, British Virgin Islands on Nov. the 21st?
+Will it get chillier in Las Lomas, British Virgin Islands on Nov. the twenty-first?
 What is the weather forecast for Winger
 What's the weather in Wisconsin on National Maritime Day
 Will it be colder in San Pablo today?
@@ -496,7 +496,7 @@ Will it get hotter in Hext?
 what's the weather like in El Salvador on wed.
 there is fog weather in Grand Lake Nebraska
 Find the weather prediction for Camdeboo-Nationalpark for jan. eleventh, two thousand and thirty-seven.
-What is the weather going to be like in Klondike Gold Rush National Historical Park on february the 28th, two thousand and thirty-four?
+What is the weather going to be like in Klondike Gold Rush National Historical Park on february the twenty-eigth, two thousand and thirty-four?
 will there be a snowstorm in eight months at Chattahoochee River National Recreation Area
 What is the weather forecast for Theodore Roosevelt Inaugural National Historic Site
 what is the forecast for foggy conditions here in twenty one minutes
@@ -699,7 +699,7 @@ Will it be windy at Medicine Rocks State Park on May twenty-four
 Tell me the weather forecast for Wyoming
 Will it be stormy not far from Idaho on 10/2/2021
 What is the forecast in Lono
-What's the weather forecast for Togo on April the 24th?
+What's the weather forecast for Togo on April the twenty-fourth?
 What's the weather forecast for Arizona City?
 Tell me if it'll be freezing in five years  in Rockholds, Norfolk Island
 what will the weather be in Double Oak at twelve am
@@ -731,7 +731,7 @@ Will it be warm next winter in Smolan, Burkina
 Will there be fog in my current position
 What's the forecast for Illinois around tea time? 
 what is the forecast for around Putnam Lake
-will it be hotter Netherlands Antilles Flats on april the 27th
+will it be hotter Netherlands Antilles Flats on april the twenty-seventh
 Will the weather in Falcon Heights call for rain?
 what will the weather be for Hooksett
 what is the forecast for here fir storm conditions next week
@@ -856,7 +856,7 @@ Is it forecast to be warm in Bosnia and Herzegovina?
 will it be a snowy day in Dalcour
 Is there a cloud in the sky in Thornville on Feb. fifth
 What is the weather going to be like on st. patrick's day?
-What will be the forecast for Belarus in the future around sep. the 22nd, two thousand and twenty?
+What will be the forecast for Belarus in the future around sep. the twenty-second, two thousand and twenty?
 will there be a blizzard in Kettleman City today
 will it be cloudy in one minute in Jungo MH
 What is the weather forecast now in Texas?
@@ -1181,7 +1181,7 @@ Give me the weather forecast in Boma for next summer
 Will it be warmer in Minidoka Oklahoma on good friday?
 Tell me if it will be hotter in seven hours in Doyle, United States
 Will it be warmer in Poplar Bluff
-What's the weather for New York on July the 28th, two thousand and thirty-two
+What's the weather for New York on July the twenty-eigth, two thousand and thirty-two
 Will it be snowy here soon
 How is the weather in Indian Creek Village?
 How will the weather be at nine am in Anguilla?
@@ -1213,7 +1213,7 @@ Tell me the weather forecast for Inniswold, Réunion
 What's the weather like in Boca Raton, Iowa
 Will it blizzard today in Sint Maarten
 Will it be overcast in seventeen minutes in the United Arab Emirates
-What's the weather forecast for Croatia on jul. 25th
+What's the weather forecast for Croatia on jul. twenty-fifth
 Tell me the weather forecast for September twenty-one, two thousand and thirty in Palau
 What will the weather be like four seconds from now in South Dakota
 will it be cold in Carnot Oregon
@@ -1235,7 +1235,7 @@ What will the weather be in Palm Bay Pennsylvania?
 Tell me if it'll be humid at eighteen o'clock in my current spot
 will it be colder this Saturday in North Carolina
 What's the weather forecast for Moss Hill?
-What will be the wind speed around Pembina Gorge State Recreation Area October the 27th?
+What will be the wind speed around Pembina Gorge State Recreation Area October the twenty-seventh?
 will it be warm within walking distance of Saint Pierre and Miquelon
 Is there a depression in Solromar on december seven, two thousand and thirty-three
 What's the weather in Castle at seventeen:forty-three
@@ -1299,7 +1299,7 @@ What's the weather forecast for here?
 Will there be a blizzard at two am in my current place
 What's the weather forecast for Michigan for August twentieth?
 Tell me the weather forecast for Equatorial Guinea
-Is it freezing on Jun. the 21st in Apshawa South Africa
+Is it freezing on Jun. the twenty-first in Apshawa South Africa
 Weather for noon in California 
 Is there any predicted snowfall in two months in Vandalia, El Salvador
 How will the weather be in Kentucky this week?
@@ -1350,7 +1350,7 @@ what is the forecast for Chandler
 Will it be hot in New York on october the first, two thousand and twenty-six?
 Is it hotter here on Navy Birthday
 Give me the forecast for feb. eleventh, two thousand and thirty-four far from Alaska
-Tell me if it'll be rainy here on Dec. the 25th, two thousand and thirty-three
+Tell me if it'll be rainy here on Dec. the twenty-fifth, two thousand and thirty-three
 What is the weather forecast in Brunei
 What will the weather be in Croatia?
 What will the weather be in Catahoula National Wildlife Refuge?
@@ -1431,7 +1431,7 @@ Is there snowfall in Zec Mitchinamecus at thirteen
 Is there fog in New York
 Will it be stormy in Massachusetts
 What's the forecast for Harper, Maine?
-What will the weather be like on september 26th in Eastlake
+What will the weather be like on september twenty-sixth in Eastlake
 What is the weather forecast for Tanque
 What is the weather like in Colorado?
 tell me the weather for next week at Cathedral State Park
@@ -1565,7 +1565,7 @@ Will it be overcast in one minute within walking distance of Ohio
 Will it be hotter in Pruntytown Rhode Island
 I want to know the temperate from January the twentieth in Brazil
 Is it hot in Round Hill Hawaii
-what is the weather in current location on december the 23rd, two thousand and twenty-seven
+what is the weather in current location on december the twenty-third, two thousand and twenty-seven
 what is the forecast for a day from now in Liechtenstein
 Will it rain in Deersville
 Tell me when it will be warmer in my current position
@@ -1684,7 +1684,7 @@ Tell me the weather forecast for Carmichaels, Gambia at one am
 Is it hot in Wind Ridge Guam
 What is the temperature at Eifel National Park
 Will it get warmer in Holy Cross Wilderness
-Will it be chilly in Penuelas Indonesia on Nov. 26th, two thousand and thirty
+Will it be chilly in Penuelas Indonesia on Nov. twenty-sixth, two thousand and thirty
 Will it be stormy on 4/3/2027 in New Rochelle, Wyoming
 Will it be chillier on october seventeen nearby East Glacier Park
 Is it cold in Windhorst
@@ -1804,7 +1804,7 @@ Warren Island State Park distant Weather forecast for eleven am
 What is the forecast for Dec. fifteen in Lake Woodruff National Wildlife Refuge
 What is the forecast for the Wildreservaat Ithala in the distant future will it be colder
 what is the Coulee City Montana forecast
-Will it be snowy on January 26th in Trentwood, Illinois
+Will it be snowy on January twenty-sixth in Trentwood, Illinois
 What are the weather conditions in Noel?
 what will the weather be in Florida on 1/11/2030
 What is the forecast here for September sixteen
@@ -1900,7 +1900,7 @@ what is the Philippines forecast for humid weather
 how much hotter will it be once close to Namibia
 What's the weather like in Schenectady Massachusetts?
 What is the weather forecast in Pinson South Dakota
-What will the weather be within the same area in Minnesota on June 27th, two thousand and twenty-three?
+What will the weather be within the same area in Minnesota on June twenty-seventh, two thousand and twenty-three?
 weather in one minute in
  Norfolk Island
 What is the weather one second from now in Blue Ridge Berryessa Natural Area
@@ -1969,7 +1969,7 @@ What will the weather be like in one minute in my current position
 Will it be windy in Breaux Bridge, Turks and Caicos Islands eleven hours from now?
 Is it going to be hot on Oct. the eigth, two thousand and twenty in the neighboring Greenland area
 Is it going to be warmer in Town Kelloe Bank?
-what is the forecast for Bonner starting oct. 24th, two thousand and twenty-five for Argentina
+what is the forecast for Bonner starting oct. twenty-fourth, two thousand and twenty-five for Argentina
 On jan. the twentieth what will it feel like in Connecticut or the area not far from it
 What's the forecast for Lake Ilo National Wildlife Refuge
 What is the weather supposed to be like on Sep. twenty in Maltby, Russia

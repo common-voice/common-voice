@@ -326,7 +326,7 @@ Book reservation in Gasconade at the best restaurant in District Of Columbia
 Book spot at Fried chicken restaurant in Mauritania
 I need a table at spa joint
 book spot for four in Somalia
-book spot for John Pearson Soda Works in Cambodia on Mar. 21st, two thousand and twenty-three
+book spot for John Pearson Soda Works in Cambodia on Mar. twenty-first, two thousand and twenty-three
 I want to make a reservation for one at a sushi restaurant in Brucetown
 I want to book The Hat for my grandfather and I in Arkansas.
 party of six this week in Oman
@@ -602,7 +602,7 @@ What will the weather be in Sche-Phoksundo-Nationalpark on leif erikson day?
 Is the weather chilly in Pintura
 What's the weather in Nigeria?
 Is it hot in the current location?
-Tell me the weather for Oct. the 26th in Rosewood Heights.
+Tell me the weather for Oct. the twenty-sixth in Rosewood Heights.
 What is the South Dakota forecast for oct. sixth, two thousand and thirty-seven for hot weather at Belle Vernon
 Is it rainy in Greely Center?
 I need the weather in Hubbardston, will it be chillier?
@@ -689,7 +689,7 @@ Weather in Gibraltar at meal time
 Tell me if it will be foggy in Maxwell
 What is the forecast for in one minute here
 Weather conditions in East Pasadena
-Will the weather be colder on jul. 21st, two thousand and twenty in Hawaii in Gost Creek
+Will the weather be colder on jul. twenty-first, two thousand and twenty in Hawaii in Gost Creek
 Weather in Grey Eagle on Feb. fifteenth, two thousand and thirty-four
 what is the weather in Cotton Valley
 What is the weather forecast for Cistern
@@ -735,7 +735,7 @@ what is the forecast starting three weeks from now for Point Isabel
 When will there be a cloud in Australia?
 Was there rainfall last mar. in Greenbrier Egypt?
 what is the forecast starting next week in Guam
-Will it get chillier in Las Lomas, British Virgin Islands on Nov. the 21st?
+Will it get chillier in Las Lomas, British Virgin Islands on Nov. the twenty-first?
 Tell me the weather forecast in one hour for District Of Columbia in Kaysville
 Tell me the weather forecast for here in seven years 
 how's the weather in Northfield Center Maine
@@ -781,7 +781,7 @@ What is the weather forecast for California on august the thirteenth, two thousa
 what is the forecast for temperate weather in five weeks at Daisy Lake Uplands Provincial Park
 Will it be hot in one minute in Massachusetts
 Will it be windy in New Mexico?
-Will it be colder in Gost Creek Hawaii on jul. 21st, two thousand and twenty
+Will it be colder in Gost Creek Hawaii on jul. twenty-first, two thousand and twenty
 What is th weather going to be like mar. the twenty-third in the city of Value
 Tell me when sunrise is in Tennessee
 What is the weather like in Newton
