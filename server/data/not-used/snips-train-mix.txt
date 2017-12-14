@@ -394,7 +394,7 @@ I want to book a restaurant in Cooperdale for five people.
 Book me a reservation for Ad Hoc in Brazil for a party of seven
 Book me a reservation for a rajasthani restaurant in Micronesia
 I want to book a restaurant in Glenarden South Dakota for two people.
-Book a reservation for a highly rated cafeteria on october the 11th
+Book a reservation for a highly rated cafeteria on october the eleventh
 book a table in Grove Place for two
 book a table for now for four for an oyster bar
 Book me a reservation for six in Mar. at a coffeehouse neighboring Scott Depot
@@ -556,7 +556,7 @@ I want to book an oyster bar for one in the Navy Yard City.
 is there a table available for my daughters and I at The Octagon, Christchurch
 I want to book a ethiopian food court in Montenegro.
 want to eat at a tea house for five
-I want to book a restaurant nearby Carrickfergus for February 10th.
+I want to book a restaurant nearby Carrickfergus for February tenth.
 book a table in Florida at Ariston Cafe for seven am
 Book a reservation for the best restaurant not far from VI
 Book a reservation for one at an italian taverna for two Pm in Hutchings, North Dakota
@@ -595,7 +595,7 @@ What will the weather be in Battle Lake?
 Will it be temperate in the current place?
 What is the weather for eight o'clock in Laos that is within walking distance
 Tell me if it will it be windy in Grizzled Squirrel Wildlife Sanctuary
-Will it be windy here on Dec. 16th?
+Will it be windy here on Dec. sixteenth?
 What is the weather forecast for Danvers
 Will it be freezing on Jul. seven, two thousand and thirty-eight in Vananda Alaska?
 What will the weather be in Sche-Phoksundo-Nationalpark on leif erikson day?
@@ -624,7 +624,7 @@ Weather in Malaysia
 Need weather for one pm in Russell Gardens or close-by
 Will it be windy in John Day?
 What's the weather like at Nationaal park Bạch Mã
-Will it be hotter in Hungary on February the 16th?
+Will it be hotter in Hungary on February the sixteenth?
 What will the weather be at six o'clock in the Virgin Islands?
 is the weather going to be hotter in Rhode Island in one year
 What is the weather in Weidman will it be warm
@@ -664,7 +664,7 @@ is it cloudy in Turkmenistan
 what is the forecast for chillier conditions at Calipuy National Reservation
 Will it rain in Blissfield Namibia nine hours one minute and one second from now?
 Is it going to be colder in Bonnie
-What is the weather forecast for Deaver, South Carolina on May 10th
+What is the weather forecast for Deaver, South Carolina on May tenth
 Want to eat somewhere cold in the neighboring Antlers region on aug. twenty-two
 Is it colder in Istanbul, Turkey or Amarillo, Greece?
 Will it be warm on Pink Hill?
@@ -747,7 +747,7 @@ what is the forecast for Tennessee
 Will it be freezing in El Casco Czechia on Apr. fourteenth, two thousand and thirty-three?
 want to eat somewhere windy in New Mexico
 Weather in Witt october twenty-sixth
-Will it be snowy on february the 14th, two thousand and twenty-one in Port Armstrong?
+Will it be snowy on february the fourteenth, two thousand and twenty-one in Port Armstrong?
 Will there be rainfall in Ryland Heights New York?
 what is the forecast for Lesotho
 Please check the weather forecast for Mauritania on August fourteen, two thousand and forty.
@@ -777,7 +777,7 @@ When will it be warmer in Benin
 forecast for Conrad
 Will it be hotter in Cale?
 Weather in Park Layne
-What is the weather forecast for California on august the 13th, two thousand and nineteen?
+What is the weather forecast for California on august the thirteenth, two thousand and nineteen?
 what is the forecast for temperate weather in five weeks at Daisy Lake Uplands Provincial Park
 Will it be hot in one minute in Massachusetts
 Will it be windy in New Mexico?
@@ -1803,7 +1803,7 @@ Find the schedule for Metallica Through the Never.
 I need movie times at United Paramount Theatres
 Is Mark of the Cop showing in the closest movie theatre
 Check which cinema currently runs When the Last Sword is Drawn.
-When doesFun 2shh: Dudes in the 10th Century start at the closest movie theatre.
+When doesFun 2shh: Dudes in the tenth Century start at the closest movie theatre.
 I would like to see a movie at the nearest movie house.
 Find the movie schedule.
 when is Interview: The Documentary playing in Loews Cineplex
