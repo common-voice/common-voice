@@ -926,7 +926,7 @@ list movies  in the neighbourhood
 Give me the movie times at Goodrich Quality Theaters.
 Find the movies and movie times in the neighbourhood 
 what films are playing at the closest movie house ar
- elevenses
+elevenses
 Please show me the films playing at Loews Cineplex Entertainment.
 What's the closest cinema playing Chuckys Baby now?
 Is Hollows Grove playing at any movie theatre at ten pm?
@@ -1676,7 +1676,7 @@ Is the films 19 hours from now playing at Landmark Theatres
 Show me the movie times
 Show me showtimes at the cinema for Chain of Events.
 What is the films with movie times in the area
- What is the nearest cinema playing The Hour of Temptation
+What is the nearest cinema playing The Hour of Temptation
 What films are playing at Pacific Theatres
 find Mann Theatres movie schedule
 what animated movies can i see at Malco Theatres
