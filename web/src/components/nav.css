@@ -72,6 +72,24 @@ footer a:hover, footer button:hover {
     height: 2.5rem;
 }
 
+@media (--mobile) {
+    #help-links {
+        height: 6rem;
+    }
+
+    #help-links .divider {
+        display: none;
+    }
+
+    #help-links img {
+        width: 21px;
+    }
+
+    #help-links a {
+        font-size: var(--small-font-size);
+    }
+}
+
 #help-links {
     margin-top: calc(2 * var(--standard-margin));
 }
@@ -92,6 +110,12 @@ footer a:hover, footer button:hover {
 #moz-links {
     display: flex;
     flex-direction: column;
+}
+
+@media (--mobile) {
+    #moz-links {
+        padding: var(--page-margin);
+    }
 }
 
 @media (--desktop) {
@@ -115,7 +139,7 @@ footer a:hover, footer button:hover {
 
 @media (--mobile) {
     #moz-links .content {
-        padding: var(--page-margin);
+        padding-bottom: var(--page-margin);
     }
 }
 
@@ -142,7 +166,10 @@ footer a:hover, footer button:hover {
     #moz-links .links > p:last-child,
     #moz-links .links > :first-child a {
         display: block;
-        padding: 0.5rem 0;
+    }
+
+    #moz-links .links {
+        padding-top: 1.5rem;
     }
 }
 
@@ -267,7 +294,7 @@ footer a:hover, footer button:hover {
 
 #hamburger-menu {
     height: var(--hamburger);
-    width: var(--hamburger);
+    width: calc(var(--hamburger) / 2.5);
     border: none;
     padding: 0;
 }
@@ -315,6 +342,7 @@ footer a:hover, footer button:hover {
 #navigation-modal .nav-list {
     flex-flow: column;
     font-size: 1.3rem;
+    padding-top: 1rem;
 }
 
 #navigation-modal a {

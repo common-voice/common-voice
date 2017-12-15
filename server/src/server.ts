@@ -48,6 +48,12 @@ export default class Server {
     if (this.config.PROD) {
       this.logger.overrideConsole();
     }
+    this.isMigrated = false;
+  }
+
+  private set isMigrated(value: boolean) {
+    this.model.isMigrated = value;
+    this.api.isMigrated = value;
   }
 
   /**
@@ -133,7 +139,7 @@ export default class Server {
     try {
       this.isLeader = await isLeaderServer(
         this.config.ENVIRONMENT,
-        this.config.VERSION
+        this.config.RELEASE_VERSION
       );
       this.print('leader', this.isLeader);
     } catch (err) {
@@ -179,7 +185,10 @@ export default class Server {
       this.print(`${getElapsedSeconds(start)}s to perform maintenance`);
     }
 
-    // await migrate(this.model.db.mysql.conn);
+    if (this.config.ENABLE_MIGRATIONS) {
+      await migrate(this.model.db.mysql.conn);
+      this.isMigrated = true;
+    }
   }
 
   /**

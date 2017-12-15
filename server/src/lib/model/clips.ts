@@ -1,4 +1,8 @@
 import * as Random from 'random-js';
+import DB from './db';
+import { DBClipWithVoters } from './db/tables/clip-table';
+
+const CLIP_CACHE_SIZE = 1000;
 
 export class Clip {
   clipid: string;
@@ -70,20 +74,24 @@ interface ClipMetrics {
  * Model for tracking clip information of all files in storage.
  */
 export default class Clips {
+  db: DB;
   allClips: ClipList;
   unverifiedClips: string[];
   verifiedClips: string[];
   metrics: ClipMetrics;
   loaded: boolean;
   randomEngine: Random.MT19937;
+  isMigrated: boolean;
 
-  constructor() {
+  constructor(db: DB) {
     this.allClips = {};
+    this.db = db;
     this.unverifiedClips = [];
     this.verifiedClips = [];
     this.randomEngine = Random.engines.mt19937();
     this.randomEngine.autoSeed();
     this.loaded = false;
+    this.isMigrated = false;
   }
 
   private getClip(userid: string, sentenceid: string): Clip {
@@ -145,10 +153,37 @@ export default class Clips {
     clip.sentenceText = text;
   }
 
+  private clipsWithFewVotes: DBClipWithVoters[] = [];
+  private isRefilling = false;
+  private async refillClipsWithFewVotes() {
+    if (this.isRefilling) return;
+    this.isRefilling = true;
+    this.clipsWithFewVotes = this.clipsWithFewVotes.concat(
+      Random.shuffle(
+        this.randomEngine,
+        await this.db.findClipsWithFewVotes(CLIP_CACHE_SIZE)
+      )
+    );
+    this.isRefilling = false;
+  }
+
   /**
    * Fetch a random clip but make sure it's not the user's.
    */
-  getEllibleClip(userid: string): Clip {
+  async getEllibleClip(client_id: string): Promise<DBClipWithVoters | Clip> {
+    if (this.isMigrated) {
+      if (this.clipsWithFewVotes.length == 0)
+        await this.refillClipsWithFewVotes();
+
+      const i = this.clipsWithFewVotes.findIndex(
+        clip => clip.client_id !== client_id && !clip.voters.includes(client_id)
+      );
+      if (i == -1) return null;
+
+      const clip = this.clipsWithFewVotes[i];
+      this.clipsWithFewVotes.splice(i, 1);
+      return clip;
+    }
     if (this.unverifiedClips.length === 0) {
       return null;
     }
@@ -158,7 +193,7 @@ export default class Clips {
     do {
       clipid = this.unverifiedClips[distribution(this.randomEngine)];
       clip = this.allClips[clipid];
-    } while (clip.userid === userid);
+    } while (clip.userid === client_id);
     return clip;
   }
 

@@ -97,17 +97,31 @@ const loadSentences = async (path: string): Promise<string[]> => {
 };
 
 export async function migrateSentences(connection: IConnection, print: any) {
-  const sentences = (await loadSentences(SENTENCE_FOLDER)).concat(
-    await loadSentences(UNUSED_FOLDER)
-  );
-  await Promise.all(
-    sentences.map(sentence => {
+  const [sentences, unusedSentences] = await Promise.all([
+    loadSentences(SENTENCE_FOLDER),
+    loadSentences(UNUSED_FOLDER),
+  ]);
+
+  await Promise.all([
+    ...sentences.map(sentence => {
       const encodedSentence = utf8.encode(sentence).trim();
       return connection.execute(
-        'INSERT INTO sentences (id, text) VALUES (?, ?) ON DUPLICATE KEY UPDATE id = id',
+        'INSERT INTO sentences (id, text, is_used) VALUES (?, ?, TRUE) ON DUPLICATE KEY UPDATE id = id',
         [hash(encodedSentence), encodedSentence]
       );
-    })
-  );
-  print(sentences.length, 'sentences');
+    }),
+    ...unusedSentences.map(sentence => {
+      const encodedSentence = utf8.encode(sentence).trim();
+      return connection.execute(
+        'INSERT INTO sentences (id, text, is_used) VALUES (?, ?, FALSE) ON DUPLICATE KEY UPDATE id = id',
+        [hash(encodedSentence), encodedSentence]
+      );
+    }),
+  ]);
+
+  const [[{ count }]] = (await connection.query(
+    'SELECT COUNT(*) AS count FROM sentences'
+  )) as any;
+
+  print(count, 'sentences');
 }

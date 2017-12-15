@@ -6,7 +6,7 @@ import Table from './db/table';
 import { UpdatableUserFields, UserTable } from './db/tables/user-table';
 import UserClientTable from './db/tables/user-client-table';
 import VersionTable from './db/tables/version-table';
-import ClipTable from './db/tables/clip-table';
+import ClipTable, { DBClipWithVoters } from './db/tables/clip-table';
 import SentenceTable from './db/tables/sentence-table';
 import VoteTable from './db/tables/vote-table';
 
@@ -64,18 +64,16 @@ export default class DB {
   /**
    * Insert or update user client row.
    */
-  async updateUser(
-    clientId: string,
-    fields: UpdatableUserFields
-  ): Promise<void> {
-    let { email } = fields;
-    if (email) email = this.formatEmail(email);
+  async updateUser(client_id: string, fields: any): Promise<void> {
+    let { age, accent, email, gender } = fields;
+    email = this.formatEmail(email);
     await Promise.all([
-      this.user.update({
-        email,
-        ...pick(fields, 'send_emails', 'has_downloaded'),
-      }),
-      this.userClient.update(clientId, email),
+      email &&
+        this.user.update({
+          email,
+          ...pick(fields, 'send_emails', 'has_downloaded'),
+        }),
+      this.userClient.update({ client_id, email, age, accent, gender }),
     ]);
   }
 
@@ -129,5 +127,59 @@ export default class DB {
    */
   endConnection(): void {
     this.mysql.endConnection();
+  }
+
+  async findClipsWithFewVotes(limit: number): Promise<DBClipWithVoters[]> {
+    const [clips] = await this.mysql.exec(
+      `
+      SELECT clips.*, group_concat(votes.client_id) AS voters
+      FROM clips
+        LEFT JOIN votes ON clips.id = votes.clip_id
+      GROUP BY clips.id
+      ORDER BY COUNT(votes.id)
+      LIMIT ?
+    `,
+      [limit]
+    );
+    for (const clip of clips) {
+      clip.voters = clip.voters ? clip.voters.split(',') : [];
+    }
+    return clips as DBClipWithVoters[];
+  }
+
+  async saveVote(glob: string, client_id: string, vote: string) {
+    const [
+      [row],
+    ] = await this.mysql.exec('SELECT id FROM clips WHERE path = ? LIMIT 1', [
+      glob,
+    ]);
+    if (!row) {
+      console.error('No clip found for vote', { glob, client_id, vote });
+      return;
+    }
+    await this.mysql.exec(
+      `
+      INSERT INTO votes (clip_id, client_id, is_valid) VALUES (?, ?, ?)
+      ON DUPLICATE KEY UPDATE is_valid = VALUES(is_valid)
+    `,
+      [row.id, client_id, vote == 'true' ? 1 : 0]
+    );
+  }
+
+  async saveClip(
+    client_id: string,
+    original_sentence_id: string,
+    path: string,
+    sentence: string
+  ) {
+    try {
+      await this.mysql.exec(
+        'INSERT INTO clips (client_id, original_sentence_id, path, sentence) VALUES (?, ?, ?, ?) ' +
+          'ON DUPLICATE KEY UPDATE id = id',
+        [client_id, original_sentence_id, path, sentence]
+      );
+    } catch (e) {
+      console.error('No sentence found with id', original_sentence_id);
+    }
   }
 }

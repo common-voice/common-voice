@@ -1,11 +1,10 @@
-import * as path from 'path';
 import * as Random from 'random-js';
 import { S3 } from 'aws-sdk';
 
 import { CommonVoiceConfig } from '../config-helper';
 import Model from './model';
-import { map } from '../promisify';
-import { getFileExt, sleep } from './utility';
+import { sleep } from './utility';
+import { Clip } from './model/clips';
 
 const KEYS_PER_REQUEST = 1000; // Max is 1000.
 const LOAD_DELAY = 200;
@@ -182,25 +181,31 @@ export default class Bucket {
    * Grab metadata to play clip on the front end.
    */
   async getRandomClipJson(uid: string): Promise<string> {
-    const clip = this.model.getEllibleClip(uid);
+    const clip = await this.model.getEllibleClip(uid);
     if (!clip) {
       throw new Error('Could not find any eligible clips for this user');
     }
 
-    // On the client, the clipid is called 'glob'
-    const glob = clip.clipid;
+    let glob, text, path;
+    if (clip instanceof Clip) {
+      // On the client, the clipid is called 'glob'
+      glob = clip.clipid;
+      text = clip.sentenceText;
+      path = clip.clipPath;
 
-    const clipJson = {
-      glob: glob,
-      text: clip.sentenceText,
-      sound: this.getPublicUrl(clip.clipPath),
-    };
-
-    if (!clipJson.text) {
-      clipJson.text = await this.fetchSentenceFromS3(glob);
-      this.model.addSentenceContent(uid, clip.sentenceid, clipJson.text);
+      if (!text) {
+        text = await this.fetchSentenceFromS3(glob);
+        this.model.addSentenceContent(uid, clip.sentenceid, text);
+      }
+    } else {
+      text = clip.sentence;
+      glob = path = clip.path;
     }
 
-    return JSON.stringify(clipJson);
+    return JSON.stringify({
+      glob,
+      text,
+      sound: this.getPublicUrl(path),
+    });
   }
 }

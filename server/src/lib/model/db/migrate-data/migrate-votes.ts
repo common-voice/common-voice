@@ -44,7 +44,11 @@ export async function migrateVotes(
       )
     );
 
-    print(completeVotes.length, 'votes');
+    const [[{ count }]] = (await connection.query(
+      'SELECT COUNT(*) AS count FROM votes'
+    )) as any;
+
+    print(count, 'votes');
   } catch (e) {
     print('votes failed', e);
     throw e;

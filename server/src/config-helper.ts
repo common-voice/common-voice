@@ -17,10 +17,13 @@ export type CommonVoiceConfig = {
   BUCKET_NAME: string;
   BUCKET_LOCATION: string;
   ENVIRONMENT: string;
+  ENABLE_MIGRATIONS: boolean;
+  RELEASE_VERSION?: string;
 };
 
 const DEFAULTS: CommonVoiceConfig = {
-  VERSION: 6, // Used for logging and database versioning.
+  VERSION: 8, // Used for logging and database versioning.
+  RELEASE_VERSION: null, // release version set by nubis
   PROD: false, // Set to true for staging and production.
   SERVER_PORT: 9000,
   DB_ROOT_USER: 'root', // For running schema migrations.
@@ -33,6 +36,7 @@ const DEFAULTS: CommonVoiceConfig = {
   BUCKET_NAME: 'common-voice-corpus',
   BUCKET_LOCATION: '',
   ENVIRONMENT: 'default',
+  ENABLE_MIGRATIONS: false,
 };
 
 /**

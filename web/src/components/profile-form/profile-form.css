@@ -15,6 +15,11 @@
     #profile-card .half-width {
         width: 100%;
     }
+
+    #profile-card .title-and-action {
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 @media (min-width: 450px) {

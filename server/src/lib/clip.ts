@@ -35,6 +35,7 @@ export default class Clip {
   private s3: S3;
   private bucket: Bucket;
   private model: Model;
+  isMigrated: boolean;
 
   constructor(config: CommonVoiceConfig, model: Model) {
     this.config = config;
@@ -164,18 +165,22 @@ export default class Clip {
   /**
    * Save the request clip vote in S3
    */
-  saveVote(request: http.IncomingMessage): Promise<string> {
-    let uid = request.headers.uid;
-    let glob = request.headers.glob;
-    let vote = decodeURI(request.headers.vote as string);
+  async saveVote(request: http.IncomingMessage): Promise<string> {
+    const { glob, uid } = request.headers;
+
+    const vote = decodeURI(request.headers.vote as string);
 
     if (!uid || !glob || !vote) {
       return Promise.reject('Invalid headers');
     }
 
-    return new Promise((resolve: Function, reject: Function) => {
+    if (this.isMigrated) {
+      await this.model.db.saveVote(glob, uid, vote);
+    }
+
+    return new Promise<string>((resolve: Function, reject: Function) => {
       // Where is the clip vote going to be located?
-      let voteFile = glob + '-by-' + uid + '.vote';
+      const voteFile = glob + '-by-' + uid + '.vote';
 
       let f = ff(
         () => {
@@ -340,6 +345,9 @@ export default class Clip {
         () => {
           // File saving is now complete.
           console.log('file written to s3', file);
+          if (this.isMigrated) {
+            this.model.db.saveClip(uid, filePrefix, file, sentence);
+          }
           resolve(filePrefix);
         }
       ).onError(reject);

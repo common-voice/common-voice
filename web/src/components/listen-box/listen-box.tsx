@@ -1,4 +1,5 @@
 import * as React from 'react';
+const { Fragment } = require('react');
 import { trackListening } from '../../services/tracker';
 import { FontIcon, PlayIcon, RedoIcon } from '../ui/icons';
 
@@ -15,6 +16,7 @@ interface State {
   played: boolean;
   playing: boolean;
   audio: HTMLAudioElement;
+  shortcutsEnabled: boolean;
 }
 
 /**
@@ -41,6 +43,7 @@ export default class ListenBox extends React.Component<Props, State> {
     playing: false,
     played: false,
     audio: null,
+    shortcutsEnabled: false,
   };
 
   componentWillReceiveProps(nextProps: Props) {
@@ -127,22 +130,56 @@ export default class ListenBox extends React.Component<Props, State> {
     trackListening('vote-no');
   }
 
+  private enableShortcuts = () => this.setState({ shortcutsEnabled: true });
+  private disableShortcuts = () => this.setState({ shortcutsEnabled: false });
+
+  private handleKeyDown = (event: React.KeyboardEvent<any>) => {
+    if (!this.state.shortcutsEnabled) return;
+
+    switch (event.key) {
+      case 'p':
+        this.onPlay();
+        break;
+
+      case 'y':
+        this.voteYes();
+        break;
+
+      case 'n':
+        this.voteNo();
+        break;
+
+      default:
+        return;
+    }
+    trackListening('shortcut');
+    event.preventDefault();
+  };
+
   render() {
+    const { loaded, playing, played, shortcutsEnabled } = this.state;
     return (
       <div
+        tabIndex={-1}
+        onFocus={this.enableShortcuts}
+        onBlur={this.disableShortcuts}
+        onKeyDown={this.handleKeyDown}
         className={
-          'listen-box' +
-          (this.state.loaded ? ' loaded' : '') +
-          (this.state.playing ? ' playing' : '')
+          'listen-box' + (loaded ? ' loaded' : '') + (playing ? ' playing' : '')
         }>
         <div className="sentence-box">{this.props.sentence}</div>
-        <div onClick={this.onPlay} className="play-box">
-          {this.state.playing ? <FontIcon type="stop" /> : <PlayIcon />}
+        <div
+          onClick={this.onPlay}
+          className="play-box"
+          title={
+            shortcutsEnabled ? 'Press p to ' + (playing ? 'pause' : 'play') : ''
+          }>
+          {playing ? <FontIcon type="stop" /> : <PlayIcon />}
         </div>
         {this.props.vote ? (
-          <div className={'vote-box ' + (this.state.played ? '' : 'disabled')}>
-            <a onClick={this.voteYes}>Yes</a>
-            <a onClick={this.voteNo}>No</a>
+          <div className={'vote-box ' + (played ? '' : 'disabled')}>
+            <a onClick={this.voteYes}>{this.renderShortcutText('Yes')}</a>
+            <a onClick={this.voteNo}>{this.renderShortcutText('No')}</a>
           </div>
         ) : (
           <div className="delete-box" onClick={this.onDelete}>
@@ -163,6 +200,17 @@ export default class ListenBox extends React.Component<Props, State> {
           ref={el => (this.el = el as HTMLAudioElement)}
         />
       </div>
+    );
+  }
+
+  renderShortcutText(text: string) {
+    return this.state.shortcutsEnabled ? (
+      <Fragment>
+        <span style={{ textDecoration: 'underline' }}>{text.charAt(0)}</span>
+        {text.substr(1)}
+      </Fragment>
+    ) : (
+      text
     );
   }
 }

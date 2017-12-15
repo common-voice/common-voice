@@ -8,6 +8,17 @@
     background: var(--color-grey-background);
 }
 
+@media (--mobile) {
+    .project-status .title-and-action h4 {
+        align-self: left;
+    }
+
+    .project-status .title-and-action a {
+        padding-top: 1rem;
+        align-self: left;
+    }
+}
+
 .project-status h4 {
     font-family: var(--base-font-family);
     font-weight: normal;
