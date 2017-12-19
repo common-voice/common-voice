@@ -334,7 +334,10 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
                       <RecordIcon />
                     </button>
                     {reRecordSentence && (
-                      <a className="rerecord" onClick={this.cancelReRecord}>
+                      <a
+                        href="javascript:void(0)"
+                        className="rerecord"
+                        onClick={this.cancelReRecord}>
                         Cancel Re-recording
                       </a>
                     )}

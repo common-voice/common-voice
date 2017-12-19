@@ -46,6 +46,8 @@ const URLS = {
   NOTFOUND: '/not-found',
 };
 
+const KEYBOARD_FOCUS_CLASS_NAME = 'is-keyboard-focus';
+
 interface PropsFromState {
   isSetFull: boolean;
   user: User.State;
@@ -214,6 +216,16 @@ class Pages extends React.Component<PagesProps, PagesState> {
     this.setState({ isMenuVisible: !this.state.isMenuVisible });
   };
 
+  private showOutlines = (event: any) => {
+    if (event.key == 'Tab') {
+      document.body.classList.add(KEYBOARD_FOCUS_CLASS_NAME);
+    }
+  };
+
+  private hideOutlines = () => {
+    document.body.classList.add(KEYBOARD_FOCUS_CLASS_NAME);
+  };
+
   render() {
     const pageName = this.props.location.pathname.substr(1) || 'home';
     let className = pageName;
@@ -222,7 +234,11 @@ class Pages extends React.Component<PagesProps, PagesState> {
     }
 
     return (
-      <div id="main" className={className}>
+      <div
+        id="main"
+        className={className}
+        onKeyDown={this.showOutlines}
+        onClick={this.hideOutlines}>
         {this.state.showContactModal && (
           <ContactModal onRequestClose={this.toggleContactModal} />
         )}
@@ -332,7 +348,7 @@ class Pages extends React.Component<PagesProps, PagesState> {
                   <div>Discourse</div>
                 </a>
                 <div className="divider" />
-                <a onClick={this.toggleContactModal}>
+                <a href="javascript:void(0)" onClick={this.toggleContactModal}>
                   <ContactIcon />
                   <div>Contact</div>
                 </a>

@@ -27,13 +27,17 @@ class WhyProfile extends React.Component<{}, WhyProfileState> {
           {expanded ? (
             messages.WHY_PROFILE.TITLE
           ) : (
-            <a onClick={this.toggle}>{messages.WHY_PROFILE.TITLE}</a>
+            <a href="javascript:void(0)" onClick={this.toggle}>
+              {messages.WHY_PROFILE.TITLE}
+            </a>
           )}
         </div>
         {expanded && (
           <div id="why-profile">
             <p id="why-profile-text">{messages.WHY_PROFILE.CONTENT}</p>
-            <a onClick={this.toggle}>Close</a>
+            <a href="javascript:void(0)" onClick={this.toggle}>
+              Close
+            </a>
           </div>
         )}
       </div>

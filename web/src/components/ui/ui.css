@@ -28,21 +28,25 @@
     }
 }
 
-body:not(.mobile-safari) .button:hover {
+body:not(.mobile-safari) .button:hover,
+.is-keyboard-focus .button:focus {
     background-color: var(--base-background-color);
     color: black;
 }
 
-body:not(.mobile-safari) .button.outline:hover {
+body:not(.mobile-safari) .button.outline:hover,
+.is-keyboard-focus .button.outline:focus {
     background-color: black;
     color: white;
 }
 
-body:not(.mobile-safari) .button:hover path {
+body:not(.mobile-safari) .button:hover path,
+.is-keyboard-focus .button:focus path {
     fill: black;
 }
 
-body:not(.mobile-safari) .button.outline:hover path {
+body:not(.mobile-safari) .button.outline:hover path,
+.is-keyboard-focus .button:focus path {
     fill: var(--base-background-color);
 }
 
@@ -67,15 +71,20 @@ body:not(.mobile-safari) .button.outline:hover path {
     animation: fade-in .5s;
 }
 
-body:not(.mobile-safari) .card-action:hover, body:not(.mobile-safari) .button.card-action:hover {
+body:not(.mobile-safari) .card-action:hover,
+body:not(.mobile-safari) .button.card-action:hover,
+.is-keyboard-focus .card-action:focus,
+.is-keyboard-focus .button.card-action:focus  {
+    outline: none;
+    margin: 1px -1px -1px 1px;
     background: white;
     color: black;
-    margin: 1px -1px -1px 1px;
     opacity: .8;
     box-shadow: none;
 }
 
-body:not(.mobile-safari) .button.card-action:hover path {
+body:not(.mobile-safari) .button.card-action:hover path,
+.is-keyboard-focus .button.card-action:focus path {
     fill: black;
 }
 
