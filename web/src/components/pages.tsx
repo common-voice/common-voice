@@ -216,14 +216,14 @@ class Pages extends React.Component<PagesProps, PagesState> {
     this.setState({ isMenuVisible: !this.state.isMenuVisible });
   };
 
-  private showOutlines = (event: any) => {
+  private showKeyboardFocus = (event: any) => {
     if (event.key == 'Tab') {
       document.body.classList.add(KEYBOARD_FOCUS_CLASS_NAME);
     }
   };
 
-  private hideOutlines = () => {
-    document.body.classList.add(KEYBOARD_FOCUS_CLASS_NAME);
+  private hideKeyboardFocus = () => {
+    document.body.classList.remove(KEYBOARD_FOCUS_CLASS_NAME);
   };
 
   render() {
@@ -237,8 +237,8 @@ class Pages extends React.Component<PagesProps, PagesState> {
       <div
         id="main"
         className={className}
-        onKeyDown={this.showOutlines}
-        onClick={this.hideOutlines}>
+        onKeyDown={this.showKeyboardFocus}
+        onClick={this.hideKeyboardFocus}>
         {this.state.showContactModal && (
           <ContactModal onRequestClose={this.toggleContactModal} />
         )}
