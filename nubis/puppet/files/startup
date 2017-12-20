@@ -5,7 +5,7 @@ export PATH=/usr/local/bin:$PATH
 NUBIS_ENVIRONMENT=$(nubis-metadata NUBIS_ENVIRONMENT)
 NUBIS_PROJECT=$(nubis-metadata NUBIS_PROJECT)
 
-PROJECT_VERSION=$(cat "/etc/$NUBIS_PROJECT-release" | awk {'print $2'})
+PROJECT_VERSION=$(awk '{print $2}' < "/etc/$NUBIS_PROJECT-release")
 
 KV_PREFIX="$NUBIS_PROJECT-$NUBIS_ENVIRONMENT/$NUBIS_ENVIRONMENT/config"
 
