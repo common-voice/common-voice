@@ -65,6 +65,8 @@ export class S3Fetcher {
 
     let [client_id, sentence_id] = glob.split('/');
 
+    if (!sentence_id) return;
+
     switch (ext) {
       case MP3_EXT:
         this.result.client_ids.push(client_id);
