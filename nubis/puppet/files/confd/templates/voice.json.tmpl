@@ -13,5 +13,5 @@
   "BUCKET_LOCATION": "{{ if exists "/config/Bucket/Clips/Region" }}{{ getv "/config/Bucket/Clips/Region" }}{{ end }}",
   "ENVIRONMENT": "{{ if exists "/config/Environment" }}{{ getv "/config/Environment" }}{{ end }}",
   "RELEASE_VERSION": "{{ if exists "/config/Version" }}{{ getv "/config/Version" }}{{ end }}",
-  "ENABLE_MIGRATIONS": true
+  "ENABLE_MIGRATIONS": false
 }
