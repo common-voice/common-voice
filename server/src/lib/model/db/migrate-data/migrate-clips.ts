@@ -76,6 +76,7 @@ export async function migrateClips(
     await Promise.all(
       completeClips.map(c => {
         const sentence = sentences[c.original_sentence_id];
+        if (!sentence || !sentence.id) return;
         return connection.execute(
           'INSERT INTO clips (client_id, original_sentence_id, path, sentence) VALUES (?, ?, ?, ?) ' +
             'ON DUPLICATE KEY UPDATE id = id',
