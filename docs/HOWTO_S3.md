@@ -33,7 +33,7 @@ in which to store voice clips.
 4. Filter for and select "AmazonS3FullAccess"
 5. Click "Next Step" and then "Create Group"
 6. Under "Users" select "Add user"
-7. Name the user "voice-web" and select "Programatic Access"
+7. Name the user "voice-web" and select "Programmatic Access"
 8. Click "Next: Permissions"
 9. Select the group "S3FullAccess" we created earlier.
 10. Click "Next: Review"
