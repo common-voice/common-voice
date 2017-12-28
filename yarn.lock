@@ -23,6 +23,12 @@
   version "21.1.8"
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-21.1.8.tgz#d497213725684f1e5a37900b17a47c9c018f1a97"
 
+"@types/lodash.debounce@^4.0.3":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@types/lodash.debounce/-/lodash.debounce-4.0.3.tgz#d712aee9e6136be77f70523ed9f0fc049a6cf15a"
+  dependencies:
+    "@types/lodash" "*"
+
 "@types/lodash.pick@^4.4.3":
   version "4.4.3"
   resolved "https://registry.yarnpkg.com/@types/lodash.pick/-/lodash.pick-4.4.3.tgz#2d979a8e2a553a26b9aa46a1d6d0bf7d07507bb4"
@@ -3441,6 +3447,10 @@ lodash.assign@^3.0.0:
 lodash.camelcase@^4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/lodash.camelcase/-/lodash.camelcase-4.3.0.tgz#b28aa6288a2b9fc651035c7711f65ab6190331a6"
+
+lodash.debounce@^4.0.8:
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
 
 lodash.defaults@^3.1.2:
   version "3.1.2"

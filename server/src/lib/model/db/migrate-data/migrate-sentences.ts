@@ -106,14 +106,14 @@ export async function migrateSentences(connection: IConnection, print: any) {
     ...sentences.map(sentence => {
       const encodedSentence = utf8.encode(sentence).trim();
       return connection.execute(
-        'INSERT INTO sentences (id, text, is_used) VALUES (?, ?, TRUE) ON DUPLICATE KEY UPDATE id = id',
+        'INSERT INTO sentences (id, text, is_used) VALUES (?, ?, TRUE) ON DUPLICATE KEY UPDATE is_used = TRUE',
         [hash(encodedSentence), encodedSentence]
       );
     }),
     ...unusedSentences.map(sentence => {
       const encodedSentence = utf8.encode(sentence).trim();
       return connection.execute(
-        'INSERT INTO sentences (id, text, is_used) VALUES (?, ?, FALSE) ON DUPLICATE KEY UPDATE id = id',
+        'INSERT INTO sentences (id, text, is_used) VALUES (?, ?, FALSE) ON DUPLICATE KEY UPDATE is_used = FALSE',
         [hash(encodedSentence), encodedSentence]
       );
     }),

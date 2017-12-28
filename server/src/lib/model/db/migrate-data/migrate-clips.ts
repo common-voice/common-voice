@@ -3,7 +3,8 @@ import { ClipData } from './fetch-s3-data';
 import { getConfig } from '../../../../config-helper';
 import { AWS } from '../../../aws';
 
-const AWS_MAX_GET_CALLS_PER_SEC = 800;
+const TIMESTEP = 1000;
+const AWS_MAX_GET_CALLS_PER_TIMESTEP = 300;
 
 function fetchSentenceFromS3(glob: string): Promise<string> {
   const key = glob + '.txt';
@@ -27,42 +28,66 @@ function fetchSentenceFromS3(glob: string): Promise<string> {
 export async function migrateClips(
   connection: IConnection,
   clips: ClipData[],
-  sentences: any,
   print: any
 ) {
-  const completeClips: any[] = [];
-  const clipsWithoutSentences: any[] = [];
-  let awsRequestCount = 0;
+  const clipsWithoutSentences = [];
+  let requestTimesInTimestep: number[] = [];
   for (const clip of clips) {
-    if (sentences[clip.original_sentence_id]) {
-      completeClips.push(clip);
+    const insertClip = (sentenceText: string) =>
+      connection.execute(
+        'INSERT INTO clips (client_id, original_sentence_id, path, sentence) VALUES (?, ?, ?, ?) ' +
+          'ON DUPLICATE KEY UPDATE id = id',
+        [clip.client_id, clip.original_sentence_id, clip.path, sentenceText]
+      );
+
+    const [
+      [sentence],
+    ] = (await connection.query('SELECT * FROM sentences WHERE id = ?', [
+      clip.original_sentence_id,
+    ])) as any;
+
+    if (sentence) {
+      await insertClip(sentence.text);
       continue;
     }
 
-    if (
-      awsRequestCount != 0 &&
-      awsRequestCount % AWS_MAX_GET_CALLS_PER_SEC == 0
-    ) {
-      await new Promise(resolve => setTimeout(resolve, 1000));
-    }
-
-    const sentenceText = await fetchSentenceFromS3(
-      clip.path.substr(0, clip.path.length - 4)
+    const now = Date.now();
+    requestTimesInTimestep = requestTimesInTimestep.filter(
+      t => t > now - TIMESTEP
     );
-    awsRequestCount++;
-
-    if (sentenceText) {
-      await connection.execute(
-        'INSERT INTO sentences (id, text) VALUES (?, ?) ON DUPLICATE KEY UPDATE id = id',
-        [clip.original_sentence_id, sentenceText]
+    if (requestTimesInTimestep.length > AWS_MAX_GET_CALLS_PER_TIMESTEP) {
+      await new Promise(resolve =>
+        setTimeout(resolve, now - requestTimesInTimestep[0])
       );
-      sentences[clip.original_sentence_id] = sentenceText;
-      completeClips.push(clip);
-    } else {
-      clipsWithoutSentences.push(clip);
     }
+
+    try {
+      const sentenceText = await fetchSentenceFromS3(
+        clip.path.substr(0, clip.path.length - 4)
+      );
+      requestTimesInTimestep.push(now);
+
+      if (sentenceText) {
+        await connection.execute(
+          'INSERT INTO sentences (id, text) VALUES (?, ?) ON DUPLICATE KEY UPDATE id = id',
+          [clip.original_sentence_id, sentenceText]
+        );
+        await insertClip(sentenceText);
+        continue;
+      }
+    } catch (e) {
+      print(
+        'error while getting sentence',
+        clip.original_sentence_id,
+        'for clip',
+        clip.path,
+        ':',
+        e
+      );
+    }
+
+    clipsWithoutSentences.push(clip);
   }
-  if (awsRequestCount) print('fetched', awsRequestCount, 'sentences from S3');
 
   if (clipsWithoutSentences.length) {
     print(
@@ -73,17 +98,6 @@ export async function migrateClips(
   }
 
   try {
-    await Promise.all(
-      completeClips.map(c => {
-        const sentence = sentences[c.original_sentence_id];
-        return connection.execute(
-          'INSERT INTO clips (client_id, original_sentence_id, path, sentence) VALUES (?, ?, ?, ?) ' +
-            'ON DUPLICATE KEY UPDATE id = id',
-          [c.client_id, sentence.id, c.path, sentence.text]
-        );
-      })
-    );
-
     const [[{ count }]] = (await connection.query(
       'SELECT COUNT(*) AS count FROM clips'
     )) as any;

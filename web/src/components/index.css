@@ -83,6 +83,10 @@ button {
   cursor: pointer;
 }
 
+.is-keyboard-focus *:focus {
+  outline: 1px solid black;
+}
+
 /* Icon font element. */
 [data-icon]:before {
   font-family: Icons;

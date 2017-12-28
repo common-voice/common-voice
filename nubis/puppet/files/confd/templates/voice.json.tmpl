@@ -11,5 +11,7 @@
   "MYSQLPORT":  "3306",
   "BUCKET_NAME": "{{ if exists "/config/Bucket/Clips/Name" }}{{ getv "/config/Bucket/Clips/Name" }}{{ end }}",
   "BUCKET_LOCATION": "{{ if exists "/config/Bucket/Clips/Region" }}{{ getv "/config/Bucket/Clips/Region" }}{{ end }}",
-  "ENVIRONMENT": "{{ if exists "/config/Environment" }}{{ getv "/config/Environment" }}{{ end }}"
+  "ENVIRONMENT": "{{ if exists "/config/Environment" }}{{ getv "/config/Environment" }}{{ end }}",
+  "RELEASE_VERSION": "{{ if exists "/config/Version" }}{{ getv "/config/Version" }}{{ end }}",
+  "ENABLE_MIGRATIONS": true
 }

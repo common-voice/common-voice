@@ -168,23 +168,27 @@ export default class ListenBox extends React.Component<Props, State> {
           'listen-box' + (loaded ? ' loaded' : '') + (playing ? ' playing' : '')
         }>
         <div className="sentence-box">{this.props.sentence}</div>
-        <div
+        <button
           onClick={this.onPlay}
           className="play-box"
           title={
             shortcutsEnabled ? 'Press p to ' + (playing ? 'pause' : 'play') : ''
           }>
           {playing ? <FontIcon type="stop" /> : <PlayIcon />}
-        </div>
+        </button>
         {this.props.vote ? (
           <div className={'vote-box ' + (played ? '' : 'disabled')}>
-            <a onClick={this.voteYes}>{this.renderShortcutText('Yes')}</a>
-            <a onClick={this.voteNo}>{this.renderShortcutText('No')}</a>
+            <a href="javascript:void(0)" onClick={this.voteYes}>
+              {this.renderShortcutText('Yes')}
+            </a>
+            <a href="javascript:void(0)" onClick={this.voteNo}>
+              {this.renderShortcutText('No')}
+            </a>
           </div>
         ) : (
-          <div className="delete-box" onClick={this.onDelete}>
+          <button className="delete-box" onClick={this.onDelete}>
             <RedoIcon />
-          </div>
+          </button>
         )}
         <audio
           className="audio-box"

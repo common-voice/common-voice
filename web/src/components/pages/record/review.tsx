@@ -177,7 +177,9 @@ class Review extends React.Component<Props, State> {
         ))}
         <br />
         <div className="actions">
-          <a onClick={this.toggleResetModal}>Cancel Submission</a>
+          <a href="javascript:void(0)" onClick={this.toggleResetModal}>
+            Cancel Submission
+          </a>
           <ProgressButton
             percent={uploading ? progress : 0}
             disabled={uploading}

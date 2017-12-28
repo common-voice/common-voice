@@ -11,7 +11,9 @@ export default ({ onRequestClose }: Props) => (
     <form action="mailto:mikey@mozilla.com" method="post" encType="text/plain">
       <div className="title-and-action">
         <h1>Contact Form</h1>
-        <a onClick={onRequestClose}>Cancel</a>
+        <a href="javascript:void(0)" onClick={onRequestClose}>
+          Cancel
+        </a>
       </div>
 
       <br />
