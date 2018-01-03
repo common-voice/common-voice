@@ -1,7 +1,7 @@
 # Install dependencies
 
 class { 'nodejs':
-  repo_url_suffix => '8.9.x',
+  repo_url_suffix => '8.x',
 }
 
 package { 'forever':
