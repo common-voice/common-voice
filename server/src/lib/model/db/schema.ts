@@ -15,14 +15,6 @@ export default class Schema {
   }
 
   /**
-   * Log corpus level messages in a common format.
-   */
-  private print(...args: any[]) {
-    args.unshift('SCHEMA --');
-    console.log.apply(console, args);
-  }
-
-  /**
    * Make sure we have created the database, and are using it.
    */
   private async ensureDatabase(): Promise<void> {
@@ -67,20 +59,6 @@ export default class Schema {
     await this.ensureDatabaseUser();
   }
 
-  /**
-   * Show all the tables in the current db.
-   */
-  async listTables(): Promise<string[]> {
-    const [rows, fields] = await this.mysql.rootQuery(
-      `SELECT table_name FROM information_schema.tables
-       WHERE table_schema = '${this.name}'`
-    );
-
-    return rows.map((row: any) => {
-      return row.table_name;
-    });
-  }
-
   async upgrade() {
     const {
       MYSQLDBNAME,
@@ -100,7 +78,9 @@ export default class Schema {
           multipleStatements: true,
         },
       },
-      cwd: path.resolve(path.join('server', __dirname)),
+      cwd: path.isAbsolute(__dirname)
+        ? __dirname
+        : path.resolve(path.join('server', __dirname)),
     });
     await (VERSION ? dbMigrate.sync(VERSION) : dbMigrate.up());
   }
