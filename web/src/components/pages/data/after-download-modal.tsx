@@ -88,7 +88,10 @@ class AfterDownloadModal extends React.Component<Props, State> {
                 </Button>
               )}
 
-              <a onClick={onRequestClose} className="cancel">
+              <a
+                href="javascript:void(0)"
+                onClick={onRequestClose}
+                className="cancel">
                 {isSubmitted ? 'Return to Common Voice Datasets' : 'No Thanks'}
               </a>
 

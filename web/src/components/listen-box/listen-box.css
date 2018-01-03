@@ -25,6 +25,7 @@
 .play-box,
 .delete-box,
 .vote-box {
+    border: none;
     height: var(--listen-box-height);
 }
 
@@ -60,13 +61,19 @@
 body:not(.mobile-safari) .play-box:hover,
 body:not(.mobile-safari) .play-box:hover path,
 body.mobile-safari .play-box:active,
-body.mobile-safari .play-box:active path {
+body.mobile-safari .play-box:active path,
+.is-keyboard-focus .play-box:focus,
+.is-keyboard-focus .play-box:focus path {
+    outline: none;
     background-color: var(--color-listen);
     color: white;
     fill: white;
 }
 
-.play-box:hover svg, .delete-box:hover svg {
+.play-box:hover svg,
+.delete-box:hover svg,
+.is-keyboard-focus .play-box:focus svg,
+.is-keyboard-focus .delete-box:focus svg {
     transform: scale(1.1);
 }
 
@@ -114,7 +121,9 @@ body.mobile-safari .play-box:active path {
 body:not(.mobile-safari) .delete-box:hover,
 body:not(.mobile-safari) .delete-box:hover path,
 body.mobile-safari .delete-box:active,
-body.mobile-safari .delete-box:active path {
+body.mobile-safari .delete-box:active path,
+.is-keyboard-focus .delete-box:focus,
+.is-keyboard-focus .delete-box:focus path {
     background-color: black;
     color: white;
     fill: white;
@@ -134,7 +143,7 @@ body.mobile-safari .delete-box:active path {
     }
 }
 
-.vote-box > a {
+.vote-box > button {
     border: 1px solid var(--color-record-hr);
     border-radius: 1.5rem;
     padding: .5rem 1.5rem;
@@ -146,20 +155,21 @@ body.mobile-safari .delete-box:active path {
     font-size: .9rem;
     text-transform: uppercase;
     cursor: pointer;
+    font-family: var(--base-font-family);
     font-weight: bold;
 }
 
-.vote-box > a:first-child {
+.vote-box > button:first-child {
     margin-right: var(--standard-margin);
 }
 
-body:not(.mobile-safari) .vote-box > a:hover {
+body:not(.mobile-safari) .vote-box > button:hover {
     background-color: black;
     border-color: transparent;
     color: white;
 }
 
-.vote-box.disabled > a {
+.vote-box.disabled > button {
     opacity: 0.3;
     pointer-events: none;
 }

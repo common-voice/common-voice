@@ -1,60 +1,58 @@
 import { IConnection } from 'mysql2Types';
-const utf8 = require('utf8');
-import { hash } from '../../../clip';
 import { fetchS3Data } from './fetch-s3-data';
-import { migrateClips } from './migrate-clips';
+import { migrateClip } from './migrate-clip';
 import { migrateSentences } from './migrate-sentences';
-import { migrateVotes } from './migrate-votes';
-import { migrateUserClients } from './migrate-user-clients';
+import { migrateVote } from './migrate-vote';
+import { migrateUserClient } from './migrate-user-client';
 
 function print(...args: any[]) {
   args.unshift('MIGRATION --');
   console.log.apply(console, args);
 }
 
-interface SentenceMap {
-  [id: string]: any;
-}
-
-async function buildSentenceMapWithDiverseIndexes(
-  connection: IConnection
-): Promise<SentenceMap> {
-  const [sentenceRows] = (await connection.query(
-    'SELECT id, text FROM sentences'
-  )) as any;
-
-  const sentences: SentenceMap = {};
-  for (const row of sentenceRows) {
-    sentences[row.id] = row;
-    sentences[hash(row.text.trim())] = row;
-    try {
-      sentences[hash(utf8.decode(row.text))] = row;
-    } catch (e) {
-      console.error("couldn't decode sentence", `"${row.text}"`);
-    }
-    sentences[
-      hash(
-        row.text.replace(/([?;,/:@&=+$])/g, (s: string) =>
-          encodeURIComponent(s)
-        )
-      )
-    ] = row;
-  }
-  return sentences;
-}
+(<any>Symbol).asyncIterator =
+  Symbol.asyncIterator || Symbol.for('Symbol.asyncIterator');
 
 export async function migrate(connection: IConnection) {
   print('starting');
+
+  await migrateSentences(connection, print);
+
   try {
-    const [s3Data, sentences] = await Promise.all([
-      fetchS3Data(print),
-      migrateSentences(connection, print).then(() =>
-        buildSentenceMapWithDiverseIndexes(connection)
-      ),
-    ]);
-    await migrateUserClients(connection, s3Data.client_ids, print);
-    await migrateClips(connection, s3Data.clips, sentences, print);
-    await migrateVotes(connection, s3Data.votes, sentences, print);
+    const gen = fetchS3Data(print);
+
+    const votesWithUnknownClips = [];
+    let result;
+    while ((result = await gen.next()) && !result.done) {
+      const { type } = result.value;
+      if (type === 'clip') {
+        const clip = result.value;
+        await migrateUserClient(connection, clip.client_id);
+        await migrateClip(connection, clip, print);
+      } else if (type === 'vote') {
+        const vote = result.value;
+        await migrateUserClient(connection, vote.clip_client_id);
+        await migrateUserClient(connection, vote.voter_client_id);
+        if (!await migrateVote(connection, vote, print)) {
+          votesWithUnknownClips.push(vote);
+        }
+      }
+      const [[row]] = await connection.execute(
+        'SELECT ' +
+          '(SELECT COUNT(*) FROM sentences) AS sentencesCount,' +
+          '(SELECT COUNT(*) FROM user_clients) AS userClientsCount,' +
+          '(SELECT COUNT(*) FROM clips) AS clipsCount,' +
+          '(SELECT COUNT(*) FROM votes) AS votesCount'
+      );
+      print(JSON.stringify(row));
+    }
+    if (votesWithUnknownClips.length > 0) {
+      print(
+        votesWithUnknownClips.length,
+        'votes with unknown clip. It will NOT be migrated:',
+        JSON.stringify(votesWithUnknownClips)
+      );
+    }
     print('done!!!!!');
   } catch (e) {
     console.error(e);

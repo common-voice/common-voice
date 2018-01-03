@@ -72,26 +72,34 @@ footer a:hover, footer button:hover {
     height: 2.5rem;
 }
 
+
+@media (--mobile) {
+    #help-links {
+        height: 6rem;
+    }
+    #help-links .divider {
+        display: none;
+    }
+
+    #help-links img {
+        width: 21px;
+    }
+
+    #help-links a {
+        font-size: var(--small-font-size);
+    }
+}
+
 #help-links {
     margin-top: calc(2 * var(--standard-margin));
 }
 
 #moz-links {
+    display: flex;
+    flex-direction: column;
     height: 100%;
     font-size: 0.7rem;
     color: white;
-}
-
-@media (--desktop) {
-    #moz-links {
-        padding: 0.4rem 0;
-    }
-}
-
-
-#moz-links {
-    display: flex;
-    flex-direction: column;
 }
 
 @media (--mobile) {
@@ -103,6 +111,7 @@ footer a:hover, footer button:hover {
 @media (--desktop) {
     #moz-links {
         margin: 0 auto;
+        padding: 0.4rem 0;
         width: var(--desktop-width);
         flex-direction: row;
         justify-content: space-between;
@@ -111,6 +120,10 @@ footer a:hover, footer button:hover {
     #moz-links > * {
         margin: 2rem 0;
     }
+}
+
+.is-keyboard-focus #moz-links *:focus {
+    outline: 1px solid white;
 }
 
 #moz-links .content {

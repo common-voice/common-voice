@@ -99,7 +99,7 @@
     height: 50px;
 }
 
-#record-button:hover {
+#record-button:hover, .is-keyboard-focus #record-button:focus {
     transform: scale(1.1);
 }
 

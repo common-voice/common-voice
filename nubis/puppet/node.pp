@@ -94,3 +94,12 @@ upstart::job { $project_name:
   exec /usr/bin/forever --workingDir /var/www/${project_name} --minUptime 1000 --spinSleepTime 1000 -c \"/usr/bin/yarn start:prod\" /
 ",
 }
+
+
+file { "/etc/nubis.d/$project_name":
+    ensure => file,
+    owner  => root,
+    group  => root,
+    mode   => '0755',
+    source => 'puppet:///nubis/files/startup',
+}

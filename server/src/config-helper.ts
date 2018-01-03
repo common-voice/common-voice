@@ -18,10 +18,12 @@ export type CommonVoiceConfig = {
   BUCKET_LOCATION: string;
   ENVIRONMENT: string;
   ENABLE_MIGRATIONS: boolean;
+  RELEASE_VERSION?: string;
 };
 
 const DEFAULTS: CommonVoiceConfig = {
   VERSION: null, // Migration number (e.g. 20171205171637), null = most recent
+  RELEASE_VERSION: null, // release version set by nubis,
   PROD: false, // Set to true for staging and production.
   SERVER_PORT: 9000,
   DB_ROOT_USER: 'root', // For running schema migrations.

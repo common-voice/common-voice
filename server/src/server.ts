@@ -138,7 +138,8 @@ export default class Server {
 
     try {
       this.isLeader = await isLeaderServer(
-        this.config.ENVIRONMENT
+        this.config.ENVIRONMENT,
+        this.config.RELEASE_VERSION
       );
       this.print('leader', this.isLeader);
     } catch (err) {
@@ -234,7 +235,7 @@ export default class Server {
    */
   async run(): Promise<void> {
     // Log the start.
-    this.print('starting');
+    this.print('starting with config ' + JSON.stringify(this.config));
 
     // Set up db connection.
     await this.ensureDatabase();

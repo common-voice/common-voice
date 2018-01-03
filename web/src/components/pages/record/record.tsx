@@ -1,3 +1,4 @@
+import debounce = require('lodash.debounce');
 import * as React from 'react';
 import { connect } from 'react-redux';
 import ERROR_MSG from '../../../error-msg';
@@ -19,6 +20,7 @@ const MAX_RECORDING_LENGTH = 10000; // ms
 const MIN_VOLUME = 1;
 const ERR_SENTENCES_NOT_LOADED =
   'Sorry! Sentences are being loaded, please wait or try again shortly.';
+const RECORD_DEBOUNCE_MS = 300;
 
 const UnsupportedInfo = () => (
   <div className="unsupported">
@@ -186,11 +188,8 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
     });
   };
 
-  private onRecordClick = async (evt?: any) => {
+  private onRecordClick = debounce(async (evt?: any) => {
     evt.preventDefault();
-    if (evt.stopImmediatePropagation) {
-      evt.stopImmediatePropagation();
-    }
 
     if (this.props.isRecording) {
       this.stopRecording();
@@ -207,7 +206,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
         throw err;
       }
     }
-  };
+  }, RECORD_DEBOUNCE_MS);
 
   private startRecording() {
     this.audio.start();
@@ -331,14 +330,14 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
                     Please tap to record, then read the above sentence aloud.
                   </p>,
                   <div key="record-button" className="record-actions">
-                    <button
-                      id="record-button"
-                      onTouchStart={this.onRecordClick}
-                      onClick={this.onRecordClick}>
+                    <button id="record-button" onClick={this.onRecordClick}>
                       <RecordIcon />
                     </button>
                     {reRecordSentence && (
-                      <a className="rerecord" onClick={this.cancelReRecord}>
+                      <a
+                        href="javascript:void(0)"
+                        className="rerecord"
+                        onClick={this.cancelReRecord}>
                         Cancel Re-recording
                       </a>
                     )}
