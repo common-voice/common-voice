@@ -8,4 +8,4 @@ mod 'puppetlabs/apt','2.4.0'
 
 mod 'spantree/upstart','0.0.3'
 
-mod 'puppet/nodejs', '2.3.0'
+mod 'puppet/nodejs', '4.0.1'
