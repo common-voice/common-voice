@@ -5,9 +5,6 @@
   "license": "MPL-2.0",
   "repository": "mozilla/voice-web",
   "main": "server/server.js",
-  "engines": {
-    "node": ">=8.9.0"
-  },
   "dependencies": {
     "@types/copy-webpack-plugin": "^4.0.1",
     "@types/extract-text-webpack-plugin": "^3.0.0",
