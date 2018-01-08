@@ -267,13 +267,6 @@ export default class Server {
     await this.model.db.drop();
     await this.model.ensureDatabaseSetup();
   }
-
-  /**
-   * Grab the latest version number from the database.
-   */
-  async getDatabaseVersion(): Promise<number> {
-    return this.model.db.version.getCurrentVersion();
-  }
 }
 
 // Handle any top-level exceptions uncaught in the app.

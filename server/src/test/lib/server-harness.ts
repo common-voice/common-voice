@@ -1,5 +1,6 @@
 import { CommonVoiceConfig, getConfig } from '../../config-helper';
 import RealServer from '../../server';
+import Mysql from "../../lib/model/db/mysql";
 
 const DB_PREFIX = 'test_';
 
@@ -18,6 +19,10 @@ export default class ServerHarness {
     this.server = new RealServer(this.config);
   }
 
+  get mysql(): Mysql {
+    return this.server.model.db.mysql;
+  }
+
   /**
    * We are finished with this harness, clean it up.
    */
@@ -33,17 +38,10 @@ export default class ServerHarness {
   }
 
   /**
-   * Get the version of the code.
-   */
-  getCodeVersion() {
-    return this.config.VERSION;
-  }
-
-  /**
    * Make sure we are able to connect to the database.
    */
   async connectToDatabase(): Promise<void> {
-    return this.server.model.db.mysql.ensureRootConnection();
+    return this.mysql.ensureRootConnection();
   }
 
   /**
@@ -54,38 +52,10 @@ export default class ServerHarness {
   }
 
   /**
-   * Get the database version from the server.
-   */
-  async getDatabaseVersion(): Promise<number> {
-    return this.server.getDatabaseVersion();
-  }
-
-  /**
    * Upgrade to the current DB by performing normal maintenance.
    */
   async performMaintenance(): Promise<void> {
     return this.server.performMaintenance();
-  }
-
-  /**
-   * Upgrade to a certain version of the DB.
-   */
-  async upgradeToVersion(version: number) {
-    return this.server.model.db.schema.upgradeToVersion(version);
-  }
-
-  /**
-   * Get a list of tables in the current DB.
-   */
-  async getTableList(): Promise<string[]> {
-    return this.server.model.db.schema.listTables();
-  }
-
-  /**
-   * Get a list of expected table values for a version.
-   */
-  getTablesForVersion(version: number): string[] {
-    return this.server.model.db.schema.getTablesForVersion(version);
   }
 
   /**
