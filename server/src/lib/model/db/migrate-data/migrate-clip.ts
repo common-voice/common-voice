@@ -1,10 +1,8 @@
 import { IConnection } from 'mysql2Types';
-import { ClipData } from './fetch-s3-data';
 import { getConfig } from '../../../../config-helper';
 import { AWS } from '../../../aws';
-
-const TIMESTEP = 1000;
-const AWS_MAX_GET_CALLS_PER_TIMESTEP = 300;
+import { rateLimit } from './aws-rate-limit';
+import { ClipData } from './fetch-s3-data';
 
 function fetchSentenceFromS3(glob: string): Promise<string> {
   const key = glob + '.txt';
@@ -24,8 +22,6 @@ function fetchSentenceFromS3(glob: string): Promise<string> {
     }
   );
 }
-
-let requestTimesInTimestep: number[] = [];
 
 export async function migrateClip(
   connection: IConnection,
@@ -50,21 +46,12 @@ export async function migrateClip(
     return;
   }
 
-  const now = Date.now();
-  requestTimesInTimestep = requestTimesInTimestep.filter(
-    t => t > now - TIMESTEP
-  );
-  if (requestTimesInTimestep.length > AWS_MAX_GET_CALLS_PER_TIMESTEP) {
-    await new Promise(resolve =>
-      setTimeout(resolve, now - requestTimesInTimestep[0])
-    );
-  }
+  await rateLimit();
 
   try {
     const sentenceText = await fetchSentenceFromS3(
       clip.path.substr(0, clip.path.length - 4)
     );
-    requestTimesInTimestep.push(now);
 
     if (sentenceText) {
       await connection.execute(

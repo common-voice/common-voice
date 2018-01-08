@@ -1,9 +1,9 @@
 import { getConfig } from '../../../../config-helper';
 import { AWS } from '../../../aws';
 import { sleep } from '../../../utility';
+import { rateLimit } from './aws-rate-limit';
 
 const KEYS_PER_REQUEST = 1000; // Max is 1000.
-const LOAD_DELAY = 200;
 
 const MP3_EXT = '.mp3';
 const VOTE_EXT = '.vote';
@@ -137,9 +137,7 @@ export class S3Fetcher {
 
       token = result.continuationToken;
       if (token) {
-        // Take a breather in between chunks to handle incoming requests.
-        const delay = LOAD_DELAY - Date.now() + startRequest;
-        if (delay) await sleep(delay);
+        await rateLimit();
       }
     } while (token);
 
