@@ -178,10 +178,10 @@ export default class ListenBox extends React.Component<Props, State> {
         </button>
         {this.props.vote ? (
           <div className={'vote-box ' + (played ? '' : 'disabled')}>
-            <button onClick={this.voteYes}>
+            <button onClick={this.voteYes} onTouchStart={this.voteYes}>
               {this.renderShortcutText('Yes')}
             </button>
-            <button onClick={this.voteNo}>
+            <button onClick={this.voteNo} onTouchStart={this.voteNo}>
               {this.renderShortcutText('No')}
             </button>
           </div>
