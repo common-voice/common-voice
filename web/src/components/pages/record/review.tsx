@@ -111,6 +111,10 @@ class Review extends React.Component<Props, State> {
       await this.props.api.uploadDemographicInfo();
       this.props.buildNewSentenceSet();
       trackRecording('submit');
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
     } catch (e) {
       this.setState({
         uploading: false,
