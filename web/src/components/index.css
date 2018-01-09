@@ -130,6 +130,10 @@ button {
   animation: fadein 0.5s linear;
 }
 
+#scroller {
+  position: relative;
+}
+
 @media (--mobile) {
   #scroller {
     margin-top: var(--header-height);
