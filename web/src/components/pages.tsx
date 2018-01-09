@@ -48,6 +48,9 @@ const URLS = {
 
 const KEYBOARD_FOCUS_CLASS_NAME = 'is-keyboard-focus';
 
+const LOW_FPS = 20;
+const DISABLE_ANIMATION_LOW_FPS_THRESHOLD = 3;
+
 interface PropsFromState {
   isSetFull: boolean;
   user: User.State;
@@ -125,11 +128,37 @@ class Pages extends React.Component<PagesProps, PagesState> {
     this.volume = volume;
   };
 
+  private lastFPSCheckAt = 0;
+  private lowFPSCount = 0;
+  private framesInLastSecond: number[] = [];
   private renderBackground = () => {
     if (this.stopBackgroundRender) return;
+    if (this.lowFPSCount >= DISABLE_ANIMATION_LOW_FPS_THRESHOLD) {
+      this.bg.style.transform = `scaleY(1)`;
+      return;
+    }
     const scale = Math.max(1.3 * (this.volume - 28) / 100, 0);
     this.bg.style.transform = `scaleY(${scale})`;
     requestAnimationFrame(this.renderBackground);
+
+    const now = Date.now();
+    this.framesInLastSecond.push(now);
+    if (now - this.lastFPSCheckAt < 1000) return;
+    this.lastFPSCheckAt = now;
+    const index = this.framesInLastSecond
+      .slice()
+      .reverse()
+      .findIndex(t => now - t > 1000);
+    if (index === -1) {
+      return;
+    }
+
+    this.framesInLastSecond = this.framesInLastSecond.slice(
+      this.framesInLastSecond.length - index - 1
+    );
+    if (this.framesInLastSecond.length < LOW_FPS) {
+      this.lowFPSCount++;
+    }
   };
 
   /**
