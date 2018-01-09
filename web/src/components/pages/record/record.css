@@ -30,35 +30,25 @@
     color: var(--color-speak);
     font-size: .9rem;
     font-weight: bold;
-    margin-top: 0.5rem;
 }
 
 #recordings-count span {
-    padding: 0.3rem;
+    padding: 0 0.3rem 0.3rem;
 }
 
 .record-sentence {
-    height: 14rem;
     margin-top: 0.5rem;
     position: relative;
     transition: transform 0.2s ease-in;
 }
 
 .text-box {
+    transition: transform 0.4s var(--easing);
+}
+
+.text-box.left, .text-box.right {
     position: absolute;
     top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 0 1rem;
-    background-color: var(--base-background-color);
-    box-shadow: var(--card-shadow);
-    transition: transform 0.4s var(--easing);
-    font-family: var(--strong-font-family);
-    font-size: 1.4rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .text-box.left {
@@ -66,6 +56,18 @@
 }
 .text-box.right {
     transform: translateX(100vw);
+}
+
+.text-box p {
+    padding: 1rem;
+    min-height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--strong-font-family);
+    font-size: 1.4rem;
+    background-color: var(--base-background-color);
+    box-shadow: var(--card-shadow);
 }
 
 .refresh {
@@ -82,8 +84,7 @@
 }
 
 .record-controls {
-    margin: 2rem auto 1rem;
-    height: 6.5rem;
+    margin: 1.5rem auto 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -92,11 +93,12 @@
 
 #record-button {
     display: inline-block;
+    box-sizing: content-box;
     border: none;
     border-radius: 50%;
-    padding: 0;
-    width: 50px;
-    height: 50px;
+    padding: .5rem;
+    min-width: 50px;
+    min-height: 50px;
 }
 
 #record-button:hover, .is-keyboard-focus #record-button:focus {
@@ -139,6 +141,7 @@
 }
 
 #record-help {
+    margin-top: 1.5rem;
     padding: 0 2rem;
     font-size: .9rem;
     color: var(--grey-font-color);
