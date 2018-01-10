@@ -26,7 +26,7 @@ html {
   font-size: var(--base-font-size);
   color: var(--base-font-color);
   background-color: var(--base-background-color);
-  overflow: scroll;
+  overflow: auto;
 }
 
 html, body, #main {
