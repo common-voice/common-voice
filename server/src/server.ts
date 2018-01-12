@@ -49,6 +49,10 @@ export default class Server {
       this.logger.overrideConsole();
     }
     this.isMigrated = false;
+
+    require('memwatch-next').on('stats', (stats: any) =>
+      this.print('Memory Usage:', stats.current_base.toLocaleString())
+    );
   }
 
   private set isMigrated(value: boolean) {

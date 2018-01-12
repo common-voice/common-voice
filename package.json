@@ -46,6 +46,7 @@
     "lodash.debounce": "^4.0.8",
     "lodash.pick": "^4.4.0",
     "mediaserver": "0.1.0",
+    "memwatch-next": "^0.3.0",
     "mkdirp": "^0.5.1",
     "mysql": "2.13.0",
     "mysql2": "^1.4.2",
