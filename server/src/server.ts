@@ -49,15 +49,6 @@ export default class Server {
       this.logger.overrideConsole();
     }
     this.isMigrated = false;
-
-    setInterval(
-      () =>
-        this.print(
-          'Memory Usage:',
-          process.memoryUsage().heapUsed.toLocaleString()
-        ),
-      1000
-    );
   }
 
   private set isMigrated(value: boolean) {
