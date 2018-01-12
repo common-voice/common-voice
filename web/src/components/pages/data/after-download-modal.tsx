@@ -75,7 +75,7 @@ class AfterDownloadModal extends React.Component<Props, State> {
 
               <LabeledInput
                 label={isSubmitted ? '' : 'Enter your email'}
-                type="email"
+                type={isSubmitted ? 'text' : 'email'}
                 value={isSubmitted ? "Thank you, we'll be in touch." : email}
                 disabled={isSubmitted}
                 onChange={(event: any) =>
