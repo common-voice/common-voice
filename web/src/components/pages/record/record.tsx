@@ -100,11 +100,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
     this.audio = isNativeIOS() ? new AudioIOS() : new AudioWeb();
     this.audio.setVolumeCallback(this.updateVolume.bind(this));
 
-    if (
-      !this.audio.isMicrophoneSupported() ||
-      !this.audio.isAudioRecordingSupported() ||
-      isFocus()
-    ) {
+    if (!this.audio.isMicrophoneSupported() || isFocus()) {
       this.isUnsupportedPlatform = true;
       return;
     }
@@ -188,17 +184,23 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
     });
   };
 
-  private onRecordClick = debounce(async (evt?: any) => {
-    evt.preventDefault();
-
+  private onRecordClick = debounce(async () => {
     if (this.props.isRecording) {
       this.stopRecording();
       return;
     }
 
     try {
-      await this.audio.init();
-      this.startRecording();
+      await this.audio.start();
+      this.maxVolume = 0;
+      this.setState({
+        // TODO: re-enable display of recording time at some point.
+        recordingStartTime: Date.now(),
+        recordingStopTime: 0,
+        showSubmitSuccess: false,
+        recordingError: null,
+      });
+      this.props.onRecord && this.props.onRecord();
     } catch (err) {
       if (err === ERROR_MSG.ERR_NO_MIC) {
         this.setState({ showRetryModal: true });
@@ -207,19 +209,6 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
       }
     }
   }, RECORD_DEBOUNCE_MS);
-
-  private startRecording() {
-    this.audio.start();
-    this.maxVolume = 0;
-    this.setState({
-      // TODO: re-enable display of recording time at some point.
-      recordingStartTime: Date.now(),
-      recordingStopTime: 0,
-      showSubmitSuccess: false,
-      recordingError: null,
-    });
-    this.props.onRecord && this.props.onRecord();
-  }
 
   private stopRecording = () => {
     this.audio.stop().then(this.processRecording);
