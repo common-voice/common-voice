@@ -66,3 +66,17 @@ module "clips" {
   purpose      = "clips"
   role         = "${module.worker.role}"
 }
+
+resource "aws_cloudwatch_metric_alarm" "memory_watch" {
+  alarm_name                = "${var.service_name}-${var.environment}-memory"
+  comparison_operator       = "GreaterThanOrEqualToThreshold"
+  evaluation_periods        = "2"
+  metric_name               = "mem_used"
+  namespace                 = "AWS/EC2"
+  period                    = "120"
+  statistic                 = "Average"
+  threshold                 = "10000"
+  alarm_description         = "This metric monitors ec2 memory used"
+  insufficient_data_actions = []
+}
+
