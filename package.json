@@ -34,7 +34,7 @@
     "cssnano": "^3.10.0",
     "db-migrate": "^0.10.2",
     "db-migrate-mysql": "^1.1.10",
-    "db-migrate-plugin-typescript": "^1.0.1",
+    "db-migrate-plugin-typescript": "^2.0.0",
     "es6-promise": "^4.1.1",
     "eslint": "^4.7.2",
     "eslint-plugin-prettier": "^2.3.1",
@@ -89,7 +89,7 @@
     "react-dev-utils": "^4.2.1"
   },
   "peerDependencies": {
-    "ts-node": "^3.3.0"
+    "ts-node": "^4.1.0"
   },
   "scripts": {
     "build": "concurrently \"node scripts/build-server.js\" \"cd web/ && webpack --config webpack.prod.config.js\"",
