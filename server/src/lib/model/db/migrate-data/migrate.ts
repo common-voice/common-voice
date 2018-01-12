@@ -16,9 +16,9 @@ function print(...args: any[]) {
 export async function migrate(connection: IConnection) {
   print('starting');
 
-  // await migrateSentences(connection, print);
-
   try {
+    await migrateSentences(connection, print);
+
     const gen = fetchS3Data(print);
 
     const votesWithUnknownClips = [];
