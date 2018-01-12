@@ -50,8 +50,13 @@ export default class Server {
     }
     this.isMigrated = false;
 
-    require('memwatch-next').on('stats', (stats: any) =>
-      this.print('Memory Usage:', stats.current_base.toLocaleString())
+    setInterval(
+      () =>
+        this.print(
+          'Memory Usage:',
+          process.memoryUsage().heapUsed.toLocaleString()
+        ),
+      1000
     );
   }
 
