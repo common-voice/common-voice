@@ -74,6 +74,7 @@
     "style-loader": "^0.19.0",
     "ts-jest": "^21.2.4",
     "ts-loader": "^2.3.7",
+    "ts-node": "^3.3.0",
     "typescript": "^2.5.2",
     "typescript-eslint-parser": "^8.0.0",
     "utf8": "^2.1.2",
@@ -87,9 +88,6 @@
     "eslint-loader": "^1.9.0",
     "nodemon": "^1.12.1",
     "react-dev-utils": "^4.2.1"
-  },
-  "peerDependencies": {
-    "ts-node": "^4.1.0"
   },
   "scripts": {
     "build": "concurrently \"node scripts/build-server.js\" \"cd web/ && webpack --config webpack.prod.config.js\"",
