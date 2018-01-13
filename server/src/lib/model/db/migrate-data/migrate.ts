@@ -22,8 +22,10 @@ export async function migrate(connection: IConnection) {
     const gen = fetchS3Data(print);
 
     const votesWithUnknownClips = [];
+    let processedObjectsCount = 0;
     let result;
     while ((result = await gen.next()) && !result.done) {
+      processedObjectsCount++;
       const { type } = result.value;
       if (type === 'clip') {
         const clip = result.value;
@@ -37,15 +39,19 @@ export async function migrate(connection: IConnection) {
           votesWithUnknownClips.push(vote);
         }
       }
-      const [[row]] = await connection.execute(
-        'SELECT ' +
-          '(SELECT COUNT(*) FROM sentences) AS sentencesCount,' +
-          '(SELECT COUNT(*) FROM user_clients) AS userClientsCount,' +
-          '(SELECT COUNT(*) FROM clips) AS clipsCount,' +
-          '(SELECT COUNT(*) FROM votes) AS votesCount'
-      );
-      print(JSON.stringify(row));
+
+      if (processedObjectsCount % 100 == 0) {
+        print('processed', processedObjectsCount, 'objects from S3');
+      }
     }
+    const [[row]] = await connection.execute(
+      'SELECT ' +
+        '(SELECT COUNT(*) FROM sentences) AS sentencesCount,' +
+        '(SELECT COUNT(*) FROM user_clients) AS userClientsCount,' +
+        '(SELECT COUNT(*) FROM clips) AS clipsCount,' +
+        '(SELECT COUNT(*) FROM votes) AS votesCount'
+    );
+    print(JSON.stringify(row));
     if (votesWithUnknownClips.length > 0) {
       print(
         votesWithUnknownClips.length,
