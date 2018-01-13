@@ -17,7 +17,7 @@ export async function migrate(connection: IConnection) {
   print('starting');
 
   try {
-    await migrateSentences(connection, print);
+    // await migrateSentences(connection, print);
 
     const gen = fetchS3Data(print);
 
