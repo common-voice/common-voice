@@ -157,6 +157,7 @@ body.mobile-safari .delete-box:active path,
     cursor: pointer;
     font-family: var(--base-font-family);
     font-weight: bold;
+    user-select: none;
 }
 
 .vote-box > button:first-child {
