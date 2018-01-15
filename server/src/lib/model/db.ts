@@ -156,10 +156,13 @@ export default class DB {
     const [[{ count }]] = await this.mysql.exec(
       `
         SELECT COUNT(*) AS count
-        FROM clips
-        LEFT JOIN votes ON clips.id = votes.clip_id AND votes.is_valid
-        GROUP BY clips.id
-        HAVING COUNT(votes.id) > 3
+        FROM (
+            SELECT clips.*
+            FROM clips
+            LEFT JOIN votes ON clips.id = votes.clip_id AND votes.is_valid
+            GROUP BY clips.id
+            HAVING COUNT(votes.id) >= 3
+        ) AS valid_clips
       `
     );
     return count || 0;
