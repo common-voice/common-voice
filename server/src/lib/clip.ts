@@ -21,6 +21,8 @@ const UPLOAD_PATH = path.resolve(__dirname, '../..', 'upload');
 const ACCEPTED_EXT = ['.mp3', '.ogg', '.webm', '.m4a'];
 const SALT = '8hd3e8sddFSdfj';
 
+const AVG_CLIP_SECONDS = 4.25; // I queried 40 recordings from prod and avg'd them
+
 export const hash = (str: string) =>
   crypto
     .createHmac('sha256', SALT)
@@ -125,13 +127,17 @@ export default class Clip {
     return request.url.includes('/upload/demographic');
   }
 
+  isValidatedHoursRequest(request: http.IncomingMessage) {
+    return request.url.includes('/upload/hours');
+  }
+
   /**
    * Distinguish between uploading and listening requests.
    */
-  handleRequest(
+  async handleRequest(
     request: http.IncomingMessage,
     response: http.ServerResponse
-  ): void {
+  ): Promise<void> {
     if (request.method === 'POST') {
       if (this.isClipVoteRequest(request)) {
         // Note: Check must occur first
@@ -142,7 +148,9 @@ export default class Clip {
         this.saveClip(request, response);
       }
     } else if (this.isRandomClipJsonRequest(request)) {
-      this.serveRandomClip(request, response);
+      await this.serveRandomClip(request, response);
+    } else if (this.isValidatedHoursRequest(request)) {
+      await this.serveValidatedHoursCount(request, response);
     } else {
       this.serve(request, response);
     }
@@ -406,5 +414,25 @@ export default class Clip {
       // Stream audio to client
       this.streamAudio(request, response, key);
     });
+  }
+
+  private validatedHours: number;
+  private lastValidatedHoursCheck: Date;
+  async serveValidatedHoursCount(
+    request: http.IncomingMessage,
+    response: http.ServerResponse
+  ) {
+    const yesterday = new Date();
+    yesterday.setDate(yesterday.getDate() - 1);
+    if (
+      !this.lastValidatedHoursCheck ||
+      this.lastValidatedHoursCheck < yesterday
+    ) {
+      this.validatedHours = Math.round(
+        (await this.model.db.getValidatedClipsCount()) * AVG_CLIP_SECONDS / 3600
+      );
+      this.lastValidatedHoursCheck = new Date();
+    }
+    respond(response, this.validatedHours.toString());
   }
 }

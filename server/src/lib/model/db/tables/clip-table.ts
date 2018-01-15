@@ -1,7 +1,5 @@
 import Mysql from '../mysql';
-import {
-  default as Table,
-} from '../table';
+import { default as Table } from '../table';
 
 export type DBClip = {
   id: number;
@@ -9,7 +7,7 @@ export type DBClip = {
   path: string;
   sentence: string;
   original_sentence_id: string;
-}
+};
 
 export interface DBClipWithVoters extends DBClip {
   voters: string[];

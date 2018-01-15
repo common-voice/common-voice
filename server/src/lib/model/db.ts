@@ -151,4 +151,17 @@ export default class DB {
       console.error('No sentence found with id', original_sentence_id);
     }
   }
+
+  async getValidatedClipsCount() {
+    const [[{ count }]] = await this.mysql.exec(
+      `
+        SELECT COUNT(*) AS count
+        FROM clips
+        LEFT JOIN votes ON clips.id = votes.clip_id AND votes.is_valid
+        GROUP BY clips.id
+        HAVING COUNT(votes.id) > 3
+      `
+    );
+    return count || 0;
+  }
 }
