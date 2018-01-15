@@ -17,7 +17,7 @@ export async function migrate(connection: IConnection) {
   print('starting');
 
   try {
-    // await migrateSentences(connection, print);
+    await migrateSentences(connection, print);
 
     const gen = fetchS3Data(print);
 
@@ -27,17 +27,26 @@ export async function migrate(connection: IConnection) {
     while ((result = await gen.next()) && !result.done) {
       processedObjectsCount++;
       const { type } = result.value;
-      if (type === 'clip') {
-        const clip = result.value;
-        await migrateUserClient(connection, clip.client_id);
-        await migrateClip(connection, clip, print);
-      } else if (type === 'vote') {
-        const vote = result.value;
-        await migrateUserClient(connection, vote.clip_client_id);
-        await migrateUserClient(connection, vote.voter_client_id);
-        if (!await migrateVote(connection, vote, print)) {
-          votesWithUnknownClips.push(vote);
-        }
+      switch (type) {
+        case 'clip':
+          const clip = result.value;
+          await migrateUserClient(connection, clip.client_id);
+          await migrateClip(connection, clip, print);
+          break;
+
+        case 'vote':
+          const vote = result.value;
+          await migrateUserClient(connection, vote.clip_client_id);
+          await migrateUserClient(connection, vote.voter_client_id);
+          if (!await migrateVote(connection, vote, print)) {
+            votesWithUnknownClips.push(vote);
+          }
+          break;
+
+        case 'user_client':
+          const userClient = result.value;
+          await migrateUserClient(connection, userClient.client_id, userClient);
+          break;
       }
 
       if (processedObjectsCount % 100 == 0) {

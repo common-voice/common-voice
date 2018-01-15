@@ -7,6 +7,7 @@ const KEYS_PER_REQUEST = 1000; // Max is 1000.
 
 const MP3_EXT = '.mp3';
 const VOTE_EXT = '.vote';
+const JSON_EXT = '.json';
 
 export interface ClipData {
   type: 'clip';
@@ -21,6 +22,14 @@ export interface VoteData {
   clip_sentence_id: string;
   voter_client_id: string;
   is_valid: boolean;
+}
+
+export interface UserClientData {
+  type: 'user_client';
+  client_id: string;
+  accent?: string;
+  age?: string;
+  gender?: string;
 }
 
 interface S3Results {
@@ -39,7 +48,7 @@ export class S3Fetcher {
 
   private async processFilePath(
     path: string
-  ): Promise<ClipData | VoteData | undefined> {
+  ): Promise<ClipData | VoteData | UserClientData | undefined> {
     const dotIndex = path.indexOf('.');
 
     // Filter out any directories.
@@ -78,9 +87,26 @@ export class S3Fetcher {
           clip_sentence_id,
           clip_client_id: client_id,
           voter_client_id,
-          is_valid: (await AWS.getS3()
-            .getObject({ Bucket: getConfig().BUCKET_NAME, Key: path })
-            .promise()).Body.toString() == 'true'
+          is_valid:
+            (await AWS.getS3()
+              .getObject({ Bucket: getConfig().BUCKET_NAME, Key: path })
+              .promise()).Body.toString() == 'true',
+        };
+
+      case JSON_EXT:
+        await rateLimit();
+        const { accent, age, gender }: any =
+          JSON.parse(
+            (await AWS.getS3()
+              .getObject({ Bucket: getConfig().BUCKET_NAME, Key: path })
+              .promise()).Body.toString()
+          ) || {};
+        return {
+          type: 'user_client',
+          client_id,
+          accent,
+          age,
+          gender,
         };
     }
   }
