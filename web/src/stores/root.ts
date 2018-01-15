@@ -68,4 +68,8 @@ store.subscribe(() => {
   localStorage[USER_KEY] = JSON.stringify(user);
 });
 
+window.addEventListener('storage', (storage: StorageEvent) => {
+  store.dispatch(User.actions.update(JSON.parse(storage.newValue)));
+});
+
 export default store;
