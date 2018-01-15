@@ -20,6 +20,7 @@ export interface VoteData {
   clip_client_id: string;
   clip_sentence_id: string;
   voter_client_id: string;
+  is_valid: boolean;
 }
 
 interface S3Results {
@@ -36,7 +37,9 @@ export class S3Fetcher {
     this.parentPrint = print;
   }
 
-  private processFilePath(path: string): ClipData | VoteData | undefined {
+  private async processFilePath(
+    path: string
+  ): Promise<ClipData | VoteData | undefined> {
     const dotIndex = path.indexOf('.');
 
     // Filter out any directories.
@@ -69,11 +72,15 @@ export class S3Fetcher {
 
       case VOTE_EXT:
         let [clip_sentence_id, voter_client_id] = sentence_id.split('-by-');
+        await rateLimit();
         return {
           type: 'vote',
           clip_sentence_id,
           clip_client_id: client_id,
           voter_client_id,
+          is_valid: (await AWS.getS3()
+            .getObject({ Bucket: getConfig().BUCKET_NAME, Key: path })
+            .promise()).Body.toString() == 'true'
         };
     }
   }
@@ -131,7 +138,7 @@ export class S3Fetcher {
       this.print(`${secondsToLoad}s to load`);
 
       for (const path of result.filePaths) {
-        const data = this.processFilePath(path);
+        const data = await this.processFilePath(path);
         if (data) yield data;
       }
 

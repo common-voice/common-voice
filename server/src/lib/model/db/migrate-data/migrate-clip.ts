@@ -4,23 +4,10 @@ import { AWS } from '../../../aws';
 import { rateLimit } from './aws-rate-limit';
 import { ClipData } from './fetch-s3-data';
 
-function fetchSentenceFromS3(glob: string): Promise<string> {
-  const key = glob + '.txt';
-  return new Promise(
-    (res: (sentence: string) => void, rej: (error: any) => void) => {
-      const params = { Bucket: getConfig().BUCKET_NAME, Key: key };
-      AWS.getS3().getObject(params, (err: any, s3Data: any) => {
-        if (err) {
-          console.error('Could not read from s3', key, err);
-          rej(err);
-          return;
-        }
-
-        let sentence = s3Data.Body.toString();
-        res(sentence);
-      });
-    }
-  );
+async function fetchSentenceFromS3(glob: string): Promise<string> {
+  return (await AWS.getS3()
+    .getObject({ Bucket: getConfig().BUCKET_NAME, Key: glob + '.txt' })
+    .promise()).Body.toString();
 }
 
 export async function migrateClip(

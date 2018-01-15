@@ -18,9 +18,11 @@ export async function migrateVote(
 
   try {
     await connection.execute(
-      'INSERT INTO votes (clip_id, client_id) VALUES (?, ?) ' +
-        'ON DUPLICATE KEY UPDATE id = id',
-      [clip.id, vote.voter_client_id]
+      `
+        INSERT INTO votes (clip_id, client_id, is_valid) VALUES (?, ?, ?)
+        ON DUPLICATE KEY UPDATE is_valid = VALUES(is_valid)
+      `,
+      [clip.id, vote.voter_client_id, vote.is_valid ? 1 : 0]
     );
     return true;
   } catch (e) {
