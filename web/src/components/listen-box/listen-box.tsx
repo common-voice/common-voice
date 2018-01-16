@@ -191,7 +191,6 @@ export default class ListenBox extends React.Component<Props, State> {
           </button>
         )}
         <audio
-          className="audio-box"
           // Only include the src attribute if the source is defined
           // (empty src attributes are invalid)
           {...this.props.src && { src: this.props.src }}

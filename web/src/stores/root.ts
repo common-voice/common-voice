@@ -30,7 +30,6 @@ const store = createStore(
     },
     action: Recordings.Action | User.Action | Validations.Action
   ): StateTree {
-    console.log(action);
     const newState = {
       recordings: Recordings.reducer(recordings, action as Recordings.Action),
       user: User.reducer(user, action as User.Action),

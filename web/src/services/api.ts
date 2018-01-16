@@ -101,12 +101,12 @@ export default class API {
    * Ask the server for a random clip.
    */
   async getRandomClip(): Promise<Clip> {
-    const req = await this.fetch('upload/random.json', {
+    const { response } = await this.fetch('upload/random.json', {
       responseType: 'json',
       headers: { uid: this.user.userId },
     });
 
-    return req.response;
+    return typeof response == 'string' ? JSON.parse(response) : response;
   }
 
   /**

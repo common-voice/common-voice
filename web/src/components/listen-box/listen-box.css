@@ -174,7 +174,3 @@ body:not(.mobile-safari) .vote-box > button:hover {
     opacity: 0.3;
     pointer-events: none;
 }
-
-.audio-box {
-    display: none;
-}
