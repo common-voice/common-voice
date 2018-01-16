@@ -5,6 +5,9 @@ import { migrateSentences } from './migrate-sentences';
 import { migrateVote } from './migrate-vote';
 import { migrateUserClient } from './migrate-user-client';
 
+(Symbol as any).asyncIterator =
+  Symbol.asyncIterator || Symbol.for('Symbol.asyncIterator');
+
 function print(...args: any[]) {
   args.unshift('MIGRATION --');
   console.log.apply(console, args);
