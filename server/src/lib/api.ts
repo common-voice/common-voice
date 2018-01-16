@@ -51,8 +51,8 @@ export default class API {
    * Loads cache. API will still be responsive to requests while loading cache.
    */
   async loadCache(): Promise<void> {
-    await Promise.all([this.clip.loadCache(), this.corpus.loadCache()]);
-    this.model.printMetrics();
+    await this.corpus.loadCache();
+    this.corpus.displayMetrics();
   }
 
   /**

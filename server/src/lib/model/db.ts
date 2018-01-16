@@ -6,6 +6,7 @@ import Table from './db/table';
 import { UserTable } from './db/tables/user-table';
 import UserClientTable from './db/tables/user-client-table';
 import ClipTable, { DBClipWithVoters } from './db/tables/clip-table';
+import VoteTable from './db/tables/vote-table';
 
 export type Tables = Table<{}>[];
 
@@ -16,6 +17,7 @@ export default class DB {
   schema: Schema;
   user: UserTable;
   userClient: UserClientTable;
+  vote: VoteTable;
 
   constructor(config: CommonVoiceConfig) {
     this.config = config;
@@ -24,6 +26,7 @@ export default class DB {
     this.clip = new ClipTable(this.mysql);
     this.user = new UserTable(this.mysql);
     this.userClient = new UserClientTable(this.mysql);
+    this.vote = new VoteTable(this.mysql);
 
     this.schema = new Schema(this.mysql, config);
   }
@@ -67,14 +70,9 @@ export default class DB {
    * I hope you know what you're doing.
    */
   async drop(): Promise<void> {
-    return this.schema.dropDatabase();
-  }
-
-  /**
-   * Print the current count of users in db.
-   */
-  async getUserCount(): Promise<number> {
-    return this.user.getCount();
+    if (!this.config.PROD) {
+      await this.schema.dropDatabase();
+    }
   }
 
   /**
@@ -82,6 +80,34 @@ export default class DB {
    */
   async getClientCount(): Promise<number> {
     return this.userClient.getCount();
+  }
+
+  async getClipCount(): Promise<number> {
+    return this.clip.getCount();
+  }
+
+  async getVoteCount(): Promise<number> {
+    return this.vote.getCount();
+  }
+
+  async getListenerCount(): Promise<number> {
+    return (await this.mysql.exec(
+      `
+        SELECT COUNT(DISTINCT user_clients.client_id) AS count
+        FROM user_clients
+        INNER JOIN votes ON user_clients.client_id = votes.client_id
+      `
+    ))[0][0].count;
+  }
+
+  async getSubmitterCount(): Promise<number> {
+    return (await this.mysql.exec(
+      `
+        SELECT DISTINCT COUNT(DISTINCT user_clients.client_id) AS count
+        FROM user_clients
+        INNER JOIN clips ON user_clients.client_id = clips.client_id
+      `
+    ))[0][0].count;
   }
 
   /**
@@ -117,10 +143,11 @@ export default class DB {
   }
 
   async saveVote(glob: string, client_id: string, vote: string) {
-    const [[row]] = await this.mysql.exec(
-      'SELECT id FROM clips WHERE path = ? LIMIT 1',
-      [glob]
-    );
+    const [
+      [row],
+    ] = await this.mysql.exec('SELECT id FROM clips WHERE path = ? LIMIT 1', [
+      glob,
+    ]);
     if (!row) {
       console.error('No clip found for vote', { glob, client_id, vote });
       return;

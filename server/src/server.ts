@@ -137,10 +137,7 @@ export default class Server {
     return this.isLeader;
   }
 
-  /**
-   * Load our memory cache of site data (users, clips sentences).
-   */
-  private async loadClipCache(): Promise<void> {
+  private async loadCache(): Promise<void> {
     // Don't load cache for leader, as we need plenty of memory for the migration
     if (this.isLeader && !this.hasPerformedMaintenance) return;
 
@@ -213,7 +210,7 @@ export default class Server {
 
   startHeartbeat(): void {
     setInterval(() => {
-      this.model.printUserCount();
+      this.model.printMetrics();
     }, 60000);
   }
 
@@ -235,13 +232,13 @@ export default class Server {
 
     // Attemp to load cache (sentences and audio metadata).
     // Note: we don't wait for this to finish before continuing.
-    this.loadClipCache();
+    this.loadCache().catch(error => console.error(error));
 
     // Leader servers will perform database maintenance.
     if (isLeader) {
       await this.performMaintenance();
       this.hasPerformedMaintenance = true;
-      await this.loadClipCache();
+      await this.loadCache();
     }
 
     this.startHeartbeat();
