@@ -40,7 +40,6 @@ export default class Server {
   }
 
   private set isMigrated(value: boolean) {
-    this.model.isMigrated = value;
     this.api.isMigrated = value;
   }
 

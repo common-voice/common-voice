@@ -28,10 +28,6 @@ export default class Model {
     this.loaded = false;
   }
 
-  set isMigrated(value: boolean) {
-    this.clips.isMigrated = value;
-  }
-
   private addClip(userid: string, sentenceid: string, path: string) {
     this.users.addClip(userid, path);
     this.clips.addClip(userid, sentenceid, path);

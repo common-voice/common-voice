@@ -354,9 +354,7 @@ export default class Clip {
         () => {
           // File saving is now complete.
           console.log('file written to s3', file);
-          if (this.isMigrated) {
-            this.model.db.saveClip(uid, filePrefix, file, sentence);
-          }
+          this.model.db.saveClip(uid, filePrefix, file, sentence);
           resolve(filePrefix);
         }
       ).onError(reject);

@@ -76,22 +76,16 @@ interface ClipMetrics {
 export default class Clips {
   db: DB;
   allClips: ClipList;
-  unverifiedClips: string[];
-  verifiedClips: string[];
   metrics: ClipMetrics;
   loaded: boolean;
   randomEngine: Random.MT19937;
-  isMigrated: boolean;
 
   constructor(db: DB) {
     this.allClips = {};
     this.db = db;
-    this.unverifiedClips = [];
-    this.verifiedClips = [];
     this.randomEngine = Random.engines.mt19937();
     this.randomEngine.autoSeed();
     this.loaded = false;
-    this.isMigrated = false;
   }
 
   private getClip(userid: string, sentenceid: string): Clip {
@@ -104,48 +98,19 @@ export default class Clips {
     return clip;
   }
 
-  /**
-   * Checks to see if clip is ready to be verified, or is already verified.
-   */
-  private processClip(clip: Clip) {
-    if (!clip.isComplete()) {
-      return;
-    }
-
-    const { clipid } = clip;
-    if (clip.isUnverified()) {
-      if (this.unverifiedClips.indexOf(clipid) === -1) {
-        this.unverifiedClips.push(clipid);
-      }
-    } else {
-      // When a clip is verified, move it to the deactive list.
-      const i = this.unverifiedClips.indexOf(clipid);
-      if (i !== -1) {
-        this.unverifiedClips.splice(i, 1);
-      }
-
-      if (this.verifiedClips.indexOf(clipid) === -1) {
-        this.verifiedClips.push(clipid);
-      }
-    }
-  }
-
   addClip(userid: string, sentenceid: string, path: string): void {
     let clip = this.getClip(userid, sentenceid);
     clip.clipPath = path;
-    this.processClip(clip);
   }
 
   addVote(userid: string, sentenceid: string, path: string): void {
     let clip = this.getClip(userid, sentenceid);
     clip.votes.push(path);
-    this.processClip(clip);
   }
 
   addSentence(userid: string, sentenceid: string, path: string): void {
     let clip = this.getClip(userid, sentenceid);
     clip.sentencePath = path;
-    this.processClip(clip);
   }
 
   addSentenceContent(userid: string, sentenceid: string, text: string) {
@@ -171,29 +136,16 @@ export default class Clips {
    * Fetch a random clip but make sure it's not the user's.
    */
   async getEllibleClip(client_id: string): Promise<DBClipWithVoters | Clip> {
-    if (this.isMigrated) {
-      if (this.clipsWithFewVotes.length == 0)
-        await this.refillClipsWithFewVotes();
+    if (this.clipsWithFewVotes.length == 0)
+      await this.refillClipsWithFewVotes();
 
-      const i = this.clipsWithFewVotes.findIndex(
-        clip => clip.client_id !== client_id && !clip.voters.includes(client_id)
-      );
-      if (i == -1) return null;
+    const i = this.clipsWithFewVotes.findIndex(
+      clip => clip.client_id !== client_id && !clip.voters.includes(client_id)
+    );
+    if (i == -1) return null;
 
-      const clip = this.clipsWithFewVotes[i];
-      this.clipsWithFewVotes.splice(i, 1);
-      return clip;
-    }
-    if (this.unverifiedClips.length === 0) {
-      return null;
-    }
-
-    let distribution = Random.integer(0, this.unverifiedClips.length - 1);
-    let clipid, clip;
-    do {
-      clipid = this.unverifiedClips[distribution(this.randomEngine)];
-      clip = this.allClips[clipid];
-    } while (clip.userid === client_id);
+    const clip = this.clipsWithFewVotes[i];
+    this.clipsWithFewVotes.splice(i, 1);
     return clip;
   }
 
