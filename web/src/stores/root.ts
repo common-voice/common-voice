@@ -30,6 +30,7 @@ const store = createStore(
     },
     action: Recordings.Action | User.Action | Validations.Action
   ): StateTree {
+    console.log(action);
     const newState = {
       recordings: Recordings.reducer(recordings, action as Recordings.Action),
       user: User.reducer(user, action as User.Action),
@@ -44,7 +45,7 @@ const store = createStore(
   composeEnhancers(applyMiddleware(thunk))
 );
 
-store.dispatch(User.actions.update({}));
+// store.dispatch(User.actions.update({}));
 
 const fieldTrackers: any = {
   email: () => trackProfile('give-email'),
@@ -68,8 +69,13 @@ store.subscribe(() => {
   localStorage[USER_KEY] = JSON.stringify(user);
 });
 
-window.addEventListener('storage', (storage: StorageEvent) => {
-  store.dispatch(User.actions.update(JSON.parse(storage.newValue)));
-});
+// Only check for storage events in non-IE browsers, as it misfires in IE
+if (!(document as any).documentMode) {
+  window.addEventListener('storage', (storage: StorageEvent) => {
+    if (storage.key === USER_KEY) {
+      store.dispatch(User.actions.update(JSON.parse(storage.newValue)));
+    }
+  });
+}
 
 export default store;
