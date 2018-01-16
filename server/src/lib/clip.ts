@@ -174,7 +174,8 @@ export default class Clip {
    * Save the request clip vote in S3
    */
   async saveVote(request: http.IncomingMessage): Promise<string> {
-    const { glob, uid } = request.headers;
+    const glob = request.headers.glob as string;
+    const uid = request.headers.uid as string;
 
     const vote = decodeURI(request.headers.vote as string);
 
@@ -279,7 +280,7 @@ export default class Clip {
    */
   save(request: http.IncomingMessage): Promise<string> {
     let info = request.headers;
-    let uid = info.uid;
+    let uid = info.uid as string;
     let sentence = decodeURI(info.sentence as string);
 
     if (!uid || !sentence) {

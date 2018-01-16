@@ -10,9 +10,6 @@ function print(...args: any[]) {
   console.log.apply(console, args);
 }
 
-(<any>Symbol).asyncIterator =
-  Symbol.asyncIterator || Symbol.for('Symbol.asyncIterator');
-
 export async function migrate(connection: IConnection) {
   print('starting');
 

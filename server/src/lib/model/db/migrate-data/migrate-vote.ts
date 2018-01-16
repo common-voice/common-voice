@@ -6,9 +6,7 @@ export async function migrateVote(
   vote: VoteData,
   print: any
 ) {
-  const [
-    [clip],
-  ] = await connection.execute(
+  const [[clip]] = await connection.execute(
     'SELECT id FROM clips WHERE client_id = ? AND original_sentence_id = ?',
     [vote.clip_client_id, vote.clip_sentence_id]
   );

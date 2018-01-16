@@ -78,8 +78,9 @@ class AfterDownloadModal extends React.Component<Props, State> {
                 type={isSubmitted ? 'text' : 'email'}
                 value={isSubmitted ? "Thank you, we'll be in touch." : email}
                 disabled={isSubmitted}
-                onChange={(event: any) =>
-                  this.setState({ email: event.target.value })}
+                onChange={(event: any) => {
+                  this.setState({ email: event.target.value });
+                }}
               />
 
               {!isSubmitted && (

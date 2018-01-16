@@ -1,7 +1,5 @@
 import Mysql from '../mysql';
-import {
-  default as Table,
-} from '../table';
+import { default as Table } from '../table';
 
 /**
  * Trackers email to clientid associations.

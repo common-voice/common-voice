@@ -17,7 +17,7 @@ export default ({
   buttons,
   children,
   innerClassName = '',
-  ...props,
+  ...props
 }: Props) => (
   <Modal
     isOpen={true}

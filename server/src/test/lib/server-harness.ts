@@ -1,6 +1,6 @@
 import { CommonVoiceConfig, getConfig } from '../../config-helper';
 import RealServer from '../../server';
-import Mysql from "../../lib/model/db/mysql";
+import Mysql from '../../lib/model/db/mysql';
 
 const DB_PREFIX = 'test_';
 

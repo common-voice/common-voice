@@ -112,12 +112,12 @@ export default class API {
   /**
    * Create a new XMLHttpRequest with method 'POST', to the given `url`, using
    * the given `headers` for the request.
-   * 
+   *
    * **IMPORTANT:** The created request is not sent by this method. You have
    * to invoke the request's `send()` method yourself in the `requestCallback`
    * that you pass to this method!
-   * 
-   * @returns A Promise that resolves to the success event when the POST 
+   *
+   * @returns A Promise that resolves to the success event when the POST
    *   request succeeds, or rejects with the error event if an error occurs.
    */
   private createPostRequest(

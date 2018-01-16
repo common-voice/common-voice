@@ -117,11 +117,10 @@ export default class DB {
   }
 
   async saveVote(glob: string, client_id: string, vote: string) {
-    const [
-      [row],
-    ] = await this.mysql.exec('SELECT id FROM clips WHERE path = ? LIMIT 1', [
-      glob,
-    ]);
+    const [[row]] = await this.mysql.exec(
+      'SELECT id FROM clips WHERE path = ? LIMIT 1',
+      [glob]
+    );
     if (!row) {
       console.error('No clip found for vote', { glob, client_id, vote });
       return;

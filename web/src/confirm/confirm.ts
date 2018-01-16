@@ -7,7 +7,7 @@
  * @param label The main text/label for the dialog.
  * @param okLabel Label for the "OK" button.
  * @param cancelLabel Label for the "Cancel" button.
- * @returns A Promise that is resolved with `true` if user clicks the "OK" button, 
+ * @returns A Promise that is resolved with `true` if user clicks the "OK" button,
  *    or resolved with `false` if user clicks the "Cancel" button.
  */
 export default function confirm(

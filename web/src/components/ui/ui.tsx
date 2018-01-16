@@ -23,7 +23,7 @@ const LabeledFormControl = ({
   component: Component,
   label,
   required,
-  ...props,
+  ...props
 }: any) => (
   <label className={'labeled-form-control ' + className} {...props}>
     {label}

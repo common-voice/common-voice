@@ -71,7 +71,7 @@ export default class API {
     response: http.ServerResponse
   ) {
     try {
-      const uid = request.headers.uid;
+      const uid = request.headers.uid as string;
       const body = await this.getRequestBody(request);
       await this.model.syncUser(uid, JSON.parse(body));
       respond(response, 'user synced');
