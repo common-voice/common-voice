@@ -82,15 +82,16 @@ export class S3Fetcher {
       case VOTE_EXT:
         let [clip_sentence_id, voter_client_id] = sentence_id.split('-by-');
         await rateLimit();
+        const isValidString = (await AWS.getS3()
+          .getObject({ Bucket: getConfig().BUCKET_NAME, Key: path })
+          .promise()).Body.toString();
         return {
           type: 'vote',
           clip_sentence_id,
           clip_client_id: client_id,
           voter_client_id,
           is_valid:
-            (await AWS.getS3()
-              .getObject({ Bucket: getConfig().BUCKET_NAME, Key: path })
-              .promise()).Body.toString() == 'true',
+            isValidString == 'true' ? true : isValidString == 'false' ? false : null,
         };
 
       case JSON_EXT:
