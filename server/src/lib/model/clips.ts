@@ -135,7 +135,7 @@ export default class Clips {
   /**
    * Fetch a random clip but make sure it's not the user's.
    */
-  async getEllibleClip(client_id: string): Promise<DBClipWithVoters | Clip> {
+  async getEllibleClip(client_id: string): Promise<DBClipWithVoters> {
     if (this.clipsWithFewVotes.length == 0)
       await this.refillClipsWithFewVotes();
 

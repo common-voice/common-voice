@@ -136,7 +136,7 @@ export default class Model {
   /**
    * Fetch a random clip but make sure it's not the user's.
    */
-  getEllibleClip(client_id: string): Promise<DBClipWithVoters | Clip> {
+  getEllibleClip(client_id: string): Promise<DBClipWithVoters> {
     return this.clips.getEllibleClip(client_id);
   }
 

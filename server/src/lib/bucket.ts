@@ -186,25 +186,11 @@ export default class Bucket {
       throw new Error('Could not find any eligible clips for this user');
     }
 
-    let glob, text, path;
-    if (clip instanceof Clip) {
-      // On the client, the clipid is called 'glob'
-      glob = clip.clipid;
-      text = clip.sentenceText;
-      path = clip.clipPath;
-
-      if (!text) {
-        text = await this.fetchSentenceFromS3(glob);
-        this.model.addSentenceContent(uid, clip.sentenceid, text);
-      }
-    } else {
-      text = clip.sentence;
-      glob = path = clip.path;
-    }
+    const { path } = clip;
 
     return JSON.stringify({
-      glob,
-      text,
+      glob: path,
+      text: clip.sentence,
       sound: this.getPublicUrl(path),
     });
   }
