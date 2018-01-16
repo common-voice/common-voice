@@ -88,6 +88,9 @@
     "nodemon": "^1.12.1",
     "react-dev-utils": "^4.2.1"
   },
+  "engines": {
+    "node": ">=8.9.0"
+  },
   "scripts": {
     "build": "concurrently \"node scripts/build-server.js\" \"cd web/ && webpack --config webpack.prod.config.js\"",
     "lint": "eslint **/*.ts **/*.tsx",
