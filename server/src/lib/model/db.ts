@@ -8,8 +8,6 @@ import UserClientTable from './db/tables/user-client-table';
 import ClipTable, { DBClipWithVoters } from './db/tables/clip-table';
 import VoteTable from './db/tables/vote-table';
 
-export type Tables = Table<{}>[];
-
 export default class DB {
   clip: ClipTable;
   config: CommonVoiceConfig;
@@ -169,12 +167,16 @@ export default class DB {
   ) {
     try {
       await this.mysql.exec(
+        'INSERT INTO user_clients (client_id) VALUES (?) ON DUPLICATE KEY UPDATE client_id = client_id',
+        [client_id]
+      );
+      await this.mysql.exec(
         'INSERT INTO clips (client_id, original_sentence_id, path, sentence) VALUES (?, ?, ?, ?) ' +
           'ON DUPLICATE KEY UPDATE id = id',
         [client_id, original_sentence_id, path, sentence]
       );
     } catch (e) {
-      console.error('No sentence found with id', original_sentence_id);
+      console.error('No sentence found with id', original_sentence_id, e);
     }
   }
 
@@ -192,5 +194,24 @@ export default class DB {
       `
     );
     return count || 0;
+  }
+
+  async insertSentence(id: string, sentence: string) {
+    await this.mysql.exec('INSERT INTO sentences (id, text) VALUES (?, ?)', [
+      id,
+      sentence,
+    ]);
+  }
+
+  async empty() {
+    const [tables] = await this.mysql.rootExec('SHOW TABLES');
+    const tableNames = tables
+      .map((table: any) => Object.values(table)[0])
+      .filter((tableName: string) => tableName !== 'migrations');
+    await this.mysql.rootExec('SET FOREIGN_KEY_CHECKS = 0');
+    for (const tableName of tableNames) {
+      await this.mysql.rootExec('TRUNCATE TABLE ' + tableName);
+    }
+    await this.mysql.rootExec('SET FOREIGN_KEY_CHECKS = 1');
   }
 }

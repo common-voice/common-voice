@@ -149,6 +149,10 @@ export default class Clip {
     }
   }
 
+  async saveSentence(sentence: string) {
+    await this.model.db.insertSentence(hash(sentence), sentence);
+  }
+
   /**
    * Save clip vote posted to server
    */
@@ -331,7 +335,7 @@ export default class Clip {
     ]);
 
     console.log('file written to s3', clipFileName);
-    this.model.db.saveClip(uid, filePrefix, clipFileName, sentence);
+    await this.model.db.saveClip(uid, filePrefix, clipFileName, sentence);
     return filePrefix;
   }
 

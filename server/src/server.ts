@@ -251,6 +251,10 @@ export default class Server {
     await this.model.db.drop();
     await this.model.ensureDatabaseSetup();
   }
+
+  async emptyDatabase() {
+    await this.model.db.empty();
+  }
 }
 
 // Handle any top-level exceptions uncaught in the app.

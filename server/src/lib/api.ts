@@ -1,5 +1,4 @@
 import * as http from 'http';
-import * as path from 'path';
 
 import { CommonVoiceConfig } from '../config-helper';
 import Model from './model';

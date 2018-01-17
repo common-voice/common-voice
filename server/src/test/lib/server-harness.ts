@@ -12,7 +12,7 @@ export default class ServerHarness {
   server: RealServer;
 
   constructor(config?: CommonVoiceConfig) {
-    this.config = config ? config : getConfig();
+    this.config = config || getConfig();
     // Use a different database name then default for tests.
     this.config.MYSQLDBNAME = DB_PREFIX + this.config.MYSQLDBNAME;
     this.config.ENABLE_MIGRATIONS = false;
@@ -33,8 +33,8 @@ export default class ServerHarness {
   /**
    * Start the web server.
    */
-  listen(): void {
-    this.server.listen();
+  run(): Promise<void> {
+    return this.server.run();
   }
 
   /**
@@ -51,24 +51,11 @@ export default class ServerHarness {
     return this.server.resetDatabase();
   }
 
-  /**
-   * Upgrade to the current DB by performing normal maintenance.
-   */
-  async performMaintenance(): Promise<void> {
-    return this.server.performMaintenance();
+  emptyDatabase() {
+    return this.server.emptyDatabase();
   }
 
-  /**
-   * Get amount of known clients from the DB.
-   */
-  async getClientCount(): Promise<number> {
-    return this.server.model.db.userClient.getCount();
-  }
-
-  /**
-   * Get amount of known emails from the DB.
-   */
-  async getEmailCount(): Promise<number> {
-    return this.server.model.db.user.getCount();
+  async getClipCount(): Promise<number> {
+    return this.server.model.db.getClipCount();
   }
 }

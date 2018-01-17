@@ -170,11 +170,7 @@ export default class API {
     });
   }
 
-  uploadAudio(
-    blob: Blob,
-    sentence: string,
-    progress?: Function
-  ): Promise<Event> {
+  uploadAudio(blob: Blob, sentence: string): Promise<Event> {
     const headers: HeadersMap = {
       uid: this.user.userId,
       sentence: encodeURIComponent(sentence),
@@ -187,13 +183,6 @@ export default class API {
     }
 
     return this.createPostRequest(API.SOUNDCLIP_URL, headers, req => {
-      if (progress) {
-        req.addEventListener('progress', evt => {
-          let total = evt.lengthComputable ? evt.total : 100;
-          progress(100 * evt.loaded / total);
-        });
-      }
-
       req.send(blob);
     });
   }
