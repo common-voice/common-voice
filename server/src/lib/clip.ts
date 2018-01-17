@@ -282,8 +282,8 @@ export default class Clip {
     // Where is our audio clip going to be located?
     const folder = uid + '/';
     const filePrefix = hash(sentence);
-    const file = folder + filePrefix + '.mp3';
-    const txtFile = folder + filePrefix + '.txt';
+    const clipFileName = folder + filePrefix + '.mp3';
+    const sentenceFileName = folder + filePrefix + '.txt';
 
     // if the folder does not exist, we create it
     let params = { Bucket: this.config.BUCKET_NAME, Key: folder };
@@ -314,7 +314,7 @@ export default class Clip {
       this.s3
         .upload({
           Bucket: this.config.BUCKET_NAME,
-          Key: file,
+          Key: clipFileName,
           Body: transcoder
             .audioCodec('mp3')
             .format('mp3')
@@ -324,14 +324,14 @@ export default class Clip {
       this.s3
         .putObject({
           Bucket: this.config.BUCKET_NAME,
-          Key: txtFile,
+          Key: sentenceFileName,
           Body: sentence,
         })
         .promise(),
     ]);
 
-    console.log('file written to s3', file);
-    this.model.db.saveClip(uid, filePrefix, file, sentence);
+    console.log('file written to s3', clipFileName);
+    this.model.db.saveClip(uid, filePrefix, clipFileName, sentence);
     return filePrefix;
   }
 
