@@ -3,7 +3,42 @@ import { CommonVoiceConfig } from '../config-helper';
 import { DBClipWithVoters } from './model/db/tables/clip-table';
 import * as Random from 'random-js';
 
-const CLIP_CACHE_SIZE = 1000;
+type FetchFunction<T> = (count: number) => T[] | Promise<T[]>;
+
+class Cache<T> {
+  private items: T[] = [];
+  private size: number;
+  private fetchMore: FetchFunction<T>;
+  private isRefilling = false;
+  private randomEngine = Random.engines.mt19937().autoSeed();
+
+  constructor(fetchMore: FetchFunction<T>, size = 1000) {
+    this.fetchMore = fetchMore;
+    this.size = size;
+  }
+
+  async getAll(): Promise<T[]> {
+    if (this.items.length == 0) await this.refill();
+    return this.items;
+  }
+
+  async getSome(count: number): Promise<T[]> {
+    return (await this.getAll()).splice(0, count);
+  }
+
+  take(index: number): T {
+    return this.items.splice(index, 1)[0];
+  }
+
+  private async refill() {
+    if (this.isRefilling) return;
+    this.isRefilling = true;
+    this.items = this.items.concat(
+      Random.shuffle(this.randomEngine, await this.fetchMore(this.size))
+    );
+    this.isRefilling = false;
+  }
+}
 
 /**
  * The Model loads all clip and user data into memory for quick access.
@@ -11,45 +46,29 @@ const CLIP_CACHE_SIZE = 1000;
 export default class Model {
   config: CommonVoiceConfig;
   db: DB;
-  randomEngine: Random.MT19937;
-
-  private clipsWithFewVotes: DBClipWithVoters[] = [];
-  private isRefillingClipCache = false;
+  clipCache = new Cache(count => this.db.findClipsWithFewVotes(count));
+  sentenceCache = new Cache(count => this.db.getSentencesWithFewClips(count));
 
   constructor(config: CommonVoiceConfig) {
     this.config = config;
     this.db = new DB(this.config);
-    this.randomEngine = Random.engines.mt19937();
-    this.randomEngine.autoSeed();
-  }
-
-  private async refillClipsWithFewVotes() {
-    if (this.isRefillingClipCache) return;
-    this.isRefillingClipCache = true;
-    this.clipsWithFewVotes = this.clipsWithFewVotes.concat(
-      Random.shuffle(
-        this.randomEngine,
-        await this.db.findClipsWithFewVotes(CLIP_CACHE_SIZE)
-      )
-    );
-    this.isRefillingClipCache = false;
   }
 
   /**
    * Fetch a random clip but make sure it's not the user's.
    */
   async getEllibleClip(client_id: string): Promise<DBClipWithVoters> {
-    if (this.clipsWithFewVotes.length == 0)
-      await this.refillClipsWithFewVotes();
-
-    const i = this.clipsWithFewVotes.findIndex(
+    const clips = await this.clipCache.getAll();
+    const i = clips.findIndex(
       clip => clip.client_id !== client_id && !clip.voters.includes(client_id)
     );
     if (i == -1) return null;
 
-    const clip = this.clipsWithFewVotes[i];
-    this.clipsWithFewVotes.splice(i, 1);
-    return clip;
+    return this.clipCache.take(i);
+  }
+
+  async getRandomSentences(count: number) {
+    return this.sentenceCache.getSome(count);
   }
 
   private print(...args: any[]) {

@@ -196,6 +196,21 @@ export default class DB {
     return count || 0;
   }
 
+  async getSentencesWithFewClips(count: number): Promise<string[]> {
+    return (await this.mysql.exec(
+      `
+        SELECT text
+        FROM sentences
+        LEFT JOIN clips ON sentences.id = clips.original_sentence_id
+        WHERE sentences.is_used
+        GROUP BY sentences.id
+        ORDER BY COUNT(clips.id) ASC
+        LIMIT ?
+      `,
+      [count]
+    ))[0].map((row: any) => row.text);
+  }
+
   async insertSentence(id: string, sentence: string) {
     await this.mysql.exec('INSERT INTO sentences (id, text) VALUES (?, ?)', [
       id,

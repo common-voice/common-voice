@@ -138,22 +138,6 @@ export default class Server {
     return this.isLeader;
   }
 
-  private async loadCache(): Promise<void> {
-    // Don't load cache for leader, as we need plenty of memory for the migration
-    if (this.isLeader && !this.hasPerformedMaintenance) return;
-
-    const start = Date.now();
-    this.print('loading clip cache');
-
-    try {
-      await this.api.loadCache();
-    } catch (err) {
-      console.error('error loading clips', err.message);
-    } finally {
-      this.print(`${getElapsedSeconds(start)}s to load`);
-    }
-  }
-
   /**
    * Perform any scheduled maintenance on the data model.
    */
@@ -233,15 +217,10 @@ export default class Server {
     // Figure out if this server is the leader.
     const isLeader = await this.checkLeader();
 
-    // Attemp to load cache (sentences and audio metadata).
-    // Note: we don't wait for this to finish before continuing.
-    this.loadCache().catch(error => console.error(error));
-
     // Leader servers will perform database maintenance.
     if (isLeader) {
       await this.performMaintenance();
       this.hasPerformedMaintenance = true;
-      await this.loadCache();
     }
 
     this.startHeartbeat();
