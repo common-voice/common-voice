@@ -23,7 +23,7 @@ export default class Server {
   staticServer: any;
   isLeader: boolean;
   hasPerformedMaintenance = false;
-  heartbeat: number;
+  heartbeat: any;
 
   constructor(config?: CommonVoiceConfig) {
     this.config = config ? config : getConfig();
