@@ -45,6 +45,14 @@ export default class Bucket {
 
     const { path } = clip;
 
+    // We get a 400 from the signed URL without this request
+    await this.s3
+      .headObject({
+        Bucket: this.config.BUCKET_NAME,
+        Key: path,
+      })
+      .promise();
+
     return JSON.stringify({
       glob: path,
       text: clip.sentence,
