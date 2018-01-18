@@ -23,6 +23,7 @@ export default class Server {
   staticServer: any;
   isLeader: boolean;
   hasPerformedMaintenance = false;
+  heartbeat: number;
 
   constructor(config?: CommonVoiceConfig) {
     this.config = config ? config : getConfig();
@@ -179,6 +180,7 @@ export default class Server {
    * Kill the http server if it's running.
    */
   kill(): void {
+    clearInterval(this.heartbeat);
     if (this.server) {
       this.server.close();
       this.server = null;
@@ -209,7 +211,8 @@ export default class Server {
   }
 
   startHeartbeat(): void {
-    setInterval(() => {
+    clearInterval(this.heartbeat);
+    this.heartbeat = setInterval(() => {
       this.model.printMetrics();
     }, 60000);
   }
