@@ -187,9 +187,10 @@ export default class DB {
         FROM (
             SELECT clips.*
             FROM clips
-            LEFT JOIN votes ON clips.id = votes.clip_id AND votes.is_valid
+            LEFT JOIN votes yes_votes ON clips.id = yes_votes.clip_id AND yes_votes.is_valid
+            LEFT JOIN votes no_votes ON clips.id = no_votes.clip_id AND !no_votes.is_valid
             GROUP BY clips.id
-            HAVING COUNT(votes.id) >= 3
+            HAVING COUNT(yes_votes.id) >= 2 AND COUNT(yes_votes.id) > COUNT(no_votes.id)
         ) AS valid_clips
       `
     );
