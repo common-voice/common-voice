@@ -3,50 +3,30 @@ import { CommonVoiceConfig } from '../../config-helper';
 import Mysql from './db/mysql';
 import Schema from './db/schema';
 import Table from './db/table';
-import { UpdatableUserFields, UserTable } from './db/tables/user-table';
+import { UserTable } from './db/tables/user-table';
 import UserClientTable from './db/tables/user-client-table';
-import VersionTable from './db/tables/version-table';
 import ClipTable, { DBClipWithVoters } from './db/tables/clip-table';
-import SentenceTable from './db/tables/sentence-table';
 import VoteTable from './db/tables/vote-table';
-
-export type Tables = Table<{}>[];
 
 export default class DB {
   clip: ClipTable;
   config: CommonVoiceConfig;
-  currentVersion: number;
   mysql: Mysql;
-  sentence: SentenceTable;
   schema: Schema;
-  tables: Tables;
   user: UserTable;
   userClient: UserClientTable;
-  version: VersionTable;
   vote: VoteTable;
 
   constructor(config: CommonVoiceConfig) {
     this.config = config;
-    this.currentVersion = config.VERSION;
     this.mysql = new Mysql(this.config);
 
     this.clip = new ClipTable(this.mysql);
-    this.sentence = new SentenceTable(this.mysql);
     this.user = new UserTable(this.mysql);
     this.userClient = new UserClientTable(this.mysql);
-    this.version = new VersionTable(this.mysql, this.currentVersion);
     this.vote = new VoteTable(this.mysql);
 
-    this.tables = [
-      this.clip,
-      this.sentence,
-      this.user,
-      this.userClient,
-      this.version,
-      this.vote,
-    ];
-
-    this.schema = new Schema(this.mysql, this.tables, this.version);
+    this.schema = new Schema(this.mysql, config);
   }
 
   /**
@@ -88,14 +68,9 @@ export default class DB {
    * I hope you know what you're doing.
    */
   async drop(): Promise<void> {
-    return this.schema.dropDatabase();
-  }
-
-  /**
-   * Print the current count of users in db.
-   */
-  async getUserCount(): Promise<number> {
-    return this.user.getCount();
+    if (!this.config.PROD) {
+      await this.schema.dropDatabase();
+    }
   }
 
   /**
@@ -105,21 +80,39 @@ export default class DB {
     return this.userClient.getCount();
   }
 
+  async getClipCount(): Promise<number> {
+    return this.clip.getCount();
+  }
+
+  async getVoteCount(): Promise<number> {
+    return this.vote.getCount();
+  }
+
+  async getListenerCount(): Promise<number> {
+    return (await this.mysql.exec(
+      `
+        SELECT COUNT(DISTINCT user_clients.client_id) AS count
+        FROM user_clients
+        INNER JOIN votes ON user_clients.client_id = votes.client_id
+      `
+    ))[0][0].count;
+  }
+
+  async getSubmitterCount(): Promise<number> {
+    return (await this.mysql.exec(
+      `
+        SELECT DISTINCT COUNT(DISTINCT user_clients.client_id) AS count
+        FROM user_clients
+        INNER JOIN clips ON user_clients.client_id = clips.client_id
+      `
+    ))[0][0].count;
+  }
+
   /**
    * Make sure we have a fully updated schema.
    */
   async ensureLatest(): Promise<void> {
-    await this.ensureSetup();
-    let version;
-
-    try {
-      version = await this.version.getCurrentVersion();
-    } catch (err) {
-      console.error('error fetching version', err);
-      version = 0;
-    }
-
-    await this.schema.upgrade(version);
+    await this.schema.upgrade();
   }
 
   /**
@@ -174,12 +167,67 @@ export default class DB {
   ) {
     try {
       await this.mysql.exec(
+        'INSERT INTO user_clients (client_id) VALUES (?) ON DUPLICATE KEY UPDATE client_id = client_id',
+        [client_id]
+      );
+      await this.mysql.exec(
         'INSERT INTO clips (client_id, original_sentence_id, path, sentence) VALUES (?, ?, ?, ?) ' +
           'ON DUPLICATE KEY UPDATE id = id',
         [client_id, original_sentence_id, path, sentence]
       );
     } catch (e) {
-      console.error('No sentence found with id', original_sentence_id);
+      console.error('No sentence found with id', original_sentence_id, e);
     }
+  }
+
+  async getValidatedClipsCount() {
+    const [[{ count }]] = await this.mysql.exec(
+      `
+        SELECT COUNT(*) AS count
+        FROM (
+            SELECT clips.*
+            FROM clips
+            LEFT JOIN votes yes_votes ON clips.id = yes_votes.clip_id AND yes_votes.is_valid
+            LEFT JOIN votes no_votes ON clips.id = no_votes.clip_id AND !no_votes.is_valid
+            GROUP BY clips.id
+            HAVING COUNT(yes_votes.id) >= 2 AND COUNT(yes_votes.id) > COUNT(no_votes.id)
+        ) AS valid_clips
+      `
+    );
+    return count || 0;
+  }
+
+  async getSentencesWithFewClips(count: number): Promise<string[]> {
+    return (await this.mysql.exec(
+      `
+        SELECT text
+        FROM sentences
+        LEFT JOIN clips ON sentences.id = clips.original_sentence_id
+        WHERE sentences.is_used
+        GROUP BY sentences.id
+        ORDER BY COUNT(clips.id) ASC
+        LIMIT ?
+      `,
+      [count]
+    ))[0].map((row: any) => row.text);
+  }
+
+  async insertSentence(id: string, sentence: string) {
+    await this.mysql.exec('INSERT INTO sentences (id, text) VALUES (?, ?)', [
+      id,
+      sentence,
+    ]);
+  }
+
+  async empty() {
+    const [tables] = await this.mysql.rootExec('SHOW TABLES');
+    const tableNames = tables
+      .map((table: any) => Object.values(table)[0])
+      .filter((tableName: string) => tableName !== 'migrations');
+    await this.mysql.rootExec('SET FOREIGN_KEY_CHECKS = 0');
+    for (const tableName of tableNames) {
+      await this.mysql.rootExec('TRUNCATE TABLE ' + tableName);
+    }
+    await this.mysql.rootExec('SET FOREIGN_KEY_CHECKS = 1');
   }
 }

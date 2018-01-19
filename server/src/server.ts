@@ -14,18 +14,6 @@ const CLIENT_PATH = '../web';
 
 const CSP_HEADER = `default-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' www.google-analytics.com; media-src data: blob: https://*.amazonaws.com https://*.amazon.com; script-src 'self' 'sha256-WpzorOw/T4TS/msLlrO6krn6LdCwAldXSATNewBTrNE=' https://www.google-analytics.com/analytics.js; font-src 'self' https://fonts.gstatic.com; connect-src 'self'`;
 
-// TODO delete once we move to node >= 7
-if (!Object.entries) {
-  Object.entries = function entries(obj: any): any {
-    const ownProps = Object.keys(obj);
-    let i = ownProps.length;
-    let resArray = new Array<any>(i); // preallocate the Array
-    while (i--) resArray[i] = [ownProps[i], obj[ownProps[i]]];
-
-    return resArray;
-  };
-}
-
 export default class Server {
   config: CommonVoiceConfig;
   server: http.Server;
@@ -35,6 +23,7 @@ export default class Server {
   staticServer: any;
   isLeader: boolean;
   hasPerformedMaintenance = false;
+  heartbeat: any;
 
   constructor(config?: CommonVoiceConfig) {
     this.config = config ? config : getConfig();
@@ -52,7 +41,6 @@ export default class Server {
   }
 
   private set isMigrated(value: boolean) {
-    this.model.isMigrated = value;
     this.api.isMigrated = value;
   }
 
@@ -151,25 +139,6 @@ export default class Server {
   }
 
   /**
-   * Load our memory cache of site data (users, clips sentences).
-   */
-  private async loadClipCache(): Promise<void> {
-    // Don't load cache for leader, as we need plenty of memory for the migration
-    if (this.isLeader && !this.hasPerformedMaintenance) return;
-
-    const start = Date.now();
-    this.print('loading clip cache');
-
-    try {
-      await this.api.loadCache();
-    } catch (err) {
-      console.error('error loading clips', err.message);
-    } finally {
-      this.print(`${getElapsedSeconds(start)}s to load`);
-    }
-  }
-
-  /**
    * Perform any scheduled maintenance on the data model.
    */
   async performMaintenance(): Promise<void> {
@@ -195,6 +164,7 @@ export default class Server {
    * Kill the http server if it's running.
    */
   kill(): void {
+    clearInterval(this.heartbeat);
     if (this.server) {
       this.server.close();
       this.server = null;
@@ -225,8 +195,9 @@ export default class Server {
   }
 
   startHeartbeat(): void {
-    setInterval(() => {
-      this.model.printUserCount();
+    clearInterval(this.heartbeat);
+    this.heartbeat = setInterval(() => {
+      this.model.printMetrics();
     }, 60000);
   }
 
@@ -246,15 +217,10 @@ export default class Server {
     // Figure out if this server is the leader.
     const isLeader = await this.checkLeader();
 
-    // Attemp to load cache (sentences and audio metadata).
-    // Note: we don't wait for this to finish before continuing.
-    this.loadClipCache();
-
     // Leader servers will perform database maintenance.
     if (isLeader) {
       await this.performMaintenance();
       this.hasPerformedMaintenance = true;
-      await this.loadClipCache();
     }
 
     this.startHeartbeat();
@@ -268,11 +234,8 @@ export default class Server {
     await this.model.ensureDatabaseSetup();
   }
 
-  /**
-   * Grab the latest version number from the database.
-   */
-  async getDatabaseVersion(): Promise<number> {
-    return this.model.db.version.getCurrentVersion();
+  async emptyDatabase() {
+    await this.model.db.empty();
   }
 }
 

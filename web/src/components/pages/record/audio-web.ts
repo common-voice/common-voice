@@ -197,6 +197,9 @@ export default class AudioWeb {
       return Promise.resolve({});
     }
 
+    this.microphone.stop();
+    this.microphone = null;
+
     return new Promise((res: Function, rej: Function) => {
       this.stopVisualize();
 

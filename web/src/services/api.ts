@@ -101,23 +101,23 @@ export default class API {
    * Ask the server for a random clip.
    */
   async getRandomClip(): Promise<Clip> {
-    const req = await this.fetch('upload/random.json', {
+    const { response } = await this.fetch('upload/random.json', {
       responseType: 'json',
       headers: { uid: this.user.userId },
     });
 
-    return req.response;
+    return typeof response == 'string' ? JSON.parse(response) : response;
   }
 
   /**
    * Create a new XMLHttpRequest with method 'POST', to the given `url`, using
    * the given `headers` for the request.
-   * 
+   *
    * **IMPORTANT:** The created request is not sent by this method. You have
    * to invoke the request's `send()` method yourself in the `requestCallback`
    * that you pass to this method!
-   * 
-   * @returns A Promise that resolves to the success event when the POST 
+   *
+   * @returns A Promise that resolves to the success event when the POST
    *   request succeeds, or rejects with the error event if an error occurs.
    */
   private createPostRequest(
@@ -170,11 +170,7 @@ export default class API {
     });
   }
 
-  uploadAudio(
-    blob: Blob,
-    sentence: string,
-    progress?: Function
-  ): Promise<Event> {
+  uploadAudio(blob: Blob, sentence: string): Promise<Event> {
     const headers: HeadersMap = {
       uid: this.user.userId,
       sentence: encodeURIComponent(sentence),
@@ -187,13 +183,6 @@ export default class API {
     }
 
     return this.createPostRequest(API.SOUNDCLIP_URL, headers, req => {
-      if (progress) {
-        req.addEventListener('progress', evt => {
-          let total = evt.lengthComputable ? evt.total : 100;
-          progress(100 * evt.loaded / total);
-        });
-      }
-
       req.send(blob);
     });
   }

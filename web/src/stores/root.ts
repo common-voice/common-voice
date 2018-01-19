@@ -68,4 +68,13 @@ store.subscribe(() => {
   localStorage[USER_KEY] = JSON.stringify(user);
 });
 
+// Only check for storage events in non-IE browsers, as it misfires in IE
+if (!(document as any).documentMode) {
+  window.addEventListener('storage', (storage: StorageEvent) => {
+    if (storage.key === USER_KEY) {
+      store.dispatch(User.actions.update(JSON.parse(storage.newValue)));
+    }
+  });
+}
+
 export default store;

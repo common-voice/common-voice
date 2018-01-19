@@ -1,5 +1,6 @@
 import { CommonVoiceConfig, getConfig } from '../../config-helper';
 import RealServer from '../../server';
+import Mysql from '../../lib/model/db/mysql';
 
 const DB_PREFIX = 'test_';
 
@@ -11,11 +12,15 @@ export default class ServerHarness {
   server: RealServer;
 
   constructor(config?: CommonVoiceConfig) {
-    this.config = config ? config : getConfig();
+    this.config = config || getConfig();
     // Use a different database name then default for tests.
     this.config.MYSQLDBNAME = DB_PREFIX + this.config.MYSQLDBNAME;
     this.config.ENABLE_MIGRATIONS = false;
     this.server = new RealServer(this.config);
+  }
+
+  get mysql(): Mysql {
+    return this.server.model.db.mysql;
   }
 
   /**
@@ -28,22 +33,15 @@ export default class ServerHarness {
   /**
    * Start the web server.
    */
-  listen(): void {
-    this.server.listen();
-  }
-
-  /**
-   * Get the version of the code.
-   */
-  getCodeVersion() {
-    return this.config.VERSION;
+  run(): Promise<void> {
+    return this.server.run();
   }
 
   /**
    * Make sure we are able to connect to the database.
    */
   async connectToDatabase(): Promise<void> {
-    return this.server.model.db.mysql.ensureRootConnection();
+    return this.mysql.ensureRootConnection();
   }
 
   /**
@@ -53,52 +51,11 @@ export default class ServerHarness {
     return this.server.resetDatabase();
   }
 
-  /**
-   * Get the database version from the server.
-   */
-  async getDatabaseVersion(): Promise<number> {
-    return this.server.getDatabaseVersion();
+  emptyDatabase() {
+    return this.server.emptyDatabase();
   }
 
-  /**
-   * Upgrade to the current DB by performing normal maintenance.
-   */
-  async performMaintenance(): Promise<void> {
-    return this.server.performMaintenance();
-  }
-
-  /**
-   * Upgrade to a certain version of the DB.
-   */
-  async upgradeToVersion(version: number) {
-    return this.server.model.db.schema.upgradeToVersion(version);
-  }
-
-  /**
-   * Get a list of tables in the current DB.
-   */
-  async getTableList(): Promise<string[]> {
-    return this.server.model.db.schema.listTables();
-  }
-
-  /**
-   * Get a list of expected table values for a version.
-   */
-  getTablesForVersion(version: number): string[] {
-    return this.server.model.db.schema.getTablesForVersion(version);
-  }
-
-  /**
-   * Get amount of known clients from the DB.
-   */
-  async getClientCount(): Promise<number> {
-    return this.server.model.db.userClient.getCount();
-  }
-
-  /**
-   * Get amount of known emails from the DB.
-   */
-  async getEmailCount(): Promise<number> {
-    return this.server.model.db.user.getCount();
+  async getClipCount(): Promise<number> {
+    return this.server.model.db.getClipCount();
   }
 }

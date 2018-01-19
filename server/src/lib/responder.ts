@@ -26,8 +26,11 @@ export default function respond(
   headers: any = {},
   characterEncoding: string = 'utf-8'
 ) {
-  headers['Content-Type'] = contentType;
-
-  response.writeHead(statusCode, headers);
+  response.writeHead(statusCode, {
+    ...headers,
+    'Content-Type': contentType,
+    Pragma: 'no-cache',
+    Expires: -1,
+  });
   response.end(content, characterEncoding);
 }

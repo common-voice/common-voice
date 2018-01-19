@@ -17,7 +17,7 @@ export default ({
   buttons,
   children,
   innerClassName = '',
-  ...props,
+  ...props
 }: Props) => (
   <Modal
     isOpen={true}
@@ -26,7 +26,6 @@ export default ({
     style={{
       overlay: { background: 'rgba(0, 0, 0, 0.8)' },
       content: {
-        position: 'static',
         padding: 0,
         background: 'transparent',
       },

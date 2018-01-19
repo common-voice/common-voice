@@ -20,7 +20,7 @@ interface PropsFromDispatch {
 interface Props extends PropsFromState, PropsFromDispatch {}
 
 export default connect<PropsFromState, PropsFromDispatch>(
-  ({ api, validations }: StateTree) => ({
+  ({ validations }: StateTree) => ({
     validation: validations.next,
     loadError: validations.loadError,
   }),

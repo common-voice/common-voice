@@ -1,14 +1,44 @@
 import DB from './model/db';
-import { UpdatableUserFields } from './model/db/tables/user-table';
-import Users from './model/users';
-import { default as Clips, Clip } from './model/clips';
 import { CommonVoiceConfig } from '../config-helper';
 import { DBClipWithVoters } from './model/db/tables/clip-table';
+import * as Random from 'random-js';
 
-const MP3_EXT = '.mp3';
-const TEXT_EXT = '.txt';
-const VOTE_EXT = '.vote';
-const JSON_EXT = '.json';
+type FetchFunction<T> = (count: number) => T[] | Promise<T[]>;
+
+class Cache<T> {
+  private items: T[] = [];
+  private size: number;
+  private fetchMore: FetchFunction<T>;
+  private isRefilling = false;
+  private randomEngine = Random.engines.mt19937().autoSeed();
+
+  constructor(fetchMore: FetchFunction<T>, size = 1000) {
+    this.fetchMore = fetchMore;
+    this.size = size;
+  }
+
+  async getAll(): Promise<T[]> {
+    if (this.items.length == 0) await this.refill();
+    return this.items;
+  }
+
+  async getSome(count: number): Promise<T[]> {
+    return (await this.getAll()).splice(0, count);
+  }
+
+  take(index: number): T {
+    return this.items.splice(index, 1)[0];
+  }
+
+  private async refill() {
+    if (this.isRefilling) return;
+    this.isRefilling = true;
+    this.items = this.items.concat(
+      Random.shuffle(this.randomEngine, await this.fetchMore(this.size))
+    );
+    this.isRefilling = false;
+  }
+}
 
 /**
  * The Model loads all clip and user data into memory for quick access.
@@ -16,47 +46,29 @@ const JSON_EXT = '.json';
 export default class Model {
   config: CommonVoiceConfig;
   db: DB;
-  users: Users;
-  clips: Clips;
-  loaded: boolean;
+  clipCache = new Cache(count => this.db.findClipsWithFewVotes(count));
+  sentenceCache = new Cache(count => this.db.getSentencesWithFewClips(count));
 
   constructor(config: CommonVoiceConfig) {
     this.config = config;
     this.db = new DB(this.config);
-    this.users = new Users();
-    this.clips = new Clips(this.db);
-    this.loaded = false;
   }
 
-  set isMigrated(value: boolean) {
-    this.clips.isMigrated = value;
+  /**
+   * Fetch a random clip but make sure it's not the user's.
+   */
+  async getEllibleClip(client_id: string): Promise<DBClipWithVoters> {
+    const clips = await this.clipCache.getAll();
+    const i = clips.findIndex(
+      clip => clip.client_id !== client_id && !clip.voters.includes(client_id)
+    );
+    if (i == -1) return null;
+
+    return this.clipCache.take(i);
   }
 
-  private addClip(userid: string, sentenceid: string, path: string) {
-    this.users.addClip(userid, path);
-    this.clips.addClip(userid, sentenceid, path);
-  }
-
-  private addVote(
-    userid: string,
-    sentenceid: string,
-    voterid: string,
-    path: string
-  ) {
-    this.users.addListen(voterid);
-    this.clips.addVote(userid, sentenceid, path);
-  }
-
-  private addSentence(userid: string, sentenceid: string, path: string) {
-    this.clips.addSentence(userid, sentenceid, path);
-  }
-
-  addSentenceContent(userid: string, sentenceid: string, text: string) {
-    this.clips.addSentenceContent(userid, sentenceid, text);
-  }
-
-  private addDemographics(userid: string, path: string) {
-    this.users.addDemographics(userid, path);
+  async getRandomSentences(count: number) {
+    return this.sentenceCache.getSome(count);
   }
 
   private print(...args: any[]) {
@@ -64,102 +76,24 @@ export default class Model {
     console.log.apply(console, args);
   }
 
-  printMetrics() {
-    const userMetrics = this.users.getCurrentMetrics();
-    let totalUsers = userMetrics.users;
-    let listeners = userMetrics.listeners;
-    let submitters = userMetrics.submitters;
+  async printMetrics() {
+    const totalUserClients = await this.db.getClientCount();
+    const listeners = await this.db.getListenerCount();
+    const submitters = await this.db.getSubmitterCount();
 
-    const clipMetrics = this.clips.getCurrentMetrics();
-    let totalClips = clipMetrics.clips;
-    let unverified = clipMetrics.unverified;
-    let clipSubmitters = clipMetrics.submitters;
-    let votes = clipMetrics.votes;
+    const totalClips = await this.db.getClipCount();
+    const unverified = totalClips - (await this.db.getValidatedClipsCount());
+    const votes = await this.db.getVoteCount();
 
-    this.print(totalUsers, ' total users');
-    this.print((listeners / totalUsers).toFixed(2), '% users who listen');
-    this.print((submitters / totalUsers).toFixed(2), '% users who submit');
+    this.print(totalUserClients, ' total user clients');
+    this.print((listeners / totalUserClients).toFixed(2), '% users who listen');
+    this.print(
+      (submitters / totalUserClients).toFixed(2),
+      '% users who submit'
+    );
     this.print(totalClips, ' total clips');
     this.print(votes, ' total votes');
     this.print(unverified, ' unverified clips');
-    this.print(clipSubmitters, ' users with clips (', submitters, ')');
-  }
-
-  /**
-   * This function extracts the metadata (userid, file type, etc)
-   * from filePath, and updates appropriate sub models.
-   */
-  processFilePath(filePath: string) {
-    const dotIndex = filePath.indexOf('.');
-
-    // Filter out any directories.
-    if (dotIndex === -1) {
-      return;
-    }
-
-    // Glob is a path in the form $userid/$sentenceid.
-    const glob = filePath.substr(0, dotIndex);
-    const ext = filePath.substr(dotIndex);
-
-    let userid, sentenceid;
-    [userid, sentenceid] = glob.split('/');
-
-    switch (ext) {
-      case TEXT_EXT:
-        this.addSentence(userid, sentenceid, filePath);
-        break;
-
-      case MP3_EXT:
-        this.addClip(userid, sentenceid, filePath);
-        break;
-
-      case VOTE_EXT:
-        let voterid;
-        [sentenceid, voterid] = sentenceid.split('-by-');
-        this.addVote(userid, sentenceid, voterid, filePath);
-        break;
-
-      case JSON_EXT:
-        if (sentenceid !== 'demographic') {
-          console.error('unknown json file found', filePath);
-          return;
-        }
-        this.addDemographics(userid, filePath);
-        break;
-
-      default:
-        console.error('unrecognized file', filePath, ext, dotIndex);
-        break;
-    }
-  }
-
-  processFilePaths(filePaths: string[]) {
-    filePaths.forEach(this.processFilePath.bind(this));
-  }
-
-  /**
-   * Fetch a random clip but make sure it's not the user's.
-   */
-  getEllibleClip(client_id: string): Promise<DBClipWithVoters | Clip> {
-    return this.clips.getEllibleClip(client_id);
-  }
-
-  /**
-   * Signals that all the files have been added.
-   */
-  setLoaded() {
-    this.users.setLoaded();
-    this.clips.setLoaded();
-
-    // Print Model status.
-    const userMetrics = this.users.getCurrentMetrics();
-    let users = userMetrics.users;
-    const clipMetrics = this.clips.getCurrentMetrics();
-    let clips = clipMetrics.clips;
-    let votes = clipMetrics.votes;
-    this.print(`${clips} clips, ${users} users, ${votes} votes`);
-
-    this.loaded = true;
   }
 
   /**
@@ -167,17 +101,6 @@ export default class Model {
    */
   async syncUser(uid: string, data: any): Promise<void> {
     return this.db.updateUser(uid, data);
-  }
-
-  /**
-   * Print the current count of users in db.
-   */
-  async printUserCount(): Promise<void> {
-    const [users, clients] = await Promise.all([
-      this.db.getUserCount(),
-      this.db.getClientCount(),
-    ]);
-    this.print('db users', users, 'db clients', clients);
   }
 
   /**

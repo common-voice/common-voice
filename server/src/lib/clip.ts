@@ -21,6 +21,8 @@ const UPLOAD_PATH = path.resolve(__dirname, '../..', 'upload');
 const ACCEPTED_EXT = ['.mp3', '.ogg', '.webm', '.m4a'];
 const SALT = '8hd3e8sddFSdfj';
 
+const AVG_CLIP_SECONDS = 4.25; // I queried 40 recordings from prod and avg'd them
+
 export const hash = (str: string) =>
   crypto
     .createHmac('sha256', SALT)
@@ -91,13 +93,6 @@ export default class Clip {
   }
 
   /**
-   * Prepare a list of data files from our data bucket.
-   */
-  async loadCache(): Promise<void> {
-    await this.bucket.loadCache();
-  }
-
-  /**
    * Is this request directed at voice clips?
    */
   isClipRequest(request: http.IncomingMessage) {
@@ -125,13 +120,17 @@ export default class Clip {
     return request.url.includes('/upload/demographic');
   }
 
+  isValidatedHoursRequest(request: http.IncomingMessage) {
+    return request.url.includes('/upload/hours');
+  }
+
   /**
    * Distinguish between uploading and listening requests.
    */
-  handleRequest(
+  async handleRequest(
     request: http.IncomingMessage,
     response: http.ServerResponse
-  ): void {
+  ): Promise<void> {
     if (request.method === 'POST') {
       if (this.isClipVoteRequest(request)) {
         // Note: Check must occur first
@@ -139,13 +138,19 @@ export default class Clip {
       } else if (this.isClipDemographic(request)) {
         this.saveClipDemographic(request, response);
       } else {
-        this.saveClip(request, response);
+        await this.saveClip(request, response);
       }
     } else if (this.isRandomClipJsonRequest(request)) {
-      this.serveRandomClip(request, response);
+      await this.serveRandomClip(request, response);
+    } else if (this.isValidatedHoursRequest(request)) {
+      await this.serveValidatedHoursCount(request, response);
     } else {
       this.serve(request, response);
     }
+  }
+
+  async saveSentence(sentence: string) {
+    await this.model.db.insertSentence(hash(sentence), sentence);
   }
 
   /**
@@ -166,7 +171,8 @@ export default class Clip {
    * Save the request clip vote in S3
    */
   async saveVote(request: http.IncomingMessage): Promise<string> {
-    const { glob, uid } = request.headers;
+    const glob = request.headers.glob as string;
+    const uid = request.headers.uid as string;
 
     const vote = decodeURI(request.headers.vote as string);
 
@@ -255,103 +261,82 @@ export default class Clip {
   /**
    * Save clip posted to server
    */
-  saveClip(request: http.IncomingMessage, response: http.ServerResponse) {
-    this.save(request)
-      .then(timestamp => {
-        respond(response, '' + timestamp);
-      })
-      .catch(e => {
-        console.error('saving clip error', e, e.stack);
-        respond(response, 'Error', 500);
-      });
+  async saveClip(request: http.IncomingMessage, response: http.ServerResponse) {
+    try {
+      const timestamp = await this.save(request);
+      respond(response, '' + timestamp);
+    } catch (e) {
+      console.error('saving clip error', e, e.stack);
+      respond(response, 'Error', 500);
+    }
   }
 
   /**
    * Save the request body as an audio file.
    */
-  save(request: http.IncomingMessage): Promise<string> {
-    let info = request.headers;
-    let uid = info.uid;
-    let sentence = decodeURI(info.sentence as string);
+  async save(request: http.IncomingMessage): Promise<string> {
+    const info = request.headers;
+    const uid = info.uid as string;
+    const sentence = decodeURI(info.sentence as string);
 
     if (!uid || !sentence) {
       return Promise.reject('Invalid headers');
     }
 
-    return new Promise((resolve: Function, reject: Function) => {
-      // Obtain contentType
-      let contentType = info['content-type'] as string;
+    // Where is our audio clip going to be located?
+    const folder = uid + '/';
+    const filePrefix = hash(sentence);
+    const clipFileName = folder + filePrefix + '.mp3';
+    const sentenceFileName = folder + filePrefix + '.txt';
 
-      // Where is our audio clip going to be located?
-      let folder = uid + '/';
-      let filePrefix = hash(sentence);
-      let file = folder + filePrefix + '.mp3';
-      let txtFile = folder + filePrefix + '.txt';
+    // if the folder does not exist, we create it
+    let params = { Bucket: this.config.BUCKET_NAME, Key: folder };
+    await new Promise(resolve => this.s3.putObject(params, resolve));
 
-      let f = ff(
-        () => {
-          // if the folder does not exist, we create it
-          let params = { Bucket: this.config.BUCKET_NAME, Key: folder };
-          this.s3.putObject(params, f.wait());
+    // If upload was base64, make sure we decode it first.
+    let transcoder;
+    if ((info['content-type'] as string).includes('base64')) {
+      // If we were given base64, we'll need to concat it all first
+      // So we can decode it in the next step.
+      const chunks: Buffer[] = [];
+      await new Promise(resolve => {
+        request.on('data', (chunk: Buffer) => {
+          chunks.push(chunk);
+        });
+        request.on('end', resolve);
+      });
 
-          // If we were given base64, we'll need to concat it all first
-          // So we can decode it in the next step.
-          if (contentType.includes('base64')) {
-            let chunks: Buffer[] = [];
-            f.pass(chunks);
-            request.on('data', (chunk: Buffer) => {
-              chunks.push(chunk);
-            });
-            request.on('end', f.wait());
-          }
-        },
-        (chunks: Buffer[]) => {
-          // If upload was base64, make sure we decode it first.
-          if (contentType.includes('base64')) {
-            let passThrough = new PassThrough();
-            passThrough.end(
-              Buffer.from(Buffer.concat(chunks).toString(), 'base64')
-            );
-            let transcoder = new Transcoder(passThrough);
-            transcoder = transcoder.audioCodec('mp3').format('mp3');
-            let transcoderStream = transcoder.stream();
-            let params = {
-              Bucket: this.config.BUCKET_NAME,
-              Key: file,
-              Body: transcoderStream,
-            };
-            this.s3.upload(params, f());
-          } else {
-            // For now base64 uploads, we can just stream data.
-            let transcoder = new Transcoder(request);
-            transcoder = transcoder.audioCodec('mp3').format('mp3');
-            let transcoderStream = transcoder.stream();
-            let params = {
-              Bucket: this.config.BUCKET_NAME,
-              Key: file,
-              Body: transcoderStream,
-            };
-            this.s3.upload(params, f());
-          }
+      const passThrough = new PassThrough();
+      passThrough.end(Buffer.from(Buffer.concat(chunks).toString(), 'base64'));
+      transcoder = new Transcoder(passThrough);
+    } else {
+      // For non-base64 uploads, we can just stream data.
+      transcoder = new Transcoder(request);
+    }
 
-          // Don't forget about the sentence text!
-          let params = {
-            Bucket: this.config.BUCKET_NAME,
-            Key: txtFile,
-            Body: sentence,
-          };
-          this.s3.putObject(params, f());
-        },
-        () => {
-          // File saving is now complete.
-          console.log('file written to s3', file);
-          if (this.isMigrated) {
-            this.model.db.saveClip(uid, filePrefix, file, sentence);
-          }
-          resolve(filePrefix);
-        }
-      ).onError(reject);
-    });
+    await Promise.all([
+      this.s3
+        .upload({
+          Bucket: this.config.BUCKET_NAME,
+          Key: clipFileName,
+          Body: transcoder
+            .audioCodec('mp3')
+            .format('mp3')
+            .stream(),
+        })
+        .promise(),
+      this.s3
+        .putObject({
+          Bucket: this.config.BUCKET_NAME,
+          Key: sentenceFileName,
+          Body: sentence,
+        })
+        .promise(),
+    ]);
+
+    console.log('file written to s3', clipFileName);
+    await this.model.db.saveClip(uid, filePrefix, clipFileName, sentence);
+    return filePrefix;
   }
 
   async serveRandomClip(
@@ -406,5 +391,25 @@ export default class Clip {
       // Stream audio to client
       this.streamAudio(request, response, key);
     });
+  }
+
+  private validatedHours: number;
+  private lastValidatedHoursCheck: Date;
+  async serveValidatedHoursCount(
+    request: http.IncomingMessage,
+    response: http.ServerResponse
+  ) {
+    const yesterday = new Date();
+    yesterday.setDate(yesterday.getDate() - 1);
+    if (
+      !this.lastValidatedHoursCheck ||
+      this.lastValidatedHoursCheck < yesterday
+    ) {
+      this.validatedHours = Math.round(
+        (await this.model.db.getValidatedClipsCount()) * AVG_CLIP_SECONDS / 3600
+      );
+      this.lastValidatedHoursCheck = new Date();
+    }
+    respond(response, this.validatedHours.toString());
   }
 }

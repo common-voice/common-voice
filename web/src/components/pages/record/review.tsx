@@ -111,6 +111,10 @@ class Review extends React.Component<Props, State> {
       await this.props.api.uploadDemographicInfo();
       this.props.buildNewSentenceSet();
       trackRecording('submit');
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
     } catch (e) {
       this.setState({
         uploading: false,
@@ -165,16 +169,16 @@ class Review extends React.Component<Props, State> {
           <span>Review</span>
           <span>Re-record</span>
         </p>
-        {Object.entries(
-          this.props.sentenceRecordings
-        ).map(([sentence, recording]) => (
-          <ListenBox
-            key={sentence}
-            src={recording.url}
-            onDelete={() => this.props.setReRecordSentence(sentence)}
-            sentence={sentence}
-          />
-        ))}
+        {Object.entries(this.props.sentenceRecordings).map(
+          ([sentence, recording]) => (
+            <ListenBox
+              key={sentence}
+              src={recording.url}
+              onDelete={() => this.props.setReRecordSentence(sentence)}
+              sentence={sentence}
+            />
+          )
+        )}
         <br />
         <div className="actions">
           <a href="javascript:void(0)" onClick={this.toggleResetModal}>

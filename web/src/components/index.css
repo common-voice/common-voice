@@ -26,13 +26,7 @@ html {
   font-size: var(--base-font-size);
   color: var(--base-font-color);
   background-color: var(--base-background-color);
-  overflow: scroll;
-}
-
-@media (--mobile) {
-  html {
-    overflow: hidden;
-  }
+  overflow: auto;
 }
 
 html, body, #main {
@@ -136,22 +130,18 @@ button {
   animation: fadein 0.5s linear;
 }
 
+#scroller {
+  position: relative;
+}
+
 @media (--mobile) {
   #scroller {
-    position: fixed;
-    top: var(--header-height); bottom: 0;
-    left: 0; right: 0;
-    overflow-x: hidden;
-    overflow-y: scroll;
+    margin-top: var(--header-height);
   }
   body:not(.focus) #scroller {
     -webkit-overflow-scrolling: touch;
     scroll-behavior: smooth;
   }
-}
-
-#scrollee {
-  position: relative;
 }
 
 .faq #background-container,

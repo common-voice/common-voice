@@ -7,11 +7,6 @@ header {
     transition: background-color 0.15s linear, box-shadow .2s linear;
 }
 
-header.active {
-    box-shadow: var(--shadow-overhang);
-    background-color: var(--base-background-color);
-}
-
 @media (--mobile) {
     header {
         position: fixed;
@@ -20,6 +15,11 @@ header.active {
         right: 0;
         padding: var(--page-margin);
         background: var(--base-background-color);
+    }
+
+    header.active {
+        box-shadow: var(--shadow-overhang);
+        background-color: var(--base-background-color);
     }
 }
 

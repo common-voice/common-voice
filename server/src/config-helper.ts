@@ -4,7 +4,7 @@
 import * as fs from 'fs';
 
 export type CommonVoiceConfig = {
-  VERSION: number;
+  VERSION: string;
   PROD: boolean;
   SERVER_PORT: number;
   DB_ROOT_USER: string;
@@ -22,8 +22,8 @@ export type CommonVoiceConfig = {
 };
 
 const DEFAULTS: CommonVoiceConfig = {
-  VERSION: 8, // Used for logging and database versioning.
-  RELEASE_VERSION: null, // release version set by nubis
+  VERSION: null, // Migration number (e.g. 20171205171637), null = most recent
+  RELEASE_VERSION: null, // release version set by nubis,
   PROD: false, // Set to true for staging and production.
   SERVER_PORT: 9000,
   DB_ROOT_USER: 'root', // For running schema migrations.

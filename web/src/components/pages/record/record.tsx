@@ -308,14 +308,14 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
             )}
           <div className="record-sentence">
             {Object.keys(sentenceRecordings).map((sentence, i) => (
-              <p
+              <div
                 key={sentence + '' + i}
                 className={
                   'text-box ' +
                   (i < recordIndex ? 'left' : i > recordIndex ? 'right' : '')
                 }>
-                {sentence}
-              </p>
+                <p>{sentence}</p>
+              </div>
             ))}
             {recordingsCount > 0 &&
               !reRecordSentence && (
@@ -324,30 +324,32 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
           </div>
 
           <div className="record-controls">
-            {areSentencesLoaded
-              ? [
-                  <p key="record-help" id="record-help">
-                    Please tap to record, then read the above sentence aloud.
-                  </p>,
-                  <div key="record-button" className="record-actions">
-                    <button id="record-button" onClick={this.onRecordClick}>
-                      <RecordIcon />
-                    </button>
-                    {reRecordSentence && (
-                      <a
-                        href="javascript:void(0)"
-                        className="rerecord"
-                        onClick={this.cancelReRecord}>
-                        Cancel Re-recording
-                      </a>
-                    )}
-                  </div>,
-                ]
-              : ERR_SENTENCES_NOT_LOADED}
+            {areSentencesLoaded ? (
+              <div className="record-actions">
+                <button id="record-button" onClick={this.onRecordClick}>
+                  <RecordIcon />
+                </button>
+                {reRecordSentence && (
+                  <a
+                    href="javascript:void(0)"
+                    className="rerecord"
+                    onClick={this.cancelReRecord}>
+                    Cancel Re-recording
+                  </a>
+                )}
+              </div>
+            ) : (
+              ERR_SENTENCES_NOT_LOADED
+            )}
           </div>
           <p id="recordings-count">
             {!reRecordSentence && <span>{recordingsCount + 1} of 3</span>}
           </p>
+          {areSentencesLoaded && (
+            <p id="record-help">
+              Please tap to record, then read the above sentence aloud.
+            </p>
+          )}
           <ProfileActions />
         </div>
       </div>
