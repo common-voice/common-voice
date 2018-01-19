@@ -62,12 +62,12 @@ I had some problems in activating this coupon.
 That is the weirdest dress I have found in this store.
 She is absent from working in the drug store today.
 She stored a collection of dictionaries and encyclopedia books in this cupboard.
-He have modified a t-rex game for a Christmas event.
+He has modified a t-rex game for a Christmas event.
 My nephew works as a barista in a small cafe in Edinburgh.
 I really love to watch live streams of developer conferences.
 I was told by my instructor to use a nichrome wire to burn metal solids in a Bunsen burner.
 The candles brightened the dark room near to the garage.
-These home-made sculptures seems interecting for me.
+These home-made sculptures seems interesting for me.
 Eleven scorpions were collected by a hunter.
 At least twelve scripts were found in this chest.
 Thirteen totems were spread across this island.
@@ -85,26 +85,39 @@ Parrafin wax is an important ingredient of a candle.
 Are you still using your computer for the research?
 I’ve got an announcement to make.
 What is it, boss?
-From now on, your salaries is going to be lowered by 20 percent.
+From now on, your salaries are going to be lowered by 20 percent.
 You can’t do that, it is written in our contract.
 Security, kick this guy out!
-This is unacceptable, we must do some thing!
-"We haven’t reach our target yet", said the boss.
+This is unacceptable, we must do something!
+"We haven’t reached our target yet", said the boss.
 We are doing an overtime ban as we are dissatisfied with the boss' decisions.
 How bad can a boss be?
 How many times should I tell you, don’t play Space War during work!
-Have you finish with the Annual Report, Jane?
+Have you finished with the Annual Report, Jane?
 That’s what you get for testing my patience.
-I have a list of candidate to replace you.
+I have a list of candidates to replace you.
 I just opened the link you sent to me.
-The on-line dictionary is much easier and faster than paper dictionary.
+The on-line dictionary is much easier and faster than the paper dictionary.
 Check the main features on the website.
 View the reviews, comments and ratings on the website.
-Check the website from viruses.
+Check the website for viruses, biases and scams.
 Check whether the website is funded by ads, donations, or others.
 Check the person and/or company who owns this website. 
 Find how useful the information is in the website.
 Verify the contents of the website.
 Check the copyright, trademark and patent information contained on the website.
-Be careful in handling all the chemicals which are corrosive and irritant.
+Be careful in handling all the chemicals which are corrosive or irritant.
 The metal ions have to be heated in the flame first before the coloured light is emitted.
+It seems that the elderly are now having difficulties in accessing the Internet, according to a survey.
+I am quite surprised that the restaurant finally fixed the lighting problem.
+Lastly, do not forget to submit your assignment by this week.
+The album unexpectedly tops the sales chart this Christmas.
+Have you ever tried donating to an organization?
+May I borrow your bolster?
+The train will depart from Paris by 5 pm.
+Do not touch the apparatus before I told you to do so.
+Excuse me, where may I find some Accounting books to borrow?
+Please mind the gap between the platform and train.
+I could not trust this survey as it is being outdated.
+Paula decided to attend the Developer Conference next month.
+How can I tell you that you are fit enough to join the camp?
