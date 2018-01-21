@@ -22,10 +22,11 @@ export async function migrateClip(
       [clip.client_id, clip.original_sentence_id, clip.path, sentenceText]
     );
 
-  const [[sentence]] = (await connection.query(
-    'SELECT * FROM sentences WHERE id = ?',
-    [clip.original_sentence_id]
-  )) as any;
+  const [
+    [sentence],
+  ] = (await connection.query('SELECT * FROM sentences WHERE id = ?', [
+    clip.original_sentence_id,
+  ])) as any;
 
   if (sentence) {
     await insertClip(sentence.text);
@@ -41,7 +42,7 @@ export async function migrateClip(
 
     if (sentenceText) {
       await connection.execute(
-        'INSERT INTO sentences (id, text) VALUES (?, ?) ON DUPLICATE KEY UPDATE id = id',
+        'INSERT INTO sentences (id, text, is_used) VALUES (?, ?, FALSE) ON DUPLICATE KEY UPDATE is_used = FALSE',
         [clip.original_sentence_id, sentenceText]
       );
       await insertClip(sentenceText);
