@@ -75,10 +75,22 @@ class Review extends React.Component<Props, State> {
   private resetAndGoHome = () => {
     this.props.buildNewSentenceSet();
     this.props.history.push('/');
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
   };
 
   private toggleResetModal = () => {
     this.setState({ showResetModal: !this.state.showResetModal });
+  };
+
+  private rerecord = (sentence: string) => {
+    this.props.setReRecordSentence(sentence);
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
   };
 
   private handleSubmit = async () => {
@@ -174,7 +186,7 @@ class Review extends React.Component<Props, State> {
             <ListenBox
               key={sentence}
               src={recording.url}
-              onDelete={() => this.props.setReRecordSentence(sentence)}
+              onDelete={this.rerecord.bind(this, sentence)}
               sentence={sentence}
             />
           )
