@@ -91,7 +91,9 @@ export class S3Fetcher {
           clip_client_id: client_id,
           voter_client_id,
           is_valid:
-            isValidString == 'true' ? true : isValidString == 'false' ? false : null,
+            isValidString == 'true'
+              ? true
+              : isValidString == 'false' ? false : null,
         };
 
       case JSON_EXT:
