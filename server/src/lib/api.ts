@@ -39,10 +39,6 @@ export default class API {
     });
   }
 
-  set isMigrated(value: boolean) {
-    this.clip.isMigrated = value;
-  }
-
   /**
    * Is this request directed at the api?
    */

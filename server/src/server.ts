@@ -37,11 +37,6 @@ export default class Server {
     if (this.config.PROD) {
       this.logger.overrideConsole();
     }
-    this.isMigrated = false;
-  }
-
-  private set isMigrated(value: boolean) {
-    this.api.isMigrated = value;
   }
 
   /**
@@ -156,7 +151,6 @@ export default class Server {
 
     if (this.config.ENABLE_MIGRATIONS) {
       await migrate(this.model.db.mysql.conn);
-      this.isMigrated = true;
     }
   }
 

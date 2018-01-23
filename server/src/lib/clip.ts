@@ -37,7 +37,6 @@ export default class Clip {
   private s3: S3;
   private bucket: Bucket;
   private model: Model;
-  isMigrated: boolean;
 
   constructor(config: CommonVoiceConfig, model: Model) {
     this.config = config;
@@ -180,9 +179,7 @@ export default class Clip {
       return Promise.reject('Invalid headers');
     }
 
-    if (this.isMigrated) {
-      await this.model.db.saveVote(glob, uid, vote);
-    }
+    await this.model.db.saveVote(glob, uid, vote);
 
     return new Promise<string>((resolve: Function, reject: Function) => {
       // Where is the clip vote going to be located?
