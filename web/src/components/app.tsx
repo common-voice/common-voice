@@ -1,9 +1,11 @@
 import * as React from 'react';
 import { Provider } from 'react-redux';
-import Pages from './pages';
-import { isMobileWebkit, isFocus, isNativeIOS, sleep } from '../utility';
 import { BrowserRouter as Router } from 'react-router-dom';
+const { LocalizationProvider } = require('fluent-react');
 import store from '../stores/root';
+import { isMobileWebkit, isFocus, isNativeIOS, sleep } from '../utility';
+import { generateMessages } from '../services/localization';
+import Pages from './pages';
 
 const LOAD_TIMEOUT = 5000; // we can only wait so long.
 
@@ -107,11 +109,13 @@ export default class App extends React.Component<{}, State> {
 
   render() {
     return this.state.loaded ? (
-      <Router>
-        <Provider store={store}>
-          <Pages />
-        </Provider>
-      </Router>
+      <LocalizationProvider messages={generateMessages(navigator.languages)}>
+        <Router>
+          <Provider store={store}>
+            <Pages />
+          </Provider>
+        </Router>
+      </LocalizationProvider>
     ) : (
       <div id="spinner">
         <span

@@ -2,6 +2,7 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import { Switch, Route, RouteComponentProps, withRouter } from 'react-router';
 import { Link, NavLink } from 'react-router-dom';
+const { Localized } = require('fluent-react');
 import { Recordings } from '../stores/recordings';
 import StateTree from '../stores/tree';
 import { User } from '../stores/user';
@@ -358,7 +359,9 @@ class Pages extends React.Component<PagesProps, PagesState> {
               <div id="help-links">
                 <Link id="help" to={URLS.FAQ}>
                   <SupportIcon />
-                  <div>Help</div>
+                  <Localized id="help">
+                    <div>Help</div>
+                  </Localized>
                 </Link>
                 <div className="divider" />
                 <a
