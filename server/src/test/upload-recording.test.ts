@@ -35,6 +35,6 @@ test('recording is uploaded and inserted into the db', async () => {
       sentence: encodeURIComponent(sentence),
     },
     body: fs.createReadStream(path.join(__dirname, 'test.ogg')),
-  }).then((res: any) => res.text());
+  });
   expect(await serverHarness.getClipCount()).toBe(1);
 });
