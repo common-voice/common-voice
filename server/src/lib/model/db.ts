@@ -125,11 +125,14 @@ export default class DB {
   async findClipsWithFewVotes(limit: number): Promise<DBClipWithVoters[]> {
     const [clips] = await this.mysql.exec(
       `
-      SELECT clips.*, group_concat(votes.client_id) AS voters
+      SELECT clips.*,
+        GROUP_CONCAT(votes.client_id) AS voters,
+        SUM(votes.is_valid) AS upvotes_count, SUM(NOT votes.is_valid) AS downvotes_count
       FROM clips
-        LEFT JOIN votes ON clips.id = votes.clip_id
+      LEFT JOIN votes ON clips.id = votes.clip_id
       GROUP BY clips.id
-      ORDER BY COUNT(votes.id)
+      HAVING upvotes_count < 2 AND downvotes_count < 2 OR upvotes_count = downvotes_count
+      ORDER BY upvotes_count DESC, downvotes_count DESC
       LIMIT ?
     `,
       [limit]
