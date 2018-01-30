@@ -41,7 +41,7 @@ export async function migrateClip(
 
     if (sentenceText) {
       await connection.execute(
-        'INSERT INTO sentences (id, text, is_used) VALUES (?, ?, FALSE) ON DUPLICATE KEY UPDATE is_used = FALSE',
+        'INSERT INTO sentences (id, text) VALUES (?, ?) ON DUPLICATE KEY UPDATE id = id',
         [clip.original_sentence_id, sentenceText]
       );
       await insertClip(sentenceText);

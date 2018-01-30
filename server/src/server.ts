@@ -22,7 +22,6 @@ export default class Server {
   logger: Logger;
   staticServer: any;
   isLeader: boolean;
-  hasPerformedMaintenance = false;
   heartbeat: any;
 
   constructor(config?: CommonVoiceConfig) {
@@ -73,11 +72,6 @@ export default class Server {
     let startTime = Date.now();
 
     if (this.api.isApiRequest(request)) {
-      if (this.isLeader && !this.hasPerformedMaintenance) {
-        response.writeHead(307, { Location: request.url });
-        response.end();
-        return;
-      }
       this.api.handleRequest(request, response);
       return;
     }
@@ -214,7 +208,6 @@ export default class Server {
     // Leader servers will perform database maintenance.
     if (isLeader) {
       await this.performMaintenance();
-      this.hasPerformedMaintenance = true;
     }
 
     this.startHeartbeat();

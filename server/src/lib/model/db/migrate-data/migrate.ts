@@ -24,6 +24,8 @@ export async function migrate(connection: IConnection) {
   print('starting');
 
   try {
+    await migrateSentences(connection, print);
+    
     const gen = fetchS3Data(print);
 
     const votesWithUnknownClips = [];
@@ -58,8 +60,6 @@ export async function migrate(connection: IConnection) {
         print('processed', processedObjectsCount, 'objects from S3');
       }
     }
-
-    await migrateSentences(connection, print);
 
     const [[row]] = await connection.execute(
       'SELECT ' +

@@ -97,27 +97,26 @@ const loadSentences = async (path: string): Promise<string[]> => {
 };
 
 export async function migrateSentences(connection: IConnection, print: any) {
-  const [sentences, unusedSentences] = await Promise.all([
-    loadSentences(SENTENCE_FOLDER),
-    loadSentences(UNUSED_FOLDER),
-  ]);
+  await connection.execute(
+    'DELETE FROM sentences WHERE id NOT IN (SELECT original_sentence_id FROM clips)'
+  );
+  await connection.execute('UPDATE sentences SET is_used = FALSE');
 
-  await Promise.all([
-    ...sentences.map(sentence => {
-      const encodedSentence = utf8.encode(sentence).trim();
-      return connection.execute(
-        'INSERT INTO sentences (id, text, is_used) VALUES (?, ?, TRUE) ON DUPLICATE KEY UPDATE is_used = TRUE',
-        [hash(encodedSentence), encodedSentence]
-      );
-    }),
-    ...unusedSentences.map(sentence => {
-      const encodedSentence = utf8.encode(sentence).trim();
-      return connection.execute(
-        'INSERT INTO sentences (id, text, is_used) VALUES (?, ?, FALSE) ON DUPLICATE KEY UPDATE is_used = FALSE',
-        [hash(encodedSentence), encodedSentence]
-      );
-    }),
-  ]);
+  for (const sentence of await loadSentences(SENTENCE_FOLDER)) {
+    const encodedSentence = utf8.encode(sentence).trim();
+    await connection.execute(
+      'INSERT INTO sentences (id, text, is_used) VALUES (?, ?, TRUE) ON DUPLICATE KEY UPDATE is_used = TRUE',
+      [hash(encodedSentence), encodedSentence]
+    );
+  }
+
+  for (const sentence of await loadSentences(UNUSED_FOLDER)) {
+    const encodedSentence = utf8.encode(sentence).trim();
+    await connection.execute(
+      'INSERT INTO sentences (id, text, is_used) VALUES (?, ?, FALSE) ON DUPLICATE KEY UPDATE is_used = FALSE',
+      [hash(encodedSentence), encodedSentence]
+    );
+  }
 
   const [[{ count }]] = (await connection.query(
     'SELECT COUNT(*) AS count FROM sentences'
