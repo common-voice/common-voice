@@ -217,4 +217,13 @@ export default class API {
       }
     );
   }
+
+  async fetchValidatedHours(): Promise<number> {
+    return parseInt(
+      (await this.fetch('upload/hours', {
+        responseType: 'text',
+      })).responseText,
+      10
+    );
+  }
 }

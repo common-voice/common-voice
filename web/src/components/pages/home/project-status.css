@@ -50,6 +50,7 @@
     color: white;
     font-weight: bold;
     background: var(--color-listen);
+    transition: width 500ms var(--easing);
 }
 
 .language-progress .numbers {
