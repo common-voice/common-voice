@@ -22,10 +22,6 @@ class Cache<T> {
     return this.items;
   }
 
-  async getSome(count: number): Promise<T[]> {
-    return (await this.getAll()).splice(0, count);
-  }
-
   take(index: number): T {
     return this.items.splice(index, 1)[0];
   }
@@ -47,7 +43,6 @@ export default class Model {
   config: CommonVoiceConfig;
   db: DB;
   clipCache = new Cache(count => this.db.findClipsWithFewVotes(count));
-  sentenceCache = new Cache(count => this.db.getSentencesWithFewClips(count));
 
   constructor(config: CommonVoiceConfig) {
     this.config = config;
@@ -68,7 +63,7 @@ export default class Model {
   }
 
   async getRandomSentences(count: number) {
-    return this.sentenceCache.getSome(count);
+    return this.db.findSentencesWithFewClips(count);
   }
 
   private print(...args: any[]) {

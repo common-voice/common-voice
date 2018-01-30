@@ -127,7 +127,8 @@ export default class DB {
       `
       SELECT clips.*,
         GROUP_CONCAT(votes.client_id) AS voters,
-        SUM(votes.is_valid) AS upvotes_count, SUM(NOT votes.is_valid) AS downvotes_count
+        COALESCE(SUM(votes.is_valid), 0) AS upvotes_count,
+        COALESCE(0, SUM(NOT votes.is_valid)) AS downvotes_count
       FROM clips
       LEFT JOIN votes ON clips.id = votes.clip_id
       GROUP BY clips.id
@@ -198,7 +199,7 @@ export default class DB {
     return count || 0;
   }
 
-  async getSentencesWithFewClips(count: number): Promise<string[]> {
+  async findSentencesWithFewClips(count: number): Promise<string[]> {
     return (await this.mysql.exec(
       `
         SELECT text
