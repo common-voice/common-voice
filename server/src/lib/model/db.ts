@@ -187,12 +187,11 @@ export default class DB {
       `
         SELECT COUNT(*) AS count
         FROM (
-            SELECT clips.*
-            FROM clips
-            LEFT JOIN votes yes_votes ON clips.id = yes_votes.clip_id AND yes_votes.is_valid
-            LEFT JOIN votes no_votes ON clips.id = no_votes.clip_id AND !no_votes.is_valid
-            GROUP BY clips.id
-            HAVING COUNT(yes_votes.id) >= 2 AND COUNT(yes_votes.id) > COUNT(no_votes.id)
+         SELECT clips.*, SUM(votes.is_valid) AS upvotes_count, SUM(NOT votes.is_valid) AS downvotes_count
+         FROM clips
+         LEFT JOIN votes ON clips.id = votes.clip_id
+         GROUP BY clips.id
+         HAVING upvotes_count >= 2 AND upvotes_count > downvotes_count
         ) AS valid_clips
       `
     );

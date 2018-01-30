@@ -21,7 +21,7 @@ const UPLOAD_PATH = path.resolve(__dirname, '../..', 'upload');
 const ACCEPTED_EXT = ['.mp3', '.ogg', '.webm', '.m4a'];
 const SALT = '8hd3e8sddFSdfj';
 
-const AVG_CLIP_SECONDS = 4.25; // I queried 40 recordings from prod and avg'd them
+const AVG_CLIP_SECONDS = 4.7; // I queried 40 recordings from prod and avg'd them
 
 export const hash = (str: string) =>
   crypto
