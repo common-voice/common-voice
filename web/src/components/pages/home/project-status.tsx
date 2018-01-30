@@ -29,7 +29,7 @@ class ProjectStatus extends React.Component<PropsFromState, State> {
 
   render() {
     const { validatedHours } = this.state;
-    const goal = Math.ceil(validatedHours / GOAL_HOURS) * GOAL_HOURS;
+    const goal = Math.ceil((1 + validatedHours) / GOAL_HOURS) * GOAL_HOURS;
 
     return (
       <div className="project-status">
@@ -57,13 +57,13 @@ class ProjectStatus extends React.Component<PropsFromState, State> {
               </div>
             </div>
             <div className="numbers">
-              {validatedHours ? (
+              {validatedHours === null ? (
+                <div>Loading...</div>
+              ) : (
                 <Fragment>
                   <div>{validatedHours} validated hours so far!</div>
                   <div>Next Goal: {goal}</div>
                 </Fragment>
-              ) : (
-                <div>Loading...</div>
               )}
             </div>
           </div>
