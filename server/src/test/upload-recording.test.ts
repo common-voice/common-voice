@@ -25,6 +25,8 @@ afterAll(async () => {
   }
 });
 
+// For Travis tests on PRs, we don't have AWS credentials,
+// so we will skip this S3 upload test in this case.
 (AWS.getS3().config.credentials ? test : test.skip)(
   'recording is uploaded and inserted into the db',
   async () => {
