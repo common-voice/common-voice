@@ -1,5 +1,16 @@
 [[Layout]]
+speak = Speak
+datasets = Datasets
+profile = Profile
 help = Help
+contact = Contact
+privacy = Privacy
+terms = Terms
+cookies = Cookies
+faq = FAQ
+content-license = Creative Commons license
+content-license-text = Content available under a { $link }
+share-title = Help us find others to donate their voice!
 
 [[Home Page]]
 home-title =
