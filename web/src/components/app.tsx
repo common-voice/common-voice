@@ -1,11 +1,13 @@
 import * as React from 'react';
-import { Provider } from 'react-redux';
+import { connect, Provider } from 'react-redux';
 import { BrowserRouter as Router } from 'react-router-dom';
 const { LocalizationProvider } = require('fluent-react');
 import store from '../stores/root';
 import { isMobileWebkit, isFocus, isNativeIOS, sleep } from '../utility';
-import { generateMessages } from '../services/localization';
+import { createMessagesGenerator } from '../services/localization';
 import Pages from './pages';
+import API from '../services/api';
+import StateTree from '../stores/tree';
 
 const LOAD_TIMEOUT = 5000; // we can only wait so long.
 
@@ -28,15 +30,20 @@ const PRELOAD = [
   '/img/wave-red-mobile.png',
 ];
 
-interface State {
-  loaded: boolean;
+interface PropsFromState {
+  api: API;
 }
 
-export default class App extends React.Component<{}, State> {
+interface State {
+  loaded: boolean;
+  messagesGenerator: any;
+}
+
+class App extends React.Component<PropsFromState, State> {
   main: HTMLElement;
   progressMeter: HTMLSpanElement;
 
-  state = { loaded: false };
+  state: State = { loaded: false, messagesGenerator: null };
 
   /**
    * App will handle routing to page controllers.
@@ -92,28 +99,36 @@ export default class App extends React.Component<{}, State> {
   }
 
   async componentDidMount() {
-    await Promise.race([
-      sleep(LOAD_TIMEOUT),
-      this.preloadImages((progress: number) => {
-        if (this.progressMeter) {
-          // TODO: find something performant here. (ie not this)
-          // let whatsLeft = 1 - progress;
-          // this.progressMeter.style.cssText =
-          //   `transform: scale(${whatsLeft});`;
-        }
+    await Promise.all([
+      new Promise(async resolve => {
+        this.setState({
+          messagesGenerator: await createMessagesGenerator(
+            this.props.api,
+            navigator.languages
+          ),
+        });
+        resolve();
       }),
+      Promise.race([
+        sleep(LOAD_TIMEOUT),
+        this.preloadImages((progress: number) => {
+          if (this.progressMeter) {
+            // TODO: find something performant here. (ie not this)
+            // let whatsLeft = 1 - progress;
+            // this.progressMeter.style.cssText =
+            //   `transform: scale(${whatsLeft});`;
+          }
+        }),
+      ]).then(() => this.setState({ loaded: true })),
     ]);
-
-    this.setState({ loaded: true });
   }
 
   render() {
-    return this.state.loaded ? (
-      <LocalizationProvider messages={generateMessages(navigator.languages)}>
+    const { loaded, messagesGenerator } = this.state;
+    return loaded && messagesGenerator ? (
+      <LocalizationProvider messages={messagesGenerator()}>
         <Router>
-          <Provider store={store}>
-            <Pages />
-          </Provider>
+          <Pages />
         </Router>
       </LocalizationProvider>
     ) : (
@@ -131,3 +146,13 @@ export default class App extends React.Component<{}, State> {
     );
   }
 }
+
+const AppWithStore = connect<PropsFromState>(({ api }: StateTree) => ({
+  api,
+}))(App);
+
+export default (props: any) => (
+  <Provider store={store}>
+    <AppWithStore {...props} />
+  </Provider>
+);

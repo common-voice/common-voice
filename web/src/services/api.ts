@@ -226,4 +226,9 @@ export default class API {
       10
     );
   }
+
+  async fetchLocale(locale: string): Promise<string> {
+    const { response } = await this.fetch(`/locales/${locale}/messages.ftl`);
+    return response;
+  }
 }
