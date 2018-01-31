@@ -103,6 +103,8 @@ export default class Mysql {
 
   private handleError(err: any) {
     console.error('unhandled mysql error', err.message);
+    // Kill current connection so that we re-init on next query.
+    this.endConnection();
   }
 
   async exec(sql: string, values?: any[]): Promise<any[]> {
