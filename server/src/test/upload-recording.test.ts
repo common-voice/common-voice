@@ -1,6 +1,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import fetch from 'node-fetch';
+import { AWS } from '../lib/aws';
 import Schema from '../lib/model/db/schema';
 import ServerHarness from './lib/server-harness';
 
@@ -24,17 +25,23 @@ afterAll(async () => {
   }
 });
 
-test('recording is uploaded and inserted into the db', async () => {
-  const sentence = 'Wubba lubba dub dub!';
-  await serverHarness.server.api.clip.saveSentence(sentence);
-  await fetch(`http://localhost:${serverHarness.config.SERVER_PORT}/upload/`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'audio/ogg; codecs=opus4',
-      uid: 'wat',
-      sentence: encodeURIComponent(sentence),
-    },
-    body: fs.createReadStream(path.join(__dirname, 'test.ogg')),
-  });
-  expect(await serverHarness.getClipCount()).toBe(1);
-});
+(AWS.getS3().config.credentials ? test : test.skip)(
+  'recording is uploaded and inserted into the db',
+  async () => {
+    const sentence = 'Wubba lubba dub dub!';
+    await serverHarness.server.api.clip.saveSentence(sentence);
+    await fetch(
+      `http://localhost:${serverHarness.config.SERVER_PORT}/upload/`,
+      {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'audio/ogg; codecs=opus4',
+          uid: 'wat',
+          sentence: encodeURIComponent(sentence),
+        },
+        body: fs.createReadStream(path.join(__dirname, 'test.ogg')),
+      }
+    );
+    expect(await serverHarness.getClipCount()).toBe(1);
+  }
+);
