@@ -55,6 +55,7 @@ module "database" {
   monitoring             = true
   service_name           = "${var.service_name}"
   client_security_groups = "${module.worker.security_group}"
+  instance_class         = "db.t2.small"
 }
 
 module "clips" {
