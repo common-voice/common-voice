@@ -76,6 +76,7 @@ interface PagesState {
 
 class Pages extends React.Component<PagesProps, PagesState> {
   private header: HTMLElement;
+  private scroller: HTMLElement;
   private content: HTMLElement;
   private bg: HTMLElement;
   private installApp: HTMLElement;
@@ -200,8 +201,8 @@ class Pages extends React.Component<PagesProps, PagesState> {
   };
 
   private addScrollListener = () => {
-    window.addEventListener('scroll', () => {
-      let scrolled = document.documentElement.scrollTop > 0;
+    this.scroller.addEventListener('scroll', evt => {
+      let scrolled = this.scroller.scrollTop > 0;
       if (scrolled !== this.state.scrolled) {
         this.setState({ scrolled: scrolled });
       }
@@ -214,11 +215,15 @@ class Pages extends React.Component<PagesProps, PagesState> {
       this.scrollToTop
     );
 
+    // After changing pages we will scroll to the top, which
+    // is accomplished differentonly on mobile vs. desktop.
+    this.scroller.scrollTop = 0; // Scroll up on mobile.
     this.setState(
       {
         isMenuVisible: false,
       },
       () => {
+        // Scroll to top on desktop.
         window.scrollTo({
           top: 0,
           behavior: 'smooth',
@@ -298,139 +303,145 @@ class Pages extends React.Component<PagesProps, PagesState> {
           </button>
           {this.renderNav('main-nav', true)}
         </header>
-        <div id="scroller">
-          <div
-            id="background-container"
-            ref={div => {
-              this.bg = div as HTMLElement;
-            }}>
-            {this.iOSBackground}
-          </div>
-          <div className="hero">
-            <Robot
-              position={
-                pageName === 'record'
-                  ? this.props.isSetFull ? 'thanks' : 'record'
-                  : null
-              }
-            />
-          </div>
-          <div className="hero-space" />
-          <div
-            id="content"
-            ref={div => {
-              this.content = div as HTMLElement;
-            }}>
-            <Switch>
-              <Route exact path={URLS.ROOT} component={Home} />
-              <Route
-                exact
-                path={URLS.RECORD}
-                render={props => (
-                  <Record
-                    isRecording={this.state.isRecording}
-                    onRecord={this.onRecord}
-                    onRecordStop={this.onRecordStop}
-                    onVolume={this.handleVolumeChange}
-                    {...props}
-                  />
-                )}
+        <div
+          id="scroller"
+          ref={div => {
+            this.scroller = div as HTMLElement;
+          }}>
+          <div id="scrollee">
+            <div
+              id="background-container"
+              ref={div => {
+                this.bg = div as HTMLElement;
+              }}>
+              {this.iOSBackground}
+            </div>
+            <div className="hero">
+              <Robot
+                position={
+                  pageName === 'record'
+                    ? this.props.isSetFull ? 'thanks' : 'record'
+                    : null
+                }
               />
-              <Route exact path={URLS.DATA} component={Data} />
-              <Route exact path={URLS.PROFILE} component={Profile} />
-              <Route exact path={URLS.FAQ} component={FAQ} />} />
-              <Route exact path={URLS.PRIVACY} component={Privacy} />} />
-              <Route exact path={URLS.TERMS} component={Terms} />} />
-              <Route component={NotFound} />
-            </Switch>
-          </div>
-          <footer>
-            <div id="help-links">
-              <Link id="help" to={URLS.FAQ}>
-                <SupportIcon />
-                <div>Help</div>
-              </Link>
-              <div className="divider" />
-              <a
-                id="contribute"
-                target="_blank"
-                href="https://github.com/mozilla/voice-web">
-                <GithubIcon />
-                <div>GitHub</div>
-              </a>
-              <div className="divider" />
-              <a
-                id="discourse"
-                target="blank"
-                href="https://discourse.mozilla-community.org/c/voice">
-                <DiscourseIcon />
-                <div>Discourse</div>
-              </a>
-              <div className="divider" />
-              <a href="javascript:void(0)" onClick={this.toggleContactModal}>
-                <ContactIcon />
-                <div>Contact</div>
-              </a>
             </div>
-            <div id="moz-links">
-              <div className="content">
-                <Logo reverse={true} />
-                <div className="links">
-                  <p>
-                    <Link to={URLS.PRIVACY}>Privacy</Link>
-                    <Link to={URLS.TERMS}>Terms</Link>
-                    <a
-                      target="_blank"
-                      href="https://www.mozilla.org/en-US/privacy/websites/#cookies">
-                      Cookies
-                    </a>
-                    <Link to={URLS.FAQ}>FAQ</Link>
-                  </p>
-                  <p>
-                    Content available under a&nbsp;<a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://www.mozilla.org/en-US/foundation/licensing/website-content/">
-                      Creative Commons license
-                    </a>
-                  </p>
-                </div>
-              </div>
-              <div id="sharing">
-                <h3>Help us find others to donate their voice!</h3>
-
-                <div className="icons">
-                  <button id="link-copy" onClick={this.copyShareURL}>
-                    <input
-                      type="text"
-                      readOnly
-                      value={shareURL}
-                      ref={node => (this.shareURLInput = node)}
+            <div className="hero-space" />
+            <div
+              id="content"
+              ref={div => {
+                this.content = div as HTMLElement;
+              }}>
+              <Switch>
+                <Route exact path={URLS.ROOT} component={Home} />
+                <Route
+                  exact
+                  path={URLS.RECORD}
+                  render={props => (
+                    <Record
+                      isRecording={this.state.isRecording}
+                      onRecord={this.onRecord}
+                      onRecordStop={this.onRecordStop}
+                      onVolume={this.handleVolumeChange}
+                      {...props}
                     />
-                    <FontIcon type="link" />
-                  </button>
-                  <a
-                    href={
-                      'https://twitter.com/intent/tweet?text=' +
-                      encodedShareText
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    <FontIcon type="twitter" />
-                  </a>
-                  <a
-                    href={
-                      'https://www.facebook.com/sharer/sharer.php?u=' +
-                      encodeURIComponent(shareURL)
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    <FontIcon type="facebook" />
-                  </a>
+                  )}
+                />
+                <Route exact path={URLS.DATA} component={Data} />
+                <Route exact path={URLS.PROFILE} component={Profile} />
+                <Route exact path={URLS.FAQ} component={FAQ} />} />
+                <Route exact path={URLS.PRIVACY} component={Privacy} />} />
+                <Route exact path={URLS.TERMS} component={Terms} />} />
+                <Route component={NotFound} />
+              </Switch>
+            </div>
+            <footer>
+              <div id="help-links">
+                <Link id="help" to={URLS.FAQ}>
+                  <SupportIcon />
+                  <div>Help</div>
+                </Link>
+                <div className="divider" />
+                <a
+                  id="contribute"
+                  target="_blank"
+                  href="https://github.com/mozilla/voice-web">
+                  <GithubIcon />
+                  <div>GitHub</div>
+                </a>
+                <div className="divider" />
+                <a
+                  id="discourse"
+                  target="blank"
+                  href="https://discourse.mozilla-community.org/c/voice">
+                  <DiscourseIcon />
+                  <div>Discourse</div>
+                </a>
+                <div className="divider" />
+                <a href="javascript:void(0)" onClick={this.toggleContactModal}>
+                  <ContactIcon />
+                  <div>Contact</div>
+                </a>
+              </div>
+              <div id="moz-links">
+                <div className="content">
+                  <Logo reverse={true} />
+                  <div className="links">
+                    <p>
+                      <Link to={URLS.PRIVACY}>Privacy</Link>
+                      <Link to={URLS.TERMS}>Terms</Link>
+                      <a
+                        target="_blank"
+                        href="https://www.mozilla.org/en-US/privacy/websites/#cookies">
+                        Cookies
+                      </a>
+                      <Link to={URLS.FAQ}>FAQ</Link>
+                    </p>
+                    <p>
+                      Content available under a&nbsp;<a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.mozilla.org/en-US/foundation/licensing/website-content/">
+                        Creative Commons license
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div id="sharing">
+                  <h3>Help us find others to donate their voice!</h3>
+
+                  <div className="icons">
+                    <button id="link-copy" onClick={this.copyShareURL}>
+                      <input
+                        type="text"
+                        readOnly
+                        value={shareURL}
+                        ref={node => (this.shareURLInput = node)}
+                      />
+                      <FontIcon type="link" />
+                    </button>
+                    <a
+                      href={
+                        'https://twitter.com/intent/tweet?text=' +
+                        encodedShareText
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer">
+                      <FontIcon type="twitter" />
+                    </a>
+                    <a
+                      href={
+                        'https://www.facebook.com/sharer/sharer.php?u=' +
+                        encodeURIComponent(shareURL)
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer">
+                      <FontIcon type="facebook" />
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
-          </footer>
+            </footer>
+          </div>
         </div>
         <div
           id="navigation-modal"

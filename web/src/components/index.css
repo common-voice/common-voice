@@ -29,6 +29,12 @@ html {
   overflow: auto;
 }
 
+@media (--mobile) {
+  html {
+    overflow: hidden;
+  }
+}
+
 html, body, #main {
   padding: 0;
   margin: 0;
@@ -136,12 +142,20 @@ button {
 
 @media (--mobile) {
   #scroller {
-    margin-top: var(--header-height);
+    position: fixed;
+    top: var(--header-height); bottom: 0;
+    left: 0; right: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
   }
   body:not(.focus) #scroller {
     -webkit-overflow-scrolling: touch;
     scroll-behavior: smooth;
   }
+}
+
+#scrollee {
+  position: relative;
 }
 
 .faq #background-container,
