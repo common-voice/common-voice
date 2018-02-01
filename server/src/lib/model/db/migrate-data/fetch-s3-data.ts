@@ -49,7 +49,7 @@ export class S3Fetcher {
   private async processFilePath(
     path: string
   ): Promise<ClipData | VoteData | UserClientData | undefined> {
-    const dotIndex = path.indexOf('.');
+    const dotIndex = path.lastIndexOf('.');
 
     // Filter out any directories.
     if (dotIndex === -1) {
@@ -87,7 +87,7 @@ export class S3Fetcher {
           .promise()).Body.toString();
         return {
           type: 'vote',
-          clip_sentence_id,
+          clip_sentence_id: clip_sentence_id.replace('.mp3', ''),
           clip_client_id: client_id,
           voter_client_id,
           is_valid:
