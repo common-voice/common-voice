@@ -54,7 +54,7 @@ export default class Bucket {
       .promise();
 
     return JSON.stringify({
-      glob: path,
+      glob: path.substr(0, path.length - 4),
       text: clip.sentence,
       sound: this.getPublicUrl(path),
     });
