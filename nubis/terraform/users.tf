@@ -34,3 +34,13 @@ resource "aws_iam_user_policy" "clips_bucket" {
 }
 EOF
 }
+
+resource "aws_db_parameter_group" "default" {
+  name   = "cv-parameter-group"
+  family = "mysql5.6"
+
+  parameter {
+    name  = "slow_query_log"
+    value = "1"
+  }
+}
