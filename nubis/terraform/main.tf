@@ -47,7 +47,7 @@ module "dns" {
 }
 
 resource "aws_db_parameter_group" "slow_query_enabled" {
-  name   = "slow_query_enabled"
+  name   = "${var.service_name}-slow-query-${var.environment}-${var.region}"
   family = "mysql5.6"
 
   parameter {
@@ -70,7 +70,7 @@ module "database" {
   monitoring             = true
   service_name           = "${var.service_name}"
   client_security_groups = "${module.worker.security_group}"
-  parameter_group_name   = "${var.service_name}-slow-query-${var.environment}-${var.region}"
+  parameter_group_name   = "${aws_db_parameter_group.slow_query_enabled.id}"
   instance_class         = "db.t2.small"
 }
 
