@@ -53,6 +53,7 @@ resource "aws_db_parameter_group" "slow_query_enabled" {
   parameter {
     name  = "slow_query_log"
     value = "1"
+    apply_method = "immediate"
   }
 }
 
