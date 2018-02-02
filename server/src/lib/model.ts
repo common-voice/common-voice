@@ -1,40 +1,7 @@
 import DB from './model/db';
 import { CommonVoiceConfig } from '../config-helper';
 import { DBClipWithVoters } from './model/db/tables/clip-table';
-import * as Random from 'random-js';
-
-type FetchFunction<T> = (count: number) => T[] | Promise<T[]>;
-
-class Cache<T> {
-  private items: T[] = [];
-  private size: number;
-  private fetchMore: FetchFunction<T>;
-  private isRefilling = false;
-  private randomEngine = Random.engines.mt19937().autoSeed();
-
-  constructor(fetchMore: FetchFunction<T>, size = 1000) {
-    this.fetchMore = fetchMore;
-    this.size = size;
-  }
-
-  async getAll(): Promise<T[]> {
-    if (this.items.length == 0) await this.refill();
-    return this.items;
-  }
-
-  take(index: number): T {
-    return this.items.splice(index, 1)[0];
-  }
-
-  private async refill() {
-    if (this.isRefilling) return;
-    this.isRefilling = true;
-    this.items = this.items.concat(
-      Random.shuffle(this.randomEngine, await this.fetchMore(this.size))
-    );
-    this.isRefilling = false;
-  }
-}
+import Cache from './cache';
 
 /**
  * The Model loads all clip and user data into memory for quick access.
