@@ -205,7 +205,7 @@ export default class Server {
     clearInterval(this.heartbeat);
     this.heartbeat = setInterval(() => {
       this.model.printMetrics();
-    }, 60000);
+    }, 30 * 60 * 1000); // 30 minutes
   }
 
   /**
