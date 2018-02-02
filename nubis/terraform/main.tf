@@ -70,7 +70,7 @@ module "database" {
   monitoring             = true
   service_name           = "${var.service_name}"
   client_security_groups = "${module.worker.security_group}"
-  parameter_group_name   = "${aws_db_parameter_group.slow_query_enabled.id}"
+  parameter_group_name   = "${var.service_name}-slow-query-${var.environment}-${var.region}"
   instance_class         = "db.t2.small"
 }
 
