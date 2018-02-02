@@ -47,7 +47,7 @@ module "dns" {
 }
 
 resource "aws_db_parameter_group" "slow_query_enabled" {
-  name   = "${var.service_name}-slow_query"
+  name   = "slow_query_enabled"
   family = "mysql5.6"
 
   parameter {
