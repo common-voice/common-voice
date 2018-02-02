@@ -3,6 +3,7 @@ import * as http from 'http';
 import { CommonVoiceConfig } from '../config-helper';
 import Model from './model';
 import Clip from './clip';
+import Corpus from './corpus';
 import Prometheus from './prometheus';
 import WebHook from './webhook';
 import respond from './responder';
@@ -11,6 +12,7 @@ export default class API {
   config: CommonVoiceConfig;
   model: Model;
   clip: Clip;
+  corpus: Corpus;
   metrics: Prometheus;
   webhook: WebHook;
 
@@ -18,6 +20,7 @@ export default class API {
     this.config = config;
     this.model = model;
     this.clip = new Clip(this.config, this.model);
+    this.corpus = new Corpus();
     this.metrics = new Prometheus(this.config);
     this.webhook = new WebHook();
   }
@@ -37,6 +40,14 @@ export default class API {
         res(body);
       });
     });
+  }
+
+  /**
+   * Loads cache. API will still be responsive to requests while loading cache.
+   */
+  async loadCache(): Promise<void> {
+    await this.corpus.loadCache();
+    this.corpus.displayMetrics();
   }
 
   /**
@@ -77,7 +88,7 @@ export default class API {
     // Handle all clip related requests first.
     if (this.clip.isClipRequest(request)) {
       this.metrics.countClipRequest(request);
-      await this.clip.handleRequest(request, response);
+      this.clip.handleRequest(request, response);
       return;
     }
 
@@ -92,12 +103,12 @@ export default class API {
     this.metrics.countApiRequest(request);
 
     if (request.url.includes('/user')) {
-      await this.handleUserSync(request, response);
+      this.handleUserSync(request, response);
     } else if (request.url.includes('/sentence')) {
       let parts = request.url.split('/');
       let index = parts.indexOf('sentence');
       let count = parts[index + 1] && parseInt(parts[index + 1], 10);
-      await this.returnRandomSentence(response, count);
+      this.returnRandomSentence(response, count);
       // Webhooks from github.
     } else if (this.webhook.isHookRequest(request)) {
       this.webhook.handleWebhookRequest(request, response);
@@ -112,7 +123,15 @@ export default class API {
   /**
    * Load sentence file (if necessary), pick random sentence.
    */
-  async returnRandomSentence(response: http.ServerResponse, count: number = 1) {
-    respond(response, (await this.model.getRandomSentences(count)).join('\n'));
+  async returnRandomSentence(response: http.ServerResponse, count: number) {
+    count = count || 1;
+    let randoms = this.corpus.getMultipleRandom(count);
+
+    // Make sure we were able to feature the right amount of random sentences.
+    if (!randoms || randoms.length < count) {
+      respond(response, 'No sentences right now', 500);
+      return;
+    }
+    respond(response, randoms.join('\n'));
   }
 }

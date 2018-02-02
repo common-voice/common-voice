@@ -22,6 +22,7 @@ export default class Server {
   logger: Logger;
   staticServer: any;
   isLeader: boolean;
+  hasPerformedMaintenance = false;
   heartbeat: any;
 
   constructor(config?: CommonVoiceConfig) {
@@ -72,6 +73,11 @@ export default class Server {
     let startTime = Date.now();
 
     if (this.api.isApiRequest(request)) {
+      if (this.isLeader && !this.hasPerformedMaintenance) {
+        response.writeHead(307, { Location: request.url });
+        response.end();
+        return;
+      }
       this.api.handleRequest(request, response);
       return;
     }
@@ -125,6 +131,19 @@ export default class Server {
     }
 
     return this.isLeader;
+  }
+
+  private async loadCache(): Promise<void> {
+    const start = Date.now();
+    this.print('loading clip cache');
+
+    try {
+      await this.api.loadCache();
+    } catch (err) {
+      console.error('error loading clips', err.message);
+    } finally {
+      this.print(`${getElapsedSeconds(start)}s to load`);
+    }
   }
 
   /**
@@ -205,10 +224,14 @@ export default class Server {
     // Figure out if this server is the leader.
     const isLeader = await this.checkLeader();
 
+    this.loadCache().catch(error => console.error(error));
+
     // Leader servers will perform database maintenance.
     if (isLeader) {
       await this.performMaintenance();
     }
+    this.hasPerformedMaintenance = true;
+    await this.loadCache();
 
     this.startHeartbeat();
   }

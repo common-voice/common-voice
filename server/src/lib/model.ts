@@ -29,10 +29,6 @@ export default class Model {
     return this.clipCache.take(i);
   }
 
-  async getRandomSentences(count: number) {
-    return this.db.findSentencesWithFewClips(count);
-  }
-
   private print(...args: any[]) {
     args.unshift('MODEL --');
     console.log.apply(console, args);
