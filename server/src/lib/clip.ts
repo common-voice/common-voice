@@ -176,8 +176,10 @@ export default class Clip {
 
     const vote = decodeURI(request.headers.vote as string);
 
-    if (!uid || !id || !vote) {
-      return Promise.reject('Invalid headers');
+    if (!uid || !id || !glob || !vote) {
+      return Promise.reject(
+        'Invalid headers: ' + JSON.stringify(request.headers)
+      );
     }
 
     await this.model.db.saveVote(id, uid, vote);
