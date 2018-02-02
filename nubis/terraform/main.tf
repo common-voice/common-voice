@@ -56,6 +56,7 @@ module "database" {
   monitoring             = true
   service_name           = "${var.service_name}"
   client_security_groups = "${module.worker.security_group}"
+  parameter_group_name   = "nubis-mysql56"
   instance_class         = "db.t2.small"
 }
 
