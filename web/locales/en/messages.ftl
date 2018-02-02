@@ -1,4 +1,4 @@
-[[Layout]]
+## Layout
 speak = Speak
 datasets = Datasets
 profile = Profile
@@ -8,11 +8,10 @@ privacy = Privacy
 terms = Terms
 cookies = Cookies
 faq = FAQ
-content-license = Creative Commons license
-content-license-text = Content available under a { $link }
+content-license-text = Content available under a <a>Creative Commons license</a>
 share-title = Help us find others to donate their voice!
 
-[[Home Page]]
+## Home Page
 home-title =
   The Common Voice project is Mozilla's initiative to help teach machines how real people speak.
 home-cta = Speak up, contribute here!
@@ -26,13 +25,13 @@ wall-of-text-more-mobile =
   recognition open to everyone.
 wall-of-text-more-desktop =
   Now you can donate your voice to help us build an open-source voice database that anyone can use
-  to make innovative apps for devices and the web.{ $lineBreak }
+  to make innovative apps for devices and the web.<br>
   Read a sentence to help machines learn how real people speak. Check the work of other
   contributors to improve the quality. It’s that simple!
 show-wall-of-text = Read More
 help-us-title = Help us validate sentences!
 help-us-explain = Press play, listen & tell us: did they accurately speak the sentence below?
-[[ProjectStatus]]
+## ProjectStatus
 status-title = Overall project status: see how far we've come!
 status-contribute = Contribute Your Voice
 status-loading = Loading...

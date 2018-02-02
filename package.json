@@ -27,6 +27,10 @@
     "@types/webpack": "^3.0.13",
     "@types/webpack-merge": "^4.1.0",
     "aws-sdk": "^2.67.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-runtime": "^6.26.0",
     "bcrypt": "^1.0.2",
     "bluebird": "^3.5.0",
     "concurrently": "^3.5.0",
@@ -40,10 +44,10 @@
     "eslint-plugin-prettier": "^2.3.1",
     "extract-text-webpack-plugin": "^3.0.1",
     "ff": "0.2.2",
-    "fluent": "^0.4.2",
+    "fluent": "^0.6.0",
     "fluent-intl-polyfill": "^0.1.0",
     "fluent-langneg": "^0.1.0",
-    "fluent-react": "^0.4.1",
+    "fluent-react": "^0.6.0",
     "glob": "7.1.2 ",
     "jest": "^22.1.1",
     "js-md5": "^0.6.1",
@@ -103,6 +107,6 @@
     "prettier": "yarn lint --fix",
     "start": "node scripts/dev-server.js",
     "start:prod": "node server/js/server.js",
-    "test": "jest && yarn build && bundlesize -f \"web/dist/*.js\" -s 100kb"
+    "test": "jest && yarn build && bundlesize -f \"web/dist/*.js\" -s 150kb"
   }
 }

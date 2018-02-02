@@ -42,7 +42,7 @@ class Home extends React.Component<RouteComponentProps<any>, State> {
             <p className="more-text-mobile" />
           </Localized>
 
-          <Localized id="wall-of-text-more-desktop" $lineBreak={<br />}>
+          <Localized id="wall-of-text-more-desktop" br={<br />}>
             <p className="more-text-desktop" />
           </Localized>
 
