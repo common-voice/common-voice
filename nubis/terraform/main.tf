@@ -56,11 +56,6 @@ resource "aws_db_parameter_group" "slow_query_enabled" {
   }
 }
 
-resource "aws_db_parameter_group" "cv-parameter-group" {
-  name   = "cv-parameter-group"
-  family = "mysql5.6"
-}
-
 module "database" {
   source                 = "github.com/nubisproject/nubis-terraform//database?ref=v2.0.1"
   region                 = "${var.region}"
