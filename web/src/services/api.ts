@@ -2,6 +2,7 @@ import { User } from '../stores/user';
 import AudioIOS from '../components/pages/record/audio-ios';
 
 export interface Clip {
+  id: string;
   glob: string;
   text: string;
   sound: string;
@@ -139,9 +140,10 @@ export default class API {
     });
   }
 
-  castVote(glob: string, vote: boolean): Promise<Event> {
+  castVote(glob: string, id: string, vote: boolean): Promise<Event> {
     const headers = {
       glob,
+      clip_id: id,
       uid: this.user.userId,
       vote: encodeURIComponent(vote.toString()),
     };

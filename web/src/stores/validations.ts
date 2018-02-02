@@ -6,6 +6,7 @@ const MIN_CACHE_SIZE = 2;
 
 export namespace Validations {
   export interface Validation {
+    id: string;
     glob: string;
     sentence: string;
     audioSrc: string;
@@ -49,6 +50,7 @@ export namespace Validations {
           dispatch({
             type: ActionType.REFILL_CACHE,
             validation: {
+              id: clip.id,
               glob: clip.glob,
               sentence: decodeURIComponent(clip.text),
               audioSrc: clip.sound,
@@ -77,7 +79,8 @@ export namespace Validations {
       getState: () => StateTree
     ) => {
       const { api, validations } = getState();
-      await api.castVote(validations.next.glob, isValid);
+      const { glob, id } = validations.next;
+      await api.castVote(glob, id, isValid);
       dispatch(User.actions.tallyVerification());
       dispatch({ type: ActionType.NEXT_VALIDATION });
       actions.refillCache()(dispatch, getState);

@@ -171,15 +171,16 @@ export default class Clip {
    */
   async saveVote(request: http.IncomingMessage): Promise<string> {
     const glob = request.headers.glob as string;
+    const id = request.headers.clip_id as string;
     const uid = request.headers.uid as string;
 
     const vote = decodeURI(request.headers.vote as string);
 
-    if (!uid || !glob || !vote) {
+    if (!uid || !id || !vote) {
       return Promise.reject('Invalid headers');
     }
 
-    await this.model.db.saveVote(glob, uid, vote);
+    await this.model.db.saveVote(id, uid, vote);
 
     return new Promise<string>((resolve: Function, reject: Function) => {
       // Where is the clip vote going to be located?

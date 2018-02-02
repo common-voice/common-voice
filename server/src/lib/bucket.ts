@@ -54,6 +54,7 @@ export default class Bucket {
       .promise();
 
     return JSON.stringify({
+      id: clip.id,
       glob: path.replace('.mp3', ''),
       text: clip.sentence,
       sound: this.getPublicUrl(path),
