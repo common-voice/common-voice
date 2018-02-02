@@ -269,7 +269,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
     if (!reRecordSentence && isSetFull) {
       return (
         <div id="record-container">
-          <Review />
+          <Review audio={this.audio} />
         </div>
       );
     }
