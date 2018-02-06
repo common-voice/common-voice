@@ -1,10 +1,11 @@
 import * as React from 'react';
 const { Fragment } = require('react');
+import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
+const { Localized } = require('fluent-react');
 import { trackNavigation } from '../../../services/tracker';
 import API from '../../../services/api';
 import StateTree from '../../../stores/tree';
-import { connect } from 'react-redux';
 
 const GOAL_HOURS = 500;
 
@@ -34,12 +35,15 @@ class ProjectStatus extends React.Component<PropsFromState, State> {
     return (
       <div className="project-status">
         <div className="title-and-action">
-          <h4>Overall project status: see how far we've come!</h4>
-          <Link
-            to="/record"
-            onClick={() => trackNavigation('progress-to-record')}>
-            Contribute Your Voice
-          </Link>
+          <Localized id="status-title">
+            <h4 />
+          </Localized>
+          <Localized id="status-contribute">
+            <Link
+              to="/record"
+              onClick={() => trackNavigation('progress-to-record')}
+            />
+          </Localized>
         </div>
 
         <div className="contents">
@@ -58,18 +62,26 @@ class ProjectStatus extends React.Component<PropsFromState, State> {
             </div>
             <div className="numbers">
               {validatedHours === null ? (
-                <div>Loading...</div>
+                <Localized id="status-loading">
+                  <div />
+                </Localized>
               ) : (
                 <Fragment>
-                  <div>{validatedHours} validated hours so far!</div>
-                  <div>Next Goal: {goal}</div>
+                  <Localized id="status-hours" $hours={validatedHours}>
+                    <div />
+                  </Localized>
+                  <Localized id="status-goal" $goal={goal}>
+                    <div />
+                  </Localized>
                 </Fragment>
               )}
             </div>
           </div>
 
           <div>
-            More languages coming soon!
+            <Localized id="status-more-soon">
+              <span />
+            </Localized>
             <div className="progress-bar" />
           </div>
         </div>

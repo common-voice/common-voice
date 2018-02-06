@@ -2,6 +2,7 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import { Switch, Route, RouteComponentProps, withRouter } from 'react-router';
 import { Link, NavLink } from 'react-router-dom';
+const { Localized } = require('fluent-react');
 import { Recordings } from '../stores/recordings';
 import StateTree from '../stores/tree';
 import { User } from '../stores/user';
@@ -358,7 +359,9 @@ class Pages extends React.Component<PagesProps, PagesState> {
               <div id="help-links">
                 <Link id="help" to={URLS.FAQ}>
                   <SupportIcon />
-                  <div>Help</div>
+                  <Localized id="help">
+                    <div />
+                  </Localized>
                 </Link>
                 <div className="divider" />
                 <a
@@ -379,7 +382,9 @@ class Pages extends React.Component<PagesProps, PagesState> {
                 <div className="divider" />
                 <a href="javascript:void(0)" onClick={this.toggleContactModal}>
                   <ContactIcon />
-                  <div>Contact</div>
+                  <Localized id="contact">
+                    <div />
+                  </Localized>
                 </a>
               </div>
               <div id="moz-links">
@@ -387,27 +392,43 @@ class Pages extends React.Component<PagesProps, PagesState> {
                   <Logo reverse={true} />
                   <div className="links">
                     <p>
-                      <Link to={URLS.PRIVACY}>Privacy</Link>
-                      <Link to={URLS.TERMS}>Terms</Link>
-                      <a
-                        target="_blank"
-                        href="https://www.mozilla.org/en-US/privacy/websites/#cookies">
-                        Cookies
-                      </a>
-                      <Link to={URLS.FAQ}>FAQ</Link>
+                      <Localized id="privacy">
+                        <Link to={URLS.PRIVACY} />
+                      </Localized>
+                      <Localized id="terms">
+                        <Link to={URLS.TERMS} />
+                      </Localized>
+                      <Localized id="cookies">
+                        <a
+                          target="_blank"
+                          href="https://www.mozilla.org/en-US/privacy/websites/#cookies"
+                        />
+                      </Localized>
+                      <Localized id="faq">
+                        <Link to={URLS.FAQ}>FAQ</Link>
+                      </Localized>
                     </p>
                     <p>
-                      Content available under a&nbsp;<a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.mozilla.org/en-US/foundation/licensing/website-content/">
-                        Creative Commons license
-                      </a>
+                      <Localized
+                        id="content-license-text"
+                        $link={
+                          <Localized id="content-license">
+                            <a
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              href="https://www.mozilla.org/en-US/foundation/licensing/website-content/"
+                            />
+                          </Localized>
+                        }>
+                        <span />
+                      </Localized>
                     </p>
                   </div>
                 </div>
                 <div id="sharing">
-                  <h3>Help us find others to donate their voice!</h3>
+                  <Localized id="share-title">
+                    <h3 />
+                  </Localized>
 
                   <div className="icons">
                     <button id="link-copy" onClick={this.copyShareURL}>
@@ -456,15 +477,15 @@ class Pages extends React.Component<PagesProps, PagesState> {
   private renderNav(id?: string, withTallies?: boolean) {
     return (
       <nav id={id} className="nav-list">
-        <NavLink to={URLS.RECORD} exact>
-          Speak
-        </NavLink>
-        <NavLink to={URLS.DATA} exact>
-          Datasets
-        </NavLink>
-        <NavLink to={URLS.PROFILE} exact>
-          Profile
-        </NavLink>
+        <Localized id="speak">
+          <NavLink to={URLS.RECORD} exact />
+        </Localized>
+        <Localized id="datasets">
+          <NavLink to={URLS.DATA} exact />
+        </Localized>
+        <Localized id="profile">
+          <NavLink to={URLS.PROFILE} exact />
+        </Localized>
         {withTallies && this.renderTallies()}
       </nav>
     );
