@@ -411,12 +411,14 @@ class Pages extends React.Component<PagesProps, PagesState> {
                     <p>
                       <Localized
                         id="content-license-text"
-                        a={
-                          <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.mozilla.org/en-US/foundation/licensing/website-content/"
-                          />
+                        $link={
+                          <Localized id="content-license">
+                            <a
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              href="https://www.mozilla.org/en-US/foundation/licensing/website-content/"
+                            />
+                          </Localized>
                         }>
                         <span />
                       </Localized>
