@@ -1,6 +1,6 @@
 import ERROR_MSG from '../../../error-msg';
 
-const MIN_RECORD_MS = 1000; // Safari will start misbehaving if we do
+const MIN_RECORD_MS = 300; // Safari will start misbehaving if we do
 
 export interface AudioInfo {
   url: string;
