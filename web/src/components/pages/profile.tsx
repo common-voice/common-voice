@@ -17,7 +17,7 @@ export default (props: RouteComponentProps<any>) => (
     </Localized>
     <br />
     <Localized id="profile-why-content">
-      <p style={{ marginBottom: '3rem' }}></p>
+      <p style={{ marginBottom: '3rem' }} />
     </Localized>
   </div>
 );
