@@ -13,3 +13,13 @@ fluentd::source { 'node-output':
     'pos_file'       => "/var/log/upstart/${project_name}.pos",
   },
 }
+
+# Workaround for https://github.com/fluent/fluentd/issues/1734
+# restart td-agent after log rotation
+file { '/etc/logrotate.d/upstart':
+  ensure => file,
+  owner  => root,
+  group  => root,
+  mode   => '0644',
+  source => 'puppet:///nubis/files/upstart.logrotate',
+}
