@@ -18,13 +18,13 @@ All of our current issues can be found here on GitHub. Anything with a [help wan
 - [npm](https://www.npmjs.com) (v4 or higher)
 - [yarn](https://yarnpkg.com) (v1 or higher)
 - [ffmpeg](https://www.ffmpeg.org/download.html)
-- [MySQL](TODO: linkme)
+- [MariaDB](https://mariadb.org/download/) or [MySQL](https://www.mysql.com/downloads/)
 
 #### Local Development
 
-If you haven't already, install the latest version of [NodeJS and npm](https://nodejs.org/en/download) and [yarn](https://yarnpkg.com)
+[Fork](https://help.github.com/articles/fork-a-repo/) and [clone](https://help.github.com/articles/cloning-a-repository/) the repository onto your computer.
 
-Then, [fork](https://help.github.com/articles/fork-a-repo/) and [clone](https://help.github.com/articles/cloning-a-repository/) the repository onto your computer.
+Either create a MySQL root user that conforms to the default `DB_ROOT_USER` and `DB_ROOT_PASS` in `/server/src/config-helper.ts` or [create your own config](https://github.com/mozilla/voice-web/blob/master/CONTRIBUTING.md#configuration). 
 
 Then `cd` into the project directory and enter the following commands:
 ```
