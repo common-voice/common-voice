@@ -1,5 +1,7 @@
 import ERROR_MSG from '../../../error-msg';
 
+const MIN_RECORD_MS = 1000; // Safari will start misbehaving if we do
+
 export interface AudioInfo {
   url: string;
   blob: Blob;
@@ -9,6 +11,7 @@ const AudioContext = window.AudioContext || window.webkitAudioContext;
 
 export default class AudioWeb {
   startPromise: Promise<void>;
+  startedAt: number;
   stopPromise: Promise<AudioInfo | {}>;
   worker: Worker;
   microphone: MediaStream;
@@ -134,6 +137,7 @@ export default class AudioWeb {
     (this.startPromise = new Promise(async resolve => {
       await this.init();
 
+      this.startedAt = Date.now();
       this.processor.onaudioprocess = (event: AudioProcessingEvent) => {
         this.worker.postMessage({
           cmd: 'encode',
@@ -152,6 +156,9 @@ export default class AudioWeb {
     (this.stopPromise = new Promise(async resolve => {
       if (!this.microphone) resolve({});
 
+      await new Promise(resolve =>
+        setTimeout(resolve, this.startedAt - Date.now() + MIN_RECORD_MS)
+      );
       this.onResult = (blob: any) => {
         this.stopPromise = null;
         resolve({
