@@ -94,3 +94,23 @@ terms-general-liability4 = EXCEPT AS REQUIRED BY LAW, MOZILLA AND THE MOZILLA PA
 terms-general-updates = Updates: Mozilla may update these Terms from time to time to address a new feature of the Services or to clarify a provision. The updated Terms will be posted online. If the changes are substantive, we will announce the update through Mozilla's usual channels for such announcements such as blog posts and forums. Your continued use of the Services after the effective date of such changes constitutes your acceptance of such changes. To make your review more convenient, we will post an effective date at the top of this page.
 terms-general-termination = Termination: We may suspend or terminate your access to the Services at any time for any reason, we will make reasonable efforts to notify you by the email address associated with your account or the next time you attempt to access the Services. Regardless of any termination, all recordings that you submit to Mozilla will continue to be publicly available.
 terms-general-law = Governing Law: These Legal Terms constitute the entire agreement between you and Mozilla concerning Common Voice and are governed by the laws of the state of California, U.S.A.
+
+[[Data]]
+data-download-button = Download Common Voice Data
+data-download-license = License: <licenseLink>CC-0</licenseLink>
+data-download-modal = You are about to initiate a download of <size>{ $size }GB</size>, proceed?
+data-subtitle = We are building an open and publicly available dataset of voices that everyone can use to train speech-enabled applications.
+data-explanatory-text = We believe that large and publicly available voice datasets foster innovation and healthy commercial competition in machine-learning based speech technology. This is a global effort and we invite everyone to participate. Our aim is to help speech technology be more inclusive, reflecting the diversity of voices from around the world.
+data-get-started = <speech-blog-link>Get Started with Speech Recognition</speech-blog-link>
+data-other-title = Other voice datasets…
+data-other-goto = Go to { $name }
+data-other-download = Download Data
+data-other-librispeech-description = LibriSpeech is a corpus of approximately 1000 hours of 16Khz read English speech derived from read audiobooks from the LibriVox project.
+data-other-ted-name = TED-LIUM Corpus
+data-other-ted-description = The TED-LIUM corpus was made from audio talks and their transcriptions available on the TED website.
+data-other-voxforge-description = VoxForge was set up to collect transcribed speech for use with Free and Open Source Speech Recognition Engines.
+data-other-tatoeba-description = Tatoeba is a large database of sentences, translations, and spoken audio for use in language learning. This download contains all of the spoken English recorded by their community.
+data-bundle-button = Download Dataset Bundle
+data-bundle-description = Common Voice data plus all other voice datasets above.
+
+license = License: <licenseLink>{ $license }</licenseLink>
