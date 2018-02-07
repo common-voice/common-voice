@@ -11,7 +11,7 @@ import Alert from '../../alert/alert';
 import Modal from '../../modal/modal';
 import { FontIcon, RecordIcon } from '../../ui/icons';
 import AudioIOS from './audio-ios';
-import AudioWeb, { AudioInfo } from './audio-web';
+import AudioWeb, { AudioInfo, isRecordingSupported } from './audio-web';
 import ProfileActions from './profile-actions';
 import Review from './review';
 
@@ -82,7 +82,6 @@ interface RecordState {
 
 class RecordPage extends React.Component<RecordProps, RecordState> {
   audio: AudioWeb | AudioIOS;
-  isUnsupportedPlatform: boolean;
   maxVolume: number = 0;
 
   state: RecordState = {
@@ -99,11 +98,6 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
     // Use different audio helpers depending on if we are web or native iOS.
     this.audio = isNativeIOS() ? new AudioIOS() : new AudioWeb();
     this.audio.setVolumeCallback(this.updateVolume.bind(this));
-
-    if (!this.audio.isMicrophoneSupported() || isFocus()) {
-      this.isUnsupportedPlatform = true;
-      return;
-    }
   }
 
   private processRecording = (info: AudioInfo) => {
@@ -252,7 +246,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
     } = this.props;
     const { recordingError, showRetryModal, showSubmitSuccess } = this.state;
 
-    if (this.isUnsupportedPlatform) {
+    if (!isRecordingSupported()) {
       return <UnsupportedInfo />;
     }
 

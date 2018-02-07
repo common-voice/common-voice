@@ -9,6 +9,16 @@ export interface AudioInfo {
 
 const AudioContext = window.AudioContext || window.webkitAudioContext;
 
+export function isRecordingSupported() {
+  return (
+    AudioContext &&
+    ((navigator.mediaDevices && navigator.mediaDevices.getUserMedia) ||
+      navigator.getUserMedia ||
+      navigator.webkitGetUserMedia ||
+      navigator.mozGetUserMedia)
+  );
+}
+
 export default class AudioWeb {
   startPromise: Promise<void>;
   startedAt: number;
@@ -62,16 +72,6 @@ export default class AudioWeb {
         reject(ERROR_MSG.ERR_PLATFORM);
       }
     });
-  }
-
-  isMicrophoneSupported() {
-    return (
-      AudioContext &&
-      ((navigator.mediaDevices && navigator.mediaDevices.getUserMedia) ||
-        navigator.getUserMedia ||
-        navigator.webkitGetUserMedia ||
-        navigator.mozGetUserMedia)
-    );
   }
 
   private visualize = () => {
