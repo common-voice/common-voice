@@ -5,7 +5,11 @@ export interface AudioInfo {
   blob: Blob;
 }
 
+const AudioContext = window.AudioContext || window.webkitAudioContext;
+
 export default class AudioWeb {
+  startPromise: Promise<void>;
+  stopPromise: Promise<AudioInfo | {}>;
   worker: Worker;
   microphone: MediaStream;
   analyzerNode: AnalyserNode;
@@ -59,48 +63,44 @@ export default class AudioWeb {
 
   isMicrophoneSupported() {
     return (
-      (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) ||
-      navigator.getUserMedia ||
-      navigator.webkitGetUserMedia ||
-      navigator.mozGetUserMedia
+      AudioContext &&
+      ((navigator.mediaDevices && navigator.mediaDevices.getUserMedia) ||
+        navigator.getUserMedia ||
+        navigator.webkitGetUserMedia ||
+        navigator.mozGetUserMedia)
     );
   }
 
   private visualize = () => {
     this.analyzerNode.getByteFrequencyData(this.frequencyBins);
 
-    let sum = 0;
-    for (let i = 0; i < this.frequencyBins.length; i++) {
-      sum += this.frequencyBins[i];
-    }
-
-    let average = sum / this.frequencyBins.length;
+    const sum = this.frequencyBins.reduce((sum, n) => sum + n, 0);
 
     if (this.volumeCallback) {
-      this.volumeCallback(average);
+      this.volumeCallback(sum / this.frequencyBins.length);
     }
   };
 
   private async init() {
     if (this.microphone) return;
 
-    const audioContext = new (window.AudioContext ||
-      window.webkitAudioContext)();
+    const audioContext = new AudioContext();
 
     this.microphone = await this.getMicrophone();
-    const sourceNode = audioContext.createMediaStreamSource(this.microphone);
 
     this.processor = audioContext.createScriptProcessor(0, 1, 1);
-
+    const sourceNode = audioContext.createMediaStreamSource(this.microphone);
     sourceNode.connect(this.processor);
+    sourceNode.channelCount = 1;
     this.processor.connect(audioContext.destination);
+
+    if (!audioContext.createMediaStreamDestination) return;
 
     const volumeNode = audioContext.createGain();
     const analyzerNode = audioContext.createAnalyser();
     const outputNode = audioContext.createMediaStreamDestination();
 
     // Make sure we're doing mono everywhere.
-    sourceNode.channelCount = 1;
     volumeNode.channelCount = 1;
     analyzerNode.channelCount = 1;
     outputNode.channelCount = 1;
@@ -129,34 +129,41 @@ export default class AudioWeb {
     this.volumeCallback = cb;
   }
 
-  async start() {
-    await this.init();
+  start = () =>
+    this.startPromise ||
+    (this.startPromise = new Promise(async resolve => {
+      await this.init();
 
-    this.processor.onaudioprocess = (event: AudioProcessingEvent) => {
-      this.worker.postMessage({
-        cmd: 'encode',
-        buf: event.inputBuffer.getChannelData(0),
-      });
-    };
+      this.processor.onaudioprocess = (event: AudioProcessingEvent) => {
+        this.worker.postMessage({
+          cmd: 'encode',
+          buf: event.inputBuffer.getChannelData(0),
+        });
+      };
 
-    this.jsNode.onaudioprocess = this.visualize;
-  }
+      if (this.jsNode) this.jsNode.onaudioprocess = this.visualize;
 
-  async stop(): Promise<AudioInfo | {}> {
-    if (!this.microphone) return;
+      this.startPromise = null;
+      resolve();
+    }));
 
-    return new Promise(resolve => {
-      this.onResult = (blob: any) =>
+  stop = () =>
+    this.stopPromise ||
+    (this.stopPromise = new Promise(async resolve => {
+      if (!this.microphone) resolve({});
+
+      this.onResult = (blob: any) => {
+        this.stopPromise = null;
         resolve({
           url: URL.createObjectURL(blob),
           blob,
         });
+      };
       this.worker.postMessage({ cmd: 'finish' });
       this.volumeCallback && this.volumeCallback(100);
       this.processor.onaudioprocess = null;
-      this.jsNode.onaudioprocess = null;
-    });
-  }
+      if (this.jsNode) this.jsNode.onaudioprocess = null;
+    }));
 
   release() {
     for (const track of this.microphone.getTracks()) {
