@@ -46,6 +46,17 @@ module "dns" {
   target       = "${module.load_balancer.address}"
 }
 
+resource "aws_db_parameter_group" "slow_query_enabled" {
+  name   = "${var.service_name}-slow-query-${var.environment}-${var.region}"
+  family = "mysql5.6"
+
+  parameter {
+    name  = "slow_query_log"
+    value = "1"
+    apply_method = "immediate"
+  }
+}
+
 module "database" {
   source                 = "github.com/nubisproject/nubis-terraform//database?ref=v2.0.1"
   region                 = "${var.region}"
@@ -55,6 +66,8 @@ module "database" {
   monitoring             = true
   service_name           = "${var.service_name}"
   client_security_groups = "${module.worker.security_group}"
+  parameter_group_name   = "${aws_db_parameter_group.slow_query_enabled.id}"
+  instance_class         = "db.t2.small"
 }
 
 module "clips" {

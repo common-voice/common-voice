@@ -13,12 +13,19 @@ function print(...args: any[]) {
   console.log.apply(console, args);
 }
 
+/**
+ * Migrates all the data from S3 into the database
+ * Most sentences are retrieved from disk (inside the data dir), but some might be missing and will be fetched from S3.
+ * Initially that sentence migration happened first, to reduce the number of roundtrips. But since we don't get whether
+ * the sentence is_used from S3, we have to migrate the sentences from S3 first, and then set the is_used flag based
+ * on whether the sentence sits in the "not-used" dir or not.
+ */
 export async function migrate(connection: IConnection) {
   print('starting');
 
   try {
     await migrateSentences(connection, print);
-
+    
     const gen = fetchS3Data(print);
 
     const votesWithUnknownClips = [];
@@ -53,6 +60,7 @@ export async function migrate(connection: IConnection) {
         print('processed', processedObjectsCount, 'objects from S3');
       }
     }
+
     const [[row]] = await connection.execute(
       'SELECT ' +
         '(SELECT COUNT(*) FROM sentences) AS sentencesCount,' +

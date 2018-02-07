@@ -77,8 +77,10 @@ export default class Mysql {
     // Copy our pre-installed configuration.
     const opts: MysqlOptions = Object.assign({}, this.options);
 
-    // Do not specify the database name when connecting.
-    delete opts.database;
+    if (root) {
+      // Do not specify the database name when connecting.
+      delete opts.database;
+    }
 
     // Root gets an upgraded connection optimized for schema migration.
     if (root) {
@@ -103,6 +105,8 @@ export default class Mysql {
 
   private handleError(err: any) {
     console.error('unhandled mysql error', err.message);
+    // Kill current connection so that we re-init on next query.
+    this.endConnection();
   }
 
   async exec(sql: string, values?: any[]): Promise<any[]> {

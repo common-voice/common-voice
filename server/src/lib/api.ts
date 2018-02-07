@@ -42,10 +42,6 @@ export default class API {
     });
   }
 
-  set isMigrated(value: boolean) {
-    this.clip.isMigrated = value;
-  }
-
   /**
    * Loads cache. API will still be responsive to requests while loading cache.
    */

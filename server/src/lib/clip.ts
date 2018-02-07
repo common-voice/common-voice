@@ -21,7 +21,7 @@ const UPLOAD_PATH = path.resolve(__dirname, '../..', 'upload');
 const ACCEPTED_EXT = ['.mp3', '.ogg', '.webm', '.m4a'];
 const SALT = '8hd3e8sddFSdfj';
 
-const AVG_CLIP_SECONDS = 4.25; // I queried 40 recordings from prod and avg'd them
+const AVG_CLIP_SECONDS = 4.7; // I queried 40 recordings from prod and avg'd them
 
 export const hash = (str: string) =>
   crypto
@@ -37,7 +37,6 @@ export default class Clip {
   private s3: S3;
   private bucket: Bucket;
   private model: Model;
-  isMigrated: boolean;
 
   constructor(config: CommonVoiceConfig, model: Model) {
     this.config = config;
@@ -172,17 +171,18 @@ export default class Clip {
    */
   async saveVote(request: http.IncomingMessage): Promise<string> {
     const glob = request.headers.glob as string;
+    const id = request.headers.clip_id as string;
     const uid = request.headers.uid as string;
 
     const vote = decodeURI(request.headers.vote as string);
 
-    if (!uid || !glob || !vote) {
-      return Promise.reject('Invalid headers');
+    if (!uid || !id || !glob || !vote) {
+      return Promise.reject(
+        'Invalid headers: ' + JSON.stringify(request.headers)
+      );
     }
 
-    if (this.isMigrated) {
-      await this.model.db.saveVote(glob, uid, vote);
-    }
+    await this.model.db.saveVote(id, uid, vote);
 
     return new Promise<string>((resolve: Function, reject: Function) => {
       // Where is the clip vote going to be located?

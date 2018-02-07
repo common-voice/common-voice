@@ -125,11 +125,15 @@ export default class DB {
   async findClipsWithFewVotes(limit: number): Promise<DBClipWithVoters[]> {
     const [clips] = await this.mysql.exec(
       `
-      SELECT clips.*, group_concat(votes.client_id) AS voters
+      SELECT clips.*,
+        GROUP_CONCAT(votes.client_id) AS voters,
+        COALESCE(SUM(votes.is_valid), 0) AS upvotes_count,
+        COALESCE(0, SUM(NOT votes.is_valid)) AS downvotes_count
       FROM clips
-        LEFT JOIN votes ON clips.id = votes.clip_id
+      LEFT JOIN votes ON clips.id = votes.clip_id
       GROUP BY clips.id
-      ORDER BY COUNT(votes.id)
+      HAVING upvotes_count < 2 AND downvotes_count < 2 OR upvotes_count = downvotes_count
+      ORDER BY upvotes_count DESC, downvotes_count DESC
       LIMIT ?
     `,
       [limit]
@@ -140,22 +144,13 @@ export default class DB {
     return clips as DBClipWithVoters[];
   }
 
-  async saveVote(glob: string, client_id: string, vote: string) {
-    const [
-      [row],
-    ] = await this.mysql.exec('SELECT id FROM clips WHERE path = ? LIMIT 1', [
-      glob,
-    ]);
-    if (!row) {
-      console.error('No clip found for vote', { glob, client_id, vote });
-      return;
-    }
+  async saveVote(id: string, client_id: string, vote: string) {
     await this.mysql.exec(
       `
       INSERT INTO votes (clip_id, client_id, is_valid) VALUES (?, ?, ?)
       ON DUPLICATE KEY UPDATE is_valid = VALUES(is_valid)
     `,
-      [row.id, client_id, vote == 'true' ? 1 : 0]
+      [id, client_id, vote == 'true' ? 1 : 0]
     );
   }
 
@@ -185,11 +180,11 @@ export default class DB {
       `
         SELECT COUNT(*) AS count
         FROM (
-            SELECT clips.*
-            FROM clips
-            LEFT JOIN votes ON clips.id = votes.clip_id AND votes.is_valid
-            GROUP BY clips.id
-            HAVING COUNT(votes.id) >= 3
+         SELECT clips.*, SUM(votes.is_valid) AS upvotes_count, SUM(NOT votes.is_valid) AS downvotes_count
+         FROM clips
+         LEFT JOIN votes ON clips.id = votes.clip_id
+         GROUP BY clips.id
+         HAVING upvotes_count >= 2 AND upvotes_count > downvotes_count
         ) AS valid_clips
       `
     );

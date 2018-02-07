@@ -145,9 +145,6 @@ export default class AudioWeb {
   async stop(): Promise<AudioInfo | {}> {
     if (!this.microphone) return;
 
-    this.microphone.stop();
-    this.microphone = null;
-
     return new Promise(resolve => {
       this.onResult = (blob: any) =>
         resolve({
@@ -159,5 +156,12 @@ export default class AudioWeb {
       this.processor.onaudioprocess = null;
       this.jsNode.onaudioprocess = null;
     });
+  }
+
+  release() {
+    for (const track of this.microphone.getTracks()) {
+      track.stop();
+    }
+    this.microphone = null;
   }
 }

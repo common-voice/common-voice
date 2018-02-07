@@ -37,11 +37,6 @@ export default class Server {
     if (this.config.PROD) {
       this.logger.overrideConsole();
     }
-    this.isMigrated = false;
-  }
-
-  private set isMigrated(value: boolean) {
-    this.api.isMigrated = value;
   }
 
   /**
@@ -139,9 +134,6 @@ export default class Server {
   }
 
   private async loadCache(): Promise<void> {
-    // Don't load cache for leader, as we need plenty of memory for the migration
-    if (this.isLeader && !this.hasPerformedMaintenance) return;
-
     const start = Date.now();
     this.print('loading clip cache');
 
@@ -172,7 +164,6 @@ export default class Server {
 
     if (this.config.ENABLE_MIGRATIONS) {
       await migrate(this.model.db.mysql.conn);
-      this.isMigrated = true;
     }
   }
 
@@ -214,7 +205,7 @@ export default class Server {
     clearInterval(this.heartbeat);
     this.heartbeat = setInterval(() => {
       this.model.printMetrics();
-    }, 60000);
+    }, 30 * 60 * 1000); // 30 minutes
   }
 
   /**
@@ -233,16 +224,14 @@ export default class Server {
     // Figure out if this server is the leader.
     const isLeader = await this.checkLeader();
 
-    // Attemp to load cache (sentences and audio metadata).
-    // Note: we don't wait for this to finish before continuing.
     this.loadCache().catch(error => console.error(error));
 
     // Leader servers will perform database maintenance.
     if (isLeader) {
       await this.performMaintenance();
-      this.hasPerformedMaintenance = true;
-      await this.loadCache();
     }
+    this.hasPerformedMaintenance = true;
+    await this.loadCache();
 
     this.startHeartbeat();
   }

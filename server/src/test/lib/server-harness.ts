@@ -14,7 +14,13 @@ export default class ServerHarness {
   constructor(config?: CommonVoiceConfig) {
     this.config = config || getConfig();
     // Use a different database name then default for tests.
-    this.config.MYSQLDBNAME = DB_PREFIX + this.config.MYSQLDBNAME;
+    this.config.MYSQLDBNAME =
+      DB_PREFIX +
+      this.config.MYSQLDBNAME +
+      '_' +
+      Math.random()
+        .toString(36)
+        .substring(7);
     this.config.ENABLE_MIGRATIONS = false;
     this.server = new RealServer(this.config);
   }

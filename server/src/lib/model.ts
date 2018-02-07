@@ -1,7 +1,7 @@
 import DB from './model/db';
-import { default as Clips } from './model/clips';
 import { CommonVoiceConfig } from '../config-helper';
 import { DBClipWithVoters } from './model/db/tables/clip-table';
+import Cache from './cache';
 
 /**
  * The Model loads all clip and user data into memory for quick access.
@@ -9,12 +9,24 @@ import { DBClipWithVoters } from './model/db/tables/clip-table';
 export default class Model {
   config: CommonVoiceConfig;
   db: DB;
-  clips: Clips;
+  clipCache = new Cache(count => this.db.findClipsWithFewVotes(count));
 
   constructor(config: CommonVoiceConfig) {
     this.config = config;
     this.db = new DB(this.config);
-    this.clips = new Clips(this.db);
+  }
+
+  /**
+   * Fetch a random clip but make sure it's not the user's.
+   */
+  async getEllibleClip(client_id: string): Promise<DBClipWithVoters> {
+    const clips = await this.clipCache.getAll();
+    const i = clips.findIndex(
+      clip => clip.client_id !== client_id && !clip.voters.includes(client_id)
+    );
+    if (i == -1) return null;
+
+    return this.clipCache.take(i);
   }
 
   private print(...args: any[]) {
@@ -33,17 +45,13 @@ export default class Model {
 
     this.print(totalUserClients, ' total user clients');
     this.print((listeners / totalUserClients).toFixed(2), '% users who listen');
-    this.print((submitters / totalUserClients).toFixed(2), '% users who submit');
+    this.print(
+      (submitters / totalUserClients).toFixed(2),
+      '% users who submit'
+    );
     this.print(totalClips, ' total clips');
     this.print(votes, ' total votes');
     this.print(unverified, ' unverified clips');
-  }
-
-  /**
-   * Fetch a random clip but make sure it's not the user's.
-   */
-  getEllibleClip(client_id: string): Promise<DBClipWithVoters> {
-    return this.clips.getEllibleClip(client_id);
   }
 
   /**

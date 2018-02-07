@@ -35,12 +35,11 @@ export default class Robot extends React.Component<Props> {
 
     const [x1, y1, x2, y2] = this.remainingCode.shift();
 
-    console.log(x < x1, x > x2, y < y1, y > y2);
     if (x < x1 || x > x2 || y < y1 || y > y2) {
       this.remainingCode = touchCode.slice();
     }
     if (this.remainingCode.length == 0) {
-      location.href = 'https://voice.allizom.org/';
+      location.href = prompt('URL') || 'https://voice.allizom.org/';
     }
   };
 
