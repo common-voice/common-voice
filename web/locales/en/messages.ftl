@@ -39,3 +39,23 @@ status-loading = Loading...
 status-hours = { $hours } validated hours so far!
 status-goal = Next Goal: { $goal }
 status-more-soon = More languages coming soon!
+
+[[ProfileForm]]
+profile-form-email
+    .label = Email
+profile-form-username
+    .label = User Name
+profile-form-emails = Yes, send me emails. I'd like to stay informed about the Common Voice Project.
+profile-form-language
+    .label = Language
+profile-form-more-languages = More languages coming soon!
+profile-form-accent
+    .label = Accent
+profile-form-age
+    .label = Age
+profile-form-gender
+    .label = Gender
+
+[[Profile]]
+profile-why-title = Why a profile?
+profile-why-content = By providing some information about yourself, the audio data you submit to Common Voice will be more useful to Speech Recognition engines that use this data to improve their accuracy.

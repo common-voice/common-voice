@@ -1,6 +1,7 @@
 import * as React from 'react';
 import messages from '../../messages';
 import ProfileForm from '../profile-form/profile-form';
+const { Localized } = require('fluent-react');
 
 import { RouteComponentProps } from 'react-router';
 
@@ -11,8 +12,12 @@ export default (props: RouteComponentProps<any>) => (
     <br />
     <br />
 
-    <h1>{messages.WHY_PROFILE.TITLE}</h1>
+    <Localized id="profile-why-title">
+      <h1>{messages.WHY_PROFILE.TITLE}</h1>
+    </Localized>
     <br />
-    <p style={{ marginBottom: '3rem' }}>{messages.WHY_PROFILE.CONTENT}</p>
+    <Localized id="profile-why-content">
+      <p style={{ marginBottom: '3rem' }}></p>
+    </Localized>
   </div>
 );
