@@ -84,7 +84,8 @@ export default class AudioWeb {
   private async init() {
     if (this.microphone) return;
 
-    const audioContext = new AudioContext();
+    const audioContext = new (window.AudioContext ||
+      window.webkitAudioContext)();
 
     this.microphone = await this.getMicrophone();
     const sourceNode = audioContext.createMediaStreamSource(this.microphone);
