@@ -39,3 +39,13 @@ status-loading = Loading...
 status-hours = { $hours } validated hours so far!
 status-goal = Next Goal: { $goal }
 status-more-soon = More languages coming soon!
+
+[[Record Page]]
+record-platform-not-supported = We're sorry, but your platform is not currently supported.
+record-platform-not-supported-msg1 = On desktop computers, you can download the latest:
+record-platform-not-supported-msg2 = or
+record-platform-not-supported-ios-msg1 = iOS
+record-platform-not-supported-ios-msg2 = users can download our free app:
+record-must-allow-microphone = You must allow microphone access.
+record-submit-success = Submit success! Want to record again?
+record-help = Please tap to record, then read the above sentence aloud.
