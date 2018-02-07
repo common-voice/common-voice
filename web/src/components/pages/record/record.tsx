@@ -17,7 +17,7 @@ import Review from './review';
 
 const MIN_RECORDING_LENGTH = 300; // ms
 const MAX_RECORDING_LENGTH = 10000; // ms
-const MIN_VOLUME = 1;
+const MIN_VOLUME = 3;
 const ERR_SENTENCES_NOT_LOADED =
   'Sorry! Sentences are being loaded, please wait or try again shortly.';
 const RECORD_DEBOUNCE_MS = 300;
@@ -144,7 +144,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
     if (length > MAX_RECORDING_LENGTH) {
       return RecordingError.TOO_LONG;
     }
-    if (this.maxVolume < MIN_VOLUME) {
+    if (this.maxVolume > 0 && this.maxVolume < MIN_VOLUME) {
       return RecordingError.TOO_QUIET;
     }
     return null;
@@ -205,6 +205,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
       if (err === ERROR_MSG.ERR_NO_MIC) {
         this.setState({ showRetryModal: true });
       } else {
+        console.error(err);
         throw err;
       }
     }
