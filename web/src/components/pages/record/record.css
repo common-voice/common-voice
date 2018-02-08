@@ -54,6 +54,7 @@
 .text-box.left {
     transform: translateX(-100vw);
 }
+
 .text-box.right {
     transform: translateX(100vw);
 }
@@ -119,7 +120,9 @@
 }
 
 @keyframes throb {
-    50%{transform: scale(1.1);}
+    50% {
+        transform: scale(1.1);
+    }
 }
 
 #undo-clip {

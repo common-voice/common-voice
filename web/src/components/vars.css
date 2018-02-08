@@ -1,6 +1,6 @@
 :root {
-    --base-font-family: 'Open Sans',sans-serif;
-    --strong-font-family: ZillaSlab,Georgia,Utopia,Charter,serif;
+    --base-font-family: 'Open Sans', sans-serif;
+    --strong-font-family: ZillaSlab, Georgia, Utopia, Charter, serif;
     --base-font-size: 16px;
     --small-font-size: .8rem;
     --header-height: 4rem;
@@ -23,10 +23,10 @@
     --spinner-height: 10rem;
     --home-background-offset: 12.5rem;
     --easing: cubic-bezier(0.4, 0.0, 0.2, 1);
-    --shadow-overhang: 0 1px 0 rgba(12,13,14,0.1),
-    0 1px 3px rgba(12,13,14,0.1),
-    0 4px 20px rgba(12,13,14,0.035),
-    0 1px 1px rgba(12,13,14,0.025);
+    --shadow-overhang: 0 1px 0 rgba(12, 13, 14, 0.1),
+    0 1px 3px rgba(12, 13, 14, 0.1),
+    0 4px 20px rgba(12, 13, 14, 0.035),
+    0 1px 1px rgba(12, 13, 14, 0.025);
     --card-shadow: rgba(0, 0, 0, 0.09) 0px 1px 6px, rgba(0, 0, 0, 0.09) 0px 1px 4px;
 
     --base-background-color: white;
@@ -45,11 +45,10 @@
     --color-grey-background: #F9F9F9;
     --color-input-background: #F3F2F0;
 
-    --highlight-shadow-listen:
-            1px 1px 6px var(--color-listen),
-            2px 2px 6px var(--color-listen),
-            3px 3px 3px var(--color-listen),
-            4px 4px 2px var(--color-listen);
+    --highlight-shadow-listen: 1px 1px 6px var(--color-listen),
+    2px 2px 6px var(--color-listen),
+    3px 3px 3px var(--color-listen),
+    4px 4px 2px var(--color-listen);
 
     /* Z-indexing */
     --top-z-index: 2;
