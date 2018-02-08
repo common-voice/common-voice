@@ -25,7 +25,7 @@ export async function migrate(connection: IConnection) {
 
   try {
     await migrateSentences(connection, print);
-    
+
     const gen = fetchS3Data(print);
 
     const votesWithUnknownClips = [];

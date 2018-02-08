@@ -158,7 +158,10 @@ class DataPage extends React.Component<Props, State> {
                 No: this.hideModal,
               }}
               onRequestClose={this.hideModal}>
-              <Localized id="data-download-modal" $size={showModalFor.size} size={<b />}>
+              <Localized
+                id="data-download-modal"
+                $size={showModalFor.size}
+                size={<b />}>
                 <p />
               </Localized>
             </Modal>
@@ -225,15 +228,15 @@ class DataPage extends React.Component<Props, State> {
                     target="_blank"
                     rel="noopener noreferrer">
                     {dataset.translateName === true ? (
-                        <Localized id={"data-other-" + dataset.nick + "-name"}>
-                          <span />
-                        </Localized>
+                      <Localized id={'data-other-' + dataset.nick + '-name'}>
+                        <span />
+                      </Localized>
                     ) : (
-                        dataset.name
+                      dataset.name
                     )}
                   </a>
                 </h2>
-                <Localized id={"data-other-" + dataset.nick + "-description"}>
+                <Localized id={'data-other-' + dataset.nick + '-description'}>
                   <p />
                 </Localized>
               </div>
@@ -254,16 +257,14 @@ class DataPage extends React.Component<Props, State> {
 
                 <div className="action">
                   {dataset.download.length < 1 ? (
-                    <Localized
-                      id="data-other-goto"
-                      $name={dataset.name}>
+                    <Localized id="data-other-goto" $name={dataset.name}>
                       <Button
                         outline
                         className="card-action"
                         onClick={() => {
-                        window.open(dataset.url, '_blank');
-                        }}>
-                      </Button>
+                          window.open(dataset.url, '_blank');
+                        }}
+                      />
                     </Localized>
                   ) : (
                     <CardAction onClick={() => this.showModalFor(dataset)}>
