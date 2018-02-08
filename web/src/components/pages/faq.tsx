@@ -24,9 +24,11 @@ export default () => (
       <h3 />
     </Localized>
     <Localized
-        id="faq-get-a"
-        downloadLink={<a href="http://voice.mozilla.org/data" />}
-        licenseLink={<a href="https://creativecommons.org/publicdomain/zero/1.0/" />}>
+      id="faq-get-a"
+      downloadLink={<a href="http://voice.mozilla.org/data" />}
+      licenseLink={
+        <a href="https://creativecommons.org/publicdomain/zero/1.0/" />
+      }>
       <p />
     </Localized>
 
@@ -71,7 +73,14 @@ export default () => (
     <Localized id="faq-source-a1" italic={<i />}>
       <p />
     </Localized>
-    <Localized id="faq-source-a2" dataLink={<a target="_blank" href="https://github.com/mozilla/voice-web/blob/master/server/data/" />}>
+    <Localized
+      id="faq-source-a2"
+      dataLink={
+        <a
+          target="_blank"
+          href="https://github.com/mozilla/voice-web/blob/master/server/data/"
+        />
+      }>
       <p />
     </Localized>
   </div>
