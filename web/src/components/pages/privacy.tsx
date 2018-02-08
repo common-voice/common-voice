@@ -7,7 +7,7 @@ export default () => (
       <Localized id="privacy-title">
         <h1 />
       </Localized>
-      <Localized id="privacy-effective">
+      <Localized id="privacy-effective" $date={new Date('June 19, 2017')}>
         <h2 />
       </Localized>
       <Localized

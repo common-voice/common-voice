@@ -66,7 +66,7 @@ notfound-content = I'm afraid I don't know what you're looking for.
 
 [[Privacy]]
 privacy-title = Common Voice Privacy Notice
-privacy-effective = Effective June 19, 2017
+privacy-effective = Effective { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
 privacy-policy = When Mozilla (that’s us), receives information from you, our <policy>Mozilla Privacy Policy</policy> describes how we handle that information.
 privacy-data-demographic = <name>Demographic data.</name> You can optionally send us information such as your accent, age, and gender. This helps us and other researchers improve and create speech-to-text technology and tools.
 privacy-data-account = <name>Account data.</name> You can optionally create an account, in which case we receive your email address. This is associated with your demographic and interaction data but is not shared to the public.
@@ -77,7 +77,7 @@ privacy-more = <more>Learn more</more>
 
 [[Terms]]
 terms-title = Common Voice Legal Terms
-terms-effective = Effective June 19, 2017
+terms-effective = Effective { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
 terms-eligibility-title = Eligibility
 terms-eligibility-content = You must be over the age of 13 or have your parent or guardian consent to and supervise your participation in our crowd-sourcing project.
 terms-privacy-title = Privacy
