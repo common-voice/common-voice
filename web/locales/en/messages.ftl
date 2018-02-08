@@ -8,8 +8,7 @@ privacy = Privacy
 terms = Terms
 cookies = Cookies
 faq = FAQ
-content-license = Creative Commons license
-content-license-text = Content available under a <licenseLink>{ content-license }</licenseLink>
+content-license-text = Content available under a <licenseLink>Creative Commons license</licenseLink>
 share-title = Help us find others to donate their voice!
 
 [[Home Page]]
