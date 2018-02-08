@@ -43,7 +43,7 @@
     "fluent": "^0.4.2",
     "fluent-intl-polyfill": "^0.1.0",
     "fluent-langneg": "^0.1.0",
-    "fluent-react": "^0.4.1",
+    "fluent-react": "^0.6.0",
     "glob": "7.1.2 ",
     "jest": "^22.1.1",
     "js-md5": "^0.6.1",
@@ -92,6 +92,9 @@
     "eslint-loader": "^1.9.0",
     "nodemon": "^1.12.1",
     "react-dev-utils": "^4.2.1"
+  },
+  "resolutions": {
+    "fluent": "0.4.2"
   },
   "engines": {
     "node": ">=8.9.0"

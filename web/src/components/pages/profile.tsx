@@ -13,7 +13,7 @@ export default (props: RouteComponentProps<any>) => (
     <br />
 
     <Localized id="profile-why-title">
-      <h1>{messages.WHY_PROFILE.TITLE}</h1>
+      <h1 />
     </Localized>
     <br />
     <Localized id="profile-why-content">

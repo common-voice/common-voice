@@ -2510,14 +2510,14 @@ fluent-langneg@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/fluent-langneg/-/fluent-langneg-0.1.0.tgz#aa12054fbfa4b728daec38331efc12f01faae93a"
 
-fluent-react@^0.4.1:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/fluent-react/-/fluent-react-0.4.1.tgz#c21fcc6eb607584d39b910d1732b0801d0f4092c"
+fluent-react@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/fluent-react/-/fluent-react-0.6.0.tgz#36be91f689fa8add93ba5828ffbd84d059bc762f"
   dependencies:
-    fluent "^0.4.1"
-    prop-types "^15.5.0"
+    fluent "^0.4.0 || ^0.6.0"
+    prop-types "^15.6.0"
 
-fluent@^0.4.1, fluent@^0.4.2:
+fluent@0.4.2, "fluent@^0.4.0 || ^0.6.0", fluent@^0.4.2:
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/fluent/-/fluent-0.4.2.tgz#b781ad69cccbbb0e159de64674e8fc37ca656680"
 
@@ -5604,7 +5604,7 @@ prompt@^1.0.0:
     utile "0.3.x"
     winston "2.1.x"
 
-prop-types@^15.5.0, prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.6.0:
+prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.6.0:
   version "15.6.0"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.0.tgz#ceaf083022fc46b4a35f69e13ef75aed0d639856"
   dependencies:
