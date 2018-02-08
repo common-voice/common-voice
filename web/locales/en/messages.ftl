@@ -56,6 +56,28 @@ profile-form-age
 profile-form-gender
     .label = Gender
 
+[[FAQ]]
+faq-title = Frequently Asked Questions
+faq-what-q = What is Common Voice?
+faq-what-a = Voice recognition technology could revolutionize the way we interact with machines, but the currently available systems are expensive and proprietary. Common Voice is a project to make voice recognition technology easily accessible to everyone. People donate their voices to a massive database that will let anyone quickly and easily train voice-enabled apps. All voice data will be available to developers.
+faq-important-q = Why is it important?
+faq-important-a = Voice is natural, voice is human. It’s the easiest and most natural way to communicate. We want developers to be able to build amazing things from real-time translators to voice-enabled administrative assistants. But right now there isn't enough publicly available data to build these kinds of apps. We hope that Common Voice will give developers what they need to innovate.
+faq-get-q = How can I get the Common Voice data?
+faq-get-a =  The dataset is available now on our <downloadLink>download page</downloadLink> under the <licenseLink>CC-0</licenseLink> license.
+faq-mission-q = Why is Common Voice part of the Mozilla mission?
+faq-mission-a = Mozilla is dedicated to keeping the web open and accessible for everyone. To do it we need to empower web creators through projects like Common Voice. As voice technologies proliferate beyond niche applications, we believe they must serve all users equally well. We see a need to include more languages, accents and demographics when building and testing voice technologies. Mozilla wants to see a healthy, vibrant internet. That means giving new creators access to voice data so they can build new, extraordinary projects. Common Voice will be a public resource that will help Mozilla teams and developers around the world.
+faq-native-q = I am a non-native English speaker and I speak with an accent, do you still want my voice?
+faq-native-a = Yes, we definitely want your voice! Part of the aim of Common Voice is to gather as many different accents as possible, so that computers can better understand <bold>everyone</bold> when they speak.
+faq-firefox-q = Will speech-to-text, via Common Voice, ever become part of Firefox?
+faq-firefox-a = Common Voice has unlimited potential and we are indeed exploring speech interfaces in many Mozilla products, including Firefox.
+faq-quality-q = What is the level of quality needed for the audio in order to be used?
+faq-quality-a = We want the audio quality to reflect the audio quality a speech-to-text engine will see in the wild. Thus, we want variety. This teaches the speech-to-text engine to handle various situations—background talking, car noise, fan noise—without errors.
+faq-hours-q = Why is 10,000 hours the goal for capturing audio?
+faq-hours-a = This is approximately the number of hours required to train a production STT system.
+faq-source-q = Where does the source text come from?
+faq-source-a1 = The current sentences come from contributor donations, as well as dialogue from public domain movie scripts like <italic>It's a Wonderful Life.</italic>
+faq-source-a2 = You can view our source sentences in <dataLink>this GitHub folder</dataLink>.
+
 [[Profile]]
 profile-why-title = Why a profile?
 profile-why-content = By providing some information about yourself, the audio data you submit to Common Voice will be more useful to Speech Recognition engines that use this data to improve their accuracy.

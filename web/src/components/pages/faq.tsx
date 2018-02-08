@@ -1,93 +1,78 @@
 import * as React from 'react';
+const { Localized } = require('fluent-react');
 
 export default () => (
   <div id="faq-container">
-    <h1>Frequently Asked Questions</h1>
-    <h3>What is Common Voice?</h3>
-    <p>
-      Voice recognition technology could revolutionize the way we interact with
-      machines, but the currently available systems are expensive and
-      proprietary. Common Voice is a project to make voice recognition
-      technology easily accessible to everyone. People donate their voices to a
-      massive database that will let anyone quickly and easily train
-      voice-enabled apps. All voice data will be available to developers.
-    </p>
+    <Localized id="faq-title">
+      <h1 />
+    </Localized>
+    <Localized id="faq-what-q">
+      <h3 />
+    </Localized>
+    <Localized id="faq-what-a">
+      <p />
+    </Localized>
 
-    <h3>Why is it important?</h3>
-    <p>
-      Voice is natural, voice is human. It’s the easiest and most natural way to
-      communicate. We want developers to be able to build amazing things from
-      real-time translators to voice-enabled administrative assistants. But
-      right now there isn't enough publicly available data to build these kinds
-      of apps. We hope that Common Voice will give developers what they need to
-      innovate.
-    </p>
+    <Localized id="faq-important-q">
+      <h3 />
+    </Localized>
+    <Localized id="faq-important-a">
+      <p />
+    </Localized>
 
-    <h3>How can I get the Common Voice data?</h3>
-    <p>
-      The dataset is available now on our{' '}
-      <a href="http://voice.mozilla.org/data">download page</a> under the{' '}
-      <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC-0</a>{' '}
-      license.
-    </p>
+    <Localized id="faq-get-q">
+      <h3 />
+    </Localized>
+    <Localized
+        id="faq-get-a"
+        downloadLink={<a href="http://voice.mozilla.org/data" />}
+        licenseLink={<a href="https://creativecommons.org/publicdomain/zero/1.0/" />}>
+      <p />
+    </Localized>
 
-    <h3>Why is Common Voice part of the Mozilla mission?</h3>
-    <p>
-      Mozilla is dedicated to keeping the web open and accessible for everyone.
-      To do it we need to empower web creators through projects like Common
-      Voice. As voice technologies proliferate beyond niche applications, we
-      believe they must serve all users equally well. We see a need to include
-      more languages, accents and demographics when building and testing voice
-      technologies. Mozilla wants to see a healthy, vibrant internet. That means
-      giving new creators access to voice data so they can build new,
-      extraordinary projects. Common Voice will be a public resource that will
-      help Mozilla teams and developers around the world.{' '}
-    </p>
+    <Localized id="faq-mission-q">
+      <h3 />
+    </Localized>
+    <Localized id="faq-mission-a">
+      <p />
+    </Localized>
 
-    <h3>
-      I am a non-native English speaker and I speak with an accent, do you still
-      want my voice?
-    </h3>
-    <p>
-      Yes, we definitely want your voice! Part of the aim of Common Voice is to
-      gather as many different accents as possible, so that computers can better
-      understand <b>everyone</b> when they speak.
-    </p>
+    <Localized id="faq-native-q">
+      <h3 />
+    </Localized>
+    <Localized id="faq-native-a" bold={<b />}>
+      <p />
+    </Localized>
 
-    <h3>Will speech-to-text, via Common Voice, ever become part of Firefox?</h3>
-    <p>
-      Common Voice has unlimited potential and we are indeed exploring speech
-      interfaces in many Mozilla products, including Firefox.
-    </p>
+    <Localized id="faq-firefox-q">
+      <h3 />
+    </Localized>
+    <Localized id="faq-firefox-a">
+      <p />
+    </Localized>
 
-    <h3>
-      What is the level of quality needed for the audio in order to be used?
-    </h3>
-    <p>
-      We want the audio quality to reflect the audio quality a speech-to-text
-      engine will see in the wild. Thus, we want variety. This teaches the
-      speech-to-text engine to handle various situations—background talking, car
-      noise, fan noise—without errors.
-    </p>
+    <Localized id="faq-quality-q">
+      <h3 />
+    </Localized>
+    <Localized id="faq-quality-a">
+      <p />
+    </Localized>
 
-    <h3>Why is 10,000 hours the goal for capturing audio?</h3>
-    <p>
-      This is approximately the number of hours required to train a production
-      STT system.
-    </p>
+    <Localized id="faq-hours-q">
+      <h3 />
+    </Localized>
+    <Localized id="faq-hours-a">
+      <p />
+    </Localized>
 
-    <h3>Where does the source text come from?</h3>
-    <p>
-      The current sentences come from contributor donations, as well as dialogue
-      from public domain movie scripts like <i>It's a Wonderful Life.</i>
-    </p>
-    <p>
-      You can view our source sentences in{' '}
-      <a
-        target="_blank"
-        href="https://github.com/mozilla/voice-web/blob/master/server/data/">
-        this GitHub folder
-      </a>.
-    </p>
+    <Localized id="faq-source-q">
+      <h3 />
+    </Localized>
+    <Localized id="faq-source-a1" italic={<i />}>
+      <p />
+    </Localized>
+    <Localized id="faq-source-a2" dataLink={<a target="_blank" href="https://github.com/mozilla/voice-web/blob/master/server/data/" />}>
+      <p />
+    </Localized>
   </div>
 );
