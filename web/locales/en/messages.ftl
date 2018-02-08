@@ -9,7 +9,7 @@ terms = Terms
 cookies = Cookies
 faq = FAQ
 content-license = Creative Commons license
-content-license-text = Content available under a { $link }
+content-license-text = Content available under a <licenseLink>{ content-license }</licenseLink>
 share-title = Help us find others to donate their voice!
 
 [[Home Page]]
@@ -26,7 +26,7 @@ wall-of-text-more-mobile =
   recognition open to everyone.
 wall-of-text-more-desktop =
   Now you can donate your voice to help us build an open-source voice database that anyone can use
-  to make innovative apps for devices and the web.{ $lineBreak }
+  to make innovative apps for devices and the web.<lineBreak></lineBreak>
   Read a sentence to help machines learn how real people speak. Check the work of other
   contributors to improve the quality. It’s that simple!
 show-wall-of-text = Read More
