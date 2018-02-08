@@ -34,6 +34,7 @@ header {
         justify-content: space-between;
         pointer-events: none;
     }
+
     header > * {
         pointer-events: auto;
     }
@@ -72,11 +73,11 @@ footer a:hover, footer button:hover {
     height: 2.5rem;
 }
 
-
 @media (--mobile) {
     #help-links {
         height: 6rem;
     }
+
     #help-links .divider {
         display: none;
     }
@@ -306,6 +307,7 @@ footer a:hover, footer button:hover {
     #hamburger-menu {
         display: none;
     }
+
     #main-nav {
         display: flex;
         align-items: center;

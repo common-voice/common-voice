@@ -1,20 +1,20 @@
 .alert {
-  color: #fff;
-  padding: 8px;
-  font-size: var(--small-font-size);
+    color: #fff;
+    padding: 8px;
+    font-size: var(--small-font-size);
 }
 
 .alert.success {
-  background-color: var(--color-listen);
+    background-color: var(--color-listen);
 }
 
 .alert.error {
-  background-color: #FF4E5E;
+    background-color: #FF4E5E;
 }
 
 .alert > .icon {
-  font-size: 0.3rem;
-  margin: 5px;
-  float: right;
-  cursor: pointer;
+    font-size: 0.3rem;
+    margin: 5px;
+    float: right;
+    cursor: pointer;
 }
