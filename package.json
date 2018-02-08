@@ -93,6 +93,9 @@
     "nodemon": "^1.12.1",
     "react-dev-utils": "^4.2.1"
   },
+  "resolutions": {
+    "fluent": "0.4.2"
+  },
   "engines": {
     "node": ">=8.9.0"
   },
