@@ -1,8 +1,9 @@
 import * as express from 'express'
+import * as types from '@types/express'
 
-const Router = express.Router()
+const Router:types.Router = express.Router()
 
-Router.get('/', (req, res) => {
+Router.get('/', (req:types.Request, res:types.Response) => {
   res.json({
     status: 'working',
     timestamp: +new Date()
