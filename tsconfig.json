@@ -3,7 +3,8 @@
   "compilerOptions": {
     "module": "commonjs",
     "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
+    "allowSyntheticDefaultImports": false,
+    "noImplicitAny": false,
     "jsx": "react",
     "target": "es2015",
     "sourceMap": true,

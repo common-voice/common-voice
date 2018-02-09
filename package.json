@@ -109,10 +109,10 @@
     "prettier": "yarn lint --fix",
     "start": "node scripts/dev-server.js",
     "start:prod": "node server/js/server.js",
-    "test": "jest && yarn build && bundlesize -f \"web/dist/*.js\" -s 100kb"
+    "test": "jest && yarn build && bundlesize -f \"web/dist/*.js\" -s 100kb",
 
-    "clean": "rm -rf express_server/dist && mkdir -p express_server/dist",
-    "build": "tsc",
-    "start": "node express_server/dist/server.js"
+    "clean-express": "rm -rf express_server/dist && mkdir -p express_server/dist",
+    "build-express": "tsc",
+    "start-express": "node express_server/dist/server.js"
   }
 }
