@@ -128,7 +128,7 @@ export default class DB {
       SELECT clips.*,
         GROUP_CONCAT(votes.client_id) AS voters,
         COALESCE(SUM(votes.is_valid), 0) AS upvotes_count,
-        COALESCE(0, SUM(NOT votes.is_valid)) AS downvotes_count
+        COALESCE(SUM(NOT votes.is_valid), 0) AS downvotes_count
       FROM clips
       LEFT JOIN votes ON clips.id = votes.clip_id
       GROUP BY clips.id
