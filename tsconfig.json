@@ -1,15 +1,25 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "target": "es5",
     "module": "commonjs",
-    "noImplicitAny": true,
-    "noEmitOnError": true,
-    "sourceMap": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": false,
+    "noImplicitAny": false,
     "jsx": "react",
-    "lib": ["es2017", "dom", "esnext.asynciterable"]
+    "target": "es2015",
+    "sourceMap": true,
+    "sourceRoot": "express_server/src",
+    "outDir": "express_server/dist"
   },
   "include": [
-    "**/*.d.ts"
+    "express_server/src"
+  ],
+  "exclude": [
+    "express_server/dist",
+    "node_modules"
   ]
 }
+
+
+
+
