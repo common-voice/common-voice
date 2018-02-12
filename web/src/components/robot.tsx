@@ -24,14 +24,12 @@ export default class Robot extends React.Component<Props> {
   private remainingCode = touchCode.slice();
   private secretDoorToStaging = ({
     currentTarget,
-    targetTouches,
-  }: React.TouchEvent<HTMLImageElement>) => {
-    const touch = targetTouches[0];
-    if (!touch) return;
-
-    const rect = currentTarget.getBoundingClientRect();
-    const x = 100 * (touch.clientX - rect.left) / rect.width;
-    const y = 100 * (touch.clientY - rect.top) / rect.height;
+    clientX,
+    clientY,
+  }: React.MouseEvent<HTMLImageElement>) => {
+    const { height, left, top, width } = currentTarget.getBoundingClientRect();
+    const x = 100 * (clientX - left) / width;
+    const y = 100 * (clientY - top) / height;
 
     const [x1, y1, x2, y2] = this.remainingCode.shift();
 
@@ -49,7 +47,7 @@ export default class Robot extends React.Component<Props> {
       <img
         className={'robot ' + position}
         src={MODES[position] || MODE_GREETINGS}
-        onTouchStart={this.secretDoorToStaging}
+        onClick={this.secretDoorToStaging}
       />
     );
   }
