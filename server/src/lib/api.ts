@@ -1,4 +1,3 @@
-import * as http from 'http';
 import * as bodyParser from 'body-parser';
 import { Request, Response, Router } from 'express';
 import { CommonVoiceConfig } from '../config-helper';

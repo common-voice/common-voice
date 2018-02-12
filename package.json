@@ -75,7 +75,6 @@
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0",
     "reselect": "^3.0.1",
-    "simple-git": "^1.72.0",
     "stream-transcoder": "0.0.5",
     "style-loader": "^0.19.0",
     "ts-jest": "^22.0.1",
