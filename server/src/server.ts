@@ -58,6 +58,7 @@ export default class Server {
     };
     app.use(express.static(__dirname + CLIENT_PATH, staticOptions));
     app.use(
+      '*',
       express.static(__dirname + CLIENT_PATH + '/index.html', staticOptions)
     );
   }
