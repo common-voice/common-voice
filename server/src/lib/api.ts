@@ -53,9 +53,7 @@ export default class API {
 
     router.post('/user', bodyParser.json(), this.handleUserSync.bind(this));
 
-    router.get('/sentence/:count', async (request, response) => {
-      await this.returnRandomSentence(response, request.params.count);
-    });
+    router.get('/sentence/:count', this.handleGetRandomSentences.bind(this));
 
     return router;
   }
@@ -107,8 +105,8 @@ export default class API {
   /**
    * Load sentence file (if necessary), pick random sentence.
    */
-  async returnRandomSentence(response: http.ServerResponse, count: number) {
-    count = count || 1;
+  async handleGetRandomSentences(request: Request, response: Response) {
+    const count = parseInt(request.params.count, 10) || 1;
     let randoms = this.corpus.getMultipleRandom(count);
 
     // Make sure we were able to feature the right amount of random sentences.
