@@ -122,7 +122,7 @@ data-download-license = License: <licenseLink>CC-0</licenseLink>
 data-download-modal = You are about to initiate a download of <size>{ $size }GB</size>, proceed?
 data-subtitle = We are building an open and publicly available dataset of voices that everyone can use to train speech-enabled applications.
 data-explanatory-text = We believe that large and publicly available voice datasets foster innovation and healthy commercial competition in machine-learning based speech technology. This is a global effort and we invite everyone to participate. Our aim is to help speech technology be more inclusive, reflecting the diversity of voices from around the world.
-data-get-started = <speech-blog-link>Get Started with Speech Recognition</speech-blog-link>
+data-get-started = <speechBlogLink>Get Started with Speech Recognition</speechBlogLink>
 data-other-title = Other voice datasets…
 data-other-goto = Go to { $name }
 data-other-download = Download Data
@@ -137,10 +137,20 @@ license = License: <licenseLink>{ $license }</licenseLink>
 
 [[Record Page]]
 record-platform-not-supported = We're sorry, but your platform is not currently supported.
-record-platform-not-supported-msg1 = On desktop computers, you can download the latest:
-record-platform-not-supported-msg2 = or
-record-platform-not-supported-ios-msg1 = iOS
-record-platform-not-supported-ios-msg2 = users can download our free app:
+record-platform-not-supported-desktop = On desktop computers, you can download the latest:
+record-platform-not-supported-ios = <bold>iOS</bold> users can download our free app:
 record-must-allow-microphone = You must allow microphone access.
+record-error-too-short = The recording was too short.
+record-error-too-long = The recording was too long.
+record-error-too-quiet = The recording was too quiet.
 record-submit-success = Submit success! Want to record again?
 record-help = Please tap to record, then read the above sentence aloud.
+record-cancel = Cancel Re-recording
+
+review-terms = By using Common Voice, you agree to our <termsLink>Terms</termsLink> and <privacyLink>Privacy Notice</privacyLink>
+review-aborted = Upload aborted. Do you want to delete your recordings?
+review-submit-title = Review & Submit
+review-submit-msg = Thank you for recording!<lineBreak></lineBreak>Now review and submit your clips below.
+review-recording = Review
+review-rerecord = Re-record
+review-cancel = Cancel Submission

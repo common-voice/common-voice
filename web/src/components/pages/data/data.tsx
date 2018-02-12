@@ -201,7 +201,7 @@ class DataPage extends React.Component<Props, State> {
 
         <Localized
           id="data-get-started"
-          speech-blog-link={
+          speechBlogLink={
             <a
               id="speech-blog-link"
               href="https://github.com/mozilla/DeepSpeech/blob/master/README.md#common-voice-training-data"

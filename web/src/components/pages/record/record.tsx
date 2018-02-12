@@ -1,6 +1,7 @@
 import debounce = require('lodash.debounce');
 import * as React from 'react';
 import { connect } from 'react-redux';
+const { Localized } = require('fluent-react');
 import ERROR_MSG from '../../../error-msg';
 import API from '../../../services/api';
 import { trackRecording } from '../../../services/tracker';
@@ -24,19 +25,24 @@ const RECORD_DEBOUNCE_MS = 300;
 
 const UnsupportedInfo = () => (
   <div className="unsupported">
-    <Localized id="record-platform-not-supported"><h2 /></Localized>
+    <Localized id="record-platform-not-supported">
+      <h2 />
+    </Localized>
     <p key="desktop">
-      <Localized id="record-platform-not-supported-msg1"><span /></Localized>
+      <Localized id="record-platform-not-supported-desktop">
+        <span />
+      </Localized>
       <a target="_blank" href="https://www.firefox.com/">
         <FontIcon type="firefox" />Firefox
       </a>{' '}
-      <Localized id="record-platform-not-supported-msg2"><span /></Localized>
       <a target="_blank" href="https://www.google.com/chrome">
         <FontIcon type="chrome" />Chrome
       </a>
     </p>
     <p key="ios">
-      <Localized id="record-platform-not-supported-ios-msg1"><b/></Localized> <Localized id="record-platform-not-supported-ios-msg2"><span /></Localized>
+      <Localized id="record-platform-not-supported-ios" bold={<b />}>
+        <span />
+      </Localized>
     </p>
     <a target="_blank" href={getItunesURL()}>
       <img src="/img/appstore.svg" />
@@ -77,7 +83,7 @@ interface RecordState {
   recordingStopTime: number;
   showSubmitSuccess: boolean;
   showRetryModal: boolean;
-  recordingError?: string;
+  recordingError?: RecordingError;
 }
 
 class RecordPage extends React.Component<RecordProps, RecordState> {
@@ -114,15 +120,9 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
     const { onRecordStop, recordingsCount, sentenceRecordings } = this.props;
     onRecordStop && onRecordStop();
 
-    const error = this.getRecordingError();
-    if (error) {
-      return this.setState({
-        recordingError: {
-          [RecordingError.TOO_SHORT]: 'The recording was too short.',
-          [RecordingError.TOO_LONG]: 'The recording was too long.',
-          [RecordingError.TOO_QUIET]: 'The recording was too quiet.',
-        }[error],
-      });
+    const recordingError = this.getRecordingError();
+    if (recordingError) {
+      return this.setState({ recordingError });
     }
 
     this.props.setRecording(
@@ -281,28 +281,41 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
     return (
       <div id="record-container">
         {showRetryModal && (
-            <Localized id="record-must-allow-microphone">
-                <Modal
-                  onRequestClose={this.closeRetryModal}
-                  buttons={{
-                    Cancel: this.closeRetryModal,
-                    Retry: () => window.location.reload(),
-                  }}> />
-            </Localized>
+          <Localized id="record-must-allow-microphone">
+            <Modal
+              onRequestClose={this.closeRetryModal}
+              buttons={{
+                Cancel: this.closeRetryModal,
+                Retry: () => window.location.reload(),
+              }}
+            />
+          </Localized>
         )}
         <div id="voice-record">
           {recordingError && (
             <div id="alert-container">
-              <Alert autoHide type="error" onClose={this.clearRecordingError}>
-                {recordingError}
-              </Alert>
+              <Localized
+                id={
+                  'record-error-' +
+                  {
+                    [RecordingError.TOO_SHORT]: 'too-short',
+                    [RecordingError.TOO_LONG]: 'too-long',
+                    [RecordingError.TOO_QUIET]: 'too-quiet',
+                  }[recordingError]
+                }>
+                <Alert
+                  autoHide
+                  type="error"
+                  onClose={this.clearRecordingError}
+                />
+              </Localized>
             </div>
           )}
           {!reRecordSentence &&
             showSubmitSuccess && (
               <div id="alert-container">
                 <Localized id="record-submit-success">
-                    <Alert autoHide onClose={this.closeSubmitSuccess} />
+                  <Alert autoHide onClose={this.closeSubmitSuccess} />
                 </Localized>
               </div>
             )}
@@ -330,12 +343,13 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
                   <RecordIcon />
                 </button>
                 {reRecordSentence && (
-                  <a
-                    href="javascript:void(0)"
-                    className="rerecord"
-                    onClick={this.cancelReRecord}>
-                    Cancel Re-recording
-                  </a>
+                  <Localized id="record-cancel">
+                    <a
+                      href="javascript:void(0)"
+                      className="rerecord"
+                      onClick={this.cancelReRecord}
+                    />
+                  </Localized>
                 )}
               </div>
             ) : (
@@ -347,7 +361,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
           </p>
           {areSentencesLoaded && (
             <Localized id="record-help">
-                <p id="record-help" />
+              <p id="record-help" />
             </Localized>
           )}
           <ProfileActions />
