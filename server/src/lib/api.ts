@@ -1,5 +1,5 @@
 import * as http from 'http';
-
+import { Router } from 'express';
 import { CommonVoiceConfig } from '../config-helper';
 import Model from './model';
 import Clip from './clip';
@@ -23,6 +23,27 @@ export default class API {
     this.corpus = new Corpus();
     this.metrics = new Prometheus(this.config);
     this.webhook = new WebHook();
+  }
+
+  getRouter() {
+    const router = Router();
+
+    router.use((request, response, next) => {
+      this.metrics.countRequest(request);
+      next();
+    });
+
+    router.get('/metrics', (request, response) => {
+      this.metrics.countPrometheusRequest(request);
+
+      const { registry } = this.metrics;
+      response
+        .type(registry.contentType)
+        .status(200)
+        .end(registry.metrics());
+    });
+
+    return router;
   }
 
   /**
@@ -54,11 +75,7 @@ export default class API {
    * Is this request directed at the api?
    */
   isApiRequest(request: http.IncomingMessage) {
-    return (
-      request.url.includes('/api/') ||
-      this.clip.isClipRequest(request) ||
-      this.metrics.isPrometheusRequest(request)
-    );
+    return request.url.includes('/api/') || this.clip.isClipRequest(request);
   }
 
   async handleUserSync(
@@ -83,19 +100,10 @@ export default class API {
     request: http.IncomingMessage,
     response: http.ServerResponse
   ) {
-    this.metrics.countRequest(request);
-
     // Handle all clip related requests first.
     if (this.clip.isClipRequest(request)) {
       this.metrics.countClipRequest(request);
       this.clip.handleRequest(request, response);
-      return;
-    }
-
-    // Check for Prometheus metrics request.
-    if (this.metrics.isPrometheusRequest(request)) {
-      this.metrics.countPrometheusRequest(request);
-      this.metrics.handleRequest(request, response);
       return;
     }
 

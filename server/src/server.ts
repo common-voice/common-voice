@@ -1,6 +1,6 @@
 import * as http from 'http';
 import * as path from 'path';
-
+import * as express from 'express';
 import Model from './lib/model';
 import API from './lib/api';
 import Logger from './lib/logger';
@@ -16,6 +16,7 @@ const CSP_HEADER = `default-src 'none'; style-src 'self' 'unsafe-inline' https:/
 
 export default class Server {
   config: CommonVoiceConfig;
+  app = express();
   server: http.Server;
   model: Model;
   api: API;
@@ -37,6 +38,8 @@ export default class Server {
     if (this.config.PROD) {
       this.logger.overrideConsole();
     }
+
+    this.app.use('/api', this.api.getRouter());
   }
 
   /**
@@ -185,9 +188,9 @@ export default class Server {
   listen(): void {
     // Begin handling requests before clip list is loaded.
     let port = this.config.SERVER_PORT;
-    this.server = http.createServer(this.handleRequest.bind(this));
-    this.server.listen(port);
-    this.print(`listening at http://localhost:${port}`);
+    this.server = this.app.listen(port, () =>
+      this.print(`listening at http://localhost:${port}`)
+    );
   }
 
   /**
