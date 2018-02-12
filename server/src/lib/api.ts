@@ -1,5 +1,6 @@
 import * as http from 'http';
-import { Router } from 'express';
+import * as bodyParser from 'body-parser';
+import { Request, Response, Router } from 'express';
 import { CommonVoiceConfig } from '../config-helper';
 import Model from './model';
 import Clip from './clip';
@@ -43,24 +44,16 @@ export default class API {
         .end(registry.metrics());
     });
 
-    return router;
-  }
+    router.use('/upload', () => {});
 
-  /**
-   * Get the body of the request.
-   */
-  private getRequestBody(request: http.IncomingMessage): Promise<string> {
-    request.setEncoding('utf8');
-    return new Promise((res, rej) => {
-      let body = '';
-      request.on('error', rej);
-      request.on('data', (chunk: Buffer) => {
-        body += chunk.toString();
-      });
-      request.on('end', () => {
-        res(body);
-      });
+    router.use((request, response, next) => {
+      this.metrics.countApiRequest(request);
+      next();
     });
+
+    router.post('/user', bodyParser.json(), this.handleUserSync.bind(this));
+
+    return router;
   }
 
   /**
@@ -71,21 +64,11 @@ export default class API {
     this.corpus.displayMetrics();
   }
 
-  /**
-   * Is this request directed at the api?
-   */
-  isApiRequest(request: http.IncomingMessage) {
-    return request.url.includes('/api/') || this.clip.isClipRequest(request);
-  }
-
-  async handleUserSync(
-    request: http.IncomingMessage,
-    response: http.ServerResponse
-  ) {
+  async handleUserSync(request: Request, response: Response) {
     try {
       const uid = request.headers.uid as string;
-      const body = await this.getRequestBody(request);
-      await this.model.syncUser(uid, JSON.parse(body));
+      const body = await request.body;
+      await this.model.syncUser(uid, body);
       respond(response, 'user synced');
     } catch (err) {
       console.error('could not sync user', err);
@@ -107,12 +90,7 @@ export default class API {
       return;
     }
 
-    // If we get here, we are at an API request.
-    this.metrics.countApiRequest(request);
-
-    if (request.url.includes('/user')) {
-      this.handleUserSync(request, response);
-    } else if (request.url.includes('/sentence')) {
+    if (request.url.includes('/sentence')) {
       let parts = request.url.split('/');
       let index = parts.indexOf('sentence');
       let count = parts[index + 1] && parseInt(parts[index + 1], 10);

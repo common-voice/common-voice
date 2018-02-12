@@ -203,6 +203,7 @@ export default class API {
     return this.createPostRequest(
       API.USER_URL,
       {
+        'Content-Type': 'application/json',
         uid: userId,
       },
       req => {
