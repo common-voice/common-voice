@@ -52,8 +52,8 @@ export default class Server {
     );
 
     const staticOptions = {
-      setHeaders(response: express.Response) {
-        response.set('Content-Security-Policy', CSP_HEADER);
+      setHeaders: (response: express.Response) => {
+        this.config.PROD && response.set('Content-Security-Policy', CSP_HEADER);
       },
     };
     app.use(express.static(__dirname + CLIENT_PATH, staticOptions));
