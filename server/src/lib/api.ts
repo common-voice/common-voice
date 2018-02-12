@@ -6,7 +6,6 @@ import Model from './model';
 import Clip from './clip';
 import Corpus from './corpus';
 import Prometheus from './prometheus';
-import WebHook from './webhook';
 import respond from './responder';
 
 export default class API {
@@ -15,7 +14,6 @@ export default class API {
   clip: Clip;
   corpus: Corpus;
   metrics: Prometheus;
-  webhook: WebHook;
 
   constructor(config: CommonVoiceConfig, model: Model) {
     this.config = config;
@@ -23,7 +21,6 @@ export default class API {
     this.clip = new Clip(this.config, this.model);
     this.corpus = new Corpus();
     this.metrics = new Prometheus(this.config);
-    this.webhook = new WebHook();
   }
 
   getRouter() {
@@ -84,20 +81,6 @@ export default class API {
       respond(response, 'could not sync user', 500);
     }
   };
-
-  /**
-   * Give api response.
-   */
-  async handleRequest(
-    request: http.IncomingMessage,
-    response: http.ServerResponse
-  ) {
-    if (this.webhook.isHookRequest(request)) {
-      this.webhook.handleWebhookRequest(request, response);
-
-      // Unrecognized requests get here.
-    }
-  }
 
   /**
    * Load sentence file (if necessary), pick random sentence.
