@@ -53,6 +53,10 @@ export default class API {
 
     router.post('/user', bodyParser.json(), this.handleUserSync.bind(this));
 
+    router.get('/sentence/:count', async (request, response) => {
+      await this.returnRandomSentence(response, request.params.count);
+    });
+
     return router;
   }
 
@@ -90,13 +94,7 @@ export default class API {
       return;
     }
 
-    if (request.url.includes('/sentence')) {
-      let parts = request.url.split('/');
-      let index = parts.indexOf('sentence');
-      let count = parts[index + 1] && parseInt(parts[index + 1], 10);
-      this.returnRandomSentence(response, count);
-      // Webhooks from github.
-    } else if (this.webhook.isHookRequest(request)) {
+    if (this.webhook.isHookRequest(request)) {
       this.webhook.handleWebhookRequest(request, response);
 
       // Unrecognized requests get here.
