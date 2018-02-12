@@ -6,7 +6,7 @@ import { PassThrough } from 'stream';
 import { S3 } from 'aws-sdk';
 import * as ms from 'mediaserver';
 import * as mkdirp from 'mkdirp';
-
+import { Request, Response, Router } from 'express';
 import { CommonVoiceConfig } from '../config-helper';
 import { AWS } from './aws';
 import Model from './model';
@@ -43,6 +43,20 @@ export default class Clip {
     this.s3 = AWS.getS3();
     this.model = model;
     this.bucket = new Bucket(this.config, this.model, this.s3);
+  }
+
+  getRouter() {
+    const router = Router();
+
+    router.post('/vote', this.saveClipVote);
+    router.post('/demographic', this.saveClipDemographic);
+    router.post('*', this.saveClip);
+
+    router.get('/random.json', this.serveRandomClip);
+    router.get('/hours', this.serveValidatedHoursCount);
+    router.get('*', this.serve);
+
+    return router;
   }
 
   /**
@@ -91,63 +105,6 @@ export default class Clip {
     return folder + '/' + fileName;
   }
 
-  /**
-   * Is this request directed at voice clips?
-   */
-  isClipRequest(request: http.IncomingMessage) {
-    return request.url.includes('/upload/');
-  }
-
-  /**
-   * Is this a random clip for voice file urls?
-   */
-  isRandomClipJsonRequest(request: http.IncomingMessage): boolean {
-    return request.url.includes('/upload/random.json');
-  }
-
-  /**
-   * Is this request to vote on a voice clip?
-   */
-  isClipVoteRequest(request: http.IncomingMessage) {
-    return request.url.includes('/upload/vote');
-  }
-
-  /**
-   * Is this request to save demographic info?
-   */
-  isClipDemographic(request: http.IncomingMessage) {
-    return request.url.includes('/upload/demographic');
-  }
-
-  isValidatedHoursRequest(request: http.IncomingMessage) {
-    return request.url.includes('/upload/hours');
-  }
-
-  /**
-   * Distinguish between uploading and listening requests.
-   */
-  async handleRequest(
-    request: http.IncomingMessage,
-    response: http.ServerResponse
-  ): Promise<void> {
-    if (request.method === 'POST') {
-      if (this.isClipVoteRequest(request)) {
-        // Note: Check must occur first
-        this.saveClipVote(request, response);
-      } else if (this.isClipDemographic(request)) {
-        this.saveClipDemographic(request, response);
-      } else {
-        await this.saveClip(request, response);
-      }
-    } else if (this.isRandomClipJsonRequest(request)) {
-      await this.serveRandomClip(request, response);
-    } else if (this.isValidatedHoursRequest(request)) {
-      await this.serveValidatedHoursCount(request, response);
-    } else {
-      this.serve(request, response);
-    }
-  }
-
   async saveSentence(sentence: string) {
     await this.model.db.insertSentence(hash(sentence), sentence);
   }
@@ -155,21 +112,20 @@ export default class Clip {
   /**
    * Save clip vote posted to server
    */
-  saveClipVote(request: http.IncomingMessage, response: http.ServerResponse) {
-    this.saveVote(request)
-      .then(timestamp => {
-        respond(response, '' + timestamp);
-      })
-      .catch(e => {
-        console.error('saving clip vote error', e, e.stack);
-        respond(response, 'Error', 500);
-      });
-  }
+  saveClipVote = async (request: Request, response: Response) => {
+    try {
+      const timestamp = await this.saveVote(request);
+      respond(response, '' + timestamp);
+    } catch (e) {
+      console.error('saving clip vote error', e, e.stack);
+      respond(response, 'Error', 500);
+    }
+  };
 
   /**
    * Save the request clip vote in S3
    */
-  async saveVote(request: http.IncomingMessage): Promise<string> {
+  saveVote = async (request: Request): Promise<string> => {
     const glob = request.headers.glob as string;
     const id = request.headers.clip_id as string;
     const uid = request.headers.uid as string;
@@ -205,24 +161,17 @@ export default class Clip {
         }
       ).onError(reject);
     });
-  }
+  };
 
-  /**
-   * Save clip demographic posted to server
-   */
-  saveClipDemographic(
-    request: http.IncomingMessage,
-    response: http.ServerResponse
-  ) {
-    this.saveDemographic(request)
-      .then(timestamp => {
-        respond(response, '' + timestamp);
-      })
-      .catch(e => {
-        console.error('saving clip demographic error', e, e.stack);
-        respond(response, 'Error', 500);
-      });
-  }
+  saveClipDemographic = async (request: Request, response: Response) => {
+    try {
+      const timestamp = await this.saveDemographic(request);
+      respond(response, '' + timestamp);
+    } catch (e) {
+      console.error('saving clip demographic error', e, e.stack);
+      respond(response, 'Error', 500);
+    }
+  };
 
   /**
    * Save the request clip demographic in S3
@@ -261,7 +210,10 @@ export default class Clip {
   /**
    * Save clip posted to server
    */
-  async saveClip(request: http.IncomingMessage, response: http.ServerResponse) {
+  saveClip = async (
+    request: http.IncomingMessage,
+    response: http.ServerResponse
+  ) => {
     try {
       const timestamp = await this.save(request);
       respond(response, '' + timestamp);
@@ -269,7 +221,7 @@ export default class Clip {
       console.error('saving clip error', e, e.stack);
       respond(response, 'Error', 500);
     }
-  }
+  };
 
   /**
    * Save the request body as an audio file.
@@ -339,10 +291,10 @@ export default class Clip {
     return filePrefix;
   }
 
-  async serveRandomClip(
-    request: http.IncomingMessage,
-    response: http.ServerResponse
-  ): Promise<void> {
+  serveRandomClip = async (
+    request: Request,
+    response: Response
+  ): Promise<void> => {
     let uid = request.headers.uid as string;
     if (!uid) {
       respond(response, 'Invalid headers', 400);
@@ -356,12 +308,12 @@ export default class Clip {
       console.error('could not get random clip:', (err as Error).message);
       respond(response, 'Still loading', 500);
     }
-  }
+  };
 
   /*
    * Fetch an audio file.
    */
-  serve(request: http.IncomingMessage, response: http.ServerResponse) {
+  serve = (request: Request, response: Response) => {
     let prefix = this.getS3FilePath(request.url);
 
     let searchParam = { Bucket: this.config.BUCKET_NAME, Prefix: prefix };
@@ -391,14 +343,11 @@ export default class Clip {
       // Stream audio to client
       this.streamAudio(request, response, key);
     });
-  }
+  };
 
   private validatedHours: number;
   private lastValidatedHoursCheck: Date;
-  async serveValidatedHoursCount(
-    request: http.IncomingMessage,
-    response: http.ServerResponse
-  ) {
+  serveValidatedHoursCount = async (request: Request, response: Response) => {
     const yesterday = new Date();
     yesterday.setDate(yesterday.getDate() - 1);
     if (
@@ -411,5 +360,5 @@ export default class Clip {
       this.lastValidatedHoursCheck = new Date();
     }
     respond(response, this.validatedHours.toString());
-  }
+  };
 }

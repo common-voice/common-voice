@@ -44,16 +44,23 @@ export default class API {
         .end(registry.metrics());
     });
 
-    router.use('/upload', () => {});
+    router.use(
+      '/upload',
+      (request, response, next) => {
+        this.metrics.countClipRequest(request);
+        next();
+      },
+      this.clip.getRouter()
+    );
 
     router.use((request, response, next) => {
       this.metrics.countApiRequest(request);
       next();
     });
 
-    router.post('/user', bodyParser.json(), this.handleUserSync.bind(this));
+    router.post('/user', bodyParser.json(), this.handleUserSync);
 
-    router.get('/sentence/:count', this.handleGetRandomSentences.bind(this));
+    router.get('/sentence/:count', this.handleGetRandomSentences);
 
     return router;
   }
@@ -63,10 +70,10 @@ export default class API {
    */
   async loadCache(): Promise<void> {
     await this.corpus.loadCache();
-    this.corpus.displayMetrics();
+    await this.corpus.displayMetrics();
   }
 
-  async handleUserSync(request: Request, response: Response) {
+  handleUserSync = async (request: Request, response: Response) => {
     try {
       const uid = request.headers.uid as string;
       const body = await request.body;
@@ -76,7 +83,7 @@ export default class API {
       console.error('could not sync user', err);
       respond(response, 'could not sync user', 500);
     }
-  }
+  };
 
   /**
    * Give api response.
@@ -85,27 +92,17 @@ export default class API {
     request: http.IncomingMessage,
     response: http.ServerResponse
   ) {
-    // Handle all clip related requests first.
-    if (this.clip.isClipRequest(request)) {
-      this.metrics.countClipRequest(request);
-      this.clip.handleRequest(request, response);
-      return;
-    }
-
     if (this.webhook.isHookRequest(request)) {
       this.webhook.handleWebhookRequest(request, response);
 
       // Unrecognized requests get here.
-    } else {
-      console.error('unrecongized api url', request.url);
-      respond(response, "I'm not sure what you want.", 404);
     }
   }
 
   /**
    * Load sentence file (if necessary), pick random sentence.
    */
-  async handleGetRandomSentences(request: Request, response: Response) {
+  handleGetRandomSentences = async (request: Request, response: Response) => {
     const count = parseInt(request.params.count, 10) || 1;
     let randoms = this.corpus.getMultipleRandom(count);
 
@@ -115,5 +112,5 @@ export default class API {
       return;
     }
     respond(response, randoms.join('\n'));
-  }
+  };
 }
