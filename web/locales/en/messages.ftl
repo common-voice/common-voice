@@ -36,7 +36,11 @@ help-us-explain = Press play, listen & tell us: did they accurately speak the se
 status-title = Overall project status: see how far we’ve come!
 status-contribute = Contribute Your Voice
 status-loading = Loading…
-status-hours = { $hours } validated hours so far!
+status-hours =
+    { $hours ->
+        [one] One validated hours so far!
+       *[other] { $hours } validated hours so far!
+    }
 status-goal = Next Goal: { $goal }
 status-more-soon = More languages coming soon!
 
