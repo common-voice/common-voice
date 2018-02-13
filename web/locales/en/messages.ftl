@@ -38,7 +38,7 @@ status-contribute = Contribute Your Voice
 status-loading = Loading…
 status-hours =
     { $hours ->
-        [one] One validated hours so far!
+        [one] One validated hour so far!
        *[other] { $hours } validated hours so far!
     }
 # Variables:
