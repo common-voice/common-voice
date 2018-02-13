@@ -12,7 +12,7 @@ collectDefaultMetrics({ timeout: 5000 });
 
 export default class Prometheus {
   config: CommonVoiceConfig;
-  register: Registry;
+  registry: Registry;
   requests: Counter;
   clip_cnt: Counter;
   api_cnt: Counter;
@@ -20,7 +20,7 @@ export default class Prometheus {
 
   constructor(config: CommonVoiceConfig) {
     this.config = config;
-    this.register = register;
+    this.registry = register;
 
     // Do not run prometheus endpoints on non prod site.
     if (this.config.PROD) {
@@ -43,13 +43,6 @@ export default class Prometheus {
     }
   }
 
-  /**
-   * Is this request directed at the api?
-   */
-  isPrometheusRequest(request: http.IncomingMessage): boolean {
-    return request.url.includes('/metrics');
-  }
-
   countRequest(request: http.IncomingMessage) {
     this.requests && this.requests.inc();
   }
@@ -66,12 +59,4 @@ export default class Prometheus {
     this.prometheus_cnt && this.prometheus_cnt.inc();
   }
 
-  /**
-   * Give api response.
-   */
-  handleRequest(request: http.IncomingMessage, response: http.ServerResponse) {
-    response.setHeader('Content-Type', this.register.contentType);
-    response.writeHead(200);
-    response.end(this.register.metrics());
-  }
 }

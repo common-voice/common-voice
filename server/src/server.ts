@@ -1,33 +1,30 @@
 import * as http from 'http';
-import * as path from 'path';
-
+import * as express from 'express';
+import fetch from 'node-fetch';
 import Model from './lib/model';
 import API from './lib/api';
 import Logger from './lib/logger';
 import { isLeaderServer, getElapsedSeconds } from './lib/utility';
-import { Server as NodeStaticServer } from 'node-static';
 import { CommonVoiceConfig, getConfig } from './config-helper';
 import { migrate } from './lib/model/db/migrate-data/migrate';
 
-const SLOW_REQUEST_LIMIT = 2000;
-const CLIENT_PATH = '../web';
+const CLIENT_PATH = '../../web';
 
 const CSP_HEADER = `default-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' www.google-analytics.com; media-src data: blob: https://*.amazonaws.com https://*.amazon.com; script-src 'self' 'sha256-WpzorOw/T4TS/msLlrO6krn6LdCwAldXSATNewBTrNE=' https://www.google-analytics.com/analytics.js; font-src 'self' https://fonts.gstatic.com; connect-src 'self'`;
 
 export default class Server {
   config: CommonVoiceConfig;
+  app: express.Application;
   server: http.Server;
   model: Model;
   api: API;
   logger: Logger;
-  staticServer: any;
   isLeader: boolean;
   hasPerformedMaintenance = false;
   heartbeat: any;
 
   constructor(config?: CommonVoiceConfig) {
     this.config = config ? config : getConfig();
-    this.staticServer = this.getServer();
     this.model = new Model(this.config);
     this.api = new API(this.config, this.model);
     this.logger = new Logger(this.config);
@@ -37,20 +34,43 @@ export default class Server {
     if (this.config.PROD) {
       this.logger.overrideConsole();
     }
-  }
 
-  /**
-   * Create our http server object.
-   */
-  private getServer() {
-    return new NodeStaticServer(path.join(__dirname, CLIENT_PATH), {
-      cache: false,
-      headers: this.config.PROD
-        ? {
-            'Content-Security-Policy': CSP_HEADER,
-          }
-        : {},
+    const app = (this.app = express());
+
+    app.use(
+      '/api',
+      (request, response, next) => {
+        if (this.isLeader && !this.hasPerformedMaintenance) {
+          response
+            .status(307)
+            .location(request.url)
+            .end();
+          return;
+        }
+        next();
+      },
+      this.api.getRouter()
+    );
+
+    app.get('/github-compare', async (request, response) => {
+      const res = await fetch('https://voice.mozilla.org/');
+      response.redirect(
+        `https://github.com/mozilla/voice-web/compare/${
+          res.headers.get('x-nubis-version').split('_')[1]
+        }...master`
+      );
     });
+
+    const staticOptions = {
+      setHeaders: (response: express.Response) => {
+        this.config.PROD && response.set('Content-Security-Policy', CSP_HEADER);
+      },
+    };
+    app.use(express.static(__dirname + CLIENT_PATH, staticOptions));
+    app.use(
+      '*',
+      express.static(__dirname + CLIENT_PATH + '/index.html', staticOptions)
+    );
   }
 
   /**
@@ -59,56 +79,6 @@ export default class Server {
   private print(...args: any[]) {
     args.unshift('APPLICATION --');
     console.log.apply(console, args);
-  }
-
-  /**
-   * handleRequest
-   *   Route requests to appropriate controller based on
-   *   if the request deals with voice clips or web content.
-   */
-  private async handleRequest(
-    request: http.IncomingMessage,
-    response: http.ServerResponse
-  ) {
-    let startTime = Date.now();
-
-    if (this.api.isApiRequest(request)) {
-      if (this.isLeader && !this.hasPerformedMaintenance) {
-        response.writeHead(307, { Location: request.url });
-        response.end();
-        return;
-      }
-      this.api.handleRequest(request, response);
-      return;
-    }
-
-    // If we get here, feed request to static parser.
-    request
-      .addListener('end', () => {
-        this.staticServer.serve(request, response, (err: any) => {
-          if (err && err.status === 404) {
-            this.print('non-static resource request', request.url);
-
-            // If file was not front, use main page and
-            // let the front end handle url routing.
-            this.staticServer.serveFile(
-              'index.html',
-              200,
-              {},
-              request,
-              response
-            );
-            return;
-          }
-
-          // Log slow static requests
-          let elapsed = Date.now() - startTime;
-          if (elapsed > SLOW_REQUEST_LIMIT) {
-            this.print('slow static request', elapsed, request.url);
-          }
-        });
-      })
-      .resume();
   }
 
   /**
@@ -185,9 +155,9 @@ export default class Server {
   listen(): void {
     // Begin handling requests before clip list is loaded.
     let port = this.config.SERVER_PORT;
-    this.server = http.createServer(this.handleRequest.bind(this));
-    this.server.listen(port);
-    this.print(`listening at http://localhost:${port}`);
+    this.server = this.app.listen(port, () =>
+      this.print(`listening at http://localhost:${port}`)
+    );
   }
 
   /**

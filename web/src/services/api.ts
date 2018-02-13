@@ -25,9 +25,9 @@ interface FetchOptions {
 export default class API {
   private static DEFAULT_BASE: string = './api/';
   private static USER_URL: string = '/api/user/';
-  private static SOUNDCLIP_URL: string = '/upload/';
-  private static CLIP_VOTE_URL: string = '/upload/vote/';
-  private static DEMOGRAPHIC_URL: string = '/upload/demographic/';
+  private static SOUNDCLIP_URL: string = '/api/upload/';
+  private static CLIP_VOTE_URL: string = '/api/upload/vote/';
+  private static DEMOGRAPHIC_URL: string = '/api/upload/demographic/';
 
   private user: User.State;
 
@@ -102,7 +102,7 @@ export default class API {
    * Ask the server for a random clip.
    */
   async getRandomClip(): Promise<Clip> {
-    const { response } = await this.fetch('upload/random.json', {
+    const { response } = await this.fetch('api/upload/random.json', {
       responseType: 'json',
       headers: { uid: this.user.userId },
     });
@@ -203,6 +203,7 @@ export default class API {
     return this.createPostRequest(
       API.USER_URL,
       {
+        'Content-Type': 'application/json',
         uid: userId,
       },
       req => {
@@ -222,7 +223,7 @@ export default class API {
 
   async fetchValidatedHours(): Promise<number> {
     return parseInt(
-      (await this.fetch('upload/hours', {
+      (await this.fetch('/api/upload/hours', {
         responseType: 'text',
       })).responseText,
       10
