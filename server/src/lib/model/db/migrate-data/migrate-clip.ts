@@ -1,4 +1,3 @@
-import { IConnection } from 'mysql2Types';
 import { getConfig } from '../../../../config-helper';
 import { AWS } from '../../../aws';
 import { rateLimit } from './aws-rate-limit';
@@ -10,19 +9,15 @@ async function fetchSentenceFromS3(glob: string): Promise<string> {
     .promise()).Body.toString();
 }
 
-export async function migrateClip(
-  connection: IConnection,
-  clip: ClipData,
-  print: any
-) {
+export async function migrateClip(pool: any, clip: ClipData, print: any) {
   const insertClip = (sentenceText: string) =>
-    connection.execute(
+    pool.query(
       'INSERT INTO clips (client_id, original_sentence_id, path, sentence) VALUES (?, ?, ?, ?) ' +
         'ON DUPLICATE KEY UPDATE id = id',
       [clip.client_id, clip.original_sentence_id, clip.path, sentenceText]
     );
 
-  const [[sentence]] = (await connection.query(
+  const [[sentence]] = (await pool.query(
     'SELECT * FROM sentences WHERE id = ?',
     [clip.original_sentence_id]
   )) as any;
@@ -40,7 +35,7 @@ export async function migrateClip(
     );
 
     if (sentenceText) {
-      await connection.execute(
+      await pool.query(
         'INSERT INTO sentences (id, text) VALUES (?, ?) ON DUPLICATE KEY UPDATE id = id',
         [clip.original_sentence_id, sentenceText]
       );

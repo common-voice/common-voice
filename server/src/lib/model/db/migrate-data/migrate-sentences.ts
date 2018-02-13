@@ -1,7 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
 const utf8 = require('utf8');
-import { IConnection } from 'mysql2Types';
 import promisify from '../../../../promisify';
 import { getFileExt } from '../../../utility';
 import { hash } from '../../../clip';
@@ -96,15 +95,15 @@ const loadSentences = async (path: string): Promise<string[]> => {
   return allSentences;
 };
 
-export async function migrateSentences(connection: IConnection, print: any) {
-  await connection.execute(
+export async function migrateSentences(pool: any, print: any) {
+  await pool.query(
     'DELETE FROM sentences WHERE id NOT IN (SELECT original_sentence_id FROM clips)'
   );
-  await connection.execute('UPDATE sentences SET is_used = FALSE');
+  await pool.query('UPDATE sentences SET is_used = FALSE');
 
   for (const sentence of await loadSentences(SENTENCE_FOLDER)) {
     const encodedSentence = utf8.encode(sentence).trim();
-    await connection.execute(
+    await pool.query(
       'INSERT INTO sentences (id, text, is_used) VALUES (?, ?, TRUE) ON DUPLICATE KEY UPDATE is_used = TRUE',
       [hash(encodedSentence), encodedSentence]
     );
@@ -112,13 +111,13 @@ export async function migrateSentences(connection: IConnection, print: any) {
 
   for (const sentence of await loadSentences(UNUSED_FOLDER)) {
     const encodedSentence = utf8.encode(sentence).trim();
-    await connection.execute(
+    await pool.query(
       'INSERT INTO sentences (id, text, is_used) VALUES (?, ?, FALSE) ON DUPLICATE KEY UPDATE is_used = FALSE',
       [hash(encodedSentence), encodedSentence]
     );
   }
 
-  const [[{ count }]] = (await connection.query(
+  const [[{ count }]] = (await pool.query(
     'SELECT COUNT(*) AS count FROM sentences'
   )) as any;
 

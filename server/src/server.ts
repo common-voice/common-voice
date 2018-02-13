@@ -163,7 +163,7 @@ export default class Server {
     }
 
     if (this.config.ENABLE_MIGRATIONS) {
-      await migrate(this.model.db.mysql.conn);
+      await migrate(await this.model.db.mysql.createPool());
     }
   }
 

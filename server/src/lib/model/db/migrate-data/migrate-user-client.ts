@@ -1,13 +1,12 @@
-import { IConnection } from 'mysql2Types';
 import { UserClientData } from './fetch-s3-data';
 
 export async function migrateUserClient(
-  connection: IConnection,
+  pool: any,
   client_id: string,
   data?: UserClientData
 ) {
   await (data
-    ? connection.execute(
+    ? pool.query(
         `
         INSERT INTO user_clients (client_id, accent, age, gender) VALUES (?, ?, ?, ?)
         ON DUPLICATE KEY UPDATE
@@ -17,7 +16,7 @@ export async function migrateUserClient(
       `,
         [client_id, data.accent || '', data.age || '', data.gender || '']
       )
-    : connection.execute(
+    : pool.query(
         'INSERT INTO user_clients (client_id) VALUES (?) ON DUPLICATE KEY UPDATE client_id = client_id',
         [client_id]
       ));

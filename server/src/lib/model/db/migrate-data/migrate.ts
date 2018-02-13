@@ -1,4 +1,3 @@
-import { IConnection } from 'mysql2Types';
 import { fetchS3Data } from './fetch-s3-data';
 import { migrateClip } from './migrate-clip';
 import { migrateSentences } from './migrate-sentences';
@@ -20,11 +19,11 @@ function print(...args: any[]) {
  * the sentence is_used from S3, we have to migrate the sentences from S3 first, and then set the is_used flag based
  * on whether the sentence sits in the "not-used" dir or not.
  */
-export async function migrate(connection: IConnection) {
+export async function migrate(pool: any) {
   print('starting');
 
   try {
-    await migrateSentences(connection, print);
+    await migrateSentences(pool, print);
 
     const gen = fetchS3Data(print);
 
@@ -37,22 +36,22 @@ export async function migrate(connection: IConnection) {
       switch (type) {
         case 'clip':
           const clip = result.value;
-          await migrateUserClient(connection, clip.client_id);
-          await migrateClip(connection, clip, print);
+          await migrateUserClient(pool, clip.client_id);
+          await migrateClip(pool, clip, print);
           break;
 
         case 'vote':
           const vote = result.value;
-          await migrateUserClient(connection, vote.clip_client_id);
-          await migrateUserClient(connection, vote.voter_client_id);
-          if (!await migrateVote(connection, vote, print)) {
+          await migrateUserClient(pool, vote.clip_client_id);
+          await migrateUserClient(pool, vote.voter_client_id);
+          if (!await migrateVote(pool, vote, print)) {
             votesWithUnknownClips.push(vote);
           }
           break;
 
         case 'user_client':
           const userClient = result.value;
-          await migrateUserClient(connection, userClient.client_id, userClient);
+          await migrateUserClient(pool, userClient.client_id, userClient);
           break;
       }
 
@@ -61,7 +60,7 @@ export async function migrate(connection: IConnection) {
       }
     }
 
-    const [[row]] = await connection.execute(
+    const [[row]] = await pool.query(
       'SELECT ' +
         '(SELECT COUNT(*) FROM sentences) AS sentencesCount,' +
         '(SELECT COUNT(*) FROM user_clients) AS userClientsCount,' +

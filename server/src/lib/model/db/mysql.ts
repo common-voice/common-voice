@@ -68,6 +68,10 @@ export default class Mysql {
     return mysql2.createConnection(options);
   }
 
+  async createPool() {
+    return mysql2.createPool(this.options);
+  }
+
   async ensureConnection(root?: boolean): Promise<void> {
     // Check if we already have the connection we want.
     if ((root && this.rootConn) || (!root && this.conn)) {

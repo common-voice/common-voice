@@ -1,12 +1,7 @@
-import { IConnection } from 'mysql2Types';
 import { VoteData } from './fetch-s3-data';
 
-export async function migrateVote(
-  connection: IConnection,
-  vote: VoteData,
-  print: any
-) {
-  const [[clip]] = await connection.execute(
+export async function migrateVote(pool: any, vote: VoteData, print: any) {
+  const [[clip]] = await pool.query(
     'SELECT id FROM clips WHERE client_id = ? AND original_sentence_id = ?',
     [vote.clip_client_id, vote.clip_sentence_id]
   );
@@ -15,7 +10,7 @@ export async function migrateVote(
   }
 
   try {
-    await connection.execute(
+    await pool.query(
       `
         INSERT INTO votes (clip_id, client_id, is_valid) VALUES (?, ?, ?)
         ON DUPLICATE KEY UPDATE is_valid = VALUES(is_valid)
