@@ -1,4 +1,4 @@
-[[Layout]]
+## Layout
 speak = Speak
 datasets = Datasets
 profile = Profile
@@ -11,7 +11,7 @@ faq = FAQ
 content-license-text = Content available under a <licenseLink>Creative Commons license</licenseLink>
 share-title = Help us find others to donate their voice!
 
-[[Home Page]]
+## Home Page
 home-title =
   The Common Voice project is Mozilla's initiative to help teach machines how real people speak.
 home-cta = Speak up, contribute here!
@@ -31,7 +31,7 @@ wall-of-text-more-desktop =
 show-wall-of-text = Read More
 help-us-title = Help us validate sentences!
 help-us-explain = Press play, listen & tell us: did they accurately speak the sentence below?
-[[ProjectStatus]]
+## ProjectStatus
 status-title = Overall project status: see how far we've come!
 status-contribute = Contribute Your Voice
 status-loading = Loading...
@@ -39,7 +39,7 @@ status-hours = { $hours } validated hours so far!
 status-goal = Next Goal: { $goal }
 status-more-soon = More languages coming soon!
 
-[[ProfileForm]]
+## ProfileForm
 profile-form-email
     .label = Email
 profile-form-username
@@ -55,7 +55,7 @@ profile-form-age
 profile-form-gender
     .label = Gender
 
-[[FAQ]]
+## FAQ
 faq-title = Frequently Asked Questions
 faq-what-q = What is Common Voice?
 faq-what-a = Voice recognition technology could revolutionize the way we interact with machines, but the currently available systems are expensive and proprietary. Common Voice is a project to make voice recognition technology easily accessible to everyone. People donate their voices to a massive database that will let anyone quickly and easily train voice-enabled apps. All voice data will be available to developers.
@@ -77,15 +77,15 @@ faq-source-q = Where does the source text come from?
 faq-source-a1 = The current sentences come from contributor donations, as well as dialogue from public domain movie scripts like <italic>It's a Wonderful Life.</italic>
 faq-source-a2 = You can view our source sentences in <dataLink>this GitHub folder</dataLink>.
 
-[[Profile]]
+## Profile
 profile-why-title = Why a profile?
 profile-why-content = By providing some information about yourself, the audio data you submit to Common Voice will be more useful to Speech Recognition engines that use this data to improve their accuracy.
 
-[[NotFound]]
+## NotFound
 notfound-title = Not found
 notfound-content = I'm afraid I don't know what you're looking for.
 
-[[Privacy]]
+## Privacy
 privacy-title = Common Voice Privacy Notice
 privacy-effective = Effective { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
 privacy-policy = When Mozilla (that’s us), receives information from you, our <policy>Mozilla Privacy Policy</policy> describes how we handle that information.
@@ -96,7 +96,7 @@ privacy-data-interaction = <name>Interaction data.</name> We use Google Analytic
 privacy-data-technical = <name>Technical data.</name> Using Google Analytics, we collect the URL and title of the Common Voice pages you visit. We collect your browser, viewport size, and screen resolution. We also collect your location, and the language setting in your browser.
 privacy-more = <more>Learn more</more>
 
-[[Terms]]
+## Terms
 terms-title = Common Voice Legal Terms
 terms-effective = Effective { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
 terms-eligibility-title = Eligibility
@@ -116,7 +116,7 @@ terms-general-updates = Updates: Mozilla may update these Terms from time to tim
 terms-general-termination = Termination: We may suspend or terminate your access to the Services at any time for any reason, we will make reasonable efforts to notify you by the email address associated with your account or the next time you attempt to access the Services. Regardless of any termination, all recordings that you submit to Mozilla will continue to be publicly available.
 terms-general-law = Governing Law: These Legal Terms constitute the entire agreement between you and Mozilla concerning Common Voice and are governed by the laws of the state of California, U.S.A.
 
-[[Data]]
+## Data
 data-download-button = Download Common Voice Data
 data-download-license = License: <licenseLink>CC-0</licenseLink>
 data-download-modal = You are about to initiate a download of <size>{ $size }GB</size>, proceed?
@@ -135,7 +135,7 @@ data-bundle-button = Download Dataset Bundle
 data-bundle-description = Common Voice data plus all other voice datasets above.
 license = License: <licenseLink>{ $license }</licenseLink>
 
-[[Record Page]]
+## Record Page
 record-platform-not-supported = We're sorry, but your platform is not currently supported.
 record-platform-not-supported-desktop = On desktop computers, you can download the latest:
 record-platform-not-supported-ios = <bold>iOS</bold> users can download our free app:

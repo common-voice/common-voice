@@ -2517,9 +2517,9 @@ fluent-react@^0.6.0:
     fluent "^0.4.0 || ^0.6.0"
     prop-types "^15.6.0"
 
-fluent@0.4.2, "fluent@^0.4.0 || ^0.6.0", fluent@^0.4.2:
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/fluent/-/fluent-0.4.2.tgz#b781ad69cccbbb0e159de64674e8fc37ca656680"
+fluent@0.4.3, "fluent@^0.4.0 || ^0.6.0", fluent@^0.4.3:
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/fluent/-/fluent-0.4.3.tgz#a9c55994c96faecdbdd05698e07c8f2c06e72df2"
 
 flush-write-stream@^1.0.0:
   version "1.0.2"
