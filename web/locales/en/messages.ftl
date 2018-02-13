@@ -31,6 +31,7 @@ wall-of-text-more-desktop =
 show-wall-of-text = Read More
 help-us-title = Help us validate sentences!
 help-us-explain = Press play, listen & tell us: did they accurately speak the sentence below?
+
 ## ProjectStatus
 status-title = Overall project status: see how far we've come!
 status-contribute = Contribute Your Voice
@@ -40,19 +41,19 @@ status-goal = Next Goal: { $goal }
 status-more-soon = More languages coming soon!
 
 ## ProfileForm
-profile-form-email
+profile-form-email =
     .label = Email
-profile-form-username
+profile-form-username =
     .label = User Name
 profile-form-emails = Yes, send me emails. I'd like to stay informed about the Common Voice Project.
-profile-form-language
+profile-form-language =
     .label = Language
 profile-form-more-languages = More languages coming soon!
-profile-form-accent
+profile-form-accent =
     .label = Accent
-profile-form-age
+profile-form-age =
     .label = Age
-profile-form-gender
+profile-form-gender =
     .label = Gender
 
 ## FAQ
@@ -62,7 +63,7 @@ faq-what-a = Voice recognition technology could revolutionize the way we interac
 faq-important-q = Why is it important?
 faq-important-a = Voice is natural, voice is human. It’s the easiest and most natural way to communicate. We want developers to be able to build amazing things from real-time translators to voice-enabled administrative assistants. But right now there isn't enough publicly available data to build these kinds of apps. We hope that Common Voice will give developers what they need to innovate.
 faq-get-q = How can I get the Common Voice data?
-faq-get-a =  The dataset is available now on our <downloadLink>download page</downloadLink> under the <licenseLink>CC-0</licenseLink> license.
+faq-get-a = The dataset is available now on our <downloadLink>download page</downloadLink> under the <licenseLink>CC-0</licenseLink> license.
 faq-mission-q = Why is Common Voice part of the Mozilla mission?
 faq-mission-a = Mozilla is dedicated to keeping the web open and accessible for everyone. To do it we need to empower web creators through projects like Common Voice. As voice technologies proliferate beyond niche applications, we believe they must serve all users equally well. We see a need to include more languages, accents and demographics when building and testing voice technologies. Mozilla wants to see a healthy, vibrant internet. That means giving new creators access to voice data so they can build new, extraordinary projects. Common Voice will be a public resource that will help Mozilla teams and developers around the world.
 faq-native-q = I am a non-native English speaker and I speak with an accent, do you still want my voice?
