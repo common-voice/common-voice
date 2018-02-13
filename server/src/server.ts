@@ -1,5 +1,6 @@
 import * as http from 'http';
 import * as express from 'express';
+import fetch from 'node-fetch';
 import Model from './lib/model';
 import API from './lib/api';
 import Logger from './lib/logger';
@@ -50,6 +51,15 @@ export default class Server {
       },
       this.api.getRouter()
     );
+
+    app.get('/github-compare', async (request, response) => {
+      const res = await fetch('https://voice.mozilla.org/');
+      response.redirect(
+        `https://github.com/mozilla/voice-web/compare/${
+          res.headers.get('x-nubis-version').split('_')[1]
+        }...master`
+      );
+    });
 
     const staticOptions = {
       setHeaders: (response: express.Response) => {
