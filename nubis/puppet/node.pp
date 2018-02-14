@@ -4,6 +4,11 @@ class { 'nodejs':
   repo_url_suffix => '8.x',
 }
 
+package { 'forever':
+  ensure   => '0.15.3',
+  provider => 'npm',
+}
+
 # Needed for binary compilation (i.e. bcrypt)s
 package { 'node-gyp':
   ensure   => '3.6.2',
@@ -22,22 +27,22 @@ package { 'libpq-dev':
 
 # Install yarn
 exec { 'install yarn':
-  command   => 'npm install -g yarn',
+  command => 'npm install -g yarn',
   logoutput => true,
-  cwd       => "/var/www/${project_name}",
-  path      => [ '/bin', '/usr/bin', '/usr/local/bin' ],
-  require   => [
+  cwd     => "/var/www/${project_name}",
+  path    => [ '/bin', '/usr/bin', '/usr/local/bin' ],
+  require => [
     Class['Nodejs'],
   ],
 }
 
 # Install service dependencies
 exec { 'install deps':
-  command   => 'yarn',
+  command => 'yarn',
   logoutput => true,
-  cwd       => "/var/www/${project_name}",
-  path      => [ '/bin', '/usr/bin', '/usr/local/bin' ],
-  require   => [
+  cwd     => "/var/www/${project_name}",
+  path    => [ '/bin', '/usr/bin', '/usr/local/bin' ],
+  require => [
     Class['Nodejs'],
     Package['libmysqlclient-dev'],
     Exec['install yarn'],
@@ -46,45 +51,52 @@ exec { 'install deps':
 
 # Prepare Node for runtime, build assets and precompile
 exec { 'build':
-  command   => 'yarn build',
+  command => 'yarn build',
   logoutput => true,
-  cwd       => "/var/www/${project_name}",
-  path      => [ '/bin', '/usr/bin', '/usr/local/bin' ],
-  require   => [
+  cwd     => "/var/www/${project_name}",
+  path    => [ '/bin', '/usr/bin', '/usr/local/bin' ],
+  require => [
     Class['Nodejs'],
     Package['libmysqlclient-dev'],
     Exec['install deps'],
   ],
 }
 
-systemd::unit_file { "${project_name}.service":
-  content => @("EOT")
-[Unit]
-Description=Mozilla Common Voice
-Wants=basic.target
-After=basic.target network.target
+# Create the service with upstart
+include 'upstart'
 
-[Service]
-Restart=on-failure
-RestartSec=10s
-User=${project_name}-data
-Group=${project_name}-data
-WorkingDirectory=/var/www/${project_name}
+upstart::job { $project_name:
+    description    => 'Mozilla Common Voice',
 
-Environment=HOME=/var/www/${project_name}
+    # let confd start us up
+    service_ensure => 'stopped',
+    service_enable => false,
 
-ExecStart=/bin/bash -c '. /etc/profile.d/proxy.sh && /usr/bin/yarn start:prod'
+    # Never give up
+    respawn        => true,
+    respawn_limit  => 'unlimited',
+    start_on       => '(local-filesystems and net-device-up IFACE!=lo)',
+    chdir          => "/var/www/${project_name}",
+    env            => {
+      'HOME' => "/var/www/${project_name}",
+    },
+    user           => "${project_name}-data",
+    group          => "${project_name}-data",
+    script         => "
+  if [ -r /etc/profile.d/proxy.sh ]; then
+    echo 'Loading Proxy settings'
+    . /etc/profile.d/proxy.sh
+  fi
 
-[Install]
-WantedBy=multi-user.target
+  #voice-<env>/<env>/config/Environment
+  consulate kv set \"$(nubis-metadata NUBIS_PROJECT)-$(nubis-metadata NUBIS_ENVIRONMENT)/$(nubis-metadata NUBIS_ENVIRONMENT)/config/Environment\" \"$(nubis-metadata NUBIS_ENVIRONMENT)\"
 
-EOT
-} ~> service { $project_name:
-  ensure => 'stopped',
-  enable => true,
+  exec /usr/bin/forever --workingDir /var/www/${project_name} --minUptime 1000 --spinSleepTime 1000 -c \"/usr/bin/yarn start:prod\" /
+",
 }
 
-file { "/etc/nubis.d/${project_name}":
+
+file { "/etc/nubis.d/$project_name":
     ensure => file,
     owner  => root,
     group  => root,

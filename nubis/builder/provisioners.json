@@ -4,7 +4,7 @@
       "type": "shell",
       "inline": [
         "sudo mkdir -p -m 755 /var/www/{{user `project_name`}}",
-        "sudo chown {{user `ssh_username_ubuntu`}}:{{user `ssh_username_ubuntu`}} /var/www/{{user `project_name`}}"
+        "sudo chown ubuntu:ubuntu /var/www/{{user `project_name`}}"
       ],
       "order": "1"
     },
