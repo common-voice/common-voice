@@ -10,6 +10,7 @@ file { "/etc/td-agent/config.d/0-${project_name}-json.conf":
   @type parser
   key_name message
   reserve_data true
+  reserve_time true
   inject_key_prefix message.
   emit_invalid_record_to_error false
   <parse>
