@@ -58,15 +58,6 @@ export default class Server {
       this.api.getRouter()
     );
 
-    app.get('/github-compare', async (request, response) => {
-      const res = await fetch('https://voice.mozilla.org/');
-      response.redirect(
-        `https://github.com/mozilla/voice-web/compare/${
-          res.headers.get('x-nubis-version').split('_')[1]
-        }...master`
-      );
-    });
-
     const staticOptions = {
       setHeaders: (response: express.Response) => {
         this.config.PROD && response.set('Content-Security-Policy', CSP_HEADER);
