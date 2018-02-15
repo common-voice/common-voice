@@ -197,7 +197,7 @@ export default class Server {
    */
   async run(): Promise<void> {
     // Log the start.
-    this.print('starting with config ' + JSON.stringify(this.config));
+    this.print('starting');
 
     // Set up db connection.
     await this.ensureDatabase();
