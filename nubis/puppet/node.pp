@@ -73,7 +73,13 @@ WorkingDirectory=/var/www/${project_name}
 
 Environment=HOME=/var/www/${project_name}
 
-ExecStart=/bin/bash -c '. /etc/profile.d/proxy.sh && /usr/bin/yarn start:prod'
+# Ensure logfile has proper permissions
+PermissionsStartOnly=true
+
+ExecStartPre=/usr/bin/touch /var/log/voice.log
+ExecStartPre=/usr/bin/chown ${project_name}-data:${project_name}-data /var/log/voice.log
+
+ExecStart=/bin/bash -c '. /etc/profile.d/proxy.sh && /usr/bin/yarn start:prod | tee >(/usr/bin/rotatelogs -t /var/log/voice.log 86400)'
 
 [Install]
 WantedBy=multi-user.target
