@@ -37,7 +37,7 @@ export default class Bucket {
   /**
    * Grab metadata to play clip on the front end.
    */
-  async getRandomClipJson(uid: string): Promise<string> {
+  async getRandomClip(uid: string): Promise<any> {
     const clip = await this.model.getEllibleClip(uid);
     if (!clip) {
       throw new Error('Could not find any eligible clips for this user');
@@ -53,11 +53,11 @@ export default class Bucket {
       })
       .promise();
 
-    return JSON.stringify({
+    return {
       id: clip.id,
       glob: path.replace('.mp3', ''),
       text: clip.sentence,
       sound: this.getPublicUrl(path),
-    });
+    };
   }
 }

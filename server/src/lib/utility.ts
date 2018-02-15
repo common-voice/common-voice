@@ -78,3 +78,12 @@ export function isLeaderServer(
 export function sleep(ms: number): Promise<void> {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
+
+export class APIError extends Error {}
+export class ServerError extends APIError {}
+export class ClientError extends APIError {}
+export class ClientParameterError extends ClientError {
+  constructor() {
+    super('Invalid Parameters');
+  }
+}

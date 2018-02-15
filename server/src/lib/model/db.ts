@@ -144,13 +144,13 @@ export default class DB {
     return clips as DBClipWithVoters[];
   }
 
-  async saveVote(id: string, client_id: string, vote: string) {
+  async saveVote(id: string, client_id: string, is_valid: string) {
     await this.mysql.exec(
       `
       INSERT INTO votes (clip_id, client_id, is_valid) VALUES (?, ?, ?)
       ON DUPLICATE KEY UPDATE is_valid = VALUES(is_valid)
     `,
-      [id, client_id, vote == 'true' ? 1 : 0]
+      [id, client_id, is_valid ? 1 : 0]
     );
   }
 
@@ -208,5 +208,11 @@ export default class DB {
       await this.mysql.rootExec('TRUNCATE TABLE ' + tableName);
     }
     await this.mysql.rootExec('SET FOREIGN_KEY_CHECKS = 1');
+  }
+
+  async findClip(id: string) {
+    return (await this.mysql.exec('SELECT * FROM CLIPS WHERE id = ? LIMIT 1', [
+      id,
+    ]))[0][0];
   }
 }

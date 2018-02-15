@@ -33,7 +33,7 @@ afterAll(async () => {
     const sentence = 'Wubba lubba dub dub!';
     await serverHarness.server.api.clip.saveSentence(sentence);
     await fetch(
-      `http://localhost:${serverHarness.config.SERVER_PORT}/api/upload/`,
+      `http://localhost:${serverHarness.config.SERVER_PORT}/api/v1/clips`,
       {
         method: 'POST',
         headers: {

@@ -46,7 +46,7 @@ export namespace Validations {
 
       try {
         for (let i = 0; i < MIN_CACHE_SIZE * 2; i++) {
-          const clip = await api.getRandomClip();
+          const clip = (await api.fetchRandomClips())[0];
           dispatch({
             type: ActionType.REFILL_CACHE,
             validation: {
@@ -80,7 +80,7 @@ export namespace Validations {
     ) => {
       const { api, validations } = getState();
       const { glob, id } = validations.next;
-      await api.castVote(glob, id, isValid);
+      await api.saveVote(id, isValid);
       dispatch(User.actions.tallyVerification());
       dispatch({ type: ActionType.NEXT_VALIDATION });
       actions.refillCache()(dispatch, getState);

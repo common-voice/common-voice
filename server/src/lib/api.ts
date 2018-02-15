@@ -1,11 +1,13 @@
 import * as bodyParser from 'body-parser';
-import { Request, Response, Router } from 'express';
+import { NextFunction, Request, Response, Router } from 'express';
+const PromiseRouter = require('express-promise-router');
 import { CommonVoiceConfig } from '../config-helper';
 import Model from './model';
 import Clip from './clip';
 import Corpus from './corpus';
 import Prometheus from './prometheus';
-import respond from './responder';
+import { AWS } from './aws';
+import { ClientParameterError, ServerError } from './utility';
 
 export default class API {
   config: CommonVoiceConfig;
@@ -22,15 +24,17 @@ export default class API {
     this.metrics = new Prometheus(this.config);
   }
 
-  getRouter() {
-    const router = Router();
+  getRouter(): Router {
+    const router = PromiseRouter();
 
-    router.use((request, response, next) => {
+    router.use(bodyParser.json());
+
+    router.use((request: Request, response: Response, next: NextFunction) => {
       this.metrics.countRequest(request);
       next();
     });
 
-    router.get('/metrics', (request, response) => {
+    router.get('/metrics', (request: Request, response: Response) => {
       this.metrics.countPrometheusRequest(request);
 
       const { registry } = this.metrics;
@@ -40,26 +44,56 @@ export default class API {
         .end(registry.metrics());
     });
 
+    router.use((request: Request, response: Response, next: NextFunction) => {
+      this.metrics.countApiRequest(request);
+      next();
+    });
+
+    router.put('/user_clients/:id', this.saveUserClient);
+    router.put('/users/:id', this.saveUser);
+
+    router.get('/sentences', this.getRandomSentences);
+
     router.use(
-      '/upload',
-      (request, response, next) => {
+      '/clips',
+      (request: Request, response: Response, next: NextFunction) => {
         this.metrics.countClipRequest(request);
         next();
       },
       this.clip.getRouter()
     );
 
-    router.use((request, response, next) => {
-      this.metrics.countApiRequest(request);
-      next();
+    router.use('*', (request: Request, response: Response) => {
+      response.sendStatus(404);
     });
-
-    router.post('/user', bodyParser.json(), this.handleUserSync);
-
-    router.get('/sentence/:count', this.handleGetRandomSentences);
 
     return router;
   }
+
+  saveUserClient = async (request: Request, response: Response) => {
+    const uid = request.params.id as string;
+    const demographic = request.body;
+
+    if (!uid || !demographic) {
+      throw new ClientParameterError();
+    }
+
+    // Where is the clip demographic going to be located?
+    const demographicFile = uid + '/demographic.json';
+
+    await this.model.db.updateUser(uid, demographic);
+
+    await AWS.getS3()
+      .putObject({
+        Bucket: this.config.BUCKET_NAME,
+        Key: demographicFile,
+        Body: JSON.stringify(demographic),
+      })
+      .promise();
+
+    console.log('clip demographic written to s3', demographicFile);
+    response.json(uid);
+  };
 
   /**
    * Loads cache. API will still be responsive to requests while loading cache.
@@ -69,30 +103,22 @@ export default class API {
     await this.corpus.displayMetrics();
   }
 
-  handleUserSync = async (request: Request, response: Response) => {
-    try {
-      const uid = request.headers.uid as string;
-      const body = await request.body;
-      await this.model.syncUser(uid, body);
-      respond(response, 'user synced');
-    } catch (err) {
-      console.error('could not sync user', err);
-      respond(response, 'could not sync user', 500);
-    }
+  saveUser = async (request: Request, response: Response) => {
+    await this.model.syncUser(request.params.id, request.body);
+    response.json('user synced');
   };
 
   /**
    * Load sentence file (if necessary), pick random sentence.
    */
-  handleGetRandomSentences = async (request: Request, response: Response) => {
-    const count = parseInt(request.params.count, 10) || 1;
+  getRandomSentences = async (request: Request, response: Response) => {
+    const count = parseInt(request.query.count, 10) || 1;
     let randoms = this.corpus.getMultipleRandom(count);
 
     // Make sure we were able to feature the right amount of random sentences.
     if (!randoms || randoms.length < count) {
-      respond(response, 'No sentences right now', 500);
-      return;
+      throw new ServerError('No sentences right now');
     }
-    respond(response, randoms.join('\n'));
+    response.json(randoms);
   };
 }

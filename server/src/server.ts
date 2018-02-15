@@ -1,10 +1,11 @@
 import * as http from 'http';
 import * as express from 'express';
+import {NextFunction, Request, Response} from 'express';
 import fetch from 'node-fetch';
 import Model from './lib/model';
 import API from './lib/api';
 import Logger from './lib/logger';
-import { isLeaderServer, getElapsedSeconds } from './lib/utility';
+import {isLeaderServer, getElapsedSeconds, ClientError, ServerError, APIError} from './lib/utility';
 import { CommonVoiceConfig, getConfig } from './config-helper';
 import { migrate } from './lib/model/db/migrate-data/migrate';
 
@@ -38,7 +39,7 @@ export default class Server {
     const app = (this.app = express());
 
     app.use(
-      '/api',
+      '/api/v1',
       (request, response, next) => {
         if (this.isLeader && !this.hasPerformedMaintenance) {
           response
@@ -71,6 +72,16 @@ export default class Server {
       '*',
       express.static(__dirname + CLIENT_PATH + '/index.html', staticOptions)
     );
+
+    app.use((error: Error, request: Request, response: Response, next: NextFunction) => {
+      const isAPIError = error instanceof APIError;
+      if (!isAPIError) {
+        console.error(error);
+      }
+      response
+        .status(error instanceof ClientError ? 400 : 500)
+        .json({message: isAPIError ? error.message : ''});
+    });
   }
 
   /**

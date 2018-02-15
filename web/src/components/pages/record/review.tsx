@@ -116,7 +116,7 @@ class Review extends React.Component<Props, State> {
 
       let i = 0;
       for (const [sentence, recording] of Object.entries(sentenceRecordings)) {
-        await api.uploadAudio(recording.blob, sentence);
+        await api.uploadClip(recording.blob, sentence);
 
         tallyRecording();
 
@@ -126,7 +126,7 @@ class Review extends React.Component<Props, State> {
 
         i++;
       }
-      await this.props.api.uploadDemographicInfo();
+      await this.props.api.syncDemographics();
       this.props.buildNewSentenceSet();
       trackRecording('submit');
       window.scrollTo({
