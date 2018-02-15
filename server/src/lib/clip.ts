@@ -161,13 +161,11 @@ export default class Clip {
       throw new ClientParameterError();
     }
 
-    try {
-      const clip = await this.bucket.getRandomClip(uid);
-      response.json([clip]);
-    } catch (err) {
-      console.error('could not get random clip:', (err as Error).message);
-      throw new ServerError('Still loading');
-    }
+    const clips = await this.bucket.getRandomClips(
+      uid,
+      parseInt(request.query.count, 10) || 1
+    );
+    response.json(clips);
   };
 
   private validatedHours: number;

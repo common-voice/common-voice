@@ -25,7 +25,7 @@ export namespace Validations {
 
   interface RefillCacheAction extends ReduxAction {
     type: ActionType.REFILL_CACHE;
-    validation?: Validation;
+    validations?: Validation;
   }
 
   interface NewValidationAction extends ReduxAction {
@@ -33,6 +33,15 @@ export namespace Validations {
   }
 
   export type Action = RefillCacheAction | NewValidationAction;
+
+  const preloadClip = (clip: any) => new Promise(resolve => {
+    const audioElement = document.createElement('audio');
+    audioElement.addEventListener('canplaythrough', () => {
+      audioElement.remove();
+      resolve();
+    });
+    audioElement.setAttribute('src', clip.sound);
+  });
 
   export const actions = {
     refillCache: () => async (
@@ -45,26 +54,17 @@ export namespace Validations {
       }
 
       try {
-        for (let i = 0; i < MIN_CACHE_SIZE * 2; i++) {
-          const clip = (await api.fetchRandomClips())[0];
-          dispatch({
-            type: ActionType.REFILL_CACHE,
-            validation: {
-              id: clip.id,
-              glob: clip.glob,
-              sentence: decodeURIComponent(clip.text),
-              audioSrc: clip.sound,
-            },
-          });
-          await new Promise(resolve => {
-            const audioElement = document.createElement('audio');
-            audioElement.addEventListener('canplaythrough', () => {
-              audioElement.remove();
-              resolve();
-            });
-            audioElement.setAttribute('src', clip.sound);
-          });
-        }
+        const clips = await api.fetchRandomClips(MIN_CACHE_SIZE);
+        dispatch({
+          type: ActionType.REFILL_CACHE,
+          validations: clips.map(clip => ({
+            id: clip.id,
+            glob: clip.glob,
+            sentence: decodeURIComponent(clip.text),
+            audioSrc: clip.sound,
+          })),
+        });
+        await Promise.all(clips.map(preloadClip));
       } catch (err) {
         if (err instanceof XMLHttpRequest) {
           dispatch({ type: ActionType.REFILL_CACHE });
@@ -79,7 +79,7 @@ export namespace Validations {
       getState: () => StateTree
     ) => {
       const { api, validations } = getState();
-      const { glob, id } = validations.next;
+      const { id } = validations.next;
       await api.saveVote(id, isValid);
       dispatch(User.actions.tallyVerification());
       dispatch({ type: ActionType.NEXT_VALIDATION });
@@ -97,8 +97,8 @@ export namespace Validations {
   ): State {
     switch (action.type) {
       case ActionType.REFILL_CACHE: {
-        const { validation } = action;
-        const cache = validation ? state.cache.concat(validation) : state.cache;
+        const { validations } = action;
+        const cache = validations ? state.cache.concat(validations) : state.cache;
         const next = state.next || cache.shift();
         return {
           ...state,

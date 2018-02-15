@@ -3,6 +3,7 @@ import { S3 } from 'aws-sdk';
 
 import { CommonVoiceConfig } from '../config-helper';
 import Model from './model';
+import { ServerError } from './utility';
 
 /**
  * Bucket
@@ -37,27 +38,29 @@ export default class Bucket {
   /**
    * Grab metadata to play clip on the front end.
    */
-  async getRandomClip(uid: string): Promise<any> {
-    const clip = await this.model.getEllibleClip(uid);
-    if (!clip) {
-      throw new Error('Could not find any eligible clips for this user');
+  async getRandomClips(uid: string, count: number): Promise<any[]> {
+    const clips = await this.model.getEllibleClips(uid, count);
+    if (clips.length == 0) {
+      throw new ServerError('Could not find any eligible clips for this user');
     }
 
-    const { path } = clip;
+    return Promise.all(
+      clips.map(async ({ id, path, sentence }) => {
+        // We get a 400 from the signed URL without this request
+        await this.s3
+          .headObject({
+            Bucket: this.config.BUCKET_NAME,
+            Key: path,
+          })
+          .promise();
 
-    // We get a 400 from the signed URL without this request
-    await this.s3
-      .headObject({
-        Bucket: this.config.BUCKET_NAME,
-        Key: path,
+        return {
+          id,
+          glob: path.replace('.mp3', ''),
+          text: sentence,
+          sound: this.getPublicUrl(path),
+        };
       })
-      .promise();
-
-    return {
-      id: clip.id,
-      glob: path.replace('.mp3', ''),
-      text: clip.sentence,
-      sound: this.getPublicUrl(path),
-    };
+    );
   }
 }

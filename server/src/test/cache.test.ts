@@ -30,3 +30,13 @@ test('retrieving from cache consecutive times, yields the same result', async ()
   ]);
   expect(result1).toBe(result2);
 });
+
+test('takeWhere', async () => {
+  const cache = new Cache(() => [1, 2, 3, 4], 2);
+  await cache.takeWhere(n => n % 2 == 0);
+  const items = await cache.getAll();
+  for (const n of items) {
+    expect(n % 2 == 1).toBeTruthy();
+  }
+  expect(items.length).toBe(2);
+});

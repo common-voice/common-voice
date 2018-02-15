@@ -19,14 +19,14 @@ export default class Model {
   /**
    * Fetch a random clip but make sure it's not the user's.
    */
-  async getEllibleClip(client_id: string): Promise<DBClipWithVoters> {
-    const clips = await this.clipCache.getAll();
-    const i = clips.findIndex(
-      clip => clip.client_id !== client_id && !clip.voters.includes(client_id)
+  async getEllibleClips(
+    client_id: string,
+    count: number
+  ): Promise<DBClipWithVoters[]> {
+    return this.clipCache.takeWhere(
+      clip => clip.client_id !== client_id && !clip.voters.includes(client_id),
+      count
     );
-    if (i == -1) return null;
-
-    return this.clipCache.take(i);
   }
 
   private print(...args: any[]) {

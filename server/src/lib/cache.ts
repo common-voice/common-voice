@@ -14,15 +14,6 @@ export default class Cache<T> {
     this.size = size;
   }
 
-  async getAll(): Promise<T[]> {
-    if (this.items.length == 0) await this.refill();
-    return this.items;
-  }
-
-  take(index: number): T {
-    return this.items.splice(index, 1)[0];
-  }
-
   private async refill() {
     return (
       this.refillPromise ||
@@ -34,5 +25,27 @@ export default class Cache<T> {
         resolve();
       }))
     );
+  }
+
+  async getAll(): Promise<T[]> {
+    if (this.items.length == 0) await this.refill();
+    return this.items;
+  }
+
+  async takeWhere(checkFn: (item: T) => boolean, count?: number): Promise<T[]> {
+    const items = await this.getAll();
+    const indicies = [];
+    for (let i = 0; i < items.length; i++) {
+      if (indicies.length >= count) {
+        break;
+      }
+
+      if (checkFn(items[i])) {
+        // When we splice the array later, we'll decrease the array size with every key, so here we
+        // make sure the indices are still pointing to the right element.
+        indicies.push(i - indicies.length);
+      }
+    }
+    return indicies.map(i => items.splice(i, 1)[0]);
   }
 }
