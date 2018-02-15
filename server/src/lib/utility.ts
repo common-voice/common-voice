@@ -79,7 +79,21 @@ export function sleep(ms: number): Promise<void> {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-export class APIError extends Error {}
+export class APIError extends Error {
+  constructor(message?: string) {
+    // 'Error' breaks prototype chain here
+    super(message);
+
+    // restore prototype chain
+    const actualProto = new.target.prototype;
+
+    if (Object.setPrototypeOf) {
+      Object.setPrototypeOf(this, actualProto);
+    } else {
+      (this as any).__proto__ = new.target.prototype;
+    }
+  }
+}
 export class ServerError extends APIError {}
 export class ClientError extends APIError {}
 export class ClientParameterError extends ClientError {
