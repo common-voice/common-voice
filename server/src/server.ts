@@ -77,9 +77,9 @@ export default class Server {
       ) => {
         console.log(error);
         const isAPIError = error instanceof APIError;
-        // if (!isAPIError) {
-        //   console.error(error);
-        // }
+        if (!isAPIError) {
+          console.error(request.url, error);
+        }
         response
           .status(error instanceof ClientError ? 400 : 500)
           .json({ message: isAPIError ? error.message : '' });
@@ -196,21 +196,16 @@ export default class Server {
    * Start up everything.
    */
   async run(): Promise<void> {
-    // Log the start.
     this.print('starting');
 
-    // Set up db connection.
     await this.ensureDatabase();
 
-    // Boot up our http server.
     this.listen();
 
-    // Figure out if this server is the leader.
     const isLeader = await this.checkLeader();
 
     this.loadCache().catch(error => console.error(error));
 
-    // Leader servers will perform database maintenance.
     if (isLeader) {
       await this.performMaintenance();
     }
