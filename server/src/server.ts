@@ -1,7 +1,6 @@
 import * as http from 'http';
 import * as express from 'express';
 import { NextFunction, Request, Response } from 'express';
-import fetch from 'node-fetch';
 import Model from './lib/model';
 import API from './lib/api';
 import Logger from './lib/logger';

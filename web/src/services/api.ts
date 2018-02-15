@@ -16,7 +16,7 @@ interface FetchOptions {
   body?: any;
 }
 
-const API_PATH = '/api/v1';
+const API_PATH = location.origin + '/api/v1';
 const CLIP_PATH = API_PATH + '/clips';
 const SENTENCES_PATH = API_PATH + '/sentences';
 

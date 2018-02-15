@@ -34,14 +34,15 @@ export namespace Validations {
 
   export type Action = RefillCacheAction | NewValidationAction;
 
-  const preloadClip = (clip: any) => new Promise(resolve => {
-    const audioElement = document.createElement('audio');
-    audioElement.addEventListener('canplaythrough', () => {
-      audioElement.remove();
-      resolve();
+  const preloadClip = (clip: any) =>
+    new Promise(resolve => {
+      const audioElement = document.createElement('audio');
+      audioElement.addEventListener('canplaythrough', () => {
+        audioElement.remove();
+        resolve();
+      });
+      audioElement.setAttribute('src', clip.sound);
     });
-    audioElement.setAttribute('src', clip.sound);
-  });
 
   export const actions = {
     refillCache: () => async (
@@ -98,7 +99,9 @@ export namespace Validations {
     switch (action.type) {
       case ActionType.REFILL_CACHE: {
         const { validations } = action;
-        const cache = validations ? state.cache.concat(validations) : state.cache;
+        const cache = validations
+          ? state.cache.concat(validations)
+          : state.cache;
         const next = state.next || cache.shift();
         return {
           ...state,
