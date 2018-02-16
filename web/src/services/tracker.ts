@@ -12,7 +12,6 @@ function track(
     | 'Sharing',
   action: string
 ) {
-  console.log(arguments);
   if (isProduction() && typeof ga === 'function') {
     ga('send', 'event', category, action);
   }
