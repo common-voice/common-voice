@@ -4,8 +4,8 @@ import { User } from './user';
 
 const MIN_CACHE_SIZE = 2;
 
-export namespace Validations {
-  export interface Validation {
+export namespace Clips {
+  export interface Clip {
     id: string;
     glob: string;
     sentence: string;
@@ -13,26 +13,26 @@ export namespace Validations {
   }
 
   export interface State {
-    cache: Validation[];
-    next?: Validation;
+    cache: Clip[];
+    next?: Clip;
     loadError: boolean;
   }
 
   enum ActionType {
-    REFILL_CACHE = 'REFILL_VALIDATIONS_CACHE',
-    NEXT_VALIDATION = 'NEXT_VALIDATION',
+    REFILL_CACHE = 'REFILL_CLIPS_CACHE',
+    NEXT_CLIP = 'NEXT_CLIP',
   }
 
   interface RefillCacheAction extends ReduxAction {
     type: ActionType.REFILL_CACHE;
-    validations?: Validation;
+    clips?: Clip;
   }
 
-  interface NewValidationAction extends ReduxAction {
-    type: ActionType.NEXT_VALIDATION;
+  interface NewClipAction extends ReduxAction {
+    type: ActionType.NEXT_CLIP;
   }
 
-  export type Action = RefillCacheAction | NewValidationAction;
+  export type Action = RefillCacheAction | NewClipAction;
 
   const preloadClip = (clip: any) =>
     new Promise(resolve => {
@@ -49,8 +49,8 @@ export namespace Validations {
       dispatch: Dispatch<RefillCacheAction>,
       getState: () => StateTree
     ) => {
-      const { api, validations } = getState();
-      if (validations.cache.length > MIN_CACHE_SIZE) {
+      const { api, clips } = getState();
+      if (clips.cache.length > MIN_CACHE_SIZE) {
         return;
       }
 
@@ -58,7 +58,7 @@ export namespace Validations {
         const clips = await api.fetchRandomClips(MIN_CACHE_SIZE);
         dispatch({
           type: ActionType.REFILL_CACHE,
-          validations: clips.map(clip => ({
+          clips: clips.map(clip => ({
             id: clip.id,
             glob: clip.glob,
             sentence: decodeURIComponent(clip.text),
@@ -76,14 +76,14 @@ export namespace Validations {
     },
 
     vote: (isValid: boolean) => async (
-      dispatch: Dispatch<NewValidationAction | RefillCacheAction>,
+      dispatch: Dispatch<NewClipAction | RefillCacheAction>,
       getState: () => StateTree
     ) => {
-      const { api, validations } = getState();
-      const { id } = validations.next;
+      const { api, clips } = getState();
+      const { id } = clips.next;
       await api.saveVote(id, isValid);
       dispatch(User.actions.tallyVerification());
-      dispatch({ type: ActionType.NEXT_VALIDATION });
+      dispatch({ type: ActionType.NEXT_CLIP });
       actions.refillCache()(dispatch, getState);
     },
   };
@@ -98,10 +98,8 @@ export namespace Validations {
   ): State {
     switch (action.type) {
       case ActionType.REFILL_CACHE: {
-        const { validations } = action;
-        const cache = validations
-          ? state.cache.concat(validations)
-          : state.cache;
+        const { clips } = action;
+        const cache = clips ? state.cache.concat(clips) : state.cache;
         const next = state.next || cache.shift();
         return {
           ...state,
@@ -111,7 +109,7 @@ export namespace Validations {
         };
       }
 
-      case ActionType.NEXT_VALIDATION: {
+      case ActionType.NEXT_CLIP: {
         const cache = state.cache.slice();
         const next = cache.pop();
         return { ...state, cache, next };

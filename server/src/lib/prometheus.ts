@@ -58,5 +58,4 @@ export default class Prometheus {
   countPrometheusRequest(request: http.IncomingMessage) {
     this.prometheus_cnt && this.prometheus_cnt.inc();
   }
-
 }
