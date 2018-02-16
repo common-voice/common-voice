@@ -211,7 +211,7 @@ export default class DB {
   }
 
   async findClip(id: string) {
-    return (await this.mysql.exec('SELECT * FROM CLIPS WHERE id = ? LIMIT 1', [
+    return (await this.mysql.exec('SELECT * FROM clips WHERE id = ? LIMIT 1', [
       id,
     ]))[0][0];
   }
