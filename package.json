@@ -94,6 +94,7 @@
     "chalk": "^2.3.0",
     "eslint-loader": "^1.9.0",
     "nodemon": "^1.12.1",
+    "pre-commit": "^1.2.2",
     "react-dev-utils": "^4.2.1"
   },
   "resolutions": {
@@ -110,5 +111,8 @@
     "start": "node scripts/dev-server.js",
     "start:prod": "node server/js/server.js",
     "test": "jest && yarn build && bundlesize -f \"web/dist/*.js\" -s 100kb"
-  }
+  },
+  "pre-commit": [
+    "prettier"
+  ]
 }

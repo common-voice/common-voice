@@ -11,11 +11,12 @@ module.exports = merge(commonConfig, {
         enforce: 'pre',
         use: [
           {
+            loader: require.resolve('eslint-loader'),
             options: {
               formatter: eslintFormatter,
               eslintPath: require.resolve('eslint'),
+              cache: true,
             },
-            loader: require.resolve('eslint-loader'),
           },
         ],
       },
