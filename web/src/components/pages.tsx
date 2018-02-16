@@ -30,6 +30,7 @@ import FAQ from './pages/faq';
 import Privacy from './pages/privacy';
 import Terms from './pages/terms';
 import NotFound from './pages/not-found';
+import { trackSharing } from '../services/tracker';
 
 const shareURL = 'https://voice.mozilla.org/';
 const encodedShareText = encodeURIComponent(
@@ -236,6 +237,7 @@ class Pages extends React.Component<PagesProps, PagesState> {
   private copyShareURL = () => {
     this.shareURLInput.select();
     document.execCommand('copy');
+    trackSharing('link');
   };
 
   private toggleContactModal = () => {
@@ -444,7 +446,8 @@ class Pages extends React.Component<PagesProps, PagesState> {
                         encodedShareText
                       }
                       target="_blank"
-                      rel="noopener noreferrer">
+                      rel="noopener noreferrer"
+                      onClick={() => trackSharing('twitter')}>
                       <FontIcon type="twitter" />
                     </a>
                     <a
@@ -453,7 +456,8 @@ class Pages extends React.Component<PagesProps, PagesState> {
                         encodeURIComponent(shareURL)
                       }
                       target="_blank"
-                      rel="noopener noreferrer">
+                      rel="noopener noreferrer"
+                      onClick={() => trackSharing('facebook')}>
                       <FontIcon type="facebook" />
                     </a>
                   </div>

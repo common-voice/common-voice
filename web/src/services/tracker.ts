@@ -3,9 +3,16 @@ import { isProduction } from '../utility';
 declare const ga: any;
 
 function track(
-  category: 'Navigation' | 'Recording' | 'Listening' | 'Profile' | 'Data',
+  category:
+    | 'Navigation'
+    | 'Recording'
+    | 'Listening'
+    | 'Profile'
+    | 'Data'
+    | 'Sharing',
   action: string
 ) {
+  console.log(arguments);
   if (isProduction() && typeof ga === 'function') {
     ga('send', 'event', category, action);
   }
@@ -45,4 +52,8 @@ export function trackDataset(
 
 export function trackNavigation(action: 'progress-to-record') {
   track('Navigation', action);
+}
+
+export function trackSharing(channel: 'facebook' | 'twitter' | 'link') {
+  track('Sharing', channel);
 }
