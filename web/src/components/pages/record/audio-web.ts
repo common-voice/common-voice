@@ -213,8 +213,10 @@ export default class AudioWeb {
   }
 
   release() {
-    for (const track of this.microphone.getTracks()) {
-      track.stop();
+    if (this.microphone) {
+      for (const track of this.microphone.getTracks()) {
+        track.stop();
+      }
     }
     this.microphone = null;
   }

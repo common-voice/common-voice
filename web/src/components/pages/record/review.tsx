@@ -10,8 +10,6 @@ import { User } from '../../../stores/user';
 import ListenBox from '../../listen-box/listen-box';
 import Modal from '../../modal/modal';
 import ProgressButton from '../../progress-button';
-import AudioWeb from './audio-web';
-import AudioIOS from './audio-ios';
 import ProfileActions from './profile-actions';
 
 interface PropsFromState {
@@ -31,9 +29,7 @@ interface PropsFromDispatch {
 interface Props
   extends PropsFromState,
     PropsFromDispatch,
-    RouteComponentProps<any> {
-  audio: AudioWeb | AudioIOS;
-}
+    RouteComponentProps<any> {}
 
 interface State {
   showPrivacyModal: boolean;
@@ -99,7 +95,6 @@ class Review extends React.Component<Props, State> {
   };
 
   private handleSubmit = async () => {
-    this.props.audio.release();
     this.setState({
       uploading: true,
     });

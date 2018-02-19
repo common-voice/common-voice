@@ -116,6 +116,25 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
     }
   }
 
+  componentDidMount() {
+    document.addEventListener('visibilitychange', this.releaseMicrophone);
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener('visibilitychange', this.releaseMicrophone);
+  }
+
+  private releaseMicrophone = () => {
+    if (!document.hidden) {
+      return;
+    }
+
+    if (this.props.isRecording) {
+      this.stopRecording();
+    }
+    this.audio.release();
+  };
+
   private processRecording = (info: AudioInfo) => {
     const { onRecordStop, recordingsCount, sentenceRecordings } = this.props;
     onRecordStop && onRecordStop();
@@ -188,9 +207,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
     });
   };
 
-  private onRecordClick = debounce(async (evt?: any) => {
-    evt.preventDefault();
-
+  private onRecordClick = debounce(async () => {
     if (this.props.isRecording) {
       this.stopRecording();
       return;
@@ -269,7 +286,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
     if (!reRecordSentence && isSetFull) {
       return (
         <div id="record-container">
-          <Review audio={this.audio} />
+          <Review />
         </div>
       );
     }
