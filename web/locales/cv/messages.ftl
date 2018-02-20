@@ -1,5 +1,7 @@
 ## Layout
 
+speak = Кала
+datasets = Пӗлем пуххисем
 profile = Профиль
 help = Пулӑшу
 contact = Ҫыхӑну
@@ -13,6 +15,7 @@ share-title = Сассине парнелекен, ҫырса илекен ҫы�
 ## Home Page
 
 home-title = «Common Voice» проекчӗ - машинасене чӑн çынсен сассипе калаçма вӗрентес тӗллевпе шухӑшласа кӑларнӑ «Mozilla» пуçарӑвӗ.
+home-cta = Кунта хутшӑн, кала-ха!
 wall-of-text-more-desktop =
     Сассуна парнелесе пурне те уҫӑ сасӑ пуххине пуҫтарма пулӑш. Ҫак сасӑ пуххи мобиллӗ хатӗрӗсемпе тӗнче тетелӗ валли инновациллӗ программӑсем тума май парӗ.
     <lineBreak></lineBreak>
@@ -57,6 +60,8 @@ profile-form-gender =
 faq-title = Ыйту-хурав
 faq-what-q = Мӗн вӑл «Common Voice» ?
 faq-important-q = Вӑл мӗнпе кирлӗ?
+faq-get-q = «Common Voice» пӗлӗмсене мӗнле тиемелле?
+faq-mission-q = «Common Voice» мӗншӗн «Mozilla»-н ӗҫ-пуҫӗн пӗр пайӗ?
 
 ## Profile
 
@@ -104,3 +109,4 @@ review-submit-title = Тӗрӗсле те яр
 review-submit-msg = Ҫырса илнӗшӗн тавах!<lineBreak></lineBreak>Халь вара вӗсене тӗрӗслесе пӑх та тие.
 review-recording = Тӗрӗсле
 review-rerecord = Ҫӗнӗрен ҫырса ил
+review-cancel = Ҫырса илнине тиеме пӑрахӑҫла
