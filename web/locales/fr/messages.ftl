@@ -52,6 +52,8 @@ profile-form-gender =
 faq-title = Questions fréquentes
 faq-what-q = Qu’est-ce que Common Voice ?
 faq-important-q = Pourquoi est-ce important ?
+faq-native-a = Absolument, nous avons besoin de votre voix ! Une partie des objectifs de Common Voice est de collecter autant d’accents que possible pour que les machines puissent mieux interpréter la voix de <bold>tout le monde</bold>.
+faq-hours-q = Pourquoi l’objectif de collecte de son est-il fixé à 10 000 heures ?
 
 ## Profile
 
