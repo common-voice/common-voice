@@ -1,6 +1,4 @@
-import * as Random from 'random-js';
 import { S3 } from 'aws-sdk';
-
 import { CommonVoiceConfig } from '../config-helper';
 import Model from './model';
 import { ServerError } from './utility';
@@ -14,15 +12,11 @@ export default class Bucket {
   private config: CommonVoiceConfig;
   private model: Model;
   private s3: S3;
-  private randomEngine: Random.MT19937;
 
   constructor(config: CommonVoiceConfig, model: Model, s3: S3) {
     this.config = config;
     this.model = model;
     this.s3 = s3;
-
-    this.randomEngine = Random.engines.mt19937();
-    this.randomEngine.autoSeed();
   }
 
   /**
