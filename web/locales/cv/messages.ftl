@@ -79,6 +79,7 @@ terms-general-title = Пӗтӗмӗшле
 ## Data
 
 data-download-button = «Common Voice» пӗлӗмне тиесе антар
+data-download-license = Лицензи: <licenseLink>CC-0</licenseLink>
 data-get-started = <speechBlogLink>Калаҫӑва уянипе ӗҫлеме пуҫла</speechBlogLink>
 data-other-title = Ытти сасӑ пухмӑшӗсем
 data-other-goto = { $name } ҫине куҫ
@@ -99,5 +100,6 @@ record-submit-success = Пулчӗ! Ҫырса илнине упрарӑмӑр. 
 record-help = Ҫырса илмешкӗн пус та ҫӳлти пуплерӗше (предложенине) янравлӑн вуласа пар.
 record-cancel = Ҫӗнӗрен ҫырса илессине пӑрахӑҫла
 review-aborted = Тиессине пӑрахӑҫланӑ. Санӑн ҫырса илнисене катертес-и?
+review-submit-title = Тӗрӗсле те яр
 review-recording = Тӗрӗсле
 review-rerecord = Ҫӗнӗрен ҫырса ил
