@@ -7,6 +7,7 @@ import { User } from '../../../stores/user';
 import Modal from '../../modal/modal';
 import { SuccessIcon } from '../../ui/icons';
 import { Button, LabeledInput } from '../../ui/ui';
+const { Localized } = require('fluent-react');
 
 const AUTO_HIDE_TIME_MS = 5000;
 
@@ -62,56 +63,53 @@ class AfterDownloadModal extends React.Component<Props, State> {
         innerClassName={'email-modal ' + (titleOnly ? 'compact' : '')}>
         <div className="head">
           <SuccessIcon />
-          <h2>Your download has started.</h2>
+          <Localized id="download-title">
+            <h2 />
+          </Localized>
         </div>
 
         {!titleOnly && (
           <Fragment>
             <form onSubmit={this.handleSubmit}>
-              <p>
-                Help us build a community around voice technology, stay in touch
-                via email.
-              </p>
+              <Localized id="download-helpus">
+                <p />
+              </Localized>
 
-              <LabeledInput
-                label={isSubmitted ? '' : 'Enter your email'}
-                type={isSubmitted ? 'text' : 'email'}
-                value={isSubmitted ? "Thank you, we'll be in touch." : email}
-                disabled={isSubmitted}
-                onChange={(event: any) => {
-                  this.setState({ email: event.target.value });
-                }}
-              />
+              <Localized id="download-form-email" attrs={{ label: !isSubmitted, value: isSubmitted }}>
+                <LabeledInput
+                  label={isSubmitted ? '' : 'Enter your email'}
+                  type={isSubmitted ? 'text' : 'email'}
+                  value={isSubmitted ? "Thank you, we'll be in touch." : email}
+                  disabled={isSubmitted}
+                  onChange={(event: any) => {
+                    this.setState({ email: event.target.value });
+                  }}
+                />
+              </Localized>
 
               {!isSubmitted && (
-                <Button type="submit" outline>
-                  Submit
-                </Button>
+                <Localized id="download-form-submit">
+                  <Button type="submit" outline />
+                </Localized>
               )}
 
               <a
                 href="javascript:void(0)"
                 onClick={onRequestClose}
                 className="cancel">
-                {isSubmitted ? 'Return to Common Voice Datasets' : 'No Thanks'}
+                {isSubmitted ? <Localized id="download-back"><span /></Localized> : <Localized id="download-no"><span /></Localized>}
               </a>
 
               {isSubmitted && <br />}
 
-              <p className="fine-print">
-                We at Mozilla are building a community around voice technology.
-                We would like to stay in touch with updates, new data sources
-                and to hear more about how you're using this data.
-              </p>
+              <Localized id="download-stayintouch">
+                <p className="fine-print" />
+              </Localized>
               <br />
 
-              <p className="fine-print">
-                We promise to handle your information with care. Read more in
-                our{' '}
-                <a href="/privacy" target="__blank" rel="noopener noreferrer">
-                  Privacy Notice
-                </a>.
-              </p>
+              <Localized id="download-privacy" privacyLink={<a href="/privacy" target="__blank" rel="noopener noreferrer" />}>
+                <p className="fine-print" />
+              </Localized>
             </form>
           </Fragment>
         )}
