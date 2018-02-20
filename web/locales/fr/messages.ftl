@@ -55,6 +55,7 @@ faq-important-q = Pourquoi est-ce important ?
 
 ## Profile
 
+profile-why-title = Pourquoi créer un profil ?
 
 ## NotFound
 
@@ -64,7 +65,10 @@ faq-important-q = Pourquoi est-ce important ?
 
 ## Terms
 
+terms-privacy-content = Notre <privacyLink>politique de confidentialité</privacyLink> explique comment nous collectons et gérons vos données.
 terms-communications-title = Communications
+terms-communications-content = Si vous vous inscrivez pour recevoir nos lettres d’information ou que vous créez un compte en lien avec Common Voice, vous pourriez recevoir des courriels de notre part relatifs à votre compte (par exemple, pour des raisons juridiques, de sécurité ou de confidentialité).
+terms-general-title = Général
 
 ## Data
 
