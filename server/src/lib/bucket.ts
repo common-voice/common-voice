@@ -33,7 +33,7 @@ export default class Bucket {
    * Grab metadata to play clip on the front end.
    */
   async getRandomClips(uid: string, count: number): Promise<any[]> {
-    const clips = await this.model.getEllibleClips(uid, count);
+    const clips = await this.model.findEligibleClips(uid, count);
     if (clips.length == 0) {
       throw new ServerError('Could not find any eligible clips for this user');
     }

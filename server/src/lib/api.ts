@@ -4,7 +4,6 @@ const PromiseRouter = require('express-promise-router');
 import { CommonVoiceConfig } from '../config-helper';
 import Model from './model';
 import Clip from './clip';
-import Corpus from './corpus';
 import Prometheus from './prometheus';
 import { AWS } from './aws';
 import { ClientParameterError, ServerError } from './utility';
@@ -13,14 +12,12 @@ export default class API {
   config: CommonVoiceConfig;
   model: Model;
   clip: Clip;
-  corpus: Corpus;
   metrics: Prometheus;
 
   constructor(config: CommonVoiceConfig, model: Model) {
     this.config = config;
     this.model = model;
     this.clip = new Clip(this.config, this.model);
-    this.corpus = new Corpus();
     this.metrics = new Prometheus(this.config);
   }
 
@@ -95,30 +92,19 @@ export default class API {
     response.json(uid);
   };
 
-  /**
-   * Loads cache. API will still be responsive to requests while loading cache.
-   */
-  async loadCache(): Promise<void> {
-    await this.corpus.loadCache();
-    await this.corpus.displayMetrics();
-  }
-
   saveUser = async (request: Request, response: Response) => {
     await this.model.syncUser(request.params.id, request.body);
     response.json('user synced');
   };
 
-  /**
-   * Load sentence file (if necessary), pick random sentence.
-   */
   getRandomSentences = async (request: Request, response: Response) => {
-    const count = parseInt(request.query.count, 10) || 1;
-    let randoms = this.corpus.getMultipleRandom(count);
+    const sentences = await this.model.findEligibleSentences(
+      parseInt(request.query.count, 10) || 1
+    );
 
-    // Make sure we were able to feature the right amount of random sentences.
-    if (!randoms || randoms.length < count) {
+    if (sentences.length === 0) {
       throw new ServerError('No sentences right now');
     }
-    response.json(randoms);
+    response.json(sentences);
   };
 }

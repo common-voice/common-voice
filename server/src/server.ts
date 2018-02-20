@@ -103,19 +103,6 @@ export default class Server {
     return this.isLeader;
   }
 
-  private async loadCache(): Promise<void> {
-    const start = Date.now();
-    this.print('loading clip cache');
-
-    try {
-      await this.api.loadCache();
-    } catch (err) {
-      console.error('error loading clips', err.message);
-    } finally {
-      this.print(`${getElapsedSeconds(start)}s to load`);
-    }
-  }
-
   /**
    * Perform any scheduled maintenance on the data model.
    */
@@ -125,14 +112,13 @@ export default class Server {
 
     try {
       await this.model.performMaintenance();
+      await importSentences(await this.model.db.mysql.createPool());
       this.print('Maintenance complete');
     } catch (err) {
       console.error('DB Maintenance error', err);
     } finally {
       this.print(`${getElapsedSeconds(start)}s to perform maintenance`);
     }
-
-    await importSentences(await this.model.db.mysql.createPool());
   }
 
   /**
@@ -188,12 +174,9 @@ export default class Server {
 
     const isLeader = await this.checkLeader();
 
-    this.loadCache().catch(error => console.error(error));
-
     if (isLeader) {
       await this.performMaintenance();
     }
-    await this.loadCache();
 
     this.startHeartbeat();
   }

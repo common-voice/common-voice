@@ -1,7 +1,7 @@
 import * as crypto from 'crypto';
 import { PassThrough } from 'stream';
 import { S3 } from 'aws-sdk';
-import { Request, Response, Router } from 'express';
+import { Request, Response } from 'express';
 const PromiseRouter = require('express-promise-router');
 import { CommonVoiceConfig } from '../config-helper';
 import { AWS } from './aws';

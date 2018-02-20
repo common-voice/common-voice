@@ -10,6 +10,7 @@ export default class Model {
   config: CommonVoiceConfig;
   db: DB;
   clipCache = new Cache(count => this.db.findClipsWithFewVotes(count));
+  sentencesCache = new Cache(count => this.db.findSentencesWithFewClips(count));
 
   constructor(config: CommonVoiceConfig) {
     this.config = config;
@@ -19,7 +20,7 @@ export default class Model {
   /**
    * Fetch a random clip but make sure it's not the user's.
    */
-  async getEllibleClips(
+  async findEligibleClips(
     client_id: string,
     count: number
   ): Promise<DBClipWithVoters[]> {
@@ -27,6 +28,10 @@ export default class Model {
       clip => clip.client_id !== client_id && !clip.voters.includes(client_id),
       count
     );
+  }
+
+  async findEligibleSentences(count: number): Promise<string[]> {
+    return this.sentencesCache.take(count);
   }
 
   private print(...args: any[]) {

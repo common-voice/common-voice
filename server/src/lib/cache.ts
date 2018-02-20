@@ -32,6 +32,11 @@ export default class Cache<T> {
     return this.items;
   }
 
+  async take(count: number): Promise<T[]> {
+    const items = await this.getAll();
+    return items.splice(0, count);
+  }
+
   async takeWhere(checkFn: (item: T) => boolean, count?: number): Promise<T[]> {
     const items = await this.getAll();
     const indicies = [];
