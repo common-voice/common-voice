@@ -148,43 +148,51 @@ class ProfileForm extends React.Component<Props, State> {
 
           <hr />
 
-          <LabeledSelect
-            className="half-width"
-            disabled
-            label="Language"
-            name="language"
-            tabIndex={-1}>
-            <Localized id="profile-form-more-languages">
-              <option value="" />
-            </Localized>
-          </LabeledSelect>
+          <Localized id="profile-form-language" attrs={{ label: true }}>
+            <LabeledSelect
+              className="half-width"
+              disabled
+              label="Language"
+              name="language"
+              tabIndex={-1}>
+              <Localized id="profile-form-more-languages">
+                <option value="" />
+              </Localized>
+            </LabeledSelect>
+          </Localized>
 
-          <LabeledSelect
-            className="half-width"
-            label="Accent"
-            name="accent"
-            onChange={this.update}
-            value={accent}>
-            {this.renderOptionsFor(ACCENTS)}
-          </LabeledSelect>
+          <Localized id="profile-form-accent" attrs={{ label: true }}>
+            <LabeledSelect
+              className="half-width"
+              label="Accent"
+              name="accent"
+              onChange={this.update}
+              value={accent}>
+              {this.renderOptionsFor(ACCENTS)}
+            </LabeledSelect>
+          </Localized>
 
-          <LabeledSelect
-            className="half-width"
-            label="Age"
-            name="age"
-            onChange={this.update}
-            value={age}>
-            {this.renderOptionsFor(AGES)}
-          </LabeledSelect>
+          <Localized id="profile-form-age" attrs={{ label: true }}>
+            <LabeledSelect
+              className="half-width"
+              label="Age"
+              name="age"
+              onChange={this.update}
+              value={age}>
+              {this.renderOptionsFor(AGES)}
+            </LabeledSelect>
+          </Localized>
 
-          <LabeledSelect
-            className="half-width"
-            label="Gender"
-            name="gender"
-            onChange={this.update}
-            value={gender}>
-            {this.renderOptionsFor(GENDERS)}
-          </LabeledSelect>
+          <Localized id="profile-form-gender" attrs={{ label: true }}>
+            <LabeledSelect
+              className="half-width"
+              label="Gender"
+              name="gender"
+              onChange={this.update}
+              value={gender}>
+              {this.renderOptionsFor(GENDERS)}
+            </LabeledSelect>
+          </Localized>
 
           <div className="buttons">
             <Button type="submit" outline={!isModified}>
