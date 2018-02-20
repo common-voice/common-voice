@@ -78,7 +78,9 @@ terms-general-title = Général
 data-download-button = Télécharger les données Common Voice
 data-download-license = Licence : <licenseLink>CC-0</licenseLink>
 data-download-modal = Vous vous apprêtez à télécharger <size>{ $size } Go</size>, voulez-vous continuer ?
+data-get-started = <speechBlogLink>S’initier à la reconnaissance vocale</speechBlogLink>
 data-other-title = Autres jeux de données…
+data-other-download = Télécharger les données
 data-other-tatoeba-description = Tatoeba est une immense base de données de phrases, de traductions et d’extraits oraux destinés à l’apprentissage des langues. Ce téléchargement contient toutes les données en anglais enregistrées par leur communauté.
 license = Licence : <licenseLink>{ $license }</licenseLink>
 
