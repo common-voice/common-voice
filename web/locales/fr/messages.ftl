@@ -76,6 +76,16 @@ data-download-button = Télécharger les données Common Voice
 data-download-license = Licence : <licenseLink>CC-0</licenseLink>
 data-download-modal = Vous vous apprêtez à télécharger <size>{ $size } Go</size>, voulez-vous continuer ?
 data-other-title = Autres jeux de données…
+license = Licence : <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
 
+record-platform-not-supported = Nous sommes désolés, mais votre plateforme n’est pas encore prise en charge.
+record-platform-not-supported-ios = Les utilisateurs <bold>iOS</bold> peuvent télécharger notre application gratuite :
+record-must-allow-microphone = Vous devez autoriser l’accès au microphone.
+record-error-too-short = L’enregistrement est trop court.
+record-error-too-long = L’enregistrement est trop long.
+record-error-too-quiet = Le volume de l’enregistrement est trop faible.
+review-terms = En utilisant Common Voice, vous acceptez nos <termsLink>conditions d’utilisation</termsLink> et notre <privacyLink>politique de confidentialité</privacyLink>
+review-submit-title = Vérifier et envoyer
+review-submit-msg = Merci pour votre enregistrement !<lineBreak></lineBreak>Vous pouvez maintenant valider et envoyer vos clips ci-dessous.
