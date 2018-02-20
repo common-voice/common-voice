@@ -101,5 +101,6 @@ record-help = Ҫырса илмешкӗн пус та ҫӳлти пуплерӗ�
 record-cancel = Ҫӗнӗрен ҫырса илессине пӑрахӑҫла
 review-aborted = Тиессине пӑрахӑҫланӑ. Санӑн ҫырса илнисене катертес-и?
 review-submit-title = Тӗрӗсле те яр
+review-submit-msg = Ҫырса илнӗшӗн тавах!<lineBreak></lineBreak>Халь вара вӗсене тӗрӗслесе пӑх та тие.
 review-recording = Тӗрӗсле
 review-rerecord = Ҫӗнӗрен ҫырса ил
