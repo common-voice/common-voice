@@ -21,7 +21,6 @@ export default class ServerHarness {
       Math.random()
         .toString(36)
         .substring(7);
-    this.config.ENABLE_MIGRATIONS = false;
     this.server = new RealServer(this.config);
   }
 

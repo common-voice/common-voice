@@ -1,15 +1,20 @@
 import * as fs from 'fs';
 import * as path from 'path';
 const utf8 = require('utf8');
-import promisify from '../../../../promisify';
-import { getFileExt } from '../../../utility';
-import { hash } from '../../../clip';
+import promisify from '../../../promisify';
+import { getFileExt } from '../../utility';
+import { hash } from '../../clip';
 
 const CWD = process.cwd();
 const SENTENCE_FOLDER = path.resolve(CWD, 'server/data/');
 const UNUSED_FOLDER = path.join(SENTENCE_FOLDER, 'not-used');
 
 const CHUNK_SIZE = 50;
+
+function print(...args: any[]) {
+  args.unshift('IMPORT --');
+  console.log.apply(console, args);
+}
 
 /**
  * This is a job queue that will only process CHUNK_SIZE jobs concurrently.
@@ -95,7 +100,7 @@ const loadSentences = async (path: string): Promise<string[]> => {
   return allSentences;
 };
 
-export async function migrateSentences(pool: any, print: any) {
+export async function importSentences(pool: any) {
   await pool.query(
     'DELETE FROM sentences WHERE id NOT IN (SELECT original_sentence_id FROM clips)'
   );

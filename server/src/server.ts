@@ -10,8 +10,8 @@ import {
   ClientError,
   APIError,
 } from './lib/utility';
+import { importSentences } from './lib/model/db/import-sentences';
 import { CommonVoiceConfig, getConfig } from './config-helper';
-import { migrate } from './lib/model/db/migrate-data/migrate';
 
 const CLIENT_PATH = '../../web';
 
@@ -146,9 +146,7 @@ export default class Server {
       this.print(`${getElapsedSeconds(start)}s to perform maintenance`);
     }
 
-    if (this.config.ENABLE_MIGRATIONS) {
-      await migrate(await this.model.db.mysql.createPool());
-    }
+    await importSentences(await this.model.db.mysql.createPool());
   }
 
   /**
