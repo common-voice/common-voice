@@ -15,6 +15,7 @@ content-license-text = Contenu disponible sous licence <licenseLink>Creative Com
 
 show-wall-of-text = En savoir plus
 help-us-title = Aidez-nous à valider des phrases !
+help-us-explain = Appuyez sur lecture, écoutez et dites-nous : la phrase ci-dessous est-elle prononcée correctement ?
 
 ## ProjectStatus
 
@@ -49,6 +50,7 @@ profile-form-gender =
 ## FAQ
 
 faq-title = Questions fréquentes
+faq-what-q = Qu’est-ce que Common Voice ?
 faq-important-q = Pourquoi est-ce important ?
 
 ## Profile
@@ -62,9 +64,14 @@ faq-important-q = Pourquoi est-ce important ?
 
 ## Terms
 
+terms-communications-title = Communications
 
 ## Data
 
+data-download-button = Télécharger les données Common Voice
+data-download-license = Licence : <licenseLink>CC-0</licenseLink>
+data-download-modal = Vous vous apprêtez à télécharger <size>{ $size } Go</size>, voulez-vous continuer ?
+data-other-title = Autres jeux de données…
 
 ## Record Page
 
