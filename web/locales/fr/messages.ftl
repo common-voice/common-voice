@@ -53,7 +53,10 @@ faq-title = Questions fréquentes
 faq-what-q = Qu’est-ce que Common Voice ?
 faq-important-q = Pourquoi est-ce important ?
 faq-native-a = Absolument, nous avons besoin de votre voix ! Une partie des objectifs de Common Voice est de collecter autant d’accents que possible pour que les machines puissent mieux interpréter la voix de <bold>tout le monde</bold>.
+faq-firefox-q = La synthèse vocale fera-t-elle un jour partie de Firefox grâce à Common Voice ?
 faq-hours-q = Pourquoi l’objectif de collecte de son est-il fixé à 10 000 heures ?
+faq-source-a1 = Les phrases actuelles proviennent de contributions individuelles ainsi que des dialogues de certains films dans le domaine public comme <italic>La vie est belle</italic>.
+faq-source-a2 = Les phrases sources sont accessibles <dataLink>dans ce dossier</dataLink> sur GitHub.
 
 ## Profile
 
