@@ -106,13 +106,15 @@ export default class Server {
   /**
    * Perform any scheduled maintenance on the data model.
    */
-  async performMaintenance(): Promise<void> {
+  async performMaintenance(doImport: boolean): Promise<void> {
     const start = Date.now();
     this.print('performing Maintenance');
 
     try {
       await this.model.performMaintenance();
-      await importSentences(await this.model.db.mysql.createPool());
+      if (doImport) {
+        await importSentences(await this.model.db.mysql.createPool());
+      }
       this.print('Maintenance complete');
     } catch (err) {
       console.error('DB Maintenance error', err);
@@ -165,7 +167,8 @@ export default class Server {
   /**
    * Start up everything.
    */
-  async run(): Promise<void> {
+  async run(options?: { doImport: boolean }): Promise<void> {
+    options = { doImport: true, ...options };
     this.print('starting');
 
     await this.ensureDatabase();
@@ -175,7 +178,7 @@ export default class Server {
     const isLeader = await this.checkLeader();
 
     if (isLeader) {
-      await this.performMaintenance();
+      await this.performMaintenance(options.doImport);
     }
 
     this.startHeartbeat();
@@ -209,5 +212,5 @@ process.on('uncaughtException', function(err: any) {
 // If this file is run directly, boot up a new server instance.
 if (require.main === module) {
   let server = new Server();
-  server.run();
+  server.run().catch(e => console.error(e));
 }

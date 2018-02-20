@@ -39,7 +39,7 @@ export default class ServerHarness {
    * Start the web server.
    */
   run(): Promise<void> {
-    return this.server.run();
+    return this.server.run({ doImport: false });
   }
 
   /**
