@@ -62,9 +62,13 @@ faq-what-q = Мӗн вӑл «Common Voice» ?
 faq-important-q = Вӑл мӗнпе кирлӗ?
 faq-get-q = «Common Voice» пӗлӗмсене мӗнле тиемелле?
 faq-mission-q = «Common Voice» мӗншӗн «Mozilla»-н ӗҫ-пуҫӗн пӗр пайӗ?
+faq-native-q = { $lang } манӑн тӑван чӗлхе мар, акцентпа калаҫатӑп, ара манӑн сасӑ кирлех-и?
+faq-native-a = Паллах, санӑн сассу та кирлӗ! "Халӑх сассин" (Common Voice) тӗллевӗсен пӗри - тӗрлӗ-тӗрлӗ акцентсене пуҫтарасси. Ҫавна май компьютерсем <bold>пурне те</bold> ӑнланма вӗренӗҫ.
+faq-firefox-q = «Халӑх сасси» (Common Voice) урлӑ пуплеве уяни Firefox-ӑн пайӗ пулӗ-и?
 
 ## Profile
 
+profile-why-title = Мӗншӗн профиль кирлӗ?
 
 ## NotFound
 
@@ -79,6 +83,7 @@ privacy-more = <more>Тӗплӗнрех вула</more>
 ## Terms
 
 terms-privacy-title = Харпӑрлӑх
+terms-communications-title = Ҫыхӑну
 terms-general-title = Пӗтӗмӗшле
 
 ## Data
