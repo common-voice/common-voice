@@ -2,7 +2,6 @@ import * as fs from 'fs';
 import * as path from 'path';
 const utf8 = require('utf8');
 import promisify from '../../../promisify';
-import { getFileExt } from '../../utility';
 import { hash } from '../../clip';
 
 const CWD = process.cwd();
@@ -10,6 +9,14 @@ const SENTENCE_FOLDER = path.resolve(CWD, 'server/data/');
 const UNUSED_FOLDER = path.join(SENTENCE_FOLDER, 'not-used');
 
 const CHUNK_SIZE = 50;
+
+function getFileExt(path: string): string {
+  const i = path.lastIndexOf('.');
+  if (i === -1) {
+    return '';
+  }
+  return path.substr(i - path.length);
+}
 
 function print(...args: any[]) {
   args.unshift('IMPORT --');
@@ -128,4 +135,3 @@ export async function importSentences(pool: any) {
 
   print(count, 'sentences');
 }
-
