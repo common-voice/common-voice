@@ -56,9 +56,12 @@ faq-important-q = Pourquoi est-ce important ?
 ## Profile
 
 profile-why-title = Pourquoi créer un profil ?
+profile-why-content = En nous communiquant quelques informations à votre sujet, les données audio que vous partagez avec Common Voice seront plus utiles pour les moteurs de reconnaissance vocale qui les utilisent, pour améliorer leur précision.
 
 ## NotFound
 
+notfound-title = Introuvable
+notfound-content = J’ai bien peur de ne pas savoir ce que vous recherchez.
 
 ## Privacy
 
@@ -76,6 +79,7 @@ data-download-button = Télécharger les données Common Voice
 data-download-license = Licence : <licenseLink>CC-0</licenseLink>
 data-download-modal = Vous vous apprêtez à télécharger <size>{ $size } Go</size>, voulez-vous continuer ?
 data-other-title = Autres jeux de données…
+data-other-tatoeba-description = Tatoeba est une immense base de données de phrases, de traductions et d’extraits oraux destinés à l’apprentissage des langues. Ce téléchargement contient toutes les données en anglais enregistrées par leur communauté.
 license = Licence : <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
@@ -89,3 +93,5 @@ record-error-too-quiet = Le volume de l’enregistrement est trop faible.
 review-terms = En utilisant Common Voice, vous acceptez nos <termsLink>conditions d’utilisation</termsLink> et notre <privacyLink>politique de confidentialité</privacyLink>
 review-submit-title = Vérifier et envoyer
 review-submit-msg = Merci pour votre enregistrement !<lineBreak></lineBreak>Vous pouvez maintenant valider et envoyer vos clips ci-dessous.
+review-rerecord = Réenregistrer
+review-cancel = Annuler l’envoi
