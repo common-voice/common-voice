@@ -25,7 +25,6 @@ export default class Server {
   api: API;
   logger: Logger;
   isLeader: boolean;
-  hasPerformedMaintenance = false;
   heartbeat: any;
 
   constructor(config?: CommonVoiceConfig) {
@@ -42,20 +41,7 @@ export default class Server {
 
     const app = (this.app = express());
 
-    app.use(
-      '/api/v1',
-      (request, response, next) => {
-        if (this.isLeader && !this.hasPerformedMaintenance) {
-          response
-            .status(307)
-            .location(request.url)
-            .end();
-          return;
-        }
-        next();
-      },
-      this.api.getRouter()
-    );
+    app.use('/api/v1', this.api.getRouter());
 
     const staticOptions = {
       setHeaders: (response: express.Response) => {
@@ -207,7 +193,6 @@ export default class Server {
     if (isLeader) {
       await this.performMaintenance();
     }
-    this.hasPerformedMaintenance = true;
     await this.loadCache();
 
     this.startHeartbeat();

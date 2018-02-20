@@ -128,3 +128,4 @@ export async function importSentences(pool: any) {
 
   print(count, 'sentences');
 }
+

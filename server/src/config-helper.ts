@@ -34,7 +34,7 @@ const DEFAULTS: CommonVoiceConfig = {
   MYSQLPORT: 3306,
   BUCKET_NAME: 'common-voice-corpus',
   BUCKET_LOCATION: '',
-  ENVIRONMENT: 'default'
+  ENVIRONMENT: 'default',
 };
 
 /**
