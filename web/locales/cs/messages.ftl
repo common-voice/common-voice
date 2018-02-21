@@ -65,19 +65,33 @@ faq-important-a = Hlas je přirozený a lidský. Je to nejjednoduší a nejpřir
 faq-get-q = Jak můžu získat data Common Voice?
 faq-get-a = Dataset je nyní k dispozici na naší <downloadLink>stahovací stránce</downloadLink> pod licencí <licenseLink>CC-0</licenseLink>.
 faq-mission-q = Proč je Common Voice součástí mise Mozilly?
+faq-mission-a = Mozilla se věnuje udržování webu otevřeným a dostupným pro všechny. Abychom to mohli dělat, potřebujeme podporovat tvůrce webu přes projekty jako Common Voice. Jelikož se hlasové technologie dostávají do spousty aplikací, věříme, že by měly sloužit stejně všem uživatelům. Vidíme potřebu zahrnout více jazyků, přízvuků a demografie při tvorbě a testování hlasových teechnologií. Mozilla chce vidět zdravý a vitální internet. To znamená dávat tvůrcům přístup k hlasovým datům, aby mohli vytvořet nové, mimořádné projekty. Common Voice bude veřejný zdroj který pomůže týmům Mozilly a vývojářům po celém světě.
+faq-native-q = Nejsem rodilý mluvčí jazyka { $lang } a mluvím s přízvukem, chcete i tak můj hlas?
+faq-native-a = Ano, určitě chceme váš hlas! Součástí cílů projektu Common Voice je získat tolik přízvuků, kolik jen jde, aby mohly počítače lépe rozumět <bold>každému</bold>, když mluví.
+faq-firefox-q = Bude převod řeči na text díky Common Voice někdy součástí Firefoxu?
+faq-firefox-a = Common Voice má neomezený potenciál a my zkoumáme rozhraní pro řeč ve spoustě produktů Mozilly včetně Firefoxu.
+faq-quality-q = Jaká je potřebná kvalita zvuku, aby mohl být použit?
+faq-quality-a = Chceme zvuk v takové kvalitě, která odpovídá kvalitě, se kterou se bude systém převodu řeči na text běžně setkávat. To znamená, že chceme rozdílnou kvalitu. To naučí systém převodu řeči na text porozumět v různých situacích — při mluvení v pozadí, hluku aut, hluku větráků — a to bez chyb.
 faq-hours-q = Proč je 10 000 hodin náš cíl pro zaznamenávání zvuku?
 faq-hours-a = Je to počet hodin potřebných k natrénování produkčního systému pro převod hlasu na text.
 faq-source-q = Odkud pochází zdrojové texty?
 faq-source-a1 = Současné věty pochází od darů přispěvatelů a z dialogů otevřených filmových scénářů, jako je <italic>It's a Wonderful Life</italic>.
+faq-source-a2 = Zdrojové věty si můžete prohlédnout v <dataLink>této GitHub složce</dataLink>.
 
 ## Profile
 
+profile-why-title = Proč profil?
+profile-why-content = Tím, že nám poskytnete informace o sobě, budou data, která odešlete do projektu Common Voice užitečnější pro systémy rozpoznávání řeči, které tato data používají ke zvýšení přesnosti.
 
 ## NotFound
 
+notfound-title = Nenalezeno
+notfound-content = Obávám se, že nevím, co hledáte.
 
 ## Privacy
 
+privacy-title = Zásady ochrany soukromí projektu Common Voice
+privacy-effective = Platné od { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
 
 ## Terms
 
