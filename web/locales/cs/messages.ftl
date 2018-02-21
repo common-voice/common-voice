@@ -126,13 +126,40 @@ data-get-started = <speechBlogLink>Začínáme s rozpoznáváním hlasu</speechB
 data-other-title = Další hlasové datasety…
 data-other-goto = Přejít na { $name }
 data-other-download = Stáhnout data
+data-bundle-button = Stáhnout balík datasetů
+data-bundle-description = Data Common Voice a data všech ostatních datasetů výše.
 license = Licence: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
 
+record-platform-not-supported = Je nám líto, ale vaše platforma zatím není podporovaná.
+record-platform-not-supported-desktop = Na počítačích si můžete stáhnout nejnovější:
+record-platform-not-supported-ios = Uživatelé <bold>iOS</bold> si mohou zdarma stáhnout naši aplikaci:
+record-must-allow-microphone = Musíte povolit přístup k mikrofonu.
+record-error-too-short = Nahrávka byla příliš krátká.
+record-error-too-long = Nahrávka byla příliš dlouhá.
+record-error-too-quiet = Nahrávka byla příliš tichá.
+record-submit-success = Odeslání bylo úspěšné! Chcete nahrávat znovu?
+record-help = Prosím, klepněte na Nahrát a poté hlasitě přečtěte větu výše.
+record-cancel = Zrušit opakovaný záznam
+review-terms = Používáním Common Voice souhlasíte s našimi <termsLink>Podmínkami</termsLink> a <privacyLink>Zásadami ochrany soukromí</privacyLink>
+review-aborted = Nahrávání bylo zrušeno. Chcete smazat vaše nahrávky?
+review-submit-title = Kontrola a odeslání
+review-submit-msg = Děkujeme za nahrávky!<lineBreak></lineBreak>Teď je níže zkontrolujte a odešlete.
+review-recording = Zkontrolovat
+review-rerecord = Nahrát znovu
+review-cancel = Zrušit odeslání
 
 ## Download Modal
 
+download-title = Vaše stahování bylo spuštěno.
+download-helpus = Pomozte nám vybudovat komunitu okolo hlasových technologií, zůstaňte v kontaktu přes e-mail.
+download-form-email =
+    .label = Zadejte váš e-mail
+    .value = Děkujeme, budeme ve spojení
+download-form-submit = Odeslat
+download-back = Zpět na datasety Common Voice
+download-no = Ne, děkuji
 
 ## Contact
 
