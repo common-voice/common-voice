@@ -10,10 +10,12 @@ terms = Conditions
 cookies = Cookies
 faq = Questions fréquentes
 content-license-text = Contenu disponible sous licence <licenseLink>Creative Commons</licenseLink>
+share-title = Aidez-nous à collecter davantage de voix !
 
 ## Home Page
 
 home-title = Le projet Common Voice est une initiative de Mozilla pour aider à apprendre à parler aux machines comme tout un chacun.
+home-cta = Donnez de la voix, contribuez ici !
 wall-of-text-start = La voix est naturelle, la voix est humaine. C’est pour cela que nous aimerions construire des technologies vocales de qualité pour nos machines. Mais construire de tels systèmes requiert un gigantesque volume de données vocales.
 wall-of-text-more-mobile = La plupart des données utilisées par les grandes sociétés ne sont pas mises à la disposition de monsieur ou madame Tout-le-monde. Nous pensons que cela freine l’innovation. C’est pour cela que le projet Common Voice existe, c’est un projet qui facilite l’accès à la reconnaissance vocale, pour tout le monde.
 show-wall-of-text = En savoir plus
@@ -114,6 +116,7 @@ license = Licence : <licenseLink>{ $license }</licenseLink>
 ## Record Page
 
 record-platform-not-supported = Nous sommes désolés, mais votre plateforme n’est pas encore prise en charge.
+record-platform-not-supported-desktop = Pour les ordinateurs de bureau, vous pouvez télécharger le plus récent :
 record-platform-not-supported-ios = Les utilisateurs <bold>iOS</bold> peuvent télécharger notre application gratuite :
 record-must-allow-microphone = Vous devez autoriser l’accès au microphone.
 record-error-too-short = L’enregistrement est trop court.
