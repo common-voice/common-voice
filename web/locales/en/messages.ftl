@@ -173,3 +173,15 @@ download-back = Return to Common Voice Datasets
 download-no = No Thanks
 download-stayintouch = We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.
 download-privacy = We promise to handle your information with care. Read more in our <privacyLink>Privacy Notice</privacyLink>.
+
+## Contact
+contact-title = Contact Form
+contact-cancel = Cancel
+contact-form-email =
+    .label = Email
+contact-form-name =
+    .label = Name
+contact-form-message =
+    .label = Message
+contact-required = *required
+contact-submit = Submit
