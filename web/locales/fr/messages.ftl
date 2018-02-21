@@ -52,6 +52,7 @@ profile-form-gender =
 faq-title = Questions fréquentes
 faq-what-q = Qu’est-ce que Common Voice ?
 faq-important-q = Pourquoi est-ce important ?
+faq-native-q = Je parle { $lang }, mais ce n’est pas ma langue maternelle et j’ai un accent, ma voix est-elle utile ?
 faq-native-a = Absolument, nous avons besoin de votre voix ! Une partie des objectifs de Common Voice est de collecter autant d’accents que possible pour que les machines puissent mieux interpréter la voix de <bold>tout le monde</bold>.
 faq-firefox-q = La synthèse vocale fera-t-elle un jour partie de Firefox grâce à Common Voice ?
 faq-hours-q = Pourquoi l’objectif de collecte de son est-il fixé à 10 000 heures ?
@@ -87,6 +88,7 @@ data-get-started = <speechBlogLink>S’initier à la reconnaissance vocale</spee
 data-other-title = Autres jeux de données…
 data-other-download = Télécharger les données
 data-other-tatoeba-description = Tatoeba est une immense base de données de phrases, de traductions et d’extraits oraux destinés à l’apprentissage des langues. Ce téléchargement contient toutes les données en anglais enregistrées par leur communauté.
+data-bundle-button = Télécharger un lot de jeux de données
 license = Licence : <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
@@ -97,14 +99,34 @@ record-must-allow-microphone = Vous devez autoriser l’accès au microphone.
 record-error-too-short = L’enregistrement est trop court.
 record-error-too-long = L’enregistrement est trop long.
 record-error-too-quiet = Le volume de l’enregistrement est trop faible.
+record-help = Appuyez pour enregistrer, puis lisez la phrase ci-dessus à haute voix.
+record-cancel = Annuler le réenregistrement
 review-terms = En utilisant Common Voice, vous acceptez nos <termsLink>conditions d’utilisation</termsLink> et notre <privacyLink>politique de confidentialité</privacyLink>
 review-submit-title = Vérifier et envoyer
 review-submit-msg = Merci pour votre enregistrement !<lineBreak></lineBreak>Vous pouvez maintenant valider et envoyer vos clips ci-dessous.
+review-recording = Vérification
 review-rerecord = Réenregistrer
 review-cancel = Annuler l’envoi
 
 ## Download Modal
 
+download-title = Votre téléchargement a démarré.
+download-form-email =
+    .label = Saisissez votre adresse électronique
+    .value = Merci, nous allons prendre contact avec vous.
+download-form-submit = Envoyer
+download-back = Retourner aux jeux de données Common Voice
+download-no = Non merci
 
 ## Contact
 
+contact-title = Formulaire de contact
+contact-cancel = Annuler
+contact-form-email =
+    .label = Adresse électronique
+contact-form-name =
+    .label = Nom
+contact-form-message =
+    .label = Message
+contact-required = *requis
+contact-submit = Envoyer
