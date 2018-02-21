@@ -39,7 +39,7 @@ export default () => (
       <p />
     </Localized>
 
-    <Localized id="faq-native-q">
+    <Localized id="faq-native-q" $lang="English">
       <h3 />
     </Localized>
     <Localized id="faq-native-a" bold={<b />}>
