@@ -18,13 +18,16 @@ home-title = Le projet Common Voice est une initiative de Mozilla pour aider à 
 home-cta = Donnez de la voix, contribuez ici !
 wall-of-text-start = La voix est naturelle, la voix est humaine. C’est pour cela que nous aimerions construire des technologies vocales de qualité pour nos machines. Mais construire de tels systèmes requiert un gigantesque volume de données vocales.
 wall-of-text-more-mobile = La plupart des données utilisées par les grandes sociétés ne sont pas mises à la disposition de monsieur ou madame Tout-le-monde. Nous pensons que cela freine l’innovation. C’est pour cela que le projet Common Voice existe, c’est un projet qui facilite l’accès à la reconnaissance vocale, pour tout le monde.
+wall-of-text-more-desktop =
+    Vous pouvez donner un peu de votre voix pour nous aider à créer une base de donnée libre, utilisable par n’importe qui pour réaliser des applications innovantes, y compris sur le Web.<lineBreak></lineBreak>
+    Lisez une phrase pour aider les machines à apprendre la façon de parler des êtres humains. Écoutez les enregistrements que d’autres ont réalisés pour les valider et ainsi améliorer la qualité des données. C’est aussi simple que ça !
 show-wall-of-text = En savoir plus
 help-us-title = Aidez-nous à valider des phrases !
 help-us-explain = Appuyez sur lecture, écoutez et dites-nous : la phrase ci-dessous est-elle prononcée correctement ?
 
 ## ProjectStatus
 
-status-title = État global du projet : jusqu’où nous sommes arrivés !
+status-title = État global du projet : découvrez nos progrès !
 status-contribute = Partagez votre voix
 status-loading = Chargement…
 status-hours = { $hours ->
@@ -100,13 +103,14 @@ terms-general-title = Général
 data-download-button = Télécharger les données Common Voice
 data-download-license = Licence : <licenseLink>CC-0</licenseLink>
 data-download-modal = Vous vous apprêtez à télécharger <size>{ $size } Go</size>, voulez-vous continuer ?
+data-subtitle = Nous créons un jeu de données de voix ouvert et publiquement accessible, que tout le monde peut utiliser pour réaliser des applications utilisant la voix.
 data-explanatory-text = Nous pensons que d’importants jeux de données publiquement accessibles favorisent l’innovation et participent à la mise en place d’une concurrence saine pour les technologies vocales utilisant l’apprentissage machine. C’est un effort mondial et nous invitons tout le monde à y prendre part. Notre objectif est de rendre les technologies vocales plus inclusives et qu’elles puissent refléter la diversité des voix du monde entier.
 data-get-started = <speechBlogLink>S’initier à la reconnaissance vocale</speechBlogLink>
 data-other-title = Autres jeux de données…
 data-other-download = Télécharger les données
-data-other-librispeech-description = LibriSpeech est un corpus d’environ 1000 heures d’anglais lu (16 kHz) de livres audio du projet LibriVox.
+data-other-librispeech-description = LibriSpeech est un corpus d’environ 1000 heures de lecture en anglais (16 kHz) issu de livres audio du projet LibriVox.
 data-other-ted-name = Corpus TED-LIUM
-data-other-ted-description = Le corpus TED-LIUM est construit à partir des données audio et de leurs transcriptions disponibles sur le site TED.
+data-other-ted-description = Le corpus TED-LIUM est construit à partir des dialogues audio et de leurs transcriptions disponibles sur le site TED.
 data-other-voxforge-description = VoxForge a été construit pour collecter des transcriptions vocales pour les utiliser dans des moteurs de reconnaissance vocale libres.
 data-other-tatoeba-description = Tatoeba est une immense base de données de phrases, de traductions et d’extraits audio destinés à l’apprentissage des langues. Ce téléchargement contient toutes les données en anglais enregistrées par leur communauté.
 data-bundle-button = Télécharger un lot de jeux de données
@@ -136,12 +140,15 @@ review-cancel = Annuler l’envoi
 ## Download Modal
 
 download-title = Votre téléchargement a démarré.
+download-helpus = Aidez-nous à rassembler une communauté autour des technologies vocales, restons en contact via courrier électronique.
 download-form-email =
     .label = Saisissez votre adresse électronique
     .value = Merci, nous prendrons contact avec vous.
 download-form-submit = Envoyer
 download-back = Retourner aux jeux de données Common Voice
 download-no = Non merci
+download-stayintouch = Chez Mozilla, nous rassemblons une communauté autour des technologies vocales. Nous aimerions rester en contact avec vous pour vous tenir au courant des nouvelles sources de données et pour découvrir comment vous utilisez ces données.
+download-privacy = Nous vous promettons de prendre soin de vos données. Apprenez-en davantage en consultant notre <privacyLink>politique de confidentialité</privacyLink>.
 
 ## Contact
 
