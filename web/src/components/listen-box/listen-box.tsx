@@ -3,6 +3,8 @@ const { Fragment } = require('react');
 import { trackListening } from '../../services/tracker';
 import { FontIcon, PlayIcon, RedoIcon } from '../ui/icons';
 
+const VOTE_NO_PLAY_MS = 3000; // Threshold when to allow voting no
+
 interface Props {
   src?: string;
   sentence?: string;
@@ -14,6 +16,7 @@ interface Props {
 interface State {
   loaded: boolean;
   played: boolean;
+  playedSome: boolean;
   playing: boolean;
   audio: HTMLAudioElement;
   shortcutsEnabled: boolean;
@@ -24,6 +27,7 @@ interface State {
  */
 export default class ListenBox extends React.Component<Props, State> {
   el: HTMLAudioElement;
+  playedSomeInterval: any;
 
   constructor(props: Props) {
     super(props);
@@ -39,9 +43,10 @@ export default class ListenBox extends React.Component<Props, State> {
   }
 
   state: State = {
-    loaded: true,
+    loaded: false,
     playing: false,
     played: false,
+    playedSome: false,
     audio: null,
     shortcutsEnabled: false,
   };
@@ -52,13 +57,19 @@ export default class ListenBox extends React.Component<Props, State> {
     }
   }
 
+  componentWillUnmount() {
+    clearInterval(this.playedSomeInterval);
+  }
+
   private resetState() {
     this.setState({
       loaded: false,
       playing: false,
       played: false,
+      playedSome: false,
       audio: null,
     });
+    clearInterval(this.playedSomeInterval);
   }
 
   private onLoadStart() {
@@ -88,6 +99,11 @@ export default class ListenBox extends React.Component<Props, State> {
 
     this.el.play();
     this.setState({ playing: true });
+    clearInterval(this.playedSomeInterval);
+    this.playedSomeInterval = setInterval(
+      () => this.setState({ playedSome: true }),
+      VOTE_NO_PLAY_MS
+    );
   }
 
   private onDelete() {
@@ -109,23 +125,18 @@ export default class ListenBox extends React.Component<Props, State> {
       loaded: false,
       playing: false,
       played: false,
+      playedSome: false,
     });
 
     this.props.onVote && this.props.onVote(votedYes);
   }
 
   private voteYes() {
-    if (!this.state.played) {
-      return;
-    }
     this.vote(true);
     trackListening('vote-yes');
   }
 
   private voteNo() {
-    if (!this.state.played) {
-      return;
-    }
     this.vote(false);
     trackListening('vote-no');
   }
@@ -157,7 +168,13 @@ export default class ListenBox extends React.Component<Props, State> {
   };
 
   render() {
-    const { loaded, playing, played, shortcutsEnabled } = this.state;
+    const {
+      loaded,
+      playing,
+      played,
+      playedSome,
+      shortcutsEnabled,
+    } = this.state;
     return (
       <div
         tabIndex={-1}
@@ -177,11 +194,17 @@ export default class ListenBox extends React.Component<Props, State> {
           {playing ? <FontIcon type="stop" /> : <PlayIcon />}
         </button>
         {this.props.vote ? (
-          <div className={'vote-box ' + (played ? '' : 'disabled')}>
-            <button onClick={this.voteYes} onTouchStart={this.voteYes}>
+          <div className="vote-box">
+            <button
+              onClick={this.voteYes}
+              onTouchStart={this.voteYes}
+              disabled={!played}>
               {this.renderShortcutText('Yes')}
             </button>
-            <button onClick={this.voteNo} onTouchStart={this.voteNo}>
+            <button
+              onClick={this.voteNo}
+              onTouchStart={this.voteNo}
+              disabled={!played && !playedSome}>
               {this.renderShortcutText('No')}
             </button>
           </div>
