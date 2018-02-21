@@ -92,9 +92,29 @@ notfound-content = Obávám se, že nevím, co hledáte.
 
 privacy-title = Zásady ochrany soukromí projektu Common Voice
 privacy-effective = Platné od { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
+privacy-policy = Když Mozilla (to jsme my) získává informace od vás, naše <policy>Zásady ochrany soukromí</policy> popisuje, jak s těmito daty nakládáme.
+privacy-data-demographic = <name>Demografická data.</name> Dobrovolně nám můžete odeslat informace, jako je váš přízvuk, věk a pohlaví. To pomáhá nám a ostatním výzkumníkům zlepšovat a vytvářet technologie a nástroje pro převod řeči na text.
+privacy-data-account = <name>Informace o účtu.</name> Dobrovolně si můžete vytvořit účet, přičemž my obdržíme vaši e-mailovou adresu. Ta je spojená s vašimi demografickými a interakčními daty, ale není dostupná pro veřejnost.
+privacy-data-recordings = <name>Hlasové nahrávky.</name> Hlasové nahrávky, spolu s jakýmykoli demografickými daty, mohou být dostupné v databázi Common Voice pro veřejné využití.
+privacy-data-interaction = <name>Interakční data.</name> Používáme Google Analytics, abychom lépe pochopili, jak pracujete s aplikací nebo webem Common Voice. To zahrnuje například počet zvukových nahrávek, které jste nahráli nebo poslechli, interakce s tlačítky a menu, nebo délku relace.
+privacy-data-technical = <name>Technická data.</name> Pomocí Google Analytics sbíráme adresy URL a názvy stránek Common Voice, které navštěvujete. Sbíráme také typ vašeho prohlížeče, velikost zobrazení a rozlišení obrazovky. Také sbíráme vaši polohu a nastavení jazyka ve vašem prohlížeči.
+privacy-more = <more>Zjistit více</more>
 
 ## Terms
 
+terms-title = Právní podmínky projektu Common Voice
+terms-effective = Platné od { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
+terms-eligibility-title = Oprávněnost
+terms-eligibility-content = Musíte být starší 13 let nebo mít svolení rodiče či opatrovníka, který na vás v našem projektu musí dohlížet.
+terms-privacy-title = Soukromí
+terms-privacy-content = Naše <privacyLink>Zásady ochrany soukromí</privacyLink> vysvětlují, jak přijímáme a nakládáme s vašimi daty.
+terms-contributions-title = Vaše příspěvky a uvolnění práv
+terms-contributions-content = Odesláním vašich nahrávek se vzdáváte všech autorských práv a souvisejících práv, která můžete mít, a souhlasíte se zveřejněním nahrávek pod licencí <licenseLink>CC-0</licenseLink>. To znamená, že souhlasíte se vzdáním se celosvětově všech práv k nahrávkám podle autorského zákona a zákona o sběru údajů, včetně morálních a viditelnostních práv, a všech spojených a souvisejících práv.
+terms-communications-title = Komunikace
+terms-communications-content = Pokud se přihlásíte k odběru našeho zpravodaje nebo si v souvislosti s projektem Common Voice vytvoříte účet, můžete od nás dostávat e-maily spojené s vaším účtem (například aktualizace podmínek, zásad ochrany soukromí a bezpečnostních informací).
+terms-general-title = Obecné
+terms-general-liability1 = Zřeknutí se práv; Omezení odpovědnosti: COMMON VOICE A VŠECHNY JEHO NAHRÁVKY JSOU POSKYTNUTÉ NA BÁZI „JAK JE“ BEZ JAKÉKOLI ZÁRUKY, AŤ UŽ VYSLOVENÉ NEBO PŘEDPOKLÁDANÉ. MOZILLA SE ZŘÍKÁ ODPOVĚDNOSTI A NEDRŽÍ ŽÁDNOU ODPOVĚDNOST ZA ŽÁDNÉ NAHRÁVKY, KTERÉ VY, JINÝ UŽIVATEL NEBO TŘETÍ STRANA PUBLIKUJE NEBO PŘENÁŠÍ PROSTŘEDNICTVÍM PROJEKTU COMMON VOICE.
+terms-general-liability2 = MOZILLA SE VÝSLOVNĚ ZŘÍKÁ VŠECH ZÁRUK A PODMÍNEK OBCHODOVATELNOSTI, VHODNOSTI PRO URČITÝ ÚČEL, PORUŠENÍ A JAKÉKOLI ZÁRUKY VYPLÝVAJÍCÍ Z PRŮBĚHU JEDNÁNÍ NEBO OBCHODU.
 
 ## Data
 
