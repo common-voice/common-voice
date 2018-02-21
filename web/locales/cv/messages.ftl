@@ -115,3 +115,11 @@ review-submit-msg = Ҫырса илнӗшӗн тавах!<lineBreak></lineBreak>
 review-recording = Тӗрӗсле
 review-rerecord = Ҫӗнӗрен ҫырса ил
 review-cancel = Ҫырса илнине тиеме пӑрахӑҫла
+
+## Download Modal
+
+
+## Contact
+
+contact-form-name =
+    .label = Ят
