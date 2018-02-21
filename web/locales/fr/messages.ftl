@@ -59,9 +59,9 @@ faq-native-a = Absolument, nous avons besoin de votre voix ! Une partie des obj
 faq-firefox-q = La synthèse vocale fera-t-elle un jour partie de Firefox grâce à Common Voice ?
 faq-firefox-a = Common Voice a un potentiel illimité et nous étudions l’utilisation d’interfaces vocales au sein de nombreux logiciels Mozilla, dont Firefox.
 faq-quality-q = Quel est le niveau de qualité audio requis ?
-faq-quality-a = Nous voulons une qualité audio qui corresponde à ce qu’un moteur de reconnaissance vocale devra affronter dans la nature. Nous avons donc besoin de variété. Cela entraîne le moteur à prendre correctement en compte différentes situations : des discussions en arrière-plan, des bruits de moteurs ou des bruits de ventilateurs.
+faq-quality-a = Nous voulons une qualité audio qui corresponde à ce qu’un moteur de reconnaissance vocale devra affronter dans la vie courante. Nous avons donc besoin de variété. Cela entraîne le moteur à prendre correctement en compte différentes situations : des discussions en arrière-plan, des bruits de moteurs ou des bruits de ventilateurs.
 faq-hours-q = Pourquoi l’objectif de collecte de son est-il fixé à 10 000 heures ?
-faq-hours-a = C’est la quantité de données nécessaire, environ, pour être en mesure de produire un système de reconnaissance vocale de qualité.
+faq-hours-a = C’est, environ, la quantité de données nécessaire pour être en mesure de produire un système de reconnaissance vocale de qualité.
 faq-source-q = Quelle est la provenance du texte ?
 faq-source-a1 = Les phrases actuelles proviennent de contributions individuelles ainsi que des dialogues de certains films dans le domaine public comme <italic>La vie est belle</italic>.
 faq-source-a2 = Les phrases sources sont accessibles <dataLink>dans ce dossier</dataLink> sur GitHub.
@@ -69,7 +69,7 @@ faq-source-a2 = Les phrases sources sont accessibles <dataLink>dans ce dossier</
 ## Profile
 
 profile-why-title = Pourquoi créer un profil ?
-profile-why-content = En nous communiquant quelques informations à votre sujet, les données audio que vous partagez avec Common Voice seront plus utiles pour les moteurs de reconnaissance vocale qui les utilisent, pour améliorer leur précision.
+profile-why-content = En nous communiquant quelques informations à votre sujet, les données audio que vous partagez avec Common Voice seront plus utiles pour les moteurs de reconnaissance vocale, qui les utilisent afin d’améliorer leur précision.
 
 ## NotFound
 
@@ -84,7 +84,7 @@ privacy-more = <more>En savoir plus</more>
 
 terms-privacy-content = Notre <privacyLink>politique de confidentialité</privacyLink> explique comment nous collectons et gérons vos données.
 terms-communications-title = Communications
-terms-communications-content = Si vous vous inscrivez pour recevoir nos lettres d’information ou que vous créez un compte en lien avec Common Voice, vous pourriez recevoir des courriels de notre part relatifs à votre compte (par exemple, pour des raisons juridiques, de sécurité ou de confidentialité).
+terms-communications-content = Si vous vous inscrivez à nos lettres d’information ou que vous créez un compte en lien avec Common Voice, vous pourriez recevoir des courriers électroniques de notre part relatifs à votre compte (par exemple, pour des raisons juridiques, de sécurité ou de confidentialité).
 terms-general-title = Général
 
 ## Data
