@@ -75,7 +75,9 @@ class AfterDownloadModal extends React.Component<Props, State> {
                 <p />
               </Localized>
 
-              <Localized id="download-form-email" attrs={{ label: !isSubmitted, value: isSubmitted }}>
+              <Localized
+                id="download-form-email"
+                attrs={{ label: !isSubmitted, value: isSubmitted }}>
                 <LabeledInput
                   label={isSubmitted ? '' : 'Enter your email'}
                   type={isSubmitted ? 'text' : 'email'}
@@ -97,7 +99,15 @@ class AfterDownloadModal extends React.Component<Props, State> {
                 href="javascript:void(0)"
                 onClick={onRequestClose}
                 className="cancel">
-                {isSubmitted ? <Localized id="download-back"><span /></Localized> : <Localized id="download-no"><span /></Localized>}
+                {isSubmitted ? (
+                  <Localized id="download-back">
+                    <span />
+                  </Localized>
+                ) : (
+                  <Localized id="download-no">
+                    <span />
+                  </Localized>
+                )}
               </a>
 
               {isSubmitted && <br />}
@@ -107,7 +117,15 @@ class AfterDownloadModal extends React.Component<Props, State> {
               </Localized>
               <br />
 
-              <Localized id="download-privacy" privacyLink={<a href="/privacy" target="__blank" rel="noopener noreferrer" />}>
+              <Localized
+                id="download-privacy"
+                privacyLink={
+                  <a
+                    href="/privacy"
+                    target="__blank"
+                    rel="noopener noreferrer"
+                  />
+                }>
                 <p className="fine-print" />
               </Localized>
             </form>
