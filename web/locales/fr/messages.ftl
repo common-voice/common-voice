@@ -13,6 +13,8 @@ content-license-text = Contenu disponible sous licence <licenseLink>Creative Com
 
 ## Home Page
 
+home-title = Le projet Common Voice est une initiative de Mozilla pour aider à apprendre à parler aux machines comme tout un chacun.
+wall-of-text-start = La voix est naturelle, la voix est humaine. C’est pour cela que nous aimerions construire des technologies vocales de qualité pour nos machines. Mais construire de tels systèmes requiert un gigantesque volume de données vocales.
 show-wall-of-text = En savoir plus
 help-us-title = Aidez-nous à valider des phrases !
 help-us-explain = Appuyez sur lecture, écoutez et dites-nous : la phrase ci-dessous est-elle prononcée correctement ?
@@ -99,7 +101,7 @@ data-other-librispeech-description = LibriSpeech est un corpus d’environ 1000�
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = Le corpus TED-LIUM est construit à partir des données audio et de leurs transcriptions disponibles sur le site TED.
 data-other-voxforge-description = VoxForge a été construit pour collecter des transcriptions vocales pour les utiliser dans des moteurs de reconnaissance vocale libres.
-data-other-tatoeba-description = Tatoeba est une immense base de données de phrases, de traductions et d’extraits oraux destinés à l’apprentissage des langues. Ce téléchargement contient toutes les données en anglais enregistrées par leur communauté.
+data-other-tatoeba-description = Tatoeba est une immense base de données de phrases, de traductions et d’extraits audio destinés à l’apprentissage des langues. Ce téléchargement contient toutes les données en anglais enregistrées par leur communauté.
 data-bundle-button = Télécharger un lot de jeux de données
 data-bundle-description = Données Common Voice ainsi que tous les autres jeux de données ci-dessus.
 license = Licence : <licenseLink>{ $license }</licenseLink>
@@ -118,7 +120,7 @@ record-cancel = Annuler le réenregistrement
 review-terms = En utilisant Common Voice, vous acceptez nos <termsLink>conditions d’utilisation</termsLink> et notre <privacyLink>politique de confidentialité</privacyLink>
 review-aborted = Échec de l’envoi. Voulez-vous supprimer vos enregistrements ?
 review-submit-title = Vérifier et envoyer
-review-submit-msg = Merci pour votre enregistrement !<lineBreak></lineBreak>Vous pouvez maintenant valider et envoyer vos clips ci-dessous.
+review-submit-msg = Merci pour votre enregistrement !<lineBreak></lineBreak>Vous pouvez maintenant valider et envoyer vos extraits ci-dessous.
 review-recording = Vérification
 review-rerecord = Réenregistrer
 review-cancel = Annuler l’envoi
@@ -128,7 +130,7 @@ review-cancel = Annuler l’envoi
 download-title = Votre téléchargement a démarré.
 download-form-email =
     .label = Saisissez votre adresse électronique
-    .value = Merci, nous allons prendre contact avec vous.
+    .value = Merci, nous prendrons contact avec vous.
 download-form-submit = Envoyer
 download-back = Retourner aux jeux de données Common Voice
 download-no = Non merci
