@@ -15,6 +15,7 @@ content-license-text = Contenu disponible sous licence <licenseLink>Creative Com
 
 home-title = Le projet Common Voice est une initiative de Mozilla pour aider à apprendre à parler aux machines comme tout un chacun.
 wall-of-text-start = La voix est naturelle, la voix est humaine. C’est pour cela que nous aimerions construire des technologies vocales de qualité pour nos machines. Mais construire de tels systèmes requiert un gigantesque volume de données vocales.
+wall-of-text-more-mobile = La plupart des données utilisées par les grandes sociétés ne sont pas mises à la disposition de monsieur ou madame Tout-le-monde. Nous pensons que cela freine l’innovation. C’est pour cela que le projet Common Voice existe, c’est un projet qui facilite l’accès à la reconnaissance vocale, pour tout le monde.
 show-wall-of-text = En savoir plus
 help-us-title = Aidez-nous à valider des phrases !
 help-us-explain = Appuyez sur lecture, écoutez et dites-nous : la phrase ci-dessous est-elle prononcée correctement ?
@@ -64,7 +65,7 @@ faq-quality-q = Quel est le niveau de qualité audio requis ?
 faq-quality-a = Nous voulons une qualité audio qui corresponde à ce qu’un moteur de reconnaissance vocale devra affronter dans la vie courante. Nous avons donc besoin de variété. Cela entraîne le moteur à prendre correctement en compte différentes situations : des discussions en arrière-plan, des bruits de moteurs ou des bruits de ventilateurs.
 faq-hours-q = Pourquoi l’objectif de collecte de son est-il fixé à 10 000 heures ?
 faq-hours-a = C’est, environ, la quantité de données nécessaire pour être en mesure de produire un système de reconnaissance vocale de qualité.
-faq-source-q = Quelle est la provenance du texte ?
+faq-source-q = Quelle est la provenance des textes ?
 faq-source-a1 = Les phrases actuelles proviennent de contributions individuelles ainsi que des dialogues de certains films dans le domaine public comme <italic>La vie est belle</italic>.
 faq-source-a2 = Les phrases sources sont accessibles <dataLink>dans ce dossier</dataLink> sur GitHub.
 
@@ -94,6 +95,7 @@ terms-general-title = Général
 data-download-button = Télécharger les données Common Voice
 data-download-license = Licence : <licenseLink>CC-0</licenseLink>
 data-download-modal = Vous vous apprêtez à télécharger <size>{ $size } Go</size>, voulez-vous continuer ?
+data-explanatory-text = Nous pensons que d’importants jeux de données publiquement accessibles favorisent l’innovation et participent à la mise en place d’une concurrence saine pour les technologies vocales utilisant l’apprentissage machine. C’est un effort mondial et nous invitons tout le monde à y prendre part. Notre objectif est de rendre les technologies vocales plus inclusives et qu’elles puissent refléter la diversité des voix du monde entier.
 data-get-started = <speechBlogLink>S’initier à la reconnaissance vocale</speechBlogLink>
 data-other-title = Autres jeux de données…
 data-other-download = Télécharger les données
