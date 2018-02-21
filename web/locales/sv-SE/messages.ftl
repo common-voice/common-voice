@@ -1,7 +1,10 @@
 ## Layout
 
+speak = Prata
 profile = Profil
 help = Hjälp
+privacy = Integritet
+terms = Villkor
 cookies = Kakor
 faq = FAQ
 
@@ -11,6 +14,7 @@ show-wall-of-text = Läs mer
 
 ## ProjectStatus
 
+status-contribute = Bidra med din röst
 status-loading = Laddar…
 # Variables:
 # $goal - number of hours representing the next goal
@@ -49,6 +53,7 @@ privacy-more = <more>Lär dig mer</more>
 
 ## Terms
 
+terms-eligibility-title = Berättigande
 terms-privacy-title = Integritet
 terms-communications-title = Kommunikation
 
