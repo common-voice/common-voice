@@ -161,3 +161,15 @@ review-submit-msg = Thank you for recording!<lineBreak></lineBreak>Now review an
 review-recording = Review
 review-rerecord = Re-record
 review-cancel = Cancel Submission
+
+## Contact
+contact-title = Contact Form
+contact-cancel = Cancel
+contact-form-email =
+    .label = Email
+contact-form-name =
+    .label = Name
+contact-form-message =
+    .label = Message
+contact-required = *required
+contact-submit = Submit
