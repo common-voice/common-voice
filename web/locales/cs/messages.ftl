@@ -115,6 +115,10 @@ terms-communications-content = Pokud se přihlásíte k odběru našeho zpravoda
 terms-general-title = Obecné
 terms-general-liability1 = Zřeknutí se práv; Omezení odpovědnosti: COMMON VOICE A VŠECHNY JEHO NAHRÁVKY JSOU POSKYTNUTÉ NA BÁZI „JAK JE“ BEZ JAKÉKOLI ZÁRUKY, AŤ UŽ VYSLOVENÉ NEBO PŘEDPOKLÁDANÉ. MOZILLA SE ZŘÍKÁ ODPOVĚDNOSTI A NEDRŽÍ ŽÁDNOU ODPOVĚDNOST ZA ŽÁDNÉ NAHRÁVKY, KTERÉ VY, JINÝ UŽIVATEL NEBO TŘETÍ STRANA PUBLIKUJE NEBO PŘENÁŠÍ PROSTŘEDNICTVÍM PROJEKTU COMMON VOICE.
 terms-general-liability2 = MOZILLA SE VÝSLOVNĚ ZŘÍKÁ VŠECH ZÁRUK A PODMÍNEK OBCHODOVATELNOSTI, VHODNOSTI PRO URČITÝ ÚČEL, PORUŠENÍ A JAKÉKOLI ZÁRUKY VYPLÝVAJÍCÍ Z PRŮBĚHU JEDNÁNÍ NEBO OBCHODU.
+terms-general-liability4 = KROMĚ PŘÍPADŮ, KDY TO VYŽADUJE ZÁKON, MOZILLA A STRANY MOZILLY NEBUDOU ODPOVĚDNÍ ZA JAKÉKOLI NEPŘÍMÉ, SPECIÁLNÍ, NÁHODNÉ, NÁSLEDNÉ NEBO EXEMPLÁRNÍ ŠKODY VYPLÝVAJÍCÍ NEBO JAKKOLI SPOJENÉ S TĚMITO PODMÍNKAMI NEBO POUŽITÍM NEBO NEMOŽNOSTÍ POUŽITÍ SLUŽEB, VČETNĚ PŘÍMÉHO A NEPŘÍMÉHO POŠKOZENÍ NEBO ZTRÁTY POVĚSTI, ZASTAVENÍ PRÁCE, ZTRÁTY ZISKU, ZTRÁTY DAT A SELHÁNÍ POČÍTAČE NEBO JEHO SELHÁNÍ, A TO I KDYŽ BUDETE NA MOŽNOST TAKOVÝCH ŠKOD UPOZORNĚNI, BEZ OHLEDU NA PODKLADY (SMLOUVU, ČIN A OSTATNÍ), NA KTERÝCH JE TAKOVÝ NÁROK POSTAVEN. SOUHRNNÁ ODPOVĚDNOST MOZILLY A STRAN MOZILLY PODLE TÉTO DOHODY NEPŘEKROČÍ $500 (PĚT SET DOLARŮ). NĚKTERÉ JURISDIKCE NEUMOŽŇUJÍ VYLOUČENÍ NEBO OMEZENÍ NÁHODNÉ, NÁSLEDNÉ NEBO SPECIÁLNÍ ŠKODY, TAKŽE SE VÁS TOTO VYLOUČENÍ A OMEZENÍ NEMUSÍ VZTAHOVAT.
+terms-general-updates = Aktualizace: Mozilla může tyto Podmínky čas od času aktualizovat, aby zahrnula novou funkci Služeb nebo ujasnila ustanovení. Aktualizované Podmínky budou zveřejněny online. Pokud jsou změny postatné, oznámíme je přes běžné kanály Mozilly pro taková oznámení, jako jsou příspěvky na blogu nebo fóra. Vaším dalším používáním Služeb po datu platnosti změn vyjadřujete souhlas s těmito změnami. Abychom udělali kontrolu jednodušší, zveřejníme datum platnosti na začátek této stránky.
+terms-general-termination = Ukončení: Můžeme kdykoli pozastavit nebo ukončit váš přístup ke Službám z jakéhokoli důvodu. Vyvineme přiměřené úsilí, abychom vás informovali na e-mailovou adresu přiřazenou k vašemu účtu, nebo při vašem příštím pokusu o využití Služeb. Bez ohledu na ukončení budou dále všechny nahrávky, které odešlete Mozille, veřejně dostupné.
+terms-general-law = Rozhodné právo: Tyto Právní podmínky představují úplnou dohodu mezi vámi a Mozillou ohledně projektu Common Voice a řídí se zákony státu Kalifornie, USA.
 
 ## Data
 
@@ -122,10 +126,16 @@ data-download-button = Stáhnout data Common Voice
 data-download-license = Licence: <licenseLink>CC-0</licenseLink>
 data-download-modal = Chystáte se zahájit stahování <size>{ $size } GB</size>, chcete pokračovat?
 data-subtitle = Vytváříme otevřený a veřejně dostupný dataset hlasu, který může kdokoli použít k trénování jeho hlasových aplikací.
+data-explanatory-text = Věříme, že rozsáhlé a veřejně dostupné hlasové datasety podporují inovace a zdravou obchodní soutěž v technologii řeči založené na strojovém učení. Jde o celosvětové úsilí a zveme všechny, aby se zapojili. Naším cílem je pomoci technologiím využívajícím řeč, aby byly otevřenější a odrážely rozmanitost hlasů z celého světa.
 data-get-started = <speechBlogLink>Začínáme s rozpoznáváním hlasu</speechBlogLink>
 data-other-title = Další hlasové datasety…
 data-other-goto = Přejít na { $name }
 data-other-download = Stáhnout data
+data-other-librispeech-description = LibriSpeech je korpus přibližně 1 000 hodin 16 kHz čtené angličtiny odvozený od čtených audioknih z projektu LibriVox.
+data-other-ted-name = Korpus TED-LIUM
+data-other-ted-description = Korpus TED-LIUM je tvořen zvukem přednášek a jejich přepisů dostupných na webu TED.
+data-other-voxforge-description = VoxForge byl vytvořen pro sběr přepsaných řečí pro použití ve zdarma dostupných a open-source systémech pro rozpoznávání řeči.
+data-other-tatoeba-description = Tatoeba je rozsáhlá databáze vět, překladů a mluveného slova pro použití při studiu jazyků. Tento obsah obsahuje všechnu mluvenou angličtinu nahranou jejich komunitou.
 data-bundle-button = Stáhnout balík datasetů
 data-bundle-description = Data Common Voice a data všech ostatních datasetů výše.
 license = Licence: <licenseLink>{ $license }</licenseLink>
@@ -160,6 +170,8 @@ download-form-email =
 download-form-submit = Odeslat
 download-back = Zpět na datasety Common Voice
 download-no = Ne, děkuji
+download-stayintouch = V Mozille budujeme komunitu okolo hlasových technologií. Rádi bychom zůstali v kontaktu s novinkami, novými zdroji dat a rádi bychom se dozvěděli, jak tato data používáte.
+download-privacy = Slibujeme, že budeme vaše informace zpracovávat s péčí. Přečtěte si více v našich <privacyLink>Zásadách ochrany soukromí</privacyLink>.
 
 ## Contact
 
