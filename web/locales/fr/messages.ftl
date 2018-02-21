@@ -37,6 +37,7 @@ profile-form-email =
     .label = Adresse électronique
 profile-form-username =
     .label = Nom d’utilisateur
+profile-form-emails = Oui, envoyez-moi des courriers électroniques. Je souhaite recevoir l’actualité du projet Common Voice.
 profile-form-language =
     .label = Langue
 profile-form-more-languages = Bientôt de nouvelles langues !
@@ -51,11 +52,17 @@ profile-form-gender =
 
 faq-title = Questions fréquentes
 faq-what-q = Qu’est-ce que Common Voice ?
+faq-what-a = Les technologies de reconnaissance vocale pourraient révolutionner nos interactions avec les machines, mais les systèmes disponibles à l’heure actuelle sont coûteux et propriétaires. Common Voice est un projet visant à rendre accessible à quiconque ce type de technologie. Les contributeurs partagent leurs voix dans une énorme base de données qui permettra à n’importe qui de rapidement et facilement réaliser des applications utilisant la voix. Toutes les données vocales seront mises à disposition des développeurs.
 faq-important-q = Pourquoi est-ce important ?
 faq-native-q = Je parle { $lang }, mais ce n’est pas ma langue maternelle et j’ai un accent, ma voix est-elle utile ?
 faq-native-a = Absolument, nous avons besoin de votre voix ! Une partie des objectifs de Common Voice est de collecter autant d’accents que possible pour que les machines puissent mieux interpréter la voix de <bold>tout le monde</bold>.
 faq-firefox-q = La synthèse vocale fera-t-elle un jour partie de Firefox grâce à Common Voice ?
+faq-firefox-a = Common Voice a un potentiel illimité et nous étudions l’utilisation d’interfaces vocales au sein de nombreux logiciels Mozilla, dont Firefox.
+faq-quality-q = Quel est le niveau de qualité audio requis ?
+faq-quality-a = Nous voulons une qualité audio qui corresponde à ce qu’un moteur de reconnaissance vocale devra affronter dans la nature. Nous avons donc besoin de variété. Cela entraîne le moteur à prendre correctement en compte différentes situations : des discussions en arrière-plan, des bruits de moteurs ou des bruits de ventilateurs.
 faq-hours-q = Pourquoi l’objectif de collecte de son est-il fixé à 10 000 heures ?
+faq-hours-a = C’est la quantité de données nécessaire, environ, pour être en mesure de produire un système de reconnaissance vocale de qualité.
+faq-source-q = Quelle est la provenance du texte ?
 faq-source-a1 = Les phrases actuelles proviennent de contributions individuelles ainsi que des dialogues de certains films dans le domaine public comme <italic>La vie est belle</italic>.
 faq-source-a2 = Les phrases sources sont accessibles <dataLink>dans ce dossier</dataLink> sur GitHub.
 
@@ -71,6 +78,7 @@ notfound-content = J’ai bien peur de ne pas savoir ce que vous recherchez.
 
 ## Privacy
 
+privacy-more = <more>En savoir plus</more>
 
 ## Terms
 
@@ -87,8 +95,13 @@ data-download-modal = Vous vous apprêtez à télécharger <size>{ $size } Go</
 data-get-started = <speechBlogLink>S’initier à la reconnaissance vocale</speechBlogLink>
 data-other-title = Autres jeux de données…
 data-other-download = Télécharger les données
+data-other-librispeech-description = LibriSpeech est un corpus d’environ 1000 heures d’anglais lu (16 kHz) de livres audio du projet LibriVox.
+data-other-ted-name = Corpus TED-LIUM
+data-other-ted-description = Le corpus TED-LIUM est construit à partir des données audio et de leurs transcriptions disponibles sur le site TED.
+data-other-voxforge-description = VoxForge a été construit pour collecter des transcriptions vocales pour les utiliser dans des moteurs de reconnaissance vocale libres.
 data-other-tatoeba-description = Tatoeba est une immense base de données de phrases, de traductions et d’extraits oraux destinés à l’apprentissage des langues. Ce téléchargement contient toutes les données en anglais enregistrées par leur communauté.
 data-bundle-button = Télécharger un lot de jeux de données
+data-bundle-description = Données Common Voice ainsi que tous les autres jeux de données ci-dessus.
 license = Licence : <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
@@ -99,9 +112,11 @@ record-must-allow-microphone = Vous devez autoriser l’accès au microphone.
 record-error-too-short = L’enregistrement est trop court.
 record-error-too-long = L’enregistrement est trop long.
 record-error-too-quiet = Le volume de l’enregistrement est trop faible.
+record-submit-success = Envoi réussi ! Voulez-vous effectuer un nouvel enregistrement ?
 record-help = Appuyez pour enregistrer, puis lisez la phrase ci-dessus à haute voix.
 record-cancel = Annuler le réenregistrement
 review-terms = En utilisant Common Voice, vous acceptez nos <termsLink>conditions d’utilisation</termsLink> et notre <privacyLink>politique de confidentialité</privacyLink>
+review-aborted = Échec de l’envoi. Voulez-vous supprimer vos enregistrements ?
 review-submit-title = Vérifier et envoyer
 review-submit-msg = Merci pour votre enregistrement !<lineBreak></lineBreak>Vous pouvez maintenant valider et envoyer vos clips ci-dessous.
 review-recording = Vérification
