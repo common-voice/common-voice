@@ -4,7 +4,7 @@ speak = Parler
 datasets = Jeux de données
 profile = Profil
 help = Aide
-contact = Contact
+contact = Nous contacter
 privacy = Vie privée
 terms = Conditions
 cookies = Cookies
@@ -23,8 +23,8 @@ status-title = État global du projet : jusqu’où nous sommes arrivés !
 status-contribute = Partagez votre voix
 status-loading = Chargement…
 status-hours = { $hours ->
-        [one] Une heure déjà validée !
-       *[other] { $hours } déjà validées !
+        [one] Déjà une heure validée !
+       *[other] Déjà { $hours } validées !
     }
 # Variables:
 # $goal - number of hours representing the next goal
@@ -102,3 +102,9 @@ review-submit-title = Vérifier et envoyer
 review-submit-msg = Merci pour votre enregistrement !<lineBreak></lineBreak>Vous pouvez maintenant valider et envoyer vos clips ci-dessous.
 review-rerecord = Réenregistrer
 review-cancel = Annuler l’envoi
+
+## Download Modal
+
+
+## Contact
+
