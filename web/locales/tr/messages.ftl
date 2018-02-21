@@ -5,6 +5,10 @@ datasets = Veri kümeleri
 profile = Profil
 help = Yardım
 contact = İletişim
+privacy = Gizlilik
+terms = Koşullar
+cookies = Çerezler
+faq = SSS
 share-title = Sesini bağışlayacak birilerini bulmamıza yardım et!
 
 ## Home Page
@@ -17,6 +21,7 @@ help-us-title = Cümleleri doğrulamamıza yardım et!
 ## ProjectStatus
 
 status-contribute = Sesinle katkı sağla
+status-loading = Yükleniyor…
 status-hours = { $hours ->
        *[one] Şu ana kadar { $hours } saatlik veri doğrulandı!
     }
@@ -27,18 +32,32 @@ status-more-soon = Yakında başka diller de geliyor!
 
 ## ProfileForm
 
+profile-form-email =
+    .label = E-posta
+profile-form-username =
+    .label = Kullanıcı adı
 profile-form-language =
     .label = Dil
 profile-form-more-languages = Yakında başka diller de geliyor!
+profile-form-accent =
+    .label = Aksan
+profile-form-age =
+    .label = Yaş
+profile-form-gender =
+    .label = Cinsiyet
 
 ## FAQ
 
+faq-title = Sıkça Sorulan Sorular
+faq-what-q = Common Voice nedir?
 
 ## Profile
 
 
 ## NotFound
 
+notfound-title = Bulunamadı
+notfound-content = Maalesef aradığınız şeyi bulamadık.
 
 ## Privacy
 
@@ -54,6 +73,11 @@ profile-form-more-languages = Yakında başka diller de geliyor!
 
 ## Download Modal
 
+download-form-submit = Gönder
 
 ## Contact
 
+contact-form-email =
+    .label = E-posta
+contact-required = *gerekli
+contact-submit = Gönder
