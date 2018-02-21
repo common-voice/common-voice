@@ -65,6 +65,10 @@ faq-important-a = Hlas je přirozený a lidský. Je to nejjednoduší a nejpřir
 faq-get-q = Jak můžu získat data Common Voice?
 faq-get-a = Dataset je nyní k dispozici na naší <downloadLink>stahovací stránce</downloadLink> pod licencí <licenseLink>CC-0</licenseLink>.
 faq-mission-q = Proč je Common Voice součástí mise Mozilly?
+faq-hours-q = Proč je 10 000 hodin náš cíl pro zaznamenávání zvuku?
+faq-hours-a = Je to počet hodin potřebných k natrénování produkčního systému pro převod hlasu na text.
+faq-source-q = Odkud pochází zdrojové texty?
+faq-source-a1 = Současné věty pochází od darů přispěvatelů a z dialogů otevřených filmových scénářů, jako je <italic>It's a Wonderful Life</italic>.
 
 ## Profile
 
@@ -88,6 +92,23 @@ data-get-started = <speechBlogLink>Začínáme s rozpoznáváním hlasu</speechB
 data-other-title = Další hlasové datasety…
 data-other-goto = Přejít na { $name }
 data-other-download = Stáhnout data
+license = Licence: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
 
+
+## Download Modal
+
+
+## Contact
+
+contact-title = Kontaktní formulář
+contact-cancel = Zrušit
+contact-form-email =
+    .label = E-mail
+contact-form-name =
+    .label = Jméno
+contact-form-message =
+    .label = Zpráva
+contact-required = *vyžadováno
+contact-submit = Odeslat
