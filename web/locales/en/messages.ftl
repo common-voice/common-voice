@@ -162,6 +162,18 @@ review-recording = Review
 review-rerecord = Re-record
 review-cancel = Cancel Submission
 
+## Download Modal
+download-title = Your download has started.
+download-helpus = Help us build a community around voice technology, stay in touch via email.
+download-form-email =
+    .label = Enter your email
+    .value = Thank you, we'll be in touch.
+download-form-submit = Submit
+download-back = Return to Common Voice Datasets
+download-no = No Thanks
+download-stayintouch = We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.
+download-privacy = We promise to handle your information with care. Read more in our <privacyLink>Privacy Notice</privacyLink>.
+
 ## Contact
 contact-title = Contact Form
 contact-cancel = Cancel
