@@ -62,6 +62,7 @@ faq-title = Questions fréquentes
 faq-what-q = Qu’est-ce que Common Voice ?
 faq-what-a = Les technologies de reconnaissance vocale pourraient révolutionner nos interactions avec les machines, mais les systèmes disponibles à l’heure actuelle sont coûteux et propriétaires. Common Voice est un projet visant à rendre accessible à quiconque ce type de technologie. Les contributeurs partagent leurs voix dans une énorme base de données qui permettra à n’importe qui de rapidement et facilement réaliser des applications utilisant la voix. Toutes les données vocales seront mises à disposition des développeurs.
 faq-important-q = Pourquoi est-ce important ?
+faq-important-a = La voix est naturelle, elle est humaine. C’est notre manière la plus simple et naturelle de communiquer. Nous voulons que les développeurs soient en mesure de mener à bien de fabuleux projets, qu’il s’agisse de traducteurs en temps réel ou d’assistants administratifs. Mais à l’heure actuelle, il n’y a pas assez de données accessibles publiquement pour pouvoir réaliser ces types d’applications. Nous espérons que Common Voice donnera aux développeurs ce dont ils ont besoin pour innover.
 faq-get-q = Comment puis-je obtenir les données de Common Voice ?
 faq-get-a = Le jeu de données est disponible sur notre <downloadLink>page de téléchargements</downloadLink> sous licence <licenseLink>CC-0</licenseLink>.
 faq-mission-q = En quoi le projet Common Voice fait-il partie de la mission de Mozilla ?
