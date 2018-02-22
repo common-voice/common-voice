@@ -107,6 +107,7 @@ terms-eligibility-content = Vous devez avoir au minimum 13 ans, ou avoir l’au
 terms-privacy-title = Confidentialité
 terms-privacy-content = Notre <privacyLink>politique de confidentialité</privacyLink> explique comment nous collectons et gérons vos données.
 terms-contributions-title = Vos contributions et renonciation aux droits
+terms-contributions-content = En envoyant vos enregistrements, vous renoncez aux droits d’auteurs et droits voisins que vous pourriez avoir, et vous accepter de mettre vos enregistrements à disposition du public sous une licence <licenseLink>CC-0</licenseLink>. Cela signifie que vous acceptez de renoncer à tous les droits sur vos enregistrements dans le monde entier sous le régime du droit d’auteur et des lois des bases de données, y compris les droits moraux et de publicité et tous les droits voisins.
 terms-communications-title = Communications
 terms-communications-content = Si vous vous inscrivez à nos lettres d’information ou que vous créez un compte en lien avec Common Voice, vous pourriez recevoir des courriers électroniques de notre part relatifs à votre compte (par exemple, pour des raisons juridiques, de sécurité ou de confidentialité).
 terms-general-title = Général
