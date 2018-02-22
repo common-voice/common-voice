@@ -91,6 +91,10 @@ notfound-content = J’ai bien peur de ne pas savoir ce que vous recherchez.
 
 ## Privacy
 
+privacy-title = Politique de confidentialité de Common Voice
+privacy-effective = En vigueur au { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
+privacy-policy = Lorsque Mozilla (c’est nous) reçoit des informations de votre part, la <policy>politique de confidentialité de Mozilla</policy> détaille comment nous traitons ces informations.
+privacy-data-demographic = <name>Données démographiques</name>. Vous pouvez, de façon facultative, nous communiquer des informations telles que votre accent, votre âge et sexe. Ceci nous aide, ainsi que les autres chercheurs, à améliorer la qualité des outils de reconnaissance vocale.
 privacy-more = <more>En savoir plus</more>
 
 ## Terms
