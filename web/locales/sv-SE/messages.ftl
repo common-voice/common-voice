@@ -3,6 +3,7 @@
 speak = Prata
 profile = Profil
 help = Hjälp
+contact = Kontakta
 privacy = Integritet
 terms = Villkor
 cookies = Kakor
@@ -71,6 +72,7 @@ record-platform-not-supported-ios = <bold>iOS</bold> användare kan ladda ner v�
 record-error-too-short = Inspelningen var för kort.
 record-error-too-long = Inspelningen var för lång.
 record-error-too-quiet = Inspelningen var för tyst.
+review-submit-title = Granska och Skicka in 
 review-recording = Granska
 review-rerecord = Spela in igen
 
@@ -82,6 +84,7 @@ download-no = Nej tack
 
 ## Contact
 
+contact-title = Kontaktformulär
 contact-cancel = Avbryt
 contact-form-email =
     .label = E-post
