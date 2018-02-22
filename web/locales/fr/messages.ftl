@@ -95,11 +95,18 @@ privacy-title = Politique de confidentialité de Common Voice
 privacy-effective = En vigueur au { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
 privacy-policy = Lorsque Mozilla (c’est nous) reçoit des informations de votre part, la <policy>politique de confidentialité de Mozilla</policy> détaille comment nous traitons ces informations.
 privacy-data-demographic = <name>Données démographiques</name>. Vous pouvez, de façon facultative, nous communiquer des informations telles que votre accent, votre âge et sexe. Ceci nous aide, ainsi que les autres chercheurs, à améliorer la qualité des outils de reconnaissance vocale.
+privacy-data-account = <name>Données du compte</name>. Vous pouvez, de façon facultative, créer un compte, auquel cas nous collectons votre adresse électronique. Cette information est associée avec vos données démographiques et d’interaction mais n’est pas partagée avec le public.
+privacy-data-recordings = <name>Enregistrements vocaux</name>. Les enregistrements vocaux, associés à vos données démographiques, peuvent être mis à disposition dans la base de données Common Voice, pour une utilisation publique.
+privacy-data-interaction = <name>Données d’interaction</name>. Nous utilisons Google Analytics pour mieux comprendre comment vous interagissez avec l’application et le site web Common Voice. Par exemple, ceci inclut le nombre d’extraits vocaux que vous enregistrez ou que vous écoutez, vos interactions avec les boutons et les menus, et la durée de vos sessions.
+privacy-data-technical = <name>Données techniques</name>. Via Google Analytics, nous collectons les URL et titres des pages Common Voice que vous visitez. Nous collectons quel navigateur vous utilisez, la taille de la zone d’affichage et la résolution de l’écran. Nous collectons également votre position géographique et la langue configurée dans votre navigateur.
 privacy-more = <more>En savoir plus</more>
 
 ## Terms
 
+terms-eligibility-content = Vous devez avoir au minimum 13 ans, ou avoir l’autorisation de votre tuteur légal et participer à notre projet de collecte de données sous sa surveillance.
+terms-privacy-title = Confidentialité
 terms-privacy-content = Notre <privacyLink>politique de confidentialité</privacyLink> explique comment nous collectons et gérons vos données.
+terms-contributions-title = Vos contributions et renonciation aux droits
 terms-communications-title = Communications
 terms-communications-content = Si vous vous inscrivez à nos lettres d’information ou que vous créez un compte en lien avec Common Voice, vous pourriez recevoir des courriers électroniques de notre part relatifs à votre compte (par exemple, pour des raisons juridiques, de sécurité ou de confidentialité).
 terms-general-title = Général
@@ -113,6 +120,7 @@ data-subtitle = Nous créons un jeu de données de voix ouvert et publiquement a
 data-explanatory-text = Nous pensons que d’importants jeux de données publiquement accessibles favorisent l’innovation et participent à la mise en place d’une concurrence saine pour les technologies vocales utilisant l’apprentissage machine. C’est un effort mondial et nous invitons tout le monde à y prendre part. Notre objectif est de rendre les technologies vocales plus inclusives et qu’elles puissent refléter la diversité des voix du monde entier.
 data-get-started = <speechBlogLink>S’initier à la reconnaissance vocale</speechBlogLink>
 data-other-title = Autres jeux de données…
+data-other-goto = Voir { $name }
 data-other-download = Télécharger les données
 data-other-librispeech-description = LibriSpeech est un corpus d’environ 1000 heures de lecture en anglais (16 kHz) issu de livres audio du projet LibriVox.
 data-other-ted-name = Corpus TED-LIUM
