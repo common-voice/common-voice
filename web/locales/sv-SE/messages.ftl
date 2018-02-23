@@ -3,8 +3,8 @@
 speak = Prata
 profile = Profil
 help = Hjälp
-contact = Kontakta
-privacy = Integritet
+contact = Kontakt
+privacy = Sekretess
 terms = Villkor
 cookies = Kakor
 faq = FAQ
@@ -20,7 +20,7 @@ status-loading = Laddar…
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Nästa mål: { $goal }
-status-more-soon = Mer språk kommer snart!
+status-more-soon = Fler språk kommer snart!
 
 ## ProfileForm
 
@@ -30,7 +30,7 @@ profile-form-username =
     .label = Användarnamn
 profile-form-language =
     .label = Språk
-profile-form-more-languages = Mer språk kommer snart!
+profile-form-more-languages = Fler språk kommer snart!
 profile-form-age =
     .label = Ålder
 profile-form-gender =
@@ -55,7 +55,7 @@ privacy-more = <more>Lär dig mer</more>
 ## Terms
 
 terms-eligibility-title = Berättigande
-terms-privacy-title = Integritet
+terms-privacy-title = Sekretess
 terms-communications-title = Kommunikation
 
 ## Data
@@ -68,11 +68,11 @@ license = Licens: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
 
-record-platform-not-supported-ios = <bold>iOS</bold> användare kan ladda ner våran gratis app:
+record-platform-not-supported-ios = Användare av <bold>iOS</bold> kan ladda ner våran gratisapp:
 record-error-too-short = Inspelningen var för kort.
 record-error-too-long = Inspelningen var för lång.
 record-error-too-quiet = Inspelningen var för tyst.
-review-submit-title = Granska och Skicka in 
+review-submit-title = Granska och skicka in 
 review-recording = Granska
 review-rerecord = Spela in igen
 
