@@ -6,7 +6,7 @@ profile = Perfil
 help = Ajuda
 contact = Contacte
 privacy = Privadesa
-terms = Condicions
+terms = Condicions d'ús
 cookies = Galetes
 faq = PMF
 content-license-text = Contingut disponible en els termes de la <licenseLink>llicència Creative Commons</licenseLink>
@@ -100,6 +100,12 @@ license = Llicència: <licenseLink>{ $license }</licenseLink>
 record-platform-not-supported-desktop = En ordinadors d'escriptori, podeu baixar l'últim:
 record-platform-not-supported-ios = Els usuaris de l'<bold>iOS</bold> poden baixar la nostra aplicació gratuïta:
 record-error-too-short = L'enregistrament és massa curt.
+record-error-too-long = L'enregistrament és massa llarg.
+record-cancel = Cancel·la el reenregistrament
+review-terms = En usar Common Voice, accepteu les <termsLink>condicions d'ús</termsLink> i l'<privacyLink>avís de privadesa</privacyLink>
+review-submit-title = Revisa i envia
+review-recording = Revisa
+review-rerecord = Torna a enregistrar
 
 ## Download Modal
 
