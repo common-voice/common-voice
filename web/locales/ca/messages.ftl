@@ -74,11 +74,13 @@ notfound-title = No s'ha trobat
 ## Privacy
 
 privacy-title = Avís de privadesa de Common Voice
+privacy-effective = En vidor des del { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
 privacy-more = <more>Més informació</more>
 
 ## Terms
 
 terms-title = Condicions legals de Common Voice
+terms-effective = En vidor des del { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
 terms-eligibility-content = Cal que tingueu més de 13 anys, o que el vostre tutor legal autoritzi i supervisi la vostra participació en aquest projecte col·laboratiu.
 terms-privacy-title = Privadesa
 terms-communications-title = Comunicacions
