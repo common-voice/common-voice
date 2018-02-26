@@ -14,6 +14,7 @@ share-title = Sesini bağışlayacak birilerini bulmamıza yardım et!
 ## Home Page
 
 home-title = Common Voice projesi makinelere gerçek insanların nasıl konuştuklarını öğretmek için Mozilla’nın başlattığı bir girişimdir.
+home-cta = Konuşarak katkı sağla!
 wall-of-text-more-mobile = Büyük şirketlerin kullandığı verilerin çoğu insanların çoğunluğunun kullanımına açık değil. Biz bunun yenileşmeyi bastırdığını düşünüyoruz. Bu yüzden ses tanıma sistemlerini herkese açık hale getirmek için Common Voice projesini başlattık.
 show-wall-of-text = Devamını oku
 help-us-title = Cümleleri doğrulamamıza yardım et!
@@ -64,6 +65,7 @@ notfound-content = Maalesef aradığınız şeyi bulamadık.
 
 ## Terms
 
+terms-privacy-title = Gizlilik
 
 ## Data
 
@@ -77,6 +79,7 @@ download-form-submit = Gönder
 
 ## Contact
 
+contact-title = İletişim Formu
 contact-form-email =
     .label = E-posta
 contact-required = *gerekli
