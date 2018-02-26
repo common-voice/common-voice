@@ -28,11 +28,11 @@ help-us-explain = Appuyez sur lecture, écoutez et dites-nous : la phrase ci-de
 ## ProjectStatus
 
 status-title = État global du projet : découvrez nos progrès !
-status-contribute = Partagez votre voix
+status-contribute = Faites don de votre voix
 status-loading = Chargement…
 status-hours = { $hours ->
         [one] Déjà une heure validée !
-       *[other] Déjà { $hours } validées !
+       *[other] Déjà { $hours } heures validées !
     }
 # Variables:
 # $goal - number of hours representing the next goal
