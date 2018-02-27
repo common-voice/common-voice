@@ -143,20 +143,45 @@ license = Лицензия: <licenseLink>{ $license }</licenseLink>
 ## Record Page
 
 record-platform-not-supported = Гафу итегез, әмма Сезнең платформа әлегә танылмый.
+record-platform-not-supported-desktop = Өстәл компьютерларында Сез түбәндәгеләрнең иң соңгы версияләрен йөкләп ала аласыз:
+record-platform-not-supported-ios = <bold>iOS</bold>'ны кулланучылар безнең бушлай программабызны йөкләп ала алалар:
+record-must-allow-microphone = Сезнең микрофоныгызны куллануны рөхсәт итүегез кирәк.
 record-error-too-short = Аудиоязма артык кыска иде.
 record-error-too-long = Аудиоязма артык озын иде.
 record-error-too-quiet = Аудиоязмадагы тавыш артык тыныч иде.
+record-submit-success = Кабул ителде! Тагын яздырасыгыз киләме?
+record-help = Яздыру өчен экранга басыгыз, аннан өстәге җөмләне кычкырып укыгыз.
+record-cancel = Яңадан яздырудан баш тарту.
+review-terms = Common Voice'ны кулланганда, Сез безнең <termsLink>Шартлар</termsLink> һәм <privacyLink>Хосуйсыйлык сәясәте</privacyLink> белән килешәсез.
+review-aborted = Йөкләү туктатылды. Язмаларыгызны бетерәсегез киләме?
+review-submit-title = Тикшерү һәм йөкләү
+review-submit-msg = Аудиоязмагыз өчен рәхмәт!<lineBreak></lineBreak>Хәзер түбәндәрәк аларны тикшерегез дә йөкләгез.
+review-recording = Тикшерү
+review-rerecord = Янәдән яздыру
+review-cancel = Йөкләүдән баш тарту
 
 ## Download Modal
 
-download-back = Common Voice бирелгән базаларына кайту
+download-title = Йөкләп алу башланды.
+download-helpus = Сөйләм технологияләре тирәсендә бер җәмгыять төзергә ярдәм итегез, эл. почта аша безнең белән элемтәдә торыгыз.
+download-form-email =
+    .label = Эл. почтагызны кертегез
+    .value = Рәхмәт, элемтәдә торырбыз.
+download-form-submit = Җибәрү
+download-back = Common Voice мәгълүмат базаларына кайту
 download-no = Юк, рәхмәт
+download-stayintouch = Mozilla'да без сөйләм технологияләре тирәсендә бер җәмгыять туплыйбыз. Безнең яңалыклар, яңа мәгълүмат чыганаклары, һәм Сезнең бу мәгълүматларны ничек куллануыгыз хакында элемтәдә торасыбыз килә.
+download-privacy = Без Сезнең мәгълүмат белән нәзәкатьле эш итәргә вәгъдә итәбез. Моның турында күбрәк белер өчен, безнең <privacyLink>Хосусыйлык хакындагы аңлатмабызны</privacyLink> укыгыз.
 
 ## Contact
 
+contact-title = Элемтә бланкы
 contact-cancel = Баш тарту
+contact-form-email =
+    .label = Электрон почта
 contact-form-name =
     .label = Исем
 contact-form-message =
     .label = Хәбәр
+contact-required = *кирәк
 contact-submit = Җибәрү
