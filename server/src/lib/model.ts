@@ -3,6 +3,7 @@ import { CommonVoiceConfig } from '../config-helper';
 import { DBClipWithVoters } from './model/db/tables/clip-table';
 import Cache from './cache';
 import {
+  IDEAL_SPLIT,
   randomBucketFromDistribution,
   rowsToDistribution,
   Split,
@@ -15,7 +16,17 @@ export default class Model {
   config: CommonVoiceConfig;
   db: DB;
   clipCache = new Cache(count => this.db.findClipsWithFewVotes(count));
-  sentencesCache = new Cache(count => this.db.findSentencesWithFewClips(count));
+  sentencesCaches: { [bucket: string]: Cache<string> } = Object.keys(
+    IDEAL_SPLIT
+  ).reduce(
+    (obj, bucket) => ({
+      ...obj,
+      [bucket]: new Cache(count =>
+        this.db.findSentencesWithFewClips(bucket, count)
+      ),
+    }),
+    {}
+  );
   clipDistribution: Split = {
     train: 0,
     dev: 0,
@@ -49,8 +60,12 @@ export default class Model {
     );
   }
 
-  async findEligibleSentences(count: number): Promise<string[]> {
-    return this.sentencesCache.take(count);
+  async findEligibleSentences(
+    client_id: string,
+    count: number
+  ): Promise<string[]> {
+    const user = await this.db.getUserClient(client_id);
+    return this.sentencesCaches[user ? user.bucket : 'train'].take(count);
   }
 
   private print(...args: any[]) {

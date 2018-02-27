@@ -132,18 +132,21 @@ export default class DB {
     this.mysql.endConnection();
   }
 
-  async findSentencesWithFewClips(count: number): Promise<string[]> {
+  async findSentencesWithFewClips(
+    bucket: string,
+    count: number
+  ): Promise<string[]> {
     return (await this.mysql.exec(
       `
         SELECT text
         FROM sentences
         LEFT JOIN clips ON sentences.id = clips.original_sentence_id
-        WHERE sentences.is_used
+        WHERE sentences.is_used AND sentences.bucket = ? 
         GROUP BY sentences.id
         ORDER BY COUNT(clips.id) ASC
         LIMIT ?
       `,
-      [count]
+      [bucket, count]
     ))[0].map((row: any) => row.text);
   }
 
@@ -258,5 +261,13 @@ export default class DB {
       'SELECT bucket, COUNT(bucket) AS count FROM clips GROUP BY bucket'
     );
     return rows;
+  }
+
+  async getUserClient(client_id: string) {
+    const [[row]] = await this.mysql.exec(
+      'SELECT * FROM user_clients WHERE client_id = ?',
+      [client_id]
+    );
+    return row;
   }
 }
