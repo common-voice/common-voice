@@ -3,6 +3,11 @@ import * as path from 'path';
 const utf8 = require('utf8');
 import promisify from '../../../promisify';
 import { hash } from '../../clip';
+import {
+  calculateCompensatorySplit,
+  randomBucketFromDistribution,
+  rowsToDistribution,
+} from '../split';
 
 const CWD = process.cwd();
 const SENTENCE_FOLDER = path.resolve(CWD, 'server/data/');
@@ -111,20 +116,44 @@ export async function importSentences(pool: any) {
   await pool.query(
     'DELETE FROM sentences WHERE id NOT IN (SELECT original_sentence_id FROM clips)'
   );
+
   await pool.query('UPDATE sentences SET is_used = FALSE');
+
+  const [rows] = await pool.query(
+    'SELECT bucket, COUNT(bucket) AS count FROM sentences GROUP BY bucket'
+  );
+  const distribution = rowsToDistribution(rows);
 
   for (const sentence of await loadSentences(SENTENCE_FOLDER)) {
     const encodedSentence = utf8.encode(sentence).trim();
-    await pool.query(
-      'INSERT INTO sentences (id, text, is_used) VALUES (?, ?, TRUE) ON DUPLICATE KEY UPDATE is_used = TRUE',
-      [hash(encodedSentence), encodedSentence]
+    const id = hash(encodedSentence);
+
+    const [[sentenceExists]] = await pool.query(
+      'SELECT 1 FROM sentences WHERE id = ?',
+      [id]
     );
+
+    if (sentenceExists) {
+      await pool.query('UPDATE sentences SET is_used = TRUE WHERE id = ?', [
+        id,
+      ]);
+    } else {
+      const bucket = randomBucketFromDistribution(distribution);
+      distribution[bucket]++;
+      await pool.query(
+        'INSERT INTO sentences (id, text, is_used, bucket) VALUES (?, ?, TRUE, ?)',
+        [id, encodedSentence, bucket]
+      );
+    }
   }
 
   for (const sentence of await loadSentences(UNUSED_FOLDER)) {
     const encodedSentence = utf8.encode(sentence).trim();
     await pool.query(
-      'INSERT INTO sentences (id, text, is_used) VALUES (?, ?, FALSE) ON DUPLICATE KEY UPDATE is_used = FALSE',
+      `
+        INSERT INTO sentences (id, text, is_used) VALUES (?, ?, FALSE)
+        ON DUPLICATE KEY UPDATE is_used = FALSE
+      `,
       [hash(encodedSentence), encodedSentence]
     );
   }

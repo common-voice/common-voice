@@ -2,10 +2,9 @@ import { pick } from 'lodash';
 import { CommonVoiceConfig } from '../../config-helper';
 import Mysql from './db/mysql';
 import Schema from './db/schema';
-import Table from './db/table';
 import { UserTable } from './db/tables/user-table';
 import UserClientTable from './db/tables/user-client-table';
-import ClipTable, { DBClipWithVoters } from './db/tables/clip-table';
+import ClipTable, { DBClip, DBClipWithVoters } from './db/tables/clip-table';
 import VoteTable from './db/tables/vote-table';
 
 export default class DB {
@@ -44,9 +43,20 @@ export default class DB {
   /**
    * Insert or update user client row.
    */
-  async updateUser(client_id: string, fields: any): Promise<void> {
+  async updateUser(
+    client_id: string,
+    fields: any,
+    bucket = 'train'
+  ): Promise<void> {
     let { age, accent, email, gender } = fields;
     email = this.formatEmail(email);
+    await this.mysql.exec(
+      `
+        INSERT INTO user_clients (client_id, bucket) VALUES (?, ?)
+        ON DUPLICATE KEY UPDATE client_id = client_id
+      `,
+      [client_id, bucket]
+    );
     await Promise.all([
       email &&
         this.user.update({
@@ -169,22 +179,34 @@ export default class DB {
     );
   }
 
-  async saveClip(
-    client_id: string,
-    original_sentence_id: string,
-    path: string,
-    sentence: string
-  ) {
+  async saveClip({
+    client_id,
+    original_sentence_id,
+    path,
+    sentence,
+  }: {
+    client_id: string;
+    original_sentence_id: string;
+    path: string;
+    sentence: string;
+  }): Promise<DBClip> {
     try {
       await this.mysql.exec(
         'INSERT INTO user_clients (client_id) VALUES (?) ON DUPLICATE KEY UPDATE client_id = client_id',
         [client_id]
       );
       await this.mysql.exec(
-        'INSERT INTO clips (client_id, original_sentence_id, path, sentence) VALUES (?, ?, ?, ?) ' +
-          'ON DUPLICATE KEY UPDATE id = id',
-        [client_id, original_sentence_id, path, sentence]
+        `
+          INSERT INTO clips (client_id, original_sentence_id, path, sentence, bucket)
+            (SELECT ?, ?, ?, ?, bucket FROM user_clients WHERE client_id = ? LIMIT 1)
+            ON DUPLICATE KEY UPDATE id = id
+        `,
+        [client_id, original_sentence_id, path, sentence, client_id]
       );
+      const [[row]] = await this.mysql.exec(
+        'SELECT * FROM clips WHERE id = LAST_INSERT_ID()'
+      );
+      return row;
     } catch (e) {
       console.error('No sentence found with id', original_sentence_id, e);
     }
@@ -229,5 +251,12 @@ export default class DB {
     return (await this.mysql.exec('SELECT * FROM clips WHERE id = ? LIMIT 1', [
       id,
     ]))[0][0];
+  }
+
+  async getClipBucketCounts() {
+    const [rows] = await this.mysql.exec(
+      'SELECT bucket, COUNT(bucket) AS count FROM clips GROUP BY bucket'
+    );
+    return rows;
   }
 }

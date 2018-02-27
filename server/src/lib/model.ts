@@ -2,6 +2,11 @@ import DB from './model/db';
 import { CommonVoiceConfig } from '../config-helper';
 import { DBClipWithVoters } from './model/db/tables/clip-table';
 import Cache from './cache';
+import {
+  randomBucketFromDistribution,
+  rowsToDistribution,
+  Split,
+} from './model/split';
 
 /**
  * The Model loads all clip and user data into memory for quick access.
@@ -11,11 +16,25 @@ export default class Model {
   db: DB;
   clipCache = new Cache(count => this.db.findClipsWithFewVotes(count));
   sentencesCache = new Cache(count => this.db.findSentencesWithFewClips(count));
+  clipDistribution: Split = {
+    train: 0,
+    dev: 0,
+    test: 0,
+  };
 
   constructor(config: CommonVoiceConfig) {
     this.config = config;
     this.db = new DB(this.config);
+    this.cacheClipDistribution().catch((e: any) => {
+      console.error(e);
+    });
   }
+
+  cacheClipDistribution = async () => {
+    this.clipDistribution = rowsToDistribution(
+      await this.db.getClipBucketCounts()
+    );
+  };
 
   /**
    * Fetch a random clip but make sure it's not the user's.
@@ -63,7 +82,11 @@ export default class Model {
    * Update current user
    */
   async syncUser(uid: string, data: any): Promise<void> {
-    return this.db.updateUser(uid, data);
+    return this.db.updateUser(
+      uid,
+      data,
+      randomBucketFromDistribution(this.clipDistribution)
+    );
   }
 
   /**
@@ -85,5 +108,12 @@ export default class Model {
    */
   cleanUp(): void {
     this.db.endConnection();
+  }
+
+  async saveClip(clipData: any) {
+    const clip = await this.db.saveClip(clipData);
+    if (clip) {
+      this.clipDistribution[clip.bucket]++;
+    }
   }
 }
