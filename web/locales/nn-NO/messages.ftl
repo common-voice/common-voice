@@ -1,5 +1,6 @@
 ## Layout
 
+speak = Snakk
 profile = Profil
 help = Hjelp
 contact = Kontakt
@@ -14,7 +15,12 @@ show-wall-of-text = Les meir
 
 ## ProjectStatus
 
+status-contribute = Bidra med di røyst
 status-loading = Lastar…
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Neste mål: { $goal }
+status-more-soon = Fleire språk kjem snart!
 
 ## ProfileForm
 
@@ -41,21 +47,42 @@ faq-important-q = Kvifor er det viktig?
 
 ## NotFound
 
+notfound-title = Ikkje funne
 
 ## Privacy
 
+privacy-more = <more>Les meir</more>
 
 ## Terms
 
+terms-privacy-title = Personvern
+terms-communications-title = Kommunikasjon
+terms-general-title = Generelt
 
 ## Data
 
+data-other-goto = Gå til { $name }
+data-other-download = Last ned data
 
 ## Record Page
 
+review-recording = Vurder
+review-rerecord = Spel inn på nytt
 
 ## Download Modal
 
+download-form-submit = Send inn
+download-no = Nei takk
 
 ## Contact
 
+contact-title = Kontaktskjema
+contact-cancel = Avbryt
+contact-form-email =
+    .label = E-post
+contact-form-name =
+    .label = Namn
+contact-form-message =
+    .label = Melding
+contact-required = *påkravd
+contact-submit = Send inn
