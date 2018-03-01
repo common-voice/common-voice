@@ -10,9 +10,11 @@ terms = Termos
 cookies = Cookies
 faq = Perguntas frequentes
 content-license-text = Conteúdo disponível sob licença <licenseLink>Creative Commons</licenseLink>
+share-title = Ajude-nos a encontrar outros doadores de voz!
 
 ## Home Page
 
+home-cta = Doe sua voz, contribua aqui!
 wall-of-text-start = A voz é natural, a voz é humana. É por isso que estamos fascinados com a criação de uma tecnologia de voz utilizável para nossas máquinas. Mas para criar sistemas de voz, é necessária uma quantidade extremamente grande de dados de voz.
 show-wall-of-text = Saiba mais
 
@@ -20,6 +22,7 @@ show-wall-of-text = Saiba mais
 
 status-contribute = Contribua com seu voz
 status-loading = Carregando…
+status-more-soon = Mais idiomas em breve!
 
 ## ProfileForm
 
@@ -29,11 +32,17 @@ profile-form-username =
     .label = Usuário
 profile-form-language =
     .label = Idioma
+profile-form-more-languages = Mais idiomas em breve!
+profile-form-accent =
+    .label = Sotaque
 profile-form-age =
     .label = Idade
+profile-form-gender =
+    .label = Gênero
 
 ## FAQ
 
+faq-important-q = Por que é importante?
 
 ## Profile
 
