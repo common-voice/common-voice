@@ -51,6 +51,8 @@ profile-form-gender =
 
 faq-title = Sıkça Sorulan Sorular
 faq-what-q = Common Voice nedir?
+faq-important-q = Bu neden önemli?
+faq-get-q = Common Voice verilerini nasıl elde edebilirim?
 
 ## Profile
 
@@ -66,6 +68,7 @@ notfound-content = Maalesef aradığınız şeyi bulamadık.
 ## Terms
 
 terms-privacy-title = Gizlilik
+terms-general-title = Genel
 
 ## Data
 
