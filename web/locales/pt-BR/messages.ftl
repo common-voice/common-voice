@@ -46,12 +46,22 @@ profile-form-age =
 
 ## Terms
 
+terms-general-title = Geral
 
 ## Data
 
+data-download-button = Baixar os dados do Common Voice
+data-other-goto = Vá para { $name }
+data-other-download = Baixar dados
 
 ## Record Page
 
+record-must-allow-microphone = Você deve permitir o acesso ao microfone.
+record-error-too-short = A gravação foi muito curta.
+record-error-too-long = A gravação foi muito longa
+record-error-too-quiet = A gravação ficou com volume muito baixa.
+record-submit-success = Enviada com sucesso! Deseja gravar novamente?
+record-help = Toque para gravar, depois leias as frases em voz alta.
 review-cancel = Cancelar envio
 
 ## Download Modal
