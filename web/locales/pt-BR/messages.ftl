@@ -43,18 +43,24 @@ profile-form-gender =
 ## FAQ
 
 faq-important-q = Por que é importante?
+faq-mission-q = Por que o Common Voice é parte da missão da Mozilla?
 
 ## Profile
 
+profile-why-title = Por que um perfil?
 
 ## NotFound
 
+notfound-title = Não encontrado
 
 ## Privacy
 
+privacy-more = <more>Saiba mais</more>
 
 ## Terms
 
+terms-eligibility-title = Elegibilidade
+terms-privacy-title = Privacidade
 terms-general-title = Geral
 
 ## Data
@@ -85,6 +91,7 @@ download-no = Não, obrigado
 
 ## Contact
 
+contact-title = Formulário de contato
 contact-cancel = Cancelar
 contact-form-email =
     .label = E-mail
