@@ -103,7 +103,9 @@ privacy-more = <more>En savoir plus</more>
 
 ## Terms
 
+terms-title = Mentions légales de Common Voice
 terms-effective = En vigueur au { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
+terms-eligibility-title = Admissibilité
 terms-eligibility-content = Vous devez avoir au minimum 13 ans, ou avoir l’autorisation de votre tuteur légal et participer à notre projet de collecte de données sous sa surveillance.
 terms-privacy-title = Confidentialité
 terms-privacy-content = Notre <privacyLink>politique de confidentialité</privacyLink> explique comment nous collectons et gérons vos données.
