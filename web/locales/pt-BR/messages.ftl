@@ -22,7 +22,7 @@ help-us-explain = Aperte o play, ouça e diga-nos: Eles pronunciaram a frase aba
 
 ## ProjectStatus
 
-status-contribute = Contribua com seu voz
+status-contribute = Contribua com sua voz
 status-loading = Carregando…
 status-more-soon = Mais idiomas em breve!
 
