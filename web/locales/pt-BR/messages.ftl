@@ -55,6 +55,7 @@ faq-native-a = Sim, nós definitivamente queremos sua voz! Parte do objetivo do 
 faq-quality-q = Qual será o nível necessário de qualidade do áudio para que possa ser utilizado?
 faq-hours-q = Por que o objetivo é capturar 10,000 horas de áudio?
 faq-hours-a = Esse é o número aproximado de horas necessário para treinar um sistema de voz-para-texto.
+faq-source-a2 = Você pode ver nossas frases <dataLink>nessa pasta no GItHub</dataLink>. 
 
 ## Profile
 
