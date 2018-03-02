@@ -49,7 +49,12 @@ faq-important-q = Por que é importante?
 faq-important-a = A voz é natural, a voz é humana. É a forma mais fácil e mais natural de se comunicar. Queremos que os desenvolvedores possam construir coisas incríveis de tradutores em tempo real até assistentes administrativos habilitados por voz. Mas ainda não há dados disponíveis publicamente para criar esses tipos de aplicativos. Esperamos que o Common Voice dê aos desenvolvedores o que precisam para inovar.
 faq-get-a = O conjunto de dados está disponível agora na nossa <downloadLink>página de download</downloadLink> sob a licença <licenseLink>CC-0</licenseLink>.
 faq-mission-q = Por que o Common Voice é parte da missão da Mozilla?
+faq-mission-a = A Mozilla dedica-se a manter a Web aberta e acessível para todos. Para fazer isso, precisamos capacitar os criadores da Web através de projetos como o Common Voice. À medida que as tecnologias de voz proliferam além de aplicações de nicho, acreditamos que eles devem atender todos os usuários igualmente bem. Vemos a necessidade de incluir mais idiomas, sotaques e dados demográficos ao criar e testar tecnologias de voz. A Mozilla quer ver uma Internet saudável e vibrante. Isso significa dar aos desenvolvedores acesso à dados de voz para que eles possam construir projetos novos e extraordinários. O Common Voice será um recurso público que ajudará às equipes da Mozilla e desenvolvedores ao redor do mundo.
 faq-native-q = Eu não sou um falante nativo de { $lang } e falo com sotaque, vocês ainda querem minha voz?
+faq-native-a = Sim, nós definitivamente queremos sua voz! Parte do objetivo do Common Voice é reunir tantos sotaques quanto for possível, assim os computadores poderão entender melhor a <bold>todos</bold> quando eles falarem.
+faq-quality-q = Qual será o nível necessário de qualidade do áudio para que possa ser utilizado?
+faq-hours-q = Por que o objetivo é capturar 10,000 horas de áudio?
+faq-hours-a = Esse é o número aproximado de horas necessário para treinar um sistema de voz-para-texto.
 
 ## Profile
 
