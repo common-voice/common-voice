@@ -57,18 +57,23 @@ faq-quality-q = Qual será o nível necessário de qualidade do áudio para que 
 faq-quality-a = Queremos que a qualidade do áudio corresponda com a qualidade que um mecanismo de conversão de voz para texto verá no dia a dia. Isso ensinará ao mecanismo de voz para texto lidar com diferentes situações—conversas no fundo, barulhos de carro e ruídos em geral—sem erros.
 faq-hours-q = Por que o objetivo é capturar 10,000 horas de áudio?
 faq-hours-a = Esse é o número aproximado de horas necessário para treinar um sistema de voz-para-texto.
+faq-source-a1 = As frases atualmente vêm de doações de contribuidores, assim como diálogos de roteiros de filmes em domínio público como <italic>It’s a Wonderful Life.</italic>
 faq-source-a2 = Você pode ver nossas frases <dataLink>nessa pasta no GItHub</dataLink>. 
 
 ## Profile
 
 profile-why-title = Por que um perfil?
+profile-why-content = Ao fornecer algumas informações sobre você, os dados de áudio que enviar ao Common Voice serão úteis ao mecanismo de Reconhecimento de Fala que usa esses dados para melhorar a precisão.
 
 ## NotFound
 
 notfound-title = Não encontrado
+notfound-content = Eu tenho receio de não saber o que vocês estão procurando.
 
 ## Privacy
 
+privacy-effective = Eficaz
+privacy-policy = Quando a Mozilla (somos nós) recebemos a informação de você, nossa <policy>Política de Privacidade da Mozilla</policy> descrevem como tratamos aquela informação.
 privacy-more = <more>Saiba mais</more>
 
 ## Terms
@@ -85,6 +90,7 @@ data-other-download = Baixar dados
 
 ## Record Page
 
+record-platform-not-supported = Nos desculpe, mas sua plataforma não é suportada.
 record-must-allow-microphone = Você deve permitir o acesso ao microfone.
 record-error-too-short = A gravação foi muito curta.
 record-error-too-long = A gravação foi muito longa
