@@ -74,6 +74,8 @@ notfound-content = Eu tenho receio de não saber o que vocês estão procurando.
 
 privacy-effective = Eficaz
 privacy-policy = Quando a Mozilla (somos nós) recebemos a informação de você, nossa <policy>Política de Privacidade da Mozilla</policy> descrevem como tratamos aquela informação.
+privacy-data-demographic = <name>Dados demográficos</name> Você pode opcionalmente nos enviar informações como sotaque, idade e gênero. Isso ajudará a nós e a outros pesquisadores a melhorar e criar tecnologias de voz para texto e ferramentas.
+privacy-data-account = <name>Dados da conta.</name> Você pode opcionalmente criar uma conta, caso em que recebemos seus endereço de e-mail. Isto será associado com seus dados demográficos e interações, mas não será compartilhada publicamente.
 privacy-more = <more>Saiba mais</more>
 
 ## Terms
@@ -85,8 +87,11 @@ terms-general-title = Geral
 ## Data
 
 data-download-button = Baixar os dados do Common Voice
+data-download-modal = Você está preste a iniciar um download de <size>{ $size }GB</size>, deseja continuar?
 data-other-goto = Vá para { $name }
 data-other-download = Baixar dados
+data-bundle-button = Baixar pacote do conjunto de dados
+license = Licença: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
 
