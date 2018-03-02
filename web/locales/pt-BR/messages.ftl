@@ -46,6 +46,7 @@ profile-form-gender =
 
 faq-what-a = A tecnologia de reconhecimento de voz pode revolucionar a forma como interagimos com as máquinas, mas os sistemas atualmente disponíveis são caros e proprietários. O Common Voice é um projeto para tornar a tecnologia de reconhecimento de voz facilmente acessível a todos. As pessoas doam suas vozes para um banco de dados maciço que permitirá que qualquer pessoa treine rapidamente e facilmente os aplicativos habilitados por voz. Todos os dados de voz estarão disponíveis para os desenvolvedores.
 faq-important-q = Por que é importante?
+faq-important-a = A voz é natural, a voz é humana. É a forma mais fácil e mais natural de se comunicar. Queremos que os desenvolvedores possam construir coisas incríveis de tradutores em tempo real até assistentes administrativos habilitados por voz. Mas ainda não há dados disponíveis publicamente para criar esses tipos de aplicativos. Esperamos que o Common Voice dê aos desenvolvedores o que precisam para inovar.
 faq-get-a = O conjunto de dados está disponível agora na nossa <downloadLink>página de download</downloadLink> sob a licença <licenseLink>CC-0</licenseLink>.
 faq-mission-q = Por que o Common Voice é parte da missão da Mozilla?
 faq-native-q = Eu não sou um falante nativo de { $lang } e falo com sotaque, vocês ainda querem minha voz?
