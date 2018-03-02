@@ -24,6 +24,7 @@ import Robot from './robot';
 
 import Home from './pages/home/home';
 import Record from './pages/record/record';
+import { isRecordingSupported } from './pages/record/audio-web';
 import Data from './pages/data/data';
 import Profile from './pages/profile';
 import FAQ from './pages/faq';
@@ -274,7 +275,8 @@ class Pages extends React.Component<PagesProps, PagesState> {
         {this.state.showContactModal && (
           <ContactModal onRequestClose={this.toggleContactModal} />
         )}
-        {isIOS() &&
+        {!isRecordingSupported() &&
+          isIOS() &&
           !isNativeIOS() &&
           !isSafari() && (
             // This is a banner for non-Safari browsers on iOS.
