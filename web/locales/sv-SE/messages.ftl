@@ -12,6 +12,7 @@ faq = FAQ
 ## Home Page
 
 show-wall-of-text = Läs mer
+help-us-title = Hjälp oss validera meningar!
 
 ## ProjectStatus
 
