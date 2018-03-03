@@ -110,7 +110,6 @@ export default class ListenBox extends React.Component<Props, State> {
     if (this.state.playing) {
       this.el.pause();
       this.setState({ playing: false });
-      return;
     }
 
     this.props.onDelete && this.props.onDelete();
