@@ -32,6 +32,8 @@ profile-form-username =
 profile-form-language =
     .label = Språk
 profile-form-more-languages = Fler språk kommer snart!
+profile-form-accent =
+    .label = Dialekt
 profile-form-age =
     .label = Ålder
 profile-form-gender =
@@ -41,9 +43,11 @@ profile-form-gender =
 
 faq-title = Vanliga frågor och svar
 faq-what-q = Vad är Common Voice?
+faq-important-q = Varför är detta viktigt?
 
 ## Profile
 
+profile-why-title = Varför en profil?
 
 ## NotFound
 
@@ -58,6 +62,7 @@ privacy-more = <more>Lär dig mer</more>
 terms-eligibility-title = Berättigande
 terms-privacy-title = Sekretess
 terms-communications-title = Kommunikation
+terms-general-title = Generellt
 
 ## Data
 
@@ -69,7 +74,9 @@ license = Licens: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
 
+record-platform-not-supported-desktop = På datorer, kan du ladda ner senaste:
 record-platform-not-supported-ios = Användare av <bold>iOS</bold> kan ladda ner våran gratisapp:
+record-must-allow-microphone = Du måste tillåta mikrofon åtkomst.
 record-error-too-short = Inspelningen var för kort.
 record-error-too-long = Inspelningen var för lång.
 record-error-too-quiet = Inspelningen var för tyst.
