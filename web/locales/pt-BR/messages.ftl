@@ -130,6 +130,7 @@ record-error-too-long = A gravação foi muito longa
 record-error-too-quiet = A gravação ficou com volume muito baixa.
 record-submit-success = Enviada com sucesso! Deseja gravar novamente?
 record-help = Toque para gravar, depois leias as frases em voz alta.
+review-rerecord = Regravar
 review-cancel = Cancelar envio
 
 ## Download Modal
@@ -141,6 +142,7 @@ download-form-email =
 download-form-submit = Enviar
 download-back = Voltar ao conjunto de dados do Common Voice
 download-no = Não, obrigado
+download-privacy = Nós prometemos cuidar das suas informações com cautela. Leia mais em nosso <privacyLink>Aviso de Privacidade</privacyLink>.
 
 ## Contact
 
