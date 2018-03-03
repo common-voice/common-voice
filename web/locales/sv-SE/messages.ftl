@@ -69,12 +69,14 @@ terms-general-title = Generellt
 
 data-download-button = Ladda ner Common Voice Data
 data-download-license = Licens: <licenseLink>CC-0</licenseLink>
+data-get-started = <speechBlogLink>Kom igång med taligenkänning</speechBlogLink>
 data-other-goto = Gå till { $name }
 data-other-download = Ladda ner Data
 license = Licens: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
 
+record-platform-not-supported = Vi är ledsna, min din plattform stöds inte för tillfället. 
 record-platform-not-supported-desktop = På datorer, kan du ladda ner senaste:
 record-platform-not-supported-ios = Användare av <bold>iOS</bold> kan ladda ner våran gratisapp:
 record-must-allow-microphone = Du måste tillåta mikrofon åtkomst.
@@ -88,6 +90,9 @@ review-rerecord = Spela in igen
 ## Download Modal
 
 download-title = Din nerladdning har startat.
+download-form-email =
+    .label = Ange din e-postadress
+    .value = Tack, vi hör av oss.
 download-form-submit = Skicka in
 download-no = Nej tack
 
