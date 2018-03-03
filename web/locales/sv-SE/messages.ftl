@@ -8,6 +8,7 @@ privacy = Sekretess
 terms = Villkor
 cookies = Kakor
 faq = FAQ
+content-license-text = Innehåll tillgängligt under en <licenseLink>Creative Commons licens</licenseLink>
 
 ## Home Page
 
