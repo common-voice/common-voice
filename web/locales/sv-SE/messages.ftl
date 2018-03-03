@@ -63,7 +63,7 @@ privacy-more = <more>Lär dig mer</more>
 terms-eligibility-title = Berättigande
 terms-privacy-title = Sekretess
 terms-communications-title = Kommunikation
-terms-general-title = Generellt
+terms-general-title = Allmänt
 
 ## Data
 
