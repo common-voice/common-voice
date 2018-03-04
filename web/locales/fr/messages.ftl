@@ -114,6 +114,7 @@ terms-contributions-content = En envoyant vos enregistrements, vous renoncez aux
 terms-communications-title = Communications
 terms-communications-content = Si vous vous inscrivez à nos lettres d’information ou que vous créez un compte en lien avec Common Voice, vous pourriez recevoir des courriers électroniques de notre part relatifs à votre compte (par exemple, pour des raisons juridiques, de sécurité ou de confidentialité).
 terms-general-title = Général
+terms-general-liability1 = Clause de non-responsabilité ; Limitation de responsabilité : COMMON VOICE ET TOUS LES ENREGISTREMENTS INCLUS SONT FOURNIS « TELS QUELS » SANS GARANTIE D’AUCUNE SORTE, EXPRESSE OU IMPLICITE. MOZILLA DÉCLINE TOUTE RESPONSABILITÉ ET N’ASSUME AUCUNE RESPONSABILITÉ POUR LES ENREGISTREMENTS QUE VOUS OU TOUT AUTRE UTILISATEUR OU TIERS PUBLIEZ OU TRANSMETTEZ EN UTILISANT COMMON VOICE.
 
 ## Data
 
