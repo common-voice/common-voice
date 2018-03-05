@@ -3,10 +3,12 @@ const { MessageContext } = require('fluent');
 const { negotiateLanguages } = require('fluent-langneg');
 import API from './api';
 
-const SUPPORTED_LOCALES = ['en'];
-
-export async function createMessagesGenerator(api: API, userLocales: string[]) {
-  const currentLocales = negotiateLanguages(userLocales, SUPPORTED_LOCALES, {
+export async function createMessagesGenerator(
+  api: API,
+  userLocales: string[],
+  supportedLocales = ['en']
+) {
+  const currentLocales = negotiateLanguages(userLocales, supportedLocales, {
     defaultLocale: 'en',
   });
 

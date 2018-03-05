@@ -34,6 +34,10 @@ interface PropsFromState {
 
 interface State {
   loaded: boolean;
+  locale: string;
+  locales: {
+    [code: string]: string;
+  };
   messagesGenerator: any;
 }
 
@@ -41,7 +45,12 @@ class App extends React.Component<PropsFromState, State> {
   main: HTMLElement;
   progressMeter: HTMLSpanElement;
 
-  state: State = { loaded: false, messagesGenerator: null };
+  state: State = {
+    loaded: false,
+    locale: null,
+    locales: null,
+    messagesGenerator: null,
+  };
 
   /**
    * App will handle routing to page controllers.
@@ -60,6 +69,43 @@ class App extends React.Component<PropsFromState, State> {
     if (isMobileWebkit()) {
       document.body.classList.add('mobile-safari');
     }
+
+    if (location.origin !== 'https://voice.mozilla.org') {
+      fetch('https://pontoon.mozilla.org/graphql', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({
+          query: `{
+            project(slug: "common-voice") {
+              localizations {
+                locale {
+                 code
+                 name
+                }
+              }
+            }
+          }`,
+          variables: null,
+        }),
+      })
+        .then(response => response.json())
+        .then(({ data }) => this.setLocales(data));
+    }
+  }
+
+  private async setLocales(pontoonData: any) {
+    const locales = pontoonData.project.localizations
+      .map(({ locale }: any) => [locale.code, locale.name])
+      .reduce((obj: any, [code, name]: any) => ({ ...obj, [code]: name }), {});
+
+    this.setState({
+      messagesGenerator: await createMessagesGenerator(
+        this.props.api,
+        navigator.languages,
+        Object.keys(locales)
+      ),
+      locales,
+    });
   }
 
   /**
@@ -121,14 +167,36 @@ class App extends React.Component<PropsFromState, State> {
     ]);
   }
 
+  private handleLocaleChange = async ({ target: { value: locale } }: any) => {
+    this.setState({
+      locale,
+      messagesGenerator: await createMessagesGenerator(
+        this.props.api,
+        [locale],
+        Object.keys(this.state.locales)
+      ),
+    });
+  };
+
   render() {
-    const { loaded, messagesGenerator } = this.state;
+    const { loaded, locale, locales, messagesGenerator } = this.state;
     return loaded && messagesGenerator ? (
-      <LocalizationProvider messages={messagesGenerator()}>
-        <Router>
-          <Pages />
-        </Router>
-      </LocalizationProvider>
+      <div>
+        {locales && (
+          <select value={locale} onChange={this.handleLocaleChange}>
+            {Object.entries(locales).map(([code, name]) => (
+              <option key={code} value={code}>
+                {name}
+              </option>
+            ))}
+          </select>
+        )}
+        <LocalizationProvider messages={messagesGenerator()}>
+          <Router>
+            <Pages />
+          </Router>
+        </LocalizationProvider>
+      </div>
     ) : (
       <div id="spinner">
         <span
