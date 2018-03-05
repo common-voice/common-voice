@@ -159,7 +159,15 @@ export default class DB {
     return clips as DBClipWithVoters[];
   }
 
+  async saveUserClient(id: string) {
+    await this.mysql.exec(
+      'INSERT INTO user_clients (client_id) VALUES (?) ON DUPLICATE KEY UPDATE client_id = client_id',
+      [id]
+    );
+  }
+
   async saveVote(id: string, client_id: string, is_valid: string) {
+    await this.saveUserClient(client_id);
     await this.mysql.exec(
       `
       INSERT INTO votes (clip_id, client_id, is_valid) VALUES (?, ?, ?)
@@ -176,10 +184,7 @@ export default class DB {
     sentence: string
   ) {
     try {
-      await this.mysql.exec(
-        'INSERT INTO user_clients (client_id) VALUES (?) ON DUPLICATE KEY UPDATE client_id = client_id',
-        [client_id]
-      );
+      await this.saveUserClient(client_id);
       await this.mysql.exec(
         'INSERT INTO clips (client_id, original_sentence_id, path, sentence) VALUES (?, ?, ?, ?) ' +
           'ON DUPLICATE KEY UPDATE id = id',
