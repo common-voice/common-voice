@@ -111,8 +111,6 @@ export default class Mysql {
 
   private handleError(err: any) {
     console.error('unhandled mysql error', err.message);
-    // Kill current connection so that we re-init on next query.
-    this.endConnection();
   }
 
   /**
@@ -213,8 +211,10 @@ export default class Mysql {
    * Close all connections to the database.
    */
   endConnection(): void {
+    console.log(this.pool.end);
     if (this.pool) {
-      this.pool.destroy();
+      this.pool.end().catch((e: any) => console.error(e));
+      this.pool = null;
     }
     if (this.rootConn) {
       this.rootConn.destroy();
