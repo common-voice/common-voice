@@ -329,141 +329,8 @@ class Pages extends React.Component<PagesProps, PagesState> {
               />
             </div>
             <div className="hero-space" />
-            <div
-              id="content"
-              ref={div => {
-                this.content = div as HTMLElement;
-              }}>
-              <Switch>
-                <Route exact path={URLS.ROOT} component={Home} />
-                <Route
-                  exact
-                  path={URLS.RECORD}
-                  render={props => (
-                    <Record
-                      isRecording={this.state.isRecording}
-                      onRecord={this.onRecord}
-                      onRecordStop={this.onRecordStop}
-                      onVolume={this.handleVolumeChange}
-                      {...props}
-                    />
-                  )}
-                />
-                <Route exact path={URLS.DATA} component={Data} />
-                <Route exact path={URLS.PROFILE} component={Profile} />
-                <Route exact path={URLS.FAQ} component={FAQ} />} />
-                <Route exact path={URLS.PRIVACY} component={Privacy} />} />
-                <Route exact path={URLS.TERMS} component={Terms} />} />
-                <Route component={NotFound} />
-              </Switch>
-            </div>
-            <footer>
-              <div id="help-links">
-                <Link id="help" to={URLS.FAQ}>
-                  <SupportIcon />
-                  <Localized id="help">
-                    <div />
-                  </Localized>
-                </Link>
-                <div className="divider" />
-                <a
-                  id="contribute"
-                  target="_blank"
-                  href="https://github.com/mozilla/voice-web">
-                  <GithubIcon />
-                  <div>GitHub</div>
-                </a>
-                <div className="divider" />
-                <a
-                  id="discourse"
-                  target="blank"
-                  href="https://discourse.mozilla-community.org/c/voice">
-                  <DiscourseIcon />
-                  <div>Discourse</div>
-                </a>
-                <div className="divider" />
-                <a href="javascript:void(0)" onClick={this.toggleContactModal}>
-                  <ContactIcon />
-                  <Localized id="contact">
-                    <div />
-                  </Localized>
-                </a>
-              </div>
-              <div id="moz-links">
-                <div className="content">
-                  <Logo reverse={true} />
-                  <div className="links">
-                    <p>
-                      <Localized id="privacy">
-                        <Link to={URLS.PRIVACY} />
-                      </Localized>
-                      <Localized id="terms">
-                        <Link to={URLS.TERMS} />
-                      </Localized>
-                      <Localized id="cookies">
-                        <a
-                          target="_blank"
-                          href="https://www.mozilla.org/en-US/privacy/websites/#cookies"
-                        />
-                      </Localized>
-                      <Localized id="faq">
-                        <Link to={URLS.FAQ}>FAQ</Link>
-                      </Localized>
-                    </p>
-                    <p>
-                      <Localized
-                        id="content-license-text"
-                        licenseLink={
-                          <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.mozilla.org/en-US/foundation/licensing/website-content/"
-                          />
-                        }>
-                        <span />
-                      </Localized>
-                    </p>
-                  </div>
-                </div>
-                <div id="sharing">
-                  <Localized id="share-title">
-                    <h3 />
-                  </Localized>
-
-                  <div className="icons">
-                    <button id="link-copy" onClick={this.copyShareURL}>
-                      <input
-                        type="text"
-                        readOnly
-                        value={shareURL}
-                        ref={node => (this.shareURLInput = node)}
-                      />
-                      <FontIcon type="link" />
-                    </button>
-                    <a
-                      href={
-                        'https://twitter.com/intent/tweet?text=' +
-                        encodedShareText
-                      }
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      onClick={() => trackSharing('twitter')}>
-                      <FontIcon type="twitter" />
-                    </a>
-                    <a
-                      href={
-                        'https://www.facebook.com/sharer/sharer.php?u=' +
-                        encodeURIComponent(shareURL)
-                      }
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      onClick={() => trackSharing('facebook')}>
-                      <FontIcon type="facebook" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </footer>
+            {this.renderContent()}
+            {this.renderFooter()}
           </div>
         </div>
         <div
@@ -507,6 +374,150 @@ class Pages extends React.Component<PagesProps, PagesState> {
           {user.validateTally}
         </div>
       </div>
+    );
+  }
+
+  private renderContent() {
+    return (
+      <div
+        id="content"
+        ref={div => {
+          this.content = div as HTMLElement;
+        }}>
+        <Switch>
+          <Route exact path={URLS.ROOT} component={Home} />
+          <Route
+            exact
+            path={URLS.RECORD}
+            render={props => (
+              <Record
+                isRecording={this.state.isRecording}
+                onRecord={this.onRecord}
+                onRecordStop={this.onRecordStop}
+                onVolume={this.handleVolumeChange}
+                {...props}
+              />
+            )}
+          />
+          <Route exact path={URLS.DATA} component={Data} />
+          <Route exact path={URLS.PROFILE} component={Profile} />
+          <Route exact path={URLS.FAQ} component={FAQ} />} />
+          <Route exact path={URLS.PRIVACY} component={Privacy} />} />
+          <Route exact path={URLS.TERMS} component={Terms} />} />
+          <Route component={NotFound} />
+        </Switch>
+      </div>
+    );
+  }
+
+  private renderFooter() {
+    return (
+      <footer>
+        <div id="help-links">
+          <Link id="help" to={URLS.FAQ}>
+            <SupportIcon />
+            <Localized id="help">
+              <div />
+            </Localized>
+          </Link>
+          <div className="divider" />
+          <a
+            id="contribute"
+            target="_blank"
+            href="https://github.com/mozilla/voice-web">
+            <GithubIcon />
+            <div>GitHub</div>
+          </a>
+          <div className="divider" />
+          <a
+            id="discourse"
+            target="blank"
+            href="https://discourse.mozilla-community.org/c/voice">
+            <DiscourseIcon />
+            <div>Discourse</div>
+          </a>
+          <div className="divider" />
+          <a href="javascript:void(0)" onClick={this.toggleContactModal}>
+            <ContactIcon />
+            <Localized id="contact">
+              <div />
+            </Localized>
+          </a>
+        </div>
+        <div id="moz-links">
+          <div className="content">
+            <Logo reverse={true} />
+            <div className="links">
+              <p>
+                <Localized id="privacy">
+                  <Link to={URLS.PRIVACY} />
+                </Localized>
+                <Localized id="terms">
+                  <Link to={URLS.TERMS} />
+                </Localized>
+                <Localized id="cookies">
+                  <a
+                    target="_blank"
+                    href="https://www.mozilla.org/en-US/privacy/websites/#cookies"
+                  />
+                </Localized>
+                <Localized id="faq">
+                  <Link to={URLS.FAQ}>FAQ</Link>
+                </Localized>
+              </p>
+              <p>
+                <Localized
+                  id="content-license-text"
+                  licenseLink={
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://www.mozilla.org/en-US/foundation/licensing/website-content/"
+                    />
+                  }>
+                  <span />
+                </Localized>
+              </p>
+            </div>
+          </div>
+          <div id="sharing">
+            <Localized id="share-title">
+              <h3 />
+            </Localized>
+
+            <div className="icons">
+              <button id="link-copy" onClick={this.copyShareURL}>
+                <input
+                  type="text"
+                  readOnly
+                  value={shareURL}
+                  ref={node => (this.shareURLInput = node)}
+                />
+                <FontIcon type="link" />
+              </button>
+              <a
+                href={
+                  'https://twitter.com/intent/tweet?text=' + encodedShareText
+                }
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => trackSharing('twitter')}>
+                <FontIcon type="twitter" />
+              </a>
+              <a
+                href={
+                  'https://www.facebook.com/sharer/sharer.php?u=' +
+                  encodeURIComponent(shareURL)
+                }
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => trackSharing('facebook')}>
+                <FontIcon type="facebook" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
     );
   }
 }
