@@ -95,7 +95,6 @@
   "devDependencies": {
     "bundlesize": "^0.15.3",
     "chalk": "^2.3.0",
-    "eslint-loader": "^1.9.0",
     "nodemon": "^1.12.1",
     "pre-commit": "^1.2.2",
     "react-dev-utils": "^4.2.1"
