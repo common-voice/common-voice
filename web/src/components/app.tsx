@@ -47,7 +47,7 @@ class App extends React.Component<PropsFromState, State> {
 
   state: State = {
     loaded: false,
-    locale: null,
+    locale: '',
     locales: null,
     messagesGenerator: null,
   };
@@ -184,6 +184,7 @@ class App extends React.Component<PropsFromState, State> {
       <div>
         {locales && (
           <select value={locale} onChange={this.handleLocaleChange}>
+            <option value="">Select a Language...</option>
             {Object.entries(locales).map(([code, name]) => (
               <option key={code} value={code}>
                 {name}
