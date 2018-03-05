@@ -46,6 +46,13 @@
     transition: transform 0.4s var(--easing);
 }
 
+.text-box.no-sentences-error {
+    background-color: white;
+}
+.text-box.no-sentences-error p {
+    opacity: .3;
+}
+
 .text-box.left, .text-box.right {
     position: absolute;
     top: 0;
