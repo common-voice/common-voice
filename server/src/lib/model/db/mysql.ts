@@ -1,6 +1,5 @@
 import { hash, getFirstDefined } from '../../utility';
 import { IConnection } from 'mysql2Types';
-import promisify from '../../../promisify';
 import { CommonVoiceConfig } from '../../../config-helper';
 
 const SALT = 'hoads8fh49hgfls';
@@ -35,8 +34,8 @@ const DEFAULTS: MysqlOptions = {
 export default class Mysql {
   config: CommonVoiceConfig;
   options: MysqlOptions;
-  conn: IConnection;
   rootConn: IConnection;
+  pool: any;
 
   /**
    * Get options from params first, then config, and falling back to defaults.
@@ -60,7 +59,6 @@ export default class Mysql {
   constructor(config: CommonVoiceConfig) {
     this.config = config;
     this.options = this.getMysqlOptions(config);
-    this.conn = null;
     this.rootConn = null;
   }
 
@@ -68,60 +66,53 @@ export default class Mysql {
     return mysql2.createConnection(options);
   }
 
-  async createPool() {
+  async createPool(): Promise<any> {
     return mysql2.createPool(this.options);
   }
 
-  async ensureConnection(root?: boolean): Promise<void> {
+  poolPromise: Promise<any>;
+  async getPool(): Promise<any> {
+    if (this.pool) return this.pool;
+    return (
+      this.poolPromise ||
+      (this.poolPromise = new Promise(async resolve => {
+        this.pool = await this.createPool();
+        resolve(this.pool);
+      }))
+    );
+  }
+
+  async query(...args: any[]) {
+    return (await this.getPool()).query(...args);
+  }
+
+  async ensureRootConnection(): Promise<void> {
     // Check if we already have the connection we want.
-    if ((root && this.rootConn) || (!root && this.conn)) {
+    if (this.rootConn) {
       return;
     }
 
     // Copy our pre-installed configuration.
     const opts: MysqlOptions = Object.assign({}, this.options);
 
-    if (root) {
-      // Do not specify the database name when connecting.
-      delete opts.database;
-    }
+    // Do not specify the database name when connecting.
+    delete opts.database;
 
     // Root gets an upgraded connection optimized for schema migration.
-    if (root) {
-      opts.user = this.config.DB_ROOT_USER;
-      opts.password = this.config.DB_ROOT_PASS;
-      opts.multipleStatements = true;
-    }
+    opts.user = this.config.DB_ROOT_USER;
+    opts.password = this.config.DB_ROOT_PASS;
+    opts.multipleStatements = true;
 
     const conn = await this.getConnection(opts);
     conn.on('error', this.handleError.bind(this));
 
-    if (root) {
-      this.rootConn = conn;
-    } else {
-      this.conn = conn;
-    }
-  }
-
-  async ensureRootConnection(): Promise<void> {
-    return this.ensureConnection(true);
+    this.rootConn = conn;
   }
 
   private handleError(err: any) {
     console.error('unhandled mysql error', err.message);
     // Kill current connection so that we re-init on next query.
     this.endConnection();
-  }
-
-  async exec(sql: string, values?: any[]): Promise<any[]> {
-    values = values || [];
-    await this.ensureConnection();
-    return this.conn.execute(sql, values);
-  }
-
-  async query(sql: string): Promise<any> {
-    await this.ensureConnection();
-    return this.conn.query(sql);
   }
 
   /**
@@ -143,7 +134,7 @@ export default class Mysql {
     // We are using the same values twice in the query.
     const allValues = values.concat(values);
 
-    const results = await this.exec(
+    await this.query(
       `INSERT INTO ${tableName} (${columns.join(',')})
        VALUES (${params.join(',')})
        ON DUPLICATE KEY UPDATE ${dupeSql.join(',')};`,
@@ -222,9 +213,8 @@ export default class Mysql {
    * Close all connections to the database.
    */
   endConnection(): void {
-    if (this.conn) {
-      this.conn.destroy();
-      this.conn = null;
+    if (this.pool) {
+      this.pool.destroy();
     }
     if (this.rootConn) {
       this.rootConn.destroy();

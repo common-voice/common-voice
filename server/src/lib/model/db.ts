@@ -2,7 +2,6 @@ import { pick } from 'lodash';
 import { CommonVoiceConfig } from '../../config-helper';
 import Mysql from './db/mysql';
 import Schema from './db/schema';
-import Table from './db/table';
 import { UserTable } from './db/tables/user-table';
 import UserClientTable from './db/tables/user-client-table';
 import ClipTable, { DBClipWithVoters } from './db/tables/clip-table';
@@ -89,7 +88,7 @@ export default class DB {
   }
 
   async getListenerCount(): Promise<number> {
-    return (await this.mysql.exec(
+    return (await this.mysql.query(
       `
         SELECT COUNT(DISTINCT user_clients.client_id) AS count
         FROM user_clients
@@ -99,7 +98,7 @@ export default class DB {
   }
 
   async getSubmitterCount(): Promise<number> {
-    return (await this.mysql.exec(
+    return (await this.mysql.query(
       `
         SELECT DISTINCT COUNT(DISTINCT user_clients.client_id) AS count
         FROM user_clients
@@ -123,7 +122,7 @@ export default class DB {
   }
 
   async findSentencesWithFewClips(count: number): Promise<string[]> {
-    return (await this.mysql.exec(
+    return (await this.mysql.query(
       `
         SELECT text
         FROM sentences
@@ -138,7 +137,7 @@ export default class DB {
   }
 
   async findClipsWithFewVotes(limit: number): Promise<DBClipWithVoters[]> {
-    const [clips] = await this.mysql.exec(
+    const [clips] = await this.mysql.query(
       `
       SELECT clips.*,
         GROUP_CONCAT(votes.client_id) AS voters,
@@ -160,7 +159,7 @@ export default class DB {
   }
 
   async saveUserClient(id: string) {
-    await this.mysql.exec(
+    await this.mysql.query(
       'INSERT INTO user_clients (client_id) VALUES (?) ON DUPLICATE KEY UPDATE client_id = client_id',
       [id]
     );
@@ -168,7 +167,7 @@ export default class DB {
 
   async saveVote(id: string, client_id: string, is_valid: string) {
     await this.saveUserClient(client_id);
-    await this.mysql.exec(
+    await this.mysql.query(
       `
       INSERT INTO votes (clip_id, client_id, is_valid) VALUES (?, ?, ?)
       ON DUPLICATE KEY UPDATE is_valid = VALUES(is_valid)
@@ -185,7 +184,7 @@ export default class DB {
   ) {
     try {
       await this.saveUserClient(client_id);
-      await this.mysql.exec(
+      await this.mysql.query(
         'INSERT INTO clips (client_id, original_sentence_id, path, sentence) VALUES (?, ?, ?, ?) ' +
           'ON DUPLICATE KEY UPDATE id = id',
         [client_id, original_sentence_id, path, sentence]
@@ -196,7 +195,7 @@ export default class DB {
   }
 
   async getValidatedClipsCount() {
-    const [[{ count }]] = await this.mysql.exec(
+    const [[{ count }]] = await this.mysql.query(
       `
         SELECT COUNT(*) AS count
         FROM (
@@ -212,7 +211,7 @@ export default class DB {
   }
 
   async insertSentence(id: string, sentence: string) {
-    await this.mysql.exec('INSERT INTO sentences (id, text) VALUES (?, ?)', [
+    await this.mysql.query('INSERT INTO sentences (id, text) VALUES (?, ?)', [
       id,
       sentence,
     ]);
@@ -231,7 +230,7 @@ export default class DB {
   }
 
   async findClip(id: string) {
-    return (await this.mysql.exec('SELECT * FROM clips WHERE id = ? LIMIT 1', [
+    return (await this.mysql.query('SELECT * FROM clips WHERE id = ? LIMIT 1', [
       id,
     ]))[0][0];
   }
