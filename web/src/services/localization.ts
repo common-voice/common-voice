@@ -1,28 +1,28 @@
 require('fluent-intl-polyfill');
 const { MessageContext } = require('fluent');
 const { negotiateLanguages } = require('fluent-langneg');
+import { isProduction } from '../utility';
 import API from './api';
 
 export const DEFAULT_LOCALE = 'en';
-export const LOCALES =
-  location.origin === 'https://voice.mozilla.org'
-    ? [DEFAULT_LOCALE]
-    : [
-        'ca',
-        'cs',
-        'cv',
-        'en',
-        'fr',
-        'he',
-        'mk',
-        'nn-NO',
-        'pt-BR',
-        'sv-SE',
-        'tr',
-        'tt',
-        'zh-CN',
-        'zh-TW',
-      ];
+export const LOCALES = isProduction()
+  ? [DEFAULT_LOCALE]
+  : [
+      'ca',
+      'cs',
+      'cv',
+      'en',
+      'fr',
+      'he',
+      'mk',
+      'nn-NO',
+      'pt-BR',
+      'sv-SE',
+      'tr',
+      'tt',
+      'zh-CN',
+      'zh-TW',
+    ];
 
 export async function createMessagesGenerator(api: API, userLocales: string[]) {
   const currentLocales = negotiateLanguages(userLocales, LOCALES, {

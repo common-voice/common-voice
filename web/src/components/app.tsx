@@ -14,7 +14,13 @@ const { LocalizationProvider } = require('fluent-react');
 import { createBrowserHistory } from 'history';
 import store from '../stores/root';
 import URLS from '../urls';
-import { isMobileWebkit, isFocus, isNativeIOS, sleep } from '../utility';
+import {
+  isMobileWebkit,
+  isFocus,
+  isNativeIOS,
+  sleep,
+  isProduction,
+} from '../utility';
 import {
   createMessagesGenerator,
   DEFAULT_LOCALE,
@@ -182,6 +188,12 @@ class App extends React.Component<{}, State> {
   }
 
   async componentDidMount() {
+    if (!isProduction()) {
+      const script = document.createElement('script');
+      script.src = 'https://pontoon.mozilla.org/pontoon.js';
+      document.head.appendChild(script);
+    }
+
     await Promise.all([
       Promise.race([sleep(LOAD_TIMEOUT), this.preloadImages()]).then(() =>
         this.setState({ loaded: true })
