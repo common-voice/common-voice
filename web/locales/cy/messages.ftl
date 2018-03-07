@@ -36,12 +36,34 @@ status-hours = { $hours ->
         [few] { $hours } awr wedi eu dilysu hyd yma!
        *[other] { $hours } awr wedi eu dilysu hyd yma!
     }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Nod Nesaf: { $goal }
+status-more-soon = Mae rhagor o ieithoedd i ddod cyn bo hir!
 
 ## ProfileForm
 
+profile-form-email =
+    .label = E-bost
+profile-form-username =
+    .label = Enw Defnyddiwr
+profile-form-emails = Iawn, anfon e-byst ata i. Rwyf eisiau cael gwybod am Broject Common Voice.
+profile-form-language =
+    .label = Iaith
+profile-form-more-languages = Mae rhagor o ieithoedd i ddod cyn bo hir!
+profile-form-accent =
+    .label = Acen
+profile-form-age =
+    .label = Oed
+profile-form-gender =
+    .label = Rhyw
 
 ## FAQ
 
+faq-title = Cwestiynau Cyffredin
+faq-what-q = Beth yw Common Voice?
+faq-what-a = Gall technoleg adnabod lleferydd chwyldroi y ffordd rydym yn rhyngweithio gyda pheiriannau, ond mae'r systemau sydd ar gael ar hyn o bryd yn ddrud a masnachol. Mae Common Voice yn broject  i wneud dechnoleg adnabod lleferydd ar gael yn hawdd i bawb. Mae pobl yn cyfrannu eu llais i gronfa ddata anferthol sy'n caniatáu i unrhyw un hyfforddi apiau sy'n gallu ymateb i las yn sydyn a hawdd. Bydd yr holl ddata llais ar gael i ddatblygwyr.
+faq-important-q = Pam mae hwn yn bwysig?
 
 ## Profile
 
