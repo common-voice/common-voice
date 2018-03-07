@@ -96,9 +96,22 @@ notfound-content = Mae'n ddrwg gen i, dwi ddim yn gwybod beth rydych yn chwilio 
 privacy-title = Hysbysiad Preifatrwydd Common Voice
 privacy-effective = Effective { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
 privacy-policy = Pan mae Mozilla (sef, ni), yn derbyn gwybodaeth gennych chi, mae ein <policy>Polisi Preifatrwydd Mozilla</policy> yn disgrifio sut fyddwn yn trin y wybodaeth yma.
+privacy-data-demographic = <name>Data demograffig.</name> O ddewis, gallwch anfon atom fanylion, fel eich acen, oed a rhyw. Mae hyn yn eich cynorthwyo ni ac ymchwilwyr eraill i wella a chreu technoleg ac offer lleferydd i destun.
+privacy-data-account = <name>Data cyfrif</name> O ddewis gallwch greu cyfrif, lle fyddwn yn derbyn eich cyfeiriad e-bost. Bydd hyn yn cael ei gysylltu a'ch data demograffig a rhyngweithio ond ni fydd yn cael ei rannu'n gyhoeddus.
+privacy-data-recordings = <name>Recordiadau Llais</name> Gall recordiadau llais, yn ogystal â data demograffig cysylltiedig, fod ar gael yng gronfa ddata Common Voice ar gyfer defnydd cyhoeddus.
+privacy-data-interaction = <name>Data rhyngweithio</name> Rydym yn defnyddio Google Analytics i deall yn well sut rydych yn rhyngweithio gydag ap neu wefan Common Voice. Er enghraifft, mae hyn yn cynnwys y nifer o samplau llais rydych yn recordio neu wrando arnynt, eich rhyngweithio gyda botymau, dewislenni, a hyd y sesiwn.
+privacy-data-technical = <name>Data technegol</name> Gan ddefnyddio Google Analytics, rydym yn casglu URL a theitlau'r tudalennau Common Voice rydych yn ymweld á nhw. Rydym yn casglu'r math o borwr, maint golwg sgrin a chydraniad sgrin. Rydym hefyd yn casglu eich lleoliad a gosodiadau iaith eich porwr.
+privacy-more = <more>Dysgu rhagor</more>
 
 ## Terms
 
+terms-title = Amodau Cyfreithiol Common Voice
+terms-effective = Effective { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
+terms-eligibility-title = Cymhwyster
+terms-eligibility-content = Rhaid eich bod dros 13 oed neu fod á chaniatâd a chyfarwyddid eich rhiant neu geidwad i gymryd rhan yn ein project torfoli.
+terms-privacy-title = Preifatrwydd
+terms-privacy-content = Mae ein <privacyLink>Hysbysiad Preifatrwydd</privacyLink> yn esbonio sut rydym yn derbyn a thrin eich data.
+terms-contributions-title = Eich Cyfraniad a Ryddhad Hawliau
 
 ## Data
 
