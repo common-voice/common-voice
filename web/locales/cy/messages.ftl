@@ -128,6 +128,19 @@ terms-general-law = Cyfraith Llywodraethol: Mae'r amodau iol hyn yn cynnwys yr h
 
 data-download-button = Llwytho Data Common Voice i Lawr
 data-download-license = Trwydded: <licenseLink>CC-0</licenseLink>
+data-download-modal = Rydych ar fin cychwyn llwytho i lawr ffeil o faint <size>{ $size }GB</size>, parhau?
+data-subtitle = Rydym yn adeiladu set ddata o leisiau agored ac sydd ar gael yn gyhoeddus fydd pawb yn gallu ei ddefnyddio i hyfforddi rhaglenni sy'n alluog â lleferydd.
+data-explanatory-text = Rydym yn credu fod setiau data mawr a chyhoeddus yn annog arloesedd a chystadleuaeth fasnachol iach o fewn addysgu peiriannau yn seiliedig ar dechnoleg lleferydd.
+data-get-started = <speechBlogLink>Cychwyn arni gydag Adnabod Lleferydd</speechBlogLink>
+data-other-title = Setiau data eraill...
+data-other-goto = Mynd i { $name }
+data-other-download = Llwytho Data i Lawr
+data-other-librispeech-description = Mae LibriSpeech yn gorpws o tua 1000 o oriau o lefaru Saesneg 15Khz wedi ei ddarllen o lyfrau sain o broject LibriVox.
+data-other-ted-name = Corpws TED-LIUM
+data-other-ted-description = Mae corpws TED-LIUM wedi ei greu o sgyrsiau sain a'u trawsgrifiadau o wefan TED.
+data-other-voxforge-description = Cafodd VoxForge ei sefydlu i gasglu lleferydd wedi ei drawsgrifio ar gyfer ei ddefnyddio gyda Pheiriannau Adnabod Lleferydd Rhydd a Chod Agored.
+data-other-tatoeba-description = Mae Tatoeba yn gronfa ddata mawr o frawddegau, cyfieithiadau a sin llafar ar gyfer dysgu ieithoedd. Mae'r llwyth yma'n cynnwys yr holl Saesneg llafar recordiwyd gan eu cymuned.
+data-bundle-button = Llwytho Pecyn Set Ddata i Lawr
 
 ## Record Page
 
