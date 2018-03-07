@@ -72,15 +72,30 @@ faq-mission-a = Mae Mozilla'n ymroddedig i gadw'r we yn agored ac ar gael i bawb
 faq-native-q = Rwy'n siaradwr { $lang } ail iaith  ac rwy'n siarad gydag acen, ydych chi dal eisiau fy llais?
 faq-native-a = Ydyn, yn bendant rydym eisiau eich llais! Rhan o amcan Common Voice yw i gasglu gymaint o wahanol acenion ag y bo modd, fel bod cyfrifiaduron yn gallu deall yn well <bold>pawb</bold> pan mae nhhw'n siarad.
 faq-firefox-q = A fydd lleferydd i destun, drwy Common Voice fyth ddod yn rhan o Firefox?
+faq-firefox-a = Mae gan Common Voice botensial di-ben-draw ac rydym yn bendant yn archwilio rhyngwynebau lleferydd mewn nifer  gynnyrch Mozilla, gan gynnwys Firefox.
+faq-quality-q = Pa mor dda mae ansawdd y sain angen ei fod iddo gael ei ddefnyddio?
+faq-quality-a = Mae angen i ansawdd y sain adlewyrchu ansawdd y sain fydd y peiriant testun i leferydd ei weld yn y byd go-iawn. Felly mae angen amrywiaeth. Mae hyn yn dysgu'r peiriant lleferydd i destun i drin amrywiol sefyllfaoedd - siarad yn y cefndir, synau ceir, swn gwyntyll - heb wallau.
+faq-hours-q = Pam fod 10,000 o oriau'n nod ar gyfer cipio sain?
+faq-hours-a = Dyma'n fras y nifer o oriau sydd eu hangen i hyfforddi cynnyrch system lleferydd i destun.
+faq-source-q = O le ddaw'r testun ffynhonnell?
+faq-source-a1 = Mae'r brawddegau cyfredol yn dod o roddion gan gyfrannwyr, yn ogystal á deialogau ffilmiau parth cyhoeddus fel <italic>It’s a Wonderful Life.</italic>
+faq-source-a2 = Gallwch weld ein brawddegau ffynhonnell yn <dataLink>y ffolder GitHub yma</dataLink>.
 
 ## Profile
 
+profile-why-title = Pam proffil?
+profile-why-content = Drwy ddarparu rhywfaint o wybodaeth amdanoch chi eich hun, bydd y data sain rydych yn ei gyflwyno i Common Voice yn fwy defnyddiol i beiriannau Adnabod Lleferydd sy'n defnyddio'r data hwn i wella eu cywirdeb.
 
 ## NotFound
 
+notfound-title = Heb ganfod
+notfound-content = Mae'n ddrwg gen i, dwi ddim yn gwybod beth rydych yn chwilio amdano.
 
 ## Privacy
 
+privacy-title = Hysbysiad Preifatrwydd Common Voice
+privacy-effective = Effective { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
+privacy-policy = Pan mae Mozilla (sef, ni), yn derbyn gwybodaeth gennych chi, mae ein <policy>Polisi Preifatrwydd Mozilla</policy> yn disgrifio sut fyddwn yn trin y wybodaeth yma.
 
 ## Terms
 
