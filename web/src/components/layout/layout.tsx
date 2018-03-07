@@ -1,42 +1,26 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { Switch, Route, RouteComponentProps, withRouter } from 'react-router';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 const { Localized } = require('fluent-react');
-import { Recordings } from '../stores/recordings';
-import StateTree from '../stores/tree';
-import { User } from '../stores/user';
-import { Clips } from '../stores/clips';
-import URLS from '../urls';
-import { getItunesURL, isNativeIOS, isIOS, isSafari } from '../utility';
-import ContactModal from './contact-modal/contact-modal';
-import Logo from './logo';
-import {
-  ContactIcon,
-  FontIcon,
-  MenuIcon,
-  RecordIcon,
-  DiscourseIcon,
-  SupportIcon,
-  GithubIcon,
-  PlayIcon,
-} from './ui/icons';
+import { Recordings } from '../../stores/recordings';
+import StateTree from '../../stores/tree';
+import { User } from '../../stores/user';
+import { Clips } from '../../stores/clips';
+import URLS from '../../urls';
+import { getItunesURL, isNativeIOS, isIOS, isSafari } from '../../utility';
+import { MenuIcon, RecordIcon, PlayIcon } from '../ui/icons';
 import Robot from './robot';
-
-import Home from './pages/home/home';
-import Record from './pages/record/record';
-import Data from './pages/data/data';
-import Profile from './pages/profile';
-import FAQ from './pages/faq';
-import Privacy from './pages/privacy';
-import Terms from './pages/terms';
-import NotFound from './pages/not-found';
-import { trackSharing } from '../services/tracker';
-
-const shareURL = 'https://voice.mozilla.org/';
-const encodedShareText = encodeURIComponent(
-  'Help teach machines how real people speak, donate your voice at ' + shareURL
-);
+import Home from '../pages/home/home';
+import Record from '../pages/record/record';
+import Data from '../pages/data/data';
+import Profile from '../pages/profile';
+import FAQ from '../pages/faq';
+import Privacy from '../pages/privacy';
+import Terms from '../pages/terms';
+import NotFound from '../pages/not-found';
+import Footer from './footer';
+import Logo from './logo';
 
 const KEYBOARD_FOCUS_CLASS_NAME = 'is-keyboard-focus';
 
@@ -53,28 +37,26 @@ interface PropsFromDispatch {
   fillClipCache: typeof Clips.actions.refillCache;
 }
 
-interface PagesProps
+interface LayoutProps
   extends PropsFromState,
     PropsFromDispatch,
     RouteComponentProps<any> {
   locale: string;
 }
 
-interface PagesState {
+interface LayoutState {
   isMenuVisible: boolean;
   scrolled: boolean;
-  showContactModal: boolean;
   transitioning: boolean;
   isRecording: boolean;
 }
 
-class Pages extends React.Component<PagesProps, PagesState> {
+class Layout extends React.Component<LayoutProps, LayoutState> {
   private header: HTMLElement;
   private scroller: HTMLElement;
   private content: HTMLElement;
   private bg: HTMLElement;
   private installApp: HTMLElement;
-  private shareURLInput: HTMLInputElement;
   private stopBackgroundRender: boolean;
 
   // On native iOS, we found some issues animating the css background
@@ -86,10 +68,9 @@ class Pages extends React.Component<PagesProps, PagesState> {
       ]
     : [];
 
-  state: PagesState = {
+  state: LayoutState = {
     isMenuVisible: false,
     scrolled: false,
-    showContactModal: false,
     transitioning: false,
     isRecording: false,
   };
@@ -100,7 +81,7 @@ class Pages extends React.Component<PagesProps, PagesState> {
     this.addScrollListener();
   }
 
-  componentDidUpdate(nextProps: PagesProps, nextState: PagesState) {
+  componentDidUpdate(nextProps: LayoutProps, nextState: LayoutState) {
     if (nextState.isRecording) {
       this.stopBackgroundRender = false;
       this.renderBackground();
@@ -225,16 +206,6 @@ class Pages extends React.Component<PagesProps, PagesState> {
     );
   };
 
-  private copyShareURL = () => {
-    this.shareURLInput.select();
-    document.execCommand('copy');
-    trackSharing('link');
-  };
-
-  private toggleContactModal = () => {
-    this.setState(state => ({ showContactModal: !state.showContactModal }));
-  };
-
   private toggleMenu = () => {
     this.setState({ isMenuVisible: !this.state.isMenuVisible });
   };
@@ -265,9 +236,6 @@ class Pages extends React.Component<PagesProps, PagesState> {
         className={className}
         onKeyDown={this.showKeyboardFocus}
         onClick={this.hideKeyboardFocus}>
-        {this.state.showContactModal && (
-          <ContactModal onRequestClose={this.toggleContactModal} />
-        )}
         {isIOS() &&
           !isNativeIOS() &&
           !isSafari() && (
@@ -322,7 +290,7 @@ class Pages extends React.Component<PagesProps, PagesState> {
             </div>
             <div className="hero-space" />
             {this.renderContent()}
-            {this.renderFooter()}
+            <Footer basePath={this.basePath} />
           </div>
         </div>
         <div
@@ -409,117 +377,6 @@ class Pages extends React.Component<PagesProps, PagesState> {
       </div>
     );
   }
-
-  private renderFooter() {
-    return (
-      <footer>
-        <div id="help-links">
-          <Link id="help" to={this.basePath + URLS.FAQ}>
-            <SupportIcon />
-            <Localized id="help">
-              <div />
-            </Localized>
-          </Link>
-          <div className="divider" />
-          <a
-            id="contribute"
-            target="_blank"
-            href="https://github.com/mozilla/voice-web">
-            <GithubIcon />
-            <div>GitHub</div>
-          </a>
-          <div className="divider" />
-          <a
-            id="discourse"
-            target="blank"
-            href="https://discourse.mozilla-community.org/c/voice">
-            <DiscourseIcon />
-            <div>Discourse</div>
-          </a>
-          <div className="divider" />
-          <a href="javascript:void(0)" onClick={this.toggleContactModal}>
-            <ContactIcon />
-            <Localized id="contact">
-              <div />
-            </Localized>
-          </a>
-        </div>
-        <div id="moz-links">
-          <div className="content">
-            <Logo reverse to={this.basePath} />
-            <div className="links">
-              <p>
-                <Localized id="privacy">
-                  <Link to={this.basePath + URLS.PRIVACY} />
-                </Localized>
-                <Localized id="terms">
-                  <Link to={this.basePath + URLS.TERMS} />
-                </Localized>
-                <Localized id="cookies">
-                  <a
-                    target="_blank"
-                    href="https://www.mozilla.org/en-US/privacy/websites/#cookies"
-                  />
-                </Localized>
-                <Localized id="faq">
-                  <Link to={this.basePath + URLS.FAQ}>FAQ</Link>
-                </Localized>
-              </p>
-              <p>
-                <Localized
-                  id="content-license-text"
-                  licenseLink={
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://www.mozilla.org/en-US/foundation/licensing/website-content/"
-                    />
-                  }>
-                  <span />
-                </Localized>
-              </p>
-            </div>
-          </div>
-          <div id="sharing">
-            <Localized id="share-title">
-              <h3 />
-            </Localized>
-
-            <div className="icons">
-              <button id="link-copy" onClick={this.copyShareURL}>
-                <input
-                  type="text"
-                  readOnly
-                  value={shareURL}
-                  ref={node => (this.shareURLInput = node)}
-                />
-                <FontIcon type="link" />
-              </button>
-              <a
-                href={
-                  'https://twitter.com/intent/tweet?text=' + encodedShareText
-                }
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => trackSharing('twitter')}>
-                <FontIcon type="twitter" />
-              </a>
-              <a
-                href={
-                  'https://www.facebook.com/sharer/sharer.php?u=' +
-                  encodeURIComponent(shareURL)
-                }
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => trackSharing('facebook')}>
-                <FontIcon type="facebook" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </footer>
-    );
-  }
 }
 
 const mapStateToProps = ({ recordings, user }: StateTree) => ({
@@ -536,5 +393,5 @@ export default withRouter(
   connect<PropsFromState, PropsFromDispatch>(
     mapStateToProps,
     mapDispatchToProps
-  )(Pages)
+  )(Layout)
 );

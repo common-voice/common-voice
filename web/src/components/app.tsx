@@ -20,9 +20,9 @@ import {
   DEFAULT_LOCALE,
   LOCALES,
 } from '../services/localization';
-import Pages from './pages';
 import API from '../services/api';
 import StateTree from '../stores/tree';
+import Layout from './layout/layout';
 
 function replacePathLocale(pathname: string, locale: string) {
   const pathParts = pathname.split('/');
@@ -61,7 +61,7 @@ interface LocalizedPagesState {
   messagesGenerator: any;
 }
 
-const LocalizedPages = withRouter(
+const LocalizedLayout = withRouter(
   connect<PropsFromState>(({ api }: StateTree) => ({
     api,
   }))(
@@ -108,7 +108,7 @@ const LocalizedPages = withRouter(
         return (
           messagesGenerator && (
             <LocalizationProvider messages={messagesGenerator()}>
-              <Pages locale={this.props.userLocales[0]} />
+              <Layout locale={this.props.userLocales[0]} />
             </LocalizationProvider>
           )
         );
@@ -219,7 +219,9 @@ class App extends React.Component<{}, State> {
                       ))}
                     </select>
                   )}
-                  <LocalizedPages userLocales={[locale, ...this.userLocales]} />
+                  <LocalizedLayout
+                    userLocales={[locale, ...this.userLocales]}
+                  />
                 </Fragment>
               )}
             />

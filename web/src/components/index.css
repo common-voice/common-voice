@@ -1,5 +1,5 @@
 @import url('vars.css');
-@import url('nav.css');
+@import url('layout/nav.css');
 @import url('alert/alert.css');
 @import url('contact-modal/contact-modal.css');
 @import url('listen-box/listen-box.css');
