@@ -9,6 +9,7 @@ privacy = Preifatrwydd
 terms = Amodau
 cookies = Cwcis
 faq = Cwestiynau Cyffredin
+content-license-text = Mae'r cynnwys ar gael o dan <licenseLink>drwydded Creative Commons</licenseLink>
 
 ## Home Page
 
