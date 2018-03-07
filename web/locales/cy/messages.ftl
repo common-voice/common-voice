@@ -16,10 +16,10 @@ share-title = Helpwch ni i gael rhagor i gyfrannu eu lleisiau!
 
 home-title = Common Voice yw menter Mozilla i helpu i ddysgu peiriannau sut mae pobl go-iawn yn siarad.
 home-cta = Siarad a chyfrannu yn fan hyn!
-wall-of-text-start = Mae llais yn naturiol ac yn perthyn i ni i gyd. Dyna pam mae gennym ddiddordeb mawr wrth greu technoleg llais defnyddiol ar gyfer ein peiriannau. Ond er mwyn creu systemau llais, mae angen data llais sylweddol iawn.
+wall-of-text-start = Mae llais yn naturiol ac yn perthyn i ni i gyd. Dyna pam mae gennym ddiddordeb mawr mewn creu technoleg llais defnyddiol ar gyfer ein peiriannau. Ond er mwyn creu systemau llais, mae angen data llais sylweddol iawn.
 wall-of-text-more-mobile = Nid yw'r data sy'n cael ei ddefnyddio gan gwmnïau mawr ar gael i'r rhan fwyaf o bobl. I ni, mae hynny'n cyfyngu ar ddyfeisgarwch. Felly rydym wedi cychwyn Project Common Voice, project i wneud adnabod lleferydd ar gael i bawb.
 wall-of-text-more-desktop =
-    gallwch gyfrannu eich llais i'n cynorthwyo i adeiladu cronfa ddata llais fydd pawb yn gallu ei ddefnyddio i greu apiau dyfeisgar ar gyfer dyfeisiadau a;r we.<lineBreak></lineBreak>
+    Nawr gallwch gyfrannu eich llais i'n cynorthwyo i adeiladu cronfa ddata llais fydd pawb yn gallu ei ddefnyddio i greu apiau dyfeisgar ar gyfer dyfeisiadau a'r we.<lineBreak></lineBreak>
     Darllenwch frawddeg fel bod y peiriant yn gallu dysgu sut mae pobl go_iawn yn siarad. Adolygwch waith cyfranwyr eraill er mwyn gwella ei ansawdd. Mae mor syml â hynny!
 show-wall-of-text = Darllen Rhagor
 help-us-title = Helpwch ni i ddilysu brawddegau!
@@ -39,7 +39,7 @@ status-hours = { $hours ->
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Nod Nesaf: { $goal }
-status-more-soon = Mae rhagor o ieithoedd i ddod cyn bo hir!
+status-more-soon = Rhagor o ieithoedd ar y ffordd!
 
 ## ProfileForm
 
@@ -141,12 +141,51 @@ data-other-ted-description = Mae corpws TED-LIUM wedi ei greu o sgyrsiau sain a'
 data-other-voxforge-description = Cafodd VoxForge ei sefydlu i gasglu lleferydd wedi ei drawsgrifio ar gyfer ei ddefnyddio gyda Pheiriannau Adnabod Lleferydd Rhydd a Chod Agored.
 data-other-tatoeba-description = Mae Tatoeba yn gronfa ddata mawr o frawddegau, cyfieithiadau a sin llafar ar gyfer dysgu ieithoedd. Mae'r llwyth yma'n cynnwys yr holl Saesneg llafar recordiwyd gan eu cymuned.
 data-bundle-button = Llwytho Pecyn Set Ddata i Lawr
+data-bundle-description = Common Voice ynghyd a'r holl setiau data llais uchod.
+license = Trwydded: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
 
+record-platform-not-supported = Ymddiheuriadau ond nid yw eich platfform yn cael ei gynnal ar hyn o bryd.
+record-platform-not-supported-desktop = Ar gyfrifiaduron bwrdd gwaith gallwch lwytho i lawr y diweddaraf:
+record-platform-not-supported-ios = Gall defnyddwyr <bold>iOS</bold> lwytho i lawr ein ap am ddim:
+record-must-allow-microphone = Rhaid i chi ganiatáu mynediad i'r meicroffon.
+record-error-too-short = Roedd y recordiad yn rhy fyr.
+record-error-too-long = Roedd y recordiad yn rhy hir.
+record-error-too-quiet = Roedd y recordiad yn rhy dawel.
+record-submit-success = Llwyddiant wrth gyflwyno! Eisiau recordio eto?
+record-help = Tapiwch i recordio, yna darllenwch y frawddeg uchod allan.
+record-cancel = Diddymu Ailrecordio
+review-terms = Drwy ddefnyddio Common Vice rydych yn cytuno i'n <termsLink>Amodau</termsLink> a'n <privacyLink>Hysbysiadau Preifatrwydd</privacyLink>
+review-aborted = Methodd y llwytho i fyny. Hoffech chi ddileu eich recordiadau?
+review-submit-title = Adolygu a Chyflwyno
+review-submit-msg = Diolch am recordio!<lineBreak></lineBreak>Nawr adolygwch a chyflwyno eich clipiau isod.
+review-recording = Adolygu
+review-rerecord = Ailrecordio
+review-cancel = Diddymu'r Cyflwyno
 
 ## Download Modal
 
+download-title = Mae'r llwytho i lawr wedi cychwyn.
+download-helpus = Helpwch ni i adeiladu cymuned o amgylch technoleg llais, cadwch mewn cysylltiad drwy e-bost.
+download-form-email =
+    .label = Rhowch eich e-bost
+    .value = Diolch, byddwn mewn cysylltiad.
+download-form-submit = Cyflwyno
+download-back = Dychwelyd i Setiau Data Common Voice
+download-no = Dim Diolch
+download-stayintouch = Rydym ni ym Mozilla'n adeiladu cymuned o amgylch technoleg llais. Hoffwn gadw mewn cysylltiad gyda diweddariadau, ffynonellau data newydd ac i glywed rhagor am sut rydych yn defnyddio'r data yma.
+download-privacy = Rydym yn addo trin eich manylion yn ofalus. Darllenwch ragor am ein <privacyLink>Hysbysiad Preifatrwydd</privacyLink>.
 
 ## Contact
 
+contact-title = Ffurflen Gysylltu
+contact-cancel = Diddymu
+contact-form-email =
+    .label = E-bost
+contact-form-name =
+    .label = Enw
+contact-form-message =
+    .label = Neges
+contact-required = *angenrheidiol
+contact-submit = Cyflwyno
