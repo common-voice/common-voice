@@ -122,15 +122,15 @@ terms-general-liability3 = TO THE EXTENT PERMITTED BY APPLICABLE LAW, YOU AGREE 
 terms-general-liability4 = EXCEPT AS REQUIRED BY LAW, MOZILLA AND THE MOZILLA PARTIES WILL NOT BE LIABLE FOR ANY INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, OR EXEMPLARY DAMAGES ARISING OUT OF OR IN ANY WAY RELATING TO THESE TERMS OR THE USE OF OR INABILITY TO USE THE SERVICES, INCLUDING WITHOUT LIMITATION DIRECT AND INDIRECT DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, LOST PROFITS, LOSS OF DATA, AND COMPUTER FAILURE OR MALFUNCTION, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES AND REGARDLESS OF THE THEORY (CONTRACT, TORT, OR OTHERWISE) UPON WHICH SUCH CLAIM IS BASED. THE COLLECTIVE LIABILITY OF MOZILLA AND THE MOZILLA PARTIES UNDER THIS AGREEMENT WILL NOT EXCEED $500 (FIVE HUNDRED DOLLARS). SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL, CONSEQUENTIAL, OR SPECIAL DAMAGES, SO THIS EXCLUSION AND LIMITATION MAY NOT APPLY TO YOU.
 terms-general-updates = Diweddariadau: O bryd i'w gilydd gall fod Mozilla yn diweddaru'r Amodau i gyfarch nodwedd newydd o'r Gwasanaeth neu i amlygu darpariaeth. Bydd yr amodau diwygiedig yn caei eu gosod ar-lein. Os yw'r newid yn sylweddol, byddwn yn cyhoeddi'r diweddariad drwy sianeli arferol Mozilla ar gyfer cyhoeddiadau o'r fath, megis cofnod blog a fforwm. Bydd eich defnydd parhaol o'r Gwasanaeth wedi dyddiad effeithiol y newidiadau yn dangos eich bod yn derbyn y newidiadau hynny. I wneud eich adolygiad yn fwy cyfleus, byddwn yn nodi dyddiad y newid ar frig y dudalen hon.
 terms-general-termination = Terfynu: Gallwn atal neu derfynu eich mynediad i'r Gwasanaethau ar unrhyw adeg ac unrhyw reswm, byddwn yn gwneud ymgais resymol i gysylltu  â chi drwy'r cyfeiriad e-bost sy'n gysylltiedig â'ch cyfrif neu'r tro nesaf i chi geisio cael mynediad i'r Gwasanaeth. Beth bynnag am unrhyw derfynu, bydd pob recordiad rydych wedi eu cyflwyno yn dal i fod ar gael yn gyhoeddus.
-terms-general-law = Cyfraith Llywodraethol: Mae'r amodau iol hyn yn cynnwys yr holl gytundeb rhyngthoch chi a Mozilla ynghylch Common Voice ac yn cael eu llywodraethu gan gyfreithiau talaith California, UDA.
+terms-general-law = Cyfraith Llywodraethol: Mae'r Amodau Cyfreithiol hyn yn cynnwys yr holl gytundeb rhyngoch chi a Mozilla ynghylch Common Voice ac yn cael eu llywodraethu gan gyfreithiau talaith California, UDA.
 
 ## Data
 
 data-download-button = Llwytho Data Common Voice i Lawr
 data-download-license = Trwydded: <licenseLink>CC-0</licenseLink>
 data-download-modal = Rydych ar fin cychwyn llwytho i lawr ffeil o faint <size>{ $size }GB</size>, parhau?
-data-subtitle = Rydym yn adeiladu set ddata o leisiau agored ac sydd ar gael yn gyhoeddus fydd pawb yn gallu ei ddefnyddio i hyfforddi rhaglenni sy'n alluog â lleferydd.
-data-explanatory-text = Rydym yn credu fod setiau data mawr a chyhoeddus yn annog arloesedd a chystadleuaeth fasnachol iach o fewn addysgu peiriannau yn seiliedig ar dechnoleg lleferydd.
+data-subtitle = Rydym yn adeiladu set ddata o leisiau agored, sydd ar gael yn gyhoeddus, y bydd pawb yn gallu ei ddefnyddio i hyfforddi rhaglenni sy'n gallu trin lleferydd.
+data-explanatory-text = Rydym yn credu fod setiau data mawr a chyhoeddus yn annog arloesedd a chystadleuaeth fasnachol iach o fewn addysgu peiriannau yn seiliedig ar dechnoleg lleferydd. Mae hwn yn ymdrech fyd eang ac rydym yn gwahodd pawb i gymryd rhan. Ein nod yw i helpu technoleg llais i fod yn fwy cynhwysol, ac yn adlewyrchu'r amrywiaeth o leisiau o amgylch y byd.
 data-get-started = <speechBlogLink>Cychwyn arni gydag Adnabod Lleferydd</speechBlogLink>
 data-other-title = Setiau data eraill...
 data-other-goto = Mynd i { $name }
@@ -139,7 +139,7 @@ data-other-librispeech-description = Mae LibriSpeech yn gorpws o tua 1000 o oria
 data-other-ted-name = Corpws TED-LIUM
 data-other-ted-description = Mae corpws TED-LIUM wedi ei greu o sgyrsiau sain a'u trawsgrifiadau o wefan TED.
 data-other-voxforge-description = Cafodd VoxForge ei sefydlu i gasglu lleferydd wedi ei drawsgrifio ar gyfer ei ddefnyddio gyda Pheiriannau Adnabod Lleferydd Rhydd a Chod Agored.
-data-other-tatoeba-description = Mae Tatoeba yn gronfa ddata mawr o frawddegau, cyfieithiadau a sin llafar ar gyfer dysgu ieithoedd. Mae'r llwyth yma'n cynnwys yr holl Saesneg llafar recordiwyd gan eu cymuned.
+data-other-tatoeba-description = Mae Tatoeba yn gronfa ddata mawr o frawddegau, cyfieithiadau a sain llafar ar gyfer dysgu ieithoedd. Mae'r llwyth yma'n cynnwys yr holl Saesneg llafar recordiwyd gan eu cymuned.
 data-bundle-button = Llwytho Pecyn Set Ddata i Lawr
 data-bundle-description = Common Voice ynghyd a'r holl setiau data llais uchod.
 license = Trwydded: <licenseLink>{ $license }</licenseLink>
@@ -155,13 +155,13 @@ record-error-too-long = Roedd y recordiad yn rhy hir.
 record-error-too-quiet = Roedd y recordiad yn rhy dawel.
 record-submit-success = Llwyddiant wrth gyflwyno! Eisiau recordio eto?
 record-help = Tapiwch i recordio, yna darllenwch y frawddeg uchod allan.
-record-cancel = Diddymu Ailrecordio
+record-cancel = Diddymu Ail-recordio
 review-terms = Drwy ddefnyddio Common Vice rydych yn cytuno i'n <termsLink>Amodau</termsLink> a'n <privacyLink>Hysbysiadau Preifatrwydd</privacyLink>
 review-aborted = Methodd y llwytho i fyny. Hoffech chi ddileu eich recordiadau?
 review-submit-title = Adolygu a Chyflwyno
 review-submit-msg = Diolch am recordio!<lineBreak></lineBreak>Nawr adolygwch a chyflwyno eich clipiau isod.
 review-recording = Adolygu
-review-rerecord = Ailrecordio
+review-rerecord = Ail-recordio
 review-cancel = Diddymu'r Cyflwyno
 
 ## Download Modal
