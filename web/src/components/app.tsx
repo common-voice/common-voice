@@ -1,13 +1,34 @@
 import * as React from 'react';
+const { Fragment } = require('react');
 import { connect, Provider } from 'react-redux';
-import { BrowserRouter as Router } from 'react-router-dom';
+import {
+  Redirect,
+  Route,
+  RouteComponentProps,
+  Switch,
+  withRouter,
+} from 'react-router';
+import { Router } from 'react-router-dom';
+const { negotiateLanguages } = require('fluent-langneg');
 const { LocalizationProvider } = require('fluent-react');
+import { createBrowserHistory } from 'history';
 import store from '../stores/root';
+import URLS from '../urls';
 import { isMobileWebkit, isFocus, isNativeIOS, sleep } from '../utility';
-import { createMessagesGenerator } from '../services/localization';
+import {
+  createMessagesGenerator,
+  DEFAULT_LOCALE,
+  LOCALES,
+} from '../services/localization';
 import Pages from './pages';
 import API from '../services/api';
 import StateTree from '../stores/tree';
+
+function replacePathLocale(pathname: string, locale: string) {
+  const pathParts = pathname.split('/');
+  pathParts[1] = locale;
+  return pathParts.join('/');
+}
 
 const LOAD_TIMEOUT = 5000; // we can only wait so long.
 
@@ -32,24 +53,83 @@ interface PropsFromState {
   api: API;
 }
 
-interface State {
-  loaded: boolean;
-  locale: string;
-  locales: {
-    [code: string]: string;
-  };
+interface LocalizedPagesProps extends PropsFromState, RouteComponentProps<any> {
+  userLocales: string[];
+}
+
+interface LocalizedPagesState {
   messagesGenerator: any;
 }
 
-class App extends React.Component<PropsFromState, State> {
+const LocalizedPages = withRouter(
+  connect<PropsFromState>(({ api }: StateTree) => ({
+    api,
+  }))(
+    class extends React.Component<LocalizedPagesProps, LocalizedPagesState> {
+      state: LocalizedPagesState = {
+        messagesGenerator: null,
+      };
+
+      async componentDidMount() {
+        await this.prepareMessagesGenerator(this.props);
+      }
+
+      async componentWillReceiveProps(nextProps: LocalizedPagesProps) {
+        if (nextProps.userLocales !== this.props.userLocales) {
+          await this.prepareMessagesGenerator(nextProps);
+        }
+      }
+
+      async prepareMessagesGenerator({
+        api,
+        history,
+        userLocales,
+      }: LocalizedPagesProps) {
+        const [mainLocale] = userLocales;
+        const pathname = history.location.pathname;
+
+        // Since we make no distinction between "en-US", "en-UK",... we redirect them all to "en"
+        if (mainLocale.startsWith('en-')) {
+          history.replace(replacePathLocale(pathname, 'en'));
+          return;
+        }
+
+        if (!LOCALES.includes(mainLocale)) {
+          history.replace(replacePathLocale(pathname, DEFAULT_LOCALE));
+        }
+
+        this.setState({
+          messagesGenerator: await createMessagesGenerator(api, userLocales),
+        });
+      }
+
+      render() {
+        const { messagesGenerator } = this.state;
+        return (
+          messagesGenerator && (
+            <LocalizationProvider messages={messagesGenerator()}>
+              <Pages locale={this.props.userLocales[0]} />
+            </LocalizationProvider>
+          )
+        );
+      }
+    }
+  )
+);
+
+const history = createBrowserHistory();
+
+interface State {
+  loaded: boolean;
+}
+
+class App extends React.Component<{}, State> {
   main: HTMLElement;
   progressMeter: HTMLSpanElement;
+  userLocales: string[];
 
   state: State = {
     loaded: false,
-    locale: '',
-    locales: null,
-    messagesGenerator: null,
   };
 
   /**
@@ -70,41 +150,8 @@ class App extends React.Component<PropsFromState, State> {
       document.body.classList.add('mobile-safari');
     }
 
-    if (location.origin !== 'https://voice.mozilla.org') {
-      fetch('https://pontoon.mozilla.org/graphql', {
-        method: 'POST',
-        headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({
-          query: `{
-            project(slug: "common-voice") {
-              localizations {
-                locale {
-                 code
-                 name
-                }
-              }
-            }
-          }`,
-          variables: null,
-        }),
-      })
-        .then(response => response.json())
-        .then(({ data }) => this.setLocales(data));
-    }
-  }
-
-  private async setLocales(pontoonData: any) {
-    const locales = pontoonData.project.localizations
-      .map(({ locale }: any) => [locale.code, locale.name])
-      .reduce((obj: any, [code, name]: any) => ({ ...obj, [code]: name }), {});
-
-    this.setState({
-      messagesGenerator: await createMessagesGenerator(
-        this.props.api,
-        navigator.languages,
-        Object.keys(locales)
-      ),
-      locales,
+    this.userLocales = negotiateLanguages(navigator.languages, LOCALES, {
+      defaultLocale: DEFAULT_LOCALE,
     });
   }
 
@@ -144,15 +191,6 @@ class App extends React.Component<PropsFromState, State> {
 
   async componentDidMount() {
     await Promise.all([
-      new Promise(async resolve => {
-        this.setState({
-          messagesGenerator: await createMessagesGenerator(
-            this.props.api,
-            navigator.languages
-          ),
-        });
-        resolve();
-      }),
       Promise.race([
         sleep(LOAD_TIMEOUT),
         this.preloadImages((progress: number) => {
@@ -167,37 +205,43 @@ class App extends React.Component<PropsFromState, State> {
     ]);
   }
 
-  private handleLocaleChange = async ({ target: { value: locale } }: any) => {
-    this.setState({
-      locale,
-      messagesGenerator: await createMessagesGenerator(
-        this.props.api,
-        [locale],
-        Object.keys(this.state.locales)
-      ),
-    });
+  private selectLocale = async ({ target: { value: locale } }: any) => {
+    history.push(replacePathLocale(history.location.pathname, locale));
   };
 
   render() {
-    const { loaded, locale, locales, messagesGenerator } = this.state;
-    return loaded && messagesGenerator ? (
-      <div>
-        {locales && (
-          <select value={locale} onChange={this.handleLocaleChange}>
-            <option value="">Select a Language...</option>
-            {Object.entries(locales).map(([code, name]) => (
-              <option key={code} value={code}>
-                {name}
-              </option>
+    return this.state.loaded ? (
+      <Provider store={store}>
+        <Router history={history}>
+          <Switch>
+            {Object.values(URLS).map(url => (
+              <Route
+                key={url}
+                exact
+                path={url || '/'}
+                render={() => <Redirect to={'/' + this.userLocales[0] + url} />}
+              />
             ))}
-          </select>
-        )}
-        <LocalizationProvider messages={messagesGenerator()}>
-          <Router>
-            <Pages />
-          </Router>
-        </LocalizationProvider>
-      </div>
+            <Route
+              path="/:locale"
+              render={({ match: { params: { locale } } }) => (
+                <Fragment>
+                  {LOCALES.length > 1 && (
+                    <select value={locale} onChange={this.selectLocale}>
+                      {LOCALES.map(code => (
+                        <option key={code} value={code}>
+                          {code}
+                        </option>
+                      ))}
+                    </select>
+                  )}
+                  <LocalizedPages userLocales={[locale, ...this.userLocales]} />
+                </Fragment>
+              )}
+            />
+          </Switch>
+        </Router>
+      </Provider>
     ) : (
       <div id="spinner">
         <span
@@ -214,12 +258,4 @@ class App extends React.Component<PropsFromState, State> {
   }
 }
 
-const AppWithStore = connect<PropsFromState>(({ api }: StateTree) => ({
-  api,
-}))(App);
-
-export default (props: any) => (
-  <Provider store={store}>
-    <AppWithStore {...props} />
-  </Provider>
-);
+export default App;

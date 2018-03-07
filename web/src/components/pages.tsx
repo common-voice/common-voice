@@ -7,6 +7,7 @@ import { Recordings } from '../stores/recordings';
 import StateTree from '../stores/tree';
 import { User } from '../stores/user';
 import { Clips } from '../stores/clips';
+import URLS from '../urls';
 import { getItunesURL, isNativeIOS, isIOS, isSafari } from '../utility';
 import ContactModal from './contact-modal/contact-modal';
 import Logo from './logo';
@@ -37,17 +38,6 @@ const encodedShareText = encodeURIComponent(
   'Help teach machines how real people speak, donate your voice at ' + shareURL
 );
 
-const URLS = {
-  ROOT: '/',
-  RECORD: '/record',
-  PROFILE: '/profile',
-  DATA: '/data',
-  FAQ: '/faq',
-  PRIVACY: '/privacy',
-  TERMS: '/terms',
-  NOTFOUND: '/not-found',
-};
-
 const KEYBOARD_FOCUS_CLASS_NAME = 'is-keyboard-focus';
 
 const LOW_FPS = 20;
@@ -66,7 +56,9 @@ interface PropsFromDispatch {
 interface PagesProps
   extends PropsFromState,
     PropsFromDispatch,
-    RouteComponentProps<any> {}
+    RouteComponentProps<any> {
+  locale: string;
+}
 
 interface PagesState {
   isMenuVisible: boolean;
@@ -119,10 +111,9 @@ class Pages extends React.Component<PagesProps, PagesState> {
 
     if (this.props.location !== nextProps.location) {
       this.setState({ isRecording: false });
-      this.content.children[0].addEventListener(
-        'animationend',
-        this.scrollToTop
-      );
+      const mainContent = this.content.children[0];
+      mainContent &&
+        mainContent.addEventListener('animationend', this.scrollToTop);
     }
   }
 
@@ -203,7 +194,7 @@ class Pages extends React.Component<PagesProps, PagesState> {
   };
 
   private addScrollListener = () => {
-    this.scroller.addEventListener('scroll', evt => {
+    this.scroller.addEventListener('scroll', () => {
       let scrolled = this.scroller.scrollTop > 0;
       if (scrolled !== this.state.scrolled) {
         this.setState({ scrolled: scrolled });
@@ -258,12 +249,15 @@ class Pages extends React.Component<PagesProps, PagesState> {
     document.body.classList.remove(KEYBOARD_FOCUS_CLASS_NAME);
   };
 
+  basePath: string;
   render() {
-    const pageName = this.props.location.pathname.substr(1) || 'home';
+    const pageName = this.props.location.pathname.split('/')[2] || 'home';
     let className = pageName;
     if (this.state.isRecording) {
       className += ' recording';
     }
+
+    this.basePath = '/' + this.props.locale;
 
     return (
       <div
@@ -277,8 +271,6 @@ class Pages extends React.Component<PagesProps, PagesState> {
         {isIOS() &&
           !isNativeIOS() &&
           !isSafari() && (
-            // This is a banner for non-Safari browsers on iOS.
-            // In iOS Safari, we display a 'Smart App Banner' instead.
             <div
               id="install-app"
               onClick={this.openInApp}
@@ -296,7 +288,7 @@ class Pages extends React.Component<PagesProps, PagesState> {
           ref={header => {
             this.header = header as HTMLElement;
           }}>
-          <Logo />
+          <Logo to={this.basePath} />
           {this.renderTallies()}
           <button
             id="hamburger-menu"
@@ -347,13 +339,13 @@ class Pages extends React.Component<PagesProps, PagesState> {
     return (
       <nav id={id} className="nav-list">
         <Localized id="speak">
-          <NavLink to={URLS.RECORD} exact />
+          <NavLink to={this.basePath + URLS.RECORD} exact />
         </Localized>
         <Localized id="datasets">
-          <NavLink to={URLS.DATA} exact />
+          <NavLink to={this.basePath + URLS.DATA} exact />
         </Localized>
         <Localized id="profile">
-          <NavLink to={URLS.PROFILE} exact />
+          <NavLink to={this.basePath + URLS.PROFILE} exact />
         </Localized>
         {withTallies && this.renderTallies()}
       </nav>
@@ -385,10 +377,10 @@ class Pages extends React.Component<PagesProps, PagesState> {
           this.content = div as HTMLElement;
         }}>
         <Switch>
-          <Route exact path={URLS.ROOT} component={Home} />
+          <Route exact path={this.basePath + URLS.ROOT} component={Home} />
           <Route
             exact
-            path={URLS.RECORD}
+            path={this.basePath + URLS.RECORD}
             render={props => (
               <Record
                 isRecording={this.state.isRecording}
@@ -399,11 +391,19 @@ class Pages extends React.Component<PagesProps, PagesState> {
               />
             )}
           />
-          <Route exact path={URLS.DATA} component={Data} />
-          <Route exact path={URLS.PROFILE} component={Profile} />
-          <Route exact path={URLS.FAQ} component={FAQ} />} />
-          <Route exact path={URLS.PRIVACY} component={Privacy} />} />
-          <Route exact path={URLS.TERMS} component={Terms} />} />
+          <Route exact path={this.basePath + URLS.DATA} component={Data} />
+          <Route
+            exact
+            path={this.basePath + URLS.PROFILE}
+            component={Profile}
+          />
+          <Route exact path={this.basePath + URLS.FAQ} component={FAQ} />
+          <Route
+            exact
+            path={this.basePath + URLS.PRIVACY}
+            component={Privacy}
+          />
+          <Route exact path={this.basePath + URLS.TERMS} component={Terms} />
           <Route component={NotFound} />
         </Switch>
       </div>
@@ -414,7 +414,7 @@ class Pages extends React.Component<PagesProps, PagesState> {
     return (
       <footer>
         <div id="help-links">
-          <Link id="help" to={URLS.FAQ}>
+          <Link id="help" to={this.basePath + URLS.FAQ}>
             <SupportIcon />
             <Localized id="help">
               <div />
@@ -446,14 +446,14 @@ class Pages extends React.Component<PagesProps, PagesState> {
         </div>
         <div id="moz-links">
           <div className="content">
-            <Logo reverse={true} />
+            <Logo reverse to={this.basePath} />
             <div className="links">
               <p>
                 <Localized id="privacy">
-                  <Link to={URLS.PRIVACY} />
+                  <Link to={this.basePath + URLS.PRIVACY} />
                 </Localized>
                 <Localized id="terms">
-                  <Link to={URLS.TERMS} />
+                  <Link to={this.basePath + URLS.TERMS} />
                 </Localized>
                 <Localized id="cookies">
                   <a
@@ -462,7 +462,7 @@ class Pages extends React.Component<PagesProps, PagesState> {
                   />
                 </Localized>
                 <Localized id="faq">
-                  <Link to={URLS.FAQ}>FAQ</Link>
+                  <Link to={this.basePath + URLS.FAQ}>FAQ</Link>
                 </Localized>
               </p>
               <p>

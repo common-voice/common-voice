@@ -3,13 +3,30 @@ const { MessageContext } = require('fluent');
 const { negotiateLanguages } = require('fluent-langneg');
 import API from './api';
 
-export async function createMessagesGenerator(
-  api: API,
-  userLocales: string[],
-  supportedLocales = ['en']
-) {
-  const currentLocales = negotiateLanguages(userLocales, supportedLocales, {
-    defaultLocale: 'en',
+export const DEFAULT_LOCALE = 'en';
+export const LOCALES =
+  location.origin === 'https://voice.mozilla.org'
+    ? [DEFAULT_LOCALE]
+    : [
+        'ca',
+        'cs',
+        'cv',
+        'en',
+        'fr',
+        'he',
+        'mk',
+        'nn-NO',
+        'pt-BR',
+        'sv-SE',
+        'tr',
+        'tt',
+        'zh-CN',
+        'zh-TW',
+      ];
+
+export async function createMessagesGenerator(api: API, userLocales: string[]) {
+  const currentLocales = negotiateLanguages(userLocales, LOCALES, {
+    defaultLocale: DEFAULT_LOCALE,
   });
 
   const localeMessages: any = await Promise.all(
