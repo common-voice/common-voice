@@ -125,7 +125,6 @@ interface State {
 
 class App extends React.Component<{}, State> {
   main: HTMLElement;
-  progressMeter: HTMLSpanElement;
   userLocales: string[];
 
   state: State = {
@@ -158,20 +157,13 @@ class App extends React.Component<{}, State> {
   /**
    * Pre-Load all images before first content render.
    */
-  private preloadImages(
-    progressCallback?: (percentLoaded: number) => void
-  ): Promise<void> {
+  private preloadImages(): Promise<void> {
     return new Promise<void>(resolve => {
       let loadedSoFar = 0;
       const onLoad = () => {
         ++loadedSoFar;
         if (loadedSoFar === PRELOAD.length) {
           resolve();
-          return;
-        }
-
-        if (progressCallback) {
-          progressCallback(loadedSoFar / PRELOAD.length);
         }
       };
       PRELOAD.forEach(imageUrl => {
@@ -191,17 +183,9 @@ class App extends React.Component<{}, State> {
 
   async componentDidMount() {
     await Promise.all([
-      Promise.race([
-        sleep(LOAD_TIMEOUT),
-        this.preloadImages((progress: number) => {
-          if (this.progressMeter) {
-            // TODO: find something performant here. (ie not this)
-            // let whatsLeft = 1 - progress;
-            // this.progressMeter.style.cssText =
-            //   `transform: scale(${whatsLeft});`;
-          }
-        }),
-      ]).then(() => this.setState({ loaded: true })),
+      Promise.race([sleep(LOAD_TIMEOUT), this.preloadImages()]).then(() =>
+        this.setState({ loaded: true })
+      ),
     ]);
   }
 
@@ -244,15 +228,7 @@ class App extends React.Component<{}, State> {
       </Provider>
     ) : (
       <div id="spinner">
-        <span
-          ref={el => {
-            if (this.progressMeter) {
-              return;
-            }
-
-            this.progressMeter = el as HTMLSpanElement;
-          }}
-        />
+        <span />
       </div>
     );
   }
