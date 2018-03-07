@@ -87,9 +87,13 @@ terms-general-title = 常规
 
 ## Data
 
+data-download-button = 下载 Common Voice 数据
+data-download-license = 许可协议：<licenseLink>CC-0</licenseLink>
 data-other-title = 其他语音数据集…
 data-other-download = 下载数据
+data-other-librispeech-description = Librispeech 是从 Librivox 项目中得到的大约 1000 小时的 16khz 有声读物的英文语音语料库。
 data-other-ted-name = TED-LIUM 语料库
+data-other-tatoeba-description = Tatoeba 是一个用于语言学习的句子、翻译和口语音频的大型数据库。此下载包含由其社区记录的所有口语。
 data-bundle-button = 批量下载数据集
 data-bundle-description = Common Voice 数据加上所有其他的语音数据集。
 license = 许可协议：<licenseLink>{ $license }</licenseLink>
