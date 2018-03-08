@@ -1,5 +1,4 @@
 import * as React from 'react';
-const { Fragment } = require('react');
 import { trackListening } from '../../services/tracker';
 import { FontIcon, PlayIcon, RedoIcon } from '../ui/icons';
 
@@ -230,10 +229,10 @@ export default class ListenBox extends React.Component<Props, State> {
 
   renderShortcutText(text: string) {
     return this.state.shortcutsEnabled ? (
-      <Fragment>
+      <React.Fragment>
         <span style={{ textDecoration: 'underline' }}>{text.charAt(0)}</span>
         {text.substr(1)}
-      </Fragment>
+      </React.Fragment>
     ) : (
       text
     );

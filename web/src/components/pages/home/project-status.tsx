@@ -1,5 +1,4 @@
 import * as React from 'react';
-const { Fragment } = require('react');
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 const { Localized } = require('fluent-react');
@@ -66,14 +65,14 @@ class ProjectStatus extends React.Component<PropsFromState, State> {
                   <div />
                 </Localized>
               ) : (
-                <Fragment>
+                <React.Fragment>
                   <Localized id="status-hours" $hours={validatedHours}>
                     <div />
                   </Localized>
                   <Localized id="status-goal" $goal={goal}>
                     <div />
                   </Localized>
-                </Fragment>
+                </React.Fragment>
               )}
             </div>
           </div>

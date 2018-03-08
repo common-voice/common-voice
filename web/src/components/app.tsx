@@ -1,5 +1,4 @@
 import * as React from 'react';
-const { Fragment } = require('react');
 import { connect, Provider } from 'react-redux';
 import {
   Redirect,
@@ -221,7 +220,7 @@ class App extends React.Component<{}, State> {
             <Route
               path="/:locale"
               render={({ match: { params: { locale } } }) => (
-                <Fragment>
+                <React.Fragment>
                   {LOCALES.length > 1 && (
                     <select value={locale} onChange={this.selectLocale}>
                       {LOCALES.map(code => (
@@ -234,7 +233,7 @@ class App extends React.Component<{}, State> {
                   <LocalizedLayout
                     userLocales={[locale, ...this.userLocales]}
                   />
-                </Fragment>
+                </React.Fragment>
               )}
             />
           </Switch>

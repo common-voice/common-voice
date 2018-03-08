@@ -1,5 +1,4 @@
 import * as React from 'react';
-const { Fragment } = require('react');
 import { connect } from 'react-redux';
 import { trackDataset } from '../../../services/tracker';
 import StateTree from '../../../stores/tree';
@@ -69,7 +68,7 @@ class AfterDownloadModal extends React.Component<Props, State> {
         </div>
 
         {!titleOnly && (
-          <Fragment>
+          <React.Fragment>
             <form onSubmit={this.handleSubmit}>
               <Localized id="download-helpus">
                 <p />
@@ -112,13 +111,13 @@ class AfterDownloadModal extends React.Component<Props, State> {
 
               {isSubmitted && <br />}
 
-              <Localized id="download-stayintouch">
+              <Localized id="stayintouch">
                 <p className="fine-print" />
               </Localized>
               <br />
 
               <Localized
-                id="download-privacy"
+                id="privacy-info"
                 privacyLink={
                   <a
                     href="/privacy"
@@ -129,7 +128,7 @@ class AfterDownloadModal extends React.Component<Props, State> {
                 <p className="fine-print" />
               </Localized>
             </form>
-          </Fragment>
+          </React.Fragment>
         )}
       </Modal>
     );
