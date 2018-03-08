@@ -47,7 +47,7 @@ profile-form-email =
     .label = E-bost
 profile-form-username =
     .label = Enw Defnyddiwr
-profile-form-emails = Iawn, anfon e-byst ata i. Rwyf eisiau cael gwybod am Broject Common Voice.
+yes-receive-emails = Iawn, anfon e-byst ata i. Rwyf eisiau cael gwybod am Broject Common Voice.
 profile-form-language =
     .label = Iaith
 profile-form-more-languages = Rhagor o ieithoedd ar y ffordd!
@@ -174,8 +174,8 @@ download-form-email =
 download-form-submit = Cyflwyno
 download-back = Dychwelyd i Setiau Data Common Voice
 download-no = Dim Diolch
-download-stayintouch = Rydym ni ym Mozilla'n adeiladu cymuned o amgylch technoleg llais. Hoffwn gadw mewn cysylltiad gyda diweddariadau, ffynonellau data newydd ac i glywed rhagor am sut rydych yn defnyddio'r data yma.
-download-privacy = Rydym yn addo trin eich manylion yn ofalus. Darllenwch ragor am ein <privacyLink>Hysbysiad Preifatrwydd</privacyLink>.
+stayintouch = Rydym ni ym Mozilla'n adeiladu cymuned o amgylch technoleg llais. Hoffwn gadw mewn cysylltiad gyda diweddariadau, ffynonellau data newydd ac i glywed rhagor am sut rydych yn defnyddio'r data yma.
+privacy-info = Rydym yn addo trin eich manylion yn ofalus. Darllenwch ragor am ein <privacyLink>Hysbysiad Preifatrwydd</privacyLink>.
 
 ## Contact
 

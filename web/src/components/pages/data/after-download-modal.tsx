@@ -112,7 +112,7 @@ class AfterDownloadModal extends React.Component<Props, State> {
               {isSubmitted && <br />}
 
               <Localized id="stayintouch">
-                <p className="fine-print" />
+                <p className="small" />
               </Localized>
               <br />
 
@@ -125,7 +125,7 @@ class AfterDownloadModal extends React.Component<Props, State> {
                     rel="noopener noreferrer"
                   />
                 }>
-                <p className="fine-print" />
+                <p className="small" />
               </Localized>
             </form>
           </React.Fragment>

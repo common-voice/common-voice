@@ -52,6 +52,7 @@
     "fluent-langneg": "^0.1.0",
     "fluent-react": "^0.6.1",
     "glob": "7.1.2 ",
+    "iso-639-1": "^2.0.3",
     "jest": "^22.1.1",
     "js-md5": "^0.6.1",
     "lodash.debounce": "^4.0.8",
@@ -112,7 +113,7 @@
     "prettier": "yarn lint --fix",
     "start": "node scripts/dev-server.js",
     "start:prod": "node server/js/server.js",
-    "test": "jest && yarn build && bundlesize -f \"web/dist/*.js\" -s 100kb"
+    "test": "jest && yarn build && bundlesize -f \"web/dist/*.js\" -s 110kb"
   },
   "pre-commit": [
     "prettier"

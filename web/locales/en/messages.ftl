@@ -1,3 +1,9 @@
+## General
+yes-receive-emails = Yes, send me emails. I’d like to stay informed about the Common Voice Project.
+stayintouch = We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.
+privacy-info = We promise to handle your information with care. Read more in our <privacyLink>Privacy Notice</privacyLink>.
+return-to-cv = Return to Common Voice
+
 ## Layout
 speak = Speak
 datasets = Datasets
@@ -51,7 +57,6 @@ profile-form-email =
     .label = Email
 profile-form-username =
     .label = User Name
-profile-form-emails = Yes, send me emails. I’d like to stay informed about the Common Voice Project.
 profile-form-language =
     .label = Language
 profile-form-more-languages = More languages coming soon!
@@ -171,10 +176,8 @@ download-form-email =
 download-form-submit = Submit
 download-back = Return to Common Voice Datasets
 download-no = No Thanks
-download-stayintouch = We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.
-download-privacy = We promise to handle your information with care. Read more in our <privacyLink>Privacy Notice</privacyLink>.
 
-## Contact
+## Contact Modal
 contact-title = Contact Form
 contact-cancel = Cancel
 contact-form-email =
@@ -185,3 +188,14 @@ contact-form-message =
     .label = Message
 contact-required = *required
 contact-submit = Submit
+
+## Request Language Modal
+request-language-title = Language Request
+request-language-cancel = Exit Form
+request-language-form-language =
+    .label = Language
+request-language-form-email =
+    .label = Email
+request-language-submit = Submit
+request-language-success-title = Language request successfully submitted, thank you.
+request-language-success-text = We will be in touch with more information about your language when it becomes available.

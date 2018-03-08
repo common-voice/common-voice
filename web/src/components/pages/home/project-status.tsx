@@ -12,11 +12,15 @@ interface PropsFromState {
   api: API;
 }
 
+interface Props extends PropsFromState {
+  onRequestLanguage: () => any;
+}
+
 interface State {
   validatedHours?: number;
 }
 
-class ProjectStatus extends React.Component<PropsFromState, State> {
+class ProjectStatus extends React.Component<Props, State> {
   state: State = {
     validatedHours: null,
   };
@@ -77,7 +81,7 @@ class ProjectStatus extends React.Component<PropsFromState, State> {
             </div>
           </div>
 
-          <div>
+          <div onClick={this.props.onRequestLanguage}>
             <Localized id="status-more-soon">
               <span />
             </Localized>

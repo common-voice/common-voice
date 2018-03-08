@@ -134,14 +134,14 @@ class ProfileForm extends React.Component<Props, State> {
             />
           </Localized>
 
-          <label id="opt-in">
+          <label className="opt-in">
             <input
               onChange={this.update}
               name="sendEmails"
               type="checkbox"
               checked={sendEmails}
             />
-            <Localized id="profile-form-emails">
+            <Localized id="yes-receive-emails">
               <span />
             </Localized>
           </label>

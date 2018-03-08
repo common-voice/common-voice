@@ -247,7 +247,3 @@ body:not(.mobile-safari) .dataset .button.card-action:hover path,
     font-size: var(--small-font-size);
     font-weight: 600;
 }
-
-.email-modal .fine-print {
-    font-size: var(--small-font-size);
-}

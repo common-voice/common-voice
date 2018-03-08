@@ -45,7 +45,7 @@ profile-form-email =
     .label = Adresse électronique
 profile-form-username =
     .label = Nom d’utilisateur
-profile-form-emails = Oui, envoyez-moi des courriers électroniques. Je souhaite recevoir l’actualité du projet Common Voice.
+yes-receive-emails = Oui, envoyez-moi des courriers électroniques. Je souhaite recevoir l’actualité du projet Common Voice.
 profile-form-language =
     .label = Langue
 profile-form-more-languages = Bientôt de nouvelles langues !
@@ -172,8 +172,8 @@ download-form-email =
 download-form-submit = Envoyer
 download-back = Retourner aux jeux de données Common Voice
 download-no = Non merci
-download-stayintouch = Chez Mozilla, nous rassemblons une communauté autour des technologies vocales. Nous aimerions rester en contact avec vous pour vous tenir au courant des nouvelles sources de données et pour découvrir comment vous utilisez ces données.
-download-privacy = Nous vous promettons de prendre soin de vos données. Apprenez-en davantage en consultant notre <privacyLink>politique de confidentialité</privacyLink>.
+stayintouch = Chez Mozilla, nous rassemblons une communauté autour des technologies vocales. Nous aimerions rester en contact avec vous pour vous tenir au courant des nouvelles sources de données et pour découvrir comment vous utilisez ces données.
+privacy-info = Nous vous promettons de prendre soin de vos données. Apprenez-en davantage en consultant notre <privacyLink>politique de confidentialité</privacyLink>.
 
 ## Contact
 

@@ -43,7 +43,7 @@ profile-form-email =
     .label = E-mail
 profile-form-username =
     .label = Usuário
-profile-form-emails = Sim, envie-me e-mails. Eu gostaria de ficar informado sobre o Projeto Common Voice.
+yes-receive-emails = Sim, envie-me e-mails. Eu gostaria de ficar informado sobre o Projeto Common Voice.
 profile-form-language =
     .label = Idioma
 profile-form-more-languages = Mais idiomas em breve!
@@ -142,7 +142,7 @@ download-form-email =
 download-form-submit = Enviar
 download-back = Voltar ao conjunto de dados do Common Voice
 download-no = Não, obrigado
-download-privacy = Nós prometemos cuidar das suas informações com cautela. Leia mais em nosso <privacyLink>Aviso de Privacidade</privacyLink>.
+privacy-info = Nós prometemos cuidar das suas informações com cautela. Leia mais em nosso <privacyLink>Aviso de Privacidade</privacyLink>.
 
 ## Contact
 

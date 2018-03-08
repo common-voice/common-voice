@@ -44,7 +44,7 @@ profile-form-email =
     .label = E-mail
 profile-form-username =
     .label = Uživatelské jméno
-profile-form-emails = Ano, posílejte mi e-maily. Rád bych zůstal o projektu Common Voice informován.
+yes-receive-emails = Ano, posílejte mi e-maily. Rád bych zůstal o projektu Common Voice informován.
 profile-form-language =
     .label = Jazyk
 profile-form-more-languages = Další jazyky již brzy!
@@ -171,8 +171,8 @@ download-form-email =
 download-form-submit = Odeslat
 download-back = Zpět na datasety Common Voice
 download-no = Ne, děkuji
-download-stayintouch = V Mozille budujeme komunitu okolo hlasových technologií. Rádi bychom zůstali v kontaktu s novinkami, novými zdroji dat a rádi bychom se dozvěděli, jak tato data používáte.
-download-privacy = Slibujeme, že budeme vaše informace zpracovávat s péčí. Přečtěte si více v našich <privacyLink>Zásadách ochrany soukromí</privacyLink>.
+stayintouch = V Mozille budujeme komunitu okolo hlasových technologií. Rádi bychom zůstali v kontaktu s novinkami, novými zdroji dat a rádi bychom se dozvěděli, jak tato data používáte.
+privacy-info = Slibujeme, že budeme vaše informace zpracovávat s péčí. Přečtěte si více v našich <privacyLink>Zásadách ochrany soukromí</privacyLink>.
 
 ## Contact
 

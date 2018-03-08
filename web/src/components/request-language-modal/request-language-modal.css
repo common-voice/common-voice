@@ -1,0 +1,26 @@
+.ReactModal__Content .inner.request-language-modal {
+    max-width: 25rem;
+}
+
+.ReactModal__Content .inner.request-language-modal.left-align {
+    text-align: start;
+}
+
+.request-language-modal h2 {
+    font-weight: bold;
+}
+
+.request-language-modal img {
+    width: 50px;
+    margin-bottom: 2.5rem;
+}
+
+.request-language-modal .actions {
+    display: flex;
+    justify-content: center;
+}
+
+.request-language-modal button {
+    border-radius: 50px;
+    text-transform: none;
+}

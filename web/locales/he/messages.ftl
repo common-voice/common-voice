@@ -43,7 +43,7 @@ profile-form-email =
     .label = דוא״ל
 profile-form-username =
     .label = שם משתמש
-profile-form-emails = כן, נא לשלוח לי עדכונים בדוא״ל על המיזם Common Voice.
+yes-receive-emails = כן, נא לשלוח לי עדכונים בדוא״ל על המיזם Common Voice.
 profile-form-language =
     .label = שפה
 profile-form-more-languages = שפות נוספות מגיעות בקרוב!
@@ -157,8 +157,8 @@ download-form-email =
 download-form-submit = שליחה
 download-back = חזרה לסדרות הנתונים של Common Voice
 download-no = לא תודה
-download-stayintouch = אנו ב־Mozilla בונים קהילה סביב טכנולוגיות קול. אנו רוצים להישאר אתך בקשר ולעניין אותך בעדכונים, מקורות נתונים חדשים ולשמוע עוד על אופן השימוש שלך בנתונים האלה.
-download-privacy = אנו מבטיחים לטפל במידע שלך בזהירות רבה. ניתן לקרוא עוד ב<privacyLink>מדיניות הפרטיות</privacyLink> שלנו.
+stayintouch = אנו ב־Mozilla בונים קהילה סביב טכנולוגיות קול. אנו רוצים להישאר אתך בקשר ולעניין אותך בעדכונים, מקורות נתונים חדשים ולשמוע עוד על אופן השימוש שלך בנתונים האלה.
+privacy-info = אנו מבטיחים לטפל במידע שלך בזהירות רבה. ניתן לקרוא עוד ב<privacyLink>מדיניות הפרטיות</privacyLink> שלנו.
 
 ## Contact
 
