@@ -199,3 +199,6 @@ request-language-form-language =
     .label = Jazyk
 request-language-form-email =
     .label = E-mailová adresa
+request-language-submit = Odeslat
+request-language-success-title = Žádost o jazyk byla odeslána. Děkujeme vám.
+request-language-success-text = Až bude váš jazyk dostupný, pošleme vám více informací.
