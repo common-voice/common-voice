@@ -1,3 +1,10 @@
+## General
+
+yes-receive-emails = Ano, posílejte mi e-maily. Rád bych zůstal o projektu Common Voice informován.
+stayintouch = V Mozille budujeme komunitu okolo hlasových technologií. Rádi bychom zůstali v kontaktu s novinkami, novými zdroji dat a rádi bychom se dozvěděli, jak tato data používáte.
+privacy-info = Slibujeme, že budeme vaše informace zpracovávat s péčí. Přečtěte si více v našich <privacyLink>Zásadách ochrany soukromí</privacyLink>.
+return-to-cv = Návrat do Common Voice
+
 ## Layout
 
 speak = Mluvte
@@ -44,7 +51,6 @@ profile-form-email =
     .label = E-mail
 profile-form-username =
     .label = Uživatelské jméno
-yes-receive-emails = Ano, posílejte mi e-maily. Rád bych zůstal o projektu Common Voice informován.
 profile-form-language =
     .label = Jazyk
 profile-form-more-languages = Další jazyky již brzy!
@@ -171,10 +177,8 @@ download-form-email =
 download-form-submit = Odeslat
 download-back = Zpět na datasety Common Voice
 download-no = Ne, děkuji
-stayintouch = V Mozille budujeme komunitu okolo hlasových technologií. Rádi bychom zůstali v kontaktu s novinkami, novými zdroji dat a rádi bychom se dozvěděli, jak tato data používáte.
-privacy-info = Slibujeme, že budeme vaše informace zpracovávat s péčí. Přečtěte si více v našich <privacyLink>Zásadách ochrany soukromí</privacyLink>.
 
-## Contact
+## Contact Modal
 
 contact-title = Kontaktní formulář
 contact-cancel = Zrušit
@@ -186,3 +190,12 @@ contact-form-message =
     .label = Zpráva
 contact-required = *vyžadováno
 contact-submit = Odeslat
+
+## Request Language Modal
+
+request-language-title = Požádat o jazyk
+request-language-cancel = Zavřít formulář
+request-language-form-language =
+    .label = Jazyk
+request-language-form-email =
+    .label = E-mailová adresa
