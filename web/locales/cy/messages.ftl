@@ -1,3 +1,10 @@
+## General
+
+yes-receive-emails = Iawn, anfon e-byst ata i. Rwyf eisiau cael gwybod am Broject Common Voice.
+stayintouch = Rydym ni ym Mozilla'n adeiladu cymuned o amgylch technoleg llais. Hoffwn gadw mewn cysylltiad gyda diweddariadau, ffynonellau data newydd ac i glywed rhagor am sut rydych yn defnyddio'r data yma.
+privacy-info = Rydym yn addo trin eich manylion yn ofalus. Darllenwch ragor am ein <privacyLink>Hysbysiad Preifatrwydd</privacyLink>.
+return-to-cv = Dychwelyd i Common Voice
+
 ## Layout
 
 speak = Siarad
@@ -47,7 +54,6 @@ profile-form-email =
     .label = E-bost
 profile-form-username =
     .label = Enw Defnyddiwr
-yes-receive-emails = Iawn, anfon e-byst ata i. Rwyf eisiau cael gwybod am Broject Common Voice.
 profile-form-language =
     .label = Iaith
 profile-form-more-languages = Rhagor o ieithoedd ar y ffordd!
@@ -174,10 +180,8 @@ download-form-email =
 download-form-submit = Cyflwyno
 download-back = Dychwelyd i Setiau Data Common Voice
 download-no = Dim Diolch
-stayintouch = Rydym ni ym Mozilla'n adeiladu cymuned o amgylch technoleg llais. Hoffwn gadw mewn cysylltiad gyda diweddariadau, ffynonellau data newydd ac i glywed rhagor am sut rydych yn defnyddio'r data yma.
-privacy-info = Rydym yn addo trin eich manylion yn ofalus. Darllenwch ragor am ein <privacyLink>Hysbysiad Preifatrwydd</privacyLink>.
 
-## Contact
+## Contact Modal
 
 contact-title = Ffurflen Gysylltu
 contact-cancel = Diddymu
@@ -189,3 +193,15 @@ contact-form-message =
     .label = Neges
 contact-required = *angenrheidiol
 contact-submit = Cyflwyno
+
+## Request Language Modal
+
+request-language-title = Cais am Iaith
+request-language-cancel = Gadael y Ffurflen
+request-language-form-language =
+    .label = Iaith
+request-language-form-email =
+    .label = E-bost
+request-language-submit = Cyflwyno
+request-language-success-title = Mae'r cais am iaith wedi ei gyflwyno'n llwyddiannus, diolch.
+request-language-success-text = Byddwn mewn cysylltiad am ragor o wybodaeth am eich iaith pan fydd ar gael.
