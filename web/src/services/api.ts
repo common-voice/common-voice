@@ -69,8 +69,8 @@ export default class API {
     return this.fetch(`${SENTENCES_PATH}?count=${count}`);
   }
 
-  async fetchRandomClips(count: number = 1): Promise<Clip[]> {
-    return await this.fetch(`${CLIP_PATH}?count=${count}`);
+  fetchRandomClips(count: number = 1): Promise<Clip[]> {
+    return this.fetch(`${CLIP_PATH}?count=${count}`);
   }
 
   syncDemographics(): Promise<Event> {
@@ -82,7 +82,7 @@ export default class API {
     });
   }
 
-  async syncUser(): Promise<any> {
+  syncUser(): Promise<any> {
     const {
       age,
       accent,
@@ -124,13 +124,24 @@ export default class API {
     });
   }
 
-  async fetchValidatedHours(): Promise<number> {
+  fetchValidatedHours(): Promise<number> {
     return this.fetch(CLIP_PATH + '/validated_hours');
   }
 
-  async fetchLocale(locale: string): Promise<string> {
+  fetchLocale(locale: string): Promise<string> {
     return this.fetch(`/locales/${locale}/messages.ftl`, {
       isJSON: false,
+    });
+  }
+
+  fetchRequestedLanguages(): Promise<string[]> {
+    return this.fetch(`${API_PATH}/requested_languages`);
+  }
+
+  requestLanguage(language: string): Promise<void> {
+    return this.fetch(`${API_PATH}/requested_languages`, {
+      method: 'POST',
+      body: { language },
     });
   }
 }

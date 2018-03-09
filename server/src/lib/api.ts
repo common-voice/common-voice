@@ -60,6 +60,9 @@ export default class API {
       this.clip.getRouter()
     );
 
+    router.get('/requested_languages', this.getRequestedLanguages);
+    router.post('/requested_languages', this.createLanguageRequest);
+
     router.use('*', (request: Request, response: Response) => {
       response.sendStatus(404);
     });
@@ -106,5 +109,15 @@ export default class API {
       throw new ServerError('No sentences right now');
     }
     response.json(sentences);
+  };
+
+  getRequestedLanguages = async (request: Request, response: Response) => {
+    response.json(await this.model.db.getRequestedLanguages());
+  };
+
+  createLanguageRequest = async (request: Request, response: Response) => {
+    await this.model.db.createLanguageRequest(request.body.language, request
+      .headers.uid as string);
+    response.json({});
   };
 }

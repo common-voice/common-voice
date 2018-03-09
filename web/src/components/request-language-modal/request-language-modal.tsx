@@ -1,19 +1,33 @@
+import { RequestedLanguages } from '../../stores/requested-langauges';
+
 const { Localized } = require('fluent-react');
 import ISO6391 from 'iso-639-1';
 import * as React from 'react';
+import { connect } from 'react-redux';
 import Modal from '../modal/modal';
-import { SuccessIcon } from '../ui/icons';
 import { Button, Hr, LabeledInput, LabeledSelect } from '../ui/ui';
+import StateTree from '../../stores/tree';
+import { User } from '../../stores/user';
+import LanguageAutocomplete from './language-autocomplete';
+import LanguageRequestSuccess from './language-request-success';
 
 const languageOptions = ISO6391.getAllCodes()
   .filter(code => code != 'en')
   .map(code => ({
-    code,
     nativeName: ISO6391.getNativeName(code),
     name: ISO6391.getName(code),
   }));
 
-interface Props {
+interface PropsFromState {
+  user: User.State;
+}
+
+interface PropsFromDispatch {
+  createLanguageRequest: typeof RequestedLanguages.actions.create;
+  updateUser: typeof User.actions.update;
+}
+
+interface Props extends PropsFromState, PropsFromDispatch {
   onRequestClose: () => void;
 }
 
@@ -21,58 +35,19 @@ interface State {
   email: string;
   isSubmitted: boolean;
   language: string;
+  otherLanguage: string;
   sendEmails: boolean;
 }
 
-const LanguageRequestSuccess = ({ onRequestClose }: Props) => (
-  <React.Fragment>
-    <div className="title-and-action">
-      <div />
-      <Localized id="request-language-cancel">
-        <a href="javascript:void(0)" onClick={onRequestClose} />
-      </Localized>
-    </div>
-
-    <br />
-
-    <SuccessIcon />
-
-    <Localized id="request-language-success-title">
-      <h2 />
-    </Localized>
-
-    <br />
-
-    <Localized id="request-language-success-text">
-      <p className="small" />
-    </Localized>
-
-    <br />
-
-    <Localized id="return-to-cv">
-      <a
-        href="javascript:void(0)"
-        onClick={onRequestClose}
-        className="small"
-        style={{ fontWeight: 'bold', color: 'black' }}
-      />
-    </Localized>
-
-    <br />
-    <br />
-  </React.Fragment>
-);
-
-export default class RequestLanguageModal extends React.Component<
-  Props,
-  State
-> {
+class RequestLanguageModal extends React.Component<Props, State> {
   state: State = {
-    email: '',
+    email: this.props.user.email,
     isSubmitted: false,
-    language:
-      navigator.languages.find(lang => lang.split('-')[0] !== 'en') || '',
-    sendEmails: false,
+    language: ISO6391.getName(
+      navigator.languages.find(lang => lang.split('-')[0] !== 'en')
+    ),
+    otherLanguage: '',
+    sendEmails: this.props.user.sendEmails,
   };
 
   private update = ({ target }: any) => {
@@ -81,8 +56,28 @@ export default class RequestLanguageModal extends React.Component<
     });
   };
 
+  private updateOtherLanguage = (otherLanguage: string) => {
+    this.setState({ otherLanguage });
+  };
+
+  private save = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const { email, language, otherLanguage, sendEmails } = this.state;
+    this.props.createLanguageRequest(
+      language == 'other' ? otherLanguage : language
+    );
+    this.props.updateUser({ email, sendEmails });
+    this.setState({ isSubmitted: true });
+  };
+
   render() {
-    const { email, language, isSubmitted, sendEmails } = this.state;
+    const {
+      email,
+      language,
+      otherLanguage,
+      isSubmitted,
+      sendEmails,
+    } = this.state;
     return (
       <Modal
         innerClassName={
@@ -91,7 +86,7 @@ export default class RequestLanguageModal extends React.Component<
         {isSubmitted ? (
           <LanguageRequestSuccess onRequestClose={this.props.onRequestClose} />
         ) : (
-          <React.Fragment>
+          <form onSubmit={this.save}>
             <div className="title-and-action">
               <Localized id="request-language-title">
                 <h2 />
@@ -115,20 +110,25 @@ export default class RequestLanguageModal extends React.Component<
                 value={language}
                 onChange={this.update}>
                 <option value="">Select a Language...</option>
-                {languageOptions.map(({ code, nativeName, name }) => (
-                  <option key={code} value={code}>
+                {languageOptions.map(({ nativeName, name }) => (
+                  <option key={name} value={name}>
                     {nativeName} ({name})
                   </option>
                 ))}
+                <option value="other">Other</option>
               </LabeledSelect>
             </Localized>
+
+            {language == 'other' && (
+              <LanguageAutocomplete onChange={this.updateOtherLanguage} />
+            )}
 
             <Localized id="request-language-form-email" attrs={{ label: true }}>
               <LabeledInput
                 label="Email"
                 name="email"
                 required
-                type="text"
+                type="email"
                 value={email}
                 onChange={this.update}
               />
@@ -151,8 +151,10 @@ export default class RequestLanguageModal extends React.Component<
             <div className="actions">
               <Localized id="request-language-submit">
                 <Button
-                  type="button"
-                  onClick={() => this.setState({ isSubmitted: true })}
+                  disabled={
+                    !email || (language == 'other' ? !otherLanguage : !language)
+                  }
+                  type="submit"
                 />
               </Localized>
               <div />
@@ -172,9 +174,23 @@ export default class RequestLanguageModal extends React.Component<
               }>
               <p className="small" />
             </Localized>
-          </React.Fragment>
+          </form>
         )}
       </Modal>
     );
   }
 }
+
+const mapStateToProps = (state: StateTree) => ({
+  user: state.user,
+});
+
+const mapDispatchToProps = {
+  createLanguageRequest: RequestedLanguages.actions.create,
+  updateUser: User.actions.update,
+};
+
+export default connect<PropsFromState, PropsFromDispatch>(
+  mapStateToProps,
+  mapDispatchToProps
+)(RequestLanguageModal);

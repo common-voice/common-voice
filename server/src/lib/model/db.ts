@@ -234,4 +234,39 @@ export default class DB {
       id,
     ]))[0][0];
   }
+
+  async getRequestedLanguages(): Promise<string[]> {
+    const [rows] = await this.mysql.query(
+      'SELECT language FROM requested_languages'
+    );
+    return rows.map((row: any) => row.language);
+  }
+
+  async findRequestedLanguageId(language: string): Promise<number | null> {
+    const [[row]] = await this.mysql.query(
+      'SELECT * FROM requested_languages WHERE LOWER(language) = LOWER(?) LIMIT 1',
+      [language]
+    );
+    return row ? row.id : null;
+  }
+
+  async createLanguageRequest(language: string, client_id: string) {
+    language = language.trim();
+    let requestedLanguageId = await this.findRequestedLanguageId(language);
+    if (!requestedLanguageId) {
+      await this.mysql.query(
+        'INSERT INTO requested_languages (language) VALUES (?)',
+        [language]
+      );
+      requestedLanguageId = await this.findRequestedLanguageId(language);
+    }
+    await this.mysql.query(
+      `
+        INSERT INTO language_requests (requested_languages_id, client_id)
+        VALUES (LAST_INSERT_ID(), ?)
+        ON DUPLICATE KEY UPDATE client_id = client_id
+      `,
+      [client_id]
+    );
+  }
 }

@@ -40,6 +40,7 @@
     "db-migrate": "^0.10.2",
     "db-migrate-mysql": "^1.1.10",
     "db-migrate-plugin-typescript": "^2.0.0",
+    "downshift": "^1.30.0",
     "es6-promise": "^4.1.1",
     "eslint": "^4.7.2",
     "eslint-plugin-prettier": "^2.3.1",
