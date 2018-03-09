@@ -3,8 +3,10 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 const { Localized } = require('fluent-react');
 import { trackNavigation } from '../../../services/tracker';
+import { isProduction } from '../../../utility';
 import API from '../../../services/api';
 import StateTree from '../../../stores/tree';
+import { Button, Hr } from '../../ui/ui';
 
 const GOAL_HOURS = 500;
 
@@ -81,12 +83,30 @@ class ProjectStatus extends React.Component<Props, State> {
             </div>
           </div>
 
-          <div onClick={this.props.onRequestLanguage}>
-            <Localized id="status-more-soon">
-              <span />
-            </Localized>
-            <div className="progress-bar" />
-          </div>
+          {isProduction() ? (
+            <div>
+              <Localized id="status-more-soon">
+                <span />
+              </Localized>
+              <div className="progress-bar" />
+            </div>
+          ) : (
+            <div className="request-language">
+              <Hr style={{ marginBottom: '2rem' }} />
+
+              <Localized id="request-language-text">
+                <div />
+              </Localized>
+
+              <br />
+
+              <Localized id="request-language-button">
+                <Button rounded onClick={this.props.onRequestLanguage} />
+              </Localized>
+
+              <br />
+            </div>
+          )}
         </div>
       </div>
     );

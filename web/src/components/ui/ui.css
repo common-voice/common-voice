@@ -21,6 +21,10 @@
     color: black;
 }
 
+.button.rounded {
+    border-radius: 50px;
+}
+
 @media (--mobile) {
     .button {
         display: block;

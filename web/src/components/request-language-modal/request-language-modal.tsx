@@ -155,6 +155,7 @@ class RequestLanguageModal extends React.Component<Props, State> {
                     !email || (language == 'other' ? !otherLanguage : !language)
                   }
                   type="submit"
+                  rounded
                 />
               </Localized>
               <div />
