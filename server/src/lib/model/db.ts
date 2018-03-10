@@ -1,5 +1,6 @@
 import { pick } from 'lodash';
 import { CommonVoiceConfig } from '../../config-helper';
+import { hash } from '../utility';
 import Mysql from './db/mysql';
 import Schema from './db/schema';
 import { UserTable } from './db/tables/user-table';
@@ -183,11 +184,14 @@ export default class DB {
     sentence: string
   ) {
     try {
-      await this.saveUserClient(client_id);
+      await Promise.all([
+        this.saveUserClient(client_id),
+        this.insertSentence(hash(sentence), sentence),
+      ]);
       await this.mysql.query(
         'INSERT INTO clips (client_id, original_sentence_id, path, sentence) VALUES (?, ?, ?, ?) ' +
           'ON DUPLICATE KEY UPDATE id = id',
-        [client_id, original_sentence_id, path, sentence]
+        [client_id, hash(sentence), path, sentence]
       );
     } catch (e) {
       console.error('No sentence found with id', original_sentence_id, e);
@@ -211,10 +215,10 @@ export default class DB {
   }
 
   async insertSentence(id: string, sentence: string) {
-    await this.mysql.query('INSERT INTO sentences (id, text) VALUES (?, ?)', [
-      id,
-      sentence,
-    ]);
+    await this.mysql.query(
+      'INSERT INTO sentences (id, text) VALUES (?, ?) ON DUPLICATE KEY UPDATE id = id',
+      [id, sentence]
+    );
   }
 
   async empty() {
