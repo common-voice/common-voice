@@ -1,6 +1,5 @@
 import * as fs from 'fs';
 import * as path from 'path';
-const utf8 = require('utf8');
 import promisify from '../../../promisify';
 import { hash } from '../../clip';
 
@@ -114,18 +113,16 @@ export async function importSentences(pool: any) {
   await pool.query('UPDATE sentences SET is_used = FALSE');
 
   for (const sentence of await loadSentences(SENTENCE_FOLDER)) {
-    const encodedSentence = utf8.encode(sentence).trim();
     await pool.query(
       'INSERT INTO sentences (id, text, is_used) VALUES (?, ?, TRUE) ON DUPLICATE KEY UPDATE is_used = TRUE',
-      [hash(encodedSentence), encodedSentence]
+      [hash(sentence), sentence]
     );
   }
 
   for (const sentence of await loadSentences(UNUSED_FOLDER)) {
-    const encodedSentence = utf8.encode(sentence).trim();
     await pool.query(
       'INSERT INTO sentences (id, text, is_used) VALUES (?, ?, FALSE) ON DUPLICATE KEY UPDATE is_used = FALSE',
-      [hash(encodedSentence), encodedSentence]
+      [hash(sentence), sentence]
     );
   }
 

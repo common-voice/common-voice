@@ -89,7 +89,6 @@
     "typescript": "^2.5.2",
     "typescript-eslint-parser": "^12.0.0",
     "uglifyjs-webpack-plugin": "^1.1.6",
-    "utf8": "^2.1.2",
     "walk": "^2.3.9",
     "webpack": "^3.7.1",
     "webpack-merge": "^4.1.0"
