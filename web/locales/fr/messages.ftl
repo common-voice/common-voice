@@ -1,3 +1,10 @@
+## General
+
+yes-receive-emails = Oui, envoyez-moi des courriers électroniques. Je souhaite recevoir l’actualité du projet Common Voice.
+stayintouch = Chez Mozilla, nous rassemblons une communauté autour des technologies vocales. Nous aimerions rester en contact avec vous pour vous tenir au courant des nouvelles sources de données et pour découvrir comment vous utilisez ces données.
+privacy-info = Nous vous promettons de prendre soin de vos données. Apprenez-en davantage en consultant notre <privacyLink>politique de confidentialité</privacyLink>.
+return-to-cv = Retourner vers Common Voice
+
 ## Layout
 
 speak = Parler
@@ -24,6 +31,8 @@ wall-of-text-more-desktop =
 show-wall-of-text = En savoir plus
 help-us-title = Aidez-nous à valider des phrases !
 help-us-explain = Appuyez sur lecture, écoutez et dites-nous : la phrase ci-dessous est-elle prononcée correctement ?
+request-language-text = Votre langue n’est pas encore disponible ?
+request-language-button = Proposer une langue
 
 ## ProjectStatus
 
@@ -45,7 +54,6 @@ profile-form-email =
     .label = Adresse électronique
 profile-form-username =
     .label = Nom d’utilisateur
-yes-receive-emails = Oui, envoyez-moi des courriers électroniques. Je souhaite recevoir l’actualité du projet Common Voice.
 profile-form-language =
     .label = Langue
 profile-form-more-languages = Bientôt de nouvelles langues !
@@ -172,10 +180,8 @@ download-form-email =
 download-form-submit = Envoyer
 download-back = Retourner aux jeux de données Common Voice
 download-no = Non merci
-stayintouch = Chez Mozilla, nous rassemblons une communauté autour des technologies vocales. Nous aimerions rester en contact avec vous pour vous tenir au courant des nouvelles sources de données et pour découvrir comment vous utilisez ces données.
-privacy-info = Nous vous promettons de prendre soin de vos données. Apprenez-en davantage en consultant notre <privacyLink>politique de confidentialité</privacyLink>.
 
-## Contact
+## Contact Modal
 
 contact-title = Formulaire de contact
 contact-cancel = Annuler
@@ -187,3 +193,15 @@ contact-form-message =
     .label = Message
 contact-required = *requis
 contact-submit = Envoyer
+
+## Request Language Modal
+
+request-language-title = Proposition de langue
+request-language-cancel = Quitter le formulaire
+request-language-form-language =
+    .label = Langue
+request-language-form-email =
+    .label = Adresse électronique
+request-language-submit = Envoyer
+request-language-success-title = La langue a été proposée, merci.
+request-language-success-text = Nous vous contacterons avec plus d’informations lorsque votre langue sera disponible.
