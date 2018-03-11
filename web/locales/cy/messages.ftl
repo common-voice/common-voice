@@ -31,6 +31,8 @@ wall-of-text-more-desktop =
 show-wall-of-text = Darllen Rhagor
 help-us-title = Helpwch ni i ddilysu brawddegau!
 help-us-explain = Pwyswch chwarae, gwrando a dweud: ydyn nhw wedi siarad y frawddeg isod yn iawn?
+request-language-text = Ddim yn gweld eich iaith yn Common Voice eto?
+request-language-button = Cais am Iaith
 
 ## ProjectStatus
 
