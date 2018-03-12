@@ -75,6 +75,17 @@ faq-important-a = Zëri është natyror, zëri është njerëzor. Është mënyr
 faq-get-q = Si mund t’i kem të dhënat Common Voice?
 faq-get-a = Grupi i të dhënave është i passhëm te <downloadLink>faqja jonë e shkarkimeve</downloadLink>, nën një licencë <licenseLink>CC-0</licenseLink>.
 faq-mission-q = Çne Common Voice pjesë e misionit të Mozilla-s?
+faq-mission-a = Mozilla i është përkushtuar mbajtjes së web-it të hapur dhe të përdorshëm nga kushdo. Për ta bërë këtë, na duhet t’i fuqizojmë krijuesit web përmes projektesh të tillë si Common Voice. Teksa teknologjitë e zërit lulëzojnë tej aplikacionesh speciale, besojmë se duhet t’u shërbejmë njësoj krejt përdoruesve. Shohin nevojën e përfshirjes së më tepër gjuhëve, thekseve dhe demografive, kur krijohen dhe testohen teknologji zanore. Mozilla dëshiron të shohë një internet të shëndetshëm, të gjallë. Kjo do të thotë t’u jepen krijuesve të rinj mundësi përdorimi të dhënash zanore, që të mund të krijojnë projekte të reja, të jashtëzakonshme. Common Voice do të jetë një burim publik që do të ndihmojë ekipet dhe programuesit e Mozilla-s anembanë botës.
+faq-native-q = S’e kam gjuhën e nënës { $lang } dhe e flas me theks, e doni zërin tim prapëseprapë?
+faq-native-a = Po, pa diskutim që e duam! Pjesë e synimit të Common Voice-it është të grumbullojë sa më shumë thekse të ndryshëm që të mundet, që kështu kompjuterët të mund të kuptojnë më mirë <bold>gjithkënd</bold> kur flasin.
+faq-firefox-q = A do të bëhet ndonjëherë pjesë e Firefox-it, përmes Common Voice, shndërrimi nga e folur në tekst?
+faq-firefox-a = Common Voice ka potencial të pakufizuar dhe po eksplorojmë në fakt ndërfaqe të të folurës në një numër produktesh Mozilla, përfshi Firefox-in.
+faq-quality-q = Cila është shkalla e nevojshme e cilësisë së audios që të mund të jetë e përdorshme?
+faq-hours-q = Çne synimi 10 000 orë zë i incizuar?
+faq-hours-a = Ky është përafërsisht numri i orëve i nevojshëm për stërvitjen e një sistemit produktiv STT.
+faq-source-q = Prej nga vjen teksti burim?
+faq-source-a1 = Fjalitë e tanishme vijnë nga dhurime, si dhe nga dialogë prej skenarësh filmash nën pronësi publike, b.f. <italic>It’s a Wonderful Life.</italic>
+faq-source-a2 = Fjalitë tona burim mund t’i shihni <dataLink>në këtë dosje në GitHub</dataLink>.
 
 ## Profile
 
@@ -100,6 +111,7 @@ terms-general-title = Të përgjithshme
 ## Data
 
 data-download-license = Licencë: <licenseLink>CC-0</licenseLink>
+data-other-goto = Kalo te { $name }
 data-other-download = Shkarkoni Të dhëna
 license = Licencë: <licenseLink>{ $license }</licenseLink>
 
