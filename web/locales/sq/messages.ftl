@@ -19,6 +19,15 @@ show-wall-of-text = Lexoni Më Tepër
 ## ProjectStatus
 
 status-loading = Po ngarkohet…
+status-hours =
+    { $hours ->
+        [one] Një orë e vlerësuar deri këtu!
+       *[other] { hours } orë të vlerësuara deri këtu!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Objektivi i Ardhshëm: { $goal }
+status-more-soon = Më tepër gjuhë së shpejti!
 
 ## ProfileForm
 
@@ -28,6 +37,7 @@ profile-form-username =
     .label = Emër Përdoruesi
 profile-form-language =
     .label = Gjuhë
+profile-form-more-languages = Më tepër gjuhë së shpejti!
 profile-form-accent =
     .label = Theksim
 profile-form-age =
@@ -52,6 +62,7 @@ notfound-content = Kam frikë s’e nuk di se ç’po kërkoni.
 ## Privacy
 
 privacy-title = Shënim Privatësie për Common Voice
+privacy-policy = Kur Mozilla (domethënë ne), merr të dhëna nga ju, <policy>Rregullat e Privatësisë në Mozilla</policy> përshkruajnë se si i trajtojmë ato të dhëna.
 
 ## Terms
 
