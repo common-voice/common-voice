@@ -150,6 +150,7 @@ body:not(.mobile-safari) .button.card-action:hover path,
     position: absolute;
     background: url('/img/down-arrow.svg') no-repeat right 15px top 37px;
     background-size: 13px 9px;
+    pointer-events: none;
 }
 
 .labeled-form-control :required, .labeled-form-control :valid {
