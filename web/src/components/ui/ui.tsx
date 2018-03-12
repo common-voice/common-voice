@@ -35,7 +35,11 @@ const LabeledFormControl = ({
   required,
   ...props
 }: any) => (
-  <label className={'labeled-form-control ' + className} {...props}>
+  <label
+    className={['labeled-form-control', 'for-' + Component, className].join(
+      ' '
+    )}
+    {...props}>
     {label}
     {required && '*'}
     <Component {...{ required, ...props }} />

@@ -134,6 +134,24 @@ body:not(.mobile-safari) .button.card-action:hover path,
     height: var(--input-height);
 }
 
+.labeled-form-control.for-select {
+    position: relative;
+}
+
+.labeled-form-control select {
+    padding-right: 33px;
+    appearance: none;
+}
+
+.labeled-form-control.for-select::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url('/img/down-arrow.svg') no-repeat right 15px top 37px;
+    background-size: 13px 9px;
+}
+
 .labeled-form-control :required, .labeled-form-control :valid {
     box-shadow: none;
 }
