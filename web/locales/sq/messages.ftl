@@ -41,13 +41,17 @@ faq-title = Pyetje të Bëra Shpesh
 
 ## Profile
 
+profile-why-title = Pse duhet një profil?
+profile-why-content = Duke furnizuar disa të dhëna mbi veten, të dhënat audio që parashtroni te Common Voice do të jenë më të dobishme për motorët e Njohjes së Të folurës që përdorin këto të dhëna në përmirësim e përpikërisë së tyre.
 
 ## NotFound
 
 notfound-title = S’u gjet
+notfound-content = Kam frikë s’e nuk di se ç’po kërkoni.
 
 ## Privacy
 
+privacy-title = Shënim Privatësie për Common Voice
 
 ## Terms
 
