@@ -5,7 +5,6 @@ import { hash } from '../../clip';
 
 const CWD = process.cwd();
 const SENTENCE_FOLDER = path.resolve(CWD, 'server/data/');
-const UNUSED_FOLDER = path.join(SENTENCE_FOLDER, 'not-used');
 
 const CHUNK_SIZE = 50;
 
@@ -115,13 +114,6 @@ export async function importSentences(pool: any) {
   for (const sentence of await loadSentences(SENTENCE_FOLDER)) {
     await pool.query(
       'INSERT INTO sentences (id, text, is_used) VALUES (?, ?, TRUE) ON DUPLICATE KEY UPDATE is_used = TRUE',
-      [hash(sentence), sentence]
-    );
-  }
-
-  for (const sentence of await loadSentences(UNUSED_FOLDER)) {
-    await pool.query(
-      'INSERT INTO sentences (id, text, is_used) VALUES (?, ?, FALSE) ON DUPLICATE KEY UPDATE is_used = FALSE',
       [hash(sentence), sentence]
     );
   }
