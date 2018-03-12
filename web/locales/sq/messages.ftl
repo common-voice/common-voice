@@ -1,19 +1,29 @@
 ## General
 
+yes-receive-emails = Po, dërgomëni email-e. Do të doja të jem në dijeni rreth projektit Common Voice.
+stayintouch = Ne në Mozilla po ndërtojmë një bashkësi rreth teknologjish që lidhen me zërin. Do të donin të ruanim lidhjet me ju, përmes përditësimesh, burimesh të reja zëri dhe të mësojmë se si po i përdorni këto të dhëna.
+privacy-info = Premtojmë t’i trajtojmë me kujdes të dhënat tuaja. Lexoni më tepër te <privacyLink>Shënimi ynë mbi Privatësinë</privacyLink>.
+return-to-cv = Kthehuni te Common Voice
 
 ## Layout
 
 speak = Flisni
+datasets = Grupe të dhënash
+profile = Profil
 help = Ndihmë
 contact = Kontakt
 privacy = Privatësi
 terms = Kushte
 cookies = Cookies
 faq = FAQ
+content-license-text = Lëndë e përdorshme sipas një <licenseLink>licence Creative Commons</licenseLink>
+share-title = Nidhmonani të gjejmë të tjerë dhurues të zërit të tyre!
 
 ## Home Page
 
+home-title = Projekti Common Voice është një nismë e Mozilla-s për të ndihmuar t’u mësohet makinave se si flasin njerëzit.
 home-cta = Flisni, kontribuoni këtu!
+wall-of-text-start = Zëri është diçka natyrore, zëri është njerëzor. Ndaj na tërheq krijimi i teknologjive të zërit të përdorshme për makinat tona. Por për të krijuar sisteme zëri lypsen sasi tejet të mëdha zanore.
 show-wall-of-text = Lexoni Më Tepër
 
 ## ProjectStatus
