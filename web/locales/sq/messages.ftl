@@ -24,10 +24,20 @@ share-title = Nidhmonani të gjejmë të tjerë dhurues të zërit të tyre!
 home-title = Projekti Common Voice është një nismë e Mozilla-s për të ndihmuar t’u mësohet makinave se si flasin njerëzit.
 home-cta = Flisni, kontribuoni këtu!
 wall-of-text-start = Zëri është diçka natyrore, zëri është njerëzor. Ndaj na tërheq krijimi i teknologjive të zërit të përdorshme për makinat tona. Por për të krijuar sisteme zëri lypsen sasi tejet të mëdha zanore.
+wall-of-text-more-mobile = Shumica e të dhënave nga kompanitë e mëdha nuk jepen për shumicën e njerëzve. Jemi të mendimit se ko pengon risitë. Ndaj nisëm projektin Common Voice, një projekt për të ndihmuar në bërjen e njohjes së zërit të hapur për këdo.
+wall-of-text-more-desktop =
+    Tani mund të dhuroni zërin tuaj për të na ndihmuar të krijojmë një bazë të dhënash me burim të hapur që mund ta përdorë kushdo për të sjellë aplikacione risore për pajisje dhe web.<lineBreak></lineBreak>
+    Lexoni një sentencë për të ndihmuar makinat të mësojnë se si flasin në të vërtetë njerëzit. Kontrolloni punën e kontribuesve të tjerë për të përmirësuar cilësinë. Ja, kaq e thjeshtë është!
 show-wall-of-text = Lexoni Më Tepër
+help-us-title = Ndihmonani të vleftësojmë fjali!
+help-us-explain = Shtypni Play, dëgjoni & na thoni: a e shqiptuan saktë fjalinë më poshtë?
+request-language-text = S’e ende shihni gjuhën tuaj te Common Voice?
+request-language-button = Kërkoni një Gjuhë
 
 ## ProjectStatus
 
+status-title = Gjendje e projektit në përgjithësi: shihni deri ku kemi mbërritur!
+status-contribute = Kontribuoni Me Zërin Tuaj
 status-loading = Po ngarkohet…
 status-hours =
     { $hours ->
@@ -58,6 +68,12 @@ profile-form-gender =
 ## FAQ
 
 faq-title = Pyetje të Bëra Shpesh
+faq-what-q = Ç’është Common Voice?
+faq-what-a = Teknologjia e njohjes së zërit mund të revolucionarizojë mënyrën se si ndërveprojmë me makinat, por sistemet e gatshëm sot janë të shtrenjtë dhe pronësorë. Common Voice është një projekt për ta bërë teknologjinë e njohjes së zërit lehtësisht të përdorshme nga gjithkush. Njerëzit dhurojnë zërat e tyre te një bazë masive të dhënash që do t’i lejojë kujtdo të stërvitë shpejt dhe lehtë aplikacione që punojnë me zë. Krejt të dhënat zanore do të jenë të përdorshme nga zhvilluesit.
+faq-important-q = Pse ka rëndësi kjo?
+faq-important-a = Zëri është natyror, zëri është njerëzor. Është mënyra më e lehtë dhe më natyrale për të komunikuar. Duam që zhvilluesit të jenë në gjendje të krijojnë gjëra të mahnitshme, nga programe përkthimi të atypëratyshëm deri te asistentë administrativë që funksionojnë me zë. Por hëpërhë, s’ka të dhëna të mjaftueshme publike për krijimin e këtyre lloj aplikacioneve. Shpresojmë që Common Voice t’u japë zhvilluesve atë çka ju duhet për novacione të tilla.
+faq-get-q = Si mund t’i kem të dhënat Common Voice?
+faq-get-a = Grupi i të dhënave është i passhëm te <downloadLink>faqja jonë e shkarkimeve</downloadLink>, nën një licencë <licenseLink>CC-0</licenseLink>.
 
 ## Profile
 
