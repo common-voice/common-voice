@@ -47,7 +47,8 @@ request-language-button = In taal fersykje
 status-title = Projektsteat: sjoch hoe fier wy al binne!
 status-contribute = Draach by mei jo stim
 status-loading = Lade…
-status-hours = { $hours ->
+status-hours =
+    { $hours ->
         [one] Op dit stuit ien oer falidearre!
        *[other] Op dit stuit { $hours } oeren falidearre!
     }
@@ -122,6 +123,18 @@ license = Lisinsje: <licenseLink>{ $license }</licenseLink>
 
 record-platform-not-supported = It spyt ús, mar jo platfoarm wurdt op dit stuit net stipe.
 record-platform-not-supported-desktop = Op desktopkompjûters, download de lêste:
+record-platform-not-supported-ios = <bold>iOS</bold>-brûkers kinne ús fergese app downloade:
+record-must-allow-microphone = Jo moatte tagong ta jo mikrofoan tastean.
+record-error-too-short = De opname wie te koart.
+record-error-too-long = De opname wie te lang.
+record-error-too-quiet = De opname wie te súntsjes
+record-submit-success = Opname suksesfol! Wolle jo noch wat opnimme?
+record-help = Tik om op te nimmen, lês dêrnei de boppesteande sin lûd op.
+record-cancel = Opnij opnimmen annulearje
+review-terms = Troch it brûken fan Common Voice, gean jo akkoard mei ús <termsLink>Betingsten</termsLink> en <privacyLink>Privacybelied</privacyLink>
+review-aborted = Oplaad ôfbrutsen. Wolle jo jo opnamen wiskje?
+review-submit-title = Beoardiele & yntsjinje
+review-submit-msg = Tank foar jo opname!<lineBreak></lineBreak>Beoardielje en tsjinje jo ûndersteande clips yn.
 review-recording = Beoardieling
 review-rerecord = Opnij opnimme
 review-cancel = Ynstjoering annulearje
@@ -129,6 +142,7 @@ review-cancel = Ynstjoering annulearje
 ## Download Modal
 
 download-title = Jo download is starten.
+download-helpus = Help ús in mienskip te bouwen rûnom spraaktechnology, bliuw op de hichte fia e-mail.
 download-form-email =
     .label = Fier jo e-mailadres yn
     .value = Tankewol, wy nimme kontakt op.
