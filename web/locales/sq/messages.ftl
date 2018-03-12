@@ -74,6 +74,7 @@ faq-important-q = Pse ka rëndësi kjo?
 faq-important-a = Zëri është natyror, zëri është njerëzor. Është mënyra më e lehtë dhe më natyrale për të komunikuar. Duam që zhvilluesit të jenë në gjendje të krijojnë gjëra të mahnitshme, nga programe përkthimi të atypëratyshëm deri te asistentë administrativë që funksionojnë me zë. Por hëpërhë, s’ka të dhëna të mjaftueshme publike për krijimin e këtyre lloj aplikacioneve. Shpresojmë që Common Voice t’u japë zhvilluesve atë çka ju duhet për novacione të tilla.
 faq-get-q = Si mund t’i kem të dhënat Common Voice?
 faq-get-a = Grupi i të dhënave është i passhëm te <downloadLink>faqja jonë e shkarkimeve</downloadLink>, nën një licencë <licenseLink>CC-0</licenseLink>.
+faq-mission-q = Çne Common Voice pjesë e misionit të Mozilla-s?
 
 ## Profile
 
