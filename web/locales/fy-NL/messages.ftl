@@ -1,5 +1,9 @@
 ## General
 
+yes-receive-emails = Ja, stjoer my e-mailberjochten. Ik wol graach op 'e hichte bliuwe fan it projekt Common Voice.
+stayintouch = By Mozilla meitsje wy in mienskip rûn om spraaktechnology. Wy wolle graach yn kontakt bliuwe mei fernijingen, nije gegevensboarnen en mear heare oer hoe't jo de gegevens brûke.
+privacy-info = Wy sizze jo ta dat wy jo ynformaasje mei omtinken behannelje. Mear ynfo dêr oer yn ús <privacyLink>Privacybelied</privacyLink>.
+return-to-cv = Werom nei Common Voice
 
 ## Layout
 
@@ -17,6 +21,12 @@ share-title = Help ús oaren te finen om harren stim te donearjen!
 
 ## Home Page
 
+home-title = It projekt Common Voice is it inisjatyf fan Mozilla om masinen te learen hoe't minsken prate.
+home-cta = Lit jo heare, doch hjir mei!
+wall-of-text-start =
+    Spraak is natuerlik, spraak is minsklik. Dat is wêrom wy fassinearre binne mei it meitsjen fan brûkbere
+    spraaktechnology foar ús masinen. Mar om spraaksystemen te meitsjen, is in ekstreem grut oantal fan 
+    spraakgegevens fereaske.
 show-wall-of-text = Mear ynfo
 help-us-title = Help ús sinnen te falidearjen!
 
