@@ -70,6 +70,7 @@ faq-important-q = ¿Por qué es importante?
 
 ## Privacy
 
+privacy-more = <more>Aprender más</more>
 
 ## Terms
 
