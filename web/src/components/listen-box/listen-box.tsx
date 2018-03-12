@@ -130,11 +130,18 @@ export default class ListenBox extends React.Component<Props, State> {
   }
 
   private voteYes() {
+    if (!this.state.played) {
+      return;
+    }
     this.vote(true);
     trackListening('vote-yes');
   }
 
   private voteNo() {
+    const { played, playedSome } = this.state;
+    if (!played && !playedSome) {
+      return;
+    }
     this.vote(false);
     trackListening('vote-no');
   }
