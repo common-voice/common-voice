@@ -80,9 +80,13 @@ faq-what-q = Wat is Common Voice?
 faq-important-q = Wêrom is dit wichtich?
 faq-get-q = Hoe kin ik gegevens fan Common Voice krije?
 faq-mission-q = Wêrom is Common Voice ûnderdiel fan de Mozilla-missy?
+faq-hours-q = Wêrom is 10.000 oeren it doel foar it opnimmen fan audio?
+faq-source-q = Wêr komt de boarnetekst fan ôf?
+faq-source-a2 = Jo kinne ús boarnesinnen besjen yn <dataLink>dizze GitHub-map</dataLink>.
 
 ## Profile
 
+profile-why-title = Wêrom in profyl?
 
 ## NotFound
 
