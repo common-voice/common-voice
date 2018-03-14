@@ -157,6 +157,9 @@ record-submit-success = Parashtrim i suksesshëm! Doni të incizoni sërish?
 record-help = Ju lutemi,prekeni që të incizoni, mandej lexojeni me zë fjalinë e mësipërme.
 record-cancel = Anuloje Ri-incizimin
 review-terms = Duke përdorur Common Voice, pajtoheni me <termsLink>Kushtet</termsLink> tona dhe <privacyLink>Shënimin tonë mbi Privatësinë</privacyLink>
+review-aborted = Ngarkimi dështoi. Doni të fshihen incizimet?
+review-submit-title = Shqyrtojini & Parashtrojini
+review-submit-msg = Faleminderit për incizimin!<lineBreak></lineBreak>Tani shqyrtoni dhe parashtroni copëzat tuaja më poshtë.
 review-recording = Shqyrtojeni
 review-rerecord = Ri-incizojeni
 review-cancel = Anuloje Parashtrimin
@@ -164,6 +167,7 @@ review-cancel = Anuloje Parashtrimin
 ## Download Modal
 
 download-title = Shkarkimi juaj filloi.
+download-helpus = Ndihmonani të ndërtojmë një bashkësi rreth teknologjive të zërit, mbani lidhjen me ne përmes email-i.
 download-form-email =
     .label = Jepni email-in tuaj
     .value = Faleminderit, do të lidhemi me ju.
@@ -194,3 +198,4 @@ request-language-form-email =
     .label = Email
 request-language-submit = Parashtroje
 request-language-success-title = Kërkesa për gjuhë u parashtrua me sukses, ju faleminderit.
+request-language-success-text = Do të lidhemi me ju me më tepër të dhëna rreth gjuhës tuaj kur kjo të jetë e mundshme.
