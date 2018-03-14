@@ -77,6 +77,7 @@ profile-form-gender =
 
 faq-title = Faak stelde fragen
 faq-what-q = Wat is Common Voice?
+faq-what-a = Spraakwerkenningstechnology kin de manier wêrop wy omgean mei masinen tige feroarje, mar de op dit stuit beskikbere systemen binne djoer patintearre.
 faq-important-q = Wêrom is dit wichtich?
 faq-get-q = Hoe kin ik gegevens fan Common Voice krije?
 faq-mission-q = Wêrom is Common Voice ûnderdiel fan de Mozilla-missy?
