@@ -120,10 +120,17 @@ terms-contributions-content = Duke parashtruar incizimet tuaj, hiqni dorë nga k
 terms-communications-title = Komunikime
 terms-communications-content = Nëse pajtoheni te buletinet tanë ose regjistroni një llogari për te Common Voice, mund të merrni prej nesh email-e lidhur me llogarinë tuaj (për shembull, njoftime lidhur me privatësinë, anë ligjore dhe sigurinë).
 terms-general-title = Të përgjithshme
+terms-general-updates = Përditësime: Mozilla mund t’i përditësojë herë pas here këto Kushte, për trajtimin e një veçorie të re të Shërbimit ose për të qartësuar ndonjë hollësi. Kushtet e përditësuara do të botohen në internet. Nëse ndryshimet janë thelbësore, përditësimin do ta bëjmë të ditur përmes kanaleve të zakonshëm të Mozilla-s -për njoftime të tilla, si postime blogjesh dhe forumesh. Vazhdimi i përdorimit të Shërbimeve pas hyrjes në fuqi të ndryshimeve përbën pranimin tuaj të ndryshimeve të tilla. Për ta bërë më të volitshëm shqyrtimin tuaj të tyre, do të postojmë një datë hyrjeje në fuqi në krye të kësaj faqeje.
+terms-general-termination = Përfundim: Mund ta pezullojmë ose përfundojmë hyrjen tuaj në Shërbimet në çfarëdo kohe, për çfarëdo arsyeje, do të bëjmë përpjekje të arsyeshme t’ju njoftojmë përmes adresës email përshoqëruar llogarisë tuaj ose herës tjetër që provoni të hyni te Shërbimet. Pavarësisht nga çfarëdo përfundimi, krejt incizimet që parashtroni te Mozilla do të vazhdojnë të jenë të përdorshme publikisht.
+terms-general-law = Kuadër Ligjor i Zbatueshëm: Këto Kushte Ligjore përbëjnë marrëveshjen e plotë mes jush dhe Mozilla-s lidhur me Common Voice dhe u nënshtrohen ligjeve të shtetit të Kalifornisë, ShBA.
 
 ## Data
 
+data-download-button = Shkarkoni të Dhëna Common Voice
 data-download-license = Licencë: <licenseLink>CC-0</licenseLink>
+data-download-modal = Ju ndan një hap nga fillimi i shkarkimit të <size>{ $size }GB</size>, të vazhdohet?
+data-subtitle = Po krijojmë një grup të dhënash zanore me burim të hapur dhe publike të cilat mund t’i përdorë gjithkush për stërvitje aplikacionesh që funksionojnë përmes të folurës.
+data-explanatory-text = Besojmë se grupe të mëdha dhe publike të dhënash zanore mbrujnë risi dhe konkurrencë të shëndetshme komerciale në fushën e teknologjisë së të folurit bazuar në mësimin e makinave. Kjo është një përpjekje mbarëbotërore dhe ftojmë këdo të marrë pjesë. Synimi ynë është të ndihmojmë teknologjinë të jetë më përfshirëse, duke pasqyruar larminë e zërave nga anembanë bota.
 data-other-goto = Kalo te { $name }
 data-other-download = Shkarkoni Të dhëna
 license = Licencë: <licenseLink>{ $license }</licenseLink>
