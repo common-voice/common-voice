@@ -30,6 +30,7 @@ show-wall-of-text = 了解更多
 help-us-title = 帮助我们验证语句！
 help-us-explain = 请点击播放，仔细聆听并告诉我们：他们是否准确地说出了下面的句子？
 request-language-text = 没在 Common Voice 看到您的语言吗？
+request-language-button = 请求新语言
 
 ## ProjectStatus
 
@@ -67,6 +68,12 @@ faq-title = 常见问题
 faq-what-q = Common Voice 是什么？
 faq-what-a = 语音识别技术可能会革命性地改变我们与机器的交互方式，但现存的系统既昂贵又由个体私有。Common Voice 旨在使每个人都能容易地利用语音识别技术。人们自发贡献语音而打造出的庞大数据库将能确保任何人都能快速、轻松地训练出支持语音识别的应用程序。所有语音数据都将可供开发人员使用。
 faq-important-q = 为什么很重要？
+faq-get-q = 我要如何取得 Common Voice 的数据？
+faq-get-a = 目前该数据集可在<licenseLink> CC-0 </licenseLink>许可下的<downloadLink>下载页面</downloadLink>上获取。
+faq-mission-q = 为什么 Common Voice 是 Mozilla 使命的一部分？
+faq-mission-a = Mozilla 致力于保持网络开放且人人可用。要做到这一点，我们需要通过像 Common Voice 这样的项目来增强 Web 创造者的力量。随着语音技术扩散到小众应用领域，我们相信他们必须为所有用户提供同样好的服务。在构建和测试语音技术时，我们认为需要囊括更多的语言、口音和人口特征。Mozilla 希望看到一个健康、充满活力的互联网。我们须要让新的创想家们能获得语音数据，来打造全新的非凡项目。Common Voice 将成为公共资源，有力支持 Mozilla 团队和世界各地的开发者们。
+faq-native-q = 我的母语不是{ $lang }，而且我说话带有口音，你们需要这样的语音吗？
+faq-native-a = 是的，我们绝对需要您的语音！Common Voice 的目的之一就是尽可能多地收集不同的口音，让计算机能更好地理解<bold>每个人</bold>的话语。
 faq-source-q = 原始文本来自何处？
 
 ## Profile
