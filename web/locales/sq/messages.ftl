@@ -103,10 +103,18 @@ privacy-title = Shënim Privatësie për Common Voice
 privacy-policy = Kur Mozilla (domethënë ne), merr të dhëna nga ju, <policy>Rregullat e Privatësisë në Mozilla</policy> përshkruajnë se si i trajtojmë ato të dhëna.
 privacy-data-demographic = <name>Të dhëna demografike.</name> Mundet, nëse doni, të na dërgoni të dhëna të tilla si theksi juaj, mosha, dhe gjinia. Këto na ndihmojnë ne dhe kërkues të tjerë të krijojmë dhe përmirësojmë teknologji dhe mjete për shndërrim të të folurës në tekst.
 privacy-data-account = <name>Të dhëna llogarie.</name> Nëse doni, mund të krijoni një llogari, dhe kjo na dërgon email-in tuaj. Kjo përshoqërohet me të dhënat tuaja demografike dhe ato të ndërveprimit me ne, por ajo nuk i jepet publikut.
+privacy-data-recordings = <name>Incizime Zanore.</name> Incizimet Zanore, tok me çfarëdo të dhënash demografike përshoqëruar atyre, mund të jepen te baza e të dhënave Common Voice për përdorim dhe konsum publik.
+privacy-data-interaction = <name>Të dhëna ndërveprimi.</name> Për të kuptuar më mirë se si ndërveproni me aplikacioni ose sajtin Common Voice, ne përdorim Google Analytics. Për shembull, këtu përfshihen numri i incizimeve që bëni ose dëgjoni, ndërveprimet me butona dhe menu, kohëzgjatje sesionesh.
+privacy-data-technical = <name>Të dhëna teknike.</name> Duke përdorur Google Analytics, grumbullojmë URL dhe tituj faqesh Common Voice që vizitoni. Grumbullojmë shfletuesin tuaj, madhësinë e skenës ku e mbani hapur, dhe qartësi ekrani. Grumbullojmë gjithashtu vendndodhjen tuaj, dhe rregullime gjuhe në shfletuesin tuaj.
+privacy-more = <more>Mësoni më tepër</more>
 
 ## Terms
 
+terms-title = Terma Ligjore mbi Common Voice
+terms-eligibility-content = Duhet të jeni mbi 13 vjeç ose të keni miratimin dhe mbikëqyrjen e një prindi ose kujdestari të pjesëmarrjes tuaj në projektin tonë.
 terms-privacy-title = Privatësi
+terms-privacy-content = <privacyLink>Shënimi ynë mbi Privatësinë</privacyLink> shpjegon se si i grumbullojmë dhe trajtojmë të dhënat tuaja.
+terms-contributions-title = Kontributet Tuaja dhe Heqja Dorë Nga të Drejtat
 terms-communications-title = Komunikime
 terms-general-title = Të përgjithshme
 
