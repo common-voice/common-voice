@@ -81,6 +81,7 @@ faq-native-a = Po, pa diskutim që e duam! Pjesë e synimit të Common Voice-it 
 faq-firefox-q = A do të bëhet ndonjëherë pjesë e Firefox-it, përmes Common Voice, shndërrimi nga e folur në tekst?
 faq-firefox-a = Common Voice ka potencial të pakufizuar dhe po eksplorojmë në fakt ndërfaqe të të folurës në një numër produktesh Mozilla, përfshi Firefox-in.
 faq-quality-q = Cila është shkalla e nevojshme e cilësisë së audios që të mund të jetë e përdorshme?
+faq-quality-a = Duam që cilësia e audios të pasqyrojë cilësinë e audios që një mekanizëm shndërrimi të folure në tekst do të prodhojë gjatë funksionimit. Ndaj duam larmi. Kjo e mëson mekanizmin të jetë i aftë të përdorë situata të ndryshme - të folur në sfond, zhurmë automjetesh, zhurmë ventilatorësh - pa gabime.
 faq-hours-q = Çne synimi 10 000 orë zë i incizuar?
 faq-hours-a = Ky është përafërsisht numri i orëve i nevojshëm për stërvitjen e një sistemit produktiv STT.
 faq-source-q = Prej nga vjen teksti burim?
@@ -115,7 +116,9 @@ terms-eligibility-content = Duhet të jeni mbi 13 vjeç ose të keni miratimin d
 terms-privacy-title = Privatësi
 terms-privacy-content = <privacyLink>Shënimi ynë mbi Privatësinë</privacyLink> shpjegon se si i grumbullojmë dhe trajtojmë të dhënat tuaja.
 terms-contributions-title = Kontributet Tuaja dhe Heqja Dorë Nga të Drejtat
+terms-contributions-content = Duke parashtruar incizimet tuaj, hiqni dorë nga krejt të drejtat e kopjimit dhe të drejta të tjera që mund të keni mbi to, dhe pajtoheni me hedhjen në qarkullim publik të tyre sipas kushteve të licencës <licenseLink>CC-0</licenseLink>. Kjo do të thotë se jeni dakord të hiqni dorë nga krejt të drejtat mbi incizimet kudo në botë sipas ligjesh të drejtash kopjimi dhe bazash të dhënash, përfshi të drejta morale dhe publiciteti dhe nga krejt të dhënat e afërta dhe fqinje me to.
 terms-communications-title = Komunikime
+terms-communications-content = Nëse pajtoheni te buletinet tanë ose regjistroni një llogari për te Common Voice, mund të merrni prej nesh email-e lidhur me llogarinë tuaj (për shembull, njoftime lidhur me privatësinë, anë ligjore dhe sigurinë).
 terms-general-title = Të përgjithshme
 
 ## Data
