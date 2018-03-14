@@ -65,6 +65,7 @@ profile-form-gender =
 
 faq-title = 常见问题
 faq-what-q = Common Voice 是什么？
+faq-what-a = 语音识别技术可能会革命性地改变我们与机器的交互方式，但现存的系统既昂贵又由个体私有。Common Voice 旨在使每个人都能容易地利用语音识别技术。人们自发贡献语音而打造出的庞大数据库将能确保任何人都能快速、轻松地训练出支持语音识别的应用程序。所有语音数据都将可供开发人员使用。
 faq-important-q = 为什么很重要？
 faq-source-q = 原始文本来自何处？
 
