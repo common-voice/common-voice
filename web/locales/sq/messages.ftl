@@ -101,6 +101,8 @@ notfound-content = Kam frikë s’e nuk di se ç’po kërkoni.
 
 privacy-title = Shënim Privatësie për Common Voice
 privacy-policy = Kur Mozilla (domethënë ne), merr të dhëna nga ju, <policy>Rregullat e Privatësisë në Mozilla</policy> përshkruajnë se si i trajtojmë ato të dhëna.
+privacy-data-demographic = <name>Të dhëna demografike.</name> Mundet, nëse doni, të na dërgoni të dhëna të tilla si theksi juaj, mosha, dhe gjinia. Këto na ndihmojnë ne dhe kërkues të tjerë të krijojmë dhe përmirësojmë teknologji dhe mjete për shndërrim të të folurës në tekst.
+privacy-data-account = <name>Të dhëna llogarie.</name> Nëse doni, mund të krijoni një llogari, dhe kjo na dërgon email-in tuaj. Kjo përshoqërohet me të dhënat tuaja demografike dhe ato të ndërveprimit me ne, por ajo nuk i jepet publikut.
 
 ## Terms
 
