@@ -131,8 +131,14 @@ data-download-license = Licencë: <licenseLink>CC-0</licenseLink>
 data-download-modal = Ju ndan një hap nga fillimi i shkarkimit të <size>{ $size }GB</size>, të vazhdohet?
 data-subtitle = Po krijojmë një grup të dhënash zanore me burim të hapur dhe publike të cilat mund t’i përdorë gjithkush për stërvitje aplikacionesh që funksionojnë përmes të folurës.
 data-explanatory-text = Besojmë se grupe të mëdha dhe publike të dhënash zanore mbrujnë risi dhe konkurrencë të shëndetshme komerciale në fushën e teknologjisë së të folurit bazuar në mësimin e makinave. Kjo është një përpjekje mbarëbotërore dhe ftojmë këdo të marrë pjesë. Synimi ynë është të ndihmojmë teknologjinë të jetë më përfshirëse, duke pasqyruar larminë e zërave nga anembanë bota.
+data-get-started = <speechBlogLink>Hapat e Parë Në Njohjen e të Folurit</speechBlogLink>
+data-other-title = Grupe të tjerë të dhënash zanore…
 data-other-goto = Kalo te { $name }
 data-other-download = Shkarkoni Të dhëna
+data-other-librispeech-description = LibriSpeech është një korpus i afërsisht 1000 orëve incizimesh në 16Khz leximi në anlgisht, rrjedhur prej leximi audiolibrash nga projekti LibriVox.
+data-other-ted-name = Korpusi TED-LIUM
+data-other-ted-description = Korpusi TED-LIUM është ndërtuar mbi bazën e bisedave dhe transkriptimit të tyre, të gatshme në sajtin TED.
+data-other-voxforge-description = VoxForge qe ndërtuar për të grumbulluar transkriptime të folurash për përdorim me Mekanizma të Lirë dhe Me Burim të Hapur Njohjeje të Foluri.
 license = Licencë: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
