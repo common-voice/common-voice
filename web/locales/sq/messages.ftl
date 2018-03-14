@@ -139,6 +139,9 @@ data-other-librispeech-description = LibriSpeech është një korpus i afërsish
 data-other-ted-name = Korpusi TED-LIUM
 data-other-ted-description = Korpusi TED-LIUM është ndërtuar mbi bazën e bisedave dhe transkriptimit të tyre, të gatshme në sajtin TED.
 data-other-voxforge-description = VoxForge qe ndërtuar për të grumbulluar transkriptime të folurash për përdorim me Mekanizma të Lirë dhe Me Burim të Hapur Njohjeje të Foluri.
+data-other-tatoeba-description = Tatoeba është një bazë e madhe të dhënash fjalish, përkthimesh, dhe të folurash për përdorim në mësimin e gjuhëve. Ky shkarkim përmban krejt të folurën anglisht të incizuar nga bashkësia e tyre.
+data-bundle-button = Shkarkoni Paketë Bazash të Dhënash
+data-bundle-description = Të dhëna Common Voice plus krejt grupet e tjera të të dhënave zanore më sipër.
 license = Licencë: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
@@ -151,6 +154,9 @@ record-error-too-short = Incizimi qe shumë i shkurtër.
 record-error-too-long = Incizimi qe shumë i gjatë.
 record-error-too-quiet = Volumi i zërit në incizim qe shumë i ulët.
 record-submit-success = Parashtrim i suksesshëm! Doni të incizoni sërish?
+record-help = Ju lutemi,prekeni që të incizoni, mandej lexojeni me zë fjalinë e mësipërme.
+record-cancel = Anuloje Ri-incizimin
+review-terms = Duke përdorur Common Voice, pajtoheni me <termsLink>Kushtet</termsLink> tona dhe <privacyLink>Shënimin tonë mbi Privatësinë</privacyLink>
 review-recording = Shqyrtojeni
 review-rerecord = Ri-incizojeni
 review-cancel = Anuloje Parashtrimin
