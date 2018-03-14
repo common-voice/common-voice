@@ -1,3 +1,10 @@
+## General
+
+yes-receive-emails = 是的，给我发送邮件，我想了解 Common Voice 项目。
+stayintouch = 我们在 Mozilla 正围绕语音技术建立一个社区。 我们想与新技术、新数据来源保持联系，也想知道您会如何使用这些数据。
+privacy-info = 我们承诺谨慎处理您的信息。阅读我们的<privacyLink>隐私声明</privacyLink>详细了解。
+return-to-cv = 返回 Common Voice
+
 ## Layout
 
 speak = 说话
@@ -22,13 +29,15 @@ wall-of-text-more-desktop = 现在，您可以贡献出您的声音，帮助我�
 show-wall-of-text = 了解更多
 help-us-title = 帮助我们验证语句！
 help-us-explain = 请点击播放，仔细聆听并告诉我们：他们是否准确地说出了下面的句子？
+request-language-text = 没在 Common Voice 看到您的语言吗？
 
 ## ProjectStatus
 
 status-title = 总体项目状态：看看我们已经走了多远！
 status-contribute = 贡献您的声音
 status-loading = 加载中…
-status-hours = { $hours ->
+status-hours =
+    { $hours ->
        *[other] 目前已验证 { $hours } 小时！
     }
 # Variables:
@@ -42,7 +51,6 @@ profile-form-email =
     .label = 电子邮箱
 profile-form-username =
     .label = 用户名
-yes-receive-emails = 是的，给我发送邮件，我想了解 Common Voice 项目。
 profile-form-language =
     .label = 语言
 profile-form-more-languages = 更多语言即将到来！
@@ -129,7 +137,7 @@ download-form-submit = 提交
 download-back = 返回到 Common Voice 数据集
 download-no = 不了，谢谢
 
-## Contact
+## Contact Modal
 
 contact-title = 联系表
 contact-cancel = 取消
@@ -139,3 +147,6 @@ contact-form-message =
     .label = 信息
 contact-required = * 必填
 contact-submit = 提交
+
+## Request Language Modal
+
