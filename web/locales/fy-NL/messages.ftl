@@ -93,6 +93,7 @@ faq-source-a2 = Jo kinne ús boarnesinnen besjen yn <dataLink>dizze GitHub-map</
 ## Profile
 
 profile-why-title = Wêrom in profyl?
+profile-why-content = Troch wat ynformaasje oer josels te jaan, sil de audiogegevens dy't jo yntsjinje by Common Voice better brûkber wêze foar Spraakwerkenningsmasinen dy't dizze gegevens brûke om de presizens te ferbetterjen.
 
 ## NotFound
 
@@ -103,6 +104,7 @@ notfound-content = It is ús spitigernôch net dúdlik wat jo sykje.
 
 privacy-title = Privacybelied Common Voice
 privacy-effective = Effektyf { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
+privacy-policy = As Mozilla (dat binne wy), ynformaasje fan jo ûntfangt; ús <policy>Mozilla-privacybelied</policy> beskriuwt hoe't wy mei dy ynformaasje omgean.
 privacy-more = <more>Mear ynfo</more>
 
 ## Terms
