@@ -85,7 +85,9 @@ faq-firefox-q = Sil spraak-nei-tekst, fia Common Voice, ea ûnderdiel wurde fan 
 faq-firefox-a = Common Voice hat ûneinige potinsje en wy binne yndied spraakynterfaces yn Mozilla-produkten, including Firefox, oan it ûndersykjen.
 faq-quality-q = Wat is it fereaske kwalitetsnivo foar de audio om brûkt wurde te kinnen?
 faq-hours-q = Wêrom is 10.000 oeren it doel foar it opnimmen fan audio?
+faq-hours-a = Dit is ûngefear it tal oeren nedich om in produksje-STT-systeem te trainen.
 faq-source-q = Wêr komt de boarnetekst fan ôf?
+faq-source-a1 = De aktuele stimmen komme fan donaasjes fan dielnimmers, en ek dialogen út filmskripts fan it publike domein lykas <italic>It’s a Wonderful Life.</italic>
 faq-source-a2 = Jo kinne ús boarnesinnen besjen yn <dataLink>dizze GitHub-map</dataLink>.
 
 ## Profile
