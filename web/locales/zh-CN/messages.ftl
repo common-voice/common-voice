@@ -74,6 +74,7 @@ faq-mission-q = 为什么 Common Voice 是 Mozilla 使命的一部分？
 faq-mission-a = Mozilla 致力于保持网络开放且人人可用。要做到这一点，我们需要通过像 Common Voice 这样的项目来增强 Web 创造者的力量。随着语音技术扩散到小众应用领域，我们相信他们必须为所有用户提供同样好的服务。在构建和测试语音技术时，我们认为需要囊括更多的语言、口音和人口特征。Mozilla 希望看到一个健康、充满活力的互联网。我们须要让新的创想家们能获得语音数据，来打造全新的非凡项目。Common Voice 将成为公共资源，有力支持 Mozilla 团队和世界各地的开发者们。
 faq-native-q = 我的母语不是{ $lang }，而且我说话带有口音，你们需要这样的语音吗？
 faq-native-a = 是的，我们绝对需要您的语音！Common Voice 的目的之一就是尽可能多地收集不同的口音，让计算机能更好地理解<bold>每个人</bold>的话语。
+faq-firefox-q = Firefox 会通过 Common Voice 项目增加语音转文本功能吗？
 faq-source-q = 原始文本来自何处？
 
 ## Profile
@@ -158,3 +159,12 @@ contact-submit = 提交
 
 ## Request Language Modal
 
+request-language-title = 语言请求
+request-language-cancel = 退出表单
+request-language-form-language =
+    .label = 语言
+request-language-form-email =
+    .label = 电子邮箱
+request-language-submit = 提交
+request-language-success-title = 非常感谢，您的语言请求已成功提交。
+request-language-success-text = 我们会在此语言上线时告知您。
