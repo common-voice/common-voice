@@ -7,6 +7,10 @@ services:
       - MYSQL_USER=voicecommons
       - MYSQL_PASSWORD=voicecommons
       - MYSQL_ROOT_PASSWORD=voicewebroot
+  s3proxy:
+    image: andrewgaul/s3proxy
+    environment:
+      - S3PROXY_AUTHORIZATION=none
   web:
     build:
       context: .
@@ -17,5 +21,7 @@ services:
       - SERVER_CONFIG_PATH=/code/docker/config.json
     links:
       - db
+      - s3proxy
     ports:
       - 9000:9000
+    command: bash -c "/code/docker/prepare_s3.sh && yarn start"

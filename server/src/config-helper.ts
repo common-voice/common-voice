@@ -2,6 +2,7 @@
  * Definition for all common voice config options.
  */
 import * as fs from 'fs';
+import { S3 } from 'aws-sdk';
 
 export type CommonVoiceConfig = {
   VERSION: string;
@@ -18,6 +19,7 @@ export type CommonVoiceConfig = {
   BUCKET_LOCATION: string;
   ENVIRONMENT: string;
   RELEASE_VERSION?: string;
+  S3_CONFIG: S3.Types.ClientConfiguration;
 };
 
 const DEFAULTS: CommonVoiceConfig = {
@@ -35,6 +37,9 @@ const DEFAULTS: CommonVoiceConfig = {
   BUCKET_NAME: 'common-voice-corpus',
   BUCKET_LOCATION: '',
   ENVIRONMENT: 'default',
+  S3_CONFIG: {
+    signatureVersion: 'v4'
+  }
 };
 
 /**
