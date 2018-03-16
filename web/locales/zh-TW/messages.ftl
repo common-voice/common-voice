@@ -65,8 +65,17 @@ faq-title = 常見問題
 faq-what-q = Common Voice 是什麼？
 faq-important-q = 有什麼重要性？
 faq-get-q = 我要如何取得 Common Voice 資料？
+faq-get-a = 已根據 <licenseLink>CC-0</licenseLink> 授權條款，於我們的<downloadLink>下載頁面</downloadLink>提供資料集。
+faq-mission-q = 為什麼 Common Voice 是 Mozilla 的使命的一部份？
+faq-native-q = 我的母語不是 { $lang } 而且講話有點口音，你們還會想要我的聲音嗎？
+faq-native-a = 當然，我們絕對想要！Common Voice 的其中一個目標就是能收集越多不同腔調越好，這樣電腦就可以更完整地理解<bold>每個人</bold>所說的話。
+faq-firefox-q = 透過 Common Voice 設計出的語音轉文字識別技術，會成為 Firefox 的一部份嗎？
+faq-quality-q = 要有什麼品質的錄音才可以使用？
+faq-hours-q = 為什麼目標是取得一萬小時的錄音？
+faq-hours-a = 這是用來訓練 STT 系統所需的大約時數。
 faq-source-q = 原文文字都來自哪裡？
 faq-source-a1 = 目前是透過貢獻者捐贈語料給我們，還有公開領域的電影（例如 <italic>It’s a Wonderful Life.</italic>）的腳本台詞。
+faq-source-a2 = 您可在<dataLink>這個 GitHub 資料夾</dataLink>參考我們的語句原始碼。
 
 ## Profile
 
@@ -101,6 +110,7 @@ data-get-started = <speechBlogLink>語音辨識新手上路</speechBlogLink>
 data-other-title = 其他語音資料集…
 data-other-goto = 前往 { $name }
 data-other-download = 下載資料
+data-other-librispeech-description = LibriSpeech 是一套取自 LibriVox 計畫，約一千小時長度的 16Khz 英語有聲書的語料庫。
 data-other-ted-name = TED-LIUM 語料庫
 data-other-ted-description = TED-LIUM 語料庫是從 TED 網站上的語音對話及轉錄文字製作而成的語料庫。
 data-other-voxforge-description = VoxForge 被設計來收集轉錄對話，以供自由與開放原始碼的語音辨識引擎使用。
