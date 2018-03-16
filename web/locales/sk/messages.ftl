@@ -70,6 +70,7 @@ privacy-more = <more>Ďalšie informácie</more>
 
 terms-title = Právne podmienky projektu Common Voice
 terms-privacy-title = Súkromie
+terms-privacy-content = Naše <privacyLink>zásady ochrany súkromia</privacyLink> popisujú, ako prijímame a nakladáme s vašimi údajmi.
 
 ## Data
 
