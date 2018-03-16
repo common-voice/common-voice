@@ -18,7 +18,7 @@ All of our current issues can be found here on GitHub. Anything with a [help wan
 - [npm](https://www.npmjs.com) (v4 or higher)
 - [yarn](https://yarnpkg.com) (v1 or higher)
 - [ffmpeg](https://www.ffmpeg.org/download.html)
-- [MariaDB](https://mariadb.org/download/) or [MySQL](https://www.mysql.com/downloads/)
+- [MariaDB](https://mariadb.org/download/) (v10 or higher) or [MySQL](https://www.mysql.com/downloads/) (v5.6 or higher)
 
 #### Local Development
 
