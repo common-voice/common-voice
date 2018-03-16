@@ -1,5 +1,6 @@
 ## General
 
+yes-receive-emails = 好，寄信給我。我想要知道 Common Voice 專案的各種資訊。
 stayintouch = Mozilla 的我們，正在打造一個與語音技術相關的社群。我們想要與新技術、新的資料來源保持聯繫，也想知道您會如何使用這些資料。
 privacy-info = 我們保證會小心處理您的資訊。到我們的<privacyLink>隱私權公告</privacyLink>了解更多資訊。
 return-to-cv = 回到 Common Voice
@@ -16,9 +17,12 @@ terms = 使用條款
 cookies = Cookie
 faq = 常見問題
 content-license-text = 內容依照 <licenseLink>Creative Commons 條款</licenseLink>授權大眾使用
+share-title = 幫助我們找人一起獻聲！
 
 ## Home Page
 
+home-title = Common Voice 是 Mozilla 想教育機器以真人的方式說話的專案。
+home-cta = 有話大聲說，在此獻聲！
 show-wall-of-text = 了解更多
 help-us-title = 請幫助我們驗證句子！
 help-us-explain = 按下播放，聆聽，然後告訴我們: 他們準確地說出了下方的句子嗎？
@@ -30,7 +34,8 @@ request-language-button = 要求新語言
 status-title = 專案狀態：看看我們做到哪兒了！
 status-contribute = 貢獻您的聲音
 status-loading = 載入中…
-status-hours = { $hours ->
+status-hours =
+    { $hours ->
        *[other] 目前已驗證 { $hours } 小時！
     }
 # Variables:
@@ -75,12 +80,15 @@ notfound-content = 很抱歉，找不到您想找的東西。
 ## Privacy
 
 privacy-title = Common Voice 隱私權公告
+privacy-policy = 當 Mozilla（也就是我們）收到您提供的資訊時，我們的 <policy>Mozilla 隱私權保護政策</policy>描述了我們會如何處理該資訊。
 privacy-more = <more>了解更多</more>
 
 ## Terms
 
 terms-title = Common Voice 法律條款
 terms-privacy-title = 隱私權
+terms-privacy-content = 我們的<privacyLink>隱私權公告</privacyLink>解釋了我們會如何接收並處理您的資料。
+terms-contributions-title = 您的貢獻與權利放棄聲明
 terms-communications-title = 通訊
 terms-general-title = 一般
 
@@ -94,6 +102,8 @@ data-other-title = 其他語音資料集…
 data-other-goto = 前往 { $name }
 data-other-download = 下載資料
 data-other-ted-name = TED-LIUM 語料庫
+data-other-ted-description = TED-LIUM 語料庫是從 TED 網站上的語音對話及轉錄文字製作而成的語料庫。
+data-other-voxforge-description = VoxForge 被設計來收集轉錄對話，以供自由與開放原始碼的語音辨識引擎使用。
 data-bundle-button = 下載資料集總組合
 data-bundle-description = Common Voice 資料，以及上面列出的所有其他語音資料集。
 license = 授權條款: <licenseLink>{ $license }</licenseLink>
@@ -151,3 +161,5 @@ request-language-form-language =
 request-language-form-email =
     .label = 電子郵件
 request-language-submit = 送出
+request-language-success-title = 已收到新語言請求，感謝您。
+request-language-success-text = 我們將在您的語言可在網站上使用時連絡您。
