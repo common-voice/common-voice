@@ -95,6 +95,7 @@ privacy-policy = 我们的 <policy>Mozilla 隐私政策</policy>描述了我们�
 privacy-data-demographic = <name>人口特征。</name>您可以选择向我们发送您的口音、年龄等信息。这有助于我们和其他研究人员改进并打造语音转文本技术和工具。
 privacy-data-account = <name>账户数据。</name>您可以选择创建账户，在这种情况下我们会收到您的电子邮件地址。这将与您的人口特征和互动数据关联，但不会向公众分享。
 privacy-data-recordings = <name>声音录音。</name>声音录音及任何相关的人口特征数据，可在公共语音数据库中供公众消费和使用。
+privacy-data-interaction = <name>交互数据。</name>我们使用谷歌分析服务更好地了解您如何 Common Voice 应用程序或网站交互。例如您录制或收听的语音样本数量、与按钮和菜单的交互、会话长度。
 privacy-data-technical = <name>技术数据。</name>我们使用谷歌分析服务收集您访问的 Common Voice 网页的网址和标题。我们收集您的浏览器名称、视区大小和屏幕分辨率。我们还会收集您的地理位置以及浏览器中的语言设置。
 privacy-more = <more>了解更多</more>
 
