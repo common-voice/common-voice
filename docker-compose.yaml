@@ -1,0 +1,21 @@
+version: '3'
+services:
+  db:
+    image: mysql:5.6.39
+    environment:
+      - MYSQL_DATABASE=voiceweb
+      - MYSQL_USER=voicecommons
+      - MYSQL_PASSWORD=voicecommons
+      - MYSQL_ROOT_PASSWORD=voicewebroot
+  web:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    volumes:
+      - .:/code
+    environment:
+      - SERVER_CONFIG_PATH=/code/docker/config.json
+    links:
+      - db
+    ports:
+      - 9000:9000
