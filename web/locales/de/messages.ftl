@@ -50,7 +50,7 @@ status-more-soon = Weitere Sprachen folgen bald!
 ## ProfileForm
 
 profile-form-email =
-    .label = E-Mail
+    .label = E-Mail-Adresse
 profile-form-username =
     .label = Benutzername
 profile-form-language =
@@ -105,21 +105,102 @@ privacy-data-demographic = <name>Demografische Angaben.</name> Optional können 
 privacy-data-account = <name>Kontodaten.</name> Sie können wahlweise ein Konto erstellen, wobei wir in diesem Fall Ihre E-Mail-Adresse erhalten. Diese ist mit Ihren demografischen Daten und Ihren Nutzungsdaten verknüpft, wird aber nicht an die Öffentlichkeit weitergegeben.
 privacy-data-recordings = <name>Sprachaufnahmen.</name> Sprachaufnahmen, in Verbindung mit allen verknüpften demografischen Daten, können in der Common-Voice-Datenbank für den öffentlichen Gebrauch zugänglich sein.
 privacy-data-interaction = <name>Nutzungsdaten.</name> Wir nutzen Google Analytics um besser zu verstehen, wie Sie die Common-Voice-App bzw. Webseite nutzen. Dazu gehören beispielsweise die Anzahl der Sprachproben, die Sie aufnehmen oder anhören, die Nutzungsweise von Schaltflächen und Menüs, die Dauer der Sitzung.
+privacy-data-technical = <name>Technische Daten.</name> Unter Verwendung von Google Analytics erfassen wir die URL und den Titel der Common-Voice-Seiten, die Sie besucht haben. Wir erfassen Ihren Browser, die Größe Ihres Ansichtsfensters und die Bildschirmauflösung. Wir erfassen ebenfalls Ihren Standort und die Spracheinstellungen Ihres Browsers
+privacy-more = <more>Mehr erfahren</more>
 
 ## Terms
 
+terms-title = Rechtliche Bestimmungen bzgl. Common Voice
+terms-effective = In Kraft getreten ab { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
+terms-eligibility-title = Teilnahmebedingung
+terms-eligibility-content = Sie müssen älter als 13 Jahre sein oder die Zustimmung Ihrer Eltern bzw. eines Sorgeberechtigten haben. In letzterem Fall dürfen Sie unter deren Aufsicht an unserem Crowd-Sourcing-Projekt teilnehmen.
+terms-privacy-title = Datenschutz
+terms-privacy-content = In unserer <privacyLink>Datenschutzerklärung</privacyLink> wird erläutert, wie wir Ihre Daten erhalten und mit diesen umgehen.
+terms-contributions-title = Ihre Beiträge und Abgabe von Rechten
+terms-contributions-content = Durch das Absenden Ihrer Tonaufnahmen verzichten Sie auf alle Urheber- sowie verwandten Rechte, die Sie möglicherweise an diesen besitzen, und erklären sich dazu bereit, diese unter der <licenseLink>CC0-Lizenz</licenseLink> der Öffentlichkeit zugänglich zu machen. Dies bedeutet, dass Sie zustimmen, bezüglich der Tonaufnahmen weltweit auf alle Urheber- und Datenbankrechte, einschließlich der Urheberpersönlichkeits- und Veröffentlichungsrechte sowie aller verwandten Rechte, zu verzichten.
+terms-communications-title = Benachrichtigungen
+terms-communications-content = Wenn Sie unseren Newsletter abonnieren oder sich im Rahmen von Common Voice mit einem Konto registrieren, dann könnte es passieren, dass Sie E-Mails mit Bezug zu Ihrem Konto von uns erhalten (zum Beispiel zu rechtlichen, Datenschutz- oder Sicherheitsaktualisierungen).
+terms-general-title = Allgemein
+terms-general-liability1 = Haftungsausschluss; Haftungsbeschränkung: COMMON VOICE UND ALLE DAMIT VERBUNDENEN AUFZEICHNUNGEN WERDEN IM VORLIEGENDEN ZUSTAND UND OHNE GARANTIE JEGLICHER ART BEREITGESTELLT, WEDER AUSDRÜCKLICHER NOCH IMPLIZIERTER NATUR. MOZILLA ÜBERNIMMT KEINE VERANTWORTUNG UND KEINE HAFTUNG FÜR AUFZEICHNUNGEN, DIE SIE ODER EIN ANDERER NUTZER ODER DRITTE VERÖFFENTLICHEN ODER AN COMMON VOICE ÜBERTRAGEN.
+terms-general-liability2 = MOZILLA LEHNT AUSDRÜCKLICH ALLE GARANTIEN UND BEDINGUNGEN DER MARKTGÄNGIGKEIT, DER EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND DER NICHTVERLETZUNG VON RECHTEN UND PFLICHTEN AB, SOWIE JEGLICHE GARANTIEN, DIE SICH AUS DEM HANDEL ODER DER NUTZUNG DES HANDELS ERGEBEN.
+terms-general-liability3 = SOWEIT GESETZLICH ZULÄSSIG, ERKLÄREN SIE SICH DAMIT EINVERSTANDEN, DIE MOZILLA CORPORATION UND IHRE JEWEILIGEN MUTTERGESELLSCHAFTEN, TOCHTERGESELLSCHAFTEN, VERBUNDENEN UNTERNEHMEN, DIREKTOREN, LEITENDEN ANGESTELLTE, MITARBEITER UND VERTRETER (FOLGEND "MOZILLA-PARTEIEN") VON JEGLICHER HAFTUNG FÜR JEGLICHE SCHÄDEN, VERLUSTE ODER VERZÖGERUNGEN (EINSCHLIESSLICH PERSONENSCHÄDEN, TOD ODER SACHSCHÄDEN) FREIZUSTELLEN UND SCHADLOS ZU HALTEN, WELCHE IN GÄNZE ODER TEILWEISE, DIREKT ODER INDIREKT, AUS IHRER TEILNAHME AN COMMON VOICE RESULTIEREN.
+terms-general-liability4 = AUẞER ES IST GESETZLICH VORGESCHRIEBEN, HAFTEN MOZILLA UND DIE MOZILLA-PARTEIEN NICHT FÜR INDIREKTE, SPEZIELLE, ZUFÄLLIGE, FOLGE- ODER EXEMPLARISCHE SCHÄDEN, DIE SICH AUS ODER IN IRGENDEINER WEISE IM ZUSAMMENHANG MIT DIESEN BEDINGUNGEN ODER DER NUTZUNG ODER UNMÖGLICHKEIT DER NUTZUNG DER DIENSTE ERGEBEN, EINSCHLIEẞLICH OHNE BESCHRÄNKUNG DIREKTE UND INDIREKTE SCHÄDEN DURCH DEN VERLUST GESCHÄFTLICHEN ANSEHENS, ARBEITSNIEDERLEGUNG, ENTGANGENEN GEWINN, DATENVERLUST UND COMPUTERAUSFALL ODER -FEHLFUNKTION, SELBST WENN AUF DIE MÖGLICHKEIT SOLCHER SCHÄDEN HINGEWIESEN WURDE UND UNABHÄNGIG JEGLICHER ANNAHME (VERTRAG, SCHADENSERSATZRECHT ODER ANDERWEITIG), AUS WELCHER EIN SOLCHER ANSPRUCH HERVORGEHT. DIE KOLLEKTIVE HAFTUNG VON MOZILLA UND DEN MOZILLA-PARTEIEN IM RAHMEN DIESER VEREINBARUNG WIRD $500 (FÜNFHUNDERT DOLLAR) NICHT ÜBERSTEIGEN. EINIGE GERICHTSBARKEITEN ERLAUBEN DEN AUSSCHLUSS ODER DIE BESCHRÄNKUNG VON ZUFÄLLIGEN, FOLGE- ODER SPEZIELLEN SCHÄDEN NICHT, DIESER AUSSCHLUSS UND DIESE BESCHRÄNKUNG BETREFFEN SIE ALSO MÖGLICHERWEISE NICHT.
+terms-general-updates = Aktualisierungen: Mozilla behält sich vor diese Bestimmungen von Zeit zu Zeit aktualisieren, um eine neue Funktion der Dienste zu thematisieren oder eine Klausel klar zu stellen. Die aktualisierten Bestimmungen werden online veröffentlicht. Sollten die Änderungen bedeutend sein, werden wir die Aktualisierung über Mozillas übliche Kanäle für solche Ankündigungen wie Blog-Posts und Foren bekannt geben. Mit der weiteren Nutzung der Dienste nach dem Inkrafttreten solcher Änderungen stimmen Sie diesen automatisch zu. Um Ihnen die Einsicht zu erleichtern, werden wir den Stichtag oben auf dieser Seite veröffentlichen.
+terms-general-termination = Kündigung: Wir sind berechtigt, Ihren Zugang zu den Diensten jederzeit aus irgendeinem Grund auszusetzen oder zu beenden. Wir werden uns – in einem angemessenen Rahmen – bemühen, Sie über die mit Ihrem Konto verknüpfte E-Mail-Adresse zu benachrichtigen oder das nächste Mal, wenn Sie versuchen, auf die Dienste zuzugreifen. Unabhängig von einer Kündigung werden alle Aufnahmen, die Sie Mozilla zur Verfügung stellen, weiterhin öffentlich zugänglich bleiben.
+terms-general-law = Geltendes Recht: Diese Nutzungsbedingungen stellen die gesamte Vereinbarung zwischen Ihnen und Mozilla über Common Voice dar und unterliegen den Gesetzen des US-Bundesstaates Kalifornien, USA.
 
 ## Data
 
+data-download-button = Common-Voice-Datensatz herunterladen
+data-download-license = Lizenz: <licenseLink>CC0</licenseLink>
+data-download-modal = Der von Ihnen gewählte Download beträgt <size>{ $size }GB</size>, fortfahren?
+data-subtitle = Wir sind dabei, einen freien und öffentlich zugänglichen Datensatz mit Sprachaufnahmen aufzubauen, der von jedem genutzt werden kann, um sprachunterstützte Anwendungen zu trainieren.
+data-explanatory-text = Wir glauben, dass große und öffentlich zugängliche Sprachdatensätze Innovationen und einen gesunden, kommerziellen Wettbewerb unter Sprachtechnologien fördern, welche auf maschinellem Lernen aufsetzen. Dies ist ein globales Bestreben und wir laden jeden zur Teilnahme ein. Unser Ziel ist es, Sprachtechnologien offener werden zu lassen, sodass sie die Vielfalt der Stimmen aus der ganzen Welt widerspiegeln.
+data-get-started = <speechBlogLink>Erste Schritte bei der Spracherkennung</speechBlogLink>
+data-other-title = Andere Sprachdatensätze...
+data-other-goto = { $name } aufrufen
+data-other-download = Daten herunterladen
+data-other-librispeech-description = LibriSpeech ist ein Korpus aus ca. 1000 Stunden vorgelesener Texte in englischer Sprache (aufgenommen in 16kHz), welche ursprünglich aus Hörbüchern des LibriVox-Projektes entnommen wurden.
+data-other-ted-name = TED-LIUM-Korpus
+data-other-ted-description = Der TED-LIUM-Korpus wurde aus Audio-Vorträgen und deren Abschriften erstellt, die auf der TED-Webseite verfügbar sind.
+data-other-voxforge-description = VoxForge wurde gegründet, um Abschriften von Sprache für die Verwendung mit Freien und Open-Source-Spracherkennungen zu sammeln.
+data-other-tatoeba-description = Tatoeba ist eine umfangreiche Datenbank aus Sätzen und deren Übersetzungen und gesprochener Form (Audio) zum Sprachenlernen. Dieser Download enthält alle gesprochenen, englischen Texte, die von der dortigen Gemeinschaft aufgenommen wurden.
+data-bundle-button = Datensatz-Set herunterladen
+data-bundle-description = Common-Voice-Daten plus alle anderen, oben erwähnten Sprachdatensätze.
+license = Lizenz: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
 
+record-platform-not-supported = Es tut uns leid, ihre Plattform wird zur Zeit nicht unterstützt.
+record-platform-not-supported-desktop = Auf Desktop-Computern können Sie die neueste Version herunterladen:
+record-platform-not-supported-ios = <bold>iOS</bold>-Nutzer können unsere App kostenlos herunterladen:
+record-must-allow-microphone = Sie müssen den Mikrofon-Zugriff zulassen.
+record-error-too-short = Die Aufnahme war zu kurz.
+record-error-too-long = Die Aufnahme war zu lang.
+record-error-too-quiet = Die Aufnahme war zu leise.
+record-submit-success = Senden erfolgreich! Aufnehmen wiederholen?
+record-help = Bitte auf Aufnehmen drücken, dann den oberen Satz laut vorlesen.
+record-cancel = Erneute Aufnahme abbrechen
+review-terms = Durch die Verwendung von Common Voice akzeptieren Sie unsere <termsLink>Nutzungsbedingungen</termsLink> und den <privacyLink>Datenschutzhinweis</privacyLink>.
+review-aborted = Hochladen abgebrochen. Möchten Sie ihre Tonaufnahme löschen?
+review-submit-title = Überprüfen & Senden
+review-submit-msg = Vielen Dank für die Aufnahme!<lineBreak></lineBreak>Überprüfen und senden Sie Ihre Mitschnitte unten ab.
+review-recording = Überprüfen
+review-rerecord = Neu aufnehmen
+review-cancel = Absenden abbrechen
 
 ## Download Modal
 
+download-title = Ihr Download wurde gestartet.
+download-helpus = Helfen Sie uns, eine Gemeinschaft rund um sprachbasierte Technologien aufzubauen, bleiben Sie via E-Mail in Kontakt.
+download-form-email =
+    .label = E-Mail-Adresse eingeben
+    .value = Vielen Dank, wir melden uns.
+download-form-submit = Absenden
+download-back = Zurück zu Common-Voice-Datensätzen
+download-no = Nein, danke
 
 ## Contact Modal
 
+contact-title = Kontaktformular
+contact-cancel = Abbrechen
+contact-form-email =
+    .label = E-Mail-Adresse
+contact-form-name =
+    .label = Name
+contact-form-message =
+    .label = Nachricht
+contact-required = *erforderlich
+contact-submit = Absenden
 
 ## Request Language Modal
 
+request-language-title = Sprachanfrage
+request-language-cancel = Formular verlassen
+request-language-form-language =
+    .label = Sprache
+request-language-form-email =
+    .label = E-Mail-Adresse
+request-language-submit = Absenden
+request-language-success-title = Sprachanfrage erfolgreich abgesendet, vielen Dank.
+request-language-success-text = Wir uns mit weiteren Information über Ihre Sprache mit Ihnen in Verbindung setzen, sobald diese verfügbar ist.
