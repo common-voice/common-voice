@@ -75,10 +75,14 @@ faq-mission-a = Mozilla 致力于保持网络开放且人人可用。要做到�
 faq-native-q = 我的母语不是{ $lang }，而且我说话带有口音，你们需要这样的语音吗？
 faq-native-a = 是的，我们绝对需要您的语音！Common Voice 的目的之一就是尽可能多地收集不同的口音，让计算机能更好地理解<bold>每个人</bold>的话语。
 faq-firefox-q = Firefox 会通过 Common Voice 项目增加语音转文本功能吗？
+faq-firefox-a = Common Voice 具有无限潜力，我们的确在探索 Firefox 等 Mozilla 产品中语音方面的交互。
 faq-quality-q = 什么品质的录音会被使用？
 faq-quality-a = 我们希望面向语音转文本引擎将在自然环境下遇到的音频质量。因此，我们需要各种质量的音频来训练引擎。这将使语音转文本引擎遇到各种情况时不出错—不论是周围有人谈话，还是有汽车噪声、风扇噪声。
 faq-hours-q = 为什么捕获音频的目标是 10,000 小时？
+faq-hours-a = 这是训练出可供利用的 STT 系统所需的大约小时数。
 faq-source-q = 原始文本来自何处？
+faq-source-a1 = 目前是通过贡献者捐赠语料给我们，我们也会利用来自公有领域电影剧本的对话（如 <italic>It’s a Wonderful Life</italic>）。
+faq-source-a2 = 您可以在<dataLink>这个 GitHub 文件夹</dataLink>参考我们的语料源码。
 
 ## Profile
 
@@ -93,6 +97,7 @@ notfound-content = 很抱歉，找不到您想找的东西。
 ## Privacy
 
 privacy-title = Common Voice 隐私声明
+privacy-effective = 有效期至 { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
 privacy-policy = 我们的 <policy>Mozilla 隐私政策</policy>描述了我们如何处理所收到的您的信息。
 privacy-data-demographic = <name>人口特征。</name>您可以选择向我们发送您的口音、年龄等信息。这有助于我们和其他研究人员改进并打造语音转文本技术和工具。
 privacy-data-account = <name>账户数据。</name>您可以选择创建账户，在这种情况下我们会收到您的电子邮件地址。这将与您的人口特征和互动数据关联，但不会向公众分享。
@@ -104,9 +109,13 @@ privacy-more = <more>了解更多</more>
 ## Terms
 
 terms-title = Common Voice 法律条款
+terms-effective = 有效期至 { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
 terms-eligibility-title = 资格
+terms-eligibility-content = 您必须已满 13 周岁，否则须在家长或监护人同意和监督下参与我们的众包项目。
 terms-privacy-title = 隐私
+terms-privacy-content = 我们的<privacyLink>隐私声明</privacyLink>说明了我们如何接收和处理您的数据。
 terms-contributions-title = 您的贡献和发布的权利
+terms-contributions-content = 提交您的录音，即视为您放弃您可能拥有的所有版权和相关权利，并且您同意将录音在遵循<licenseLink>CC-0</licenseLink>许可下发布给公众。这意味着您同意在全球范围内放弃录音在版权和数据库法律规定下的一切权利，包括道德和宣传权利，以及所有相关权利和邻接权利。
 terms-communications-title = 交流
 terms-general-title = 常规
 
@@ -114,10 +123,17 @@ terms-general-title = 常规
 
 data-download-button = 下载 Common Voice 数据
 data-download-license = 许可协议：<licenseLink>CC-0</licenseLink>
+data-download-modal = 将会下载 <size>{ $size }GB</size> 的文件，要继续吗？
+data-subtitle = 我们正在建立一个开放且公开的语音数据集，每个人都可以使用它来训练语音应用程序。
+data-explanatory-text = 我们相信，大型和公开的语音数据集将促进基于机器学习的语音技术的创新和健康的商业竞争。这是一项全球性的努力，我们邀请所有人参加。我们的目标是帮助语音技术更具包容性，反映世界各地声音的多样性。
+data-get-started = <speechBlogLink>开始进行语音识别</speechBlogLink>
 data-other-title = 其他语音数据集…
+data-other-goto = 前往 { $name }
 data-other-download = 下载数据
 data-other-librispeech-description = Librispeech 是从 Librivox 项目中得到的大约 1000 小时的 16khz 有声读物的英文语音语料库。
 data-other-ted-name = TED-LIUM 语料库
+data-other-ted-description = TED-LIUM 语料库由在 TED 网站上提供的讲话音频和转录文字制作而成。
+data-other-voxforge-description = Voxforge 被设计来收集讲话转录文本，以供自由与开放源代码的语音识别引擎使用。
 data-other-tatoeba-description = Tatoeba 是一个用于语言学习的句子、翻译和口语音频的大型数据库。此下载包含由其社区记录的所有口语。
 data-bundle-button = 批量下载数据集
 data-bundle-description = Common Voice 数据加上所有其他的语音数据集。
@@ -160,6 +176,8 @@ contact-title = 联系表
 contact-cancel = 取消
 contact-form-email =
     .label = 电子邮箱
+contact-form-name =
+    .label = 姓名
 contact-form-message =
     .label = 信息
 contact-required = * 必填
