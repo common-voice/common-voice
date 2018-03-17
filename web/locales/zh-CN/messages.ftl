@@ -75,6 +75,8 @@ faq-mission-a = Mozilla 致力于保持网络开放且人人可用。要做到�
 faq-native-q = 我的母语不是{ $lang }，而且我说话带有口音，你们需要这样的语音吗？
 faq-native-a = 是的，我们绝对需要您的语音！Common Voice 的目的之一就是尽可能多地收集不同的口音，让计算机能更好地理解<bold>每个人</bold>的话语。
 faq-firefox-q = Firefox 会通过 Common Voice 项目增加语音转文本功能吗？
+faq-quality-q = 什么品质的录音会被使用？
+faq-quality-a = 我们希望面向语音转文本引擎将在自然环境下遇到的音频质量。因此，我们需要各种质量的音频来训练引擎。这将使语音转文本引擎遇到各种情况时不出错—不论是周围有人谈话，还是有汽车噪声、风扇噪声。
 faq-hours-q = 为什么捕获音频的目标是 10,000 小时？
 faq-source-q = 原始文本来自何处？
 
