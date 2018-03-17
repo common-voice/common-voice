@@ -1,3 +1,10 @@
+## General
+
+yes-receive-emails = Әйе, миңа эл. хатлар җибәрегез. Минем Common Voice проекты хакындагы яңалыкларны белеп торасым килә.
+stayintouch = Mozilla'да без сөйләм технологияләре тирәсендә бер җәмгыять туплыйбыз. Безнең хәбәрләр, яңа мәгълүмат чыганаклары, һәм Сезнең бу мәгълүматларны ничек куллануыгыз хакында элемтәдә торасыбыз килә.
+privacy-info = Без Сезнең мәгълүмат белән нәзәкатьле эш итәргә вәгъдә итәбез. Моның турында күбрәк белер өчен безнең <privacyLink>Хосусыйлык хакындагы аңлатмабызны</privacyLink> укыгыз.
+return-to-cv = Common Voice'ка кире кайту
+
 ## Layout
 
 speak = Сөйләгез
@@ -24,13 +31,16 @@ wall-of-text-more-desktop =
 show-wall-of-text = Дәвамын укы
 help-us-title = Җөмләләрнең сыйфатын тикшерергә ярдәм итегез!
 help-us-explain = «Плей» төймәсенә басып тыңлагыз һәм әйтегез: түбәндәге җөмлә дөрес укылганмы?
+request-language-text = Common Voice'ка Сезнең телегез өстәлмәгәнме әле?
+request-language-button = Телнең өстәлүен сорау
 
 ## ProjectStatus
 
 status-title = Проектың гомуми статусы: безнең нәрсәгә ирешкәнебезне күрегез!
 status-contribute = Тавышыгызны иганә итегез
 status-loading = Йөкләнелә...
-status-hours = { $hours ->
+status-hours =
+    { $hours ->
         [one] Әлегә бер сәгатьлек язма тикшерелде!
        *[other] Әлегә { $hours } сәгатьлек язма тикшерелде!
     }
@@ -45,7 +55,6 @@ profile-form-email =
     .label = Эл. почта
 profile-form-username =
     .label = Кулланучы исеме
-yes-receive-emails = Әйе, миңа эл. хатлар җибәрегез. Минем Common Voice проекты хакындагы яңалыкларны белеп торасым килә.
 profile-form-language =
     .label = Тел
 profile-form-more-languages = Тиздән башка телләр өстәләчәк!
@@ -172,10 +181,8 @@ download-form-email =
 download-form-submit = Җибәрү
 download-back = Common Voice мәгълүмат базаларына кайту
 download-no = Юк, рәхмәт
-stayintouch = Mozilla'да без сөйләм технологияләре тирәсендә бер җәмгыять туплыйбыз. Безнең хәбәрләр, яңа мәгълүмат чыганаклары, һәм Сезнең бу мәгълүматларны ничек куллануыгыз хакында элемтәдә торасыбыз килә.
-privacy-info = Без Сезнең мәгълүмат белән нәзәкатьле эш итәргә вәгъдә итәбез. Моның турында күбрәк белер өчен безнең <privacyLink>Хосусыйлык хакындагы аңлатмабызны</privacyLink> укыгыз.
 
-## Contact
+## Contact Modal
 
 contact-title = Элемтә формасы
 contact-cancel = Баш тарту
@@ -187,3 +194,6 @@ contact-form-message =
     .label = Хәбәр
 contact-required = *кирәк
 contact-submit = Җибәрү
+
+## Request Language Modal
+
