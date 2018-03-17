@@ -29,13 +29,16 @@ wall-of-text-more-desktop = Teď můžete darovat svůj hlas a pomoct nám vytvo
 show-wall-of-text = Přečíst si více
 help-us-title = Pomozte nám ověřovat věty!
 help-us-explain = Stiskněte přehrát, poslouchejte a řekněte nám: přečetli správně větu níže?
+request-language-text = Nevidíte svůj jazyk na Common Voice?
+request-language-button = Požádat o jazyk
 
 ## ProjectStatus
 
 status-title = Celkový stav projektu: podívejte se, jak jsme daleko!
 status-contribute = Přispějte svým hlasem
 status-loading = Načítání…
-status-hours = { $hours ->
+status-hours =
+    { $hours ->
         [one] Zatím jedna ověřená hodina!
         [few] Zatím { $hours } ověřené hodiny!
        *[other] Zatím { $hours } ověřených hodin!
