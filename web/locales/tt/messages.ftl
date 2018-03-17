@@ -197,3 +197,12 @@ contact-submit = Җибәрү
 
 ## Request Language Modal
 
+request-language-title = Телнең өстәлүен сорау
+request-language-cancel = Формулярдан чыгу
+request-language-form-language =
+    .label = Тел
+request-language-form-email =
+    .label = Электрон почта
+request-language-submit = Тапшыру
+request-language-success-title = Телнең өстәлүен сорау тапшырылды, рәхмәт Сезгә!
+request-language-success-text = Сез сораган тел өстәлгәч, күбрәк мәгълүмат белән элемтәгә керербез.
