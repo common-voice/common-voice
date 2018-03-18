@@ -21,8 +21,14 @@ share-title = Hjälp oss att hitta andra som är redo att bidra med sin röst!
 
 ## Home Page
 
+home-title = Projektet Common Voice är Mozillas initiativ att hjälpa till att lära maskiner hur riktiga människor talar.
+home-cta = Öppna din mun, stöd projekt och gör ett bidrag!
+wall-of-text-start = Språk är naturligt, språk är mänskligt. Därför fascineras vi av att skapa användbara taligenkänningsteknologier för våra enheter. Att utveckla röstbaserade system kräver emellertid en mycket stor mängd inspelningar i talat språk.
+wall-of-text-more-mobile = En större del av den data som används av stora företag är emellertid otillgänglig för de flesta människor. Vi tror att detta kommer att förhindra innovation. Därför lanserade vi projektet Common Voice, ett projekt som hjälper till att göra taligenkänning tillgänglig för alla.
+wall-of-text-more-desktop = Nu kan du donera din röst för att hjälpa oss att bygga en röstdatabas med öppen källkod som alla kan använda för att skapa innovativa appar för enheter och webben.<lineBreak></lineBreak>Läs en mening för att hjälpa maskiner att lära sig hur riktiga människor pratar. Kontrollera andra bidragsgivares arbete för att förbättra kvaliteten. Det är så enkelt!
 show-wall-of-text = Läs mer
 help-us-title = Hjälp oss validera meningar!
+help-us-explain = Tryck på Play, lyssna och berätta: Var följande mening inspelad korrekt?
 request-language-text = Kan du inte se ditt språk på Common Voice än?
 request-language-button = Skicka en förfrågan
 
