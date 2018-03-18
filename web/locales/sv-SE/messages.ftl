@@ -1,6 +1,12 @@
+## General
+
+yes-receive-emails = Ja, skicka mig e-postmeddelanden. Jag skulle vilja hålla mig informerad om projektet Common Voice.
+return-to-cv = Återgå till Common Voice
+
 ## Layout
 
 speak = Prata
+datasets = Datamängder
 profile = Profil
 help = Hjälp
 contact = Kontakt
@@ -96,7 +102,7 @@ download-form-email =
 download-form-submit = Skicka in
 download-no = Nej tack
 
-## Contact
+## Contact Modal
 
 contact-title = Kontaktformulär
 contact-cancel = Avbryt
@@ -108,3 +114,6 @@ contact-form-message =
     .label = Meddelande
 contact-required = *krävs
 contact-submit = Skicka in
+
+## Request Language Modal
+
