@@ -1,6 +1,8 @@
 ## General
 
 yes-receive-emails = Ja, skicka mig e-postmeddelanden. Jag skulle vilja hålla mig informerad om projektet Common Voice.
+stayintouch = Vi hos Mozilla bygger en gemenskap kring röstteknik. Vi skulle vilja hålla kontakten med dig om uppdateringar, nya datakällor och höra mer om hur du använder dessa data.
+privacy-info = Vi lovar att hantera din information med försiktighet. Läs mer i vår <privacyLink>sekretesspolicy</ privacyLink>.
 return-to-cv = Återgå till Common Voice
 
 ## Layout
@@ -15,14 +17,18 @@ terms = Villkor
 cookies = Kakor
 faq = FAQ
 content-license-text = Innehåll tillgängligt under en <licenseLink>Creative Commons licens</licenseLink>
+share-title = Hjälp oss att hitta andra som är redo att bidra med sin röst!
 
 ## Home Page
 
 show-wall-of-text = Läs mer
 help-us-title = Hjälp oss validera meningar!
+request-language-text = Kan du inte se ditt språk på Common Voice än?
+request-language-button = Skicka en förfrågan
 
 ## ProjectStatus
 
+status-title = Övergripande projektstatus: se hur långt vi har kommit!
 status-contribute = Bidra med din röst
 status-loading = Laddar…
 # Variables:
