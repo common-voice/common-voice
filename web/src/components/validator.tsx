@@ -2,7 +2,7 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import StateTree from '../stores/tree';
 import ListenBox from './listen-box/listen-box';
-import { Validations } from '../stores/validations';
+import { Clips } from '../stores/clips';
 
 const LOADING_MESSAGE = 'Loading...';
 const LOAD_ERROR_MESSAGE =
@@ -10,29 +10,27 @@ const LOAD_ERROR_MESSAGE =
 
 interface PropsFromState {
   loadError: boolean;
-  validation?: Validations.Validation;
+  clip?: Clips.Clip;
 }
 
 interface PropsFromDispatch {
-  vote: typeof Validations.actions.vote;
+  vote: typeof Clips.actions.vote;
 }
 
 interface Props extends PropsFromState, PropsFromDispatch {}
 
 export default connect<PropsFromState, PropsFromDispatch>(
-  ({ validations }: StateTree) => ({
-    validation: validations.next,
-    loadError: validations.loadError,
+  ({ clips }: StateTree) => ({
+    clip: clips.next,
+    loadError: clips.loadError,
   }),
-  { vote: Validations.actions.vote }
-)(({ loadError, validation, vote }: Props) => (
+  { vote: Clips.actions.vote }
+)(({ loadError, clip, vote }: Props) => (
   <div className="validator">
     <ListenBox
-      src={validation ? validation.audioSrc : ''}
+      src={clip ? clip.audioSrc : ''}
       sentence={
-        validation
-          ? validation.sentence
-          : loadError ? LOAD_ERROR_MESSAGE : LOADING_MESSAGE
+        clip ? clip.sentence : loadError ? LOAD_ERROR_MESSAGE : LOADING_MESSAGE
       }
       onVote={vote}
       vote

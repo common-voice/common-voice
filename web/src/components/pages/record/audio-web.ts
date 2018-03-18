@@ -197,9 +197,6 @@ export default class AudioWeb {
       return Promise.resolve({});
     }
 
-    this.microphone.stop();
-    this.microphone = null;
-
     return new Promise((res: Function, rej: Function) => {
       this.stopVisualize();
 
@@ -213,6 +210,15 @@ export default class AudioWeb {
       };
       this.recorder.stop();
     });
+  }
+
+  release() {
+    if (this.microphone) {
+      for (const track of this.microphone.getTracks()) {
+        track.stop();
+      }
+    }
+    this.microphone = null;
   }
 
   clear() {

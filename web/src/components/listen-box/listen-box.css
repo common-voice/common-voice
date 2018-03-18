@@ -170,7 +170,7 @@ body:not(.mobile-safari) .vote-box > button:hover {
     color: white;
 }
 
-.vote-box.disabled > button {
+.vote-box > button:disabled {
     opacity: 0.3;
     pointer-events: none;
 }

@@ -5,7 +5,8 @@ import { trackProfile } from '../services/tracker';
 import { Recordings } from './recordings';
 import StateTree from './tree';
 import { User } from './user';
-import { Validations } from './validations';
+import { Clips } from './clips';
+import { RequestedLanguages } from './requested-langauges';
 
 const USER_KEY = 'userdata';
 
@@ -22,22 +23,29 @@ try {
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const store = createStore(
   function root(
-    { recordings, user, validations }: StateTree = {
+    { recordings, user, clips, requestedLanguages }: StateTree = {
       api: undefined,
       recordings: undefined,
       user: undefined,
-      validations: undefined,
+      clips: undefined,
+      requestedLanguages: undefined,
     },
-    action: Recordings.Action | User.Action | Validations.Action
+    action:
+      | Recordings.Action
+      | User.Action
+      | Clips.Action
+      | RequestedLanguages.Action
   ): StateTree {
     const newState = {
       recordings: Recordings.reducer(recordings, action as Recordings.Action),
       user: User.reducer(user, action as User.Action),
-      validations: Validations.reducer(
-        validations,
-        action as Validations.Action
+      clips: Clips.reducer(clips, action as Clips.Action),
+      requestedLanguages: RequestedLanguages.reducer(
+        requestedLanguages,
+        action as RequestedLanguages.Action
       ),
     };
+
     return { api: new API(newState.user), ...newState };
   },
   preloadedState,

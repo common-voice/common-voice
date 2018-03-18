@@ -1,6 +1,6 @@
 # Discover Consul settings
 module "consul" {
-  source       = "github.com/nubisproject/nubis-terraform//consul?ref=v2.0.1"
+  source       = "github.com/nubisproject/nubis-terraform//consul?ref=v2.1.0"
   region       = "${var.region}"
   environment  = "${var.environment}"
   account      = "${var.account}"
@@ -16,10 +16,15 @@ provider "consul" {
 
 # Publish our outputs into Consul for our application to consume
 resource "consul_keys" "config" {
-
   key {
     path   = "${module.consul.config_prefix}/Bucket/Clips/Name"
     value  = "${module.clips.name}"
+    delete = true
+  }
+
+  key {
+    path   = "${module.consul.config_prefix}/Environment"
+    value  = "${var.environment}"
     delete = true
   }
 
@@ -40,5 +45,4 @@ resource "consul_keys" "config" {
     value  = "${aws_iam_access_key.clips_bucket.secret}"
     delete = true
   }
-
 }

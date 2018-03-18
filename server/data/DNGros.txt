@@ -21,7 +21,7 @@ Despite years of research, the problem remained intractable.
 Where is my dress?
 The children learned how knit.
 The yellow fish swam across the lake.
-Can we please leave now.
+Can we please leave now?
 Fedric was unable to find his lucky marble.
 Delete this file.
 Ines loves to go swimming.
@@ -104,7 +104,7 @@ Does this mean he will go to jail?
 That is one possibility, but we would both prefer it did not happen.
 Maybe he could just pay for the device.
 No, that is not a good solution.
-What if he made a new version.
+What if he made a new version?
 She would need to replicate it exactly.
 Hm, that does seem difficult.
 Yes, it would be difficult.
@@ -125,7 +125,7 @@ I came to pickup my package that arrived today.
 Do you know what kind of package it was?
 I think it came in a long, red box.
 I do not remember seeing anything that looked like that.
-Can you please check your inventory.
+Can you please check your inventory?
 Sure, I will be right back.
 Wow, this is a nice table!
 I found five things that you described.
@@ -149,7 +149,7 @@ They are very impressive, I will admit.
 I thought you would be pleased with them.
 Look closely at the one on the left.
 I am, but I do not see anything special.
-It changes color when you say the words "blue sponge."
+It changes color when you say the words "blue sponge".
 That is a weird phrase.
 I did not chose that phrase.
 Where did it come from then?
@@ -193,7 +193,7 @@ Did you try any Japanese food while you were there.
 I do not like sushi, so I did not really enjoy the meal.
 How about Egypt?
 I went to Egypt with my grandmother.
-What did you think of that trip.
+What did you think of that trip?
 My grandmother and I went inside the Great Pyramid.
 Did you see any ghosts?
 No, but I saw a gift shop.
@@ -262,12 +262,12 @@ The race was finished in just thirty nine minutes, beating all expectations.
 The cake will be ready in seventeen minutes.
 We pride ourselves in completing all requests in less than twenty four hours.
 The transfer required two hours nineteen minutes and ten seconds to complete.
-Built January 19th, 1917, the monument is now celebrating its centennial.
+Built January nineteenth, nineteen-seventeen, the monument is now celebrating its centennial.
 Scientists believe the Solar System formed around four point six billion years ago.
 The mall is open eight thirty AM to five thirty PM.
 Please schedule a meeting between me and John at three thirty tomorrow.
-The election was held May 1976.
-After being sealed for more than eighty four years, the vault was finally opened in 2014.
+The election was held May nineteen-seventy-six.
+After being sealed for more than eighty four years, the vault was finally opened in twenty-fourteen.
 We meet every other Monday.
 Can we plan on doing it on Tuesday?
 I am only available on Wednesday.
@@ -282,35 +282,35 @@ We will be visiting in April.
 We will be out of town for most of May.
 The children are not in school in June.
 I like the city, but in July it is too hot.
-We have it scheduled for August 1st.
+We have it scheduled for August first.
 Please try to let us know by September.
 It is odd that is so cold in October.
 I would prefer to do it in November.
 I can not believe it is already December.
-Let me know by the 13th.
-The castle was built in the early 16th century.
-This is the 21st century solution to the problem.
-People born in 2018 will possibly live into the 22nd century.
-The theater is closed for renovations, but will reopen in 2019.
-The insurance policy will expire in 2020.
-We are obligated to continue until 2021.
-By 2022 I expect the problem will be solved.
-The building is scheduled to open in 2023.
-The next time the eclipse occurs is in 2024.
-In 2025 grandpa will celebrate his 100th birthday.
-While it has long the shelf life, the items will expire in 2026.
-In 2027 I will old enough to drive.
-2028 is going to be the first year in over eight decades we must cancel the event.
-We expect this stay relevant until 2029.
-The model predicts that by 2030, the chances could more than double.
+Let me know by the thirteenth.
+The castle was built in the early sixteenth century.
+This is the twenty-first century solution to the problem.
+People born in twenty-eighteen will possibly live into the twenty-second century.
+The theater is closed for renovations, but will reopen in twenty-nineteen.
+The insurance policy will expire in twenty-twenty.
+We are obligated to continue until twenty-twenty-one.
+By twenty-twenty-two I expect the problem will be solved.
+The building is scheduled to open in twenty-twenty-three.
+The next time the eclipse occurs is in twenty-twenty-four.
+In twenty-twenty-five grandpa will celebrate his hundredth birthday.
+While it has long the shelf life, the items will expire in twenty-twenty-six.
+In twenty-twenty-seven I will old enough to drive.
+Twenty-twenty-eight is going to be the first year in over eight decades we must cancel the event.
+We expect this stay relevant until twenty-twenty-nine.
+The model predicts that by twenty-thirty, the chances could more than double.
 The recipe requires three-quarters of a cups of sugar.
 The irrational number Pi, which represents the ratio between a circle's circumference and its diameter, approximately equals three point one four one five.
 The pin number is three, seven, two, six.
-I thought of buying the hat, but then saw that it cost $84.
-The car sold for twelve thousand three hundred and sixty nine Euros.
-The car sold for twelve thousand four hundred and sixty nine Dollars.
-The car sold for six thousand three hundred and sixty nine Pounds.
-The item costs five euros
+I thought of buying the hat, but then saw that it cost eighty-four dollars.
+The car sold for twelve thousand three hundred and sixty nine euros.
+The car sold for twelve thousand four hundred and sixty nine dollars.
+The car sold for six thousand three hundred and sixty nine pounds.
+The item costs five euros.
 The item costs five Yen.
 The new highway is expected to cost nine point two four million dollars.
 We are opening the a new location at ten eighty-seven Oak Street.
@@ -324,11 +324,11 @@ In surprise finish, the final score was seven to five.
 The bestselling novel was read four million times.
 H2O is the chemical formula for water.
 World leaders gathered for the UN meeting.
-The CIA and MI6 are secret spy agencies.
+The CIA and MI-Six are secret spy agencies.
 Most reports of UFOs have never been verified.
 If you have an issue in the workplace, you are encouraged to contact the HR department.
 The new proposal goes by the acronym WNA.
-Every computer on the internet has an IP address.
+Every computer on the Internet has an IP address.
 Do you want to play a game.
 What game do you want to play?
 Have you played chess?
@@ -431,8 +431,8 @@ Did you know that Mohammad was so good at tennis?
 We are going to the football game tonight.
 The football game ended with neither team scoring a single point.
 My brother is a professional football player.
-The 2020 Olympics will be held in Tokyo.
-The 2018 Olympics will be in Pyeongchang.
+The twenty-twenty Olympics will be held in Tokyo.
+The twenty-eigtheen Olympics will be in Pyeongchang.
 I am going to Germany tomorrow.
 I am going to the USA tomorrow.
 I am going to Asia tomorrow.
@@ -440,16 +440,16 @@ The flag is red, blue, and yellow.
 The police arrived at the scene thirty minutes later.
 The ambulance drove down the street sirens blaring.
 The ambulance drove quickly to the hospital.
-The president of Russia is Vladimir Putin. 
+The president of Russia is Vladimir Putin.
 Find a picture older than five weeks.
 I'm not happy that it is taking so long.
 Please be careful around the crocodile.
-The Queen of Denmark was born in 1940.
-Victoria was born in 1974.
+The Queen of Denmark was born in nineteen-fourty.
+Victoria was born in nineteen-seventy-four.
 Oprah Winfrey held a talk show for many years.
-Marilyn Monroe passed away in 1962.
-John F. Kennedy was born in 1917.
-Justin Bieber is a Canadian singer that rose to fame in 2008.
+Marilyn Monroe passed away in nineteen-sixty-two.
+John F. Kennedy was born in nineteen-seventeen.
+Justin Bieber is a Canadian singer that rose to fame in two-thousand-and-eight.
 Elvis Presley is often called the "King of Rock and Roll".
 Leonardo DiCaprio is staring in the new movie.
 Cristiano Ronaldo has won twenty four trophies in his career.
@@ -458,13 +458,13 @@ The most recent presidents of the United States are Donald Trump, Barack Obama, 
 Michael Jordan played basketball for fifteen seasons.
 Tom Hanks is the third highest-grossing actor in North America.
 Katy Perry is a famous American singer.
-Tom Cruise is a famous movie star born in 1962.
+Tom Cruise is a famous movie star born in nineteen-sixty-two.
 Tiger Woods is a famous golfer.
 Harry Styles was a member of the boy band One Direction.
 Britney Spears is a pop singer.
 C.S. Lewis is the author of The Chronicles of Narnia series.
 Matthew McConaughey is an American actor.
-Michael Jackson began his career as part of the Jackson 5.
+Michael Jackson began his career as part of the Jackson Five.
 Albert Einstein's famous equation E equals MC squared is one of the best known equations in physics.
 Albert Einstein was a German physicist who developed the Theory of Relativity.
 Mahatma Gandhi led the Indian independence movement in the twentieth century.
@@ -473,7 +473,7 @@ Abraham Lincoln was the sixteenth president of the United States.
 George Washington was the first president of the United States.
 Martin Luther King Jr. was an an American civil rights leader.
 Nelson Mandela was President of South Africa for five years.
-The Beatles was a famous English rock band. 
+The Beatles were a famous English rock band.
 John Lennon and Paul McCartney are two famous members of the Beatles.
 Jackie Chan is a famous martial artist and actor from Hong Kong.
 William Shakespeare was an English poet and playwright that lived during the late sixteenth century.

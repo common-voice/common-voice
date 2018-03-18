@@ -21,6 +21,10 @@
     color: black;
 }
 
+.button.rounded {
+    border-radius: 50px;
+}
+
 @media (--mobile) {
     .button {
         display: block;
@@ -74,7 +78,7 @@ body:not(.mobile-safari) .button.outline:hover path,
 body:not(.mobile-safari) .card-action:hover,
 body:not(.mobile-safari) .button.card-action:hover,
 .is-keyboard-focus .card-action:focus,
-.is-keyboard-focus .button.card-action:focus  {
+.is-keyboard-focus .button.card-action:focus {
     outline: none;
     margin: 1px -1px -1px 1px;
     background: white;
@@ -130,8 +134,27 @@ body:not(.mobile-safari) .button.card-action:hover path,
     height: var(--input-height);
 }
 
+.labeled-form-control.for-select {
+    position: relative;
+}
+
+.labeled-form-control select {
+    padding-right: 33px;
+    appearance: none;
+}
+
+.labeled-form-control.for-select::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url('/img/down-arrow.svg') no-repeat right 15px top 37px;
+    background-size: 13px 9px;
+    pointer-events: none;
+}
+
 .labeled-form-control :required, .labeled-form-control :valid {
-    box-shadow:none;
+    box-shadow: none;
 }
 
 .menu-icon {
@@ -142,7 +165,7 @@ body:not(.mobile-safari) .button.card-action:hover path,
     transition: transform .2s var(--easing);
 }
 
-.menu-icon.active  .left {
+.menu-icon.active .left {
     transform: translateX(-4px);
 }
 

@@ -50,6 +50,7 @@
     color: white;
     font-weight: bold;
     background: var(--color-listen);
+    transition: width 500ms var(--easing);
 }
 
 .language-progress .numbers {
@@ -62,4 +63,8 @@
     .project-status .title-and-action, .language-progress .numbers {
         flex-direction: column;
     }
+}
+
+#home-container .project-status .request-language {
+    text-align: center;
 }

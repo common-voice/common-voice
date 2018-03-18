@@ -1,11 +1,11 @@
 I feel a sharp pain in my left arm.
 My mother has Parkinson's.
-I do not accept that diagnosis. 
+I do not accept that diagnosis.
 I have a headache and a sore throat.
 She broke her arm in several places.
 Her niece is a diabetic.
-My grandmother has Type 1 diabetes.
-My mother has Type 2 diabetes.
+My grandmother has Type One diabetes.
+My mother has Type Two diabetes.
 Yesterday, he went to an STD clinic to test for herpes.
 She was just diagnosed with uterine cancer.
 Because she is diabetic, a low-carbohydrate diet is recommended.
@@ -14,7 +14,7 @@ Can you tell me where it hurts?
 How long have you been experiencing these symptoms?
 Is there a history of heart disease in your family?
 How many alcoholic beverages do you consume each week?
-On a scale from 1 (for not at all) and 10 (for very much), how much pain do you feel?
+On a scale from one (for not at all) and ten (for very much), how much pain do you feel?
 Yesterday, I asked my doctor for a new prescription.
 Because of my depression, I have been recommended to see a psychiatrist.
 His grandfather was an abusive alcoholic.

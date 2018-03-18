@@ -78,7 +78,7 @@
 }
 
 #common-voice-license a {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 #explanatory-text {
@@ -246,8 +246,4 @@ body:not(.mobile-safari) .dataset .button.card-action:hover path,
     text-align: center;
     font-size: var(--small-font-size);
     font-weight: 600;
-}
-
-.email-modal .fine-print {
-    font-size: var(--small-font-size);
 }

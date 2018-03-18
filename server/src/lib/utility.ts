@@ -22,22 +22,11 @@ export function getElapsedSeconds(timestamp: number): number {
 }
 
 /**
- * Returns the file extension of some path.
- */
-export function getFileExt(path: string): string {
-  let i = path.lastIndexOf('.');
-  if (i === -1) {
-    return '';
-  }
-  return path.substr(i - path.length);
-}
-
-/**
  * Returns the first defined argument. Returns null if there are no defined
  * arguments.
  */
 export function getFirstDefined(...options: any[]) {
-  for (var i = 0; i < options.length; i++) {
+  for (let i = 0; i < options.length; i++) {
     if (options[i] !== undefined) {
       return options[i];
     }
@@ -72,9 +61,25 @@ export function isLeaderServer(
   });
 }
 
-/**
- * Returns a promise that resolves after ms.
- */
-export function sleep(ms: number): Promise<void> {
-  return new Promise(resolve => setTimeout(resolve, ms));
+export class APIError extends Error {
+  constructor(message?: string) {
+    // 'Error' breaks prototype chain here
+    super(message);
+
+    // restore prototype chain
+    const actualProto = new.target.prototype;
+
+    if (Object.setPrototypeOf) {
+      Object.setPrototypeOf(this, actualProto);
+    } else {
+      (this as any).__proto__ = new.target.prototype;
+    }
+  }
+}
+export class ServerError extends APIError {}
+export class ClientError extends APIError {}
+export class ClientParameterError extends ClientError {
+  constructor() {
+    super('Invalid Parameters');
+  }
 }

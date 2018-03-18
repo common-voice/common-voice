@@ -18,12 +18,13 @@ All of our current issues can be found here on GitHub. Anything with a [help wan
 - [npm](https://www.npmjs.com) (v4 or higher)
 - [yarn](https://yarnpkg.com) (v1 or higher)
 - [ffmpeg](https://www.ffmpeg.org/download.html)
+- [MariaDB](https://mariadb.org/download/) (v10 or higher) or [MySQL](https://www.mysql.com/downloads/) (v5.6 or higher)
 
 #### Local Development
 
-If you haven't already, install the latest version of [NodeJS and npm](https://nodejs.org/en/download) and [yarn](https://yarnpkg.com)
+[Fork](https://help.github.com/articles/fork-a-repo/) and [clone](https://help.github.com/articles/cloning-a-repository/) the repository onto your computer.
 
-Then, [fork](https://help.github.com/articles/fork-a-repo/) and [clone](https://help.github.com/articles/cloning-a-repository/) the repository onto your computer.
+Either create a MySQL root user that conforms to the default `DB_ROOT_USER` and `DB_ROOT_PASS` in `/server/src/config-helper.ts` or [create your own config](https://github.com/mozilla/voice-web/blob/master/CONTRIBUTING.md#configuration). 
 
 Then `cd` into the project directory and enter the following commands:
 ```
@@ -44,6 +45,25 @@ You can find configurable options, like the port CommonVoice is running on, in `
 #### Setting up Amazon S3 for development
 The Common Voice project uses S3 for voice clip storage. If you need help configuring
 S3, check out [HOWTO_S3.md](./docs/HOWTO_S3.md)
+
+#### Adding migrations
+We use [db-migrate](https://github.com/db-migrate/node-db-migrate) for running database migrations.
+
+To add a migration run:
+`yarn migrate create <MIGRATION_NAME>`.
+At the moment you manually have to change the migration file extension to `.ts`. A migration has to expose the following API:
+```typescript
+export const up = async function(db: any): Promise<any> {
+  return null;
+};
+
+export const down = async function(): Promise<any> {
+  return null;
+};
+
+```
+
+Migrations are always run when the server is started. 
 
 #### Need Help?
 For more options, just type:

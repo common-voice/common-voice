@@ -1,33 +1,34 @@
 import * as http from 'http';
-import * as path from 'path';
-
+import * as express from 'express';
+import { NextFunction, Request, Response } from 'express';
 import Model from './lib/model';
 import API from './lib/api';
 import Logger from './lib/logger';
-import { isLeaderServer, getElapsedSeconds } from './lib/utility';
-import { Server as NodeStaticServer } from 'node-static';
+import {
+  isLeaderServer,
+  getElapsedSeconds,
+  ClientError,
+  APIError,
+} from './lib/utility';
+import { importSentences } from './lib/model/db/import-sentences';
 import { CommonVoiceConfig, getConfig } from './config-helper';
-import { migrate } from './lib/model/db/migrate-data/migrate';
 
-const SLOW_REQUEST_LIMIT = 2000;
-const CLIENT_PATH = '../web';
+const CLIENT_PATH = '../../web';
 
 const CSP_HEADER = `default-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' www.google-analytics.com; media-src data: blob: https://*.amazonaws.com https://*.amazon.com; script-src 'self' 'sha256-WpzorOw/T4TS/msLlrO6krn6LdCwAldXSATNewBTrNE=' https://www.google-analytics.com/analytics.js; font-src 'self' https://fonts.gstatic.com; connect-src 'self'`;
 
 export default class Server {
   config: CommonVoiceConfig;
+  app: express.Application;
   server: http.Server;
   model: Model;
   api: API;
   logger: Logger;
-  staticServer: any;
   isLeader: boolean;
-  hasPerformedMaintenance = false;
   heartbeat: any;
 
   constructor(config?: CommonVoiceConfig) {
     this.config = config ? config : getConfig();
-    this.staticServer = this.getServer();
     this.model = new Model(this.config);
     this.api = new API(this.config, this.model);
     this.logger = new Logger(this.config);
@@ -37,25 +38,39 @@ export default class Server {
     if (this.config.PROD) {
       this.logger.overrideConsole();
     }
-    this.isMigrated = false;
-  }
 
-  private set isMigrated(value: boolean) {
-    this.api.isMigrated = value;
-  }
+    const app = (this.app = express());
 
-  /**
-   * Create our http server object.
-   */
-  private getServer() {
-    return new NodeStaticServer(path.join(__dirname, CLIENT_PATH), {
-      cache: false,
-      headers: this.config.PROD
-        ? {
-            'Content-Security-Policy': CSP_HEADER,
-          }
-        : {},
-    });
+    app.use('/api/v1', this.api.getRouter());
+
+    const staticOptions = {
+      setHeaders: (response: express.Response) => {
+        this.config.PROD && response.set('Content-Security-Policy', CSP_HEADER);
+      },
+    };
+    app.use(express.static(__dirname + CLIENT_PATH, staticOptions));
+    app.use(
+      '*',
+      express.static(__dirname + CLIENT_PATH + '/index.html', staticOptions)
+    );
+
+    app.use(
+      (
+        error: Error,
+        request: Request,
+        response: Response,
+        next: NextFunction
+      ) => {
+        console.log(error);
+        const isAPIError = error instanceof APIError;
+        if (!isAPIError) {
+          console.error(request.url, error);
+        }
+        response
+          .status(error instanceof ClientError ? 400 : 500)
+          .json({ message: isAPIError ? error.message : '' });
+      }
+    );
   }
 
   /**
@@ -64,56 +79,6 @@ export default class Server {
   private print(...args: any[]) {
     args.unshift('APPLICATION --');
     console.log.apply(console, args);
-  }
-
-  /**
-   * handleRequest
-   *   Route requests to appropriate controller based on
-   *   if the request deals with voice clips or web content.
-   */
-  private async handleRequest(
-    request: http.IncomingMessage,
-    response: http.ServerResponse
-  ) {
-    let startTime = Date.now();
-
-    if (this.api.isApiRequest(request)) {
-      if (this.isLeader && !this.hasPerformedMaintenance) {
-        response.writeHead(307, { Location: request.url });
-        response.end();
-        return;
-      }
-      this.api.handleRequest(request, response);
-      return;
-    }
-
-    // If we get here, feed request to static parser.
-    request
-      .addListener('end', () => {
-        this.staticServer.serve(request, response, (err: any) => {
-          if (err && err.status === 404) {
-            this.print('non-static resource request', request.url);
-
-            // If file was not front, use main page and
-            // let the front end handle url routing.
-            this.staticServer.serveFile(
-              'index.html',
-              200,
-              {},
-              request,
-              response
-            );
-            return;
-          }
-
-          // Log slow static requests
-          let elapsed = Date.now() - startTime;
-          if (elapsed > SLOW_REQUEST_LIMIT) {
-            this.print('slow static request', elapsed, request.url);
-          }
-        });
-      })
-      .resume();
   }
 
   /**
@@ -141,22 +106,20 @@ export default class Server {
   /**
    * Perform any scheduled maintenance on the data model.
    */
-  async performMaintenance(): Promise<void> {
+  async performMaintenance(doImport: boolean): Promise<void> {
     const start = Date.now();
     this.print('performing Maintenance');
 
     try {
       await this.model.performMaintenance();
+      if (doImport) {
+        await importSentences(await this.model.db.mysql.createPool());
+      }
       this.print('Maintenance complete');
     } catch (err) {
       console.error('DB Maintenance error', err);
     } finally {
       this.print(`${getElapsedSeconds(start)}s to perform maintenance`);
-    }
-
-    if (this.config.ENABLE_MIGRATIONS) {
-      await migrate(this.model.db.mysql.conn);
-      this.isMigrated = true;
     }
   }
 
@@ -178,9 +141,9 @@ export default class Server {
   listen(): void {
     // Begin handling requests before clip list is loaded.
     let port = this.config.SERVER_PORT;
-    this.server = http.createServer(this.handleRequest.bind(this));
-    this.server.listen(port);
-    this.print(`listening at http://localhost:${port}`);
+    this.server = this.app.listen(port, () =>
+      this.print(`listening at http://localhost:${port}`)
+    );
   }
 
   /**
@@ -198,29 +161,24 @@ export default class Server {
     clearInterval(this.heartbeat);
     this.heartbeat = setInterval(() => {
       this.model.printMetrics();
-    }, 60000);
+    }, 30 * 60 * 1000); // 30 minutes
   }
 
   /**
    * Start up everything.
    */
-  async run(): Promise<void> {
-    // Log the start.
-    this.print('starting with config ' + JSON.stringify(this.config));
+  async run(options?: { doImport: boolean }): Promise<void> {
+    options = { doImport: true, ...options };
+    this.print('starting');
 
-    // Set up db connection.
     await this.ensureDatabase();
 
-    // Boot up our http server.
     this.listen();
 
-    // Figure out if this server is the leader.
     const isLeader = await this.checkLeader();
 
-    // Leader servers will perform database maintenance.
     if (isLeader) {
-      await this.performMaintenance();
-      this.hasPerformedMaintenance = true;
+      await this.performMaintenance(options.doImport);
     }
 
     this.startHeartbeat();
@@ -254,5 +212,5 @@ process.on('uncaughtException', function(err: any) {
 // If this file is run directly, boot up a new server instance.
 if (require.main === module) {
   let server = new Server();
-  server.run();
+  server.run().catch(e => console.error(e));
 }

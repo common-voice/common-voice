@@ -5,6 +5,7 @@ import StateTree from '../../stores/tree';
 import { ACCENTS, AGES, GENDERS, User } from '../../stores/user';
 import Modal from '../modal/modal';
 import { Button, LabeledInput, LabeledSelect } from '../ui/ui';
+const { Localized } = require('fluent-react');
 
 interface EditableUser {
   email: string;
@@ -111,72 +112,87 @@ class ProfileForm extends React.Component<Props, State> {
         <br />
 
         <form onSubmit={this.save}>
-          <LabeledInput
-            className="half-width"
-            label="Email"
-            name="email"
-            onChange={this.update}
-            type="email"
-            value={email}
-          />
+          <Localized id="profile-form-email" attrs={{ label: true }}>
+            <LabeledInput
+              className="half-width"
+              label="Email"
+              name="email"
+              onChange={this.update}
+              type="email"
+              value={email}
+            />
+          </Localized>
 
-          <LabeledInput
-            className="half-width"
-            label="User Name"
-            name="username"
-            onChange={this.update}
-            type="text"
-            value={username}
-          />
+          <Localized id="profile-form-username" attrs={{ label: true }}>
+            <LabeledInput
+              className="half-width"
+              label="User Name"
+              name="username"
+              onChange={this.update}
+              type="text"
+              value={username}
+            />
+          </Localized>
 
-          <label id="opt-in">
+          <label className="opt-in">
             <input
               onChange={this.update}
               name="sendEmails"
               type="checkbox"
               checked={sendEmails}
             />
-            Yes, send me emails. I'd like to stay informed about the Common
-            Voice Project.
+            <Localized id="yes-receive-emails">
+              <span />
+            </Localized>
           </label>
 
           <hr />
 
-          <LabeledSelect
-            className="half-width"
-            disabled
-            label="Language"
-            name="language"
-            tabIndex={-1}>
-            <option value="">More languages coming soon!</option>
-          </LabeledSelect>
+          <Localized id="profile-form-language" attrs={{ label: true }}>
+            <LabeledSelect
+              className="half-width"
+              disabled
+              label="Language"
+              name="language"
+              tabIndex={-1}>
+              <Localized id="profile-form-more-languages">
+                <option value="" />
+              </Localized>
+            </LabeledSelect>
+          </Localized>
 
-          <LabeledSelect
-            className="half-width"
-            label="Accent"
-            name="accent"
-            onChange={this.update}
-            value={accent}>
-            {this.renderOptionsFor(ACCENTS)}
-          </LabeledSelect>
+          <Localized id="profile-form-accent" attrs={{ label: true }}>
+            <LabeledSelect
+              className="half-width"
+              label="Accent"
+              name="accent"
+              onChange={this.update}
+              value={accent}>
+              {this.renderOptionsFor(ACCENTS)}
+            </LabeledSelect>
+          </Localized>
 
-          <LabeledSelect
-            className="half-width"
-            label="Age"
-            name="age"
-            onChange={this.update}
-            value={age}>
-            {this.renderOptionsFor(AGES)}
-          </LabeledSelect>
+          <Localized id="profile-form-age" attrs={{ label: true }}>
+            <LabeledSelect
+              className="half-width"
+              label="Age"
+              name="age"
+              onChange={this.update}
+              value={age}>
+              {this.renderOptionsFor(AGES)}
+            </LabeledSelect>
+          </Localized>
 
-          <LabeledSelect
-            className="half-width"
-            label="Gender"
-            name="gender"
-            onChange={this.update}
-            value={gender}>
-            {this.renderOptionsFor(GENDERS)}
-          </LabeledSelect>
+          <Localized id="profile-form-gender" attrs={{ label: true }}>
+            <LabeledSelect
+              className="half-width"
+              label="Gender"
+              name="gender"
+              onChange={this.update}
+              value={gender}>
+              {this.renderOptionsFor(GENDERS)}
+            </LabeledSelect>
+          </Localized>
 
           <div className="buttons">
             <Button type="submit" outline={!isModified}>

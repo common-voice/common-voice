@@ -73,7 +73,7 @@ export namespace Recordings {
         if (recordings.sentenceCache.length >= CACHE_SET_COUNT) {
           return;
         }
-        const newSentences = await state.api.getRandomSentences(
+        const newSentences = await state.api.fetchRandomSentences(
           CACHE_SET_COUNT
         );
         dispatch({

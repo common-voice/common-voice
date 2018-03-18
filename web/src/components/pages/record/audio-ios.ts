@@ -137,6 +137,8 @@ export default class AudioIOS {
     });
   }
 
+  release() {}
+
   // We aren't using this for now, but this performs better
   // than the base64 url for obvious reasons.
   play(): void {

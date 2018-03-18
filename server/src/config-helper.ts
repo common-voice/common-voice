@@ -17,7 +17,6 @@ export type CommonVoiceConfig = {
   BUCKET_NAME: string;
   BUCKET_LOCATION: string;
   ENVIRONMENT: string;
-  ENABLE_MIGRATIONS: boolean;
   RELEASE_VERSION?: string;
 };
 
@@ -36,7 +35,6 @@ const DEFAULTS: CommonVoiceConfig = {
   BUCKET_NAME: 'common-voice-corpus',
   BUCKET_LOCATION: '',
   ENVIRONMENT: 'default',
-  ENABLE_MIGRATIONS: false,
 };
 
 /**

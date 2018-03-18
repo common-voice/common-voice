@@ -1,7 +1,8 @@
 import * as React from 'react';
-const { Fragment } = require('react');
 import { trackListening } from '../../services/tracker';
 import { FontIcon, PlayIcon, RedoIcon } from '../ui/icons';
+
+const VOTE_NO_PLAY_MS = 3000; // Threshold when to allow voting no
 
 interface Props {
   src?: string;
@@ -14,6 +15,7 @@ interface Props {
 interface State {
   loaded: boolean;
   played: boolean;
+  playedSome: boolean;
   playing: boolean;
   audio: HTMLAudioElement;
   shortcutsEnabled: boolean;
@@ -24,6 +26,7 @@ interface State {
  */
 export default class ListenBox extends React.Component<Props, State> {
   el: HTMLAudioElement;
+  playedSomeInterval: any;
 
   constructor(props: Props) {
     super(props);
@@ -39,9 +42,10 @@ export default class ListenBox extends React.Component<Props, State> {
   }
 
   state: State = {
-    loaded: true,
+    loaded: false,
     playing: false,
     played: false,
+    playedSome: false,
     audio: null,
     shortcutsEnabled: false,
   };
@@ -52,13 +56,19 @@ export default class ListenBox extends React.Component<Props, State> {
     }
   }
 
+  componentWillUnmount() {
+    clearInterval(this.playedSomeInterval);
+  }
+
   private resetState() {
     this.setState({
       loaded: false,
       playing: false,
       played: false,
+      playedSome: false,
       audio: null,
     });
+    clearInterval(this.playedSomeInterval);
   }
 
   private onLoadStart() {
@@ -88,13 +98,17 @@ export default class ListenBox extends React.Component<Props, State> {
 
     this.el.play();
     this.setState({ playing: true });
+    clearInterval(this.playedSomeInterval);
+    this.playedSomeInterval = setInterval(
+      () => this.setState({ playedSome: true }),
+      VOTE_NO_PLAY_MS
+    );
   }
 
   private onDelete() {
     if (this.state.playing) {
       this.el.pause();
       this.setState({ playing: false });
-      return;
     }
 
     this.props.onDelete && this.props.onDelete();
@@ -109,6 +123,7 @@ export default class ListenBox extends React.Component<Props, State> {
       loaded: false,
       playing: false,
       played: false,
+      playedSome: false,
     });
 
     this.props.onVote && this.props.onVote(votedYes);
@@ -123,7 +138,8 @@ export default class ListenBox extends React.Component<Props, State> {
   }
 
   private voteNo() {
-    if (!this.state.played) {
+    const { played, playedSome } = this.state;
+    if (!played && !playedSome) {
       return;
     }
     this.vote(false);
@@ -157,7 +173,13 @@ export default class ListenBox extends React.Component<Props, State> {
   };
 
   render() {
-    const { loaded, playing, played, shortcutsEnabled } = this.state;
+    const {
+      loaded,
+      playing,
+      played,
+      playedSome,
+      shortcutsEnabled,
+    } = this.state;
     return (
       <div
         tabIndex={-1}
@@ -177,11 +199,17 @@ export default class ListenBox extends React.Component<Props, State> {
           {playing ? <FontIcon type="stop" /> : <PlayIcon />}
         </button>
         {this.props.vote ? (
-          <div className={'vote-box ' + (played ? '' : 'disabled')}>
-            <button onClick={this.voteYes} onTouchStart={this.voteYes}>
+          <div className="vote-box">
+            <button
+              onClick={this.voteYes}
+              onTouchStart={this.voteYes}
+              disabled={!played}>
               {this.renderShortcutText('Yes')}
             </button>
-            <button onClick={this.voteNo} onTouchStart={this.voteNo}>
+            <button
+              onClick={this.voteNo}
+              onTouchStart={this.voteNo}
+              disabled={!played && !playedSome}>
               {this.renderShortcutText('No')}
             </button>
           </div>
@@ -208,10 +236,10 @@ export default class ListenBox extends React.Component<Props, State> {
 
   renderShortcutText(text: string) {
     return this.state.shortcutsEnabled ? (
-      <Fragment>
+      <React.Fragment>
         <span style={{ textDecoration: 'underline' }}>{text.charAt(0)}</span>
         {text.substr(1)}
-      </Fragment>
+      </React.Fragment>
     ) : (
       text
     );

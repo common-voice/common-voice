@@ -1,5 +1,5 @@
 @import url('vars.css');
-@import url('nav.css');
+@import url('layout/nav.css');
 @import url('alert/alert.css');
 @import url('contact-modal/contact-modal.css');
 @import url('listen-box/listen-box.css');
@@ -8,316 +8,340 @@
 @import url('pages/home/home.css');
 @import url('pages/record/record.css');
 @import url('profile-form/profile-form.css');
+@import url('request-language-modal/request-language-modal.css');
 @import url('ui/ui.css');
 
 /* Define our icon font. */
 @font-face {
-  font-family: Icons;
-  src: url("/font/icomoon.ttf");
+    font-family: Icons;
+    src: url("/font/icomoon.ttf");
 }
 
 @font-face {
-  font-family: ZillaSlab;
-  src: url("/font/ZillaSlab-Light.ttf");
+    font-family: ZillaSlab;
+    src: url("/font/ZillaSlab-Light.ttf");
 }
 
 html {
-  font-family: var(--base-font-family);
-  font-size: var(--base-font-size);
-  color: var(--base-font-color);
-  background-color: var(--base-background-color);
-  overflow: auto;
+    font-family: var(--base-font-family);
+    font-size: var(--base-font-size);
+    color: var(--base-font-color);
+    background-color: var(--base-background-color);
+    overflow: auto;
+}
+
+@media (--mobile) {
+    html {
+        overflow: hidden;
+    }
 }
 
 html, body, #main {
-  padding: 0;
-  margin: 0;
-  min-height: 100vh;
-  width: 100%;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    width: 100%;
 }
 
 body {
 }
 
 h1, h2, h3, h4 {
-  font-family: var(--strong-font-family);
+    font-family: var(--strong-font-family);
 }
 
 h1 {
-  font-size: 1.8rem;
+    font-size: 1.8rem;
 }
 
 h2 {
-  font-size: 1.5rem;
-  font-weight: normal;
+    font-size: 1.5rem;
+    font-weight: normal;
 }
 
 a {
-  outline: none;
-  text-decoration: none;
-  color: var(--base-font-color);
+    outline: none;
+    text-decoration: none;
+    color: var(--base-font-color);
 }
 
 a:hover {
-  opacity: .8;
-  text-decoration: none !important;
+    opacity: .8;
+    text-decoration: none !important;
 }
 
 p, h1, h2, h3, h4 {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 a:active {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 button {
-  background: none;
-  cursor: pointer;
+    background: none;
+    cursor: pointer;
 }
 
 .is-keyboard-focus *:focus {
-  outline: 1px solid black;
+    outline: 1px solid black;
 }
 
 /* Icon font element. */
 [data-icon]:before {
-  font-family: Icons;
-  font-size: 200%;
-  content: attr(data-icon);
-  speak: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: Icons;
+    font-size: 200%;
+    content: attr(data-icon);
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .strong {
-  font-family: var(--strong-font-family);
-  font-weight: bold;
+    font-family: var(--strong-font-family);
+    font-weight: bold;
 }
 
 .progress-button {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .progress-button:disabled {
-  background: white;
+    background: white;
 }
 
 .progress-button .progress {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.4);
-  transition: transform 1s var(--easing);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: transform 1s var(--easing);
 }
 
 @keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 #main {
-  position: relative;
-  box-sizing: border-box;
-  background-color: var(--base-background-color);
-  animation: fadein 0.5s linear;
+    position: relative;
+    box-sizing: border-box;
+    background-color: var(--base-background-color);
+    animation: fadein 0.5s linear;
 }
 
 #scroller {
-  position: relative;
+    position: relative;
 }
 
 @media (--mobile) {
-  #scroller {
-    margin-top: var(--header-height);
-  }
-  body:not(.focus) #scroller {
-    -webkit-overflow-scrolling: touch;
-    scroll-behavior: smooth;
-  }
+    #scroller {
+        position: fixed;
+        top: var(--header-height);
+        bottom: 0;
+        left: 0;
+        right: 0;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    body:not(.focus) #scroller {
+        -webkit-overflow-scrolling: touch;
+        scroll-behavior: smooth;
+    }
+}
+
+#scrollee {
+    position: relative;
 }
 
 .faq #background-container,
 .terms #background-container,
 .privacy #background-container,
 .profile #background-container {
-  opacity: 0;
+    opacity: 0;
 }
 
 #background-container {
-  position: absolute;
-  top: 0.7rem;
-  left: 0;
-  right: 0;
-  height: 20rem;
-  background-repeat: repeat-x;
-  background-position: center;
-  background-size: 100% 100%;
-  z-index: var(--bottom-z-index);
-  transition: opacity 0.4s var(--easing), transform 0.2s var(--easing);
-  pointer-events: none;
+    position: absolute;
+    top: 0.7rem;
+    left: 0;
+    right: 0;
+    height: 20rem;
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 100% 100%;
+    z-index: var(--bottom-z-index);
+    transition: opacity 0.4s var(--easing), transform 0.2s var(--easing);
+    pointer-events: none;
 }
 
 #background-container:after {
-  content : "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 20rem;
-  opacity: 0;
-  transition: opacity 0.2s linear;
-  background: repeat-x center;
-  background-size: 100% 100%;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 20rem;
+    opacity: 0;
+    transition: opacity 0.2s linear;
+    background: repeat-x center;
+    background-size: 100% 100%;
 }
 
 .hiding #background-container {
-  transform: scaleY(0.4);
+    transform: scaleY(0.4);
 }
 
 @media (--mobile) {
-  #home-title {
-    top: 3.5rem;
-  }
+    #home-title {
+        top: 3.5rem;
+    }
 
-  .data #background-container {
-    transform: translateY(1rem);
-  }
+    .data #background-container {
+        transform: translateY(1rem);
+    }
 
-  .home #background-container {
-    transform: translateY(11rem);
-  }
+    .home #background-container {
+        transform: translateY(11rem);
+    }
 
-  .home .hero-space {
-    height: 26rem;
-  }
+    .home .hero-space {
+        height: 26rem;
+    }
 }
 
 @media (--desktop) {
-  .home #background-container {
-    transform: translateY(var(--home-background-offset));
-  }
+    .home #background-container {
+        transform: translateY(var(--home-background-offset));
+    }
 
-  .home .hero-space {
-    height: calc(var(--home-background-offset) + 7rem);
-  }
+    .home .hero-space {
+        height: calc(var(--home-background-offset) + 7rem);
+    }
 }
 
 /* Don't use background transitions on desktop since
  * Normal scaling is already smooth enough */
 body:not(.ios) .recording #background-container {
-  transition: opacity 0.4 var(--easing);
+    transition: opacity 0.4 var(--easing);
 }
 
 /* For native iOS css background image is not performance
  * so we use inline images instead */
 .ios #background-container {
-  background: none !important;
+    background: none !important;
 }
 
 .ios #background-container:after {
-  display: none !important;
+    display: none !important;
 }
 
 .ios #background-container img {
-  position: absolute;
-  top: 0; bottom: 0;
-  left: 0; right: 0;
-  transition: opacity 0.2s linear;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: opacity 0.2s linear;
 }
 
 .ios .recording #background-container img:first-child,
 .ios #background-container img:last-child {
-  opacity: 0;
+    opacity: 0;
 }
 
 .ios .recording #background-container img:last-child {
-  opacity: 1;
-}
-
-@media (--mobile) {
-  #background-container {
-    height: 12.5rem;
-    background-image: var(--base-background-image-mobile);
-  }
-  #background-container:after {
-    height: 12.5rem;
-    background-image: var(--record-background-image-mobile);
-  }
-}
-
-@media (--desktop) {
-  #background-container {
-    height: 20rem;
-    background-image: var(--base-background-image);
-  }
-  #background-container:after {
-    background-image: var(--record-background-image);
-  }
-}
-
-@media (--desktop) {
-  .recording #background-container:after {
     opacity: 1;
-  }
 }
 
 @media (--mobile) {
-  .recording #background-container {
-    background:none;
-  }
-  .recording #background-container:after {
-    opacity: 1;
-  }
-}
+    #background-container {
+        height: 12.5rem;
+        background-image: var(--base-background-image-mobile);
+    }
 
-@media (--mobile) {
-  .data #background-container {
-    background-image: var(--record-background-image-mobile);
-  }
+    #background-container:after {
+        height: 12.5rem;
+        background-image: var(--record-background-image-mobile);
+    }
 }
 
 @media (--desktop) {
-  .data #background-container{
-    background-image: var(--record-background-image);
-  }
+    #background-container {
+        height: 20rem;
+        background-image: var(--base-background-image);
+    }
+
+    #background-container:after {
+        background-image: var(--record-background-image);
+    }
+}
+
+@media (--desktop) {
+    .recording #background-container:after {
+        opacity: 1;
+    }
+}
+
+@media (--mobile) {
+    .recording #background-container {
+        background: none;
+    }
+
+    .recording #background-container:after {
+        opacity: 1;
+    }
+}
+
+@media (--mobile) {
+    .data #background-container {
+        background-image: var(--record-background-image-mobile);
+    }
+}
+
+@media (--desktop) {
+    .data #background-container {
+        background-image: var(--record-background-image);
+    }
 }
 
 #install-app {
-  position: fixed;
-  bottom: 0;
-  left: 0; right: 0;
-  background-color: rgba(61, 254, 253, 0.9);
-  height: 3rem;
-  line-height: 3rem;
-  vertical-align: middle;
-  cursor: pointer;
-  text-align: center;
-  color: white;
-  font-weight: bold;
-  z-index: var(--top-z-index);
-  transform: translateY(0);
-  transition: transform 0.2s linear;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(61, 254, 253, 0.9);
+    height: 3rem;
+    line-height: 3rem;
+    vertical-align: middle;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    z-index: var(--top-z-index);
+    transform: translateY(0);
+    transition: transform 0.2s linear;
 }
 
 #install-app.hide {
-  transform: translateY(3rem);
+    transform: translateY(3rem);
 }
 
 #install-app a {
-  position: absolute;
-  right: 0;
-  height: 100%;
-  width: 3rem;
-  color: white;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 3rem;
+    color: white;
 }
 
 /**
@@ -325,299 +349,335 @@ body:not(.ios) .recording #background-container {
  * one for desktop and one for mobile.
  */
 @keyframes slide-fade-in {
-  from {
-    transform: translateY(100vh);
-    opacity: 0;
-  }
-  80% {
-    opacity: 0.1;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
+    from {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+    80% {
+        opacity: 0.1;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 #profile-container, #record-container, #terms-container, #privacy-container, #faq-container {
-  animation: slide-fade-in .2s var(--easing);
+    animation: slide-fade-in .2s var(--easing);
 }
 
 @media (--desktop) {
-  #content {
-    position: unset;
-    flex: 1 1 100%;
-  }
+    #content {
+        position: unset;
+        flex: 1 1 100%;
+    }
 }
 
 #content > div {
-  box-sizing: border-box;
-  transition: opacity 0.4s ease-in;
-  max-width: var(--desktop-width);
-  margin-right: auto;
-  margin-left: auto;
+    box-sizing: border-box;
+    transition: opacity 0.4s ease-in;
+    max-width: var(--desktop-width);
+    margin-right: auto;
+    margin-left: auto;
 }
 
 @media (--mobile) {
-  #content > div {
-    box-sizing: border-box;
-    min-height: 100%;
-    padding: 0 var(--page-margin);
-  }
+    #content > div {
+        box-sizing: border-box;
+        min-height: 100%;
+        padding: 0 var(--page-margin);
+    }
 
-  .main-logo {
-    height: 100%;
-  }
+    .main-logo {
+        height: 100%;
+    }
 
-  .main-mozilla-logo {
-    height: 100%;
-  }
+    .main-mozilla-logo {
+        height: 100%;
+    }
 }
 
 @media (--desktop) {
-  .main-logo {
-    width: 10rem;
-  }
+    .main-logo {
+        width: 10rem;
+    }
 }
 
 .hero {
-  text-align: center;
-  height: var(--hero-height);
-  position: relative;
+    text-align: center;
+    height: var(--hero-height);
+    position: relative;
 }
 
 @media (--mobile) {
-  .hero {
-    height: var(--hero-height-mobile);
-  }
+    .hero {
+        height: var(--hero-height-mobile);
+    }
 }
 
 .hero-space {
-  height: 10rem;
+    height: 10rem;
 }
 
 @media (--mobile) {
-  .hero-space {
-    height: 3rem;
-    background: none;
-  }
+    .hero-space {
+        height: 3rem;
+        background: none;
+    }
 }
 
 .faq .hero,
 .terms .hero,
 .privacy .hero,
 .profile .hero {
-  display: none;
+    display: none;
 }
 
 .faq .hero-space,
 .terms .hero-space,
 .privacy .hero-space,
 .profile .hero-space {
-  display: none;
+    display: none;
 }
 
 .robot {
-  position: relative;
-  display: inline-block;
-  height: var(--robot-height);
-  transition: transform 0.2s ease-in-out;
-  transform: translate(0, 15rem) scale(0);
-  opacity: 0;
+    position: relative;
+    display: inline-block;
+    height: var(--robot-height);
+    transition: transform 0.2s ease-in-out;
+    transform: translate(0, 15rem) scale(0);
+    opacity: 0;
 }
 
 @media (--mobile) {
-  .robot {
-    height: var(--robot-height-mobile);
-  }
+    .robot {
+        height: var(--robot-height-mobile);
+    }
 }
 
 .robot > img {
-  height: 100%
+    height: 100%
 }
 
 @media (--mobile) {
-  .robot {
-    height: 12rem;
-    bottom: -3.5rem;
-    right: 3.5rem;
-  }
+    .robot {
+        height: 12rem;
+        bottom: -3.5rem;
+        right: 3.5rem;
+    }
 }
 
 .record .robot.thanks {
-  opacity: 1;
-  transform: translate(13rem, 5rem) scale(1);
-  transition-delay: 0s;
+    opacity: 1;
+    transform: translate(13rem, 5rem) scale(1);
+    transition-delay: 0s;
 }
 
 @media (--mobile) {
-  .record .robot.thanks {
-    transform: translate(9rem, 2rem) scale(1);
-  }
+    .record .robot.thanks {
+        transform: translate(9rem, 2rem) scale(1);
+    }
 }
 
 .home .robot {
-  opacity: 1;
-  transform: translate(-13rem, calc(var(--home-background-offset) + 10.5rem)) scale(1.1);
+    opacity: 1;
+    transform: translate(-13rem, calc(var(--home-background-offset) + 10.5rem)) scale(1.1);
 }
 
 @media (--mobile) {
-  .home .robot {
-    transform: translate(50%, 19rem) scale(1.3);
-  }
+    .home .robot {
+        transform: translate(50%, 19rem) scale(1.3);
+    }
 }
 
 .record .robot {
-  opacity: 1;
-  transform: translate(1.3rem, 5.8rem) scale(1.1);
+    opacity: 1;
+    transform: translate(1.3rem, 5.8rem) scale(1.1);
 }
 
 @media (--mobile) {
-  .record .robot {
-    transform: translate(4.5rem,0.5rem);
-  }
+    .record .robot {
+        transform: translate(4.5rem, 0.5rem);
+    }
 }
 
 #content > #faq-container,
 #content > #terms-container,
 #content > #privacy-container,
 #content > #profile-container {
-  margin-top: var(--standard-margin);
-  padding-bottom: 2rem;
-  text-align: left;
+    margin-top: var(--standard-margin);
+    padding-bottom: 2rem;
+    text-align: left;
 }
 
 #debug-box {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: var(--debug-box-height);
-  background-color: var(--base-font-color);
-  color: var(--base-background-color);
-  z-index: var(--top-z-index);
-  overflow: scroll;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: var(--debug-box-height);
+    background-color: var(--base-font-color);
+    color: var(--base-background-color);
+    z-index: var(--top-z-index);
+    overflow: scroll;
 }
 
 #debug-box.hidden {
-  display: none;
+    display: none;
 }
 
 .loading {
-  animation: loading 2.5s ease infinite;
-  background-size: 600% 600%
+    animation: loading 2.5s ease infinite;
+    background-size: 600% 600%
 }
 
 @keyframes loading {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
 }
 
 .privacy-content {
-  background-color: var(--base-background-color);
-  max-width: var(--desktop-width);
-  padding: var(--page-margin);
+    background-color: var(--base-background-color);
+    max-width: var(--desktop-width);
+    padding: var(--page-margin);
 }
 
 @media (--desktop) {
-  .privacy-content {
-    border-radius: 4px;
-  }
+    .privacy-content {
+        border-radius: 4px;
+    }
 }
 
 #terms-container .terms-content,
 #privacy-container .privacy-content {
-  width: unset;
-  padding: 0;
+    width: unset;
+    padding: 0;
 }
 
 .privacy-content > * {
-  margin: 1rem 0;
+    margin: 1rem 0;
 }
 
 .terms-content > h1:first-child,
 .privacy-content > h1:first-child {
-  margin: 1rem 0;
-  text-decoration: underline;
+    margin: 1rem 0;
+    text-decoration: underline;
 }
 
 .privacy-content a {
-  display: inline-block;
-  color: blue;
+    display: inline-block;
+    color: blue;
 }
 
 .button-holder {
-  text-align:center;
+    text-align: center;
 }
 
 @media (--desktop) {
-  .button-holder button {
-    margin: 0 1rem;
-  }
+    .button-holder button {
+        margin: 0 1rem;
+    }
 }
 
 #faq-container h3,
 #terms-container h3 {
-  margin: 1.5rem 0 0.5rem;
+    margin: 1.5rem 0 0.5rem;
 }
 
 #faq-container p,
 #terms-container p {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 #faq-container a,
 #terms-container a {
-  color: blue;
+    color: blue;
 }
 
 #spinner {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
 }
 
 #spinner span {
-  border-radius: 50%;
-  display: inline-block;
-  position: absolute;
-  height: var(--spinner-height);
-  width: var(--spinner-height);
-  top: 0; bottom: 0;
-  left: 0; right: 0;
-  margin: auto;
-  animation: spin 4s linear infinite;
-  background-color: black;
-  opacity: 1;
-  transition: opacity 0.1s linear;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    height: var(--spinner-height);
+    width: var(--spinner-height);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: spin 4s linear infinite;
+    background-color: black;
+    opacity: 1;
+    transition: opacity 0.1s linear;
 }
 
 @keyframes spin {
-  50%{ border-radius: 0; }
-  100%{ transform: rotate(-360deg); }
+    50% {
+        border-radius: 0;
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
 }
 
 .focus #donate {
-  padding-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 .title-and-action {
-  margin-bottom: var(--standard-margin);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    margin-bottom: var(--standard-margin);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .title-and-action a {
-  font-size: var(--small-font-size);
-  font-weight: 600;
-  text-decoration: underline;
-  cursor: pointer;
+    font-size: var(--small-font-size);
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.opt-in {
+    display: flex;
+    font-size: var(--small-font-size);
+}
+
+.opt-in input {
+    margin: .1rem .3rem .1rem .1rem;
+    width: .8rem;
+    height: .8rem;
+}
+
+.opt-in input:checked {
+    background: black;
+}
+
+.small {
+    font-size: var(--small-font-size);
+    color: var(--grey-font-color);
+}
+
+a.small, .small a {
+    text-decoration: underline;
 }

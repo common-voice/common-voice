@@ -7,6 +7,7 @@
   "main": "server/server.js",
   "dependencies": {
     "@types/copy-webpack-plugin": "^4.0.1",
+    "@types/express": "^4.11.1",
     "@types/extract-text-webpack-plugin": "^3.0.0",
     "@types/jest": "^22.0.1",
     "@types/lodash.debounce": "^4.0.3",
@@ -27,20 +28,32 @@
     "@types/webpack": "^3.0.13",
     "@types/webpack-merge": "^4.1.0",
     "aws-sdk": "^2.67.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "bcrypt": "^1.0.2",
     "bluebird": "^3.5.0",
+    "body-parser": "^1.18.2",
     "concurrently": "^3.5.0",
     "css-loader": "^0.28.7",
     "cssnano": "^3.10.0",
     "db-migrate": "^0.10.2",
     "db-migrate-mysql": "^1.1.10",
     "db-migrate-plugin-typescript": "^2.0.0",
+    "downshift": "^1.30.0",
     "es6-promise": "^4.1.1",
     "eslint": "^4.7.2",
     "eslint-plugin-prettier": "^2.3.1",
+    "express": "^4.16.2",
+    "express-promise-router": "^3.0.1",
     "extract-text-webpack-plugin": "^3.0.1",
     "ff": "0.2.2",
+    "fluent": "^0.4.3",
+    "fluent-intl-polyfill": "^0.1.0",
+    "fluent-langneg": "^0.1.0",
+    "fluent-react": "^0.6.1",
     "glob": "7.1.2 ",
+    "iso-639-1": "^2.0.3",
     "jest": "^22.1.1",
     "js-md5": "^0.6.1",
     "lodash.debounce": "^4.0.8",
@@ -68,7 +81,6 @@
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0",
     "reselect": "^3.0.1",
-    "simple-git": "^1.72.0",
     "stream-transcoder": "0.0.5",
     "style-loader": "^0.19.0",
     "ts-jest": "^22.0.1",
@@ -76,7 +88,7 @@
     "ts-node": "^4.1.0",
     "typescript": "^2.5.2",
     "typescript-eslint-parser": "^12.0.0",
-    "utf8": "^2.1.2",
+    "uglifyjs-webpack-plugin": "^1.1.6",
     "walk": "^2.3.9",
     "webpack": "^3.7.1",
     "webpack-merge": "^4.1.0"
@@ -84,9 +96,12 @@
   "devDependencies": {
     "bundlesize": "^0.15.3",
     "chalk": "^2.3.0",
-    "eslint-loader": "^1.9.0",
     "nodemon": "^1.12.1",
+    "pre-commit": "^1.2.2",
     "react-dev-utils": "^4.2.1"
+  },
+  "resolutions": {
+    "fluent": "0.4.3"
   },
   "engines": {
     "node": ">=8.9.0"
@@ -98,6 +113,9 @@
     "prettier": "yarn lint --fix",
     "start": "node scripts/dev-server.js",
     "start:prod": "node server/js/server.js",
-    "test": "jest && yarn build && bundlesize -f \"web/dist/*.js\" -s 100kb"
-  }
+    "test": "jest && yarn build && bundlesize -f \"web/dist/*.js\" -s 110kb"
+  },
+  "pre-commit": [
+    "prettier"
+  ]
 }

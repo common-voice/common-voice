@@ -8,6 +8,8 @@ import { User } from '../../../stores/user';
 import { DownloadIcon } from '../../ui/icons';
 import AfterDownloadModal from './after-download-modal';
 
+const { Localized } = require('fluent-react');
+
 const commonVoiceDataset = {
   nick: 'commonvoice',
   size: 12,
@@ -19,6 +21,7 @@ const commonVoiceDataset = {
 const datasets = [
   {
     name: 'LibriSpeech',
+    translateName: false,
     nick: 'librispeech',
     description:
       'LibriSpeech is a corpus of approximately 1000 hours of 16Khz read English speech derived from read audiobooks from the LibriVox project.',
@@ -32,6 +35,7 @@ const datasets = [
   },
   {
     name: 'TED-LIUM Corpus',
+    translateName: true,
     nick: 'ted',
     description:
       'The TED-LIUM corpus was made from audio talks and their transcriptions available on the TED website.',
@@ -45,6 +49,7 @@ const datasets = [
   },
   {
     name: 'VoxForge',
+    translateName: false,
     nick: 'voxforge',
     description:
       'VoxForge was set up to collect transcribed speech for use with Free and Open Source Speech Recognition Engines.',
@@ -60,6 +65,7 @@ const datasets = [
   },
   {
     name: 'Tatoeba',
+    translateName: false,
     nick: 'tatoeba',
     description:
       'Tatoeba is a large database of sentences, translations, and spoken audio for use in language learning. This download contains all of the spoken English recorded by their community.',
@@ -152,53 +158,65 @@ class DataPage extends React.Component<Props, State> {
                 No: this.hideModal,
               }}
               onRequestClose={this.hideModal}>
-              <p>
-                You are about to initiate a download of{' '}
-                <b>{showModalFor.size}GB</b>, proceed?
-              </p>
+              <Localized
+                id="data-download-modal"
+                $size={showModalFor.size}
+                size={<b />}>
+                <p />
+              </Localized>
             </Modal>
           )
         )}
 
         <div id="common-voice-data">
           <CardAction onClick={() => this.showModalFor(commonVoiceDataset)}>
-            <DownloadIcon />Download Common Voice Data
+            <DownloadIcon />
+            <Localized id="data-download-button">
+              <span />
+            </Localized>
           </CardAction>
           <div id="common-voice-license">
-            License:{' '}
-            <a
-              href="https://creativecommons.org/choose/zero/"
-              target="_blank"
-              rel="noopener noreferrer">
-              CC-0
-            </a>
+            <Localized
+              id="license"
+              $license="CC-0"
+              licenseLink={
+                <a
+                  href="https://creativecommons.org/choose/zero/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                />
+              }>
+              <span />
+            </Localized>
           </div>
         </div>
 
-        <h2>
-          We are building an open and publicly available dataset of voices that
-          everyone can use to train speech-enabled applications.
-        </h2>
+        <Localized id="data-subtitle">
+          <h2 />
+        </Localized>
 
-        <p id="explanatory-text">
-          We believe that large and publicly available voice datasets foster
-          innovation and healthy commercial competition in machine-learning
-          based speech technology. This is a global effort and we invite
-          everyone to participate. Our aim is to help speech technology be more
-          inclusive, reflecting the diversity of voices from around the world.
-        </p>
+        <Localized id="data-explanatory-text">
+          <p id="explanatory-text" />
+        </Localized>
 
-        <a
-          id="speech-blog-link"
-          href="https://github.com/mozilla/DeepSpeech/blob/master/README.md#common-voice-training-data"
-          target="_blank"
-          rel="noopener noreferrer">
-          Get Started with Speech Recognition
-        </a>
+        <Localized
+          id="data-get-started"
+          speechBlogLink={
+            <a
+              id="speech-blog-link"
+              href="https://github.com/mozilla/DeepSpeech/blob/master/README.md#common-voice-training-data"
+              target="_blank"
+              rel="noopener noreferrer"
+            />
+          }>
+          <span />
+        </Localized>
 
-        <Hr />
+        <hr />
 
-        <h2 id="others-head">Other voice datasets...</h2>
+        <Localized id="data-other-title">
+          <h2 id="others-head" />
+        </Localized>
 
         <div id="datasets">
           {datasets.map(dataset => (
@@ -209,36 +227,51 @@ class DataPage extends React.Component<Props, State> {
                     href={dataset.url}
                     target="_blank"
                     rel="noopener noreferrer">
-                    {dataset.name}
+                    {dataset.translateName === true ? (
+                      <Localized id={'data-other-' + dataset.nick + '-name'}>
+                        <span />
+                      </Localized>
+                    ) : (
+                      dataset.name
+                    )}
                   </a>
                 </h2>
-                <p>{dataset.description}</p>
+                <Localized id={'data-other-' + dataset.nick + '-description'}>
+                  <p />
+                </Localized>
               </div>
 
               <div>
-                <div className="license">
-                  License:{' '}
-                  <a
-                    href={dataset.license.url}
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    {dataset.license.name}
-                  </a>
-                </div>
+                <Localized
+                  id="license"
+                  $license={dataset.license.name}
+                  licenseLink={
+                    <a
+                      href={dataset.license.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    />
+                  }>
+                  <div className="license" />
+                </Localized>
 
                 <div className="action">
                   {dataset.download.length < 1 ? (
-                    <Button
-                      outline
-                      className="card-action"
-                      onClick={() => {
-                        window.open(dataset.url, '_blank');
-                      }}>
-                      Go to LibriSpeech
-                    </Button>
+                    <Localized id="data-other-goto" $name={dataset.name}>
+                      <Button
+                        outline
+                        className="card-action"
+                        onClick={() => {
+                          window.open(dataset.url, '_blank');
+                        }}
+                      />
+                    </Localized>
                   ) : (
                     <CardAction onClick={() => this.showModalFor(dataset)}>
-                      <DownloadIcon />Download Data
+                      <DownloadIcon />
+                      <Localized id="data-other-download">
+                        <span />
+                      </Localized>
                     </CardAction>
                   )}
                 </div>
@@ -249,11 +282,14 @@ class DataPage extends React.Component<Props, State> {
 
         <div id="dataset-bundle">
           <CardAction onClick={() => this.showModalFor(datasetBundle)}>
-            <DownloadIcon />Download Dataset Bundle
+            <DownloadIcon />
+            <Localized id="data-bundle-button">
+              <span />
+            </Localized>
           </CardAction>
-          <div id="bundle-info">
-            Common Voice data plus all other voice datasets above.
-          </div>
+          <Localized id="data-bundle-description">
+            <div id="bundle-info" />
+          </Localized>
         </div>
       </div>
     );

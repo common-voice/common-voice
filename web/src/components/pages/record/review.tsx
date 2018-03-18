@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, withRouter } from 'react-router';
+const { Localized } = require('fluent-react');
 import API from '../../../services/api';
 import { trackRecording } from '../../../services/tracker';
 import { Recordings } from '../../../stores/recordings';
@@ -75,10 +76,22 @@ class Review extends React.Component<Props, State> {
   private resetAndGoHome = () => {
     this.props.buildNewSentenceSet();
     this.props.history.push('/');
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
   };
 
   private toggleResetModal = () => {
     this.setState({ showResetModal: !this.state.showResetModal });
+  };
+
+  private rerecord = (sentence: string) => {
+    this.props.setReRecordSentence(sentence);
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
   };
 
   private handleSubmit = async () => {
@@ -98,7 +111,7 @@ class Review extends React.Component<Props, State> {
 
       let i = 0;
       for (const [sentence, recording] of Object.entries(sentenceRecordings)) {
-        await api.uploadAudio(recording.blob, sentence);
+        await api.uploadClip(recording.blob, sentence);
 
         tallyRecording();
 
@@ -108,7 +121,7 @@ class Review extends React.Component<Props, State> {
 
         i++;
       }
-      await this.props.api.uploadDemographicInfo();
+      await this.props.api.syncDemographics();
       this.props.buildNewSentenceSet();
       trackRecording('submit');
       window.scrollTo({
@@ -133,57 +146,60 @@ class Review extends React.Component<Props, State> {
     return (
       <div id="voice-submit">
         {showPrivacyModal && (
-          <Modal
-            buttons={{
-              'I agree': () => this.handlePrivacyAction(true),
-              'I do not agree': () => this.handlePrivacyAction(false),
-            }}>
-            By using Common Voice, you agree to our{' '}
-            <a target="_blank" href="/terms">
-              Terms
-            </a>{' '}
-            and{' '}
-            <a target="_blank" href="/privacy">
-              Privacy Notice
-            </a>.
-          </Modal>
+          <Localized
+            id="review-terms"
+            termsLink={<a target="_blank" href="/terms" />}
+            privacyLink={<a target="_blank" href="/privacy" />}>
+            <Modal
+              buttons={{
+                'I agree': () => this.handlePrivacyAction(true),
+                'I do not agree': () => this.handlePrivacyAction(false),
+              }}
+            />
+          </Localized>
         )}
         {showResetModal && (
-          <Modal
-            buttons={{
-              'Keep the recordings': this.toggleResetModal,
-              'Delete my recordings': this.resetAndGoHome,
-            }}>
-            Upload aborted. Do you want to delete your recordings?
-          </Modal>
+          <Localized id="review-aborted">
+            <Modal
+              buttons={{
+                'Keep the recordings': this.toggleResetModal,
+                'Delete my recordings': this.resetAndGoHome,
+              }}
+            />
+          </Localized>
         )}
         <div id="voice-submit-review">
-          <h2>Review &amp; Submit</h2>
+          <Localized id="review-submit-title">
+            <h2 />
+          </Localized>
           <br />
-          <p>
-            Thank you for recording!<br />
-            Now review and submit your clips below.
-          </p>
+          <Localized id="review-submit-msg" lineBreak={<br />}>
+            <p />
+          </Localized>
         </div>
         <p id="box-headers">
-          <span>Review</span>
-          <span>Re-record</span>
+          <Localized id="review-recording">
+            <span />
+          </Localized>
+          <Localized id="review-rerecord">
+            <span />
+          </Localized>
         </p>
         {Object.entries(this.props.sentenceRecordings).map(
           ([sentence, recording]) => (
             <ListenBox
               key={sentence}
               src={recording.url}
-              onDelete={() => this.props.setReRecordSentence(sentence)}
+              onDelete={this.rerecord.bind(this, sentence)}
               sentence={sentence}
             />
           )
         )}
         <br />
         <div className="actions">
-          <a href="javascript:void(0)" onClick={this.toggleResetModal}>
-            Cancel Submission
-          </a>
+          <Localized id="review-cancel">
+            <a href="javascript:void(0)" onClick={this.toggleResetModal} />
+          </Localized>
           <ProgressButton
             percent={uploading ? progress : 0}
             disabled={uploading}
