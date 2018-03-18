@@ -7,6 +7,7 @@ import { User } from '../../../stores/user';
 import messages from '../../../messages';
 import Alert from '../../alert/alert';
 import { Button, Hr } from '../../ui/ui';
+const { Localized } = require('fluent-react');
 
 interface WhyProfileState {
   expanded: boolean;
@@ -25,19 +26,23 @@ class WhyProfile extends React.Component<{}, WhyProfileState> {
       <div>
         <div id="why-profile-title">
           {expanded ? (
-            messages.WHY_PROFILE.TITLE
+            <Localized id="record-profile-why-title">
+              <span />
+            </Localized>
           ) : (
-            <a href="javascript:void(0)" onClick={this.toggle}>
-              {messages.WHY_PROFILE.TITLE}
-            </a>
+            <Localized id="record-profile-why-title">
+              <a href="javascript:void(0)" onClick={this.toggle} />
+            </Localized>
           )}
         </div>
         {expanded && (
           <div id="why-profile">
-            <p id="why-profile-text">{messages.WHY_PROFILE.CONTENT}</p>
-            <a href="javascript:void(0)" onClick={this.toggle}>
-              Close
-            </a>
+            <Localized id="record-profile-why-text">
+              <p id="why-profile-text" />
+            </Localized>
+            <Localized id="record-profile-why-close">
+              <a href="javascript:void(0)" onClick={this.toggle} />
+            </Localized>
           </div>
         )}
       </div>
@@ -79,12 +84,14 @@ class ProfileActions extends React.Component<PropsFromState, State> {
       <div id="profile-actions">
         {!profileFormVisible && <Hr />}
         {alertVisible && (
-          <Alert autoHide onClose={this.closeAlert}>
-            Success, profile created!
-          </Alert>
+          <Localized id="record-profile-created">
+            <Alert autoHide onClose={this.closeAlert} />
+          </Localized>
         )}
         {this.props.hasEnteredInfo ? (
-          <Link to="/profile">Edit Profile</Link>
+          <Localized id="record-profile-edit">
+            <Link to="/profile" />
+          </Localized>
         ) : (
           <div>
             {profileFormVisible ? (
@@ -92,9 +99,9 @@ class ProfileActions extends React.Component<PropsFromState, State> {
                 <ProfileForm onExit={this.toggleProfileForm} />
               </div>
             ) : (
-              <Button outline onClick={this.toggleProfileForm}>
-                Create a profile
-              </Button>
+              <Localized id="record-profile-create">
+                <Button outline onClick={this.toggleProfileForm} />
+              </Localized>
             )}
             <WhyProfile />
           </div>

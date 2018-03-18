@@ -173,6 +173,13 @@ review-recording = Review
 review-rerecord = Re-record
 review-cancel = Cancel Submission
 
+record-profile-why-title = Why a profile?
+record-profile-why-text = By providing some information about yourself, the audio data you submit to Common Voice will be more useful to Speech Recognition engines that use this data to improve their accuracy.
+record-profile-why-close = Close
+record-profile-create = Create a profile
+record-profile-created = Success, profile created!
+record-profile-edit = Edit Profile
+
 ## Download Modal
 download-title = Your download has started.
 download-helpus = Help us build a community around voice technology, stay in touch via email.

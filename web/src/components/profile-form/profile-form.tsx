@@ -96,7 +96,8 @@ class ProfileForm extends React.Component<Props, State> {
               buttons={{
                 'Keep Data': this.toggleClearModal,
                 'Delete Data': this.clear,
-              }} />
+              }}
+            />
           </Localized>
         )}
 
@@ -104,10 +105,16 @@ class ProfileForm extends React.Component<Props, State> {
           <Localized id="profile-form-title">
             <h1 />
           </Localized>
-          <Localized id={onExit ? 'profile-form-exit' : hasEnteredInfo && 'profile-form-delete'}>
-          <a
-            href="javascript:void(0)"
-            onClick={onExit || this.toggleClearModal} />
+          <Localized
+            id={
+              onExit
+                ? 'profile-form-exit'
+                : hasEnteredInfo && 'profile-form-delete'
+            }>
+            <a
+              href="javascript:void(0)"
+              onClick={onExit || this.toggleClearModal}
+            />
           </Localized>
         </div>
         <br />
