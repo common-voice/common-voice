@@ -55,6 +55,7 @@ status-goal = Next Goal: { $goal }
 status-more-soon = More languages coming soon!
 
 ## ProfileForm
+profile-form-title = Create a Profile
 profile-form-email =
     .label = Email
 profile-form-username =
@@ -68,6 +69,9 @@ profile-form-age =
     .label = Age
 profile-form-gender =
     .label = Gender
+profile-form-exit = Exit Form
+profile-form-delete = Delete Profile
+profile-form-delete-modal = Clearing your profile data means this demographic information will no longer be submitted to Common Voice with your clip recordings.
 
 ## FAQ
 faq-title = Frequently Asked Questions

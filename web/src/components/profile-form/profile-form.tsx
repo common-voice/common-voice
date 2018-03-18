@@ -90,24 +90,25 @@ class ProfileForm extends React.Component<Props, State> {
     return (
       <div id="profile-card">
         {this.state.showClearModal && (
-          <Modal
-            onRequestClose={this.toggleClearModal}
-            buttons={{
-              'Keep Data': this.toggleClearModal,
-              'Delete Data': this.clear,
-            }}>
-            Clearing your profile data means this demographic information will
-            no longer be submitted to Common Voice with your clip recordings.
-          </Modal>
+          <Localized id="profile-form-delete-modal">
+            <Modal
+              onRequestClose={this.toggleClearModal}
+              buttons={{
+                'Keep Data': this.toggleClearModal,
+                'Delete Data': this.clear,
+              }} />
+          </Localized>
         )}
 
         <div className="title-and-action">
-          <h1>Create a Profile</h1>
+          <Localized id="profile-form-title">
+            <h1 />
+          </Localized>
+          <Localized id={onExit ? 'profile-form-exit' : hasEnteredInfo && 'profile-form-delete'}>
           <a
             href="javascript:void(0)"
-            onClick={onExit || this.toggleClearModal}>
-            {onExit ? 'Exit Form' : hasEnteredInfo && 'Delete Profile'}
-          </a>
+            onClick={onExit || this.toggleClearModal} />
+          </Localized>
         </div>
         <br />
 
