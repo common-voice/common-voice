@@ -18,7 +18,7 @@ services:
     volumes:
       - .:/code
     environment:
-      - SERVER_CONFIG_PATH=/code/docker/config.json
+      - SERVER_CONFIG_PATH=/code/docker/local-docker-config.json
     links:
       - db
       - s3proxy
