@@ -1,5 +1,6 @@
 ## General
 
+privacy-info = We beloven uw gegevens met zorg te behandelen. Lees meer in onze <privacyLink>Privacyverklaring</privacyLink>.
 return-to-cv = Terug naar Common Voice
 
 ## Layout
@@ -19,6 +20,11 @@ wall-of-text-more-mobile = De meeste gegevens die door grote bedrijven worden ge
 ## ProjectStatus
 
 status-loading = Laden…
+status-hours =
+    { $hours ->
+        [one] Eén gevalideerd uur tot nu toe!
+       *[other] { $hours } gevalideerde uren tot nu toe!
+    }
 
 ## ProfileForm
 
