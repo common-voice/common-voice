@@ -122,6 +122,7 @@ terms-communications-title = Communicatie
 terms-communications-content = Als u zich inschrijft om onze nieuwsbrieven te ontvangen of een account registreert in verband met Common Voice, kunt u e-mailberichten in verband met uw account van ons ontvangen (bijvoorbeeld juridische, privacygerelateerde of beveiligingsupdates).
 terms-general-title = Algemeen
 terms-general-liability1 = Disclaimer; beperkte aansprakelijkheid: COMMON VOICE EN ALLE OPNAMEN WORDEN AANGEBODEN OP BASIS VAN ‘ALS IS’ ZONDER ENIGE GARANTIE, EXPLICIET OF IMPLICIET. MOZILLA NEEMT GEEN VERANTWOORDELIJKHEID EN ACCEPTEERT GEEN AANSPRAKELIJKHEID VOOR WELKE OPNAME DAN OOK DIE U OF EEN ANDERE GEBRUIKER OF DERDE PARTIJ PLAATST OF VERZENDT MET COMMON VOICE. 
+terms-general-liability2 = MOZILLA WIJST NADRUKKELIJK ALLE GARANTIE EN VOORWAARDEN VAN VERHANDELBAARHEID, GESCHIKTHEID VOOR EEN SPECIFIEK DOEL EN NIET-INBREUK AF, EVENALS ALLE GARANTIE DIE VOORTKOMT UIT HANDEL OF GEBRUIK VAN HET GEBODENE.
 terms-general-liability3 = VOOR ZOVER TOEGESTAAN ONDER TOEPASSELIJK RECHT ACCEPTEERT U DE VRIJGAVE EN VRIJWAART U DE MOZILLA CORPORATION EN HAAR MOEDERMAATSCHAPPIJ, ONDERGESCHIKTE BEDRIJVEN, GERELATEERDE BEDRIJVEN, DIRECTIE, UITVOERENDEN, MEDEWERKERS EN AGENTEN (DE ‘MOZILLA-PARTIJEN’) VAN ALLE AANSPRAKELIJKHEID VOOR SCHADE, VERLIES OF VERTRAGING (WAARONDER PERSOONLIJK LETSEL, OVERLIJDEN OF EIGENDOMSSCHADE) GEHEEL OF GEDEELTELIJK RESULTEREND, RECHTSTREEKS OF INDIRECT, UIT UW DEELNAME AAN COMMON VOICE.
 terms-general-liability4 = BEHOUDENS ZOALS VEREIST BIJ DE WET ZIJN MOZILLA EN DE MOZILLA-PARTIJEN NIET AANSPRAKELIJK VOOR ENIGE INDIRECTE, SPECIALE, INCIDENTELE, GEVOLG- OF VOORBEELDSCHADE VOORTVLOEIEND UIT OF OP ENIGE MANIER GERELATEERD AAN DEZE VOORWAARDEN OF HET GEBRUIK OF DE ONMOGELIJKHEID TOT GEBRUIK VAN DE DIENSTEN, MET INBEGRIP VAN EN ZONDER BEPERKING TOT DIRECTE OF INDIRECTE SCHADE DOOR VERLIES AAN GOODWILL, STILLEGGEN VAN WERK, WINSTDERVING, GEGEVENSVERLIES EN COMPUTERFALEN, ZELFS WANNEER DE MOGELIJKHEID VAN DEZE SCHADE IS AANGEGEVEN EN ONGEACHT DE GROND (CONTRACT, DWANG OF ANDERSZINS) WAAROP EEN DERGELIJKE CLAIM IS GEBASEERD. DE COLLECTIEVE AANSPRAKELIJKHEID VAN MOZILLA EN DE MOZILLA-PARTIJEN ONDER DEZE OVEREENKOMST ZAL HET BEDRAG VAN $500 (VIJFHONDERD DOLLAR) NIET OVERSCHRIJDEN. SOMMIGE WETGEVINGEN STAAN UITSLUITINGEN OF BEPERKINGEN VAN INCIDENTELE, SPECIALE OF GEVOLGSCHADE NIET TOE, DUS MOGELIJK ZIJN DEZE UITZONDERING EN BEPERKING OP U NIET VAN TOEPASSING.
 terms-general-updates = Updates: Mozilla kan deze Voorwaarden van tijd tot tijd bijwerken om een nieuwe functie van de Diensten te verwerken of een bepaling te verduidelijken. De bijgewerkte Voorwaarden worden online geplaatst. Als de wijzigingen substantieel zijn, wordt de update aangekondigd via de voor dit soort aankondigingen gebruikelijke Mozilla-kanalen, zoals blogberichten en forums. Gebruik van de Diensten na de datum van inwerkingtreding van dergelijke wijzigingen betekent dat u de wijzigingen accepteert. Om uw beoordeling te vergemakkelijken, plaatsen we een datum van inwerkingtreding bovenaan deze pagina.
@@ -132,21 +133,31 @@ terms-general-law = Toepasselijk recht: deze Juridische Voorwaarden omvatten de 
 
 data-download-button = Common Voice-gegevens downloaden
 data-download-license = Licentie: <licenseLink>CC-0</licenseLink>
+data-download-modal = U staat op het punt een download ter grootte van <size>{ $size } GB</size> te starten, doorgaan?
+data-subtitle = We bouwen een open en openbaar toegankelijke gegevensset van stemmen, die iedereen kan gebruiken om spraakgestuurde toepassingen te trainen.
 data-explanatory-text = We denken dat grote en openbare stemgegevenssets voor innovatie en gezonde commerciële competitie zorgen in spraaktechnologie op basis van machineleren. Dit is een wereldwijde inspanning, en we nodigen iedereen uit om deel te nemen. Ons doel is om te helpen ervoor te zorgen dat spraaktechnologie breder wordt, waarmee de diversiteit aan stemmen over de wereld wordt weergegeven.
 data-get-started = <speechBlogLink>Beginnen met spraakherkenning</speechBlogLink>
+data-other-title = Andere stemgegevenssets…
+data-other-goto = Naar { $name }
 data-other-download = Gegevens downloaden
+data-other-librispeech-description = LibriSpeech is een pakket met bij benadering 1000 uur aan 16 kHz gesproken Engels, afgeleid van opgelezen audioboeken uit het LibriVox-project.
+data-other-ted-name = TED-LIUM-corpus
+data-other-ted-description = Het TED-LIUM-corpus is samengesteld uit audiotoespraken en hun transcripties, zoals beschikbaar op de TED-website.
 data-other-voxforge-description = VoxForge is opgezet om spraaktranscripties te verzamelen voor gebruik met gratis en opensource-spraakherkenningsengines.
 data-other-tatoeba-description = Tatoeba is een grote database van zinnen, vertalingen en gesproken audio voor gebruik in het leren van talen. Deze download bevat alle Engelse spraakopnamen van hun gemeenschap.
+data-bundle-button = Gegevenssetbundel downloaden
+data-bundle-description = Common Voice-gegevens plus alle overige bovenstaande gegevenssets.
 license = Licentie: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
 
 record-platform-not-supported = Sorry, maar uw platform wordt nog niet ondersteund.
+record-platform-not-supported-desktop = Op desktopcomputers kunt u de meest recente downloaden:
 record-platform-not-supported-ios = <bold>iOS</bold>-gebruikers kunnen onze gratis app downloaden:
 record-must-allow-microphone = U dient toegang tot uw microfoon te geven.
-record-error-too-short = De opname is te kort.
-record-error-too-long = De opname is te lang.
-record-error-too-quiet = De opname is te zacht.
+record-error-too-short = De opname was te kort.
+record-error-too-long = De opname was te lang.
+record-error-too-quiet = De opname was te zacht.
 record-submit-success = Indienen gelukt! Wilt u nog iets opnemen?
 review-terms = Door gebruik te maken van Common Voice, gaat u akkoord met onze <termsLink>Voorwaarden</termsLink> en <privacyLink>Privacyverklaring</privacyLink>
 review-aborted = Upload afgebroken. Wilt u uw opnamen verwijderen?
