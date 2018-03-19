@@ -159,18 +159,25 @@ record-error-too-short = De opname was te kort.
 record-error-too-long = De opname was te lang.
 record-error-too-quiet = De opname was te zacht.
 record-submit-success = Indienen gelukt! Wilt u nog iets opnemen?
+record-help = Tik of klik om op te nemen, en lees bovenstaande zin hardop.
+record-cancel = Nieuwe opname annuleren
 review-terms = Door gebruik te maken van Common Voice, gaat u akkoord met onze <termsLink>Voorwaarden</termsLink> en <privacyLink>Privacyverklaring</privacyLink>
 review-aborted = Upload afgebroken. Wilt u uw opnamen verwijderen?
+review-submit-title = Beoordelen en indienen
 review-submit-msg = Bedankt voor uw opname!<lineBreak></lineBreak>Beoordeel nu hieronder uw opnamen en dien ze in.
 review-recording = Beoordelen
 review-rerecord = Opnieuw opnemen
+review-cancel = Inzending annuleren
 
 ## Download Modal
 
 download-title = Uw download is gestart.
+download-helpus = Help ons een gemeenschap rond stemtechnologie te bouwen, blijf op de hoogte via e-mail.
 download-form-email =
     .label = Voer uw e-mailadres in
     .value = Bedankt, we houden contact.
+download-form-submit = Indienen
+download-back = Terug naar Common Voice-gegevenssets
 download-no = Nee, bedankt
 
 ## Contact Modal
@@ -184,6 +191,7 @@ contact-form-name =
 contact-form-message =
     .label = Bericht
 contact-required = *vereist
+contact-submit = Indienen
 
 ## Request Language Modal
 
@@ -194,3 +202,5 @@ request-language-form-language =
 request-language-form-email =
     .label = E-mailadres
 request-language-submit = Indienen
+request-language-success-title = Taalaanvraag met succes ingediend, bedankt.
+request-language-success-text = We nemen contact op met meer informatie over uw taal wanneer deze beschikbaar komt.
