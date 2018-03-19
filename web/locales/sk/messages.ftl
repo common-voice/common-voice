@@ -21,7 +21,10 @@ share-title = Pomôžte nám nájsť ďalších, ktorí prispejú svojím hlasom
 
 ## Home Page
 
+home-title = Projekt Common Voice je iniciatíva Mozilly, ktorá pomáha strojom učiť sa, ako rozprávajú skutoční ľudia.
 home-cta = Hovorte a prispejte svojím hlasom tu!
+wall-of-text-start = Reč je prirodzená a ľudská. Preto chceme vytvoriť použiteľnú technológiu rozpoznávania reči pre naše stroje. Aby sme ju však mohli vytvoriť, potrebujeme veľké množstvo hlasových údajov.
+wall-of-text-more-mobile = Väčšina údajov, ktoré používajú veľké spoločnosti nie je dostupná pre väčšinu ľudí. Myslíme si, že to zdržuje inovácie. Preto sme spustili Common Voice, projekt, ktorý sprístupní rozpoznávanie reči pre všetkých.
 show-wall-of-text = Prečítajte si viac
 help-us-title = Pomôžte nám overovať vety!
 request-language-text = Nevidíte svoj jazyk na Common Voice?
