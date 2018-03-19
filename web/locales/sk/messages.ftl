@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = Áno, posielajte mi e-maily. Rád by som zostal o projekte Common Voice informovaný.
-stayintouch = V Mozille budujeme komunitu okolo hlasových technológií. Radi by sme s vami zostali v kontakte prostredníctvom noviniek, napríklad o nových zdrojoch údajov. Radi by sme sa taktiež dozvedeli, ako tieto údaje používate.
+stayintouch = V Mozille budujeme komunitu okolo technológií rozpoznávania reči. Radi by sme s vami zostali v kontakte prostredníctvom noviniek, napríklad o nových zdrojoch údajov. Radi by sme sa taktiež dozvedeli, ako tieto údaje používate.
 privacy-info = Sľubujeme, že sa o vaše informácie budeme príkladne starať. Ďalšie informácie sa dočítate v našich <privacyLink>zásadách ochrany súkromia</privacyLink>.
 return-to-cv = Návrat do Common Voice
 
@@ -35,6 +35,12 @@ request-language-button = Požiadajte o jazyk
 status-title = Celkový stav projektu - pozrite sa, ako ďaleko sme sa už dostali!
 status-contribute = Prispejte svojím hlasom
 status-loading = Načítava sa…
+status-hours =
+    { $hours ->
+        [one] Zatiaľ je overená jedna hodina!
+        [few] Zatiaľ sú overené { $hours } hodiny!
+       *[other] Zatiaľ je overených { $hours } hodín!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Ďalší cieľ: { $goal }
@@ -99,7 +105,7 @@ review-terms = Používaním Common Voice súhlasíte s našimi <termsLink>podmi
 
 ## Download Modal
 
-download-helpus = Pomôžte nám vybudovať komunitu okolo hlasových technológií - zostaňte s nami v kontakte prostredníctvom e-mailu.
+download-helpus = Pomôžte nám vybudovať komunitu okolo technológií rozpoznávania reči - zostaňte s nami v kontakte prostredníctvom e-mailu.
 download-form-email =
     .label = Zadajte svoju e-mailovú adresu
     .value = Ďakujeme, ozveme sa vám.
