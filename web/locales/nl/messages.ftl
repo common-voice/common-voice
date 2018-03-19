@@ -1,20 +1,28 @@
 ## General
 
+yes-receive-emails = Ja, stuur mij e-mailberichten. Ik wil graag op de hoogte blijven over het Common Voice-project.
+stayintouch = Bij Mozilla bouwen we een gemeenschap rond stemtechnologie. We willen graag contact met u houden met updates, nieuwe gegevensbronnen, en om te horen hoe u deze gegevens gebruikt.
 privacy-info = We beloven uw gegevens met zorg te behandelen. Lees meer in onze <privacyLink>Privacyverklaring</privacyLink>.
 return-to-cv = Terug naar Common Voice
 
 ## Layout
 
 speak = Spreken
+datasets = Gegevenssets
 profile = Profiel
+help = Help
 contact = Contact
 privacy = Privacy
 terms = Voorwaarden
 cookies = Cookies
+faq = FAQ
 content-license-text = Inhoud is beschikbaar onder een <licenseLink>Creative Commons-licentie</licenseLink>
+share-title = Help ons anderen te vinden die hun stem willen doneren!
 
 ## Home Page
 
+home-title = Het Common Voice-project is een initiatief van Mozilla om machines te helpen leren hoe echte mensen spreken.
+home-cta = Laat uw stem horen, draag hier bij!
 wall-of-text-more-mobile = De meeste gegevens die door grote bedrijven worden gebruikt, zijn voor de meeste mensen niet beschikbaar. We denken dat dat innovatie belemmert. Daarom hebben we Project Common Voice gestart, een project dat stemherkenning voor iedereen beschikbaar helpt te maken.
 
 ## ProjectStatus
