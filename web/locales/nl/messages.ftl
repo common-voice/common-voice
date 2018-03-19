@@ -23,16 +23,29 @@ share-title = Help ons anderen te vinden die hun stem willen doneren!
 
 home-title = Het Common Voice-project is een initiatief van Mozilla om machines te helpen leren hoe echte mensen spreken.
 home-cta = Laat uw stem horen, draag hier bij!
+wall-of-text-start = Stem is natuurlijk, stem is menselijk. Daarom zijn we gefascineerd in het maken van een bruikbare stemtechnologie voor onze machines. Maar voor het maken van stemsystemen is een extreem grote hoeveelheid stemgegevens nodig.
 wall-of-text-more-mobile = De meeste gegevens die door grote bedrijven worden gebruikt, zijn voor de meeste mensen niet beschikbaar. We denken dat dat innovatie belemmert. Daarom hebben we Project Common Voice gestart, een project dat stemherkenning voor iedereen beschikbaar helpt te maken.
+wall-of-text-more-desktop = U kunt nu uw stem doneren om ons te helpen een opensource-stemdatabase te bouwen die iedereen kan gebruiken om innovatieve apps voor apparaten en het web te maken.<lineBreak></lineBreak>Lees een zin op om machines te helpen leren hoe echte mensen spreken. Controleer het werk van andere donateurs om de kwaliteit te verbeteren. Zo eenvoudig is het!
+show-wall-of-text = Meer lezen
+help-us-title = Help ons zinnen te valideren!
+help-us-explain = Klik op de afspeelknop, luister en vertel ons: wordt de onderstaande zin juist uitgesproken?
+request-language-text = Ziet u uw taal nog niet op Common Voice?
+request-language-button = Een taal aanvragen
 
 ## ProjectStatus
 
+status-title = Algemene projectstatus: kijk hoe ver we al zijn!
+status-contribute = Draag bij met uw stem
 status-loading = Laden…
 status-hours =
     { $hours ->
         [one] Eén gevalideerd uur tot nu toe!
        *[other] { $hours } gevalideerde uren tot nu toe!
     }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Volgende doel: { $goal }
+status-more-soon = Meer talen volgen binnenkort!
 
 ## ProfileForm
 
@@ -42,6 +55,7 @@ profile-form-username =
     .label = Gebruikersnaam
 profile-form-language =
     .label = Taal
+profile-form-more-languages = Meer talen volgen binnenkort!
 profile-form-accent =
     .label = Accent
 profile-form-age =
@@ -53,9 +67,14 @@ profile-form-gender =
 
 faq-title = Veelgestelde vragen
 faq-what-q = Wat is Common Voice?
+faq-what-a = Stemherkenningstechnologie kan een revolutie teweegbrengen in de manier waarop we interactie hebben met machines, maar de huidige beschikbare systemen zijn duur en gesloten. Common Voice is een project om stemherkenningstechnologie voor iedereen eenvoudig beschikbaar te maken. Mensen doneren hun stemmen aan een enorme database waarmee iedereen snel en eenvoudig stemgestuurde apps kan trainen. Alle stemgegevens zijn beschikbaar voor ontwikkelaars.
 faq-important-q = Waarom is dit belangrijk?
+faq-important-a = Stem is natuurlijk, stem is menselijk. Het is de eenvoudigste en meest natuurlijke manier van communicatie. We willen dat ontwikkelaars geweldige dingen kunnen bouwen, van realtime-vertalers tot stemgestuurde administratieve assistenten. Momenteel zijn er echter te weinig publiek toegankelijke gegevens om dit soort apps te kunnen bouwen. We hopen dat Common Voice ontwikkelaars kan geven wat ze nodig hebben om te innoveren.
+faq-get-q = Hoe krijg ik toegang tot Common Voice-gegevens?
+faq-get-a = De gegevensset is nu beschikbaar op onze <downloadLink>downloadpagina</downloadLink> onder de <licenseLink>CC-0</licenseLink>-licentie.
 faq-mission-q = Waarom is Common Voice onderdeel van de Mozilla-missie?
 faq-mission-a = Mozilla wijdt zich aan het voor iedereen open en toegankelijk houden van het internet. Om dit te doen, moeten we webmakers middelen geven met projecten als Common Voice. Omdat stemtechnologieën steeds meer worden toegepast, geloven we dat ze alle gebruikers ten dienste moeten staan. We zien dat er behoefte is aan meer talen, accenten en bevolkingsverschillen bij het testen van stemtechnologieën. Mozilla wil een gezond en opwindend internet zien. Dat betekent nieuwe makers toegang geven tot stemgegevens, zodat ze nieuwe, buitengewone projecten kunnen bouwen. Common Voice wordt een publieke bron die Mozilla-teams en ontwikkelaars over de hele wereld zal helpen.
+faq-native-q = Ik ben een niet-moedertaalspreker van het { $lang } en ik spreek met een accent, willen jullie toch mijn stem?
 faq-source-q = Waar komt de brontekst vandaan?
 
 ## Profile
