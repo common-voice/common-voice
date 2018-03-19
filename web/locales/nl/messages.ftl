@@ -102,13 +102,24 @@ privacy-title = Privacyverklaring van Common Voice
 privacy-effective = Met ingang van { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
 privacy-policy = Wanneer Mozilla (dat zijn wij) informatie van u ontvangt, beschrijft ons <policy>Mozilla-privacybeleid</policy> hoe we met die informatie omgaan.
 privacy-data-demographic = <name>Demografische gegevens.</name> U kunt ons optioneel gegevens sturen zoals uw accent, leeftijd en geslacht. Dit helpt ons en andere onderzoekers spraak-naar-tekst-technologie en -hulpmiddelen te maken en verbeteren.
+privacy-data-account = <name>Accountgegevens.</name> U kunt optioneel een account aanmaken, in welk geval we uw e-mailadres ontvangen. Dit wordt aan uw demografische en interactiegegevens gekoppeld, maar niet openbaar gemaakt.
+privacy-data-recordings = <name>Stemopnamen.</name> Stemopnamen kunnen, samen met gerelateerde demografische gegevens, in de Common Voice-database beschikbaar zijn voor openbaar gebruik.
+privacy-data-interaction = <name>Interactiegegevens.</name> We gebruiken Google Analytics om uw interactie met de Common Voice-app of -website beter te begrijpen. Dit omvat bijvoorbeeld het aantal door u opgenomen of beluisterde stemvoorbeelden , interacties met knoppen en menu’s, of sessielengte.
+privacy-data-technical = <name>Technische gegevens.</name> Met behulp van Google Analytics verzamelen we de URL en de titel van de door u bezochte Common Voice-pagina’s. We verzamelen uw browser, venstergrootte en schermresolutie. We verzamelen ook uw locatie en de taalinstelling van uw browser.
+privacy-more = <more>Meer info</more>
 
 ## Terms
 
+terms-title = Juridische voorwaarden van Common Voice
+terms-effective = Met ingang van { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
+terms-eligibility-title = Geschiktheid
+terms-eligibility-content = U moet ouder zijn dan 13 jaar of toestemming of toezicht van uw ouder of voogd hebben om aan ons crowdsourcingproject deel te nemen.
 terms-privacy-title = Privacy
 terms-privacy-content = Onze <privacyLink>Privacyverklaring</privacyLink> legt uit hoe we uw gegevens ontvangen en verwerken.
+terms-contributions-title = Uw bijdragen en vrijgave van rechten
 terms-contributions-content = Door uw opnamen in te dienen, ziet u af van alle auteursrechten en verwante rechten die u hierop hebt, en gaat u akkoord met het openbaar maken van de opnamen onder <licenseLink>CC-0</licenseLink>. Dit betekent dat u accepteert dat u wereldwijd afziet van alle rechten op de opnamen onder auteursrecht- en databasewetgeving, inclusief morele en publiciteitsrechten en alle verwante en naburige rechten.
 terms-communications-title = Communicatie
+terms-communications-content = Als u zich inschrijft om onze nieuwsbrieven te ontvangen of een account registreert in verband met Common Voice, kunt u e-mailberichten in verband met uw account van ons ontvangen (bijvoorbeeld juridische, privacygerelateerde of beveiligingsupdates).
 terms-general-title = Algemeen
 terms-general-liability1 = Disclaimer; beperkte aansprakelijkheid: COMMON VOICE EN ALLE OPNAMEN WORDEN AANGEBODEN OP BASIS VAN ‘ALS IS’ ZONDER ENIGE GARANTIE, EXPLICIET OF IMPLICIET. MOZILLA NEEMT GEEN VERANTWOORDELIJKHEID EN ACCEPTEERT GEEN AANSPRAKELIJKHEID VOOR WELKE OPNAME DAN OOK DIE U OF EEN ANDERE GEBRUIKER OF DERDE PARTIJ PLAATST OF VERZENDT MET COMMON VOICE. 
 terms-general-liability3 = VOOR ZOVER TOEGESTAAN ONDER TOEPASSELIJK RECHT ACCEPTEERT U DE VRIJGAVE EN VRIJWAART U DE MOZILLA CORPORATION EN HAAR MOEDERMAATSCHAPPIJ, ONDERGESCHIKTE BEDRIJVEN, GERELATEERDE BEDRIJVEN, DIRECTIE, UITVOERENDEN, MEDEWERKERS EN AGENTEN (DE ‘MOZILLA-PARTIJEN’) VAN ALLE AANSPRAKELIJKHEID VOOR SCHADE, VERLIES OF VERTRAGING (WAARONDER PERSOONLIJK LETSEL, OVERLIJDEN OF EIGENDOMSSCHADE) GEHEEL OF GEDEELTELIJK RESULTEREND, RECHTSTREEKS OF INDIRECT, UIT UW DEELNAME AAN COMMON VOICE.
