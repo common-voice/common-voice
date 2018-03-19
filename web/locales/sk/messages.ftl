@@ -1,6 +1,8 @@
 ## General
 
 yes-receive-emails = Áno, posielajte mi e-maily. Rád by som zostal o projekte Common Voice informovaný.
+stayintouch = V Mozille budujeme komunitu okolo hlasových technológií. Radi by sme s vami zostali v kontakte prostredníctvom noviniek, napríklad o nových zdrojoch údajov. Radi by sme sa taktiež dozvedeli, ako tieto údaje používate.
+privacy-info = Sľubujeme, že sa o vaše informácie budeme príkladne starať. Ďalšie informácie sa dočítate v našich <privacyLink>zásadách ochrany súkromia</privacyLink>.
 return-to-cv = Návrat do Common Voice
 
 ## Layout
@@ -19,8 +21,10 @@ share-title = Pomôžte nám nájsť ďalších, ktorí prispejú svojím hlasom
 
 ## Home Page
 
+home-cta = Hovorte a prispejte svojím hlasom tu!
 show-wall-of-text = Prečítajte si viac
 help-us-title = Pomôžte nám overovať vety!
+request-language-text = Nevidíte svoj jazyk na Common Voice?
 request-language-button = Požiadajte o jazyk
 
 ## ProjectStatus
@@ -54,6 +58,7 @@ profile-form-gender =
 faq-title = Často kladené otázky
 faq-what-q = Čo je Common Voice?
 faq-important-q = Prečo je to dôležité?
+faq-get-q = Ako môžem získať údaje z Common Voice?
 
 ## Profile
 
@@ -76,6 +81,7 @@ terms-privacy-content = Naše <privacyLink>zásady ochrany súkromia</privacyLin
 
 data-download-license = Licencia: <licenseLink>CC-0</licenseLink>
 data-other-goto = Prejdite na { $name }
+data-other-download = Prevziať údaje
 license = Licencia: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
@@ -95,6 +101,7 @@ download-form-email =
     .label = Zadajte svoju e-mailovú adresu
     .value = Ďakujeme, ozveme sa vám.
 download-form-submit = Odoslať
+download-back = Naspäť na datasety Common Voice
 download-no = Nie, ďakujem
 
 ## Contact Modal
