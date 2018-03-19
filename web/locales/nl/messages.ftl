@@ -75,19 +75,33 @@ faq-get-a = De gegevensset is nu beschikbaar op onze <downloadLink>downloadpagin
 faq-mission-q = Waarom is Common Voice onderdeel van de Mozilla-missie?
 faq-mission-a = Mozilla wijdt zich aan het voor iedereen open en toegankelijk houden van het internet. Om dit te doen, moeten we webmakers middelen geven met projecten als Common Voice. Omdat stemtechnologieën steeds meer worden toegepast, geloven we dat ze alle gebruikers ten dienste moeten staan. We zien dat er behoefte is aan meer talen, accenten en bevolkingsverschillen bij het testen van stemtechnologieën. Mozilla wil een gezond en opwindend internet zien. Dat betekent nieuwe makers toegang geven tot stemgegevens, zodat ze nieuwe, buitengewone projecten kunnen bouwen. Common Voice wordt een publieke bron die Mozilla-teams en ontwikkelaars over de hele wereld zal helpen.
 faq-native-q = Ik ben een niet-moedertaalspreker van het { $lang } en ik spreek met een accent, willen jullie toch mijn stem?
+faq-native-a = Ja, we willen zeker uw stem! Onderdeel van het doel van Common Voice is om zo veel mogelijk verschillende accenten te verzamelen, zodat computers <bold>iedereen</bold> beter kunnen begrijpen wanneer zij spreken.
+faq-firefox-q = Zal spraak-naar-tekst, via Common Voice, ooit onderdeel worden van Firefox?
+faq-firefox-a = Common Voice heeft een onbegrensd potentieel, en we verkennen inderdaad spraakinterfaces in veel Mozilla-producten, waaronder Firefox.
+faq-quality-q = Wat is het benodigde kwaliteitsniveau voor audio voor bruikbaarheid?
+faq-quality-a = We willen dat de geluidskwaliteit een weergave is van de kwaliteit zoals die straks in het echt zal worden bereikt. Daarom willen we variatie. Dit leert de spraak-naar-tekst-engine om foutloos om te gaan met diverse situaties - spraak op de achtergrond, autogeluiden, ventilatiegeluiden.
+faq-hours-q = Waarom is 10.000 uur het doel voor geluidsopnamen?
+faq-hours-a = Dit is bij benadering het aantal benodigde uren om een operationeel spraak-naar-tekst-systeem te trainen.
 faq-source-q = Waar komt de brontekst vandaan?
+faq-source-a1 = De huidige zinnen komen van medewerkersdonaties, alsmede van dialogen uit openbare filmscripts zoals <italic>It’s a Wonderful Life.</italic>
+faq-source-a2 = U kunt onze bronzinnen bekijken in <dataLink>deze GitHub-map</dataLink>.
 
 ## Profile
 
 profile-why-title = Waarom een profiel?
+profile-why-content = Door wat informatie over uzelf te geven, zijn de door u bij Common Voice ingediende geluidsgegevens nuttiger voor spraakherkenningsengines die deze gegevens gebruiken om hun nauwkeurigheid te verbeteren.
 
 ## NotFound
 
 notfound-title = Niet gevonden
+notfound-content = Ik ben bang dat ik niet weet wat u zoekt.
 
 ## Privacy
 
 privacy-title = Privacyverklaring van Common Voice
+privacy-effective = Met ingang van { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
+privacy-policy = Wanneer Mozilla (dat zijn wij) informatie van u ontvangt, beschrijft ons <policy>Mozilla-privacybeleid</policy> hoe we met die informatie omgaan.
+privacy-data-demographic = <name>Demografische gegevens.</name> U kunt ons optioneel gegevens sturen zoals uw accent, leeftijd en geslacht. Dit helpt ons en andere onderzoekers spraak-naar-tekst-technologie en -hulpmiddelen te maken en verbeteren.
 
 ## Terms
 
