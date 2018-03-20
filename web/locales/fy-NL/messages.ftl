@@ -112,6 +112,8 @@ privacy-title = Privacybelied Common Voice
 privacy-effective = Effektyf { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
 privacy-policy = As Mozilla (dat binne wy), ynformaasje fan jo ûntfangt; ús <policy>Mozilla-privacybelied</policy> beskriuwt hoe't wy mei dy ynformaasje omgean.
 privacy-data-demographic = <name>Demografyske gegevens.</name> Jo kinne ús opsjoneel gegevens stjoere lykas jo aksint, leeftiid en geslacht. Dit helpt ús en oare ûndersikers spraak-nei-tekst-technology en -helpmiddelen te meitsjen en ferbetterjen.
+privacy-data-account = <name>Accountgegevens.</name> Jo kinne opsjoneel in account oanmeitsje, yn hokker gefal wy jo e-mailadres ûntfange. Dit wurdt oan jo demografyske en ynteraksjegegevens keppele, mar net iepenbier makke.
+privacy-data-recordings = <name>Stimopnamen.</name> Stimopnamen kinne, tegearre mei relatearre demografyske gegevens, yn de Common Voice-database beskikber wêze foar iepenbier gebrûk.
 privacy-more = <more>Mear ynfo</more>
 
 ## Terms
