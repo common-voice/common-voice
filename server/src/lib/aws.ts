@@ -1,3 +1,4 @@
+import { CommonVoiceConfig, getConfig } from '../config-helper'
 import { config, S3 } from 'aws-sdk';
 
 if (process.env.HTTP_PROXY) {
@@ -10,7 +11,8 @@ if (process.env.HTTP_PROXY) {
 }
 
 export namespace AWS {
-  let s3 = new S3({ signatureVersion: 'v4' });
+  let server_config = getConfig()
+  let s3 = new S3(server_config.S3_CONFIG);
 
   export function getS3() {
     return s3;

@@ -1,0 +1,10 @@
+{
+    "DB_ROOT_PASS": "voicewebroot",
+    "MYSQLHOST": "db",
+    "S3_CONFIG": {
+        "endpoint": "http://s3proxy:80",
+        "accessKeyId": "local-identity",
+        "secretAccessKey": "local-credential",
+        "s3ForcePathStyle": true
+    }
+}
