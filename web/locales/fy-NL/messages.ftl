@@ -89,6 +89,7 @@ faq-native-a = Jawis wolle wy jo stim! Underdiel fan it doel fan Common Voice is
 faq-firefox-q = Sil spraak-nei-tekst, fia Common Voice, ea ûnderdiel wurde fan Firefox?
 faq-firefox-a = Common Voice hat ûneinige potinsje en wy binne yndied spraakynterfaces yn Mozilla-produkten, including Firefox, oan it ûndersykjen.
 faq-quality-q = Wat is it fereaske kwalitetsnivo foar de audio om brûkt wurde te kinnen?
+faq-quality-a = Wy wolle dat de lûdskwaliteit in werjefte is fan de kwaliteit lykas dy letter yn it echt berikt wurde sil. Dêrom wolle wy fariaasje. Dit leart de spraak-nei-tekst-masine om flaterleas om te gean mei ferskate situaasjes - spraak op de eftergrûn, autolûden, fentilaasjelûden.
 faq-hours-q = Wêrom is 10.000 oeren it doel foar it opnimmen fan audio?
 faq-hours-a = Dit is ûngefear it tal oeren nedich om in produksje-STT-systeem te trainen.
 faq-source-q = Wêr komt de boarnetekst fan ôf?
@@ -110,6 +111,7 @@ notfound-content = It is ús spitigernôch net dúdlik wat jo sykje.
 privacy-title = Privacybelied Common Voice
 privacy-effective = Effektyf { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
 privacy-policy = As Mozilla (dat binne wy), ynformaasje fan jo ûntfangt; ús <policy>Mozilla-privacybelied</policy> beskriuwt hoe't wy mei dy ynformaasje omgean.
+privacy-data-demographic = <name>Demografyske gegevens.</name> Jo kinne ús opsjoneel gegevens stjoere lykas jo aksint, leeftiid en geslacht. Dit helpt ús en oare ûndersikers spraak-nei-tekst-technology en -helpmiddelen te meitsjen en ferbetterjen.
 privacy-more = <more>Mear ynfo</more>
 
 ## Terms
