@@ -1,6 +1,6 @@
 import { hash, getFirstDefined } from '../../utility';
 import { IConnection } from 'mysql2Types';
-import { CommonVoiceConfig } from '../../../config-helper';
+import { getConfig } from '../../../config-helper';
 
 const SALT = 'hoads8fh49hgfls';
 
@@ -32,7 +32,6 @@ const DEFAULTS: MysqlOptions = {
 };
 
 export default class Mysql {
-  config: CommonVoiceConfig;
   options: MysqlOptions;
   rootConn: IConnection;
   pool: any;
@@ -43,7 +42,8 @@ export default class Mysql {
    *     1. options in config.json
    *     2. hard coded DEFAULTS
    */
-  private getMysqlOptions(config: CommonVoiceConfig): MysqlOptions {
+  private getMysqlOptions(): MysqlOptions {
+    const config = getConfig();
     return {
       user: getFirstDefined(config.MYSQLUSER, DEFAULTS.user),
       database: getFirstDefined(config.MYSQLDBNAME, DEFAULTS.database),
@@ -56,9 +56,8 @@ export default class Mysql {
     };
   }
 
-  constructor(config: CommonVoiceConfig) {
-    this.config = config;
-    this.options = this.getMysqlOptions(config);
+  constructor() {
+    this.options = this.getMysqlOptions();
     this.rootConn = null;
   }
 
@@ -99,8 +98,9 @@ export default class Mysql {
     delete opts.database;
 
     // Root gets an upgraded connection optimized for schema migration.
-    opts.user = this.config.DB_ROOT_USER;
-    opts.password = this.config.DB_ROOT_PASS;
+    const config = getConfig();
+    opts.user = config.DB_ROOT_USER;
+    opts.password = config.DB_ROOT_PASS;
     opts.multipleStatements = true;
 
     const conn = await this.getConnection(opts);

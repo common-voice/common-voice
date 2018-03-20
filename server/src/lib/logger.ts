@@ -1,5 +1,5 @@
 import * as os from 'os';
-import { CommonVoiceConfig } from '../config-helper';
+import { getConfig } from '../config-helper';
 
 const RandomName = require('node-random-name');
 
@@ -19,7 +19,6 @@ interface MessageFields {
 }
 
 export default class Logger {
-  config: CommonVoiceConfig;
   name: string;
   nickname: string;
   hostname: string;
@@ -27,8 +26,7 @@ export default class Logger {
   boundLog: Function;
   boundError: Function;
 
-  constructor(config: CommonVoiceConfig) {
-    this.config = config;
+  constructor() {
     this.name = NAME;
     this.nickname = RandomName({ last: true });
     this.hostname = os.hostname();
@@ -50,7 +48,7 @@ export default class Logger {
       hostname: this.hostname,
       pid: this.pid,
       time: this.getDateString(),
-      release_version: this.config.RELEASE_VERSION,
+      release_version: getConfig().RELEASE_VERSION,
     };
   }
 

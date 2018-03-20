@@ -1,6 +1,3 @@
-/**
- * Definition for all common voice config options.
- */
 import * as fs from 'fs';
 
 export type CommonVoiceConfig = {
@@ -37,23 +34,28 @@ const DEFAULTS: CommonVoiceConfig = {
   ENVIRONMENT: 'default',
 };
 
-/**
- * Create our configuration by merging config.json and our DEFAULTS.
- */
-export function getConfig(): CommonVoiceConfig {
-  const localConfig = load();
-  return Object.assign(DEFAULTS, localConfig);
+let injectedConfig: CommonVoiceConfig;
+
+export function injectConfig(config: any) {
+  injectedConfig = { ...DEFAULTS, ...config };
 }
 
-/**
- * Attempt to load a json file, but return null if not found.
- */
-function load(): CommonVoiceConfig {
+let loadedConfig: CommonVoiceConfig;
+
+export function getConfig(): CommonVoiceConfig {
+  if (injectedConfig) {
+    return injectedConfig;
+  }
+
+  if (loadedConfig) {
+    return loadedConfig;
+  }
+
   let config = null;
   try {
     config = JSON.parse(fs.readFileSync('./config.json', 'utf-8'));
   } catch (err) {
     console.log('could not load config.json, using defaults');
   }
-  return config;
+  return (loadedConfig = { ...DEFAULTS, ...config });
 }

@@ -1,5 +1,5 @@
 import { pick } from 'lodash';
-import { CommonVoiceConfig } from '../../config-helper';
+import { getConfig } from '../../config-helper';
 import { hash } from '../utility';
 import Mysql from './db/mysql';
 import Schema from './db/schema';
@@ -10,23 +10,21 @@ import VoteTable from './db/tables/vote-table';
 
 export default class DB {
   clip: ClipTable;
-  config: CommonVoiceConfig;
   mysql: Mysql;
   schema: Schema;
   user: UserTable;
   userClient: UserClientTable;
   vote: VoteTable;
 
-  constructor(config: CommonVoiceConfig) {
-    this.config = config;
-    this.mysql = new Mysql(this.config);
+  constructor() {
+    this.mysql = new Mysql();
 
     this.clip = new ClipTable(this.mysql);
     this.user = new UserTable(this.mysql);
     this.userClient = new UserClientTable(this.mysql);
     this.vote = new VoteTable(this.mysql);
 
-    this.schema = new Schema(this.mysql, config);
+    this.schema = new Schema(this.mysql);
   }
 
   /**
@@ -68,7 +66,7 @@ export default class DB {
    * I hope you know what you're doing.
    */
   async drop(): Promise<void> {
-    if (!this.config.PROD) {
+    if (!getConfig().PROD) {
       await this.schema.dropDatabase();
     }
   }
