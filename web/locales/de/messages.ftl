@@ -99,6 +99,7 @@ notfound-content = Es tut mir leid, ich weiß nicht, wonach Sie suchen.
 ## Privacy
 
 privacy-title = Common-Voice-Datenschutzerklärung
+privacy-effective = Gültig
 privacy-policy = Ab dem Zeitpunkt, an dem wir (Mozilla) Informationen von Ihnen erhalten, legt unsere <policy>Mozilla-Datenschutzrichtlinie</policy> dar, wie wir mit diesen Informationen umgehen.
 privacy-data-demographic = <name>Demografische Angaben.</name> Optional können Sie uns Informationen wie Akzent, Alter und Geschlecht zusenden. Dies hilft uns und anderen Forschern bei der Verbesserung und Entwicklung von Technologien und Werkzeugen zur Umwandlung von Sprache in Text.
 privacy-data-account = <name>Kontodaten.</name> Sie können wahlweise ein Konto erstellen, wobei wir in diesem Fall Ihre E-Mail-Adresse erhalten. Diese ist mit Ihren demografischen Daten und Ihren Nutzungsdaten verknüpft, wird aber nicht an die Öffentlichkeit weitergegeben.
