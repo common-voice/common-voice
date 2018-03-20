@@ -21,6 +21,7 @@ export const ACCENTS = {
   african: 'Southern African (South Africa, Zimbabwe, Namibia)',
   wales: 'Welsh English',
   bermuda: 'West Indies and Bermuda (Bahamas, Bermuda, Jamaica, Trinidad)',
+  thailand: 'Thai',
 };
 
 export const AGES = {
