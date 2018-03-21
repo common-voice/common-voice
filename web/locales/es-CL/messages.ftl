@@ -61,12 +61,14 @@ profile-form-gender =
 faq-title = Preguntas frecuentes
 faq-what-q = ¿Qué es Common Voice?
 faq-important-q = ¿Por qué es importante?
+faq-get-q = ¿Cómo puedo obtener los datos de Common Voice?
 
 ## Profile
 
 
 ## NotFound
 
+notfound-title = No encontrado
 
 ## Privacy
 
