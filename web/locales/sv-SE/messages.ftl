@@ -129,3 +129,8 @@ contact-submit = Skicka in
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = Språk
+request-language-form-email =
+    .label = E-post
+request-language-submit = Skicka in
