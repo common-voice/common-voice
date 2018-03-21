@@ -81,12 +81,50 @@ terms-general-title = General
 
 ## Record Page
 
+record-must-allow-microphone = Debe permitir acceso al micrófono.
+record-error-too-short = La grabación fue muy corta.
+record-error-too-long = La grabación fue muy larga.
+record-error-too-quiet = La grabación fue muy silenciosa.
+record-submit-success = ¡Envío exitoso! ¿Quieres volver a grabar?
+record-help = Por favor, toca para grabar y luego lee la oración anterior en voz alta.
+record-cancel = Cancelar regrabación
+review-aborted = Subida abortada. ¿Quieres eliminar tus grabaciones?
+review-submit-title = Revisar y enviar
+review-submit-msg = ¡Gracias por grabar!<lineBreak></lineBreak>Ahora revisa y envía tus grabaciones a continuación.
+review-recording = Revisar
+review-rerecord = Regrabar
+review-cancel = Cancelar envío
 
 ## Download Modal
 
+download-title = Tu descarga ha empezado.
+download-form-email =
+    .label = Ingresa tu correo.
+    .value = Gracias, estaremos en contacto.
+download-form-submit = Enviar
+download-no = No, gracias
 
 ## Contact Modal
 
+contact-title = Formulario de contacto
+contact-cancel = Cancelar
+contact-form-email =
+    .label = Correo
+contact-form-name =
+    .label = Nombre
+contact-form-message =
+    .label = Mensaje
+contact-required = *requerido
+contact-submit = Enviar
 
 ## Request Language Modal
 
+request-language-title = Solicitud de idioma
+request-language-cancel = Salir del formulario
+request-language-form-language =
+    .label = Idioma
+request-language-form-email =
+    .label = Correo
+request-language-submit = Enviar
+request-language-success-title = Solicitud de idioma enviada correctamente, gracias.
+request-language-success-text = Estaremos en contacto con más información acerca de tu idioma cuando esté disponible.
