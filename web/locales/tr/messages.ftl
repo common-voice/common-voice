@@ -1,3 +1,7 @@
+## General
+
+yes-receive-emails = Evet, bana e-posta gönderebilirsiniz. Common Voice projesiyle ilgili gelişmeleri öğrenmek istiyorum.
+
 ## Layout
 
 speak = Konuş
@@ -27,7 +31,8 @@ help-us-explain = Oynatma tuşuna basıp dinleyin: Konuşmacı, aşağıdaki cü
 status-title = Projenin genel durumu: Kat ettiğimiz yolu görün!
 status-contribute = Sesinle katkı sağla
 status-loading = Yükleniyor…
-status-hours = { $hours ->
+status-hours =
+    { $hours ->
        *[one] Şu ana kadar { $hours } saatlik veri doğrulandı!
     }
 # Variables:
@@ -41,7 +46,6 @@ profile-form-email =
     .label = E-posta
 profile-form-username =
     .label = Kullanıcı adı
-yes-receive-emails = Evet, bana e-posta gönderebilirsiniz. Common Voice projesiyle ilgili gelişmeleri öğrenmek istiyorum.
 profile-form-language =
     .label = Dil
 profile-form-more-languages = Yakında başka diller de geliyor!
@@ -67,6 +71,7 @@ faq-source-a2 = Kaynak cümlelerimizi <dataLink>bu GitHub klasöründe</dataLink
 
 ## Profile
 
+profile-why-title = Neden profil oluşturmalıyım?
 
 ## NotFound
 
@@ -76,6 +81,7 @@ notfound-content = Maalesef aradığınız şeyi bulamadık.
 ## Privacy
 
 privacy-title = Common Voice Gizlilik Bildirimi
+privacy-more = <more>Daha fazla bilgi</more>
 
 ## Terms
 
@@ -86,24 +92,30 @@ terms-general-title = Genel
 
 data-download-button = Common Voice verilerini indir
 data-download-license = Lisans: <licenseLink>CC-0</licenseLink>
+data-other-title = Diğer ses verisi kümeleri…
 data-other-goto = { $name } sitesine git
 data-other-download = Verileri indir
 
 ## Record Page
 
+record-must-allow-microphone = Mikrofon erişimine izin vermeniz gerekiyor.
 record-error-too-short = Kayıt çok kısa.
 record-error-too-long = Kayıt çok uzun.
+record-error-too-quiet = Bu kayıt çok sessiz oldu.
+record-cancel = Yeniden kaydetmeyi iptal et
 review-rerecord = Yeniden kaydet
+review-cancel = Gönderimi iptal et
 
 ## Download Modal
 
+download-title = İndirme işleminiz başladı.
 download-form-email =
     .label = E-postanızı yazın
     .value = Teşekkür ederiz.
 download-form-submit = Gönder
 download-no = Hayır
 
-## Contact
+## Contact Modal
 
 contact-title = İletişim Formu
 contact-cancel = İptal
@@ -115,3 +127,13 @@ contact-form-message =
     .label = Mesajınız
 contact-required = *gerekli
 contact-submit = Gönder
+
+## Request Language Modal
+
+request-language-title = Dil İsteği
+request-language-form-language =
+    .label = Dil
+request-language-form-email =
+    .label = E-posta
+request-language-submit = Gönder
+request-language-success-title = Dil isteği başarıyla gönderildi. Teşekkür ederiz.
