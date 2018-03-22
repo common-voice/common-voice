@@ -100,15 +100,57 @@ notfound-content = Obawiam się, że nie ma tutaj tego, czego szukasz.
 
 privacy-title = Zasady ochrony prywatności Common Voice
 privacy-effective = Wchodzi w życie z dniem { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
+privacy-policy = Kiedy Mozilla (to my) otrzymuje od Ciebie informacje, nasze <policy>zasady ochrony prywatności Mozilli</policy> opisują, jak je przetwarzamy.
+privacy-data-demographic = <name>Dane demograficzne.</name> Możesz zdecydować o przesłaniu nam dodatkowych informacji o Twoim akcencie, wieku i płci. Pomoże to deweloperom i badaczom w tworzeniu systemów i narzędzi rozpoznawania mowy.
+privacy-data-account = <name>Dane konta.</name> Możesz opcjonalnie utworzyć konto, przez co otrzymamy Twój adres e-mail. Jest to powiązane z Twoimi danymi demograficznymi i danymi interakcji, które nie są publikowane.
+privacy-data-recordings = <name>Nagrania dźwiękowe.</name> Nagrania głosowe z powiązanymi danymi demograficznymi mogą być dostępne do pobrania i wykorzystania w publicznym zbiorze danych Common Voice.
+privacy-data-interaction = <name>Dane interakcji.</name> Używamy Google Analytics, aby lepiej zrozumieć, jak korzystasz z aplikacji i strony Common Voice. Na przykład zawierają one liczbę próbek głosu, które nagrywasz lub odtwarzasz, interakcje z przyciskami i menu, długość sesji.
+privacy-data-technical = <name>Dane techniczne.</name> Używamy Google Analytics do zbierania informacje o odwiedzanych stronach Common Voice. Zapisujemy informację o przeglądarce, wielkości okna i rozdzielczości ekranu. Zbieramy także informację o lokalizacji oraz używanym języku w przeglądarce. 
+privacy-more = <more>Więcej informacji</more>
 
 ## Terms
 
+terms-title = Warunki prawne Common Voice
+terms-effective = Wchodzi w życie z dniem { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
+terms-eligibility-title = Uprawnieni użytkownicy
+terms-eligibility-content = Aby uczestniczyć w projekcie, musisz mieć ukończony 13 rok życia lub mieć zgodę rodziców albo opiekuna prawnego.
+terms-privacy-title = Prywatność
+terms-privacy-content = Nasze <privacyLink>Zasady ochrony prywatności</privacyLink> wyjaśniają, w jaki sposób przetwarzamy zebrane dane.
+terms-contributions-title = Wkład własny i prawa autorskie
+terms-contributions-content = Przesyłając nagrania, zrzekasz się wszelkich praw autorskich i praw pokrewnych, zarazem zgadzasz się na publiczne udostępnienie nagrań na licencji <licenseLink>CC-0</licenseLink>. Oznacza to, że tracisz prawo dochodzenia wszelkich roszczeń na podstawie prawa autorskiego oraz praw do zbioru danych, w tym również praw do jawności, prywatności i innych powiązanych.
+terms-communications-title = Komunikacja
+terms-communications-content = Jeśli subskrybujesz nasze biuletyny lub utworzysz profil w projekcie Common Voice, możesz otrzymywać od nas wiadomości (np. aktualności o warunkach prawnych, prywatności i bezpieczeństwie).
+terms-general-title = Warunki ogólne
 
 ## Data
 
+data-download-button = Pobierz dane Common Voice
+data-download-license = Licencja: <licenseLink>CC-0</licenseLink>
+data-download-modal = Za chwilę zaczniesz pobierać plik o rozmiarze <size>{ $size } GB</size>, czy chcesz kontynuować?
+data-subtitle = Tworzymy otwarty i publicznie dostępny zbiór danych mowy, który wszyscy mogą używać do trenowania aplikacji obsługujących mowę.
+data-explanatory-text = Wierzymy, że wielkie i publicznie dostępne zbiory danych z mową będą sprzyjać innowacji i zdrowej konkurencji rynkowej w zakresie technologii rozpoznawania mowy na podstawie nauczania maszynowego. To globalny wysiłek i zapraszamy wszystkich do brania udziału. Naszym celem jest, aby technologia rozpoznawania mowy była bardziej inkluzywna, odzwierciedlając różnorodność głosów na całym świecie.
+data-get-started = <speechBlogLink>Pierwsze kroki z rozpoznawaniem mowy</speechBlogLink>
+data-other-title = Inne zbiory danych…
+data-other-goto = Przejdź do { $name }
+data-other-download = Pobierz dane
+data-other-librispeech-description = LibriSpeech to zbiór około 1000 godzin angielskiej mowy w jakości 16 KHz, z tekstów audiobooków z projektu LibriVox.
+data-other-ted-name = Zbiór TED-LIUM
+data-other-ted-description = Zbiór TED-LIUM został utworzony z nagrań przemów i ich transkrypcji dostępnych na stronie konferencji TED.
+data-other-voxforge-description = VoxForge został stworzony w celu zbierania transkrybowanej mowy do użytku z wolnymi i otwartymi silnikami rozpoznawania mowy.
+data-other-tatoeba-description = Tatoeba jest wielką bazą danych zdań, tłumaczeń i mowy do użytku w nauczaniu maszynowym. Ten plik zawiera wszystkie angielskie nagrania mowy stworzone przez ich społeczność.
+data-bundle-button = Pobierz zestaw danych
+data-bundle-description = Dane Common Voice ze wszystkimi innymi zbiorami danych powyżej.
+license = Licencja: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
 
+record-platform-not-supported = Przepraszamy, używana platforma nie jest obecnie obsługiwana.
+record-platform-not-supported-desktop = Na komputerze można pobrać najnowszą wersję:
+record-platform-not-supported-ios = Użytkownicy <bold>iOS</bold> mogą pobrać bezpłatną aplikację:
+record-must-allow-microphone = Musisz zezwolić na dostęp do mikrofonu.
+record-error-too-short = Nagranie jest za krótkie.
+record-error-too-long = Nagranie jest za długie.
+record-error-too-quiet = Nagranie jest za ciche.
 
 ## Download Modal
 
