@@ -17,6 +17,11 @@ export type CommonVoiceConfig = {
   ENVIRONMENT: string;
   RELEASE_VERSION?: string;
   S3_CONFIG: S3.Types.ClientConfiguration;
+  AUTH0: {
+    DOMAIN: string;
+    CLIENT_ID: string;
+    CLIENT_SECRET: string;
+  };
 };
 
 const DEFAULTS: CommonVoiceConfig = {
@@ -36,6 +41,11 @@ const DEFAULTS: CommonVoiceConfig = {
   ENVIRONMENT: 'default',
   S3_CONFIG: {
     signatureVersion: 'v4',
+  },
+  AUTH0: {
+    DOMAIN: '',
+    CLIENT_ID: '',
+    CLIENT_SECRET: '',
   },
 };
 

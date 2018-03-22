@@ -14,6 +14,7 @@ import {
 } from './lib/utility';
 import { importSentences } from './lib/model/db/import-sentences';
 import { getConfig } from './config-helper';
+import authRouter from './auth-router'
 
 const CLIENT_PATH = '../web';
 
@@ -49,6 +50,7 @@ export default class Server {
 
     const app = (this.app = express());
 
+    app.use(authRouter);
     app.use('/api/v1', this.api.getRouter());
 
     const staticOptions = {
