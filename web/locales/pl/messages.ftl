@@ -74,6 +74,7 @@ faq-important-a = Mowa to dla nas coś naturalnego i ludzkiego. To najłatwiejs
 faq-get-q = Jak mogę otrzymać dane z projektu Common Voice?
 faq-get-a = Zbiór danych jest dostępny na <downloadLink>stronie pobierania</downloadLink> na warunkach licencji <licenseLink>CC-0</licenseLink>.
 faq-mission-q = Dlaczego Common Voice jest częścią misji Mozilli?
+faq-mission-a = Celem Mozilli jest Internet otwarty i dostępny dla wszystkich. Aby to osiągnąć, musimy dać siłę twórcom sieci przez projekty, takie jak Common Voice. Technologie rozpoznawania mowy rozwijają się poza pierwotną niszę, a my wierzymy, że muszą one służyć wszystkim użytkownikom po równo. Widzimy potrzebę większej liczby języków, akcentów i grup ludzi podczas budowania i testowania technologii rozpoznawania mowy. Mozilla chce, aby Internet był zdrowy i energiczny. Oznacza to zapewnianie nowym twórcom dostępu do danych mowy, aby mogli budować nowe, niezwykłe projekty. Common Voice będzie publicznym zasobem, który pomoże zespołom Mozilli i deweloperom na całym świecie.
 faq-native-q = Język { $lang } nie jest moim ojczystym. Czy mogę pomóc w rozwoju projektu?
 faq-native-a = Tak, potrzebujemy również Twojego głosu! Jednym z celów projektu Common Voice jest zebranie różnych akcentów, aby <bold>każdy</bold> mógł się porozumiewać z komputerem.
 faq-firefox-q = Czy system rozpoznawania mowy, poprzez Common Voice, zostanie kiedyś częścią Firefoksa?
@@ -151,12 +152,49 @@ record-must-allow-microphone = Musisz zezwolić na dostęp do mikrofonu.
 record-error-too-short = Nagranie jest za krótkie.
 record-error-too-long = Nagranie jest za długie.
 record-error-too-quiet = Nagranie jest za ciche.
+record-submit-success = Pomyślnie wysłano! Kontynuować nagrywanie?
+record-help = Naciśnij, aby rozpocząć, a następnie przeczytaj powyższe zdanie.
+record-cancel = Anuluj nagrywanie
+review-terms = Korzystając z Common Voice, zgadzasz się na <termsLink>warunki korzystania</termsLink> i <privacyLink>zasady ochrony prywatności</privacyLink>
+review-aborted = Przerwano wysyłanie. Czy chcesz usunąć swoje nagrania?
+review-submit-title = Zweryfikuj i wyślij
+review-submit-msg = Dziękujemy za nagranie!<lineBreak></lineBreak>Teraz zweryfikuj i wyślij swoje nagrania poniżej.
+review-recording = Zweryfikuj
+review-rerecord = Nagraj ponownie
+review-cancel = Anuluj wysyłanie
 
 ## Download Modal
 
+download-title = Rozpoczęto pobieranie.
+download-helpus = Pomóż nam budować społeczność wokół technologii rozpoznawania mowy, pozostań z nami w kontakcie przez e-mail.
+download-form-email =
+    .label = Wpisz adres e-mail
+    .value = Dziękujemy, będziemy w kontakcie.
+download-form-submit = Wyślij
+download-back = Wróć do zbiorów danych Common Voice
+download-no = Nie, dziękuję
 
 ## Contact Modal
 
+contact-title = Formularz kontaktowy
+contact-cancel = Anuluj
+contact-form-email =
+    .label = E-mail
+contact-form-name =
+    .label = Imię i nazwisko
+contact-form-message =
+    .label = Wiadomość
+contact-required = * wymagane
+contact-submit = Wyślij
 
 ## Request Language Modal
 
+request-language-title = Poproś o język
+request-language-cancel = Opuść formularz
+request-language-form-language =
+    .label = Język
+request-language-form-email =
+    .label = E-mail
+request-language-submit = Wyślij
+request-language-success-title = Prośba o język została pomyślnie przesłana, dziękujemy.
+request-language-success-text = Damy znać, kiedy pojawią się informacje o dostępności Twojego języka.
