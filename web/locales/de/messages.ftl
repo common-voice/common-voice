@@ -4,6 +4,9 @@ yes-receive-emails = Ja, senden Sie mir E-Mails. Ich möchte bezüglich des Comm
 stayintouch = Wir bei Mozilla bauen eine Gemeinschaft rund um sprachbasierte Technologien auf. Wir würden gerne für Aktualisierungen und neue Datenquellen mit Ihnen in Kontakt bleiben und mehr darüber erfahren, wie Sie diese Daten nutzen.
 privacy-info = Wir versichern Ihnen, mit ihren Daten sorgfältig umzugehen. Lesen Sie mehr dazu in unserer <privacyLink>Datenschutzerklärung</privacyLink>.
 return-to-cv = Zurück zu Common Voice
+email-input =
+    .label = E-Mail-Adresse
+submit-form-action = Absenden
 
 ## Layout
 
@@ -49,8 +52,6 @@ status-more-soon = Weitere Sprachen folgen bald!
 
 ## ProfileForm
 
-email-input =
-    .label = E-Mail-Adresse
 profile-form-username =
     .label = Benutzername
 profile-form-language =
@@ -188,7 +189,6 @@ contact-form-name =
 contact-form-message =
     .label = Nachricht
 contact-required = *erforderlich
-submit-form-action = Absenden
 
 ## Request Language Modal
 
@@ -198,3 +198,14 @@ request-language-form-language =
     .label = Sprache
 request-language-success-title = Sprachanfrage erfolgreich abgesendet, vielen Dank.
 request-language-success-text = Wir werden uns bei Ihnen mit weiteren Informationen zu Ihrer Sprache melden, sobald diese verfügbar ist.
+
+## Help Translate Modal
+
+help-translate-title = Helfen Sie bei der Übersetzung auf { $language }
+help-translate-cancel = Verlassen
+help-translate-text = Wir leiten Sie an Mozillas Übersetzungsseite <pontoonLink>Pontoon</pontoonLink> weiter, wo diese Sprache aktuell in der Öffentlichkeit übersetzt wird.
+language-updates-title = Neuigkeiten für { $language } abonnieren
+help-translate-link = Pontoon aufrufen
+language-updates-success-title = Anfrage für Neuigkeiten zu { $language } erfolgreich übermittelt, vielen Dank.
+language-updates-success-text = Wir melden uns mit neuen Informationen, sobald sie verfügbar sind.
+language-updates-success-collapsed-title = Sie haben Neuigkeiten für { $language } abonniert
