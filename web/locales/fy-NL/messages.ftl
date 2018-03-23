@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = Ja, stjoer my e-mailberjochten. Ik wol graach op 'e hichte bliuwe fan it projekt Common Voice.
-stayintouch = By Mozilla meitsje wy in mienskip rûnom stimtechnology. Wy wolle graach yn kontakt bliuwe mei fernijingen, nije gegevensboarnen en om mear te hearren oer hoe't jo de gegevens brûke.
+stayintouch = By Mozilla meitsje wy in mienskip rûnom spraaktechnology. Wy wolle graach yn kontakt bliuwe mei fernijingen, nije gegevensboarnen en om mear te hearren oer hoe't jo de gegevens brûke.
 privacy-info = Wy sizze jo ta dat wy jo ynformaasje mei omtinken behannelje. Mear ynfo dêr oer yn ús <privacyLink>Privacybelied</privacyLink>.
 return-to-cv = Werom nei Common Voice
 
@@ -77,9 +77,9 @@ profile-form-gender =
 
 faq-title = Faak stelde fragen
 faq-what-q = Wat is Common Voice?
-faq-what-a = Spraakwerkenningstechnology kin de manier wêrop wy omgean mei masinen tige feroarje, mar de op dit stuit beskikbere systemen binne djoer en sluten. Common Voice is in projekt om spraakwerkenningstechnology foar elkenien maklik tagonklik te meitsjen. Minsken donearje harren stimmen oan in tige grutte database dy't elkenien de mooglikheid biedt fluch en maklik stim-oanstjoerde apps te trainen. Alle stimgegevens sille beskikber wêze foar ûntwikkelers.
+faq-what-a = Spraakwerkenningstechnology kin de manier wêrop wy omgean mei masinen tige feroarje, mar de op dit stuit beskikbere systemen binne djoer en sluten. Common Voice is in projekt om spraakwerkenningstechnology foar elkenien maklik tagonklik te meitsjen. Minsken donearje harren stimmen oan in tige grutte database dy't elkenien de mooglikheid biedt fluch en maklik mei stim oanstjoerde apps te trainen. Alle stimgegevens sille beskikber wêze foar ûntwikkelers.
 faq-important-q = Wêrom is dit wichtich?
-faq-important-a = Stim is natuerlik, stim is minsklik. It is de meast ienfâldige en natuerlike manier fan kommunikaasje. Wy wolle dat ûntwikkelers geweldige dingen bouwe kinne, fan realtime-oersetters oant stimstjoerde administrative assistinten. Mar op dit stuit binne der net sa folle publyklik tagonklike gegevens om dit soarte fan apps bouwe te kinnen. Wy hoopje dat Common Voice ûntwikkelers jaan kin wat se nedich hawwe om te ynnovearjen.
+faq-important-a = Stim is natuerlik, stim is minsklik. It is de meast ienfâldige en natuerlike manier fan kommunikaasje. Wy wolle dat ûntwikkelers geweldige dingen bouwe kinne, fan realtime-oersetters oant mei stim oanstjoerde administrative assistinten. Mar op dit stuit binne der net sa folle publyklik tagonklike gegevens om dit soarte fan apps bouwe te kinnen. Wy hoopje dat Common Voice ûntwikkelers jaan kin wat se nedich hawwe om te ynnovearjen.
 faq-get-q = Hoe kin ik gegevens fan Common Voice krije?
 faq-get-a = De gegevensset is no beskikber op ús <downloadLink>downloadside</downloadLink> ûnder de <licenseLink>CC-0</licenseLink>-lisinsje.
 faq-mission-q = Wêrom is Common Voice ûnderdiel fan de Mozilla-missy?
@@ -87,7 +87,7 @@ faq-mission-a = Mozilla wijt harren oan it foar elkenien iepen en tagonklik hâl
 faq-native-q = Ik bin in net-memmetaalsprekker fan it { $lang } en ik sprek mei in aksint, wolle jimme dochs myn stim?
 faq-native-a = Jawis wolle wy jo stim! Underdiel fan it doel fan Common Voice is om sa folle mooglik ferskate aksinten te sammeljen, sadat kompjûters <bold>elkenien</bold> better begripe kinne wannear't sy sprekke.
 faq-firefox-q = Sil spraak-nei-tekst, fia Common Voice, ea ûnderdiel wurde fan Firefox?
-faq-firefox-a = Common Voice hat ûneinige potinsje en wy binne yndied spraakynterfaces yn Mozilla-produkten, including Firefox, oan it ûndersykjen.
+faq-firefox-a = Common Voice hat ûneinige potinsje en wy binne yndied stimynterfaces yn Mozilla-produkten, ynklusyf Firefox, oan it ûndersykjen.
 faq-quality-q = Wat is it fereaske kwalitetsnivo foar de audio om brûkt wurde te kinnen?
 faq-quality-a = Wy wolle dat de lûdskwaliteit in werjefte is fan de kwaliteit lykas dy letter yn it echt berikt wurde sil. Dêrom wolle wy fariaasje. Dit leart de spraak-nei-tekst-masine om flaterleas om te gean mei ferskate situaasjes - spraak op de eftergrûn, autolûden, fentilaasjelûden.
 faq-hours-q = Wêrom is 10.000 oeren it doel foar it opnimmen fan audio?
@@ -144,7 +144,7 @@ terms-general-law = Tapaslik rjocht: dizze Juridyske Betingsten omfetsje de fols
 data-download-button = Common Voice-gegevens downloade
 data-download-license = Lisinsje: <licenseLink>CC-0</licenseLink>
 data-download-modal = Jo stean op it punt in download te starten fan <size>{ $size }GB</size>, trochgean?
-data-subtitle = Wy meitsje in iepen en publyklik tagonklike dataset mei stimmen dy't elkenien brûke kin om spraakoanstjoerde applikaasjes te trainen.
+data-subtitle = Wy meitsje in iepen en publyklik tagonklike dataset mei stimmen dy't elkenien brûke kin om mei stim oanstjoerde applikaasjes te trainen.
 data-explanatory-text = Wy tinke dat grutte en iepenbiere stimgegevenssets foar ynnovaasje en sûne kommersjele kompetysje soargje yn spraaktechnology op basis fan masinelearen. Dit is in wrâldwide ynspanning, en wy nûgje elkenien út om diel te nimmen. Us doel is om te helpen der foar te soargjen dat spraaktechnology breder wurdt, wêrmei't it ferskaat oan stimmen oer de wrâld werjûn wurdt.
 data-get-started = <speechBlogLink>Start no mei spraakwerkenning</speechBlogLink>
 data-other-title = Oare stimgegevenssets…
@@ -182,7 +182,7 @@ review-cancel = Ynstjoering annulearje
 ## Download Modal
 
 download-title = Jo download is starten.
-download-helpus = Help ús in mienskip te bouwen rûnom spraaktechnology, bliuw op de hichte fia e-mail.
+download-helpus = Help ús in mienskip te bouwen rûnom spraaktechnology, bliuw op 'e hichte fia e-mail.
 download-form-email =
     .label = Fier jo e-mailadres yn
     .value = Tankewol, wy nimme kontakt op.
