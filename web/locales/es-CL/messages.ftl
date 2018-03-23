@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = Sí, envíenme correos. Me gustaría mantenerme informado sobre el proyecto Common Voice.
-stayintouch = Nosotros en Mozilla estamos construyendo una comunidad alrededor de la tecnología de voz. Nos gustaría mantenernos al tanto con las actualizaciones, nuevas fuentes de datos y escuchar más sobre como tu ocupas estos datos.
+stayintouch = Nosotros en Mozilla estamos construyendo una comunidad en torno a la tecnología de voz. Nos gustaría mantenernos al tanto con las actualizaciones, nuevas fuentes de datos y escuchar más sobre como tu ocupas estos datos.
 privacy-info = Nosotros prometemos manejar tu información con cuidado. Lee más en nuestra <privacyLink>política de privacidad</privacyLink> .
 return-to-cv = Regresar a Common Voice
 
@@ -27,6 +27,7 @@ wall-of-text-start = La voz es natural, la voz es humana. Es por eso que estamos
 wall-of-text-more-mobile = La mayor parte de los datos usados por las grandes compañías no esta disponible para las personas. Nosotros pensamos que eso sofoca la innovación. Así que lanzamos el proyecto Common Voice, un proyecto para hacer que el reconocimiento de voz esté disponible para todos.
 show-wall-of-text = Leer más
 help-us-title = ¡Ayúdanos a verificar oraciones!
+help-us-explain = Presiona reproducir, escucha y cuéntanos: ¿dijeron con precisión la oración anterior?
 request-language-text = ¿Aún no encuentras tu idioma en Common Voice?
 request-language-button = Solicitar un idioma
 
@@ -35,6 +36,11 @@ request-language-button = Solicitar un idioma
 status-title = Estado general del proyecto: ¡Ve que tan lejos hemos llegado!
 status-contribute = Contribuye con tu voz
 status-loading = Cargando…
+status-hours =
+    { $hours ->
+        [one] ¡Llevamos una hora validada!
+       *[other] ¡Llevamos { $hours } horas validadas!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Siguiente objetivo: { $goal }
@@ -62,9 +68,11 @@ faq-title = Preguntas frecuentes
 faq-what-q = ¿Qué es Common Voice?
 faq-important-q = ¿Por qué es importante?
 faq-get-q = ¿Cómo puedo obtener los datos de Common Voice?
+faq-get-a = El conjunto de datos está ahora disponible en nuestra <downloadLink>página de descarga</downloadLink> bajo la licencia <licenseLink>CC-0</licenseLink>.
 
 ## Profile
 
+profile-why-title = ¿Por qué un perfil?
 
 ## NotFound
 
@@ -76,10 +84,20 @@ privacy-more = <more>Aprender más</more>
 
 ## Terms
 
+terms-title = Términos legales de Common Voice
+terms-eligibility-title = Elegibilidad
+terms-privacy-title = Privacidad
+terms-communications-title = Comunicaciones
 terms-general-title = General
 
 ## Data
 
+data-download-license = Licencia: <licenseLink>CC-0</licenseLink>
+data-subtitle = Estamos construyendo un conjunto de datos de voces abierto y disponible públicamente que todos pueden usar para entrenar aplicaciones con reconocimiento de voz.
+data-explanatory-text = Creemos que los conjuntos de datos de voz grandes y disponibles públicamente promueven la innovación y la competencia comercial sana en las tecnologías de la voz basadas en el aprendizaje de las máquinas. Este es un esfuerzo mundial e invitamos a todos a participar. Nuestra meta es ayudar a la tecnología de voz a ser más inclusiva, reflejando la diversidad en las voces de todo el mundo.
+data-other-title = Otros conjuntos de datos de voz…
+data-bundle-button = Descargar paquete de conjunto de datos
+data-bundle-description = Datos de Common Voice junto con todos los conjuntos de datos de voz anteriores.
 
 ## Record Page
 
@@ -100,10 +118,12 @@ review-cancel = Cancelar envío
 ## Download Modal
 
 download-title = Tu descarga ha empezado.
+download-helpus = Ayúdanos a construir una comunidad en torno a la tecnología de voz, mantente en contacto por correo.
 download-form-email =
     .label = Ingresa tu correo.
     .value = Gracias, estaremos en contacto.
 download-form-submit = Enviar
+download-back = Regresar a los conjuntos de datos de Common Voice
 download-no = No, gracias
 
 ## Contact Modal
