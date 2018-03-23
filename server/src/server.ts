@@ -15,7 +15,17 @@ import { getConfig } from './config-helper';
 
 const CLIENT_PATH = '../../web';
 
-const CSP_HEADER = `default-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' www.google-analytics.com; media-src data: blob: https://*.amazonaws.com https://*.amazon.com; script-src 'self' 'sha256-WpzorOw/T4TS/msLlrO6krn6LdCwAldXSATNewBTrNE=' https://www.google-analytics.com/analytics.js; font-src 'self' https://fonts.gstatic.com; connect-src 'self'`;
+const CSP_HEADER = [
+  `default-src 'none'`,
+  `style-src 'self' 'unsafe-inline' https://fonts.googleapis.com`,
+  `img-src 'self' www.google-analytics.com`,
+  `media-src data: blob: https://*.amazonaws.com https://*.amazon.com`,
+  `script-src 'self' 'sha256-WpzorOw/T4TS/msLlrO6krn6LdCwAldXSATNewBTrNE=' https://www.google-analytics.com/analytics.js`,
+  `font-src 'self' https://fonts.gstatic.com`,
+  `connect-src 'self'`,
+  `script-src 'self' https://pontoon.mozilla.org/pontoon.js`,
+  `connect-src 'self' https://pontoon.mozilla.org/graphql`,
+].join(';');
 
 export default class Server {
   app: express.Application;
