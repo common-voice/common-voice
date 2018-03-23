@@ -35,8 +35,8 @@ const DEFAULTS: CommonVoiceConfig = {
   BUCKET_LOCATION: '',
   ENVIRONMENT: 'default',
   S3_CONFIG: {
-    signatureVersion: 'v4'
-  }
+    signatureVersion: 'v4',
+  },
 };
 
 let injectedConfig: CommonVoiceConfig;
@@ -58,7 +58,7 @@ export function getConfig(): CommonVoiceConfig {
 
   let config = null;
   try {
-    let config_path = process.env.SERVER_CONFIG_PATH || './config.json'
+    let config_path = process.env.SERVER_CONFIG_PATH || './config.json';
     config = JSON.parse(fs.readFileSync(config_path, 'utf-8'));
   } catch (err) {
     console.log('could not load config.json, using defaults');

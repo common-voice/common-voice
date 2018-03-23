@@ -42,10 +42,13 @@ export default class API {
             'Content-type': isJSON
               ? 'application/json; charset=utf-8'
               : 'text/plain',
-            uid: this.user.userId,
           },
           headers
         );
+
+        if (path.startsWith(location.origin)) {
+          finalHeaders.uid = this.user.userId;
+        }
 
         for (const header of Object.keys(finalHeaders)) {
           request.setRequestHeader(header, finalHeaders[header]);
@@ -142,6 +145,28 @@ export default class API {
     return this.fetch(`${API_PATH}/requested_languages`, {
       method: 'POST',
       body: { language },
+    });
+  }
+
+  fetchPontoonLanguages() {
+    return this.fetch('https://pontoon.mozilla.org/graphql', {
+      method: 'POST',
+      body: {
+        query: `{
+          project(slug: "common-voice") {
+            slug
+            localizations {
+              totalStrings
+              approvedStrings
+              locale {
+                code
+                name
+              }
+            }
+          }
+        }`,
+        variables: null,
+      },
     });
   }
 }

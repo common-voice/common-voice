@@ -12,6 +12,7 @@ import { getItunesURL, isNativeIOS, isIOS, isSafari } from '../../utility';
 import { MenuIcon, RecordIcon, PlayIcon } from '../ui/icons';
 import Robot from './robot';
 import Home from '../pages/home/home';
+import LanguagesPages from '../pages/languages/languages';
 import Record from '../pages/record/record';
 import Data from '../pages/data/data';
 import Profile from '../pages/profile';
@@ -358,6 +359,11 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
                 {...props}
               />
             )}
+          />
+          <Route
+            exact
+            path={this.basePath + URLS.LANGUAGES}
+            component={LanguagesPages}
           />
           <Route exact path={this.basePath + URLS.DATA} component={Data} />
           <Route
