@@ -94,7 +94,13 @@ export const down = async function(): Promise<any> {
 
 ```
 
-Migrations are always run when the server is started. 
+Migrations are always run when the server is started.
+
+#### Localizing Strings
+We're using fluent to localize strings. You can find examples all over the frontend code. Some things to note:
+- When adding new strings, make sure that no similar strings already exist. If so, reuse those, so that translators don't
+have unnecessary extra work
+ - When modifying existing strings, make sure to also rename it in all `messages.ftl` files
 
 #### Need Help?
 For more options, just type:
