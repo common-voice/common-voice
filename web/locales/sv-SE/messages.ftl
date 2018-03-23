@@ -44,7 +44,7 @@ status-more-soon = Fler språk kommer snart!
 
 ## ProfileForm
 
-profile-form-email =
+email-input =
     .label = E-post
 profile-form-username =
     .label = Användarnamn
@@ -111,26 +111,20 @@ download-title = Din nerladdning har startat.
 download-form-email =
     .label = Ange din e-postadress
     .value = Tack, vi hör av oss.
-download-form-submit = Skicka in
 download-no = Nej tack
 
 ## Contact Modal
 
 contact-title = Kontaktformulär
 contact-cancel = Avbryt
-contact-form-email =
-    .label = E-post
 contact-form-name =
     .label = Namn
 contact-form-message =
     .label = Meddelande
 contact-required = *krävs
-contact-submit = Skicka in
+submit-form-action = Skicka in
 
 ## Request Language Modal
 
 request-language-form-language =
     .label = Språk
-request-language-form-email =
-    .label = E-post
-request-language-submit = Skicka in

@@ -49,7 +49,7 @@ status-more-soon = Meer talen volgen binnenkort!
 
 ## ProfileForm
 
-profile-form-email =
+email-input =
     .label = E-mailadres
 profile-form-username =
     .label = Gebruikersnaam
@@ -176,7 +176,6 @@ download-helpus = Help ons een gemeenschap rond stemtechnologie te bouwen, blijf
 download-form-email =
     .label = Voer uw e-mailadres in
     .value = Bedankt, we houden contact.
-download-form-submit = Indienen
 download-back = Terug naar Common Voice-gegevenssets
 download-no = Nee, bedankt
 
@@ -184,14 +183,13 @@ download-no = Nee, bedankt
 
 contact-title = Contactformulier
 contact-cancel = Annuleren
-contact-form-email =
     .label = E-mailadres
 contact-form-name =
     .label = Naam
 contact-form-message =
     .label = Bericht
 contact-required = *vereist
-contact-submit = Indienen
+submit-form-action = Indienen
 
 ## Request Language Modal
 
@@ -199,8 +197,5 @@ request-language-title = Taalaanvraag
 request-language-cancel = Formulier afsluiten
 request-language-form-language =
     .label = Taal
-request-language-form-email =
-    .label = E-mailadres
-request-language-submit = Indienen
 request-language-success-title = Taalaanvraag met succes ingediend, bedankt.
 request-language-success-text = We nemen contact op met meer informatie over uw taal wanneer deze beschikbaar komt.

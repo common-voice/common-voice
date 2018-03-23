@@ -51,7 +51,7 @@ status-more-soon = Më tepër gjuhë së shpejti!
 
 ## ProfileForm
 
-profile-form-email =
+email-input =
     .label = Email
 profile-form-username =
     .label = Emër Përdoruesi
@@ -171,7 +171,6 @@ download-helpus = Ndihmonani të ndërtojmë një bashkësi rreth teknologjive t
 download-form-email =
     .label = Jepni email-in tuaj
     .value = Faleminderit, do të lidhemi me ju.
-download-form-submit = Parashtrojeni
 download-back = Rikthehu te Grupe të Dhënash Zanore të Zakonshme
 download-no = Jo, Faleminderit
 
@@ -179,14 +178,12 @@ download-no = Jo, Faleminderit
 
 contact-title = Formular Kontaktesh
 contact-cancel = Anuloje
-contact-form-email =
-    .label = Email
 contact-form-name =
     .label = Emër
 contact-form-message =
     .label = Mesazh
 contact-required = *e domosdoshme
-contact-submit = Parashtroje
+submit-form-action = Parashtroje
 
 ## Request Language Modal
 
@@ -194,8 +191,5 @@ request-language-title = Kërkesë Gjuhe
 request-language-cancel = Dilni Nga Formulari
 request-language-form-language =
     .label = Gjuhë
-request-language-form-email =
-    .label = Email
-request-language-submit = Parashtroje
 request-language-success-title = Kërkesa për gjuhë u parashtrua me sukses, ju faleminderit.
 request-language-success-text = Do të lidhemi me ju me më tepër të dhëna rreth gjuhës tuaj kur kjo të jetë e mundshme.

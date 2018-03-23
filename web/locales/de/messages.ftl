@@ -49,7 +49,7 @@ status-more-soon = Weitere Sprachen folgen bald!
 
 ## ProfileForm
 
-profile-form-email =
+email-input =
     .label = E-Mail-Adresse
 profile-form-username =
     .label = Benutzername
@@ -176,7 +176,6 @@ download-helpus = Helfen Sie uns, eine Gemeinschaft rund um sprachbasierte Techn
 download-form-email =
     .label = E-Mail-Adresse eingeben
     .value = Vielen Dank, wir melden uns.
-download-form-submit = Absenden
 download-back = Zurück zu Common-Voice-Datensätzen
 download-no = Nein, danke
 
@@ -184,14 +183,12 @@ download-no = Nein, danke
 
 contact-title = Kontaktformular
 contact-cancel = Abbrechen
-contact-form-email =
-    .label = E-Mail-Adresse
 contact-form-name =
     .label = Name
 contact-form-message =
     .label = Nachricht
 contact-required = *erforderlich
-contact-submit = Absenden
+submit-form-action = Absenden
 
 ## Request Language Modal
 
@@ -199,8 +196,5 @@ request-language-title = Sprachanfrage
 request-language-cancel = Formular verlassen
 request-language-form-language =
     .label = Sprache
-request-language-form-email =
-    .label = E-Mail-Adresse
-request-language-submit = Absenden
 request-language-success-title = Sprachanfrage erfolgreich abgesendet, vielen Dank.
 request-language-success-text = Wir werden uns bei Ihnen mit weiteren Informationen zu Ihrer Sprache melden, sobald diese verfügbar ist.

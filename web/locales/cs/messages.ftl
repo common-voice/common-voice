@@ -50,7 +50,7 @@ status-more-soon = Další jazyky již brzy!
 
 ## ProfileForm
 
-profile-form-email =
+email-input =
     .label = E-mail
 profile-form-username =
     .label = Uživatelské jméno
@@ -177,7 +177,6 @@ download-helpus = Pomozte nám vybudovat komunitu okolo hlasových technologií,
 download-form-email =
     .label = Zadejte váš e-mail
     .value = Děkujeme, budeme ve spojení
-download-form-submit = Odeslat
 download-back = Zpět na datasety Common Voice
 download-no = Ne, děkuji
 
@@ -185,14 +184,12 @@ download-no = Ne, děkuji
 
 contact-title = Kontaktní formulář
 contact-cancel = Zrušit
-contact-form-email =
-    .label = E-mail
 contact-form-name =
     .label = Jméno
 contact-form-message =
     .label = Zpráva
 contact-required = *vyžadováno
-contact-submit = Odeslat
+submit-form-action = Odeslat
 
 ## Request Language Modal
 
@@ -200,8 +197,5 @@ request-language-title = Požádat o jazyk
 request-language-cancel = Zavřít formulář
 request-language-form-language =
     .label = Jazyk
-request-language-form-email =
-    .label = E-mailová adresa
-request-language-submit = Odeslat
 request-language-success-title = Žádost o jazyk byla odeslána. Děkujeme vám.
 request-language-success-text = Až bude váš jazyk dostupný, pošleme vám více informací.

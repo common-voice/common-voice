@@ -42,7 +42,7 @@ status-more-soon = Yakında başka diller de geliyor!
 
 ## ProfileForm
 
-profile-form-email =
+email-input =
     .label = E-posta
 profile-form-username =
     .label = Kullanıcı adı
@@ -112,28 +112,22 @@ download-title = İndirme işleminiz başladı.
 download-form-email =
     .label = E-postanızı yazın
     .value = Teşekkür ederiz.
-download-form-submit = Gönder
 download-no = Hayır
 
 ## Contact Modal
 
 contact-title = İletişim Formu
 contact-cancel = İptal
-contact-form-email =
-    .label = E-posta
 contact-form-name =
     .label = Adınız
 contact-form-message =
     .label = Mesajınız
 contact-required = *gerekli
-contact-submit = Gönder
+submit-form-action = Gönder
 
 ## Request Language Modal
 
 request-language-title = Dil İsteği
 request-language-form-language =
     .label = Dil
-request-language-form-email =
-    .label = E-posta
-request-language-submit = Gönder
 request-language-success-title = Dil isteği başarıyla gönderildi. Teşekkür ederiz.

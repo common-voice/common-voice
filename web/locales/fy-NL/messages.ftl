@@ -59,7 +59,7 @@ status-more-soon = Ynkoarten mear talen beskikber!
 
 ## ProfileForm
 
-profile-form-email =
+email-input =
     .label = E-mailadres
 profile-form-username =
     .label = Brûkersnamme
@@ -186,7 +186,6 @@ download-helpus = Help ús in mienskip te bouwen rûnom spraaktechnology, bliuw 
 download-form-email =
     .label = Fier jo e-mailadres yn
     .value = Tankewol, wy nimme kontakt op.
-download-form-submit = Yntsjinje
 download-back = Werom nei Common Voice gegevenssets
 download-no = Nee tanke
 
@@ -194,14 +193,12 @@ download-no = Nee tanke
 
 contact-title = Kontaktformulier
 contact-cancel = Annulearje
-contact-form-email =
-    .label = E-mailadres
 contact-form-name =
     .label = Namme
 contact-form-message =
     .label = Berjocht
 contact-required = *fereaske
-contact-submit = Yntsjinje
+submit-form-action = Yntsjinje
 
 ## Request Language Modal
 
@@ -209,8 +206,5 @@ request-language-title = Taaloanfraach
 request-language-cancel = Formulier ferlitte
 request-language-form-language =
     .label = Taal
-request-language-form-email =
-    .label = E-mailadres
-request-language-submit = Yntsjinje
 request-language-success-title = Taaloanfraach mei sukses yntsjinne, tank.
 request-language-success-text = Wy nimme kontakt mei jo op mei mear ynformaasje oer jo taal as it beskikber komt.

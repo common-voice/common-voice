@@ -52,7 +52,7 @@ status-more-soon = Rhagor o ieithoedd ar y ffordd!
 
 ## ProfileForm
 
-profile-form-email =
+email-input =
     .label = E-bost
 profile-form-username =
     .label = Enw Defnyddiwr
@@ -179,7 +179,6 @@ download-helpus = Helpwch ni i adeiladu cymuned o amgylch technoleg llais, cadwc
 download-form-email =
     .label = Rhowch eich e-bost
     .value = Diolch, byddwn mewn cysylltiad.
-download-form-submit = Cyflwyno
 download-back = Dychwelyd i Setiau Data Common Voice
 download-no = Dim Diolch
 
@@ -187,14 +186,12 @@ download-no = Dim Diolch
 
 contact-title = Ffurflen Gysylltu
 contact-cancel = Diddymu
-contact-form-email =
-    .label = E-bost
 contact-form-name =
     .label = Enw
 contact-form-message =
     .label = Neges
 contact-required = *angenrheidiol
-contact-submit = Cyflwyno
+submit-form-action = Cyflwyno
 
 ## Request Language Modal
 
@@ -202,8 +199,5 @@ request-language-title = Cais am Iaith
 request-language-cancel = Gadael y Ffurflen
 request-language-form-language =
     .label = Iaith
-request-language-form-email =
-    .label = E-bost
-request-language-submit = Cyflwyno
 request-language-success-title = Mae'r cais am iaith wedi ei gyflwyno'n llwyddiannus, diolch.
 request-language-success-text = Byddwn mewn cysylltiad am ragor o wybodaeth am eich iaith pan fydd ar gael.

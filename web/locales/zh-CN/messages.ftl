@@ -48,7 +48,7 @@ status-more-soon = 更多语言即将到来！
 
 ## ProfileForm
 
-profile-form-email =
+email-input =
     .label = 电子邮箱
 profile-form-username =
     .label = 用户名
@@ -175,7 +175,6 @@ download-helpus = 帮助我们建立一个围绕语音技术的社区，通过�
 download-form-email =
     .label = 输入您的电子邮件地址
     .value = 谢谢，我们会与您联系。
-download-form-submit = 提交
 download-back = 返回到 Common Voice 数据集
 download-no = 不了，谢谢
 
@@ -183,14 +182,12 @@ download-no = 不了，谢谢
 
 contact-title = 联系表
 contact-cancel = 取消
-contact-form-email =
-    .label = 电子邮箱
 contact-form-name =
     .label = 姓名
 contact-form-message =
     .label = 信息
 contact-required = * 必填
-contact-submit = 提交
+submit-form-action = 提交
 
 ## Request Language Modal
 
@@ -198,8 +195,5 @@ request-language-title = 语言请求
 request-language-cancel = 退出表单
 request-language-form-language =
     .label = 语言
-request-language-form-email =
-    .label = 电子邮箱
-request-language-submit = 提交
 request-language-success-title = 非常感谢，您的语言请求已成功提交。
 request-language-success-text = 我们会在此语言上线时告知您。

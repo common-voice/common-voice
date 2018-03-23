@@ -15,7 +15,7 @@ status-loading = Memuat…
 
 ## ProfileForm
 
-profile-form-email =
+email-input =
     .label = Surel
 profile-form-username =
     .label = Nama Pengguna

@@ -25,7 +25,7 @@ status-more-soon = จะเพิ่มภาษาอื่น ๆ เร็�
 
 ## ProfileForm
 
-profile-form-email =
+email-input =
     .label = อีเมล
 profile-form-username =
     .label = ชื่อผู้ใช้
@@ -83,26 +83,20 @@ review-rerecord = บันทึกใหม่
 download-form-email =
     .label = ป้อนอีเมลของคุณ
     .value = ป้อนอีเมลของคุณ
-download-form-submit = ส่ง
 download-no = ไม่ ขอบคุณ
 
 ## Contact Modal
 
 contact-cancel = ยกเลิก
-contact-form-email =
-    .label = อีเมล
 contact-form-name =
     .label = ชื่อ
 contact-form-message =
     .label = ข้อความ
 contact-required = *จำเป็น
-contact-submit = ส่ง
+submit-form-action = ส่ง
 
 ## Request Language Modal
 
 request-language-title = ขอเพิ่มภาษา
 request-language-form-language =
     .label = ภาษา
-request-language-form-email =
-    .label = อีเมล
-request-language-submit = ส่ง

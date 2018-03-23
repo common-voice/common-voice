@@ -50,7 +50,7 @@ status-more-soon = Więcej języków już niedługo!
 
 ## ProfileForm
 
-profile-form-email =
+email-input =
     .label = E-mail
 profile-form-username =
     .label = Nazwa użytkownika
@@ -170,7 +170,6 @@ download-helpus = Pomóż nam budować społeczność wokół technologii rozpoz
 download-form-email =
     .label = Wpisz adres e-mail
     .value = Dziękujemy, będziemy w kontakcie.
-download-form-submit = Wyślij
 download-back = Wróć do zbiorów danych Common Voice
 download-no = Nie, dziękuję
 
@@ -178,14 +177,12 @@ download-no = Nie, dziękuję
 
 contact-title = Formularz kontaktowy
 contact-cancel = Anuluj
-contact-form-email =
-    .label = E-mail
 contact-form-name =
     .label = Imię i nazwisko
 contact-form-message =
     .label = Wiadomość
 contact-required = * wymagane
-contact-submit = Wyślij
+submit-form-action = Wyślij
 
 ## Request Language Modal
 
@@ -193,8 +190,5 @@ request-language-title = Poproś o język
 request-language-cancel = Opuść formularz
 request-language-form-language =
     .label = Język
-request-language-form-email =
-    .label = E-mail
-request-language-submit = Wyślij
 request-language-success-title = Prośba o język została pomyślnie przesłana, dziękujemy.
 request-language-success-text = Damy znać, kiedy pojawią się informacje o dostępności Twojego języka.

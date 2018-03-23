@@ -40,7 +40,7 @@ status-more-soon = Ытти чӗлхеллӗ те пулӗ!
 
 ## ProfileForm
 
-profile-form-email =
+email-input =
     .label = Эл. пуштӑ
 profile-form-username =
     .label = Ят

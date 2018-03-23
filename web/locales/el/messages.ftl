@@ -22,7 +22,7 @@ status-more-soon = Σύντομα σε περισσότερες γλώσσες!
 
 ## ProfileForm
 
-profile-form-email =
+email-input =
     .label = Email
 profile-form-username =
     .label = Όνομα χρήστη
@@ -72,21 +72,18 @@ review-cancel = Ακύρωση υποβολής
 ## Download Modal
 
 download-title = Η λήψη σας ξεκίνησε.
-download-form-submit = Υποβολή
 download-no = Όχι, ευχαριστώ
 
 ## Contact Modal
 
 contact-title = Φόρμα επικοινωνίας
 contact-cancel = Ακύρωση
-contact-form-email =
-    .label = Email
 contact-form-name =
     .label = Όνομα
 contact-form-message =
     .label = Μήνυμα
 contact-required = *απαιτείται
-contact-submit = Υποβολή
+submit-form-action = Υποβολή
 
 ## Request Language Modal
 
@@ -94,6 +91,3 @@ request-language-title = Αίτημα για γλώσσα
 request-language-cancel = Έξοδος από τη φόρμα
 request-language-form-language =
     .label = Γλώσσα
-request-language-form-email =
-    .label = Email
-request-language-submit = Υποβολή

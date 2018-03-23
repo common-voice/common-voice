@@ -45,7 +45,7 @@ status-more-soon = 更多語言即將到來！
 
 ## ProfileForm
 
-profile-form-email =
+email-input =
     .label = 電子郵件地址
 profile-form-username =
     .label = 使用者名稱
@@ -145,7 +145,6 @@ download-helpus = 請幫助我們打造一個使用語音技術的社群，並�
 download-form-email =
     .label = 輸入您的電子郵件地址
     .value = 感謝！我們很快就會聯繫您。
-download-form-submit = 送出
 download-back = 回到 Common Voice 資料集
 download-no = 不要，謝謝
 
@@ -153,14 +152,12 @@ download-no = 不要，謝謝
 
 contact-title = 聯絡表單
 contact-cancel = 取消
-contact-form-email =
-    .label = 電子郵件地址
 contact-form-name =
     .label = 姓名
 contact-form-message =
     .label = 訊息
 contact-required = * 必填
-contact-submit = 送出
+submit-form-action = 送出
 
 ## Request Language Modal
 
@@ -168,8 +165,5 @@ request-language-title = 語言請求
 request-language-cancel = 離開表單
 request-language-form-language =
     .label = 語言
-request-language-form-email =
-    .label = 電子郵件
-request-language-submit = 送出
 request-language-success-title = 已收到新語言請求，感謝您。
 request-language-success-text = 我們將在您的語言可在網站上使用時連絡您。

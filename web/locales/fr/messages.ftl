@@ -50,7 +50,7 @@ status-more-soon = Bientôt de nouvelles langues !
 
 ## ProfileForm
 
-profile-form-email =
+email-input =
     .label = Adresse électronique
 profile-form-username =
     .label = Nom d’utilisateur
@@ -177,7 +177,6 @@ download-helpus = Aidez-nous à rassembler une communauté autour des technologi
 download-form-email =
     .label = Saisissez votre adresse électronique
     .value = Merci, nous prendrons contact avec vous.
-download-form-submit = Envoyer
 download-back = Retourner aux jeux de données Common Voice
 download-no = Non merci
 
@@ -185,14 +184,12 @@ download-no = Non merci
 
 contact-title = Formulaire de contact
 contact-cancel = Annuler
-contact-form-email =
-    .label = Adresse électronique
 contact-form-name =
     .label = Nom
 contact-form-message =
     .label = Message
 contact-required = *requis
-contact-submit = Envoyer
+submit-form-action = Envoyer
 
 ## Request Language Modal
 
@@ -200,8 +197,5 @@ request-language-title = Proposition de langue
 request-language-cancel = Quitter le formulaire
 request-language-form-language =
     .label = Langue
-request-language-form-email =
-    .label = Adresse électronique
-request-language-submit = Envoyer
 request-language-success-title = La langue a été proposée, merci.
 request-language-success-text = Nous vous contacterons avec plus d’informations lorsque votre langue sera disponible.

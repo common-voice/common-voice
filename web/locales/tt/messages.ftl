@@ -51,7 +51,7 @@ status-more-soon = Башка телләр тиздән өстәләчәк!
 
 ## ProfileForm
 
-profile-form-email =
+email-input =
     .label = Эл. почта
 profile-form-username =
     .label = Кулланучы исеме
@@ -178,7 +178,6 @@ download-helpus = Сөйләм технологияләре тирәсендә �
 download-form-email =
     .label = Эл. почтагызны кертегез
     .value = Рәхмәт, элемтәдә торырбыз.
-download-form-submit = Җибәрү
 download-back = Common Voice мәгълүмат базаларына кайту
 download-no = Юк, рәхмәт
 
@@ -186,14 +185,12 @@ download-no = Юк, рәхмәт
 
 contact-title = Элемтә формасы
 contact-cancel = Баш тарту
-contact-form-email =
-    .label = Электрон почта
 contact-form-name =
     .label = Исем
 contact-form-message =
     .label = Хәбәр
 contact-required = *кирәк
-contact-submit = Җибәрү
+submit-form-action = Җибәрү
 
 ## Request Language Modal
 
@@ -201,8 +198,5 @@ request-language-title = Телнең өстәлүен сорау
 request-language-cancel = Формулярдан чыгу
 request-language-form-language =
     .label = Тел
-request-language-form-email =
-    .label = Электрон почта
-request-language-submit = Тапшыру
 request-language-success-title = Телнең өстәлүен сорау тапшырылды, рәхмәт Сезгә!
 request-language-success-text = Сез сораган тел өстәлгәч, күбрәк мәгълүмат белән элемтәгә керербез.
