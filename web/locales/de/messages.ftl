@@ -100,7 +100,7 @@ notfound-content = Es tut mir leid, ich weiß nicht, wonach Sie suchen.
 ## Privacy
 
 privacy-title = Common-Voice-Datenschutzerklärung
-privacy-effective = Gültig
+privacy-effective = Gültig ab { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
 privacy-policy = Ab dem Zeitpunkt, an dem wir (Mozilla) Informationen von Ihnen erhalten, legt unsere <policy>Mozilla-Datenschutzrichtlinie</policy> dar, wie wir mit diesen Informationen umgehen.
 privacy-data-demographic = <name>Demografische Angaben.</name> Optional können Sie uns Informationen wie Akzent, Alter und Geschlecht zusenden. Dies hilft uns und anderen Forschern bei der Verbesserung und Entwicklung von Technologien und Werkzeugen zur Umwandlung von Sprache in Text.
 privacy-data-account = <name>Kontodaten.</name> Sie können wahlweise ein Konto erstellen, wobei wir in diesem Fall Ihre E-Mail-Adresse erhalten. Diese ist mit Ihren demografischen Daten und Ihren Nutzungsdaten verknüpft, wird aber nicht an die Öffentlichkeit weitergegeben.
@@ -112,7 +112,7 @@ privacy-more = <more>Mehr erfahren</more>
 ## Terms
 
 terms-title = Rechtliche Bestimmungen bzgl. Common Voice
-terms-effective = In Kraft getreten ab { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
+terms-effective = Gültig ab { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
 terms-eligibility-title = Teilnahmebedingung
 terms-eligibility-content = Sie müssen älter als 13 Jahre sein oder die Zustimmung Ihrer Eltern bzw. eines Sorgeberechtigten haben. In letzterem Fall dürfen Sie unter deren Aufsicht an unserem Crowd-Sourcing-Projekt teilnehmen.
 terms-privacy-title = Datenschutz
@@ -160,7 +160,7 @@ record-error-too-short = Die Aufnahme war zu kurz.
 record-error-too-long = Die Aufnahme war zu lang.
 record-error-too-quiet = Die Aufnahme war zu leise.
 record-submit-success = Senden erfolgreich! Aufnehmen wiederholen?
-record-help = Bitte drücken Sie auf Aufnehmen, dann lesen Sie dann den oberen Satz laut vor.
+record-help = Bitte auf Aufnehmen drücken, dann den oberen Satz laut vorlesen.
 record-cancel = Erneute Aufnahme abbrechen
 review-terms = Durch die Verwendung von Common Voice akzeptieren Sie unsere <termsLink>Nutzungsbedingungen</termsLink> und den <privacyLink>Datenschutzhinweis</privacyLink>.
 review-aborted = Hochladen abgebrochen. Möchten Sie Ihre Tonaufnahmen löschen?
