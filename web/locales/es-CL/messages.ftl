@@ -4,6 +4,9 @@ yes-receive-emails = Sí, envíenme correos. Me gustaría mantenerme informado s
 stayintouch = Nosotros en Mozilla estamos construyendo una comunidad en torno a la tecnología de voz. Nos gustaría mantenernos al tanto con las actualizaciones, nuevas fuentes de datos y escuchar más sobre como tu ocupas estos datos.
 privacy-info = Nosotros prometemos manejar tu información con cuidado. Lee más en nuestra <privacyLink>política de privacidad</privacyLink> .
 return-to-cv = Regresar a Common Voice
+email-input =
+    .label = Correo
+submit-form-action = Enviar
 
 ## Layout
 
@@ -48,8 +51,6 @@ status-more-soon = ¡Próximamente más idiomas!
 
 ## ProfileForm
 
-email-input =
-    .label = Correo
 profile-form-username =
     .label = Nombre de usuario
 profile-form-language =
@@ -69,6 +70,10 @@ faq-what-q = ¿Qué es Common Voice?
 faq-important-q = ¿Por qué es importante?
 faq-get-q = ¿Cómo puedo obtener los datos de Common Voice?
 faq-get-a = El conjunto de datos está ahora disponible en nuestra <downloadLink>página de descarga</downloadLink> bajo la licencia <licenseLink>CC-0</licenseLink>.
+faq-mission-q = ¿Por qué es Common Voice parte de la misión de Mozilla?
+faq-quality-q = ¿Cuál es nivel de calidad del audio requerido para que pueda ser utilizado?
+faq-hours-q = ¿Por qué es capturar 10.000 horas de audio una meta? 
+faq-source-q = ¿De dónde viene el texto fuente?
 
 ## Profile
 
@@ -77,6 +82,7 @@ profile-why-title = ¿Por qué un perfil?
 ## NotFound
 
 notfound-title = No encontrado
+notfound-content = Perdóname, no sé qué estás buscando.
 
 ## Privacy
 
@@ -98,6 +104,7 @@ data-explanatory-text = Creemos que los conjuntos de datos de voz grandes y disp
 data-other-title = Otros conjuntos de datos de voz…
 data-bundle-button = Descargar paquete de conjunto de datos
 data-bundle-description = Datos de Common Voice junto con todos los conjuntos de datos de voz anteriores.
+license = Licencia: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
 
@@ -134,7 +141,6 @@ contact-form-name =
 contact-form-message =
     .label = Mensaje
 contact-required = *requerido
-submit-form-action = Enviar
 
 ## Request Language Modal
 
@@ -144,3 +150,6 @@ request-language-form-language =
     .label = Idioma
 request-language-success-title = Solicitud de idioma enviada correctamente, gracias.
 request-language-success-text = Estaremos en contacto con más información acerca de tu idioma cuando esté disponible.
+
+## Help Translate Modal
+
