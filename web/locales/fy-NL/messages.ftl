@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = Ja, stjoer my e-mailberjochten. Ik wol graach op 'e hichte bliuwe fan it projekt Common Voice.
-stayintouch = By Mozilla meitsje wy in mienskip rûn om spraaktechnology. Wy wolle graach yn kontakt bliuwe mei fernijingen, nije gegevensboarnen en mear heare oer hoe't jo de gegevens brûke.
+stayintouch = By Mozilla meitsje wy in mienskip rûnom stimtechnology. Wy wolle graach yn kontakt bliuwe mei fernijingen, nije gegevensboarnen en om mear te hearren oer hoe't jo de gegevens brûke.
 privacy-info = Wy sizze jo ta dat wy jo ynformaasje mei omtinken behannelje. Mear ynfo dêr oer yn ús <privacyLink>Privacybelied</privacyLink>.
 return-to-cv = Werom nei Common Voice
 
@@ -21,7 +21,7 @@ share-title = Help ús oaren te finen om harren stim te donearjen!
 
 ## Home Page
 
-home-title = It projekt Common Voice is it inisjatyf fan Mozilla om masinen te learen hoe't minsken prate.
+home-title = It projekt Common Voice is it inisjatyf fan Mozilla om masinen te learen hoe't echte minsken sprekke.
 home-cta = Lit jo heare, doch hjir mei!
 wall-of-text-start =
     Spraak is natuerlik, spraak is minsklik. Dat is wêrom wy fassinearre binne mei it meitsjen fan brûkbere
@@ -34,17 +34,17 @@ wall-of-text-more-mobile =
 wall-of-text-more-desktop =
     No kinne jo jo stim donearje om ús te helpen in iepen-boarne stimdatabase te meitsjen dy't elkenien brûke kin
     om ynnovative apps te meitsjen foar apparaten en it web.<lineBreak></lineBreak>
-    Lês in sin om masinen te learen hoe't echte minsken prate. Kontrolearje it wurk fan oare
+    Lês in sin om masinen te learen hoe't echte minsken sprekke. Kontrolearje it wurk fan oare
     dielnimmers om de kwaliteit te ferbetterjen. Sa ienfâldich is it!
 show-wall-of-text = Mear ynfo
 help-us-title = Help ús sinnen te falidearjen!
-help-us-explain = Druk op ôfspylje, lústerje & fertel ús: hawwe se de ûndersteande sin korrekt útsprutsen?
+help-us-explain = Klik op de ôfspylknop, lústerje en fertel ús: wurdt de ûndersteande sin korrekt útsprutsen?
 request-language-text = Sjogge jo jo taal noch net op Common Voice?
-request-language-button = In taal fersykje
+request-language-button = In taal oanfreegje
 
 ## ProjectStatus
 
-status-title = Projektsteat: sjoch hoe fier wy al binne!
+status-title = Projektsteat: sjoch hoe fier wy't al binne!
 status-contribute = Draach by mei jo stim
 status-loading = Lade…
 status-hours =
@@ -77,7 +77,7 @@ profile-form-gender =
 
 faq-title = Faak stelde fragen
 faq-what-q = Wat is Common Voice?
-faq-what-a = Spraakwerkenningstechnology kin de manier wêrop wy omgean mei masinen tige feroarje, mar de op dit stuit beskikbere systemen binne djoer patintearre. Common Voice is in projekt om spraakwerkenningstechnology foar elkenien maklik tagonklik te meitsjen. Minsken donearje harren stimmen oan in tige grutte database dy't elkenien de mooglikheid biedt fluch en maklik stim-oanstjoerde apps te trainen. Alle stimgegevens sille beskikber wêze foar ûntwikkelers.
+faq-what-a = Spraakwerkenningstechnology kin de manier wêrop wy omgean mei masinen tige feroarje, mar de op dit stuit beskikbere systemen binne djoer en sluten. Common Voice is in projekt om spraakwerkenningstechnology foar elkenien maklik tagonklik te meitsjen. Minsken donearje harren stimmen oan in tige grutte database dy't elkenien de mooglikheid biedt fluch en maklik stim-oanstjoerde apps te trainen. Alle stimgegevens sille beskikber wêze foar ûntwikkelers.
 faq-important-q = Wêrom is dit wichtich?
 faq-important-a = Stim is natuerlik, stim is minsklik. It is de meast ienfâldige en natuerlike manier fan kommunikaasje. Wy wolle dat ûntwikkelers geweldige dingen bouwe kinne, fan realtime-oersetters oant stimstjoerde administrative assistinten. Mar op dit stuit binne der net sa folle publyklik tagonklike gegevens om dit soarte fan apps bouwe te kinnen. Wy hoopje dat Common Voice ûntwikkelers jaan kin wat se nedich hawwe om te ynnovearjen.
 faq-get-q = Hoe kin ik gegevens fan Common Voice krije?
@@ -99,7 +99,7 @@ faq-source-a2 = Jo kinne ús boarnesinnen besjen yn <dataLink>dizze GitHub-map</
 ## Profile
 
 profile-why-title = Wêrom in profyl?
-profile-why-content = Troch wat ynformaasje oer josels te jaan, sil de audiogegevens dy't jo yntsjinje by Common Voice better brûkber wêze foar Spraakwerkenningsmasinen dy't dizze gegevens brûke om de presizens te ferbetterjen.
+profile-why-content = Troch wat ynformaasje oer josels te jaan, sille de troch jo by Common Voice yntsjinne audiogegevens better brûkber wêze foar spraakwerkenningsmasinen dy't dizze gegevens brûke om de presizens te ferbetterjen.
 
 ## NotFound
 
@@ -146,7 +146,7 @@ data-download-license = Lisinsje: <licenseLink>CC-0</licenseLink>
 data-download-modal = Jo stean op it punt in download te starten fan <size>{ $size }GB</size>, trochgean?
 data-subtitle = Wy meitsje in iepen en publyklik tagonklike dataset mei stimmen dy't elkenien brûke kin om spraakoanstjoerde applikaasjes te trainen.
 data-explanatory-text = Wy tinke dat grutte en iepenbiere stimgegevenssets foar ynnovaasje en sûne kommersjele kompetysje soargje yn spraaktechnology op basis fan masinelearen. Dit is in wrâldwide ynspanning, en wy nûgje elkenien út om diel te nimmen. Us doel is om te helpen der foar te soargjen dat spraaktechnology breder wurdt, wêrmei't it ferskaat oan stimmen oer de wrâld werjûn wurdt.
-data-get-started = <speechBlogLink>Start no mei Spraakwerkenning</speechBlogLink>
+data-get-started = <speechBlogLink>Start no mei spraakwerkenning</speechBlogLink>
 data-other-title = Oare stimgegevenssets…
 data-other-goto = Gean nei { $name }
 data-other-download = Gegevens downloade
@@ -205,12 +205,12 @@ contact-submit = Yntsjinje
 
 ## Request Language Modal
 
-request-language-title = Taalfersyk
+request-language-title = Taaloanfraach
 request-language-cancel = Formulier ferlitte
 request-language-form-language =
     .label = Taal
 request-language-form-email =
     .label = E-mailadres
 request-language-submit = Yntsjinje
-request-language-success-title = Taalfersyk mei sukses yntsjinne, tank.
+request-language-success-title = Taaloanfraach mei sukses yntsjinne, tank.
 request-language-success-text = Wy nimme kontakt mei jo op mei mear ynformaasje oer jo taal as it beskikber komt.
