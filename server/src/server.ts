@@ -20,10 +20,8 @@ const CSP_HEADER = [
   `style-src 'self' 'unsafe-inline' https://fonts.googleapis.com`,
   `img-src 'self' www.google-analytics.com`,
   `media-src data: blob: https://*.amazonaws.com https://*.amazon.com`,
-  `script-src 'self' 'sha256-WpzorOw/T4TS/msLlrO6krn6LdCwAldXSATNewBTrNE=' https://www.google-analytics.com/analytics.js`,
+  `script-src 'self' 'sha256-WpzorOw/T4TS/msLlrO6krn6LdCwAldXSATNewBTrNE=' https://www.google-analytics.com/analytics.js https://pontoon.mozilla.org/pontoon.js`,
   `font-src 'self' https://fonts.gstatic.com`,
-  `connect-src 'self'`,
-  `script-src 'self' https://pontoon.mozilla.org/pontoon.js`,
   `connect-src 'self' https://pontoon.mozilla.org/graphql`,
 ].join(';');
 
