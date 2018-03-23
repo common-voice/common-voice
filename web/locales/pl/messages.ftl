@@ -4,6 +4,9 @@ yes-receive-emails = Tak, chcę otrzymywać wiadomości o projekcie Common Voic
 stayintouch = Tworzymy społeczność korzystającą z otwartej technologii głosu. Chcemy dzielić się z wami aktualnościami, nowymi zasobami danych i historiami korzystania z naszych wspólnych osiągnięć.
 privacy-info = Obiecujemy szanować Twoje dane. Zapoznaj się z naszymi <privacyLink>zasadami ochrony prywatności</privacyLink>.
 return-to-cv = Wróć do Common Voice
+email-input =
+    .label = E-mail
+submit-form-action = Wyślij
 
 ## Layout
 
@@ -50,8 +53,6 @@ status-more-soon = Więcej języków już niedługo!
 
 ## ProfileForm
 
-email-input =
-    .label = E-mail
 profile-form-username =
     .label = Nazwa użytkownika
 profile-form-language =
@@ -182,7 +183,6 @@ contact-form-name =
 contact-form-message =
     .label = Wiadomość
 contact-required = * wymagane
-submit-form-action = Wyślij
 
 ## Request Language Modal
 
@@ -192,3 +192,14 @@ request-language-form-language =
     .label = Język
 request-language-success-title = Prośba o język została pomyślnie przesłana, dziękujemy.
 request-language-success-text = Damy znać, kiedy pojawią się informacje o dostępności Twojego języka.
+
+## Help Translate Modal
+
+help-translate-title = Pomóż tłumaczyć na język { $language }
+help-translate-cancel = Wyjdź
+help-translate-text = Przekierujemy Cię do narzędzia tłumaczeniowego Mozilli, <pontoonLink>Pontoon</pontoonLink>, gdzie ten język jest obecnie w trakcie otwartego procesu tłumaczenia.
+language-updates-title = Zapisz się, aby otrzymywać aktualizacje dotyczące języka: { $language }
+help-translate-link = Przejdź do Pontoon
+language-updates-success-title = Pomyślnie wysłano prośbę o aktualizację języka: { $language }.
+language-updates-success-text = Będziemy w kontakcie i udostępnimy więcej informacji, kiedy będą dostępne.
+language-updates-success-collapsed-title = Zapisano się na aktualizacje dotyczące języka: { $language }
