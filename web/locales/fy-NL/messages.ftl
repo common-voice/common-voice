@@ -7,7 +7,7 @@ return-to-cv = Werom nei Common Voice
 
 ## Layout
 
-speak = Sprek
+speak = Sprekke
 datasets = Datasets
 profile = Profyl
 help = Help
