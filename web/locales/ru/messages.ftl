@@ -113,15 +113,51 @@ record-error-too-short = Запись слишком короткая.
 record-error-too-long = Запись слишком длинная.
 record-error-too-quiet = Запись слишком тихая.
 record-submit-success = Запись отправлена! Хотите записать ещё раз?
+record-help = Щёлкните для записи, затем громко произнесите фразу выше.
+record-cancel = Отменить перезапись
+review-terms = Используя Common Voice, вы соглашаетесь с нашими <termsLink>условиями использования</termsLink> и <privacyLink>политикой приватности</privacyLink>
+review-aborted = Загрузка прервана. Хотите ли вы удалить ваши записи?
+review-submit-title = Проверить и отправить
+review-submit-msg = Спасибо за запись!<lineBreak></lineBreak>Теперь проверьте и отправьте ваши записи ниже.
+review-recording = Проверить
+review-rerecord = Перезаписать
+review-cancel = Отменить отправку
 
 ## Download Modal
 
+download-title = Ваша загрузка началась.
+download-helpus = Помогите нам создать сообщество по языковым технологиям, оставайтесь с нами на связи по электронной почте.
+download-form-email =
+    .label = Введите ваш адрес эл. почты
+    .value = Спасибо, мы будем на связи.
+download-back = Вернуться к наборам данных Common Voice
+download-no = Нет, спасибо
 
 ## Contact Modal
 
+contact-title = Форма связи
+contact-cancel = Отмена
+contact-form-name =
+    .label = Имя
+contact-form-message =
+    .label = Сообщение
+contact-required = *обязательно
 
 ## Request Language Modal
 
+request-language-title = Запрос языка
+request-language-cancel = Закрыть форму
+request-language-form-language =
+    .label = Язык
+request-language-success-title = Запрос о добавлении языка успешно отправлен, спасибо.
+request-language-success-text = Мы свяжемся с вами, и запросим дополнительную информацию о вашем языке, когда он станет доступным.
 
 ## Help Translate Modal
 
+help-translate-title = Помочь перевести на { $language }
+help-translate-cancel = Закрыть
+language-updates-title = Подписаться на обновления для { $language }
+help-translate-link = Перейти на Pontoon
+language-updates-success-title = Запрос об обновлении для { $language } успешно отправлен, спасибо.
+language-updates-success-text = Мы отправим вам больше информации, когда она станет доступна.
+language-updates-success-collapsed-title = Вы подписались на обновления для { $language }
