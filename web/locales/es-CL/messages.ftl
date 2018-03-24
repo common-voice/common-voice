@@ -93,21 +93,34 @@ privacy-more = <more>Aprender más</more>
 terms-title = Términos legales de Common Voice
 terms-eligibility-title = Elegibilidad
 terms-privacy-title = Privacidad
+terms-contributions-title = Tus contribuciones y liberación de derechos
 terms-communications-title = Comunicaciones
 terms-general-title = General
 
 ## Data
 
+data-download-button = Descargar datos de Common Voice
 data-download-license = Licencia: <licenseLink>CC-0</licenseLink>
+data-download-modal = Estás a punto de iniciar una descarga de <size>{ $size }GB</size>, ¿proceder?
 data-subtitle = Estamos construyendo un conjunto de datos de voces abierto y disponible públicamente que todos pueden usar para entrenar aplicaciones con reconocimiento de voz.
 data-explanatory-text = Creemos que los conjuntos de datos de voz grandes y disponibles públicamente promueven la innovación y la competencia comercial sana en las tecnologías de la voz basadas en el aprendizaje de las máquinas. Este es un esfuerzo mundial e invitamos a todos a participar. Nuestra meta es ayudar a la tecnología de voz a ser más inclusiva, reflejando la diversidad en las voces de todo el mundo.
+data-get-started = <speechBlogLink>Empezar con el reconocimiento de voz</speechBlogLink>
 data-other-title = Otros conjuntos de datos de voz…
+data-other-download = Descargar datos
+data-other-librispeech-description = LibriSpeech es un corpus de aproximadamente 1000 horas de inglés hablado a 16Khz derivado de lecturas de audiolibros del proyecto LibriVox.
+data-other-ted-name = Corpus de TED-LIUM
+data-other-ted-description = El corpus de TED-LIUM fue hecho de audios de charlas y de sus transcripciones disponibles en el sitio web de TED
+data-other-voxforge-description = VoxForge fue hecho para recolectar frases transcritas para ser usadas por motores de reconocimiento de voz de código abierto.
+data-other-tatoeba-description = Tatoeba es una gran base de datos de oraciones, traducciones y audio para uso en aprendizaje de máquinas. Esta descarga contiene todo el inglés grabado por su comunidad.
 data-bundle-button = Descargar paquete de conjunto de datos
 data-bundle-description = Datos de Common Voice junto con todos los conjuntos de datos de voz anteriores.
 license = Licencia: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
 
+record-platform-not-supported = Lo sentimos, pero tu plataforma actualmente no está soportada.
+record-platform-not-supported-desktop = En computadores de escritorio, puedes descargar la última versión:
+record-platform-not-supported-ios = Los usuarios de <bold>iOS</bold> pueden descargar nuestra app gratuita:
 record-must-allow-microphone = Debe permitir acceso al micrófono.
 record-error-too-short = La grabación fue muy corta.
 record-error-too-long = La grabación fue muy larga.
@@ -153,3 +166,11 @@ request-language-success-text = Estaremos en contacto con más información acer
 
 ## Help Translate Modal
 
+help-translate-title = Ayudar a traducir { $language }
+help-translate-cancel = Salir
+help-translate-text = Te llevaremos a la herramienta de traducción de Mozilla, <pontoonLink>Pontoon</pontoonLink>, donde este idioma está actualmente en traducción abierta.
+language-updates-title = Recibe las actualizaciones de { $language }
+help-translate-link = Llevarme a Pontoon
+language-updates-success-title = Solicitud de actualización de { $language } enviada, gracias.
+language-updates-success-text = Nosotros estaremos en contacto con más información a medida que esté disponible.
+language-updates-success-collapsed-title = Solicitaste recibir actualizaciones para { $language }
