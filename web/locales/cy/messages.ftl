@@ -209,3 +209,7 @@ help-translate-title = Helpu i Gyfieithu { $language }
 help-translate-cancel = Gadael
 help-translate-text = Rydym am eich cyfeirio i offer cyfieithu Mozilla, <pontoonLink>Pontoon</pontoonLink>, lle mae'r iaith hon yn cael ei chyfieithu'n agored.
 language-updates-title = Ymuno er mwyn derbyn diweddariadau { $language }
+help-translate-link = Mynd i Pontoon
+language-updates-success-title = Cais am ddiweddariad { $language } wedi ei gyflwyno'n llwyddiannus, diolch.
+language-updates-success-text = Byddwn mewn cysylltiad gyda rhagor o wybodaeth pan ddaw ar gael.
+language-updates-success-collapsed-title = Rydych wedi cofrestru ar gyfer diweddariadau { $language }
