@@ -4,6 +4,9 @@ yes-receive-emails = Ja, stuur mij e-mailberichten. Ik wil graag op de hoogte bl
 stayintouch = Bij Mozilla bouwen we een gemeenschap rond stemtechnologie. We willen graag contact met u houden met updates, nieuwe gegevensbronnen, en om te horen hoe u deze gegevens gebruikt.
 privacy-info = We beloven uw gegevens met zorg te behandelen. Lees meer in onze <privacyLink>Privacyverklaring</privacyLink>.
 return-to-cv = Terug naar Common Voice
+email-input =
+    .label = E-mailadres
+submit-form-action = Indienen
 
 ## Layout
 
@@ -49,8 +52,6 @@ status-more-soon = Meer talen volgen binnenkort!
 
 ## ProfileForm
 
-email-input =
-    .label = E-mailadres
 profile-form-username =
     .label = Gebruikersnaam
 profile-form-language =
@@ -189,7 +190,6 @@ contact-form-name =
 contact-form-message =
     .label = Bericht
 contact-required = *vereist
-submit-form-action = Indienen
 
 ## Request Language Modal
 
@@ -199,3 +199,14 @@ request-language-form-language =
     .label = Taal
 request-language-success-title = Taalaanvraag met succes ingediend, bedankt.
 request-language-success-text = We nemen contact op met meer informatie over uw taal wanneer deze beschikbaar komt.
+
+## Help Translate Modal
+
+help-translate-title = Help mee met vertalen naar { $language }
+help-translate-cancel = Afsluiten
+help-translate-text = We leiden u naar het vertaalhulpmiddel van Mozilla, <pontoonLink>Pontoon</pontoonLink>, waar deze taal momenteel openstaat voor vertaling.
+language-updates-title = Inschrijven voor updates voor { $language }
+help-translate-link = Breng me naar Pontoon
+language-updates-success-title = Updateverzoek voor { $language } met succes ingediend, bedankt.
+language-updates-success-text = We nemen contact op met meer informatie zodra deze beschikbaar komt.
+language-updates-success-collapsed-title = U bent ingeschreven voor updates voor { $language }
