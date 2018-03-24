@@ -4,6 +4,9 @@ yes-receive-emails = Iawn, anfon e-byst ata i. Rwyf eisiau cael gwybod am Brojec
 stayintouch = Rydym ni ym Mozilla'n adeiladu cymuned o amgylch technoleg llais. Hoffwn gadw mewn cysylltiad gyda diweddariadau, ffynonellau data newydd ac i glywed rhagor am sut rydych yn defnyddio'r data yma.
 privacy-info = Rydym yn addo trin eich manylion yn ofalus. Darllenwch ragor am ein <privacyLink>Hysbysiad Preifatrwydd</privacyLink>.
 return-to-cv = Dychwelyd i Common Voice
+email-input =
+    .label = E-bost
+submit-form-action = Cyflwyno
 
 ## Layout
 
@@ -39,7 +42,8 @@ request-language-button = Cais am Iaith
 status-title = Statws cyffredinol y project: gweld pa mor bell rydym wedi cyrraedd!
 status-contribute = Cyfrannu eich Llais
 status-loading = Llwytho…
-status-hours = { $hours ->
+status-hours =
+    { $hours ->
         [one] Un awr wedi ei ddilysu hyd yma!
         [two] { $hours } awr wedi eu dilysu hyd yma!
         [few] { $hours } awr wedi eu dilysu hyd yma!
@@ -52,8 +56,6 @@ status-more-soon = Rhagor o ieithoedd ar y ffordd!
 
 ## ProfileForm
 
-email-input =
-    .label = E-bost
 profile-form-username =
     .label = Enw Defnyddiwr
 profile-form-language =
@@ -191,7 +193,6 @@ contact-form-name =
 contact-form-message =
     .label = Neges
 contact-required = *angenrheidiol
-submit-form-action = Cyflwyno
 
 ## Request Language Modal
 
@@ -201,3 +202,10 @@ request-language-form-language =
     .label = Iaith
 request-language-success-title = Mae'r cais am iaith wedi ei gyflwyno'n llwyddiannus, diolch.
 request-language-success-text = Byddwn mewn cysylltiad am ragor o wybodaeth am eich iaith pan fydd ar gael.
+
+## Help Translate Modal
+
+help-translate-title = Helpu i Gyfieithu { $language } 
+help-translate-cancel = Gadael
+help-translate-text = Rydym am eich cyfeirio i offer cyfieithu Mozilla, <pontoonLink>Pontoon</pontoonLink>, lle mae'r iaith hon yn cael ei chyfieithu'n agored.
+language-updates-title = Ymuno er mwyn derbyn diweddariadau { $language }
