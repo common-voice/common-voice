@@ -1,5 +1,8 @@
 ## General
 
+email-input =
+    .label = อีเมล
+submit-form-action = ส่ง
 
 ## Layout
 
@@ -21,12 +24,13 @@ show-wall-of-text = อ่านเพิ่มเติม
 
 status-contribute = บริจาคเสียงของคุณ
 status-loading = กำลังโหลด…
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = เป้าหมายถัดไป: { $goal }
 status-more-soon = จะเพิ่มภาษาอื่น ๆ เร็ว ๆ นี้
 
 ## ProfileForm
 
-email-input =
-    .label = อีเมล
 profile-form-username =
     .label = ชื่อผู้ใช้
 profile-form-language =
@@ -42,7 +46,7 @@ profile-form-gender =
 ## FAQ
 
 faq-title = คำถามที่พบบ่อย
-faq-important-q = ทำไมมันถึงสำคัญ ?
+faq-important-q = ทำไมถึงสำคัญ?
 
 ## Profile
 
@@ -93,10 +97,12 @@ contact-form-name =
 contact-form-message =
     .label = ข้อความ
 contact-required = *จำเป็น
-submit-form-action = ส่ง
 
 ## Request Language Modal
 
 request-language-title = ขอเพิ่มภาษา
 request-language-form-language =
     .label = ภาษา
+
+## Help Translate Modal
+
