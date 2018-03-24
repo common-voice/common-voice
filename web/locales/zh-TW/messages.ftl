@@ -4,6 +4,9 @@ yes-receive-emails = 好，寄信給我。我想要知道 Common Voice 專案的
 stayintouch = Mozilla 的我們，正在打造一個與語音技術相關的社群。我們想要與新技術、新的資料來源保持聯繫，也想知道您會如何使用這些資料。
 privacy-info = 我們保證會小心處理您的資訊。到我們的<privacyLink>隱私權公告</privacyLink>了解更多資訊。
 return-to-cv = 回到 Common Voice
+email-input =
+    .label = 電子郵件地址
+submit-form-action = 送出
 
 ## Layout
 
@@ -45,8 +48,6 @@ status-more-soon = 更多語言即將到來！
 
 ## ProfileForm
 
-email-input =
-    .label = 電子郵件地址
 profile-form-username =
     .label = 使用者名稱
 profile-form-language =
@@ -157,7 +158,6 @@ contact-form-name =
 contact-form-message =
     .label = 訊息
 contact-required = * 必填
-submit-form-action = 送出
 
 ## Request Language Modal
 
@@ -167,3 +167,11 @@ request-language-form-language =
     .label = 語言
 request-language-success-title = 已收到新語言請求，感謝您。
 request-language-success-text = 我們將在您的語言可在網站上使用時連絡您。
+
+## Help Translate Modal
+
+help-translate-title = 幫助翻譯 { $language }
+help-translate-cancel = 結束
+help-translate-text = 我們將帶您到 Mozilla 的翻譯站 <pontoonLink>Pontoon</pontoonLink>，翻譯作業於該網站上進行。
+language-updates-title = 訂閱 { $language } 的最新消息電子報
+help-translate-link = 帶我去 Pontoon
