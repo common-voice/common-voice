@@ -18,9 +18,9 @@ contact = Kontakt
 privacy = Datenschutz
 terms = Nutzungsbedingungen
 cookies = Cookies
-faq = Häufig gestellte Fragen
+faq = FAQ
 content-license-text = Inhalte stehen unter einer <licenseLink>Creative-Commons-Lizenz</licenseLink>
-share-title = Helfen Sie uns dabei, andere zu finden, die bereit sind, mit ihrer Stimme beizutragen!
+share-title = Überzeugen Sie auch andere, mit Ihrer Stimme beizutragen!
 
 ## Home Page
 
@@ -72,7 +72,7 @@ faq-what-a = Technologien zur Spracherkennung könnten die Art und Weise, wie wi
 faq-important-q = Warum ist das wichtig?
 faq-important-a = Sprache ist natürlich, Sprache ist menschlich. Es ist die einfachste und natürlichste Art der Kommunikation. Wir möchten, dass Entwickler in der Lage sind, fantastische Dinge von Übersetzung in Echtzeit bis hin zu sprachgesteuerten Verwaltungsassistenten zu entwickeln. Im Moment stehen jedoch nicht genügend frei zugängliche Daten zur Verfügung, um derartige Anwendungen zu realisieren. Wir hoffen, dass Common Voice Entwicklern das gibt, was sie für derartige Innovationen benötigen.
 faq-get-q = Wie kann ich an die Common-Voice-Daten gelangen?
-faq-get-a = Der Datensatz steht jetzt auf unserer <downloadLink>Webseite zum Herunterladen<downloadLink> unter der <licenseLink>CC0-Lizenz</licenseLink> zur Verfügung.
+faq-get-a = Der Datensatz steht jetzt auf unserer <downloadLink>Webseite zum Herunterladen</downloadLink> unter der <licenseLink>CC0-Lizenz</licenseLink> zur Verfügung.
 faq-mission-q = Warum ist Common Voice Teil der Mission von Mozilla ?
 faq-mission-a = Mozilla hat sich einem offenen und für alle zugänglichen Netz verschrieben. Um das zu erreichen, müssen wir Webschaffende durch Projekte wie Common Voice unterstützen. Da sich sprachbasierte Technologien über Nischenanwendungen hinaus entwickelt haben, sind wir der Meinung, dass sie allen Anwendern gleichermaßen gut zur Verfügung stehen müssen. Wir sehen daher die Notwendigkeit, mehr Sprachen, Akzente und Bevölkerungsteile in die Entwicklung und Erprobung von sprachbasierten Technologien einzubeziehen. Mozilla möchte ein gesundes und lebhaftes Internet erleben. Das bedeutet, neuen kreativen Köpfen den Zugang zu Sprachdaten zu geben, so dass diese neue, außergewöhnliche Projekte erstellen können. Common Voice wird eine gemeinfreie Quelle für Sprachdaten sein, die den Teams von Mozilla und Entwicklern auf der ganzen Welt helfen wird.
 faq-native-q = { $lang } ist nicht meine Muttersprache und ich spreche mit Akzent, seid ihr trotzdem an meinen Sprachaufnahmen interessiert?
