@@ -28,6 +28,7 @@ home-title = El proyecto Common Voice es una iniciativa de Mozilla para ayudar a
 home-cta = Habla, ¡contribuye aquí!
 wall-of-text-start = La voz es natural, la voz es humana. Es por eso que estamos fascinados con crear una tecnología de voz para nuestras maquinas. Pero para crear un sistema de voz, una cantidad extremadamente grande de muestras de voz es requerida.
 wall-of-text-more-mobile = La mayor parte de los datos usados por las grandes compañías no esta disponible para las personas. Nosotros pensamos que eso sofoca la innovación. Así que lanzamos el proyecto Common Voice, un proyecto para hacer que el reconocimiento de voz esté disponible para todos.
+wall-of-text-more-desktop = Ahora puedes donar tu voz para ayudarnos a construir una base de datos de voz de código abierto que cualquiera pueda usar para hacer aplicaciones innovadoras para dispositivos y la web.<lineBreak></lineBreak>Lee una oración para ayudar a las máquinas a aprender cómo habla la gente real. revisa el trabajo de otros contribuidores para mejorar la calidad. ¡Así de simple!
 show-wall-of-text = Leer más
 help-us-title = ¡Ayúdanos a verificar oraciones!
 help-us-explain = Presiona reproducir, escucha y cuéntanos: ¿dijeron con precisión la oración anterior?
@@ -67,10 +68,12 @@ profile-form-gender =
 
 faq-title = Preguntas frecuentes
 faq-what-q = ¿Qué es Common Voice?
+faq-what-a = La tecnología de reconocimiento de voz puede revolucionar la forma en que interactuamos con máquinas, pero los sistemas actualmente disponibles son caros y privados. Common Voice es un proyecto para hacer que la tecnología de reconocimiento de voz sea fácilmente accesible para todos. Las personas donan sus voces a una base de datos masiva que le permite a todos rápida y fácilmente entrenar aplicaciones con capacidades de reconocimiento de voz. Todos los datos de voz estarán disponibles para los desarrolladores.
 faq-important-q = ¿Por qué es importante?
 faq-get-q = ¿Cómo puedo obtener los datos de Common Voice?
 faq-get-a = El conjunto de datos está ahora disponible en nuestra <downloadLink>página de descarga</downloadLink> bajo la licencia <licenseLink>CC-0</licenseLink>.
 faq-mission-q = ¿Por qué es Common Voice parte de la misión de Mozilla?
+faq-native-q = No soy un hablante nativo de { $lang } y hablo con acento, ¿igual quieren mi voz?
 faq-quality-q = ¿Cuál es nivel de calidad del audio requerido para que pueda ser utilizado?
 faq-hours-q = ¿Por qué es capturar 10.000 horas de audio una meta? 
 faq-source-q = ¿De dónde viene el texto fuente?
@@ -86,6 +89,7 @@ notfound-content = Perdóname, no sé qué estás buscando.
 
 ## Privacy
 
+privacy-title = Aviso de privacidad de Common Voice.
 privacy-more = <more>Aprender más</more>
 
 ## Terms
@@ -106,6 +110,7 @@ data-subtitle = Estamos construyendo un conjunto de datos de voces abierto y dis
 data-explanatory-text = Creemos que los conjuntos de datos de voz grandes y disponibles públicamente promueven la innovación y la competencia comercial sana en las tecnologías de la voz basadas en el aprendizaje de las máquinas. Este es un esfuerzo mundial e invitamos a todos a participar. Nuestra meta es ayudar a la tecnología de voz a ser más inclusiva, reflejando la diversidad en las voces de todo el mundo.
 data-get-started = <speechBlogLink>Empezar con el reconocimiento de voz</speechBlogLink>
 data-other-title = Otros conjuntos de datos de voz…
+data-other-goto = Ir a { $name }
 data-other-download = Descargar datos
 data-other-librispeech-description = LibriSpeech es un corpus de aproximadamente 1000 horas de inglés hablado a 16Khz derivado de lecturas de audiolibros del proyecto LibriVox.
 data-other-ted-name = Corpus de TED-LIUM
@@ -128,6 +133,7 @@ record-error-too-quiet = La grabación fue muy silenciosa.
 record-submit-success = ¡Envío exitoso! ¿Quieres volver a grabar?
 record-help = Por favor, toca para grabar y luego lee la oración anterior en voz alta.
 record-cancel = Cancelar regrabación
+review-terms = Al usar Common Voice, aceptas nuestros <termsLink>Términos de uso</termsLink> y la <privacyLink>Política de privacidad</privacyLink>
 review-aborted = Subida abortada. ¿Quieres eliminar tus grabaciones?
 review-submit-title = Revisar y enviar
 review-submit-msg = ¡Gracias por grabar!<lineBreak></lineBreak>Ahora revisa y envía tus grabaciones a continuación.
