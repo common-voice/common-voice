@@ -202,4 +202,7 @@ request-language-success-text = 我们会在此语言上线时告知您。
 
 help-translate-title = 帮忙翻译 { $language }
 help-translate-cancel = 退出
+help-translate-text = 我们将带您前往 Mozilla 的翻译站 <pontoonLink>Pontoon</pontoonLink>，此语言的翻译工作在这个网站上进行。
+language-updates-title = 订阅 { $language } 的新资讯电子报
+help-translate-link = 带我去 Pontoon
 language-updates-success-title = { $language } 更新请求已成功提交，非常感谢。
