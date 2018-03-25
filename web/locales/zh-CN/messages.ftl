@@ -206,3 +206,5 @@ help-translate-text = 我们将带您前往 Mozilla 的翻译站 <pontoonLink>Po
 language-updates-title = 订阅 { $language } 的新资讯电子报
 help-translate-link = 带我去 Pontoon
 language-updates-success-title = { $language } 更新请求已成功提交，非常感谢。
+language-updates-success-text = 有更多信息时我们将联系您。
+language-updates-success-collapsed-title = 您已成功订阅 { $language } 的电子报
