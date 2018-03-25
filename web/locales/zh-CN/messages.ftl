@@ -4,6 +4,9 @@ yes-receive-emails = 是的，给我发送邮件，我想了解 Common Voice 项
 stayintouch = 我们在 Mozilla 正围绕语音技术建立一个社区。 我们想与新技术、新数据来源保持联系，也想知道您会如何使用这些数据。
 privacy-info = 我们承诺谨慎处理您的信息。阅读我们的<privacyLink>隐私声明</privacyLink>详细了解。
 return-to-cv = 返回 Common Voice
+email-input =
+    .label = 电子邮箱
+submit-form-action = 提交
 
 ## Layout
 
@@ -48,8 +51,6 @@ status-more-soon = 更多语言即将到来！
 
 ## ProfileForm
 
-email-input =
-    .label = 电子邮箱
 profile-form-username =
     .label = 用户名
 profile-form-language =
@@ -187,7 +188,6 @@ contact-form-name =
 contact-form-message =
     .label = 信息
 contact-required = * 必填
-submit-form-action = 提交
 
 ## Request Language Modal
 
@@ -197,3 +197,9 @@ request-language-form-language =
     .label = 语言
 request-language-success-title = 非常感谢，您的语言请求已成功提交。
 request-language-success-text = 我们会在此语言上线时告知您。
+
+## Help Translate Modal
+
+help-translate-title = 帮忙翻译 { $language }
+help-translate-cancel = 退出
+language-updates-success-title = { $language } 更新请求已成功提交，非常感谢。
