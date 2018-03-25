@@ -70,17 +70,27 @@ faq-title = Preguntas frecuentes
 faq-what-q = ¿Qué es Common Voice?
 faq-what-a = La tecnología de reconocimiento de voz puede revolucionar la forma en que interactuamos con máquinas, pero los sistemas actualmente disponibles son caros y privados. Common Voice es un proyecto para hacer que la tecnología de reconocimiento de voz sea fácilmente accesible para todos. Las personas donan sus voces a una base de datos masiva que le permite a todos rápida y fácilmente entrenar aplicaciones con capacidades de reconocimiento de voz. Todos los datos de voz estarán disponibles para los desarrolladores.
 faq-important-q = ¿Por qué es importante?
+faq-important-a = La voz es natural, la voz es humana. Es la forma más fácil y natural de comunicarse. Queremos que los desarrolladores puedan construir cosas sorprendentes desde traductores en tiempo real a asistentes administrativos con los que puedas conversar. Pero en este momento no hay suficientes datos disponibles públicamente para construir este tipo de aplicaciones. Esperamos que Common Voice le de a los desarrolladores lo que necesitan para innovar.
 faq-get-q = ¿Cómo puedo obtener los datos de Common Voice?
 faq-get-a = El conjunto de datos está ahora disponible en nuestra <downloadLink>página de descarga</downloadLink> bajo la licencia <licenseLink>CC-0</licenseLink>.
 faq-mission-q = ¿Por qué es Common Voice parte de la misión de Mozilla?
+faq-mission-a = Mozilla está dedicado a mantener la web abierta y accesible para todos. Para hacerlo necesitamos empoderar a los creadores web a través de proyectos como Common Voice. A medida que las tecnologías de voz proliferan más allá de las aplicaciones de nicho, nosotros creemos que deben servir igual de bien a los usuarios. Vemos una necesidad de incluir más idiomas, acentos y datos demográficos al construir y probar tecnologías de voz. Mozilla quiere ver un internet saludable y vibrante. Esto significa darle a acceso a nuevos creadores a datos de voz, de forma tal que puedan construir nuevos y extraordinarios proyectos. Common Voice será un recurso público que ayudará a los equipos de Mozilla y a los desarrolladores de todo el mundo.
 faq-native-q = No soy un hablante nativo de { $lang } y hablo con acento, ¿igual quieren mi voz?
+faq-native-a = Sí, ¡definitivamente queremos tu voz! Parte de la meta de Common Voice es conseguir tantos acentos como sea posible, para que los computadores puedan entender mejor <bold>a todos</bold> cuando hablen.
+faq-firefox-q = ¿Será algún día la tecnología de voz-a-texto, a través de Common Voice, parte de Firefox?
+faq-firefox-a = Common Voice tiene un potencial ilimitado y de hecho estamos explorando interfaces de voz en varios productos de Mozilla, incluyendo Firefox.
 faq-quality-q = ¿Cuál es nivel de calidad del audio requerido para que pueda ser utilizado?
+faq-quality-a = Queremos que la calidad de audio refleje la calidad del audio a la que el motor de voz-a-texto se enfrentará en el mundo real. Por ello, queremos variedad. Esto le enseña al motor de voz-a-texto a manejar varias situaciones —charlas en segundo plano, ruido de vehículos, ventiladores— sin cometer errores.
 faq-hours-q = ¿Por qué es capturar 10.000 horas de audio una meta? 
+faq-hours-a = Este es aproximadamente el número de horas requerido para entrenar un sistema STT a nivel de producción.
 faq-source-q = ¿De dónde viene el texto fuente?
+faq-source-a1 = Las oraciones actuales provienen de donaciones de contribuidores, junto a diálogos de textos de películas de dominio público como <italic>¡Que bello es vivir!</italic>.
+faq-source-a2 = Puedes ver nuestras oraciones fuente en <dataLink>esta carpeta de GitHub</dataLink>.
 
 ## Profile
 
 profile-why-title = ¿Por qué un perfil?
+profile-why-content = Al entregar un poco de información sobre ti, los datos de audio que envíes a Common Voice serán aún más útiles para los motores de reconocimiento de voz que usen estos datos para mejorar su precisión.
 
 ## NotFound
 
@@ -90,13 +100,23 @@ notfound-content = Perdóname, no sé qué estás buscando.
 ## Privacy
 
 privacy-title = Aviso de privacidad de Common Voice.
+privacy-effective = Válido desde { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
+privacy-policy = Cuando Mozilla (nosotros), recibe información sobre ti, nuestra <policy>Política de privacidad de Mozilla</policy> describe cómo manejamos esa información.
+privacy-data-demographic = <name>Datos demográficos.</name> Puedes opcionalmente enviarnos información como tu acento, edad y género. Esto nos ayuda a nosotros y a otros investigadores a mejorar y crear tecnologías y herramientas voz-a-texto.
+privacy-data-account = <name>Datos de cuenta.</name> Puedes opcionalmente crear una cuenta, caso en el cual recibiremos tu dirección de correo. Esto es asociado a tus datos demográficos y de interacción pero no es compartido al público.
+privacy-data-recordings = <name>Grabaciones de voz.</name> Las grabaciones de voz, junto con cualquier dato demográfico asociado, estarán disponibles en la base de datos de Common Voice para el consumo y uso público.
+privacy-data-interaction = <name>Datos de interacción.</name> Usamos Google Analytics para mejorar el entendimiento de cómo interactúas con la aplicación de Common Voice o su sitio web. Por ejemplo, esto incluye el número de muestras de voz que grabas o escuchas, interacciones con botones y menús y duraciones de las sesiones.
+privacy-data-technical = <name>Datos técnicos.</name> Usando Google Analytics, recolectamos la URL y el título de las páginas de Common Voice que visitas. Recolectamos información sobre tu navegador, el tamaño del viewport y la resolución de la pantalla. También recolectamos tu ubicación y el ajuste de idioma de tu navegador.
 privacy-more = <more>Aprender más</more>
 
 ## Terms
 
 terms-title = Términos legales de Common Voice
+terms-effective = Válido desde { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
 terms-eligibility-title = Elegibilidad
+terms-eligibility-content = Debes tener más de 13 años o consentimiento y supervisión paterno o de tu guardián para participar en nuestro proyecto de crowd-sourcing.
 terms-privacy-title = Privacidad
+terms-privacy-content = Nuestra <privacyLink>Política de privacidad</privacyLink> explica cómo recibimos y manejamos tus datos.
 terms-contributions-title = Tus contribuciones y liberación de derechos
 terms-communications-title = Comunicaciones
 terms-general-title = General
