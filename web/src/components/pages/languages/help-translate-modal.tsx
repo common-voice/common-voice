@@ -18,7 +18,7 @@ interface PropsFromDispatch {
 
 interface Props extends PropsFromState, PropsFromDispatch {
   locale: {
-    code: string;
+    code?: string;
     name: string;
   };
   onRequestClose: () => void;

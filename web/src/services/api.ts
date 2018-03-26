@@ -161,6 +161,7 @@ export default class API {
               locale {
                 code
                 name
+                population
               }
             }
           }
