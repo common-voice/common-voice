@@ -4,6 +4,9 @@ yes-receive-emails = Ja, stjoer my e-mailberjochten. Ik wol graach op 'e hichte 
 stayintouch = By Mozilla meitsje wy in mienskip rûnom spraaktechnology. Wy wolle graach yn kontakt bliuwe mei fernijingen, nije gegevensboarnen en om mear te hearren oer hoe't jo de gegevens brûke.
 privacy-info = Wy sizze jo ta dat wy jo ynformaasje mei omtinken behannelje. Mear ynfo dêr oer yn ús <privacyLink>Privacybelied</privacyLink>.
 return-to-cv = Werom nei Common Voice
+email-input =
+    .label = E-mailadres
+submit-form-action = Yntsjinje
 
 ## Layout
 
@@ -59,8 +62,6 @@ status-more-soon = Ynkoarten mear talen beskikber!
 
 ## ProfileForm
 
-email-input =
-    .label = E-mailadres
 profile-form-username =
     .label = Brûkersnamme
 profile-form-language =
@@ -198,7 +199,6 @@ contact-form-name =
 contact-form-message =
     .label = Berjocht
 contact-required = *fereaske
-submit-form-action = Yntsjinje
 
 ## Request Language Modal
 
@@ -208,3 +208,14 @@ request-language-form-language =
     .label = Taal
 request-language-success-title = Taaloanfraach mei sukses yntsjinne, tank.
 request-language-success-text = Wy nimme kontakt mei jo op mei mear ynformaasje oer jo taal as it beskikber komt.
+
+## Help Translate Modal
+
+help-translate-title = Help mei mei oersetten nei { $language }
+help-translate-cancel = Ofslute
+help-translate-text = We liede jo nei it oersethelpmiddel fan Mozilla, <pontoonLink>Pontoon</pontoonLink>, wêr't dizze taal op dit stuit iepen stiet foar oersetting.
+language-updates-title = Ynskriuwe foar fernijingen foar { $language }
+help-translate-link = Bring my nei Pontoon
+language-updates-success-title = Fernijingsfersyk foar { $language } mei sukses yntsjinne, tankewol.
+language-updates-success-text = Wy nimme kontakt op mei mear ynformaasje sa gau as dizze beskikber komt.
+language-updates-success-collapsed-title = Jo binne ynskreaun foar fernijingen foar { $language }
