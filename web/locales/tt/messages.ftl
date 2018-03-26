@@ -36,7 +36,7 @@ request-language-button = Телнең өстәлүен сорау
 
 ## ProjectStatus
 
-status-title = Проектың гомуми статусы: безнең нәрсәгә ирешкәнебезне күрегез!
+status-title = Проектның гомуми статусы: безнең нәрсәгә ирешкәнебезне күрегез!
 status-contribute = Тавышыгызны иганә итегез
 status-loading = Йөкләнелә...
 status-hours =
