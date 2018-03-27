@@ -8,6 +8,9 @@ submit-form-action = Seol
 ## Layout
 
 speak = Abair
+datasets = Tacair sonraí
+profile = Próifíl
+help = Cabhair
 contact = Teagmháil
 cookies = Fianáin
 faq = Ceisteanna Coitianta
@@ -18,6 +21,7 @@ content-license-text = Tá an t-ábhar seo ar fáil de réir téarmaí <licenseL
 
 ## ProjectStatus
 
+status-loading = Á lódáil...
 
 ## ProfileForm
 
