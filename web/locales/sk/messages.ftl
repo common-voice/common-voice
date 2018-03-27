@@ -89,8 +89,10 @@ privacy-more = <more>Ďalšie informácie</more>
 ## Terms
 
 terms-title = Právne podmienky projektu Common Voice
+terms-effective = Platné od { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
 terms-privacy-title = Súkromie
 terms-privacy-content = Naše <privacyLink>zásady ochrany súkromia</privacyLink> popisujú, ako prijímame a nakladáme s vašimi údajmi.
+terms-general-title = Všeobecné
 
 ## Data
 
