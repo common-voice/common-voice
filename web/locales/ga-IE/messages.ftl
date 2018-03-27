@@ -1,9 +1,17 @@
 ## General
 
+return-to-cv = Fill ar Common Voice
+email-input =
+    .label = Ríomhphost
+submit-form-action = Seol
 
 ## Layout
 
 speak = Abair
+contact = Teagmháil
+cookies = Fianáin
+faq = Ceisteanna Coitianta
+content-license-text = Tá an t-ábhar seo ar fáil de réir téarmaí <licenseLink>Cheadúnas Creative Commons</licenseLink>
 
 ## Home Page
 
@@ -17,6 +25,8 @@ profile-form-language =
     .label = Teanga
 profile-form-age =
     .label = Aois
+profile-form-gender =
+    .label = Inscne
 
 ## FAQ
 
