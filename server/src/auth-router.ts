@@ -11,17 +11,22 @@ const {
   MYSQLDBNAME,
   MYSQLUSER,
   MYSQLPASS,
+  PROD,
+  SECRET,
   AUTH0: { DOMAIN, CLIENT_ID, CLIENT_SECRET },
 } = getConfig();
 const CALLBACK_URL = '/callback';
 
 const router = PromiseRouter();
 
-router.use(passport.initialize());
+router.use(require('cookie-parser')());
 router.use(
   session({
-    // TODO use real secret
-    secret: 'unique-snowflake',
+    cookie: {
+      maxAge: 365 * 24 * 60 * 60,
+      secure: PROD,
+    },
+    secret: SECRET,
     store: new MySQLStore({
       host: MYSQLHOST,
       user: MYSQLUSER,
@@ -33,6 +38,7 @@ router.use(
     saveUninitialized: false,
   })
 );
+router.use(passport.initialize());
 router.use(passport.session());
 
 passport.serializeUser((user: any, done: Function) => done(null, user));
@@ -62,13 +68,11 @@ passport.use(strategy);
 router.get(
   CALLBACK_URL,
   passport.authenticate('auth0', { failureRedirect: '/login' }),
-  (request: Request, response: Response) => {
-    const user = (request as any).user;
-    console.log(user);
+  ({ user }: Request, response: Response) => {
     if (!user) {
       throw new Error('user null');
     }
-    response.redirect('/');
+    response.redirect('/admin');
   }
 );
 
@@ -76,7 +80,7 @@ router.get(
   '/login',
   passport.authenticate('auth0', {}),
   (request: Request, response: Response) => {
-    response.redirect('/');
+    response.redirect('/admin');
   }
 );
 

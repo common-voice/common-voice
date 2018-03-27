@@ -37,6 +37,7 @@
     "bluebird": "^3.5.0",
     "body-parser": "^1.18.2",
     "concurrently": "^3.5.0",
+    "cookie-parser": "^1.4.3",
     "css-loader": "^0.28.7",
     "cssnano": "^3.10.0",
     "db-migrate": "^0.10.2",

@@ -82,11 +82,50 @@ export default class DB {
     }
   }
 
-  /**
-   * Print the current count of clients in db.
-   */
-  async getClientCount(): Promise<number> {
+  async getUserCount(): Promise<number> {
+    return this.user.getCount();
+  }
+
+  async getDownloadingUserCount(): Promise<number> {
+    const [[{ count }]] = await this.mysql.query(
+      `SELECT COUNT(*) AS count FROM users WHERE has_downloaded`
+    );
+    return count;
+  }
+
+  async getEmailsCount(): Promise<number> {
+    const [[{ count }]] = await this.mysql.query(
+      `SELECT COUNT(email) AS count FROM users WHERE email IS NOT NULL AND TRIM(email) <> ''`
+    );
+    return count;
+  }
+
+  async getUserClientCount(): Promise<number> {
     return this.userClient.getCount();
+  }
+
+  async getSentencesCount(): Promise<number> {
+    const [[{ count }]] = await this.mysql.query(
+      `SELECT COUNT(*) AS count FROM sentences`
+    );
+    return count;
+  }
+
+  async getSentencesWithNoClipsCount(): Promise<number> {
+    const [[{ count }]] = await this.mysql.query(
+      `
+        SELECT COUNT(*) AS count
+        FROM (
+          SELECT sentences.*
+          FROM sentences
+            LEFT JOIN clips ON sentences.id = clips.original_sentence_id
+          WHERE sentences.is_used
+          GROUP BY sentences.id
+          HAVING COUNT(clips.id) = 0
+        ) t
+      `
+    );
+    return count;
   }
 
   async getClipCount(): Promise<number> {
