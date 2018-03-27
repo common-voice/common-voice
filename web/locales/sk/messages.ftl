@@ -4,6 +4,9 @@ yes-receive-emails = Áno, posielajte mi e-maily. Rád by som zostal o projekte 
 stayintouch = V Mozille budujeme komunitu okolo technológií rozpoznávania reči. Radi by sme s vami zostali v kontakte prostredníctvom noviniek, napríklad o nových zdrojoch údajov. Radi by sme sa taktiež dozvedeli, ako tieto údaje používate.
 privacy-info = Sľubujeme, že sa o vaše informácie budeme príkladne starať. Ďalšie informácie sa dočítate v našich <privacyLink>zásadách ochrany súkromia</privacyLink>.
 return-to-cv = Návrat do Common Voice
+email-input =
+    .label = E-mailová adresa
+submit-form-action = Odoslať
 
 ## Layout
 
@@ -27,6 +30,7 @@ wall-of-text-start = Reč je prirodzená a ľudská. Preto chceme vytvoriť pou�
 wall-of-text-more-mobile = Väčšina údajov, ktoré používajú veľké spoločnosti nie je dostupná pre väčšinu ľudí. Myslíme si, že to zdržuje inovácie. Preto sme spustili Common Voice, projekt, ktorý sprístupní rozpoznávanie reči pre všetkých.
 show-wall-of-text = Prečítajte si viac
 help-us-title = Pomôžte nám overovať vety!
+help-us-explain = Kliknite na prehrať, počúvajte a povedzte nám, či sa nahrávka zhoduje s vetou nižšie.
 request-language-text = Nevidíte svoj jazyk na Common Voice?
 request-language-button = Požiadajte o jazyk
 
@@ -48,8 +52,6 @@ status-more-soon = Ďalšie jazyky už čoskoro!
 
 ## ProfileForm
 
-email-input =
-    .label = E-mailová adresa
 profile-form-username =
     .label = Používateľské meno
 profile-form-language =
@@ -68,9 +70,13 @@ faq-title = Často kladené otázky
 faq-what-q = Čo je Common Voice?
 faq-important-q = Prečo je to dôležité?
 faq-get-q = Ako môžem získať údaje z Common Voice?
+faq-mission-q = Prečo je Common Voice súčasťou misie Mozilly?
+faq-native-q = { $lang } nie je môj materinský jazyk a hovorím s prízvukom, chcete môj hlas aj tak?
+faq-native-a = Áno, určite chceme váš hlas! Súčasťou cieľov projektu Common Voice je zozbierať čo najviac prízvukov, aby tak počítače mohli lepšie rozumieť <bold>každému</bold>.
 
 ## Profile
 
+profile-why-title = Prečo potrebujete profil?
 
 ## NotFound
 
@@ -121,7 +127,6 @@ contact-form-name =
 contact-form-message =
     .label = Správa
 contact-required = *vyžadované
-submit-form-action = Odoslať
 
 ## Request Language Modal
 
@@ -131,3 +136,6 @@ request-language-form-language =
     .label = Jazyk
 request-language-success-title = Žiadosť o jazyk bola odoslaná. Ďakujeme.
 request-language-success-text = Keď bude váš jazyk dostupný, pošleme vám ďalšie informácie.
+
+## Help Translate Modal
+
