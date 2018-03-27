@@ -64,3 +64,7 @@
         flex-direction: column;
     }
 }
+
+#home-container .project-status .request-language {
+    text-align: center;
+}

@@ -2,16 +2,19 @@ import * as React from 'react';
 import { withRouter, RouteComponentProps } from 'react-router';
 const { Localized } = require('fluent-react');
 import Validator from '../../validator';
+import RequestLanguageModal from '../../request-language-modal/request-language-modal';
 import { RecordIcon } from '../../ui/icons';
 import { CardAction, Hr } from '../../ui/ui';
 import ProjectStatus from './project-status';
 
 interface State {
+  showLanguageRequestModal: boolean;
   showWallOfText: boolean;
 }
 
 class Home extends React.Component<RouteComponentProps<any>, State> {
   state = {
+    showLanguageRequestModal: false,
     showWallOfText: false,
   };
 
@@ -19,6 +22,13 @@ class Home extends React.Component<RouteComponentProps<any>, State> {
     const { showWallOfText } = this.state;
     return (
       <div id="home-container">
+        {this.state.showLanguageRequestModal && (
+          <RequestLanguageModal
+            onRequestClose={() =>
+              this.setState({ showLanguageRequestModal: false })
+            }
+          />
+        )}
         <Localized id="home-title">
           <h2 id="home-title" />
         </Localized>
@@ -73,7 +83,11 @@ class Home extends React.Component<RouteComponentProps<any>, State> {
         <Hr />
         <br />
 
-        <ProjectStatus />
+        <ProjectStatus
+          onRequestLanguage={() =>
+            this.setState({ showLanguageRequestModal: true })
+          }
+        />
 
         <br />
       </div>

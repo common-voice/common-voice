@@ -20,7 +20,7 @@ export class UserTable extends Table<UpdatableUserFields> {
    */
   async update(fields: UpdatableUserFields): Promise<void> {
     await super.update(fields);
-    const [[user]] = await this.mysql.exec(
+    const [[user]] = await this.mysql.query(
       `SELECT * FROM ${this.getName()} WHERE email = ?`,
       [fields.email]
     );

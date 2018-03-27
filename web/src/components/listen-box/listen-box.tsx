@@ -1,5 +1,4 @@
 import * as React from 'react';
-const { Fragment } = require('react');
 import { trackListening } from '../../services/tracker';
 import { FontIcon, PlayIcon, RedoIcon } from '../ui/icons';
 
@@ -110,7 +109,6 @@ export default class ListenBox extends React.Component<Props, State> {
     if (this.state.playing) {
       this.el.pause();
       this.setState({ playing: false });
-      return;
     }
 
     this.props.onDelete && this.props.onDelete();
@@ -132,11 +130,18 @@ export default class ListenBox extends React.Component<Props, State> {
   }
 
   private voteYes() {
+    if (!this.state.played) {
+      return;
+    }
     this.vote(true);
     trackListening('vote-yes');
   }
 
   private voteNo() {
+    const { played, playedSome } = this.state;
+    if (!played && !playedSome) {
+      return;
+    }
     this.vote(false);
     trackListening('vote-no');
   }
@@ -231,10 +236,10 @@ export default class ListenBox extends React.Component<Props, State> {
 
   renderShortcutText(text: string) {
     return this.state.shortcutsEnabled ? (
-      <Fragment>
+      <React.Fragment>
         <span style={{ textDecoration: 'underline' }}>{text.charAt(0)}</span>
         {text.substr(1)}
-      </Fragment>
+      </React.Fragment>
     ) : (
       text
     );

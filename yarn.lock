@@ -106,7 +106,11 @@
     "@types/mime" "*"
     "@types/node" "*"
 
-"@types/node@*", "@types/node@^9.3.0":
+"@types/node@*":
+  version "9.4.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-9.4.6.tgz#d8176d864ee48753d053783e4e463aec86b8d82e"
+
+"@types/node@^9.3.0":
   version "9.3.0"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-9.3.0.tgz#3a129cda7c4e5df2409702626892cb4b96546dd5"
 
@@ -115,8 +119,8 @@
   resolved "https://registry.yarnpkg.com/@types/random-js/-/random-js-1.0.30.tgz#33fd57ae4fdbdc1aed3f76a875bd1da5a9428808"
 
 "@types/react-dom@^16.0.2":
-  version "16.0.3"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.0.3.tgz#8accad7eabdab4cca3e1a56f5ccb57de2da0ff64"
+  version "16.0.4"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.0.4.tgz#2e8fd45f5443780ed49bf2cdd9809e6091177a7d"
   dependencies:
     "@types/node" "*"
     "@types/react" "*"
@@ -135,30 +139,23 @@
     redux "^3.6.0"
 
 "@types/react-router-dom@^4.2.0":
-  version "4.2.3"
-  resolved "https://registry.yarnpkg.com/@types/react-router-dom/-/react-router-dom-4.2.3.tgz#06e0b67ff536adc0681dffdbe592ae91fb85887d"
+  version "4.2.4"
+  resolved "https://registry.yarnpkg.com/@types/react-router-dom/-/react-router-dom-4.2.4.tgz#02c43274129ffe0ac42b348f7c8c4a9a4e127c8a"
   dependencies:
     "@types/history" "*"
     "@types/react" "*"
     "@types/react-router" "*"
 
-"@types/react-router@*":
-  version "4.0.19"
-  resolved "https://registry.yarnpkg.com/@types/react-router/-/react-router-4.0.19.tgz#4258eb59a9c3a01b5adf1bf9b14f068a7699bbb6"
-  dependencies:
-    "@types/history" "*"
-    "@types/react" "*"
-
-"@types/react-router@^4.0.16":
-  version "4.0.20"
-  resolved "https://registry.yarnpkg.com/@types/react-router/-/react-router-4.0.20.tgz#3404f54e44bba2239ea4320ea701d86d92f05486"
+"@types/react-router@*", "@types/react-router@^4.0.16":
+  version "4.0.22"
+  resolved "https://registry.yarnpkg.com/@types/react-router/-/react-router-4.0.22.tgz#2b97336eddfdf5886973539539b8ce7037cf629b"
   dependencies:
     "@types/history" "*"
     "@types/react" "*"
 
 "@types/react@*", "@types/react@^16.0.2":
-  version "16.0.34"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.0.34.tgz#7a8f795afd8a404a9c4af9539b24c75d3996914e"
+  version "16.0.40"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.0.40.tgz#caabc2296886f40b67f6fc80f0f3464476461df9"
 
 "@types/redux-thunk@^2.1.0":
   version "2.1.0"
@@ -1997,6 +1994,10 @@ dotenv@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-2.0.0.tgz#bd759c357aaa70365e01c96b7b0bec08a6e0d949"
 
+downshift@^1.30.0:
+  version "1.30.0"
+  resolved "https://registry.yarnpkg.com/downshift/-/downshift-1.30.0.tgz#02ccb586375af7ed36819e32449bcbc5fcb27127"
+
 duplexer3@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/duplexer3/-/duplexer3-0.1.4.tgz#ee01dd1cac0ed3cbc7fdbea37dc0a8f1ce002ce2"
@@ -2204,16 +2205,6 @@ escope@^3.6.0:
     es6-weak-map "^2.0.1"
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
-
-eslint-loader@^1.9.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/eslint-loader/-/eslint-loader-1.9.0.tgz#7e1be9feddca328d3dcfaef1ad49d5beffe83a13"
-  dependencies:
-    loader-fs-cache "^1.0.0"
-    loader-utils "^1.0.2"
-    object-assign "^4.0.1"
-    object-hash "^1.1.4"
-    rimraf "^2.6.1"
 
 eslint-plugin-prettier@^2.3.1:
   version "2.6.0"
@@ -2659,14 +2650,6 @@ finalhandler@1.1.0:
     parseurl "~1.3.2"
     statuses "~1.3.1"
     unpipe "~1.0.0"
-
-find-cache-dir@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/find-cache-dir/-/find-cache-dir-0.1.1.tgz#c8defae57c8a52a8a784f9e31c57c742e993a0b9"
-  dependencies:
-    commondir "^1.0.1"
-    mkdirp "^0.5.1"
-    pkg-dir "^1.0.0"
 
 find-cache-dir@^1.0.0:
   version "1.0.0"
@@ -3709,6 +3692,10 @@ isnumeric@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/isnumeric/-/isnumeric-0.2.0.tgz#a2347ba360de19e33d0ffd590fddf7755cbf2e64"
 
+iso-639-1@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/iso-639-1/-/iso-639-1-2.0.3.tgz#72dd3448ac5629c271628c5ac566369428d6ccd0"
+
 isobject@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-2.1.0.tgz#f065561096a3f1da2ef46272f815c840d87e0c89"
@@ -4259,13 +4246,6 @@ load-json-file@^2.0.0:
     pify "^2.0.0"
     strip-bom "^3.0.0"
 
-loader-fs-cache@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/loader-fs-cache/-/loader-fs-cache-1.0.1.tgz#56e0bf08bd9708b26a765b68509840c8dec9fdbc"
-  dependencies:
-    find-cache-dir "^0.1.1"
-    mkdirp "0.5.1"
-
 loader-runner@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/loader-runner/-/loader-runner-2.3.0.tgz#f482aea82d543e07921700d5a46ef26fdac6b8a2"
@@ -4582,7 +4562,7 @@ mixin-deep@^1.2.0:
     for-in "^1.0.2"
     is-extendable "^1.0.1"
 
-mkdirp@0.5.1, mkdirp@0.x.x, "mkdirp@>=0.5 0", mkdirp@^0.5.1, mkdirp@~0.5.0, mkdirp@~0.5.1:
+mkdirp@0.x.x, "mkdirp@>=0.5 0", mkdirp@^0.5.1, mkdirp@~0.5.0, mkdirp@~0.5.1:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   dependencies:
@@ -4891,10 +4871,6 @@ object-copy@^0.1.0:
     copy-descriptor "^0.1.0"
     define-property "^0.2.5"
     kind-of "^3.0.3"
-
-object-hash@^1.1.4:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/object-hash/-/object-hash-1.2.0.tgz#e96af0e96981996a1d47f88ead8f74f1ebc4422b"
 
 object-keys@^1.0.8:
   version "1.0.11"
@@ -5247,12 +5223,6 @@ pixrem@^4.0.0:
     browserslist "^2.0.0"
     postcss "^6.0.0"
     reduce-css-calc "^1.2.7"
-
-pkg-dir@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/pkg-dir/-/pkg-dir-1.0.0.tgz#7a4b508a8d5bb2d629d447056ff4e9c9314cf3d4"
-  dependencies:
-    find-up "^1.0.0"
 
 pkg-dir@^2.0.0:
   version "2.0.0"
@@ -7618,10 +7588,6 @@ use@^2.0.0:
     define-property "^0.2.5"
     isobject "^3.0.0"
     lazy-cache "^2.0.2"
-
-utf8@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/utf8/-/utf8-2.1.2.tgz#1fa0d9270e9be850d9b05027f63519bf46457d96"
 
 util-deprecate@~1.0.1:
   version "1.0.2"

@@ -1,5 +1,6 @@
 import { pick } from 'lodash';
-import { CommonVoiceConfig } from '../../config-helper';
+import { getConfig } from '../../config-helper';
+import { hash } from '../utility';
 import Mysql from './db/mysql';
 import Schema from './db/schema';
 import { UserTable } from './db/tables/user-table';
@@ -9,23 +10,21 @@ import VoteTable from './db/tables/vote-table';
 
 export default class DB {
   clip: ClipTable;
-  config: CommonVoiceConfig;
   mysql: Mysql;
   schema: Schema;
   user: UserTable;
   userClient: UserClientTable;
   vote: VoteTable;
 
-  constructor(config: CommonVoiceConfig) {
-    this.config = config;
-    this.mysql = new Mysql(this.config);
+  constructor() {
+    this.mysql = new Mysql();
 
     this.clip = new ClipTable(this.mysql);
     this.user = new UserTable(this.mysql);
     this.userClient = new UserClientTable(this.mysql);
     this.vote = new VoteTable(this.mysql);
 
-    this.schema = new Schema(this.mysql, config);
+    this.schema = new Schema(this.mysql);
   }
 
   /**
@@ -50,7 +49,7 @@ export default class DB {
   ): Promise<void> {
     let { age, accent, email, gender } = fields;
     email = this.formatEmail(email);
-    await this.mysql.exec(
+    await this.mysql.query(
       `
         INSERT INTO user_clients (client_id, bucket) VALUES (?, ?)
         ON DUPLICATE KEY UPDATE client_id = client_id
@@ -78,7 +77,7 @@ export default class DB {
    * I hope you know what you're doing.
    */
   async drop(): Promise<void> {
-    if (!this.config.PROD) {
+    if (!getConfig().PROD) {
       await this.schema.dropDatabase();
     }
   }
@@ -99,7 +98,7 @@ export default class DB {
   }
 
   async getListenerCount(): Promise<number> {
-    return (await this.mysql.exec(
+    return (await this.mysql.query(
       `
         SELECT COUNT(DISTINCT user_clients.client_id) AS count
         FROM user_clients
@@ -109,7 +108,7 @@ export default class DB {
   }
 
   async getSubmitterCount(): Promise<number> {
-    return (await this.mysql.exec(
+    return (await this.mysql.query(
       `
         SELECT DISTINCT COUNT(DISTINCT user_clients.client_id) AS count
         FROM user_clients
@@ -136,7 +135,7 @@ export default class DB {
     bucket: string,
     count: number
   ): Promise<string[]> {
-    return (await this.mysql.exec(
+    return (await this.mysql.query(
       `
         SELECT text
         FROM sentences
@@ -151,7 +150,7 @@ export default class DB {
   }
 
   async findClipsWithFewVotes(limit: number): Promise<DBClipWithVoters[]> {
-    const [clips] = await this.mysql.exec(
+    const [clips] = await this.mysql.query(
       `
       SELECT clips.*,
         GROUP_CONCAT(votes.client_id) AS voters,
@@ -172,8 +171,16 @@ export default class DB {
     return clips as DBClipWithVoters[];
   }
 
+  async saveUserClient(id: string) {
+    await this.mysql.query(
+      'INSERT INTO user_clients (client_id) VALUES (?) ON DUPLICATE KEY UPDATE client_id = client_id',
+      [id]
+    );
+  }
+
   async saveVote(id: string, client_id: string, is_valid: string) {
-    await this.mysql.exec(
+    await this.saveUserClient(client_id);
+    await this.mysql.query(
       `
       INSERT INTO votes (clip_id, client_id, is_valid) VALUES (?, ?, ?)
       ON DUPLICATE KEY UPDATE is_valid = VALUES(is_valid)
@@ -193,30 +200,27 @@ export default class DB {
     path: string;
     sentence: string;
   }): Promise<DBClip> {
-    try {
-      await this.mysql.exec(
-        'INSERT INTO user_clients (client_id) VALUES (?) ON DUPLICATE KEY UPDATE client_id = client_id',
-        [client_id]
-      );
-      await this.mysql.exec(
-        `
-          INSERT INTO clips (client_id, original_sentence_id, path, sentence, bucket)
-            (SELECT ?, ?, ?, ?, bucket FROM user_clients WHERE client_id = ? LIMIT 1)
-            ON DUPLICATE KEY UPDATE id = id
-        `,
-        [client_id, original_sentence_id, path, sentence, client_id]
-      );
-      const [[row]] = await this.mysql.exec(
-        'SELECT * FROM clips WHERE id = LAST_INSERT_ID()'
-      );
-      return row;
-    } catch (e) {
-      console.error('No sentence found with id', original_sentence_id, e);
-    }
+    const sentenceId = hash(sentence);
+    await Promise.all([
+      this.saveUserClient(client_id),
+      this.insertSentence(sentenceId, sentence),
+    ]);
+    await this.mysql.query(
+      `
+        INSERT INTO clips (client_id, original_sentence_id, path, sentence, bucket)
+          (SELECT ?, ?, ?, ?, bucket FROM user_clients WHERE client_id = ? LIMIT 1)
+          ON DUPLICATE KEY UPDATE id = id
+      `,
+      [client_id, sentenceId, path, sentence, client_id]
+    );
+    const [[row]] = await this.mysql.query(
+      'SELECT * FROM clips WHERE id = LAST_INSERT_ID()'
+    );
+    return row;
   }
 
   async getValidatedClipsCount() {
-    const [[{ count }]] = await this.mysql.exec(
+    const [[{ count }]] = await this.mysql.query(
       `
         SELECT COUNT(*) AS count
         FROM (
@@ -232,10 +236,10 @@ export default class DB {
   }
 
   async insertSentence(id: string, sentence: string) {
-    await this.mysql.exec('INSERT INTO sentences (id, text) VALUES (?, ?)', [
-      id,
-      sentence,
-    ]);
+    await this.mysql.query(
+      'INSERT INTO sentences (id, text) VALUES (?, ?) ON DUPLICATE KEY UPDATE id = id',
+      [id, sentence]
+    );
   }
 
   async empty() {
@@ -251,20 +255,55 @@ export default class DB {
   }
 
   async findClip(id: string) {
-    return (await this.mysql.exec('SELECT * FROM clips WHERE id = ? LIMIT 1', [
+    return (await this.mysql.query('SELECT * FROM clips WHERE id = ? LIMIT 1', [
       id,
     ]))[0][0];
   }
 
+  async getRequestedLanguages(): Promise<string[]> {
+    const [rows] = await this.mysql.query(
+      'SELECT language FROM requested_languages'
+    );
+    return rows.map((row: any) => row.language);
+  }
+
+  async findRequestedLanguageId(language: string): Promise<number | null> {
+    const [[row]] = await this.mysql.query(
+      'SELECT * FROM requested_languages WHERE LOWER(language) = LOWER(?) LIMIT 1',
+      [language]
+    );
+    return row ? row.id : null;
+  }
+
+  async createLanguageRequest(language: string, client_id: string) {
+    language = language.trim();
+    let requestedLanguageId = await this.findRequestedLanguageId(language);
+    if (!requestedLanguageId) {
+      await this.mysql.query(
+        'INSERT INTO requested_languages (language) VALUES (?)',
+        [language]
+      );
+      requestedLanguageId = await this.findRequestedLanguageId(language);
+    }
+    await this.mysql.query(
+      `
+        INSERT INTO language_requests (requested_languages_id, client_id)
+        VALUES (LAST_INSERT_ID(), ?)
+        ON DUPLICATE KEY UPDATE client_id = client_id
+      `,
+      [client_id]
+    );
+  }
+
   async getClipBucketCounts() {
-    const [rows] = await this.mysql.exec(
+    const [rows] = await this.mysql.query(
       'SELECT bucket, COUNT(bucket) AS count FROM clips GROUP BY bucket'
     );
     return rows;
   }
 
   async getUserClient(client_id: string) {
-    const [[row]] = await this.mysql.exec(
+    const [[row]] = await this.mysql.query(
       'SELECT * FROM user_clients WHERE client_id = ?',
       [client_id]
     );

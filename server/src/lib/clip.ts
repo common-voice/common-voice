@@ -3,11 +3,11 @@ import { PassThrough } from 'stream';
 import { S3 } from 'aws-sdk';
 import { Request, Response } from 'express';
 const PromiseRouter = require('express-promise-router');
-import { CommonVoiceConfig } from '../config-helper';
+import { getConfig } from '../config-helper';
 import { AWS } from './aws';
 import Model from './model';
 import Bucket from './bucket';
-import { ClientParameterError, ServerError } from './utility';
+import { ClientParameterError } from './utility';
 
 const Transcoder = require('stream-transcoder');
 
@@ -25,16 +25,14 @@ export const hash = (str: string) =>
  * Clip - Responsibly for saving and serving clips.
  */
 export default class Clip {
-  private config: CommonVoiceConfig;
   private s3: S3;
   private bucket: Bucket;
   private model: Model;
 
-  constructor(config: CommonVoiceConfig, model: Model) {
-    this.config = config;
+  constructor(model: Model) {
     this.s3 = AWS.getS3();
     this.model = model;
-    this.bucket = new Bucket(this.config, this.model, this.s3);
+    this.bucket = new Bucket(this.model, this.s3);
   }
 
   getRouter() {
@@ -70,7 +68,7 @@ export default class Clip {
 
     await this.s3
       .putObject({
-        Bucket: this.config.BUCKET_NAME,
+        Bucket: getConfig().BUCKET_NAME,
         Key: voteFile,
         Body: isValid.toString(),
       })
@@ -101,7 +99,7 @@ export default class Clip {
 
     // if the folder does not exist, we create it
     await this.s3
-      .putObject({ Bucket: this.config.BUCKET_NAME, Key: folder })
+      .putObject({ Bucket: getConfig().BUCKET_NAME, Key: folder })
       .promise();
 
     // If upload was base64, make sure we decode it first.
@@ -128,7 +126,7 @@ export default class Clip {
     await Promise.all([
       this.s3
         .upload({
-          Bucket: this.config.BUCKET_NAME,
+          Bucket: getConfig().BUCKET_NAME,
           Key: clipFileName,
           Body: transcoder
             .audioCodec('mp3')
@@ -138,7 +136,7 @@ export default class Clip {
         .promise(),
       this.s3
         .putObject({
-          Bucket: this.config.BUCKET_NAME,
+          Bucket: getConfig().BUCKET_NAME,
           Key: sentenceFileName,
           Body: sentence,
         })

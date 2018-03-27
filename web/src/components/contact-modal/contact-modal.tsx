@@ -21,7 +21,7 @@ export default ({ onRequestClose }: Props) => (
 
       <br />
 
-      <Localized id="contact-form-email" attrs={{ label: true }}>
+      <Localized id="email-input" attrs={{ label: true }}>
         <LabeledInput label="Email" name="email" required type="text" />
       </Localized>
 
@@ -37,7 +37,7 @@ export default ({ onRequestClose }: Props) => (
         <Localized id="contact-required">
           <div />
         </Localized>
-        <Localized id="contact-submit">
+        <Localized id="submit-form-action">
           <Button type="submit" />
         </Localized>
         <div />

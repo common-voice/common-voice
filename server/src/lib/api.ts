@@ -1,7 +1,7 @@
 import * as bodyParser from 'body-parser';
 import { NextFunction, Request, Response, Router } from 'express';
 const PromiseRouter = require('express-promise-router');
-import { CommonVoiceConfig } from '../config-helper';
+import { getConfig } from '../config-helper';
 import Model from './model';
 import Clip from './clip';
 import Prometheus from './prometheus';
@@ -9,16 +9,14 @@ import { AWS } from './aws';
 import { ClientParameterError, ServerError } from './utility';
 
 export default class API {
-  config: CommonVoiceConfig;
   model: Model;
   clip: Clip;
   metrics: Prometheus;
 
-  constructor(config: CommonVoiceConfig, model: Model) {
-    this.config = config;
+  constructor(model: Model) {
     this.model = model;
-    this.clip = new Clip(this.config, this.model);
-    this.metrics = new Prometheus(this.config);
+    this.clip = new Clip(this.model);
+    this.metrics = new Prometheus();
   }
 
   getRouter(): Router {
@@ -60,6 +58,9 @@ export default class API {
       this.clip.getRouter()
     );
 
+    router.get('/requested_languages', this.getRequestedLanguages);
+    router.post('/requested_languages', this.createLanguageRequest);
+
     router.use('*', (request: Request, response: Response) => {
       response.sendStatus(404);
     });
@@ -82,7 +83,7 @@ export default class API {
 
     await AWS.getS3()
       .putObject({
-        Bucket: this.config.BUCKET_NAME,
+        Bucket: getConfig().BUCKET_NAME,
         Key: demographicFile,
         Body: JSON.stringify(demographic),
       })
@@ -107,5 +108,15 @@ export default class API {
       throw new ServerError('No sentences right now');
     }
     response.json(sentences);
+  };
+
+  getRequestedLanguages = async (request: Request, response: Response) => {
+    response.json(await this.model.db.getRequestedLanguages());
+  };
+
+  createLanguageRequest = async (request: Request, response: Response) => {
+    await this.model.db.createLanguageRequest(request.body.language, request
+      .headers.uid as string);
+    response.json({});
   };
 }

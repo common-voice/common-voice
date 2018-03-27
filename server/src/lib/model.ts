@@ -1,5 +1,4 @@
 import DB from './model/db';
-import { CommonVoiceConfig } from '../config-helper';
 import { DBClipWithVoters } from './model/db/tables/clip-table';
 import Cache from './cache';
 import {
@@ -13,8 +12,7 @@ import {
  * The Model loads all clip and user data into memory for quick access.
  */
 export default class Model {
-  config: CommonVoiceConfig;
-  db: DB;
+  db = new DB();
   clipCache = new Cache(count => this.db.findClipsWithFewVotes(count));
   sentencesCaches: { [bucket: string]: Cache<string> } = Object.keys(
     IDEAL_SPLIT
@@ -33,9 +31,7 @@ export default class Model {
     test: 0,
   };
 
-  constructor(config: CommonVoiceConfig) {
-    this.config = config;
-    this.db = new DB(this.config);
+  constructor() {
     this.cacheClipDistribution().catch((e: any) => {
       console.error(e);
     });

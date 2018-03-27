@@ -13,14 +13,45 @@ Help us add more sentences for other volunteers to read. See [issue 341](https:/
 ### Bug Fixes and Feature Enhancements
 All of our current issues can be found here on GitHub. Anything with a [help wanted](https://github.com/mozilla/voice-web/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) tag is up for grabs.
 
-#### Requirements
+#### Project requirements
 - [NodeJS](https://nodejs.org) (v7 or higher)
 - [npm](https://www.npmjs.com) (v4 or higher)
 - [yarn](https://yarnpkg.com) (v1 or higher)
 - [ffmpeg](https://www.ffmpeg.org/download.html)
-- [MariaDB](https://mariadb.org/download/) or [MySQL](https://www.mysql.com/downloads/)
+- [MariaDB](https://mariadb.org/download/) (v10 or higher) or [MySQL](https://www.mysql.com/downloads/) (v5.6 or higher)
 
-#### Local Development
+#### Docker setup
+
+We provide a [docker-compose](https://docs.docker.com/compose/) setup to orchestrate the local development environment configuration using [docker](https://www.docker.com/).
+
+##### Requirements
+
+- [docker](https://www.docker.com/)
+- [docker-compose](https://docs.docker.com/compose/)
+
+##### Setup
+
+[Fork](https://help.github.com/articles/fork-a-repo/) and [clone](https://help.github.com/articles/cloning-a-repository/) the repository onto your computer.
+Then run the following commands to spin off `voice-web`:
+
+
+```
+> cd voice-web
+> docker-compose up
+```
+
+This is going to:
+
+- Launch a mysql instance configured for `voice-web`
+- Launch an s3proxy instance to store files locally and avoid going through setting up AWS S3.
+- Mount the project using a docker volume to allow reflecting changes to the codebase directly to the container.
+- Launch `voice-web` server
+
+You can visit the website at [http://localhost:9000](http://localhost:9000).
+
+#### Local setup
+
+###### Requirements
 
 [Fork](https://help.github.com/articles/fork-a-repo/) and [clone](https://help.github.com/articles/cloning-a-repository/) the repository onto your computer.
 
@@ -63,7 +94,13 @@ export const down = async function(): Promise<any> {
 
 ```
 
-Migrations are always run when the server is started. 
+Migrations are always run when the server is started.
+
+#### Localizing Strings
+We're using fluent to localize strings. You can find examples all over the frontend code. Some things to note:
+- When adding new strings, make sure that no similar strings already exist. If so, reuse those, so that translators don't
+have unnecessary extra work
+ - When modifying existing strings, make sure to also rename it in all `messages.ftl` files
 
 #### Need Help?
 For more options, just type:

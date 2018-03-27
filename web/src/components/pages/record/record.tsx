@@ -19,8 +19,11 @@ import Review from './review';
 const MIN_RECORDING_LENGTH = 300; // ms
 const MAX_RECORDING_LENGTH = 10000; // ms
 const MIN_VOLUME = 1;
-const ERR_SENTENCES_NOT_LOADED =
-  'Sorry! Sentences are being loaded, please wait or try again shortly.';
+const ERR_SENTENCES_NOT_LOADED = (
+  <div className="text-box no-sentences-error">
+    <p>Sorry! Sentences are being loaded, please wait or try again shortly.</p>
+  </div>
+);
 const RECORD_DEBOUNCE_MS = 300;
 
 const UnsupportedInfo = () => (
@@ -374,7 +377,8 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
             )}
           </div>
           <p id="recordings-count">
-            {!reRecordSentence && <span>{recordingsCount + 1} of 3</span>}
+            {areSentencesLoaded &&
+              !reRecordSentence && <span>{recordingsCount + 1} of 3</span>}
           </p>
           {areSentencesLoaded && (
             <Localized id="record-help">

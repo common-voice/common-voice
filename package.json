@@ -40,6 +40,7 @@
     "db-migrate": "^0.10.2",
     "db-migrate-mysql": "^1.1.10",
     "db-migrate-plugin-typescript": "^2.0.0",
+    "downshift": "^1.30.0",
     "es6-promise": "^4.1.1",
     "eslint": "^4.7.2",
     "eslint-plugin-prettier": "^2.3.1",
@@ -52,6 +53,7 @@
     "fluent-langneg": "^0.1.0",
     "fluent-react": "^0.6.1",
     "glob": "7.1.2 ",
+    "iso-639-1": "^2.0.3",
     "jest": "^22.1.1",
     "js-md5": "^0.6.1",
     "lodash.debounce": "^4.0.8",
@@ -87,7 +89,6 @@
     "typescript": "^2.5.2",
     "typescript-eslint-parser": "^12.0.0",
     "uglifyjs-webpack-plugin": "^1.1.6",
-    "utf8": "^2.1.2",
     "walk": "^2.3.9",
     "webpack": "^3.7.1",
     "webpack-merge": "^4.1.0"
@@ -95,7 +96,6 @@
   "devDependencies": {
     "bundlesize": "^0.15.3",
     "chalk": "^2.3.0",
-    "eslint-loader": "^1.9.0",
     "jest-matcher-utils": "^22.4.0",
     "nodemon": "^1.12.1",
     "pre-commit": "^1.2.2",
@@ -114,7 +114,7 @@
     "prettier": "yarn lint --fix",
     "start": "node scripts/dev-server.js",
     "start:prod": "node server/js/server.js",
-    "test": "jest && yarn build && bundlesize -f \"web/dist/*.js\" -s 100kb"
+    "test": "jest && yarn build && bundlesize -f \"web/dist/*.js\" -s 110kb"
   },
   "pre-commit": [
     "prettier"

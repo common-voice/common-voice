@@ -1,13 +1,15 @@
 @import url('vars.css');
-@import url('nav.css');
+@import url('layout/nav.css');
 @import url('alert/alert.css');
 @import url('contact-modal/contact-modal.css');
 @import url('listen-box/listen-box.css');
 @import url('modal/modal.css');
 @import url('pages/data/data.css');
 @import url('pages/home/home.css');
+@import url('pages/languages/help-translate-modal.css');
 @import url('pages/record/record.css');
 @import url('profile-form/profile-form.css');
+@import url('request-language-modal/request-language-modal.css');
 @import url('ui/ui.css');
 
 /* Define our icon font. */
@@ -655,4 +657,28 @@ body:not(.ios) .recording #background-container {
     font-weight: 600;
     text-decoration: underline;
     cursor: pointer;
+}
+
+.opt-in {
+    display: flex;
+    font-size: var(--small-font-size);
+}
+
+.opt-in input {
+    margin: .1rem .3rem .1rem .1rem;
+    width: .8rem;
+    height: .8rem;
+}
+
+.opt-in input:checked {
+    background: black;
+}
+
+.small {
+    font-size: var(--small-font-size);
+    color: var(--grey-font-color);
+}
+
+a.small, .small a {
+    text-decoration: underline;
 }

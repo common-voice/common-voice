@@ -1,10 +1,20 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
 
-export const Button = ({ className = '', outline = false, ...props }) => (
+export const Button = ({
+  className = '',
+  outline = false,
+  rounded = false,
+  ...props
+}) => (
   <button
     type="button"
-    className={['button', outline ? 'outline' : '', className].join(' ')}
+    className={[
+      'button',
+      outline ? 'outline' : '',
+      rounded ? 'rounded' : '',
+      className,
+    ].join(' ')}
     {...props}
   />
 );
@@ -25,7 +35,11 @@ const LabeledFormControl = ({
   required,
   ...props
 }: any) => (
-  <label className={'labeled-form-control ' + className} {...props}>
+  <label
+    className={['labeled-form-control', 'for-' + Component, className].join(
+      ' '
+    )}
+    {...props}>
     {label}
     {required && '*'}
     <Component {...{ required, ...props }} />

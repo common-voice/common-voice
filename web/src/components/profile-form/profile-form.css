@@ -43,24 +43,6 @@
     width: 100%;
 }
 
-#opt-in {
-    display: flex;
-}
-
-#opt-in {
-    font-size: var(--small-font-size);
-}
-
-#opt-in input {
-    margin: .1rem .3rem .1rem .1rem;
-    width: .8rem;
-    height: .8rem;
-}
-
-#opt-in input:checked {
-    background: black;
-}
-
 #profile-card .buttons {
     width: 100%;
     display: flex;

@@ -112,7 +112,7 @@ class ProfileForm extends React.Component<Props, State> {
         <br />
 
         <form onSubmit={this.save}>
-          <Localized id="profile-form-email" attrs={{ label: true }}>
+          <Localized id="email-input" attrs={{ label: true }}>
             <LabeledInput
               className="half-width"
               label="Email"
@@ -134,14 +134,14 @@ class ProfileForm extends React.Component<Props, State> {
             />
           </Localized>
 
-          <label id="opt-in">
+          <label className="opt-in">
             <input
               onChange={this.update}
               name="sendEmails"
               type="checkbox"
               checked={sendEmails}
             />
-            <Localized id="profile-form-emails">
+            <Localized id="yes-receive-emails">
               <span />
             </Localized>
           </label>

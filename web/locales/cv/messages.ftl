@@ -40,11 +40,11 @@ status-more-soon = Ытти чӗлхеллӗ те пулӗ!
 
 ## ProfileForm
 
-profile-form-email =
+email-input =
     .label = Эл. пуштӑ
 profile-form-username =
     .label = Ят
-profile-form-emails = Паллах, эл. пуштӑ килтер. Манӑн Common Voice Project аталанни пирки пӗлес килет. 
+yes-receive-emails = Паллах, эл. пуштӑ килтер. Манӑн Common Voice Project аталанни пирки пӗлес килет.
 profile-form-language =
     .label = Чӗлхе
 profile-form-more-languages = Ытти чӗлхеллӗ те пулӗ!

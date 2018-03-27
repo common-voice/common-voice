@@ -1,13 +1,44 @@
 require('fluent-intl-polyfill');
 const { MessageContext } = require('fluent');
 const { negotiateLanguages } = require('fluent-langneg');
+import { isProduction } from '../utility';
 import API from './api';
 
-const SUPPORTED_LOCALES = ['en'];
+export const DEFAULT_LOCALE = 'en';
+export const LOCALES = isProduction()
+  ? [DEFAULT_LOCALE]
+  : [
+      'es-CL',
+      'ca',
+      'zh-TW',
+      'el',
+      'en',
+      'nn-NO',
+      'id',
+      'sv-SE',
+      'sk',
+      'tt',
+      'cv',
+      'tr',
+      'de',
+      'cs',
+      'cy',
+      'th',
+      'pt-BR',
+      'ru',
+      'mk',
+      'fr',
+      'pl',
+      'fy-NL',
+      'he',
+      'zh-CN',
+      'nl',
+      'sq',
+    ];
 
 export async function createMessagesGenerator(api: API, userLocales: string[]) {
-  const currentLocales = negotiateLanguages(userLocales, SUPPORTED_LOCALES, {
-    defaultLocale: 'en',
+  const currentLocales = negotiateLanguages(userLocales, LOCALES, {
+    defaultLocale: DEFAULT_LOCALE,
   });
 
   const localeMessages: any = await Promise.all(

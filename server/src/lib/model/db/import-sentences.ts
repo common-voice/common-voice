@@ -1,6 +1,5 @@
 import * as fs from 'fs';
 import * as path from 'path';
-const utf8 = require('utf8');
 import promisify from '../../../promisify';
 import { hash } from '../../clip';
 import {
@@ -11,7 +10,6 @@ import {
 
 const CWD = process.cwd();
 const SENTENCE_FOLDER = path.resolve(CWD, 'server/data/');
-const UNUSED_FOLDER = path.join(SENTENCE_FOLDER, 'not-used');
 
 const CHUNK_SIZE = 50;
 
@@ -125,8 +123,7 @@ export async function importSentences(pool: any) {
   const distribution = rowsToDistribution(rows);
 
   for (const sentence of await loadSentences(SENTENCE_FOLDER)) {
-    const encodedSentence = utf8.encode(sentence).trim();
-    const id = hash(encodedSentence);
+    const id = hash(sentence);
 
     const [[sentenceExists]] = await pool.query(
       'SELECT 1 FROM sentences WHERE id = ?',
@@ -142,20 +139,9 @@ export async function importSentences(pool: any) {
       distribution[bucket]++;
       await pool.query(
         'INSERT INTO sentences (id, text, is_used, bucket) VALUES (?, ?, TRUE, ?)',
-        [id, encodedSentence, bucket]
+        [id, sentence, bucket]
       );
     }
-  }
-
-  for (const sentence of await loadSentences(UNUSED_FOLDER)) {
-    const encodedSentence = utf8.encode(sentence).trim();
-    await pool.query(
-      `
-        INSERT INTO sentences (id, text, is_used) VALUES (?, ?, FALSE)
-        ON DUPLICATE KEY UPDATE is_used = FALSE
-      `,
-      [hash(encodedSentence), encodedSentence]
-    );
   }
 
   const [[{ count }]] = (await pool.query(

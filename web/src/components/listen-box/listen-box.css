@@ -3,6 +3,7 @@
     margin-bottom: calc(2 * var(--standard-margin));
     opacity: 0.3;
     pointer-events: none;
+    outline: none;
 }
 
 @media (--mobile) {

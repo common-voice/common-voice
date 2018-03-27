@@ -1,3 +1,12 @@
+## General
+yes-receive-emails = Yes, send me emails. I’d like to stay informed about the Common Voice Project.
+stayintouch = We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.
+privacy-info = We promise to handle your information with care. Read more in our <privacyLink>Privacy Notice</privacyLink>.
+return-to-cv = Return to Common Voice
+email-input =
+    .label = Email
+submit-form-action = Submit
+
 ## Layout
 speak = Speak
 datasets = Datasets
@@ -31,6 +40,8 @@ wall-of-text-more-desktop =
 show-wall-of-text = Read More
 help-us-title = Help us validate sentences!
 help-us-explain = Press play, listen & tell us: did they accurately speak the sentence below?
+request-language-text = Don't see your language on Common Voice yet?
+request-language-button = Request a Language
 
 ## ProjectStatus
 status-title = Overall project status: see how far we’ve come!
@@ -47,11 +58,8 @@ status-goal = Next Goal: { $goal }
 status-more-soon = More languages coming soon!
 
 ## ProfileForm
-profile-form-email =
-    .label = Email
 profile-form-username =
     .label = User Name
-profile-form-emails = Yes, send me emails. I’d like to stay informed about the Common Voice Project.
 profile-form-language =
     .label = Language
 profile-form-more-languages = More languages coming soon!
@@ -168,20 +176,32 @@ download-helpus = Help us build a community around voice technology, stay in tou
 download-form-email =
     .label = Enter your email
     .value = Thank you, we'll be in touch.
-download-form-submit = Submit
 download-back = Return to Common Voice Datasets
 download-no = No Thanks
-download-stayintouch = We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.
-download-privacy = We promise to handle your information with care. Read more in our <privacyLink>Privacy Notice</privacyLink>.
 
-## Contact
+## Contact Modal
 contact-title = Contact Form
 contact-cancel = Cancel
-contact-form-email =
-    .label = Email
 contact-form-name =
     .label = Name
 contact-form-message =
     .label = Message
 contact-required = *required
-contact-submit = Submit
+
+## Request Language Modal
+request-language-title = Language Request
+request-language-cancel = Exit Form
+request-language-form-language =
+    .label = Language
+request-language-success-title = Language request successfully submitted, thank you.
+request-language-success-text = We will be in touch with more information about your language when it becomes available.
+
+## Help Translate Modal
+help-translate-title = Help Translate { $language }
+help-translate-cancel = Exit
+help-translate-text = We will route you to Mozilla's translation tool, <pontoonLink>Pontoon</pontoonLink>, where this language is currently undergoing open translation.
+language-updates-title = Sign up for { $language } updates
+help-translate-link= Take Me To Pontoon
+language-updates-success-title = { $language } update request successfully submitted, thank you.
+language-updates-success-text = We will be in touch with more information as it becomes available.
+language-updates-success-collapsed-title = You're signed up for { $language } updates

@@ -1,4 +1,4 @@
-import { CommonVoiceConfig, getConfig } from '../../config-helper';
+import { getConfig, injectConfig } from '../../config-helper';
 import RealServer from '../../server';
 import Mysql from '../../lib/model/db/mysql';
 
@@ -8,20 +8,20 @@ const DB_PREFIX = 'test_';
  * Server testing harness.
  */
 export default class ServerHarness {
-  config: CommonVoiceConfig;
   server: RealServer;
 
-  constructor(config?: CommonVoiceConfig) {
-    this.config = config || getConfig();
+  constructor() {
+    const config = getConfig();
     // Use a different database name then default for tests.
-    this.config.MYSQLDBNAME =
+    config.MYSQLDBNAME =
       DB_PREFIX +
-      this.config.MYSQLDBNAME +
+      config.MYSQLDBNAME +
       '_' +
       Math.random()
         .toString(36)
         .substring(7);
-    this.server = new RealServer(this.config);
+    injectConfig(config);
+    this.server = new RealServer();
   }
 
   get mysql(): Mysql {

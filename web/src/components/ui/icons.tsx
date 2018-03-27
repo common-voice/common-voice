@@ -2,7 +2,10 @@ import * as React from 'react';
 
 const Icon = (path: string) => (props: any) => <img src={path} {...props} />;
 
-export const CloseIcon = Icon('/img/close.svg');
+export const CloseIcon = ({ black, ...props }: any) => {
+  const RealIcon = Icon(`/img/close${black ? '-black' : ''}.svg`);
+  return <RealIcon {...props} />;
+};
 
 export const ContactIcon = Icon('/img/contact.svg');
 

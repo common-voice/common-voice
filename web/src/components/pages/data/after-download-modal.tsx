@@ -1,13 +1,13 @@
+const { Localized } = require('fluent-react');
 import * as React from 'react';
-const { Fragment } = require('react');
 import { connect } from 'react-redux';
 import { trackDataset } from '../../../services/tracker';
 import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
 import Modal from '../../modal/modal';
+import PrivacyInfo from '../../privacy-info';
 import { SuccessIcon } from '../../ui/icons';
 import { Button, LabeledInput } from '../../ui/ui';
-const { Localized } = require('fluent-react');
 
 const AUTO_HIDE_TIME_MS = 5000;
 
@@ -69,7 +69,7 @@ class AfterDownloadModal extends React.Component<Props, State> {
         </div>
 
         {!titleOnly && (
-          <Fragment>
+          <React.Fragment>
             <form onSubmit={this.handleSubmit}>
               <Localized id="download-helpus">
                 <p />
@@ -90,7 +90,7 @@ class AfterDownloadModal extends React.Component<Props, State> {
               </Localized>
 
               {!isSubmitted && (
-                <Localized id="download-form-submit">
+                <Localized id="submit-form-action">
                   <Button type="submit" outline />
                 </Localized>
               )}
@@ -112,24 +112,9 @@ class AfterDownloadModal extends React.Component<Props, State> {
 
               {isSubmitted && <br />}
 
-              <Localized id="download-stayintouch">
-                <p className="fine-print" />
-              </Localized>
-              <br />
-
-              <Localized
-                id="download-privacy"
-                privacyLink={
-                  <a
-                    href="/privacy"
-                    target="__blank"
-                    rel="noopener noreferrer"
-                  />
-                }>
-                <p className="fine-print" />
-              </Localized>
+              <PrivacyInfo />
             </form>
-          </Fragment>
+          </React.Fragment>
         )}
       </Modal>
     );
