@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import Modal from '../../modal/modal';
 import { CloseIcon, SuccessIcon } from '../../ui/icons';
 import { Button, Hr, LabeledInput } from '../../ui/ui';
+import { RequestedLanguages } from '../../../stores/requested-langauges';
 import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
 import PrivacyInfo from '../../privacy-info';
@@ -13,6 +14,7 @@ interface PropsFromState {
 }
 
 interface PropsFromDispatch {
+  createLanguageRequest: typeof RequestedLanguages.actions.create;
   updateUser: typeof User.actions.update;
 }
 
@@ -48,6 +50,7 @@ class RequestLanguageModal extends React.Component<Props, State> {
   private save = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const { email, sendEmails } = this.state;
+    this.props.createLanguageRequest(this.props.locale.name);
     this.props.updateUser({ email, sendEmails });
     this.setState({ isSubmitted: true });
   };
@@ -199,6 +202,7 @@ const mapStateToProps = (state: StateTree) => ({
 });
 
 const mapDispatchToProps = {
+  createLanguageRequest: RequestedLanguages.actions.create,
   updateUser: User.actions.update,
 };
 
