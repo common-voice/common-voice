@@ -90,12 +90,14 @@ notfound-content = 很抱歉，找不到您想找的東西。
 ## Privacy
 
 privacy-title = Common Voice 隱私權公告
+privacy-effective = 生效日 { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
 privacy-policy = 當 Mozilla（也就是我們）收到您提供的資訊時，我們的 <policy>Mozilla 隱私權保護政策</policy>描述了我們會如何處理該資訊。
 privacy-more = <more>了解更多</more>
 
 ## Terms
 
 terms-title = Common Voice 法律條款
+terms-effective = 生效日 { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
 terms-privacy-title = 隱私權
 terms-privacy-content = 我們的<privacyLink>隱私權公告</privacyLink>解釋了我們會如何接收並處理您的資料。
 terms-contributions-title = 您的貢獻與權利放棄聲明
@@ -175,3 +177,6 @@ help-translate-cancel = 結束
 help-translate-text = 我們將帶您到 Mozilla 的翻譯站 <pontoonLink>Pontoon</pontoonLink>，翻譯作業於該網站上進行。
 language-updates-title = 訂閱 { $language } 的最新消息電子報
 help-translate-link = 帶我去 Pontoon
+language-updates-success-title = 成功收到 { $language } 的更新請求，感謝您。
+language-updates-success-text = 我們將在有更多資訊時連絡您。
+language-updates-success-collapsed-title = 您已登記要取得關於 { $language } 的最新消息
