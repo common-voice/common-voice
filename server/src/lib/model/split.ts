@@ -35,6 +35,8 @@ export function normalize(split: Split) {
 export function calculateCompensatorySplit(realSplit: Split): Split {
   const compensatorySplit: any = {};
 
+  // Normalize the real split (so that the values sum up to 1) and set the split to the difference
+  // from the ideal (or zero)
   for (const [bucket, count] of Object.entries(normalize(realSplit))) {
     const typedBucket = bucket as keyof Split;
     compensatorySplit[typedBucket] = Math.max(
@@ -43,15 +45,10 @@ export function calculateCompensatorySplit(realSplit: Split): Split {
     );
   }
 
-  const totalShares = sumValues(compensatorySplit);
-
-  if (totalShares === 0) return IDEAL_SPLIT;
-
-  for (const [bucket, share] of Object.entries(compensatorySplit)) {
-    compensatorySplit[bucket] = share / totalShares;
-  }
-
-  return compensatorySplit;
+  // When the value sum up to 0, we're already at the ideal split
+  return sumValues(compensatorySplit) === 0
+    ? IDEAL_SPLIT
+    : normalize(compensatorySplit);
 }
 
 /**
