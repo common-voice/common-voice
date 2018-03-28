@@ -2,11 +2,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import promisify from '../../../promisify';
 import { hash } from '../../clip';
-import {
-  calculateCompensatorySplit,
-  randomBucketFromDistribution,
-  rowsToDistribution,
-} from '../split';
+import { randomBucketFromDistribution, rowsToDistribution } from '../split';
 
 const CWD = process.cwd();
 const SENTENCE_FOLDER = path.resolve(CWD, 'server/data/');
