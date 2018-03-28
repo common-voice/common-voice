@@ -19,7 +19,7 @@ const sumValues = (split: Split): number =>
   Object.values(split).reduce((sum, n) => sum + n, 0);
 
 export function normalize(split: Split) {
-  const totalCount = sumValues(split);
+  const totalCount = sumValues(split) || 1;
   return Object.entries(split)
     .map(([key, count]) => [key, count / totalCount])
     .reduce((obj: any, [key, value]) => {
