@@ -33,26 +33,6 @@
     margin-bottom: 2rem;
 }
 
-.progress-bar {
-    margin: var(--standard-margin) 0;
-    height: 2rem;
-    width: 100%;
-    background: var(--color-grey-background);
-}
-
-.progress-bar .validated-hours {
-    height: 100%;
-    box-sizing: border-box;
-    padding-right: var(--standard-margin);
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    color: white;
-    font-weight: bold;
-    background: var(--color-listen);
-    transition: width 500ms var(--easing);
-}
-
 .language-progress .numbers {
     display: flex;
     justify-content: space-between;

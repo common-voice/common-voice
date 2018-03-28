@@ -1,7 +1,10 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
+import ProgressBar from '../../progress-bar/progress-bar';
 import API from '../../../services/api';
 import StateTree from '../../../stores/tree';
+import RequestLanguageModal from '../../request-language-modal/request-language-modal';
+import { Button, Hr } from '../../ui/ui';
 import HelpTranslateModal from './help-translate-modal';
 
 const EN_POPULATION = 1522575000;
@@ -25,12 +28,22 @@ const LocalizationBox = ({
   onShowHelpTranslateModal?: (locale: Locale) => any;
   progress: number;
 }) => (
-  <div style={{ width: '33%' }}>
-    <h2>{locale.name}</h2>
-    <b>Population: </b>
-    {locale.population.toLocaleString()}
-    <br />
-    <b>Translated:</b> {Math.round(progress * 100)}%
+  <div className="language">
+    <div className="info">
+      <h2>{locale.name}</h2>
+      <div className="numbers">
+        <div>
+          <span>Speakers</span>
+          <b>{locale.population.toLocaleString()}</b>
+        </div>
+        <Hr />
+        <div>
+          <span>Total</span>
+          <b>{Math.round(progress * 100)}%</b>
+        </div>
+        <ProgressBar progress={progress} />
+      </div>
+    </div>
     {onShowHelpTranslateModal && (
       <button onClick={() => onShowHelpTranslateModal(locale)}>
         Help Translate!
@@ -45,6 +58,7 @@ interface State {
   localizations: any;
   showAll: boolean;
   showHelpTranslateModalFor: Locale;
+  showLanguageRequestModal: boolean;
 }
 
 class LanguagesPage extends React.Component<Props, State> {
@@ -52,6 +66,7 @@ class LanguagesPage extends React.Component<Props, State> {
     localizations: [],
     showAll: false,
     showHelpTranslateModalFor: null,
+    showLanguageRequestModal: false,
   };
 
   async componentDidMount() {
@@ -71,10 +86,15 @@ class LanguagesPage extends React.Component<Props, State> {
   }
 
   render() {
-    const { localizations, showAll, showHelpTranslateModalFor } = this.state;
+    const {
+      localizations,
+      showAll,
+      showHelpTranslateModalFor,
+      showLanguageRequestModal,
+    } = this.state;
 
     return (
-      <React.Fragment>
+      <div>
         {showHelpTranslateModalFor && (
           <HelpTranslateModal
             locale={this.state.showHelpTranslateModalFor}
@@ -83,36 +103,74 @@ class LanguagesPage extends React.Component<Props, State> {
             }
           />
         )}
-        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-          <h1>In Progress</h1>
-          {!showAll && (
-            <button onClick={() => this.setState({ showAll: true })}>
-              See All
-            </button>
-          )}
+
+        <br />
+
+        <div>
+          Don't see your language on Common Voice yet?
+          <br />
+          <Button
+            rounded
+            onClick={() => this.setState({ showLanguageRequestModal: true })}>
+            Request a Language
+          </Button>
         </div>
-        <div style={{ display: 'flex', flexWrap: 'wrap' }}>
-          {(showAll ? localizations : localizations.slice(0, 3)).map(
-            (localization: any, i: number) => (
-              <LocalizationBox
-                key={i}
-                {...localization}
-                onShowHelpTranslateModal={locale =>
-                  this.setState({ showHelpTranslateModalFor: locale })
-                }
-              />
-            )
-          )}
+
+        <br />
+
+        {showLanguageRequestModal && (
+          <RequestLanguageModal
+            onRequestClose={() =>
+              this.setState({ showLanguageRequestModal: false })
+            }
+          />
+        )}
+
+        <div>
+          <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+            <h1>In Progress</h1>
+
+            {!showAll && (
+              <a
+                className="show-all-languages"
+                href="javascript:void(0)"
+                onClick={() => this.setState({ showAll: true })}>
+                See All
+              </a>
+            )}
+          </div>
+
+          <Hr />
+
+          <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+            {(showAll ? localizations : localizations.slice(0, 3)).map(
+              (localization: any, i: number) => (
+                <LocalizationBox
+                  key={i}
+                  {...localization}
+                  onShowHelpTranslateModal={locale =>
+                    this.setState({ showHelpTranslateModalFor: locale })
+                  }
+                />
+              )
+            )}
+          </div>
         </div>
+
+        <br />
+        <br />
 
         <div>
           <h1>Launched</h1>
+
+          <Hr />
+
           <LocalizationBox
             locale={{ code: 'en', name: 'English', population: EN_POPULATION }}
             progress={1}
           />
         </div>
-      </React.Fragment>
+      </div>
     );
   }
 }

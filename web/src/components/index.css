@@ -6,9 +6,11 @@
 @import url('modal/modal.css');
 @import url('pages/data/data.css');
 @import url('pages/home/home.css');
+@import url('pages/languages/languages.css');
 @import url('pages/languages/help-translate-modal.css');
 @import url('pages/record/record.css');
 @import url('profile-form/profile-form.css');
+@import url('progress-bar/progress-bar.css');
 @import url('request-language-modal/request-language-modal.css');
 @import url('ui/ui.css');
 
@@ -166,7 +168,8 @@ button {
 .faq #background-container,
 .terms #background-container,
 .privacy #background-container,
-.profile #background-container {
+.profile #background-container,
+.languages #background-container {
     opacity: 0;
 }
 
@@ -430,14 +433,16 @@ body:not(.ios) .recording #background-container {
 .faq .hero,
 .terms .hero,
 .privacy .hero,
-.profile .hero {
+.profile .hero,
+.languages .hero {
     display: none;
 }
 
 .faq .hero-space,
 .terms .hero-space,
 .privacy .hero-space,
-.profile .hero-space {
+.profile .hero-space,
+.languages .hero-space {
     display: none;
 }
 

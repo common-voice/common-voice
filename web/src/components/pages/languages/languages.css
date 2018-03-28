@@ -1,0 +1,74 @@
+.show-all-languages {
+    font-size: var(--small-font-size);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.languages .language {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border: 3px solid var(--color-grey-background);
+    margin-bottom: 1rem;
+}
+
+.languages .language .info {
+    display: flex;
+    flex-direction: row;
+    font-size: var(--small-font-size);
+    padding: 1rem;
+}
+
+.languages .language .info h2, .languages .language .info .numbers {
+    width: 50%;
+}
+
+.languages .language .info .numbers > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.languages .language .info .numbers span {
+    font-size: .7rem;
+    font-style: italic;
+    color: var(--grey-font-color);
+}
+
+
+.languages .language .info .progress-bar {
+    height: 0.5rem;
+}
+
+.languages .language button {
+    outline: none;
+    border: none;
+    border-top: 3px solid var(--color-grey-background);
+    padding: var(--standard-margin);
+    width: 100%;
+    background: white;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.languages .language button:hover {
+    background: var(--color-grey-background);
+}
+
+@media (--mobile) {
+    .languages .language {
+        width: 100%;
+    }
+}
+
+@media (--desktop) {
+    .languages .language {
+        margin-right: 1rem;
+        width: calc((100% - 2rem) / 3);
+    }
+
+    .languages .language:nth-child(3n) {
+        margin-right: 0;
+    }
+}

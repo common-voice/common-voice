@@ -15,7 +15,7 @@
     --standard-margin: 0.3rem;
     --hamburger: calc(var(--header-height) * 0.7);
     --transition-default: 0.3s;
-    --desktop-width: 52rem;
+    --desktop-width: 55rem;
     --hero-height: 15.3rem;
     --hero-height-mobile: 12.5rem;
     --robot-height: 22rem;
