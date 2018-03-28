@@ -44,6 +44,22 @@ describe('calculate compensatory split', () => {
     });
   });
 
+  test('data all equal', () => {
+    (expect as any)(
+      calculateCompensatorySplit({ train: 0.3, dev: 0.3, test: 0.3 })
+    ).toAllBeCloseTo({
+      train: 1,
+      dev: 0,
+      test: 0,
+    });
+  });
+
+  test('for no data, we do the ideal split', () => {
+    (expect as any)(
+      calculateCompensatorySplit({ train: 0, dev: 0, test: 0 })
+    ).toAllBeCloseTo(IDEAL_SPLIT);
+  });
+
   test('ideal split stays the same', () => {
     expect(calculateCompensatorySplit(IDEAL_SPLIT)).toEqual(IDEAL_SPLIT);
   });
