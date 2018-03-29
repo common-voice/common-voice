@@ -121,9 +121,11 @@ terms-privacy-content = Nossos <privacyLink>Avisos de Privacidade</privacyLink> 
 terms-contributions-title = Suas contribuições e liberação de direitos
 terms-contributions-content = Ao enviar suas gravações, você renuncia a todos os direitos autorais e direitos relacionados que você pode ter neles, e você aceita disponibilizar as gravações para o público sob <licenseLink>CC-0</licenseLink>. Isso significa que você concorda em renunciar a todos os direitos sobre as gravações em todo o mundo sob leis de direitos autorais e de base de dados, incluindo direitos morais e publicitários e todos os direitos relacionados e conexos.
 terms-communications-title = Comunicações
+terms-communications-content = Se você assinar nossos boletins informativos ou se registrar para ter uma conta no Common Voice, você pode receber nossos e-mails em sua conta (por exemplo, atualizações jurídicas, de privacidade e segurança).
 terms-general-title = Geral
 terms-general-liability1 = Declaração de exoneração de responsabilidade; Limitação da Responsabilidade: O COMMON VOICE E TODAS AS GRAVAÇÕES INCLUSAS SÃO PROVIDOS NA CONDIÇÃO DE "COMO É" SEM QUALQUER GARANTIA DE NENHUM TIPO, SENDO EXPRESSO OU IMPLÍCITO. A MOZILLA NÃO SE RESPONSABILIZA POR QUALQUER GRAVAÇÃO QUE VOCÊ OU QUALQUER OUTRO USUÁRIO OU TERCEIRO PUBLICA OU TRANSMITE UTILIZANDO COMMON VOICE. 
 terms-general-liability2 = A MOZILLA EXONERA ESPECIFICAMENTE TODAS E QUAISQUER GARANTIAS E CONDIÇÕES DE COMERCIALIDADE, ADEQUAÇÃO A UM PROPÓSITO PARTICULAR, E NÃO VIOLAÇÃO, E QUAISQUER GARANTIAS RESULTANTES DO CURSO DE NEGOCIAÇÃO OU UTILIZAÇÃO COMERCIAL.
+terms-general-liability3 = NA EXTENSÃO PERMITIDA PELA LEGISLAÇÃO APLICÁVEL, VOCÊ CONCORDA EM LIBERAR E ISENTAR A CORPORAÇÃO MOZILLA E SEUS RESPONDENTES, SUBSIDIÁRIAS, AFILIADOS, DIRETORES, OFICIAIS, EMPREGADOS E AGENTES (AS "PARTES DA MOZILLA"), DE QUALQUER E TODA A RESPONSABILIDADE POR QUALQUER DANO, PERDA OU ATRASO (INCLUINDO LESÕES INDIVIDUAIS, MORTE OU DANOS DE PROPRIEDADE) RESULTANTES INTEIRAMENTE OU EM PARTE, DIRETAMENTE OU INDIRETAMENTE, DA SUA PARTICIPAÇÃO NO COMMON VOICE.
 
 ## Data
 
