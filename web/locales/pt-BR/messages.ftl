@@ -1,7 +1,16 @@
+## General
+
+yes-receive-emails = Sim, envie-me e-mails. Eu gostaria de ficar informado sobre o Projeto Common Voice.
+privacy-info = Nós prometemos cuidar das suas informações com cautela. Leia mais em nosso <privacyLink>Aviso de Privacidade</privacyLink>.
+email-input =
+    .label = E-mail
+submit-form-action = Enviar
+
 ## Layout
 
 speak = Falar
 datasets = Conjuntos de dados
+languages = Idiomas
 profile = Perfil
 help = Ajuda
 contact = Contato
@@ -28,7 +37,8 @@ help-us-explain = Aperte o play, ouça e diga-nos: Eles pronunciaram a frase aba
 status-title = Status geral do projeto: veja o nosso progresso!
 status-contribute = Contribua com sua voz
 status-loading = Carregando…
-status-hours = { $hours ->
+status-hours =
+    { $hours ->
         [one] Uma hora válida até agora!
        *[other] { $hours } horas válidas até agora!
     }
@@ -39,11 +49,8 @@ status-more-soon = Mais idiomas em breve!
 
 ## ProfileForm
 
-email-input =
-    .label = E-mail
 profile-form-username =
     .label = Usuário
-yes-receive-emails = Sim, envie-me e-mails. Eu gostaria de ficar informado sobre o Projeto Common Voice.
 profile-form-language =
     .label = Idioma
 profile-form-more-languages = Mais idiomas em breve!
@@ -141,9 +148,8 @@ download-form-email =
     .value = Obrigado, nós entraremos em contato.
 download-back = Voltar ao conjunto de dados do Common Voice
 download-no = Não, obrigado
-privacy-info = Nós prometemos cuidar das suas informações com cautela. Leia mais em nosso <privacyLink>Aviso de Privacidade</privacyLink>.
 
-## Contact
+## Contact Modal
 
 contact-title = Formulário de contato
 contact-cancel = Cancelar
@@ -152,4 +158,9 @@ contact-form-name =
 contact-form-message =
     .label = Mensagem
 contact-required = *necessário
-submit-form-action = Enviar
+
+## Request Language Modal
+
+
+## Help Translate Modal
+
