@@ -1,7 +1,135 @@
-.show-all-languages {
+.languages {
+    --languages-desktop-width: 64rem;
+}
+
+.languages #content > div {
+    max-width: var(--languages-desktop-width);
+}
+
+@media (--desktop) {
+    .languages header {
+        max-width: var(--languages-desktop-width);
+    }
+}
+
+.languages .top {
+    display: flex;
+    flex-direction: row;
+}
+
+.languages .top img {
+    margin-left: calc(-50vw + 50%);
+    width: 100vw;
+}
+
+.languages .top .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.languages .top button {
+    text-transform: none;
+}
+
+.languages .top .text h2 {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.languages .top .text button {
+    max-width: 5rem;
+}
+
+.language-sections ul {
+    padding: 0;
+    list-style: none;
+}
+
+.show-all-languages-desktop {
     font-size: var(--small-font-size);
     font-weight: 600;
     text-decoration: underline;
+}
+
+.mobile-headings, .desktop-heading, .show-all-languages-mobile {
+    display: none;
+}
+
+@media (--desktop) {
+    .desktop-heading {
+        display: block;
+    }
+}
+
+@media (--mobile) {
+    .languages .top {
+        flex-direction: column;
+    }
+
+    .languages .top img {
+        width: 200%;
+        margin-left: -50%;
+        margin-top: -31%;
+    }
+
+    .languages .top .text {
+        align-items: flex-start;
+    }
+
+    .mobile-headings {
+        display: block;
+    }
+
+    .mobile-headings hr {
+        width: 100vw;
+        margin: .5rem 0 .5rem calc(-50vw + 50%);
+    }
+
+    .mobile-headings .labels {
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px solid var(--color-secondary);
+    }
+
+    .selected-in-progress .labels .in-progress, .selected-launched .labels .launched {
+        color: var(--color-speak);
+        border-bottom: 3px solid var(--color-speak);;
+    }
+
+    .mobile-headings h2 {
+        padding: 1rem;
+        cursor: pointer;
+    }
+
+    .language-sections {
+        display: flex;
+        width: 200vw;
+    }
+
+    .language-sections section {
+        width: calc(100vw - 3rem);
+        margin-left: 0;
+        transition: margin-left 400ms var(--easing);
+    }
+
+    .selected-launched .language-sections section {
+        margin-left: calc(-100vw + 2rem);
+    }
+
+    .language-sections section:nth-child(2) {
+        margin-left: 1rem;
+    }
+
+    .show-all-languages-mobile {
+        display: block;
+        border: 1px solid var(--color-secondary);
+        padding: 1rem;
+        width: 100%;
+        font-size: 1rem;
+    }
 }
 
 .languages .language {
@@ -9,31 +137,37 @@
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
-    border: 3px solid var(--color-grey-background);
+    border: 2px solid var(--color-grey-background);
     margin-bottom: 1rem;
+}
+
+.languages .language .info h2, .languages .language .info .numbers {
+    width: 50%;
+    padding: 1rem;
 }
 
 .languages .language .info {
     display: flex;
     flex-direction: row;
     font-size: var(--small-font-size);
-    padding: 1rem;
 }
 
-.languages .language .info h2, .languages .language .info .numbers {
-    width: 50%;
+.languages .language .info hr {
+    margin: 1rem 0;
 }
 
 .languages .language .info .numbers > div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .languages .language .info .numbers span {
+    padding-right: var(--standard-margin);
     font-size: .7rem;
     font-style: italic;
-    color: var(--grey-font-color);
+    color: var(--color-warm-grey);
 }
 
 
@@ -44,16 +178,17 @@
 .languages .language button {
     outline: none;
     border: none;
-    border-top: 3px solid var(--color-grey-background);
-    padding: var(--standard-margin);
+    border-top: 2px solid #f3f2f1;
+    padding: calc(2 * var(--standard-margin));
     width: 100%;
     background: white;
-    font-weight: 400;
     text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.4px;
 }
 
 .languages .language button:hover {
-    background: var(--color-grey-background);
+    background: #f3f2f1;
 }
 
 @media (--mobile) {

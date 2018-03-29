@@ -2,7 +2,7 @@
     margin: var(--standard-margin) 0;
     height: 2rem;
     width: 100%;
-    background: var(--color-grey-background);
+    background: var(--color-secondary);
 }
 
 .progress-bar .progress {
