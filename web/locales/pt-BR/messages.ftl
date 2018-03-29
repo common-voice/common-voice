@@ -126,14 +126,23 @@ terms-general-title = Geral
 terms-general-liability1 = Declaração de exoneração de responsabilidade; Limitação da Responsabilidade: O COMMON VOICE E TODAS AS GRAVAÇÕES INCLUSAS SÃO PROVIDOS NA CONDIÇÃO DE "COMO É" SEM QUALQUER GARANTIA DE NENHUM TIPO, SENDO EXPRESSO OU IMPLÍCITO. A MOZILLA NÃO SE RESPONSABILIZA POR QUALQUER GRAVAÇÃO QUE VOCÊ OU QUALQUER OUTRO USUÁRIO OU TERCEIRO PUBLICA OU TRANSMITE UTILIZANDO COMMON VOICE. 
 terms-general-liability2 = A MOZILLA EXONERA ESPECIFICAMENTE TODAS E QUAISQUER GARANTIAS E CONDIÇÕES DE COMERCIALIDADE, ADEQUAÇÃO A UM PROPÓSITO PARTICULAR, E NÃO VIOLAÇÃO, E QUAISQUER GARANTIAS RESULTANTES DO CURSO DE NEGOCIAÇÃO OU UTILIZAÇÃO COMERCIAL.
 terms-general-liability3 = NA EXTENSÃO PERMITIDA PELA LEGISLAÇÃO APLICÁVEL, VOCÊ CONCORDA EM LIBERAR E ISENTAR A CORPORAÇÃO MOZILLA E SEUS RESPONDENTES, SUBSIDIÁRIAS, AFILIADOS, DIRETORES, OFICIAIS, EMPREGADOS E AGENTES (AS "PARTES DA MOZILLA"), DE QUALQUER E TODA A RESPONSABILIDADE POR QUALQUER DANO, PERDA OU ATRASO (INCLUINDO LESÕES INDIVIDUAIS, MORTE OU DANOS DE PROPRIEDADE) RESULTANTES INTEIRAMENTE OU EM PARTE, DIRETAMENTE OU INDIRETAMENTE, DA SUA PARTICIPAÇÃO NO COMMON VOICE.
+terms-general-liability4 = EXCETO SE FOR REQUERIDO POR LEI, A MOZILLA E AS PARTES DA MOZILLA NÃO SERÃO RESPONSÁVEIS POR QUAISQUER DANOS INDIRETOS, ESPECIAIS, INCIDENTAIS, CONSEQUENCIAIS, OU EXEMPLARES DECORRENTES OU DE QUALQUER MANEIRA RELATIVOS A ESTES TERMOS OU AO USO OU IMPOSSIBILIDADE DE USAR OS SERVIÇOS, INCLUINDO, SEM LIMITAÇÃO, DANOS DIRETOS E INDIRETOS POR PERDA DE AFEIÇÃO, PARADA DE TRABALHO, LUCROS PERDIDOS, PERDA DE DADOS E FALHA DE COMPUTADOR OU MAL FUNCIONAMENTO, INCLUSO SE AVISADO DA POSSIBILIDADE DE TAIS DANOS E INDEPENDENTEMENTE DA TEORIA (CONTRATO, DELITO OU DE OUTRA FORMA) SOBRE O QUALQUER RECLAMAÇÃO É BASEADA. A RESPONSABILIDADE COLETIVA DA MOZILLA E DAS PARTES DA MOZILLA SOB ESTE CONTRATO NÃO EXCEDERÁ US$ 500 (QUINHENTOS DÓLARES). ALGUMAS JURISDIÇÕES NÃO PERMITEM A EXCLUSÃO OU LIMITAÇÃO DE DANOS INCIDENTAIS, CONSEQUENCIAIS OU ESPECIAIS, POR ISSO ESTA EXCLUSÃO E LIMITAÇÃO PODEM NÃO SE APLICAR A VOCÊ.
+terms-general-updates = Atualizações: A Mozilla pode atualizar estes Termos a qualquer tempo para abordar uma nova funcionalidade dos serviços ou para esclarecer uma provisão. Os termos atualizados serão postados on-line. Se as alterações forem substanciais, anunciaremos as atualização através dos canais habituais da Mozilla para tais anúncios, como em blogs e fóruns. Seu uso contínuo dos serviços após a data de eficácia das tais alterações constitui a sua aceitação das tais mudanças. Para fazer sua revisão mais conveniente, vamos postar uma data efetiva no parte superior desta página.
+terms-general-termination = Rescisão: Podemos suspender ou encerrar seu acesso aos serviços a qualquer momento, por qualquer razão, vamos fazer todos os esforços razoáveis para notificar você através do e-mail associado com a sua conta ou da próxima vez que você tentar acessar o serviço. Independente de qualquer rescisão, todas as gravações que você submeter a Mozilla continuarão sendo acessíveis ao público.
+terms-general-law = Lei em vigor: Estes Termos Jurídicos constituem a totalidade do acordo entre você e a Mozilla sobre Common Voice e são regidas pelas leis do estado da Califórnia, EUA.
 
 ## Data
 
 data-download-button = Baixar os dados do Common Voice
 data-download-license = Licença: <licenseLink>CC-0</licenseLink>
 data-download-modal = Você está preste a iniciar um download de <size>{ $size }GB</size>, deseja continuar?
+data-subtitle = Nós estamos construindo um conjunto de dados de voz aberto e publicamente disponível para que qualquer um possa usar no treinamento de suas aplicações de voz-ativa.
+data-explanatory-text = Acreditamos que conjuntos de dados de voz grandes e acessíveis ao público promovem a inovação e a saudável concorrência comercial na aprendizagem de máquina baseada em voz. Este é um esforço global e convidamos todos a participar. O nosso objetivo é ajudar a tecnologia de voz a ser mais inclusivo, refletindo a diversidade das vozes ao redor do mundo.
+data-get-started = <speechBlogLink>Comece com o reconhecimento de voz</speechBlogLink>
+data-other-title = Outro conjunto de dados de voz...
 data-other-goto = Vá para { $name }
 data-other-download = Baixar dados
+data-other-librispeech-description = O LibriSpeech é um corpus de aproximadamente 1000 horas (em 16 Khz) de leitura em inglês derivada de audiolivros do projeto LibriVox.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = O TED-LIUM corpus foi criado a partir dos áudio das palestras e suas transcrições que estão disponíveis na página do TED.
 data-other-voxforge-description = VoxForge foi configurado para coletar falas transcritas para serem usadas com motores de reconhecimento de fala gratuito e de código aberto.
@@ -165,6 +174,7 @@ review-cancel = Cancelar envio
 ## Download Modal
 
 download-title = Seu download começou.
+download-helpus = Ajude-nos a construir uma comunidade ao redor da tecnologia de voz, mantenha contato por e-mail.
 download-form-email =
     .label = Digite seu e-mail
     .value = Obrigado, nós entraremos em contato.
@@ -187,8 +197,16 @@ request-language-title = Solicitação de idioma
 request-language-cancel = Sair do formulário
 request-language-form-language =
     .label = Idioma
+request-language-success-title = A solicitação de idioma foi enviada com sucesso, obrigado.
+request-language-success-text = Nós entraremos em contato quando estiverem disponíveis mais informações sobre o seu idioma.
 
 ## Help Translate Modal
 
 help-translate-title = Ajude a traduzir o { $language }
 help-translate-cancel = Sair
+help-translate-text = Vamos direcioná-lo para a ferramenta de tradução da Mozilla, <pontoonLink>Pontoon</pontoonLink>, onde esse idioma está passando por uma tradução aberta.
+language-updates-title = Inscreva-se para receber atualizações do { $language }
+help-translate-link = Leve-me ao Pontoon
+language-updates-success-title = Solicitação para receber atualizações do { $language } enviada com sucesso, obrigado.
+language-updates-success-text = Nós entraremos em contato assim que mais informações estiverem disponíveis.
+language-updates-success-collapsed-title = Você esta inscrito nas atualizações do { $language }
