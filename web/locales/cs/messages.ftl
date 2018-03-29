@@ -12,6 +12,7 @@ submit-form-action = Odeslat
 
 speak = Mluvte
 datasets = Datasety
+languages = Jazyky
 profile = Profil
 help = Nápověda
 contact = Kontakt
