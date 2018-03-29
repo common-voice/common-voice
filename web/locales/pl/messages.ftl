@@ -12,6 +12,7 @@ submit-form-action = Wyślij
 
 speak = Nagrywaj
 datasets = Zestawy danych
+languages = Języki
 profile = Profil
 help = Pomoc
 contact = Kontakt
