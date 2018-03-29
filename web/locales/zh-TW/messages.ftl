@@ -12,6 +12,7 @@ submit-form-action = 送出
 
 speak = 說話
 datasets = 資料集
+languages = 語言
 profile = 個人資料
 help = 說明
 contact = 聯絡人
