@@ -5,7 +5,7 @@ import Mysql from './db/mysql';
 import Schema from './db/schema';
 import { UserTable } from './db/tables/user-table';
 import UserClientTable from './db/tables/user-client-table';
-import ClipTable, { DBClipWithVoters } from './db/tables/clip-table';
+import ClipTable, { DBClip, DBClipWithVoters } from './db/tables/clip-table';
 import VoteTable from './db/tables/vote-table';
 
 export default class DB {
@@ -42,9 +42,20 @@ export default class DB {
   /**
    * Insert or update user client row.
    */
-  async updateUser(client_id: string, fields: any): Promise<void> {
+  async updateUser(
+    client_id: string,
+    fields: any,
+    bucket = 'train'
+  ): Promise<void> {
     let { age, accent, email, gender } = fields;
     email = this.formatEmail(email);
+    await this.mysql.query(
+      `
+        INSERT INTO user_clients (client_id, bucket) VALUES (?, ?)
+        ON DUPLICATE KEY UPDATE client_id = client_id
+      `,
+      [client_id, bucket]
+    );
     await Promise.all([
       email &&
         this.user.update({
@@ -120,18 +131,21 @@ export default class DB {
     this.mysql.endConnection();
   }
 
-  async findSentencesWithFewClips(count: number): Promise<string[]> {
+  async findSentencesWithFewClips(
+    bucket: string,
+    count: number
+  ): Promise<string[]> {
     return (await this.mysql.query(
       `
         SELECT text
         FROM sentences
         LEFT JOIN clips ON sentences.id = clips.original_sentence_id
-        WHERE sentences.is_used
+        WHERE sentences.is_used AND sentences.bucket = ? 
         GROUP BY sentences.id
         ORDER BY COUNT(clips.id) ASC
         LIMIT ?
       `,
-      [count]
+      [bucket, count]
     ))[0].map((row: any) => row.text);
   }
 
@@ -175,25 +189,34 @@ export default class DB {
     );
   }
 
-  async saveClip(
-    client_id: string,
-    original_sentence_id: string,
-    path: string,
-    sentence: string
-  ) {
-    try {
-      await Promise.all([
-        this.saveUserClient(client_id),
-        this.insertSentence(hash(sentence), sentence),
-      ]);
-      await this.mysql.query(
-        'INSERT INTO clips (client_id, original_sentence_id, path, sentence) VALUES (?, ?, ?, ?) ' +
-          'ON DUPLICATE KEY UPDATE id = id',
-        [client_id, hash(sentence), path, sentence]
-      );
-    } catch (e) {
-      console.error('No sentence found with id', original_sentence_id, e);
-    }
+  async saveClip({
+    client_id,
+    original_sentence_id,
+    path,
+    sentence,
+  }: {
+    client_id: string;
+    original_sentence_id: string;
+    path: string;
+    sentence: string;
+  }): Promise<DBClip> {
+    const sentenceId = hash(sentence);
+    await Promise.all([
+      this.saveUserClient(client_id),
+      this.insertSentence(sentenceId, sentence),
+    ]);
+    await this.mysql.query(
+      `
+        INSERT INTO clips (client_id, original_sentence_id, path, sentence, bucket)
+          (SELECT ?, ?, ?, ?, bucket FROM user_clients WHERE client_id = ? LIMIT 1)
+          ON DUPLICATE KEY UPDATE id = id
+      `,
+      [client_id, sentenceId, path, sentence, client_id]
+    );
+    const [[row]] = await this.mysql.query(
+      'SELECT * FROM clips WHERE id = LAST_INSERT_ID()'
+    );
+    return row;
   }
 
   async getValidatedClipsCount() {
@@ -270,5 +293,20 @@ export default class DB {
       `,
       [client_id]
     );
+  }
+
+  async getClipBucketCounts() {
+    const [rows] = await this.mysql.query(
+      'SELECT bucket, COUNT(bucket) AS count FROM clips GROUP BY bucket'
+    );
+    return rows;
+  }
+
+  async getUserClient(client_id: string) {
+    const [[row]] = await this.mysql.query(
+      'SELECT * FROM user_clients WHERE client_id = ?',
+      [client_id]
+    );
+    return row;
   }
 }

@@ -7,6 +7,7 @@ export type DBClip = {
   path: string;
   sentence: string;
   original_sentence_id: string;
+  bucket: 'train' | 'dev' | 'test';
 };
 
 export interface DBClipWithVoters extends DBClip {

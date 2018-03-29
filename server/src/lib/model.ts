@@ -1,6 +1,12 @@
 import DB from './model/db';
 import { DBClipWithVoters } from './model/db/tables/clip-table';
 import Cache from './cache';
+import {
+  IDEAL_SPLIT,
+  randomBucketFromDistribution,
+  rowsToDistribution,
+  Split,
+} from './model/split';
 
 /**
  * The Model loads all clip and user data into memory for quick access.
@@ -8,7 +14,34 @@ import Cache from './cache';
 export default class Model {
   db = new DB();
   clipCache = new Cache(count => this.db.findClipsWithFewVotes(count));
-  sentencesCache = new Cache(count => this.db.findSentencesWithFewClips(count));
+  sentencesCaches: { [bucket: string]: Cache<string> } = Object.keys(
+    IDEAL_SPLIT
+  ).reduce(
+    (obj, bucket) => ({
+      ...obj,
+      [bucket]: new Cache(count =>
+        this.db.findSentencesWithFewClips(bucket, count)
+      ),
+    }),
+    {}
+  );
+  clipDistribution: Split = {
+    train: 0,
+    dev: 0,
+    test: 0,
+  };
+
+  constructor() {
+    this.cacheClipDistribution().catch((e: any) => {
+      console.error(e);
+    });
+  }
+
+  cacheClipDistribution = async () => {
+    this.clipDistribution = rowsToDistribution(
+      await this.db.getClipBucketCounts()
+    );
+  };
 
   /**
    * Fetch a random clip but make sure it's not the user's.
@@ -23,8 +56,12 @@ export default class Model {
     );
   }
 
-  async findEligibleSentences(count: number): Promise<string[]> {
-    return this.sentencesCache.take(count);
+  async findEligibleSentences(
+    client_id: string,
+    count: number
+  ): Promise<string[]> {
+    const user = await this.db.getUserClient(client_id);
+    return this.sentencesCaches[user ? user.bucket : 'train'].take(count);
   }
 
   private print(...args: any[]) {
@@ -56,7 +93,11 @@ export default class Model {
    * Update current user
    */
   async syncUser(uid: string, data: any): Promise<void> {
-    return this.db.updateUser(uid, data);
+    return this.db.updateUser(
+      uid,
+      data,
+      randomBucketFromDistribution(this.clipDistribution)
+    );
   }
 
   /**
@@ -78,5 +119,12 @@ export default class Model {
    */
   cleanUp(): void {
     this.db.endConnection();
+  }
+
+  async saveClip(clipData: any) {
+    const clip = await this.db.saveClip(clipData);
+    if (clip) {
+      this.clipDistribution[clip.bucket]++;
+    }
   }
 }
