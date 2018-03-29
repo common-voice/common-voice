@@ -6,7 +6,7 @@ let schema: Schema;
 
 beforeAll(async () => {
   serverHarness = new ServerHarness();
-  schema = new Schema(serverHarness.mysql, serverHarness.config);
+  schema = new Schema(serverHarness.mysql);
   await serverHarness.connectToDatabase();
 });
 

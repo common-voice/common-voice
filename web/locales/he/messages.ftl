@@ -39,7 +39,7 @@ status-more-soon = שפות נוספות מגיעות בקרוב!
 
 ## ProfileForm
 
-profile-form-email =
+email-input =
     .label = דוא״ל
 profile-form-username =
     .label = שם משתמש
@@ -154,7 +154,6 @@ download-helpus = עזרו לנו לבנות קהילה סביב טכנולוג�
 download-form-email =
     .label = נא להזין את כתובת הדוא״ל שלך
     .value = תודה, נהיה בקשר.
-download-form-submit = שליחה
 download-back = חזרה לסדרות הנתונים של Common Voice
 download-no = לא תודה
 stayintouch = אנו ב־Mozilla בונים קהילה סביב טכנולוגיות קול. אנו רוצים להישאר אתך בקשר ולעניין אותך בעדכונים, מקורות נתונים חדשים ולשמוע עוד על אופן השימוש שלך בנתונים האלה.
@@ -164,11 +163,9 @@ privacy-info = אנו מבטיחים לטפל במידע שלך בזהירות �
 
 contact-title = טופס יצירת קשר
 contact-cancel = ביטול
-contact-form-email =
-    .label = דוא״ל
 contact-form-name =
     .label = שם
 contact-form-message =
     .label = הודעה
 contact-required = *נדרש
-contact-submit = שליחה
+submit-form-action = שליחה

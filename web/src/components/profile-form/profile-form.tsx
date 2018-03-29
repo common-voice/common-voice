@@ -120,7 +120,7 @@ class ProfileForm extends React.Component<Props, State> {
         <br />
 
         <form onSubmit={this.save}>
-          <Localized id="profile-form-email" attrs={{ label: true }}>
+          <Localized id="email-input" attrs={{ label: true }}>
             <LabeledInput
               className="half-width"
               label="Email"

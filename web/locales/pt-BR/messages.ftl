@@ -39,7 +39,7 @@ status-more-soon = Mais idiomas em breve!
 
 ## ProfileForm
 
-profile-form-email =
+email-input =
     .label = E-mail
 profile-form-username =
     .label = Usuário
@@ -139,7 +139,6 @@ download-title = Seu download começou.
 download-form-email =
     .label = Digite seu e-mail
     .value = Obrigado, nós entraremos em contato.
-download-form-submit = Enviar
 download-back = Voltar ao conjunto de dados do Common Voice
 download-no = Não, obrigado
 privacy-info = Nós prometemos cuidar das suas informações com cautela. Leia mais em nosso <privacyLink>Aviso de Privacidade</privacyLink>.
@@ -148,11 +147,9 @@ privacy-info = Nós prometemos cuidar das suas informações com cautela. Leia m
 
 contact-title = Formulário de contato
 contact-cancel = Cancelar
-contact-form-email =
-    .label = E-mail
 contact-form-name =
     .label = Nome
 contact-form-message =
     .label = Mensagem
 contact-required = *necessário
-contact-submit = Enviar
+submit-form-action = Enviar

@@ -4,6 +4,9 @@ yes-receive-emails = 好，寄信給我。我想要知道 Common Voice 專案的
 stayintouch = Mozilla 的我們，正在打造一個與語音技術相關的社群。我們想要與新技術、新的資料來源保持聯繫，也想知道您會如何使用這些資料。
 privacy-info = 我們保證會小心處理您的資訊。到我們的<privacyLink>隱私權公告</privacyLink>了解更多資訊。
 return-to-cv = 回到 Common Voice
+email-input =
+    .label = 電子郵件地址
+submit-form-action = 送出
 
 ## Layout
 
@@ -45,8 +48,6 @@ status-more-soon = 更多語言即將到來！
 
 ## ProfileForm
 
-profile-form-email =
-    .label = 電子郵件地址
 profile-form-username =
     .label = 使用者名稱
 profile-form-language =
@@ -89,12 +90,14 @@ notfound-content = 很抱歉，找不到您想找的東西。
 ## Privacy
 
 privacy-title = Common Voice 隱私權公告
+privacy-effective = 生效日 { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
 privacy-policy = 當 Mozilla（也就是我們）收到您提供的資訊時，我們的 <policy>Mozilla 隱私權保護政策</policy>描述了我們會如何處理該資訊。
 privacy-more = <more>了解更多</more>
 
 ## Terms
 
 terms-title = Common Voice 法律條款
+terms-effective = 生效日 { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
 terms-privacy-title = 隱私權
 terms-privacy-content = 我們的<privacyLink>隱私權公告</privacyLink>解釋了我們會如何接收並處理您的資料。
 terms-contributions-title = 您的貢獻與權利放棄聲明
@@ -145,7 +148,6 @@ download-helpus = 請幫助我們打造一個使用語音技術的社群，並�
 download-form-email =
     .label = 輸入您的電子郵件地址
     .value = 感謝！我們很快就會聯繫您。
-download-form-submit = 送出
 download-back = 回到 Common Voice 資料集
 download-no = 不要，謝謝
 
@@ -153,14 +155,11 @@ download-no = 不要，謝謝
 
 contact-title = 聯絡表單
 contact-cancel = 取消
-contact-form-email =
-    .label = 電子郵件地址
 contact-form-name =
     .label = 姓名
 contact-form-message =
     .label = 訊息
 contact-required = * 必填
-contact-submit = 送出
 
 ## Request Language Modal
 
@@ -168,8 +167,16 @@ request-language-title = 語言請求
 request-language-cancel = 離開表單
 request-language-form-language =
     .label = 語言
-request-language-form-email =
-    .label = 電子郵件
-request-language-submit = 送出
 request-language-success-title = 已收到新語言請求，感謝您。
 request-language-success-text = 我們將在您的語言可在網站上使用時連絡您。
+
+## Help Translate Modal
+
+help-translate-title = 幫助翻譯 { $language }
+help-translate-cancel = 結束
+help-translate-text = 我們將帶您到 Mozilla 的翻譯站 <pontoonLink>Pontoon</pontoonLink>，翻譯作業於該網站上進行。
+language-updates-title = 訂閱 { $language } 的最新消息電子報
+help-translate-link = 帶我去 Pontoon
+language-updates-success-title = 成功收到 { $language } 的更新請求，感謝您。
+language-updates-success-text = 我們將在有更多資訊時連絡您。
+language-updates-success-collapsed-title = 您已登記要取得關於 { $language } 的最新消息

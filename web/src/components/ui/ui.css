@@ -127,7 +127,7 @@ body:not(.mobile-safari) .button.card-action:hover path,
     font-size: var(--base-font-size);
     font-family: var(--base-font-family);
     background-color: var(--color-input-background);
-    color: #959595;
+    color: var(--color-warm-grey);
 }
 
 .labeled-form-control input, .labeled-form-control select {

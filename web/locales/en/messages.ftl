@@ -3,10 +3,14 @@ yes-receive-emails = Yes, send me emails. I’d like to stay informed about the 
 stayintouch = We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.
 privacy-info = We promise to handle your information with care. Read more in our <privacyLink>Privacy Notice</privacyLink>.
 return-to-cv = Return to Common Voice
+email-input =
+    .label = Email
+submit-form-action = Submit
 
 ## Layout
 speak = Speak
 datasets = Datasets
+languages = Languages
 profile = Profile
 help = Help
 contact = Contact
@@ -186,29 +190,32 @@ download-helpus = Help us build a community around voice technology, stay in tou
 download-form-email =
     .label = Enter your email
     .value = Thank you, we'll be in touch.
-download-form-submit = Submit
 download-back = Return to Common Voice Datasets
 download-no = No Thanks
 
 ## Contact Modal
 contact-title = Contact Form
 contact-cancel = Cancel
-contact-form-email =
-    .label = Email
 contact-form-name =
     .label = Name
 contact-form-message =
     .label = Message
 contact-required = *required
-contact-submit = Submit
 
 ## Request Language Modal
 request-language-title = Language Request
 request-language-cancel = Exit Form
 request-language-form-language =
     .label = Language
-request-language-form-email =
-    .label = Email
-request-language-submit = Submit
 request-language-success-title = Language request successfully submitted, thank you.
 request-language-success-text = We will be in touch with more information about your language when it becomes available.
+
+## Help Translate Modal
+help-translate-title = Help Translate { $language }
+help-translate-cancel = Exit
+help-translate-text = We will route you to Mozilla's translation tool, <pontoonLink>Pontoon</pontoonLink>, where this language is currently undergoing open translation.
+language-updates-title = Sign up for { $language } updates
+help-translate-link= Take Me To Pontoon
+language-updates-success-title = { $language } update request successfully submitted, thank you.
+language-updates-success-text = We will be in touch with more information as it becomes available.
+language-updates-success-collapsed-title = You're signed up for { $language } updates

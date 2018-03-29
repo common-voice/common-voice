@@ -1,13 +1,13 @@
-import { RequestedLanguages } from '../../stores/requested-langauges';
-
 const { Localized } = require('fluent-react');
 import ISO6391 from 'iso-639-1';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import Modal from '../modal/modal';
 import { Button, Hr, LabeledInput, LabeledSelect } from '../ui/ui';
+import { RequestedLanguages } from '../../stores/requested-langauges';
 import StateTree from '../../stores/tree';
 import { User } from '../../stores/user';
+import PrivacyInfo from '../privacy-info';
 import LanguageAutocomplete from './language-autocomplete';
 import LanguageRequestSuccess from './language-request-success';
 
@@ -123,7 +123,7 @@ class RequestLanguageModal extends React.Component<Props, State> {
               <LanguageAutocomplete onChange={this.updateOtherLanguage} />
             )}
 
-            <Localized id="request-language-form-email" attrs={{ label: true }}>
+            <Localized id="email-input" attrs={{ label: true }}>
               <LabeledInput
                 label="Email"
                 name="email"
@@ -149,7 +149,7 @@ class RequestLanguageModal extends React.Component<Props, State> {
             <Hr />
 
             <div className="actions">
-              <Localized id="request-language-submit">
+              <Localized id="submit-form-action">
                 <Button
                   disabled={
                     !email || (language == 'other' ? !otherLanguage : !language)
@@ -163,18 +163,7 @@ class RequestLanguageModal extends React.Component<Props, State> {
 
             <br />
 
-            <Localized id="stayintouch">
-              <p className="small" />
-            </Localized>
-            <br />
-
-            <Localized
-              id="privacy-info"
-              privacyLink={
-                <a href="/privacy" target="__blank" rel="noopener noreferrer" />
-              }>
-              <p className="small" />
-            </Localized>
+            <PrivacyInfo />
           </form>
         )}
       </Modal>

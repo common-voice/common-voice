@@ -7,4 +7,5 @@ export default Object.freeze({
   PRIVACY: '/privacy',
   TERMS: '/terms',
   NOTFOUND: '/not-found',
+  LANGUAGES: '/languages',
 });

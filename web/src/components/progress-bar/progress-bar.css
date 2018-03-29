@@ -1,0 +1,19 @@
+.progress-bar {
+    margin: var(--standard-margin) 0;
+    height: 2rem;
+    width: 100%;
+    background: var(--color-secondary);
+}
+
+.progress-bar .progress {
+    height: 100%;
+    box-sizing: border-box;
+    padding-right: var(--standard-margin);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    background: var(--color-listen);
+    transition: width 500ms var(--easing);
+}

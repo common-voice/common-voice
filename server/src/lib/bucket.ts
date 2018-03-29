@@ -1,5 +1,5 @@
 import { S3 } from 'aws-sdk';
-import { CommonVoiceConfig } from '../config-helper';
+import { getConfig } from '../config-helper';
 import Model from './model';
 import { ServerError } from './utility';
 
@@ -9,12 +9,10 @@ import { ServerError } from './utility';
  *   metadata into the Model from s3.
  */
 export default class Bucket {
-  private config: CommonVoiceConfig;
   private model: Model;
   private s3: S3;
 
-  constructor(config: CommonVoiceConfig, model: Model, s3: S3) {
-    this.config = config;
+  constructor(model: Model, s3: S3) {
     this.model = model;
     this.s3 = s3;
   }
@@ -24,7 +22,7 @@ export default class Bucket {
    */
   private getPublicUrl(key: string) {
     return this.s3.getSignedUrl('getObject', {
-      Bucket: this.config.BUCKET_NAME,
+      Bucket: getConfig().BUCKET_NAME,
       Key: key,
     });
   }
@@ -43,7 +41,7 @@ export default class Bucket {
         // We get a 400 from the signed URL without this request
         await this.s3
           .headObject({
-            Bucket: this.config.BUCKET_NAME,
+            Bucket: getConfig().BUCKET_NAME,
             Key: path,
           })
           .promise();

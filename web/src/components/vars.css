@@ -15,7 +15,7 @@
     --standard-margin: 0.3rem;
     --hamburger: calc(var(--header-height) * 0.7);
     --transition-default: 0.3s;
-    --desktop-width: 52rem;
+    --desktop-width: 55rem;
     --hero-height: 15.3rem;
     --hero-height-mobile: 12.5rem;
     --robot-height: 22rem;
@@ -44,6 +44,7 @@
     --color-record-hr: #E6E5E3;
     --color-grey-background: #F9F9F9;
     --color-input-background: #F3F2F0;
+    --color-warm-grey: #959595;
 
     --highlight-shadow-listen: 1px 1px 6px var(--color-listen),
     2px 2px 6px var(--color-listen),

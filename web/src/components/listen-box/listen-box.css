@@ -3,6 +3,7 @@
     margin-bottom: calc(2 * var(--standard-margin));
     opacity: 0.3;
     pointer-events: none;
+    outline: none;
 }
 
 @media (--mobile) {
@@ -151,7 +152,7 @@ body.mobile-safari .delete-box:active path,
     align-items: flex-end;
     flex: 1;
     justify-content: center;
-    color: #959595;
+    color: var(--color-warm-grey);
     font-size: .9rem;
     text-transform: uppercase;
     cursor: pointer;

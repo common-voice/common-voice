@@ -1,0 +1,80 @@
+.ReactModal__Content .inner.help-translate-modal {
+    max-width: 25rem;
+    text-align: start;
+}
+
+.help-translate-modal .cancel {
+    display: flex;
+    justify-content: end;
+    font-size: var(--small-font-size);
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.help-translate-modal p {
+    color: var(--grey-font-color);
+}
+
+.help-translate-modal p a {
+    color: blue;
+}
+
+.help-translate-modal h2 {
+    font-weight: bold;
+}
+
+.help-translate-modal .title-and-action {
+    border-top: .5rem solid var(--color-grey-background);
+    margin: 0 -2rem -3rem;
+    padding: 2rem;
+    cursor: pointer;
+}
+
+.help-translate-modal .title-and-action.collapsed {
+    border-top: none;
+    background: var(--color-grey-background);
+}
+
+.help-translate-modal .title-and-action img.toggle {
+    padding: 3px;
+    width: 10px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    transition: transform 1.5s var(--easing);
+}
+
+.help-translate-modal .title-and-action.collapsed img.toggle {
+    transform: rotate(45deg);
+}
+
+.help-translate-modal .title-and-action img {
+    width: 20px;
+    margin: 0;
+}
+
+.help-translate-modal .signup-success img {
+    display: block;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.help-translate-modal h4 {
+    font-family: var(--base-font-family);
+    font-weight: normal;
+}
+
+.help-translate-modal img {
+    width: 50px;
+    margin-bottom: 2.5rem;
+}
+
+.help-translate-modal .center {
+    display: flex;
+    justify-content: center;
+}
+
+.help-translate-modal button {
+    text-transform: none;
+}

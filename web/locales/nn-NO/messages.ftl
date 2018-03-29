@@ -24,7 +24,7 @@ status-more-soon = Fleire språk kjem snart!
 
 ## ProfileForm
 
-profile-form-email =
+email-input =
     .label = E-post
 profile-form-username =
     .label = Brukarnamn
@@ -71,18 +71,15 @@ review-rerecord = Spel inn på nytt
 
 ## Download Modal
 
-download-form-submit = Send inn
 download-no = Nei takk
 
 ## Contact
 
 contact-title = Kontaktskjema
 contact-cancel = Avbryt
-contact-form-email =
-    .label = E-post
 contact-form-name =
     .label = Namn
 contact-form-message =
     .label = Melding
 contact-required = *påkravd
-contact-submit = Send inn
+submit-form-action = Send inn

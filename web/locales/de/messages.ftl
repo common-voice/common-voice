@@ -4,6 +4,9 @@ yes-receive-emails = Ja, senden Sie mir E-Mails. Ich möchte bezüglich des Comm
 stayintouch = Wir bei Mozilla bauen eine Gemeinschaft rund um sprachbasierte Technologien auf. Wir würden gerne für Aktualisierungen und neue Datenquellen mit Ihnen in Kontakt bleiben und mehr darüber erfahren, wie Sie diese Daten nutzen.
 privacy-info = Wir versichern Ihnen, mit ihren Daten sorgfältig umzugehen. Lesen Sie mehr dazu in unserer <privacyLink>Datenschutzerklärung</privacyLink>.
 return-to-cv = Zurück zu Common Voice
+email-input =
+    .label = E-Mail-Adresse
+submit-form-action = Absenden
 
 ## Layout
 
@@ -15,9 +18,9 @@ contact = Kontakt
 privacy = Datenschutz
 terms = Nutzungsbedingungen
 cookies = Cookies
-faq = Häufig gestellte Fragen
+faq = FAQ
 content-license-text = Inhalte stehen unter einer <licenseLink>Creative-Commons-Lizenz</licenseLink>
-share-title = Helfen Sie uns dabei, andere zu finden, die bereit sind, mit ihrer Stimme beizutragen!
+share-title = Überzeugen Sie auch andere, mit Ihrer Stimme beizutragen!
 
 ## Home Page
 
@@ -49,8 +52,6 @@ status-more-soon = Weitere Sprachen folgen bald!
 
 ## ProfileForm
 
-profile-form-email =
-    .label = E-Mail-Adresse
 profile-form-username =
     .label = Benutzername
 profile-form-language =
@@ -71,7 +72,7 @@ faq-what-a = Technologien zur Spracherkennung könnten die Art und Weise, wie wi
 faq-important-q = Warum ist das wichtig?
 faq-important-a = Sprache ist natürlich, Sprache ist menschlich. Es ist die einfachste und natürlichste Art der Kommunikation. Wir möchten, dass Entwickler in der Lage sind, fantastische Dinge von Übersetzung in Echtzeit bis hin zu sprachgesteuerten Verwaltungsassistenten zu entwickeln. Im Moment stehen jedoch nicht genügend frei zugängliche Daten zur Verfügung, um derartige Anwendungen zu realisieren. Wir hoffen, dass Common Voice Entwicklern das gibt, was sie für derartige Innovationen benötigen.
 faq-get-q = Wie kann ich an die Common-Voice-Daten gelangen?
-faq-get-a = Der Datensatz steht jetzt auf unserer <downloadLink>Webseite zum Herunterladen<downloadLink> unter der <licenseLink>CC0-Lizenz</licenseLink> zur Verfügung.
+faq-get-a = Der Datensatz steht jetzt auf unserer <downloadLink>Webseite zum Herunterladen</downloadLink> unter der <licenseLink>CC0-Lizenz</licenseLink> zur Verfügung.
 faq-mission-q = Warum ist Common Voice Teil der Mission von Mozilla ?
 faq-mission-a = Mozilla hat sich einem offenen und für alle zugänglichen Netz verschrieben. Um das zu erreichen, müssen wir Webschaffende durch Projekte wie Common Voice unterstützen. Da sich sprachbasierte Technologien über Nischenanwendungen hinaus entwickelt haben, sind wir der Meinung, dass sie allen Anwendern gleichermaßen gut zur Verfügung stehen müssen. Wir sehen daher die Notwendigkeit, mehr Sprachen, Akzente und Bevölkerungsteile in die Entwicklung und Erprobung von sprachbasierten Technologien einzubeziehen. Mozilla möchte ein gesundes und lebhaftes Internet erleben. Das bedeutet, neuen kreativen Köpfen den Zugang zu Sprachdaten zu geben, so dass diese neue, außergewöhnliche Projekte erstellen können. Common Voice wird eine gemeinfreie Quelle für Sprachdaten sein, die den Teams von Mozilla und Entwicklern auf der ganzen Welt helfen wird.
 faq-native-q = { $lang } ist nicht meine Muttersprache und ich spreche mit Akzent, seid ihr trotzdem an meinen Sprachaufnahmen interessiert?
@@ -99,7 +100,7 @@ notfound-content = Es tut mir leid, ich weiß nicht, wonach Sie suchen.
 ## Privacy
 
 privacy-title = Common-Voice-Datenschutzerklärung
-privacy-effective = Wirksam ab
+privacy-effective = Gültig ab { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
 privacy-policy = Ab dem Zeitpunkt, an dem wir (Mozilla) Informationen von Ihnen erhalten, legt unsere <policy>Mozilla-Datenschutzrichtlinie</policy> dar, wie wir mit diesen Informationen umgehen.
 privacy-data-demographic = <name>Demografische Angaben.</name> Optional können Sie uns Informationen wie Akzent, Alter und Geschlecht zusenden. Dies hilft uns und anderen Forschern bei der Verbesserung und Entwicklung von Technologien und Werkzeugen zur Umwandlung von Sprache in Text.
 privacy-data-account = <name>Kontodaten.</name> Sie können wahlweise ein Konto erstellen, wobei wir in diesem Fall Ihre E-Mail-Adresse erhalten. Diese ist mit Ihren demografischen Daten und Ihren Nutzungsdaten verknüpft, wird aber nicht an die Öffentlichkeit weitergegeben.
@@ -111,7 +112,7 @@ privacy-more = <more>Mehr erfahren</more>
 ## Terms
 
 terms-title = Rechtliche Bestimmungen bzgl. Common Voice
-terms-effective = In Kraft getreten ab { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
+terms-effective = Gültig ab { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
 terms-eligibility-title = Teilnahmebedingung
 terms-eligibility-content = Sie müssen älter als 13 Jahre sein oder die Zustimmung Ihrer Eltern bzw. eines Sorgeberechtigten haben. In letzterem Fall dürfen Sie unter deren Aufsicht an unserem Crowd-Sourcing-Projekt teilnehmen.
 terms-privacy-title = Datenschutz
@@ -159,7 +160,7 @@ record-error-too-short = Die Aufnahme war zu kurz.
 record-error-too-long = Die Aufnahme war zu lang.
 record-error-too-quiet = Die Aufnahme war zu leise.
 record-submit-success = Senden erfolgreich! Aufnehmen wiederholen?
-record-help = Bitte drücken Sie auf Aufnehmen, dann lesen Sie dann den oberen Satz laut vor.
+record-help = Bitte drücken Sie auf Aufnehmen und lesen Sie dann den oberen Satz laut vor.
 record-cancel = Erneute Aufnahme abbrechen
 review-terms = Durch die Verwendung von Common Voice akzeptieren Sie unsere <termsLink>Nutzungsbedingungen</termsLink> und den <privacyLink>Datenschutzhinweis</privacyLink>.
 review-aborted = Hochladen abgebrochen. Möchten Sie Ihre Tonaufnahmen löschen?
@@ -176,7 +177,6 @@ download-helpus = Helfen Sie uns, eine Gemeinschaft rund um sprachbasierte Techn
 download-form-email =
     .label = E-Mail-Adresse eingeben
     .value = Vielen Dank, wir melden uns.
-download-form-submit = Absenden
 download-back = Zurück zu Common-Voice-Datensätzen
 download-no = Nein, danke
 
@@ -184,14 +184,11 @@ download-no = Nein, danke
 
 contact-title = Kontaktformular
 contact-cancel = Abbrechen
-contact-form-email =
-    .label = E-Mail-Adresse
 contact-form-name =
     .label = Name
 contact-form-message =
     .label = Nachricht
 contact-required = *erforderlich
-contact-submit = Absenden
 
 ## Request Language Modal
 
@@ -199,8 +196,16 @@ request-language-title = Sprachanfrage
 request-language-cancel = Formular verlassen
 request-language-form-language =
     .label = Sprache
-request-language-form-email =
-    .label = E-Mail-Adresse
-request-language-submit = Absenden
 request-language-success-title = Sprachanfrage erfolgreich abgesendet, vielen Dank.
 request-language-success-text = Wir werden uns bei Ihnen mit weiteren Informationen zu Ihrer Sprache melden, sobald diese verfügbar ist.
+
+## Help Translate Modal
+
+help-translate-title = Helfen Sie bei der Übersetzung auf { $language }
+help-translate-cancel = Verlassen
+help-translate-text = Wir leiten Sie an Mozillas Übersetzungsseite <pontoonLink>Pontoon</pontoonLink> weiter, wo diese Sprache aktuell in der Öffentlichkeit übersetzt wird.
+language-updates-title = Neuigkeiten für { $language } abonnieren
+help-translate-link = Pontoon aufrufen
+language-updates-success-title = Anfrage für Neuigkeiten zu { $language } erfolgreich übermittelt, vielen Dank.
+language-updates-success-text = Wir melden uns mit neuen Informationen, sobald sie verfügbar sind.
+language-updates-success-collapsed-title = Sie haben Neuigkeiten für { $language } abonniert

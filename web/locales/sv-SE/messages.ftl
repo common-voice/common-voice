@@ -1,6 +1,14 @@
+## General
+
+yes-receive-emails = Ja, skicka mig e-postmeddelanden. Jag skulle vilja hålla mig informerad om projektet Common Voice.
+stayintouch = Vi hos Mozilla bygger en gemenskap kring röstteknik. Vi skulle vilja hålla kontakten med dig om uppdateringar, nya datakällor och höra mer om hur du använder dessa data.
+privacy-info = Vi lovar att hantera din information med försiktighet. Läs mer i vår <privacyLink>sekretesspolicy</ privacyLink>.
+return-to-cv = Återgå till Common Voice
+
 ## Layout
 
 speak = Prata
+datasets = Datamängder
 profile = Profil
 help = Hjälp
 contact = Kontakt
@@ -9,14 +17,24 @@ terms = Villkor
 cookies = Kakor
 faq = FAQ
 content-license-text = Innehåll tillgängligt under en <licenseLink>Creative Commons licens</licenseLink>
+share-title = Hjälp oss att hitta andra som är redo att bidra med sin röst!
 
 ## Home Page
 
+home-title = Projektet Common Voice är Mozillas initiativ att hjälpa till att lära maskiner hur riktiga människor talar.
+home-cta = Öppna din mun, stöd projekt och gör ett bidrag!
+wall-of-text-start = Språk är naturligt, språk är mänskligt. Därför fascineras vi av att skapa användbara taligenkänningsteknologier för våra enheter. Att utveckla röstbaserade system kräver emellertid en mycket stor mängd inspelningar i talat språk.
+wall-of-text-more-mobile = En större del av den data som används av stora företag är emellertid otillgänglig för de flesta människor. Vi tror att detta kommer att förhindra innovation. Därför lanserade vi projektet Common Voice, ett projekt som hjälper till att göra taligenkänning tillgänglig för alla.
+wall-of-text-more-desktop = Nu kan du donera din röst för att hjälpa oss att bygga en röstdatabas med öppen källkod som alla kan använda för att skapa innovativa appar för enheter och webben.<lineBreak></lineBreak>Läs en mening för att hjälpa maskiner att lära sig hur riktiga människor pratar. Kontrollera andra bidragsgivares arbete för att förbättra kvaliteten. Det är så enkelt!
 show-wall-of-text = Läs mer
 help-us-title = Hjälp oss validera meningar!
+help-us-explain = Tryck på Play, lyssna och berätta: Var följande mening inspelad korrekt?
+request-language-text = Kan du inte se ditt språk på Common Voice än?
+request-language-button = Skicka en förfrågan
 
 ## ProjectStatus
 
+status-title = Övergripande projektstatus: se hur långt vi har kommit!
 status-contribute = Bidra med din röst
 status-loading = Laddar…
 # Variables:
@@ -26,7 +44,7 @@ status-more-soon = Fler språk kommer snart!
 
 ## ProfileForm
 
-profile-form-email =
+email-input =
     .label = E-post
 profile-form-username =
     .label = Användarnamn
@@ -93,18 +111,20 @@ download-title = Din nerladdning har startat.
 download-form-email =
     .label = Ange din e-postadress
     .value = Tack, vi hör av oss.
-download-form-submit = Skicka in
 download-no = Nej tack
 
-## Contact
+## Contact Modal
 
 contact-title = Kontaktformulär
 contact-cancel = Avbryt
-contact-form-email =
-    .label = E-post
 contact-form-name =
     .label = Namn
 contact-form-message =
     .label = Meddelande
 contact-required = *krävs
-contact-submit = Skicka in
+submit-form-action = Skicka in
+
+## Request Language Modal
+
+request-language-form-language =
+    .label = Språk

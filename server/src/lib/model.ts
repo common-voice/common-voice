@@ -1,5 +1,4 @@
 import DB from './model/db';
-import { CommonVoiceConfig } from '../config-helper';
 import { DBClipWithVoters } from './model/db/tables/clip-table';
 import Cache from './cache';
 
@@ -7,15 +6,9 @@ import Cache from './cache';
  * The Model loads all clip and user data into memory for quick access.
  */
 export default class Model {
-  config: CommonVoiceConfig;
-  db: DB;
+  db = new DB();
   clipCache = new Cache(count => this.db.findClipsWithFewVotes(count));
   sentencesCache = new Cache(count => this.db.findSentencesWithFewClips(count));
-
-  constructor(config: CommonVoiceConfig) {
-    this.config = config;
-    this.db = new DB(this.config);
-  }
 
   /**
    * Fetch a random clip but make sure it's not the user's.

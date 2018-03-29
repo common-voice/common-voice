@@ -37,7 +37,7 @@ status-more-soon = Aviat hi haurà més llengües disponibles!
 
 ## ProfileForm
 
-profile-form-email =
+email-input =
     .label = Adreça electrònica
 profile-form-username =
     .label = Nom d'usuari
@@ -111,18 +111,15 @@ review-rerecord = Torna a enregistrar
 
 ## Download Modal
 
-download-form-submit = Envia
 download-no = No, gràcies
 
 ## Contact
 
 contact-title = Formulari de contacte
 contact-cancel = Cancel·la
-contact-form-email =
-    .label = Adreça electrònica
 contact-form-name =
     .label = Nom
 contact-form-message =
     .label = Missatge
 contact-required = * necessari
-contact-submit = Envia
+submit-form-action = Envia

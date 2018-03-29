@@ -1,16 +1,14 @@
 import * as path from 'path';
 const DBMigrate = require('db-migrate');
-import { CommonVoiceConfig } from '../../../config-helper';
+import { getConfig } from '../../../config-helper';
 import Mysql from './mysql';
 
 export default class Schema {
   private mysql: Mysql;
   private name: string;
-  private config: CommonVoiceConfig;
 
-  constructor(mysql: Mysql, config: CommonVoiceConfig) {
+  constructor(mysql: Mysql) {
     this.mysql = mysql;
-    this.config = config;
     this.name = mysql.options.database;
   }
 
@@ -66,7 +64,7 @@ export default class Schema {
       DB_ROOT_PASS,
       DB_ROOT_USER,
       VERSION,
-    } = this.config;
+    } = getConfig();
     const dbMigrate = DBMigrate.getInstance(true, {
       config: {
         dev: {

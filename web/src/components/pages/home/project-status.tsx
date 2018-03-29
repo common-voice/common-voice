@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 const { Localized } = require('fluent-react');
 import { trackNavigation } from '../../../services/tracker';
 import { isProduction } from '../../../utility';
+import ProgressBar from '../../progress-bar/progress-bar';
 import API from '../../../services/api';
 import StateTree from '../../../stores/tree';
 import { Button, Hr } from '../../ui/ui';
@@ -54,17 +55,9 @@ class ProjectStatus extends React.Component<Props, State> {
         <div className="contents">
           <div className="language-progress">
             <b>ENGLISH</b>
-            <div className="progress-bar">
-              <div
-                className="validated-hours"
-                style={
-                  validatedHours
-                    ? { width: 100 * validatedHours / goal + '%' }
-                    : { width: 0, padding: 0 }
-                }>
-                {validatedHours}
-              </div>
-            </div>
+            <ProgressBar progress={validatedHours ? validatedHours / goal : 0}>
+              {validatedHours}
+            </ProgressBar>
             <div className="numbers">
               {validatedHours === null ? (
                 <Localized id="status-loading">
