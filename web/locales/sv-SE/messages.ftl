@@ -4,11 +4,15 @@ yes-receive-emails = Ja, skicka mig e-postmeddelanden. Jag skulle vilja hålla m
 stayintouch = Vi hos Mozilla bygger en gemenskap kring röstteknik. Vi skulle vilja hålla kontakten med dig om uppdateringar, nya datakällor och höra mer om hur du använder dessa data.
 privacy-info = Vi lovar att hantera din information med försiktighet. Läs mer i vår <privacyLink>sekretesspolicy</ privacyLink>.
 return-to-cv = Återgå till Common Voice
+email-input =
+    .label = E-post
+submit-form-action = Skicka in
 
 ## Layout
 
 speak = Prata
 datasets = Datamängder
+languages = Språk
 profile = Profil
 help = Hjälp
 contact = Kontakt
@@ -44,8 +48,6 @@ status-more-soon = Fler språk kommer snart!
 
 ## ProfileForm
 
-email-input =
-    .label = E-post
 profile-form-username =
     .label = Användarnamn
 profile-form-language =
@@ -122,9 +124,11 @@ contact-form-name =
 contact-form-message =
     .label = Meddelande
 contact-required = *krävs
-submit-form-action = Skicka in
 
 ## Request Language Modal
 
 request-language-form-language =
     .label = Språk
+
+## Help Translate Modal
+
