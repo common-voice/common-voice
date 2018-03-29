@@ -10,6 +10,7 @@ submit-form-action = Submit
 ## Layout
 speak = Speak
 datasets = Datasets
+languages = Languages
 profile = Profile
 help = Help
 contact = Contact
