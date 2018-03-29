@@ -12,6 +12,7 @@ submit-form-action = Absenden
 
 speak = Sprechen
 datasets = Datensätze
+languages = Sprachen
 profile = Profil
 help = Hilfe
 contact = Kontakt
