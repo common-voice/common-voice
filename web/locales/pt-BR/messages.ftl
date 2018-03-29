@@ -152,6 +152,11 @@ record-error-too-quiet = A gravação ficou com volume muito baixa.
 record-submit-success = Enviada com sucesso! Deseja gravar novamente?
 record-help = Toque para gravar, depois leias as frases em voz alta.
 record-cancel = Cancelar regravação
+review-terms = Usando o Common Voice, você aceita nossos <termsLink>Termos</termsLink> e <privacyLink>Política de Privacidade</privacyLink>
+review-aborted = Envio abortado. Deseja excluir suas gravações?
+review-submit-title = Revise e envie
+review-submit-msg = Obrigado pela sua gravação!<lineBreak></lineBreak>Agora revise e envie-as abaixo.
+review-recording = Revisar
 review-rerecord = Regravar
 review-cancel = Cancelar envio
 
