@@ -12,6 +12,7 @@ submit-form-action = Indienen
 
 speak = Spreken
 datasets = Gegevenssets
+languages = Talen
 profile = Profiel
 help = Help
 contact = Contact
