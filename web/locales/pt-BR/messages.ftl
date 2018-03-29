@@ -1,7 +1,9 @@
 ## General
 
 yes-receive-emails = Sim, envie-me e-mails. Eu gostaria de ficar informado sobre o Projeto Common Voice.
+stayintouch = Nós da Mozilla estamos construindo uma comunidade ao redor da tecnologia de voz. Nós gostaríamos de manter contato com atualizações, novas fontes de dados e ouvir mais sobre como você está usando esses dados. 
 privacy-info = Nós prometemos cuidar das suas informações com cautela. Leia mais em nosso <privacyLink>Aviso de Privacidade</privacyLink>.
+return-to-cv = Voltar para o Common Voice
 email-input =
     .label = E-mail
 submit-form-action = Enviar
@@ -31,6 +33,8 @@ wall-of-text-more-desktop = Agora você pode doar sua voz para nos ajudar a cons
 show-wall-of-text = Saiba mais
 help-us-title = Ajude-nos a validar as frases!
 help-us-explain = Aperte o play, ouça e diga-nos: Eles pronunciaram a frase abaixo corretamente?
+request-language-text = Seu idioma ainda não está disponível no Common Voice?
+request-language-button = Solicite um idioma
 
 ## ProjectStatus
 
@@ -115,8 +119,11 @@ terms-eligibility-content = Você deve ter mais de 13 anos ou ter o consentiment
 terms-privacy-title = Privacidade
 terms-privacy-content = Nossos <privacyLink>Avisos de Privacidade</privacyLink> explicam como receberemos e cuidaremos dos seus dados.
 terms-contributions-title = Suas contribuições e liberação de direitos
+terms-contributions-content = Ao enviar suas gravações, você renuncia a todos os direitos autorais e direitos relacionados que você pode ter neles, e você aceita disponibilizar as gravações para o público sob <licenseLink>CC-0</licenseLink>. Isso significa que você concorda em renunciar a todos os direitos sobre as gravações em todo o mundo sob leis de direitos autorais e de base de dados, incluindo direitos morais e publicitários e todos os direitos relacionados e conexos.
 terms-communications-title = Comunicações
 terms-general-title = Geral
+terms-general-liability1 = Declaração de exoneração de responsabilidade; Limitação da Responsabilidade: O COMMON VOICE E TODAS AS GRAVAÇÕES INCLUSAS SÃO PROVIDOS NA CONDIÇÃO DE "COMO É" SEM QUALQUER GARANTIA DE NENHUM TIPO, SENDO EXPRESSO OU IMPLÍCITO. A MOZILLA NÃO SE RESPONSABILIZA POR QUALQUER GRAVAÇÃO QUE VOCÊ OU QUALQUER OUTRO USUÁRIO OU TERCEIRO PUBLICA OU TRANSMITE UTILIZANDO COMMON VOICE. 
+terms-general-liability2 = A MOZILLA EXONERA ESPECIFICAMENTE TODAS E QUAISQUER GARANTIAS E CONDIÇÕES DE COMERCIALIDADE, ADEQUAÇÃO A UM PROPÓSITO PARTICULAR, E NÃO VIOLAÇÃO, E QUAISQUER GARANTIAS RESULTANTES DO CURSO DE NEGOCIAÇÃO OU UTILIZAÇÃO COMERCIAL.
 
 ## Data
 
