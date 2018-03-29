@@ -4,11 +4,15 @@ yes-receive-emails = Oui, envoyez-moi des courriers électroniques. Je souhaite 
 stayintouch = Chez Mozilla, nous rassemblons une communauté autour des technologies vocales. Nous aimerions rester en contact avec vous pour vous tenir au courant des nouvelles sources de données et pour découvrir comment vous utilisez ces données.
 privacy-info = Nous vous promettons de prendre soin de vos données. Apprenez-en davantage en consultant notre <privacyLink>politique de confidentialité</privacyLink>.
 return-to-cv = Retourner vers Common Voice
+email-input =
+    .label = Adresse électronique
+submit-form-action = Envoyer
 
 ## Layout
 
 speak = Parler
 datasets = Jeux de données
+languages = Langues
 profile = Profil
 help = Aide
 contact = Nous contacter
@@ -39,7 +43,8 @@ request-language-button = Proposer une langue
 status-title = État global du projet : découvrez nos progrès !
 status-contribute = Faites don de votre voix
 status-loading = Chargement…
-status-hours = { $hours ->
+status-hours =
+    { $hours ->
         [one] Déjà une heure validée !
        *[other] Déjà { $hours } heures validées !
     }
@@ -50,8 +55,6 @@ status-more-soon = Bientôt de nouvelles langues !
 
 ## ProfileForm
 
-email-input =
-    .label = Adresse électronique
 profile-form-username =
     .label = Nom d’utilisateur
 profile-form-language =
@@ -189,7 +192,6 @@ contact-form-name =
 contact-form-message =
     .label = Message
 contact-required = *requis
-submit-form-action = Envoyer
 
 ## Request Language Modal
 
@@ -199,3 +201,6 @@ request-language-form-language =
     .label = Langue
 request-language-success-title = La langue a été proposée, merci.
 request-language-success-text = Nous vous contacterons avec plus d’informations lorsque votre langue sera disponible.
+
+## Help Translate Modal
+
