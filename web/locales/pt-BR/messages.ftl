@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = Sim, envie-me e-mails. Eu gostaria de ficar informado sobre o Projeto Common Voice.
-stayintouch = Nós da Mozilla estamos construindo uma comunidade ao redor da tecnologia de voz. Nós gostaríamos de manter contato com atualizações, novas fontes de dados e ouvir mais sobre como você está usando esses dados. 
+stayintouch = Nós da Mozilla estamos construindo uma comunidade ao redor da tecnologia de voz. Nós gostaríamos de manter contato com atualizações, novas fontes de dados e ouvir mais sobre como você está usando esses dados.
 privacy-info = Nós prometemos cuidar das suas informações com cautela. Leia mais em nosso <privacyLink>Aviso de Privacidade</privacyLink>.
 return-to-cv = Voltar para o Common Voice
 email-input =
@@ -132,18 +132,26 @@ data-download-license = Licença: <licenseLink>CC-0</licenseLink>
 data-download-modal = Você está preste a iniciar um download de <size>{ $size }GB</size>, deseja continuar?
 data-other-goto = Vá para { $name }
 data-other-download = Baixar dados
+data-other-ted-name = TED-LIUM Corpus
+data-other-ted-description = O TED-LIUM corpus foi criado a partir dos áudio das palestras e suas transcrições que estão disponíveis na página do TED.
+data-other-voxforge-description = VoxForge foi configurado para coletar falas transcritas para serem usadas com motores de reconhecimento de fala gratuito e de código aberto.
+data-other-tatoeba-description = Tatoeba é uma grande base de dados de frases, traduções e áudio para uso em aprendizagem de idioma. Este arquivo contém todas as falas em inglês gravadas por sua comunidade.
 data-bundle-button = Baixar pacote do conjunto de dados
+data-bundle-description = Os dados do Common Voice mais todos os outros conjuntos de dados acima.
 license = Licença: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
 
 record-platform-not-supported = Nos desculpe, mas sua plataforma não é suportada.
+record-platform-not-supported-desktop = Em computadores, você pode baixar o mais recente:
+record-platform-not-supported-ios = Usuários de <bold>iOS</bold> podem baixar nosso aplicativo gratuito:
 record-must-allow-microphone = Você deve permitir o acesso ao microfone.
 record-error-too-short = A gravação foi muito curta.
 record-error-too-long = A gravação foi muito longa
 record-error-too-quiet = A gravação ficou com volume muito baixa.
 record-submit-success = Enviada com sucesso! Deseja gravar novamente?
 record-help = Toque para gravar, depois leias as frases em voz alta.
+record-cancel = Cancelar regravação
 review-rerecord = Regravar
 review-cancel = Cancelar envio
 
@@ -168,6 +176,12 @@ contact-required = *necessário
 
 ## Request Language Modal
 
+request-language-title = Solicitação de idioma
+request-language-cancel = Sair do formulário
+request-language-form-language =
+    .label = Idioma
 
 ## Help Translate Modal
 
+help-translate-title = Ajude a traduzir o { $language }
+help-translate-cancel = Sair
