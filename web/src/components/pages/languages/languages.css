@@ -153,7 +153,8 @@
 }
 
 .languages .language .info hr {
-    margin: 1rem 0;
+    margin: .5rem 0;
+    height: 1.5px;
 }
 
 .languages .language .info .numbers > div {
@@ -185,6 +186,7 @@
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 0.4px;
+    font-family: var(--base-font-family);
 }
 
 .languages .language button:hover {
