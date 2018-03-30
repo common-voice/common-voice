@@ -79,7 +79,7 @@ const LocalizedLayout = withRouter(
         await this.prepareMessagesGenerator(this.props);
       }
 
-      async componentWillReceiveProps(nextProps: LocalizedPagesProps) {
+      async componentWillDidUpdate(nextProps: LocalizedPagesProps) {
         if (nextProps.userLocales !== this.props.userLocales) {
           await this.prepareMessagesGenerator(nextProps);
         }

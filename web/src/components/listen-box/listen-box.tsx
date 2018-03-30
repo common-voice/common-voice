@@ -50,7 +50,7 @@ export default class ListenBox extends React.Component<Props, State> {
     shortcutsEnabled: false,
   };
 
-  componentWillReceiveProps(nextProps: Props) {
+  componentDidUpdate(nextProps: Props) {
     if (nextProps.sentence !== this.props.sentence) {
       this.resetState();
     }

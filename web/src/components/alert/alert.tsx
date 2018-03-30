@@ -17,14 +17,11 @@ export default class Alert extends React.Component<Props, {}> {
 
   timeout: number;
 
-  constructor(props: Props) {
-    super(props);
-
-    this.onClick = this.onClick.bind(this);
-    this.startTimer({}, props);
+  componentDidMount() {
+    this.startTimer({}, this.props);
   }
 
-  componentWillReceiveProps(nextProps: Props) {
+  componentDidUpdate(nextProps: Props) {
     this.startTimer(this.props, nextProps);
   }
 
@@ -44,17 +41,17 @@ export default class Alert extends React.Component<Props, {}> {
     }
   }
 
-  private onClick() {
+  private close = () => {
     clearTimeout(this.timeout);
     this.props.onClose();
-  }
+  };
 
   render() {
     return (
       <div className={'alert ' + this.props.type}>
         {this.props.children}
 
-        <CloseIcon onClick={this.onClick} className="icon" />
+        <CloseIcon onClick={this.close} className="icon" />
       </div>
     );
   }
