@@ -8,7 +8,13 @@ import StateTree from '../../stores/tree';
 import { User } from '../../stores/user';
 import { Clips } from '../../stores/clips';
 import URLS from '../../urls';
-import {getItunesURL, isNativeIOS, isIOS, isSafari, isProduction} from '../../utility';
+import {
+  getItunesURL,
+  isNativeIOS,
+  isIOS,
+  isSafari,
+  isProduction,
+} from '../../utility';
 import { MenuIcon, RecordIcon, PlayIcon } from '../ui/icons';
 import Robot from './robot';
 import Home from '../pages/home/home';
@@ -313,9 +319,11 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
         <Localized id="datasets">
           <NavLink to={this.basePath + URLS.DATA} exact />
         </Localized>
-        {!isProduction() && <Localized id="languages">
-          <NavLink to={this.basePath + URLS.LANGUAGES} exact />
-        </Localized>}
+        {!isProduction() && (
+          <Localized id="languages">
+            <NavLink to={this.basePath + URLS.LANGUAGES} exact />
+          </Localized>
+        )}
         <Localized id="profile">
           <NavLink to={this.basePath + URLS.PROFILE} exact />
         </Localized>
