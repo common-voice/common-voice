@@ -9,9 +9,11 @@ submit-form-action = Seol
 
 speak = Abair
 datasets = Tacair sonraí
+languages = Teangacha
 profile = Próifíl
 help = Cabhair
 contact = Teagmháil
+terms = Téarmaí
 cookies = Fianáin
 faq = Ceisteanna Coitianta
 content-license-text = Tá an t-ábhar seo ar fáil de réir téarmaí <licenseLink>Cheadúnas Creative Commons</licenseLink>
