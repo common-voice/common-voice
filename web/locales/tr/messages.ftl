@@ -1,6 +1,10 @@
 ## General
 
 yes-receive-emails = Evet, bana e-posta gönderebilirsiniz. Common Voice projesiyle ilgili gelişmeleri öğrenmek istiyorum.
+return-to-cv = Common Voice’a geri dön
+email-input =
+    .label = E-posta
+submit-form-action = Gönder
 
 ## Layout
 
@@ -25,6 +29,8 @@ wall-of-text-more-mobile = Büyük şirketlerin kullandığı verilerin çoğu i
 show-wall-of-text = Devamını oku
 help-us-title = Cümleleri doğrulamamıza yardım et!
 help-us-explain = Oynatma tuşuna basıp dinleyin: Konuşmacı, aşağıdaki cümleyi doğru şekilde okumuş mu?
+request-language-text = Dilinizi henüz Common Voice’ta göremiyor musunuz?
+request-language-button = Yeni dil iste
 
 ## ProjectStatus
 
@@ -42,8 +48,6 @@ status-more-soon = Yakında başka diller de geliyor!
 
 ## ProfileForm
 
-email-input =
-    .label = E-posta
 profile-form-username =
     .label = Kullanıcı adı
 profile-form-language =
@@ -103,6 +107,8 @@ record-error-too-short = Kayıt çok kısa.
 record-error-too-long = Kayıt çok uzun.
 record-error-too-quiet = Bu kayıt çok sessiz oldu.
 record-cancel = Yeniden kaydetmeyi iptal et
+review-submit-title = İncele ve gönder
+review-recording = İnceleme
 review-rerecord = Yeniden kaydet
 review-cancel = Gönderimi iptal et
 
@@ -123,7 +129,6 @@ contact-form-name =
 contact-form-message =
     .label = Mesajınız
 contact-required = *gerekli
-submit-form-action = Gönder
 
 ## Request Language Modal
 
@@ -131,3 +136,6 @@ request-language-title = Dil İsteği
 request-language-form-language =
     .label = Dil
 request-language-success-title = Dil isteği başarıyla gönderildi. Teşekkür ederiz.
+
+## Help Translate Modal
+
