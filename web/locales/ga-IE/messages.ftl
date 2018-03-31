@@ -36,6 +36,7 @@ profile-form-gender =
 
 ## FAQ
 
+faq-title = Ceisteanna Coitianta
 
 ## Profile
 
