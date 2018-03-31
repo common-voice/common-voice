@@ -12,6 +12,7 @@ submit-form-action = 提交
 
 speak = 说话
 datasets = 数据集
+languages = 语言
 profile = 用户资料
 help = 帮助
 contact = 联系我们
