@@ -41,6 +41,11 @@ request-language-button = Skicka en förfrågan
 status-title = Övergripande projektstatus: se hur långt vi har kommit!
 status-contribute = Bidra med din röst
 status-loading = Laddar…
+status-hours =
+    { $hours ->
+        [one] En validerad timme hittills!
+       *[other] { $hours } validerade timmar hittills!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Nästa mål: { $goal }
@@ -64,7 +69,17 @@ profile-form-gender =
 
 faq-title = Vanliga frågor och svar
 faq-what-q = Vad är Common Voice?
+faq-what-a = Röstigenkänningstekniken kan revolutionera hur vi interagerar med maskiner, men de system som finns tillgängliga är dyra och proprietära. Common Voice är ett projekt för att göra röstigenkänningsteknik lättillgänglig för alla. Människor donerar sina röster till en stor databas som låter vem som helst snabbt och enkelt träna röstaktiverade appar. Alla röstdata kommer att finnas tillgängliga för utvecklare.
 faq-important-q = Varför är detta viktigt?
+faq-important-a = Språk är naturligt, språk är mänskligt. Det är det enklaste och mest naturliga sättet att kommunicera. Vi vill att utvecklare ska kunna bygga fantastiska saker från realtidsöversättare till röstaktiverade administrativa assistenter. Men just nu finns det inte tillräckligt med allmänt tillgängliga data för att bygga dessa typer av appar. Vi hoppas att Common Voice kommer att ge utvecklare vad de behöver för sådan innovation.
+faq-get-q = Hur får jag tillgång till Common Voice data?
+faq-get-a = Datamängden är nu tillgänglig på vår <downloadLink>nedladdningssida</downloadLink> under licensen <licensLink>CC-0</ licenseLink>.
+faq-mission-q = Varför är Common Voice en del av Mozillas uppdrag?
+faq-mission-a = Mozilla är dedikerad till att hålla webben öppen och tillgänglig för alla. För att göra det behöver vi stärka webbskapare genom projekt som Common Voice. Eftersom röstteknologi växer utöver nischprogram, tror vi att de måste tjäna alla användare lika bra. Vi ser ett behov av att inkludera flera språk, accenter och demografi när vi bygger och testar röstteknik. Mozilla vill se ett hälsosamt och pulserande internet. Det innebär att nya skapare får tillgång till röstdata så att de kan bygga nya, extraordinära projekt. Common Voice kommer att vara en offentlig resurs som hjälper Mozilla-team och utvecklare runt om i världen.
+faq-native-q = { $lang } är inte mitt modersmål och jag pratar med en accent, är ni fortfarande intresserad av mina röstinspelningar?
+faq-native-a = Ja, vi vill definitivt ha din röst! En del av målet med Common Voice är att samla in så många olika accenter som möjligt, så att datorer bättre kan förstå <bold>alla</ bold> när de talar.
+faq-firefox-q = Kommer tal-till-text, via Common Voice, någonsin att bli en del av Firefox?
+faq-firefox-a = Common Voice har obegränsad potential och vi undersöker talgränssnitt i många Mozilla-produkter, inklusive Firefox.
 
 ## Profile
 
