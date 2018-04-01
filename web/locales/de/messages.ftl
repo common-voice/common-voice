@@ -112,7 +112,7 @@ privacy-more = <more>Mehr erfahren</more>
 
 ## Terms
 
-terms-title = Rechtliche Bestimmungen bzgl. Common Voice
+terms-title = Common-Voice-Nutzungsbedingungen
 terms-effective = Gültig ab { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
 terms-eligibility-title = Teilnahmebedingung
 terms-eligibility-content = Sie müssen älter als 13 Jahre sein oder die Zustimmung Ihrer Eltern bzw. eines Sorgeberechtigten haben. In letzterem Fall dürfen Sie unter deren Aufsicht an unserem Crowd-Sourcing-Projekt teilnehmen.
