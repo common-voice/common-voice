@@ -80,6 +80,7 @@ faq-native-q = { $lang } är inte mitt modersmål och jag pratar med en accent, 
 faq-native-a = Ja, vi vill definitivt ha din röst! En del av målet med Common Voice är att samla in så många olika accenter som möjligt, så att datorer bättre kan förstå <bold>alla</ bold> när de talar.
 faq-firefox-q = Kommer tal-till-text, via Common Voice, någonsin att bli en del av Firefox?
 faq-firefox-a = Common Voice har obegränsad potential och vi undersöker talgränssnitt i många Mozilla-produkter, inklusive Firefox.
+faq-quality-q = Vilken kvalitetsnivå krävs för ljudet för att det ska kunna användas?
 
 ## Profile
 
