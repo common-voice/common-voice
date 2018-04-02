@@ -12,6 +12,7 @@ submit-form-action = Yntsjinje
 
 speak = Sprekke
 datasets = Datasets
+languages = Talen
 profile = Profyl
 help = Help
 contact = Kontakt
