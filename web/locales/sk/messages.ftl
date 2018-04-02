@@ -106,6 +106,7 @@ terms-general-title = Všeobecné
 
 data-download-license = Licencia: <licenseLink>CC-0</licenseLink>
 data-download-modal = Chystáte sa zahájiť preberanie <size>{ $size } GB</size>, chcete pokračovať?
+data-other-title = Ďalšie hlasové datasety…
 data-other-goto = Prejdite na { $name }
 data-other-download = Prevziať údaje
 license = Licencia: <licenseLink>{ $license }</licenseLink>
