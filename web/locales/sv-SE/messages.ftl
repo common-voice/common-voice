@@ -81,6 +81,7 @@ faq-native-a = Ja, vi vill definitivt ha din röst! En del av målet med Common 
 faq-firefox-q = Kommer tal-till-text, via Common Voice, någonsin att bli en del av Firefox?
 faq-firefox-a = Common Voice har obegränsad potential och vi undersöker talgränssnitt i många Mozilla-produkter, inklusive Firefox.
 faq-quality-q = Vilken kvalitetsnivå krävs för ljudet för att det ska kunna användas?
+faq-source-q = Var kommer källtexten ifrån?
 
 ## Profile
 
@@ -92,10 +93,12 @@ notfound-title = Hittades inte
 
 ## Privacy
 
+privacy-title = Sekretesspolicy Common Voice
 privacy-more = <more>Lär dig mer</more>
 
 ## Terms
 
+terms-title = Juridiska villkor Common Voice
 terms-eligibility-title = Berättigande
 terms-privacy-title = Sekretess
 terms-communications-title = Kommunikation
@@ -107,7 +110,8 @@ data-download-button = Ladda ner Common Voice Data
 data-download-license = Licens: <licenseLink>CC-0</licenseLink>
 data-get-started = <speechBlogLink>Kom igång med taligenkänning</speechBlogLink>
 data-other-goto = Gå till { $name }
-data-other-download = Ladda ner Data
+data-other-download = Ladda ner data
+data-other-ted-name = TED-LIUM korpus
 license = Licens: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
@@ -143,8 +147,20 @@ contact-required = *krävs
 
 ## Request Language Modal
 
+request-language-title = Språkförfrågan
+request-language-cancel = Avsluta formulär
 request-language-form-language =
     .label = Språk
+request-language-success-title = Språkförfrågan har skickats in, tack.
+request-language-success-text = Vi kommer att kontakta dig, med mer information om ditt språk när det blir tillgängligt.
 
 ## Help Translate Modal
 
+help-translate-title = Hjälp till med översättning av { $language }
+help-translate-cancel = Avsluta
+help-translate-text = Vi kommer att dirigera om dig till Mozillas översättningsverktyg, <pontoonLink>Pontoon</pontoonLink>, där detta språk för närvarande översätts till allmänheten.
+language-updates-title = Registrera dig för uppdateringar om { $language }
+help-translate-link = Ta mig till Pontoon
+language-updates-success-title = Uppdateringsförfrågan för { $language } har skickats in, tack.
+language-updates-success-text = Vi kommer att kontakta dig med mer information när det blir tillgängligt.
+language-updates-success-collapsed-title = Du har registrerat dig för uppdateringar om { $language }
