@@ -90,17 +90,21 @@ profile-why-title = Varför en profil?
 ## NotFound
 
 notfound-title = Hittades inte
+notfound-content = Jag är rädd att jag inte vet vad du letar efter.
 
 ## Privacy
 
 privacy-title = Sekretesspolicy Common Voice
+privacy-effective = Giltig från { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
 privacy-more = <more>Lär dig mer</more>
 
 ## Terms
 
 terms-title = Juridiska villkor Common Voice
+terms-effective = Giltig från { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
 terms-eligibility-title = Berättigande
 terms-privacy-title = Sekretess
+terms-privacy-content = Vår <privacyLink>sekretesspolicy</privacyLink> förklarar hur vi tar emot och hanterar dina uppgifter.
 terms-communications-title = Kommunikation
 terms-general-title = Allmänt
 
@@ -109,6 +113,7 @@ terms-general-title = Allmänt
 data-download-button = Ladda ner Common Voice Data
 data-download-license = Licens: <licenseLink>CC-0</licenseLink>
 data-get-started = <speechBlogLink>Kom igång med taligenkänning</speechBlogLink>
+data-other-title = Andra röstdatamängder…
 data-other-goto = Gå till { $name }
 data-other-download = Ladda ner data
 data-other-ted-name = TED-LIUM korpus
@@ -123,16 +128,25 @@ record-must-allow-microphone = Du måste tillåta mikrofon åtkomst.
 record-error-too-short = Inspelningen var för kort.
 record-error-too-long = Inspelningen var för lång.
 record-error-too-quiet = Inspelningen var för tyst.
+record-submit-success = Inskickat! Vill du spela in igen?
+record-help = Vänligen klicka för att spela in, läs sedan ovanstående mening högt.
+record-cancel = Avbryt återinspelning
+review-terms = Genom att använda Common Voice godkänner du våra <termsLink>villkor</termsLink> och <privacyLink> sekretesspolicy</privacyLink>
+review-aborted = Uppladdningen avbröts. Vill du radera dina inspelningar?
 review-submit-title = Granska och skicka in 
+review-submit-msg = Tack för inspelningen! <lineBreak></lineBreak>Granska och skicka in dina klipp nedan.
 review-recording = Granska
 review-rerecord = Spela in igen
+review-cancel = Avbryt inskickning
 
 ## Download Modal
 
 download-title = Din nerladdning har startat.
+download-helpus = Hjälp oss att bygga en gemenskap kring röstteknik, håll kontakten via e-post.
 download-form-email =
     .label = Ange din e-postadress
     .value = Tack, vi hör av oss.
+download-back = Återgå till Common Voice datamängder
 download-no = Nej tack
 
 ## Contact Modal
