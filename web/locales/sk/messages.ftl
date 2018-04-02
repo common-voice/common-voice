@@ -12,6 +12,7 @@ submit-form-action = Odoslať
 
 speak = Hovorte
 datasets = Datasety
+languages = Jazyky
 profile = Profil
 help = Pomocník
 contact = Kontakt
@@ -73,6 +74,10 @@ faq-get-q = Ako môžem získať údaje z Common Voice?
 faq-mission-q = Prečo je Common Voice súčasťou misie Mozilly?
 faq-native-q = { $lang } nie je môj materinský jazyk a hovorím s prízvukom, chcete môj hlas aj tak?
 faq-native-a = Áno, určite chceme váš hlas! Súčasťou cieľov projektu Common Voice je zozbierať čo najviac prízvukov, aby tak počítače mohli lepšie rozumieť <bold>každému</bold>.
+faq-firefox-q = Bude prevod reči na text prostredníctvom Common Voice niekedy súčasťou Firefoxu?
+faq-firefox-a = Common Voice má neobmedzený potenciál a my skúmame hlasové rozhranie v mnohých produktoch Mozilly, vrátane Firefoxu.
+faq-hours-q = Prečo je 10 000 hodín cieľom pre záznam zvuku?
+faq-source-q = Odkiaľ pochádza zdrojový text?
 
 ## Profile
 
@@ -80,10 +85,12 @@ profile-why-title = Prečo potrebujete profil?
 
 ## NotFound
 
+notfound-content = Obávam sa, že neviem čo hľadáte.
 
 ## Privacy
 
 privacy-title = Zásady ochrany súkromia projektu Common Voice
+privacy-effective = Platné od { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
 privacy-more = <more>Ďalšie informácie</more>
 
 ## Terms
@@ -92,11 +99,13 @@ terms-title = Právne podmienky projektu Common Voice
 terms-effective = Platné od { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
 terms-privacy-title = Súkromie
 terms-privacy-content = Naše <privacyLink>zásady ochrany súkromia</privacyLink> popisujú, ako prijímame a nakladáme s vašimi údajmi.
+terms-communications-title = Komunikácia
 terms-general-title = Všeobecné
 
 ## Data
 
 data-download-license = Licencia: <licenseLink>CC-0</licenseLink>
+data-download-modal = Chystáte sa zahájiť preberanie <size>{ $size } GB</size>, chcete pokračovať?
 data-other-goto = Prejdite na { $name }
 data-other-download = Prevziať údaje
 license = Licencia: <licenseLink>{ $license }</licenseLink>
@@ -110,9 +119,12 @@ record-error-too-short = Vaša nahrávka bola príliš krátka.
 record-error-too-long = Vaša nahrávka bola príliš dlhá.
 record-error-too-quiet = Vaša nahrávka bola príliš tichá.
 review-terms = Používaním Common Voice súhlasíte s našimi <termsLink>podmienkami</termsLink> a <privacyLink>zásadami ochrany súkromia</privacyLink>
+review-rerecord = Nahrať znova
+review-cancel = Zrušiť odoslanie
 
 ## Download Modal
 
+download-title = Vaše preberanie začalo.
 download-helpus = Pomôžte nám vybudovať komunitu okolo technológií rozpoznávania reči - zostaňte s nami v kontakte prostredníctvom e-mailu.
 download-form-email =
     .label = Zadajte svoju e-mailovú adresu
@@ -141,3 +153,11 @@ request-language-success-text = Keď bude váš jazyk dostupný, pošleme vám �
 
 ## Help Translate Modal
 
+help-translate-title = Pomôžte preložiť jazyk { $language }
+help-translate-cancel = Ukončiť
+help-translate-text = Presunieme vás na lokalizačný nástroj Mozilly, <pontoonLink>Pontoon</pontoonLink>, pomocou ktorého prebieha preklad vášho jazyka.
+language-updates-title = Prihláste sa k odberu noviniek o jazyku { $language }
+help-translate-link = Prejsť na Pontoon
+language-updates-success-title = Požiadavka o novinky o jazyku { $language } bola odoslaná, ďakujeme.
+language-updates-success-text = Dáme vám vedieť hneď, ako budeme vedieť viac.
+language-updates-success-collapsed-title = Prihlásili ste sa k odberu noviniek o jazyku { $language }
