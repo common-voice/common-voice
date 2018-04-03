@@ -1,12 +1,15 @@
+import ISO6391 from 'iso-639-1';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, withRouter } from 'react-router';
+import {LOCALES} from "../../services/localization";
 import { Recordings } from '../../stores/recordings';
 import StateTree from '../../stores/tree';
 import { User } from '../../stores/user';
 import { Clips } from '../../stores/clips';
-import { getItunesURL, isNativeIOS, isIOS, isSafari } from '../../utility';
+import {getItunesURL, isNativeIOS, isIOS, isSafari, replacePathLocale} from '../../utility';
 import { MenuIcon, RecordIcon, PlayIcon } from '../ui/icons';
+import {LabeledSelect} from "../ui/ui";
 import Content from './content';
 import Footer from './footer';
 import Logo from './logo';
@@ -211,14 +214,21 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
     document.body.classList.remove(KEYBOARD_FOCUS_CLASS_NAME);
   };
 
+  private selectLocale = async ({ target: { value: locale } }: any) => {
+    const {history} = this.props;
+    history.push(replacePathLocale(history.location.pathname, locale));
+  };
+
   render() {
-    const pageName = this.props.location.pathname.split('/')[2] || 'home';
+    const {isSetFull, locale, location} = this.props;
+
+    const pageName = location.pathname.split('/')[2] || 'home';
     let className = pageName;
     if (this.state.isRecording) {
       className += ' recording';
     }
 
-    const basePath = '/' + this.props.locale;
+    const basePath = '/' + locale;
 
     return (
       <div
@@ -252,6 +262,15 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
           </div>
           <div>
             {this.renderTallies()}
+            {LOCALES.length > 1 && (
+              <LabeledSelect className="language-select" value={locale} onChange={this.selectLocale}>
+                {LOCALES.map(code => (
+                  <option key={code} value={code}>
+                    {ISO6391.getName(code) || code}
+                  </option>
+                ))}
+              </LabeledSelect>
+            )}
             <button
               id="hamburger-menu"
               onClick={this.toggleMenu}
@@ -277,7 +296,7 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
               <Robot
                 position={
                   pageName === 'record'
-                    ? this.props.isSetFull ? 'thanks' : 'record'
+                    ? isSetFull ? 'thanks' : 'record'
                     : null
                 }
               />

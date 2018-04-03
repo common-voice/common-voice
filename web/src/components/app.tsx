@@ -19,6 +19,7 @@ import {
   isNativeIOS,
   sleep,
   isProduction,
+  replacePathLocale,
 } from '../utility';
 import {
   createMessagesGenerator,
@@ -28,12 +29,6 @@ import {
 import API from '../services/api';
 import StateTree from '../stores/tree';
 import Layout from './layout/layout';
-
-function replacePathLocale(pathname: string, locale: string) {
-  const pathParts = pathname.split('/');
-  pathParts[1] = locale;
-  return pathParts.join('/');
-}
 
 const LOAD_TIMEOUT = 5000; // we can only wait so long.
 
@@ -79,8 +74,8 @@ const LocalizedLayout = withRouter(
         await this.prepareMessagesGenerator(this.props);
       }
 
-      async componentWillDidUpdate(nextProps: LocalizedPagesProps) {
-        if (nextProps.userLocales !== this.props.userLocales) {
+      async componentWillReceiveProps(nextProps: LocalizedPagesProps) {
+        if (nextProps.userLocales.find((locale, i) => locale !== this.props.userLocales[i])) {
           await this.prepareMessagesGenerator(nextProps);
         }
       }
@@ -200,10 +195,6 @@ class App extends React.Component<{}, State> {
     ]);
   }
 
-  private selectLocale = async ({ target: { value: locale } }: any) => {
-    history.push(replacePathLocale(history.location.pathname, locale));
-  };
-
   render() {
     return this.state.loaded ? (
       <Provider store={store}>
@@ -220,20 +211,9 @@ class App extends React.Component<{}, State> {
             <Route
               path="/:locale"
               render={({ match: { params: { locale } } }) => (
-                <React.Fragment>
-                  {LOCALES.length > 1 && (
-                    <select value={locale} onChange={this.selectLocale}>
-                      {LOCALES.map(code => (
-                        <option key={code} value={code}>
-                          {code}
-                        </option>
-                      ))}
-                    </select>
-                  )}
-                  <LocalizedLayout
-                    userLocales={[locale, ...this.userLocales]}
-                  />
-                </React.Fragment>
+                <LocalizedLayout
+                  userLocales={[locale, ...this.userLocales]}
+                />
               )}
             />
           </Switch>
