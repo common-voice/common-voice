@@ -59,7 +59,8 @@ terms-general-title = Téarmaí ginearálta
 
 ## Data
 
-data-other-goto = Fill ar { $name }
+data-other-goto = Téigh go { $name }
+data-other-download = Íoslódáil sonraí
 data-other-ted-name = Corpas TED-LIUM
 
 ## Record Page
