@@ -12,7 +12,7 @@ interface State {
   showWallOfText: boolean;
 }
 
-class Home extends React.Component<RouteComponentProps<any>, State> {
+class HomePage extends React.Component<RouteComponentProps<any>, State> {
   state = {
     showLanguageRequestModal: false,
     showWallOfText: false,
@@ -94,4 +94,4 @@ class Home extends React.Component<RouteComponentProps<any>, State> {
     );
   }
 }
-export default withRouter(Home);
+export default withRouter(HomePage);

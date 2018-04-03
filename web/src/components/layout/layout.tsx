@@ -1,33 +1,17 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { Switch, Route, RouteComponentProps, withRouter } from 'react-router';
-import { NavLink } from 'react-router-dom';
-const { Localized } = require('fluent-react');
+import { RouteComponentProps, withRouter } from 'react-router';
 import { Recordings } from '../../stores/recordings';
 import StateTree from '../../stores/tree';
 import { User } from '../../stores/user';
 import { Clips } from '../../stores/clips';
-import URLS from '../../urls';
-import {
-  getItunesURL,
-  isNativeIOS,
-  isIOS,
-  isSafari,
-  isProduction,
-} from '../../utility';
+import { getItunesURL, isNativeIOS, isIOS, isSafari } from '../../utility';
 import { MenuIcon, RecordIcon, PlayIcon } from '../ui/icons';
-import Robot from './robot';
-import Home from '../pages/home/home';
-import LanguagesPages from '../pages/languages/languages';
-import Record from '../pages/record/record';
-import Data from '../pages/data/data';
-import Profile from '../pages/profile';
-import FAQ from '../pages/faq';
-import Privacy from '../pages/privacy';
-import Terms from '../pages/terms';
-import NotFound from '../pages/not-found';
+import Content from './content';
 import Footer from './footer';
 import Logo from './logo';
+import Nav from './nav';
+import Robot from './robot';
 
 const KEYBOARD_FOCUS_CLASS_NAME = 'is-keyboard-focus';
 
@@ -227,7 +211,6 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
     document.body.classList.remove(KEYBOARD_FOCUS_CLASS_NAME);
   };
 
-  basePath: string;
   render() {
     const pageName = this.props.location.pathname.split('/')[2] || 'home';
     let className = pageName;
@@ -235,7 +218,7 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
       className += ' recording';
     }
 
-    this.basePath = '/' + this.props.locale;
+    const basePath = '/' + this.props.locale;
 
     return (
       <div
@@ -264,8 +247,8 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
             this.header = header as HTMLElement;
           }}>
           <div>
-            <Logo to={this.basePath} />
-            {this.renderNav('main-nav')}
+            <Logo to={basePath} />
+            <Nav basePath={basePath} id="main-nav" />
           </div>
           <div>
             {this.renderTallies()}
@@ -300,38 +283,28 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
               />
             </div>
             <div className="hero-space" />
-            {this.renderContent()}
-            <Footer basePath={this.basePath} />
+            <Content
+              ref={el => {
+                if (el) {
+                  this.content = el.container;
+                }
+              }}
+              basePath={basePath}
+              isRecording={this.state.isRecording}
+              onRecord={this.onRecord}
+              onRecordStop={this.onRecordStop}
+              onVolume={this.handleVolumeChange}
+            />
+            <Footer basePath={basePath} />
           </div>
         </div>
         <div
           id="navigation-modal"
           className={this.state.isMenuVisible ? 'active' : ''}
           onClick={this.toggleMenu}>
-          {this.renderNav()}
+          <Nav basePath={basePath} />
         </div>
       </div>
-    );
-  }
-
-  private renderNav(id?: string) {
-    return (
-      <nav id={id} className="nav-list">
-        <Localized id="speak">
-          <NavLink to={this.basePath + URLS.RECORD} exact />
-        </Localized>
-        <Localized id="datasets">
-          <NavLink to={this.basePath + URLS.DATA} exact />
-        </Localized>
-        {!isProduction() && (
-          <Localized id="languages">
-            <NavLink to={this.basePath + URLS.LANGUAGES} exact />
-          </Localized>
-        )}
-        <Localized id="profile">
-          <NavLink to={this.basePath + URLS.PROFILE} exact />
-        </Localized>
-      </nav>
     );
   }
 
@@ -348,52 +321,6 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
           <PlayIcon className="icon" />
           {user.validateTally}
         </div>
-      </div>
-    );
-  }
-
-  private renderContent() {
-    return (
-      <div
-        id="content"
-        ref={div => {
-          this.content = div as HTMLElement;
-        }}>
-        <Switch>
-          <Route exact path={this.basePath + URLS.ROOT} component={Home} />
-          <Route
-            exact
-            path={this.basePath + URLS.RECORD}
-            render={props => (
-              <Record
-                isRecording={this.state.isRecording}
-                onRecord={this.onRecord}
-                onRecordStop={this.onRecordStop}
-                onVolume={this.handleVolumeChange}
-                {...props}
-              />
-            )}
-          />
-          <Route
-            exact
-            path={this.basePath + URLS.LANGUAGES}
-            component={LanguagesPages}
-          />
-          <Route exact path={this.basePath + URLS.DATA} component={Data} />
-          <Route
-            exact
-            path={this.basePath + URLS.PROFILE}
-            component={Profile}
-          />
-          <Route exact path={this.basePath + URLS.FAQ} component={FAQ} />
-          <Route
-            exact
-            path={this.basePath + URLS.PRIVACY}
-            component={Privacy}
-          />
-          <Route exact path={this.basePath + URLS.TERMS} component={Terms} />
-          <Route component={NotFound} />
-        </Switch>
       </div>
     );
   }
