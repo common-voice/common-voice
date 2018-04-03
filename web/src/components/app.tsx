@@ -75,7 +75,11 @@ const LocalizedLayout = withRouter(
       }
 
       async componentWillReceiveProps(nextProps: LocalizedPagesProps) {
-        if (nextProps.userLocales.find((locale, i) => locale !== this.props.userLocales[i])) {
+        if (
+          nextProps.userLocales.find(
+            (locale, i) => locale !== this.props.userLocales[i]
+          )
+        ) {
           await this.prepareMessagesGenerator(nextProps);
         }
       }
@@ -211,9 +215,7 @@ class App extends React.Component<{}, State> {
             <Route
               path="/:locale"
               render={({ match: { params: { locale } } }) => (
-                <LocalizedLayout
-                  userLocales={[locale, ...this.userLocales]}
-                />
+                <LocalizedLayout userLocales={[locale, ...this.userLocales]} />
               )}
             />
           </Switch>
