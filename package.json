@@ -114,7 +114,7 @@
     "prettier": "yarn lint --fix",
     "start": "node scripts/dev-server.js",
     "start:prod": "node server/js/server.js",
-    "test": "jest && yarn build && bundlesize -f \"web/dist/*.js\" -s 110kb"
+    "test": "jest && yarn build && bundlesize -f \"web/dist/*.js\" -s 115kb"
   },
   "pre-commit": [
     "prettier"
