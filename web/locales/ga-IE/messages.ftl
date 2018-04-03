@@ -25,6 +25,7 @@ show-wall-of-text = Tuilleadh Eolais
 
 ## ProjectStatus
 
+status-contribute = Bronn do ghuth
 status-loading = Á lódáil...
 
 ## ProfileForm
@@ -49,10 +50,12 @@ notfound-title = Gan aimsiú
 
 ## Privacy
 
+privacy-more = <more>Tuilleadh eolais</more>
 
 ## Terms
 
 terms-privacy-title = Príobháideachas
+terms-general-title = Téarmaí ginearálta
 
 ## Data
 
