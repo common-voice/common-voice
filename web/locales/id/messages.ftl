@@ -1,22 +1,36 @@
 ## General
 
+return-to-cv = Kembali ke Common Voice
+email-input =
+    .label = Surel
+submit-form-action = Kirim
 
 ## Layout
 
+speak = Bicara
+datasets = Dataset
+languages = Bahasa
 profile = Profil
 help = Bantuan
+contact = Kontak
+privacy = Privasi
+terms = Ketentuan
+cookies = Kuki
+faq = TanyaJawab
 
 ## Home Page
 
+show-wall-of-text = Baca Lebih Lanjut
 
 ## ProjectStatus
 
 status-loading = Memuat…
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Tujuan Berikutnya: { $goal }
 
 ## ProfileForm
 
-email-input =
-    .label = Surel
 profile-form-username =
     .label = Nama Pengguna
 profile-form-language =
@@ -57,13 +71,20 @@ download-no = Tidak, Terima Kasih
 
 ## Contact Modal
 
+contact-title = Formulir Kontak
 contact-cancel = Batal
 contact-form-name =
     .label = Nama
 contact-form-message =
     .label = Pesan
+contact-required = *wajib
 
 ## Request Language Modal
 
+request-language-title = Permohonan Bahasa
+request-language-cancel = Keluar Formulir
 request-language-form-language =
     .label = Bahasa
+
+## Help Translate Modal
+
