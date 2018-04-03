@@ -19,10 +19,13 @@ privacy = Privasi
 terms = Ketentuan
 cookies = Kuki
 faq = TanyaJawab
+share-title = Bantu kami mencari yang lain untuk mendonasi suara mereka!
 
 ## Home Page
 
+home-title = Proyek Common Voice adalah inisiatif Mozilla untuk membantu mengajari mesin bagaimana manusia sebenarnya berbicara.
 home-cta = Bicaralah, berkontribusilah di sini!
+wall-of-text-start = Suara adalah sesuatu yang natural, yang mencerminkan manusia. Itulah kenapa kami sangat tertarik untuk menciptakan teknologi suara yang berguna untuk mesin kami. Tetapi untuk menciptakan sistem suara, dibutuhkan data suara dalam jumlah yang sangat besar.
 show-wall-of-text = Baca Lebih Lanjut
 help-us-title = Bantu kami memvalidasi kalimat-kalimat!
 request-language-button = Ajukan Bahasa
@@ -50,6 +53,11 @@ profile-form-language =
 
 ## FAQ
 
+faq-get-a = Saat ini tersedia dataset di <downloadLink>halaman unduh</downloadLink> dibawah lisensi <licenseLink>CC-0</licenseLink>.
+faq-firefox-a = Common Voice memiliki potensi tak terbatas dan kami senantiasa mengeksplorasi antarmuka suara dalam banyak produk Mozilla, termasuk Firefox.
+faq-quality-q = Seberapa tingkat kualitas suara yang dibutuhkan supaya bisa digunakan?
+faq-source-q = Dimana sumber teks berasal ?
+faq-source-a1 = Kalimat-kalimat ini berasal dari donasi kontributor serta percakapan dari naskah film yang terbuka untuk umum seperti <italic>It's a Wonderful Life</italic>
 
 ## Profile
 
@@ -57,9 +65,12 @@ profile-why-title = Mengapa sebuah profil?
 
 ## NotFound
 
+notfound-content = Maaf, kami tidak tahu apa yang Anda cari.
 
 ## Privacy
 
+privacy-data-recordings = <name>Rekaman Suara.</name> Rekaman suara, bersamaan dengan data demografis yang terkait, mungkin tersedia dalam basis data Common Voice untuk konsumsi dan penggunaan publik.
+privacy-more = <more>Pelajari lebih lanjut</more>
 
 ## Terms
 
@@ -72,6 +83,8 @@ terms-general-title = Umum
 
 data-download-button = Unduh Data Common Voice
 data-download-license = Lisensi: <licenseLink>CC-0</licenseLink>
+data-download-modal = Anda akan memulai mengunduh sekitar <size>{ $size } GB </size>, lanjutkan?
+data-get-started = <speechBlogLink>Mulailah dengan Pengenalan Suara</speechBlogLink>
 data-other-title = Dataset suara lainnya...
 data-other-goto = Pergi ke { $name }
 data-other-download = Unduh Data
@@ -81,10 +94,13 @@ license = Lisensi: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
 
+record-platform-not-supported-desktop = Pada desktop komputer, Anda dapat mengunduh yang paling baru:
 record-must-allow-microphone = Anda harus mengizinkan akses mikrofon.
 record-error-too-quiet = Rekaman terlalu sunyi.
+record-help = Ketuk untuk merekam, lalu baca kalimat di atas dengan lantang.
 record-cancel = Batal Merekam-ulang
 review-submit-title = Periksa & Kirim
+review-submit-msg = Terimakasih atas rekaman Anda!<lineBreak></lineBreak>Sekarang periksa dan kirim klip Anda di bawah ini.
 review-recording = Ulasan
 review-rerecord = Merekam-ulang
 review-cancel = Batalkan Pengajuan
@@ -94,6 +110,7 @@ review-cancel = Batalkan Pengajuan
 download-form-email =
     .label = Masukkan surel Anda
     .value = Terima kasih, kami akan menghubungi Anda.
+download-back = Kembali ke Dataset Common Voice
 download-no = Tidak, Terima Kasih
 
 ## Contact Modal
@@ -113,11 +130,13 @@ request-language-cancel = Keluar Formulir
 request-language-form-language =
     .label = Bahasa
 request-language-success-title = Terima kasih, permintaan bahasa baru berhasil dikirimkan.
+request-language-success-text = Kami akan menghubungi Anda dengan lebih banyak informasi tentang bahasa Anda saat sudah tersedia.
 
 ## Help Translate Modal
 
 help-translate-title = Bantu Terjemahkan { $language }
 help-translate-cancel = Keluar
+help-translate-text = Kami akan meneruskan Anda ke alat penerjemahan Mozilla,  <pontoonLink>Pontoon</pontoonLink>, tempat bahasa ini sedang menjalani penerjemahan terbuka.
 language-updates-title = Daftar untuk pembaruan { $language }
 help-translate-link = Bawa Saya ke Pontoon
 language-updates-success-title = Terima kasih, permintaan pembaruan { $language } Anda berhasil dikirimkan.
