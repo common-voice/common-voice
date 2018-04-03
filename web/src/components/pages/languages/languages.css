@@ -52,6 +52,7 @@
     font-size: var(--small-font-size);
     font-weight: 600;
     text-decoration: underline;
+    text-transform: uppercase;
 }
 
 .mobile-headings, .desktop-heading, .show-all-languages-mobile {
@@ -141,15 +142,15 @@
     margin-bottom: 1rem;
 }
 
-.languages .language .info h2, .languages .language .info .numbers {
-    width: 50%;
-    padding: 1rem;
-}
-
 .languages .language .info {
+    padding: 1.5rem 2rem;
     display: flex;
     flex-direction: row;
     font-size: var(--small-font-size);
+}
+
+.languages .language .info h2, .languages .language .info .numbers {
+    width: 50%;
 }
 
 .languages .language .info hr {
@@ -169,6 +170,11 @@
     font-size: .7rem;
     font-style: italic;
     color: var(--color-warm-grey);
+    letter-spacing: 0.8px;
+}
+
+.languages .language .info .numbers b {
+    color: var(--grey-font-color);
 }
 
 
