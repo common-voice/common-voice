@@ -21,6 +21,7 @@ content-license-text = Tá an t-ábhar seo ar fáil de réir téarmaí <licenseL
 
 ## Home Page
 
+show-wall-of-text = Tuilleadh Eolais
 
 ## ProjectStatus
 
@@ -44,6 +45,7 @@ faq-title = Ceisteanna Coitianta
 
 ## NotFound
 
+notfound-title = Gan aimsiú
 
 ## Privacy
 
@@ -59,6 +61,7 @@ data-other-ted-name = Corpas TED-LIUM
 
 ## Record Page
 
+review-rerecord = Ath-thaifead
 
 ## Download Modal
 
@@ -74,3 +77,4 @@ request-language-form-language =
 ## Help Translate Modal
 
 help-translate-cancel = Scoir
+help-translate-link = Fill ar Pontoon
