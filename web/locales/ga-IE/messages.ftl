@@ -13,6 +13,7 @@ languages = Teangacha
 profile = Próifíl
 help = Cabhair
 contact = Teagmháil
+privacy = Príobháideachas
 terms = Téarmaí
 cookies = Fianáin
 faq = Ceisteanna Coitianta
@@ -49,9 +50,12 @@ faq-title = Ceisteanna Coitianta
 
 ## Terms
 
+terms-privacy-title = Príobháideachas
 
 ## Data
 
+data-other-goto = Fill ar { $name }
+data-other-ted-name = Corpas TED-LIUM
 
 ## Record Page
 
@@ -64,6 +68,9 @@ faq-title = Ceisteanna Coitianta
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = Teanga
 
 ## Help Translate Modal
 
+help-translate-cancel = Scoir
