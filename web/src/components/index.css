@@ -403,6 +403,7 @@ body:not(.ios) .recording #background-container {
 
 @media (--desktop) {
     .main-logo {
+        margin-right: 4rem;
         width: 10rem;
     }
 }

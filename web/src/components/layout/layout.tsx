@@ -263,15 +263,19 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
           ref={header => {
             this.header = header as HTMLElement;
           }}>
-          <Logo to={this.basePath} />
-          {this.renderTallies()}
-          <button
-            id="hamburger-menu"
-            onClick={this.toggleMenu}
-            className={this.state.isMenuVisible ? 'active' : ''}>
-            <MenuIcon className={this.state.isMenuVisible ? 'active' : ''} />
-          </button>
-          {this.renderNav('main-nav', true)}
+          <div>
+            <Logo to={this.basePath} />
+            {this.renderNav('main-nav')}
+          </div>
+          <div>
+            {this.renderTallies()}
+            <button
+              id="hamburger-menu"
+              onClick={this.toggleMenu}
+              className={this.state.isMenuVisible ? 'active' : ''}>
+              <MenuIcon className={this.state.isMenuVisible ? 'active' : ''} />
+            </button>
+          </div>
         </header>
         <div
           id="scroller"
@@ -310,7 +314,7 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
     );
   }
 
-  private renderNav(id?: string, withTallies?: boolean) {
+  private renderNav(id?: string) {
     return (
       <nav id={id} className="nav-list">
         <Localized id="speak">
@@ -327,7 +331,6 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
         <Localized id="profile">
           <NavLink to={this.basePath + URLS.PROFILE} exact />
         </Localized>
-        {withTallies && this.renderTallies()}
       </nav>
     );
   }

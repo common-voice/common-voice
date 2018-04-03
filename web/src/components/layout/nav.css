@@ -7,6 +7,20 @@ header {
     transition: background-color 0.15s linear, box-shadow .2s linear;
 }
 
+header > * {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+header > *:first-child {
+    justify-content: flex-start;
+}
+
+header > *:last-child {
+    justify-content: flex-end;
+}
+
 @media (--mobile) {
     header {
         position: fixed;
@@ -282,14 +296,9 @@ footer a:hover, footer button:hover {
     .tallies {
         margin-left: 1rem;
     }
-
-    header > .tallies {
-        display: none;
-    }
 }
 
 #hamburger-menu {
-    height: var(--hamburger);
     width: calc(var(--hamburger) / 2.5);
     border: none;
     padding: 0;
