@@ -370,6 +370,7 @@ footer a:hover, footer button:hover {
     pointer-events: none;
     transform: translateY(-100vh);
     transition: all 0.55s var(--easing);
+    visibility: hidden;
 }
 
 #navigation-modal.active {
@@ -377,6 +378,7 @@ footer a:hover, footer button:hover {
     transform: translateY(0);
     pointer-events: all;
     transition-duration: 0.4s;
+    visibility: visible;
 }
 
 #navigation-modal .nav-list {
