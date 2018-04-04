@@ -335,7 +335,7 @@ footer a:hover, footer button:hover {
 
 @media (--mobile) {
     .tallies {
-        margin: 0 auto;
+        margin-right: 2rem;
     }
 }
 

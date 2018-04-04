@@ -118,7 +118,9 @@ class LanguagesPage extends React.Component<Props, State> {
               <Button
                 outline
                 rounded
-                onClick={() => this.setState({ showLanguageRequestModal: true })}>
+                onClick={() =>
+                  this.setState({ showLanguageRequestModal: true })
+                }>
                 Request a Language
               </Button>
             </div>
