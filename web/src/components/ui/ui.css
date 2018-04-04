@@ -102,8 +102,8 @@ body:not(.mobile-safari) .button.card-action:hover path,
     border: none;
     margin: 1.5rem 0;
     width: 100%;
-    height: 0.05rem;
-    background-color: var(--color-record-hr);
+    height: 1.5px;
+    background-color: rgba(230, 229, 227, 0.6);
 }
 
 .labeled-form-control {
