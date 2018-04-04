@@ -113,13 +113,15 @@ class LanguagesPage extends React.Component<Props, State> {
           <img src="/img/waves-mixed.svg" alt="Waves" />
 
           <div className="text">
-            <h2>Don't see your language on Common Voice yet?</h2>
-            <Button
-              outline
-              rounded
-              onClick={() => this.setState({ showLanguageRequestModal: true })}>
-              Request a Language
-            </Button>
+            <div className="inner">
+              <h2>Don't see your language on Common Voice yet?</h2>
+              <Button
+                outline
+                rounded
+                onClick={() => this.setState({ showLanguageRequestModal: true })}>
+                Request a Language
+              </Button>
+            </div>
           </div>
         </div>
 
