@@ -20,11 +20,6 @@
     src: url("/font/icomoon.ttf");
 }
 
-@font-face {
-    font-family: ZillaSlab;
-    src: url("/font/ZillaSlab-Light.ttf");
-}
-
 html {
     font-family: var(--base-font-family);
     font-size: var(--base-font-size);
