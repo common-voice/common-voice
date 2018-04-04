@@ -302,6 +302,19 @@ footer a:hover, footer button:hover {
     height: 1rem;
 }
 
+@media (--mobile) {
+    .tallies {
+        flex-direction: column;
+    }
+
+    .tallies .divider {
+        border-top: 1px solid var(--color-record-hr);
+        margin: .1rem 0;
+        width: 100%;
+    }
+}
+
+
 .tallies .icon {
     margin-right: var(--standard-margin);
     height: 15px;
