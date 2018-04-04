@@ -1,17 +1,3 @@
-.languages {
-    --languages-desktop-width: 64rem;
-}
-
-.languages #content > div {
-    max-width: var(--languages-desktop-width);
-}
-
-@media (--desktop) {
-    .languages header {
-        max-width: var(--languages-desktop-width);
-    }
-}
-
 .languages .top {
     display: flex;
     flex-direction: row;

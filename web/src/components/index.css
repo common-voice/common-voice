@@ -165,6 +165,11 @@ button {
     position: relative;
 }
 
+.home #content, .record #content, .profile #content, .data #content {
+    margin: 0 auto;
+    max-width: var(--old-desktop-width);
+}
+
 .faq #background-container,
 .terms #background-container,
 .privacy #background-container,
