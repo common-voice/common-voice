@@ -25,6 +25,7 @@
 }
 
 .languages .top .text h2 {
+    margin-bottom: .5rem;
     padding-right: var(--standard-margin);
     font-weight: bold;
 }
