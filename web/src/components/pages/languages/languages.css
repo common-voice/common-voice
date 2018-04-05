@@ -160,6 +160,21 @@
     align-items: center;
 }
 
+@media (--small-mobile) {
+    .languages .language .info {
+        flex-direction: column;
+    }
+
+    .languages .language .info h2 {
+        padding: 0;
+        margin-bottom: 1rem;
+    }
+
+    .languages .language .info h2, .languages .language .info .numbers {
+        width: 100%;
+    }
+}
+
 .languages .language .info .numbers span {
     padding-right: var(--standard-margin);
     font-size: .7rem;

@@ -60,6 +60,7 @@
     --dataset-item-margin: .7rem;
 }
 
+@custom-media --small-mobile (max-width: 350px);
 @custom-media --mobile (max-width: 600px);
 @custom-media --desktop (min-width: 600px);
 
