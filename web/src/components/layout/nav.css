@@ -49,6 +49,7 @@ header .language-select select {
     font-weight: 600;
     letter-spacing: 0.8px;
     color: var(--color-warm-grey);
+    cursor: pointer;
 }
 
 @media (--mobile) {

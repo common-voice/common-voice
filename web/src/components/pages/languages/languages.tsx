@@ -87,7 +87,7 @@ class LanguagesPage extends React.Component<Props, State> {
     });
   }
 
-  toggleShowAll = () => this.setState(state => ({showAll: !state.showAll}));
+  toggleShowAll = () => this.setState(state => ({ showAll: !state.showAll }));
 
   render() {
     const {
