@@ -25,7 +25,7 @@
 }
 
 .languages .top .text h2 {
-    margin-bottom: 1rem;
+    padding-right: var(--standard-margin);
     font-weight: bold;
 }
 
@@ -124,11 +124,12 @@
 }
 
 .languages .language {
+    --language-box-margin: 1.6rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
-    margin-bottom: 1rem;
+    margin-bottom: var(--language-box-margin);
     box-shadow: var(--card-shadow)
 }
 
@@ -141,6 +142,10 @@
 
 .languages .language .info h2, .languages .language .info .numbers {
     width: 50%;
+}
+
+.languages .language .info h2 {
+    padding: var(--standard-margin);
 }
 
 .languages .language .info hr {
@@ -176,9 +181,10 @@
     outline: none;
     border: none;
     border-top: 2px solid #f3f2f1;
-    padding: calc(2 * var(--standard-margin));
+    padding: 1rem;
     width: 100%;
-    background: white;
+    transition: background linear 100ms;
+    background: rgba(243, 242, 241, 0.5);
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 0.4px;
@@ -197,8 +203,8 @@
 
 @media (--desktop) {
     .languages .language {
-        margin-right: 1rem;
-        width: calc((100% - 2rem) / 3);
+        margin-right: var(--language-box-margin);
+        width: calc((100% - 2 * var(--language-box-margin)) / 3);
     }
 
     .languages .language:nth-child(3n) {
