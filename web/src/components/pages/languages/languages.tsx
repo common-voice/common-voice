@@ -87,6 +87,8 @@ class LanguagesPage extends React.Component<Props, State> {
     });
   }
 
+  toggleShowAll = () => this.setState(state => ({showAll: !state.showAll}));
+
   render() {
     const {
       localizations,
@@ -167,14 +169,12 @@ class LanguagesPage extends React.Component<Props, State> {
               <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                 <h1>In Progress</h1>
 
-                {!showAll && (
-                  <a
-                    className="show-all-languages-desktop"
-                    href="javascript:void(0)"
-                    onClick={() => this.setState({ showAll: true })}>
-                    See All
-                  </a>
-                )}
+                <a
+                  className="show-all-languages-desktop"
+                  href="javascript:void(0)"
+                  onClick={this.toggleShowAll}>
+                  {showAll ? 'See Less' : 'See All'}
+                </a>
               </div>
 
               <Hr />
@@ -194,13 +194,11 @@ class LanguagesPage extends React.Component<Props, State> {
               )}
             </ul>
 
-            {!showAll && (
-              <button
-                className="show-all-languages-mobile"
-                onClick={() => this.setState({ showAll: true })}>
-                See All
-              </button>
-            )}
+            <button
+              className="show-all-languages-mobile"
+              onClick={this.toggleShowAll}>
+              {showAll ? 'See Less' : 'See All'}
+            </button>
           </section>
 
           <section className="launched">
