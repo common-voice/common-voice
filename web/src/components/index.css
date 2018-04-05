@@ -1,4 +1,6 @@
 @import url('vars.css');
+@import url('ui/ui.css');
+
 @import url('layout/nav.css');
 @import url('alert/alert.css');
 @import url('contact-modal/contact-modal.css');
@@ -12,7 +14,6 @@
 @import url('profile-form/profile-form.css');
 @import url('progress-bar/progress-bar.css');
 @import url('request-language-modal/request-language-modal.css');
-@import url('ui/ui.css');
 
 /* Define our icon font. */
 @font-face {

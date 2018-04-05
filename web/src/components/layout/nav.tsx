@@ -6,6 +6,7 @@ import URLS from '../../urls';
 
 export default ({
   basePath,
+  children,
   ...props
 }: {
   basePath: string;
@@ -26,5 +27,6 @@ export default ({
     <Localized id="profile">
       <NavLink to={basePath + URLS.PROFILE} exact />
     </Localized>
+    {children}
   </nav>
 );

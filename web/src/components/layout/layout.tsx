@@ -91,7 +91,7 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
     }
 
     if (this.props.location !== nextProps.location) {
-      this.setState({ isRecording: false });
+      this.setState({ isMenuVisible: false, isRecording: false });
       const mainContent = this.content.children[0];
       mainContent &&
         mainContent.addEventListener('animationend', this.scrollToTop);
@@ -328,9 +328,21 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
         </div>
         <div
           id="navigation-modal"
-          className={this.state.isMenuVisible ? 'active' : ''}
-          onClick={this.toggleMenu}>
-          <Nav basePath={basePath} />
+          className={this.state.isMenuVisible ? 'active' : ''}>
+          <Nav basePath={basePath}>
+            {LOCALES.length > 1 && (
+              <LabeledSelect
+                className="language-select"
+                value={locale}
+                onChange={this.selectLocale}>
+                {LOCALES.map(code => (
+                  <option key={code} value={code}>
+                    {ISO6391.getName(code) || code}
+                  </option>
+                ))}
+              </LabeledSelect>
+            )}
+          </Nav>
         </div>
       </div>
     );
