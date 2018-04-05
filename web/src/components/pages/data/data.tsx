@@ -218,7 +218,7 @@ class DataPage extends React.Component<Props, State> {
                       dataset.name
                     ) : (
                       <Localized id={'data-other-' + dataset.nick + '-name'}>
-                        <span/>
+                        <span />
                       </Localized>
                     )}
                   </a>
