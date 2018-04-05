@@ -21,6 +21,12 @@ header > *:last-child {
     justify-content: flex-end;
 }
 
+@media (--desktop) {
+    header > *:last-child {
+        margin-top: -1.5rem;
+    }
+}
+
 .language-select {
     margin-bottom: 0;
 }
