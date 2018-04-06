@@ -93,25 +93,33 @@ privacy-more = <more>Daha fazla bilgi</more>
 
 terms-title = Common Voice Hukuki Koşulları
 terms-privacy-title = Gizlilik
+terms-communications-title = İletişim
 terms-general-title = Genel
 
 ## Data
 
 data-download-button = Common Voice verilerini indir
 data-download-license = Lisans: <licenseLink>CC-0</licenseLink>
+data-download-modal = <size>{ $size } GB</size> indirmeye başlamak üzeresiniz. Devam edilsin mi?
 data-other-title = Diğer ses verisi kümeleri…
 data-other-goto = { $name } sitesine git
 data-other-download = Verileri indir
+data-other-librispeech-description = LibriSpeech, LibriVox projesinin sesli kitaplarından elde edilen yaklaşık 1000 saatlik 16 Khz'lik sesli okunmuş İngilizce metinlerden oluşan bir korpustur.
+data-other-ted-name = TED-LIUM Korpusu
+data-other-ted-description = TED-LIUM korpusu, TED web sitesindeki sunum ses kayıtları ve onların deşifre metinleri kullanılarak oluşturulmuştur. 
 data-bundle-button = Veri kümesi paketini indir
 license = Lisans: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
 
+record-platform-not-supported = Maalesef kullandığınız platform şu an desteklenmemektedir.
 record-platform-not-supported-ios = <bold>iOS</bold> kullanıcıları bedava uygulamamızı indirebilir:
 record-must-allow-microphone = Mikrofon erişimine izin vermeniz gerekiyor.
 record-error-too-short = Kayıt çok kısa.
 record-error-too-long = Kayıt çok uzun.
 record-error-too-quiet = Bu kayıt çok sessiz oldu.
+record-submit-success = Gönderi tamamlandı! Yeni bir kayıt yapmak ister misiniz?
+record-help = Lütfen kayıt düğmesine bastıktan sonra yukarıdaki cümleyi yüksek sesle okuyun.
 record-cancel = Yeniden kaydetmeyi iptal et
 review-aborted = Yükleme iptal edildi. Kayıtlarınızı silmek istiyor musunuz?
 review-submit-title = İncele ve gönder
