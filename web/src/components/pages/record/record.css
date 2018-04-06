@@ -14,7 +14,7 @@
 
 .unsupported a {
     display: block;
-    color: blue;
+    color: var(--link-color);
     margin: 0.5rem 0;
 }
 
@@ -27,7 +27,7 @@
 }
 
 #recordings-count {
-    color: var(--color-speak);
+    color: var(--red);
     font-size: .9rem;
     font-weight: bold;
 }
@@ -47,7 +47,7 @@
 }
 
 .text-box.no-sentences-error {
-    background-color: white;
+    background-color: var(--white);
 }
 .text-box.no-sentences-error p {
     opacity: .3;
@@ -74,7 +74,7 @@
     justify-content: center;
     font-family: var(--strong-font-family);
     font-size: 1.4rem;
-    background-color: var(--base-background-color);
+    background-color: var(--white);
     box-shadow: var(--card-shadow);
 }
 
@@ -122,7 +122,7 @@
 }
 
 .recording #record-button {
-    background-color: var(--color-speak-light);
+    background-color: var(--light-red);
     animation: throb 1.2s var(--easing) infinite;
 }
 
@@ -135,7 +135,7 @@
 #undo-clip {
     position: absolute;
     bottom: -50%;
-    color: var(--color-speak);
+    color: var(--red);
     left: 2rem;
     z-index: var(--middle-z-index);
     opacity: 1;
@@ -206,7 +206,7 @@
 }
 
 .rerecord {
-    font-size: var(--small-font-size);
+    font-size: var(--font-size-small);
     font-weight: 600;
     text-decoration: underline;
     cursor: pointer;

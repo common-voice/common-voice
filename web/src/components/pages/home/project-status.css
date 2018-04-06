@@ -5,7 +5,7 @@
 
 .project-status .title-and-action {
     padding: 1.5rem 2rem;
-    background: var(--color-grey-background);
+    background: var(--lighter-grey);
 }
 
 @media (--mobile) {

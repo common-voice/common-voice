@@ -13,12 +13,12 @@
     outline: none;
     transition: all var(--transition-duration) linear;
     background: black;
-    color: white;
+    color: var(--white);
 }
 
 .button.outline {
-    background-color: var(--base-background-color);
-    color: black;
+    background-color: var(--white);
+    color: var(--black);
 }
 
 .button.rounded {
@@ -34,24 +34,24 @@
 
 body:not(.mobile-safari) .button:hover,
 .is-keyboard-focus .button:focus {
-    background-color: var(--base-background-color);
-    color: black;
+    background-color: var(--white);
+    color: var(--black);
 }
 
 body:not(.mobile-safari) .button.outline:hover,
 .is-keyboard-focus .button.outline:focus {
-    background-color: black;
-    color: white;
+    background-color: var(--black);
+    color: var(--white);
 }
 
 body:not(.mobile-safari) .button:hover path,
 .is-keyboard-focus .button:focus path {
-    fill: black;
+    fill: var(--black);
 }
 
 body:not(.mobile-safari) .button.outline:hover path,
 .is-keyboard-focus .button:focus path {
-    fill: var(--base-background-color);
+    fill: var(--white);
 }
 
 .button:disabled {
@@ -82,14 +82,14 @@ body:not(.mobile-safari) .button.card-action:hover,
     outline: none;
     margin: 1px -1px -1px 1px;
     background: white;
-    color: black;
+    color: var(--black);
     opacity: .8;
     box-shadow: none;
 }
 
 body:not(.mobile-safari) .button.card-action:hover path,
 .is-keyboard-focus .button.card-action:focus path {
-    fill: black;
+    fill: var(--black);
 }
 
 @media (--mobile) {
@@ -116,7 +116,7 @@ body:not(.mobile-safari) .button.card-action:hover path,
 }
 
 .labeled-form-control {
-    font-size: var(--small-font-size);
+    font-size: var(--font-size-small);
 }
 
 .labeled-form-control input, .labeled-form-control select, .labeled-form-control textarea {
@@ -124,10 +124,10 @@ body:not(.mobile-safari) .button.card-action:hover path,
     border: none;
     margin-top: .2rem;
     padding: .5rem;
-    font-size: var(--base-font-size);
+    font-size: var(--font-size);
     font-family: var(--base-font-family);
-    background-color: var(--color-input-background);
-    color: var(--color-warm-grey);
+    color: var(--warm-grey);
+    background-color: var(--light-grey);
 }
 
 .labeled-form-control input, .labeled-form-control select {

@@ -52,10 +52,10 @@ header > *:last-child {
     padding-left: 2.5rem;
     background: white;
     text-transform: uppercase;
-    font-size: var(--small-font-size);
+    font-size: var(--font-size-small);
     font-weight: 600;
     letter-spacing: 0.8px;
-    color: var(--color-warm-grey);
+    color: var(--warm-grey);
     cursor: pointer;
 }
 
@@ -66,12 +66,12 @@ header > *:last-child {
         left: 0;
         right: 0;
         padding: var(--page-margin);
-        background: var(--base-background-color);
+        background: var(--white);
     }
 
     header.active {
         box-shadow: var(--nav-shadow-overhang);
-        background-color: var(--base-background-color);
+        background-color: var(--white);
     }
 
     header .language-select {
@@ -105,7 +105,7 @@ header > *:last-child {
 }
 
 footer {
-    background-color: black;
+    background-color: var(--black);
 }
 
 footer a:hover, footer button:hover {
@@ -117,7 +117,7 @@ footer a:hover, footer button:hover {
     align-items: center;
     justify-content: center;
     height: 9.3rem;
-    background-color: #F3F2F1;
+    background-color: var(--light-grey);
 }
 
 #help-links a {
@@ -151,7 +151,7 @@ footer a:hover, footer button:hover {
     }
 
     #help-links a {
-        font-size: var(--small-font-size);
+        font-size: var(--font-size-small);
     }
 }
 
@@ -164,7 +164,7 @@ footer a:hover, footer button:hover {
     flex-direction: column;
     height: 100%;
     font-size: 0.7rem;
-    color: white;
+    color: var(--white);
 }
 
 @media (--mobile) {
@@ -219,7 +219,7 @@ footer a:hover, footer button:hover {
 }
 
 #moz-links .links a {
-    color: var(--color-listen);
+    color: var(--green);
 }
 
 @media (--mobile) {
@@ -264,7 +264,7 @@ footer a:hover, footer button:hover {
 
 #sharing a, #link-copy {
     font-size: .8rem;
-    color: white;
+    color: var(--white);
 }
 
 #link-copy {
@@ -281,7 +281,7 @@ footer a:hover, footer button:hover {
 }
 
 #link-copy:active {
-    color: black;
+    color: var(--black);
 }
 
 .nav-list {
@@ -296,14 +296,14 @@ footer a:hover, footer button:hover {
     padding: 0 1rem;
     display: block;
     font-family: var(--base-font-family);
-    font-size: var(--small-font-size);
+    font-size: var(--font-size-small);
     text-transform: uppercase;
     font-weight: 600;
     text-align: center;
 }
 
 .nav-list a.active {
-    color: var(--color-speak-dark);
+    color: var(--dark-red);
 }
 
 .tallies, .tallies > * {
@@ -317,7 +317,7 @@ footer a:hover, footer button:hover {
 
 .tallies .divider {
     margin: 0 .5rem;
-    border-right: 1px solid var(--color-record-hr);
+    border-right: 1px solid var(--darker-grey);
     height: 1rem;
 }
 
@@ -327,7 +327,7 @@ footer a:hover, footer button:hover {
     }
 
     .tallies .divider {
-        border-top: 1px solid var(--color-record-hr);
+        border-top: 1px solid var(--darker-grey);
         margin: .1rem 0;
         width: 100%;
     }
@@ -340,11 +340,11 @@ footer a:hover, footer button:hover {
 }
 
 .record-tally {
-    color: var(--color-speak);
+    color: var(--red);
 }
 
 .validate-tally {
-    color: var(--color-listen);
+    color: var(--green);
 }
 
 .validate-tally .icon {
@@ -365,7 +365,7 @@ footer a:hover, footer button:hover {
 }
 
 #hamburger-menu {
-    width: calc(var(--hamburger) / 2.5);
+    width: calc(0.3 * var(--header-height));
     border: none;
     padding: 0;
 }
@@ -391,7 +391,7 @@ footer a:hover, footer button:hover {
 
 #navigation-modal {
     box-sizing: border-box;
-    background-color: var(--base-background-color);
+    background-color: var(--white);
     position: fixed;
     top: 0;
     left: 0;

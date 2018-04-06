@@ -36,11 +36,7 @@
     flex-direction: column;
     margin: 1rem;
     padding: 1rem;
-    background: var(--base-background-color);
+    background: var(--white);
     width: 100%;
     max-width: 30rem;
-}
-
-#confirm-confirm {
-    background-color: var(--color-help);
 }

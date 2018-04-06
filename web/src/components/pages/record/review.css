@@ -23,7 +23,7 @@
 
 #box-headers {
     text-align: right;
-    font-size: var(--small-font-size);
+    font-size: var(--font-size-small);
     padding: 1.5rem 0 0.3rem;
     color: var(--grey-font-color);
 }
@@ -50,7 +50,7 @@
 }
 
 #voice-submit .actions a {
-    font-size: var(--small-font-size);
+    font-size: var(--font-size-small);
     font-weight: 600;
     text-decoration: underline;
     cursor: pointer;

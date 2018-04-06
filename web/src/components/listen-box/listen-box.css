@@ -56,7 +56,7 @@
 }
 
 .play-box {
-    color: var(--color-listen);
+    color: var(--green);
 }
 
 body:not(.mobile-safari) .play-box:hover,
@@ -66,9 +66,9 @@ body.mobile-safari .play-box:active path,
 .is-keyboard-focus .play-box:focus,
 .is-keyboard-focus .play-box:focus path {
     outline: none;
-    background-color: var(--color-listen);
-    color: white;
-    fill: white;
+    background-color: var(--green);
+    color: var(--white);
+    fill: var(--white);
 }
 
 .play-box:hover svg,
@@ -92,7 +92,7 @@ body.mobile-safari .play-box:active path,
 
 @media (--mobile) {
     .sentence-box {
-        font-size: var(--small-font-size);
+        font-size: var(--font-size-small);
         line-height: 1.2rem;
         flex: 1;
     }
@@ -109,7 +109,7 @@ body.mobile-safari .play-box:active path,
 }
 
 .delete-box {
-    background-color: white;
+    background-color: var(--white);
     margin-left: var(--standard-margin);
     font-weight: bold;
 }
@@ -125,9 +125,9 @@ body.mobile-safari .delete-box:active,
 body.mobile-safari .delete-box:active path,
 .is-keyboard-focus .delete-box:focus,
 .is-keyboard-focus .delete-box:focus path {
-    background-color: black;
-    color: white;
-    fill: white;
+    background-color: var(--black);
+    color: var(--white);
+    fill: var(--white);
 }
 
 .vote-box {
@@ -145,14 +145,14 @@ body.mobile-safari .delete-box:active path,
 }
 
 .vote-box > button {
-    border: 1px solid var(--color-record-hr);
+    border: 1px solid var(--darker-grey);
     border-radius: 1.5rem;
     padding: .5rem 1.5rem;
     display: flex;
     align-items: flex-end;
     flex: 1;
     justify-content: center;
-    color: var(--color-warm-grey);
+    color: var(--warm-grey);
     font-size: .9rem;
     text-transform: uppercase;
     cursor: pointer;
@@ -166,9 +166,9 @@ body.mobile-safari .delete-box:active path,
 }
 
 body:not(.mobile-safari) .vote-box > button:hover {
-    background-color: black;
+    background-color: var(--black);
     border-color: transparent;
-    color: white;
+    color: var(--white);
 }
 
 .vote-box > button:disabled {

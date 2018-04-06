@@ -23,9 +23,9 @@
 
 html {
     font-family: var(--base-font-family);
-    font-size: var(--base-font-size);
-    color: var(--base-font-color);
-    background-color: var(--base-background-color);
+    font-size: var(--font-size);
+    color: var(--black);
+    background-color: var(--white);
     overflow: auto;
 }
 
@@ -61,7 +61,7 @@ h2 {
 a {
     outline: none;
     text-decoration: none;
-    color: var(--base-font-color);
+    color: var(--black);
 }
 
 a:hover {
@@ -116,7 +116,7 @@ button {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: color(var(--black) alpha(-60%));
     transition: transform var(--transition-duration-slow) var(--easing);
 }
 
@@ -132,7 +132,7 @@ button {
 #main {
     position: relative;
     box-sizing: border-box;
-    background-color: var(--base-background-color);
+    background-color: var(--white);
     animation: fadein var(--transition-duration-slow) linear;
 }
 
@@ -273,7 +273,7 @@ body:not(.ios) .recording #background-container {
 @media (--mobile) {
     #background-container {
         height: 12.5rem;
-        background-image: var(--base-background-image-mobile);
+        background-image: url("/img/wave-blue-mobile.png");
     }
 
     #background-container:after {
@@ -285,7 +285,7 @@ body:not(.ios) .recording #background-container {
 @media (--desktop) {
     #background-container {
         height: 20rem;
-        background-image: var(--base-background-image);
+        background-image: url("/img/wave-blue-large.png");
     }
 
     #background-container:after {
@@ -332,7 +332,7 @@ body:not(.ios) .recording #background-container {
     vertical-align: middle;
     cursor: pointer;
     text-align: center;
-    color: white;
+    color: var(--white);
     font-weight: bold;
     z-index: var(--top-z-index);
     transform: translateY(0);
@@ -348,7 +348,7 @@ body:not(.ios) .recording #background-container {
     right: 0;
     height: 100%;
     width: 3rem;
-    color: white;
+    color: var(--white);
 }
 
 /**
@@ -538,7 +538,7 @@ body:not(.ios) .recording #background-container {
 }
 
 .privacy-content {
-    background-color: var(--base-background-color);
+    background-color: var(--white);
     max-width: var(--desktop-width);
     padding: var(--page-margin);
 }
@@ -567,7 +567,7 @@ body:not(.ios) .recording #background-container {
 
 .privacy-content a {
     display: inline-block;
-    color: blue;
+    color: var(--link-color);
 }
 
 .button-holder {
@@ -592,7 +592,7 @@ body:not(.ios) .recording #background-container {
 
 #faq-container a,
 #terms-container a {
-    color: blue;
+    color: var(--link-color);
 }
 
 #spinner {
@@ -620,7 +620,7 @@ body:not(.ios) .recording #background-container {
     right: 0;
     margin: auto;
     animation: spin 4s linear infinite;
-    background-color: black;
+    background-color: var(--black);
     opacity: 1;
     transition: opacity var(--transition-duration) linear;
 }
@@ -646,7 +646,7 @@ body:not(.ios) .recording #background-container {
 }
 
 .title-and-action a {
-    font-size: var(--small-font-size);
+    font-size: var(--font-size-small);
     font-weight: 600;
     text-decoration: underline;
     cursor: pointer;
@@ -654,7 +654,7 @@ body:not(.ios) .recording #background-container {
 
 .opt-in {
     display: flex;
-    font-size: var(--small-font-size);
+    font-size: var(--font-size-small);
 }
 
 .opt-in input {
@@ -668,7 +668,7 @@ body:not(.ios) .recording #background-container {
 }
 
 .small {
-    font-size: var(--small-font-size);
+    font-size: var(--font-size-small);
     color: var(--grey-font-color);
 }
 

@@ -39,7 +39,7 @@
 }
 
 #data-container .license a {
-    font-size: var(--small-font-size);
+    font-size: var(--font-size-small);
     font-weight: 600;
     text-decoration: underline;
 }
@@ -73,8 +73,8 @@
 #common-voice-license, #common-voice-license a {
     margin-top: .5rem;
     width: 100%;
-    color: white;
-    font-size: var(--small-font-size);
+    color: var(--white);
+    font-size: var(--font-size-small);
 }
 
 #common-voice-license a {
@@ -88,7 +88,7 @@
 
 #speech-blog-link {
     text-decoration: underline;
-    font-size: var(--small-font-size);
+    font-size: var(--font-size-small);
     font-weight: 600;
 }
 
@@ -120,7 +120,7 @@
 
 .dataset h2 a {
     font-weight: normal;
-    color: var(--color-speak);
+    color: var(--red);
 }
 
 .dataset p {
@@ -131,7 +131,7 @@
 .dataset .license {
     color: var(--grey-font-color);
     padding: 1rem 1.5rem;
-    font-size: var(--small-font-size);
+    font-size: var(--font-size-small);
 }
 
 .dataset .license a {
@@ -143,7 +143,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--color-grey-background);
+    background-color: var(--lighter-grey);
 }
 
 .dataset button {
@@ -156,16 +156,16 @@ body:not(.mobile-safari) .dataset .button.card-action:hover,
 .is-keyboard-focus .dataset .button.card-action:focus {
     margin: 0;
     background: black;
-    color: white;
+    color: var(--white);
 }
 
 body:not(.mobile-safari) .dataset .button.card-action:hover path,
 .is-keyboard-focus .dataset .button.card-action:focus path {
-    fill: white;
+    fill: var(--white);
 }
 
 #dataset-bundle {
-    border-top: .4rem solid var(--color-speak);
+    border-top: .4rem solid var(--red);
     margin: 5rem 0;
     padding: 1.5rem;
     display: flex;
@@ -173,13 +173,13 @@ body:not(.mobile-safari) .dataset .button.card-action:hover path,
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--color-grey-background);
+    background-color: var(--lighter-grey);
 }
 
 #bundle-info {
     margin-top: 1rem;
     color: var(--grey-font-color);
-    font-size: var(--small-font-size);
+    font-size: var(--font-size-small);
     font-style: italic;
 }
 
@@ -199,7 +199,7 @@ body:not(.mobile-safari) .dataset .button.card-action:hover path,
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: var(--color-grey-background);
+    background-color: var(--lighter-grey);
 }
 
 .email-modal .head img {
@@ -223,7 +223,7 @@ body:not(.mobile-safari) .dataset .button.card-action:hover path,
 
 .email-modal input:disabled {
     margin: 1rem 0;
-    color: black;
+    color: var(--black);
     text-align: center;
     font-family: var(--strong-font-family);
     font-size: 1.3rem;
@@ -244,6 +244,6 @@ body:not(.mobile-safari) .dataset .button.card-action:hover path,
     display: block;
     cursor: pointer;
     text-align: center;
-    font-size: var(--small-font-size);
+    font-size: var(--font-size-small);
     font-weight: 600;
 }

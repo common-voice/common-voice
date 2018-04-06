@@ -32,7 +32,7 @@
     width: 100%;
     max-width: 40rem;
     text-align: center;
-    background: var(--base-background-color);
+    background: var(--white);
     pointer-events: all;
 }
 

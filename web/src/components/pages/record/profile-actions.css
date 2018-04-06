@@ -19,7 +19,7 @@
     margin: 0 auto;
     padding: 1rem;
     width: 70%;
-    background-color: var(--color-grey-background);
+    background-color: var(--lighter-grey);
 }
 
 #why-profile-text {
@@ -39,7 +39,7 @@
 }
 
 #profile-actions a, #why-profile-title {
-    font-size: var(--small-font-size);
+    font-size: var(--font-size-small);
 }
 
 #profile-actions .alert {

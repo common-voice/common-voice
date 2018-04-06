@@ -6,7 +6,7 @@
 .help-translate-modal .cancel {
     display: flex;
     justify-content: end;
-    font-size: var(--small-font-size);
+    font-size: var(--font-size-small);
     font-weight: 600;
     text-decoration: underline;
     cursor: pointer;
@@ -17,7 +17,7 @@
 }
 
 .help-translate-modal p a {
-    color: blue;
+    color: var(--link-color);
 }
 
 .help-translate-modal h2 {
@@ -25,7 +25,7 @@
 }
 
 .help-translate-modal .title-and-action {
-    border-top: .5rem solid var(--color-grey-background);
+    border-top: .5rem solid var(--lighter-grey);
     margin: 0 -2rem -3rem;
     padding: 2rem;
     cursor: pointer;
@@ -33,7 +33,7 @@
 
 .help-translate-modal .title-and-action.collapsed {
     border-top: none;
-    background: var(--color-grey-background);
+    background: var(--lighter-grey);
 }
 
 .help-translate-modal .title-and-action img.toggle {

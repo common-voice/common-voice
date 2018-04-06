@@ -21,6 +21,6 @@
 }
 
 .contact-modal .actions div {
-    font-size: var(--small-font-size);
+    font-size: var(--font-size-small);
     font-style: italic;
 }

@@ -1,15 +1,15 @@
 .alert {
     color: #fff;
     padding: 8px;
-    font-size: var(--small-font-size);
+    font-size: var(--font-size-small);
 }
 
 .alert.success {
-    background-color: var(--color-listen);
+    background-color: var(--green);
 }
 
 .alert.error {
-    background-color: #FF4E5E;
+    background-color: var(--red);
 }
 
 .alert > .icon {

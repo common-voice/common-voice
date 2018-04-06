@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import StateTree from '../../stores/tree';
 import { ACCENTS, AGES, GENDERS, User } from '../../stores/user';
 import Modal from '../modal/modal';
-import { Button, LabeledInput, LabeledSelect } from '../ui/ui';
+import { Button, Hr, LabeledInput, LabeledSelect } from '../ui/ui';
 const { Localized } = require('fluent-react');
 
 interface EditableUser {
@@ -146,7 +146,7 @@ class ProfileForm extends React.Component<Props, State> {
             </Localized>
           </label>
 
-          <hr />
+          <Hr />
 
           <Localized id="profile-form-language" attrs={{ label: true }}>
             <LabeledSelect

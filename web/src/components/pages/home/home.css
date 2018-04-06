@@ -73,7 +73,7 @@
 }
 
 #show-more-button {
-    font-size: var(--small-font-size);
+    font-size: var(--font-size-small);
     font-weight: 600;
     text-transform: uppercase;
     text-decoration: underline;
@@ -96,7 +96,7 @@
 
 #help-explain {
     margin: var(--standard-margin) 0 1.5rem;
-    font-size: var(--small-font-size);
+    font-size: var(--font-size-small);
     font-style: italic;
     color: var(--grey-font-color);
 }
