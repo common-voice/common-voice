@@ -165,12 +165,12 @@ class LanguagesPage extends React.Component<Props, State> {
 
         <div className="language-sections">
           <section className="in-progress">
-            <div className="desktop-heading">
+            <div className="md-block">
               <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                 <h1>In Progress</h1>
 
                 <a
-                  className="show-all-languages-desktop"
+                  className="show-all-languages-md"
                   href="javascript:void(0)"
                   onClick={this.toggleShowAll}>
                   {showAll ? 'See Less' : 'See All'}
@@ -202,7 +202,7 @@ class LanguagesPage extends React.Component<Props, State> {
           </section>
 
           <section className="launched">
-            <div className="desktop-heading">
+            <div className="md-block">
               <h1>Launched</h1>
 
               <Hr />

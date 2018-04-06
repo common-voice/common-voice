@@ -60,9 +60,20 @@
     --dataset-item-margin: .7rem;
 }
 
+/* [Deprecated] */
 @custom-media --small-mobile (max-width: 350px);
 @custom-media --mobile (max-width: 600px);
 @custom-media --desktop (min-width: 600px);
+/* [/Deprecated] */
+
+@custom-media --sm-up (width >= 576px);
+@custom-media --md-up (width >= 768px);
+@custom-media --lg-up (width >= 992px);
+@custom-media --xl-up (width >= 1200px);
+
+@custom-media --sm-only (width >= 576px) and (width < 768px);
+@custom-media --md-only (width >= 768px) and (width < 992px);
+@custom-media --lg-only (width >= 992px) and (width < 1200px);
 
 @keyframes fade-in {
     from {
@@ -72,5 +83,13 @@
     to {
         opacity: 1;
         pointer-events: all;
+    }
+}
+
+.md-block {
+    display: none;
+
+    @media (--md-up) {
+        display: block;
     }
 }
