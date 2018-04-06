@@ -12,6 +12,7 @@ submit-form-action = Cyflwyno
 
 speak = Siarad
 datasets = Setiau data
+languages = Ieithoedd
 profile = Proffil
 help = Cymorth
 contact = Cysylltu
