@@ -117,7 +117,7 @@ button {
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.4);
-    transition: transform 1s var(--easing);
+    transition: transform var(--transition-duration-slow) var(--easing);
 }
 
 @keyframes fadein {
@@ -133,7 +133,7 @@ button {
     position: relative;
     box-sizing: border-box;
     background-color: var(--base-background-color);
-    animation: fadein 0.5s linear;
+    animation: fadein var(--transition-duration-slow) linear;
 }
 
 #scroller {
@@ -184,7 +184,9 @@ button {
     background-position: center;
     background-size: 100% 100%;
     z-index: var(--bottom-z-index);
-    transition: opacity 0.4s var(--easing), transform 0.2s var(--easing);
+    transition:
+        opacity var(--transition-duration-slow) var(--easing),
+        transform var(--transition-duration) var(--easing);
     pointer-events: none;
 }
 
@@ -197,7 +199,7 @@ button {
     right: 0;
     height: 20rem;
     opacity: 0;
-    transition: opacity 0.2s linear;
+    transition: opacity var(--transition-duration) linear;
     background: repeat-x center;
     background-size: 100% 100%;
 }
@@ -237,7 +239,7 @@ button {
 /* Don't use background transitions on desktop since
  * Normal scaling is already smooth enough */
 body:not(.ios) .recording #background-container {
-    transition: opacity 0.4 var(--easing);
+    transition: opacity var(--transition-duration-slow) var(--easing);
 }
 
 /* For native iOS css background image is not performance
@@ -256,7 +258,7 @@ body:not(.ios) .recording #background-container {
     bottom: 0;
     left: 0;
     right: 0;
-    transition: opacity 0.2s linear;
+    transition: opacity var(--transition-duration) linear;
 }
 
 .ios .recording #background-container img:first-child,
@@ -334,7 +336,7 @@ body:not(.ios) .recording #background-container {
     font-weight: bold;
     z-index: var(--top-z-index);
     transform: translateY(0);
-    transition: transform 0.2s linear;
+    transition: transform var(--transition-duration) linear;
 }
 
 #install-app.hide {
@@ -368,7 +370,7 @@ body:not(.ios) .recording #background-container {
 }
 
 #profile-container, #record-container, #terms-container, #privacy-container, #faq-container {
-    animation: slide-fade-in .2s var(--easing);
+    animation: slide-fade-in var(--transition-duration) var(--easing);
 }
 
 @media (--desktop) {
@@ -380,7 +382,7 @@ body:not(.ios) .recording #background-container {
 
 #content > div {
     box-sizing: border-box;
-    transition: opacity 0.4s ease-in;
+    transition: opacity var(--transition-duration-slow) ease-in;
     max-width: var(--desktop-width);
     margin-right: auto;
     margin-left: auto;
@@ -452,7 +454,7 @@ body:not(.ios) .recording #background-container {
     position: relative;
     display: inline-block;
     height: var(--robot-height);
-    transition: transform 0.2s ease-in-out;
+    transition: transform var(--transition-duration) ease-in-out;
     transform: translate(0, 15rem) scale(0);
     opacity: 0;
 }
@@ -516,22 +518,6 @@ body:not(.ios) .recording #background-container {
     margin-top: var(--standard-margin);
     padding-bottom: 2rem;
     text-align: left;
-}
-
-#debug-box {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: var(--debug-box-height);
-    background-color: var(--base-font-color);
-    color: var(--base-background-color);
-    z-index: var(--top-z-index);
-    overflow: scroll;
-}
-
-#debug-box.hidden {
-    display: none;
 }
 
 .loading {
@@ -636,7 +622,7 @@ body:not(.ios) .recording #background-container {
     animation: spin 4s linear infinite;
     background-color: black;
     opacity: 1;
-    transition: opacity 0.1s linear;
+    transition: opacity var(--transition-duration) linear;
 }
 
 @keyframes spin {

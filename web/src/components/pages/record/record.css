@@ -39,11 +39,11 @@
 .record-sentence {
     margin-top: 0.5rem;
     position: relative;
-    transition: transform 0.2s ease-in;
+    transition: transform var(--transition-duration) ease-in;
 }
 
 .text-box {
-    transition: transform 0.4s var(--easing);
+    transition: transform var(--transition-duration-slow) var(--easing);
 }
 
 .text-box.no-sentences-error {
@@ -139,7 +139,7 @@
     left: 2rem;
     z-index: var(--middle-z-index);
     opacity: 1;
-    transition: all 0.2s ease-out;
+    transition: all var(--transition-duration) ease-out;
     padding: 0.5rem;
     cursor: pointer;
 }

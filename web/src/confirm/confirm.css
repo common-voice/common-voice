@@ -7,7 +7,7 @@
     z-index: var(--top-z-index);
     pointer-events: none;
     opacity: 0;
-    transition: opacity 0.2s;
+    transition: opacity var(--transition-duration);
     background: rgba(0, 0, 0, 0.8);
     display: flex;
     align-items: center;

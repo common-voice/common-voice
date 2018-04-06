@@ -11,7 +11,7 @@
     cursor: pointer;
     border: 1px solid black;
     outline: none;
-    transition: all 0.1s linear;
+    transition: all var(--transition-duration) linear;
     background: black;
     color: white;
 }
@@ -72,7 +72,7 @@ body:not(.mobile-safari) .button.outline:hover path,
     background: white;
     text-transform: none;
     white-space: nowrap;
-    animation: fade-in .5s;
+    animation: fade-in var(--transition-duration);
 }
 
 body:not(.mobile-safari) .card-action:hover,
@@ -162,7 +162,7 @@ body:not(.mobile-safari) .button.card-action:hover path,
 }
 
 .menu-icon rect {
-    transition: transform .2s var(--easing);
+    transition: transform var(--transition-duration) var(--easing);
 }
 
 .menu-icon.active .left {

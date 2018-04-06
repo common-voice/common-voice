@@ -41,7 +41,7 @@
     width: 10px;
     border: 2px solid #000;
     border-radius: 50%;
-    transition: transform 1.5s var(--easing);
+    transition: transform var(--transition-duration-slow) var(--easing);
 }
 
 .help-translate-modal .title-and-action.collapsed img.toggle {

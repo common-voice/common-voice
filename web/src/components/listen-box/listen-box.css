@@ -104,7 +104,7 @@ body.mobile-safari .play-box:active path,
     line-height: var(--listen-box-height);
     text-align: center;
     cursor: pointer;
-    transition: 100ms;
+    transition: var(--transition-duration);
     font-size: 23px;
 }
 

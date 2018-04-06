@@ -5,7 +5,6 @@
     --small-font-size: .8rem;
     --header-height: 4rem;
     --input-height: 2.5rem;
-    --debug-box-height: 4rem;
     --listen-box-height: 6rem;
     --base-background-image: url("/img/wave-blue-large.png");
     --base-background-image-mobile: url("/img/wave-blue-mobile.png");
@@ -14,7 +13,8 @@
     --page-margin: 1rem;
     --standard-margin: 0.3rem;
     --hamburger: calc(var(--header-height) * 0.7);
-    --transition-default: 0.3s;
+    --transition-duration: 0.2s;
+    --transition-duration-slow: 0.5s;
     --desktop-width: 73rem;
     --old-desktop-width: 55rem;
     --hero-height: 15.3rem;
@@ -24,7 +24,7 @@
     --spinner-height: 10rem;
     --home-background-offset: 12.5rem;
     --easing: cubic-bezier(0.4, 0.0, 0.2, 1);
-    --shadow-overhang: 0 1px 0 rgba(12, 13, 14, 0.1),
+    --nav-shadow-overhang: 0 1px 0 rgba(12, 13, 14, 0.1),
     0 1px 3px rgba(12, 13, 14, 0.1),
     0 4px 20px rgba(12, 13, 14, 0.035),
     0 1px 1px rgba(12, 13, 14, 0.025);

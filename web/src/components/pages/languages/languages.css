@@ -124,7 +124,7 @@
         & section {
             width: calc(100vw - 3rem);
             margin-left: 0;
-            transition: margin-left 400ms var(--easing);
+            transition: margin-left var(--transition-duration-slow) var(--easing);
 
             @media (--md-up) {
                 width: auto;
@@ -232,7 +232,7 @@
             border-top: 2px solid #f3f2f1;
             padding: 1rem;
             width: 100%;
-            transition: background linear 100ms;
+            transition: background linear var(--transition-duration);
             background: rgba(243, 242, 241, 0.5);
             text-transform: uppercase;
             font-weight: 600;

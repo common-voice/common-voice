@@ -46,7 +46,7 @@
 #home-title {
     position: absolute;
     top: 0;
-    animation: fade-in .5s;
+    animation: fade-in var(--transition-duration-slow);
 }
 
 #contribute-button {

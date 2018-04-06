@@ -4,7 +4,9 @@ header {
     height: var(--header-height);
     box-sizing: border-box;
     z-index: var(--top-z-index);
-    transition: background-color 0.15s linear, box-shadow .2s linear;
+    transition:
+        background-color var(--transition-duration) linear,
+        box-shadow var(--transition-duration) linear;
 }
 
 header > * {
@@ -68,7 +70,7 @@ header > *:last-child {
     }
 
     header.active {
-        box-shadow: var(--shadow-overhang);
+        box-shadow: var(--nav-shadow-overhang);
         background-color: var(--base-background-color);
     }
 
@@ -399,7 +401,7 @@ footer a:hover, footer button:hover {
     padding: var(--header-height) 0 0;
     pointer-events: none;
     transform: translateY(-100vh);
-    transition: all 0.55s var(--easing);
+    transition: all var(--transition-duration-slow) var(--easing);
     visibility: hidden;
 }
 
@@ -407,7 +409,7 @@ footer a:hover, footer button:hover {
     display: block;
     transform: translateY(0);
     pointer-events: all;
-    transition-duration: 0.4s;
+    transition-duration: var(--transition-duration-slow);
     visibility: visible;
 }
 
