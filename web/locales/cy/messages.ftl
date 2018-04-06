@@ -25,7 +25,7 @@ share-title = Helpwch ni i gael rhagor i gyfrannu eu lleisiau!
 
 ## Home Page
 
-home-title = Common Voice yw menter Mozilla i helpu i ddysgu peiriannau sut mae pobl go-iawn yn siarad.
+home-title = Common Voice yw menter Mozilla i helpu dysgu peiriannau sut mae pobl go-iawn yn siarad.
 home-cta = Siarad a chyfrannu yn fan hyn!
 wall-of-text-start = Mae llais yn naturiol ac yn perthyn i ni i gyd. Dyna pam mae gennym ddiddordeb mawr mewn creu technoleg llais defnyddiol ar gyfer ein peiriannau. Ond er mwyn creu systemau llais, mae angen data llais sylweddol iawn.
 wall-of-text-more-mobile = Nid yw'r data sy'n cael ei ddefnyddio gan gwmnïau mawr ar gael i'r rhan fwyaf o bobl. I ni, mae hynny'n cyfyngu ar ddyfeisgarwch. Felly rydym wedi cychwyn Project Common Voice, project i wneud adnabod lleferydd ar gael i bawb.
