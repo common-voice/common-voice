@@ -39,7 +39,7 @@
 .record-sentence {
     margin-top: 0.5rem;
     position: relative;
-    transition: transform var(--transition-duration) ease-in;
+    transition: transform var(--transition-duration) var(--easing);
 }
 
 .text-box {
@@ -123,7 +123,7 @@
 
 .recording #record-button {
     background-color: var(--color-speak-light);
-    animation: throb 1.2s ease-in-out infinite;
+    animation: throb 1.2s var(--easing) infinite;
 }
 
 @keyframes throb {
@@ -139,7 +139,7 @@
     left: 2rem;
     z-index: var(--middle-z-index);
     opacity: 1;
-    transition: all var(--transition-duration) ease-out;
+    transition: all var(--transition-duration) var(--easing);
     padding: 0.5rem;
     cursor: pointer;
 }

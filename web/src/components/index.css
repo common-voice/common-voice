@@ -382,7 +382,7 @@ body:not(.ios) .recording #background-container {
 
 #content > div {
     box-sizing: border-box;
-    transition: opacity var(--transition-duration-slow) ease-in;
+    transition: opacity var(--transition-duration-slow) var(--easing);
     max-width: var(--desktop-width);
     margin-right: auto;
     margin-left: auto;
@@ -454,7 +454,7 @@ body:not(.ios) .recording #background-container {
     position: relative;
     display: inline-block;
     height: var(--robot-height);
-    transition: transform var(--transition-duration) ease-in-out;
+    transition: transform var(--transition-duration) var(--easing);
     transform: translate(0, 15rem) scale(0);
     opacity: 0;
 }
