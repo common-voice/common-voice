@@ -91,15 +91,19 @@ notfound-content = Obávam sa, že neviem čo hľadáte.
 
 privacy-title = Zásady ochrany súkromia projektu Common Voice
 privacy-effective = Platné od { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
+privacy-data-demographic = <name>Demografické údaje.</name> Dobrovoľne nám môžete odoslať informácie, napríklad váš prízvuk, vek a pohlavie. Toto pomáha nám a ostatným výskumníkom zlepšovať a tvoriť technológie a nástroje pre prevod reči na text.
 privacy-more = <more>Ďalšie informácie</more>
 
 ## Terms
 
 terms-title = Právne podmienky projektu Common Voice
 terms-effective = Platné od { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
+terms-eligibility-title = Oprávnenosť
+terms-eligibility-content = Aby ste sa mohli zapojiť do nášho projektu, musíte byť starší ako 13 rokov alebo mať povolenie rodiča alebo opatrovníka, ktorý na vás musia počas participácie dozerať.
 terms-privacy-title = Súkromie
 terms-privacy-content = Naše <privacyLink>zásady ochrany súkromia</privacyLink> popisujú, ako vaše údaje prijímame a ako s nimi narábame.
 terms-contributions-title = Vaše príspevky a vzdanie sa práv
+terms-contributions-content = Odoslaním vašich nahrávok sa vzdávate všetkých autorských práv a súvisiacich práv, ktoré môžete mať, a súhlasíte so zverejnením nahrávok v rámci licencie <licenseLink>CC-0</licenseLink>. To znamená, že súhlasíte so vzdaním sa všetkých práv ku nahrávkam a to celosvetovo, podľa autorského zákona a zákona o databázach, vrátane morálnych práv a práv na uvedenie zdroja a všetkých pridružených a súvisiacich práv.
 terms-communications-title = Komunikácia
 terms-general-title = Všeobecné
 
