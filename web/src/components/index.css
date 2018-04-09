@@ -1,7 +1,6 @@
 @import url('vars.css');
 @import url('ui/ui.css');
 
-@import url('layout/nav.css');
 @import url('alert/alert.css');
 @import url('contact-modal/contact-modal.css');
 @import url('listen-box/listen-box.css');
@@ -134,6 +133,7 @@ button {
     box-sizing: border-box;
     background-color: var(--white);
     animation: fadein var(--transition-duration-slow) linear;
+    overflow-x: hidden;
 }
 
 #scroller {
@@ -373,66 +373,63 @@ body:not(.ios) .recording #background-container {
     animation: slide-fade-in var(--transition-duration) var(--easing);
 }
 
-@media (--desktop) {
-    #content {
+#content {
+    @media (--md-up) {
         position: unset;
         flex: 1 1 100%;
-    }
-}
-
-#content > div {
-    box-sizing: border-box;
-    transition: opacity var(--transition-duration-slow) var(--easing);
-    max-width: var(--desktop-width);
-    margin-right: auto;
-    margin-left: auto;
-}
-
-@media (--mobile) {
-    #content > div {
-        box-sizing: border-box;
-        min-height: 100%;
         padding: 0 var(--page-margin);
     }
 
-    .main-logo {
-        height: 100%;
-    }
+    & > div {
+        box-sizing: border-box;
+        transition: opacity var(--transition-duration-slow) var(--easing);
+        max-width: var(--desktop-width);
+        margin-right: auto;
+        margin-left: auto;
+        min-height: 100%;
+        padding: 0 var(--page-margin);
 
-    .main-mozilla-logo {
-        height: 100%;
+        @media (--md-up) {
+            min-height: auto;
+            padding: 0;
+        }
     }
 }
 
-@media (--desktop) {
-    .main-logo {
-        margin-right: 4rem;
+.main-logo {
+    @media (--md-up) {
+        margin-right: var(--standard-margin);
         width: 10rem;
+    }
+
+    @media (--lg-up) {
+        margin-right: 4rem;
+    }
+
+    &, & .main-mozilla-logo {
+        height: 100%;
     }
 }
 
 .hero {
     text-align: center;
-    height: var(--hero-height);
     position: relative;
-}
+    height: var(--hero-height-mobile);
 
-@media (--mobile) {
-    .hero {
-        height: var(--hero-height-mobile);
+    @media (--md-up) {
+        height: var(--hero-height);
     }
 }
 
 .hero-space {
-    height: 10rem;
-}
+    height: 3rem;
+    background: none;
 
-@media (--mobile) {
-    .hero-space {
-        height: 3rem;
-        background: none;
+    @media (--md-up) {
+        height: 10rem;
     }
 }
+
 
 .faq .hero,
 .terms .hero,

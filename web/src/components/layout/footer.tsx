@@ -13,6 +13,8 @@ import {
 } from '../ui/icons';
 import Logo from './logo';
 
+import './footer.css';
+
 const shareURL = 'https://voice.mozilla.org/';
 const encodedShareText = encodeURIComponent(
   'Help teach machines how real people speak, donate your voice at ' + shareURL

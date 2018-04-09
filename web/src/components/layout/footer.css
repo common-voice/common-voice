@@ -1,0 +1,169 @@
+@import url('../vars.css');
+
+footer {
+    background-color: var(--black);
+
+    & a:hover, & button:hover {
+        opacity: .6;
+    }
+}
+
+#help-links {
+    margin-top: calc(2 * var(--standard-margin));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6rem;
+    background-color: var(--light-grey);
+
+    @media (--md-up) {
+        height: 9.3rem;
+    }
+
+    & a {
+        box-sizing: border-box;
+        text-align: center;
+        width: 10rem;
+        font-size: var(--font-size-small);
+        cursor: pointer;
+
+        @media (--md-up) {
+            font-size: var(--font-size);
+        }
+    }
+
+    & img {
+        margin-bottom: var(--standard-margin);
+        width: 21px;
+
+        @media (--md-up) {
+            width: 26px;
+        }
+    }
+
+    & .divider {
+        display: none;
+        border-right: 2px solid darkgrey;
+        height: 2.5rem;
+
+        @media (--md-up) {
+            display: block;
+        }
+    }
+}
+
+#moz-links {
+    display: flex;
+    flex-direction: column;
+    padding: var(--page-margin);
+    height: 100%;
+    font-size: 0.7rem;
+    color: var(--white);
+
+    @media (--md-up) {
+        margin: 0 auto;
+        padding: 0.4rem 0;
+        max-width: var(--desktop-width);
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+
+        & > * {
+            margin: 2rem 0;
+        }
+    }
+
+    & .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: var(--page-margin);
+
+        @media (--md-up) {
+            padding-bottom: 0;
+            padding-right: 1rem;
+        }
+    }
+
+    & .main-logo {
+        font-size: 1rem;
+        padding-right: 4rem;
+    }
+
+    & .main-logo, & .main-mozilla-logo {
+        max-height: 2.5rem;
+    }
+
+    & .links {
+        padding-top: 1.5rem;
+
+        & a {
+            color: var(--green);
+        }
+
+        & > :first-child {
+            margin-bottom: 0.2rem;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        & > p:last-child, & > :first-child a {
+            display: block;
+
+            @media (--md-up) {
+                display: initial;
+            }
+        }
+    }
+}
+
+.is-keyboard-focus #moz-links *:focus {
+    outline: 1px solid white;
+}
+
+#sharing {
+    padding: 1.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #262626;
+
+    & h3 {
+        margin-bottom: 1rem;
+        text-align: center;
+        font-size: 1.1rem;
+        font-style: italic;
+        font-weight: normal;
+        font-family: sans-serif;
+    }
+
+    & .icons {
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+
+
+#sharing a, #link-copy {
+    font-size: .8rem;
+    color: var(--white);
+}
+
+#link-copy {
+    border: none;
+    padding: 0;
+    width: auto;
+    background: transparent;
+
+    &:active {
+        color: var(--black);
+    }
+
+    & input {
+        position: fixed;
+        top: 1000rem;
+        left: 1000rem;
+    }
+}

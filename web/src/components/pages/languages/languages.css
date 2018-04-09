@@ -1,3 +1,5 @@
+@custom-media --xs-up (width >= 350px);
+
 :root {
     --language-box-margin: 1.6rem;
 }
@@ -173,14 +175,14 @@
             flex-direction: column;
             font-size: var(--font-size-small);
 
-            @media (--sm-up) {
+            @media (--xs-up) {
                 flex-direction: row;
             }
 
             & h2, & .numbers {
                 width: 100%;
 
-                @media (--sm-up) {
+                @media (--xs-up) {
                     width: 50%;
                 }
             }
@@ -189,7 +191,7 @@
                 padding: 0;
                 margin-bottom: 1rem;
 
-                @media (--sm-up) {
+                @media (--xs-up) {
                     margin-bottom: 0;
                     padding: var(--standard-margin);
                 }

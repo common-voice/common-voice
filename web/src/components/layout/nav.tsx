@@ -4,6 +4,8 @@ import { NavLink } from 'react-router-dom';
 import { isProduction } from '../../utility';
 import URLS from '../../urls';
 
+import './nav.css';
+
 export default ({
   basePath,
   children,
