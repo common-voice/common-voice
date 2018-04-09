@@ -135,7 +135,7 @@
     }
 
     & .selected-launched .language-sections section {
-        margin-left: calc(-100vw + 2rem);
+        margin-left: calc(-100vw);
     }
 
     & .language-sections {
@@ -148,12 +148,13 @@
         }
 
         & ul {
+            margin-bottom: 0;
             padding: 0;
             list-style: none;
         }
 
         & section {
-            width: calc(100vw - 3rem);
+            width: calc(100vw - 2rem);
             margin-left: 0;
             transition: margin-left var(--transition-duration-slow) var(--easing);
 
@@ -162,7 +163,7 @@
             }
 
             &:nth-child(2) {
-                margin-left: 1rem;
+                margin-left: 2rem;
 
                 @media (--md-up) {
                     margin-left: 0;

@@ -179,7 +179,7 @@ class LanguagesPage extends React.Component<Props, State> {
                   className="show-all-languages-md"
                   href="javascript:void(0)"
                   onClick={this.toggleShowAll}>
-                  {showAll ? 'See Less' : 'See All'}
+                  {showAll ? 'See Less' : 'See More'}
                 </a>
               </div>
 
@@ -203,7 +203,7 @@ class LanguagesPage extends React.Component<Props, State> {
             <button
               className="show-all-languages-mobile"
               onClick={this.toggleShowAll}>
-              {showAll ? 'See Less' : 'See All'}
+              {showAll ? 'See Less' : 'See More'}
             </button>
           </section>
 
