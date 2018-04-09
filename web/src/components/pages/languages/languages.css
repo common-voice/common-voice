@@ -35,7 +35,14 @@
 
         & .waves {
             position: relative;
-            width: 50%;
+            top: -2rem;
+            left: 14rem;
+
+            @media (--md-up) {
+                top: 0;
+                left: 0;
+                width: 50%;
+            }
 
             & img {
                 position: absolute;
@@ -57,7 +64,12 @@
         & .text {
             display: flex;
             align-items: center;
+            margin-top: 4rem;
             width: 50%;
+
+            @media (--md-up) {
+                margin-top: 0;
+            }
 
             & .inner {
                 display: flex;
