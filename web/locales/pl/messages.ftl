@@ -22,6 +22,7 @@ cookies = Ciasteczka
 faq = Często zadawane pytania
 content-license-text = Treść dostępna na warunkach <licenseLink>licencji Creative Commons</licenseLink>
 share-title = Zachęć innych do nagrania swojego głosu!
+back-top = Powrót na górę
 
 ## Home Page
 
