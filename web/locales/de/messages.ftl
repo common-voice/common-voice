@@ -22,6 +22,7 @@ cookies = Cookies
 faq = FAQ
 content-license-text = Inhalte stehen unter einer <licenseLink>Creative-Commons-Lizenz</licenseLink>
 share-title = Überzeugen Sie auch andere, mit Ihrer Stimme beizutragen!
+back-top = Zum Seitenanfang
 
 ## Home Page
 
