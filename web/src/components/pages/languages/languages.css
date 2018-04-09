@@ -260,7 +260,6 @@
         & button {
             outline: none;
             border: none;
-            border-top: 2px solid var(--light-grey);
             padding: 1rem;
             width: 100%;
             transition: background linear var(--transition-duration);
