@@ -156,6 +156,18 @@ export default class Footer extends React.Component<
               </a>
             </div>
           </div>
+          <Localized id="back-top">
+            <a
+              className="back-top"
+              href="javascript:void(0)"
+              onClick={() =>
+                window.scrollTo({
+                  top: 0,
+                  behavior: 'smooth',
+                })
+              }
+            />
+          </Localized>
         </div>
       </footer>
     );

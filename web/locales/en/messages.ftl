@@ -20,6 +20,7 @@ cookies = Cookies
 faq = FAQ
 content-license-text = Content available under a <licenseLink>Creative Commons license</licenseLink>
 share-title = Help us find others to donate their voice!
+back-top = Back to Top
 
 ## Home Page
 home-title =
