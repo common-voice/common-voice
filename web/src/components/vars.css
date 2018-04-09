@@ -68,6 +68,7 @@
 @custom-media --desktop (min-width: 600px);
 /* [/Deprecated] */
 
+@custom-media --xs-up (width >= 350px);
 @custom-media --sm-up (width >= 576px);
 @custom-media --md-up (width >= 768px);
 @custom-media --lg-up (width >= 992px);

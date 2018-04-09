@@ -1,7 +1,26 @@
-@custom-media --xs-up (width >= 350px);
-
 :root {
     --language-box-margin: 1.6rem;
+}
+
+@keyframes move-and-scale-in {
+    from {
+        transform: translateX(-100%) scaleY(0);
+    }
+    to {
+        transform: none;
+    }
+}
+
+@keyframes move-and-scale-in-delayed {
+    from {
+        transform: translateX(-100%) scaleY(0);
+    }
+    40% {
+        transform: translateX(-100%) scaleY(0);
+    }
+    to {
+        transform: none;
+    }
 }
 
 .languages {
@@ -10,25 +29,35 @@
         flex-direction: column;
 
         @media (--md-up) {
+            height: 150px;
             flex-direction: row;
         }
 
-        & img {
-            margin-left: -50%;
-            margin-top: -31%;
-            width: 200%;
+        & .waves {
+            position: relative;
+            width: 50%;
 
-            @media (--md-up) {
-                margin-top: 0;
-                margin-left: calc(-50vw + 50%);
-                width: 100vw;
+            & img {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                margin: auto;
+                animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+                animation-duration: 4s;
+                animation-name: move-and-scale-in;
+
+                &.eq {
+                    animation-name: move-and-scale-in-delayed;
+                    right: 16%;
+                }
             }
         }
 
         & .text {
             display: flex;
             align-items: center;
-            width: 100%;
+            width: 50%;
 
             & .inner {
                 display: flex;

@@ -47,6 +47,11 @@ const PRELOAD = [
   '/img/wave-blue-mobile.png',
   '/img/wave-red-large.png',
   '/img/wave-red-mobile.png',
+  '/img/waves/_1.svg',
+  '/img/waves/_2.svg',
+  '/img/waves/_3.svg',
+  '/img/waves/fading.svg',
+  '/img/waves/Eq.svg',
 ];
 
 interface PropsFromState {

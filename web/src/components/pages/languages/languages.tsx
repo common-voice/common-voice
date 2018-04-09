@@ -112,7 +112,13 @@ class LanguagesPage extends React.Component<Props, State> {
         <br />
 
         <div className="top">
-          <img src="/img/waves-mixed.svg" alt="Waves" />
+          <div className="waves">
+            <img src="/img/waves/_1.svg" />
+            <img src="/img/waves/_2.svg" />
+            <img src="/img/waves/_3.svg" />
+            <img src="/img/waves/fading.svg" />
+            <img src="/img/waves/Eq.svg" className="eq" />
+          </div>
 
           <div className="text">
             <div className="inner">
