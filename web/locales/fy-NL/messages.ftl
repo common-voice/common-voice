@@ -22,6 +22,7 @@ cookies = Cookies
 faq = FAQ
 content-license-text = Ynhâld beskikber ûnder in <licenseLink>Creative Commons-lisinsje</licenseLink>
 share-title = Help ús oaren te finen om harren stim te donearjen!
+back-top = Nei boppe
 
 ## Home Page
 
