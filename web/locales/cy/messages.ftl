@@ -22,6 +22,7 @@ cookies = Cwcis
 faq = Cwestiynau Cyffredin
 content-license-text = Mae'r cynnwys ar gael o dan <licenseLink>drwydded Creative Commons</licenseLink>
 share-title = Helpwch ni i gael rhagor i gyfrannu eu lleisiau!
+back-top = Nôl i'r Brig
 
 ## Home Page
 
