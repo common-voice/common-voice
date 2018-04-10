@@ -74,7 +74,3 @@
     display: flex;
     justify-content: center;
 }
-
-.help-translate-modal button {
-    text-transform: none;
-}

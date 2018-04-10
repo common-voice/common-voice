@@ -19,7 +19,3 @@
     display: flex;
     justify-content: center;
 }
-
-.request-language-modal button {
-    text-transform: none;
-}
