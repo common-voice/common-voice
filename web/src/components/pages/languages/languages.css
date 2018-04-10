@@ -68,6 +68,7 @@
             width: 50%;
 
             @media (--md-up) {
+                margin-left: var(--standard-margin);
                 margin-top: 0;
             }
 

@@ -116,7 +116,7 @@ class LanguagesPage extends React.Component<Props, State> {
             <img src="/img/waves/_1.svg" />
             <img src="/img/waves/_2.svg" />
             <img src="/img/waves/_3.svg" />
-            <img src="/img/waves/fading.svg" />
+            <img src="/img/waves/fading.svg" style={{ right: -5 }} />
             <img src="/img/waves/Eq.svg" className="eq" />
           </div>
 
