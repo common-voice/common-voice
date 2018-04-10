@@ -107,7 +107,7 @@ privacy-policy = Wanneer Mozilla (dat zijn wij) informatie van u ontvangt, besch
 privacy-data-demographic = <name>Demografische gegevens.</name> U kunt ons optioneel gegevens sturen zoals uw accent, leeftijd en geslacht. Dit helpt ons en andere onderzoekers spraak-naar-tekst-technologie en -hulpmiddelen te maken en verbeteren.
 privacy-data-account = <name>Accountgegevens.</name> U kunt optioneel een account aanmaken, in welk geval we uw e-mailadres ontvangen. Dit wordt aan uw demografische en interactiegegevens gekoppeld, maar niet openbaar gemaakt.
 privacy-data-recordings = <name>Stemopnamen.</name> Stemopnamen kunnen, samen met gerelateerde demografische gegevens, in de Common Voice-database beschikbaar zijn voor openbaar gebruik.
-privacy-data-interaction = <name>Interactiegegevens.</name> We gebruiken Google Analytics om uw interactie met de Common Voice-app of -website beter te begrijpen. Dit omvat bijvoorbeeld het aantal door u opgenomen of beluisterde stemvoorbeelden , interacties met knoppen en menu’s, of sessielengte.
+privacy-data-interaction = <name>Interactiegegevens.</name> We gebruiken Google Analytics om uw interactie met de Common Voice-app of -website beter te begrijpen. Dit omvat bijvoorbeeld het aantal door u opgenomen of beluisterde stemvoorbeelden, interacties met knoppen en menu’s, of sessielengte.
 privacy-data-technical = <name>Technische gegevens.</name> Met behulp van Google Analytics verzamelen we de URL en de titel van de door u bezochte Common Voice-pagina’s. We verzamelen uw browser, venstergrootte en schermresolutie. We verzamelen ook uw locatie en de taalinstelling van uw browser.
 privacy-more = <more>Meer info</more>
 
