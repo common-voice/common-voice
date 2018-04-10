@@ -22,6 +22,7 @@ cookies = Cookies
 faq = FAQ
 content-license-text = Obsah je dostupný pod <licenseLink>licencí Creative Commons</licenseLink>
 share-title = Pomozte nám najít další, kteří darují svůj hlas!
+back-top = Zpět nahoru
 
 ## Home Page
 
