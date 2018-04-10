@@ -22,6 +22,7 @@ cookies = Cookies
 faq = Questions fréquentes
 content-license-text = Contenu disponible sous licence <licenseLink>Creative Commons</licenseLink>
 share-title = Aidez-nous à collecter davantage de voix !
+back-top = Haut de la page
 
 ## Home Page
 
@@ -204,3 +205,7 @@ request-language-success-text = Nous vous contacterons avec plus d’information
 
 ## Help Translate Modal
 
+help-translate-title = Aider à traduire en { $language }
+help-translate-cancel = Quitter
+help-translate-text = Nous allons vous rediriger vers la plateforme de traduction de Mozilla, <pontoonLink>Pontoon</pontoonLink>, où cette langue est en cours de traduction.
+language-updates-success-text = Nous vous tiendrons informé lorsque de nouvelles informations seront disponibles.
