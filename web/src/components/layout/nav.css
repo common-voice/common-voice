@@ -74,6 +74,11 @@ header {
     }
 
     &:hover {
+        &::after {
+            background-position-x: 15px;
+            transform: rotate(180deg);
+        }
+
         & .selection {
             border: none;
             color: var(--black);
