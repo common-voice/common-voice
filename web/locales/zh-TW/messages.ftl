@@ -22,6 +22,7 @@ cookies = Cookie
 faq = 常見問題
 content-license-text = 內容依照 <licenseLink>Creative Commons 條款</licenseLink>授權大眾使用
 share-title = 幫助我們找人一起獻聲！
+back-top = 回到頁面頂端
 
 ## Home Page
 
