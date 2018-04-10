@@ -65,11 +65,11 @@
             display: flex;
             align-items: center;
             margin-top: 4rem;
-            width: 50%;
 
             @media (--md-up) {
                 margin-left: var(--standard-margin);
                 margin-top: 0;
+                width: 50%;
             }
 
             & .inner {
