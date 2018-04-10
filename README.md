@@ -5,6 +5,9 @@ donations for the Common Voice project.
 ### Official Website
 [voice.mozilla.org](https://voice.mozilla.org)
 
+### Code of Conduct
+By participating in this project, you're agreeing to uphold the [Mozilla Community Participation Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/). If you need to report a problem, please contact [mikey@mozilla.com](mailto:mikey@mozilla.com).
+
 ### Contributing
 From writing and reading sentences to enhancing our front-end architecture, there are many ways to get involved with Common Voice. For more information, check out [CONTRIBUTING.md](./CONTRIBUTING.md).
 
