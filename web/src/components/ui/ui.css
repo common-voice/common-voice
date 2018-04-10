@@ -13,21 +13,21 @@
     transition: all var(--transition-duration) linear;
     background: black;
     color: var(--white);
-}
+    display: block;
+    width: 100%;
 
-.button.outline {
-    background-color: var(--white);
-    color: var(--black);
-}
+    @media (--md-up) {
+        display: initial;
+        width: auto;
+    }
 
-.button.rounded {
-    border-radius: 50px;
-}
+    &.outline {
+        background-color: var(--white);
+        color: var(--black);
+    }
 
-@media (--mobile) {
-    .button {
-        display: block;
-        width: 100%;
+    &.rounded {
+        border-radius: 50px;
     }
 }
 
@@ -110,63 +110,56 @@ body:not(.mobile-safari) .button.card-action:hover path,
     flex-direction: column;
     box-sizing: border-box;
     font-style: italic;
-    color: #4A4A4A;
-}
-
-.labeled-form-control {
     font-size: var(--font-size-small);
-}
+    color: #4A4A4A;
 
-.labeled-form-control input, .labeled-form-control select, .labeled-form-control textarea {
-    box-sizing: border-box;
-    border: none;
-    margin-top: .2rem;
-    padding: .5rem;
-    font-size: var(--font-size);
-    font-family: var(--base-font-family);
-    color: var(--warm-grey);
-    background-color: var(--light-grey);
-}
+    & :required, & :valid {
+        box-shadow: none;
+    }
 
-.labeled-form-control input, .labeled-form-control select {
-    height: var(--input-height);
-}
+    & input, & select, & textarea {
+        box-sizing: border-box;
+        border: none;
+        margin-top: .2rem;
+        padding: .5rem;
+        font-size: var(--font-size);
+        font-family: var(--base-font-family);
+        color: var(--warm-grey);
+        background-color: var(--light-grey);
+    }
 
-.labeled-form-control.for-select {
-    position: relative;
-}
+    & input, & select {
+        height: var(--input-height);
+    }
 
-.labeled-form-control select {
-    padding-right: 33px;
-    appearance: none;
-}
+    &.for-select {
+        & .wrapper {
+            position: relative;
 
-.labeled-form-control.for-select::after {
-    content: '';
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background: url('/img/down-arrow.svg') no-repeat right 15px top 37px;
-    background-size: 13px 9px;
-    pointer-events: none;
-}
-
-.labeled-form-control :required, .labeled-form-control :valid {
-    box-shadow: none;
+            & select {
+                cursor: pointer;
+                padding-right: 33px;
+                width: 100%;
+                appearance: none;
+            }
+        }
+    }
 }
 
 .menu-icon {
     transform: scale(2);
-}
 
-.menu-icon rect {
-    transition: transform var(--transition-duration) var(--easing);
-}
+    & rect {
+        transition: transform var(--transition-duration) var(--easing);
+    }
 
-.menu-icon.active .left {
-    transform: translateX(-4px);
-}
+    &.active {
+        & .left {
+            transform: translateX(-4px);
+        }
 
-.menu-icon.active .right {
-    transform: translateX(4px);
+        & .right {
+            transform: translateX(4px);
+        }
+    }
 }

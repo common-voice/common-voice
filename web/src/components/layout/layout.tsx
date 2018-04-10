@@ -220,7 +220,7 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
     document.body.classList.remove(KEYBOARD_FOCUS_CLASS_NAME);
   };
 
-  private selectLocale = async ({ target: { value: locale } }: any) => {
+  private selectLocale = async (locale: string) => {
     const { history } = this.props;
     history.push(replacePathLocale(history.location.pathname, locale));
   };
@@ -269,16 +269,24 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
           <div>
             {this.renderTallies()}
             {LOCALES.length > 1 && (
-              <LabeledSelect
-                className="language-select"
-                value={locale}
-                onChange={this.selectLocale}>
-                {LOCALES.map(code => (
-                  <option key={code} value={code}>
-                    {ISO6391.getName(code) || code}
-                  </option>
-                ))}
-              </LabeledSelect>
+              <div className="language-select with-down-arrow">
+                <div className="selection">
+                  {ISO6391.getName(locale) || locale}
+                </div>
+                <div className="list-wrapper">
+                  <div className="triangle" />
+                  <ul>
+                    {LOCALES.map(code => (
+                      <li
+                        key={code}
+                        className={code === locale ? 'selected' : ''}
+                        onClick={() => this.selectLocale(code)}>
+                        {ISO6391.getName(code) || code}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
             )}
             <button
               id="hamburger-menu"
@@ -334,7 +342,9 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
               <LabeledSelect
                 className="language-select"
                 value={locale}
-                onChange={this.selectLocale}>
+                onChange={(event: any) =>
+                  this.selectLocale(event.target.value)
+                }>
                 {LOCALES.map(code => (
                   <option key={code} value={code}>
                     {ISO6391.getName(code) || code}

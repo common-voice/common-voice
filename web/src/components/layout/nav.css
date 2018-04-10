@@ -66,10 +66,23 @@ header {
 }
 
 .language-select {
+    position: relative;
     margin: 0 1rem;
 
     @media (--md-up) {
         margin: 0 0 0 1.5rem;
+    }
+
+    &:hover {
+        & .selection {
+            border: none;
+            color: var(--black);
+            background: var(--lighter-grey);
+        }
+
+        & .list-wrapper {
+            display: block;
+        }
     }
 
     &::before {
@@ -77,17 +90,17 @@ header {
         width: 100%;
         height: 100%;
         position: absolute;
-        background: url("/img/globe.svg") no-repeat left 15px top 15px;
+        background: url("/img/globe.svg") no-repeat left 13px center;
         background-size: 17px 16px;
         pointer-events: none;
+        z-index: var(--top-z-index);
     }
 
     &::after {
-        left: 0;
-        background-position-y: 18px !important;
+        top: 0;
     }
 
-    & select {
+    & select, & .selection {
         border: 1px solid rgba(0, 0, 0, 0.05);
         padding-left: 2.5rem;
         background: white;
@@ -97,6 +110,54 @@ header {
         letter-spacing: 0.8px;
         color: var(--warm-grey);
         cursor: pointer;
+    }
+
+    & .selection {
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        padding: .5rem 5rem .5rem 2.5rem;
+        height: var(--input-height);
+        min-width: 12rem;
+        font-weight: 600;
+    }
+
+    & .list-wrapper {
+        display: none;
+        height: 100%;
+
+        & .triangle {
+            position: absolute;
+            right: 10%;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-bottom: 10px solid var(--lighter-grey);
+        }
+
+        & ul {
+            position: absolute;
+            list-style: none;
+            margin: .5rem 0 0;
+            padding: 1rem 0;
+            max-height: 16rem;
+            width: 100%;
+            overflow-y: auto;
+            background: var(--lighter-grey);
+
+            & li {
+                margin: 0 1rem 1rem 2.5rem;
+                color: var(--warm-grey);
+                cursor: pointer;
+                text-transform: uppercase;
+                font-weight: 600;
+                text-overflow: ellipsis;
+                overflow-x: hidden;
+
+                &.selected {
+                    color: black;
+                }
+            }
+        }
     }
 }
 

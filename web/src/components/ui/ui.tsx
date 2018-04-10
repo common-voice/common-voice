@@ -34,17 +34,24 @@ const LabeledFormControl = ({
   label,
   required,
   ...props
-}: any) => (
-  <label
-    className={['labeled-form-control', 'for-' + Component, className].join(
-      ' '
-    )}
-    {...props}>
-    {label}
-    {required && '*'}
-    <Component {...{ required, ...props }} />
-  </label>
-);
+}: any) => {
+  const child = <Component {...{ required, ...props }} />;
+  return (
+    <label
+      className={['labeled-form-control', 'for-' + Component, className].join(
+        ' '
+      )}
+      {...props}>
+      {label}
+      {required && '*'}
+      {Component == 'select' ? (
+        <div className="wrapper with-down-arrow">{child}</div>
+      ) : (
+        child
+      )}
+    </label>
+  );
+};
 
 export const LabeledInput = (props: any) => (
   <LabeledFormControl component="input" {...props} />
