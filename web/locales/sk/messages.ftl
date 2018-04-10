@@ -22,6 +22,7 @@ cookies = Cookies
 faq = Často kladené otázky
 content-license-text = Obsah je dostupný v rámci licencie <licenseLink>Creative Commons</licenseLink>
 share-title = Pomôžte nám nájsť ďalších, ktorí prispejú svojím hlasom!
+back-top = Návrat hore
 
 ## Home Page
 
@@ -78,6 +79,7 @@ faq-firefox-q = Bude prevod reči na text prostredníctvom Common Voice niekedy 
 faq-firefox-a = Common Voice má neobmedzený potenciál a my skúmame hlasové rozhranie v mnohých produktoch Mozilly, vrátane Firefoxu.
 faq-hours-q = Prečo je 10 000 hodín cieľom pre záznam zvuku?
 faq-source-q = Odkiaľ pochádza zdrojový text?
+faq-source-a2 = Zdrojové vety si môžete pozrieť v <dataLink>tomto priečinku na GitHube</dataLink>.
 
 ## Profile
 
@@ -91,6 +93,7 @@ notfound-content = Obávam sa, že neviem čo hľadáte.
 
 privacy-title = Zásady ochrany súkromia projektu Common Voice
 privacy-effective = Platné od { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
+privacy-policy = Keď Mozilla (to sme my) získava od vás informácie, riadi sa <policy>zásadami ochrany súkromia</policy>.
 privacy-data-demographic = <name>Demografické údaje.</name> Dobrovoľne nám môžete odoslať informácie, napríklad váš prízvuk, vek a pohlavie. Toto pomáha nám a ostatným výskumníkom zlepšovať a tvoriť technológie a nástroje pre prevod reči na text.
 privacy-more = <more>Ďalšie informácie</more>
 
@@ -105,26 +108,40 @@ terms-privacy-content = Naše <privacyLink>zásady ochrany súkromia</privacyLin
 terms-contributions-title = Vaše príspevky a vzdanie sa práv
 terms-contributions-content = Odoslaním vašich nahrávok sa vzdávate všetkých autorských práv a súvisiacich práv, ktoré môžete mať, a súhlasíte so zverejnením nahrávok v rámci licencie <licenseLink>CC-0</licenseLink>. To znamená, že súhlasíte so vzdaním sa všetkých práv ku nahrávkam a to celosvetovo, podľa autorského zákona a zákona o databázach, vrátane morálnych práv a práv na uvedenie zdroja a všetkých pridružených a súvisiacich práv.
 terms-communications-title = Komunikácia
+terms-communications-content = Ak sa prihlásite na odber našich noviniek alebo si v súvislosti s projektom Common Voice vytvoríte účet, môžete od nás dostávať e-maily súvisiace s vaším účtom (napríklad aktualizáciu podmienok, zásad ochrany súkromia či bezpečnostné informácie).
 terms-general-title = Všeobecné
 
 ## Data
 
+data-download-button = Prevziať údaje Common Voice
 data-download-license = Licencia: <licenseLink>CC-0</licenseLink>
 data-download-modal = Chystáte sa zahájiť preberanie <size>{ $size } GB</size>, chcete pokračovať?
+data-subtitle = Vytvárame otvorený a verejne dostupný hlasový dataset, ktorý môže ktokoľvek použiť na tréning aplikácií využívajúcich hlas.
+data-get-started = <speechBlogLink>Začíname s rozpoznávaním reči</speechBlogLink>
 data-other-title = Ďalšie hlasové datasety…
-data-other-goto = Prejdite na { $name }
+data-other-goto = Prejsť na { $name }
 data-other-download = Prevziať údaje
+data-bundle-button = Prevziať balík datasetov
+data-bundle-description = Common Voice a údaje všetkých ostatných hlasových datasetov vyššie.
 license = Licencia: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
 
 record-platform-not-supported = Ospravedlňujeme sa, no vaša platforma zatiaľ nie je podporovaná.
+record-platform-not-supported-desktop = Na počítačoch si môžete prevziať najnovšie:
 record-platform-not-supported-ios = Používatelia <bold>iOS</bold> si môžu prevziať našu bezplatnú aplikáciu:
 record-must-allow-microphone = Musíte povoliť prístup ku mikrofónu.
 record-error-too-short = Vaša nahrávka bola príliš krátka.
 record-error-too-long = Vaša nahrávka bola príliš dlhá.
 record-error-too-quiet = Vaša nahrávka bola príliš tichá.
+record-submit-success = Odoslanie bolo úspešné! Chcete nahrávať znova?
+record-help = Prosím, ťuknite na tlačidlo nahrávania a potom prečítajte vetu vyššie.
+record-cancel = Zrušiť opakovaný záznam
 review-terms = Používaním Common Voice súhlasíte s našimi <termsLink>podmienkami</termsLink> a <privacyLink>zásadami ochrany súkromia</privacyLink>
+review-aborted = Nahrávanie bolo zrušené. Chcete odstrániť vaše nahrávky?
+review-submit-title = Kontrola a odoslanie
+review-submit-msg = Ďakujeme za nahrávky!<lineBreak></lineBreak>Teraz ich skontrolujte a odošlite.
+review-recording = Kontrola
 review-rerecord = Nahrať znova
 review-cancel = Zrušiť odoslanie
 
