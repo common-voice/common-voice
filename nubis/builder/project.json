@@ -5,8 +5,8 @@
     ],
     "project_description": "Responsive webapp, Android and iOS apps for collecting public voice data.",
     "project_name": "voice",
-    "source_ami_project_version": "v2.1.0",
-    "project_version": "v2.1.0_{{env `GIT_COMMIT_SHA`}}",
+    "source_ami_project_version": "v2.2.0",
+    "project_version": "v2.2.0_{{env `GIT_COMMIT_SHA`}}",
     "source_ami_project_name": "nubis-base",
     "ami_regions": ""
   }

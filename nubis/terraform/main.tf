@@ -1,5 +1,5 @@
 module "worker" {
-  source        = "github.com/nubisproject/nubis-terraform//worker?ref=v2.1.0"
+  source        = "github.com/nubisproject/nubis-terraform//worker?ref=v2.2.0"
   region        = "${var.region}"
   environment   = "${var.environment}"
   account       = "${var.account}"
@@ -24,7 +24,7 @@ module "worker" {
 }
 
 module "load_balancer" {
-  source       = "github.com/nubisproject/nubis-terraform//load_balancer?ref=v2.1.0"
+  source       = "github.com/nubisproject/nubis-terraform//load_balancer?ref=v2.2.0"
   region       = "${var.region}"
   environment  = "${var.environment}"
   account      = "${var.account}"
@@ -38,7 +38,7 @@ module "load_balancer" {
 }
 
 module "dns" {
-  source       = "github.com/nubisproject/nubis-terraform//dns?ref=v2.1.0"
+  source       = "github.com/nubisproject/nubis-terraform//dns?ref=v2.2.0"
   region       = "${var.region}"
   environment  = "${var.environment}"
   account      = "${var.account}"
@@ -58,7 +58,7 @@ resource "aws_db_parameter_group" "slow_query_enabled" {
 }
 
 module "database" {
-  source                 = "github.com/nubisproject/nubis-terraform//database?ref=v2.1.0"
+  source                 = "github.com/nubisproject/nubis-terraform//database?ref=v2.2.0"
   region                 = "${var.region}"
   environment            = "${var.environment}"
   account                = "${var.account}"
@@ -71,7 +71,7 @@ module "database" {
 }
 
 module "clips" {
-  source       = "github.com/nubisproject/nubis-terraform//bucket?ref=v2.1.0"
+  source       = "github.com/nubisproject/nubis-terraform//bucket?ref=v2.2.0"
   region       = "${var.region}"
   environment  = "${var.environment}"
   account      = "${var.account}"

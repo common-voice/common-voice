@@ -1,6 +1,6 @@
 # Discover Consul settings
 module "consul" {
-  source       = "github.com/nubisproject/nubis-terraform//consul?ref=v2.1.0"
+  source       = "github.com/nubisproject/nubis-terraform//consul?ref=v2.2.0"
   region       = "${var.region}"
   environment  = "${var.environment}"
   account      = "${var.account}"
