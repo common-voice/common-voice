@@ -1,7 +1,14 @@
+## General
+
+yes-receive-emails = Паллах, эл. пуштӑ килтер. Манӑн Common Voice Project аталанни пирки пӗлес килет.
+email-input =
+    .label = Эл. пуштӑ
+
 ## Layout
 
 speak = Кала
 datasets = Пӗлем пуххисем
+languages = Чӗлхесем
 profile = Профиль
 help = Пулӑшу
 contact = Ҫыхӑну
@@ -29,7 +36,8 @@ help-us-explain = Пусса калаттар, аялти пуплерӗш (пр
 status-title = Проектӑн пӗтӗмӗшле статусӗ: Мӗн чухлӗ туса ҫитертӗмӗр!
 status-contribute = Сассуна парнелесе хутшӑн
 status-loading = Тиенет...
-status-hours = { $hours ->
+status-hours =
+    { $hours ->
         [one] Хальлӗхе тӗрӗслени пӗр сехет
        *[other] Хальлӗхе тӗрӗслени { $hours } сехет
     }
@@ -40,11 +48,8 @@ status-more-soon = Ытти чӗлхеллӗ те пулӗ!
 
 ## ProfileForm
 
-email-input =
-    .label = Эл. пуштӑ
 profile-form-username =
     .label = Ят
-yes-receive-emails = Паллах, эл. пуштӑ килтер. Манӑн Common Voice Project аталанни пирки пӗлес килет.
 profile-form-language =
     .label = Чӗлхе
 profile-form-more-languages = Ытти чӗлхеллӗ те пулӗ!
@@ -119,7 +124,15 @@ review-cancel = Ҫырса илнине тиеме пӑрахӑҫла
 ## Download Modal
 
 
-## Contact
+## Contact Modal
 
 contact-form-name =
     .label = Ят
+
+## Request Language Modal
+
+request-language-form-language =
+    .label = Чӗлхе
+
+## Help Translate Modal
+
