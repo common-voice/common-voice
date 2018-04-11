@@ -115,7 +115,7 @@ button {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: color(var(--black) alpha(-60%));
+    background-color: color(var(--black) alpha(60%));
     transition: transform var(--transition-duration-slow) var(--easing);
 }
 

@@ -200,12 +200,13 @@ class Review extends React.Component<Props, State> {
           <Localized id="review-cancel">
             <a href="javascript:void(0)" onClick={this.toggleResetModal} />
           </Localized>
-          <ProgressButton
-            percent={uploading ? progress : 0}
-            disabled={uploading}
-            onClick={this.handleSubmit}
-            text="SUBMIT"
-          />
+          <Localized id="submit-form-action">
+            <ProgressButton
+              percent={uploading ? progress : 0}
+              disabled={uploading}
+              onClick={this.handleSubmit}
+            />
+          </Localized>
         </div>
         <ProfileActions />
       </div>
