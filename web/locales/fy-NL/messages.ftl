@@ -75,6 +75,8 @@ profile-form-age =
     .label = Leeftiid
 profile-form-gender =
     .label = Geslacht
+profile-form-submit-save = Bewarje
+profile-form-submit-saved = Bewarre
 
 ## FAQ
 
