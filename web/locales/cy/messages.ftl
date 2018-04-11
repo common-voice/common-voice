@@ -7,6 +7,7 @@ return-to-cv = Dychwelyd i Common Voice
 email-input =
     .label = E-bost
 submit-form-action = Cyflwyno
+loading = Llwytho…
 
 ## Layout
 
@@ -29,7 +30,7 @@ back-top = Nôl i'r Brig
 home-title = Common Voice yw menter Mozilla i helpu dysgu peiriannau sut mae pobl go-iawn yn siarad.
 home-cta = Siarad a chyfrannu yn fan hyn!
 wall-of-text-start = Mae llais yn naturiol ac yn perthyn i ni i gyd. Dyna pam mae gennym ddiddordeb mawr mewn creu technoleg llais defnyddiol ar gyfer ein peiriannau. Ond er mwyn creu systemau llais, mae angen data llais sylweddol iawn.
-wall-of-text-more-mobile = Nid yw'r data sy'n cael ei ddefnyddio gan gwmnïau mawr ar gael i'r rhan fwyaf o bobl. I ni, mae hynny'n cyfyngu ar ddyfeisgarwch. Felly rydym wedi cychwyn Project Common Voice, project i wneud adnabod lleferydd ar gael i bawb.
+wall-of-text-more-mobile = Nid yw'r data sy'n cael ei ddefnyddio gan gwmnïau mawr ar gael i'r rhan fwyaf o bobl. I ni, mae hynny'n cyfyngu ar ddyfeisgarwch. Felly rydym wedi cychwyn Project Common Voice, project i wneud adnabod llais ar gael i bawb.
 wall-of-text-more-desktop =
     Nawr gallwch gyfrannu eich llais i'n cynorthwyo i adeiladu cronfa ddata llais fydd pawb yn gallu ei ddefnyddio i greu apiau dyfeisgar ar gyfer dyfeisiadau a'r we.<lineBreak></lineBreak>
     Darllenwch frawddeg fel bod y peiriant yn gallu dysgu sut mae pobl go_iawn yn siarad. Adolygwch waith cyfranwyr eraill er mwyn gwella ei ansawdd. Mae mor syml â hynny!
@@ -43,7 +44,6 @@ request-language-button = Cais am Iaith
 
 status-title = Statws cyffredinol y project: gweld pa mor bell rydym wedi cyrraedd!
 status-contribute = Cyfrannu eich Llais
-loading = Llwytho…
 status-hours =
     { $hours ->
         [one] Un awr wedi ei ddilysu hyd yma!
@@ -69,19 +69,21 @@ profile-form-age =
     .label = Oed
 profile-form-gender =
     .label = Rhyw
+profile-form-submit-save = Cadw
+profile-form-submit-saved = Wedi'u Cadw
 
 ## FAQ
 
 faq-title = Cwestiynau Cyffredin
 faq-what-q = Beth yw Common Voice?
-faq-what-a = Gall technoleg adnabod lleferydd chwyldroi y ffordd rydym yn rhyngweithio gyda pheiriannau, ond mae'r systemau sydd ar gael ar hyn o bryd yn ddrud a masnachol. Mae Common Voice yn broject  i wneud technoleg adnabod lleferydd ar gael yn hawdd i bawb. Mae pobl yn cyfrannu eu llais i gronfa ddata anferthol sy'n caniatáu i unrhyw un hyfforddi apiau sy'n gallu ymateb i las yn sydyn a hawdd. Bydd yr holl ddata llais ar gael i ddatblygwyr.
+faq-what-a = Gall technoleg adnabod lleferydd chwyldroi y ffordd rydym yn rhyngweithio gyda pheiriannau, ond mae'r systemau sydd ar gael ar hyn o bryd yn ddrud a masnachol. Mae Common Voice yn broject  i wneud technoleg adnabod llais ar gael yn hawdd i bawb. Mae pobl yn cyfrannu eu llais i gronfa ddata anferthol sy'n caniatáu i unrhyw un hyfforddi apiau sy'n gallu ymateb i las yn sydyn a hawdd. Bydd yr holl ddata llais ar gael i ddatblygwyr.
 faq-important-q = Pam mae hwn yn bwysig?
 faq-important-a = Mae llais yn naturiol, mae'n perthyn i bawb. Dyma'r ffordd hawddaf a mwyaf naturiol i gyfathrebu. Rydym eisiau i ddatblygwr greu pethau anhygoel, o gyfieithwyr ar y pryd i gynorthwywyr gweinyddol sydd á llais. Ond ar hyn o bryd, does dim digon o ddata cyhoeddus ar gael i adeiladu'r mathau yma o apiau. Rydym yn gobeithio y bydd Common Voice yn rhoi i ddatblygwyr yr hyn sydd ei angen i arloesi.
 faq-get-q = Sut fedra i gael gafael ar ddata Common Voice?
 faq-get-a = Mae'r set ddata ar gael ar hyn o bryd ar ein <downloadLink>tudalen llwytho i lawr</downloadLink> o dan drwydded <licenseLink>CC-0</licenseLink>.
 faq-mission-q = Pam mae Common Voice yn rhan o genhadaeth Mozilla?
-faq-mission-a = Mae Mozilla'n ymroddedig i gadw'r we yn agored ac ar gael i bawb. I wneud hynny mae angen i ni ymrymuso crewyr y we drwy brojectau fel Common Voice. Wrth i dechnoleg lleferydd gynyddu tu hwnt i raglenni arbenigol, mae'n rhaid iddyn nhw ddiwallu pob defnyddiwr cystal a'i gilydd. Rydym yn gweld yr angen i gynnwys rhagor o ieithoedd, acenion a demograffigau wrth adeiladu a phrofi technolegau lleferydd. Mae Mozilla eisiau gweld rhyngrwyd iach a bywiog. Mae hynny'n golygu rhoi mynediad i grewyr newydd ddata lleferydd fel bod modd iddyn nhw adeiladu projectau newydd, anhygoel. Bydd Common Voice yn adnodd cyhoeddus fydd yn cynorthwyo timau Mozilla a datblygwyr o amgylch y byd.
-faq-native-q = Rwy'n siaradwr { $lang } ail iaith  ac rwy'n siarad gydag acen, ydych chi dal eisiau fy llais?
+faq-mission-a = Mae Mozilla'n ymroddedig i gadw'r we yn agored ac ar gael i bawb. I wneud hynny mae angen i ni ymrymuso crewyr y we drwy brojectau fel Common Voice. Wrth i dechnoleg llais gynyddu tu hwnt i raglenni arbenigol, mae'n rhaid iddyn nhw ddiwallu pob defnyddiwr cystal a'i gilydd. Rydym yn gweld yr angen i gynnwys rhagor o ieithoedd, acenion a demograffigau wrth adeiladu a phrofi technolegau lleferydd. Mae Mozilla eisiau gweld rhyngrwyd iach a bywiog. Mae hynny'n golygu rhoi mynediad i grewyr newydd ddata lleferydd fel bod modd iddyn nhw adeiladu projectau newydd, anhygoel. Bydd Common Voice yn adnodd cyhoeddus fydd yn cynorthwyo timau Mozilla a datblygwyr o amgylch y byd.
+faq-native-q = Rwy'n siaradwr { $lang } ail iaith ac rwy'n siarad gydag acen, ydych chi dal eisiau fy llais?
 faq-native-a = Ydyn, yn bendant rydym eisiau eich llais! Rhan o amcan Common Voice yw i gasglu gymaint o wahanol acenion ag y bo modd, fel bod cyfrifiaduron yn gallu deall yn well <bold>pawb</bold> pan mae nhw'n siarad.
 faq-firefox-q = A fydd lleferydd i destun, drwy Common Voice fyth ddod yn rhan o Firefox?
 faq-firefox-a = Mae gan Common Voice botensial di-ben-draw ac rydym yn bendant yn archwilio rhyngwynebau lleferydd o fewn nifer o gynnyrch Mozilla, gan gynnwys Firefox.
