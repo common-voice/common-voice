@@ -74,6 +74,10 @@ header {
     }
 
     &:hover {
+        &::before {
+            background-image: url("/img/globe_black.svg");
+        }
+
         &::after {
             background-position-x: 15px;
             transform: rotate(180deg);
