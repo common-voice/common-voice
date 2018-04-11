@@ -7,6 +7,7 @@ return-to-cv = Zurück zu Common Voice
 email-input =
     .label = E-Mail-Adresse
 submit-form-action = Absenden
+loading = Wird geladen…
 
 ## Layout
 
@@ -41,7 +42,6 @@ request-language-button = Anfrage schicken
 
 status-title = Projektstatus-Übersicht: so weit haben wir es schon geschafft!
 status-contribute = Mit Ihrer Stimme beitragen
-loading = Wird geladen…
 status-hours =
     { $hours ->
         [one] Bereits eine validierte Stunde!
@@ -65,6 +65,8 @@ profile-form-age =
     .label = Alter
 profile-form-gender =
     .label = Geschlecht
+profile-form-submit-save = Speichern
+profile-form-submit-saved = Gespeichert
 
 ## FAQ
 
