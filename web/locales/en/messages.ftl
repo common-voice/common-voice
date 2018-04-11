@@ -6,6 +6,7 @@ return-to-cv = Return to Common Voice
 email-input =
     .label = Email
 submit-form-action = Submit
+loading = Loading…
 
 ## Layout
 speak = Speak
@@ -42,13 +43,13 @@ wall-of-text-more-desktop =
 show-wall-of-text = Read More
 help-us-title = Help us validate sentences!
 help-us-explain = Press play, listen & tell us: did they accurately speak the sentence below?
+
 request-language-text = Don't see your language on Common Voice yet?
 request-language-button = Request a Language
 
 ## ProjectStatus
 status-title = Overall project status: see how far we’ve come!
 status-contribute = Contribute Your Voice
-status-loading = Loading…
 status-hours =
     { $hours ->
         [one] One validated hour so far!

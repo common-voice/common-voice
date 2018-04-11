@@ -25,7 +25,7 @@ help-us-title = Ajudeu-nos a validar frases!
 ## ProjectStatus
 
 status-contribute = Col·laboreu amb la vostra veu
-status-loading = S'està carregant…
+loading = S'està carregant…
 status-hours = { $hours ->
         [one] Ja s'ha validat { $hours } hora!
        *[other] Ja s'han validat { $hours } hores!

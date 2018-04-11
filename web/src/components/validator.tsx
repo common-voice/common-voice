@@ -1,3 +1,4 @@
+const { Localized } = require('fluent-react');
 import * as React from 'react';
 import { connect } from 'react-redux';
 import StateTree from '../stores/tree';
@@ -30,7 +31,7 @@ export default connect<PropsFromState, PropsFromDispatch>(
     <ListenBox
       src={clip ? clip.audioSrc : ''}
       sentence={
-        clip ? clip.sentence : loadError ? LOAD_ERROR_MESSAGE : LOADING_MESSAGE
+        clip ? clip.sentence : loadError ? LOAD_ERROR_MESSAGE : <Localized id="loading"><span/></Localized>
       }
       onVote={vote}
       vote

@@ -38,7 +38,7 @@ request-language-button = Телнең өстәлүен сорау
 
 status-title = Проектың гомуми статусы: безнең нәрсәгә ирешкәнебезне күрегез!
 status-contribute = Тавышыгызны иганә итегез
-status-loading = Йөкләнелә...
+loading = Йөкләнелә...
 status-hours =
     { $hours ->
         [one] Әлегә бер сәгатьлек язма тикшерелде!

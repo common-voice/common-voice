@@ -40,7 +40,7 @@ request-language-button = 请求新语言
 
 status-title = 总体项目状态：看看我们已经走了多远！
 status-contribute = 贡献您的声音
-status-loading = 加载中…
+loading = 加载中…
 status-hours =
     { $hours ->
        *[other] 目前已验证 { $hours } 小时！

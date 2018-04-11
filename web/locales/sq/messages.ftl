@@ -38,7 +38,7 @@ request-language-button = Kërkoni një Gjuhë
 
 status-title = Gjendje e projektit në përgjithësi: shihni deri ku kemi mbërritur!
 status-contribute = Kontribuoni Me Zërin Tuaj
-status-loading = Po ngarkohet…
+loading = Po ngarkohet…
 status-hours =
     { $hours ->
         [one] Një orë e vlerësuar deri këtu!

@@ -39,7 +39,7 @@ request-language-button = Запросить язык
 
 status-title = Общий статус проекта: посмотрите, как далеко мы ушли!
 status-contribute = Запишите свой голос
-status-loading = Загрузка…
+loading = Загрузка…
 status-hours =
     { $hours ->
         [one] Пока проверен { $hours } час!

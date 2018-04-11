@@ -38,7 +38,7 @@ request-language-button = 要求新語言
 
 status-title = 專案狀態：看看我們做到哪兒了！
 status-contribute = 貢獻您的聲音
-status-loading = 載入中…
+loading = 載入中…
 status-hours =
     { $hours ->
        *[other] 目前已驗證 { $hours } 小時！

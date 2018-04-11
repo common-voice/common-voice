@@ -43,7 +43,7 @@ request-language-button = Proposer une langue
 
 status-title = État global du projet : découvrez nos progrès !
 status-contribute = Faites don de votre voix
-status-loading = Chargement…
+loading = Chargement…
 status-hours =
     { $hours ->
         [one] Déjà une heure validée !

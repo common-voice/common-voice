@@ -40,7 +40,7 @@ request-language-button = Požiadajte o jazyk
 
 status-title = Celkový stav projektu - pozrite sa, ako ďaleko sme sa už dostali!
 status-contribute = Prispejte svojím hlasom
-status-loading = Načítava sa…
+loading = Načítava sa…
 status-hours =
     { $hours ->
         [one] Zatiaľ je overená jedna hodina!

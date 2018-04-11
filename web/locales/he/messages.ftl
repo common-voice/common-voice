@@ -26,7 +26,7 @@ help-us-explain = עליך ללחוץ על נגינה ולהאזין: האם ה�
 
 status-title = מצב המיזם הכולל: כאן ניתן לראות כמה התקדמנו!
 status-contribute = תרמו את הקול שלכם
-status-loading = בטעינה…
+loading = בטעינה…
 status-hours = { $hours ->
         [one] שעה אחת עברה אימות עד כה!
         [2] שעתיים עברו אימות עד כה!

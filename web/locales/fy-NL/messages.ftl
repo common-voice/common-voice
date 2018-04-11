@@ -51,7 +51,7 @@ request-language-button = In taal oanfreegje
 
 status-title = Projektsteat: sjoch hoe fier wy't al binne!
 status-contribute = Draach by mei jo stim
-status-loading = Lade…
+loading = Lade…
 status-hours =
     { $hours ->
         [one] Op dit stuit ien oer falidearre!

@@ -34,7 +34,7 @@ request-language-button = Ajukan Bahasa
 
 status-title = Status proyek keseluruhan: lihat seberapa jauh kami telah tiba!
 status-contribute = Kontribusikan Suara Anda
-status-loading = Memuat…
+loading = Memuat…
 status-hours =
     { $hours ->
        *[other] { $hours } jam divalidasi sejauh ini!

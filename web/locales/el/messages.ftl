@@ -17,7 +17,7 @@ show-wall-of-text = Διαβάστε περισσότερα
 
 ## ProjectStatus
 
-status-loading = Φόρτωση...
+loading = Φόρτωση...
 status-more-soon = Σύντομα σε περισσότερες γλώσσες!
 
 ## ProfileForm

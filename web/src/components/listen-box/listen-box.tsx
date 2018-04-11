@@ -6,7 +6,7 @@ const VOTE_NO_PLAY_MS = 3000; // Threshold when to allow voting no
 
 interface Props {
   src?: string;
-  sentence?: string;
+  sentence?: string | React.ReactNode;
   vote?: boolean;
   onVote?(valid: boolean): void;
   onDelete?(): void;

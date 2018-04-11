@@ -40,7 +40,7 @@ request-language-button = Skicka en förfrågan
 
 status-title = Övergripande projektstatus: se hur långt vi har kommit!
 status-contribute = Bidra med din röst
-status-loading = Laddar…
+loading = Laddar…
 status-hours =
     { $hours ->
         [one] En validerad timme hittills!

@@ -41,7 +41,7 @@ request-language-button = Poproś o dodanie języka
 
 status-title = Stan projektu: zobacz, co osiągnęliśmy!
 status-contribute = Nagraj swój głos!
-status-loading = Wczytywanie…
+loading = Wczytywanie…
 status-hours =
     { $hours ->
         [one] Jedna godzina zweryfikowanych nagrań!

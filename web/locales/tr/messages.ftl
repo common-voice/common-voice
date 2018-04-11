@@ -37,7 +37,7 @@ request-language-button = Yeni dil iste
 
 status-title = Projenin genel durumu: Kat ettiğimiz yolu görün!
 status-contribute = Sesinle katkı sağla
-status-loading = Yükleniyor…
+loading = Yükleniyor…
 status-hours =
     { $hours ->
        *[one] Şu ana kadar { $hours } saatlik veri doğrulandı!

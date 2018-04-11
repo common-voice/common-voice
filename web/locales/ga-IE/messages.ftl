@@ -26,7 +26,7 @@ show-wall-of-text = Tuilleadh Eolais
 ## ProjectStatus
 
 status-contribute = Bronn do ghuth
-status-loading = Á lódáil...
+loading = Á lódáil...
 
 ## ProfileForm
 

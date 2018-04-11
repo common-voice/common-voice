@@ -23,7 +23,7 @@ show-wall-of-text = อ่านเพิ่มเติม
 ## ProjectStatus
 
 status-contribute = บริจาคเสียงของคุณ
-status-loading = กำลังโหลด…
+loading = กำลังโหลด…
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = เป้าหมายถัดไป: { $goal }

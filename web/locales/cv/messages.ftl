@@ -35,7 +35,7 @@ help-us-explain = Пусса калаттар, аялти пуплерӗш (пр
 
 status-title = Проектӑн пӗтӗмӗшле статусӗ: Мӗн чухлӗ туса ҫитертӗмӗр!
 status-contribute = Сассуна парнелесе хутшӑн
-status-loading = Тиенет...
+loading = Тиенет...
 status-hours =
     { $hours ->
         [one] Хальлӗхе тӗрӗслени пӗр сехет

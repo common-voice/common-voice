@@ -16,7 +16,7 @@ show-wall-of-text = Les meir
 ## ProjectStatus
 
 status-contribute = Bidra med di røyst
-status-loading = Lastar…
+loading = Lastar…
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Neste mål: { $goal }

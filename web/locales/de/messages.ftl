@@ -41,7 +41,7 @@ request-language-button = Anfrage schicken
 
 status-title = Projektstatus-Übersicht: so weit haben wir es schon geschafft!
 status-contribute = Mit Ihrer Stimme beitragen
-status-loading = Wird geladen…
+loading = Wird geladen…
 status-hours =
     { $hours ->
         [one] Bereits eine validierte Stunde!

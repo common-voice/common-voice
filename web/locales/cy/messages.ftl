@@ -43,7 +43,7 @@ request-language-button = Cais am Iaith
 
 status-title = Statws cyffredinol y project: gweld pa mor bell rydym wedi cyrraedd!
 status-contribute = Cyfrannu eich Llais
-status-loading = Llwytho…
+loading = Llwytho…
 status-hours =
     { $hours ->
         [one] Un awr wedi ei ddilysu hyd yma!
