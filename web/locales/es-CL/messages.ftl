@@ -22,6 +22,7 @@ cookies = Cookies
 faq = Preguntas frecuentes
 content-license-text = Contenido disponible a través de una <licenseLink>Licencia Creative Commons</licenseLink>
 share-title = ¡Ayudanos a llegar a más personas que quieran donar su voz!
+back-top = Volver al inicio
 
 ## Home Page
 
