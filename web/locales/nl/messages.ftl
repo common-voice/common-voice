@@ -65,6 +65,8 @@ profile-form-age =
     .label = Leeftijd
 profile-form-gender =
     .label = Geslacht
+profile-form-submit-save = Opslaan
+profile-form-submit-saved = Opgeslagen
 
 ## FAQ
 
