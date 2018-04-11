@@ -61,6 +61,8 @@ profile-form-age =
     .label = 年齡
 profile-form-gender =
     .label = 性別
+profile-form-submit-save = 儲存
+profile-form-submit-saved = 已儲存
 
 ## FAQ
 
