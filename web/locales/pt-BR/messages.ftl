@@ -65,6 +65,8 @@ profile-form-age =
     .label = Idade
 profile-form-gender =
     .label = Gênero
+profile-form-submit-save = Salvar
+profile-form-submit-saved = Salvo
 
 ## FAQ
 
