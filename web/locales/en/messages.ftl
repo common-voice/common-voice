@@ -71,6 +71,8 @@ profile-form-age =
     .label = Age
 profile-form-gender =
     .label = Gender
+profile-form-submit-save = Save
+profile-form-submit-saved = Saved
 
 ## FAQ
 faq-title = Frequently Asked Questions

@@ -195,9 +195,10 @@ class ProfileForm extends React.Component<Props, State> {
           </Localized>
 
           <div className="buttons">
-            <Button type="submit" outline={!isModified}>
-              {isModified ? 'SAVE' : 'SAVED'}
-            </Button>
+            <Localized
+              id={'profile-form-submit-' + (isModified ? 'save' : 'saved')}>
+              <Button type="submit" outline={!isModified} />
+            </Localized>
           </div>
         </form>
       </div>
