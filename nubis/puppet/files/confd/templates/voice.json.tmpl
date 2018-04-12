@@ -13,7 +13,7 @@
   "BUCKET_LOCATION": "{{ if exists "/config/Bucket/Clips/Region" }}{{ getv "/config/Bucket/Clips/Region" }}{{ end }}",
   "ENVIRONMENT": "{{ if exists "/config/Environment" }}{{ getv "/config/Environment" }}{{ end }}",
   "RELEASE_VERSION": "{{ if exists "/config/Version" }}{{ getv "/config/Version" }}{{ end }}",
-  "SECRET": "{{ if exists "/config/Secret" }}{{ js ( getv "/config/Secret" )}}{{ end }}",
+  "SECRET": "{{ if exists "/config/Secret" }}{{ ( replace  ( getv "/config/Secret" ) "\"" "\\\"" -1 )}}{{ end }}",
   "ADMIN_EMAILS": "{{ if exists "/config/Admin-Emails" }}{{ getv "/config/Admin-Emails" }}{{ end }}",
   "AUTH0": {
     "DOMAIN": "{{ if exists "/config/Auth0/Domain" }}{{ getv "/config/Auth0/Domain" }}{{ end }}",
