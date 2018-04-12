@@ -14,6 +14,8 @@ import {
 } from './lib/utility';
 import { importSentences } from './lib/model/db/import-sentences';
 import { getConfig } from './config-helper';
+import authRouter from './auth-router';
+import { router as adminRouter } from './admin';
 
 const CLIENT_PATH = '../web';
 
@@ -34,7 +36,6 @@ export default class Server {
   api: API;
   logger: Logger;
   isLeader: boolean;
-  heartbeat: any;
 
   constructor() {
     this.model = new Model();
@@ -49,7 +50,9 @@ export default class Server {
 
     const app = (this.app = express());
 
+    app.use(authRouter);
     app.use('/api/v1', this.api.getRouter());
+    app.use(adminRouter);
 
     const staticOptions = {
       setHeaders: (response: express.Response) => {
@@ -150,7 +153,6 @@ export default class Server {
    * Kill the http server if it's running.
    */
   kill(): void {
-    clearInterval(this.heartbeat);
     if (this.server) {
       this.server.close();
       this.server = null;
@@ -180,13 +182,6 @@ export default class Server {
     }
   }
 
-  startHeartbeat(): void {
-    clearInterval(this.heartbeat);
-    this.heartbeat = setInterval(() => {
-      this.model.printMetrics();
-    }, 30 * 60 * 1000); // 30 minutes
-  }
-
   /**
    * Start up everything.
    */
@@ -203,8 +198,6 @@ export default class Server {
     if (isLeader) {
       await this.performMaintenance(options.doImport);
     }
-
-    this.startHeartbeat();
   }
 
   /**

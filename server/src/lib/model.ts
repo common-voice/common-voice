@@ -64,31 +64,6 @@ export default class Model {
     return this.sentencesCaches[user ? user.bucket : 'train'].take(count);
   }
 
-  private print(...args: any[]) {
-    args.unshift('MODEL --');
-    console.log.apply(console, args);
-  }
-
-  async printMetrics() {
-    const totalUserClients = await this.db.getClientCount();
-    const listeners = await this.db.getListenerCount();
-    const submitters = await this.db.getSubmitterCount();
-
-    const totalClips = await this.db.getClipCount();
-    const unverified = totalClips - (await this.db.getValidatedClipsCount());
-    const votes = await this.db.getVoteCount();
-
-    this.print(totalUserClients, ' total user clients');
-    this.print((listeners / totalUserClients).toFixed(2), '% users who listen');
-    this.print(
-      (submitters / totalUserClients).toFixed(2),
-      '% users who submit'
-    );
-    this.print(totalClips, ' total clips');
-    this.print(votes, ' total votes');
-    this.print(unverified, ' unverified clips');
-  }
-
   /**
    * Update current user
    */

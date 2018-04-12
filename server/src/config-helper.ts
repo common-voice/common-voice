@@ -16,7 +16,14 @@ export type CommonVoiceConfig = {
   BUCKET_LOCATION: string;
   ENVIRONMENT: string;
   RELEASE_VERSION?: string;
+  SECRET: string;
   S3_CONFIG: S3.Types.ClientConfiguration;
+  ADMIN_EMAILS: string;
+  AUTH0: {
+    DOMAIN: string;
+    CLIENT_ID: string;
+    CLIENT_SECRET: string;
+  };
 };
 
 const DEFAULTS: CommonVoiceConfig = {
@@ -34,8 +41,15 @@ const DEFAULTS: CommonVoiceConfig = {
   BUCKET_NAME: 'common-voice-corpus',
   BUCKET_LOCATION: '',
   ENVIRONMENT: 'default',
+  SECRET: null,
+  ADMIN_EMAILS: '[]', // array of admin emails, as JSON
   S3_CONFIG: {
     signatureVersion: 'v4',
+  },
+  AUTH0: {
+    DOMAIN: '',
+    CLIENT_ID: '',
+    CLIENT_SECRET: '',
   },
 };
 
@@ -63,5 +77,12 @@ export function getConfig(): CommonVoiceConfig {
   } catch (err) {
     console.log('could not load config.json, using defaults');
   }
-  return (loadedConfig = { ...DEFAULTS, ...config });
+  loadedConfig = { ...DEFAULTS, ...config };
+
+  if (!loadedConfig.SECRET) {
+    console.error('SECRET needs to be set');
+    process.exit();
+  }
+
+  return loadedConfig;
 }
