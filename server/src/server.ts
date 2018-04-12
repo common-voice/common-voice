@@ -15,7 +15,7 @@ import {
 import { importSentences } from './lib/model/db/import-sentences';
 import { getConfig } from './config-helper';
 
-const CLIENT_PATH = '../../web';
+const CLIENT_PATH = '../web';
 
 const CSP_HEADER = [
   `default-src 'none'`,
@@ -56,9 +56,9 @@ export default class Server {
         getConfig().PROD && response.set('Content-Security-Policy', CSP_HEADER);
       },
     };
-    app.use(express.static(__dirname + CLIENT_PATH, staticOptions));
+    app.use(express.static(path.join(__dirname, CLIENT_PATH), staticOptions));
 
-    const localesPath = path.join(__dirname + CLIENT_PATH, 'locales');
+    const localesPath = path.join(__dirname, CLIENT_PATH, 'locales');
     const crossLocaleMessages = fs
       .readdirSync(localesPath)
       .reduce((obj: any, locale: string) => {
