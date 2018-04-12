@@ -1,6 +1,7 @@
 @import url('../vars.css');
 
 footer {
+    margin-top: 2rem;
     background-color: var(--black);
 
     & a:hover, & button:hover {
@@ -95,7 +96,7 @@ footer {
     }
 
     & .links {
-        padding-top: 1.5rem;
+        padding-top: 2.5rem;
 
         & a {
             color: var(--green);

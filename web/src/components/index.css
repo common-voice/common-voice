@@ -521,7 +521,6 @@ body:not(.ios) .recording #background-container {
 #content > #privacy-container,
 #content > #profile-container {
     margin-top: var(--standard-margin);
-    padding-bottom: 2rem;
     text-align: left;
 }
 

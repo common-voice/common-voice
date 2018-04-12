@@ -82,9 +82,13 @@
                 }
 
                 & h2 {
-                    margin-bottom: .5rem;
+                    margin-bottom: 2rem;
                     padding-right: var(--standard-margin);
                     font-weight: bold;
+
+                    @media (--md-up) {
+                        margin-bottom: .5rem;
+                    }
                 }
 
                 & button {
