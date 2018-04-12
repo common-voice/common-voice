@@ -14,6 +14,7 @@
   "ENVIRONMENT": "{{ if exists "/config/Environment" }}{{ getv "/config/Environment" }}{{ end }}",
   "RELEASE_VERSION": "{{ if exists "/config/Version" }}{{ getv "/config/Version" }}{{ end }}",
   "SECRET": "{{ if exists "/config/Secret" }}{{ getv "/config/Secret" }}{{ end }}",
+  "ADMIN_EMAILS": "{{ if exists "/config/Admin-Emails" }}{{ getv "/config/Admin-Emails" }}{{ end }}",
   "AUTH0": {
     "DOMAIN": "{{ if exists "/config/Auth0/Domain" }}{{ getv "/config/Auth0/Domain" }}{{ end }}",
     "CLIENT_ID": "{{ if exists "/config/Auth0/Client-ID" }}{{ getv "/config/Auth0/Client-ID" }}{{ end }}",
