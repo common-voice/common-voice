@@ -56,9 +56,11 @@ export default class Server {
         getConfig().PROD && response.set('Content-Security-Policy', CSP_HEADER);
       },
     };
-    app.use(express.static(path.join(__dirname, CLIENT_PATH), staticOptions));
+    const fullClientPath = path.join(__dirname, CLIENT_PATH);
 
-    const localesPath = path.join(__dirname, CLIENT_PATH, 'locales');
+    app.use(express.static(fullClientPath, staticOptions));
+
+    const localesPath = path.join(fullClientPath, 'locales');
     const crossLocaleMessages = fs
       .readdirSync(localesPath)
       .reduce((obj: any, locale: string) => {
@@ -72,10 +74,7 @@ export default class Server {
     app.get('/cross-locale-messages.json', (request, response) => {
       response.json(crossLocaleMessages);
     });
-    app.use(
-      '*',
-      express.static(__dirname + CLIENT_PATH + '/index.html', staticOptions)
-    );
+    app.use('*', express.static(fullClientPath + '/index.html', staticOptions));
 
     app.use(
       (
