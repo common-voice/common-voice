@@ -31,7 +31,15 @@ export default connect<PropsFromState, PropsFromDispatch>(
     <ListenBox
       src={clip ? clip.audioSrc : ''}
       sentence={
-        clip ? clip.sentence : loadError ? LOAD_ERROR_MESSAGE : <Localized id="loading"><span/></Localized>
+        clip ? (
+          clip.sentence
+        ) : loadError ? (
+          LOAD_ERROR_MESSAGE
+        ) : (
+          <Localized id="loading">
+            <span />
+          </Localized>
+        )
       }
       onVote={vote}
       vote

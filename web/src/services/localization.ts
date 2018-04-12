@@ -36,17 +36,13 @@ export const LOCALES = isProduction()
       'sq',
     ];
 
-export async function createMessagesGenerator(api: API, userLocales: string[]) {
-  const currentLocales = negotiateLanguages(userLocales, LOCALES, {
+export function negotiateLocales(locales: string[]) {
+  return negotiateLanguages(locales, LOCALES, {
     defaultLocale: DEFAULT_LOCALE,
   });
+}
 
-  const localeMessages: any = await Promise.all(
-    currentLocales.map(async (locale: string) => [
-      locale,
-      await api.fetchLocale(locale),
-    ])
-  );
+function asMessageContextGenerator(localeMessages: string[][]) {
   return function*(): any {
     for (const [locale, messages] of localeMessages) {
       const cx = new MessageContext(locale);
@@ -54,4 +50,34 @@ export async function createMessagesGenerator(api: API, userLocales: string[]) {
       yield cx;
     }
   };
+}
+
+export async function createCrossLocaleMessagesGenerator(
+  api: API,
+  locale: string
+) {
+  const currentLocales = negotiateLocales([locale, ...navigator.languages]);
+  const localeMessages = Object.entries(await api.fetchCrossLocaleMessages())
+    .filter(([locale]) => currentLocales.includes(locale))
+    .sort(
+      ([locale1], [locale2]) =>
+        currentLocales.indexOf(locale1) > currentLocales.indexOf(locale2)
+          ? 1
+          : -1
+    );
+
+  return asMessageContextGenerator(localeMessages);
+}
+
+export async function createMessagesGenerator(api: API, userLocales: string[]) {
+  const currentLocales = negotiateLocales(userLocales);
+
+  const localeMessages: any = await Promise.all(
+    currentLocales.map(async (locale: string) => [
+      locale,
+      await api.fetchLocaleMessages(locale),
+    ])
+  );
+
+  return asMessageContextGenerator(localeMessages);
 }

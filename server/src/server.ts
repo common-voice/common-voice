@@ -1,4 +1,6 @@
+import * as fs from 'fs';
 import * as http from 'http';
+import * as path from 'path';
 import * as express from 'express';
 import { NextFunction, Request, Response } from 'express';
 import Model from './lib/model';
@@ -55,6 +57,21 @@ export default class Server {
       },
     };
     app.use(express.static(__dirname + CLIENT_PATH, staticOptions));
+
+    const localesPath = path.join(__dirname + CLIENT_PATH, 'locales');
+    const crossLocaleMessages = fs
+      .readdirSync(localesPath)
+      .reduce((obj: any, locale: string) => {
+        const filePath = path.join(localesPath, locale, 'cross-locale.ftl');
+        if (fs.existsSync(filePath)) {
+          obj[locale] = fs.readFileSync(filePath, 'utf-8');
+        }
+        return obj;
+      }, {});
+
+    app.get('/cross-locale-messages.json', (request, response) => {
+      response.json(crossLocaleMessages);
+    });
     app.use(
       '*',
       express.static(__dirname + CLIENT_PATH + '/index.html', staticOptions)

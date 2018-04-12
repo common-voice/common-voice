@@ -8,7 +8,6 @@ import {
   withRouter,
 } from 'react-router';
 import { Router } from 'react-router-dom';
-const { negotiateLanguages } = require('fluent-langneg');
 const { LocalizationProvider } = require('fluent-react');
 import { createBrowserHistory } from 'history';
 import store from '../stores/root';
@@ -25,6 +24,7 @@ import {
   createMessagesGenerator,
   DEFAULT_LOCALE,
   LOCALES,
+  negotiateLocales,
 } from '../services/localization';
 import API from '../services/api';
 import StateTree from '../stores/tree';
@@ -158,9 +158,7 @@ class App extends React.Component<{}, State> {
       document.body.classList.add('mobile-safari');
     }
 
-    this.userLocales = negotiateLanguages(navigator.languages, LOCALES, {
-      defaultLocale: DEFAULT_LOCALE,
-    });
+    this.userLocales = negotiateLocales(navigator.languages);
   }
 
   /**

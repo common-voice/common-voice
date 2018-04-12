@@ -131,10 +131,14 @@ export default class API {
     return this.fetch(CLIP_PATH + '/validated_hours');
   }
 
-  fetchLocale(locale: string): Promise<string> {
+  fetchLocaleMessages(locale: string): Promise<string> {
     return this.fetch(`/locales/${locale}/messages.ftl`, {
       isJSON: false,
     });
+  }
+
+  fetchCrossLocaleMessages(): Promise<string> {
+    return this.fetch(`/cross-locale-messages.json`);
   }
 
   fetchRequestedLanguages(): Promise<string[]> {

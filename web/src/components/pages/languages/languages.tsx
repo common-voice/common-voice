@@ -1,56 +1,15 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
-import ProgressBar from '../../progress-bar/progress-bar';
 import API from '../../../services/api';
 import StateTree from '../../../stores/tree';
 import RequestLanguageModal from '../../request-language-modal/request-language-modal';
 import { Button, Hr } from '../../ui/ui';
-import HelpTranslateModal from './help-translate-modal';
-
+import LocalizationBox from './localization-box';
 const EN_POPULATION = 1522575000;
 
 interface PropsFromState {
   api: API;
 }
-
-interface Locale {
-  code?: string;
-  name: string;
-  population: number;
-}
-
-const LocalizationBox = ({
-  locale,
-  onShowHelpTranslateModal,
-  progress,
-}: {
-  locale: Locale;
-  onShowHelpTranslateModal?: (locale: Locale) => any;
-  progress: number;
-}) => (
-  <li className="language">
-    <div className="info">
-      <h2>{locale.name}</h2>
-      <div className="numbers">
-        <div>
-          <span>Speakers</span>
-          <b>{locale.population.toLocaleString()}</b>
-        </div>
-        <Hr />
-        <div>
-          <span>Total</span>
-          <b>{Math.round(progress * 100)}%</b>
-        </div>
-        <ProgressBar progress={progress} />
-      </div>
-    </div>
-    {onShowHelpTranslateModal && (
-      <button onClick={() => onShowHelpTranslateModal(locale)}>
-        Help Translate >
-      </button>
-    )}
-  </li>
-);
 
 interface Props extends PropsFromState {}
 
@@ -58,7 +17,6 @@ interface State {
   localizations: any;
   selectedLanguageSection: 'in-progress' | 'launched';
   showAll: boolean;
-  showHelpTranslateModalFor: Locale;
   showLanguageRequestModal: boolean;
 }
 
@@ -67,13 +25,17 @@ class LanguagesPage extends React.Component<Props, State> {
     localizations: [],
     selectedLanguageSection: 'in-progress',
     showAll: false,
-    showHelpTranslateModalFor: null,
     showLanguageRequestModal: false,
   };
 
   async componentDidMount() {
+    const { api } = this.props;
+
+    // By fetching those messages early, we reduce the delay for showing the complete LocalizationBox
+    api.fetchCrossLocaleMessages().catch(e => console.error(e));
+
     this.setState({
-      localizations: (await this.props.api.fetchPontoonLanguages()).data.project.localizations
+      localizations: (await api.fetchPontoonLanguages()).data.project.localizations
         .map((localization: any) => ({
           ...localization,
           progress: localization.approvedStrings / localization.totalStrings,
@@ -94,21 +56,11 @@ class LanguagesPage extends React.Component<Props, State> {
       localizations,
       selectedLanguageSection,
       showAll,
-      showHelpTranslateModalFor,
       showLanguageRequestModal,
     } = this.state;
 
     return (
       <div className={'selected-' + selectedLanguageSection}>
-        {showHelpTranslateModalFor && (
-          <HelpTranslateModal
-            locale={this.state.showHelpTranslateModalFor}
-            onRequestClose={() =>
-              this.setState({ showHelpTranslateModalFor: null })
-            }
-          />
-        )}
-
         <br />
 
         <div className="top">
@@ -189,13 +141,7 @@ class LanguagesPage extends React.Component<Props, State> {
             <ul style={{ display: 'flex', flexWrap: 'wrap' }}>
               {(showAll ? localizations : localizations.slice(0, 3)).map(
                 (localization: any, i: number) => (
-                  <LocalizationBox
-                    key={i}
-                    {...localization}
-                    onShowHelpTranslateModal={locale =>
-                      this.setState({ showHelpTranslateModalFor: locale })
-                    }
-                  />
+                  <LocalizationBox key={i} showCTA {...localization} />
                 )
               )}
             </ul>
