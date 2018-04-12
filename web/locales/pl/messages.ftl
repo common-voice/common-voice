@@ -7,6 +7,7 @@ return-to-cv = Wróć do Common Voice
 email-input =
     .label = E-mail
 submit-form-action = Wyślij
+loading = Wczytywanie…
 
 ## Layout
 
@@ -41,7 +42,6 @@ request-language-button = Poproś o dodanie języka
 
 status-title = Stan projektu: zobacz, co osiągnęliśmy!
 status-contribute = Nagraj swój głos!
-loading = Wczytywanie…
 status-hours =
     { $hours ->
         [one] Jedna godzina zweryfikowanych nagrań!
@@ -202,8 +202,8 @@ request-language-success-text = Damy znać, kiedy pojawią się informacje o do
 help-translate-title = Pomóż tłumaczyć na język { $language }
 help-translate-cancel = Wyjdź
 help-translate-text = Przekierujemy Cię do narzędzia tłumaczeniowego Mozilli, <pontoonLink>Pontoon</pontoonLink>, gdzie ten język jest obecnie w trakcie otwartego procesu tłumaczenia.
-language-updates-title = Zapisz się, aby otrzymywać aktualizacje dotyczące języka: { $language }
+language-updates-title = Zapisz się, aby otrzymywać aktualizacje dotyczące tego języka ({ $language })
 help-translate-link = Przejdź do Pontoon
-language-updates-success-title = Pomyślnie wysłano prośbę o aktualizację języka: { $language }.
+language-updates-success-title = Pomyślnie wysłano prośbę o aktualizację tego języka ({ $language }).
 language-updates-success-text = Będziemy w kontakcie i udostępnimy więcej informacji, kiedy będą dostępne.
-language-updates-success-collapsed-title = Zapisano się na aktualizacje dotyczące języka: { $language }
+language-updates-success-collapsed-title = Zapisano się na aktualizacje dotyczące tego języka ({ $language })
