@@ -6,6 +6,7 @@ return-to-cv = Kembali ke Common Voice
 email-input =
     .label = Surel
 submit-form-action = Kirim
+loading = Memuat…
 
 ## Layout
 
@@ -20,6 +21,7 @@ terms = Ketentuan
 cookies = Kuki
 faq = TanyaJawab
 share-title = Bantu kami mencari yang lain untuk mendonasi suara mereka!
+back-top = Kembali ke Atas
 
 ## Home Page
 
@@ -34,7 +36,6 @@ request-language-button = Ajukan Bahasa
 
 status-title = Status proyek keseluruhan: lihat seberapa jauh kami telah tiba!
 status-contribute = Kontribusikan Suara Anda
-loading = Memuat…
 status-hours =
     { $hours ->
        *[other] { $hours } jam divalidasi sejauh ini!
@@ -50,9 +51,14 @@ profile-form-username =
     .label = Nama Pengguna
 profile-form-language =
     .label = Bahasa
+profile-form-age =
+    .label = Usia
+profile-form-submit-save = Simpan
+profile-form-submit-saved = Disimpan
 
 ## FAQ
 
+faq-what-q = Apa itu Common Voice?
 faq-get-a = Saat ini tersedia dataset di <downloadLink>halaman unduh</downloadLink> dibawah lisensi <licenseLink>CC-0</licenseLink>.
 faq-firefox-a = Common Voice memiliki potensi tak terbatas dan kami senantiasa mengeksplorasi antarmuka suara dalam banyak produk Mozilla, termasuk Firefox.
 faq-quality-q = Seberapa tingkat kualitas suara yang dibutuhkan supaya bisa digunakan?
@@ -95,6 +101,7 @@ license = Lisensi: <licenseLink>{ $license }</licenseLink>
 ## Record Page
 
 record-platform-not-supported-desktop = Pada desktop komputer, Anda dapat mengunduh yang paling baru:
+record-platform-not-supported-ios = Pengguna <bold>iOS</bold> dapat mengunduh aplikasi kami secara gratis:
 record-must-allow-microphone = Anda harus mengizinkan akses mikrofon.
 record-error-too-quiet = Rekaman terlalu sunyi.
 record-help = Ketuk untuk merekam, lalu baca kalimat di atas dengan lantang.
