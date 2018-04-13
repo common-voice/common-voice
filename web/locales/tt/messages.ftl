@@ -4,11 +4,16 @@ yes-receive-emails = Әйе, миңа электрон хатлар җибәре
 stayintouch = Mozilla'да без сөйләм технологияләре тирәсендә бер җәмгыять туплау белән мәшгуль. Безнең хәбәрләр, яңа бирелгәннәр чыганаклары, һәм Сезнең бу бирелгәннәрне ничек куллануыгыз хакында аралашып торасыбыз килә.
 privacy-info = Без Сезнең мәгълүмат белән нәзәкатьле эш итәргә вәгъдә бирәбез. Моның турында күбрәк белер өчен безнең <privacyLink>Хосусыйлык хакындагы аңлатмабызны</privacyLink> укыгыз.
 return-to-cv = Common Voice'ка кире кайту
+email-input =
+    .label = Эл. почта
+submit-form-action = Җибәрү
+loading = Йөкләнелә...
 
 ## Layout
 
 speak = Сөйләгез
 datasets = Мәгълүмат тупланмасы
+languages = Телләр
 profile = Профиль
 help = Ярдәм
 contact = Элемтә
@@ -18,6 +23,7 @@ cookies = Кукилар
 faq = Сорау-Җавап
 content-license-text = Контент <licenseLink>Creative Commons лицензиясе</licenseLink> шартлары белән нәшер ителә
 share-title = Күбрәк тавыш яздырылган саен, яхшырак. Бу проект хакында дусларыгызга сөйләгез!
+back-top = Сәхифә башына
 
 ## Home Page
 
@@ -38,7 +44,6 @@ request-language-button = Телнең өстәлүен сорау
 
 status-title = Проектың гомуми статусы: безнең нәрсәгә ирешкәнебезне күрегез!
 status-contribute = Тавышыгызны иганә итегез
-loading = Йөкләнелә...
 status-hours =
     { $hours ->
         [one] Әлегә бер сәгатьлек язма тикшерелде!
@@ -51,8 +56,6 @@ status-more-soon = Башка телләр тиздән өстәләчәк!
 
 ## ProfileForm
 
-email-input =
-    .label = Эл. почта
 profile-form-username =
     .label = Кулланучы исеме
 profile-form-language =
@@ -64,6 +67,8 @@ profile-form-age =
     .label = Яшь
 profile-form-gender =
     .label = Җенес
+profile-form-submit-save = Саклау
+profile-form-submit-saved = Сакланды
 
 ## FAQ
 
@@ -190,7 +195,6 @@ contact-form-name =
 contact-form-message =
     .label = Хәбәр
 contact-required = *кирәк
-submit-form-action = Җибәрү
 
 ## Request Language Modal
 
@@ -200,3 +204,14 @@ request-language-form-language =
     .label = Тел
 request-language-success-title = Телнең өстәлүен сорау тапшырылды, рәхмәт Сезгә!
 request-language-success-text = Сез сораган тел өстәлгәч, күбрәк мәгълүмат белән элемтәгә керербез.
+
+## Help Translate Modal
+
+help-translate-title = { $language } теленә тәрҗемә итәргә ярдәм итегез
+help-translate-cancel = Чыгу
+help-translate-text = Без Сезне Mozilla'ның тәрҗемә итү порталы <pontoonLink>Pontoon</pontoonLink>'га юнәлтәчәкбез. Ул порталда тәрҗемә итү өмәсе бара.
+language-updates-title = { $language } теле өчен яңалыкларга язылу
+help-translate-link = Pontoon'га күчү
+language-updates-success-title = { $language } теле өчен яңартуга гариза җибәрелде, күп рәхмәт.
+language-updates-success-text = Яңа мәгълүмат пәйда булгач, без Сезгә хәбәр итәрбез.
+language-updates-success-collapsed-title = Сез { $language } теле өчен яңалыкларга язылдыгыз
