@@ -1,6 +1,16 @@
+## General
+
+return-to-cv = Gå tilbake til Common Voice
+email-input =
+    .label = E-post
+submit-form-action = Send inn
+loading = Lastar…
+
 ## Layout
 
 speak = Snakk
+datasets = Datamengder
+languages = Språk
 profile = Profil
 help = Hjelp
 contact = Kontakt
@@ -16,7 +26,6 @@ show-wall-of-text = Les meir
 ## ProjectStatus
 
 status-contribute = Bidra med di røyst
-loading = Lastar…
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Neste mål: { $goal }
@@ -24,8 +33,6 @@ status-more-soon = Fleire språk kjem snart!
 
 ## ProfileForm
 
-email-input =
-    .label = E-post
 profile-form-username =
     .label = Brukarnamn
 profile-form-language =
@@ -73,7 +80,7 @@ review-rerecord = Spel inn på nytt
 
 download-no = Nei takk
 
-## Contact
+## Contact Modal
 
 contact-title = Kontaktskjema
 contact-cancel = Avbryt
@@ -82,4 +89,9 @@ contact-form-name =
 contact-form-message =
     .label = Melding
 contact-required = *påkravd
-submit-form-action = Send inn
+
+## Request Language Modal
+
+
+## Help Translate Modal
+
