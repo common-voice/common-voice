@@ -44,6 +44,7 @@ profile-form-age =
 profile-form-gender =
     .label = เพศ
 profile-form-submit-save = บันทึก
+profile-form-submit-saved = บันทึกแล้ว
 
 ## FAQ
 
@@ -103,8 +104,10 @@ contact-required = *จำเป็น
 ## Request Language Modal
 
 request-language-title = ขอเพิ่มภาษา
+request-language-cancel = ออกจากแบบฟอร์ม
 request-language-form-language =
     .label = ภาษา
 
 ## Help Translate Modal
 
+help-translate-cancel = ออก
