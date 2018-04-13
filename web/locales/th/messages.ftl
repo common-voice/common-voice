@@ -3,11 +3,13 @@
 email-input =
     .label = อีเมล
 submit-form-action = ส่ง
+loading = กำลังโหลด…
 
 ## Layout
 
 speak = พูด
 datasets = ชุดข้อมูล
+languages = ภาษา
 profile = โปรไฟล์
 help = ช่วยเหลือ
 contact = ติดต่อ
@@ -23,7 +25,6 @@ show-wall-of-text = อ่านเพิ่มเติม
 ## ProjectStatus
 
 status-contribute = บริจาคเสียงของคุณ
-loading = กำลังโหลด…
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = เป้าหมายถัดไป: { $goal }
@@ -42,6 +43,7 @@ profile-form-age =
     .label = อายุ
 profile-form-gender =
     .label = เพศ
+profile-form-submit-save = บันทึก
 
 ## FAQ
 
