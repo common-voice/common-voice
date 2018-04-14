@@ -1,6 +1,6 @@
 She discovered a key hidden under her desk.
-The police investigated the person behind counterfeit money.
-A new renumeration scheme has been announced by the government.
+The police investigated the person for counterfeit money.
+A new remuneration scheme has been announced by the government.
 The old warehouse is no longer storing any noxious chemicals.
 An economics discussion on TV went off the tangent to politics.
 The island is covered by a thick, billowing white fog.
@@ -20,7 +20,7 @@ A lemon tea could be great to drink this summer.
 Are you going to Kyoto this June?
 Victor and Victoria both enjoy traveling in Turkey.
 Jason opened some old, dusty chests in the attic of his house.
-Sorry for interrupting your lecture, sir Edward.
+Sorry for interrupting your lecture, Sir Edward.
 The police aborted the investigation.
 You could contact us if there is a problem with your admission.
 Seoul has two main airports: one at Incheon and another one at Gimpo.
@@ -30,21 +30,21 @@ It is evident enough that someone was trying to trespass my house.
 The old lady founded this organization thirty years ago.
 Have you prepared for tomorrow's Geography quiz?
 Sorry, but I need to inform Jason that I'll be late.
-As a winner, Carlos give his acceptance speech in front of the stage.
+As a winner, Carlos gives his acceptance speech in front of the stage.
 I booked a hotel in Bali, Indonesia for this holiday.
 Today's task is writing a synopsis of Tata's recently-published novel.
 Today, I am going to explain about Sundry Expenses.
 The government's post went viral in just three days.
 Acceleration is the rate of change in velocity.
 I'm planning to buy some topological maps for my research.
-This building has about ten storeys.
+This building has about ten stories.
 This place is inaccessible by car due to the broken bridge.
-Have you visited that famous batcave, Albert?
+Have you visited that famous bat cave, Albert?
 The reviews they wrote on the Internet were not quite objective.
 She turned into her lachrymosity while visiting her grandparents.
 I'm going to roast some chestnuts.
 Cheap, tawdry bags are being sold everywhere in this market.
-She accuse her friend for cheating in class.
+She accuses her friend of cheating in class.
 This headquarter is accessible to public only during weekends.
 I'd like to order some cinnamon pretzels, please.
 This award is given in three different categories.
@@ -60,14 +60,14 @@ I saw too many advertisements covering this website.
 I think I saw some actors were gathering at a large restaurant.
 I had some problems in activating this coupon.
 That is the weirdest dress I have found in this store.
-She is absent from working in the drug store today.
+She is absent from work at the drug store today.
 She stored a collection of dictionaries and encyclopedia books in this cupboard.
 He has modified a t-rex game for a Christmas event.
 My nephew works as a barista in a small cafe in Edinburgh.
 I really love to watch live streams of developer conferences.
 I was told by my instructor to use a nichrome wire to burn metal solids.
 The candles brightened the dark room near to the garage.
-These home-made sculptures seems interesting for me.
+These home-made sculptures seem interesting to me.
 Eleven scorpions were collected by a hunter.
 At least twelve scripts were found in this chest.
 Thirteen totems were spread across this island.
@@ -81,7 +81,7 @@ The Central-Midlevels escalator system in Hong Kong consists of twenty escalator
 I suspect that Irene erased my backup copy of my report.
 My niece sent me a nice photo of Moscow via email.
 The element antimony is mainly used in flame retardants.
-Parrafin wax is an important ingredient of a candle.
+Paraffin wax is an important ingredient of a candle.
 Are you still using your computer for the research?
 I’ve got an announcement to make.
 What is it, boss?
@@ -97,15 +97,15 @@ Have you finished with the Annual Report, Jane?
 That’s what you get for testing my patience.
 I have a list of candidates to replace you.
 I just opened the link you sent to me.
-The on-line dictionary is much easier and faster than the paper dictionary.
+The online dictionary is much easier and faster than the paper dictionary.
 Check the main features on the website.
-View the reviews, comments and ratings on the website.
-Check the website for viruses, biases and scams.
+View the reviews, comments, and ratings on the website.
+Check the website for viruses, biases, and scams.
 Check whether the website is funded by ads, donations, or others.
 Check the person and/or company who owns this website. 
-Find how useful the information is in the website.
+Find how useful the information is on the website.
 Verify the contents of the website.
-Check the copyright, trademark and patent information contained on the website.
+Check the copyright, trademark, and patent information contained on the website.
 Be careful in handling all the chemicals which are corrosive or irritant.
 The metal ions have to be heated in the flame first.
 It seems that the elderly are having difficulties in using the Internet.
@@ -135,20 +135,20 @@ The college decided to ebb their plan for increasing their parking spaces.
 Sine, cosine and tangent are three basic trigonometric equations you'll need to know.
 I believe that there are lots of spiders gathering in the attic.
 My cat loves to ensconce herself in my new sofa.
-Sometines, I need to clear my browser cache to save more storage space.
-We took a visit into a seed bank last week.
+Sometimes, I need to clear my browser cache to save more storage space.
+We took a visit to a seed bank last week.
 Why not write a petition to the government?
 At first, studying correlation in graphs is tough for me.
 In 1995, the Indian government renamed "Bombay" to "Mumbai".
 The driver's rating is quite low, and I felt suspicious.
 So you haven't heard about the Bezier Tool, right?
 Overhead projectors were popular in the twentieth century.
-Looking the instrumntal verion of this song is really hard.
+Looking the instrumental version of this song is really hard.
 The boss just delayed the deadline for the report.
-Vandalism could relay funny message, too!
+Vandalism could relay some funny messages, too!
 "Nickelodeon" was an early movie machine before registered as a trademark.
 If you just finished speaking this sentence, click the red button below to stop recording.
-Thirty two Turkish tourists took a trip to a turkey farm.
+Thirty-two Turkish tourists took a trip to a turkey farm.
 Seventeen students admired that Sam and Sally are both the smartest in their class.
 There is nothing left behind in Aditya's old house.
 This obfuscated script has been decoded by computers at about 3 months ago.
@@ -160,16 +160,41 @@ I will explain more about the Bezier tool at the next meeting.
 It is a wonderful Monday in London.
 Let's have some tea and biscuits.
 Alfred is currently busy in untangling and fixing a labyrinth of computer cables.
-Next to the Cathedral is a 10-acres public park full with flowers and fountains.
+Next to the Cathedral is a 10-acre public park full of flowers and fountains.
 Please do not mess up with the buttons on this machine.
 Well, it seems that I am running out of cereals for breakfast.
 Thanks for giving me an album of classical music.
-Well, this is exactly happened in an old story from Norwegia.
+Well, this exactly happens in an old story from Norwegia.
 The hotel gives some complimentary water bottles to drink.
 The contruction of a new theme park is immediately halted for an unknown reason.
 I am giving you a new assignment about the counterargument paragraph.
-She ever cycled around the country in 2005.
+She ever cycled around the country in 2005 as a fundraising attempt.
 Please wait a moment while I am investigating the issue.
 See you at the statue near to the magazine shop.
 The majority of citizens are involved in a social media campaign.
 He is currently setting up the microphones for the concert.
+The sunlight shines over a sky full of clouds.
+We are planning to visit the Grand Canyon.
+It takes almost an hour to render this video.
+She went to a park to take some footages.
+When will you send the report to me?
+Her computer suddenly shows a Blue Screen of Death.
+She is being infected with influenza.
+There are 32 students inside the classroom.
+Make sure that your slide designs have an appropriate color selection and contrasts.
+I have set myself three different objectives for this year.
+The opening of a new shopping mall led to an increase in road traffic nearby.
+So, are you planning to order a taxi?
+I prefer not to take some public transport systems for security reasons.
+She expects that her birthday cake should be pink, not purple.
+The convenience store manager was mad at the unfriendly cashier.
+Let's decide where should we hide in this closed department store.
+She is having a meeting with a business consultant.
+You might hear "font families" more than "typefaces", even though they could mean the same thing.
+Many concerned people decided to uninstall some social media apps.
+If you experience further problems, please let me know.
+I would prefer to pay with cash rather than contactless prepaid cards.
+Bananas contain a lot of sugar, even though they are fruits.
+Someone finally figured out the password of this computer.
+The new law prohibits smoking in public transportation systems.
+I am excited about upcoming products released next year.
