@@ -7,6 +7,7 @@ return-to-cv = Återgå till Common Voice
 email-input =
     .label = E-post
 submit-form-action = Skicka in
+loading = Laddar…
 
 ## Layout
 
@@ -40,7 +41,6 @@ request-language-button = Skicka en förfrågan
 
 status-title = Övergripande projektstatus: se hur långt vi har kommit!
 status-contribute = Bidra med din röst
-loading = Laddar…
 status-hours =
     { $hours ->
         [one] En validerad timme hittills!
@@ -64,6 +64,8 @@ profile-form-age =
     .label = Ålder
 profile-form-gender =
     .label = Kön
+profile-form-submit-save = Spara
+profile-form-submit-saved = Sparad
 
 ## FAQ
 
