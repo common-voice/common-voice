@@ -87,27 +87,45 @@ faq-firefox-a = Common Voice memiliki potensi tak terbatas dan kami senantiasa m
 faq-quality-q = Seberapa tingkat kualitas suara yang dibutuhkan supaya bisa digunakan?
 faq-quality-a = Kami ingin mutu suara mencerminkan mutu suara di mana mesin ucapan-ke-teks dapat melihatnya tanpa selingkung. Untuk itu, kami menginginkan keragaman. Hal ini mengajari mesin ucapan-ke-teks untuk menangani berbagai situasi—wicara latar belakang, derau mobil, hembusan kipas angin—tanpa kekeliruan.
 faq-hours-q = Mengapa 10.000 jam merupakan sasaran dalam perekaman suara?
+faq-hours-a = Kira-kira inilah jumlah waktu yang dibutuhkan untuk melatih sistem STT produksi. 
 faq-source-q = Dimana sumber teks berasal ?
 faq-source-a1 = Kalimat-kalimat ini berasal dari donasi kontributor serta percakapan dari naskah film yang terbuka untuk umum seperti <italic>It's a Wonderful Life</italic>
+faq-source-a2 = Anda dapat meninjau sumber kalimat-kalimat kami di <dataLink>folder GitHub ini</dataLink>.
 
 ## Profile
 
 profile-why-title = Mengapa sebuah profil?
+profile-why-content = Dengan memberikan beberapa informasi tentang diri Anda, data suara yang Anda sampaikan ke Common Voice akan lebih berguna untuk mesin Pengenalan Ucapan yang memanfaatkan data ini untuk meningkatkan akurasi mereka.
 
 ## NotFound
 
+notfound-title = Tidak ditemukan
 notfound-content = Maaf, kami tidak tahu apa yang Anda cari.
 
 ## Privacy
 
+privacy-title = Pemberitahuan Privasi Common Voice
+privacy-effective = Efektif { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
+privacy-policy = Ketika Mozilla (itulah kami), menerima informasi dari Anda, <policy>Kebijakan Privasi Mozilla</policy> menjelaskan bagaimana kami menangani informasi tersebut.
+privacy-data-demographic = <name>Data demografis.</name> Anda dapat memutuskan untuk mengirimi kami informasi seperti logat, usia, dan jenis kelamin Anda. Hal ini akan membantu kami dan para peneliti untuk membangun dan mengembangkan teknologi dan perangkat suara-ke-teks.
+privacy-data-account = <name>Data akun.</name> Anda dapat memutuskan untuk membuat akun, dalam hal ini kami menerima alamat surel Anda. Hal ini berkaitan dengan data interaksi dan demografis Anda, tetapi hal ini tidak akan dibagikan ke publik.
 privacy-data-recordings = <name>Rekaman Suara.</name> Rekaman suara, bersamaan dengan data demografis yang terkait, mungkin tersedia dalam basis data Common Voice untuk konsumsi dan penggunaan publik.
+privacy-data-interaction = <name>Data interaksi.</name> Kami menggunakan Google Analytics untuk memahami dengan lebih baik tentang bagaimana Anda berinteraksi dengan aplikasi atau situs web Common Voice, misalnya jumlah sampel suara yang Anda rekam atau dengar, interaksi dengan tombol dan menu, dan panjang sesi.
+privacy-data-technical = <name>Data teknis.</name> Dengan Google Analytics, kami mengumpulkan data URL dan judul laman Common Voice yang Anda kunjungi. Kami mengumpulkan data peramban, ukuran viewport, dan resolusi layar Anda. Kami juga mengumpulkan data lokasi dan pengaturan bahasa di peramban Anda.
 privacy-more = <more>Pelajari lebih lanjut</more>
 
 ## Terms
 
+terms-title = Ketentuan Hukum Common Voice
+terms-effective = Efektif { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
 terms-eligibility-title = Persyaratan
+terms-eligibility-content = Anda harus berusia lebih dari 13 tahun atau telah memperoleh persetujuan orang tua atau wali Anda untuk mengawasi keikutsertaan Anda dalam proyek urun daya kami.
 terms-privacy-title = Privasi
+terms-privacy-content = <privacyLink>Kebijakan Privasi</privacyLink> kami menjelaskan bagaimana cara kami menerima dan menangani data Anda.
+terms-contributions-title = Kontribusi dan Pembebasan Hak Anda
+terms-contributions-content = Dengan mengirimkan rekaman, Anda membebaskan seluruh hak cipta dan hak lain yang terkait yang mungkin Anda miliki di dalamnya, dan Anda setuju untuk membebaskan rekaman untuk umum di bawah <licenseLink>CC-0</licenseLink>. Hal ini berarti Anda setuju untuk membebaskan seluruh kewenangan terkait rekaman di seluruh dunia di bawah ketentuan hukum yang mengatur tentang hak cipta dan basis data, termasuk kewenangan moral dan penyiaran dan seluruh kewenangan yang terkait dan berdekatan.
 terms-communications-title = Komunikasi
+terms-communications-content = Apabila Anda berlangganan buletin kami atau mendaftarkan akun sehubungan dengan Common Voice, Anda dapat menerima surel dari kami berkaitan dengan akun Anda (misalnya pembaruan ketentuan hukum, privasi, dan keamanan).
 terms-general-title = Umum
 
 ## Data
