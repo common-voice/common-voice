@@ -133,22 +133,31 @@ terms-general-liability3 = HINGGA BATASAN YANG DIIZINKAN OLEH HUKUM YANG BERLAKU
 terms-general-liability4 = KECUALI DIWAJIBKAN OLEH ATURAN HUKUM, MOZILLA DAN PIHAK MOZILLA TIDAK AKAN BERTANGGUNG JAWAB ATAS KERUGIAN TAK LANGSUNG, ISTIMEWA, INSIDENTAL, AKIBAT ATAU CONTOH YANG MUNCUL DARI ATAU DDENGAN CARA APAPUN YANG BERKAITAN DENGAN PERSYARATAN INI ATAU PENGGUNAAN DARI ATAU KETIDAKMAMPUAN PENGGUNAAN LAYANAN, TERMASUK TANPA KERUGIAN LANGSUNG DAN TAK LANGSUNG ATAS HILANGNYA ITIKAD BAIK, PENGHENTIAN KERJA, HILANGNYA KEUNTUNGAN, HILANGNYA DATA, DAN KERUSAKAN ATAU KEGAGALAN FUNGSI KOMPUTER, BAHKAN JIKA DIBERITAHUKAN MENGENAI KEMUNGKINAN KERUGIAN SEJENIS DAN TANPA MEMPERTIMBANGKAN TEORI (KONTRAK, KERUGIAN, ATAU SEBALIKNYA) YANG DIPAKAI UNTUK MENGKLAIM. KEWAJIBAN KOLEKTIF MOZILLA DAN PIHAK-PIHAK MOZILLA DI DALAM KESEPAKATAN INI TIDAK AKAN MELAMPAUI $500 (LIMA RATUS DOLLAR AS). SEJUMLAH YURISDIKSI TIDAK MEMUNGKINKAN PENGECUALIAN ATAU PEMBATASAN KERUGIAN INSIDENTAL, AKIBAT, ATAU KHUSUS SEHINGGA PENGECUALIAN DAN PEMBATASAN INI MUNGKIN TIDAK BERLAKU PADA ANDA.
 terms-general-updates = Pembaruan: Mozilla dapat memutakhirkan Persyaratan dari waktu ke waktu guna memperbarui fitur Layanan atau memperjelas suatu ketentuan. Persyaratan yang telah diperbarui akan diunggah daring. Apabila perubahannya bersifat penting, kami akan mengumumkan pembaruan tersebut melalui saluran-saluran umum Mozilla seperti artikel blog dan forum. Penggunaan layanan berkelanjutan setelah tanggal efektif berlakunya perubahan berarti bahwa Anda menyetujui perubahan tersebut. Agar Anda lebih nyaman dalam memberikan ulasan, kami akan mengumumkan tanggal efektif berlakunya perubahan tersebut di bagian atas laman ini.
 terms-general-termination = Pemberhentian: Kami dapat memblokir atau menutup akses menuju Layanan kapanpun dengan alasan apapun, kami akan memberitahu Anda dengan cara yang sewajarnya melalui alamat surel yang terkait dengan akun Anda atau saat Anda mencoba mengakses Layanan. Tanpa mengindahkan pemberhentian apapun, semua rekaman yang sudah Anda kirimkan ke Mozilla akan dapat diakses publik untuk seterusnya.
+terms-general-law = Aturan yang berlaku: Persyaratan Hukum ini menunjukkan kesepakatan keseluruhan antara Anda dan Mozilla terkait dengan Common Voice dan diatur oleh aturan hukum negara bagian California, AS.
 
 ## Data
 
 data-download-button = Unduh Data Common Voice
 data-download-license = Lisensi: <licenseLink>CC-0</licenseLink>
 data-download-modal = Anda akan memulai mengunduh sekitar <size>{ $size } GB </size>, lanjutkan?
+data-subtitle = Kami membangun dataset suara yang terbuka dan tersedia untuk umum yang dapat digunakan siapa saja untuk melatih aplikasi yang terfungsikan dengan ucapan.
+data-explanatory-text = Kami percaya bahwa dataset suara yang besar dan tersedia untuk umum mendorong inovasi dan kompetisi komersial yang sehat dalam pembelajaran mesin berbasis teknologi bicara. Hal ini merupakah upaya yang mendunia dan kami mengundang semua orang untuk berpartisipasi. Tujuan kami adalah untuk membantu teknologi bicara menjadi lebih inklusif, mencerminkan keragaman suara dari seluruh dunia.
 data-get-started = <speechBlogLink>Mulailah dengan Pengenalan Suara</speechBlogLink>
 data-other-title = Dataset suara lainnya...
 data-other-goto = Pergi ke { $name }
 data-other-download = Unduh Data
+data-other-librispeech-description = LibriSpeech adalah kumpulan tulisan sekitar 1000 jam dengan 16Khz pembacaan teks berbahasa Inggris yang berasal dari pembacaan buku audio dari proyek LibriVox.
 data-other-ted-name = TED-LIUM Corpus
+data-other-ted-description = Korpus TED-LIUM dibangun dari perbincangan-perbincangan audio dan naskah salinannya yang tersedia di situs web TED.
+data-other-voxforge-description = VoxForge dibangun untuk mengumpulkan naskah salinan pembicaraan untuk digunakan dengan Mesin Pengenalan Suara Sumber Terbuka dan Gratis.
+data-other-tatoeba-description = Tatoeba adalah basis data besar kalimat, terjemahan, dan audio tuturan guna pembelajaran bahasa. Unduhan ini berisi seluruh tuturan bahasa Inggris yang direkam oleh komunitas mereka.
 data-bundle-button = Unduh Bundel Dataset
+data-bundle-description = Data Common Voice dan seluruh dataset suara lain di atas.
 license = Lisensi: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
 
+record-platform-not-supported = Maaf, wahana Anda saat ini belum mendukung.
 record-platform-not-supported-desktop = Pada desktop komputer, Anda dapat mengunduh yang paling baru:
 record-platform-not-supported-ios = Pengguna <bold>iOS</bold> dapat mengunduh aplikasi kami secara gratis:
 record-must-allow-microphone = Anda harus mengizinkan akses mikrofon.
