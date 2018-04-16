@@ -4,6 +4,7 @@ return-to-cv = Fill ar Common Voice
 email-input =
     .label = Ríomhphost
 submit-form-action = Seol
+loading = Á lódáil...
 
 ## Layout
 
@@ -26,7 +27,6 @@ show-wall-of-text = Tuilleadh Eolais
 ## ProjectStatus
 
 status-contribute = Bronn do ghuth
-loading = Á lódáil...
 
 ## ProfileForm
 
@@ -65,7 +65,7 @@ data-other-ted-name = Corpas TED-LIUM
 
 ## Record Page
 
-review-rerecord = Ath-thaifead
+review-rerecord = Ataifead
 
 ## Download Modal
 
