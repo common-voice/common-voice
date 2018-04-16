@@ -647,24 +647,24 @@ body:not(.ios) .recording #background-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
 
-.title-and-action a {
-    font-size: var(--font-size-small);
-    font-weight: 600;
-    text-decoration: underline;
-    cursor: pointer;
+    & a {
+        font-size: var(--font-size-small);
+        font-weight: 600;
+        text-decoration: underline;
+        cursor: pointer;
+    }
 }
 
 .opt-in {
     display: flex;
     font-size: var(--font-size-small);
-}
 
-.opt-in input {
-    margin: .1rem .3rem .1rem .1rem;
-    width: .8rem;
-    height: .8rem;
+    & input {
+        margin: .1rem .3rem .1rem .1rem;
+        width: .8rem;
+        height: .8rem;
+    }
 }
 
 .opt-in input:checked {
