@@ -157,13 +157,18 @@ license = Lisensi: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
 
-record-platform-not-supported = Maaf, wahana Anda saat ini belum mendukung.
+record-platform-not-supported = Maaf, platform Anda saat ini belum mendukung.
 record-platform-not-supported-desktop = Pada desktop komputer, Anda dapat mengunduh yang paling baru:
 record-platform-not-supported-ios = Pengguna <bold>iOS</bold> dapat mengunduh aplikasi kami secara gratis:
 record-must-allow-microphone = Anda harus mengizinkan akses mikrofon.
+record-error-too-short = Rekaman Anda terlalu pendek.
+record-error-too-long = Rekaman Anda terlalu panjang.
 record-error-too-quiet = Rekaman terlalu sunyi.
+record-submit-success = Rekaman berhasil diunggah! Ingin merekam lagi?
 record-help = Ketuk untuk merekam, lalu baca kalimat di atas dengan lantang.
 record-cancel = Batal Merekam-ulang
+review-terms = Dengan menggunakan Common Voice, berarti Anda menyetujui <termsLink>Persyaratan</termsLink> dan <privacyLink>Pemberitahuan Privasi</privacyLink> kami
+review-aborted = Unggahan dibatalkan. Apakah Anda ingin menghapus rekaman anda?
 review-submit-title = Periksa & Kirim
 review-submit-msg = Terimakasih atas rekaman Anda!<lineBreak></lineBreak>Sekarang periksa dan kirim klip Anda di bawah ini.
 review-recording = Ulasan
@@ -172,6 +177,7 @@ review-cancel = Batalkan Pengajuan
 
 ## Download Modal
 
+download-title = Unduhan Anda telah dimulai.
 download-form-email =
     .label = Masukkan surel Anda
     .value = Terima kasih, kami akan menghubungi Anda.
