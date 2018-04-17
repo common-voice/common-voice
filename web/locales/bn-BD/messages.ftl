@@ -85,6 +85,7 @@ review-rerecord = পুনরায়-রেকর্ড
 
 ## Download Modal
 
+download-helpus = ভয়েস টেকনোলজির উপর আমাদের কমিউনিটি গড়তে সাহায্য করুন, ইমেইলে যোগাযোগ রাখুন।
 download-no = প্রয়োজন নেই
 
 ## Contact Modal
