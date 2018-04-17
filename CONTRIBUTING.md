@@ -96,8 +96,8 @@ export const down = async function(): Promise<any> {
 
 Migrations are always run when the server is started.
 
-#### Localizing Strings
-We're using fluent to localize strings. You can find examples all over the frontend code. Some things to note:
+#### Making Strings localizable
+We're using [Fluent](http://projectfluent.org/) to localize strings. You can find examples all over the frontend code. Strings that appear in the [english message files](https://github.com/mozilla/voice-web/tree/master/web/locales/en), can then be translated on [Pontoon](https://pontoon.mozilla.org/projects/common-voice/). Some things to note:
 - When **adding new strings**, make sure that no similar strings already exist. If so, reuse those, so that translators don't
 have unnecessary extra work
  - When **modifying existing string ids**, make sure to also rename them in the `*.ftl` files of all the other locales
