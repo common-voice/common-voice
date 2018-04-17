@@ -27,6 +27,7 @@ back-top = শীর্ষে ফিরে যান
 
 ## Home Page
 
+home-title = Common Voice প্রকল্পটি মজিলার একটি উদ্যোগ, যেখানে মেশিনকে শেখান হবে কিভাবে বাস্তবে মানুষ কথা বলে।
 home-cta = কথা বলুন, অবদান রাখুন!
 show-wall-of-text = আরও পড়ুন
 request-language-button = একটি ভাষার জন্যে অনুরোধ করুন
