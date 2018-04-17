@@ -145,7 +145,7 @@ class RequestLanguageModal extends React.Component<Props, State> {
 
               <br />
 
-              <Localized id="language-updates-success-text">
+              <Localized id="language-updates-success-content">
                 <p className="small" />
               </Localized>
 
