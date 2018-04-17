@@ -100,8 +100,8 @@ Migrations are always run when the server is started.
 We're using fluent to localize strings. You can find examples all over the frontend code. Some things to note:
 - When **adding new strings**, make sure that no similar strings already exist. If so, reuse those, so that translators don't
 have unnecessary extra work
- - When **modifying existing strings**, make sure to also rename it in all `*.ftl` files
- - When **deleting strings**, make sure to also remove it in the `*.ftl` files of the other locales
+ - When **modifying existing string ids**, make sure to also rename them in the `*.ftl` files of all the other locales
+ - When **deleting strings**, make sure to also remove it in the `*.ftl` files of all the other locales
 
 #### Need Help?
 For more options, just type:
