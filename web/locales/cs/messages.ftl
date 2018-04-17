@@ -7,6 +7,7 @@ return-to-cv = Návrat do Common Voice
 email-input =
     .label = E-mail
 submit-form-action = Odeslat
+loading = Načítání…
 
 ## Layout
 
@@ -41,7 +42,6 @@ request-language-button = Požádat o jazyk
 
 status-title = Celkový stav projektu: podívejte se, jak jsme daleko!
 status-contribute = Přispějte svým hlasem
-loading = Načítání…
 status-hours =
     { $hours ->
         [one] Zatím jedna ověřená hodina!
@@ -66,6 +66,8 @@ profile-form-age =
     .label = Věk
 profile-form-gender =
     .label = Pohlaví
+profile-form-submit-save = Uložit
+profile-form-submit-saved = Uloženo
 
 ## FAQ
 
