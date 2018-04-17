@@ -1,6 +1,7 @@
 ## General
 
 yes-receive-emails = হ্যাঁ আমাকে ইমেইল করুন। Common Voice  প্রকল্প সম্পর্কে আমি খবরাখবর রাখতে চাই।
+privacy-info = আমরা কথা দিচ্ছি আপনার তথ্য যত্নের সাথে পরিচালনা করবো। আমাদের <privacyLink>গোপনীয়তা নীতি</privacyLink> সম্পর্কে আরও পড়ুন।
 return-to-cv = Common Voice এ ফেরত যান
 email-input =
     .label = ইমেইল
@@ -20,6 +21,7 @@ terms = শর্তাবলী
 cookies = কুকি
 faq = সাধারণত জিজ্ঞাসিত প্রশ্নাবলী
 content-license-text = কন্টেন্ট <licenseLink>Creative Commons license</licenseLink> এর আওতায় বিদ্যমান
+share-title = কণ্ঠদানে আগ্রহীদের খুঁজতে আমাদের সহায়তা করুন!
 back-top = শীর্ষে ফিরে যান
 
 ## Home Page
