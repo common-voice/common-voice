@@ -37,7 +37,8 @@ export default class Server {
   logger: Logger;
   isLeader: boolean;
 
-  constructor() {
+  constructor(options?: {bundleCrossLocaleMessages: boolean}) {
+    options = {bundleCrossLocaleMessages: true, ...options};
     this.model = new Model();
     this.api = new API(this.model);
     this.logger = new Logger();
@@ -63,20 +64,23 @@ export default class Server {
 
     app.use(express.static(fullClientPath, staticOptions));
 
-    const localesPath = path.join(fullClientPath, 'locales');
-    const crossLocaleMessages = fs
-      .readdirSync(localesPath)
-      .reduce((obj: any, locale: string) => {
-        const filePath = path.join(localesPath, locale, 'cross-locale.ftl');
-        if (fs.existsSync(filePath)) {
-          obj[locale] = fs.readFileSync(filePath, 'utf-8');
-        }
-        return obj;
-      }, {});
+    if (options.bundleCrossLocaleMessages) {
+      const localesPath = path.join(fullClientPath, 'locales');
+      const crossLocaleMessages = fs
+        .readdirSync(localesPath)
+        .reduce((obj: any, locale: string) => {
+          const filePath = path.join(localesPath, locale, 'cross-locale.ftl');
+          if (fs.existsSync(filePath)) {
+            obj[locale] = fs.readFileSync(filePath, 'utf-8');
+          }
+          return obj;
+        }, {});
 
-    app.get('/cross-locale-messages.json', (request, response) => {
-      response.json(crossLocaleMessages);
-    });
+      app.get('/cross-locale-messages.json', (request, response) => {
+        response.json(crossLocaleMessages);
+      });
+    }
+
     app.use('*', express.static(fullClientPath + '/index.html', staticOptions));
 
     app.use(
