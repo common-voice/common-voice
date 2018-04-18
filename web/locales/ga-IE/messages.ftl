@@ -75,9 +75,19 @@ profile-form-submit-saved = Sábháilte
 
 faq-title = Ceisteanna Coitianta
 faq-what-q = Cad é Common Voice?
+faq-important-q = Cén fáth a bhfuil sé tábhachtach?
+faq-get-q = An féidir liom na sonraí Common Voice a íoslódáil?
+faq-mission-q = Cén fáth ar cuid de mhisean Mozilla é Common Voice?
+faq-native-q = Ní cainteoir dúchais { $lang } mé agus tá blas coimhthíoch le haithint ar mo theanga. An bhfuil sibh ag iarraidh mo ghutha mar sin féin?
+faq-firefox-q = An úsáidfidh sibh caint-go-téacs, via Common Voice, mar chuid de Firefox?
+faq-hours-q = Cén fáth a bhfuil sibh ag lorg 10,000 uair?
+faq-source-q = Cad as na téacsanna?
+faq-source-a1 = Tháinig na habairtí ó rannpháirtithe éagsúla, agus ó scripteanna do scannáin ar nós <italic>It's a Wonderful Life</italic> atá ar fáil don phobal anois.
+faq-source-a2 = Is féidir leat na habairtí go léir a fháil <dataLink>san fhillteán seo</dataLink> ar GitHub.
 
 ## Profile
 
+profile-why-title = Cén fáth a bhfuil gá le próifíl?
 
 ## NotFound
 
@@ -180,3 +190,6 @@ help-translate-title = Cabhraigh linn an suíomh seo a aistriú go { $language }
 help-translate-cancel = Scoir
 language-updates-title = Cláraigh le nuacht maidir le { $language }
 help-translate-link = Fill ar Pontoon
+language-updates-success-title = D'éirigh leis an iarratas maidir le { $language }, go raibh maith agat.
+language-updates-success-text = Beimid i dteagmháil leat nuair a bheidh tuilleadh eolais ar fáil.
+language-updates-success-collapsed-title = Chláraigh tú le nuacht maidir le { $language }
