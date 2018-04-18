@@ -87,6 +87,7 @@ faq-native-a = Tá, cinnte. Cuid den aidhm atá againn le Common Voice ná an oi
 faq-firefox-q = An úsáidfidh sibh caint-go-téacs, via Common Voice, mar chuid de Firefox?
 faq-firefox-a = Níl aon teorainn leis na féidearthachtaí a bhaineann le Common Voice, agus ba mhaith linn comhéadain ghutha a thástáil i dtáirgí éagsúla, Firefox ina measc.
 faq-quality-q = Cén leibhéal cáilíochta atá ag teastáil chun leas a bhaint as an taifeadadh?
+faq-quality-a = Táimid ag lorg taifeadtaí den chaighdeán céanna a d'fheicfeadh inneall aitheanta cainte san fhiántas. Mar sin, is éagsúlacht atá uainn. Múineann seo don inneall conas is féidir déileáil le cúinsí éagsúla—caint sa chúlra, torann ó charranna nó ó ghaothrán an ríomhaire—gan botúin a dhéanamh.
 faq-hours-q = Cén fáth a bhfuil sibh ag lorg 10,000 uair?
 faq-hours-a = Seo é an líon uaireanta, a bheag nó a mhór, atá ag teastáil chun córas caint-go-téacs den chéad scoth a thraenáil.
 faq-source-q = Cad as na téacsanna?
@@ -162,6 +163,7 @@ record-platform-not-supported = Ár leithscéal, ach ní thacaímid leis an ard�
 record-platform-not-supported-desktop = Ar ríomhaire, is féidir leat na leaganacha is déanaí a íoslódáil:
 record-platform-not-supported-ios = Is féidir le daoine ar <bold>iOS</bold> aip saor in aisce a íoslódáil:
 record-must-allow-microphone = Caithfidh tú cead a thabhairt dúinn an micreafón a úsáid.
+record-cancel = Cealaigh an t-ataifeadadh
 record-error-too-short = Bhí an taifeadadh róghearr.
 record-error-too-long = Bhí an taifeadadh rófhada.
 record-error-too-quiet = Bhí an taifeadadh róchiúin.
@@ -203,15 +205,6 @@ request-language-cancel = Fág an Fhoirm
 request-language-form-language =
     .label = Teanga
 request-language-success-title = Fuaireamar an t-iarratas, go raibh maith agat.
-request-language-success-text = Beimid i dteagmháil nuair a bheidh níos mó eolais againn maidir le do theanga.
 
-## Help Translate Modal
+## Languages Overview
 
-help-translate-title = Cabhraigh linn an suíomh seo a aistriú go { $language }
-help-translate-cancel = Scoir
-help-translate-text = Treoróimid go dtí uirlis aistriúcháin darb ainm <pontoonLink>Pontoon</pontoonLink> thú, áit ina bhfuil an t-aistriúchán don teanga seo faoi lán seoil.
-language-updates-title = Cláraigh le nuacht maidir le { $language }
-help-translate-link = Oscail Pontoon
-language-updates-success-title = D'éirigh leis an iarratas maidir le { $language }, go raibh maith agat.
-language-updates-success-text = Beimid i dteagmháil leat nuair a bheidh tuilleadh eolais ar fáil.
-language-updates-success-collapsed-title = Chláraigh tú le nuacht maidir le { $language }
