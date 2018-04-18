@@ -37,8 +37,8 @@ export default class Server {
   logger: Logger;
   isLeader: boolean;
 
-  constructor(options?: {bundleCrossLocaleMessages: boolean}) {
-    options = {bundleCrossLocaleMessages: true, ...options};
+  constructor(options?: { bundleCrossLocaleMessages: boolean }) {
+    options = { bundleCrossLocaleMessages: true, ...options };
     this.model = new Model();
     this.api = new API(this.model);
     this.logger = new Logger();
