@@ -76,8 +76,16 @@ privacy-more = <more>Tuilleadh eolais</more>
 
 ## Terms
 
+terms-title = Common Voice Legal Terms
+terms-effective = Effective { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
+terms-eligibility-title = Eligibility
+terms-eligibility-content = You must be over the age of 13 or have your parent or guardian consent to and supervise your participation in our crowd-sourcing project.
 terms-privacy-title = Príobháideachas
+terms-privacy-content = Our <privacyLink>Privacy Notice</privacyLink> explains how we receive and handle your data.
+terms-contributions-title = Your Contributions and Release of Rights
+terms-contributions-content = By submitting your recordings, you waive all copyrights and related rights that you may have in them, and you agree to release the recordings to the public under <licenseLink>CC-0</licenseLink>. This means that you agree to waive all rights to the recordings worldwide under copyright and database law, including moral and publicity rights and all related and neighboring rights.
 terms-communications-title = Cumarsáid
+terms-communications-content = If you subscribe to receive our newsletters or register for an account in connection with Common Voice, you may receive emails from us in connection with your account (for example, legal, privacy, and security updates).
 terms-general-title = Téarmaí ginearálta
 terms-general-liability1 = Disclaimer; Limitation of Liability: COMMON VOICE AND ALL INCLUDED RECORDINGS ARE PROVIDED ON AN “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, WHETHER EXPRESS OR IMPLIED. MOZILLA TAKES NO RESPONSIBILITY AND ASSUMES NO LIABILITY FOR ANY RECORDINGS THAT YOU OR ANY OTHER USER OR THIRD PARTY POSTS OR TRANSMITS USING COMMON VOICE.
 terms-general-liability2 = MOZILLA SPECIFICALLY DISCLAIMS ANY AND ALL WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT, AND ANY WARRANTIES ARISING OUT OF COURSE OF DEALING OR USAGE OF TRADE.
@@ -99,16 +107,22 @@ license = Ceadúnas: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
 
+record-platform-not-supported = Ár leithscéal, ach ní thacaímid leis an ardán seo faoi láthair.
+record-platform-not-supported-desktop = Ar ríomhaire, is féidir leat na leaganacha is déanaí a íoslódáil:
+record-must-allow-microphone = Caithfidh tú cead a thabhairt dúinn an micreafón a úsáid.
 record-error-too-short = Bhí an taifeadadh róghearr.
 record-error-too-long = Bhí an taifeadadh rófhada.
 record-error-too-quiet = Bhí an taifeadadh róchiúin.
 record-cancel = Cealaigh an t-ataifeadadh
+review-aborted = Stopadh an uaslódáil. An bhfuil fonn ort na taifeadtaí a scriosadh?
 review-submit-title = Athbhreithnigh agus Seol
 review-recording = Athbhreithnigh
 review-rerecord = Ataifead
+review-cancel = Cealaigh
 
 ## Download Modal
 
+download-title = Tosaíodh an íoslódáil.
 download-form-email =
     .label = Cuir isteach do sheoladh ríomhphoist
     .value = Go raibh maith agat, beimid i dteagmháil go luath.
@@ -126,10 +140,16 @@ contact-required = *riachtanach
 
 ## Request Language Modal
 
+request-language-title = Iarratas ar Theanga Nua
+request-language-cancel = Fág an Fhoirm
 request-language-form-language =
     .label = Teanga
+request-language-success-title = Fuaireamar an t-iarratas, go raibh maith agat.
+request-language-success-text = Beimid i dteagmháil nuair a bheidh níos mó eolais againn maidir le do theanga.
 
 ## Help Translate Modal
 
+help-translate-title = Cabhraigh linn an suíomh seo a aistriú go { $language }
 help-translate-cancel = Scoir
+language-updates-title = Cláraigh le nuacht maidir le { $language }
 help-translate-link = Fill ar Pontoon
