@@ -7,6 +7,7 @@ return-to-cv = Návrat do Common Voice
 email-input =
     .label = E-mailová adresa
 submit-form-action = Odoslať
+loading = Načítava sa…
 
 ## Layout
 
@@ -40,7 +41,6 @@ request-language-button = Požiadajte o jazyk
 
 status-title = Celkový stav projektu - pozrite sa, ako ďaleko sme sa už dostali!
 status-contribute = Prispejte svojím hlasom
-loading = Načítava sa…
 status-hours =
     { $hours ->
         [one] Zatiaľ je overená jedna hodina!
@@ -65,6 +65,8 @@ profile-form-age =
     .label = Vek
 profile-form-gender =
     .label = Pohlavie
+profile-form-submit-save = Uložiť
+profile-form-submit-saved = Uložené
 
 ## FAQ
 
@@ -172,9 +174,9 @@ request-language-cancel = Zavrieť formulár
 request-language-form-language =
     .label = Jazyk
 request-language-success-title = Žiadosť o jazyk bola odoslaná. Ďakujeme.
-request-language-success-text = Keď bude váš jazyk dostupný, pošleme vám ďalšie informácie.
 
 ## Help Translate Modal
+##  note: this section should probably be moved to cross-locale.ftl
 
 help-translate-title = Pomôžte preložiť jazyk { $language }
 help-translate-cancel = Ukončiť
@@ -182,5 +184,4 @@ help-translate-text = Presunieme vás na lokalizačný nástroj Mozilly, <pontoo
 language-updates-title = Prihláste sa k odberu noviniek o jazyku { $language }
 help-translate-link = Prejsť na Pontoon
 language-updates-success-title = Požiadavka o novinky o jazyku { $language } bola odoslaná, ďakujeme.
-language-updates-success-text = Dáme vám vedieť hneď, ako budeme vedieť viac.
 language-updates-success-collapsed-title = Prihlásili ste sa k odberu noviniek o jazyku { $language }
