@@ -137,11 +137,16 @@ data-download-button = Íoslódáil Sonraí Common Voice
 data-download-license = Ceadúnas: <licenseLink>CC-0</licenseLink>
 data-download-modal = Tá tú ar tí <size>{ $size }GB</size> a íoslódáil, an bhfuil tú cinnte?
 data-subtitle = Táimid ag tógáil tacar sonraí gutha a bheidh oscailte agus ar fáil do chách chun feidhmchláir a úsáideann caint a thraenáil.
+data-get-started = <speechBlogLink>Tosú le hAithint Cainte</speechBlogLink>
 data-other-title = Tacair shonraí eile...
 data-other-goto = Téigh go { $name }
 data-other-download = Íoslódáil sonraí
 data-other-librispeech-description = Is éard atá in LibriSpeech ná corpas cainte ina bhfuil timpeall is 1000 uair an chloig de Bhéarla labhartha, cuid den ábhar léite as closleabhair agus an chuid eile ón tionscadal LibriVox.
 data-other-ted-name = Corpas TED-LIUM
+data-other-ted-description = Cruthaíodh an corpas TED-LIUM ó léachtaí TED agus na leaganacha tras-scríofa ar fáil ar shuíomh Gréasáin TED.
+data-other-voxforge-description = Bunaíodh VoxForge chun ábhar cainte tras-scríofa a bhailiú agus a úsáid in innill aitheanta cainte FLOSS.
+data-bundle-button = Íoslódáil na Tacair Shonraí go léir
+data-bundle-description = Sonraí Common Voice chomh maith leis na tacair shonraí thuasluaite
 license = Ceadúnas: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
