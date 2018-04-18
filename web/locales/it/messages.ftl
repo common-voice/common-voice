@@ -64,6 +64,7 @@ privacy-more = <more>Per saperne di più</more>
 
 terms-eligibility-title = Idoneità
 terms-privacy-title = Privacy
+terms-communications-title = Comunicazioni
 terms-general-title = Generale
 
 ## Data
