@@ -77,6 +77,7 @@ faq-title = Ceisteanna Coitianta
 faq-what-q = Cad é Common Voice?
 faq-what-a = Is dócha go n-athróidh teicneolaíocht aitheanta cainte na bealaí a dhéanaimid idirghníomhú le ríomhairí, ach tá na córais atá ar fáil faoi láthair an-chostasach agus faoi ghlas. An sprioc atá ag Common Voice ná teicneolaíocht aitheanta cainte a chur ar fáil do chách. Bronnfaidh an pobal taifeadtaí do bhunachar sonraí ollmhór a bheidh aon duine ábalta a úsáid chun córas aitheanta cainte a thraenáil gan mórán stró. Cuirfimid na sonraí go léir ar fáil d'fhorbróirí.
 faq-important-q = Cén fáth a bhfuil sé tábhachtach?
+faq-important-a = Is rud nádúrtha guth an duine. Is é an teanga labhartha an bealach is éasca is nádúrtha cumarsáid a dhéanamh. Ba chóir d'fhorbróirí a bheith ábalta rudaí iontacha a thógáil, ó aistritheoirí fíor-ama go cúntóirí pearsanta guthchumasaithe. Ach níl go leor sonraí ar fáil go poiblí faoi láthair chun aipeanna den sórt seo a thógáil. Tá súil againn go soláthróidh Common Voice na hacmhainní atá ag teastáil ó fhorbóirí chun rudaí nuálacha a chruthú.
 faq-get-q = An féidir liom na sonraí Common Voice a íoslódáil?
 faq-get-a = Tá an tacar sonraí ar fáil anois ar <downloadLink>an leathanach íoslódála</downloadLink> de réir téarmaí an cheadúnais <licenseLink>CC-0</licenseLink>.
 faq-mission-q = Cén fáth ar cuid de mhisean Mozilla é Common Voice?
