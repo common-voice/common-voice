@@ -8,6 +8,7 @@ email-input =
     .label = E-mail
 submit-form-action = Wyślij
 loading = Wczytywanie…
+audio-loading-error = Przetwarzamy pliki dźwiękowe, proszę spróbować ponownie za chwilę.
 
 ## Layout
 
@@ -23,6 +24,7 @@ cookies = Ciasteczka
 faq = Często zadawane pytania
 content-license-text = Treść dostępna na warunkach <licenseLink>licencji Creative Commons</licenseLink>
 share-title = Zachęć innych do nagrania swojego głosu!
+share-text = Pomóż nauczyć komputery, jak mówią prawdziwi ludzie — wspomóż swoim głosem na { $link }
 back-top = Powrót na górę
 
 ## Home Page
@@ -35,6 +37,8 @@ wall-of-text-more-desktop = Teraz możesz nagrać swój głos i pomóc nam twor
 show-wall-of-text = Więcej
 help-us-title = Pomóż nam zweryfikować nagrania!
 help-us-explain = Odsłuchaj i potwierdź, czy zdanie jest poprawnie wymówione.
+vote-yes = Tak
+vote-no = Nie
 request-language-text = Common Voice nie oferuje jeszcze Twojego języka?
 request-language-button = Poproś o dodanie języka
 
@@ -52,9 +56,12 @@ status-hours =
 # $goal - number of hours representing the next goal
 status-goal = Następny cel: { $goal }
 status-more-soon = Więcej języków już niedługo!
+english = angielski
 
 ## ProfileForm
 
+profile-form-cancel = Wyjdź z formularza
+profile-form-delete = Usuń profil
 profile-form-username =
     .label = Nazwa użytkownika
 profile-form-language =
@@ -68,6 +75,11 @@ profile-form-gender =
     .label = Płeć
 profile-form-submit-save = Zapisz
 profile-form-submit-saved = Zapisano
+male = Mężczyzna
+female = Kobieta
+why-profile-title = Po co profil?
+why-profile-text = Podając pewne informacje o sobie, dane dźwiękowe wysyłane do projektu Common Voice będą bardziej przydatne dla mechanizmów rozpoznawania mowy, które korzystają z tych danych do zwiększenia dokładności.
+edit-profile = Edytuj profil
 
 ## FAQ
 
@@ -131,6 +143,8 @@ terms-general-title = Warunki ogólne
 ## Data
 
 data-download-button = Pobierz dane Common Voice
+data-download-yes = Tak
+data-download-no = Tak
 data-download-license = Licencja: <licenseLink>CC-0</licenseLink>
 data-download-modal = Za chwilę zaczniesz pobierać plik o rozmiarze <size>{ $size } GB</size>, czy chcesz kontynuować?
 data-subtitle = Tworzymy otwarty i publicznie dostępny zbiór danych mowy, który wszyscy mogą używać do trenowania aplikacji obsługujących mowę.
@@ -147,6 +161,7 @@ data-other-tatoeba-description = Tatoeba jest wielką bazą danych zdań, tłuma
 data-bundle-button = Pobierz zestaw danych
 data-bundle-description = Dane Common Voice ze wszystkimi innymi zbiorami danych powyżej.
 license = Licencja: <licenseLink>{ $license }</licenseLink>
+license-mixed = Mieszana
 
 ## Record Page
 
@@ -154,6 +169,8 @@ record-platform-not-supported = Przepraszamy, używana platforma nie jest obecni
 record-platform-not-supported-desktop = Na komputerze można pobrać najnowszą wersję:
 record-platform-not-supported-ios = Użytkownicy <bold>iOS</bold> mogą pobrać bezpłatną aplikację:
 record-must-allow-microphone = Musisz zezwolić na dostęp do mikrofonu.
+record-cancel = Anuluj nagrywanie
+record-retry = Ponów
 record-error-too-short = Nagranie jest za krótkie.
 record-error-too-long = Nagranie jest za długie.
 record-error-too-quiet = Nagranie jest za ciche.
@@ -161,12 +178,16 @@ record-submit-success = Pomyślnie wysłano! Kontynuować nagrywanie?
 record-help = Naciśnij, aby rozpocząć, a następnie przeczytaj powyższe zdanie.
 record-cancel = Anuluj nagrywanie
 review-terms = Korzystając z Common Voice, zgadzasz się na <termsLink>warunki korzystania</termsLink> i <privacyLink>zasady ochrony prywatności</privacyLink>
+terms-agree = Zgadzam się
+terms-disagree = Nie zgadzam się
 review-aborted = Przerwano wysyłanie. Czy chcesz usunąć swoje nagrania?
 review-submit-title = Zweryfikuj i wyślij
 review-submit-msg = Dziękujemy za nagranie!<lineBreak></lineBreak>Teraz zweryfikuj i wyślij swoje nagrania poniżej.
 review-recording = Zweryfikuj
 review-rerecord = Nagraj ponownie
 review-cancel = Anuluj wysyłanie
+review-keep-recordings = Zachowaj nagrania
+review-delete-recordings = Usuń moje nagrania
 
 ## Download Modal
 
@@ -195,15 +216,13 @@ request-language-cancel = Opuść formularz
 request-language-form-language =
     .label = Język
 request-language-success-title = Prośba o język została pomyślnie przesłana, dziękujemy.
-request-language-success-text = Damy znać, kiedy pojawią się informacje o dostępności Twojego języka.
+request-language-success-content = Już niedługo udzielimy więcej informacji o tym, jak dodać swój język do projektu Common Voice.
 
-## Help Translate Modal
+## Languages Overview
 
-help-translate-title = Pomóż tłumaczyć na język { $language }
-help-translate-cancel = Wyjdź
-help-translate-text = Przekierujemy Cię do narzędzia tłumaczeniowego Mozilli, <pontoonLink>Pontoon</pontoonLink>, gdzie ten język jest obecnie w trakcie otwartego procesu tłumaczenia.
-language-updates-title = Zapisz się, aby otrzymywać aktualizacje dotyczące tego języka ({ $language })
-help-translate-link = Przejdź do Pontoon
-language-updates-success-title = Pomyślnie wysłano prośbę o aktualizację tego języka ({ $language }).
-language-updates-success-text = Będziemy w kontakcie i udostępnimy więcej informacji, kiedy będą dostępne.
-language-updates-success-collapsed-title = Zapisano się na aktualizacje dotyczące tego języka ({ $language })
+language-section-in-progress = W trakcie
+language-section-launched = Działa
+languages-show-more = Więcej
+languages-show-less = Mniej
+language-speakers = Osoby mówiące
+language-total-progress = Razem
