@@ -34,6 +34,8 @@ wall-of-text-more-mobile = Väčšina údajov, ktoré používajú veľké spolo
 show-wall-of-text = Prečítajte si viac
 help-us-title = Pomôžte nám overovať vety!
 help-us-explain = Kliknite na prehrať, počúvajte a povedzte nám, či sa nahrávka zhoduje s vetou nižšie.
+vote-yes = Áno
+vote-no = Nie
 request-language-text = Nevidíte svoj jazyk na Common Voice?
 request-language-button = Požiadajte o jazyk
 
@@ -51,9 +53,12 @@ status-hours =
 # $goal - number of hours representing the next goal
 status-goal = Ďalší cieľ: { $goal }
 status-more-soon = Ďalšie jazyky už čoskoro!
+english = Angličtina
 
 ## ProfileForm
 
+profile-form-cancel = Zavrieť formulár
+profile-form-delete = Odstrániť profil
 profile-form-username =
     .label = Používateľské meno
 profile-form-language =
@@ -67,6 +72,9 @@ profile-form-gender =
     .label = Pohlavie
 profile-form-submit-save = Uložiť
 profile-form-submit-saved = Uložené
+male = Muž
+female = Žena
+edit-profile = Upraviť profil
 
 ## FAQ
 
@@ -119,6 +127,8 @@ terms-general-title = Všeobecné
 ## Data
 
 data-download-button = Prevziať údaje Common Voice
+data-download-yes = Áno
+data-download-no = Áno
 data-download-license = Licencia: <licenseLink>CC-0</licenseLink>
 data-download-modal = Chystáte sa zahájiť preberanie <size>{ $size } GB</size>, chcete pokračovať?
 data-subtitle = Vytvárame otvorený a verejne dostupný hlasový dataset, ktorý môže ktokoľvek použiť na tréning aplikácií využívajúcich hlas.
@@ -137,6 +147,7 @@ record-platform-not-supported = Ospravedlňujeme sa, no vaša platforma zatiaľ 
 record-platform-not-supported-desktop = Na počítačoch si môžete prevziať najnovšie:
 record-platform-not-supported-ios = Používatelia <bold>iOS</bold> si môžu prevziať našu bezplatnú aplikáciu:
 record-must-allow-microphone = Musíte povoliť prístup ku mikrofónu.
+record-cancel = Zrušiť opakovaný záznam
 record-error-too-short = Vaša nahrávka bola príliš krátka.
 record-error-too-long = Vaša nahrávka bola príliš dlhá.
 record-error-too-quiet = Vaša nahrávka bola príliš tichá.
@@ -144,6 +155,8 @@ record-submit-success = Odoslanie bolo úspešné! Chcete nahrávať znova?
 record-help = Prosím, ťuknite na tlačidlo nahrávania a potom prečítajte vetu vyššie.
 record-cancel = Zrušiť opakovaný záznam
 review-terms = Používaním Common Voice súhlasíte s našimi <termsLink>podmienkami</termsLink> a <privacyLink>zásadami ochrany súkromia</privacyLink>
+terms-agree = Súhlasím
+terms-disagree = Nesúhlasím
 review-aborted = Nahrávanie bolo zrušené. Chcete odstrániť vaše nahrávky?
 review-submit-title = Kontrola a odoslanie
 review-submit-msg = Ďakujeme za nahrávky!<lineBreak></lineBreak>Teraz ich skontrolujte a odošlite.
@@ -179,13 +192,5 @@ request-language-form-language =
     .label = Jazyk
 request-language-success-title = Žiadosť o jazyk bola odoslaná. Ďakujeme.
 
-## Help Translate Modal
-##  note: this section should probably be moved to cross-locale.ftl
+## Languages Overview
 
-help-translate-title = Pomôžte preložiť jazyk { $language }
-help-translate-cancel = Ukončiť
-help-translate-text = Presunieme vás na lokalizačný nástroj Mozilly, <pontoonLink>Pontoon</pontoonLink>, pomocou ktorého prebieha preklad vášho jazyka.
-language-updates-title = Prihláste sa k odberu noviniek o jazyku { $language }
-help-translate-link = Prejsť na Pontoon
-language-updates-success-title = Požiadavka o novinky o jazyku { $language } bola odoslaná, ďakujeme.
-language-updates-success-collapsed-title = Prihlásili ste sa k odberu noviniek o jazyku { $language }
