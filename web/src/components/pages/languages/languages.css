@@ -11,7 +11,19 @@
     }
 }
 
-@keyframes move-and-scale-in-delayed {
+@keyframes move-and-scale-in-small-delay {
+    from {
+        transform: translateX(-100%) scaleY(0);
+    }
+    5% {
+        transform: translateX(-100%) scaleY(0);
+    }
+    to {
+        transform: none;
+    }
+}
+
+@keyframes move-and-scale-in-big-delay {
     from {
         transform: translateX(-100%) scaleY(0);
     }
@@ -36,7 +48,7 @@
         & .waves {
             position: relative;
             top: -2rem;
-            left: 14rem;
+            left: 10rem;
 
             @media (--md-up) {
                 top: 0;
@@ -51,11 +63,16 @@
                 right: 0;
                 margin: auto;
                 animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
-                animation-duration: 3s;
+                animation-duration: 3.5s;
                 animation-name: move-and-scale-in;
 
+                &.red {
+                    animation-name: move-and-scale-in-small-delay;
+                }
+
                 &.eq {
-                    animation-name: move-and-scale-in-delayed;
+                    animation-name: move-and-scale-in-big-delay;
+                    bottom: 4%;
                     right: 16%;
                 }
             }
