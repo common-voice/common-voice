@@ -41,7 +41,7 @@ const DEFAULTS: CommonVoiceConfig = {
   BUCKET_NAME: 'common-voice-corpus',
   BUCKET_LOCATION: '',
   ENVIRONMENT: 'default',
-  SECRET: null,
+  SECRET: 'TODO: Set a secure SECRET in config.json',
   ADMIN_EMAILS: '[]', // array of admin emails, as JSON
   S3_CONFIG: {
     signatureVersion: 'v4',
@@ -78,11 +78,6 @@ export function getConfig(): CommonVoiceConfig {
     console.log('could not load config.json, using defaults');
   }
   loadedConfig = { ...DEFAULTS, ...config };
-
-  if (!loadedConfig.SECRET) {
-    console.error('SECRET needs to be set');
-    process.exit();
-  }
 
   return loadedConfig;
 }
