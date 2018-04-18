@@ -8,6 +8,7 @@ email-input =
     .label = Ríomhphost
 submit-form-action = Seol
 loading = Á lódáil...
+audio-loading-error = Ár leithscéal! Táimid ag próiseáil ár gcuid comhad fuaime. Bain triail eile as ar ball.
 
 ## Layout
 
@@ -22,7 +23,8 @@ terms = Téarmaí
 cookies = Fianáin
 faq = Ceisteanna Coitianta
 content-license-text = Tá an t-ábhar seo ar fáil de réir téarmaí <licenseLink>Cheadúnas Creative Commons</licenseLink>
-share-title = Cabhraigh linn daoine nua a earcú!
+share-title = Cabhraigh linn daoine nua a earcú! Scaip an focal!
+share-text = Cabhraigh linn múineadh do ríomhairí conas a labhraíonn daoine; bronn do ghuth ag { $link }
 back-top = Fill ar bharr an leathanaigh
 
 ## Home Page
@@ -35,6 +37,8 @@ wall-of-text-more-desktop = Anois is féidir leat do ghuth a bhronnadh dúinn ch
 show-wall-of-text = Tuilleadh Eolais
 help-us-title = Cabhraigh linn abairtí a dheimhniú!
 help-us-explain = Cliceáil an tsaighead, éist, agus abair linn: an bhfuil an taifeadadh cruinn?
+vote-yes = Tá
+vote-no = Níl
 request-language-text = Cá bhfuil mo theangasa?
 request-language-button = Iarr Teanga Nua
 
@@ -54,9 +58,12 @@ status-hours =
 # $goal - number of hours representing the next goal
 status-goal = An chéad sprioc eile: { $goal }
 status-more-soon = Tuilleadh teangacha le teacht!
+english = Béarla
 
 ## ProfileForm
 
+profile-form-cancel = Fág an Fhoirm
+profile-form-delete = Scrios mo Phróifíl
 profile-form-username =
     .label = Ainm Úsáideora
 profile-form-language =
@@ -70,6 +77,11 @@ profile-form-gender =
     .label = Inscne
 profile-form-submit-save = Sábháil
 profile-form-submit-saved = Sábháilte
+male = Fear
+female = Bean
+why-profile-title = Cén fáth a bhfuil gá le próifíl?
+why-profile-text = Má sholáthraíonn tú roinnt eolais fútsa féin, beidh na sonraí fuaime a thugann tú do Common Voice i bhfad níos úsáidí d'innill aitheanta cainte a úsáideann na sonraí seo chun an cruinneas a fheabhsú.
+edit-profile = Cuir mo Phróifíl in Eagar
 
 ## FAQ
 
@@ -140,6 +152,8 @@ terms-general-law = Governing Law: These Legal Terms constitute the entire agree
 ## Data
 
 data-download-button = Íoslódáil Sonraí Common Voice
+data-download-yes = Tá
+data-download-no = Tá
 data-download-license = Ceadúnas: <licenseLink>CC-0</licenseLink>
 data-download-modal = Tá tú ar tí <size>{ $size }GB</size> a íoslódáil, an bhfuil tú cinnte?
 data-subtitle = Táimid ag tógáil tacar sonraí gutha a bheidh oscailte agus ar fáil do chách chun feidhmchláir a úsáideann caint a thraenáil.
@@ -156,6 +170,7 @@ data-other-tatoeba-description = Is éard atá in Tatoeba ná bunachar sonraí a
 data-bundle-button = Íoslódáil na Tacair Shonraí go léir
 data-bundle-description = Sonraí Common Voice chomh maith leis na tacair shonraí thuasluaite
 license = Ceadúnas: <licenseLink>{ $license }</licenseLink>
+license-mixed = Measctha
 
 ## Record Page
 
@@ -164,6 +179,7 @@ record-platform-not-supported-desktop = Ar ríomhaire, is féidir leat na leagan
 record-platform-not-supported-ios = Is féidir le daoine ar <bold>iOS</bold> aip saor in aisce a íoslódáil:
 record-must-allow-microphone = Caithfidh tú cead a thabhairt dúinn an micreafón a úsáid.
 record-cancel = Cealaigh an t-ataifeadadh
+record-retry = Bain triail eile as
 record-error-too-short = Bhí an taifeadadh róghearr.
 record-error-too-long = Bhí an taifeadadh rófhada.
 record-error-too-quiet = Bhí an taifeadadh róchiúin.
@@ -171,12 +187,16 @@ record-submit-success = D'éirigh leis! An bhfuil fonn ort ceann amháin eile a 
 record-help = Tapáil leis an taifeadadh a thosú, ansin léigh an abairt thuas os ard.
 record-cancel = Cealaigh an t-ataifeadadh
 review-terms = Má úsáideann tú Common Voice, glacann tú leis na <termsLink>Téarmaí</termsLink> agus leis an <privacyLink>bhFógra Príobháideachais</privacyLink>
+terms-agree = Aontaím
+terms-disagree = Ní aontaím
 review-aborted = Stopadh an uaslódáil. An bhfuil fonn ort na taifeadtaí a scriosadh?
 review-submit-title = Athbhreithnigh agus Seol
 review-submit-msg = Go raibh maith agat!<lineBreak></lineBreak>Anois, déan athbhreithniú ar na taifeadtaí a rinne tú, ansin seol chugainn iad.
 review-recording = Athbhreithnigh
 review-rerecord = Ataifead
 review-cancel = Cealaigh
+review-keep-recordings = Coinnigh na taifeadtaí
+review-delete-recordings = Scrios na taifeadtaí
 
 ## Download Modal
 
@@ -205,6 +225,13 @@ request-language-cancel = Fág an Fhoirm
 request-language-form-language =
     .label = Teanga
 request-language-success-title = Fuaireamar an t-iarratas, go raibh maith agat.
+request-language-success-content = Beimid i dteagmháil leat go luath le tuilleadh eolais maidir le teangacha nua ar Common Voice.
 
 ## Languages Overview
 
+language-section-in-progress = Idir lámha
+language-section-launched = Seolta
+languages-show-more = Níos Mó
+languages-show-less = Níos Lú
+language-speakers = Cainteoirí
+language-total-progress = Iomlán
