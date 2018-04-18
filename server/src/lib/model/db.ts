@@ -327,10 +327,10 @@ export default class DB {
     await this.mysql.query(
       `
         INSERT INTO language_requests (requested_languages_id, client_id)
-        VALUES (LAST_INSERT_ID(), ?)
+        VALUES (?, ?)
         ON DUPLICATE KEY UPDATE client_id = client_id
       `,
-      [client_id]
+      [requestedLanguageId, client_id]
     );
   }
 

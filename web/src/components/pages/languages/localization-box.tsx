@@ -6,7 +6,7 @@ import API from '../../../services/api';
 import { createCrossLocaleMessagesGenerator } from '../../../services/localization';
 import StateTree from '../../../stores/tree';
 import { Hr } from '../../ui/ui';
-import HelpTranslateModal from './help-translate-modal';
+import GetInvolvedModal from './get-involved-modal';
 
 interface Locale {
   code?: string;
@@ -74,19 +74,19 @@ class LocalizationBox extends React.Component<Props, State> {
         </div>
         {showCTA &&
           messagesGenerator && (
-            <React.Fragment>
-              {showModal && (
-                <HelpTranslateModal
-                  locale={locale}
-                  onRequestClose={this.toggleModal}
-                />
-              )}
-              <LocalizationProvider messages={messagesGenerator()}>
+            <LocalizationProvider messages={messagesGenerator()}>
+              <React.Fragment>
                 <Localized id="get-involved-button">
                   <button onClick={this.toggleModal} />
                 </Localized>
-              </LocalizationProvider>
-            </React.Fragment>
+                {showModal && (
+                  <GetInvolvedModal
+                    locale={locale}
+                    onRequestClose={this.toggleModal}
+                  />
+                )}
+              </React.Fragment>
+            </LocalizationProvider>
           )}
       </li>
     );
