@@ -8,6 +8,7 @@ email-input =
     .label = E-Mail-Adresse
 submit-form-action = Absenden
 loading = Wird geladen…
+audio-loading-error = Es tut uns leid! Wir verarbeiten unsere Audiodateien, bitte versuchen Sie es in Kürze erneut.
 
 ## Layout
 
@@ -23,6 +24,7 @@ cookies = Cookies
 faq = FAQ
 content-license-text = Inhalte stehen unter einer <licenseLink>Creative-Commons-Lizenz</licenseLink>
 share-title = Überzeugen Sie auch andere, mit Ihrer Stimme beizutragen!
+share-text = Lehren auch Sie Maschinen, wie echte Menschen sprechen, indem Sie Ihre Stimme bei { $link } spenden
 back-top = Zum Seitenanfang
 
 ## Home Page
@@ -35,6 +37,8 @@ wall-of-text-more-desktop = Nun ist es an Ihnen! Helfen Sie uns, indem Sie Ihre 
 show-wall-of-text = Mehr erfahren
 help-us-title = Helfen Sie uns beim Bestätigen von Sätzen!
 help-us-explain = Drücken Sie Play, hören Sie zu & erzählen Sie uns: Wurde der folgende Satz korrekt aufgesprochen?
+vote-yes = Ja
+vote-no = Nein
 request-language-text = Ihre Sprache wird bei Common Voice noch nicht aufgeführt? Da lässt sich was machen!
 request-language-button = Anfrage schicken
 
@@ -51,9 +55,12 @@ status-hours =
 # $goal - number of hours representing the next goal
 status-goal = Nächstes Ziel: { $goal }
 status-more-soon = Weitere Sprachen folgen bald!
+english = Englisch
 
 ## ProfileForm
 
+profile-form-cancel = Formular verlassen
+profile-form-delete = Profil löschen
 profile-form-username =
     .label = Benutzername
 profile-form-language =
@@ -67,6 +74,11 @@ profile-form-gender =
     .label = Geschlecht
 profile-form-submit-save = Speichern
 profile-form-submit-saved = Gespeichert
+male = Männlich
+female = Weiblich
+why-profile-title = Warum ein Profil?
+why-profile-text = Indem Sie uns einige Informationen über sich geben, können die von Ihnen an Common Voice übermittelten Audiodaten besser dazu verwendet werden, die Genauigkeit von Spracherkennungssystemen zu verbessern.
+edit-profile = Profil bearbeiten
 
 ## FAQ
 
@@ -137,6 +149,8 @@ terms-general-law = Geltendes Recht: Diese Nutzungsbedingungen stellen die gesam
 ## Data
 
 data-download-button = Common-Voice-Datensatz herunterladen
+data-download-yes = Ja
+data-download-no = Ja
 data-download-license = Lizenz: <licenseLink>CC0</licenseLink>
 data-download-modal = Der von Ihnen gewählte Download beträgt <size>{ $size }GB</size>, fortfahren?
 data-subtitle = Wir sind dabei, einen freien und öffentlich zugänglichen Datensatz mit Sprachaufnahmen aufzubauen, der von jedem genutzt werden kann, um sprachunterstützte Anwendungen zu trainieren.
@@ -153,6 +167,7 @@ data-other-tatoeba-description = Tatoeba ist eine umfangreiche Datenbank aus Sä
 data-bundle-button = Datensatz-Set herunterladen
 data-bundle-description = Common-Voice-Daten plus alle anderen, oben erwähnten Sprachdatensätze.
 license = Lizenz: <licenseLink>{ $license }</licenseLink>
+license-mixed = Gemischt
 
 ## Record Page
 
@@ -160,6 +175,8 @@ record-platform-not-supported = Es tut uns leid, Ihre Plattform wird derzeit nic
 record-platform-not-supported-desktop = Auf Desktop-Computern können Sie die neueste Version herunterladen:
 record-platform-not-supported-ios = <bold>iOS</bold>-Nutzer können unsere App kostenlos herunterladen:
 record-must-allow-microphone = Sie müssen den Mikrofon-Zugriff zulassen.
+record-cancel = Erneute Aufnahme abbrechen
+record-retry = Erneut versuchen
 record-error-too-short = Die Aufnahme war zu kurz.
 record-error-too-long = Die Aufnahme war zu lang.
 record-error-too-quiet = Die Aufnahme war zu leise.
@@ -167,12 +184,16 @@ record-submit-success = Senden erfolgreich! Aufnehmen wiederholen?
 record-help = Bitte drücken Sie auf Aufnehmen und lesen Sie dann den oberen Satz laut vor.
 record-cancel = Erneute Aufnahme abbrechen
 review-terms = Durch die Verwendung von Common Voice akzeptieren Sie unsere <termsLink>Nutzungsbedingungen</termsLink> und den <privacyLink>Datenschutzhinweis</privacyLink>.
+terms-agree = Ich stimme zu
+terms-disagree = Ich stimme nicht zu
 review-aborted = Hochladen abgebrochen. Möchten Sie Ihre Tonaufnahmen löschen?
 review-submit-title = Überprüfen & Senden
 review-submit-msg = Vielen Dank für die Aufnahme!<lineBreak></lineBreak>Sie können Ihre Mitschnitte nun unterhalb nochmal begutachten und danach absenden.
 review-recording = Überprüfen
 review-rerecord = Neu aufnehmen
 review-cancel = Absenden abbrechen
+review-keep-recordings = Aufnahmen behalten
+review-delete-recordings = Meine Aufnahmen löschen
 
 ## Download Modal
 
@@ -203,14 +224,11 @@ request-language-form-language =
 request-language-success-title = Sprachanfrage erfolgreich abgesendet, vielen Dank.
 request-language-success-content = Wir melden uns bald mit weiteren Informationen darüber, wie Sie Ihre Sprache bei Common Voice hinzufügen können.
 
-## Help Translate Modal
-##  note: this section should probably be moved to cross-locale.ftl
+## Languages Overview
 
-help-translate-title = Helfen Sie bei der Übersetzung auf { $language }
-help-translate-cancel = Verlassen
-help-translate-text = Wir leiten Sie an Mozillas Übersetzungsseite <pontoonLink>Pontoon</pontoonLink> weiter, wo diese Sprache aktuell in der Öffentlichkeit übersetzt wird.
-language-updates-title = Neuigkeiten für { $language } abonnieren
-help-translate-link = Pontoon aufrufen
-language-updates-success-title = Anfrage für Neuigkeiten zu { $language } erfolgreich übermittelt, vielen Dank.
-language-updates-success-content = Wir melden uns bald mit weiteren Informationen darüber, wie Sie mitmachen können.
-language-updates-success-collapsed-title = Sie haben Neuigkeiten für { $language } abonniert
+language-section-in-progress = In Arbeit
+language-section-launched = Gestartet
+languages-show-more = Mehr anzeigen
+languages-show-less = Weniger anzeigen
+language-speakers = Sprecher
+language-total-progress = Gesamt
