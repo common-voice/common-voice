@@ -77,10 +77,13 @@ faq-title = Ceisteanna Coitianta
 faq-what-q = Cad é Common Voice?
 faq-important-q = Cén fáth a bhfuil sé tábhachtach?
 faq-get-q = An féidir liom na sonraí Common Voice a íoslódáil?
+faq-get-a = Tá an tacar sonraí ar fáil anois ar <downloadLink>an leathanach íoslódála</downloadLink> de réir téarmaí an cheadúnais <licenseLink>CC-0</licenseLink>.
 faq-mission-q = Cén fáth ar cuid de mhisean Mozilla é Common Voice?
 faq-native-q = Ní cainteoir dúchais { $lang } mé agus tá blas coimhthíoch le haithint ar mo theanga. An bhfuil sibh ag iarraidh mo ghutha mar sin féin?
+faq-native-a = Tá, cinnte. Cuid den aidhm atá againn le Common Voice ná an oiread blasanna agus is féidir a bhailiú, sa chaoi go mbeidh ríomhairí in ann <bold>gach duine</bold> a thuiscint.
 faq-firefox-q = An úsáidfidh sibh caint-go-téacs, via Common Voice, mar chuid de Firefox?
 faq-hours-q = Cén fáth a bhfuil sibh ag lorg 10,000 uair?
+faq-hours-a = Seo é an líon uaireanta, a bheag nó a mhór, atá ag teastáil chun córas caint-go-téacs den chéad scoth a thraenáil.
 faq-source-q = Cad as na téacsanna?
 faq-source-a1 = Tháinig na habairtí ó rannpháirtithe éagsúla, agus ó scripteanna do scannáin ar nós <italic>It's a Wonderful Life</italic> atá ar fáil don phobal anois.
 faq-source-a2 = Is féidir leat na habairtí go léir a fháil <dataLink>san fhillteán seo</dataLink> ar GitHub.
@@ -88,10 +91,12 @@ faq-source-a2 = Is féidir leat na habairtí go léir a fháil <dataLink>san fhi
 ## Profile
 
 profile-why-title = Cén fáth a bhfuil gá le próifíl?
+profile-why-content = Má sholáthraíonn tú roinnt eolais fútsa féin, beidh na sonraí fuaime a thugann tú do Common Voice i bhfad níos úsáidí d'innill aitheanta cainte a úsáideann na sonraí seo chun an cruinneas a fheabhsú.
 
 ## NotFound
 
 notfound-title = Gan aimsiú
+notfound-content = Mo leithscéal ach ní thuigim céard atá tú ag lorg.
 
 ## Privacy
 
@@ -131,8 +136,11 @@ terms-general-law = Governing Law: These Legal Terms constitute the entire agree
 data-download-button = Íoslódáil Sonraí Common Voice
 data-download-license = Ceadúnas: <licenseLink>CC-0</licenseLink>
 data-download-modal = Tá tú ar tí <size>{ $size }GB</size> a íoslódáil, an bhfuil tú cinnte?
+data-subtitle = Táimid ag tógáil tacar sonraí gutha a bheidh oscailte agus ar fáil do chách chun feidhmchláir a úsáideann caint a thraenáil.
+data-other-title = Tacair shonraí eile...
 data-other-goto = Téigh go { $name }
 data-other-download = Íoslódáil sonraí
+data-other-librispeech-description = Is éard atá in LibriSpeech ná corpas cainte ina bhfuil timpeall is 1000 uair an chloig de Bhéarla labhartha, cuid den ábhar léite as closleabhair agus an chuid eile ón tionscadal LibriVox.
 data-other-ted-name = Corpas TED-LIUM
 license = Ceadúnas: <licenseLink>{ $license }</licenseLink>
 
