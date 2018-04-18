@@ -83,6 +83,7 @@ faq-mission-q = Cén fáth ar cuid de mhisean Mozilla é Common Voice?
 faq-native-q = Ní cainteoir dúchais { $lang } mé agus tá blas coimhthíoch le haithint ar mo theanga. An bhfuil sibh ag iarraidh mo ghutha mar sin féin?
 faq-native-a = Tá, cinnte. Cuid den aidhm atá againn le Common Voice ná an oiread blasanna agus is féidir a bhailiú, sa chaoi go mbeidh ríomhairí in ann <bold>gach duine</bold> a thuiscint.
 faq-firefox-q = An úsáidfidh sibh caint-go-téacs, via Common Voice, mar chuid de Firefox?
+faq-firefox-a = Níl aon teorainn leis na féidearthachtaí a bhaineann le Common Voice, agus ba mhaith linn comhéadain ghutha a thástáil i dtáirgí éagsúla, Firefox ina measc.
 faq-quality-q = Cén leibhéal cáilíochta atá ag teastáil chun leas a bhaint as an taifeadadh?
 faq-hours-q = Cén fáth a bhfuil sibh ag lorg 10,000 uair?
 faq-hours-a = Seo é an líon uaireanta, a bheag nó a mhór, atá ag teastáil chun córas caint-go-téacs den chéad scoth a thraenáil.
