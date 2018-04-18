@@ -68,6 +68,7 @@ terms-general-title = Generale
 
 ## Data
 
+data-download-button = Scarica i dati di Common Voice
 data-download-license = Licenza: <licenseLink>CC-0</licenseLink>
 data-other-download = Scarica i dati
 license = Licenza: <licenseLink>{ $license }</licenseLink>
