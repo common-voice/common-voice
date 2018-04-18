@@ -27,16 +27,29 @@ back-top = Fill ar bharr an leathanaigh
 
 ## Home Page
 
+home-title = Seo é Common Voice – córas de chuid Mozilla a mhúineann do ríomhairí an chaoi a labhraíonn daoine.
 home-cta = Abair leat agus cabhraigh linn!
-wall-of-text-start = Is rud nádúrtha an guth daonna. Sin an fáth a bhfuilimid an-tógtha le teicneolaíocht cainte. Ach, le córas den sórt seo a chruthú, tá bailiúchán ollmhór sonraí gutha de dhíth.
+wall-of-text-start = Is rud nádúrtha an guth daonna. Sin an fáth a bhfuilimid an-tógtha le teicneolaíocht cainte a fhorbairt ar ríomhairí. Ach, le córas den sórt seo a chruthú, tá bailiúchán ollmhór sonraí gutha de dhíth.
+wall-of-text-more-mobile = Faraor, coinníonn na mórchomhlachtaí teicneolaíochta an chuid is mó de na sonraí atá acu faoi ghlas. Creidimid go bplúchann sé sin iomaíocht shláintiúil. Dá bharr sin, thosaigh muid an togra Common Voice chun aithint cainte a chur ar fáil do chách.
+wall-of-text-more-desktop = Anois is féidir leat do ghuth a bhronnadh dúinn chun cabhrú linn bailiúchán oscailte sonraí gutha a chruthú, sonraí a bheidh aon duine in ann a úsáid in aipeanna nuálacha nó ar an nGréasán.<lineBreak></lineBreak>Léigh abairt os ard le múineadh don ríomhaire an chaoi a labhraíonn daoine, nó deimhnigh na taifeadtaí a rinne daoine eile. Tá sé chomh simplí leis sin!
 show-wall-of-text = Tuilleadh Eolais
 help-us-title = Cabhraigh linn abairtí a dheimhniú!
+help-us-explain = Cliceáil an tsaighead, éist, agus abair linn: an bhfuil an taifeadadh cruinn?
+request-language-text = Cá bhfuil mo theangasa?
 request-language-button = Iarr Teanga Nua
 
 ## ProjectStatus
 
 status-title = Stádas an tionscadail: féach ar an dul chun cinn atá déanta againn!
 status-contribute = Bronn do ghuth
+status-hours =
+    { $hours ->
+        [one] Uair amháin deimhnithe go dtí seo!
+        [two] { $hours } uair an chloig deimhnithe go dtí seo!
+        [few] { $hours } huaire an chloig deimhnithe go dtí seo!
+        [many] { $hours } n-uaire an chloig deimhnithe go dtí seo!
+       *[other] { $hours } uair an chloig deimhnithe go dtí seo!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = An chéad sprioc eile: { $goal }
