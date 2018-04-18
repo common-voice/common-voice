@@ -81,6 +81,7 @@ faq-important-a = Is rud nádúrtha guth an duine. Is é an teanga labhartha an 
 faq-get-q = An féidir liom na sonraí Common Voice a íoslódáil?
 faq-get-a = Tá an tacar sonraí ar fáil anois ar <downloadLink>an leathanach íoslódála</downloadLink> de réir téarmaí an cheadúnais <licenseLink>CC-0</licenseLink>.
 faq-mission-q = Cén fáth ar cuid de mhisean Mozilla é Common Voice?
+faq-mission-a = An bunchuspóir atá ag Mozilla ná Gréasán oscailte agus inrochtana a chothú. Chun é seo a dhéanamh, caithfimid cumhacht a chur i lámha daoine cruthaitheacha trí thionscadail ar nós Common Voice. Agus teicneolaíochtaí cainte ag teacht chun cinn sa lá atá inniu, creidimid gur chóir dúinn cothrom na Féinne a dheimhniú do chách. Tá gá le níos mó teangacha agus blasanna ó phobal níos leithne agus na teicneolaíochtaí seo á dtógáil agus á dtástáil. Ba mhaith le Mozilla Idirlíon sláintiúil bríomhar a chur chun cinn. Beidh Common Voice ina acmhainn phoiblí a chabhróidh le foirne Mozilla agus forbróirí ar fud an domhain.
 faq-native-q = Ní cainteoir dúchais { $lang } mé agus tá blas coimhthíoch le haithint ar mo theanga. An bhfuil sibh ag iarraidh mo ghutha mar sin féin?
 faq-native-a = Tá, cinnte. Cuid den aidhm atá againn le Common Voice ná an oiread blasanna agus is féidir a bhailiú, sa chaoi go mbeidh ríomhairí in ann <bold>gach duine</bold> a thuiscint.
 faq-firefox-q = An úsáidfidh sibh caint-go-téacs, via Common Voice, mar chuid de Firefox?
