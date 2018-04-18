@@ -47,28 +47,32 @@ passport.deserializeUser((sessionUser: any, done: Function) =>
   done(null, sessionUser)
 );
 
-const strategy = new Auth0Strategy(
-  {
-    domain: DOMAIN,
-    clientID: CLIENT_ID,
-    clientSecret: CLIENT_SECRET,
-    callbackURL:
+if (DOMAIN) {
+  const strategy = new Auth0Strategy(
+    {
+      domain: DOMAIN,
+      clientID: CLIENT_ID,
+      clientSecret: CLIENT_SECRET,
+      callbackURL:
       (({
         stage: 'https://voice.allizom.org',
         prod: 'https://voice.mozilla.org',
       } as any)[ENVIRONMENT] || '') + CALLBACK_URL,
-    scope: 'openid email',
-  },
-  (
-    accessToken: any,
-    refreshToken: any,
-    extraParams: any,
-    profile: any,
-    done: any
-  ) => done(null, profile)
-);
+      scope: 'openid email',
+    },
+    (
+      accessToken: any,
+      refreshToken: any,
+      extraParams: any,
+      profile: any,
+      done: any
+    ) => done(null, profile)
+  );
 
-passport.use(strategy);
+  passport.use(strategy);
+} else {
+  console.log('No Auth0 configuration found');
+}
 
 router.get(
   CALLBACK_URL,
