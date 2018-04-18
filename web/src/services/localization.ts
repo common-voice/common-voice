@@ -34,6 +34,7 @@ export const LOCALES = isProduction()
       'zh-CN',
       'nl',
       'sq',
+      'ga-IE',
     ];
 
 export function negotiateLocales(locales: string[]) {
