@@ -1,5 +1,8 @@
 ## General
 
+yes-receive-emails = Tá, seol ríomhphost chugam. Ba mhaith liom a bheith ar an eolas faoi Common Voice.
+stayintouch = Táimid ag iarraidh comhphobal a thógáil timpeall teicneolaíochta cainte. Ba mhaith linn fanacht i dteagmháil leat chun nuacht agus foinsí nua sonraí a sheoladh chugat, agus le cloisteáil cén chaoi a n-úsáidfidh tú na sonraí seo.
+privacy-info = Geallaimid duit go mbeimid cúramach le do chuid sonraí pearsanta. Tuilleadh eolais inár <privacyLink>bhFógra Príobháideachais</privacyLink>.
 return-to-cv = Fill ar Common Voice
 email-input =
     .label = Ríomhphost
@@ -19,9 +22,12 @@ terms = Téarmaí
 cookies = Fianáin
 faq = Ceisteanna Coitianta
 content-license-text = Tá an t-ábhar seo ar fáil de réir téarmaí <licenseLink>Cheadúnas Creative Commons</licenseLink>
+share-title = Cabhraigh linn daoine nua a earcú!
+back-top = Fill ar bharr an leathanaigh
 
 ## Home Page
 
+home-cta = Abair leat agus cabhraigh linn!
 show-wall-of-text = Tuilleadh Eolais
 
 ## ProjectStatus
