@@ -85,6 +85,14 @@ notfound-title = Gan aimsiú
 
 ## Privacy
 
+privacy-title = Common Voice Privacy Notice
+privacy-effective = Effective { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
+privacy-policy = When Mozilla (that’s us), receives information from you, our <policy>Mozilla Privacy Policy</policy> describes how we handle that information.
+privacy-data-demographic = <name>Demographic data.</name> You can optionally send us information such as your accent, age, and gender. This helps us and other researchers improve and create speech-to-text technology and tools.
+privacy-data-account = <name>Account data.</name> You can optionally create an account, in which case we receive your email address. This is associated with your demographic and interaction data but is not shared to the public.
+privacy-data-recordings = <name>Voice Recordings.</name> Voice recordings, along with any associated demographic data, may be available in the Common Voice database for public consumption and use.
+privacy-data-interaction = <name>Interaction data.</name> We use Google Analytics to better understand how you interact with the Common Voice app or website. For example, this includes number of voice samples you record or listen to, interactions with buttons and menus, session length.
+privacy-data-technical = <name>Technical data.</name> Using Google Analytics, we collect the URL and title of the Common Voice pages you visit. We collect your browser, viewport size, and screen resolution. We also collect your location, and the language setting in your browser.
 privacy-more = <more>Tuilleadh eolais</more>
 
 ## Terms
@@ -122,13 +130,17 @@ license = Ceadúnas: <licenseLink>{ $license }</licenseLink>
 
 record-platform-not-supported = Ár leithscéal, ach ní thacaímid leis an ardán seo faoi láthair.
 record-platform-not-supported-desktop = Ar ríomhaire, is féidir leat na leaganacha is déanaí a íoslódáil:
+record-platform-not-supported-ios = Is féidir le daoine ar <bold>iOS</bold> aip saor in aisce a íoslódáil:
 record-must-allow-microphone = Caithfidh tú cead a thabhairt dúinn an micreafón a úsáid.
 record-error-too-short = Bhí an taifeadadh róghearr.
 record-error-too-long = Bhí an taifeadadh rófhada.
 record-error-too-quiet = Bhí an taifeadadh róchiúin.
+record-submit-success = D'éirigh leis! An bhfuil fonn ort ceann amháin eile a thaifeadadh?
+record-help = Tapáil leis an taifeadadh a thosú, ansin léigh an abairt thuas os ard.
 record-cancel = Cealaigh an t-ataifeadadh
 review-aborted = Stopadh an uaslódáil. An bhfuil fonn ort na taifeadtaí a scriosadh?
 review-submit-title = Athbhreithnigh agus Seol
+review-submit-msg = Go raibh maith agat!<lineBreak></lineBreak>Anois, déan athbhreithniú ar na taifeadtaí a rinne tú, ansin seol chugainn iad.
 review-recording = Athbhreithnigh
 review-rerecord = Ataifead
 review-cancel = Cealaigh
@@ -136,9 +148,11 @@ review-cancel = Cealaigh
 ## Download Modal
 
 download-title = Tosaíodh an íoslódáil.
+download-helpus = Cabhraigh linn comhphobal a thógáil timpeall teicneolaíochta cainte. Cláraigh leis an liosta ríomhphoist.
 download-form-email =
     .label = Cuir isteach do sheoladh ríomhphoist
     .value = Go raibh maith agat, beimid i dteagmháil go luath.
+download-back = Fill ar Thacair Shonraí Common Voice
 download-no = Níl, GRMA
 
 ## Contact Modal
