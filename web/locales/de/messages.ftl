@@ -201,9 +201,10 @@ request-language-cancel = Formular verlassen
 request-language-form-language =
     .label = Sprache
 request-language-success-title = Sprachanfrage erfolgreich abgesendet, vielen Dank.
-request-language-success-text = Wir werden uns bei Ihnen mit weiteren Informationen zu Ihrer Sprache melden, sobald diese verfügbar ist.
+request-language-success-content = Wir melden uns bald mit weiteren Informationen darüber, wie Sie Ihre Sprache bei Common Voice hinzufügen können.
 
 ## Help Translate Modal
+##  note: this section should probably be moved to cross-locale.ftl
 
 help-translate-title = Helfen Sie bei der Übersetzung auf { $language }
 help-translate-cancel = Verlassen
@@ -211,5 +212,5 @@ help-translate-text = Wir leiten Sie an Mozillas Übersetzungsseite <pontoonLink
 language-updates-title = Neuigkeiten für { $language } abonnieren
 help-translate-link = Pontoon aufrufen
 language-updates-success-title = Anfrage für Neuigkeiten zu { $language } erfolgreich übermittelt, vielen Dank.
-language-updates-success-text = Wir melden uns mit neuen Informationen, sobald sie verfügbar sind.
+language-updates-success-content = Wir melden uns bald mit weiteren Informationen darüber, wie Sie mitmachen können.
 language-updates-success-collapsed-title = Sie haben Neuigkeiten für { $language } abonniert
