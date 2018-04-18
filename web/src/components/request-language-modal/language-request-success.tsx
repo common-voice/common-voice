@@ -21,7 +21,7 @@ export default ({ onRequestClose }: { onRequestClose: () => void }) => (
 
     <br />
 
-    <Localized id="request-language-success-text">
+    <Localized id="request-language-success-content">
       <p className="small" />
     </Localized>
 
