@@ -46,6 +46,7 @@ profile-form-submit-saved = Salvato
 faq-title = Domande più frequenti
 faq-what-q = Che cosa è Common Voice?
 faq-important-q = Perchè è così importante?
+faq-get-q = Come posso ottenere i dati di Common Voice?
 
 ## Profile
 
