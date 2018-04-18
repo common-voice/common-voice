@@ -1,5 +1,5 @@
 import * as React from 'react';
-const { Localized } = require('fluent-react');
+import { Localized } from 'fluent-react';
 
 export default () => (
   <div id="not-found-container">

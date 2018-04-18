@@ -27,6 +27,10 @@
 .project-status .contents {
     padding: 1.5rem 2rem;
     font-size: .9rem;
+
+    & b {
+        text-transform: uppercase;
+    }
 }
 
 .language-progress {

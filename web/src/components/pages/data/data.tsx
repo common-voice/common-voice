@@ -1,14 +1,13 @@
+import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import Modal from '../../modal/modal';
-import { CardAction, Button, Hr } from '../../ui/ui';
+import { CardAction, Button } from '../../ui/ui';
 import { trackDataset } from '../../../services/tracker';
 import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
 import { DownloadIcon } from '../../ui/icons';
 import AfterDownloadModal from './after-download-modal';
-
-const { Localized } = require('fluent-react');
 
 const commonVoiceDataset = {
   nick: 'commonvoice',
@@ -60,7 +59,7 @@ const datasets = [
     url: 'https://tatoeba.org/eng/downloads',
     download: ['https://downloads.tatoeba.org/audio/tatoeba_audio_eng.zip'],
     license: {
-      name: 'Mixed',
+      name: 'license-mixed',
       url: 'https://tatoeba.org/eng/downloads',
     },
   },
@@ -83,7 +82,7 @@ interface PropsFromDispatch {
   updateUser: typeof User.actions.update;
 }
 
-interface Props extends PropsFromState, PropsFromDispatch {}
+interface Props extends LocalizationProps, PropsFromState, PropsFromDispatch {}
 
 interface ModalInfo {
   nick: string;
@@ -128,6 +127,7 @@ class DataPage extends React.Component<Props, State> {
   };
 
   render() {
+    const { getString } = this.props;
     const { showModalFor } = this.state;
     return (
       <div id="data-container">
@@ -141,8 +141,8 @@ class DataPage extends React.Component<Props, State> {
             <Modal
               innerClassName="download-modal"
               buttons={{
-                Yes: this.startDownload,
-                No: this.hideModal,
+                [getString('data-download-yes')]: this.startDownload,
+                [getString('data-download-no')]: this.hideModal,
               }}
               onRequestClose={this.hideModal}>
               <Localized
@@ -231,7 +231,9 @@ class DataPage extends React.Component<Props, State> {
               <div>
                 <Localized
                   id="license"
-                  $license={dataset.license.name}
+                  $license={
+                    getString(dataset.license.name) || dataset.license.name
+                  }
                   licenseLink={
                     <a
                       href={dataset.license.url}
@@ -294,4 +296,4 @@ const mapDispatchToProps = {
 export default connect<PropsFromState, PropsFromDispatch>(
   mapStateToProps,
   mapDispatchToProps
-)(DataPage);
+)(withLocalization(DataPage));

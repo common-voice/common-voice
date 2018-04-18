@@ -1,4 +1,4 @@
-const { Localized } = require('fluent-react');
+import { Localized } from 'fluent-react';
 import * as React from 'react';
 import { NavLink } from 'react-router-dom';
 import { isProduction } from '../../utility';

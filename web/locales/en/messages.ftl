@@ -7,6 +7,7 @@ email-input =
     .label = Email
 submit-form-action = Submit
 loading = Loading…
+audio-loading-error = Sorry! We are processing our audio files, please try again shortly.
 
 ## Layout
 speak = Speak
@@ -21,6 +22,7 @@ cookies = Cookies
 faq = FAQ
 content-license-text = Content available under a <licenseLink>Creative Commons license</licenseLink>
 share-title = Help us find others to donate their voice!
+share-text = Help teach machiness how real people speak, donate your voice at { $link }
 back-top = Back to Top
 
 ## Home Page
@@ -43,6 +45,8 @@ wall-of-text-more-desktop =
 show-wall-of-text = Read More
 help-us-title = Help us validate sentences!
 help-us-explain = Press play, listen & tell us: did they accurately speak the sentence below?
+vote-yes = Yes
+vote-no = No
 
 request-language-text = Don't see your language on Common Voice yet?
 request-language-button = Request a Language
@@ -59,8 +63,11 @@ status-hours =
 # $goal - number of hours representing the next goal
 status-goal = Next Goal: { $goal }
 status-more-soon = More languages coming soon!
+english = English
 
 ## ProfileForm
+profile-form-cancel = Exit Form
+profile-form-delete = Delete Profile
 profile-form-username =
     .label = User Name
 profile-form-language =
@@ -74,6 +81,13 @@ profile-form-gender =
     .label = Gender
 profile-form-submit-save = Save
 profile-form-submit-saved = Saved
+male = Male
+female = Female
+why-profile-title = Why a profile?
+why-profile-text =
+  By providing some information about yourself, the audio data you submit to Common Voice will be more useful to Speech
+  Recognition engines that use this data to improve their accuracy.
+edit-profile = Edit Profile
 
 ## FAQ
 faq-title = Frequently Asked Questions
@@ -138,6 +152,8 @@ terms-general-law = Governing Law: These Legal Terms constitute the entire agree
 
 ## Data
 data-download-button = Download Common Voice Data
+data-download-yes = Yes
+data-download-no = Yes
 data-download-license = License: <licenseLink>CC-0</licenseLink>
 data-download-modal = You are about to initiate a download of <size>{ $size }GB</size>, proceed?
 data-subtitle = We are building an open and publicly available dataset of voices that everyone can use to train speech-enabled applications.
@@ -154,12 +170,15 @@ data-other-tatoeba-description = Tatoeba is a large database of sentences, trans
 data-bundle-button = Download Dataset Bundle
 data-bundle-description = Common Voice data plus all other voice datasets above.
 license = License: <licenseLink>{ $license }</licenseLink>
+license-mixed = Mixed
 
 ## Record Page
 record-platform-not-supported = We’re sorry, but your platform is not currently supported.
 record-platform-not-supported-desktop = On desktop computers, you can download the latest:
 record-platform-not-supported-ios = <bold>iOS</bold> users can download our free app:
 record-must-allow-microphone = You must allow microphone access.
+record-cancel = Cancel
+record-retry = Retry
 record-error-too-short = The recording was too short.
 record-error-too-long = The recording was too long.
 record-error-too-quiet = The recording was too quiet.
@@ -168,12 +187,16 @@ record-help = Please tap to record, then read the above sentence aloud.
 record-cancel = Cancel Re-recording
 
 review-terms = By using Common Voice, you agree to our <termsLink>Terms</termsLink> and <privacyLink>Privacy Notice</privacyLink>
+terms-agree = I agree
+terms-disagree = I do not agree
 review-aborted = Upload aborted. Do you want to delete your recordings?
 review-submit-title = Review & Submit
 review-submit-msg = Thank you for recording!<lineBreak></lineBreak>Now review and submit your clips below.
 review-recording = Review
 review-rerecord = Re-record
 review-cancel = Cancel Submission
+review-keep-recordings = Keep the recordings
+review-delete-recordings = Delete my recordings
 
 ## Download Modal
 download-title = Your download has started.
@@ -201,13 +224,10 @@ request-language-form-language =
 request-language-success-title = Language request successfully submitted, thank you.
 request-language-success-content = We will be in touch with more information about how to add your language to Common Voice very soon.
 
-## Help Translate Modal
-#  note: this section should probably be moved to cross-locale.ftl
-help-translate-title = Help Translate { $language }
-help-translate-cancel = Exit
-help-translate-text = We will route you to Mozilla's translation tool, <pontoonLink>Pontoon</pontoonLink>, where this language is currently undergoing open translation.
-language-updates-title = Sign up for { $language } updates
-help-translate-link= Take Me To Pontoon
-language-updates-success-title = { $language } update request successfully submitted, thank you.
-language-updates-success-content = We will be in touch with more information about how to get involved very soon.
-language-updates-success-collapsed-title = You're signed up for { $language } updates
+## Languages Overview
+language-section-in-progress = In Progress
+language-section-launched = Launched
+languages-show-more = See More
+languages-show-less = See Less
+language-speakers = Speakers
+language-total-progress = Total

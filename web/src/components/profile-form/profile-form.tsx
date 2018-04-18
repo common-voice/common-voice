@@ -1,3 +1,4 @@
+import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
 import pick = require('lodash.pick');
 import * as React from 'react';
 import { connect } from 'react-redux';
@@ -5,7 +6,6 @@ import StateTree from '../../stores/tree';
 import { ACCENTS, AGES, GENDERS, User } from '../../stores/user';
 import Modal from '../modal/modal';
 import { Button, Hr, LabeledInput, LabeledSelect } from '../ui/ui';
-const { Localized } = require('fluent-react');
 
 interface EditableUser {
   email: string;
@@ -38,7 +38,7 @@ interface PropsFromDispatch {
   updateUser: (state: any) => void;
 }
 
-interface Props extends PropsFromState, PropsFromDispatch {
+interface Props extends LocalizationProps, PropsFromState, PropsFromDispatch {
   onExit?: () => any;
 }
 
@@ -103,11 +103,15 @@ class ProfileForm extends React.Component<Props, State> {
 
         <div className="title-and-action">
           <h1>Create a Profile</h1>
-          <a
-            href="javascript:void(0)"
-            onClick={onExit || this.toggleClearModal}>
-            {onExit ? 'Exit Form' : hasEnteredInfo && 'Delete Profile'}
-          </a>
+          <Localized
+            id={
+              'profile-form-' + (onExit ? 'cancel' : hasEnteredInfo && 'delete')
+            }>
+            <a
+              href="javascript:void(0)"
+              onClick={onExit || this.toggleClearModal}
+            />
+          </Localized>
         </div>
         <br />
 
@@ -208,7 +212,7 @@ class ProfileForm extends React.Component<Props, State> {
   private renderOptionsFor(options: any) {
     return Object.keys(options).map(key => (
       <option key={key} value={key}>
-        {options[key]}
+        {this.props.getString(key) || options[key]}
       </option>
     ));
   }
@@ -227,4 +231,4 @@ const mapDispatchToProps = (dispatch: any) => ({
 export default connect<PropsFromState, PropsFromDispatch>(
   mapStateToProps,
   mapDispatchToProps
-)(ProfileForm);
+)(withLocalization(ProfileForm));

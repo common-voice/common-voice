@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
-const { Localized } = require('fluent-react');
+import { Localized } from 'fluent-react';
 import { trackNavigation } from '../../../services/tracker';
 import { isProduction } from '../../../utility';
 import ProgressBar from '../../progress-bar/progress-bar';
@@ -54,7 +54,9 @@ class ProjectStatus extends React.Component<Props, State> {
 
         <div className="contents">
           <div className="language-progress">
-            <b>ENGLISH</b>
+            <Localized id="english">
+              <b />
+            </Localized>
             <ProgressBar progress={validatedHours ? validatedHours / goal : 0}>
               {validatedHours}
             </ProgressBar>

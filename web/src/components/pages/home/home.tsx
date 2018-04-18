@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { withRouter, RouteComponentProps } from 'react-router';
-const { Localized } = require('fluent-react');
+import { Localized } from 'fluent-react';
 import Validator from '../../validator';
 import RequestLanguageModal from '../../request-language-modal/request-language-modal';
 import { RecordIcon } from '../../ui/icons';

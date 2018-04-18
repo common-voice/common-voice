@@ -1,10 +1,11 @@
+import { LocalizationProps, withLocalization } from 'fluent-react';
 import * as React from 'react';
 import { trackListening } from '../../services/tracker';
 import { FontIcon, PlayIcon, RedoIcon } from '../ui/icons';
 
 const VOTE_NO_PLAY_MS = 3000; // Threshold when to allow voting no
 
-interface Props {
+interface Props extends LocalizationProps {
   src?: string;
   sentence?: string | React.ReactNode;
   vote?: boolean;
@@ -24,7 +25,7 @@ interface State {
 /**
  * Widget for listening to a recording.
  */
-export default class ListenBox extends React.Component<Props, State> {
+class ListenBox extends React.Component<Props, State> {
   el: HTMLAudioElement;
   playedSomeInterval: any;
 
@@ -173,6 +174,7 @@ export default class ListenBox extends React.Component<Props, State> {
   };
 
   render() {
+    const { getString, sentence, vote } = this.props;
     const {
       loaded,
       playing,
@@ -189,7 +191,7 @@ export default class ListenBox extends React.Component<Props, State> {
         className={
           'listen-box' + (loaded ? ' loaded' : '') + (playing ? ' playing' : '')
         }>
-        <div className="sentence-box">{this.props.sentence}</div>
+        <div className="sentence-box">{sentence}</div>
         <button
           onClick={this.onPlay}
           className="play-box"
@@ -198,19 +200,19 @@ export default class ListenBox extends React.Component<Props, State> {
           }>
           {playing ? <FontIcon type="stop" /> : <PlayIcon />}
         </button>
-        {this.props.vote ? (
+        {vote ? (
           <div className="vote-box">
             <button
               onClick={this.voteYes}
               onTouchStart={this.voteYes}
               disabled={!played}>
-              {this.renderShortcutText('Yes')}
+              {this.renderShortcutText(getString('vote-yes'))}
             </button>
             <button
               onClick={this.voteNo}
               onTouchStart={this.voteNo}
               disabled={!played && !playedSome}>
-              {this.renderShortcutText('No')}
+              {this.renderShortcutText(getString('vote-no'))}
             </button>
           </div>
         ) : (
@@ -245,3 +247,5 @@ export default class ListenBox extends React.Component<Props, State> {
     );
   }
 }
+
+export default withLocalization(ListenBox);

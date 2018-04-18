@@ -1,3 +1,4 @@
+import { Localized } from 'fluent-react';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import API from '../../../services/api';
@@ -75,15 +76,18 @@ class LanguagesPage extends React.Component<Props, State> {
 
           <div className="text">
             <div className="inner">
-              <h2>Don't see your language on Common Voice yet?</h2>
-              <Button
-                outline
-                rounded
-                onClick={() =>
-                  this.setState({ showLanguageRequestModal: true })
-                }>
-                Request a Language
-              </Button>
+              <Localized id="request-language-text">
+                <h2 />
+              </Localized>
+              <Localized id="request-language-button">
+                <Button
+                  outline
+                  rounded
+                  onClick={() =>
+                    this.setState({ showLanguageRequestModal: true })
+                  }
+                />
+              </Localized>
             </div>
           </div>
         </div>
@@ -102,23 +106,26 @@ class LanguagesPage extends React.Component<Props, State> {
           <Hr />
 
           <div className="labels">
-            <h2
-              className="in-progress"
-              onClick={() =>
-                this.setState({ selectedLanguageSection: 'in-progress' })
-              }>
-              In Progress
-            </h2>
-            <h2
-              className="launched"
-              onClick={() =>
-                this.setState({
-                  selectedLanguageSection: 'launched',
-                  showAll: false,
-                })
-              }>
-              Launched
-            </h2>
+            <Localized id="language-section-in-progress">
+              <h2
+                className="in-progress"
+                onClick={() =>
+                  this.setState({ selectedLanguageSection: 'in-progress' })
+                }
+              />
+            </Localized>
+
+            <Localized id="language-section-launched">
+              <h2
+                className="launched"
+                onClick={() =>
+                  this.setState({
+                    selectedLanguageSection: 'launched',
+                    showAll: false,
+                  })
+                }
+              />
+            </Localized>
           </div>
         </div>
 
@@ -126,14 +133,17 @@ class LanguagesPage extends React.Component<Props, State> {
           <section className="in-progress">
             <div className="md-block">
               <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                <h1>In Progress</h1>
+                <Localized id="language-section-in-progress">
+                  <h1 />
+                </Localized>
 
-                <a
-                  className="show-all-languages-md"
-                  href="javascript:void(0)"
-                  onClick={this.toggleShowAll}>
-                  {showAll ? 'See Less' : 'See More'}
-                </a>
+                <Localized id={'languages-show-' + (showAll ? 'less' : 'more')}>
+                  <a
+                    className="show-all-languages-md"
+                    href="javascript:void(0)"
+                    onClick={this.toggleShowAll}
+                  />
+                </Localized>
               </div>
 
               <Hr />
@@ -147,16 +157,19 @@ class LanguagesPage extends React.Component<Props, State> {
               )}
             </ul>
 
-            <button
-              className="show-all-languages-mobile"
-              onClick={this.toggleShowAll}>
-              {showAll ? 'See Less' : 'See More'}
-            </button>
+            <Localized id={'languages-show-' + (showAll ? 'less' : 'more')}>
+              <button
+                className="show-all-languages-mobile"
+                onClick={this.toggleShowAll}
+              />
+            </Localized>
           </section>
 
           <section className="launched">
             <div className="md-block">
-              <h1>Launched</h1>
+              <Localized id="language-section-launched">
+                <h1 />
+              </Localized>
 
               <Hr />
             </div>

@@ -1,10 +1,10 @@
+import { Localized } from 'fluent-react';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import ProfileForm from '../../profile-form/profile-form';
 import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
-import messages from '../../../messages';
 import Alert from '../../alert/alert';
 import { Button, Hr } from '../../ui/ui';
 
@@ -25,16 +25,20 @@ class WhyProfile extends React.Component<{}, WhyProfileState> {
       <div>
         <div id="why-profile-title">
           {expanded ? (
-            messages.WHY_PROFILE.TITLE
+            <Localized id="why-profile-title">
+              <span />
+            </Localized>
           ) : (
-            <a href="javascript:void(0)" onClick={this.toggle}>
-              {messages.WHY_PROFILE.TITLE}
-            </a>
+            <Localized id="why-profile-title">
+              <a href="javascript:void(0)" onClick={this.toggle} />
+            </Localized>
           )}
         </div>
         {expanded && (
           <div id="why-profile">
-            <p id="why-profile-text">{messages.WHY_PROFILE.CONTENT}</p>
+            <Localized id="why-profile-text">
+              <p id="why-profile-text" />
+            </Localized>
             <a href="javascript:void(0)" onClick={this.toggle}>
               Close
             </a>
@@ -84,7 +88,9 @@ class ProfileActions extends React.Component<PropsFromState, State> {
           </Alert>
         )}
         {this.props.hasEnteredInfo ? (
-          <Link to="/profile">Edit Profile</Link>
+          <Localized id="edit-profile">
+            <Link to="/profile" />
+          </Localized>
         ) : (
           <div>
             {profileFormVisible ? (

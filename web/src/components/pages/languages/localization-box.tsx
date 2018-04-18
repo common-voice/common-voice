@@ -57,12 +57,16 @@ class LocalizationBox extends React.Component<Props, State> {
           <h2>{locale.name}</h2>
           <div className="numbers">
             <div>
-              <span>Speakers</span>
+              <Localized id="language-speakers">
+                <span />
+              </Localized>
               <b>{locale.population.toLocaleString()}</b>
             </div>
             <Hr />
             <div>
-              <span>Total</span>
+              <Localized id="language-total-progress">
+                <span />
+              </Localized>
               <b>{Math.round(progress * 100)}%</b>
             </div>
             <ProgressBar progress={progress} />

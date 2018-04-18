@@ -1,7 +1,7 @@
 import debounce = require('lodash.debounce');
 import * as React from 'react';
 import { connect } from 'react-redux';
-const { Localized } = require('fluent-react');
+import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
 import ERROR_MSG from '../../../error-msg';
 import API from '../../../services/api';
 import { trackRecording } from '../../../services/tracker';
@@ -73,7 +73,10 @@ interface PropsFromDispatch {
   setReRecordSentence: typeof Recordings.actions.setReRecordSentence;
 }
 
-interface RecordProps extends PropsFromState, PropsFromDispatch {
+interface RecordProps
+  extends LocalizationProps,
+    PropsFromState,
+    PropsFromDispatch {
   api: API;
   isRecording: boolean;
   onRecord: Function;
@@ -275,6 +278,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
   render() {
     const {
       areSentencesLoaded,
+      getString,
       isSetFull,
       recordingsCount,
       reRecordSentence,
@@ -305,8 +309,8 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
             <Modal
               onRequestClose={this.closeRetryModal}
               buttons={{
-                Cancel: this.closeRetryModal,
-                Retry: () => window.location.reload(),
+                [getString('record-cancel')]: this.closeRetryModal,
+                [getString('record-retry')]: () => window.location.reload(),
               }}
             />
           </Localized>
@@ -409,4 +413,4 @@ const mapDispatchToProps = {
 export default connect<PropsFromState, PropsFromDispatch>(
   mapStateToProps,
   mapDispatchToProps
-)(RecordPage);
+)(withLocalization(RecordPage));

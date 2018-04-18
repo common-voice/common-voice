@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Modal from '../modal/modal';
 import { Button, LabeledInput, LabeledTextArea } from '../ui/ui';
-const { Localized } = require('fluent-react');
+import { Localized } from 'fluent-react';
 
 interface Props {
   onRequestClose: () => void;

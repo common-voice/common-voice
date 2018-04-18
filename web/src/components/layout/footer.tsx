@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
-const { Localized } = require('fluent-react');
+import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
 import { trackSharing } from '../../services/tracker';
 import URLS from '../../urls';
 import ContactModal from '../contact-modal/contact-modal';
@@ -15,19 +15,16 @@ import Logo from './logo';
 
 import './footer.css';
 
-const shareURL = 'https://voice.mozilla.org/';
-const encodedShareText = encodeURIComponent(
-  'Help teach machines how real people speak, donate your voice at ' + shareURL
-);
+const SHARE_URL = 'https://voice.mozilla.org/';
 
 interface FooterState {
   showContactModal: boolean;
 }
 
-export default class Footer extends React.Component<
+class Footer extends React.Component<
   {
     basePath: string;
-  },
+  } & LocalizationProps,
   FooterState
 > {
   private shareURLInput: HTMLInputElement;
@@ -48,6 +45,9 @@ export default class Footer extends React.Component<
 
   render() {
     const { basePath } = this.props;
+    const encodedShareText = encodeURIComponent(
+      this.props.getString('share-text', { link: SHARE_URL })
+    );
     return (
       <footer>
         {this.state.showContactModal && (
@@ -130,7 +130,7 @@ export default class Footer extends React.Component<
                 <input
                   type="text"
                   readOnly
-                  value={shareURL}
+                  value={SHARE_URL}
                   ref={node => (this.shareURLInput = node)}
                 />
                 <FontIcon type="link" />
@@ -147,7 +147,7 @@ export default class Footer extends React.Component<
               <a
                 href={
                   'https://www.facebook.com/sharer/sharer.php?u=' +
-                  encodeURIComponent(shareURL)
+                  encodeURIComponent(SHARE_URL)
                 }
                 target="_blank"
                 rel="noopener noreferrer"
@@ -173,3 +173,5 @@ export default class Footer extends React.Component<
     );
   }
 }
+
+export default withLocalization(Footer);

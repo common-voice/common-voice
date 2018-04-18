@@ -54,10 +54,10 @@ if (DOMAIN) {
       clientID: CLIENT_ID,
       clientSecret: CLIENT_SECRET,
       callbackURL:
-      (({
-        stage: 'https://voice.allizom.org',
-        prod: 'https://voice.mozilla.org',
-      } as any)[ENVIRONMENT] || '') + CALLBACK_URL,
+        (({
+          stage: 'https://voice.allizom.org',
+          prod: 'https://voice.mozilla.org',
+        } as any)[ENVIRONMENT] || '') + CALLBACK_URL,
       scope: 'openid email',
     },
     (

@@ -1,7 +1,6 @@
+import { Localized } from 'fluent-react';
 import * as React from 'react';
-import messages from '../../messages';
 import ProfileForm from '../profile-form/profile-form';
-const { Localized } = require('fluent-react');
 
 import { RouteComponentProps } from 'react-router';
 

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, withRouter } from 'react-router';
-const { Localized } = require('fluent-react');
+import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
 import API from '../../../services/api';
 import { trackRecording } from '../../../services/tracker';
 import { Recordings } from '../../../stores/recordings';
@@ -27,7 +27,8 @@ interface PropsFromDispatch {
 }
 
 interface Props
-  extends PropsFromState,
+  extends LocalizationProps,
+    PropsFromState,
     PropsFromDispatch,
     RouteComponentProps<any> {}
 
@@ -137,6 +138,7 @@ class Review extends React.Component<Props, State> {
   };
 
   render() {
+    const { getString } = this.props;
     const {
       progress,
       uploading,
@@ -152,8 +154,10 @@ class Review extends React.Component<Props, State> {
             privacyLink={<a target="_blank" href="/privacy" />}>
             <Modal
               buttons={{
-                'I agree': () => this.handlePrivacyAction(true),
-                'I do not agree': () => this.handlePrivacyAction(false),
+                [getString('terms-agree')]: () =>
+                  this.handlePrivacyAction(true),
+                [getString('terms-disagree')]: () =>
+                  this.handlePrivacyAction(false),
               }}
             />
           </Localized>
@@ -162,8 +166,8 @@ class Review extends React.Component<Props, State> {
           <Localized id="review-aborted">
             <Modal
               buttons={{
-                'Keep the recordings': this.toggleResetModal,
-                'Delete my recordings': this.resetAndGoHome,
+                [getString('review-keep-recordings')]: this.toggleResetModal,
+                [getString('review-delete-recordings')]: this.resetAndGoHome,
               }}
             />
           </Localized>
@@ -232,5 +236,5 @@ export default withRouter(
   connect<PropsFromState, PropsFromDispatch>(
     mapStateToProps,
     mapDispatchToProps
-  )(Review)
+  )(withLocalization(Review))
 );

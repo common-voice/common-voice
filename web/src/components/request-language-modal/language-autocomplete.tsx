@@ -1,5 +1,5 @@
 import Downshift from 'downshift';
-const { Localized } = require('fluent-react');
+import { Localized } from 'fluent-react';
 import ISO6391 from 'iso-639-1';
 import * as React from 'react';
 import { connect } from 'react-redux';
