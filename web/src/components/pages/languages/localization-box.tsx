@@ -1,3 +1,5 @@
+import { getLocaleFromPath } from '../../../utility';
+
 const { LocalizationProvider, Localized } = require('fluent-react');
 import * as React from 'react';
 import { connect } from 'react-redux';
@@ -36,12 +38,20 @@ class LocalizationBox extends React.Component<Props, State> {
   };
 
   async componentDidMount() {
+    await this.updateMessagesGenerator();
+  }
+
+  async componentDidUpdate() {
+    await this.updateMessagesGenerator();
+  }
+
+  async updateMessagesGenerator() {
     const { api, locale } = this.props;
     this.setState({
-      messagesGenerator: await createCrossLocaleMessagesGenerator(
-        api,
-        locale.code
-      ),
+      messagesGenerator: await createCrossLocaleMessagesGenerator(api, [
+        locale.code,
+        getLocaleFromPath(),
+      ]),
     });
   }
 
