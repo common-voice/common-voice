@@ -7,6 +7,44 @@ return-to-cv = Werom nei Common Voice
 email-input =
     .label = E-mailadres
 submit-form-action = Yntsjinje
+loading = Lade…
+audio-loading-error = Sorry! Op dit stuit ferwurkje wy ús audiobestannen, probearje it letter nochris.
+
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+
+
+## Languages
+
+ga-IE = Iersk
+cs = Tsjechysk
+uz = Oezbeeksk
+de = Dútsk
+bn = Bingaalsk
+sk = Slowaaksk
+ca = Katalaansk
+ko = Koreaansk
+es-CL = Spaansk (Chili)
+th = Taisk
+pl = Poalsk
+pt-BR = Portugeesk (Braziliaansk)
+id = Yndonezysk
+zh-TW = Sineesk (Taiwan)
+cy = Welsk
+el = Gryksk
+cv = Chuvash
+sv-SE = Sweedsk
+mk = Masedoanysk
+nn-NO = Norwegysk Nynorsk
+fr = Frânsk
+tr = Turksk
+tt = Tatarsk
+fy-NL = Frysk
+he = Hebriuwsk
+zh-CN = Sineesk (Sina)
+nl = Nederlânsk
+sq = Albaneesk
+ru = Russysk
+it = Italiaansk
 
 ## Layout
 
@@ -22,6 +60,7 @@ cookies = Cookies
 faq = FAQ
 content-license-text = Ynhâld beskikber ûnder in <licenseLink>Creative Commons-lisinsje</licenseLink>
 share-title = Help ús oaren te finen om harren stim te donearjen!
+share-text = Help mei masinen te learen hoe't echte minsken prate, donearje jo stim op { $link }
 back-top = Nei boppe
 
 ## Home Page
@@ -44,6 +83,8 @@ wall-of-text-more-desktop =
 show-wall-of-text = Mear ynfo
 help-us-title = Help ús sinnen te falidearjen!
 help-us-explain = Klik op de ôfspylknop, lústerje en fertel ús: wurdt de ûndersteande sin korrekt útsprutsen?
+vote-yes = Ja
+vote-no = Nee
 request-language-text = Sjogge jo jo taal noch net op Common Voice?
 request-language-button = In taal oanfreegje
 
@@ -51,7 +92,6 @@ request-language-button = In taal oanfreegje
 
 status-title = Projektsteat: sjoch hoe fier wy't al binne!
 status-contribute = Draach by mei jo stim
-loading = Lade…
 status-hours =
     { $hours ->
         [one] Op dit stuit ien oer falidearre!
@@ -61,9 +101,12 @@ status-hours =
 # $goal - number of hours representing the next goal
 status-goal = Folgjende doel: { $goal }
 status-more-soon = Ynkoarten mear talen beskikber!
+english = Ingelsk
 
 ## ProfileForm
 
+profile-form-cancel = Formulier ferlitte
+profile-form-delete = Profyl fuortsmite
 profile-form-username =
     .label = Brûkersnamme
 profile-form-language =
@@ -77,6 +120,18 @@ profile-form-gender =
     .label = Geslacht
 profile-form-submit-save = Bewarje
 profile-form-submit-saved = Bewarre
+profile-keep-data = Gegevens bewarje
+profile-delete-data = Gegevens fuortsmite
+male = Man
+female = Frau
+# Gender
+other = Oars
+why-profile-title = Wêrom in profyl?
+why-profile-text = Troch wat ynformaasje oer josels te jaan, sille de troch jo by Common Voice yntsjinne audiogegevens better brûkber wêze foar spraakwerkenningsmasinen dy't dizze gegevens brûke om de presizens te ferbetterjen.
+edit-profile = Profyl bewurkje
+profile-create = Profyl oanmeitsje
+profile-create-success = Profyl mei sukses oanmakke!
+profile-close = Slute
 
 ## FAQ
 
@@ -147,6 +202,8 @@ terms-general-law = Tapaslik rjocht: dizze Juridyske Betingsten omfetsje de fols
 ## Data
 
 data-download-button = Common Voice-gegevens downloade
+data-download-yes = Ja
+data-download-deny = Nee
 data-download-license = Lisinsje: <licenseLink>CC-0</licenseLink>
 data-download-modal = Jo stean op it punt in download te starten fan <size>{ $size }GB</size>, trochgean?
 data-subtitle = Wy meitsje in iepen en publyklik tagonklike dataset mei stimmen dy't elkenien brûke kin om mei stim oanstjoerde applikaasjes te trainen.
@@ -163,6 +220,7 @@ data-other-tatoeba-description = Tatoeba is in grutte database mei sinnen, oerse
 data-bundle-button = Bondel gegevensset downloade
 data-bundle-description = Common Voice-gegevens plus alle oare boppesteande stimgegevenssets.
 license = Lisinsje: <licenseLink>{ $license }</licenseLink>
+license-mixed = Mikst
 
 ## Record Page
 
@@ -170,6 +228,8 @@ record-platform-not-supported = It spyt ús, mar jo platfoarm wurdt op dit stuit
 record-platform-not-supported-desktop = Op desktopkompjûters, download de lêste:
 record-platform-not-supported-ios = <bold>iOS</bold>-brûkers kinne ús fergese app downloade:
 record-must-allow-microphone = Jo moatte tagong ta jo mikrofoan tastean.
+record-cancel = Opnij opnimmen annulearje
+record-retry = Opnij probearje
 record-error-too-short = De opname wie te koart.
 record-error-too-long = De opname wie te lang.
 record-error-too-quiet = De opname wie te súntsjes
@@ -177,12 +237,16 @@ record-submit-success = Opname suksesfol! Wolle jo noch wat opnimme?
 record-help = Tik om op te nimmen, lês dêrnei de boppesteande sin lûd op.
 record-cancel = Opnij opnimmen annulearje
 review-terms = Troch it brûken fan Common Voice, gean jo akkoard mei ús <termsLink>Betingsten</termsLink> en <privacyLink>Privacybelied</privacyLink>
+terms-agree = Ik gean akkoard
+terms-disagree = Ik gean net akkoard
 review-aborted = Oplaad ôfbrutsen. Wolle jo jo opnamen wiskje?
 review-submit-title = Beoardiele & yntsjinje
 review-submit-msg = Tank foar jo opname!<lineBreak></lineBreak>Beoardielje en tsjinje jo ûndersteande clips yn.
 review-recording = Beoardieling
 review-rerecord = Opnij opnimme
 review-cancel = Ynstjoering annulearje
+review-keep-recordings = Opnamen bewarje
+review-delete-recordings = Myn opnamen fuortsmite
 
 ## Download Modal
 
@@ -211,15 +275,13 @@ request-language-cancel = Formulier ferlitte
 request-language-form-language =
     .label = Taal
 request-language-success-title = Taaloanfraach mei sukses yntsjinne, tank.
-request-language-success-text = Wy nimme kontakt mei jo op mei mear ynformaasje oer jo taal as it beskikber komt.
+request-language-success-content = Wy nimme ynkoarten kontakt op mei mear ynformaasje oer hoe't jo taal oan Common Voice tafoege wurde kin .
 
-## Help Translate Modal
+## Languages Overview
 
-help-translate-title = Help mei mei oersetten nei { $language }
-help-translate-cancel = Ofslute
-help-translate-text = We liede jo nei it oersethelpmiddel fan Mozilla, <pontoonLink>Pontoon</pontoonLink>, wêr't dizze taal op dit stuit iepen stiet foar oersetting.
-language-updates-title = Ynskriuwe foar fernijingen foar { $language }
-help-translate-link = Bring my nei Pontoon
-language-updates-success-title = Fernijingsfersyk foar { $language } mei sukses yntsjinne, tankewol.
-language-updates-success-text = Wy nimme kontakt op mei mear ynformaasje sa gau as dizze beskikber komt.
-language-updates-success-collapsed-title = Jo binne ynskreaun foar fernijingen foar { $language }
+language-section-in-progress = Yn útfiering
+language-section-launched = Lansearre
+languages-show-more = Mear besjen
+languages-show-less = Minder besjen
+language-speakers = Sprekkers
+language-total-progress = Totaal
