@@ -110,10 +110,13 @@ profile-form-gender =
     .label = Pohlavie
 profile-form-submit-save = Uložiť
 profile-form-submit-saved = Uložené
+profile-keep-data = Ponechať údaje
+profile-delete-data = Odstrániť údaje
 male = Muž
 female = Žena
 # Gender
 other = Iné
+why-profile-title = Prečo chcete profil?
 edit-profile = Upraviť profil
 profile-create = Vytvoriť profil
 profile-create-success = Profil bol úspešne vytvorený!
@@ -207,6 +210,8 @@ review-submit-msg = Ďakujeme za nahrávky!<lineBreak></lineBreak>Teraz ich skon
 review-recording = Kontrola
 review-rerecord = Nahrať znova
 review-cancel = Zrušiť odoslanie
+review-keep-recordings = Ponechať nahrávky
+review-delete-recordings = Odstrániť moje nahrávky
 
 ## Download Modal
 
@@ -238,3 +243,7 @@ request-language-success-title = Žiadosť o jazyk bola odoslaná. Ďakujeme.
 
 ## Languages Overview
 
+languages-show-more = Zobraziť viac
+languages-show-less = Zobraziť menej
+language-speakers = Počet hovoriacich
+language-total-progress = Celkovo
