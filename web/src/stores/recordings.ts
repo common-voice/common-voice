@@ -1,6 +1,7 @@
 import { Action as ReduxAction, Dispatch } from 'redux';
 import { createSelector } from 'reselect';
 import StateTree from './tree';
+import { trackRecording } from '../services/tracker';
 
 const CACHE_SET_COUNT = 9;
 const SET_COUNT = 3;
@@ -123,6 +124,9 @@ export namespace Recordings {
     switch (action.type) {
       case ActionType.SET_RECORDING:
         const { sentence, recording } = action;
+        if (state.sentenceRecordings[sentence]) {
+          trackRecording('rerecord');
+        }
         return {
           ...state,
           reRecordSentence: null,

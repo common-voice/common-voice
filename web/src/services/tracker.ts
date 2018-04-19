@@ -17,7 +17,7 @@ function track(
   }
 }
 
-export function trackRecording(action: 'record' | 'submit') {
+export function trackRecording(action: 'record' | 'submit' | 'rerecord') {
   track('Recording', action);
 }
 
