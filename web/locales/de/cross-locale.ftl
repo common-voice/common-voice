@@ -1,10 +1,12 @@
 ## Languages
 
 get-involved-button = Mitmachen
-get-involved-cancel = Beenden
+get-involved-cancel = Schließen
 get-involved-title = An { $lang } mitwirken
-get-involved-text = Danke für Ihr Interesse an der Mitarbeit an { $lang }. Wir arbeiten hat daran, alle Sprachen zu vervollständigen und informieren die Teams per E-Mail über Neuigkeiten. Wenn Sie mitmachen möchten, geben Sie hier bitte Ihre E-Mail-Adresse an.
-get-involved-form-title = Neuigkeiten zu { $lang } abonnieren:
+get-involved-text =
+    Vielen Dank für Ihr Interesse, an Team { lang } mitzuarbeiten. Wir arbeiten hart daran, alle Sprachen zu vervollständigen, um sie ins Projekt aufnehmen zu können, und halten die Teams per E-Mail darüber auf dem Laufenden.
+    Sie möchten dazustoßen und mitmachen? Dann teilen Sie uns bitte Ihre E-Mail-Adresse mit.
+get-involved-form-title = Neuigkeiten von Team { $lang } abonnieren:
 get-involved-email =
     .label = E-Mail-Adresse
 get-involved-opt-in = Ja, ich möchte E-Mails erhalten. Ich möchte über den Fortschritt dieser Sprache bei Common Voice informiert werden.
