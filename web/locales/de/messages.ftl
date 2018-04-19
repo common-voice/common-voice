@@ -24,7 +24,7 @@ cookies = Cookies
 faq = FAQ
 content-license-text = Inhalte stehen unter einer <licenseLink>Creative-Commons-Lizenz</licenseLink>
 share-title = Überzeugen Sie auch andere, mit Ihrer Stimme beizutragen!
-share-text = Lehren auch Sie Maschinen, wie echte Menschen sprechen, indem Sie Ihre Stimme bei { $link } spenden
+share-text = Zeigt Maschinen, wie echte Menschen sprechen und spendet eure Stimme auf { $link }!
 back-top = Zum Seitenanfang
 
 ## Home Page
@@ -59,7 +59,7 @@ english = Englisch
 
 ## ProfileForm
 
-profile-form-cancel = Formular verlassen
+profile-form-cancel = Formular schließen
 profile-form-delete = Profil löschen
 profile-form-username =
     .label = Benutzername
@@ -150,7 +150,7 @@ terms-general-law = Geltendes Recht: Diese Nutzungsbedingungen stellen die gesam
 
 data-download-button = Common-Voice-Datensatz herunterladen
 data-download-yes = Ja
-data-download-no = Ja
+data-download-no = Nein
 data-download-license = Lizenz: <licenseLink>CC0</licenseLink>
 data-download-modal = Der von Ihnen gewählte Download beträgt <size>{ $size }GB</size>, fortfahren?
 data-subtitle = Wir sind dabei, einen freien und öffentlich zugänglichen Datensatz mit Sprachaufnahmen aufzubauen, der von jedem genutzt werden kann, um sprachunterstützte Anwendungen zu trainieren.
