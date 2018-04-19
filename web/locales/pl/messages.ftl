@@ -10,6 +10,42 @@ submit-form-action = Wyślij
 loading = Wczytywanie…
 audio-loading-error = Przetwarzamy pliki dźwiękowe, proszę spróbować ponownie za chwilę.
 
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+
+
+## Languages
+
+ga-IE = irlandzki
+cs = czeski
+uz = uzbecki
+de = niemiecki
+bn = bengalski
+sk = słowacki
+ca = kataloński
+ko = koreański
+es-CL = hiszpański (Chile)
+th = tajski
+pl = polski
+pt-BR = portugalski (Brazylia)
+id = indonezyjski
+zh-TW = chiński (Tajwan)
+cy = walijski
+el = grecki
+cv = czuwaski
+sv-SE = szwedzki
+mk = macedoński
+nn-NO = norweski (nynorsk)
+fr = francuski
+tr = turecki
+tt = tatarski
+fy-NL = fryzyjski
+he = hebrajski
+zh-CN = chiński (Chiny)
+nl = holenderski
+sq = albański
+ru = rosyjski
+it = włoski
+
 ## Layout
 
 speak = Nagrywaj
@@ -75,11 +111,18 @@ profile-form-gender =
     .label = Płeć
 profile-form-submit-save = Zapisz
 profile-form-submit-saved = Zapisano
+profile-keep-data = Zachowaj dane
+profile-delete-data = Usuń dane
 male = Mężczyzna
 female = Kobieta
+# Gender
+other = Inna
 why-profile-title = Po co profil?
 why-profile-text = Podając pewne informacje o sobie, dane dźwiękowe wysyłane do projektu Common Voice będą bardziej przydatne dla mechanizmów rozpoznawania mowy, które korzystają z tych danych do zwiększenia dokładności.
 edit-profile = Edytuj profil
+profile-create = Utwórz profil
+profile-create-success = Pomyślnie utworzono profil.
+profile-close = Zamknij
 
 ## FAQ
 
@@ -144,7 +187,7 @@ terms-general-title = Warunki ogólne
 
 data-download-button = Pobierz dane Common Voice
 data-download-yes = Tak
-data-download-no = Tak
+data-download-deny = Nie
 data-download-license = Licencja: <licenseLink>CC-0</licenseLink>
 data-download-modal = Za chwilę zaczniesz pobierać plik o rozmiarze <size>{ $size } GB</size>, czy chcesz kontynuować?
 data-subtitle = Tworzymy otwarty i publicznie dostępny zbiór danych mowy, który wszyscy mogą używać do trenowania aplikacji obsługujących mowę.
