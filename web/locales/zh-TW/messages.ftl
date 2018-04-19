@@ -45,6 +45,7 @@ nl = 荷蘭語
 sq = 阿爾巴尼亞語
 ru = 俄語
 it = 義大利語
+en = 英語
 
 ## Layout
 
@@ -130,6 +131,7 @@ faq-title = 常見問題
 faq-what-q = Common Voice 是什麼？
 faq-what-a = 語音識別技術可能會革命性地改變我們與機器互動的方式，但目前的系統不但昂貴，還是私有的系統。Common Voice 是讓語音識別技術能夠簡單地被任何人使用地專案。人們可貢獻聲音，打造一個讓任何人都可以快速而簡單即可用來訓練有語音識別功能的應用程式的巨大資料庫。所有的語音資料都會開放給開發者使用。
 faq-important-q = 有什麼重要性？
+faq-important-a = 語音是自然而有人性的。這是最簡單又最自然能夠溝通的方式。我們希望開發者們能夠打造不論是即時翻譯軟體，或是語音行政助理等等超酷的作品，但目前沒有足夠的公開資料能夠打造這些應用程式，我們也希望 Common Voice 能夠提供給開發者在進行創新時所必需的東西。
 faq-get-q = 我要如何取得 Common Voice 資料？
 faq-get-a = 已根據 <licenseLink>CC-0</licenseLink> 授權條款，於我們的<downloadLink>下載頁面</downloadLink>提供資料集。
 faq-mission-q = 為什麼 Common Voice 是 Mozilla 的使命的一部份？
@@ -181,8 +183,11 @@ terms-general-law = 準據法: 以上法律條款構成您與 Mozilla 關於 Com
 ## Data
 
 data-download-button = 下載 Common Voice 資料
+data-download-yes = 好
+data-download-deny = 不要
 data-download-license = 授權條款: <licenseLink>CC-0</licenseLink>
 data-download-modal = 將會下載 <size>{ $size } GB</size> 的檔案，要繼續嗎？
+data-subtitle = 我們正在打造一套開放而可公開使用的語音資料及，讓每個人都可用來訓練應用程式中的語音功能。
 data-get-started = <speechBlogLink>語音辨識新手上路</speechBlogLink>
 data-other-title = 其他語音資料集…
 data-other-goto = 前往 { $name }
@@ -191,6 +196,7 @@ data-other-librispeech-description = LibriSpeech 是一套取自 LibriVox 計畫
 data-other-ted-name = TED-LIUM 語料庫
 data-other-ted-description = TED-LIUM 語料庫是從 TED 網站上的語音對話及轉錄文字製作而成的語料庫。
 data-other-voxforge-description = VoxForge 被設計來收集轉錄對話，以供自由與開放原始碼的語音辨識引擎使用。
+data-other-tatoeba-description = Tatoeba 是一套用來進行語言學習的大型資料庫，當中包含了各種句型、翻譯以及語音。這個下載項目包含了由其社群所錄下的英語語音。
 data-bundle-button = 下載資料集總組合
 data-bundle-description = Common Voice 資料，以及上面列出的所有其他語音資料集。
 license = 授權條款: <licenseLink>{ $license }</licenseLink>
@@ -249,6 +255,7 @@ request-language-cancel = 離開表單
 request-language-form-language =
     .label = 語言
 request-language-success-title = 已收到新語言請求，感謝您。
+request-language-success-content = 我們將很快在您的語言於 Common Voice 上線時通知您更多資訊。
 
 ## Languages Overview
 
