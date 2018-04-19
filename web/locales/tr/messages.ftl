@@ -5,6 +5,13 @@ return-to-cv = Common Voice’a geri dön
 email-input =
     .label = E-posta
 submit-form-action = Gönder
+loading = Yükleniyor…
+
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+
+
+## Languages
+
 
 ## Layout
 
@@ -20,6 +27,7 @@ cookies = Çerezler
 faq = SSS
 content-license-text = İçerikler <licenseLink>Creative Commons lisansı</licenseLink> ile sunulmaktadır
 share-title = Sesini bağışlayacak birilerini bulmamıza yardım et!
+back-top = Başa dön
 
 ## Home Page
 
@@ -37,7 +45,6 @@ request-language-button = Yeni dil iste
 
 status-title = Projenin genel durumu: Kat ettiğimiz yolu görün!
 status-contribute = Sesinle katkı sağla
-loading = Yükleniyor…
 status-hours =
     { $hours ->
        *[one] Şu ana kadar { $hours } saatlik veri doğrulandı!
@@ -60,6 +67,8 @@ profile-form-age =
     .label = Yaş
 profile-form-gender =
     .label = Cinsiyet
+profile-form-submit-save = Kaydet
+profile-form-submit-saved = Kaydedildi
 
 ## FAQ
 
@@ -68,6 +77,8 @@ faq-what-q = Common Voice nedir?
 faq-important-q = Bu neden önemli?
 faq-get-q = Common Voice verilerini nasıl elde edebilirim?
 faq-mission-q = Common Voice neden Mozilla misyonunun bir parçası?
+faq-native-q = Ana dili { $lang } olmayan ve aksanlı konuşan bir konuşmacıyım, yine de katkıda bulunmamı istiyor musunuz?
+faq-native-a = Evet, sesinizi kesinlikle istiyoruz. Common Voice'un bir amacı da olabildiğince fazla farklı aksanı toplamaktır, böylece bilgisayarlar <bold>herkesi</bold> konuştuklarında daha iyi anlayabilir.
 faq-quality-q = Kaydın kullanılabilmesi için gerekli olan kalite seviyesi nedir?
 faq-hours-q = Neden 10.000 saatlik ses kaydetmeye çalışıyorsunuz?
 faq-hours-a = Bu süre, işe yarar bir STT (konuşmayı metne dönüştürme) sisteminin eğitilmesi için gereken yaklaşık süredir.
@@ -92,6 +103,7 @@ privacy-more = <more>Daha fazla bilgi</more>
 ## Terms
 
 terms-title = Common Voice Hukuki Koşulları
+terms-eligibility-title = Uygunluk
 terms-privacy-title = Gizlilik
 terms-communications-title = İletişim
 terms-general-title = Genel
@@ -108,6 +120,7 @@ data-other-librispeech-description = LibriSpeech, LibriVox projesinin sesli kita
 data-other-ted-name = TED-LIUM Korpusu
 data-other-ted-description = TED-LIUM korpusu, TED web sitesindeki sunum ses kayıtları ve onların deşifre metinleri kullanılarak oluşturulmuştur. 
 data-bundle-button = Veri kümesi paketini indir
+data-bundle-description = Common Voice verileri ve yukarıdaki diğer tüm ses veri kümeleri.
 license = Lisans: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
@@ -115,6 +128,7 @@ license = Lisans: <licenseLink>{ $license }</licenseLink>
 record-platform-not-supported = Maalesef kullandığınız platform şu an desteklenmemektedir.
 record-platform-not-supported-ios = <bold>iOS</bold> kullanıcıları bedava uygulamamızı indirebilir:
 record-must-allow-microphone = Mikrofon erişimine izin vermeniz gerekiyor.
+record-cancel = Yeniden kaydetmeyi iptal et
 record-error-too-short = Kayıt çok kısa.
 record-error-too-long = Kayıt çok uzun.
 record-error-too-quiet = Bu kayıt çok sessiz oldu.
@@ -154,7 +168,5 @@ request-language-form-language =
     .label = Dil
 request-language-success-title = Dil isteği başarıyla gönderildi. Teşekkür ederiz.
 
-## Help Translate Modal
+## Languages Overview
 
-help-translate-title = { $language } çevirisine yardım et
-help-translate-cancel = Çıkış
