@@ -83,7 +83,9 @@ class ProfileActions extends React.Component<PropsFromState, State> {
       <div id="profile-actions">
         {!profileFormVisible && <Hr />}
         {alertVisible && (
-          <Localized id="profile-create-success"><Alert autoHide onClose={this.closeAlert}/></Localized>
+          <Localized id="profile-create-success">
+            <Alert autoHide onClose={this.closeAlert} />
+          </Localized>
         )}
         {this.props.hasEnteredInfo ? (
           <Localized id="edit-profile">
