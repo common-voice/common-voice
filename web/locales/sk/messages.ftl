@@ -8,6 +8,44 @@ email-input =
     .label = E-mailová adresa
 submit-form-action = Odoslať
 loading = Načítava sa…
+audio-loading-error = Ospravedlňujeme sa, ale práve spracovávame naše zvukové nahrávky. Skúste to znova neskôr.
+
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+
+
+## Languages
+
+ga-IE = írčina
+cs = čeština
+uz = uzbečtina
+de = nemčina
+bn = bengálčina
+sk = slovenčina
+ca = katalánčina
+ko = kórejčina
+es-CL = španielčina (Čile)
+th = thajčina
+pl = poľština
+pt-BR = portugalčina (Brazília)
+id = indonézština
+zh-TW = čínština (Taiwan)
+cy = waleština
+el = gréčtina
+cv = čuvaština
+sv-SE = švédčina
+mk = macedónčina
+nn-NO = nórčina (Nynorsk)
+fr = francúzština
+tr = turečtina
+tt = tatárčina
+fy-NL = frízština
+he = hebrejčina
+zh-CN = čínština (Čína)
+nl = holandčina
+sq = albánčina
+ru = ruština
+it = taliančina
+en = angličtina
 
 ## Layout
 
@@ -74,7 +112,12 @@ profile-form-submit-save = Uložiť
 profile-form-submit-saved = Uložené
 male = Muž
 female = Žena
+# Gender
+other = Iné
 edit-profile = Upraviť profil
+profile-create = Vytvoriť profil
+profile-create-success = Profil bol úspešne vytvorený!
+profile-close = Zavrieť
 
 ## FAQ
 
@@ -128,7 +171,7 @@ terms-general-title = Všeobecné
 
 data-download-button = Prevziať údaje Common Voice
 data-download-yes = Áno
-data-download-no = Áno
+data-download-deny = Nie
 data-download-license = Licencia: <licenseLink>CC-0</licenseLink>
 data-download-modal = Chystáte sa zahájiť preberanie <size>{ $size } GB</size>, chcete pokračovať?
 data-subtitle = Vytvárame otvorený a verejne dostupný hlasový dataset, ktorý môže ktokoľvek použiť na tréning aplikácií využívajúcich hlas.
@@ -148,6 +191,7 @@ record-platform-not-supported-desktop = Na počítačoch si môžete prevziať n
 record-platform-not-supported-ios = Používatelia <bold>iOS</bold> si môžu prevziať našu bezplatnú aplikáciu:
 record-must-allow-microphone = Musíte povoliť prístup ku mikrofónu.
 record-cancel = Zrušiť opakovaný záznam
+record-retry = Znova
 record-error-too-short = Vaša nahrávka bola príliš krátka.
 record-error-too-long = Vaša nahrávka bola príliš dlhá.
 record-error-too-quiet = Vaša nahrávka bola príliš tichá.
