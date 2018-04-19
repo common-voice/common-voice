@@ -13,3 +13,4 @@ get-involved-stayintouch = Nós da Mozilla estamos construindo uma comunidade ao
 get-involved-privacy-info = Nós prometemos cuidar das suas informações com cautela. Leia mais em nosso <privacyLink>Aviso de Privacidade</privacyLink>.
 get-involved-success-title = Você se inscreveu com sucesso para contribuir com { $language }. Obrigado.
 get-involved-success-text = Nós manteremos contato com mais informações assim que estiverem disponíveis.
+get-involved-return-to-languages = Voltar para Idiomas

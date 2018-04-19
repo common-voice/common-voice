@@ -7,6 +7,68 @@ return-to-cv = Voltar para o Common Voice
 email-input =
     .label = E-mail
 submit-form-action = Enviar
+loading = Carregando…
+audio-loading-error = Desculpe! Nós estamos processando nossos arquivos de audio, por favor tente novamente em breve.
+
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+
+
+## Languages
+
+# Czech
+cs = Tcheco
+# Uzbek
+uz = Usbeque
+# German
+de = Alemão
+# Bengali
+bn = Bengalês
+# Slovak
+sk = Eslovaco
+# Catalan
+ca = Catalão
+# Korean
+ko = Coreano
+# Spanish (Chile)
+es-CL = Espanhol (Chile)
+# Thai
+th = Tailandês
+# Irish
+ga-IE = Irlandês
+# Polish
+pl = Polonês
+# Portuguese (Brazil)
+pt-BR = Português (Brasil)
+# Indonesian
+id = Indonésio
+# Chinese (Taiwan)
+zh-TW = Chinês (Taiwan)
+# Welsh
+cy = Galês
+# Greek
+el = Grego
+# Swedish
+sv-SE = Sueco
+# Macedonian
+mk = Macedônio
+# French
+fr = Francês
+# Turkish
+tr = Turco
+# Frisian
+fy-NL = Frisão
+# Hebrew
+he = Hebraico
+# Chinese (China)
+zh-CN = Chinês (China)
+# Dutch
+nl = Holandês
+# Albanian
+sq = Albanês
+# Russian
+ru = Russo
+# Italian
+it = Italiano
 
 ## Layout
 
@@ -22,6 +84,7 @@ cookies = Cookies
 faq = Perguntas frequentes
 content-license-text = Conteúdo disponível sob licença <licenseLink>Creative Commons</licenseLink>
 share-title = Ajude-nos a encontrar outros doadores de voz!
+share-text = Ajude a ensinar às máquinas como uma pessoal fala, doando sua voz em { $link }
 back-top = Voltar para o início
 
 ## Home Page
@@ -34,6 +97,8 @@ wall-of-text-more-desktop = Agora você pode doar sua voz para nos ajudar a cons
 show-wall-of-text = Saiba mais
 help-us-title = Ajude-nos a validar as frases!
 help-us-explain = Aperte o play, ouça e diga-nos: Eles pronunciaram a frase abaixo corretamente?
+vote-yes = Sim
+vote-no = Não
 request-language-text = Seu idioma ainda não está disponível no Common Voice?
 request-language-button = Solicite um idioma
 
@@ -41,7 +106,6 @@ request-language-button = Solicite um idioma
 
 status-title = Status geral do projeto: veja o nosso progresso!
 status-contribute = Contribua com sua voz
-loading = Carregando…
 status-hours =
     { $hours ->
         [one] Uma hora válida até agora!
@@ -51,9 +115,12 @@ status-hours =
 # $goal - number of hours representing the next goal
 status-goal = Próximo objetivo: { $goal }
 status-more-soon = Mais idiomas em breve!
+english = Inglês
 
 ## ProfileForm
 
+profile-form-cancel = Sair do formulário
+profile-form-delete = Excluir perfil
 profile-form-username =
     .label = Usuário
 profile-form-language =
@@ -67,6 +134,17 @@ profile-form-gender =
     .label = Gênero
 profile-form-submit-save = Salvar
 profile-form-submit-saved = Salvo
+profile-keep-data = Manter dados
+profile-delete-data = Excluir dados
+male = Masculino
+female = Feminino
+# Gender
+other = Outro
+why-profile-title = Por que um perfil?
+edit-profile = Editar perfil
+profile-create = Criar um perfil
+profile-create-success = Perfil criado com sucesso!
+profile-close = Fechar
 
 ## FAQ
 
@@ -137,6 +215,8 @@ terms-general-law = Lei em vigor: Estes Termos Jurídicos constituem a totalidad
 ## Data
 
 data-download-button = Baixar os dados do Common Voice
+data-download-yes = Sim
+data-download-deny = Não
 data-download-license = Licença: <licenseLink>CC-0</licenseLink>
 data-download-modal = Você está preste a iniciar um download de <size>{ $size }GB</size>, deseja continuar?
 data-subtitle = Nós estamos construindo um conjunto de dados de voz aberto e publicamente disponível para que qualquer um possa usar no treinamento de suas aplicações de voz-ativa.
@@ -153,6 +233,7 @@ data-other-tatoeba-description = Tatoeba é uma grande base de dados de frases, 
 data-bundle-button = Baixar pacote do conjunto de dados
 data-bundle-description = Os dados do Common Voice mais todos os outros conjuntos de dados acima.
 license = Licença: <licenseLink>{ $license }</licenseLink>
+license-mixed = Misto
 
 ## Record Page
 
@@ -160,6 +241,8 @@ record-platform-not-supported = Nos desculpe, mas sua plataforma não é suporta
 record-platform-not-supported-desktop = Em computadores, você pode baixar o mais recente:
 record-platform-not-supported-ios = Usuários de <bold>iOS</bold> podem baixar nosso aplicativo gratuito:
 record-must-allow-microphone = Você deve permitir o acesso ao microfone.
+record-cancel = Cancelar regravação
+record-retry = Tentar novamente
 record-error-too-short = A gravação foi muito curta.
 record-error-too-long = A gravação foi muito longa
 record-error-too-quiet = A gravação ficou com volume muito baixa.
@@ -167,12 +250,16 @@ record-submit-success = Enviada com sucesso! Deseja gravar novamente?
 record-help = Toque para gravar, depois leias as frases em voz alta.
 record-cancel = Cancelar regravação
 review-terms = Usando o Common Voice, você aceita nossos <termsLink>Termos</termsLink> e <privacyLink>Política de Privacidade</privacyLink>
+terms-agree = Estou de acordo
+terms-disagree = Não estou de acordo
 review-aborted = Envio abortado. Deseja excluir suas gravações?
 review-submit-title = Revise e envie
 review-submit-msg = Obrigado pela sua gravação!<lineBreak></lineBreak>Agora revise e envie-as abaixo.
 review-recording = Revisar
 review-rerecord = Regravar
 review-cancel = Cancelar envio
+review-keep-recordings = Manter as gravações
+review-delete-recordings = Excluir minhas gravações
 
 ## Download Modal
 
@@ -201,15 +288,10 @@ request-language-cancel = Sair do formulário
 request-language-form-language =
     .label = Idioma
 request-language-success-title = A solicitação de idioma foi enviada com sucesso, obrigado.
-request-language-success-text = Nós entraremos em contato quando estiverem disponíveis mais informações sobre o seu idioma.
 
-## Help Translate Modal
+## Languages Overview
 
-help-translate-title = Ajude a traduzir o { $language }
-help-translate-cancel = Sair
-help-translate-text = Vamos direcioná-lo para a ferramenta de tradução da Mozilla, <pontoonLink>Pontoon</pontoonLink>, onde esse idioma está passando por uma tradução aberta.
-language-updates-title = Inscreva-se para receber atualizações do { $language }
-help-translate-link = Leve-me ao Pontoon
-language-updates-success-title = Solicitação para receber atualizações do { $language } enviada com sucesso, obrigado.
-language-updates-success-text = Nós entraremos em contato assim que mais informações estiverem disponíveis.
-language-updates-success-collapsed-title = Você esta inscrito nas atualizações do { $language }
+language-section-in-progress = Em andamento
+languages-show-more = Veja mais
+languages-show-less = Ver menos
+language-total-progress = Total
