@@ -87,7 +87,7 @@ cookies = Cookies
 faq = FAQ
 content-license-text = Content available under a <licenseLink>Creative Commons license</licenseLink>
 share-title = Help us find others to donate their voice!
-share-text = Help teach machiness how real people speak, donate your voice at { $link }
+share-text = Help teach machines how real people speak, donate your voice at { $link }
 back-top = Back to Top
 
 ## Home Page
