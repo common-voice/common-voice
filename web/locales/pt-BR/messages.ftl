@@ -141,6 +141,7 @@ female = Feminino
 # Gender
 other = Outro
 why-profile-title = Por que um perfil?
+why-profile-text = Ao fornecer algumas informações sobre você, os dados de audio que você enviou ao Common Voice serão mais úteis aos mequanismos de reconhecimento de fala que usamos para aprimorar sua precisão.
 edit-profile = Editar perfil
 profile-create = Criar um perfil
 profile-create-success = Perfil criado com sucesso!
@@ -288,10 +289,13 @@ request-language-cancel = Sair do formulário
 request-language-form-language =
     .label = Idioma
 request-language-success-title = A solicitação de idioma foi enviada com sucesso, obrigado.
+request-language-success-content = Nós entraremos em contato com mais informações sobre como adicionar o seu idioma ao Common Voice muito em breve.
 
 ## Languages Overview
 
 language-section-in-progress = Em andamento
+language-section-launched = Iniciada
 languages-show-more = Veja mais
 languages-show-less = Ver menos
+language-speakers = Falantes
 language-total-progress = Total
