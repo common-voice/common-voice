@@ -1,11 +1,10 @@
-import { getLocaleFromPath } from '../../../utility';
-
 const { LocalizationProvider, Localized } = require('fluent-react');
 import * as React from 'react';
 import { connect } from 'react-redux';
 import ProgressBar from '../../progress-bar/progress-bar';
 import API from '../../../services/api';
 import { createCrossLocaleMessagesGenerator } from '../../../services/localization';
+import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';
 import { Hr } from '../../ui/ui';
 import GetInvolvedModal from './get-involved-modal';
@@ -18,6 +17,7 @@ interface Locale {
 
 interface PropsFromState {
   api: API;
+  globalLocale: Locale.State;
 }
 
 interface Props extends PropsFromState {
@@ -46,11 +46,11 @@ class LocalizationBox extends React.Component<Props, State> {
   }
 
   async updateMessagesGenerator() {
-    const { api, locale } = this.props;
+    const { api, globalLocale, locale } = this.props;
     this.setState({
       messagesGenerator: await createCrossLocaleMessagesGenerator(api, [
         locale.code,
-        getLocaleFromPath(),
+        globalLocale,
       ]),
     });
   }
@@ -105,6 +105,7 @@ class LocalizationBox extends React.Component<Props, State> {
   }
 }
 
-export default connect<PropsFromState>(({ api }: StateTree) => ({ api }))(
-  LocalizationBox
-);
+export default connect<PropsFromState>(({ api, locale }: StateTree) => ({
+  api,
+  globalLocale: locale,
+}))(LocalizationBox);

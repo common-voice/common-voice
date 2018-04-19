@@ -7,6 +7,7 @@ import StateTree from './tree';
 import { User } from './user';
 import { Clips } from './clips';
 import { RequestedLanguages } from './requested-langauges';
+import { Locale } from './locale';
 
 const USER_KEY = 'userdata';
 
@@ -23,18 +24,20 @@ try {
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const store = createStore(
   function root(
-    { recordings, user, clips, requestedLanguages }: StateTree = {
+    { recordings, user, clips, requestedLanguages, locale }: StateTree = {
       api: undefined,
       recordings: undefined,
       user: undefined,
       clips: undefined,
       requestedLanguages: undefined,
+      locale: undefined,
     },
     action:
       | Recordings.Action
       | User.Action
       | Clips.Action
       | RequestedLanguages.Action
+      | Locale.Action
   ): StateTree {
     const newState = {
       recordings: Recordings.reducer(recordings, action as Recordings.Action),
@@ -44,6 +47,7 @@ const store = createStore(
         requestedLanguages,
         action as RequestedLanguages.Action
       ),
+      locale: Locale.reducer(locale, action as Locale.Action),
     };
 
     return { api: new API(newState.user), ...newState };

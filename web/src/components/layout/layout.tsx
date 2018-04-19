@@ -1,4 +1,4 @@
-import { LocalizationProps, withLocalization } from 'fluent-react';
+import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, withRouter } from 'react-router';
@@ -7,6 +7,7 @@ import { Recordings } from '../../stores/recordings';
 import StateTree from '../../stores/tree';
 import { User } from '../../stores/user';
 import { Clips } from '../../stores/clips';
+import { Locale } from '../../stores/locale';
 import {
   getItunesURL,
   isNativeIOS,
@@ -28,6 +29,7 @@ const LOW_FPS = 20;
 const DISABLE_ANIMATION_LOW_FPS_THRESHOLD = 3;
 
 interface PropsFromState {
+  locale: Locale.State;
   isSetFull: boolean;
   user: User.State;
 }
@@ -35,15 +37,14 @@ interface PropsFromState {
 interface PropsFromDispatch {
   buildNewSentenceSet: typeof Recordings.actions.buildNewSentenceSet;
   fillClipCache: typeof Clips.actions.refillCache;
+  setLocale: typeof Locale.actions.set;
 }
 
 interface LayoutProps
   extends LocalizationProps,
     PropsFromState,
     PropsFromDispatch,
-    RouteComponentProps<any> {
-  locale: string;
-}
+    RouteComponentProps<any> {}
 
 interface LayoutState {
   isMenuVisible: boolean;
@@ -222,13 +223,13 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
   };
 
   private selectLocale = async (locale: string) => {
-    const { history } = this.props;
+    const { setLocale, history } = this.props;
+    setLocale(locale);
     history.push(replacePathLocale(history.location.pathname, locale));
   };
 
   render() {
     const { getString, isSetFull, locale, location } = this.props;
-    console.log(locale, getString(locale));
 
     const localesWithNames = LOCALES.map(code => [code, getString(code)]).sort(
       (l1, l2) => l1[1].localeCompare(l2[1])
@@ -276,7 +277,9 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
             {this.renderTallies()}
             {LOCALES.length > 1 && (
               <div className="language-select with-down-arrow">
-                <div className="selection">{getString(locale)}</div>
+                <Localized id={locale}>
+                  <div className="selection" />
+                </Localized>
                 <div className="list-wrapper">
                   <div className="triangle" />
                   <ul>
@@ -380,7 +383,8 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
   }
 }
 
-const mapStateToProps = ({ recordings, user }: StateTree) => ({
+const mapStateToProps = ({ locale, recordings, user }: StateTree) => ({
+  locale,
   isSetFull: Recordings.selectors.isSetFull(recordings),
   user,
 });
@@ -388,6 +392,7 @@ const mapStateToProps = ({ recordings, user }: StateTree) => ({
 const mapDispatchToProps = {
   buildNewSentenceSet: Recordings.actions.buildNewSentenceSet,
   fillClipCache: Clips.actions.refillCache,
+  setLocale: Locale.actions.set,
 };
 
 export default withLocalization(

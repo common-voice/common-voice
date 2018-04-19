@@ -109,7 +109,3 @@ export function replacePathLocale(pathname: string, locale: string) {
   pathParts[1] = locale;
   return pathParts.join('/');
 }
-
-export function getLocaleFromPath() {
-  return window.location.pathname.split('/')[1];
-}

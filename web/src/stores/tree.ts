@@ -10,4 +10,5 @@ export default interface StateTree {
   user: User.State;
   clips: Clips.State;
   requestedLanguages: RequestedLanguages.State;
+  locale: string;
 };

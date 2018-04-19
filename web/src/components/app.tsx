@@ -27,6 +27,7 @@ import {
   negotiateLocales,
 } from '../services/localization';
 import API from '../services/api';
+import { Locale } from '../stores/locale';
 import StateTree from '../stores/tree';
 import Layout from './layout/layout';
 
@@ -58,7 +59,14 @@ interface PropsFromState {
   api: API;
 }
 
-interface LocalizedPagesProps extends PropsFromState, RouteComponentProps<any> {
+interface PropsFromDispatch {
+  setLocale: typeof Locale.actions.set;
+}
+
+interface LocalizedPagesProps
+  extends PropsFromState,
+    PropsFromDispatch,
+    RouteComponentProps<any> {
   userLocales: string[];
 }
 
@@ -67,9 +75,12 @@ interface LocalizedPagesState {
 }
 
 const LocalizedLayout = withRouter(
-  connect<PropsFromState>(({ api }: StateTree) => ({
-    api,
-  }))(
+  connect<PropsFromState, PropsFromDispatch>(
+    ({ api }: StateTree) => ({
+      api,
+    }),
+    { setLocale: Locale.actions.set }
+  )(
     class extends React.Component<LocalizedPagesProps, LocalizedPagesState> {
       state: LocalizedPagesState = {
         messagesGenerator: null,
@@ -99,12 +110,16 @@ const LocalizedLayout = withRouter(
 
         // Since we make no distinction between "en-US", "en-UK",... we redirect them all to "en"
         if (mainLocale.startsWith('en-')) {
+          this.props.setLocale('en');
           history.replace(replacePathLocale(pathname, 'en'));
           return;
         }
 
         if (!LOCALES.includes(mainLocale)) {
+          this.props.setLocale(DEFAULT_LOCALE);
           history.replace(replacePathLocale(pathname, DEFAULT_LOCALE));
+        } else {
+          this.props.setLocale(userLocales[0]);
         }
 
         this.setState({
@@ -117,7 +132,7 @@ const LocalizedLayout = withRouter(
         return (
           messagesGenerator && (
             <LocalizationProvider messages={messagesGenerator}>
-              <Layout locale={this.props.userLocales[0]} />
+              <Layout />
             </LocalizationProvider>
           )
         );
