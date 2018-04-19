@@ -10,6 +10,43 @@ submit-form-action = Absenden
 loading = Wird geladen…
 audio-loading-error = Es tut uns leid! Wir verarbeiten unsere Audiodateien, bitte versuchen Sie es in Kürze erneut.
 
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+
+
+## Languages
+
+ga-IE = Irisch
+cs = Tschechisch
+uz = Usbekisch
+de = Deutsch
+bn = Bengali
+sk = Slowakisch
+ca = Katalanisch
+ko = Koreanisch
+es-CL = Spanisch (Chile)
+th = Thailändisch
+pl = Polnisch
+pt-BR = Portugiesisch (Brasilianisch)
+id = Indonesisch
+zh-TW = Chinesisch (Taiwan)
+cy = Walisisch
+el = Griechisch
+cv = Tschuwaschisch
+sv-SE = Schwedisch
+mk = Mazedonisch
+nn-NO = Nynorsk
+fr = Französisch
+tr = Türkisch
+tt = Tatarisch
+fy-NL = Friesisch
+he = Hebräisch
+zh-CN = Chinesisch (China)
+nl = Niederländisch
+sq = Albanisch
+ru = Russisch
+it = Italienisch
+en = Englisch
+
 ## Layout
 
 speak = Sprechen
@@ -74,11 +111,18 @@ profile-form-gender =
     .label = Geschlecht
 profile-form-submit-save = Speichern
 profile-form-submit-saved = Gespeichert
+profile-keep-data = Daten behalten
+profile-delete-data = Daten löschen
 male = Männlich
 female = Weiblich
+# Gender
+other = Sonstiges
 why-profile-title = Warum ein Profil?
 why-profile-text = Indem Sie uns einige Informationen über sich geben, können die von Ihnen an Common Voice übermittelten Audiodaten besser dazu verwendet werden, die Genauigkeit von Spracherkennungssystemen zu verbessern.
 edit-profile = Profil bearbeiten
+profile-create = Ein Profil erstellen
+profile-create-success = Geschafft, Profil erstellt!
+profile-close = Schließen
 
 ## FAQ
 
@@ -150,7 +194,7 @@ terms-general-law = Geltendes Recht: Diese Nutzungsbedingungen stellen die gesam
 
 data-download-button = Common-Voice-Datensatz herunterladen
 data-download-yes = Ja
-data-download-no = Nein
+data-download-deny = Nein
 data-download-license = Lizenz: <licenseLink>CC0</licenseLink>
 data-download-modal = Der von Ihnen gewählte Download beträgt <size>{ $size }GB</size>, fortfahren?
 data-subtitle = Wir sind dabei, einen freien und öffentlich zugänglichen Datensatz mit Sprachaufnahmen aufzubauen, der von jedem genutzt werden kann, um sprachunterstützte Anwendungen zu trainieren.
