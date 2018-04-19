@@ -109,7 +109,7 @@ class GetInvolvedModal extends React.Component<Props, State> {
           <form onSubmit={this.save}>
             <br />
 
-            <Localized id="email-input" attrs={{ label: true }}>
+            <Localized id="get-involved-email" attrs={{ label: true }}>
               <LabeledInput
                 label="Email"
                 name="email"
