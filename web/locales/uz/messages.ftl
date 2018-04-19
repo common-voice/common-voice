@@ -1,13 +1,53 @@
 ## General
 
+stayintouch = Mozilla ovoz texnologiyasi bo‘yicha butun dunyo tillari jamoalarini tuzmoqda. Yangiliklar, yangi ma’lumot manbalari va bu ma’lumotlardan qanday foydalanish bo‘yicha ko‘rsatmalarni sizga yuborib turamiz.
 return-to-cv = Common Voice’ga qaytish
 email-input =
     .label = Elektron pochta
 submit-form-action = Yuborish
 loading = Yuklanmoqda...
+audio-loading-error = Uzr, biz audio fayllar bilan ishlayapmiz. Keyinroq urinib ko‘ring.
+
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+
+
+## Languages
+
+ga-IE = Irland
+cs = Chex
+uz = O‘zbek
+de = Nemis
+bn = Bengal
+sk = Slovak
+ca = Katalan
+ko = Koreyscha
+es-CL = Ispan (Chile)
+th = Tay
+pl = Polyak
+pt-BR = Portugal (Braziliya)
+id = Indonez
+zh-TW = Xitoy (Tayvan)
+cy = Uels
+el = Grek
+cv = Chuvash
+sv-SE = Shved
+mk = Makedon
+fr = Fransuz
+tr = Turk
+tt = Tatar
+fy-NL = Friz
+he = Yahudiy
+zh-CN = Xitoy
+nl = Golland
+sq = Alban
+ru = Rus
+it = Italiyan
+en = Ingliz
 
 ## Layout
 
+speak = Gapiring
+datasets = Ma’lumotlar to‘plamlari
 languages = Tillar
 profile = Profile
 help = Yordam
@@ -42,6 +82,11 @@ back-top = Yuqoriga qaytish
 
 ## Data
 
+data-download-yes = Ha
+data-download-deny = Yo‘q
+data-download-license = Litsenziya: <licenseLink>CC-0</licenseLink>
+data-download-modal = Siz <size>{ $size }GB</size> ma’lumotni yuklab olish arafasidasiz.  Davom etasizmi?
+data-subtitle = Biz ochiq va hammaga ruxsat berilgan ovoz ma’lumotlari jamlanmalarini tuzdik.  Xohlagan kishi ovozli o‘qish ruxsat berilgan dasturlarga o‘rgatish uchun undan foydalanishi mumkin.
 
 ## Record Page
 
@@ -55,5 +100,5 @@ back-top = Yuqoriga qaytish
 ## Request Language Modal
 
 
-## Help Translate Modal
+## Languages Overview
 
