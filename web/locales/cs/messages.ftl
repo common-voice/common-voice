@@ -45,6 +45,7 @@ nl = Nizozemština
 sq = Albánština
 ru = Ruština
 it = Italština
+en = Angličtina
 
 ## Layout
 
