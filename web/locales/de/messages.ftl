@@ -193,7 +193,7 @@ review-recording = Überprüfen
 review-rerecord = Neu aufnehmen
 review-cancel = Absenden abbrechen
 review-keep-recordings = Aufnahmen behalten
-review-delete-recordings = Meine Aufnahmen löschen
+review-delete-recordings = Aufnahmen löschen
 
 ## Download Modal
 
