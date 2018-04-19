@@ -9,3 +9,6 @@ get-involved-email =
     .label = 電子郵件
 get-involved-opt-in = 是的，請寄信給我。我想了解此語言在 Common Voice 的最新進度。
 get-involved-submit = 送出
+get-involved-stayintouch = Mozilla 的我們，正在打造一個與語音技術相關的社群。我們想要與新技術、新的資料來源保持聯繫，也想知道您會如何使用這些資料。
+get-involved-privacy-info = 我們保證會小心處理您的資訊。到我們的<privacyLink>隱私權公告</privacyLink>了解更多資訊。
+get-involved-return-to-languages = 回到語言清單

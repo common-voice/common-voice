@@ -7,6 +7,73 @@ return-to-cv = 回到 Common Voice
 email-input =
     .label = 電子郵件地址
 submit-form-action = 送出
+loading = 載入中…
+
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+
+
+## Languages
+
+# Czech
+cs = 捷克語
+# Uzbek
+uz = 烏茲別克語
+# German
+de = 德語
+# Bengali
+bn = 孟加拉語
+# Slovak
+sk = 斯洛伐克語
+# Catalan
+ca = 加泰隆語
+# Korean
+ko = 韓語
+# Spanish (Chile)
+es-CL = 西班牙語（智利）
+# Thai
+th = 泰語
+# Irish
+ga-IE = 愛爾蘭語
+# Polish
+pl = 波蘭語
+# Portuguese (Brazil)
+pt-BR = 葡萄牙語（巴西）
+# Indonesian
+id = 印尼語
+# Chinese (Taiwan)
+zh-TW = 中文（臺灣）
+# Welsh
+cy = 威爾斯語
+# Greek
+el = 希臘語
+# Chuvash
+cv = 楚瓦什語
+# Swedish
+sv-SE = 瑞典語
+# Macedonian
+mk = 馬其頓語
+# Norwegian Nynorsk
+nn-NO = 挪威語（耐諾斯克 / Nynorsk）
+# French
+fr = 法語
+# Turkish
+tr = 土耳其語
+# Tatar
+tt = 韃靼語
+# Frisian
+fy-NL = 弗利西亞語
+# Hebrew
+he = 希伯來語
+# Chinese (China)
+zh-CN = 中文（中國）
+# Dutch
+nl = 荷蘭語
+# Albanian
+sq = 阿爾巴尼亞語
+# Russian
+ru = 俄語
+# Italian
+it = 義大利語
 
 ## Layout
 
@@ -38,7 +105,6 @@ request-language-button = 要求新語言
 
 status-title = 專案狀態：看看我們做到哪兒了！
 status-contribute = 貢獻您的聲音
-loading = 載入中…
 status-hours =
     { $hours ->
        *[other] 目前已驗證 { $hours } 小時！
@@ -131,6 +197,7 @@ record-platform-not-supported = 很抱歉，目前暫不支援您的平台。
 record-platform-not-supported-desktop = 在桌上型電腦，您可以下載最新版的:
 record-platform-not-supported-ios = <bold>iOS</bold> 使用者可下載我們的免費程式:
 record-must-allow-microphone = 您必須允許使用麥克風。
+record-cancel = 取消重新錄音
 record-error-too-short = 錄音太短了。
 record-error-too-long = 錄音太長了。
 record-error-too-quiet = 錄音太安靜了。
@@ -172,15 +239,6 @@ request-language-cancel = 離開表單
 request-language-form-language =
     .label = 語言
 request-language-success-title = 已收到新語言請求，感謝您。
-request-language-success-text = 我們將在您的語言可在網站上使用時連絡您。
 
-## Help Translate Modal
+## Languages Overview
 
-help-translate-title = 幫助翻譯 { $language }
-help-translate-cancel = 結束
-help-translate-text = 我們將帶您到 Mozilla 的翻譯站 <pontoonLink>Pontoon</pontoonLink>，翻譯作業於該網站上進行。
-language-updates-title = 訂閱 { $language } 的最新消息電子報
-help-translate-link = 帶我去 Pontoon
-language-updates-success-title = 成功收到 { $language } 的更新請求，感謝您。
-language-updates-success-text = 我們將在有更多資訊時連絡您。
-language-updates-success-collapsed-title = 您已登記要取得關於 { $language } 的最新消息
