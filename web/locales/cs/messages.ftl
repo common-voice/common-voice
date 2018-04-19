@@ -10,6 +10,42 @@ submit-form-action = Odeslat
 loading = Načítání…
 audio-loading-error = Omlouváme se, ale zrovna zpracováváme další nahrávky. Zkuste to později.
 
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+
+
+## Languages
+
+ga-IE = Irština
+cs = Čeština
+uz = Uzbečtina
+de = Němčina
+bn = Bengálština
+sk = Slovenština
+ca = Katalánština
+ko = Korejština
+es-CL = Španělština (Chile)
+th = Thajština
+pl = Polština
+pt-BR = Portugalština (Brazílie)
+id = Indonéština
+zh-TW = Čínština (Taiwan)
+cy = Velština
+el = Řečtina
+cv = Čuvaština
+sv-SE = Švédština
+mk = Makedonština
+nn-NO = Nynorsk
+fr = Francouzština
+tr = Turečtina
+tt = Tatarština
+fy-NL = Fríština
+he = Hebrejština
+zh-CN = Čínština (Čína)
+nl = Nizozemština
+sq = Albánština
+ru = Ruština
+it = Italština
+
 ## Layout
 
 speak = Mluvte
@@ -75,11 +111,18 @@ profile-form-gender =
     .label = Pohlaví
 profile-form-submit-save = Uložit
 profile-form-submit-saved = Uloženo
+profile-keep-data = Ponechat data
+profile-delete-data = Smazat data
 male = Muž
 female = Žena
+# Gender
+other = Ostatní
 why-profile-title = Proč mít profil?
 why-profile-text = Tím, že nám o sobě poskytnete nějaké informace budou data, která odešlete do Common Voice, více užitečná pro systémy pro prozpoznávání řeči, které tato data využívají ke zvýšení přesnosti.
 edit-profile = Upravit profil
+profile-create = Vytvořit profil
+profile-create-success = Profil byl úspěšně vytvořen!
+profile-close = Zavřít
 
 ## FAQ
 
@@ -151,7 +194,7 @@ terms-general-law = Rozhodné právo: Tyto Právní podmínky představují úpl
 
 data-download-button = Stáhnout data Common Voice
 data-download-yes = Ano
-data-download-no = Ano
+data-download-deny = Ne
 data-download-license = Licence: <licenseLink>CC-0</licenseLink>
 data-download-modal = Chystáte se zahájit stahování <size>{ $size } GB</size>, chcete pokračovat?
 data-subtitle = Vytváříme otevřený a veřejně dostupný dataset hlasu, který může kdokoli použít k trénování jeho hlasových aplikací.
