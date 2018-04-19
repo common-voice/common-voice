@@ -116,7 +116,7 @@ const LocalizedLayout = withRouter(
         const { messagesGenerator } = this.state;
         return (
           messagesGenerator && (
-            <LocalizationProvider messages={messagesGenerator()}>
+            <LocalizationProvider messages={messagesGenerator}>
               <Layout locale={this.props.userLocales[0]} />
             </LocalizationProvider>
           )

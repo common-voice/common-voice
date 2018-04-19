@@ -42,14 +42,12 @@ export function negotiateLocales(locales: string[]) {
   });
 }
 
-function asMessageContextGenerator(localeMessages: string[][]) {
-  return function*(): any {
-    for (const [locale, messages] of localeMessages) {
-      const cx = new MessageContext(locale);
-      cx.addMessages(messages);
-      yield cx;
-    }
-  };
+function* asMessageContextGenerator(localeMessages: string[][]) {
+  for (const [locale, messages] of localeMessages) {
+    const cx = new MessageContext(locale);
+    cx.addMessages(messages);
+    yield cx;
+  }
 }
 
 export async function createCrossLocaleMessagesGenerator(

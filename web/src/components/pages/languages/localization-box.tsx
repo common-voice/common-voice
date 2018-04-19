@@ -76,7 +76,7 @@ class LocalizationBox extends React.Component<Props, State> {
         </div>
         {showCTA &&
           messagesGenerator && (
-            <LocalizationProvider messages={messagesGenerator()}>
+            <LocalizationProvider messages={messagesGenerator}>
               <React.Fragment>
                 <Localized id="get-involved-button">
                   <button onClick={this.toggleModal} />
