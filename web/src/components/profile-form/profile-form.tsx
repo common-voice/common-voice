@@ -79,7 +79,7 @@ class ProfileForm extends React.Component<Props, State> {
   };
 
   render() {
-    const { hasEnteredInfo, onExit, user } = this.props;
+    const { getString, hasEnteredInfo, onExit, user } = this.props;
     const { email, username, accent, age, gender, sendEmails } = this.state;
 
     const isModified = userFormFields.some(key => {
@@ -93,8 +93,8 @@ class ProfileForm extends React.Component<Props, State> {
           <Modal
             onRequestClose={this.toggleClearModal}
             buttons={{
-              'Keep Data': this.toggleClearModal,
-              'Delete Data': this.clear,
+              [getString('profile-keep-data')]: this.toggleClearModal,
+              [getString('profile-delete-data')]: this.clear,
             }}>
             Clearing your profile data means this demographic information will
             no longer be submitted to Common Voice with your clip recordings.

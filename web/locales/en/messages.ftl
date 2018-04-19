@@ -146,6 +146,8 @@ profile-form-gender =
     .label = Gender
 profile-form-submit-save = Save
 profile-form-submit-saved = Saved
+profile-keep-data = Keep Data
+profile-delete-data = Delete Data
 male = Male
 female = Female
 # Gender
