@@ -45,6 +45,7 @@ nl = holenderski
 sq = albański
 ru = rosyjski
 it = włoski
+en = angielski
 
 ## Layout
 
