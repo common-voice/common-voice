@@ -1,4 +1,4 @@
-import ISO6391 from 'iso-639-1';
+import { LocalizationProps, withLocalization } from 'fluent-react';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, withRouter } from 'react-router';
@@ -38,7 +38,8 @@ interface PropsFromDispatch {
 }
 
 interface LayoutProps
-  extends PropsFromState,
+  extends LocalizationProps,
+    PropsFromState,
     PropsFromDispatch,
     RouteComponentProps<any> {
   locale: string;
@@ -226,7 +227,12 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
   };
 
   render() {
-    const { isSetFull, locale, location } = this.props;
+    const { getString, isSetFull, locale, location } = this.props;
+    console.log(locale, getString(locale));
+
+    const localesWithNames = LOCALES.map(code => [code, getString(code)]).sort(
+      (l1, l2) => l1[1].localeCompare(l2[1])
+    );
 
     const pageName = location.pathname.split('/')[2] || 'home';
     let className = pageName;
@@ -270,18 +276,16 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
             {this.renderTallies()}
             {LOCALES.length > 1 && (
               <div className="language-select with-down-arrow">
-                <div className="selection">
-                  {ISO6391.getName(locale) || locale}
-                </div>
+                <div className="selection">{getString(locale)}</div>
                 <div className="list-wrapper">
                   <div className="triangle" />
                   <ul>
-                    {LOCALES.map(code => (
+                    {localesWithNames.map(([code, name]) => (
                       <li
                         key={code}
                         className={code === locale ? 'selected' : ''}
                         onClick={() => this.selectLocale(code)}>
-                        {ISO6391.getName(code) || code}
+                        {name}
                       </li>
                     ))}
                   </ul>
@@ -345,9 +349,9 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
                 onChange={(event: any) =>
                   this.selectLocale(event.target.value)
                 }>
-                {LOCALES.map(code => (
+                {localesWithNames.map(([code, name]) => (
                   <option key={code} value={code}>
-                    {ISO6391.getName(code) || code}
+                    {name}
                   </option>
                 ))}
               </LabeledSelect>
@@ -386,9 +390,11 @@ const mapDispatchToProps = {
   fillClipCache: Clips.actions.refillCache,
 };
 
-export default withRouter(
-  connect<PropsFromState, PropsFromDispatch>(
-    mapStateToProps,
-    mapDispatchToProps
-  )(Layout)
+export default withLocalization(
+  withRouter(
+    connect<PropsFromState, PropsFromDispatch>(
+      mapStateToProps,
+      mapDispatchToProps
+    )(Layout)
+  )
 );

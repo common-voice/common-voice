@@ -23,9 +23,8 @@ async function pontoonLanguagesToFTL() {
     }),
   }).then(res => res.json());
   return data.project.localizations
-    .map(({ locale }) =>
-      ['# ' + locale.name, `${locale.code} = ${locale.name}`].join('\n')
-    )
+    .map(({ locale }) => `${locale.code} = ${locale.name}`)
+    .concat('en = English')
     .join('\n');
 }
 
