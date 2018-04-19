@@ -6,6 +6,12 @@ email-input =
     .label = Email
 submit-form-action = Invia
 
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+
+
+## Languages
+
+
 ## Layout
 
 speak = Parla
@@ -71,13 +77,21 @@ terms-general-title = Generale
 
 data-download-button = Scarica i dati di Common Voice
 data-download-license = Licenza: <licenseLink>CC-0</licenseLink>
+data-other-title = Altri dataset vocali...
+data-other-goto = Vai a { $name }
 data-other-download = Scarica i dati
+data-other-ted-name = TED-LIUM Corpus
 license = Licenza: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
 
+record-platform-not-supported-ios = Gli utenti <bold>iOS</bold> possono scaricare la nostra applicazione gratuita:
+record-cancel = Annulla la nuova registrazione
 record-error-too-short = La registrazione è troppo breve.
 record-error-too-long = La registrazione è troppo lunga.
+record-cancel = Annulla la nuova registrazione
+review-rerecord = Registra di nuovo
+review-cancel = Annulla invio
 
 ## Download Modal
 
@@ -87,9 +101,18 @@ download-form-email =
 
 ## Contact Modal
 
+contact-title = Modulo di contatto
+contact-cancel = Annulla
+contact-form-name =
+    .label = Nome
+contact-form-message =
+    .label = Messaggio
 
 ## Request Language Modal
 
+request-language-cancel = Chiudi modulo
+request-language-form-language =
+    .label = Lingua
 
-## Help Translate Modal
+## Languages Overview
 
