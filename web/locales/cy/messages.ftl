@@ -8,6 +8,37 @@ email-input =
     .label = E-bost
 submit-form-action = Cyflwyno
 loading = Llwytho…
+audio-loading-error = Ymddiheuriadau! Rydym yn prosesu ein ffeiliau sain, ceisiwch eto cyn bo hir.
+
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+
+
+## Languages
+
+ga-IE = Gwyddeleg
+cs = Tsiec
+uz = Wsbeceg
+de = Almaeneg
+bn = Bengaleg
+sk = Slofaceg
+ca = Catalaneg
+ko = Corëeg
+es-CL = Sbaeneg (Chile)
+th = Thai
+pl = Pwyleg
+pt-BR = Portiwgaleg (Brasil)
+id = Indoneseg
+zh-TW = Tsieinëeg
+cy = Cymraeg
+el = Groeg
+cv = Chuvash
+sv-SE = Swedeg
+mk = Macedoneg
+nn-NO = Norwyeg Nynorsk
+fr = Ffrangeg
+tr = Twrceg
+tt = Tartareg
+fy-NL = Ffriseg
 
 ## Layout
 
@@ -164,6 +195,7 @@ record-platform-not-supported = Ymddiheuriadau ond nid yw eich platfform yn cael
 record-platform-not-supported-desktop = Ar gyfrifiaduron bwrdd gwaith gallwch lwytho i lawr y diweddaraf:
 record-platform-not-supported-ios = Gall defnyddwyr <bold>iOS</bold> lwytho i lawr ein ap am ddim:
 record-must-allow-microphone = Rhaid i chi ganiatáu mynediad i'r meicroffon.
+record-cancel = Diddymu Ail-recordio
 record-error-too-short = Roedd y recordiad yn rhy fyr.
 record-error-too-long = Roedd y recordiad yn rhy hir.
 record-error-too-quiet = Roedd y recordiad yn rhy dawel.
@@ -205,15 +237,6 @@ request-language-cancel = Gadael y Ffurflen
 request-language-form-language =
     .label = Iaith
 request-language-success-title = Mae'r cais am iaith wedi ei gyflwyno'n llwyddiannus, diolch.
-request-language-success-text = Byddwn mewn cysylltiad am ragor o wybodaeth am eich iaith pan fydd ar gael.
 
-## Help Translate Modal
+## Languages Overview
 
-help-translate-title = Helpu i Gyfieithu { $language } 
-help-translate-cancel = Gadael
-help-translate-text = Rydym am eich cyfeirio i offer cyfieithu Mozilla, <pontoonLink>Pontoon</pontoonLink>, lle mae'r iaith hon yn cael ei chyfieithu'n agored.
-language-updates-title = Ymuno er mwyn derbyn diweddariadau { $language }
-help-translate-link = Mynd i Pontoon
-language-updates-success-title = Cais am ddiweddariad { $language } wedi ei gyflwyno'n llwyddiannus, diolch.
-language-updates-success-text = Byddwn mewn cysylltiad gyda rhagor o wybodaeth pan ddaw ar gael.
-language-updates-success-collapsed-title = Rydych wedi cofrestru ar gyfer diweddariadau { $language }
