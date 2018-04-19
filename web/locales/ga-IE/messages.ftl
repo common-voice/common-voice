@@ -10,6 +10,43 @@ submit-form-action = Seol
 loading = Á lódáil...
 audio-loading-error = Ár leithscéal! Táimid ag próiseáil ár gcuid comhad fuaime. Bain triail eile as ar ball.
 
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+
+
+## Languages
+
+ga-IE = Gaeilge
+cs = Seicis
+uz = Úisbéicis
+de = Gearmáinis
+bn = Beangáilis
+sk = Slóvaicis
+ca = Catalóinis
+ko = Cóiréis
+es-CL = Spáinnis (An tSile)
+th = Téalainnis
+pl = Polainnis
+pt-BR = Portaingéilis (An Bhrasaíl)
+id = Indinéisis
+zh-TW = Sínis (An Téaváin)
+cy = Breatnais
+el = Gréigis
+cv = Suvaisis
+sv-SE = Sualainnis
+mk = Macadóinis
+nn-NO = Ioruais Nynorsk
+fr = Fraincis
+tr = Tuircis
+tt = Tatairis
+fy-NL = Freaslannais
+he = Eabhrais
+zh-CN = Sínis (An tSín)
+nl = Ollainnis
+sq = Albáinis
+ru = Rúisis
+it = Iodáilis
+en = Béarla
+
 ## Layout
 
 speak = Abair
@@ -77,11 +114,18 @@ profile-form-gender =
     .label = Inscne
 profile-form-submit-save = Sábháil
 profile-form-submit-saved = Sábháilte
+profile-keep-data = Coinnigh na Sonraí
+profile-delete-data = Scrios na Sonraí
 male = Fear
 female = Bean
+# Gender
+other = Eile
 why-profile-title = Cén fáth a bhfuil gá le próifíl?
 why-profile-text = Má sholáthraíonn tú roinnt eolais fútsa féin, beidh na sonraí fuaime a thugann tú do Common Voice i bhfad níos úsáidí d'innill aitheanta cainte a úsáideann na sonraí seo chun an cruinneas a fheabhsú.
 edit-profile = Cuir mo Phróifíl in Eagar
+profile-create = Cruthaigh próifíl
+profile-create-success = Cruthaíodh do phróifíl!
+profile-close = Dún
 
 ## FAQ
 
@@ -153,7 +197,7 @@ terms-general-law = Governing Law: These Legal Terms constitute the entire agree
 
 data-download-button = Íoslódáil Sonraí Common Voice
 data-download-yes = Tá
-data-download-no = Tá
+data-download-deny = Níl
 data-download-license = Ceadúnas: <licenseLink>CC-0</licenseLink>
 data-download-modal = Tá tú ar tí <size>{ $size }GB</size> a íoslódáil, an bhfuil tú cinnte?
 data-subtitle = Táimid ag tógáil tacar sonraí gutha a bheidh oscailte agus ar fáil do chách chun feidhmchláir a úsáideann caint a thraenáil.

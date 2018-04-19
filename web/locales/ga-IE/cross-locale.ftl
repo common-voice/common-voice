@@ -8,3 +8,7 @@ get-involved-form-title = Cláraigh le nuacht maidir le { $lang }:
 get-involved-email =
     .label = Ríomhphost
 get-involved-opt-in = Tá, seol ríomhphost chugam. Ba mhaith liom a bheith ar an eolas maidir leis an teanga seo ar Common Voice.
+get-involved-submit = Seol
+get-involved-stayintouch = Táimid ag iarraidh comhphobal a thógáil timpeall teicneolaíochta cainte. Ba mhaith linn fanacht i dteagmháil leat chun nuacht agus foinsí nua sonraí a sheoladh chugat, agus le cloisteáil cén chaoi a n-úsáidfidh tú na sonraí seo.
+get-involved-privacy-info = Geallaimid duit go mbeimid cúramach le do chuid sonraí pearsanta. Tuilleadh eolais inár <privacyLink>bhFógra Príobháideachais</privacyLink>.
+get-involved-return-to-languages = Fill ar Theangacha
