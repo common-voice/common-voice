@@ -1,6 +1,8 @@
 ## General
 
+yes-receive-emails = Ha, menga xat yuboring. Men Common Voice loyihasi haqida xabardor bo‘lib turishni xohlayman.
 stayintouch = Mozilla ovoz texnologiyasi bo‘yicha butun dunyo tillari jamoalarini tuzmoqda. Yangiliklar, yangi ma’lumot manbalari va bu ma’lumotlardan qanday foydalanish bo‘yicha ko‘rsatmalarni sizga yuborib turamiz.
+privacy-info = Biz ma’lumotlaringizni ehtiyot qilamiz. <privacyLink>Maxfiylik siyosati</privacyLink> haqidagi ma’lumotlarni o‘qib chiqing.
 return-to-cv = Common Voice’ga qaytish
 email-input =
     .label = Elektron pochta
@@ -32,6 +34,7 @@ el = Grek
 cv = Chuvash
 sv-SE = Shved
 mk = Makedon
+nn-NO = Norvegiya Ninorsk
 fr = Fransuz
 tr = Turk
 tt = Tatar
@@ -58,6 +61,11 @@ back-top = Yuqoriga qaytish
 
 ## Home Page
 
+show-wall-of-text = Batafsil
+vote-yes = Ha
+vote-no = Yo‘q
+request-language-text = Common Voice loyihasida ona tilingizni ko‘rmayapsizmi?
+request-language-button = Til qo‘shishni so‘rang
 
 ## ProjectStatus
 
@@ -102,3 +110,9 @@ data-subtitle = Biz ochiq va hammaga ruxsat berilgan ovoz ma’lumotlari jamlanm
 
 ## Languages Overview
 
+language-section-in-progress = Ishlanmoqda
+language-section-launched = Ishga tushirildi
+languages-show-more = Ko‘proq
+languages-show-less = Kamroq
+language-speakers = So‘zlovchilar
+language-total-progress = Jami
