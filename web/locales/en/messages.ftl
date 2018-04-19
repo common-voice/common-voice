@@ -224,7 +224,7 @@ terms-general-law = Governing Law: These Legal Terms constitute the entire agree
 ## Data
 data-download-button = Download Common Voice Data
 data-download-yes = Yes
-data-download-no = Yes
+data-download-no = No
 data-download-license = License: <licenseLink>CC-0</licenseLink>
 data-download-modal = You are about to initiate a download of <size>{ $size }GB</size>, proceed?
 data-subtitle = We are building an open and publicly available dataset of voices that everyone can use to train speech-enabled applications.
