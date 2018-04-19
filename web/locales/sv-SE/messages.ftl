@@ -34,6 +34,8 @@ wall-of-text-more-desktop = Nu kan du donera din röst för att hjälpa oss att 
 show-wall-of-text = Läs mer
 help-us-title = Hjälp oss validera meningar!
 help-us-explain = Tryck på Play, lyssna och berätta: Var följande mening inspelad korrekt?
+vote-yes = Ja
+vote-no = Nej
 request-language-text = Kan du inte se ditt språk på Common Voice än?
 request-language-button = Skicka en förfrågan
 
@@ -50,9 +52,12 @@ status-hours =
 # $goal - number of hours representing the next goal
 status-goal = Nästa mål: { $goal }
 status-more-soon = Fler språk kommer snart!
+english = Engelska
 
 ## ProfileForm
 
+profile-form-cancel = Avsluta formulär
+profile-form-delete = Ta bort profil
 profile-form-username =
     .label = Användarnamn
 profile-form-language =
@@ -66,6 +71,9 @@ profile-form-gender =
     .label = Kön
 profile-form-submit-save = Spara
 profile-form-submit-saved = Sparad
+male = Man
+female = Kvinna
+edit-profile = Redigera profil
 
 ## FAQ
 
@@ -113,6 +121,8 @@ terms-general-title = Allmänt
 ## Data
 
 data-download-button = Ladda ner Common Voice Data
+data-download-yes = Ja
+data-download-no = Ja
 data-download-license = Licens: <licenseLink>CC-0</licenseLink>
 data-download-modal = Du håller på att starta en nedladdning av <<size>{ $size }GB</size>, vill du fortsätta?
 data-subtitle = Vi bygger en öppen och allmänt tillgänglig datamängd av röster som alla kan använda för att träna talanpassade applikationer.
@@ -131,6 +141,7 @@ record-platform-not-supported = Vi är ledsna, min din plattform stöds inte fö
 record-platform-not-supported-desktop = På datorer, kan du ladda ner senaste:
 record-platform-not-supported-ios = Användare av <bold>iOS</bold> kan ladda ner våran gratisapp:
 record-must-allow-microphone = Du måste tillåta mikrofon åtkomst.
+record-cancel = Avbryt återinspelning
 record-error-too-short = Inspelningen var för kort.
 record-error-too-long = Inspelningen var för lång.
 record-error-too-quiet = Inspelningen var för tyst.
@@ -172,15 +183,6 @@ request-language-cancel = Avsluta formulär
 request-language-form-language =
     .label = Språk
 request-language-success-title = Språkförfrågan har skickats in, tack.
-request-language-success-text = Vi kommer att kontakta dig, med mer information om ditt språk när det blir tillgängligt.
 
-## Help Translate Modal
+## Languages Overview
 
-help-translate-title = Hjälp till med översättning av { $language }
-help-translate-cancel = Avsluta
-help-translate-text = Vi kommer att dirigera om dig till Mozillas översättningsverktyg, <pontoonLink>Pontoon</pontoonLink>, där detta språk för närvarande översätts till allmänheten.
-language-updates-title = Registrera dig för uppdateringar om { $language }
-help-translate-link = Ta mig till Pontoon
-language-updates-success-title = Uppdateringsförfrågan för { $language } har skickats in, tack.
-language-updates-success-text = Vi kommer att kontakta dig med mer information när det blir tillgängligt.
-language-updates-success-collapsed-title = Du har registrerat dig för uppdateringar om { $language }
