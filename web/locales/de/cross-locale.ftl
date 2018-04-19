@@ -1,6 +1,6 @@
 ## Languages
 
-get-involved-button = Mach mit
+get-involved-button = Mitmachen
 get-involved-cancel = Beenden
 get-involved-title = An { $lang } mitwirken
 get-involved-text = Danke für Ihr Interesse an der Mitarbeit an { $lang }. Wir arbeiten hat daran, alle Sprachen zu vervollständigen und informieren die Teams per E-Mail über Neuigkeiten. Wenn Sie mitmachen möchten, geben Sie hier bitte Ihre E-Mail-Adresse an.
