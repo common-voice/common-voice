@@ -231,5 +231,5 @@ language-section-in-progress = Spouští se
 language-section-launched = Spuštěno
 languages-show-more = Zobrazit více
 languages-show-less = Zobrazit méně
-language-speakers = Počet mluvčích
+language-speakers = Mluvčí
 language-total-progress = Celkem
