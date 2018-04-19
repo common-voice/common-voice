@@ -8,6 +8,7 @@ email-input =
     .label = E-mail
 submit-form-action = Odeslat
 loading = Načítání…
+audio-loading-error = Omlouváme se, ale zrovna zpracováváme další nahrávky. Zkuste to později.
 
 ## Layout
 
@@ -23,6 +24,7 @@ cookies = Cookies
 faq = FAQ
 content-license-text = Obsah je dostupný pod <licenseLink>licencí Creative Commons</licenseLink>
 share-title = Pomozte nám najít další, kteří darují svůj hlas!
+share-text = Pomozte strojům pochopit, jak mluví lidé, darujte svůj hlas na { $link }
 back-top = Zpět nahoru
 
 ## Home Page
@@ -35,6 +37,8 @@ wall-of-text-more-desktop = Teď můžete darovat svůj hlas a pomoct nám vytvo
 show-wall-of-text = Přečíst si více
 help-us-title = Pomozte nám ověřovat věty!
 help-us-explain = Stiskněte přehrát, poslouchejte a řekněte nám: přečetli správně větu níže?
+vote-yes = Ano
+vote-no = Ne
 request-language-text = Nevidíte svůj jazyk na Common Voice?
 request-language-button = Požádat o jazyk
 
@@ -52,9 +56,12 @@ status-hours =
 # $goal - number of hours representing the next goal
 status-goal = Další cíl: { $goal }
 status-more-soon = Další jazyky již brzy!
+english = Angličtina
 
 ## ProfileForm
 
+profile-form-cancel = Opustit formulář
+profile-form-delete = Smazat profil
 profile-form-username =
     .label = Uživatelské jméno
 profile-form-language =
@@ -68,6 +75,11 @@ profile-form-gender =
     .label = Pohlaví
 profile-form-submit-save = Uložit
 profile-form-submit-saved = Uloženo
+male = Muž
+female = Žena
+why-profile-title = Proč mít profil?
+why-profile-text = Tím, že nám o sobě poskytnete nějaké informace budou data, která odešlete do Common Voice, více užitečná pro systémy pro prozpoznávání řeči, které tato data využívají ke zvýšení přesnosti.
+edit-profile = Upravit profil
 
 ## FAQ
 
@@ -138,6 +150,8 @@ terms-general-law = Rozhodné právo: Tyto Právní podmínky představují úpl
 ## Data
 
 data-download-button = Stáhnout data Common Voice
+data-download-yes = Ano
+data-download-no = Ano
 data-download-license = Licence: <licenseLink>CC-0</licenseLink>
 data-download-modal = Chystáte se zahájit stahování <size>{ $size } GB</size>, chcete pokračovat?
 data-subtitle = Vytváříme otevřený a veřejně dostupný dataset hlasu, který může kdokoli použít k trénování jeho hlasových aplikací.
@@ -154,6 +168,7 @@ data-other-tatoeba-description = Tatoeba je rozsáhlá databáze vět, překlad�
 data-bundle-button = Stáhnout balík datasetů
 data-bundle-description = Data Common Voice a data všech ostatních datasetů výše.
 license = Licence: <licenseLink>{ $license }</licenseLink>
+license-mixed = Kombinovaná
 
 ## Record Page
 
@@ -161,6 +176,8 @@ record-platform-not-supported = Je nám líto, ale vaše platforma zatím není 
 record-platform-not-supported-desktop = Na počítačích si můžete stáhnout nejnovější:
 record-platform-not-supported-ios = Uživatelé <bold>iOS</bold> si mohou zdarma stáhnout naši aplikaci:
 record-must-allow-microphone = Musíte povolit přístup k mikrofonu.
+record-cancel = Zrušit opakovaný záznam
+record-retry = Opakovat
 record-error-too-short = Nahrávka byla příliš krátká.
 record-error-too-long = Nahrávka byla příliš dlouhá.
 record-error-too-quiet = Nahrávka byla příliš tichá.
@@ -168,12 +185,16 @@ record-submit-success = Odeslání bylo úspěšné! Chcete nahrávat znovu?
 record-help = Prosím, klepněte na Nahrát a poté hlasitě přečtěte větu výše.
 record-cancel = Zrušit opakovaný záznam
 review-terms = Používáním Common Voice souhlasíte s našimi <termsLink>Podmínkami</termsLink> a <privacyLink>Zásadami ochrany soukromí</privacyLink>
+terms-agree = Souhlasím
+terms-disagree = Nesouhlasím
 review-aborted = Nahrávání bylo zrušeno. Chcete smazat vaše nahrávky?
 review-submit-title = Kontrola a odeslání
 review-submit-msg = Děkujeme za nahrávky!<lineBreak></lineBreak>Teď je níže zkontrolujte a odešlete.
 review-recording = Zkontrolovat
 review-rerecord = Nahrát znovu
 review-cancel = Zrušit odeslání
+review-keep-recordings = Uchovat nahrávky
+review-delete-recordings = Smazat nahrávky
 
 ## Download Modal
 
@@ -202,15 +223,13 @@ request-language-cancel = Zavřít formulář
 request-language-form-language =
     .label = Jazyk
 request-language-success-title = Žádost o jazyk byla odeslána. Děkujeme vám.
-request-language-success-text = Až bude váš jazyk dostupný, pošleme vám více informací.
+request-language-success-content = Velmi brzy vám dáme vědět, jak můžete přidat váš jazyk do Common Voice.
 
-## Help Translate Modal
+## Languages Overview
 
-help-translate-title = Pomozte přeložit { $language }
-help-translate-cancel = Zavřít
-help-translate-text = Navedeme vás na lokalizační nástroj Mozilly, <pontoonLink>Pontoon</pontoonLink>, kde je váš jazyk překládán.
-language-updates-title = Přihlaste se k novinkám o jazyce { $language }
-help-translate-link = Přejít na Pontoon
-language-updates-success-title = Požadavek na novinky o jazyce { $language } byl odeslán, děkujeme.
-language-updates-success-text = Dáme vám vědět hned, jak budeme vědět víc.
-language-updates-success-collapsed-title = Přihlásili jste se k novinkám o jazyku { $language }
+language-section-in-progress = Spouští se
+language-section-launched = Spuštěno
+languages-show-more = Zobrazit více
+languages-show-less = Zobrazit méně
+language-speakers = Počet mluvčích
+language-total-progress = Celkem
