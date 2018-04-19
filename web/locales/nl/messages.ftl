@@ -7,6 +7,27 @@ return-to-cv = Terug naar Common Voice
 email-input =
     .label = E-mailadres
 submit-form-action = Indienen
+loading = Laden…
+
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+
+
+## Languages
+
+# Czech
+cs = Tsjechisch
+# Uzbek
+uz = Oezbeeks
+# German
+de = Duits
+# Bengali
+bn = Bengaals
+# Slovak
+sk = Slowaaks
+# Catalan
+ca = Catalaans
+# Korean
+ko = Koreaans
 
 ## Layout
 
@@ -41,7 +62,6 @@ request-language-button = Een taal aanvragen
 
 status-title = Algemene projectstatus: kijk hoe ver we al zijn!
 status-contribute = Draag bij met uw stem
-loading = Laden…
 status-hours =
     { $hours ->
         [one] Eén gevalideerd uur tot nu toe!
@@ -160,6 +180,7 @@ record-platform-not-supported = Sorry, maar uw platform wordt nog niet ondersteu
 record-platform-not-supported-desktop = Op desktopcomputers kunt u de meest recente downloaden:
 record-platform-not-supported-ios = <bold>iOS</bold>-gebruikers kunnen onze gratis app downloaden:
 record-must-allow-microphone = U dient toegang tot uw microfoon te geven.
+record-cancel = Nieuwe opname annuleren
 record-error-too-short = De opname was te kort.
 record-error-too-long = De opname was te lang.
 record-error-too-quiet = De opname was te zacht.
@@ -202,15 +223,6 @@ request-language-cancel = Formulier afsluiten
 request-language-form-language =
     .label = Taal
 request-language-success-title = Taalaanvraag met succes ingediend, bedankt.
-request-language-success-text = We nemen contact op met meer informatie over uw taal wanneer deze beschikbaar komt.
 
-## Help Translate Modal
+## Languages Overview
 
-help-translate-title = Help mee met vertalen naar { $language }
-help-translate-cancel = Afsluiten
-help-translate-text = We leiden u naar het vertaalhulpmiddel van Mozilla, <pontoonLink>Pontoon</pontoonLink>, waar deze taal momenteel openstaat voor vertaling.
-language-updates-title = Inschrijven voor updates voor { $language }
-help-translate-link = Breng me naar Pontoon
-language-updates-success-title = Updateverzoek voor { $language } met succes ingediend, bedankt.
-language-updates-success-text = We nemen contact op met meer informatie zodra deze beschikbaar komt.
-language-updates-success-collapsed-title = U bent ingeschreven voor updates voor { $language }

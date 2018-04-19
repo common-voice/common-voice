@@ -8,3 +8,5 @@ get-involved-form-title = Inschrijven voor updates in het { $lang }:
 get-involved-email =
     .label = E-mailadres
 get-involved-opt-in = Ja, stuur mij e-mails. Ik wil graag op de hoogte worden gehouden over de voortgang van deze taal op Common Voice.
+get-involved-submit = Indienen
+get-involved-return-to-languages = Terug naar Talen
