@@ -28,6 +28,42 @@ sk = Slowaaks
 ca = Catalaans
 # Korean
 ko = Koreaans
+# Thai
+th = Thais
+# Irish
+ga-IE = Iers
+# Polish
+pl = Pools
+# Indonesian
+id = Indonesisch
+# Welsh
+cy = Welsh
+# Greek
+el = Grieks
+# Chuvash
+cv = Chuvash
+# Swedish
+sv-SE = Zweeds
+# Macedonian
+mk = Macedonisch
+# French
+fr = Frans
+# Turkish
+tr = Turks
+# Tatar
+tt = Tataars
+# Frisian
+fy-NL = Fries
+# Hebrew
+he = Hebreeuws
+# Dutch
+nl = Nederlands
+# Albanian
+sq = Albanees
+# Russian
+ru = Russisch
+# Italian
+it = Italiaans
 
 ## Layout
 
@@ -55,6 +91,8 @@ wall-of-text-more-desktop = U kunt nu uw stem doneren om ons te helpen een opens
 show-wall-of-text = Meer lezen
 help-us-title = Help ons zinnen te valideren!
 help-us-explain = Klik op de afspeelknop, luister en vertel ons: wordt de onderstaande zin juist uitgesproken?
+vote-yes = Ja
+vote-no = Nee
 request-language-text = Ziet u uw taal nog niet op Common Voice?
 request-language-button = Een taal aanvragen
 
@@ -71,9 +109,12 @@ status-hours =
 # $goal - number of hours representing the next goal
 status-goal = Volgende doel: { $goal }
 status-more-soon = Meer talen volgen binnenkort!
+english = Engels
 
 ## ProfileForm
 
+profile-form-cancel = Formulier afsluiten
+profile-form-delete = Profiel verwijderen
 profile-form-username =
     .label = Gebruikersnaam
 profile-form-language =
@@ -87,6 +128,14 @@ profile-form-gender =
     .label = Geslacht
 profile-form-submit-save = Opslaan
 profile-form-submit-saved = Opgeslagen
+profile-keep-data = Gegevens behouden
+profile-delete-data = Gegevens verwijderen
+male = Mannelijk
+female = Vrouwelijk
+why-profile-title = Waarom een profiel?
+edit-profile = Profiel bewerken
+profile-create = Een profiel aanmaken
+profile-close = Sluiten
 
 ## FAQ
 
@@ -157,6 +206,8 @@ terms-general-law = Toepasselijk recht: deze Juridische Voorwaarden omvatten de 
 ## Data
 
 data-download-button = Common Voice-gegevens downloaden
+data-download-yes = Ja
+data-download-deny = Nee
 data-download-license = Licentie: <licenseLink>CC-0</licenseLink>
 data-download-modal = U staat op het punt een download ter grootte van <size>{ $size } GB</size> te starten, doorgaan?
 data-subtitle = We bouwen een open en openbaar toegankelijke gegevensset van stemmen, die iedereen kan gebruiken om spraakgestuurde toepassingen te trainen.
@@ -173,6 +224,7 @@ data-other-tatoeba-description = Tatoeba is een grote database van zinnen, verta
 data-bundle-button = Gegevenssetbundel downloaden
 data-bundle-description = Common Voice-gegevens plus alle overige bovenstaande gegevenssets.
 license = Licentie: <licenseLink>{ $license }</licenseLink>
+license-mixed = Gemengd
 
 ## Record Page
 
@@ -181,6 +233,7 @@ record-platform-not-supported-desktop = Op desktopcomputers kunt u de meest rece
 record-platform-not-supported-ios = <bold>iOS</bold>-gebruikers kunnen onze gratis app downloaden:
 record-must-allow-microphone = U dient toegang tot uw microfoon te geven.
 record-cancel = Nieuwe opname annuleren
+record-retry = Opnieuw proberen
 record-error-too-short = De opname was te kort.
 record-error-too-long = De opname was te lang.
 record-error-too-quiet = De opname was te zacht.
@@ -194,6 +247,8 @@ review-submit-msg = Bedankt voor uw opname!<lineBreak></lineBreak>Beoordeel nu h
 review-recording = Beoordelen
 review-rerecord = Opnieuw opnemen
 review-cancel = Inzending annuleren
+review-keep-recordings = Opnamen behouden
+review-delete-recordings = Mijn opnamen verwijderen
 
 ## Download Modal
 
@@ -226,3 +281,5 @@ request-language-success-title = Taalaanvraag met succes ingediend, bedankt.
 
 ## Languages Overview
 
+language-speakers = Sprekers
+language-total-progress = Totaal
