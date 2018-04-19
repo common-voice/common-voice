@@ -214,7 +214,7 @@ class ProfileForm extends React.Component<Props, State> {
   private renderOptionsFor(options: any) {
     return Object.keys(options).map(key => (
       <option key={key} value={key}>
-        {this.props.getString(key) || options[key]}
+        {this.props.getString(key, null, options[key])}
       </option>
     ));
   }
