@@ -39,9 +39,9 @@ class WhyProfile extends React.Component<{}, WhyProfileState> {
             <Localized id="why-profile-text">
               <p id="why-profile-text" />
             </Localized>
-            <a href="javascript:void(0)" onClick={this.toggle}>
-              Close
-            </a>
+            <Localized id="profile-close">
+              <a href="javascript:void(0)" onClick={this.toggle} />
+            </Localized>
           </div>
         )}
       </div>
@@ -98,9 +98,9 @@ class ProfileActions extends React.Component<PropsFromState, State> {
                 <ProfileForm onExit={this.toggleProfileForm} />
               </div>
             ) : (
-              <Button outline onClick={this.toggleProfileForm}>
-                Create a profile
-              </Button>
+              <Localized id="profile-create">
+                <Button outline onClick={this.toggleProfileForm} />
+              </Localized>
             )}
             <WhyProfile />
           </div>

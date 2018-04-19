@@ -148,11 +148,15 @@ profile-form-submit-save = Save
 profile-form-submit-saved = Saved
 male = Male
 female = Female
+# Gender
+other = Other
 why-profile-title = Why a profile?
 why-profile-text =
   By providing some information about yourself, the audio data you submit to Common Voice will be more useful to Speech
   Recognition engines that use this data to improve their accuracy.
 edit-profile = Edit Profile
+profile-create = Create a profile
+profile-close = Close
 
 ## FAQ
 faq-title = Frequently Asked Questions

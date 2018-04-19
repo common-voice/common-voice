@@ -102,7 +102,9 @@ class ProfileForm extends React.Component<Props, State> {
         )}
 
         <div className="title-and-action">
-          <h1>Create a Profile</h1>
+          <Localized id="profile-create">
+            <h1 />
+          </Localized>
           <Localized
             id={
               'profile-form-' + (onExit ? 'cancel' : hasEnteredInfo && 'delete')
