@@ -128,6 +128,7 @@ profile-close = 關閉
 
 faq-title = 常見問題
 faq-what-q = Common Voice 是什麼？
+faq-what-a = 語音識別技術可能會革命性地改變我們與機器互動的方式，但目前的系統不但昂貴，還是私有的系統。Common Voice 是讓語音識別技術能夠簡單地被任何人使用地專案。人們可貢獻聲音，打造一個讓任何人都可以快速而簡單即可用來訓練有語音識別功能的應用程式的巨大資料庫。所有的語音資料都會開放給開發者使用。
 faq-important-q = 有什麼重要性？
 faq-get-q = 我要如何取得 Common Voice 資料？
 faq-get-a = 已根據 <licenseLink>CC-0</licenseLink> 授權條款，於我們的<downloadLink>下載頁面</downloadLink>提供資料集。
