@@ -129,6 +129,7 @@ class DataPage extends React.Component<Props, State> {
   render() {
     const { getString } = this.props;
     const { showModalFor } = this.state;
+
     return (
       <div id="data-container">
         {typeof showModalFor === 'string' ? (
@@ -142,7 +143,7 @@ class DataPage extends React.Component<Props, State> {
               innerClassName="download-modal"
               buttons={{
                 [getString('data-download-yes')]: this.startDownload,
-                [getString('data-download-no')]: this.hideModal,
+                [getString('data-download-deny')]: this.hideModal,
               }}
               onRequestClose={this.hideModal}>
               <Localized
