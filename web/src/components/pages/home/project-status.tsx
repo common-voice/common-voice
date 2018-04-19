@@ -54,7 +54,7 @@ class ProjectStatus extends React.Component<Props, State> {
 
         <div className="contents">
           <div className="language-progress">
-            <Localized id="english">
+            <Localized id="en">
               <b />
             </Localized>
             <ProgressBar progress={validatedHours ? validatedHours / goal : 0}>

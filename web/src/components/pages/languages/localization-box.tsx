@@ -54,7 +54,7 @@ class LocalizationBox extends React.Component<Props, State> {
     return (
       <li className="language">
         <div className="info">
-          <h2>{locale.name}</h2>
+          <Localized id={locale.code}><h2/></Localized>
           <div className="numbers">
             <div>
               <Localized id="language-speakers">

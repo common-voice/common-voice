@@ -3,7 +3,7 @@ import ISO6391 from 'iso-639-1';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import Modal from '../../modal/modal';
-import { CloseIcon, SuccessIcon } from '../../ui/icons';
+import { SuccessIcon } from '../../ui/icons';
 import { Button, Hr, LabeledInput } from '../../ui/ui';
 import { RequestedLanguages } from '../../../stores/requested-langauges';
 import StateTree from '../../../stores/tree';
@@ -89,7 +89,7 @@ class GetInvolvedModal extends React.Component<Props, State> {
           <div className="signup-success">
             <SuccessIcon />
 
-            <Localized id="get-involved-success-title" $language={locale.name}>
+            <Localized id="get-involved-success-title" $language={nativeName}>
               <h2 />
             </Localized>
 

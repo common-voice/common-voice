@@ -9,6 +9,71 @@ submit-form-action = Submit
 loading = Loading…
 audio-loading-error = Sorry! We are processing our audio files, please try again shortly.
 
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+#[Languages]
+## Languages
+# Czech
+cs = Czech
+# Uzbek
+uz = Uzbek
+# German
+de = German
+# Bengali
+bn = Bengali
+# Slovak
+sk = Slovak
+# Catalan
+ca = Catalan
+# Korean
+ko = Korean
+# Spanish (Chile)
+es-CL = Spanish (Chile)
+# Thai
+th = Thai
+# Irish
+ga-IE = Irish
+# Polish
+pl = Polish
+# Portuguese (Brazil)
+pt-BR = Portuguese (Brazil)
+# Indonesian
+id = Indonesian
+# Chinese (Taiwan)
+zh-TW = Chinese (Taiwan)
+# Welsh
+cy = Welsh
+# Greek
+el = Greek
+# Chuvash
+cv = Chuvash
+# Swedish
+sv-SE = Swedish
+# Macedonian
+mk = Macedonian
+# Norwegian Nynorsk
+nn-NO = Norwegian Nynorsk
+# French
+fr = French
+# Turkish
+tr = Turkish
+# Tatar
+tt = Tatar
+# Frisian
+fy-NL = Frisian
+# Hebrew
+he = Hebrew
+# Chinese (China)
+zh-CN = Chinese (China)
+# Dutch
+nl = Dutch
+# Albanian
+sq = Albanian
+# Russian
+ru = Russian
+# Italian
+it = Italian
+#[/]
+
 ## Layout
 speak = Speak
 datasets = Datasets
