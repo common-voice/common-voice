@@ -74,7 +74,7 @@ class GetInvolvedModal extends React.Component<Props, State> {
           <h2 />
         </Localized>
         <br />
-        <Localized id="get-involved-text">
+        <Localized id="get-involved-text" $lang={nativeName}>
           <p />
         </Localized>
         <br />
