@@ -8,3 +8,4 @@ get-involved-form-title = 訂閱 { $lang } 最新消息電子報:
 get-involved-email =
     .label = 電子郵件
 get-involved-opt-in = 是的，請寄信給我。我想了解此語言在 Common Voice 的最新進度。
+get-involved-submit = 送出
