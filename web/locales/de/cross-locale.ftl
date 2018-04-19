@@ -11,3 +11,4 @@ get-involved-opt-in = Ja, ich möchte E-Mails erhalten. Ich möchte über den Fo
 get-involved-submit = Absenden
 get-involved-stayintouch = Wir bei Mozilla bauen eine Gemeinschaft rund um sprachbasierte Technologien auf. Wir würden gerne für Aktualisierungen und neue Datenquellen mit Ihnen in Kontakt bleiben und mehr darüber erfahren, wie Sie diese Daten nutzen.
 get-involved-privacy-info = Wir versichern Ihnen, mit ihren Daten sorgfältig umzugehen. Lesen Sie mehr dazu in unserer <privacyLink>Datenschutzerklärung</privacyLink>.
+get-involved-return-to-languages = Zurück zu Common Voice
