@@ -39,6 +39,13 @@ fr = Ffrangeg
 tr = Twrceg
 tt = Tartareg
 fy-NL = Ffriseg
+he = Hebraeg
+zh-CN = Tsieinëeg (Tsiena)
+nl = Iseldireg
+sq = Albaneg
+ru = Rwsieg
+it = Eidaleg
+en = Saesneg
 
 ## Layout
 
@@ -54,12 +61,13 @@ cookies = Cwcis
 faq = Cwestiynau Cyffredin
 content-license-text = Mae'r cynnwys ar gael o dan <licenseLink>drwydded Creative Commons</licenseLink>
 share-title = Helpwch ni i gael rhagor i gyfrannu eu lleisiau!
+share-text = Helpwch beiriannau i ddysgu sut mae pobl go iawn yn siarad, cyfrannwch eich llais yn { $link }
 back-top = Nôl i'r Brig
 
 ## Home Page
 
-home-title = Common Voice yw menter Mozilla i helpu dysgu peiriannau sut mae pobl go-iawn yn siarad.
-home-cta = Siarad a chyfrannu yn fan hyn!
+home-title = Common Voice yw cynllun Mozilla i helpu dysgu peiriannau sut mae pobl go-iawn yn siarad.
+home-cta = Siarad a chyfrannu yma!
 wall-of-text-start = Mae llais yn naturiol ac yn perthyn i ni i gyd. Dyna pam mae gennym ddiddordeb mawr mewn creu technoleg llais defnyddiol ar gyfer ein peiriannau. Ond er mwyn creu systemau llais, mae angen data llais sylweddol iawn.
 wall-of-text-more-mobile = Nid yw'r data sy'n cael ei ddefnyddio gan gwmnïau mawr ar gael i'r rhan fwyaf o bobl. I ni, mae hynny'n cyfyngu ar ddyfeisgarwch. Felly rydym wedi cychwyn Project Common Voice, project i wneud adnabod llais ar gael i bawb.
 wall-of-text-more-desktop =
@@ -68,6 +76,8 @@ wall-of-text-more-desktop =
 show-wall-of-text = Darllen Rhagor
 help-us-title = Helpwch ni i ddilysu brawddegau!
 help-us-explain = Pwyswch chwarae, gwrando a dweud: ydyn nhw wedi siarad y frawddeg isod yn iawn?
+vote-yes = Iawn
+vote-no = Na
 request-language-text = Ddim yn gweld eich iaith yn Common Voice eto?
 request-language-button = Cais am Iaith
 
@@ -86,9 +96,12 @@ status-hours =
 # $goal - number of hours representing the next goal
 status-goal = Nod Nesaf: { $goal }
 status-more-soon = Rhagor o ieithoedd ar y ffordd!
+english = Saesneg
 
 ## ProfileForm
 
+profile-form-cancel = Ffurflen gadael
+profile-form-delete = Dileu Proffil
 profile-form-username =
     .label = Enw Defnyddiwr
 profile-form-language =
@@ -102,6 +115,18 @@ profile-form-gender =
     .label = Rhyw
 profile-form-submit-save = Cadw
 profile-form-submit-saved = Wedi'u Cadw
+profile-keep-data = Cadw Data
+profile-delete-data = Dileu Data
+male = Gwryw
+female = Benyw
+# Gender
+other = Arall
+why-profile-title = Pam proffil?
+why-profile-text = Drwy ddarparu rhywfaint o wybodaeth amdanoch chi eich hun, bydd y data sain rydych yn ei gyflwyno i Common Voice yn fwy defnyddiol i beiriannau Adnabod Lleferydd sy'n defnyddio'r data hwn i wella eu cywirdeb.
+edit-profile = Golygu Proffil
+profile-create = Creu proffil
+profile-create-success = Llwyddiant, wedi creu proffil!
+profile-close = Cau
 
 ## FAQ
 
@@ -172,6 +197,8 @@ terms-general-law = Cyfraith Llywodraethol: Mae'r Amodau Cyfreithiol hyn yn cynn
 ## Data
 
 data-download-button = Llwytho Data Common Voice i Lawr
+data-download-yes = Iawn
+data-download-deny = Na
 data-download-license = Trwydded: <licenseLink>CC-0</licenseLink>
 data-download-modal = Rydych ar fin cychwyn llwytho i lawr ffeil o faint <size>{ $size }GB</size>, parhau?
 data-subtitle = Rydym yn adeiladu set ddata o leisiau agored, sydd ar gael yn gyhoeddus, y bydd pawb yn gallu ei ddefnyddio i hyfforddi rhaglenni sy'n gallu trin lleferydd.
@@ -188,6 +215,7 @@ data-other-tatoeba-description = Mae Tatoeba yn gronfa ddata mawr o frawddegau, 
 data-bundle-button = Llwytho Pecyn Set Ddata i Lawr
 data-bundle-description = Common Voice ynghyd a'r holl setiau data llais uchod.
 license = Trwydded: <licenseLink>{ $license }</licenseLink>
+license-mixed = Cymysg
 
 ## Record Page
 
@@ -196,6 +224,7 @@ record-platform-not-supported-desktop = Ar gyfrifiaduron bwrdd gwaith gallwch lw
 record-platform-not-supported-ios = Gall defnyddwyr <bold>iOS</bold> lwytho i lawr ein ap am ddim:
 record-must-allow-microphone = Rhaid i chi ganiatáu mynediad i'r meicroffon.
 record-cancel = Diddymu Ail-recordio
+record-retry = Ceisio eto
 record-error-too-short = Roedd y recordiad yn rhy fyr.
 record-error-too-long = Roedd y recordiad yn rhy hir.
 record-error-too-quiet = Roedd y recordiad yn rhy dawel.
@@ -203,12 +232,16 @@ record-submit-success = Llwyddiant wrth gyflwyno! Eisiau recordio eto?
 record-help = Tapiwch i recordio, yna darllenwch y frawddeg uchod allan.
 record-cancel = Diddymu Ail-recordio
 review-terms = Drwy ddefnyddio Common Vice rydych yn cytuno i'n <termsLink>Amodau</termsLink> a'n <privacyLink>Hysbysiadau Preifatrwydd</privacyLink>
+terms-agree = Rwy'n cytuno
+terms-disagree = Nid wyf yn cytuno
 review-aborted = Methodd y llwytho i fyny. Hoffech chi ddileu eich recordiadau?
 review-submit-title = Adolygu a Chyflwyno
 review-submit-msg = Diolch am recordio!<lineBreak></lineBreak>Nawr adolygwch a chyflwyno eich clipiau isod.
 review-recording = Adolygu
 review-rerecord = Ail-recordio
 review-cancel = Diddymu'r Cyflwyno
+review-keep-recordings = Cadw'r recordiadau
+review-delete-recordings = Dileu fy recordiadau
 
 ## Download Modal
 
@@ -237,6 +270,13 @@ request-language-cancel = Gadael y Ffurflen
 request-language-form-language =
     .label = Iaith
 request-language-success-title = Mae'r cais am iaith wedi ei gyflwyno'n llwyddiannus, diolch.
+request-language-success-content = Byddwn mewn cysylltiad gyda rhagor o wybodaeth am sut i ychwanegu eich iaith i Common Voice yn fuan.
 
 ## Languages Overview
 
+language-section-in-progress = Ar Waith
+language-section-launched = Wedi Cychwyn
+languages-show-more = Gweld Mwy
+languages-show-less = Gweld Llai
+language-speakers = Seinyddion
+language-total-progress = Cyfanswm
