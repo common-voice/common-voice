@@ -158,6 +158,7 @@ why-profile-text =
   Recognition engines that use this data to improve their accuracy.
 edit-profile = Edit Profile
 profile-create = Create a profile
+profile-create-success = Success, profile created!
 profile-close = Close
 
 ## FAQ
