@@ -98,6 +98,8 @@ home-cta = 有話大聲說，在此獻聲！
 show-wall-of-text = 了解更多
 help-us-title = 請幫助我們驗證句子！
 help-us-explain = 按下播放，聆聽，然後告訴我們: 他們準確地說出了下方的句子嗎？
+vote-yes = 是
+vote-no = 否
 request-language-text = 沒在 Common Voice 看到您的語言嗎？
 request-language-button = 要求新語言
 
@@ -129,6 +131,11 @@ profile-form-gender =
     .label = 性別
 profile-form-submit-save = 儲存
 profile-form-submit-saved = 已儲存
+male = 男性
+female = 女性
+# Gender
+other = 其他
+profile-close = 關閉
 
 ## FAQ
 
