@@ -11,6 +11,34 @@ loading = Lastar…
 
 ## Languages
 
+ga-IE = Irsk
+cs = Tsjekkisk
+de = Tysk
+sk = Slovakisk
+ca = Katalansk
+ko = Koreansk
+es-CL = Spansk (Chile)
+th = Thai
+pl = Polsk
+pt-BR = Portugisisk (Brazil)
+id = Indonesisk
+zh-TW = Kinesisk (Taiwan)
+cy = Walisisk
+el = Gresk
+cv = Tsjuvasjisk
+sv-SE = Svensk
+mk = Makedonsk
+nn-NO = Nynorsk
+fr = Fransk
+tr = Tyrkisk
+fy-NL = frisisk
+he = Hebraisk
+zh-CN = Kinesisk (Kina)
+nl = Nederlandsk
+sq = Albansk
+ru = Russisk
+it = Italiensk
+en = Engelsk
 
 ## Layout
 
@@ -29,6 +57,8 @@ faq = FAQ
 
 show-wall-of-text = Les meir
 help-us-title = Hjelp oss med å validere setningar!
+vote-yes = Ja
+vote-no = Nei
 request-language-text = Ser du ikkje språket ditt på Common Voice enno?
 request-language-button = Send ein førespurnad om eit nytt språk
 
@@ -45,9 +75,12 @@ status-hours =
 # $goal - number of hours representing the next goal
 status-goal = Neste mål: { $goal }
 status-more-soon = Fleire språk kjem snart!
+english = Engelsk
 
 ## ProfileForm
 
+profile-form-cancel = Avslutt skjema
+profile-form-delete = Slett profilen
 profile-form-username =
     .label = Brukarnamn
 profile-form-language =
@@ -61,6 +94,17 @@ profile-form-gender =
     .label = KJønn
 profile-form-submit-save = Lagre
 profile-form-submit-saved = Lagra
+profile-keep-data = Behald data
+profile-delete-data = Slett data
+male = Mann
+female = Kvinne
+# Gender
+other = Anna
+why-profile-title = Kvifor ein profil?
+edit-profile = Rediger profil
+profile-create = Opprett ein profil
+profile-create-success = Profil oppretta
+profile-close = Lat att
 
 ## FAQ
 
