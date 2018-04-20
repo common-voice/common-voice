@@ -126,9 +126,11 @@ notfound-title = খুঁজে পাওয়া যায়নি
 
 ## Privacy
 
+privacy-more = <more>আরও তথ্য</more>
 
 ## Terms
 
+terms-title = Common Voice আইনি শর্তাবলী
 terms-eligibility-title = নির্বাচিত হইবার যোগ্যতা
 terms-privacy-title = গোপনীয়তা
 terms-communications-title = যোগাযোগ
@@ -138,9 +140,14 @@ terms-general-title = সাধারণ
 
 data-download-yes = হাঁ
 data-download-deny = না
+data-download-license = লাইসেন্স: <licenseLink>CC-0</licenseLink>
 data-other-title = অন্যান্য ভয়েস ডেটাসেট...
+data-other-goto = { $name } এ যান
 data-other-download = ডাটা ডাউনলোড করুন
+data-other-ted-name = TED-LIUM করপাস
+data-other-ted-description = TED ওয়েবসাইটে প্রাপ্ত টেড-টক সমূহের অডিও আলোচনা এবং সেগুলোর লিখিত প্রতিলিপি থেকে তৈরী করা TED-LIUM করপাস।
 data-bundle-button = ডেটাসেট বান্ডেল ডাউনলোড করুন
+license-mixed = মিশ্রিত
 
 ## Record Page
 
