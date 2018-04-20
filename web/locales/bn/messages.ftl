@@ -61,6 +61,7 @@ cookies = কুকি
 faq = সাধারণত জিজ্ঞাসিত প্রশ্নাবলী
 content-license-text = বিষয়বস্তু <licenseLink>Creative Commons license</licenseLink> এর অধীনে উপলব্ধ
 share-title = কণ্ঠস্বর দিয়ে অবদান রাখার জন্যে আরও স্বেচ্ছাসেবক খুঁজতে আমাদের সহায়তা করুন!
+share-text = সত্যিকারের লোকেরা কীভাবে কথা বলে, সেটি মেশিনকে শেখাতে সহায়তা করুন, আপনার কণ্ঠস্বর দিন এখানে { $link }
 back-top = শীর্ষে ফিরে যান
 
 ## Home Page
@@ -143,6 +144,7 @@ data-download-yes = হাঁ
 data-download-deny = না
 data-download-license = লাইসেন্স: <licenseLink>CC-0</licenseLink>
 data-download-modal = আপনি <size>{ $size } গিগাবাইট</size> ডাউনলোড করতে যাচ্ছেন, এগিয়ে যেতে চান?
+data-subtitle = আমরা কণ্ঠস্বরের একটি মুক্ত ও সার্বজনীন ডাটাসেট তৈরী করছি, যেকেউ এটি ব্যবহার করে কণ্ঠস্বর-সক্রিয় অ্যাপলিকেশন প্রশিক্ষণ করাতে পারবে। 
 data-other-title = অন্যান্য ভয়েস ডেটাসেট...
 data-other-goto = { $name } এ যান
 data-other-download = ডাটা ডাউনলোড করুন
