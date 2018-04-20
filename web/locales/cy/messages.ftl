@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Iawn, anfon e-byst ata i. Rwyf eisiau cael gwybod am Broject Common Voice.
+yes-receive-emails = Iawn, anfonwch e-byst ata i. Byddwn yn hoffi derbyn gwybodaeth am broject Common Voice.
 stayintouch = Rydym ni ym Mozilla'n adeiladu cymuned o amgylch technoleg llais. Hoffwn gadw mewn cysylltiad gyda diweddariadau, ffynonellau data newydd ac i glywed rhagor am sut rydych yn defnyddio'r data yma.
 privacy-info = Rydym yn addo trin eich manylion yn ofalus. Darllenwch ragor am ein <privacyLink>Hysbysiad Preifatrwydd</privacyLink>.
 return-to-cv = Dychwelyd i Common Voice
@@ -100,7 +100,7 @@ english = Saesneg
 
 ## ProfileForm
 
-profile-form-cancel = Ffurflen Gadael
+profile-form-cancel = Gadael y Ffurflen 
 profile-form-delete = Dileu Proffil
 profile-form-username =
     .label = Enw Defnyddiwr
@@ -278,5 +278,5 @@ language-section-in-progress = Ar Waith
 language-section-launched = Wedi Cychwyn
 languages-show-more = Gweld Mwy
 languages-show-less = Gweld Llai
-language-speakers = Seinyddion
+language-speakers = Siaradwyr
 language-total-progress = Cyfanswm
