@@ -107,6 +107,8 @@ other = অন্যান্য
 why-profile-title = প্রোফাইল কেন তৈরী করবেন?
 edit-profile = প্রোফাইল সম্পাদনা করুন
 profile-create = প্রোফাইল তৈরী করুন
+profile-create-success = প্রোফাইল সফলভাবে তৈরী হয়েছে!
+profile-close = বন্ধ করুন
 
 ## FAQ
 
@@ -127,9 +129,15 @@ notfound-title = খুঁজে পাওয়া যায়নি
 
 ## Terms
 
+terms-eligibility-title = নির্বাচিত হইবার যোগ্যতা
+terms-privacy-title = গোপনীয়তা
+terms-communications-title = যোগাযোগ
+terms-general-title = সাধারণ
 
 ## Data
 
+data-download-yes = হাঁ
+data-download-deny = না
 data-other-title = অন্যান্য ভয়েস ডেটাসেট...
 data-other-download = ডাটা ডাউনলোড করুন
 data-bundle-button = ডেটাসেট বান্ডেল ডাউনলোড করুন
