@@ -153,7 +153,7 @@ faq-source-a2 = Gallwch weld ein brawddegau ffynhonnell yn <dataLink>y ffolder G
 
 ## Profile
 
-profile-why-title = Pam proffil?
+profile-why-title = Pam cael proffil?
 profile-why-content = Drwy ddarparu rhywfaint o wybodaeth amdanoch chi eich hun, bydd y data sain rydych yn ei gyflwyno i Common Voice yn fwy defnyddiol i beiriannau Adnabod Lleferydd sy'n defnyddio'r data hwn i wella eu cywirdeb.
 
 ## NotFound
