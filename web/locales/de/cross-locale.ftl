@@ -15,4 +15,4 @@ get-involved-stayintouch = Wir bei Mozilla bauen eine Gemeinschaft rund um sprac
 get-involved-privacy-info = Wir versichern Ihnen, mit ihren Daten sorgfältig umzugehen. Lesen Sie mehr dazu in unserer <privacyLink>Datenschutzerklärung</privacyLink>.
 get-involved-success-title = Sie sind erfolgreich Team { language } beigetreten. Vielen Dank!
 get-involved-success-text = Wir melden uns erneut bei Ihnen, wenn uns weitere Informationen vorliegen.
-get-involved-return-to-languages = Zurück zu Common Voice
+get-involved-return-to-languages = Zurück zu Sprachen
