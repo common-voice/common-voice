@@ -146,6 +146,7 @@ notfound-title = খুঁজে পাওয়া যায়নি
 
 ## Privacy
 
+privacy-title = Common Voice গোপনীয়তা বিজ্ঞপ্তি
 privacy-more = <more>আরও তথ্য</more>
 
 ## Terms
