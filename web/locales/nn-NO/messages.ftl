@@ -13,7 +13,9 @@ loading = Lastar…
 
 ga-IE = Irsk
 cs = Tsjekkisk
+uz = Usbekisk
 de = Tysk
+bn = Bengali
 sk = Slovakisk
 ca = Katalansk
 ko = Koreansk
@@ -31,6 +33,7 @@ mk = Makedonsk
 nn-NO = Nynorsk
 fr = Fransk
 tr = Tyrkisk
+tt = Tatarisk
 fy-NL = frisisk
 he = Hebraisk
 zh-CN = Kinesisk (Kina)
