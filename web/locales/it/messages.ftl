@@ -121,13 +121,11 @@ privacy-more = <more>Per saperne di più</more>
 
 ## Terms
 
-terms-title = Condizioni giuridiche di Common Voice
 terms-effective = In vigore da { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
 terms-eligibility-title = Idoneità
 terms-privacy-title = Privacy
 terms-privacy-content = L’<privacyLink>informativa sulla privacy</privacyLink> spiega come utilizziamo e gestiamo i tuoi dati.
 terms-contributions-title = Contributi e cessione dei diritti
-terms-contributions-content = Inviando le tue registrazioni, perderai tutti i diritti e copyright che potresti avere e accetti di rilasciarli al pubblico sotto licenza <licenseLink>CC-0</licenseLink>. Questo significa che accetti che tutti i diritti alle registrazioni e database saranno disponibili a livello globale sotto copyright inclusi diritti morali e pubblicitari e tutti gli altri diritti.
 terms-communications-title = Comunicazioni
 terms-general-title = Generale
 
