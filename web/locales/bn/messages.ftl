@@ -83,6 +83,7 @@ request-language-button = একটি ভাষার জন্যে অনু
 
 ## ProjectStatus
 
+status-title = প্রকল্পের সামগ্রিক অবস্থা: আমরা কতদূর এসেছি তা দেখুন!
 status-contribute = আপনার কণ্ঠস্বর দিয়ে অবদান রাখুন
 # Variables:
 # $goal - number of hours representing the next goal
