@@ -6,6 +6,12 @@ email-input =
 submit-form-action = Send inn
 loading = Lastar…
 
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+
+
+## Languages
+
+
 ## Layout
 
 speak = Snakk
@@ -85,6 +91,8 @@ terms-general-title = Generelt
 ## Data
 
 data-download-button = Last ned Common Voice Data
+data-download-yes = Ja
+data-download-deny = Nei
 data-download-license = Lisens: <licenseLink>CC-0</licenseLink>
 data-other-goto = Gå til { $name }
 data-other-download = Last ned data
@@ -92,6 +100,7 @@ data-other-ted-name = TED-LIUM korpus
 
 ## Record Page
 
+record-cancel = Avbryt nyinnspelinga
 record-error-too-short = Innspelinga var for kort.
 record-error-too-long = Innspelinga var for lang.
 record-error-too-quiet = Innspelinga var for stille.
@@ -128,10 +137,5 @@ request-language-cancel = Avslutt skjemaet
 request-language-form-language =
     .label = Språk
 
-## Help Translate Modal
+## Languages Overview
 
-help-translate-title = Hjelp til med omsettinga av { $language }
-help-translate-cancel = Avslutt
-language-updates-title = Registrer deg for oppdateringar av om { $language }
-help-translate-link = Ta meg til Pontoon
-language-updates-success-collapsed-title = Du har registrert deg for oppdateringar om { $language }
