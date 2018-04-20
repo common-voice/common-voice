@@ -121,13 +121,18 @@ privacy-more = <more>Per saperne di più</more>
 
 ## Terms
 
+terms-title = Condizioni generali di Common Voice
 terms-effective = In vigore da { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
 terms-eligibility-title = Idoneità
+terms-eligibility-content = Possono prendere parte a questo progetto di crowd-sourcing tutti gli utenti che hanno compiuto 13 anni di età. In caso di età inferiore sono necessari il consenso e la supervisione di un genitore o di un tutore.
 terms-privacy-title = Privacy
 terms-privacy-content = L’<privacyLink>informativa sulla privacy</privacyLink> spiega come utilizziamo e gestiamo i tuoi dati.
 terms-contributions-title = Contributi e cessione dei diritti
+terms-contributions-content = Caricando le tue registrazioni su Common Voice cedi il tuo diritto d'autore e diritti connessi su di esse e acconsenti a renderle accessibili al pubblico sotto licenza <licenseLink>CC-0</licenseLink>. Ciò significa che acconsenti rinunciare a tutti i diritti sulle registrazioni, inclusi diritti morali, di pubblicità e tutti i diritti connessi, a livello mondiale secondo le leggi di diritto d’autore e banche dati.
 terms-communications-title = Comunicazioni
+terms-communications-content = Iscrivendoti alla newsletter o registrando un profilo su Common Voice, acconsenti a ricevere email con comunicazioni che riguardano il tuo account (per esempio aggiornamenti su condizioni legali, privacy e sicurezza).
 terms-general-title = Generale
+terms-general-liability1 = Liberatoria; Limitazione di responsabilità: COMMON VOICE E TUTTE LE REGISTRAZIONI INCLUSE SONO FORNITE "COSÌ COME SONO" SENZA NESSUN TIPO DI GARANZIA, ESPLICITA O IMPLICITA. MOZILLA NON SI ASSUME ALCUNA RESPONSABILITÀ PER LE REGISTRAZIONI CHE GLI UTENTI O TERZE PARTI TRASMETTONO ATTRAVERSO COMMON VOICE.
 
 ## Data
 
@@ -136,10 +141,16 @@ data-download-license = Licenza: <licenseLink>CC-0</licenseLink>
 data-download-modal = Verranno scaricati <size>{ $size }GB</size> di dati. Procedere con il download?
 data-subtitle = Stiamo costruendo un dataset di voci pubblico e aperto che chiunque possa utilizzare per addestrare applicativi con supporto vocale.
 data-explanatory-text = Secondo noi un grande dataset disponibile pubblicamente promuoverà l’innovazione e una sana competizione commerciale nel campo dell’apprendimento automatico basato su tecnologie vocali. La nostra è un’iniziativa globale, tutti sono invitati a partecipare. Il nostro scopo è rendere le tecnologie vocali più inclusive e adatte a rispecchiare la diversità di voci nel mondo.
+data-get-started = <speechBlogLink>Istruzioni per il riconoscimento vocale</speechBlogLink>
 data-other-title = Altri dataset vocali...
 data-other-goto = Vai a { $name }
 data-other-download = Scarica i dati
+data-other-librispeech-description = LibriSpeech è un corpus contenente circa 1000 ore di registrazioni in lingua inglese a 16Khz tratto dalla lettura di audiolibri del progetto LibriVox.
 data-other-ted-name = TED-LIUM Corpus
+data-other-ted-description = Il corpus TED-LIUM è realizzato con registrazioni audio di conferenze e relative trascrizioni disponibili sul sito TED.
+data-other-voxforge-description = VoxForge è stato creato appositamente per raccogliere trascrizioni di dettati da utilizzare nei motori di riconoscimento vocale gratuiti e open source.
+data-other-tatoeba-description = Tatoeba è un ampio database che raccoglie frasi, traduzioni e registrazioni vocali per scopi di apprendimento linguistico. Il presente download contiene tracce audio di inglese parlato registrato dalla comunità di Tatoeba.
+data-bundle-button = Scarica bundle di dataset
 data-bundle-description = Dati di Common Voice più tutti i dataset precedenti.
 license = Licenza: <licenseLink>{ $license }</licenseLink>
 
