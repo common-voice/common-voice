@@ -8,6 +8,44 @@ email-input =
     .label = Correo
 submit-form-action = Enviar
 loading = Cargando…
+audio-loading-error = ¡Lo sentimos! Estamos procesando nuestros archivos de audio, por favor vuelve a intentarlo dentro de poco.
+
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+
+
+## Languages
+
+ga-IE = Irlandés
+cs = Checo
+uz = Uzbeko
+de = Alemán
+bn = Bengalí
+sk = Eslovaco
+ca = Catalán
+ko = Coreano
+es-CL = Español (Chile)
+th = Tailandés
+pl = Polaco
+pt-BR = Portugués (Brasil)
+id = Indonesio
+zh-TW = Chino (Taiwán)
+cy = Galés
+el = Griego
+cv = Chuvasio
+sv-SE = Sueco
+mk = Macedonio
+nn-NO = Noruego Nynorsk
+fr = Francés
+tr = Turco
+tt = Tártaro
+fy-NL = Frisón
+he = Hebreo
+zh-CN = Chino (China)
+nl = Neerlandés
+sq = Albanés
+ru = Ruso
+it = Italiano
+en = Inglés
 
 ## Layout
 
@@ -23,18 +61,21 @@ cookies = Cookies
 faq = Preguntas frecuentes
 content-license-text = Contenido disponible a través de una <licenseLink>Licencia Creative Commons</licenseLink>
 share-title = ¡Ayudanos a llegar a más personas que quieran donar su voz!
+share-text = Ayuda a enseñar a las máquinas cómo habla la gente real, dona tu voz en { $link }
 back-top = Volver al inicio
 
 ## Home Page
 
-home-title = El proyecto Common Voice es una iniciativa de Mozilla para ayudar a enseñarles a las máquinas como es que las personas hablan.
+home-title = El proyecto Common Voice es una iniciativa de Mozilla para ayudar a enseñarles a las máquinas como habla la gente real.
 home-cta = Habla, ¡contribuye aquí!
 wall-of-text-start = La voz es natural, la voz es humana. Es por eso que estamos fascinados con crear una tecnología de voz para nuestras maquinas. Pero para crear un sistema de voz, una cantidad extremadamente grande de muestras de voz es requerida.
 wall-of-text-more-mobile = La mayor parte de los datos usados por las grandes compañías no esta disponible para las personas. Nosotros pensamos que eso sofoca la innovación. Así que lanzamos el proyecto Common Voice, un proyecto para hacer que el reconocimiento de voz esté disponible para todos.
-wall-of-text-more-desktop = Ahora puedes donar tu voz para ayudarnos a construir una base de datos de voz de código abierto que cualquiera pueda usar para hacer aplicaciones innovadoras para dispositivos y la web.<lineBreak></lineBreak>Lee una oración para ayudar a las máquinas a aprender cómo habla la gente real. revisa el trabajo de otros contribuidores para mejorar la calidad. ¡Así de simple!
+wall-of-text-more-desktop = Ahora puedes donar tu voz para ayudarnos a construir una base de datos de voz de código abierto que cualquiera pueda usar para hacer aplicaciones innovadoras para dispositivos y la web.<lineBreak></lineBreak>Lee una oración para ayudar a enseñarles a las máquinas cómo habla la gente real. revisa el trabajo de otros contribuidores para mejorar la calidad. ¡Así de simple!
 show-wall-of-text = Leer más
 help-us-title = ¡Ayúdanos a verificar oraciones!
 help-us-explain = Presiona reproducir, escucha y cuéntanos: ¿dijeron con precisión la oración anterior?
+vote-yes = Sí
+vote-no = No
 request-language-text = ¿Aún no encuentras tu idioma en Common Voice?
 request-language-button = Solicitar un idioma
 
@@ -51,9 +92,12 @@ status-hours =
 # $goal - number of hours representing the next goal
 status-goal = Siguiente objetivo: { $goal }
 status-more-soon = ¡Próximamente más idiomas!
+english = Inglés
 
 ## ProfileForm
 
+profile-form-cancel = Salir del formulario
+profile-form-delete = Eliminar perfil
 profile-form-username =
     .label = Nombre de usuario
 profile-form-language =
@@ -67,6 +111,18 @@ profile-form-gender =
     .label = Género
 profile-form-submit-save = Guardar
 profile-form-submit-saved = Guardado
+profile-keep-data = Mantener datos
+profile-delete-data = Eliminar datos
+male = Hombre
+female = Mujer
+# Gender
+other = Otro
+why-profile-title = ¿Por qué un perfil?
+why-profile-text = Al entregarnos un poco de información sobre ti, los datos de audio que envíes a Common Voice serán más útiles para los motores de reconocimiento de voz que los usen mejorando su precisión.
+edit-profile = Editar perfil
+profile-create = Crear un perfil
+profile-create-success = Hecho, ¡perfil creado!
+profile-close = Cerrar
 
 ## FAQ
 
@@ -137,6 +193,8 @@ terms-general-law = Ley aplicable: estos términos legales constituyen el acuerd
 ## Data
 
 data-download-button = Descargar datos de Common Voice
+data-download-yes = Sí
+data-download-deny = No
 data-download-license = Licencia: <licenseLink>CC-0</licenseLink>
 data-download-modal = Estás a punto de iniciar una descarga de <size>{ $size }GB</size>, ¿proceder?
 data-subtitle = Estamos construyendo un conjunto de datos de voces abierto y disponible públicamente que todos pueden usar para entrenar aplicaciones con reconocimiento de voz.
@@ -153,6 +211,7 @@ data-other-tatoeba-description = Tatoeba es una gran base de datos de oraciones,
 data-bundle-button = Descargar paquete de conjunto de datos
 data-bundle-description = Datos de Common Voice junto con todos los conjuntos de datos de voz anteriores.
 license = Licencia: <licenseLink>{ $license }</licenseLink>
+license-mixed = Mixta
 
 ## Record Page
 
@@ -160,6 +219,8 @@ record-platform-not-supported = Lo sentimos, pero tu plataforma actualmente no e
 record-platform-not-supported-desktop = En computadores de escritorio, puedes descargar la última versión:
 record-platform-not-supported-ios = Los usuarios de <bold>iOS</bold> pueden descargar nuestra app gratuita:
 record-must-allow-microphone = Debe permitir acceso al micrófono.
+record-cancel = Cancelar regrabación
+record-retry = Reintentar
 record-error-too-short = La grabación fue muy corta.
 record-error-too-long = La grabación fue muy larga.
 record-error-too-quiet = La grabación fue muy silenciosa.
@@ -167,12 +228,16 @@ record-submit-success = ¡Envío exitoso! ¿Quieres volver a grabar?
 record-help = Por favor, toca para grabar y luego lee la oración anterior en voz alta.
 record-cancel = Cancelar regrabación
 review-terms = Al usar Common Voice, aceptas nuestros <termsLink>Términos de uso</termsLink> y la <privacyLink>Política de privacidad</privacyLink>
+terms-agree = Estoy de acuerdo
+terms-disagree = Estoy en desacuerdo
 review-aborted = Subida abortada. ¿Quieres eliminar tus grabaciones?
 review-submit-title = Revisar y enviar
 review-submit-msg = ¡Gracias por grabar!<lineBreak></lineBreak>Ahora revisa y envía tus grabaciones a continuación.
 review-recording = Revisar
 review-rerecord = Regrabar
 review-cancel = Cancelar envío
+review-keep-recordings = Mantener las grabaciones
+review-delete-recordings = Eliminar mis grabaciones
 
 ## Download Modal
 
@@ -201,15 +266,13 @@ request-language-cancel = Salir del formulario
 request-language-form-language =
     .label = Idioma
 request-language-success-title = Solicitud de idioma enviada correctamente, gracias.
-request-language-success-text = Estaremos en contacto con más información acerca de tu idioma cuando esté disponible.
+request-language-success-content = Estaremos en contacto con más información sobre cómo añadir tu idioma a Common Voice muy pronto.
 
-## Help Translate Modal
+## Languages Overview
 
-help-translate-title = Ayudar a traducir { $language }
-help-translate-cancel = Salir
-help-translate-text = Te llevaremos a la herramienta de traducción de Mozilla, <pontoonLink>Pontoon</pontoonLink>, donde este idioma está actualmente en traducción abierta.
-language-updates-title = Recibe las actualizaciones de { $language }
-help-translate-link = Llevarme a Pontoon
-language-updates-success-title = Solicitud de actualización de { $language } enviada, gracias.
-language-updates-success-text = Nosotros estaremos en contacto con más información a medida que esté disponible.
-language-updates-success-collapsed-title = Solicitaste recibir actualizaciones para { $language }
+language-section-in-progress = En proceso
+language-section-launched = Lanzado
+languages-show-more = Ver más
+languages-show-less = Ver menos
+language-speakers = Hablantes
+language-total-progress = Total
