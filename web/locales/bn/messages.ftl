@@ -138,9 +138,11 @@ terms-general-title = সাধারণ
 
 ## Data
 
+data-download-button = Common Voice ডাটা ডাউনলোড করুন
 data-download-yes = হাঁ
 data-download-deny = না
 data-download-license = লাইসেন্স: <licenseLink>CC-0</licenseLink>
+data-download-modal = আপনি <size>{ $size } গিগাবাইট</size> ডাউনলোড করতে যাচ্ছেন, এগিয়ে যেতে চান?
 data-other-title = অন্যান্য ভয়েস ডেটাসেট...
 data-other-goto = { $name } এ যান
 data-other-download = ডাটা ডাউনলোড করুন
@@ -151,6 +153,7 @@ license-mixed = মিশ্রিত
 
 ## Record Page
 
+record-must-allow-microphone = আপনাকে মাইক্রোফোন অ্যাক্সেস সক্রিয় করতে হবে।
 
 ## Download Modal
 
