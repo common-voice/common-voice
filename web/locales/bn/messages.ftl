@@ -8,6 +8,40 @@ email-input =
     .label = ইমেইল
 submit-form-action = জমা দিন
 loading = লোড করা হচ্ছে…
+audio-loading-error = দুঃখিত! আমাদের অডিও ফাইল সমূহ প্রক্রিয়াজাত করা হচ্ছে, অনুগ্রহ করে কিছুক্ষণ পরে আবার চেষ্টা করুন।
+
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+
+
+## Languages
+
+ga-IE = আইরিশ
+cs = চেক
+uz = উজবেক
+de = জার্মান
+bn = বাংলা
+sk = স্লোভাক
+ca = ক্যাটালান
+ko = কোরিয়ান
+es-CL = স্প্যানিশ (চিলি)
+th = থাই
+pl = পোলিশ
+pt-BR = পর্তুগীজ (ব্রাজিলের)
+id = ইন্দোনেশিয়ান
+zh-TW = চাইনীজ (তাইওয়ানের)
+cy = ওয়েলশ
+el = গ্রীক
+cv = চুবাস
+sv-SE = সুইডিশ
+mk = ম্যাসিডোনিয়ান
+nn-NO = নরওয়েজিয়ান নিনির্স্ক
+fr = ফরাসী
+tr = তুর্কি
+tt = তাতার
+fy-NL = ফ্রিসিয়ান
+he = হিব্রু
+zh-CN = চায়নীজ (চিনের)
+nl = ডাচ
 
 ## Layout
 
@@ -94,5 +128,5 @@ data-bundle-button = ডেটাসেট বান্ডেল ডাউনল
 ## Request Language Modal
 
 
-## Help Translate Modal
+## Languages Overview
 
