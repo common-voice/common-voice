@@ -8,3 +8,4 @@ get-involved-form-title = { $lang } ভাষার আপডেট জানত
 get-involved-email =
     .label = ইমেইল
 get-involved-opt-in = হ্যাঁ, আমাকে ইমেইল করতে পারেন। আমি Common Voice প্রকল্পে এই ভাষার অগ্রগতি সম্পর্কে জানতে নিয়মিত ইমেইল আপডেট পেতে আগ্রহী।
+get-involved-submit = জমা দিন
