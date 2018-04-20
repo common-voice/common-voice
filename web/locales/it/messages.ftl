@@ -136,7 +136,6 @@ data-download-license = Licenza: <licenseLink>CC-0</licenseLink>
 data-download-modal = Verranno scaricati <size>{ $size }GB</size> di dati. Procedere con il download?
 data-subtitle = Stiamo costruendo un dataset di voci pubblico e aperto che chiunque possa utilizzare per addestrare applicativi con supporto vocale.
 data-explanatory-text = Secondo noi un grande dataset disponibile pubblicamente promuoverà l’innovazione e una sana competizione commerciale nel campo dell’apprendimento automatico basato su tecnologie vocali. La nostra è un’iniziativa globale, tutti sono invitati a partecipare. Il nostro scopo è rendere le tecnologie vocali più inclusive e adatte a rispecchiare la diversità di voci nel mondo.
-data-get-started = <speechBlogLink>Inizia la sessione di riconoscimento vocale</speechBlogLink>
 data-other-title = Altri dataset vocali...
 data-other-goto = Vai a { $name }
 data-other-download = Scarica i dati
@@ -147,6 +146,7 @@ license = Licenza: <licenseLink>{ $license }</licenseLink>
 ## Record Page
 
 record-platform-not-supported = La piattaforma in uso non è attualmente supportata.
+record-platform-not-supported-desktop = Su computer desktop puoi scaricare l'ultima versione:
 record-platform-not-supported-ios = Gli utenti <bold>iOS</bold> possono scaricare la nostra applicazione gratuita:
 record-must-allow-microphone = È necessario consentire l’accesso al microfono del dispositivo.
 record-cancel = Annulla la nuova registrazione
