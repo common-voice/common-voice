@@ -66,7 +66,7 @@ back-top = Volver al inicio
 
 ## Home Page
 
-home-title = El proyecto Common Voice es una iniciativa de Mozilla para ayudar a enseñarles a las máquinas como habla la gente real.
+home-title = El proyecto Common Voice es una iniciativa de Mozilla para ayudar a enseñarles a las máquinas cómo habla la gente real.
 home-cta = Habla, ¡contribuye aquí!
 wall-of-text-start = La voz es natural, la voz es humana. Es por eso que estamos fascinados con crear una tecnología de voz para nuestras maquinas. Pero para crear un sistema de voz, una cantidad extremadamente grande de muestras de voz es requerida.
 wall-of-text-more-mobile = La mayor parte de los datos usados por las grandes compañías no esta disponible para las personas. Nosotros pensamos que eso sofoca la innovación. Así que lanzamos el proyecto Common Voice, un proyecto para hacer que el reconocimiento de voz esté disponible para todos.
