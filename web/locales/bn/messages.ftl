@@ -85,6 +85,11 @@ request-language-button = একটি ভাষার জন্যে অনু
 
 status-title = প্রকল্পের সামগ্রিক অবস্থা: আমরা কতদূর এসেছি তা দেখুন!
 status-contribute = আপনার কণ্ঠস্বর দিয়ে অবদান রাখুন
+status-hours =
+    { $hours ->
+        [one] এপর্যন্ত এক ঘন্টা ভেলিডেট করা হয়েছে!
+       *[other] এপর্যন্ত { $hours } ঘন্টা ভেলিডেট করা হয়েছে!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = পরবর্তী লক্ষ্য: { $goal }
@@ -115,6 +120,7 @@ female = মহিলা
 # Gender
 other = অন্যান্য
 why-profile-title = প্রোফাইল কেন তৈরী করবেন?
+why-profile-text = আপনার সম্পর্কে কিছু তথ্য প্রদান করলে সেটি, Common Voice এ জমাকৃত আপনার অডিও ডাটা ব্যবহার করে কণ্ঠস্বর চেনার প্রযুক্তিকে আরও বেশি নির্ভুল করতে, কাজে লাগবে।
 edit-profile = প্রোফাইল সম্পাদনা করুন
 profile-create = প্রোফাইল তৈরী করুন
 profile-create-success = প্রোফাইল সফলভাবে তৈরী হয়েছে!
@@ -125,6 +131,10 @@ profile-close = বন্ধ করুন
 faq-title = প্রায়শই জিজ্ঞাসিত প্রশ্ন
 faq-what-q = Common Voice কি?
 faq-important-q = এটি কেন গুরুত্বপূর্ণ ?
+faq-get-q = কিভাবে আমি Common Voice থেকে ডাটা পেতে পারি?
+faq-mission-q = Common Voice কেন মজিলা মিশনের একটি অংশ হয়েছে?
+faq-hours-q = ১০,০০০ ঘন্টার অডিও ক্যাপচার করার লক্ষ্য কেন নির্ধারণ করা হয়েছে?
+faq-source-q = এইসকল সোর্স টেক্সট কোথা থেকে আসছে?
 
 ## Profile
 
