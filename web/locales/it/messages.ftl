@@ -8,6 +8,7 @@ email-input =
     .label = Email
 submit-form-action = Invia
 loading = Caricamento in corso…
+audio-loading-error = Spiacenti, i file audio sono in fase di elaborazione. Riprova tra poco.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 
@@ -60,6 +61,7 @@ cookies = Cookie
 faq = FAQ
 content-license-text = Contenuto disponibile sotto <licenseLink>licenza Creative Commons</licenseLink>
 share-title = Aiutaci a trovare altri donatori di voce!
+share-text = Aiutaci a insegnare alle macchine come le persone parlano nella vita reale, dona la tua voce su { $link }
 back-top = Torna in alto
 
 ## Home Page
@@ -94,6 +96,7 @@ english = Inglese
 
 ## ProfileForm
 
+profile-form-cancel = Chiudi modulo
 profile-form-delete = Elimina profilo
 profile-form-username =
     .label = Nome utente
@@ -111,8 +114,11 @@ profile-form-submit-saved = Salvato
 profile-keep-data = Mantieni i dati
 profile-delete-data = Elimina i dati
 male = Maschio
+female = Femmina
 # Gender
 other = Altro
+why-profile-title = Perché registrare un profilo?
+why-profile-text = Se fornisci queste informazioni insieme alle tue registrazioni vocali, esse verranno usate per migliorare la precisione dei motori di riconoscimento vocali.
 edit-profile = Modifica profilo
 profile-create = Crea un profilo
 profile-create-success = Profilo creato con successo
@@ -199,6 +205,7 @@ data-other-tatoeba-description = Tatoeba è un ampio database che raccoglie fras
 data-bundle-button = Scarica bundle di dataset
 data-bundle-description = Dati di Common Voice più tutti i dataset precedenti.
 license = Licenza: <licenseLink>{ $license }</licenseLink>
+license-mixed = Mista
 
 ## Record Page
 
@@ -259,5 +266,7 @@ request-language-success-content = Presto riceverai istruzioni su come aggiunger
 
 language-section-in-progress = In corso
 language-section-launched = Avviato
+languages-show-more = Visualizza più elementi
+languages-show-less = Visualizza meno elementi
 language-speakers = Altoparlanti
 language-total-progress = Totale
