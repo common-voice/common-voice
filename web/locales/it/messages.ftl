@@ -115,6 +115,7 @@ male = Maschio
 other = Altro
 edit-profile = Modifica profilo
 profile-create = Crea un profilo
+profile-create-success = Profilo creato con successo
 profile-close = Chiudi
 
 ## FAQ
@@ -206,6 +207,7 @@ record-platform-not-supported-desktop = Su computer desktop puoi scaricare l'ult
 record-platform-not-supported-ios = Gli utenti <bold>iOS</bold> possono scaricare la nostra applicazione gratuita:
 record-must-allow-microphone = È necessario consentire l’accesso al microfono del dispositivo.
 record-cancel = Annulla la nuova registrazione
+record-retry = Riprova
 record-error-too-short = La registrazione è troppo breve.
 record-error-too-long = La registrazione è troppo lunga.
 record-error-too-quiet = Il volume della registrazione è troppo basso.
@@ -257,4 +259,5 @@ request-language-success-content = Presto riceverai istruzioni su come aggiunger
 
 language-section-in-progress = In corso
 language-section-launched = Avviato
+language-speakers = Altoparlanti
 language-total-progress = Totale
