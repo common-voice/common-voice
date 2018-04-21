@@ -8,3 +8,6 @@ get-involved-form-title = Registrati per ricevere aggiornamenti sulla lingua { $
 get-involved-email =
     .label = Email
 get-involved-opt-in = Si, inviami le email. Mi piacerebbe rimanere informato sui progressi di Common Voice in questa lingua.
+get-involved-submit = Invia
+get-involved-stayintouch = Mozilla sta radunando una comunità di persone interessate alle tecnologie vocali. Ci piacerebbe rimanere in contatto con te con aggiornamenti e nuove fonti di dati, ma anche per conoscere come usi i dati di Common Voice.
+get-involved-privacy-info = Le tue informazioni personali sono al sicuro con noi. Per i dettagli leggi l’<privacyLink>informativa sulla privacy</privacyLink>.

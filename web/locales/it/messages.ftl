@@ -14,6 +14,37 @@ loading = Caricamento in corso…
 
 ## Languages
 
+ga-IE = Irlandese
+cs = Ceco
+uz = Uzbeco
+de = Tedesco
+bn = Bengalese
+sk = Slovacco
+ca = Catalano
+ko = Coreano
+es-CL = Spagnolo (Cile)
+th = Tailandese
+pl = Polacco
+pt-BR = Portoghese (Brasile)
+id = Indonesiano
+zh-TW = Cinese (Taiwan)
+cy = Gallese
+el = Greco
+cv = Ciuvascio
+sv-SE = Svedese
+mk = Macedone
+nn-NO = Norvegese Nynorsk
+fr = Francese
+tr = Turco
+tt = Tataro
+fy-NL = Frisone
+he = Ebraico
+zh-CN = Cinese (Cina)
+nl = Olandese
+sq = Albanese
+ru = Russo
+it = Italiano
+en = Inglese
 
 ## Layout
 
@@ -41,6 +72,8 @@ wall-of-text-more-desktop = Ora puoi donare la tua voce per aiutarci a costruire
 show-wall-of-text = Ulteriori informazioni
 help-us-title = Aiutaci a confermare le frasi!
 help-us-explain = Premi Avvia, ascolta e indica se l’audio corrisponde alla frase qui sotto.
+vote-yes = Sì
+vote-no = No
 request-language-text = Non trovi la tua lingua su Common Voice?
 request-language-button = Richiedi una lingua
 
@@ -57,6 +90,7 @@ status-hours =
 # $goal - number of hours representing the next goal
 status-goal = Prossimo traguardo: { $goal }
 status-more-soon = Nuove lingue in arrivo!
+english = Inglese
 
 ## ProfileForm
 
