@@ -119,6 +119,11 @@ female = Женский
 # Gender
 other = Другой
 why-profile-title = Зачем нужен профиль?
+why-profile-text = Предоставив некоторые данные о себе, вы сделаете аудио данные, отправляемые в Common Voice, более полезными для движков распознавания речи, которые будут использовать эти данные для улучшения своей точности.
+edit-profile = Редактировать профиль
+profile-create = Создать профиль
+profile-create-success = Отлично, профиль создан!
+profile-close = Закрыть
 
 ## FAQ
 
@@ -127,10 +132,16 @@ faq-what-q = Что такое Common Voice?
 faq-important-q = Почему это важно?
 faq-get-q = Как я могу загрузить данные Common Voice?
 faq-mission-q = Почему Common Voice является частью миссии Mozilla?
+faq-native-q = { $lang } не является моим родным языком и я говорю с акцентом, нужен ли вам мой голос?
+faq-firefox-q = Станет ли когда-нибудь средство распознавания речи, работающее через Common Voice, частью Firefox?
+faq-quality-q = Какой уровень качества звука необходим для записи?
+faq-hours-q = Зачем нам необходимо записать 10 000 часов аудио?
+faq-source-q = Откуда берутся фразы для озвучивания?
 
 ## Profile
 
 profile-why-title = Зачем нужен профиль?
+profile-why-content = Предоставив некоторые данные о себе, вы сделаете аудио данные отправляемые Common Voice более полезными для движков распознавания речи, которые будут использовать эти данные для улучшения своей точности.
 
 ## NotFound
 
@@ -145,17 +156,26 @@ privacy-more = <more>Подробнее</more>
 
 ## Terms
 
+terms-title = Условия предоставления услуг Common Voice
+terms-effective = На дату { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
+terms-eligibility-title = Возрастные ограничения
 terms-privacy-title = Приватность
 terms-privacy-content = Наша <privacyLink>политика приватности</privacyLink> объясняет, как мы получаем и обрабатываем ваши данные.
+terms-communications-title = Коммуникация
+terms-general-title = Общее
 
 ## Data
 
 data-download-button = Загрузить данные Common Voice
+data-download-yes = Да
+data-download-deny = Нет
 data-download-license = Лицензия: <licenseLink>CC-0</licenseLink>
 data-download-modal = Вы собираетесь совершить загрузку <size>{ $size } ГБ</size>, продолжить?
 data-get-started = <speechBlogLink>Начало работы с распознаванием речи</speechBlogLink>
+data-other-title = Другие голосовые наборы данных...
 data-other-goto = Перейти на { $name }
 data-other-download = Загрузить данные
+data-bundle-description = Данные Common Voice плюс данные всех голосовых наборов данных ниже.
 license = Лицензия: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
@@ -165,6 +185,7 @@ record-platform-not-supported-desktop = На настольных компьют
 record-platform-not-supported-ios = Пользователи <bold>iOS</bold> могут загрузить наше бесплатное приложение:
 record-must-allow-microphone = Вы должны разрешить доступ к микрофону.
 record-cancel = Отменить перезапись
+record-retry = Перезаписать
 record-error-too-short = Запись слишком короткая.
 record-error-too-long = Запись слишком длинная.
 record-error-too-quiet = Запись слишком тихая.
@@ -172,12 +193,16 @@ record-submit-success = Запись отправлена! Хотите запи
 record-help = Щёлкните для записи, затем громко произнесите фразу выше.
 record-cancel = Отменить перезапись
 review-terms = Используя Common Voice, вы соглашаетесь с нашими <termsLink>условиями использования</termsLink> и <privacyLink>политикой приватности</privacyLink>
+terms-agree = Я согласен(а)
+terms-disagree = Я не согласен(а)
 review-aborted = Загрузка прервана. Хотите ли вы удалить ваши записи?
 review-submit-title = Проверить и отправить
 review-submit-msg = Спасибо за запись!<lineBreak></lineBreak>Теперь проверьте и отправьте ваши записи ниже.
 review-recording = Проверить
 review-rerecord = Перезаписать
 review-cancel = Отменить отправку
+review-keep-recordings = Сохранить мои записи
+review-delete-recordings = Удалить мои записи
 
 ## Download Modal
 
@@ -206,6 +231,13 @@ request-language-cancel = Закрыть форму
 request-language-form-language =
     .label = Язык
 request-language-success-title = Запрос о добавлении языка успешно отправлен, спасибо.
+request-language-success-content = Мы максимально быстро свяжемся с вами, рассказав о том, как добавить ваш язык в Common Voice.
 
 ## Languages Overview
 
+language-section-in-progress = Выполняется
+language-section-launched = Запущено
+languages-show-more = Больше языков
+languages-show-less = Меньше языков
+language-speakers = Носителей
+language-total-progress = Всего
