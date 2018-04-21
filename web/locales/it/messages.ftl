@@ -94,6 +94,7 @@ english = Inglese
 
 ## ProfileForm
 
+profile-form-delete = Elimina profilo
 profile-form-username =
     .label = Nome utente
 profile-form-language =
@@ -107,6 +108,14 @@ profile-form-gender =
     .label = Sesso
 profile-form-submit-save = Salva
 profile-form-submit-saved = Salvato
+profile-keep-data = Mantieni i dati
+profile-delete-data = Elimina i dati
+male = Maschio
+# Gender
+other = Altro
+edit-profile = Modifica profilo
+profile-create = Crea un profilo
+profile-close = Chiudi
 
 ## FAQ
 
@@ -171,6 +180,8 @@ terms-general-liability1 = Liberatoria; Limitazione di responsabilità: COMMON V
 ## Data
 
 data-download-button = Scarica i dati di Common Voice
+data-download-yes = Sì
+data-download-deny = No
 data-download-license = Licenza: <licenseLink>CC-0</licenseLink>
 data-download-modal = Verranno scaricati <size>{ $size }GB</size> di dati. Procedere con il download?
 data-subtitle = Stiamo costruendo un dataset di voci pubblico e aperto che chiunque possa utilizzare per addestrare applicativi con supporto vocale.
@@ -202,12 +213,16 @@ record-submit-success = Registrazione salvata. Vuoi registrare qualcos’altro?
 record-help = Tocca qui per iniziare la registrazione, poi leggi a voce alta la frase soprastante.
 record-cancel = Annulla la nuova registrazione
 review-terms = Utilizzando Common Voice, accetti le nostre <termsLink>condizioni</termsLink> e l’<privacyLink>informativa sulla privacy</privacyLink>
+terms-agree = Accetto
+terms-disagree = Non accetto
 review-aborted = Caricamento annullato. Vuoi cancellare le tue registrazioni?
 review-submit-title = Riascolta e invia
 review-submit-msg = Grazie per il tuo contributo!<lineBreak></lineBreak>Ora riascolta le registrazioni di seguito e scegli se salvarle.
 review-recording = Riascolta
 review-rerecord = Registra di nuovo
 review-cancel = Annulla invio
+review-keep-recordings = Conserva le registrazioni
+review-delete-recordings = Cancella le mie registrazioni
 
 ## Download Modal
 
@@ -240,3 +255,6 @@ request-language-success-content = Presto riceverai istruzioni su come aggiunger
 
 ## Languages Overview
 
+language-section-in-progress = In corso
+language-section-launched = Avviato
+language-total-progress = Totale
