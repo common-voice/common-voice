@@ -8,3 +8,7 @@ get-involved-form-title = S’inscrire pour recevoir l’actualité du projet en
 get-involved-email =
     .label = Adresse électronique
 get-involved-opt-in = Oui, vous pouvez m’envoyer des courriels pour me tenir au courant des progrès sur cette langue dans Common Voice.
+get-involved-submit = Envoyer
+get-involved-stayintouch = Chez Mozilla, nous rassemblons une communauté autour des technologies vocales. Nous aimerions rester en contact avec vous pour vous tenir au courant des nouvelles sources de données et pour découvrir comment vous utilisez ces données.
+get-involved-privacy-info = Nous vous promettons de prendre soin de vos données. Apprenez-en davantage en consultant notre <privacyLink>politique de confidentialité</privacyLink>.
+get-involved-return-to-languages = Revenir aux langues
