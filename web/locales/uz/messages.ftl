@@ -63,6 +63,8 @@ back-top = Yuqoriga qaytish
 
 ## Home Page
 
+home-cta = Bu yerga gapirib hissa qo‘shing
+wall-of-text-start = Ovoz - bu tabiiy, inson ovozi, shuning uchun ham biz kompyuterlarimiz uchun ovozli texnologiyani yaratmoqchimiz. Ovoz tizimini yaratish uchun juda ko‘p ovoz kerak bo‘ladi.
 show-wall-of-text = Batafsil
 help-us-title = Gaplarni tasdiqlashda yordam bering!
 help-us-explain = Ijro tugmasini bosing, tinglang va gaplar to‘g‘ri talaffuz qilinganligi haqida bizga xabar bering.
