@@ -7,6 +7,44 @@ return-to-cv = 返回 Common Voice
 email-input =
     .label = 电子邮箱
 submit-form-action = 提交
+loading = 加载中…
+audio-loading-error = 抱歉！我们正在处理音频文件，请稍后再试。
+
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+
+
+## Languages
+
+ga-IE = 爱尔兰语
+cs = 捷克语
+uz = 乌兹别克语
+de = 德语
+bn = 孟加拉语
+sk = 斯洛伐克语
+ca = 加泰隆语
+es-CL = 西班牙语（智利）
+th = 泰语
+pl = 波兰语
+pt-BR = 葡萄牙语（巴西）
+id = 印度尼西亚语
+zh-TW = 汉语（台湾）
+cy = 威尔士语
+el = 希腊语
+cv = 楚瓦什语
+sv-SE = 瑞典语
+mk = 马其顿语
+nn-NO = 新挪威语
+fr = 法语
+tr = 土耳其语
+tt = 鞑靼语
+fy-NL = 弗里西语
+he = 希伯莱语
+zh-CN = 汉语（中国大陆）
+nl = 荷兰语
+sq = 阿尔巴尼亚语
+ru = 俄语
+it = 意大利语
+en = 英语
 
 ## Layout
 
@@ -22,6 +60,8 @@ cookies = Cookies
 faq = 常见问题
 content-license-text = 内容遵循<licenseLink>Creative Commons 许可</licenseLink>授权使用
 share-title = 帮助我们找到更多人贡献他们的声音！
+share-text = 帮助训练机器像真人一样说话，请在 { $link } 处贡献出您的声音
+back-top = 回到顶端
 
 ## Home Page
 
@@ -33,6 +73,8 @@ wall-of-text-more-desktop = 现在，您可以贡献出您的声音，帮助我�
 show-wall-of-text = 了解更多
 help-us-title = 帮助我们验证语句！
 help-us-explain = 请点击播放，仔细聆听并告诉我们：他们是否准确地说出了下面的句子？
+vote-yes = 是
+vote-no = 否
 request-language-text = 没在 Common Voice 看到您的语言吗？
 request-language-button = 请求新语言
 
@@ -40,7 +82,6 @@ request-language-button = 请求新语言
 
 status-title = 总体项目状态：看看我们已经走了多远！
 status-contribute = 贡献您的声音
-loading = 加载中…
 status-hours =
     { $hours ->
        *[other] 目前已验证 { $hours } 小时！
@@ -49,9 +90,12 @@ status-hours =
 # $goal - number of hours representing the next goal
 status-goal = 下个目标：{ $goal }
 status-more-soon = 更多语言即将到来！
+english = 汉语（中国）
 
 ## ProfileForm
 
+profile-form-cancel = 退出表单
+profile-form-delete = 删除用户资料
 profile-form-username =
     .label = 用户名
 profile-form-language =
@@ -63,6 +107,20 @@ profile-form-age =
     .label = 年龄
 profile-form-gender =
     .label = 性别
+profile-form-submit-save = 保存
+profile-form-submit-saved = 已保存
+profile-keep-data = 保留数据
+profile-delete-data = 删除数据
+male = 男
+female = 女
+# Gender
+other = 其他
+why-profile-title = 为什么要创建用户资料？
+why-profile-text = 凭借您提供一些有关本人的信息，您提交给 Common Voice 的音频数据能更有助于使用这些数据来提高其语音识别引擎的准确性。 
+edit-profile = 编辑用户资料
+profile-create = 创建用户资料
+profile-create-success = 成功，用户资料已创建！
+profile-close = 关闭
 
 ## FAQ
 
@@ -133,6 +191,8 @@ terms-general-law = 管辖法律：这些法律条款构成您和 Mozilla 关于
 ## Data
 
 data-download-button = 下载 Common Voice 数据
+data-download-yes = 是
+data-download-deny = 否
 data-download-license = 许可协议：<licenseLink>CC-0</licenseLink>
 data-download-modal = 将下载 <size>{ $size }GB</size> 的文件，要继续吗？
 data-subtitle = 我们正在建立一个开放且公开的语音数据集，每个人都可以使用它来训练语音应用程序。
@@ -149,6 +209,7 @@ data-other-tatoeba-description = Tatoeba 是一个用于语言学习的句子、
 data-bundle-button = 批量下载数据集
 data-bundle-description = Common Voice 数据加上所有其他的语音数据集。
 license = 许可协议：<licenseLink>{ $license }</licenseLink>
+license-mixed = 混合
 
 ## Record Page
 
@@ -156,6 +217,8 @@ record-platform-not-supported = 很抱歉，尚不支持您的平台。
 record-platform-not-supported-desktop = 您可以在桌面电脑上下载最新内容：
 record-platform-not-supported-ios = <bold>iOS</bold> 用户可以下载我们的免费应用程序：
 record-must-allow-microphone = 您必须允许访问麦克风。
+record-cancel = 取消重新录音
+record-retry = 重试
 record-error-too-short = 这份录音太短了。
 record-error-too-long = 这份录音太长了。
 record-error-too-quiet = 这份录音太安静了。
@@ -163,12 +226,16 @@ record-submit-success = 提交成功！要继续录音吗？
 record-help = 请点按录音按钮，然后朗读上述句子。
 record-cancel = 取消重新录音
 review-terms = 使用 Common Voice 即代表您同意我们的<termsLink>条款</termsLink>和<privacyLink>隐私声明</privacyLink>
+terms-agree = 我同意
+terms-disagree = 我不同意
 review-aborted = 上传中止。您要删除您的录音吗？
 review-submit-title = 复查并提交
 review-submit-msg = 感谢您的录制！<lineBreak></lineBreak>现在您可以复查并提交下面的片段。
 review-recording = 复查
 review-rerecord = 重新录音
 review-cancel = 取消提交
+review-keep-recordings = 保留录音
+review-delete-recordings = 删除我的录音
 
 ## Download Modal
 
@@ -197,15 +264,13 @@ request-language-cancel = 退出表单
 request-language-form-language =
     .label = 语言
 request-language-success-title = 非常感谢，您的语言请求已成功提交。
-request-language-success-text = 我们会在此语言上线时告知您。
+request-language-success-content = 我们将尽快披露更多有关如何将您的语言添加到 Common Voice 的信息。 
 
-## Help Translate Modal
+## Languages Overview
 
-help-translate-title = 帮忙翻译 { $language }
-help-translate-cancel = 退出
-help-translate-text = 我们将带您前往 Mozilla 的翻译站 <pontoonLink>Pontoon</pontoonLink>，此语言的翻译工作在这个网站上进行。
-language-updates-title = 订阅 { $language } 的新资讯电子报
-help-translate-link = 带我去 Pontoon
-language-updates-success-title = { $language } 更新请求已成功提交，非常感谢。
-language-updates-success-text = 有更多信息时我们将联系您。
-language-updates-success-collapsed-title = 您已成功订阅 { $language } 的电子报
+language-section-in-progress = 进行中
+language-section-launched = 已上线
+languages-show-more = 显示更多
+languages-show-less = 显示更少
+language-speakers = 朗读者
+language-total-progress = 总共
