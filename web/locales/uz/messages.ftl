@@ -57,11 +57,15 @@ help = Yordam
 contact = Kontakt
 privacy = Maxfiylik
 terms = Shartlar
+cookies = Kukilar
+faq = Savol-javob
 back-top = Yuqoriga qaytish
 
 ## Home Page
 
 show-wall-of-text = Batafsil
+help-us-title = Gaplarni tasdiqlashda yordam bering!
+help-us-explain = Ijro tugmasini bosing, tinglang va gaplar to‘g‘ri talaffuz qilinganligi haqida bizga xabar bering.
 vote-yes = Ha
 vote-no = Yo‘q
 request-language-text = Common Voice loyihasida ona tilingizni ko‘rmayapsizmi?
@@ -69,12 +73,53 @@ request-language-button = Til qo‘shishni so‘rang
 
 ## ProjectStatus
 
+status-title = Loyihaning umumiy holati: qancha ish qilganimizni ko‘ring!
+status-contribute = Ovozingiz bilan yordam qiling
+status-hours =
+    { $hours ->
+        [one] Hozircha bir soat!
+       *[other] Hozircha { $hours } soat!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Keyingi marra: { $goal }
+status-more-soon = Tez kunlarda yangi tillar qo‘shiladi!
+english = Ingliz
 
 ## ProfileForm
 
+profile-form-cancel = Anketadan chiqish
+profile-form-delete = Profilni o‘chirish
+profile-form-username =
+    .label = Foydalanuvchi nomi
+profile-form-language =
+    .label = Til
+profile-form-more-languages = Tezda yangi tillar qo‘shiladi!
+profile-form-accent =
+    .label = Aksent
+profile-form-age =
+    .label = Yosh
+profile-form-gender =
+    .label = Jins
+profile-form-submit-save = Saqlash
+profile-form-submit-saved = Saqlandi
+profile-keep-data = Ma’lumotlarni saqlab qo‘yish
+profile-delete-data = Ma’lumotlarni o‘chirish
+male = Erkak
+female = Ayol
+# Gender
+other = Boshqa
+why-profile-title = Nega profil?
+edit-profile = Profilni tahrirlash
+profile-create = Profil yaratish
+profile-create-success = Profil yaratildi!
+profile-close = Yopish
 
 ## FAQ
 
+faq-title = Tez-tez so‘raladigan savollar
+faq-what-q = Common Voice nima?
+faq-important-q = Nega u bunchalik muhim?
 
 ## Profile
 
