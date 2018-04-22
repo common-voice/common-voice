@@ -11,6 +11,7 @@ import PrivacyPage from '../pages/privacy';
 import ProfilePage from '../pages/profile';
 import RecordPage from '../pages/record/record';
 import TermsPage from '../pages/terms';
+import { CONTRIBUTABLE_LOCALES } from '../../services/localization';
 
 interface Props {
   containerRef: React.Ref<HTMLElement>;
@@ -24,6 +25,7 @@ export default localeConnector(
   ({
     containerRef,
     isRecording,
+    locale,
     onRecord,
     onRecordStop,
     onVolume,
@@ -32,19 +34,21 @@ export default localeConnector(
     <div id="content" ref={containerRef}>
       <Switch>
         <Route exact path={toLocaleRoute(URLS.ROOT)} component={HomePage} />
-        <Route
-          exact
-          path={toLocaleRoute(URLS.RECORD)}
-          render={props => (
-            <RecordPage
-              isRecording={isRecording}
-              onRecord={onRecord}
-              onRecordStop={onRecordStop}
-              onVolume={onVolume}
-              {...props}
-            />
-          )}
-        />
+        {CONTRIBUTABLE_LOCALES.includes(locale) && (
+          <Route
+            exact
+            path={toLocaleRoute(URLS.RECORD)}
+            render={props => (
+              <RecordPage
+                isRecording={isRecording}
+                onRecord={onRecord}
+                onRecordStop={onRecordStop}
+                onVolume={onVolume}
+                {...props}
+              />
+            )}
+          />
+        )}
         <Route
           exact
           path={toLocaleRoute(URLS.LANGUAGES)}

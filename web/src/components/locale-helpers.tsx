@@ -1,9 +1,12 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { Link, LinkProps, NavLink, NavLinkProps } from 'react-router-dom';
+import { Locale } from '../stores/locale';
 import StateTree from '../stores/tree';
+import { CONTRIBUTABLE_LOCALES } from '../services/localization';
 
 export interface LocalePropsFromState {
+  locale: Locale.State;
   toLocaleRoute: (path: any) => string;
 }
 
@@ -16,6 +19,7 @@ const toLocaleRouteBuilder = (locale: string) => (path: string) =>
 
 export const localeConnector = connect<LocalePropsFromState>(
   ({ locale }: StateTree) => ({
+    locale,
     toLocaleRoute: toLocaleRouteBuilder(locale),
   }),
   null,
@@ -24,13 +28,28 @@ export const localeConnector = connect<LocalePropsFromState>(
 );
 
 export const LocaleLink = localeConnector(
-  ({ dispatch, to, toLocaleRoute, ...props }: LinkProps & LocaleProps) => (
-    <Link to={toLocaleRoute(to)} {...props} />
-  )
+  ({
+    dispatch,
+    locale,
+    to,
+    toLocaleRoute,
+    ...props
+  }: LinkProps & LocaleProps) => <Link to={toLocaleRoute(to)} {...props} />
 );
 
 export const LocaleNavLink = localeConnector(
-  ({ dispatch, to, toLocaleRoute, ...props }: NavLinkProps & LocaleProps) => (
+  ({
+    dispatch,
+    locale,
+    to,
+    toLocaleRoute,
+    ...props
+  }: NavLinkProps & LocaleProps) => (
     <NavLink to={toLocaleRoute(to)} {...props} />
   )
+);
+
+export const ContributableLocaleLock = localeConnector(
+  ({ children, locale }: LocaleProps & any) =>
+    CONTRIBUTABLE_LOCALES.includes(locale) && children
 );

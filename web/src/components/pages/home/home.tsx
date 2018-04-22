@@ -2,6 +2,7 @@ import * as React from 'react';
 import { withRouter, RouteComponentProps } from 'react-router';
 import { Localized } from 'fluent-react';
 import URLS from '../../../urls';
+import { ContributableLocaleLock } from '../../locale-helpers';
 import Validator from '../../validator';
 import RequestLanguageModal from '../../request-language-modal/request-language-modal';
 import { RecordIcon } from '../../ui/icons';
@@ -67,18 +68,20 @@ class HomePage extends React.Component<RouteComponentProps<any>, State> {
           )}
         </div>
 
-        <Hr />
+        <ContributableLocaleLock>
+          <Hr />
 
-        <div>
-          <Localized id="help-us-title">
-            <h1 />
-          </Localized>
-          <Localized id="help-us-explain">
-            <div id="help-explain" />
-          </Localized>
+          <div>
+            <Localized id="help-us-title">
+              <h1 />
+            </Localized>
+            <Localized id="help-us-explain">
+              <div id="help-explain" />
+            </Localized>
 
-          <Validator />
-        </div>
+            <Validator />
+          </div>
+        </ContributableLocaleLock>
 
         <br />
         <Hr />

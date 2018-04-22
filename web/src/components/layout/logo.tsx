@@ -7,7 +7,7 @@ export default (props: { reverse?: boolean }) => {
     : '/img/cv-logo-bw.svg';
 
   return (
-    <LocaleLink className="main-logo" to="/">
+    <LocaleLink className="main-logo" to="">
       <img className="main-mozilla-logo" src={imgSrc} />
     </LocaleLink>
   );
