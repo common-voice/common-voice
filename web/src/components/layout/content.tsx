@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Switch, Route } from 'react-router';
+import { Switch, Route, Redirect } from 'react-router';
 import URLS from '../../urls';
 import { localeConnector, LocalePropsFromState } from '../locale-helpers';
 import DataPage from '../pages/data/data';
@@ -34,7 +34,7 @@ export default localeConnector(
     <div id="content" ref={containerRef}>
       <Switch>
         <Route exact path={toLocaleRoute(URLS.ROOT)} component={HomePage} />
-        {CONTRIBUTABLE_LOCALES.includes(locale) && (
+        {CONTRIBUTABLE_LOCALES.includes(locale) ? (
           <Route
             exact
             path={toLocaleRoute(URLS.RECORD)}
@@ -47,6 +47,12 @@ export default localeConnector(
                 {...props}
               />
             )}
+          />
+        ) : (
+          <Route
+            exact
+            path={toLocaleRoute(URLS.RECORD)}
+            render={() => <Redirect to={toLocaleRoute(URLS.ROOT)} />}
           />
         )}
         <Route
