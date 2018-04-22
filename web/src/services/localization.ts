@@ -36,6 +36,7 @@ export const LOCALES = isProduction()
       'sq',
       'ga-IE',
     ];
+export const CONTRIBUTABLE_LOCALES = ['en'];
 
 export function negotiateLocales(locales: string[]) {
   return negotiateLanguages(locales, LOCALES, {

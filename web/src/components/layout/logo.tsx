@@ -1,19 +1,14 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
+import { LocaleLink } from '../locale-helpers';
 
-interface Props {
-  reverse?: boolean;
-  to: string;
-}
-
-export default (props: Props) => {
+export default (props: { reverse?: boolean }) => {
   const imgSrc = props.reverse
     ? '/img/cv-logo-one-color-white.svg'
     : '/img/cv-logo-bw.svg';
 
   return (
-    <Link className="main-logo" to={props.to}>
+    <LocaleLink className="main-logo" to="/">
       <img className="main-mozilla-logo" src={imgSrc} />
-    </Link>
+    </LocaleLink>
   );
 };

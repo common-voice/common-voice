@@ -53,7 +53,7 @@ interface LayoutState {
 class Layout extends React.Component<LayoutProps, LayoutState> {
   private header: HTMLElement;
   private scroller: HTMLElement;
-  private content: HTMLElement;
+  private contentRef = (React as any).createRef();
   private bg: HTMLElement;
   private installApp: HTMLElement;
   private stopBackgroundRender: boolean;
@@ -89,7 +89,7 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
 
     if (this.props.location !== nextProps.location) {
       this.setState({ isMenuVisible: false, isRecording: false });
-      const mainContent = this.content.children[0];
+      const mainContent = this.contentRef.current.children[0];
       mainContent &&
         mainContent.addEventListener('animationend', this.scrollToTop);
     }
@@ -181,7 +181,7 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
   };
 
   private scrollToTop = () => {
-    this.content.children[0].removeEventListener(
+    this.contentRef.current.children[0].removeEventListener(
       'animationend',
       this.scrollToTop
     );
@@ -236,8 +236,6 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
       className += ' recording';
     }
 
-    const basePath = '/' + locale;
-
     return (
       <div
         id="main"
@@ -265,8 +263,8 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
             this.header = header as HTMLElement;
           }}>
           <div>
-            <Logo to={basePath} />
-            <Nav basePath={basePath} id="main-nav" />
+            <Logo />
+            <Nav id="main-nav" />
           </div>
           <div>
             {this.renderTallies()}
@@ -322,24 +320,19 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
             </div>
             <div className="hero-space" />
             <Content
-              ref={el => {
-                if (el) {
-                  this.content = el.container;
-                }
-              }}
-              basePath={basePath}
+              containerRef={this.contentRef}
               isRecording={this.state.isRecording}
               onRecord={this.onRecord}
               onRecordStop={this.onRecordStop}
               onVolume={this.handleVolumeChange}
             />
-            <Footer basePath={basePath} />
+            <Footer />
           </div>
         </div>
         <div
           id="navigation-modal"
           className={this.state.isMenuVisible ? 'active' : ''}>
-          <Nav basePath={basePath}>
+          <Nav>
             {LOCALES.length > 1 && (
               <LabeledSelect
                 className="language-select"

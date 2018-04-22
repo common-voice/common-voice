@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { withRouter, RouteComponentProps } from 'react-router';
 import { Localized } from 'fluent-react';
+import URLS from '../../../urls';
 import Validator from '../../validator';
 import RequestLanguageModal from '../../request-language-modal/request-language-modal';
 import { RecordIcon } from '../../ui/icons';
@@ -35,7 +36,7 @@ class HomePage extends React.Component<RouteComponentProps<any>, State> {
         <div
           id="wall-of-text"
           className={showWallOfText ? 'show-more-text' : ''}>
-          <CardAction id="contribute-button" to="/record">
+          <CardAction id="contribute-button" to={URLS.RECORD}>
             <div>
               <RecordIcon />
             </div>

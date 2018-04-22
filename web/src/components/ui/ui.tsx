@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
+import { LocaleLink } from '../locale-helpers';
 
 export const Button = ({
   className = '',
@@ -21,7 +21,7 @@ export const Button = ({
 
 export const CardAction = (props: any) =>
   props.to ? (
-    <Link className="card-action" {...props} />
+    <LocaleLink className="card-action" {...props} />
   ) : (
     <Button outline className="card-action" {...props} />
   );

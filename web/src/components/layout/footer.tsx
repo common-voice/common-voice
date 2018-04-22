@@ -1,9 +1,9 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
 import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
 import { trackSharing } from '../../services/tracker';
 import URLS from '../../urls';
 import ContactModal from '../contact-modal/contact-modal';
+import { LocaleLink } from '../locale-helpers';
 import {
   ContactIcon,
   FontIcon,
@@ -21,12 +21,7 @@ interface FooterState {
   showContactModal: boolean;
 }
 
-class Footer extends React.Component<
-  {
-    basePath: string;
-  } & LocalizationProps,
-  FooterState
-> {
+class Footer extends React.Component<LocalizationProps, FooterState> {
   private shareURLInput: HTMLInputElement;
 
   state: FooterState = {
@@ -44,7 +39,6 @@ class Footer extends React.Component<
   };
 
   render() {
-    const { basePath } = this.props;
     const encodedShareText = encodeURIComponent(
       this.props.getString('share-text', { link: SHARE_URL })
     );
@@ -54,12 +48,12 @@ class Footer extends React.Component<
           <ContactModal onRequestClose={this.toggleContactModal} />
         )}
         <div id="help-links">
-          <Link id="help" to={basePath + URLS.FAQ}>
+          <LocaleLink id="help" to={URLS.FAQ}>
             <SupportIcon />
             <Localized id="help">
               <div />
             </Localized>
-          </Link>
+          </LocaleLink>
           <div className="divider" />
           <a
             id="contribute"
@@ -86,14 +80,14 @@ class Footer extends React.Component<
         </div>
         <div id="moz-links">
           <div className="content">
-            <Logo reverse to={basePath} />
+            <Logo reverse />
             <div className="links">
               <p>
                 <Localized id="privacy">
-                  <Link to={basePath + URLS.PRIVACY} />
+                  <LocaleLink to={URLS.PRIVACY} />
                 </Localized>
                 <Localized id="terms">
-                  <Link to={basePath + URLS.TERMS} />
+                  <LocaleLink to={URLS.TERMS} />
                 </Localized>
                 <Localized id="cookies">
                   <a
@@ -102,7 +96,7 @@ class Footer extends React.Component<
                   />
                 </Localized>
                 <Localized id="faq">
-                  <Link to={basePath + URLS.FAQ}>FAQ</Link>
+                  <LocaleLink to={URLS.FAQ}>FAQ</LocaleLink>
                 </Localized>
               </p>
               <p>

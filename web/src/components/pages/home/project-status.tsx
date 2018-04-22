@@ -1,12 +1,13 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { Link } from 'react-router-dom';
 import { Localized } from 'fluent-react';
 import { trackNavigation } from '../../../services/tracker';
+import URLS from '../../../urls';
 import { isProduction } from '../../../utility';
 import ProgressBar from '../../progress-bar/progress-bar';
 import API from '../../../services/api';
 import StateTree from '../../../stores/tree';
+import { LocaleLink } from '../../locale-helpers';
 import { Button, Hr } from '../../ui/ui';
 
 const GOAL_HOURS = 500;
@@ -45,8 +46,8 @@ class ProjectStatus extends React.Component<Props, State> {
             <h4 />
           </Localized>
           <Localized id="status-contribute">
-            <Link
-              to="/record"
+            <LocaleLink
+              to={URLS.RECORD}
               onClick={() => trackNavigation('progress-to-record')}
             />
           </Localized>

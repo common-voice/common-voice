@@ -1,33 +1,26 @@
 import { Localized } from 'fluent-react';
 import * as React from 'react';
-import { NavLink } from 'react-router-dom';
 import { isProduction } from '../../utility';
 import URLS from '../../urls';
+import { LocaleNavLink } from '../locale-helpers';
 
 import './nav.css';
 
-export default ({
-  basePath,
-  children,
-  ...props
-}: {
-  basePath: string;
-  [key: string]: any;
-}) => (
+export default ({ children, ...props }: { [key: string]: any }) => (
   <nav {...props} className="nav-list">
     <Localized id="speak">
-      <NavLink to={basePath + URLS.RECORD} exact />
+      <LocaleNavLink to={URLS.RECORD} exact />
     </Localized>
     <Localized id="datasets">
-      <NavLink to={basePath + URLS.DATA} exact />
+      <LocaleNavLink to={URLS.DATA} exact />
     </Localized>
     {!isProduction() && (
       <Localized id="languages">
-        <NavLink to={basePath + URLS.LANGUAGES} exact />
+        <LocaleNavLink to={URLS.LANGUAGES} exact />
       </Localized>
     )}
     <Localized id="profile">
-      <NavLink to={basePath + URLS.PROFILE} exact />
+      <LocaleNavLink to={URLS.PROFILE} exact />
     </Localized>
     {children}
   </nav>
