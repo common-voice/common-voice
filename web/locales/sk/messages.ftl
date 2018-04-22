@@ -75,7 +75,7 @@ help-us-title = Pomôžte nám overovať vety!
 help-us-explain = Kliknite na prehrať, počúvajte a povedzte nám, či sa nahrávka zhoduje s vetou nižšie.
 vote-yes = Áno
 vote-no = Nie
-request-language-text = Nevidíte svoj jazyk na Common Voice?
+request-language-text = Nevidíte na Common Voice svoj jazyk?
 request-language-button = Požiadajte o jazyk
 
 ## ProjectStatus
@@ -187,6 +187,7 @@ data-other-librispeech-description = LibriSpeech je korpus približne 1 000 hod�
 data-bundle-button = Prevziať balík datasetov
 data-bundle-description = Common Voice a údaje všetkých ostatných hlasových datasetov vyššie.
 license = Licencia: <licenseLink>{ $license }</licenseLink>
+license-mixed = Zmiešaná
 
 ## Record Page
 
@@ -244,6 +245,7 @@ request-language-success-title = Žiadosť o jazyk bola odoslaná. Ďakujeme.
 
 ## Languages Overview
 
+language-section-launched = Spustené
 languages-show-more = Zobraziť viac
 languages-show-less = Zobraziť menej
 language-speakers = Počet hovoriacich
