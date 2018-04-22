@@ -8,6 +8,37 @@ email-input =
     .label = E-post
 submit-form-action = Skicka in
 loading = Laddar…
+audio-loading-error = Ursäkta! Vi bearbetar våra ljudfiler, var vänlig och försök igen inom kort.
+
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+
+
+## Languages
+
+ga-IE = Irländska
+cs = Tjeckiska
+de = Tyska
+ca = Katalanska
+ko = Koreanska
+es-CL = Spanska (Chile)
+th = Thailändska
+pl = Polska
+pt-BR = Portugisiska (Brasilien)
+id = Indonesiska
+zh-TW = Kinesiska (Taiwan)
+cy = Walesiska
+el = Grekiska
+sv-SE = Svenska
+nn-NO = Norska, nynorska
+fr = Franska
+tr = Turkiska
+he = Hebreiska
+zh-CN = Kinesiska (Kina)
+nl = Nederländska
+sq = Albanska
+ru = Ryska
+it = Italienska
+en = Engelska
 
 ## Layout
 
@@ -23,6 +54,8 @@ cookies = Kakor
 faq = FAQ
 content-license-text = Innehåll tillgängligt under en <licenseLink>Creative Commons licens</licenseLink>
 share-title = Hjälp oss att hitta andra som är redo att bidra med sin röst!
+share-text = Hjälp till att lära maskiner hur riktiga människor pratar, donera din röst på { $link }
+back-top = Tillbaka till toppen av sidan
 
 ## Home Page
 
@@ -71,9 +104,18 @@ profile-form-gender =
     .label = Kön
 profile-form-submit-save = Spara
 profile-form-submit-saved = Sparad
+profile-keep-data = Behåll data
+profile-delete-data = Ta bort data
 male = Man
 female = Kvinna
+# Gender
+other = Annat
+why-profile-title = Varför ha en profil?
+why-profile-text = Genom att ge lite information om dig själv kan det ljud du ger till Common Voice bli mer användbart för röstigenkänningsmotorer som använder denna data för att förbättra sin noggrannhet.
 edit-profile = Redigera profil
+profile-create = Skapa en profil
+profile-create-success = Profil skapad!
+profile-close = Stäng
 
 ## FAQ
 
@@ -91,7 +133,10 @@ faq-native-a = Ja, vi vill definitivt ha din röst! En del av målet med Common 
 faq-firefox-q = Kommer tal-till-text, via Common Voice, någonsin att bli en del av Firefox?
 faq-firefox-a = Common Voice har obegränsad potential och vi undersöker talgränssnitt i många Mozilla-produkter, inklusive Firefox.
 faq-quality-q = Vilken kvalitetsnivå krävs för ljudet för att det ska kunna användas?
+faq-hours-q = Varför är 10 000 timmar målet för inspelningen av ljud?
+faq-hours-a = Det är ungefär det antal timmar som krävs för att träna ett röst-till-tal system.
 faq-source-q = Var kommer källtexten ifrån?
+faq-source-a2 = Du kan se våra källmeningar i <dataLink>denna GitHub mapp</dataLink>
 
 ## Profile
 
@@ -106,6 +151,7 @@ notfound-content = Jag är rädd att jag inte vet vad du letar efter.
 
 privacy-title = Sekretesspolicy Common Voice
 privacy-effective = Giltig från { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
+privacy-policy = Då Mozilla (det är vi), tar emot information från dig, beskriver <policy>Mozillas integritetspolicy</policy> hur informationen hanteras.
 privacy-more = <more>Lär dig mer</more>
 
 ## Terms
@@ -122,7 +168,6 @@ terms-general-title = Allmänt
 
 data-download-button = Ladda ner Common Voice Data
 data-download-yes = Ja
-data-download-no = Ja
 data-download-license = Licens: <licenseLink>CC-0</licenseLink>
 data-download-modal = Du håller på att starta en nedladdning av <<size>{ $size }GB</size>, vill du fortsätta?
 data-subtitle = Vi bygger en öppen och allmänt tillgänglig datamängd av röster som alla kan använda för att träna talanpassade applikationer.
