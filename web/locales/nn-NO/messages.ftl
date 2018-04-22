@@ -55,6 +55,7 @@ privacy = Personvern
 terms = Vilkår
 cookies = Infokapslar
 faq = FAQ
+back-top = Tilbake til toppen av sida
 
 ## Home Page
 
