@@ -6,7 +6,6 @@ import { LOCALES } from '../../services/localization';
 import { Recordings } from '../../stores/recordings';
 import StateTree from '../../stores/tree';
 import { User } from '../../stores/user';
-import { Clips } from '../../stores/clips';
 import { Locale } from '../../stores/locale';
 import {
   getItunesURL,
@@ -35,8 +34,6 @@ interface PropsFromState {
 }
 
 interface PropsFromDispatch {
-  buildNewSentenceSet: typeof Recordings.actions.buildNewSentenceSet;
-  fillClipCache: typeof Clips.actions.refillCache;
   setLocale: typeof Locale.actions.set;
 }
 
@@ -78,8 +75,6 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
   };
 
   componentDidMount() {
-    this.props.buildNewSentenceSet();
-    this.props.fillClipCache();
     this.addScrollListener();
   }
 
@@ -390,8 +385,6 @@ const mapStateToProps = ({ locale, recordings, user }: StateTree) => ({
 });
 
 const mapDispatchToProps = {
-  buildNewSentenceSet: Recordings.actions.buildNewSentenceSet,
-  fillClipCache: Clips.actions.refillCache,
   setLocale: Locale.actions.set,
 };
 

@@ -56,7 +56,11 @@ const store = createStore(
   composeEnhancers(applyMiddleware(thunk))
 );
 
-store.dispatch(User.actions.update({}));
+[
+  User.actions.update({}),
+  Clips.actions.refillCache(),
+  Recordings.actions.buildNewSentenceSet(),
+].forEach(store.dispatch.bind(store));
 
 const fieldTrackers: any = {
   email: () => trackProfile('give-email'),
