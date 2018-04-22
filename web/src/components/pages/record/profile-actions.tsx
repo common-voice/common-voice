@@ -3,6 +3,7 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import ProfileForm from '../../profile-form/profile-form';
+import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
 import Alert from '../../alert/alert';
@@ -51,6 +52,7 @@ class WhyProfile extends React.Component<{}, WhyProfileState> {
 
 interface PropsFromState {
   hasEnteredInfo: boolean;
+  locale: Locale.State;
 }
 
 interface State {
@@ -89,7 +91,7 @@ class ProfileActions extends React.Component<PropsFromState, State> {
         )}
         {this.props.hasEnteredInfo ? (
           <Localized id="edit-profile">
-            <Link to="/profile" />
+            <Link to={`/${this.props.locale}/profile`} />
           </Localized>
         ) : (
           <div>
@@ -110,6 +112,7 @@ class ProfileActions extends React.Component<PropsFromState, State> {
   }
 }
 
-export default connect<PropsFromState>(({ user }: StateTree) => ({
+export default connect<PropsFromState>(({ locale, user }: StateTree) => ({
   hasEnteredInfo: User.selectors.hasEnteredInfo(user),
+  locale,
 }))(ProfileActions);
