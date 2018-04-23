@@ -256,7 +256,7 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
               <a onClick={this.closeOpenInApp}>X</a>
             </div>
           )}
-        {(location as any).hostname == 'voice.allizom.org' && (
+        {window.location.hostname == 'voice.allizom.org' && (
           <div
             dangerouslySetInnerHTML={{
               __html:
