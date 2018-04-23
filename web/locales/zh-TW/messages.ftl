@@ -135,6 +135,7 @@ faq-important-a = 語音是自然而有人性的。這是最簡單又最自然�
 faq-get-q = 我要如何取得 Common Voice 資料？
 faq-get-a = 已根據 <licenseLink>CC-0</licenseLink> 授權條款，於我們的<downloadLink>下載頁面</downloadLink>提供資料集。
 faq-mission-q = 為什麼 Common Voice 是 Mozilla 的使命的一部份？
+faq-mission-a = Mozilla 致力於保持網路開放，讓任何人都可使用。為達到這個目標，我們要透過像 Common Voice 這樣的專案來協助網路上的創作者來得到威力。隨著採用語音技術的程式激增，我們相信這些程式應該平等的服務所有的使用者。我們看到在打造與測試語音科技時，需要支援更多語言、腔調、人口的需求，Mozilla 也想要看到能有一個健康、充滿生氣的網路環境，這代表我們需要讓新一代的創作者能夠使用這些語音資料，才可以打造出全新、非凡的專案。Common Voice 將會成為一套能夠幫助 Mozilla 與全球的的開發者們的公眾資源。
 faq-native-q = 我的母語不是 { $lang } 而且講話有點口音，你們還會想要我的聲音嗎？
 faq-native-a = 當然，我們絕對想要！Common Voice 的其中一個目標就是能收集越多不同腔調越好，這樣電腦就可以更完整地理解<bold>每個人</bold>所說的話。
 faq-firefox-q = 透過 Common Voice 設計出的語音轉文字識別技術，會成為 Firefox 的一部份嗎？
