@@ -1,5 +1,7 @@
 ## General
 
+yes-receive-emails = ହଁ, ମୋତେ ଇମେଲ ପଠାନ୍ତୁ । ମୁଁ ଆଗକୁ Common Voice ପ୍ରକଳ୍ପ ବାବଦରେ ଅଧିକ ଜାଣିବାକୁ ଚାହେଁ ।
+stayintouch = ଆମେ Mozillaରେ ସ୍ୱର ଟେକନୋଲୋଜି ବାବଦରେ ଏକ ସମାଜ ତିଆରି କରୁଛୁ । ଆମେ ଅପଡେଟ, ନୂଆ ଡାଟା ସ୍ରୋତ ଓ ଆପଣ ଏହି ଡାଟା କିପରି ବ୍ୟବହାର କରୁଛନ୍ତି ସେ ବାବଦରେ ଅଧିକ ଜାଣିବା ପାଇଁ ଆଗକୁ ସମ୍ପର୍କ ରଖିବାକୁ ଚାହୁଁଛୁ ।
 privacy-info = ଆମେ ଆପଣଙ୍କ ତଥ୍ୟ ଯତ୍ନସହକାରେ ବ୍ୟବହାର କରିବୁ ବୋଲି ପ୍ରତିଶ୍ରୁତି ଦେଉଛୁ । ଆମ <privacyLink>ଗୋପନୀୟତା ନୀତି</privacyLink> ବାବଦରେ ଅଧିକ ପଢ଼ନ୍ତୁ ।
 return-to-cv = Common Voiceକୁ ଫେରିଯାନ୍ତୁ
 email-input =
@@ -132,15 +134,45 @@ license-mixed = ମିଶାମିଶି
 record-retry = ଆଉଥରେ ଚେଷ୍ଟାକରନ୍ତୁ
 record-error-too-short = ରେକର୍ଡ଼ିଂଟି ଖୁବ ଛୋଟ ।
 record-error-too-long = ରେକର୍ଡ଼ିଂଟି ଖୁବ ଲମ୍ବା ।
+terms-agree = ମୁଁ ସହମତ
+terms-disagree = ମୁଁ ସହମତି ଦେଉନାହିଁ
+review-submit-title = ପରଖି ପଠାନ୍ତୁ
+review-recording = ପରଖନ୍ତୁ
+review-rerecord = ପୁନଃ-ରେକର୍ଡ଼
+review-cancel = ପଠାଇବା ନାକଚ
+review-keep-recordings = ରେକର୍ଡ଼ିଂଟି ରଖନ୍ତୁ
+review-delete-recordings = ମୋ ରେକ୍ଡ଼ିଂସବୁ ହଟାନ୍ତୁ
 
 ## Download Modal
 
+download-title = ଆପଣଙ୍କ ଡାଉନଲୋଡ଼ ଆରମ୍ଭହେଲା ।
+download-form-email =
+    .label = ଆପଣଙ୍କ ଇମେଲ
+    .value = ସାଧୁବାଦ । ଆମେ ଯୋଗାଯୋଗ କରିବୁ ।
+download-no = ନାଁ ଥାଉ
 
 ## Contact Modal
 
+contact-title = ଯୋଗାଯୋଗ ଆବେଦନ
+contact-cancel = ନାକଚ
+contact-form-name =
+    .label = ନାମ
+contact-form-message =
+    .label = ସନ୍ଦେଶ
+contact-required = *ଦରକାରୀ
 
 ## Request Language Modal
 
+request-language-title = ଭାଷା ଅନୁରୋଧ
+request-language-cancel = ଆବେଦନରୁ ବାହାରନ୍ତୁ
+request-language-form-language =
+    .label = ଭାଷା
 
 ## Languages Overview
 
+language-section-in-progress = ଚାଲିଛି
+language-section-launched = ଆରମ୍ଭ ହେଲା
+languages-show-more = ଅଧିକ ଦେଖନ୍ତୁ
+languages-show-less = କମ ଦେଖନ୍ତୁ
+language-speakers = ବକ୍ତା
+language-total-progress = ମୋଟ
