@@ -9,6 +9,42 @@ email-input =
 submit-form-action = Envoyer
 loading = Chargement…
 
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+
+
+## Languages
+
+ga-IE = Irlandais
+cs = Tchèque
+uz = Ouzbek
+de = Allemand
+bn = Bengali
+sk = Slovaque
+ca = Catalan
+ko = Coréen
+es-CL = Espagnol (Chili)
+th = Thaï
+pl = Polonais
+pt-BR = Portugais (Brésil)
+id = Indonésien
+zh-TW = Chinois (Taïwan)
+cy = Gallois
+el = Grec
+cv = Tchouvache
+sv-SE = Suédois
+mk = Macédonien
+fr = Français
+tr = Turc
+tt = Tatar
+fy-NL = Frison
+he = Hébreu
+zh-CN = Chinois (Chine)
+nl = Néerlandais
+sq = Albanais
+ru = Russe
+it = Italien
+en = Anglais
+
 ## Layout
 
 speak = Parler
@@ -37,6 +73,8 @@ wall-of-text-more-desktop =
 show-wall-of-text = En savoir plus
 help-us-title = Aidez-nous à valider des phrases !
 help-us-explain = Appuyez sur lecture, écoutez et dites-nous : la phrase ci-dessous est-elle prononcée correctement ?
+vote-yes = Oui
+vote-no = Non
 request-language-text = Votre langue n’est pas encore disponible ?
 request-language-button = Proposer une langue
 
@@ -53,9 +91,12 @@ status-hours =
 # $goal - number of hours representing the next goal
 status-goal = Prochain objectif : { $goal }
 status-more-soon = Bientôt de nouvelles langues !
+english = Anglais
 
 ## ProfileForm
 
+profile-form-cancel = Quitter le formulaire
+profile-form-delete = Supprimer le profil
 profile-form-username =
     .label = Nom d’utilisateur
 profile-form-language =
@@ -69,6 +110,10 @@ profile-form-gender =
     .label = Sexe
 profile-form-submit-save = Enregistrer
 profile-form-submit-saved = Enregistré
+profile-keep-data = Conserver les données
+profile-delete-data = Supprimer les données
+# Gender
+other = Autre
 
 ## FAQ
 
@@ -162,6 +207,7 @@ record-platform-not-supported = Nous sommes désolés, mais votre plateforme n�
 record-platform-not-supported-desktop = Pour les ordinateurs de bureau, vous pouvez télécharger le plus récent :
 record-platform-not-supported-ios = Les utilisateurs <bold>iOS</bold> peuvent télécharger notre application gratuite :
 record-must-allow-microphone = Vous devez autoriser l’accès au microphone.
+record-cancel = Annuler le réenregistrement
 record-error-too-short = L’enregistrement est trop court.
 record-error-too-long = L’enregistrement est trop long.
 record-error-too-quiet = Le volume de l’enregistrement est trop faible.
@@ -203,15 +249,6 @@ request-language-cancel = Quitter le formulaire
 request-language-form-language =
     .label = Langue
 request-language-success-title = La langue a été proposée, merci.
-request-language-success-text = Nous vous contacterons avec plus d’informations lorsque votre langue sera disponible.
 
-## Help Translate Modal
+## Languages Overview
 
-help-translate-title = Aider à traduire en { $language }
-help-translate-cancel = Quitter
-help-translate-text = Nous allons vous rediriger vers la plateforme de traduction de Mozilla, <pontoonLink>Pontoon</pontoonLink>, où cette langue est en cours de traduction.
-language-updates-title = S'inscrire aux mises à jour du { $language }
-help-translate-link = Aller vers Pontoon
-language-updates-success-title = Votre demande de mise à jour pour le { $language } a été soumise avec succès, merci.
-language-updates-success-text = Nous vous tiendrons informé⋅e lorsque de nouvelles informations seront disponibles.
-language-updates-success-collapsed-title = Vous êtes inscrit⋅e aux mises à jour du { $language }
