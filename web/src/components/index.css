@@ -82,6 +82,26 @@ button {
     cursor: pointer;
 }
 
+marquee {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 5;
+
+    & span {
+        display: inline-block;
+        border-radius: 20px;
+        margin: 1rem;
+        padding: 1rem;
+        color: var(--white);
+        background: var(--red);
+    }
+
+    & a {
+        color: var(--grey);
+    }
+}
+
 .is-keyboard-focus *:focus {
     outline: 1px solid black;
 }

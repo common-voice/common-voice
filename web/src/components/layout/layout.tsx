@@ -256,6 +256,18 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
               <a onClick={this.closeOpenInApp}>X</a>
             </div>
           )}
+        {(location as any).hostname == 'voice.allizom.org' && (
+          <div
+            dangerouslySetInnerHTML={{
+              __html:
+                '<marquee onmouseover="this.stop();" onmouseout="this.start();"><span>' +
+                "You're on the staging server. " +
+                "<a href='https://voice.mozilla.com'>Don't waste your breath.</a> " +
+                "<a href='https://github.com/mozilla/voice-web/issues/new'>But feel free to report issues.</a>" +
+                '</span></marquee>',
+            }}
+          />
+        )}
         <header
           className={
             !this.state.isMenuVisible && this.state.scrolled ? 'active' : ''
