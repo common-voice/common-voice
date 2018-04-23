@@ -17,7 +17,10 @@ audio-loading-error = Ursäkta! Vi bearbetar våra ljudfiler, var vänlig och f�
 
 ga-IE = Irländska
 cs = Tjeckiska
+uz = Uzbekistanska
 de = Tyska
+bn = Bengaliska
+sk = Slovakiska
 ca = Katalanska
 ko = Koreanska
 es-CL = Spanska (Chile)
@@ -29,9 +32,12 @@ zh-TW = Kinesiska (Taiwan)
 cy = Walesiska
 el = Grekiska
 sv-SE = Svenska
+mk = Makedonska
 nn-NO = Norska, nynorska
 fr = Franska
 tr = Turkiska
+tt = Tatariska
+fy-NL = Frisiska
 he = Hebreiska
 zh-CN = Kinesiska (Kina)
 nl = Nederländska
@@ -238,5 +244,8 @@ request-language-success-title = Språkförfrågan har skickats in, tack.
 ## Languages Overview
 
 language-section-in-progress = Pågående
+language-section-launched = Lanserad
 languages-show-more = Läs mer
+languages-show-less = Visa mindre
 language-speakers = Högtalare
+language-total-progress = Totalt
