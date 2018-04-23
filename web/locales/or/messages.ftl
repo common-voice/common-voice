@@ -61,12 +61,28 @@ cookies = କୁକିଗୁଡ଼ିକ
 faq = FAQ
 content-license-text = ବିଷୟବସ୍ତୁ ଏକ <licenseLink>Creative Commons ଲାଇସେନ୍ସ</licenseLink>ରେ ଉପଲବ୍ଧ
 share-title = ତାଙ୍କ ସ୍ୱର ଦେବା ପାଇଁ ବାକିମାନଙ୍କୁ ପାଇବାରେ ଆମକୁ ସାହାଯ୍ୟ କରନ୍ତୁ!
+back-top = ଉପରକୁ ଯାଆନ୍ତୁ
 
 ## Home Page
 
+home-cta = କହନ୍ତୁ, ଏଠାରେ ଅଂଶଗ୍ରହଣ କରନ୍ତୁ!
+show-wall-of-text = ଅଧିକ ପଢ଼ନ୍ତୁ
+vote-yes = ହଁ
+vote-no = ନାଁ
+request-language-button = ଭାଷାଟିଏ ପାଇଁ ଅନୁରୋଧ କରନ୍ତୁ
 
 ## ProjectStatus
 
+status-contribute = ନିଜ ସ୍ୱରଦାନ କରନ୍ତୁ
+status-hours =
+    { $hours ->
+        [one] ଏବେ ଯାଏ ଗୋଟେ ମଞ୍ଜୁର ହୋଇଛି!
+       *[other] ଏବେ ଯାଏ { $hours } ମଞ୍ଜୁର ହୋଇଛି!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = ଆଗାମୀ ଲକ୍ଷ୍ୟ: { $goal }
+status-more-soon = ଆଗକୁ ଅଧିକ ଭାଷା ଆସୁଛି!
 english = ଇଂରାଜୀ
 
 ## ProfileForm
@@ -102,18 +118,23 @@ profile-close = ବନ୍ଦକରନ୍ତୁ
 
 faq-title = ଅଧିକ ପଚରାଯାଉଥିବା ପ୍ରଶ୍ନ
 faq-what-q = Common Voice କଣ?
+faq-important-q = କାହିଁକି ଏହା ଏତେ ଜରୁରୀ?
 
 ## Profile
 
+profile-why-title = ପ୍ରୋଫାଇଲଟିଏ କାହିଁକି?
 
 ## NotFound
 
+notfound-title = ମିଳିଲା ନାହିଁ
 
 ## Privacy
 
+privacy-more = <more>ଅଧିକ ଜାଣନ୍ତୁ</more>
 
 ## Terms
 
+terms-eligibility-title = ଯୋଗ୍ୟତା
 terms-privacy-title = ଗୋପନୀୟତା
 terms-communications-title = ଯୋଗାଯୋଗସମୂହ
 terms-general-title = ସାଧାରଣ
