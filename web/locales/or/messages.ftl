@@ -1,0 +1,146 @@
+## General
+
+privacy-info = ଆମେ ଆପଣଙ୍କ ତଥ୍ୟ ଯତ୍ନସହକାରେ ବ୍ୟବହାର କରିବୁ ବୋଲି ପ୍ରତିଶ୍ରୁତି ଦେଉଛୁ । ଆମ <privacyLink>ଗୋପନୀୟତା ନୀତି</privacyLink> ବାବଦରେ ଅଧିକ ପଢ଼ନ୍ତୁ ।
+return-to-cv = Common Voiceକୁ ଫେରିଯାନ୍ତୁ
+email-input =
+    .label = ଇମେଲ
+submit-form-action = ପଠାନ୍ତୁ
+loading = ଲୋଡ଼ହେଉଛି...
+audio-loading-error = କ୍ଷମା କରିବେ! ଆମେ ଆମ ଅଡ଼ିଓ ଫାଇଲ ପ୍ରୋସେସକରୁଛୁ । ଦୟାକରି ଟିକେ ଛାଡ଼ି ଆଉଥରେ ଚେଷ୍ଟାକରନ୍ତୁ ।
+
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+
+
+## Languages
+
+ga-IE = ଆଇରିସ
+cs = ଚେକ
+uz = ଉଜବେକ
+de = ଜର୍ମାନ
+bn = ବଙ୍ଗଳା
+sk = ସ୍ଲୋଭାକ
+ca = କାଟାଲାନ
+ko = କୋରିଆନ
+es-CL = ସ୍ପାନିସ (ଚିଲି)
+th = ଥାଇ
+pl = ପୋଲିସ
+pt-BR = ପର୍ତ୍ତୁଗୀଜ (ବ୍ରାଜିଲ)
+id = ଇଣ୍ଡୋନେସିଆନ
+zh-TW = ଚାଇନିଜ (ତାଇୱାନ)
+cy = ୱେଲ୍ସ
+el = ଗ୍ରୀକ
+cv = ଚୁଭାସ
+sv-SE = ସୁଇଡିସ
+mk = ମାସିଡୋନିଆନ
+nn-NO = ନରୱେଇଆନ ନାଇନରସ୍କ
+fr = ଫରାସୀ
+tr = ତୁର୍କିସ
+tt = ଟାଟାର
+fy-NL = ଫ୍ରିସିଆନ
+he = ହିବ୍ରୁ
+zh-CN = ଚାଇନିଜ (ଚାଇନା)
+nl = ଡଚ
+sq = ଆଲବାନିଆନ
+ru = ଋଷୀୟ
+it = ଇଟାଲୀୟ
+en = ଇଂରାଜୀ
+
+## Layout
+
+speak = କହନ୍ତୁ
+datasets = ଡାଟାସେଟ
+languages = ଭାଷାସମୁହ
+profile = ପ୍ରୋଫାଇଲ
+help = ସହାୟତା
+contact = ଜଣାନ୍ତୁ
+privacy = ଗୋପନୀୟତା
+terms = ନୀତି
+cookies = କୁକିଗୁଡ଼ିକ
+faq = FAQ
+content-license-text = ବିଷୟବସ୍ତୁ ଏକ <licenseLink>Creative Commons ଲାଇସେନ୍ସ</licenseLink>ରେ ଉପଲବ୍ଧ
+share-title = ତାଙ୍କ ସ୍ୱର ଦେବା ପାଇଁ ବାକିମାନଙ୍କୁ ପାଇବାରେ ଆମକୁ ସାହାଯ୍ୟ କରନ୍ତୁ!
+
+## Home Page
+
+
+## ProjectStatus
+
+english = ଇଂରାଜୀ
+
+## ProfileForm
+
+profile-form-cancel = ବାହାରକୁ ଯିବା ଆବେଦନ
+profile-form-delete = ପ୍ରଫାଇଲ ହଟାନ୍ତୁ
+profile-form-username =
+    .label = ବ୍ୟବହାରକାରୀ ନାମ
+profile-form-language =
+    .label = ଭାଷା
+profile-form-more-languages = ଚଞ୍ଚଳ ଆହୁରି ଅଧିକ ଭାଷା ଆସୁଛି!
+profile-form-accent =
+    .label = ଉଚ୍ଚାରଣ
+profile-form-age =
+    .label = ବୟସ
+profile-form-gender =
+    .label = ଲିଙ୍ଗ
+profile-form-submit-save = ସାଇତିବେ
+profile-form-submit-saved = ସାଇତାଗଲା
+profile-keep-data = ଡାଟା ରଖିବେ
+profile-delete-data = ଡାଟା ଲିଭାଇବେ
+male = ପୁରୁଷ
+female = ମହିଳା
+# Gender
+other = ଅନ୍ଯାନ୍ଯ
+why-profile-title = ପ୍ରୋଫାଇଲଟିଏ କାହିଁକି?
+edit-profile = ପ୍ରୋଫାଇଲ ସମ୍ପାଦନା
+profile-create = ପ୍ରୋଫାଇଲଟିଏ ଗଢ଼ନ୍ତୁ
+profile-create-success = ପ୍ରୋଫାଇଲଟି ସଫଳ ଭାବେ ଗଢ଼ାଗଲା!
+profile-close = ବନ୍ଦକରନ୍ତୁ
+
+## FAQ
+
+faq-title = ଅଧିକ ପଚରାଯାଉଥିବା ପ୍ରଶ୍ନ
+faq-what-q = Common Voice କଣ?
+
+## Profile
+
+
+## NotFound
+
+
+## Privacy
+
+
+## Terms
+
+terms-privacy-title = ଗୋପନୀୟତା
+terms-communications-title = ଯୋଗାଯୋଗସମୂହ
+terms-general-title = ସାଧାରଣ
+
+## Data
+
+data-download-yes = ହଁ
+data-download-deny = ନାଁ
+data-download-license = ଲାଇସେନ୍ସ: <licenseLink>CC-0</licenseLink>
+data-other-goto = { $name }କୁ ଯାଆନ୍ତୁ
+data-other-download = ଡାଟା ଡାଉନଲୋଡ଼ କରନ୍ତୁ
+data-bundle-button = ଡାଟାସେଟସମୂହ ଡାଉନଲୋଡ଼ କରନ୍ତୁ
+license = ଲାଇସେନ୍ସ: <licenseLink>{ $license }</licenseLink>
+license-mixed = ମିଶାମିଶି
+
+## Record Page
+
+record-retry = ଆଉଥରେ ଚେଷ୍ଟାକରନ୍ତୁ
+record-error-too-short = ରେକର୍ଡ଼ିଂଟି ଖୁବ ଛୋଟ ।
+record-error-too-long = ରେକର୍ଡ଼ିଂଟି ଖୁବ ଲମ୍ବା ।
+
+## Download Modal
+
+
+## Contact Modal
+
+
+## Request Language Modal
+
+
+## Languages Overview
+
