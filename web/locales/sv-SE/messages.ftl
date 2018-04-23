@@ -168,6 +168,7 @@ terms-general-title = Allmänt
 
 data-download-button = Ladda ner Common Voice Data
 data-download-yes = Ja
+data-download-deny = Nej
 data-download-license = Licens: <licenseLink>CC-0</licenseLink>
 data-download-modal = Du håller på att starta en nedladdning av <<size>{ $size }GB</size>, vill du fortsätta?
 data-subtitle = Vi bygger en öppen och allmänt tillgänglig datamängd av röster som alla kan använda för att träna talanpassade applikationer.
@@ -187,6 +188,7 @@ record-platform-not-supported-desktop = På datorer, kan du ladda ner senaste:
 record-platform-not-supported-ios = Användare av <bold>iOS</bold> kan ladda ner våran gratisapp:
 record-must-allow-microphone = Du måste tillåta mikrofon åtkomst.
 record-cancel = Avbryt återinspelning
+record-retry = Försök igen
 record-error-too-short = Inspelningen var för kort.
 record-error-too-long = Inspelningen var för lång.
 record-error-too-quiet = Inspelningen var för tyst.
@@ -194,12 +196,16 @@ record-submit-success = Inskickat! Vill du spela in igen?
 record-help = Vänligen klicka för att spela in, läs sedan ovanstående mening högt.
 record-cancel = Avbryt återinspelning
 review-terms = Genom att använda Common Voice godkänner du våra <termsLink>villkor</termsLink> och <privacyLink> sekretesspolicy</privacyLink>
+terms-agree = Jag håller med
+terms-disagree = Jag håller inte med
 review-aborted = Uppladdningen avbröts. Vill du radera dina inspelningar?
 review-submit-title = Granska och skicka in 
 review-submit-msg = Tack för inspelningen! <lineBreak></lineBreak>Granska och skicka in dina klipp nedan.
 review-recording = Granska
 review-rerecord = Spela in igen
 review-cancel = Avbryt inskickning
+review-keep-recordings = Behåll inspelningarna
+review-delete-recordings = Ta bort mina inspelningar
 
 ## Download Modal
 
@@ -231,3 +237,6 @@ request-language-success-title = Språkförfrågan har skickats in, tack.
 
 ## Languages Overview
 
+language-section-in-progress = Pågående
+languages-show-more = Läs mer
+language-speakers = Högtalare
