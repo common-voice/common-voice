@@ -13,6 +13,8 @@ export default class LangaugeSelect extends React.Component<Props> {
     const { locale, locales, onChange } = this.props;
     return (
       <Downshift
+        defaultHighlightedIndex={locales.findIndex(([code]) => code == locale)}
+        isOpen={true}
         onChange={onChange}
         render={({ getInputProps, getItemProps, highlightedIndex }) => (
           <div className="language-select with-down-arrow">
