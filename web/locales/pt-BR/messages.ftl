@@ -15,60 +15,37 @@ audio-loading-error = Desculpe! Nós estamos processando nossos arquivos de audi
 
 ## Languages
 
-# Czech
-cs = Tcheco
-# Uzbek
-uz = Usbeque
-# German
-de = Alemão
-# Bengali
-bn = Bengalês
-# Slovak
-sk = Eslovaco
-# Catalan
-ca = Catalão
-# Korean
-ko = Coreano
-# Spanish (Chile)
-es-CL = Espanhol (Chile)
-# Thai
-th = Tailandês
-# Irish
 ga-IE = Irlandês
-# Polish
+cs = Tcheco
+uz = Usbeque
+de = Alemão
+bn = Bengalês
+sk = Eslovaco
+ca = Catalão
+ko = Coreano
+es-CL = Espanhol (Chile)
+th = Tailandês
 pl = Polonês
-# Portuguese (Brazil)
 pt-BR = Português (Brasil)
-# Indonesian
 id = Indonésio
-# Chinese (Taiwan)
 zh-TW = Chinês (Taiwan)
-# Welsh
 cy = Galês
-# Greek
 el = Grego
-# Swedish
+cv = Tchuvache
 sv-SE = Sueco
-# Macedonian
 mk = Macedônio
-# French
+nn-NO = Novo norueguês
 fr = Francês
-# Turkish
 tr = Turco
-# Frisian
+tt = Tártaro
 fy-NL = Frisão
-# Hebrew
 he = Hebraico
-# Chinese (China)
 zh-CN = Chinês (China)
-# Dutch
 nl = Holandês
-# Albanian
 sq = Albanês
-# Russian
 ru = Russo
-# Italian
 it = Italiano
+en = Inglês
 
 ## Layout
 
