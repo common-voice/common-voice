@@ -73,27 +73,6 @@ header {
         margin: 0 0 0 1.5rem;
     }
 
-    &:hover {
-        &::before {
-            background-image: url("/img/globe_black.svg");
-        }
-
-        &::after {
-            background-position-x: 15px;
-            transform: rotate(180deg);
-        }
-
-        & .selection {
-            border: none;
-            color: var(--black);
-            background: var(--lighter-grey);
-        }
-
-        & .list-wrapper {
-            display: block;
-        }
-    }
-
     &::before {
         content: '';
         width: 100%;
@@ -165,8 +144,33 @@ header {
                 &.selected {
                     color: black;
                 }
+
+                &.highlighted {
+                    color: var(--dark-red);
+                }
             }
         }
+    }
+}
+
+.language-select:hover, .is-keyboard-focus .language-select:focus-within {
+    &::before {
+        background-image: url("/img/globe_black.svg");
+    }
+
+    &::after {
+        background-position-x: 15px;
+        transform: rotate(180deg);
+    }
+
+    & .selection {
+        border: none;
+        color: var(--black);
+        background: var(--lighter-grey);
+    }
+
+    & .list-wrapper {
+        display: block;
     }
 }
 

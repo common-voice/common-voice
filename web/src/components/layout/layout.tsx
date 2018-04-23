@@ -18,6 +18,7 @@ import { MenuIcon, RecordIcon, PlayIcon } from '../ui/icons';
 import { LabeledSelect } from '../ui/ui';
 import Content from './content';
 import Footer from './footer';
+import LanguageSelect from './language-select';
 import Logo from './logo';
 import Nav from './nav';
 import Robot from './robot';
@@ -269,24 +270,11 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
           <div>
             {this.renderTallies()}
             {LOCALES.length > 1 && (
-              <div className="language-select with-down-arrow">
-                <Localized id={locale}>
-                  <div className="selection" />
-                </Localized>
-                <div className="list-wrapper">
-                  <div className="triangle" />
-                  <ul>
-                    {localesWithNames.map(([code, name]) => (
-                      <li
-                        key={code}
-                        className={code === locale ? 'selected' : ''}
-                        onClick={() => this.selectLocale(code)}>
-                        {name}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
+              <LanguageSelect
+                locale={locale}
+                locales={localesWithNames}
+                onChange={this.selectLocale}
+              />
             )}
             <button
               id="hamburger-menu"
