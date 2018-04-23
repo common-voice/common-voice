@@ -112,8 +112,14 @@ profile-form-submit-save = Enregistrer
 profile-form-submit-saved = Enregistré
 profile-keep-data = Conserver les données
 profile-delete-data = Supprimer les données
+male = Masculin
+female = Féminin
 # Gender
 other = Autre
+why-profile-title = Pourquoi créer un profil ?
+edit-profile = Modifier le profil
+profile-create = Créer un profil
+profile-close = Fermer
 
 ## FAQ
 
@@ -184,6 +190,8 @@ terms-general-law = Loi applicable : les présentes conditions juridiques const
 ## Data
 
 data-download-button = Télécharger les données Common Voice
+data-download-yes = Oui
+data-download-deny = Non
 data-download-license = Licence : <licenseLink>CC-0</licenseLink>
 data-download-modal = Vous vous apprêtez à télécharger <size>{ $size } Go</size>, voulez-vous continuer ?
 data-subtitle = Nous créons un jeu de données de voix ouvert et publiquement accessible, que tout le monde peut utiliser pour réaliser des applications utilisant la voix.
@@ -208,6 +216,7 @@ record-platform-not-supported-desktop = Pour les ordinateurs de bureau, vous pou
 record-platform-not-supported-ios = Les utilisateurs <bold>iOS</bold> peuvent télécharger notre application gratuite :
 record-must-allow-microphone = Vous devez autoriser l’accès au microphone.
 record-cancel = Annuler le réenregistrement
+record-retry = Réessayer
 record-error-too-short = L’enregistrement est trop court.
 record-error-too-long = L’enregistrement est trop long.
 record-error-too-quiet = Le volume de l’enregistrement est trop faible.
@@ -215,12 +224,16 @@ record-submit-success = Envoi réussi ! Voulez-vous effectuer un nouvel enregis
 record-help = Appuyez pour enregistrer, puis lisez la phrase ci-dessus à haute voix.
 record-cancel = Annuler le réenregistrement
 review-terms = En utilisant Common Voice, vous acceptez nos <termsLink>conditions d’utilisation</termsLink> et notre <privacyLink>politique de confidentialité</privacyLink>
+terms-agree = J’accepte
+terms-disagree = Je refuse
 review-aborted = Échec de l’envoi. Voulez-vous supprimer vos enregistrements ?
 review-submit-title = Vérifier et envoyer
 review-submit-msg = Merci pour votre enregistrement !<lineBreak></lineBreak>Vous pouvez maintenant valider et envoyer vos extraits ci-dessous.
 review-recording = Vérification
 review-rerecord = Réenregistrer
 review-cancel = Annuler l’envoi
+review-keep-recordings = Conserver les enregistrements
+review-delete-recordings = Supprimer les enregistrements
 
 ## Download Modal
 
@@ -252,3 +265,4 @@ request-language-success-title = La langue a été proposée, merci.
 
 ## Languages Overview
 
+language-total-progress = Total
