@@ -55,7 +55,6 @@ interface LayoutState {
 class Layout extends React.Component<LayoutProps, LayoutState> {
   private header: HTMLElement;
   private scroller: HTMLElement;
-  private contentRef = (React as any).createRef();
   private bg: HTMLElement;
   private installApp: HTMLElement;
   private stopBackgroundRender: boolean;
@@ -91,13 +90,16 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
     }
 
     if (this.props.location !== nextProps.location) {
-      this.setState({ isMenuVisible: false, isRecording: false }, () => {
+      this.setState({ isMenuVisible: false, isRecording: false });
+
+      // Immediately scrolling up after page change has no effect.
+      setTimeout(() => {
         this.scroller.scrollTop = 0;
         window.scrollTo({
           top: 0,
           behavior: 'smooth',
         });
-      });
+      }, 500);
     }
   }
 
