@@ -89,7 +89,7 @@ button {
     color: var(--white);
     background: var(--red);
     text-align: center;
-    z-index: var(--top-z-index);
+    z-index: 5;
 
     @media (--md-up) {
         top: 0;

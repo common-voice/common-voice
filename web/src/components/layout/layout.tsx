@@ -258,7 +258,7 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
               <a onClick={this.closeOpenInApp}>X</a>
             </div>
           )}
-        {window.location.hostname != 'voice.allizom.org' &&
+        {window.location.hostname == 'voice.allizom.org' &&
           this.state.showStagingBanner && (
             <div className="staging-banner">
               You're on the staging server.{' '}
