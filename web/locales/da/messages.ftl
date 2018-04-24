@@ -104,6 +104,7 @@ male = Mand
 female = Kvinde
 # Gender
 other = Andet
+why-profile-title = Hvorfor oprette en profil?
 edit-profile = Rediger profil
 profile-create = Opret en profil
 profile-create-success = Profil oprettet!
@@ -117,15 +118,31 @@ faq-what-a = Stemmegenkendelses-teknologi kan revolutionere den måde, vi kommun
 faq-important-q = Hvorfor er det vigtigt?
 faq-get-a = Datasættet er tilgængeligt nu på vores <downloadLink>download-side</downloadLink> under en <licenseLink>CC-0</licenseLink> licens.
 faq-mission-q = Hvorfor er Common Voice en del af Mozillas mission?
+faq-native-q = { $lang } er ikke mit modersmål, og jeg taler med accent - vil I stadig gerne have, at jeg bidrager med min stemme?
+faq-native-a = Ja, vi vil meget gerne have din hjælp! En del af målet med Common Voice er at indsamle så mange forskellige accenter som muligt, så computere bedre kan forstå <bold>alle</bold> når de taler.
+faq-firefox-q = Vil tale-til-tekst via Common Voice nogensinde blive en del af Firefox?
+faq-firefox-a = Common Voice har et ubegrænset potentiale, og vi undersøger talegrænseflader i mange Mozilla-produkter, inklusive Firefox.
+faq-quality-q = Hvilket kvalitetsniveau for lyden er krævet for at den kan bruges?
+faq-quality-a = Vi vil gerne have, at lydkvaliteten afspejler og kan konkurrere med andre tale-til-tekst applikationer på markedet. Derfor har vi brug for variation. Dette lærer tale-til-tekst applikationen at håndtere forskellige situationer — baggrundsstøj, bilstøj, blæserstøj — uden fejl.
+faq-hours-q = Hvorfor er målet at have 10.000 timers lydoptagelser?
+faq-source-q = Hvor kommer kildeteksten fra?
+faq-source-a1 = De nuværende sætninger er donationer fra bidragydere samt dialog fra filmmanuskripter i offentligt domæne, fx <italic>It’s a Wonderful Life.</italic>
+faq-source-a2 = Du kan se vores kildetekster i <dataLink>denne folder på GitHub</dataLink>.
 
 ## Profile
 
+profile-why-title = Hvorfor oprette en profil?
 
 ## NotFound
 
+notfound-title = Ikke fundet
+notfound-content = Jeg er bange for, at jeg ikke ved, hvad du leder efter.
 
 ## Privacy
 
+privacy-title = Privatlivspolitik for Common Voice 
+privacy-effective = Gyldig fra { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
+privacy-policy = Når Mozilla, (det er os), modtager oplysninger fra dig, så beskriver <policy>Mozillas privatlivspolitik</policy>, hvordan vi håndterer disse oplysninger.
 
 ## Terms
 
