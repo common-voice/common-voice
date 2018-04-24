@@ -165,15 +165,58 @@ data-download-yes = Ja
 data-download-deny = Nej
 data-download-license = Licens: <licenseLink>CC-0</licenseLink>
 data-subtitle = Vi bygger et åbent og offentligt tilgængeligt datasæt bestående af stemmer, som alle kan bruge til at træne stemmeaktiverede programmer.
+data-get-started = <speechBlogLink>Kom i gang med talegenkendelse</speechBlogLink>
+data-other-title = Andre stemme-datasæt
+data-other-goto = Gå til { $name }
+data-other-download = Hent data
+data-other-librispeech-description = LibriSpeech er et korpus af cirka 1000 timers engelsk tale (optaget ved 16Khz), der stammer fra lydbøger fra LibriVox-projektet.
+data-other-ted-name = TED-LIUM korpus
+data-other-ted-description = TED-LIUM korpus er lavet på baggrund af taler og deres transskriptioner fra TED's websted.
+data-other-tatoeba-description = Tatoeba er en stor database af sætninger, oversættelser og indtalt lyd til brug for sprogindlæring. Denne filhentning indeholder indtalt engelsk optaget af fællesskabet bag Tatoeba.
+data-bundle-button = Hent datasæt-samling
+data-bundle-description = Data fra Common Voice  samt alle andre stemme-datasæt ovenfor.
+license = Licens: <licenseLink>{ $license }</licenseLink>
+license-mixed = Blandet
 
 ## Record Page
 
+record-platform-not-supported = Vi beklager, men din platform er i øjeblikket ikke understøttet.
+record-platform-not-supported-desktop = Til computere kan du hente den seneste version:
+record-platform-not-supported-ios = <bold>iOS</bold>-brugere kan hente vores gratis app:
+record-must-allow-microphone = Du skal tillade mikrofon-adgang.
+record-cancel = Afbryd genindspilningen
+record-retry = Prøv igen
+record-cancel = Afbryd genindspilningen
+review-terms = Ved brug af Common Voice accepterer du vores <termsLink>Vilkår</termsLink> og <privacyLink>Privatlivspolitik</privacyLink>
+terms-agree = Jeg accepterer
+terms-disagree = Jeg accepterer ikke
+review-aborted = Upload afbrudt. Vil du slette dine optagelser?
+review-submit-title = Godkend og indsend
+review-submit-msg = Tak for din optagelse! <lineBreak></lineBreak> Godkend og indsend dine optagelser nedenfor.
+review-recording = Godkend
+review-rerecord = Optag igen
+review-cancel = Afbryd indsendelsen
+review-keep-recordings = Behold optagelserne
+review-delete-recordings = Slet mine optagelser
 
 ## Download Modal
 
+download-title = Din filhentning er startet.
+download-form-email =
+    .label = Indtast din mail
+    .value = Tak, vi vender tilbage
+download-back = Tilbage til datasæt for Common Voice
+download-no = Nej tak
 
 ## Contact Modal
 
+contact-title = Kontaktformular
+contact-cancel = Annuller
+contact-form-name =
+    .label = Navn
+contact-form-message =
+    .label = Meddelelse
+contact-required = *påkrævet
 
 ## Request Language Modal
 
