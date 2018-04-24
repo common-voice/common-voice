@@ -14,7 +14,6 @@ import TermsPage from '../pages/terms';
 import { CONTRIBUTABLE_LOCALES } from '../../services/localization';
 
 interface Props {
-  containerRef: React.Ref<HTMLElement>;
   isRecording: boolean;
   onRecord: Function;
   onRecordStop: Function;
@@ -23,7 +22,6 @@ interface Props {
 
 export default localeConnector(
   ({
-    containerRef,
     isRecording,
     locale,
     onRecord,
@@ -31,7 +29,7 @@ export default localeConnector(
     onVolume,
     toLocaleRoute,
   }: Props & LocalePropsFromState) => (
-    <div id="content" ref={containerRef}>
+    <div id="content">
       <Switch>
         <Route exact path={toLocaleRoute(URLS.ROOT)} component={HomePage} />
         {CONTRIBUTABLE_LOCALES.includes(locale) ? (

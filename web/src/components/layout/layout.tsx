@@ -91,10 +91,10 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
     }
 
     if (this.props.location !== nextProps.location) {
-      this.setState({ isMenuVisible: false, isRecording: false });
-      const mainContent = this.contentRef.current.children[0];
-      mainContent &&
-        mainContent.addEventListener('animationend', this.scrollToTop);
+      this.setState(
+        { isMenuVisible: false, isRecording: false },
+        () => (this.scroller.scrollTop = 0)
+      );
     }
   }
 
@@ -181,29 +181,6 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
         this.setState({ scrolled: scrolled });
       }
     });
-  };
-
-  private scrollToTop = () => {
-    this.contentRef.current.children[0].removeEventListener(
-      'animationend',
-      this.scrollToTop
-    );
-
-    // After changing pages we will scroll to the top, which
-    // is accomplished differentonly on mobile vs. desktop.
-    this.scroller.scrollTop = 0; // Scroll up on mobile.
-    this.setState(
-      {
-        isMenuVisible: false,
-      },
-      () => {
-        // Scroll to top on desktop.
-        window.scrollTo({
-          top: 0,
-          behavior: 'smooth',
-        });
-      }
-    );
   };
 
   private toggleMenu = () => {
@@ -324,7 +301,6 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
             </div>
             <div className="hero-space" />
             <Content
-              containerRef={this.contentRef}
               isRecording={this.state.isRecording}
               onRecord={this.onRecord}
               onRecordStop={this.onRecordStop}
