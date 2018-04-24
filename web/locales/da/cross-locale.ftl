@@ -12,3 +12,5 @@ get-involved-submit = Indsend
 get-involved-stayintouch = Hos Mozilla bygger vi et fællesskab omkring stemmeteknologi. Vi vil gerne holde kontakten med opdateringer, nye datakilder og høre mere om, hvordan du bruger disse informationer.
 get-involved-privacy-info = Vi lover at behandle dine informationer på betryggende vis. Læs mere i vores <privacyLink>Privatlivspolitik</privacyLink>.
 get-involved-success-title = Tillykke, du er nu tilmeldt og kan bidrage til { $language }. Tusind tak.
+get-involved-success-text = Vi kontakter dig med yderligere oplysninger, når der er nyt at berette.
+get-involved-return-to-languages = Vend tilbage til sprog
