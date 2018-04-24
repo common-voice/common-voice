@@ -63,15 +63,60 @@ back-top = Tilbage til toppen
 
 ## Home Page
 
+show-wall-of-text = Læs mere
+help-us-title = Hjælp os med at kontrollere sætninger!
+vote-yes = Ja
+vote-no = Nej
 
 ## ProjectStatus
 
+status-contribute = Bidrag med din stemme
+status-hours =
+    { $hours ->
+        [one] En valideret time indtil videre!
+       *[other] { $hours } validerede timer indtil videre!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Næste mål: { $goal }
+status-more-soon = Flere sprog kommer snart!
+english = Engelsk
 
 ## ProfileForm
 
+profile-form-delete = Slet profil
+profile-form-username =
+    .label = Brugernavn
+profile-form-language =
+    .label = Sprog
+profile-form-more-languages = Flere sprog kommer snart!
+profile-form-accent =
+    .label = Accent
+profile-form-age =
+    .label = Alder
+profile-form-gender =
+    .label = Køn
+profile-form-submit-save = Gem
+profile-form-submit-saved = Gemt
+profile-keep-data = Behold data
+profile-delete-data = Slet data
+male = Mand
+female = Kvinde
+# Gender
+other = Andet
+edit-profile = Rediger profil
+profile-create = Opret en profil
+profile-create-success = Profil oprettet!
+profile-close = Luk
 
 ## FAQ
 
+faq-title = Ofte stillede spørgsmål
+faq-what-q = Hvad er Common Voice?
+faq-what-a = Stemmegenkendelses-teknologi kan revolutionere den måde, vi kommunikerer med maskiner på. Men de nuværende systemer er dyre og proprietære. Common Voice er et projekt, der vil gøre stemmegenkendelses-teknologi nemt og tilgængeligt for alle. Folk bidrager med deres stemme til en stor database, der hurtigt og nemt vil lade enhver træne stemmeaktiverede applikationer. Al stemmedata vil være tilgængelig for udviklere.
+faq-important-q = Hvorfor er det vigtigt?
+faq-get-a = Datasættet er tilgængeligt nu på vores <downloadLink>download-side</downloadLink> under en <licenseLink>CC-0</licenseLink> licens.
+faq-mission-q = Hvorfor er Common Voice en del af Mozillas mission?
 
 ## Profile
 
