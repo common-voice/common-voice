@@ -91,10 +91,13 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
     }
 
     if (this.props.location !== nextProps.location) {
-      this.setState(
-        { isMenuVisible: false, isRecording: false },
-        () => (this.scroller.scrollTop = 0)
-      );
+      this.setState({ isMenuVisible: false, isRecording: false }, () => {
+        this.scroller.scrollTop = 0;
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth',
+        });
+      });
     }
   }
 
