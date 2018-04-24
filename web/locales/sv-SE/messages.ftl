@@ -139,9 +139,11 @@ faq-native-a = Ja, vi vill definitivt ha din röst! En del av målet med Common 
 faq-firefox-q = Kommer tal-till-text, via Common Voice, någonsin att bli en del av Firefox?
 faq-firefox-a = Common Voice har obegränsad potential och vi undersöker talgränssnitt i många Mozilla-produkter, inklusive Firefox.
 faq-quality-q = Vilken kvalitetsnivå krävs för ljudet för att det ska kunna användas?
+faq-quality-a = Vi vill att ljudkvaliteten ska reflektera kvaliteten en röst-till-text motor möter i vardagen. Därför vill vi ha variation. Det lär röst-till-tal motorn att hantera olika situationer—röster i bakgrunden, billjud, fläktar--utan problem.
 faq-hours-q = Varför är 10 000 timmar målet för inspelningen av ljud?
 faq-hours-a = Det är ungefär det antal timmar som krävs för att träna ett röst-till-tal system.
 faq-source-q = Var kommer källtexten ifrån?
+faq-source-a1 = De nuvarande meningarna kommer från bidragsgivare samt från dialoger från filmer som är "public domain" som till exempel filmen <italic>It’s a Wonderful Life.</italic>
 faq-source-a2 = Du kan se våra källmeningar i <dataLink>denna GitHub mapp</dataLink>
 
 ## Profile
