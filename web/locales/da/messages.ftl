@@ -1,5 +1,6 @@
 ## General
 
+yes-receive-emails = Ja tak, send mig gerne mails, så jeg er opdateret om projektet Common Voice.
 stayintouch = Hos Mozilla bygger vi et fællesskab omkring stemmeteknologi. Vi vil gerne holde kontakten med opdateringer, nye datakilder og høre mere om, hvordan du bruger disse informationer.
 privacy-info = Vi lover at behandle dine oplysninger på betryggende vis. Læs mere i vores <privacyLink>Privatlivspolitik</privacyLink>.
 return-to-cv = Vend tilbage til Common Voice
@@ -48,6 +49,7 @@ en = Engelsk
 
 ## Layout
 
+speak = Tal
 datasets = Datasæt
 languages = Sprog
 profile = Profil
@@ -59,10 +61,13 @@ cookies = Cookies
 faq = Ofte stillede spørgsmål
 content-license-text = Indhold tilgængeligt under <licenseLink>Creative Commons-licens</licenseLink>
 share-title = Hjælp os med at finde andre, der kan bidrage med deres stemme!
+share-text = Hjælp med at lære maskiner, hvordan mennesker taler - bidrag med din stemme på { $link }
 back-top = Tilbage til toppen
 
 ## Home Page
 
+home-title = Projektet Common Voice er et Mozilla-initiativ, der skal hjælpe maskiner med at forstå, hvordan mennesker taler.
+home-cta = Åbn munden og vær med her!
 show-wall-of-text = Læs mere
 help-us-title = Hjælp os med at kontrollere sætninger!
 vote-yes = Ja
