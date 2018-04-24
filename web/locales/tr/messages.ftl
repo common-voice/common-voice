@@ -98,6 +98,9 @@ notfound-content = Maalesef aradığınız şeyi bulamadık.
 ## Privacy
 
 privacy-title = Common Voice Gizlilik Bildirimi
+privacy-data-demographic = <name>Demografik veriler.</name> İsteğe bağlı olarak aksanınız, yaşınız ve cinsiyetiniz gibi bilgileri bize gönderebilirsiniz. Bu, bizim ve diğer araştırmacıların konuşmayı metne dönüştürme teknolojisini ve araçlarını geliştirmemize yardımcı olur.
+privacy-data-account = <name>Hesap verileri.</name> İsteğe bağlı olarak bir hesap oluşturabilirsiniz. Bu durumda e-posta adresinizi kaydederiz. Bu bilgi, demografi ve etkileşim verilerinizle ilişkilendirilir ama başkalarıyla paylaşılmaz.
+privacy-data-recordings = <name>Ses Kayıtları.</name> Ses kayıtları, ilişkili tüm demografik verilerle birlikte, herkesin tüketimi ve kullanımı için Common Voice veritabanında paylaşılabilir.
 privacy-more = <more>Daha fazla bilgi</more>
 
 ## Terms
@@ -113,6 +116,7 @@ terms-general-title = Genel
 data-download-button = Common Voice verilerini indir
 data-download-license = Lisans: <licenseLink>CC-0</licenseLink>
 data-download-modal = <size>{ $size } GB</size> indirmeye başlamak üzeresiniz. Devam edilsin mi?
+data-subtitle = Herkesin konuşma özellikli uygulamaları eğitmek için kullanabileceği, açık ve herkesin erişebileceği bir veri kümesi oluşturuyoruz.
 data-other-title = Diğer ses verisi kümeleri…
 data-other-goto = { $name } sitesine git
 data-other-download = Verileri indir
