@@ -68,13 +68,20 @@ back-top = Tilbage til toppen
 
 home-title = Projektet Common Voice er et Mozilla-initiativ, der skal hjælpe maskiner med at forstå, hvordan mennesker taler.
 home-cta = Åbn munden og vær med her!
+wall-of-text-start = Stemmen er naturlig, stemmen er menneskelig. Det er derfor, vi er fascineret af at skabe en brugbar stemmeteknologi til vores maskiner. Men for at skabe systemer til stemmegenkendelse kræves en ekstrem stor mængde stemmedata.
+wall-of-text-more-mobile = Hovedparten af de data, som bruges af store virksomheder, er ikke tilgængelige for flertallet af mennesker. Vi mener, at det bremser ny innovation. Derfor har vi startet projektet Common Voice, der skal hjælpe med at gøre stemmegenkendelse tilgængeligt for alle.
+wall-of-text-more-desktop = Nu kan du bidrage med din stemme og hjælpe med at opbygge en open source stemmedatabase, som alle kan bruge til at skabe innovative applikationer for både enheder og internettet.<lineBreak></lineBreak> Læs en sætning og hjælp maskiner til at forstå, hvordan mennesker taler. Kontroller andres bidrag og vær med til at forbedre kvaliteten. Så simpelt er det!
 show-wall-of-text = Læs mere
 help-us-title = Hjælp os med at kontrollere sætninger!
+help-us-explain = Tryk på afspil, lyt og fortæl os, om den indtalte sætning var korrekt.
 vote-yes = Ja
 vote-no = Nej
+request-language-text = Kan du ikke finde dit sprog på Common Voice?
+request-language-button = Anmod om at få tilføjet et nyt sprog
 
 ## ProjectStatus
 
+status-title = Overordnet status for projektet. Se, hvor langt vi er kommet!
 status-contribute = Bidrag med din stemme
 status-hours =
     { $hours ->
@@ -111,6 +118,7 @@ female = Kvinde
 # Gender
 other = Andet
 why-profile-title = Hvorfor oprette en profil?
+why-profile-text = Ved at give nogle oplysninger om dig selv, vil de lyddata, du indsender til Common Voice være mere brugbare til talegenkendelses-systemerne, der skal bruge disse data til at forbedre deres nøjagtighed.
 edit-profile = Rediger profil
 profile-create = Opret en profil
 profile-create-success = Profil oprettet!
@@ -122,8 +130,11 @@ faq-title = Ofte stillede spørgsmål
 faq-what-q = Hvad er Common Voice?
 faq-what-a = Stemmegenkendelses-teknologi kan revolutionere den måde, vi kommunikerer med maskiner på. Men de nuværende systemer er dyre og proprietære. Common Voice er et projekt, der vil gøre stemmegenkendelses-teknologi nemt og tilgængeligt for alle. Folk bidrager med deres stemme til en stor database, der hurtigt og nemt vil lade enhver træne stemmeaktiverede applikationer. Al stemmedata vil være tilgængelig for udviklere.
 faq-important-q = Hvorfor er det vigtigt?
+faq-important-a = Stemmen er naturlig, stemmen er menneskelig. Med stemmen kommunikerer vi nemmest og mest naturligt. Vi ønsker, at udviklere kan skabe fantastiske ting fra realtids-oversættere til stemmeaktiverede administrative assistenter. Men lige nu er der ikke nok offentligt tilgængelige data til at skabe denne type applikationer. Vi håber, at Common Voice vil give udviklere det, de har brug for til at kunne finde på nye ting.
+faq-get-q = Hvordan får jeg adgang til data fra Common Voice?
 faq-get-a = Datasættet er tilgængeligt nu på vores <downloadLink>download-side</downloadLink> under en <licenseLink>CC-0</licenseLink> licens.
 faq-mission-q = Hvorfor er Common Voice en del af Mozillas mission?
+faq-mission-a = Mozilla er dedikeret til at holde internettet åbent og tilgængeligt for alle. For at gøre det er vi nødt til at bemyndige kreative personer ved hjælp af projekter som Common Voice. Eftersom stemmeteknologier ikke længere kun bruges i niche-applikationer, mener vi, at de skal tjene alle brugere lige godt. Vi ser et behov for at medtage flere sprog, accenter og demografier, når stemmeteknologier skabes og testes. Mozilla ønsker et sundt og levende internet. Det betyder, at nye skabere skal have adgang til stemmedata, så de kan bygge nye, ekstraordinære projekter. Common Voice bliver en offentlig ressource, der vil komme til at hjælpe både Mozilla og udviklere over hele verden.
 faq-native-q = { $lang } er ikke mit modersmål, og jeg taler med accent - vil I stadig gerne have, at jeg bidrager med min stemme?
 faq-native-a = Ja, vi vil meget gerne have din hjælp! En del af målet med Common Voice er at indsamle så mange forskellige accenter som muligt, så computere bedre kan forstå <bold>alle</bold> når de taler.
 faq-firefox-q = Vil tale-til-tekst via Common Voice nogensinde blive en del af Firefox?
@@ -131,6 +142,7 @@ faq-firefox-a = Common Voice har et ubegrænset potentiale, og vi undersøger ta
 faq-quality-q = Hvilket kvalitetsniveau for lyden er krævet for at den kan bruges?
 faq-quality-a = Vi vil gerne have, at lydkvaliteten afspejler og kan konkurrere med andre tale-til-tekst applikationer på markedet. Derfor har vi brug for variation. Dette lærer tale-til-tekst applikationen at håndtere forskellige situationer — baggrundsstøj, bilstøj, blæserstøj — uden fejl.
 faq-hours-q = Hvorfor er målet at have 10.000 timers lydoptagelser?
+faq-hours-a = Det er omtrent det antal timer, som det kræver at træne et velfungerende tale-til-tekst system.
 faq-source-q = Hvor kommer kildeteksten fra?
 faq-source-a1 = De nuværende sætninger er donationer fra bidragydere samt dialog fra filmmanuskripter i offentligt domæne, fx <italic>It’s a Wonderful Life.</italic>
 faq-source-a2 = Du kan se vores kildetekster i <dataLink>denne folder på GitHub</dataLink>.
@@ -138,6 +150,7 @@ faq-source-a2 = Du kan se vores kildetekster i <dataLink>denne folder på GitHub
 ## Profile
 
 profile-why-title = Hvorfor oprette en profil?
+profile-why-content = Ved at give nogle oplysninger om dig selv, vil de lyddata, du indsender til Common Voice være mere brugbare til talegenkendelses-systemerne, der skal bruge disse data til at forbedre deres nøjagtighed.
 
 ## NotFound
 
@@ -150,6 +163,7 @@ privacy-title = Privatlivspolitik for Common Voice
 privacy-effective = Gyldig fra { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
 privacy-policy = Når Mozilla, (det er os), modtager oplysninger fra dig, så beskriver <policy>Mozillas privatlivspolitik</policy>, hvordan vi håndterer disse oplysninger.
 privacy-data-demographic = <name>Demografiske oplysninger.</name> Du kan valgfrit sende os oplysninger såsom din accent, alder og dit køn. Det hjælper os og andre forskere med at forbedre og skabe teknologi og værktøjer baseret på tale-til-tekst. 
+privacy-data-account = <name>Brugeroplysninger.</name> Du kan valgfrit oprette en brugerkonto. I så fald vil vi modtage din mailadresse, som er forbundet med dine demografiske oplysninger og anvendelsesdata, men bliver ikke delt med offentligheden.
 privacy-data-recordings = <name>Stemmeoptagelser.</name> Stemmeoptagelser og tilknyttede demografiske oplysninger kan blive lagt ind i Common Voice-databasen til offentlig brug.
 privacy-data-interaction = <name>Handlingsoplysninger.</name> Vi bruger Google Analytics til bedre at forstå, hvordan du bruger vores Common Voice-app eller vores websted. Dette inkluderer fx stemmeoptagelser, du har lavet eller lyttet til, handlinger, der involverer knapper og menupunkter samt sessionslængde.
 privacy-data-technical = <name>Tekniske oplysninger.</name> Brugen af Google Analytics indebærer at vi indsamler URL og titel på de Common Voice-websider, du besøger. Vi indsamler oplysninger om din browser, browseropløsning og skærmopløsning. Vi indsamler også din placering og sproget angivet i din browser.
@@ -159,9 +173,14 @@ privacy-more = <more>Lær mere</more>
 
 terms-title = Juridiske vilkår for Common Voice
 terms-effective = Gyldig fra { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
+terms-eligibility-title = Forudsætninger
+terms-eligibility-content = Du skal være over 13 år gammel eller have dine forældres eller din værges samtykke til at deltage i vores projekt. I det sidste tilfælde skal du også have dine forældre eller din værge til at holde øje med din deltagelse i projektet.
 terms-privacy-title = Privatliv
 terms-privacy-content = Vores <privacyLink>privatlivspolitik</privacyLink> beskriver, hvordan vi modtager og behandler dine oplysninger.
+terms-contributions-title = Dine bidrag og afståelse af rettigheder
+terms-contributions-content = Ved at indsende dine optagelser giver du afkald på din ophavsret og alle relaterede rettigheder, som du måtte have i forbindelse med dem, og du accepterer at afgive optagelserne til offentligheden under <licenseLink>CC-0</licenseLink>. Dette betyder, at du accepterer at give afkald på alle rettigheder til dine optagelser på verdensplan for så vidt angår ophavsret og database-rettigheder, inklusive moralske og publicistiske rettigheder, samt alle relaterede og naborettigheder.
 terms-communications-title = Kommunikation
+terms-communications-content = Hvis du abonnerer på og modtager vores nyhedsbreve eller opretter en brugerkonto i forbindelse med Common Voice, så vil du modtage mails fra os i forbindelse med din brugerkonto (fx juridiske, privatlivs-relaterede eller sikkerhedsmæssige opdateringer).
 terms-general-title = Generelt
 
 ## Data
@@ -170,7 +189,9 @@ data-download-button = Hent data fra Common Voice
 data-download-yes = Ja
 data-download-deny = Nej
 data-download-license = Licens: <licenseLink>CC-0</licenseLink>
+data-download-modal = Du er ved at gå i gang med at hente <size>{ $size }GB</size>. Vil du fortsætte?
 data-subtitle = Vi bygger et åbent og offentligt tilgængeligt datasæt bestående af stemmer, som alle kan bruge til at træne stemmeaktiverede programmer.
+data-explanatory-text = Vi tror på, at store og offentligt tilgængelige stemme-datasæt vil fremme innovation og en sund kommerciel konkurrence indenfor stemmeteknologi baseret på maskinlæring. Dette er en global indsats, og vi inviterer alle til at deltage. Vores mål er at gøre stemmeteknologi mere inkluderende, så teknologierne afspejler en diversitet af stemmer fra hele verden.
 data-get-started = <speechBlogLink>Kom i gang med talegenkendelse</speechBlogLink>
 data-other-title = Andre stemme-datasæt
 data-other-goto = Gå til { $name }
@@ -178,6 +199,7 @@ data-other-download = Hent data
 data-other-librispeech-description = LibriSpeech er et korpus af cirka 1000 timers engelsk tale (optaget ved 16Khz), der stammer fra lydbøger fra LibriVox-projektet.
 data-other-ted-name = TED-LIUM korpus
 data-other-ted-description = TED-LIUM korpus er lavet på baggrund af taler og deres transskriptioner fra TED's websted.
+data-other-voxforge-description = VoxForge blev startet for at indsamle transskriberet tale til brug for frie og open source talegenkendelses-systemer.
 data-other-tatoeba-description = Tatoeba er en stor database af sætninger, oversættelser og indtalt lyd til brug for sprogindlæring. Denne filhentning indeholder indtalt engelsk optaget af fællesskabet bag Tatoeba.
 data-bundle-button = Hent datasæt-samling
 data-bundle-description = Data fra Common Voice  samt alle andre stemme-datasæt ovenfor.
@@ -192,7 +214,11 @@ record-platform-not-supported-ios = <bold>iOS</bold>-brugere kan hente vores gra
 record-must-allow-microphone = Du skal tillade mikrofon-adgang.
 record-cancel = Afbryd genindspilningen
 record-retry = Prøv igen
+record-error-too-short = Optagelsen var for kort.
+record-error-too-long = Optagelsen var for lang.
+record-error-too-quiet = Optagelsen var for stille.
 record-submit-success = Indsendt! Vil du lave en ny optagelse?
+record-help = Klik for at starte optagelsen, og læs så sætningen ovenfor højt.
 record-cancel = Afbryd genindspilningen
 review-terms = Ved brug af Common Voice accepterer du vores <termsLink>Vilkår</termsLink> og <privacyLink>Privatlivspolitik</privacyLink>
 terms-agree = Jeg accepterer
@@ -209,6 +235,7 @@ review-delete-recordings = Slet mine optagelser
 ## Download Modal
 
 download-title = Din filhentning er startet.
+download-helpus = Hold kontakten via mail og hjælp os med at skabe et fællesskab omkring stemmeteknologi. 
 download-form-email =
     .label = Indtast din mail
     .value = Tak, vi vender tilbage
@@ -227,9 +254,11 @@ contact-required = *påkrævet
 
 ## Request Language Modal
 
+request-language-title = Anmodning om et nyt sprog
 request-language-cancel = Luk formular
 request-language-form-language =
     .label = Sprog
+request-language-success-title = Din anmodning om et nyt sprog er modtaget. Tak!
 request-language-success-content = Vi kontakter dig snart med oplysninger om, hvordan du tilføjer dit sprog til Common Voice.
 
 ## Languages Overview
