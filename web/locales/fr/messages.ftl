@@ -8,6 +8,7 @@ email-input =
     .label = Adresse électronique
 submit-form-action = Envoyer
 loading = Chargement…
+audio-loading-error = Désolé, nous préparons nos fichiers audio. Veuillez réessayer dans quelques instants.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 
@@ -33,6 +34,7 @@ el = Grec
 cv = Tchouvache
 sv-SE = Suédois
 mk = Macédonien
+nn-NO = Norvégien nynorsk
 fr = Français
 tr = Turc
 tt = Tatar
@@ -59,12 +61,13 @@ cookies = Cookies
 faq = Questions fréquentes
 content-license-text = Contenu disponible sous licence <licenseLink>Creative Commons</licenseLink>
 share-title = Aidez-nous à collecter davantage de voix !
+share-text = Aidez les machines à apprendre à parler comme de vraies personnes en donnant votre voix sur { $link }
 back-top = Haut de la page
 
 ## Home Page
 
 home-title = Le projet Common Voice est une initiative de Mozilla pour aider à apprendre à parler aux machines comme tout un chacun.
-home-cta = Donnez de la voix, contribuez ici !
+home-cta = Faites don de votre voix, contribuez ici !
 wall-of-text-start = La voix est naturelle, la voix est humaine. C’est pour cela que nous aimerions construire des technologies vocales de qualité pour nos machines. Mais construire de tels systèmes requiert un gigantesque volume de données vocales.
 wall-of-text-more-mobile = La plupart des données utilisées par les grandes sociétés ne sont pas mises à la disposition de monsieur ou madame Tout-le-monde. Nous pensons que cela freine l’innovation. C’est pour cela que le projet Common Voice existe, c’est un projet qui facilite l’accès à la reconnaissance vocale, pour tout le monde.
 wall-of-text-more-desktop =
@@ -117,8 +120,10 @@ female = Féminin
 # Gender
 other = Autre
 why-profile-title = Pourquoi créer un profil ?
+why-profile-text = Les informations que vous fournissez à votre sujet rendent plus utiles les données audio que vous envoyez à Common Voice. Les moteurs de reconnaissance vocale utilisent ces données pour améliorer leur précision.
 edit-profile = Modifier le profil
 profile-create = Créer un profil
+profile-create-success = Bravo, votre profil est créé !
 profile-close = Fermer
 
 ## FAQ
@@ -208,6 +213,7 @@ data-other-tatoeba-description = Tatoeba est une immense base de données de phr
 data-bundle-button = Télécharger un lot de jeux de données
 data-bundle-description = Données Common Voice ainsi que tous les autres jeux de données ci-dessus.
 license = Licence : <licenseLink>{ $license }</licenseLink>
+license-mixed = Mixte
 
 ## Record Page
 
@@ -262,7 +268,13 @@ request-language-cancel = Quitter le formulaire
 request-language-form-language =
     .label = Langue
 request-language-success-title = La langue a été proposée, merci.
+request-language-success-content = Nous vous contacterons très bientôt avec de plus amples informations sur la façon d’ajouter votre langue à Common Voice.
 
 ## Languages Overview
 
+language-section-in-progress = En cours
+language-section-launched = Lancées
+languages-show-more = Afficher davantage de langues
+languages-show-less = Afficher moins de langues
+language-speakers = Locuteurs
 language-total-progress = Total
