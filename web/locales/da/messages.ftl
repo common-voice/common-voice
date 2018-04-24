@@ -84,6 +84,7 @@ english = Engelsk
 
 ## ProfileForm
 
+profile-form-cancel = Luk formular
 profile-form-delete = Slet profil
 profile-form-username =
     .label = Brugernavn
@@ -186,6 +187,7 @@ record-platform-not-supported-ios = <bold>iOS</bold>-brugere kan hente vores gra
 record-must-allow-microphone = Du skal tillade mikrofon-adgang.
 record-cancel = Afbryd genindspilningen
 record-retry = Prøv igen
+record-submit-success = Indsendt! Vil du lave en ny optagelse?
 record-cancel = Afbryd genindspilningen
 review-terms = Ved brug af Common Voice accepterer du vores <termsLink>Vilkår</termsLink> og <privacyLink>Privatlivspolitik</privacyLink>
 terms-agree = Jeg accepterer
@@ -220,6 +222,16 @@ contact-required = *påkrævet
 
 ## Request Language Modal
 
+request-language-cancel = Luk formular
+request-language-form-language =
+    .label = Sprog
+request-language-success-content = Vi kontakter dig snart med oplysninger om, hvordan du tilføjer dit sprog til Common Voice.
 
 ## Languages Overview
 
+language-section-in-progress = I gang
+language-section-launched = Startet
+languages-show-more = Se mere
+languages-show-less = Se mindre
+language-speakers = Talere
+language-total-progress = I alt
