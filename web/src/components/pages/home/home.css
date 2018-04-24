@@ -3,7 +3,7 @@
 @media (--desktop) {
     #home-title {
         margin-top: 3.8rem;
-        width: var(--old-desktop-width);
+        max-width: var(--old-desktop-width);
     }
 
     #wall-of-text {

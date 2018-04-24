@@ -82,23 +82,27 @@ button {
     cursor: pointer;
 }
 
-marquee {
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 5;
+.staging-banner {
+    position: sticky;
+    top: var(--header-height);
+    padding: .5rem;
+    color: var(--white);
+    background: var(--red);
+    text-align: center;
+    z-index: var(--top-z-index);
 
-    & span {
-        display: inline-block;
-        border-radius: 20px;
-        margin: 1rem;
-        padding: 1rem;
-        color: var(--white);
-        background: var(--red);
+    @media (--md-up) {
+        top: 0;
     }
 
     & a {
-        color: var(--grey);
+        color: var(--white);
+        text-decoration: underline;
+    }
+
+    & button {
+        border: none;
+        background: var(--grey);
     }
 }
 
@@ -153,7 +157,6 @@ marquee {
     box-sizing: border-box;
     background-color: var(--white);
     animation: fadein var(--transition-duration-slow) linear;
-    overflow-x: hidden;
 }
 
 #scroller {

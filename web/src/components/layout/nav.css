@@ -15,6 +15,7 @@ header {
         box-shadow var(--transition-duration) linear;
     padding: var(--page-margin);
     background: var(--white);
+    overflow-x: hidden;
 
     @media (--md-up) {
         position: relative;
