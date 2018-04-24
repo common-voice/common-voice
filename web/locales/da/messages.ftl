@@ -143,12 +143,28 @@ notfound-content = Jeg er bange for, at jeg ikke ved, hvad du leder efter.
 privacy-title = Privatlivspolitik for Common Voice 
 privacy-effective = Gyldig fra { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
 privacy-policy = Når Mozilla, (det er os), modtager oplysninger fra dig, så beskriver <policy>Mozillas privatlivspolitik</policy>, hvordan vi håndterer disse oplysninger.
+privacy-data-demographic = <name>Demografiske oplysninger.</name> Du kan valgfrit sende os oplysninger såsom din accent, alder og dit køn. Det hjælper os og andre forskere med at forbedre og skabe teknologi og værktøjer baseret på tale-til-tekst. 
+privacy-data-recordings = <name>Stemmeoptagelser.</name> Stemmeoptagelser og tilknyttede demografiske oplysninger kan blive lagt ind i Common Voice-databasen til offentlig brug.
+privacy-data-interaction = <name>Handlingsoplysninger.</name> Vi bruger Google Analytics til bedre at forstå, hvordan du bruger vores Common Voice-app eller vores websted. Dette inkluderer fx stemmeoptagelser, du har lavet eller lyttet til, handlinger, der involverer knapper og menupunkter samt sessionslængde.
+privacy-data-technical = <name>Tekniske oplysninger.</name> Brugen af Google Analytics indebærer at vi indsamler URL og titel på de Common Voice-websider, du besøger. Vi indsamler oplysninger om din browser, browseropløsning og skærmopløsning. Vi indsamler også din placering og sproget angivet i din browser.
+privacy-more = <more>Lær mere</more>
 
 ## Terms
 
+terms-title = Juridiske vilkår for Common Voice
+terms-effective = Gyldig fra { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
+terms-privacy-title = Privatliv
+terms-privacy-content = Vores <privacyLink>privatlivspolitik</privacyLink> beskriver, hvordan vi modtager og behandler dine oplysninger.
+terms-communications-title = Kommunikation
+terms-general-title = Generelt
 
 ## Data
 
+data-download-button = Hent data fra Common Voice 
+data-download-yes = Ja
+data-download-deny = Nej
+data-download-license = Licens: <licenseLink>CC-0</licenseLink>
+data-subtitle = Vi bygger et åbent og offentligt tilgængeligt datasæt bestående af stemmer, som alle kan bruge til at træne stemmeaktiverede programmer.
 
 ## Record Page
 
