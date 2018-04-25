@@ -1,3 +1,4 @@
+import { Locale } from '../stores/locale';
 import { User } from '../stores/user';
 
 export interface Clip {
@@ -21,9 +22,11 @@ const CLIP_PATH = API_PATH + '/clips';
 const SENTENCES_PATH = API_PATH + '/sentences';
 
 export default class API {
-  private user: User.State;
+  private readonly locale: Locale.State;
+  private readonly user: User.State;
 
-  constructor(user: User.State) {
+  constructor(locale: Locale.State, user: User.State) {
+    this.locale = locale;
     this.user = user;
   }
 
@@ -172,6 +175,12 @@ export default class API {
         }`,
         variables: null,
       },
+    });
+  }
+
+  fetchDocument(name: 'privacy' | 'terms'): Promise<string> {
+    return this.fetch(`/${name}/${this.locale}.html`, {
+      isJSON: false,
     });
   }
 }

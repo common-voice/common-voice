@@ -6,6 +6,7 @@
   "repository": "mozilla/voice-web",
   "main": "server/server.js",
   "dependencies": {
+    "@types/commonmark": "^0.27.0",
     "@types/copy-webpack-plugin": "^4.0.1",
     "@types/express": "^4.11.1",
     "@types/express-session": "^1.15.8",
@@ -36,6 +37,7 @@
     "bcrypt": "^1.0.2",
     "bluebird": "^3.5.0",
     "body-parser": "^1.18.2",
+    "commonmark": "^0.28.1",
     "concurrently": "^3.5.0",
     "cookie-parser": "^1.4.3",
     "css-loader": "^0.28.7",

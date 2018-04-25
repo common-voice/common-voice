@@ -197,12 +197,19 @@ body:not(.focus) #scroller {
     max-width: var(--old-desktop-width);
 }
 
-.faq #background-container,
-.terms #background-container,
-.privacy #background-container,
-.profile #background-container,
-.languages #background-container {
-    opacity: 0;
+.privacy #content, .terms #content {
+    & h1 {
+        margin: 1rem 0;
+        text-decoration: underline;
+    }
+
+    & h2 {
+        margin: 1.5rem 0 .5rem;
+    }
+
+    & a {
+        color: var(--link-color);
+    }
 }
 
 #background-container {
@@ -219,20 +226,21 @@ body:not(.focus) #scroller {
         opacity var(--transition-duration-slow) var(--easing),
         transform var(--transition-duration) var(--easing);
     pointer-events: none;
-}
-
-#background-container:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 20rem;
     opacity: 0;
-    transition: opacity var(--transition-duration) linear;
-    background: repeat-x center;
-    background-size: 100% 100%;
+
+    &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 20rem;
+        opacity: 0;
+        transition: opacity var(--transition-duration) linear;
+        background: repeat-x center;
+        background-size: 100% 100%;
+    }
 }
 
 .hiding #background-container {
@@ -400,7 +408,7 @@ body:not(.ios) .recording #background-container {
     }
 }
 
-#profile-container, #record-container, #terms-container, #privacy-container, #faq-container {
+#profile-container, #record-container, #faq-container {
     animation: slide-fade-in var(--transition-duration) var(--easing);
 }
 
@@ -443,6 +451,7 @@ body:not(.ios) .recording #background-container {
 }
 
 .hero {
+    display: none;
     text-align: center;
     position: relative;
     height: var(--hero-height-mobile);
@@ -453,6 +462,7 @@ body:not(.ios) .recording #background-container {
 }
 
 .hero-space {
+    display: none;
     height: 3rem;
     background: none;
 
@@ -461,22 +471,16 @@ body:not(.ios) .recording #background-container {
     }
 }
 
+.home, .record, .data {
+    & #background-container {
+        opacity: 1;
+    }
 
-.faq .hero,
-.terms .hero,
-.privacy .hero,
-.profile .hero,
-.languages .hero {
-    display: none;
+    & .hero, & .hero-space {
+        display: block;
+    }
 }
 
-.faq .hero-space,
-.terms .hero-space,
-.privacy .hero-space,
-.profile .hero-space,
-.languages .hero-space {
-    display: none;
-}
 
 .robot {
     position: relative;
@@ -540,8 +544,6 @@ body:not(.ios) .recording #background-container {
 }
 
 #content > #faq-container,
-#content > #terms-container,
-#content > #privacy-container,
 #content > #profile-container {
     margin-top: var(--standard-margin);
     text-align: left;
@@ -564,39 +566,6 @@ body:not(.ios) .recording #background-container {
     }
 }
 
-.privacy-content {
-    background-color: var(--white);
-    max-width: var(--desktop-width);
-    padding: var(--page-margin);
-}
-
-@media (--desktop) {
-    .privacy-content {
-        border-radius: 4px;
-    }
-}
-
-#terms-container .terms-content,
-#privacy-container .privacy-content {
-    width: unset;
-    padding: 0;
-}
-
-.privacy-content > * {
-    margin: 1rem 0;
-}
-
-.terms-content > h1:first-child,
-.privacy-content > h1:first-child {
-    margin: 1rem 0;
-    text-decoration: underline;
-}
-
-.privacy-content a {
-    display: inline-block;
-    color: var(--link-color);
-}
-
 .button-holder {
     text-align: center;
 }
@@ -607,18 +576,15 @@ body:not(.ios) .recording #background-container {
     }
 }
 
-#faq-container h3,
-#terms-container h3 {
+#faq-container h3 {
     margin: 1.5rem 0 0.5rem;
 }
 
-#faq-container p,
-#terms-container p {
+#faq-container p {
     margin-bottom: 1rem;
 }
 
-#faq-container a,
-#terms-container a {
+#faq-container a {
     color: var(--link-color);
 }
 

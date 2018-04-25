@@ -7,10 +7,9 @@ import FAQPage from '../pages/faq';
 import HomePage from '../pages/home/home';
 import LanguagesPages from '../pages/languages/languages';
 import NotFoundPage from '../pages/not-found';
-import PrivacyPage from '../pages/privacy';
+import DocumentPage from '../pages/document-page';
 import ProfilePage from '../pages/profile';
 import RecordPage from '../pages/record/record';
-import TermsPage from '../pages/terms';
 import { CONTRIBUTABLE_LOCALES } from '../../services/localization';
 
 interface Props {
@@ -68,9 +67,13 @@ export default localeConnector(
         <Route
           exact
           path={toLocaleRoute(URLS.PRIVACY)}
-          component={PrivacyPage}
+          render={() => <DocumentPage name="privacy" />}
         />
-        <Route exact path={toLocaleRoute(URLS.TERMS)} component={TermsPage} />
+        <Route
+          exact
+          path={toLocaleRoute(URLS.TERMS)}
+          render={() => <DocumentPage name="terms" />}
+        />
         <Route component={NotFoundPage} />
       </Switch>
     </div>

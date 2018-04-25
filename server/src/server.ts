@@ -1,7 +1,9 @@
 import * as fs from 'fs';
 import * as http from 'http';
 import * as path from 'path';
+import * as commonmark from 'commonmark';
 import * as express from 'express';
+import fetch from 'node-fetch';
 import { NextFunction, Request, Response } from 'express';
 import Model from './lib/model';
 import API from './lib/api';
@@ -17,7 +19,7 @@ import { getConfig } from './config-helper';
 import authRouter from './auth-router';
 import { router as adminRouter } from './admin';
 
-const CLIENT_PATH = '../web';
+const FULL_CLIENT_PATH = path.join(__dirname, '../web');
 
 const CSP_HEADER = [
   `default-src 'none'`,
@@ -60,28 +62,19 @@ export default class Server {
         getConfig().PROD && response.set('Content-Security-Policy', CSP_HEADER);
       },
     };
-    const fullClientPath = path.join(__dirname, CLIENT_PATH);
 
-    app.use(express.static(fullClientPath, staticOptions));
+    app.use(express.static(FULL_CLIENT_PATH, staticOptions));
 
     if (options.bundleCrossLocaleMessages) {
-      const localesPath = path.join(fullClientPath, 'locales');
-      const crossLocaleMessages = fs
-        .readdirSync(localesPath)
-        .reduce((obj: any, locale: string) => {
-          const filePath = path.join(localesPath, locale, 'cross-locale.ftl');
-          if (fs.existsSync(filePath)) {
-            obj[locale] = fs.readFileSync(filePath, 'utf-8');
-          }
-          return obj;
-        }, {});
-
-      app.get('/cross-locale-messages.json', (request, response) => {
-        response.json(crossLocaleMessages);
-      });
+      this.setupCrossLocaleRoute();
     }
 
-    app.use('*', express.static(fullClientPath + '/index.html', staticOptions));
+    this.setupPrivacyAndTermsRoutes();
+
+    app.use(
+      '*',
+      express.static(FULL_CLIENT_PATH + '/index.html', staticOptions)
+    );
 
     app.use(
       (
@@ -98,6 +91,70 @@ export default class Server {
         response
           .status(error instanceof ClientError ? 400 : 500)
           .json({ message: isAPIError ? error.message : '' });
+      }
+    );
+  }
+
+  private setupCrossLocaleRoute() {
+    const localesPath = path.join(FULL_CLIENT_PATH, 'locales');
+    const crossLocaleMessages = fs
+      .readdirSync(localesPath)
+      .reduce((obj: any, locale: string) => {
+        const filePath = path.join(localesPath, locale, 'cross-locale.ftl');
+        if (fs.existsSync(filePath)) {
+          obj[locale] = fs.readFileSync(filePath, 'utf-8');
+        }
+        return obj;
+      }, {});
+
+    this.app.get('/cross-locale-messages.json', (request, response) => {
+      response.json(crossLocaleMessages);
+    });
+  }
+
+  // cache it for a day
+  documentCache: { [name: string]: { [locale: string]: string } } = {};
+  private async fetchDocument(name: string, locale: string) {
+    if (!this.documentCache[name]) this.documentCache[name] = {};
+
+    let textHTML = this.documentCache[name][locale];
+
+    if (!textHTML) {
+      const [status, text] = await fetch(
+        `https://raw.githubusercontent.com/mozilla/legal-docs/master/Common_Voice_${name}/${locale}.md`
+      ).then(async response => [response.status, await response.text()]);
+      if (status >= 400 && status < 500) {
+        textHTML = (await Promise.all(
+          ['en', 'es-CL', 'fr', 'pt-BR', 'zh-TW'].map(locale =>
+            this.fetchDocument(name, locale)
+          )
+        )).join('<br>');
+      } else if (status < 300) {
+        textHTML = new commonmark.HtmlRenderer().render(
+          new commonmark.Parser().parse(
+            // There's a parseable datetime string in the legal documents, which we don't need to show
+            (text as string).replace(/{:\sdatetime=".*" }/, '')
+          )
+        );
+      }
+    }
+
+    this.documentCache[name][locale] = textHTML;
+
+    return textHTML;
+  }
+
+  private setupPrivacyAndTermsRoutes() {
+    this.app.get(
+      '/privacy/:locale.html',
+      async ({ params: { locale } }, response) => {
+        response.send(await this.fetchDocument('Privacy_Notice', locale));
+      }
+    );
+    this.app.get(
+      '/terms/:locale.html',
+      async ({ params: { locale } }, response) => {
+        response.send(await this.fetchDocument('Terms', locale));
       }
     );
   }

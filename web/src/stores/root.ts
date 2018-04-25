@@ -50,7 +50,7 @@ const store = createStore(
       locale: Locale.reducer(locale, action as Locale.Action),
     };
 
-    return { api: new API(newState.user), ...newState };
+    return { api: new API(newState.locale, newState.user), ...newState };
   },
   preloadedState,
   composeEnhancers(applyMiddleware(thunk))
