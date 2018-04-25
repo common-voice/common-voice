@@ -1,5 +1,6 @@
 ## General
 
+return-to-cv = Common Voice-ზე დაბრუნება
 email-input =
     .label = ელფოსტა
 submit-form-action = გადაგზავნა
@@ -68,9 +69,36 @@ back-top = დასაწყისში დაბრუნება
 
 ## ProfileForm
 
+profile-form-delete = პროფილის წაშლა
+profile-form-username =
+    .label = მომხმარებლის სახელი
+profile-form-language =
+    .label = ენა
+profile-form-more-languages = სხვა ენები მალე დაემატება!
+profile-form-accent =
+    .label = აქცენტი
+profile-form-age =
+    .label = ასაკი
+profile-form-gender =
+    .label = სქესი
+profile-form-submit-save = შენახვა
+profile-form-submit-saved = შენახულია
+profile-keep-data = მონაცემების დატოვება
+profile-delete-data = მონაცემების წაშლა
+male = მამრობითი
+female = მდედრობითი
+# Gender
+other = სხვა
+why-profile-title = რა საჭიროა პროფილი?
+edit-profile = პროფილის ჩასწორება
+profile-create = პროფილის შექმნა
+profile-create-success = პროფილი წარმატებით შეიქმნა!
+profile-close = დახურვა
 
 ## FAQ
 
+faq-title = ხშირად დასმული კითხვები
+faq-what-q = რა არის Common Voice?
 
 ## Profile
 
@@ -83,13 +111,28 @@ back-top = დასაწყისში დაბრუნება
 
 ## Terms
 
+terms-privacy-title = პირადულობა
+terms-general-title = ზოგადი
 
 ## Data
 
+data-other-download = მონაცემების ჩამოტვირთვა
+data-bundle-button = მონაცემთა კრებულის ჩამოტვირთვა
+license = ლიცენზია: <licenseLink>{ $license }</licenseLink>
+license-mixed = შერეული
 
 ## Record Page
 
+record-platform-not-supported = სამწუხაროდ, თქვენი სისტემა ამჟამად არაა მხარდაჭერილი.
+record-platform-not-supported-desktop = სამაგიდო კომპიუტერებზე, შეგიძლიათ ჩამოტვირთოთ უახლესი:
+record-platform-not-supported-ios = <bold>iOS</bold> მომხმარებლებს შეუძლიათ ჩამოტვირთონ ჩვენი უფასო პროგრამა:
+record-must-allow-microphone = საჭიროა მიკროფონთან წვდომის დაშვება.
 record-cancel = ჩაწერის გაუქმება
+record-retry = ხელახლა
+record-error-too-short = ჩანაწერი ზედმეტად მოკლე იყო.
+record-error-too-long = ჩანაწერი ზედმეტად გრძელი იყო.
+record-error-too-quiet = ჩანაწერი ზედმეტად ხმადაბალი იყო.
+record-submit-success = წარმატებით გადაიგზავნა! გსურთ კვლავ ჩაწერა?
 record-help = გთხოვთ, დააჭიროთ ჩაწერას და შემდეგ ხმამაღლა წაიკითხოთ ზემოთ მოცემული წინადადება.
 record-cancel = ჩაწერის გაუქმება
 review-terms = Common Voice-ის გამოყენებით, ეთანხმებით ჩვენს <termsLink>პირობებსა</termsLink> და <privacyLink>პირადი მონაცემების დებულებას</privacyLink>
