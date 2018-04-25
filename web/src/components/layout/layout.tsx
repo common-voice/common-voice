@@ -244,7 +244,7 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
           this.state.showStagingBanner && (
             <div className="staging-banner">
               You're on the staging server.{' '}
-              <a href="https://voice.mozilla.com">Don't waste your breath.</a>{' '}
+              <a href="https://voice.mozilla.org">Don't waste your breath.</a>{' '}
               <a href="https://github.com/mozilla/voice-web/issues/new">
                 Feel free to report issues.
               </a>{' '}
