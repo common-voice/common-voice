@@ -70,7 +70,7 @@ home-title = Projektet Common Voice er et Mozilla-initiativ, der skal hjælpe ma
 home-cta = Åbn munden og vær med her!
 wall-of-text-start = Stemmen er naturlig, stemmen er menneskelig. Det er derfor, vi er fascineret af at skabe en brugbar stemmeteknologi til vores maskiner. Men for at skabe systemer til stemmegenkendelse kræves en ekstrem stor mængde stemmedata.
 wall-of-text-more-mobile = Hovedparten af de data, som bruges af store virksomheder, er ikke tilgængelige for flertallet af mennesker. Vi mener, at det bremser ny innovation. Derfor har vi startet projektet Common Voice, der skal hjælpe med at gøre stemmegenkendelse tilgængeligt for alle.
-wall-of-text-more-desktop = Nu kan du bidrage med din stemme og hjælpe med at opbygge en open source stemmedatabase, som alle kan bruge til at skabe innovative applikationer for både enheder og internettet.<lineBreak></lineBreak> Læs en sætning og hjælp maskiner til at forstå, hvordan mennesker taler. Kontroller andres bidrag og vær med til at forbedre kvaliteten. Så simpelt er det!
+wall-of-text-more-desktop = Nu kan du bidrage med din stemme og hjælpe med at opbygge en open source stemmedatabase, som alle kan bruge til at skabe innovative applikationer, både til computere, telefoner og til internettet.<lineBreak></lineBreak> Læs en sætning og hjælp maskiner til at forstå, hvordan mennesker taler. Kontrollér andres bidrag og vær med til at forbedre kvaliteten. Så simpelt er det!
 show-wall-of-text = Læs mere
 help-us-title = Hjælp os med at kontrollere sætninger!
 help-us-explain = Tryk på afspil, lyt og fortæl os, om den indtalte sætning var korrekt.
@@ -156,32 +156,6 @@ profile-why-content = Ved at give nogle oplysninger om dig selv, vil de lyddata,
 
 notfound-title = Ikke fundet
 notfound-content = Jeg er bange for, at jeg ikke ved, hvad du leder efter.
-
-## Privacy
-
-privacy-title = Privatlivspolitik for Common Voice 
-privacy-effective = Gyldig fra { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
-privacy-policy = Når Mozilla, (det er os), modtager oplysninger fra dig, så beskriver <policy>Mozillas privatlivspolitik</policy>, hvordan vi håndterer disse oplysninger.
-privacy-data-demographic = <name>Demografiske oplysninger.</name> Du kan valgfrit sende os oplysninger såsom din accent, alder og dit køn. Det hjælper os og andre forskere med at forbedre og skabe teknologi og værktøjer baseret på tale-til-tekst. 
-privacy-data-account = <name>Brugeroplysninger.</name> Du kan valgfrit oprette en brugerkonto. I så fald vil vi modtage din mailadresse, som er forbundet med dine demografiske oplysninger og anvendelsesdata, men bliver ikke delt med offentligheden.
-privacy-data-recordings = <name>Stemmeoptagelser.</name> Stemmeoptagelser og tilknyttede demografiske oplysninger kan blive lagt ind i Common Voice-databasen til offentlig brug.
-privacy-data-interaction = <name>Handlingsoplysninger.</name> Vi bruger Google Analytics til bedre at forstå, hvordan du bruger vores Common Voice-app eller vores websted. Dette inkluderer fx stemmeoptagelser, du har lavet eller lyttet til, handlinger, der involverer knapper og menupunkter samt sessionslængde.
-privacy-data-technical = <name>Tekniske oplysninger.</name> Brugen af Google Analytics indebærer at vi indsamler URL og titel på de Common Voice-websider, du besøger. Vi indsamler oplysninger om din browser, browseropløsning og skærmopløsning. Vi indsamler også din placering og sproget angivet i din browser.
-privacy-more = <more>Lær mere</more>
-
-## Terms
-
-terms-title = Juridiske vilkår for Common Voice
-terms-effective = Gyldig fra { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
-terms-eligibility-title = Forudsætninger
-terms-eligibility-content = Du skal være over 13 år gammel eller have dine forældres eller din værges samtykke til at deltage i vores projekt. I det sidste tilfælde skal du også have dine forældre eller din værge til at holde øje med din deltagelse i projektet.
-terms-privacy-title = Privatliv
-terms-privacy-content = Vores <privacyLink>privatlivspolitik</privacyLink> beskriver, hvordan vi modtager og behandler dine oplysninger.
-terms-contributions-title = Dine bidrag og afståelse af rettigheder
-terms-contributions-content = Ved at indsende dine optagelser giver du afkald på din ophavsret og alle relaterede rettigheder, som du måtte have i forbindelse med dem, og du accepterer at afgive optagelserne til offentligheden under <licenseLink>CC-0</licenseLink>. Dette betyder, at du accepterer at give afkald på alle rettigheder til dine optagelser på verdensplan for så vidt angår ophavsret og database-rettigheder, inklusive moralske og publicistiske rettigheder, samt alle relaterede og naborettigheder.
-terms-communications-title = Kommunikation
-terms-communications-content = Hvis du abonnerer på og modtager vores nyhedsbreve eller opretter en brugerkonto i forbindelse med Common Voice, så vil du modtage mails fra os i forbindelse med din brugerkonto (fx juridiske, privatlivs-relaterede eller sikkerhedsmæssige opdateringer).
-terms-general-title = Generelt
 
 ## Data
 
