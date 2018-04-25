@@ -170,5 +170,5 @@ language-section-in-progress = Folyamatban
 language-section-launched = Elindítva
 languages-show-more = Több
 languages-show-less = Kevesebb
-language-speakers = Hangszórók
+language-speakers = Beszélők
 language-total-progress = Összesen
