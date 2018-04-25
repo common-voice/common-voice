@@ -1,11 +1,47 @@
 ## General
 
+email-input =
+    .label = ელფოსტა
+submit-form-action = გადაგზავნა
+loading = იტვირთება...
+audio-loading-error = ვწუხვართ! მიმდინარეობს ხმოვანი ფაილების დამუშავება, სცადეთ ხელახლა ცოტა ხანში.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 
 
 ## Languages
 
+ga-IE = ირლანდიური
+cs = ჩეხური
+uz = უზბეკური
+de = გერმანული
+bn = ბენგალური
+sk = სლოვაკური
+ca = კატალანური
+ko = კორეული
+es-CL = ესპანური (ჩილე)
+th = ტაილანდური
+pl = პოლონური
+pt-BR = პორტუგალიური (ბრაზილია)
+id = ინდონეზიური
+zh-TW = ჩინური (ტაივანი)
+cy = უელსური
+el = ბერძნული
+cv = ჩუვაშური
+sv-SE = შვედური
+mk = მაკედონური
+nn-NO = ნორვეგიული/ნინორსკი
+fr = ფრანგული
+tr = თურქული
+tt = თათრული
+fy-NL = ფრიზული
+he = ებრაული
+zh-CN = ჩინური (ჩინეთი)
+nl = ნიდერლანდური
+sq = ალბანური
+ru = რუსული
+it = იტალიური
+en = ინგლისური
 
 ## Layout
 
@@ -80,6 +116,7 @@ download-no = არა, გმადლობთ
 
 ## Contact Modal
 
+contact-title = ველები დასაკავშირებლად
 contact-cancel = გაუქმება
 contact-form-name =
     .label = სახელი
@@ -90,9 +127,11 @@ contact-required = *აუცილებელია
 ## Request Language Modal
 
 request-language-title = ენის მოთხოვნა
+request-language-cancel = ველების დახურვა
 request-language-form-language =
     .label = ენა
 request-language-success-title = ენის მოთხოვნა გადაიგზავნა წარმატებით, გმადლობთ.
+request-language-success-content = ჩვენ მალე მოგაწვდით ინფორმაციას, თუ როგორ უნდა დაამატოთ თქვენი ენა Common Voice-ში.
 
 ## Languages Overview
 
@@ -101,3 +140,4 @@ language-section-launched = გაშვებული
 languages-show-more = ვრცლად
 languages-show-less = შემოკლებულად
 language-speakers = მოსაუბრეები
+language-total-progress = სულ
