@@ -9,10 +9,16 @@ email-input =
 submit-form-action = Kirim
 loading = Memuat…
 
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+
+
+## Languages
+
+
 ## Layout
 
 speak = Bicara
-datasets = Dataset
+datasets = Himpunan Data
 languages = Bahasa
 profile = Profil
 help = Bantuan
@@ -20,9 +26,9 @@ contact = Kontak
 privacy = Privasi
 terms = Ketentuan
 cookies = Kuki
-faq = TanyaJawab
+faq = Tanya Jawab
 content-license-text = Konten tersedia di bawah <licenseLink>lisensi Creative Commons</licenseLink>
-share-title = Bantu kami mencari yang lain untuk mendonasi suara mereka!
+share-title = Bantu kami menemukan yang lain untuk menyumbangkan suara mereka!
 back-top = Kembali ke Atas
 
 ## Home Page
@@ -102,39 +108,6 @@ profile-why-content = Dengan memberikan beberapa informasi tentang diri Anda, da
 notfound-title = Tidak ditemukan
 notfound-content = Maaf, kami tidak tahu apa yang Anda cari.
 
-## Privacy
-
-privacy-title = Pemberitahuan Privasi Common Voice
-privacy-effective = Efektif { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
-privacy-policy = Ketika Mozilla (itulah kami), menerima informasi dari Anda, <policy>Kebijakan Privasi Mozilla</policy> menjelaskan bagaimana kami menangani informasi tersebut.
-privacy-data-demographic = <name>Data demografis.</name> Anda dapat memutuskan untuk mengirimi kami informasi seperti logat, usia, dan jenis kelamin Anda. Hal ini akan membantu kami dan para peneliti untuk membangun dan mengembangkan teknologi dan perangkat suara-ke-teks.
-privacy-data-account = <name>Data akun.</name> Anda dapat memutuskan untuk membuat akun, dalam hal ini kami menerima alamat surel Anda. Hal ini berkaitan dengan data interaksi dan demografis Anda, tetapi hal ini tidak akan dibagikan ke publik.
-privacy-data-recordings = <name>Rekaman Suara.</name> Rekaman suara, bersamaan dengan data demografis yang terkait, mungkin tersedia dalam basis data Common Voice untuk konsumsi dan penggunaan publik.
-privacy-data-interaction = <name>Data interaksi.</name> Kami menggunakan Google Analytics untuk memahami dengan lebih baik tentang bagaimana Anda berinteraksi dengan aplikasi atau situs web Common Voice, misalnya jumlah sampel suara yang Anda rekam atau dengar, interaksi dengan tombol dan menu, dan panjang sesi.
-privacy-data-technical = <name>Data teknis.</name> Dengan Google Analytics, kami mengumpulkan data URL dan judul laman Common Voice yang Anda kunjungi. Kami mengumpulkan data peramban, ukuran viewport, dan resolusi layar Anda. Kami juga mengumpulkan data lokasi dan pengaturan bahasa di peramban Anda.
-privacy-more = <more>Pelajari lebih lanjut</more>
-
-## Terms
-
-terms-title = Ketentuan Hukum Common Voice
-terms-effective = Efektif { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
-terms-eligibility-title = Persyaratan
-terms-eligibility-content = Anda harus berusia lebih dari 13 tahun atau telah memperoleh persetujuan orang tua atau wali Anda untuk mengawasi keikutsertaan Anda dalam proyek urun daya kami.
-terms-privacy-title = Privasi
-terms-privacy-content = <privacyLink>Kebijakan Privasi</privacyLink> kami menjelaskan bagaimana cara kami menerima dan menangani data Anda.
-terms-contributions-title = Kontribusi dan Pembebasan Hak Anda
-terms-contributions-content = Dengan mengirimkan rekaman, Anda membebaskan seluruh hak cipta dan hak lain yang terkait yang mungkin Anda miliki di dalamnya, dan Anda setuju untuk membebaskan rekaman untuk umum di bawah <licenseLink>CC-0</licenseLink>. Hal ini berarti Anda setuju untuk membebaskan seluruh kewenangan terkait rekaman di seluruh dunia di bawah ketentuan hukum yang mengatur tentang hak cipta dan basis data, termasuk kewenangan moral dan penyiaran dan seluruh kewenangan yang terkait dan berdekatan.
-terms-communications-title = Komunikasi
-terms-communications-content = Apabila Anda berlangganan buletin kami atau mendaftarkan akun sehubungan dengan Common Voice, Anda dapat menerima surel dari kami berkaitan dengan akun Anda (misalnya pembaruan ketentuan hukum, privasi, dan keamanan).
-terms-general-title = Umum
-terms-general-liability1 = Penyangkalan; Pembatasan Kewajiban: COMMON VOICE DAN SEMUA REKAMAN YANG MASUK DISEDIAKAN DENGAN SEBAGAIMANA ADANYA TANPA JAMINAN APAPUN, APAKAH ITU TERSURAT ATAU TERSIRAT, MOZILLA TIDAK BERTANGGUNG JAWAB DAN TIDAK BERKEWAJIBAN ATAS REKAMAN YANG ANDA ATAU PENGGUNA LAIN ATAU PIHAK KETIGA MENGUNGGAH ATAU MENTRANSMISIKAN COMMON VOICE.
-terms-general-liability2 = MOZILLA SECARA KHUSUS MENYANGKAL JAMINAN DAN SYARAT PERNIAGAAN, KESESUAIAN UNTUK TUJUAN TERTENTU APAPUN, SERTA TIDAK MELANGGAR, DAN JAMINAN APAPUN YANG MUNCUL DARI TINDAKAN ATAU PENGGUNAAN PERDAGANGAN.
-terms-general-liability3 = HINGGA BATASAN YANG DIIZINKAN OLEH HUKUM YANG BERLAKU, ANDA SETUJU UNTUK MEMBEBASKAN MOZILLA CORPORATION DAN PERUSAHAAN INDUK, ANAK, AFILIASI, DIREKTUR, PEGAWAI, KARYAWAN, DAN AGENNYA ("PIHAK MOZILLA"), DARI SETIAP DAN SELURUH KEWAJIBAN ATAS SETIAP KERUSAKAN, KERUGIAN, ATAU PENUNDAAN (TERMASUK CEDERA PRIBADI, KEMATIAN, ATAU KERUSAKAN PROPERTI) YANG DIAKIBATKAN, BAIK SEBAGIAN MAUPUN SELURUH, LANGSUNG MAUPUN TIDAK LANGSUNG, OLEH KEIKUTSERTAAN ANDA DALAM COMMON VOICE.
-terms-general-liability4 = KECUALI DIWAJIBKAN OLEH ATURAN HUKUM, MOZILLA DAN PIHAK MOZILLA TIDAK AKAN BERTANGGUNG JAWAB ATAS KERUGIAN TAK LANGSUNG, ISTIMEWA, INSIDENTAL, AKIBAT ATAU CONTOH YANG MUNCUL DARI ATAU DDENGAN CARA APAPUN YANG BERKAITAN DENGAN PERSYARATAN INI ATAU PENGGUNAAN DARI ATAU KETIDAKMAMPUAN PENGGUNAAN LAYANAN, TERMASUK TANPA KERUGIAN LANGSUNG DAN TAK LANGSUNG ATAS HILANGNYA ITIKAD BAIK, PENGHENTIAN KERJA, HILANGNYA KEUNTUNGAN, HILANGNYA DATA, DAN KERUSAKAN ATAU KEGAGALAN FUNGSI KOMPUTER, BAHKAN JIKA DIBERITAHUKAN MENGENAI KEMUNGKINAN KERUGIAN SEJENIS DAN TANPA MEMPERTIMBANGKAN TEORI (KONTRAK, KERUGIAN, ATAU SEBALIKNYA) YANG DIPAKAI UNTUK MENGKLAIM. KEWAJIBAN KOLEKTIF MOZILLA DAN PIHAK-PIHAK MOZILLA DI DALAM KESEPAKATAN INI TIDAK AKAN MELAMPAUI $500 (LIMA RATUS DOLLAR AS). SEJUMLAH YURISDIKSI TIDAK MEMUNGKINKAN PENGECUALIAN ATAU PEMBATASAN KERUGIAN INSIDENTAL, AKIBAT, ATAU KHUSUS SEHINGGA PENGECUALIAN DAN PEMBATASAN INI MUNGKIN TIDAK BERLAKU PADA ANDA.
-terms-general-updates = Pembaruan: Mozilla dapat memutakhirkan Persyaratan dari waktu ke waktu guna memperbarui fitur Layanan atau memperjelas suatu ketentuan. Persyaratan yang telah diperbarui akan diunggah daring. Apabila perubahannya bersifat penting, kami akan mengumumkan pembaruan tersebut melalui saluran-saluran umum Mozilla seperti artikel blog dan forum. Penggunaan layanan berkelanjutan setelah tanggal efektif berlakunya perubahan berarti bahwa Anda menyetujui perubahan tersebut. Agar Anda lebih nyaman dalam memberikan ulasan, kami akan mengumumkan tanggal efektif berlakunya perubahan tersebut di bagian atas laman ini.
-terms-general-termination = Pemberhentian: Kami dapat memblokir atau menutup akses menuju Layanan kapanpun dengan alasan apapun, kami akan memberitahu Anda dengan cara yang sewajarnya melalui alamat surel yang terkait dengan akun Anda atau saat Anda mencoba mengakses Layanan. Tanpa mengindahkan pemberhentian apapun, semua rekaman yang sudah Anda kirimkan ke Mozilla akan dapat diakses publik untuk seterusnya.
-terms-general-law = Aturan yang berlaku: Persyaratan Hukum ini menunjukkan kesepakatan keseluruhan antara Anda dan Mozilla terkait dengan Common Voice dan diatur oleh aturan hukum negara bagian California, AS.
-
 ## Data
 
 data-download-button = Unduh Data Common Voice
@@ -161,6 +134,7 @@ record-platform-not-supported = Maaf, platform Anda saat ini belum mendukung.
 record-platform-not-supported-desktop = Pada desktop komputer, Anda dapat mengunduh yang paling baru:
 record-platform-not-supported-ios = Pengguna <bold>iOS</bold> dapat mengunduh aplikasi kami secara gratis:
 record-must-allow-microphone = Anda harus mengizinkan akses mikrofon.
+record-cancel = Batal Merekam-ulang
 record-error-too-short = Rekaman Anda terlalu pendek.
 record-error-too-long = Rekaman Anda terlalu panjang.
 record-error-too-quiet = Rekaman terlalu sunyi.
@@ -201,15 +175,6 @@ request-language-cancel = Keluar Formulir
 request-language-form-language =
     .label = Bahasa
 request-language-success-title = Terima kasih, permintaan bahasa baru berhasil dikirimkan.
-request-language-success-text = Kami akan menghubungi Anda dengan lebih banyak informasi tentang bahasa Anda saat sudah tersedia.
 
-## Help Translate Modal
+## Languages Overview
 
-help-translate-title = Bantu Terjemahkan { $language }
-help-translate-cancel = Keluar
-help-translate-text = Kami akan meneruskan Anda ke alat penerjemahan Mozilla,  <pontoonLink>Pontoon</pontoonLink>, tempat bahasa ini sedang menjalani penerjemahan terbuka.
-language-updates-title = Daftar untuk pembaruan { $language }
-help-translate-link = Bawa Saya ke Pontoon
-language-updates-success-title = Terima kasih, permintaan pembaruan { $language } Anda berhasil dikirimkan.
-language-updates-success-text = Kami akan menghubungi Anda setelah informasi yang lebih lengkap tersedia.
-language-updates-success-collapsed-title = Anda telah terdaftar untuk pembaruan { $language }
