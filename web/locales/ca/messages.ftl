@@ -73,12 +73,15 @@ wall-of-text-more-mobile = La majoria de les dades usades per grans companyies n
 wall-of-text-more-desktop = Ara podeu donar la vostra veu per a ajudar-nos a construir una base de dades de veu amb llicència oberta que qualsevol pot usar per a desenvolupar aplicacions innovadores per als aparells i el web.<lineBreak></lineBreak>Llegiu una frase per a ajudar les màquines a aprendre com parlen les persones reals. Reviseu la feina d'altres col·laboradors per a millorar la qualitat. Així de fàcil!
 show-wall-of-text = Més informació
 help-us-title = Ajudeu-nos a validar frases!
+help-us-explain = Premeu el botó de reproducció, escolteu i digueu-nos si l'àudio correspon exactament a la frase de sota:
 vote-yes = Sí
 vote-no = No
 request-language-text = No trobeu la vostra llengua al Common Voice?
+request-language-button = Sol·licita una llengua
 
 ## ProjectStatus
 
+status-title = Estat general del projecte: veieu fins on hem arribat!
 status-contribute = Col·laboreu amb la vostra veu
 status-hours =
     { $hours ->
@@ -115,6 +118,8 @@ female = Dona
 # Gender
 other = Altre
 why-profile-title = Per què un perfil?
+why-profile-text = Si proporcioneu informació vostra, les dades d'àudio que envieu al Common Voice seran més útils per als motors de reconeixement de veu que utilitzen aquestes dades per millorar la seva precisió.
+edit-profile = Edita el perfil
 profile-create = Crea un perfil
 profile-create-success = Fet. S'ha creat el perfil!
 profile-close = Tanca
@@ -125,13 +130,16 @@ faq-title = Preguntes més freqüents
 faq-what-q = Què és Common Voice?
 faq-what-a = La tecnologia de reconeixement de veu podria revolucionar com interactuem amb les màquines, però els sistemes disponibles actualment són cars i privatius. Common Voice és un projecte per a fer fàcilment accessible la tecnologia de reconeixement de veu a tothom. Les persones donen la seva veu a una base de dades massiva que permetrà a qualsevol entrenar aplicacions amb funcions de veu de forma ràpida i fàcil. Totes les dades de veu seran disponibles als desenvolupadors.
 faq-important-q = Per què és important?
+faq-important-a = La veu és natural, la veu és humana. Es la forma més fàcil i més natural de comunicar-se. Volem que els desenvolupadors puguin crear projectes fantàstics: des de traductors en temps real fins a assistents administratius. Però ara mateix no hi ha prou dades disponibles públicament per crear aquests tipus d'aplicacions. Esperem que el Common Voice oferirà als desenvolupadors allò que necessiten per innovar.
 faq-get-q = Com puc obtenir les dades de Common Voice?
+faq-get-a = El conjunt de dades està disponible en la <downloadLink>pàgina de baixada</downloadLink> amb llicència <licenseLink>CC-0</licenseLink>.
 faq-mission-q = Per què Common Voice és part de la missió de Mozilla?
 faq-native-q = Sóc un parlant no natiu de { $lang } i parlo amb accent. Tot i això voleu la meva llengua?
 faq-native-a = Sí, volem la vostra veu! Part de l'objectiu del Common Voice és recollir tants accents diferents com sigui possible, de manera que els ordinadors puguin entendre millor <bold>tothom</bold> quan parli.
 faq-firefox-q = Amb el Common Voice, algun dia la funcionalitat de veu a text s'integrarà en el Firefox?
 faq-firefox-a = El Common Voice té un potencial il·limitat i, de fet, estem estudiant l'ús d'interfícies de veu en molts dels productes de Mozilla, inclòs el Firefox.
 faq-quality-q = Quin nivell de qualitat d'àudio és necessari per a que sigui útil?
+faq-quality-a = Volem que la qualitat d'àudio reflecteixi la qualitat d'àudio que un motor de veu a text veurà en el món real. Per tant, volem varietat. Així, el motor de veu a text aprendrà a gestionar sense errors tot tipus de situacions (amb gent parlant al fons, soroll de cotxes o del ventilador, etc.).
 faq-hours-q = Per què l'objectiu és enregistrar 10.000 hores d'àudio?
 faq-hours-a = Aquest és, aproximadament, el nombre d'hores necessari per a entrenar un sistema de reconeixement de veu en producció.
 faq-source-q = D'on prové el text original?
@@ -159,18 +167,30 @@ data-other-goto = Vés a { $name }
 data-other-download = Baixa les dades
 data-other-librispeech-description = LibriSpeech és un corpus d'aproximadament 1.000 hores de diàlegs en anglès llegits a 16 KHz derivat de la lectura d'audiollibres del projecte LibriVox.
 data-other-ted-name = Corpus TED-LIUM
+data-other-tatoeba-description = Tatoeba és una gran base de dades de frases, traduccions i enregistraments d'àudio per a l'ús en l'aprenentatge de llengües. Aquesta baixada conté tots els enregistraments d'anglès parlat fets per la comunitat.
 data-bundle-button = Baixa el paquet del conjunt de dades
+data-bundle-description = Dades del Common Voice més tot els conjunts de dades de veu anteriors.
 license = Llicència: <licenseLink>{ $license }</licenseLink>
+license-mixed = Mixta
 
 ## Record Page
 
+record-platform-not-supported = Malauradament, la vostra plataforma no és compatible actualment.
 record-platform-not-supported-desktop = En ordinadors d'escriptori, podeu baixar l'últim:
 record-platform-not-supported-ios = Els usuaris de l'<bold>iOS</bold> poden baixar la nostra aplicació gratuïta:
+record-must-allow-microphone = Cal que permeteu l'accés al micròfon.
 record-cancel = Cancel·la el reenregistrament
+record-retry = Reintenta
 record-error-too-short = L'enregistrament és massa curt.
 record-error-too-long = L'enregistrament és massa llarg.
+record-error-too-quiet = El volum de l'enregistrament és massa baix.
+record-submit-success = S'ha enviat correctament! Voleu fer més enregistraments?
+record-help = Toqueu per començar a enregistrar i llegiu la frase anterior en veu alta.
 record-cancel = Cancel·la el reenregistrament
 review-terms = En usar Common Voice, accepteu les <termsLink>condicions d'ús</termsLink> i l'<privacyLink>avís de privadesa</privacyLink>
+terms-agree = D'acord
+terms-disagree = No hi estic d'acord
+review-aborted = S'ha cancel·lat l'enviament. Voleu suprimir els vostres enregistraments?
 review-submit-title = Revisa i envia
 review-recording = Revisa
 review-rerecord = Torna a enregistrar
