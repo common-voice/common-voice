@@ -136,6 +136,8 @@ data-other-goto = Gå til { $name }
 data-other-download = Last ned data
 data-other-ted-name = TED-LIUM korpus
 data-bundle-button = Last ned Dataset-pakken
+license = Lisens: <licenseLink>{ $license }</licenseLink>
+license-mixed = Blanda
 
 ## Record Page
 
