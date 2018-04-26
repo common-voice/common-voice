@@ -126,28 +126,54 @@ notfound-content = Attól tartok, nem tudom mit keres.
 data-download-yes = Igen
 data-download-deny = Nem
 data-download-license = Licenc: <licenseLink>CC-0</licenseLink>
+data-other-title = További hangadatkészletek…
+data-other-goto = Ugrás ide: { $name }
 data-other-download = Adatok letöltése
+data-other-librispeech-description = A LibriSpeech egy közel 1000 órás 16Khz-es korpusz, ami a LibriVox projekt hangoskönyveinek felolvasott angol szövegéből áll.
+data-other-ted-name = TED-LIUM korpusz
+data-other-ted-description = A TED-LIUM korpusz a TED weboldalon elérhető előadások hanganyagából és a hozzájuk tartozó feliratokból készült.
+data-other-voxforge-description = A VoxForge a szabad és nyílt forráskódú beszédfelismerő rendszerekkel készült felvételek összegyűjtésére lett létrehozva.
+data-other-tatoeba-description = A Tatoeba egy nyelvtanulásra használt nagy mondat-, fordítás- és hangadatkészlet. Ez a letöltés a közösségük által felvett angol hanganyagokat tartalmazza.
+data-bundle-button = Adatkészletcsomag letöltése
+data-bundle-description = Common Voice adatok plusz az összes fenti adatkészlet.
+license = Licenc: <licenseLink>{ $license }</licenseLink>
+license-mixed = Vegyes
 
 ## Record Page
 
 record-platform-not-supported = Sajnáljuk, de a platformja jelenleg nem támogatott.
 record-must-allow-microphone = Engedélyezni kell a mikrofon hozzáférést.
+record-cancel = Újrarögzítés megszakítása
 record-retry = Újra
 record-error-too-short = A felvétel túl rövid volt.
 record-error-too-long = A felvétel túl hosszú volt.
 record-error-too-quiet = A felvétel túl halk volt.
+record-cancel = Újrarögzítés megszakítása
+review-terms = A Common Voice használatával elfogadja a <termsLink>Jogi feltételeket</termsLink> és az <privacyLink>Adatvédelmi nyilatkozatot</privacyLink>
 terms-agree = Elfogadom
 terms-disagree = Nem fogadom el
+review-aborted = Feltöltés megszakítva. Törli a felvételt?
 review-submit-title = Átnézés és beküldés
+review-submit-msg = Köszönjük a felvételt!<lineBreak></lineBreak>Nézze át, és küldje be az alábbi klipeket.
 review-recording = Véleményezés
+review-rerecord = Újrarögzítés
+review-cancel = Beküldés megszakítása
+review-keep-recordings = Felvételek megtartása
+review-delete-recordings = Felvételeim törlése
 
 ## Download Modal
 
+download-title = A letöltés elkezdődött.
+download-helpus = Segítsen közösséget építeni a hangtechnológia köré, tartsuk a kapcsolatot e-mailben.
+download-form-email =
+    .label = Adja meg az e-mail címét
+    .value = Köszönjük, majd keressük.
 download-back = Visszatérés a Common Voice adatkészlethez
 download-no = Köszönöm, nem
 
 ## Contact Modal
 
+contact-title = Kapcsolatfelvétel
 contact-cancel = Mégse
 contact-form-name =
     .label = Név
@@ -157,6 +183,8 @@ contact-required = *kötelező
 
 ## Request Language Modal
 
+request-language-title = Nyelv kérése
+request-language-cancel = Űrlap bezárása
 request-language-form-language =
     .label = Nyelv
 request-language-success-title = Nyelvkérés sikeresen beküldve, köszönjük.
