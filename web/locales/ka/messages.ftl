@@ -135,6 +135,7 @@ faq-important-a = ხმა არის ბუნებრივი, ხმა 
 faq-get-q = როგორ მივიღო Common Voice მონაცემები?
 faq-get-a = მონაცემთა ნაკრები ამჟამად ხელმისაწვდომია ჩვენს <downloadLink>ჩამოტვირთვის გვერდზე</downloadLink> <licenseLink>CC-0</licenseLink> ლიცენზიით.
 faq-mission-q = რატომაა Common Voice Mozilla-ს უმაღლესი დანიშნულების ნაწილი?
+faq-mission-a = Mozilla იღწვის ინტერნეტის გახსნილობისა და საყოველთაო ხელმისაწვდომობისთვის. ამისთვის კი საჭიროა ვებშემმუს
 
 ## Profile
 
