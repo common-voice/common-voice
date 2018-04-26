@@ -3,8 +3,8 @@ import * as http from 'http';
 import * as path from 'path';
 import * as commonmark from 'commonmark';
 import * as express from 'express';
-import fetch from 'node-fetch';
 import { NextFunction, Request, Response } from 'express';
+import * as request from 'request-promise-native';
 import Model from './lib/model';
 import API from './lib/api';
 import Logger from './lib/logger';
@@ -120,9 +120,12 @@ export default class Server {
     let textHTML = this.documentCache[name][locale];
 
     if (!textHTML) {
-      const [status, text] = await fetch(
-        `https://raw.githubusercontent.com/mozilla/legal-docs/master/Common_Voice_${name}/${locale}.md`
-      ).then(async response => [response.status, await response.text()]);
+      const [status, text] = await request({
+        uri: `https://raw.githubusercontent.com/mozilla/legal-docs/master/Common_Voice_${name}/${locale}.md`,
+        resolveWithFullResponse: true,
+      })
+        .then((response: any) => [response.statusCode, response.body])
+        .catch(response => [response.statusCode, null]);
       if (status >= 400 && status < 500) {
         textHTML = (await Promise.all(
           ['en', 'es-CL', 'fr', 'pt-BR', 'zh-TW'].map(locale =>

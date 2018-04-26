@@ -1,6 +1,6 @@
 import Downshift from 'downshift';
 import * as React from 'react';
-import {getNativeNameWithFallback} from "../../services/localization";
+import { getNativeNameWithFallback } from '../../services/localization';
 
 interface Props {
   locale: string;
