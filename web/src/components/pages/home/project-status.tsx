@@ -7,7 +7,7 @@ import { isProduction } from '../../../utility';
 import ProgressBar from '../../progress-bar/progress-bar';
 import API from '../../../services/api';
 import StateTree from '../../../stores/tree';
-import { LocaleLink } from '../../locale-helpers';
+import { ContributableLocaleLock, LocaleLink } from '../../locale-helpers';
 import { Button, Hr } from '../../ui/ui';
 
 const GOAL_HOURS = 500;
@@ -45,12 +45,15 @@ class ProjectStatus extends React.Component<Props, State> {
           <Localized id="status-title">
             <h4 />
           </Localized>
-          <Localized id="status-contribute">
-            <LocaleLink
-              to={URLS.RECORD}
-              onClick={() => trackNavigation('progress-to-record')}
-            />
-          </Localized>
+
+          <ContributableLocaleLock>
+            <Localized id="status-contribute">
+              <LocaleLink
+                to={URLS.RECORD}
+                onClick={() => trackNavigation('progress-to-record')}
+              />
+            </Localized>
+          </ContributableLocaleLock>
         </div>
 
         <div className="contents">

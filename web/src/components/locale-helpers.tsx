@@ -50,6 +50,15 @@ export const LocaleNavLink = localeConnector(
 );
 
 export const ContributableLocaleLock = localeConnector(
-  ({ children, locale }: LocaleProps & any) =>
-    CONTRIBUTABLE_LOCALES.includes(locale) && children
+  ({
+    children,
+    locale,
+    render,
+  }: LocaleProps & {
+    children?: any;
+    render?: (args: { isContributable: boolean }) => React.ReactNode;
+  }) => {
+    const isContributable = CONTRIBUTABLE_LOCALES.includes(locale);
+    return render ? render({ isContributable }) : isContributable && children;
+  }
 );

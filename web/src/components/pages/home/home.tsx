@@ -1,27 +1,76 @@
 import * as React from 'react';
 import { withRouter, RouteComponentProps } from 'react-router';
-import { Localized } from 'fluent-react';
+const { LocalizationProvider, Localized } = require('fluent-react');
 import URLS from '../../../urls';
-import { ContributableLocaleLock } from '../../locale-helpers';
+import {
+  ContributableLocaleLock,
+  localeConnector,
+  LocalePropsFromState,
+} from '../../locale-helpers';
 import Validator from '../../validator';
 import RequestLanguageModal from '../../request-language-modal/request-language-modal';
 import { RecordIcon } from '../../ui/icons';
 import { CardAction, Hr } from '../../ui/ui';
+import GetInvolvedModal from '../languages/get-involved-modal';
 import ProjectStatus from './project-status';
+import {
+  createCrossLocaleMessagesGenerator,
+  getNativeNameWithFallback,
+} from '../../../services/localization';
+import { connect } from 'react-redux';
+import StateTree from '../../../stores/tree';
+import API from '../../../services/api';
+
+interface PropsFromState {
+  api: API;
+}
 
 interface State {
+  messagesGenerator: any;
+  showGetInvolvedModal: boolean;
   showLanguageRequestModal: boolean;
   showWallOfText: boolean;
 }
 
-class HomePage extends React.Component<RouteComponentProps<any>, State> {
-  state = {
+class HomePage extends React.Component<
+  RouteComponentProps<any> & LocalePropsFromState & PropsFromState,
+  State
+> {
+  state: State = {
+    messagesGenerator: null,
+    showGetInvolvedModal: false,
     showLanguageRequestModal: false,
     showWallOfText: false,
   };
 
+  toggleGetInvolvedModal = () => {
+    this.setState({ showGetInvolvedModal: !this.state.showGetInvolvedModal });
+  };
+
+  async componentDidMount() {
+    await this.updateMessagesGenerator();
+  }
+
+  async componentDidUpdate() {
+    await this.updateMessagesGenerator();
+  }
+
+  async updateMessagesGenerator() {
+    const { api, locale } = this.props;
+    this.setState({
+      messagesGenerator: await createCrossLocaleMessagesGenerator(api, [
+        locale,
+      ]),
+    });
+  }
+
   render() {
-    const { showWallOfText } = this.state;
+    const { locale } = this.props;
+    const {
+      messagesGenerator,
+      showGetInvolvedModal,
+      showWallOfText,
+    } = this.state;
     return (
       <div id="home-container">
         {this.state.showLanguageRequestModal && (
@@ -37,14 +86,42 @@ class HomePage extends React.Component<RouteComponentProps<any>, State> {
         <div
           id="wall-of-text"
           className={showWallOfText ? 'show-more-text' : ''}>
-          <CardAction id="contribute-button" to={URLS.RECORD}>
-            <div>
-              <RecordIcon />
-            </div>
-            <Localized id="home-cta">
-              <span />
-            </Localized>
-          </CardAction>
+          <ContributableLocaleLock
+            render={({ isContributable }) =>
+              isContributable ? (
+                <CardAction id="contribute-button" to={URLS.RECORD}>
+                  <div>
+                    <RecordIcon />
+                  </div>
+                  <Localized id="home-cta">
+                    <span />
+                  </Localized>
+                </CardAction>
+              ) : (
+                messagesGenerator && (
+                  <LocalizationProvider messages={messagesGenerator}>
+                    <React.Fragment>
+                      <Localized id="get-involved-button">
+                        <CardAction
+                          id="contribute-button"
+                          onClick={this.toggleGetInvolvedModal}
+                        />
+                      </Localized>
+                      {showGetInvolvedModal && (
+                        <GetInvolvedModal
+                          locale={{
+                            code: locale,
+                            name: getNativeNameWithFallback(locale),
+                          }}
+                          onRequestClose={this.toggleGetInvolvedModal}
+                        />
+                      )}
+                    </React.Fragment>
+                  </LocalizationProvider>
+                )
+              )
+            }
+          />
 
           <Localized id="wall-of-text-start">
             <p />
@@ -98,4 +175,8 @@ class HomePage extends React.Component<RouteComponentProps<any>, State> {
     );
   }
 }
-export default withRouter(HomePage);
+export default withRouter(
+  connect<PropsFromState>(({ api }: StateTree) => ({
+    api,
+  }))(localeConnector(HomePage))
+);
