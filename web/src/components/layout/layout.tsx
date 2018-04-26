@@ -1,4 +1,4 @@
-import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
+import ISO6391 from 'iso-639-1';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, withRouter } from 'react-router';
@@ -39,8 +39,7 @@ interface PropsFromDispatch {
 }
 
 interface LayoutProps
-  extends LocalizationProps,
-    PropsFromState,
+  extends PropsFromState,
     PropsFromDispatch,
     RouteComponentProps<any> {}
 
@@ -209,11 +208,14 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
   };
 
   render() {
-    const { getString, isSetFull, locale, location } = this.props;
+    const { isSetFull, locale, location } = this.props;
 
-    const localesWithNames = LOCALES.map(code => [code, getString(code)]).sort(
-      (l1, l2) => l1[1].localeCompare(l2[1])
-    );
+    const localesWithNames = LOCALES.map(code => [
+      code,
+      ISO6391.getNativeName(code) ||
+        ISO6391.getNativeName(code.split('-')[0]) ||
+        code,
+    ]).sort((l1, l2) => l1[1].localeCompare(l2[1]));
 
     const pageName = location.pathname.split('/')[2] || 'home';
     let className = pageName;
@@ -366,11 +368,9 @@ const mapDispatchToProps = {
   setLocale: Locale.actions.set,
 };
 
-export default withLocalization(
-  withRouter(
-    connect<PropsFromState, PropsFromDispatch>(
-      mapStateToProps,
-      mapDispatchToProps
-    )(Layout)
-  )
+export default withRouter(
+  connect<PropsFromState, PropsFromDispatch>(
+    mapStateToProps,
+    mapDispatchToProps
+  )(Layout)
 );
