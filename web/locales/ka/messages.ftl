@@ -1,5 +1,8 @@
 ## General
 
+yes-receive-emails = დიახ, გამომიგზავნეთ წერილები ელფოსტაზე. მსურს მუდმივად მეცნობოს Common Voice პროექტთან დაკავშირებული სიახლეების შესახებ.
+stayintouch = ჩვენ, Mozilla-ში ვცდილობთ შევკრიბოთ დიდი ერთობა ხმოვანი ტექნოლოგიების გარშემო. ჩვენ გვსურს დავრჩეთ კავშირზე განახლებებით, მონაცემთა ახალი წყაროებით და მოვისმინოთ, თუ როგორ გადგებათ ეს მონაცემები.
+privacy-info = ჩვენ გპირდებით, რომ თქვენს მონაცემებს სიფრთხილით მოვეკიდებით. ვრცლად, იხილეთ ჩვენი <privacyLink>პირადი მონაცემების დაცვის განაცხადი</privacyLink>.
 return-to-cv = Common Voice-ზე დაბრუნება
 email-input =
     .label = ელფოსტა
@@ -106,16 +109,9 @@ faq-what-q = რა არის Common Voice?
 ## NotFound
 
 
-## Privacy
-
-
-## Terms
-
-terms-privacy-title = პირადულობა
-terms-general-title = ზოგადი
-
 ## Data
 
+data-subtitle = ჩვენ ვქმნით ღია და საჯაროდ ხელმისაწვდომ ხმოვან მონაცემთა ნაკრებს, რომლის გამოყენებაც ნებისმიერს შეეძლება ხმოვანი ტექნოლოგიების მქონე პროგრამების მუშაობის გაუმჯობესებისთვის.
 data-other-download = მონაცემების ჩამოტვირთვა
 data-bundle-button = მონაცემთა კრებულის ჩამოტვირთვა
 license = ლიცენზია: <licenseLink>{ $license }</licenseLink>
@@ -135,7 +131,7 @@ record-error-too-quiet = ჩანაწერი ზედმეტად ხ�
 record-submit-success = წარმატებით გადაიგზავნა! გსურთ კვლავ ჩაწერა?
 record-help = გთხოვთ, დააჭიროთ ჩაწერას და შემდეგ ხმამაღლა წაიკითხოთ ზემოთ მოცემული წინადადება.
 record-cancel = ჩაწერის გაუქმება
-review-terms = Common Voice-ის გამოყენებით, ეთანხმებით ჩვენს <termsLink>პირობებსა</termsLink> და <privacyLink>პირადი მონაცემების დებულებას</privacyLink>
+review-terms = Common Voice-ის გამოყენებით, ეთანხმებით ჩვენს <termsLink>პირობებსა</termsLink> და <privacyLink>პირადი მონაცემების დაცვის განაცხადს</privacyLink>
 terms-agree = ვეთანხმები
 terms-disagree = არ ვეთანხმები
 review-aborted = ატვირთვა შეწყვეტილია. გსურთ თქვენი ჩანაწერების წაშლა?
