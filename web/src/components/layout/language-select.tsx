@@ -1,6 +1,6 @@
 import Downshift from 'downshift';
-import { Localized } from 'fluent-react';
 import * as React from 'react';
+import {getNativeNameWithFallback} from "../../services/localization";
 
 interface Props {
   locale: string;
@@ -18,9 +18,9 @@ export default class LangaugeSelect extends React.Component<Props> {
         onChange={onChange}
         render={({ getInputProps, getItemProps, highlightedIndex }) => (
           <div className="language-select with-down-arrow">
-            <Localized id={locale}>
-              <div className="selection" tabIndex={0} {...getInputProps()} />
-            </Localized>
+            <div className="selection" tabIndex={0} {...getInputProps()}>
+              {getNativeNameWithFallback(locale)}
+            </div>
             <div className="list-wrapper">
               <div className="triangle" />
               <ul>

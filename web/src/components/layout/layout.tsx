@@ -1,8 +1,10 @@
-import ISO6391 from 'iso-639-1';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, withRouter } from 'react-router';
-import { LOCALES } from '../../services/localization';
+import {
+  getNativeNameWithFallback,
+  LOCALES,
+} from '../../services/localization';
 import { Recordings } from '../../stores/recordings';
 import StateTree from '../../stores/tree';
 import { User } from '../../stores/user';
@@ -212,9 +214,7 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
 
     const localesWithNames = LOCALES.map(code => [
       code,
-      ISO6391.getNativeName(code) ||
-        ISO6391.getNativeName(code.split('-')[0]) ||
-        code,
+      getNativeNameWithFallback(code),
     ]).sort((l1, l2) => l1[1].localeCompare(l2[1]));
 
     const pageName = location.pathname.split('/')[2] || 'home';

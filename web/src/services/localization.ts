@@ -1,6 +1,7 @@
 require('fluent-intl-polyfill');
 const { MessageContext } = require('fluent');
 const { negotiateLanguages } = require('fluent-langneg');
+import ISO6391 from 'iso-639-1';
 import { isProduction } from '../utility';
 import API from './api';
 
@@ -37,6 +38,14 @@ export const LOCALES = isProduction()
       'ga-IE',
     ];
 export const CONTRIBUTABLE_LOCALES = ['en'];
+
+export function getNativeNameWithFallback(code: string) {
+  return (
+    ISO6391.getNativeName(code) ||
+    ISO6391.getNativeName(code.split('-')[0]) ||
+    code
+  );
+}
 
 export function negotiateLocales(locales: string[]) {
   return negotiateLanguages(locales, LOCALES, {
