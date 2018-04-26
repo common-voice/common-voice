@@ -158,35 +158,6 @@ profile-why-content = 透過提供一些您的資訊，使用您送出給 Common
 notfound-title = 找不到
 notfound-content = 很抱歉，找不到您想找的東西。
 
-## Privacy
-
-privacy-title = Common Voice 隱私權公告
-privacy-effective = 生效日 { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
-privacy-policy = 當 Mozilla（也就是我們）收到您提供的資訊時，我們的 <policy>Mozilla 隱私權保護政策</policy>描述了我們會如何處理該資訊。
-privacy-data-demographic = <name>人口統計資料。</name>您可以選擇性提供關於您的說話腔調、年齡、性別給我們，這能夠幫助我們與其他研究者改善並建立語音轉文字的技術與工具。
-privacy-data-account = <name>帳號資料。</name>您可以選擇性的建立帳號，如此可讓我們接收到您的墊子郵件信箱地址。此資料將與您的人口統計與互動資料相關聯，但不會公開分享。
-privacy-data-recordings = <name>錄音內容。</name>錄音內容以及所有相關聯的人口統計資料，得於 Common Voice 資料庫供大眾使用。
-privacy-data-interaction = <name>互動資料。</name>我們使用 Google Analytics 來更加了解您如何與 Common Voice 的應用程式或網站互動。舉例來說，包含您錄下或聆聽了幾筆錄音、如何與選單、按鈕互動，使用階段長度。
-privacy-data-technical = <name>技術資料。</name>透過 Google Analytics，我們會收集您造訪的 Common Voice 頁面網址與標題。我們會收集您的瀏覽器、viewport 大小與畫面解析度。我們也會收集您所在的位置以及瀏覽器的語言設定。
-privacy-more = <more>了解更多</more>
-
-## Terms
-
-terms-title = Common Voice 法律條款
-terms-effective = 生效日 { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
-terms-eligibility-title = 適用性
-terms-eligibility-content = 您必須已滿 13 週歲，或已取得您的家長或監護人的同意，並在其監督之下才能參與我們的群眾外包專案。
-terms-privacy-title = 隱私權
-terms-privacy-content = 我們的<privacyLink>隱私權公告</privacyLink>解釋了我們會如何接收並處理您的資料。
-terms-contributions-title = 您的貢獻與權利放棄聲明
-terms-contributions-content = 送出您的錄音，就代表您放棄所有可能擁有的著作權及相關權利，並同意依照 <licenseLink>CC-0</licenseLink> 條款，公開給大眾使用。這代表您同意根據全球的著作權法及資料庫相關法律及規定下，放棄錄音的所有權利，包含人格權及財產權，及所有相關鄰接權利。
-terms-communications-title = 通訊
-terms-communications-content = 若您訂閱了我們的電子報，或註冊 Common Voice 帳號，您可能會收到與您的帳號相關的郵件（例如法律條款、隱私權、安全性更新等）。
-terms-general-title = 一般
-terms-general-updates = 更新: Mozilla 可能會因本服務提供新功能或釐清條款內容隨時修訂以上條款，修訂過的條款將在線上公告。若變更是實質性的，我們將會透過 Mozilla 的部落格、討論區等常用頻道來進行公告。若您在修訂生效日後繼續使用本服務，就代表您接受該修訂。為了讓您更方便就能確認修訂內容，我們將在此頁面最頂端張貼生效日。
-terms-general-termination = 終止: 我們可能會因任何原因，在任何時間暫停或終止您存取服務的權利。我們會以合理的嘗試，透過與您帳號相關聯的電子郵件信箱，或是下一次嘗試存取本服務時通知您。不論終止方式為何，您送出給 Mozilla 的所有錄音，將持續公開提供外部使用。
-terms-general-law = 準據法: 以上法律條款構成您與 Mozilla 關於 Common Voice 的全部協議，並受美國加州法律管轄。
-
 ## Data
 
 data-download-button = 下載 Common Voice 資料
@@ -208,7 +179,7 @@ data-other-tatoeba-description = Tatoeba 是一套用來進行語言學習的大
 data-bundle-button = 下載資料集總組合
 data-bundle-description = Common Voice 資料，以及上面列出的所有其他語音資料集。
 license = 授權條款: <licenseLink>{ $license }</licenseLink>
-license-mixed = 混和
+license-mixed = 混合
 
 ## Record Page
 
