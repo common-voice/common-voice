@@ -155,23 +155,6 @@ profile-why-title = Varför en profil?
 notfound-title = Hittades inte
 notfound-content = Jag är rädd att jag inte vet vad du letar efter.
 
-## Privacy
-
-privacy-title = Sekretesspolicy Common Voice
-privacy-effective = Giltig från { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
-privacy-policy = Då Mozilla (det är vi), tar emot information från dig, beskriver <policy>Mozillas integritetspolicy</policy> hur informationen hanteras.
-privacy-more = <more>Lär dig mer</more>
-
-## Terms
-
-terms-title = Juridiska villkor Common Voice
-terms-effective = Giltig från { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
-terms-eligibility-title = Berättigande
-terms-privacy-title = Sekretess
-terms-privacy-content = Vår <privacyLink>sekretesspolicy</privacyLink> förklarar hur vi tar emot och hanterar dina uppgifter.
-terms-communications-title = Kommunikation
-terms-general-title = Allmänt
-
 ## Data
 
 data-download-button = Ladda ner Common Voice Data
@@ -186,6 +169,7 @@ data-other-title = Andra röstdatamängder…
 data-other-goto = Gå till { $name }
 data-other-download = Ladda ner data
 data-other-ted-name = TED-LIUM korpus
+data-bundle-button = Ladda ner Dataset-paket
 data-bundle-description = Common Voice data plus alla andra röstdatamängder ovan.
 license = Licens: <licenseLink>{ $license }</licenseLink>
 
