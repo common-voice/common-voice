@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Sí, envieu-me correus electrònics. Vull estar informat del projecte Common Voice.
+yes-receive-emails = Sí, envieu-me correus. Vull estar informat del projecte Common Voice.
 stayintouch = A Mozilla estem construint una comunitat al voltant de les tecnologies de la veu. Voldríem estar al dia de les novetats, de noves fonts de dades i saber com useu aquestes dades.
 privacy-info = Ens comprometem a gestionar la vostra informació amb cura. Per a més informació, vegeu la <privacyLink>política de privadesa</privacyLink>.
 return-to-cv = Torna al Common Voice
@@ -33,6 +33,8 @@ cy = gal·lès
 el = grec
 cv = txuvaix
 sv-SE = suec
+mk = macedònic
+nn-NO = Nynorsk noruec
 fr = francès
 tr = turc
 tt = tàtar
@@ -59,6 +61,7 @@ cookies = Galetes
 faq = PMF
 content-license-text = Contingut disponible en els termes de la <licenseLink>llicència Creative Commons</licenseLink>
 share-title = Ajudeu-nos a trobar altres persones que donin la veu!
+share-text = Ajudeu a ensenyar a les màquines com parla la gent real. Doneu la vostra veu a { $link }
 back-top = Torna a dalt
 
 ## Home Page
@@ -127,6 +130,8 @@ faq-mission-q = Per què Common Voice és part de la missió de Mozilla?
 faq-native-q = Sóc un parlant no natiu de { $lang } i parlo amb accent. Tot i això voleu la meva llengua?
 faq-native-a = Sí, volem la vostra veu! Part de l'objectiu del Common Voice és recollir tants accents diferents com sigui possible, de manera que els ordinadors puguin entendre millor <bold>tothom</bold> quan parli.
 faq-firefox-q = Amb el Common Voice, algun dia la funcionalitat de veu a text s'integrarà en el Firefox?
+faq-firefox-a = El Common Voice té un potencial il·limitat i, de fet, estem estudiant l'ús d'interfícies de veu en molts dels productes de Mozilla, inclòs el Firefox.
+faq-quality-q = Quin nivell de qualitat d'àudio és necessari per a que sigui útil?
 faq-hours-q = Per què l'objectiu és enregistrar 10.000 hores d'àudio?
 faq-hours-a = Aquest és, aproximadament, el nombre d'hores necessari per a entrenar un sistema de reconeixement de veu en producció.
 faq-source-q = D'on prové el text original?
@@ -140,16 +145,21 @@ profile-why-title = Per què cal crear un perfil?
 ## NotFound
 
 notfound-title = No s'ha trobat
+notfound-content = No s'ha trobat allò que cercàveu.
 
 ## Data
 
 data-download-button = Baixa les dades de Common Voice
+data-download-yes = Sí
+data-download-deny = No
 data-download-license = Llicència: <licenseLink>CC-0</licenseLink>
 data-download-modal = Esteu a punt d'iniciar una baixada de <size>{ $size } GB</size>, voleu continuar?
 data-other-title = Altres conjunts de dades de veu…
 data-other-goto = Vés a { $name }
 data-other-download = Baixa les dades
 data-other-librispeech-description = LibriSpeech és un corpus d'aproximadament 1.000 hores de diàlegs en anglès llegits a 16 KHz derivat de la lectura d'audiollibres del projecte LibriVox.
+data-other-ted-name = Corpus TED-LIUM
+data-bundle-button = Baixa el paquet del conjunt de dades
 license = Llicència: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
@@ -167,6 +177,7 @@ review-rerecord = Torna a enregistrar
 
 ## Download Modal
 
+download-back = Torna als conjunts de dades del Common Voice
 download-no = No, gràcies
 
 ## Contact Modal
