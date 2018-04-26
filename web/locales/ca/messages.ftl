@@ -69,7 +69,7 @@ back-top = Torna a dalt
 home-title = El projecte Common Voice és una iniciativa de Mozilla que ajuda a les màquines a aprendre com parlen les persones reals.
 home-cta = Alceu la veu! Contribuïu-hi!
 wall-of-text-start = La veu és natural, la veu és humana. És per això que volem crear tecnologies de veu de qualitat per a les màquines. Però el desenvolupament d'aquests sistemes requereix un gran volum de dades de veu.
-wall-of-text-more-mobile = La majoria de les dades usades per grans companyies no estan disponibles per a tothom. Considerem que això frena la innovació. Per això hem iniciat el Project Common Voice, un projecte per a facilitar la creació de reconeixement de veu accessible per a tothom.
+wall-of-text-more-mobile = La majoria de les dades usades per grans companyies no estan disponibles per a tothom. Considerem que això frena la innovació. Per això, hem iniciat el projecte Common Voice, per tal de fer que la tecnologia de reconeixement de la veu estigui oberta a tothom.
 wall-of-text-more-desktop = Ara podeu donar la vostra veu per a ajudar-nos a construir una base de dades de veu amb llicència oberta que qualsevol pot usar per a desenvolupar aplicacions innovadores per als aparells i el web.<lineBreak></lineBreak>Llegiu una frase per a ajudar les màquines a aprendre com parlen les persones reals. Reviseu la feina d'altres col·laboradors per a millorar la qualitat. Així de fàcil!
 show-wall-of-text = Més informació
 help-us-title = Ajudeu-nos a validar frases!
@@ -118,9 +118,7 @@ female = Dona
 # Gender
 other = Altre
 why-profile-title = Per què un perfil?
-why-profile-text =
-    By providing some information about yourself, the audio data you submit to Common Voice will be more useful to Speech
-    Recognition engines that use this data to improve their accuracy.
+why-profile-text = Si proporcioneu informació vostra, les dades d'àudio que envieu al Common Voice seran més útils per als motors de reconeixement de la veu que utilitzen aquestes dades per millorar la seva precisió.
 edit-profile = Edita el perfil
 profile-create = Crea un perfil
 profile-create-success = Fet. S'ha creat el perfil!
@@ -130,7 +128,7 @@ profile-close = Tanca
 
 faq-title = Preguntes més freqüents
 faq-what-q = Què és Common Voice?
-faq-what-a = La tecnologia de reconeixement de veu podria revolucionar com interactuem amb les màquines, però els sistemes disponibles actualment són cars i privatius. Common Voice és un projecte per a fer fàcilment accessible la tecnologia de reconeixement de veu a tothom. Les persones donen la seva veu a una base de dades massiva que permetrà a qualsevol entrenar aplicacions amb funcions de veu de forma ràpida i fàcil. Totes les dades de veu seran disponibles als desenvolupadors.
+faq-what-a = La tecnologia de reconeixement de la veu podria revolucionar com interactuem amb les màquines, però els sistemes disponibles actualment són cars i privatius. El Common Voice és un projecte per a fer fàcilment accessible la tecnologia de reconeixement de la veu a tothom. Les persones donen la seva veu a una base de dades massiva que permetrà a qualsevol entrenar aplicacions amb funcions de veu de forma ràpida i fàcil. Totes les dades de veu seran disponibles als desenvolupadors.
 faq-important-q = Per què és important?
 faq-important-a = La veu és natural, la veu és humana. Es la forma més fàcil i més natural de comunicar-se. Volem que els desenvolupadors puguin crear projectes fantàstics: des de traductors en temps real fins a assistents administratius. Però ara mateix no hi ha prou dades disponibles públicament per crear aquests tipus d'aplicacions. Esperem que el Common Voice oferirà als desenvolupadors allò que necessiten per innovar.
 faq-get-q = Com puc obtenir les dades de Common Voice?
@@ -144,7 +142,7 @@ faq-firefox-a = El Common Voice té un potencial il·limitat i, de fet, estem es
 faq-quality-q = Quin nivell de qualitat d'àudio és necessari per a que sigui útil?
 faq-quality-a = Volem que la qualitat d'àudio reflecteixi la qualitat d'àudio que un motor de veu a text veurà en el món real. Per tant, volem varietat. Així, el motor de veu a text aprendrà a gestionar sense errors tot tipus de situacions (amb gent parlant al fons, soroll de cotxes o del ventilador, etc.).
 faq-hours-q = Per què l'objectiu és enregistrar 10.000 hores d'àudio?
-faq-hours-a = Aquest és, aproximadament, el nombre d'hores necessari per a entrenar un sistema de reconeixement de veu en producció.
+faq-hours-a = Aquest és, aproximadament, el nombre d'hores necessari per a entrenar un sistema de reconeixement de la veu en producció.
 faq-source-q = D'on prové el text original?
 faq-source-a1 = Les frases actuals provenen de donacions dels col·laboradors, també de diàlegs de guions de pel·lícules de domini públic, com ara <italic>Que bonic que és viure.</italic>
 faq-source-a2 = Podeu veure les frases originals en <dataLink>aquesta carpeta del GitHub</dataLink>.
@@ -152,7 +150,7 @@ faq-source-a2 = Podeu veure les frases originals en <dataLink>aquesta carpeta de
 ## Profile
 
 profile-why-title = Per què cal crear un perfil?
-profile-why-content = Si proporcioneu informació vostra, les dades d'àudio que envieu al Common Voice seran més útils per als motors de reconeixement de veu que utilitzen aquestes dades per millorar la seva precisió.
+profile-why-content = Si proporcioneu informació vostra, les dades d'àudio que envieu al Common Voice seran més útils per als motors de reconeixement de la veu que utilitzen aquestes dades per millorar la seva precisió.
 
 ## NotFound
 
@@ -161,14 +159,14 @@ notfound-content = No s'ha trobat allò que cercàveu.
 
 ## Data
 
-data-download-button = Baixa les dades de Common Voice
+data-download-button = Baixa les dades del Common Voice
 data-download-yes = Sí
 data-download-deny = No
 data-download-license = Llicència: <licenseLink>CC-0</licenseLink>
 data-download-modal = Esteu a punt d'iniciar una baixada de <size>{ $size } GB</size>, voleu continuar?
 data-subtitle = Estem creant un conjunt de dades de veus obert i disponible públicament que tothom pot utilitzar per entrenar aplicacions que utilitzin la veu.
 data-explanatory-text = Creiem que uns conjunts de dades grans i disponibles públicament promouran la innovació i la competència comercial sana en la tecnologia de la veu basada en l'aprenentatge automàtic. Aquest és un esforç global i convidem tothom a participar-hi. El nostre objectiu és fer que la tecnologia de la veu sigui més inclusiva i reflecteixi la diversitat de veus d'arreu del món.
-data-get-started = <speechBlogLink>Primers passos en el reconeixement de veu</speechBlogLink>
+data-get-started = <speechBlogLink>Primers passos en el reconeixement de la veu</speechBlogLink>
 data-other-title = Altres conjunts de dades de veu…
 data-other-goto = Vés a { $name }
 data-other-download = Baixa les dades
