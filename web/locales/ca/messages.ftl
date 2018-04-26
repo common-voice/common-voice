@@ -118,7 +118,9 @@ female = Dona
 # Gender
 other = Altre
 why-profile-title = Per què un perfil?
-why-profile-text = Si proporcioneu informació vostra, les dades d'àudio que envieu al Common Voice seran més útils per als motors de reconeixement de veu que utilitzen aquestes dades per millorar la seva precisió.
+why-profile-text =
+    By providing some information about yourself, the audio data you submit to Common Voice will be more useful to Speech
+    Recognition engines that use this data to improve their accuracy.
 edit-profile = Edita el perfil
 profile-create = Crea un perfil
 profile-create-success = Fet. S'ha creat el perfil!
@@ -149,6 +151,7 @@ faq-source-a2 = Podeu veure les frases originals en <dataLink>aquesta carpeta de
 ## Profile
 
 profile-why-title = Per què cal crear un perfil?
+profile-why-content = Si proporcioneu informació vostra, les dades d'àudio que envieu al Common Voice seran més útils per als motors de reconeixement de veu que utilitzen aquestes dades per millorar la seva precisió.
 
 ## NotFound
 
@@ -162,6 +165,7 @@ data-download-yes = Sí
 data-download-deny = No
 data-download-license = Llicència: <licenseLink>CC-0</licenseLink>
 data-download-modal = Esteu a punt d'iniciar una baixada de <size>{ $size } GB</size>, voleu continuar?
+data-get-started = <speechBlogLink>Primers passos en el reconeixement de veu</speechBlogLink>
 data-other-title = Altres conjunts de dades de veu…
 data-other-goto = Vés a { $name }
 data-other-download = Baixa les dades
@@ -192,11 +196,20 @@ terms-agree = D'acord
 terms-disagree = No hi estic d'acord
 review-aborted = S'ha cancel·lat l'enviament. Voleu suprimir els vostres enregistraments?
 review-submit-title = Revisa i envia
+review-submit-msg = Gràcies pel vostre enregistrament!<lineBreak></lineBreak>A continuació podeu revisar i enviar els vostres talls de veu.
 review-recording = Revisa
 review-rerecord = Torna a enregistrar
+review-cancel = Cancel·la l'enviament
+review-keep-recordings = Conserva els enregistraments
+review-delete-recordings = Suprimeix els meus enregistraments
 
 ## Download Modal
 
+download-title = Ha començat la baixada.
+download-helpus = Ajudeu-nos a construir una comunitat al voltant de les tecnologies de veu, manteniu-vos en contacte per correu electrònic.
+download-form-email =
+    .label = Introduïu la vostra adreça electrònica
+    .value = Gràcies, estarem en contacte.
 download-back = Torna als conjunts de dades del Common Voice
 download-no = No, gràcies
 
@@ -212,6 +225,17 @@ contact-required = * necessari
 
 ## Request Language Modal
 
+request-language-title = Sol·licitud de llengua
+request-language-cancel = Surt del formulari
+request-language-form-language =
+    .label = Llengua
+request-language-success-title = La sol·licitud de llengua s'ha enviat correctament, gràcies.
 
 ## Languages Overview
 
+language-section-in-progress = En curs
+language-section-launched = Publicats
+languages-show-more = Més informació
+languages-show-less = Menys informació
+language-speakers = Parlants
+language-total-progress = Total
