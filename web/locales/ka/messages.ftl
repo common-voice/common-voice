@@ -170,7 +170,13 @@ data-get-started = <speechBlogLink>დაიწყეთ ხმის ამო�
 data-other-title = სხვა ხმოვანი მონაცემების ნაკრებები...
 data-other-goto = { $name }-ზე გადასვლა
 data-other-download = მონაცემების ჩამოტვირთვა
+data-other-librispeech-description = LibriSpeech წარმოადგენს დაახლოებით 1000 საათიან, 16Khz ხმოვანი ჩანაწერების ნაკრებს, LibriVox პროექტის ხმოვანი წიგნებიდან.
+data-other-ted-name = TED-LIUM ნაკრები
+data-other-ted-description = TED-LIUM ნაკრები იყო ხმოვანი საუბრებისა და სამეტყველო ბგერებისგან შედგენილი, რომელიც TED ვებსაიტზე იყო ხელმისაწვდომი.
+data-other-voxforge-description = VoxForge იყო სამეტყველო ბგერათა ხმოვანი ნაკრები, უფასო და ღია წყაროს ხმოვანი ამოცნობის სისტემებისთვის შექმნილი.
+data-other-tatoeba-description = Tatoeba არის დიდი მონაცემთა ნაკრები წინადადებების, თარგმანის, საუბრის ჩანაწერების, ენის შესწავლისთვის გამოსაყენებლად. ეს ჩამოტვირთვა შეიცავს ინგლისურად მოსაუბრეთა ჩანაწერებს, მათი ერთობიდან.
 data-bundle-button = მონაცემთა კრებულის ჩამოტვირთვა
+data-bundle-description = Common Voice მონაცემებს დამატებული, ზემოთ არსებული ყველა სხვა ხმოვან მონაცემთა ნაკრები.
 license = ლიცენზია: <licenseLink>{ $license }</licenseLink>
 license-mixed = შერეული
 
