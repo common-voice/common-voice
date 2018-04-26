@@ -163,6 +163,7 @@ record-retry = Újra
 record-error-too-short = A felvétel túl rövid volt.
 record-error-too-long = A felvétel túl hosszú volt.
 record-error-too-quiet = A felvétel túl halk volt.
+record-help = Kattintson az felvétel gombra majd olvassa fel hangosan az alábbi mondatot.
 record-cancel = Újrarögzítés megszakítása
 review-terms = A Common Voice használatával elfogadja a <termsLink>Jogi feltételeket</termsLink> és az <privacyLink>Adatvédelmi nyilatkozatot</privacyLink>
 terms-agree = Elfogadom
