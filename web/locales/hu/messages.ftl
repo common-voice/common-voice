@@ -2,10 +2,13 @@
 
 yes-receive-emails = Igen, kérek e-maileket. Figyelemmel szeretném kísérni a Common Voice projektet.
 stayintouch = Mi a Mozillánál közösséget építünk a hangtechnológia köré. Szeretnénk tartani a kapcsolatot a közösséggel, tájékoztatni a frissítésekről és az új adatforrásokról, valamint tájékozódni arról, hogyan használja a közösség az adatokat.
+privacy-info = Ígérjük, hogy adatait körültekintően kezeljük. További információk az <privacyLink>Adatvédelmi nyilatkozatunkban</privacyLink>.
+return-to-cv = Visszatérés a Common Voice oldalra
 email-input =
     .label = E-mail
 submit-form-action = Elküldés
 loading = Betöltés…
+audio-loading-error = Sajnáljuk! Jelenleg a hangfájlok feldolgozása folyik, próbálja újra később.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 
@@ -53,6 +56,7 @@ profile = Profil
 help = Súgó
 contact = Kapcsolat
 privacy = Adatvédelem
+terms = Jogi feltételek
 cookies = Sütik
 faq = GYIK
 back-top = Vissza a tetejére
@@ -116,13 +120,6 @@ profile-why-title = Miért kell a profil?
 
 notfound-title = Nem található
 notfound-content = Attól tartok, nem tudom mit keres.
-
-## Privacy
-
-
-## Terms
-
-terms-privacy-title = Adatvédelem
 
 ## Data
 
