@@ -64,19 +64,33 @@ back-top = Vissza a tetejére
 ## Home Page
 
 home-title = A Common Voice projekt egy Mozilla kezdeményezés arra, hogy segítsük a gépeket megtanítani, hogyan beszélnek az emberek. 
+home-cta = Szólaljon meg, működjön közre.
 show-wall-of-text = Bővebben
+help-us-title = Segítsen jóváhagyni a mondatokat.
+help-us-explain = Nyomja meg a lejátszás gombot, hallgassa meg a mondatot és mondja el: helyesen hangzik el az alábbi mondat?
 vote-yes = Igen
 vote-no = Nem
+request-language-text = Nem látja az anyanyelvét a Common Voice-on? 
+request-language-button = Nyelv kérése
 
 ## ProjectStatus
 
+status-title = Összesített projekt státusz: nézze meg hol tartunk.
+status-contribute = Adja a hangját
+status-hours =
+    { $hours ->
+        [one] Eddig egy órányi hanganyag lett jóváhagyva.
+       *[other] Eddig { $hours } órányi hanganyag lett jóváhagyva.
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Következő cél: { $goal }
+status-more-soon = Hamarosan további nyelvek is lesznek!
 english = Angol
 
 ## ProfileForm
 
+profile-form-cancel = Űrlap bezárása
 profile-form-delete = Profil törlése
 profile-form-username =
     .label = Felhasználónév
@@ -123,6 +137,7 @@ notfound-content = Attól tartok, nem tudom mit keres.
 
 ## Data
 
+data-download-button = Common Voice adatok letöltése
 data-download-yes = Igen
 data-download-deny = Nem
 data-download-license = Licenc: <licenseLink>CC-0</licenseLink>
@@ -188,6 +203,7 @@ request-language-cancel = Űrlap bezárása
 request-language-form-language =
     .label = Nyelv
 request-language-success-title = Nyelvkérés sikeresen beküldve, köszönjük.
+request-language-success-content = Hamarosan jelenkezünk további információkkal arról, hogy tudja hozzáadni a nyelvét a Common Voice projekthez.
 
 ## Languages Overview
 
