@@ -126,16 +126,6 @@ profile-why-title = Kvifor profil?
 notfound-title = Ikkje funne
 notfound-content = Eg er redd for at eg ikkje forstår kva du ser etter.
 
-## Privacy
-
-privacy-more = <more>Les meir</more>
-
-## Terms
-
-terms-privacy-title = Personvern
-terms-communications-title = Kommunikasjon
-terms-general-title = Generelt
-
 ## Data
 
 data-download-button = Last ned Common Voice Data
@@ -145,16 +135,20 @@ data-download-license = Lisens: <licenseLink>CC-0</licenseLink>
 data-other-goto = Gå til { $name }
 data-other-download = Last ned data
 data-other-ted-name = TED-LIUM korpus
+data-bundle-button = Last ned Dataset-pakken
 
 ## Record Page
 
 record-cancel = Avbryt nyinnspelinga
+record-retry = Prøv igjen
 record-error-too-short = Innspelinga var for kort.
 record-error-too-long = Innspelinga var for lang.
 record-error-too-quiet = Innspelinga var for stille.
 record-submit-success = Sendt inn! Vil du spele inn meir?
 record-help = Trykk for å spele inn, les deretter setninga ovanfor høgt.
 record-cancel = Avbryt nyinnspelinga
+terms-agree = Eg er samd
+terms-disagree = Eg er ikkje samd
 review-submit-title = Vurder og send inn
 review-recording = Vurder
 review-rerecord = Spel inn på nytt
