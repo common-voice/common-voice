@@ -139,6 +139,8 @@ data-bundle-button = Last ned Dataset-pakken
 
 ## Record Page
 
+record-platform-not-supported-ios = <bold>iOS</bold>-brukarar kan laste ned gratisappen vår:
+record-must-allow-microphone = Du må tillate tilgang tilmikrofonen.
 record-cancel = Avbryt nyinnspelinga
 record-retry = Prøv igjen
 record-error-too-short = Innspelinga var for kort.
@@ -153,6 +155,8 @@ review-submit-title = Vurder og send inn
 review-recording = Vurder
 review-rerecord = Spel inn på nytt
 review-cancel = Avbryt innsending
+review-keep-recordings = Behald opptaka
+review-delete-recordings = Slett opptaka mine
 
 ## Download Modal
 
@@ -181,3 +185,8 @@ request-language-form-language =
 
 ## Languages Overview
 
+language-section-launched = Lansert
+languages-show-more = Vis meir
+languages-show-less = Vis mindre
+language-speakers = Høgtalarar
+language-total-progress = Totalt
