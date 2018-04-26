@@ -1,7 +1,55 @@
+## General
+
+yes-receive-emails = Sí, envieu-me correus electrònics. Vull estar informat del projecte Common Voice.
+stayintouch = A Mozilla estem construint una comunitat al voltant de les tecnologies de la veu. Voldríem estar al dia de les novetats, de noves fonts de dades i saber com useu aquestes dades.
+privacy-info = Ens comprometem a gestionar la vostra informació amb cura. Per a més informació, vegeu la <privacyLink>política de privadesa</privacyLink>.
+return-to-cv = Torna al Common Voice
+email-input =
+    .label = Adreça electrònica
+submit-form-action = Envia
+loading = S'està carregant…
+audio-loading-error = Estem processant els fitxers d'àudio. Torneu a provar-ho d'aquí una mica.
+
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+
+
+## Languages
+
+ga-IE = irlandès
+cs = txec
+uz = uzbek
+de = alemany
+bn = bengalí
+sk = eslovac
+ca = català
+ko = coreà
+es-CL = espanyol (Xile)
+th = tailandès
+pl = polonès
+pt-BR = portuguès (Brasil)
+id = indonesi
+zh-TW = xinès (Taiwan)
+cy = gal·lès
+el = grec
+cv = txuvaix
+sv-SE = suec
+fr = francès
+tr = turc
+tt = tàtar
+fy-NL = frisó
+he = hebreu
+zh-CN = xinès (Xina)
+nl = neerlandès
+sq = albanès
+ru = rus
+it = italià
+en = anglès
+
 ## Layout
 
 speak = Parleu
 datasets = Conjunts de dades
+languages = Llengües
 profile = Perfil
 help = Ajuda
 contact = Contacte
@@ -11,6 +59,7 @@ cookies = Galetes
 faq = PMF
 content-license-text = Contingut disponible en els termes de la <licenseLink>llicència Creative Commons</licenseLink>
 share-title = Ajudeu-nos a trobar altres persones que donin la veu!
+back-top = Torna a dalt
 
 ## Home Page
 
@@ -21,12 +70,15 @@ wall-of-text-more-mobile = La majoria de les dades usades per grans companyies n
 wall-of-text-more-desktop = Ara podeu donar la vostra veu per a ajudar-nos a construir una base de dades de veu amb llicència oberta que qualsevol pot usar per a desenvolupar aplicacions innovadores per als aparells i el web.<lineBreak></lineBreak>Llegiu una frase per a ajudar les màquines a aprendre com parlen les persones reals. Reviseu la feina d'altres col·laboradors per a millorar la qualitat. Així de fàcil!
 show-wall-of-text = Més informació
 help-us-title = Ajudeu-nos a validar frases!
+vote-yes = Sí
+vote-no = No
+request-language-text = No trobeu la vostra llengua al Common Voice?
 
 ## ProjectStatus
 
 status-contribute = Col·laboreu amb la vostra veu
-loading = S'està carregant…
-status-hours = { $hours ->
+status-hours =
+    { $hours ->
         [one] Ja s'ha validat { $hours } hora!
        *[other] Ja s'han validat { $hours } hores!
     }
@@ -34,14 +86,14 @@ status-hours = { $hours ->
 # $goal - number of hours representing the next goal
 status-goal = Objectiu següent: { $goal }
 status-more-soon = Aviat hi haurà més llengües disponibles!
+english = anglès
 
 ## ProfileForm
 
-email-input =
-    .label = Adreça electrònica
+profile-form-cancel = Surt del formulari
+profile-form-delete = Suprimeix el perfil
 profile-form-username =
     .label = Nom d'usuari
-yes-receive-emails = Sí, envieu-me correus. Vull estar informat sobre el projecte Common Voice.
 profile-form-language =
     .label = Llengua
 profile-form-more-languages = Aviat hi haurà més llengües disponibles!
@@ -51,6 +103,18 @@ profile-form-age =
     .label = Edat
 profile-form-gender =
     .label = Sexe
+profile-form-submit-save = Desa
+profile-form-submit-saved = S'ha desat
+profile-keep-data = Conserva les dades
+profile-delete-data = Suprimeix les dades
+male = Home
+female = Dona
+# Gender
+other = Altre
+why-profile-title = Per què un perfil?
+profile-create = Crea un perfil
+profile-create-success = Fet. S'ha creat el perfil!
+profile-close = Tanca
 
 ## FAQ
 
@@ -60,8 +124,14 @@ faq-what-a = La tecnologia de reconeixement de veu podria revolucionar com inter
 faq-important-q = Per què és important?
 faq-get-q = Com puc obtenir les dades de Common Voice?
 faq-mission-q = Per què Common Voice és part de la missió de Mozilla?
+faq-native-q = Sóc un parlant no natiu de { $lang } i parlo amb accent. Tot i això voleu la meva llengua?
+faq-native-a = Sí, volem la vostra veu! Part de l'objectiu del Common Voice és recollir tants accents diferents com sigui possible, de manera que els ordinadors puguin entendre millor <bold>tothom</bold> quan parli.
+faq-firefox-q = Amb el Common Voice, algun dia la funcionalitat de veu a text s'integrarà en el Firefox?
 faq-hours-q = Per què l'objectiu és enregistrar 10.000 hores d'àudio?
 faq-hours-a = Aquest és, aproximadament, el nombre d'hores necessari per a entrenar un sistema de reconeixement de veu en producció.
+faq-source-q = D'on prové el text original?
+faq-source-a1 = Les frases actuals provenen de donacions dels col·laboradors, també de diàlegs de guions de pel·lícules de domini públic, com ara <italic>Que bonic que és viure.</italic>
+faq-source-a2 = Podeu veure les frases originals en <dataLink>aquesta carpeta del GitHub</dataLink>.
 
 ## Profile
 
@@ -70,21 +140,6 @@ profile-why-title = Per què cal crear un perfil?
 ## NotFound
 
 notfound-title = No s'ha trobat
-
-## Privacy
-
-privacy-title = Avís de privadesa de Common Voice
-privacy-effective = En vidor des del { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
-privacy-more = <more>Més informació</more>
-
-## Terms
-
-terms-title = Condicions legals de Common Voice
-terms-effective = En vidor des del { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
-terms-eligibility-content = Cal que tingueu més de 13 anys, o que el vostre tutor legal autoritzi i supervisi la vostra participació en aquest projecte col·laboratiu.
-terms-privacy-title = Privadesa
-terms-communications-title = Comunicacions
-terms-general-title = General
 
 ## Data
 
@@ -101,6 +156,7 @@ license = Llicència: <licenseLink>{ $license }</licenseLink>
 
 record-platform-not-supported-desktop = En ordinadors d'escriptori, podeu baixar l'últim:
 record-platform-not-supported-ios = Els usuaris de l'<bold>iOS</bold> poden baixar la nostra aplicació gratuïta:
+record-cancel = Cancel·la el reenregistrament
 record-error-too-short = L'enregistrament és massa curt.
 record-error-too-long = L'enregistrament és massa llarg.
 record-cancel = Cancel·la el reenregistrament
@@ -113,7 +169,7 @@ review-rerecord = Torna a enregistrar
 
 download-no = No, gràcies
 
-## Contact
+## Contact Modal
 
 contact-title = Formulari de contacte
 contact-cancel = Cancel·la
@@ -122,4 +178,9 @@ contact-form-name =
 contact-form-message =
     .label = Missatge
 contact-required = * necessari
-submit-form-action = Envia
+
+## Request Language Modal
+
+
+## Languages Overview
+
