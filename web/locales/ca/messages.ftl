@@ -136,6 +136,7 @@ faq-important-a = La veu és natural, la veu és humana. Es la forma més fàcil
 faq-get-q = Com puc obtenir les dades de Common Voice?
 faq-get-a = El conjunt de dades està disponible en la <downloadLink>pàgina de baixada</downloadLink> amb llicència <licenseLink>CC-0</licenseLink>.
 faq-mission-q = Per què Common Voice és part de la missió de Mozilla?
+faq-mission-a = La missió de Mozilla és mantenir el Web obert i accessible a tothom. Per fer-ho, necessitem oferir eines als creadors de contingut web mitjançant projectes com el Common Voice. Les tecnologies de veu estan proliferant més enllà d'aplicacions molt especialitzades, i creiem que han de servir a tots els usuaris en igualtat de condicions. Veiem la necessitat d'incloure més llengües, accents i dades demogràfiques quan es creen i es proven les tecnologies de veu. Mozilla vol que Internet sigui saludable i vibrant. Això significa donar als creadors novells accés a les dades de veu per tal que puguin crear projectes nous i extraordinaris. El Common Voice serà un recurs públic que ajudarà els equips de Mozilla i els desenvolupadors d'arreu del món.
 faq-native-q = Sóc un parlant no natiu de { $lang } i parlo amb accent. Tot i això voleu la meva llengua?
 faq-native-a = Sí, volem la vostra veu! Part de l'objectiu del Common Voice és recollir tants accents diferents com sigui possible, de manera que els ordinadors puguin entendre millor <bold>tothom</bold> quan parli.
 faq-firefox-q = Amb el Common Voice, algun dia la funcionalitat de veu a text s'integrarà en el Firefox?
@@ -165,12 +166,16 @@ data-download-yes = Sí
 data-download-deny = No
 data-download-license = Llicència: <licenseLink>CC-0</licenseLink>
 data-download-modal = Esteu a punt d'iniciar una baixada de <size>{ $size } GB</size>, voleu continuar?
+data-subtitle = Estem creant un conjunt de dades de veus obert i disponible públicament que tothom pot utilitzar per entrenar aplicacions que utilitzin la veu.
+data-explanatory-text = Creiem que uns conjunts de dades grans i disponibles públicament promouran la innovació i la competència comercial sana en la tecnologia de la veu basada en l'aprenentatge automàtic. Aquest és un esforç global i convidem tothom a participar-hi. El nostre objectiu és fer que la tecnologia de la veu sigui més inclusiva i reflecteixi la diversitat de veus d'arreu del món.
 data-get-started = <speechBlogLink>Primers passos en el reconeixement de veu</speechBlogLink>
 data-other-title = Altres conjunts de dades de veu…
 data-other-goto = Vés a { $name }
 data-other-download = Baixa les dades
 data-other-librispeech-description = LibriSpeech és un corpus d'aproximadament 1.000 hores de diàlegs en anglès llegits a 16 KHz derivat de la lectura d'audiollibres del projecte LibriVox.
-data-other-ted-name = Corpus TED-LIUM
+data-other-ted-name = Corpus de TED-LIUM
+data-other-ted-description = El corpus de TED-LIUM es va crear a partir d'enregistraments d'àudio i llurs transcripcions disponibles en el lloc web de TED.
+data-other-voxforge-description = VoxForge es va crear per recollir transcripcions de diàlegs que es puguin utilitzar en motors de reconeixement de la veu de codi obert.
 data-other-tatoeba-description = Tatoeba és una gran base de dades de frases, traduccions i enregistraments d'àudio per a l'ús en l'aprenentatge de llengües. Aquesta baixada conté tots els enregistraments d'anglès parlat fets per la comunitat.
 data-bundle-button = Baixa el paquet del conjunt de dades
 data-bundle-description = Dades del Common Voice més tot els conjunts de dades de veu anteriors.
@@ -230,6 +235,7 @@ request-language-cancel = Surt del formulari
 request-language-form-language =
     .label = Llengua
 request-language-success-title = La sol·licitud de llengua s'ha enviat correctament, gràcies.
+request-language-success-content = Aviat ens posarem en contacte amb més informació sobre com afegir la vostra llengua al Common Voice.
 
 ## Languages Overview
 
