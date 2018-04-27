@@ -79,12 +79,36 @@ home-title = El proyecto Common Voice es una iniciativa de Mozilla para ayudar a
 home-cta = ¡Hable más alto, contribuya aquí!
 wall-of-text-start = La voz es natural, la voz es humana. Es por eso que estamos fascinados con crear una tecnología de voz para nuestras máquinas. Pero para crear sistemas de voz, se requiere enorme cantidad de muestras de voz.
 wall-of-text-more-mobile = La mayor parte de los datos usados por las grandes compañías no esta disponible para la mayoría de las personas. Nosotros pensamos que eso impide la innovación. Así que lanzamos el proyecto Common Voice, un proyecto para ayudar a hacer que el reconocimiento de voz esté disponible para todos.
+wall-of-text-more-desktop = Ahora puede donar su voz para ayudarnos a construir una base de datos de voz de código abierto que cualquiera pueda usar para hacer aplicaciones innovadoras para dispositivos y la web.<lineBreak></lineBreak>Lea una oración para ayudar a enseñarles a las máquinas cómo hablan las personas. Revise el trabajo de otros contribuyentes para mejorar la calidad. ¡Es así de simple!
+show-wall-of-text = Leer más
+help-us-title = ¡Ayúdenos a validar oraciones!
+help-us-explain = Presione reproducir, escuche y cuéntenos: ¿dijeron con precisión la oración anterior?
+vote-yes = Sí
+vote-no = No
+request-language-text = ¿Aún no encuentra su idioma en Common Voice?
+request-language-button = Solicite de un Idioma
 
 ## ProjectStatus
 
+status-title = Estado general del proyecto: ¡Vea lo lejos que llegamos!
+status-contribute = Contribuya con su voz
+status-hours =
+    { $hours ->
+        [one] ¡Una hora validada hasta ahora!
+       *[other] ¡{ $hours } horas validadas hasta ahora!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Siguiente objetivo: { $goal }
+status-more-soon = ¡Más idiomas próximamente!
+english = Inglés
 
 ## ProfileForm
 
+profile-form-cancel = Salir del formulario
+profile-form-delete = Eliminar el perfil
+profile-form-username =
+    .label = Nombre de usuario
 
 ## FAQ
 
