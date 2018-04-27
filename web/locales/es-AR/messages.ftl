@@ -196,6 +196,11 @@ record-platform-not-supported-desktop = En computadoras de escritorio puede desc
 record-platform-not-supported-ios = Los usuarios de <bold>iOS</bold> pueden descargar nuestra app gratuita:
 record-must-allow-microphone = Debe permitir el acceso al micrófono.
 record-retry = Reintentar
+record-error-too-short = La grabación fue muy corta.
+record-error-too-long = La grabación fue demasiada larga.
+record-error-too-quiet = La grabación fue demasiado silenciosa.
+record-submit-success = ¡Envío exitoso! ¿Quiere volver a grabar?
+record-help = Por favor toque para grabar y luego lea la oración anterior en voz alta.
 
 ## Download Modal
 
