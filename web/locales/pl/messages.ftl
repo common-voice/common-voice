@@ -15,37 +15,46 @@ audio-loading-error = Przetwarzamy pliki dźwiękowe, proszę spróbować ponown
 
 ## Languages
 
-ga-IE = irlandzki
-cs = czeski
-uz = uzbecki
-de = niemiecki
 bn = bengalski
-sk = słowacki
 ca = kataloński
-ko = koreański
+cs = czeski
+cv = czuwaski
+cy = walijski
+da = duński
+de = niemiecki
+e = n
+E = n
+el = grecki
+es-AR = hiszpański (Argentyna)
 es-CL = hiszpański (Chile)
-th = tajski
+fr = francuski
+fy-NL = fryzyjski
+ga-IE = irlandzki
+he = hebrajski
+hu = węgierski
+id = indonezyjski
+it = włoski
+ka = gruziński
+ko = koreański
+mk = macedoński
+nl = holenderski
+nn-NO = norweski (nynorsk)
+or = orija
 pl = polski
 pt-BR = portugalski (Brazylia)
-id = indonezyjski
-zh-TW = chiński (Tajwan)
-cy = walijski
-el = grecki
-cv = czuwaski
+ro = rumuński
+ru = rosyjski
+sk = słowacki
+sq = albański
 sv-SE = szwedzki
-mk = macedoński
-nn-NO = norweski (nynorsk)
-fr = francuski
+ta = tamilski
+th = tajski
 tr = turecki
 tt = tatarski
-fy-NL = fryzyjski
-he = hebrajski
+uk = ukraiński
+uz = uzbecki
 zh-CN = chiński (Chiny)
-nl = holenderski
-sq = albański
-ru = rosyjski
-it = włoski
-en = angielski
+zh-TW = chiński (Tajwan)
 
 ## Layout
 
@@ -157,32 +166,6 @@ profile-why-content = Dodając informację o sobie, dane zbierane w projekcie 
 
 notfound-title = Nie odnaleziono
 notfound-content = Obawiam się, że nie ma tutaj tego, czego szukasz.
-
-## Privacy
-
-privacy-title = Zasady ochrony prywatności Common Voice
-privacy-effective = Wchodzi w życie z dniem { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
-privacy-policy = Kiedy Mozilla (to my) otrzymuje od Ciebie informacje, nasze <policy>zasady ochrony prywatności Mozilli</policy> opisują, jak je przetwarzamy.
-privacy-data-demographic = <name>Dane demograficzne.</name> Możesz zdecydować o przesłaniu nam dodatkowych informacji o Twoim akcencie, wieku i płci. Pomoże to deweloperom i badaczom w tworzeniu systemów i narzędzi rozpoznawania mowy.
-privacy-data-account = <name>Dane konta.</name> Możesz opcjonalnie utworzyć konto, przez co otrzymamy Twój adres e-mail. Jest to powiązane z Twoimi danymi demograficznymi i danymi interakcji, które nie są publikowane.
-privacy-data-recordings = <name>Nagrania dźwiękowe.</name> Nagrania głosowe z powiązanymi danymi demograficznymi mogą być dostępne do pobrania i wykorzystania w publicznym zbiorze danych Common Voice.
-privacy-data-interaction = <name>Dane interakcji.</name> Używamy Google Analytics, aby lepiej zrozumieć, jak korzystasz z aplikacji i strony Common Voice. Na przykład zawierają one liczbę próbek głosu, które nagrywasz lub odtwarzasz, interakcje z przyciskami i menu, długość sesji.
-privacy-data-technical = <name>Dane techniczne.</name> Używamy Google Analytics do zbierania informacje o odwiedzanych stronach Common Voice. Zapisujemy informację o przeglądarce, wielkości okna i rozdzielczości ekranu. Zbieramy także informację o lokalizacji oraz używanym języku w przeglądarce. 
-privacy-more = <more>Więcej informacji</more>
-
-## Terms
-
-terms-title = Warunki prawne Common Voice
-terms-effective = Wchodzi w życie z dniem { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
-terms-eligibility-title = Uprawnieni użytkownicy
-terms-eligibility-content = Aby uczestniczyć w projekcie, musisz mieć ukończony 13 rok życia lub mieć zgodę rodziców albo opiekuna prawnego.
-terms-privacy-title = Prywatność
-terms-privacy-content = Nasze <privacyLink>Zasady ochrony prywatności</privacyLink> wyjaśniają, w jaki sposób przetwarzamy zebrane dane.
-terms-contributions-title = Wkład własny i prawa autorskie
-terms-contributions-content = Przesyłając nagrania, zrzekasz się wszelkich praw autorskich i praw pokrewnych, zarazem zgadzasz się na publiczne udostępnienie nagrań na licencji <licenseLink>CC-0</licenseLink>. Oznacza to, że tracisz prawo dochodzenia wszelkich roszczeń na podstawie prawa autorskiego oraz praw do zbioru danych, w tym również praw do jawności, prywatności i innych powiązanych.
-terms-communications-title = Komunikacja
-terms-communications-content = Jeśli subskrybujesz nasze biuletyny lub utworzysz profil w projekcie Common Voice, możesz otrzymywać od nas wiadomości (np. aktualności o warunkach prawnych, prywatności i bezpieczeństwie).
-terms-general-title = Warunki ogólne
 
 ## Data
 
