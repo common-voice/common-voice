@@ -61,16 +61,16 @@ cookies = Cookies
 faq = Preguntas frecuentes
 content-license-text = Contenido disponible a través de una <licenseLink>Licencia Creative Commons</licenseLink>
 share-title = ¡Ayudanos a llegar a más personas que quieran donar su voz!
-share-text = Ayuda a enseñar a las máquinas cómo habla la gente real, dona tu voz en { $link }
+share-text = Ayuda a enseñarles a las máquinas cómo hablan las personas, dona tu voz en { $link }
 back-top = Volver al inicio
 
 ## Home Page
 
-home-title = El proyecto Common Voice es una iniciativa de Mozilla para ayudar a enseñarles a las máquinas cómo habla la gente real.
+home-title = El proyecto Common Voice es una iniciativa de Mozilla para ayudar a enseñarles a las máquinas cómo hablan las personas.
 home-cta = Habla, ¡contribuye aquí!
 wall-of-text-start = La voz es natural, la voz es humana. Es por eso que estamos fascinados con crear una tecnología de voz para nuestras maquinas. Pero para crear un sistema de voz, una cantidad extremadamente grande de muestras de voz es requerida.
 wall-of-text-more-mobile = La mayor parte de los datos usados por las grandes compañías no esta disponible para las personas. Nosotros pensamos que eso sofoca la innovación. Así que lanzamos el proyecto Common Voice, un proyecto para hacer que el reconocimiento de voz esté disponible para todos.
-wall-of-text-more-desktop = Ahora puedes donar tu voz para ayudarnos a construir una base de datos de voz de código abierto que cualquiera pueda usar para hacer aplicaciones innovadoras para dispositivos y la web.<lineBreak></lineBreak>Lee una oración para ayudar a enseñarles a las máquinas cómo habla la gente real. revisa el trabajo de otros contribuidores para mejorar la calidad. ¡Así de simple!
+wall-of-text-more-desktop = Ahora puedes donar tu voz para ayudarnos a construir una base de datos de voz de código abierto que cualquiera pueda usar para hacer aplicaciones innovadoras para dispositivos y la web.<lineBreak></lineBreak>Lee una oración para ayudar a enseñarles a las máquinas cómo hablan las personas. Revisa el trabajo de otros contribuidores para mejorar la calidad. ¡Así de simple!
 show-wall-of-text = Leer más
 help-us-title = ¡Ayúdanos a verificar oraciones!
 help-us-explain = Presiona reproducir, escucha y cuéntanos: ¿dijeron con precisión la oración anterior?
@@ -156,39 +156,6 @@ profile-why-content = Al entregar un poco de información sobre ti, los datos de
 
 notfound-title = No encontrado
 notfound-content = Perdóname, no sé qué estás buscando.
-
-## Privacy
-
-privacy-title = Aviso de privacidad de Common Voice.
-privacy-effective = Válido desde { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
-privacy-policy = Cuando Mozilla (nosotros), recibe información sobre ti, nuestra <policy>Política de privacidad de Mozilla</policy> describe cómo manejamos esa información.
-privacy-data-demographic = <name>Datos demográficos.</name> Puedes opcionalmente enviarnos información como tu acento, edad y género. Esto nos ayuda a nosotros y a otros investigadores a mejorar y crear tecnologías y herramientas voz-a-texto.
-privacy-data-account = <name>Datos de cuenta.</name> Puedes opcionalmente crear una cuenta, caso en el cual recibiremos tu dirección de correo. Esto es asociado a tus datos demográficos y de interacción pero no es compartido al público.
-privacy-data-recordings = <name>Grabaciones de voz.</name> Las grabaciones de voz, junto con cualquier dato demográfico asociado, estarán disponibles en la base de datos de Common Voice para el consumo y uso público.
-privacy-data-interaction = <name>Datos de interacción.</name> Usamos Google Analytics para mejorar el entendimiento de cómo interactúas con la aplicación de Common Voice o su sitio web. Por ejemplo, esto incluye el número de muestras de voz que grabas o escuchas, interacciones con botones y menús y duraciones de las sesiones.
-privacy-data-technical = <name>Datos técnicos.</name> Usando Google Analytics, recolectamos la URL y el título de las páginas de Common Voice que visitas. Recolectamos información sobre tu navegador, el tamaño del viewport y la resolución de la pantalla. También recolectamos tu ubicación y el ajuste de idioma de tu navegador.
-privacy-more = <more>Aprender más</more>
-
-## Terms
-
-terms-title = Términos legales de Common Voice
-terms-effective = Válido desde { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
-terms-eligibility-title = Elegibilidad
-terms-eligibility-content = Debes tener más de 13 años o consentimiento y supervisión paterno o de tu guardián para participar en nuestro proyecto de crowd-sourcing.
-terms-privacy-title = Privacidad
-terms-privacy-content = Nuestra <privacyLink>Política de privacidad</privacyLink> explica cómo recibimos y manejamos tus datos.
-terms-contributions-title = Tus contribuciones y liberación de derechos
-terms-contributions-content = Al enviar tus grabaciones, renuncias a todos los derechos de autor y derechos relacionados que puedas tener en ellas, y aceptas liberar las grabaciones al público bajo <licenseLink>CC-0</licenseLink>. Esto significa que aceptas renunciar a todos los derechos sobre las grabaciones en todo el mundo bajo la ley de derechos de autor y bases de datos, incluyendo derechos morales y publicitarios y todos los derechos relacionados y conexos.
-terms-communications-title = Comunicaciones
-terms-communications-content = Si te suscribes para recibir nuestro boletín o te registrar para tener una cuenta conectada a Common Voice, puede que recibas correos de nosotros relacionados a tu cuenta (por ejemplo actualizaciones sobre temas legales, de privacidad y de seguridad).
-terms-general-title = General
-terms-general-liability1 = Renuncia; Limitación de responsabilidad: COMMON VOICE Y TODAS LAS GRABACIONES INCLUIDAS SON PROPORCIONADOS "TAL CUAL" SIN GARANTÍA DE NINGÚN TIPO, YA SEA EXPRESA O IMPLÍCITA. MOZILLA NO SE RESPONSABILIZA Y NO ASUME NINGUNA RESPONSABILIDAD POR LAS GRABACIONES QUE USTED O CUALQUIER OTRO USUARIO O TERCEROS PUBLIQUE O TRANSMITA USANDO COMMON VOICE.
-terms-general-liability2 = MOZILLA NIEGA ESPECÍFICAMENTE CUALQUIERA Y TODAS LAS GARANTÍAS Y CONDICIONES DE COMERCIABILIDAD, IDONEIDAD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN, Y CUALQUIER GARANTÍA QUE SURJA DEL CURSO DE NEGOCIACIÓN O USO DE COMERCIO.
-terms-general-liability3 = EN LA MEDIDA QUE PERMITE LA LEY APLICABLE, ACEPTAS LIBERAR Y NO DAÑAR A MOZILLA CORPORATION Y A SUS RESPECTIVOS  RELACIONADOS, SUBSIDIARIOS, AFILIADOS, DIRECTORES, FUNCIONARIOS, EMPLEADOS Y AGENTES (LAS "PARTES DE MOZILLA") DE CUALQUIER RESPONSABILIDAD POR CUALQUIER DAÑO , PÉRDIDA O RETRASO (INCLUIDAS LAS LESIONES PERSONALES, LA MUERTE O EL DAÑO A LA PROPIEDAD) QUE RESULTEN ENTERA O EN PARTE, DIRECTA O INDIRECTAMENTE, DE TU PARTICIPACIÓN EN COMMON VOICE.
-terms-general-liability4 = CON EXCEPCIÓN DE LO REQUERIDO POR LA LEY, MOZILLA Y LAS PARTES DE MOZILLA NO SERÁN RESPONSABLES DE NINGÚN DAÑO INDIRECTO, ESPECIAL, INCIDENTAL, CONSECUENCIAL O EJEMPLAR DERIVADO O RELACIONADO DE CUALQUIER OTRA FORMA CON ESTOS TÉRMINOS O CON EL USO O LA INCAPACIDAD DE USAR LOS SERVICIOS, INCLUYENDO PERO SIN LIMITARSE A DAÑOS DIRECTOS E INDIRECTOS POR PÉRDIDA DE BUENA VOLUNTAD, PÉRDIDA DE TRABAJO, PÉRDIDA DE GANANCIAS, PÉRDIDA DE DATOS Y FALLAS O MAL FUNCIONAMIENTO DEL COMPUTADOR, AUN CUANDO SE HAYA ADVERTIDO DE LA POSIBILIDAD DE DICHOS DAÑOS Y SIN IMPORTAR LA TEORÍA (CONTRATO, AGRAVIO O DE OTRA ÍNDOLE) SOBRE EL QUE SE BASA DICHA RECLAMACIÓN. LA RESPONSABILIDAD COLECTIVA DE MOZILLA Y LAS PARTES DE MOZILLA BAJO ESTE ACUERDO NO EXCEDERÁ DE $500 (QUINIENTOS DÓLARES). ALGUNAS JURISDICCIONES NO PERMITEN LA EXCLUSIÓN O LIMITACIÓN DE DAÑOS INCIDENTALES, CONSECUENCIALES O ESPECIALES, POR LO QUE ESTA EXCLUSIÓN Y LIMITACIÓN PUEDE NO SER APLICABLE EN TU CASO.
-terms-general-updates = Actualizaciones: Mozilla puede actualizar estos términos de tiempo en tiempo para reflejar una nueva funcionalidad de los servicios o para clarificar una provisión. Los términos actualizados serán publicados en línea. Si los cambios son sustantivos, anunciaremos la actualización a través de los canales usuales de Mozilla para esos anuncios como publicaciones de blog y foros. Tu continuo uso de los servicios después de la fecha efectiva de estos cambios constituye tu aceptación de los cambios. Para hacer tu revisión más conveniente, publicaremos una fecha efectiva en la parte superior de esta página.
-terms-general-termination = Terminación: Podemos suspender o terminar tu acceso a los servicios en cualquier momento por cualquier razón, realizaremos esfuerzos razonables para notificarte a través de tu dirección de correo asociada a tu cuenta o la próxima vez que intentes acceder a los servicios. Independiente de toda terminación, todas las grabaciones que hayas enviado a Mozilla continuarán estando disponibles públicamente.
-terms-general-law = Ley aplicable: estos términos legales constituyen el acuerdo completo entre tu y Mozilla con respecto a Common Voice y se rigen por las leyes del estado de California, EE. UU.
 
 ## Data
 
