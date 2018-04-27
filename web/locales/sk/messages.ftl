@@ -39,6 +39,7 @@ ko = kórejčina
 mk = macedónčina
 nl = holandčina
 nn-NO = nórčina (Nynorsk)
+or = urijčina
 pl = poľština
 pt-BR = portugalčina (Brazília)
 ro = rumunčina
