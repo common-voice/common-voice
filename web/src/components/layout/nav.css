@@ -45,14 +45,11 @@ header {
 
         &:first-child {
             justify-content: flex-start;
+            align-items: center;
         }
 
         &:last-child {
             justify-content: flex-end;
-
-            @media (--md-up) {
-                margin-top: -1.5rem;
-            }
         }
     }
 

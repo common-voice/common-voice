@@ -52,13 +52,14 @@ interface LayoutProps
 
 interface LayoutState {
   isMenuVisible: boolean;
-  scrolled: boolean;
+  hasScrolled: boolean;
+  hasScrolledDown: boolean;
   transitioning: boolean;
   isRecording: boolean;
   showStagingBanner: boolean;
 }
 
-class Layout extends React.Component<LayoutProps, LayoutState> {
+class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   private header: HTMLElement;
   private scroller: HTMLElement;
   private bg: HTMLElement;
@@ -76,7 +77,8 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
 
   state: LayoutState = {
     isMenuVisible: false,
-    scrolled: false,
+    hasScrolled: false,
+    hasScrolledDown: false,
     transitioning: false,
     isRecording: false,
     showStagingBanner: true,
@@ -189,11 +191,14 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
     });
   };
 
+  lastScrollTop: number;
   private handleScroll = () => {
-    let scrolled = this.scroller.scrollTop > 0;
-    if (scrolled !== this.state.scrolled) {
-      this.setState({ scrolled: scrolled });
-    }
+    const { scrollTop } = this.scroller;
+    this.setState({
+      hasScrolled: scrollTop > 0,
+      hasScrolledDown: scrollTop > this.lastScrollTop,
+    });
+    this.lastScrollTop = scrollTop;
   };
 
   private toggleMenu = () => {
@@ -218,6 +223,12 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
 
   render() {
     const { isSetFull, locale, location } = this.props;
+    const {
+      hasScrolled,
+      hasScrolledDown,
+      isMenuVisible,
+      showStagingBanner,
+    } = this.state;
 
     const pageName = location.pathname.split('/')[2] || 'home';
     let className = pageName;
@@ -245,7 +256,7 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
             </div>
           )}
         {window.location.hostname == 'voice.allizom.org' &&
-          this.state.showStagingBanner && (
+          showStagingBanner && (
             <div className="staging-banner">
               You're on the staging server.{' '}
               <a href="https://voice.mozilla.org">Don't waste your breath.</a>{' '}
@@ -260,7 +271,10 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
           )}
         <header
           className={
-            !this.state.isMenuVisible && this.state.scrolled ? 'active' : ''
+            !isMenuVisible &&
+            (hasScrolled ? 'active' : '') +
+              ' ' +
+              (hasScrolledDown ? 'hidden' : '')
           }
           ref={header => {
             this.header = header as HTMLElement;
@@ -281,8 +295,8 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
             <button
               id="hamburger-menu"
               onClick={this.toggleMenu}
-              className={this.state.isMenuVisible ? 'active' : ''}>
-              <MenuIcon className={this.state.isMenuVisible ? 'active' : ''} />
+              className={isMenuVisible ? 'active' : ''}>
+              <MenuIcon className={isMenuVisible ? 'active' : ''} />
             </button>
           </div>
         </header>
