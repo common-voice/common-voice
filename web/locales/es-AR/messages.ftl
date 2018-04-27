@@ -109,6 +109,17 @@ profile-form-cancel = Salir del formulario
 profile-form-delete = Eliminar el perfil
 profile-form-username =
     .label = Nombre de usuario
+profile-form-language =
+    .label = Idioma
+profile-form-more-languages = ¡Más idiomas próximamente!
+profile-form-accent =
+    .label = Acento
+profile-form-age =
+    .label = Edad
+profile-form-gender =
+    .label = Género
+profile-form-submit-save = Guardar
+profile-form-submit-saved = Guardado
 
 ## FAQ
 
