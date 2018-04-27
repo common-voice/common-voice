@@ -365,7 +365,7 @@ body:not(.ios) .recording #background-container {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(61, 254, 253, 0.9);
+    background-color: var(--black);
     height: 3rem;
     line-height: 3rem;
     vertical-align: middle;
@@ -376,6 +376,7 @@ body:not(.ios) .recording #background-container {
     z-index: var(--top-z-index);
     transform: translateY(0);
     transition: transform var(--transition-duration) linear;
+    font-family: var(--base-font-family);
 }
 
 #install-app.hide {
