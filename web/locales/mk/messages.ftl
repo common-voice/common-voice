@@ -1,10 +1,12 @@
 ## General
 
+yes-receive-emails = Да, испраќај ми е-пошта. Би сакал(а) да останам информиран(а) за проектот Common Voice.
 return-to-cv = Назад на Common Voice
 email-input =
     .label = Е-пошта
 submit-form-action = Поднеси
 loading = Се вчитува...
+audio-loading-error = Извинете! Ги обработуваме нашите тонски записи. Ве молиме обидете се повторно за кратко.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 
@@ -18,6 +20,8 @@ cv = Чуваш
 cy = Велшки
 da = Дански
 de = Германски
+e = n
+E = n
 el = Грчки
 es-AR = Шпански (Аргентина)
 es-CL = Шпански (Чиле)
@@ -64,6 +68,7 @@ cookies = Колачиња
 faq = ЧПП
 content-license-text = Содржината е достапна под <licenseLink>лиценца на Creative Commons</licenseLink>
 share-title = Помогнете ни да најдеме други лица кои ќе го донираат нивниот глас!
+share-text = Помогнете им на машините да научат како зборуваат луѓето. Донирајте го вашиот глас на { $link }
 back-top = Назад кон врвот
 
 ## Home Page
@@ -75,6 +80,7 @@ help-us-title = Помогнете ни да валидираме речениц
 vote-yes = Да
 vote-no = Не
 request-language-text = Сѐ уште не го гледате вашиот јазик на Common Voice?
+request-language-button = Побарајте јазик
 
 ## ProjectStatus
 
@@ -134,6 +140,8 @@ profile-why-title = Зошто профил?
 
 ## NotFound
 
+notfound-title = Не постои
+notfound-content = Се плашам дека не знам што барате.
 
 ## Data
 
@@ -142,15 +150,19 @@ data-download-yes = Да
 data-download-deny = Не
 data-download-license = Лиценца: <licenseLink>CC-0</licenseLink>
 data-download-modal = Сигурно сакате да започнете со преземање на <size>{ $size }GB</size>?
+data-get-started = <speechBlogLink>Започнете со препознавање на говор</speechBlogLink>
 data-other-title = Други гласовни податочни сетови...
 data-other-goto = Појди до { $name }
 data-other-download = Преземи податоци
+data-other-ted-name = Корпус TED-LIUM
 license = Лиценца: <licenseLink>{ $license }</licenseLink>
 license-mixed = Мешана
 
 ## Record Page
 
 record-platform-not-supported = Се извинуваме, но вашата платформа сѐ уште не е поддржана.
+record-platform-not-supported-desktop = На компјутер, можете да ги преземете најновите:
+record-platform-not-supported-ios = Корисниците на <bold>iOS</bold> може да ја преземат нашата бесплатна апликација:
 record-must-allow-microphone = Морате да дозволите пристап до микрофонот.
 record-cancel = Откажи преснимување
 record-retry = Пробај пак
@@ -162,6 +174,8 @@ record-cancel = Откажи преснимување
 terms-agree = Се согласувам
 terms-disagree = Не се согласувам
 review-aborted = Качувањето е прекинато. Дали сакате да ја избришете вашата снимка?
+review-submit-title = Преглед и достава
+review-submit-msg = Ви благодариме за снимката!<lineBreak></lineBreak>Сега, прегледајте ги вашите исечоци подолу и доставете ги.
 review-recording = Прегледај
 review-rerecord = Сними повторно
 review-cancel = Откажи поднесок
@@ -171,6 +185,7 @@ review-delete-recordings = Избриши ги моите снимки
 ## Download Modal
 
 download-title = Вашето преземање започна.
+download-helpus = Помогнете ни да изградиме заедница за гласовни технологии. Останете во контакт преку е-пошта.
 download-form-email =
     .label = Внесете ја вашата е-пошта
     .value = Ви благодариме, ќе бидеме во контакт.
@@ -189,8 +204,12 @@ contact-required = *потребно
 
 ## Request Language Modal
 
+request-language-title = Барање за јазик
+request-language-cancel = Откажи
 request-language-form-language =
     .label = Јазик
+request-language-success-title = Барањето за јазик е успешно доставено, ви благодариме.
+request-language-success-content = Наскоро ќе ве контактираме со повеќе информации за тоа како да го додадете вашиот јазик на Common Voice.
 
 ## Languages Overview
 
