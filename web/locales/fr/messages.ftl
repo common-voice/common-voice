@@ -15,37 +15,44 @@ audio-loading-error = Désolé, nous préparons nos fichiers audio. Veuillez ré
 
 ## Languages
 
-ga-IE = Irlandais
-cs = Tchèque
-uz = Ouzbek
-de = Allemand
 bn = Bengali
-sk = Slovaque
 ca = Catalan
-ko = Coréen
+cs = Tchèque
+cv = Tchouvache
+cy = Gallois
+da = Danois
+de = Allemand
+el = Grec
+es-AR = Espagnol (Argentine)
 es-CL = Espagnol (Chili)
-th = Thaï
+fr = Français
+fy-NL = Frison
+ga-IE = Irlandais
+he = Hébreu
+hu = Hongrois
+id = Indonésien
+it = Italien
+ka = Géorgien
+ko = Coréen
+mk = Macédonien
+nl = Néerlandais
+nn-NO = Norvégien nynorsk
+or = Odia
 pl = Polonais
 pt-BR = Portugais (Brésil)
-id = Indonésien
-zh-TW = Chinois (Taïwan)
-cy = Gallois
-el = Grec
-cv = Tchouvache
+ro = Roumain
+ru = Russe
+sk = Slovaque
+sq = Albanais
 sv-SE = Suédois
-mk = Macédonien
-nn-NO = Norvégien nynorsk
-fr = Français
+ta = Tamoul
+th = Thaï
 tr = Turc
 tt = Tatar
-fy-NL = Frison
-he = Hébreu
+uk = Ukrainien
+uz = Ouzbek
 zh-CN = Chinois (Chine)
-nl = Néerlandais
-sq = Albanais
-ru = Russe
-it = Italien
-en = Anglais
+zh-TW = Chinois (Taïwan)
 
 ## Layout
 
