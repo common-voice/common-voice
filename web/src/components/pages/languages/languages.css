@@ -192,6 +192,7 @@
             transition: margin-left var(--transition-duration-slow) var(--easing);
 
             @media (--md-up) {
+                margin-top: 2.5rem;
                 width: auto;
             }
 
