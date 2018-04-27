@@ -43,6 +43,8 @@ wall-of-text-more-desktop =
 show-wall-of-text = Baca Lebih Lanjut
 help-us-title = Bantu kami memvalidasi kalimat-kalimat!
 help-us-explain = Tekan mulai, dengarkan, dan beri tahu kami: apakah mereka sudah mengucapkan kalimat di bawah ini dengan akurat?
+vote-yes = Ya
+vote-no = Tidak
 request-language-text = Belum melihat bahasa Anda di Common Voice?
 request-language-button = Ajukan Bahasa
 
@@ -74,6 +76,8 @@ profile-form-gender =
     .label = Jenis Kelamin
 profile-form-submit-save = Simpan
 profile-form-submit-saved = Disimpan
+profile-delete-data = Hapus Data
+profile-close = Tutup
 
 ## FAQ
 
@@ -111,6 +115,8 @@ notfound-content = Maaf, kami tidak tahu apa yang Anda cari.
 ## Data
 
 data-download-button = Unduh Data Common Voice
+data-download-yes = Ya
+data-download-deny = Tidak
 data-download-license = Lisensi: <licenseLink>CC-0</licenseLink>
 data-download-modal = Anda akan memulai mengunduh sekitar <size>{ $size } GB </size>, lanjutkan?
 data-subtitle = Kami membangun dataset suara yang terbuka dan tersedia untuk umum yang dapat digunakan siapa saja untuk melatih aplikasi yang terfungsikan dengan ucapan.
@@ -178,3 +184,4 @@ request-language-success-title = Terima kasih, permintaan bahasa baru berhasil d
 
 ## Languages Overview
 
+language-speakers = Penutur

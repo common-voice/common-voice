@@ -9,3 +9,4 @@ get-involved-email =
     .label = Surel
 get-involved-opt-in = Ya, kabari saya melalui surel. Saya ingin tetap diberi tahu tentang perkembangan bahasa ini di Common Voice. 
 get-involved-submit = Kirim
+get-involved-return-to-languages = Kembali ke Bahasa
