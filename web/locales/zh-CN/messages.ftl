@@ -15,37 +15,46 @@ audio-loading-error = 抱歉！我们正在处理音频文件，请稍后再试�
 
 ## Languages
 
-ga-IE = 爱尔兰语
-cs = 捷克语
-uz = 乌兹别克语
-de = 德语
 bn = 孟加拉语
-sk = 斯洛伐克语
 ca = 加泰隆语
-ko = 韩语
+cs = 捷克语
+cv = 楚瓦什语
+cy = 威尔士语
+da = 丹麦语
+de = 德语
+e = n
+E = n
+el = 希腊语
+es-AR = 西班牙语 (阿根廷)
 es-CL = 西班牙语（智利）
-th = 泰语
+fr = 法语
+fy-NL = 弗里西语
+ga-IE = 爱尔兰语
+he = 希伯莱语
+hu = 匈牙利语
+id = 印度尼西亚语
+it = 意大利语
+ka = 格鲁吉亚语
+ko = 韩语
+mk = 马其顿语
+nl = 荷兰语
+nn-NO = 新挪威语
+or = 奥里亚语
 pl = 波兰语
 pt-BR = 葡萄牙语（巴西）
-id = 印度尼西亚语
-zh-TW = 汉语（台湾）
-cy = 威尔士语
-el = 希腊语
-cv = 楚瓦什语
+ro = 罗马尼亚语
+ru = 俄语
+sk = 斯洛伐克语
+sq = 阿尔巴尼亚语
 sv-SE = 瑞典语
-mk = 马其顿语
-nn-NO = 新挪威语
-fr = 法语
+ta = 泰米尔语
+th = 泰语
 tr = 土耳其语
 tt = 鞑靼语
-fy-NL = 弗里西语
-he = 希伯莱语
+uk = 乌克兰语
+uz = 乌兹别克语
 zh-CN = 汉语（中国大陆）
-nl = 荷兰语
-sq = 阿尔巴尼亚语
-ru = 俄语
-it = 意大利语
-en = 英语
+zh-TW = 汉语（台湾）
 
 ## Layout
 
@@ -155,39 +164,6 @@ profile-why-content = 凭借您提供一些有关本人的信息，您提交给 
 
 notfound-title = 未找到
 notfound-content = 很抱歉，找不到您想找的东西。
-
-## Privacy
-
-privacy-title = Common Voice 隐私声明
-privacy-effective = 有效期至 { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
-privacy-policy = 我们的 <policy>Mozilla 隐私政策</policy>描述了我们如何处理所收到的您的信息。
-privacy-data-demographic = <name>人口特征。</name>您可以选择向我们发送您的口音、年龄等信息。这有助于我们和其他研究人员改进并打造语音转文本技术和工具。
-privacy-data-account = <name>账户数据。</name>您可以选择创建账户，在这种情况下我们会收到您的电子邮件地址。这将与您的人口特征和互动数据关联，但不会向公众分享。
-privacy-data-recordings = <name>声音录音。</name>声音录音及任何相关的人口特征数据，可在公共语音数据库中供公众消费和使用。
-privacy-data-interaction = <name>交互数据。</name>我们使用谷歌分析服务更好地了解您如何 Common Voice 应用程序或网站交互。例如您录制或收听的语音样本数量、与按钮和菜单的交互、会话长度。
-privacy-data-technical = <name>技术数据。</name>我们使用谷歌分析服务收集您访问的 Common Voice 网页的网址和标题。我们收集您的浏览器名称、视区大小和屏幕分辨率。我们还会收集您的地理位置以及浏览器中的语言设置。
-privacy-more = <more>了解更多</more>
-
-## Terms
-
-terms-title = Common Voice 法律条款
-terms-effective = 有效期至 { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
-terms-eligibility-title = 资格
-terms-eligibility-content = 您必须已满 13 周岁，否则须在家长或监护人同意和监督下参与我们的众包项目。
-terms-privacy-title = 隐私
-terms-privacy-content = 我们的<privacyLink>隐私声明</privacyLink>说明了我们如何接收和处理您的数据。
-terms-contributions-title = 您的贡献和发布的权利
-terms-contributions-content = 提交您的录音，即视为您放弃您可能拥有的所有版权和相关权利，并且您同意将录音在遵循<licenseLink>CC-0</licenseLink>许可下发布给公众。这意味着您同意在全球范围内放弃录音在版权和数据库法律规定下的一切权利，包括道德和宣传权利，以及所有相关权利和邻接权利。
-terms-communications-title = 交流
-terms-communications-content = 如果您订阅接收我们的新闻稿或注册一个与 Common Voice 相关的账户，您可能会收到我们与您的账户相关的电子邮件 (例如，法律、隐私和安全更新)。
-terms-general-title = 常规
-terms-general-liability1 = 免责声明；责任限制：COMMON VOICE 及其包含的所有录制内容均按“原样”提供，不作任何形式的担保，无论明示或暗示。 对于您或任何其他用户或第三方使用 COMMON VOICE 进行发送或传输的任何录制内容，MOZILLA 不承担任何责任。
-terms-general-liability2 = Mozilla 明确不作任何类型的担保，不保证适销性、适用性、无侵权等条件，以及任何在交易或使用过程中产生的任何担保。
-terms-general-liability3 = 在适用法律允许的范围内，您同意释放和保护无害的 MOZILLA 公司及其各自的母公司、子公司、附属公司、董事、官员、雇员和代理人（“Mozilla 缔约方”），对任何直接或间接地、全部或部分地来自您参与 COMMON VOICE 造成的损坏，承担一切责任、损失或延误（包括人身伤害、死亡或财产损失）。
-terms-general-liability4 = 除非法律要求，Mozilla 和 Mozilla 缔约方将不承担任何间接的、特殊的、附带的、相应的，或以任何方式与这些条款有关或使用或无法使用服务造成的损害赔偿责任，包括但不限于对商誉损失、停工、利润损失、数据丢失和计算机故障或故障的直接和间接损害的情况下，即使告知此种损害的可能性，不论其基于这种主张的理论 (合同、侵权或其它) 为何。Mozilla 和 Mozilla 缔约方根据本协议承担的集体责任不会超过 500 美元 (包括 500 美元 )。有些司法管辖区不允许排除或限制附带的、相应的或特殊的损害赔偿，因此这种排除和限制可能不适用于您。
-terms-general-updates = 补充：Mozilla 可能不定期更新这些条款以解决服务的新功能或澄清某项条款。修改后的条款将在网上发布。 如果修改是实质性的，我们将通过 Mozilla 通常的渠道宣布修改，例如博客文章和论坛等。您在修改生效日期之后继续使用服务即表示您接受此类更改。为了让您方便检查，我们将在此页面的顶部标注生效日期。
-terms-general-termination = 终止：我们可能会因任何原因暂停或终止您访问服务的权利，我们会尽力通过您账户下的电子邮件地址或在下一次您前来使用服务时通知您。不论为何终止，您提交给 Mozilla 的所有录音将继续公开可用。
-terms-general-law = 管辖法律：这些法律条款构成您和 Mozilla 关于 Common Voice 的全部协议，并受美国加利福尼亚州的法律管辖。
 
 ## Data
 
