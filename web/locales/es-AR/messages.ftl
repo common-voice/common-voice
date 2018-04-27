@@ -171,6 +171,17 @@ notfound-content = Perdóneme, no sé qué es lo que estásbuscando.
 data-download-button = Descargar datos de Common Voice
 data-download-yes = Sí
 data-download-deny = No
+data-download-license = Licencia: <licenseLink>CC-0</licenseLink>
+data-download-modal = Está a punto de iniciar una descarga de <size>{ $size }GB</size>, ¿proceder?
+data-subtitle = Estamos construyendo un archivo de datos de voces abierto y disponible públicamente que todos pueden usar para entrenar aplicaciones de reconocimiento de voz.
+data-explanatory-text = Creemos que los archivos de datos de voz grandes y disponibles públicamente promueven la innovación y la competencia comercial sana en las tecnologías de voz basadas en el aprendizaje de las máquinas. Este es un esfuerzo mundial e invitamos a todos a participar. Nuestra meta es ayudar a la tecnología de voz a ser más inclusiva, reflejando la diversidad de las voces de todo el mundo.
+data-get-started = <speechBlogLink>Empezar con el Reconocimiento de voz</speechBlogLink>
+data-other-title = Otros archivos de datos de voz…
+data-other-goto = Ir a { $name }
+data-other-download = Descargar Datos
+data-other-librispeech-description = LibriSpeech es un cuerpo de aproximadamente 1000 horas de lectura en inglés en 16Khz derivada de audiolibros del proyecto LibriVox.
+data-other-ted-name = Cuerpo de TED-LIUM
+data-other-ted-description = El cuerpo de TED-LIUM se hizo de audios de charlas y de sus transcripciones disponibles en el sitio web de TED
 
 ## Record Page
 
