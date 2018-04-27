@@ -182,9 +182,20 @@ data-other-download = Descargar Datos
 data-other-librispeech-description = LibriSpeech es un cuerpo de aproximadamente 1000 horas de lectura en inglés en 16Khz derivada de audiolibros del proyecto LibriVox.
 data-other-ted-name = Cuerpo de TED-LIUM
 data-other-ted-description = El cuerpo de TED-LIUM se hizo de audios de charlas y de sus transcripciones disponibles en el sitio web de TED
+data-other-voxforge-description = VoxForge se hizo para recolectar las expresiones transcriptas para ser usadas por motores de reconocimiento de voz de código abierto.
+data-other-tatoeba-description = Tatoeba es una gran base de datos de oraciones, traducciones y audio hablado para usar en el aprendizaje de idiomas. Esta descarga contiene inglés hablado grabado por su comunidad.
+data-bundle-button = Descargar paquete de archivo de datos
+data-bundle-description = Datos de Common Voice junto con todos los archivos de datos de voz anteriores.
+license = Licencia: <licenseLink>{ $license }</licenseLink>
+license-mixed = Mixta
 
 ## Record Page
 
+record-platform-not-supported = Lo sentimos, pero su plataforma no es compatible en la actualidad.
+record-platform-not-supported-desktop = En computadoras de escritorio puede descargar la última versión:
+record-platform-not-supported-ios = Los usuarios de <bold>iOS</bold> pueden descargar nuestra app gratuita:
+record-must-allow-microphone = Debe permitir el acceso al micrófono.
+record-retry = Reintentar
 
 ## Download Modal
 
