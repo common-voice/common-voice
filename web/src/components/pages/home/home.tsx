@@ -25,6 +25,8 @@ interface PropsFromState {
   api: API;
 }
 
+type Props = RouteComponentProps<any> & LocalePropsFromState & PropsFromState;
+
 interface State {
   messagesGenerator: any;
   showGetInvolvedModal: boolean;
@@ -32,10 +34,7 @@ interface State {
   showWallOfText: boolean;
 }
 
-class HomePage extends React.Component<
-  RouteComponentProps<any> & LocalePropsFromState & PropsFromState,
-  State
-> {
+class HomePage extends React.Component<Props, State> {
   state: State = {
     messagesGenerator: null,
     showGetInvolvedModal: false,
@@ -48,15 +47,15 @@ class HomePage extends React.Component<
   };
 
   async componentDidMount() {
-    await this.updateMessagesGenerator();
+    await this.updateMessagesGenerator(this.props);
   }
 
-  async componentDidUpdate() {
-    await this.updateMessagesGenerator();
+  async componentWillReceiveProps(nextProps: Props) {
+    await this.updateMessagesGenerator(nextProps);
   }
 
-  async updateMessagesGenerator() {
-    const { api, locale } = this.props;
+  async updateMessagesGenerator({ api, locale }: Props) {
+    if (this.state.messagesGenerator && locale === this.props.locale) return;
     this.setState({
       messagesGenerator: await createCrossLocaleMessagesGenerator(api, [
         locale,
