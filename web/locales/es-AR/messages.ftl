@@ -120,9 +120,23 @@ profile-form-gender =
     .label = Género
 profile-form-submit-save = Guardar
 profile-form-submit-saved = Guardado
+profile-keep-data = Mantener los datos
+profile-delete-data = Eliminar los datos
+male = Hombre
+female = Mujer
+# Gender
+other = Otro
+why-profile-title = ¿Por qué un perfil?
+why-profile-text = Al entregarnos un poco de información sobre usted, los datos de audio que envíe a Common Voice serán más útiles para los Motores de reconocimiento de voz que los usan para mejorar su precisión.
+edit-profile = Editar el perfil
+profile-create = Crear un perfil
+profile-create-success = ¡Hecho, perfil creado!
+profile-close = Cerrar
 
 ## FAQ
 
+faq-title = Preguntas frecuentes
+faq-what-q = ¿Qué es Common Voice?
 
 ## Profile
 
