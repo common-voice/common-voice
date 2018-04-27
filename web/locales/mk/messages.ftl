@@ -11,37 +11,44 @@ loading = Се вчитува...
 
 ## Languages
 
-ga-IE = Ирски
-cs = Чешки
-uz = Узбекистански
-de = Германски
 bn = Бенгали
-sk = Словачки
 ca = Каталонски
-ko = Корејски
+cs = Чешки
+cv = Чуваш
+cy = Велшки
+da = Дански
+de = Германски
+el = Грчки
+es-AR = Шпански (Аргентина)
 es-CL = Шпански (Чиле)
-th = Таи
+fr = Француски
+fy-NL = Фризиски
+ga-IE = Ирски
+he = Еврејски
+hu = Унгарски
+id = Индонезиски
+it = Италјански
+ka = Грузиски
+ko = Корејски
+mk = Македонски
+nl = Холандски
+nn-NO = Норвешки Нинорск
+or = Орија
 pl = Полски
 pt-BR = Португалски (Бразил)
-id = Индонезиски
-zh-TW = Кинески (Тајван)
-cy = Велшки
-el = Грчки
-cv = Чуваш
+ro = Романски
+ru = Руски
+sk = Словачки
+sq = Албански
 sv-SE = Шведски
-mk = Македонски
-nn-NO = Норвешки Нинорск
-fr = Француски
+ta = Тамил
+th = Таи
 tr = Турски
 tt = Татарски
-fy-NL = Фризиски
-he = Еврејски
+uk = Украински
+uz = Узбекистански
 zh-CN = Кинески (Кина)
-nl = Холандски
-sq = Албански
-ru = Руски
-it = Италјански
-en = Англиски
+zh-TW = Кинески (Тајван)
 
 ## Layout
 
@@ -67,6 +74,7 @@ show-wall-of-text = Прочитај повеќе
 help-us-title = Помогнете ни да валидираме реченици!
 vote-yes = Да
 vote-no = Не
+request-language-text = Сѐ уште не го гледате вашиот јазик на Common Voice?
 
 ## ProjectStatus
 
@@ -77,6 +85,10 @@ status-hours =
         [one] Еден валидиран час до сега!
        *[other] { $hours } валидирани часови до сега!
     }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Следна цел: { $goal }
+status-more-soon = Повеќе јазици наскоро!
 english = Англиски
 
 ## ProfileForm
@@ -87,6 +99,7 @@ profile-form-username =
     .label = Корисничко име
 profile-form-language =
     .label = Јазик
+profile-form-more-languages = Повеќе јазици наскоро!
 profile-form-accent =
     .label = Акцент
 profile-form-age =
