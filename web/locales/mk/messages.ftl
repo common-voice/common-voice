@@ -133,6 +133,14 @@ faq-what-q = Што е Common Voice?
 faq-important-q = Зошто е ова важно?
 faq-get-q = Како можам да дојдам до податоците на Common Voice?
 faq-mission-q = Зошто е Common Voice дел од мисијата на Mozilla?
+faq-native-q = { $lang } не е мојот мајчин јазик и зборувам со акцент. Сѐ го сакате мојот глас?
+faq-firefox-q = Дали говорот-во-текст, преку Common Voice, некогаш ќе стане дел од Firefox?
+faq-firefox-a = Common Voice има неограничен потенцијал и ние навистина ги истражуваме говорните интерфејси во многу производи на Mozilla, вклучително и Firefox.
+faq-quality-q = Кое ниво на квалитет е потребно за снимките, за да се користат?
+faq-hours-q = Зошто целта е да се направат снимки во времетрање од 10.000 часови?
+faq-hours-a = Ова е приближно, бројот на часови потребен за обука за производство со систем STT.
+faq-source-q = Од каде доаѓа изворниот текст?
+faq-source-a2 = Можете да ги погледнете изворните реченици во <dataLink>оваа папка на GitHub</dataLink>.
 
 ## Profile
 
@@ -155,6 +163,11 @@ data-other-title = Други гласовни податочни сетови..
 data-other-goto = Појди до { $name }
 data-other-download = Преземи податоци
 data-other-ted-name = Корпус TED-LIUM
+data-other-ted-description = Корпусот TED-LIUM беше изработен од аудио-говори и нивните транскрипции, достапни на мрежното место на TED.
+data-other-voxforge-description = VoxForge беше поставен за да собира транскрибиран говор за употреба со алатки за препознавање на говор со отворен код.
+data-other-tatoeba-description = Tatoeba е голема база на податоци за реченици, преводи и гласовни снимки за употреба при учење на јазици. Ова преземање содржи говорен англиски, снимен од нивната заедница.
+data-bundle-button = Преземи податочен пакет
+data-bundle-description = Податоците на Common Voice, плус сите други погоре-прикажани податочни сетови.
 license = Лиценца: <licenseLink>{ $license }</licenseLink>
 license-mixed = Мешана
 
@@ -170,7 +183,9 @@ record-error-too-short = Снимката беше премногу кратка
 record-error-too-long = Снимката беше премногу долга.
 record-error-too-quiet = Снимката беше премногу тивка.
 record-submit-success = Успешен поднесок! Сакаде да снимате повторно?
+record-help = Ве молам допрете за снимање и потоа прочитајте ја горната реченица на глас.
 record-cancel = Откажи преснимување
+review-terms = Со користење на Common Voice, вие се согласувате на <termsLink>Условите за користење</termsLink> и <privacyLink>Известувањето за приватност</privacyLink>
 terms-agree = Се согласувам
 terms-disagree = Не се согласувам
 review-aborted = Качувањето е прекинато. Дали сакате да ја избришете вашата снимка?
