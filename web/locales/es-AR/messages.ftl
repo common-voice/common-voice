@@ -144,15 +144,33 @@ faq-get-q = ¿Cómo puedo obtener los datos de Common Voice?
 faq-get-a = El archivo de datos está disponible ahora en nuestra <downloadLink>página de descarga</downloadLink> bajo la licencia <licenseLink>CC-0</licenseLink>.
 faq-mission-q = ¿Por qué es Common Voice parte de la misión de Mozilla?
 faq-mission-a = Mozilla se dedica a mantener la web abierta y accesible para todos. Para hacerlo necesitamos empoderar a los creadores web a través de proyectos como Common Voice. A medida que las tecnologías de voz proliferan más allá de las aplicaciones de nicho, nosotros creemos que deben servir igual de bien a todos los usuarios. Vemos una necesidad de incluir más idiomas, acentos y datos demográficos al construir y probar tecnologías de voz. Mozilla quiere ver una internet saludable y vibrante. Esto significa darle a acceso a datos de voz a nuevos creadores, de forma tal que puedan construir proyectos nuevos y extraordinarios. Common Voice será un recurso público que ayudará a los equipos de Mozilla y a los desarrolladores de todo el mundo.
+faq-native-q = El { $lang } no es mi idioma nativo y hablo con acento, ¿igual quieren mi voz?
+faq-native-a = ¡Sí, definitivamente queremos tu voz! Parte de la meta de Common Voice es conseguir tantos acentos como sea posible, para que las computadoras puedan entender mejor <bold>a todos</bold> cuando hablen.
+faq-firefox-q = ¿Será la tecnología de voz-a-texto, a través de Common Voice algún día parte de Firefox?
+faq-firefox-a = Common Voice tiene un potencial ilimitado y de hecho estamos explorando interfaces de voz en varios productos de Mozilla, incluyendo Firefox.
+faq-quality-q = ¿Cuál es nivel de calidad del audio necesario para que pueda ser utilizado?
+faq-quality-a = Queremos que la calidad de audio refleje la calidad del audio a la que el motor de voz-a-texto se enfrentará en el mundo real. Es por eso que queremos variedad. Esto le enseña al motor de voz-a-texto a manejar varias situaciones:  charlas en segundo plano como el ruido de vehículos y ventiladores sin cometer errores.
+faq-hours-q = ¿Por qué capturar10.000 horas de audio es una meta? 
+faq-hours-a = Este es aproximadamente el número de horas requerido para entrenar a un sistema STT a nivel de producción.
+faq-source-q = ¿De dónde viene el texto fuente?
+faq-source-a1 = Las oraciones actuales provienen de donaciones de contribuyentes junto a diálogos de textos de películas de dominio público como <italic>¡Que bello es vivir!</italic>.
+faq-source-a2 = Puede ver nuestras oraciones fuente en <dataLink>esta carpeta de GitHub</dataLink>.
 
 ## Profile
 
+profile-why-title = ¿Por qué un perfil?
+profile-why-content = Al entregar un poco de información sobre usted, los datos de audio que envíe a Common Voice serán aún más útiles para los motores de reconocimiento de voz que usan estos datos para mejorar su precisión.
 
 ## NotFound
 
+notfound-title = No encostrado
+notfound-content = Perdóneme, no sé qué es lo que estásbuscando.
 
 ## Data
 
+data-download-button = Descargar datos de Common Voice
+data-download-yes = Sí
+data-download-deny = No
 
 ## Record Page
 
