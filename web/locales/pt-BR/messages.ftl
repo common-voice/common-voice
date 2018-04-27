@@ -15,37 +15,42 @@ audio-loading-error = Desculpe! Nós estamos processando nossos arquivos de audi
 
 ## Languages
 
-ga-IE = Irlandês
-cs = Tcheco
-uz = Usbeque
-de = Alemão
 bn = Bengalês
-sk = Eslovaco
 ca = Catalão
-ko = Coreano
+cs = Tcheco
+cv = Tchuvache
+cy = Galês
+da = Dinamarquês
+de = Alemão
+el = Grego
+es-AR = Espanhol (Argentina)
 es-CL = Espanhol (Chile)
-th = Tailandês
+fr = Francês
+fy-NL = Frisão
+ga-IE = Irlandês
+he = Hebraico
+hu = Húngaro
+id = Indonésio
+it = Italiano
+ko = Coreano
+mk = Macedônio
+nl = Holandês
+nn-NO = Novo norueguês
 pl = Polonês
 pt-BR = Português (Brasil)
-id = Indonésio
-zh-TW = Chinês (Taiwan)
-cy = Galês
-el = Grego
-cv = Tchuvache
+ro = Romeno
+ru = Russo
+sk = Eslovaco
+sq = Albanês
 sv-SE = Sueco
-mk = Macedônio
-nn-NO = Novo norueguês
-fr = Francês
+ta = Tâmil
+th = Tailandês
 tr = Turco
 tt = Tártaro
-fy-NL = Frisão
-he = Hebraico
+uk = Ucraniano
+uz = Usbeque
 zh-CN = Chinês (China)
-nl = Holandês
-sq = Albanês
-ru = Russo
-it = Italiano
-en = Inglês
+zh-TW = Chinês (Taiwan)
 
 ## Layout
 
@@ -156,39 +161,6 @@ profile-why-content = Ao fornecer algumas informações sobre você, os dados de
 
 notfound-title = Não encontrado
 notfound-content = Eu tenho receio de não saber o que vocês estão procurando.
-
-## Privacy
-
-privacy-title = Aviso de Privacidade do Common Voice
-privacy-effective = Eficaz
-privacy-policy = Quando a Mozilla (somos nós) recebemos a informação de você, nossa <policy>Política de Privacidade da Mozilla</policy> descrevem como tratamos aquela informação.
-privacy-data-demographic = <name>Dados demográficos</name> Você pode opcionalmente nos enviar informações como sotaque, idade e gênero. Isso ajudará a nós e a outros pesquisadores a melhorar e criar tecnologias de voz para texto e ferramentas.
-privacy-data-account = <name>Dados da conta.</name> Você pode opcionalmente criar uma conta, caso em que recebemos seus endereço de e-mail. Isto será associado com seus dados demográficos e interações, mas não será compartilhada publicamente.
-privacy-data-recordings = <name>Gravações de Voz.</name> As gravações de voz, assim como todos os dados demográficos associados, podem estar disponíveis na base de dados do Common Voice pra uso e consumo público.
-privacy-data-interaction = <name>Interação de dados.</name> Nós usamos o Google Analytics para melhor entender como você interage com o site ou o aplicativo do Common Voice. Por exemplo, o número de amostras de voz que você grava ou escuta, interações com botões e menus, duração de sessão.
-privacy-data-technical = <name>Dados técnicos.</name> Usando o Google Analytics, nós coletamos os endereços e título das páginas que você visita no Common Voice. Coletamos dados sobre o seu navegador, dimensão da janela de visualização e resolução de tela. Nós coletamos também sua localização e configurações de idioma do seu navegador.
-privacy-more = <more>Saiba mais</more>
-
-## Terms
-
-terms-title = Termos Legais do Common Voice
-terms-effective = Efetivado em { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
-terms-eligibility-title = Elegibilidade
-terms-eligibility-content = Você deve ter mais de 13 anos ou ter o consentimento dos seus pais ou responsável para supervisionar sua participação em nosso projeto colaborativo.
-terms-privacy-title = Privacidade
-terms-privacy-content = Nossos <privacyLink>Avisos de Privacidade</privacyLink> explicam como receberemos e cuidaremos dos seus dados.
-terms-contributions-title = Suas contribuições e liberação de direitos
-terms-contributions-content = Ao enviar suas gravações, você renuncia a todos os direitos autorais e direitos relacionados que você pode ter neles, e você aceita disponibilizar as gravações para o público sob <licenseLink>CC-0</licenseLink>. Isso significa que você concorda em renunciar a todos os direitos sobre as gravações em todo o mundo sob leis de direitos autorais e de base de dados, incluindo direitos morais e publicitários e todos os direitos relacionados e conexos.
-terms-communications-title = Comunicações
-terms-communications-content = Se você assinar nossos boletins informativos ou se registrar para ter uma conta no Common Voice, você pode receber nossos e-mails em sua conta (por exemplo, atualizações jurídicas, de privacidade e segurança).
-terms-general-title = Geral
-terms-general-liability1 = Declaração de exoneração de responsabilidade; Limitação da Responsabilidade: O COMMON VOICE E TODAS AS GRAVAÇÕES INCLUSAS SÃO PROVIDOS NA CONDIÇÃO DE "COMO É" SEM QUALQUER GARANTIA DE NENHUM TIPO, SENDO EXPRESSO OU IMPLÍCITO. A MOZILLA NÃO SE RESPONSABILIZA POR QUALQUER GRAVAÇÃO QUE VOCÊ OU QUALQUER OUTRO USUÁRIO OU TERCEIRO PUBLICA OU TRANSMITE UTILIZANDO COMMON VOICE. 
-terms-general-liability2 = A MOZILLA EXONERA ESPECIFICAMENTE TODAS E QUAISQUER GARANTIAS E CONDIÇÕES DE COMERCIALIDADE, ADEQUAÇÃO A UM PROPÓSITO PARTICULAR, E NÃO VIOLAÇÃO, E QUAISQUER GARANTIAS RESULTANTES DO CURSO DE NEGOCIAÇÃO OU UTILIZAÇÃO COMERCIAL.
-terms-general-liability3 = NA EXTENSÃO PERMITIDA PELA LEGISLAÇÃO APLICÁVEL, VOCÊ CONCORDA EM LIBERAR E ISENTAR A CORPORAÇÃO MOZILLA E SEUS RESPONDENTES, SUBSIDIÁRIAS, AFILIADOS, DIRETORES, OFICIAIS, EMPREGADOS E AGENTES (AS "PARTES DA MOZILLA"), DE QUALQUER E TODA A RESPONSABILIDADE POR QUALQUER DANO, PERDA OU ATRASO (INCLUINDO LESÕES INDIVIDUAIS, MORTE OU DANOS DE PROPRIEDADE) RESULTANTES INTEIRAMENTE OU EM PARTE, DIRETAMENTE OU INDIRETAMENTE, DA SUA PARTICIPAÇÃO NO COMMON VOICE.
-terms-general-liability4 = EXCETO SE FOR REQUERIDO POR LEI, A MOZILLA E AS PARTES DA MOZILLA NÃO SERÃO RESPONSÁVEIS POR QUAISQUER DANOS INDIRETOS, ESPECIAIS, INCIDENTAIS, CONSEQUENCIAIS, OU EXEMPLARES DECORRENTES OU DE QUALQUER MANEIRA RELATIVOS A ESTES TERMOS OU AO USO OU IMPOSSIBILIDADE DE USAR OS SERVIÇOS, INCLUINDO, SEM LIMITAÇÃO, DANOS DIRETOS E INDIRETOS POR PERDA DE AFEIÇÃO, PARADA DE TRABALHO, LUCROS PERDIDOS, PERDA DE DADOS E FALHA DE COMPUTADOR OU MAL FUNCIONAMENTO, INCLUSO SE AVISADO DA POSSIBILIDADE DE TAIS DANOS E INDEPENDENTEMENTE DA TEORIA (CONTRATO, DELITO OU DE OUTRA FORMA) SOBRE O QUALQUER RECLAMAÇÃO É BASEADA. A RESPONSABILIDADE COLETIVA DA MOZILLA E DAS PARTES DA MOZILLA SOB ESTE CONTRATO NÃO EXCEDERÁ US$ 500 (QUINHENTOS DÓLARES). ALGUMAS JURISDIÇÕES NÃO PERMITEM A EXCLUSÃO OU LIMITAÇÃO DE DANOS INCIDENTAIS, CONSEQUENCIAIS OU ESPECIAIS, POR ISSO ESTA EXCLUSÃO E LIMITAÇÃO PODEM NÃO SE APLICAR A VOCÊ.
-terms-general-updates = Atualizações: A Mozilla pode atualizar estes Termos a qualquer tempo para abordar uma nova funcionalidade dos serviços ou para esclarecer uma provisão. Os termos atualizados serão postados on-line. Se as alterações forem substanciais, anunciaremos as atualização através dos canais habituais da Mozilla para tais anúncios, como em blogs e fóruns. Seu uso contínuo dos serviços após a data de eficácia das tais alterações constitui a sua aceitação das tais mudanças. Para fazer sua revisão mais conveniente, vamos postar uma data efetiva no parte superior desta página.
-terms-general-termination = Rescisão: Podemos suspender ou encerrar seu acesso aos serviços a qualquer momento, por qualquer razão, vamos fazer todos os esforços razoáveis para notificar você através do e-mail associado com a sua conta ou da próxima vez que você tentar acessar o serviço. Independente de qualquer rescisão, todas as gravações que você submeter a Mozilla continuarão sendo acessíveis ao público.
-terms-general-law = Lei em vigor: Estes Termos Jurídicos constituem a totalidade do acordo entre você e a Mozilla sobre Common Voice e são regidas pelas leis do estado da Califórnia, EUA.
 
 ## Data
 
