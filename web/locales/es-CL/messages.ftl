@@ -50,7 +50,7 @@ en = Inglés
 ## Layout
 
 speak = Hablar
-datasets = Conjuntos de datos
+datasets = Archivos de datos
 languages = Idiomas
 profile = Perfil
 help = Ayuda
@@ -132,7 +132,7 @@ faq-what-a = La tecnología de reconocimiento de voz puede revolucionar la forma
 faq-important-q = ¿Por qué es importante?
 faq-important-a = La voz es natural, la voz es humana. Es la forma más fácil y natural de comunicarse. Queremos que los desarrolladores puedan construir cosas sorprendentes desde traductores en tiempo real a asistentes administrativos con los que puedas conversar. Pero en este momento no hay suficientes datos disponibles públicamente para construir este tipo de aplicaciones. Esperamos que Common Voice le de a los desarrolladores lo que necesitan para innovar.
 faq-get-q = ¿Cómo puedo obtener los datos de Common Voice?
-faq-get-a = El conjunto de datos está ahora disponible en nuestra <downloadLink>página de descarga</downloadLink> bajo la licencia <licenseLink>CC-0</licenseLink>.
+faq-get-a = El archivo de datos está ahora disponible en nuestra <downloadLink>página de descarga</downloadLink> bajo la licencia <licenseLink>CC-0</licenseLink>.
 faq-mission-q = ¿Por qué es Common Voice parte de la misión de Mozilla?
 faq-mission-a = Mozilla está dedicado a mantener la web abierta y accesible para todos. Para hacerlo necesitamos empoderar a los creadores web a través de proyectos como Common Voice. A medida que las tecnologías de voz proliferan más allá de las aplicaciones de nicho, nosotros creemos que deben servir igual de bien a los usuarios. Vemos una necesidad de incluir más idiomas, acentos y datos demográficos al construir y probar tecnologías de voz. Mozilla quiere ver un internet saludable y vibrante. Esto significa darle a acceso a nuevos creadores a datos de voz, de forma tal que puedan construir nuevos y extraordinarios proyectos. Common Voice será un recurso público que ayudará a los equipos de Mozilla y a los desarrolladores de todo el mundo.
 faq-native-q = No soy un hablante nativo de { $lang } y hablo con acento, ¿igual quieren mi voz?
@@ -164,10 +164,10 @@ data-download-yes = Sí
 data-download-deny = No
 data-download-license = Licencia: <licenseLink>CC-0</licenseLink>
 data-download-modal = Estás a punto de iniciar una descarga de <size>{ $size }GB</size>, ¿proceder?
-data-subtitle = Estamos construyendo un conjunto de datos de voces abierto y disponible públicamente que todos puedan usar para entrenar aplicaciones con reconocimiento de voz.
-data-explanatory-text = Creemos que los conjuntos de datos de voz grandes y disponibles públicamente promueven la innovación y la competencia comercial sana en las tecnologías de voz basadas en el aprendizaje de las máquinas. Este es un esfuerzo mundial e invitamos a todos a participar. Nuestra meta es ayudar a la tecnología de voz a ser más inclusiva, reflejando la diversidad en las voces de todo el mundo.
+data-subtitle = Estamos construyendo un archivo de datos de voces abierto y disponible públicamente que todos puedan usar para entrenar aplicaciones con reconocimiento de voz.
+data-explanatory-text = Creemos que los archivos de datos de voz grandes y disponibles públicamente promueven la innovación y la competencia comercial sana en las tecnologías de voz basadas en el aprendizaje de las máquinas. Este es un esfuerzo mundial e invitamos a todos a participar. Nuestra meta es ayudar a la tecnología de voz a ser más inclusiva, reflejando la diversidad en las voces de todo el mundo.
 data-get-started = <speechBlogLink>Empezar con el reconocimiento de voz</speechBlogLink>
-data-other-title = Otros conjuntos de datos de voz…
+data-other-title = Otros archivos de datos de voz…
 data-other-goto = Ir a { $name }
 data-other-download = Descargar datos
 data-other-librispeech-description = LibriSpeech es un corpus de aproximadamente 1000 horas de inglés hablado a 16Khz derivado de lecturas de audiolibros del proyecto LibriVox.
@@ -175,8 +175,8 @@ data-other-ted-name = Corpus de TED-LIUM
 data-other-ted-description = El corpus de TED-LIUM fue hecho de audios de charlas y de sus transcripciones disponibles en el sitio web de TED
 data-other-voxforge-description = VoxForge fue hecho para recolectar frases transcritas para ser usadas por motores de reconocimiento de voz de código abierto.
 data-other-tatoeba-description = Tatoeba es una gran base de datos de oraciones, traducciones y audio para uso en aprendizaje de máquinas. Esta descarga contiene todo el inglés grabado por su comunidad.
-data-bundle-button = Descargar paquete de conjunto de datos
-data-bundle-description = Datos de Common Voice junto con todos los conjuntos de datos de voz anteriores.
+data-bundle-button = Descargar paquete de archivo de datos
+data-bundle-description = Datos de Common Voice junto con todos los archivos de datos de voz anteriores.
 license = Licencia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixta
 
@@ -213,7 +213,7 @@ download-helpus = Ayúdanos a construir una comunidad en torno a la tecnología 
 download-form-email =
     .label = Ingresa tu correo.
     .value = Gracias, estaremos en contacto.
-download-back = Regresar a los conjuntos de datos de Common Voice
+download-back = Regresar a los archivos de datos de Common Voice
 download-no = No, gracias
 
 ## Contact Modal
