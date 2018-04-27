@@ -159,7 +159,7 @@ class LanguagesPage extends React.Component<Props, State> {
 
             <Localized id={'languages-show-' + (showAll ? 'less' : 'more')}>
               <button
-                className="show-all-languages-mobile"
+                className={'show-all-languages ' + (showAll ? 'less' : 'more')}
                 onClick={this.toggleShowAll}
               />
             </Localized>

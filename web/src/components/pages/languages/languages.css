@@ -150,15 +150,21 @@
         }
     }
 
-    & .show-all-languages-mobile {
+    & button.show-all-languages {
         display: block;
         border: 1px solid var(--grey);
         padding: 1rem;
         width: 100%;
         font-size: 1rem;
 
-        @media (--md-up) {
-            display: none;
+        &:hover {
+            background: var(--light-grey);
+        }
+
+        &.more {
+            @media (--md-up) {
+                display: none;
+            }
         }
     }
 
