@@ -164,8 +164,8 @@ data-download-yes = Sí
 data-download-deny = No
 data-download-license = Licencia: <licenseLink>CC-0</licenseLink>
 data-download-modal = Estás a punto de iniciar una descarga de <size>{ $size }GB</size>, ¿proceder?
-data-subtitle = Estamos construyendo un conjunto de datos de voces abierto y disponible públicamente que todos pueden usar para entrenar aplicaciones con reconocimiento de voz.
-data-explanatory-text = Creemos que los conjuntos de datos de voz grandes y disponibles públicamente promueven la innovación y la competencia comercial sana en las tecnologías de la voz basadas en el aprendizaje de las máquinas. Este es un esfuerzo mundial e invitamos a todos a participar. Nuestra meta es ayudar a la tecnología de voz a ser más inclusiva, reflejando la diversidad en las voces de todo el mundo.
+data-subtitle = Estamos construyendo un conjunto de datos de voces abierto y disponible públicamente que todos puedan usar para entrenar aplicaciones con reconocimiento de voz.
+data-explanatory-text = Creemos que los conjuntos de datos de voz grandes y disponibles públicamente promueven la innovación y la competencia comercial sana en las tecnologías de voz basadas en el aprendizaje de las máquinas. Este es un esfuerzo mundial e invitamos a todos a participar. Nuestra meta es ayudar a la tecnología de voz a ser más inclusiva, reflejando la diversidad en las voces de todo el mundo.
 data-get-started = <speechBlogLink>Empezar con el reconocimiento de voz</speechBlogLink>
 data-other-title = Otros conjuntos de datos de voz…
 data-other-goto = Ir a { $name }
@@ -238,7 +238,7 @@ request-language-success-content = Estaremos en contacto con más información s
 ## Languages Overview
 
 language-section-in-progress = En proceso
-language-section-launched = Lanzado
+language-section-launched = Lanzados
 languages-show-more = Ver más
 languages-show-less = Ver menos
 language-speakers = Hablantes
