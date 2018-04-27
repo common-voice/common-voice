@@ -15,22 +15,30 @@ audio-loading-error = ¡Disculpe! Estamos procesando nuestros archivos de audio,
 
 ## Languages
 
-ga-IE = Irlandés
-cs = Checo
-uz = Uzbeko
-de = Alemán
 bn = Bengalí
-sk = Eslovaco
 ca = Catalán
-ko = Coreano
+cs = Checo
+cv = Chuvasio
+cy = Galés
+da = Danés
+de = Alemán
+e = n
+E = n
+el = Griego
+es-AR = Español (Argentina)
 es-CL = Español (Chile)
-th = Tailandés
+fr = Francés
+fy-NL = Frisón
+ga-IE = Irlandés
+he = Hebreo
+id = Indonesio
+ko = Coreano
 pl = Polaco
 pt-BR = Portugués (Brasil)
-id = Indonesio
+sk = Eslovaco
+th = Tailandés
+uz = Uzbeko
 zh-TW = Chino (Taiwán)
-cy = Galés
-el = Griego
 
 ## Layout
 
