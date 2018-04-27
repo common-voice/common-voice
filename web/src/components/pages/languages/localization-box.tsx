@@ -31,7 +31,7 @@ interface State {
   showModal: boolean;
 }
 
-class LocalizationBox extends React.Component<Props, State> {
+class LocalizationBox extends React.PureComponent<Props, State> {
   state: State = {
     messagesGenerator: null,
     showModal: false,
@@ -47,6 +47,7 @@ class LocalizationBox extends React.Component<Props, State> {
 
   async updateMessagesGenerator() {
     const { api, globalLocale, locale } = this.props;
+    if (this.state.messagesGenerator) return;
     this.setState({
       messagesGenerator: await createCrossLocaleMessagesGenerator(api, [
         locale.code,

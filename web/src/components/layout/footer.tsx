@@ -21,7 +21,7 @@ interface FooterState {
   showContactModal: boolean;
 }
 
-class Footer extends React.Component<LocalizationProps, FooterState> {
+class Footer extends React.PureComponent<LocalizationProps, FooterState> {
   private shareURLInput: HTMLInputElement;
 
   state: FooterState = {

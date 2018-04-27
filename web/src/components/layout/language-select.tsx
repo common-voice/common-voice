@@ -8,7 +8,7 @@ interface Props {
   onChange: (locale: string) => any;
 }
 
-export default class LangaugeSelect extends React.Component<Props> {
+export default class LanguageSelect extends React.PureComponent<Props> {
   render() {
     const { locale, locales, onChange } = this.props;
     return (

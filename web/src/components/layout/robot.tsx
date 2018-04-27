@@ -20,7 +20,7 @@ const heart = [50, 45, 75, 55];
 
 const touchCode = [head, head, heart, head];
 
-export default class Robot extends React.Component<Props> {
+export default class Robot extends React.PureComponent<Props> {
   private remainingCode = touchCode.slice();
   private secretDoorToStaging = ({
     currentTarget,

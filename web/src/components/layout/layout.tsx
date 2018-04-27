@@ -30,6 +30,11 @@ const KEYBOARD_FOCUS_CLASS_NAME = 'is-keyboard-focus';
 const LOW_FPS = 20;
 const DISABLE_ANIMATION_LOW_FPS_THRESHOLD = 3;
 
+const LOCALES_WITH_NAMES = LOCALES.map(code => [
+  code,
+  getNativeNameWithFallback(code),
+]).sort((l1, l2) => l1[1].localeCompare(l2[1]));
+
 interface PropsFromState {
   locale: Locale.State;
   isSetFull: boolean;
@@ -78,7 +83,7 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
   };
 
   componentDidMount() {
-    this.addScrollListener();
+    this.scroller.addEventListener('scroll', this.handleScroll);
   }
 
   componentDidUpdate(nextProps: LayoutProps, nextState: LayoutState) {
@@ -102,6 +107,10 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
         });
       }, 500);
     }
+  }
+
+  componentWillUnmount() {
+    this.scroller.removeEventListener('scroll', this.handleScroll);
   }
 
   private volume = 0;
@@ -180,13 +189,11 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
     });
   };
 
-  private addScrollListener = () => {
-    this.scroller.addEventListener('scroll', () => {
-      let scrolled = this.scroller.scrollTop > 0;
-      if (scrolled !== this.state.scrolled) {
-        this.setState({ scrolled: scrolled });
-      }
-    });
+  private handleScroll = () => {
+    let scrolled = this.scroller.scrollTop > 0;
+    if (scrolled !== this.state.scrolled) {
+      this.setState({ scrolled: scrolled });
+    }
   };
 
   private toggleMenu = () => {
@@ -211,11 +218,6 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
 
   render() {
     const { isSetFull, locale, location } = this.props;
-
-    const localesWithNames = LOCALES.map(code => [
-      code,
-      getNativeNameWithFallback(code),
-    ]).sort((l1, l2) => l1[1].localeCompare(l2[1]));
 
     const pageName = location.pathname.split('/')[2] || 'home';
     let className = pageName;
@@ -272,7 +274,7 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
             {LOCALES.length > 1 && (
               <LanguageSelect
                 locale={locale}
-                locales={localesWithNames}
+                locales={LOCALES_WITH_NAMES}
                 onChange={this.selectLocale}
               />
             )}
@@ -327,7 +329,7 @@ class Layout extends React.Component<LayoutProps, LayoutState> {
                 onChange={(event: any) =>
                   this.selectLocale(event.target.value)
                 }>
-                {localesWithNames.map(([code, name]) => (
+                {LOCALES_WITH_NAMES.map(([code, name]) => (
                   <option key={code} value={code}>
                     {name}
                   </option>

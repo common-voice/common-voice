@@ -6,7 +6,12 @@ import StateTree from '../../../stores/tree';
 import RequestLanguageModal from '../../request-language-modal/request-language-modal';
 import { Button, Hr } from '../../ui/ui';
 import LocalizationBox from './localization-box';
-const EN_POPULATION = 1522575000;
+
+const ENGLISH_LOCALE = {
+  code: 'en',
+  name: 'English',
+  population: 1522575000,
+};
 
 interface PropsFromState {
   api: API;
@@ -21,7 +26,7 @@ interface State {
   showLanguageRequestModal: boolean;
 }
 
-class LanguagesPage extends React.Component<Props, State> {
+class LanguagesPage extends React.PureComponent<Props, State> {
   state: State = {
     localizations: [],
     selectedLanguageSection: 'in-progress',
@@ -175,14 +180,7 @@ class LanguagesPage extends React.Component<Props, State> {
             </div>
 
             <ul>
-              <LocalizationBox
-                locale={{
-                  code: 'en',
-                  name: 'English',
-                  population: EN_POPULATION,
-                }}
-                progress={1}
-              />
+              <LocalizationBox locale={ENGLISH_LOCALE} progress={1} />
             </ul>
           </section>
         </div>
