@@ -148,22 +148,42 @@ data-download-button = Descarcă datele Common Voice
 data-download-yes = Da
 data-download-deny = Nu
 data-download-license = Licență: <licenseLink>CC-0</licenseLink>
+data-download-modal = Ești pe cale să inițiezi o descărcare de <size>{ $size }GB</size>. Continui?
 data-get-started = <speechBlogLink>Începe cu recunoașterea vocală</speechBlogLink>
 data-other-title = Alte seturi de date vocale…
+data-other-goto = Du-te la { $name }
 data-other-download = Descarcă datele
+data-other-ted-name = TED-LIUM Corpus
 data-bundle-button = Descarcă pachetul cu setul de date
 license = Licență: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
 
+record-must-allow-microphone = Trebuie să permiți accesul la microfon.
+record-cancel = Anulează reînregistrarea
 record-retry = Reîncearcă
+record-error-too-short = Înregistrarea a fost prea scurtă.
+record-error-too-long = Înregistrarea a fost prea lungă.
+record-error-too-quiet = Volumul înregistrării este prea scăzut.
+record-submit-success = Trimitere reușită! Vrei să înregistrezi din nou?
 record-help = Te rugăm să atingi pentru a înregistra, apoi citește propoziția de mai sus cu voce tare.
+record-cancel = Anulează reînregistrarea
 terms-agree = Sunt de acord
 terms-disagree = Nu sunt de acord
+review-submit-title = Recenzează și trimite
+review-recording = Recenzează
+review-rerecord = Reînregistrează
+review-cancel = Anulează trimiterea
+review-keep-recordings = Păstrează înregistrările
+review-delete-recordings = Șterge înregistrările mele
 
 ## Download Modal
 
+download-form-email =
+    .label = Introdu e-mailul
+    .value = Îți mulțumim, vom ține legătura.
 download-back = Întoarce-te la seturile de date Common Voice
+download-no = Nu, mersi
 
 ## Contact Modal
 
@@ -179,6 +199,8 @@ contact-required = necesar
 
 request-language-title = Solicitare de limbă
 request-language-cancel = Ieși din formular
+request-language-form-language =
+    .label = Limbă
 
 ## Languages Overview
 
