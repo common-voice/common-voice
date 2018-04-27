@@ -137,6 +137,13 @@ profile-close = Cerrar
 
 faq-title = Preguntas frecuentes
 faq-what-q = ¿Qué es Common Voice?
+faq-what-a = La tecnología de reconocimiento de voz puede revolucionar la forma en que interactuamos con las máquinas, pero los sistemas actualmente disponibles son caros y privados. Common Voice es un proyecto para hacer que la tecnología de reconocimiento de voz sea fácilmente accesible para todos. Las personas donan sus voces a una base de datos masiva que le permitirá a todos entrenar aplicaciones con capacidades de reconocimiento de voz rápida y fácilmente. Todos los datos de voz estarán disponibles para los desarrolladores.
+faq-important-q = ¿Por qué es importante?
+faq-important-a = La voz es natural, la voz es humana. Es la forma más fácil y natural de comunicarse. Queremos que los desarrolladores puedan construir cosas sorprendentes desde traductores en tiempo real a asistentes administrativos. Pero en este momento no hay suficientes datos disponibles públicamente para construir este tipo de aplicaciones. Esperamos que Common Voice le de a los desarrolladores lo que necesitan para innovar.
+faq-get-q = ¿Cómo puedo obtener los datos de Common Voice?
+faq-get-a = El archivo de datos está disponible ahora en nuestra <downloadLink>página de descarga</downloadLink> bajo la licencia <licenseLink>CC-0</licenseLink>.
+faq-mission-q = ¿Por qué es Common Voice parte de la misión de Mozilla?
+faq-mission-a = Mozilla se dedica a mantener la web abierta y accesible para todos. Para hacerlo necesitamos empoderar a los creadores web a través de proyectos como Common Voice. A medida que las tecnologías de voz proliferan más allá de las aplicaciones de nicho, nosotros creemos que deben servir igual de bien a todos los usuarios. Vemos una necesidad de incluir más idiomas, acentos y datos demográficos al construir y probar tecnologías de voz. Mozilla quiere ver una internet saludable y vibrante. Esto significa darle a acceso a datos de voz a nuevos creadores, de forma tal que puedan construir proyectos nuevos y extraordinarios. Common Voice será un recurso público que ayudará a los equipos de Mozilla y a los desarrolladores de todo el mundo.
 
 ## Profile
 
