@@ -301,6 +301,7 @@
         & button {
             outline: none;
             border: none;
+            margin: 0;
             padding: 1rem;
             width: 100%;
             transition: background linear var(--transition-duration);
