@@ -6,7 +6,7 @@ import { Recordings } from './recordings';
 import StateTree from './tree';
 import { User } from './user';
 import { Clips } from './clips';
-import { RequestedLanguages } from './requested-langauges';
+import { RequestedLanguages } from './requested-languages';
 import { Locale } from './locale';
 
 const USER_KEY = 'userdata';

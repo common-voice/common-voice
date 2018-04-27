@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 import Modal from '../../modal/modal';
 import { SuccessIcon } from '../../ui/icons';
 import { Button, Hr, LabeledInput } from '../../ui/ui';
-import { RequestedLanguages } from '../../../stores/requested-langauges';
+import { RequestedLanguages } from '../../../stores/requested-languages';
 import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
 import PrivacyInfo from '../../privacy-info';

@@ -3,7 +3,7 @@ import { Localized } from 'fluent-react';
 import ISO6391 from 'iso-639-1';
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { RequestedLanguages } from '../../stores/requested-langauges';
+import { RequestedLanguages } from '../../stores/requested-languages';
 import StateTree from '../../stores/tree';
 import { LabeledInput } from '../ui/ui';
 

@@ -4,7 +4,7 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import Modal from '../modal/modal';
 import { Button, Hr, LabeledInput, LabeledSelect } from '../ui/ui';
-import { RequestedLanguages } from '../../stores/requested-langauges';
+import { RequestedLanguages } from '../../stores/requested-languages';
 import StateTree from '../../stores/tree';
 import { User } from '../../stores/user';
 import PrivacyInfo from '../privacy-info';
