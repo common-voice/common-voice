@@ -1,14 +1,13 @@
 const fs = require('fs');
 const path = require('path');
-const fetch = require('node-fetch');
+const request = require('request-promise-native');
 
-async function pontoonLanguagesToFTL() {
-  const { data } = await fetch('https://pontoon.mozilla.org/graphql', {
+async function fetchPontoonLanguages() {
+  const { data } = await request({
+    uri: 'https://pontoon.mozilla.org/graphql',
     method: 'POST',
-    headers: {
-      'content-type': 'application/json',
-    },
-    body: JSON.stringify({
+    json: true,
+    body: {
       query: `{
             project(slug: "common-voice") {
               localizations {
@@ -20,16 +19,16 @@ async function pontoonLanguagesToFTL() {
             }
           }`,
       variables: null,
-    }),
-  }).then(res => res.json());
+    },
+  });
   return data.project.localizations
-    .map(({ locale }) => `${locale.code} = ${locale.name}`)
-    .concat('en = English')
-    .join('\n');
+    .map(({ locale }) => [locale.code, locale.name])
+    .concat(['en', 'English'])
+    .sort(([code1], [code2]) => code1.localeCompare(code2));
 }
 
 async function savePontoonLanguagesToMessages() {
-  const languages = await pontoonLanguagesToFTL();
+  const languages = await fetchPontoonLanguages();
   const messagesPath = path.join(
     __dirname,
     '..',
@@ -41,7 +40,12 @@ async function savePontoonLanguagesToMessages() {
   const messages = fs.readFileSync(messagesPath, 'utf-8');
   const newMessages = messages.replace(
     /#\[Languages]([\s\S]*?)#\[\/]/gm,
-    ['#[Languages]', '## Languages', languages, '#[/]'].join('\n')
+    [
+      '#[Languages]',
+      '## Languages',
+      languages.map(([code, name]) => `${code} = ${name}`).join('\n'),
+      '#[/]',
+    ].join('\n')
   );
   fs.writeFileSync(messagesPath, newMessages);
 }
