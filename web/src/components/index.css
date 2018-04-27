@@ -652,7 +652,9 @@ body:not(.ios) .recording #background-container {
 
     & input {
         margin: .1rem .3rem .1rem .1rem;
-        width: .8rem;
+        // mobile Safari needs this
+        width: 100%;
+        max-width: .8rem;
         height: .8rem;
     }
 }
