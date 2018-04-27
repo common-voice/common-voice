@@ -15,37 +15,46 @@ audio-loading-error = Ymddiheuriadau! Rydym yn prosesu ein ffeiliau sain, ceisiw
 
 ## Languages
 
-ga-IE = Gwyddeleg
-cs = Tsiec
-uz = Wsbeceg
-de = Almaeneg
 bn = Bengaleg
-sk = Slofaceg
 ca = Catalaneg
-ko = Corëeg
+cs = Tsiec
+cv = Chuvash
+cy = Cymraeg
+da = Daneg
+de = Almaeneg
+e = n
+E = n
+el = Groeg
+es-AR = Sbaeneg (Yr Ariannin)
 es-CL = Sbaeneg (Chile)
-th = Thai
+fr = Ffrangeg
+fy-NL = Ffriseg
+ga-IE = Gwyddeleg
+he = Hebraeg
+hu = Hwngareg
+id = Indoneseg
+it = Eidaleg
+ka = Georgeg
+ko = Corëeg
+mk = Macedoneg
+nl = Iseldireg
+nn-NO = Norwyeg Nynorsk
+or = Odia
 pl = Pwyleg
 pt-BR = Portiwgaleg (Brasil)
-id = Indoneseg
-zh-TW = Tsieinëeg
-cy = Cymraeg
-el = Groeg
-cv = Chuvash
+ro = Rwmaneg
+ru = Rwsieg
+sk = Slofaceg
+sq = Albaneg
 sv-SE = Swedeg
-mk = Macedoneg
-nn-NO = Norwyeg Nynorsk
-fr = Ffrangeg
+ta = Tamil
+th = Thai
 tr = Twrceg
 tt = Tartareg
-fy-NL = Ffriseg
-he = Hebraeg
+uk = Wcraneg
+uz = Wsbeceg
 zh-CN = Tsieinëeg (Tsiena)
-nl = Iseldireg
-sq = Albaneg
-ru = Rwsieg
-it = Eidaleg
-en = Saesneg
+zh-TW = Tsieinëeg
 
 ## Layout
 
@@ -160,39 +169,6 @@ profile-why-content = Drwy ddarparu rhywfaint o wybodaeth amdanoch chi eich hun,
 
 notfound-title = Heb ganfod
 notfound-content = Mae'n ddrwg gen i, dwi ddim yn gwybod beth rydych yn chwilio amdano.
-
-## Privacy
-
-privacy-title = Hysbysiad Preifatrwydd Common Voice
-privacy-effective = Mewn grym ers { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
-privacy-policy = Pan mae Mozilla (sef, ni), yn derbyn gwybodaeth gennych chi, mae ein <policy>Polisi Preifatrwydd Mozilla</policy> yn disgrifio sut fyddwn yn trin y wybodaeth yma.
-privacy-data-demographic = <name>Data demograffig.</name> O ddewis, gallwch anfon atom fanylion, fel eich acen, oed a rhyw. Mae hyn yn eich cynorthwyo ni ac ymchwilwyr eraill i wella a chreu technoleg ac offer lleferydd i destun.
-privacy-data-account = <name>Data cyfrif</name> O ddewis, gallwch greu cyfrif, lle fyddwn yn derbyn eich cyfeiriad e-bost. Bydd hyn yn cael ei gysylltu a'ch data demograffig a rhyngweithio ond ni fydd yn cael ei rannu'n gyhoeddus.
-privacy-data-recordings = <name>Recordiadau Llais</name> Gall recordiadau llais, yn ogystal â data demograffig cysylltiedig, fod ar gael yng nghronfa ddata Common Voice ar gyfer defnydd cyhoeddus.
-privacy-data-interaction = <name>Data rhyngweithio</name> Rydym yn defnyddio Google Analytics i deall yn well sut rydych yn rhyngweithio gydag ap neu wefan Common Voice. Er enghraifft, mae hyn yn cynnwys y nifer o samplau llais rydych yn eu recordio neu wrando arnyn nhw, beth fyddwch yn gwneud gyda'r botymau a'r dewislenni, a hyd y sesiwn.
-privacy-data-technical = <name>Data technegol</name> Gan ddefnyddio Google Analytics, rydym yn casglu URL a theitlau'r tudalennau Common Voice rydych yn ymweld á nhw. Rydym yn casglu'r math o borwr, maint golwg sgrin a chydraniad sgrin. Rydym hefyd yn casglu eich lleoliad a gosodiadau iaith eich porwr.
-privacy-more = <more>Dysgu rhagor</more>
-
-## Terms
-
-terms-title = Amodau Cyfreithiol Common Voice
-terms-effective = Effective { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
-terms-eligibility-title = Cymhwyster
-terms-eligibility-content = Rhaid eich bod dros 13 oed neu fod â chaniatâd a chyfarwyddid eich rhiant neu geidwad i gymryd rhan yn ein project torfoli.
-terms-privacy-title = Preifatrwydd
-terms-privacy-content = Mae ein <privacyLink>Hysbysiad Preifatrwydd</privacyLink> yn esbonio sut rydym yn derbyn a thrin eich data.
-terms-contributions-title = Eich Cyfraniad a Ryddhad Hawliau
-terms-contributions-content = Drwy gyflwyno eich recordiadau, rydych yn hepgor eich holl hawliau hawlfraint a chysylltiedig ac rydych yn cytuno i ryddhau'r recordiadau i'r cyhoedd o dan drwydded <licenseLink>CC-0</licenseLink>. Mae hyn yn golygu eich bod yn hepgor pob hawl i'r recordiadau o dan gyfreithiau hawlfraint a chronfeydd data byd eang, gan gynnwys hawliau moesol a chyhoeddusrwydd a phob hawl perthynol a chysylltiedig.
-terms-communications-title = Cyfathrebu
-terms-communications-content = Os fyddwch yn tanysgrifio i dderbyn ein cylchlythyron neu yn cofrestru am gyfrif mewn cysylltiad â Common Voice, gallwch fod yn derbyn e-byst gennym ni mewn perthynas â'ch cyfrif (e.e. cyfreithiol, preifatrwydd a diweddariadau diogelwch).
-terms-general-title = Cyffredinol
-terms-general-liability1 = Disclaimer; Limitation of Liability: COMMON VOICE AND ALL INCLUDED RECORDINGS ARE PROVIDED ON AN “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, WHETHER EXPRESS OR IMPLIED. MOZILLA TAKES NO RESPONSIBILITY AND ASSUMES NO LIABILITY FOR ANY RECORDINGS THAT YOU OR ANY OTHER USER OR THIRD PARTY POSTS OR TRANSMITS USING COMMON VOICE.
-terms-general-liability2 = MOZILLA SPECIFICALLY DISCLAIMS ANY AND ALL WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT, AND ANY WARRANTIES ARISING OUT OF COURSE OF DEALING OR USAGE OF TRADE.
-terms-general-liability3 = TO THE EXTENT PERMITTED BY APPLICABLE LAW, YOU AGREE TO RELEASE AND HOLD HARMLESS MOZILLA CORPORATION AND ITS RESPECTIVE PARENT, SUBSIDIARIES, AFFILIATES, DIRECTORS, OFFICERS, EMPLOYEES, AND AGENTS (THE “MOZILLA PARTIES”), FROM ANY AND ALL LIABILITY FOR ANY DAMAGE, LOSS OR DELAY (INCLUDING PERSONAL INJURY, DEATH, OR PROPERTY DAMAGE) RESULTING IN WHOLE OR IN PART, DIRECTLY OR INDIRECTLY, FROM YOUR PARTICIPATION IN COMMON VOICE.
-terms-general-liability4 = EXCEPT AS REQUIRED BY LAW, MOZILLA AND THE MOZILLA PARTIES WILL NOT BE LIABLE FOR ANY INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, OR EXEMPLARY DAMAGES ARISING OUT OF OR IN ANY WAY RELATING TO THESE TERMS OR THE USE OF OR INABILITY TO USE THE SERVICES, INCLUDING WITHOUT LIMITATION DIRECT AND INDIRECT DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, LOST PROFITS, LOSS OF DATA, AND COMPUTER FAILURE OR MALFUNCTION, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES AND REGARDLESS OF THE THEORY (CONTRACT, TORT, OR OTHERWISE) UPON WHICH SUCH CLAIM IS BASED. THE COLLECTIVE LIABILITY OF MOZILLA AND THE MOZILLA PARTIES UNDER THIS AGREEMENT WILL NOT EXCEED $500 (FIVE HUNDRED DOLLARS). SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL, CONSEQUENTIAL, OR SPECIAL DAMAGES, SO THIS EXCLUSION AND LIMITATION MAY NOT APPLY TO YOU.
-terms-general-updates = Diweddariadau: O bryd i'w gilydd gall fod Mozilla yn diweddaru'r Amodau i gyfarch nodwedd newydd o'r Gwasanaeth neu i amlygu darpariaeth. Bydd yr amodau diwygiedig yn caei eu gosod ar-lein. Os yw'r newid yn sylweddol, byddwn yn cyhoeddi'r diweddariad drwy sianeli arferol Mozilla ar gyfer cyhoeddiadau o'r fath, megis cofnod blog a fforwm. Bydd eich defnydd parhaol o'r Gwasanaeth wedi dyddiad effeithiol y newidiadau yn dangos eich bod yn derbyn y newidiadau hynny. I wneud eich adolygiad yn fwy cyfleus, byddwn yn nodi dyddiad y newid ar frig y dudalen hon.
-terms-general-termination = Terfynu: Gallwn atal neu derfynu eich mynediad i'r Gwasanaethau ar unrhyw adeg ac unrhyw reswm, byddwn yn gwneud ymgais resymol i gysylltu  â chi drwy'r cyfeiriad e-bost sy'n gysylltiedig â'ch cyfrif neu'r tro nesaf i chi geisio cael mynediad i'r Gwasanaeth. Beth bynnag am unrhyw derfynu, bydd pob recordiad rydych wedi eu cyflwyno yn dal i fod ar gael yn gyhoeddus.
-terms-general-law = Cyfraith Llywodraethol: Mae'r Amodau Cyfreithiol hyn yn cynnwys yr holl gytundeb rhyngoch chi a Mozilla ynghylch Common Voice ac yn cael eu llywodraethu gan gyfreithiau talaith California, UDA.
 
 ## Data
 
