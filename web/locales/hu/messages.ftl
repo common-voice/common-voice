@@ -15,37 +15,44 @@ audio-loading-error = Sajnáljuk! Jelenleg a hangfájlok feldolgozása folyik, p
 
 ## Languages
 
-ga-IE = Ír
-cs = Cseh
-uz = Üzbég
-de = Német
 bn = Bengáli
-sk = Szlovák
 ca = Katalán
-ko = Koreai
+cs = Cseh
+cv = Csuvas
+cy = Walesi
+da = Dán
+de = Német
+el = Görög
+es-AR = Spanyol (Argentína)
 es-CL = Spanyol (Chile)
-th = Thai
+fr = Francia
+fy-NL = Fríz
+ga-IE = Ír
+he = Héber
+hu = Magyar
+id = Indonéz
+it = Olasz
+ka = Grúz
+ko = Koreai
+mk = Macedón
+nl = Holland
+nn-NO = Norvég nynorsk
+or = Orija
 pl = Lengyel
 pt-BR = Portugál (Brazília)
-id = Indonéz
-zh-TW = Kínai (Tajvan)
-cy = Walesi
-el = Görög
-cv = Csuvas
+ro = Román
+ru = Orosz
+sk = Szlovák
+sq = Albán
 sv-SE = Svéd
-mk = Macedón
-nn-NO = Norvég nynorsk
-fr = Francia
+ta = Tamil
+th = Thai
 tr = Török
 tt = Tatár
-fy-NL = Fríz
-he = Héber
+uk = Ukrán
+uz = Üzbég
 zh-CN = Kínai (Kína)
-nl = Holland
-sq = Albán
-ru = Orosz
-it = Olasz
-en = Angol
+zh-TW = Kínai (Tajvan)
 
 ## Layout
 
