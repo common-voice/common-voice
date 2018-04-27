@@ -47,6 +47,8 @@
 
 #contribute-button {
     position: absolute;
+    min-width: 16rem;
+    justify-content: center;
 }
 
 #contribute-button img {
