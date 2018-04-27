@@ -15,37 +15,45 @@ audio-loading-error = Ospravedlňujeme sa, ale práve spracovávame naše zvukov
 
 ## Languages
 
-ga-IE = írčina
-cs = čeština
-uz = uzbečtina
-de = nemčina
 bn = bengálčina
-sk = slovenčina
 ca = katalánčina
-ko = kórejčina
+cs = čeština
+cv = čuvaština
+cy = waleština
+da = dánčina
+de = nemčina
+e = n
+E = n
+el = gréčtina
+es-AR = španielčina (Argentína)
 es-CL = španielčina (Čile)
-th = thajčina
+fr = francúzština
+fy-NL = frízština
+ga-IE = írčina
+he = hebrejčina
+hu = maďarčina
+id = indonézština
+it = taliančina
+ka = gruzínčina
+ko = kórejčina
+mk = macedónčina
+nl = holandčina
+nn-NO = nórčina (Nynorsk)
 pl = poľština
 pt-BR = portugalčina (Brazília)
-id = indonézština
-zh-TW = čínština (Taiwan)
-cy = waleština
-el = gréčtina
-cv = čuvaština
+ro = rumunčina
+ru = ruština
+sk = slovenčina
+sq = albánčina
 sv-SE = švédčina
-mk = macedónčina
-nn-NO = nórčina (Nynorsk)
-fr = francúzština
+ta = tamilčina
+th = thajčina
 tr = turečtina
 tt = tatárčina
-fy-NL = frízština
-he = hebrejčina
+uk = ukrajinčina
+uz = uzbečtina
 zh-CN = čínština (Čína)
-nl = holandčina
-sq = albánčina
-ru = ruština
-it = taliančina
-en = angličtina
+zh-TW = čínština (Taiwan)
 
 ## Layout
 
@@ -148,28 +156,6 @@ profile-why-title = Prečo potrebujete profil?
 ## NotFound
 
 notfound-content = Obávam sa, že neviem čo hľadáte.
-
-## Privacy
-
-privacy-title = Zásady ochrany súkromia projektu Common Voice
-privacy-effective = Platné od { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
-privacy-policy = Keď Mozilla (to sme my) získava od vás informácie, riadi sa <policy>zásadami ochrany súkromia</policy>.
-privacy-data-demographic = <name>Demografické údaje.</name> Dobrovoľne nám môžete odoslať informácie, napríklad váš prízvuk, vek a pohlavie. Toto pomáha nám a ostatným výskumníkom zlepšovať a tvoriť technológie a nástroje pre prevod reči na text.
-privacy-more = <more>Ďalšie informácie</more>
-
-## Terms
-
-terms-title = Právne podmienky projektu Common Voice
-terms-effective = Platné od { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
-terms-eligibility-title = Oprávnenosť
-terms-eligibility-content = Aby ste sa mohli zapojiť do nášho projektu, musíte byť starší ako 13 rokov alebo mať povolenie rodiča alebo opatrovníka, ktorý na vás musia počas participácie dozerať.
-terms-privacy-title = Súkromie
-terms-privacy-content = Naše <privacyLink>zásady ochrany súkromia</privacyLink> popisujú, ako vaše údaje prijímame a ako s nimi narábame.
-terms-contributions-title = Vaše príspevky a vzdanie sa práv
-terms-contributions-content = Odoslaním vašich nahrávok sa vzdávate všetkých autorských práv a súvisiacich práv, ktoré môžete mať, a súhlasíte so zverejnením nahrávok v rámci licencie <licenseLink>CC-0</licenseLink>. To znamená, že súhlasíte so vzdaním sa všetkých práv ku nahrávkam a to celosvetovo, podľa autorského zákona a zákona o databázach, vrátane morálnych práv a práv na uvedenie zdroja a všetkých pridružených a súvisiacich práv.
-terms-communications-title = Komunikácia
-terms-communications-content = Ak sa prihlásite na odber našich noviniek alebo si v súvislosti s projektom Common Voice vytvoríte účet, môžete od nás dostávať e-maily súvisiace s vaším účtom (napríklad aktualizáciu podmienok, zásad ochrany súkromia či bezpečnostné informácie).
-terms-general-title = Všeobecné
 
 ## Data
 
