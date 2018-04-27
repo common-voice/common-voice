@@ -66,6 +66,12 @@ help = Ayuda
 contact = Contacto
 privacy = Privacidad
 terms = Términos
+cookies = Cookies
+faq = Preguntas frecuentes
+content-license-text = Contenido disponible a través de una <licenseLink>Licencia Creative Commons</licenseLink>
+share-title = ¡Ayúdenos a encontrar otros que donen su voz!
+share-text = Ayude a enseñarles a las máquinas cómo hablan las personas, done su voz en { $link }
+back-top = Volver arriba
 
 ## Home Page
 
