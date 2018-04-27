@@ -195,12 +195,18 @@ record-platform-not-supported = Lo sentimos, pero su plataforma no es compatible
 record-platform-not-supported-desktop = En computadoras de escritorio puede descargar la última versión:
 record-platform-not-supported-ios = Los usuarios de <bold>iOS</bold> pueden descargar nuestra app gratuita:
 record-must-allow-microphone = Debe permitir el acceso al micrófono.
+record-cancel = Cancelar la Regrabación
 record-retry = Reintentar
 record-error-too-short = La grabación fue muy corta.
 record-error-too-long = La grabación fue demasiada larga.
 record-error-too-quiet = La grabación fue demasiado silenciosa.
 record-submit-success = ¡Envío exitoso! ¿Quiere volver a grabar?
 record-help = Por favor toque para grabar y luego lea la oración anterior en voz alta.
+record-cancel = Cancelar la Regrabación
+review-terms = Al usar Common Voice, acepta nuestros <termsLink>Términos</termsLink> y <privacyLink>Política de privacidad</privacyLink>
+terms-agree = Estoy de acuerdo
+terms-disagree = No estoy de acuerdo
+review-aborted = Subida abortada. ¿Quiere eliminar sus grabaciones?
 
 ## Download Modal
 
