@@ -64,19 +64,26 @@ terms = Vilkår
 cookies = Infokapsler
 faq = FAQ
 content-license-text = Innhold tilgjengelig under en <licenseLink>Creative Commons-lisens</licenseLink>
+back-top = Tilbake til toppen
 
 ## Home Page
 
 show-wall-of-text = Les mer
 vote-yes = Ja
 vote-no = Nei
+request-language-button = Send en forespørsel om et nytt språk
 
 ## ProjectStatus
 
+status-title = Samlet prosjektstatus: Se hvor langt vi har kommet!
+status-contribute = Bidra med din stemme
 english = Engelsk
 
 ## ProfileForm
 
+profile-form-delete = Slett profil
+profile-form-username =
+    .label = Brukernavn
 profile-form-language =
     .label = Språk
 profile-form-accent =
@@ -93,6 +100,9 @@ male = Mann
 female = Kvinne
 # Gender
 other = Annet
+why-profile-title = Hvorfor opprette en profil?
+edit-profile = Rediger profil
+profile-create = Lag ny profil …
 profile-close = Lukk
 
 ## FAQ
@@ -105,12 +115,14 @@ faq-what-q = Hva er Common Voice?
 
 ## NotFound
 
+notfound-title = Ikke funnet
 
 ## Data
 
 data-download-yes = Ja
 data-download-deny = Nei
 data-download-license = Lisens: <licenseLink>CC-0</licenseLink>
+data-other-download = Last ned data
 license = Lisens: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
