@@ -11,37 +11,41 @@ loading = Lastar…
 
 ## Languages
 
-ga-IE = Irsk
-cs = Tsjekkisk
-uz = Usbekisk
-de = Tysk
 bn = Bengali
-sk = Slovakisk
 ca = Katalansk
-ko = Koreansk
+cs = Tsjekkisk
+cv = Tsjuvasjisk
+cy = Walisisk
+da = Dansk
+de = Tysk
+e = n
+E = n
+el = Gresk
 es-CL = Spansk (Chile)
-th = Thai
+fr = Fransk
+fy-NL = frisisk
+ga-IE = Irsk
+he = Hebraisk
+id = Indonesisk
+it = Italiensk
+ko = Koreansk
+mk = Makedonsk
+nl = Nederlandsk
+nn-NO = Norsk (Nynorsk)
 pl = Polsk
 pt-BR = Portugisisk (Brazil)
-id = Indonesisk
-zh-TW = Kinesisk (Taiwan)
-cy = Walisisk
-el = Gresk
-cv = Tsjuvasjisk
+ru = Russisk
+sk = Slovakisk
+sq = Albansk
 sv-SE = Svensk
-mk = Makedonsk
-nn-NO = Nynorsk
-fr = Fransk
+ta = Tamilsk
+th = Thai
 tr = Tyrkisk
 tt = Tatarisk
-fy-NL = frisisk
-he = Hebraisk
+uk = Ukrainsk
+uz = Usbekisk
 zh-CN = Kinesisk (Kina)
-nl = Nederlandsk
-sq = Albansk
-ru = Russisk
-it = Italiensk
-en = Engelsk
+zh-TW = Kinesisk (Taiwan)
 
 ## Layout
 
@@ -55,6 +59,7 @@ privacy = Personvern
 terms = Vilkår
 cookies = Infokapslar
 faq = FAQ
+content-license-text = Innhald tilgjengeleg under ein <licenseLink>Creative Commons-lisens</licenseLink>
 back-top = Tilbake til toppen av sida
 
 ## Home Page
@@ -141,6 +146,7 @@ license-mixed = Blanda
 
 ## Record Page
 
+record-platform-not-supported = Vi beklagar, men plattforma di er for tida ikkje støtta.
 record-platform-not-supported-ios = <bold>iOS</bold>-brukarar kan laste ned gratisappen vår:
 record-must-allow-microphone = Du må tillate tilgang tilmikrofonen.
 record-cancel = Avbryt nyinnspelinga
@@ -187,8 +193,9 @@ request-language-form-language =
 
 ## Languages Overview
 
+language-section-in-progress = Under arbeid
 language-section-launched = Lansert
 languages-show-more = Vis meir
 languages-show-less = Vis mindre
-language-speakers = Høgtalarar
+language-speakers = Talt av
 language-total-progress = Totalt
