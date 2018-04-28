@@ -14,6 +14,8 @@ loading = Memuat…
 
 ## Languages
 
+e = e
+E = E
 
 ## Layout
 

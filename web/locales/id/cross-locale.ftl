@@ -9,4 +9,7 @@ get-involved-email =
     .label = Surel
 get-involved-opt-in = Ya, kabari saya melalui surel. Saya ingin tetap diberi tahu tentang perkembangan bahasa ini di Common Voice. 
 get-involved-submit = Kirim
+get-involved-stayintouch = Kami di Mozilla membangun komunitas seputar teknologi suara. Kami ingin tetap terhubung dengan pemutakhiran, sumber data baru, dan mengetahui lebih banyak tentang bagaimana Anda menggunakan data ini.
+get-involved-privacy-info = Kami berjanji untuk menangani informasi Anda dengan baik. Pelajari lebih lanjut di <privacyLink>Pemberitahuan Privasi</privacyLink> kami.
+get-involved-success-title = Anda telah berhasil mendaftar untuk berkontribusi dalam { $language }. Terima kasih.
 get-involved-return-to-languages = Kembali ke Bahasa
