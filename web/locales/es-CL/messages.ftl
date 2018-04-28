@@ -15,37 +15,44 @@ audio-loading-error = ¡Lo sentimos! Estamos procesando nuestros archivos de aud
 
 ## Languages
 
-ga-IE = Irlandés
-cs = Checo
-uz = Uzbeko
-de = Alemán
 bn = Bengalí
-sk = Eslovaco
 ca = Catalán
-ko = Coreano
+cs = Checo
+cv = Chuvasio
+cy = Galés
+da = Danés
+de = Alemán
+e = n
+E = n
+el = Griego
+es-AR = Español (Argentina)
 es-CL = Español (Chile)
-th = Tailandés
+fr = Francés
+fy-NL = Frisón
+ga-IE = Irlandés
+he = Hebreo
+hu = Húngaro
+id = Indonesio
+it = Italiano
+ka = Georgiano
+ko = Coreano
+mk = Macedonio
+nl = Neerlandés
+nn-NO = Noruego Nynorsk
+or = Odia
 pl = Polaco
 pt-BR = Portugués (Brasil)
-id = Indonesio
-zh-TW = Chino (Taiwán)
-cy = Galés
-el = Griego
-cv = Chuvasio
+ro = Rumano
+ru = Ruso
+sk = Eslovaco
+sq = Albanés
 sv-SE = Sueco
-mk = Macedonio
-nn-NO = Noruego Nynorsk
-fr = Francés
+th = Tailandés
 tr = Turco
 tt = Tártaro
-fy-NL = Frisón
-he = Hebreo
+uz = Uzbeko
 zh-CN = Chino (China)
-nl = Neerlandés
-sq = Albanés
-ru = Ruso
-it = Italiano
-en = Inglés
+zh-TW = Chino (Taiwán)
 
 ## Layout
 
