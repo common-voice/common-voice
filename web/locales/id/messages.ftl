@@ -36,6 +36,25 @@ id = Bahasa Indonesia
 it = Bahasa Italia
 ka = Bahasa Georgia
 ko = Bahasa Korea
+mk = Bahasa Makedonia
+nl = Bahasa Belanda
+nn-NO = Bahasa Nynorsk (Norwegia)
+or = Bahasa Oriya
+pl = Bahasa Polandia
+pt-BR = Bahasa Portugis (Brasil)
+ro = Bahasa Rumania
+ru = Bahasa Rusia
+sk = Bahasa Slowakia
+sq = Bahasa Albania
+sv-SE = Bahasa Swedia
+ta = Bahasa Tamil
+th = Bahasa Thai
+tr = Bahasa Turki
+tt = Bahasa Tatar
+uk = Bahasa Ukraina
+uz = Bahasa Uzbek
+zh-CN = Bahasa Tionghoa (Tiongkok)
+zh-TW = Bahasa Tionghoa (Taiwan)
 
 ## Layout
 
@@ -51,6 +70,7 @@ cookies = Kuki
 faq = Tanya Jawab
 content-license-text = Konten tersedia di bawah <licenseLink>lisensi Creative Commons</licenseLink>
 share-title = Bantu kami menemukan yang lain untuk menyumbangkan suara mereka!
+share-text = Bantu ajari mesin bagaimana manusia berbicara, sumbangkan suara Anda di { $link }
 back-top = Kembali ke Atas
 
 ## Home Page
@@ -82,9 +102,12 @@ status-hours =
 # $goal - number of hours representing the next goal
 status-goal = Tujuan Berikutnya: { $goal }
 status-more-soon = Segera hadir dalam lebih banyak bahasa!
+english = Bahasa Inggris
 
 ## ProfileForm
 
+profile-form-cancel = Tutup Formulir
+profile-form-delete = Hapus Profil
 profile-form-username =
     .label = Nama Pengguna
 profile-form-language =
@@ -98,7 +121,17 @@ profile-form-gender =
     .label = Jenis Kelamin
 profile-form-submit-save = Simpan
 profile-form-submit-saved = Disimpan
+profile-keep-data = Simpan Data
 profile-delete-data = Hapus Data
+male = Laki-Laki
+female = Perempuan
+# Gender
+other = Lainnya
+why-profile-title = Mengapa profil?
+why-profile-text = Dengan menyediakan informasi mengenai diri Anda, data audio yang Anda kirimkan ke Common Voice akan lebih berguna bagi mesin Pengenal Ucapan yang memanfaatkan data ini untuk meningkatkan akurasinya.
+edit-profile = Ubah Profil
+profile-create = Buat profil
+profile-create-success = Berhasil, profil telah dibuat!
 profile-close = Tutup
 
 ## FAQ
@@ -155,6 +188,7 @@ data-other-tatoeba-description = Tatoeba adalah basis data besar kalimat, terjem
 data-bundle-button = Unduh Bundel Dataset
 data-bundle-description = Data Common Voice dan seluruh dataset suara lain di atas.
 license = Lisensi: <licenseLink>{ $license }</licenseLink>
+license-mixed = Campuran
 
 ## Record Page
 
@@ -163,6 +197,7 @@ record-platform-not-supported-desktop = Pada desktop komputer, Anda dapat mengun
 record-platform-not-supported-ios = Pengguna <bold>iOS</bold> dapat mengunduh aplikasi kami secara gratis:
 record-must-allow-microphone = Anda harus mengizinkan akses mikrofon.
 record-cancel = Batal Merekam-ulang
+record-retry = Coba Lagi
 record-error-too-short = Rekaman Anda terlalu pendek.
 record-error-too-long = Rekaman Anda terlalu panjang.
 record-error-too-quiet = Rekaman terlalu sunyi.
@@ -170,16 +205,21 @@ record-submit-success = Rekaman berhasil diunggah! Ingin merekam lagi?
 record-help = Ketuk untuk merekam, lalu baca kalimat di atas dengan lantang.
 record-cancel = Batal Merekam-ulang
 review-terms = Dengan menggunakan Common Voice, berarti Anda menyetujui <termsLink>Persyaratan</termsLink> dan <privacyLink>Pemberitahuan Privasi</privacyLink> kami
+terms-agree = Saya setuju
+terms-disagree = Saya tidak setuju
 review-aborted = Unggahan dibatalkan. Apakah Anda ingin menghapus rekaman anda?
 review-submit-title = Periksa & Kirim
 review-submit-msg = Terimakasih atas rekaman Anda!<lineBreak></lineBreak>Sekarang periksa dan kirim klip Anda di bawah ini.
 review-recording = Ulasan
 review-rerecord = Merekam-ulang
 review-cancel = Batalkan Pengajuan
+review-keep-recordings = Simpan rekaman
+review-delete-recordings = Hapus rekaman saya
 
 ## Download Modal
 
 download-title = Unduhan Anda telah dimulai.
+download-helpus = Bantu kami membangun komunitas seputar teknologi suara, dan tetap terhubung melalui surel.
 download-form-email =
     .label = Masukkan surel Anda
     .value = Terima kasih, kami akan menghubungi Anda.
@@ -203,7 +243,13 @@ request-language-cancel = Keluar Formulir
 request-language-form-language =
     .label = Bahasa
 request-language-success-title = Terima kasih, permintaan bahasa baru berhasil dikirimkan.
+request-language-success-content = Kami akan tetap terhubung dengan lebih banyak informasi tentang bagaimana menambahkan bahasa Anda ke Common Voice segera.
 
 ## Languages Overview
 
+language-section-in-progress = Sedang diproses
+language-section-launched = Diluncurkan
+languages-show-more = Lebih Banyak
+languages-show-less = Lebih Sedikit
 language-speakers = Penutur
+language-total-progress = Total
