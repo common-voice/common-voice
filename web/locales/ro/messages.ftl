@@ -140,6 +140,12 @@ profile-close = Închide
 
 faq-title = Întrebări adresate frecvent
 faq-what-q = Ce este Common Voice?
+faq-what-a = Recunoașterea vocală este o tehnologie care poate revoluționa interacțiunea oamenilor cu dispozitivele, dar sistemele disponibile momentan sunt scumpe și proprietare. Common Voice este un proiect pentru a permite tuturor accesul la această tehnologie. Oamenii își donează vocile lor pentru a construi o mare bază de date care va permite oricui să antreneze modele pentru a construi aplicații acționate vocal. Toate datele vocale vor fi disponibile dezvoltatorilor.
+faq-important-q = De ce este important?
+faq-important-a = Vocea este naturală și umană. Este cel mai ușor și natural mod de a comunica. Dorim ca dezvoltatorii să poată construi lucruri incredibile de la sisteme de traducere în timp real la asistenți administrativi cu comandă vocală. Dar acum nu sunt destule date vocale disponibile pentru a construi acest tip de aplicații. Sperăm ca proiectul Common Voice să ofere dezvoltatorilor uneltele de care au nevoie pentru a inova.
+faq-get-q = Cum pot obține datele Common Voice?
+faq-get-a = Baza de date este acum disponibilă pe <downloadLink>pagina de descărcări</downloadLink> și sub o licență <licenseLink>CC-0</licenseLink>.
+faq-mission-q = De ce este Common Voice parte a misiunii Mozilla?
 faq-mission-a = Mozilla este dedicată păstrării webului deschis și accesibil tuturor. Pentru a face acest lucru, trebuie să-i împuternicim pe creatorii web prin proiecte precum Common Voice. Din moment ce tehnologiile vocale proliferă dincolo de aplicațiile de nișă, credem că acestea trebuie să servească toți utilizatorii în egală măsură. Considerăm necesitatea includerii mai multor limbi, accente și elemente demografice în construirea și testarea tehnologiilor vocale. Mozilla dorește să vadă un internet sănătos și vibrant. Acest lucru înseamnă oferirea accesului la datele vocale pentru noii creatori, astfel încât să poată crea proiecte noi și extraordinare. Common Voice va fi o resursă publică care va ajuta echipele și dezvoltatorii Mozilla din întreaga lume.
 faq-source-a2 = Poți vedea propozițiile sursă în <dataLink>acest dosar GitHub</dataLink>.
 
