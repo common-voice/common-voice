@@ -147,6 +147,15 @@ faq-get-q = Cum pot obține datele Common Voice?
 faq-get-a = Baza de date este acum disponibilă pe <downloadLink>pagina de descărcări</downloadLink> și sub o licență <licenseLink>CC-0</licenseLink>.
 faq-mission-q = De ce este Common Voice parte a misiunii Mozilla?
 faq-mission-a = Mozilla este dedicată păstrării webului deschis și accesibil tuturor. Pentru a face acest lucru, trebuie să-i împuternicim pe creatorii web prin proiecte precum Common Voice. Din moment ce tehnologiile vocale proliferă dincolo de aplicațiile de nișă, credem că acestea trebuie să servească toți utilizatorii în egală măsură. Considerăm necesitatea includerii mai multor limbi, accente și elemente demografice în construirea și testarea tehnologiilor vocale. Mozilla dorește să vadă un internet sănătos și vibrant. Acest lucru înseamnă oferirea accesului la datele vocale pentru noii creatori, astfel încât să poată crea proiecte noi și extraordinare. Common Voice va fi o resursă publică care va ajuta echipele și dezvoltatorii Mozilla din întreaga lume.
+faq-native-q = Sunt vorbitor nativ de { $lang } și vorbesc cu accent, doriți vocea mea?
+faq-native-a = Da, sigur dorim voea ta! Ca parte a proiectului Common Voice dorim să adunăm cât mai multe accente posibile pentru a permite calculatoarelor să înțeleagă pe <bold>toată lumea</bold> atunci când vorbesc.
+faq-firefox-q = Vom avea funcție de traducere de la voce la text prin Common Voice în Firefox?
+faq-firefox-a = Common Voice are potențial neliminat și explorăm astfel de interfețe pentru multe produse Mozilla, inclusiv Firefox.
+faq-quality-q = Ce nivel de calitate este necesar pentru ca vocea să fie utilizabilă?
+faq-quality-a = Dorim nivelul de calitate care să reflecte cea a unui motor voce-text realist. De aceea dorim varietate. Aceasta va învăța motorul nostru voce-text să se descurce în situații diferite, de la voce cu fundal, zgomote auto, ventilatoare etc. fără erori.
+faq-hours-q = De ce scopul de a aduna 10.000 de ore de captură audio?
+faq-hours-a = Acesta este aproximativ numărul de ore necesar pentru a antrena un sistem de producție STT.
+faq-source-q = De unde provine textul sursă?
 faq-source-a2 = Poți vedea propozițiile sursă în <dataLink>acest dosar GitHub</dataLink>.
 
 ## Profile
