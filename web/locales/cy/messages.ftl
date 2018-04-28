@@ -152,11 +152,11 @@ faq-native-q = Rwy'n siaradwr { $lang } ail iaith ac rwy'n siarad gydag acen, yd
 faq-native-a = Ydyn, yn bendant rydym eisiau eich llais! Rhan o amcan Common Voice yw casglu gymaint o wahanol acenion ag y bo modd, fel bod cyfrifiaduron yn gallu deall <bold>pawb</bold> yn well pan mae nhw'n siarad.
 faq-firefox-q = A fydd lleferydd i destun, drwy Common Voice, fyth yn dod rhan o Firefox?
 faq-firefox-a = Mae gan Common Voice botensial di-ben-draw ac rydym yn bendant yn archwilio rhyngwynebau lleferydd o fewn nifer o gynnyrch Mozilla, gan gynnwys Firefox.
-faq-quality-q = Pa mor dda mae ansawdd y sain angen ei fod iddo gael ei ddefnyddio?
-faq-quality-a = Mae angen i ansawdd y sain adlewyrchu ansawdd y sain fydd y peiriant testun i leferydd ei gael yn y byd go-iawn. Felly mae angen amrywiaeth. Mae hyn yn dysgu'r peiriant lleferydd i destun i drin amrywiol sefyllfaoedd - sŵn siarad yn y cefndir, synau ceir, sŵn gwyntyll - heb wallau.
-faq-hours-q = Pam fod 10,000 o oriau'n nod ar gyfer cipio sain?
+faq-quality-q = Pa mor dda mae angen i ansawdd y sain fod iddo gael ei ddefnyddio?
+faq-quality-a = Mae angen i ansawdd y sain adlewyrchu ansawdd y sain fydd y peiriant testun i leferydd yn ei gael yn y byd go-iawn. Felly mae angen amrywiaeth. Mae hyn yn dysgu'r peiriant lleferydd i destun i drin amrywiol sefyllfaoedd - sŵn siarad yn y cefndir, synau ceir, sŵn gwyntyll - heb wallau.
+faq-hours-q = Pam mai 10,000 o oriau yw'r nod ar gyfer cipio sain?
 faq-hours-a = Dyma'n fras y nifer o oriau sydd eu hangen i hyfforddi cynnyrch system lleferydd i destun.
-faq-source-q = O le ddaw'r testun ffynhonnell?
+faq-source-q = O ble ddaw'r testun ffynhonnell?
 faq-source-a1 = Mae'r brawddegau cyfredol yn dod o roddion gan gyfrannwr, yn ogystal â deialogau ffilmiau parth cyhoeddus fel <italic>It’s a Wonderful Life.</italic>
 faq-source-a2 = Gallwch weld ein brawddegau ffynhonnell yn <dataLink>y ffolder GitHub yma</dataLink>.
 
@@ -178,7 +178,7 @@ data-download-deny = Na
 data-download-license = Trwydded: <licenseLink>CC-0</licenseLink>
 data-download-modal = Rydych ar fin cychwyn llwytho i lawr ffeil o faint <size>{ $size }GB</size>, parhau?
 data-subtitle = Rydym yn adeiladu set ddata o leisiau agored, sydd ar gael yn gyhoeddus, y bydd pawb yn gallu ei ddefnyddio i hyfforddi rhaglenni sy'n gallu trin lleferydd.
-data-explanatory-text = Rydym yn credu fod setiau data mawr a chyhoeddus yn annog arloesedd a chystadleuaeth fasnachol iach o fewn addysgu peiriannau yn seiliedig ar dechnoleg lleferydd. Mae hwn yn ymdrech fyd eang ac rydym yn gwahodd pawb i gymryd rhan. Ein nod yw i helpu technoleg llais i fod yn fwy cynhwysol, ac yn adlewyrchu'r amrywiaeth o leisiau o amgylch y byd.
+data-explanatory-text = Rydym yn credu fod setiau data mawr a chyhoeddus yn annog arloesedd a chystadleuaeth fasnachol iach o fewn dysgu peiriannau yn seiliedig ar dechnoleg lleferydd. Mae hon yn ymdrech fyd-eang ac rydym yn gwahodd pawb i gymryd rhan. Ein nod yw helpu technoleg llais i fod yn fwy cynhwysol, ac adlewyrchu'r amrywiaeth o leisiau o amgylch y byd.
 data-get-started = <speechBlogLink>Cychwyn arni gydag Adnabod Lleferydd</speechBlogLink>
 data-other-title = Setiau data llais eraill...
 data-other-goto = Mynd i { $name }
@@ -189,14 +189,14 @@ data-other-ted-description = Mae corpws TED-LIUM wedi ei greu o sgyrsiau sain a'
 data-other-voxforge-description = Cafodd VoxForge ei sefydlu i gasglu lleferydd wedi ei drawsgrifio ar gyfer ei ddefnyddio gyda Pheiriannau Adnabod Lleferydd Rhydd a Chod Agored.
 data-other-tatoeba-description = Mae Tatoeba yn gronfa ddata mawr o frawddegau, cyfieithiadau a sain llafar ar gyfer dysgu ieithoedd. Mae'r llwyth yma'n cynnwys yr holl Saesneg llafar recordiwyd gan eu cymuned.
 data-bundle-button = Llwytho Pecyn Set Ddata i Lawr
-data-bundle-description = Common Voice ynghyd a'r holl setiau data llais uchod.
+data-bundle-description = Common Voice ynghyd â'r holl setiau data llais uchod.
 license = Trwydded: <licenseLink>{ $license }</licenseLink>
 license-mixed = Cymysg
 
 ## Record Page
 
 record-platform-not-supported = Ymddiheuriadau ond nid yw eich platfform yn cael ei gynnal ar hyn o bryd.
-record-platform-not-supported-desktop = Ar gyfrifiaduron bwrdd gwaith gallwch lwytho i lawr y diweddaraf:
+record-platform-not-supported-desktop = Ar gyfrifiaduron bwrdd gwaith, gallwch lwytho i lawr y diweddaraf:
 record-platform-not-supported-ios = Gall defnyddwyr <bold>iOS</bold> lwytho i lawr ein ap am ddim:
 record-must-allow-microphone = Rhaid i chi ganiatáu mynediad i'r meicroffon.
 record-cancel = Diddymu Ail-recordio
