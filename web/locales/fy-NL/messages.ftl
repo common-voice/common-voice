@@ -15,37 +15,46 @@ audio-loading-error = Sorry! Op dit stuit ferwurkje wy ús audiobestannen, probe
 
 ## Languages
 
-ga-IE = Iersk
-cs = Tsjechysk
-uz = Oezbeeksk
-de = Dútsk
 bn = Bingaalsk
-sk = Slowaaksk
 ca = Katalaansk
-ko = Koreaansk
+cs = Tsjechysk
+cv = Chuvash
+cy = Welsk
+da = Deensk
+de = Dútsk
+e = n
+E = n
+el = Gryksk
+es-AR = Spaansk (Argentinië)
 es-CL = Spaansk (Chili)
-th = Taisk
+fr = Frânsk
+fy-NL = Frysk
+ga-IE = Iersk
+he = Hebriuwsk
+hu = Hongaarsk
+id = Yndonezysk
+it = Italiaansk
+ka = Georgysk
+ko = Koreaansk
+mk = Masedoanysk
+nl = Nederlânsk
+nn-NO = Norwegysk Nynorsk
+or = Odia
 pl = Poalsk
 pt-BR = Portugeesk (Braziliaansk)
-id = Yndonezysk
-zh-TW = Sineesk (Taiwan)
-cy = Welsk
-el = Gryksk
-cv = Chuvash
+ro = Roemeensk
+ru = Russysk
+sk = Slowaaksk
+sq = Albaneesk
 sv-SE = Sweedsk
-mk = Masedoanysk
-nn-NO = Norwegysk Nynorsk
-fr = Frânsk
+ta = Tamilsk
+th = Taisk
 tr = Turksk
 tt = Tatarsk
-fy-NL = Frysk
-he = Hebriuwsk
+uk = Oekraynsk
+uz = Oezbeeksk
 zh-CN = Sineesk (Sina)
-nl = Nederlânsk
-sq = Albaneesk
-ru = Russysk
-it = Italiaansk
-en = Ingelsk
+zh-TW = Sineesk (Taiwan)
 
 ## Layout
 
@@ -166,39 +175,6 @@ profile-why-content = Troch wat ynformaasje oer josels te jaan, sille de troch j
 
 notfound-title = Net fûn
 notfound-content = It is ús spitigernôch net dúdlik wat jo sykje.
-
-## Privacy
-
-privacy-title = Privacybelied Common Voice
-privacy-effective = Effektyf { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
-privacy-policy = As Mozilla (dat binne wy), ynformaasje fan jo ûntfangt; ús <policy>Mozilla-privacybelied</policy> beskriuwt hoe't wy mei dy ynformaasje omgean.
-privacy-data-demographic = <name>Demografyske gegevens.</name> Jo kinne ús opsjoneel gegevens stjoere lykas jo aksint, leeftiid en geslacht. Dit helpt ús en oare ûndersikers spraak-nei-tekst-technology en -ark te meitsjen en ferbetterjen.
-privacy-data-account = <name>Accountgegevens.</name> Jo kinne opsjoneel in account oanmeitsje, yn hokker gefal wy jo e-mailadres ûntfange. Dit wurdt oan jo demografyske en ynteraksjegegevens keppele, mar net iepenbier makke.
-privacy-data-recordings = <name>Stimopnamen.</name> Stimopnamen kinne, tegearre mei relatearre demografyske gegevens, yn de Common Voice-database beskikber wêze foar iepenbier gebrûk.
-privacy-data-interaction = <name>Ynteraksjegegevens.</name> Wy brûke Google Analytics om jo ynteraksje mei de Common Voice-app of -website better te begripen. Dit omfettet bygelyks it oantal troch jo opnommen of belústere stimfoarbylden , ynteraksjes mei knoppen en menu’s, of sesjelingte.
-privacy-data-technical = <name>Technyske gegevens.</name> Mei help fan Google Analytics sammelje wy de URL en de titel fan de troch jo besochte Common Voice-siden. Wy sammelje jo browser, finstergrutte en skermresolúsje. Wy sammelje ek jo lokaasje en de taalynstelling fan jo browser.
-privacy-more = <more>Mear ynfo</more>
-
-## Terms
-
-terms-title = Juridyske betingsten Common Voice
-terms-effective = Effektyf { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
-terms-eligibility-title = Geskiktheid
-terms-eligibility-content = Jo moatte âlder wêze as 13 jier of tastimming of tafersjoch fan jo âlder of fâd hawwe om oan ús crowdsourcingprojekt diel te nimmen.
-terms-privacy-title = Privacy
-terms-privacy-content = Us <privacyLink>Privacybelied</privacyLink> leit út hoe't wy jo gegevens ûntfange en behannelje.
-terms-contributions-title = Jo bydragen en frijjefte fan rjochten
-terms-contributions-content = Troch jo opnamen yn te tsjinjen, sjogge jo ôf fan alle auteursrjochten en besibbe rjochten dy't jo hjirop hawwe, en geane jo akkoard mei it iepenbier meitsjen fan de opnamen ûnder <licenseLink>CC-0</licenseLink>. Dit betsjut dat jo akseptearje dat jo wrâldwiid ôfsjogge fan alle rjochten op de opnamen ûnder auteursrjocht- en databasewetjouwing, ynklusyf morele en publisiteitsrjochten en alle besibbe en oanbuorjende rjochten.
-terms-communications-title = Kommunikaasjes
-terms-communications-content = As jo jo ynskriuwe om ús nijsbrieven te ûntfangen of in account registrearje yn ferbân mei Common Voice, kinne jo e-mailberjochten yn ferbân mei jo account fan ús ûntfange (bygelyks juridyske, privacyrelatearre of befeiligingsfernijingen).
-terms-general-title = Algemien
-terms-general-liability1 = Disclaimer; beheinde oanspraaklikheid: COMMON VOICE EN ALLE OPNAMEN WURDE OANBEAN OP BASIS FAN ‘AS IS’ SÛNDER IENNIGE GARÂNSJE, EKSPLISYT OF YMPLISYT. MOZILLA NIMT GJIN FERANTWURDLIKHEID EN AKSEPTEARRET GJIN OANSPRAAKLIKHEID FOAR HOKKER OPNAME DAN EK DY'T JO OF IN OARE BRÛKER OF TREDDE PARTIJ PLEATST OF FERSTJOERD MEI COMMON VOICE. 
-terms-general-liability2 = MOZILLA WIIST MEI KLAM ALLE GARÂNSJE EN BETINGSTEN FAN FERHANNELBERHEID, GESKIKTHEID FOAR IN SPESIFYK DOEL EN NET-YNBREK ÔF, KREKT AS ALLE GARÂNSJE DY'T FUORTKOMT ÚT HANNEL OF GEBRÛK FAN IT BEANE.
-terms-general-liability3 = FOAR SAFIER TASTIEN ÛNDER TAPASLIK RJOCHT AKSEPTEARJE JO DE FRIJJEFTE EN FRIJWARJE JO DE MOZILLA CORPORATION EN HARREN MEMMEMAATSKIPPIJ, ÛNDERGESKIKTE BEDRIUWEN, RELATEARRE BEDRIUWEN, DIREKSJE, ÚTFIERENDEN, MEIWURKERS EN AGINTEN (DE ‘MOZILLA-PARTIJEN’) FAN ALLE OANSPRAAKLIKHEID FOAR SKEA, FERLIES OF FERTRAGING (WÊRÛNDER PERSOANLIK LETSEL, FERSTJERREN OF EIGENDOMSSKEA) YN IT HIEL OF IN PART RESULTEARJEND, STREEKRJOCHT OF YNDIREKT, ÚT JO DIELNIMMING OAN COMMON VOICE.
-terms-general-liability4 = ÚTSEIN LYKAS FEREASKE BY DE WET BINNE MOZILLA EN DE MOZILLA-PARTIJEN NET OANSPRAAKLIK FOAR IENNIGE YNDIREKTE, SPESJALE, YNSIDINTELE, GEFOLG- OF FOARBYLDSKEA FUORTKOMMEND ÚT OF OP IENNIGE MANIER RELATEARRE OAN DIZZE BETINGSTEN OF IT GEBRÛK OF DE ÛNMOOGLIKHEID TA GEBRÛK FAN DE TSJINSTEN, MEI YNBEGRYP FAN EN SÛNDER BEHEINING TA DIREKTE OF YNDIREKTE SKEA TROCH FERLIES OAN GOODWILL, STILLIZZEN FAN WURK, WINSTGEMIS, GEGEVENSFERLIES EN KOMPJÛTERFALEN, SELS WANNEAR DE MOOGLIKHEID FAN DIZZE SKEA IS OANJÛN EN NETTSJINSTEANDE DE GRÛN (KONTRAKT, TWANG OF OARSWAT) WÊROP IN SOKSOARTE CLAIM BASEARRE IS. DE KOLLEKTIVE OANSPRAAKLIKHEID FAN MOZILLA EN DE MOZILLA-PARTIJEN ÛNDER DIZZE OERIENKOMST, SIL NET OER DE $500 (FIIFHÛNDERT DOLLAR) GEAN. GUON WETJOUWINGEN STEAN ÚTSLUTINGEN OF BEHEININGEN FAN YNSIDINTELE, SPESJALE OF GEFOLCHSKEA NET TA, DUS MOOGLIK BINNE DIZZE ÚTSÛNDERING EN BEHEINING OP JO NET FAN TAPASSING.
-terms-general-updates = Fernijingen: Mozilla kin dizze Betingsten fan tiid ta tiid bywurkje om in nije funksje fan de Tsjinsten te ferwurkjen of in bepaling te ferdúdlikjen. De bywurke Betingsten wurde online pleatst. As de wizigingen substansjeel binne, wurdt de fernijing oankundige fia de foar dit soarte oankundigingen brûkelike Mozilla-kanalen, lykas blogberjochten en foarums. Gebrûk fan de Tsjinsten nei de datum fan ynwurkingtrêding fan soksoarte wizigingen betsjut dat jo de wizigingen akseptearje. Om jo beoardieling makliker te meitsjen, pleatse wy in datum fan ynwurkingtrêding boppe oan dizze side.
-terms-general-termination = Beëiniging: wy kinne jo tagong ta de Tsjinsten op alle tiden om hokker reden dan ek tydlik of permanint wegerje; wy sille reedlike besykjen ûndernimme om jo te ynformearjen fia it e-mailadres dat by jo account heart, of de folgjende kear dat jo de Tsjinsten probearje te brûken. Nettsjinsteande in beëiniging bliuwe de troch jo by Mozilla yntsjinne opnamen publyklik beskikber.
-terms-general-law = Tapaslik rjocht: dizze Juridyske Betingsten omfetsje de folsleine oerienkomst tusken jo en Mozilla oangeande Common Voice en falle ûnder de wetten fan de steat Californië, FS.
 
 ## Data
 
