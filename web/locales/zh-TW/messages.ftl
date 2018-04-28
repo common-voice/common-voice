@@ -2,7 +2,7 @@
 
 yes-receive-emails = 好，寄信給我。我想要知道 Common Voice 專案的各種資訊。
 stayintouch = Mozilla 的我們，正在打造一個與語音技術相關的社群。我們想要與新技術、新的資料來源保持聯繫，也想知道您會如何使用這些資料。
-privacy-info = 我們保證會小心處理您的資訊。到我們的<privacyLink>隱私權公告</privacyLink>了解更多資訊。
+privacy-info = 我們保證會小心處理您的資訊。可於我們的<privacyLink>隱私權公告</privacyLink>了解更多資訊。
 return-to-cv = 回到 Common Voice
 email-input =
     .label = 電子郵件地址
@@ -38,7 +38,7 @@ ka = 喬治亞語
 ko = 韓語
 mk = 馬其頓語
 nl = 荷蘭語
-nn-NO = 挪威語（耐諾斯克 / Nynorsk）
+nn-NO = 挪威語（Nynorsk）
 or = 奧里亞語
 pl = 波蘭語
 pt-BR = 葡萄牙語（巴西）
@@ -61,7 +61,7 @@ zh-TW = 華語（臺灣）
 speak = 說話
 datasets = 資料集
 languages = 語言
-profile = 個人資料
+profile = 帳號資料
 help = 說明
 contact = 聯絡我們
 privacy = 隱私權
@@ -159,7 +159,7 @@ faq-source-a2 = 您可在<dataLink>這個 GitHub 資料夾</dataLink>參考我�
 
 ## Profile
 
-profile-why-title = 為什麼需要個人資料？
+profile-why-title = 為什麼需要註冊帳號？
 profile-why-content = 透過提供一些您的資訊，使用您送出給 Common Voice 的語音資料的語音識別引擎將能更加改善準確度。
 
 ## NotFound
