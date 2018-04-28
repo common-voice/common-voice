@@ -1,5 +1,6 @@
 ## General
 
+return-to-cv = Gå tilbake til Common Voice
 email-input =
     .label = E-post
 submit-form-action = Send inn
@@ -69,6 +70,7 @@ back-top = Tilbake til toppen
 ## Home Page
 
 show-wall-of-text = Les mer
+help-us-title = Hjelp oss med å validere setninger!
 vote-yes = Ja
 vote-no = Nei
 request-language-button = Send en forespørsel om et nytt språk
@@ -77,15 +79,21 @@ request-language-button = Send en forespørsel om et nytt språk
 
 status-title = Samlet prosjektstatus: Se hvor langt vi har kommet!
 status-contribute = Bidra med din stemme
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Neste mål: { $goal }
+status-more-soon = Flere språk kommer snart!
 english = Engelsk
 
 ## ProfileForm
 
+profile-form-cancel = Avslutt skjema
 profile-form-delete = Slett profil
 profile-form-username =
     .label = Brukernavn
 profile-form-language =
     .label = Språk
+profile-form-more-languages = Flere språk kommer snart!
 profile-form-accent =
     .label = Dialekt
 profile-form-age =
@@ -122,21 +130,36 @@ notfound-title = Ikke funnet
 data-download-yes = Ja
 data-download-deny = Nei
 data-download-license = Lisens: <licenseLink>CC-0</licenseLink>
+data-other-goto = Gå til { $name }
 data-other-download = Last ned data
 license = Lisens: <licenseLink>{ $license }</licenseLink>
+license-mixed = Blandet
 
 ## Record Page
 
+record-retry = Prøv igjen
+terms-agree = Jeg godtar
+terms-disagree = Jeg godtar ikke
 
 ## Download Modal
 
 
 ## Contact Modal
 
+contact-cancel = Avbryt
+contact-form-name =
+    .label = Navn
+contact-form-message =
+    .label = Melding
 
 ## Request Language Modal
 
+request-language-cancel = Avslutt skjemaet
+request-language-form-language =
+    .label = Språk
 
 ## Languages Overview
 
+languages-show-more = Vis mer
+languages-show-less = Vis mindre
 language-total-progress = Totalt
