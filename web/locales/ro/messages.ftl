@@ -1,6 +1,8 @@
 ## General
 
 yes-receive-emails = Da, trimite-mi e-mailuri. Aș dori să fiu la curent despre proiectul Common Voice.
+stayintouch = La Mozilla construim o comunitate în jurul tehnologiei vocale. Dorim să te ținem la curent cu știri, noi surse de date și să auzim mai multe despre cum folosești aceste date.
+privacy-info = Promitem să tratăm cu grijă informațiile tale. Citește mai multe în <privacyLink>Nota noastră privind confidențialitatea</privacyLink>.
 return-to-cv = Întoarce-te la Common Voice
 email-input =
     .label = E-mail
@@ -68,11 +70,16 @@ cookies = Cookie-uri
 faq = Întrebări frecvente
 content-license-text = Conţinut disponibil sub o <licenseLink>licență Creative Commons</licenseLink>
 share-title = Ajută-ne să găsim alte persoane care să-și doneze vocea!
+share-text = Ajută mașinile să învețe despre cum vorbesc oamenii, donează vocea ta la { $link }
+back-top = Înapoi la început
 
 ## Home Page
 
 home-title = Proiectul Common Voice este inițiativa Mozillei de a ajuta mașinăriile să învețe cum vorbesc oamenii reali.
 home-cta = Donează-ți vocea, contribuie aici!
+wall-of-text-start = Vocea este naturală și umană. De aceea suntem fascinați de ideea creerii unei tehnologii vocale utilă pentru dispozitivele noastre. Dar pentru a crea sisteme vocale sunt necesare cantități mari de date vocale.
+wall-of-text-more-mobile = Cea mai mare parte a datelor utilizate de marile companii nu sunt disponibile majorității oamenilor. Credem că aceasta este o piedică în calea inovației. De aceea am lansat proiectul Common Voice pentru a deschide aceste tehnologii pentru toată lumea.
+wall-of-text-more-desktop = Acum îți poți dona vocea pentru a ne ajuta să construim o bază de date deschisă și utilizabilă de toată lumea pentru a crea aplicații inovative pentru dispozitive și web.<lineBreak></lineBreak>Citește o propoziție pentru a ajuta mașinile să învețe despre cum vorbesc oamenii reali. Verifică munca altor contribuitori pentru a îmbunătăți calitatea. Este foarte simplu!
 show-wall-of-text = Citește mai multe
 help-us-title = Ajută-ne să validăm propozițiile!
 help-us-explain = Apasă pe redare, ascultă și spune-ne: a pronunțat corect propoziția de mai jos?
@@ -131,6 +138,8 @@ profile-close = Închide
 
 ## FAQ
 
+faq-title = Întrebări adresate frecvent
+faq-what-q = Ce este Common Voice?
 faq-mission-a = Mozilla este dedicată păstrării webului deschis și accesibil tuturor. Pentru a face acest lucru, trebuie să-i împuternicim pe creatorii web prin proiecte precum Common Voice. Din moment ce tehnologiile vocale proliferă dincolo de aplicațiile de nișă, credem că acestea trebuie să servească toți utilizatorii în egală măsură. Considerăm necesitatea includerii mai multor limbi, accente și elemente demografice în construirea și testarea tehnologiilor vocale. Mozilla dorește să vadă un internet sănătos și vibrant. Acest lucru înseamnă oferirea accesului la datele vocale pentru noii creatori, astfel încât să poată crea proiecte noi și extraordinare. Common Voice va fi o resursă publică care va ajuta echipele și dezvoltatorii Mozilla din întreaga lume.
 faq-source-a2 = Poți vedea propozițiile sursă în <dataLink>acest dosar GitHub</dataLink>.
 
