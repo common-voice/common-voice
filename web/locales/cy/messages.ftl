@@ -54,7 +54,7 @@ tt = Tartareg
 uk = Wcraneg
 uz = Wsbeceg
 zh-CN = Tsieinëeg (Tsiena)
-zh-TW = Tsieinëeg
+zh-TW = Tsieinëeg (Taiwan)
 
 ## Layout
 
@@ -69,7 +69,7 @@ terms = Amodau
 cookies = Cwcis
 faq = Cwestiynau Cyffredin
 content-license-text = Mae'r cynnwys ar gael o dan <licenseLink>drwydded Creative Commons</licenseLink>
-share-title = Helpwch ni i gael rhagor i gyfrannu eu lleisiau!
+share-title = Helpwch ni i gael rhagor o bobl i gyfrannu eu lleisiau!
 share-text = Helpwch beiriannau i ddysgu sut mae pobl go iawn yn siarad, cyfrannwch eich llais yn { $link }
 back-top = Nôl i'r Brig
 
@@ -77,17 +77,17 @@ back-top = Nôl i'r Brig
 
 home-title = Common Voice yw cynllun Mozilla i helpu dysgu peiriannau sut mae pobl go-iawn yn siarad.
 home-cta = Siarad a chyfrannu yma!
-wall-of-text-start = Mae llais yn beth naturiol ac yn perthyn i ni i gyd. Dyna pam mae gennym ddiddordeb mawr mewn creu technoleg llais defnyddiol ar gyfer ein peiriannau. Ond er mwyn creu systemau llais, mae angen data llais sylweddol iawn arnom.
+wall-of-text-start = Mae llais yn beth naturiol ac yn perthyn i ni i gyd. Dyna pam mae gennym ddiddordeb mawr mewn creu technoleg llais ddefnyddiol ar gyfer ein peiriannau. Ond er mwyn creu systemau llais, mae angen data llais sylweddol iawn arnom.
 wall-of-text-more-mobile = Nid yw'r data sy'n cael ei ddefnyddio gan gwmnïau mawr ar gael i'r rhan fwyaf o bobl. I ni, mae hynny'n cyfyngu ar ddyfeisgarwch. Felly rydym wedi cychwyn Project Common Voice, fel bod adnabod llais ar gael i bawb.
 wall-of-text-more-desktop =
-    Nawr gallwch gyfrannu eich llais i'n helpu i adeiladu cronfa ddata llais fydd pawb yn gallu ei ddefnyddio i greu apiau dyfeisgar ar gyfer dyfeisiau a'r we.<lineBreak></lineBreak>
+    Nawr gallwch gyfrannu eich llais i'n helpu i adeiladu cronfa ddata lleisiau fydd pawb yn gallu ei defnyddio i greu apiau arloesol ar gyfer dyfeisiau a'r we.<lineBreak></lineBreak>
     Darllenwch frawddeg fel bod y peiriant yn gallu dysgu sut mae pobl go_iawn yn siarad. Adolygwch waith cyfranwyr eraill er mwyn gwella ei ansawdd. Mae mor syml â hynny!
 show-wall-of-text = Darllen Rhagor
 help-us-title = Helpwch ni i ddilysu brawddegau!
 help-us-explain = Pwyswch chwarae, gwrando a dweud: ydyn nhw wedi dweud y frawddeg isod yn iawn?
 vote-yes = Iawn
 vote-no = Na
-request-language-text = Ddim yn gweld eich iaith yn Common Voice eto?
+request-language-text = Ddim yn gweld eich iaith ar Common Voice eto?
 request-language-button = Cais am Iaith
 
 ## ProjectStatus
