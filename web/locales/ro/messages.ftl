@@ -156,6 +156,7 @@ faq-quality-a = Dorim nivelul de calitate care să reflecte cea a unui motor voc
 faq-hours-q = De ce scopul de a aduna 10.000 de ore de captură audio?
 faq-hours-a = Acesta este aproximativ numărul de ore necesar pentru a antrena un sistem de producție STT.
 faq-source-q = De unde provine textul sursă?
+faq-source-a1 = Propozițiile actuale provin de la contribuitori, dar și dialoguri din scenarii de filme din domeniul public, precum <italic>La vita è bella (Viața e frumoasă)</italic>.
 faq-source-a2 = Poți vedea propozițiile sursă în <dataLink>acest dosar GitHub</dataLink>.
 
 ## Profile
@@ -165,6 +166,8 @@ profile-why-content = Furnizând câteva informații despre tine, datele audio p
 
 ## NotFound
 
+notfound-title = Nu a fost găsit
+notfound-content = Din nefericire nu știm ce cauți.
 
 ## Data
 
@@ -173,6 +176,7 @@ data-download-yes = Da
 data-download-deny = Nu
 data-download-license = Licență: <licenseLink>CC-0</licenseLink>
 data-download-modal = Ești pe cale să inițiezi o descărcare de <size>{ $size }GB</size>. Continui?
+data-subtitle = Construim o bază de date deschisa și public accesibilă de voci care poate fi folosită de oricine pentru a antrena modele de vorbire pentru aplicații.
 data-get-started = <speechBlogLink>Începe cu recunoașterea vocală</speechBlogLink>
 data-other-title = Alte seturi de date vocale…
 data-other-goto = Du-te la { $name }
