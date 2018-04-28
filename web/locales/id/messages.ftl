@@ -8,14 +8,34 @@ email-input =
     .label = Surel
 submit-form-action = Kirim
 loading = Memuat…
+audio-loading-error = Maaf! Kami sedang memproses berkas audio kami, silakan coba beberapa saat lagi.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 
 
 ## Languages
 
+bn = Bahasa Bengali
+ca = Bahasa Katalan
+cs = Bahasa Ceko
+cv = Bahasa Chuvash
+cy = Bahasa Wales
+da = Bahasa Denmark
+de = Bahasa Jerman
 e = e
 E = E
+el = Bahasa Yunani
+es-AR = Bahasa Spanyol (Argentina)
+es-CL = Bahasa Spanyol (Chili)
+fr = Bahasa Perancis
+fy-NL = Bahasa Frisia
+ga-IE = Bahasa Irlandia
+he = Bahasa Ibrani
+hu = Bahasa Hongaria
+id = Bahasa Indonesia
+it = Bahasa Italia
+ka = Bahasa Georgia
+ko = Bahasa Korea
 
 ## Layout
 
