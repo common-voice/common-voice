@@ -59,7 +59,7 @@ zh-TW = Kinesisk (Taiwan)
 ## Layout
 
 speak = Snakk
-datasets = Datamengder
+datasets = Datasett
 languages = Språk
 profile = Profil
 help = Hjelp
