@@ -69,8 +69,8 @@ terms = Vilkår
 cookies = Infokapslar
 faq = FAQ
 content-license-text = Innhald tilgjengeleg under ein <licenseLink>Creative Commons-lisens</licenseLink>
-share-title = Hjelp oss med å finne andre som vil donere røysta si!
-share-text = Hjelp til med å lære maskiner korleis folk snakkar, doner røysta di på { $link }
+share-title = Hjelp oss med å finne andre som vil donere stemma si!
+share-text = Hjelp til med å lære maskiner korleis folk snakkar, doner stemma di på { $link }
 back-top = Tilbake til toppen av sida
 
 ## Home Page
