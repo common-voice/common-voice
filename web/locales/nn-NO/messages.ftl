@@ -2,11 +2,13 @@
 
 yes-receive-emails = Ja, send meg e-post, slik at eg held meg oppdateret om prosjektet Common Voice.
 stayintouch = Vi på Mozilla byggjer ein fellesskap rundt stemmeteknologi, og vi vil gjerne halde kontakten med oppdateringar, nye datakjelder og høyre meir om korleis du brukar denne informasjonen.
+privacy-info = Vi lovar å handtere informasjonen din på ein trygg måte. Les meir i <privacyLink>personvernpraksisen</ privacyLink> vår.
 return-to-cv = Gå tilbake til Common Voice
 email-input =
     .label = E-post
 submit-form-action = Send inn
 loading = Lastar…
+audio-loading-error = Orsak! Vi behandlar lydfilene våre. Prøv igjen litt seinare.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 
@@ -130,6 +132,7 @@ faq-title = Vanlege spørsmål og svar
 faq-what-q = Kva er Common Voice?
 faq-important-q = Kvifor er det viktig?
 faq-get-q = Korleis får eg tilgang til Common Voice data?
+faq-mission-q = Kvifor er Common Voice ein del av oppdraget til Mozilla?
 faq-hours-a = Dette er omlag talet på timar som krevst for å trene opp eit velfungerande stemmegjenkjenningssystem (STT).
 faq-source-q = Kvar kjem kjeldeteksten frå?
 
@@ -185,6 +188,7 @@ review-delete-recordings = Slett opptaka mine
 ## Download Modal
 
 download-title = Nedlastinga di har starta.
+download-helpus = Hjelp oss med å byggje ein fellesskap omkring stemmeteknologi, hald kontakten via e-post.
 download-form-email =
     .label = Skriv inn e-postadressa di
     .value = Takk skal du ha, vi kontaktar deg.
