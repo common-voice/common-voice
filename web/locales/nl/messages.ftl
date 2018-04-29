@@ -8,62 +8,53 @@ email-input =
     .label = E-mailadres
 submit-form-action = Indienen
 loading = Laden…
+audio-loading-error = Sorry! We verwerken onze audiobestanden, probeer het binnenkort nog eens.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 
 
 ## Languages
 
-# Czech
-cs = Tsjechisch
-# Uzbek
-uz = Oezbeeks
-# German
-de = Duits
-# Bengali
 bn = Bengaals
-# Slovak
-sk = Slowaaks
-# Catalan
 ca = Catalaans
-# Korean
-ko = Koreaans
-# Thai
-th = Thais
-# Irish
-ga-IE = Iers
-# Polish
-pl = Pools
-# Indonesian
-id = Indonesisch
-# Welsh
-cy = Welsh
-# Greek
-el = Grieks
-# Chuvash
+cs = Tsjechisch
 cv = Chuvash
-# Swedish
-sv-SE = Zweeds
-# Macedonian
-mk = Macedonisch
-# French
+cy = Welsh
+da = Deens
+de = Duits
+e = n
+E = n
+el = Grieks
+es-AR = Spaans (Argentinië)
+es-CL = Spaans (Chili)
 fr = Frans
-# Turkish
-tr = Turks
-# Tatar
-tt = Tataars
-# Frisian
 fy-NL = Fries
-# Hebrew
+ga-IE = Iers
 he = Hebreeuws
-# Dutch
-nl = Nederlands
-# Albanian
-sq = Albanees
-# Russian
-ru = Russisch
-# Italian
+hu = Hongaars
+id = Indonesisch
 it = Italiaans
+ka = Georgisch
+ko = Koreaans
+mk = Macedonisch
+nl = Nederlands
+nn-NO = Noors Nynorsk
+or = Odia
+pl = Pools
+pt-BR = Portugees (Brazilië)
+ro = Roemeens
+ru = Russisch
+sk = Slowaaks
+sq = Albanees
+sv-SE = Zweeds
+ta = Tamil
+th = Thais
+tr = Turks
+tt = Tataars
+uk = Oekraïens
+uz = Oezbeeks
+zh-CN = Chinees (China)
+zh-TW = Chinees (Taiwan)
 
 ## Layout
 
@@ -79,6 +70,7 @@ cookies = Cookies
 faq = FAQ
 content-license-text = Inhoud is beschikbaar onder een <licenseLink>Creative Commons-licentie</licenseLink>
 share-title = Help ons anderen te vinden die hun stem willen doneren!
+share-text = Help machines te leren hoe echte mensen spreken, doneer uw stem op { $link }
 back-top = Naar boven
 
 ## Home Page
@@ -132,9 +124,13 @@ profile-keep-data = Gegevens behouden
 profile-delete-data = Gegevens verwijderen
 male = Mannelijk
 female = Vrouwelijk
+# Gender
+other = Anders
 why-profile-title = Waarom een profiel?
+why-profile-text = Door wat informatie over uzelf te geven, zijn de door u bij Common Voice ingediende audiogegevens nuttiger voor spraakherkenningsengines die deze gegevens gebruiken om hun nauwkeurigheid te verbeteren.
 edit-profile = Profiel bewerken
 profile-create = Een profiel aanmaken
+profile-create-success = Gelukt, profiel aangemaakt!
 profile-close = Sluiten
 
 ## FAQ
@@ -169,39 +165,6 @@ profile-why-content = Door wat informatie over uzelf te geven, zijn de door u bi
 
 notfound-title = Niet gevonden
 notfound-content = Ik ben bang dat ik niet weet wat u zoekt.
-
-## Privacy
-
-privacy-title = Privacyverklaring van Common Voice
-privacy-effective = Met ingang van { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
-privacy-policy = Wanneer Mozilla (dat zijn wij) informatie van u ontvangt, beschrijft ons <policy>Mozilla-privacybeleid</policy> hoe we met die informatie omgaan.
-privacy-data-demographic = <name>Demografische gegevens.</name> U kunt ons optioneel gegevens sturen zoals uw accent, leeftijd en geslacht. Dit helpt ons en andere onderzoekers spraak-naar-tekst-technologie en -hulpmiddelen te maken en verbeteren.
-privacy-data-account = <name>Accountgegevens.</name> U kunt optioneel een account aanmaken, in welk geval we uw e-mailadres ontvangen. Dit wordt aan uw demografische en interactiegegevens gekoppeld, maar niet openbaar gemaakt.
-privacy-data-recordings = <name>Stemopnamen.</name> Stemopnamen kunnen, samen met gerelateerde demografische gegevens, in de Common Voice-database beschikbaar zijn voor openbaar gebruik.
-privacy-data-interaction = <name>Interactiegegevens.</name> We gebruiken Google Analytics om uw interactie met de Common Voice-app of -website beter te begrijpen. Dit omvat bijvoorbeeld het aantal door u opgenomen of beluisterde stemvoorbeelden, interacties met knoppen en menu’s, of sessielengte.
-privacy-data-technical = <name>Technische gegevens.</name> Met behulp van Google Analytics verzamelen we de URL en de titel van de door u bezochte Common Voice-pagina’s. We verzamelen uw browser, venstergrootte en schermresolutie. We verzamelen ook uw locatie en de taalinstelling van uw browser.
-privacy-more = <more>Meer info</more>
-
-## Terms
-
-terms-title = Juridische voorwaarden van Common Voice
-terms-effective = Met ingang van { DATETIME($date, day: "numeric", month: "long", year: "numeric") }
-terms-eligibility-title = Geschiktheid
-terms-eligibility-content = U moet ouder zijn dan 13 jaar of toestemming of toezicht van uw ouder of voogd hebben om aan ons crowdsourcingproject deel te nemen.
-terms-privacy-title = Privacy
-terms-privacy-content = Onze <privacyLink>Privacyverklaring</privacyLink> legt uit hoe we uw gegevens ontvangen en verwerken.
-terms-contributions-title = Uw bijdragen en vrijgave van rechten
-terms-contributions-content = Door uw opnamen in te dienen, ziet u af van alle auteursrechten en verwante rechten die u hierop hebt, en gaat u akkoord met het openbaar maken van de opnamen onder <licenseLink>CC-0</licenseLink>. Dit betekent dat u accepteert dat u wereldwijd afziet van alle rechten op de opnamen onder auteursrecht- en databasewetgeving, inclusief morele en publiciteitsrechten en alle verwante en naburige rechten.
-terms-communications-title = Communicatie
-terms-communications-content = Als u zich inschrijft om onze nieuwsbrieven te ontvangen of een account registreert in verband met Common Voice, kunt u e-mailberichten in verband met uw account van ons ontvangen (bijvoorbeeld juridische, privacygerelateerde of beveiligingsupdates).
-terms-general-title = Algemeen
-terms-general-liability1 = Disclaimer; beperkte aansprakelijkheid: COMMON VOICE EN ALLE OPNAMEN WORDEN AANGEBODEN OP BASIS VAN ‘ALS IS’ ZONDER ENIGE GARANTIE, EXPLICIET OF IMPLICIET. MOZILLA NEEMT GEEN VERANTWOORDELIJKHEID EN ACCEPTEERT GEEN AANSPRAKELIJKHEID VOOR WELKE OPNAME DAN OOK DIE U OF EEN ANDERE GEBRUIKER OF DERDE PARTIJ PLAATST OF VERZENDT MET COMMON VOICE. 
-terms-general-liability2 = MOZILLA WIJST NADRUKKELIJK ALLE GARANTIE EN VOORWAARDEN VAN VERHANDELBAARHEID, GESCHIKTHEID VOOR EEN SPECIFIEK DOEL EN NIET-INBREUK AF, EVENALS ALLE GARANTIE DIE VOORTKOMT UIT HANDEL OF GEBRUIK VAN HET GEBODENE.
-terms-general-liability3 = VOOR ZOVER TOEGESTAAN ONDER TOEPASSELIJK RECHT ACCEPTEERT U DE VRIJGAVE EN VRIJWAART U DE MOZILLA CORPORATION EN HAAR MOEDERMAATSCHAPPIJ, ONDERGESCHIKTE BEDRIJVEN, GERELATEERDE BEDRIJVEN, DIRECTIE, UITVOERENDEN, MEDEWERKERS EN AGENTEN (DE ‘MOZILLA-PARTIJEN’) VAN ALLE AANSPRAKELIJKHEID VOOR SCHADE, VERLIES OF VERTRAGING (WAARONDER PERSOONLIJK LETSEL, OVERLIJDEN OF EIGENDOMSSCHADE) GEHEEL OF GEDEELTELIJK RESULTEREND, RECHTSTREEKS OF INDIRECT, UIT UW DEELNAME AAN COMMON VOICE.
-terms-general-liability4 = BEHOUDENS ZOALS VEREIST BIJ DE WET ZIJN MOZILLA EN DE MOZILLA-PARTIJEN NIET AANSPRAKELIJK VOOR ENIGE INDIRECTE, SPECIALE, INCIDENTELE, GEVOLG- OF VOORBEELDSCHADE VOORTVLOEIEND UIT OF OP ENIGE MANIER GERELATEERD AAN DEZE VOORWAARDEN OF HET GEBRUIK OF DE ONMOGELIJKHEID TOT GEBRUIK VAN DE DIENSTEN, MET INBEGRIP VAN EN ZONDER BEPERKING TOT DIRECTE OF INDIRECTE SCHADE DOOR VERLIES AAN GOODWILL, STILLEGGEN VAN WERK, WINSTDERVING, GEGEVENSVERLIES EN COMPUTERFALEN, ZELFS WANNEER DE MOGELIJKHEID VAN DEZE SCHADE IS AANGEGEVEN EN ONGEACHT DE GROND (CONTRACT, DWANG OF ANDERSZINS) WAAROP EEN DERGELIJKE CLAIM IS GEBASEERD. DE COLLECTIEVE AANSPRAKELIJKHEID VAN MOZILLA EN DE MOZILLA-PARTIJEN ONDER DEZE OVEREENKOMST ZAL HET BEDRAG VAN $500 (VIJFHONDERD DOLLAR) NIET OVERSCHRIJDEN. SOMMIGE WETGEVINGEN STAAN UITSLUITINGEN OF BEPERKINGEN VAN INCIDENTELE, SPECIALE OF GEVOLGSCHADE NIET TOE, DUS MOGELIJK ZIJN DEZE UITZONDERING EN BEPERKING OP U NIET VAN TOEPASSING.
-terms-general-updates = Updates: Mozilla kan deze Voorwaarden van tijd tot tijd bijwerken om een nieuwe functie van de Diensten te verwerken of een bepaling te verduidelijken. De bijgewerkte Voorwaarden worden online geplaatst. Als de wijzigingen substantieel zijn, wordt de update aangekondigd via de voor dit soort aankondigingen gebruikelijke Mozilla-kanalen, zoals blogberichten en forums. Gebruik van de Diensten na de datum van inwerkingtreding van dergelijke wijzigingen betekent dat u de wijzigingen accepteert. Om uw beoordeling te vergemakkelijken, plaatsen we een datum van inwerkingtreding bovenaan deze pagina.
-terms-general-termination = Beëindiging: we kunnen uw toegang tot de Diensten te allen tijde om welke reden dan ook tijdelijk of permanent weigeren; we zullen redelijke pogingen ondernemen om u te informeren via het e-mailadres dat bij uw account hoort, of de volgende keer dat u de Diensten probeert te gebruiken. Ongeacht een beëindiging blijven de door u bij Mozilla ingediende opnamen publiekelijk beschikbaar.
-terms-general-law = Toepasselijk recht: deze Juridische Voorwaarden omvatten de volledige overeenkomst tussen u en Mozilla met betrekking tot Common Voice en vallen onder de wetten van de staat Californië, VS.
 
 ## Data
 
@@ -241,6 +204,8 @@ record-submit-success = Indienen gelukt! Wilt u nog iets opnemen?
 record-help = Tik of klik om op te nemen, en lees bovenstaande zin hardop.
 record-cancel = Nieuwe opname annuleren
 review-terms = Door gebruik te maken van Common Voice, gaat u akkoord met onze <termsLink>Voorwaarden</termsLink> en <privacyLink>Privacyverklaring</privacyLink>
+terms-agree = Ik ga akkoord
+terms-disagree = Ik ga niet akkoord
 review-aborted = Upload afgebroken. Wilt u uw opnamen verwijderen?
 review-submit-title = Beoordelen en indienen
 review-submit-msg = Bedankt voor uw opname!<lineBreak></lineBreak>Beoordeel nu hieronder uw opnamen en dien ze in.
@@ -278,8 +243,13 @@ request-language-cancel = Formulier afsluiten
 request-language-form-language =
     .label = Taal
 request-language-success-title = Taalaanvraag met succes ingediend, bedankt.
+request-language-success-content = We nemen binnenkort contact op met meer informatie over hoe u uw taal aan Common Voice kunt toevoegen.
 
 ## Languages Overview
 
+language-section-in-progress = In uitvoering
+language-section-launched = Beschikbaar
+languages-show-more = Meer zien
+languages-show-less = Minder zien
 language-speakers = Sprekers
 language-total-progress = Totaal
