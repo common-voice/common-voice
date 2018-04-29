@@ -76,9 +76,11 @@ back-top = Tilbake til toppen av sida
 ## Home Page
 
 home-title = Prosjektet Common Voice er eit Mozilla-initiativ, som skal hjelpe maskiner med å forstå korleis folk snakkar.
+home-cta = Snakk, støtt prosjektet og gje eit bidrag!
 wall-of-text-start = Stemma er naturleg, stemma er menneskeleg. Det er derfor vi er fascinert av å lage ein brukbar stemmeteknologi til maskinene våre. Men for å lage system til stemmegjenkjenning, trengst det svært store mengder med stemmedata.
 show-wall-of-text = Les meir
 help-us-title = Hjelp oss med å validere setningar!
+help-us-explain = Trykk på Spel av, lytt, og fortel os om den innspelte setninga var korrekt.
 vote-yes = Ja
 vote-no = Nei
 request-language-text = Ser du ikkje språket ditt på Common Voice enno?
@@ -134,9 +136,14 @@ faq-title = Vanlege spørsmål og svar
 faq-what-q = Kva er Common Voice?
 faq-important-q = Kvifor er det viktig?
 faq-get-q = Korleis får eg tilgang til Common Voice data?
+faq-get-a = Datamengda er no tilgjengeleg på <downloadLink>nedastingssida</downloadLink> vår under lisensen <licensLink>CC-0</ licenseLink>.
 faq-mission-q = Kvifor er Common Voice ein del av oppdraget til Mozilla?
+faq-native-q = { $lang } er ikkje morsmålet mitt og eg pratar med aksent. Er de framleis interesserte i stemmeinnspelingane mine?
+faq-native-a = Ja, vi vi ! En del av målet med Common Voice är att samla in så många olika accenter som möjligt, så att datorer bättre kan förstå <bold>alla</ bold> när de talar.
+faq-hours-q = Kvifor er målet å ha 10 000 timar med lydopptak?
 faq-hours-a = Dette er omlag talet på timar som krevst for å trene opp eit velfungerande stemmegjenkjenningssystem (STT).
 faq-source-q = Kvar kjem kjeldeteksten frå?
+faq-source-a2 = Du kan sjå kjeldetekstane våre i <dataLink>denne mappa på GitHub</dataLink>.
 
 ## Profile
 
@@ -153,12 +160,14 @@ data-download-button = Last ned Common Voice Data
 data-download-yes = Ja
 data-download-deny = Nei
 data-download-license = Lisens: <licenseLink>CC-0</licenseLink>
+data-download-modal = Du er i ferd med å starte ei nedlasting av <size>{ $size }GB</size>. Vil du fortsetje?
 data-get-started = <speechBlogLink>Kom i gang med talegjenkjenning</speechBlogLink>
 data-other-title = Andre stemme-datasett
 data-other-goto = Gå til { $name }
 data-other-download = Last ned data
 data-other-ted-name = TED-LIUM korpus
 data-bundle-button = Last ned Dataset-pakken
+data-bundle-description = Data frå Common Voice pluss alle andre stemmedatasett ovanfor.
 license = Lisens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blanda
 
