@@ -34,7 +34,7 @@ ka = Georgisk
 ko = Koreansk
 mk = Makedonsk
 nl = Nederlandsk
-nn-NO = Norsk nynorsk
+nn-NO = Norsk (nynorsk)
 or = Oriya
 pl = Polsk
 pt-BR = Portugisisk (Brasil)
@@ -69,6 +69,7 @@ back-top = Tilbake til toppen
 
 ## Home Page
 
+home-cta = Snakk, støtt prosjektet og gjør et bidrag!
 show-wall-of-text = Les mer
 help-us-title = Hjelp oss med å validere setninger!
 vote-yes = Ja
@@ -111,6 +112,7 @@ other = Annet
 why-profile-title = Hvorfor opprette en profil?
 edit-profile = Rediger profil
 profile-create = Lag ny profil …
+profile-create-success = Profil opprettet
 profile-close = Lukk
 
 ## FAQ
@@ -124,6 +126,7 @@ faq-what-q = Hva er Common Voice?
 ## NotFound
 
 notfound-title = Ikke funnet
+notfound-content = Jeg er redd for at jeg ikke forstår hva du ser etter.
 
 ## Data
 
