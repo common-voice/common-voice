@@ -85,7 +85,7 @@ help-us-title = Ajută-ne să validăm propozițiile!
 help-us-explain = Apasă pe redare, ascultă și spune-ne: a pronunțat corect propoziția de mai jos?
 vote-yes = Da
 vote-no = Nu
-request-language-text = Nu îți vezi încă limba pe Common Voice?
+request-language-text = Nu îți vezi limba pe Common Voice încă?
 request-language-button = Solicită o limbă
 
 ## ProjectStatus
@@ -138,7 +138,7 @@ profile-close = Închide
 
 ## FAQ
 
-faq-title = Întrebări adresate frecvent
+faq-title = Întrebări frecvente
 faq-what-q = Ce este Common Voice?
 faq-what-a = Recunoașterea vocală este o tehnologie care poate revoluționa interacțiunea oamenilor cu dispozitivele, dar sistemele disponibile momentan sunt scumpe și proprietare. Common Voice este un proiect pentru a permite tuturor accesul la această tehnologie. Oamenii își donează vocile lor pentru a construi o mare bază de date care va permite oricui să antreneze modele pentru a construi aplicații acționate vocal. Toate datele vocale vor fi disponibile dezvoltatorilor.
 faq-important-q = De ce este important?
@@ -148,13 +148,13 @@ faq-get-a = Baza de date este acum disponibilă pe <downloadLink>pagina de desc�
 faq-mission-q = De ce este Common Voice parte a misiunii Mozilla?
 faq-mission-a = Mozilla este dedicată păstrării webului deschis și accesibil tuturor. Pentru a face acest lucru, trebuie să-i împuternicim pe creatorii web prin proiecte precum Common Voice. Din moment ce tehnologiile vocale proliferă dincolo de aplicațiile de nișă, credem că acestea trebuie să servească toți utilizatorii în egală măsură. Considerăm necesitatea includerii mai multor limbi, accente și elemente demografice în construirea și testarea tehnologiilor vocale. Mozilla dorește să vadă un internet sănătos și vibrant. Acest lucru înseamnă oferirea accesului la datele vocale pentru noii creatori, astfel încât să poată crea proiecte noi și extraordinare. Common Voice va fi o resursă publică care va ajuta echipele și dezvoltatorii Mozilla din întreaga lume.
 faq-native-q = Sunt vorbitor nativ de { $lang } și vorbesc cu accent, doriți vocea mea?
-faq-native-a = Da, sigur dorim voea ta! Ca parte a proiectului Common Voice dorim să adunăm cât mai multe accente posibile pentru a permite calculatoarelor să înțeleagă pe <bold>toată lumea</bold> atunci când vorbesc.
-faq-firefox-q = Vom avea funcție de traducere de la voce la text prin Common Voice în Firefox?
+faq-native-a = Da, sigur dorim vocea ta! Ca parte a proiectului Common Voice dorim să adunăm cât mai multe accente posibile pentru a permite calculatoarelor să înțeleagă pe <bold>toată lumea</bold> atunci când vorbesc.
+faq-firefox-q = Va fi recunoașterea vocală prin Common Voice disponibilă vreodată în Firefox?
 faq-firefox-a = Common Voice are potențial neliminat și explorăm astfel de interfețe pentru multe produse Mozilla, inclusiv Firefox.
 faq-quality-q = Ce nivel de calitate este necesar pentru ca vocea să fie utilizabilă?
 faq-quality-a = Dorim nivelul de calitate care să reflecte cea a unui motor voce-text realist. De aceea dorim varietate. Aceasta va învăța motorul nostru voce-text să se descurce în situații diferite, de la voce cu fundal, zgomote auto, ventilatoare etc. fără erori.
 faq-hours-q = De ce scopul de a aduna 10.000 de ore de captură audio?
-faq-hours-a = Acesta este aproximativ numărul de ore necesar pentru a antrena un sistem de producție STT.
+faq-hours-a = Acesta este aproximativ numărul de ore necesar pentru a antrena un sistem de producție STT (voce-text).
 faq-source-q = De unde provine textul sursă?
 faq-source-a1 = Propozițiile actuale provin de la contribuitori, dar și dialoguri din scenarii de filme din domeniul public, precum <italic>La vita è bella (Viața e frumoasă)</italic>.
 faq-source-a2 = Poți vedea propozițiile sursă în <dataLink>acest dosar GitHub</dataLink>.
@@ -183,8 +183,8 @@ data-other-title = Alte seturi de date vocale…
 data-other-goto = Du-te la { $name }
 data-other-download = Descarcă datele
 data-other-librispeech-description = LibriSpeech este un corp de date de aproximativ 1000 de ore de limbă engleză citită și codată la o calitate de 16Khz obținută din cărți audio ale proiectului LibriVox.
-data-other-ted-name = TED-LIUM Corpus
-data-other-ted-description = Corpul de date TED-LIUM a fost realizat din prezentări audio și transcrierile acestora disponibile pe site-ul TED.
+data-other-ted-name = Corpusul TED-LIUM
+data-other-ted-description = Corpusul de date TED-LIUM a fost realizat din prezentări audio și transcrierile acestora disponibile pe site-ul TED.
 data-other-voxforge-description = VoxForge a fost realizat pentru a colecta vorbirea tradusă pentru a fi folosite de motoare de recunoaștere vocală cu sursă deschisă.
 data-other-tatoeba-description = Tatoeba este o bază de date mare de propoziții, traduceri și limbă vorbită pentru utilă în învățarea limbilor. Această descărcare conține engleză vorbită înregistrată de comunitatea lor.
 data-bundle-button = Descarcă pachetul cu setul de date
@@ -210,9 +210,9 @@ review-terms = Folosind Common Voice eșți de acord cu <termsLink>Termenii</ter
 terms-agree = Sunt de acord
 terms-disagree = Nu sunt de acord
 review-aborted = Descărcarea a fost anulată. Dorești să ștergi înregistrările tale?
-review-submit-title = Recenzează și trimite
-review-submit-msg = Mulțumim pentru înregistrare!<lineBreak></lineBreak>Acum poți asculta și trimite clipurile de mai jos.
-review-recording = Recenzează
+review-submit-title = Verifică și trimite
+review-submit-msg = Mulțumim pentru înregistrare!<lineBreak></lineBreak>Acum poți verifica și trimite clipurile de mai jos.
+review-recording = Verifică
 review-rerecord = Reînregistrează
 review-cancel = Anulează trimiterea
 review-keep-recordings = Păstrează înregistrările
@@ -236,7 +236,7 @@ contact-form-name =
     .label = Nume
 contact-form-message =
     .label = Mesaj
-contact-required = necesar
+contact-required = *necesar
 
 ## Request Language Modal
 
@@ -245,13 +245,13 @@ request-language-cancel = Ieși din formular
 request-language-form-language =
     .label = Limbă
 request-language-success-title = Cererea de limbă a fost trimisă cu succes, mulțumim.
-request-language-success-content = Vom reveni cu informații despre cum putem adăuga limba ta la Common Voice foarte curând.
+request-language-success-content = Vom reveni foarte curând cu informații despre cum putem adăuga limba ta la Common Voice.
 
 ## Languages Overview
 
 language-section-in-progress = În curs
 language-section-launched = Lansate
 languages-show-more = Vezi mai multe
-languages-show-less = Vezi mai puţine
+languages-show-less = Vezi mai puține
 language-speakers = Locutori
 language-total-progress = Total
