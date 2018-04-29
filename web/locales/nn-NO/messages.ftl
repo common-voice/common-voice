@@ -152,6 +152,7 @@ license-mixed = Blanda
 ## Record Page
 
 record-platform-not-supported = Vi beklagar, men plattforma di er for tida ikkje støtta.
+record-platform-not-supported-desktop = Til datamaskiner kan du laste ned siste versjon:
 record-platform-not-supported-ios = <bold>iOS</bold>-brukarar kan laste ned gratisappen vår:
 record-must-allow-microphone = Du må tillate tilgang tilmikrofonen.
 record-cancel = Avbryt nyinnspelinga
@@ -162,9 +163,12 @@ record-error-too-quiet = Innspelinga var for stille.
 record-submit-success = Sendt inn! Vil du spele inn meir?
 record-help = Trykk for å spele inn, les deretter setninga ovanfor høgt.
 record-cancel = Avbryt nyinnspelinga
+review-terms = Ved å bruke Common Voice, godkjenner du <termsLink>vilkåra</termsLink> og <privacyLink>personvernpraksisen</privacyLink> vår
 terms-agree = Eg er samd
 terms-disagree = Eg er ikkje samd
+review-aborted = Opplasting avbroten. Vil du slette innspelingane dine? 
 review-submit-title = Vurder og send inn
+review-submit-msg = Takk for innspelinga! <lineBreak></lineBreak>Vurder og send inn klippa dine nedanfor. 
 review-recording = Vurder
 review-rerecord = Spel inn på nytt
 review-cancel = Avbryt innsending
