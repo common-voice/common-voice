@@ -75,6 +75,8 @@ back-top = Tilbake til toppen av sida
 
 ## Home Page
 
+home-title = Prosjektet Common Voice er eit Mozilla-initiativ, som skal hjelpe maskiner med å forstå korleis folk snakkar.
+wall-of-text-start = Stemma er naturleg, stemma er menneskeleg. Det er derfor vi er fascinert av å lage ein brukbar stemmeteknologi til maskinene våre. Men for å lage system til stemmegjenkjenning, trengst det svært store mengder med stemmedata.
 show-wall-of-text = Les meir
 help-us-title = Hjelp oss med å validere setningar!
 vote-yes = Ja
