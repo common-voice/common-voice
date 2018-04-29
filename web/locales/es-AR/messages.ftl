@@ -207,6 +207,8 @@ review-terms = Al usar Common Voice, acepta nuestros <termsLink>Términos</terms
 terms-agree = Estoy de acuerdo
 terms-disagree = No estoy de acuerdo
 review-aborted = Subida abortada. ¿Quiere eliminar sus grabaciones?
+review-submit-title = Revisar y enviar
+review-recording = Revisar
 
 ## Download Modal
 
