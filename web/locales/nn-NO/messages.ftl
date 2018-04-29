@@ -154,6 +154,7 @@ data-download-yes = Ja
 data-download-deny = Nei
 data-download-license = Lisens: <licenseLink>CC-0</licenseLink>
 data-get-started = <speechBlogLink>Kom i gang med talegjenkjenning</speechBlogLink>
+data-other-title = Andre stemme-datasett
 data-other-goto = Gå til { $name }
 data-other-download = Last ned data
 data-other-ted-name = TED-LIUM korpus
@@ -194,6 +195,7 @@ download-helpus = Hjelp oss med å byggje ein fellesskap omkring stemmeteknologi
 download-form-email =
     .label = Skriv inn e-postadressa di
     .value = Takk skal du ha, vi kontaktar deg.
+download-back = Gå tilbake til datasett for Common Voice
 download-no = Nei takk
 
 ## Contact Modal
