@@ -1,5 +1,7 @@
 ## General
 
+yes-receive-emails = Ja, send meg e-post, slik at eg held meg oppdateret om prosjektet Common Voice.
+stayintouch = Vi på Mozilla byggjer ein fellesskap rundt stemmeteknologi, og vi vil gjerne halde kontakten med oppdateringar, nye datakjelder og høyre meir om korleis du brukar denne informasjonen.
 return-to-cv = Gå tilbake til Common Voice
 email-input =
     .label = E-post
@@ -65,6 +67,8 @@ terms = Vilkår
 cookies = Infokapslar
 faq = FAQ
 content-license-text = Innhald tilgjengeleg under ein <licenseLink>Creative Commons-lisens</licenseLink>
+share-title = Hjelp oss med å finne andre som vil donere røysta si!
+share-text = Hjelp til med å lære maskiner korleis folk snakkar, doner røysta di på { $link }
 back-top = Tilbake til toppen av sida
 
 ## Home Page
@@ -126,6 +130,8 @@ faq-title = Vanlege spørsmål og svar
 faq-what-q = Kva er Common Voice?
 faq-important-q = Kvifor er det viktig?
 faq-get-q = Korleis får eg tilgang til Common Voice data?
+faq-hours-a = Dette er omlag talet på timar som krevst for å trene opp eit velfungerande stemmegjenkjenningssystem (STT).
+faq-source-q = Kvar kjem kjeldeteksten frå?
 
 ## Profile
 
@@ -142,6 +148,7 @@ data-download-button = Last ned Common Voice Data
 data-download-yes = Ja
 data-download-deny = Nei
 data-download-license = Lisens: <licenseLink>CC-0</licenseLink>
+data-get-started = <speechBlogLink>Kom i gang med talegjenkjenning</speechBlogLink>
 data-other-goto = Gå til { $name }
 data-other-download = Last ned data
 data-other-ted-name = TED-LIUM korpus
@@ -199,6 +206,7 @@ request-language-title = Språkførespurnad
 request-language-cancel = Avslutt skjemaet
 request-language-form-language =
     .label = Språk
+request-language-success-title = Språkførespurnaden er sendt inn. Takk skal du ha.
 
 ## Languages Overview
 
