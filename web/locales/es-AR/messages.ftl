@@ -209,15 +209,36 @@ terms-disagree = No estoy de acuerdo
 review-aborted = Subida abortada. ¿Quiere eliminar sus grabaciones?
 review-submit-title = Revisar y enviar
 review-recording = Revisar
+review-rerecord = Regrabar
+review-cancel = Cancelar envío
+review-keep-recordings = Mantener las grabaciones
+review-delete-recordings = Borrar mis grabaciones
 
 ## Download Modal
 
+download-title = La descarga se ha iniciado.
+download-no = No gracias
 
 ## Contact Modal
 
+contact-title = Formulario de contacto
+contact-cancel = Cancelar
+contact-form-name =
+    .label = Nombre
+contact-form-message =
+    .label = Mensaje
+contact-required = *requerido
 
 ## Request Language Modal
 
+request-language-title = Pedido de idioma
+request-language-cancel = Salir del formulario
+request-language-form-language =
+    .label = Idioma
 
 ## Languages Overview
 
+language-section-in-progress = En proceso
+languages-show-more = Ver más
+languages-show-less = Ver menos
+language-total-progress = Total
