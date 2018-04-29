@@ -177,16 +177,26 @@ data-download-deny = Nu
 data-download-license = Licență: <licenseLink>CC-0</licenseLink>
 data-download-modal = Ești pe cale să inițiezi o descărcare de <size>{ $size }GB</size>. Continui?
 data-subtitle = Construim o bază de date deschisa și public accesibilă de voci care poate fi folosită de oricine pentru a antrena modele de vorbire pentru aplicații.
+data-explanatory-text = Credem că disponibilitatea publică a unor corpuri mari de date vocale generează inovație și competiție comercială sănătoasă în tehnologia vocală bazată pe învățarea automată. Acesta este un efort global în care invităm pe toată lumea să participe. Scopul nostru este să ajutăm tehnologia vocală să devină mai inclusivă și să reflecte diversitatea vocilor din lumea întreagă.
 data-get-started = <speechBlogLink>Începe cu recunoașterea vocală</speechBlogLink>
 data-other-title = Alte seturi de date vocale…
 data-other-goto = Du-te la { $name }
 data-other-download = Descarcă datele
+data-other-librispeech-description = LibriSpeech este un corp de date de aproximativ 1000 de ore de limbă engleză citită și codată la o calitate de 16Khz obținută din cărți audio ale proiectului LibriVox.
 data-other-ted-name = TED-LIUM Corpus
+data-other-ted-description = Corpul de date TED-LIUM a fost realizat din prezentări audio și transcrierile acestora disponibile pe site-ul TED.
+data-other-voxforge-description = VoxForge a fost realizat pentru a colecta vorbirea tradusă pentru a fi folosite de motoare de recunoaștere vocală cu sursă deschisă.
+data-other-tatoeba-description = Tatoeba este o bază de date mare de propoziții, traduceri și limbă vorbită pentru utilă în învățarea limbilor. Această descărcare conține engleză vorbită înregistrată de comunitatea lor.
 data-bundle-button = Descarcă pachetul cu setul de date
+data-bundle-description = Datele Common Voice plus toate seturile de date de mai sus.
 license = Licență: <licenseLink>{ $license }</licenseLink>
+license-mixed = Diverse
 
 ## Record Page
 
+record-platform-not-supported = Ne pare rău, dar platforma ta nu este momentan suportată.
+record-platform-not-supported-desktop = Pe calculatoare desktop poți descărca cele mai recente:
+record-platform-not-supported-ios = Utilizatorii <bold>iOS</bold> pot descărca aplicația noastră gratuită:
 record-must-allow-microphone = Trebuie să permiți accesul la microfon.
 record-cancel = Anulează reînregistrarea
 record-retry = Reîncearcă
@@ -196,9 +206,12 @@ record-error-too-quiet = Volumul înregistrării este prea scăzut.
 record-submit-success = Trimitere reușită! Vrei să înregistrezi din nou?
 record-help = Te rugăm să atingi pentru a înregistra, apoi citește propoziția de mai sus cu voce tare.
 record-cancel = Anulează reînregistrarea
+review-terms = Folosind Common Voice eșți de acord cu <termsLink>Termenii</termsLink> și <privacyLink>Nota privind confidențialitatea</privacyLink>
 terms-agree = Sunt de acord
 terms-disagree = Nu sunt de acord
+review-aborted = Descărcarea a fost anulată. Dorești să ștergi înregistrările tale?
 review-submit-title = Recenzează și trimite
+review-submit-msg = Mulțumim pentru înregistrare!<lineBreak></lineBreak>Acum poți asculta și trimite clipurile de mai jos.
 review-recording = Recenzează
 review-rerecord = Reînregistrează
 review-cancel = Anulează trimiterea
@@ -207,6 +220,8 @@ review-delete-recordings = Șterge înregistrările mele
 
 ## Download Modal
 
+download-title = Descărcarea ta a început.
+download-helpus = Ajută-ne să construim o comunitate în jurul tehnologiei vocale, rămâne la curent prin e-mail.
 download-form-email =
     .label = Introdu e-mailul
     .value = Îți mulțumim, vom ține legătura.
@@ -229,6 +244,8 @@ request-language-title = Solicitare de limbă
 request-language-cancel = Ieși din formular
 request-language-form-language =
     .label = Limbă
+request-language-success-title = Cererea de limbă a fost trimisă cu succes, mulțumim.
+request-language-success-content = Vom reveni cu informații despre cum putem adăuga limba ta la Common Voice foarte curând.
 
 ## Languages Overview
 
