@@ -44,7 +44,8 @@ class LanguagesPage extends React.PureComponent<Props, State> {
       localizations: (await api.fetchPontoonLanguages()).data.project.localizations
         .map((localization: any) => ({
           ...localization,
-          progress: localization.approvedStrings / localization.totalStrings,
+          progress:
+            0.5 * (localization.approvedStrings / localization.totalStrings),
         }))
         .sort(
           (l1: any, l2: any) =>
