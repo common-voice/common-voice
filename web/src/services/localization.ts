@@ -49,7 +49,7 @@ export function negotiateLocales(locales: string[]) {
 
 function* asMessageContextGenerator(localeMessages: string[][]) {
   for (const [locale, messages] of localeMessages) {
-    const cx = new MessageContext(locale);
+    const cx = new MessageContext(locale, { useIsolating: false });
     cx.addMessages(messages);
     yield cx;
   }
