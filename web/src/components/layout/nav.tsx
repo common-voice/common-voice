@@ -1,6 +1,5 @@
 import { Localized } from 'fluent-react';
 import * as React from 'react';
-import { isProduction } from '../../utility';
 import URLS from '../../urls';
 import { ContributableLocaleLock, LocaleNavLink } from '../locale-helpers';
 
@@ -16,11 +15,9 @@ export default ({ children, ...props }: { [key: string]: any }) => (
     <Localized id="datasets">
       <LocaleNavLink to={URLS.DATA} exact />
     </Localized>
-    {!isProduction() && (
-      <Localized id="languages">
-        <LocaleNavLink to={URLS.LANGUAGES} exact />
-      </Localized>
-    )}
+    <Localized id="languages">
+      <LocaleNavLink to={URLS.LANGUAGES} exact />
+    </Localized>
     <Localized id="profile">
       <LocaleNavLink to={URLS.PROFILE} exact />
     </Localized>

@@ -3,11 +3,14 @@ const { MessageContext } = require('fluent');
 const { negotiateLanguages } = require('fluent-langneg');
 import ISO6391 from 'iso-639-1';
 const locales = require('../../../data/locales.json');
+const completedLocales = require('../../../data/completed_locales.json');
 import { isProduction } from '../utility';
 import API from './api';
 
 export const DEFAULT_LOCALE = 'en';
-export const LOCALES = isProduction() ? [DEFAULT_LOCALE] : Object.keys(locales);
+export const LOCALES = isProduction()
+  ? (completedLocales as string[])
+  : Object.keys(locales);
 export const CONTRIBUTABLE_LOCALES = ['en'];
 
 const localeNations: any = {

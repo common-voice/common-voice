@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 import { Localized } from 'fluent-react';
 import { trackNavigation } from '../../../services/tracker';
 import URLS from '../../../urls';
-import { isProduction } from '../../../utility';
 import ProgressBar from '../../progress-bar/progress-bar';
 import API from '../../../services/api';
 import StateTree from '../../../stores/tree';
@@ -82,30 +81,21 @@ class ProjectStatus extends React.Component<Props, State> {
             </div>
           </div>
 
-          {isProduction() ? (
-            <div>
-              <Localized id="status-more-soon">
-                <span />
-              </Localized>
-              <div className="progress-bar" />
-            </div>
-          ) : (
-            <div className="request-language">
-              <Hr style={{ marginBottom: '2rem' }} />
+          <div className="request-language">
+            <Hr style={{ marginBottom: '2rem' }} />
 
-              <Localized id="request-language-text">
-                <div />
-              </Localized>
+            <Localized id="request-language-text">
+              <div />
+            </Localized>
 
-              <br />
+            <br />
 
-              <Localized id="request-language-button">
-                <Button rounded onClick={this.props.onRequestLanguage} />
-              </Localized>
+            <Localized id="request-language-button">
+              <Button rounded onClick={this.props.onRequestLanguage} />
+            </Localized>
 
-              <br />
-            </div>
-          )}
+            <br />
+          </div>
         </div>
       </div>
     );
