@@ -15,36 +15,43 @@ audio-loading-error = Ursäkta! Vi bearbetar våra ljudfiler, var vänlig och f�
 
 ## Languages
 
-ga-IE = Irländska
-cs = Tjeckiska
-uz = Uzbekistanska
-de = Tyska
 bn = Bengaliska
-sk = Slovakiska
 ca = Katalanska
-ko = Koreanska
+cs = Tjeckiska
+cy = Walesiska
+da = Danska
+de = Tyska
+el = Grekiska
+en = Engelska
+es = Spanska
+es-AR = Spanska (Argentina)
 es-CL = Spanska (Chile)
-th = Thailändska
+fr = Franska
+fy-NL = Frisiska
+ga-IE = Irländska
+he = Hebreiska
+hu = Ungerska
+id = Indonesiska
+it = Italienska
+ko = Koreanska
+mk = Makedonska
+nb-NO = Norska Bokmål
+nl = Nederländska
+nn-NO = Norska, nynorska
 pl = Polska
 pt-BR = Portugisiska (Brasilien)
-id = Indonesiska
-zh-TW = Kinesiska (Taiwan)
-cy = Walesiska
-el = Grekiska
+ro = Rumänska
+ru = Ryska
+sk = Slovakiska
+sq = Albanska
 sv-SE = Svenska
-mk = Makedonska
-nn-NO = Norska, nynorska
-fr = Franska
+th = Thailändska
 tr = Turkiska
 tt = Tatariska
-fy-NL = Frisiska
-he = Hebreiska
+uk = Ukrainska
+uz = Uzbekistanska
 zh-CN = Kinesiska (Kina)
-nl = Nederländska
-sq = Albanska
-ru = Ryska
-it = Italienska
-en = Engelska
+zh-TW = Kinesiska (Taiwan)
 
 ## Layout
 
@@ -172,6 +179,7 @@ data-other-ted-name = TED-LIUM korpus
 data-bundle-button = Ladda ner Dataset-paket
 data-bundle-description = Common Voice data plus alla andra röstdatamängder ovan.
 license = Licens: <licenseLink>{ $license }</licenseLink>
+license-mixed = Blandat
 
 ## Record Page
 
