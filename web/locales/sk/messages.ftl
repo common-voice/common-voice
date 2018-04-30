@@ -120,7 +120,7 @@ profile-form-age =
 profile-form-gender =
     .label = Pohlavie
 profile-form-submit-save = Uložiť
-profile-form-submit-saved = Uložené
+profile-form-submit-saved = Uložený
 profile-keep-data = Ponechať údaje
 profile-delete-data = Odstrániť údaje
 male = Muž
@@ -129,9 +129,10 @@ female = Žena
 other = Iné
 why-profile-title = Prečo chcete profil?
 edit-profile = Upraviť profil
-profile-create = Vytvoriť profil
+profile-create = Vytvorenie profilu
 profile-create-success = Profil bol úspešne vytvorený!
 profile-close = Zavrieť
+profile-clear-modal = Odstránenie údajov profilu znamená, že tieto demografické údaje už nebudú naďalej odosielané s vašimi nahrávkami.
 
 ## FAQ
 
@@ -150,6 +151,7 @@ faq-quality-a = Chceme zvuk v takej kvalite, ktorá zodpovedá kvalite, s ktorou
 faq-hours-q = Prečo je 10 000 hodín cieľom pre záznam zvuku?
 faq-hours-a = Je to približný počet hodín potrebných na natrénovanie produkčného systému prevodu reči na text.
 faq-source-q = Odkiaľ pochádza zdrojový text?
+faq-source-a1 = Súčasné vety pochádzajú z darov prispievateľov a z dialógov verejných filmových scenárov, ako napríklad <italic>Život je krásny.</italic>
 faq-source-a2 = Zdrojové vety si môžete pozrieť v <dataLink>tomto priečinku na GitHube</dataLink>.
 
 ## Profile
