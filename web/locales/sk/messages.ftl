@@ -83,6 +83,11 @@ wall-of-text-start =
     pre naše stroje. by sme ju však mohli vytvoriť, potrebujeme veľké množstvo 
     hlasových údajov.
 wall-of-text-more-mobile = Väčšina údajov, ktoré používajú veľké spoločnosti nie je dostupná pre väčšinu ľudí. Myslíme si, že to zdržuje inovácie. Preto sme spustili Common Voice, projekt, ktorý sprístupní rozpoznávanie reči pre všetkých.
+wall-of-text-more-desktop =
+    Odteraz môžete darovať svoj hlas a pomôcť nám tak vybudovať open source hlasovú databázu, ktorú môže
+    použiť ktokoľvek na tvorbu inovatívnych aplikácií pre zariadenia a pre web.<lineBreak></lineBreak>
+    Čítajte vety a pomôžte strojom naučiť sa, ako hovoria skutoční ľudia. Skontrolujte prácu ďalších
+    dobrovoľníkov a vylepšite jej kvalitu. Je to také jednoduché!
 show-wall-of-text = Prečítajte si viac
 help-us-title = Pomôžte nám overovať vety!
 help-us-explain = Kliknite na prehrať, počúvajte a povedzte nám, či sa nahrávka zhoduje s vetou nižšie.
@@ -142,11 +147,13 @@ profile-clear-modal = Odstránenie údajov profilu znamená, že tieto demografi
 
 faq-title = Často kladené otázky
 faq-what-q = Čo je Common Voice?
+faq-what-a = Technológie rozpoznávania reči by mohli priniesť revolúciu v tom, akým spôsobom komunikujeme so strojmi. Súčasné systémy sú však drahé a uzatvorené. Common Voice je projekt, ktorý robí z rozpoznávania reči technológiu dostupnú pre všetkých. Ľudia darujú svoje hlasy do obrovskej databázy, ktorá umožní komukoľvek rýchlo a jednoducho vytrénovať aplikácie v oblasti rozpoznávania reči. Všetky hlasové údaje budú dostupné pre vývojárov.
 faq-important-q = Prečo je to dôležité?
 faq-important-a = Reč je prirodzená a ľudská. Je to najjednoduchšia a najprirodzenejšia forma komunikácie. Chceme umožniť vývojárom, tvoriť úžasné veci - od prekladačov v reálnom čase až po hlasových asistentov. V súčasnosti však nie je k dispozícii dostatok verejne dostupných údajov na to, aby takéto aplikácie mohli vzniknúť. Dúfame, že Common Voice dá vývojárom to, čo na inovácie potrebujú.
 faq-get-q = Ako môžem získať údaje z Common Voice?
 faq-get-a = Dataset je k dispozícii na <downloadLink>tejto stránke</downloadLink> v rámci licencie <licenseLink>CC-0</licenseLink>.
 faq-mission-q = Prečo je Common Voice súčasťou misie Mozilly?
+faq-mission-a = Mozilla je odhodlaná udržať web otvorený a prístupný pre všetkých. Aby sme to mohli robiť, potrebujeme podporovať tvorcov webu pomocou projektov, ako napríklad Common Voice. Keďže sa technológie rozpoznávania reči dostávajú do čoraz viac aplikácií, veríme, že by mali slúžiť rovnako dobre všetkým používateľom. Vidíme potrebu zahrnúť pri tvorbe a testovaní technológii na rozpoznávanie reči ďalšie jazyky, prízvuky a skupiny ľudí. Mozilla chce vidieť zdravý a energický internet. Za týmto účelom chce poskytnúť novým tvorcom prístup k hlasovým údajom - aby mohli tvoriť nové, mimoriadne projekty. Common Voice bude verejný zdroj, ktorý pomôže tímom Mozilly a vývojárom po celom svete.
 faq-native-q = { $lang } nie je môj materinský jazyk a hovorím s prízvukom, chcete môj hlas aj tak?
 faq-native-a = Áno, určite chceme váš hlas! Súčasťou cieľov projektu Common Voice je zozbierať čo najviac prízvukov, aby tak počítače mohli lepšie rozumieť <bold>každému</bold>.
 faq-firefox-q = Bude prevod reči na text prostredníctvom Common Voice niekedy súčasťou Firefoxu?
