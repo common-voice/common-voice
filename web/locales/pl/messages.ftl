@@ -22,9 +22,8 @@ cv = czuwaski
 cy = walijski
 da = duński
 de = niemiecki
-e = n
-E = n
 el = grecki
+en = angielski
 es-AR = hiszpański (Argentyna)
 es-CL = hiszpański (Chile)
 fr = francuski
@@ -36,7 +35,9 @@ id = indonezyjski
 it = włoski
 ka = gruziński
 ko = koreański
+kw = kornijski
 mk = macedoński
+nb-NO = norweski (bokmål)
 nl = holenderski
 nn-NO = norweski (nynorsk)
 or = orija
@@ -133,6 +134,7 @@ edit-profile = Edytuj profil
 profile-create = Utwórz profil
 profile-create-success = Pomyślnie utworzono profil.
 profile-close = Zamknij
+profile-clear-modal = Wyczyszczenie danych profilu oznacza, że te informacje demograficzne nie będą już wysyłane do projektu Common Voice razem z nagraniami.
 
 ## FAQ
 
