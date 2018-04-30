@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Da, trimite-mi e-mailuri. Aș dori să fiu la curent despre proiectul Common Voice.
+yes-receive-emails = Da, trimite-mi e-mailuri. Aș dori să fiu la curent cu proiectul Common Voice.
 stayintouch = La Mozilla construim o comunitate în jurul tehnologiei vocale. Dorim să te ținem la curent cu știri, noi surse de date și să auzim mai multe despre cum folosești aceste date.
 privacy-info = Promitem să tratăm cu grijă informațiile tale. Citește mai multe în <privacyLink>Politica de confidențialitate</privacyLink>.
 return-to-cv = Întoarce-te la Common Voice
@@ -181,7 +181,7 @@ data-download-yes = Da
 data-download-deny = Nu
 data-download-license = Licență: <licenseLink>CC-0</licenseLink>
 data-download-modal = Ești pe cale să inițiezi o descărcare de <size>{ $size }GB</size>. Continui?
-data-subtitle = Construim un set de date de voci, deschis și disponibil public, care poate fi folosit de oricine pentru a antrena aplicațiile care folosesc comenzi vocale.
+data-subtitle = Construim un set de date de voci, deschis și disponibil public, care poate fi folosit de oricine pentru a antrena aplicațiile acționate vocal.
 data-explanatory-text = Credem că disponibilitatea publică a unor corpuri mari de date vocale generează inovație și competiție comercială sănătoasă în tehnologia vocală bazată pe învățarea automată. Acesta este un efort global în care invităm pe toată lumea să participe. Scopul nostru este să ajutăm tehnologia vocală să devină mai inclusivă și să reflecte diversitatea vocilor din lumea întreagă.
 data-get-started = <speechBlogLink>Începe cu recunoașterea vocală</speechBlogLink>
 data-other-title = Alte seturi de date vocale…
