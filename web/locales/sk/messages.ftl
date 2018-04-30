@@ -128,6 +128,7 @@ female = Žena
 # Gender
 other = Iné
 why-profile-title = Prečo chcete profil?
+why-profile-text = Tým, že nám o sebe poskytnete nejaké informácie, budú údaje, ktoré odošlete do Common Voice, užitočnejšie pre systémy rozpoznávania reči, ktoré tieto údaje využívajú na zvýšenie presnosti.
 edit-profile = Upraviť profil
 profile-create = Vytvorenie profilu
 profile-create-success = Profil bol úspešne vytvorený!
@@ -139,6 +140,7 @@ profile-clear-modal = Odstránenie údajov profilu znamená, že tieto demografi
 faq-title = Často kladené otázky
 faq-what-q = Čo je Common Voice?
 faq-important-q = Prečo je to dôležité?
+faq-important-a = Reč je prirodzená a ľudská. Je to najjednoduchšia a najprirodzenejšia forma komunikácie. Chceme umožniť vývojárom, tvoriť úžasné veci - od prekladačov v reálnom čase až po hlasových asistentov. V súčasnosti však nie je k dispozícii dostatok verejne dostupných údajov na to, aby takéto aplikácie mohli vzniknúť. Dúfame, že Common Voice dá vývojárom to, čo na inovácie potrebujú.
 faq-get-q = Ako môžem získať údaje z Common Voice?
 faq-get-a = Dataset je k dispozícii na <downloadLink>tejto stránke</downloadLink> v rámci licencie <licenseLink>CC-0</licenseLink>.
 faq-mission-q = Prečo je Common Voice súčasťou misie Mozilly?
@@ -157,9 +159,11 @@ faq-source-a2 = Zdrojové vety si môžete pozrieť v <dataLink>tomto priečinku
 ## Profile
 
 profile-why-title = Prečo potrebujete profil?
+profile-why-content = Tým, že nám o sebe poskytnete nejaké informácie, budú údaje, ktoré odošlete do Common Voice, užitočnejšie pre systémy rozpoznávania reči, ktoré tieto údaje využívajú na zvýšenie presnosti.
 
 ## NotFound
 
+notfound-title = Nenájdené
 notfound-content = Obávam sa, že neviem čo hľadáte.
 
 ## Data
@@ -175,6 +179,10 @@ data-other-title = Ďalšie hlasové datasety…
 data-other-goto = Prejsť na { $name }
 data-other-download = Prevziať údaje
 data-other-librispeech-description = LibriSpeech je korpus približne 1 000 hodín 16 kHz čítanej angličtiny odvodený z audiokníh z projektu LibriVox.
+data-other-ted-name = Korpus TED-LIUM
+data-other-ted-description = Korpus TED-LIUM je tvorený zvukovými nahrávkami prednášok a ich prepismi dostupnými na webovej stránke TED.
+data-other-voxforge-description = VoxForge bol vytvorený za účelom zberu prepísanej reči na použitie vo voľne dostupných, open source systémoch rozpoznávania reči.
+data-other-tatoeba-description = Tatoeba je rozsiahla databáza viet, prekladov a hovoreného slova pre použitie pri štúdiu jazykov. Obsahuje hovorenú angličtinu nahranú jej komunitou.
 data-bundle-button = Prevziať balík datasetov
 data-bundle-description = Common Voice a údaje všetkých ostatných hlasových datasetov vyššie.
 license = Licencia: <licenseLink>{ $license }</licenseLink>
