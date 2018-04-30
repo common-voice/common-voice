@@ -21,6 +21,7 @@ da = Danish
 de = German
 el = Greek
 en = English
+es = Spanish
 es-AR = Spanish (Argentina)
 es-CL = Spanish (Chile)
 fr = French
