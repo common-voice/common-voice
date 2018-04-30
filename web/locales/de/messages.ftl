@@ -133,6 +133,7 @@ edit-profile = Profil bearbeiten
 profile-create = Ein Profil erstellen
 profile-create-success = Geschafft, Profil erstellt!
 profile-close = Schließen
+profile-clear-modal = Wenn Sie Ihre Profildaten löschen, werden Ihre demografischen Informationen nicht mehr zusammen mit Ihren Aufzeichnungen an Common Voice übertragen.
 
 ## FAQ
 
