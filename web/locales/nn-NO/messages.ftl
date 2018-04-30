@@ -146,6 +146,7 @@ faq-important-a = Språk er naturleg, språk er menneskeleg. Det er den enklaste
 faq-get-q = Korleis får eg tilgang til Common Voice data?
 faq-get-a = Datamengda er no tilgjengeleg på <downloadLink>nedastingssida</downloadLink> vår under lisensen <licensLink>CC-0</ licenseLink>.
 faq-mission-q = Kvifor er Common Voice ein del av oppdraget til Mozilla?
+faq-mission-a = Mozilla er dedikert til å halde nettet ope og tilgjengeleg for alle. For å gjere det er vi nøydde til å gje fullmakt til kreative personar gjennom prosjekt som Common Voice. Ettersom stemmeteknologiar ikkje lenger kun vert brukt i nisje-applikasjonar, meiner vi at dei skal tene alle brukarar like godt. Vi ser eit behov for å ta med fleire språk, aksentar og demografiar, når stemmeteknologiar vert skapte og testa. Mozilla ønskjer eit sunt og levande internett. Det betyr at nye skaparar får tiltgang til stemmedata slik at dei kan byggje nye, ekstraordinære prosjekt. Common Voice vert ein offentleg ressurs, som vil kome til å hjelpe både Mozilla og utviklarar over heile verda.
 faq-native-q = { $lang } er ikkje morsmålet mitt og eg pratar med aksent. Er de framleis interesserte i stemmeinnspelingane mine?
 faq-native-a = Ja, vi vil svært gjerne ha di hjelp! Ein del av målet med Common Voice er å samle inn så mange ulike aksentar som råd, slik at datamaskiner lettare kan forstå <bold>alle</ bold> når dei snakkar.
 faq-firefox-q = Vil tale-til-tekst via Common Voice nokongong bli ein del av Firefox?
