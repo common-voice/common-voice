@@ -37,8 +37,9 @@ ka = gruzínčina
 ko = kórejčina
 kw = kornčina
 mk = macedónčina
+nb-NO = nórčina (bokmål)
 nl = holandčina
-nn-NO = nórčina (Nynorsk)
+nn-NO = nórčina (nynorsk)
 or = urijčina
 pl = poľština
 pt-BR = portugalčina (Brazília)
@@ -230,10 +231,12 @@ request-language-cancel = Zavrieť formulár
 request-language-form-language =
     .label = Jazyk
 request-language-success-title = Žiadosť o jazyk bola odoslaná. Ďakujeme.
+request-language-success-content = Čoskoro vám dáme vedieť, ako môžete pridať svoj jazyk do Common Voice.
 
 ## Languages Overview
 
-language-section-launched = Spustené
+language-section-in-progress = Jazyky, ktoré sa pripravujú
+language-section-launched = Spustené jazyky
 languages-show-more = Zobraziť viac
 languages-show-less = Zobraziť menej
 language-speakers = Počet hovoriacich
