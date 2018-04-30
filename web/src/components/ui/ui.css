@@ -3,6 +3,7 @@
     box-sizing: border-box;
     padding: 0.5rem 1rem;
     min-width: 14rem;
+    height: 3rem;
     font-size: .9rem;
     font-weight: 600;
     font-family: var(--base-font-family);
@@ -19,6 +20,7 @@
     @media (--md-up) {
         display: initial;
         width: auto;
+        height: auto;
     }
 
     &.outline {
