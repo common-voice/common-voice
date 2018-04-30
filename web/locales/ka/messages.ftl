@@ -24,6 +24,7 @@ da = დანიური
 de = გერმანული
 el = ბერძნული
 en = ინგლისური
+es = ესპანური
 es-AR = ესპანური (არგენტინა)
 es-CL = ესპანური (ჩილე)
 fr = ფრანგული
@@ -60,7 +61,7 @@ zh-TW = ჩინური (ტაივანი)
 ## Layout
 
 speak = ჩაწერა
-datasets = მონაცემთა კრებულები
+datasets = ნაკრებები
 languages = ენები
 profile = პროფილი
 help = დახმარება
@@ -108,7 +109,7 @@ english = ინგლისური
 
 ## ProfileForm
 
-profile-form-cancel = ველების დახურვა
+profile-form-cancel = გაუქმება
 profile-form-delete = პროფილის წაშლა
 profile-form-username =
     .label = მომხმარებლის სახელი
@@ -188,7 +189,7 @@ data-other-ted-name = TED-LIUM ნაკრები
 data-other-ted-description = TED-LIUM ხმოვანი საუბრებისა და სამეტყველო ბგერებისგანაა შედგენილი, რომელიც TED ვებსაიტზე იყო ხელმისაწვდომი.
 data-other-voxforge-description = VoxForge იყო სამეტყველო ბგერათა ხმოვანი ნაკრები, უფასო და ღია წყაროს ხმოვანი ამოცნობის სისტემებისთვის შექმნილი.
 data-other-tatoeba-description = Tatoeba არის დიდი მონაცემთა ნაკრები წინადადებების, თარგმანის, საუბრის ჩანაწერების, ენის შესწავლისთვის გამოსაყენებლად. ეს ჩამოტვირთვა შეიცავს ინგლისურად მოსაუბრეთა ჩანაწერებს, მათი ერთობიდან.
-data-bundle-button = მონაცემთა კრებულის ჩამოტვირთვა
+data-bundle-button = მონაცემთა ნაკრების ჩამოტვირთვა
 data-bundle-description = Common Voice მონაცემებს დამატებული, ზემოთ არსებული ყველა სხვა ხმოვან მონაცემთა ნაკრები.
 license = ლიცენზია: <licenseLink>{ $license }</licenseLink>
 license-mixed = შერეული
@@ -226,12 +227,12 @@ download-helpus = დაგვეხმარეთ ხმოვანი ტე
 download-form-email =
     .label = შეიყვანეთ თქვენი ელფოსტა
     .value = გმადლობთ, აუცილებლად შეგეხმიანებით.
-download-back = Common Voice-ის მონაცემთა კრებულებზე დაბრუნება
+download-back = Common Voice-ის მონაცემთა ნაკრებებზე დაბრუნება
 download-no = არა, გმადლობთ
 
 ## Contact Modal
 
-contact-title = ველები დასაკავშირებლად
+contact-title = დაკავშირება
 contact-cancel = გაუქმება
 contact-form-name =
     .label = სახელი
@@ -242,7 +243,7 @@ contact-required = *აუცილებელია
 ## Request Language Modal
 
 request-language-title = ენის მოთხოვნა
-request-language-cancel = ველების დახურვა
+request-language-cancel = გაუქმება
 request-language-form-language =
     .label = ენა
 request-language-success-title = ენის მოთხოვნა გადაიგზავნა წარმატებით, გმადლობთ.
