@@ -55,7 +55,7 @@ tt = 韃靼語
 uk = 烏克蘭語
 uz = 烏茲別克語
 zh-CN = 華語（中國）
-zh-TW = 華語（臺灣）
+zh-TW = 華語（台灣）
 
 ## Layout
 
@@ -85,7 +85,7 @@ wall-of-text-more-desktop =
     只要朗讀一段文字，即可幫助機器了解人們如何說話，也可看看其他貢獻者的心血結晶來協助改善品質，就是這麼簡單！
 show-wall-of-text = 了解更多
 help-us-title = 請幫助我們驗證句子！
-help-us-explain = 按下播放，聆聽，然後告訴我們: 他們準確地說出了下方的句子嗎？
+help-us-explain = 按下播放按鈕，聽一聽，然後告訴我們: 他們正確說出下面的句子了嗎？
 vote-yes = 是
 vote-no = 否
 request-language-text = 沒在 Common Voice 看到您的語言嗎？
@@ -93,7 +93,7 @@ request-language-button = 要求新語言
 
 ## ProjectStatus
 
-status-title = 專案狀態：看看我們做到哪兒了！
+status-title = 專案狀態: 看看我們做到哪兒了！
 status-contribute = 貢獻您的聲音
 status-hours =
     { $hours ->
@@ -129,7 +129,7 @@ female = 女性
 # Gender
 other = 其他
 why-profile-title = 為什麼需要帳號？
-why-profile-text = 提供一些關於您的資訊給我們之後，語音識別引擎將可使用該資訊，更加善用您送出給 Common Voice 的語音資料，並改善準確度。
+why-profile-text = 語音識別引擎將可使用您提供給我們的資訊，讓您送出給 Common Voice 的語音資料被更加善用，改善準確度。
 edit-profile = 編輯帳號資料
 profile-create = 註冊帳號
 profile-create-success = 帳號建立成功！
@@ -161,7 +161,7 @@ faq-source-a2 = 您可在<dataLink>這個 GitHub 資料夾</dataLink>參考我�
 ## Profile
 
 profile-why-title = 為什麼需要註冊帳號？
-profile-why-content = 透過提供一些您的資訊，使用您送出給 Common Voice 的語音資料的語音識別引擎將能更加改善準確度。
+profile-why-content = 使用您送出給 Common Voice 的語音資料的語音識別引擎，若能得到一些關於您的資訊將能夠更加準確。
 
 ## NotFound
 
@@ -184,7 +184,7 @@ data-other-download = 下載資料
 data-other-librispeech-description = LibriSpeech 是一套取自 LibriVox 計畫，約一千小時長度的 16Khz 英語有聲書的語料庫。
 data-other-ted-name = TED-LIUM 語料庫
 data-other-ted-description = TED-LIUM 語料庫是從 TED 網站上的語音對話及轉錄文字製作而成的語料庫。
-data-other-voxforge-description = VoxForge 被設計來收集轉錄對話，以供自由與開放原始碼的語音辨識引擎使用。
+data-other-voxforge-description = VoxForge 被設計來收集轉錄的對話內容，以供自由與開放原始碼的語音辨識引擎使用。
 data-other-tatoeba-description = Tatoeba 是一套用來進行語言學習的大型資料庫，當中包含了各種句型、翻譯以及語音。這個下載項目包含了由其社群所錄下的英語語音。
 data-bundle-button = 下載資料集總組合
 data-bundle-description = Common Voice 資料，以及上面列出的所有其他語音資料集。
