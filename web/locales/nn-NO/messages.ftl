@@ -177,6 +177,7 @@ data-other-download = Last ned data
 data-other-librispeech-description = LibriSpeech er eit korpus av omlag 1000 timar med engelsk tale (16Khz-opptak) henta frå lydbøker i LibriVox-prosjektet.
 data-other-ted-name = TED-LIUM korpus
 data-other-ted-description = TED-LIUM korpuset er laga på bakgrunn av lydsamtalar og transkripsjonar av desse, på TED-nettsida.
+data-other-voxforge-description = VoxForge vart starta for å samla inn transskriberet tale for bruk i talegjenkjenningssystem basert på fri og open kjeldekode.
 data-bundle-button = Last ned Datamengde-pakken
 data-bundle-description = Data frå Common Voice pluss alle andre stemmedatamengder ovanfor.
 license = Lisens: <licenseLink>{ $license }</licenseLink>
@@ -235,6 +236,7 @@ request-language-cancel = Avslutt skjemaet
 request-language-form-language =
     .label = Språk
 request-language-success-title = Språkførespurnaden er sendt inn. Takk skal du ha.
+request-language-success-content = Vi kontaktar deg snart med meir informasjon om korleis du legg til ditt språk i Common Voice.
 
 ## Languages Overview
 
