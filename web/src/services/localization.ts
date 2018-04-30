@@ -10,12 +10,35 @@ export const DEFAULT_LOCALE = 'en';
 export const LOCALES = isProduction() ? [DEFAULT_LOCALE] : Object.keys(locales);
 export const CONTRIBUTABLE_LOCALES = ['en'];
 
-export function getNativeNameWithFallback(code: string) {
-  return (
-    ISO6391.getNativeName(code) ||
-    ISO6391.getNativeName(code.split('-')[0]) ||
-    code
-  );
+const localeNations: any = {
+  'es-AR': 'de Argentina',
+  'es-CL': 'de Chile',
+  'pt-BR': 'Brasil',
+  'sv-SE': 'Sverige',
+  'zh-CN': '简体',
+  'zh-TW': '繁體',
+};
+
+export function getNativeNameWithFallback(locale: string) {
+  let nativeName = ISO6391.getNativeName(locale);
+
+  if (nativeName) {
+    return nativeName;
+  }
+
+  const [localePart, nationPart] = locale.split('-');
+  nativeName = ISO6391.getNativeName(localePart);
+  if (nativeName) {
+    // Norwegian locales are identifiable by their first part alone
+    if (nationPart == 'NO') return nativeName;
+
+    const nation = localeNations[locale];
+    return nation
+      ? `${nativeName} (${nation})`
+      : nativeName + ' ' + (locales[locale].split(' ')[1] || '');
+  }
+
+  return locale;
 }
 
 export function negotiateLocales(locales: string[]) {
