@@ -24,6 +24,7 @@ da = dánčina
 de = nemčina
 el = gréčtina
 en = angličtina
+es = španielčina
 es-AR = španielčina (Argentína)
 es-CL = španielčina (Čile)
 fr = francúzština
