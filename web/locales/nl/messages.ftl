@@ -133,6 +133,7 @@ edit-profile = Profiel bewerken
 profile-create = Een profiel aanmaken
 profile-create-success = Gelukt, profiel aangemaakt!
 profile-close = Sluiten
+profile-clear-modal = Het wissen van uw profielgegevens betekent dat deze demografische gegevens niet meer samen met uw clipopnamen bij Common Voice worden ingediend.
 
 ## FAQ
 
