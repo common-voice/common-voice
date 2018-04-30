@@ -145,6 +145,7 @@ faq-native-a = Ja, vi vil svært gjerne ha di hjelp! Ein del av målet med Commo
 faq-firefox-q = Vil tale-til-tekst via Common Voice nokongong bli ein del av Firefox?
 faq-firefox-a = Common Voice har ubegrensa potensial og vi undersøkjer talegrensesnitt i mange Mozilla-produkt, inklusive Firefox.
 faq-quality-q = Kva for kvalitetsnivå krevst det på lyden for at han skal kunne brukast?
+faq-quality-a = Vi vil gjerne at lydkvaliteten avspeglar og kan konkurrere med andre tale-til-tekst applikasjonar på marknaden. Derfor har vi bruk for variasjon. Dette lærer tale-til-tekst applikasjonen å handtere ulike situasjonar — bakgrunnsstøy, bilstøy, viftestøy — utan feil.
 faq-hours-q = Kvifor er målet å ha 10 000 timar med lydopptak?
 faq-hours-a = Dette er omlag talet på timar som krevst for å trene opp eit velfungerande stemmegjenkjenningssystem (STT).
 faq-source-q = Kvar kjem kjeldeteksten frå?
