@@ -35,6 +35,10 @@
     text-align: center;
     background: var(--white);
     pointer-events: all;
+
+    @media (--md-up) {
+        min-height: auto;
+    }
 }
 
 .ReactModal__Content .buttons {
