@@ -22,9 +22,8 @@ cv = Tjuvasjisk
 cy = Walisisk
 da = Dansk
 de = Tysk
-e = n
-E = n
 el = Græsk
+en = Engelsk
 es-AR = Spansk (Argentina)
 es-CL = Spansk (Chile)
 fr = Fransk
@@ -36,7 +35,9 @@ id = Indonesisk
 it = Italiensk
 ka = Georgisk
 ko = Koreansk
+kw = Kornisk
 mk = Makedonsk
+nb-NO = Bokmål
 nl = Nederlandsk
 nn-NO = Nynorsk
 or = Oriya
@@ -132,6 +133,7 @@ edit-profile = Rediger profil
 profile-create = Opret en profil
 profile-create-success = Profil oprettet!
 profile-close = Luk
+profile-clear-modal = Når du rydder dine profil-data vil denne demografiske information ikke længere blive sendt til Common Voice sammen med dine lydoptagelser.
 
 ## FAQ
 
