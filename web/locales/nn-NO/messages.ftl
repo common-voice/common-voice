@@ -178,6 +178,7 @@ data-other-librispeech-description = LibriSpeech er eit korpus av omlag 1000 tim
 data-other-ted-name = TED-LIUM korpus
 data-other-ted-description = TED-LIUM korpuset er laga på bakgrunn av lydsamtalar og transkripsjonar av desse, på TED-nettsida.
 data-other-voxforge-description = VoxForge vart starta for å samla inn transskriberet tale for bruk i talegjenkjenningssystem basert på fri og open kjeldekode.
+data-other-tatoeba-description = Tatoeba er ein stor database av setningar, omsettingar og innspelt lyd for bruk i språklæring. Denne filhentninga inneheld talt engelsk spelt inn av fellesskapet på Tatoeba.
 data-bundle-button = Last ned Datamengde-pakken
 data-bundle-description = Data frå Common Voice pluss alle andre stemmedatamengder ovanfor.
 license = Lisens: <licenseLink>{ $license }</licenseLink>
