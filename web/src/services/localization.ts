@@ -7,9 +7,7 @@ import { isProduction } from '../utility';
 import API from './api';
 
 export const DEFAULT_LOCALE = 'en';
-export const LOCALES = isProduction()
-  ? [DEFAULT_LOCALE]
-  : Object.values(locales);
+export const LOCALES = isProduction() ? [DEFAULT_LOCALE] : Object.keys(locales);
 export const CONTRIBUTABLE_LOCALES = ['en'];
 
 export function getNativeNameWithFallback(code: string) {
