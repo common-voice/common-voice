@@ -113,7 +113,7 @@ header {
 
         & .triangle {
             position: absolute;
-            right: 10%;
+            right: 13px;
             border-left: 8px solid transparent;
             border-right: 8px solid transparent;
             border-bottom: 10px solid var(--lighter-grey);
