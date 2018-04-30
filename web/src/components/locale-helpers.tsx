@@ -4,6 +4,7 @@ import { Link, LinkProps, NavLink, NavLinkProps } from 'react-router-dom';
 import { Locale } from '../stores/locale';
 import StateTree from '../stores/tree';
 import { CONTRIBUTABLE_LOCALES } from '../services/localization';
+import { isProduction } from '../utility';
 
 export interface LocalePropsFromState {
   locale: Locale.State;
@@ -49,6 +50,10 @@ export const LocaleNavLink = localeConnector(
   )
 );
 
+export function isContributable(locale: string) {
+  return !isProduction() || CONTRIBUTABLE_LOCALES.includes(locale);
+}
+
 export const ContributableLocaleLock = localeConnector(
   ({
     children,
@@ -58,7 +63,8 @@ export const ContributableLocaleLock = localeConnector(
     children?: any;
     render?: (args: { isContributable: boolean }) => React.ReactNode;
   }) => {
-    const isContributable = CONTRIBUTABLE_LOCALES.includes(locale);
-    return render ? render({ isContributable }) : isContributable && children;
+    return render
+      ? render({ isContributable: isContributable(locale) })
+      : isContributable(locale) && children;
   }
 );

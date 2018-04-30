@@ -1,7 +1,11 @@
 import * as React from 'react';
 import { Switch, Route, Redirect } from 'react-router';
 import URLS from '../../urls';
-import { localeConnector, LocalePropsFromState } from '../locale-helpers';
+import {
+  isContributable,
+  localeConnector,
+  LocalePropsFromState,
+} from '../locale-helpers';
 import DataPage from '../pages/data/data';
 import FAQPage from '../pages/faq';
 import HomePage from '../pages/home/home';
@@ -10,7 +14,6 @@ import NotFoundPage from '../pages/not-found';
 import DocumentPage from '../pages/document-page';
 import ProfilePage from '../pages/profile';
 import RecordPage from '../pages/record/record';
-import { CONTRIBUTABLE_LOCALES } from '../../services/localization';
 
 interface Props {
   isRecording: boolean;
@@ -31,7 +34,7 @@ export default localeConnector(
     <div id="content">
       <Switch>
         <Route exact path={toLocaleRoute(URLS.ROOT)} component={HomePage} />
-        {CONTRIBUTABLE_LOCALES.includes(locale) ? (
+        {isContributable(locale) ? (
           <Route
             exact
             path={toLocaleRoute(URLS.RECORD)}
