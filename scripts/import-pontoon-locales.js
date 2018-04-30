@@ -23,12 +23,11 @@ async function fetchPontoonLanguages() {
   });
   return data.project.localizations
     .map(({ locale }) => [locale.code, locale.name])
-    .concat(['en', 'English'])
+    .concat([['en', 'English']])
     .sort(([code1], [code2]) => code1.localeCompare(code2));
 }
 
-async function savePontoonLanguagesToMessages() {
-  const languages = await fetchPontoonLanguages();
+async function saveToMessages(languages) {
   const messagesPath = path.join(
     __dirname,
     '..',
@@ -50,4 +49,24 @@ async function savePontoonLanguagesToMessages() {
   fs.writeFileSync(messagesPath, newMessages);
 }
 
-savePontoonLanguagesToMessages().catch(e => console.error(e));
+async function saveToJSON(languages) {
+  fs.writeFileSync(
+    path.join(__dirname, '..', 'data', 'locales.json'),
+    JSON.stringify(
+      languages.reduce((obj, [k, v]) => {
+        obj[k] = v;
+        return obj;
+      }, {}),
+      null,
+      2
+    )
+  );
+}
+
+async function importPontoonLocales() {
+  const languages = await fetchPontoonLanguages();
+  await saveToMessages(languages);
+  await saveToJSON(languages);
+}
+
+importPontoonLocales().catch(e => console.error(e));

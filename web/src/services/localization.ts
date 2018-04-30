@@ -2,41 +2,14 @@ require('fluent-intl-polyfill');
 const { MessageContext } = require('fluent');
 const { negotiateLanguages } = require('fluent-langneg');
 import ISO6391 from 'iso-639-1';
+const locales = require('../../../data/locales.json');
 import { isProduction } from '../utility';
 import API from './api';
 
 export const DEFAULT_LOCALE = 'en';
 export const LOCALES = isProduction()
   ? [DEFAULT_LOCALE]
-  : [
-      'es-CL',
-      'ca',
-      'zh-TW',
-      'el',
-      'en',
-      'nn-NO',
-      'id',
-      'sv-SE',
-      'sk',
-      'tt',
-      'cv',
-      'tr',
-      'de',
-      'cs',
-      'cy',
-      'th',
-      'pt-BR',
-      'ru',
-      'mk',
-      'fr',
-      'pl',
-      'fy-NL',
-      'he',
-      'zh-CN',
-      'nl',
-      'sq',
-      'ga-IE',
-    ];
+  : Object.values(locales);
 export const CONTRIBUTABLE_LOCALES = ['en'];
 
 export function getNativeNameWithFallback(code: string) {
