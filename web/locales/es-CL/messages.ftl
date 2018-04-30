@@ -22,9 +22,8 @@ cv = Chuvasio
 cy = Galés
 da = Danés
 de = Alemán
-e = n
-E = n
 el = Griego
+en = Inglés
 es-AR = Español (Argentina)
 es-CL = Español (Chile)
 fr = Francés
@@ -36,7 +35,9 @@ id = Indonesio
 it = Italiano
 ka = Georgiano
 ko = Coreano
+kw = Córnico
 mk = Macedonio
+nb-NO = Noruego (Bokmål)
 nl = Neerlandés
 nn-NO = Noruego Nynorsk
 or = Odia
@@ -132,6 +133,7 @@ edit-profile = Editar perfil
 profile-create = Crear un perfil
 profile-create-success = Hecho, ¡perfil creado!
 profile-close = Cerrar
+profile-clear-modal = Limpiar los datos del perfil se traduce en que tu información demográfica ya no será enviada a Common Voice junto con tus grabaciones.
 
 ## FAQ
 
@@ -201,7 +203,7 @@ record-error-too-short = La grabación fue muy corta.
 record-error-too-long = La grabación fue muy larga.
 record-error-too-quiet = La grabación fue muy silenciosa.
 record-submit-success = ¡Envío exitoso! ¿Quieres volver a grabar?
-record-help = Por favor, toca para grabar y luego lee la oración anterior en voz alta.
+record-help = Por favor, toca el botón para grabar y luego lee la oración anterior en voz alta.
 record-cancel = Cancelar regrabación
 review-terms = Al usar Common Voice, aceptas nuestros <termsLink>Términos de uso</termsLink> y la <privacyLink>Política de privacidad</privacyLink>
 terms-agree = Estoy de acuerdo
