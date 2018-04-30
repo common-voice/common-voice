@@ -23,6 +23,7 @@ cy = Walesi
 da = Dán
 de = Német
 el = Görög
+en = Angol
 es-AR = Spanyol (Argentína)
 es-CL = Spanyol (Chile)
 fr = Francia
@@ -34,7 +35,9 @@ id = Indonéz
 it = Olasz
 ka = Grúz
 ko = Koreai
+kw = Cornwalli
 mk = Macedón
+nb-NO = Norvég bokmål
 nl = Holland
 nn-NO = Norvég nynorsk
 or = Orija
@@ -149,11 +152,15 @@ faq-firefox-a = Korlátlan lehetőségek rejlenek a Common Voice projektben. Ker
 faq-quality-q = Milyen minőségű kell legyen a hanganyag, hogy felhasználásra kerüljön?
 faq-quality-a = Azt szeretnénk, ha a hangminőség tükrözné azt a minőséget, amivel egy hangfelismerő rendszer találkozni fog a „vadonban”. Ezért változatosságot szeretnénk. Ez megtanítja a hangfelismerő rendszereket a különböző szituációk kezelésére – beszélgetés a háttérben, autó zaj, ventilátor zúgás – hibák nélkül.
 faq-hours-q = Miért 10.000 órányi hanganyag a cél?
+faq-hours-a = Megközelítőleg ennyi óra hanganyagra van szükség egy működőképes beszédfelismerő rendszer betanítására.
 faq-source-q = Honnan származik a forrásszöveg?
+faq-source-a1 = A jelenlegi mondatok közreműködők hozzájárulásaiból származnak, valamint olyan közkincset képező filmekből, mint <italic>Az élet csodaszép.</italic>
+faq-source-a2 = Megnézheti a forrásmondatainkat <dataLink>ebben a GitHub könyvtárban</dataLink>.
 
 ## Profile
 
 profile-why-title = Miért kell a profil?
+profile-why-content = Azáltal, hogy megad néhány adatot magáról, a hangminták, amiket a Common Voice részére beküld hasznosabbak lesznek a hangfelismerő rendszerek számára, melyek a pontosságuk javítására használják a hangmintákat.
 
 ## NotFound
 
@@ -166,6 +173,10 @@ data-download-button = Common Voice adatok letöltése
 data-download-yes = Igen
 data-download-deny = Nem
 data-download-license = Licenc: <licenseLink>CC-0</licenseLink>
+data-download-modal = <size>{ $size } GB</size> adat letöltését kezdeményezi, folytatja?
+data-subtitle = Egy nyílt és nyilvánosan hozzáférhető hangadatkészletet építünk, amit bárki szabadon használhat arra, hogy betanítsa beszéd-kompatibilis alkalmazását.
+data-explanatory-text = Hiszünk abban, hogy egy nagy és nyilvánosan elérhető hangadatkészlet elősegíti az innovációt és az egészséges szabad versenyt a gépi-tanuláson alapuló technológiák területén. Ez egy globális erőfeszítés, mindenkit bátorítunk a részvételre. Célunk, hogy segítsük a beszédtechnológia minél teljeskörűbb legyen, ami tükrözi a hangok változatosságát a világ minden tájáról. 
+data-get-started = <speechBlogLink>Vágjon bele a Beszédfelismerésbe</speechBlogLink>
 data-other-title = További hangadatkészletek…
 data-other-goto = Ugrás ide: { $name }
 data-other-download = Adatok letöltése
@@ -182,12 +193,15 @@ license-mixed = Vegyes
 ## Record Page
 
 record-platform-not-supported = Sajnáljuk, de a platformja jelenleg nem támogatott.
+record-platform-not-supported-desktop = Asztali számítógépekre, letöltheti a legfrissebbet:
+record-platform-not-supported-ios = Az <bold>iOS</bold> felhasználók letölthetik szabad szoftver alkalmazásunkat:
 record-must-allow-microphone = Engedélyezni kell a mikrofon hozzáférést.
 record-cancel = Újrarögzítés megszakítása
 record-retry = Újra
 record-error-too-short = A felvétel túl rövid volt.
 record-error-too-long = A felvétel túl hosszú volt.
 record-error-too-quiet = A felvétel túl halk volt.
+record-submit-success = Sikeres beküldés. Akar még egyet rögzíteni? 
 record-help = Kattintson az felvétel gombra majd olvassa fel hangosan az alábbi mondatot.
 record-cancel = Újrarögzítés megszakítása
 review-terms = A Common Voice használatával elfogadja a <termsLink>Jogi feltételeket</termsLink> és az <privacyLink>Adatvédelmi nyilatkozatot</privacyLink>
