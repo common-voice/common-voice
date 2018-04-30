@@ -60,7 +60,7 @@ zh-TW = Kinesisk (Taiwan)
 ## Layout
 
 speak = Snakk
-datasets = Datasett
+datasets = Datamengder
 languages = Språk
 profile = Profil
 help = Hjelp
@@ -149,11 +149,13 @@ faq-quality-a = Vi vil gjerne at lydkvaliteten avspeglar og kan konkurrere med a
 faq-hours-q = Kvifor er målet å ha 10 000 timar med lydopptak?
 faq-hours-a = Dette er omlag talet på timar som krevst for å trene opp eit velfungerande stemmegjenkjenningssystem (STT).
 faq-source-q = Kvar kjem kjeldeteksten frå?
+faq-source-a1 = Dei gjeldande setningane kjem no frå bidragsytarar samt frå dialogar frå filmar som er i «offentleg domene» som til dømes filmen <italic>It’s a Wonderful Life.</italic>
 faq-source-a2 = Du kan sjå kjeldetekstane våre i <dataLink>denne mappa på GitHub</dataLink>.
 
 ## Profile
 
 profile-why-title = Kvifor profil?
+profile-why-content = Ved å gje nokre opplysingar om deg sjølv vil lyddata du sender inn til Common Voice vere nyttigare for talegjenkjennings-systema, som skal bruka desse data til å forbetra nøyaktigheita.
 
 ## NotFound
 
@@ -167,13 +169,14 @@ data-download-yes = Ja
 data-download-deny = Nei
 data-download-license = Lisens: <licenseLink>CC-0</licenseLink>
 data-download-modal = Du er i ferd med å starte ei nedlasting av <size>{ $size }GB</size>. Vil du fortsetje?
+data-subtitle = Vi byggjer opp ei open og offentleg tilgjengeleg datamengde av stemmer som alle kan bruke for å trene stemmeaktiverande program.
 data-get-started = <speechBlogLink>Kom i gang med talegjenkjenning</speechBlogLink>
-data-other-title = Andre stemme-datasett
+data-other-title = Andre stemmedatamengder…
 data-other-goto = Gå til { $name }
 data-other-download = Last ned data
 data-other-ted-name = TED-LIUM korpus
-data-bundle-button = Last ned Dataset-pakken
-data-bundle-description = Data frå Common Voice pluss alle andre stemmedatasett ovanfor.
+data-bundle-button = Last ned Datamengde-pakken
+data-bundle-description = Data frå Common Voice pluss alle andre stemmedatamengder ovanfor.
 license = Lisens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blanda
 
@@ -210,7 +213,7 @@ download-helpus = Hjelp oss med å byggje ein fellesskap omkring stemmeteknologi
 download-form-email =
     .label = Skriv inn e-postadressa di
     .value = Takk skal du ha, vi kontaktar deg.
-download-back = Gå tilbake til datasett for Common Voice
+download-back = Gå tilbake til datamengder for Common Voice
 download-no = Nei takk
 
 ## Contact Modal
