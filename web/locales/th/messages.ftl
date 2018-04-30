@@ -22,8 +22,32 @@ es-AR = สเปน (อาร์เจนตินา)
 es-CL = สเปน (ชิลี)
 fr = ฝรั่งเศส
 fy-NL = ฟรีเซียน
+ga-IE = ไอริช
 he = ฮิบรู
 hu = ฮังการี
+id = อินโดนีเซีย
+it = อิตาลี
+ka = จอร์เจีย
+ko = เกาหลี
+mk = มาซิโดเนีย
+nl = ดัตช์
+nn-NO = นอร์เวย์ไนนอสก์
+or = โอเดีย
+pl = โปแลนด์
+pt-BR = โปรตุเกส (บราซิล)
+ro = โรมาเนีย
+ru = รัสเซีย
+sk = สโลวัก
+sq = แอลเบเนีย
+sv-SE = สวีเดน
+ta = ทมิฬ
+th = ไทย
+tr = ตุรกี
+tt = ตาตาร์
+uk = ยูเครน
+uz = อุซเบกิสถาน
+zh-CN = จีน (จีน)
+zh-TW = จีน (ไต้หวัน)
 
 ## Layout
 
@@ -121,6 +145,7 @@ download-no = ไม่ ขอบคุณ
 
 ## Contact Modal
 
+contact-title = แบบฟอร์มติดต่อ
 contact-cancel = ยกเลิก
 contact-form-name =
     .label = ชื่อ
@@ -137,3 +162,7 @@ request-language-form-language =
 
 ## Languages Overview
 
+language-section-in-progress = ดำเนินการอยู่
+languages-show-more = ดูเพิ่มเติม
+languages-show-less = ดูน้อยลง
+language-speakers = ผู้พูด
