@@ -11,5 +11,6 @@ module.exports = {
       },
     },
     cssnano: { autoprefixer: false },
+    'postcss-focus-within': {},
   },
 };
