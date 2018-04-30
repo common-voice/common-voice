@@ -24,6 +24,7 @@ da = Dán
 de = Német
 el = Görög
 en = Angol
+es = Spanyol
 es-AR = Spanyol (Argentína)
 es-CL = Spanyol (Chile)
 fr = Francia
@@ -133,6 +134,7 @@ edit-profile = Profil szerkesztése
 profile-create = Profil létrehozása
 profile-create-success = Profil sikeresen létrehozva!
 profile-close = Bezárás
+profile-clear-modal = A profiladatok törlése azt jelenti, hogy ezek a demográfiai információk többé már nem lesznek beküldve a Common Voice-ba a hangrögzítéseivel.
 
 ## FAQ
 
