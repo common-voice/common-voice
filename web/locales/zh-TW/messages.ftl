@@ -134,6 +134,7 @@ edit-profile = 編輯帳號資料
 profile-create = 註冊帳號
 profile-create-success = 帳號建立成功！
 profile-close = 關閉
+profile-clear-modal = 清除您的帳號資料後，就代表您錄音時，不會再一同傳送人口統計資料給 Common Voice。
 
 ## FAQ
 
