@@ -78,7 +78,10 @@ back-top = Návrat hore
 
 home-title = Projekt Common Voice je iniciatíva Mozilly, ktorá pomáha strojom učiť sa, ako rozprávajú skutoční ľudia.
 home-cta = Hovorte a prispejte svojím hlasom tu!
-wall-of-text-start = Reč je prirodzená a ľudská. Preto chceme vytvoriť použiteľnú technológiu rozpoznávania reči pre naše stroje. Aby sme ju však mohli vytvoriť, potrebujeme veľké množstvo hlasových údajov.
+wall-of-text-start =
+    Reč je prirodzená a ľudská. Preto chceme vytvoriť použiteľnú technológiu rozpoznávania reči 
+    pre naše stroje. by sme ju však mohli vytvoriť, potrebujeme veľké množstvo 
+    hlasových údajov.
 wall-of-text-more-mobile = Väčšina údajov, ktoré používajú veľké spoločnosti nie je dostupná pre väčšinu ľudí. Myslíme si, že to zdržuje inovácie. Preto sme spustili Common Voice, projekt, ktorý sprístupní rozpoznávanie reči pre všetkých.
 show-wall-of-text = Prečítajte si viac
 help-us-title = Pomôžte nám overovať vety!
@@ -174,6 +177,7 @@ data-download-deny = Nie
 data-download-license = Licencia: <licenseLink>CC-0</licenseLink>
 data-download-modal = Chystáte sa zahájiť preberanie <size>{ $size } GB</size>, chcete pokračovať?
 data-subtitle = Vytvárame otvorený a verejne dostupný hlasový dataset, ktorý môže ktokoľvek použiť na tréning aplikácií využívajúcich hlas.
+data-explanatory-text = Veríme, že rozsiahle a verejne dostupné hlasové datasety podporujú inovácie a zdravú obchodnú súťaž v technológiách rozpoznávania reči založených na strojovom učení. Ide o celosvetové úsilie a pozývame všetkých, aby sa zapojili. Našim cieľom je pomôcť technológiám využívajúcim reč, aby boli otvorenejšie a aby odrážali rozmanitosť hlasov z celého sveta.
 data-get-started = <speechBlogLink>Začíname s rozpoznávaním reči</speechBlogLink>
 data-other-title = Ďalšie hlasové datasety…
 data-other-goto = Prejsť na { $name }
