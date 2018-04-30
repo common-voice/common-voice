@@ -24,6 +24,7 @@ da = Danés
 de = Alemán
 el = Griego
 en = Inglés
+es = Español
 es-AR = Español (Argentina)
 es-CL = Español (Chile)
 fr = Francés
@@ -133,7 +134,7 @@ edit-profile = Editar perfil
 profile-create = Crear un perfil
 profile-create-success = Hecho, ¡perfil creado!
 profile-close = Cerrar
-profile-clear-modal = Limpiar los datos del perfil se traduce en que tu información demográfica ya no será enviada a Common Voice junto con tus grabaciones.
+profile-clear-modal = Limpiar los datos del perfil implica que tu información demográfica ya no será enviada a Common Voice junto con tus grabaciones.
 
 ## FAQ
 
