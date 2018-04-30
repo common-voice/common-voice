@@ -15,37 +15,45 @@ audio-loading-error = Spiacenti, i file audio sono in fase di elaborazione. Ripr
 
 ## Languages
 
-ga-IE = Irlandese
-cs = Ceco
-uz = Uzbeco
-de = Tedesco
 bn = Bengalese
-sk = Slovacco
 ca = Catalano
-ko = Coreano
+cs = Ceco
+cv = Ciuvascio
+cy = Gallese
+da = Danese
+de = Tedesco
+el = Greco
+en = Inglese
+es-AR = Spagnolo (Argentina)
 es-CL = Spagnolo (Cile)
-th = Tailandese
+fr = Francese
+fy-NL = Frisone
+ga-IE = Irlandese
+he = Ebraico
+hu = Ungherese
+id = Indonesiano
+it = Italiano
+ka = Georgiano
+ko = Coreano
+mk = Macedone
+nl = Olandese
+nn-NO = Norvegese Nynorsk
+or = Oriya
 pl = Polacco
 pt-BR = Portoghese (Brasile)
-id = Indonesiano
-zh-TW = Cinese (Taiwan)
-cy = Gallese
-el = Greco
-cv = Ciuvascio
+ro = Rumeno
+ru = Russo
+sk = Slovacco
+sq = Albanese
 sv-SE = Svedese
-mk = Macedone
-nn-NO = Norvegese Nynorsk
-fr = Francese
+ta = Tamil
+th = Tailandese
 tr = Turco
 tt = Tataro
-fy-NL = Frisone
-he = Ebraico
+uk = Ucraino
+uz = Uzbeco
 zh-CN = Cinese (Cina)
-nl = Olandese
-sq = Albanese
-ru = Russo
-it = Italiano
-en = Inglese
+zh-TW = Cinese (Taiwan)
 
 ## Layout
 
@@ -156,33 +164,6 @@ profile-why-content = Se fornisci queste informazioni insieme alle tue registraz
 
 notfound-title = Non trovato
 notfound-content = Impossibile trovare i contenuti cercati.
-
-## Privacy
-
-privacy-title = Informativa sulla privacy di Common Voice
-privacy-effective = { DATETIME($date, month: "long", year: "numeric", day: "numeric") } effettivo
-privacy-policy = L'<policy>informativa sulla privacy di Mozilla</policy> spiega come vengono gestite le informazioni che riceviamo da te. 
-privacy-data-demographic = <name>Dati demografici.</name> Sei libero di scegliere se inviarci informazioni personali come il tuo accento, età o sesso. Questi dati aiuteranno Common Voice e altri ricercatori ad affinare e innovare tecnologie e strumenti di riconoscimento vocale.
-privacy-data-account = <name>Dati profilo.</name>Puoi scegliere di creare un profilo, per il quale è necessario condividere il tuo indirizzo email. Il profilo verrà associato alle tue informazioni demografiche e alle tue attività sul sito, ma non sarà visibile pubblicamente.
-privacy-data-recordings = <name>Registrazioni vocali.</name>Le registrazioni vocali, insieme ai dati demografici a esse associati,  saranno condivise nel database di Common Voice per uso pubblico.
-privacy-data-interaction = <name>Dati di interazione.</name> Utilizziamo Google Analytics per capire meglio come interagisci con l’app e il sito di Common Voice. Le informazioni analizzate includono il numeri di campioni vocali che registri o ascolti, le tue interazioni con pulsanti e menu e la durata della sessione.
-privacy-data-technical = <name>Dati tecnici.</name> Utilizzando Google Analytics registriamo URL e titolo delle pagine di Common Voice che visiti. Raccogliamo anche informazioni sul browser in uso e relativa lingua impostata, dimensioni e risoluzione schermo, posizione geografica.
-privacy-more = <more>Per saperne di più</more>
-
-## Terms
-
-terms-title = Condizioni generali di Common Voice
-terms-effective = In vigore da { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
-terms-eligibility-title = Idoneità
-terms-eligibility-content = Possono prendere parte a questo progetto di crowd-sourcing tutti gli utenti che hanno compiuto 13 anni di età. In caso di età inferiore sono necessari il consenso e la supervisione di un genitore o di un tutore.
-terms-privacy-title = Privacy
-terms-privacy-content = L’<privacyLink>informativa sulla privacy</privacyLink> spiega come utilizziamo e gestiamo i tuoi dati.
-terms-contributions-title = Contributi e cessione dei diritti
-terms-contributions-content = Caricando le tue registrazioni su Common Voice cedi il tuo diritto d'autore e diritti connessi su di esse e acconsenti a renderle accessibili al pubblico sotto licenza <licenseLink>CC-0</licenseLink>. Ciò significa che acconsenti rinunciare a tutti i diritti sulle registrazioni, inclusi diritti morali, di pubblicità e tutti i diritti connessi, a livello mondiale secondo le leggi di diritto d’autore e banche dati.
-terms-communications-title = Comunicazioni
-terms-communications-content = Iscrivendoti alla newsletter o registrando un profilo su Common Voice, acconsenti a ricevere email con comunicazioni che riguardano il tuo account (per esempio aggiornamenti su condizioni legali, privacy e sicurezza).
-terms-general-title = Generale
-terms-general-liability1 = Liberatoria; Limitazione di responsabilità: COMMON VOICE E TUTTE LE REGISTRAZIONI INCLUSE SONO FORNITE "COSÌ COME SONO" SENZA NESSUN TIPO DI GARANZIA, ESPLICITA O IMPLICITA. MOZILLA NON SI ASSUME ALCUNA RESPONSABILITÀ PER LE REGISTRAZIONI CHE GLI UTENTI O TERZE PARTI TRASMETTONO ATTRAVERSO COMMON VOICE.
 
 ## Data
 
