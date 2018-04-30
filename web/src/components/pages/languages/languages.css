@@ -223,7 +223,7 @@
 
         @media (--md-only) {
             margin-right: var(--language-box-margin);
-            width: calc((100% - var(--language-box-margin)) / 2);
+            width: calc((100% - var(--language-box-margin)) / 2.01);
 
             &:nth-child(2n) {
                 margin-right: 0;
@@ -232,7 +232,7 @@
 
         @media (--lg-up) {
             margin-right: var(--language-box-margin);
-            width: calc((100% - 2 * var(--language-box-margin)) / 3);
+            width: calc((100% - 2 * var(--language-box-margin)) / 3.01);
 
             &:nth-child(3n) {
                 margin-right: 0;
