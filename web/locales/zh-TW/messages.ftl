@@ -161,7 +161,7 @@ faq-source-a2 = 您可在<dataLink>這個 GitHub 資料夾</dataLink>參考我�
 ## Profile
 
 profile-why-title = 為什麼需要註冊帳號？
-profile-why-content = 使用您送出給 Common Voice 的語音資料的語音識別引擎，若能得到一些關於您的資訊將能夠更加準確。
+profile-why-content = 使用您送出給 Common Voice 的語音資料的語音識別引擎，若能得到一些關於您的資訊，運作時將能夠更加準確。
 
 ## NotFound
 
