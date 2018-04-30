@@ -176,6 +176,7 @@ data-download-deny = Nei
 data-download-license = Lisens: <licenseLink>CC-0</licenseLink>
 data-download-modal = Du er i ferd med å starte ei nedlasting av <size>{ $size }GB</size>. Vil du fortsetje?
 data-subtitle = Vi byggjer opp ei open og offentleg tilgjengeleg datamengde av stemmer som alle kan bruke for å trene stemmeaktiverande program.
+data-explanatory-text = Vi trur at store og ålment tilgjengelege stemmedatamengder fremjar innovasjon og helsesam kommersiell konkurranse mellom språkteknologi basert på maskininlæring. Dette er ein global innsats og vi inviterer alle til å delta. Målet vårt er å gjere språkteknologien meir inkluderande slik at han reflekterer mangfaldet av stemmer frå heila verda.
 data-get-started = <speechBlogLink>Kom i gang med talegjenkjenning</speechBlogLink>
 data-other-title = Andre stemmedatamengder…
 data-other-goto = Gå til { $name }
