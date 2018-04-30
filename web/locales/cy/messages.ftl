@@ -96,6 +96,15 @@ request-language-button = Cais am Iaith
 
 status-title = Statws cyffredinol y project: gweld pa mor bell rydym wedi cyrraedd!
 status-contribute = Cyfrannu eich Llais
+status-hours =
+    { $hours ->
+        [zero] { $hours } awr wedi eu dilysu hyd yma!
+        [one] Un awr wedi ei dilysu hyd yma!
+        [two] { $hours } awr wedi eu dilysu hyd yma!
+        [few] { $hours } awr wedi eu dilysu hyd yma!
+        [many] { $hours } awr wedi eu dilysu hyd yma!
+       *[other] { $hours } awr wedi eu dilysu hyd yma!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Nod Nesaf: { $goal }
@@ -131,6 +140,7 @@ edit-profile = Golygu Proffil
 profile-create = Creu proffil
 profile-create-success = Llwyddiant, wedi creu proffil!
 profile-close = Cau
+profile-clear-modal = Bydd clirio data eich proffil yn golygu na fydd y wybodaeth ddemograffig yma'n cael ei chyflwyno i Common Voice gyda'ch clipiau recordio.
 
 ## FAQ
 
