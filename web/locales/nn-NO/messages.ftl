@@ -131,12 +131,14 @@ edit-profile = Rediger profil
 profile-create = Opprett ein profil
 profile-create-success = Profil oppretta
 profile-close = Lat att
+profile-clear-modal = Sletting av dine profildata tyder at denne demografiske informasjonen ikkje lenger vil sendast til Common Voice saman med innspelingane dine.
 
 ## FAQ
 
 faq-title = Vanlege spørsmål og svar
 faq-what-q = Kva er Common Voice?
 faq-important-q = Kvifor er det viktig?
+faq-important-a = Språk er naturleg, språk er menneskeleg. Det er den enklaste og meste naturlege måten å kommunisere på. Vi vil at utviklarar skal kunne byggje fantastiske ting frå realtid-omsettarar til stemmeaktiverte administrative assistentar. Men akkurat no finst det ikkje tilstrekkeleg med generelt tilgjengelege data for å byggje slike appar. Vi håper at Common Voice kjem å gje utviklarar det dei treng for slik nyskaping.
 faq-get-q = Korleis får eg tilgang til Common Voice data?
 faq-get-a = Datamengda er no tilgjengeleg på <downloadLink>nedastingssida</downloadLink> vår under lisensen <licensLink>CC-0</ licenseLink>.
 faq-mission-q = Kvifor er Common Voice ein del av oppdraget til Mozilla?
