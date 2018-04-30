@@ -141,6 +141,9 @@ edit-profile = Edit Profile
 profile-create = Create a profile
 profile-create-success = Success, profile created!
 profile-close = Close
+profile-clear-modal =
+  Clearing your profile data means this demographic information will no longer be submitted to Common Voice with your
+  clip recordings.
 
 ## FAQ
 faq-title = Frequently Asked Questions
