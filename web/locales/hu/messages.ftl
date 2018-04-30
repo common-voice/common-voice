@@ -66,12 +66,18 @@ privacy = Adatvédelem
 terms = Jogi feltételek
 cookies = Sütik
 faq = GYIK
+content-license-text = A tartalom <licenseLink>Creative Commons licenc</licenseLink> alatt elérhető el.
+share-title = Segítsen olyanokat találni, akik a hangjukat adják.
+share-text = Segítsen megtanítani a gépeknek, hogyan beszélnek az emberek. Adja a hangját: { $link }
 back-top = Vissza a tetejére
 
 ## Home Page
 
 home-title = A Common Voice projekt egy Mozilla kezdeményezés arra, hogy segítsük a gépeket megtanítani, hogyan beszélnek az emberek. 
 home-cta = Szólaljon meg, működjön közre.
+wall-of-text-start = A beszéd természetes, a beszéd emberi. Ezért lelkesedünk egy gépeink számára használható beszédtechnológia létrehozásáért. Azonban ehhez hatalmas mennyiségű beszédmintára van szükség.
+wall-of-text-more-mobile = A nagyvállalatok által használt hangminták a legtöbb ember számára nem elérhetőek. Szerintünk ez elfojtja az innovációt. Ezért létrehoztuk a Common Voice projektet, hogy segítsük a hangfelismerési technológiát mindenki számára hozzáférhetővé tenni.
+wall-of-text-more-desktop = Most adhatja a hangját, hogy segítsen nekünk egy nyílt forrású hang adatbázist építeni, amit bárki szabadon használhat arra, hogy innovatív alkalmazásokat készítsen eszközökre és a webre.<lineBreak></lineBreak>Olvasson fel egy mondatot, hogy segítse a gépeket megtanulni, hogyan beszélnek az emberek. Ellenőrizze mások hozzájárulásait, javítva a minőséget. Ilyen egyszerű! 
 show-wall-of-text = Bővebben
 help-us-title = Segítsen jóváhagyni a mondatokat.
 help-us-explain = Nyomja meg a lejátszás gombot, hallgassa meg a mondatot és mondja el: helyesen hangzik el az alábbi mondat?
@@ -119,6 +125,7 @@ female = Nő
 # Gender
 other = Egyéb
 why-profile-title = Miért kell a profil?
+why-profile-text = Azáltal, hogy megad néhány adatot magáról, a hangminták, amiket a Common Voice részére beküld hasznosabbak lesznek a hangfelismerő rendszerek számára, melyek a pontosságuk javítására használják a hangmintákat.
 edit-profile = Profil szerkesztése
 profile-create = Profil létrehozása
 profile-create-success = Profil sikeresen létrehozva!
@@ -128,9 +135,20 @@ profile-close = Bezárás
 
 faq-title = Gyakran Ismételt Kérdések
 faq-what-q = Mi az a Common Voice?
+faq-what-a = A beszédfelismerési technológia forradalmasíthatja azt, ahogyan a gépekkel kommunikálunk, de a jelenleg elérhető rendszerek drágák és zártak. A Common Voice projekt célja, hogy a hangfelismerő technológia mindenki számára könnyen hozzáférhető legyen. Emberek a hangjukat adják egy hatalmas adatbázishoz, ami bárki számára lehetővé fogja tenni, hogy könnyen és gyorsan betaníthassa beszéd-kompatibilis alkalmazását. Minden hangadat szabadon elérhető lesz a fejlesztők számára. 
 faq-important-q = Miért fontos ez?
+faq-important-a = A beszéd természetes, a beszéd emberi. Ez a legkönnyebb és legtermészetesebb módja a kommunikációnak. Azt szeretnénk, ha a fejlesztők elképesztő dolgokat készíthetnének a valósidejű fordítóktól kezdve a beszéd-kompatibilis adminisztrációs asszisztensekig. Azonban jelenleg nincs elég szabadon hozzáférhető adat ezeknek az alkalmazásoknak elkészítéséhez. Azt reméljük, hogy Common Voice megadja majd a fejlesztőknek, amire szűkségük van az innovációhoz.  
 faq-get-q = Hogyan férhetek hozzá a Common Voice adatokhoz?
+faq-get-a = Az adatkészlet <licenseLink>CC-0</licenseLink> licenc alatt érhető el a <downloadLink>letöltési oldalunkról</downloadLink>.
 faq-mission-q = Miért része a Common Voice a Mozilla küldetésének?
+faq-mission-a = A Mozilla elkötelezett abban, hogy a webet nyíltnak és mindenki számára szabadon hozzáférhetőnek tartsuk meg.  Ehhez szükséges, hogy a webalkotókat olyan projektekkel támogassuk mint a Common Voice. Mivel a beszédtechnológia túlmutat az uralkodó alkalmazásokon, ezért hiszünk abban, hogy minden felhasználót egyformán kell szolgáljon. Ezért szükségesnek látjuk minél több nyelv, akcentus és demográfia figyelembe vételét, amikor építjük és teszteljük a beszédfelismerő technológiákat. A Mozilla egy egészséges és vibráló internetet szeretne látni. Ez azt jelenti, hogy az alkotók számára hozzáférést kell biztosítani hanganyagokhoz, hogy új és rendkívüli projekteket tudjanak létrehozni. A Common Voice egy nyilvános erőforrás lesz, ami világszerte segíteni fogja a Mozilla csapatokat és fejlesztőket.
+faq-native-q = A(z) ${ lang } nem anyanyelvem, hanem akcentussal beszélem, ettől még használható a hangom?
+faq-native-a = Igen, mindenképpen használható a hangja. A Common Voice célja minél több akcentust összegyűjteni, hogy a számítógépek minél jobban megértsék <bold>mindenkinek</bold> a beszédét.
+faq-firefox-q = Része lesz valaha is, a Common Voice által, a Firefoxnak a beszédfelismerés?
+faq-firefox-a = Korlátlan lehetőségek rejlenek a Common Voice projektben. Keressük a beszédfelismerés alkalmazását számos Mozilla termékben, többek között a Firefoxban.
+faq-quality-q = Milyen minőségű kell legyen a hanganyag, hogy felhasználásra kerüljön?
+faq-quality-a = Azt szeretnénk, ha a hangminőség tükrözné azt a minőséget, amivel egy hangfelismerő rendszer találkozni fog a „vadonban”. Ezért változatosságot szeretnénk. Ez megtanítja a hangfelismerő rendszereket a különböző szituációk kezelésére – beszélgetés a háttérben, autó zaj, ventilátor zúgás – hibák nélkül.
+faq-hours-q = Miért 10.000 órányi hanganyag a cél?
 faq-source-q = Honnan származik a forrásszöveg?
 
 ## Profile
