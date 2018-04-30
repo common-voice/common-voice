@@ -24,6 +24,7 @@ da = Daneg
 de = Almaeneg
 el = Groeg
 en = Saesneg
+es = Sbaeneg
 es-AR = Sbaeneg (Yr Ariannin)
 es-CL = Sbaeneg (Chile)
 fr = Ffrangeg
