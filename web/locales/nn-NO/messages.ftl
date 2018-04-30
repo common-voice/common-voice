@@ -129,6 +129,7 @@ female = Kvinne
 # Gender
 other = Anna
 why-profile-title = Kvifor ein profil?
+why-profile-text = Ved å gje nokre opplysingar om deg sjølv, vil dei lyddata, du sender inn til Common Voice verte meir nyttige for talegjenkjennings-systema som brukar desse dataa til å forbetre nøyaktigheita si.
 edit-profile = Rediger profil
 profile-create = Opprett ein profil
 profile-create-success = Profil oppretta
