@@ -23,6 +23,8 @@ cy = Galeză
 da = Daneză
 de = Germană
 el = Greacă
+en = Engleză
+es = Spaniolă
 es-AR = Spaniolă (Argentina)
 es-CL = Spaniolă (Chile)
 fr = Franceză
@@ -34,7 +36,9 @@ id = Indoneziană
 it = Italiană
 ka = Georgiană
 ko = Coreeană
+kw = Cornică
 mk = Macedoneană
+nb-NO = Norvegiană (Bokmål)
 nl = Olandeză
 nn-NO = Norvegiană Nynorsk
 or = Odia
@@ -69,7 +73,7 @@ faq = Întrebări frecvente
 content-license-text = Conţinut disponibil sub o <licenseLink>licență Creative Commons</licenseLink>
 share-title = Ajută-ne să găsim alte persoane care să-și doneze vocea!
 share-text = Ajută mașinile să învețe despre cum vorbesc oamenii, donează vocea ta la { $link }
-back-top = Înapoi la început
+back-top = Înapoi în partea superioară
 
 ## Home Page
 
@@ -133,6 +137,9 @@ edit-profile = Editează profilul
 profile-create = Creează un profil
 profile-create-success = Succes, profil creat!
 profile-close = Închide
+profile-clear-modal =
+    Ștergerea datelor tale de profil înseamnă că aceste informații demografice nu vor mai fi trimise la Common Voice cu
+    înregistrările tale.
 
 ## FAQ
 
@@ -204,12 +211,12 @@ record-error-too-quiet = Volumul înregistrării este prea scăzut.
 record-submit-success = Trimitere reușită! Vrei să înregistrezi din nou?
 record-help = Te rugăm să atingi pentru a înregistra, apoi citește propoziția de mai sus cu voce tare.
 record-cancel = Anulează reînregistrarea
-review-terms = Folosind Common Voice eșți de acord cu <termsLink>Termenii</termsLink> și <privacyLink>Nota privind confidențialitatea</privacyLink>
+review-terms = Folosind Common Voice, ești de acord cu <termsLink>Termenii</termsLink> și <privacyLink>Politica de confidențialitate</privacyLink>
 terms-agree = Sunt de acord
 terms-disagree = Nu sunt de acord
 review-aborted = Încărcare abandonată. Vrei să-ți ștergi înregistrările?
 review-submit-title = Analizează și trimite
-review-submit-msg = Îți mulțumim pentru înregistrare!<lineBreak></lineBreak>Acum analizează și trimite clipurile de mai jos.
+review-submit-msg = Îți mulțumim pentru înregistrare!<lineBreak></lineBreak>Acum analizează și trimite înregistrările de mai jos.
 review-recording = Analizează
 review-rerecord = Reînregistrează
 review-cancel = Anulează trimiterea
@@ -242,8 +249,8 @@ request-language-title = Solicitare de limbă
 request-language-cancel = Ieși din formular
 request-language-form-language =
     .label = Limbă
-request-language-success-title = Cererea de limbă a fost trimisă cu succes, mulțumim.
-request-language-success-content = Vom reveni foarte curând cu informații despre cum putem adăuga limba ta la Common Voice.
+request-language-success-title = Cererea de limbă a fost trimisă cu succes, îți mulțumim.
+request-language-success-content = Vom reveni foarte curând cu mai multe informații despre cum să îți adaugi limba pe Common Voice.
 
 ## Languages Overview
 
@@ -251,5 +258,5 @@ language-section-in-progress = În curs
 language-section-launched = Lansate
 languages-show-more = Vezi mai multe
 languages-show-less = Vezi mai puține
-language-speakers = Locutori
+language-speakers = Vorbitori
 language-total-progress = Total
