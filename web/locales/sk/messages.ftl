@@ -35,6 +35,7 @@ id = indonézština
 it = taliančina
 ka = gruzínčina
 ko = kórejčina
+kw = kornčina
 mk = macedónčina
 nl = holandčina
 nn-NO = nórčina (Nynorsk)
