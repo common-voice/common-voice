@@ -84,10 +84,6 @@ request-language-button = Yeni dil iste
 
 status-title = Projenin genel durumu: Kat ettiğimiz yolu görün!
 status-contribute = Sesinle katkı sağla
-status-hours =
-    { $hours ->
-       *[one] Şu ana kadar { $hours } saatlik veri doğrulandı!
-    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Sonraki hedef: { $goal }
