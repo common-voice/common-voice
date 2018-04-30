@@ -22,8 +22,6 @@ cv = Chuvash
 cy = Cymraeg
 da = Daneg
 de = Almaeneg
-e = n
-E = n
 el = Groeg
 es-AR = Sbaeneg (Yr Ariannin)
 es-CL = Sbaeneg (Chile)
@@ -94,13 +92,6 @@ request-language-button = Cais am Iaith
 
 status-title = Statws cyffredinol y project: gweld pa mor bell rydym wedi cyrraedd!
 status-contribute = Cyfrannu eich Llais
-status-hours =
-    { $hours ->
-        [one] Un awr wedi ei ddilysu hyd yma!
-        [two] { $hours } awr wedi eu dilysu hyd yma!
-        [few] { $hours } awr wedi eu dilysu hyd yma!
-       *[other] { $hours } awr wedi eu dilysu hyd yma!
-    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Nod Nesaf: { $goal }
