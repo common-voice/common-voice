@@ -140,6 +140,7 @@ profile-clear-modal = Sletting av dine profildata tyder at denne demografiske in
 
 faq-title = Vanlege spørsmål og svar
 faq-what-q = Kva er Common Voice?
+faq-what-a = Stemmeggjenkjennings-teknologi kan revolusjonere måten vi kommuniserer med maskiner på. Men systema som finst tilgjengelege no er dyre og privateigde. Common Voice er eit projekt som skal gjere stemmegjenkjenningsteknologi tilgjengeleg for alle. Folk bidreg med stemmene sine til ein stor database, som raskt og enkelt vil la alle kunne trene stemmeaktiverande appar. Alle stemmedataa vil vere tilgjengelege for utviklarar.
 faq-important-q = Kvifor er det viktig?
 faq-important-a = Språk er naturleg, språk er menneskeleg. Det er den enklaste og meste naturlege måten å kommunisere på. Vi vil at utviklarar skal kunne byggje fantastiske ting frå realtid-omsettarar til stemmeaktiverte administrative assistentar. Men akkurat no finst det ikkje tilstrekkeleg med generelt tilgjengelege data for å byggje slike appar. Vi håper at Common Voice kjem å gje utviklarar det dei treng for slik nyskaping.
 faq-get-q = Korleis får eg tilgang til Common Voice data?
