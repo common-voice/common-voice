@@ -98,8 +98,8 @@ status-title = მთლიანი პროექტის მიმდინ
 status-contribute = ჩაწერეთ თქვენი ხმა
 status-hours =
     { $hours ->
-        [one] ერთი შემოწმებული საათი უკვე მზადაა!
-       *[other] { $hours } შემოწმებული საათი უკვე მზადაა!
+        [one] ჯერჯერობით, ერთი საათია შემოწმებული!
+       *[other] ჯერჯერობით, { $hours } საათია შემოწმებული!
     }
 # Variables:
 # $goal - number of hours representing the next goal
