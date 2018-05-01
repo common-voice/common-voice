@@ -24,6 +24,7 @@ da = Danese
 de = Tedesco
 el = Greco
 en = Inglese
+es = Spagnolo
 es-AR = Spagnolo (Argentina)
 es-CL = Spagnolo (Cile)
 fr = Francese
@@ -35,7 +36,9 @@ id = Indonesiano
 it = Italiano
 ka = Georgiano
 ko = Coreano
+kw = Cornico
 mk = Macedone
+nb-NO = Bokmål (Norvegia)
 nl = Olandese
 nn-NO = Norvegese Nynorsk
 or = Oriya
@@ -131,6 +134,7 @@ edit-profile = Modifica profilo
 profile-create = Crea un profilo
 profile-create-success = Profilo creato con successo
 profile-close = Chiudi
+profile-clear-modal = Cancellare i dati del tuo profilo significa che le informazioni demografiche non saranno più inviate a Common Voice con le tue registrazioni.
 
 ## FAQ
 
