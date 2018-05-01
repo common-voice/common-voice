@@ -123,6 +123,22 @@ profile-form-username =
     .label = Ім’я користувача
 profile-form-language =
     .label = Мова
+profile-form-more-languages = Невдовзі буде ще більше мов!
+profile-form-accent =
+    .label = Акцент
+profile-form-age =
+    .label = Вік
+profile-form-gender =
+    .label = Стать
+profile-form-submit-save = Зберегти
+profile-form-submit-saved = Збережено
+profile-keep-data = Зберегти дані
+profile-delete-data = Видалити дані
+male = Чоловіча
+female = Жіноча
+# Gender
+other = Інше
+why-profile-title = Нащо потрібен профіль?
 
 ## FAQ
 
