@@ -133,6 +133,7 @@ edit-profile = 编辑用户资料
 profile-create = 创建用户资料
 profile-create-success = 成功，用户资料已创建！
 profile-close = 关闭
+profile-clear-modal = 清除您的用户资料后，您提交给 Common Voice 的录音将不再标注上人口统计学特征。
 
 ## FAQ
 
