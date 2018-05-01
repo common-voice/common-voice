@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Si, inviami le email. Mi piacerebbe rimanere informato sul progetto Common Voice
+yes-receive-emails = Sì, inviami le email. Mi piacerebbe rimanere informato sul progetto Common Voice
 stayintouch = Mozilla sta radunando una comunità di persone interessate alle tecnologie vocali. Ci piacerebbe rimanere in contatto con te con aggiornamenti e nuove fonti di dati, ma anche per conoscere come usi i dati di Common Voice.
 privacy-info = Le tue informazioni personali sono al sicuro con noi. Per i dettagli leggi l’<privacyLink>informativa sulla privacy<privacyLink>.
 return-to-cv = Torna a Common Voice
@@ -77,7 +77,7 @@ back-top = Torna in alto
 home-title = Il progetto Common Voice è un’iniziativa di Mozilla per insegnare alle macchine come parlano le persone nella vita reale.
 home-cta = Di’ qualcosa, fai clic qui per iniziare!
 wall-of-text-start = La voce è naturale, la voce è umanità. Per questo l’idea di creare una tecnologia vocale utilizzabile dalle nostre macchine ci affascina così tanto. Per creare sistemi basati sulla tecnologia vocale, però, è necessaria una altissima quantità di campioni.
-wall-of-text-more-mobile = Buona parte dei dati usati dalle grandi aziende non è accessibili alla maggioranza delle persone. Secondo noi questo soffoca l’innovazione. Per questa ragione abbiamo sviluppato Common Voice, un progetto di riconoscimento vocale aperto a tutti.
+wall-of-text-more-mobile = Buona parte dei dati usati dalle grandi aziende non è accessibile alla maggioranza delle persone. Secondo noi questo soffoca l’innovazione. Per questa ragione abbiamo sviluppato Common Voice, un progetto di riconoscimento vocale aperto a tutti.
 wall-of-text-more-desktop = Ora puoi donare la tua voce per aiutarci a costruire un database vocale open source a disposizione di tutti gli sviluppatori di applicazioni per dispositivi o per il Web. <lineBreak></lineBreak> Contribuire è semplicissimo! Leggi una frase per insegnare alle macchine come le persone parlano nella vita reale. Verifica le registrazioni audio degli altri collaboratori per migliorare la qualità del database.
 show-wall-of-text = Ulteriori informazioni
 help-us-title = Aiutaci a confermare le frasi!
@@ -118,7 +118,7 @@ profile-form-age =
 profile-form-gender =
     .label = Sesso
 profile-form-submit-save = Salva
-profile-form-submit-saved = Salvato
+profile-form-submit-saved = Salva
 profile-keep-data = Mantieni i dati
 profile-delete-data = Elimina i dati
 male = Maschio
