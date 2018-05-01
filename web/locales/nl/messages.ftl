@@ -24,6 +24,7 @@ da = Deens
 de = Duits
 el = Grieks
 en = Engels
+es = Spaans
 es-AR = Spaans (Argentinië)
 es-CL = Spaans (Chili)
 fr = Frans
