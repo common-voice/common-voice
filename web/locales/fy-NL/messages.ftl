@@ -22,9 +22,9 @@ cv = Chuvash
 cy = Welsk
 da = Deensk
 de = Dútsk
-e = n
-E = n
 el = Gryksk
+en = Ingelsk
+es = Spaansk
 es-AR = Spaansk (Argentinië)
 es-CL = Spaansk (Chili)
 fr = Frânsk
@@ -36,7 +36,9 @@ id = Yndonezysk
 it = Italiaansk
 ka = Georgysk
 ko = Koreaansk
+kw = Kornish
 mk = Masedoanysk
+nb-NO = Noarsk Bokmål
 nl = Nederlânsk
 nn-NO = Norwegysk Nynorsk
 or = Odia
@@ -142,6 +144,7 @@ edit-profile = Profyl bewurkje
 profile-create = Profyl oanmeitsje
 profile-create-success = Profyl mei sukses oanmakke!
 profile-close = Slute
+profile-clear-modal = It wiskjen fan jo profylgegevens betsjut dat dizze demografyske gegevens net mear tegearre mei jo opnamen by Common Voice yntsjinne wurde.
 
 ## FAQ
 
