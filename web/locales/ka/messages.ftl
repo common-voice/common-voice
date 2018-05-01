@@ -61,7 +61,7 @@ zh-TW = ჩინური (ტაივანი)
 ## Layout
 
 speak = ჩაწერა
-datasets = ნაკრებები
+datasets = ნაკრები
 languages = ენები
 profile = პროფილი
 help = დახმარება
