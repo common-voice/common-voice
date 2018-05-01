@@ -242,6 +242,7 @@ request-language-cancel = Avsluta formulär
 request-language-form-language =
     .label = Språk
 request-language-success-title = Språkförfrågan har skickats in, tack.
+request-language-success-content = Vi hör av oss med mer information om hur du lägger till ditt språk i Common Voice väldigt snart.
 
 ## Languages Overview
 
