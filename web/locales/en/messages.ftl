@@ -109,7 +109,6 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Next Goal: { $goal }
-status-more-soon = More languages coming soon!
 english = English
 
 ## ProfileForm
