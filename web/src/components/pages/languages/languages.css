@@ -115,19 +115,6 @@
         }
     }
 
-    & .show-all-languages-md {
-        display: none;
-        font-size: var(--font-size-small);
-        font-weight: 600;
-        text-decoration: underline;
-        text-transform: uppercase;
-
-        @media (--md-up) {
-            display: block;
-        }
-    }
-
-
     & .mobile-headings {
         @media (--md-up) {
             display: none;
@@ -161,10 +148,8 @@
             background: var(--light-grey);
         }
 
-        &.more {
-            @media (--md-up) {
-                display: none;
-            }
+        &:focus {
+            outline: none;
         }
     }
 

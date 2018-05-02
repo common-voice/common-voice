@@ -142,14 +142,6 @@ class LanguagesPage extends React.PureComponent<Props, State> {
                 <Localized id="language-section-in-progress">
                   <h1 />
                 </Localized>
-
-                <Localized id={'languages-show-' + (showAll ? 'less' : 'more')}>
-                  <a
-                    className="show-all-languages-md"
-                    href="javascript:void(0)"
-                    onClick={this.toggleShowAll}
-                  />
-                </Localized>
               </div>
 
               <Hr />
@@ -163,12 +155,14 @@ class LanguagesPage extends React.PureComponent<Props, State> {
               )}
             </ul>
 
-            <Localized id={'languages-show-' + (showAll ? 'less' : 'more')}>
-              <button
-                className={'show-all-languages ' + (showAll ? 'less' : 'more')}
-                onClick={this.toggleShowAll}
-              />
-            </Localized>
+            {localizations.length > 0 && (
+              <Localized id={'languages-show-' + (showAll ? 'less' : 'more')}>
+                <button
+                  className="show-all-languages"
+                  onClick={this.toggleShowAll}
+                />
+              </Localized>
+            )}
           </section>
 
           <section className="launched">
