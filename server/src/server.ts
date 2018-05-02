@@ -53,6 +53,16 @@ export default class Server {
 
     const app = (this.app = express());
 
+    app.use((request, response, next) => {
+      // redirect to omit trailing slashes
+      if (request.path.substr(-1) == '/' && request.path.length > 1) {
+        const query = request.url.slice(request.path.length);
+        response.redirect(301, request.path.slice(0, -1) + query);
+      } else {
+        next();
+      }
+    });
+
     app.use(authRouter);
     app.use('/api/v1', this.api.getRouter());
     app.use(adminRouter);
@@ -72,7 +82,7 @@ export default class Server {
     this.setupPrivacyAndTermsRoutes();
 
     app.use(
-      '*',
+      /(.*)/,
       express.static(FULL_CLIENT_PATH + '/index.html', staticOptions)
     );
 
