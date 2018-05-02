@@ -23,6 +23,8 @@ cy = Breatnais
 da = Danmhairgis
 de = Gearmáinis
 el = Gréigis
+en = Béarla
+es = Spáinnis
 es-AR = Spáinnis (An Airgintín)
 es-CL = Spáinnis (An tSile)
 fr = Fraincis
@@ -34,7 +36,9 @@ id = Indinéisis
 it = Iodáilis
 ka = Seoirsis
 ko = Cóiréis
+kw = Coirnis
 mk = Macadóinis
+nb-NO = Ioruais Bokmål
 nl = Ollainnis
 nn-NO = Ioruais Nynorsk
 or = Oirísis
@@ -101,7 +105,6 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = An chéad sprioc eile: { $goal }
-status-more-soon = Tuilleadh teangacha le teacht!
 english = Béarla
 
 ## ProfileForm
