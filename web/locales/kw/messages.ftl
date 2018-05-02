@@ -67,6 +67,13 @@ profile = Profil
 help = Gweres
 contact = Kestava
 privacy = Privetter
+terms = Termys
+cookies = Cookies
+faq = Govynnow menowgh
+content-license-text = Kavadow yw an dalgh yn-dann <licenseLink>leshyans Creative Commons</licenseLink>
+share-title = Gweresowgh ni ow hwilas re erel dhe argevro aga lev!
+share-text = Gweresowgh ow tyski dhe jynnow kowsel kepar ha pobel gwir, argevrowgh agas lev orth { $link }
+back-top = Dehweles dhe benn an folen
 
 ## Home Page
 
