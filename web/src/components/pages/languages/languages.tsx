@@ -5,7 +5,7 @@ import API from '../../../services/api';
 import StateTree from '../../../stores/tree';
 import RequestLanguageModal from '../../request-language-modal/request-language-modal';
 import { Button, Hr } from '../../ui/ui';
-import LocalizationBox from './localization-box';
+import LocalizationBox, { LoadingLocalizationBox } from './localization-box';
 
 const ENGLISH_LOCALE = {
   code: 'en',
@@ -154,26 +154,27 @@ class LanguagesPage extends React.PureComponent<Props, State> {
             </div>
 
             <ul style={{ display: 'flex', flexWrap: 'wrap' }}>
-              {(showAll ? localizations : localizations.slice(0, 3)).map(
-                (localization: any, i: number) => (
-                  <LocalizationBox
-                    key={i}
-                    localeMessages={localeMessages}
-                    showCTA
-                    {...localization}
-                  />
-                )
-              )}
+              {localizations.length > 0
+                ? (showAll ? localizations : localizations.slice(0, 3)).map(
+                    (localization: any, i: number) => (
+                      <LocalizationBox
+                        key={i}
+                        localeMessages={localeMessages}
+                        showCTA
+                        {...localization}
+                      />
+                    )
+                  )
+                : [1, 2, 3].map(i => <LoadingLocalizationBox key={i} />)}
             </ul>
 
-            {localizations.length > 0 && (
-              <Localized id={'languages-show-' + (showAll ? 'less' : 'more')}>
-                <button
-                  className="show-all-languages"
-                  onClick={this.toggleShowAll}
-                />
-              </Localized>
-            )}
+            <Localized id={'languages-show-' + (showAll ? 'less' : 'more')}>
+              <button
+                disabled={localizations.length === 0}
+                className="show-all-languages"
+                onClick={this.toggleShowAll}
+              />
+            </Localized>
           </section>
 
           <section className="launched">

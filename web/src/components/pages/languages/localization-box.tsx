@@ -1,5 +1,6 @@
 const { LocalizationProvider, Localized } = require('fluent-react');
 import * as React from 'react';
+import ContentLoader from 'react-content-loader';
 import { connect } from 'react-redux';
 import ProgressBar from '../../progress-bar/progress-bar';
 import { createCrossLocaleMessagesGenerator } from '../../../services/localization';
@@ -7,6 +8,71 @@ import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';
 import { Hr } from '../../ui/ui';
 import GetInvolvedModal from './get-involved-modal';
+
+function Skeleton({
+  loading,
+  title,
+  population,
+  progress,
+  children,
+  onClick,
+}: {
+  loading?: boolean;
+  title?: React.ReactNode;
+  population?: React.ReactNode;
+  progress?: number;
+  children?: React.ReactNode;
+  onClick?: any;
+}) {
+  return (
+    <li className={'language ' + (loading ? 'loading' : '')}>
+      <div className="info">
+        <h2>{loading ? <ContentLoader /> : title}</h2>
+        <div className="numbers">
+          <div>
+            {loading ? (
+              <ContentLoader height={25} />
+            ) : (
+              <React.Fragment>
+                <Localized id="language-speakers">
+                  <span />
+                </Localized>
+                <b>{population}</b>
+              </React.Fragment>
+            )}
+          </div>
+          <Hr />
+          <div>
+            {loading ? (
+              <ContentLoader height={25} />
+            ) : (
+              <React.Fragment>
+                <Localized id="language-total-progress">
+                  <span />
+                </Localized>
+                <b>{Math.round(progress * 100)}%</b>
+              </React.Fragment>
+            )}
+          </div>
+          {loading ? (
+            <ContentLoader height={25} />
+          ) : (
+            <ProgressBar progress={progress} />
+          )}
+        </div>
+      </div>
+      {loading ? (
+        <button>Loading...</button>
+      ) : (
+        children && <button onClick={onClick}>{children}</button>
+      )}
+    </li>
+  );
+}
+
+export function LoadingLocalizationBox() {
+  return <Skeleton loading />;
+}
 
 interface Locale {
   code?: string;
@@ -53,46 +119,31 @@ class LocalizationBox extends React.PureComponent<Props, State> {
       ]);
 
     return (
-      <li className="language">
-        <div className="info">
+      <Skeleton
+        title={
           <Localized id={locale.code}>
-            <h2 />
+            <span />
           </Localized>
-          <div className="numbers">
-            <div>
-              <Localized id="language-speakers">
-                <span />
-              </Localized>
-              <b>{locale.population.toLocaleString()}</b>
-            </div>
-            <Hr />
-            <div>
-              <Localized id="language-total-progress">
-                <span />
-              </Localized>
-              <b>{Math.round(progress * 100)}%</b>
-            </div>
-            <ProgressBar progress={progress} />
-          </div>
-        </div>
+        }
+        population={locale.population.toLocaleString()}
+        progress={progress}
+        onClick={this.toggleModal}>
         {showCTA && (
-          <button onClick={this.toggleModal}>
-            <LocalizationProvider messages={messagesGenerator}>
-              <React.Fragment>
-                <Localized id="get-involved-button">
-                  <span />
-                </Localized>
-                {this.state.showModal && (
-                  <GetInvolvedModal
-                    locale={locale}
-                    onRequestClose={this.toggleModal}
-                  />
-                )}
-              </React.Fragment>
-            </LocalizationProvider>
-          </button>
+          <LocalizationProvider messages={messagesGenerator}>
+            <React.Fragment>
+              <Localized id="get-involved-button">
+                <span />
+              </Localized>
+              {this.state.showModal && (
+                <GetInvolvedModal
+                  locale={locale}
+                  onRequestClose={this.toggleModal}
+                />
+              )}
+            </React.Fragment>
+          </LocalizationProvider>
         )}
-      </li>
+      </Skeleton>
     );
   }
 }

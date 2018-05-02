@@ -224,6 +224,26 @@
             }
         }
 
+        &.loading {
+            & h2 svg {
+                width: 80%;
+            }
+
+            & .numbers {
+                & svg:nth-of-type(1) {
+                    margin-top: 0.5rem;
+                }
+
+                & svg:nth-of-type(2) {
+                    margin-top: 1.1rem;
+                }
+
+                & svg:nth-of-type(3) {
+                    margin-top: 0.6rem;
+                }
+            }
+        }
+
         & .info {
             padding: 1.5rem 2rem;
             display: flex;
