@@ -119,31 +119,33 @@ class LocalizationBox extends React.PureComponent<Props, State> {
       ]);
 
     return (
-      <Skeleton
-        title={
-          <Localized id={locale.code}>
-            <span />
-          </Localized>
-        }
-        population={locale.population.toLocaleString()}
-        progress={progress}
-        onClick={this.toggleModal}>
-        {showCTA && (
+      <React.Fragment>
+        {this.state.showModal && (
           <LocalizationProvider messages={messagesGenerator}>
-            <React.Fragment>
+            <GetInvolvedModal
+              locale={locale}
+              onRequestClose={this.toggleModal}
+            />
+          </LocalizationProvider>
+        )}
+        <Skeleton
+          title={
+            <Localized id={locale.code}>
+              <span />
+            </Localized>
+          }
+          population={locale.population.toLocaleString()}
+          progress={progress}
+          onClick={this.toggleModal}>
+          {showCTA && (
+            <LocalizationProvider messages={messagesGenerator}>
               <Localized id="get-involved-button">
                 <span />
               </Localized>
-              {this.state.showModal && (
-                <GetInvolvedModal
-                  locale={locale}
-                  onRequestClose={this.toggleModal}
-                />
-              )}
-            </React.Fragment>
-          </LocalizationProvider>
-        )}
-      </Skeleton>
+            </LocalizationProvider>
+          )}
+        </Skeleton>
+      </React.Fragment>
     );
   }
 }
