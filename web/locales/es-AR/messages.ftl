@@ -165,8 +165,8 @@ profile-why-content = Al entregar un poco de información sobre usted, los datos
 
 ## NotFound
 
-notfound-title = No encostrado
-notfound-content = Perdóneme, no sé qué es lo que estásbuscando.
+notfound-title = No encontrado
+notfound-content = Perdóneme, no sé qué es lo que está buscando.
 
 ## Data
 
@@ -174,7 +174,7 @@ data-download-button = Descargar datos de Common Voice
 data-download-yes = Sí
 data-download-deny = No
 data-download-license = Licencia: <licenseLink>CC-0</licenseLink>
-data-download-modal = Está a punto de iniciar una descarga de <size>{ $size }GB</size>, ¿proceder?
+data-download-modal = Está a punto de iniciar una descarga de <size>{ $size }GB</size>, ¿desea continuar?
 data-subtitle = Estamos construyendo un archivo de datos de voces abierto y disponible públicamente que todos pueden usar para entrenar aplicaciones de reconocimiento de voz.
 data-explanatory-text = Creemos que los archivos de datos de voz grandes y disponibles públicamente promueven la innovación y la competencia comercial sana en las tecnologías de voz basadas en el aprendizaje de las máquinas. Este es un esfuerzo mundial e invitamos a todos a participar. Nuestra meta es ayudar a la tecnología de voz a ser más inclusiva, reflejando la diversidad de las voces de todo el mundo.
 data-get-started = <speechBlogLink>Empezar con el Reconocimiento de voz</speechBlogLink>
@@ -193,14 +193,14 @@ license-mixed = Mixta
 
 ## Record Page
 
-record-platform-not-supported = Lo sentimos, pero su plataforma no es compatible en la actualidad.
+record-platform-not-supported = Disculpe pero su plataforma no es compatible en este momento.
 record-platform-not-supported-desktop = En computadoras de escritorio puede descargar la última versión:
 record-platform-not-supported-ios = Los usuarios de <bold>iOS</bold> pueden descargar nuestra app gratuita:
 record-must-allow-microphone = Debe permitir el acceso al micrófono.
 record-cancel = Cancelar la Regrabación
 record-retry = Reintentar
-record-error-too-short = La grabación fue muy corta.
-record-error-too-long = La grabación fue demasiada larga.
+record-error-too-short = La grabación fue demasiado corta.
+record-error-too-long = La grabación fue demasiado larga.
 record-error-too-quiet = La grabación fue demasiado silenciosa.
 record-submit-success = ¡Envío exitoso! ¿Quiere volver a grabar?
 record-help = Por favor toque para grabar y luego lea la oración anterior en voz alta.
@@ -208,18 +208,18 @@ record-cancel = Cancelar la Regrabación
 review-terms = Al usar Common Voice, acepta nuestros <termsLink>Términos</termsLink> y <privacyLink>Política de privacidad</privacyLink>
 terms-agree = Estoy de acuerdo
 terms-disagree = No estoy de acuerdo
-review-aborted = Subida abortada. ¿Quiere eliminar sus grabaciones?
+review-aborted = Carga de datos abortada. ¿Quiere eliminar sus grabaciones?
 review-submit-title = Revisar y enviar
 review-submit-msg = ¡Gracias por grabar!<lineBreak></lineBreak>Ahora revise y envíe sus grabaciones a continuación.
 review-recording = Revisar
 review-rerecord = Regrabar
-review-cancel = Cancelar envío
-review-keep-recordings = Mantener las grabaciones
-review-delete-recordings = Borrar mis grabaciones
+review-cancel = Cancelar el envío
+review-keep-recordings = Conservar las grabaciones
+review-delete-recordings = Eliminar mis grabaciones
 
 ## Download Modal
 
-download-title = La descarga se ha iniciado.
+download-title = Se inició su descarga.
 download-helpus = Ayúdenos a construir una comunidad en torno a la tecnología de voz, manténgase en contacto por correo electrónico.
 download-form-email =
     .label = Ingrese su correo electrónico.
