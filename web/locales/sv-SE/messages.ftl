@@ -162,6 +162,7 @@ faq-source-a2 = Du kan se våra källmeningar i <dataLink>denna GitHub mapp</dat
 ## Profile
 
 profile-why-title = Varför en profil?
+profile-why-content = Genom att ge lite information om dig själv kan det inspelade datan du ger till Common Voice bli mer användbart för röstigenkänningsmotorer som använder denna data för att förbättra sin noggrannhet.
 
 ## NotFound
 
@@ -184,6 +185,8 @@ data-other-download = Ladda ner data
 data-other-librispeech-description = LibriSpeech är ett korpus på cirka 1000 timmar av 16Khz inläst från engelska ljudböcker från LibriVox-projektet.
 data-other-ted-name = TED-LIUM korpus
 data-other-ted-description = TED-LIUM-korpuset gjordes av föredrag och deras transkriptioner tillgängliga från TED-webbplatsen.
+data-other-voxforge-description = VoxForge skapades för att samla transkriberat tal för användning med fria och öppna språkigenkänningsmotorer.
+data-other-tatoeba-description = Tatoeba är en stor databas med meningar, översättningar och talat språk för användning i språk inlärning. Denna nerladdning innehåller pratad engelska inspelad av/från deras gemenskap.
 data-bundle-button = Ladda ner Dataset-paket
 data-bundle-description = Common Voice data plus alla andra röstdatamängder ovan.
 license = Licens: <licenseLink>{ $license }</licenseLink>
