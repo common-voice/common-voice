@@ -22,9 +22,9 @@ cv = Chuvasio
 cy = Galés
 da = Danés
 de = Alemán
-e = n
-E = n
 el = Griego
+en = Inglés
+es = Español
 es-AR = Español (Argentina)
 es-CL = Español (Chile)
 fr = Francés
@@ -36,7 +36,9 @@ id = Indonesio
 it = Italiano
 ka = Georgiano
 ko = Coreano
+kw = Córnico
 mk = Macedonio
+nb-NO = Noruego (Bokmål)
 nl = Holandés
 nn-NO = Noruego Nynorsk
 or = Odia
@@ -100,7 +102,6 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Siguiente objetivo: { $goal }
-status-more-soon = ¡Más idiomas próximamente!
 english = Inglés
 
 ## ProfileForm
@@ -132,6 +133,7 @@ edit-profile = Editar el perfil
 profile-create = Crear un perfil
 profile-create-success = ¡Hecho, perfil creado!
 profile-close = Cerrar
+profile-clear-modal = Eliminar los datos del perfil implica que su información demográfica ya no será enviada a Common Voice junto con sus grabaciones.
 
 ## FAQ
 
@@ -208,6 +210,7 @@ terms-agree = Estoy de acuerdo
 terms-disagree = No estoy de acuerdo
 review-aborted = Subida abortada. ¿Quiere eliminar sus grabaciones?
 review-submit-title = Revisar y enviar
+review-submit-msg = ¡Gracias por grabar!<lineBreak></lineBreak>Ahora revise y envíe sus grabaciones a continuación.
 review-recording = Revisar
 review-rerecord = Regrabar
 review-cancel = Cancelar envío
@@ -217,6 +220,11 @@ review-delete-recordings = Borrar mis grabaciones
 ## Download Modal
 
 download-title = La descarga se ha iniciado.
+download-helpus = Ayúdenos a construir una comunidad en torno a la tecnología de voz, manténgase en contacto por correo electrónico.
+download-form-email =
+    .label = Ingrese su correo electrónico.
+    .value = Gracias, estaremos en contacto.
+download-back = Volver a los archivos de datos de Common Voice
 download-no = No gracias
 
 ## Contact Modal
@@ -235,10 +243,14 @@ request-language-title = Pedido de idioma
 request-language-cancel = Salir del formulario
 request-language-form-language =
     .label = Idioma
+request-language-success-title = La solicitud del idioma fue enviada correctamente, gracias.
+request-language-success-content = Nos contactaremos muy pronto con más información sobre cómo añadir su idioma a Common Voice.
 
 ## Languages Overview
 
 language-section-in-progress = En proceso
+language-section-launched = Lanzado
 languages-show-more = Ver más
 languages-show-less = Ver menos
+language-speakers = Hablantes
 language-total-progress = Total
