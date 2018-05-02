@@ -26,7 +26,8 @@ const CSP_HEADER = [
   `style-src 'self' 'unsafe-inline' https://fonts.googleapis.com`,
   `img-src 'self' www.google-analytics.com`,
   `media-src data: blob: https://*.amazonaws.com https://*.amazon.com`,
-  `script-src 'self' 'sha256-WpzorOw/T4TS/msLlrO6krn6LdCwAldXSATNewBTrNE=' https://www.google-analytics.com/analytics.js https://pontoon.mozilla.org/pontoon.js`,
+  // Note: we allow unsafe-eval locally for certain webpack functionality.
+  `script-src 'self' 'unsafe-eval' 'sha256-it/hVbE0ffRQjkt+hTb6/JM7wKrTSMEK4CHF4s42Zu8=' https://www.google-analytics.com/analytics.js https://pontoon.mozilla.org/pontoon.js`,
   `font-src 'self' https://fonts.gstatic.com`,
   `connect-src 'self' https://pontoon.mozilla.org/graphql`,
 ].join(';');
@@ -59,7 +60,9 @@ export default class Server {
 
     const staticOptions = {
       setHeaders: (response: express.Response) => {
-        getConfig().PROD && response.set('Content-Security-Policy', CSP_HEADER);
+        // Only use CSP locally. In production, Apache handles CSP headers.
+        // See path: nubis/puppet/web.pp
+        !getConfig().PROD && response.set('Content-Security-Policy', CSP_HEADER);
       },
     };
 

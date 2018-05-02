@@ -89,7 +89,7 @@ apache::vhost { $project_name:
       'set X-Frame-Options "DENY"',
       'set Strict-Transport-Security "max-age=31536000"',
       # media-src blob: is required for recording audio.
-      'set Content-Security-Policy "default-src \'none\'; style-src \'self\' \'unsafe-inline\' https://fonts.googleapis.com; img-src \'self\' www.google-analytics.com; media-src data: blob: https://*.amazonaws.com https://*.amazon.com; script-src \'self\' \'sha256-WpzorOw/T4TS/msLlrO6krn6LdCwAldXSATNewBTrNE=\' https://www.google-analytics.com/analytics.js https://pontoon.mozilla.org/pontoon.js; font-src \'self\' https://fonts.gstatic.com; connect-src \'self\' https://pontoon.mozilla.org/graphql;"'
+      'set Content-Security-Policy "default-src \'none\'; style-src \'self\' \'unsafe-inline\' https://fonts.googleapis.com; img-src \'self\' www.google-analytics.com; media-src data: blob: https://*.amazonaws.com https://*.amazon.com; script-src \'self\' \'sha256-it/hVbE0ffRQjkt+hTb6/JM7wKrTSMEK4CHF4s42Zu8=\' https://www.google-analytics.com/analytics.js https://pontoon.mozilla.org/pontoon.js; font-src \'self\' https://fonts.gstatic.com; connect-src \'self\' https://pontoon.mozilla.org/graphql;"'
     ],
     rewrites           => [
       {
