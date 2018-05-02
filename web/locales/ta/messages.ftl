@@ -89,6 +89,8 @@ female = பெண்
 
 ## Data
 
+data-download-yes = ஆம்
+data-download-deny = இல்லை
 
 ## Record Page
 
@@ -98,9 +100,16 @@ female = பெண்
 
 ## Contact Modal
 
+contact-form-name =
+    .label = பெயர்
+contact-form-message =
+    .label = செய்தி
+contact-required = *அவசியம்
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = மொழி
 
 ## Languages Overview
 
