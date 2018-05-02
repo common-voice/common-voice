@@ -20,6 +20,7 @@ interface PropsFromState {
 interface Props extends PropsFromState {}
 
 interface State {
+  localeMessages: string[][];
   localizations: any;
   selectedLanguageSection: 'in-progress' | 'launched';
   showAll: boolean;
@@ -28,6 +29,7 @@ interface State {
 
 class LanguagesPage extends React.PureComponent<Props, State> {
   state: State = {
+    localeMessages: null,
     localizations: [],
     selectedLanguageSection: 'in-progress',
     showAll: false,
@@ -37,11 +39,14 @@ class LanguagesPage extends React.PureComponent<Props, State> {
   async componentDidMount() {
     const { api } = this.props;
 
-    // By fetching those messages early, we reduce the delay for showing the complete LocalizationBox
-    api.fetchCrossLocaleMessages().catch(e => console.error(e));
+    const [localeMessages, pontoonLanguages] = await Promise.all([
+      api.fetchCrossLocaleMessages(),
+      api.fetchPontoonLanguages(),
+    ]);
 
     this.setState({
-      localizations: (await api.fetchPontoonLanguages()).data.project.localizations
+      localeMessages,
+      localizations: pontoonLanguages.data.project.localizations
         .map((localization: any) => ({
           ...localization,
           progress:
@@ -60,6 +65,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
 
   render() {
     const {
+      localeMessages,
       localizations,
       selectedLanguageSection,
       showAll,
@@ -150,7 +156,12 @@ class LanguagesPage extends React.PureComponent<Props, State> {
             <ul style={{ display: 'flex', flexWrap: 'wrap' }}>
               {(showAll ? localizations : localizations.slice(0, 3)).map(
                 (localization: any, i: number) => (
-                  <LocalizationBox key={i} showCTA {...localization} />
+                  <LocalizationBox
+                    key={i}
+                    localeMessages={localeMessages}
+                    showCTA
+                    {...localization}
+                  />
                 )
               )}
             </ul>
@@ -175,7 +186,11 @@ class LanguagesPage extends React.PureComponent<Props, State> {
             </div>
 
             <ul>
-              <LocalizationBox locale={ENGLISH_LOCALE} progress={1} />
+              <LocalizationBox
+                locale={ENGLISH_LOCALE}
+                localeMessages={localeMessages}
+                progress={1}
+              />
             </ul>
           </section>
         </div>

@@ -140,8 +140,8 @@ export default class API {
     });
   }
 
-  fetchCrossLocaleMessages(): Promise<string> {
-    return this.fetch(`/cross-locale-messages.json`);
+  async fetchCrossLocaleMessages(): Promise<string[][]> {
+    return Object.entries(await this.fetch(`/cross-locale-messages.json`));
   }
 
   fetchRequestedLanguages(): Promise<string[]> {

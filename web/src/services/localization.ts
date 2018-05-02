@@ -55,13 +55,13 @@ function* asMessageContextGenerator(localeMessages: string[][]) {
   }
 }
 
-export async function createCrossLocaleMessagesGenerator(
-  api: API,
+export function createCrossLocaleMessagesGenerator(
+  localeMessages: string[][],
   locales: string[]
 ) {
   const currentLocales = negotiateLocales([...locales, ...navigator.languages]);
 
-  const localeMessages = Object.entries(await api.fetchCrossLocaleMessages())
+  localeMessages = localeMessages
     .filter(([locale]) => currentLocales.includes(locale))
     .sort(
       ([locale1], [locale2]) =>

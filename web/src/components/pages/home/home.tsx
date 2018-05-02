@@ -57,9 +57,10 @@ class HomePage extends React.Component<Props, State> {
   async updateMessagesGenerator({ api, locale }: Props) {
     if (this.state.messagesGenerator && locale === this.props.locale) return;
     this.setState({
-      messagesGenerator: await createCrossLocaleMessagesGenerator(api, [
-        locale,
-      ]),
+      messagesGenerator: createCrossLocaleMessagesGenerator(
+        await api.fetchCrossLocaleMessages(),
+        [locale]
+      ),
     });
   }
 
