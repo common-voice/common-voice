@@ -102,7 +102,6 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Prossimo traguardo: { $goal }
-status-more-soon = Nuove lingue in arrivo!
 english = Inglese
 
 ## ProfileForm
@@ -253,5 +252,5 @@ language-section-in-progress = In corso
 language-section-launched = Avviato
 languages-show-more = Visualizza più elementi
 languages-show-less = Visualizza meno elementi
-language-speakers = Altoparlanti
+language-speakers = Parlato da
 language-total-progress = Totale
