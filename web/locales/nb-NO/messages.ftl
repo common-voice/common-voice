@@ -86,7 +86,6 @@ status-contribute = Bidra med din stemme
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Neste mål: { $goal }
-status-more-soon = Flere språk kommer snart!
 english = Engelsk
 
 ## ProfileForm
@@ -168,4 +167,5 @@ request-language-form-language =
 
 languages-show-more = Vis mer
 languages-show-less = Vis mindre
+language-speakers = Talt av
 language-total-progress = Totalt
