@@ -50,6 +50,7 @@ sk = Slóvaicis
 sq = Albáinis
 sv-SE = Sualainnis
 ta = Tamailis
+te = Teileagúis
 th = Téalainnis
 tr = Tuircis
 tt = Tatairis
