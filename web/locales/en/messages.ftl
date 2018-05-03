@@ -47,6 +47,7 @@ sk = Slovak
 sq = Albanian
 sv-SE = Swedish
 ta = Tamil
+te = Telugu
 th = Thai
 tr = Turkish
 tt = Tatar
