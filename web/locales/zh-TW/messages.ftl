@@ -50,6 +50,7 @@ sk = 斯洛伐克語
 sq = 阿爾巴尼亞語
 sv-SE = 瑞典語
 ta = 坦米爾語
+te = 泰盧固語
 th = 泰語
 tr = 土耳其語
 tt = 韃靼語
@@ -103,7 +104,6 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = 下個目標: { $goal }
-status-more-soon = 更多語言即將到來！
 english = 英語
 
 ## ProfileForm
