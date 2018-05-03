@@ -179,7 +179,7 @@ export default class DB {
         SELECT text
         FROM sentences
         LEFT JOIN clips ON sentences.id = clips.original_sentence_id
-        WHERE sentences.is_used AND sentences.bucket = ? 
+        WHERE sentences.is_used AND sentences.bucket = ? AND sentences.locale_id = 1 
         GROUP BY sentences.id
         ORDER BY COUNT(clips.id) ASC
         LIMIT ?
