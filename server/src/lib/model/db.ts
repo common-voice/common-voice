@@ -348,4 +348,13 @@ export default class DB {
     );
     return row;
   }
+
+  async migrateUserClientBuckets() {
+    await this.mysql.query(
+      `
+        INSERT IGNORE INTO user_client_locale_buckets (client_id, locale_id, bucket)
+          SELECT client_id, 1, bucket FROM user_clients
+      `
+    );
+  }
 }
