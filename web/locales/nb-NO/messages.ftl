@@ -46,6 +46,7 @@ sk = Slovakisk
 sq = Albansk
 sv-SE = Svensk
 ta = Tamilsk
+te = Telugu
 th = Thai
 tr = Tyrkisk
 tt = Tatar
@@ -121,6 +122,7 @@ profile-close = Lukk
 
 faq-title = Ofte stilte spørsmål
 faq-what-q = Hva er Common Voice?
+faq-important-q = Hvorfor er det viktig?
 
 ## Profile
 
