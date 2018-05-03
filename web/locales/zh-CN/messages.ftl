@@ -252,5 +252,5 @@ language-section-in-progress = 准备中
 language-section-launched = 已上线
 languages-show-more = 显示更多
 languages-show-less = 显示更少
-language-speakers = 讲者
+language-speakers = 使用人数
 language-total-progress = 总共
