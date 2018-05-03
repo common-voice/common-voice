@@ -137,9 +137,16 @@ why-profile-title = Praga profil?
 why-profile-text = Dre brovia kedhlow a-dro dhywgh hwi agas honen, y fydh an data son a dhanvenowgh dhe Common Voice moy dhe les dhe jynnow aswon lev a wra usya an data ma rag gwellhe aga hewerder.
 edit-profile = Chanjya an profil
 profile-create = Gwul profil
+profile-create-success = Gwrys veu agas profil!
+profile-close = Degea
+profile-clear-modal = Klerhe data agas profil a styr na vydh an kledhlow demografek danvenys dhe Common Voice na fella war-barth ha'gas rekordyansow trogh.
 
 ## FAQ
 
+faq-title = Govynnow menowgh
+faq-what-q = Pandr'yw Common Voice?
+faq-what-a = Teknegieth aswon lev a allsa domhwelhe an fordh mayth oberyn gans jynnow, mes kostek ha perghenogyl yw an systemow kavadow a-lemmyn. Common Voice yw ragdres dhe wul teknegieth aswon lev hedhadow dhe bubonen. Yma tus ow kevri aga levow dhe dhatabase kowrek a wra gasa dhe bubonen dyski dhe dowlennow gans lev gallosegys. Kavadow a vydh pub data lev dhe dhisplegyoryon.
+faq-important-q = Prag yth yw posek?
 
 ## Profile
 
