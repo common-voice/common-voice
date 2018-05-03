@@ -50,6 +50,7 @@ sk = Eslovaco
 sq = Albano
 sv-SE = Sueco
 ta = Tamil
+te = Telugú
 th = Tailandés
 tr = Turco
 tt = Tártaro
