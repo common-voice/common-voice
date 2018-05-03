@@ -80,12 +80,63 @@ back-top = Dehweles dhe benn an folen
 home-title = An ragdres Common Voice yw towl Mozilla dhe weres ow tyski dhe jynnow fatel wra tus gwir kowsel.
 home-cta = Kowsowgh yn ughel, kevrowgh omma!
 wall-of-text-start = Naturel yw an lev, dhe dhenses yma'n lev. Henn yw prag yma hwans dhyn gwul teknegieth lev dhe les rag agan jynnow. Mes rag gwul systemow lev, res yw kuntel myns bras dres eghen a dhata lev.
+wall-of-text-more-mobile = Nyns yw kavadow brassa rann an data usys gans kowethyansow bras dhe'n brassa rann a dus. Ni a grys henna dhe lettya awenekter. Ytho yma lonchyes genen an ragdres Common Voice, towl dhe weres ow kul aswonvos lev ygor dhe bubonen.
+wall-of-text-more-desktop =
+    Lemmyn ni a yll argevro agas lev dhe weres dhyn ow trehevel database pennfenten ygor a yll pubonen usya rag gwul towlennow awenek rag devisyow ha'n wias.<lineBreak></lineBreak>
+    Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh an ober a gevriysi erel dhe wellhe aga hwalita. Mar sempel es henna yw!
+show-wall-of-text = Redya moy
+help-us-title = Gweres dhyn ow kwirya lavarow!
+help-us-explain = Pokyowgh seni, goslowowgh ha leverowgh dhyn: a wrussons i leverel an lavar a-woles yn ewn?
+vote-yes = Gwrussons
+vote-no = Na wrussons
+request-language-text = A ny welowgh agas yeth war Common Voice hwath?
+request-language-button = Profya yeth
 
 ## ProjectStatus
 
+status-title = Studh ollgemmyn an towl: gwelowgh agan spedyans!
+status-contribute = Kevrewgh agas lev
+status-hours =
+    { $hours ->
+        [zero] Nyns eus ourys gwiryes hwath!
+        [one] Yma { $hours } our gwiryes seulabrys!
+        [two] Yma { $hours } our gwiryes seulabrys!
+        [few] Yma { $hours } our gwiryes seulabrys!
+        [many] Yma { $hours } our gwiryes seulabrys!
+       *[other] Yma { $hours } our gwiryes seulabrys!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Nessa amkan: { $goal }
+english = Sowsnek
 
 ## ProfileForm
 
+profile-form-cancel = Kwytya an furvlen
+profile-form-delete = Dilea an profil
+profile-form-username =
+    .label = Hanow usyer
+profile-form-language =
+    .label = Yeth
+profile-form-more-languages = Yma moy yethow war an fordh!
+profile-form-accent =
+    .label = Lesyeth
+profile-form-age =
+    .label = Bloodh
+profile-form-gender =
+    .label = Reydh
+profile-form-submit-save = Gwitha
+profile-form-submit-saved = Gwithys
+profile-keep-data = Gwitha an data
+profile-delete-data = Dilea an data
+male = Gorow
+female = Benow
+# Gender
+other = Aral
+why-profile-title = Praga profil?
+why-profile-text = Dre brovia kedhlow a-dro dhywgh hwi agas honen, y fydh an data son a dhanvenowgh dhe Common Voice moy dhe les dhe jynnow aswon lev a wra usya an data ma rag gwellhe aga hewerder.
+edit-profile = Chanjya an profil
+profile-create = Gwul profil
 
 ## FAQ
 
