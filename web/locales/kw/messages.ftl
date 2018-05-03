@@ -85,10 +85,10 @@ wall-of-text-more-desktop =
     Lemmyn ni a yll argevro agas lev dhe weres dhyn ow trehevel database pennfenten ygor a yll pubonen usya rag gwul towlennow awenek rag devisyow ha'n wias.<lineBreak></lineBreak>
     Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh an ober a gevriysi erel dhe wellhe aga hwalita. Mar sempel es henna yw!
 show-wall-of-text = Redya moy
-help-us-title = Gweres dhyn ow kwirya lavarow!
-help-us-explain = Pokyowgh seni, goslowowgh ha leverowgh dhyn: a wrussons i leverel an lavar a-woles yn ewn?
-vote-yes = Gwrussons
-vote-no = Na wrussons
+help-us-title = Gweresowgh dhyn ow kwirya lavarow!
+help-us-explain = Gweskowgh seni, goslowowgh ha leverowgh dhyn: a veu an lavar a-woles leverys yn ewn?
+vote-yes = Beu
+vote-no = Na veu
 request-language-text = A ny welowgh agas yeth war Common Voice hwath?
 request-language-button = Profya yeth
 
@@ -147,6 +147,10 @@ faq-title = Govynnow menowgh
 faq-what-q = Pandr'yw Common Voice?
 faq-what-a = Teknegieth aswon lev a allsa domhwelhe an fordh mayth oberyn gans jynnow, mes kostek ha perghenogyl yw an systemow kavadow a-lemmyn. Common Voice yw ragdres dhe wul teknegieth aswon lev hedhadow dhe bubonen. Yma tus ow kevri aga levow dhe dhatabase kowrek a wra gasa dhe bubonen dyski dhe dowlennow gans lev gallosegys. Kavadow a vydh pub data lev dhe dhisplegyoryon.
 faq-important-q = Prag yth yw posek?
+faq-important-a = Naturel yw an lev, dhe dhenses yma'n lev. An esya ha'n fordh an moyha naturel yw dhe geskomunya. Yma hwans dhyn ni bos abel dhe dhrehevel taklow marthys, a dreylellow termyn-gwir dhe dharbaroryon venystrek gans lev gallosegys. Mes lemmyn nyns eus data lowr dhe dhrehevel an sort ma a dowlennow. Yma govenek dhyn Common Voice dhe ri dhe dhisplegyoryon an pyth yw res dhedhans dhe vos awenek.
+faq-get-q = Fatel allav vy kerghes an data Common Voice?
+faq-get-a = Kavadow lemmyn yw an sett data war agan <downloadLink>folen iskargansow</downloadLink> yn-dann an leshyans <licenseLink>CC-0</licenseLink>.
+faq-mission-q = Prag yth yw Common Voice rann a Mozilla?
 
 ## Profile
 
