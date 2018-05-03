@@ -55,7 +55,7 @@ tr = 土耳其语
 tt = 鞑靼语
 uk = 乌克兰语
 uz = 乌兹别克语
-zh-CN = 汉语（中国大陆）
+zh-CN = 汉语（中国）
 zh-TW = 汉语（台湾）
 
 ## Layout
@@ -101,7 +101,6 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = 下个目标：{ $goal }
-status-more-soon = 更多语言即将到来！
 english = 汉语（中国）
 
 ## ProfileForm
@@ -248,9 +247,9 @@ request-language-success-content = 我们将尽快披露更多有关如何将您
 
 ## Languages Overview
 
-language-section-in-progress = 进行中
+language-section-in-progress = 准备中
 language-section-launched = 已上线
 languages-show-more = 显示更多
 languages-show-less = 显示更少
-language-speakers = 朗读者
+language-speakers = 讲者
 language-total-progress = 总共
