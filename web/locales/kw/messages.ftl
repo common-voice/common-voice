@@ -77,6 +77,9 @@ back-top = Dehweles dhe benn an folen
 
 ## Home Page
 
+home-title = An ragdres Common Voice yw towl Mozilla dhe weres ow tyski dhe jynnow fatel wra tus gwir kowsel.
+home-cta = Kowsowgh yn ughel, kevrowgh omma!
+wall-of-text-start = Naturel yw an lev, dhe dhenses yma'n lev. Henn yw prag yma hwans dhyn gwul teknegieth lev dhe les rag agan jynnow. Mes rag gwul systemow lev, res yw kuntel myns bras dres eghen a dhata lev.
 
 ## ProjectStatus
 
