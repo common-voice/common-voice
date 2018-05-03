@@ -50,6 +50,7 @@ sk = Slovenština
 sq = Albánština
 sv-SE = Švédština
 ta = Tamilština
+te = Telugština
 th = Thajština
 tr = Turečtina
 tt = Tatarština
