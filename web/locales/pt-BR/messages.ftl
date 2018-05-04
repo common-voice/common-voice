@@ -36,9 +36,12 @@ id = Indonésio
 it = Italiano
 ka = Georgiano
 ko = Coreano
+kw = Córnico
 mk = Macedônio
+nb-NO = Norueguês (Bokmål)
 nl = Holandês
 nn-NO = Novo norueguês
+or = Odia
 pl = Polonês
 pt-BR = Português (Brasil)
 ro = Romeno
@@ -47,6 +50,7 @@ sk = Eslovaco
 sq = Albanês
 sv-SE = Sueco
 ta = Tâmil
+te = Telugo
 th = Tailandês
 tr = Turco
 tt = Tártaro
@@ -125,11 +129,12 @@ female = Feminino
 # Gender
 other = Outro
 why-profile-title = Por que um perfil?
-why-profile-text = Ao fornecer algumas informações sobre você, os dados de audio que você enviou ao Common Voice serão mais úteis aos mequanismos de reconhecimento de fala que usamos para aprimorar sua precisão.
+why-profile-text = Ao fornecer algumas informações sobre você, os dados de áudio que você enviou ao Common Voice serão mais úteis aos mecanismos de reconhecimento de fala que usamos para aprimorar sua precisão.
 edit-profile = Editar perfil
 profile-create = Criar um perfil
 profile-create-success = Perfil criado com sucesso!
 profile-close = Fechar
+profile-clear-modal = Limpar seus dados de perfil significa que esta informação demográfica não será mais enviada ao Common Voice com suas gravações de clipes.
 
 ## FAQ
 
