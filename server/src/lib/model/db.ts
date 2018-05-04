@@ -172,6 +172,7 @@ export default class DB {
 
   async findSentencesWithFewClips(
     bucket: string,
+    locale: string,
     count: number
   ): Promise<string[]> {
     return (await this.mysql.query(
@@ -179,16 +180,20 @@ export default class DB {
         SELECT text
         FROM sentences
         LEFT JOIN clips ON sentences.id = clips.original_sentence_id
-        WHERE sentences.is_used AND sentences.bucket = ? AND sentences.locale_id = 1 
+        LEFT JOIN locales ON sentences.locale_id = locales.id
+        WHERE sentences.is_used AND sentences.bucket = ? AND locales.name = ?
         GROUP BY sentences.id
         ORDER BY COUNT(clips.id) ASC
         LIMIT ?
       `,
-      [bucket, count]
+      [bucket, locale, count]
     ))[0].map((row: any) => row.text);
   }
 
-  async findClipsWithFewVotes(limit: number): Promise<DBClipWithVoters[]> {
+  async findClipsWithFewVotes(
+    locale: string,
+    limit: number
+  ): Promise<DBClipWithVoters[]> {
     const [clips] = await this.mysql.query(
       `
       SELECT clips.*,
@@ -197,12 +202,14 @@ export default class DB {
         COALESCE(SUM(NOT votes.is_valid), 0) AS downvotes_count
       FROM clips
       LEFT JOIN votes ON clips.id = votes.clip_id
+      LEFT JOIN locales ON clips.locale_id = locales.id
+      WHERE locales.name = ?
       GROUP BY clips.id
       HAVING upvotes_count < 2 AND downvotes_count < 2 OR upvotes_count = downvotes_count
       ORDER BY upvotes_count DESC, downvotes_count DESC
       LIMIT ?
     `,
-      [limit]
+      [locale, limit]
     );
     for (const clip of clips) {
       clip.voters = clip.voters ? clip.voters.split(',') : [];
@@ -230,11 +237,13 @@ export default class DB {
 
   async saveClip({
     client_id,
+    locale,
     original_sentence_id,
     path,
     sentence,
   }: {
     client_id: string;
+    locale: string;
     original_sentence_id: string;
     path: string;
     sentence: string;
@@ -246,11 +255,14 @@ export default class DB {
     ]);
     await this.mysql.query(
       `
-        INSERT INTO clips (client_id, original_sentence_id, path, sentence, bucket)
-          (SELECT ?, ?, ?, ?, bucket FROM user_clients WHERE client_id = ? LIMIT 1)
-          ON DUPLICATE KEY UPDATE id = id
+        INSERT IGNORE INTO clips (client_id, original_sentence_id, path, sentence, bucket, locale_id)
+          (
+            SELECT ?, ?, ?, ?,
+              (SELECT bucket FROM user_clients WHERE client_id = ? LIMIT 1),
+              (SELECT id FROM locales WHERE name = ? LIMIT 1)
+          )
       `,
-      [client_id, sentenceId, path, sentence, client_id]
+      [client_id, sentenceId, path, sentence, client_id, locale]
     );
     const [[row]] = await this.mysql.query(
       'SELECT * FROM clips WHERE id = LAST_INSERT_ID()'

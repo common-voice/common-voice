@@ -1,3 +1,4 @@
+const contributableLocales = require('../../../locales/contributable.json') as string[];
 import DB from './model/db';
 import { DBClipWithVoters } from './model/db/tables/clip-table';
 import Cache from './cache';
@@ -13,17 +14,22 @@ import {
  */
 export default class Model {
   db = new DB();
-  clipCache = new Cache(count => this.db.findClipsWithFewVotes(count));
-  sentencesCaches: { [bucket: string]: Cache<string> } = Object.keys(
-    IDEAL_SPLIT
-  ).reduce(
-    (obj, bucket) => ({
-      ...obj,
-      [bucket]: new Cache(count =>
-        this.db.findSentencesWithFewClips(bucket, count)
-      ),
-    }),
-    {}
+  clipCache: Map<string, Cache<DBClipWithVoters>> = new Map(
+    contributableLocales.map(locale => [
+      locale,
+      new Cache(count => this.db.findClipsWithFewVotes(locale, count)),
+    ]) as any
+  );
+  sentencesCaches: Map<string, Map<string, Cache<string>>> = new Map(
+    contributableLocales.map(locale => [
+      locale,
+      new Map(Object.keys(IDEAL_SPLIT).map(bucket => [
+        bucket,
+        new Cache(count =>
+          this.db.findSentencesWithFewClips(bucket, locale, count)
+        ),
+      ]) as any),
+    ]) as any
   );
   clipDistribution: Split = {
     train: 0,
@@ -48,20 +54,28 @@ export default class Model {
    */
   async findEligibleClips(
     client_id: string,
+    locale: string,
     count: number
   ): Promise<DBClipWithVoters[]> {
-    return this.clipCache.takeWhere(
-      clip => clip.client_id !== client_id && !clip.voters.includes(client_id),
-      count
-    );
+    return this.clipCache
+      .get(locale)
+      .takeWhere(
+        clip =>
+          clip.client_id !== client_id && !clip.voters.includes(client_id),
+        count
+      );
   }
 
   async findEligibleSentences(
     client_id: string,
+    locale: string,
     count: number
   ): Promise<string[]> {
     const user = await this.db.getUserClient(client_id);
-    return this.sentencesCaches[user ? user.bucket : 'train'].take(count);
+    const localeCache = this.sentencesCaches.get(locale);
+    return localeCache
+      ? localeCache.get(user ? user.bucket : 'train').take(count)
+      : [];
   }
 
   /**

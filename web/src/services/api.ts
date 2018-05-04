@@ -18,9 +18,6 @@ interface FetchOptions {
 }
 
 const API_PATH = location.origin + '/api/v1';
-const CLIP_PATH = API_PATH + '/clips';
-const SENTENCES_PATH = API_PATH + '/sentences';
-
 export default class API {
   private readonly locale: Locale.State;
   private readonly user: User.State;
@@ -71,12 +68,20 @@ export default class API {
     );
   }
 
+  getLocalePath() {
+    return API_PATH + '/' + this.locale;
+  }
+
+  getClipPath() {
+    return this.getLocalePath() + '/clips';
+  }
+
   fetchRandomSentences(count: number = 1): Promise<string[]> {
-    return this.fetch(`${SENTENCES_PATH}?count=${count}`);
+    return this.fetch(`${this.getLocalePath()}/sentences?count=${count}`);
   }
 
   fetchRandomClips(count: number = 1): Promise<Clip[]> {
-    return this.fetch(`${CLIP_PATH}?count=${count}`);
+    return this.fetch(`${this.getClipPath()}?count=${count}`);
   }
 
   syncDemographics(): Promise<Event> {
@@ -113,7 +118,7 @@ export default class API {
   }
 
   uploadClip(blob: Blob, sentence: string): Promise<void> {
-    return this.fetch(CLIP_PATH, {
+    return this.fetch(this.getClipPath(), {
       method: 'POST',
       headers: {
         'Content-Type': blob.type,
@@ -124,14 +129,14 @@ export default class API {
   }
 
   saveVote(id: string, isValid: boolean): Promise<Event> {
-    return this.fetch(`${CLIP_PATH}/${id}/votes`, {
+    return this.fetch(`${this.getClipPath()}/${id}/votes`, {
       method: 'POST',
       body: { isValid },
     });
   }
 
   fetchValidatedHours(): Promise<number> {
-    return this.fetch(CLIP_PATH + '/validated_hours');
+    return this.fetch(this.getClipPath() + '/validated_hours');
   }
 
   fetchLocaleMessages(locale: string): Promise<string> {
