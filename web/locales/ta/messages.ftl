@@ -125,23 +125,52 @@ profile-keep-data = தரவை வைத்திருக்கவும்
 profile-delete-data = தரவை அழிக்கவும்
 male = ஆண்
 female = பெண்
+# Gender
+other = மற்றவை
+why-profile-title = ஏன் ஒரு சுயவிவரம்?
+why-profile-text = உங்களைப் பற்றி சில தகவல்களை வழங்குவதின் மூலம், பொதுக் குரலில் நீங்கள் சமர்பிக்கும் ஒலித் தரவு பேச்சு கண்டறிதல் இயந்திரங்களுக்கு கூடுதல் பயனுள்ளதாக இருக்கும் அவை இந்த தரவை அவைகளின் துல்லியத்தை மேம்படுத்த பயன்படுத்துகின்றன.
+edit-profile = சுயவிவரத்தைத் திருத்து
+profile-create = சுயவிவரத்தை உருவாக்கு
+profile-create-success = வெற்றி, சுயவிவரம் உருவாக்கப்பட்டது!
+profile-close = மூடு
 
 ## FAQ
 
+faq-title = அடிக்கடி கேட்கப்படும் கேள்விகள்
+faq-what-q = பொதுக் குரல் என்றால் என்ன?
+faq-important-q = அது முக்கியமானது ஏன்?
+faq-get-q = பொதுக் குரல் தரவை நான் எவ்வாறு பெறலாம்?
+faq-mission-q = பொதுக் குரல் மொசில்லா இலக்கின் ஒரு பகுதியாக உள்ளது ஏன்?
+faq-source-q = மூல உரை எங்கிருந்து வருகிறது?
 
 ## Profile
 
+profile-why-title = ஒரு சுயவிவரம் ஏன்?
 
 ## NotFound
 
+notfound-title = காணப்படவில்லை
+notfound-content = நீங்கள் எதைத் தேடுகிறீர்கள் என்று எனக்குத் தெரியவில்லை.
 
 ## Data
 
+data-download-button = பொதுக் குரல் தரவைப் பதிவிறக்குங்கள்
 data-download-yes = ஆம்
 data-download-deny = இல்லை
+data-download-license = உரிமம்: <licenseLink>CC-0</licenseLink>
+data-other-title = பிற குரல் தரவுத்தொகுப்புகள்...
+data-other-goto = { $name } என்பதற்குச் செல்க
+data-other-download = தரவைப் பதிவிறக்கு
+data-other-ted-name = TED-LIUM கார்பசு
+data-bundle-button = தரவுத்தொகுப்பு கட்டினைப் பதிவிறக்கவும்
+license = உரிமம்: <licenseLink>{ $license }</licenseLink>
+license-mixed = கலவை
 
 ## Record Page
 
+record-must-allow-microphone = ஒலிவாங்கி அணுகலை நீங்கள் அனுமதிக்க வேண்டும்.
+record-retry = மறுமுயற்சி
+record-error-too-short = பதிவு மிகவும் குறுகியதாக உள்ளது.
 
 ## Download Modal
 
