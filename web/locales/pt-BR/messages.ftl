@@ -23,6 +23,8 @@ cy = Galês
 da = Dinamarquês
 de = Alemão
 el = Grego
+en = Inglês
+es = Espanhol
 es-AR = Espanhol (Argentina)
 es-CL = Espanhol (Chile)
 fr = Francês
@@ -32,6 +34,7 @@ he = Hebraico
 hu = Húngaro
 id = Indonésio
 it = Italiano
+ka = Georgiano
 ko = Coreano
 mk = Macedônio
 nl = Holandês
@@ -96,7 +99,6 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Próximo objetivo: { $goal }
-status-more-soon = Mais idiomas em breve!
 english = Inglês
 
 ## ProfileForm
