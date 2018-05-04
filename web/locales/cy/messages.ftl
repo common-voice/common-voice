@@ -50,6 +50,7 @@ sk = Slofaceg
 sq = Albaneg
 sv-SE = Swedeg
 ta = Tamil
+te = Telugu
 th = Thai
 tr = Twrceg
 tt = Tartareg
@@ -108,7 +109,6 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Nod Nesaf: { $goal }
-status-more-soon = Mae rhagor o ieithoedd ar eu ffordd!
 english = Saesneg
 
 ## ProfileForm
