@@ -50,6 +50,7 @@ sk = Slovacco
 sq = Albanese
 sv-SE = Svedese
 ta = Tamil
+te = Telugu
 th = Tailandese
 tr = Turco
 tt = Tataro
