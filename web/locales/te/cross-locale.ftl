@@ -3,6 +3,7 @@
 get-involved-button = పాలుపంచుకోండి
 get-involved-cancel = నిష్క్రమించు
 get-involved-title = { $lang }కి సహాయపడు
+get-involved-form-title = { $lang } నవీకరణల కోసం సైన్ అప్ చేయండి:
 get-involved-email =
     .label = ఇమెయిల్
 get-involved-submit = సమర్పించు
