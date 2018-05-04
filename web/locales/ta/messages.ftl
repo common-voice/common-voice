@@ -169,14 +169,35 @@ license-mixed = கலவை
 ## Record Page
 
 record-must-allow-microphone = ஒலிவாங்கி அணுகலை நீங்கள் அனுமதிக்க வேண்டும்.
+record-cancel = மறுபதிவினை இரத்து செய்
 record-retry = மறுமுயற்சி
 record-error-too-short = பதிவு மிகவும் குறுகியதாக உள்ளது.
+record-error-too-long = பதிவு மிக நீளமாக உள்ளது.
+record-error-too-quiet = பதிவு மிகவும் அமைதியாக உள்ளது.
+record-submit-success = சமர்பிப்பு வெற்றி! மீண்டும் பதிவு செய்யவா?
+record-cancel = மறுபதிவினை இரத்து செய்
+terms-agree = நான் ஏற்கிறேன்
+terms-disagree = நான் ஏற்கவில்லை
+review-aborted = பதிவேற்றம் கைவிடப்பட்டது. உங்கள் பதிவுகளை அழிக்கவா?
+review-submit-title = மீளாய்வு செய்து சமர்ப்பியுங்கள்
+review-recording = மீளாய்வு
+review-rerecord = மறு-பதிவு
+review-cancel = சமர்ப்பிப்பு ரத்துசெய்
+review-keep-recordings = பதிவுகளை வைத்திரு
+review-delete-recordings = என் பதிவுகளை நீக்கு
 
 ## Download Modal
 
+download-title = உங்கள் பதிவிறக்கம் தொடங்கியது.
+download-form-email =
+    .label = உங்கள் மின்னஞ்சலை உள்ளிடுங்கள்
+    .value = நன்றி, நாங்கள் தொடர்பில் இருப்போம்.
+download-no = பரவாயில்லை நன்றி
 
 ## Contact Modal
 
+contact-title = தொடர்பு படிவம்
+contact-cancel = ரத்துசெய்
 contact-form-name =
     .label = பெயர்
 contact-form-message =
@@ -185,8 +206,17 @@ contact-required = *அவசியம்
 
 ## Request Language Modal
 
+request-language-title = மொழி கோரிக்கை
+request-language-cancel = படிவத்திலிருந்து வெளியேறு
 request-language-form-language =
     .label = மொழி
+request-language-success-title = மொழி கோரிக்கை வெற்றிகரமாக சமர்ப்பிக்கப்பட்டது, நன்றி.
 
 ## Languages Overview
 
+language-section-in-progress = செயல்பாட்டிலுள்ளது
+language-section-launched = அறிமுகப்படுத்தப்பட்டது
+languages-show-more = மேலும் பார்க்க
+languages-show-less = குறைவாகப் பார்க்க
+language-speakers = பேசியவர்கள்
+language-total-progress = மொத்தம்
