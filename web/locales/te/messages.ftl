@@ -1,5 +1,6 @@
 ## General
 
+return-to-cv = Common Voiceకు తిరిగి వెళ్ళు
 email-input =
     .label = ఇమెయిల్
 submit-form-action = సమర్పించు
@@ -13,6 +14,7 @@ audio-loading-error = క్షమించాలి! మేము మా ఆడ
 
 bn = బెంగాలి
 ca = కాటలాన్
+cs = చెక్
 cv = ఛువాష్
 cy = వెల్ష్
 da = డానిష్
@@ -20,6 +22,8 @@ de = జర్మన్
 el = గ్రీకు
 en = ఆంగ్లం
 es = స్పానిష్
+es-AR = స్పానిష్ (అర్జెంటిన)
+es-CL = స్పానిష్ (చిలీ)
 fr = ఫ్రెంచ్
 fy-NL = ఫ్రిసియన్
 ga-IE = ఐరిష్
@@ -31,6 +35,7 @@ ka = జోర్జియన్
 ko = కొరియన్
 kw = కార్నిష్
 mk = మెసడోనియన్
+nb-NO = నార్వేజియన్ బొక్మాల్
 nl = డచ్
 nn-NO = నార్వేజియన్ నైనోర్‌స్క్
 or = ఒడియా
@@ -70,6 +75,7 @@ show-wall-of-text = మరింత చదవండి
 help-us-title = వాక్యాలు ధృవీకరించడానికి మాకు సహాయం చెయ్యండి!
 vote-yes = అవును
 vote-no = కాదు
+request-language-text = ఇంకా Common Voiceలో మీ భాషను చూడలేదా?
 request-language-button = ఒక భాషని అభ్యర్థించండి
 
 ## ProjectStatus
@@ -114,6 +120,9 @@ profile-close = మూసివేయి
 ## FAQ
 
 faq-title = తరచూ అడిగే ప్రశ్నలు
+faq-what-q = Common Voice అంటే ఏంటి?
+faq-important-q = ఇది ఎందుకు ముఖ్యమైనది?
+faq-get-q = నేను Common Voice డేటాను ఎలా పొందగలను?
 
 ## Profile
 
@@ -146,6 +155,9 @@ review-delete-recordings = నా రికార్డింగ్లను త
 
 ## Download Modal
 
+download-form-email =
+    .label = మీ ఇమెయిల్ను నమోదు చేయండి
+    .value = ధన్యవాదాలు, మేము మిమల్ని కలుస్తుంటాము.
 download-no = అడిగినందుకు ధన్యవాదాలు, వద్దు
 
 ## Contact Modal
