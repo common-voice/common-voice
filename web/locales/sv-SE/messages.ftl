@@ -253,5 +253,5 @@ language-section-in-progress = Pågående
 language-section-launched = Lanserad
 languages-show-more = Läs mer
 languages-show-less = Visa mindre
-language-speakers = Högtalare
+language-speakers = Talare
 language-total-progress = Totalt
