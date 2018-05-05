@@ -189,12 +189,38 @@ review-delete-recordings = Видалити мої записи
 
 ## Download Modal
 
+download-title = Ваше завантаження почалося.
+download-helpus = Допоможіть нам створити спільноту навколо технології розпізнавання голосу. Будьте на зв'язку через електронну пошту.
+download-form-email =
+    .label = Введіть свою е-пошту
+    .value = Дякуємо! Ми будемо тримати зв'язок.
+download-back = Повернутися до наборів даних Common Voice
+download-no = Ні, дякую
 
 ## Contact Modal
 
+contact-title = Форма зв'язку
+contact-cancel = Скасувати
+contact-form-name =
+    .label = Ім'я
+contact-form-message =
+    .label = Повідомлення
+contact-required = *обов'язково
 
 ## Request Language Modal
 
+request-language-title = Запит мови
+request-language-cancel = Вийти з форми
+request-language-form-language =
+    .label = Мова
+request-language-success-title = Запит мови успішно відправлений. Дякуємо вам.
+request-language-success-content = Ми дуже скоро зв'яжемося з вами та розповімо про те, як додати вашу мову до проекту Common Voice.
 
 ## Languages Overview
 
+language-section-in-progress = В процесі
+language-section-launched = Запущено
+languages-show-more = Більше мов
+languages-show-less = Менше мов
+language-speakers = Носіїв
+language-total-progress = Разом
