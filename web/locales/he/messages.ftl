@@ -1,3 +1,21 @@
+## General
+
+yes-receive-emails = כן, נא לשלוח לי עדכונים בדוא״ל על המיזם Common Voice.
+stayintouch = אנו ב־Mozilla בונים קהילה סביב טכנולוגיות קול. אנו רוצים להישאר אתך בקשר ולעניין אותך בעדכונים, מקורות נתונים חדשים ולשמוע עוד על אופן השימוש שלך בנתונים האלה.
+privacy-info = אנו מבטיחים לטפל במידע שלך בזהירות רבה. ניתן לקרוא עוד ב<privacyLink>מדיניות הפרטיות</privacyLink> שלנו.
+return-to-cv = חזרה אל Common Voice
+email-input =
+    .label = דוא״ל
+submit-form-action = שליחה
+loading = בטעינה…
+
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+
+
+## Languages
+
+bn = בנגלית
+
 ## Layout
 
 speak = דברו
@@ -26,8 +44,8 @@ help-us-explain = עליך ללחוץ על נגינה ולהאזין: האם ה�
 
 status-title = מצב המיזם הכולל: כאן ניתן לראות כמה התקדמנו!
 status-contribute = תרמו את הקול שלכם
-loading = בטעינה…
-status-hours = { $hours ->
+status-hours =
+    { $hours ->
         [one] שעה אחת עברה אימות עד כה!
         [2] שעתיים עברו אימות עד כה!
        *[other] { $hours } שעות עברו אימות עד כה!
@@ -35,15 +53,11 @@ status-hours = { $hours ->
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = היעד הבא: { $goal }
-status-more-soon = שפות נוספות מגיעות בקרוב!
 
 ## ProfileForm
 
-email-input =
-    .label = דוא״ל
 profile-form-username =
     .label = שם משתמש
-yes-receive-emails = כן, נא לשלוח לי עדכונים בדוא״ל על המיזם Common Voice.
 profile-form-language =
     .label = שפה
 profile-form-more-languages = שפות נוספות מגיעות בקרוב!
@@ -84,30 +98,6 @@ profile-why-content = על ידי כך שנדע עליך יותר מידע, נת
 notfound-title = לא נמצא
 notfound-content = לצערי לא ברור לי מה חיפשת.
 
-## Privacy
-
-privacy-title = הצהרת פרטיות של Common Voice
-privacy-effective = תקף החל מ־{ DATETIME($date, month: "long", year: "numeric", day: "numeric") }
-privacy-policy = כאשר Mozilla (אנחנו), מקבלים ממך מידע, <policy>מדיניות הפרטיות של Mozilla</policy> מתארת את אופן הטיפול שלנו במידע.
-privacy-data-demographic = <name>נתונים דמוגרפיים.</name> ניתן לשלוח לנו נתונים כגון המבטא, הגיל והמגדר שלך. נתונים אלו יסייעו לנו ולחוקרים נוספים לשפר וליצור טכנולוגיות וכלים לטובת המרת דיבור לטקסט.
-privacy-data-account = <name>נתוני חשבון.</name> ניתן ליצור חשבון, שבמקרה שכזה אנו נקבל את כתובת הדוא״ל שלך. הכתובת תשויך לנתוני האינטראקציה והדמוגרפיה שלך אך לא תשותף עם הציבור.
-privacy-data-recordings = <name>הקלטות קוליות.</name> הקלטות קוליות, לצד נתונים דמוגרפיים תואמים, מונגשים דרך מסד הנתונים של Common Voice לצריכה ולשימוש הציבור.
-privacy-data-interaction = <name>נתוני אינטראקציה.</name> אנו משתמשים ב־Google Analytics כדי להבין את האינטראקציה שלך מול Common Voice בצורה טובה יותר. למשל, נתונים אלו כוללים מספר דגימות קול אותן הקלטת או השמעת, אינטראקציות עם כפתורים ותפריטים, משך ההפעלה.
-privacy-data-technical = <name>נתונים טכניים.</name> באמצעות Google Analytics, אנו אוספים את כתובות ואת כותרות העמודים בעת ביקורך ב־Common Voice. אנו אוספים את פרטי הדפדפן, גודל התצוגה ורזולוציית המסך. כמו כן, אנו אוספים את המיקום ואת הגדרות השפה בדפדפן שלך.
-privacy-more = <more>מידע נוסף</more>
-
-## Terms
-
-terms-title = התנאים המשפטיים של Common Voice
-terms-effective = תקף החל מ־ { DATETIME($date, month: "long", year: "numeric", day: "numeric") }
-terms-eligibility-title = זכאות
-terms-eligibility-content = עליך להיות מעל גיל 13 או לקבל הסכמת ופיקוח מצד הורה או משגיח להשתתף במיזם מיקור המונים.
-terms-privacy-title = פרטיות
-terms-privacy-content = <privacyLink>הצהרת הפרטיות</privacyLink> שלנו מסבירה איך אנחנו מקבלים ומטפלים בנתונים שלך.
-terms-contributions-title = התרומה שלך ושחרור הזכויות
-terms-communications-title = יחסי ציבור
-terms-general-title = כללי
-
 ## Data
 
 data-download-button = הורדת נתוני Common Voice
@@ -133,6 +123,7 @@ record-platform-not-supported = הפלטפורמה שלך אינה נתמכת ב
 record-platform-not-supported-desktop = במחשבים שולחניים, ניתן להוריד את העדכני ביותר:
 record-platform-not-supported-ios = משתמשי <bold>iOS</bold> יכולים להוריד את היישומון החינמי שלנו:
 record-must-allow-microphone = עליך לאפשר גישה למיקרופון.
+record-cancel = ביטול הקלטה מחדש
 record-error-too-short = ההקלטה הייתה קצרה מדי.
 record-error-too-long = ההקלטה הייתה ארוכה מדי.
 record-error-too-quiet = ההקלטה הייתה שקטה מדי.
@@ -156,10 +147,8 @@ download-form-email =
     .value = תודה, נהיה בקשר.
 download-back = חזרה לסדרות הנתונים של Common Voice
 download-no = לא תודה
-stayintouch = אנו ב־Mozilla בונים קהילה סביב טכנולוגיות קול. אנו רוצים להישאר אתך בקשר ולעניין אותך בעדכונים, מקורות נתונים חדשים ולשמוע עוד על אופן השימוש שלך בנתונים האלה.
-privacy-info = אנו מבטיחים לטפל במידע שלך בזהירות רבה. ניתן לקרוא עוד ב<privacyLink>מדיניות הפרטיות</privacyLink> שלנו.
 
-## Contact
+## Contact Modal
 
 contact-title = טופס יצירת קשר
 contact-cancel = ביטול
@@ -168,4 +157,9 @@ contact-form-name =
 contact-form-message =
     .label = הודעה
 contact-required = *נדרש
-submit-form-action = שליחה
+
+## Request Language Modal
+
+
+## Languages Overview
+
