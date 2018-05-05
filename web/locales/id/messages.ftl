@@ -22,9 +22,9 @@ cv = Bahasa Chuvash
 cy = Bahasa Wales
 da = Bahasa Denmark
 de = Bahasa Jerman
-e = e
-E = E
 el = Bahasa Yunani
+en = Bahasa Inggris
+es = Bahasa Spanyol
 es-AR = Bahasa Spanyol (Argentina)
 es-CL = Bahasa Spanyol (Chili)
 fr = Bahasa Perancis
@@ -36,7 +36,9 @@ id = Bahasa Indonesia
 it = Bahasa Italia
 ka = Bahasa Georgia
 ko = Bahasa Korea
+kw = Bahasa Kornish
 mk = Bahasa Makedonia
+nb-NO = Bahasa Bokmal (Norwegia)
 nl = Bahasa Belanda
 nn-NO = Bahasa Nynorsk (Norwegia)
 or = Bahasa Oriya
@@ -48,6 +50,7 @@ sk = Bahasa Slowakia
 sq = Bahasa Albania
 sv-SE = Bahasa Swedia
 ta = Bahasa Tamil
+te = Bahasa Telugu
 th = Bahasa Thai
 tr = Bahasa Turki
 tt = Bahasa Tatar
@@ -101,7 +104,6 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Tujuan Berikutnya: { $goal }
-status-more-soon = Segera hadir dalam lebih banyak bahasa!
 english = Bahasa Inggris
 
 ## ProfileForm
@@ -133,6 +135,7 @@ edit-profile = Ubah Profil
 profile-create = Buat profil
 profile-create-success = Berhasil, profil telah dibuat!
 profile-close = Tutup
+profile-clear-modal = Data demografis ini tidak akan dikumpulkan bersama dengan rekaman berikutnya jika Anda menghapus data profil Anda dari Common Voice.
 
 ## FAQ
 
