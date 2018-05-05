@@ -1,6 +1,7 @@
 ## General
 
 yes-receive-emails = Evet, bana e-posta gönderebilirsiniz. Common Voice projesiyle ilgili gelişmeleri öğrenmek istiyorum.
+privacy-info = Bilgilerinizi özenle koruyacağımıza söz veriyoruz. <privacyLink>Gizlilik Bildirimimizde</privacyLink> daha fazla bilgi bulabilirsiniz.
 return-to-cv = Common Voice’a geri dön
 email-input =
     .label = E-posta
@@ -21,6 +22,8 @@ cy = Galce
 da = Danca
 de = Almanca
 el = Yunanca
+en = İngilizce
+es = İspanyolca
 es-AR = İspanyolca (Arjantin)
 es-CL = İspanyolca (Şili)
 fr = Fransızca
@@ -42,6 +45,7 @@ sk = Slovakça
 sq = Arnavutça
 sv-SE = İsveççe
 ta = Tamilce
+te = Telugu
 th = Tayca
 tr = Türkçe
 tt = Tatarca
@@ -84,10 +88,14 @@ request-language-button = Yeni dil iste
 
 status-title = Projenin genel durumu: Kat ettiğimiz yolu görün!
 status-contribute = Sesinle katkı sağla
+status-hours =
+    { $hours ->
+        [one] Şu ana kadar { $hours } saatlik veri doğrulandı!
+       *[other] Şu ana kadar { $hours } saatlik veri doğrulandı!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Sonraki hedef: { $goal }
-status-more-soon = Yakında başka diller de geliyor!
 english = İngilizce
 
 ## ProfileForm
