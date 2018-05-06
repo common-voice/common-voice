@@ -22,9 +22,9 @@ cv = Чуваш
 cy = Велшки
 da = Дански
 de = Германски
-e = n
-E = n
 el = Грчки
+en = Англиски
+es = Шпански
 es-AR = Шпански (Аргентина)
 es-CL = Шпански (Чиле)
 fr = Француски
@@ -36,6 +36,7 @@ id = Индонезиски
 it = Италјански
 ka = Грузиски
 ko = Корејски
+kw = Корнишки
 mk = Македонски
 nl = Холандски
 nn-NO = Норвешки Нинорск
@@ -48,6 +49,7 @@ sk = Словачки
 sq = Албански
 sv-SE = Шведски
 ta = Тамил
+te = Телугу
 th = Таи
 tr = Турски
 tt = Татарски
@@ -103,7 +105,6 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Следна цел: { $goal }
-status-more-soon = Повеќе јазици наскоро!
 english = Англиски
 
 ## ProfileForm
