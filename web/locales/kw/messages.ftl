@@ -50,6 +50,7 @@ sk = Slovakek
 sq = Albaniek
 sv-SE = Swedek
 ta = Tamil
+te = Telugu
 th = Thai
 tr = Turkek
 tt = Tatar
@@ -155,6 +156,12 @@ faq-mission-a = Mozilla re ros dhodho ev y honen an ober a witha an wias ygor ha
 faq-native-q = My a wor kowsel { $lang }, mes nyns yw ow mammyeth hag yma lesyeth dhymm, eus hwans dhywgh a'm lev hwath?
 faq-native-a = Eus, yn tevri yma hwans dhyn a'gas lev! Rann a'n amkan a Common Voice yw kuntel kemmys lesyethow dyffrans dell yllyn, may hallo jynnow-amontya konvedhes dhe well <bold>pubonen</bold> pan wrellons kowsel.
 faq-firefox-q = A vydh kows-dhe-dekst, dre Common Voice, rann a Firefox?
+faq-firefox-a = Yma potencyal heb finweth dhe Common Voice hag yth eson fest ow hwithra ynterfassow lev yn meur a askorrasow Mozilla, Firefox y'ga mysk.
+faq-quality-q = Pyth yw an nivel res a gwalita rag usya an son?
+faq-quality-a = Yma hwans dhyn kwalita an son dhe dhastewynnya an kwalita a wra jynn kows-dhe-dekst gweles y'n gwylvos. Ytho, yma hwans dhyn a eghennow divers. Hemm a dhysk dhe'n jynn kows-dhe-dekst handla studhyow dyffrans—kowsel kilva, tros kerri, tros gwynsellow—heb gwallow.
+faq-hours-q = Prag yth yw 10,000 our an amkan rag kuntel son?
+faq-hours-a = Hemm yw dre vras an niver a ourys res rag dyski dhe system STT askorrans.
+faq-source-q = A ble y teu an tekst pennfenten?
 
 ## Profile
 
