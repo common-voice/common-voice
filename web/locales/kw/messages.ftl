@@ -154,6 +154,7 @@ faq-mission-q = Prag yth yw Common Voice rann a Mozilla?
 faq-mission-a = Mozilla re ros dhodho ev y honen an ober a witha an wias ygor ha hedhadow dhe bubonen. Rag y wul, res yw dhyn ri gallos dhe dhisplegyoryon wias dre ragdresow kepar ha Common Voice. Gans an lesans a deknegiethow gwias dres towlennow arbennek, ni a grys bos res dhedha servya pub usyer oll yn ekwal. Ni a wel odhom a voy yethow, lesyethow ha demografegow ha tus ow trehevel hag ow previ teknegiethow lev. Yma hwans dhe Mozilla gweles kesrosewyth yagh ha byw. Henn a styr ri dhe dhisplegyoryon nowydh hedhas dhe dhata lev may hyllons drehevel ragdresow nowydh hag yntanus. Common Voice a vydh asnodh poblek a wra gweres bagasow Mozilla ha displegyoryon a-dro dhe'n bys.
 faq-native-q = My a wor kowsel { $lang }, mes nyns yw ow mammyeth hag yma lesyeth dhymm, eus hwans dhywgh a'm lev hwath?
 faq-native-a = Eus, yn tevri yma hwans dhyn a'gas lev! Rann a'n amkan a Common Voice yw kuntel kemmys lesyethow dyffrans dell yllyn, may hallo jynnow-amontya konvedhes dhe well <bold>pubonen</bold> pan wrellons kowsel.
+faq-firefox-q = A vydh kows-dhe-dekst, dre Common Voice, rann a Firefox?
 
 ## Profile
 
