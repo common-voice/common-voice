@@ -162,15 +162,26 @@ faq-quality-a = Yma hwans dhyn kwalita an son dhe dhastewynnya an kwalita a wra 
 faq-hours-q = Prag yth yw 10,000 our an amkan rag kuntel son?
 faq-hours-a = Hemm yw dre vras an niver a ourys res rag dyski dhe system STT askorrans.
 faq-source-q = A ble y teu an tekst pennfenten?
+faq-source-a1 = An lavarow a-lemmyn a dheu a argevrohow gans kevriysi, keffrys ha keskows dhyworth skrifennow fylm y'n arlotteth boblek kepar hag <italic>It's a Wonderful Life.</italic>
+faq-source-a2 = Hwi a yll gweles agan lavarow pennfenten y'n <dataLink>blegel GitHub ma</dataLink>.
 
 ## Profile
 
+profile-why-title = Praga gwul profil?
+profile-why-content = Dre brovia nebes kedhlow a-dro dhe'gas honen, an data son a dhanvenowgh dhe Common Voice a vydh moy dhe les rag jynnow aswon kows a wra usya an data ma rag gwellhe aga hewerder.
 
 ## NotFound
 
+notfound-title = Ny veu kevys
+notfound-content = Drog yw genev, ny wonn pyth esowgh ow hwilas.
 
 ## Data
 
+data-download-button = Iskarga data Common Voice
+data-download-yes = Da
+data-download-deny = Na
+data-download-license = Leshyans: <licenseLink>CC-0</licenseLink>
+data-download-modal = Parys owgh dhe dhalleth iskargans a <size>{ $size }GB</size>, a vynnowgh pesya?
 
 ## Record Page
 
