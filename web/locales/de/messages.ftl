@@ -249,8 +249,8 @@ request-language-success-content = Wir melden uns bald mit weiteren Informatione
 
 ## Languages Overview
 
-language-section-in-progress = In Arbeit
-language-section-launched = Abgeschlossen
+language-section-in-progress = Vorbereitungsphase
+language-section-launched = Aufnahmephase
 languages-show-more = Mehr anzeigen
 languages-show-less = Weniger anzeigen
 language-speakers = Sprecher
