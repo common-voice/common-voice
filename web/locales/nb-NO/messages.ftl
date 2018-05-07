@@ -35,6 +35,7 @@ ko = Koreansk
 kw = Cornisk
 mk = Makedonsk
 nb-NO = Norsk (bokmål)
+ne-NP = Nepalsk
 nl = Nederlandsk
 nn-NO = Norsk (nynorsk)
 or = Oriya
@@ -44,6 +45,7 @@ ro = Rumensk
 ru = Russisk
 sk = Slovakisk
 sq = Albansk
+sr = Serbisk
 sv-SE = Svensk
 ta = Tamilsk
 te = Telugu
@@ -153,11 +155,13 @@ terms-disagree = Jeg godtar ikke
 
 ## Contact Modal
 
+contact-title = Kontaktskjema
 contact-cancel = Avbryt
 contact-form-name =
     .label = Navn
 contact-form-message =
     .label = Melding
+contact-required = *påkrevd
 
 ## Request Language Modal
 
