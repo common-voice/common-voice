@@ -72,6 +72,7 @@ back-top = తిరిగి పైకి
 
 ## Home Page
 
+home-cta = మాట్లాడండి, ఇక్కడ తోడ్పడండి!
 show-wall-of-text = మరింత చదవండి
 help-us-title = వాక్యాలు ధృవీకరించడానికి మాకు సహాయం చెయ్యండి!
 vote-yes = అవును
@@ -141,18 +142,23 @@ notfound-title = కనబడలేదు
 
 data-download-yes = అవును
 data-download-deny = కాదు
+data-other-goto = { $name }కు వెళ్ళండి
+data-other-download = డేటాను దింపుకోండి
 license = లైసెన్సు: <licenseLink>{ $license }</licenseLink>
 license-mixed = మిశ్రమం
 
 ## Record Page
 
+record-cancel = రీ-రికార్డింగ్‌ను రద్దుచేయి
 record-retry = తిరిగిప్రయత్నించు
 record-error-too-short = రికార్డింగ్ చాలా చిన్నగా ఉంది.
 record-error-too-long = రికార్డింగ్ చాలా పొడవుగా ఉంది.
 record-error-too-quiet = రికార్డింగ్ చాలా నిశ్శబ్దంగా ఉంది.
 record-submit-success = విజయవంతంగా సమర్పించబడింది! మళ్ళీ రికార్డ్ చెయ్యాలనుకుంటున్నారా?
+record-cancel = రీ-రికార్డింగ్‌ను రద్దుచేయి
 terms-agree = నేను అంగేకరిస్తున్నాను
 terms-disagree = నేను అంగీకరించను
+review-submit-title = పరిశీలించి సమర్పించండి
 review-recording = సమీక్షించు
 review-rerecord = తిరిగి రికార్డ్ చేయి
 review-cancel = సమర్పణను రద్దు చేయండి
@@ -161,6 +167,7 @@ review-delete-recordings = నా రికార్డింగ్లను త
 
 ## Download Modal
 
+download-title = మీ దింపుకోలు మొదలయింది.
 download-form-email =
     .label = మీ ఇమెయిల్ను నమోదు చేయండి
     .value = ధన్యవాదాలు, మేము మిమల్ని కలుస్తుంటాము.
