@@ -9,5 +9,6 @@ get-involved-email =
     .label = ఈమెయిలు
 get-involved-opt-in = అవును, నాకు ఈమెయిళ్ళు పంపండి. కామన్ వాయిస్‌లో ఈ భాష పురోగతిని నేను ఎప్పటికప్పుడు తెలుసుకోవాలనుకుంటున్నాను.
 get-involved-submit = సమర్పించు
+get-involved-privacy-info = మేము మీ సమాచారాన్ని అతి జాగ్రత్తతో చూసుకుంటామని హామీ ఇస్తున్నాము. మరింత తెలుసుకునేందుకు మా <privacyLink>ప్రివసీ నోటీసు</privacyLink>ను చూడండి.
 get-involved-success-title = మీరు విజయవంతంగా { $language }కు తోడ్పడే జట్టులో చేరారు. కృతజ్ఞతలు.
 get-involved-return-to-languages = భాషలకు తిరిగి వెళ్ళు

@@ -1,6 +1,7 @@
 ## General
 
 yes-receive-emails = అవును, నాకు ఈమెయిళ్ళు పంపండి. నేను కామన్ వాయిస్ ప్రాజెక్ట్ గురించి తెలుసుకోవాలనుకుంటున్నాను.
+privacy-info = మేము మీ సమాచారాన్ని అతి జాగ్రత్తతో చూసుకుంటామని హామీ ఇస్తున్నాము. మరింత తెలుసుకునేందుకు మా <privacyLink>ప్రివసీ నోటీసు</privacyLink>ను చదవండి.
 return-to-cv = Common Voiceకు తిరిగి వెళ్ళు
 email-input =
     .label = ఈమెయిలు
@@ -71,6 +72,7 @@ privacy = గోప్యత
 terms = షరతులు
 cookies = కుకీలు
 faq = తరచుగా అడిగే ప్రశ్నలు
+content-license-text = సమాచారం <licenseLink>క్రియేటివ్ కామన్స్ లైసెన్స్</licenseLink> కింద లభ్యం.
 back-top = తిరిగి పైకి
 
 ## Home Page
@@ -132,6 +134,7 @@ faq-title = తరచూ అడిగే ప్రశ్నలు
 faq-what-q = Common Voice అంటే ఏమిటి?
 faq-important-q = ఇది ఎందుకు ముఖ్యమైనది?
 faq-get-q = నేను Common Voice డేటాను ఎలా పొందగలను?
+faq-source-a2 = మీరు <dataLink> ఈ GitHub ఫోల్డర్ </ dataLink> లో మా మూల వ్యాక్యాలు చూడవచ్చు.
 
 ## Profile
 
@@ -152,6 +155,7 @@ data-other-goto = { $name }కు వెళ్ళండి
 data-other-download = డేటాను దింపుకోండి
 data-other-ted-name = TED-LIUM కార్పస్
 data-other-tatoeba-description = Tatoeba అనేది భాష నేర్చు కోవటం కోసం వాక్యాలు, అనువాదాలు మరియు మాట్లాడే ఆడియోల పెద్ద డేటాబేస్. ఈ దింపుకోలు సమూహం రికార్డ్ చేసిన మాట్లాడే ఆంగ్లం కలిగి ఉన్నది.
+data-bundle-button = డేటాసెట్ బండిల్‌ను దింపుకోండి
 data-bundle-description = Common Voice డేటా మరియు పైన ఉన్న అన్ని ఇతర వాయిస్ డేటాసెట్లు.
 license = లైసెన్సు: <licenseLink>{ $license }</licenseLink>
 license-mixed = మిశ్రమం
@@ -160,6 +164,7 @@ license-mixed = మిశ్రమం
 
 record-platform-not-supported = మమ్మల్ని క్షమించండి, కానీ మీ ప్లాట్ఫాంకి  ప్రస్తుతం మద్దతు లేదు.
 record-platform-not-supported-desktop = డెస్కుటాపు కంప్యూటర్లలో, మీరు తాజావి డౌన్లోడ్ చేసుకోవచ్చు:
+record-platform-not-supported-ios = <bold>ఐఓఎస్</bold> వాడుకరులు మా ఉచిత అనువర్తనాన్ని దింపుకోవచ్చు:
 record-must-allow-microphone = మీరు మైక్రోఫోన్ వినడానికి అనుమతించాలి.
 record-cancel = రీ-రికార్డింగ్‌ను రద్దుచేయి
 record-retry = తిరిగిప్రయత్నించు
