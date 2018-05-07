@@ -71,22 +71,20 @@ export default class Model {
     locale: string,
     count: number
   ): Promise<string[]> {
-    const user = await this.db.getUserClient(client_id);
+    const bucket = await this.db.getOrSetUserBucket(
+      client_id,
+      locale,
+      randomBucketFromDistribution(this.clipDistribution)
+    );
     const localeCache = this.sentencesCaches.get(locale);
-    return localeCache
-      ? localeCache.get(user ? user.bucket : 'train').take(count)
-      : [];
+    return localeCache ? localeCache.get(bucket || 'train').take(count) : [];
   }
 
   /**
    * Update current user
    */
   async syncUser(uid: string, data: any): Promise<void> {
-    return this.db.updateUser(
-      uid,
-      data,
-      randomBucketFromDistribution(this.clipDistribution)
-    );
+    return this.db.updateUser(uid, data);
   }
 
   /**
