@@ -129,6 +129,7 @@ footer {
         justify-content: space-between;
 
         @media (--md-up) {
+            max-width: 18rem;
             margin-right: 4rem;
             margin-top: 0;
             padding: 0;
