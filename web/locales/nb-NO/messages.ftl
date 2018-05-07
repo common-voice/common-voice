@@ -136,9 +136,11 @@ notfound-content = Jeg er redd for at jeg ikke forstår hva du ser etter.
 
 ## Data
 
+data-download-button = Last ned data fra Common Voice
 data-download-yes = Ja
 data-download-deny = Nei
 data-download-license = Lisens: <licenseLink>CC-0</licenseLink>
+data-download-modal = Du er i ferd med å starte en nedlasting av <size>{ $size }GB</size>. Vil du fortsette?
 data-other-goto = Gå til { $name }
 data-other-download = Last ned data
 license = Lisens: <licenseLink>{ $license }</licenseLink>
