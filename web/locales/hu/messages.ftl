@@ -83,7 +83,7 @@ back-top = Vissza a tetejére
 home-title = A Common Voice projekt egy Mozilla kezdeményezés arra, hogy segítsük a gépeket megtanítani, hogyan beszélnek az emberek. 
 home-cta = Szólaljon meg, működjön közre.
 wall-of-text-start = A beszéd természetes, a beszéd emberi. Ezért lelkesedünk egy gépeink számára használható beszédtechnológia létrehozásáért. Azonban ehhez hatalmas mennyiségű beszédmintára van szükség.
-wall-of-text-more-mobile = A nagyvállalatok által használt hangminták a legtöbb ember számára nem elérhetőek. Szerintünk ez elfojtja az innovációt. Ezért létrehoztuk a Common Voice projektet, hogy segítsük a hangfelismerési technológiát mindenki számára hozzáférhetővé tenni.
+wall-of-text-more-mobile = A nagyvállalatok által használt hangminták a legtöbb ember számára nem érhetőek el. Szerintünk ez elfojtja az innovációt. Ezért létrehoztuk a Common Voice projektet, hogy segítsük a hangfelismerési technológiát mindenki számára hozzáférhetővé tenni.
 wall-of-text-more-desktop = Most adhatja a hangját, hogy segítsen nekünk egy nyílt forrású hang adatbázist építeni, amit bárki szabadon használhat arra, hogy innovatív alkalmazásokat készítsen eszközökre és a webre.<lineBreak></lineBreak>Olvasson fel egy mondatot, hogy segítse a gépeket megtanulni, hogyan beszélnek az emberek. Ellenőrizze mások hozzájárulásait, javítva a minőséget. Ilyen egyszerű! 
 show-wall-of-text = Bővebben
 help-us-title = Segítsen jóváhagyni a mondatokat.
@@ -95,7 +95,7 @@ request-language-button = Nyelv kérése
 
 ## ProjectStatus
 
-status-title = Összesített projekt státusz: nézze meg hol tartunk.
+status-title = Projekt összesített állapota: nézze meg hol tartunk.
 status-contribute = Adja a hangját
 status-hours =
     { $hours ->
