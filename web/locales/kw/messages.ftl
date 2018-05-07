@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Danvenowgh dhymm ebostow. Yma hwans dhymm godhvos moy a-dro dhe'n towl Common Voice.
+yes-receive-emails = Mynnav, danvenowgh dhymm ebostow. Yma hwans dhymm godhvos moy a-dro dhe'n towl Common Voice.
 stayintouch = Yth eson ow trehevel kemeneth a-dro dhe deknegieth lev. Hwans yw dhyn kestava gans nowedhansow, pennfentynnyow data nowydh ha rag klowes moy a-dro dhe'n fordh mayth esowgh owth usya an data ma.
 privacy-info = Ni a dhedhow ni dhe handla agas kedhlow gans rach. Redyowgh moy y'gan <privacyLink>argemmyn privetter</privacyLink>.
 return-to-cv = Dehweles dhe Common Voice
@@ -50,6 +50,7 @@ sk = Slovakek
 sq = Albaniek
 sv-SE = Swedek
 ta = Tamil
+te = Telugu
 th = Thai
 tr = Turkek
 tt = Tatar
@@ -151,27 +152,112 @@ faq-important-a = Naturel yw an lev, dhe dhenses yma'n lev. An esya ha'n fordh a
 faq-get-q = Fatel allav vy kerghes an data Common Voice?
 faq-get-a = Kavadow lemmyn yw an sett data war agan <downloadLink>folen iskargansow</downloadLink> yn-dann an leshyans <licenseLink>CC-0</licenseLink>.
 faq-mission-q = Prag yth yw Common Voice rann a Mozilla?
+faq-mission-a = Mozilla re ros dhodho ev y honen an ober a witha an wias ygor ha hedhadow dhe bubonen. Rag y wul, res yw dhyn ri gallos dhe dhisplegyoryon wias dre ragdresow kepar ha Common Voice. Gans an lesans a deknegiethow gwias dres towlennow arbennek, ni a grys bos res dhedha servya pub usyer oll yn ekwal. Ni a wel odhom a voy yethow, lesyethow ha demografegow ha tus ow trehevel hag ow previ teknegiethow lev. Yma hwans dhe Mozilla gweles kesrosewyth yagh ha byw. Henn a styr ri dhe dhisplegyoryon nowydh hedhas dhe dhata lev may hyllons drehevel ragdresow nowydh hag yntanus. Common Voice a vydh asnodh poblek a wra gweres bagasow Mozilla ha displegyoryon a-dro dhe'n bys.
+faq-native-q = My a wor kowsel { $lang }, mes nyns yw ow mammyeth hag yma lesyeth dhymm, eus hwans dhywgh a'm lev hwath?
+faq-native-a = Eus, yn tevri yma hwans dhyn a'gas lev! Rann a'n amkan a Common Voice yw kuntel kemmys lesyethow dyffrans dell yllyn, may hallo jynnow-amontya konvedhes dhe well <bold>pubonen</bold> pan wrellons kowsel.
+faq-firefox-q = A vydh kows-dhe-dekst, dre Common Voice, rann a Firefox?
+faq-firefox-a = Yma potencyal heb finweth dhe Common Voice hag yth eson fest ow hwithra ynterfassow lev yn meur a askorrasow Mozilla, Firefox y'ga mysk.
+faq-quality-q = Pyth yw an nivel res a gwalita rag usya an son?
+faq-quality-a = Yma hwans dhyn kwalita an son dhe dhastewynnya an kwalita a wra jynn kows-dhe-dekst gweles y'n gwylvos. Ytho, yma hwans dhyn a eghennow divers. Hemm a dhysk dhe'n jynn kows-dhe-dekst handla studhyow dyffrans—kowsel kilva, tros kerri, tros gwynsellow—heb gwallow.
+faq-hours-q = Prag yth yw 10,000 our an amkan rag kuntel son?
+faq-hours-a = Hemm yw dre vras an niver a ourys res rag dyski dhe system STT askorrans.
+faq-source-q = A ble y teu an tekst pennfenten?
+faq-source-a1 = An lavarow a-lemmyn a dheu a argevrohow gans kevriysi, keffrys ha keskows dhyworth skrifennow fylm y'n arlotteth boblek kepar hag <italic>It's a Wonderful Life.</italic>
+faq-source-a2 = Hwi a yll gweles agan lavarow pennfenten y'n <dataLink>blegel GitHub ma</dataLink>.
 
 ## Profile
 
+profile-why-title = Praga gwul profil?
+profile-why-content = Dre brovia nebes kedhlow a-dro dhe'gas honen, an data son a dhanvenowgh dhe Common Voice a vydh moy dhe les rag jynnow aswon kows a wra usya an data ma rag gwellhe aga hewerder.
 
 ## NotFound
 
+notfound-title = Ny veu kevys
+notfound-content = Drog yw genev, ny wonn pyth esowgh ow hwilas.
 
 ## Data
 
+data-download-button = Iskarga data Common Voice
+data-download-yes = Da
+data-download-deny = Na
+data-download-license = Leshyans: <licenseLink>CC-0</licenseLink>
+data-download-modal = Parys owgh dhe dhalleth iskargans a <size>{ $size }GB</size>, a vynnowgh pesya?
+data-subtitle = Yth eson ow trehevel sett data ygor ha kavadow yn foblek a levow a yll pubonen usya rag dyski dhe dowlennow gans lev.
+data-explanatory-text = Ni a grys settys data bras ha kavadow yn foblek dhe vaga awenekter ha kesstrif kenwerthel yaghus yn teknegieth gows selyes war dhyski jynn. Hemm yw assay ollvysel ha ni a elow orth pubonen dhe gevri. Agan amkan yw gweres teknegieth gows dhe vos moy dalghus, ow tastewynnya an diversita a levow eus a-dro dhe'n bys.
+data-get-started = <speechBlogLink>Omvyskowgh gans aswon kows</speechBlogLink>
+data-other-title = Settys data erel...
+data-other-goto = Mos dhe { $name }
+data-other-download = Iskarga an data
+data-other-librispeech-description = LibriSpeech yw korpus a neb 1000 our a gows yn Sowsnek lennys orth 16Khz ow tos dhyworth lyvrow son dhyworth an ragdres LibriVox.
+data-other-ted-name = Korpus TED-LIUM
+data-other-ted-description = An korpus TED-LIUM a veu gwrys dhyworth arethow son ha'ga treusskrifansow kavadow war wiasva TED.
+data-other-voxforge-description = VoxForge a veu drehevys rag kuntel kows treusskrifys rag y usya gans jynnow aswon kows pennfenten ygor ha heb kost.
+data-other-tatoeba-description = Tatoeba yw database bras a lavarow, treylyansow ha son kowsys may hyllir y usya ow tyski yethow. Yma a-berth y'n iskargans ma Sowsnek kowsys rekordys gans aga hemeneth.
+data-bundle-button = Iskarga pusorn an sett data
+data-bundle-description = Data Common Voice keffrys ha pub sett data aral a-ugh.
+license = Leshyans: <licenseLink>{ $license }</licenseLink>
+license-mixed = Kemyskys
 
 ## Record Page
 
+record-platform-not-supported = Drog yw dhyn, nyns yw agas platform skoodhys hwath.
+record-platform-not-supported-desktop = War jynnow bord gweyth, hwi a yll iskarga an diwettha:
+record-platform-not-supported-ios = Usyoryon a <bold>iOS</bold> a yll iskarga agan towlen heb kost:
+record-must-allow-microphone = Res yw alowa hedhas dhe'n mikrofon.
+record-cancel = Hedhi dasrekordya
+record-retry = Assaya arta
+record-error-too-short = Re gott yw an rekordyans.
+record-error-too-long = Re hir yw an rekordyans.
+record-error-too-quiet = Re gosel yw an rekordyans.
+record-submit-success = Danvenys yn sowen! Eus hwans dhywgh rekordya arta?
+record-help = Tappyowgh dhe rekordya, ena lennowgh an lavar a-ugh .
+record-cancel = Hedhi dasrekordya
+review-terms = Der usya Common Voice, hwi a wra akordya gans agan <termsLink>termys</termsLink> ha'gan <privacyLink>argemmyn privetter</privacyLink>
+terms-agree = Akordyav
+terms-disagree = Ny akordyav
+review-aborted = Astellys veu an ughkargans. Eus hwans dhywgh dilea agas rekordyansow?
+review-submit-title = Dasweles ha danvon
+review-submit-msg = Meur ras a rekordya!<lineBreak></lineBreak>Lemmyn daswelowgh ha danvenowgh agas klyppys a-woles.
+review-recording = Dasweles
+review-rerecord = Dasrekordya
+review-cancel = Hedhi danvon
+review-keep-recordings = Gwitha an rekordyansow
+review-delete-recordings = Dilea ow rekordyansow
 
 ## Download Modal
 
+download-title = Yma dalleth dhe'gas iskargans.
+download-helpus = Gweresowgh dhyn ow trehevel kemeneth a-dro dhe deknegieth gows, kestevowgh der ebost.
+download-form-email =
+    .label = Entrowgh agas ebost
+    .value = Meur ras, ni a vynn kestava genowgh.
+download-back = Dehweles dhe settys data Common Voice
+download-no = Ny vynnav, meur ras
 
 ## Contact Modal
 
+contact-title = Furvlen gestava
+contact-cancel = Hedhi
+contact-form-name =
+    .label = Hanow
+contact-form-message =
+    .label = Messach
+contact-required = *res
 
 ## Request Language Modal
 
+request-language-title = Profyans yeth
+request-language-cancel = Kwytya an furvlen
+request-language-form-language =
+    .label = Yeth
+request-language-success-title = Danvenys yn sowen a veu an profyans, meur ras.
+request-language-success-content = Ni a vynn kestava genowgh gans moy kedhlow a-dro dhe geworra agas yeth dhe Common Voice yn skon.
 
 ## Languages Overview
 
+language-section-in-progress = Ow spedya
+language-section-launched = Lonchys
+languages-show-more = Gweles moy
+languages-show-less = Gweles le
+language-speakers = Kowsoryon
+language-total-progress = Somm

@@ -8,4 +8,5 @@ get-involved-form-title = Registrer deg for oppdateringar av { $lang }:
 get-involved-email =
     .label = E-post
 get-involved-submit = Send
+get-involved-success-text = Vi vil holde kontakten med mer informasjon, når det blir tilgjengelig.
 get-involved-return-to-languages = Tilbake til språkene

@@ -11,4 +11,6 @@ get-involved-opt-in = Tá, seol ríomhphost chugam. Ba mhaith liom a bheith ar a
 get-involved-submit = Seol
 get-involved-stayintouch = Táimid ag iarraidh comhphobal a thógáil timpeall teicneolaíochta cainte. Ba mhaith linn fanacht i dteagmháil leat chun nuacht agus foinsí nua sonraí a sheoladh chugat, agus le cloisteáil cén chaoi a n-úsáidfidh tú na sonraí seo.
 get-involved-privacy-info = Geallaimid duit go mbeimid cúramach le do chuid sonraí pearsanta. Tuilleadh eolais inár <privacyLink>bhFógra Príobháideachais</privacyLink>.
+get-involved-success-title = Tá tú cláraithe anois chun cabhrú le { $language }. Go raibh maith agat.
+get-involved-success-text = Beimid i dteagmháil nuair a bheidh tuilleadh eolais againn.
 get-involved-return-to-languages = Fill ar Theangacha

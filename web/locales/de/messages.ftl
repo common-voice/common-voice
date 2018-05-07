@@ -211,9 +211,9 @@ terms-agree = Ich stimme zu
 terms-disagree = Ich stimme nicht zu
 review-aborted = Hochladen abgebrochen. Möchten Sie Ihre Tonaufnahmen löschen?
 review-submit-title = Überprüfen & Senden
-review-submit-msg = Vielen Dank für die Aufnahme!<lineBreak></lineBreak>Sie können Ihre Mitschnitte nun unterhalb nochmal begutachten und danach absenden.
+review-submit-msg = Vielen Dank für die Aufnahme!<lineBreak></lineBreak>Sie können Ihre Mitschnitte nun noch einmal begutachten, bevor Sie sie absenden.
 review-recording = Überprüfen
-review-rerecord = Neu aufnehmen
+review-rerecord = Korrigieren
 review-cancel = Absenden abbrechen
 review-keep-recordings = Aufnahmen behalten
 review-delete-recordings = Aufnahmen löschen
@@ -249,8 +249,8 @@ request-language-success-content = Wir melden uns bald mit weiteren Informatione
 
 ## Languages Overview
 
-language-section-in-progress = In Arbeit
-language-section-launched = Abgeschlossen
+language-section-in-progress = Vorbereitungsphase
+language-section-launched = Aufnahmephase
 languages-show-more = Mehr anzeigen
 languages-show-less = Weniger anzeigen
 language-speakers = Sprecher

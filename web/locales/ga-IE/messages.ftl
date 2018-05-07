@@ -50,6 +50,7 @@ sk = Slóvaicis
 sq = Albáinis
 sv-SE = Sualainnis
 ta = Tamailis
+te = Teileagúis
 th = Téalainnis
 tr = Tuircis
 tt = Tatairis
@@ -136,6 +137,7 @@ edit-profile = Cuir mo Phróifíl in Eagar
 profile-create = Cruthaigh próifíl
 profile-create-success = Cruthaíodh do phróifíl!
 profile-close = Dún
+profile-clear-modal = Má ghlanann tú do phróifíl, ní sheolfar an fhaisnéis dhéimeagrafach seo chuig Common Voice in éindí le do chuid taifeadtaí.
 
 ## FAQ
 

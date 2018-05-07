@@ -24,6 +24,7 @@ da = Данська
 de = Німецька
 el = Грецька
 en = Англійська
+es = Іспанська
 es-AR = Іспанська (Аргентина)
 es-CL = Іспанська (Чилі)
 fr = Французька
@@ -49,6 +50,7 @@ sk = Словацька
 sq = Албанська
 sv-SE = Шведська
 ta = Тамільська
+te = Телугу
 th = Тайська
 tr = Турецька
 tt = Татарська
@@ -112,7 +114,6 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Наступна ціль: { $goal }
-status-more-soon = Невдовзі буде ще більше мов!
 english = Англійська
 
 ## ProfileForm
@@ -162,15 +163,64 @@ faq-what-q = Що таке Common Voice?
 
 ## Record Page
 
+record-platform-not-supported = Шкода, але ваша платформа зараз не підтримується.
+record-platform-not-supported-desktop = На настільних комп'ютерах, ви можете завантажити найновіший:
+record-platform-not-supported-ios = Користувачі <bold>iOS</bold> можуть завантажити наш безплатний додаток:
+record-must-allow-microphone = Ви повинні дозволити доступ до мікрофону.
+record-cancel = Скасувати запис
+record-retry = Повторити
+record-error-too-short = Запис надто короткий.
+record-error-too-long = Запис надто довгий.
+record-error-too-quiet = Запис надто тихий.
+record-submit-success = Успішно відправлено! Хочете записати ще?
+record-help = Натисніть для запису, потім прочитайте вголос речення, що вгорі.
+record-cancel = Скасувати запис
+review-terms = Використовуючи Common Voice, ви приймаєте наші <termsLink>Умови</termsLink> та <privacyLink>Повідомлення про приватність</privacyLink>
+terms-agree = Я погоджуюся
+terms-disagree = Я не погоджуюся
+review-aborted = Вивантаження перервано. Ви хочете видалити свої записи?
+review-submit-title = Перевірити й відправити
+review-submit-msg = Дякуємо вам за запис!<lineBreak></lineBreak>Тепер перевірте і відправте свої записи внизу.
+review-recording = Перевірити
+review-rerecord = Перезаписати
+review-cancel = Скасувати відправлення
+review-keep-recordings = Зберегти записи
+review-delete-recordings = Видалити мої записи
 
 ## Download Modal
 
+download-title = Ваше завантаження почалося.
+download-helpus = Допоможіть нам створити спільноту навколо технології розпізнавання голосу. Будьте на зв'язку через електронну пошту.
+download-form-email =
+    .label = Введіть свою е-пошту
+    .value = Дякуємо! Ми будемо тримати зв'язок.
+download-back = Повернутися до наборів даних Common Voice
+download-no = Ні, дякую
 
 ## Contact Modal
 
+contact-title = Форма зв'язку
+contact-cancel = Скасувати
+contact-form-name =
+    .label = Ім'я
+contact-form-message =
+    .label = Повідомлення
+contact-required = *обов'язково
 
 ## Request Language Modal
 
+request-language-title = Запит мови
+request-language-cancel = Вийти з форми
+request-language-form-language =
+    .label = Мова
+request-language-success-title = Запит мови успішно відправлений. Дякуємо вам.
+request-language-success-content = Ми дуже скоро зв'яжемося з вами та розповімо про те, як додати вашу мову до проекту Common Voice.
 
 ## Languages Overview
 
+language-section-in-progress = В процесі
+language-section-launched = Запущено
+languages-show-more = Більше мов
+languages-show-less = Менше мов
+language-speakers = Носіїв
+language-total-progress = Разом

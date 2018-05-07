@@ -46,6 +46,7 @@ sk = Slovakisk
 sq = Albansk
 sv-SE = Svensk
 ta = Tamilsk
+te = Telugu
 th = Thai
 tr = Tyrkisk
 tt = Tatar
@@ -86,7 +87,6 @@ status-contribute = Bidra med din stemme
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Neste mål: { $goal }
-status-more-soon = Flere språk kommer snart!
 english = Engelsk
 
 ## ProfileForm
@@ -122,6 +122,7 @@ profile-close = Lukk
 
 faq-title = Ofte stilte spørsmål
 faq-what-q = Hva er Common Voice?
+faq-important-q = Hvorfor er det viktig?
 
 ## Profile
 
@@ -168,4 +169,5 @@ request-language-form-language =
 
 languages-show-more = Vis mer
 languages-show-less = Vis mindre
+language-speakers = Talt av
 language-total-progress = Totalt
