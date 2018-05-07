@@ -271,23 +271,16 @@ export default class DB {
       this.saveUserClient(client_id),
       this.insertSentence(sentenceId, sentence),
     ]);
+    const localeId = await this.getLocaleId(locale);
     await this.mysql.query(
       `
-        INSERT IGNORE INTO clips (client_id, original_sentence_id, path, sentence, bucket, locale_id)
+        INSERT IGNORE INTO clips (client_id, original_sentence_id, path, sentence, locale_id, bucket)
           (
-            SELECT ?, ?, ?, ?,
-              (SELECT bucket FROM user_clients WHERE client_id = ? LIMIT 1),
-              ?
+            SELECT ?, ?, ?, ?, ?,
+              (SELECT bucket FROM user_client_locale_buckets WHERE client_id = ? AND locale_id = ? LIMIT 1)
           )
       `,
-      [
-        client_id,
-        sentenceId,
-        path,
-        sentence,
-        client_id,
-        await this.getLocaleId(locale),
-      ]
+      [client_id, sentenceId, path, sentence, localeId, client_id, localeId]
     );
     const [[row]] = await this.mysql.query(
       'SELECT * FROM clips WHERE id = LAST_INSERT_ID()'
