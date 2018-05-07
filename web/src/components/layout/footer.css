@@ -3,10 +3,6 @@
 footer {
     margin-top: 2rem;
     background-color: var(--black);
-
-    & a:hover, & button:hover {
-        opacity: .6;
-    }
 }
 
 #help-links {
@@ -30,6 +26,10 @@ footer {
 
         @media (--md-up) {
             font-size: var(--font-size);
+        }
+
+        &:hover {
+            opacity: .6;
         }
     }
 
@@ -55,10 +55,10 @@ footer {
 
 #moz-links {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding: var(--page-margin);
     height: 100%;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     color: var(--white);
 
     @media (--md-up) {
@@ -67,6 +67,7 @@ footer {
         max-width: var(--desktop-width);
         width: 100%;
         flex-direction: row;
+        align-items: center;
         justify-content: space-between;
 
         & > * {
@@ -74,46 +75,73 @@ footer {
         }
     }
 
-    & .content {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding-bottom: var(--page-margin);
+    & a {
+        color: var(--warm-grey);
 
-        @media (--md-up) {
-            padding-bottom: 0;
-            padding-right: 1rem;
+        &:hover {
+            color: var(--blue);
         }
     }
 
-    & .main-logo {
-        font-size: 1rem;
-        padding-right: 4rem;
-    }
+    & .logo-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 4rem;
 
-    & .main-logo, & .main-mozilla-logo {
-        max-height: 2.5rem;
+        @media (--md-up) {
+            flex-direction: column;
+            min-width: 9rem;
+            margin-right: 8rem;
+            margin-top: 0;
+        }
+
+        & .main-logo {
+            font-size: 1rem;
+            padding-right: 4rem;
+        }
+
+        & .main-logo, & .main-mozilla-logo {
+            height: 2.5rem;
+            max-height: 2.5rem;
+
+            @media (--md-up) {
+                height: auto;
+            }
+        }
+
+        & .license {
+            font-size: .7rem;
+
+            @media (--md-up) {
+                margin-top: 1.5rem;
+            }
+        }
     }
 
     & .links {
-        padding-top: 2.5rem;
+        margin-top: 2rem;
+        padding: 0 1rem;
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        @media (--md-up) {
+            margin-right: 4rem;
+            margin-top: 0;
+            padding: 0;
+        }
 
         & a {
-            color: var(--green);
+            box-sizing: border-box;
+            margin-bottom: 8px;
         }
 
-        & > :first-child {
-            margin-bottom: 0.2rem;
+        & > div {
             display: flex;
-            justify-content: space-between;
-        }
-
-        & > p:last-child, & > :first-child a {
-            display: block;
-
-            @media (--md-up) {
-                display: initial;
-            }
+            flex-direction: column;
         }
     }
 
@@ -122,6 +150,7 @@ footer {
         color: white;
         text-decoration: underline;
         text-align: center;
+        order: -1;
 
         @media (--md-up) {
             display: none;
@@ -138,25 +167,32 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #262626;
+    background-color: rgba(255,255,255,.1);
 
-    & h3 {
+    & .title {
         margin-bottom: 1rem;
         text-align: center;
-        font-size: 1.1rem;
+        font-size: 1rem;
         font-style: italic;
         font-weight: normal;
         font-family: sans-serif;
+        color: var(--warm-grey);
     }
 
     & .icons {
         width: 60%;
         display: flex;
         justify-content: space-around;
+
+        & > * {
+            margin: 0 21px;
+        }
+
+        & [data-icon]:hover {
+            color: var(--blue);
+        }
     }
 }
-
-
 
 #sharing a, #link-copy {
     font-size: .8rem;
@@ -171,6 +207,10 @@ footer {
 
     &:active {
         color: var(--black);
+    }
+
+    &:hover {
+        color: var(--blue);
     }
 
     & input {

@@ -79,44 +79,46 @@ class Footer extends React.PureComponent<LocalizationProps, FooterState> {
           </a>
         </div>
         <div id="moz-links">
-          <div className="content">
+          <div className="logo-container">
             <Logo reverse />
-            <div className="links">
-              <p>
-                <Localized id="privacy">
-                  <LocaleLink to={URLS.PRIVACY} />
-                </Localized>
-                <Localized id="terms">
-                  <LocaleLink to={URLS.TERMS} />
-                </Localized>
-                <Localized id="cookies">
+            <p className="license">
+              <Localized
+                id="content-license-text"
+                licenseLink={
                   <a
                     target="_blank"
-                    href="https://www.mozilla.org/en-US/privacy/websites/#cookies"
+                    rel="noopener noreferrer"
+                    href="https://www.mozilla.org/en-US/foundation/licensing/website-content/"
                   />
-                </Localized>
-                <Localized id="faq">
-                  <LocaleLink to={URLS.FAQ}>FAQ</LocaleLink>
-                </Localized>
-              </p>
-              <p>
-                <Localized
-                  id="content-license-text"
-                  licenseLink={
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://www.mozilla.org/en-US/foundation/licensing/website-content/"
-                    />
-                  }>
-                  <span />
-                </Localized>
-              </p>
+                }>
+                <span />
+              </Localized>
+            </p>
+          </div>
+          <div className="links">
+            <div>
+              <Localized id="privacy">
+                <LocaleLink to={URLS.PRIVACY} />
+              </Localized>
+              <Localized id="terms">
+                <LocaleLink to={URLS.TERMS} />
+              </Localized>
+            </div>
+            <div>
+              <Localized id="cookies">
+                <a
+                  target="_blank"
+                  href="https://www.mozilla.org/en-US/privacy/websites/#cookies"
+                />
+              </Localized>
+              <Localized id="faq">
+                <LocaleLink to={URLS.FAQ}>FAQ</LocaleLink>
+              </Localized>
             </div>
           </div>
           <div id="sharing">
             <Localized id="share-title">
-              <h3 />
+              <span className="title" />
             </Localized>
 
             <div className="icons">
