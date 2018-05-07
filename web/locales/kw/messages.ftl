@@ -204,10 +204,17 @@ record-platform-not-supported = Drog yw dhyn, nyns yw agas platform skoodhys hwa
 record-platform-not-supported-desktop = War jynnow bord gweyth, hwi a yll iskarga an diwettha:
 record-platform-not-supported-ios = Usyoryon a <bold>iOS</bold> a yll iskarga agan towlen heb kost:
 record-must-allow-microphone = Res yw alowa hedhas dhe'n mikrofon.
+record-cancel = Hedhi dasrekordya
 record-retry = Assaya arta
 record-error-too-short = Re gott yw an rekordyans.
 record-error-too-long = Re hir yw an rekordyans.
 record-error-too-quiet = Re gosel yw an rekordyans.
+record-submit-success = Danvenys yn sowen! Eus hwans dhywgh rekordya arta?
+record-help = Tappyowgh dhe rekordya, ena lennowgh an lavar a-ugh .
+record-cancel = Hedhi dasrekordya
+review-terms = Der usya Common Voice, hwi a wra akordya gans agan <termsLink>termys</termsLink> ha'gan <privacyLink>argemmyn privetter</privacyLink>
+terms-agree = Akordyav
+terms-disagree = Ny akordyav
 
 ## Download Modal
 
