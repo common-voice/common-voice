@@ -140,24 +140,31 @@ notfound-title = కనబడలేదు
 
 ## Data
 
+data-download-button = కామన్ వాయిస్ డేటాను దింపుకోండి
 data-download-yes = అవును
 data-download-deny = కాదు
+data-download-license = లైసెన్సు: <licenseLink>సీసీ-0</licenseLink>
 data-other-goto = { $name }కు వెళ్ళండి
 data-other-download = డేటాను దింపుకోండి
+data-other-ted-name = TED-LIUM కార్పస్
 license = లైసెన్సు: <licenseLink>{ $license }</licenseLink>
 license-mixed = మిశ్రమం
 
 ## Record Page
 
+record-must-allow-microphone = మీరు మైక్రోఫోన్ వినడానికి అనుమతించాలి.
 record-cancel = రీ-రికార్డింగ్‌ను రద్దుచేయి
 record-retry = తిరిగిప్రయత్నించు
 record-error-too-short = రికార్డింగ్ చాలా చిన్నగా ఉంది.
 record-error-too-long = రికార్డింగ్ చాలా పొడవుగా ఉంది.
 record-error-too-quiet = రికార్డింగ్ చాలా నిశ్శబ్దంగా ఉంది.
 record-submit-success = విజయవంతంగా సమర్పించబడింది! మళ్ళీ రికార్డ్ చెయ్యాలనుకుంటున్నారా?
+record-help = దయచేసి రికార్డు చేయడానికి తాకండి, తర్వాత పైన వాక్యాన్ని గట్టిగా చదవండి.
 record-cancel = రీ-రికార్డింగ్‌ను రద్దుచేయి
+review-terms = కామన్ వాయస్ వాడటం ద్వారా, మీరు  మా <termsLink>నియమాలను</termsLink> మరియు <privacyLink>గోప్యతా ప్రకటన </privacyLink>ను అంగీకరిస్తున్నారు
 terms-agree = నేను అంగేకరిస్తున్నాను
 terms-disagree = నేను అంగీకరించను
+review-aborted = ఎక్కింపు మధ్యలో నిలిపివేయబడింది. మీ రికార్డింగులను తొలగించాలనుకుంటున్నారా?
 review-submit-title = పరిశీలించి సమర్పించండి
 review-recording = సమీక్షించు
 review-rerecord = తిరిగి రికార్డ్ చేయి
