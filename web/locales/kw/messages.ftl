@@ -182,6 +182,7 @@ data-download-yes = Da
 data-download-deny = Na
 data-download-license = Leshyans: <licenseLink>CC-0</licenseLink>
 data-download-modal = Parys owgh dhe dhalleth iskargans a <size>{ $size }GB</size>, a vynnowgh pesya?
+data-subtitle = Yth eson ow trehevel sett data ygor ha kavadow yn foblek a levow a yll pubonen usya rag dyski dhe dowlennow gans lev.
 
 ## Record Page
 
