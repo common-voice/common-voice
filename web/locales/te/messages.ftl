@@ -144,6 +144,7 @@ data-download-button = కామన్ వాయిస్ డేటాను ద
 data-download-yes = అవును
 data-download-deny = కాదు
 data-download-license = లైసెన్సు: <licenseLink>సీసీ-0</licenseLink>
+data-other-title = ఇతర వాయిస్ డేటాసెట్లు...
 data-other-goto = { $name }కు వెళ్ళండి
 data-other-download = డేటాను దింపుకోండి
 data-other-ted-name = TED-LIUM కార్పస్
@@ -166,6 +167,7 @@ terms-agree = నేను అంగేకరిస్తున్నాను
 terms-disagree = నేను అంగీకరించను
 review-aborted = ఎక్కింపు మధ్యలో నిలిపివేయబడింది. మీ రికార్డింగులను తొలగించాలనుకుంటున్నారా?
 review-submit-title = పరిశీలించి సమర్పించండి
+review-submit-msg = రికార్డు చేసినందుకు ధన్యవాదాలు! <lineBreak></lineBreak> ఇప్పుడు క్రింద మీ మాటలను సమీక్షించి సమర్పించండి.
 review-recording = సమీక్షించు
 review-rerecord = తిరిగి రికార్డ్ చేయి
 review-cancel = సమర్పణను రద్దు చేయండి
@@ -175,9 +177,11 @@ review-delete-recordings = నా రికార్డింగ్లను త
 ## Download Modal
 
 download-title = మీ దింపుకోలు మొదలయింది.
+download-helpus = వాయిస్ టెక్నాలజీ చుట్టూ సమూహాన్ని నిర్మించడానికి మాకు సహాయం చేయండి, ఈమెయిలు ద్వారా అందుబాటులో ఉండండి.
 download-form-email =
     .label = మీ ఇమెయిల్ను నమోదు చేయండి
     .value = ధన్యవాదాలు, మేము మిమల్ని కలుస్తుంటాము.
+download-back = కామన్ వాయిస్ డేటాసెట్లకు తిరిగి వెళ్ళండి
 download-no = అడిగినందుకు ధన్యవాదాలు, వద్దు
 
 ## Contact Modal
