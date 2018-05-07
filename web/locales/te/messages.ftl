@@ -37,6 +37,7 @@ ko = కొరియన్
 kw = కార్నిష్
 mk = మెసడోనియన్
 nb-NO = నార్వేజియన్ బొక్మాల్
+ne-NP = నేపాలీ
 nl = డచ్
 nn-NO = నార్వేజియన్ నైనోర్‌స్క్
 or = ఒడియా
@@ -46,6 +47,7 @@ ro = రొమానియన్
 ru = రష్యన్
 sk = స్లోవక్
 sq = అల్బేనియన్
+sr = సెర్బియన్
 sv-SE = స్వీడిష్
 ta = తమిళం
 te = తెలుగు
@@ -149,11 +151,15 @@ data-other-title = ఇతర వాయిస్ డేటాసెట్లు..
 data-other-goto = { $name }కు వెళ్ళండి
 data-other-download = డేటాను దింపుకోండి
 data-other-ted-name = TED-LIUM కార్పస్
+data-other-tatoeba-description = Tatoeba అనేది భాష నేర్చు కోవటం కోసం వాక్యాలు, అనువాదాలు మరియు మాట్లాడే ఆడియోల పెద్ద డేటాబేస్. ఈ దింపుకోలు సమూహం రికార్డ్ చేసిన మాట్లాడే ఆంగ్లం కలిగి ఉన్నది.
+data-bundle-description = Common Voice డేటా మరియు పైన ఉన్న అన్ని ఇతర వాయిస్ డేటాసెట్లు.
 license = లైసెన్సు: <licenseLink>{ $license }</licenseLink>
 license-mixed = మిశ్రమం
 
 ## Record Page
 
+record-platform-not-supported = మమ్మల్ని క్షమించండి, కానీ మీ ప్లాట్ఫాంకి  ప్రస్తుతం మద్దతు లేదు.
+record-platform-not-supported-desktop = డెస్కుటాపు కంప్యూటర్లలో, మీరు తాజావి డౌన్లోడ్ చేసుకోవచ్చు:
 record-must-allow-microphone = మీరు మైక్రోఫోన్ వినడానికి అనుమతించాలి.
 record-cancel = రీ-రికార్డింగ్‌ను రద్దుచేయి
 record-retry = తిరిగిప్రయత్నించు
@@ -202,6 +208,7 @@ request-language-cancel = ఫారం మూసివేయి
 request-language-form-language =
     .label = భాష
 request-language-success-title = భాష అభ్యర్థన విజయవంతంగా సమర్పించబడింది, ధన్యవాదాలు.
+request-language-success-content = త్వరలో మీ భాషని Common Voiceకి ఎలా జోడించాలో అన్న విషయం మీద మేము మరింత సమాచారంతో అందుబాటులో  ఉంటాము. 
 
 ## Languages Overview
 
