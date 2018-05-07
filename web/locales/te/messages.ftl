@@ -1,5 +1,6 @@
 ## General
 
+yes-receive-emails = అవును, నాకు ఈమెయిళ్ళు పంపండి. నేను కామన్ వాయిస్ ప్రాజెక్ట్ గురించి తెలుసుకోవాలనుకుంటున్నాను.
 return-to-cv = Common Voiceకు తిరిగి వెళ్ళు
 email-input =
     .label = ఈమెయిలు
