@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Danvenowgh dhymm ebostow. Yma hwans dhymm godhvos moy a-dro dhe'n towl Common Voice.
+yes-receive-emails = Mynnav, danvenowgh dhymm ebostow. Yma hwans dhymm godhvos moy a-dro dhe'n towl Common Voice.
 stayintouch = Yth eson ow trehevel kemeneth a-dro dhe deknegieth lev. Hwans yw dhyn kestava gans nowedhansow, pennfentynnyow data nowydh ha rag klowes moy a-dro dhe'n fordh mayth esowgh owth usya an data ma.
 privacy-info = Ni a dhedhow ni dhe handla agas kedhlow gans rach. Redyowgh moy y'gan <privacyLink>argemmyn privetter</privacyLink>.
 return-to-cv = Dehweles dhe Common Voice
@@ -215,15 +215,49 @@ record-cancel = Hedhi dasrekordya
 review-terms = Der usya Common Voice, hwi a wra akordya gans agan <termsLink>termys</termsLink> ha'gan <privacyLink>argemmyn privetter</privacyLink>
 terms-agree = Akordyav
 terms-disagree = Ny akordyav
+review-aborted = Astellys veu an ughkargans. Eus hwans dhywgh dilea agas rekordyansow?
+review-submit-title = Dasweles ha danvon
+review-submit-msg = Meur ras a rekordya!<lineBreak></lineBreak>Lemmyn daswelowgh ha danvenowgh agas klyppys a-woles.
+review-recording = Dasweles
+review-rerecord = Dasrekordya
+review-cancel = Hedhi danvon
+review-keep-recordings = Gwitha an rekordyansow
+review-delete-recordings = Dilea ow rekordyansow
 
 ## Download Modal
 
+download-title = Yma dalleth dhe'gas iskargans.
+download-helpus = Gweresowgh dhyn ow trehevel kemeneth a-dro dhe deknegieth gows, kestevowgh der ebost.
+download-form-email =
+    .label = Entrowgh agas ebost
+    .value = Meur ras, ni a vynn kestava genowgh.
+download-back = Dehweles dhe settys data Common Voice
+download-no = Ny vynnav, meur ras
 
 ## Contact Modal
 
+contact-title = Furvlen gestava
+contact-cancel = Hedhi
+contact-form-name =
+    .label = Hanow
+contact-form-message =
+    .label = Messach
+contact-required = *res
 
 ## Request Language Modal
 
+request-language-title = Profyans yeth
+request-language-cancel = Kwytya an furvlen
+request-language-form-language =
+    .label = Yeth
+request-language-success-title = Danvenys yn sowen a veu an profyans, meur ras.
+request-language-success-content = Ni a vynn kestava genowgh gans moy kedhlow a-dro dhe geworra agas yeth dhe Common Voice yn skon.
 
 ## Languages Overview
 
+language-section-in-progress = Ow spedya
+language-section-launched = Lonchys
+languages-show-more = Gweles moy
+languages-show-less = Gweles le
+language-speakers = Kowsoryon
+language-total-progress = Somm
