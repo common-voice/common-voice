@@ -100,28 +100,27 @@ class LocalizationBox extends React.PureComponent<Props, State> {
     showModal: false,
   };
 
-  toggleModal = () => this.setState({ showModal: !this.state.showModal });
+  buildMessagesGenerator() {
+    const { globalLocale, locale, localeMessages } = this.props;
 
-  render() {
-    const {
-      globalLocale,
-      locale,
-      localeMessages,
-      progress,
-      showCTA,
-    } = this.props;
-
-    const messagesGenerator =
+    return (
       localeMessages &&
       createCrossLocaleMessagesGenerator(localeMessages, [
         locale.code,
         globalLocale,
-      ]);
+      ])
+    );
+  }
+
+  toggleModal = () => this.setState({ showModal: !this.state.showModal });
+
+  render() {
+    const { locale, progress, showCTA } = this.props;
 
     return (
       <React.Fragment>
         {this.state.showModal && (
-          <LocalizationProvider messages={messagesGenerator}>
+          <LocalizationProvider messages={this.buildMessagesGenerator()}>
             <GetInvolvedModal
               locale={locale}
               onRequestClose={this.toggleModal}
@@ -138,7 +137,7 @@ class LocalizationBox extends React.PureComponent<Props, State> {
           progress={progress}
           onClick={this.toggleModal}>
           {showCTA && (
-            <LocalizationProvider messages={messagesGenerator}>
+            <LocalizationProvider messages={this.buildMessagesGenerator()}>
               <Localized id="get-involved-button">
                 <span />
               </Localized>
