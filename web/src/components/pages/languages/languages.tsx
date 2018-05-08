@@ -147,54 +147,67 @@ class LanguagesPage extends React.PureComponent<Props, State> {
           />
         )}
 
-        <div className="mobile-headings">
-          <Hr />
+        {!showSearch && (
+          <div className="mobile-headings">
+            <Hr />
 
-          <div className="labels">
-            <Localized id="language-section-in-progress">
-              <h2
-                className="in-progress"
-                onClick={() =>
-                  this.setState({ selectedLanguageSection: 'in-progress' })
-                }
-              />
-            </Localized>
+            <div className="labels">
+              <Localized id="language-section-in-progress">
+                <h2
+                  className="in-progress"
+                  onClick={() =>
+                    this.setState({ selectedLanguageSection: 'in-progress' })
+                  }
+                />
+              </Localized>
 
-            <Localized id="language-section-launched">
-              <h2
-                className="launched"
-                onClick={() =>
-                  this.setState({
-                    selectedLanguageSection: 'launched',
-                    showAll: false,
-                  })
-                }
-              />
-            </Localized>
+              <Localized id="language-section-launched">
+                <h2
+                  className="launched"
+                  onClick={() =>
+                    this.setState({
+                      selectedLanguageSection: 'launched',
+                      showAll: false,
+                    })
+                  }
+                />
+              </Localized>
+
+              <a href="#" onClick={this.toggleSearch}>
+                <SearchIcon />
+              </a>
+            </div>
           </div>
-        </div>
+        )}
+
+        {showSearch && (
+          <React.Fragment>
+            <div className="search">
+              <Localized
+                id="language-search-input"
+                attrs={{ placeholder: true }}>
+                <input
+                  type="text"
+                  value={query}
+                  onChange={this.handleQueryChange}
+                  onKeyDown={this.handleQueryKeyDown}
+                  ref={this.searchInputRef}
+                />
+              </Localized>
+              <a href="#" onClick={this.toggleSearch}>
+                <CloseIcon black />
+              </a>
+            </div>
+            <Hr />
+          </React.Fragment>
+        )}
 
         <div className="language-sections">
-          <section className="in-progress">
-            <div className="md-block">
-              {showSearch ? (
-                <div className="search">
-                  <Localized
-                    id="language-search-input"
-                    attrs={{ placeholder: true }}>
-                    <input
-                      type="text"
-                      value={query}
-                      onChange={this.handleQueryChange}
-                      onKeyDown={this.handleQueryKeyDown}
-                      ref={this.searchInputRef}
-                    />
-                  </Localized>
-                  <a href="#" onClick={this.toggleSearch}>
-                    <CloseIcon black />
-                  </a>
-                </div>
-              ) : (
+          <section
+            className="in-progress"
+            style={showSearch ? { marginTop: 0 } : {}}>
+            {!showSearch && (
+              <div className="md-block">
                 <div style={{ display: 'flex', flexDirection: 'row' }}>
                   <Localized id="language-section-in-progress">
                     <h1 style={{ marginRight: '1.5rem' }} />
@@ -203,10 +216,9 @@ class LanguagesPage extends React.PureComponent<Props, State> {
                     <SearchIcon />
                   </a>
                 </div>
-              )}
-
-              <Hr />
-            </div>
+                <Hr />
+              </div>
+            )}
 
             <ul style={{ display: 'flex', flexWrap: 'wrap' }}>
               {localizations.length > 0

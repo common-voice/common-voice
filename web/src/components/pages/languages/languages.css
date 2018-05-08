@@ -135,6 +135,11 @@
             padding: 1rem;
             cursor: pointer;
         }
+
+        & a {
+            align-self: center;
+            margin-left: auto;
+        }
     }
 
     & button.show-all-languages {
@@ -163,9 +168,11 @@
     }
 
     & .search {
+        margin-top: 2.5rem;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
 
         & input {
             border: none;
