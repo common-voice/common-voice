@@ -37,7 +37,7 @@ The article addresses image classification with local image descriptors.
 I believe that this is not explained in the text.
 No one can compare to your results.
 I don’t know how comfortable it would be for a person.
-Is it for further automatic processing? 
+Is it for further automatic processing?
 I can not help but feel that this topic is hopelessly outdated.
 The experiments are unconvincing.
 The only meaningful results are currently in Table 9.

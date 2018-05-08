@@ -956,7 +956,7 @@ Can you imagine bumping into a load of cops?
 The driver got knocked cold.
 What am I going to say to Elvis?
 What'll I tell him?
-what can I do now?
+What can I do now?
 How can I ever face him?
 You know I would.
 I'll find out everything.
@@ -1013,7 +1013,7 @@ She went over to the hospital to call on Professor Davis.
 With a bag of marshmallows.
 Ask the mastermind!
 What's she doing over here?
-What do you know about this.
+What do you know about this?
 The Morning Post is not obstructing justice or hiding criminals.
 You ought to know that.
 I'll show you what I'm doing.
@@ -1343,8 +1343,8 @@ Ruth spoke out of turn.
 I never said I'd take it.
 It was a surprise to me.
 I've heard her speak of you.
-that's all Mark ever talks about.
-what about this job?
+That's all Mark ever talks about.
+What about this job?
 He wants to get Jill started in the research business.
 Is it a good job?
 Amy's a genius at research.
@@ -1362,7 +1362,7 @@ Did she discuss it with you?
 And all's fair in love and war?
 I don't know about war.
 I think I got a date.
-what are you doing tonight?
+What are you doing tonight?
 Let's make a night of it.
 Then we can go up to the falls.
 Then we can climb Mt. Helen.
@@ -1699,7 +1699,7 @@ Nick is wiping off the bar as they sit down.
 You want a drink or don't you?
 I was just thinking of a flaming rum punch.
 What's she talking about?
-What's the matter with him.
+What's the matter with him?
 I never saw Amanda act like that before.
 You'll see a lot of strange things from now on.
 You got someplace to sleep?
@@ -2150,7 +2150,7 @@ It isn't the money.
 What we need is fireworks.
 Cashier's got your check.
 Who are these people?
-why don't we tear the building down?
+Why don't we tear the building down?
 Below is a letter which reached my desk this morning.
 It's a commentary on what we laughingly call the civilized world.
 Since then I haven't been able to get another one.
@@ -2483,7 +2483,7 @@ The one you marry has got to swim rivers for you!
 There's a bunch of autograph seekers out front.
 We'll be down with the bags in a minute.
 Don't make a government project out of this!
-When does our plane take off again.
+When does our plane take off again?
 In a couple of minutes.
 About three hundred thousand.
 I've been trying to figure it out.
@@ -2594,7 +2594,7 @@ You bet your bottom dollar we would!
 I guess I've seen everything now.
 But I'm beginning to understand a lot of things.
 Get the Bulletin Board!
-you're playing with dynamite!
+You're playing with dynamite!
 Don't let them get away!
 Before he gets through tonight he'll ruin us all!
 I'll stop him cold.
