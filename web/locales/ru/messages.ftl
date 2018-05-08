@@ -258,3 +258,5 @@ languages-show-more = Больше языков
 languages-show-less = Меньше языков
 language-speakers = Носителей
 language-total-progress = Всего
+language-search-input =
+    .placeholder = Поиск
