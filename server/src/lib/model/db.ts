@@ -379,6 +379,9 @@ export default class DB {
     return row;
   }
 
+  /**
+   * TODO: Remove after next deploy + drop user_clients.bucket column
+   */
   async migrateUserClientBuckets() {
     await this.mysql.query(
       `
