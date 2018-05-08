@@ -7,6 +7,7 @@ import RequestLanguageModal from '../../request-language-modal/request-language-
 import { CloseIcon, SearchIcon } from '../../ui/icons';
 import { Button, Hr } from '../../ui/ui';
 import LocalizationBox, { LoadingLocalizationBox } from './localization-box';
+import { getNativeNameWithFallback } from '../../../services/localization';
 
 const ENGLISH_LOCALE = {
   code: 'en',
@@ -100,9 +101,15 @@ class LanguagesPage extends React.PureComponent<Props, State> {
 
     const filteredLocalizations =
       showSearch && query
-        ? localizations.filter(({ locale }: any) =>
-            locale.name.toLowerCase().includes(query.toLowerCase())
-          )
+        ? localizations.filter(({ locale: { code, name } }: any) => {
+            const q = query.toLowerCase();
+            return (
+              name.toLowerCase().includes(q) ||
+              getNativeNameWithFallback(code)
+                .toLowerCase()
+                .includes(q)
+            );
+          })
         : showAll ? localizations : localizations.slice(0, 3);
 
     return (
