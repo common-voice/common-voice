@@ -50,10 +50,10 @@ async function saveToMessages(languages) {
   const newMessages = messages.replace(
     /#\[Languages]([\s\S]*?)#\[\/]/gm,
     [
-      '#[Languages]',
+      '# [Languages]',
       '## Languages',
       languages.map(([code, name]) => `${code} = ${name}`).join('\n'),
-      '#[/]',
+      '# [/]',
     ].join('\n')
   );
   fs.writeFileSync(messagesPath, newMessages);
