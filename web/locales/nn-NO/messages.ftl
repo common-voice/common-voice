@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Ja, send meg e-post, slik at eg held meg oppdateret om prosjektet Common Voice.
+yes-receive-emails = Ja, send meg e-post, slik at eg held meg oppdatert om prosjektet Common Voice.
 stayintouch = Vi på Mozilla byggjer ein fellesskap rundt stemmeteknologi, og vi vil gjerne halde kontakten med oppdateringar, nye datakjelder og høyre meir om korleis du brukar denne informasjonen.
 privacy-info = Vi lovar å handtere informasjonen din på ein trygg måte. Les meir i <privacyLink>personvernpraksisen</ privacyLink> vår.
 return-to-cv = Gå tilbake til Common Voice
@@ -11,6 +11,7 @@ loading = Lastar…
 audio-loading-error = Orsak! Vi behandlar lydfilene våre. Prøv igjen litt seinare.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -58,6 +59,9 @@ uk = Ukrainsk
 uz = Usbekisk
 zh-CN = Kinesisk (Kina)
 zh-TW = Kinesisk (Taiwan)
+
+# [/]
+
 
 ## Layout
 
@@ -198,7 +202,6 @@ record-platform-not-supported = Vi beklagar, men plattforma di er for tida ikkje
 record-platform-not-supported-desktop = Til datamaskiner kan du laste ned siste versjon:
 record-platform-not-supported-ios = <bold>iOS</bold>-brukarar kan laste ned gratisappen vår:
 record-must-allow-microphone = Du må tillate tilgang til mikrofonen.
-record-cancel = Avbryt nyinnspelinga
 record-retry = Prøv igjen
 record-error-too-short = Innspelinga var for kort.
 record-error-too-long = Innspelinga var for lang.
