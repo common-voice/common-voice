@@ -92,10 +92,7 @@ class RequestLanguageModal extends React.Component<Props, State> {
                 <h2 />
               </Localized>
               <Localized id="request-language-cancel">
-                <a
-                  href="javascript:void(0)"
-                  onClick={this.props.onRequestClose}
-                />
+                <a href="#" onClick={this.props.onRequestClose} />
               </Localized>
             </div>
 

@@ -15,7 +15,7 @@ export default ({ onRequestClose }: Props) => (
           <h1 />
         </Localized>
         <Localized id="contact-cancel">
-          <a href="javascript:void(0)" onClick={onRequestClose} />
+          <a href="#" onClick={onRequestClose} />
         </Localized>
       </div>
 

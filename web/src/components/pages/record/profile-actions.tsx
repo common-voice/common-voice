@@ -31,7 +31,7 @@ class WhyProfile extends React.Component<{}, WhyProfileState> {
             </Localized>
           ) : (
             <Localized id="why-profile-title">
-              <a href="javascript:void(0)" onClick={this.toggle} />
+              <a href="#" onClick={this.toggle} />
             </Localized>
           )}
         </div>
@@ -41,7 +41,7 @@ class WhyProfile extends React.Component<{}, WhyProfileState> {
               <p id="why-profile-text" />
             </Localized>
             <Localized id="profile-close">
-              <a href="javascript:void(0)" onClick={this.toggle} />
+              <a href="#" onClick={this.toggle} />
             </Localized>
           </div>
         )}

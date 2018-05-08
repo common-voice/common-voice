@@ -202,7 +202,7 @@ class Review extends React.Component<Props, State> {
         <br />
         <div className="actions">
           <Localized id="review-cancel">
-            <a href="javascript:void(0)" onClick={this.toggleResetModal} />
+            <a href="#" onClick={this.toggleResetModal} />
           </Localized>
           <Localized id="submit-form-action">
             <ProgressButton

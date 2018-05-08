@@ -63,11 +63,7 @@ class GetInvolvedModal extends React.Component<Props, State> {
     return (
       <Modal innerClassName="get-involved-modal">
         <Localized id="get-involved-cancel">
-          <a
-            className="cancel"
-            href="javascript:void(0)"
-            onClick={onRequestClose}
-          />
+          <a className="cancel" href="#" onClick={onRequestClose} />
         </Localized>
         <br />
         <Localized id="get-involved-title" $lang={nativeName}>

@@ -7,7 +7,7 @@ export default ({ onRequestClose }: { onRequestClose: () => void }) => (
     <div className="title-and-action">
       <div />
       <Localized id="request-language-cancel">
-        <a href="javascript:void(0)" onClick={onRequestClose} />
+        <a href="#" onClick={onRequestClose} />
       </Localized>
     </div>
 
@@ -29,7 +29,7 @@ export default ({ onRequestClose }: { onRequestClose: () => void }) => (
 
     <Localized id="return-to-cv">
       <a
-        href="javascript:void(0)"
+        href="#"
         onClick={onRequestClose}
         className="small"
         style={{ fontWeight: 'bold', color: 'black' }}

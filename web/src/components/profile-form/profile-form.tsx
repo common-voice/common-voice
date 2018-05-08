@@ -109,10 +109,7 @@ class ProfileForm extends React.Component<Props, State> {
             id={
               'profile-form-' + (onExit ? 'cancel' : hasEnteredInfo && 'delete')
             }>
-            <a
-              href="javascript:void(0)"
-              onClick={onExit || this.toggleClearModal}
-            />
+            <a href="#" onClick={onExit || this.toggleClearModal} />
           </Localized>
         </div>
         <br />

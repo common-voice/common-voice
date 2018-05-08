@@ -71,7 +71,7 @@ class Footer extends React.PureComponent<LocalizationProps, FooterState> {
             <div>Discourse</div>
           </a>
           <div className="divider" />
-          <a href="javascript:void(0)" onClick={this.toggleContactModal}>
+          <a href="#" onClick={this.toggleContactModal}>
             <ContactIcon />
             <Localized id="contact">
               <div />
@@ -155,13 +155,13 @@ class Footer extends React.PureComponent<LocalizationProps, FooterState> {
           <Localized id="back-top">
             <a
               className="back-top"
-              href="javascript:void(0)"
-              onClick={() =>
+              href="#"
+              onClick={() => {
                 window.scrollTo({
                   top: 0,
                   behavior: 'smooth',
-                })
-              }
+                });
+              }}
             />
           </Localized>
         </div>

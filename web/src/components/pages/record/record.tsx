@@ -369,7 +369,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
                 {reRecordSentence && (
                   <Localized id="record-cancel">
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="rerecord"
                       onClick={this.cancelReRecord}
                     />

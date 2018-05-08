@@ -95,10 +95,7 @@ class AfterDownloadModal extends React.Component<Props, State> {
                 </Localized>
               )}
 
-              <a
-                href="javascript:void(0)"
-                onClick={onRequestClose}
-                className="cancel">
+              <a href="#" onClick={onRequestClose} className="cancel">
                 {isSubmitted ? (
                   <Localized id="download-back">
                     <span />
