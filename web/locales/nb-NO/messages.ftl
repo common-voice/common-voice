@@ -1,5 +1,6 @@
 ## General
 
+yes-receive-emails = Ja, sendt meg e-post, slik at jeg holder meg oppdatert om prosjektet Common Voice.
 return-to-cv = Gå tilbake til Common Voice
 email-input =
     .label = E-post
@@ -7,6 +8,7 @@ submit-form-action = Send inn
 loading = Laster…
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -56,6 +58,9 @@ uk = Ukrainsk
 uz = Usbekisk
 zh-CN = Kinesisk (Kina)
 zh-TW = Kinesisk (Taiwan)
+
+# [/]
+
 
 ## Layout
 
@@ -157,7 +162,6 @@ license-mixed = Blandet
 
 record-platform-not-supported-ios = <bold>iOS</bold>-brukere kan laste ned gratisappen vår:
 record-must-allow-microphone = Du må tillate tilgang til mikrofonen.
-record-cancel = Avbryt nyinnspillingen
 record-retry = Prøv igjen
 record-error-too-short = Innspillingen var for kort.
 record-error-too-long = Innspillingen var for lang.
@@ -202,8 +206,11 @@ request-language-success-title = Språkforespørselen er sendt inn. Takk skal du
 
 ## Languages Overview
 
+language-section-in-progress = Pågående
 language-section-launched = Lansert
 languages-show-more = Vis mer
 languages-show-less = Vis mindre
 language-speakers = Talt av
 language-total-progress = Totalt
+language-search-input =
+    .placeholder = Søk
