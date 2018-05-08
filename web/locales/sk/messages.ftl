@@ -11,6 +11,7 @@ loading = Načítava sa…
 audio-loading-error = Ospravedlňujeme sa, ale práve spracovávame naše zvukové nahrávky. Skúste to znova neskôr.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -60,6 +61,9 @@ uk = ukrajinčina
 uz = uzbečtina
 zh-CN = čínština (Čína)
 zh-TW = čínština (Taiwan)
+
+# [/]
+
 
 ## Layout
 
@@ -208,7 +212,6 @@ record-platform-not-supported = Ospravedlňujeme sa, no vaša platforma zatiaľ 
 record-platform-not-supported-desktop = Na počítačoch si môžete prevziať najnovšie:
 record-platform-not-supported-ios = Používatelia <bold>iOS</bold> si môžu prevziať našu bezplatnú aplikáciu:
 record-must-allow-microphone = Musíte povoliť prístup ku mikrofónu.
-record-cancel = Zrušiť opakovaný záznam
 record-retry = Znova
 record-error-too-short = Vaša nahrávka bola príliš krátka.
 record-error-too-long = Vaša nahrávka bola príliš dlhá.
@@ -265,3 +268,5 @@ languages-show-more = Zobraziť viac
 languages-show-less = Zobraziť menej
 language-speakers = Počet hovoriacich
 language-total-progress = Celkovo
+language-search-input =
+    .placeholder = Hľadať
