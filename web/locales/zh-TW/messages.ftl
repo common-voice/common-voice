@@ -258,3 +258,5 @@ languages-show-more = 檢視更多
 languages-show-less = 檢視更少
 language-speakers = 使用者數
 language-total-progress = 總計
+language-search-input =
+    .placeholder = 搜尋
