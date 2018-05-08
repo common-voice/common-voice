@@ -7,6 +7,7 @@ get-involved-text = Takk for din viste interesse til å bidra til { $lang }. Vi 
 get-involved-form-title = Registrer deg for oppdateringar av { $lang }:
 get-involved-email =
     .label = E-post
+get-involved-opt-in = Ja, sendt e-post til meg. Jeg vil holde meg informert om utviklingen for dette språket på Common Voice.
 get-involved-submit = Send
 get-involved-success-text = Vi vil holde kontakten med mer informasjon, når det blir tilgjengelig.
 get-involved-return-to-languages = Tilbake til språkene

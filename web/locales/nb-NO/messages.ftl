@@ -80,12 +80,18 @@ show-wall-of-text = Les mer
 help-us-title = Hjelp oss med å validere setninger!
 vote-yes = Ja
 vote-no = Nei
+request-language-text = Ser du ikke språket ditt på Common Voice ennå?
 request-language-button = Send en forespørsel om et nytt språk
 
 ## ProjectStatus
 
 status-title = Samlet prosjektstatus: Se hvor langt vi har kommet!
 status-contribute = Bidra med din stemme
+status-hours =
+    { $hours ->
+        [one] Én validert time til nå!
+       *[other] { $hours } validerte timer til nå!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Neste mål: { $goal }
@@ -125,6 +131,7 @@ profile-close = Lukk
 faq-title = Ofte stilte spørsmål
 faq-what-q = Hva er Common Voice?
 faq-important-q = Hvorfor er det viktig?
+faq-get-q = Hvordan får jeg tilgang til data fra Common Voice?
 
 ## Profile
 
@@ -148,12 +155,32 @@ license-mixed = Blandet
 
 ## Record Page
 
+record-platform-not-supported-ios = <bold>iOS</bold>-brukere kan laste ned gratisappen vår:
+record-must-allow-microphone = Du må tillate tilgang til mikrofonen.
+record-cancel = Avbryt nyinnspillingen
 record-retry = Prøv igjen
+record-error-too-short = Innspillingen var for kort.
+record-error-too-long = Innspillingen var for lang.
+record-error-too-quiet = Innspillingen var for stille.
+record-submit-success = Sendt inn! Vil du spille inn mer?
+record-help = Trykk for å spille inn, les deretter setningen ovenfor høyt.
+record-cancel = Avbryt nyinnspillingen
 terms-agree = Jeg godtar
 terms-disagree = Jeg godtar ikke
+review-recording = Vurder
+review-rerecord = Spill inn på nytt
+review-cancel = Avbryt innsending
+review-keep-recordings = Behold opptakene
+review-delete-recordings = Slett opptakene mine
 
 ## Download Modal
 
+download-title = Nedlastingen din har startet.
+download-helpus = Hjelp oss med å bygge en fellesskap omkring stemmeteknologi, hold kontakten via e-post.
+download-form-email =
+    .label = Skriv inn e-postadressen din
+    .value = Takk skal du ha, vi kontakter deg.
+download-no = Nei takk
 
 ## Contact Modal
 
@@ -167,12 +194,15 @@ contact-required = *påkrevd
 
 ## Request Language Modal
 
+request-language-title = Språkforespørsel
 request-language-cancel = Avslutt skjemaet
 request-language-form-language =
     .label = Språk
+request-language-success-title = Språkforespørselen er sendt inn. Takk skal du ha.
 
 ## Languages Overview
 
+language-section-launched = Lansert
 languages-show-more = Vis mer
 languages-show-less = Vis mindre
 language-speakers = Talt av
