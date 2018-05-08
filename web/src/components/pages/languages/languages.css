@@ -162,6 +162,26 @@
         margin-left: calc(-100vw);
     }
 
+    & .search {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        & input {
+            border: none;
+            font-size: 1.8rem;
+            font-family: var(--strong-font-family);
+        }
+
+        & a {
+            margin-right: 2rem;
+            
+            & img {
+                width: 14px;
+            }
+        }
+    }
+
     & .language-sections {
         display: flex;
         width: 200vw;

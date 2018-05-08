@@ -259,3 +259,5 @@ languages-show-more = See More
 languages-show-less = See Less
 language-speakers = Speakers
 language-total-progress = Total
+language-search-input =
+    .placeholder = Search
