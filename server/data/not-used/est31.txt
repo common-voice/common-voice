@@ -94,7 +94,7 @@ The second product of the company turned out to be a great success.
 The train came thirteen minutes late.
 The issue can be avoided entirely.
 This no good alternative.
-The shop is open from 8am to 8pm.
+The shop is open from eight am to eight pm.
 The shop is closed on Mondays.
 If you tell me why you came here, I'll show you the project I've been working on.
 It's too early to tell whether the strategy will pay off.
@@ -157,7 +157,7 @@ In the end this led to the second sacking of the city.
 There was no replacement for armed forces lost in the fight.
 There was not enough economic power left to rebuild the city guards.
 It didn't help that back then the empire was in the midst of a succession conflict.
-So the city was left defenseless for a period of 20 years.
+So the city was left defenseless for a period of twenty years.
 It led to a large exodus of the city, with a majority of the population leaving.
 After the empire got a stable government again, the city was reclaimed.
 But it was only an image of its former self.
@@ -179,7 +179,7 @@ The final chapter in the city's history has not been opened yet.
 The attraction between moon and earth goes both ways, which causes tides.
 Marine life has adapted to tides.
 Different species have different ways of dealing with tides.
-At the start of the 21st century, we are searching for alternative energy sources.
+At the start of the twenty-first century, we are searching for alternative energy sources.
 Oil doesn't make it anymore, it harms the climate.
 Same for coal.
 I wonder whether we will be able to harvest energy from fusion reactors.
