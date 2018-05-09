@@ -10,6 +10,7 @@ import { User } from '../../../stores/user';
 import ListenBox from '../../listen-box/listen-box';
 import Modal from '../../modal/modal';
 import ProgressButton from '../../progress-button';
+import { TextButton } from '../../ui/ui';
 import ProfileActions from './profile-actions';
 
 interface PropsFromState {
@@ -202,7 +203,7 @@ class Review extends React.Component<Props, State> {
         <br />
         <div className="actions">
           <Localized id="review-cancel">
-            <a href="#" onClick={this.toggleResetModal} />
+            <TextButton onClick={this.toggleResetModal} />
           </Localized>
           <Localized id="submit-form-action">
             <ProgressButton

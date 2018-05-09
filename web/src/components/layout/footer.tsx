@@ -11,6 +11,7 @@ import {
   SupportIcon,
   GithubIcon,
 } from '../ui/icons';
+import { TextButton } from '../ui/ui';
 import Logo from './logo';
 
 import './footer.css';
@@ -71,12 +72,12 @@ class Footer extends React.PureComponent<LocalizationProps, FooterState> {
             <div>Discourse</div>
           </a>
           <div className="divider" />
-          <a href="#" onClick={this.toggleContactModal}>
+          <TextButton onClick={this.toggleContactModal}>
             <ContactIcon />
             <Localized id="contact">
               <div />
             </Localized>
-          </a>
+          </TextButton>
         </div>
         <div id="moz-links">
           <div className="logo-container">
@@ -153,9 +154,8 @@ class Footer extends React.PureComponent<LocalizationProps, FooterState> {
             </div>
           </div>
           <Localized id="back-top">
-            <a
+            <TextButton
               className="back-top"
-              href="#"
               onClick={() => {
                 window.scrollTo({
                   top: 0,

@@ -49,7 +49,7 @@
     align-items: center;
 }
 
-#voice-submit .actions a {
+#voice-submit .actions .text-button {
     font-size: var(--font-size-small);
     font-weight: 600;
     text-decoration: underline;
@@ -61,7 +61,7 @@
         flex-direction: column-reverse;
     }
 
-    #voice-submit .actions button {
+    #voice-submit .actions .progress-button {
         margin-bottom: var(--standard-margin);
     }
 }
@@ -72,7 +72,7 @@
         height: 5rem;
     }
 
-    #voice-submit .actions button {
+    #voice-submit .actions .progress-button {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);

@@ -17,7 +17,7 @@ footer {
         height: 9.3rem;
     }
 
-    & a {
+    & a, & button {
         box-sizing: border-box;
         text-align: center;
         width: 10rem;

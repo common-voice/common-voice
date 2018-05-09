@@ -6,8 +6,8 @@
     text-align: start;
 
     & .cancel {
+        margin-left: auto;
         display: flex;
-        justify-content: end;
         font-size: var(--font-size-small);
         font-weight: 600;
         text-decoration: underline;

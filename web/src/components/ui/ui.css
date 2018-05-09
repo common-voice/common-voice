@@ -165,3 +165,9 @@ body:not(.mobile-safari) .button.card-action:hover path,
         }
     }
 }
+
+.text-button {
+    border: none;
+    background: none;
+    font-family: var(--base-font-family);
+}

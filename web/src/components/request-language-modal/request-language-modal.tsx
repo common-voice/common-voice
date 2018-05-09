@@ -3,7 +3,7 @@ import ISO6391 from 'iso-639-1';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import Modal from '../modal/modal';
-import { Button, Hr, LabeledInput, LabeledSelect } from '../ui/ui';
+import { Button, Hr, LabeledInput, LabeledSelect, TextButton } from '../ui/ui';
 import { RequestedLanguages } from '../../stores/requested-languages';
 import StateTree from '../../stores/tree';
 import { User } from '../../stores/user';
@@ -92,7 +92,7 @@ class RequestLanguageModal extends React.Component<Props, State> {
                 <h2 />
               </Localized>
               <Localized id="request-language-cancel">
-                <a href="#" onClick={this.props.onRequestClose} />
+                <TextButton onClick={this.props.onRequestClose} />
               </Localized>
             </div>
 

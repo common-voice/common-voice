@@ -64,3 +64,7 @@ export const LabeledSelect = (props: any) => (
 export const LabeledTextArea = (props: any) => (
   <LabeledFormControl component="textarea" {...props} />
 );
+
+export const TextButton = ({ className = '', ...props }: any) => (
+  <button type="button" className={'text-button ' + className} {...props} />
+);

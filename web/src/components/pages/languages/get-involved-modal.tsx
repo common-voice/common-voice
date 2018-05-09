@@ -4,7 +4,7 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import Modal from '../../modal/modal';
 import { SuccessIcon } from '../../ui/icons';
-import { Button, Hr, LabeledInput } from '../../ui/ui';
+import { Button, Hr, LabeledInput, TextButton } from '../../ui/ui';
 import { RequestedLanguages } from '../../../stores/requested-languages';
 import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
@@ -63,7 +63,7 @@ class GetInvolvedModal extends React.Component<Props, State> {
     return (
       <Modal innerClassName="get-involved-modal">
         <Localized id="get-involved-cancel">
-          <a className="cancel" href="#" onClick={onRequestClose} />
+          <TextButton className="cancel" onClick={onRequestClose} />
         </Localized>
         <br />
         <Localized id="get-involved-title" $lang={nativeName}>

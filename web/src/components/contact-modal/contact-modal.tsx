@@ -1,7 +1,7 @@
+import { Localized } from 'fluent-react';
 import * as React from 'react';
 import Modal from '../modal/modal';
-import { Button, LabeledInput, LabeledTextArea } from '../ui/ui';
-import { Localized } from 'fluent-react';
+import { Button, LabeledInput, LabeledTextArea, TextButton } from '../ui/ui';
 
 interface Props {
   onRequestClose: () => void;
@@ -15,7 +15,7 @@ export default ({ onRequestClose }: Props) => (
           <h1 />
         </Localized>
         <Localized id="contact-cancel">
-          <a href="#" onClick={onRequestClose} />
+          <TextButton onClick={onRequestClose} />
         </Localized>
       </div>
 

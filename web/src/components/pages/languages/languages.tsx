@@ -5,7 +5,7 @@ import API from '../../../services/api';
 import StateTree from '../../../stores/tree';
 import RequestLanguageModal from '../../request-language-modal/request-language-modal';
 import { CloseIcon, SearchIcon } from '../../ui/icons';
-import { Button, Hr } from '../../ui/ui';
+import {Button, Hr, TextButton} from '../../ui/ui';
 import LocalizationBox, { LoadingLocalizationBox } from './localization-box';
 import { getNativeNameWithFallback } from '../../../services/localization';
 
@@ -180,9 +180,9 @@ class LanguagesPage extends React.PureComponent<Props, State> {
                 />
               </Localized>
 
-              <a href="#" onClick={this.toggleSearch}>
+              <TextButton onClick={this.toggleSearch}>
                 <SearchIcon />
-              </a>
+              </TextButton>
             </div>
           </div>
         )}
@@ -201,9 +201,9 @@ class LanguagesPage extends React.PureComponent<Props, State> {
                   ref={this.searchInputRef}
                 />
               </Localized>
-              <a href="#" onClick={this.toggleSearch}>
+              <TextButton onClick={this.toggleSearch}>
                 <CloseIcon black />
-              </a>
+              </TextButton>
             </div>
             <Hr />
           </React.Fragment>
@@ -219,9 +219,9 @@ class LanguagesPage extends React.PureComponent<Props, State> {
                   <Localized id="language-section-in-progress">
                     <h1 style={{ marginRight: '1.5rem' }} />
                   </Localized>
-                  <a href="#" onClick={this.toggleSearch}>
+                  <TextButton onClick={this.toggleSearch}>
                     <SearchIcon />
-                  </a>
+                  </TextButton>
                 </div>
                 <Hr />
               </div>

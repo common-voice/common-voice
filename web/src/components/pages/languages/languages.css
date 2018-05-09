@@ -136,7 +136,7 @@
             cursor: pointer;
         }
 
-        & a {
+        & button {
             align-self: center;
             margin-left: auto;
         }
@@ -180,7 +180,7 @@
             font-family: var(--strong-font-family);
         }
 
-        & a {
+        & button {
             margin-right: 2rem;
             
             & img {

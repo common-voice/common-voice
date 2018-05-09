@@ -11,6 +11,7 @@ import { getItunesURL, isFocus, isNativeIOS } from '../../../utility';
 import Alert from '../../alert/alert';
 import Modal from '../../modal/modal';
 import { FontIcon, RecordIcon } from '../../ui/icons';
+import { TextButton } from '../../ui/ui';
 import AudioIOS from './audio-ios';
 import AudioWeb, { AudioInfo } from './audio-web';
 import ProfileActions from './profile-actions';
@@ -368,8 +369,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
                 </button>
                 {reRecordSentence && (
                   <Localized id="record-cancel">
-                    <a
-                      href="#"
+                    <TextButton
                       className="rerecord"
                       onClick={this.cancelReRecord}
                     />
