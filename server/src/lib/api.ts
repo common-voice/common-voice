@@ -47,10 +47,10 @@ export default class API {
     router.put('/user_clients/:id', this.saveUserClient);
     router.put('/users/:id', this.saveUser);
 
-    router.get('/sentences', this.getRandomSentences);
+    router.get('/:locale/sentences', this.getRandomSentences);
 
     router.use(
-      '/clips',
+      '/:locale/clips',
       (request: Request, response: Response, next: NextFunction) => {
         this.metrics.countClipRequest(request);
         next();
@@ -99,14 +99,13 @@ export default class API {
   };
 
   getRandomSentences = async (request: Request, response: Response) => {
+    const { headers, params } = request;
     const sentences = await this.model.findEligibleSentences(
       request.headers.uid as string,
+      params.locale,
       parseInt(request.query.count, 10) || 1
     );
 
-    if (sentences.length === 0) {
-      throw new ServerError('No sentences right now');
-    }
     response.json(sentences);
   };
 

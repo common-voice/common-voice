@@ -21,7 +21,8 @@ try {
   localStorage.removeItem(USER_KEY);
 }
 
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+const composeEnhancers =
+  (window as any).__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const store = createStore(
   function root(
     { recordings, user, clips, requestedLanguages, locale }: StateTree = {
@@ -40,9 +41,13 @@ const store = createStore(
       | Locale.Action
   ): StateTree {
     const newState = {
-      recordings: Recordings.reducer(recordings, action as Recordings.Action),
+      recordings: Recordings.reducer(
+        locale,
+        recordings,
+        action as Recordings.Action
+      ),
       user: User.reducer(user, action as User.Action),
-      clips: Clips.reducer(clips, action as Clips.Action),
+      clips: Clips.reducer(locale, clips, action as Clips.Action),
       requestedLanguages: RequestedLanguages.reducer(
         requestedLanguages,
         action as RequestedLanguages.Action
@@ -56,11 +61,7 @@ const store = createStore(
   composeEnhancers(applyMiddleware(thunk))
 );
 
-[
-  User.actions.update({}),
-  Clips.actions.refillCache(),
-  Recordings.actions.buildNewSentenceSet(),
-].forEach(store.dispatch.bind(store));
+store.dispatch(User.actions.update({}));
 
 const fieldTrackers: any = {
   email: () => trackProfile('give-email'),

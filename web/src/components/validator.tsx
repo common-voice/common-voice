@@ -17,9 +17,9 @@ interface PropsFromDispatch {
 interface Props extends PropsFromState, PropsFromDispatch {}
 
 export default connect<PropsFromState, PropsFromDispatch>(
-  ({ clips }: StateTree) => ({
-    clip: clips.next,
-    loadError: clips.loadError,
+  (state: StateTree) => ({
+    clip: Clips.selectors.localeClips(state).next,
+    loadError: Clips.selectors.localeClips(state).loadError,
   }),
   { vote: Clips.actions.vote }
 )(({ loadError, clip, vote }: Props) => (

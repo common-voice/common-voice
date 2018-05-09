@@ -396,13 +396,15 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
   }
 }
 
-const mapStateToProps = ({ api, recordings }: StateTree) => ({
-  api,
-  areSentencesLoaded: Recordings.selectors.areEnoughSentencesLoaded(recordings),
-  isSetFull: Recordings.selectors.isSetFull(recordings),
-  recordingsCount: Recordings.selectors.recordingsCount(recordings),
-  reRecordSentence: recordings.reRecordSentence,
-  sentenceRecordings: recordings.sentenceRecordings,
+const mapStateToProps = (state: StateTree) => ({
+  api: state.api,
+  areSentencesLoaded: Recordings.selectors.areEnoughSentencesLoaded(state),
+  isSetFull: Recordings.selectors.isSetFull(state),
+  recordingsCount: Recordings.selectors.recordingsCount(state),
+  reRecordSentence: Recordings.selectors.localeRecordings(state)
+    .reRecordSentence,
+  sentenceRecordings: Recordings.selectors.localeRecordings(state)
+    .sentenceRecordings,
 });
 
 const mapDispatchToProps = {

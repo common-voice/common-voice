@@ -1,4 +1,5 @@
 import { Action as ReduxAction, Dispatch } from 'redux';
+const contributableLocales = require('../../../locales/contributable.json') as string[];
 import StateTree from './tree';
 import { User } from './user';
 
@@ -13,10 +14,16 @@ export namespace Clips {
   }
 
   export interface State {
-    cache: Clip[];
-    next?: Clip;
-    loadError: boolean;
+    [locale: string]: {
+      cache: Clip[];
+      next?: Clip;
+      loadError: boolean;
+    };
   }
+
+  const localeClips = ({ locale, clips }: StateTree) => clips[locale];
+
+  export const selectors = { localeClips };
 
   enum ActionType {
     REFILL_CACHE = 'REFILL_CLIPS_CACHE',
@@ -49,13 +56,13 @@ export namespace Clips {
       dispatch: Dispatch<RefillCacheAction>,
       getState: () => StateTree
     ) => {
-      const { api, clips } = getState();
-      if (clips.cache.length > MIN_CACHE_SIZE) {
+      const state = getState();
+      if (localeClips(state).cache.length > MIN_CACHE_SIZE) {
         return;
       }
 
       try {
-        const clips = await api.fetchRandomClips(MIN_CACHE_SIZE);
+        const clips = await state.api.fetchRandomClips(MIN_CACHE_SIZE);
         dispatch({
           type: ActionType.REFILL_CACHE,
           clips: clips.map(clip => ({
@@ -79,9 +86,9 @@ export namespace Clips {
       dispatch: Dispatch<NewClipAction | RefillCacheAction>,
       getState: () => StateTree
     ) => {
-      const { api, clips } = getState();
-      const { id } = clips.next;
-      await api.saveVote(id, isValid);
+      const state = getState();
+      const { id } = localeClips(state).next;
+      await state.api.saveVote(id, isValid);
       dispatch(User.actions.tallyVerification());
       dispatch({ type: ActionType.NEXT_CLIP });
       actions.refillCache()(dispatch, getState);
@@ -89,30 +96,43 @@ export namespace Clips {
   };
 
   export function reducer(
-    state: State = {
-      cache: [],
-      next: null,
-      loadError: false,
-    },
+    locale: string,
+    state: State = contributableLocales.reduce(
+      (state, locale) => ({
+        ...state,
+        [locale]: {
+          cache: [],
+          next: null,
+          loadError: false,
+        },
+      }),
+      {}
+    ),
     action: Action
   ): State {
+    const localeState = state[locale];
+
     switch (action.type) {
       case ActionType.REFILL_CACHE: {
         const { clips } = action;
-        const cache = clips ? state.cache.concat(clips) : state.cache;
-        const next = state.next || cache.shift();
+        const cache = clips
+          ? localeState.cache.concat(clips)
+          : localeState.cache;
+        const next = localeState.next || cache.shift();
         return {
           ...state,
-          cache,
-          loadError: !next,
-          next,
+          [locale]: {
+            cache,
+            loadError: !next,
+            next,
+          },
         };
       }
 
       case ActionType.NEXT_CLIP: {
-        const cache = state.cache.slice();
+        const cache = localeState.cache.slice();
         const next = cache.pop();
-        return { ...state, cache, next };
+        return { ...state, [locale]: { ...localeState, cache, next } };
       }
 
       default:

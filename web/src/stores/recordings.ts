@@ -1,7 +1,8 @@
 import { Action as ReduxAction, Dispatch } from 'redux';
 import { createSelector } from 'reselect';
-import StateTree from './tree';
+const contributableLocales = require('../../../locales/contributable.json') as string[];
 import { trackRecording } from '../services/tracker';
+import StateTree from './tree';
 
 const CACHE_SET_COUNT = 9;
 const SET_COUNT = 3;
@@ -16,11 +17,18 @@ export namespace Recordings {
     [sentence: string]: Recording;
   }
 
-  export interface State {
+  interface LocaleRecordings {
     reRecordSentence?: string;
     sentenceCache: string[];
     sentenceRecordings: SentenceRecordings;
   }
+
+  export interface State {
+    [locale: string]: LocaleRecordings;
+  }
+
+  const localeRecordings = ({ locale, recordings }: StateTree) =>
+    recordings[locale];
 
   enum ActionType {
     SET_RECORDING = 'SET_RECORDING',
@@ -70,8 +78,7 @@ export namespace Recordings {
     ) => {
       try {
         const state = getState();
-        const { recordings } = state;
-        if (recordings.sentenceCache.length >= CACHE_SET_COUNT) {
+        if (localeRecordings(state).sentenceCache.length >= CACHE_SET_COUNT) {
           return;
         }
         const newSentences = await state.api.fetchRandomSentences(
@@ -90,11 +97,11 @@ export namespace Recordings {
       dispatch: Dispatch<RefillSentenceCacheAction | SetSentencesAction>,
       getState: () => StateTree
     ) => {
-      if (!selectors.areEnoughSentencesLoaded(getState().recordings)) {
+      if (!selectors.areEnoughSentencesLoaded(getState())) {
         await actions.refillSentenceCache()(dispatch, getState);
       }
 
-      const sentenceCache = getState().recordings.sentenceCache.slice();
+      const sentenceCache = localeRecordings(getState()).sentenceCache.slice();
       dispatch({
         type: ActionType.SET_SENTENCES,
         sentences: sentenceCache.splice(0, SET_COUNT),
@@ -114,51 +121,72 @@ export namespace Recordings {
   };
 
   export function reducer(
-    state: State = {
-      reRecordSentence: null,
-      sentenceRecordings: {},
-      sentenceCache: [],
-    },
+    locale: string,
+    state: State = contributableLocales.reduce(
+      (state, locale) => ({
+        ...state,
+        [locale]: {
+          reRecordSentence: null,
+          sentenceRecordings: {},
+          sentenceCache: [],
+        },
+      }),
+      {}
+    ),
     action: Action
   ): State {
+    const localeState = state[locale];
+
     switch (action.type) {
       case ActionType.SET_RECORDING:
         const { sentence, recording } = action;
-        if (state.sentenceRecordings[sentence]) {
+        if (localeState.sentenceRecordings[sentence]) {
           trackRecording('rerecord');
         }
         return {
           ...state,
-          reRecordSentence: null,
-          sentenceRecordings: {
-            ...state.sentenceRecordings,
-            [sentence]: recording,
+          [locale]: {
+            ...localeState,
+            reRecordSentence: null,
+            sentenceRecordings: {
+              ...localeState.sentenceRecordings,
+              [sentence]: recording,
+            },
           },
         };
 
       case ActionType.REFILL_SENTENCE_CACHE:
         return {
           ...state,
-          sentenceCache: state.sentenceCache.concat(action.sentences),
+          [locale]: {
+            ...localeState,
+            sentenceCache: localeState.sentenceCache.concat(action.sentences),
+          },
         };
 
       case ActionType.SET_SENTENCES:
         return {
           ...state,
-          sentenceCache: action.sentenceCache,
-          sentenceRecordings: action.sentences.reduce(
-            (obj: SentenceRecordings, sentence: string) => {
-              obj[sentence] = null;
-              return obj;
-            },
-            {}
-          ),
+          [locale]: {
+            ...localeState,
+            sentenceCache: action.sentenceCache,
+            sentenceRecordings: action.sentences.reduce(
+              (obj: SentenceRecordings, sentence: string) => {
+                obj[sentence] = null;
+                return obj;
+              },
+              {}
+            ),
+          },
         };
 
       case ActionType.RE_RECORD_SENTENCE:
         return {
           ...state,
-          reRecordSentence: action.sentence,
+          [locale]: {
+            ...localeState,
+            reRecordSentence: action.sentence,
+          },
         };
 
       default:
@@ -167,14 +195,16 @@ export namespace Recordings {
   }
 
   export const selectors = {
-    areEnoughSentencesLoaded: createSelector<State, string[], boolean>(
-      state => state.sentenceCache,
+    localeRecordings,
+
+    areEnoughSentencesLoaded: createSelector<StateTree, string[], boolean>(
+      state => localeRecordings(state).sentenceCache,
       sentenceCache => sentenceCache.length >= SET_COUNT
     ),
 
-    isSetFull: createSelector<State, SentenceRecordings, string, boolean>(
-      state => state.sentenceRecordings,
-      state => state.reRecordSentence,
+    isSetFull: createSelector<StateTree, SentenceRecordings, string, boolean>(
+      state => localeRecordings(state).sentenceRecordings,
+      state => localeRecordings(state).reRecordSentence,
       (sentenceRecordings, reRecordSentence) =>
         !reRecordSentence &&
         Object.entries(sentenceRecordings).filter(
@@ -182,8 +212,8 @@ export namespace Recordings {
         ).length >= SET_COUNT
     ),
 
-    recordingsCount: createSelector<State, SentenceRecordings, number>(
-      state => state.sentenceRecordings,
+    recordingsCount: createSelector<StateTree, SentenceRecordings, number>(
+      state => localeRecordings(state).sentenceRecordings,
       sentenceRecordings =>
         Object.keys(sentenceRecordings).reduce(
           (sum, sentence) => sum + (sentenceRecordings[sentence] ? 1 : 0),

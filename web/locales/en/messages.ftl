@@ -97,6 +97,18 @@ help-us-title = Help us validate sentences!
 help-us-explain = Press play, listen & tell us: did they accurately speak the sentence below?
 vote-yes = Yes
 vote-no = No
+toggle-play-tooltip = Press { shortcut-play-toggle } to toggle play mode
+
+## Shortcuts
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 request-language-text = Don't see your language on Common Voice yet?
 request-language-button = Request a Language

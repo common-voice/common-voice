@@ -218,11 +218,12 @@ class Review extends React.Component<Props, State> {
   }
 }
 
-const mapStateToProps = ({ api, recordings, user }: StateTree) => ({
-  api,
-  recordingsCount: Recordings.selectors.recordingsCount(recordings),
-  sentenceRecordings: recordings.sentenceRecordings,
-  user,
+const mapStateToProps = (state: StateTree) => ({
+  api: state.api,
+  recordingsCount: Recordings.selectors.recordingsCount(state),
+  sentenceRecordings: Recordings.selectors.localeRecordings(state)
+    .sentenceRecordings,
+  user: state.user,
 });
 
 const mapDispatchToProps = {

@@ -107,7 +107,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
           top: 0,
           behavior: 'smooth',
         });
-      }, 500);
+      }, 250);
     }
   }
 
@@ -374,10 +374,10 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   }
 }
 
-const mapStateToProps = ({ locale, recordings, user }: StateTree) => ({
-  locale,
-  isSetFull: Recordings.selectors.isSetFull(recordings),
-  user,
+const mapStateToProps = (state: StateTree) => ({
+  locale: state.locale,
+  isSetFull: Recordings.selectors.isSetFull(state),
+  user: state.user,
 });
 
 const mapDispatchToProps = {
