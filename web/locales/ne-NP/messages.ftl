@@ -88,16 +88,34 @@ home-title = Common Voice प्रोजेक्ट मेसिनहरू �
 home-cta = बोल्नुहोस्, यहाँ योगदान गर्नुहोस् !
 show-wall-of-text = अझ पढ्नुहोस्
 help-us-title = हामीलाई वाक्य प्रमाणित गर्न सहयोग गर्नुहोस् !
+help-us-explain = प्ले थिच्नुहोस् , सुन्नुहोस् र हामीलाई बताउनुहोस्: के तिनिहरुले तलको वाक्य ठिकसँग बोले ?
 vote-yes = हो
 vote-no = होेइन
+toggle-play-tooltip = प्ले मोड टगल गर्न { shortcut-play-toggle } थिच्नुहोस्
 
 ## Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
+request-language-text = Common Voice मा तपाईँको भाषा अझै देख्नुभएन ?
 request-language-button = भाषा अनुरोध गर्नुहोस्
 
 ## ProjectStatus
 
+status-title = प्रोजेक्टको समग्र अवस्था: हेर्नुहोस् हामी कति टाढा अाइपुग्यौ !
 status-contribute = तपाईंको आवाज योगदान गर्नुहोस्
+status-hours =
+    { $hours ->
+        [one] एक वैध घन्टा अहिले सम्म !
+       *[other] { $hours } वैध घन्टा अहिले सम्म !
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = अर्को लक्ष्य: { $goal }
