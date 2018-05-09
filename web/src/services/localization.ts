@@ -13,8 +13,6 @@ export const LOCALES = isProduction()
   : Object.keys(locales);
 
 const localeNations: any = {
-  'es-AR': 'de Argentina',
-  'es-CL': 'de Chile',
   'pt-BR': 'Brasil',
   'sv-SE': 'Sverige',
   'zh-CN': '简体',
