@@ -11,6 +11,7 @@ loading = Laden…
 audio-loading-error = Sorry! We verwerken onze audiobestanden, probeer het binnenkort nog eens.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -39,6 +40,7 @@ ko = Koreaans
 kw = Cornish
 mk = Macedonisch
 nb-NO = Noors Bokmål
+ne-NP = Nepalees
 nl = Nederlands
 nn-NO = Noors Nynorsk
 or = Odia
@@ -48,6 +50,7 @@ ro = Roemeens
 ru = Russisch
 sk = Slowaaks
 sq = Albanees
+sr = Servisch
 sv-SE = Zweeds
 ta = Tamil
 te = Telugu
@@ -58,6 +61,9 @@ uk = Oekraïens
 uz = Oezbeeks
 zh-CN = Chinees (China)
 zh-TW = Chinees (Taiwan)
+
+# [/]
+
 
 ## Layout
 
@@ -88,6 +94,19 @@ help-us-title = Help ons zinnen te valideren!
 help-us-explain = Klik op de afspeelknop, luister en vertel ons: wordt de onderstaande zin juist uitgesproken?
 vote-yes = Ja
 vote-no = Nee
+toggle-play-tooltip = Druk op { shortcut-play-toggle } om de afspeelmodus in/uit te schakelen
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = J
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = N
 request-language-text = Ziet u uw taal nog niet op Common Voice?
 request-language-button = Een taal aanvragen
 
@@ -198,7 +217,6 @@ record-platform-not-supported = Sorry, maar uw platform wordt nog niet ondersteu
 record-platform-not-supported-desktop = Op desktopcomputers kunt u de meest recente downloaden:
 record-platform-not-supported-ios = <bold>iOS</bold>-gebruikers kunnen onze gratis app downloaden:
 record-must-allow-microphone = U dient toegang tot uw microfoon te geven.
-record-cancel = Nieuwe opname annuleren
 record-retry = Opnieuw proberen
 record-error-too-short = De opname was te kort.
 record-error-too-long = De opname was te lang.
@@ -256,3 +274,5 @@ languages-show-more = Meer zien
 languages-show-less = Minder zien
 language-speakers = Sprekers
 language-total-progress = Totaal
+language-search-input =
+    .placeholder = Zoeken
