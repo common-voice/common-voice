@@ -11,6 +11,7 @@ loading = 載入中…
 audio-loading-error = 很抱歉，我們正在處理音訊檔案，請稍候再試。
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -61,6 +62,9 @@ uz = 烏茲別克語
 zh-CN = 華語（中國）
 zh-TW = 華語（台灣）
 
+# [/]
+
+
 ## Layout
 
 speak = 說話
@@ -92,6 +96,19 @@ help-us-title = 請幫助我們驗證句子！
 help-us-explain = 按下播放按鈕，聽一聽，然後告訴我們: 他們正確說出下面的句子了嗎？
 vote-yes = 是
 vote-no = 否
+toggle-play-tooltip = 按下 { shortcut-play-toggle } 即可切換播放模式
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 request-language-text = 沒在 Common Voice 看到您的語言嗎？
 request-language-button = 要求新語言
 
@@ -201,7 +218,6 @@ record-platform-not-supported = 很抱歉，目前暫不支援您的平台。
 record-platform-not-supported-desktop = 在桌上型電腦，您可以下載最新版的:
 record-platform-not-supported-ios = <bold>iOS</bold> 使用者可下載我們的免費程式:
 record-must-allow-microphone = 您必須允許使用麥克風。
-record-cancel = 取消重新錄音
 record-retry = 重試
 record-error-too-short = 錄音太短了。
 record-error-too-long = 錄音太長了。
