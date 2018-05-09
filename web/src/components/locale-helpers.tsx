@@ -52,7 +52,7 @@ export const LocaleNavLink = localeConnector(
 
 // TODO: remove production guard
 export function isContributable(locale: string) {
-  return isProduction() ? ['en'] : contributableLocales.includes(locale);
+  return (isProduction() ? ['en'] : contributableLocales).includes(locale);
 }
 
 export const ContributableLocaleLock = localeConnector(
