@@ -94,6 +94,19 @@ help-us-title = Pomóż nam zweryfikować nagrania!
 help-us-explain = Odsłuchaj i potwierdź, czy zdanie jest poprawnie wymówione.
 vote-yes = Tak
 vote-no = Nie
+toggle-play-tooltip = Naciśnij { shortcut-play-toggle }, aby zmienić tryb odtwarzania
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = o
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = t
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 request-language-text = Common Voice nie oferuje jeszcze Twojego języka?
 request-language-button = Poproś o dodanie języka
 
