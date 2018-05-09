@@ -11,6 +11,7 @@ loading = Cargando…
 audio-loading-error = ¡Lo sentimos! Estamos procesando nuestros archivos de audio, por favor vuelve a intentarlo dentro de poco.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -25,6 +26,8 @@ de = Alemán
 el = Griego
 en = Inglés
 es = Español
+es-AR = Español (Argentina)
+es-CL = Español (Chile)
 fr = Francés
 fy-NL = Frisón
 ga-IE = Irlandés
@@ -59,6 +62,9 @@ uz = Uzbeko
 zh-CN = Chino (China)
 zh-TW = Chino (Taiwán)
 
+# [/]
+
+
 ## Layout
 
 speak = Hablar
@@ -88,6 +94,9 @@ help-us-title = ¡Ayúdanos a verificar oraciones!
 help-us-explain = Presiona reproducir, escucha y cuéntanos: ¿dijeron con precisión la oración anterior?
 vote-yes = Sí
 vote-no = No
+
+## Shortcuts
+
 request-language-text = ¿Aún no encuentras tu idioma en Common Voice?
 request-language-button = Solicitar un idioma
 
@@ -198,7 +207,6 @@ record-platform-not-supported = Lo sentimos, pero tu plataforma actualmente no e
 record-platform-not-supported-desktop = En computadores de escritorio, puedes descargar la última versión:
 record-platform-not-supported-ios = Los usuarios de <bold>iOS</bold> pueden descargar nuestra app gratuita:
 record-must-allow-microphone = Debe permitir acceso al micrófono.
-record-cancel = Cancelar regrabación
 record-retry = Reintentar
 record-error-too-short = La grabación fue muy corta.
 record-error-too-long = La grabación fue muy larga.
