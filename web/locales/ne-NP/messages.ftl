@@ -1,10 +1,13 @@
 ## General
 
+return-to-cv = Common Voice मा फर्किनुहोस्
 email-input =
     .label = इमेल
 submit-form-action = पेश गर्नुहोस्
+loading = लोड गरिदैं...
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -55,9 +58,13 @@ uz = उज्बेक
 zh-CN = चीनियाँ (चीन)
 zh-TW = चीनियाँ (ताइवान)
 
+# [/]
+
+
 ## Layout
 
 speak = बोल्नुहोस्
+datasets = डाटासेटहरु
 languages = भाषाहरू
 profile = प्रोफाइल
 help = मद्दत
@@ -73,6 +80,7 @@ back-top = माथी फिर्ता
 show-wall-of-text = अझ पढ्नुहोस्
 vote-yes = हो
 vote-no = होेइन
+request-language-button = भाषा अनुरोध गर्नुहोस्
 
 ## ProjectStatus
 
