@@ -207,8 +207,9 @@ review-delete-recordings = मेरो रेकर्डिङहरु मे
 ## Download Modal
 
 download-title = तपाईँको डाउनलोड सुरू भएको छ ।
+download-helpus = हामीलाई आवाज प्रविधिसँग सम्बन्धित एक समुदाय बनाउन मद्दत गर्नुहोस् , इमेल मार्फत सम्पर्कमा रहनुहोस् ।
 download-form-email =
-    .label = तपाईंको ईमेल प्रविष्ट गर्नुहोस्
+    .label = तपाईँको इमेल प्रविष्ट गर्नुहोस्
     .value = धन्यवाद, हामी सम्पर्कमा रहनेछौं ।
 download-back = Commom Voice डाटासेटहरुमा फर्किनुहोस्
 download-no = पर्दैन, धन्यबाद
@@ -230,6 +231,7 @@ request-language-cancel = फारम बन्द गर्नुहोस्
 request-language-form-language =
     .label = भाषा
 request-language-success-title = भाषा अनुरोध सफलतापूर्वक पेश गरियो, धन्यवाद ।
+request-language-success-content = हामी चाँडैनै तपाईँलाई तपाईँको भाषा Common Voice मा कसरी थप्ने भन्नेबारेमा थप जानकारी सहित सम्पर्क गर्नेछौँ ।
 
 ## Languages Overview
 
