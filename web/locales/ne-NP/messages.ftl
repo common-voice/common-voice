@@ -1,12 +1,14 @@
 ## General
 
 yes-receive-emails = हो, मलाई इमेल पठाउनुहोस् । म Common Voice प्रोजेक्टको बारेमा जानकारी लिई राख्न चाहन्छु ।
+stayintouch = हामी Mozilla मा आवाज प्रविधिसँग सम्बन्धित एक समुदाय बनाउँदै छौ । हामी अद्यावधिकहरू, नयाँ डाटा स्रोतहरू र तपाईँले यो डाटा कसरी प्रयोग गर्दै हुनुहुन्छ भन्ने बारेमा थप सुन्न सम्पर्कमा रहन चाहन्छौं ।
 privacy-info = हामी तपाईँको जानकारी हेरचाह पूर्वक प्रयोग गर्ने वाचा गर्दछौँ । हाम्रो <privacyLink>गोपनीयता सूचना</privacyLink> मा थप पढ्नुहोस् ।
 return-to-cv = Common Voice मा फर्किनुहोस्
 email-input =
     .label = इमेल
 submit-form-action = पेश गर्नुहोस्
 loading = लोड गरिदैं...
+audio-loading-error = माफ गर्नुहोस् । हामी हाम्रो अडियो फाईलहरू प्रशोधन गर्दैछौँ, कृपया पुनः प्रयास गर्नुहोस् ।
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -75,6 +77,7 @@ privacy = गोपनीयता
 terms = सर्तहरू
 cookies = कुकीहरू
 faq = धेरैजसो सोधिने प्रश्नहरू
+content-license-text = सामग्री <licenseLink>Creative Commons license</licenseLink> अन्तर्गत उपलब्ध छ ।
 share-title = हामीलाई अाफ्नो अावाज दान गर्नेहरु खोज्न सहयोग गर्नुहोस् !
 back-top = माथी फिर्ता
 
@@ -85,6 +88,9 @@ show-wall-of-text = अझ पढ्नुहोस्
 help-us-title = हामीलाई वाक्य प्रमाणित गर्न सहयोग गर्नुहोस् !
 vote-yes = हो
 vote-no = होेइन
+
+## Shortcuts
+
 request-language-button = भाषा अनुरोध गर्नुहोस्
 
 ## ProjectStatus
