@@ -115,12 +115,6 @@
   dependencies:
     "@types/node" "*"
 
-"@types/node-fetch@^1.6.7":
-  version "1.6.7"
-  resolved "https://registry.yarnpkg.com/@types/node-fetch/-/node-fetch-1.6.7.tgz#521078e8f0c69a158e5022005aca92d2620f6d57"
-  dependencies:
-    "@types/node" "*"
-
 "@types/node-static@^0.7.0":
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/@types/node-static/-/node-static-0.7.1.tgz#4d5caa4e137d98116b747a981fc5e1f9c8d4048e"
@@ -4811,7 +4805,7 @@ node-fetch@1.6.3:
     encoding "^0.1.11"
     is-stream "^1.0.1"
 
-node-fetch@^1.0.1, node-fetch@^1.7.3:
+node-fetch@^1.0.1:
   version "1.7.3"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-1.7.3.tgz#980f6f72d85211a5347c6b2bc18c5b84c3eb47ef"
   dependencies:
