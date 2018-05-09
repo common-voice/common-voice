@@ -4,7 +4,7 @@ import { Link, LinkProps, NavLink, NavLinkProps } from 'react-router-dom';
 const contributableLocales = require('../../../locales/contributable.json');
 import { Locale } from '../stores/locale';
 import StateTree from '../stores/tree';
-import { isStaging } from '../utility';
+import { isProduction, isStaging } from '../utility';
 
 export interface LocalePropsFromState {
   locale: Locale.State;
@@ -50,8 +50,11 @@ export const LocaleNavLink = localeConnector(
   )
 );
 
+// TODO: remove production guard
 export function isContributable(locale: string) {
-  return isStaging() || contributableLocales.includes(locale);
+  return isProduction()
+    ? ['en']
+    : isStaging() || contributableLocales.includes(locale);
 }
 
 export const ContributableLocaleLock = localeConnector(
