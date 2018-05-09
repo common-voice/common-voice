@@ -96,6 +96,18 @@ help-us-title = వాక్యాలు ధృవీకరించడాని
 help-us-explain = ప్లే మీటను నొక్కండి, వినండి & మాకు చెప్పండి; వారు ఈ కింది వాక్యాన్ని సరిగ్గా పలికారా లేదా?
 vote-yes = అవును
 vote-no = కాదు
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 request-language-text = ఇంకా Common Voiceలో మీ భాషను చూడలేదా?
 request-language-button = ఒక భాషని అభ్యర్థించండి
 
@@ -178,6 +190,7 @@ data-download-yes = అవును
 data-download-deny = కాదు
 data-download-license = లైసెన్సు: <licenseLink>సీసీ-0</licenseLink>
 data-download-modal = మీరు <size> { $size } GB </ size> గల దింపుకోలు ప్రారంభించబోతున్నారు, కొనసాగాలా ?
+data-get-started = <speechBlogLink>స్పీచ్ రికగ్నిషన్‌ మొదలుపెట్టండి</speechBlogLink>
 data-other-title = ఇతర వాయిస్ డేటాసెట్లు...
 data-other-goto = { $name }కు వెళ్ళండి
 data-other-download = డేటాను దింపుకోండి
