@@ -2,6 +2,7 @@ import { Localized } from 'fluent-react';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import API from '../../../services/api';
+import { isProduction } from '../../../utility';
 import StateTree from '../../../stores/tree';
 import RequestLanguageModal from '../../request-language-modal/request-language-modal';
 import { CloseIcon, SearchIcon } from '../../ui/icons';
@@ -180,9 +181,11 @@ class LanguagesPage extends React.PureComponent<Props, State> {
                 />
               </Localized>
 
-              <TextButton onClick={this.toggleSearch}>
-                <SearchIcon />
-              </TextButton>
+              {!isProduction() && (
+                <TextButton onClick={this.toggleSearch}>
+                  <SearchIcon />
+                </TextButton>
+              )}
             </div>
           </div>
         )}
@@ -219,9 +222,11 @@ class LanguagesPage extends React.PureComponent<Props, State> {
                   <Localized id="language-section-in-progress">
                     <h1 style={{ marginRight: '1.5rem' }} />
                   </Localized>
-                  <TextButton onClick={this.toggleSearch}>
-                    <SearchIcon />
-                  </TextButton>
+                  {!isProduction() && (
+                    <TextButton onClick={this.toggleSearch}>
+                      <SearchIcon />
+                    </TextButton>
+                  )}
                 </div>
                 <Hr />
               </div>
