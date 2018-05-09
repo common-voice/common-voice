@@ -157,6 +157,9 @@ faq-what-q = Common Voice के हो ?
 faq-important-q = यो किन महत्त्वपूर्ण छ ?
 faq-get-q = मैले Common Voice डाटा कसरी पाउन सक्छु ?
 faq-get-a = यो डाटासेट हाम्रो <downloadLink>डाउनलोड पृष्ठमा</downloadLink> <licenseLink>CC-0</licenseLink> लाइसेन्स अन्तर्गत उपलब्ध छ ।
+faq-mission-q = किन Common Voice Mozilla को मिशनको एउटा भाग हो ?
+faq-firefox-q = के कुनै दिन Common Voice को तर्फबाट हुने speech-to-text Firefox को भाग हुनेछ ?
+faq-source-q = स्रोत पाठ कहाँबाट अाउछ ?
 
 ## Profile
 
@@ -165,6 +168,7 @@ profile-why-title = प्रोफाइल किन ?
 ## NotFound
 
 notfound-title = भेटिएन
+notfound-content = माफ गर्नुहोस्, मलाई तपाईंले खोज्नु भएको कुरा थाहा छैन ।
 
 ## Data
 
@@ -172,11 +176,13 @@ data-download-button = Common Voice डाटा डाउनलोड गर्
 data-download-yes = हो
 data-download-deny = होेइन
 data-download-license = लाइसेन्स: <licenseLink>CC-0</licenseLink>
+data-get-started = <speechBlogLink>बोलि पहिचान सँग सुरु गर्नुहोस् </speechBlogLink>
 data-other-title = अन्य आवाज डाटासेटहरू...
 data-other-goto = { $name } मा जानुहोस्
 data-other-download = डाटा डाउनलोड गर्नुहोस
 data-other-ted-name = TED-LIUM Corpus
 data-bundle-button = डाटासेट बन्डल डाउनलोड गर्नुहोस्
+data-bundle-description = Common Voice डाटा र माथिका अन्य सबै अावाज डाटासेटहरु ।
 license = लाइसेन्स: <licenseLink>{ $license }</licenseLink>
 license-mixed = मिश्रित
 
@@ -190,6 +196,7 @@ record-retry = पुनः प्रयास गर्नुहोस्
 record-error-too-short = रेकर्डिङ निकै छोटो थियो ।
 record-error-too-long = रेकर्डिङ निकै लामो थियो ।
 record-error-too-quiet = रेकर्डिङ धेरै शान्त थियो ।
+record-submit-success = सफलतापूर्वक पेश भयो ! पुनः रेकर्ड गर्न चाहनुहुन्छ ?
 record-help = कृपया रेकर्ड गर्न थिच्नुहोस्, त्यसपछि माथिको वाक्य ठुलो स्वरले पढ्नुहोस् ।
 record-cancel = पुन: रेकर्डिङ रद्द गर्नुहोस्
 review-terms = Common Voice गर्दा तपाईंले हाम्रो <termsLink>सर्तहरू</termsLink>  र <privacyLink>गोपनीयता सूचना</privacyLink> मा सहमत हुनुहुनेछ
