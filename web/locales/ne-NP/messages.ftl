@@ -144,22 +144,66 @@ data-download-license = लाइसेन्स: <licenseLink>CC-0</licenseLink
 data-other-title = अन्य आवाज डाटासेटहरू...
 data-other-download = डाटा डाउनलोड गर्नुहोस
 data-other-ted-name = TED-LIUM Corpus
+data-bundle-button = डाटासेट बन्डल डाउनलोड गर्नुहोस्
+license = लाइसेन्स: <licenseLink>{ $license }</licenseLink>
+license-mixed = मिश्रित
 
 ## Record Page
 
+record-platform-not-supported = माफ गर्नुहोला, तर तपाइँको प्लेटफर्म हाल समर्थित छैन ।
+record-platform-not-supported-desktop = डेस्कटप कम्प्यूटरमा, तपाईंले नवीनतम डाउनलोड गर्न सक्नुहुन्छ:
+record-platform-not-supported-ios = <bold>iOS</bold> ले प्रयोगकर्ताहरूले हाम्रो नि: शुल्क अनुप्रयोग डाउनलोड गर्न सक्छन्:
+record-must-allow-microphone = तपाईंले माइक्रोफोनको प्रयोग गर्ने अनुमति दिनुपर्छ ।
+record-retry = पुनः प्रयास गर्नुहोस्
+record-error-too-short = रेकर्डिङ निकै छोटो थियो ।
+record-error-too-long = रेकर्डिङ निकै लामो थियो ।
+record-error-too-quiet = रेकर्डिङ धेरै शान्त थियो ।
+record-help = कृपया रेकर्ड गर्न थिच्नुहोस्, त्यसपछि माथिको वाक्य ठुलो स्वरले पढ्नुहोस् ।
+record-cancel = पुन: रेकर्डिङ रद्द गर्नुहोस्
+terms-agree = म सहमत छु
+terms-disagree = म सहमत छैन
+review-aborted = अपलोड रद्द गरियो । के तपाईं आफ्नो रेकर्डिङहरु मेटाउन चाहनुहुन्छ ?
+review-submit-title = समीक्षा गर्नुहोस् र पेश गर्नुहोस्
+review-submit-msg = रेकर्डिङ गर्नु भएकोमा धन्यवाद !<lineBreak></lineBreak>अब तलका क्लिपहरू समीक्षा गर्नुहोस् र पेश गर्नुहोस् ।
+review-recording = समीक्षा गर्नुहोस्
+review-rerecord = पुन: रेकर्ड गर्नुहोस्
+review-keep-recordings = मेरो रेकर्डिङहरु राख्नुहोस्
+review-delete-recordings = मेरो रेकर्डिङहरु मेट्नुहोस्
 
 ## Download Modal
 
+download-title = तपाईँको डाउनलोड सुरू भएको छ ।
+download-form-email =
+    .label = तपाईंको ईमेल प्रविष्ट गर्नुहोस्
+    .value = धन्यवाद, हामी सम्पर्कमा रहनेछौं ।
+download-back = Commom Voice डाटासेटहरुमा फर्किनुहोस्
+download-no = पर्दैन, धन्यबाद
 
 ## Contact Modal
 
+contact-title = सम्पर्क फारम
+contact-cancel = रद्द गर्नुहोस्
+contact-form-name =
+    .label = नाम
+contact-form-message =
+    .label = सन्देश
+contact-required = *अनिवार्य
 
 ## Request Language Modal
 
+request-language-title = भाषा अनुरोध
+request-language-cancel = फारम बन्द गर्नुहोस्
+request-language-form-language =
+    .label = भाषा
+request-language-success-title = भाषा अनुरोध सफलतापूर्वक पेश गरियो, धन्यवाद ।
 
 ## Languages Overview
 
+language-section-in-progress = प्रगति हुदैछ
+language-section-launched = सुरूवात गरियो
 languages-show-more = थप हेर्नुहोस्
 languages-show-less = थोरै हेर्नुहोस्
 language-speakers = स्पिकरहरू
 language-total-progress = जम्मा
+language-search-input =
+    .placeholder = खोजी गर्नुहोस्
