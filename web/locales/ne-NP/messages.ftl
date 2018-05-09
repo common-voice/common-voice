@@ -152,6 +152,7 @@ edit-profile = प्रोफाइल सम्पादन गर्नुह
 profile-create = प्रोफाइल सिर्जना गर्नुहोस्
 profile-create-success = सफलता, प्रोफाईल सिर्जना गरियो!
 profile-close = बन्द गर्नुहोस्
+profile-clear-modal = तपाईंको प्रोफाईल डाटा खाली गर्ने भन्नुको मतलब अब देखि Common Voice मा यस जनसांख्यिकीय जानकारी तपाईंको क्लिप रेकर्डिंगहरुको साथमा पेश गरिने छैन ।
 
 ## FAQ
 
@@ -162,9 +163,11 @@ faq-important-a = आवाज प्राकृतिक हो, आवाज 
 faq-get-q = मैले Common Voice डाटा कसरी पाउन सक्छु ?
 faq-get-a = यो डाटासेट हाम्रो <downloadLink>डाउनलोड पृष्ठमा</downloadLink> <licenseLink>CC-0</licenseLink> लाइसेन्स अन्तर्गत उपलब्ध छ ।
 faq-mission-q = Common Voice किन Mozilla को मिसनको एक भाग हो?
+faq-native-q = म एक गैर-देशी { $lang } स्पिकर हुँ र म भिन्न उच्चारणका साथ बोल्छु, के तपाई अझै पनि मेरो आवाज चाहनुहुन्छ ?
 faq-firefox-q = के कुनै दिन Common Voice को तर्फबाट हुने speech-to-text Firefox को भाग हुनेछ ?
 faq-quality-q = अडियो प्रयोग गर्नको लागि अडियोको गुणस्तरको स्तर के हो ?
 faq-hours-q = १०,००० घन्टा किन अडियो कैद गर्ने लक्ष्य हो?
+faq-hours-a = यो STT प्रणालीको उत्पादनलाई तालिम दिन अावश्यक पर्ने घण्टाको अनुमानित संख्या हो ।
 faq-source-q = स्रोत पाठ कहाँबाट अाउछ ?
 faq-source-a2 = तपाईंले हाम्रो स्रोत वाक्यहरू <dataLink> यो GitHub फोल्डर </ dataLink> मा हेर्न सक्नुहुन्छ ।
 
