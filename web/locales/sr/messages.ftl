@@ -9,9 +9,56 @@ loading = Учитавам…
 audio-loading-error = Извињавамо се! Обрађујемо аудио датотеке, покушајте поново нешто касније.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
+
+bn = Бенгалски
+ca = Каталонски
+cs = Чешки
+cv = Чуваши
+cy = Велшки
+da = Дански
+de = Немачки
+el = Грчки
+en = Енглески
+es = Шпански
+es-AR = Шпански (Аргентина)
+es-CL = Шпански (Чиле)
+fr = Француски
+fy-NL = Фризијски
+ga-IE = Ирски
+he = Хебрејски
+hu = Мађарски
+id = Индонежански
+it = Италијански
+ka = Грузински
+ko = Корејски
+kw = Корнишки
+mk = Македонски
+nb-NO = Норвешки Бокмал
+nl = Холандски
+nn-NO = Новонорвешки
+or = Одија
+pl = Пољски
+pt-BR = Португалски (Бразил)
+ro = Румунски
+ru = Руски
+sk = Словачки
+sq = Албански
+sv-SE = Шведски
+ta = Тамилски
+te = Телугу
+th = Тајландски
+tr = Турски
+tt = Татарски
+uk = Украјински
+uz = Узбекистански
+zh-CN = Кинески (Кина)
+zh-TW = Кинески (Тајван)
+
+# [/]
 
 
 ## Layout
@@ -40,6 +87,9 @@ help-us-title = Помозите нам са провером реченица!
 help-us-explain = Притисните дугме за пуштање, послушајте и кажите нам да ли је реченица испод изговорена правилно?
 vote-yes = Да
 vote-no = Не
+
+## Shortcuts
+
 request-language-button = Затражи језик
 
 ## ProjectStatus
