@@ -94,6 +94,19 @@ help-us-title = Helfen Sie uns beim Bestätigen von Sätzen!
 help-us-explain = Drücken Sie Play, hören Sie zu & erzählen Sie uns: Wurde der folgende Satz korrekt aufgesprochen?
 vote-yes = Ja
 vote-no = Nein
+toggle-play-tooltip = Drücken Sie { shortcut-play-toggle }, um den Wiedergabemodus an- oder auszuschalten
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = w
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = j
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 request-language-text = Ihre Sprache wird bei Common Voice noch nicht aufgeführt? Da lässt sich was machen!
 request-language-button = Anfrage schicken
 
