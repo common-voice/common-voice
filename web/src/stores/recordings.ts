@@ -203,9 +203,10 @@ export namespace Recordings {
     ),
 
     isSetFull: createSelector<StateTree, SentenceRecordings, string, boolean>(
-      state => localeRecordings(state).sentenceRecordings,
-      state => localeRecordings(state).reRecordSentence,
+      state => (localeRecordings(state) || ({} as any)).sentenceRecordings,
+      state => (localeRecordings(state) || ({} as any)).reRecordSentence,
       (sentenceRecordings, reRecordSentence) =>
+        sentenceRecordings &&
         !reRecordSentence &&
         Object.entries(sentenceRecordings).filter(
           ([sentence, recording]) => recording

@@ -1,4 +1,5 @@
 import { Dispatch } from 'redux';
+const contributableLocales = require('../../../locales/contributable.json') as string[];
 import { Clips } from './clips';
 import { Recordings } from './recordings';
 import StateTree from './tree';
@@ -27,8 +28,10 @@ export namespace Locale {
         type: ActionType.SET,
         locale,
       });
-      dispatch(Recordings.actions.buildNewSentenceSet());
-      dispatch(Clips.actions.refillCache());
+      if (contributableLocales.includes(locale)) {
+        dispatch(Recordings.actions.buildNewSentenceSet());
+        dispatch(Clips.actions.refillCache());
+      }
     },
   };
 
