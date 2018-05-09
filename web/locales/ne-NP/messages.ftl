@@ -1,5 +1,6 @@
 ## General
 
+yes-receive-emails = हो, मलाई इमेल पठाउनुहोस् । म Common Voice प्रोजेक्टको बारेमा जानकारी लिई राख्न चाहन्छु ।
 return-to-cv = Common Voice मा फर्किनुहोस्
 email-input =
     .label = इमेल
