@@ -11,6 +11,7 @@ loading = 加载中…
 audio-loading-error = 抱歉！我们正在处理音频文件，请稍后再试。
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -39,6 +40,7 @@ ko = 韩语
 kw = 康沃尔语
 mk = 马其顿语
 nb-NO = 书面挪威语
+ne-NP = 尼泊尔语
 nl = 荷兰语
 nn-NO = 新挪威语
 or = 奥里亚语
@@ -48,6 +50,7 @@ ro = 罗马尼亚语
 ru = 俄语
 sk = 斯洛伐克语
 sq = 阿尔巴尼亚语
+sr = 塞尔维亚语
 sv-SE = 瑞典语
 ta = 泰米尔语
 te = 泰卢固语
@@ -58,6 +61,9 @@ uk = 乌克兰语
 uz = 乌兹别克语
 zh-CN = 汉语（中国）
 zh-TW = 汉语（台湾）
+
+# [/]
+
 
 ## Layout
 
@@ -88,6 +94,19 @@ help-us-title = 帮助我们验证语句！
 help-us-explain = 请点击播放，仔细聆听并告诉我们：他们是否准确地说出了下面的句子？
 vote-yes = 是
 vote-no = 否
+toggle-play-tooltip = 按下 { shortcut-play-toggle } 即可切换播放模式
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 request-language-text = 没在 Common Voice 看到您的语言吗？
 request-language-button = 请求新语言
 
@@ -197,7 +216,6 @@ record-platform-not-supported = 很抱歉，尚不支持您的平台。
 record-platform-not-supported-desktop = 您可以在桌面电脑上下载最新内容：
 record-platform-not-supported-ios = <bold>iOS</bold> 用户可以下载我们的免费应用程序：
 record-must-allow-microphone = 您必须允许访问麦克风。
-record-cancel = 取消重新录音
 record-retry = 重试
 record-error-too-short = 这份录音太短了。
 record-error-too-long = 这份录音太长了。
@@ -254,3 +272,5 @@ languages-show-more = 显示更多
 languages-show-less = 显示更少
 language-speakers = 使用人数
 language-total-progress = 总共
+language-search-input =
+    .placeholder = 搜索
