@@ -11,6 +11,7 @@ loading = Llwytho…
 audio-loading-error = Ymddiheuriadau! Rydym yn prosesu ein ffeiliau sain, ceisiwch eto cyn bo hir.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -61,6 +62,9 @@ uz = Wsbeceg
 zh-CN = Tsieinëeg (Tsiena)
 zh-TW = Tsieinëeg (Taiwan)
 
+# [/]
+
+
 ## Layout
 
 speak = Siarad
@@ -92,6 +96,19 @@ help-us-title = Helpwch ni i ddilysu brawddegau!
 help-us-explain = Pwyswch chwarae, gwrando a dweud: ydyn nhw wedi dweud y frawddeg isod yn iawn?
 vote-yes = Iawn
 vote-no = Na
+toggle-play-tooltip = Cliciwch { shortcut-play-toggle } i newid y modd chwarae
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = c
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = i
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 request-language-text = Ddim yn gweld eich iaith ar Common Voice eto?
 request-language-button = Cais am Iaith
 
@@ -206,7 +223,6 @@ record-platform-not-supported = Ymddiheuriadau ond nid yw eich platfform yn cael
 record-platform-not-supported-desktop = Ar gyfrifiaduron bwrdd gwaith, gallwch lwytho i lawr y diweddaraf:
 record-platform-not-supported-ios = Gall defnyddwyr <bold>iOS</bold> lwytho i lawr ein ap am ddim:
 record-must-allow-microphone = Rhaid i chi ganiatáu mynediad i'r meicroffon.
-record-cancel = Diddymu Ail-recordio
 record-retry = Ceisio eto
 record-error-too-short = Roedd y recordiad yn rhy fyr.
 record-error-too-long = Roedd y recordiad yn rhy hir.
@@ -263,3 +279,5 @@ languages-show-more = Gweld Mwy
 languages-show-less = Gweld Llai
 language-speakers = Siaradwyr
 language-total-progress = Cyfanswm
+language-search-input =
+    .placeholder = Chwilio
