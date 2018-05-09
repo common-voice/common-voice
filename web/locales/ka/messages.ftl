@@ -96,6 +96,19 @@ help-us-title = დაგვეხმარეთ წინადადები
 help-us-explain = დააწექით გაშვებას, მოუსმინეთ და მოგვახსენეთ: სწორად იყო თუ არა გახმოვანებული ქვემოთ მოცემული წინადადება?
 vote-yes = დიახ
 vote-no = არა
+toggle-play-tooltip = დააწექით { shortcut-play-toggle } ღილაკს, გაშვების რეჟიმის გადასართავად
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = გ
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = დ
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = ა
 request-language-text = ვერ იპოვეთ თქვენი ენა Common Voice-ში?
 request-language-button = მოითხოვეთ ენის დამატება
 
