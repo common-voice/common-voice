@@ -11,6 +11,7 @@ loading = Betöltés…
 audio-loading-error = Sajnáljuk! Jelenleg a hangfájlok feldolgozása folyik, próbálja újra később.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -60,6 +61,9 @@ uk = Ukrán
 uz = Üzbég
 zh-CN = Kínai (Kína)
 zh-TW = Kínai (Tajvan)
+
+# [/]
+
 
 ## Layout
 
@@ -200,7 +204,6 @@ record-platform-not-supported = Sajnáljuk, de a platformja jelenleg nem támoga
 record-platform-not-supported-desktop = Asztali számítógépekre, letöltheti a legfrissebbet:
 record-platform-not-supported-ios = Az <bold>iOS</bold> felhasználók letölthetik szabad szoftver alkalmazásunkat:
 record-must-allow-microphone = Engedélyezni kell a mikrofon hozzáférést.
-record-cancel = Újrarögzítés megszakítása
 record-retry = Újra
 record-error-too-short = A felvétel túl rövid volt.
 record-error-too-long = A felvétel túl hosszú volt.
@@ -257,3 +260,5 @@ languages-show-more = Több
 languages-show-less = Kevesebb
 language-speakers = Beszélők
 language-total-progress = Összesen
+language-search-input =
+    .placeholder = Keresés

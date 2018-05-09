@@ -11,6 +11,7 @@ loading = Indlæser…
 audio-loading-error = Undskyld! Vi behandler vores lydfiler, prøv igen om lidt.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -39,6 +40,7 @@ ko = Koreansk
 kw = Cornisk
 mk = Makedonsk
 nb-NO = Bokmål
+ne-NP = Nepalesisk
 nl = Nederlandsk
 nn-NO = Nynorsk
 or = Oriya
@@ -48,6 +50,7 @@ ro = Rumænsk
 ru = Russisk
 sk = Slovakisk
 sq = Albansk
+sr = Serbisk
 sv-SE = Svensk
 ta = Tamil
 te = Telugu
@@ -58,6 +61,9 @@ uk = Ukrainsk
 uz = Usbekisk
 zh-CN = Kinesisk (Kina)
 zh-TW = Kinesisk (Taiwan)
+
+# [/]
+
 
 ## Layout
 
@@ -198,7 +204,6 @@ record-platform-not-supported = Vi beklager, men din platform er i øjeblikket i
 record-platform-not-supported-desktop = Til computere kan du hente den seneste version:
 record-platform-not-supported-ios = <bold>iOS</bold>-brugere kan hente vores gratis app:
 record-must-allow-microphone = Du skal tillade mikrofon-adgang.
-record-cancel = Afbryd genindspilningen
 record-retry = Prøv igen
 record-error-too-short = Optagelsen var for kort.
 record-error-too-long = Optagelsen var for lang.
@@ -255,3 +260,5 @@ languages-show-more = Se mere
 languages-show-less = Se mindre
 language-speakers = Talere
 language-total-progress = I alt
+language-search-input =
+    .placeholder = Søg

@@ -11,6 +11,7 @@ loading = Wird geladen…
 audio-loading-error = Es tut uns leid! Wir verarbeiten unsere Audiodateien, bitte versuchen Sie es in Kürze erneut.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -60,6 +61,9 @@ uk = Ukrainisch
 uz = Usbekisch
 zh-CN = Chinesisch (China)
 zh-TW = Chinesisch (Taiwan)
+
+# [/]
+
 
 ## Layout
 
@@ -200,7 +204,6 @@ record-platform-not-supported = Es tut uns leid, Ihre Plattform wird derzeit nic
 record-platform-not-supported-desktop = Auf Desktop-Computern können Sie die neueste Version herunterladen:
 record-platform-not-supported-ios = <bold>iOS</bold>-Nutzer können unsere App kostenlos herunterladen:
 record-must-allow-microphone = Sie müssen den Mikrofon-Zugriff zulassen.
-record-cancel = Erneute Aufnahme abbrechen
 record-retry = Erneut versuchen
 record-error-too-short = Die Aufnahme war zu kurz.
 record-error-too-long = Die Aufnahme war zu lang.
@@ -257,3 +260,5 @@ languages-show-more = Mehr anzeigen
 languages-show-less = Weniger anzeigen
 language-speakers = Sprecher
 language-total-progress = Gesamt
+language-search-input =
+    .placeholder = Suchen
