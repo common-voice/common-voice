@@ -5,7 +5,7 @@ import API from '../../../services/api';
 import StateTree from '../../../stores/tree';
 import RequestLanguageModal from '../../request-language-modal/request-language-modal';
 import { CloseIcon, SearchIcon } from '../../ui/icons';
-import {Button, Hr, TextButton} from '../../ui/ui';
+import { Button, Hr, TextButton } from '../../ui/ui';
 import LocalizationBox, { LoadingLocalizationBox } from './localization-box';
 import { getNativeNameWithFallback } from '../../../services/localization';
 

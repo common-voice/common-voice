@@ -26,21 +26,18 @@ export default class ApiHarness {
   ready(): Promise<void> {
     return new Promise((res: Function, rej: Function) => {
       // We will poll the server until it is ready.
-      let handle = setInterval(
-        async () => {
-          try {
-            const response: Response = await this.fetchIndex();
-            if (response && response.status === 200) {
-              clearInterval(handle);
-              handle = null;
-              res();
-            }
-          } catch (err) {
-            console.error('got error polling index', err);
+      let handle = setInterval(async () => {
+        try {
+          const response: Response = await this.fetchIndex();
+          if (response && response.status === 200) {
+            clearInterval(handle);
+            handle = null;
+            res();
           }
-        },
-        ApiHarness.SERVER_POLL_INTERVAL
-      );
+        } catch (err) {
+          console.error('got error polling index', err);
+        }
+      }, ApiHarness.SERVER_POLL_INTERVAL);
 
       setTimeout(() => {
         if (handle) {
