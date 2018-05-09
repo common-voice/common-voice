@@ -84,21 +84,66 @@ request-language-button = भाषा अनुरोध गर्नुहो�
 
 ## ProjectStatus
 
+status-contribute = तपाईंको आवाज योगदान गर्नुहोस्
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = अर्को लक्ष्य: { $goal }
+english = अंग्रेजी
 
 ## ProfileForm
 
+profile-form-cancel = फारम बन्द गर्नुहोस्
+profile-form-delete = प्रोफाइल मेटाउनुहोस्
+profile-form-username =
+    .label = प्रयोगकर्ता नाम
+profile-form-language =
+    .label = भाषा
+profile-form-more-languages = थप भाषाहरू चाँडै आउँदैछ!
+profile-form-accent =
+    .label = उच्चारण
+profile-form-age =
+    .label = उमेर
+profile-form-gender =
+    .label = लिङ्ग
+profile-form-submit-save = बचत गर्नुहोस्
+profile-form-submit-saved = बचत गरियो
+profile-keep-data = डाटा राख्नुहोस्
+profile-delete-data = डाटा मेट्नुहोस्
+male = पुरुष
+female = महिला
+# Gender
+other = अन्य
+why-profile-title = प्रोफाइल किन ?
+edit-profile = प्रोफाइल सम्पादन गर्नुहोस्
+profile-create = प्रोफाइल सिर्जना गर्नुहोस्
+profile-create-success = सफलता, प्रोफाईल सिर्जना गरियो!
+profile-close = बन्द गर्नुहोस्
 
 ## FAQ
 
+faq-title = बारम्बार सोधिने प्रश्नहरू
+faq-what-q = Common Voice के हो ?
+faq-important-q = यो किन महत्त्वपूर्ण छ ?
+faq-get-q = मैले Common Voice डाटा कसरी पाउन सक्छु ?
+faq-get-a = यो डाटासेट हाम्रो <downloadLink>डाउनलोड पृष्ठमा</downloadLink> <licenseLink>CC-0</licenseLink> लाइसेन्स अन्तर्गत उपलब्ध छ ।
 
 ## Profile
 
+profile-why-title = प्रोफाइल किन ?
 
 ## NotFound
 
+notfound-title = भेटिएन
 
 ## Data
 
+data-download-button = Common Voice डाटा डाउनलोड गर्नुहोस्
+data-download-yes = हो
+data-download-deny = होेइन
+data-download-license = लाइसेन्स: <licenseLink>CC-0</licenseLink>
+data-other-title = अन्य आवाज डाटासेटहरू...
+data-other-download = डाटा डाउनलोड गर्नुहोस
+data-other-ted-name = TED-LIUM Corpus
 
 ## Record Page
 
