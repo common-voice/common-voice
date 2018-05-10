@@ -85,6 +85,9 @@ show-wall-of-text = Les mer
 help-us-title = Hjelp oss med å validere setninger!
 vote-yes = Ja
 vote-no = Nei
+
+## Shortcuts
+
 request-language-text = Ser du ikke språket ditt på Common Voice ennå?
 request-language-button = Send en forespørsel om et nytt språk
 
@@ -140,6 +143,7 @@ faq-get-q = Hvordan får jeg tilgang til data fra Common Voice?
 
 ## Profile
 
+profile-why-title = Hvorfor opprette en profil?
 
 ## NotFound
 
@@ -155,6 +159,7 @@ data-download-license = Lisens: <licenseLink>CC-0</licenseLink>
 data-download-modal = Du er i ferd med å starte en nedlasting av <size>{ $size }GB</size>. Vil du fortsette?
 data-other-goto = Gå til { $name }
 data-other-download = Last ned data
+data-other-ted-name = TED-LIUM-korpus
 license = Lisens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandet
 
