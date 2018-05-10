@@ -100,6 +100,15 @@ toggle-play-tooltip = Πατήστε το πλήκτρο { shortcut-play-toggle 
 
 ## Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = π
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = ν
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = ο
 request-language-text = Η γλώσσα δεν είναι διαθέσιμη στο Common Voice;
 request-language-button = Προτείνετε μία γλώσσα
 
@@ -109,8 +118,8 @@ status-title = Συνολική κατάσταση του έργου: Δείτε
 status-contribute = Συνεισφέρετε τη φωνή σας
 status-hours =
     { $hours ->
-        [one] Έχει ήδη επικυρωθεί μία ώρα!
-       *[other] Έχουν ήδη επικυρωθεί { $hours } ώρες!
+        [one] Έχει ήδη επαληθευτεί μία ώρα!
+       *[other] Έχουν ήδη επαληθευτεί { $hours } ώρες!
     }
 # Variables:
 # $goal - number of hours representing the next goal
