@@ -1,5 +1,6 @@
 ## General
 
+yes-receive-emails = Sí, envíenme correos electrónicos. Me gustaría mantenerme informado sobre el proyecto Common Voice.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
