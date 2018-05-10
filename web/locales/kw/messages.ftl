@@ -11,6 +11,7 @@ loading = Ow karga...
 audio-loading-error = Diharesow! Yth eson ow processya agan restrennow son, gwrewgh assaya arta a verr spys.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -39,6 +40,7 @@ ko = Koreek
 kw = Kernowek
 mk = Makedonek
 nb-NO = Norgaghek (Bokmål)
+ne-NP = Nepalek
 nl = Iseldiryek
 nn-NO = Norgaghek (Nynorsk)
 or = Odia
@@ -48,6 +50,7 @@ ro = Romaniek
 ru = Russek
 sk = Slovakek
 sq = Albaniek
+sr = Serbek
 sv-SE = Swedek
 ta = Tamil
 te = Telugu
@@ -58,6 +61,9 @@ uk = Ukraynek
 uz = Uzbek
 zh-CN = Chinek (China)
 zh-TW = Chinek (Taiwan)
+
+# [/]
+
 
 ## Layout
 
@@ -90,6 +96,19 @@ help-us-title = Gweresowgh dhyn ow kwirya lavarow!
 help-us-explain = Gweskowgh seni, goslowowgh ha leverowgh dhyn: a veu an lavar a-woles leverys yn ewn?
 vote-yes = Beu
 vote-no = Na veu
+toggle-play-tooltip = Gweskowgh war { shortcut-play-toggle } rag dalleth po hedhi an modh seni
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = s
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 request-language-text = A ny welowgh agas yeth war Common Voice hwath?
 request-language-button = Profya yeth
 
@@ -204,7 +223,6 @@ record-platform-not-supported = Drog yw dhyn, nyns yw agas platform skoodhys hwa
 record-platform-not-supported-desktop = War jynnow bord gweyth, hwi a yll iskarga an diwettha:
 record-platform-not-supported-ios = Usyoryon a <bold>iOS</bold> a yll iskarga agan towlen heb kost:
 record-must-allow-microphone = Res yw alowa hedhas dhe'n mikrofon.
-record-cancel = Hedhi dasrekordya
 record-retry = Assaya arta
 record-error-too-short = Re gott yw an rekordyans.
 record-error-too-long = Re hir yw an rekordyans.
@@ -261,3 +279,5 @@ languages-show-more = Gweles moy
 languages-show-less = Gweles le
 language-speakers = Kowsoryon
 language-total-progress = Somm
+language-search-input =
+    .placeholder = Hwilas
