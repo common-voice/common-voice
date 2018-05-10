@@ -72,7 +72,7 @@ datasets = దత్తాంశసమితులు
 languages = భాషలు
 profile = ప్రొఫైలు
 help = సహాయం
-contact = పరిచయం
+contact = సంప్రదింపులు
 privacy = గోప్యత
 terms = షరతులు
 cookies = కుకీలు
@@ -207,7 +207,7 @@ data-other-librispeech-description = LibriSpeech అనేది లిబ్ర
 data-other-ted-name = TED-LIUM కార్పస్
 data-other-ted-description = TED-LIUM నిధి TED వెబ్‌సైటులో అందుబాటులో ఉన్న ప్రసంగాలు, వాటి రాతప్రతుల నుండి తయారుచేయబడింది.
 data-other-voxforge-description = VoxForge ను లిఖిత ప్రసంగాలను సేకరించడానికి ఏర్పాటు చేశారు ఇది ఉచిత మరియు ఓపెన్ సోర్స్ స్పీచ్ రికగ్నిషన్ ఇంజిన్లతో ఉపయోగం కోసం.
-data-other-tatoeba-description = Tatoeba అనేది భాష నేర్చు కోవటం కోసం వాక్యాలు, అనువాదాలు మరియు మాట్లాడే ఆడియోల పెద్ద డేటాబేస్. ఈ దింపుకోలు సమూహం రికార్డ్ చేసిన మాట్లాడే ఆంగ్లం కలిగి ఉన్నది.
+data-other-tatoeba-description = Tatoeba అనేది భాష నేర్చుకోవటంలో వాడే వాక్యాలు, అనువాదాలు మరియు మాటల ఆడియోల పెద్ద డేటాబేసు. ఈ దింపుకోలులో రికార్డు చేసిన మాట్లాడే ఆంగ్లం ఉంది.
 data-bundle-button = డేటాసెట్ బండిల్‌ను దింపుకోండి
 data-bundle-description = Common Voice డేటా మరియు పైన ఉన్న అన్ని ఇతర వాయిస్ డేటాసెట్లు.
 license = లైసెన్సు: <licenseLink>{ $license }</licenseLink>
@@ -269,8 +269,8 @@ request-language-success-content = త్వరలో మీ భాషని క
 
 ## Languages Overview
 
-language-section-in-progress = పురోగతిలో ఉంది
-language-section-launched = ప్రారంభించబడింది   
+language-section-in-progress = పురోగతిలో ఉన్నవి
+language-section-launched = లాంచైనవి
 languages-show-more = మరిన్ని చూడండి
 languages-show-less = తక్కువ చూడండి
 language-speakers = మాట్లాడేవారు
