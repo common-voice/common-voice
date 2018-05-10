@@ -11,6 +11,7 @@ loading = Se încarcă…
 audio-loading-error = Ne pare rău! Procesăm fișierele noastre audio, te rugăm să încerci din nou în scurt timp.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -39,6 +40,7 @@ ko = Coreeană
 kw = Cornică
 mk = Macedoneană
 nb-NO = Norvegiană (Bokmål)
+ne-NP = Nepaleză
 nl = Olandeză
 nn-NO = Norvegiană Nynorsk
 or = Odia
@@ -48,6 +50,7 @@ ro = Română
 ru = Rusă
 sk = Slovacă
 sq = Albaneză
+sr = Sârbă
 sv-SE = Suedeză
 ta = Tamilă
 te = Telugu
@@ -58,6 +61,9 @@ uk = Ucraineană
 uz = Uzbecă
 zh-CN = Chineză (China)
 zh-TW = Chineză (Taiwan)
+
+# [/]
+
 
 ## Layout
 
@@ -88,6 +94,18 @@ help-us-title = Ajută-ne să validăm propozițiile!
 help-us-explain = Apasă pe redare, ascultă și spune-ne: a pronunțat corect propoziția de mai jos?
 vote-yes = Da
 vote-no = Nu
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 request-language-text = Nu îți vezi limba pe Common Voice încă?
 request-language-button = Solicită o limbă
 
@@ -203,7 +221,6 @@ record-platform-not-supported = Ne pare rău, dar platforma ta nu este momentan 
 record-platform-not-supported-desktop = Pe calculatoare desktop poți descărca cele mai recente:
 record-platform-not-supported-ios = Utilizatorii <bold>iOS</bold> pot descărca aplicația noastră gratuită:
 record-must-allow-microphone = Trebuie să permiți accesul la microfon.
-record-cancel = Anulează reînregistrarea
 record-retry = Reîncearcă
 record-error-too-short = Înregistrarea a fost prea scurtă.
 record-error-too-long = Înregistrarea a fost prea lungă.
@@ -260,3 +277,5 @@ languages-show-more = Vezi mai multe
 languages-show-less = Vezi mai puține
 language-speakers = Vorbitori
 language-total-progress = Total
+language-search-input =
+    .placeholder = Căutare
