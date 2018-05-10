@@ -40,6 +40,7 @@ ko = Koreansk
 kw = Kornisk
 mk = Makedonsk
 nb-NO = Norsk bokmål
+ne-NP = Nepalsk
 nl = Nederlandsk
 nn-NO = Norsk nynorsk
 or = Oriya
@@ -49,6 +50,7 @@ ro = Rumensk
 ru = Russisk
 sk = Slovakisk
 sq = Albansk
+sr = Serbisk
 sv-SE = Svensk
 ta = Tamilsk
 te = Telugu
@@ -92,6 +94,9 @@ help-us-title = Hjelp oss med å validere setningar!
 help-us-explain = Trykk på Spel av, lytt, og fortel os om den innspelte setninga var korrekt.
 vote-yes = Ja
 vote-no = Nei
+
+## Shortcuts
+
 request-language-text = Ser du ikkje språket ditt på Common Voice enno?
 request-language-button = Send ein førespurnad om eit nytt språk
 
@@ -258,3 +263,5 @@ languages-show-more = Vis meir
 languages-show-less = Vis mindre
 language-speakers = Talt av
 language-total-progress = Totalt
+language-search-input =
+    .placeholder = Søk
