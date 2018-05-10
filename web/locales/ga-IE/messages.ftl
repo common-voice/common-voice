@@ -11,6 +11,7 @@ loading = Á lódáil...
 audio-loading-error = Ár leithscéal! Táimid ag próiseáil ár gcuid comhad fuaime. Bain triail eile as ar ball.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -39,6 +40,7 @@ ko = Cóiréis
 kw = Coirnis
 mk = Macadóinis
 nb-NO = Ioruais Bokmål
+ne-NP = Neipeailis
 nl = Ollainnis
 nn-NO = Ioruais Nynorsk
 or = Oirísis
@@ -48,6 +50,7 @@ ro = Rómáinis
 ru = Rúisis
 sk = Slóvaicis
 sq = Albáinis
+sr = Seirbis
 sv-SE = Sualainnis
 ta = Tamailis
 te = Teileagúis
@@ -58,6 +61,9 @@ uk = Úcráinis
 uz = Úisbéicis
 zh-CN = Sínis (An tSín)
 zh-TW = Sínis (An Téaváin)
+
+# [/]
+
 
 ## Layout
 
@@ -88,6 +94,15 @@ help-us-title = Cabhraigh linn abairtí a dheimhniú!
 help-us-explain = Cliceáil an tsaighead, éist, agus abair linn: an bhfuil an taifeadadh cruinn?
 vote-yes = Tá
 vote-no = Níl
+
+## Shortcuts
+
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = t
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 request-language-text = Cá bhfuil mo theangasa?
 request-language-button = Iarr Teanga Nua
 
@@ -201,7 +216,6 @@ record-platform-not-supported = Ár leithscéal, ach ní thacaímid leis an ard�
 record-platform-not-supported-desktop = Ar ríomhaire, is féidir leat na leaganacha is déanaí a íoslódáil:
 record-platform-not-supported-ios = Is féidir le daoine ar <bold>iOS</bold> aip saor in aisce a íoslódáil:
 record-must-allow-microphone = Caithfidh tú cead a thabhairt dúinn an micreafón a úsáid.
-record-cancel = Cealaigh an t-ataifeadadh
 record-retry = Bain triail eile as
 record-error-too-short = Bhí an taifeadadh róghearr.
 record-error-too-long = Bhí an taifeadadh rófhada.
