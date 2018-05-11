@@ -43,6 +43,7 @@ export default class Model {
     this.clipDistribution = rowsToDistribution(
       await this.db.getClipBucketCounts()
     );
+    console.log('clip distribution', JSON.stringify(this.clipDistribution));
   };
 
   /**
