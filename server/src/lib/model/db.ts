@@ -367,7 +367,7 @@ export default class DB {
 
   async getClipBucketCounts() {
     const [rows] = await this.mysql.query(
-      'SELECT bucket, COUNT(bucket) AS count FROM clips GROUP BY bucket'
+      'SELECT bucket, COUNT(bucket) AS count FROM clips WHERE bucket IS NOT NULL GROUP BY bucket'
     );
     return rows;
   }
