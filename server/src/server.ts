@@ -79,6 +79,11 @@ export default class Server {
 
     app.use(express.static(FULL_CLIENT_PATH, staticOptions));
 
+    app.use(
+      '/contribute.json',
+      express.static(path.join(__dirname, '..', 'contribute.json'))
+    );
+
     if (options.bundleCrossLocaleMessages) {
       this.setupCrossLocaleRoute();
     }
