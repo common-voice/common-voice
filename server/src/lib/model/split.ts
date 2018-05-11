@@ -68,15 +68,17 @@ export function randomBucketFromDistribution(distribution: Split): keyof Split {
 export function rowsToDistribution(
   rows: { bucket: string; count: number }[]
 ): Split {
-  return rows.reduce(
-    (obj: Split, { bucket, count }: { bucket: string; count: number }) => ({
-      ...obj,
-      [bucket]: count,
-    }),
-    {
-      train: 0,
-      dev: 0,
-      test: 0,
-    }
-  );
+  return rows
+    .filter(({ bucket }) => Object.keys(IDEAL_SPLIT).includes(bucket))
+    .reduce(
+      (obj: Split, { bucket, count }: { bucket: string; count: number }) => ({
+        ...obj,
+        [bucket]: count,
+      }),
+      {
+        train: 0,
+        dev: 0,
+        test: 0,
+      }
+    );
 }
