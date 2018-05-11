@@ -1,9 +1,11 @@
 [
   "bn",
+  "ca",
   "cs",
   "cy",
   "da",
   "de",
+  "el",
   "en",
   "es",
   "fr",
@@ -15,6 +17,7 @@
   "ka",
   "kw",
   "mk",
+  "ne-NP",
   "nl",
   "nn-NO",
   "pl",
@@ -24,6 +27,7 @@
   "sk",
   "sv-SE",
   "ta",
+  "te",
   "tt",
   "zh-CN",
   "zh-TW"
