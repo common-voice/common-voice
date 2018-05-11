@@ -11,6 +11,7 @@ loading = Йөкләнелә...
 audio-loading-error = Гафу! Без аудио файлларны эшкәртү белән мәшгульбез, бераздан янәдән тырышып карагыз.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -39,6 +40,7 @@ ko = Корейча
 kw = Корнча
 mk = Македонча
 nb-NO = Норвегча (Букмол)
+ne-NP = Непалча
 nl = Һолландча
 nn-NO = Яңа норвегча
 or = Одия
@@ -48,6 +50,7 @@ ro = Румынча
 ru = Русча
 sk = Словакча
 sq = Албанча
+sr = Сербча
 sv-SE = Шведча
 ta = Тамилчә
 te = Телугу
@@ -58,6 +61,9 @@ uk = Украинча
 uz = Үзбәкчә
 zh-CN = Кытайча (Кытай)
 zh-TW = Кытайча (Тайвань)
+
+# [/]
+
 
 ## Layout
 
@@ -90,6 +96,19 @@ help-us-title = Җөмләләрнең сыйфатын тикшерергә я�
 help-us-explain = «Плей» төймәсенә басып тыңлагыз һәм әйтегез: түбәндәге җөмлә дөрес укылганмы?
 vote-yes = Әйе
 vote-no = Юк
+toggle-play-tooltip = Туктату/дәвам итү өчен { shortcut-play-toggle } төймәсенә басыгыз
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 request-language-text = Common Voice'ка Сезнең телегез өстәлмәгәнме әле?
 request-language-button = Телнең өстәлүен сорау
 
@@ -200,7 +219,6 @@ record-platform-not-supported = Гафу итегез, әмма Сезнең п�
 record-platform-not-supported-desktop = Өстәл компьютерларында Сез түбәндәгеләрнең иң соңгы версияләрен йөкләп ала аласыз:
 record-platform-not-supported-ios = <bold>iOS</bold>'ны кулланучылар безнең бушлай программабызны йөкләп ала алалар:
 record-must-allow-microphone = Сезнең микрофоныгызны куллануны рөхсәт итүегез кирәк.
-record-cancel = Яңадан яздырудан баш тарту.
 record-retry = Янәдән
 record-error-too-short = Аудиоязма артык кыска иде.
 record-error-too-long = Аудиоязма артык озын иде.
@@ -257,3 +275,5 @@ languages-show-more = Күбрәк
 languages-show-less = Әзрәк
 language-speakers = Сөйләүчеләр
 language-total-progress = Барлыгы
+language-search-input =
+    .placeholder = Эзләү
