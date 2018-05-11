@@ -195,7 +195,7 @@ export default class DB {
     locale: string,
     count: number
   ): Promise<string[]> {
-    return (await this.mysql.query(
+    const [rows] = await this.mysql.query(
       `
         SELECT text
         FROM sentences
@@ -206,7 +206,8 @@ export default class DB {
         LIMIT ?
       `,
       [bucket, await this.getLocaleId(locale), count]
-    ))[0].map((row: any) => row.text);
+    );
+    return (rows || []).map((row: any) => row.text);
   }
 
   async findClipsWithFewVotes(
