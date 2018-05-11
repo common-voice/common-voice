@@ -31,11 +31,7 @@ export default class Model {
       ]) as any),
     ]) as any
   );
-  clipDistribution: Split = {
-    train: 0,
-    dev: 0,
-    test: 0,
-  };
+  clipDistribution: Split = IDEAL_SPLIT;
 
   constructor() {
     this.cacheClipDistribution().catch((e: any) => {
