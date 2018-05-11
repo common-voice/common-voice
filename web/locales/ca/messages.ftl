@@ -153,6 +153,7 @@ edit-profile = Edita el perfil
 profile-create = Crea un perfil
 profile-create-success = Fet. S'ha creat el perfil!
 profile-close = Tanca
+profile-clear-modal = Si esborreu les vostres dades del perfil, es deixarà d'enviar aquesta informació demogràfica al Common Voice amb els vostres enregistraments.
 
 ## FAQ
 
