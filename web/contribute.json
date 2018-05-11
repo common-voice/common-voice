@@ -1,0 +1,27 @@
+{
+    "name": "Common Voice",
+    "description": "The Common Voice project is Mozilla’s initiative to help teach machines how real people speak by receiving and validating voice donations.",
+    "repository": {
+        "url": "https://github.com/mozilla/voice-web",
+        "license": "MPL2"
+    },
+    "participate": {
+        "home": "https://voice.mozilla.org",
+        "docs":"https://github.com/mozilla/voice-web/blob/master/CONTRIBUTING.md",
+        "forum": "https://discourse.mozilla.org/c/voice",
+        "chat": "https://common-voice-slack-invite.herokuapp.com/"
+    },
+    "bugs": {
+        "list": "https://github.com/mozilla/voice-web/issues",
+        "report": "https://github.com/mozilla/voice-web/issues/new"
+    },
+    "keywords": [
+        "asr",
+        "automatic speech recognition",
+        "computational linguistics",
+        "freemarker",
+        "typescript",
+        "voice datasets",
+        "open-data"
+    ]
+}
