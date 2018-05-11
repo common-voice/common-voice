@@ -11,41 +11,59 @@ loading = S'està carregant…
 audio-loading-error = Estem processant els fitxers d'àudio. Torneu a provar-ho d'aquí una mica.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
 
-ga-IE = irlandès
-cs = txec
-uz = uzbek
-de = alemany
 bn = bengalí
-sk = eslovac
 ca = català
-ko = coreà
+cs = txec
+cv = txuvaix
+cy = gal·lès
+da = danès
+de = alemany
+el = grec
+en = anglès
+es = espanyol
+es-AR = espanyol (Argentina)
 es-CL = espanyol (Xile)
-th = tailandès
+fr = francès
+fy-NL = frisó
+ga-IE = irlandès
+he = hebreu
+hu = hongarès
+id = indonesi
+it = italià
+ka = georgià
+ko = coreà
+kw = còrnic
+mk = macedònic
+nb-NO = Bokmål noruec
+ne-NP = nepalès
+nl = neerlandès
+nn-NO = Nynorsk noruec
+or = oriya
 pl = polonès
 pt-BR = portuguès (Brasil)
-id = indonesi
-zh-TW = xinès (Taiwan)
-cy = gal·lès
-el = grec
-cv = txuvaix
+ro = romanès
+ru = rus
+sk = eslovac
+sq = albanès
+sr = serbi
 sv-SE = suec
-mk = macedònic
-nn-NO = Nynorsk noruec
-fr = francès
+ta = tamil
+te = telugu
+th = tailandès
 tr = turc
 tt = tàtar
-fy-NL = frisó
-he = hebreu
+uk = ucraïnès
+uz = uzbek
 zh-CN = xinès (Xina)
-nl = neerlandès
-sq = albanès
-ru = rus
-it = italià
-en = anglès
+zh-TW = xinès (Taiwan)
+
+# [/]
+
 
 ## Layout
 
@@ -76,6 +94,19 @@ help-us-title = Ajudeu-nos a validar frases!
 help-us-explain = Premeu el botó de reproducció, escolteu i digueu-nos si l'àudio correspon exactament a la frase de sota:
 vote-yes = Sí
 vote-no = No
+toggle-play-tooltip = Premeu { shortcut-play-toggle } per iniciar i aturar la reproducció
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = s
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 request-language-text = No trobeu la vostra llengua al Common Voice?
 request-language-button = Sol·licita una llengua
 
@@ -91,7 +122,6 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Objectiu següent: { $goal }
-status-more-soon = Aviat hi haurà més llengües disponibles!
 english = anglès
 
 ## ProfileForm
@@ -186,7 +216,6 @@ record-platform-not-supported = Malauradament, la vostra plataforma no és compa
 record-platform-not-supported-desktop = En ordinadors d'escriptori, podeu baixar l'últim:
 record-platform-not-supported-ios = Els usuaris de l'<bold>iOS</bold> poden baixar la nostra aplicació gratuïta:
 record-must-allow-microphone = Cal que permeteu l'accés al micròfon.
-record-cancel = Cancel·la el reenregistrament
 record-retry = Reintenta
 record-error-too-short = L'enregistrament és massa curt.
 record-error-too-long = L'enregistrament és massa llarg.
@@ -243,3 +272,5 @@ languages-show-more = Més informació
 languages-show-less = Menys informació
 language-speakers = Parlants
 language-total-progress = Total
+language-search-input =
+    .placeholder = Cerca
