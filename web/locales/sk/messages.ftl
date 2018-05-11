@@ -101,6 +101,19 @@ help-us-title = Pomôžte nám overovať vety!
 help-us-explain = Kliknite na prehrať, počúvajte a povedzte nám, či sa nahrávka zhoduje s vetou nižšie.
 vote-yes = Áno
 vote-no = Nie
+toggle-play-tooltip = Stlačením { shortcut-play-toggle } spustíte režim prehrávania
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = á
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 request-language-text = Nevidíte na Common Voice svoj jazyk?
 request-language-button = Požiadajte o jazyk
 
