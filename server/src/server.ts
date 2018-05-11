@@ -97,10 +97,10 @@ export default class Server {
         response: Response,
         next: NextFunction
       ) => {
-        console.log(error);
+        console.log(error.message, error.stack);
         const isAPIError = error instanceof APIError;
         if (!isAPIError) {
-          console.error(request.url, error);
+          console.error(request.url, error.message, error.stack);
         }
         response
           .status(error instanceof ClientError ? 400 : 500)
