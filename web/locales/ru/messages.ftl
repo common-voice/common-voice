@@ -11,6 +11,7 @@ loading = Загрузка…
 audio-loading-error = Извините! Мы обрабатываем наши аудио файлы, пожалуйста, попробуйте ещё раз позже.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -61,6 +62,9 @@ uz = Узбекский
 zh-CN = Китайский (Китай)
 zh-TW = Китайский (Тайвань)
 
+# [/]
+
+
 ## Layout
 
 speak = Запись
@@ -90,6 +94,19 @@ help-us-title = Помогите нам, проверяя записанное!
 help-us-explain = Включите запись, послушайте и расскажите нам: хорошо ли озвучена фраза, расположенная ниже?
 vote-yes = Да
 vote-no = Нет
+toggle-play-tooltip = Нажмите { shortcut-play-toggle } для переключения режима воспроизведения
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = ж
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = а
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = е
 request-language-text = Пока не видите ваш язык в Common Voice?
 request-language-button = Запросить язык
 
@@ -201,7 +218,6 @@ record-platform-not-supported = Нам жаль, в настоящее врем�
 record-platform-not-supported-desktop = На настольных компьютерах, вы можете загрузить последний:
 record-platform-not-supported-ios = Пользователи <bold>iOS</bold> могут загрузить наше бесплатное приложение:
 record-must-allow-microphone = Вы должны разрешить доступ к микрофону.
-record-cancel = Отменить перезапись
 record-retry = Перезаписать
 record-error-too-short = Запись слишком короткая.
 record-error-too-long = Запись слишком длинная.
