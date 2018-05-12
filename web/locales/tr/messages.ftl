@@ -10,6 +10,7 @@ loading = Yükleniyor…
 audio-loading-error = Özür dileriz! Şu anda ses dosyalarımızı işliyoruz. Lütfen birazdan yeniden deneyin.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -35,6 +36,7 @@ it = İtalyanca
 ka = Gürcüce
 ko = Korece
 mk = Makedonca
+ne-NP = Nepalce
 nl = Felemenkçe
 nn-NO = Norveççe (Nynorsk)
 or = Odia
@@ -43,6 +45,7 @@ pt-BR = Portekizce (Brezilya)
 ru = Rusça
 sk = Slovakça
 sq = Arnavutça
+sr = Sırpça
 sv-SE = İsveççe
 ta = Tamilce
 te = Telugu
@@ -53,6 +56,9 @@ uk = Ukraynaca
 uz = Özbekçe
 zh-CN = Çince (Çin)
 zh-TW = Çince (Tayvan)
+
+# [/]
+
 
 ## Layout
 
@@ -81,6 +87,9 @@ help-us-title = Cümleleri doğrulamamıza yardım et!
 help-us-explain = Oynatma tuşuna basıp dinleyin: Konuşmacı, aşağıdaki cümleyi doğru şekilde okumuş mu?
 vote-yes = Evet
 vote-no = Hayır
+
+## Shortcuts
+
 request-language-text = Dilinizi henüz Common Voice’ta göremiyor musunuz?
 request-language-button = Yeni dil iste
 
@@ -180,7 +189,6 @@ license-mixed = Karma
 record-platform-not-supported = Maalesef kullandığınız platform şu an desteklenmemektedir.
 record-platform-not-supported-ios = <bold>iOS</bold> kullanıcıları bedava uygulamamızı indirebilir:
 record-must-allow-microphone = Mikrofon erişimine izin vermeniz gerekiyor.
-record-cancel = Yeniden kaydetmeyi iptal et
 record-retry = Yeniden dene
 record-error-too-short = Kayıt çok kısa.
 record-error-too-long = Kayıt çok uzun.
@@ -233,3 +241,5 @@ languages-show-more = Daha fazlasını göster
 languages-show-less = Daha az göster
 language-speakers = Konuşmacı
 language-total-progress = Toplam
+language-search-input =
+    .placeholder = Ara
