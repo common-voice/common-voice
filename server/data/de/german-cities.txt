@@ -5,7 +5,7 @@ Kann man von München bis Jena laufen?
 Warst du schon mal in Gelsenkirchen?
 Wo ist Wolfsburg?
 Wo liegt Bayreuth?
-Wie lange brauch man mit dem Fahrrad von Regensburg bis Ludwigsburg?
+Wie lange braucht man mit dem Fahrrad von Regensburg bis Ludwigsburg?
 Wie viele Kilometer liegen zwischen Koblenz und Karlsruhe?
 Was ist die Entfernung zwischen Ludwigshafen am Rhein und Frankfurt an der Oder?
 Gibt es eine Flugverbindung zwischen Mainz und Lübeck?
@@ -25,7 +25,7 @@ Berechne die Distanz zwischen Ingolstadt und Kassel
 Ich möchte nach Trier
 Kann ich hier ein Ticket nach Pforzheim kaufen?
 Ich möchte ein Ticket nach Wuppertal kaufen
-Geben sie mit bitte die Fahrkarte nach Bottrop
+Geben Sie mir bitte die Fahrkarte nach Bottrop
 Verkauft der Automat auch Fahrkarten nach Hannover?
 Die Autobahnabfahrt nach Cottbus
 An welcher Autobahnabfahrt muss ich die Autobahn verlassen, wenn ich nach Hamm möchte?
@@ -44,7 +44,7 @@ Soll sie doch nach Bielefeld fahren?
 Ich lebe in Offenbach
 Mannheim ist der Ausgangpunkt
 Gib mir den Wetterbericht für Würzburg
-Was gibt es neues in Wiesbaden?
+Was gibt es Neues in Wiesbaden?
 Gibt es neue Nachrichten aus Bayreuth?
 Krefeld hat viele Sehenswürdigkeiten
 Welche Sehenswürdigkeiten gibt es in Koblenz?
@@ -56,7 +56,7 @@ Kannst du mich nach Düsseldorf mitnehmen?
 Ich wollte eigentlich nicht nach Saarbrücken fahren
 Das gibt es nur in Hattingen
 Fahre einfach Richtung Aschaffenburg
-Findest du dich allein bis Braunschweig?
+Findest du dich allein in Braunschweig zurecht?
 Ist Wiesbaden hier in der Nähe?
 Wo kann man in Freiburg im Breisgau gut essen gehen?
 Du warst alleine in Rostock?
@@ -89,7 +89,7 @@ Wie lange muss ich in Kempten warten?
 Meine Reise brachte mich nach Cottbus
 In Tübingen musste ich meine Reise unterbrechen
 Ich bringe euch bis nach Hamburg
-Flensburg ist keine Vergleich zu Stuttgart
+Flensburg ist kein Vergleich zu Stuttgart
 Kannst du mich in Ibbenbüren abholen?
 Das ist so ähnlich wie in Münster
 Außerdem wollte er noch schnell nach Remscheid fahren
@@ -122,7 +122,7 @@ Möchte heute noch jemand nach Bergheim fahren?
 Ich könnte eine Mitfahrgelegenheit nach München anbieten
 Der nächste Zug nach Neustadt an der Weinstraße geht um zwölf Uhr dreißig
 Der Zug nach Wolfsburg ist schon um Dreiviertel drei abgefahren
-Wenn du dich beeilst bekommst du noch den Zug viertel nach fünf nach Mainz
+Wenn du dich beeilst bekommst du noch den Zug um viertel nach fünf nach Mainz
 Der nächste Zug nach Frankfurt geht in einer Stunde und dreißig Minuten
 Können wir stattdessen mit dem Fernbus nach Berlin fahren?
 Hast du dein Ticket nach Görlitz schon gebucht?
@@ -134,7 +134,7 @@ Kann man von Essen bis Dortmund laufen?
 Warst du schon mal in Herne?
 Wo ist Potsdam?
 Wo liegt Hagen?
-Wie lange brauch man mit dem Fahrrad von Aschaffenburg bis Speyer?
+Wie lange braucht man mit dem Fahrrad von Aschaffenburg bis Speyer?
 Wie viele Kilometer liegen zwischen Kempten und Fürth?
 Was ist die Entfernung zwischen Oberhausen und Worms?
 Gibt es eine Flugverbindung zwischen Tübingen und Celle?
@@ -154,7 +154,7 @@ Berechne die Distanz zwischen Hamm und Baden-Baden
 Ich möchte nach Lübeck
 Kann ich hier ein Ticket nach Bonn kaufen?
 Ich möchte ein Ticket nach Erfurt kaufen
-Geben sie mit bitte die Fahrkarte nach Schwerin
+Geben Sie mir bitte die Fahrkarte nach Schwerin
 Verkauft der Automat auch Fahrkarten nach Mülheim an der Ruhr?
 Die Autobahnabfahrt nach Kempten
 An welcher Autobahnabfahrt muss ich die Autobahn verlassen, wenn ich nach Baden-Baden möchte?
@@ -173,7 +173,7 @@ Soll sie doch nach Delmenhorst fahren?
 Ich lebe in Celle
 Bochum ist der Ausgangpunkt
 Gib mir den Wetterbericht für Frankfurt am Main
-Was gibt es neues in Karlsruhe?
+Was gibt es Neues in Karlsruhe?
 Gibt es neue Nachrichten aus Hattingen?
 Greifswald hat viele Sehenswürdigkeiten
 Welche Sehenswürdigkeiten gibt es in Osnabrück?
@@ -185,7 +185,7 @@ Kannst du mich nach Berlin mitnehmen?
 Ich wollte eigentlich nicht nach Speyer fahren
 Das gibt es nur in Castrop-Rauxel
 Fahre einfach Richtung Düsseldorf
-Findest du dich allein bis Göttingen?
+Findest du dich allein in Göttingen zurecht?
 Ist Bottrop hier in der Nähe?
 Wo kann man in Bonn gut essen gehen?
 Du warst alleine in Fürth?
@@ -218,7 +218,7 @@ Wie lange muss ich in Mainz warten?
 Meine Reise brachte mich nach Oberhausen
 In Berlin musste ich meine Reise unterbrechen
 Ich bringe euch bis nach Fulda
-Bremerhaven ist keine Vergleich zu Weimar
+Bremerhaven ist kein Vergleich zu Weimar
 Kannst du mich in Passau abholen?
 Das ist so ähnlich wie in Wolfsburg
 Außerdem wollte er noch schnell nach Hamburg fahren
@@ -251,12 +251,12 @@ Möchte heute noch jemand nach Neumünster fahren?
 Ich könnte eine Mitfahrgelegenheit nach Schweinfurt anbieten
 Der nächste Zug nach Görlitz geht um zwölf Uhr dreißig
 Der Zug nach Frankfurt am Main ist schon um Dreiviertel drei abgefahren
-Wenn du dich beeilst bekommst du noch den Zug viertel nach fünf nach München
+Wenn du dich beeilst bekommst du noch den Zug um viertel nach fünf nach München
 Der nächste Zug nach Wetzlar geht in einer Stunde und dreißig Minuten
 Können wir stattdessen mit dem Fernbus nach Nürnberg fahren?
 Hast du dein Ticket nach Cottbus schon gebucht?
 Wer ist die Bürgermeisterin von Leverkusen?
 Mit der neuen Schnellfahrstrecke braucht man von Erfurt nach Leipzig nur noch etwa vierzig Minuten
 Bremerhaven ist eine Exklave und gehört zum Stadtstaat Bremen
-Die Elbe fließt durch Dresden, Magedburg und Hamburg und mündet in die Nordsee
+Die Elbe fließt durch Dresden, Magdeburg und Hamburg und mündet in die Nordsee
 Die Hauptstadt der Bundesrepublik Deutschland ist Berlin
