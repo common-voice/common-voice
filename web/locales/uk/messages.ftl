@@ -11,6 +11,7 @@ loading = Завантаження…
 audio-loading-error = Вибачте! Ми обробляємо наші аудіо файли. Спробуйте знову пізніше.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -59,6 +60,9 @@ uz = Узбецька
 zh-CN = Китайська (Китай)
 zh-TW = Китайська (Тайвань)
 
+# [/]
+
+
 ## Layout
 
 speak = Озвучити
@@ -98,6 +102,9 @@ help-us-title = Допоможіть нам перевірити речення!
 help-us-explain = Натисніть кнопку відтворення, прослухайте і повідомте нас чи правильно вимовлено речення внизу.
 vote-yes = Так
 vote-no = Ні
+
+## Shortcuts
+
 request-language-text = Не можете знайти свою мову в Common Voice?
 request-language-button = Запит нової мови
 
@@ -151,15 +158,22 @@ profile-clear-modal = Очищення даних вашого профілю о
 
 faq-title = Часті питання
 faq-what-q = Що таке Common Voice?
+faq-important-q = Чому це важливо?
 
 ## Profile
 
 
 ## NotFound
 
+notfound-title = Не знайдено
 
 ## Data
 
+data-download-yes = Так
+data-download-deny = Ні
+data-download-license = Ліцензія: <licenseLink>CC-0</licenseLink>
+data-other-download = Завантажити дані
+license-mixed = Змішана
 
 ## Record Page
 
@@ -167,7 +181,6 @@ record-platform-not-supported = Шкода, але ваша платформа �
 record-platform-not-supported-desktop = На настільних комп'ютерах, ви можете завантажити найновіший:
 record-platform-not-supported-ios = Користувачі <bold>iOS</bold> можуть завантажити наш безплатний додаток:
 record-must-allow-microphone = Ви повинні дозволити доступ до мікрофону.
-record-cancel = Скасувати запис
 record-retry = Повторити
 record-error-too-short = Запис надто короткий.
 record-error-too-long = Запис надто довгий.
@@ -224,3 +237,5 @@ languages-show-more = Більше мов
 languages-show-less = Менше мов
 language-speakers = Носіїв
 language-total-progress = Разом
+language-search-input =
+    .placeholder = Пошук
