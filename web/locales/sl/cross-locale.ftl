@@ -2,8 +2,6 @@
 
 get-involved-button = Pridružite se
 get-involved-cancel = Izhod
-get-involved-title = Prispevajte za { $lang }
-get-involved-text = Zahvaljujemo se vam za izkazano zanimanje za { $lang }. Zelo se trudimo, da bi bili vsi jeziki pripravljeni pravočasno in ekipe obveščene preko elektronske pošte. Če želite prispevati, spodaj vnesite svoj elektronski naslov.
 get-involved-form-title = Prijavite se na obvestila za { $lang }:
 get-involved-email =
     .label = Elektronski naslov

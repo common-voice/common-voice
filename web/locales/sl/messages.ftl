@@ -134,8 +134,11 @@ faq-mission-q = Zakaj je Common Voice del Mozillinega poslanstva?
 faq-native-a = Da, tudi vaš glas potrebujemo! Del namena projekta Common Voice je zbrati karseda veliko naglasov, tako da bodo računalniki bolje razumeli govor <bold>vseh</bold> ljudi.
 faq-firefox-q = Bo pretvorba govora v besedilo preko Common Voice v prihodnosti postala del Firefoxa?
 faq-firefox-a = Common Voice ima brezmejen potencial in resnično raziskujemo možnosti glasovnih vmesnikov v številnih Mozillinih izdelkih, tudi v Firefoxu.
+faq-quality-q = Kako kakovostni morajo biti posnetki, da bodo uporabni?
 faq-hours-q = Zakaj je cilj 10 000 ur posnetkov?
+faq-hours-a = To je približno število ur, ki jih sistem za pretvorbo govora v besedilo potrebuje za učenje.
 faq-source-q = Od kod izvirajo besedila?
+faq-source-a2 = Izvorne stavke si lahko ogledate v <dataLink>mapi na GitHubu</dataLink>.
 
 ## Profile
 
@@ -144,6 +147,7 @@ profile-why-title = Zakaj profil?
 ## NotFound
 
 notfound-title = Ni zadetkov
+notfound-content = Na žalost tega, kar iščete, ne najdemo.
 
 ## Data
 
