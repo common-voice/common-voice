@@ -162,10 +162,12 @@ faq-important-q = Чому це важливо?
 
 ## Profile
 
+profile-why-title = Навіщо обліковий запис?
 
 ## NotFound
 
 notfound-title = Не знайдено
+notfound-content = Боюсь, я не знаю, що ви шукаєте.
 
 ## Data
 
@@ -173,6 +175,7 @@ data-download-yes = Так
 data-download-deny = Ні
 data-download-license = Ліцензія: <licenseLink>CC-0</licenseLink>
 data-other-download = Завантажити дані
+license = Ліцензія: <licenseLink>{ $license }</licenseLink>
 license-mixed = Змішана
 
 ## Record Page
