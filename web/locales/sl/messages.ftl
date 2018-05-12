@@ -1,5 +1,6 @@
 ## General
 
+privacy-info = Obljubimo, da bomo z vašimi podatki ravnali skrbno. Preberite več v našem <privacyLink>obvestilu o zasebnosti</privacyLink>.
 return-to-cv = Nazaj na Common Voice
 email-input =
     .label = Elektronski naslov
@@ -13,6 +14,50 @@ audio-loading-error = Oprostite! Trenutno obdelujemo zvočne datoteke, poizkusit
 
 ## Languages
 
+bn = bengalščina
+ca = katalonščina
+cs = češčina
+cv = čuvaščina
+cy = valižanščina
+da = danščina
+de = nemščina
+el = grščina
+en = angleščina
+es = španščina
+es-AR = španščina (Argentina)
+es-CL = španščina (Čile)
+fr = francoščina
+fy-NL = frizijščina
+ga-IE = irščina
+he = hebrejščina
+hu = madžarščina
+id = indonezijščina
+it = italijanščina
+ka = gruzinščina
+ko = korejščina
+mk = makedonščina
+nb-NO = norveščina (bokmål)
+ne-NP = nepalščina
+nl = nizozemščina
+nn-NO = norveščina (nynorsk)
+or = odijščina
+pl = poljščina
+pt-BR = portugalščina (Brazilija)
+ro = romunščina
+ru = ruščina
+sk = slovaščina
+sq = albanščina
+sr = srbščina
+sv-SE = švedščina
+ta = tamilščina
+te = teluščina
+th = tajščina
+tr = turščina
+tt = tatarščina
+uk = ukrajinščina
+uz = uzbeščina
+zh-CN = kitajščina (Kitajska)
+zh-TW = kitajščina (Tajvan)
 
 # [/]
 
@@ -27,10 +72,12 @@ privacy = Zasebnost
 terms = Pogoji
 cookies = Piškotki
 faq = Pogosta vprašanja
+content-license-text = Vsebina je na voljo pod <licenseLink>licenco Creative Commons</licenseLink>
 back-top = Nazaj na vrh
 
 ## Home Page
 
+show-wall-of-text = Več
 help-us-title = Pomagaj nam potrditi stavke!
 vote-yes = Da
 vote-no = Ne
@@ -41,39 +88,100 @@ request-language-button = Predlagaj jezik
 
 ## ProjectStatus
 
+status-title = Stanje projekta: oglejte si, kako daleč smo že prišli!
 status-contribute = Prispevaj svoj glas
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Naslednji cilj: { $goal }
+english = angleščina
 
 ## ProfileForm
 
+profile-form-cancel = Zapri obrazec
 profile-form-delete = Izbriši profil
 profile-form-username =
     .label = Uporabniško ime
 profile-form-language =
     .label = Jezik
+profile-form-accent =
+    .label = Naglas
+profile-form-age =
+    .label = Starost
+profile-form-gender =
+    .label = Spol
+profile-form-submit-save = Shrani
+profile-form-submit-saved = Shranjeno
+profile-keep-data = Ohrani podatke
+profile-delete-data = Izbriši podatke
+male = Moški
+female = Ženski
+# Gender
+other = Drugo
+why-profile-title = Zakaj profil?
+why-profile-text = S tem, da dodate nekaj podatkov o sebi, bodo glasovni podatki, ki jih pošljete projektu Common Voice, uporabnejši za razpoznavo govora, saj se lahko uporabijo za zagotavljanje večje natančnosti.
+edit-profile = Uredi profil
+profile-create = Ustvari profil
+profile-create-success = Uspelo je, profil je ustvarjen!
+profile-close = Zapri
 
 ## FAQ
 
+faq-title = Pogosta vprašanja
+faq-what-q = Kaj je Common Voice?
+faq-important-q = Zakaj je to pomembno?
+faq-get-q = Kako lahko dobim podatke Common Voice?
+faq-mission-q = Zakaj je Common Voice del Mozillinega poslanstva?
 
 ## Profile
 
+profile-why-title = Zakaj profil?
 
 ## NotFound
 
+notfound-title = Ni zadetkov
 
 ## Data
 
+data-download-button = Prenesite podatke Common Voice
+data-download-yes = Da
+data-download-deny = Ne
+data-download-license = Licenca: <licenseLink>CC-0</licenseLink>
+data-other-goto = Pojdi na { $name }
+data-other-download = Prenesi podatke
+license-mixed = Mešano
 
 ## Record Page
 
+record-platform-not-supported = Žal nam je, vendar vaše platforme trenutno ne podpiramo.
+record-platform-not-supported-ios = Uporabniki <bold>iOS</bold> lahko prenesejo našo brezplačno aplikacijo:
+record-must-allow-microphone = Dovoliti morate dostop do mikrofona.
+record-retry = Poizkusi znova
+record-error-too-short = Posnetek je prekratek.
+record-error-too-long = Posnetek je predolg.
+record-submit-success = Uspešno posneto! Želite posneti znova?
+record-cancel = Prekliči ponovno snemanje
+review-terms = Z uporabo Common Voice se strinjate z našimi <termsLink>pogoji</termsLink> in z <privacyLink>obvestilom o zasebnosti</privacyLink>
+terms-agree = Strinjam se
+terms-disagree = Ne strinjam se
+review-aborted = Pošiljanje je preklicano. Želite svoje posnetke izbrisati?
+review-rerecord = Posnemite ponovno
+review-cancel = Prekliči pošiljanje
+review-keep-recordings = Ohrani posnetke
+review-delete-recordings = Izbriši moje posnetke
 
 ## Download Modal
 
+download-no = Ne, hvala
 
 ## Contact Modal
 
+contact-title = Kontaktni obrazec
+contact-cancel = Prekliči
+contact-form-name =
+    .label = Ime
+contact-form-message =
+    .label = Sporočilo
+contact-required = *obvezno polje
 
 ## Request Language Modal
 
@@ -88,5 +196,6 @@ language-section-launched = Objavljeno
 languages-show-more = Več
 languages-show-less = Manj
 language-speakers = Govorcev
+language-total-progress = Skupaj
 language-search-input =
     .placeholder = Iskanje
