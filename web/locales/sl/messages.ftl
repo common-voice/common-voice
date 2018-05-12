@@ -188,7 +188,6 @@ download-no = Ne, hvala
 
 ## Contact Modal
 
-contact-title = Kontaktni obrazec
 contact-cancel = Prekliči
 contact-form-name =
     .label = Ime
