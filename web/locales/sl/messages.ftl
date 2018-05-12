@@ -155,18 +155,22 @@ data-download-button = Prenesite podatke Common Voice
 data-download-yes = Da
 data-download-deny = Ne
 data-download-license = Licenca: <licenseLink>CC-0</licenseLink>
+data-download-modal = Začel se bo prenos datoteke, velike <size>{ $size } GB</size>, nadaljujemo?
 data-other-goto = Pojdi na { $name }
 data-other-download = Prenesi podatke
+license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mešano
 
 ## Record Page
 
 record-platform-not-supported = Žal nam je, vendar vaše platforme trenutno ne podpiramo.
+record-platform-not-supported-desktop = Na namiznih in prenosnih računalnikih lahko prenesete najnovejše:
 record-platform-not-supported-ios = Uporabniki <bold>iOS</bold> lahko prenesejo našo brezplačno aplikacijo:
 record-must-allow-microphone = Dovoliti morate dostop do mikrofona.
 record-retry = Poizkusi znova
 record-error-too-short = Posnetek je prekratek.
 record-error-too-long = Posnetek je predolg.
+record-error-too-quiet = Posnetek je pretih.
 record-submit-success = Uspešno posneto! Želite posneti znova?
 record-cancel = Prekliči ponovno snemanje
 review-terms = Z uporabo Common Voice se strinjate z našimi <termsLink>pogoji</termsLink> in z <privacyLink>obvestilom o zasebnosti</privacyLink>
