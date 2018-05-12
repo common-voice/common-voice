@@ -131,6 +131,11 @@ faq-what-q = Kaj je Common Voice?
 faq-important-q = Zakaj je to pomembno?
 faq-get-q = Kako lahko dobim podatke Common Voice?
 faq-mission-q = Zakaj je Common Voice del Mozillinega poslanstva?
+faq-native-a = Da, tudi vaš glas potrebujemo! Del namena projekta Common Voice je zbrati karseda veliko naglasov, tako da bodo računalniki bolje razumeli govor <bold>vseh</bold> ljudi.
+faq-firefox-q = Bo pretvorba govora v besedilo preko Common Voice v prihodnosti postala del Firefoxa?
+faq-firefox-a = Common Voice ima brezmejen potencial in resnično raziskujemo možnosti glasovnih vmesnikov v številnih Mozillinih izdelkih, tudi v Firefoxu.
+faq-hours-q = Zakaj je cilj 10 000 ur posnetkov?
+faq-source-q = Od kod izvirajo besedila?
 
 ## Profile
 
