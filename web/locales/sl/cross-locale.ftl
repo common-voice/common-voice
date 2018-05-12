@@ -8,3 +8,4 @@ get-involved-email =
 get-involved-opt-in = Da, pošiljajte mi elektronska sporočila. Želim ostati obveščen/-a o napredku tega jezika v projektu Common Voice.
 get-involved-submit = Pošlji
 get-involved-privacy-info = Obljubimo, da bomo z vašimi podatki ravnali skrbno. Preberite več v našem <privacyLink>obvestilu o zasebnosti</privacyLink>.
+get-involved-return-to-languages = Nazaj na jezike
