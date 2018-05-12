@@ -38,6 +38,7 @@ ko = Корејски
 kw = Корнишки
 mk = Македонски
 nb-NO = Норвешки Бокмал
+ne-NP = Непалски
 nl = Холандски
 nn-NO = Новонорвешки
 or = Одија
@@ -47,6 +48,7 @@ ro = Румунски
 ru = Руски
 sk = Словачки
 sq = Албански
+sr = Српски
 sv-SE = Шведски
 ta = Тамилски
 te = Телугу
@@ -147,18 +149,43 @@ profile-close = Затвори
 
 ## Data
 
+license-mixed = Помешано
 
 ## Record Page
 
+record-platform-not-supported = Нажалост, ваша платформа није тренутно подржана.
+terms-agree = Слажем се
+terms-disagree = Не слажем се
 
 ## Download Modal
 
+download-no = Не хвала
 
 ## Contact Modal
 
+contact-title = Формулар за контакт
+contact-cancel = Откажи
+contact-form-name =
+    .label = Име
+contact-form-message =
+    .label = Порука
+contact-required = *обавезно
 
 ## Request Language Modal
 
+request-language-title = Захтев за језик
+request-language-cancel = Напусти формулар
+request-language-form-language =
+    .label = Језик
+request-language-success-title = Захтев за новим језиком предат, хвала вам.
 
 ## Languages Overview
 
+language-section-in-progress = У току
+language-section-launched = Покренут
+languages-show-more = Погледајте више
+languages-show-less = Погледајте мање
+language-speakers = Говорници
+language-total-progress = Укупно
+language-search-input =
+    .placeholder = Претрага
