@@ -179,6 +179,7 @@ data-other-download = Verileri indir
 data-other-librispeech-description = LibriSpeech, LibriVox projesinin sesli kitaplarından elde edilen yaklaşık 1000 saatlik 16 Khz'lik sesli okunmuş İngilizce metinlerden oluşan bir korpustur.
 data-other-ted-name = TED-LIUM Korpusu
 data-other-ted-description = TED-LIUM korpusu, TED web sitesindeki sunum ses kayıtları ve onların deşifre metinleri kullanılarak oluşturulmuştur. 
+data-other-tatoeba-description = Tatoeba, dil öğrenmede kullanılmak üzere geniş bir cümle, çeviri ve konuşma veritabanıdır. Bu dosya, Tatoeba gönüllüleri tarafından kaydedilen İngilizce konuşmaları içerir.
 data-bundle-button = Veri kümesi paketini indir
 data-bundle-description = Common Voice verileri ve yukarıdaki diğer tüm ses veri kümeleri.
 license = Lisans: <licenseLink>{ $license }</licenseLink>
