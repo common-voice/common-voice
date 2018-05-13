@@ -94,6 +94,7 @@ help-us-title = ¡Ayúdanos a verificar oraciones!
 help-us-explain = Presiona reproducir, escucha y cuéntanos: ¿dijeron con precisión la oración anterior?
 vote-yes = Sí
 vote-no = No
+toggle-play-tooltip = Presiona { shortcut-play-toggle } para activar el modo de reproducción
 
 ## Shortcuts
 
@@ -263,3 +264,5 @@ languages-show-more = Ver más
 languages-show-less = Ver menos
 language-speakers = Hablantes
 language-total-progress = Total
+language-search-input =
+    .placeholder = Buscar
