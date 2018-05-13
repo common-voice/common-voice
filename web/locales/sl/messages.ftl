@@ -103,6 +103,7 @@ profile-form-username =
     .label = Uporabniško ime
 profile-form-language =
     .label = Jezik
+profile-form-more-languages = Kmalu bo na voljo več jezikov!
 profile-form-accent =
     .label = Naglas
 profile-form-age =
@@ -188,6 +189,7 @@ download-no = Ne, hvala
 
 ## Contact Modal
 
+contact-title = Kontaktni obrazec
 contact-cancel = Prekliči
 contact-form-name =
     .label = Ime
