@@ -11,6 +11,7 @@ loading = Caricamento in corso…
 audio-loading-error = Spiacenti, i file audio sono in fase di elaborazione. Riprova tra poco.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -61,6 +62,9 @@ uz = Uzbeco
 zh-CN = Cinese (Cina)
 zh-TW = Cinese (Taiwan)
 
+# [/]
+
+
 ## Layout
 
 speak = Parla
@@ -90,6 +94,18 @@ help-us-title = Aiutaci a confermare le frasi!
 help-us-explain = Premi Avvia, ascolta e indica se l’audio corrisponde alla frase qui sotto.
 vote-yes = Sì
 vote-no = No
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 request-language-text = Non trovi la tua lingua su Common Voice?
 request-language-button = Richiedi una lingua
 
@@ -200,7 +216,6 @@ record-platform-not-supported = La piattaforma in uso non è attualmente support
 record-platform-not-supported-desktop = Su computer desktop puoi scaricare l'ultima versione:
 record-platform-not-supported-ios = Gli utenti <bold>iOS</bold> possono scaricare la nostra applicazione gratuita:
 record-must-allow-microphone = È necessario consentire l’accesso al microfono del dispositivo.
-record-cancel = Annulla la nuova registrazione
 record-retry = Riprova
 record-error-too-short = La registrazione è troppo breve.
 record-error-too-long = La registrazione è troppo lunga.
@@ -257,3 +272,5 @@ languages-show-more = Visualizza più elementi
 languages-show-less = Visualizza meno elementi
 language-speakers = Parlato da
 language-total-progress = Totale
+language-search-input =
+    .placeholder = Cerca
