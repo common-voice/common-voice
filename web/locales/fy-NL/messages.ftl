@@ -11,6 +11,7 @@ loading = Lade…
 audio-loading-error = Sorry! Op dit stuit ferwurkje wy ús audiobestannen, probearje it letter nochris.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -39,6 +40,7 @@ ko = Koreaansk
 kw = Kornish
 mk = Masedoanysk
 nb-NO = Noarsk Bokmål
+ne-NP = Nepaleesk
 nl = Nederlânsk
 nn-NO = Norwegysk Nynorsk
 or = Odia
@@ -48,6 +50,7 @@ ro = Roemeensk
 ru = Russysk
 sk = Slowaaksk
 sq = Albaneesk
+sr = Servysk
 sv-SE = Sweedsk
 ta = Tamilsk
 te = Telugu
@@ -58,6 +61,9 @@ uk = Oekraynsk
 uz = Oezbeeksk
 zh-CN = Sineesk (Sina)
 zh-TW = Sineesk (Taiwan)
+
+# [/]
+
 
 ## Layout
 
@@ -98,6 +104,19 @@ help-us-title = Help ús sinnen te falidearjen!
 help-us-explain = Klik op de ôfspylknop, lústerje en fertel ús: wurdt de ûndersteande sin korrekt útsprutsen?
 vote-yes = Ja
 vote-no = Nee
+toggle-play-tooltip = Druk op { shortcut-play-toggle } om de ôfspylmodus yn/út te skeakeljen
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = J
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = N
 request-language-text = Sjogge jo jo taal noch net op Common Voice?
 request-language-button = In taal oanfreegje
 
@@ -208,7 +227,6 @@ record-platform-not-supported = It spyt ús, mar jo platfoarm wurdt op dit stuit
 record-platform-not-supported-desktop = Op desktopkompjûters, download de lêste:
 record-platform-not-supported-ios = <bold>iOS</bold>-brûkers kinne ús fergese app downloade:
 record-must-allow-microphone = Jo moatte tagong ta jo mikrofoan tastean.
-record-cancel = Opnij opnimmen annulearje
 record-retry = Opnij probearje
 record-error-too-short = De opname wie te koart.
 record-error-too-long = De opname wie te lang.
@@ -265,3 +283,5 @@ languages-show-more = Mear besjen
 languages-show-less = Minder besjen
 language-speakers = Sprekkers
 language-total-progress = Totaal
+language-search-input =
+    .placeholder = Sykje
