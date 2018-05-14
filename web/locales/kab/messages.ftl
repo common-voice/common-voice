@@ -102,6 +102,9 @@ request-language-button = Suter tutlayt
 ## ProjectStatus
 
 status-contribute = Ttekki s taɣect-ik
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Iswi d iteddun:{ $goal }
 english = Taglizit
 
 ## ProfileForm
@@ -121,6 +124,8 @@ profile-form-gender =
     .label = Tuzuft
 profile-form-submit-save = Sekles
 profile-form-submit-saved = Yettwasekles
+profile-keep-data = Eǧǧ Isefka
+profile-delete-data = Kkes Isefka
 male = Amalay
 female = Unti
 # Gender
@@ -144,6 +149,7 @@ profile-close = Mdel
 data-download-yes = Ih
 data-download-deny = Uhu
 data-download-license = Aselkin: <licenseLink>CC-0</licenseLink>
+data-other-goto = Ddu ɣer { $name }
 data-other-download = Sider isefka
 
 ## Record Page
@@ -160,9 +166,15 @@ review-delete-recordings = Kkes ikalasen-iw
 ## Download Modal
 
 download-title = Asider-ik yekker.
+download-no = Uhu Tanemmirt
 
 ## Contact Modal
 
+contact-cancel = Sefsex
+contact-form-name =
+    .label = Isem
+contact-form-message =
+    .label = Izen
 
 ## Request Language Modal
 
