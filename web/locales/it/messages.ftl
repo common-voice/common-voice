@@ -94,6 +94,7 @@ help-us-title = Aiutaci a confermare le frasi!
 help-us-explain = Premi Avvia, ascolta e indica se l’audio corrisponde alla frase qui sotto.
 vote-yes = Sì
 vote-no = No
+toggle-play-tooltip = Premere { shortcut-play-toggle } per passare alla modalità di riproduzione
 
 ## Shortcuts
 
