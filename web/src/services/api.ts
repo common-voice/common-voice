@@ -146,7 +146,9 @@ export default class API {
   }
 
   async fetchCrossLocaleMessages(): Promise<string[][]> {
-    return Object.entries(await this.fetch(`/cross-locale-messages.json`));
+    return Object.entries(
+      await this.fetch(`/cross-locale-messages.json`)
+    ) as string[][];
   }
 
   fetchRequestedLanguages(): Promise<string[]> {

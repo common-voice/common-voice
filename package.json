@@ -101,7 +101,7 @@
     "ts-loader": "^3.2.0",
     "ts-node": "^4.1.0",
     "typescript": "^2.5.2",
-    "typescript-eslint-parser": "^12.0.0",
+    "typescript-eslint-parser": "^15.0.0",
     "uglifyjs-webpack-plugin": "^1.1.6",
     "walk": "^2.3.9",
     "webpack": "^3.7.1",

@@ -41,7 +41,7 @@ export function getNativeNameWithFallback(locale: string) {
   return locale;
 }
 
-export function negotiateLocales(locales: string[]) {
+export function negotiateLocales(locales: ReadonlyArray<string>) {
   return negotiateLanguages(locales, LOCALES, {
     defaultLocale: DEFAULT_LOCALE,
   });
