@@ -77,6 +77,7 @@ privacy = Tabaḍnit
 terms = Tiwtilin
 cookies = Inagan n tuqqna
 faq = Isteqsiyen FAQ
+back-top = Uɣal d asawen
 
 ## Home Page
 
@@ -147,9 +148,18 @@ data-other-download = Sider isefka
 
 ## Record Page
 
+record-retry = Σreḍ i tikelt-nniḍen
+terms-agree = Qebleɣ
+terms-disagree = Ur qbileɣ ara
+review-recording = Acegger
+review-rerecord = Ales asekles
+review-cancel = Sefsex tuzna
+review-keep-recordings = Eǧǧ ikalasen
+review-delete-recordings = Kkes ikalasen-iw
 
 ## Download Modal
 
+download-title = Asider-ik yekker.
 
 ## Contact Modal
 
