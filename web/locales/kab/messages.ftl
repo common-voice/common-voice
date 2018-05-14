@@ -61,8 +61,14 @@ nn-NO = Tanuṛvijt ninuṛsk
 
 ## ProfileForm
 
+male = Amalay
+female = Unti
+# Gender
+other = Wiyaḍ
+why-profile-title = Acuɣer amaɣnu?
 profile-create = Rnu amaɣnu
 profile-create-success = Yedda, amaɣnu yettwarna!
+profile-close = Mdel
 
 ## FAQ
 
