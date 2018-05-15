@@ -137,6 +137,7 @@ female = Unti
 # Gender
 other = Wiyaḍ
 why-profile-title = Acuɣer amaɣnu?
+edit-profile = Ẓreg amaɣnu
 profile-create = Rnu amaɣnu
 profile-create-success = Yedda, amaɣnu yettwarna!
 profile-close = Mdel
@@ -160,9 +161,11 @@ profile-why-title = Iwacu-t umaɣnu?
 ## NotFound
 
 notfound-title = Ulac-it
+notfound-content = Ahat ur tezriḍ ara d acu i γef tettnadiḍ.
 
 ## Data
 
+data-download-button = Sali-d isefka Common Voice
 data-download-yes = Ih
 data-download-deny = Uhu
 data-download-license = Aselkin: <licenseLink>CC-0</licenseLink>
@@ -171,8 +174,15 @@ data-other-download = Sider isefka
 
 ## Record Page
 
+record-must-allow-microphone = Ilaq ad tsirgeḍ anekcum i usawaḍ.
 record-retry = Σreḍ i tikelt-nniḍen
+record-error-too-short = Meẓẓi mliḥ usekles-nni.
+record-error-too-long = Meqqeṛ mliḥ usekles-nni.
+record-error-too-quiet = Ixuṣṣ mliḥ ṣṣut n usekles-nni.
+record-submit-success = Yettwaceyyeɛ akken iwata. Tebɣiḍ ad talseḍ asekles?
+record-help = Ma ulac aɣilif, tekki i wakken ad yebdu usekles, sakin ɣer-d tafyirt-nni ukessar s lqedd n taɣect-ik /im!
 record-cancel = Sefsex asekles
+review-terms = S useqdec n Common Voice, ad tqebleḍ tiwtilin-nneγ <termsLink> akked <privacyLink>tasertit-nneγ n tbaḍnit </privacyLink>
 terms-agree = Qebleɣ
 terms-disagree = Ur qbileɣ ara
 review-submit-title = Ɛiwed-as tamuɣli, Ceyyɛeḍ-t
@@ -185,6 +195,7 @@ review-delete-recordings = Kkes ikalasen-iw
 ## Download Modal
 
 download-title = Asider-ik yekker.
+download-helpus = Ɛawen-aɣ i wakken ad nesbedd tamezdagnut ɣef tetiknulujit timeslawt. Qqim yid-nneɣ s ttawil unermes gar-aneɣ.
 download-form-email =
     .label = Sekcem Imayl-inek/inem
     .value = Tanemmirt. Ad neqqim nettemceyyaɛ gar-aneɣ.
