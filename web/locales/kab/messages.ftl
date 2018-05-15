@@ -77,6 +77,8 @@ privacy = Tabaḍnit
 terms = Tiwtilin
 cookies = Inagan n tuqqna
 faq = Isteqsiyen FAQ
+share-title = Ɛawen-aɣ i wakken ad d-naf imdanen-nniḍen ara d-yefken taɣect-nsen!
+share-text = Ɛawen timacicin ad ttmeslayent am yimdanen, efk-d taɣect-ik { $link }
 back-top = Uɣal d asawen
 
 ## Home Page
