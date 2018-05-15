@@ -165,6 +165,7 @@ license-mixed = Blandet
 
 ## Record Page
 
+record-platform-not-supported-desktop = Til datamaskiner kan du laste ned siste versjon:
 record-platform-not-supported-ios = <bold>iOS</bold>-brukere kan laste ned gratisappen vår:
 record-must-allow-microphone = Du må tillate tilgang til mikrofonen.
 record-retry = Prøv igjen
