@@ -180,6 +180,7 @@ terms-agree = Jeg godtar
 terms-disagree = Jeg godtar ikke
 review-aborted = Opplasting avbrutt. Vil du slette innspillingene dine?
 review-submit-title = Godkjenn og send inn
+review-submit-msg = Takk for opptaket!<lineBreak></lineBreak>Godkjenn og send inn klippe dine nedenfor.
 review-recording = Vurder
 review-rerecord = Spill inn på nytt
 review-cancel = Avbryt innsending
