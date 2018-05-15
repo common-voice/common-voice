@@ -157,6 +157,7 @@ data-download-yes = Da
 data-download-deny = Ne
 data-download-license = Licenca: <licenseLink>CC-0</licenseLink>
 data-download-modal = Začel se bo prenos datoteke, velike <size>{ $size } GB</size>, nadaljujemo?
+data-get-started = <speechBlogLink>Začnite s prepoznavo govora</speechBlogLink>
 data-other-goto = Pojdi na { $name }
 data-other-download = Prenesi podatke
 license = Licenca: <licenseLink>{ $license }</licenseLink>
