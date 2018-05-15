@@ -166,6 +166,7 @@ faq-native-q = { $lang } mačči d tameslayt-iw tayemmat. Ttmeslayeɣ-tt txuṣ�
 faq-firefox-q = Ɛni aqeddic n taɣect-ɣer-uḍris n Common Voice ittekki ar Firefox?
 faq-quality-q = Anwa i d aswir n tɣaṛa i ilaq ad isɛu yimesli i wakken ad yettwaseqdec?
 faq-hours-q = Acuɣeṛ 10 000 n isragen n yimesla i nebɣa ad nejmeɛ?
+faq-hours-a = Hatan meḥsub umḍan n yisragen i ilaqen i uheyyi n ufares n unagraw STT.
 faq-source-q = Ansa i d-yekka aɣbalu n uḍṛis?
 
 ## Profile
@@ -183,6 +184,7 @@ data-download-button = Sali-d isefka Common Voice
 data-download-yes = Ih
 data-download-deny = Uhu
 data-download-license = Aselkin: <licenseLink>CC-0</licenseLink>
+data-download-modal = Aql-ik/ikem tebɣiḍ ad tebduḍ asider n <size>{ $size }GB</size>,tqebleḍ?
 data-other-goto = Ddu ɣer { $name }
 data-other-download = Sider isefka
 
@@ -199,7 +201,9 @@ record-cancel = Sefsex asekles
 review-terms = S useqdec n Common Voice, ad tqebleḍ tiwtilin-nneγ <termsLink> akked <privacyLink>tasertit-nneγ n tbaḍnit </privacyLink>
 terms-agree = Qebleɣ
 terms-disagree = Ur qbileɣ ara
+review-aborted = Asali yeḥbes. Tebɣiḍ ad tsefḍeḍ ayen teskelseḍ?
 review-submit-title = Ɛiwed-as tamuɣli, Ceyyɛeḍ-t
+review-submit-msg = Tanmirt-ik imi i teskelseḍ!<lineBreak><lineBreak>Wali tura tceyyɛeḍ ayen teskelseḍ ddaw-a.
 review-recording = Acegger
 review-rerecord = Ales asekles
 review-cancel = Sefsex tuzna
