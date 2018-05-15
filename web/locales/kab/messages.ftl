@@ -187,6 +187,9 @@ data-download-license = Aselkin: <licenseLink>CC-0</licenseLink>
 data-download-modal = Aql-ik/ikem tebɣiḍ ad tebduḍ asider n <size>{ $size }GB</size>,tqebleḍ?
 data-other-goto = Ddu ɣer { $name }
 data-other-download = Sider isefka
+data-other-librispeech-description = LibriSpeech d ammud n wazal 1000 n yisragen n tɣuri s tneglizit 16Khz i d-yekkan seg yidlisen s taɣect seg usenfar LibriVox.
+data-other-ted-name = Ammud n TED-LIUM
+data-other-ted-description = Ammud n TED-LIUM yettwaxdem-d seg yinawen s taɣect ajerred-nsen yella deg usmel n TED.
 
 ## Record Page
 
