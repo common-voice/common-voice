@@ -77,13 +77,16 @@ back-top = Nazaj na vrh
 
 ## Home Page
 
+home-cta = Spregovori, prispevaj tukaj!
 show-wall-of-text = Več
 help-us-title = Pomagaj nam potrditi stavke!
+help-us-explain = Pritisni predvajaj in poslušaj. Ali je spodnji stavek pravilno izgovorjen?
 vote-yes = Da
 vote-no = Ne
 
 ## Shortcuts
 
+request-language-text = Vaš jezik še ni vključen v Common Voice?
 request-language-button = Predlagaj jezik
 
 ## ProjectStatus
