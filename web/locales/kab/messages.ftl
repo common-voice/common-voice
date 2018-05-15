@@ -153,6 +153,7 @@ edit-profile = Ẓreg amaɣnu
 profile-create = Rnu amaɣnu
 profile-create-success = Yedda, amaɣnu yettwarna!
 profile-close = Mdel
+profile-clear-modal = Ma tsefḍeḍ isefka n umaɣnu-ik, talɣut-agi ɣeg isefka n tdimugrafit ur ttwaznen ara ar Common Voice s yikalasen-ik iɣectanen.
 
 ## FAQ
 
