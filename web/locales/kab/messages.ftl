@@ -83,7 +83,11 @@ back-top = Uɣal d asawen
 
 ## Home Page
 
+home-title = Asenfaṛ n Common Voice yella-d s lmendad n Mozilla. Yella-d i uɛawen n tmacicin ad issinent amek i heddṛen yimdanen n tidet.
+home-cta = Meslay, ttekki da!
+wall-of-text-start = Taɣect d tagamiwt, taɣect d ayla n wemdan. Daymi i nebɣa ad d-nexdem tatiknulujit tamesliwt ara sseqdacent tmacinin-nneɣ. Meɛna i wakken ad d-nexleq inagrawen n yimesla, ilaq ad d-nejmeɛ aṭas n yisefka s tuɣac n yimdanen.
 show-wall-of-text = Issin ugar
+help-us-title = Ɛawen-aɣ i wakken ad nesseɣbel tifyar!
 vote-yes = Ih
 vote-no = Uhu
 
@@ -139,12 +143,23 @@ profile-close = Mdel
 
 ## FAQ
 
+faq-title = Isteqsiyen i yezgan ttuɣalen-d
+faq-what-q = D acu-t Common Voice?
+faq-important-q = Acuɣer i yesɛa azal?
+faq-get-q = Amek i zemreɣ ad afeɣ isefka n Common Voice?
+faq-mission-q = Acuɣeṛ asenfaṛ n Common Voice ittekki di leqdic n Mozilla?
+faq-native-q = { $lang } mačči d tameslayt-iw tayemmat. Ttmeslayeɣ-tt txuṣṣ kra. Tuḥwaǧem taɣect-iw ɣas akken?
+faq-quality-q = Anwa i d aswir n tɣaṛa i ilaq ad isɛu yimesli i wakken ad yettwaseqdec?
+faq-hours-q = Acuɣeṛ 10 000 n isragen n yimesla i nebɣa ad nejmeɛ?
+faq-source-q = Ansa i d-yekka aɣbalu n uḍṛis?
 
 ## Profile
 
+profile-why-title = Iwacu-t umaɣnu?
 
 ## NotFound
 
+notfound-title = Ulac-it
 
 ## Data
 
@@ -157,8 +172,10 @@ data-other-download = Sider isefka
 ## Record Page
 
 record-retry = Σreḍ i tikelt-nniḍen
+record-cancel = Sefsex asekles
 terms-agree = Qebleɣ
 terms-disagree = Ur qbileɣ ara
+review-submit-title = Ɛiwed-as tamuɣli, Ceyyɛeḍ-t
 review-recording = Acegger
 review-rerecord = Ales asekles
 review-cancel = Sefsex tuzna
@@ -168,20 +185,38 @@ review-delete-recordings = Kkes ikalasen-iw
 ## Download Modal
 
 download-title = Asider-ik yekker.
+download-form-email =
+    .label = Sekcem Imayl-inek/inem
+    .value = Tanemmirt. Ad neqqim nettemceyyaɛ gar-aneɣ.
+download-back = Uɣal ar yilugan n yisefka n Common Voice
 download-no = Uhu Tanemmirt
 
 ## Contact Modal
 
+contact-title = Tifert n unermes
 contact-cancel = Sefsex
 contact-form-name =
     .label = Isem
 contact-form-message =
     .label = Izen
+contact-required = *ilaq ad yili
 
 ## Request Language Modal
 
+request-language-title = Asuter n tutlayt
+request-language-cancel = Tifert n tuffɣa
+request-language-form-language =
+    .label = Tutlayt
+request-language-success-title = Asuter-inek/inem i tmerniwt n tutlayt yettwaceyyeɛ. Tenemmirt.
+request-language-success-content = A nennadi aṭas amek ara nernu tulayt-nwen ar Common Voice deg teswiɛt iqeṛben.
 
 ## Languages Overview
 
+language-section-in-progress = La iteddu
+language-section-launched = Yendeh
+languages-show-more = Wali ugar
+languages-show-less = Wali qqel
+language-speakers = Tiberraḥin
+language-total-progress = Asemday
 language-search-input =
     .placeholder = Nadi
