@@ -109,6 +109,7 @@ request-language-button = Suter tutlayt
 
 ## ProjectStatus
 
+status-title = Aswir usenfaṛ i meṛṛa: wali ar wanda i newweḍ!
 status-contribute = Ttekki s taɣect-ik
 status-hours =
     { $hours ->
@@ -144,6 +145,7 @@ female = Unti
 # Gender
 other = Wiyaḍ
 why-profile-title = Acuɣer amaɣnu?
+why-profile-text = Ma terniḍ-d ugar n yisallen ɣef yiman-ik, isefka n ṣṣut i d-tceyyɛeḍ ar usenfaṛ n Common Voice ad lhun aṭas i tmacicin n unadi deg uɛqal n taɣect i yessexdamen isefka-ya i wakken ad snernin leqdic-nsen.
 edit-profile = Ẓreg amaɣnu
 profile-create = Rnu amaɣnu
 profile-create-success = Yedda, amaɣnu yettwarna!
@@ -157,6 +159,7 @@ faq-important-q = Acuɣer i yesɛa azal?
 faq-get-q = Amek i zemreɣ ad afeɣ isefka n Common Voice?
 faq-mission-q = Acuɣeṛ asenfaṛ n Common Voice ittekki di leqdic n Mozilla?
 faq-native-q = { $lang } mačči d tameslayt-iw tayemmat. Ttmeslayeɣ-tt txuṣṣ kra. Tuḥwaǧem taɣect-iw ɣas akken?
+faq-firefox-q = Ɛni aqeddic n taɣect-ɣer-uḍris n Common Voice ittekki ar Firefox?
 faq-quality-q = Anwa i d aswir n tɣaṛa i ilaq ad isɛu yimesli i wakken ad yettwaseqdec?
 faq-hours-q = Acuɣeṛ 10 000 n isragen n yimesla i nebɣa ad nejmeɛ?
 faq-source-q = Ansa i d-yekka aɣbalu n uḍṛis?
