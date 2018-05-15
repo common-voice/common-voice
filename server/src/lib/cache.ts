@@ -21,7 +21,7 @@ export default class Cache<T> {
     this.size = size;
   }
 
-  private async refill() {
+  async refill() {
     return (
       this.refillPromise ||
       (this.refillPromise = new Promise(async resolve => {

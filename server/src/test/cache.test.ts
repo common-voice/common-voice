@@ -40,3 +40,11 @@ test('takeWhere', async () => {
   }
   expect(items.length).toBe(2);
 });
+
+test("don't fill with duplicates", async () => {
+  const cache = new Cache(() => [1, 2, 3]);
+  expect((await cache.getAll()).length).toBe(3);
+  await cache.take(2);
+  await cache.refill();
+  expect((await cache.getAll()).length).toBe(3);
+});
