@@ -40,6 +40,7 @@ ko = Корейська
 kw = Корнська
 mk = Македонська
 nb-NO = Норвезька Букмол
+ne-NP = Непальська
 nl = Голландська
 nn-NO = Норвезька Нюношк
 or = Орія
@@ -49,6 +50,7 @@ ro = Румунська
 ru = Російська
 sk = Словацька
 sq = Албанська
+sr = Сербська
 sv-SE = Шведська
 ta = Тамільська
 te = Телугу
@@ -102,9 +104,19 @@ help-us-title = Допоможіть нам перевірити речення!
 help-us-explain = Натисніть кнопку відтворення, прослухайте і повідомте нас чи правильно вимовлено речення внизу.
 vote-yes = Так
 vote-no = Ні
+toggle-play-tooltip = Натисніть { shortcut-play-toggle } для перемикання режиму відтворення
 
 ## Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = с
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = т
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = н
 request-language-text = Не можете знайти свою мову в Common Voice?
 request-language-button = Запит нової мови
 
@@ -162,7 +174,7 @@ faq-important-q = Чому це важливо?
 
 ## Profile
 
-profile-why-title = Навіщо обліковий запис?
+profile-why-title = Нащо потрібен профіль?
 
 ## NotFound
 
@@ -171,6 +183,7 @@ notfound-content = Боюсь, я не знаю, що ви шукаєте.
 
 ## Data
 
+data-download-button = Завантажити дані Common Voice
 data-download-yes = Так
 data-download-deny = Ні
 data-download-license = Ліцензія: <licenseLink>CC-0</licenseLink>
