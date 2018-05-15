@@ -53,7 +53,7 @@ sq = Talbanit
 sr = Taṣirbit
 sv-SE = Taswidit
 ta = Taṭamilit
-te = Talugut
+te = Tatelgut
 th = Taṭaylant
 tr = Taṭurkit
 tt = Taṭaṭarit
@@ -88,8 +88,10 @@ home-cta = Meslay, ttekki da!
 wall-of-text-start = Taɣect d tagamiwt, taɣect d ayla n wemdan. Daymi i nebɣa ad d-nexdem tatiknulujit tamesliwt ara sseqdacent tmacinin-nneɣ. Meɛna i wakken ad d-nexleq inagrawen n yimesla, ilaq ad d-nejmeɛ aṭas n yisefka s tuɣac n yimdanen.
 show-wall-of-text = Issin ugar
 help-us-title = Ɛawen-aɣ i wakken ad nesseɣbel tifyar!
+help-us-explain = Tekki ɣef tqeffilt "urar", ḥess, tineḍ-aɣ-d ma yella tettwanṭaq-d akken iwata tefyirt-a ukessar!
 vote-yes = Ih
-vote-no = Uhu
+vote-no = Ala
+toggle-play-tooltip = Tekki ɣef { shortcut-play-toggle } i wakken ad yuɣal ɣer uskar n tɣuri.
 
 ## Shortcuts
 
@@ -108,9 +110,14 @@ request-language-button = Suter tutlayt
 ## ProjectStatus
 
 status-contribute = Ttekki s taɣect-ik
+status-hours =
+    { $hours ->
+        [one] Ssaɛa i yemden armi d tura!
+       *[other] { $hours } n sswayeɛ i yemden armi d tura
+    }
 # Variables:
 # $goal - number of hours representing the next goal
-status-goal = Iswi d iteddun:{ $goal }
+status-goal = Iswi i d-iteddun:{ $goal }
 english = Taglizit
 
 ## ProfileForm
