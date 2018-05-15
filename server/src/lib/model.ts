@@ -17,7 +17,10 @@ export default class Model {
   clipCache: Map<string, Cache<DBClipWithVoters>> = new Map(
     contributableLocales.map(locale => [
       locale,
-      new Cache(count => this.db.findClipsWithFewVotes(locale, count)),
+      new Cache(
+        count => this.db.findClipsWithFewVotes(locale, count),
+        clip => clip.id
+      ),
     ]) as any
   );
   sentencesCaches: Map<string, Map<string, Cache<string>>> = new Map(
