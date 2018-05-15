@@ -94,6 +94,16 @@ help-us-title = Hjælp os med at kontrollere sætninger!
 help-us-explain = Tryk på afspil, lyt og fortæl os, om den indtalte sætning var korrekt.
 vote-yes = Ja
 vote-no = Nej
+toggle-play-tooltip = Tryk på { shortcut-play-toggle } for at starte eller stoppe afspilningen
+
+## Shortcuts
+
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = j
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 request-language-text = Kan du ikke finde dit sprog på Common Voice?
 request-language-button = Anmod om at få tilføjet et nyt sprog
 
