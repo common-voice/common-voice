@@ -203,6 +203,7 @@ contact-required = *obvezno polje
 request-language-cancel = Zapri obrazec
 request-language-form-language =
     .label = Jezik
+request-language-success-title = Predlog za jezik je bil uspešno poslan, hvala.
 request-language-success-content = V kratkem se vam bomo oglasili z več informacijami o tem kako dodati vaš jezik v Common Voice. 
 
 ## Languages Overview
