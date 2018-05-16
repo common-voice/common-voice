@@ -94,9 +94,13 @@ help-us-title = Cabhraigh linn abairtí a dheimhniú!
 help-us-explain = Cliceáil an tsaighead, éist, agus abair linn: an bhfuil an taifeadadh cruinn?
 vote-yes = Tá
 vote-no = Níl
+toggle-play-tooltip = Brúigh { shortcut-play-toggle } chun an mód seinnte a athrú
 
 ## Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = b
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = t
@@ -272,3 +276,5 @@ languages-show-more = Níos Mó
 languages-show-less = Níos Lú
 language-speakers = Cainteoirí
 language-total-progress = Iomlán
+language-search-input =
+    .placeholder = Cuardaigh
