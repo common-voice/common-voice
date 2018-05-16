@@ -161,6 +161,7 @@ faq-title = Isteqsiyen i yezgan ttuɣalen-d
 faq-what-q = D acu-t Common Voice?
 faq-important-q = Acuɣer i yesɛa azal?
 faq-get-q = Amek i zemreɣ ad afeɣ isefka n Common Voice?
+faq-get-a = Tagrumma n yisefka tella deg <downloadLink>usebter n usider </downloadLink> ddaw n turagt <licenseLink>CC-0</licenseLink>.
 faq-mission-q = Acuɣeṛ asenfaṛ n Common Voice ittekki di leqdic n Mozilla?
 faq-native-q = { $lang } mačči d tameslayt-iw tayemmat. Ttmeslayeɣ-tt txuṣṣ kra. Tuḥwaǧem taɣect-iw ɣas akken?
 faq-firefox-q = Ɛni aqeddic n taɣect-ɣer-uḍris n Common Voice ittekki ar Firefox?
@@ -168,6 +169,8 @@ faq-quality-q = Anwa i d aswir n tɣaṛa i ilaq ad isɛu yimesli i wakken ad ye
 faq-hours-q = Acuɣeṛ 10 000 n isragen n yimesla i nebɣa ad nejmeɛ?
 faq-hours-a = Hatan meḥsub umḍan n yisragen i ilaqen i uheyyi n ufares n unagraw STT.
 faq-source-q = Ansa i d-yekka aɣbalu n uḍṛis?
+faq-source-a1 = Tifyar n tura kkant-d seg uttekki n yal yiwen akked idiwenniyen n isura izuyaz am <italic>Tudert tecbeḥ</italic>.
+faq-source-a2 = Tifyar tiɣbula ttwakcament <dataLink>deg ukaram-agi</dataLink> di GitHub.
 
 ## Profile
 
@@ -185,14 +188,23 @@ data-download-yes = Ih
 data-download-deny = Uhu
 data-download-license = Aselkin: <licenseLink>CC-0</licenseLink>
 data-download-modal = Aql-ik/ikem tebɣiḍ ad tebduḍ asider n <size>{ $size }GB</size>,tqebleḍ?
+data-get-started = <speechBlogLink>Ger afus deg uɛqal aɣectan</speechBlogLink>
+data-other-title = Tigrummiwin-nniḍen n yisefka...
 data-other-goto = Ddu ɣer { $name }
 data-other-download = Sider isefka
 data-other-librispeech-description = LibriSpeech d ammud n wazal 1000 n yisragen n tɣuri s tneglizit 16Khz i d-yekkan seg yidlisen s taɣect seg usenfar LibriVox.
 data-other-ted-name = Ammud n TED-LIUM
 data-other-ted-description = Ammud n TED-LIUM yettwaxdem-d seg yinawen s taɣect ajerred-nsen yella deg usmel n TED.
+data-bundle-button = Sider-d aqettun n tagrumma n yisefka
+data-bundle-description = Isefka Common Voice akked tigrummiwin meṛṛa n yisefka-nniḍen ddaw-a.
+license = Turagt: <licenseLink>{ $license }</licenseLink>
+license-mixed = Uxliḍ
 
 ## Record Page
 
+record-platform-not-supported = Suref-aɣ, anagraw-ik ur yettwasefrak ara akka tura.
+record-platform-not-supported-desktop = I yiselkimen n tnrait, tzemreḍ ad tessidreḍ imaynuten:
+record-platform-not-supported-ios = Iseqdsacen n <bold>iOS</bold> zemren ad sidren asnaɣ-nneɣ n baṭel :
 record-must-allow-microphone = Ilaq ad tsirgeḍ anekcum i usawaḍ.
 record-retry = Σreḍ i tikelt-nniḍen
 record-error-too-short = Meẓẓi mliḥ usekles-nni.
