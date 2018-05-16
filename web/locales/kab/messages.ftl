@@ -164,6 +164,7 @@ faq-important-a = Taɣect d tagamiwt, taɣect d ayla n wemdan. D abrid illan fes
 faq-get-q = Amek i zemreɣ ad afeɣ isefka n Common Voice?
 faq-get-a = Tagrumma n yisefka tella deg <downloadLink>usebter n usider </downloadLink> ddaw n turagt <licenseLink>CC-0</licenseLink>.
 faq-mission-q = Acuɣeṛ asenfaṛ n Common Voice ittekki di leqdic n Mozilla?
+faq-mission-a = Mozilla iswi-is d aḥraz n  web yeldin, yettwakcamen i yal yiwen. Akken ad naweḍ lebɣi, yessefk ad nmudd ifecka am Common Voice i wid i d-yesnulfuyen. Titiknulujiyin tiɣectanin ttnulfuyent-d di kra n yimeḍqan,numen daɣen d akken zemrent ad ttwasqedcent akken ilaq. Nwala d akken ilaq ad nseddu ugar n tutlayin, ifeskilen akked iwtayen i tmerna d usekyed n titiknulujiyin tiɣectanin. Mozilla tebɣa Internet urmid, s tezmert yelhan. Ayagi ad d-yeglu s umuddu n unekcum i wid yesnulfuyen di web, ar isefka iɣectanen i yezemren ad sqedcen deg isenfaṛen imaynuten. Common Voice ad yuɣal d taɣbalut tazayezt ara yemudden afus i trebbaɛ n Mozilla akked ineflayen n umaḍal meṛṛa.
 faq-native-q = { $lang } mačči d tameslayt-iw tayemmat. Ttmeslayeɣ-tt txuṣṣ kra. Tuḥwaǧem taɣect-iw ɣas akken?
 faq-native-a = Ih, nesra taɣect-ik! Kra n yiḥricen seg iswiyen n Common Voice d alqaḍ n ddeqs n ifeskilen akken timacinin ad izmirent ad gzunt akken iwata taɣect n <bold>yal yiwen</bold> ticki yettmeslay.
 faq-firefox-q = Ɛni aqeddic n taɣect-ɣer-uḍris n Common Voice ittekki ar Firefox?
