@@ -160,6 +160,7 @@ profile-clear-modal = Ma tsefḍeḍ isefka n umaɣnu-ik, talɣut-agi ɣeg isefk
 faq-title = Isteqsiyen i yezgan ttuɣalen-d
 faq-what-q = D acu-t Common Voice?
 faq-important-q = Acuɣer i yesɛa azal?
+faq-important-a = Taɣect d tagamiwt, taɣect d ayla n wemdan. D abrid illan fessusen, d amagnu i  umeslay. Nebγa d akken ineflayen ad izmiren i usali n usenfar igerzen, ama d tasuqilt srid neγ amεiwen n tnedbalt. Maca akka tura ulac deqs n isefka izuyaz akken ad nernu isnasen-agi. Nesaram d akken Common Voice ad iffek i ineflayen ayen akk isran.
 faq-get-q = Amek i zemreɣ ad afeɣ isefka n Common Voice?
 faq-get-a = Tagrumma n yisefka tella deg <downloadLink>usebter n usider </downloadLink> ddaw n turagt <licenseLink>CC-0</licenseLink>.
 faq-mission-q = Acuɣeṛ asenfaṛ n Common Voice ittekki di leqdic n Mozilla?
