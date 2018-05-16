@@ -2,7 +2,7 @@
 
 yes-receive-emails = Ih, ceyyeɛ-iyi-d imaylen. bɣiɣ ad yi-d-ttawḍen yisallen ɣef usenfaṛ n Commen Voice.
 stayintouch = Nekkni di Mozilla, nbennu tarbaɛt itezzin ɣef tetiknulujit. Nebɣa ad neqqim akked umaynut d yileqman, isefka imaynuten akken ad nsel ugar ɣef wamek ara ttwasqedcen isefka-agi.
-privacy-info = Ad neḍmen d akken ad neḥrez isefka-nwen. Issin ugar ɣef <privacyLink>tsertit tabaḍnit</privacyLink>.
+privacy-info = Ad neḍmen d akken ad neḥrez isefka-nwen. Ɣeṛ ugar ɣef <privacyLink>tsertit tabaḍnit</privacyLink>.
 return-to-cv = Uɣal ar Common Voice
 email-input =
     .label = Imayl
@@ -89,7 +89,7 @@ home-cta = Meslay, ttekki da!
 wall-of-text-start = Taɣect d tagamant, taɣect d ayla n umdan. Ɣef aya i nebɣa ad d-nexdem tatiknulujit taɣectant ara sseqdacent tmacinin-nneɣ. Acu kan, akken ad d-nesnulfu inagrawen n taɣect, yessefk ad d-nelqeḍ aṭas n yisefka s tuɣac n yimdanen.
 wall-of-text-more-mobile = Tuget n yisefka i seqdacent tkebbaniyin  ur llint ara i tuget n yimdanen. Nwala d akken ayagi yesseḥbas asnulfu. Ɣef aya, asenfaṛ Common Voice ilul-d. D asenfaṛ ara yessifsusen anekcum ar tmussni taɣectant, i yal yiwen.
 wall-of-text-more-desktop = Tura, tzemreḍ ad aɣ-d-tmuddeḍ affus s taɣect-ik akken ad nebnu taffa n yisefka n uqbalu yeldin ara yesseqdec yal yiwen akken ad yesnulfu isnasen i yibenkan neɣ i web.<lineBreak></lineBreak> Ɣeṛ tafyir akken ad tmuddeḍ tallelt i tmacinin ad issinent amek ttmeslayen yimdanen ilawen. Senqed amahil n yimttekkiyen-nniḍen akken ad tesnerniḍ taɣara. D ayen fessusen!
-show-wall-of-text = Issin ugar
+show-wall-of-text = Ɣeṛ ugar
 help-us-title = Ɛawen-aɣ i wakken ad nesseɣbel tifyar!
 help-us-explain = Tekki ɣef tqeffilt "urar", ḥess, tineḍ-aɣ-d ma yella tettwanṭaq-d akken iwata tefyirt-a ukessar!
 vote-yes = Ih
@@ -172,9 +172,9 @@ faq-firefox-q = Ɛni aqeddic n taɣect-ɣer-uḍris n Common Voice ittekki ar Fi
 faq-firefox-a = Common Voice ɣur-s tazmert s war talast, daɣen neslaḍ aseqdec n yigrudmawen iɣectanen di ddeqs n yiseɣzanen n Mozilla, gar-asen Firefox.
 faq-quality-q = Anwa i d aswir n tɣaṛa i ilaq ad isɛu yimesli i wakken ad yettwaseqdec?
 faq-quality-a = Nebɣa taɣara tameslawt ara d-yemmager umsedday n uɛqal aɣectan di tmeddurt n yal ass. Nesra ihi tanḍa. Ayagi ad yesleɣmu amsedday akken ad yerr di leḥsab ddeqs n waddaden : ammeslay deg ugilal, ahiten neɣ lḥes n yimseddayen n yisezwayen.
-faq-hours-q = Acuɣeṛ 10 000 n isragen n yimesla i nebɣa ad nejmeɛ?
+faq-hours-q = Acuɣeṛ 10 000 n isragen n yimesla i nebɣa ad nsekles?
 faq-hours-a = Hatan meḥsub umḍan n yisragen i ilaqen i uheyyi n ufares n unagraw STT.
-faq-source-q = Ansa i d-yekka aɣbalu n uḍṛis?
+faq-source-q = Ansa i d-yekka uḍris aɣbalu?
 faq-source-a1 = Tifyar n tura kkant-d seg uttekki n yal yiwen akked idiwenniyen n isura izuyaz am <italic>Tudert tecbeḥ</italic>.
 faq-source-a2 = Tifyar tiɣbula ttwakcament <dataLink>deg ukaram-agi</dataLink> di GitHub.
 
@@ -267,7 +267,7 @@ request-language-success-content = A nennadi aṭas amek ara nernu tulayt-nwen a
 
 ## Languages Overview
 
-language-section-in-progress = La iteddu
+language-section-in-progress = Ad d-iteddu
 language-section-launched = Yendeh
 languages-show-more = Wali ugar
 languages-show-less = Wali qqel
