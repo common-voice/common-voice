@@ -165,6 +165,7 @@ faq-get-a = Tagrumma n yisefka tella deg <downloadLink>usebter n usider </downlo
 faq-mission-q = Acuɣeṛ asenfaṛ n Common Voice ittekki di leqdic n Mozilla?
 faq-native-q = { $lang } mačči d tameslayt-iw tayemmat. Ttmeslayeɣ-tt txuṣṣ kra. Tuḥwaǧem taɣect-iw ɣas akken?
 faq-firefox-q = Ɛni aqeddic n taɣect-ɣer-uḍris n Common Voice ittekki ar Firefox?
+faq-firefox-a = Common Voice ɣur-s tazmert s war talast, daɣen neslaḍ aseqdec n yigrudmawen iɣectanen di ddeqs n yiseɣzanen n Mozilla, gar-asen Firefox.
 faq-quality-q = Anwa i d aswir n tɣaṛa i ilaq ad isɛu yimesli i wakken ad yettwaseqdec?
 faq-hours-q = Acuɣeṛ 10 000 n isragen n yimesla i nebɣa ad nejmeɛ?
 faq-hours-a = Hatan meḥsub umḍan n yisragen i ilaqen i uheyyi n ufares n unagraw STT.
@@ -175,6 +176,7 @@ faq-source-a2 = Tifyar tiɣbula ttwakcament <dataLink>deg ukaram-agi</dataLink> 
 ## Profile
 
 profile-why-title = Iwacu-t umaɣnu?
+profile-why-content = S umuddu n kra n talɣut fell-ak, isefka imeslawen ara tebḍuḍ d Common Voice ad lhun i yimseddayen n uɛqal aɣectan ara ten-yesqedcen akken ad snernin tiseddi-nwen.
 
 ## NotFound
 
@@ -188,6 +190,8 @@ data-download-yes = Ih
 data-download-deny = Uhu
 data-download-license = Aselkin: <licenseLink>CC-0</licenseLink>
 data-download-modal = Aql-ik/ikem tebɣiḍ ad tebduḍ asider n <size>{ $size }GB</size>,tqebleḍ?
+data-subtitle = Nesnulfuy-d tigrummiwin n yisefka n taɣect yeldin, yettwakcamen s wudem azayez, tid i zemren ad sqedcen yimdanen deg isnasen i yesseqdacen taɣect.
+data-explanatory-text = Numen d akken tigrumminwin timeqqranin n yisefkayettwabḍan s wudem azayez, ad muddent tagnit n unulfu, daɣen ad ttekkint deg usbeddi n umsizwer zeddigen i titiknulujiyin tiɣectanin s useqdec n uselmed awurman. D axeddim agraɣlan, ihi ad k-id-nenced akken ad tettekkid. Iswi-nneɣ akken titiknulujiyin tiɣectanin ad ilint ldint, daɣen, ad izmirent ad d-muddent udem n tanḍa n tuɣac n umaḍal meṛṛa.
 data-get-started = <speechBlogLink>Ger afus deg uɛqal aɣectan</speechBlogLink>
 data-other-title = Tigrummiwin-nniḍen n yisefka...
 data-other-goto = Ddu ɣer { $name }
