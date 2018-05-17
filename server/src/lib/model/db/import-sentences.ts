@@ -125,8 +125,8 @@ async function importLocaleSentences(pool: any, locale: string) {
     const id = hash(sentence);
 
     const [[sentenceExists]] = await pool.query(
-      'SELECT 1 FROM sentences WHERE id = ?',
-      [id]
+      'SELECT 1 FROM sentences WHERE text = ?',
+      [sentence]
     );
 
     if (sentenceExists) {
