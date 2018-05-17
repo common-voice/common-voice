@@ -272,10 +272,7 @@ export default class DB {
       this.getLocaleId(locale),
       this.saveUserClient(client_id),
     ]);
-    const [[{ bucket }]] = await this.mysql.query(
-      'SELECT bucket FROM user_client_locale_buckets WHERE client_id = ? AND locale_id = ? LIMIT 1',
-      [client_id, localeId]
-    );
+    const bucket = await this.getOrSetUserBucket(client_id, locale, 'train');
     await this.insertSentence(sentenceId, sentence, bucket);
     await this.mysql.query(
       `
