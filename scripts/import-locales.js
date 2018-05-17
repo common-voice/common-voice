@@ -55,7 +55,7 @@ async function saveToMessages(languages) {
   );
   const messages = fs.readFileSync(messagesPath, 'utf-8');
   const newMessages = messages.replace(
-    /#\[Languages]([\s\S]*?)#\[\/]/gm,
+    /#\s\[Languages]([\s\S]*?)#\s\[\/]/gm,
     [
       '# [Languages]',
       '## Languages',
