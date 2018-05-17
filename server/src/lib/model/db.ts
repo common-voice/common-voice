@@ -268,20 +268,21 @@ export default class DB {
     sentence: string;
   }): Promise<DBClip> {
     const sentenceId = hash(sentence);
-    await Promise.all([
+    const [localeId] = await Promise.all([
+      this.getLocaleId(locale),
       this.saveUserClient(client_id),
-      this.insertSentence(sentenceId, sentence),
     ]);
-    const localeId = await this.getLocaleId(locale);
+    const [[{ bucket }]] = await this.mysql.query(
+      'SELECT bucket FROM user_client_locale_buckets WHERE client_id = ? AND locale_id = ? LIMIT 1',
+      [client_id, localeId]
+    );
+    await this.insertSentence(sentenceId, sentence, bucket);
     await this.mysql.query(
       `
         INSERT IGNORE INTO clips (client_id, original_sentence_id, path, sentence, locale_id, bucket)
-          (
-            SELECT ?, ?, ?, ?, ?,
-              (SELECT bucket FROM user_client_locale_buckets WHERE client_id = ? AND locale_id = ? LIMIT 1)
-          )
+          VALUES (?, ?, ?, ?, ?, ?)
       `,
-      [client_id, sentenceId, path, sentence, localeId, client_id, localeId]
+      [client_id, sentenceId, path, sentence, localeId, bucket]
     );
     const [[row]] = await this.mysql.query(
       'SELECT * FROM clips WHERE id = LAST_INSERT_ID()'
@@ -305,10 +306,10 @@ export default class DB {
     return count || 0;
   }
 
-  async insertSentence(id: string, sentence: string) {
+  async insertSentence(id: string, sentence: string, bucket = 'train') {
     await this.mysql.query(
-      'INSERT INTO sentences (id, text) VALUES (?, ?) ON DUPLICATE KEY UPDATE id = id',
-      [id, sentence]
+      'INSERT INTO sentences (id, text, bucket) VALUES (?, ?, ?) ON DUPLICATE KEY UPDATE id = id',
+      [id, sentence, bucket]
     );
   }
 
