@@ -1,5 +1,6 @@
 ## General
 
+yes-receive-emails = Da, pošiljajte mi elektronska sporočila. Rad/a bi bil/a obveščen/a o novostih v projektu Common Voice.
 privacy-info = Obljubimo, da bomo z vašimi podatki ravnali skrbno. Preberite več v našem <privacyLink>obvestilu o zasebnosti</privacyLink>.
 return-to-cv = Nazaj na Common Voice
 email-input =
