@@ -277,3 +277,10 @@ language-speakers = Locuteurs
 language-total-progress = Total
 language-search-input =
     .placeholder = Rechercher
+
+## New Contribution
+
+action-click = Cliquez
+action-tap = Appuyez
+goal-type-validation = validation
+record-three-more-instruction = Plus que  trois !
