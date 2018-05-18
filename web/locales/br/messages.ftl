@@ -194,18 +194,71 @@ record-submit-success = Kaset gant berzh! C'hoant ho peus enrolliñ c'hoazh?
 record-help = Pouezit evit enrolliñ mar plij, lennit goude-se ar frazenn a vouezh uhel.
 record-cancel = Nullañ an ad-enrollañ
 review-terms = En ur implij Common Voice, e savit a-du gant hon <termsLink>Amplegadoù</termsLink> hag hon <privacyLink>Notennig Prevezded</privacyLink>
+terms-agree = Sevel a ran a-du
+terms-disagree = Ne savan ket a-du
+review-aborted = Uskargadenn nullaet. C'hoant ho peus dilemel hoc'h enrolladennoù?
+review-submit-title = Adwelet & Kas
+review-submit-msg = Trugarez evit an enrolladenn!<lineBreak></lineBreak>Adwelit ha kasit ho klipoù dindan bremañ.
+review-recording = Adwel
+review-rerecord = Enrolliñ en-dro
+review-cancel = Nullañ ar gasadenn
+review-keep-recordings = Mirout an enrolladennoù
+review-delete-recordings = Dilemel ma enrolladennoù
 
 ## Download Modal
 
+download-title = Staget eo ho pellgargadenn.
+download-helpus = Sikourit ac'hanomp da sevel ur gumuniezh tro-dro da deknologiezh ar vouezh, chomit e darempred dre bostel.
+download-form-email =
+    .label = Ebarzhit ho postel
+    .value = Trugarez vras, chom a raimp e darempred
+download-back = Distreiñ da hollad roadennoù Common Voice
+download-no = Nann avat
 
 ## Contact Modal
 
+contact-title = Furmskrid daremprediñ
+contact-cancel = Nullañ
+contact-form-name =
+    .label = Anv
+contact-form-message =
+    .label = Kemennadenn
+contact-required = *rekiset
 
 ## Request Language Modal
 
+request-language-title = Goulenn Yezh
+request-language-cancel = Kuitaat ar furmskrid
+request-language-form-language =
+    .label = Yezh
+request-language-success-title = Goulenn yezh kaset gant berzh, trugarez vras.
 
 ## Languages Overview
 
+language-section-in-progress = War ober
+language-section-launched = Lorc'het
+languages-show-more = Gwelet muioc'h
+languages-show-less = Gwelet nebeutoc'h
+language-speakers = Uhel-gomzerioù
+language-total-progress = Hollad
+language-search-input =
+    .placeholder = Klask
 
 ## New Contribution
 
+action-click = Klikañ
+action-tap = Pouezit
+listen = Selaou
+skip = Ober van
+shortcuts = Berradurioù
+clips = Klipoù
+goal-type-record = oc'h enrollañ
+goal-type-validation = kadarnaat
+toward-goal = Se 'zo <goalPercentage></goalPercentage>pal Common Voice{ $goalType } hiziv. Trugarez vras
+contribute-more = Prest d'ober { $count } muioc'h?
+record-cta = Stagañ da enrollañ
+record-instruction = { $actionType }<recordIcon></recordIcon> lennit da c'houde ar frazenn a vouezh uhel
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> ur wech echu
+record-three-more-instruction = Tri c'hoazh!
+record-again-instruction = Beuz! <recordIcon></recordIcon> Enrollit ho klip da heul
+record-again-instruction2 = Derc'hel da vont, enrollañ adarre <recordIcon></recordIcon>
