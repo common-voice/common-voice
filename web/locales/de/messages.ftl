@@ -275,3 +275,37 @@ language-speakers = Sprecher
 language-total-progress = Gesamt
 language-search-input =
     .placeholder = Suchen
+
+## New Contribution
+
+action-click = Klicken
+action-tap = Berühren
+listen = Anhören
+skip = Überspringen
+shortcuts = Tastenkombinationen
+clips = Aufzeichnungen
+goal-type-record = Aufnahme
+goal-type-validation = Überprüfung
+toward-goal = Damit sind <goalPercentage></goalPercentage> vom heutigen Common-Voice-Ziel { $goalType } erreicht. Vielen Dank
+contribute-more = Nehmen Sie noch { $count } mehr auf?
+record-cta = Aufzeichnung starten
+record-instruction = { $actionType } <recordIcon></recordIcon>, dann lesen Sie den Satz laut vor
+record-stop-instruction = { $actionType } <stopIcon></stopIcon>, wenn Sie fertig sind
+record-three-more-instruction = Noch drei!
+record-again-instruction = Toll! <recordIcon></recordIcon> Nehmen Sie jetzt noch mehr auf
+record-again-instruction2 = Weiter so, erneut aufnehmen <recordIcon></recordIcon>
+record-last-instruction = <checkIcon></checkIcon> Die Letzte!
+review-tooltip = Hier können Sie Aufzeichnungen überprüfen und erneut aufnehmen
+unable-speak = Aktuell können Sie nicht sprechen
+review-instruction = Falls nötig, können Sie Aufzeichnungen überprüfen und erneut aufnehmen
+record-submit-tooltip = { $actionType } Übermitteln, wenn Sie fertig sind
+clips-submitted = { $count } Aufzeichnungen übermittelt!
+record-abort-title = Beenden Sie erst die Aufnahme?
+record-abort-text = Wenn Sie jetzt abbrechen, geht Ihr Fortschritt verloren
+record-abort-submit = Aufzeichnungen übermitteln
+record-abort-continue = Aufnahme abschließen
+record-abort-delete = Beenden und Aufzeichnungen löschen
+listen-instruction = { $actionType } <playIcon></playIcon> Wurde der Satz korrekt gesprochen?
+listen-again-instruction = Toll! <playIcon></playIcon> Hören Sie sich den Satz erneut an, wenn Sie bereit sind
+listen-3rd-time-instruction = Zwei erledigt <playIcon></playIcon>, weiter so!
+listen-last-time-instruction = <playIcon></playIcon> Die Letzte!
