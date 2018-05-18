@@ -77,21 +77,21 @@ privacy = Prevezded
 terms = Amplegadoù
 cookies = Toupinoù
 faq = FAG
-content-license-text = Endalc'had hegerz dindan ul <licenseLink>lisañs Creative Commons</licenseLink>
-share-title = Sikourit ac'hanomp da gavout tud all da reiñ ho mouezh!
-share-text = Sikourit ar mekanikoù da gaozeal evel ma ra an dud gwirion, roit ho mouezh da { $link }
+content-license-text = Endalc'had hegerz dindan ul <licenseLink>lañvaz Creative Commons</licenseLink>
+share-title = Sikourit ac'hanomp da gavout tud all da reiñ o mouezh!
+share-text = Sikourit ar mekanikoù da gompren penaos e vez komzet gant an dud gwirion, roit ho mouezh da { $link }
 back-top = Distreiñ d'ar c'hrec'h
 
 ## Home Page
 
-home-title = Ar raktres Common Voice a zo un intrudu eus Mozilla evit sikour ar mekanikoù da gomz evel ma ra an dud gwirion.
+home-title = Ar raktres Common Voice a zo un intrudu eus Mozilla evit sikour ar mekanikoù da gompren penaos e komz an dud gwirion.
 home-cta = Komzit, kendaolit amañ!
-wall-of-text-start = Naturel eo ar vouezh, ar vouezh a zo mab-den. Setu aze evit petra ez omp bammet gant ar c'hoant krouiñ un deknologiezh mouezh implijus gant hor mekanikoù. Evit krouiñ sistemoù mouezh, avat, ur sammad bras a vouezhioù
-wall-of-text-more-mobile = Darn ar roadennoù implijet gant kumpagnuniezhioù bras na vez ket hegerz da majorelezh an dud. Soñjal a ra deomp e voug an nevezadurioù. Setu ma 'z omp kroget gant ar raktres Common Voice, ur raktres evit sikour da sevel mouezhioù
-wall-of-text-more-desktop = Gellout a rit reiñ ho mouezh evit reiñ an dorn deomp da sevel un diaz-roadennoù mouezh en open-source hag a c'hall bezañ implijet gant forzh piv evit sevel arloadoù ha trevnadoù hag ar web nevez. <lineBreak></lineBreak> Lennit ur frazenn evit sikour ar mekanikoù da zeskiñ komz evel ma ra an dud wirion. Gwirit labour kendaolerien all evit gwellaat ar c'halite. Ken aes ha tra!
+wall-of-text-start = Naturel ha denel eo ar vouezh. Setu aze evit petra ez omp bammet gant ar c'hoant krouiñ un deknologiezh mouezh implijus gant hor mekanikoù. Evit krouiñ reizhiadoù mouezh, avat, ur sammad bras a roadennoù mouezh a zo dleet.
+wall-of-text-more-mobile = Darn ar roadennoù implijet gant kompagnunezhioù bras na vez ket hegerz da lodenn vrasañ an dud. Soñjal a ra deomp e voug an nevezadurioù. Setu ma 'z omp kroget gant ar raktres Common Voice, ur raktres evit lakaat anaoudegezh ar vouezh digor d'an holl.
+wall-of-text-more-desktop = Gellout a rit reiñ ho mouezh evit reiñ an dorn deomp da sevel un diaz-roadennoù mouezh open-source hag a c'hall bezañ implijet gant forzh piv evit sevel arloadoù evit trevnadoù hag ar web. <lineBreak></lineBreak> Lennit ur frazenn evit sikour ar mekanikoù da zeskiñ komz evel ma ra an dud wirion. Gwirit labour kendaolerien all evit gwellaat ar perzhded. Ken aes ha tra!
 show-wall-of-text = Lenn muioc'h
 help-us-title = Skoazellit ac'hanomp da wiriañ frazennoù!
-help-us-explain = Pouezit war lenn, selaou & lavar deomp: distripet o deus mat ar frazenn dindan?
+help-us-explain = Pouezit war lenn, selaou & lavarit deomp: distripet en/he deus mat ar frazenn dindan?
 vote-yes = Ya
 vote-no = Ket
 toggle-play-tooltip = Pouezit war { shortcut-play-toggle } evit gwintañ war-du ar mod lenn
@@ -125,7 +125,7 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Pal da heul: { $goal }
-english = Soazneg
+english = Saozneg
 
 ## ProfileForm
 
@@ -142,7 +142,7 @@ profile-form-age =
     .label = Oad
 profile-form-gender =
     .label = Jener
-profile-form-submit-save = Enrolliñ
+profile-form-submit-save = Enrollañ
 profile-form-submit-saved = Enrollet
 profile-keep-data = Mirout ar roadennoù
 profile-delete-data = Dilemel ar roadennoù
@@ -156,15 +156,19 @@ edit-profile = Aozañ ar profil
 profile-create = Krouiñ ar profil
 profile-create-success = Berzh, profil krouet!
 profile-close = Serriñ
-profile-clear-modal = Ma flastrit roadennoù ho profil, ne vo ket kaset ho titouroù demografek ken da gCommon Voice gant hoc'h enrolladennoù aodio.
+profile-clear-modal = Ma skarzhit roadennoù ho profil, ne vo ket kaset an titouroù poblañs ken da gCommon Voice gant hoc'h enrolladennoù aodio.
 
 ## FAQ
 
 faq-title = Goulennoù savet alies
 faq-what-q = Petra eo Common Voice?
+faq-what-a = Teknologiezhioù anaouadur ar vouezh a c'hallfe cheñch penn d'hon etregweredoù gant ar mekanikoù, met ar sistemoù hegerz evit ar mare a zo koustus ruz ha perc'hennet. Common Voice a zo ur raktres gant ar pal reiñ da forzh piv an doareoù teknologiezh-mañ. Ar gendaolerien a roio o mouezh e-barzh ur mell diaz-roadennoù hag a roio an tu da forzh piv sevel en un doare prim hag aes arloadoù a implij ar vouezh. Hollad ar roadennoù mouezhiel a vo lakaet e kerzh an diorroerien.
 faq-important-q = Perak ez eo a-bouez?
-faq-important-a = Naturel eo ar vouezh, ar vouezh 'zo mab-den. An doare aesañ ha naturelañ a zo da eskemm. Fellout a ra deomp diorroerien hag a vo barrek da sevel traoù dic'hortoz ha pa vefe troerioù war amzer real pe skoazellerioù melestradurel gant urzhiadoù dre gomz. Met evit ar mare, n'eus ket trawalc'h a roadennoù hegerz evit kas da benn an doare arloadoù-mañ. Spi hon eus e roio Common Voice ar pezh a zo ezhomm evit degas nevesadurioù.
+faq-important-a = Naturel ha denel eo ar vouezh. An doare aesañ ha naturelañ a zo da eskemm. Fellout a ra deomp diorroerien hag a vo barrek da sevel traoù dic'hortoz ha pa vefe troerioù en amzer gwirion pe skoazellerioù melestradurel gant urzhiadoù dre gomz. Met evit ar mare, n'eus ket trawalc'h a roadennoù hegerz evit kas da benn an doare arloadoù-mañ. Spi hon eus e roio Common Voice ar pezh a zo ezhomm evit degas nevesadurioù.
 faq-get-q = Pelec'h e c'hallan kaout roadennoù Common Voice?
+faq-get-a = Hollad ar roadennoù a zo hegerz war hon <downloadLink>fajenn bellgargañ</downloadLink> dindan al lisañs <licenseLink>CC-0</licenseLink>.
+faq-mission-q = Perak ez eo Common Voice ul lodenn eus kefridi Mozilla?
+faq-hours-q = Perak eo 10 000 eurvezh pal an enrolladur aodio?
 
 ## Profile
 
@@ -172,7 +176,7 @@ profile-why-title = Perak ur profil?
 
 ## NotFound
 
-notfound-title = Nann kavet
+notfound-title = N'eo ket bet kavet
 notfound-content = Aon em eus da chom hep gouzout ar pezh emaoc'h o klask war-lerc'h.
 
 ## Data
@@ -180,20 +184,22 @@ notfound-content = Aon em eus da chom hep gouzout ar pezh emaoc'h o klask war-le
 data-download-button = Pellgargañ roadennoù Common Voice
 data-download-yes = Ya
 data-download-deny = Ket
-data-download-license = Lisañs:<licenseLink>CC-0</licenseLink>
-data-download-modal = Emaoc'h war-nes stagañ gant bellgargadur <size>{ $size }GO</size>, stagañ ganti?
+data-download-license = Lañvaz: <licenseLink>CC-0</licenseLink>
+data-download-modal = Emaoc'h war-nes stagañ gant pellgargadur <size>{ $size }GO</size>, stagañ ganti?
 data-other-title = Hollad roadennoù mouezh all...
 data-other-goto = Mont da { $name }
 data-other-download = Pellgargañ roadennoù
 data-other-ted-name = Korpus TED-LIUM
+data-other-voxforge-description = VoxForge a zo bet savet evit dezastum an mouezhioù treuzskrivet evit implijout anezho e-barzh al luskerioù anaouadur ar vouezh frank.
+data-other-tatoeba-description = Tatoeba a zo ur pikol diaz-roadennoù frazennoù, troidigezhioù hag enrolladennoù aodio gouestlet evit deskiñ yezhoù. Ar bellgargadenn a endalc'h an holl roadennoù e saozneg enrollet gant o c'humuniezh.
 data-bundle-button = Pellgargañ un hollad roadennoù
 data-bundle-description = Hollad roadennoù Common Voice mui an holl holladoù roadennoù mouezh all dindan.
-license = Lisañs: <licenseLink>{ $license }</licenseLink>
+license = Lañvaz: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mesket
 
 ## Record Page
 
-record-platform-not-supported = Nec'het omp, met n'eo ket skoret ho platfurm evit poent.
+record-platform-not-supported = Nec'het omp, met n'eo ket skoret ho savenn evit poent.
 record-platform-not-supported-desktop = War urzhiataerioù burev e c'hallit pellgargañ ar stumm diwezhañ:
 record-platform-not-supported-ios = Implijerien <bold>iOS</bold> a c'hall pellgargañ hon arload digoust:
 record-must-allow-microphone = Ret eo deoc'h aotren ar moned d'ar mikrofon.
@@ -201,8 +207,8 @@ record-retry = Klask en-dro
 record-error-too-short = Re verr e oa an enrolladenn.
 record-error-too-long = Re hir e oa an enrolladenn.
 record-error-too-quiet = An enrolladenn a oa re sioul.
-record-submit-success = Kaset gant berzh! C'hoant ho peus enrolliñ c'hoazh?
-record-help = Pouezit evit enrolliñ mar plij, lennit goude-se ar frazenn a vouezh uhel.
+record-submit-success = Kaset gant berzh! C'hoant ho peus enrollañ c'hoazh?
+record-help = Pouezit evit enrollañ mar plij, lennit goude-se ar frazenn a vouezh uhel.
 record-cancel = Nullañ an ad-enrollañ
 review-terms = En ur implij Common Voice, e savit a-du gant hon <termsLink>Amplegadoù</termsLink> hag hon <privacyLink>Notennig Prevezded</privacyLink>
 terms-agree = Sevel a ran a-du
