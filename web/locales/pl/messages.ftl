@@ -141,7 +141,7 @@ profile-form-age =
 profile-form-gender =
     .label = Płeć
 profile-form-submit-save = Zapisz
-profile-form-submit-saved = Zapisano
+profile-form-submit-saved = Zapisany
 profile-keep-data = Zachowaj dane
 profile-delete-data = Usuń dane
 male = Mężczyzna
@@ -181,7 +181,7 @@ faq-source-a2 = Możesz zobaczyć teksty źródłowe <dataLink>w tym repozytori
 
 ## Profile
 
-profile-why-title = Dlaczego profil?
+profile-why-title = Po co profil?
 profile-why-content = Dodając informację o sobie, dane zbierane w projekcie Common Voice będą bardziej użyteczne dla systemów rozpoznawania mowy, co może poprawić dokładność wyników.
 
 ## NotFound
@@ -260,7 +260,7 @@ contact-required = * wymagane
 ## Request Language Modal
 
 request-language-title = Poproś o język
-request-language-cancel = Opuść formularz
+request-language-cancel = Wyjdź z formularza
 request-language-form-language =
     .label = Język
 request-language-success-title = Prośba o język została pomyślnie przesłana, dziękujemy.
@@ -269,7 +269,7 @@ request-language-success-content = Już niedługo udzielimy więcej informacji o
 ## Languages Overview
 
 language-section-in-progress = W trakcie
-language-section-launched = Działa
+language-section-launched = Działające
 languages-show-more = Więcej
 languages-show-less = Mniej
 language-speakers = Osoby mówiące
@@ -285,3 +285,27 @@ listen = Słuchaj
 skip = Pomiń
 shortcuts = Skróty
 clips = Nagrania
+goal-type-record = nagrywania
+goal-type-validation = sprawdzania
+toward-goal = To <goalPercentage></goalPercentage> w kierunku dzisiejszego celu { $goalType } projektu Common Voice. Dziękujemy
+contribute-more = Zrobimy jeszcze { $count }?
+record-cta = Zacznij nagrywanie
+record-instruction = { $actionType } <recordIcon></recordIcon>, a następnie przeczytaj to zdanie na głos
+record-stop-instruction = { $actionType } <stopIcon></stopIcon> po ukończeniu
+record-three-more-instruction = Zostały trzy!
+record-again-instruction = Świetnie! <recordIcon></recordIcon> Nagraj następne zdanie
+record-again-instruction2 = Tak trzymaj, nagraj jeszcze raz <recordIcon></recordIcon>
+record-last-instruction = <checkIcon></checkIcon> Ostatnie!
+review-tooltip = Weryfikuj i ponownie nagrywaj w czasie pracy
+unable-speak = Nie można teraz wymówić zdania
+review-instruction = Weryfikuj i ponownie nagrywaj w razie potrzeby
+record-submit-tooltip = { $actionType } „Wyślij” po ukończeniu
+record-abort-title = Najpierw dokończ nagrywanie?
+record-abort-text = Wyjście teraz oznacza utratę postępów
+record-abort-submit = Wyślij nagrania
+record-abort-continue = Dokończ nagrywanie
+record-abort-delete = Wyjdź i usuń nagrania
+listen-instruction = { $actionType } <playIcon></playIcon> czy poprawnie wymówiono zdanie?
+listen-again-instruction = Świetna robota! <playIcon></playIcon> Posłuchaj ponownie
+listen-3rd-time-instruction = Dwa zrobione <playIcon></playIcon> , tak trzymaj!
+listen-last-time-instruction = <playIcon></playIcon> Ostatnie!
