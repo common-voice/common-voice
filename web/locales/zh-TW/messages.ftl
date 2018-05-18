@@ -276,3 +276,19 @@ language-speakers = 使用者數
 language-total-progress = 總計
 language-search-input =
     .placeholder = 搜尋
+
+## New Contribution
+
+action-click = 點擊
+action-tap = 點選
+listen = 聆聽
+skip = 略過
+shortcuts = 捷徑
+clips = 片段
+goal-type-record = 錄製中
+goal-type-validation = 驗證
+record-cta = 開始錄音
+unable-speak = 現在無法說話
+record-abort-submit = 送出片段
+record-abort-continue = 完成錄音
+record-abort-delete = 結束並刪除片段
