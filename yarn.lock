@@ -2869,9 +2869,9 @@ fluent-langneg@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/fluent-langneg/-/fluent-langneg-0.1.0.tgz#aa12054fbfa4b728daec38331efc12f01faae93a"
 
-fluent-react@^0.6.1:
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/fluent-react/-/fluent-react-0.6.1.tgz#d2bbbca59fa558279befca71b8adf3fc5c709c7a"
+fluent-react@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/fluent-react/-/fluent-react-0.7.0.tgz#52b499fca4c5163ccaf4b5155bd5486feed0e4c1"
   dependencies:
     fluent "^0.4.0 || ^0.6.0"
     prop-types "^15.6.0"

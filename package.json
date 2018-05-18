@@ -59,7 +59,7 @@
     "fluent": "^0.4.3",
     "fluent-intl-polyfill": "^0.1.0",
     "fluent-langneg": "^0.1.0",
-    "fluent-react": "^0.6.1",
+    "fluent-react": "^0.7.0",
     "glob": "7.1.2 ",
     "iso-639-1": "^2.0.3",
     "jest": "^22.1.1",
