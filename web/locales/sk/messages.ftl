@@ -26,8 +26,6 @@ de = nemčina
 el = gréčtina
 en = angličtina
 es = španielčina
-es-AR = španielčina (Argentína)
-es-CL = španielčina (Čile)
 fr = francúzština
 fy-NL = frízština
 ga-IE = írčina
@@ -36,6 +34,7 @@ hu = maďarčina
 id = indonézština
 it = taliančina
 ka = gruzínčina
+kab = kabylčina
 ko = kórejčina
 kw = kornčina
 mk = macedónčina
@@ -49,6 +48,7 @@ pt-BR = portugalčina (Brazília)
 ro = rumunčina
 ru = ruština
 sk = slovenčina
+sl = slovinčina
 sq = albánčina
 sr = srbčina
 sv-SE = švédčina
@@ -283,3 +283,7 @@ language-speakers = Počet hovoriacich
 language-total-progress = Celkovo
 language-search-input =
     .placeholder = Hľadať
+
+## New Contribution
+
+skip = Preskočiť
