@@ -11,3 +11,6 @@ get-involved-opt-in = Ya, kasit posteloù din. Fellout a ra din bezañ kelaouet 
 get-involved-submit = Kas
 get-involved-stayintouch = Ni, e Mozilla, 'zo o sevel ur gumuniezh tro-dro da deknologiezh ar vouezh. Fellout a ra deomp chom e darempred gant an hizivadurioù, ar mammennoù roadennoù nevez ha gouzout muioc'h a draoù diwar-benn ar mod ma implijit ar roadennoù-mañ.
 get-involved-privacy-info = En em engouestl a reomp evit tretiñ ho titoroù gant doujañs. Lennit muioc'h e-barzh hon <privacyLink>Notennig Prevezded</privacyLink>.
+get-involved-success-title = En em enskrivet emaoc'h gant berzh d'an/ar/al { $language }. Trugarez vras
+get-involved-success-text = Mont a raimp e darempred ganeoc'h adalek ar mare ma vo hegerz muioc'h a ditouroù.
+get-involved-return-to-languages = Distreiñ d'ar yezhoù

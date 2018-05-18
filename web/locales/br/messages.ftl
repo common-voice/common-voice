@@ -163,6 +163,7 @@ profile-clear-modal = Ma flastrit roadennoù ho profil, ne vo ket kaset ho titou
 faq-title = Goulennoù savet alies
 faq-what-q = Petra eo Common Voice?
 faq-important-q = Perak ez eo a-bouez?
+faq-important-a = Naturel eo ar vouezh, ar vouezh 'zo mab-den. An doare aesañ ha naturelañ a zo da eskemm. Fellout a ra deomp diorroerien hag a vo barrek da sevel traoù dic'hortoz ha pa vefe troerioù war amzer real pe skoazellerioù melestradurel gant urzhiadoù dre gomz. Met evit ar mare, n'eus ket trawalc'h a roadennoù hegerz evit kas da benn an doare arloadoù-mañ. Spi hon eus e roio Common Voice ar pezh a zo ezhomm evit degas nevesadurioù.
 faq-get-q = Pelec'h e c'hallan kaout roadennoù Common Voice?
 
 ## Profile
@@ -185,6 +186,9 @@ data-other-title = Hollad roadennoù mouezh all...
 data-other-goto = Mont da { $name }
 data-other-download = Pellgargañ roadennoù
 data-other-ted-name = Korpus TED-LIUM
+data-bundle-button = Pellgargañ un hollad roadennoù
+data-bundle-description = Hollad roadennoù Common Voice mui an holl holladoù roadennoù mouezh all dindan.
+license = Lisañs: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mesket
 
 ## Record Page
@@ -239,6 +243,7 @@ request-language-cancel = Kuitaat ar furmskrid
 request-language-form-language =
     .label = Yezh
 request-language-success-title = Goulenn yezh kaset gant berzh, trugarez vras.
+request-language-success-content = Mont a raimp e darempred ganeoc'h a-barzh nemeur gant muioc'h a ditouroù war ar mod da ouzhpennañ ho yezh da gCommon Voice.
 
 ## Languages Overview
 
