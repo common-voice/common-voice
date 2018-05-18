@@ -277,3 +277,27 @@ language-speakers = მოსაუბრე
 language-total-progress = სულ
 language-search-input =
     .placeholder = ძიება
+
+## New Contribution
+
+action-click = დააწკაპეთ
+action-tap = დააჭირეთ
+listen = მოსმენა
+skip = გამოტოვება
+shortcuts = მალსახმობები
+clips = ჩანაწერები
+goal-type-record = ჩაწერა
+goal-type-validation = დამოწმება
+record-cta = ჩაწერის დაწყება
+record-instruction = { $actionType } <recordIcon></recordIcon> ღილაკს და შემდეგ წაიკითხეთ წინადადება ხმამაღლა
+record-stop-instruction = { $actionType } <stopIcon></stopIcon> ღილაკს როცა დაასრულებთ
+record-again-instruction = მშვენიერია! <recordIcon></recordIcon> გააკეთეთ შემდეგი ჩანაწერი
+record-last-instruction = <checkIcon></checkIcon> ბოლო!
+record-submit-tooltip = { $actionType } გადაგზავნას როცა მზად იქნებით
+record-abort-title = ჯერ დასრულდეს ჩაწერა?
+record-abort-submit = ჩანაწერების გადაგზავნა
+record-abort-continue = ჩაწერის დასრულება
+record-abort-delete = გამოსვლა და ჩანაწერების წაშლა
+listen-instruction = { $actionType } <playIcon></playIcon> სწორად იყო გახმოვანებული წინადადება?
+listen-again-instruction = მშვენიერი ნამუშევარია! <playIcon></playIcon> კვლავ მოუსმინეთ, როცა მზად იქნებით
+listen-last-time-instruction = <playIcon></playIcon> ბოლო!
