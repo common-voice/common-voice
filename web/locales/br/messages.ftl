@@ -135,21 +135,65 @@ profile-form-accent =
     .label = Pouez-mouezh
 profile-form-age =
     .label = Oad
+profile-form-gender =
+    .label = Jener
+profile-form-submit-save = Enrolliñ
+profile-form-submit-saved = Enrollet
+profile-keep-data = Mirout ar roadennoù
+profile-delete-data = Dilemel ar roadennoù
+male = Paotr
+female = Plac'h
+# Gender
+other = Re all
+why-profile-title = Perak ur profil?
+edit-profile = Aozañ ar profil
+profile-create = Krouiñ ar profil
+profile-create-success = Berzh, profil krouet!
+profile-close = Serriñ
 
 ## FAQ
 
+faq-title = Goulennoù savet alies
+faq-what-q = Petra eo Common Voice?
+faq-important-q = Perak ez eo a-bouez?
+faq-get-q = Pelec'h e c'hallan kaout roadennoù Common Voice?
 
 ## Profile
 
+profile-why-title = Perak ur profil?
 
 ## NotFound
 
+notfound-title = Nann kavet
+notfound-content = Aon em eus da chom hep gouzout ar pezh emaoc'h o klask war-lerc'h.
 
 ## Data
 
+data-download-button = Pellgargañ roadennoù Common Voice
+data-download-yes = Ya
+data-download-deny = Ket
+data-download-license = Lisañs:<licenseLink>CC-0</licenseLink>
+data-download-modal = Emaoc'h war-nes stagañ gant bellgargadur <size>{ $size }GO</size>, stagañ ganti?
+data-other-title = Hollad roadennoù mouezh all...
+data-other-goto = Mont da { $name }
+data-other-download = Pellgargañ roadennoù
+data-other-ted-name = Korpus TED-LIUM
+license-mixed = Mesket
 
 ## Record Page
 
+record-platform-not-supported = Nec'het omp, met n'eo ket skoret ho platfurm evit poent.
+record-platform-not-supported-desktop = War urzhiataerioù burev e c'hallit pellgargañ ar stumm diwezhañ:
+record-platform-not-supported-ios = Implijerien <bold>iOS</bold> a c'hall pellgargañ hon arload digoust:
+record-must-allow-microphone = Ret eo deoc'h aotren ar moned d'ar mikrofon.
+record-retry = Klask en-dro
+record-error-too-short = Re verr e oa an enrolladenn.
+record-error-too-long = Re hir e oa an enrolladenn.
+record-error-too-quiet = An enrolladenn a oa re sioul.
+record-submit-success = Kaset gant berzh! C'hoant ho peus enrolliñ c'hoazh?
+record-help = Pouezit evit enrolliñ mar plij, lennit goude-se ar frazenn a vouezh uhel.
+record-cancel = Nullañ an ad-enrollañ
+review-terms = En ur implij Common Voice, e savit a-du gant hon <termsLink>Amplegadoù</termsLink> hag hon <privacyLink>Notennig Prevezded</privacyLink>
 
 ## Download Modal
 
