@@ -272,3 +272,38 @@ language-speakers = Speakers
 language-total-progress = Total
 language-search-input =
     .placeholder = Search
+
+## New Contribution
+action-click = Click
+action-tap = Tap
+listen = Listen
+skip = Skip
+shortcuts = Shortcuts
+clips = Clips
+goal-type-record = recording
+goal-type-validation = validation
+toward-goal = That's <goalPercentage></goalPercentage> toward today's Common Voice { $goalType } goal. Thank you
+contribute-more = Ready to do { $count } more?
+record-cta = Start recording
+record-instruction = { $actionType } <recordIcon></recordIcon> then read the sentence aloud
+record-stop-instruction = { $actionType } <stopIcon></stopIcon> when done
+record-three-more-instruction = Three to go!
+record-again-instruction = Great! <recordIcon></recordIcon> Record your next clip
+record-again-instruction2 = Keep it up, record again <recordIcon></recordIcon>
+record-last-instruction = <checkIcon></checkIcon> Last one!
+review-tooltip = Review & re-record clips here as you go
+unable-speak = Unable to speak right now
+review-instruction = Review & re-record clips if needed
+record-submit-tooltip = { $actionType } submit when ready
+clips-submitted = { $count } Clips submitted!
+record-abort-title = Finish recording first?
+record-abort-text = Leaving now means you'll lose your progress
+record-abort-submit = Submit clips
+record-abort-continue = Finish recording
+record-abort-delete = Exit & Delete clips
+listen-instruction = { $actionType } <playIcon></playIcon> did they accurately speak the sentence?
+listen-again-instruction = Great work! <playIcon></playIcon> Listen again when you're ready
+listen-3rd-time-instruction = 2 down <playIcon></playIcon> , keep it up!
+listen-last-time-instruction = <playIcon></playIcon> Last one!
+
+
