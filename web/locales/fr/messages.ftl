@@ -280,7 +280,17 @@ language-search-input =
 
 ## New Contribution
 
-action-click = Cliquez
-action-tap = Appuyez
+action-click = Cliquez sur
+action-tap = Appuyez sur
+shortcuts = Raccourcis
+clips = Extraits
 goal-type-validation = validation
-record-three-more-instruction = Plus que  trois !
+record-cta = Commencer l’enregistrement
+record-instruction = { $actionType } <recordIcon></recordIcon> puis lisez la phrase à haute voix.
+record-stop-instruction = { $actionType } <stopIcon></stopIcon> une fois terminé.
+record-three-more-instruction = Plus que trois !
+record-again-instruction = Formidable ! <recordIcon></recordIcon> Enregistrez votre prochain extrait.
+record-last-instruction = <checkIcon></checkIcon> C’est le dernier !
+record-submit-tooltip = { $actionType } envoyer lorsque vous êtes prêt
+clips-submitted = { $count } extraits envoyés !
+record-abort-submit = Envoyer les enregistrements
