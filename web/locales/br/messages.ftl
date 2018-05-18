@@ -84,6 +84,10 @@ back-top = Distreiñ d'ar c'hrec'h
 
 ## Home Page
 
+home-title = Ar raktres Common Voice a zo un intrudu eus Mozilla evit sikour ar mekanikoù da gomz evel ma ra an dud gwirion.
+home-cta = Komzit, kendaolit amañ!
+wall-of-text-start = Naturel eo ar vouezh, ar vouezh a zo mab-den. Setu aze evit petra ez omp bammet gant ar c'hoant krouiñ un deknologiezh mouezh implijus gant hor mekanikoù. Evit krouiñ sistemoù mouezh, avat, ur sammad bras a vouezhioù
+wall-of-text-more-mobile = Darn ar roadennoù implijet gant kumpagnuniezhioù bras na vez ket hegerz da majorelezh an dud. Soñjal a ra deomp e voug an nevezadurioù. Setu ma 'z omp kroget gant ar raktres Common Voice, ur raktres evit sikour da sevel mouezhioù
 show-wall-of-text = Lenn muioc'h
 help-us-title = Skoazellit ac'hanomp da wiriañ frazennoù!
 help-us-explain = Pouezit war lenn, selaou & lavar deomp: distripet o deus mat ar frazenn dindan?
@@ -262,3 +266,18 @@ record-stop-instruction = { $actionType }<stopIcon></stopIcon> ur wech echu
 record-three-more-instruction = Tri c'hoazh!
 record-again-instruction = Beuz! <recordIcon></recordIcon> Enrollit ho klip da heul
 record-again-instruction2 = Derc'hel da vont, enrollañ adarre <recordIcon></recordIcon>
+record-last-instruction = <checkIcon></checkIcon> Hini ziwezhañ!
+review-tooltip = Adwel & ad-enrollañ klipoù tamm-ha-tamm
+unable-speak = N'on ket gouest komz bremañ
+review-instruction = Adwelet & ad-enrollañ ar c'hlipoù ma vez ezhomm
+record-submit-tooltip = { $actionType } kas pa 'z eo prest
+clips-submitted = { $count } a glipoù kaset!
+record-abort-title = Echuiñ gant an enrolladenn da gentañ?
+record-abort-text = Mont kuit bremañ a dalvez emaoc'h o vont da goll ho kwelladurioù
+record-abort-submit = Kas ar c'hlipoù
+record-abort-continue = Echuiñ gant an enrolladenn
+record-abort-delete = Kuitaat & dilemel ar c'hlipoù
+listen-instruction = { $actionType }<playIcon></playIcon> ha distripet mat o deus ar frazenn?
+listen-again-instruction = Labour vat! <playIcon></playIcon> Ad-selaou ur wech ma voc'h prest
+listen-3rd-time-instruction = 2 d'an traoñ <playIcon></playIcon> , dalc'hit da vont!
+listen-last-time-instruction = <playIcon></playIcon> Hini ziwezhañ!
