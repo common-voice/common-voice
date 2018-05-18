@@ -2,7 +2,7 @@
 
 yes-receive-emails = Ya, kasit posteloù din. Karout a rafen bezañ kelaouet eus ar raktres Common Voice.
 stayintouch = Ni, e Mozilla, 'zo o sevel ur gumuniezh tro-dro da deknologiezh ar vouezh. Fellout a ra deomp chom e darempred gant an hizivadurioù, ar mammennoù roadennoù nevez ha gouzout muioc'h a draoù diwar-benn ar mod ma implijit ar roadennoù-mañ.
-privacy-info = En em engouestl a reomp evit tretiñ ho titoroù gant doujañs. Lennit muioc'h e-barzh hon <privacyLink>Notennig Prevezded</privacyLink>.
+privacy-info = En em engouestl a reomp evit tretiñ ho titouroù gant doujañs. Lennit muioc'h e-barzh hon <privacyLink>Evezhiadennoù a-fet buhez prevez </privacyLink>.
 return-to-cv = Distreiñ da gCommon Voice
 email-input =
     .label = Postel
@@ -73,7 +73,7 @@ languages = Yezhoù
 profile = Profil
 help = Skoazell
 contact = Darempred
-privacy = Prevezded
+privacy = Buhez prevez
 terms = Amplegadoù
 cookies = Toupinoù
 faq = FAG
@@ -162,17 +162,22 @@ profile-clear-modal = Ma skarzhit roadennoù ho profil, ne vo ket kaset an titou
 
 faq-title = Goulennoù savet alies
 faq-what-q = Petra eo Common Voice?
-faq-what-a = Teknologiezhioù anaouadur ar vouezh a c'hallfe cheñch penn d'hon etregweredoù gant ar mekanikoù, met ar sistemoù hegerz evit ar mare a zo koustus ruz ha perc'hennet. Common Voice a zo ur raktres gant ar pal reiñ da forzh piv an doareoù teknologiezh-mañ. Ar gendaolerien a roio o mouezh e-barzh ur mell diaz-roadennoù hag a roio an tu da forzh piv sevel en un doare prim hag aes arloadoù a implij ar vouezh. Hollad ar roadennoù mouezhiel a vo lakaet e kerzh an diorroerien.
+faq-what-a = Teknologiezhioù anaouadur ar vouezh a c'hallfe cheñch penn d'hon etregweredoù gant ar mekanikoù, met ar reizhiadoù hegerz evit ar mare a zo koustus ruz ha perc'hennet. Common Voice a zo ur raktres gant ar pal reiñ da forzh piv an doareoù teknologiezh-mañ. Ar gendaolerien a roio o mouezh e-barzh ur mell diaz-roadennoù hag a roio an tu da forzh piv sevel en un doare prim hag aes arloadoù a implij ar vouezh. Hollad ar roadennoù mouezhiel a vo lakaet e kerzh an diorroerien.
 faq-important-q = Perak ez eo a-bouez?
 faq-important-a = Naturel ha denel eo ar vouezh. An doare aesañ ha naturelañ a zo da eskemm. Fellout a ra deomp diorroerien hag a vo barrek da sevel traoù dic'hortoz ha pa vefe troerioù en amzer gwirion pe skoazellerioù melestradurel gant urzhiadoù dre gomz. Met evit ar mare, n'eus ket trawalc'h a roadennoù hegerz evit kas da benn an doare arloadoù-mañ. Spi hon eus e roio Common Voice ar pezh a zo ezhomm evit degas nevesadurioù.
 faq-get-q = Pelec'h e c'hallan kaout roadennoù Common Voice?
-faq-get-a = Hollad ar roadennoù a zo hegerz war hon <downloadLink>fajenn bellgargañ</downloadLink> dindan al lisañs <licenseLink>CC-0</licenseLink>.
+faq-get-a = Hollad ar roadennoù a zo hegerz war hon <downloadLink>fajenn bellgargañ</downloadLink> dindan al lañvaz <licenseLink>CC-0</licenseLink>.
 faq-mission-q = Perak ez eo Common Voice ul lodenn eus kefridi Mozilla?
 faq-hours-q = Perak eo 10 000 eurvezh pal an enrolladur aodio?
+faq-hours-a = Ar c'hementad dleet eo mui pe vui evit bezañ gouest seveniñ ur reizhiad anaouadur mouezh a galite.
+faq-source-q = Eus pelec'h e teu an testennoù?
+faq-source-a1 = Ar frazennoù a zo anezho evit ar mare a zo o tont eus kendaolerezhioù hiniennel hag ivez eus filmoù 'zo hag a zo en domani foran evel <italic>It's a Wonderful Life.</italic>.
+faq-source-a2 = Gellout a rit gwelet mammennoù hor frazennoù e-barzh an teuliad <dataLink>Github-mañ</dataLink>.
 
 ## Profile
 
 profile-why-title = Perak ur profil?
+profile-why-content = En ur bourveziñ deomp un nebeut titouroù deomp diwar ho penn, ar restroù aodio a rannit gant Common Voice a vo muioc'h a-bouez evit al luskerioù anaouadur mouezh, hag a implij anezho evit gwellaat o resister.
 
 ## NotFound
 
@@ -186,6 +191,8 @@ data-download-yes = Ya
 data-download-deny = Ket
 data-download-license = Lañvaz: <licenseLink>CC-0</licenseLink>
 data-download-modal = Emaoc'h war-nes stagañ gant pellgargadur <size>{ $size }GO</size>, stagañ ganti?
+data-subtitle = Emaomp o krouiñ un hollad roadennoù mouezh digor hag hegerz en un doare publik, hag a c'hallo bezañ ad-implijet gant toud an dud evit sevel arloadoù hag a implij ar vouezh.
+data-explanatory-text = Soñjal a ra deomp e c'hall pikoloù holladoù roadennoù hegerz en un doare publik a c'hall nevesaat hag e tiazezont ur gevezerezh yac'h evit an teknologiezhioù mouezhel hag a em-zesk. Ur giadenn bedel eo hag e pedomp kement hini a zo da gemer-perzh. Hon fal a zo e vefe muioc'h enlakaus teknologiezhioù ar vouezh hag e c'hallfent diskouez lieseurted mouezhioù ar bed holl.
 data-other-title = Hollad roadennoù mouezh all...
 data-other-goto = Mont da { $name }
 data-other-download = Pellgargañ roadennoù
@@ -210,14 +217,14 @@ record-error-too-quiet = An enrolladenn a oa re sioul.
 record-submit-success = Kaset gant berzh! C'hoant ho peus enrollañ c'hoazh?
 record-help = Pouezit evit enrollañ mar plij, lennit goude-se ar frazenn a vouezh uhel.
 record-cancel = Nullañ an ad-enrollañ
-review-terms = En ur implij Common Voice, e savit a-du gant hon <termsLink>Amplegadoù</termsLink> hag hon <privacyLink>Notennig Prevezded</privacyLink>
+review-terms = En ur implij Common Voice, e savit a-du gant hon <termsLink>Amplegadoù</termsLink> hag hon <privacyLink>Evezhiadennoù a-fet buhez prevez</privacyLink>
 terms-agree = Sevel a ran a-du
 terms-disagree = Ne savan ket a-du
-review-aborted = Uskargadenn nullaet. C'hoant ho peus dilemel hoc'h enrolladennoù?
+review-aborted = Pellgas nullet. C'hoant ho peus da zilemel hoc'h enrolladennoù?
 review-submit-title = Adwelet & Kas
 review-submit-msg = Trugarez evit an enrolladenn!<lineBreak></lineBreak>Adwelit ha kasit ho klipoù dindan bremañ.
 review-recording = Adwel
-review-rerecord = Enrolliñ en-dro
+review-rerecord = Enrollañ en-dro
 review-cancel = Nullañ ar gasadenn
 review-keep-recordings = Mirout an enrolladennoù
 review-delete-recordings = Dilemel ma enrolladennoù
@@ -240,11 +247,11 @@ contact-form-name =
     .label = Anv
 contact-form-message =
     .label = Kemennadenn
-contact-required = *rekiset
+contact-required = *rekis
 
 ## Request Language Modal
 
-request-language-title = Goulenn Yezh
+request-language-title = Goulenn ur yezh
 request-language-cancel = Kuitaat ar furmskrid
 request-language-form-language =
     .label = Yezh
@@ -293,5 +300,5 @@ record-abort-continue = Echuiñ gant an enrolladenn
 record-abort-delete = Kuitaat & dilemel ar c'hlipoù
 listen-instruction = { $actionType }<playIcon></playIcon> ha distripet mat o deus ar frazenn?
 listen-again-instruction = Labour vat! <playIcon></playIcon> Ad-selaou ur wech ma voc'h prest
-listen-3rd-time-instruction = 2 d'an traoñ <playIcon></playIcon> , dalc'hit da vont!
+listen-3rd-time-instruction = 2 gret <playIcon></playIcon> , dalc'hit da vont!
 listen-last-time-instruction = <playIcon></playIcon> Hini ziwezhañ!
