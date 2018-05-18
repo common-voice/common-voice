@@ -276,3 +276,12 @@ language-speakers = Osoby mówiące
 language-total-progress = Razem
 language-search-input =
     .placeholder = Szukaj
+
+## New Contribution
+
+action-click = Kliknij
+action-tap = Stuknij
+listen = Słuchaj
+skip = Pomiń
+shortcuts = Skróty
+clips = Nagrania
