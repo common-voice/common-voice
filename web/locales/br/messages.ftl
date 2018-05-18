@@ -88,6 +88,7 @@ home-title = Ar raktres Common Voice a zo un intrudu eus Mozilla evit sikour ar 
 home-cta = Komzit, kendaolit amañ!
 wall-of-text-start = Naturel eo ar vouezh, ar vouezh a zo mab-den. Setu aze evit petra ez omp bammet gant ar c'hoant krouiñ un deknologiezh mouezh implijus gant hor mekanikoù. Evit krouiñ sistemoù mouezh, avat, ur sammad bras a vouezhioù
 wall-of-text-more-mobile = Darn ar roadennoù implijet gant kumpagnuniezhioù bras na vez ket hegerz da majorelezh an dud. Soñjal a ra deomp e voug an nevezadurioù. Setu ma 'z omp kroget gant ar raktres Common Voice, ur raktres evit sikour da sevel mouezhioù
+wall-of-text-more-desktop = Gellout a rit reiñ ho mouezh evit reiñ an dorn deomp da sevel un diaz-roadennoù mouezh en open-source hag a c'hall bezañ implijet gant forzh piv evit sevel arloadoù ha trevnadoù hag ar web nevez. <lineBreak></lineBreak> Lennit ur frazenn evit sikour ar mekanikoù da zeskiñ komz evel ma ra an dud wirion. Gwirit labour kendaolerien all evit gwellaat ar c'halite. Ken aes ha tra!
 show-wall-of-text = Lenn muioc'h
 help-us-title = Skoazellit ac'hanomp da wiriañ frazennoù!
 help-us-explain = Pouezit war lenn, selaou & lavar deomp: distripet o deus mat ar frazenn dindan?
@@ -150,10 +151,12 @@ female = Plac'h
 # Gender
 other = Re all
 why-profile-title = Perak ur profil?
+why-profile-text = En ur bourveziñ un nebeut titouroù diwar ho penn, ar roadennoù aodio a gasit da gCommon Voice a vo talvoudusoc'h e-se evit mekanikoù Anaouadur ar Vouezh hag a implij ar roadennoù-mañ da wellaat o resister.
 edit-profile = Aozañ ar profil
 profile-create = Krouiñ ar profil
 profile-create-success = Berzh, profil krouet!
 profile-close = Serriñ
+profile-clear-modal = Ma flastrit roadennoù ho profil, ne vo ket kaset ho titouroù demografek ken da gCommon Voice gant hoc'h enrolladennoù aodio.
 
 ## FAQ
 
