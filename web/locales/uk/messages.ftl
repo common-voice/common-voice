@@ -286,3 +286,22 @@ language-speakers = Носіїв
 language-total-progress = Разом
 language-search-input =
     .placeholder = Пошук
+
+## New Contribution
+
+action-click = Клацнути
+action-tap = Торкнутися
+listen = Слухати
+skip = Пропустити
+shortcuts = Ярлики
+clips = Кліпи
+goal-type-record = запис
+goal-type-validation = перевірка
+toward-goal = Залишилося <goalPercentage></goalPercentage> до сьогоднішньої цілі { $goalType } Common Voice. Дякуємо
+contribute-more = Готові зробити ще { $count }?
+record-cta = Почати запис
+record-instruction = { $actionType }<recordIcon></recordIcon>, потім прочитайте речення вголос
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> коли готово
+record-three-more-instruction = Вперед!
+record-again-instruction = Чудово! <recordIcon></recordIcon> Запишіть наступний кліп
+record-again-instruction2 = Продовжуйте, запишіть знову <recordIcon></recordIcon>
