@@ -8,6 +8,7 @@ email-input =
     .label = Postel
 submit-form-action = Kas
 loading = O kargañ...
+audio-loading-error = Digarezit! Emaomp o tretiñ hor restroù aodio, klaskit en-dro diwezhatoc'h mar plij.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -76,18 +77,64 @@ privacy = Prevezded
 terms = Amplegadoù
 cookies = Toupinoù
 faq = FAG
+content-license-text = Endalc'had hegerz dindan ul <licenseLink>lisañs Creative Commons</licenseLink>
+share-title = Sikourit ac'hanomp da gavout tud all da reiñ ho mouezh!
+share-text = Sikourit ar mekanikoù da gaozeal evel ma ra an dud gwirion, roit ho mouezh da { $link }
+back-top = Distreiñ d'ar c'hrec'h
 
 ## Home Page
 
+show-wall-of-text = Lenn muioc'h
+help-us-title = Skoazellit ac'hanomp da wiriañ frazennoù!
+help-us-explain = Pouezit war lenn, selaou & lavar deomp: distripet o deus mat ar frazenn dindan?
+vote-yes = Ya
+vote-no = Ket
+toggle-play-tooltip = Pouezit war { shortcut-play-toggle } evit gwintañ war-du ar mod lenn
 
 ## Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
+request-language-text = Ne welit ket ho yezh e-barzh Common Voice evit ar mare?
+request-language-button = Goulenn war-lerc'h ur yezh
 
 ## ProjectStatus
 
+status-title = Statud hollek ar raktres: gwelet pelec'h emaomp erru ganti!
+status-contribute = Kendaolit ho mouezh
+status-hours =
+    { $hours ->
+        [one] Un eurvezh enrollet evit poent!
+        [two] Div eurvezh enrollet evit poent!
+        [few] Teir eurvezh enrollet evit poent!
+        [many] { $hours } a eurvezhioù enrollet evit poent!
+       *[other] Pemp eurvezh enrollet evit poent!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Pal da heul: { $goal }
+english = Soazneg
 
 ## ProfileForm
 
+profile-form-cancel = Kuitaat ar furmskrid
+profile-form-delete = Dilemel ar profil
+profile-form-username =
+    .label = Anv implijer
+profile-form-language =
+    .label = Yezh
+profile-form-more-languages = Muioc'h a yezhoù 'zo da zont!
+profile-form-accent =
+    .label = Pouez-mouezh
+profile-form-age =
+    .label = Oad
 
 ## FAQ
 
