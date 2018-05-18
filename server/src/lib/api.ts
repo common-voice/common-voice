@@ -101,7 +101,7 @@ export default class API {
   getRandomSentences = async (request: Request, response: Response) => {
     const { headers, params } = request;
     const sentences = await this.model.findEligibleSentences(
-      request.headers.uid as string,
+      headers.uid as string,
       params.locale,
       parseInt(request.query.count, 10) || 1
     );

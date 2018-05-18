@@ -1,5 +1,5 @@
 const contributableLocales = require('../../../locales/contributable.json') as string[];
-import DB from './model/db';
+import DB, {Sentence} from './model/db';
 import { DBClipWithVoters } from './model/db/tables/clip-table';
 import Cache from './cache';
 import {
@@ -23,7 +23,7 @@ export default class Model {
       ),
     ]) as any
   );
-  sentencesCaches: Map<string, Map<string, Cache<string>>> = new Map(
+  sentencesCaches: Map<string, Map<string, Cache<Sentence>>> = new Map(
     contributableLocales.map(locale => [
       locale,
       new Map(Object.keys(IDEAL_SPLIT).map(bucket => [
@@ -70,7 +70,7 @@ export default class Model {
     client_id: string,
     locale: string,
     count: number
-  ): Promise<string[]> {
+  ): Promise<Sentence[]> {
     const bucket = await this.db.getOrSetUserBucket(
       client_id,
       locale,

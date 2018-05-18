@@ -8,6 +8,11 @@ import UserClientTable from './db/tables/user-client-table';
 import ClipTable, { DBClip, DBClipWithVoters } from './db/tables/clip-table';
 import VoteTable from './db/tables/vote-table';
 
+export interface Sentence {
+  id: string;
+  text: string;
+}
+
 export default class DB {
   clip: ClipTable;
   mysql: Mysql;
@@ -194,10 +199,10 @@ export default class DB {
     bucket: string,
     locale: string,
     count: number
-  ): Promise<string[]> {
+  ): Promise<Sentence[]> {
     const [rows] = await this.mysql.query(
       `
-        SELECT text
+        SELECT sentences.id, text
         FROM sentences
         LEFT JOIN clips ON sentences.id = clips.original_sentence_id
         WHERE sentences.is_used AND sentences.bucket = ? AND sentences.locale_id = ?
@@ -207,7 +212,7 @@ export default class DB {
       `,
       [bucket, await this.getLocaleId(locale), count]
     );
-    return (rows || []).map((row: any) => row.text);
+    return (rows || []).map(({ id, text }: any) => ({ id, text }));
   }
 
   async findClipsWithFewVotes(
@@ -260,20 +265,21 @@ export default class DB {
     original_sentence_id,
     path,
     sentence,
+    sentenceId,
   }: {
     client_id: string;
     locale: string;
     original_sentence_id: string;
     path: string;
     sentence: string;
+    sentenceId: string;
   }): Promise<DBClip> {
-    const sentenceId = hash(sentence);
+    sentenceId = sentenceId || hash(sentence);
     const [localeId] = await Promise.all([
       this.getLocaleId(locale),
       this.saveUserClient(client_id),
     ]);
     const bucket = await this.getOrSetUserBucket(client_id, locale, 'train');
-    await this.insertSentence(sentenceId, sentence, bucket);
     await this.mysql.query(
       `
         INSERT IGNORE INTO clips (client_id, original_sentence_id, path, sentence, locale_id, bucket)

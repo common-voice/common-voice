@@ -145,12 +145,14 @@ export default class Clip {
 
     console.log('file written to s3', clipFileName);
 
+    console.log(headers);
     await this.model.saveClip({
       client_id: uid,
       locale: params.locale,
       original_sentence_id: filePrefix,
       path: clipFileName,
       sentence,
+      sentenceId: headers.sentence_id,
     });
 
     response.json(filePrefix);

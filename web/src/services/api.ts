@@ -117,12 +117,13 @@ export default class API {
     });
   }
 
-  uploadClip(blob: Blob, sentence: string): Promise<void> {
+  uploadClip(blob: Blob, sentenceId: string, sentence: string): Promise<void> {
     return this.fetch(this.getClipPath(), {
       method: 'POST',
       headers: {
         'Content-Type': blob.type,
         sentence: encodeURIComponent(sentence),
+        sentence_id: sentenceId,
       },
       body: blob,
     });

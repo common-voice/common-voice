@@ -16,6 +16,7 @@ import ProfileActions from './profile-actions';
 interface PropsFromState {
   api: API;
   recordingsCount: number;
+  sentences: { [id: string]: string };
   sentenceRecordings: Recordings.SentenceRecordings;
   user: User.State;
 }
@@ -108,12 +109,15 @@ class Review extends React.Component<Props, State> {
         api,
         recordingsCount,
         sentenceRecordings,
+        sentences,
         tallyRecording,
       } = this.props;
 
       let i = 0;
-      for (const [sentence, recording] of Object.entries(sentenceRecordings)) {
-        await api.uploadClip(recording.blob, sentence);
+      for (const [sentenceId, recording] of Object.entries(
+        sentenceRecordings
+      )) {
+        await api.uploadClip(recording.blob, sentenceId, sentences[sentenceId]);
 
         tallyRecording();
 
@@ -139,7 +143,7 @@ class Review extends React.Component<Props, State> {
   };
 
   render() {
-    const { getString } = this.props;
+    const { getString, sentenceRecordings, sentences } = this.props;
     const {
       progress,
       uploading,
@@ -190,16 +194,14 @@ class Review extends React.Component<Props, State> {
             <span />
           </Localized>
         </p>
-        {Object.entries(this.props.sentenceRecordings).map(
-          ([sentence, recording]) => (
-            <ListenBox
-              key={sentence}
-              src={recording.url}
-              onDelete={this.rerecord.bind(this, sentence)}
-              sentence={sentence}
-            />
-          )
-        )}
+        {Object.entries(sentenceRecordings).map(([sentenceId, recording]) => (
+          <ListenBox
+            key={sentenceId}
+            src={recording.url}
+            onDelete={this.rerecord.bind(this, sentenceId)}
+            sentence={sentences[sentenceId]}
+          />
+        ))}
         <br />
         <div className="actions">
           <Localized id="review-cancel">
@@ -224,6 +226,7 @@ const mapStateToProps = (state: StateTree) => ({
   recordingsCount: Recordings.selectors.recordingsCount(state),
   sentenceRecordings: Recordings.selectors.localeRecordings(state)
     .sentenceRecordings,
+  sentences: Recordings.selectors.localeRecordings(state).sentences,
   user: state.user,
 });
 
