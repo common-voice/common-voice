@@ -275,3 +275,8 @@ language-speakers = स्पिकरहरू
 language-total-progress = जम्मा
 language-search-input =
     .placeholder = खोजी गर्नुहोस्
+
+## New Contribution
+
+action-click = क्लिक गर्नुहोस्
+action-tap = थिच्नुहोस्
