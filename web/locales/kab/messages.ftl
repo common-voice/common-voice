@@ -275,3 +275,9 @@ language-speakers = Wid yettmeslayen
 language-total-progress = Asemday
 language-search-input =
     .placeholder = Nadi
+
+## New Contribution
+
+action-click = Senned
+listen = Sel
+skip = Suref
