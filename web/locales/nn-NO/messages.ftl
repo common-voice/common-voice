@@ -26,8 +26,6 @@ de = Tysk
 el = Gresk
 en = Engelsk
 es = Spansk
-es-AR = Spansk (Argentina)
-es-CL = Spansk (Chile)
 fr = Fransk
 fy-NL = frisisk
 ga-IE = Irsk
@@ -49,6 +47,7 @@ pt-BR = Portugisisk (Brazil)
 ro = Rumensk
 ru = Russisk
 sk = Slovakisk
+sl = Slovensk
 sq = Albansk
 sr = Serbisk
 sv-SE = Svensk
@@ -94,6 +93,7 @@ help-us-title = Hjelp oss med å validere setningar!
 help-us-explain = Trykk på Spel av, lytt, og fortel os om den innspelte setninga var korrekt.
 vote-yes = Ja
 vote-no = Nei
+toggle-play-tooltip = Trykk på { shortcut-play-toggle } for å starte eller stoppe innspelinga
 
 ## Shortcuts
 
@@ -265,3 +265,12 @@ language-speakers = Talt av
 language-total-progress = Totalt
 language-search-input =
     .placeholder = Søk
+
+## New Contribution
+
+action-click = Klikk
+action-tap = Trykk
+listen = Lytt
+skip = Hopp over
+record-cta = Start innspeling
+record-abort-continue = Avslutt innspeling
