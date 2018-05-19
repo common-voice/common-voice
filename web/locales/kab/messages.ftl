@@ -281,5 +281,7 @@ language-search-input =
 action-click = Senned
 listen = Sel
 skip = Suref
+shortcuts = Inegzumen
 goal-type-record = Asekles
 goal-type-validation = Asentem
+record-abort-continue = Fak asekles
