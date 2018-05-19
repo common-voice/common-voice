@@ -285,3 +285,7 @@ skip = Salta
 shortcuts = Scorciatoie
 goal-type-record = registrazione
 record-cta = Avvia la registrazione
+record-again-instruction2 = Continua così, registra di nuovo <recordIcon></recordIcon>
+record-last-instruction = <checkIcon></checkIcon> L'ultima!
+unable-speak = Non posso parlare in questo momento
+listen-last-time-instruction = <playIcon></playIcon> L'ultima!
