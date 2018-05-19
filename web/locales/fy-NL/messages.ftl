@@ -285,3 +285,15 @@ language-speakers = Sprekkers
 language-total-progress = Totaal
 language-search-input =
     .placeholder = Sykje
+
+## New Contribution
+
+action-click = Klikke
+action-tap = Tikke
+listen = Lústerje
+skip = Oerslaan
+shortcuts = Fluchkeppelingen
+clips = Clips
+goal-type-record = opname
+goal-type-validation = falidaasje
+toward-goal = Wy hawwe <goalPercentage></goalPercentage> fan it { $goalType }-doel fan Common Voice foar hjoed berikke. Tank
