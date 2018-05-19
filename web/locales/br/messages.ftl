@@ -117,10 +117,10 @@ status-contribute = Kendaolit ho mouezh
 status-hours =
     { $hours ->
         [one] Un eurvezh enrollet evit poent!
-        [two] Div eurvezh enrollet evit poent!
-        [few] Teir eurvezh enrollet evit poent!
+        [two] { $hours } eurvezh enrollet evit poent!
+        [few] { $hours } eurvezh enrollet evit poent!
         [many] { $hours } a eurvezhioù enrollet evit poent!
-       *[other] Pemp eurvezh enrollet evit poent!
+       *[other] { $hours } eurvezh enrollet evit poent!
     }
 # Variables:
 # $goal - number of hours representing the next goal
@@ -160,7 +160,7 @@ profile-clear-modal = Ma skarzhit roadennoù ho profil, ne vo ket kaset an titou
 
 ## FAQ
 
-faq-title = Goulennoù savet alies
+faq-title = Foar ar Goulennoù
 faq-what-q = Petra eo Common Voice?
 faq-what-a = Teknologiezhioù anaouadur ar vouezh a c'hallfe cheñch penn d'hon etregweredoù gant ar mekanikoù, met ar reizhiadoù hegerz evit ar mare a zo koustus ruz ha perc'hennet. Common Voice a zo ur raktres gant ar pal reiñ da forzh piv an doareoù teknologiezh-mañ. Ar gendaolerien a roio o mouezh e-barzh ur mell diaz-roadennoù hag a roio an tu da forzh piv sevel en un doare prim hag aes arloadoù a implij ar vouezh. Hollad ar roadennoù mouezhiel a vo lakaet e kerzh an diorroerien.
 faq-important-q = Perak ez eo a-bouez?
@@ -168,18 +168,18 @@ faq-important-a = Naturel ha denel eo ar vouezh. An doare aesañ ha naturelañ a
 faq-get-q = Pelec'h e c'hallan kaout roadennoù Common Voice?
 faq-get-a = Hollad ar roadennoù a zo hegerz war hon <downloadLink>fajenn bellgargañ</downloadLink> dindan al lañvaz <licenseLink>CC-0</licenseLink>.
 faq-mission-q = Perak ez eo Common Voice ul lodenn eus kefridi Mozilla?
-faq-mission-a = Mozilla a zo galvet da c'houarn ar Web digor ha tizhus d'an holl. Evit dont a-benn eus an dra-se, e rankomp gouvriñ krouerien ostilhioù evel Common Voice. Teknologiezhioù ar vouezh a struj diwar-vremañ en diavaez da gustodoù 'zo, ha kavout a ra deomp e rankont bezañ implijus. Gwelout a reomp e-barzh ar fet da ouzhpenniñ muioc'h a yezhoù, a bouezioù-mouezh hag a rummoù oad evit ar c'hrouiñ ha test an teknologiezhioù mouezhel. Mozilla a fell dezhi ur genrouedad oberiant ha yac'h. Ar pezh a ampleg, d'ar grouerien war ar Web, da roadennoù mouezhiel a c'hellont implijout evit raktresoù nevez. Common Voice a zeuio da vezañ ur vammenn froran a sikouro skipailhoù Mozilla ha diorroerien ar seizh avel.
+faq-mission-a = Mozilla a zo galvet da c'houarn ar Web digor ha tizhus d'an holl. Evit dont a-benn eus an dra-se, e rankomp gouvriñ krouerien ostilhoù evel Common Voice. Teknologiezhioù ar vouezh a struj diwar-vremañ en diavaez da gustodoù 'zo, ha kavout a ra deomp e rankont bezañ implijus. Gwelout a reomp un ezhomm da ouzhpennañ muioc'h a yezhoù, a bouezioù-mouezh hag a rummoù oad evit krouiñ hag amprouiñ an teknologiezhioù mouezhel. Mozilla a fell dezhi ur genrouedad oberiant ha yac'h. Ar pezh a ampleg, d'ar grouerien war ar Web, da roadennoù mouezhiel a c'hellont implijout evit raktresoù nevez. Common Voice a zeuio da vezañ ur vammenn foran a sikouro skipailhoù Mozilla ha diorroerien ar seizh avel.
 faq-native-q = Komz a ran { $lang }, ar pezh 'zo n'eo ket ma yezh-vamm hag ur pouez-mouezh am eus, ha c'hoant ho peus da gaout ma mouezh memestra?
-faq-native-a = Ya da, c'hoant ruz hon da gaout ho mouezh! Ul lodenn eus palioù Common Voice a zo dezastum kement pouez-mouezh ha ma vo posupl evit ma c'hello kompren gwelloc'h mouezhioù <bold>an holl</bold> pe gomzont.
+faq-native-a = Ya da, c'hoant ruz hon da gaout ho mouezh! Ul lodenn eus palioù Common Voice a zo dezastum kement pouez-mouezh ha ma vo posupl evit ma c'hello kompren gwelloc'h mouezhioù <bold>an holl</bold> pa gomzont.
 faq-firefox-q = Hag e vo lodenn eus Firefox ar vouezh-d'an-destenn, dre gCommon Voice?
 faq-firefox-a = Common Voice a zo ur gallus difin hag o studiañ emaomp un ad-implij etrefasoù mouezhel e-mesk meziantoù lies eus Mozilla, Firefox en o mesk.
-faq-quality-q = Peseurt live kalite a zo rekiset evit an aodio evit gellet bezañ implijet?
-faq-quality-a = Fellout a ra deomp ur c'halite aodio hag a genglot gant ar pezh en do ul lusker anaouadur mouezh da dalañ ouzh e-barzh ar vuhez pemdeziek. Ezhomm hon eus eus variezon. Ar pezh a zegas al lusker da gemer e kont en un doare direbech meur a blegenn: eskemmoù en drek-leur, trouzioù kefluskerioù pe trouzioù avelerezhioù.
+faq-quality-q = Peseurt live perzhded a zo goulennet evit an aodio evit gallout bezañ implijet?
+faq-quality-a = Fellout a ra deomp ur perzhded aodio hag a genglot gant ar pezh en do ul lusker anaouadur mouezh da dalañ en e vuhez pemdeziek. Ezhomm hon eus eus liested. Ar pezh a zegas al lusker da gemer e kont en un doare direbech meur a blegenn: eskemmoù en drek-leur, trouzioù kefluskerioù pe trouzioù avelerezhioù.
 faq-hours-q = Perak eo 10 000 eurvezh pal an enrolladur aodio?
-faq-hours-a = Ar c'hementad dleet eo mui pe vui evit bezañ gouest seveniñ ur reizhiad anaouadur mouezh a galite.
+faq-hours-a = Ar c'hementad dleet eo mui pe vui evit bezañ gouest da seveniñ ur reizhiad anaouadur mouezh a galite.
 faq-source-q = Eus pelec'h e teu an testennoù?
 faq-source-a1 = Ar frazennoù a zo anezho evit ar mare a zo o tont eus kendaolerezhioù hiniennel hag ivez eus filmoù 'zo hag a zo en domani foran evel <italic>It's a Wonderful Life.</italic>.
-faq-source-a2 = Gellout a rit gwelet mammennoù hor frazennoù e-barzh an teuliad <dataLink>Github-mañ</dataLink>.
+faq-source-a2 = Gallout a rit gwelet mammennoù hor frazennoù e-barzh an teuliad <dataLink>Github-mañ</dataLink>.
 
 ## Profile
 
@@ -198,19 +198,19 @@ data-download-yes = Ya
 data-download-deny = Ket
 data-download-license = Lañvaz: <licenseLink>CC-0</licenseLink>
 data-download-modal = Emaoc'h war-nes stagañ gant pellgargadur <size>{ $size }GO</size>, stagañ ganti?
-data-subtitle = Emaomp o krouiñ un hollad roadennoù mouezh digor hag hegerz en un doare publik, hag a c'hallo bezañ ad-implijet gant toud an dud evit sevel arloadoù hag a implij ar vouezh.
-data-explanatory-text = Soñjal a ra deomp e c'hall pikoloù holladoù roadennoù hegerz en un doare publik a c'hall nevesaat hag e tiazezont ur gevezerezh yac'h evit an teknologiezhioù mouezhel hag a em-zesk. Ur giadenn bedel eo hag e pedomp kement hini a zo da gemer-perzh. Hon fal a zo e vefe muioc'h enlakaus teknologiezhioù ar vouezh hag e c'hallfent diskouez lieseurted mouezhioù ar bed holl.
+data-subtitle = Emaomp o krouiñ un hollad roadennoù mouezh digor hag hegerz en un doare foran, hag a c'hallo bezañ ad-implijet gant an holl evit sevel arloadoù hag a implij ar vouezh.
+data-explanatory-text = Soñjal a ra deomp e c'hall pikoloù holladoù roadennoù hegerz en un doare foran degas nevezintioù hag e tiazezont ur gevezerezh yac'h evit an teknologiezhioù mouezhel hag a em-zesk. Ur striv bedel eo hag e pedomp kement hini a zo da gemer-perzh. Hon fal a zo e vefe enkaelatoc'h teknologiezhioù ar vouezh hag e c'hallfent diskouez liesseurted mouezhioù ar bed holl.
 data-get-started = <speechBlogLink>Deskiñ muioc'h a draoù diwar-benn anaouadur ar vouezh</speechBlogLink>
 data-other-title = Hollad roadennoù mouezh all...
 data-other-goto = Mont da { $name }
 data-other-download = Pellgargañ roadennoù
 data-other-librispeech-description = LibriSpeech a zo ur c'horpus gant war-dro 1000 eurvezh a draoù lennet e saozneg (16 kHz) hag a zo o tont eus levrioù aodio ar raktres LibriVox.
 data-other-ted-name = Korpus TED-LIUM
-data-other-ted-description = Ar c'horpus TED-LIUM a zo savet gant an dialogoù aodio hag o zreuskrivadurioù hegerz war lec'hienn TED.
+data-other-ted-description = Ar c'horpus TED-LIUM a zo savet gant an divizoù aodio hag o zreuskrivadurioù hegerz war lec'hienn TED.
 data-other-voxforge-description = VoxForge a zo bet savet evit dezastum an mouezhioù treuzskrivet evit implijout anezho e-barzh al luskerioù anaouadur ar vouezh frank.
 data-other-tatoeba-description = Tatoeba a zo ur pikol diaz-roadennoù frazennoù, troidigezhioù hag enrolladennoù aodio gouestlet evit deskiñ yezhoù. Ar bellgargadenn a endalc'h an holl roadennoù e saozneg enrollet gant o c'humuniezh.
 data-bundle-button = Pellgargañ un hollad roadennoù
-data-bundle-description = Hollad roadennoù Common Voice mui an holl holladoù roadennoù mouezh all dindan.
+data-bundle-description = Hollad roadennoù Common Voice mui an holl holladoù roadennoù mouezh all a-us.
 license = Lañvaz: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mesket
 
@@ -227,13 +227,13 @@ record-error-too-quiet = Re sioul e oa an enrolladenn.
 record-submit-success = Kaset gant berzh! C'hoant ho peus da enrollañ c'hoazh?
 record-help = Pouezit evit enrollañ ha lennit ar frazenn a vouezh uhel.
 record-cancel = Nullañ an ad-enrollañ
-review-terms = En ur implij Common Voice, e savit a-du gant hon <termsLink>Amplegadoù</termsLink> hag hon <privacyLink>Evezhiadennoù a-fet buhez prevez</privacyLink>
+review-terms = En ur implij Common Voice, e savit a-du gant hon <termsLink>divizoù</termsLink> hag hon <privacyLink>evezhiadennoù a-fet buhez prevez</privacyLink>
 terms-agree = Sevel a ran a-du
 terms-disagree = Ne savan ket a-du
 review-aborted = Pellgas nullet. C'hoant ho peus da zilemel hoc'h enrolladennoù?
 review-submit-title = Adwelet & Kas
-review-submit-msg = Trugarez evit an enrolladenn!<lineBreak></lineBreak>Adwelit ha kasit ho klipoù dindan bremañ.
-review-recording = Adwel
+review-submit-msg = Trugarez evit an enrolladenn!<lineBreak></lineBreak>Gwiriit ha kasit ho klipoù dindan bremañ.
+review-recording = Gwiriañ
 review-rerecord = Enrollañ en-dro
 review-cancel = Nullañ ar gasadenn
 review-keep-recordings = Mirout an enrolladennoù
@@ -296,18 +296,18 @@ record-instruction = { $actionType }<recordIcon></recordIcon> lennit da c'houde 
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ur wech echu
 record-three-more-instruction = Tri c'hoazh!
 record-again-instruction = Beuz! <recordIcon></recordIcon> Enrollit ho klip da heul
-record-again-instruction2 = Derc'hel da vont, enrollañ adarre <recordIcon></recordIcon>
-record-last-instruction = <checkIcon></checkIcon> Hini ziwezhañ!
-review-tooltip = Adwel & ad-enrollañ klipoù tamm-ha-tamm
-unable-speak = N'on ket gouest komz bremañ
-review-instruction = Adwelet & ad-enrollañ ar c'hlipoù ma vez ezhomm
+record-again-instruction2 = Dalc'hit da vont, enrollit adarre <recordIcon></recordIcon>
+record-last-instruction = <checkIcon></checkIcon> An hini diwezhañ!
+review-tooltip = Gwiriit hag ad-enrollit klipoù tamm-ha-tamm
+unable-speak = N'on ket gouest da gomz bremañ
+review-instruction = Gwiriit hag ad-enrollit ar c'hlipoù ma vez ezhomm
 record-submit-tooltip = { $actionType } kas pa 'z eo prest
 clips-submitted = { $count } a glipoù kaset!
 record-abort-title = Echuiñ gant an enrolladenn da gentañ?
-record-abort-text = Mont kuit bremañ a dalvez emaoc'h o vont da goll ho kwelladurioù
+record-abort-text = Mont kuit bremañ a dalvez emaoc'h o vont da goll hoc'h araokadenn
 record-abort-submit = Kas ar c'hlipoù
 record-abort-continue = Echuiñ gant an enrolladenn
-record-abort-delete = Kuitaat & dilemel ar c'hlipoù
+record-abort-delete = Kuitaat ha dilemel ar c'hlipoù
 listen-instruction = { $actionType }<playIcon></playIcon> ha distripet mat o deus ar frazenn?
 listen-again-instruction = Labour vat! <playIcon></playIcon> Ad-selaou ur wech ma voc'h prest
 listen-3rd-time-instruction = 2 graet <playIcon></playIcon> , dalc'hit da vont!
