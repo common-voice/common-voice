@@ -1,14 +1,14 @@
 ## General
 
 yes-receive-emails = Ya, kasit posteloù din. Karout a rafen bezañ kelaouet eus ar raktres Common Voice.
-stayintouch = Ni, e Mozilla, 'zo o sevel ur gumuniezh tro-dro da deknologiezh ar vouezh. Fellout a ra deomp chom e darempred gant an hizivadurioù, ar mammennoù roadennoù nevez ha gouzout muioc'h a draoù diwar-benn ar mod ma implijit ar roadennoù-mañ.
-privacy-info = En em engouestl a reomp evit tretiñ ho titouroù gant doujañs. Lennit muioc'h e-barzh hon <privacyLink>Evezhiadennoù a-fet buhez prevez </privacyLink>.
+stayintouch = Ni, e Mozilla, zo o sevel ur gumuniezh tro-dro da deknologiezh ar vouezh. Karout a rafemp bezañ kelaouet ingal eus an hizivadurioù, ar mammennoù roadennoù nevez ha gouzout hiroc'h diwar-benn ar mod ma implijit ar roadennoù-mañ.
+privacy-info = Gouestlañ a reomp embreger ho titouroù gant evezh. Lennit pelloc'h diwar-benn se en hon <privacyLink>Evezhiadennoù a-fet buhez prevez </privacyLink>.
 return-to-cv = Distreiñ da gCommon Voice
 email-input =
     .label = Postel
 submit-form-action = Kas
 loading = O kargañ...
-audio-loading-error = Digarezit! Emaomp o tretiñ hor restroù aodio, klaskit en-dro diwezhatoc'h mar plij.
+audio-loading-error = Hon digarezit! Emaomp o plediñ gant hor restroù son, klaskit en-dro diwezhatoc'h mar plij.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -16,13 +16,13 @@ audio-loading-error = Digarezit! Emaomp o tretiñ hor restroù aodio, klaskit en
 
 ## Languages
 
-bn = Banglaeg
+bn = Bengaleg
 ca = Katalaneg
 cs = Tchekeg
 cv = Tchouvacheg
 cy = Kembraeg
 da = Daneg
-de = Alemanek
+de = Alamaneg
 el = Gresianeg
 en = Saozneg
 es = Spagnoleg
@@ -54,13 +54,13 @@ sr = Serbeg
 sv-SE = Svedeg
 ta = Tamileg
 te = Telougoueg
-th = Taieg
+th = Thailandeg
 tr = Turkeg
 tt = Tatareg
 uk = Ukraineg
 uz = Ouzbekeg
-zh-CN = Sinaeg (Bro-Sina)
-zh-TW = Sinaeg (Bro-Daiwan)
+zh-CN = Sinaeg (Sina)
+zh-TW = Sinaeg (Taiwan)
 
 # [/]
 
@@ -74,7 +74,7 @@ profile = Profil
 help = Skoazell
 contact = Darempred
 privacy = Buhez prevez
-terms = Amplegadoù
+terms = Termenoù
 cookies = Toupinoù
 faq = FAG
 content-license-text = Endalc'had hegerz dindan ul <licenseLink>lañvaz Creative Commons</licenseLink>
