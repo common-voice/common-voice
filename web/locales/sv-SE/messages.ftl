@@ -278,7 +278,10 @@ language-search-input =
 
 ## New Contribution
 
+action-click = Klicka
+action-tap = Tryck
 listen = Lyssna
+skip = Hoppa över
 shortcuts = Genvägar
 clips = Klipp
 goal-type-record = inspelning
