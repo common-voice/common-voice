@@ -79,18 +79,18 @@ cookies = Toupinoù
 faq = FAG
 content-license-text = Endalc'had hegerz dindan ul <licenseLink>lañvaz Creative Commons</licenseLink>
 share-title = Sikourit ac'hanomp da gavout tud all da reiñ o mouezh!
-share-text = Sikourit ar mekanikoù da gompren penaos e vez komzet gant an dud gwirion, roit ho mouezh da { $link }
+share-text = Sikourit ar mekanikoù da gompren penaos e komz an dud wirion, roit ho mouezh da { $link }
 back-top = Distreiñ d'ar c'hrec'h
 
 ## Home Page
 
-home-title = Ar raktres Common Voice a zo un intrudu eus Mozilla evit sikour ar mekanikoù da gompren penaos e komz an dud gwirion.
-home-cta = Komzit, kendaolit amañ!
-wall-of-text-start = Naturel ha denel eo ar vouezh. Setu aze evit petra ez omp bammet gant ar c'hoant krouiñ un deknologiezh mouezh implijus gant hor mekanikoù. Evit krouiñ reizhiadoù mouezh, avat, ur sammad bras a roadennoù mouezh a zo dleet.
-wall-of-text-more-mobile = Darn ar roadennoù implijet gant kompagnunezhioù bras na vez ket hegerz da lodenn vrasañ an dud. Soñjal a ra deomp e voug an nevezadurioù. Setu ma 'z omp kroget gant ar raktres Common Voice, ur raktres evit lakaat anaoudegezh ar vouezh digor d'an holl.
+home-title = Ar raktres Common Voice a zo un intrudu eus Mozilla evit sikour ar mekanikoù da gompren penaos e komz an dud wirion.
+home-cta = Komzit, kemerit perzh amañ !
+wall-of-text-start = Naturel ha denel eo ar vouezh. Setu aze perak e chomomp bamet pa grouomp un deknologiezh vouezh a c'hall bezañ implijet gant hor mekanikoù. Evit krouiñ reizhiadoù mouezh e ranker kaout ur pezh sammad a roadennoù mouezh avat.
+wall-of-text-more-mobile = Ar pep brasañ eus ar roadennoù a ra ar c'hompagnunezhioù bras ganto ne c'hallont ket bezañ implijet gant pep hini. Soñjal a ra deomp e voug ar grouüsted. Setu perak hon eus lañset ar raktres Common Voice, ur raktres a laka anaoudegezh ar vouezh da vezañ digor d'an holl.
 wall-of-text-more-desktop = Gellout a rit reiñ ho mouezh evit reiñ an dorn deomp da sevel un diaz-roadennoù mouezh open-source hag a c'hall bezañ implijet gant forzh piv evit sevel arloadoù evit trevnadoù hag ar web. <lineBreak></lineBreak> Lennit ur frazenn evit sikour ar mekanikoù da zeskiñ komz evel ma ra an dud wirion. Gwirit labour kendaolerien all evit gwellaat ar perzhded. Ken aes ha tra!
 show-wall-of-text = Lenn muioc'h
-help-us-title = Skoazellit ac'hanomp da wiriañ frazennoù!
+help-us-title = Skoazellit ac'hanomp da gadarnaat frazennoù !
 help-us-explain = Pouezit war lenn, selaou & lavarit deomp: distripet en/he deus mat ar frazenn dindan?
 vote-yes = Ya
 vote-no = Ket
@@ -107,20 +107,20 @@ shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
-request-language-text = Ne welit ket ho yezh e-barzh Common Voice evit ar mare?
-request-language-button = Goulenn war-lerc'h ur yezh
+request-language-text = Ne welit ket ho yezh e Common Voice evit ar mare?
+request-language-button = Goulenn ouzhpennañ ur yezh
 
 ## ProjectStatus
 
-status-title = Statud hollek ar raktres: gwelet pelec'h emaomp erru ganti!
-status-contribute = Kendaolit ho mouezh
+status-title = Statud hollek ar raktres : gwelet pelec'h emaomp degouezhet !
+status-contribute = Embannit ho mouezh
 status-hours =
     { $hours ->
-        [one] Un eurvezh enrollet evit poent!
-        [two] { $hours } eurvezh enrollet evit poent!
-        [few] { $hours } eurvezh enrollet evit poent!
-        [many] { $hours } a eurvezhioù enrollet evit poent!
-       *[other] { $hours } eurvezh enrollet evit poent!
+        [one] Un eurvezh kadarnaet evit poent !
+        [two] { $hours } eurvezh kadarnaet evit poent !
+        [few] { $hours } eurvezh kadarnaet evit poent !
+        [many] { $hours } a eurvezhioù kadarnaet evit poent !
+       *[other] { $hours } eurvezh kadarnaet evit poent !
     }
 # Variables:
 # $goal - number of hours representing the next goal
@@ -151,9 +151,9 @@ female = Plac'h
 # Gender
 other = Re all
 why-profile-title = Perak ur profil?
-why-profile-text = En ur bourveziñ un nebeut titouroù diwar ho penn, ar roadennoù aodio a gasit da gCommon Voice a vo talvoudusoc'h e-se evit mekanikoù Anaouadur ar Vouezh hag a implij ar roadennoù-mañ da wellaat o resister.
+why-profile-text = Seul dalvoudusoc'h e vo ar roadennoù son a gasit da gCommon voice evit ar mekanikoù anaout ar vouezh ma vo bet pourvezet ganeoc'h un nebeud titouroù diwar ho penn. O skoazellañ a ray d'en em varrekaat.
 edit-profile = Aozañ ar profil
-profile-create = Krouiñ ar profil
+profile-create = Krouiñ ur profil
 profile-create-success = Berzh, profil krouet!
 profile-close = Serriñ
 profile-clear-modal = Ma skarzhit roadennoù ho profil, ne vo ket kaset an titouroù poblañs ken da gCommon Voice gant hoc'h enrolladennoù aodio.
@@ -163,17 +163,17 @@ profile-clear-modal = Ma skarzhit roadennoù ho profil, ne vo ket kaset an titou
 faq-title = Foar ar Goulennoù
 faq-what-q = Petra eo Common Voice?
 faq-what-a = Teknologiezhioù anaouadur ar vouezh a c'hallfe cheñch penn d'hon etregweredoù gant ar mekanikoù, met ar reizhiadoù hegerz evit ar mare a zo koustus ruz ha perc'hennet. Common Voice a zo ur raktres gant ar pal reiñ da forzh piv an doareoù teknologiezh-mañ. Ar gendaolerien a roio o mouezh e-barzh ur mell diaz-roadennoù hag a roio an tu da forzh piv sevel en un doare prim hag aes arloadoù a implij ar vouezh. Hollad ar roadennoù mouezhiel a vo lakaet e kerzh an diorroerien.
-faq-important-q = Perak ez eo a-bouez?
+faq-important-q = Perak eo pouezus?
 faq-important-a = Naturel ha denel eo ar vouezh. An doare aesañ ha naturelañ a zo da eskemm. Fellout a ra deomp diorroerien hag a vo barrek da sevel traoù dic'hortoz ha pa vefe troerioù en amzer gwirion pe skoazellerioù melestradurel gant urzhiadoù dre gomz. Met evit ar mare, n'eus ket trawalc'h a roadennoù hegerz evit kas da benn an doare arloadoù-mañ. Spi hon eus e roio Common Voice ar pezh a zo ezhomm evit degas nevesadurioù.
 faq-get-q = Pelec'h e c'hallan kaout roadennoù Common Voice?
 faq-get-a = Hollad ar roadennoù a zo hegerz war hon <downloadLink>fajenn bellgargañ</downloadLink> dindan al lañvaz <licenseLink>CC-0</licenseLink>.
 faq-mission-q = Perak ez eo Common Voice ul lodenn eus kefridi Mozilla?
-faq-mission-a = Mozilla a zo galvet da c'houarn ar Web digor ha tizhus d'an holl. Evit dont a-benn eus an dra-se, e rankomp gouvriñ krouerien ostilhoù evel Common Voice. Teknologiezhioù ar vouezh a struj diwar-vremañ en diavaez da gustodoù 'zo, ha kavout a ra deomp e rankont bezañ implijus. Gwelout a reomp un ezhomm da ouzhpennañ muioc'h a yezhoù, a bouezioù-mouezh hag a rummoù oad evit krouiñ hag amprouiñ an teknologiezhioù mouezhel. Mozilla a fell dezhi ur genrouedad oberiant ha yac'h. Ar pezh a ampleg, d'ar grouerien war ar Web, da roadennoù mouezhiel a c'hellont implijout evit raktresoù nevez. Common Voice a zeuio da vezañ ur vammenn foran a sikouro skipailhoù Mozilla ha diorroerien ar seizh avel.
-faq-native-q = Komz a ran { $lang }, ar pezh 'zo n'eo ket ma yezh-vamm hag ur pouez-mouezh am eus, ha c'hoant ho peus da gaout ma mouezh memestra?
-faq-native-a = Ya da, c'hoant ruz hon da gaout ho mouezh! Ul lodenn eus palioù Common Voice a zo dezastum kement pouez-mouezh ha ma vo posupl evit ma c'hello kompren gwelloc'h mouezhioù <bold>an holl</bold> pa gomzont.
-faq-firefox-q = Hag e vo lodenn eus Firefox ar vouezh-d'an-destenn, dre gCommon Voice?
-faq-firefox-a = Common Voice a zo ur gallus difin hag o studiañ emaomp un ad-implij etrefasoù mouezhel e-mesk meziantoù lies eus Mozilla, Firefox en o mesk.
-faq-quality-q = Peseurt live perzhded a zo goulennet evit an aodio evit gallout bezañ implijet?
+faq-mission-a = Mennet eo Mozilla da virout ar Web digor ha tizhus d'an holl. Evit ober kement-mañ e rankomp galloudekaat ar grouerien web dre raktresoù evel Common Voice. Teknologiezhioù ar vouezh a struj bremañ pelloc'h eget e tachennoùigoù zo evel a-raok. Kavout a ra deomp e rankont bezañ e gourc'hemenn pep hini hep diforc'hañ. Santout a reomp un ezhomm da ouzhpennañ muioc'h a yezhoù, a bouezioù-mouezh hag a rummoù oad evit krouiñ hag amprouiñ an teknologiezhioù mouezh. Mozilla a fell dezhi gwelet ur genrouedad oberiant ha yac'h. Ar pezh a dalvez reiñ d'ar grouerien Web nevez an tu da implijout roadennoù mouezh evit ma c'hallint sevel raktresoù dispar. Common Voice a zeuio da vezañ ur vammenn foran a sikouro skipailhoù Mozilla hag an diorroerien e pep lec'h er bed.
+faq-native-q = { $lang } a gomzan met n'on ket yezher a-vihanik ha klevet e vez ma fouez-mouezh orin pa gomzan. Ha c'hoant hoc'h eus da gaout ma mouezh memes tra ?
+faq-native-a = Ya da, c'hoant ruz hon eus da gaout ho mouezh! Ul lodenn eus palioù Common Voice a zo dezastum kement pouez-mouezh ha ma vo gallet evit ma c'hello an urzhiataerioù kompren gwelloc'h mouezhioù <bold>pep hini</bold> pa gomz.
+faq-firefox-q = Hag ul lodenn eus Firefox e teuio da vezañ teknologiezh Common Voice "eus ar gomz d'ar skrid" ?
+faq-firefox-a = Ur varregezh difin zo gant Common Voice. Evit gwir emaomp o studiañ etrefasoù mouezh e meur a raktres eus Mozilla, e Firefox paneveken.
+faq-quality-q = Pegen mat e rank ar son bezañ evit gallout bezañ implijet ?
 faq-quality-a = Fellout a ra deomp ur perzhded aodio hag a genglot gant ar pezh en do ul lusker anaouadur mouezh da dalañ en e vuhez pemdeziek. Ezhomm hon eus eus liested. Ar pezh a zegas al lusker da gemer e kont en un doare direbech meur a blegenn: eskemmoù en drek-leur, trouzioù kefluskerioù pe trouzioù avelerezhioù.
 faq-hours-q = Perak eo 10 000 eurvezh pal an enrolladur aodio?
 faq-hours-a = Ar c'hementad dleet eo mui pe vui evit bezañ gouest da seveniñ ur reizhiad anaouadur mouezh a galite.
