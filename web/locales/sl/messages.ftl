@@ -64,6 +64,7 @@ zh-TW = kitajščina (Tajvan)
 
 ## Layout
 
+datasets = Nabori podatkov
 languages = Jeziki
 profile = Profil
 help = Pomoč
@@ -220,3 +221,8 @@ language-speakers = Govorcev
 language-total-progress = Skupaj
 language-search-input =
     .placeholder = Iskanje
+
+## New Contribution
+
+skip = Preskoči
+shortcuts = Bližnjice
