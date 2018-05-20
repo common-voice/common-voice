@@ -275,3 +275,12 @@ language-speakers = Talas av
 language-total-progress = Totalt
 language-search-input =
     .placeholder = Sök
+
+## New Contribution
+
+listen = Lyssna
+shortcuts = Genvägar
+clips = Klipp
+goal-type-record = inspelning
+goal-type-validation = validering
+record-cta = Starta inspelning
