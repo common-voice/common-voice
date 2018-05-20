@@ -275,3 +275,37 @@ language-speakers = Beszélők
 language-total-progress = Összesen
 language-search-input =
     .placeholder = Keresés
+
+## New Contribution
+
+action-click = Kattintson
+action-tap = Koppintson
+listen = Figyeljen
+skip = Kihagyás
+shortcuts = Gyorsbillentyűk
+clips = Klipek
+goal-type-record = felvétel
+goal-type-validation = érvényesítés
+toward-goal = Ez <goalPercentage></goalPercentage> a Common Voice célja felé, amely { $goalType }. Köszönjük
+contribute-more = Készen áll még { $count } felvételre?
+record-cta = Felvétel indítása
+record-instruction = { $actionType } a <recordIcon></recordIcon> ikonra, és olvassa fel hangosan a mondatot
+record-stop-instruction = { $actionType } a <stopIcon></stopIcon> ikonra ha kész
+record-three-more-instruction = Még három!
+record-again-instruction = Nagyszerű! <recordIcon></recordIcon> A következő klip felvételéhez
+record-again-instruction2 = Csak így tovább, vegyen fel újra <recordIcon></recordIcon>
+record-last-instruction = <checkIcon></checkIcon> Az utolsó!
+review-tooltip = Ellenőrizze, és ha kell, vegye fel újra a klipeket sorban
+unable-speak = Most nem tud beszélni
+review-instruction = Ellenőrizze, és ha kell, vegye fel újra a klipeket
+record-submit-tooltip = { $actionType } a beküldéshez, ha kész
+clips-submitted = { $count } Klip beküldve!
+record-abort-title = Előbb befejezi a felvételt?
+record-abort-text = Ha most elmegy, akkor elveszti az előrehaladást
+record-abort-submit = Klipek beküldése
+record-abort-continue = Rögzítés befejezése
+record-abort-delete = Kilépés és klipek törlése
+listen-instruction = { $actionType } a <playIcon></playIcon> ikonra, pontosan olvasták fel a mondatot?
+listen-again-instruction = Jó munka! <playIcon></playIcon> Hallgassa meg újra, ha kész
+listen-3rd-time-instruction = 2 kész <playIcon></playIcon>, csak így tovább!
+listen-last-time-instruction = <playIcon></playIcon> Utolsó!
