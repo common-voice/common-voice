@@ -285,3 +285,4 @@ shortcuts = Inegzumen
 goal-type-record = Asekles
 goal-type-validation = Asentem
 record-abort-continue = Fak asekles
+listen-last-time-instruction = <playIcon></playIcon> d aneggaru!
