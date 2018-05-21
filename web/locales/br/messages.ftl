@@ -156,7 +156,7 @@ edit-profile = Aozañ ar profil
 profile-create = Krouiñ ur profil
 profile-create-success = Berzh, profil krouet!
 profile-close = Serriñ
-profile-clear-modal = Ma skarzhit roadennoù ho profil, ne vo ket kaset an titouroù poblañs ken da gCommon Voice gant hoc'h enrolladennoù aodio.
+profile-clear-modal = Ma skarzhit roadennoù ho profil, ne vo ket kaset an titouroù poblañs ken da gCommon Voice gant hoc'h enrolladennoù son.
 
 ## FAQ
 
