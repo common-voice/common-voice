@@ -176,9 +176,9 @@ faq-firefox-a = Un danvez-galloudegezh difin 'zo gant Common Voice. Hag o studia
 faq-quality-q = Pegen mat e rank ar son bezañ evit gallout bezañ implijet?
 faq-quality-a = Fellout a ra deomp ur perzhded aodio hag a genglot gant ar pezh en do ul lusker anaouadur mouezh da dalañ en e vuhez pemdeziek. Ezhomm hon eus eus liested. Ar pezh a zegas al lusker da gemer e kont en un doare direbech meur a blegenn: eskemmoù en drek-leur, trouzioù kefluskerioù pe trouzioù avelerezhioù.
 faq-hours-q = Perak e ranker tizhout 10 000 eurvezh enrollañ?
-faq-hours-a = Ar c'hementad rekis eo mui pe vui evit bezañ gouest da seveniñ ur reizhiad anaout ar vouezh a-zoare.
+faq-hours-a = Ar c'hementad goulennet eo mui pe vui evit bezañ gouest da seveniñ ur reizhiad anaout mouezh a-zoare.
 faq-source-q = Eus pelec'h e teu an testennoù?
-faq-source-a1 = Ar frazennoù a zo anezho evit ar mare a zeu eus perzhidi all, met ivez eus eskemmoù filmoù zo hag a zo en domani foran evel <italic>It's a Wonderful Life.</italic>.
+faq-source-a1 = Ar frazennoù a zo anezho evit ar mare a zeu eus roadennoù ar perzhidi, met ivez eus eskemmoù filmoù 'zo hag a zo en domani foran evel <italic>It's a Wonderful Life.</italic>.
 faq-source-a2 = Gallout a rit gwelet mammennoù hor frazennoù en teuliad <dataLink>Github-mañ</dataLink>.
 
 ## Profile
@@ -197,7 +197,7 @@ data-download-button = Pellgargañ roadennoù Common Voice
 data-download-yes = Ya
 data-download-deny = Ket
 data-download-license = Lañvaz: <licenseLink>CC-0</licenseLink>
-data-download-modal = Emaoc'h o vont da bellgargañ ur restr a <size>{ $size }GO</size>, stagañ ganti ?
+data-download-modal = Emaoc'h o vont da bellgargañ ur restr a <size>{ $size }GO</size>, stagañ ganti?
 data-subtitle = Emaomp o krouiñ un hollad roadennoù mouezh digor hag hegerz a c'hallo bezañ adimplijet gant an holl evit sevel arloadoù a implij ar vouezh.
 data-explanatory-text = Soñjal a ra deomp e c'hall pikoloù holladoù roadennoù foran degas krouüsted ha diazezañ ur gevezerezh yac'h evit teknologiezh ar mekanikoù emzeskiñ war ar vouezh. Ur striv bedel eo ha pediñ a reomp pep hini da gemer-perzh ennañ. Lakaat teknologiezh ar vouezh da gemer pep hini e kont eo hor pal. Evit se e fell deomp kaout un alberz eus liesseurted mouezhioù ar bed.
 data-get-started = <speechBlogLink>Kregiñ gant anaout ar vouezh</speechBlogLink>
@@ -227,12 +227,12 @@ record-error-too-quiet = Re sioul e oa an enrolladenn.
 record-submit-success = Kaset gant berzh! C'hoant ho peus da enrollañ c'hoazh?
 record-help = Pouezit evit enrollañ ha lennit ar frazenn a vouezh uhel.
 record-cancel = Nullañ an adenrollañ
-review-terms = En ur implijout Common Voice e savit a-du gant hon <termsLink>termenoù</termsLink> hag hon <privacyLink>evezhiadennoù a-fet buhez prevez</privacyLink>
+review-terms = En ur implijout Common Voice e savit a-du gant hon <termsLink>zermenoù</termsLink> hag hon <privacyLink>evezhiadennoù a-fet buhez prevez</privacyLink>
 terms-agree = Sevel a ran a-du
 terms-disagree = Ne savan ket a-du
 review-aborted = Nullet eo bet ar pellgas. Dilemel hoc'h enrolladennoù a fell deoc'h ober ?
 review-submit-title = Adwelet & Kas
-review-submit-msg = Trugarez evit an enrolladenn !<lineBreak></lineBreak>Bremañ, gwiriit ho klipoù ha kasit anezho.
+review-submit-msg = Trugarez evit an enrolladenn!<lineBreak></lineBreak>Bremañ, gwiriit ho klipoù ha kasit anezho.
 review-recording = Gwiriañ
 review-rerecord = Enrollañ en-dro
 review-cancel = Nullañ ar gasadenn
@@ -242,12 +242,12 @@ review-delete-recordings = Dilemel ma enrolladennoù
 ## Download Modal
 
 download-title = Kroget eo ho pellgargadenn.
-download-helpus = Hor sikourit da sevel ur gumuniezh tro-dro da deknologiezh ar vouezh. Chomit e darempred ganeomp dre bostel.
+download-helpus = Skoazellit ac'hanomp da sevel ur gumuniezh tro-dro da deknologiezh ar vouezh. Chomit e darempred ganeomp dre bostel.
 download-form-email =
     .label = Lakait ho postel
     .value = Trugarez vras deoc'h, chom a raimp e darempred ganeoc'h.
 download-back = Distreiñ da hollad roadennoù Common Voice
-download-no = N'eo ket dav
+download-no = Nann avat
 
 ## Contact Modal
 
@@ -265,7 +265,7 @@ request-language-title = Goulenn ouzhpennañ ur yezh
 request-language-cancel = Kuitaat ar furmskrid
 request-language-form-language =
     .label = Yezh
-request-language-success-title = Goulenn yezh kaset gant berzh, trugarez vras.
+request-language-success-title = Goulenn yezh kaset gant berzh, trugarez vras deoc'h.
 request-language-success-content = Mont a raimp e darempred ganeoc'h a-barzh nemeur gant muioc'h a ditouroù war ar mod da ouzhpennañ ho yezh da gCommon Voice.
 
 ## Languages Overview
@@ -289,8 +289,8 @@ shortcuts = Berradurioù
 clips = Klipoù
 goal-type-record = oc'h enrollañ
 goal-type-validation = kadarnaat
-toward-goal = Hemañ eo <goalPercentage></goalPercentage>pal Common Voice{ $goalType } hiziv. Trugarez deoc'h.
-contribute-more = Prest d'ober { $count } all ?
+toward-goal = Hemañ eo <goalPercentage></goalPercentage>pal Common Voice{ $goalType } hiziv. Trugarez deoc'h
+contribute-more = Prest d'ober { $count } ouzhpenn?
 record-cta = Kregiñ da enrollañ
 record-instruction = { $actionType }<recordIcon></recordIcon> da c'houde, lennit ar frazenn a vouezh uhel
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ur wech echu
@@ -298,9 +298,9 @@ record-three-more-instruction = Tri c'hoazh!
 record-again-instruction = FIskal! <recordIcon></recordIcon> Enrollit ur c'hlip all
 record-again-instruction2 = Dalc'hit da vont, enrollit adarre <recordIcon></recordIcon>
 record-last-instruction = <checkIcon></checkIcon> An hini diwezhañ!
-review-tooltip = Gwiriit hag adenrollit klipoù tamm-ha-tamm
+review-tooltip = Gwiriit & adenrollit klipoù tamm-ha-tamm
 unable-speak = N'on ket gouest da gomz bremañ
-review-instruction = Gwiriit hag adenrollit ar c'hlipoù ma vez ezhomm
+review-instruction = Gwiriit & adenrollit ar c'hlipoù ma vez ezhomm
 record-submit-tooltip = { $actionType } kas p'eo prest
 clips-submitted = { $count } a glipoù kaset!
 record-abort-title = Echuiñ gant an enrolladenn da gentañ?
