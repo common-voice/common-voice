@@ -26,8 +26,6 @@ de = Gearmáinis
 el = Gréigis
 en = Béarla
 es = Spáinnis
-es-AR = Spáinnis (An Airgintín)
-es-CL = Spáinnis (An tSile)
 fr = Fraincis
 fy-NL = Freaslannais
 ga-IE = Gaeilge
@@ -49,6 +47,7 @@ pt-BR = Portaingéilis (An Bhrasaíl)
 ro = Rómáinis
 ru = Rúisis
 sk = Slóvaicis
+sl = Slóivéinis
 sq = Albáinis
 sr = Seirbis
 sv-SE = Sualainnis
@@ -278,3 +277,6 @@ language-speakers = Cainteoirí
 language-total-progress = Iomlán
 language-search-input =
     .placeholder = Cuardaigh
+
+## New Contribution
+
