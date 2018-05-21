@@ -85,7 +85,7 @@ back-top = Distreiñ d'ar c'hrec'h
 ## Home Page
 
 home-title = Ar raktres Common Voice a zo un intrudu eus Mozilla evit sikour ar mekanikoù da gompren penaos e komz an dud wirion.
-home-cta = Komzit, kemerit perzh amañ !
+home-cta = Komzit, kemerit perzh amañ!
 wall-of-text-start = Naturel eo ar vouezh, denel eo ar vouezh. Setu aze perak e chomomp bamet pa grouomp un deknologiezh vouezh a c'hall bezañ implijet gant hor mekanikoù. Evit krouiñ reizhiadoù mouezh e ranker kaout ur pezh sammad a roadennoù mouezh avat.
 wall-of-text-more-mobile = Ar pep brasañ eus ar roadennoù a ra ar c'hompagnunezhioù bras ganto ne c'hallont ket bezañ implijet gant lodenn vrasañ an dud. Soñjal a ra deomp e voug ar grouüsted. Setu perak hon eus lañset ar raktres Common Voice, ur raktres a laka anaoudegezh ar vouezh da vezañ digor d'an holl.
 wall-of-text-more-desktop = Gellout a rit reiñ ho mouezh evit reiñ an dorn deomp da sevel un diaz-roadennoù mouezh open-source hag a c'hall bezañ implijet gant forzh piv evit sevel arloadoù evit trevnadoù hag ar web. <lineBreak></lineBreak> Lennit ur frazenn evit sikour ar mekanikoù da zeskiñ komz evel ma ra an dud wirion. Gwirit labour kendaolerien all evit gwellaat ar perzhded. Ken aes ha tra!
