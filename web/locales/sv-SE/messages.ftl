@@ -286,5 +286,13 @@ shortcuts = Genvägar
 clips = Klipp
 goal-type-record = inspelning
 goal-type-validation = validering
+contribute-more =
+    { $count ->
+        [one] Redo att göra { $count } till?
+       *[other] Redo att göra { $count } till?
+    }
 record-cta = Starta inspelning
+record-instruction = { $actionType } <recordIcon></recordIcon> och läs sedan meningen högt
+record-stop-instruction = { $actionType } <stopIcon></stopIcon> när du är klar
+record-three-more-instruction = Tre kvar!
 record-abort-continue = Avsluta inspelning
