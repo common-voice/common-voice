@@ -66,8 +66,7 @@ interface PropsFromState {
   isSetFull: boolean;
   recordingsCount: number;
   reRecordSentenceId?: string;
-  sentenceRecordings: Recordings.SentenceRecordings;
-  sentences: { [id: string]: string };
+  sentenceRecordings: Recordings.SentenceRecording[];
 }
 
 interface PropsFromDispatch {
@@ -154,7 +153,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
 
     this.props.setRecording(
       this.props.reRecordSentenceId ||
-        Object.keys(sentenceRecordings)[recordingsCount],
+        sentenceRecordings[recordingsCount].sentence.id,
       info
     );
 
@@ -285,7 +284,6 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
       recordingsCount,
       reRecordSentenceId,
       sentenceRecordings,
-      sentences,
     } = this.props;
     const { recordingError, showRetryModal, showSubmitSuccess } = this.state;
 
@@ -302,7 +300,9 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
     }
 
     const recordIndex = reRecordSentenceId
-      ? Object.keys(sentenceRecordings).indexOf(reRecordSentenceId)
+      ? sentenceRecordings.findIndex(
+          ({ sentence }) => sentence.id === reRecordSentenceId
+        )
       : recordingsCount;
 
     return (
@@ -347,14 +347,14 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
               </div>
             )}
           <div className="record-sentence">
-            {Object.keys(sentenceRecordings).map((sentenceId, i) => (
+            {sentenceRecordings.map(({ sentence: { id, text } }, i) => (
               <div
-                key={sentenceId + '' + i}
+                key={id + '' + i}
                 className={
                   'text-box ' +
                   (i < recordIndex ? 'left' : i > recordIndex ? 'right' : '')
                 }>
-                <p>{sentences[sentenceId]}</p>
+                <p>{text}</p>
               </div>
             ))}
             {recordingsCount > 0 &&
@@ -406,7 +406,6 @@ const mapStateToProps = (state: StateTree) => {
     isSetFull: Recordings.selectors.isSetFull(state),
     recordingsCount: Recordings.selectors.recordingsCount(state),
     reRecordSentenceId: localeRecordings.reRecordSentenceId,
-    sentences: localeRecordings.sentences,
     sentenceRecordings: localeRecordings.sentenceRecordings,
   };
 };

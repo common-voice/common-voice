@@ -16,8 +16,7 @@ import ProfileActions from './profile-actions';
 interface PropsFromState {
   api: API;
   recordingsCount: number;
-  sentences: { [id: string]: string };
-  sentenceRecordings: Recordings.SentenceRecordings;
+  sentenceRecordings: Recordings.SentenceRecording[];
   user: User.State;
 }
 
@@ -109,15 +108,12 @@ class Review extends React.Component<Props, State> {
         api,
         recordingsCount,
         sentenceRecordings,
-        sentences,
         tallyRecording,
       } = this.props;
 
       let i = 0;
-      for (const [sentenceId, recording] of Object.entries(
-        sentenceRecordings
-      )) {
-        await api.uploadClip(recording.blob, sentenceId, sentences[sentenceId]);
+      for (const { sentence, recording } of sentenceRecordings) {
+        await api.uploadClip(recording.blob, sentence.id, sentence.text);
 
         tallyRecording();
 
@@ -143,7 +139,7 @@ class Review extends React.Component<Props, State> {
   };
 
   render() {
-    const { getString, sentenceRecordings, sentences } = this.props;
+    const { getString, sentenceRecordings } = this.props;
     const {
       progress,
       uploading,
@@ -194,12 +190,12 @@ class Review extends React.Component<Props, State> {
             <span />
           </Localized>
         </p>
-        {Object.entries(sentenceRecordings).map(([sentenceId, recording]) => (
+        {sentenceRecordings.map(({ sentence, recording }) => (
           <ListenBox
-            key={sentenceId}
+            key={sentence.id}
             src={recording.url}
-            onDelete={this.rerecord.bind(this, sentenceId)}
-            sentence={sentences[sentenceId]}
+            onDelete={this.rerecord.bind(this, sentence.id)}
+            sentence={sentence.text}
           />
         ))}
         <br />
@@ -226,7 +222,6 @@ const mapStateToProps = (state: StateTree) => ({
   recordingsCount: Recordings.selectors.recordingsCount(state),
   sentenceRecordings: Recordings.selectors.localeRecordings(state)
     .sentenceRecordings,
-  sentences: Recordings.selectors.localeRecordings(state).sentences,
   user: state.user,
 });
 

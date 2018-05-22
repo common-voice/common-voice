@@ -18,14 +18,15 @@ export namespace Recordings {
     url: string;
   }
 
-  export interface SentenceRecordings {
-    [sentenceId: string]: Recording;
+  export interface SentenceRecording {
+    sentence: Sentence;
+    recording?: Recording;
   }
 
   interface LocaleRecordings {
     reRecordSentenceId?: string;
-    sentences: { [id: string]: string };
-    sentenceRecordings: SentenceRecordings;
+    sentences: Sentence[];
+    sentenceRecordings: SentenceRecording[];
   }
 
   export interface State {
@@ -133,7 +134,7 @@ export namespace Recordings {
         ...state,
         [locale]: {
           reRecordSentenceId: null,
-          sentenceRecordings: {},
+          sentenceRecordings: [],
           sentences: [],
         },
       }),
@@ -145,8 +146,12 @@ export namespace Recordings {
 
     switch (action.type) {
       case ActionType.SET_RECORDING:
-        const { sentenceId, recording } = action;
-        if (localeState.sentenceRecordings[sentenceId]) {
+        const { sentenceId, recording: newRecording } = action;
+        if (
+          localeState.sentenceRecordings.find(
+            ({ sentence }) => sentence.id === sentenceId
+          ).recording
+        ) {
           trackRecording('rerecord');
         }
         return {
@@ -154,10 +159,13 @@ export namespace Recordings {
           [locale]: {
             ...localeState,
             reRecordSentenceId: null,
-            sentenceRecordings: {
-              ...localeState.sentenceRecordings,
-              [sentenceId]: recording,
-            },
+            sentenceRecordings: localeState.sentenceRecordings.map(
+              ({ sentence, recording }) => ({
+                sentence,
+                recording:
+                  sentence.id === sentenceId ? newRecording : recording,
+              })
+            ),
           },
         };
 
@@ -166,36 +174,21 @@ export namespace Recordings {
           ...state,
           [locale]: {
             ...localeState,
-            sentences: action.sentences.reduce(
-              (obj, { id, text }) => ({ ...obj, [id]: text }),
-              { ...localeState.sentences }
-            ),
+            sentences: localeState.sentences.concat(action.sentences),
           },
         };
 
       case ActionType.BUILD_SENTENCE_SET:
-        const sentencePairs = Object.entries(localeState.sentences).filter(
-          ([id]) => !Object.keys(localeState.sentenceRecordings).includes(id)
-        );
-        const sentenceSet = sentencePairs.slice().splice(0, SET_COUNT);
+        const sentences = localeState.sentences.slice();
+        const sentenceSet = sentences.splice(0, SET_COUNT);
         return {
           ...state,
           [locale]: {
             ...localeState,
-            sentences: sentencePairs.reduce(
-              (obj: { [id: string]: string }, [id, text]) => ({
-                ...obj,
-                [id]: text,
-              }),
-              {}
-            ),
-            sentenceRecordings: sentenceSet.reduce(
-              (obj: SentenceRecordings, [id]) => {
-                obj[id] = null;
-                return obj;
-              },
-              {}
-            ),
+            sentences,
+            sentenceRecordings: sentenceSet.map(sentence => ({
+              sentence,
+            })),
           },
         };
 
@@ -216,33 +209,25 @@ export namespace Recordings {
   export const selectors = {
     localeRecordings,
 
-    areEnoughSentencesLoaded: createSelector<
-      StateTree,
-      { [id: string]: string },
-      boolean
-    >(
+    areEnoughSentencesLoaded: createSelector<StateTree, Sentence[], boolean>(
       state => localeRecordings(state).sentences,
-      sentences => Object.keys(sentences).length >= SET_COUNT
+      sentences => sentences.length >= SET_COUNT
     ),
 
-    isSetFull: createSelector<StateTree, SentenceRecordings, string, boolean>(
+    isSetFull: createSelector<StateTree, SentenceRecording[], string, boolean>(
       state => (localeRecordings(state) || ({} as any)).sentenceRecordings,
       state => (localeRecordings(state) || ({} as any)).reRecordSentenceId,
       (sentenceRecordings, reRecordSentence) =>
         sentenceRecordings &&
         !reRecordSentence &&
-        Object.entries(sentenceRecordings).filter(
-          ([sentence, recording]) => recording
-        ).length >= SET_COUNT
+        sentenceRecordings.filter(({ recording }) => recording).length >=
+          SET_COUNT
     ),
 
-    recordingsCount: createSelector<StateTree, SentenceRecordings, number>(
+    recordingsCount: createSelector<StateTree, SentenceRecording[], number>(
       state => localeRecordings(state).sentenceRecordings,
       sentenceRecordings =>
-        Object.keys(sentenceRecordings).reduce(
-          (sum, sentence) => sum + (sentenceRecordings[sentence] ? 1 : 0),
-          0
-        )
+        sentenceRecordings.filter(({ recording }) => recording).length
     ),
   };
 }
