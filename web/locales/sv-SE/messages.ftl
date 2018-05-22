@@ -287,3 +287,4 @@ clips = Klipp
 goal-type-record = inspelning
 goal-type-validation = validering
 record-cta = Starta inspelning
+record-abort-continue = Avsluta inspelning
