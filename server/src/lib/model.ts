@@ -1,5 +1,5 @@
 const contributableLocales = require('../../../locales/contributable.json') as string[];
-import DB, {Sentence} from './model/db';
+import DB, { Sentence } from './model/db';
 import { DBClipWithVoters } from './model/db/tables/clip-table';
 import Cache from './cache';
 import {
