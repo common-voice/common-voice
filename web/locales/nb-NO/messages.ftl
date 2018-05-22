@@ -23,8 +23,6 @@ de = Tysk
 el = Gresk
 en = Engelsk
 es = Spansk
-es-AR = Spansk (Argentina)
-es-CL = Spansk (Chile)
 fr = Fransk
 fy-NL = Frisisk
 ga-IE = Irsk
@@ -33,6 +31,7 @@ hu = Ungarsk
 id = Indonesisk
 it = Italiensk
 ka = Georgisk
+kab = Kabylsk
 ko = Koreansk
 kw = Cornisk
 mk = Makedonsk
@@ -46,6 +45,7 @@ pt-BR = Portugisisk (Brasil)
 ro = Rumensk
 ru = Russisk
 sk = Slovakisk
+sl = Slovensk
 sq = Albansk
 sr = Serbisk
 sv-SE = Svensk
@@ -224,3 +224,10 @@ language-speakers = Talt av
 language-total-progress = Totalt
 language-search-input =
     .placeholder = Søk
+
+## New Contribution
+
+action-click = Klikk
+action-tap = Trykk
+listen = Lytt
+skip = Hopp over
