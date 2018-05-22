@@ -283,7 +283,10 @@ clips = Clips
 goal-type-record = recording
 goal-type-validation = validation
 toward-goal = That's <goalPercentage></goalPercentage> toward today's Common Voice { $goalType } goal. Thank you
-contribute-more = Ready to do { $count } more?
+contribute-more =
+    { $count ->
+       *[other] Ready to do { $count } more?
+    }
 record-cta = Start recording
 record-instruction = { $actionType } <recordIcon></recordIcon> then read the sentence aloud
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> when done
@@ -295,7 +298,10 @@ review-tooltip = Review & re-record clips here as you go
 unable-speak = Unable to speak right now
 review-instruction = Review & re-record clips if needed
 record-submit-tooltip = { $actionType } submit when ready
-clips-submitted = { $count } Clips submitted!
+clips-submitted =
+    { $count ->
+       *[other] { $count } Clips submitted!
+    }
 record-abort-title = Finish recording first?
 record-abort-text = Leaving now means you'll lose your progress
 record-abort-submit = Submit clips
