@@ -300,6 +300,12 @@ review-tooltip = Weryfikuj i ponownie nagrywaj w czasie pracy
 unable-speak = Nie można teraz wymówić zdania
 review-instruction = Weryfikuj i ponownie nagrywaj w razie potrzeby
 record-submit-tooltip = { $actionType } „Wyślij” po ukończeniu
+clips-submitted =
+    { $count ->
+        [one] Wysłano { $count } nagranie!
+        [few] Wysłano { $count } nagrania!
+       *[other] Wysłano { $count } nagrań!
+    }
 record-abort-title = Najpierw dokończyć nagrywanie?
 record-abort-text = Wyjście teraz oznacza utratę postępów
 record-abort-submit = Wyślij nagrania
