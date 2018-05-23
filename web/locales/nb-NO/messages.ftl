@@ -146,6 +146,7 @@ faq-title = Ofte stilte spørsmål
 faq-what-q = Hva er Common Voice?
 faq-important-q = Hvorfor er det viktig?
 faq-get-q = Hvordan får jeg tilgang til data fra Common Voice?
+faq-mission-q = Hvorfor er Common Voice en del av oppdraget til Mozilla?
 
 ## Profile
 
