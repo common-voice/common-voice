@@ -81,8 +81,14 @@ back-top = Tilbake til toppen
 ## Home Page
 
 home-cta = Snakk, støtt prosjektet og gjør et bidrag!
+wall-of-text-more-desktop =
+    Nå kan du bidra med stemmen din og hjelpe til med å bygge opp en stemmedatabase med åpen kildekode som alle kan bruke
+    for å lage nyskapende apper, både for datamaskiner, telefoner og nettet.<lineBreak></lineBreak>
+    Les en setning og hjelp maskiner med å forstå hvordan folk snakker. Kontroller bidragene
+    til andre og vær med på å forbedre kvaliteten. Så enkelt er det!
 show-wall-of-text = Les mer
 help-us-title = Hjelp oss med å validere setninger!
+help-us-explain = Trykk på spill av, lytt, og fortell oss om den innspilte setningen var korrekt.
 vote-yes = Ja
 vote-no = Nei
 
