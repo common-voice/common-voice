@@ -286,4 +286,9 @@ language-search-input =
 
 ## New Contribution
 
+action-click = Kliknite
+action-tap = Ťuknite
+listen = Počúvajte
 skip = Preskočiť
+shortcuts = Skratky
+clips = Klipy
