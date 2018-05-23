@@ -72,7 +72,7 @@ datasets = Tagrumma n yisefka
 languages = Tutlayin
 profile = Amaɣnu
 help = Tallelt
-contact = Anermes
+contact = Nermes-aɣ-d
 privacy = Tabaḍnit
 terms = Tiwtilin
 cookies = Inagan n tuqqna
@@ -308,5 +308,12 @@ clips-submitted =
         [one] { $count } n tukkist tettwazen!
        *[other] { $count } n tukkisin ttwaznent!
     }
+record-abort-title = Ad tafkeḍ asekles di tazwara?
+record-abort-text = Ma teffɣeḍ ad tesruḥeḍ ayen teskelseḍ
+record-abort-submit = Azen tukkisin
 record-abort-continue = Fak asekles
+record-abort-delete = Ffeɣ & Kkes tukkisin
+listen-instruction = { $actionType } <playIcon></playIcon> ɣran-d akken iwata tafyirt?
+listen-again-instruction = Igarrez uxeddim! <playIcon></playIcon> Sell-as tikelt-nniḍen ticki theggaḍ
+listen-3rd-time-instruction = 2 d akesser <playIcon></playIcon> , kemmel ar zdat!
 listen-last-time-instruction = <playIcon></playIcon> d aneggaru!
