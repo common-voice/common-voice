@@ -279,10 +279,34 @@ language-search-input =
 ## New Contribution
 
 action-click = Senned
+action-tap = Sit ɣef
 listen = Sel
 skip = Suref
 shortcuts = Inegzumen
+clips = Tukkisin
 goal-type-record = Asekles
 goal-type-validation = Asentem
+toward-goal = D wagi i  d <goalPercentage></goalPercentage>  iswi { $goalType }  n Common Voice  n wass-a ar zdat. Tanemmirt-ik
+contribute-more =
+    { $count ->
+        [one] Theggaḍ i { $count } nniḍen?
+       *[other] Theggaḍ i { $count } nniḍen?
+    }
+record-cta = Bdu asekles
+record-instruction = { $actionType } <recordIcon></recordIcon> sakin ɣer-d tafyirt s cwiṭ n leɛyaḍ
+record-stop-instruction = { $actionType } <stopIcon></stopIcon> ticki yemmed.
+record-three-more-instruction = Rnu ugar n kraḍ !
+record-again-instruction = Ayyuz! <recordIcon></recordIcon> Sekles tukkist i d-iteddun.
+record-again-instruction2 = Kemmel akken, sekles tikelt-nniḍen <recordIcon></recordIcon>
+record-last-instruction = <checkIcon></checkIcon> D aneggaru!
+review-tooltip = Cegger & ales asekles dagi ticki teddiḍ
+unable-speak = Ur izmir ara ad yemmeslay akka tura
+review-instruction = Cegger & ales asekles ma tesriḍ
+record-submit-tooltip = { $actionType } azen ticki theggaḍ
+clips-submitted =
+    { $count ->
+        [one] { $count } n tukkist tettwazen!
+       *[other] { $count } n tukkisin ttwaznent!
+    }
 record-abort-continue = Fak asekles
 listen-last-time-instruction = <playIcon></playIcon> d aneggaru!
