@@ -4,11 +4,11 @@ const contributableLocales = require('../../../locales/contributable.json') as s
 import { trackRecording } from '../services/tracker';
 import StateTree from './tree';
 
-const CACHE_SET_COUNT = 9;
+const CACHE_SET_COUNT = 10;
 const SET_COUNT = 3;
 
 export namespace Recordings {
-  interface Sentence {
+  export interface Sentence {
     id: string;
     text: string;
   }
@@ -41,6 +41,7 @@ export namespace Recordings {
     REFILL_SENTENCES = 'REFILL_SENTENCES',
     BUILD_SENTENCE_SET = 'BUILD_SENTENCE_SET',
     RE_RECORD_SENTENCE = 'RE_RECORD_SENTENCE',
+    REMOVE_SENTENCES = 'REMOVE_SENTENCES',
   }
 
   interface SetRecordingAction extends ReduxAction {
@@ -63,11 +64,17 @@ export namespace Recordings {
     sentenceId: string;
   }
 
+  interface RemoveSentencesAction extends ReduxAction {
+    type: ActionType.REMOVE_SENTENCES;
+    sentences: string[];
+  }
+
   export type Action =
     | SetRecordingAction
     | RefillSentencesAction
     | BuildSentenceSetAction
-    | ReRecordSentenceAction;
+    | ReRecordSentenceAction
+    | RemoveSentencesAction;
 
   export const actions = {
     set: (sentenceId: string, recording?: Recording): SetRecordingAction => ({
@@ -125,6 +132,14 @@ export namespace Recordings {
       type: ActionType.RE_RECORD_SENTENCE,
       sentenceId,
     }),
+
+    removeSentences: (sentences: string[]) => async (
+      dispatch: Dispatch<RemoveSentencesAction | RefillSentencesAction>,
+      getState: () => StateTree
+    ) => {
+      dispatch({ type: ActionType.REMOVE_SENTENCES, sentences });
+      actions.refillSentences()(dispatch, getState);
+    },
   };
 
   export function reducer(

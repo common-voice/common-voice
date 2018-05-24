@@ -1,10 +1,9 @@
-import { Localized } from 'fluent-react';
+import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
 import * as React from 'react';
 import URLS from '../../../urls';
 import { LocaleLink, LocaleNavLink } from '../../locale-helpers';
 import {
   ArrowLeft,
-  MicIcon,
   PlayIcon,
   RedoIcon,
   ShareIcon,
@@ -14,8 +13,7 @@ import {
 import './contribution.css';
 import { Button, TextButton } from '../../ui/ui';
 
-// Without wrapping fluent adds children, which React doesn't like for imgs
-const MicIconWrap = () => <MicIcon />;
+export const SET_COUNT = 5;
 
 const ClipPill = ({
   isOpen,
@@ -51,92 +49,152 @@ const ClipPill = ({
   </div>
 );
 
-export default () => (
-  <div className="contribution-wrapper">
-    <div className="contribution">
-      <div className="top">
-        <LocaleLink to={URLS.ROOT} className="back">
-          <ArrowLeft />
-        </LocaleLink>
+export default withLocalization(
+  ({
+    activeIndex,
+    className,
+    errorContent,
+    getString,
+    Instruction,
+    onSkip,
+    onSubmit,
+    primaryButtons,
+    sentences,
+  }: LocalizationProps & {
+    activeIndex: number;
+    className: string;
+    errorContent?: any;
+    Instruction: React.StatelessComponent<{ $actionType: string }>;
+    onSkip: () => any;
+    onSubmit: () => any;
+    primaryButtons: React.ReactNode;
+    sentences: string[];
+  }) => {
+    const isDisabled = sentences.length === 0;
+    const isDone = activeIndex === -1;
 
-        <div className="links">
-          <Localized id="speak">
-            <LocaleNavLink to={URLS.SPEAK} />
-          </Localized>
-          <Localized id="listen">
-            <LocaleNavLink to={URLS.LISTEN} />
-          </Localized>
-        </div>
+    return (
+      <div className="contribution-wrapper">
+        <div className={'contribution ' + className}>
+          <div className="top">
+            <LocaleLink to={URLS.ROOT} className="back">
+              <ArrowLeft />
+            </LocaleLink>
 
-        <div className="counter">
-          3/5{' '}
-          <Localized id="clips">
-            <span className="text" />
-          </Localized>
-        </div>
-      </div>
+            <div className="links">
+              <Localized id="speak">
+                <LocaleNavLink to={URLS.SPEAK} />
+              </Localized>
+              <Localized id="listen">
+                <LocaleNavLink to={URLS.LISTEN} />
+              </Localized>
+            </div>
 
-      <div className="cards-and-pills">
-        <div />
-
-        <div className="cards">
-          <Localized
-            id="record-instruction"
-            $actionType="Click"
-            recordIcon={<MicIconWrap />}>
-            <div className="instruction hidden-md-down" />
-          </Localized>
-
-          <div className="card">
-            The selfish Welsh wish to sell fish, which smells swell when getting
-            squished.
+            {!errorContent && (
+              <div className="counter">
+                {activeIndex + 1 || SET_COUNT}/{SET_COUNT}{' '}
+                <Localized id="clips">
+                  <span className="text" />
+                </Localized>
+              </div>
+            )}
           </div>
-        </div>
 
-        <div className="pills">
-          {[1, 2, 3, 4, 5].map(n => (
-            <ClipPill
-              key={n}
-              isOpen={false}
-              num={n}
-              status={n < 3 ? 'done' : n === 3 ? 'active' : 'pending'}
-            />
-          ))}
+          {errorContent || (
+            <React.Fragment>
+              <div className="cards-and-pills">
+                <div />
+
+                <div className="cards-and-instruction">
+                  <Instruction $actionType={getString('action-click')}>
+                    <div className="instruction hidden-md-down" />
+                  </Instruction>
+
+                  <div className="cards">
+                    {sentences.map((s, i) => {
+                      const activeSentenceIndex = isDone
+                        ? SET_COUNT - 1
+                        : activeIndex;
+                      const isActive = i === activeSentenceIndex;
+                      return (
+                        <div
+                          key={s}
+                          className={'card ' + (isActive ? '' : 'inactive')}
+                          style={{
+                            transform: [
+                              `scale(${isActive ? 1 : 0.9})`,
+                              `translateX(${(i - activeSentenceIndex) *
+                                -120}%)`,
+                            ].join(' '),
+                            opacity: i < activeSentenceIndex ? 0 : 1,
+                          }}>
+                          {s}
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+
+                <div className="pills">
+                  {sentences.map((s, i) => (
+                    <ClipPill
+                      key={i}
+                      isOpen={false}
+                      num={i + 1}
+                      status={
+                        isDone || i < activeIndex
+                          ? 'done'
+                          : i === activeIndex ? 'active' : 'pending'
+                      }
+                    />
+                  ))}
+                </div>
+              </div>
+
+              <Instruction $actionType={getString('action-tap')}>
+                <div className="instruction hidden-lg-up" />
+              </Instruction>
+
+              <div className="primary-buttons">{primaryButtons}</div>
+
+              <div className="buttons">
+                <div>
+                  <Localized id="shortcuts">
+                    <Button rounded outline className="hidden-md-down" />
+                  </Localized>
+                  <Localized id="unable-speak">
+                    <TextButton />
+                  </Localized>
+                </div>
+                <div>
+                  <Button
+                    rounded
+                    outline
+                    className="skip"
+                    disabled={isDisabled}
+                    onClick={onSkip}>
+                    <Localized id="skip">
+                      <span />
+                    </Localized>{' '}
+                    <SkipIcon />
+                  </Button>
+                  {onSubmit && (
+                    <Localized id="submit-form-action">
+                      <Button
+                        rounded
+                        outline
+                        disabled={!isDone}
+                        className="hidden-md-down"
+                        onClick={onSubmit}
+                      />
+                    </Localized>
+                  )}
+                </div>
+              </div>
+            </React.Fragment>
+          )}
         </div>
       </div>
-
-      <Localized id="record-instruction" $actionType="Tap" recordIcon={null}>
-        <div className="instruction hidden-lg-up" />
-      </Localized>
-
-      <div className="record">
-        <button type="button">
-          <MicIcon />
-        </button>
-        <div className="background" />
-      </div>
-
-      <div className="buttons">
-        <div>
-          <Localized id="shortcuts">
-            <Button rounded outline className="hidden-md-down" />
-          </Localized>
-          <Localized id="unable-speak">
-            <TextButton />
-          </Localized>
-        </div>
-        <div>
-          <Button rounded outline className="skip">
-            <Localized id="skip">
-              <span />
-            </Localized>{' '}
-            <SkipIcon />
-          </Button>
-          <Localized id="submit-form-action">
-            <Button rounded outline disabled className="hidden-md-down" />
-          </Localized>
-        </div>
-      </div>
-    </div>
-  </div>
+    );
+  }
 );

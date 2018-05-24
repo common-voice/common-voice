@@ -42,7 +42,7 @@ export function isNativeIOS(): boolean {
   );
 }
 
-export function isFocus(): boolean {
+export function isFirefoxFocus(): boolean {
   return navigator.userAgent.indexOf('Focus') !== -1;
 }
 

@@ -14,7 +14,7 @@ import store from '../stores/root';
 import URLS from '../urls';
 import {
   isMobileWebkit,
-  isFocus,
+  isFirefoxFocus,
   isNativeIOS,
   sleep,
   isProduction,
@@ -30,7 +30,7 @@ import API from '../services/api';
 import { Locale } from '../stores/locale';
 import StateTree from '../stores/tree';
 import Layout from './layout/layout';
-import ContributionPage from './pages/contribution/contribution';
+import SpeakPage from './pages/contribution/speak';
 import { localeConnector, LocalePropsFromState } from './locale-helpers';
 
 const LOAD_TIMEOUT = 5000; // we can only wait so long.
@@ -141,12 +141,12 @@ const LocalizedLayout = withRouter(
                   <Route
                     exact
                     path={toLocaleRoute(URLS.SPEAK)}
-                    component={ContributionPage}
+                    component={SpeakPage}
                   />
                   <Route
                     exact
                     path={toLocaleRoute(URLS.LISTEN)}
-                    component={ContributionPage}
+                    component={SpeakPage}
                   />
                   <Layout />
                 </Switch>
@@ -183,7 +183,7 @@ class App extends React.Component<{}, State> {
       this.bootstrapIOS();
     }
 
-    if (isFocus()) {
+    if (isFirefoxFocus()) {
       document.body.classList.add('focus');
     }
 

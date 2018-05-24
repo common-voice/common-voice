@@ -92,6 +92,8 @@ export const SkipIcon = (props: any) => (
   </svg>
 );
 
+export const StopIcon = Icon('/img/stop.svg', 'stop');
+
 export const SuccessIcon = Icon('/img/success.svg', 'success');
 
 export const SupportIcon = Icon('/img/support.svg', 'support');

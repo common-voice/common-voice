@@ -4,6 +4,10 @@
     --pill-width: 223px;
 }
 
+.contribution-wrapper {
+    overflow: hidden;
+}
+
 .contribution-wrapper, .contribution {
     background-image: linear-gradient(to top, var(--white), var(--desert-storm));
 }
@@ -13,7 +17,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    overflow: auto;
+    overflow-x: hidden;
     margin: 0 auto;
     padding: 10px 20px;
     max-width: var(--desktop-width);
@@ -25,6 +29,7 @@
         position: initial;
         justify-content: initial;
         padding-top: 20px;
+        overflow: visible;
     }
 
     & .top {
@@ -106,9 +111,14 @@
         }
 
         & img {
+            display: none;
             margin: 0 10px;
             width: 24px;
             height: 24px;
+
+            @media (--lg-up) {
+                display: initial;
+            }
         }
     }
 
@@ -131,7 +141,7 @@
         }
     }
 
-    & .cards {
+    & .cards-and-instruction {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -141,16 +151,33 @@
 
         @media (--lg-up) {
             margin-top: 0;
+            width: 100%;
+            max-width: 60%;
+        }
+
+        & .cards {
+            position: relative;
+            max-width: 700px;
+            height: 223px;
+            width: 100%;
+
+            @media (--lg-up) {
+                height: 45vh;
+                max-height: 429px;
+            }
         }
 
         & .card {
+            position: absolute;
+            left: 0;
+
             display: flex;
             align-items: center;
             justify-content: center;
 
-            max-width: 700px;
             width: 100%;
-            height: 223px;
+            height: 100%;
+
             padding: 0 20px;
             box-sizing: border-box;
 
@@ -162,14 +189,22 @@
             box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.05);
             overflow: auto;
 
+            opacity: 1;
+            transition: transform var(--transition-duration-slow) var(--easing),
+                        filter var(--transition-duration-slow) cubic-bezier(0.19, 1, 0.22, 1),
+                        opacity var(--transition-duration-slow), var(--easing);
+
             @media (--lg-up) {
-                height: 46vh;
-                max-height: 429px;
-                padding: 0 105px;
+                padding: 0 100px;
                 font-size: 32px;
                 font-weight: normal;
                 letter-spacing: 1.3px;
                 line-height: 1.63;
+            }
+
+            &.inactive {
+                opacity: 0.5;
+                filter: blur(5px);
             }
         }
     }
@@ -301,55 +336,13 @@
         }
     }
 
-    & .record {
-        margin-top: 23px;
-
-        position: relative;
+    & .primary-buttons {
         display: flex;
         justify-content: center;
-        align-items: center;
+        margin-top: 23px;
 
         @media (--lg-up) {
             margin-top: 12vh;
-        }
-
-        & .background {
-            position: absolute;
-            margin: 0 auto;
-            border-radius: 50%;
-            width: 80px;
-            height: 80px;
-            opacity: 0.5;
-            -webkit-filter: blur(7.6px);
-            filter: blur(7.6px);
-            background-image: linear-gradient(to left, #88d1f1, #b1b5e5);
-
-            @media (--lg-up) {
-                width: 109px;
-                height: 109px;
-            }
-        }
-
-        & button {
-            z-index: var(--top-z-index);
-            border: none;
-            border-radius: 50%;
-            width: 65px;
-            height: 65px;
-            background: var(--white);
-
-            @media (--lg-up) {
-                width: 88px;
-                height: 88px;
-            }
-
-            & img {
-                height: 24px;
-
-                @media (--lg-up) {
-                    height: 28px;
-                }
-            }
         }
     }
 
@@ -360,7 +353,7 @@
         justify-content: space-between;
 
         @media (--lg-up) {
-            margin-top: 4vh;
+            margin-top: 3.5vh;
         }
 
         & > * {
@@ -374,6 +367,7 @@
         }
 
         & .text-button {
+            font-size: 12px;
             text-decoration: underline;
             font-weight: 600;
         }

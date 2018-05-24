@@ -7,7 +7,7 @@ import API from '../../../services/api';
 import { trackRecording } from '../../../services/tracker';
 import { Recordings } from '../../../stores/recordings';
 import StateTree from '../../../stores/tree';
-import { getItunesURL, isFocus, isNativeIOS } from '../../../utility';
+import { getItunesURL, isFirefoxFocus, isNativeIOS } from '../../../utility';
 import Alert from '../../alert/alert';
 import Modal from '../../modal/modal';
 import { FontIcon, RecordIcon } from '../../ui/icons';
@@ -116,7 +116,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
     if (
       !this.audio.isMicrophoneSupported() ||
       !this.audio.isAudioRecordingSupported() ||
-      isFocus()
+      isFirefoxFocus()
     ) {
       this.isUnsupportedPlatform = true;
       return;
