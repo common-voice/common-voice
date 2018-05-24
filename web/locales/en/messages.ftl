@@ -288,7 +288,7 @@ contribute-more =
        *[other] Ready to do { $count } more?
     }
 record-cta = Start recording
-record-instruction = { $actionType } <recordIcon></recordIcon> then read the sentence aloud
+record-instruction = { $actionType } <recordIcon></recordIcon>then read the sentence aloud
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> when done
 record-three-more-instruction = Three to go!
 record-again-instruction = Great! <recordIcon></recordIcon> Record your next clip

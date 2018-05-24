@@ -1,6 +1,8 @@
 export default Object.freeze({
   ROOT: '',
   RECORD: '/record',
+  SPEAK: '/speak',
+  LISTEN: '/listen',
   PROFILE: '/profile',
   DATA: '/data',
   FAQ: '/faq',

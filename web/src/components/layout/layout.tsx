@@ -16,7 +16,7 @@ import {
   isSafari,
   replacePathLocale,
 } from '../../utility';
-import { MenuIcon, RecordIcon, PlayIcon } from '../ui/icons';
+import { MenuIcon, RecordIcon, OldPlayIcon } from '../ui/icons';
 import { LabeledSelect } from '../ui/ui';
 import Content from './content';
 import Footer from './footer';
@@ -370,7 +370,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
         </div>
         <div className="divider" />
         <div className="validate-tally">
-          <PlayIcon className="icon" />
+          <OldPlayIcon className="icon" />
           {user.validateTally}
         </div>
       </div>

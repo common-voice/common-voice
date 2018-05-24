@@ -30,6 +30,8 @@ import API from '../services/api';
 import { Locale } from '../stores/locale';
 import StateTree from '../stores/tree';
 import Layout from './layout/layout';
+import ContributionPage from './pages/contribution/contribution';
+import { localeConnector, LocalePropsFromState } from './locale-helpers';
 
 const LOAD_TIMEOUT = 5000; // we can only wait so long.
 
@@ -66,6 +68,7 @@ interface PropsFromDispatch {
 interface LocalizedPagesProps
   extends PropsFromState,
     PropsFromDispatch,
+    LocalePropsFromState,
     RouteComponentProps<any> {
   userLocales: string[];
 }
@@ -75,69 +78,84 @@ interface LocalizedPagesState {
 }
 
 const LocalizedLayout = withRouter(
-  connect<PropsFromState, PropsFromDispatch>(
-    ({ api }: StateTree) => ({
-      api,
-    }),
-    { setLocale: Locale.actions.set }
-  )(
-    class extends React.Component<LocalizedPagesProps, LocalizedPagesState> {
-      state: LocalizedPagesState = {
-        messagesGenerator: null,
-      };
-
-      async componentDidMount() {
-        await this.prepareMessagesGenerator(this.props);
-      }
-
-      async componentWillReceiveProps(nextProps: LocalizedPagesProps) {
-        if (
-          nextProps.userLocales.find(
-            (locale, i) => locale !== this.props.userLocales[i]
-          )
-        ) {
-          await this.prepareMessagesGenerator(nextProps);
-        }
-      }
-
-      async prepareMessagesGenerator({
+  localeConnector(
+    connect<PropsFromState, PropsFromDispatch>(
+      ({ api }: StateTree) => ({
         api,
-        history,
-        userLocales,
-      }: LocalizedPagesProps) {
-        const [mainLocale] = userLocales;
-        const pathname = history.location.pathname;
+      }),
+      { setLocale: Locale.actions.set }
+    )(
+      class extends React.Component<LocalizedPagesProps, LocalizedPagesState> {
+        state: LocalizedPagesState = {
+          messagesGenerator: null,
+        };
 
-        // Since we make no distinction between "en-US", "en-UK",... we redirect them all to "en"
-        if (mainLocale.startsWith('en-')) {
-          this.props.setLocale('en');
-          history.replace(replacePathLocale(pathname, 'en'));
-          return;
+        async componentDidMount() {
+          await this.prepareMessagesGenerator(this.props);
         }
 
-        if (!LOCALES.includes(mainLocale)) {
-          this.props.setLocale(DEFAULT_LOCALE);
-          history.replace(replacePathLocale(pathname, DEFAULT_LOCALE));
-        } else {
-          this.props.setLocale(userLocales[0]);
+        async componentWillReceiveProps(nextProps: LocalizedPagesProps) {
+          if (
+            nextProps.userLocales.find(
+              (locale, i) => locale !== this.props.userLocales[i]
+            )
+          ) {
+            await this.prepareMessagesGenerator(nextProps);
+          }
         }
 
-        this.setState({
-          messagesGenerator: await createMessagesGenerator(api, userLocales),
-        });
-      }
+        async prepareMessagesGenerator({
+          api,
+          history,
+          userLocales,
+        }: LocalizedPagesProps) {
+          const [mainLocale] = userLocales;
+          const pathname = history.location.pathname;
 
-      render() {
-        const { messagesGenerator } = this.state;
-        return (
-          messagesGenerator && (
-            <LocalizationProvider messages={messagesGenerator}>
-              <Layout />
-            </LocalizationProvider>
-          )
-        );
+          // Since we make no distinction between "en-US", "en-UK",... we redirect them all to "en"
+          if (mainLocale.startsWith('en-')) {
+            this.props.setLocale('en');
+            history.replace(replacePathLocale(pathname, 'en'));
+            return;
+          }
+
+          if (!LOCALES.includes(mainLocale)) {
+            this.props.setLocale(DEFAULT_LOCALE);
+            history.replace(replacePathLocale(pathname, DEFAULT_LOCALE));
+          } else {
+            this.props.setLocale(userLocales[0]);
+          }
+
+          this.setState({
+            messagesGenerator: await createMessagesGenerator(api, userLocales),
+          });
+        }
+
+        render() {
+          const { messagesGenerator } = this.state;
+          const { toLocaleRoute } = this.props;
+          return (
+            messagesGenerator && (
+              <LocalizationProvider messages={messagesGenerator}>
+                <Switch>
+                  <Route
+                    exact
+                    path={toLocaleRoute(URLS.SPEAK)}
+                    component={ContributionPage}
+                  />
+                  <Route
+                    exact
+                    path={toLocaleRoute(URLS.LISTEN)}
+                    component={ContributionPage}
+                  />
+                  <Layout />
+                </Switch>
+              </LocalizationProvider>
+            )
+          );
+        }
       }
-    }
+    )
   )
 );
 

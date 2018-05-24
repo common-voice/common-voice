@@ -1,7 +1,7 @@
 import { LocalizationProps, withLocalization } from 'fluent-react';
 import * as React from 'react';
 import { trackListening } from '../../services/tracker';
-import { FontIcon, PlayIcon, RedoIcon } from '../ui/icons';
+import { FontIcon, OldPlayIcon, OldRedoIcon } from '../ui/icons';
 
 const VOTE_NO_PLAY_MS = 3000; // Threshold when to allow voting no
 
@@ -197,7 +197,7 @@ class ListenBox extends React.Component<Props, State> {
           onClick={this.onPlay}
           className="play-box"
           title={shortcutsEnabled ? getString('toggle-play-tooltip') : ''}>
-          {playing ? <FontIcon type="stop" /> : <PlayIcon />}
+          {playing ? <FontIcon type="stop" /> : <OldPlayIcon />}
         </button>
         {vote ? (
           <div className="vote-box">
@@ -216,7 +216,7 @@ class ListenBox extends React.Component<Props, State> {
           </div>
         ) : (
           <button className="delete-box" onClick={this.onDelete}>
-            <RedoIcon />
+            <OldRedoIcon />
           </button>
         )}
         <audio

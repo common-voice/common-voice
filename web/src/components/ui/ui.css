@@ -31,6 +31,10 @@
     &.rounded {
         border-radius: 50px;
     }
+
+    & path {
+        transition: all var(--transition-duration) linear;
+    }
 }
 
 body:not(.mobile-safari) .button:hover,

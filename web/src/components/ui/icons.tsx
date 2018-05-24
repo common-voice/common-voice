@@ -1,6 +1,10 @@
 import * as React from 'react';
 
-const Icon = (path: string) => (props: any) => <img src={path} {...props} />;
+const Icon = (path: string, title = '') => (props: any) => (
+  <img src={path} title={title} {...props} />
+);
+
+export const ArrowLeft = Icon('/img/arrow-left.svg');
 
 export const CloseIcon = ({ black, ...props }: any) => {
   const RealIcon = Icon(`/img/close${black ? '-black' : ''}.svg`);
@@ -33,7 +37,9 @@ export const MenuIcon = ({ className = '', ...props }: any) => (
   </svg>
 );
 
-export const PlayIcon = (props: any) => (
+export const MicIcon = Icon('/img/mic.svg', 'record');
+
+export const OldPlayIcon = (props: any) => (
   <svg viewBox="0 0 13 15" {...props}>
     <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
       <g id="icon-/-play" fill="#B7D43F">
@@ -46,7 +52,7 @@ export const PlayIcon = (props: any) => (
   </svg>
 );
 
-export const RedoIcon = (props: any) => (
+export const OldRedoIcon = (props: any) => (
   <svg>
     <g strokeWidth="1" fill="none" fillRule="evenodd">
       <g fill="#000000">
@@ -56,13 +62,39 @@ export const RedoIcon = (props: any) => (
   </svg>
 );
 
-export const RecordIcon = Icon('/img/record.svg');
+export const PlayIcon = Icon('/img/play.svg', 'play');
 
-export const SearchIcon = Icon('/img/search.svg');
+export const RedoIcon = Icon('/img/redo.svg', 'redo');
 
-export const SuccessIcon = Icon('/img/success.svg');
+export const RecordIcon = Icon('/img/record.svg', 'record');
 
-export const SupportIcon = Icon('/img/support.svg');
+export const SearchIcon = Icon('/img/search.svg', 'search');
+
+export const ShareIcon = Icon('/img/share.svg', 'share');
+
+export const SkipIcon = (props: any) => (
+  <svg width="22" height="22" viewBox="0 0 22 22">
+    <defs>
+      <path
+        id="a"
+        d="M12.558 6.142l-4.583 4.583a.832.832 0 0 1-.642.275.832.832 0 0 1-.641-.275.886.886 0 0 1 0-1.283L10.633 5.5 6.692 1.558a.886.886 0 0 1 0-1.283.886.886 0 0 1 1.283 0l4.583 4.583a.886.886 0 0 1 0 1.284zM6.142 4.858L1.558.275a.886.886 0 0 0-1.283 0 .886.886 0 0 0 0 1.283L4.217 5.5.275 9.442a.886.886 0 0 0 0 1.283.832.832 0 0 0 .642.275.832.832 0 0 0 .641-.275l4.584-4.583a.886.886 0 0 0 0-1.284z"
+      />
+    </defs>
+    <g fill="none" fillRule="evenodd" transform="translate(4.583 5.5)">
+      <mask id="b" fill="#fff">
+        <use xlinkHref="#a" />
+      </mask>
+      <use fill="#000" fillRule="nonzero" xlinkHref="#a" />
+      <g fill="#000" mask="url(#b)">
+        <path d="M-4.583-5.5h22v22h-22z" />
+      </g>
+    </g>
+  </svg>
+);
+
+export const SuccessIcon = Icon('/img/success.svg', 'success');
+
+export const SupportIcon = Icon('/img/support.svg', 'support');
 
 const FONT_ICONS = {
   chrome: '',
