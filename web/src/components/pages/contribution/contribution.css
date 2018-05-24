@@ -307,21 +307,31 @@
             position: absolute;
             margin: 0 auto;
             border-radius: 50%;
-            width: 109px;
-            height: 109px;
+            width: 80px;
+            height: 80px;
             opacity: 0.5;
             -webkit-filter: blur(7.6px);
             filter: blur(7.6px);
             background-image: linear-gradient(to left, #88d1f1, #b1b5e5);
+
+            @media (--lg-up) {
+                width: 109px;
+                height: 109px;
+            }
         }
 
         & button {
             z-index: var(--top-z-index);
             border: none;
             border-radius: 50%;
-            width: 88px;
-            height: 88px;
+            width: 65px;
+            height: 65px;
             background: var(--white);
+
+            @media (--lg-up) {
+                width: 88px;
+                height: 88px;
+            }
         }
     }
 
@@ -339,7 +349,9 @@
             display: flex;
 
             & > :first-child {
-                margin-right: 20px;
+                @media (--lg-up) {
+                    margin-right: 20px;
+                }
             }
         }
 
@@ -351,6 +363,7 @@
         & .button {
             &.outline {
                 border: none;
+                padding: 0;
                 min-width: auto;
                 text-transform: uppercase;
 
