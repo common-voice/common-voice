@@ -34,10 +34,12 @@ hu = Húngaro
 id = Indonésio
 it = Italiano
 ka = Georgiano
+kab = Kabyle
 ko = Coreano
 kw = Córnico
 mk = Macedônio
 nb-NO = Norueguês (Bokmål)
+ne-NP = Nepalês
 nl = Holandês
 nn-NO = Novo norueguês
 or = Odia
@@ -46,7 +48,9 @@ pt-BR = Português (Brasil)
 ro = Romeno
 ru = Russo
 sk = Eslovaco
+sl = Esloveno
 sq = Albanês
+sr = Sérvio
 sv-SE = Sueco
 ta = Tâmil
 te = Telugo
@@ -259,6 +263,8 @@ languages-show-more = Veja mais
 languages-show-less = Ver menos
 language-speakers = Falantes
 language-total-progress = Total
+language-search-input =
+    .placeholder = Pesquisar
 
 ## New Contribution
 
