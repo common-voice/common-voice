@@ -4,17 +4,26 @@
     --pill-width: 223px;
 }
 
-.contribution-wrapper {
+.contribution-wrapper, .contribution {
     background-image: linear-gradient(to top, var(--white), var(--desert-storm));
 }
 
 .contribution {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 10px 20px;
     max-width: var(--desktop-width);
     height: 100%;
-    margin: 0 auto;
-    padding: 10px 20px 0;
+    width: 100%;
+    box-sizing: border-box;
 
     @media (--lg-up) {
+        position: initial;
+        justify-content: initial;
         padding-top: 20px;
     }
 
@@ -92,7 +101,7 @@
         font-style: italic;
 
         @media (--lg-up) {
-            margin-top: 40px;
+            margin-top: 4vh;
             margin-bottom: 20px;
         }
 
@@ -139,7 +148,7 @@
             align-items: center;
             justify-content: center;
 
-            max-width: 713px;
+            max-width: 700px;
             width: 100%;
             height: 223px;
             padding: 0 20px;
@@ -154,7 +163,8 @@
             overflow: auto;
 
             @media (--lg-up) {
-                height: 429px;
+                height: 46vh;
+                max-height: 429px;
                 padding: 0 105px;
                 font-size: 32px;
                 font-weight: normal;
@@ -232,7 +242,7 @@
                 display: none !important;
 
                 @media (--lg-up) {
-                    display: initial !important;
+                    display: flex !important;
                 }
             }
 
@@ -300,7 +310,7 @@
         align-items: center;
 
         @media (--lg-up) {
-            margin-top: 114px;
+            margin-top: 12vh;
         }
 
         & .background {
@@ -332,6 +342,14 @@
                 width: 88px;
                 height: 88px;
             }
+
+            & img {
+                height: 24px;
+
+                @media (--lg-up) {
+                    height: 28px;
+                }
+            }
         }
     }
 
@@ -342,7 +360,7 @@
         justify-content: space-between;
 
         @media (--lg-up) {
-            margin-top: 40px;
+            margin-top: 4vh;
         }
 
         & > * {

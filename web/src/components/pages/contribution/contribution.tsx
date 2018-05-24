@@ -35,13 +35,13 @@ const ClipPill = ({
       )}
       {status === 'done' && (
         <React.Fragment>
-          <button key="play" type="button">
+          <button type="button">
             <PlayIcon />
           </button>
-          <button key="redo" type="button">
+          <button type="button">
             <RedoIcon />
           </button>
-          <button key="share" type="button">
+          <button type="button">
             <ShareIcon />
           </button>
         </React.Fragment>
@@ -96,6 +96,7 @@ export default () => (
         <div className="pills">
           {[1, 2, 3, 4, 5].map(n => (
             <ClipPill
+              key={n}
               isOpen={false}
               num={n}
               status={n < 3 ? 'done' : n === 3 ? 'active' : 'pending'}
