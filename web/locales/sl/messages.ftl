@@ -94,6 +94,13 @@ request-language-button = Predlagaj jezik
 
 status-title = Stanje projekta: oglejte si, kako daleč smo že prišli!
 status-contribute = Prispevaj svoj glas
+status-hours =
+    { $hours ->
+        [one] { $hours } preverjena ura do zdaj!
+        [two] { $hours } preverjeni uri do zdaj!
+        [few] { $hours } preverjene ure do zdaj!
+       *[other] { $hours } preverjenih ur do zdaj!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Naslednji cilj: { $goal }
