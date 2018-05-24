@@ -260,4 +260,15 @@ goal-type-record = kaydediyor
 goal-type-validation = doğrulama
 record-cta = Kaydetmeye başla
 record-stop-instruction = Bitirince { $actionType } <stopIcon></stopIcon>
+record-three-more-instruction = Üç tane kaldı!
+clips-submitted =
+    { $count ->
+        [one] { $count } klip gönderildi!
+       *[other] { $count } klip gönderildi!
+    }
+record-abort-title = Önce kayıt bitirilsin mi?
 record-abort-text = Şimdi çıkarsanız yaptıklarınız kaydedilmeyecek
+record-abort-submit = Klipleri gönder
+record-abort-continue = Kaydı bitir
+record-abort-delete = Klipleri sil ve çık
+listen-last-time-instruction = <playIcon></playIcon> Son bir tane!
