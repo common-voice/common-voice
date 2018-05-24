@@ -1,6 +1,7 @@
 ## General
 
 yes-receive-emails = Evet, bana e-posta gönderebilirsiniz. Common Voice projesiyle ilgili gelişmeleri öğrenmek istiyorum.
+stayintouch = Mozilla’da ses teknolojileriyle ilgilenen bir topluluk oluşturuyoruz. Yeni duyuruları ve yeni veri kaynaklarını size de ulaştırmak, ayrıca bu verileri nasıl kullandığınızı öğrenmek isteriz.
 privacy-info = Bilgilerinizi özenle koruyacağımıza söz veriyoruz. <privacyLink>Gizlilik Bildirimimizde</privacyLink> daha fazla bilgi bulabilirsiniz.
 return-to-cv = Common Voice’a geri dön
 email-input =
@@ -25,10 +26,9 @@ de = Almanca
 el = Yunanca
 en = İngilizce
 es = İspanyolca
-es-AR = İspanyolca (Arjantin)
-es-CL = İspanyolca (Şili)
 fr = Fransızca
 fy-NL = Frizce
+ga-IE = İrlandaca
 he = İbranice
 hu = Macarca
 id = Endonezce
@@ -42,8 +42,10 @@ nn-NO = Norveççe (Nynorsk)
 or = Odia
 pl = Lehçe
 pt-BR = Portekizce (Brezilya)
+ro = Rumence
 ru = Rusça
 sk = Slovakça
+sl = Slovakça
 sq = Arnavutça
 sr = Sırpça
 sv-SE = İsveççe
@@ -87,6 +89,7 @@ help-us-title = Cümleleri doğrulamamıza yardım et!
 help-us-explain = Oynatma tuşuna basıp dinleyin: Konuşmacı, aşağıdaki cümleyi doğru şekilde okumuş mu?
 vote-yes = Evet
 vote-no = Hayır
+toggle-play-tooltip = Oynatma modunu açıp kapatmak için { shortcut-play-toggle } tuşuna basın
 
 ## Shortcuts
 
@@ -244,3 +247,17 @@ language-speakers = Konuşmacı
 language-total-progress = Toplam
 language-search-input =
     .placeholder = Ara
+
+## New Contribution
+
+action-click = tıklayın
+action-tap = dokunun
+listen = Dinle
+skip = Atla
+shortcuts = Kısayollar
+clips = Klipler
+goal-type-record = kaydediyor
+goal-type-validation = doğrulama
+record-cta = Kaydetmeye başla
+record-stop-instruction = Bitirince { $actionType } <stopIcon></stopIcon>
+record-abort-text = Şimdi çıkarsanız yaptıklarınız kaydedilmeyecek
