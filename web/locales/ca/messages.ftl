@@ -26,8 +26,6 @@ de = alemany
 el = grec
 en = anglès
 es = espanyol
-es-AR = espanyol (Argentina)
-es-CL = espanyol (Xile)
 fr = francès
 fy-NL = frisó
 ga-IE = irlandès
@@ -36,6 +34,7 @@ hu = hongarès
 id = indonesi
 it = italià
 ka = georgià
+kab = cabilenc
 ko = coreà
 kw = còrnic
 mk = macedònic
@@ -49,6 +48,7 @@ pt-BR = portuguès (Brasil)
 ro = romanès
 ru = rus
 sk = eslovac
+sl = eslovè
 sq = albanès
 sr = serbi
 sv-SE = suec
@@ -275,3 +275,19 @@ language-speakers = Parlants
 language-total-progress = Total
 language-search-input =
     .placeholder = Cerca
+
+## New Contribution
+
+skip = Omet
+shortcuts = Dreceres
+contribute-more =
+    { $count ->
+        [one] Preparat per fer-ne { $count } més?
+       *[other] Preparat per fer-ne { $count } més?
+    }
+record-three-more-instruction = Només en falten tres!
+clips-submitted =
+    { $count ->
+        [one] S'ha enviat { $count } enregistrament!
+       *[other] S'han enviat { $count } enregistraments!
+    }
