@@ -55,8 +55,8 @@ class ContributionPage extends React.Component<Props, State> {
     } = this.props;
     const { selectedPill } = this.state;
 
-    const isDisabled = sentences.length === 0;
-    const isDone = activeIndex === -1;
+    const isLoaded = sentences.length > 0;
+    const isDone = isLoaded && activeIndex === -1;
 
     return (
       <div
@@ -169,7 +169,7 @@ class ContributionPage extends React.Component<Props, State> {
                     rounded
                     outline
                     className="skip"
-                    disabled={isDisabled}
+                    disabled={!isLoaded}
                     onClick={onSkip}>
                     <Localized id="skip">
                       <span />

@@ -27,10 +27,10 @@ import RecordingPill from './recording-pill';
 
 import './speak.css';
 
+const RECORD_DEBOUNCE_MS = 300;
 const MIN_RECORDING_MS = 300;
 const MAX_RECORDING_MS = 10000;
 const MIN_VOLUME = 1;
-const RECORD_DEBOUNCE_MS = 300;
 
 enum RecordingError {
   TOO_SHORT = 1,
@@ -81,9 +81,10 @@ interface PropsFromDispatch {
 interface Props extends PropsFromState, PropsFromDispatch {}
 
 interface State {
+  clips: (Recordings.SentenceRecording)[];
   isRecording: boolean;
   recordingError?: RecordingError;
-  clips: (Recordings.SentenceRecording)[];
+  rerecordIndex?: number;
 }
 
 class SpeakPage extends React.Component<Props, State> {
@@ -91,6 +92,7 @@ class SpeakPage extends React.Component<Props, State> {
     isRecording: false,
     recordingError: null,
     clips: [],
+    rerecordIndex: null,
   };
 
   audio: AudioWeb | AudioIOS;
@@ -133,7 +135,10 @@ class SpeakPage extends React.Component<Props, State> {
   }
 
   private getRecordingIndex() {
-    return this.state.clips.findIndex(({ recording }) => !recording);
+    const { rerecordIndex } = this.state;
+    return rerecordIndex === null
+      ? this.state.clips.findIndex(({ recording }) => !recording)
+      : rerecordIndex;
   }
 
   private releaseMicrophone = () => {
@@ -142,7 +147,7 @@ class SpeakPage extends React.Component<Props, State> {
     }
 
     if (this.state.isRecording) {
-      this.stopRecording();
+      this.saveRecording();
     }
     this.audio.release();
   };
@@ -155,11 +160,11 @@ class SpeakPage extends React.Component<Props, State> {
 
     const { clips } = this.state;
     this.setState({
-      // this.props.reRecordSentenceId
       clips: clips.map(({ recording, sentence }, i) => ({
         recording: i === this.getRecordingIndex() ? info : recording,
         sentence,
       })),
+      rerecordIndex: null,
     });
 
     setTimeout(() => {
@@ -193,32 +198,19 @@ class SpeakPage extends React.Component<Props, State> {
     }
   };
 
-  // private rerecord = async () => {
-  //   const { recordingsCount, sentenceRecordings } = this.props;
-  //
-  //   if (recordingsCount < 1) {
-  //     console.error('cannot undo, no recordings');
-  //     return;
-  //   }
-  //
-  //   // If user was recording when going back, make sure to throw
-  //   // out this new recording too.
-  //   if (this.state.isRecording) {
-  //     this.stopRecordingHard();
-  //   }
-  //
-  //   this.props.setRecording(
-  //     Object.keys(sentenceRecordings)[recordingsCount - 1],
-  //     null
-  //   );
-  //   this.setState({
-  //     showSubmitSuccess: false,
-  //   });
-  // };
+  private rerecord = async (i: number) => {
+    if (this.state.isRecording) {
+      await this.discardRecording();
+    }
+
+    this.setState({
+      rerecordIndex: i,
+    });
+  };
 
   private handleRecordClick = debounce(async () => {
     if (this.state.isRecording) {
-      this.stopRecording();
+      this.saveRecording();
       return;
     }
 
@@ -246,7 +238,7 @@ class SpeakPage extends React.Component<Props, State> {
     });
   };
 
-  private stopRecording = () => {
+  private saveRecording = () => {
     this.audio.stop().then(this.processRecording);
     this.recordingStopTime = Date.now();
     this.setState({
@@ -254,15 +246,9 @@ class SpeakPage extends React.Component<Props, State> {
     });
   };
 
-  private stopRecordingHard = async () => {
+  private discardRecording = async () => {
     await this.audio.stop();
     this.setState({ isRecording: false });
-  };
-
-  private closeSubmitSuccess = () => {
-    this.setState({
-      // showSubmitSuccess: false,
-    });
   };
 
   private clearRecordingError = () => {
@@ -270,7 +256,7 @@ class SpeakPage extends React.Component<Props, State> {
   };
 
   private cancelReRecord = async () => {
-    await this.stopRecordingHard();
+    await this.discardRecording();
   };
 
   private handleSkip = () => {};
@@ -339,6 +325,7 @@ class SpeakPage extends React.Component<Props, State> {
                 ? 'active'
                 : clip.recording ? 'done' : 'pending'
             }
+            onRerecord={() => this.rerecord(i)}
           />
         ))}
         sentences={clips.map(({ sentence: { text } }) => text)}

@@ -9,6 +9,7 @@ import './recording-pill.css';
 
 interface Props extends ContributionPillProps {
   clip: Recordings.SentenceRecording;
+  onRerecord: () => any;
   status: PillStatus;
 }
 
@@ -34,7 +35,7 @@ export default class RecordingPill extends React.Component<Props, State> {
   };
 
   render() {
-    const { clip, status, ...props } = this.props;
+    const { clip, onRerecord, status, ...props } = this.props;
     return (
       <Pill {...props} className="recording" status={status}>
         {status === 'active' && (
@@ -60,7 +61,7 @@ export default class RecordingPill extends React.Component<Props, State> {
                 <button type="button" onClick={this.toggleIsPlaying}>
                   <PlayIcon />
                 </button>
-                <button type="button">
+                <button type="button" onClick={onRerecord}>
                   <RedoIcon />
                 </button>
                 <button type="button">

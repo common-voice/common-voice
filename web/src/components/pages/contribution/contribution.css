@@ -186,9 +186,7 @@
             overflow: auto;
 
             opacity: 1;
-            transition: transform var(--transition-duration-slow) var(--easing),
-                        filter var(--transition-duration-slow) cubic-bezier(0.19, 1, 0.22, 1),
-                        opacity var(--transition-duration-slow), var(--easing);
+            transition: all var(--transition-duration-slow) var(--easing);
 
             @media (--md-up) {
                 padding: 0 25px;
@@ -293,7 +291,8 @@
             }
 
             &:disabled {
-                color: var(--black);
+                color: var(--warm-grey);
+                opacity: 1;
                 background: var(--desert-storm);
             }
         }
