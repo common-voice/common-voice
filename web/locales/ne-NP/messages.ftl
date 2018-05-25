@@ -286,6 +286,7 @@ shortcuts = छोटकरिहरु
 clips = क्लिपहरू
 goal-type-record = रेकर्ड गरिँदैछ
 goal-type-validation = वैधानिकता
+toward-goal = अाजको Common Voice को { $goalType } लक्ष्य तर्फ <goalPercentage></goalPercentage> भयो । धन्यबाद
 contribute-more = { $count } थप गर्न तयार हुनुहुन्छ ?
 record-cta = रेकर्डिङ सुरू गर्नुहोस्
 record-instruction = { $actionType }<recordIcon></recordIcon>अनि यस वाक्यलाई ठूलो आवाजमा पढ्नुहोस् ।
