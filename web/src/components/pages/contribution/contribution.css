@@ -256,10 +256,12 @@
             }
         }
 
-        & .text-button {
+        & .extra-button {
+            display: flex;
+            align-items: center;
             font-size: 12px;
             text-decoration: underline;
-            font-weight: 600;
+            font-weight: 600 !important;
         }
 
         & .button {

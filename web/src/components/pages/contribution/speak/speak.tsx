@@ -8,13 +8,9 @@ import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
 import API from '../../../../services/api';
 import { trackRecording } from '../../../../services/tracker';
-import {
-  FontIcon,
-  MicIcon,
-  PlayIcon,
-  RedoIcon,
-  ShareIcon,
-} from '../../../ui/icons';
+import URLS from '../../../../urls';
+import { LocaleLink } from '../../../locale-helpers';
+import { FontIcon, MicIcon } from '../../../ui/icons';
 import { getItunesURL, isFirefoxFocus, isNativeIOS } from '../../../../utility';
 import AudioIOS from '../../record/audio-ios';
 import AudioWeb, { AudioInfo } from '../../record/audio-web';
@@ -26,6 +22,7 @@ import { RecordButton, StopButton } from '../primary-buttons';
 import RecordingPill from './recording-pill';
 
 import './speak.css';
+import { TextButton } from '../../../ui/ui';
 
 const RECORD_DEBOUNCE_MS = 300;
 const MIN_RECORDING_MS = 300;
@@ -199,9 +196,7 @@ class SpeakPage extends React.Component<Props, State> {
   };
 
   private rerecord = async (i: number) => {
-    if (this.state.isRecording) {
-      await this.discardRecording();
-    }
+    await this.discardRecording();
 
     this.setState({
       rerecordIndex: i,
@@ -247,16 +242,14 @@ class SpeakPage extends React.Component<Props, State> {
   };
 
   private discardRecording = async () => {
+    if (!this.state.isRecording) return;
     await this.audio.stop();
     this.setState({ isRecording: false });
   };
 
-  private clearRecordingError = () => {
-    this.setState({ recordingError: null });
-  };
-
   private cancelReRecord = async () => {
     await this.discardRecording();
+    this.setState({ rerecordIndex: null });
   };
 
   private handleSkip = () => {};
@@ -280,13 +273,24 @@ class SpeakPage extends React.Component<Props, State> {
   };
 
   render() {
-    const { isRecording, recordingError, clips } = this.state;
+    const { clips, isRecording, recordingError, rerecordIndex } = this.state;
     const recordingIndex = this.getRecordingIndex();
     return (
       <ContributionPage
         activeIndex={recordingIndex}
         className="speak"
         errorContent={this.isUnsupportedPlatform && <UnsupportedInfo />}
+        extraButton={
+          rerecordIndex === null ? (
+            <Localized id="unable-speak">
+              <LocaleLink to={URLS.LISTEN} />
+            </Localized>
+          ) : (
+            <Localized id="record-cancel">
+              <TextButton onClick={this.cancelReRecord} />
+            </Localized>
+          )
+        }
         Instruction={props =>
           recordingError ? (
             <Localized

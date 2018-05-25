@@ -3,7 +3,7 @@ import * as React from 'react';
 import URLS from '../../../urls';
 import { LocaleLink, LocaleNavLink } from '../../locale-helpers';
 import { ArrowLeft, SkipIcon } from '../../ui/icons';
-import { Button, TextButton } from '../../ui/ui';
+import { Button } from '../../ui/ui';
 
 import './contribution.css';
 
@@ -21,6 +21,7 @@ interface Props extends LocalizationProps {
   activeIndex: number;
   className: string;
   errorContent?: any;
+  extraButton: React.ReactNode
   Instruction: React.StatelessComponent<{ $actionType: string }>;
   onSkip: () => any;
   onSubmit: () => any;
@@ -45,6 +46,7 @@ class ContributionPage extends React.Component<Props, State> {
       activeIndex,
       className,
       errorContent,
+      extraButton,
       getString,
       Instruction,
       onSkip,
@@ -160,9 +162,9 @@ class ContributionPage extends React.Component<Props, State> {
                   <Localized id="shortcuts">
                     <Button rounded outline className="hidden-sm-down" />
                   </Localized>
-                  <Localized id="unable-speak">
-                    <TextButton />
-                  </Localized>
+                  <div className="extra-button">
+                    {extraButton}
+                  </div>
                 </div>
                 <div>
                   <Button
