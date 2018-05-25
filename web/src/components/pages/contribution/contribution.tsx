@@ -2,52 +2,18 @@ import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
 import * as React from 'react';
 import URLS from '../../../urls';
 import { LocaleLink, LocaleNavLink } from '../../locale-helpers';
-import {
-  ArrowLeft,
-  PlayIcon,
-  RedoIcon,
-  ShareIcon,
-  SkipIcon,
-} from '../../ui/icons';
+import { ArrowLeft, SkipIcon } from '../../ui/icons';
+import { Button, TextButton } from '../../ui/ui';
 
 import './contribution.css';
-import { Button, TextButton } from '../../ui/ui';
 
 export const SET_COUNT = 5;
 
-const ClipPill = ({
-  isOpen,
-  num,
-  status,
-}: {
+export interface ContributionPillProps {
   isOpen: boolean;
+  key: any;
   num: number;
-  status: 'active' | 'done' | 'pending';
-}) => (
-  <div className={['pill', isOpen ? 'open' : 'closed', status].join(' ')}>
-    <div className="contents">
-      {status === 'active' && (
-        <Localized id="record-cta">
-          <div className="text" />
-        </Localized>
-      )}
-      {status === 'done' && (
-        <React.Fragment>
-          <button type="button">
-            <PlayIcon />
-          </button>
-          <button type="button">
-            <RedoIcon />
-          </button>
-          <button type="button">
-            <ShareIcon />
-          </button>
-        </React.Fragment>
-      )}
-    </div>
-    <div className="num">{num}</div>
-  </div>
-);
+}
 
 export default withLocalization(
   ({
@@ -58,6 +24,7 @@ export default withLocalization(
     Instruction,
     onSkip,
     onSubmit,
+    pills,
     primaryButtons,
     sentences,
   }: LocalizationProps & {
@@ -68,6 +35,7 @@ export default withLocalization(
     onSkip: () => any;
     onSubmit: () => any;
     primaryButtons: React.ReactNode;
+    pills: ((props: ContributionPillProps) => React.ReactNode)[];
     sentences: string[];
   }) => {
     const isDisabled = sentences.length === 0;
@@ -136,18 +104,9 @@ export default withLocalization(
                 </div>
 
                 <div className="pills">
-                  {sentences.map((s, i) => (
-                    <ClipPill
-                      key={i}
-                      isOpen={false}
-                      num={i + 1}
-                      status={
-                        isDone || i < activeIndex
-                          ? 'done'
-                          : i === activeIndex ? 'active' : 'pending'
-                      }
-                    />
-                  ))}
+                  {pills.map((pill, i) =>
+                    pill({ isOpen: true, key: i, num: i + 1 })
+                  )}
                 </div>
               </div>
 

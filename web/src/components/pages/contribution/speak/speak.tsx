@@ -2,18 +2,28 @@ import debounce = require('lodash.debounce');
 import { Localized } from 'fluent-react';
 import * as React from 'react';
 import { connect } from 'react-redux';
-import ERROR_MSG from '../../../error-msg';
-import { Recordings } from '../../../stores/recordings';
-import StateTree from '../../../stores/tree';
-import { User } from '../../../stores/user';
-import API from '../../../services/api';
-import { trackRecording } from '../../../services/tracker';
-import { FontIcon, MicIcon } from '../../ui/icons';
-import { getItunesURL, isFirefoxFocus, isNativeIOS } from '../../../utility';
-import AudioIOS from '../record/audio-ios';
-import AudioWeb, { AudioInfo } from '../record/audio-web';
-import ContributionPage, { SET_COUNT } from './contribution';
-import { RecordButton, StopButton } from './primary-buttons';
+import ERROR_MSG from '../../../../error-msg';
+import { Recordings } from '../../../../stores/recordings';
+import StateTree from '../../../../stores/tree';
+import { User } from '../../../../stores/user';
+import API from '../../../../services/api';
+import { trackRecording } from '../../../../services/tracker';
+import {
+  FontIcon,
+  MicIcon,
+  PlayIcon,
+  RedoIcon,
+  ShareIcon,
+} from '../../../ui/icons';
+import { getItunesURL, isFirefoxFocus, isNativeIOS } from '../../../../utility';
+import AudioIOS from '../../record/audio-ios';
+import AudioWeb, { AudioInfo } from '../../record/audio-web';
+import ContributionPage, {
+  ContributionPillProps,
+  SET_COUNT,
+} from '../contribution';
+import { RecordButton, StopButton } from '../primary-buttons';
+import RecordingPill from './recording-pill';
 
 import './speak.css';
 
@@ -73,14 +83,14 @@ interface Props extends PropsFromState, PropsFromDispatch {}
 interface State {
   isRecording: boolean;
   recordingError?: RecordingError;
-  recordings: Recordings.SentenceRecording[];
+  clips: (Recordings.SentenceRecording)[];
 }
 
 class SpeakPage extends React.Component<Props, State> {
   state: State = {
     isRecording: false,
     recordingError: null,
-    recordings: [],
+    clips: [],
   };
 
   audio: AudioWeb | AudioIOS;
@@ -90,11 +100,11 @@ class SpeakPage extends React.Component<Props, State> {
   recordingStopTime = 0;
 
   static getDerivedStateFromProps(props: Props, state: State) {
-    if (state.recordings.length > 0) return null;
+    if (state.clips.length > 0) return null;
 
     if (props.sentences.length > 0) {
       return {
-        recordings: props.sentences
+        clips: props.sentences
           .slice(0, SET_COUNT)
           .map(sentence => ({ recording: null, sentence })),
       };
@@ -123,7 +133,7 @@ class SpeakPage extends React.Component<Props, State> {
   }
 
   private getRecordingIndex() {
-    return this.state.recordings.findIndex(({ recording }) => !recording);
+    return this.state.clips.findIndex(({ recording }) => !recording);
   }
 
   private releaseMicrophone = () => {
@@ -143,10 +153,10 @@ class SpeakPage extends React.Component<Props, State> {
       return this.setState({ recordingError });
     }
 
-    const { recordings } = this.state;
+    const { clips } = this.state;
     this.setState({
       // this.props.reRecordSentenceId
-      recordings: recordings.map(({ recording, sentence }, i) => ({
+      clips: clips.map(({ recording, sentence }, i) => ({
         recording: i === this.getRecordingIndex() ? info : recording,
         sentence,
       })),
@@ -269,9 +279,9 @@ class SpeakPage extends React.Component<Props, State> {
     // await this.ensurePrivacyAgreement();
 
     const { api, tallyRecording } = this.props;
-    const { recordings } = this.state;
+    const { clips } = this.state;
 
-    for (const { sentence, recording } of recordings) {
+    for (const { sentence, recording } of clips) {
       await api.uploadClip(recording.blob, sentence.id, sentence.text);
 
       tallyRecording();
@@ -281,10 +291,11 @@ class SpeakPage extends React.Component<Props, State> {
   };
 
   render() {
-    const { isRecording, recordingError, recordings } = this.state;
+    const { isRecording, recordingError, clips } = this.state;
+    const recordingIndex = this.getRecordingIndex();
     return (
       <ContributionPage
-        activeIndex={this.getRecordingIndex()}
+        activeIndex={recordingIndex}
         className="speak"
         errorContent={this.isUnsupportedPlatform && <UnsupportedInfo />}
         Instruction={props =>
@@ -316,7 +327,18 @@ class SpeakPage extends React.Component<Props, State> {
             <RecordButton onClick={this.handleRecordClick} />
           )
         }
-        sentences={recordings.map(({ sentence: { text } }) => text)}
+        pills={clips.map((clip, i) => (props: ContributionPillProps) => (
+          <RecordingPill
+            {...props}
+            clip={clip}
+            status={
+              recordingIndex === i
+                ? 'active'
+                : clip.recording ? 'done' : 'pending'
+            }
+          />
+        ))}
+        sentences={clips.map(({ sentence: { text } }) => text)}
       />
     );
   }

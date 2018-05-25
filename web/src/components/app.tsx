@@ -30,7 +30,7 @@ import API from '../services/api';
 import { Locale } from '../stores/locale';
 import StateTree from '../stores/tree';
 import Layout from './layout/layout';
-import SpeakPage from './pages/contribution/speak';
+import SpeakPage from './pages/contribution/speak/speak';
 import { localeConnector, LocalePropsFromState } from './locale-helpers';
 
 const LOAD_TIMEOUT = 5000; // we can only wait so long.

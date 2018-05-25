@@ -1,0 +1,23 @@
+@import url('../../../vars.css');
+
+.pill.recording {
+    & .text {
+        margin-right: auto;
+        margin-left: 12px;
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.4px;
+        color: var(--warm-grey);
+    }
+
+    & button {
+        padding: 0 16px;
+        border: none;
+        border-left: 1px solid var(--desert-storm);
+
+        &:first-of-type {
+            border-left: none;
+        }
+    }
+}
