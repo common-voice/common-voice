@@ -21,8 +21,10 @@ interface Props extends LocalizationProps {
   activeIndex: number;
   className: string;
   errorContent?: any;
-  extraButton: React.ReactNode
-  Instruction: React.StatelessComponent<{ $actionType: string }>;
+  extraButton: React.ReactNode;
+  instruction: (
+    props: { $actionType: string; children: any }
+  ) => React.ReactNode;
   onSkip: () => any;
   onSubmit: () => any;
   primaryButtons: React.ReactNode;
@@ -48,7 +50,7 @@ class ContributionPage extends React.Component<Props, State> {
       errorContent,
       extraButton,
       getString,
-      Instruction,
+      instruction,
       onSkip,
       onSubmit,
       pills,
@@ -100,9 +102,10 @@ class ContributionPage extends React.Component<Props, State> {
                 <div />
 
                 <div className="cards-and-instruction">
-                  <Instruction $actionType={getString('action-click')}>
-                    <div className="instruction hidden-sm-down" />
-                  </Instruction>
+                  {instruction({
+                    $actionType: getString('action-click'),
+                    children: <div className="instruction hidden-sm-down" />,
+                  })}
 
                   <div className="cards">
                     {sentences.map((s, i) => {
@@ -151,9 +154,10 @@ class ContributionPage extends React.Component<Props, State> {
                 </div>
               </div>
 
-              <Instruction $actionType={getString('action-tap')}>
-                <div className="instruction hidden-md-up" />
-              </Instruction>
+              {instruction({
+                $actionType: getString('action-tap'),
+                children: <div className="instruction hidden-md-up" />,
+              })}
 
               <div className="primary-buttons">{primaryButtons}</div>
 
@@ -162,9 +166,7 @@ class ContributionPage extends React.Component<Props, State> {
                   <Localized id="shortcuts">
                     <Button rounded outline className="hidden-sm-down" />
                   </Localized>
-                  <div className="extra-button">
-                    {extraButton}
-                  </div>
+                  <div className="extra-button">{extraButton}</div>
                 </div>
                 <div>
                   <Button

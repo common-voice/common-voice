@@ -1,4 +1,3 @@
-import debounce = require('lodash.debounce');
 import { Localized } from 'fluent-react';
 import * as React from 'react';
 import { connect } from 'react-redux';
@@ -18,13 +17,12 @@ import ContributionPage, {
   ContributionPillProps,
   SET_COUNT,
 } from '../contribution';
-import { RecordButton, StopButton } from '../primary-buttons';
+import { RecordButton, RecordingStatus } from '../primary-buttons';
 import RecordingPill from './recording-pill';
 
 import './speak.css';
 import { TextButton } from '../../../ui/ui';
 
-const RECORD_DEBOUNCE_MS = 300;
 const MIN_RECORDING_MS = 300;
 const MAX_RECORDING_MS = 10000;
 const MIN_VOLUME = 1;
@@ -79,16 +77,16 @@ interface Props extends PropsFromState, PropsFromDispatch {}
 
 interface State {
   clips: (Recordings.SentenceRecording)[];
-  isRecording: boolean;
   recordingError?: RecordingError;
+  recordingStatus: RecordingStatus;
   rerecordIndex?: number;
 }
 
 class SpeakPage extends React.Component<Props, State> {
   state: State = {
-    isRecording: false,
-    recordingError: null,
     clips: [],
+    recordingError: null,
+    recordingStatus: null,
     rerecordIndex: null,
   };
 
@@ -131,6 +129,10 @@ class SpeakPage extends React.Component<Props, State> {
     document.removeEventListener('visibilitychange', this.releaseMicrophone);
   }
 
+  private get isRecording() {
+    return this.state.recordingStatus === 'recording';
+  }
+
   private getRecordingIndex() {
     const { rerecordIndex } = this.state;
     return rerecordIndex === null
@@ -143,7 +145,7 @@ class SpeakPage extends React.Component<Props, State> {
       return;
     }
 
-    if (this.state.isRecording) {
+    if (this.isRecording) {
       this.saveRecording();
     }
     this.audio.release();
@@ -203,8 +205,11 @@ class SpeakPage extends React.Component<Props, State> {
     });
   };
 
-  private handleRecordClick = debounce(async () => {
-    if (this.state.isRecording) {
+  private handleRecordClick = async () => {
+    if (this.state.recordingStatus === 'waiting') return;
+    this.setState({ recordingStatus: 'waiting' });
+
+    if (this.isRecording) {
       this.saveRecording();
       return;
     }
@@ -219,7 +224,7 @@ class SpeakPage extends React.Component<Props, State> {
         throw err;
       }
     }
-  }, RECORD_DEBOUNCE_MS);
+  };
 
   private startRecording = async () => {
     await this.audio.start();
@@ -228,7 +233,7 @@ class SpeakPage extends React.Component<Props, State> {
     this.recordingStopTime = 0;
     this.setState({
       // showSubmitSuccess: false,
-      isRecording: true,
+      recordingStatus: 'recording',
       recordingError: null,
     });
   };
@@ -237,14 +242,14 @@ class SpeakPage extends React.Component<Props, State> {
     this.audio.stop().then(this.processRecording);
     this.recordingStopTime = Date.now();
     this.setState({
-      isRecording: false,
+      recordingStatus: null,
     });
   };
 
   private discardRecording = async () => {
-    if (!this.state.isRecording) return;
+    if (!this.isRecording) return;
     await this.audio.stop();
-    this.setState({ isRecording: false });
+    this.setState({ recordingStatus: null });
   };
 
   private cancelReRecord = async () => {
@@ -273,7 +278,12 @@ class SpeakPage extends React.Component<Props, State> {
   };
 
   render() {
-    const { clips, isRecording, recordingError, rerecordIndex } = this.state;
+    const {
+      clips,
+      recordingError,
+      recordingStatus,
+      rerecordIndex,
+    } = this.state;
     const recordingIndex = this.getRecordingIndex();
     return (
       <ContributionPage
@@ -291,9 +301,9 @@ class SpeakPage extends React.Component<Props, State> {
             </Localized>
           )
         }
-        Instruction={props =>
+        instruction={props =>
           recordingError ? (
-            <Localized
+            <div className="error"><Localized
               id={
                 'record-error-' +
                 {
@@ -302,7 +312,8 @@ class SpeakPage extends React.Component<Props, State> {
                   [RecordingError.TOO_QUIET]: 'too-quiet',
                 }[recordingError]
               }
-            />
+              {...props}
+            /></div>
           ) : (
             <Localized
               id="record-instruction"
@@ -314,11 +325,10 @@ class SpeakPage extends React.Component<Props, State> {
         onSkip={this.handleSkip}
         onSubmit={this.handleSubmit}
         primaryButtons={
-          isRecording ? (
-            <StopButton onClick={this.handleRecordClick} />
-          ) : (
-            <RecordButton onClick={this.handleRecordClick} />
-          )
+          <RecordButton
+            status={recordingStatus}
+            onClick={this.handleRecordClick}
+          />
         }
         pills={clips.map((clip, i) => (props: ContributionPillProps) => (
           <RecordingPill

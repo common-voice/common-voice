@@ -13,14 +13,17 @@ export const PrimaryButton = ({
   </div>
 );
 
-export const RecordButton = (props: React.ButtonHTMLAttributes<any>) => (
-  <PrimaryButton className="record" {...props}>
-    <MicIcon />
-  </PrimaryButton>
-);
+export type RecordingStatus = null | 'waiting' | 'recording';
 
-export const StopButton = (props: React.ButtonHTMLAttributes<any>) => (
-  <PrimaryButton className="stop" {...props}>
-    <StopIcon />
+export const RecordButton = ({
+  status,
+  ...props
+}: { status: RecordingStatus } & React.ButtonHTMLAttributes<any>) => (
+  <PrimaryButton
+    className={status === null ? 'stop' : 'record'}
+    {...props}
+    disabled={status === 'waiting'}>
+    {status === null && <MicIcon />}
+    {status === 'recording' && <StopIcon />}
   </PrimaryButton>
 );
