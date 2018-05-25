@@ -274,16 +274,55 @@
                 }
             }
 
-            &:disabled {
-                background: var(--desert-storm);
-            }
-
             &.skip {
                 display: inline-flex;
 
                 & svg {
                     margin-left: 13px;
                 }
+            }
+
+            &[type=submit] {
+                width: 178px;
+                color: var(--white);
+                background: var(--blue);
+            }
+
+            &:disabled {
+                color: var(--black);
+                background: var(--desert-storm);
+            }
+        }
+    }
+
+    &.submittable {
+        & .cards, & .instruction,  & .primary-buttons, & .buttons button[type=button] {
+            display: none;
+            filter: blur(10px);
+            pointer-events: none;
+
+            @media (--lg-up) {
+                display: initial;
+            }
+        }
+
+        @media (--md-down) {
+            & .pills {
+                flex-direction: column;
+                align-items: center;
+
+                & .pill {
+                    margin-bottom: 20px;
+                }
+            }
+
+            & .buttons {
+                justify-content: center;
+            }
+
+            & [type=submit] {
+                display: initial !important;
+                height: 46px;
             }
         }
     }

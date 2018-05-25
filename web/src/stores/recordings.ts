@@ -66,7 +66,7 @@ export namespace Recordings {
 
   interface RemoveSentencesAction extends ReduxAction {
     type: ActionType.REMOVE_SENTENCES;
-    sentences: string[];
+    sentenceIds: string[];
   }
 
   export type Action =
@@ -133,11 +133,11 @@ export namespace Recordings {
       sentenceId,
     }),
 
-    removeSentences: (sentences: string[]) => async (
+    removeSentences: (sentenceIds: string[]) => async (
       dispatch: Dispatch<RemoveSentencesAction | RefillSentencesAction>,
       getState: () => StateTree
     ) => {
-      dispatch({ type: ActionType.REMOVE_SENTENCES, sentences });
+      dispatch({ type: ActionType.REMOVE_SENTENCES, sentenceIds });
       actions.refillSentences()(dispatch, getState);
     },
   };
@@ -213,6 +213,17 @@ export namespace Recordings {
           [locale]: {
             ...localeState,
             reRecordSentenceId: action.sentenceId,
+          },
+        };
+
+      case ActionType.REMOVE_SENTENCES:
+        return {
+          ...state,
+          [locale]: {
+            ...localeState,
+            sentences: localeState.sentences.filter(({ id }) =>
+              action.sentenceIds.includes(id)
+            ),
           },
         };
 

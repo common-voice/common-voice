@@ -16,6 +16,7 @@
     overflow: hidden;
 
     @media (--lg-up) {
+        display: flex !important;
         margin-top: 20px;
         padding: 0 12px;
         width: var(--pill-width);
@@ -91,6 +92,10 @@
                 border: solid 1px #f5f4f3;
                 margin: 7px;
                 background: var(--desert-storm);
+
+                @media (--lg-up) {
+                    margin: 0;
+                }
             }
         }
 

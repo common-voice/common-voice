@@ -278,14 +278,17 @@ class SpeakPage extends React.Component<Props, State> {
   private handleSubmit = async () => {
     // await this.ensurePrivacyAgreement();
 
-    const { api, tallyRecording } = this.props;
+    const { api, removeSentences, tallyRecording } = this.props;
     const { clips } = this.state;
+
+    this.setState({ clips: [] });
 
     for (const { sentence, recording } of clips) {
       await api.uploadClip(recording.blob, sentence.id, sentence.text);
 
       tallyRecording();
     }
+    removeSentences(clips.map(c => c.sentence.id));
     await api.syncDemographics();
     trackRecording('submit');
   };

@@ -62,7 +62,12 @@ class ContributionPage extends React.Component<Props, State> {
       <div
         className="contribution-wrapper"
         onClick={() => this.selectPill(null)}>
-        <div className={'contribution ' + className}>
+        <div
+          className={[
+            'contribution',
+            className,
+            isDone ? 'submittable' : '',
+          ].join(' ')}>
           <div className="top">
             <LocaleLink to={URLS.ROOT} className="back">
               <ArrowLeft />
@@ -125,7 +130,7 @@ class ContributionPage extends React.Component<Props, State> {
                 <div className="pills">
                   {pills.map((pill, i) =>
                     pill({
-                      isOpen: selectedPill === i,
+                      isOpen: isDone || selectedPill === i,
                       key: i,
                       num: i + 1,
                       onClick: () => this.selectPill(i),
@@ -179,6 +184,7 @@ class ContributionPage extends React.Component<Props, State> {
                         disabled={!isDone}
                         className="hidden-md-down"
                         onClick={onSubmit}
+                        type="submit"
                       />
                     </Localized>
                   )}
