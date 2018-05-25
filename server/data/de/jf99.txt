@@ -2998,3 +2998,2022 @@ Windows ist abgestürzt.
 Ubuntu kocht in vielerlei Hinsicht sein eigenes Süppchen.
 Niko lehnte höflich aber bestimmt ab.
 Bitte tragen Sie noch Ihren Vornamen ein.
+Akku-Ladestand anzeigen.
+Alarmanlage ausschalten.
+Alarmanlage einschalten.
+Alles anzeigen.
+Alles entfernen.
+Alles löschen.
+Alles merken.
+Alles speichern.
+Als Zwischenstopp auf der Route einfügen.
+Als Zwischenstopp einfügen.
+Andrea anrufen.
+Andreas anrufen.
+App aktivieren.
+App meinen Freunden weiterempfehlen.
+App deaktivieren.
+App entfernen.
+App installieren.
+App löschen.
+App merken.
+App weiterempfehlen.
+Auf die Wunschliste aufnehmen.
+Auto starten.
+Auto vorheizen.
+Batterie anzeigen.
+Batterie-Ladestand ansagen.
+Batterie-Ladestand anzeigen.
+Belüftung ausschalten.
+Bestätigen!
+Bestätigt!
+Bitte eine Notiz erstellen.
+Bitte entfernen.
+Bitte lauter sprechen.
+Bitte lauter stellen.
+Bitte leiser sprechen.
+Bitte leiser stellen.
+Bitte löschen.
+Bitte merke dir das.
+Bitte speichern.
+Bitte vorlesen.
+Bitte weitermachen.
+Bitte wiederholen.
+Brauche ich Regenkleidung?
+Brauche ich einen Regenschirm?
+Brauche ich einen Schirm?
+Browser öffnen.
+Darum kümmere ich mich später.
+Das als neuen Arbeitsplatz merken.
+Das auf die Einkaufsliste setzen.
+Das ist besser.
+Das bitte alphabetisch sortieren.
+Das bitte zu meiner Lieblingsmusik hinzufügen.
+Das geht sicher noch besser.
+Das habe ich nicht verstanden.
+Das habe ich verstanden.
+Das hier bestellen.
+Das ist meine Lieblingsmusik.
+Das mache ich später.
+Das nachher spielen.
+Deltachat öffnen.
+Den Wecker auf zwölf Uhr stellen.
+Dialog löschen.
+Dialogstatus zurücksetzen.
+Die Ergebnisse alphabetisch sortieren.
+Die Heizung etwas weniger warm einstellen.
+Die Heizung etwas wärmer stellen.
+Die letzte Interaktion war erfolgreich.
+Die letzte Interaktion war nicht erfolgreich.
+Dies bitte zum Kalender hinzufügen.
+Dies hier bestellen.
+Diese Aktion bitte rückgängig machen.
+Diese Aktion rückgängig machen.
+Diese Aktion wiederholen.
+Diese Anwendung bitte auf die Leinwand projizieren.
+Diese App installieren.
+Diese Funktion installieren.
+Diese Interaktion war erfolgreich.
+Diese Interaktion war nicht erfolgreich.
+Dieses Bild bitte auf den großen Monitor projizieren.
+Dieses Buch Anna empfehlen, per SMS.
+Dieses Lied mit Sebastian teilen.
+Dieses Lied per E-Mail mit Johanna teilen.
+E-Mail schreiben.
+E-Mails öffnen.
+Eine Erinnerung hinzufügen.
+Eine WhatsApp Nachricht an Tina schreiben.
+Einstellungen anzeigen.
+Event erstellen.
+Exakt!
+Facebook öffnen.
+Facebook-Feed anzeigen!
+Fernbedienung ausschalten.
+Finde ein gutes Workout für mich.
+Firefox beenden.
+Firefox schließen.
+Firefox öffnen.
+Genau!
+Gibt es Stau heute morgen?
+Gibt es eine App für diese Funktion?
+Gibt es eine Karten-App?
+Gibt es neue Meldungen?
+Gibt es neue Nachrichten?
+Gute Nacht.
+Guten Abend.
+Guten Morgen.
+Guten Tag.
+Habe ich gerade eine Verbindung?
+Habe ich noch Bier im Kühlschrank?
+Habe ich noch Bier?
+Habe ich noch Joghurt im Kühlschrank?
+Habe ich noch Joghurt?
+Habe ich noch Milch im Kühlschrank?
+Habe ich noch Milch?
+Habe ich noch Nudeln?
+Habe ich noch Reis?
+Habe ich noch Sahne im Kühlschrank?
+Habe ich noch Sahne?
+Habe ich noch Tomatensoße?
+Habe ich noch saure Sahne im Kühlschrank?
+Habe ich noch saure Sahne?
+Habe ich noch süße Sahne im Kühlschrank?
+Habe ich noch süße Sahne?
+Haben wir genug Schnee in den Bergen?
+Haben wir gerade eine Verbindung?
+Haben wir noch Bier im Kühlschrank?
+Haben wir noch Bier?
+Haben wir noch Joghurt im Kühlschrank?
+Haben wir noch Joghurt?
+Haben wir noch Milch im Kühlschrank?
+Haben wir noch Milch?
+Haben wir noch Nudeln?
+Haben wir noch Reis?
+Haben wir noch Sahne im Kühlschrank?
+Haben wir noch Sahne?
+Haben wir noch Tomatensoße?
+Haben wir noch saure Sahne im Kühlschrank?
+Haben wir noch saure Sahne?
+Haben wir noch süße Sahne im Kühlschrank?
+Haben wir noch süße Sahne?
+Hat mir Theo in letzter Zeit eine E-Mail geschrieben?
+Herd vorheizen.
+Hinzufügen!
+Ich brauche ein Geschenk für meinen Vater.
+Ich brauche ein neues Buch.
+Ich bräuchte ein Geschenk für meine Mutter.
+Ich fühle mich nicht so gut.
+Ich habe Durst.
+Ich habe Hunger.
+Ich habe eine neue Arbeit.
+Ich will Lebensmittel einkaufen.
+Ich will Yoga machen.
+Ich will ein Spiel spielen.
+Ich will einkaufen.
+Ich will etwas Gymnastik machen.
+Ich will heute Abend ins Kino gehen.
+Ich will jetzt meditieren.
+Ich würde das gerne auf Amazon bestellen.
+Ich würde das gerne online bestellen.
+Ich würde gerne ein neues Kartenspiel ausprobieren.
+Im Wörterbuch nachschlagen!
+In der Wikipedia nachsehen!
+In welchem Kanal bin ich gerade?
+Internet öffnen.
+Ist das Internet erreichbar?
+Ist das Internet kaputt?
+Ist der Zug schon wieder ausgefallen?
+Ist die Wohnung warm genug?
+Ist noch Bier im Kühlschrank?
+Ist noch Joghurt im Kühlschrank?
+Ist noch Milch im Kühlschrank?
+Ist noch Sahne im Kühlschrank?
+Ist noch saure Sahne im Kühlschrank?
+Ist noch süße Sahne im Kühlschrank?
+Jetzt bestellen.
+Kanal wechseln!
+Kannst Du mir alle Playlists nennen, die mit A beginnen?
+Kannst Du mir bitte alle Playlists nennen, die mit A beginnen?
+Klimaanlage ausschalten.
+Klimaanlage einschalten.
+Küchenlicht ausmachen, bitte.
+Lesezeichen anzeigen.
+Letzte Aktion wiederholen.
+Letzten Dialog löschen.
+Licht an!
+Licht anmachen.
+Licht aus!
+Licht dimmen!
+Licht im Bad ausmachen!
+Licht im Gang ausmachen.
+Licht im Gang einschalten.
+Licht im Wohnzimmer aus!
+Licht in der Garage einschalten.
+Liste anzeigen.
+Marc über Skype anrufen.
+Marcel via WhatsApp anrufen.
+Martins Nummer wählen.
+Meeting erstellen.
+Meine Mutter anrufen.
+Meine Reisepläne anzeigen.
+Mich in zwei Stunden daran erinnern.
+Mir ist langweilig.
+Mozilla Firefox beenden.
+Mozilla Firefox schließen.
+Mozilla Firefox öffnen.
+Nach Restaurants suchen.
+Nachrichten abrufen.
+Neueste Nachrichten anzeigen.
+OK.
+Ofen vorheizen.
+Playlists anzeigen!
+Playlists auflisten!
+Programm auswählen.
+Programm beenden.
+Programm schließen.
+Programm starten.
+Programm öffnen.
+Radio ausschalten.
+Radio einschalten.
+Rezeptliste anzeigen.
+Rückgängig machen.
+Schneebericht anzeigen.
+Schneebericht für Sankt Anton anzeigen.
+Schneebericht für Wagrain anzeigen.
+Schneebericht für die Zugspitze anzeigen.
+Schneevorhersage für Zell am See anzeigen.
+So ist es.
+So sei es.
+Steht die Internet-Verbindung?
+Stoppuhr anhalten.
+Stoppuhr starten.
+Suche Flüge nach Düsseldorf.
+Suche Flüge nach Hamburg.
+Suche Flüge nach Hannover.
+Suche Flüge nach Island.
+Suche Flüge nach Madrid.
+Suche Flüge nach München.
+Suche Flüge nach Nürnberg.
+Suche Flüge nach Stuttgart.
+Suche Zugverbindungen nach Düsseldorf.
+Suche Zugverbindungen nach Hamburg.
+Suche Zugverbindungen nach Hannover.
+Suche Zugverbindungen nach München.
+Suche Zugverbindungen nach Nürnberg.
+Suche Zugverbindungen nach Stuttgart.
+Suche Züge nach Düsseldorf, die morgen um zehn Uhr abfahren.
+Suche Züge nach Düsseldorf.
+Suche Züge nach Freiburg, die morgen um sieben Uhr abfahren.
+Suche Züge nach Freiburg im Breisgau, die morgen um sechs Uhr abfahren.
+Suche Züge nach Freiburg im Breisgau.
+Suche Züge nach Freiburg.
+Suche Züge nach Hamburg, die morgen um fünfzehn Uhr abfahren.
+Suche Züge nach Hamburg.
+Suche Züge nach Hannover, die morgen um elf Uhr abfahren.
+Suche Züge nach Hannover.
+Suche Züge nach Hildesheim, die morgen um neun Uhr abfahren.
+Suche Züge nach Hildesheim.
+Suche Züge nach Karlsruhe über Offenburg.
+Suche Züge nach Karlsruhe.
+Suche Züge nach München, die morgen um zwölf Uhr abfahren.
+Suche Züge nach München.
+Suche Züge nach Nürnberg, die morgen um dreizehn Uhr abfahren.
+Suche Züge nach Nürnberg.
+Suche Züge nach Rosenheim, die morgen um acht Uhr abfahren.
+Suche Züge nach Rosenheim.
+Suche Züge nach Stuttgart, die morgen um vierzehn Uhr abfahren.
+Suche Züge nach Stuttgart.
+System herunterfahren!
+System konfigurieren.
+Systemstatus abrufen!
+Temperatur im Wohnzimmer um zwei Grad Celsius hochregeln.
+Timer anhalten.
+Timer auf 20 Minuten stellen.
+Timer auf 30 Sekunden stellen.
+Timer starten.
+Twitter-Feed anzeigen!
+Und sonst?
+Ventilator einschalten.
+Verstanden!
+Von der Playlist entfernen.
+Von der Playlist löschen.
+Von der Route entfernen.
+Vorlesen, bitte.
+Wagen starten.
+Wagen vorheizen.
+Wann ist der nächste Raketenstart?
+Wann war der letzte Stromausfall?
+Was fällt dir noch ein?
+Was gibt es neues auf Netflix?
+Was habe ich im Kühlschrank?
+Was habe ich in der Speisekammer?
+Was habe ich in der Vorratskammer?
+Was haben wir im Kühlschrank?
+Was haben wir in der Speisekammer?
+Was haben wir in der Vorratskammer?
+Was heißt das auf Albanisch?
+Was heißt das auf Arabisch?
+Was heißt das auf Badisch?
+Was heißt das auf Bairisch?
+Was heißt das auf Bündnerromanisch?
+Was heißt das auf Chinesisch?
+Was heißt das auf Deutsch?
+Was heißt das auf Dänisch?
+Was heißt das auf Englisch?
+Was heißt das auf Finnisch?
+Was heißt das auf Flämisch?
+Was heißt das auf Französisch?
+Was heißt das auf Friesisch?
+Was heißt das auf Fränkisch?
+Was heißt das auf Griechisch?
+Was heißt das auf Isländisch?
+Was heißt das auf Italienisch?
+Was heißt das auf Katalanisch?
+Was heißt das auf Kroatisch?
+Was heißt das auf Ladinisch?
+Was heißt das auf Luxemburgisch?
+Was heißt das auf Maltesisch?
+Was heißt das auf Niederländisch?
+Was heißt das auf Nordfriesisch?
+Was heißt das auf Norwegisch?
+Was heißt das auf Platt?
+Was heißt das auf Polnisch?
+Was heißt das auf Portugiesisch?
+Was heißt das auf Romanes?
+Was heißt das auf Romani?
+Was heißt das auf Rumänisch?
+Was heißt das auf Russisch?
+Was heißt das auf Rätoromanisch?
+Was heißt das auf Schwedisch?
+Was heißt das auf Schweizerdeutsch?
+Was heißt das auf Schwäbisch?
+Was heißt das auf Serbisch?
+Was heißt das auf Serbokroatisch?
+Was heißt das auf Slowakisch?
+Was heißt das auf Slowenisch?
+Was heißt das auf Spanisch?
+Was heißt das auf Sächsisch?
+Was heißt das auf Tschechisch?
+Was heißt das auf Ukrainisch?
+Was heißt das auf Ungarisch?
+Was heißt das auf Vorarlbergisch?
+Was ist auf der Einkaufsliste?
+Was ist gerade in den Nachrichten?
+Was ist gerade los auf Twitter?
+Was ist gerade los in der Welt?
+Was ist in diesem Bild zu sehen?
+Was kann ich tun, wenn ich Fieber habe?
+Was kommt gerade im Fernsehen?
+Was kommt gerade im Kino?
+Was kommt heute Abend im Fernsehen?
+Was kommt heute Abend im Kino?
+Was kommt heute im Fernsehen?
+Was kommt heute im Kino?
+Was könnte ich heute Abend kochen?
+Was läuft gerade im Fernsehen?
+Was läuft gerade im Kino?
+Was läuft heute Abend im Fernsehen?
+Was läuft heute Abend im Kino?
+Was läuft heute im Fernsehen?
+Was läuft heute im Kino?
+Was sagt Wikipedia dazu?
+Was sieht Kamera Eins gerade?
+Was zeigt Kamera Eins gerade?
+Webbrowser öffnen.
+Weitermachen!
+Weitermachen, bitte.
+Welche Lieder sind verfügbar?
+Welche Stücke sind verfügbar?
+Wie lange werde ich heute zur Arbeit brauchen?
+Wie sieht es mit der CPU-Auslastung aus?
+Wie sieht es mit der Einkaufsliste aus?
+Wie war das noch einmal?
+Wie warm wird es heute?
+Wie warm wird es morgen?
+Wie warm wird es übermorgen?
+Wie wird das Wetter heute Abend?
+Wie wird das Wetter morgen früh?
+Wie wird das Wetter morgen in der Früh?
+Wie wird das Wetter morgen?
+Wie viel Uhr ist es?
+Wie viele Leute haben diese Nachricht gesehen?
+Wo ist das Auto?
+Wo ist der Wagen?
+Wo ist mein Auto?
+Wo kann ich heute Abend zum Essen hingehen?
+Wohnung vorheizen.
+Wunschliste anzeigen.
+Wörterbuch schließen!
+Wörterbuch öffnen!
+Zu den Lesezeichen hinzufügen.
+Zu meinen Lesezeichen hinzufügen.
+Zu meiner Geburtstags-Wunschliste hinzufügen.
+Zur Bibliothek hinzufügen.
+Zur Einkaufsliste hinzufügen.
+Zur Lieblingsmusik hinzufügen.
+Zur Liste hinzufügen.
+Zur Playlist hinzufügen.
+Zur Route hinzufügen.
+Zur Wunschliste hinzufügen.
+Zusammenfassen und sortieren!
+Zusammenfassen und sortieren, bitte.
+Amanda ist verwitwet.
+Das glaube ich dir aufs Wort.
+Ken ist schon ein harter Kerl.
+Moritz, du bist ein wahres Genie, bewunderte ihn Manuela.
+War die Integration erfolgreich?
+Erschrocken machte Edgar einen Satz zur Seite.
+Manchmal hat Niko epileptische Anfälle.
+Mathematik ist die Kunst, das Rechnen zu vermeiden.
+Auf seinem Server betreibt Nikolai ein Debian-Derivat.
+Bei der Erziehung ihrer Sprösslinge ist Daniela äußerst konsequent.
+Ist der dritte Teil auch so sehenswert wie die ersten zwei?
+In der nächsten Folge stirbt Olafundefined, spoilert Edgar.
+Nach erneuten Übergriffen werden Rufe nach Konsequenzen laut.
+Manuela macht keinen Hehl daraus, dass sie von dem Kompromiss nicht viel hält.
+Seit zweitausendfünf hat die Stadt wieder verstärkt mit Kriminalität zu kämpfen.
+Dimitri hat uns eine Nachricht hinterlassen.
+Wer im Steinhaus lebt, sollte nicht mit Gläsern werfen.
+Davon gehen die nämlich kaputt.
+Scherben bringen Glück.
+Als Glücksbringer hatte Ken sich ein Hufeisen in seinem Wagen vor den Beifahrersitz geklebt.
+Zu welchem Ergebnis bist du bei deiner Abwägung gekommen?
+Mit seinem Treffer zum drei zu null machte Hoffmann den Sack zu.
+Ein vernünftiger Anfang wäre schon die halbe Miete.
+Wetten, dass Joachim heute Abend wieder Fussball schaut?
+Die Reaktion des Publikums wurde natürlich vor der Sendung eingeübt.
+Aus der anderen Richtung hörte man das Plätschern eines Baches.
+Zum Glück funktionieren die Maschinen auch dann, wenn wir sie nicht verstehen.
+Wir hatten einfach Pech.
+Alina ist immer so perfektionistisch.
+Ein kleiner Junge mit Gummistiefeln hatte sichtbar große Freude daran, in einer Pfütze herumzuspringen.
+Das Wasser spritzt so schön in alle Richtungen.
+Klitschnass kam die Dogge aus dem Fluss und schüttelte sich.
+Wir unterscheiden strikt zwischen Modell und Repräsentation.
+Nach dem fünften erfolglosen Versuch gab Valentin auf.
+Wasch mich, aber mach mich nicht nass.
+Valentin hat das Handtuch geworfen.
+Nach dem Essen schüttelt Nicola die Tischdecke aus.
+Spielt Alina auch im Bläser-Orchester?
+Wenn dein Großvater das wüsste, würde er sich im Grab umdrehen
+Simon hat eine Zahnlücke, dank der er so laut pfeifen kann wie kein Zweiter.
+Wie niedlich
+Wieso sind so gut wie alle digitalen Assistenten weiblich?
+Wozu das Rad neu erfinden, wenn man auch Magnetschwebetechnik einsetzen kann?
+Olaf trägt eine Perücke.
+Vorgestern waren wir in der Oper.
+Die Proportionen stimmen nicht, stellte Astrid fest.
+Sascha und Nick haben die ganze Nacht durchgezockt.
+In der Gaming-Szene kennt Volker sich aus.
+Vincent ist auch so ein Zocker.
+Mit wem chattest du?
+Fairplay sieht anders aus.
+Es ist dennoch eine nette Geste.
+Michael sitzt auf der Sitzbank und liest Zeitung.
+Helmut tankt E-zehn und versteht nicht, warum Dimitri diese Spritsorte boykottiert.
+Man zeigt nicht mit nacktem Finger auf angezogene Menschen.
+Rolf gab sich diplomatisch.
+Mit so schweißnassen Händen hat man einfach keinen Halt.
+Um den Teig fluffiger zu machen, kann man auch einen Schuss Sprudel hinzugeben.
+Nick sprudelte vor Ideen.
+Der Vorgang wurde durch den Benutzer abgebrochen.
+Es wird nach defekten Sektoren gesucht.
+Spanne uns nicht so auf die Folter
+In Ordnung, dann möchte ich eure Geduld nicht länger strapazieren.
+Der Bruch lässt sich auf gewöhnliche Materialermüdung zurückführen.
+Bei seiner Arbeit untertage muss Norbert stets einen Helm tragen.
+Kaum jemand nahm Notiz von ihm.
+Pfirsich-Maracuja ist meine Lieblingssorte
+Die anderen Fahrgäste versuchten möglichst unbeteiligt dreinzublicken, so als hätten sie nichts bemerkt.
+Früher hätte man uns dafür den Hintern versohlt, rief Rüdiger aufgebracht.
+Sara spricht Klingonisch.
+Sowas hätte es früher nicht gegeben.
+Udo hat Bärbel missverstanden.
+Du interpretierst da zu viel hinein, meint Oskar.
+Ist das offensichtlich oder bedarf es einer Erläuterung?
+Anita hat den Aushang am schwarzen Brett gesehen und sofort reagiert.
+Freitags sieht man immer Muslime in großen Menschenmengen zum Freitagsgebet in die Moschee strömen.
+Im September wird Rüdiger mit ein paar Freunden zum Wandern in die Alpen fahren.
+Meistens träume ich nicht, aber wenn, dann sind es Albträume
+Die Psychologie-Prüfung wird am zweiundzwanzigsten Februar um neun Uhr stattfinden.
+April, April
+Diese Partei kann man nicht wählen, weil sie durch und durch korrupt ist.
+Das Mädchen verbarg mit den Händen sein Gesicht und schluchzte.
+Jungs sind doof, sagt Antje.
+Hierfür gibt es kein Patentrezept.
+Aus der anfänglichen Euphorie wurde Ernüchterung.
+Willi lebt unter falscher Identität in Graz.
+Er wird per internationalem Haftbefehl gesucht.
+Mit mäßigem Interesse überflog Vincent die Schlagzeilen.
+Noch sicherer als unsere Rente sind nur die steigenden Mietpreise.
+Hiermit legen wir das Fundament für zukünftige Innovationen.
+Letztlich ist es ein Nullsummenspiel.
+Vorsicht ist die Mutter der Porzellankiste.
+Robin benimmt sich wie ein Elefant im Porzellanladen.
+In seinem Testament hat Udo seine langjährige Lebensgefährtin Barbara nicht einmal erwähnt.
+Das Kurzzeitgedächtnis lässt zuerst nach.
+Erinnerungen, mit denen man Emotionen verbindet, bleiben einem länger im Gedächtnis.
+Nur weil jemand Selbstgespräche führt, heißt nicht, dass er schizophren ist.
+Rabea hat ein Patent auf ihre Erfindung angemeldet.
+Eigenlob stinkt.
+Das nenne ich Ironie des Schicksals.
+Eines Tages werden künstliche Intelligenzen Depressionen entwickeln.
+Ach was, Charakter wird überbewertet, widerspricht Ulf machohaft.
+Die Fingerabdrücke stimmen nicht überein.
+Das Wasser wird als Tsunami zurückkommen.
+Gib mir mal den Nussknacker.
+Kommen wir nun zum Knackpunkt.
+Mückenstiche sollte man nicht aufkratzen.
+Werner schert sich nicht darum.
+Das interessiert mich nicht die Bohne
+Die Leute mit den schlechtesten Augen sitzen immer in der letzten Reihe.
+Ulf setzte eine Maske auf.
+Das Moment berechnet sich als Kreuzprodukt von Radius und Kraft.
+Die Studie wirft mehr Fragen auf, als sie beantwortet.
+In Schritt zwei extrahieren wir die wichtigsten Features.
+Die werberelevante Zielgruppe der Vierzehn- bis Neunundvierzig-jährigen gibt sich mit Schwarzweißfernsehen nicht zufrieden.
+Mit der nächsten Version werden eine Menge alte Zöpfe abgeschnitten.
+Eine Traube von Menschen hatte sich um die Stadtmusikanten versammelt.
+Erst nachdem Antje das Original gesehen hatte, verstand sie einige Anspielungen der Parodie.
+Tabea setzte zum Endspurt an.
+Eduard musste eine Vollbremsung hinlegen.
+Der Straßenbahnführer bimmelte sich den Weg frei.
+Im Biergarten vor der Alm hört man den ganzen Tag die Kuhglocken läuten.
+Notfalls wird Birte ihr Handy auf Werkseinstellungen zurücksetzen.
+Ich kann die Einstellung nirgendwo finden.
+Durch die Erkennung von Symmetrien kann der Suchraum erheblich eingeschränkt werden.
+Am Ende ihrer Arbeit hatten die Maurer noch ein paar Ziegelsteine über.
+Die Gegend ist komplett verwüstet.
+Alle Häuser wurden in Schutt und Asche gelegt.
+Sei nicht so kindisch
+Barbara pfeffert ihre Jacke achtlos in die Ecke.
+Udo ist ein Morgenmuffel.
+Egal wie viel Fisch du isst, Helene ist Fischer.
+Soll die KI intelligent oder menschenähnlich sein?
+Adam nimmt ein Heft aus seinem Schulranzen und macht ein paar Notizen.
+Es ist ungeheuerlich, wie schnell Birgit neue Kontakte knüpft.
+Innerhalb weniger Wochen hat sie bereits ein umfangreiches Netzwerk aufgebaut.
+Seinen eigenen Hochzeitstag hat sich Helmut zur Sicherheit rot im Kalender angestrichen.
+Aus Langeweile checkt Bärbel noch einmal, ob es neue Mitteilungen für sie gibt.
+Die Mona-Lisa in der Galerie ist natürlich nur eine Kopie.
+Mein CD-Player kommt nicht mit dem Kopierschutz klar, sagt Werner ernüchtert.
+Dann würde ich es mit einer gebrannten CD probieren, regt Doreen an.
+Aufnahme läuft.
+Frauke hängt schon den ganzen Tag am Rechner.
+Je mehr der Taschenrechner kann, desto weniger können am Ende die Schüler.
+Es ist jedoch traurig, dass viele nicht einmal ihren Taschenrechner richtig bedienen können.
+Hast du meine Mail bekommen?
+Und regelmäßige Pausen sind nun mal vorgeschrieben.
+Steht etwas in der Log-Datei?
+Schauen Sie nochmal im Protokoll nach.
+Mit akribischer Genauigkeit protokollierte Melanie jeden einzelnen Schritt im Labor.
+Fiona ist sehr kommunikativ.
+Da vorne ist ein Info-Stand.
+Können Sie bitte einen anderen Radiosender einstellen?
+Für Stromausfälle hat Inge ein Wörterbuch zur Übersetzung in den Koffer gepackt.
+Ich habe Sie gar nicht in meiner Datenbank, sagte die Sachbearbeiterin ratlos.
+Die Datenbank wurde aktualisiert.
+Was wir hier lernen ist doch völlig sinnlos, wirft Emilia ein.
+Warte nur ab, versucht Herr Eduard abzuwiegeln.
+Dieser Projektor ist kaputt.
+Sie müssen einen anderen nehmen.
+Dankeschön für den wertvollen Tipp
+Wackelpudding schwabbelt immer so.
+Nordseekrabben sind mittlerweile abartig teuer, obwohl sie in Polen gepult werden.
+Wieso seid ihr alle so sensationsgeil?, fragte Fiona vorwurfsvoll.
+Sensationell, würde die rasende Reporterin jetzt sagen.
+Lecker, es gibt Weintrauben
+Vor dem Rathaus hat es derweil Tumulte gegeben.
+Isabel fallen die ersten Milchzähne aus.
+Übung macht den Meister.
+An jener Stelle ist die Übersetzung des Textes unpräzise.
+Alida probiert zum allerersten Mal Fedora aus.
+Essen zu kaufen ist das normalste der Welt.
+Hans-Peter spielt Piano.
+In der Seitenansicht wurde es auch Doreen klar.
+Helene teilt unsere Ansicht nicht.
+Eike spielt mit Knete.
+Schon von weitem kann man das Geschnatter der Gänse hören.
+In einem kleinen Teich schwimmen und schnattern Enten.
+Am meisten freut Camilla sich auf die Bescherung.
+Die Betonung liegt auf sofort.
+Birgit ist noch dabei das Bild zu bearbeiten.
+Jetzt half nur noch beten.
+Obwohl Gisela das ganze Menü durchforstet hatte, konnte sie den Eintrag nicht finden.
+Emilia spielt in ihrer Freizeit Oboe.
+Dorothea legte das Lesezeichen hinein und klappte das Buch zu.
+Gibt es dafür eine Vorlage?
+Diesen Zickenkrieg ertrage ich nicht länger, platzte es dem Vater heraus.
+Über die Seitenleiste hat man Zugriff zu den meistgenutzten Verknüpfungen.
+Wie ist der aktuelle Status?
+Janina folgt weitestgehend dem Pfad ihrer Vorgängerin.
+Wer stets nur den Fußstapfen eines anderem folgt, wird nie seinen eigenen Weg finden.
+Willkommen zur Einführung in die objektorientierte Programmierung
+Mein Name ist Ronald und ich werde Ihr Ansprechpartner sein.
+Desktop ist zum Beispiel ein Objekt der Klasse Ordner.
+Wie war noch gleich das Datum?
+Am meisten fürchtet sich Isabel vor Änderungen.
+So detailliert können wir darauf leider nicht eingehen.
+Deshalb wollen wir es auf eine kompakte Größe verkleinern.
+Mit einer Schere versucht Camilla das Eichhörnchen aus der Papiervorlage auszuschneiden.
+Schau hier, für das Gespenst gibt es eine Schablone.
+Nun dreht Inge den Spieß um.
+Und jetzt machen wir das Gleiche nochmal, leitete Dagmar die Gruppe an.
+Den Spruch hatte Janina mit Absicht doppeldeutig formuliert.
+Eindeutig zweideutig, riefen Till und Sigmar wie aus einem Munde.
+Emanuela ist sich unsicher, wie sie ihr Geld am sinnvollsten anlegen soll.
+Wenn wir es so machen, sollten wir die Kampagne aber umbenennen, warf Dorothea ein.
+Müssen die blauen Module auch belegt werden?, will Eva wissen.
+Sabrina agiert im Verborgenen.
+Eva möchte das Dokument ausdrucken.
+Welche Vor- und Nachteile haben Laser- und Tintenstrahldrucker?
+Sieh dir zuerst die Vorschau an, empfahl Jana.
+Am liebsten würde Larissa gleich alle auswählen.
+Du musst dich für eines entscheiden, gibt Edith vor.
+Das Gestell lässt sich auch nachträglich in seiner Form anpassen, erklärt der Optiker.
+Mit Neugier betrachtet Jenny das Objektiv mit fünfzig-fachem Zoom.
+Ronald hat Stil.
+Veronika erwartet vom Verein, dass er sich ganz klar distanziert.
+Die Hardware ist einfach zu alt, meint Sigmar.
+Angela hatte sich dieses verrückte Trinkspiel ausgedacht.
+Die Kanzlerin sprach dem Minister ihr vollstes Vertrauen aus.
+Wir alle wissen, was kurz darauf folgte.
+Wie war eure Tour?, erkundigte sich Emanuela.
+Solche Machos kennt Cassandra nur zu gut.
+Lotte lässt sich leicht verunsichern.
+Dagmar hat das Bewusstsein verloren.
+Keine Panik auf der Titanic
+Dürfen wir eine Formelsammlung verwenden?, meldete sich Meike zu Wort.
+Bei einer Stromstärke von mehr als zwei Ampere brennt die Sicherung durch.
+Vorsichtig, es ist eine flinke Sicherung.
+Abwarten und Tee trinken, meint Edith.
+Helgas Rede war im Wesentlichen Selbstbeweihräucherung.
+Es ertönte tosender Applaus.
+Das ist bloß eine isotonische Kochsalzlösung, beruhigte der Sanitäter.
+Denken Sie daran, was wir vereinbart haben.
+Jennifer nahm Platz und schlug die Oberschenkel übereinander.
+Dass es auch sonst niemand geschafft hatte, war für Alida ein schwacher Trost.
+Für Mareike endete der Auftritt in einer Blamage.
+Ist nicht so schlimm, versucht Helga zu trösten.
+Mona wird mutwillige Sachbeschädigung vorgeworfen.
+Diese Kneipe ist wirklich legendär, schwärmt Claudia.
+Dort wird schon morgens um zehn auf den Tischen getanzt.
+Jacqueline ist auch bereits sternhagelvoll.
+Der inflationäre Gebrauch von Superlativen kotzt mich übelst an, beschwert sich Till.
+Wenn man die Inflation berücksichtigt, sind die Zinsen sogar negativ.
+Karoline beginnt mit dem Frühjahrsputz.
+Ohne Ruhe und ohne Rast, stürmt der Diener in den Palast.
+Majestät es tut mir Leid, im Pöbel macht sich Unmut breit.
+Sie sind laut und sie sind viele, und sie fordern Brot und Spiele.
+Uns bleibt nur eine kurze Zeit, dann sind sie zur Gewalt bereit.
+Dem König, noch beschwipst vom Wein, fiel direkt ein Ausweg ein.
+Wir wollen beenden diesen Jammer, darum öffnen wir die Speisekammer.
+Zuvor wollen wir versehen das Brot mit giftigem Arsen.
+Wer aufbegehrt mit Gier, der soll leiden wie ein Tier
+Und schon ertönt sehr laut der Gong, der König betritt den Balkon.
+Hört zu, ihr Arbeiter und Bauern, bald gibt es nichts mehr zu bedauern.
+Ich erkenne eure Not und teile mit euch mein letztes Brot.
+Es ist von bester Qualität auf meinem fürstlichen Hof gesät.
+Der Monarch grinst in sich hinein: Das Brot ist eures, das Spiel ist mein.
+Ein Jahr später: Leere Lager, die Bestände werden mager.
+Sag mein treuer Untertan, wo ist all mein Marzipan?
+Mein Magen begehrt nach Fleisch und Kuchen, wonach muss der Koch solange suchen?
+Mein Herr vergebt mir wenn ich sage: Es ist eine verzwickte Lage.
+Die Bauern krank, die Müller tot, sagt wer backt dem König jetzt sein Brot?
+Euer Einfall war auf lange Sicht, am Ende doch so weise nicht.
+Der Herrscher stimmte diesem zu, denn er erkannte das Dilemma im Nu.
+Wie töricht kann man sein, wenn man getrunken hat zu viel Wein
+Aus meinen Fehlern will ich lernen, von alten Bräuchen mich entfernen.
+Und da beschloss der Regent: Ab heute lebe ich abstinent.
+Weil Ilse nicht erkannt werden will, wurde ihre Stimme technisch verzerrt.
+Dein Gesicht machen wir in der Nachbearbeitung unkenntlich.
+Dieses Experiment beweist, dass unsere Sprache viel redundante Information enthält.
+Die Entropie ist also wesentlich geringer als die Kodierungslänge.
+Den Namen Rebecca muss ich hier noch einfügen.
+Da wird Rebecca sich aber freuen
+Hier ist der Teufel los
+Och nö
+Ich habe geträumt, dass du stirbst
+Nur die dümmsten Kälber wählen ihre Schlächter selbst.
+Wenn man einen Gedanken verdrängen will, kann es helfen, Assoziationsketten zu bilden.
+Das hilft auch beim Einschlafen.
+Larissa hört auf ihrem MP-drei-Player meistens epische Filmmusik.
+Ursprünglich aus Mangel an Konkurrenz eingestellt, hat sich Lydia als wahre Perle herausgestellt.
+Deutsche Synchronsprecher werden oft zu Unrecht kritisiert.
+An dieser Stelle möchte ich mal ein Lob für die gute Arbeit aussprechen.
+Die Braut muss den Strauß rückwärts in die Menge werfen.
+Wer ihn fängt, muss tanzen.
+Man sieht ihm voll an, dass der Bräutigam aufgeregt ist.
+Willst du mich heiraten?
+Diese Frage muss jede digitale Assistentin verstehen.
+Ihr dürft euch jetzt küssen.
+Die beiden prügeln sich, dass die Fetzen fliegen.
+Lea ist meine neue Assistentin.
+Krabben werden noch auf dem Kutter gekocht.
+Damit Tanzen gut aussieht, braucht es Profis und eine Choreografie.
+Der Dichter nahm einen Schluck, wurde noch dichter und gab sich einen Ruck.
+Lasst uns noch ein bisschen bleiben und Sätze für Mozilla schreiben.
+Trinkt das, was man trinken kann, denn es regt den Geiste an
+Die Arena ist heut' ausverkauft, man will sehen, wer sich rauft.
+Es tritt im Ring zum Kampfe an: Der Papst und wer zuletzt gewann.
+Ein Boxkampf gegen alle Trends: Der Meister gegen seine Abstinenz.
+Fäuste fliegen, die Erde bebt, der Meister hat ihn flachgelegt.
+Alle rufen laut: Chapeau, es ist ein technischer K.o.
+Der Kuchen ist lecker.
+Ich hoffe das war nicht zu gemein, denn ein bisschen Spaß muss sein
+Und Nora bekommt noch ein paar Küsse für ihre poetischen Ergüsse.
+Es regt sich was.
+Sibylle hat angerufen und wollte dich sprechen.
+Ob es wirklich so war, sei mal dahingestellt.
+Im Zuge von Sparmaßnahmen wurde ein Drittel der Belegschaft entlassen.
+Nun zeige ich Ihnen noch unser Archiv, fuhr Jacqueline fort.
+In ihren Händen hielt Lotte den aktuellen Katalog.
+Melanie wedelte bereitwillig mit dem Kontoauszug, um sich einen Vorteil zu verschaffen.
+Es ist eine perfide, aber effektive Strategie.
+Wikipedia hat mit einem Autorenschwund zu kämpfen.
+Mein lieber Scholli
+Annabel knurrt der Magen.
+Wo zum Henker sind wir?
+Was hat Ingrid sich da für eine Pille eingeworfen?
+Karina meint, dass sich die Misere noch weiter fortsetzen wird.
+Gott sei Dank hat Judith einen Kompass.
+Die Truppe wird heute zehn Kilometer marschieren.
+So kann es nicht weitergehen.
+Zügeln Sie Ihre Zunge
+Pauline ist nicht in der Stimmung, Gefangene zu machen.
+Inhaltlich hat Nora noch nicht wirklich etwas gesagt.
+Was ist hier eigentlich die Taktik?
+Jessica, das war spitze
+Eine gemeinsame Lösung ist alternativlos.
+Eine Zivilperson wurde im Kreuzfeuer getötet.
+Paula plädiert für Maßnahmen, um solche Kollateralschäden in Zukunft zu vermeiden.
+Auf zur nächsten Etappe
+Der Seifenspender ist fast leer.
+Alles hat ein Ende, nur die Wurst hat zwei.
+Im Interview zeigt sich Karoline zuversichtlich.
+Die Konferenz endete mit einem eindringlichen Plädoyer an die Teilnehmer.
+Petra gehört auch zu den alteingesessenen Mitgliedern.
+Vulkanausbrüche können den Flugverkehr lahmlegen.
+Als stellvertretende Sprecherin des Konzerns ist Susanne eine beliebte Gesprächspartnerin der Presse.
+Was ergibt die Integration von minus unendlich bis plus unendlich?
+Elfriede möchte ein Zeichen der Zuversicht setzen.
+Wissenschaftler des Helmholtz-Zentrums für Ozeanforschung haben Bedenken wegen der Nebenwirkungen.
+Ich weiß nicht, warum Annabel sich der Illusion hingibt, sie hätte alles im Griff.
+Vanessa findet, dass der Debatte nicht genügend Wichtigkeit beigemessen wird.
+Das ist eine altbekannte Taktik.
+Renate hält die Vorstellung für utopisch.
+Automatisiertes Verfassen von Artikeln ist längst keine Utopie mehr.
+Rosa arbeitet für ein Marktforschungsinstitut und macht Telefonumfragen.
+Das Kontingent ist bereits aufgebraucht, bedauerte Olivia.
+Nö, lieber nicht, antwortet Petra.
+Seit sechs Monaten wartet Renate auf ein Spenderorgan.
+Abgerundete Ecken sind keine Innovation.
+Da kann Tabea aber nichts für, widersprach Cornelia.
+Sie umarmte und küsste ihn mit Leidenschaft.
+Bei dem Versuch, sich die Funktionsweise eines Planetengetriebes vorzustellen, wurde Ilse schwindelig.
+Ich glaube, Sabrina ist absolut schwindelfrei.
+Susanne hat Höhenangst.
+Für klaustrophobe Menschen wie Sibylle wäre das nichts.
+Knallharter Bodycheck
+Linda führt ein Doppelleben.
+Versuchen Sie, einen Tag lang auf Anglizismen zu verzichten, schlug Cornelia vor.
+Es wird Ihnen nicht gelingen.
+Wenn du deinen Spinat nicht aufisst, gibt es für dich keinen Nachtisch.
+Jetzt hat Jessica die Zügel in der Hand.
+Ich denke, insgeheim hat Stefanie sich schon so etwas gedacht.
+Durch vernünftige Planung kann man effektiv verhindern, dass man Lebensmittel wegschmeißen muss.
+Für Singles ist es besonders einfach.
+Ach, das sind alles Ausreden, widersprach Veronika energisch.
+Ich leih mir ein Fahrrad beim Hotel, meinte sie.
+Wenn Computer von Menschen lernen, dann lernen sie oft auch Vorurteile.
+Dreimal im Jahr gibt es unangekündigte Kontrollen.
+Beachten Sie die Regeln der guten Küchenhygiene.
+Ute konnte Entwarnung geben.
+Jedenfalls nicht aus pädagogischer Sicht, ergänzte Michaela.
+Rechtlich gesehen gibt es einen Unterschied zwischen einer Steuer und einer Abgabe.
+Valerie wohnt in einem alten Plattenbau aus DDR-Zeiten.
+Der Tacker müsste in der zweiten Schublade von oben sein.
+Die deutsche Sprache verwendet unglaublich viele Kofferwörter.
+Dadurch werden einzelne Wörter sehr lang, was vielen Ausländern kompliziert erscheint.
+Sprachverarbeitende Software muss diesen Umstand erkennen.
+Der Fall ist klar wie Kloßbrühe.
+Jetzt muss Linda auch ihren Senf dazugeben.
+Silvana musste viel Kritik für ihre Salamitaktik einstecken.
+Verflixt und zugenäht
+Weil es ihr zu bunt wurde, hat Ute nun eine Petition eingereicht.
+Wo zum Kuckuck steckt Valerie?
+Coole Karre, Kumpel
+Der antike Traktor hatte eine Fehlzündung.
+Nee, so doch nicht
+Tamara kommt beruflich viel herum.
+Sie können meine Aussage doch nicht so aus dem Zusammenhang reißen
+Aufgabe der Schule ist Bildung, nicht Ausbildung, erinnert der Direktor die Eltern.
+Mein rechter Platz ist frei, ich wünsche mir Marleen herbei.
+Jeanette ist passionierte Seglerin.
+Um elf Uhr werden wir eine Schweigeminute für die Opfer des Anschlags einlegen.
+Es ist mir ein Rätsel, wieso Silvana nicht mitkommen will.
+Maja und Elfriede jedenfalls wollen sich das Spektakel nicht entgehen lassen.
+Irene streitet vehement alles ab.
+Was willst du damit andeuten?
+Aufklärung ist uns wichtig, versichert Jennifer.
+Kannst du Marleen bitte ausrichten, dass ich heute etwas später komme?
+Wir behalten uns vor, einzelne Forenbeiträge ohne Begründung zu bearbeiten oder zu löschen.
+Das sollten wir bekanntgeben.
+Lass uns diskutieren.
+Mach doch selber, entgegnete Vanessa trotzig.
+Silvia fühlt sich fit wie ein Turnschuh.
+Labere mich nicht voll.
+Ohne Murren ließ Jeanette die Prozedur über sich ergehen.
+Der Wärter nuschelte irgendwas in seinen Bart, gewährte den Touristen dann aber Zutritt.
+Nun halt endlich deinen Mund, du Plappertasche, zischte Silvia verärgert.
+Warum ist Melinda heute bloß so wortkarg?
+Das ist sonst gar nicht ihre Art.
+Mir platzt gleich der Kragen.
+Nur zu, entgegnet Fanny schnippisch.
+Du traust dich ja eh nicht.
+Diese Provokation konnte Maja nicht auf sich sitzen lassen.
+Wenn Melinda und Irene miteinander telefonieren, plaudern sie üblicherweise stundenlang.
+Von all dem Gequassel hatte Tamara Kopfschmerzen bekommen.
+Manchmal konnte Elisabeth echt anstrengend sein.
+Nun halt mal die Luft an
+Fanny referiert über eine vom Aussterben bedrohte südostasiatische Vogelart.
+Ihr sabbelt mir zu viel.
+Melissa redet viel, wenn der Tag lang ist.
+Uschi schwatzte noch ein wenig mit Margret, die sie auf dem Weg getroffen hatte.
+Die Luftwaffe hat uns soeben eine Nachricht übermittelt.
+Irgendwie prahlen autoritäre Staaten immer mit ihrem Militär.
+Jeder hat es gedacht, aber keiner traute sich, es zu verbalisieren.
+Sie können Ihre Entscheidung jederzeit schriftlich oder mündlich widerrufen.
+Die Wiedergabe wurde kurz pausiert, damit man sich besser verstand.
+Ursula will noch weiter klönen, aber Wiebke hat keine Zeit mehr.
+Es nützt nichts, über den Schiedsrichter zu lamentieren.
+Uns läuft die Zeit davon.
+Langsam sollten wir darüber nachdenken, ob wir nicht radikalere Methoden anwenden müssen.
+Maren hat aus Notwehr gehandelt.
+Diese Stiefel möchte ich gerne umtauschen.
+Haben Sie noch den Kassenbon?
+Wenn das Geld nichts mehr Wert ist, gewinnen Tauschgeschäfte mit Naturalien an Bedeutung.
+Ich flehe dich an, gib mir eine letzte Chance
+Wir sind einem Mythos auf der Spur.
+Vielleicht ist es der größte Mythos der Menschheitsgeschichte.
+Bei solchen Temperaturen können giftige Dämpfe entstehen.
+Hier haben die Handwerker ganz klar gepfuscht.
+Pfusch am Bau ist keine Seltenheit.
+Xenia ist leidenschaftliche Tänzerin.
+Margot reibt sich vor Vorfreude die Hände.
+Du hättest dein Gesicht sehen sollen
+Nicht anfassen
+Nichtmal angucken
+Das System ist narrensicher.
+Kinder genießen sowieso Narrenfreiheit.
+Möchten Sie einchecken?
+Rena muss sich mal wieder wichtig machen.
+Neulich dachte Uschi, sie bekäme einen Herzinfarkt.
+Wir regeln das später.
+Ferdinand möchte Xenia einen Heiratsantrag machen.
+Das ist doch totaler Schwachsinn.
+Das wollte ich schon immer mal loswerden.
+Nun krieg dich mal wieder ein.
+So einen Kater hatte ich noch nie.
+Was zum Geier ist hier nur los?
+Aha, so ist das also.
+Nelly hat sich fast die Finger geklemmt.
+Sie haben eine leichte Gehirnerschütterung.
+Finden Sie es heraus
+Lass uns alles abfackeln.
+Der Typ ist vollkommen irre
+Der Flug wurde annulliert.
+Es bricht mir das Herz.
+Wer ist dieses Mädel?
+Das wirft ein schlechtes Licht auf mich.
+Du bist ein Krümelmonster.
+Unser Wagen ist dann wohl Schrott.
+Untersteh dich
+Kneif mich mal.
+Wartet, Jungs
+Patricia schläft tief und fest.
+Tatjana ist total verstrahlt.
+Das Blatt hat sich gewendet.
+Hier muss eine Verwechslung vorliegen.
+Du Schlingel
+Die drei Rabauken hatten schon wieder die nächste Rauferei begonnen.
+Das Verhalten der Geschäftsführerin ist skandalös.
+Wenn das rauskommt, werden Köpfe rollen, das kann ich dir garantieren.
+Vorwärts, aber zack zack
+Schere, Stein, Papier.
+Elisabeth reibt sich verwundert die Augen.
+Sieh mich an, ich sehe aus wie der letzte Dorftrottel
+Wie Sie also sehen, ist das Ergebnis zumindest nicht komplett hanebüchen.
+Wir wollen Margot einen Streich spielen.
+Yvonne wurde in eine Talkshow eingeladen.
+Mit ihrer Firma ist Tatjana ordentlich am Kohle scheffeln.
+Meine Armbanduhr ist wasserdicht.
+Der Tankwart sah zottelig aus und hatte deutlich sichtbare Augenringe.
+Sachte, sachte, rief Maren.
+Mach mal hinne.
+Wiebke befestigt die Leine am Halsband und geht mit ihrem Hund vor die Tür.
+Das ist doch kein Grund so auszuflippen, erwiderte Olga.
+Das ist ja der springende Punkt.
+Ehe sie sich versahen, stand der Knecht bereits vor ihnen.
+Molly krallte sich sogleich eine Schachtel Zigaretten.
+Entschuldigen Sie, fährt dieser Zug nach Rosenheim?
+Ist ja widerlich
+Herr Hildebrand sitzt vor einem Kreuzworträtsel und sucht ein Dschungeltier mit fünf Buchstaben.
+Der Auftritt von Marissa war phänomenal.
+Das Moderatoren-Duo ist für seine Sticheleien und Seitenhiebe bekannt.
+Zum Jahresende zeigt der Sender immer solche Klassiker.
+Marissa trug einen eleganten Schleier.
+Beide konnten erhobenen Hauptes die Auseinandersetzung verlassen.
+Margret versucht mit allen Mitteln, die drohende Katastrophe abzuwenden.
+Nachdenklich steckte Ferdinand sich eine Zigarre an und paffte.
+Sagen Sie, gibt es so etwas wie den absoluten Verkaufsschlager ihres Unternehmens?
+Krokodilklemmen sind nicht für langfristige Verbindungen geeignet.
+Ina hat sich einen Verschlüsselungstrojaner eingefangen.
+Mit ihrem Schlitten ist Melissa eine Böschung herabgestürzt.
+Dank der Seilwinde konnte er wieder auf die Straße gezogen werden.
+Patricia warnte ihre Mitspielerinnen.
+Dabei bewegte sie sich in Sachen Wortschatz und Satzbau auf dem Niveau einer Zweijährigen.
+Viktoria und die anderen haben sich köstlich amüsiert.
+Da muss Ina sich geirrt haben.
+Für viele ist Europa das Paradies auf Erden.
+Die Stelle wurde in der deutschen Fassung zensiert.
+Mit Belustigung betrachtet Rena die Zotteln ihres Sohnes.
+Es ist schon eigenartig.
+Der Tiger schärfte seine Krallen.
+Der Wicht zitterte an allen Gliedern.
+Er fror am ganzen Leib.
+Der Steuermann lehnt sich über die Reling.
+Gegen Mittag muss der Frachter mit einer Nussschale kollidiert sein.
+Bis dahin dürften sich die Wogen geglättet haben.
+Das Band muss wirklich straff gezogen werden.
+Ist anklopfen zu viel verlangt?
+An der Litfaßsäule hängt noch immer die selbe Reklame wie vor einem Jahr.
+Verächtlich blickte ich den Jäger an.
+Aus einem Zimmer war ein elendes Wimmern zu vernehmen.
+Stramm stand die Horde in Reih' und Glied aufgestellt vor dem Befehlshaber.
+Niemand wagte es zu widersprechen, denn er war nicht für seine Gnade bekannt.
+Möchte der gnädige Herr vielleicht etwas verzehren?
+Nach einer langen Jagd wäre eine Stärkung doch sicherlich angebracht.
+Ist doch alles nur Fassade.
+Der Kobold naschte vom grüngelben Schleim.
+Jetzt habe ich den Faden verloren.
+Zusammen sind wir stark
+Am Ende wird es wieder in eine Fressorgie ausarten.
+In Besprechungen stellt sie ihr Handy immer auf Vibration.
+Vom anfänglichen Glanz ist nicht mehr viel übrig.
+Es ist ein riesiges Gewimmel, das sich bis zum Horizont erstreckt.
+Die Würfel sind gefallen.
+Allianz ist ein gutes Stichwort.
+Apropos Kosmos.
+Wann wurden die Nomaden sesshaft?
+Und jetzt machen wir alle den Hampelmann
+Sein Ferrari hat Flügeltüren.
+Haben wir noch genügend Rohstoffe?
+Der Befund ist ohne Makel.
+Man kann Karotten auch roh essen.
+Die Helferin nahm eine Ampulle aus dem Schrank und zog eine Spritze auf.
+Ich lasse mir nicht von anderen vorschreiben, ob ich einen Minirock tragen darf.
+Wie sollen die Möbel aufgestellt werden?
+Man sollte digitale Technik nicht nutzen um ihre Nutzer zu versklaven.
+Woher hat der Knabe nur seine Aggressionen?
+Er ist ein psychisches Wrack.
+Es ist eine Schande, was passiert ist.
+Der Motor ist im Heck verbaut.
+Vorsicht, hier gibt es Sporen.
+Mir war das sündhaft teure Restaurant zu nobel.
+Sie findet das super.
+Dein Smartphone hat vibriert, als du weg warst.
+Ich rauche nicht seit zwei Jahren.
+So ist es nichts halbes und nichts ganzes.
+Seine Rede kann man nur als zynisch bezeichnen.
+Genaues Zielen ist erforderlich, also volle Konzentration
+Die Wunde wird verheilen, aber eine Narbe wird bleiben.
+Jeder ist seines eigenen Glückes Schmied.
+Mittlerweile hat sich eine Kruste gebildet.
+Es ist pervers, dass derlei Schandtaten immer noch als Kavaliersdelikt angesehen werden.
+Der gesamte Innenbereich war in mühevoller Fleißarbeit blitzblank geputzt worden.
+Ihr seid doch total durchgeknallt
+Sie ist mitnichten eifersüchtig.
+Ich wünschte, ich könnte mich klonen.
+Dreh mir bitte keinen Strick daraus.
+Meteorologen sagen einen milden Winter voraus.
+Dann wird es nichts mit dem Rodeln.
+Lass uns doch einfach etwas chillen.
+Ach, ist das öde.
+Betrachte es als Investition.
+Jawohl, so soll es geschehen.
+Das Mädel hat Talent.
+Nee, Fräulein, so nicht
+Manche neigen zu Überheblichkeit gegenüber der Jugend, wenn sie alt werden.
+Dir stehen doch alle Möglichkeiten offen
+Welch ein haarsträubender Fehler
+Um Haaresbreite wäre die Flucht misslungen.
+Niemand kann sich dem Fluch des Alterns entziehen.
+Der Tod ist eine Notwendigkeit im Kreislauf des Lebens.
+In seiner Schusseligkeit bewirkte der Magier das Gegenteil von dem, was er wollte.
+Du bist aber auch dusselig.
+Doch sei gewarnt, das Pendel wird eines Tages mit voller Wucht zurückschwingen
+Das ist sehr metaphorisch gesprochen.
+Aber was heißt das im Klartext?
+Ob ich den Code je in seiner vollen Tiefe durchdringen werde, erscheint fraglich.
+Es ist die Fliehkraft, die den Motor bei zu hoher Drehzahl zerstört.
+Ich bin ein Fan von mechanischen Notausschaltern.
+Nichts ist so ausfallsicher wie simple, robuste Mechanik.
+Kein Computervirus kann sie beeinflussen.
+Das Messer ist stumpf.
+Hast du mal einen Anspitzer?
+Hast du einen Spitznamen?
+Früher konnte man nach Herzenslust mit Überschall über den Ozean ballern.
+Jedenfalls wenn man reich war.
+Ein Parabelflug kostet ein paar tausend Schweizer Franken pro Person.
+Bei Überschallgeschwindigkeit ist der Schleudersitz keine gute Idee.
+Andernfalls bekommt man am eigenen Leib zu spüren, was der Begriff Schallmauer bedeutet.
+Für den Landeanflug konnte die Concorde ihre Nase absenken.
+Sehr verehrte Fluggäste, machen Sie sich auf Turbulenzen gefasst.
+Wie kann man nur seine eigene Kreditkarte verschlampen?
+Asche auf mein Haupt
+Zur Einrückung werden Leerzeichen verwendet, nicht Tabulatoren.
+Nun zum Inhalt.
+Das Attribut wurde nicht gesetzt.
+Brauchst du ein Pflaster?
+Findest du mich oberflächlich?
+Svea tastet sich langsam voran.
+Die Stadtmauer steht unter Denkmalschutz.
+Ein tiefer Graben und Stacheldrahtzaun – hätte nicht eines von beidem gereicht?
+Wer balanciert da auf dem Schwebebalken?
+Achtung, der Poller hebt und senkt sich automatisch.
+Sei Epsilon kleiner als Null.
+Wir können die Position genauso gut als Radius R und Winkel Phi beschreiben.
+Aus Lärmschutzgründen hat man neben der Hauptverkehrsader einen Wall aufgeschüttet.
+Lehnen Sie sich nicht über die Schranke
+Frankfurt ist eines der Drehkreuze für internationalen Luftverkehr.
+Neunzehnhundertzweiundachtzig wurde der Staudamm errichtet.
+Am Ende des Gleises befindet sich ein Prellbock.
+Wir nehmen den Lift.
+Von dort führen die Leitungen zum Umrichter.
+Erzähl das dem Richter.
+Das Brummen des Trafos ging manchem auf den Senkel.
+Mir ist schon wieder ein Schnürsenkel gerissen.
+Das Silo ist fast voll.
+Auch für Erdkabel müssen Schneisen in den Wald geschlagen werden.
+Ein Schacht dient dem Transport der Bergleute, der andere nur zur Belüftung.
+Charakteristisch für die Passstraße sind die vielen Lawinentunnel.
+Hat dein Schwiegervater nicht so ein antikes Teleskop auf dem Dachboden?
+Es ist ein Kampf gegen Windmühlen.
+Der Bericht ist Wasser auf die Mühlen der Atomkraftgegner.
+Bald soll die alte Fabrik abgerissen werden und neuer Wohnraum entstehen.
+Dann haben wir ja noch Zeit, um an den Strand zu gehen.
+Halt mal kurz meine Angel.
+Und nun begrüße ich Herrn Richter im Studio.
+Spielen Sie Golf?
+Der See ist die ideale Location für ein Picknick.
+Wo geht es zum Stadion?
+An der Rennbahn gibt es eine eigene Haltestelle.
+Man hat bei ihr eine krümelige, weiße Substanz gefunden.
+Das ist eine Tatsache.
+Sie sieht den Wald vor lauter Bäumen nicht.
+Im Hotel bediente er sich an der Minibar.
+Den Kerl habe ich gestern an der Bar getroffen.
+Kannst du uns ein Lokal empfehlen?
+Fürs erste Date bietet sich ein öffentlicher Ort an, wie etwa ein Café.
+Um die Ecke gibt es eine Eisdiele.
+Die Dielen knarren ganz entsetzlich.
+Wann haben Sie sich an der Universität eingeschrieben?
+Der Weg ist nicht gestreut.
+Uns ist das Streugut ausgegangen.
+Eigentlich wollte Svea Betriebswirtin werden, jetzt fährt sie Taxi.
+Ich muss mal schnell mein Smartphone fragen, wo der nächste Geldautomat ist.
+In ihrer Verzweiflung gab sie ihr Kind in der Babyklappe ab.
+Oma liegt noch in der Rehabilitierungsklinik.
+Im Altenheim wird fleißig Bingo und Kniffel gespielt.
+Wer hat Lust auf eine Runde Bullshit-Bingo?
+Willkommen im Club
+In einem alten Wasserturm der Stadt hat man nun ein Planetarium errichtet.
+Ich suche das Tierheim.
+Die türkische befindet sich gleich neben der slowakischen Botschaft.
+In Hamburg sind die Mülleimer mit kreativen Sprüchen bemalt.
+Komm her, du faule Socke
+Die Vermittlungsgebühr für den Makler hätte sie sich gerne gespart.
+Sind Sie auf der Suche nach einer Immobilie?
+Wir stehen hier mitten in der Wüste.
+Der Saunabereich ist textilfreie Zone.
+Um die Verletzungsgefahr zu verringern, nehmt bitte euren Schmuck ab.
+Wie wär's mit einer Tasse Kräutertee?
+Dekoration darf niemals die Funktionalität beeinträchtigen.
+Was für eine hässliche Lampe
+Lass uns noch Fliesen für das Wohnzimmer aussuchen.
+Schwamm drüber.
+Das ist Schnee von gestern.
+Du saugst Wissen auf wie ein Schwamm.
+Was meinst du damit?
+Schwämme sind die wohl primitivsten Vielzeller, die es gibt.
+Wenn sie eines nicht aufsaugen, dann ist es Wissen.
+Wir sollten uns eine Antiquität als Andenken mitnehmen.
+Und nun die Lottozahlen.
+Tickets gibt es an allen üblichen Vorverkaufsstellen.
+Da ist noch Pfand drauf, also nicht kaputt machen.
+Wer kümmert sich um die Pyrotechnik?
+Der Alte stopfte sich Tabak in die Pfeife.
+Vielleicht ja beim nächsten Softwareupdate.
+Damit kann man ja heutzutage Wunder bewirken.
+Mach dich nicht verrückt.
+Reg dich nicht auf.
+Er sprach in der dritten Person von sich selbst.
+Unterlass das.
+Der Radweg ist so stark unterwurzelt, dass man darauf nicht mehr fahren mag.
+Der Bauer zog eine Wurzel und erhielt fünf.
+Akupunktur funktioniert nicht, wenn man nicht dran glaubt.
+Es ist ein bisschen wie Voodoo.
+Also sollte man beides kombinieren und die Voodoo-Puppe einer Akupunktur unterziehen.
+Es ist Zeit, die Saat auszustreuen.
+Genmanipuliertes Soja spielt eine wichtige Rolle bei der weltweiten Produktion von Tierfutter.
+Vergessen Sie es, ich bin nicht bestechlich.
+Ich muss noch schnell zum Metzger.
+Satzzeichen retten Leben und Ehen, die Beispiele dafür sind hinlänglich bekannt.
+In der Redaktion sind alle damit beschäftigt, die nächste Sensation zu jagen.
+Wie wäre es hiermit?
+Das erotische Schälen einer Banane ist in China verboten.
+Dein Timing ist denkbar schlecht.
+Mach gefälligst die Tür zu.
+Wo bitteschön steht das?
+Wie kann man nur so lernresistent sein?
+Volltreffer
+Der hat gesessen.
+Kümmern Sie sich gefälligst um Ihren eigenen Kram.
+Basti ist vieles, aber bestimmt kein Geizhals.
+Schließlich einigte man sich auf einen Kompromiss.
+Schnuffi muss erst noch sein Revier markieren.
+Legen Sie eine notariell beglaubigte Kopie des Zeugnisses bei.
+Oh Gott, ein Monster
+Wir werden alle sterben
+Niemand wird gezwungen.
+Von freiwillig kann nicht die Rede sein.
+Es duftet nach frischem Kaffee.
+Der Duft von Frühling strömte in ihre Nase.
+Das geht auf keine Kuhhaut.
+Der Beschluss wurde mit einer Gegenstimme angenommen.
+Zusammengefasst ist mein Job, meinen Job abzuschaffen.
+Gar nicht übel für einen Anfänger.
+Ist dir nicht gut?
+Du bist ja ganz blass um die Nase.
+Sie brauchen kein Antibiotikum, sondern einfach einen Tag Bettruhe.
+Sie zog kräftig an der Zigarette und hustete.
+Gibt es hier keinen Aschenbecher?
+Wieso tust du dir das an?
+Habe ich denn eine Wahl?
+Die Zeichenkodierung kommt nicht mit Umlauten klar.
+Für Quelltext ist bitte immer die UTF-acht-Kodierung zu verwenden.
+Meine Erinnerung daran ist schon sehr verblasst.
+Aus Mitleid kaufte Henrike dem frierendem Obdachlosen eine Jacke.
+Der Hausmeister hat uns gerade noch gefehlt.
+Ich gebe zu, dass es ein unkonventionelles Verkehrsmittel ist.
+Aber ohne meinen Raketenrucksack fühle ich mich wie ein Sterblicher.
+Putzfrauen sind ideale Spione.
+Das Projekt ist im Rahmen einer Kooperation zwischen öffentlichen Hochschulen und privater Wirtschaft entstanden.
+Herr Ober, wir möchten zahlen.
+Nach und nach zeigt sich, wer die Oberhand gewinnt.
+In der Agrarpolitik wäre es ein Novum.
+Im Kabarett wurde humorvoll vorgeführt, wie eine solche Abschottung aussehen könnte.
+Mit einem Weltraumaufzug wären plötzlich Raumfahrtmissionen von bisher unerreichter Dimension möglich.
+Wann werden wir endlich Spinnenfäden in großem Stil synthetisieren können?
+Dann ist ja wieder alles im Lot.
+Die Zahnärztin versuchte vergeblich, den hartnäckigen Belag zu entfernen.
+Wir haben alles an Textilien, was Sie sich nur vorstellen können.
+Der Mönch führte uns zur Gruft nahe des Klosters.
+Der Ingenieur betrat das Dock und inspizierte den Schaden am Bug.
+Ihr könnt mich doch nicht einfach zurücklassen
+Aussehen ist nicht alles.
+Die Blondine da drüben ist sehr attraktiv.
+Ariane hat sich in einer Konditorei beworben.
+Herr Bäcker nahm Platz in seinem Ledersessel.
+Das Bier aus der stadteigenen Brauerei hat zwar Tradition, schmeckt aber nicht wirklich.
+Wenn die Matratze durchgelegen ist, kann es fürs Erste bereits helfen, sie umzudrehen.
+Meine Therapeutin wollte mir eine Hypnose nahelegen.
+Das Antibiotikum ist täglich oral einzunehmen.
+Also machten sich die Ermittler auf zum Leichenschauhaus.
+Vom nächtlichen Sturm lagen überall Äste auf den Wegen.
+Ich muss die DVD bis Donnerstag in die Videothek zurückbringen.
+Unser Kirschbaum ist von Parasiten befallen.
+Frau Hildebrand ist voll in ihrem Element.
+Bei uns blüht der Kleine richtig auf.
+Bastian geht zum Amboss und hämmert auf ein Metallteil ein.
+Wie läuft eure Spedition?
+Eher schlecht als recht.
+Ein Sieg würde sie an die Spitze der Tabelle katapultieren.
+Was ist das für ein Gewürz?
+Zum Schluss kommt noch eine Priese Salz hinzu.
+An der Küste weht immer eine steife Brise.
+Heute haben wir Windstärke fünf mit teils orkanartigen Böen.
+Aus etwas Pappe könnt ihr euch das auch selber basteln.
+Mit einer Zwille bewaffnet legt sich Herr Meier auf die Lauer.
+Teil der Ausstellung ist ein mittelalterliches Katapult.
+Auch sonst ist die Vorstellung sehr eindrucksvoll gewesen.
+Verzeiht mir meine Obszönitäten.
+Womit hast du die Ravioli gefüllt?
+Mit Rinderfleisch
+Egal, es ist echt lecker.
+Jetzt wirst du aber unsachlich.
+Frau Hoppe fühlt sich ausgelaugt und lässt sich daher eine Massage geben.
+Zunächst sollten wir das Fell nach Flöhen und anderen Parasiten absuchen.
+Du hast eine Zecke am Rücken.
+Habt ihr eine Zeckenzange?
+Nein, aber eine Pinzette.
+Unter den rigorosen Maßnahmen waren sicher auch einige, die gegen die Genfer Konvention verstoßen.
+Den Markt dominieren im Wesentlichen zwei Drogerieketten.
+Was sagt der Notar dazu?
+Ich mag kein Gemüse.
+Kann es sein, dass dein Freund nur imaginär ist?
+Wenn es in dem Schneckentempo weitergeht, sitzen wir morgen noch hier.
+Mit ihrem Grubenorgan können Schlangen Infrarotlicht wahrnehmen.
+Dank der Rezeptoren können sie nachts Jagd auf Warmblüter machen.
+Nach der Paarung frisst das Weibchen oft das deutlich kleinere Männchen auf.
+Die Natur ist schon brutal.
+Es gibt zwanzig Prozent Rabatt auf Tiernahrung.
+Der Zigarettenautomat will einen Perso sehen.
+Wenn du sie nie auflädst, wird deine SIM-Karte irgendwann deaktiviert.
+Wir brennen uns unsere eigenen Spirituosen.
+Von außen angeklebtes Styropor ist eine minderwertige Form der Gebäudedämmung.
+Wer kann mir einen berühmten Maler der Postmoderne nennen?
+Wie lange muss ich den Gips tragen?
+Magdalena macht einen Töpferkurs.
+Die Pferde sind gesattelt.
+Lass uns die Markise ausfahren.
+Man muss nicht immer erreichbar sein.
+Dein Zimmer ist ein einziges Schlachtfeld.
+Am Telegrafenmast kann man sich gut orientieren.
+Wir sind ruiniert.
+Die Urne darf nicht geöffnet werden, bis die Auszählung beginnt.
+Wenn man Hydranten umfährt, gibt es so schöne Wasserfontänen.
+Mein Aquarium muss mal wieder gereinigt werden.
+Bei guter Sicht kann man von hier die Ruine erblicken.
+Danke nein, ich bin Veganer.
+Langsam aber bedrohlich näherte sich der Löwe.
+Seine Mähne flatterte im Wind.
+Dann machte er eine unmissverständliche Drohgebärde und wir rannten davon.
+Mit einem Satz landete der Jaguar vor uns und fauchte uns an.
+Eine kleine Farm zierte den Hang.
+Nun zier dich nicht so.
+Ein Schaf ist trächtig und deshalb nicht schnell genug, um zu flüchten.
+Die Yoga-Lehrerin nimmt eine unmöglich aussehende Pose ein.
+Der Steinmetz präsentierte uns eine Vielzahl verschiedener Grabsteine.
+Das Fleisch ist zart und schmeckt vorzüglich.
+Im April läuft mein Personalausweis ab.
+Nennen wir es weibliche Intuition.
+Kann man das so stehen lassen?
+Torben hat die Schnauze voll.
+Durch die semipermeable Membran entsteht ein osmotischer Druck im Rohr.
+Warum sind Eier oval und nicht kugelförmig?
+Sie hält Tarek für einen Schwächling.
+Das Fahren auf zwei Rädern ist ein cooler Stunt, aber mit Differentialgetriebe kaum möglich.
+Die ersten Hybridantriebe aus Diesel- und Elektromotor wurden in U-Booten verbaut.
+Woher kommen die Artefakte?
+Tarek biss in sein Roggenvollkornbrot.
+Durch die Phasenverschiebung können wir sehr hohe Blindströme messen.
+Der Bügel lässt sich erst in der Station öffnen.
+Radionuklidbatterien sind für Jahrzehnte zuverlässige Energiequellen.
+Doch Torben blieb stumm.
+Der Konzern fürchtet um seine Reputation.
+Ein anonymer Hinweis ließ den Schwindel auffliegen.
+Als gemeinnützige Stiftung geht es ihnen nicht um Profit.
+Winfried bereitet köstliches Gulasch zu.
+Hierzulande stoßen die Vorschläge des Pontifex auf nicht viel Zustimmung.
+Jetzt geht es ans Eingemachte.
+Erste Gerüchte über die genetische Manipulation von Weizen machen die Runde.
+Am Ecktisch fehlt eine Gabel.
+Deshalb sind wir froh, dass wir eine Sachverständige im Auditorium begrüßen dürfen.
+Frau Binder, Sie haben die aufgeführten Gründe des Monopolisten als fadenscheinig bezeichnet.
+Die Kriterien der Akademie gehören auf den Prüfstand.
+Deshalb sollten wir für mehr Akzeptanz werben.
+Die Betroffenen leiden oft jahrzehntelang an den traumatischen Erlebnissen.
+Zeigen Sie klare Kante
+Das Gummi ist nicht mehr zu gebrauchen, denn es ist mürbe.
+Hier wird fälschlicherweise der Eindruck vermittelt, man hätte die eierlegende Wollmilchsau gefunden.
+Die andere Prozedur berechnet die inverse Projektionsmatrix.
+Stolz zeigt Winfried seine Urkunde.
+Am einundzwanzigsten November erscheint die Biografie über den einstigen Rockstar.
+Für ihre Äußerungen erntete sie viel Spott und Hohn.
+Auch wenn es natürlich ein fiktives Szenario ist, wäre ein solcher Zwischenfall durchaus denkbar.
+Mir geht die Pumpe.
+Dann können wir ja einen Drachen steigen lassen.
+Der Drache rülpste und ließ dabei gelbe Schwefelwolken aus seinem Maul entweichen.
+Ein Schelm, wer Böses dabei denkt.
+Schmatzend verschlang er die gesamte Portion innerhalb kürzester Zeit.
+Über der Wüste von Nevada wurde ein Ufo gesichtet.
+Kann das weg?
+Elefanten haben Angst vor Bienen.
+Die Antivirensoftware ist amok gelaufen und hat alle Computer im Haus lahmgelegt.
+Die Vulkanisierflüssigkeit sorgt dafür, dass sich der Flicken mit dem Reifen verbindet.
+Der Anpressdruck ist entscheidend, nicht die Dauer.
+Wo ist denn jetzt der Nippel, den ich durch die Lasche ziehen muss?
+Es ist ein Bekenntnis ohne Wenn und Aber.
+Was würde Jesus tun?
+Den beiden Helden wehte ein bestialischer Gestank entgegen.
+Im Kessel brodelte und blubberte eine giftgrüne Suppe.
+Benedikt hasst es, wenn Dinge nicht an ihrem Platz sind.
+Gierig kippte er sich noch mehr von dem Zeug in den Schlund.
+In der Nähe der Arktis gerieten sie in einen Strudel.
+Der alte Kahn ächzte unter der Last.
+Von den vielen Krebsen hat der Kescher schon ganz viele Löcher bekommen.
+Nimmt man eckige oder geschweifte Klammern?
+Dieses Laster möchte ich Maximilian nicht aufbürden.
+Ich denke, was wir hören, ist bloß ein Echo.
+Wer von euch kann am lautesten kreischen?
+Wir wollen nämlich einen Horrorfilm vertonen.
+Welche Distribution mit Langzeitunterstützung nutzt du am liebsten?
+Da er keine Mütze hat, setzt Samuel seine Kapuze auf.
+Vor Inbetriebnahme muss die Zapfsäule geeicht werden.
+Ist die Präzision ausreichend?
+Bei wie viel Grad wird Milch pasteurisiert?
+Wer sich nicht an den Kodex hält, muss sterben
+Wir können noch einen weiteren Term eliminieren.
+Maximilian ist im Grunde ihrer Willkür ausgesetzt.
+Unsere Schraubenschlüssel sind unverwüstlich.
+Dann werde ich mir den Lümmel mal vorknöpfen.
+Julian findet das Ergebnis nicht befriedigend.
+Zum Glück hat Benedikt mir einen Impuls gegeben.
+Halten Sie sich einfach an unsere Richtlinien.
+Wie schafft man es, das Sieb so schnell verdrecken zu lassen?
+Das ist schon eine ziemlich dreiste Masche.
+Josephine hat die Aufgabe komplett nach Schema F gelöst.
+Der Sog hinterm Laster kann echt tückisch sein.
+Bei vier Leuten bietet sich eine Raute als Aufstellung an.
+Von Sandro und Johann hörte man nur pubertäres Gekicher.
+Danke für den Gedankenanstoß
+In dem Gerümpel sollen wir die Skulptur finden?
+Fett schwimmt oben, weil es eine geringere Dichte als Wasser hat.
+Bist du fit in linearer Algebra?
+Rückblickend muss man sagen, dass die Aktienkurse erstaunlich stabil blieben.
+Wem fällt ein Reim auf Asien ein?
+Es ist ein Teufelskreis.
+Es ist schwierig, ohne Hilfe aus der Abwärtsspirale auszubrechen.
+Johann beschlich ein unbehagliches Gefühl.
+Wen müssen wir schmieren, damit dieser Grünschnabel nix sagt?
+Diese Woche ernähre ich mich rein vegetarisch.
+Mit solch einer Standardfloskel kannst du nie etwas verkehrt machen.
+Beim Empfang werden Häppchen verteilt.
+Steffen zeigt sich flexibel.
+Reiß dich am Riemen
+Mit deiner Vorgesetzten habe ich sowieso noch ein Hühnchen zu rupfen.
+Was für ein Kaiserwetter, schwärmte der Österreicher.
+Ich habe gestern meine Steuern bezahlt.
+Die Späher werden sicher schnell eine seichte Stelle im Gewässer gefunden haben.
+Du musst jetzt ganz tapfer sein.
+Eine Dunstglocke aus Smog liegt über Stuttgart.
+Sehen ist ein passiver Vorgang.
+Helft bitte mit, die Tanne zu schmücken.
+Fein, erwidert Josephine, dann gib mir ein Stück Kreide.
+Ein Sockel aus Beton sorgt für die nötige Stabilität.
+Ganz großes Tennis
+Was ist achtundzwanzig geteilt durch sieben?.
+So drastisch würde ich es nicht ausdrücken.
+Ich will keinen Mucks hören, verstanden?
+Das Büro von Frau Prinz befindet sich in der dritten Etage.
+Scheint so, als wäre unsere Tarnung aufgeflogen.
+In Videospielen zielt man auf den Kopf, in der Realität auf den Torso.
+Hätte, hätte, Fahrradkette.
+Bei so viel Konfetti möchte ich nicht derjenige sein, der hinterher aufräumen muss.
+Lametta ist die liebloseste Weihnachtsbaumdekoration, die es gibt.
+Silke und Marco verkrümelten sich unauffällig, um allein zu sein.
+Saskia glaubt, dass er nur eine von Lobbyverbänden gesteuerte Marionette ist.
+Auf dem Weg haben wir einen Konvoi der Bundeswehr aus fünfzehn Fahrzeugen überholt.
+Armin scheitert daran, den Garn durch das Nadelöhr zu fummeln.
+Schnurgerade Rennstrecken eignen sich für Geschwindigkeitsrekorde, sind ansonsten aber langweilig.
+Ist die GPU überhaupt der Flaschenhals?
+In einem langen Schreiben ans Bildungsministerium kritisiert Steffi die derzeitige Umsetzung der Inklusion.
+Auf dem Griff sind Runen eingraviert, deren Bedeutung Sandro nicht bekannt sind.
+Die Mumie im Sarg war noch gut erhalten.
+So morsch, wie der Stamm ist, würde ich ihn lieber nicht als Lastenträger einsetzen.
+Nenn es Hashtag oder Lattenzaun, jedenfalls diese Taste neben Enter.
+Semantisch ist es natürlich Blödsinn, aber die Syntax ist korrekt.
+Nach der syntaktischen Analyse beschäftigen wir uns mit der Semantik.
+Verena ist erstaunt, dass in dieser heterogenen Gruppe alle so gut miteinander auskamen.
+Lothar ist Doktorand an der naturwissenschaftlichen Fakultät.
+Im Bistro gibt es nur überteuerte Snacks.
+Ich brauche was Richtiges gegen den Hunger.
+Der Kautschuk wird aus Thailand importiert und hier vulkanisiert.
+Ascorbinsäure, also Vitamin C, wird häufig als Konservierungsmittel eingesetzt.
+Vitamine lassen sich billig synthetisieren.
+Marion ist durch Vitamin B an die Stelle gekommen.
+Man muss nicht alles wissen.
+Viele Dinge kann man sich auch selbst erschließen.
+Umwege erhöhen die Ortskenntnis.
+Das besagt ein altes chinesisches Sprichwort.
+Das Personal ist hier aber wirklich aufdringlich.
+Durch den Kauf der neuen Anlage sind die Schulden dramatisch gestiegen.
+Kommunizieren Sie mit mir
+Durch einen elektrisierten Weidezaun ist die Koppel begrenzt.
+Auf der Weide grasen auch Ziegen.
+Insgesamt ist die Ziege ein genügsames Tier.
+Marina ist geradezu besessen von der Idee.
+Jetzt ringen die Geschiedenen um das Sorgerecht für die gemeinsamen Kinder.
+Heiko hatte einen fabelhaften Einfall.
+An diesem Heizkörper muss das Thermostat gewechselt werden.
+Logisch, nickt Saskia.
+Ist diese Leitung sicher?
+Wir werden abgehört.
+Es war wohl nur ein Klingelstreich.
+Du wirst dich nicht vom Fleck rühren, kapiert?
+In dieser Pauschalität können wir der Aussage nicht zustimmen.
+Wenn man zwei Sachen gleichzeitig tut, kommt bei beidem meistens nur Pfusch raus.
+Stress macht krank.
+Das war doppelt gemoppelt.
+Dank Schnellspanner ist die Demontage eine Frage von Sekunden.
+Der Pulli ist leider eingelaufen.
+Und nächstes Mal sind Sie gefälligst pünktlich
+Hau bloß ab
+Junge, bist du groß geworden
+Ich habe stopp gesagt.
+Rudi will nicht den ganzen Tag zu Hause hocken.
+Wir haben alle Ausgänge versiegelt.
+Bei all den Gütesiegeln weiß man einfach nicht mehr, welchem man vertrauen kann.
+Ein elektrisch betriebener Wagen rollte surrend an ihnen vorbei.
+Ich glaube nicht, dass es Selbstmord war.
+Und was macht Sie da so sicher?
+Gibt es schon Neuigkeiten aus der Forensik?
+Spiel das Hologramm nochmal ab.
+Wenn ihn jemand zur Vernunft bringen kann, dann Verena.
+Die Antwort liegt doch auf der Hand.
+Bevor Sie mir Ihre Dienstmarke gezeigt haben, glaube ich Ihnen gar nichts.
+Bleib locker, Mann
+Selbstredend haben wir auf Sicherheitsglas bestanden.
+Der Auswahlvorgang sollte interaktiver gestaltet werden, schlägt Saskia vor.
+Die Vorwürfe sind völlig absurd.
+Aber Lothar hatte den Finger schon am Abzug.
+Inge setzte wieder ihr Pokerface auf.
+Ich habe aber keine Lust auf langwierige Update-Orgien und Systemabstürze.
+In der Psychatrie versucht Doktor Henkel herauszufinden, wie sich diese Paranoia entwickelt hat.
+Folgende Lektüre kann ich Ihnen zum Thema Kognitionspsychologie empfehlen.
+Alle Einheiten werden im Hauptquartier zentral koordiniert.
+Dazu liegen noch keine klinischen Studien vor.
+Du hast einfach keine Fantasie.
+Dann bleibt ihm nur eine Anzeige gegen unbekannt.
+Die Deponie verschandelt das Stadtbild.
+Langsam pirschte er sich von hinten an.
+Das einzelne Tier wirkt dumm, erst als Volk betrachtet erkennt man die Schwarmintelligenz.
+Seid ihr noch immer auf der Suche nach der Codesequenz?
+Hast du noch was von dem Spray?
+Stillstand ist immer noch besser als Rückschritt.
+Ist es wirklich schon so spät?
+Wir bräuchten noch einen Saugnapf für die Lichterkette.
+Kommissar Bohrmann wurde vom Dienst suspendiert.
+Wenn hier einer aus der Reihe tanzt, wird er fertig gemacht.
+Lothar triumphierte.
+Es ist eine These, kein Satz.
+Anscheinend hat Ingeborg ihr Trauma immer noch nicht verarbeitet.
+Irrtümlich wurde die Straßenbahn mitsamt Passagieren ins Depot geleitet.
+Sie hat eine Reise nach Australien in der Lotterie gewonnen.
+Es muss sich grundlegend etwas ändern.
+Die einleitenden Worte hatten ihn verwirrt.
+Die Bucht eignet sich gut zum Erlernen der Segelgrundlagen.
+Im Hintergrund zirpen die Grillen.
+Das Gekritzel kann doch kein Mensch lesen.
+Wie lautet die Diagnose?
+Noch kannst du es reklamieren.
+Der Fuchs verfolgt eine ausgefeilte Strategie.
+Mit so wenig Profil hat man keinen Halt.
+Auf dem Rasen sind Schuhe mit Stollen empfehlenswert.
+Marina bevorzugt Schuhe mit Noppen.
+Gibt es denn kein Limit?
+Wo ist die dazugehörige Öse?
+Gleich nach der Geburt wird das Kalb von der Kuh getrennt.
+An der Oase machten sie Halt und ließen die Kamele ihre Höcker füllen.
+Sein Markenzeichen ist der gezwirnte Schnurrbart.
+Jenseits der Stadtmauern steht ein Krematorium.
+Mit seinem biegsamen Körper ist er optimal an seine Umwelt angepasst.
+Sie rückt ihm auf die Pelle.
+Die Situation droht zu eskalieren.
+Der Führer bläst zum Angriff ins Horn.
+Ich kann euch nichts mehr anbieten, es sei denn ihr wollt Wolle.
+Muss es denn gleich so ein extravagantes Teil sein?
+Tja, die durchzechten Nächte fordern halt ihren Tribut.
+Ultra ist der höchste aller Schwierigkeitsgrade.
+So lange Ladezeiten sind einfach nicht zu ertragen.
+Technisch ist das Game in einem mangelhaften Zustand.
+Von so einem Dreikäsehoch lasse ich mir nichts sagen.
+Die Wespe hat offenbar noch nicht genug vom Nektar.
+Beim derzeitigen Pollenflug sollten Allergiker lieber drinnen bleiben.
+Warum mussten die Dinosaurier aussterben?
+Durch gnadenlose Härte macht er seine Opfer gefügig.
+Damit hat er die Büchse der Pandora geöffnet.
+Vielleicht ist es in die Ritze gerutscht.
+Bei genauerem Hinsehen entpuppt es sich als leere Hülle.
+Gott sei Dank haben wir noch ein letztes Ass im Ärmel.
+Füg das Lied bitte zur Wiedergabeliste hinzu.
+Es wird pauschal ein Preis pro Kilometer berechnet.
+Die beiden haben im großen Stil Kiwis von der Plantage geklaut.
+Das steht doch alles im Wiki.
+Hinter dieser Klausel verbergen sich versteckte Kosten.
+Durch wen wurde die Operation autorisiert?
+Das nenne ich einen ausgefuchsten Plan.
+Das Ergebnis sollte ein Skalar sein, kein Vektor.
+Lasst uns virtuell in die Steinzeit eintauchen
+Der Kerl macht einen kognitiv überforderten Eindruck.
+Er hat eine deftige Absage erhalten.
+Heraus kommt eine homogene Emulsion.
+Kaum zu glauben
+Mel benimmt sich flegelhaft.
+Das ist aber sehr salopp ausgedrückt.
+Die Möglichkeiten sind mannigfaltig.
+Wer wird es auf das Siegertreppchen schaffen?
+Ausgiebig feiert Mel seinen Triumph.
+Glücklicherweise ist der Untergrund an dieser Stelle sehr griffig.
+Er hat gerade wieder so eine melancholische Phase.
+Im Sammelsurium von alten Zeitschriften fand sich auch ein Erotikmagazin.
+Auf dem Prüfstand werden die Bremsscheiben zum Glühen gebracht.
+Im Kamin lodert ein Feuer.
+Ab und zu knackt das Holz.
+Wenn sie Koffein getrunken hat, wird sie hyperaktiv.
+Fremdsprachenkenntnisse sind in dem Fall Trumpf.
+Wenn kein Kandidat die absolute Mehrheit erhält, kommt es zur Stichwahl.
+Rechts abgebildet sind der Bürgermeister und dessen Gattin.
+Auch mir wurde das Kochen nicht in die Wiege gelegt.
+Weißt du, was kurios ist?
+Was bitteschön befähigt ihren Gatten zu diesem Amt?
+Kann das Viech mal aufhören so zu schnurren?
+Schau mir in die Augen
+Dafür gehört ihm ein Orden verliehen.
+Gewöhnen Sie sich schon einmal an die Notation mit dem Nabla-Operator.
+Bei einem Täuschungsversuch wird die gesamte Arbeit mit ungenügend bewertet.
+Guck mal, wie alle zum Rhythmus abgehen.
+Die Biester sind kaum zu zähmen.
+Gleich haben wir die Bestie.
+Lass uns mal ein paar Würstchen schnorren gehen.
+Jeder hat seine Geschichte.
+Was tut man gegen ein fusselndes Handtuch?
+Offenbar hat er im Affekt gehandelt.
+Moin, Kollegen
+Moin, moin
+Wie handhabt man das in der ambulanten Pflege?
+Aber die sind nun mal hässlich wie die Nacht.
+Der Sprecher zieht mal wieder über seine Kollegen her.
+Die Zuschauer feiern die Kollegenwitze in den Kommentaren.
+Sie haben die gesamten Mittel für Ihren prunkvollen Palast vergeudet.
+Nun flutscht es.
+Es läuft wie am Schnürchen.
+Wer es lutscht, hat länger etwas davon, als wer es kaut.
+Wer möchte alles einen Lolli?
+Wer tapfer ist, bekommt zur Belohnung ein Gummibärchen.
+Du hast es versprochen
+Für den Laien wirkt der Begriff etwas sperrig.
+Irgendwann lohnt sich das Feilschen nicht mehr, weil auch Zeit einen Wert hat.
+Der neue Chef ist ein abgebrühter Kerl.
+Ohne Ellbogen schafft man es nicht nach oben.
+Dank Computersimulation konnten wir Propeller designen, die wesentlich weniger anfällig für Kavitation sind.
+Um Gelenkschmiere zu bilden, hilft es, die Beine baumeln zu lassen.
+Ändern Sie mal den Parameter der Viskosität.
+Weil sie als Kind nie einen Schnuller bekam, lutscht sie jetzt am Daumen.
+Einen Schnuller kann man ab einem bestimmten Alter wegwerfen, den Daumen nicht.
+An welchem Ringfinger trägt man einen Verlobungsring?
+Da gibt es unterschiedliche Bräuche.
+Ich denke, die Kreatur ist bösartig.
+Kann ich auch so einen Lutscher haben?
+Sie gähnte herzhaft.
+Gähnen ist auch übers Telefon ansteckend.
+Dieser Verbreitungsweg ist bisher von keiner einzigen Krankheit bekannt.
+Die Kurtaxe macht den Kohl nicht fett.
+Mein Uropa ist dement.
+In Kontakt mit anderen Menschen zu bleiben, senkt das Risiko, an Demenz zu erkranken.
+Alleinsein ist ein objektiver Zustand, Einsamkeit ein subjektives Empfinden.
+Ein boshaftes Lachen erschallte.
+Eine Elektrifizierung der Trasse scheint dringend notwendig.
+Wenn Synchronsprecher gestikulieren, klingen sie authentischer.
+Eine Kampagne soll ihn diskreditieren, damit ihm niemand mehr glaubt.
+Er hat dich doch nur gekost
+Sie meint es nur gut.
+Sie liebkoste ihn.
+Du hast da einen Fussel im Haar.
+Gehört das so?
+Wo kommen all die Flusen her?
+Routiniert ertastete sie die Pulsader.
+Ist er denn auch fachkundig?
+Ich will gar nicht wissen, was in seinem Kopfkino gerade abgeht.
+Er hat sie auf frischer Tat ertappt.
+Ich wüsste nicht, was uns jetzt noch in die Quere kommen sollte.
+Wir suchen Senkrechtstarter und Querdenker.
+Darüber muss ich in Ruhe nachdenken.
+Wann kommt sie endlich online?
+Was er zum Schluss gesagt hat, hat sie tief berührt.
+Der Poet proklamierte.
+Damit ist der Beschluss nichtig.
+Hilf mir bitte beim Schälen der Kartoffeln.
+Wie heißt das Zauberwort?
+Erzählen Sie auch anderen von Common Voice
+Es ist eine bescheidene Bude, aber mehr brauche ich nicht.
+Wir wollen der Website eine optische Auffrischung verpassen.
+Ihr könntet euch ruhig auch mal beteiligen
+Haben Sie zollpflichtige Ware dabei?
+Musstest du unbedingt die miefenden Socken auf die Heizung legen?
+Sonst trocknen sie nicht.
+Einundsechzig sind dafür, dreiundfünfzig dagegen, keine Enthaltungen.
+Da müssen wir wohl oder übel selbst Hand anlegen.
+Na also, warum nicht gleich so?
+Kein Grund, gleich handgreiflich zu werden
+Man sollte sie alle übers Knie legen
+So ein Erbsenzähler
+Entferne bitte alle störenden Knackser.
+Grüner wird's nicht.
+Das ist halt der Unterschied zwischen Theorie und Praxis.
+Es hilft alles nichts.
+Eine kleine Unachtsamkeit reicht bereits, und alles ist zunichte.
+So und nicht anders wird es gemacht.
+Weil ich es sage.
+Er hat den besten Schutzengel, den man sich vorstellen kann.
+Ein Ausrufezeichen reicht.
+Laut Verpackung kommt der Lachs aus einer norwegischen Fischzucht.
+Ist der Kakao UTZ-zertifiziert?
+Das abscheuliche Etwas erinnerte von der Gestalt her an eine Amöbe.
+Die Firewall ist löchrig wie ein Schweizer Käse.
+Weil die Transportsicherung nicht entfernt wurde, rumpelt und wandert die Waschmaschine beim Schleudern.
+Im Prinzip haben beide Recht.
+Es bleiben einige Fragezeichen.
+Das hättest du wohl gerne.
+Damit ließ sie uns ratlos zurück.
+Der Link ist nicht in der Beschreibung.
+Er räusperte sich.
+Entschuldigen Sie, ich habe einen Kloß im Hals.
+In Pjöngjang fährt die ehemalige U-Bahn aus Berlin.
+Wieso wird so viel Wirbel um nichts gemacht?
+Es ist ein Sturm im Wasserglas, aber mit Windstärke zwölf.
+Wegen einer herrenlosen Damentasche brach Panik aus und der Bahnhof wurde evakuiert.
+Bitte lassen Sie ihr Gepäck nicht unbeaufsichtigt.
+Aufgrund der mangelnden Nachfrage wird der Betrieb ab Januar eingestellt.
+Man entschied sich, den Skandal einfach auszusitzen.
+In diesem Punkt widersprechen sich die Quellen.
+Totschweigen funktioniert immer.
+Der Kronleuchter ging krachend zu Boden.
+Wann ist die nächste Nacht mit Vollmond?
+Hallo, in diesem Video nur ganz kurz ein kleiner Trick.
+Sie haben doch nichts dagegen, oder?
+Zungenbrecher dürfen mit gespaltener Zunge gesprochen werden.
+Wir haben noch tausende weitere Sätze für Sie.
+Mein Handy zeigt mir einen Anruf in Abwesenheit an.
+Ungeduldig zerrte er an meinem Ärmel.
+Wie kommst du darauf?
+Die Autokorrektur ist keine große Hilfe.
+Ahoi, ihr Landratten
+Wir haben euch schon erwartet.
+Wirf mal das Tuch rüber
+Besonders hervorstechend ist der sechste Vers.
+Das Gerüst wäre mir zu wackelig.
+Um Energie zu sparen, wird im Leerlauf die Taktfrequenz gedrosselt.
+Hier befinden sich nur temporäre Dateien.
+Wir arbeiten Hand in Hand mit denen.
+Sich so zu bücken ist schlecht für den Rücken.
+Wir müssen es gar nicht weiter aufdröseln.
+Als Folge verengen sich die Blutgefäße.
+Wollt ihr einzeln oder zusammen bezahlen?
+Brust raus, Bauch rein und stets lächeln
+Die Werkstatt hat sich diversifiziert und repariert jetzt mehrere Automarken.
+Wenn du dieses Bild präsentierst, wird sich ein Aha-Effekt einstellen.
+Der Unterschied zwischen Tomographie und Projektion lässt sich am einfachsten grafisch erklären.
+Das Lätzchen ist ja komplett vollgesabbert.
+Herr Hoppe ist bei solchen Angelegenheiten immer sehr pingelig.
+Eine Träne kullerte ihm über die Wange.
+Er konnte es nicht unterdrücken.
+Lass uns eine Höhle bauen.
+Hubschrauber können auch beim Ausfall des Motors noch sicher landen.
+Der Pilot vollführt dann eine Landung mittels Autorotation.
+Ist es nicht eigentlich Kindesmisshandlung, den Kleinen Sand in die Augen zu streuen?
+Der Föhnsturm brachte Sand aus der Sahara bis nach Bayern.
+Eigentum verpflichtet.
+Aber wozu eigentlich?
+Sie fühlt sich schlapp.
+Ich werde noch bekloppt dabei.
+Aber nicht mogeln
+Jedes Jahr unternimmt die Biolehrerin mit den Schülern eine Exkursion ins Moor.
+Vor dem Einschlafen setzt sie stets ihre Zahnspange ein.
+Die Zeremonie wurde feierlich vom Rektor eröffnet.
+Das Stück ist rein instrumental.
+Seien die Mengen weiterhin paarweise disjunkt.
+Das heißt, die Schnittmenge ist die leere Menge.
+Auf diesem gummierten Spezialboden hat man mehr Grip als auf Asphalt.
+Die Ansaugmenge wird durch die Drosselklappe bestimmt.
+Alle Verbrenner dieser Modellreihe sind zwangsbeatmet.
+Verschlafen blinzelte sie.
+Sehr schöne Illustration
+Das hat er ganz prima gemacht.
+Du kannst da doch nicht in Jogginghose erscheinen.
+Da haben wir den Salat.
+Da stecken wir ja in einem schönen Schlamassel.
+Sie hüten das Geheimnis wie ihren eigenen Augapfel.
+Haben wir es eher mit isotroper oder mit anisotroper Diffusion zu tun?
+Was wir benötigen, ist ein Maß für die Anisotropie.
+Bei so viel heißer Luft, die der Umweltminister fabriziert, ist die Erderwärmung nicht verwunderlich.
+Was stimmt nicht mit dir?
+Damit ist der Transfer perfekt.
+Das Gewebe ist von Kunstfasern durchzogen.
+Im Nachhinein wirkt es banal.
+Irgendwie ist heute der Wurm drin.
+Mit Singen und Klatschen kommt man hier nicht weiter.
+Er ist immer so charmant.
+Trotz Krise sind wir immer noch unangefochtener Marktführer.
+Er will notfalls bis in die letzte Instanz klagen.
+Das Urteil ist nicht anfechtbar.
+Nur Transversalwellen haben eine Polarisation.
+Schall breitet sich in longitudinalen Wellen aus.
+Der Alphakanal kodiert die Opazität der Textur.
+Wir treten für mehr Transparenz in der Politik ein.
+Das erfordert schon einiges an Grips.
+Selbst für den erfahrensten Chirurgen ist der Tumor eine knifflige Herausforderung.
+Hier ist der Vorgang anschaulich illustriert.
+Ohne Vereinfachungen wie diese versteht es keiner.
+Gib mir mal dieses Dingsbums mit Stiel.
+Lassen wir die kinetische Komponente erstmal weg.
+Wann werden wir aufhören, die Bevölkerung in Ossis und Wessis zu unterteilen?
+Wenn die Abfälle verfaulen, bildet sich Methan.
+Das System stand ohnehin kurz vor dem Kollaps.
+In so einer schäbigen Klitsche würde ich meinen Rechner nicht abgeben.
+Nur weil es nicht nach ihrem Willen läuft, muss sie doch nicht gleich flennen.
+Deine Bemühungen waren dennoch nicht vergebens.
+Ich kann mich nicht beklagen.
+Noch genießt er sein Vertrauen.
+Auf den ersten Blick scheint das Problem trivial zu sein.
+Was bedeutet es, wenn die Linie gestrichelt ist?
+Schau mal in der Legende nach.
+Wir rotieren einmal gegen den Uhrzeigersinn.
+Daraufhin erklärt ihr die einzelnen Stationen.
+Wir können doch Freunde bleiben.
+Wenn ihr euch unbedingt darum kloppen wollt, nur zu
+Man wächst mit seinen Aufgaben.
+Die zwei Jahre im Ausland haben dich sehr verändert.
+So eine miese Qualitätskontrolle käme durch keine Qualitätskontrolle, außer durch sich selbst natürlich.
+Noch ein kleines bisschen nach vorn, bitte
+Passt schon
+Soll das alles sein?
+Dem wollen wir nun ein für alle Mal einen Riegel vorschieben.
+Mit aller Kraft versuchten die beiden Freunde, das Tor aufzustoßen.
+Mit vereinten Kräften schafften sie es gerade so.
+Er feiert am neunundzwanzigsten Februar seinen zwölften Geburtstag, wird aber achtundvierzig Jahre alt.
+Zeige mir alle Artikel im Warenkorb.
+Sie will den Bestellvorgang abschließen.
+Laut surrend hob die Drohne ab.
+Quadrokopter sind die Kettenfahrzeuge der Lüfte.
+Alle im Roman vorkommenden Charaktere sind einfach gestrickt.
+Lass mich an deiner Weisheit teilhaben.
+Der geringe PH-Wert verhindert effektiv, dass sich Schimmel bilden kann.
+Es ist Fluch und Segen zugleich.
+In Anlehnung an Pünktchen und Anton haben sie ihren Dackel Piefke genannt.
+Ohne Gyroskop wird die Drohne sich nicht in der Luft stabilisieren können.
+Mittels Rasterfahndung sind sie ihm auf die Schliche gekommen.
+Sie zeigt ihr, wie man den Degen richtig hält.
+Bist du in einer schlagenden Studentenverbindung?
+In die Steuerungselektronik haben sie eine Menge Hirnschmalz hineingesteckt.
+Ihr fehlt das nötige Fingerspitzengefühl.
+Onkel Dagobert grüßt seinen Neffen, der in dem harmlos anmutenden Inserat stand.
+Nazivergleiche sind hier unangebracht.
+Jemand hat mir mein Portmonee geklaut.
+Belassen wir es dabei.
+Man kann das Additionstheorem auch umgekehrt anwenden.
+Der Vorsitzende begründete seinen Rücktritt damit, dass er sich nun anderen Aufgaben widmen wolle.
+Genau so muss es sein.
+Es gibt derzeit nichts zu tun.
+Parallelität ließe sich auch ohne Multiprozess-Architektur erreichen.
+Es geht um gegenseitige Abschottung.
+Wie geil ist das denn?
+Mit ausgetrockneten Schleimhäuten ist man anfälliger gegenüber Infektionen.
+Keine dieser Behauptungen lässt sich unabhängig überprüfen.
+Fünf Dioptrien sind schon krass.
+Die Schaltfläche ist ausgegraut.
+Was aber, wenn die Verteilung multimodal ist?
+Herr Förster sieht völlig zerzaust aus.
+Die nächste Dürre wird gewiss kommen.
+Du musst dich etwas nach vorn beugen, dann kannst du es sehen.
+Sie hat eine einfühlsame Art.
+Noch hat der Senat nicht zugestimmt.
+Die Kanten müssen geschliffen werden.
+Die Eckpunkte sind als Kreuzchen eingezeichnet.
+Der Stadtplan ist wohl schon zu alt.
+Das Ding ist völlig zerknittert.
+Bei der Untersuchung müssen Sie nüchtern sein.
+Die Bezahlung richtet sich nach dem jeweiligen Tarif des öffentlichen Dienstes.
+Reinhold hat einen richtig dicken Oschi aus dem Teich gezogen.
+Auf der logarithmischen Skala ist das die Mitte.
+Der General behält in jedem Fall die Entscheidungshoheit.
+Quatsch mit Soße
+Ich muss den Bass fühlen.
+So wie Liebe Menschen glücklich macht, kann sie sie auch zutiefst unglücklich machen.
+Und, meine Damen und Herren, das alles rendern wir in Echtzeit
+Wer vor allen Herausforderungen wegrennt, wird nie eine meistern.
+Das ist eine Binsenweisheit.
+Davon wird die Welt nicht untergehen.
+Lasst uns die Geschichte noch etwas weiter spinnen.
+Als Populist muss man eine einfache Sprache sprechen, die jeder versteht.
+Die Maschine läuft wieder wie geschmiert.
+Das Rote Kreuz kommt zuerst zum Verletzten.
+Fürs Erste können wir das Bauteil auch überbrücken.
+Hast du auch solche Schmetterlinge im Bauch?
+Mit dem Echolot entdeckten sie eine Fahrrinne, die auf der Seekarte nicht eingezeichnet war.
+Wahrscheinlich noch ein Überbleibsel aus dem Ersten Weltkrieg.
+Sie ist aus Prinzip dagegen.
+Mit der Zeit lernt man Leute einzuschätzen.
+Nach sorgfältiger Analyse wurde Bruno als Schad- beziehungsweise Problembär eingestuft.
+Er wollte noch etwas hinzufügen, aber im Beifall ging es unter.
+Wann war der letzte Ölwechsel?
+Elf Meilen vor der Küste ist ein Tanker auf Grund gelaufen.
+Im Gegensatz zu den Passagieren konnte sich die Crew retten.
+Ich kann dir meinen Fleece-Pullover anbieten.
+Sie kramte in ihrer Tasche.
+Die Viecher sind nicht leicht zu bändigen.
+Wie Sie sehen, sehen Sie nichts.
+An der Wand hängen Porträts aller ehemaligen Bonzen des Hauses.
+Der Priester schritt zum Rednerpult und las Verse aus der Bibel vor.
+Für die einen eine Heldentat, für die anderen ein Todsünde.
+Noch nie hatte Reinhold erlebt, dass Musik derartige Emotionen auslösen kann.
+Ein gewaltiger Felsen rollte mit der Lawine ins Tal.
+Das Straßenbild ist von der mit Neonlicht beleuchteten Reklame geprägt.
+Fluor ist das leichteste aller Halogene.
+Magnesium brennt auch unter Wasser.
+Jeder bekommt eine Wunderkerze in die Hand.
+Weil Kupfer teurer und schwerer ist, werden Hochspannungsleitungen normalerweise aus Aluminium gebaut.
+Schwachstellen werden auf Wärmebildern entdeckt, die von Hubschraubern aus aufgenommen werden.
+Hier strömt Argon oder irgendein anderes Edelgas aus.
+Deswegen ist die innere Siliziumschicht mit Bor dotiert.
+Wegen des Memory-Effekts benutzt heute niemand mehr Nickel-Cadmium-Akkus.
+Defekte Leuchtstoffröhren gehören in den Sondermüll, weil sie Quecksilber enthalten.
+Außer guter Laune musst du nichts mitbringen.
+Schwer zu sagen.
+Wenn zwei sich streiten, freut sich der Dritte.
+Das Programm muss als Administrator ausgeführt werden.
+Ulf betrachtet die Angelegenheit ganz nüchtern.
+Morgen läuft das Ultimatum ab.
+Ein reißerischer Titel generiert gleich ein paar Klicks mehr.
+Ist Neid eine Sünde?
+Dann könnte es also auch nur eine Emulation sein, schloss Franzi messerscharf.
+Er stammelte irgendwas von Beryllium.
+Deshalb pochen wir ja auch darauf, dass sie mehr investieren.
+Nehmen wir das allseits beliebte Beispiel des harmonischen Oszillators.
+Das griechische Alphabet hat sie nach zwei Jahren immer noch nicht drauf.
+Die Havarie wird ein juristisches Nachspiel haben.
+Mit einer gekonnten Bewegung schwang er sich über die Leitplanke.
+Auch die Stahlträger sind nicht für die Ewigkeit gebaut.
+Franzi pustet kräftig in die Glut, um das Feuer anzufachen.
+Brauchst du einen Fön?
+Der Countdown läuft.
+Vorsichtig waten sie durch den Sumpf.
+Seine egozentrische Persönlichkeit macht es mir nicht leicht.
+Das kann ich so nicht bestätigen.
+In der Rostlaube spürt man jeden noch so kleinen Hubbel.
+Die Statistik lässt keine klare Präferenz erkennen.
+Können Sie einen Unterschied ausmachen?
+Die Vorschrift ist ein Papiertiger.
+Gestern zeigte das Barometer einen maximalen Ausschlag.
+Die Präambel ist vom Präsidenten höchstpersönlich verfasst und unterschrieben.
+Eine Gruppe von Gruftis kam uns vom Friedhof entgegen.
+Diese wundersamen Gewächse reichern mit der Zeit giftige Metalle aus dem Boden an.
+Man munkelt, dass er eine Hanfplantage in der Garage betreibt.
+Baut ihr auch Obst in eurem Gewächshaus an?
+Für die Anwohner ist der Forst auch eine Möglichkeit der Erholung.
+Von dem Schock muss ich mich erstmal erholen.
+Jetzt wollen wir die Kirche aber mal im Dorf lassen.
+Falls Sie noch etwas Training brauchen, steht Ihnen der Übungsplatz zur Verfügung.
+Alle standen auf und legten im Chor den vereinbarten Schwur ab.
+Der Schlick stellt für unseren Jeep durchaus ein Hindernis dar.
+Also das ist ja wirklich der Gipfel
+Hat der Hauptmann seine Erlaubnis gegeben?
+Sie hat Angst, sich zu blamieren.
+Kannst du reiten?
+Die Route führt am alten Bunker vorbei.
+Der Verwaltungsaufwand ist enorm.
+Ihr müsst drei Disziplinen im Bereich Leichtathletik absolvieren.
+Wärst du eher für Kegeln oder für Bowling?
+Irgendwo in der Menschenmenge sind sie dann untergetaucht.
+Ein Karatekämpfer wendet nie den selben Trick zweimal an.
+Im Gewerbegebiet wurde jetzt eine Kartbahn neu eröffnet.
+Ist der Plan auch wirklich gut durchdacht?
+Seit Juli letzten Jahres ist die Strecke stillgelegt.
+An der Pastatheke wird Nachschub benötigt.
+Selbstbedienung ist nicht erwünscht.
+Der Rentner schob ein steinzeitlich anmutendes Vehikel aus seiner Garage.
+Die Inschrift kennzeichnet die Herkunft.
+Leider ist der Eingang nicht rollstuhlgerecht.
+Mutmaßlich handelt es sich dabei um einen Trittbrettfahrer.
+Durch den Schaden an der Isolation wurde der Kurzschluss verursacht.
+Ich muss mich noch mit der Sekretärin kurzschließen.
+Ignoriere sie einfach.
+Kennst du Cheats für dieses Spiel?
+Entschuldigt bitte meine Verspätung.
+Ich habe den Bus verpasst.
+Eine Sekunde
+Seit jenem Tag plagen sie Gewissensbisse.
+An der örtlichen Schule werden die Fünftklässler nach alter Tradition als Sextaner bezeichnet.
+Ein Kind aus der Klasse ist versetzungsgefährdet.
+Haben Sie es schon mit Nachhilfe probiert?
+Ich bin sofort bei dir.
+Vorher muss ich noch ganz schnell was erledigen.
+Man erntet, was man sät.
+Es sind auch andere Äcker zur Saat da.
+Immer, wenn der Wärter das Häuschen betritt, hebt er die Fußmatte an.
+Na dann schieß los
+Dein Cousin hat es im Leben zu was gebracht.
+Bei uns ist das Alltag.
+Das sagt meine Nichte auch immer.
+Was schätzt du, wie alt bin ich?
+Wie auch immer.
+Jetzt ist Ärmel hochkrempeln angesagt.
+Tabea biss sich auf die Zunge.
+Und ab geht die Post
+Frustriert knallt der Verwalter seinem Vorgesetzten den Stapel Akten auf den Schreibtisch.
+Mein Boxsack hilft mir, meinen alltäglichen Frust abzubauen.
+Worauf Sie sich verlassen können.
+Die Antwort wollte ich hören.
+Plötzlich wurde es dunkel, ein Sturm zog auf und die Erde bebte.
+Was Sie gesunden Menschenverstand nennen, ist in Wirklichkeit das Nichterfassen komplexer Zusammenhänge.
+Optisch macht die Lasershow einiges her.
+Schauen wir uns dazu die erste Ableitung an.
+Der Filter ist verstopft.
+Bitte reinigen Sie den Luftfilter.
+Wer nicht hören will, der muss fühlen.
+Warum gehorcht der Bursche nie?
+Dass ich das noch erleben darf
+Sie ballte die Hand zu einer Faust.
+Wir berechnen die Zwischenwerte stumpf durch lineare Interpolation.
+Per Kommandozeilenparameter lassen sich die Warnungen unterdrücken.
+Die Stelle ist stark angeschwollen.
+Beim unüberwachten Lernen spart man sich die separate Trainingsphase.
+Fachlich hat sie viel drauf, aber ihre Didaktischen Fähigkeiten sind noch ausbaufähig.
+An einem Stand werden Waffeln verkauft, um die Vereinskasse aufzubessern.
+Sie stellt Nüsse, Salzstangen und anderen Knabberkram auf den Tisch.
+Bedient euch
+Quantensprünge sind entgegen der landläufigen Meinung etwas winziges.
+Wie sicher wird unsere heutige Kryptographie noch sein, wenn Quantencomputer massentauglich werden?
+Mein Schlitten hat Chromfelgen
+Er verhält sich wie eine Eidechse im freien Fall.
+Wie ist das nur gemeint?
+Woher kommt der Drang, sich prestigeträchtiges Eigentum zuzulegen?
+Im Prinzip schon, aber die Ausprägung ist individuell unterschiedlich.
+Die Samen sind besonders reichhaltig an ungesättigten Fettsäuren.
+Es ist eigentlich eher ein Trapez.
+Wie werden sie reagieren, wenn wir ihnen einen Ernstfall vorgaukeln?
+Neben Quecksilber ist Brom das einzige Element, das im Normalzustand flüssig ist.
+Als Werkstoff ist Gold relativ wertlos.
+Und ich Idiot dachte, es wäre ein guter Deal
+Sehen wir uns nachher beim Handballtraining?
+Manchmal ist ihr Assistent schwer von Begriff.
+Aber jetzt geht ihm ein Licht auf.
+Wie kommst du zu dieser Erkenntnis?
+Unser heutiges Tastaturlayout hat seinen Ursprung in der Ära der mechanischen Schreibmaschinen.
+Damals war es wichtig, dass sich keine Teile beim Schreiben verhaken.
+Auf Ergonomie wurde dabei nicht geachtet.
+Die Angestellten fühlen sich unter Generalverdacht gestellt.
+Um Vertippern vorzubeugen, muss man das Passwort zweimal eingeben.
+Rohkost ist für Säuglinge nicht geeignet.
+Wie dem auch sei, ich bringe das Päckchen jetzt zum Kurier.
+Sobald das Bimetall abkühlt, schließt sich der Stromkreis wieder.
+In China ging das Opium damals weg wie warme Semmeln.
+Mehr oder weniger das ganze Volk wurde davon abhängig.
+Bei der japanischen Kampfkunst Aikido geht es primär um Verteidigung.
+Schwierige Sudokus lassen sich nicht mehr mit so simplen Algorithmen lösen.
+Manche sehen in funktionalen Programmiersprachen die Zukunft.
+Weil keine Funktion Seiteneffekte hat, lassen sie sich problemlos parallelisieren.
+Es ist dennoch fraglich, ob sie den imperativen Sprachen den Rang ablaufen werden.
+Seine Kochkünste reichen so gerade fürs Überleben.
+Kinder sollten die Grenzen ihrer Eltern kennen.
+Glühfäden werden üblicherweise aus Wolfram hergestellt.
+Warum brennen die Birnen immer beim Einschalten durch?
+Wieso ist der Himmel blau?
+Woher weiß ein Spross, wo oben ist, solange er noch unter der Erde wächst?
+Wie pumpt ein Baum das Wasser aus dem Boden in die Blätter?
+Weshalb sind Regenbögen bunt?
+Was war vor dem Urknall?
+Wie lassen sich Déjà-vus erklären?
+Wodurch fühlt das Tablet, dass man es mit dem Finger berührt?
+Haben Maschinen Gefühle?
+Was genau ist eigentlich eine Emotion?
+Bestehen Menschen aus mehr, als aus Fleisch und Knochen?
+Gibt es wirklich eine Seele, wo man sie doch nicht anfassen kann?
+Was passiert nach dem Tod?
+Wozu müssen wir schlafen?
+Wieso träumen wir?
+Müssen alle Tiere schlafen?
+Was ist mit Würmern, Quallen oder Einzellern?
+Der Behälter könnte unter dem Druck zerbersten.
+Moment, ich muss mal kurz das Ohr wechseln.
+Ja, Glenn ist wirklich eine Frostbeule.
+Dir sind deine Sachen verrutscht.
+Das muss im Zuge der Rettungsaktion passiert sein.
+Er steckt in einem Zwiespalt.
+Kein Problem für einen Physiker, der experimentelle Erfahrung mit Doppelspalten hat.
+Nur Mitglieder des DJH dürfen in der Jugendherberge ein Bett buchen.
+Ruckzuck zog er seine Beretta aus dem Halfter und fuchtelte wild damit herum.
+Nebst einer effizienteren Organisation erwartet man auch einen Rückgang von Mitarbeiterdiebstählen.
+Jetzt kommt dein Solo.
+Kommen wir von diesem Kasperkram jetzt mal zu den wichtigen Dingen.
+Vorne ragt eine Galionsfigur empor.
+Die Planer kriegen das mit der Verkehrswegebündelung immer noch nicht auf die Kette.
+Götsch hat versucht, es mir anzudrehen, aber ich wollte es nicht.
+Sie bezichtigen Herrn Götsch also des Geheimnisverrats?
+Die Errungenschaften der Postmoderne sind gewaltig.
+Des Schnitzers Werke sind größtenteils sehr filigran.
+Geräuschvoll zog sie an Hebeln und Schaltern.
+Augenblicklich leuchteten alle Lampen gleichzeitig auf.
+Dann rumpelte es im Innern und es gab einen Ruck.
+Aber wir wollen die Pferde ja auch nicht unnötig scheu machen.
+Immer ruhig mit den jungen Pferden
+Na ja, aber ich wollte natürlich auch nicht alle naselang Halt machen.
+Etwa um eins waren alle Mann versammelt.
+Er gilt als dünnhäutig und egozentrisch.
+Wie kriege ich Schnuffi möglichst schnell stubenrein?
+Nicht jeder geht da so draufgängerisch vor.
+Waghalsig stürzte der Surfer sich in die Wellen.
+Der Stichtag liegt im Jänner des darauf folgenden Jahres.
+Die vielen Neubauten sind das neue Aushängeschild der Stadt.
+Wie sollen wir aus diesem Irrgarten nur herausfinden?
+Argwöhnisch musterte sie den Ausbrecher aus dem Verlies.
+Sie wurde das beklemmende Gefühl nicht los, überhaupt nicht hierher zu passen.
+Unser Ziel ist nicht weniger als die Ausrottung des Virus.
+Niemand hier würde Verrat begehen.
+Sieh mal meine Speckröllchen an.
+Also besonders langlebig sind diese Gewinde aber nicht.
+Ja, das sind Billigdinger vom Discounter.
+Hat denn keiner einen Notruf abgesetzt?
+Alle haben nur zugeschaut.
+Was sagt eure Peilung?
+Preise für Tickets vom Verkehrsverbund kennt die App der Bahn immer nicht.
+Sorry, aber so eine Steilvorlage muss man einfach nutzen.
+Ich könnte mir vorstellen, dass Lea irgendwann genug hat von dem Einheitsbrei.
+Es ist schon eine Zumutung, was einem dort so vorgesetzt wird.
+Dafür ist es aber für lau.
+Die Bibliothek ist schon etwas angestaubt, erfüllt ihren Zweck aber hervorragend.
+Du kannst die Existenz des Stigmas nicht völlig außer Acht lassen.
+Und wir haben noch Spielsachen für eure Kinder gefunden.
+Die stammen noch von früher.
