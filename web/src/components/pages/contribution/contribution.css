@@ -42,7 +42,7 @@
             border-radius: 50%;
             box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
 
-            @media (--lg-up) {
+            @media (--md-up) {
                 width: 57px;
                 height: 57px;
             }
@@ -51,7 +51,7 @@
         & .links {
             font-family: var(--strong-font-family);
 
-            @media (--lg-up) {
+            @media (--md-up) {
                 margin-right: auto;
                 margin-left: 52px;
                 font-size: 20px;
@@ -60,7 +60,7 @@
             & a {
                 padding-bottom: 6px;
 
-                @media (--lg-up) {
+                @media (--md-up) {
                     padding-bottom: 14px;
                 }
 
@@ -78,7 +78,7 @@
         & .counter {
             font-weight: 600;
 
-            @media (--lg-up) {
+            @media (--md-up) {
                 width: var(--pill-width);
                 text-align: center;
             }
@@ -87,7 +87,7 @@
                 display: none;
                 font-weight: normal;
 
-                @media (--lg-up) {
+                @media (--md-up) {
                     display: inline-block;
                 }
             }
@@ -101,7 +101,7 @@
         align-items: center;
         font-style: italic;
 
-        @media (--lg-up) {
+        @media (--md-up) {
             margin-top: 4vh;
             margin-bottom: 20px;
         }
@@ -112,7 +112,7 @@
             width: 24px;
             height: 24px;
 
-            @media (--lg-up) {
+            @media (--md-up) {
                 display: initial;
             }
         }
@@ -122,7 +122,7 @@
         display: flex;
         flex-direction: column;
 
-        @media (--lg-up) {
+        @media (--md-up) {
             flex-direction: row;
         }
 
@@ -145,7 +145,7 @@
         height: 100%;
         margin-top: 30px;
 
-        @media (--lg-up) {
+        @media (--md-up) {
             margin-top: 0;
             width: 100%;
             max-width: 60%;
@@ -157,7 +157,7 @@
             height: 223px;
             width: 100%;
 
-            @media (--lg-up) {
+            @media (--md-up) {
                 height: 45vh;
                 max-height: 429px;
             }
@@ -190,12 +190,16 @@
                         filter var(--transition-duration-slow) cubic-bezier(0.19, 1, 0.22, 1),
                         opacity var(--transition-duration-slow), var(--easing);
 
-            @media (--lg-up) {
-                padding: 0 100px;
+            @media (--md-up) {
+                padding: 0 25px;
                 font-size: 32px;
                 font-weight: normal;
                 letter-spacing: 1.3px;
                 line-height: 1.63;
+            }
+
+            @media (--lg-up) {
+                padding: 0 100px;
             }
 
             &.inactive {
@@ -214,7 +218,7 @@
         align-items: flex-end;
         justify-content: space-between;
 
-        @media (--lg-up) {
+        @media (--md-up) {
             margin-top: 0;
             margin-left: auto;
             width: auto;
@@ -229,7 +233,7 @@
         justify-content: center;
         margin-top: 23px;
 
-        @media (--lg-up) {
+        @media (--md-up) {
             margin-top: 12vh;
         }
     }
@@ -240,7 +244,7 @@
         display: flex;
         justify-content: space-between;
 
-        @media (--lg-up) {
+        @media (--md-up) {
             margin-top: 3.5vh;
         }
 
@@ -248,7 +252,7 @@
             display: flex;
 
             & > :first-child {
-                @media (--lg-up) {
+                @media (--md-up) {
                     margin-right: 20px;
                 }
             }
@@ -267,7 +271,7 @@
                 min-width: auto;
                 text-transform: uppercase;
 
-                @media (--lg-up) {
+                @media (--md-up) {
                     border: solid 1px color(var(--black) alpha(10%));
                     padding: 0 38px;
                     height: 57px;
@@ -301,12 +305,12 @@
             filter: blur(10px);
             pointer-events: none;
 
-            @media (--lg-up) {
+            @media (--md-up) {
                 display: initial;
             }
         }
 
-        @media (--md-down) {
+        @media (--sm-down) {
             & .pills {
                 flex-direction: column;
                 align-items: center;

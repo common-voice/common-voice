@@ -104,11 +104,24 @@
     }
 }
 
+.hidden-sm-down {
+    @media (--sm-down) {
+        display: none !important;
+    }
+
+}
+
 .hidden-md-down {
     @media (--md-down) {
         display: none !important;
     }
 
+}
+
+.hidden-md-up {
+    @media (--md-up) {
+        display: none !important;
+    }
 }
 
 .hidden-lg-up {

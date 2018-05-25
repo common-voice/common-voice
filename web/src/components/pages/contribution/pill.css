@@ -15,7 +15,7 @@
 
     overflow: hidden;
 
-    @media (--lg-up) {
+    @media (--md-up) {
         display: flex !important;
         margin-top: 20px;
         padding: 0 12px;
@@ -43,7 +43,7 @@
     & .contents {
         display: none !important;
 
-        @media (--lg-up) {
+        @media (--md-up) {
             display: flex !important;
         }
     }
@@ -56,7 +56,7 @@
             color: white;
             background: var(--blue);
 
-            @media (--lg-up) {
+            @media (--md-up) {
                 background: var(--warm-grey);
             }
         }
@@ -66,7 +66,7 @@
         background: var(--white);
         border: solid 2px var(--grey);
 
-        @media (--lg-up) {
+        @media (--md-up) {
             border: none;
             padding-left: 6px;
 
@@ -93,7 +93,7 @@
                 margin: 7px;
                 background: var(--desert-storm);
 
-                @media (--lg-up) {
+                @media (--md-up) {
                     margin: 0;
                 }
             }

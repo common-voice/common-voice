@@ -99,7 +99,7 @@ class ContributionPage extends React.Component<Props, State> {
 
                 <div className="cards-and-instruction">
                   <Instruction $actionType={getString('action-click')}>
-                    <div className="instruction hidden-md-down" />
+                    <div className="instruction hidden-sm-down" />
                   </Instruction>
 
                   <div className="cards">
@@ -150,7 +150,7 @@ class ContributionPage extends React.Component<Props, State> {
               </div>
 
               <Instruction $actionType={getString('action-tap')}>
-                <div className="instruction hidden-lg-up" />
+                <div className="instruction hidden-md-up" />
               </Instruction>
 
               <div className="primary-buttons">{primaryButtons}</div>
@@ -158,7 +158,7 @@ class ContributionPage extends React.Component<Props, State> {
               <div className="buttons">
                 <div>
                   <Localized id="shortcuts">
-                    <Button rounded outline className="hidden-md-down" />
+                    <Button rounded outline className="hidden-sm-down" />
                   </Localized>
                   <Localized id="unable-speak">
                     <TextButton />
@@ -182,7 +182,7 @@ class ContributionPage extends React.Component<Props, State> {
                         rounded
                         outline
                         disabled={!isDone}
-                        className="hidden-md-down"
+                        className="hidden-sm-down"
                         onClick={onSubmit}
                         type="submit"
                       />

@@ -15,7 +15,7 @@
         filter: blur(7.6px);
         transition: opacity var(--transition-duration) linear;
 
-        @media (--lg-up) {
+        @media (--md-up) {
             width: 109px;
             height: 109px;
         }
@@ -33,7 +33,7 @@
         height: 65px;
         background: var(--white);
 
-        @media (--lg-up) {
+        @media (--md-up) {
             width: 88px;
             height: 88px;
         }
@@ -41,7 +41,7 @@
         & img {
             height: 24px;
 
-            @media (--lg-up) {
+            @media (--md-up) {
                 height: 28px;
             }
         }
