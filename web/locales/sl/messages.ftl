@@ -79,6 +79,8 @@ back-top = Nazaj na vrh
 ## Home Page
 
 home-cta = Spregovori, prispevaj tukaj!
+wall-of-text-start = Govor je naraven, govor je človeški. Zato navdušeno ustvarjamo uporabno govorno tehnologijo. Da lahko ustvarimo govorne sisteme, potrebujemo ogromne količine govornih podatkov.
+wall-of-text-more-mobile = Večina podatkov, ki jih uporabljajo velika podjetja, ni na voljo vsem ljudem. Menimo, da to zavira inovacije. Projekt Common Voice smo zagnali, ker želimo, da je prepoznavanje govora dostopno vsakomur.
 show-wall-of-text = Več
 help-us-title = Pomagaj nam potrditi stavke!
 help-us-explain = Pritisni predvajaj in poslušaj. Ali je spodnji stavek pravilno izgovorjen?
@@ -142,7 +144,9 @@ faq-title = Pogosta vprašanja
 faq-what-q = Kaj je Common Voice?
 faq-important-q = Zakaj je to pomembno?
 faq-get-q = Kako lahko dobim podatke Common Voice?
+faq-get-a = Nabor podatkov je na voljo na naši <downloadLink>strani za prenos</downloadLink> pod licenco <licenseLink>CC-0</licenseLink>.
 faq-mission-q = Zakaj je Common Voice del Mozillinega poslanstva?
+faq-native-q = { $lang } ni moj materni jezik in govorim z naglasom. Vseeno želite moj govor?
 faq-native-a = Da, tudi vaš glas potrebujemo! Del namena projekta Common Voice je zbrati karseda veliko naglasov, tako da bodo računalniki bolje razumeli govor <bold>vseh</bold> ljudi.
 faq-firefox-q = Bo pretvorba govora v besedilo preko Common Voice v prihodnosti postala del Firefoxa?
 faq-firefox-a = Common Voice ima brezmejen potencial in resnično raziskujemo možnosti glasovnih vmesnikov v številnih Mozillinih izdelkih, tudi v Firefoxu.
