@@ -13,36 +13,55 @@ export interface ContributionPillProps {
   isOpen: boolean;
   key: any;
   num: number;
+  onClick: () => any;
+  style?: any;
 }
 
-export default withLocalization(
-  ({
-    activeIndex,
-    className,
-    errorContent,
-    getString,
-    Instruction,
-    onSkip,
-    onSubmit,
-    pills,
-    primaryButtons,
-    sentences,
-  }: LocalizationProps & {
-    activeIndex: number;
-    className: string;
-    errorContent?: any;
-    Instruction: React.StatelessComponent<{ $actionType: string }>;
-    onSkip: () => any;
-    onSubmit: () => any;
-    primaryButtons: React.ReactNode;
-    pills: ((props: ContributionPillProps) => React.ReactNode)[];
-    sentences: string[];
-  }) => {
+interface Props extends LocalizationProps {
+  activeIndex: number;
+  className: string;
+  errorContent?: any;
+  Instruction: React.StatelessComponent<{ $actionType: string }>;
+  onSkip: () => any;
+  onSubmit: () => any;
+  primaryButtons: React.ReactNode;
+  pills: ((props: ContributionPillProps) => React.ReactNode)[];
+  sentences: string[];
+}
+
+interface State {
+  selectedPill: number;
+}
+
+class ContributionPage extends React.Component<Props, State> {
+  state: State = { selectedPill: null };
+
+  selectPill(i: number) {
+    this.setState({ selectedPill: i });
+  }
+
+  render() {
+    const {
+      activeIndex,
+      className,
+      errorContent,
+      getString,
+      Instruction,
+      onSkip,
+      onSubmit,
+      pills,
+      primaryButtons,
+      sentences,
+    } = this.props;
+    const { selectedPill } = this.state;
+
     const isDisabled = sentences.length === 0;
     const isDone = activeIndex === -1;
 
     return (
-      <div className="contribution-wrapper">
+      <div
+        className="contribution-wrapper"
+        onClick={() => this.selectPill(null)}>
         <div className={'contribution ' + className}>
           <div className="top">
             <LocaleLink to={URLS.ROOT} className="back">
@@ -105,7 +124,22 @@ export default withLocalization(
 
                 <div className="pills">
                   {pills.map((pill, i) =>
-                    pill({ isOpen: true, key: i, num: i + 1 })
+                    pill({
+                      isOpen: selectedPill === i,
+                      key: i,
+                      num: i + 1,
+                      onClick: () => this.selectPill(i),
+                      style:
+                        selectedPill !== null &&
+                        Math.abs(
+                          Math.min(
+                            Math.max(selectedPill, 1),
+                            pills.length - 2
+                          ) - i
+                        ) > 1
+                          ? { display: 'none' }
+                          : {},
+                    })
                   )}
                 </div>
               </div>
@@ -156,4 +190,6 @@ export default withLocalization(
       </div>
     );
   }
-);
+}
+
+export default withLocalization(ContributionPage);

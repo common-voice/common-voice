@@ -9,18 +9,27 @@ export default ({
   children,
   isOpen,
   num,
+  onClick,
   status,
+  style,
 }: {
   className?: string;
   children: React.ReactNode;
   isOpen: boolean;
   num: number;
+  onClick: () => any;
   status: PillStatus;
+  style?: any;
 }) => (
   <div
-    className={['pill', isOpen ? 'open' : 'closed', status, className].join(
-      ' '
-    )}>
+    className={['pill', isOpen ? 'open' : '', status, className].join(' ')}
+    onClick={event => {
+      if (status !== 'done') return;
+      event.stopPropagation();
+      if (isOpen) return;
+      onClick();
+    }}
+    style={style}>
     <div className="contents">{children}</div>
     <div className="num">{num}</div>
   </div>
