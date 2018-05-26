@@ -288,4 +288,6 @@ goal-type-record = gravando
 goal-type-validation = validação
 contribute-more = Pronto para fazer mais { $count }?
 record-cta = Iniciar gravação
+record-instruction = { $actionType }<recordIcon></recordIcon>e então leia a sentença em voz alta
+record-three-more-instruction = No três, vai!
 record-abort-continue = Finalizar gravação
