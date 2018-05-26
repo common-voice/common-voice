@@ -26,8 +26,6 @@ de = Немецкий
 el = Греческий
 en = Английский
 es = Испанский
-es-AR = Испанский (Аргентина)
-es-CL = Испанский (Чили)
 fr = Французский
 fy-NL = Фризский
 ga-IE = Ирландский
@@ -36,6 +34,7 @@ hu = Венгерский
 id = Индонезийский
 it = Итальянский
 ka = Грузинский
+kab = Кабильский
 ko = Корейский
 kw = Корнский
 mk = Македонский
@@ -49,6 +48,7 @@ pt-BR = Португальский (Бразилия)
 ro = Румынский
 ru = Русский
 sk = Словацкий
+sl = Словенский
 sq = Албанский
 sr = Сербский
 sv-SE = Шведский
@@ -276,3 +276,33 @@ language-speakers = Носителей
 language-total-progress = Всего
 language-search-input =
     .placeholder = Поиск
+
+## New Contribution
+
+action-click = Щёлкнуть
+action-tap = Коснуться
+listen = Прослушать
+skip = Пропустить
+shortcuts = Сочетания клавиш
+clips = Клипы
+goal-type-record = запись
+goal-type-validation = проверка
+contribute-more =
+    { $count ->
+        [one] Готовы сделать ещё { $count }?
+        [few] Готовы сделать ещё { $count }?
+       *[other] Готовы сделать ещё { $count }?
+    }
+record-cta = Начните запись
+record-instruction = { $actionType } <recordIcon></recordIcon>, затем зачитайте предложение вслух
+record-stop-instruction = { $actionType } <stopIcon></stopIcon>, когда закончите
+record-again-instruction = Отлично! <recordIcon></recordIcon> Запишите свой следующий клип
+record-again-instruction2 = Продолжайте, запишите ещё <recordIcon></recordIcon>
+record-last-instruction = <checkIcon></checkIcon>Последний!
+unable-speak = Не в состоянии говорить прямо сейчас
+record-abort-submit = Отправить клипы
+record-abort-continue = Закончите запись
+record-abort-delete = Выйти и удалить клипы
+listen-again-instruction = Отличная работа! <playIcon></playIcon> Прослушайте снова, когда будете готовы
+listen-3rd-time-instruction = Два готовы <playIcon></playIcon> , продолжайте!
+listen-last-time-instruction = <playIcon></playIcon> Последний!
