@@ -300,6 +300,13 @@ record-again-instruction = Отлично! <recordIcon></recordIcon> Запиш�
 record-again-instruction2 = Продолжайте, запишите ещё <recordIcon></recordIcon>
 record-last-instruction = <checkIcon></checkIcon>Последний!
 unable-speak = Не в состоянии говорить прямо сейчас
+clips-submitted =
+    { $count ->
+        [one] { $count } клип отправлен!
+        [few] { $count } клипа отправлено!
+       *[other] { $count } клипов отправлено!
+    }
+record-abort-title = Сначала закончите запись?
 record-abort-submit = Отправить клипы
 record-abort-continue = Закончите запись
 record-abort-delete = Выйти и удалить клипы
