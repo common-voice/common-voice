@@ -121,7 +121,7 @@ status-hours =
     }
 # Variables:
 # $goal - number of hours representing the next goal
-status-goal = Objectiu següent: { $goal }
+status-goal = Següent objectiu: { $goal }
 english = anglès
 
 ## ProfileForm
@@ -269,8 +269,8 @@ request-language-success-content = Aviat ens posarem en contacte amb més inform
 
 language-section-in-progress = En curs
 language-section-launched = Publicats
-languages-show-more = Més informació
-languages-show-less = Menys informació
+languages-show-more = Mostra'n més
+languages-show-less = Mostra'n menys
 language-speakers = Parlants
 language-total-progress = Total
 language-search-input =
@@ -280,6 +280,7 @@ language-search-input =
 
 skip = Omet
 shortcuts = Dreceres
+toward-goal = Manca un <goalPercentage></goalPercentage> per arribar a l'objectiu { $goalType } d'avui del Common Voice
 contribute-more =
     { $count ->
         [one] Preparat per fer-ne { $count } més?
