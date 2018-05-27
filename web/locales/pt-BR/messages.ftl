@@ -286,8 +286,30 @@ shortcuts = Atalhos
 clips = Clipes
 goal-type-record = gravando
 goal-type-validation = validação
+toward-goal = Essa é a <goalPercentage></goalPercentage> em relação à meta de { $goalType } do Common Voice hoje. Obrigado
 contribute-more = Pronto para fazer mais { $count }?
 record-cta = Iniciar gravação
 record-instruction = { $actionType }<recordIcon></recordIcon>e então leia a sentença em voz alta
+record-stop-instruction = { $actionType } <stopIcon></stopIcon> quando terminar
 record-three-more-instruction = No três, vai!
+record-again-instruction = Ótimo! <recordIcon></recordIcon> Grave a próxima frase
+record-again-instruction2 = Continue assim, grave novamente <recordIcon></recordIcon>
+record-last-instruction = <checkIcon></checkIcon> Última!
+review-tooltip = Revise e grave as frases enquanto prossegue
+unable-speak = Incapaz de falar agora
+review-instruction = Enquanto revisa, grave as frases novamente se precisar
+record-submit-tooltip = { $actionType } enviar quando estiver pronto
+clips-submitted =
+    { $count ->
+        [one] { $count } frase enviada!
+       *[other] { $count } frases enviadas!
+    }
+record-abort-title = Terminar a gravação primeiro?
+record-abort-text = Se parar agora vai perder todo o seu progresso
+record-abort-submit = Enviar frases
 record-abort-continue = Finalizar gravação
+record-abort-delete = Sair e excluir frases
+listen-instruction = { $actionType } <playIcon></playIcon> as sentenças foram pronunciadas com precisão?
+listen-again-instruction = Bom trabalho! <playIcon></playIcon> Ouça novamente quando estiver pronto
+listen-3rd-time-instruction = 2 prontas <playIcon></playIcon> , continue assim!
+listen-last-time-instruction = <playIcon></playIcon> Última!
