@@ -32,8 +32,8 @@ const datasets = [
   {
     nick: 'ted',
     size: 54,
-    url: 'http://www.openslr.org/51/',
-    download: ['http://www.openslr.org/resources/51/TEDLIUM_release-3.tgz'],
+    url: 'https://www.openslr.org/51/',
+    download: ['https://www.openslr.org/resources/51/TEDLIUM_release-3.tgz'],
     license: {
       name: 'CC-BY-NC-ND 3.0',
       url: 'https://creativecommons.org/licenses/by-nc-nd/3.0/',
