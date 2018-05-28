@@ -17,6 +17,7 @@ audio-loading-error = Es tut uns leid! Wir verarbeiten unsere Audiodateien, bitt
 ## Languages
 
 bn = Bengali
+br = Bretonisch
 ca = Katalanisch
 cs = Tschechisch
 cv = Tschuwaschisch
