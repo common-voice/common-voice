@@ -26,8 +26,6 @@ de = Almaynek
 el = Greka
 en = Sowsnek
 es = Spaynek
-es-AR = Spaynek (Arghantina)
-es-CL = Spaynek (Chile)
 fr = Frenkek
 fy-NL = Frisek
 ga-IE = Wordhenek
@@ -36,6 +34,7 @@ hu = Hongarek
 id = Indonesek
 it = Italek
 ka = Jorjek
+kab = Kabyle
 ko = Koreek
 kw = Kernowek
 mk = Makedonek
@@ -49,6 +48,7 @@ pt-BR = Portyngalek (Brasil)
 ro = Romaniek
 ru = Russek
 sk = Slovakek
+sl = Slovenek
 sq = Albaniek
 sr = Serbek
 sv-SE = Swedek
@@ -281,3 +281,53 @@ language-speakers = Kowsoryon
 language-total-progress = Somm
 language-search-input =
     .placeholder = Hwilas
+
+## New Contribution
+
+action-click = Klyckyowgh
+action-tap = Tappyowgh
+listen = Goslowowgh
+skip = Hepkor
+shortcuts = Skochfordhow
+clips = Klyppys
+goal-type-record = ow rekordya
+goal-type-validation = gwiryans
+toward-goal = Henn yw <goalPercentage></goalPercentage> war-tu ha amkan { $goalType } Common Voice hedhyw. Meur ras
+contribute-more =
+    { $count ->
+        [zero] Parys dhe wul { $count } moy?
+        [one] Parys dhe wul { $count } moy?
+        [two] Parys dhe wul { $count } voy?
+        [few] Parys dhe wul { $count } moy?
+        [many] Parys dhe wul { $count } moy?
+       *[other] Parys dhe wul { $count } moy?
+    }
+record-cta = Dalleth rekordya
+record-instruction = { $actionType }<recordIcon></recordIcon> hag ena lennowgh an lavar
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> pan vo diwedh dhywgh
+record-three-more-instruction = Tri moy!
+record-again-instruction = Bryntin! <recordIcon></recordIcon> Rekordyowgh agas nessa klypp
+record-again-instruction2 = Dewgh yn-rag, rekordyowgh arta <recordIcon></recordIcon>
+record-last-instruction = <checkIcon></checkIcon> An diwettha!
+review-tooltip = Dasweles ha dasrekordya klyppys omma
+unable-speak = Ny yllir kowsel lemmyn
+review-instruction = Dasweles ha dasrekordya klyppys mars yw res
+record-submit-tooltip = { $actionType } danvenowgh pan vo parys
+clips-submitted =
+    { $count ->
+        [zero] Ny veu klypp vyth danvenys!
+        [one] { $count } klypp danvenys!
+        [two] { $count } glypp danvenys!
+        [few] { $count } klypp danvenys!
+        [many] { $count } klypp danvenys!
+       *[other] { $count } klypp danvenys!
+    }
+record-abort-title = Gorfenna rekordya kens oll?
+record-abort-text = Mar tiberthowgh lemmyn, hwi a wra kelli agas ober
+record-abort-submit = Danvon klyppys
+record-abort-continue = Gorfenna rekordya
+record-abort-delete = Kwytya & dilea an klyppys
+listen-instruction = { $actionType }<playIcon></playIcon> a gowssons yn kewer an lavar?
+listen-again-instruction = Ober da! <playIcon></playIcon> Goslowowgh arta pan vowgh parys
+listen-3rd-time-instruction = 2 gwrys <playIcon></playIcon>, splann!
+listen-last-time-instruction = <playIcon></playIcon> An diwettha!
