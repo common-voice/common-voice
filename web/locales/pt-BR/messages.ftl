@@ -17,6 +17,7 @@ audio-loading-error = Desculpe! Nós estamos processando nossos arquivos de audi
 ## Languages
 
 bn = Bengalês
+br = Bretão
 ca = Catalão
 cs = Tcheco
 cv = Tchuvache
