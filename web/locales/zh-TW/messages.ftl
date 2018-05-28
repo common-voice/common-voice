@@ -17,6 +17,7 @@ audio-loading-error = 很抱歉，我們正在處理音訊檔案，請稍候再�
 ## Languages
 
 bn = 孟加拉語
+br = 布里多尼語
 ca = 加泰隆語
 cs = 捷克語
 cv = 楚瓦什語
