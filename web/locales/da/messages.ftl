@@ -50,6 +50,7 @@ sk = Slovakisk
 sq = Albansk
 sv-SE = Svensk
 ta = Tamil
+te = Telugu
 th = Thai
 tr = Tyrkisk
 tt = Tatarisk
@@ -102,7 +103,6 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Næste mål: { $goal }
-status-more-soon = Flere sprog kommer snart!
 english = Engelsk
 
 ## ProfileForm

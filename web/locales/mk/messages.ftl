@@ -22,9 +22,9 @@ cv = Чуваш
 cy = Велшки
 da = Дански
 de = Германски
-e = n
-E = n
 el = Грчки
+en = Англиски
+es = Шпански
 es-AR = Шпански (Аргентина)
 es-CL = Шпански (Чиле)
 fr = Француски
@@ -36,7 +36,9 @@ id = Индонезиски
 it = Италјански
 ka = Грузиски
 ko = Корејски
+kw = Корнишки
 mk = Македонски
+nb-NO = Норвешки Букмол
 nl = Холандски
 nn-NO = Норвешки Нинорск
 or = Орија
@@ -48,6 +50,7 @@ sk = Словачки
 sq = Албански
 sv-SE = Шведски
 ta = Тамил
+te = Телугу
 th = Таи
 tr = Турски
 tt = Татарски
@@ -103,7 +106,6 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Следна цел: { $goal }
-status-more-soon = Повеќе јазици наскоро!
 english = Англиски
 
 ## ProfileForm
@@ -137,6 +139,7 @@ edit-profile = Уреди профил
 profile-create = Создај профил
 profile-create-success = Успех, профилот е создаден!
 profile-close = Затвори
+profile-clear-modal = Расчистувањето на податоците за вашиот профил значи дека овие демографски информации нема повеќе да се поднесуваат до Common Voice со вашите снимки.
 
 ## FAQ
 

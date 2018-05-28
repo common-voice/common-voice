@@ -61,7 +61,7 @@ zh-TW = Kinesiska (Taiwan)
 
 ## Layout
 
-speak = Prata
+speak = Tala
 datasets = Datamängder
 languages = Språk
 profile = Profil
@@ -128,7 +128,7 @@ male = Man
 female = Kvinna
 # Gender
 other = Annat
-why-profile-title = Varför ha en profil?
+why-profile-title = Varför behövs en profil?
 why-profile-text = Genom att ge lite information om dig själv kan det ljud du ger till Common Voice bli mer användbart för röstigenkänningsmotorer som använder denna data för att förbättra sin noggrannhet.
 edit-profile = Redigera profil
 profile-create = Skapa en profil
@@ -253,5 +253,5 @@ language-section-in-progress = Pågående
 language-section-launched = Lanserad
 languages-show-more = Läs mer
 languages-show-less = Visa mindre
-language-speakers = Talare
+language-speakers = Talas av
 language-total-progress = Totalt
