@@ -17,6 +17,7 @@ audio-loading-error = Przetwarzamy pliki dźwiękowe, proszę spróbować ponown
 ## Languages
 
 bn = bengalski
+br = bretoński
 ca = kataloński
 cs = czeski
 cv = czuwaski
