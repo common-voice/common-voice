@@ -279,34 +279,3 @@ language-search-input =
 
 ## New Contribution
 
-action-click = Klikken
-action-tap = Tikken
-listen = Luisteren
-skip = Overslaan
-shortcuts = Snelkoppelingen
-clips = Fragmenten
-goal-type-record = opnemen
-goal-type-validation = validatie
-toward-goal = We hebben <goalPercentage></goalPercentage> van het { $goalType }-doel van Common Voice voor vandaag bereikt. Bedankt
-contribute-more = Klaar om er nog { $count } te doen?
-record-cta = Opname starten
-record-instruction = { $actionType } <recordIcon></recordIcon> en lees de zin vervolgens hardop
-record-stop-instruction = { $actionType } <stopIcon></stopIcon> indien gereed
-record-three-more-instruction = Nog drie te gaan!
-record-again-instruction = Geweldig! <recordIcon></recordIcon> Neem uw volgende fragment op
-record-again-instruction2 = Ga zo door, neem nog een keer op <recordIcon></recordIcon>
-record-last-instruction = <checkIcon></checkIcon> De laatste!
-review-tooltip = Beoordeel en neem nogmaals fragmenten op als u wilt
-unable-speak = Kan nu niet spreken
-review-instruction = Beoordeel fragmenten en neem ze zo nodig opnieuw op
-record-submit-tooltip = { $actionType } indienen wanneer gereed
-clips-submitted = { $count } fragmenten ingediend!
-record-abort-title = Opname eerst afronden?
-record-abort-text = Door nu af te sluiten verliest u uw voortgang
-record-abort-submit = Fragmenten indienen
-record-abort-continue = Opname voltooien
-record-abort-delete = Afsluiten en fragmenten verwijderen
-listen-instruction = { $actionType } <playIcon></playIcon> is de zin duidelijk uitgesproken?
-listen-again-instruction = Goed werk! <playIcon></playIcon> Luister opnieuw wanneer u klaar bent
-listen-3rd-time-instruction = 2 klaar <playIcon></playIcon> , ga zo door!
-listen-last-time-instruction = <playIcon></playIcon> De laatste!
