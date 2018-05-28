@@ -17,6 +17,7 @@ audio-loading-error = ¡Lo sentimos! Estamos procesando nuestros archivos de aud
 ## Languages
 
 bn = Bengalí
+br = Bretón
 ca = Catalán
 cs = Checo
 cv = Chuvasio
