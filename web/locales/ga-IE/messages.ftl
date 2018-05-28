@@ -280,3 +280,4 @@ language-search-input =
 
 ## New Contribution
 
+listen = Éist
