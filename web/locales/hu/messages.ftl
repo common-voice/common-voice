@@ -17,6 +17,7 @@ audio-loading-error = Sajnáljuk! Jelenleg a hangfájlok feldolgozása folyik, p
 ## Languages
 
 bn = Bengáli
+br = Breton
 ca = Katalán
 cs = Cseh
 cv = Csuvas
