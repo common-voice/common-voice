@@ -13,6 +13,7 @@ audio-loading-error = Sorry! We are processing our audio files, please try again
 # [Languages]
 ## Languages
 bn = Bengali
+br = Breton
 ca = Catalan
 cs = Czech
 cv = Chuvash
