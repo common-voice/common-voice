@@ -78,17 +78,7 @@
             font-weight: 600;
 
             @media (--md-up) {
-                width: var(--pill-width);
-                text-align: center;
-            }
-
-            & .text {
                 display: none;
-                font-weight: normal;
-
-                @media (--md-up) {
-                    display: inline-block;
-                }
             }
         }
     }
@@ -167,7 +157,6 @@
 
             display: flex;
             align-items: center;
-            justify-content: center;
 
             width: 100%;
             height: 100%;
@@ -182,6 +171,7 @@
             background: var(--white);
             box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.05);
             overflow: auto;
+            word-wrap: break-word;
 
             opacity: 1;
             transition: all var(--transition-duration-slow) var(--easing);
@@ -208,26 +198,49 @@
 
     & .pills {
         margin-top: 23px;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        align-items: flex-end;
-        justify-content: space-between;
 
         @media (--md-up) {
-            margin-top: 0;
-            margin-left: auto;
-            width: auto;
             flex: 1;
-            flex-direction: column;
-            justify-content: flex-start;
+        }
+
+        & .inner {
+            width: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+
+            @media (--md-up) {
+                margin-top: 0;
+                margin-left: auto;
+                width: fit-content;
+                flex-direction: column;
+                justify-content: flex-start;
+            }
+        }
+
+        & .counter {
+            margin-top: -42px;
+
+            display: none;
+            font-weight: 600;
+
+            @media (--md-up) {
+                display: inline;
+            }
+
+            & .text {
+                font-weight: normal;
+            }
         }
     }
 
     & .primary-buttons {
+        margin-top: 23px;
+
         display: flex;
         justify-content: center;
-        margin-top: 23px;
+        align-items: center;
 
         @media (--md-up) {
             margin-top: 12vh;

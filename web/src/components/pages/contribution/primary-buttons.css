@@ -6,6 +6,12 @@
     justify-content: center;
     align-items: center;
 
+    margin: 0 18px;
+
+    @media(--md-up) {
+        margin: 0 40px;
+    }
+
     & .background {
         position: absolute;
         margin: 0 auto;
@@ -47,7 +53,7 @@
         }
     }
 
-    &.record .background {
+    &.record .background, &.play .background {
         opacity: 0.5;
         background: linear-gradient(to left, #88d1f1, #b1b5e5);
     }

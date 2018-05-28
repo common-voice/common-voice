@@ -30,6 +30,7 @@ import API from '../services/api';
 import { Locale } from '../stores/locale';
 import StateTree from '../stores/tree';
 import Layout from './layout/layout';
+import ListenPage from './pages/contribution/listen/listen';
 import SpeakPage from './pages/contribution/speak/speak';
 import { localeConnector, LocalePropsFromState } from './locale-helpers';
 
@@ -146,7 +147,7 @@ const LocalizedLayout = withRouter(
                   <Route
                     exact
                     path={toLocaleRoute(URLS.LISTEN)}
-                    component={SpeakPage}
+                    component={ListenPage}
                   />
                   <Layout />
                 </Switch>

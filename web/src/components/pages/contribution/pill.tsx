@@ -10,6 +10,7 @@ export default ({
   isOpen,
   num,
   onClick,
+  openable = false,
   status,
   style,
 }: {
@@ -17,18 +18,23 @@ export default ({
   children: React.ReactNode;
   isOpen: boolean;
   num: number;
+  openable?: boolean;
   onClick: () => any;
   status: PillStatus;
   style?: any;
 }) => (
   <div
     className={['pill', isOpen ? 'open' : '', status, className].join(' ')}
-    onClick={event => {
-      if (status !== 'done') return;
-      event.stopPropagation();
-      if (isOpen) return;
-      onClick();
-    }}
+    onClick={
+      openable
+        ? event => {
+            if (status !== 'done') return;
+            event.stopPropagation();
+            if (isOpen) return;
+            onClick();
+          }
+        : null
+    }
     style={style}>
     <div className="contents">{children}</div>
     <div className="num">{num}</div>

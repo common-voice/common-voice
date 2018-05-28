@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { MicIcon, StopIcon } from '../../ui/icons';
+import { MicIcon, PlayIcon, StopIcon } from '../../ui/icons';
 
 import './primary-buttons.css';
 
@@ -25,5 +25,14 @@ export const RecordButton = ({
     disabled={status === 'waiting'}>
     {status === null && <MicIcon />}
     {status === 'recording' && <StopIcon />}
+  </PrimaryButton>
+);
+
+export const PlayButton = ({
+  isPlaying,
+  ...props
+}: { isPlaying: boolean } & React.ButtonHTMLAttributes<any>) => (
+  <PrimaryButton className={isPlaying ? 'stop' : 'play'} {...props}>
+    {isPlaying ? <StopIcon /> : <PlayIcon />}
   </PrimaryButton>
 );

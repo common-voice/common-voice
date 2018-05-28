@@ -16,11 +16,13 @@
     overflow: hidden;
 
     @media (--md-up) {
-        display: flex !important;
         margin-top: 20px;
+        margin-left: auto;
         padding: 0 12px;
-        width: var(--pill-width);
+        width: auto;
         height: 57px;
+
+        display: flex !important;
         flex-direction: row;
         justify-content: space-between;
 
@@ -82,7 +84,7 @@
 
         &.open {
             justify-content: flex-end;
-            width: var(--pill-width);
+            width: auto;
 
             & .contents {
                 display: flex !important;

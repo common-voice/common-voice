@@ -21,12 +21,12 @@ interface Props extends LocalizationProps {
   activeIndex: number;
   className: string;
   errorContent?: any;
-  extraButton: React.ReactNode;
+  extraButton?: React.ReactNode;
   instruction: (
     props: { $actionType: string; children: any }
   ) => React.ReactNode;
   onSkip: () => any;
-  onSubmit: () => any;
+  onSubmit?: () => any;
   primaryButtons: React.ReactNode;
   pills: ((props: ContributionPillProps) => React.ReactNode)[];
   sentences: string[];
@@ -89,9 +89,6 @@ class ContributionPage extends React.Component<Props, State> {
             {!errorContent && (
               <div className="counter">
                 {activeIndex + 1 || SET_COUNT}/{SET_COUNT}{' '}
-                <Localized id="clips">
-                  <span className="text" />
-                </Localized>
               </div>
             )}
           </div>
@@ -108,14 +105,14 @@ class ContributionPage extends React.Component<Props, State> {
                   })}
 
                   <div className="cards">
-                    {sentences.map((s, i) => {
+                    {sentences.map((sentence, i) => {
                       const activeSentenceIndex = isDone
                         ? SET_COUNT - 1
                         : activeIndex;
                       const isActive = i === activeSentenceIndex;
                       return (
                         <div
-                          key={s}
+                          key={sentence}
                           className={'card ' + (isActive ? '' : 'inactive')}
                           style={{
                             transform: [
@@ -125,7 +122,9 @@ class ContributionPage extends React.Component<Props, State> {
                             ].join(' '),
                             opacity: i < activeSentenceIndex ? 0 : 1,
                           }}>
-                          {s}
+                          <div style={{ margin: 'auto', width: '100%' }}>
+                            {sentence}
+                          </div>
                         </div>
                       );
                     })}
@@ -133,24 +132,34 @@ class ContributionPage extends React.Component<Props, State> {
                 </div>
 
                 <div className="pills">
-                  {pills.map((pill, i) =>
-                    pill({
-                      isOpen: isDone || selectedPill === i,
-                      key: i,
-                      num: i + 1,
-                      onClick: () => this.selectPill(i),
-                      style:
-                        selectedPill !== null &&
-                        Math.abs(
-                          Math.min(
-                            Math.max(selectedPill, 1),
-                            pills.length - 2
-                          ) - i
-                        ) > 1
-                          ? { display: 'none' }
-                          : {},
-                    })
-                  )}
+                  <div className="inner">
+                    {!errorContent && (
+                      <div className="counter">
+                        {activeIndex + 1 || SET_COUNT}/{SET_COUNT}{' '}
+                        <Localized id="clips">
+                          <span className="text" />
+                        </Localized>
+                      </div>
+                    )}
+                    {pills.map((pill, i) =>
+                      pill({
+                        isOpen: isDone || selectedPill === i,
+                        key: i,
+                        num: i + 1,
+                        onClick: () => this.selectPill(i),
+                        style:
+                          selectedPill !== null &&
+                          Math.abs(
+                            Math.min(
+                              Math.max(selectedPill, 1),
+                              pills.length - 2
+                            ) - i
+                          ) > 1
+                            ? { display: 'none' }
+                            : {},
+                      })
+                    )}
+                  </div>
                 </div>
               </div>
 

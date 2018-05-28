@@ -60,9 +60,6 @@ const UnsupportedInfo = () => (
   </div>
 );
 
-// Without wrapping fluent adds children, which React doesn't like for imgs
-const MicIconWrap = () => <MicIcon />;
-
 interface PropsFromState {
   api: API;
   sentences: Recordings.Sentence[];
@@ -331,7 +328,7 @@ class SpeakPage extends React.Component<Props, State> {
           ) : (
             <Localized
               id="record-instruction"
-              recordIcon={<MicIconWrap />}
+              recordIcon={<MicIcon />}
               {...props}
             />
           )

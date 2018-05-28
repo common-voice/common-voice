@@ -1,7 +1,12 @@
 import { Localized } from 'fluent-react';
 import * as React from 'react';
 import { Recordings } from '../../../../stores/recordings';
-import { PlayIcon, RedoIcon, ShareIcon, StopIcon } from '../../../ui/icons';
+import {
+  PlayOutlineIcon,
+  RedoIcon,
+  ShareIcon,
+  StopIcon,
+} from '../../../ui/icons';
 import { ContributionPillProps } from '../contribution';
 import Pill, { PillStatus } from '../pill';
 
@@ -37,7 +42,7 @@ export default class RecordingPill extends React.Component<Props, State> {
   render() {
     const { clip, onRerecord, status, ...props } = this.props;
     return (
-      <Pill {...props} className="recording" status={status}>
+      <Pill {...props} className="recording" openable status={status}>
         {status === 'active' && (
           <Localized id="record-cta">
             <div className="text" />
@@ -59,7 +64,7 @@ export default class RecordingPill extends React.Component<Props, State> {
             ) : (
               <React.Fragment>
                 <button type="button" onClick={this.toggleIsPlaying}>
-                  <PlayIcon />
+                  <PlayOutlineIcon />
                 </button>
                 <button type="button" onClick={onRerecord}>
                   <RedoIcon />
