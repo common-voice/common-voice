@@ -17,6 +17,7 @@ audio-loading-error = Hon digarezit! Emaomp o plediñ gant hor restroù son, kla
 ## Languages
 
 bn = Bengaleg
+br = Brezhoneg
 ca = Katalaneg
 cs = Tchekeg
 cv = Tchouvacheg
@@ -274,7 +275,7 @@ language-section-in-progress = War ober
 language-section-launched = Loc'het
 languages-show-more = Gouzout hiroc'h
 languages-show-less = Gwelet nebeutoc'h
-language-speakers = Uhelgomzerioù
+language-speakers = Komzerien
 language-total-progress = Hollad
 language-search-input =
     .placeholder = Klask
