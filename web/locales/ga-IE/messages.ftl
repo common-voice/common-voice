@@ -17,6 +17,7 @@ audio-loading-error = Ár leithscéal! Táimid ag próiseáil ár gcuid comhad f
 ## Languages
 
 bn = Beangáilis
+br = Briotáinis
 ca = Catalóinis
 cs = Seicis
 cv = Suvaisis
