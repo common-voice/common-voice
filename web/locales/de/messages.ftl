@@ -11,11 +11,13 @@ loading = Wird geladen…
 audio-loading-error = Es tut uns leid! Wir verarbeiten unsere Audiodateien, bitte versuchen Sie es in Kürze erneut.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
 
 bn = Bengali
+br = Bretonisch
 ca = Katalanisch
 cs = Tschechisch
 cv = Tschuwaschisch
@@ -25,8 +27,6 @@ de = Deutsch
 el = Griechisch
 en = Englisch
 es = Spanisch
-es-AR = Spanisch (Argentinien)
-es-CL = Spanisch (Chile)
 fr = Französisch
 fy-NL = Friesisch
 ga-IE = Irisch
@@ -35,10 +35,12 @@ hu = Ungarisch
 id = Indonesisch
 it = Italienisch
 ka = Georgisch
+kab = Kabylisch
 ko = Koreanisch
 kw = Cornish
 mk = Mazedonisch
 nb-NO = Norwegisches Bokmål
+ne-NP = Nepali
 nl = Niederländisch
 nn-NO = Nynorsk
 or = Odia
@@ -47,7 +49,9 @@ pt-BR = Portugiesisch (Brasilianisch)
 ro = Rumänisch
 ru = Russisch
 sk = Slowakisch
+sl = Slowenisch
 sq = Albanisch
+sr = Serbisch
 sv-SE = Schwedisch
 ta = Tamil
 te = Telugu
@@ -58,6 +62,9 @@ uk = Ukrainisch
 uz = Usbekisch
 zh-CN = Chinesisch (China)
 zh-TW = Chinesisch (Taiwan)
+
+# [/]
+
 
 ## Layout
 
@@ -88,6 +95,19 @@ help-us-title = Helfen Sie uns beim Bestätigen von Sätzen!
 help-us-explain = Drücken Sie Play, hören Sie zu & erzählen Sie uns: Wurde der folgende Satz korrekt aufgesprochen?
 vote-yes = Ja
 vote-no = Nein
+toggle-play-tooltip = Drücken Sie zum Pausieren/Fortsetzen { shortcut-play-toggle }
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = w
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = j
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 request-language-text = Ihre Sprache wird bei Common Voice noch nicht aufgeführt? Da lässt sich was machen!
 request-language-button = Anfrage schicken
 
@@ -198,7 +218,6 @@ record-platform-not-supported = Es tut uns leid, Ihre Plattform wird derzeit nic
 record-platform-not-supported-desktop = Auf Desktop-Computern können Sie die neueste Version herunterladen:
 record-platform-not-supported-ios = <bold>iOS</bold>-Nutzer können unsere App kostenlos herunterladen:
 record-must-allow-microphone = Sie müssen den Mikrofon-Zugriff zulassen.
-record-cancel = Erneute Aufnahme abbrechen
 record-retry = Erneut versuchen
 record-error-too-short = Die Aufnahme war zu kurz.
 record-error-too-long = Die Aufnahme war zu lang.
@@ -249,9 +268,45 @@ request-language-success-content = Wir melden uns bald mit weiteren Informatione
 
 ## Languages Overview
 
-language-section-in-progress = In Arbeit
-language-section-launched = Abgeschlossen
+language-section-in-progress = Vorbereitungsphase
+language-section-launched = Aufnahmephase
 languages-show-more = Mehr anzeigen
 languages-show-less = Weniger anzeigen
 language-speakers = Sprecher
 language-total-progress = Gesamt
+language-search-input =
+    .placeholder = Suchen
+
+## New Contribution
+
+action-click = Klicken
+action-tap = Berühren
+listen = Anhören
+skip = Überspringen
+shortcuts = Tastenkombinationen
+clips = Aufzeichnungen
+goal-type-record = Aufnahme
+goal-type-validation = Überprüfung
+toward-goal = Damit sind <goalPercentage></goalPercentage> vom heutigen Common-Voice-Ziel { $goalType } erreicht. Vielen Dank
+contribute-more = Nehmen Sie noch { $count } mehr auf?
+record-cta = Aufzeichnung starten
+record-instruction = { $actionType } <recordIcon></recordIcon>, dann lesen Sie den Satz laut vor
+record-stop-instruction = { $actionType } <stopIcon></stopIcon>, wenn Sie fertig sind
+record-three-more-instruction = Noch drei!
+record-again-instruction = Toll! <recordIcon></recordIcon> Nehmen Sie jetzt noch mehr auf
+record-again-instruction2 = Weiter so, erneut aufnehmen <recordIcon></recordIcon>
+record-last-instruction = <checkIcon></checkIcon> Die Letzte!
+review-tooltip = Hier können Sie Aufzeichnungen überprüfen und erneut aufnehmen
+unable-speak = Aktuell können Sie nicht sprechen
+review-instruction = Falls nötig, können Sie Aufzeichnungen überprüfen und erneut aufnehmen
+record-submit-tooltip = { $actionType } Übermitteln, wenn Sie fertig sind
+clips-submitted = { $count } Aufzeichnungen übermittelt!
+record-abort-title = Beenden Sie erst die Aufnahme?
+record-abort-text = Wenn Sie jetzt abbrechen, geht Ihr Fortschritt verloren
+record-abort-submit = Aufzeichnungen übermitteln
+record-abort-continue = Aufnahme abschließen
+record-abort-delete = Beenden und Aufzeichnungen löschen
+listen-instruction = { $actionType } <playIcon></playIcon> Wurde der Satz korrekt gesprochen?
+listen-again-instruction = Toll! <playIcon></playIcon> Hören Sie sich den Satz erneut an, wenn Sie bereit sind
+listen-3rd-time-instruction = Zwei erledigt <playIcon></playIcon>, weiter so!
+listen-last-time-instruction = <playIcon></playIcon> Die Letzte!

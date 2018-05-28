@@ -1,0 +1,7 @@
+@import url('../../../vars.css');
+
+.contribution.speak {
+    & .error {
+        color: var(--red);
+    }
+}

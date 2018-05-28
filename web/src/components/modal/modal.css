@@ -1,9 +1,12 @@
 .ReactModal__Overlay {
-    display: table;
     z-index: var(--top-z-index);
     width: 100%;
     height: 100%;
     animation: fade-in var(--transition-duration);
+
+    @media (--md-up) {
+        display: table;
+    }
 }
 
 /* We need to use !important because the react modal library we use sets inline-styles */

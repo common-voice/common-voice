@@ -11,6 +11,7 @@ loading = Indlæser…
 audio-loading-error = Undskyld! Vi behandler vores lydfiler, prøv igen om lidt.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -25,8 +26,6 @@ de = Tysk
 el = Græsk
 en = Engelsk
 es = Spansk
-es-AR = Spansk (Argentina)
-es-CL = Spansk (Chile)
 fr = Fransk
 fy-NL = Frisisk
 ga-IE = Irsk
@@ -35,10 +34,12 @@ hu = Ungarnsk
 id = Indonesisk
 it = Italiensk
 ka = Georgisk
+kab = Kabylisk
 ko = Koreansk
 kw = Cornisk
 mk = Makedonsk
 nb-NO = Bokmål
+ne-NP = Nepalesisk
 nl = Nederlandsk
 nn-NO = Nynorsk
 or = Oriya
@@ -47,7 +48,9 @@ pt-BR = Portugisisk (Brasilien)
 ro = Rumænsk
 ru = Russisk
 sk = Slovakisk
+sl = Slovensk
 sq = Albansk
+sr = Serbisk
 sv-SE = Svensk
 ta = Tamil
 te = Telugu
@@ -58,6 +61,9 @@ uk = Ukrainsk
 uz = Usbekisk
 zh-CN = Kinesisk (Kina)
 zh-TW = Kinesisk (Taiwan)
+
+# [/]
+
 
 ## Layout
 
@@ -88,6 +94,19 @@ help-us-title = Hjælp os med at kontrollere sætninger!
 help-us-explain = Tryk på afspil, lyt og fortæl os, om den indtalte sætning var korrekt.
 vote-yes = Ja
 vote-no = Nej
+toggle-play-tooltip = Tryk på { shortcut-play-toggle } for at starte eller stoppe afspilningen
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = s
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = j
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 request-language-text = Kan du ikke finde dit sprog på Common Voice?
 request-language-button = Anmod om at få tilføjet et nyt sprog
 
@@ -198,7 +217,6 @@ record-platform-not-supported = Vi beklager, men din platform er i øjeblikket i
 record-platform-not-supported-desktop = Til computere kan du hente den seneste version:
 record-platform-not-supported-ios = <bold>iOS</bold>-brugere kan hente vores gratis app:
 record-must-allow-microphone = Du skal tillade mikrofon-adgang.
-record-cancel = Afbryd genindspilningen
 record-retry = Prøv igen
 record-error-too-short = Optagelsen var for kort.
 record-error-too-long = Optagelsen var for lang.
@@ -255,3 +273,39 @@ languages-show-more = Se mere
 languages-show-less = Se mindre
 language-speakers = Talere
 language-total-progress = I alt
+language-search-input =
+    .placeholder = Søg
+
+## New Contribution
+
+action-click = Klik på
+action-tap = Tryk på
+listen = Lyt
+skip = Spring over
+shortcuts = Genveje
+clips = Klip
+goal-type-record = optagelse
+goal-type-validation = validering
+toward-goal = Det er <goalPercentage></goalPercentage> af dagens Common Voice { $goalType } mål. Mange tak
+contribute-more = Klar til at lave { $count } mere?
+record-cta = Start optagelse
+record-instruction = { $actionType } <recordIcon></recordIcon> og læs så sætningen højt
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> når du er færdig
+record-three-more-instruction = Tre tilbage!
+record-again-instruction = Fremragende! <recordIcon></recordIcon> Optag dit næste klip
+record-again-instruction2 = Fortsæt det gode arbejde, optag igen <recordIcon></recordIcon>
+record-last-instruction = <checkIcon></checkIcon> Den sidste!
+review-tooltip = Godkend og optag klip her efterhånden
+unable-speak = Ikke mulighed for at tale lige nu
+review-instruction = Godkend og optag klip igen hvis nødvendigt
+record-submit-tooltip = { $actionType } indsend når du er klar
+clips-submitted = { $count } klip indsendt!
+record-abort-title = Færdiggør optagelsen først? 
+record-abort-text = Hvis du stopper nu, så mister du din fremgang
+record-abort-submit = Indsend klip
+record-abort-continue = Afslut optagelse
+record-abort-delete = Afslut og slet klip
+listen-instruction = { $actionType } <playIcon></playIcon> udtalte de sætningen nøjagtigt?
+listen-again-instruction = Godt arbejde! <playIcon></playIcon> Lyt igen når du er klar
+listen-3rd-time-instruction = 2 overstået <playIcon></playIcon>, fortsæt det gode arbejde!
+listen-last-time-instruction = <playIcon></playIcon>Den sidste!

@@ -135,6 +135,11 @@
             padding: 1rem;
             cursor: pointer;
         }
+
+        & button {
+            align-self: center;
+            margin-left: auto;
+        }
     }
 
     & button.show-all-languages {
@@ -160,6 +165,28 @@
 
     & .selected-launched .language-sections section {
         margin-left: calc(-100vw);
+    }
+
+    & .search {
+        margin-top: 2.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        & input {
+            border: none;
+            font-size: 1.8rem;
+            font-family: var(--strong-font-family);
+        }
+
+        & button {
+            margin-right: 2rem;
+            
+            & img {
+                width: 14px;
+            }
+        }
     }
 
     & .language-sections {

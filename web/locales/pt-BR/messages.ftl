@@ -11,11 +11,13 @@ loading = Carregando…
 audio-loading-error = Desculpe! Nós estamos processando nossos arquivos de audio, por favor tente novamente em breve.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
 
 bn = Bengalês
+br = Bretão
 ca = Catalão
 cs = Tcheco
 cv = Tchuvache
@@ -25,8 +27,6 @@ de = Alemão
 el = Grego
 en = Inglês
 es = Espanhol
-es-AR = Espanhol (Argentina)
-es-CL = Espanhol (Chile)
 fr = Francês
 fy-NL = Frisão
 ga-IE = Irlandês
@@ -35,10 +35,12 @@ hu = Húngaro
 id = Indonésio
 it = Italiano
 ka = Georgiano
+kab = Kabyle
 ko = Coreano
 kw = Córnico
 mk = Macedônio
 nb-NO = Norueguês (Bokmål)
+ne-NP = Nepalês
 nl = Holandês
 nn-NO = Novo norueguês
 or = Odia
@@ -47,7 +49,9 @@ pt-BR = Português (Brasil)
 ro = Romeno
 ru = Russo
 sk = Eslovaco
+sl = Esloveno
 sq = Albanês
+sr = Sérvio
 sv-SE = Sueco
 ta = Tâmil
 te = Telugo
@@ -58,6 +62,9 @@ uk = Ucraniano
 uz = Usbeque
 zh-CN = Chinês (China)
 zh-TW = Chinês (Taiwan)
+
+# [/]
+
 
 ## Layout
 
@@ -88,6 +95,19 @@ help-us-title = Ajude-nos a validar as frases!
 help-us-explain = Aperte o play, ouça e diga-nos: Eles pronunciaram a frase abaixo corretamente?
 vote-yes = Sim
 vote-no = Não
+toggle-play-tooltip = Pressione { shortcut-play-toggle } para alternar para o modo de reprodução
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = r
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = s
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 request-language-text = Seu idioma ainda não está disponível no Common Voice?
 request-language-button = Solicite um idioma
 
@@ -198,7 +218,6 @@ record-platform-not-supported = Nos desculpe, mas sua plataforma não é suporta
 record-platform-not-supported-desktop = Em computadores, você pode baixar o mais recente:
 record-platform-not-supported-ios = Usuários de <bold>iOS</bold> podem baixar nosso aplicativo gratuito:
 record-must-allow-microphone = Você deve permitir o acesso ao microfone.
-record-cancel = Cancelar regravação
 record-retry = Tentar novamente
 record-error-too-short = A gravação foi muito curta.
 record-error-too-long = A gravação foi muito longa
@@ -255,3 +274,43 @@ languages-show-more = Veja mais
 languages-show-less = Ver menos
 language-speakers = Falantes
 language-total-progress = Total
+language-search-input =
+    .placeholder = Pesquisar
+
+## New Contribution
+
+action-click = Clique
+action-tap = Toque
+listen = Ouvir
+skip = Pular
+shortcuts = Atalhos
+clips = Clipes
+goal-type-record = gravando
+goal-type-validation = validação
+toward-goal = Essa é a <goalPercentage></goalPercentage> em relação à meta de { $goalType } do Common Voice hoje. Obrigado
+contribute-more = Pronto para fazer mais { $count }?
+record-cta = Iniciar gravação
+record-instruction = { $actionType }<recordIcon></recordIcon>e então leia a sentença em voz alta
+record-stop-instruction = { $actionType } <stopIcon></stopIcon> quando terminar
+record-three-more-instruction = No três, vai!
+record-again-instruction = Ótimo! <recordIcon></recordIcon> Grave a próxima frase
+record-again-instruction2 = Continue assim, grave novamente <recordIcon></recordIcon>
+record-last-instruction = <checkIcon></checkIcon> Última!
+review-tooltip = Revise e grave as frases enquanto prossegue
+unable-speak = Incapaz de falar agora
+review-instruction = Enquanto revisa, grave as frases novamente se precisar
+record-submit-tooltip = { $actionType } enviar quando estiver pronto
+clips-submitted =
+    { $count ->
+        [one] { $count } frase enviada!
+       *[other] { $count } frases enviadas!
+    }
+record-abort-title = Terminar a gravação primeiro?
+record-abort-text = Se parar agora vai perder todo o seu progresso
+record-abort-submit = Enviar frases
+record-abort-continue = Finalizar gravação
+record-abort-delete = Sair e excluir frases
+listen-instruction = { $actionType } <playIcon></playIcon> as sentenças foram pronunciadas com precisão?
+listen-again-instruction = Bom trabalho! <playIcon></playIcon> Ouça novamente quando estiver pronto
+listen-3rd-time-instruction = 2 prontas <playIcon></playIcon> , continue assim!
+listen-last-time-instruction = <playIcon></playIcon> Última!

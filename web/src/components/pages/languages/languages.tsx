@@ -2,10 +2,13 @@ import { Localized } from 'fluent-react';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import API from '../../../services/api';
+import { isProduction } from '../../../utility';
 import StateTree from '../../../stores/tree';
 import RequestLanguageModal from '../../request-language-modal/request-language-modal';
-import { Button, Hr } from '../../ui/ui';
+import { CloseIcon, SearchIcon } from '../../ui/icons';
+import { Button, Hr, TextButton } from '../../ui/ui';
 import LocalizationBox, { LoadingLocalizationBox } from './localization-box';
+import { getNativeNameWithFallback } from '../../../services/localization';
 
 const ENGLISH_LOCALE = {
   code: 'en',
@@ -25,6 +28,8 @@ interface State {
   selectedLanguageSection: 'in-progress' | 'launched';
   showAll: boolean;
   showLanguageRequestModal: boolean;
+  showSearch: boolean;
+  query: string;
 }
 
 class LanguagesPage extends React.PureComponent<Props, State> {
@@ -34,7 +39,11 @@ class LanguagesPage extends React.PureComponent<Props, State> {
     selectedLanguageSection: 'in-progress',
     showAll: false,
     showLanguageRequestModal: false,
+    showSearch: false,
+    query: '',
   };
+
+  searchInputRef = React.createRef<HTMLInputElement>();
 
   async componentDidMount() {
     const { api } = this.props;
@@ -61,7 +70,24 @@ class LanguagesPage extends React.PureComponent<Props, State> {
     });
   }
 
+  componentDidUpdate(prevProps: Props, prevState: State) {
+    if (this.state.showSearch && !prevState.showSearch) {
+      this.searchInputRef.current.focus();
+    }
+  }
+
   toggleShowAll = () => this.setState(state => ({ showAll: !state.showAll }));
+
+  toggleSearch = () =>
+    this.setState(state => ({ showSearch: !state.showSearch, query: '' }));
+
+  handleQueryChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    this.setState({ query: event.target.value });
+  };
+
+  handleQueryKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
+    if (event.key === 'Escape') this.toggleSearch();
+  };
 
   render() {
     const {
@@ -70,7 +96,22 @@ class LanguagesPage extends React.PureComponent<Props, State> {
       selectedLanguageSection,
       showAll,
       showLanguageRequestModal,
+      showSearch,
+      query,
     } = this.state;
+
+    const filteredLocalizations =
+      showSearch && query
+        ? localizations.filter(({ locale: { code, name } }: any) => {
+            const q = query.toLowerCase();
+            return (
+              name.toLowerCase().includes(q) ||
+              getNativeNameWithFallback(code)
+                .toLowerCase()
+                .includes(q)
+            );
+          })
+        : showAll ? localizations : localizations.slice(0, 3);
 
     return (
       <div className={'selected-' + selectedLanguageSection}>
@@ -114,86 +155,126 @@ class LanguagesPage extends React.PureComponent<Props, State> {
           />
         )}
 
-        <div className="mobile-headings">
-          <Hr />
+        {!showSearch && (
+          <div className="mobile-headings">
+            <Hr />
 
-          <div className="labels">
-            <Localized id="language-section-in-progress">
-              <h2
-                className="in-progress"
-                onClick={() =>
-                  this.setState({ selectedLanguageSection: 'in-progress' })
-                }
-              />
-            </Localized>
+            <div className="labels">
+              <Localized id="language-section-in-progress">
+                <h2
+                  className="in-progress"
+                  onClick={() =>
+                    this.setState({ selectedLanguageSection: 'in-progress' })
+                  }
+                />
+              </Localized>
 
-            <Localized id="language-section-launched">
-              <h2
-                className="launched"
-                onClick={() =>
-                  this.setState({
-                    selectedLanguageSection: 'launched',
-                    showAll: false,
-                  })
-                }
-              />
-            </Localized>
+              <Localized id="language-section-launched">
+                <h2
+                  className="launched"
+                  onClick={() =>
+                    this.setState({
+                      selectedLanguageSection: 'launched',
+                      showAll: false,
+                    })
+                  }
+                />
+              </Localized>
+
+              {!isProduction() && (
+                <TextButton onClick={this.toggleSearch}>
+                  <SearchIcon />
+                </TextButton>
+              )}
+            </div>
           </div>
-        </div>
+        )}
+
+        {showSearch && (
+          <React.Fragment>
+            <div className="search">
+              <Localized
+                id="language-search-input"
+                attrs={{ placeholder: true }}>
+                <input
+                  type="text"
+                  value={query}
+                  onChange={this.handleQueryChange}
+                  onKeyDown={this.handleQueryKeyDown}
+                  ref={this.searchInputRef}
+                />
+              </Localized>
+              <TextButton onClick={this.toggleSearch}>
+                <CloseIcon black />
+              </TextButton>
+            </div>
+            <Hr />
+          </React.Fragment>
+        )}
 
         <div className="language-sections">
-          <section className="in-progress">
-            <div className="md-block">
-              <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                <Localized id="language-section-in-progress">
-                  <h1 />
-                </Localized>
+          <section
+            className="in-progress"
+            style={showSearch ? { marginTop: 0 } : {}}>
+            {!showSearch && (
+              <div className="md-block">
+                <div style={{ display: 'flex', flexDirection: 'row' }}>
+                  <Localized id="language-section-in-progress">
+                    <h1 style={{ marginRight: '1.5rem' }} />
+                  </Localized>
+                  {!isProduction() && (
+                    <TextButton onClick={this.toggleSearch}>
+                      <SearchIcon />
+                    </TextButton>
+                  )}
+                </div>
+                <Hr />
               </div>
-
-              <Hr />
-            </div>
+            )}
 
             <ul style={{ display: 'flex', flexWrap: 'wrap' }}>
               {localizations.length > 0
-                ? (showAll ? localizations : localizations.slice(0, 3)).map(
-                    (localization: any, i: number) => (
-                      <LocalizationBox
-                        key={i}
-                        localeMessages={localeMessages}
-                        showCTA
-                        {...localization}
-                      />
-                    )
-                  )
+                ? filteredLocalizations.map((localization: any, i: number) => (
+                    <LocalizationBox
+                      key={i}
+                      localeMessages={localeMessages}
+                      showCTA
+                      {...localization}
+                    />
+                  ))
                 : [1, 2, 3].map(i => <LoadingLocalizationBox key={i} />)}
             </ul>
 
-            <Localized id={'languages-show-' + (showAll ? 'less' : 'more')}>
-              <button
-                disabled={localizations.length === 0}
-                className="show-all-languages"
-                onClick={this.toggleShowAll}
-              />
-            </Localized>
-          </section>
-
-          <section className="launched">
-            <div className="md-block">
-              <Localized id="language-section-launched">
-                <h1 />
+            {!showSearch && (
+              <Localized id={'languages-show-' + (showAll ? 'less' : 'more')}>
+                <button
+                  disabled={localizations.length === 0}
+                  className="show-all-languages"
+                  onClick={this.toggleShowAll}
+                />
               </Localized>
-
-              <Hr />
-            </div>
-
-            <ul>
-              <LocalizationBox
-                locale={ENGLISH_LOCALE}
-                localeMessages={localeMessages}
-                progress={1}
-              />
-            </ul>
+            )}
           </section>
+
+          {!showSearch && (
+            <section className="launched">
+              <div className="md-block">
+                <Localized id="language-section-launched">
+                  <h1 />
+                </Localized>
+
+                <Hr />
+              </div>
+
+              <ul>
+                <LocalizationBox
+                  locale={ENGLISH_LOCALE}
+                  localeMessages={localeMessages}
+                  progress={1}
+                />
+              </ul>
+            </section>
+          )}
         </div>
       </div>
     );

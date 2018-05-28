@@ -11,6 +11,7 @@ loading = Načítava sa…
 audio-loading-error = Ospravedlňujeme sa, ale práve spracovávame naše zvukové nahrávky. Skúste to znova neskôr.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -25,8 +26,6 @@ de = nemčina
 el = gréčtina
 en = angličtina
 es = španielčina
-es-AR = španielčina (Argentína)
-es-CL = španielčina (Čile)
 fr = francúzština
 fy-NL = frízština
 ga-IE = írčina
@@ -35,10 +34,12 @@ hu = maďarčina
 id = indonézština
 it = taliančina
 ka = gruzínčina
+kab = kabylčina
 ko = kórejčina
 kw = kornčina
 mk = macedónčina
 nb-NO = nórčina (bokmål)
+ne-NP = nepálčina
 nl = holandčina
 nn-NO = nórčina (nynorsk)
 or = urijčina
@@ -47,7 +48,9 @@ pt-BR = portugalčina (Brazília)
 ro = rumunčina
 ru = ruština
 sk = slovenčina
+sl = slovinčina
 sq = albánčina
+sr = srbčina
 sv-SE = švédčina
 ta = tamilčina
 te = telugčina
@@ -58,6 +61,9 @@ uk = ukrajinčina
 uz = uzbečtina
 zh-CN = čínština (Čína)
 zh-TW = čínština (Taiwan)
+
+# [/]
+
 
 ## Layout
 
@@ -95,6 +101,19 @@ help-us-title = Pomôžte nám overovať vety!
 help-us-explain = Kliknite na prehrať, počúvajte a povedzte nám, či sa nahrávka zhoduje s vetou nižšie.
 vote-yes = Áno
 vote-no = Nie
+toggle-play-tooltip = Stlačením { shortcut-play-toggle } spustíte režim prehrávania
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = á
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 request-language-text = Nevidíte na Common Voice svoj jazyk?
 request-language-button = Požiadajte o jazyk
 
@@ -206,7 +225,6 @@ record-platform-not-supported = Ospravedlňujeme sa, no vaša platforma zatiaľ 
 record-platform-not-supported-desktop = Na počítačoch si môžete prevziať najnovšie:
 record-platform-not-supported-ios = Používatelia <bold>iOS</bold> si môžu prevziať našu bezplatnú aplikáciu:
 record-must-allow-microphone = Musíte povoliť prístup ku mikrofónu.
-record-cancel = Zrušiť opakovaný záznam
 record-retry = Znova
 record-error-too-short = Vaša nahrávka bola príliš krátka.
 record-error-too-long = Vaša nahrávka bola príliš dlhá.
@@ -263,3 +281,14 @@ languages-show-more = Zobraziť viac
 languages-show-less = Zobraziť menej
 language-speakers = Počet hovoriacich
 language-total-progress = Celkovo
+language-search-input =
+    .placeholder = Hľadať
+
+## New Contribution
+
+action-click = Kliknite
+action-tap = Ťuknite
+listen = Počúvajte
+skip = Preskočiť
+shortcuts = Skratky
+clips = Klipy

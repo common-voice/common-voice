@@ -10,11 +10,13 @@
     --darker-grey: #E6E5E3;
     --light-grey: #F3F2F0;
     --lighter-grey: #F9F9F9;
+    --desert-storm: #F3F2F1;
     --warm-grey: #959595;
-    --blue: blue;
+    --blue: #629ff4;
 
     --link-color: var(--blue);
 
+    --override-z-index: 3;
     --top-z-index: 2;
     --middle-z-index: 1;
     --bottom-z-index: 0;
@@ -26,7 +28,7 @@
 
     --standard-margin: 0.3rem;
 
-    --desktop-width: 73rem;
+    --desktop-width: 76rem;
     --old-desktop-width: 55rem;
 
     --page-margin: 1rem;
@@ -70,6 +72,11 @@
 @custom-media --lg-up (width >= 992px);
 @custom-media --xl-up (width >= 1200px);
 
+@custom-media --xs-down (width <= 576px);
+@custom-media --sm-down (width <= 768px);
+@custom-media --md-down (width <= 992px);
+@custom-media --lg-down (width <= 1200px);
+
 @custom-media --xs-only (width < 576px);
 @custom-media --sm-only (width >= 576px) and (width < 768px);
 @custom-media --md-only (width >= 768px) and (width < 992px);
@@ -92,5 +99,31 @@
 
     @media (--md-up) {
         display: block;
+    }
+}
+
+.hidden-sm-down {
+    @media (--sm-down) {
+        display: none !important;
+    }
+
+}
+
+.hidden-md-down {
+    @media (--md-down) {
+        display: none !important;
+    }
+
+}
+
+.hidden-md-up {
+    @media (--md-up) {
+        display: none !important;
+    }
+}
+
+.hidden-lg-up {
+    @media (--lg-up) {
+        display: none !important;
     }
 }

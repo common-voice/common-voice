@@ -1,4 +1,5 @@
-import DB from './model/db';
+const contributableLocales = require('../../../locales/contributable.json') as string[];
+import DB, { Sentence } from './model/db';
 import { DBClipWithVoters } from './model/db/tables/clip-table';
 import Cache from './cache';
 import {
@@ -13,23 +14,27 @@ import {
  */
 export default class Model {
   db = new DB();
-  clipCache = new Cache(count => this.db.findClipsWithFewVotes(count));
-  sentencesCaches: { [bucket: string]: Cache<string> } = Object.keys(
-    IDEAL_SPLIT
-  ).reduce(
-    (obj, bucket) => ({
-      ...obj,
-      [bucket]: new Cache(count =>
-        this.db.findSentencesWithFewClips(bucket, count)
+  clipCache: Map<string, Cache<DBClipWithVoters>> = new Map(
+    contributableLocales.map(locale => [
+      locale,
+      new Cache(
+        count => this.db.findClipsWithFewVotes(locale, count),
+        clip => clip.id
       ),
-    }),
-    {}
+    ]) as any
   );
-  clipDistribution: Split = {
-    train: 0,
-    dev: 0,
-    test: 0,
-  };
+  sentencesCaches: Map<string, Map<string, Cache<Sentence>>> = new Map(
+    contributableLocales.map(locale => [
+      locale,
+      new Map(Object.keys(IDEAL_SPLIT).map(bucket => [
+        bucket,
+        new Cache(count =>
+          this.db.findSentencesWithFewClips(bucket, locale, count)
+        ),
+      ]) as any),
+    ]) as any
+  );
+  clipDistribution: Split = IDEAL_SPLIT;
 
   constructor() {
     this.cacheClipDistribution().catch((e: any) => {
@@ -41,6 +46,7 @@ export default class Model {
     this.clipDistribution = rowsToDistribution(
       await this.db.getClipBucketCounts()
     );
+    console.log('clip distribution', JSON.stringify(this.clipDistribution));
   };
 
   /**
@@ -48,31 +54,37 @@ export default class Model {
    */
   async findEligibleClips(
     client_id: string,
+    locale: string,
     count: number
   ): Promise<DBClipWithVoters[]> {
-    return this.clipCache.takeWhere(
-      clip => clip.client_id !== client_id && !clip.voters.includes(client_id),
-      count
-    );
+    return this.clipCache
+      .get(locale)
+      .takeWhere(
+        clip =>
+          clip.client_id !== client_id && !clip.voters.includes(client_id),
+        count
+      );
   }
 
   async findEligibleSentences(
     client_id: string,
+    locale: string,
     count: number
-  ): Promise<string[]> {
-    const user = await this.db.getUserClient(client_id);
-    return this.sentencesCaches[user ? user.bucket : 'train'].take(count);
+  ): Promise<Sentence[]> {
+    const bucket = await this.db.getOrSetUserBucket(
+      client_id,
+      locale,
+      randomBucketFromDistribution(this.clipDistribution)
+    );
+    const localeCache = this.sentencesCaches.get(locale);
+    return localeCache ? localeCache.get(bucket || 'train').take(count) : [];
   }
 
   /**
    * Update current user
    */
   async syncUser(uid: string, data: any): Promise<void> {
-    return this.db.updateUser(
-      uid,
-      data,
-      randomBucketFromDistribution(this.clipDistribution)
-    );
+    return this.db.updateUser(uid, data);
   }
 
   /**

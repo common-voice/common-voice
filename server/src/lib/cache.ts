@@ -1,25 +1,40 @@
 import * as Random from 'random-js';
 
 type FetchFunction<T> = (count: number) => T[] | Promise<T[]>;
+type GetKeyFunction<T> = (item: T) => any;
 
 export default class Cache<T> {
   private items: T[] = [];
   private size: number;
   private fetchMore: FetchFunction<T>;
+  getKey: GetKeyFunction<T>;
   private refillPromise: Promise<void> = null;
   private randomEngine = Random.engines.mt19937().autoSeed();
 
-  constructor(fetchMore: FetchFunction<T>, size = 1000) {
+  constructor(
+    fetchMore: FetchFunction<T>,
+    getKey: GetKeyFunction<T> = null,
+    size = 1000
+  ) {
     this.fetchMore = fetchMore;
+    this.getKey = getKey || (item => item);
     this.size = size;
   }
 
-  private async refill() {
+  async refill() {
     return (
       this.refillPromise ||
       (this.refillPromise = new Promise(async resolve => {
+        const keys: any = {};
+        for (const item of this.items) keys[this.getKey(item)] = true;
+
+        const newItems = await this.fetchMore(this.size);
+
         this.items = this.items.concat(
-          Random.shuffle(this.randomEngine, await this.fetchMore(this.size))
+          Random.shuffle(
+            this.randomEngine,
+            newItems.filter(item => !keys[this.getKey(item)])
+          )
         );
         this.refillPromise = null;
         resolve();

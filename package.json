@@ -17,7 +17,6 @@
     "@types/mkdirp": "^0.5.1",
     "@types/mysql": "^2.15.2",
     "@types/node": "^9.3.0",
-    "@types/node-fetch": "^1.6.7",
     "@types/node-static": "^0.7.0",
     "@types/passport": "^0.4.3",
     "@types/random-js": "^1.0.30",
@@ -60,7 +59,7 @@
     "fluent": "^0.4.3",
     "fluent-intl-polyfill": "^0.1.0",
     "fluent-langneg": "^0.1.0",
-    "fluent-react": "^0.6.1",
+    "fluent-react": "^0.7.0",
     "glob": "7.1.2 ",
     "iso-639-1": "^2.0.3",
     "jest": "^22.1.1",
@@ -70,7 +69,6 @@
     "mediaserver": "0.1.0",
     "mkdirp": "^0.5.1",
     "mysql2": "^1.4.2",
-    "node-fetch": "^1.7.3",
     "node-random-name": "^1.0.1",
     "node-static": "^0.7.10",
     "passport": "^0.4.0",
@@ -103,7 +101,7 @@
     "ts-loader": "^3.2.0",
     "ts-node": "^4.1.0",
     "typescript": "^2.5.2",
-    "typescript-eslint-parser": "^12.0.0",
+    "typescript-eslint-parser": "^15.0.0",
     "uglifyjs-webpack-plugin": "^1.1.6",
     "walk": "^2.3.9",
     "webpack": "^3.7.1",
@@ -130,7 +128,7 @@
     "prettier": "yarn lint --fix",
     "start": "node scripts/dev-server.js",
     "start:prod": "node server/js/server.js",
-    "test": "concurrently --kill-others-on-fail \"yarn build && bundlesize -f \"web/dist/*.js\" -s 115kb\" \"jest --forceExit\""
+    "test": "concurrently --kill-others-on-fail \"yarn build && bundlesize -f \"web/dist/*.js\" -s 120kb\" \"jest --forceExit\""
   },
   "pre-commit": [
     "prettier"

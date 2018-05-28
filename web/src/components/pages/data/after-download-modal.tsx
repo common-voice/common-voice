@@ -7,7 +7,7 @@ import { User } from '../../../stores/user';
 import Modal from '../../modal/modal';
 import PrivacyInfo from '../../privacy-info';
 import { SuccessIcon } from '../../ui/icons';
-import { Button, LabeledInput } from '../../ui/ui';
+import { Button, LabeledInput, TextButton } from '../../ui/ui';
 
 const AUTO_HIDE_TIME_MS = 5000;
 
@@ -95,10 +95,7 @@ class AfterDownloadModal extends React.Component<Props, State> {
                 </Localized>
               )}
 
-              <a
-                href="javascript:void(0)"
-                onClick={onRequestClose}
-                className="cancel">
+              <TextButton onClick={onRequestClose} className="cancel">
                 {isSubmitted ? (
                   <Localized id="download-back">
                     <span />
@@ -108,7 +105,7 @@ class AfterDownloadModal extends React.Component<Props, State> {
                     <span />
                   </Localized>
                 )}
-              </a>
+              </TextButton>
 
               {isSubmitted && <br />}
 

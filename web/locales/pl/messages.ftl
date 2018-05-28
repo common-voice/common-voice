@@ -11,11 +11,13 @@ loading = Wczytywanie…
 audio-loading-error = Przetwarzamy pliki dźwiękowe, proszę spróbować ponownie za chwilę.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
 
 bn = bengalski
+br = bretoński
 ca = kataloński
 cs = czeski
 cv = czuwaski
@@ -25,8 +27,6 @@ de = niemiecki
 el = grecki
 en = angielski
 es = hiszpański
-es-AR = hiszpański (Argentyna)
-es-CL = hiszpański (Chile)
 fr = francuski
 fy-NL = fryzyjski
 ga-IE = irlandzki
@@ -35,10 +35,12 @@ hu = węgierski
 id = indonezyjski
 it = włoski
 ka = gruziński
+kab = kabylski
 ko = koreański
 kw = kornijski
 mk = macedoński
 nb-NO = norweski (bokmål)
+ne-NP = nepalski
 nl = holenderski
 nn-NO = norweski (nynorsk)
 or = orija
@@ -47,7 +49,9 @@ pt-BR = portugalski (Brazylia)
 ro = rumuński
 ru = rosyjski
 sk = słowacki
+sl = słoweński
 sq = albański
+sr = serbski
 sv-SE = szwedzki
 ta = tamilski
 te = telugu
@@ -58,6 +62,9 @@ uk = ukraiński
 uz = uzbecki
 zh-CN = chiński (Chiny)
 zh-TW = chiński (Tajwan)
+
+# [/]
+
 
 ## Layout
 
@@ -88,6 +95,19 @@ help-us-title = Pomóż nam zweryfikować nagrania!
 help-us-explain = Odsłuchaj i potwierdź, czy zdanie jest poprawnie wymówione.
 vote-yes = Tak
 vote-no = Nie
+toggle-play-tooltip = Naciśnij { shortcut-play-toggle }, aby zmienić tryb odtwarzania
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = o
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = t
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 request-language-text = Common Voice nie oferuje jeszcze Twojego języka?
 request-language-button = Poproś o dodanie języka
 
@@ -122,7 +142,7 @@ profile-form-age =
 profile-form-gender =
     .label = Płeć
 profile-form-submit-save = Zapisz
-profile-form-submit-saved = Zapisano
+profile-form-submit-saved = Zapisane
 profile-keep-data = Zachowaj dane
 profile-delete-data = Usuń dane
 male = Mężczyzna
@@ -162,7 +182,7 @@ faq-source-a2 = Możesz zobaczyć teksty źródłowe <dataLink>w tym repozytori
 
 ## Profile
 
-profile-why-title = Dlaczego profil?
+profile-why-title = Po co profil?
 profile-why-content = Dodając informację o sobie, dane zbierane w projekcie Common Voice będą bardziej użyteczne dla systemów rozpoznawania mowy, co może poprawić dokładność wyników.
 
 ## NotFound
@@ -199,7 +219,6 @@ record-platform-not-supported = Przepraszamy, używana platforma nie jest obecni
 record-platform-not-supported-desktop = Na komputerze można pobrać najnowszą wersję:
 record-platform-not-supported-ios = Użytkownicy <bold>iOS</bold> mogą pobrać bezpłatną aplikację:
 record-must-allow-microphone = Musisz zezwolić na dostęp do mikrofonu.
-record-cancel = Anuluj nagrywanie
 record-retry = Ponów
 record-error-too-short = Nagranie jest za krótkie.
 record-error-too-long = Nagranie jest za długie.
@@ -242,7 +261,7 @@ contact-required = * wymagane
 ## Request Language Modal
 
 request-language-title = Poproś o język
-request-language-cancel = Opuść formularz
+request-language-cancel = Wyjdź z formularza
 request-language-form-language =
     .label = Język
 request-language-success-title = Prośba o język została pomyślnie przesłana, dziękujemy.
@@ -251,8 +270,49 @@ request-language-success-content = Już niedługo udzielimy więcej informacji o
 ## Languages Overview
 
 language-section-in-progress = W trakcie
-language-section-launched = Działa
+language-section-launched = Działające
 languages-show-more = Więcej
 languages-show-less = Mniej
 language-speakers = Osoby mówiące
 language-total-progress = Razem
+language-search-input =
+    .placeholder = Szukaj
+
+## New Contribution
+
+action-click = Kliknij
+action-tap = Stuknij
+listen = Posłuchaj
+skip = Pomiń
+shortcuts = Skróty
+clips = Nagrania
+goal-type-record = nagrywania
+goal-type-validation = weryfikowania
+toward-goal = To <goalPercentage></goalPercentage> w kierunku dzisiejszego celu { $goalType } projektu Common Voice. Dziękujemy
+contribute-more = Zrobimy jeszcze { $count }?
+record-cta = Zacznij nagrywanie
+record-instruction = { $actionType } <recordIcon></recordIcon>, a następnie przeczytaj to zdanie
+record-stop-instruction = { $actionType } <stopIcon></stopIcon> po ukończeniu
+record-three-more-instruction = Zostały trzy!
+record-again-instruction = Świetnie! <recordIcon></recordIcon> Nagraj następne zdanie
+record-again-instruction2 = Tak trzymaj, nagraj jeszcze raz <recordIcon></recordIcon>
+record-last-instruction = <checkIcon></checkIcon> Ostatnie!
+review-tooltip = Weryfikuj i ponownie nagrywaj w czasie pracy
+unable-speak = Nie można teraz wymówić zdania
+review-instruction = Weryfikuj i ponownie nagrywaj w razie potrzeby
+record-submit-tooltip = { $actionType } „Wyślij” po ukończeniu
+clips-submitted =
+    { $count ->
+        [one] Wysłano { $count } nagranie!
+        [few] Wysłano { $count } nagrania!
+       *[other] Wysłano { $count } nagrań!
+    }
+record-abort-title = Najpierw dokończyć nagrywanie?
+record-abort-text = Wyjście teraz oznacza utratę postępów
+record-abort-submit = Wyślij nagrania
+record-abort-continue = Dokończ nagrywanie
+record-abort-delete = Wyjdź i usuń nagrania
+listen-instruction = { $actionType } <playIcon></playIcon> czy poprawnie wymówiono zdanie?
+listen-again-instruction = Świetna robota! <playIcon></playIcon> Posłuchaj ponownie
+listen-3rd-time-instruction = Dwa zrobione <playIcon></playIcon>, tak trzymaj!
+listen-last-time-instruction = <playIcon></playIcon> Ostatnie!

@@ -11,6 +11,7 @@ loading = Загрузка…
 audio-loading-error = Извините! Мы обрабатываем наши аудио файлы, пожалуйста, попробуйте ещё раз позже.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -25,8 +26,6 @@ de = Немецкий
 el = Греческий
 en = Английский
 es = Испанский
-es-AR = Испанский (Аргентина)
-es-CL = Испанский (Чили)
 fr = Французский
 fy-NL = Фризский
 ga-IE = Ирландский
@@ -35,10 +34,12 @@ hu = Венгерский
 id = Индонезийский
 it = Итальянский
 ka = Грузинский
+kab = Кабильский
 ko = Корейский
 kw = Корнский
 mk = Македонский
 nb-NO = Норвежский Букмол
+ne-NP = Непальский
 nl = Голландский
 nn-NO = Норвежский Нюнорск
 or = Ория
@@ -47,7 +48,9 @@ pt-BR = Португальский (Бразилия)
 ro = Румынский
 ru = Русский
 sk = Словацкий
+sl = Словенский
 sq = Албанский
+sr = Сербский
 sv-SE = Шведский
 ta = Тамильский
 te = Телугу
@@ -58,6 +61,9 @@ uk = Украинский
 uz = Узбекский
 zh-CN = Китайский (Китай)
 zh-TW = Китайский (Тайвань)
+
+# [/]
+
 
 ## Layout
 
@@ -88,6 +94,19 @@ help-us-title = Помогите нам, проверяя записанное!
 help-us-explain = Включите запись, послушайте и расскажите нам: хорошо ли озвучена фраза, расположенная ниже?
 vote-yes = Да
 vote-no = Нет
+toggle-play-tooltip = Нажмите { shortcut-play-toggle } для переключения режима воспроизведения
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = ж
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = а
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = е
 request-language-text = Пока не видите ваш язык в Common Voice?
 request-language-button = Запросить язык
 
@@ -199,7 +218,6 @@ record-platform-not-supported = Нам жаль, в настоящее врем�
 record-platform-not-supported-desktop = На настольных компьютерах, вы можете загрузить последний:
 record-platform-not-supported-ios = Пользователи <bold>iOS</bold> могут загрузить наше бесплатное приложение:
 record-must-allow-microphone = Вы должны разрешить доступ к микрофону.
-record-cancel = Отменить перезапись
 record-retry = Перезаписать
 record-error-too-short = Запись слишком короткая.
 record-error-too-long = Запись слишком длинная.
@@ -256,3 +274,42 @@ languages-show-more = Больше языков
 languages-show-less = Меньше языков
 language-speakers = Носителей
 language-total-progress = Всего
+language-search-input =
+    .placeholder = Поиск
+
+## New Contribution
+
+action-click = Щёлкнуть
+action-tap = Коснуться
+listen = Прослушать
+skip = Пропустить
+shortcuts = Сочетания клавиш
+clips = Клипы
+goal-type-record = запись
+goal-type-validation = проверка
+contribute-more =
+    { $count ->
+        [one] Готовы сделать ещё { $count }?
+        [few] Готовы сделать ещё { $count }?
+       *[other] Готовы сделать ещё { $count }?
+    }
+record-cta = Начните запись
+record-instruction = { $actionType } <recordIcon></recordIcon>, затем зачитайте предложение вслух
+record-stop-instruction = { $actionType } <stopIcon></stopIcon>, когда закончите
+record-again-instruction = Отлично! <recordIcon></recordIcon> Запишите свой следующий клип
+record-again-instruction2 = Продолжайте, запишите ещё <recordIcon></recordIcon>
+record-last-instruction = <checkIcon></checkIcon>Последний!
+unable-speak = Не в состоянии говорить прямо сейчас
+clips-submitted =
+    { $count ->
+        [one] { $count } клип отправлен!
+        [few] { $count } клипа отправлено!
+       *[other] { $count } клипов отправлено!
+    }
+record-abort-title = Сначала закончите запись?
+record-abort-submit = Отправить клипы
+record-abort-continue = Закончите запись
+record-abort-delete = Выйти и удалить клипы
+listen-again-instruction = Отличная работа! <playIcon></playIcon> Прослушайте снова, когда будете готовы
+listen-3rd-time-instruction = Два готовы <playIcon></playIcon> , продолжайте!
+listen-last-time-instruction = <playIcon></playIcon> Последний!

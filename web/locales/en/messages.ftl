@@ -10,9 +10,10 @@ loading = Loading…
 audio-loading-error = Sorry! We are processing our audio files, please try again shortly.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
-#[Languages]
+# [Languages]
 ## Languages
 bn = Bengali
+br = Breton
 ca = Catalan
 cs = Czech
 cv = Chuvash
@@ -22,8 +23,6 @@ de = German
 el = Greek
 en = English
 es = Spanish
-es-AR = Spanish (Argentina)
-es-CL = Spanish (Chile)
 fr = French
 fy-NL = Frisian
 ga-IE = Irish
@@ -32,10 +31,12 @@ hu = Hungarian
 id = Indonesian
 it = Italian
 ka = Georgian
+kab = Kabyle
 ko = Korean
 kw = Cornish
 mk = Macedonian
 nb-NO = Norwegian Bokmål
+ne-NP = Nepali
 nl = Dutch
 nn-NO = Norwegian Nynorsk
 or = Odia
@@ -44,7 +45,9 @@ pt-BR = Portuguese (Brazil)
 ro = Romanian
 ru = Russian
 sk = Slovak
+sl = Slovenian
 sq = Albanian
+sr = Serbian
 sv-SE = Swedish
 ta = Tamil
 te = Telugu
@@ -55,7 +58,7 @@ uk = Ukrainian
 uz = Uzbek
 zh-CN = Chinese (China)
 zh-TW = Chinese (Taiwan)
-#[/]
+# [/]
 
 ## Layout
 speak = Speak
@@ -95,6 +98,18 @@ help-us-title = Help us validate sentences!
 help-us-explain = Press play, listen & tell us: did they accurately speak the sentence below?
 vote-yes = Yes
 vote-no = No
+toggle-play-tooltip = Press { shortcut-play-toggle } to toggle play mode
+
+## Shortcuts
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 request-language-text = Don't see your language on Common Voice yet?
 request-language-button = Request a Language
@@ -203,7 +218,6 @@ record-platform-not-supported = We’re sorry, but your platform is not currentl
 record-platform-not-supported-desktop = On desktop computers, you can download the latest:
 record-platform-not-supported-ios = <bold>iOS</bold> users can download our free app:
 record-must-allow-microphone = You must allow microphone access.
-record-cancel = Cancel
 record-retry = Retry
 record-error-too-short = The recording was too short.
 record-error-too-long = The recording was too long.
@@ -257,3 +271,46 @@ languages-show-more = See More
 languages-show-less = See Less
 language-speakers = Speakers
 language-total-progress = Total
+language-search-input =
+    .placeholder = Search
+
+## New Contribution
+action-click = Click
+action-tap = Tap
+listen = Listen
+skip = Skip
+shortcuts = Shortcuts
+clips = Clips
+goal-type-record = recording
+goal-type-validation = validation
+toward-goal = That's <goalPercentage></goalPercentage> toward today's Common Voice { $goalType } goal. Thank you
+contribute-more =
+    { $count ->
+       *[other] Ready to do { $count } more?
+    }
+record-cta = Start recording
+record-instruction = { $actionType } <recordIcon></recordIcon>then read the sentence aloud
+record-stop-instruction = { $actionType } <stopIcon></stopIcon> when done
+record-three-more-instruction = Three to go!
+record-again-instruction = Great! <recordIcon></recordIcon> Record your next clip
+record-again-instruction2 = Keep it up, record again <recordIcon></recordIcon>
+record-last-instruction = <checkIcon></checkIcon> Last one!
+review-tooltip = Review & re-record clips here as you go
+unable-speak = Unable to speak right now
+review-instruction = Review & re-record clips if needed
+record-submit-tooltip = { $actionType } submit when ready
+clips-submitted =
+    { $count ->
+       *[other] { $count } Clips submitted!
+    }
+record-abort-title = Finish recording first?
+record-abort-text = Leaving now means you'll lose your progress
+record-abort-submit = Submit clips
+record-abort-continue = Finish recording
+record-abort-delete = Exit & Delete clips
+listen-instruction = { $actionType } <playIcon></playIcon> did they accurately speak the sentence?
+listen-again-instruction = Great work! <playIcon></playIcon> Listen again when you're ready
+listen-3rd-time-instruction = 2 down <playIcon></playIcon> , keep it up!
+listen-last-time-instruction = <playIcon></playIcon> Last one!
+
+

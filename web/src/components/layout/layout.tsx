@@ -16,7 +16,7 @@ import {
   isSafari,
   replacePathLocale,
 } from '../../utility';
-import { MenuIcon, RecordIcon, PlayIcon } from '../ui/icons';
+import { MenuIcon, RecordIcon, OldPlayIcon } from '../ui/icons';
 import { LabeledSelect } from '../ui/ui';
 import Content from './content';
 import Footer from './footer';
@@ -107,7 +107,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
           top: 0,
           behavior: 'smooth',
         });
-      }, 500);
+      }, 250);
     }
   }
 
@@ -258,9 +258,13 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
         {window.location.hostname == 'voice.allizom.org' &&
           showStagingBanner && (
             <div className="staging-banner">
-              You're on the staging server.{' '}
-              <a href="https://voice.mozilla.org">Don't waste your breath.</a>{' '}
-              <a href="https://github.com/mozilla/voice-web/issues/new">
+              You're on the staging server. Voice data is not collected here.{' '}
+              <a href="https://voice.mozilla.org" target="_blank">
+                Don't waste your breath.
+              </a>{' '}
+              <a
+                href="https://github.com/mozilla/voice-web/issues/new"
+                target="_blank">
                 Feel free to report issues.
               </a>{' '}
               <button
@@ -366,7 +370,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
         </div>
         <div className="divider" />
         <div className="validate-tally">
-          <PlayIcon className="icon" />
+          <OldPlayIcon className="icon" />
           {user.validateTally}
         </div>
       </div>
@@ -374,10 +378,10 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   }
 }
 
-const mapStateToProps = ({ locale, recordings, user }: StateTree) => ({
-  locale,
-  isSetFull: Recordings.selectors.isSetFull(recordings),
-  user,
+const mapStateToProps = (state: StateTree) => ({
+  locale: state.locale,
+  isSetFull: Recordings.selectors.isSetFull(state),
+  user: state.user,
 });
 
 const mapDispatchToProps = {

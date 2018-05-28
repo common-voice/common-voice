@@ -1,13 +1,14 @@
 import { Localized } from 'fluent-react';
 import * as React from 'react';
 import { SuccessIcon } from '../ui/icons';
+import { TextButton } from '../ui/ui';
 
 export default ({ onRequestClose }: { onRequestClose: () => void }) => (
   <React.Fragment>
     <div className="title-and-action">
       <div />
       <Localized id="request-language-cancel">
-        <a href="javascript:void(0)" onClick={onRequestClose} />
+        <TextButton onClick={onRequestClose} />
       </Localized>
     </div>
 
@@ -28,8 +29,7 @@ export default ({ onRequestClose }: { onRequestClose: () => void }) => (
     <br />
 
     <Localized id="return-to-cv">
-      <a
-        href="javascript:void(0)"
+      <TextButton
         onClick={onRequestClose}
         className="small"
         style={{ fontWeight: 'bold', color: 'black' }}

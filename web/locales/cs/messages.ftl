@@ -11,6 +11,7 @@ loading = Načítání…
 audio-loading-error = Omlouváme se, ale zrovna zpracováváme další nahrávky. Zkuste to později.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -25,8 +26,6 @@ de = Němčina
 el = Řečtina
 en = Angličtina
 es = Španělština
-es-AR = Španělština (Argentina)
-es-CL = Španělština (Chile)
 fr = Francouzština
 fy-NL = Fríština
 ga-IE = Irština
@@ -35,10 +34,12 @@ hu = Maďarština
 id = Indonéština
 it = Italština
 ka = Gruzínština
+kab = Kabylština
 ko = Korejština
 kw = Kornština
 mk = Makedonština
 nb-NO = Norština (Bokmål)
+ne-NP = Nepálština
 nl = Nizozemština
 nn-NO = Nynorsk
 or = Udijština
@@ -47,7 +48,9 @@ pt-BR = Portugalština (Brazílie)
 ro = Rumunština
 ru = Ruština
 sk = Slovenština
+sl = Slovinština
 sq = Albánština
+sr = Srbština
 sv-SE = Švédština
 ta = Tamilština
 te = Telugština
@@ -58,6 +61,9 @@ uk = Ukrajinština
 uz = Uzbečtina
 zh-CN = Čínština (Čína)
 zh-TW = Čínština (Taiwan)
+
+# [/]
+
 
 ## Layout
 
@@ -88,6 +94,15 @@ help-us-title = Pomozte nám ověřovat věty!
 help-us-explain = Stiskněte přehrát, poslouchejte a řekněte nám: přečetli správně větu níže?
 vote-yes = Ano
 vote-no = Ne
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
 request-language-text = Nevidíte svůj jazyk na Common Voice?
 request-language-button = Požádat o jazyk
 
@@ -199,7 +214,6 @@ record-platform-not-supported = Je nám líto, ale vaše platforma zatím není 
 record-platform-not-supported-desktop = Na počítačích si můžete stáhnout nejnovější:
 record-platform-not-supported-ios = Uživatelé <bold>iOS</bold> si mohou zdarma stáhnout naši aplikaci:
 record-must-allow-microphone = Musíte povolit přístup k mikrofonu.
-record-cancel = Zrušit opakovaný záznam
 record-retry = Opakovat
 record-error-too-short = Nahrávka byla příliš krátká.
 record-error-too-long = Nahrávka byla příliš dlouhá.
@@ -256,3 +270,26 @@ languages-show-more = Zobrazit více
 languages-show-less = Zobrazit méně
 language-speakers = Mluvčí
 language-total-progress = Celkem
+
+## New Contribution
+
+action-click = Klikněte
+action-tap = Klepněte
+listen = Poslouchejte
+skip = Přeskočit
+shortcuts = Zkratky
+clips = Klipy
+goal-type-record = nahrávka
+goal-type-validation = ověření
+toward-goal = To je <goalPercentage></goalPercentage> z dnešního Common Voice cíle { $goalType }. Děkujeme
+contribute-more =
+    { $count ->
+        [one] Jste připraveni udělat ještě { $count }?
+        [few] Jste připraveni udělat ještě { $count }?
+       *[other] Jste připraveni udělat ještě { $count }?
+    }
+record-cta = Spustit nahrávání
+record-instruction = { $actionType } <recordIcon></recordIcon> a přečtěte nahlas větu
+record-stop-instruction = { $actionType } <stopIcon></stopIcon> až budete hotovi
+record-three-more-instruction = Ještě tři!
+record-again-instruction = Skvělé! <recordIcon></recordIcon> Nahrajte váš další klip

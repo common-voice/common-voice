@@ -1,4 +1,4 @@
-FROM node:stretch
+FROM node:8-stretch
 
 # Allow exposing HTTP endpoint
 EXPOSE 9000

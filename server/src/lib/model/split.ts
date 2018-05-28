@@ -18,7 +18,7 @@ export const IDEAL_SPLIT: Split = Object.freeze({
 const sumValues = (split: Split): number =>
   Object.values(split).reduce((sum, n) => sum + n, 0);
 
-export function normalize(split: Split) {
+export function normalize(split: Split): Split {
   const totalCount = sumValues(split) || 1;
   return Object.entries(split)
     .map(([key, count]) => [key, count / totalCount])
@@ -40,7 +40,7 @@ export function calculateCompensatorySplit(realSplit: Split): Split {
   for (const [bucket, count] of Object.entries(normalize(realSplit))) {
     const typedBucket = bucket as keyof Split;
     compensatorySplit[typedBucket] = Math.max(
-      IDEAL_SPLIT[typedBucket] - count,
+      IDEAL_SPLIT[typedBucket] - (count as number),
       0
     );
   }
@@ -68,15 +68,17 @@ export function randomBucketFromDistribution(distribution: Split): keyof Split {
 export function rowsToDistribution(
   rows: { bucket: string; count: number }[]
 ): Split {
-  return rows.reduce(
-    (obj: Split, { bucket, count }: { bucket: string; count: number }) => ({
-      ...obj,
-      [bucket]: count,
-    }),
-    {
-      train: 0,
-      dev: 0,
-      test: 0,
-    }
-  );
+  return rows
+    .filter(({ bucket }) => Object.keys(IDEAL_SPLIT).includes(bucket))
+    .reduce(
+      (obj: Split, { bucket, count }: { bucket: string; count: number }) => ({
+        ...obj,
+        [bucket]: count,
+      }),
+      {
+        train: 0,
+        dev: 0,
+        test: 0,
+      }
+    );
 }

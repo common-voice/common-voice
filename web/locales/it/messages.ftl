@@ -11,6 +11,7 @@ loading = Caricamento in corso…
 audio-loading-error = Spiacenti, i file audio sono in fase di elaborazione. Riprova tra poco.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -25,8 +26,6 @@ de = Tedesco
 el = Greco
 en = Inglese
 es = Spagnolo
-es-AR = Spagnolo (Argentina)
-es-CL = Spagnolo (Cile)
 fr = Francese
 fy-NL = Frisone
 ga-IE = Irlandese
@@ -35,10 +34,12 @@ hu = Ungherese
 id = Indonesiano
 it = Italiano
 ka = Georgiano
+kab = Cabilo
 ko = Coreano
 kw = Cornico
 mk = Macedone
 nb-NO = Bokmål (Norvegia)
+ne-NP = Nepalese
 nl = Olandese
 nn-NO = Norvegese Nynorsk
 or = Oriya
@@ -47,7 +48,9 @@ pt-BR = Portoghese (Brasile)
 ro = Rumeno
 ru = Russo
 sk = Slovacco
+sl = Sloveno
 sq = Albanese
+sr = Serbo
 sv-SE = Svedese
 ta = Tamil
 te = Telugu
@@ -58,6 +61,9 @@ uk = Ucraino
 uz = Uzbeco
 zh-CN = Cinese (Cina)
 zh-TW = Cinese (Taiwan)
+
+# [/]
+
 
 ## Layout
 
@@ -88,6 +94,19 @@ help-us-title = Aiutaci a confermare le frasi!
 help-us-explain = Premi Avvia, ascolta e indica se l’audio corrisponde alla frase qui sotto.
 vote-yes = Sì
 vote-no = No
+toggle-play-tooltip = Premere { shortcut-play-toggle } per passare alla modalità di riproduzione
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 request-language-text = Non trovi la tua lingua su Common Voice?
 request-language-button = Richiedi una lingua
 
@@ -198,7 +217,6 @@ record-platform-not-supported = La piattaforma in uso non è attualmente support
 record-platform-not-supported-desktop = Su computer desktop puoi scaricare l'ultima versione:
 record-platform-not-supported-ios = Gli utenti <bold>iOS</bold> possono scaricare la nostra applicazione gratuita:
 record-must-allow-microphone = È necessario consentire l’accesso al microfono del dispositivo.
-record-cancel = Annulla la nuova registrazione
 record-retry = Riprova
 record-error-too-short = La registrazione è troppo breve.
 record-error-too-long = La registrazione è troppo lunga.
@@ -255,3 +273,39 @@ languages-show-more = Visualizza più elementi
 languages-show-less = Visualizza meno elementi
 language-speakers = Parlato da
 language-total-progress = Totale
+language-search-input =
+    .placeholder = Cerca
+
+## New Contribution
+
+action-click = Clic
+action-tap = Tocca
+listen = Ascolta
+skip = Salta
+shortcuts = Scorciatoie
+clips = Registrazioni
+goal-type-record = registrazione
+goal-type-validation = conferma
+toward-goal = Hai portato Common Voice del <goalPercentage></goalPercentage> più vicino all‘obiettivo { $goalType } di oggi. Grazie!
+contribute-more = Sei pronto a farne ancora { $count }?
+record-cta = Avvia la registrazione
+record-instruction = { $actionType }<recordIcon></recordIcon>, quindi leggi la frase ad alta voce
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> quando hai finito
+record-three-more-instruction = Ancora tre!
+record-again-instruction = Ottimo! <recordIcon></recordIcon> Registra la successiva
+record-again-instruction2 = Continua così, registra di nuovo <recordIcon></recordIcon>
+record-last-instruction = <checkIcon></checkIcon> L'ultima!
+review-tooltip = Riascolta e, se necessario, ripeti le registrazioni prima di proseguire
+unable-speak = Non posso parlare in questo momento
+review-instruction = Riascolta le registrazioni e, se necessario, ripetile
+record-submit-tooltip = { $actionType } carica il tuo contributo quando è pronto
+clips-submitted = { $count } registrazioni inviate!
+record-abort-title = Non vuoi finire la registrazione prima?
+record-abort-text = Se esci adesso perderai i progressi fatti
+record-abort-submit = Invia registrazioni
+record-abort-continue = Porta a termine la registrazione
+record-abort-delete = Esci ed elimina le registrazioni
+listen-instruction = { $actionType } <playIcon></playIcon> La frase è stata letta correttamente?
+listen-again-instruction = Ottimo lavoro! <playIcon></playIcon> Riascolta la registrazione quando sei pronto
+listen-3rd-time-instruction = 2 andate <playIcon></playIcon>, avanti un'altra!
+listen-last-time-instruction = <playIcon></playIcon> L'ultima!

@@ -11,11 +11,13 @@ loading = 載入中…
 audio-loading-error = 很抱歉，我們正在處理音訊檔案，請稍候再試。
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
 
 bn = 孟加拉語
+br = 布里多尼語
 ca = 加泰隆語
 cs = 捷克語
 cv = 楚瓦什語
@@ -25,8 +27,6 @@ de = 德語
 el = 希臘語
 en = 英語
 es = 西班牙語
-es-AR = 西班牙語（阿根廷）
-es-CL = 西班牙語（智利）
 fr = 法語
 fy-NL = 弗利西亞語
 ga-IE = 愛爾蘭語
@@ -35,10 +35,12 @@ hu = 匈牙利語
 id = 印尼語
 it = 義大利語
 ka = 喬治亞語
+kab = 卡拜爾語
 ko = 韓語
 kw = 康瓦爾語
 mk = 馬其頓語
 nb-NO = 挪威語（Bokmål）
+ne-NP = 尼泊爾語
 nl = 荷蘭語
 nn-NO = 挪威語（Nynorsk）
 or = 奧里亞語
@@ -47,7 +49,9 @@ pt-BR = 葡萄牙語（巴西）
 ro = 羅馬尼亞語
 ru = 俄語
 sk = 斯洛伐克語
+sl = 斯洛維尼亞語
 sq = 阿爾巴尼亞語
+sr = 塞爾維亞語
 sv-SE = 瑞典語
 ta = 坦米爾語
 te = 泰盧固語
@@ -58,6 +62,9 @@ uk = 烏克蘭語
 uz = 烏茲別克語
 zh-CN = 華語（中國）
 zh-TW = 華語（台灣）
+
+# [/]
+
 
 ## Layout
 
@@ -90,6 +97,19 @@ help-us-title = 請幫助我們驗證句子！
 help-us-explain = 按下播放按鈕，聽一聽，然後告訴我們: 他們正確說出下面的句子了嗎？
 vote-yes = 是
 vote-no = 否
+toggle-play-tooltip = 按下 { shortcut-play-toggle } 即可切換播放模式
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 request-language-text = 沒在 Common Voice 看到您的語言嗎？
 request-language-button = 要求新語言
 
@@ -199,7 +219,6 @@ record-platform-not-supported = 很抱歉，目前暫不支援您的平台。
 record-platform-not-supported-desktop = 在桌上型電腦，您可以下載最新版的:
 record-platform-not-supported-ios = <bold>iOS</bold> 使用者可下載我們的免費程式:
 record-must-allow-microphone = 您必須允許使用麥克風。
-record-cancel = 取消重新錄音
 record-retry = 重試
 record-error-too-short = 錄音太短了。
 record-error-too-long = 錄音太長了。
@@ -256,3 +275,39 @@ languages-show-more = 檢視更多
 languages-show-less = 檢視更少
 language-speakers = 使用者數
 language-total-progress = 總計
+language-search-input =
+    .placeholder = 搜尋
+
+## New Contribution
+
+action-click = 點擊
+action-tap = 點選
+listen = 聆聽
+skip = 略過
+shortcuts = 捷徑
+clips = 片段
+goal-type-record = 錄製中
+goal-type-validation = 驗證
+toward-goal = 今天的 Common Voice { $goalType } 目標已達成 <goalPercentage></goalPercentage>。感謝您！
+contribute-more = 準備好再作 { $count } 筆了嗎？
+record-cta = 開始錄音
+record-instruction = { $actionType } 按下 <recordIcon></recordIcon> 然後大聲說出句子
+record-stop-instruction = { $actionType } 完成後按下 <stopIcon></stopIcon>
+record-three-more-instruction = 還有三筆！
+record-again-instruction = 好！<recordIcon></recordIcon> 錄下下個片段
+record-again-instruction2 = 繼續加油，再錄一筆！<recordIcon></recordIcon>
+record-last-instruction = <checkIcon></checkIcon>最後一筆了！
+review-tooltip = 在此確認或重錄片段
+unable-speak = 現在無法說話
+review-instruction = 確認錄音內容，有需要的話可以重錄
+record-submit-tooltip = { $actionType } 準備好即可送出
+clips-submitted = 已送出 { $count } 個片段！
+record-abort-title = 不先完成錄音嗎？
+record-abort-text = 如果要現在離開，會失去目前的進度
+record-abort-submit = 送出片段
+record-abort-continue = 完成錄音
+record-abort-delete = 結束並刪除片段
+listen-instruction = { $actionType }<playIcon></playIcon> 他們有準確地說出句子嗎？
+listen-again-instruction = 幹得好！<playIcon></playIcon> 準備好就可以再聽一次
+listen-3rd-time-instruction = 完成兩筆了 <playIcon></playIcon>，繼續保持！
+listen-last-time-instruction = <playIcon></playIcon> 最後一筆了！

@@ -10,12 +10,13 @@ import { User } from '../../../stores/user';
 import ListenBox from '../../listen-box/listen-box';
 import Modal from '../../modal/modal';
 import ProgressButton from '../../progress-button';
+import { TextButton } from '../../ui/ui';
 import ProfileActions from './profile-actions';
 
 interface PropsFromState {
   api: API;
   recordingsCount: number;
-  sentenceRecordings: Recordings.SentenceRecordings;
+  sentenceRecordings: Recordings.SentenceRecording[];
   user: User.State;
 }
 
@@ -111,8 +112,8 @@ class Review extends React.Component<Props, State> {
       } = this.props;
 
       let i = 0;
-      for (const [sentence, recording] of Object.entries(sentenceRecordings)) {
-        await api.uploadClip(recording.blob, sentence);
+      for (const { sentence, recording } of sentenceRecordings) {
+        await api.uploadClip(recording.blob, sentence.id, sentence.text);
 
         tallyRecording();
 
@@ -138,7 +139,7 @@ class Review extends React.Component<Props, State> {
   };
 
   render() {
-    const { getString } = this.props;
+    const { getString, sentenceRecordings } = this.props;
     const {
       progress,
       uploading,
@@ -189,20 +190,18 @@ class Review extends React.Component<Props, State> {
             <span />
           </Localized>
         </p>
-        {Object.entries(this.props.sentenceRecordings).map(
-          ([sentence, recording]) => (
-            <ListenBox
-              key={sentence}
-              src={recording.url}
-              onDelete={this.rerecord.bind(this, sentence)}
-              sentence={sentence}
-            />
-          )
-        )}
+        {sentenceRecordings.map(({ sentence, recording }) => (
+          <ListenBox
+            key={sentence.id}
+            src={recording.url}
+            onDelete={this.rerecord.bind(this, sentence.id)}
+            sentence={sentence.text}
+          />
+        ))}
         <br />
         <div className="actions">
           <Localized id="review-cancel">
-            <a href="javascript:void(0)" onClick={this.toggleResetModal} />
+            <TextButton onClick={this.toggleResetModal} />
           </Localized>
           <Localized id="submit-form-action">
             <ProgressButton
@@ -218,11 +217,12 @@ class Review extends React.Component<Props, State> {
   }
 }
 
-const mapStateToProps = ({ api, recordings, user }: StateTree) => ({
-  api,
-  recordingsCount: Recordings.selectors.recordingsCount(recordings),
-  sentenceRecordings: recordings.sentenceRecordings,
-  user,
+const mapStateToProps = (state: StateTree) => ({
+  api: state.api,
+  recordingsCount: Recordings.selectors.recordingsCount(state),
+  sentenceRecordings: Recordings.selectors.localeRecordings(state)
+    .sentenceRecordings,
+  user: state.user,
 });
 
 const mapDispatchToProps = {

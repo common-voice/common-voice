@@ -7,7 +7,7 @@ import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
 import Alert from '../../alert/alert';
 import { LocaleLink } from '../../locale-helpers';
-import { Button, Hr } from '../../ui/ui';
+import { Button, Hr, TextButton } from '../../ui/ui';
 
 interface WhyProfileState {
   expanded: boolean;
@@ -31,7 +31,7 @@ class WhyProfile extends React.Component<{}, WhyProfileState> {
             </Localized>
           ) : (
             <Localized id="why-profile-title">
-              <a href="javascript:void(0)" onClick={this.toggle} />
+              <TextButton onClick={this.toggle} />
             </Localized>
           )}
         </div>
@@ -41,7 +41,7 @@ class WhyProfile extends React.Component<{}, WhyProfileState> {
               <p id="why-profile-text" />
             </Localized>
             <Localized id="profile-close">
-              <a href="javascript:void(0)" onClick={this.toggle} />
+              <TextButton onClick={this.toggle} />
             </Localized>
           </div>
         )}

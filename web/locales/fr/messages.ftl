@@ -11,6 +11,7 @@ loading = Chargement…
 audio-loading-error = Désolé, nous préparons nos fichiers audio. Veuillez réessayer dans quelques instants.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -25,8 +26,6 @@ de = Allemand
 el = Grec
 en = Anglais
 es = Espagnol
-es-AR = Espagnol (Argentine)
-es-CL = Espagnol (Chili)
 fr = Français
 fy-NL = Frison
 ga-IE = Irlandais
@@ -35,10 +34,12 @@ hu = Hongrois
 id = Indonésien
 it = Italien
 ka = Géorgien
+kab = Kabyle
 ko = Coréen
 kw = Cornique
 mk = Macédonien
 nb-NO = Norvégien bokmål
+ne-NP = Népalais
 nl = Néerlandais
 nn-NO = Norvégien nynorsk
 or = Odia
@@ -47,7 +48,9 @@ pt-BR = Portugais (Brésil)
 ro = Roumain
 ru = Russe
 sk = Slovaque
+sl = Slovène
 sq = Albanais
+sr = Serbe
 sv-SE = Suédois
 ta = Tamoul
 te = Télougou
@@ -58,6 +61,9 @@ uk = Ukrainien
 uz = Ouzbek
 zh-CN = Chinois (Chine)
 zh-TW = Chinois (Taïwan)
+
+# [/]
+
 
 ## Layout
 
@@ -90,6 +96,19 @@ help-us-title = Aidez-nous à valider des phrases !
 help-us-explain = Appuyez sur lecture, écoutez et dites-nous : la phrase ci-dessous est-elle prononcée correctement ?
 vote-yes = Oui
 vote-no = Non
+toggle-play-tooltip = Appuyez sur { shortcut-play-toggle } pour lancer ou arrêter la lecture
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = o
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 request-language-text = Votre langue n’est pas encore disponible ?
 request-language-button = Proposer une langue
 
@@ -200,7 +219,6 @@ record-platform-not-supported = Nous sommes désolés, mais votre plateforme n�
 record-platform-not-supported-desktop = Pour les ordinateurs de bureau, vous pouvez télécharger le plus récent :
 record-platform-not-supported-ios = Les utilisateurs <bold>iOS</bold> peuvent télécharger notre application gratuite :
 record-must-allow-microphone = Vous devez autoriser l’accès au microphone.
-record-cancel = Annuler le réenregistrement
 record-retry = Réessayer
 record-error-too-short = L’enregistrement est trop court.
 record-error-too-long = L’enregistrement est trop long.
@@ -257,3 +275,22 @@ languages-show-more = Afficher davantage de langues
 languages-show-less = Afficher moins de langues
 language-speakers = Locuteurs
 language-total-progress = Total
+language-search-input =
+    .placeholder = Rechercher
+
+## New Contribution
+
+action-click = Cliquez sur
+action-tap = Appuyez sur
+shortcuts = Raccourcis
+clips = Extraits
+goal-type-validation = validation
+record-cta = Commencer l’enregistrement
+record-instruction = { $actionType } <recordIcon></recordIcon> puis lisez la phrase à haute voix.
+record-stop-instruction = { $actionType } <stopIcon></stopIcon> une fois terminé.
+record-three-more-instruction = Plus que trois !
+record-again-instruction = Formidable ! <recordIcon></recordIcon> Enregistrez votre prochain extrait.
+record-last-instruction = <checkIcon></checkIcon> C’est le dernier !
+record-submit-tooltip = { $actionType } envoyer lorsque vous êtes prêt
+clips-submitted = { $count } extraits envoyés !
+record-abort-submit = Envoyer les enregistrements

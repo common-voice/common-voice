@@ -11,11 +11,13 @@ loading = Á lódáil...
 audio-loading-error = Ár leithscéal! Táimid ag próiseáil ár gcuid comhad fuaime. Bain triail eile as ar ball.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
 
 bn = Beangáilis
+br = Briotáinis
 ca = Catalóinis
 cs = Seicis
 cv = Suvaisis
@@ -25,8 +27,6 @@ de = Gearmáinis
 el = Gréigis
 en = Béarla
 es = Spáinnis
-es-AR = Spáinnis (An Airgintín)
-es-CL = Spáinnis (An tSile)
 fr = Fraincis
 fy-NL = Freaslannais
 ga-IE = Gaeilge
@@ -39,6 +39,7 @@ ko = Cóiréis
 kw = Coirnis
 mk = Macadóinis
 nb-NO = Ioruais Bokmål
+ne-NP = Neipeailis
 nl = Ollainnis
 nn-NO = Ioruais Nynorsk
 or = Oirísis
@@ -47,7 +48,9 @@ pt-BR = Portaingéilis (An Bhrasaíl)
 ro = Rómáinis
 ru = Rúisis
 sk = Slóvaicis
+sl = Slóivéinis
 sq = Albáinis
+sr = Seirbis
 sv-SE = Sualainnis
 ta = Tamailis
 te = Teileagúis
@@ -58,6 +61,9 @@ uk = Úcráinis
 uz = Úisbéicis
 zh-CN = Sínis (An tSín)
 zh-TW = Sínis (An Téaváin)
+
+# [/]
+
 
 ## Layout
 
@@ -88,6 +94,19 @@ help-us-title = Cabhraigh linn abairtí a dheimhniú!
 help-us-explain = Cliceáil an tsaighead, éist, agus abair linn: an bhfuil an taifeadadh cruinn?
 vote-yes = Tá
 vote-no = Níl
+toggle-play-tooltip = Brúigh { shortcut-play-toggle } chun an mód seinnte a athrú
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = b
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = t
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 request-language-text = Cá bhfuil mo theangasa?
 request-language-button = Iarr Teanga Nua
 
@@ -201,7 +220,6 @@ record-platform-not-supported = Ár leithscéal, ach ní thacaímid leis an ard�
 record-platform-not-supported-desktop = Ar ríomhaire, is féidir leat na leaganacha is déanaí a íoslódáil:
 record-platform-not-supported-ios = Is féidir le daoine ar <bold>iOS</bold> aip saor in aisce a íoslódáil:
 record-must-allow-microphone = Caithfidh tú cead a thabhairt dúinn an micreafón a úsáid.
-record-cancel = Cealaigh an t-ataifeadadh
 record-retry = Bain triail eile as
 record-error-too-short = Bhí an taifeadadh róghearr.
 record-error-too-long = Bhí an taifeadadh rófhada.
@@ -258,3 +276,9 @@ languages-show-more = Níos Mó
 languages-show-less = Níos Lú
 language-speakers = Cainteoirí
 language-total-progress = Iomlán
+language-search-input =
+    .placeholder = Cuardaigh
+
+## New Contribution
+
+listen = Éist

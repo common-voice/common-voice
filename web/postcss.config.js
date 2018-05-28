@@ -10,7 +10,7 @@ module.exports = {
         rem: { html: false },
       },
     },
-    cssnano: { autoprefixer: false },
+    cssnano: { autoprefixer: false, zindex: false },
     'postcss-focus-within': {},
   },
 };

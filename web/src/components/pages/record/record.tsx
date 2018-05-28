@@ -7,10 +7,11 @@ import API from '../../../services/api';
 import { trackRecording } from '../../../services/tracker';
 import { Recordings } from '../../../stores/recordings';
 import StateTree from '../../../stores/tree';
-import { getItunesURL, isFocus, isNativeIOS } from '../../../utility';
+import { getItunesURL, isFirefoxFocus, isNativeIOS } from '../../../utility';
 import Alert from '../../alert/alert';
 import Modal from '../../modal/modal';
 import { FontIcon, RecordIcon } from '../../ui/icons';
+import { TextButton } from '../../ui/ui';
 import AudioIOS from './audio-ios';
 import AudioWeb, { AudioInfo } from './audio-web';
 import ProfileActions from './profile-actions';
@@ -64,8 +65,8 @@ interface PropsFromState {
   areSentencesLoaded: boolean;
   isSetFull: boolean;
   recordingsCount: number;
-  reRecordSentence?: string;
-  sentenceRecordings: Recordings.SentenceRecordings;
+  reRecordSentenceId?: string;
+  sentenceRecordings: Recordings.SentenceRecording[];
 }
 
 interface PropsFromDispatch {
@@ -115,7 +116,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
     if (
       !this.audio.isMicrophoneSupported() ||
       !this.audio.isAudioRecordingSupported() ||
-      isFocus()
+      isFirefoxFocus()
     ) {
       this.isUnsupportedPlatform = true;
       return;
@@ -151,8 +152,8 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
     }
 
     this.props.setRecording(
-      this.props.reRecordSentence ||
-        Object.keys(sentenceRecordings)[recordingsCount],
+      this.props.reRecordSentenceId ||
+        sentenceRecordings[recordingsCount].sentence.id,
       info
     );
 
@@ -281,7 +282,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
       getString,
       isSetFull,
       recordingsCount,
-      reRecordSentence,
+      reRecordSentenceId,
       sentenceRecordings,
     } = this.props;
     const { recordingError, showRetryModal, showSubmitSuccess } = this.state;
@@ -290,7 +291,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
       return <UnsupportedInfo />;
     }
 
-    if (!reRecordSentence && isSetFull) {
+    if (!reRecordSentenceId && isSetFull) {
       return (
         <div id="record-container">
           <Review />
@@ -298,8 +299,10 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
       );
     }
 
-    const recordIndex = reRecordSentence
-      ? Object.keys(sentenceRecordings).indexOf(reRecordSentence)
+    const recordIndex = reRecordSentenceId
+      ? sentenceRecordings.findIndex(
+          ({ sentence }) => sentence.id === reRecordSentenceId
+        )
       : recordingsCount;
 
     return (
@@ -335,7 +338,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
               </Localized>
             </div>
           )}
-          {!reRecordSentence &&
+          {!reRecordSentenceId &&
             showSubmitSuccess && (
               <div id="alert-container">
                 <Localized id="record-submit-success">
@@ -344,18 +347,18 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
               </div>
             )}
           <div className="record-sentence">
-            {Object.keys(sentenceRecordings).map((sentence, i) => (
+            {sentenceRecordings.map(({ sentence: { id, text } }, i) => (
               <div
-                key={sentence + '' + i}
+                key={id + '' + i}
                 className={
                   'text-box ' +
                   (i < recordIndex ? 'left' : i > recordIndex ? 'right' : '')
                 }>
-                <p>{sentence}</p>
+                <p>{text}</p>
               </div>
             ))}
             {recordingsCount > 0 &&
-              !reRecordSentence && (
+              !reRecordSentenceId && (
                 <FontIcon id="undo-clip" type="undo" onClick={this.goBack} />
               )}
           </div>
@@ -366,10 +369,9 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
                 <button id="record-button" onClick={this.onRecordClick}>
                   <RecordIcon />
                 </button>
-                {reRecordSentence && (
+                {reRecordSentenceId && (
                   <Localized id="record-cancel">
-                    <a
-                      href="javascript:void(0)"
+                    <TextButton
                       className="rerecord"
                       onClick={this.cancelReRecord}
                     />
@@ -382,7 +384,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
           </div>
           <p id="recordings-count">
             {areSentencesLoaded &&
-              !reRecordSentence && <span>{recordingsCount + 1} of 3</span>}
+              !reRecordSentenceId && <span>{recordingsCount + 1} of 3</span>}
           </p>
           {areSentencesLoaded && (
             <Localized id="record-help">
@@ -396,14 +398,17 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
   }
 }
 
-const mapStateToProps = ({ api, recordings }: StateTree) => ({
-  api,
-  areSentencesLoaded: Recordings.selectors.areEnoughSentencesLoaded(recordings),
-  isSetFull: Recordings.selectors.isSetFull(recordings),
-  recordingsCount: Recordings.selectors.recordingsCount(recordings),
-  reRecordSentence: recordings.reRecordSentence,
-  sentenceRecordings: recordings.sentenceRecordings,
-});
+const mapStateToProps = (state: StateTree) => {
+  const localeRecordings = Recordings.selectors.localeRecordings(state);
+  return {
+    api: state.api,
+    areSentencesLoaded: Recordings.selectors.areEnoughSentencesLoaded(state),
+    isSetFull: Recordings.selectors.isSetFull(state),
+    recordingsCount: Recordings.selectors.recordingsCount(state),
+    reRecordSentenceId: localeRecordings.reRecordSentenceId,
+    sentenceRecordings: localeRecordings.sentenceRecordings,
+  };
+};
 
 const mapDispatchToProps = {
   setRecording: Recordings.actions.set,

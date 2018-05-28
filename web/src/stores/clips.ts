@@ -1,8 +1,9 @@
 import { Action as ReduxAction, Dispatch } from 'redux';
+const contributableLocales = require('../../../locales/contributable.json') as string[];
 import StateTree from './tree';
 import { User } from './user';
 
-const MIN_CACHE_SIZE = 2;
+const MIN_CACHE_SIZE = 10;
 
 export namespace Clips {
   export interface Clip {
@@ -13,14 +14,20 @@ export namespace Clips {
   }
 
   export interface State {
-    cache: Clip[];
-    next?: Clip;
-    loadError: boolean;
+    [locale: string]: {
+      clips: Clip[];
+      next?: Clip;
+      loadError: boolean;
+    };
   }
+
+  const localeClips = ({ locale, clips }: StateTree) => clips[locale];
+
+  export const selectors = { localeClips };
 
   enum ActionType {
     REFILL_CACHE = 'REFILL_CLIPS_CACHE',
-    NEXT_CLIP = 'NEXT_CLIP',
+    REMOVE_CLIP = 'REMOVE_CLIP',
   }
 
   interface RefillCacheAction extends ReduxAction {
@@ -28,11 +35,12 @@ export namespace Clips {
     clips?: Clip;
   }
 
-  interface NewClipAction extends ReduxAction {
-    type: ActionType.NEXT_CLIP;
+  interface RemoveClipAction extends ReduxAction {
+    type: ActionType.REMOVE_CLIP;
+    clipId: string;
   }
 
-  export type Action = RefillCacheAction | NewClipAction;
+  export type Action = RefillCacheAction | RemoveClipAction;
 
   const preloadClip = (clip: any) =>
     new Promise(resolve => {
@@ -49,13 +57,13 @@ export namespace Clips {
       dispatch: Dispatch<RefillCacheAction>,
       getState: () => StateTree
     ) => {
-      const { api, clips } = getState();
-      if (clips.cache.length > MIN_CACHE_SIZE) {
+      const state = getState();
+      if (localeClips(state).clips.length > MIN_CACHE_SIZE) {
         return;
       }
 
       try {
-        const clips = await api.fetchRandomClips(MIN_CACHE_SIZE);
+        const clips = await state.api.fetchRandomClips(MIN_CACHE_SIZE);
         dispatch({
           type: ActionType.REFILL_CACHE,
           clips: clips.map(clip => ({
@@ -75,44 +83,64 @@ export namespace Clips {
       }
     },
 
-    vote: (isValid: boolean) => async (
-      dispatch: Dispatch<NewClipAction | RefillCacheAction>,
+    vote: (isValid: boolean, clipId?: string) => async (
+      dispatch: Dispatch<RemoveClipAction | RefillCacheAction>,
       getState: () => StateTree
     ) => {
-      const { api, clips } = getState();
-      const { id } = clips.next;
-      await api.saveVote(id, isValid);
+      const state = getState();
+      const id = clipId || localeClips(state).next.id;
+      await state.api.saveVote(id, isValid);
       dispatch(User.actions.tallyVerification());
-      dispatch({ type: ActionType.NEXT_CLIP });
+      dispatch({ type: ActionType.REMOVE_CLIP, clipId: id });
+      actions.refillCache()(dispatch, getState);
+    },
+
+    remove: (clipId: string) => async (
+      dispatch: Dispatch<RemoveClipAction | RefillCacheAction>,
+      getState: () => StateTree
+    ) => {
+      dispatch({ type: ActionType.REMOVE_CLIP, clipId });
       actions.refillCache()(dispatch, getState);
     },
   };
 
   export function reducer(
-    state: State = {
-      cache: [],
-      next: null,
-      loadError: false,
-    },
+    locale: string,
+    state: State = contributableLocales.reduce(
+      (state, locale) => ({
+        ...state,
+        [locale]: {
+          clips: [],
+          next: null,
+          loadError: false,
+        },
+      }),
+      {}
+    ),
     action: Action
   ): State {
+    const localeState = state[locale];
+
     switch (action.type) {
       case ActionType.REFILL_CACHE: {
-        const { clips } = action;
-        const cache = clips ? state.cache.concat(clips) : state.cache;
-        const next = state.next || cache.shift();
+        const clips = action.clips
+          ? localeState.clips.concat(action.clips)
+          : localeState.clips;
+        const next = localeState.next || clips.shift();
         return {
           ...state,
-          cache,
-          loadError: !next,
-          next,
+          [locale]: {
+            clips,
+            loadError: !next,
+            next,
+          },
         };
       }
 
-      case ActionType.NEXT_CLIP: {
-        const cache = state.cache.slice();
-        const next = cache.pop();
-        return { ...state, cache, next };
+      case ActionType.REMOVE_CLIP: {
+        const clips = localeState.clips.filter(c => c.id !== action.clipId);
+        const next = clips.pop();
+        return { ...state, [locale]: { ...localeState, clips, next } };
       }
 
       default:

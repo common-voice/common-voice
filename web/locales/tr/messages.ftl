@@ -1,6 +1,7 @@
 ## General
 
 yes-receive-emails = Evet, bana e-posta gönderebilirsiniz. Common Voice projesiyle ilgili gelişmeleri öğrenmek istiyorum.
+stayintouch = Mozilla’da ses teknolojileriyle ilgilenen bir topluluk oluşturuyoruz. Yeni duyuruları ve yeni veri kaynaklarını size de ulaştırmak, ayrıca bu verileri nasıl kullandığınızı öğrenmek isteriz.
 privacy-info = Bilgilerinizi özenle koruyacağımıza söz veriyoruz. <privacyLink>Gizlilik Bildirimimizde</privacyLink> daha fazla bilgi bulabilirsiniz.
 return-to-cv = Common Voice’a geri dön
 email-input =
@@ -10,6 +11,7 @@ loading = Yükleniyor…
 audio-loading-error = Özür dileriz! Şu anda ses dosyalarımızı işliyoruz. Lütfen birazdan yeniden deneyin.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -24,10 +26,9 @@ de = Almanca
 el = Yunanca
 en = İngilizce
 es = İspanyolca
-es-AR = İspanyolca (Arjantin)
-es-CL = İspanyolca (Şili)
 fr = Fransızca
 fy-NL = Frizce
+ga-IE = İrlandaca
 he = İbranice
 hu = Macarca
 id = Endonezce
@@ -35,14 +36,18 @@ it = İtalyanca
 ka = Gürcüce
 ko = Korece
 mk = Makedonca
+ne-NP = Nepalce
 nl = Felemenkçe
 nn-NO = Norveççe (Nynorsk)
 or = Odia
 pl = Lehçe
 pt-BR = Portekizce (Brezilya)
+ro = Rumence
 ru = Rusça
 sk = Slovakça
+sl = Slovakça
 sq = Arnavutça
+sr = Sırpça
 sv-SE = İsveççe
 ta = Tamilce
 te = Telugu
@@ -53,6 +58,9 @@ uk = Ukraynaca
 uz = Özbekçe
 zh-CN = Çince (Çin)
 zh-TW = Çince (Tayvan)
+
+# [/]
+
 
 ## Layout
 
@@ -81,6 +89,10 @@ help-us-title = Cümleleri doğrulamamıza yardım et!
 help-us-explain = Oynatma tuşuna basıp dinleyin: Konuşmacı, aşağıdaki cümleyi doğru şekilde okumuş mu?
 vote-yes = Evet
 vote-no = Hayır
+toggle-play-tooltip = Oynatma modunu açıp kapatmak için { shortcut-play-toggle } tuşuna basın
+
+## Shortcuts
+
 request-language-text = Dilinizi henüz Common Voice’ta göremiyor musunuz?
 request-language-button = Yeni dil iste
 
@@ -170,6 +182,7 @@ data-other-download = Verileri indir
 data-other-librispeech-description = LibriSpeech, LibriVox projesinin sesli kitaplarından elde edilen yaklaşık 1000 saatlik 16 Khz'lik sesli okunmuş İngilizce metinlerden oluşan bir korpustur.
 data-other-ted-name = TED-LIUM Korpusu
 data-other-ted-description = TED-LIUM korpusu, TED web sitesindeki sunum ses kayıtları ve onların deşifre metinleri kullanılarak oluşturulmuştur. 
+data-other-tatoeba-description = Tatoeba, dil öğrenmede kullanılmak üzere geniş bir cümle, çeviri ve konuşma veritabanıdır. Bu dosya, Tatoeba gönüllüleri tarafından kaydedilen İngilizce konuşmaları içerir.
 data-bundle-button = Veri kümesi paketini indir
 data-bundle-description = Common Voice verileri ve yukarıdaki diğer tüm ses veri kümeleri.
 license = Lisans: <licenseLink>{ $license }</licenseLink>
@@ -180,7 +193,6 @@ license-mixed = Karma
 record-platform-not-supported = Maalesef kullandığınız platform şu an desteklenmemektedir.
 record-platform-not-supported-ios = <bold>iOS</bold> kullanıcıları bedava uygulamamızı indirebilir:
 record-must-allow-microphone = Mikrofon erişimine izin vermeniz gerekiyor.
-record-cancel = Yeniden kaydetmeyi iptal et
 record-retry = Yeniden dene
 record-error-too-short = Kayıt çok kısa.
 record-error-too-long = Kayıt çok uzun.
@@ -233,3 +245,30 @@ languages-show-more = Daha fazlasını göster
 languages-show-less = Daha az göster
 language-speakers = Konuşmacı
 language-total-progress = Toplam
+language-search-input =
+    .placeholder = Ara
+
+## New Contribution
+
+action-click = tıklayın
+action-tap = dokunun
+listen = Dinle
+skip = Atla
+shortcuts = Kısayollar
+clips = Klipler
+goal-type-record = kaydediyor
+goal-type-validation = doğrulama
+record-cta = Kaydetmeye başla
+record-stop-instruction = Bitirince { $actionType } <stopIcon></stopIcon>
+record-three-more-instruction = Üç tane kaldı!
+clips-submitted =
+    { $count ->
+        [one] { $count } klip gönderildi!
+       *[other] { $count } klip gönderildi!
+    }
+record-abort-title = Önce kayıt bitirilsin mi?
+record-abort-text = Şimdi çıkarsanız yaptıklarınız kaydedilmeyecek
+record-abort-submit = Klipleri gönder
+record-abort-continue = Kaydı bitir
+record-abort-delete = Klipleri sil ve çık
+listen-last-time-instruction = <playIcon></playIcon> Son bir tane!

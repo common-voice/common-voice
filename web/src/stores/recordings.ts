@@ -1,84 +1,105 @@
 import { Action as ReduxAction, Dispatch } from 'redux';
 import { createSelector } from 'reselect';
-import StateTree from './tree';
+const contributableLocales = require('../../../locales/contributable.json') as string[];
 import { trackRecording } from '../services/tracker';
+import StateTree from './tree';
 
-const CACHE_SET_COUNT = 9;
+const CACHE_SET_COUNT = 10;
 const SET_COUNT = 3;
 
 export namespace Recordings {
+  export interface Sentence {
+    id: string;
+    text: string;
+  }
+
   interface Recording {
     blob: Blob;
     url: string;
   }
 
-  export interface SentenceRecordings {
-    [sentence: string]: Recording;
+  export interface SentenceRecording {
+    sentence: Sentence;
+    recording?: Recording;
+  }
+
+  interface LocaleRecordings {
+    reRecordSentenceId?: string;
+    sentences: Sentence[];
+    sentenceRecordings: SentenceRecording[];
   }
 
   export interface State {
-    reRecordSentence?: string;
-    sentenceCache: string[];
-    sentenceRecordings: SentenceRecordings;
+    [locale: string]: LocaleRecordings;
   }
+
+  const localeRecordings = ({ locale, recordings }: StateTree) =>
+    recordings[locale];
 
   enum ActionType {
     SET_RECORDING = 'SET_RECORDING',
-    REFILL_SENTENCE_CACHE = 'REFILL_SENTENCE_CACHE',
-    SET_SENTENCES = 'SET_SENTENCES',
+    REFILL_SENTENCES = 'REFILL_SENTENCES',
+    BUILD_SENTENCE_SET = 'BUILD_SENTENCE_SET',
     RE_RECORD_SENTENCE = 'RE_RECORD_SENTENCE',
+    REMOVE_SENTENCES = 'REMOVE_SENTENCES',
   }
 
   interface SetRecordingAction extends ReduxAction {
     type: ActionType.SET_RECORDING;
-    sentence: string;
+    sentenceId: string;
     recording: Recording;
   }
 
-  interface RefillSentenceCacheAction extends ReduxAction {
-    type: ActionType.REFILL_SENTENCE_CACHE;
-    sentences: string[];
+  interface RefillSentencesAction extends ReduxAction {
+    type: ActionType.REFILL_SENTENCES;
+    sentences: Sentence[];
   }
 
-  interface SetSentencesAction extends ReduxAction {
-    type: ActionType.SET_SENTENCES;
-    sentences: string[];
-    sentenceCache: string[];
+  interface BuildSentenceSetAction extends ReduxAction {
+    type: ActionType.BUILD_SENTENCE_SET;
   }
 
   interface ReRecordSentenceAction extends ReduxAction {
     type: ActionType.RE_RECORD_SENTENCE;
-    sentence: string;
+    sentenceId: string;
+  }
+
+  interface RemoveSentencesAction extends ReduxAction {
+    type: ActionType.REMOVE_SENTENCES;
+    sentenceIds: string[];
   }
 
   export type Action =
     | SetRecordingAction
-    | RefillSentenceCacheAction
-    | SetSentencesAction
-    | ReRecordSentenceAction;
+    | RefillSentencesAction
+    | BuildSentenceSetAction
+    | ReRecordSentenceAction
+    | RemoveSentencesAction;
 
   export const actions = {
-    set: (sentence: string, recording?: Recording): SetRecordingAction => ({
+    set: (sentenceId: string, recording?: Recording): SetRecordingAction => ({
       type: ActionType.SET_RECORDING,
-      sentence,
+      sentenceId,
       recording,
     }),
 
-    refillSentenceCache: () => async (
-      dispatch: Dispatch<RefillSentenceCacheAction>,
+    refillSentences: () => async (
+      dispatch: Dispatch<RefillSentencesAction>,
       getState: () => StateTree
     ) => {
       try {
         const state = getState();
-        const { recordings } = state;
-        if (recordings.sentenceCache.length >= CACHE_SET_COUNT) {
+        if (
+          Object.keys(localeRecordings(state).sentences).length >=
+          CACHE_SET_COUNT
+        ) {
           return;
         }
         const newSentences = await state.api.fetchRandomSentences(
           CACHE_SET_COUNT
         );
         dispatch({
-          type: ActionType.REFILL_SENTENCE_CACHE,
+          type: ActionType.REFILL_SENTENCES,
           sentences: newSentences,
         });
       } catch (err) {
@@ -87,78 +108,123 @@ export namespace Recordings {
     },
 
     buildNewSentenceSet: () => async (
-      dispatch: Dispatch<RefillSentenceCacheAction | SetSentencesAction>,
+      dispatch: Dispatch<RefillSentencesAction | BuildSentenceSetAction>,
       getState: () => StateTree
     ) => {
-      if (!selectors.areEnoughSentencesLoaded(getState().recordings)) {
-        await actions.refillSentenceCache()(dispatch, getState);
+      if (!selectors.areEnoughSentencesLoaded(getState())) {
+        await actions.refillSentences()(dispatch, getState);
       }
 
-      const sentenceCache = getState().recordings.sentenceCache.slice();
       dispatch({
-        type: ActionType.SET_SENTENCES,
-        sentences: sentenceCache.splice(0, SET_COUNT),
-        sentenceCache,
+        type: ActionType.BUILD_SENTENCE_SET,
       });
 
       // Preemptively fill sentence cache when we get low.
-      if (sentenceCache.length < SET_COUNT * 2) {
-        await actions.refillSentenceCache()(dispatch, getState);
+      if (
+        Object.keys(localeRecordings(getState()).sentences).length <
+        SET_COUNT * 2
+      ) {
+        await actions.refillSentences()(dispatch, getState);
       }
     },
 
-    setReRecordSentence: (sentence: string): ReRecordSentenceAction => ({
+    setReRecordSentence: (sentenceId: string): ReRecordSentenceAction => ({
       type: ActionType.RE_RECORD_SENTENCE,
-      sentence,
+      sentenceId,
     }),
+
+    removeSentences: (sentenceIds: string[]) => async (
+      dispatch: Dispatch<RemoveSentencesAction | RefillSentencesAction>,
+      getState: () => StateTree
+    ) => {
+      dispatch({ type: ActionType.REMOVE_SENTENCES, sentenceIds });
+      actions.refillSentences()(dispatch, getState);
+    },
   };
 
   export function reducer(
-    state: State = {
-      reRecordSentence: null,
-      sentenceRecordings: {},
-      sentenceCache: [],
-    },
+    locale: string,
+    state: State = contributableLocales.reduce(
+      (state, locale) => ({
+        ...state,
+        [locale]: {
+          reRecordSentenceId: null,
+          sentenceRecordings: [],
+          sentences: [],
+        },
+      }),
+      {}
+    ),
     action: Action
   ): State {
+    const localeState = state[locale];
+
     switch (action.type) {
       case ActionType.SET_RECORDING:
-        const { sentence, recording } = action;
-        if (state.sentenceRecordings[sentence]) {
+        const { sentenceId, recording: newRecording } = action;
+        if (
+          localeState.sentenceRecordings.find(
+            ({ sentence }) => sentence.id === sentenceId
+          ).recording
+        ) {
           trackRecording('rerecord');
         }
         return {
           ...state,
-          reRecordSentence: null,
-          sentenceRecordings: {
-            ...state.sentenceRecordings,
-            [sentence]: recording,
+          [locale]: {
+            ...localeState,
+            reRecordSentenceId: null,
+            sentenceRecordings: localeState.sentenceRecordings.map(
+              ({ sentence, recording }) => ({
+                sentence,
+                recording:
+                  sentence.id === sentenceId ? newRecording : recording,
+              })
+            ),
           },
         };
 
-      case ActionType.REFILL_SENTENCE_CACHE:
+      case ActionType.REFILL_SENTENCES:
         return {
           ...state,
-          sentenceCache: state.sentenceCache.concat(action.sentences),
+          [locale]: {
+            ...localeState,
+            sentences: localeState.sentences.concat(action.sentences),
+          },
         };
 
-      case ActionType.SET_SENTENCES:
+      case ActionType.BUILD_SENTENCE_SET:
+        const sentences = localeState.sentences.slice();
+        const sentenceSet = sentences.splice(0, SET_COUNT);
         return {
           ...state,
-          sentenceCache: action.sentenceCache,
-          sentenceRecordings: action.sentences.reduce(
-            (obj: SentenceRecordings, sentence: string) => {
-              obj[sentence] = null;
-              return obj;
-            },
-            {}
-          ),
+          [locale]: {
+            ...localeState,
+            sentences,
+            sentenceRecordings: sentenceSet.map(sentence => ({
+              sentence,
+            })),
+          },
         };
 
       case ActionType.RE_RECORD_SENTENCE:
         return {
           ...state,
-          reRecordSentence: action.sentence,
+          [locale]: {
+            ...localeState,
+            reRecordSentenceId: action.sentenceId,
+          },
+        };
+
+      case ActionType.REMOVE_SENTENCES:
+        return {
+          ...state,
+          [locale]: {
+            ...localeState,
+            sentences: localeState.sentences.filter(({ id }) =>
+              action.sentenceIds.includes(id)
+            ),
+          },
         };
 
       default:
@@ -167,28 +233,27 @@ export namespace Recordings {
   }
 
   export const selectors = {
-    areEnoughSentencesLoaded: createSelector<State, string[], boolean>(
-      state => state.sentenceCache,
-      sentenceCache => sentenceCache.length >= SET_COUNT
+    localeRecordings,
+
+    areEnoughSentencesLoaded: createSelector<StateTree, Sentence[], boolean>(
+      state => localeRecordings(state).sentences,
+      sentences => sentences.length >= SET_COUNT
     ),
 
-    isSetFull: createSelector<State, SentenceRecordings, string, boolean>(
-      state => state.sentenceRecordings,
-      state => state.reRecordSentence,
+    isSetFull: createSelector<StateTree, SentenceRecording[], string, boolean>(
+      state => (localeRecordings(state) || ({} as any)).sentenceRecordings,
+      state => (localeRecordings(state) || ({} as any)).reRecordSentenceId,
       (sentenceRecordings, reRecordSentence) =>
+        sentenceRecordings &&
         !reRecordSentence &&
-        Object.entries(sentenceRecordings).filter(
-          ([sentence, recording]) => recording
-        ).length >= SET_COUNT
+        sentenceRecordings.filter(({ recording }) => recording).length >=
+          SET_COUNT
     ),
 
-    recordingsCount: createSelector<State, SentenceRecordings, number>(
-      state => state.sentenceRecordings,
+    recordingsCount: createSelector<StateTree, SentenceRecording[], number>(
+      state => localeRecordings(state).sentenceRecordings,
       sentenceRecordings =>
-        Object.keys(sentenceRecordings).reduce(
-          (sum, sentence) => sum + (sentenceRecordings[sentence] ? 1 : 0),
-          0
-        )
+        sentenceRecordings.filter(({ recording }) => recording).length
     ),
   };
 }

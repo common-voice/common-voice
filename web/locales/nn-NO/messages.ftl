@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Ja, send meg e-post, slik at eg held meg oppdateret om prosjektet Common Voice.
+yes-receive-emails = Ja, send meg e-post, slik at eg held meg oppdatert om prosjektet Common Voice.
 stayintouch = Vi på Mozilla byggjer ein fellesskap rundt stemmeteknologi, og vi vil gjerne halde kontakten med oppdateringar, nye datakjelder og høyre meir om korleis du brukar denne informasjonen.
 privacy-info = Vi lovar å handtere informasjonen din på ein trygg måte. Les meir i <privacyLink>personvernpraksisen</ privacyLink> vår.
 return-to-cv = Gå tilbake til Common Voice
@@ -11,6 +11,7 @@ loading = Lastar…
 audio-loading-error = Orsak! Vi behandlar lydfilene våre. Prøv igjen litt seinare.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -25,8 +26,6 @@ de = Tysk
 el = Gresk
 en = Engelsk
 es = Spansk
-es-AR = Spansk (Argentina)
-es-CL = Spansk (Chile)
 fr = Fransk
 fy-NL = frisisk
 ga-IE = Irsk
@@ -35,10 +34,12 @@ hu = Ungarsk
 id = Indonesisk
 it = Italiensk
 ka = Georgisk
+kab = Kabylsk
 ko = Koreansk
 kw = Kornisk
 mk = Makedonsk
 nb-NO = Norsk bokmål
+ne-NP = Nepalsk
 nl = Nederlandsk
 nn-NO = Norsk nynorsk
 or = Oriya
@@ -47,7 +48,9 @@ pt-BR = Portugisisk (Brazil)
 ro = Rumensk
 ru = Russisk
 sk = Slovakisk
+sl = Slovensk
 sq = Albansk
+sr = Serbisk
 sv-SE = Svensk
 ta = Tamilsk
 te = Telugu
@@ -58,6 +61,9 @@ uk = Ukrainsk
 uz = Usbekisk
 zh-CN = Kinesisk (Kina)
 zh-TW = Kinesisk (Taiwan)
+
+# [/]
+
 
 ## Layout
 
@@ -88,6 +94,10 @@ help-us-title = Hjelp oss med å validere setningar!
 help-us-explain = Trykk på Spel av, lytt, og fortel os om den innspelte setninga var korrekt.
 vote-yes = Ja
 vote-no = Nei
+toggle-play-tooltip = Trykk på { shortcut-play-toggle } for å starte eller stoppe innspelinga
+
+## Shortcuts
+
 request-language-text = Ser du ikkje språket ditt på Common Voice enno?
 request-language-button = Send ein førespurnad om eit nytt språk
 
@@ -197,8 +207,7 @@ license-mixed = Blanda
 record-platform-not-supported = Vi beklagar, men plattforma di er for tida ikkje støtta.
 record-platform-not-supported-desktop = Til datamaskiner kan du laste ned siste versjon:
 record-platform-not-supported-ios = <bold>iOS</bold>-brukarar kan laste ned gratisappen vår:
-record-must-allow-microphone = Du må tillate tilgang tilmikrofonen.
-record-cancel = Avbryt nyinnspelinga
+record-must-allow-microphone = Du må tillate tilgang til mikrofonen.
 record-retry = Prøv igjen
 record-error-too-short = Innspelinga var for kort.
 record-error-too-long = Innspelinga var for lang.
@@ -255,3 +264,19 @@ languages-show-more = Vis meir
 languages-show-less = Vis mindre
 language-speakers = Talt av
 language-total-progress = Totalt
+language-search-input =
+    .placeholder = Søk
+
+## New Contribution
+
+action-click = Klikk
+action-tap = Trykk
+listen = Lytt
+skip = Hopp over
+shortcuts = Snarvegar
+clips = Klipp
+goal-type-record = innspeling
+goal-type-validation = validering
+record-cta = Start innspeling
+record-abort-submit = Send inn klipp
+record-abort-continue = Avslutt innspeling

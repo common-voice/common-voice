@@ -11,6 +11,7 @@ loading = Llwytho…
 audio-loading-error = Ymddiheuriadau! Rydym yn prosesu ein ffeiliau sain, ceisiwch eto cyn bo hir.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -25,8 +26,6 @@ de = Almaeneg
 el = Groeg
 en = Saesneg
 es = Sbaeneg
-es-AR = Sbaeneg (Yr Ariannin)
-es-CL = Sbaeneg (Chile)
 fr = Ffrangeg
 fy-NL = Ffriseg
 ga-IE = Gwyddeleg
@@ -35,10 +34,12 @@ hu = Hwngareg
 id = Indoneseg
 it = Eidaleg
 ka = Georgeg
+kab = Kabyle
 ko = Corëeg
 kw = Cernyweg
 mk = Macedoneg
 nb-NO = Bokmål Norwyeg
+ne-NP = Nepaleg
 nl = Iseldireg
 nn-NO = Norwyeg Nynorsk
 or = Odia
@@ -47,7 +48,9 @@ pt-BR = Portiwgaleg (Brasil)
 ro = Rwmaneg
 ru = Rwsieg
 sk = Slofaceg
+sl = Slofeneg
 sq = Albaneg
+sr = Serbeg
 sv-SE = Swedeg
 ta = Tamil
 te = Telugu
@@ -58,6 +61,9 @@ uk = Wcraneg
 uz = Wsbeceg
 zh-CN = Tsieinëeg (Tsiena)
 zh-TW = Tsieinëeg (Taiwan)
+
+# [/]
+
 
 ## Layout
 
@@ -90,6 +96,19 @@ help-us-title = Helpwch ni i ddilysu brawddegau!
 help-us-explain = Pwyswch chwarae, gwrando a dweud: ydyn nhw wedi dweud y frawddeg isod yn iawn?
 vote-yes = Iawn
 vote-no = Na
+toggle-play-tooltip = Cliciwch { shortcut-play-toggle } i newid y modd chwarae
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = c
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = i
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 request-language-text = Ddim yn gweld eich iaith ar Common Voice eto?
 request-language-button = Cais am Iaith
 
@@ -204,7 +223,6 @@ record-platform-not-supported = Ymddiheuriadau ond nid yw eich platfform yn cael
 record-platform-not-supported-desktop = Ar gyfrifiaduron bwrdd gwaith, gallwch lwytho i lawr y diweddaraf:
 record-platform-not-supported-ios = Gall defnyddwyr <bold>iOS</bold> lwytho i lawr ein ap am ddim:
 record-must-allow-microphone = Rhaid i chi ganiatáu mynediad i'r meicroffon.
-record-cancel = Diddymu Ail-recordio
 record-retry = Ceisio eto
 record-error-too-short = Roedd y recordiad yn rhy fyr.
 record-error-too-long = Roedd y recordiad yn rhy hir.
@@ -261,3 +279,39 @@ languages-show-more = Gweld Mwy
 languages-show-less = Gweld Llai
 language-speakers = Siaradwyr
 language-total-progress = Cyfanswm
+language-search-input =
+    .placeholder = Chwilio
+
+## New Contribution
+
+action-click = Cliciwch
+action-tap = Tapiwch
+listen = Gwrandewch
+skip = Hepgor
+shortcuts = Llwybrau Byr
+clips = Clipiau
+goal-type-record = recordio
+goal-type-validation = dilysu
+toward-goal = Mae hynny'n <goalPercentage></goalPercentage> tuag at nod { $goalType } Common Voice. Diolch
+contribute-more = Barod i wneud { $count } yn rhagor?
+record-cta = Cychwyn recordio
+record-instruction = { $actionType }<recordIcon></recordIcon> ac yna darllen y frawddeg yn uchel
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> ar ôl gorffen
+record-three-more-instruction = Tair i fynd!
+record-again-instruction = Gwych! <recordIcon></recordIcon> Recordiwch eich clip nesaf
+record-again-instruction2 = Daliwch ati, recordiwch eto <recordIcon></recordIcon>
+record-last-instruction = <checkIcon></checkIcon> Yr un olaf!
+review-tooltip = Adolygu ac ail recordio clipiau yma wrth fynd
+unable-speak = Methu siarad nawr
+review-instruction = Adolygu ac ail recordio clipiau os oes angen
+record-submit-tooltip = { $actionType } cyflwyno pan yn barod
+clips-submitted = { $count } Clip wedi eu cyflwyno!
+record-abort-title = Gorffen recordio yn gyntaf?
+record-abort-text = Bydd gadael nawr yn golygu eich bod yn colli eich cyfraniad
+record-abort-submit = Cyflwyno clipiau
+record-abort-continue = Gorffen recordio
+record-abort-delete = Gadael a Dileu clipiau
+listen-instruction = { $actionType } <playIcon> </playIcon> ydyn nhw wedi ynganu'r brawddegau'n gywir?
+listen-again-instruction = Gwaith gwych! <playIcon> </playIcon> Gwrandewch eto pan fyddwch yn barod
+listen-3rd-time-instruction = 2 i lawr <playIcon> </playIcon> , daliwch ati!
+listen-last-time-instruction = <playIcon> </playIcon> Yr un olaf!

@@ -638,11 +638,10 @@ body:not(.ios) .recording #background-container {
     justify-content: space-between;
     align-items: center;
 
-    & a {
+    & a, & button {
         font-size: var(--font-size-small);
         font-weight: 600;
         text-decoration: underline;
-        cursor: pointer;
     }
 }
 
@@ -668,7 +667,7 @@ body:not(.ios) .recording #background-container {
     color: var(--grey-font-color);
 }
 
-a.small, .small a {
+a.small, .small a, .text-button.small {
     text-decoration: underline;
 }
 

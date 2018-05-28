@@ -11,11 +11,13 @@ loading = Betöltés…
 audio-loading-error = Sajnáljuk! Jelenleg a hangfájlok feldolgozása folyik, próbálja újra később.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
 
 bn = Bengáli
+br = Breton
 ca = Katalán
 cs = Cseh
 cv = Csuvas
@@ -25,8 +27,6 @@ de = Német
 el = Görög
 en = Angol
 es = Spanyol
-es-AR = Spanyol (Argentína)
-es-CL = Spanyol (Chile)
 fr = Francia
 fy-NL = Fríz
 ga-IE = Ír
@@ -35,10 +35,12 @@ hu = Magyar
 id = Indonéz
 it = Olasz
 ka = Grúz
+kab = Kabil
 ko = Koreai
 kw = Cornwalli
 mk = Macedón
 nb-NO = Norvég bokmål
+ne-NP = Nepáli
 nl = Holland
 nn-NO = Norvég nynorsk
 or = Orija
@@ -47,7 +49,9 @@ pt-BR = Portugál (Brazília)
 ro = Román
 ru = Orosz
 sk = Szlovák
+sl = Szlovén
 sq = Albán
+sr = Szerb
 sv-SE = Svéd
 ta = Tamil
 te = Telugu
@@ -58,6 +62,9 @@ uk = Ukrán
 uz = Üzbég
 zh-CN = Kínai (Kína)
 zh-TW = Kínai (Tajvan)
+
+# [/]
+
 
 ## Layout
 
@@ -71,7 +78,7 @@ privacy = Adatvédelem
 terms = Jogi feltételek
 cookies = Sütik
 faq = GYIK
-content-license-text = A tartalom <licenseLink>Creative Commons licenc</licenseLink> alatt elérhető el.
+content-license-text = A tartalom <licenseLink>Creative Commons licenc</licenseLink> alatt érhető el.
 share-title = Segítsen olyanokat találni, akik a hangjukat adják.
 share-text = Segítsen megtanítani a gépeknek, hogyan beszélnek az emberek. Adja a hangját: { $link }
 back-top = Vissza a tetejére
@@ -81,19 +88,32 @@ back-top = Vissza a tetejére
 home-title = A Common Voice projekt egy Mozilla kezdeményezés arra, hogy segítsük a gépeket megtanítani, hogyan beszélnek az emberek. 
 home-cta = Szólaljon meg, működjön közre.
 wall-of-text-start = A beszéd természetes, a beszéd emberi. Ezért lelkesedünk egy gépeink számára használható beszédtechnológia létrehozásáért. Azonban ehhez hatalmas mennyiségű beszédmintára van szükség.
-wall-of-text-more-mobile = A nagyvállalatok által használt hangminták a legtöbb ember számára nem elérhetőek. Szerintünk ez elfojtja az innovációt. Ezért létrehoztuk a Common Voice projektet, hogy segítsük a hangfelismerési technológiát mindenki számára hozzáférhetővé tenni.
+wall-of-text-more-mobile = A nagyvállalatok által használt hangminták a legtöbb ember számára nem érhetőek el. Szerintünk ez elfojtja az innovációt. Ezért létrehoztuk a Common Voice projektet, hogy segítsük a hangfelismerési technológiát mindenki számára hozzáférhetővé tenni.
 wall-of-text-more-desktop = Most adhatja a hangját, hogy segítsen nekünk egy nyílt forrású hang adatbázist építeni, amit bárki szabadon használhat arra, hogy innovatív alkalmazásokat készítsen eszközökre és a webre.<lineBreak></lineBreak>Olvasson fel egy mondatot, hogy segítse a gépeket megtanulni, hogyan beszélnek az emberek. Ellenőrizze mások hozzájárulásait, javítva a minőséget. Ilyen egyszerű! 
 show-wall-of-text = Bővebben
 help-us-title = Segítsen jóváhagyni a mondatokat.
 help-us-explain = Nyomja meg a lejátszás gombot, hallgassa meg a mondatot és mondja el: helyesen hangzik el az alábbi mondat?
 vote-yes = Igen
 vote-no = Nem
+toggle-play-tooltip = Nyomja meg az { shortcut-play-toggle } gombot a lejátszási módba váltáshoz
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = l
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = i
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 request-language-text = Nem látja az anyanyelvét a Common Voice-on? 
 request-language-button = Nyelv kérése
 
 ## ProjectStatus
 
-status-title = Összesített projekt státusz: nézze meg hol tartunk.
+status-title = Projekt összesített állapota: nézze meg hol tartunk.
 status-contribute = Adja a hangját
 status-hours =
     { $hours ->
@@ -198,7 +218,6 @@ record-platform-not-supported = Sajnáljuk, de a platformja jelenleg nem támoga
 record-platform-not-supported-desktop = Asztali számítógépekre, letöltheti a legfrissebbet:
 record-platform-not-supported-ios = Az <bold>iOS</bold> felhasználók letölthetik szabad szoftver alkalmazásunkat:
 record-must-allow-microphone = Engedélyezni kell a mikrofon hozzáférést.
-record-cancel = Újrarögzítés megszakítása
 record-retry = Újra
 record-error-too-short = A felvétel túl rövid volt.
 record-error-too-long = A felvétel túl hosszú volt.
@@ -255,3 +274,39 @@ languages-show-more = Több
 languages-show-less = Kevesebb
 language-speakers = Beszélők
 language-total-progress = Összesen
+language-search-input =
+    .placeholder = Keresés
+
+## New Contribution
+
+action-click = Kattintson
+action-tap = Koppintson
+listen = Figyeljen
+skip = Kihagyás
+shortcuts = Gyorsbillentyűk
+clips = Klipek
+goal-type-record = felvétel
+goal-type-validation = érvényesítés
+toward-goal = Ez <goalPercentage></goalPercentage> a Common Voice célja felé, amely { $goalType }. Köszönjük
+contribute-more = Készen áll még { $count } felvételre?
+record-cta = Felvétel indítása
+record-instruction = { $actionType } a <recordIcon></recordIcon> ikonra, és olvassa fel hangosan a mondatot
+record-stop-instruction = { $actionType } a <stopIcon></stopIcon> ikonra ha kész
+record-three-more-instruction = Még három!
+record-again-instruction = Nagyszerű! <recordIcon></recordIcon> A következő klip felvételéhez
+record-again-instruction2 = Csak így tovább, vegyen fel újra <recordIcon></recordIcon>
+record-last-instruction = <checkIcon></checkIcon> Az utolsó!
+review-tooltip = Ellenőrizze, és ha kell, vegye fel újra a klipeket sorban
+unable-speak = Most nem tud beszélni
+review-instruction = Ellenőrizze, és ha kell, vegye fel újra a klipeket
+record-submit-tooltip = { $actionType } a beküldéshez, ha kész
+clips-submitted = { $count } Klip beküldve!
+record-abort-title = Előbb befejezi a felvételt?
+record-abort-text = Ha most elmegy, akkor elveszti az előrehaladást
+record-abort-submit = Klipek beküldése
+record-abort-continue = Rögzítés befejezése
+record-abort-delete = Kilépés és klipek törlése
+listen-instruction = { $actionType } a <playIcon></playIcon> ikonra, pontosan olvasták fel a mondatot?
+listen-again-instruction = Jó munka! <playIcon></playIcon> Hallgassa meg újra, ha kész
+listen-3rd-time-instruction = 2 kész <playIcon></playIcon>, csak így tovább!
+listen-last-time-instruction = <playIcon></playIcon> Utolsó!

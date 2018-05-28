@@ -34,11 +34,11 @@ export default localeConnector(
     <div id="content">
       <Switch>
         <Route exact path={toLocaleRoute(URLS.ROOT)} component={HomePage} />
-        {isContributable(locale) ? (
-          <Route
-            exact
-            path={toLocaleRoute(URLS.RECORD)}
-            render={props => (
+        <Route
+          exact
+          path={toLocaleRoute(URLS.RECORD)}
+          render={props =>
+            isContributable(locale) ? (
               <RecordPage
                 isRecording={isRecording}
                 onRecord={onRecord}
@@ -46,15 +46,11 @@ export default localeConnector(
                 onVolume={onVolume}
                 {...props}
               />
-            )}
-          />
-        ) : (
-          <Route
-            exact
-            path={toLocaleRoute(URLS.RECORD)}
-            render={() => <Redirect to={toLocaleRoute(URLS.ROOT)} />}
-          />
-        )}
+            ) : (
+              <Redirect to={toLocaleRoute(URLS.ROOT)} />
+            )
+          }
+        />
         <Route
           exact
           path={toLocaleRoute(URLS.LANGUAGES)}

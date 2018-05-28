@@ -8,18 +8,68 @@ email-input =
     .label = דוא״ל
 submit-form-action = שליחה
 loading = בטעינה…
+audio-loading-error = אנו מעבדים את קובצי השמע שלך, נא לנסות שוב בהקדם. עמך הסליחה!
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
 
 bn = בנגלית
+ca = קטלאנית
+cs = צ׳כית
+cv = צ׳ובשית
+cy = ולשית
+da = דנית
+de = גרמנית
+el = יוונית
+en = אנגלית
+es = ספרדית
+fr = צרפתית
+fy-NL = פריזית
+ga-IE = אירית
+he = עברית
+hu = הונגרית
+id = אינדונזית
+it = איטלקית
+ka = גאורגית
+kab = קבילית
+ko = קוריאנית
+kw = קורנית
+mk = מקדונית
+nb-NO = נורווגית ספרותית
+ne-NP = נפאלית
+nl = הולנדית
+nn-NO = נורווגית חדשה
+or = אורייה
+pl = פולנית
+pt-BR = פורטוגלית (ברזיל)
+ro = רומנית
+ru = רוסית
+sk = סלובקית
+sl = סלובנית
+sq = אלבנית
+sr = סרבית
+sv-SE = שוודית
+ta = טמילית
+te = טלוגו
+th = תאילנדית
+tr = טורקית
+tt = טטארית
+uk = אוקראינית
+uz = אוזבקית
+zh-CN = סינית (סין)
+zh-TW = סינית (טאיוואן)
+
+# [/]
+
 
 ## Layout
 
 speak = דברו
 datasets = סדרות נתונים
+languages = שפות
 profile = פרופיל
 help = עזרה
 contact = יצירת קשר
@@ -29,6 +79,8 @@ cookies = עוגיות
 faq = תשובות לשאלות נפוצות
 content-license-text = התוכן זמין תחת <licenseLink>רישיון Creative Commons</licenseLink>
 share-title = עזרו לנו למצוא אחרים שיתרמו את קולם!
+share-text = מזמינים אותך לסייע ללמד מכונות איך אנשים אמתיים מדברים, באפשרותך לתרום את קולך דרך { $link }
+back-top = חזרה למעלה
 
 ## Home Page
 
@@ -36,9 +88,27 @@ home-title = מיזם Common Voice הוא יזמה של Mozilla לטובת סי�
 home-cta = דברו בקול רם, כאן ניתן לתרום!
 wall-of-text-start = קול זה טבעי, קול זה אנושי. לכן מרתק אותנו הרעיון של יצירת טכנולוגיית קול שמישה עבור המכונות שלנו. אך כדי ליצור מערכות קול, נדרשת כמות גדולה של נתוני קול.
 wall-of-text-more-mobile = רוב הנתונים בהם ארגונים גדולים משתמשים אינם זמינים לקהל הרחב. אנו חושבים שנדרשת כאן חשיבה מחדש. לכן, השקנו את מיזם Common Voice, מיזם שיסייע לפתוח את עולם הזיהוי הקולי לכולם.
+wall-of-text-more-desktop = כעת מוענקת לך האפשרות לסייע לנו לבנות מסד נתונים קוליים בקוד פתוח בו כולם יכולים להשתמש כדי ליצור יישומים מהפכניים להתקנים ולאינטרנט.<lineBreak></lineBreak>עליך רק להקריא את המשפט כדי לסייע למכונות ללמוד איך מדברים אנשים אמתיים. ניתן גם לבדוק עבודות של תורמים אחרים כדי לשפר את האיכות. פשוט וקל!
 show-wall-of-text = מידע נוסף
 help-us-title = עזרו לנו לאמת משפטים!
 help-us-explain = עליך ללחוץ על נגינה ולהאזין: האם המשפט שמופיע להלן הוקרא כראוי?
+vote-yes = כן
+vote-no = לא
+toggle-play-tooltip = יש ללחוץ על { shortcut-play-toggle } כדי להיכנס או לצאת ממצב השמעה
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = נ
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = כ
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = ל
+request-language-text = השפה שלך עדיין לא מופיעה ב־Common Voice?
+request-language-button = בקשת שפה
 
 ## ProjectStatus
 
@@ -53,9 +123,12 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = היעד הבא: { $goal }
+english = אנגלית
 
 ## ProfileForm
 
+profile-form-cancel = יציאה מהטופס
+profile-form-delete = מחיקת פרופיל
 profile-form-username =
     .label = שם משתמש
 profile-form-language =
@@ -67,15 +140,33 @@ profile-form-age =
     .label = גיל
 profile-form-gender =
     .label = מגדר
+profile-form-submit-save = שמירה
+profile-form-submit-saved = נשמר
+profile-keep-data = שמירה על הנתונים
+profile-delete-data = מחיקת הנתונים
+male = זכר
+female = נקבה
+# Gender
+other = אחר
+why-profile-title = בשביל מה פרופיל?
+why-profile-text = אספקת מידע כלשהו עליך תהפוך את נתוני השמע שיוגשו אל Common Voice לשימושיים יותר למנגנוני זיהוי דיבור שמשתמשים במידע הזה לשיפור הדיוק שלהם.
+edit-profile = עריכת פרופיל
+profile-create = יצירת פרופיל
+profile-create-success = הצלחנו, הפרופיל נוצר!
+profile-close = סגירה
+profile-clear-modal = המשמעות שמאחורי מחיקת נתוני הפרופיל שלך היא שהנתונים הדמוגרפיים שלך לא יישלחו ל־Common Voice בצירוף להקלטות שלך.
 
 ## FAQ
 
 faq-title = תשובות לשאלות נפוצות
 faq-what-q = מה זה Common Voice?
+faq-what-a = טכנולוגיית זיהוי קול יכולה לשנות את דרך ההתנהלות שלנו מול מכונות, המערכות שקיימות כרגע הן יקרות וקנייניות. Common Voice הוא מיזם שמטרתו היא להנגיש את טכנולוגיית הזיהוי הקולי לכולם. אנשים תורמים את הקול שלהם לכדי מסד נתונים ענק שיאפשר לכולם לאמן יישומונים מונחי קול במהירות ובקלות. כל נתוני הקול זמינים למפתחים.
 faq-important-q = מדוע זה חשוב?
+faq-important-a = קול הוא דבר טבעי ואנושי. זו דרך התקשורת הפשוטה והטבעית ביותר שיש. אנו מעוניין שלמפתחים תהיה אפשרות לבנות דברים מדהימים החל משירותי תרגום בזמן אמת ועד לעוזרים אישיים למשימות ניהוליות. אך כרגע, אין מספיק נתונים ציבוריים זמינים כדי לבנות יישומים מהסוג הזה. אנו מקווים ש‏־Common Voice יאפשר למפתחים לקבל את מה שהם צריכים כדי להמשיך ולהמציא.
 faq-get-q = איך אוכל לקבל את הנתונים של Common Voice?
 faq-get-a = סדרת הנתונים זמינה כעת ב<downloadLink>עמוד ההורדה</downloadLink> שלנו מוגנת ברישיון <licenseLink>CC-0</licenseLink>.
 faq-mission-q = מדוע Common Voice הוא חלק מהמשימה של Mozilla?
+faq-mission-a = קרן Mozilla שמה לה למטרה לשמור על רשת האינטרנט פתוחה ונגישה לכולם. כדי להשיג מטרה זו עלינו להעצים יוצרים בעולם האינטרנט עם מיזמים כמו Common Voice. כיום, כשטכנולוגיות קוליות מתפשטות מעבר ליישומים משניים, אנו מאמינים שעליהן לשרת את המשתמשים באופן שווה. אנו רואים וצריכים לכלול יותר שפות, סוגי מבטא והבדלים דמוגרפיים בעת בנייה ובדיקה של טכנולוגיות קוליות. קרן Mozilla מעוניינת לראות את רשת האינטרנט בריאה ונמרצת. משמעות הדבר היא להעניק ליוצרים חדשים גישה לנתונים קול כדי שיוכלו לבנות מיזמים חדשים חוצי גבולות. Common Voice יהיה משאב ציבורי שיסייע לצוותים ולמפתחים של Mozilla בכל רחבי העולם.
 faq-native-q = { $lang } אינה שפת האם שלי ויש לי מבטא, אתם עדיין מעוניינים בקול שלי?
 faq-native-a = כן, אנחנו בהחלט מעוניינים בקול שלך! חלק מהמטרה של Common Voice הוא לאסוף כמה שיותר מבטאים שונים, כך שמחשבים יוכלו להבין <bold>כל אחד</bold> שמדבר.
 faq-firefox-q = האם מנגנון המרת דיבור לטקסט, דרך Common Voice, יהפוך להיות חלק מ־Firefox?
@@ -101,9 +192,12 @@ notfound-content = לצערי לא ברור לי מה חיפשת.
 ## Data
 
 data-download-button = הורדת נתוני Common Voice
+data-download-yes = כן
+data-download-deny = לא
 data-download-license = רישיון: <licenseLink>CC-0</licenseLink>
 data-download-modal = הורדה של <size>{ $size }GB</size> עומדת להתחיל, להמשיך?
 data-subtitle = אנו בונים סדרת נתונים פתוחה ונגישה לציבור של קול שכולם יכולים להשתמש בה כדי לאמן יישומים שניתן לשלוט עליהם באמצעות קול.
+data-explanatory-text = אנו מאמינים שערכות נתונים קוליות מסייעות לאמץ חידוש ותחרות מסחרית בריאה בתחום טכנולוגיית זיהוי הקול על בסיס לימוד מכונות. מדובר במאמץ גלובלי בו אליו אנו מזמינים את כולם להשתתף. מטרתנו היא לסייע לטכנולוגיות זיהוי דיבור להיות יותר מכילה ושתסייע לשקף את כל מנעד הקולות מכל רחבי העולם.
 data-get-started = <speechBlogLink>איך מתחילים עם זיהוי דיבור</speechBlogLink>
 data-other-title = סדרות נתוני קול נוספות…
 data-other-goto = מעבר אל { $name }
@@ -116,6 +210,7 @@ data-other-tatoeba-description = Tatoeba הוא מסד נתונים נרחב ש�
 data-bundle-button = הורדת מאגד סדרת נתונים
 data-bundle-description = הנתונים של Common Voice יחד עם כל סדרות הנתונים האחרות שלהלן.
 license = רישיון: <licenseLink>{ $license }</licenseLink>
+license-mixed = מעורב
 
 ## Record Page
 
@@ -123,7 +218,7 @@ record-platform-not-supported = הפלטפורמה שלך אינה נתמכת ב
 record-platform-not-supported-desktop = במחשבים שולחניים, ניתן להוריד את העדכני ביותר:
 record-platform-not-supported-ios = משתמשי <bold>iOS</bold> יכולים להוריד את היישומון החינמי שלנו:
 record-must-allow-microphone = עליך לאפשר גישה למיקרופון.
-record-cancel = ביטול הקלטה מחדש
+record-retry = ניסיון חוזר
 record-error-too-short = ההקלטה הייתה קצרה מדי.
 record-error-too-long = ההקלטה הייתה ארוכה מדי.
 record-error-too-quiet = ההקלטה הייתה שקטה מדי.
@@ -131,12 +226,16 @@ record-submit-success = נשלח בהצלחה! רוצה להקליט שוב?
 record-help = נא להקיש כדי להקליט, ולקרוא בקול רם את המשפט שלהלן.
 record-cancel = ביטול הקלטה מחדש
 review-terms = עצם השימוש ב־Common Voice מהווה הסכמה מצדך ל<termsLink>תנאים</termsLink> ול<privacyLink>הצהרת הפרטיות</privacyLink> שלנו
+terms-agree = מוסכם עלי
+terms-disagree = לא מוסכם עלי
 review-aborted = ההעלאה נעצרה. האם ברצונך למחוק את ההקלטות שלך?
 review-submit-title = סקירה ושליחה
 review-submit-msg = תודה לך על ההקלטה!<lineBreak></lineBreak>כעת עליך לסקור ולהגיש את קטעי הקול להלן.
 review-recording = סקירה
 review-rerecord = הקלטה מחדש
 review-cancel = ביטול שליחה
+review-keep-recordings = שמירת ההקלטות שלי
+review-delete-recordings = מחיקת ההקלטות שלי
 
 ## Download Modal
 
@@ -160,6 +259,49 @@ contact-required = *נדרש
 
 ## Request Language Modal
 
+request-language-title = בקשת שפה
+request-language-cancel = יציאה מהטופס
+request-language-form-language =
+    .label = שפה
+request-language-success-title = בקשת השפה הוגשה בהצלחה, תודה רבה.
+request-language-success-content = נהיה בקשר כשיהיו פרטים נוספים כיצד להוסיף השפה שלך ל־Common Voice בקרוב.
 
 ## Languages Overview
 
+language-section-in-progress = בתהליך
+language-section-launched = הושקה
+languages-show-more = להציג עוד
+languages-show-less = להציג פחות
+language-total-progress = סה״כ
+language-search-input =
+    .placeholder = חיפוש
+
+## New Contribution
+
+action-click = לחיצה
+action-tap = נגיעה
+listen = האזנה
+skip = דילוג
+shortcuts = קיצורים
+clips = מקטעים
+goal-type-record = הקלטה
+goal-type-validation = אימות
+toward-goal = זה <goalPercentage></goalPercentage> לכיוון המטרה היומית { $goalType } של Common Voice. תודה
+contribute-more = להגיש לך { $count } נוספים?
+record-cta = התחלת ההקלטה
+record-instruction = { $actionType } <recordIcon></recordIcon> ולאחר מכן להקריא את המשפט בקול
+record-stop-instruction = { $actionType } <stopIcon></stopIcon> כשסיימת
+record-three-more-instruction = עוד שלושה!
+record-again-instruction = מושלם! <recordIcon></recordIcon> הקלטת המקטע הבא שלך
+record-last-instruction = <checkIcon></checkIcon> אחרון חביב!
+unable-speak = לא ניתן לדבר כרגע
+clips-submitted = { $count } מקטעים נשלחו!
+record-abort-title = לסיים את ההקלטה קודם לכן?
+record-abort-text = יציאה כעת תגרום לאובדן ההתקדמות שצברת
+record-abort-submit = הגשת מקטעים
+record-abort-continue = סיום הקלטה
+record-abort-delete = יציאה ומחיקת המקטעים
+listen-instruction = { $actionType } <playIcon></playIcon> האם המשפט בוטא כראוי?
+listen-again-instruction = עבודה טובה! <playIcon></playIcon> נא להאזין שוב בזמנך החופשי
+listen-3rd-time-instruction = עברנו 2 <playIcon></playIcon>, קצב טוב!
+listen-last-time-instruction = <playIcon></playIcon> אחרון חביב!

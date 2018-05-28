@@ -11,11 +11,13 @@ loading = Laddar…
 audio-loading-error = Ursäkta! Vi bearbetar våra ljudfiler, var vänlig och försök igen inom kort.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
 
 bn = Bengaliska
+br = Bretonska
 ca = Katalanska
 cs = Tjeckiska
 cv = Tjuvasjiska
@@ -25,8 +27,6 @@ de = Tyska
 el = Grekiska
 en = Engelska
 es = Spanska
-es-AR = Spanska (Argentina)
-es-CL = Spanska (Chile)
 fr = Franska
 fy-NL = Frisiska
 ga-IE = Irländska
@@ -35,10 +35,12 @@ hu = Ungerska
 id = Indonesiska
 it = Italienska
 ka = Georgiska
+kab = Kabyliska
 ko = Koreanska
 kw = Korniska
 mk = Makedonska
 nb-NO = Norska Bokmål
+ne-NP = Nepali
 nl = Nederländska
 nn-NO = Norska, nynorska
 or = Odia
@@ -47,7 +49,9 @@ pt-BR = Portugisiska (Brasilien)
 ro = Rumänska
 ru = Ryska
 sk = Slovakiska
+sl = Slovenska
 sq = Albanska
+sr = Serbiska
 sv-SE = Svenska
 ta = Tamilska
 te = Telugu
@@ -58,6 +62,9 @@ uk = Ukrainska
 uz = Uzbekistanska
 zh-CN = Kinesiska (Kina)
 zh-TW = Kinesiska (Taiwan)
+
+# [/]
+
 
 ## Layout
 
@@ -88,6 +95,19 @@ help-us-title = Hjälp oss validera meningar!
 help-us-explain = Tryck på Play, lyssna och berätta: Var följande mening inspelad korrekt?
 vote-yes = Ja
 vote-no = Nej
+toggle-play-tooltip = Tryck på { shortcut-play-toggle } för att växla uppspelningsläge
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 request-language-text = Kan du inte se ditt språk på Common Voice än?
 request-language-button = Skicka en förfrågan
 
@@ -198,7 +218,6 @@ record-platform-not-supported = Vi är ledsna, min din plattform stöds inte fö
 record-platform-not-supported-desktop = På datorer, kan du ladda ner senaste:
 record-platform-not-supported-ios = Användare av <bold>iOS</bold> kan ladda ner våran gratisapp:
 record-must-allow-microphone = Du måste tillåta mikrofon åtkomst.
-record-cancel = Avbryt återinspelning
 record-retry = Försök igen
 record-error-too-short = Inspelningen var för kort.
 record-error-too-long = Inspelningen var för lång.
@@ -255,3 +274,33 @@ languages-show-more = Läs mer
 languages-show-less = Visa mindre
 language-speakers = Talas av
 language-total-progress = Totalt
+language-search-input =
+    .placeholder = Sök
+
+## New Contribution
+
+action-click = Klicka
+action-tap = Tryck
+listen = Lyssna
+skip = Hoppa över
+shortcuts = Genvägar
+clips = Klipp
+goal-type-record = inspelning
+goal-type-validation = validering
+contribute-more =
+    { $count ->
+        [one] Redo att göra { $count } till?
+       *[other] Redo att göra { $count } till?
+    }
+record-cta = Starta inspelning
+record-instruction = { $actionType } <recordIcon></recordIcon> och läs sedan meningen högt
+record-stop-instruction = { $actionType } <stopIcon></stopIcon> när du är klar
+record-three-more-instruction = Tre kvar!
+record-again-instruction = Bra!<recordIcon></recordIcon> Spela in ditt nästa klipp
+record-last-instruction = <checkIcon></checkIcon>Sista!
+record-submit-tooltip = { $actionType } skicka in när du är redo
+record-abort-submit = Skicka in klipp
+record-abort-continue = Avsluta inspelning
+record-abort-delete = Avsluta & ta bort klipp
+listen-again-instruction = Bra jobbat!<playIcon></playIcon> Lyssna igen när du är redo
+listen-last-time-instruction = <playIcon></playIcon>Sista!

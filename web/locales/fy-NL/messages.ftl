@@ -11,6 +11,7 @@ loading = Lade…
 audio-loading-error = Sorry! Op dit stuit ferwurkje wy ús audiobestannen, probearje it letter nochris.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -25,8 +26,6 @@ de = Dútsk
 el = Gryksk
 en = Ingelsk
 es = Spaansk
-es-AR = Spaansk (Argentinië)
-es-CL = Spaansk (Chili)
 fr = Frânsk
 fy-NL = Frysk
 ga-IE = Iersk
@@ -35,10 +34,12 @@ hu = Hongaarsk
 id = Yndonezysk
 it = Italiaansk
 ka = Georgysk
+kab = Kabylysk
 ko = Koreaansk
 kw = Kornish
 mk = Masedoanysk
 nb-NO = Noarsk Bokmål
+ne-NP = Nepaleesk
 nl = Nederlânsk
 nn-NO = Norwegysk Nynorsk
 or = Odia
@@ -47,7 +48,9 @@ pt-BR = Portugeesk (Braziliaansk)
 ro = Roemeensk
 ru = Russysk
 sk = Slowaaksk
+sl = Sloveensk
 sq = Albaneesk
+sr = Servysk
 sv-SE = Sweedsk
 ta = Tamilsk
 te = Telugu
@@ -58,6 +61,9 @@ uk = Oekraynsk
 uz = Oezbeeksk
 zh-CN = Sineesk (Sina)
 zh-TW = Sineesk (Taiwan)
+
+# [/]
+
 
 ## Layout
 
@@ -98,6 +104,19 @@ help-us-title = Help ús sinnen te falidearjen!
 help-us-explain = Klik op de ôfspylknop, lústerje en fertel ús: wurdt de ûndersteande sin korrekt útsprutsen?
 vote-yes = Ja
 vote-no = Nee
+toggle-play-tooltip = Druk op { shortcut-play-toggle } om de ôfspylmodus yn/út te skeakeljen
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = J
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = N
 request-language-text = Sjogge jo jo taal noch net op Common Voice?
 request-language-button = In taal oanfreegje
 
@@ -208,7 +227,6 @@ record-platform-not-supported = It spyt ús, mar jo platfoarm wurdt op dit stuit
 record-platform-not-supported-desktop = Op desktopkompjûters, download de lêste:
 record-platform-not-supported-ios = <bold>iOS</bold>-brûkers kinne ús fergese app downloade:
 record-must-allow-microphone = Jo moatte tagong ta jo mikrofoan tastean.
-record-cancel = Opnij opnimmen annulearje
 record-retry = Opnij probearje
 record-error-too-short = De opname wie te koart.
 record-error-too-long = De opname wie te lang.
@@ -265,3 +283,39 @@ languages-show-more = Mear besjen
 languages-show-less = Minder besjen
 language-speakers = Sprekkers
 language-total-progress = Totaal
+language-search-input =
+    .placeholder = Sykje
+
+## New Contribution
+
+action-click = Klikke
+action-tap = Tikke
+listen = Lústerje
+skip = Oerslaan
+shortcuts = Fluchkeppelingen
+clips = Fragminten
+goal-type-record = opname
+goal-type-validation = falidaasje
+toward-goal = Wy hawwe <goalPercentage></goalPercentage> fan it { $goalType }-doel fan Common Voice foar hjoed berikke. Tank
+contribute-more = Klear om der noch { $count } te dwaan?
+record-cta = Opname starte
+record-instruction = { $actionType } <recordIcon></recordIcon> en lês de sin dêrnei hurdop
+record-stop-instruction = { $actionType } <stopIcon></stopIcon> as jo klear binne
+record-three-more-instruction = Noch trije te gean!
+record-again-instruction = Fantastysk! <recordIcon></recordIcon> Nim jo folgjende fragmint op
+record-again-instruction2 = Gean sa troch, nim noch in kear op <recordIcon></recordIcon>
+record-last-instruction = <checkIcon></checkIcon> De lêste!
+review-tooltip = Beoardielje en nim nochris fragminten op as jo wolle
+unable-speak = Kin op dit stuit net sprekke
+review-instruction = Beoardielje en nim nochris fragminten op as jo wolle
+record-submit-tooltip = { $actionType } yntsjinje wannear ree
+clips-submitted = { $count } fragminten yntsjinne!
+record-abort-title = Opname earst beëinigje?
+record-abort-text = No stopje betsjut dat jo jo foarútgong kwytreitsje
+record-abort-submit = Fragminten yntsjinje
+record-abort-continue = Opname foltôgje
+record-abort-delete = Ofslute en fragminten fuortsmite
+listen-instruction = { $actionType } <playIcon></playIcon> waard de sin dúdlik útsprutsen?
+listen-again-instruction = Goed wurk! <playIcon></playIcon> Lústerje opnij wannear't jo klear binne
+listen-3rd-time-instruction = 2 klear <playIcon></playIcon> , gean sa troch!
+listen-last-time-instruction = <playIcon></playIcon> De lêste!

@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 import StateTree from '../../stores/tree';
 import { ACCENTS, AGES, GENDERS, User } from '../../stores/user';
 import Modal from '../modal/modal';
-import { Button, Hr, LabeledInput, LabeledSelect } from '../ui/ui';
+import { Button, Hr, LabeledInput, LabeledSelect, TextButton } from '../ui/ui';
 
 interface EditableUser {
   email: string;
@@ -109,10 +109,7 @@ class ProfileForm extends React.Component<Props, State> {
             id={
               'profile-form-' + (onExit ? 'cancel' : hasEnteredInfo && 'delete')
             }>
-            <a
-              href="javascript:void(0)"
-              onClick={onExit || this.toggleClearModal}
-            />
+            <TextButton onClick={onExit || this.toggleClearModal} />
           </Localized>
         </div>
         <br />

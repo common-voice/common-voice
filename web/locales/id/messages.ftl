@@ -11,6 +11,7 @@ loading = Memuat…
 audio-loading-error = Maaf! Kami sedang memproses berkas audio kami, silakan coba beberapa saat lagi.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -39,6 +40,7 @@ ko = Bahasa Korea
 kw = Bahasa Kornish
 mk = Bahasa Makedonia
 nb-NO = Bahasa Bokmal (Norwegia)
+ne-NP = Bahasa Nepali
 nl = Bahasa Belanda
 nn-NO = Bahasa Nynorsk (Norwegia)
 or = Bahasa Oriya
@@ -48,6 +50,7 @@ ro = Bahasa Rumania
 ru = Bahasa Rusia
 sk = Bahasa Slowakia
 sq = Bahasa Albania
+sr = Bahasa Serbia
 sv-SE = Bahasa Swedia
 ta = Bahasa Tamil
 te = Bahasa Telugu
@@ -58,6 +61,9 @@ uk = Bahasa Ukraina
 uz = Bahasa Uzbek
 zh-CN = Bahasa Tionghoa (Tiongkok)
 zh-TW = Bahasa Tionghoa (Taiwan)
+
+# [/]
+
 
 ## Layout
 
@@ -90,6 +96,19 @@ help-us-title = Bantu kami memvalidasi kalimat-kalimat!
 help-us-explain = Tekan mulai, dengarkan, dan beri tahu kami: apakah mereka sudah mengucapkan kalimat di bawah ini dengan akurat?
 vote-yes = Ya
 vote-no = Tidak
+toggle-play-tooltip = Tekan { shortcut-play-toggle } untuk mengaktifkan mode putar
+
+## Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
+# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = t
 request-language-text = Belum melihat bahasa Anda di Common Voice?
 request-language-button = Ajukan Bahasa
 
@@ -199,7 +218,6 @@ record-platform-not-supported = Maaf, platform Anda saat ini belum mendukung.
 record-platform-not-supported-desktop = Pada desktop komputer, Anda dapat mengunduh yang paling baru:
 record-platform-not-supported-ios = Pengguna <bold>iOS</bold> dapat mengunduh aplikasi kami secara gratis:
 record-must-allow-microphone = Anda harus mengizinkan akses mikrofon.
-record-cancel = Batal Merekam-ulang
 record-retry = Coba Lagi
 record-error-too-short = Rekaman Anda terlalu pendek.
 record-error-too-long = Rekaman Anda terlalu panjang.
@@ -256,3 +274,5 @@ languages-show-more = Lebih Banyak
 languages-show-less = Lebih Sedikit
 language-speakers = Penutur
 language-total-progress = Total
+language-search-input =
+    .placeholder = Cari

@@ -42,7 +42,7 @@ export function isNativeIOS(): boolean {
   );
 }
 
-export function isFocus(): boolean {
+export function isFirefoxFocus(): boolean {
   return navigator.userAgent.indexOf('Focus') !== -1;
 }
 
@@ -88,10 +88,6 @@ export function isMobileWebkit(): boolean {
 
 export function isProduction(): boolean {
   return window.location.origin === 'https://voice.mozilla.org';
-}
-
-export function isStaging(): boolean {
-  return window.location.origin === 'https://voice.allizom.org';
 }
 
 export function getItunesURL(): string {

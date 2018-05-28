@@ -79,6 +79,11 @@ export default class Server {
 
     app.use(express.static(FULL_CLIENT_PATH, staticOptions));
 
+    app.use(
+      '/contribute.json',
+      express.static(path.join(__dirname, '..', 'contribute.json'))
+    );
+
     if (options.bundleCrossLocaleMessages) {
       this.setupCrossLocaleRoute();
     }
@@ -97,10 +102,10 @@ export default class Server {
         response: Response,
         next: NextFunction
       ) => {
-        console.log(error);
+        console.log(error.message, error.stack);
         const isAPIError = error instanceof APIError;
         if (!isAPIError) {
-          console.error(request.url, error);
+          console.error(request.url, error.message, error.stack);
         }
         response
           .status(error instanceof ClientError ? 400 : 500)
@@ -216,7 +221,7 @@ export default class Server {
 
     try {
       await this.model.performMaintenance();
-      await this.model.db.migrateUserClientBuckets();
+      await this.model.db.fillCacheColumns();
       if (doImport) {
         await importSentences(await this.model.db.mysql.createPool());
       }

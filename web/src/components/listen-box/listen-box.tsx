@@ -1,7 +1,7 @@
 import { LocalizationProps, withLocalization } from 'fluent-react';
 import * as React from 'react';
 import { trackListening } from '../../services/tracker';
-import { FontIcon, PlayIcon, RedoIcon } from '../ui/icons';
+import { FontIcon, OldPlayIcon, OldRedoIcon } from '../ui/icons';
 
 const VOTE_NO_PLAY_MS = 3000; // Threshold when to allow voting no
 
@@ -151,18 +151,19 @@ class ListenBox extends React.Component<Props, State> {
   private disableShortcuts = () => this.setState({ shortcutsEnabled: false });
 
   private handleKeyDown = (event: React.KeyboardEvent<any>) => {
+    const { getString } = this.props;
     if (!this.state.shortcutsEnabled) return;
 
     switch (event.key) {
-      case 'p':
+      case getString('shortcut-play-toggle'):
         this.onPlay();
         break;
 
-      case 'y':
+      case getString('shortcut-vote-yes'):
         this.voteYes();
         break;
 
-      case 'n':
+      case getString('shortcut-vote-no'):
         this.voteNo();
         break;
 
@@ -195,10 +196,8 @@ class ListenBox extends React.Component<Props, State> {
         <button
           onClick={this.onPlay}
           className="play-box"
-          title={
-            shortcutsEnabled ? 'Press p to ' + (playing ? 'pause' : 'play') : ''
-          }>
-          {playing ? <FontIcon type="stop" /> : <PlayIcon />}
+          title={shortcutsEnabled ? getString('toggle-play-tooltip') : ''}>
+          {playing ? <FontIcon type="stop" /> : <OldPlayIcon />}
         </button>
         {vote ? (
           <div className="vote-box">
@@ -206,18 +205,18 @@ class ListenBox extends React.Component<Props, State> {
               onClick={this.voteYes}
               onTouchStart={this.voteYes}
               disabled={!played}>
-              {this.renderShortcutText(getString('vote-yes'))}
+              {this.renderShortcutText('vote-yes')}
             </button>
             <button
               onClick={this.voteNo}
               onTouchStart={this.voteNo}
               disabled={!played && !playedSome}>
-              {this.renderShortcutText(getString('vote-no'))}
+              {this.renderShortcutText('vote-no')}
             </button>
           </div>
         ) : (
           <button className="delete-box" onClick={this.onDelete}>
-            <RedoIcon />
+            <OldRedoIcon />
           </button>
         )}
         <audio
@@ -236,15 +235,21 @@ class ListenBox extends React.Component<Props, State> {
     );
   }
 
-  renderShortcutText(text: string) {
-    return this.state.shortcutsEnabled ? (
-      <React.Fragment>
-        <span style={{ textDecoration: 'underline' }}>{text.charAt(0)}</span>
-        {text.substr(1)}
-      </React.Fragment>
-    ) : (
-      text
-    );
+  renderShortcutText(stringId: string) {
+    const { getString } = this.props;
+    const text = getString(stringId);
+    const shortcut = getString('shortcut-' + stringId);
+    const shortcutIndex = text.toLowerCase().indexOf(shortcut);
+
+    return !this.state.shortcutsEnabled || shortcutIndex === -1
+      ? text
+      : [
+          text.slice(0, shortcutIndex),
+          <span key="shortcut" style={{ textDecoration: 'underline' }}>
+            {shortcut}
+          </span>,
+          text.slice(shortcutIndex + 1),
+        ];
   }
 }
 
