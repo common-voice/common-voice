@@ -2,7 +2,7 @@
 
 yes-receive-emails = Oui, envoyez-moi des courriers électroniques. Je souhaite recevoir l’actualité du projet Common Voice.
 stayintouch = Chez Mozilla, nous rassemblons une communauté autour des technologies vocales. Nous aimerions rester en contact avec vous pour vous tenir au courant des nouvelles sources de données et pour découvrir comment vous utilisez ces données.
-privacy-info = Nous vous promettons de prendre soin de vos données. Apprenez-en davantage en consultant notre <privacyLink>politique de confidentialité</privacyLink>.
+privacy-info = Nous vous promettons de prendre soin de vos données. Apprenez-en davantage en consultant notre <privacyLink>Politique de confidentialité</privacyLink>.
 return-to-cv = Retourner vers Common Voice
 email-input =
     .label = Adresse électronique
@@ -226,7 +226,7 @@ record-error-too-quiet = Le volume de l’enregistrement est trop faible.
 record-submit-success = Envoi réussi ! Voulez-vous effectuer un nouvel enregistrement ?
 record-help = Appuyez pour enregistrer, puis lisez la phrase ci-dessus à haute voix.
 record-cancel = Annuler le réenregistrement
-review-terms = En utilisant Common Voice, vous acceptez nos <termsLink>conditions d’utilisation</termsLink> et notre <privacyLink>politique de confidentialité</privacyLink>
+review-terms = En utilisant Common Voice, vous acceptez nos <termsLink>Conditions d’utilisation</termsLink> et notre <privacyLink>Politique de confidentialité</privacyLink>
 terms-agree = J’accepte
 terms-disagree = Je refuse
 review-aborted = Échec de l’envoi. Voulez-vous supprimer vos enregistrements ?
