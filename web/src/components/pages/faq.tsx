@@ -25,7 +25,7 @@ export default () => (
     </Localized>
     <Localized
       id="faq-get-a"
-      downloadLink={<a href="http://voice.mozilla.org/data" />}
+      downloadLink={<a href="https://voice.mozilla.org/data" />}
       licenseLink={
         <a href="https://creativecommons.org/publicdomain/zero/1.0/" />
       }>
