@@ -505,7 +505,9 @@ Mar Uachtarán na hÉireann, tá áthas orm an deis a bheith agam mo bhuíochas 
 Is é seo an dara huair dom labhairt libh agus páirt a ghlacadh i bhur "Seachtain Comharsanachta" bhliaintiúil
 Is ócáid í atá tar éis fás agus forbairt, ní hamháin mar ócáid shóisíolta dóibh siúd a bhaineann leas as an tIonad go rialta, ach chomh maith mar deis do dhaoine eile chun eolas a fháil ar thraidisiúin, ar chultúir agus ar chreideamh phobal Ioslamach na hÉireann
 Tá áthas orm féin agus ar Saidhbhín fáilte a fhearadh romhaibh chuig Áras an Uachtaráin
-Tá muid beirt ag súil go mór le tráthnóna de phlé bríomhar a thabhairfidh ábhar machnaimh dúinn. Is mian linn beirt ár mbuíochas a ghabháil le hÁine Mahon, atá ní hamháin ina ceann feadhna ar Philosophy Ireland, ach ina crann seasta ar theacht le chéile an lae inniu chomh maith. Go raibh maith agat a Áine, agus go raibh maith agaibhse ar fad as teacht anseo tráthnóna
+Tá muid beirt ag súil go mór le tráthnóna de phlé bríomhar a thabhairfidh ábhar machnaimh dúinn
+Is mian linn beirt ár mbuíochas a ghabháil le hÁine Mahon, atá ní hamháin ina ceann feadhna ar Philosophy Ireland, ach ina crann seasta ar theacht le chéile an lae inniu chomh maith
+Go raibh maith agat a Áine, agus go raibh maith agaibhse ar fad as teacht anseo tráthnóna
 Ar mo shon féin agus ar son mo bhean Saidhbhín, is mian liom mo bhuíochas a ghabháil libh as bhur fíorchaoin fáilte
 Aitheasc ag Céiliúradh fiche Bliain TG4
 Ollscoil na hÉireann, Gaillimh, Oíche Shamhna, Luan an t-aonú lá is tríocha de mhí dheireadh fómhair dhá mhíle a sé déag
@@ -528,14 +530,15 @@ Is cruthúnas  amháin ar sin, dar ndóigh, na céadta duais agus gradam aithean
 Gan dabht, an sprioc is tábhachtaí a bhain le bunú TG4 ná nasc a chothú idir na pobail scaipthe a úsáideann an Ghaeilge
 Is bun-riachtanas é i mbuanú teanga go gcloisfeadh agus go bhfeicfeadh cainteoirí Gaeilge guthanna agus aghaidheanna a bpobail féin ag labhairt ina dteanga féin, ar chuile ábhar - nua-aoiseach agus traidisiúnta
 Tugann an spás a chruthaíonn TG4 tacaíocht dóibh siúd atá ag déanamh a ndícheall an teanga a úsáid agus a neartú, lá i ndiaidh lae
-Chomh maith leis sin, tá TG4 mealltach dóibh siúd atá ar bheagán Gaeilge,  atá as cleachtadh agus dóibh siúd a d'iarr mé orthu ag an am an tarna seans a thabhairt don teanga.
+Chomh maith leis sin, tá TG4 mealltach dóibh siúd atá ar bheagán Gaeilge,  atá as cleachtadh agus dóibh siúd a d'iarr mé orthu ag an am an tarna seans a thabhairt don teanga
 Lena chlárachach cruthaitheacha,  nuálacha agus suimiúla, tá páirt lárnach glactha ag TG4 chun an meon diúltach sin a bhí ann i leith na teanga a dhíbirt agus beocht agus dóchas nua a thabhairt dúinne ar fad atá ag obair ar leas na Gaeilge
 Tá sceidéal tarraingteach, ilchineálach curtha faoinár mbráid le fiche bliain anuas, idir chlúdach cuimsitheach ar chúrsaí nuachta agus spóirt, agus  dramaíocht den scoth, chomh maith le cláracha fáisnéise atá, i mo thuaraimse, i gcónaí  ar an gcaighdeán is airde
 Cinntíonn clársceideal TG4 go bhfuil an tsúil eile  beo agus ar oscailt
 Tugann sé deis do scéalaithe na nua-fhíse a gcéird a fhoghlaim agus a mhaisiú
 Saibhríonn a saothar ár saol agus cuireann sé le cáil na hÉireann mar lár-ionad ina bhfuil scoth na léiritheoirí, na n-aisteoirí agus na gceardaithe físe ar fáil ann
 Ar deireadh, baineann tábhacht bhunúsach le TG4 i ndáil le saorántacht, le cearta  teanga agus leis an daonlathas
-Is comhartha suntasach í d'ár bhféin-mheas mar náisiún. Sa bhliain chomórtha seo, caithfimid cuimhneamh go bhfuil muid ag obair fós chun fís na laochra sin ó tús an fichiú aois, a bhí chomh tógtha le hathbheochain na Gaeilge, a bhaint amach
+Is comhartha suntasach í d'ár bhféin-mheas mar náisiún
+Sa bhliain chomórtha seo, caithfimid cuimhneamh go bhfuil muid ag obair fós chun fís na laochra sin ó tús an fichiú aois, a bhí chomh tógtha le hathbheochain na Gaeilge, a bhaint amach
 Tá an dushlán céanna romhainn is a bhí rompu siúd, ach tá uirlisí agus meáin sa bhreis againn, mar shampla san teicneolaíocht, ach iad a úsáid go cruthaitheach, mar atá déanta ag TG4
 Tá go leor dúshlán fós romhainn maidir le caomhnú agus neartú na Gaeilge
 Caithfear a thógaint san áireamh gurb í bunú TG4 an chéim is dearfaí atá glactha le fada an lá i leith na Gaeilge, agus go bhfuil sí ar liosta gearr de bhuaicphointí pholasaí an Stáit i leith na teanga
@@ -931,4 +934,172 @@ Is mór an pléisiúir a bheith in bhur dteannta inniu don searmanas  cur crann 
 Is mian liom mo bhuíochas a ghabháil leis an tAthair Simon Sleeman dá chuireadh dom páirt a ghlacadh san ócáid seo, agus libhse ar fad as bhur fíorchaoin fáilte go Maigh Rua
 Mar fhocal scoir, is mian liom buíochas a ghabháil libh ar fad as an fíorchaoin fáilte a d'fhear sibh romham inniu
 Is mian liom comhghairdeas a dhéanamh le gach éinne a d'oibrigh ar an ócáid comórtha luachmhar seo, a thugann deis dúinn smaoineamh ar na himeachtaí a churthaigh ár stat, ár náisiún agus ár bpobail
+Tá gulaiseacht na gcomhar creidmheasa ina cuid lárnach d'earnáil na gcomharchumann in Éirinn, agus tá tacar prionsabal leagtha amach acu
+Bunaithe ar éiteas a thugann tús áite do na mbaill, agus scrúdaithe in áiteanna ar nós Cheanada, bhí bhur mbunaitheoirí ag iarraidh creidmheasa a chur ar fáil do na daoine is leochailí sa sochaí  ar bhealach maorga
+Bhí luach agus tábhacht ag baint le bhur nglúiseacht d'ár bpobail ags d'ár sochaí, agus tá go fóill sa lá atá inniu ann
+Nuair a bhunaigh Nora Herlihy, maraon le Sean Forde agus Séamus P MacEoin, Gluaiseacht na gComhar Creidmheasa agus nuair a d'oscail siad an chéad brainse ar Ascaill Dhún Uabhair i mBaile Átha Cliath, seans nár thuig siad díreach cé chomh rathúil i a bheadh sí
+Guím gach rath oraibh agus sibh ag tabhairt Gluaiseacht na gComhar Creidmheasa ar aghaidh, agus tá súil agam go mbeidh an daonlathas, an daimh leis an bpobal agus an fís mór i gcroílár bhur bhfealsúnacht, mar a bhí ag am bhur mbunai
+Do thug sé sásamh faoi leith dom an cuireadh a ghlacadh labhairt libh ar maidin ag an ócáid tabhachtach seo a thugann deis dúinn macnamh a dhéanamh ar an slí ina bhfuilimid uile ar an bplainéid ag maireachtáil ar scáth a chéile agus, dár ndóidh, ag braith ar a chéile don todhchaí atá amach romhainn
+A Ardmhéara Uí Dhálaigh
+Ar maidin táimid tar éis teacht le chéile ónár gcatharacha agus ónár dtíortha éagsúla leis an tuiscint go bhfuilimid uile mar bhaill d’aon chlann amháin
+Agus chun admháil go bhfuil sé mar fhreagracht i gcoiteanna againn aire a thabhairt d’ár bplainéid a chothaíonn muid uilig
+Lig dúinn, le chéile, beart à dhéanamh de réir an tuiscint sin tríd teacht ar slíte marachtála in ár gcatharacha atá ar ár maitheas mar chlann domhanda, go h-eiticiúl, go h-eacnamúil agus go h-eiceolaíchta
+Tá áthas orm a bheith in Ard Fhearta inniu, sa cheantar seo a bhfuil súntas ar leith ag baint leis i stair na hÉireann
+Ní hamháin go mbíonn Ard Fhearta aitheanta le hiarrachtaí Ruairí Mhic Easmainn ar son na cúise, ach le stair ársa na hÉireann chomh maith
+Rugadh Naomh Breandán an Loingseoir díreach míle ón áit seo, agus bhí Ard Fhearta ina ionad oilithreachta a raibh tábhacht ar leith ag baint leis i saol spioradálta agus reiligiúnach na hÉireann ar feadh na céadta bliain
+Is mór an pléisiúir dom é i gcónaí cuairt a thabhairt ar an ceantar álainn seo, agus gabhaim buíochas libh ar fad as ucht na fíorchaoin fáilte sin
+Mar fhocal scoir, is mian liom a rá arís chomh sásta is atáim a bheith in Ard Fhearta ar an ócáid speicialta seo
+Seasfaidh an dealbh seo atá á nochtadh againn inniu mar chomhartha ómóis do Ruairí Mac Easmainn, fear mór a bheidh aitheanta le hArd Fhearta go deó - fear a raibh cróga, misniúil, macánta, agus a thug a anam ar son na cúise
+Is mór an pléisiúir dom é an taispeántas seo a oscailt, taispeántas a thugann léargas dúinn ar shaol Ruairí Mhic Easmaill, arbh é duine de mhór-phearsana na hÉireann sa 20ú aois é
+Mar Uachtarán na hÉireann, tá áthas orm an deis seo a thapú chun ómós a thabhairt don méid a bhain Ruairí Mac Easmainn amach, ní hamháin san Éirí Amach atá muid ag comóradh i mbliana, ach ar son cosmhuintir an domhain a bhí faoi chos ag Impireachtaí na hEorpa chomh maith
+Arís, is mian liom a rá cé chomh sásta is atá mé a bheith anseo inniu, agus chun comhghairdeas a dhéanamh libh ar fad atá tar éis cur leis an taispeántas seo trí bhur léann, bhur léargais agus trí ábhar a thabhairt ar iasacht
+Is tráthúil agus is oiriúnach go bhfuilimid ag tabhairt ómóis don fear mór seo a raibh trua agus sláine go smior ann, fear a rinne beart de réir a bhriathar agus a thug a shaol ar son saoirse na hÉireann
+Ar an gcéad dul síos is mian liom mo bhuíochas a chur in iúl do phobal Ghaelscoil Mhic Easmainn ar fad as ucht bhur gcuireadh dom féin agus do mo bhean Saidhbhín bheith libh inniu
+Tá áthas orm an deis seo a bheith agam, mar Uachtarán na hÉireann, saol Ruairí Mhic Easmainn a chomóradh libh anseo i gCiarraí
+Bhí Ruairí Mac Easmainn ina thírghráthóir Éireannach, ach bhí sé ina fhile, ina thaidhdeoir, ina thaistealaí agus ina dhaonnúlach chomh maith
+D'oibrigh sé ar son na cúise anseo in Éirinn, ach rinne sé an t-uafás do chosmhuintir an domhain le linn a thréimhse mar Oifigeach do Ghnóthaí Eachtracha na Breataine i gCongó na hAfraice, i Meireacá Theas agus in áiteanna eile nach iad chomh maith
+Cé nár throid Mac Easmainn le linn Seachtain na Cásca míle naoi gcéad a sé déag, bhí ról lárnach aige sa phleanáil a tharla roimh ré
+Chreid sé nach n-éireodh leis an Éirí Amach mura mbeadh rialtas na Gearmáine sásta cúnamh míleata a thabhairt do réabhlóidithe na hÉireann, agus chaith sé bliain go leith i bpríomhchathair na Gearmáine ag iarraidh an cúnamh sin a shocrú
+Níor éirigh leis morán saighdiúirí a mhealladh chun troid ar son na hÉireann, ach d'éirigh leis cúnamh na Gearmáine a fháil i bhfoirm gunnaí agus armlóin
+Go deimhin, is ar an lá seo céad bliain ó shin, an t-aonú lá fichead Aibreán, míle naoi gcéad a sé déag a rinne Mac Easmainn iarracht bád Gearmáineach a bhí lán le gunnaí, An Aud, a leagadh le balla ar Thrá na Beannaí
+Ní raibh sé ar bord na loinge, mar gur tháinig sé féin agus a chompánaigh i dtír níos luaithe sa ló, tar éis dóibh an turas ón Ghearmáin a dhéanamh ar fomhuireán
+Ar an drochuair, níor éirigh leis an phlean a bhí acú, agus gabhadh Mac Easmainn
+Tógadh go Londain é chun dul chun trialach de barr tréasa in aghaidh Impireacht na Breataine
+Fuarthas ciontach é sa triail agus cuireadh chun báis é ar an tríú lá de mhí Lúnasa, míle naoi gcéad a sé déag
+Mar a dúirt mé cheana, tá áthas orm an deis seo a bheith agam saol Mhic Easmainn a chomóradh, agus is íontach go bhfuil scoil lán-Ghaelach anseo i gCiarraí a bhfuil ainmnithe ina onóir
+Thuig ceannairí míle naoi gcéad a sé déag an tábhacht a bhí, agus atá fós, ag ár dteanga agus ár gcultúr dúchais agus iad ag iarraidh neamhspleachais a bhaint amach
+Bhí athbheochan na Gaeilge ina príomhaidhm ag na ceannairí agus bhí cuid mhór dá smaointeoireacht bunaithe ar fhís a léireodh Éire neamhspleách a mbeadh a teanga labhartha agus scríofa féin aici
+Táim cinnte go mbeadh na ceannairí ar fad, agus Ruairí Mac Easmainn ach go háirithe, an-sásta go deo go bhfuil an Ghaeilge á fhoghlaim agus á úsáid ag glún óg Gael, céad bliain ó a d'íobair siad ar son na hÉireann
+Is mór an dúshlán é teanga a chur faoi chois, agus is mór an dúshlán fós é teanga a athbheochan
+Cé go bhfuil sé deacair é a shamhlú, bhí ceithre mhilliún cainteoir Gaeilge ann in Éirinn dhá chéad bliain ó shin, ag tús an naoiú aois déag
+Thit líon na ndaoine in Éirinn go tobaisteach thar chaitheamh na mblianta agus b'iad muintir na Gaeilge ba mheasa a buaileadh
+Céad bhliain ó shin, de bharr tionchar an Ghorta Mhór and polasaithe an Rialtais i leith an oideachais agus na heisimirce, agus toisc go raibh an smaoineamh ann ag an am gur cheart an Béarla a úsáid i gcúrsaí gnó, dlí agus go forleathan i gcúrsaí creidimh, ní raibh ach leathmhilliún Éireannach ag maíomh go raibh cumas sa Ghaeilge acu
+Sna cúinsí sin, is dea-scéala é, sa lá atá inniu ann, go bhfuil 2 mhilliún duine in Éirinn díobh ag maíomh go bhfuil cumas sa Ghaeilge - ach an dúshlán atá romhainn anois ná na daoine sin a spreagadh len í a úsáid
+Cuireann sé gliondair i mo chroí nuair a bhuailim le páistí, le tuismitheoirí agus le múinteoirí cosúil libhse atá ag treabhadh i ngort na Gaeilge
+Tá lucht na Gaeilge ag tabhairt faoin athbheochan anois le nach mór céad fiche cúig bliain, ach níl san am sin i saolré teanga ach faiteadh na súlLe blianta anuas ta borradh tagtha ar líon na bpáistí, cosúil libhse, atá ag freastal ar scoileanna lán Ghaelach
+Is láidir an bunús í sin don todhchaí
+Tugann se sásamh faoi leith dhom go raibh páirt agam féin i bpolasaith teanga agus mé mar Aire Rialtais agus i go háirithe go ribh deis agam páirt a ghlacadh i mbunú TG4
+Inniú tá an achmhainn fuinneamhach agus cruthaitheach lárnach in imeachtaí agus i gcumarsáid pobal na Gaeilge
+Ní h-amháin sin ach tríd an ard-chaighdeán chraolacháin atá leagtha síos acu, tá siad ag mealladh h-iad siúd atá ar bheagáinín Gaeilge nó atá as cleachtadh le tamailín
+Maidir leis na staitisticí, ba cheart túr dóchais a bheith ionainn do phobal na Gaeilge sa mhéid is go bhfuilimid ag dul sa treo ceart
+Tugann sé ardú croí dom nuair a fheicim an ghlún óg ag leanacht ar aghaidh le cur chun cinn na teanga agus mar Uachtarán na hÉireann, is mian liom pobal na scoile seo ar fad, idir dhaltaí, múinteoirí agus tuismitheoirí a mholladh as bhur dtiomantas agus as bhur ndílseacht d'ár dteanga, d'ár gcultúr agus d'fhís na daoine, ar nós Ruairí Mhic Easmain, a d'éirigh amach céad bliain ó shin, le linn Seachtain na Cásca míle naoi gcéad a sé déag
+Is mór an pléisiúir dom a bheith anseo inniu sa cheantar álainn, stairiúil seo de Chontae Ciarraí
+Mar Uachtarán na hEireann, tá áthas orm an deis seo a thapú chun an méid a rinne  Ruairí Mac Easmainn ar son saoirse mhuintir na hÉireann agus ar son cosmhuintir an domhain i gcoitinne a athaint agus a cheiliúradh 
+Is mór an pléisiúir agus an onóir dom é gur iarradh orm an chéad Léacht Bhliaintúil ag Cumann na hÉireann um Léann Eorpach na Linne a thabhairt
+Tá áthas orm a bheith anseo i Leabharlann Chester Beatty anocht
+Tugann an foras céimiúil seo an deis dúinn éagsúlachtí ealaíne agus chultúrtha an domhain a fhiosrú
+Tugann sí léargas dúinn ar chultúr na lámhscríbhinne i sibhialtachtaí éagsúla, agus ar an mbealach a chuir an cine daonna iad féin i láthair
+Is íontach an rud é go bhfuil a leithéid de sheóid, a bhfuil suntas domhanda a baint lei, ar fáil dúinn ar fad anseo i gcroílár Bhaile Átha Cliath
+Agus muid ag ceiliúradh Chóráin Ruzbihan, mar atá muid inniu, caithfimid an sibhialtacht saibhir, ilghnéitheach, as a dtánaigh sé a cheiliúradh chomh maith
+Is gá dúinn a chuimhniú gurb as buaicphointe fealsúnacht an Oirthir a tháinig an lámhscríbhínn seo, ionas go gcosnóimid muid féin ó insint réaduchtach ar an chreideamh agus ar an chultúr
+Is gá dúinn a chuimhniú chomh maith go dtagann sibhialtachtaí faoi bhláth trí eolas a bheith acú ar chultúir a dtáinig rompú, trína bheith sásta tuairimí agus tionchair nua a chuimsiú, agus tríd an léann agus na healaíona a chothú
+A Choimisinéirí Oifig na nOibreacha Poiblí
+A Phríomh Bhreitheamh
+Ta an-áthas orm bheith anseo anocht, ag oscailt oifigiúil an ionad cuairteoirí seo i bPríosún agus Teach Cúirte Chill Mhaighneann, foirgneamh is ea í a bhfuil ina shiombail agus ina meabhrúchán orthú siúd a chuir a saoil i gcontúirt céad bliain ó shin, agus a cailleadh in a lán cásanna, ionas go mbeadh na glúnta a tháinig ina ndiaidh in ann marachtáil mar shaoránaigh i stát a mBéadh saor agus neamhspleách
+Ar an gcéad dul síos, is mian liom mo bhuíochas a chur in iúl do Chór Ard Scoil San Lughaidh as an ceol álainn sin
+I measc na ngrúpaí éagsúla a ghlac páirt san Éirí Amach, grúpa ar leith a bhí in Arm Cathartha na hÉireann de bharr a dtraidisiún chomhionannais - arm oibrithe a raibh na mbaill tiomanta, ní hamháin don neamhspleáchas náisiúnta, ach don athdháileadh maoine ar bhealach cóir i measc muintir na hÉireann
+Tá áthas orm go bhfuil an deis seo agam aitheantas poiblí a thabháirt don méid a rinne Arm Cathartha na hÉireann, agus a cheannaire James Connolly, le linn Éirí Amach na Cásca míle naoi gcéad a sé déag ar son saoirse na hÉireann
+Mar fhocal scoir, is mian liom go ndéanaimis focail James Connolly a fhíorú, nuair a dúirt sé
+Fearaim fíorchaoin fáilte romhaibh go léir go dtí an ócáid stairiúil seo
+Agus muid ag comóradh céad bliain ó Eirí amach na Cásca, cuireann sé áthas orm go bhfuil muid ag tabhairt áit lárnach dos na healaíne, atá mar oidhreacht saibhir againn mar Éireannaigh agus atá faoi bhláth agus muid ag céiliúradh
+Is mór an phléisiúr dom tús a chur leis an gcomhrá seo tráthnóna ar an eachtra ríthábhachtach a bhí in Éirí Amach na Cásca míle naoi gcéad a sé déag
+Tugann sé sásamh faoi leith dom go bhfuil an ardán á roinnt agam inniu le scoláirí den scoth - gach duine acu, trína saothair agus taighde, a chur go mór lenár dtuiscint  maidir leis an tréimhse sin inar saolú ár Stáit
+Tá fíorchaoin áthais orm, mar Uachtarán na hÉireann, a bheith anseo anocht chun na saoránaigh cróga a ghlac páirt in Éirí Amach míle naoi gcéad a sé déag - an síol as a d'fhás ár neamhspleáchas - a chomóradh
+A chúin an cothéacs as a thagann ár bhféidireachtaí d’inniu agus don todhchaí
+Cuireann bhur láithreacht i gcuimhne dom an baol agus na híobairtí a ghlac na fir agus na mná a raibh páirteach san Éirí Amach orthu féin
+Ní rabhadar cinnte faoin toradh a bheadh ar an Éirí Amach agus ní rabhadar ag súil le maireachtáil chun an toradh sin a fheiceáil, is é sin Éire saor
+Má smaoinímid orthu mar aithreacha agus mar dheartháireacha, mar iníonacha agus mar leannáin, mar a dhéanaimid anocht, tá sé níos éasca orainn tuiscint a fháil ar a saolta roimh an Éirí Amach agus le linn an Éirí Amach féin
+Bhí timpeallacht chultúrtha thar a bheith saibhir ann ag an am le leithéidí W B Yeats, Jack Yeats, James Joyce, George Russell agus Sean O’Casey
+Ealaíontóirí agus smaointeoirí ab ea iad a bhí  flaithiúil agus a bhí tiomanta do saol an phobail 
+Náisiúnaithe, poblachtaigh, sóisialaithe, feiminigh agus idirnáisiúnaíthe ab ea iad fir agus mná an ré sin
+Theastaigh uathu Éire nua, radacach a chruthú, Éire ina mbeadh an sean-stair agus an sean-chultúr le braith inti
+Inniu, tá sé de dhulgas orainn ar fad Poblacht a shamhlú agus a chruthú as a mbeadh na bunaitheoirí bródúil; náisiún cróga, le fís agus le spiorad fial daonnachta
+Tá fíorchaoin fáilte romhaibh ar fad chuig Áras an Uachtaráin
+Tá áthas orm féin agus ar Saidhbhín go bhfuil sibh inár gcomhluadar ar maidin don imeacht tábhachtach seo chun Feachtas Ban na Náisiún Aontaithe - HeForShe - a cheiliúradh, agus chun ról na bhfear i gcur chun cinn cearta na mban a athaint, agus go háirithe a ról i ndeireadh a chur le foréigean inscne
+Is ócáid cheiliúrtha é an lá inniu, lá chun ceiliúradh a dhéanamh ar féidearthachtaí agus ceiliúradh a dhéanamh ar an chaidreamh idir fhir agus mná, caidreamh atá á mhúnlú acu siúd atá, maraon libh féin, ag leiriú ceannasaíochta
+Óráid ag Comhdháil Chumann Idirnáisiúnta na gCoimisinéirí Teanga
+Aula Maxima, Ollscoil na hÉireann, Gaillimh, 7ú Márta 2016
+A Chathaoirligh agus a dhaoine uaisle go léir
+Mar tús ar m'óráid anocht, is mian liom cúpla focal a rá faoin Onórach Adrian Hardiman
+Ba chúis mhór bhróin dom é nuair a chuala mé gur bhásaigh an tOnórach Hardiman ar maidin
+Bhí sé ar dhuine de hintinní dlíthúla móra ár linne
+Bhí sé ina chosantóir paiseanta ar chearta teanga, ar chearta an duine agus ar saoirse daoine aonair
+Ina bhreithiúnas i gcás 2001 Ó Beoláin v Fahy labhair sé faoin deacracht a bhíonn ag dlíthí agus a ndlíodóirí idirghníomhú a dhéanamh leis an córas dlí, áit a rinne sé tagairt don
+Sa chás sin, rinne sé an phointe go raibh an Stát ag teacht salach ar a dhualgas bunreachtúil féin i leith na teanga
+Thar rud ar bith eile is tírghráthóir agus Éireannach an-mhórtasach ba ea é an tOnórach Hardiman, a chaith a shaol ag obair ar son na tíre
+Is mór an chailliúint é don dlí agus d'Éire i gcoitinne
+Is mian lion cású lena bhean chéile Yvonne Murphy, lena pháistí agus lena mhuintir i gcoitinne
+Ar dheis lámh Dé go raibh a anam dílis
+Is mór an phribhléid domsa tús oifigiúil a chur le Comhdháil Chumann Idirnáisiúnta na gCoimisinéirí Teanga anseo tráthnóna san ionad ársa seo in Ollscoil na hÉireann, Gaillimh agus gabhaim buíochas le lucht eagraithe na Comhdhála as an gcuireadh é sin a dhéanamh
+Cuirim fearadh na fáilte romhaibh go léir, go háirithe sibhse a thaistil achar fada le bheith linn agus tá súil agam go mbainfidh sibh tairbhe agus taitneamh as bhur gcuid ama linn anseo i gCathair na dTreabh 
+Cuirim fáilte ar leith roimh na Coimisinéirí Teanga ón iliomad tíortha ar fud an domhain atá tagtha chun a gcuid taithí agus saineolais a roinnt le chéile le linn na Comhdhála:
+Is ceiliúradh é an chomhdháil seo ar an éagsúlacht mhór teangacha atá ar fud an domhain agus ar an gcultúr agus an fhéiniúlacht ar leithligh a ghineann an éagsúlacht sin
+Ar an drochuair, tá go leor de theangacha an domhain i mbaol a gcaillte mar gheall ar fhás leanúnach na mórtheangacha i ngach gné dár saol 
+Tá brú ollmhór dá réir ar thíortha agus ar phobail atá ar a ndícheall ag iarraidh go mbeidh stádas, feidhm agus todhchaí ag a dteangacha dúchais in ainneoin rabharta an domhandaithe atá mórthimpeall orainn
+Déanann an dochtúir James McCloskey, as Doire ó dhúchas agus atá ina Ollamh le Teangeolaíocht in Ollscoil Chalifornia, Santa Cruz, cur síos ar an tragóid a bhaineann le bás teanga ina leabhar Guthanna in Éag – an mairfidh an Ghaeilge beo?
+Tá na tacaíochtaí a thugtar do mhionteangacha, idir thacaíochtaí ón stát agus ón bpobal, riachtanach má tá rath agus bláth le bheith i ndán do na teangacha sin
+Sa chomhthéacs seo, tá an struchtúr comhoibritheach atá bunaithe idir na pobail teanga éagsúla trí Chumann Idirnáisiúnta na gCoimisinéirí Teanga le moladh go mór
+Is ar scáth a chéile a mhairimid agus is trí chomhoibriú lena chéile agus trí fhoghlaim óna  chéile is féidir dul chun cinn suntasach a dhéanamh chun cothromaíocht agus cearta teanga a bhaint amach agus feasacht ar na cearta sin a ardú 
+In ainneoin nach bhfuil sé ar an bhfód ach le dornán beag de bhlianta, tá obair an-fhiúntach déanta agus á déanamh ag an gCumann ar fud an domhain, agus tréaslaím libh as bhur dtiomántas agus bhur ndúthracht mar chosantóirí cearta teanga sna dlínsí éagsúla ina bhfuil sibh ag feidhmiú
+Tá clár suimiúil spreagúil curtha le chéile don Chomhdháil trí lá seo, clár a thugann deis cur agus cúiteamh a dhéanamh faoi na mórcheisteanna a bhaineann le teangacha a chosaint agus a chaomhnú
+Chomh maith le léargas a fháil faoin staid reatha maidir le reachtaíocht teanga i ndlínsí éagsúla, déanfar plé ar ghnéithe tábhachtacha eile atá lárnach do shealbhú agus d’fhorbairt mionteangacha, féiniúlacht, cultúr agus cúrsaí oideachais san áireamh
+Tá sé tráthúil go bhfuil an chomhdháil seo a heagrú mar pháirt d’Éire Dhá Mhíle agus a Sédéag ,  clár fairsing imeachtaí atá curtha le  chéile  chun comóradh 100 bliain a dhéanamh ar Éirí Amach na Cásca Naoidéag Sédéag (míle naoi gcéad a sé déag), tráth ar nascadh náisiúnachas Éireannach le gluaiseacht réabhlóideach, gluaiseacht chultúrtha agus gluaiseacht teanga sa chaoi gur cruthaíodh gluaiseacht dhochloíte féinchinntiúcháin
+Mar thoradh ar fhís agus ar idéil na glúine sin aithníodh, le bunú an stáit nua, a thábhachtaí agus a bhí sé go gcaomhnófaí an Ghaeilge mar shiombal eisiach dár bhféiniúlacht Ghaelach, mar a shamhlaigh an chéad Ollamh le Teanga agus le Litríocht na Nua-Ghaeilge in Ollscoil na hÉireann agus mo réamhtheachtaí mar chéad Uachtarán na hÉireann, Dubhghlas de hÍde
+Seo sliocht as aitheasc cáiliúil a thug sé sa bhliain Ochtdéag Nocha dó (1892) don Irish National Literary Society:
+Bhí fealsúnacht de hÍde agus a chomhleacaithe bunaithe ar an mbunphrionsabal radacach nárbh fhéidir leis an bpearsantacht Éireannach dul i mbláth i gceart agus nach mbeadh sí in ann lán a cumais a bhaint amach  de bharr na srianta agus na mbacainní a bhain leis an tsochaí a bhí ann ag an am
+Sochaí a bhí ann a cruthaíodh agus a treoraíodh den chuid ba mhó ar mhaithe leis an Ríocht seachas ar mhaithe leis na hÉireannaigh
+Cé go raibh athbheochan na teanga mar chuid lárnach den fhealsúnacht sin, ní raibh sí ach ina cuid di
+An t-idéal a bhí acu ná sochaí Ghaelach a athchruthú a bheadh oiriúnach don phobal Éireannach agus ag a mbeadh ceangal díreach lena n-oidhreacht Ghaelach
+Ba é aidhm na físe nua ná áit na bréagshochaí coilíní a líonadh
+Is feachtas fad-téarmach agus structúrtha a bhí in iarrachtaí an stáit Bhreatanach an Ghaeilge a dhíbeart ón tír
+Is cinnte, freisin, ag deireadh an naoiú hAois déag go raibh feachtas intleachtúil agus acadúil eagraithe in aghaidh Dubhghlas de hÍde agus Conradh na Gaeilge nuair a rinne siad iarracht a chur ina luí ar an Commission for Intermediate Education stadas an Ghaeilge sa churriculum scolaíochta a neartú, áit a raibh sé beagnach go hiomlán in easnamh  
+Is ó Choláiste na Tríonóide i mBaile Átha Cliath a thánaig an ionsaigh ba láidre, le John Gwynn, John P Mahaffy agus Robert Atkinson ag déanamh an argóint nach raibh luach beag nó mór ar an dteanga seachas mar ábhar acadúil, stairiúl
+Dúirt Mahaffy nach raibh aonrud i litríocht na Gaeilge, seachas b’fhéidir litríocht Creidimh,  nach raibh, ina fhocla féin, “silly or indecent”.
+Thuig Dúbhghlas de hÍde go mbeadh saoirse na tíre ag braith ar éalú ó scáth an Bhearla, i measc nithe eile, chun go mbeadh Éireannaigh, trína bhféíniúlachas, in ann a nósanna pobail féin a fhorbairt
+Tuigeadh do de hÍde, comh maith, go raibh an tsaoirse intleachtúil oideachasúil ag brath ar thacaíocht na hEorpa agus nuair a chuaigh sé os comhair Choimisiún an Oideachais ar 4 Feabhra 1899 d’úsáid sé fianaise ó scríbhneoirí agus ó scoláirí móra na hEorpa le dul i bhfeidhm ar an Choimisiún
+Céad agus seachdéag bliain níos déanaí agus táimid fós gafa le h-athbheochain na Gaeilge agus conas a h-úsáid a speagadh níos leithne i measc an pobal
+Creidim go bhfuil fís chomónta againn go léir ar suim linn ár dteangacha dhúchais a chosaint agus a fhorbairt
+Aithníonn muid na dúshláin mhóra atá le sárú ar a n-áirím: domhan atá ag athrú ar luas lasrach mar gheall ar fhorbairt na teicneolaíochta, an tionchar a imríonn cúrsaí eacnamaíocha ar gach gné dár sochaí, an claochlú mór atá tagtha ar thaisteal agus ar mhodhanna sóisialaithe, na hathruithe móra atá tagtha ar phobail de bharr imirce agus inimirce agus an tionchar a imrítear ar chúrsaí teanga dá réir 
+Má thógaimid Éire mar shampla, léiríonn Daonáireamh Dha Mhíle is a hAondéag (2011) go bhfuil céad ochtú dó (182) teanga á labhairt ar fud an stáit inniu agus is í an Ghaeilge an tríú teanga is mó a labhraítear, tar éis an Bhéarla agus na Pólainnise
+Is é an dúshlán mór atá againn ná na cúinsí a chruthú chun úsáid na Gaeilge a normalú go forleathan ionas go mbraithfidh gach duine gur féidir í a úsáid gan faitíos nó doicheall i ngach gné dá saol
+Úsáideann saineolaithe teanga slata tomhais éagsúla chun rath teanga a mheas, ina measc an tacaíocht stáit agus an tacaíocht phobail a thugtar di
+Tá an t-ádh orainn anseo in Éirinn go bhfuil an dá chritéar seo le sonrú i gcás na Gaeilge agus ní ceart dúinn bheith éadóchasach maidir le todhchaí na Gaeilge
+Ag eascairt óna stádas bunreachtúil mar theanga náisiúnta agus oifigiúil, tá cosaint tugtha don Ghaeilge san iliomad reachtaíochta a achtaíodh thar na blianta agus tá Acht na dTeangacha Oifigiúla 2003, ach go háirithe, mar chrann taca láidir aici
+Is buntáiste breise freisin ar ndóigh an t-aitheantas atá ag an Ghaeilge mar theanga oifigiúil agus oibre san Aontas Eorpach ón mbliain Dhá mhíle is a seacht
+Múintear an Ghaeilge mar chroí-ábhar sa chóras oideachais agus is cúis dóchais ar leith é an fhorbairt mhór atá tagtha ar ghluaiseacht na Gaelscolaíochta le roinnt blianta anuas
+Tá áit fheiceálach ag an Ghaeilge sna meáin chraolta, chlóite agus digiteacha; tá forbairt mhór déanta ar áiseanna foclóireachta, agus tá go leor scéimeanna tacaíochta ann chun tacú le cur chun cinn na n-ealaíon Gaeilge
+Faoin Acht um Chomhaontú na Breataine na hÉireann naoidéag nócha naoi, tá obair fhónta á cur i gcrích ag an bhForas Teanga ar bhonn uile-oileáin ag tacú leis an Ghaeilge agus leis an Ultais araon
+Is cúis dóchais é freisin an dearcadh dearfach maidir leis an Ghaeilge atá le sonrú ó shuirbhéanna éagsúla
+Léirigh torthaí suirbhé an ESRI a foilsíodh anuraidh go bhfuil méadú suntasach ar bhá an phobail leis an nGaeilge sa dá dhlínse, thuaidh agus theas
+Is comharthaí dearfacha iad seo agus is féidir tógáil orthu
+Mar atá a fhios againn go léir, tá ról criticiúil ag an stát maidir le polasaithe teanga a cheapadh agus a fhorbairt
+Chun go néireodh le polasaí teanga mar ata sé leagtha síos againn in Éireann tá sé riachtanach go mbeadh meoin dearfach agus tacaíocht so-fheicthe ó oifigigh sinsireacha sa státchóras, agus, is oth liom a rá, níl sé sin le feiceáil i gcónaí
+Ta sé mar chuspóir agam filleadh ar an gceist seo i mbliana, mar chuid de thionscnamh atá faoi bhun agam aird an Phobal a dhíriú ar chúrsaí teanga agus mo thacaíocht, mar Uachtarán na hÉireann, a léiriú don Gaeilge agus a háit i gcroílár sochaí na hÉireann sna blianta atá amach romhainn 
+Tá sé tábhachtach ról lárnach an phobail sa phróiseas a aithint freisin mar ag deireadh an lae, braitheann rathúlacht agus todhchaí teangacha ar an rogha a dhéanann pobal teanga amháin a labhairt seachas teanga eile
+Tá ról cinniúnach ag na pobail Ghaeltachta anseo in Éirinn agus ag pobail dhúchasacha mar iad i dtíortha eile ach go háirithe, mar is iad na pobail sin a chinntigh seachadadh na dteangacha dúchasacha agus a dtraidisiún ársa mar shlabhra gan briseadh leis na cianta cairbreacha
+Is trí chomhoibriú idir an stát agus an pobal is fearr gur féidir dul chun cinn a dhéanamh mar ní miste a chuimhneamh go bhfuil cultúr bunaithe ar eispéireas coitianta – rud a chothaíonn comhghuaillíocht agus a mhúnlaíonn todhchaí bunaithe ar a ndeachaigh roimhe
+Caithfear an oidhreacht sin a bhronnadh ar na glúnta atá le teacht chun a saol siúd a shaibhriú
+Is fiu focail mo chara, an tsárfhile agus buaiteoir dhuais Nobel, Séamus Heaney, a thabhairt chun cuimhne chun an gaol idir teanga, cultúr agus féiniúlacht a thuiscint níos fearr
+Ba ag caint faoin nGaeilge a bhí Séamus ach tá macalla sna seintimintí seo do na teangacha go léir a bheidh faoi chaibidil agaibh le linn na comhdhála tábhachtaí seo
+Mar fhocal scoir, ba mhaith liom an deis seo a thapú le tréaslú le hOifig an Choimisinéara Teanga agus le hOllscoil na hÉireann, Gaillimh as an chomhdháil seo a eagrú
+Gabhaim buíochas arís le Cumann Idirnáisiúnta na gCoimisinéirí Teanga as ucht cuireadh a thabhairt dom an Chomhdháil a oscailt go hoifigiúil agus as an bhfáilte chroíúil a chuir sibh romham
+Guím gach rath ar an Chomhdháil agus guím go leana bhur saothar ag dul ó neart go neart
+A Chomhaltaí den Oireachtas, agus a hIonadaithe ban ach go háirithe
+Is mór an pléisiúir dom é an deis seo a bheith agam aitheantas poiblí a thabhairt don méid a rinne mná na hÉireann le linn Éirí Amach na Cásca míle naoi gcéad a sé déag agus do ghlúiseacht na réabhlóide i gcoitinne
+Agus sinn ag teacht le chéile ar an lá speisialta seo,  Lá Idirnáisiúnta na mBan, is ceart agus is comhair dúinn gach iarracht a dhéanamh cuimhniú ar an ról a bhí ag na mná sin i mbunú na hÉireann ina bhfuilimid inár gcónaí anois
+Is ceart chomh maith go ndéanaimid macnamh, le chéile, ar an méid atá le baint amach againn fós le Éire níos cóire, níos cúramí agus níos cothraimí a thógháil
+Sa lá atá inniu ann is féidir linn a bheith bródúil as, agus ceiliúradh a dhéanamh ar dhul chun cinn na mban i sochaí na hÉireann
+Gan amhras, is é dea-scéal olltoghchán na seachtaine seo caite ná gur toghadh níos mó mná ina Teachtaí Dála na riamh cheana, 35 ban ina iomlán
+Mar Uachtarán na hÉireann, táim go mór faoi choimín ag an beirt bhan a raibh ina réamhtheachtaithe san oifig seo - na hIar-Uachtaráin Máire Mhic Róibín agus Máire Mhic Ghiolla Íosa 
+Agus a Dhaoine Óga agus a Dhaltaí Scoile ach go háirithe,
+Tugann sé ardú croí dom na mílte dalta scoile ó cheann ceann na tíre, agus a múinteoirí, a fheiceáil le chéile anseo ar fód beannaithe Pháirc an Chrócaigh
+Mar Uachtarán na hÉireann, tá áthas orm a bheith anseo chun an ócáid speicialta seo a roinnt libh, ócáid inar féidir linn smaoineamh siar ar an stair agus ar thábhacht siombailí bhunaidh an stát, Bratach na hÉireann agus Forógra Éirí Amach na Cásca míle naoi gcéad a sé déag 
+Tá súil agam go mbeidh cuimhní na hócáide shollúnta seo ag gach aon duine óg atá anseo ar maidin ina chuireadh chun ionspioráid a ghlacadh ón phaisean, ón misneach agus ó ardmhían fial na tírghráthóirí Éireannacha a tháinig romhainn, agus go dtógfaidh sibh an cúram oraibh féin Éire na todhchaí a shamhlú 
+Is mian liom a rá arís go bhfuil áthas orm an lá speicialta comóraidh agus cuimhneacháin seo a chaitheamh libh
+Tá an-tábhacht ag baint leis an stair, mar ábhar scoile agus mar bhunchloch don todhchaí
+Le tuiscint ar an stair, is féidir linn aire a thabhairt do na rudaí a fágadh againn ag na glúnta a tháinig romhainn, ár n-institiúidí, ár mbailte agus ár sráidbhailte, ár dtírdhreach agus ár dteanga álainn Gaelach
+Má thugann muid aire mhaith do na rudaí seo ar fad beidh muid in ann todhchaí níos fearr a shamhlú
+Tá fíorchaoin fáilte romhaibh ar fad chuig Áras an Uachtaráin inniu
+Is mian liom mo bhuíochas a ghabháil le bhur gCathaoirleach, Paddy O'Mahony, as scríobh chugam
+Mar Phatrún ar Chumann na hÉireann um Thrasphlandú Croí agus Scamhóige tá áthas orm an deis seo a bheith agam an dul cun cinn íontach atá déanta i máinliacht trasphlandaithe sa tír seo a cheiliúradh, agus an tacaíocht a thugann bhur gCumann d'fhaighteoirí trasphlandaithe agus lena muintir a mholadh
 
