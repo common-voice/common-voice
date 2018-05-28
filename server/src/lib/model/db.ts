@@ -383,4 +383,36 @@ export default class DB {
     );
     return row;
   }
+
+  async fillCacheColumns() {
+    await Promise.all([
+      this.mysql.query(
+        `
+          UPDATE clips
+          SET needs_votes = id IN (
+            SELECT t.id
+            FROM (
+              SELECT
+                clips.id,
+                COALESCE(SUM(votes.is_valid), 0)     AS upvotes_count,
+                COALESCE(SUM(NOT votes.is_valid), 0) AS downvotes_count
+              FROM clips
+                LEFT JOIN votes ON clips.id = votes.clip_id
+              GROUP BY clips.id
+              HAVING upvotes_count < 2 AND downvotes_count < 2 OR upvotes_count = downvotes_count
+            ) t
+          )
+        `
+      ),
+      this.mysql.query(
+        `
+          UPDATE sentences SET clips_count = (
+            SELECT COUNT(clips.id)
+            FROM clips
+            WHERE original_sentence_id = sentences.id OR sentence = sentences.text
+          )
+        `
+      ),
+    ]);
+  }
 }
