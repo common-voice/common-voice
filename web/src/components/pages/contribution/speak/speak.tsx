@@ -257,7 +257,19 @@ class SpeakPage extends React.Component<Props, State> {
     this.setState({ rerecordIndex: null });
   };
 
-  private handleSkip = () => {};
+  private handleSkip = () => {
+    const { removeSentences, sentences } = this.props;
+    const { clips } = this.state;
+    removeSentences([clips[this.getRecordingIndex()].sentence.id]);
+    this.setState({
+      clips: clips.map(
+        (clip, i) =>
+          this.getRecordingIndex() === i
+            ? { recording: null, sentence: sentences.slice(SET_COUNT)[0] }
+            : clip
+      ),
+    });
+  };
 
   private handleSubmit = async () => {
     // await this.ensurePrivacyAgreement();
@@ -303,17 +315,19 @@ class SpeakPage extends React.Component<Props, State> {
         }
         instruction={props =>
           recordingError ? (
-            <div className="error"><Localized
-              id={
-                'record-error-' +
-                {
-                  [RecordingError.TOO_SHORT]: 'too-short',
-                  [RecordingError.TOO_LONG]: 'too-long',
-                  [RecordingError.TOO_QUIET]: 'too-quiet',
-                }[recordingError]
-              }
-              {...props}
-            /></div>
+            <div className="error">
+              <Localized
+                id={
+                  'record-error-' +
+                  {
+                    [RecordingError.TOO_SHORT]: 'too-short',
+                    [RecordingError.TOO_LONG]: 'too-long',
+                    [RecordingError.TOO_QUIET]: 'too-quiet',
+                  }[recordingError]
+                }
+                {...props}
+              />
+            </div>
           ) : (
             <Localized
               id="record-instruction"

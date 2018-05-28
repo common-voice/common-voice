@@ -24,7 +24,6 @@
     @media (--lg-up) {
         position: initial;
         justify-content: initial;
-        padding-top: 20px;
         overflow: visible;
     }
 
@@ -158,8 +157,7 @@
             width: 100%;
 
             @media (--md-up) {
-                height: 45vh;
-                max-height: 429px;
+                height: 43vh;
             }
         }
 
