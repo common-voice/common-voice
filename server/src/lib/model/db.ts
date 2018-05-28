@@ -409,7 +409,7 @@ export default class DB {
           UPDATE sentences SET clips_count = (
             SELECT COUNT(clips.id)
             FROM clips
-            WHERE original_sentence_id = sentences.id OR sentence = sentences.text
+            WHERE original_sentence_id = sentences.id
           )
         `
       ),
