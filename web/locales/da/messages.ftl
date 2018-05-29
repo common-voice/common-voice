@@ -17,6 +17,7 @@ audio-loading-error = Undskyld! Vi behandler vores lydfiler, prøv igen om lidt.
 ## Languages
 
 bn = Bengalsk
+br = Bretonsk
 ca = Catalansk
 cs = Tjekkisk
 cv = Tjuvasjisk
