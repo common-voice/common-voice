@@ -219,9 +219,11 @@ record-platform-not-supported-desktop = Auf Desktop-Computern können Sie die ne
 record-platform-not-supported-ios = <bold>iOS</bold>-Nutzer können unsere App kostenlos herunterladen:
 record-must-allow-microphone = Sie müssen den Mikrofon-Zugriff zulassen.
 record-retry = Erneut versuchen
+record-no-mic-found = Kein Mikrofon gefunden.
 record-error-too-short = Die Aufnahme war zu kurz.
 record-error-too-long = Die Aufnahme war zu lang.
 record-error-too-quiet = Die Aufnahme war zu leise.
+record-error-no-mic = Die Aufnahme war zu leise.
 record-submit-success = Senden erfolgreich! Aufnehmen wiederholen?
 record-help = Bitte drücken Sie auf Aufnehmen und lesen Sie dann den oberen Satz laut vor.
 record-cancel = Erneute Aufnahme abbrechen
@@ -260,7 +262,6 @@ contact-required = *erforderlich
 ## Request Language Modal
 
 request-language-title = Sprachanfrage
-request-language-cancel = Formular verlassen
 request-language-form-language =
     .label = Sprache
 request-language-success-title = Sprachanfrage erfolgreich abgesendet, vielen Dank.
