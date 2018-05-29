@@ -974,7 +974,7 @@ Is mór an dúshlán é teanga a chur faoi chois, agus is mór an dúshlán fós
 Cé go bhfuil sé deacair é a shamhlú, bhí ceithre mhilliún cainteoir Gaeilge ann in Éirinn dhá chéad bliain ó shin, ag tús an naoiú aois déag
 Thit líon na ndaoine in Éirinn go tobaisteach thar chaitheamh na mblianta agus b'iad muintir na Gaeilge ba mheasa a buaileadh
 Céad bhliain ó shin, de bharr tionchar an Ghorta Mhór and polasaithe an Rialtais i leith an oideachais agus na heisimirce, agus toisc go raibh an smaoineamh ann ag an am gur cheart an Béarla a úsáid i gcúrsaí gnó, dlí agus go forleathan i gcúrsaí creidimh, ní raibh ach leathmhilliún Éireannach ag maíomh go raibh cumas sa Ghaeilge acu
-Sna cúinsí sin, is dea-scéala é, sa lá atá inniu ann, go bhfuil 2 mhilliún duine in Éirinn díobh ag maíomh go bhfuil cumas sa Ghaeilge - ach an dúshlán atá romhainn anois ná na daoine sin a spreagadh len í a úsáid
+Sna cúinsí sin, is dea-scéala é, sa lá atá inniu ann, go bhfuil dhá mhilliún duine in Éirinn díobh ag maíomh go bhfuil cumas sa Ghaeilge - ach an dúshlán atá romhainn anois ná na daoine sin a spreagadh len í a úsáid
 Cuireann sé gliondair i mo chroí nuair a bhuailim le páistí, le tuismitheoirí agus le múinteoirí cosúil libhse atá ag treabhadh i ngort na Gaeilge
 Tá lucht na Gaeilge ag tabhairt faoin athbheochan anois le nach mór céad fiche cúig bliain, ach níl san am sin i saolré teanga ach faiteadh na súlLe blianta anuas ta borradh tagtha ar líon na bpáistí, cosúil libhse, atá ag freastal ar scoileanna lán Ghaelach
 Is láidir an bunús í sin don todhchaí
@@ -1089,7 +1089,7 @@ Is mór an pléisiúir dom é an deis seo a bheith agam aitheantas poiblí a tha
 Agus sinn ag teacht le chéile ar an lá speisialta seo,  Lá Idirnáisiúnta na mBan, is ceart agus is comhair dúinn gach iarracht a dhéanamh cuimhniú ar an ról a bhí ag na mná sin i mbunú na hÉireann ina bhfuilimid inár gcónaí anois
 Is ceart chomh maith go ndéanaimid macnamh, le chéile, ar an méid atá le baint amach againn fós le Éire níos cóire, níos cúramí agus níos cothraimí a thógháil
 Sa lá atá inniu ann is féidir linn a bheith bródúil as, agus ceiliúradh a dhéanamh ar dhul chun cinn na mban i sochaí na hÉireann
-Gan amhras, is é dea-scéal olltoghchán na seachtaine seo caite ná gur toghadh níos mó mná ina Teachtaí Dála na riamh cheana, 35 ban ina iomlán
+Gan amhras, is é dea-scéal olltoghchán na seachtaine seo caite ná gur toghadh níos mó mná ina Teachtaí Dála na riamh cheana
 Mar Uachtarán na hÉireann, táim go mór faoi choimín ag an beirt bhan a raibh ina réamhtheachtaithe san oifig seo - na hIar-Uachtaráin Máire Mhic Róibín agus Máire Mhic Ghiolla Íosa 
 Agus a Dhaoine Óga agus a Dhaltaí Scoile ach go háirithe,
 Tugann sé ardú croí dom na mílte dalta scoile ó cheann ceann na tíre, agus a múinteoirí, a fheiceáil le chéile anseo ar fód beannaithe Pháirc an Chrócaigh
