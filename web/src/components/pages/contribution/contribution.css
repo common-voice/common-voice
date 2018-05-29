@@ -47,6 +47,7 @@
 
         & .text {
             margin-left: 10px;
+            font-size: 12px;
             font-weight: normal;
             font-style: italic;
 
@@ -249,6 +250,7 @@
         }
 
         & .inner {
+            position: relative;
             width: auto;
             display: flex;
             align-items: center;
@@ -397,6 +399,29 @@
                 display: initial !important;
                 height: 46px;
             }
+        }
+    }
+
+    & .review-instructions {
+        font-style: italic;
+
+        @media (--sm-down) {
+            margin-bottom: 20px;
+            max-width: 120px;
+            text-align: center;
+            font-size: 12px;
+        }
+
+        @media (--md-up) {
+            position: absolute;
+            right: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            font-size: 32px;
+            width: 338px;
+            text-align: right;
+            padding-right: 40px;
         }
     }
 }

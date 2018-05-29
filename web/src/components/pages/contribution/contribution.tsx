@@ -172,18 +172,11 @@ class ContributionPage extends React.Component<Props, State> {
                   </div>
                 )}
                 {this.isDone && (
-                  <Localized id="review-instruction">
-                    <div
-                      className="hidden-md-up"
-                      style={{
-                        marginBottom: 20,
-                        maxWidth: 120,
-                        textAlign: 'center',
-                        fontStyle: 'italic',
-                        fontSize: 12,
-                      }}
-                    />
-                  </Localized>
+                  <div className="review-instructions">
+                    <Localized id="review-instruction">
+                      <span />
+                    </Localized>
+                  </div>
                 )}
                 {pills.map((pill, i) =>
                   pill({
