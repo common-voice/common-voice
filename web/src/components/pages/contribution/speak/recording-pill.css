@@ -22,5 +22,17 @@
         &:first-of-type {
             border-left: none;
         }
+
+        &.play:hover path {
+            fill: var(--valid-green);
+        }
+
+        &.redo:hover path {
+            fill: var(--red);
+        }
+
+        &.share:hover path {
+            fill: var(--blue);
+        }
     }
 }

@@ -44,7 +44,7 @@
             height: 88px;
         }
 
-        & img {
+        & svg {
             height: 24px;
 
             @media (--md-up) {

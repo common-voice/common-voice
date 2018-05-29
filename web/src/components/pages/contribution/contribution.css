@@ -48,6 +48,7 @@
         & .text {
             margin-left: 10px;
             font-weight: normal;
+            font-style: italic;
         }
 
         &.done {
@@ -55,10 +56,6 @@
             border-radius: 29px;
             padding: 7px 20px 7px 7px;
             border: 2px solid var(--grey);
-
-            & .text {
-               font-style: italic;
-            }
         }
     }
 
@@ -136,7 +133,7 @@
             margin-bottom: 20px;
         }
 
-        & img {
+        & svg {
             display: none;
             margin: 0 10px;
             width: 24px;
