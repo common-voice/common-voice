@@ -225,9 +225,11 @@ record-platform-not-supported-desktop = Ar gyfrifiaduron bwrdd gwaith, gallwch l
 record-platform-not-supported-ios = Gall defnyddwyr <bold>iOS</bold> lwytho i lawr ein ap am ddim:
 record-must-allow-microphone = Rhaid i chi ganiatáu mynediad i'r meicroffon.
 record-retry = Ceisio eto
+record-no-mic-found = Heb ganfod meicroffon.
 record-error-too-short = Roedd y recordiad yn rhy fyr.
 record-error-too-long = Roedd y recordiad yn rhy hir.
 record-error-too-quiet = Roedd y recordiad yn rhy dawel.
+record-error-no-mic = Roedd y recordiad yn rhy dawel.
 record-submit-success = Llwyddiant wrth gyflwyno! Eisiau recordio eto?
 record-help = Tapiwch i recordio, yna darllenwch y frawddeg uchod allan.
 record-cancel = Diddymu Ail-recordio
@@ -266,7 +268,6 @@ contact-required = *angenrheidiol
 ## Request Language Modal
 
 request-language-title = Cais am Iaith
-request-language-cancel = Gadael y Ffurflen
 request-language-form-language =
     .label = Iaith
 request-language-success-title = Mae'r cais am iaith wedi ei gyflwyno'n llwyddiannus, diolch.
