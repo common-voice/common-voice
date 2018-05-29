@@ -17,6 +17,7 @@ audio-loading-error = Ymddiheuriadau! Rydym yn prosesu ein ffeiliau sain, ceisiw
 ## Languages
 
 bn = Bengaleg
+br = Llydaweg
 ca = Catalaneg
 cs = Tsiec
 cv = Chuvash
