@@ -14,7 +14,9 @@ interface Props {
   onRequestClose?: (event?: MouseEvent | KeyboardEvent) => any;
 }
 
-export const ModalButtons = (props: any) => <div className="buttons" {...props}/>;
+export const ModalButtons = (props: any) => (
+  <div className="buttons" {...props} />
+);
 
 export default ({
   buttons,

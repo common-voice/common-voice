@@ -126,8 +126,10 @@ class SpeakPage extends React.Component<Props, State> {
     }
   }
 
-  componentWillUnmount() {
+  async componentWillUnmount() {
     document.removeEventListener('visibilitychange', this.releaseMicrophone);
+    if (!this.isRecording) return;
+    await this.audio.stop();
   }
 
   private get isRecording() {
