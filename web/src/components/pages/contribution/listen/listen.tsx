@@ -8,6 +8,8 @@ import { User } from '../../../../stores/user';
 import {
   CheckIcon,
   CrossIcon,
+  OldPlayIcon,
+  PlayIcon,
   ThumbsDownIcon,
   ThumbsUpIcon,
   VolumeIcon,
@@ -183,9 +185,26 @@ class ListenPage extends React.Component<Props, State> {
         />
         <ContributionPage
           activeIndex={clipIndex}
-          instruction={props => (
-            <Localized id="record-instruction" {...props} />
-          )}
+          instruction={props =>
+            activeClip &&
+            !isPlaying &&
+            !hasPlayedSome &&
+            !hasPlayed && (
+              <Localized
+                id={
+                  clipIndex === SET_COUNT - 1
+                    ? 'listen-last-time-instruction'
+                    : [
+                        'listen-instruction',
+                        'listen-again-instruction',
+                        'listen-3rd-time-instruction',
+                      ][clipIndex] || 'listen-again-instruction'
+                }
+                playIcon={<OldPlayIcon />}
+                {...props}
+              />
+            )
+          }
           isSubmitted={isSubmitted}
           onSkip={this.handleSkip}
           primaryButtons={

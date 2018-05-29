@@ -58,12 +58,18 @@ export default class RecordingPill extends React.Component<Props, State> {
               ref={this.audioRef}
             />
             {this.state.isPlaying ? (
-              <button className="play" type="button" onClick={this.toggleIsPlaying}>
+              <button
+                className="play"
+                type="button"
+                onClick={this.toggleIsPlaying}>
                 <StopIcon />
               </button>
             ) : (
               <React.Fragment>
-                <button className="play" type="button" onClick={this.toggleIsPlaying}>
+                <button
+                  className="play"
+                  type="button"
+                  onClick={this.toggleIsPlaying}>
                   <PlayOutlineIcon />
                 </button>
                 <button className="redo" type="button" onClick={onRerecord}>

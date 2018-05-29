@@ -9,7 +9,7 @@ import API from '../../../../services/api';
 import { trackRecording } from '../../../../services/tracker';
 import URLS from '../../../../urls';
 import { LocaleLink } from '../../../locale-helpers';
-import { FontIcon, MicIcon } from '../../../ui/icons';
+import { CheckIcon, FontIcon, MicIcon, StopIcon } from '../../../ui/icons';
 import { getItunesURL, isFirefoxFocus, isNativeIOS } from '../../../../utility';
 import AudioIOS from '../../record/audio-ios';
 import AudioWeb, { AudioInfo } from '../../record/audio-web';
@@ -329,8 +329,18 @@ class SpeakPage extends React.Component<Props, State> {
             </div>
           ) : (
             <Localized
-              id="record-instruction"
+              id={
+                this.isRecording
+                  ? 'record-stop-instruction'
+                  : recordingIndex === SET_COUNT - 1
+                    ? 'record-last-instruction'
+                    : ['record-instruction', 'record-again-instruction'][
+                        recordingIndex
+                      ] || 'record-again-instruction2'
+              }
+              checkIcon={<CheckIcon />}
               recordIcon={<MicIcon />}
+              stopIcon={<StopIcon />}
               {...props}
             />
           )

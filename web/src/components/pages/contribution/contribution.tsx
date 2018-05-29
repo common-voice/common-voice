@@ -133,7 +133,7 @@ class ContributionPage extends React.Component<Props, State> {
               {instruction({
                 $actionType: getString('action-click'),
                 children: <div className="instruction hidden-sm-down" />,
-              })}
+              }) || <div className="instruction hidden-sm-down" />}
 
               <div className="cards">
                 {sentences.map((sentence, i) => {

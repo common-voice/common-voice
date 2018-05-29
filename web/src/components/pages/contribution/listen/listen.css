@@ -5,6 +5,14 @@
 }
 
 .contribution.listen {
+    & .instruction svg {
+        max-height: 20px;
+
+        & path {
+            fill: var(--valid-green);
+        }
+    }
+
     & .pill {
         @media (--sm-down) {
             &.valid .num {
