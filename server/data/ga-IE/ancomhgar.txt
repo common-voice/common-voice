@@ -1,507 +1,403 @@
-Ceacht a hAon
-An chéad cheacht
-Ceacht a Dó
-An dara ceacht
-Ceacht a Trí
-An tríú ceacht
-Ceacht a Ceathair
-An ceathrú ceacht
-Ceacht a Cúig
-An cúigiú ceacht
-Fáinne deas
-Bord beag
-Bord mór
-Bróg bheag
-Bróg mhór
-Fear mór
-Bean bheag
-Leabhar bán
-Leabhar dubh
-Leabhar gorm
-Leabhar dearg
-Leabhar buí
-Balla ard
-Balla íseal
-Garsún láidir
-Garsúin laga
-Cailín deas donn
-Capall buí
-Capall donn
-Capall dubh
-Fuarma fada
-Binse ghearr
-Méar fhada
-An fáinne deas
-An bord beag
-An bord mór
+A haon a chlog
+Ag an bhfuinneog
+Ag an doras
+Ag an ngeata
+Ag an scoil
+Ag an tine
+Agus an mbeidh sé i gCill Airne amárach
+Agus cad é an dath atá air
+An Balla ard
+An ar an mbord atá an bosca anois, a Sheáin
+An ar an mbord atá an chathaoir
+An balla ard é seo
+An balla ard é sin
+An balla íseal
+An bhean bheag
+An bhfeiceann tusa an leabhar dubh seo i mo láimh agam, a Shíle
+An bhfeiceann tú an leabhar eile seo
+An bhfeiceann tú an leabhar seo, a Chormaic
+An bhfeiceann tú aon ní eile ar an mbinse
+An bhfeiceann tú é
+An bhfuil Seán agus Nóra anseo
+An bhfuil Séamus agus Seán ag an doras
+An bhfuil a deartháir sa bhaile leis
+An bhfuil a fhios agat cá bhfuil an chailc
+An bhfuil a fhios agatsa, a Cháit
+An bhfuil a fhios agatsa, a Phádraig
+An bhfuil a mbróga ar na buachaillí
+An bhfuil a mbróga orthu
+An bhfuil an bosca ag an doras, a Thomáis
+An bhfuil an bosca ar an mbord
+An bhfuil an chailc agat, A Bhríde
+An bhfuil an chathaoir ag an tine, a Shíle
+An bhfuil an leabhar ar an gcathaoir
+An bhfuil an leabhar buí ar an mbord, a Dhomhnaill
+An bhfuil an leabhar dearg ar an mbord
+An bhfuil an leabhar dearg ar an urlár, a Mhichíl
+An bhfuil an mála agat, a Bhriain
+An bhfuil an mála ar an urlár
+An bhfuil aon leabhar agat anois
+An bhfuil aon leabhar buí agat
+An bhfuil aon ní ar an urlár
+An bhfuil bhur leabhair agaibh go léir, a bhuachaillí
+An bhfuil bhur mbróga oraibh
+An bhfuil cailín deas ag an tine
+An bhfuil cóta bán air
+An bhfuil cóta mór ort
+An bhfuil do chárta beag ar an mbord, a Mhichíl
+An bhfuil do dheartháir anseo, a Dhiarmaid
+An bhfuil do dheartháir féin ar scoil inniu
+An bhfuil do leabhar agat, a Sheáin
+An bhfuil do leabhar féin agat
+An bhfuil do pheannsa sa bhaile, a Shíle
+An bhfuil fáinne ar a hordóg
+An bhfuil fáinne ar an urlár
+An bhfuil hata uirthi
+An bhfuil leabhar eile agat
+An bhfuil mála ar an urlár
+An bhfuil na cailíní ag an tine
+An bhfuil peann ag Nóra
+An bhfuil peann agat
+An bhfuil peann agatsa, a Sheáin
+An bhfuil peann ina lámh ag Séamus
+An bhfuil sé a trí a chlog fós
+An bhfuil sí anseo inniu
+An bhfuil sí ar scoil inniu
+An bhinnse ghearr
 An bhróg bheag
 An bhróg mhór
-An fear mór
-An bhean bheag
-An leabhar bán
-An leabhar dubh
-An Balla ard
-An balla íseal
-An garsún láidir
+An bord beag
+An bord mór
 An cailín deas donn
 An capall buí
 An capall dubh
+An ceathrú ceacht
+An ceathrú ceacht déag
+An chéad cheacht
+An cúigiú ceacht
+An dara ceacht
+An dara ceacht déag
+An deichiú ceacht
+An fear mór
 An fuarma fada
-An bhinnse ghearr
+An fáinne deas
+An garsún láidir
+An leabhar bán
+An leabhar dearg é seo, leis
+An leabhar dubh
+An leabhar gorm é sin, a Bhriain
+An leabhar seo
+An leabhar sin
+An leatsa an leabhar atá ag Seán Ó Murchú, a Bhriain
+An leatsa an leabhar sin
+An leatsa an leabhar sin agat, a Mhichíl
+An mbeidh Dónall ó Laoire anseo
+An mbeidh do dheirfiúr anseo
+An mbeidh siad ag obair anocht
+An mbeidh sé anseo amárach
+An mbeidh tú féin ar scoil amárach
+An mbeidh tú féin i gCill Airne
 An mhéar fhada
+An naoú ceacht
+An rabhadar go léir ag obair
+An raibh Diarmaid ag obair
+An raibh aon ní eile agat
+An raibh aon tae agat
+An raibh do bhricfeasta agat
+An raibh do dhinnéir agat fós, a Dhonnchaidh
+An raibh na cailíní ag obair
+An raibh sibh
+An raibh sibh go léir ar scoil inné
+An raibh sé ar scoil inné
+An raibh sé i gCorcaigh inné
+An raibh tú ag caint le Mícheál
+An seachtú ceacht
+An séú ceacht
+An t-aonú ceacht déag
+An t-ochtú ceacht
+An tríú ceacht
+An tríú ceacht déag
+Ar an bhfear
+Ar an bhfuarma
+Ar an gcailín
+Ar an gcapall
+Ar an gcasóg
+Ar an gcathaoir
+Ar an gcluais
+Ar an gcois
+Ar an gcóta
+Ar an leabhar
+Ar an lámh
+Ar an lúidín
+Ar an mballa
+Ar an mbinse
+Ar an mbord
+Ar an mbosca
+Ar an mbróg
+Ar an mbóthar
+Ar an mála
+Ar an méar
+Ar an ngarsún
+Ar an ordóg
+Ar an urlár
+Ar an éadach
+Beidh Máire ar scoil Dé hAoine
+Beidh Nora ar scoil leis
+Beidh mála eile aige amárach
+Beidh mé, beimid go léir ar scoil
+Beidh na cailíní go léir agus na buachaillí go léir ar scoil amárach
+Beidh sé ar scoil amárach
+Beidh sé sa bhaile
+Beidh sí sa bhaile
+Bhí Eibhlín i gCorcaigh inné, ach tháinig sí abhaile inniu, agus beidh sí ar scoil amárach
+Bhí Máire Ní Cheallaigh anseo inné, ach níl sí anseo inniu
+Bhí Seán Ó Gríofa anseo ar a dó a chlog, ach níl sé anseo anois
+Bhí Séamus sa bhaile
+Bhí arán agus im agam
+Bhí leabhar buí agam an lá faoi dheireadh, ach níl sé agam anois
+Bhí leite agus bainne agam
+Bhí mé ag caint le Seán Ó Seaghdha inné, agus dúirt sé go raibh leabhar nua aige
+Bhí mé féin ag caint leis
+Bhí sé ag obair
+Bhí sé ag obair inné
+Bhí sé ag teacht abhaile
+Bhí sé anseo Dé Domhnaigh
+Bhí sé anseo inné, agus bhí mála aige
+Bhí sé i gCill Airne
+Bhí sé sa bhaile
+Bhí sí ar scoil Dé Céadaoin, ach níl sí ar scoil inniu
+Bhí tae ag Síle
+Bhí, ach níl sé ar scoil inniu agus ní bheidh sé ar scoil amárach
+Bhí, go deimhin
+Bhíodar go deimhin
+Bhíodar go leir ag caint
+Bhíodar, agus bhíomar féin ag obair anseo
+Bosca mór, an ea
+Cad a bhí agat
+Cad a chlog anois é
+Cad atá ar a ceann
+Cad atá ar an mbinse anois, a Bhriain
+Cad deir Seán Ó Tuama
+Cad eile a bhí agat
+Cad tá ar an mbinse anois
+Cad é an dath atá air
+Cad é an dath atá ar an mballa sin
+Cad é an dhath atá ar an leabhar atá agat
+Cad é an rud é sin
+Cailín deas donn
+Cathain a bheidh sé anseo
+Cathain a bhí sé anseo
+Ceacht a Ceathair
+Ceacht a Cúig
+Ceacht a Dó
+Ceacht a Seacht
+Ceacht a Sé
+Ceacht a Trí
+Ceacht a ceathair déag
+Ceacht a deich
+Ceacht a dó dhéag
+Ceacht a hAon
+Ceacht a hOcht
+Ceacht a haon déag
+Ceacht a naoi
+Ceacht a trí déag
+Ceapann sé anois gur leis féin an dá cheann acu
+Conas atá Eibhlín
+Conas atá siad go léir sa bhaile
+Conas atá sé
+Conas atá sí
+Conas atá tú, a Thaidhg
+Cuir an bosca ar an mbord, a Dhiarmaid
+Cuir an chailc seo ar an mbord
+Cuir an leabhar seo ar an mbord, a Mháire
+Cuir na leabhair seo ar an mbord
+Cuirigí na leabhair go léir ar an mbord
+Cá bhfuil Liam, a Phádraig
+Cá bhfuil an chathaoir
+Cá bhfuil an leabhar dubh, a Mháire
+Cá bhfuil an mála dearg
+Cá bhfuil do dheartháir, a Thaidhg
+Cá bhfuil do dheirfiúr, a Thomáis
+Cá bhfuil do pheann
+Cá bhfuil siad
+Cá bhfuil sé
+Cá bhfuil sé inniu
+Cá bhfuil sé, a Mhichíl
+Cá bhfuil sí, a Shíle
+Cá mbeidh siad amárach
+Cá mbeidh sé
+Cá mbeidh sí
+Cá raibh sé
+Cé leis an leabhar seo
+Cé leis an leabhar sin
+Cé leis é
+Deir Pádraig gur le Seán ceann acu, ach gur le Máire Ní Fhoghlú an ceann eile
+Deir Seán anois go bhfuil leabhar buí aige inniu, agus nach raibh aon leabhar buide aige inné
+Deir Seán ó Tuama go bhfuil leabhar dearg ar an mbord, agus deir sé gur leis féin an leabhar sin
+Deir Séamus go mbeidh siad i gCill Airne
+Deir Tomás Ó Ceallaigh nach leis é
+Do bhí Maighréad anseo inné agus do bhí leabhar aici
+Do chárta beag
+Dúirt sé le Pádraig Ó Dálaigh go raibh an dá leabhar aige inné
+Dún an doras, a Mhichíl, más é do thoil é
+Dún do leabhar anois
+Dúnaigí go léir bhur leabhair arís
+Feicim fear ar an mbóthar
+Feicim, a bhean uasal
+Feicim, a dhuine uasail
+I gCill Airne
+Is ar, a dhuine uasail
+Is bosca é seo
+Is le Máire Ní Fhoghlú é, ach is le Seán an leabhar dearg eile sin atá ar an mbinse
+Is le Mícheál Ó Tuama é
+Is liom, a bhean uasal
+Is liom, a dhuine uasail
+Is léi féin an leabhar a bhí aici
+Leabhar dearg is ea é sin, agus leabhar bán is ea é seo
+Léigh ceacht a cúig a Chormaic
+Mo mhála mór
+Na binsí gearra
 Na boird bheaga
 Na boird mhóra
 Na bróga beaga
 Na bróga móra
-Na fáinní deasa
-Na fuarmaí fada
-Na binsí gearra
-Na méireanna fada
-Na cailíní beaga
 Na buachaillí beaga
-Ceacht a Sé
-An séú ceacht
-Ag an doras
-Ar an mballa
-Ar an urlár
-Ar an mbord
-Faoin mbord
-Ar an mbróg
-Ar an mbosca
-Ar an lúidín
-Ar an ordóg
-Ar an méar
-Ag an bhfuinneog
-Ar an bhfear
-Ar an gcois
-Ar an éadach
-Faoin ngarsún
-Faoin gcailín
-Ar an gcapall
-Faoin gcapall
-Ag an tine
-Ar an bhfuarma
-Ar an mbinse
-Ar an ngarsún
-Ar an gcailín
-Ar an leabhar
-Faoin leabhar
-Ag an ngeata
-Ar an mála
-Ar an gcasóg
-Ar an lámh
-Ar an gcóta
-Ar an mbóthar
-Ag an scoil
-Ar an gcathaoir
-Faoin gcathaoir
-Ar an gcluais
-Ceacht a Seacht
-An seachtú ceacht
-Tá an chathaoir ag an doras
-An bhfuil an bosca ag an doras, a Thomáis
-Níl, a dhuine uasail
-Nach bhfuil
-Níl
-Cá bhfuil sé
-Tá sé ar an mbord.
-An bhfuil an chathaoir ag an tine, a Shíle
-Níl, a dhuine uasail, tá sí ag an doras
-Níl, a bhean uasal, tá sí ag an doras
-Cá bhfuil an leabhar dubh, a Mháire
-Tá sé ar an mbord
-An bhfuil an leabhar dearg ar an mbord
-Tá
-Tá fear mór ag an tine, a Thaidhg, nach bhfuil
-Tá, a dhuine uasail
-An bhfuil cailín deas ag an tine
-Níl
-Tá cailín deas ag an bhfuinneog
-Tá capall donn ag an doras
-Tá na cártaí bána ar an mbinse
-Tá na cártaí gorma ar an mbord
-Tá fáinne deas ar an lúidín
-Tá fáinne ar an ordóg.
-An bhfuil fáinne ar an urlár
-Níl
-An bhfuil mála ar an urlár
-Tá
-Tá mála mór ar an urlár, agus tá mála beag ar an mbord
-Níl mála ar an gcathaoir
-Ceacht a hOcht
-An t-ochtú ceacht
-Tá cathaoir ag an doras, agus tá cathaoir eile ag an bhfuinneog anois
-Tá an chathaoir mhór ag an doras, agus tá an chathaoir bheag ag an bhfuinneog
-Níl aon leabhar ag an doras, ach tá leabhar ar an mbord
-An bhfuil an leabhar buí ar an mbord, a Dhomhnaill
-Tá, a dhuine uasail, agus an leabhar gorm agus an leabhar dubh.
-An bhfuil an leabhar dearg ar an urlár, a Mhichíl
-Níl, tá sé ar an mbord
-tá na leabhair go léir ar an mbord
-An bhfuil an bosca ar an mbord
-Níl
-Cá bhfuil sé
-Tá sé ar an gcathaoir.
-An bhfuil an leabhar ar an gcathaoir
-Níl, ach tá cárta bán ar an gcathaoir
-Tá an leabhar ar an mbinse.
-Cad atá ar an mbinse anois, a Bhriain
-An chailc
-An bhfuil an mála ar an urlár
-Tá, tá na málaí go léir ar an urlár
-Ceacht a naoi
-An naoú ceacht
-Tá cóta mór orm
-An bhfuil cóta mór ort
-Níl
-Tá Seán ag an doras
-An bhfuil cóta bán air
-Níl, tá cóta dubh air
-Tá cóta bán ar Nóra
-An bhfuil hata uirthi
-Níl, ach tá hata orm féin
-Ceacht a deich
-An deichiú ceacht
-Tá leabhar mór ag Siobhán Ní Thuama, ach níl aon pheann aici
-An bhfuil peann agatsa, a Sheáin
-Tá, a bhean uasal, agus tá leabhar agam
-Tá leabhar eile ag Mícheál Ó Foghlú, ach níl aon leabhar ag Cormac Ó Conaill
-An bhfuil an chailc agat, A Bhríde
-Níl, a bhean uasal
-An bhfuil a fhios agat cá bhfuil an chailc
-Níl
-An bhfuil a fhios agatsa, a Phádraig
-Tá, a bhean uasal, tá sí ar an mbord
-An bhfuil an mála agat, a Bhriain
-Tá, a bhean uasal
-Tá an mála buí ar an mbinse
-Cá bhfuil an mála dearg
-Níl a fhios agam
-An bhfuil a fhios agatsa, a Cháit
-Tá, a bhean uasal, tá sé faoin mbord
-Cá bhfuil Liam, a Phádraig
-Níl a fhios agam
-Nach bhfuil sé anseo
-Níl
-Ceacht a haon déag
-An t-aonú ceacht déag
-Mo mhála mór
-Tá mo mhála mór agam
-Do chárta beag
-An bhfuil do chárta beag ar an mbord, a Mhichíl
-Tá
-Tá Seán ag an doras
-Tá a pheann ar an gcathaoir
-Tá Síle ag an bhfuinneog
-Tá a mála ar an urlár
-Tá a hathair anseo
-Níl a máthair anseo
-Tá mo bhróga orm
-Tá do bhróga ort
-Tá ár mbróga orainn
-An bhfuil bhur mbróga oraibh
-Tá
-An bhfuil Séamus agus Seán ag an doras
-Tá siad
-ach níl a gcasóga orthu
-Tá bean bheag ag an doras, agus tá bróga bána uirthi
-Tá fáinne buí ar a lúidín
-An bhfuil fáinne ar a hordóg
-Níl, ach tá fáinne ar mhéar eile
-Cad atá ar a ceann
-Níl aon rud ar a ceann, ach tá hata ar mo cheannsa
-An bhfuil na cailíní ag an tine
-Tá siad
-An bhfuil a mbróga orthu
-Tá
-An bhfuil a mbróga ar na buachaillí
-Tá, agus tá stocaí orthu
-Ceacht a dó dhéag
-An dara ceacht déag
-An bhfuil bhur leabhair agaibh go léir, a bhuachaillí
-Tá leabhar agamsa, a dhuine uasail
-Cá bhfuil sé, a Mhichíl
-Tá sé i mo phóca agam
-An bhfuil peann agat
-Níl
-Cá bhfuil do pheann
-Tá sé sa bhaile
-An bhfuil do pheannsa sa bhaile, a Shíle
-Níl, a dhuine uasail
-Cá bhfuil sé
-Tá sé i mo lámh agam
-An bhfuil peann ina lámh ag Séamus
-Níl, ach tá peann ina phóca aige
-An bhfuil do dheartháir anseo, a Dhiarmaid
-Níl, a dhuine uasail
-Cá bhfuil sé
-Tá sé sa bhaile, agus tá mo dheirfiúr sa bhaile
-Tá Síle anseo, agus tá a deartháir anseo
-Tá a deirfiúr sa bhaile
-Ceacht a trí déag
-An tríú ceacht déag
-An leabhar seo
-An leabhar sin
+Na cailíní beaga
+Na fuarmaí fada
+Na fáinní deasa
 Na leabhair seo
 Na leabhair sin
-Dún an doras, a Mhichíl, más é do thoil é
-Cuir an chailc seo ar an mbord
-Cuir na leabhair seo ar an mbord
-An bhfuil do leabhar féin agat
-Tá
-Oscail é, más é do thoil é
-Osclaígí go léir bhur leabhair, a bhuachaillí
-Léigh ceacht a cúig a Chormaic
-Dún do leabhar anois
-Dúnaigí go léir bhur leabhair arís
-Cuirigí na leabhair go léir ar an mbord
+Na méireanna fada
+Nach bhfuil sé anseo
+Nach mbeidh siad
+Nach raibh an dá leabhar aige inné
+Nach raibh na buachaillí ag caint leis
+Nach raibh peann aici inné
+Nach raibh tú
+Nach tusa Tomás Ó Ceallaigh
 Ná cuir do mhála ar an mbord, a Thomáis, cuir ar an urlár é
 Ná hoscail é
-Ceacht a ceathair déag
-An ceathrú ceacht déag
-Is bosca é seo
-Tá an bosca ar an gcathaoir
-Cuir an bosca ar an mbord, a Dhiarmaid
-An ar an mbord atá an bosca anois, a Sheáin
-Is ar, a dhuine uasail
-An ar an mbord atá an chathaoir
-Ní har
-Cá bhfuil an chathaoir
-Tá sí ar an urlár
-Cuir an leabhar seo ar an mbord, a Mháire
-An leabhar gorm é sin, a Bhriain
-Ní hea, a dhuine uasail
-Nach ea
+Ní bheidh mé
+Ní bheidh siad
+Ní bheidh siad, go deimhin
+Ní bheidh siad, ní bheidh Mícheál Ó Murchú ar scoil amárach
+Ní dóigh liom go bhfuil
+Ní dóigh liom go raibh
 Ní hea go deimhin
-Agus cad é an dath atá air
-Dath dearg
-An leabhar dearg é seo, leis
-Sea
-Leabhar dearg is ea é sin, agus leabhar bán is ea é seo
-Cad é an dath atá ar an mballa sin
-Dath bán
-An balla ard é sin
-Sea
-An balla ard é seo
-Ní hea
-balla íseal is ea é sin
-Cad é an rud é sin
-Bosca
-Bosca mór, an ea
+Ní hea, a dhuine uasail
 Ní hea, ach bosca beag
-Bhí Máire Ní Cheallaigh anseo inné, ach níl sí anseo inniu.
-Cá bhfuil sí, a Shíle
-Tá sí sa bhaile, a bhean uasal.
-An bhfuil a deartháir sa bhaile leis
-Níl
-Tá sé ar scoil inniu.
-An bhfuil do dheartháir féin ar scoil inniu
-Tá
-An raibh sé ar scoil inné
-Ní raibh
-Cá raibh sé
-Bhí sé sa bhaile.
-An raibh do dhinnéir agat fós, a Dhonnchaidh
-Ní raibh
-Nach raibh
-Ní raibh.
-An raibh do bhricfeasta agat
-Bhí
-Cad a bhí agat
-Bhí leite agus bainne agam.
-An raibh aon ní eile agat
-Bhí
-Cad eile a bhí agat
-Bhí arán agus im agam
-An raibh aon tae agat
+Ní leis é
+Ní liom, is leis féin é
+Ní rabhadar, ach bhíodar ag caint
+Ní raibh mé
+Ní raibh sí ar scoil Dé Luain ná Dé Máirt
 Ní raibh, ach bhí uachtar agam
-Bhí tae ag Síle
+Níl a fhios agam
+Níl a máthair anseo
+Níl aon leabhar ag an doras, ach tá leabhar ar an mbord
+Níl aon rud ar a ceann, ach tá hata ar mo cheannsa
+Níl mála ar an gcathaoir
+Níl, a bhean uasal
+Níl, a bhean uasal, tá sí ag an doras
+Níl, a dhuine uasail
+Níl, a dhuine uasail, tá sí ag an doras
+Níl, ach bhí sí ar scoil inné
+Níl, ach tá cárta bán ar an gcathaoir
+Níl, ach tá fáinne ar mhéar eile
+Níl, ach tá hata orm féin
+Níl, ach tá peann ina phóca aige
+Níl, agus ní bheidh sí anseo amárach
+Níl, tá cóta dubh air
+Níl, tá sé ar an mbord
+Oscail é, más é do thoil é
+Osclaígí go léir bhur leabhair, a bhuachaillí
+Tá Brian ag imeacht
+Tá Seán ag an doras
+Tá Seán sa bhaile inniu
+Tá Síle ag an bhfuinneog
+Tá Síle anseo, agus tá a deartháir anseo
+Tá Tomás Ó Ceallaigh ag teacht anois
+Tá a deirfiúr sa bhaile
+Tá a hathair anseo
+Tá a mála ar an urlár
+Tá a pheann ar an gcathaoir
+Tá an bosca ar an gcathaoir
+Tá an chathaoir ag an doras
+Tá an chathaoir mhór ag an doras, agus tá an chathaoir bheag ag an bhfuinneog
+Tá an leabhar ar an mbinse
+Tá an mála buí ar an mbinse
+Tá bean bheag ag an doras, agus tá bróga bána uirthi
+Tá cailín deas ag an bhfuinneog
+Tá capall donn ag an doras
+Tá cathaoir ag an doras, agus tá cathaoir eile ag an bhfuinneog anois
+Tá cóta bán ar Nóra
+Tá cóta mór orm
+Tá do bhróga ort
+Tá fear mór ag an tine, a Thaidhg, nach bhfuil
+Tá fáinne ar an ordóg
+Tá fáinne buí ar a lúidín
+Tá fáinne deas ar an lúidín
 Tá leabhar agam, ach ní liom féin é
-An bhfuil do leabhar agat, a Sheáin
-Tá, a dhuine uasail.
-Cé leis an leabhar seo
-Is le Mícheál Ó Tuama é.
-An leatsa an leabhar sin agat, a Mhichíl
-Is liom, a dhuine uasail.
-An bhfuil leabhar eile agat
-Tá leabhar eile anseo i mo láimh agam.
-Cé leis an leabhar sin
-is le mo dheartháir é.
-An leatsa an leabhar atá ag Seán Ó Murchú, a Bhriain
-Ní liom, is leis féin é.
-Tá mála ag Síle Ní Laoire, agus is léi féin é.
-Tá peann agamsa agus tá peann agatsa agus is linn féin iad.
-Do bhí Maighréad anseo inné agus do bhí leabhar aici
-Is léi féin an leabhar a bhí aici.
-An bhfeiceann tú an leabhar seo, a Chormaic
-Feicim, a dhuine uasail
-Cad é an dath atá air
-Dath dearg
-Cé leis é
-Ní fheadar
-ní liomsa é.
-An bhfeiceann tusa an leabhar dubh seo i mo láimh agam, a Shíle
-Feicim, a bhean uasal.
-An bhfeiceann tú an leabhar eile seo
-Feicim
-An leatsa an leabhar sin
-Is liom, a bhean uasal.
-An bhfuil aon leabhar agat anois
-Tá
-Cá bhfuil sé
-Tá sé i mo póca agam.
-Cad é an dhath atá ar an leabhar atá agat
-Dath bán.
-An bhfuil aon leabhar buí agat
-Níl
-Bhí leabhar buí agam an lá faoi dheireadh, ach níl sé agam anois.
-Cad tá ar an mbinse anois
-Bosca
-Bosca mór, an ea
-Ní hea, ach bosca beag.
-An bhfeiceann tú aon ní eile ar an mbinse
-Ní fheicim
-An bhfuil aon ní ar an urlár
-Níl.
-A haon a chlog
-a dó a chlog
-a trí a chlog
+Tá leabhar agamsa, a dhuine uasail
+Tá leabhar dearg ar an mbord
+Tá leabhar eile ag Mícheál Ó Foghlú, ach níl aon leabhar ag Cormac Ó Conaill
+Tá leabhar eile anseo i mo láimh agam
+Tá leabhar mór ag Siobhán Ní Thuama, ach níl aon pheann aici
+Tá mo bhróga orm
+Tá mo mhála mór agam
+Tá mála ag Síle Ní Laoire, agus is léi féin é
+Tá mála mór ar an urlár, agus tá mála beag ar an mbord
+Tá mé féin ag dul amach, leis
+Tá mé féin go maith leis
+Tá mé go maith, buíochas le Dia, conas atá tú féin
+Tá na cártaí bána ar an mbinse
+Tá na cártaí gorma ar an mbord
+Tá peann agamsa agus tá peann agatsa agus is linn féin iad
+Tá siad sa bhaile
+Tá sé a deich a chlog
+Tá sé anseo anois
+Tá sé ar an gcathaoir
+Tá sé ar an mbord
+Tá sé ar scoil inniu
+Tá sé go maith, buíochas le Dia
+Tá sé i gCorcaigh
+Tá sé i mo lámh agam
+Tá sé i mo phóca agam
+Tá sé i mo póca agam
+Tá sé sa bhaile
+Tá sé sa bhaile, agus tá mo dheirfiúr sa bhaile
+Tá sí ar an urlár
+Tá sí go maith
+Tá sí go maith, go raibh maith agat
+Tá sí sa bhaile
+Tá sí sa bhaile, a bhean uasal
+Tá ár mbróga orainn
+Tá, a bhean uasal
+Tá, a bhean uasal, agus tá leabhar agam
+Tá, a bhean uasal, tá sé faoin mbord
+Tá, a bhean uasal, tá sí ar an mbord
+Tá, a dhuine uasail
+Tá, a dhuine uasail, agus an leabhar gorm agus an leabhar dubh
+Tá, agus tá stocaí orthu
+Tá, tá na málaí go léir ar an urlár
+Táimid go maith
 a ceathair a chlog
 a cúig a chlog
-a sé a chlog
-a seacht a chlog
+a deich a chlog
+a dó a chlog
 a hocht a chlog
 a naoi a chlog
-a deich a chlog.
-Cad a chlog anois é
-Tá sé a deich a chlog.
-An bhfuil sé a trí a chlog fós
-Níl.
-Bhí Seán Ó Gríofa anseo ar a dó a chlog, ach níl sé anseo anois.
-Tá leabhar dearg ar an mbord
-Deir Seán ó Tuama go bhfuil leabhar dearg ar an mbord, agus deir sé gur leis féin an leabhar sin
-Ní leis é.
-Cé leis é
-Ní fheadar
-Deir Tomás Ó Ceallaigh nach leis é
-Is le Máire Ní Fhoghlú é, ach is le Seán an leabhar dearg eile sin atá ar an mbinse.
-Nach raibh an dá leabhar aige inné
-Bhí, go deimhin.
-Ceapann sé anois gur leis féin an dá cheann acu
-Dúirt sé le Pádraig Ó Dálaigh go raibh an dá leabhar aige inné.
-Deir Pádraig gur le Seán ceann acu, ach gur le Máire Ní Fhoghlú an ceann eile.
-Deir Seán anois go bhfuil leabhar buí aige inniu, agus nach raibh aon leabhar buide aige inné.
-Cad deir Seán Ó Tuama
-deir sé go bhfuil leabhar buí aige.
-An bhfuil peann ag Nóra
-Ní dóigh liom go bhfuil
-Nach raibh peann aici inné
-Ní dóigh liom go raibh.
-Beidh na cailíní go léir agus na buachaillí go léir ar scoil amárach
-Ní bheidh siad, ní bheidh Mícheál Ó Murchú ar scoil amárach.
-An raibh sé ar scoil inné
-Bhí, ach níl sé ar scoil inniu agus ní bheidh sé ar scoil amárach.
-Cá bhfuil do dheartháir, a Thaidhg
-tá sé sa bhaile.
-An mbeidh sé anseo amárach
-Beidh
-Bhí sé anseo inné, agus bhí mála aige
-Beidh mála eile aige amárach.
-An mbeidh do dheirfiúr anseo
-Ní bheidh
-Cá mbeidh sí
-Beidh sí sa bhaile.
-An bhfuil sí ar scoil inniu
-Níl, ach bhí sí ar scoil inné.
-Beidh Máire ar scoil Dé hAoine
-Ní raibh sí ar scoil Dé Luain ná Dé Máirt
-Bhí sí ar scoil Dé Céadaoin, ach níl sí ar scoil inniu.
-Tá Seán sa bhaile inniu
-Conas atá sé
-Tá sé go maith, buíochas le Dia.
-Cathain a bheidh sé anseo
-Ní fheadar.
-An mbeidh sé anseo amárach
-Ní bheidh
-Cá mbeidh sé
-Beidh sé sa bhaile.
-An mbeidh Dónall ó Laoire anseo
-Beidh
-Cá bhfuil sé inniu
-Tá sé i gCorcaigh.
-An raibh sé i gCorcaigh inné
-Ní raibh
-Cá raibh sé
-Bhí sé i gCill Airne
-Cén áit
-I gCill Airne.
-Agus an mbeidh sé i gCill Airne amárach
-Ní bheidh
-beidh sé anseo.
-Cathain a bhí sé anseo
-Bhí sé anseo Dé Domhnaigh.
-Conas atá Eibhlín
-Tá sí go maith, go raibh maith agat.
-An bhfuil sí anseo inniu
-Níl, agus ní bheidh sí anseo amárach.
-Conas atá tú, a Thaidhg
-Tá mé go maith, buíochas le Dia, conas atá tú féin
-Tá mé féin go maith leis.
-An bhfuil Seán agus Nóra anseo
-Níl siad
-Cá bhfuil siad
-Tá siad sa bhaile.
-Conas atá siad go léir sa bhaile
-Táimid go maith
-beidh Seán i gCorcaigh amárach, agus beidh Nóra anseo.
-Tá Tomás Ó Ceallaigh ag teacht anois
-An bhfeiceann tú é
-Feicim fear ar an mbóthar
+a seacht a chlog
+a sé a chlog
+a trí a chlog
+ach níl a gcasóga orthu
 an é sin Tomás
-Is é
-Tá sé anseo anois.
-Nach tusa Tomás Ó Ceallaigh
-Is mé
-Cá bhfuil do dheirfiúr, a Thomáis
-Tá sí sa bhaile
-Conas atá sí
-Tá sí go maith.
-Tá Brian ag imeacht
-Tá mé féin ag dul amach, leis.
-Bhí mé ag caint le Seán Ó Seaghdha inné, agus dúirt sé go raibh leabhar nua aige
-Bhí sé ag teacht abhaile.
-An raibh tú ag caint le Mícheál
-Ní raibh mé
-Nach raibh tú
-Ní raibh mé.
-Bhí mé féin ag caint leis
-Beidh sé ar scoil amárach
-Bhí sé ag obair inné.
-An rabhadar go léir ag obair
-Bhíodar, agus bhíomar féin ag obair anseo
-An raibh sibh
-Bhíomar.
-An raibh na cailíní ag obair
-Ní rabhadar, ach bhíodar ag caint.
-Nach raibh na buachaillí ag caint leis
-Bhíodar go deimhin
-Bhíodar go leir ag caint.
-Bhí Eibhlín i gCorcaigh inné, ach tháinig sí abhaile inniu, agus beidh sí ar scoil amárach
-Beidh Nora ar scoil leis.
-An mbeidh tú féin ar scoil amárach
-Beidh mé, beimid go léir ar scoil
-An raibh sibh go léir ar scoil inné
-Ní rabhamar
-Bhí Séamus sa bhaile
-Bhí sé ag obair.
-An raibh Diarmaid ag obair
-Bhí
-An mbeidh siad ag obair anocht
-Ní bheidh siad
-Nach mbeidh siad
-Ní bheidh siad, go deimhin.
-Cá mbeidh siad amárach
-Deir Séamus go mbeidh siad i gCill Airne.
-An mbeidh tú féin i gCill Airne
-Ní bheidh mé
-ní fheadar fós cá mbeidh mé.
+balla íseal is ea é sin
+beidh Seán i gCorcaigh amárach, agus beidh Nóra anseo
+beidh sé anseo
+deir sé go bhfuil leabhar buí aige
+is le mo dheartháir é
+ní fheadar fós cá mbeidh mé
+ní liomsa é
+tá na leabhair go léir ar an mbord
+tá sé sa bhaile
