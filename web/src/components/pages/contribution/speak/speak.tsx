@@ -1,6 +1,7 @@
 import { Localized } from 'fluent-react';
 import * as React from 'react';
 import { connect } from 'react-redux';
+const NavigationPrompt = require('react-router-navigation-prompt').default;
 import ERROR_MSG from '../../../../error-msg';
 import { Recordings } from '../../../../stores/recordings';
 import StateTree from '../../../../stores/tree';
@@ -9,9 +10,9 @@ import API from '../../../../services/api';
 import { trackRecording } from '../../../../services/tracker';
 import URLS from '../../../../urls';
 import { LocaleLink } from '../../../locale-helpers';
-import Modal from '../../../modal/modal';
+import Modal, { ModalButtons } from '../../../modal/modal';
 import { CheckIcon, FontIcon, MicIcon, StopIcon } from '../../../ui/icons';
-import { TextButton } from '../../../ui/ui';
+import { Button, TextButton } from '../../../ui/ui';
 import { getItunesURL, isFirefoxFocus, isNativeIOS } from '../../../../utility';
 import AudioIOS from '../../record/audio-ios';
 import AudioWeb, { AudioInfo } from '../../record/audio-web';
@@ -271,11 +272,11 @@ class SpeakPage extends React.Component<Props, State> {
     });
   };
 
-  private handleSubmit = async () => {
+  private upload = async () => {
     // await this.ensurePrivacyAgreement();
 
     const { api, removeSentences, tallyRecording } = this.props;
-    const { clips } = this.state;
+    const clips = this.state.clips.filter(clip => clip.recording);
 
     this.setState({ clips: [], isSubmitted: true });
 
@@ -300,14 +301,37 @@ class SpeakPage extends React.Component<Props, State> {
     const recordingIndex = this.getRecordingIndex();
     return (
       <React.Fragment>
-        <Modal>
-          <Localized id="record-abort-title">
-            <h1 />
-          </Localized>
-          <Localized id="record-abort-text">
-            <p />
-          </Localized>
-        </Modal>
+        <NavigationPrompt
+          when={clips.filter(clip => clip.recording).length > 0}>
+          {({ onConfirm, onCancel }: any) => (
+            <Modal innerClassName="record-abort" onRequestClose={onCancel}>
+              <Localized id="record-abort-title">
+                <h1 className="title" />
+              </Localized>
+              <Localized id="record-abort-text">
+                <p className="text" />
+              </Localized>
+              <ModalButtons>
+                <Localized id="record-abort-submit">
+                  <Button
+                    outline
+                    rounded
+                    onClick={() => {
+                      this.upload().catch(e => console.error(e));
+                      onConfirm();
+                    }}
+                  />
+                </Localized>
+                <Localized id="record-abort-continue">
+                  <Button outline rounded onClick={onCancel} />
+                </Localized>
+              </ModalButtons>
+              <Localized id="record-abort-delete">
+                <TextButton onClick={onConfirm} />
+              </Localized>
+            </Modal>
+          )}
+        </NavigationPrompt>
         <ContributionPage
           activeIndex={recordingIndex}
           errorContent={this.isUnsupportedPlatform && <UnsupportedInfo />}
@@ -357,7 +381,7 @@ class SpeakPage extends React.Component<Props, State> {
           }
           isSubmitted={isSubmitted}
           onSkip={this.handleSkip}
-          onSubmit={this.handleSubmit}
+          onSubmit={this.upload}
           primaryButtons={
             <RecordButton
               status={recordingStatus}

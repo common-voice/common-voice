@@ -14,6 +14,8 @@ interface Props {
   onRequestClose?: (event?: MouseEvent | KeyboardEvent) => any;
 }
 
+export const ModalButtons = (props: any) => <div className="buttons" {...props}/>;
+
 export default ({
   buttons,
   children,
@@ -41,14 +43,14 @@ export default ({
         </button>
       )}
       {children}
-      <div className="buttons">
+      <ModalButtons>
         {buttons &&
           Object.keys(buttons).map(label => (
             <Button key={label} outline onClick={buttons[label] as any}>
               {label}
             </Button>
           ))}
-      </div>
+      </ModalButtons>
     </div>
   </Modal>
 );

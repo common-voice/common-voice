@@ -4,6 +4,7 @@
     padding: 0.5rem 1rem;
     min-width: 14rem;
     height: 3rem;
+    text-transform: uppercase;
     font-size: .9rem;
     font-weight: 600;
     font-family: var(--base-font-family);
@@ -24,6 +25,7 @@
     }
 
     &.outline {
+        border: solid 1px color(var(--black) alpha(20%));
         background-color: var(--white);
         color: var(--black);
     }
@@ -45,18 +47,12 @@ body:not(.mobile-safari) .button:hover,
 
 body:not(.mobile-safari) .button.outline:hover,
 .is-keyboard-focus .button.outline:focus {
-    background-color: var(--black);
-    color: var(--white);
+    border-color: black;
 }
 
 body:not(.mobile-safari) .button:hover path,
 .is-keyboard-focus .button:focus path {
     fill: var(--black);
-}
-
-body:not(.mobile-safari) .button.outline:hover path,
-.is-keyboard-focus .button:focus path {
-    fill: var(--white);
 }
 
 .button:disabled {

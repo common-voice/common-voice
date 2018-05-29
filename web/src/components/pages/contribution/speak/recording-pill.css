@@ -3,7 +3,7 @@
 .pill.recording {
     & .text {
         margin-left: 12px;
-        font-size: 12px;
+        font-size: var(--font-size-small);
         font-weight: 600;
         text-transform: uppercase;
         letter-spacing: 0.4px;

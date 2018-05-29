@@ -47,7 +47,7 @@
 
         & .text {
             margin-left: 10px;
-            font-size: 12px;
+            font-size: var(--font-size-small);
             font-weight: normal;
             font-style: italic;
 
@@ -311,7 +311,7 @@
         & .extra-button {
             display: flex;
             align-items: center;
-            font-size: 12px;
+            font-size: var(--font-size-small);
             text-decoration: underline;
             font-weight: 600 !important;
 
@@ -326,13 +326,14 @@
 
         & .button {
             &.outline {
-                border: none;
-                padding: 0;
                 min-width: auto;
-                text-transform: uppercase;
+
+                @media (--sm-down) {
+                    border: none;
+                    padding: 0;
+                }
 
                 @media (--md-up) {
-                    border: solid 1px color(var(--black) alpha(10%));
                     padding: 0 38px;
                     height: 57px;
                 }
@@ -409,7 +410,7 @@
             margin-bottom: 20px;
             max-width: 120px;
             text-align: center;
-            font-size: 12px;
+            font-size: var(--font-size-small);
         }
 
         @media (--md-up) {
@@ -423,5 +424,29 @@
             text-align: right;
             padding-right: 40px;
         }
+    }
+}
+
+.record-abort {
+    & .title {
+        margin-top: 58px;
+        margin-bottom: 10px;
+        font-size: 36px;
+        font-weight: normal;
+    }
+
+    & .text {
+        margin-bottom: 35px;
+        font-size: 20px;
+    }
+
+    & .buttons {
+        margin-bottom: 40px;
+    }
+
+    & .text-button {
+        font-size: var(--font-size-small);
+        font-weight: 600;
+        text-decoration: underline;
     }
 }
