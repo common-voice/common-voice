@@ -80,15 +80,16 @@ class ContributionPage extends React.Component<Props, State> {
               </Localized>
             </div>
 
-            {!errorContent && (
-              <div className={'counter ' + (isSubmitted ? 'done' : '')}>
-                {isSubmitted && <CheckIcon />}
-                {this.renderCounter()}
-                <Localized id="clips">
-                  <span className="text" />
-                </Localized>
-              </div>
-            )}
+            {this.isLoaded &&
+              !errorContent && (
+                <div className={'counter ' + (isSubmitted ? 'done' : '')}>
+                  {isSubmitted && <CheckIcon />}
+                  {this.renderCounter()}
+                  <Localized id="clips">
+                    <span className="text" />
+                  </Localized>
+                </div>
+              )}
           </div>
 
           {this.renderContent()}
@@ -98,10 +99,7 @@ class ContributionPage extends React.Component<Props, State> {
   }
 
   renderCounter() {
-    const { activeIndex, isSubmitted } = this.props;
-    return `${
-      isSubmitted ? SET_COUNT : activeIndex + 1 || SET_COUNT
-    }/${SET_COUNT}`;
+    return (this.props.activeIndex + 1 || SET_COUNT) + '/' + SET_COUNT;
   }
 
   renderContent() {
@@ -124,122 +122,125 @@ class ContributionPage extends React.Component<Props, State> {
     return isSubmitted ? (
       <Success type={type} />
     ) : (
-      errorContent || (
-        <React.Fragment>
-          <div className="cards-and-pills">
-            <div />
+      errorContent ||
+        (this.isLoaded && (
+          <React.Fragment>
+            <div className="cards-and-pills">
+              <div />
 
-            <div className="cards-and-instruction">
-              {instruction({
-                $actionType: getString('action-click'),
-                children: <div className="instruction hidden-sm-down" />,
-              }) || <div className="instruction hidden-sm-down" />}
+              <div className="cards-and-instruction">
+                {instruction({
+                  $actionType: getString('action-click'),
+                  children: <div className="instruction hidden-sm-down" />,
+                }) || <div className="instruction hidden-sm-down" />}
 
-              <div className="cards">
-                {sentences.map((sentence, i) => {
-                  const activeSentenceIndex = this.isDone
-                    ? SET_COUNT - 1
-                    : activeIndex;
-                  const isActive = i === activeSentenceIndex;
-                  return (
-                    <div
-                      key={sentence}
-                      className={'card ' + (isActive ? '' : 'inactive')}
-                      style={{
-                        transform: [
-                          `scale(${isActive ? 1 : 0.9})`,
-                          `translateX(${(i - activeSentenceIndex) * -120}%)`,
-                        ].join(' '),
-                        opacity: i < activeSentenceIndex ? 0 : 1,
-                      }}>
-                      <div style={{ margin: 'auto', width: '100%' }}>
-                        {sentence}
+                <div className="cards">
+                  {sentences.map((sentence, i) => {
+                    const activeSentenceIndex = this.isDone
+                      ? SET_COUNT - 1
+                      : activeIndex;
+                    const isActive = i === activeSentenceIndex;
+                    return (
+                      <div
+                        key={sentence}
+                        className={'card ' + (isActive ? '' : 'inactive')}
+                        style={{
+                          transform: [
+                            `scale(${isActive ? 1 : 0.9})`,
+                            `translateX(${(i - activeSentenceIndex) * -120}%)`,
+                          ].join(' '),
+                          opacity: i < activeSentenceIndex ? 0 : 1,
+                        }}>
+                        <div style={{ margin: 'auto', width: '100%' }}>
+                          {sentence}
+                        </div>
                       </div>
+                    );
+                  })}
+                </div>
+              </div>
+
+              <div className="pills">
+                <div className="inner">
+                  {!errorContent && (
+                    <div className="counter">
+                      {this.renderCounter()}
+                      <Localized id="clips">
+                        <span className="text" />
+                      </Localized>
                     </div>
-                  );
-                })}
+                  )}
+                  {this.isDone && (
+                    <div className="review-instructions">
+                      <Localized id="review-instruction">
+                        <span />
+                      </Localized>
+                    </div>
+                  )}
+                  {pills.map((pill, i) =>
+                    pill({
+                      isOpen: this.isDone || selectedPill === i,
+                      key: i,
+                      num: i + 1,
+                      onClick: () => this.selectPill(i),
+                      style:
+                        selectedPill !== null &&
+                        Math.abs(
+                          Math.min(
+                            Math.max(selectedPill, 1),
+                            pills.length - 2
+                          ) - i
+                        ) > 1
+                          ? { display: 'none' }
+                          : {},
+                    })
+                  )}
+                </div>
               </div>
             </div>
 
-            <div className="pills">
-              <div className="inner">
-                {!errorContent && (
-                  <div className="counter">
-                    {this.renderCounter()}
-                    <Localized id="clips">
-                      <span className="text" />
-                    </Localized>
-                  </div>
-                )}
-                {this.isDone && (
-                  <div className="review-instructions">
-                    <Localized id="review-instruction">
-                      <span />
-                    </Localized>
-                  </div>
-                )}
-                {pills.map((pill, i) =>
-                  pill({
-                    isOpen: this.isDone || selectedPill === i,
-                    key: i,
-                    num: i + 1,
-                    onClick: () => this.selectPill(i),
-                    style:
-                      selectedPill !== null &&
-                      Math.abs(
-                        Math.min(Math.max(selectedPill, 1), pills.length - 2) -
-                          i
-                      ) > 1
-                        ? { display: 'none' }
-                        : {},
-                  })
-                )}
-              </div>
-            </div>
-          </div>
+            {instruction({
+              $actionType: getString('action-tap'),
+              children: <div className="instruction hidden-md-up" />,
+            })}
 
-          {instruction({
-            $actionType: getString('action-tap'),
-            children: <div className="instruction hidden-md-up" />,
-          })}
+            <div className="primary-buttons">{primaryButtons}</div>
 
-          <div className="primary-buttons">{primaryButtons}</div>
-
-          <div className="buttons">
-            <div>
-              <Localized id="shortcuts">
-                <Button rounded outline className="hidden-sm-down" />
-              </Localized>
-              <div className="extra-button">{extraButton}</div>
-            </div>
-            <div>
-              <Button
-                rounded
-                outline
-                className="skip"
-                disabled={!this.isLoaded}
-                onClick={onSkip}>
-                <Localized id="skip">
-                  <span />
-                </Localized>{' '}
-                <SkipIcon />
-              </Button>
-              {onSubmit && (
-                <Localized id="submit-form-action">
-                  <Button
-                    rounded
-                    outline
-                    disabled={!this.isDone}
-                    className="hidden-sm-down"
-                    onClick={onSubmit}
-                    type="submit"
-                  />
+            <div className="buttons">
+              <div>
+                <Localized id="shortcuts">
+                  <Button rounded outline className="hidden-sm-down" />
                 </Localized>
-              )}
+                <div className="extra-button">{extraButton}</div>
+              </div>
+              <div>
+                <Button
+                  rounded
+                  outline
+                  className="skip"
+                  disabled={!this.isLoaded}
+                  onClick={onSkip}>
+                  <Localized id="skip">
+                    <span />
+                  </Localized>{' '}
+                  <SkipIcon />
+                </Button>
+                {onSubmit && (
+                  <Localized id="submit-form-action">
+                    <Button
+                      rounded
+                      outline
+                      disabled={!this.isDone}
+                      className="hidden-sm-down"
+                      onClick={onSubmit}
+                      type="submit"
+                    />
+                  </Localized>
+                )}
+              </div>
             </div>
-          </div>
-        </React.Fragment>
-      )
+          </React.Fragment>
+        ))
     );
   }
 }

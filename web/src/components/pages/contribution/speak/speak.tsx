@@ -15,7 +15,7 @@ import { CheckIcon, FontIcon, MicIcon, StopIcon } from '../../../ui/icons';
 import { Button, TextButton } from '../../../ui/ui';
 import { getItunesURL, isFirefoxFocus, isNativeIOS } from '../../../../utility';
 import AudioIOS from '../../record/audio-ios';
-import AudioWeb, { AudioInfo } from '../../record/audio-web';
+import AudioWeb, { AudioError, AudioInfo } from '../../record/audio-web';
 import ContributionPage, {
   ContributionPillProps,
   SET_COUNT,
@@ -30,9 +30,9 @@ const MAX_RECORDING_MS = 10000;
 const MIN_VOLUME = 1;
 
 enum RecordingError {
-  TOO_SHORT = 1,
-  TOO_LONG,
-  TOO_QUIET,
+  TOO_SHORT = 'TOO_SHORT',
+  TOO_LONG = 'TOO_LONG',
+  TOO_QUIET = 'TOO_QUIET',
 }
 
 const UnsupportedInfo = () => (
@@ -77,19 +77,21 @@ interface Props extends PropsFromState, PropsFromDispatch {}
 interface State {
   clips: (Recordings.SentenceRecording)[];
   isSubmitted: boolean;
-  recordingError?: RecordingError;
+  error?: RecordingError | AudioError;
   recordingStatus: RecordingStatus;
   rerecordIndex?: number;
 }
 
+const initalState: State = {
+  clips: [],
+  isSubmitted: false,
+  error: null,
+  recordingStatus: null,
+  rerecordIndex: null,
+};
+
 class SpeakPage extends React.Component<Props, State> {
-  state: State = {
-    clips: [],
-    isSubmitted: false,
-    recordingError: null,
-    recordingStatus: null,
-    rerecordIndex: null,
-  };
+  state: State = initalState;
 
   audio: AudioWeb | AudioIOS;
   isUnsupportedPlatform = false;
@@ -155,9 +157,9 @@ class SpeakPage extends React.Component<Props, State> {
   };
 
   private processRecording = (info: AudioInfo) => {
-    const recordingError = this.getRecordingError();
-    if (recordingError) {
-      return this.setState({ recordingError });
+    const error = this.getRecordingError();
+    if (error) {
+      return this.setState({ error });
     }
 
     const { clips } = this.state;
@@ -167,12 +169,6 @@ class SpeakPage extends React.Component<Props, State> {
         sentence,
       })),
       rerecordIndex: null,
-    });
-
-    setTimeout(() => {
-      this.setState({
-        // showSubmitSuccess: this.props.isSetFull,
-      });
     });
 
     trackRecording('record');
@@ -221,8 +217,8 @@ class SpeakPage extends React.Component<Props, State> {
       await this.audio.init();
       await this.startRecording();
     } catch (err) {
-      if (err === ERROR_MSG.ERR_NO_MIC) {
-        // this.setState({ showRetryModal: true });
+      if (err in AudioError) {
+        this.setState({ error: err });
       } else {
         throw err;
       }
@@ -237,7 +233,7 @@ class SpeakPage extends React.Component<Props, State> {
     this.setState({
       // showSubmitSuccess: false,
       recordingStatus: 'recording',
-      recordingError: null,
+      error: null,
     });
   };
 
@@ -280,7 +276,7 @@ class SpeakPage extends React.Component<Props, State> {
     const { api, removeSentences, tallyRecording } = this.props;
     const clips = this.state.clips.filter(clip => clip.recording);
 
-    this.setState({ clips: [], isSubmitted: true });
+    this.setState({ isSubmitted: true });
 
     for (const { sentence, recording } of clips) {
       await api.uploadClip(recording.blob, sentence.id, sentence.text);
@@ -296,7 +292,7 @@ class SpeakPage extends React.Component<Props, State> {
     const {
       clips,
       isSubmitted,
-      recordingError,
+      error,
       recordingStatus,
       rerecordIndex,
     } = this.state;
@@ -349,16 +345,18 @@ class SpeakPage extends React.Component<Props, State> {
             )
           }
           instruction={props =>
-            recordingError ? (
+            error ? (
               <div className="error">
                 <Localized
                   id={
-                    'record-error-' +
                     {
-                      [RecordingError.TOO_SHORT]: 'too-short',
-                      [RecordingError.TOO_LONG]: 'too-long',
-                      [RecordingError.TOO_QUIET]: 'too-quiet',
-                    }[recordingError]
+                      [RecordingError.TOO_SHORT]: 'record-error-too-short',
+                      [RecordingError.TOO_LONG]: 'record-error-too-long',
+                      [RecordingError.TOO_QUIET]: 'record-error-too-quiet',
+                      [AudioError.NOT_ALLOWED]: 'record-must-allow-microphone',
+                      [AudioError.NO_MIC]: 'record-no-mic-found',
+                      [AudioError.NO_SUPPORT]: 'record-platform-not-supported',
+                    }[error]
                   }
                   {...props}
                 />

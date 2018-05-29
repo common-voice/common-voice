@@ -1,10 +1,15 @@
-import ERROR_MSG from '../../../error-msg';
 import { isNativeIOS } from '../../../utility';
 
 const AUDIO_TYPE = 'audio/ogg; codecs=opus';
 
 interface BlobEvent extends Event {
   data: Blob;
+}
+
+export enum AudioError {
+  NOT_ALLOWED = 'NOT_ALLOWED',
+  NO_MIC = 'NO_MIC',
+  NO_SUPPORT = 'NO_SUPPORT',
 }
 
 export interface AudioInfo {
@@ -40,9 +45,13 @@ export default class AudioWeb {
 
   private getMicrophone(): Promise<MediaStream> {
     return new Promise(function(res: Function, rej: Function) {
-      // Reject the promise with a 'permission denied' error code
-      function deny() {
-        rej(ERROR_MSG.ERR_NO_MIC);
+      function deny(error: MediaStreamError) {
+        rej(
+          ({
+            NotAllowedError: AudioError.NOT_ALLOWED,
+            NotFoundError: AudioError.NO_MIC,
+          } as any)[error.name] || error
+        );
       }
       function resolve(stream: MediaStream) {
         res(stream);
@@ -60,7 +69,7 @@ export default class AudioWeb {
         navigator.mozGetUserMedia({ audio: true }, resolve, deny);
       } else {
         // Browser does not support getUserMedia
-        rej(ERROR_MSG.ERR_PLATFORM);
+        rej(AudioError.NO_SUPPORT);
       }
     });
   }
