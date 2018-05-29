@@ -17,6 +17,7 @@ audio-loading-error = Sorry! Op dit stuit ferwurkje wy ús audiobestannen, probe
 ## Languages
 
 bn = Bingaalsk
+br = Bretonsk
 ca = Katalaansk
 cs = Tsjechysk
 cv = Chuvash
