@@ -49,6 +49,10 @@
             margin-left: 10px;
             font-weight: normal;
             font-style: italic;
+
+            @media (--sm-down) {
+                display: none;
+            }
         }
 
         &.done {
@@ -261,10 +265,10 @@
         }
 
         & .counter {
-            margin-top: -38px;
             display: none;
 
             @media (--md-up) {
+                margin-top: -38px;
                 display: flex;
             }
         }
@@ -366,12 +370,22 @@
         }
 
         @media (--sm-down) {
-            & .pills .inner {
-                flex-direction: column;
-                align-items: center;
+            & .top .counter {
+                visibility: hidden;
+            }
 
-                & .pill {
-                    margin-bottom: 20px;
+            & .pills {
+                & .counter {
+                    display: flex;
+                }
+
+                & .inner {
+                    flex-direction: column;
+                    align-items: center;
+
+                    & .pill {
+                        margin-bottom: 20px;
+                    }
                 }
             }
 
