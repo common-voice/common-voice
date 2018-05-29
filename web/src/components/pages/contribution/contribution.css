@@ -27,6 +27,41 @@
         overflow: visible;
     }
 
+    & .counter {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+
+
+        & svg {
+            margin-right: 10px;
+            padding: 7px;
+            background: var(--valid-green);
+            border-radius: 50%;
+
+            & use, & path {
+                fill: var(--white);
+            }
+        }
+
+        & .text {
+            margin-left: 10px;
+            font-weight: normal;
+        }
+
+        &.done {
+            background: var(--white);
+            border-radius: 29px;
+            padding: 7px 20px 7px 7px;
+            border: 2px solid var(--grey);
+
+            & .text {
+               font-style: italic;
+            }
+        }
+    }
+
     & .top {
         display: flex;
         justify-content: space-between;
@@ -75,10 +110,16 @@
         }
 
         & .counter {
-            font-weight: 600;
-
             @media (--md-up) {
                 display: none;
+            }
+
+            &.done {
+                display: flex;
+
+                @media (--sm-down) {
+                    visibility: hidden;
+                }
             }
         }
     }
@@ -197,7 +238,9 @@
     }
 
     & .pills {
-        margin-top: 23px;
+        @media (--sm-down) {
+            margin-top: 20px;
+        }
 
         @media (--md-up) {
             flex: 1;
@@ -220,17 +263,11 @@
         }
 
         & .counter {
-            margin-top: -42px;
-
+            margin-top: -38px;
             display: none;
-            font-weight: 600;
 
             @media (--md-up) {
-                display: inline;
-            }
-
-            & .text {
-                font-weight: normal;
+                display: flex;
             }
         }
     }
@@ -312,7 +349,7 @@
     }
 
     &.submittable {
-        & .cards, & .instruction,  & .primary-buttons, & .buttons button[type=button] {
+        & .cards, & .instruction,  & .primary-buttons, & .buttons button[type=button], & .extra-button {
             display: none;
             filter: blur(10px);
             pointer-events: none;
@@ -323,7 +360,7 @@
         }
 
         @media (--sm-down) {
-            & .pills {
+            & .pills .inner {
                 flex-direction: column;
                 align-items: center;
 

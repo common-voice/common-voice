@@ -10,16 +10,16 @@ export const CheckIcon = (props: any) => (
   <svg width="24" height="24" viewBox="0 0 24 24">
     <defs>
       <path
-        id="a"
+        id="check-path"
         d="M17.7 1.7l-11 11c-.2.2-.4.3-.7.3-.3 0-.5-.1-.7-.3l-5-5c-.4-.4-.4-1 0-1.4.4-.4 1-.4 1.4 0L6 10.6 16.3.3c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4z"
       />
     </defs>
     <g fill="none" fillRule="evenodd" transform="translate(3 6)">
-      <mask id="b" fill="#fff">
-        <use xlinkHref="#a" />
+      <mask id="check-mask" fill="#fff">
+        <use xlinkHref="#check-path" />
       </mask>
-      <use fill="#000" fillRule="nonzero" xlinkHref="#a" />
-      <g fill="#4A4A4A" mask="url(#b)">
+      <use fill="#000" fillRule="nonzero" xlinkHref="#check-path" />
+      <g fill="#4A4A4A" mask="url(#check-mask)">
         <path d="M-3-6h24v24H-3z" />
       </g>
     </g>

@@ -53,6 +53,7 @@ interface State {
   hasPlayed: boolean;
   hasPlayedSome: boolean;
   isPlaying: boolean;
+  isSubmitted: boolean;
 }
 
 class ListenPage extends React.Component<Props, State> {
@@ -64,6 +65,7 @@ class ListenPage extends React.Component<Props, State> {
     hasPlayed: false,
     hasPlayedSome: false,
     isPlaying: false,
+    isSubmitted: false,
   };
 
   static getDerivedStateFromProps(props: Props, state: State) {
@@ -121,6 +123,7 @@ class ListenPage extends React.Component<Props, State> {
       hasPlayed: false,
       hasPlayedSome: false,
       isPlaying: false,
+      isSubmitted: clipIndex === SET_COUNT - 1,
       clips: clips.map(
         (clip, i) => (i === clipIndex ? { ...clip, isValid } : clip)
       ),
@@ -161,7 +164,13 @@ class ListenPage extends React.Component<Props, State> {
   };
 
   render() {
-    const { clips, hasPlayed, hasPlayedSome, isPlaying } = this.state;
+    const {
+      clips,
+      hasPlayed,
+      hasPlayedSome,
+      isPlaying,
+      isSubmitted,
+    } = this.state;
     const clipIndex = this.getClipIndex();
     const activeClip = clips[clipIndex];
     return (
@@ -174,10 +183,10 @@ class ListenPage extends React.Component<Props, State> {
         />
         <ContributionPage
           activeIndex={clipIndex}
-          className="listen"
           instruction={props => (
             <Localized id="record-instruction" {...props} />
           )}
+          isSubmitted={isSubmitted}
           onSkip={this.handleSkip}
           primaryButtons={
             <React.Fragment>
@@ -218,6 +227,7 @@ class ListenPage extends React.Component<Props, State> {
             }
           )}
           sentences={clips.map(clip => clip.sentence)}
+          type="listen"
         />
       </React.Fragment>
     );

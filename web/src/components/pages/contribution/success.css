@@ -1,0 +1,62 @@
+@import url('../../vars.css');
+
+.contribution-success {
+    margin: auto;
+    max-width: 677px;
+    display: flex;
+    flex-direction: column;
+
+    @media (--md-up) {
+        margin-top: 200px;
+    }
+
+    & .counter {
+        margin: 0 auto 20px;
+
+        @media (--md-up) {
+            display: none !important;
+        }
+    }
+
+    & h1 {
+        font-size: 24px;
+        font-weight: normal;
+        text-align: center;
+
+        @media (--md-up) {
+            font-size: 36px;
+        }
+    }
+
+    & .goal-percentage {
+        color: var(--valid-green);
+    }
+
+    & .progress {
+        border: 3px solid var(--blue);
+        border-radius: 20px;
+        margin: 20px auto 0;
+        width: 100%;
+        max-width: 460px;
+        height: 27px;
+
+        display: flex;
+        flex-direction: row;
+
+        overflow: hidden;
+
+        @media (--md-up) {
+            margin-top: 60px;
+        }
+
+        & .total {
+            height: 100px;
+            background: var(--blue);
+        }
+
+        & .done {
+            height: 100px;
+            background: var(--valid-green);
+        }
+    }
+}

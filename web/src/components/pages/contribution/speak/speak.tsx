@@ -74,6 +74,7 @@ interface Props extends PropsFromState, PropsFromDispatch {}
 
 interface State {
   clips: (Recordings.SentenceRecording)[];
+  isSubmitted: boolean;
   recordingError?: RecordingError;
   recordingStatus: RecordingStatus;
   rerecordIndex?: number;
@@ -82,6 +83,7 @@ interface State {
 class SpeakPage extends React.Component<Props, State> {
   state: State = {
     clips: [],
+    isSubmitted: false,
     recordingError: null,
     recordingStatus: null,
     rerecordIndex: null,
@@ -274,7 +276,7 @@ class SpeakPage extends React.Component<Props, State> {
     const { api, removeSentences, tallyRecording } = this.props;
     const { clips } = this.state;
 
-    this.setState({ clips: [] });
+    this.setState({ clips: [], isSubmitted: true });
 
     for (const { sentence, recording } of clips) {
       await api.uploadClip(recording.blob, sentence.id, sentence.text);
@@ -289,6 +291,7 @@ class SpeakPage extends React.Component<Props, State> {
   render() {
     const {
       clips,
+      isSubmitted,
       recordingError,
       recordingStatus,
       rerecordIndex,
@@ -297,7 +300,6 @@ class SpeakPage extends React.Component<Props, State> {
     return (
       <ContributionPage
         activeIndex={recordingIndex}
-        className="speak"
         errorContent={this.isUnsupportedPlatform && <UnsupportedInfo />}
         extraButton={
           rerecordIndex === null ? (
@@ -333,6 +335,7 @@ class SpeakPage extends React.Component<Props, State> {
             />
           )
         }
+        isSubmitted={isSubmitted}
         onSkip={this.handleSkip}
         onSubmit={this.handleSubmit}
         primaryButtons={
@@ -354,6 +357,7 @@ class SpeakPage extends React.Component<Props, State> {
           />
         ))}
         sentences={clips.map(({ sentence: { text } }) => text)}
+        type="speak"
       />
     );
   }
