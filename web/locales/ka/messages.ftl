@@ -221,9 +221,11 @@ record-platform-not-supported-desktop = სამაგიდო კომპი
 record-platform-not-supported-ios = <bold>iOS</bold> მომხმარებლებს შეუძლიათ ჩამოტვირთონ ჩვენი უფასო პროგრამა:
 record-must-allow-microphone = საჭიროა მიკროფონთან წვდომის დაშვება.
 record-retry = ხელახლა
+record-no-mic-found = მიკროფონი ვერ მოიძებნა.
 record-error-too-short = ჩანაწერი ზედმეტად მოკლე იყო.
 record-error-too-long = ჩანაწერი ზედმეტად გრძელი იყო.
 record-error-too-quiet = ჩანაწერი ზედმეტად ხმადაბალი იყო.
+record-error-no-mic = ჩანაწერი ზედმეტად ხმადაბალი იყო.
 record-submit-success = წარმატებით გადაიგზავნა! გსურთ კვლავ ჩაწერა?
 record-help = გთხოვთ, დააჭიროთ ჩაწერას და შემდეგ, ხმამაღლა წაიკითხოთ ზემოთ მოცემული წინადადება.
 record-cancel = ჩაწერის გაუქმება
@@ -262,7 +264,6 @@ contact-required = *აუცილებელია
 ## Request Language Modal
 
 request-language-title = ენის მოთხოვნა
-request-language-cancel = დახურვა
 request-language-form-language =
     .label = ენა
 request-language-success-title = ენის მოთხოვნა გადაიგზავნა წარმატებით, გმადლობთ.
