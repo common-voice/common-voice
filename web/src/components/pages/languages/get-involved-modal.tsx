@@ -61,10 +61,9 @@ class GetInvolvedModal extends React.Component<Props, State> {
     const nativeName = ISO6391.getNativeName(locale.code) || locale.name;
 
     return (
-      <Modal innerClassName="get-involved-modal">
-        <Localized id="get-involved-cancel">
-          <TextButton className="cancel" onClick={onRequestClose} />
-        </Localized>
+      <Modal
+        innerClassName="get-involved-modal"
+        onRequestClose={onRequestClose}>
         <br />
         <Localized id="get-involved-title" $lang={nativeName}>
           <h2 />

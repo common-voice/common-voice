@@ -258,7 +258,6 @@ contact-required = *required
 
 ## Request Language Modal
 request-language-title = Language Request
-request-language-cancel = Exit Form
 request-language-form-language =
     .label = Language
 request-language-success-title = Language request successfully submitted, thank you.

@@ -1,6 +1,7 @@
 import * as React from 'react';
 import * as Modal from 'react-modal';
 import { Button } from '../ui/ui';
+import { CloseIcon } from '../ui/icons';
 
 interface ButtonConfig {
   [name: string]: () => any;
@@ -31,6 +32,14 @@ export default ({
       },
     }}>
     <div className={'inner ' + innerClassName}>
+      {props.onRequestClose && (
+        <button
+          type="button"
+          className="close"
+          onClick={props.onRequestClose as any}>
+          <CloseIcon black />
+        </button>
+      )}
       {children}
       <div className="buttons">
         {buttons &&

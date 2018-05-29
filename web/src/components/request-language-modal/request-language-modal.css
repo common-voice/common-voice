@@ -10,7 +10,7 @@
     font-weight: bold;
 }
 
-.request-language-modal img {
+.request-language-modal .success {
     width: 50px;
     margin-bottom: 2.5rem;
 }

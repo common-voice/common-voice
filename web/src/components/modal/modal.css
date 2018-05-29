@@ -15,10 +15,9 @@
     display: table-cell;
     vertical-align: middle;
     pointer-events: none;
-}
+    border: none !important;
 
-@media (--mobile) {
-    .ReactModal__Content {
+    @media (--sm-down) {
         position: absolute !important;
         top: 0 !important;
         left: 0 !important;
@@ -26,29 +25,37 @@
         bottom: 0 !important;
         border-radius: 0 !important;
     }
-}
 
-.ReactModal__Content .inner {
-    margin: 0 auto;
-    box-sizing: border-box;
-    padding: 2rem;
-    width: 100%;
-    max-width: 40rem;
-    min-height: 99vh;
-    text-align: center;
-    background: var(--white);
-    pointer-events: all;
-
-    @media (--md-up) {
-        min-height: auto;
+    & .close {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        border: none;
     }
-}
 
-.ReactModal__Content .buttons {
-    margin-top: 1rem;
-    min-width: 12rem;
-}
+    & .inner {
+        position: relative;
+        margin: 0 auto;
+        box-sizing: border-box;
+        padding: 2rem;
+        width: 100%;
+        max-width: 40rem;
+        min-height: 99vh;
+        text-align: center;
+        background: var(--white);
+        pointer-events: all;
 
-.ReactModal__Content .buttons .button {
-    margin: var(--standard-margin);
+        @media (--md-up) {
+            min-height: auto;
+        }
+    }
+
+    & .buttons {
+        margin-top: 1rem;
+        min-width: 12rem;
+
+        & .button {
+            margin: var(--standard-margin);
+        }
+    }
 }

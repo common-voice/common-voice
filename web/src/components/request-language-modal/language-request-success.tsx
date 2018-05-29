@@ -5,16 +5,7 @@ import { TextButton } from '../ui/ui';
 
 export default ({ onRequestClose }: { onRequestClose: () => void }) => (
   <React.Fragment>
-    <div className="title-and-action">
-      <div />
-      <Localized id="request-language-cancel">
-        <TextButton onClick={onRequestClose} />
-      </Localized>
-    </div>
-
-    <br />
-
-    <SuccessIcon />
+    <SuccessIcon className="success" />
 
     <Localized id="request-language-success-title">
       <h2 />

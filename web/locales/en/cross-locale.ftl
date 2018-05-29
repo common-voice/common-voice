@@ -1,6 +1,5 @@
 ## Languages
 get-involved-button = Get Involved
-get-involved-cancel = Exit
 get-involved-title = Contribute to { $lang }
 get-involved-text =
   Thank you for your interest in contributing to { $lang }. We work hard to get every language ready for launch and keep

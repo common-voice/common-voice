@@ -9,7 +9,9 @@ import API from '../../../../services/api';
 import { trackRecording } from '../../../../services/tracker';
 import URLS from '../../../../urls';
 import { LocaleLink } from '../../../locale-helpers';
+import Modal from '../../../modal/modal';
 import { CheckIcon, FontIcon, MicIcon, StopIcon } from '../../../ui/icons';
+import { TextButton } from '../../../ui/ui';
 import { getItunesURL, isFirefoxFocus, isNativeIOS } from '../../../../utility';
 import AudioIOS from '../../record/audio-ios';
 import AudioWeb, { AudioInfo } from '../../record/audio-web';
@@ -21,7 +23,6 @@ import { RecordButton, RecordingStatus } from '../primary-buttons';
 import RecordingPill from './recording-pill';
 
 import './speak.css';
-import { TextButton } from '../../../ui/ui';
 
 const MIN_RECORDING_MS = 300;
 const MAX_RECORDING_MS = 10000;
@@ -298,77 +299,87 @@ class SpeakPage extends React.Component<Props, State> {
     } = this.state;
     const recordingIndex = this.getRecordingIndex();
     return (
-      <ContributionPage
-        activeIndex={recordingIndex}
-        errorContent={this.isUnsupportedPlatform && <UnsupportedInfo />}
-        extraButton={
-          rerecordIndex === null ? (
-            <Localized id="unable-speak">
-              <LocaleLink to={URLS.LISTEN} />
-            </Localized>
-          ) : (
-            <Localized id="record-cancel">
-              <TextButton onClick={this.cancelReRecord} />
-            </Localized>
-          )
-        }
-        instruction={props =>
-          recordingError ? (
-            <div className="error">
+      <React.Fragment>
+        <Modal>
+          <Localized id="record-abort-title">
+            <h1 />
+          </Localized>
+          <Localized id="record-abort-text">
+            <p />
+          </Localized>
+        </Modal>
+        <ContributionPage
+          activeIndex={recordingIndex}
+          errorContent={this.isUnsupportedPlatform && <UnsupportedInfo />}
+          extraButton={
+            rerecordIndex === null ? (
+              <Localized id="unable-speak">
+                <LocaleLink to={URLS.LISTEN} />
+              </Localized>
+            ) : (
+              <Localized id="record-cancel">
+                <TextButton onClick={this.cancelReRecord} />
+              </Localized>
+            )
+          }
+          instruction={props =>
+            recordingError ? (
+              <div className="error">
+                <Localized
+                  id={
+                    'record-error-' +
+                    {
+                      [RecordingError.TOO_SHORT]: 'too-short',
+                      [RecordingError.TOO_LONG]: 'too-long',
+                      [RecordingError.TOO_QUIET]: 'too-quiet',
+                    }[recordingError]
+                  }
+                  {...props}
+                />
+              </div>
+            ) : (
               <Localized
                 id={
-                  'record-error-' +
-                  {
-                    [RecordingError.TOO_SHORT]: 'too-short',
-                    [RecordingError.TOO_LONG]: 'too-long',
-                    [RecordingError.TOO_QUIET]: 'too-quiet',
-                  }[recordingError]
+                  this.isRecording
+                    ? 'record-stop-instruction'
+                    : recordingIndex === SET_COUNT - 1
+                      ? 'record-last-instruction'
+                      : ['record-instruction', 'record-again-instruction'][
+                          recordingIndex
+                        ] || 'record-again-instruction2'
                 }
+                checkIcon={<CheckIcon />}
+                recordIcon={<MicIcon />}
+                stopIcon={<StopIcon />}
                 {...props}
               />
-            </div>
-          ) : (
-            <Localized
-              id={
-                this.isRecording
-                  ? 'record-stop-instruction'
-                  : recordingIndex === SET_COUNT - 1
-                    ? 'record-last-instruction'
-                    : ['record-instruction', 'record-again-instruction'][
-                        recordingIndex
-                      ] || 'record-again-instruction2'
-              }
-              checkIcon={<CheckIcon />}
-              recordIcon={<MicIcon />}
-              stopIcon={<StopIcon />}
-              {...props}
+            )
+          }
+          isSubmitted={isSubmitted}
+          onSkip={this.handleSkip}
+          onSubmit={this.handleSubmit}
+          primaryButtons={
+            <RecordButton
+              status={recordingStatus}
+              onClick={this.handleRecordClick}
             />
-          )
-        }
-        isSubmitted={isSubmitted}
-        onSkip={this.handleSkip}
-        onSubmit={this.handleSubmit}
-        primaryButtons={
-          <RecordButton
-            status={recordingStatus}
-            onClick={this.handleRecordClick}
-          />
-        }
-        pills={clips.map((clip, i) => (props: ContributionPillProps) => (
-          <RecordingPill
-            {...props}
-            clip={clip}
-            status={
-              recordingIndex === i
-                ? 'active'
-                : clip.recording ? 'done' : 'pending'
-            }
-            onRerecord={() => this.rerecord(i)}
-          />
-        ))}
-        sentences={clips.map(({ sentence: { text } }) => text)}
-        type="speak"
-      />
+          }
+          pills={clips.map((clip, i) => (props: ContributionPillProps) => (
+            <RecordingPill
+              {...props}
+              clip={clip}
+              status={
+                recordingIndex === i
+                  ? 'active'
+                  : clip.recording ? 'done' : 'pending'
+              }
+              onRerecord={() => this.rerecord(i)}
+            />
+          ))}
+          sentences={clips.map(({ sentence: { text } }) => text)}
+          type="speak"
+        />
+      </React.Fragment>
     );
   }
 }
