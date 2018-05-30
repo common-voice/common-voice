@@ -223,7 +223,6 @@ record-no-mic-found = Kein Mikrofon gefunden.
 record-error-too-short = Die Aufnahme war zu kurz.
 record-error-too-long = Die Aufnahme war zu lang.
 record-error-too-quiet = Die Aufnahme war zu leise.
-record-error-no-mic = Die Aufnahme war zu leise.
 record-submit-success = Senden erfolgreich! Aufnehmen wiederholen?
 record-help = Bitte drücken Sie auf Aufnehmen und lesen Sie dann den oberen Satz laut vor.
 record-cancel = Erneute Aufnahme abbrechen
@@ -252,7 +251,6 @@ download-no = Nein, danke
 ## Contact Modal
 
 contact-title = Kontaktformular
-contact-cancel = Abbrechen
 contact-form-name =
     .label = Name
 contact-form-message =
@@ -270,10 +268,13 @@ request-language-success-content = Wir melden uns bald mit weiteren Informatione
 ## Languages Overview
 
 language-section-in-progress = Vorbereitungsphase
+language-section-in-progress-description = Sprachen in der Vorbereitungsphase werden aktuell für die Mitarbeit durch unsere Gemeinschaften vorbereitet, dieser Fortschritt zeigt, wie weit sie bei Übersetzung der Website und Sammlung der Sätze gekommen sind.
 language-section-launched = Aufnahmephase
+language-section-launched-description = Für diese abgeschlossenen Sprachen wurde die Website vollständig übersetzt und es wurden genügend Sätze gesammelt, um fortlaufende Mitarbeit durch <italic>{ speak }</italic> und <italic>{ listen }</italic> zu ermöglichen.
 languages-show-more = Mehr anzeigen
 languages-show-less = Weniger anzeigen
 language-speakers = Sprecher
+language-meter-in-progress = Fortschritt
 language-total-progress = Gesamt
 language-search-input =
     .placeholder = Suchen
