@@ -220,6 +220,7 @@ record-platform-not-supported-desktop = 在桌上型電腦，您可以下載最�
 record-platform-not-supported-ios = <bold>iOS</bold> 使用者可下載我們的免費程式:
 record-must-allow-microphone = 您必須允許使用麥克風。
 record-retry = 重試
+record-no-mic-found = 找不到麥克風
 record-error-too-short = 錄音太短了。
 record-error-too-long = 錄音太長了。
 record-error-too-quiet = 錄音太安靜了。
@@ -251,7 +252,6 @@ download-no = 不要，謝謝
 ## Contact Modal
 
 contact-title = 聯絡表單
-contact-cancel = 取消
 contact-form-name =
     .label = 姓名
 contact-form-message =
@@ -261,7 +261,6 @@ contact-required = * 必填
 ## Request Language Modal
 
 request-language-title = 語言請求
-request-language-cancel = 離開表單
 request-language-form-language =
     .label = 語言
 request-language-success-title = 已收到新語言請求，感謝您。
@@ -270,10 +269,13 @@ request-language-success-content = 我們將很快在您的語言於 Common Voic
 ## Languages Overview
 
 language-section-in-progress = 準備中
+language-section-in-progress-description = 處理中的語言，代表我們的該語言社群正在進行貢獻，當中的進度反映了網站的在地化翻譯進度，以及語句收集進度。
 language-section-launched = 已上線
+language-section-launched-description = 若是已上線的語言，代表網站已經完整的翻譯完成，也收集了足夠的語句，足以提供<italic>{ speak }</italic>及<italic>{ listen }</italic>的貢獻。
 languages-show-more = 檢視更多
 languages-show-less = 檢視更少
 language-speakers = 使用者數
+language-meter-in-progress = 進度
 language-total-progress = 總計
 language-search-input =
     .placeholder = 搜尋
