@@ -1,5 +1,8 @@
 import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
 import * as React from 'react';
+import { connect } from 'react-redux';
+import StateTree from '../../../stores/tree';
+import { User } from '../../../stores/user';
 import URLS from '../../../urls';
 import { CheckIcon } from '../../ui/icons';
 import { Button, LinkButton } from '../../ui/ui';
@@ -11,30 +14,39 @@ const GoalPercentage = ({ count }: { count: number }) => (
   <span className="goal-percentage">{count}%</span>
 );
 
-export default withLocalization(
-  ({ getString, onReset, type }: { type: 'speak' | 'listen', onReset: () => any } & LocalizationProps) => {
-    return (
-      <div className="contribution-success">
-        <div className="counter done">
-          <CheckIcon />
-          {SET_COUNT}/{SET_COUNT}
-          <Localized id="clips">
-            <span className="text" />
-          </Localized>
-        </div>
+interface PropsFromState {
+  hasEnteredInfo: boolean;
+}
 
-        <Localized
-          id="toward-goal"
-          goalPercentage={<GoalPercentage count={10} />}
-          $goalType={getString(type === 'speak' ? 'recording' : 'validation')}>
-          <h1 />
+interface Props extends LocalizationProps, PropsFromState {
+  type: 'speak' | 'listen';
+  onReset: () => any;
+}
+
+const Success = ({ getString, hasEnteredInfo, onReset, type }: Props) => {
+  return (
+    <div className="contribution-success">
+      <div className="counter done">
+        <CheckIcon />
+        {SET_COUNT}/{SET_COUNT}
+        <Localized id="clips">
+          <span className="text" />
         </Localized>
+      </div>
 
-        <div className="progress">
-          <div className="total" style={{ width: '40%' }} />
-          <div className="done" style={{ width: '10%' }} />
-        </div>
+      <Localized
+        id="toward-goal"
+        goalPercentage={<GoalPercentage count={10} />}
+        $goalType={getString(type === 'speak' ? 'recording' : 'validation')}>
+        <h1 />
+      </Localized>
 
+      <div className="progress">
+        <div className="total" style={{ width: '40%' }} />
+        <div className="done" style={{ width: '10%' }} />
+      </div>
+
+      {!hasEnteredInfo && (
         <div className="profile-card">
           <Localized id="why-profile-text">
             <p />
@@ -43,15 +55,23 @@ export default withLocalization(
             <LinkButton rounded to={URLS.PROFILE} />
           </Localized>
         </div>
+      )}
 
-        <Localized id="contribute-more" $count={SET_COUNT}>
-          <Button
-            outline
-            rounded
-            onClick={onReset}
-          />
+      <Localized id="contribute-more" $count={SET_COUNT}>
+        <Button outline={!hasEnteredInfo} rounded onClick={onReset} />
+      </Localized>
+
+      {hasEnteredInfo && (
+        <Localized id="edit-profile">
+          <LinkButton rounded outline to={URLS.PROFILE} />
         </Localized>
-      </div>
-    );
-  }
+      )}
+    </div>
+  );
+};
+
+export default withLocalization(
+  connect<PropsFromState>(({ user }: StateTree) => ({
+    hasEnteredInfo: User.selectors.hasEnteredInfo(user),
+  }))(Success)
 );

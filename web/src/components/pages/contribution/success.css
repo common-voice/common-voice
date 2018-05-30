@@ -62,7 +62,7 @@
 
     & .profile-card {
         margin-top: 60px;
-        margin-bottom: 90px;
+        margin-bottom: 30px;
         padding: 38px 65px 0;
         display: flex;
         flex-direction: column;
@@ -72,15 +72,17 @@
         & p {
             font-style: italic;
             color: var(--near-black);
+            text-align: center;
         }
 
         & .button {
             position: relative;
             top: 28px;
+            margin-top: 0;
         }
     }
 
     & .button {
-        margin: 0 auto
+        margin: 60px auto 0;
     }
 }
