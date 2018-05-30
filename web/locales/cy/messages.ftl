@@ -229,7 +229,6 @@ record-no-mic-found = Heb ganfod meicroffon.
 record-error-too-short = Roedd y recordiad yn rhy fyr.
 record-error-too-long = Roedd y recordiad yn rhy hir.
 record-error-too-quiet = Roedd y recordiad yn rhy dawel.
-record-error-no-mic = Roedd y recordiad yn rhy dawel.
 record-submit-success = Llwyddiant wrth gyflwyno! Eisiau recordio eto?
 record-help = Tapiwch i recordio, yna darllenwch y frawddeg uchod allan.
 record-cancel = Diddymu Ail-recordio
@@ -258,7 +257,6 @@ download-no = Dim Diolch
 ## Contact Modal
 
 contact-title = Ffurflen Gysylltu
-contact-cancel = Diddymu
 contact-form-name =
     .label = Enw
 contact-form-message =
@@ -276,10 +274,13 @@ request-language-success-content = Byddwn mewn cysylltiad gyda rhagor o wybodaet
 ## Languages Overview
 
 language-section-in-progress = Ar Waith
+language-section-in-progress-description = Mae ieithoedd ar waith yn cael eu hadeiladu ar hyn o bryd ar gyfer cyfraniadau gan ein cymunedau; mae eu cynnydd yn adlewyrchu lle maen nhw arni ar draws cyfnodau lleolieddio'r wefan a'r casglu brawddegau.
 language-section-launched = Wedi Cychwyn
+language-section-launched-description = Ar gyfer ieithoedd sydd wedi eu cyflwyno mae'r wefan wedi ei leoleiddio'n llwyddiannus ac mae digon o frawddegau wedi eu casglu i ganiatáu cyfraniadau <italic>{ speak }</italic> a <italic>{ listen }</italic> parhaus.
 languages-show-more = Gweld Mwy
 languages-show-less = Gweld Llai
 language-speakers = Siaradwyr
+language-meter-in-progress = Ar waith
 language-total-progress = Cyfanswm
 language-search-input =
     .placeholder = Chwilio
