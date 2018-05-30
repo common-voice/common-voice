@@ -223,7 +223,6 @@ record-no-mic-found = No microphone found.
 record-error-too-short = The recording was too short.
 record-error-too-long = The recording was too long.
 record-error-too-quiet = The recording was too quiet.
-record-error-no-mic = The recording was too quiet.
 record-submit-success = Submit success! Want to record again?
 record-help = Please tap to record, then read the above sentence aloud.
 record-cancel = Cancel Re-recording
