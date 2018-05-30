@@ -156,8 +156,8 @@
         & svg {
             display: none;
             margin: 0 10px;
-            width: 24px;
-            height: 24px;
+            width: 23px;
+            height: 23px;
 
             @media (--md-up) {
                 display: initial;
