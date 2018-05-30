@@ -82,7 +82,7 @@ interface State {
   rerecordIndex?: number;
 }
 
-const initalState: State = {
+const initialState: State = {
   clips: [],
   isSubmitted: false,
   error: null,
@@ -91,7 +91,7 @@ const initalState: State = {
 };
 
 class SpeakPage extends React.Component<Props, State> {
-  state: State = initalState;
+  state: State = initialState;
 
   audio: AudioWeb | AudioIOS;
   isUnsupportedPlatform = false;
@@ -288,6 +288,8 @@ class SpeakPage extends React.Component<Props, State> {
     trackRecording('submit');
   };
 
+  private reset = () => this.setState(initialState);
+
   render() {
     const {
       clips,
@@ -380,6 +382,7 @@ class SpeakPage extends React.Component<Props, State> {
             )
           }
           isSubmitted={isSubmitted}
+          onReset={this.reset}
           onSkip={this.handleSkip}
           onSubmit={this.upload}
           primaryButtons={

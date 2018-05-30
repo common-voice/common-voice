@@ -58,17 +58,19 @@ interface State {
   isSubmitted: boolean;
 }
 
+const initialState: State = {
+  clips: [],
+  hasPlayed: false,
+  hasPlayedSome: false,
+  isPlaying: false,
+  isSubmitted: false,
+};
+
 class ListenPage extends React.Component<Props, State> {
   audioRef = React.createRef<HTMLAudioElement>();
   playedSomeInterval: any;
 
-  state: State = {
-    clips: [],
-    hasPlayed: false,
-    hasPlayedSome: false,
-    isPlaying: false,
-    isSubmitted: false,
-  };
+  state: State = initialState;
 
   static getDerivedStateFromProps(props: Props, state: State) {
     if (state.clips.length > 0) return null;
@@ -165,6 +167,8 @@ class ListenPage extends React.Component<Props, State> {
     });
   };
 
+  private reset = () => this.setState(initialState);
+
   render() {
     const {
       clips,
@@ -206,6 +210,7 @@ class ListenPage extends React.Component<Props, State> {
             )
           }
           isSubmitted={isSubmitted}
+          onReset={this.reset}
           onSkip={this.handleSkip}
           primaryButtons={
             <React.Fragment>

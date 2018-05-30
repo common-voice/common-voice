@@ -53,6 +53,12 @@
     & .buttons {
         margin-top: 1rem;
         min-width: 12rem;
+        display: flex;
+        justify-content: center;
+
+        @media (--sm-down) {
+            flex-direction: column;
+        }
 
         & .button {
             margin: var(--standard-margin);

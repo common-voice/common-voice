@@ -65,6 +65,23 @@ export const LabeledTextArea = (props: any) => (
   <LabeledFormControl component="textarea" {...props} />
 );
 
+export const LinkButton = ({
+  className = '',
+  outline = false,
+  rounded = false,
+  ...props
+}: any) => (
+  <LocaleLink
+    className={[
+      'button',
+      outline ? 'outline' : '',
+      rounded ? 'rounded' : '',
+      className,
+    ].join(' ')}
+    {...props}
+  />
+);
+
 export const TextButton = ({ className = '', ...props }: any) => (
   <button type="button" className={'text-button ' + className} {...props} />
 );

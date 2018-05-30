@@ -1,7 +1,9 @@
 import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
 import * as React from 'react';
-import { SET_COUNT } from './contribution';
+import URLS from '../../../urls';
 import { CheckIcon } from '../../ui/icons';
+import { Button, LinkButton } from '../../ui/ui';
+import { SET_COUNT } from './contribution';
 
 import './success.css';
 
@@ -10,7 +12,7 @@ const GoalPercentage = ({ count }: { count: number }) => (
 );
 
 export default withLocalization(
-  ({ getString, type }: { type: 'speak' | 'listen' } & LocalizationProps) => {
+  ({ getString, onReset, type }: { type: 'speak' | 'listen', onReset: () => any } & LocalizationProps) => {
     return (
       <div className="contribution-success">
         <div className="counter done">
@@ -32,6 +34,23 @@ export default withLocalization(
           <div className="total" style={{ width: '40%' }} />
           <div className="done" style={{ width: '10%' }} />
         </div>
+
+        <div className="profile-card">
+          <Localized id="why-profile-text">
+            <p />
+          </Localized>
+          <Localized id="profile-create">
+            <LinkButton rounded to={URLS.PROFILE} />
+          </Localized>
+        </div>
+
+        <Localized id="contribute-more" $count={SET_COUNT}>
+          <Button
+            outline
+            rounded
+            onClick={onReset}
+          />
+        </Localized>
       </div>
     );
   }

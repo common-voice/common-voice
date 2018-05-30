@@ -26,6 +26,7 @@ interface Props extends LocalizationProps {
     props: { $actionType: string; children: any }
   ) => React.ReactNode;
   isSubmitted: boolean;
+  onReset: () => any;
   onSkip: () => any;
   onSubmit?: () => any;
   primaryButtons: React.ReactNode;
@@ -110,6 +111,7 @@ class ContributionPage extends React.Component<Props, State> {
       getString,
       instruction,
       isSubmitted,
+      onReset,
       onSkip,
       onSubmit,
       pills,
@@ -120,7 +122,7 @@ class ContributionPage extends React.Component<Props, State> {
     const { selectedPill } = this.state;
 
     return isSubmitted ? (
-      <Success type={type} />
+      <Success onReset={onReset} type={type} />
     ) : (
       errorContent ||
         (this.isLoaded && (

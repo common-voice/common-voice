@@ -250,7 +250,6 @@ download-no = No Thanks
 
 ## Contact Modal
 contact-title = Contact Form
-contact-cancel = Cancel
 contact-form-name =
     .label = Name
 contact-form-message =

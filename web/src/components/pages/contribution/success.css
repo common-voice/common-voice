@@ -7,7 +7,7 @@
     flex-direction: column;
 
     @media (--md-up) {
-        margin-top: 200px;
+        margin-top: 100px;
     }
 
     & .counter {
@@ -58,5 +58,29 @@
             height: 100px;
             background: var(--valid-green);
         }
+    }
+
+    & .profile-card {
+        margin-top: 60px;
+        margin-bottom: 90px;
+        padding: 38px 65px 0;
+        display: flex;
+        flex-direction: column;
+        background: var(--white);
+        box-shadow: var(--card-shadow);
+
+        & p {
+            font-style: italic;
+            color: var(--near-black);
+        }
+
+        & .button {
+            position: relative;
+            top: 28px;
+        }
+    }
+
+    & .button {
+        margin: 0 auto
     }
 }
