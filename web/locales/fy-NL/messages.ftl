@@ -229,9 +229,11 @@ record-platform-not-supported-desktop = Op desktopkompjûters, download de lêst
 record-platform-not-supported-ios = <bold>iOS</bold>-brûkers kinne ús fergese app downloade:
 record-must-allow-microphone = Jo moatte tagong ta jo mikrofoan tastean.
 record-retry = Opnij probearje
+record-no-mic-found = Gjin mikrofoan fûn.
 record-error-too-short = De opname wie te koart.
 record-error-too-long = De opname wie te lang.
 record-error-too-quiet = De opname wie te súntsjes
+record-error-no-mic = De opname wie net lûd genôch.
 record-submit-success = Opname suksesfol! Wolle jo noch wat opnimme?
 record-help = Tik om op te nimmen, lês dêrnei de boppesteande sin lûd op.
 record-cancel = Opnij opnimmen annulearje
@@ -270,7 +272,6 @@ contact-required = *fereaske
 ## Request Language Modal
 
 request-language-title = Taaloanfraach
-request-language-cancel = Formulier ferlitte
 request-language-form-language =
     .label = Taal
 request-language-success-title = Taaloanfraach mei sukses yntsjinne, tank.
