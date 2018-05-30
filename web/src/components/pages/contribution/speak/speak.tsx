@@ -1,6 +1,7 @@
-import { Localized } from 'fluent-react';
+import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
 import * as React from 'react';
 import { connect } from 'react-redux';
+import { RouteComponentProps, withRouter } from 'react-router';
 const NavigationPrompt = require('react-router-navigation-prompt').default;
 import { Recordings } from '../../../../stores/recordings';
 import StateTree from '../../../../stores/tree';
@@ -9,7 +10,11 @@ import { User } from '../../../../stores/user';
 import API from '../../../../services/api';
 import { trackRecording } from '../../../../services/tracker';
 import URLS from '../../../../urls';
-import { LocaleLink } from '../../../locale-helpers';
+import {
+  localeConnector,
+  LocaleLink,
+  LocalePropsFromState,
+} from '../../../locale-helpers';
 import Modal, { ModalButtons } from '../../../modal/modal';
 import { CheckIcon, FontIcon, MicIcon, StopIcon } from '../../../ui/icons';
 import { Button, TextButton } from '../../../ui/ui';
@@ -65,15 +70,22 @@ const UnsupportedInfo = () => (
 interface PropsFromState {
   api: API;
   sentences: Recordings.Sentence[];
+  user: User.State;
 }
 
 interface PropsFromDispatch {
+  addUpload: typeof Uploads.actions.add;
   removeSentences: typeof Recordings.actions.removeSentences;
   tallyRecording: typeof User.actions.tallyRecording;
-  addUpload: typeof Uploads.actions.add;
+  updateUser: typeof User.actions.update;
 }
 
-interface Props extends PropsFromState, PropsFromDispatch {}
+interface Props
+  extends LocalePropsFromState,
+    LocalizationProps,
+    PropsFromState,
+    PropsFromDispatch,
+    RouteComponentProps<any> {}
 
 interface State {
   clips: (Recordings.SentenceRecording)[];
@@ -81,6 +93,8 @@ interface State {
   error?: RecordingError | AudioError;
   recordingStatus: RecordingStatus;
   rerecordIndex?: number;
+  showPrivacyModal: boolean;
+  showDiscardModal: boolean;
 }
 
 const initialState: State = {
@@ -89,6 +103,8 @@ const initialState: State = {
   error: null,
   recordingStatus: null,
   rerecordIndex: null,
+  showPrivacyModal: false,
+  showDiscardModal: false,
 };
 
 class SpeakPage extends React.Component<Props, State> {
@@ -271,10 +287,20 @@ class SpeakPage extends React.Component<Props, State> {
     });
   };
 
-  private upload = async () => {
-    // await this.ensurePrivacyAgreement();
+  private upload = async (hasAgreed: boolean = false) => {
+    const {
+      addUpload,
+      api,
+      removeSentences,
+      tallyRecording,
+      user,
+    } = this.props;
 
-    const { addUpload, api, removeSentences, tallyRecording } = this.props;
+    if (!hasAgreed && !user.privacyAgreed) {
+      this.setState({ showPrivacyModal: true });
+      return;
+    }
+
     const clips = this.state.clips.filter(clip => clip.recording);
 
     this.setState({ clips: [], isSubmitted: true });
@@ -293,15 +319,43 @@ class SpeakPage extends React.Component<Props, State> {
     });
   };
 
-  private reset = () => this.setState(initialState);
+  private resetState = (callback?: any) =>
+    this.setState(initialState, callback);
+
+  private agreeToTerms = async () => {
+    this.setState({ showPrivacyModal: false });
+    this.props.updateUser({ privacyAgreed: true });
+    await this.upload(true);
+  };
+
+  private toggleDiscardModal = () => {
+    this.setState({
+      showPrivacyModal: false,
+      showDiscardModal: !this.state.showDiscardModal,
+    });
+  };
+
+  private resetAndGoHome = () => {
+    const { history, toLocaleRoute } = this.props;
+    this.resetState(() => {
+      history.push(toLocaleRoute(URLS.ROOT));
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
+    });
+  };
 
   render() {
+    const { getString } = this.props;
     const {
       clips,
       isSubmitted,
       error,
       recordingStatus,
       rerecordIndex,
+      showPrivacyModal,
+      showDiscardModal,
     } = this.state;
     const recordingIndex = this.getRecordingIndex();
     return (
@@ -337,6 +391,29 @@ class SpeakPage extends React.Component<Props, State> {
             </Modal>
           )}
         </NavigationPrompt>
+        {showPrivacyModal && (
+          <Localized
+            id="review-terms"
+            termsLink={<LocaleLink to={URLS.TERMS} blank />}
+            privacyLink={<LocaleLink to={URLS.PRIVACY} blank />}>
+            <Modal
+              buttons={{
+                [getString('terms-agree')]: this.agreeToTerms,
+                [getString('terms-disagree')]: this.toggleDiscardModal,
+              }}
+            />
+          </Localized>
+        )}
+        {showDiscardModal && (
+          <Localized id="review-aborted">
+            <Modal
+              buttons={{
+                [getString('review-keep-recordings')]: this.toggleDiscardModal,
+                [getString('review-delete-recordings')]: this.resetAndGoHome,
+              }}
+            />
+          </Localized>
+        )}
         <ContributionPage
           activeIndex={recordingIndex}
           errorContent={this.isUnsupportedPlatform && <UnsupportedInfo />}
@@ -387,9 +464,9 @@ class SpeakPage extends React.Component<Props, State> {
             )
           }
           isSubmitted={isSubmitted}
-          onReset={this.reset}
+          onReset={this.resetState}
           onSkip={this.handleSkip}
-          onSubmit={this.upload}
+          onSubmit={() => this.upload()}
           primaryButtons={
             <RecordButton
               status={recordingStatus}
@@ -420,6 +497,7 @@ const mapStateToProps = (state: StateTree) => {
   return {
     api: state.api,
     sentences: Recordings.selectors.localeRecordings(state).sentences,
+    user: state.user,
   };
 };
 
@@ -427,9 +505,16 @@ const mapDispatchToProps = {
   addUpload: Uploads.actions.add,
   removeSentences: Recordings.actions.removeSentences,
   tallyRecording: User.actions.tallyRecording,
+  updateUser: User.actions.update,
 };
 
-export default connect<PropsFromState, PropsFromDispatch>(
-  mapStateToProps,
-  mapDispatchToProps
-)(SpeakPage);
+export default withRouter(
+  localeConnector(
+    withLocalization(
+      connect<PropsFromState, PropsFromDispatch>(
+        mapStateToProps,
+        mapDispatchToProps
+      )(SpeakPage)
+    )
+  )
+);
