@@ -232,6 +232,9 @@ class LanguagesPage extends React.PureComponent<Props, State> {
               </div>
             )}
 
+            <Localized id="language-section-in-progress-description">
+              <p />
+            </Localized>
             <ul style={{ display: 'flex', flexWrap: 'wrap' }}>
               {localizations.length > 0
                 ? filteredLocalizations.map((localization: any, i: number) => (
@@ -266,6 +269,9 @@ class LanguagesPage extends React.PureComponent<Props, State> {
                 <Hr />
               </div>
 
+              <Localized id="language-section-launched-description" italic={<i />}>
+                <p />
+              </Localized>
               <ul>
                 <LocalizationBox
                   locale={ENGLISH_LOCALE}
