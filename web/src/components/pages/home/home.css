@@ -62,7 +62,7 @@
 }
 
 #wall-of-text p {
-    color: var(--grey-font-color);
+    color: var(--near-black);
     line-height: calc(135% + 2px);
 }
 
@@ -96,7 +96,7 @@
     margin: var(--standard-margin) 0 1.5rem;
     font-size: var(--font-size-small);
     font-style: italic;
-    color: var(--grey-font-color);
+    color: var(--near-black);
 }
 
 @media (--mobile) {

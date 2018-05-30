@@ -10,10 +10,10 @@
     font-family: var(--base-font-family);
     text-align: center;
     cursor: pointer;
-    border: 1px solid black;
+    border: 1px solid var(--near-black);
     outline: none;
     transition: all var(--transition-duration) linear;
-    background: black;
+    background: var(--near-black);
     color: var(--white);
     display: block;
     width: 100%;

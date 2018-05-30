@@ -1,12 +1,12 @@
 :root {
     --white: white;
     --black: black;
-    --grey-font-color: #4A4A4A;
     --dark-red: #E45D68;
     --red: #FF4F5E;
     --light-red: #FDC6C8;
     --green: #B7D43F;
     --valid-green: #59cbb7;
+    --near-black: #4A4A4A;
     --grey: #E7E5E2;
     --darker-grey: #E6E5E3;
     --light-grey: #F3F2F0;

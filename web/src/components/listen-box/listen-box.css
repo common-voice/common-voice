@@ -20,7 +20,7 @@
 
 .sentence-box {
     min-height: var(--listen-box-height);
-    color: var(--grey-font-color);
+    color: var(--near-black);
 }
 
 .play-box,

@@ -664,7 +664,7 @@ body:not(.ios) .recording #background-container {
 
 .small {
     font-size: var(--font-size-small);
-    color: var(--grey-font-color);
+    color: var(--near-black);
 }
 
 a.small, .small a, .text-button.small {

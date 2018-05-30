@@ -6,7 +6,7 @@
     text-align: start;
 
     & p {
-        color: var(--grey-font-color);
+        color: var(--near-black);
 
         & a {
             color: var(--link-color);

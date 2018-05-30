@@ -57,7 +57,7 @@
 
 .download-modal p {
     margin-bottom: 2rem;
-    color: var(--grey-font-color);
+    color: var(--near-black);
 }
 
 #common-voice-data {
@@ -83,7 +83,7 @@
 
 #explanatory-text {
     margin: 2rem 0;
-    color: var(--grey-font-color);
+    color: var(--near-black);
 }
 
 #speech-blog-link {
@@ -124,18 +124,18 @@
 }
 
 .dataset p {
-    color: var(--grey-font-color);
+    color: var(--near-black);
     margin: var(--standard-margin) 0;
 }
 
 .dataset .license {
-    color: var(--grey-font-color);
+    color: var(--near-black);
     padding: 1rem 1.5rem;
     font-size: var(--font-size-small);
 }
 
 .dataset .license a {
-    color: var(--grey-font-color);
+    color: var(--near-black);
 }
 
 .dataset .action {
@@ -178,14 +178,14 @@ body:not(.mobile-safari) .dataset .button.card-action:hover path,
 
 #bundle-info {
     margin-top: 1rem;
-    color: var(--grey-font-color);
+    color: var(--near-black);
     font-size: var(--font-size-small);
     font-style: italic;
 }
 
 .ReactModal__Content .inner.email-modal {
     max-width: 45rem;
-    color: var(--grey-font-color);
+    color: var(--near-black);
 }
 
 .email-modal.compact {
