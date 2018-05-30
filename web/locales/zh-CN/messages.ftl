@@ -77,7 +77,7 @@ privacy = 隐私
 terms = 使用条款
 cookies = Cookies
 faq = 常见问题
-content-license-text = 内容遵循<licenseLink>Creative Commons 许可</licenseLink>授权使用
+content-license-text = 内容遵循<licenseLink>知识共享许可协议</licenseLink>授权使用
 share-title = 帮助我们找到更多人贡献他们的声音！
 share-text = 帮助训练机器像真人一样说话，请在 { $link } 处贡献出您的声音
 back-top = 回到顶端
@@ -258,7 +258,6 @@ contact-required = * 必填
 ## Request Language Modal
 
 request-language-title = 语言请求
-request-language-cancel = 退出表单
 request-language-form-language =
     .label = 语言
 request-language-success-title = 非常感谢，您的语言请求已成功提交。
