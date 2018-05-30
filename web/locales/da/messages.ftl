@@ -219,6 +219,7 @@ record-platform-not-supported-desktop = Til computere kan du hente den seneste v
 record-platform-not-supported-ios = <bold>iOS</bold>-brugere kan hente vores gratis app:
 record-must-allow-microphone = Du skal tillade mikrofon-adgang.
 record-retry = Prøv igen
+record-no-mic-found = Ingen mikrofon fundet.
 record-error-too-short = Optagelsen var for kort.
 record-error-too-long = Optagelsen var for lang.
 record-error-too-quiet = Optagelsen var for stille.
@@ -260,7 +261,6 @@ contact-required = *påkrævet
 ## Request Language Modal
 
 request-language-title = Anmodning om et nyt sprog
-request-language-cancel = Luk formular
 request-language-form-language =
     .label = Sprog
 request-language-success-title = Din anmodning om et nyt sprog er modtaget. Tak!
