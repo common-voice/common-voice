@@ -232,7 +232,8 @@
             word-wrap: break-word;
 
             opacity: 1;
-            transition: all var(--transition-duration-slow) var(--easing);
+            transition: transform var(--transition-duration-slow) var(--easing),
+                        opacity var(--transition-duration-slow) var(--easing);
 
             @media (--md-up) {
                 padding: 0 25px;
