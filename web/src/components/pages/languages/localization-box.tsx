@@ -47,7 +47,12 @@ function Skeleton({
               <ContentLoader height={25} />
             ) : (
               <React.Fragment>
-                <Localized id="language-total-progress">
+                <Localized
+                  id={
+                    progress < 1
+                      ? 'language-meter-in-progress'
+                      : 'language-section-launched'
+                  }>
                   <span />
                 </Localized>
                 <b>{Math.round(progress * 100)}%</b>

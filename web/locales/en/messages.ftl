@@ -271,6 +271,7 @@ language-section-launched-description = For these launched languages the website
 languages-show-more = See More
 languages-show-less = See Less
 language-speakers = Speakers
+language-meter-in-progress = Progress
 language-total-progress = Total
 language-search-input =
     .placeholder = Search
