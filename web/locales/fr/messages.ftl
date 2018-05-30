@@ -17,6 +17,7 @@ audio-loading-error = Désolé, nous préparons nos fichiers audio. Veuillez ré
 ## Languages
 
 bn = Bengali
+br = Breton
 ca = Catalan
 cs = Tchèque
 cv = Tchouvache
@@ -251,7 +252,6 @@ download-no = Non merci
 ## Contact Modal
 
 contact-title = Formulaire de contact
-contact-cancel = Annuler
 contact-form-name =
     .label = Nom
 contact-form-message =
@@ -261,7 +261,6 @@ contact-required = *requis
 ## Request Language Modal
 
 request-language-title = Proposition de langue
-request-language-cancel = Quitter le formulaire
 request-language-form-language =
     .label = Langue
 request-language-success-title = La langue a été proposée, merci.
