@@ -219,6 +219,7 @@ record-platform-not-supported-desktop = Em computadores, você pode baixar o mai
 record-platform-not-supported-ios = Usuários de <bold>iOS</bold> podem baixar nosso aplicativo gratuito:
 record-must-allow-microphone = Você deve permitir o acesso ao microfone.
 record-retry = Tentar novamente
+record-no-mic-found = Não foi encontrado nenhum microfone.
 record-error-too-short = A gravação foi muito curta.
 record-error-too-long = A gravação foi muito longa
 record-error-too-quiet = A gravação ficou com volume muito baixa.
@@ -250,7 +251,6 @@ download-no = Não, obrigado
 ## Contact Modal
 
 contact-title = Formulário de contato
-contact-cancel = Cancelar
 contact-form-name =
     .label = Nome
 contact-form-message =
@@ -260,7 +260,6 @@ contact-required = *necessário
 ## Request Language Modal
 
 request-language-title = Solicitação de idioma
-request-language-cancel = Sair do formulário
 request-language-form-language =
     .label = Idioma
 request-language-success-title = A solicitação de idioma foi enviada com sucesso, obrigado.
@@ -273,6 +272,7 @@ language-section-launched = Iniciada
 languages-show-more = Veja mais
 languages-show-less = Ver menos
 language-speakers = Falantes
+language-meter-in-progress = Progresso
 language-total-progress = Total
 language-search-input =
     .placeholder = Pesquisar
