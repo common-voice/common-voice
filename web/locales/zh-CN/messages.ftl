@@ -17,6 +17,7 @@ audio-loading-error = 抱歉！我们正在处理音频文件，请稍后再试�
 ## Languages
 
 bn = 孟加拉语
+br = 布列塔尼语
 ca = 加泰隆语
 cs = 捷克语
 cv = 楚瓦什语
@@ -217,6 +218,7 @@ record-platform-not-supported-desktop = 您可以在桌面电脑上下载最新�
 record-platform-not-supported-ios = <bold>iOS</bold> 用户可以下载我们的免费应用程序：
 record-must-allow-microphone = 您必须允许访问麦克风。
 record-retry = 重试
+record-no-mic-found = 未找到麦克风
 record-error-too-short = 这份录音太短了。
 record-error-too-long = 这份录音太长了。
 record-error-too-quiet = 这份录音太安静了。
@@ -248,7 +250,6 @@ download-no = 不了，谢谢
 ## Contact Modal
 
 contact-title = 联系表
-contact-cancel = 取消
 contact-form-name =
     .label = 姓名
 contact-form-message =
