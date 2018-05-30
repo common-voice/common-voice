@@ -29,6 +29,7 @@ import {
 import API from '../services/api';
 import { Locale } from '../stores/locale';
 import StateTree from '../stores/tree';
+import { Uploads } from '../stores/uploads';
 import Layout from './layout/layout';
 import ListenPage from './pages/contribution/listen/listen';
 import SpeakPage from './pages/contribution/speak/speak';
@@ -60,9 +61,11 @@ const PRELOAD = [
 
 interface PropsFromState {
   api: API;
+  uploads: Uploads.State;
 }
 
 interface PropsFromDispatch {
+  removeUpload: typeof Uploads.actions.remove;
   setLocale: typeof Locale.actions.set;
 }
 
@@ -81,28 +84,51 @@ interface LocalizedPagesState {
 const LocalizedLayout = withRouter(
   localeConnector(
     connect<PropsFromState, PropsFromDispatch>(
-      ({ api }: StateTree) => ({
+      ({ api, uploads }: StateTree) => ({
         api,
+        uploads,
       }),
-      { setLocale: Locale.actions.set }
+      { removeUpload: Uploads.actions.remove, setLocale: Locale.actions.set }
     )(
       class extends React.Component<LocalizedPagesProps, LocalizedPagesState> {
         state: LocalizedPagesState = {
           messagesGenerator: null,
         };
 
+        isUploading = false;
+
         async componentDidMount() {
           await this.prepareMessagesGenerator(this.props);
         }
 
         async componentWillReceiveProps(nextProps: LocalizedPagesProps) {
+          const { uploads, userLocales } = nextProps;
+
+          this.runUploads(uploads).catch(e => console.error(e));
+          window.onbeforeunload =
+            uploads.length > 0
+              ? e =>
+                  (e.returnValue =
+                    'Leaving the page now aborts pending uploads. Are you sure?')
+              : undefined;
+
           if (
-            nextProps.userLocales.find(
+            userLocales.find(
               (locale, i) => locale !== this.props.userLocales[i]
             )
           ) {
             await this.prepareMessagesGenerator(nextProps);
           }
+        }
+
+        async runUploads(uploads: Uploads.State) {
+          if (this.isUploading) return;
+          this.isUploading = true;
+          for (const upload of uploads) {
+            await upload();
+            this.props.removeUpload(upload);
+          }
+          this.isUploading = false;
         }
 
         async prepareMessagesGenerator({

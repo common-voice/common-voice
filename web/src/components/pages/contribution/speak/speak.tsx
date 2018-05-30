@@ -2,9 +2,9 @@ import { Localized } from 'fluent-react';
 import * as React from 'react';
 import { connect } from 'react-redux';
 const NavigationPrompt = require('react-router-navigation-prompt').default;
-import ERROR_MSG from '../../../../error-msg';
 import { Recordings } from '../../../../stores/recordings';
 import StateTree from '../../../../stores/tree';
+import { Uploads } from '../../../../stores/uploads';
 import { User } from '../../../../stores/user';
 import API from '../../../../services/api';
 import { trackRecording } from '../../../../services/tracker';
@@ -70,6 +70,7 @@ interface PropsFromState {
 interface PropsFromDispatch {
   removeSentences: typeof Recordings.actions.removeSentences;
   tallyRecording: typeof User.actions.tallyRecording;
+  addUpload: typeof Uploads.actions.add;
 }
 
 interface Props extends PropsFromState, PropsFromDispatch {}
@@ -273,19 +274,23 @@ class SpeakPage extends React.Component<Props, State> {
   private upload = async () => {
     // await this.ensurePrivacyAgreement();
 
-    const { api, removeSentences, tallyRecording } = this.props;
+    const { addUpload, api, removeSentences, tallyRecording } = this.props;
     const clips = this.state.clips.filter(clip => clip.recording);
 
     this.setState({ clips: [], isSubmitted: true });
 
-    for (const { sentence, recording } of clips) {
-      await api.uploadClip(recording.blob, sentence.id, sentence.text);
+    for (const { sentence, recording } of clips)
+      addUpload(async () => {
+        await api.uploadClip(recording.blob, sentence.id, sentence.text);
+        tallyRecording();
+      });
 
-      tallyRecording();
-    }
     removeSentences(clips.map(c => c.sentence.id));
-    await api.syncDemographics();
-    trackRecording('submit');
+
+    addUpload(async () => {
+      await api.syncDemographics();
+      trackRecording('submit');
+    });
   };
 
   private reset = () => this.setState(initialState);
@@ -419,6 +424,7 @@ const mapStateToProps = (state: StateTree) => {
 };
 
 const mapDispatchToProps = {
+  addUpload: Uploads.actions.add,
   removeSentences: Recordings.actions.removeSentences,
   tallyRecording: User.actions.tallyRecording,
 };

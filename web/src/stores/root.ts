@@ -8,6 +8,7 @@ import { User } from './user';
 import { Clips } from './clips';
 import { RequestedLanguages } from './requested-languages';
 import { Locale } from './locale';
+import {Uploads} from "./uploads";
 
 const USER_KEY = 'userdata';
 
@@ -25,13 +26,14 @@ const composeEnhancers =
   (window as any).__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const store = createStore(
   function root(
-    { recordings, user, clips, requestedLanguages, locale }: StateTree = {
+    { recordings, user, clips, requestedLanguages, locale, uploads }: StateTree = {
       api: undefined,
       recordings: undefined,
       user: undefined,
       clips: undefined,
       requestedLanguages: undefined,
       locale: undefined,
+      uploads: undefined
     },
     action:
       | Recordings.Action
@@ -39,6 +41,7 @@ const store = createStore(
       | Clips.Action
       | RequestedLanguages.Action
       | Locale.Action
+      | Uploads.Action
   ): StateTree {
     const newState = {
       recordings: Recordings.reducer(
@@ -53,6 +56,7 @@ const store = createStore(
         action as RequestedLanguages.Action
       ),
       locale: Locale.reducer(locale, action as Locale.Action),
+      uploads: Uploads.reducer(uploads, action as Uploads.Action),
     };
 
     return { api: new API(newState.locale, newState.user), ...newState };
