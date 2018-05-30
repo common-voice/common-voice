@@ -276,7 +276,7 @@ class SpeakPage extends React.Component<Props, State> {
     const { api, removeSentences, tallyRecording } = this.props;
     const clips = this.state.clips.filter(clip => clip.recording);
 
-    this.setState({ isSubmitted: true });
+    this.setState({ clips: [], isSubmitted: true });
 
     for (const { sentence, recording } of clips) {
       await api.uploadClip(recording.blob, sentence.id, sentence.text);
