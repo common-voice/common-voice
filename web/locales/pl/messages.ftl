@@ -220,9 +220,11 @@ record-platform-not-supported-desktop = Na komputerze można pobrać najnowszą 
 record-platform-not-supported-ios = Użytkownicy <bold>iOS</bold> mogą pobrać bezpłatną aplikację:
 record-must-allow-microphone = Musisz zezwolić na dostęp do mikrofonu.
 record-retry = Ponów
+record-no-mic-found = Nie odnaleziono mikrofonu.
 record-error-too-short = Nagranie jest za krótkie.
 record-error-too-long = Nagranie jest za długie.
 record-error-too-quiet = Nagranie jest za ciche.
+record-error-no-mic = Nagranie jest za ciche.
 record-submit-success = Pomyślnie wysłano! Kontynuować nagrywanie?
 record-help = Naciśnij, aby rozpocząć, a następnie przeczytaj powyższe zdanie.
 record-cancel = Anuluj nagrywanie
@@ -261,7 +263,6 @@ contact-required = * wymagane
 ## Request Language Modal
 
 request-language-title = Poproś o język
-request-language-cancel = Wyjdź z formularza
 request-language-form-language =
     .label = Język
 request-language-success-title = Prośba o język została pomyślnie przesłana, dziękujemy.
