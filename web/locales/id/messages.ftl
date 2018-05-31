@@ -17,6 +17,7 @@ audio-loading-error = Maaf! Kami sedang memproses berkas audio kami, silakan cob
 ## Languages
 
 bn = Bahasa Bengali
+br = Bahasa Breton
 ca = Bahasa Katalan
 cs = Bahasa Ceko
 cv = Bahasa Chuvash
@@ -26,8 +27,6 @@ de = Bahasa Jerman
 el = Bahasa Yunani
 en = Bahasa Inggris
 es = Bahasa Spanyol
-es-AR = Bahasa Spanyol (Argentina)
-es-CL = Bahasa Spanyol (Chili)
 fr = Bahasa Perancis
 fy-NL = Bahasa Frisia
 ga-IE = Bahasa Irlandia
@@ -36,6 +35,7 @@ hu = Bahasa Hongaria
 id = Bahasa Indonesia
 it = Bahasa Italia
 ka = Bahasa Georgia
+kab = Bahasa Kabyle
 ko = Bahasa Korea
 kw = Bahasa Kornish
 mk = Bahasa Makedonia
@@ -49,6 +49,7 @@ pt-BR = Bahasa Portugis (Brasil)
 ro = Bahasa Rumania
 ru = Bahasa Rusia
 sk = Bahasa Slowakia
+sl = Bahasa Slovenia
 sq = Bahasa Albania
 sr = Bahasa Serbia
 sv-SE = Bahasa Swedia
@@ -219,6 +220,7 @@ record-platform-not-supported-desktop = Pada desktop komputer, Anda dapat mengun
 record-platform-not-supported-ios = Pengguna <bold>iOS</bold> dapat mengunduh aplikasi kami secara gratis:
 record-must-allow-microphone = Anda harus mengizinkan akses mikrofon.
 record-retry = Coba Lagi
+record-no-mic-found = Tidak mendeteksi mikrofon
 record-error-too-short = Rekaman Anda terlalu pendek.
 record-error-too-long = Rekaman Anda terlalu panjang.
 record-error-too-quiet = Rekaman terlalu sunyi.
@@ -250,7 +252,6 @@ download-no = Tidak, Terima Kasih
 ## Contact Modal
 
 contact-title = Formulir Kontak
-contact-cancel = Batal
 contact-form-name =
     .label = Nama
 contact-form-message =
@@ -260,7 +261,6 @@ contact-required = *wajib
 ## Request Language Modal
 
 request-language-title = Permohonan Bahasa
-request-language-cancel = Keluar Formulir
 request-language-form-language =
     .label = Bahasa
 request-language-success-title = Terima kasih, permintaan bahasa baru berhasil dikirimkan.
@@ -269,10 +269,49 @@ request-language-success-content = Kami akan tetap terhubung dengan lebih banyak
 ## Languages Overview
 
 language-section-in-progress = Sedang diproses
+language-section-in-progress-description = Saat ini, bahasa-bahasa dalam pengembangan sedang dibangun untuk kontribusi oleh komunitas kami; kemajuan mereka mencerminkan kemajuan keseluruhan pelokalan situs web dan fase pengumpulan kalimat.
 language-section-launched = Diluncurkan
+language-section-launched-description = Untuk bahasa-bahasa yang telah diluncurkan, situs web telah berhasil dilokalkan dan memiliki kalimat terkoleksi yang cukup, memungkinkan untuk berlangsungnya kontribusi <italic>{ speak }</italic> dan <italic>{ listen }</italic>.
 languages-show-more = Lebih Banyak
 languages-show-less = Lebih Sedikit
 language-speakers = Penutur
+language-meter-in-progress = Kemajuan
 language-total-progress = Total
 language-search-input =
     .placeholder = Cari
+
+## New Contribution
+
+action-click = Klik
+action-tap = Ketuk
+contribute = Berkontribusi
+listen = Dengarkan
+skip = Lewati
+shortcuts = Pintasan
+clips = Klip
+goal-type-record = merekam
+goal-type-validation = validasi
+toward-goal = Sudah mencapai <goalPercentage></goalPercentage> dari capaian { $goalType } Common Voice hari ini. Terima kasih
+goal-help = Anda telah membantu Common Voice mencapai <goalPercentage></goalPercentage> dari capaian harian { $goalType }!
+contribute-more = Siap melanjutkan { $count } sisanya?
+record-cta = Mulai merekam
+record-instruction = { $actionType } <recordIcon></recordIcon> kemudian baca kalimatnya dengan lantang
+record-stop-instruction = { $actionType } <stopIcon></stopIcon> jika sudah selesai
+record-three-more-instruction = Tiga lagi!
+record-again-instruction = Hebat! <recordIcon></recordIcon> Rekam klip Anda berikutnya
+record-again-instruction2 = Lanjut terus, rekam lagi <recordIcon></recordIcon>
+record-last-instruction = <checkIcon></checkIcon> Yang terakhir!
+review-tooltip = Tinjau & rekam ulang klip di sini selagi melanjutkan
+unable-speak = Tidak bisa berbicara sekarang
+review-instruction = Tinjau & rekam ulang klip jika perlu
+record-submit-tooltip = { $actionType } kirimkan jika sudah siap
+clips-submitted = { $count } Klip terkirim!
+record-abort-title = Selesaikan rekamannya dulu?
+record-abort-text = Pergi sekarang artinya kemajuan Anda akan hilang
+record-abort-submit = Kirimkan klip
+record-abort-continue = Selesaikan rekaman
+record-abort-delete = Keluar & Hapus rekaman
+listen-instruction = { $actionType } <playIcon></playIcon> apakah kalimatnya sudah diucapkan dengan akurat?
+listen-again-instruction = Hasil yang hebat! <playIcon></playIcon> Dengarkan kembali jika Anda siap
+listen-3rd-time-instruction = sudah 2 <playIcon></playIcon> , lanjut terus!
+listen-last-time-instruction = <playIcon></playIcon> Satu lagi!
