@@ -233,7 +233,6 @@ record-no-mic-found = Gjin mikrofoan fûn.
 record-error-too-short = De opname wie te koart.
 record-error-too-long = De opname wie te lang.
 record-error-too-quiet = De opname wie te súntsjes
-record-error-no-mic = De opname wie net lûd genôch.
 record-submit-success = Opname suksesfol! Wolle jo noch wat opnimme?
 record-help = Tik om op te nimmen, lês dêrnei de boppesteande sin lûd op.
 record-cancel = Opnij opnimmen annulearje
@@ -262,7 +261,6 @@ download-no = Nee tanke
 ## Contact Modal
 
 contact-title = Kontaktformulier
-contact-cancel = Annulearje
 contact-form-name =
     .label = Namme
 contact-form-message =
@@ -280,10 +278,12 @@ request-language-success-content = Wy nimme ynkoarten kontakt op mei mear ynform
 ## Languages Overview
 
 language-section-in-progress = Yn útfiering
+language-section-in-progress-description = Talen yn útfiering wurde op dit stuit ree makke foar meiwurking troch ús mienskippen; harren foarútgong lit sjen hoefier't se binne mei it oersetten fan de website en it sammeljen fan sinnen.
 language-section-launched = Lansearre
 languages-show-more = Mear besjen
 languages-show-less = Minder besjen
 language-speakers = Sprekkers
+language-meter-in-progress = Yn útfiering
 language-total-progress = Totaal
 language-search-input =
     .placeholder = Sykje
