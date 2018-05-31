@@ -296,6 +296,7 @@ clips = Clipiau
 goal-type-record = recordio
 goal-type-validation = dilysu
 toward-goal = Mae hynny'n <goalPercentage></goalPercentage> tuag at nod { $goalType } Common Voice. Diolch
+goal-help = Rydych wedi helpu Common Voice i gyrraedd <goalPercentage></goalPercentage> o'i nod { $goalType } dyddiol!
 contribute-more = Barod i wneud { $count } yn rhagor?
 record-cta = Cychwyn recordio
 record-instruction = { $actionType }<recordIcon></recordIcon> ac yna darllen y frawddeg yn uchel
