@@ -10,7 +10,10 @@
         color: var(--warm-grey);
 
         @media (--md-up) {
-            margin-right: 35px;
+            width: 148px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
     }
 
