@@ -16,7 +16,7 @@
     overflow-x: hidden;
     margin: 0 auto;
     padding: 10px 20px;
-    max-width: var(--desktop-width);
+    max-width: var(--wide-desktop-width);
     height: 100%;
     width: 100%;
     box-sizing: border-box;
