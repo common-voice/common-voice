@@ -279,6 +279,7 @@ language-search-input =
 ## New Contribution
 action-click = Click
 action-tap = Tap
+contribute = Contribute
 listen = Listen
 skip = Skip
 shortcuts = Shortcuts

@@ -14,14 +14,9 @@ export default ({ children, ...props }: { [key: string]: any }) => (
           <LocaleNavLink to={URLS.RECORD} exact />
         </Localized>
       ) : (
-        <React.Fragment>
-          <Localized id="speak">
-            <LocaleNavLink to={URLS.SPEAK} exact />
-          </Localized>
-          <Localized id="listen">
-            <LocaleNavLink to={URLS.LISTEN} exact />
-          </Localized>
-        </React.Fragment>
+        <Localized id="contribute">
+          <LocaleNavLink to={URLS.SPEAK} exact />
+        </Localized>
       )}
     </ContributableLocaleLock>
     <Localized id="datasets">
