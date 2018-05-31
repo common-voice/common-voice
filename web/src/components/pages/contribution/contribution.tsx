@@ -1,6 +1,6 @@
 import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
 import * as React from 'react';
-const {Tooltip} = require('react-tippy');
+const { Tooltip } = require('react-tippy');
 import URLS from '../../../urls';
 import { LocaleLink, LocaleNavLink } from '../../locale-helpers';
 import { ArrowLeft, CheckIcon, SkipIcon } from '../../ui/icons';
@@ -241,8 +241,7 @@ class ContributionPage extends React.Component<Props, State> {
                     open={isFirstSubmit || undefined}
                     title={getString('record-submit-tooltip', {
                       actionType: getString('action-tap'),
-                    })}
-                    >
+                    })}>
                     <Localized id="submit-form-action">
                       <Button
                         rounded

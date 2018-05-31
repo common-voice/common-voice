@@ -1,6 +1,6 @@
-import {LocalizationProps, Localized, withLocalization} from 'fluent-react';
+import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
 import * as React from 'react';
-const {Tooltip} = require('react-tippy');
+const { Tooltip } = require('react-tippy');
 import { Recordings } from '../../../../stores/recordings';
 import {
   PlayOutlineIcon,

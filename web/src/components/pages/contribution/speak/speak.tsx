@@ -456,7 +456,6 @@ class SpeakPage extends React.Component<Props, State> {
                           recordingIndex
                         ] || 'record-again-instruction2'
                 }
-                checkIcon={<CheckIcon />}
                 recordIcon={<MicIcon />}
                 stopIcon={<StopIcon />}
                 {...props}

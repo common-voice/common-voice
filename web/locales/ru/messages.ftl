@@ -298,7 +298,7 @@ record-instruction = { $actionType } <recordIcon></recordIcon>, затем за�
 record-stop-instruction = { $actionType } <stopIcon></stopIcon>, когда закончите
 record-again-instruction = Отлично! <recordIcon></recordIcon> Запишите свой следующий клип
 record-again-instruction2 = Продолжайте, запишите ещё <recordIcon></recordIcon>
-record-last-instruction = <checkIcon></checkIcon>Последний!
+record-last-instruction = <recordIcon></recordIcon>Последний!
 unable-speak = Не в состоянии говорить прямо сейчас
 clips-submitted =
     { $count ->
