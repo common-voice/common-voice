@@ -1,5 +1,6 @@
-import { Localized } from 'fluent-react';
+import {LocalizationProps, Localized, withLocalization} from 'fluent-react';
 import * as React from 'react';
+const {Tooltip} = require('react-tippy');
 import { Recordings } from '../../../../stores/recordings';
 import {
   PlayOutlineIcon,
@@ -12,7 +13,7 @@ import Pill, { PillStatus } from '../pill';
 
 import './recording-pill.css';
 
-interface Props extends ContributionPillProps {
+interface Props extends ContributionPillProps, LocalizationProps {
   clip: Recordings.SentenceRecording;
   onRerecord: () => any;
   status: PillStatus;
@@ -22,7 +23,7 @@ interface State {
   isPlaying: boolean;
 }
 
-export default class RecordingPill extends React.Component<Props, State> {
+class RecordingPill extends React.Component<Props, State> {
   audioRef = React.createRef<HTMLAudioElement>();
 
   state = { isPlaying: false };
@@ -40,7 +41,7 @@ export default class RecordingPill extends React.Component<Props, State> {
   };
 
   render() {
-    const { clip, onRerecord, status, ...props } = this.props;
+    const { clip, getString, onRerecord, status, ...props } = this.props;
     return (
       <Pill {...props} className="recording" openable status={status}>
         {status === 'active' && (
@@ -72,9 +73,11 @@ export default class RecordingPill extends React.Component<Props, State> {
                   onClick={this.toggleIsPlaying}>
                   <PlayOutlineIcon />
                 </button>
-                <button className="redo" type="button" onClick={onRerecord}>
-                  <RedoIcon />
-                </button>
+                <Tooltip arrow title={getString('review-tooltip')}>
+                  <button className="redo" type="button" onClick={onRerecord}>
+                    <RedoIcon />
+                  </button>
+                </Tooltip>
                 <button className="share" type="button">
                   <ShareIcon />
                 </button>
@@ -86,3 +89,5 @@ export default class RecordingPill extends React.Component<Props, State> {
     );
   }
 }
+
+export default withLocalization(RecordingPill);
