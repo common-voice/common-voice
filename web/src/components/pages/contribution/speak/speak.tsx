@@ -464,7 +464,7 @@ class SpeakPage extends React.Component<Props, State> {
           }
           isFirstSubmit={user.recordTally === 0}
           isSubmitted={isSubmitted}
-          onReset={this.resetState}
+          onReset={() => this.resetState()}
           onSkip={this.handleSkip}
           onSubmit={() => this.upload()}
           primaryButtons={
