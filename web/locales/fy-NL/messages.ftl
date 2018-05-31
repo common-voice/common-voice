@@ -280,6 +280,7 @@ request-language-success-content = Wy nimme ynkoarten kontakt op mei mear ynform
 language-section-in-progress = Yn útfiering
 language-section-in-progress-description = Talen yn útfiering wurde op dit stuit ree makke foar meiwurking troch ús mienskippen; harren foarútgong lit sjen hoefier't se binne mei it oersetten fan de website en it sammeljen fan sinnen.
 language-section-launched = Lansearre
+language-section-launched-description = Foar dizze lansearre talen is de website mei sukses oerset en binne der genôch sinnen sammele om troch te gean mei meiwurkjen oan <italic>{ speak }</italic> en <italic>{ listen }</italic>.
 languages-show-more = Mear besjen
 languages-show-less = Minder besjen
 language-speakers = Sprekkers
