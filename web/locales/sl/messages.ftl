@@ -202,12 +202,14 @@ review-delete-recordings = Izbriši moje posnetke
 ## Download Modal
 
 download-title = Vaš prenos se je pričel.
+download-form-email =
+    .label = Vpišite svoj e-poštni naslov
+    .value = Hvala, ostali bomo v stiku. 
 download-no = Ne, hvala
 
 ## Contact Modal
 
 contact-title = Kontaktni obrazec
-contact-cancel = Prekliči
 contact-form-name =
     .label = Ime
 contact-form-message =
@@ -216,7 +218,6 @@ contact-required = *obvezno polje
 
 ## Request Language Modal
 
-request-language-cancel = Zapri obrazec
 request-language-form-language =
     .label = Jezik
 request-language-success-title = Predlog za jezik je bil uspešno poslan, hvala.
