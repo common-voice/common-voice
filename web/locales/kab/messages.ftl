@@ -17,6 +17,7 @@ audio-loading-error = Suref-aɣ! Aqlaɣ nessesfer ifuyla imeslawen. Ma ulac aɣi
 ## Languages
 
 bn = Tabengalit
+br = Tabrutunt
 ca = Takatalant
 cs = Tačikit
 cv = Tačuvacit
@@ -116,8 +117,8 @@ status-title = Aswir usenfaṛ i meṛṛa: wali ar wanda i newweḍ!
 status-contribute = Ttekki s taɣect-ik
 status-hours =
     { $hours ->
-        [one] Ssaɛa i yemden armi d tura!
-       *[other] { $hours } n sswayeɛ i yemden armi d tura
+        [one] Asrag yemmden ar tura!
+       *[other] { $hours } n yesragen yemmden ar tura!
     }
 # Variables:
 # $goal - number of hours representing the next goal
@@ -218,6 +219,7 @@ record-platform-not-supported-desktop = I yiselkimen n tnrait, tzemreḍ ad tess
 record-platform-not-supported-ios = Iseqdsacen n <bold>iOS</bold> zemren ad sidren asnaɣ-nneɣ n baṭel :
 record-must-allow-microphone = Ilaq ad tsirgeḍ anekcum i usawaḍ.
 record-retry = Σreḍ i tikelt-nniḍen
+record-no-mic-found = Ulac asawaḍ.
 record-error-too-short = Meẓẓi mliḥ usekles-nni.
 record-error-too-long = Meqqeṛ mliḥ usekles-nni.
 record-error-too-quiet = Ixuṣṣ mliḥ ṣṣut n usekles-nni.
@@ -249,7 +251,6 @@ download-no = Uhu Tanemmirt
 ## Contact Modal
 
 contact-title = Tifert n unermes
-contact-cancel = Sefsex
 contact-form-name =
     .label = Isem
 contact-form-message =
@@ -259,7 +260,6 @@ contact-required = *ilaq ad yili
 ## Request Language Modal
 
 request-language-title = Asuter n tutlayt
-request-language-cancel = Ffeɣ si tifert
 request-language-form-language =
     .label = Tutlayt
 request-language-success-title = Asuter-inek/inem i tmerniwt n tutlayt yettwaceyyeɛ. Tenemmirt.
@@ -268,10 +268,13 @@ request-language-success-content = A nennadi aṭas amek ara nernu tulayt-nwen a
 ## Languages Overview
 
 language-section-in-progress = Ad d-iteddu
+language-section-in-progress-description = Tutlayin deg usfari ttwabnant i uttekki sɣur tirebbaɛ-nneɣ; asfari-nsent yeskan-d anida llant deg usmel n usidel akked imecwaṛen n ulqaḍ n tifyar.
 language-section-launched = Yendeh
+language-section-launched-description = Tutlayin-agi yekkren anida asmel yettwadieg akken iwata, yesɛan daɣen ddeqs n tifyar i d-yettwaleqḍen, akken ad serreḥ i uttekki <italic>{ speak }</italic> iteddun akked <italic>{ listen }</italic>.
 languages-show-more = Wali ugar
 languages-show-less = Wali qqel
 language-speakers = Wid yettmeslayen
+language-meter-in-progress = Asfari
 language-total-progress = Asemday
 language-search-input =
     .placeholder = Nadi
