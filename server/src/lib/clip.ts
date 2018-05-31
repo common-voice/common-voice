@@ -195,9 +195,12 @@ export default class Clip {
 
   private serveDailyCount = async (request: Request, response: Response) => {
     response.json(await this.model.db.getDailyClipsCount());
-  }
+  };
 
-  private serveDailyVotesCount = async (request: Request, response: Response) => {
+  private serveDailyVotesCount = async (
+    request: Request,
+    response: Response
+  ) => {
     response.json(await this.model.db.getDailyVotesCount());
-  }
+  };
 }
