@@ -273,9 +273,10 @@ class SpeakPage extends React.Component<Props, State> {
     this.setState({ rerecordIndex: null });
   };
 
-  private handleSkip = () => {
+  private handleSkip = async () => {
     const { removeSentences, sentences } = this.props;
     const { clips } = this.state;
+    await this.discardRecording();
     removeSentences([clips[this.getRecordingIndex()].sentence.id]);
     this.setState({
       clips: clips.map(
