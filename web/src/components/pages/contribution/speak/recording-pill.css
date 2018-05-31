@@ -2,19 +2,19 @@
 
 .pill.recording {
     & .text {
-        margin-left: 12px;
+        margin: 0 12px;
+        width: 133px;
+
         font-size: var(--font-size-small);
         font-weight: 600;
         text-transform: uppercase;
         letter-spacing: 0.4px;
-        color: var(--warm-grey);
 
-        @media (--md-up) {
-            width: 148px;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        color: var(--warm-grey);
     }
 
     & button {
@@ -22,7 +22,7 @@
         border: none;
         border-left: 1px solid var(--desert-storm);
 
-        &:first-of-type {
+        &.play {
             border-left: none;
         }
 

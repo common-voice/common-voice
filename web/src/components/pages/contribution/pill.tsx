@@ -28,7 +28,7 @@ export default ({
     onClick={
       openable
         ? event => {
-            if (status !== 'done') return;
+            if (status === 'pending') return;
             event.stopPropagation();
             if (isOpen) return;
             onClick();

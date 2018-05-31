@@ -419,15 +419,9 @@ class SpeakPage extends React.Component<Props, State> {
           activeIndex={recordingIndex}
           errorContent={this.isUnsupportedPlatform && <UnsupportedInfo />}
           extraButton={
-            rerecordIndex === null ? (
-              <Localized id="unable-speak">
-                <LocaleLink to={URLS.LISTEN} />
-              </Localized>
-            ) : (
-              <Localized id="record-cancel">
-                <TextButton onClick={this.cancelReRecord} />
-              </Localized>
-            )
+            <Localized id="unable-speak">
+              <LocaleLink to={URLS.LISTEN} />
+            </Localized>
           }
           instruction={props =>
             error ? (
@@ -483,8 +477,13 @@ class SpeakPage extends React.Component<Props, State> {
                   ? 'active'
                   : clip.recording ? 'done' : 'pending'
               }
-              onRerecord={() => this.rerecord(i)}
-            />
+              onRerecord={() => this.rerecord(i)}>
+              {rerecordIndex === i && (
+                <Localized id="record-cancel">
+                  <TextButton onClick={this.cancelReRecord} />
+                </Localized>
+              )}
+            </RecordingPill>
           ))}
           sentences={clips.map(({ sentence: { text } }) => text)}
           type="speak"

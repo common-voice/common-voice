@@ -14,6 +14,7 @@ import Pill, { PillStatus } from '../pill';
 import './recording-pill.css';
 
 interface Props extends ContributionPillProps, LocalizationProps {
+  children?: React.ReactNode;
   clip: Recordings.SentenceRecording;
   onRerecord: () => any;
   status: PillStatus;
@@ -41,52 +42,63 @@ class RecordingPill extends React.Component<Props, State> {
   };
 
   render() {
-    const { clip, getString, onRerecord, status, ...props } = this.props;
+    const {
+      children,
+      clip,
+      getString,
+      onRerecord,
+      status,
+      ...props
+    } = this.props;
     const { isPlaying } = this.state;
     return (
       <Pill {...props} className="recording" openable status={status}>
-        {status === 'active' && (
-          <Localized id="record-cta">
-            <div className="text" />
-          </Localized>
-        )}
+        {children}
 
-        {status === 'done' && (
-          <React.Fragment>
-            <audio
-              src={clip.recording.url}
-              preload="auto"
-              onEnded={this.toggleIsPlaying}
-              ref={this.audioRef}
-            />
-            <Tooltip
-              arrow
-              open={isPlaying}
-              theme="grey-tooltip"
-              title={clip.sentence.text}>
-              <button
-                className="play"
-                type="button"
-                onClick={this.toggleIsPlaying}>
-                {isPlaying ? <StopIcon /> : <PlayOutlineIcon />}
-              </button>
-            </Tooltip>
-            {isPlaying ? (
-              <div className="placeholder" />
-            ) : (
-              <React.Fragment>
-                <Tooltip arrow title={getString('review-tooltip')}>
-                  <button className="redo" type="button" onClick={onRerecord}>
-                    <RedoIcon />
-                  </button>
-                </Tooltip>
-                <button className="share" type="button">
-                  <ShareIcon />
+        {!children &&
+          status === 'active' && (
+            <Localized id="record-cta">
+              <div className="text" />
+            </Localized>
+          )}
+
+        {!children &&
+          status === 'done' && (
+            <React.Fragment>
+              <audio
+                src={clip.recording.url}
+                preload="auto"
+                onEnded={this.toggleIsPlaying}
+                ref={this.audioRef}
+              />
+              <Tooltip
+                arrow
+                open={isPlaying}
+                theme="grey-tooltip"
+                title={clip.sentence.text}>
+                <button
+                  className="play"
+                  type="button"
+                  onClick={this.toggleIsPlaying}>
+                  {isPlaying ? <StopIcon /> : <PlayOutlineIcon />}
                 </button>
-              </React.Fragment>
-            )}
-          </React.Fragment>
-        )}
+              </Tooltip>
+              {isPlaying ? (
+                <div className="placeholder" />
+              ) : (
+                <React.Fragment>
+                  <Tooltip arrow title={getString('review-tooltip')}>
+                    <button className="redo" type="button" onClick={onRerecord}>
+                      <RedoIcon />
+                    </button>
+                  </Tooltip>
+                  <button className="share" type="button">
+                    <ShareIcon />
+                  </button>
+                </React.Fragment>
+              )}
+            </React.Fragment>
+          )}
       </Pill>
     );
   }

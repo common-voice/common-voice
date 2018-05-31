@@ -5,3 +5,32 @@
         color: var(--red);
     }
 }
+
+.record-abort {
+    & .title {
+        margin-top: 58px;
+        margin-bottom: 10px;
+        font-size: 36px;
+        font-weight: normal;
+    }
+
+    & .text {
+        margin-bottom: 35px;
+        font-size: 20px;
+    }
+
+    & .buttons {
+        margin-bottom: 40px;
+    }
+
+    & .text-button {
+        font-size: var(--font-size-small);
+        font-weight: 600;
+        text-decoration: underline;
+
+        &:hover {
+            color: var(--blue);
+            text-decoration-color: var(--blue);
+        }
+    }
+}
