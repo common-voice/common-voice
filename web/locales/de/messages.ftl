@@ -283,6 +283,7 @@ language-search-input =
 
 action-click = Klicken
 action-tap = Berühren
+contribute = Mitwirken
 listen = Anhören
 skip = Überspringen
 shortcuts = Tastenkombinationen
@@ -290,6 +291,7 @@ clips = Aufzeichnungen
 goal-type-record = Aufnahme
 goal-type-validation = Überprüfung
 toward-goal = Damit sind <goalPercentage></goalPercentage> vom heutigen Common-Voice-Ziel { $goalType } erreicht. Vielen Dank
+goal-help = Sie haben Common Voice geholen, <goalPercentage></goalPercentage> seines täglichen Ziels { $goalType } zu erreichen!
 contribute-more = Nehmen Sie noch { $count } mehr auf?
 record-cta = Aufzeichnung starten
 record-instruction = { $actionType } <recordIcon></recordIcon>, dann lesen Sie den Satz laut vor
