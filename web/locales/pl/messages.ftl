@@ -291,6 +291,7 @@ clips = Nagrania
 goal-type-record = nagrywania
 goal-type-validation = weryfikowania
 toward-goal = To <goalPercentage></goalPercentage> w kierunku dzisiejszego celu { $goalType } projektu Common Voice. Dziękujemy
+goal-help = Twój udział pomógł projektowi Common Voice osiągnąć <goalPercentage></goalPercentage> dziennego celu { $goalType }!
 contribute-more = Zrobimy jeszcze { $count }?
 record-cta = Zacznij nagrywanie
 record-instruction = { $actionType } <recordIcon></recordIcon>, a następnie przeczytaj to zdanie
