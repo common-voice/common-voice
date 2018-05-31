@@ -42,6 +42,7 @@ class RecordingPill extends React.Component<Props, State> {
 
   render() {
     const { clip, getString, onRerecord, status, ...props } = this.props;
+    const { isPlaying } = this.state;
     return (
       <Pill {...props} className="recording" openable status={status}>
         {status === 'active' && (
@@ -58,21 +59,22 @@ class RecordingPill extends React.Component<Props, State> {
               onEnded={this.toggleIsPlaying}
               ref={this.audioRef}
             />
-            {this.state.isPlaying ? (
+            <Tooltip
+              arrow
+              open={isPlaying}
+              theme="grey-tooltip"
+              title={clip.sentence.text}>
               <button
                 className="play"
                 type="button"
                 onClick={this.toggleIsPlaying}>
-                <StopIcon />
+                {isPlaying ? <StopIcon /> : <PlayOutlineIcon />}
               </button>
+            </Tooltip>
+            {isPlaying ? (
+              <div className="placeholder" />
             ) : (
               <React.Fragment>
-                <button
-                  className="play"
-                  type="button"
-                  onClick={this.toggleIsPlaying}>
-                  <PlayOutlineIcon />
-                </button>
                 <Tooltip arrow title={getString('review-tooltip')}>
                   <button className="redo" type="button" onClick={onRerecord}>
                     <RedoIcon />
