@@ -140,6 +140,14 @@ export default class API {
     return this.fetch(this.getClipPath() + '/validated_hours');
   }
 
+  fetchDailyClipsCount(): Promise<number> {
+    return this.fetch(this.getClipPath() + '/daily_count');
+  }
+
+  fetchDailyVotesCount(): Promise<number> {
+    return this.fetch(this.getClipPath() + '/votes/daily_count');
+  }
+
   fetchLocaleMessages(locale: string): Promise<string> {
     return this.fetch(`/locales/${locale}/messages.ftl`, {
       isJSON: false,

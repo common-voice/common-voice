@@ -29,11 +29,18 @@
     }
 
     & .goal-percentage {
+        display: inline-block;
+        min-width: 43px;
+        text-align: right;
         color: var(--valid-green);
+
+        @media (--md-up) {
+            min-width: 64px;
+        }
     }
 
     & .progress {
-        border: 3px solid var(--blue);
+        border: 3px solid var(--valid-green);
         border-radius: 20px;
         margin: 20px auto 0;
         width: 100%;
@@ -57,17 +64,22 @@
         & .done {
             height: 100px;
             background: var(--valid-green);
+            transition: width var(--transition-duration-slow) var(--easing);
         }
     }
 
     & .profile-card {
         margin-top: 60px;
         margin-bottom: 30px;
-        padding: 38px 65px 0;
+        padding: 26px 26px 0;
         display: flex;
         flex-direction: column;
         background: var(--white);
         box-shadow: var(--card-shadow);
+
+        @media (--md-up) {
+            padding: 38px 65px 0;
+        }
 
         & p {
             font-style: italic;

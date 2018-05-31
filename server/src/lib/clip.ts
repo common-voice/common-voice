@@ -42,6 +42,8 @@ export default class Clip {
     router.post('*', this.saveClip);
 
     router.get('/validated_hours', this.serveValidatedHoursCount);
+    router.get('/daily_count', this.serveDailyCount);
+    router.get('/votes/daily_count', this.serveDailyCount);
     router.get('*', this.serveRandomClips);
 
     return router;
@@ -190,4 +192,12 @@ export default class Clip {
     }
     response.json(this.validatedHours);
   };
+
+  private serveDailyCount = async (request: Request, response: Response) => {
+    response.json(await this.model.db.getDailyClipsCount());
+  }
+
+  private serveDailyVotesCount = async (request: Request, response: Response) => {
+    response.json(await this.model.db.getDailyVotesCount());
+  }
 }

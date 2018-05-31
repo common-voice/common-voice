@@ -415,4 +415,24 @@ export default class DB {
       ),
     ]);
   }
+
+  async getDailyClipsCount() {
+    return (await this.mysql.query(
+      `
+        SELECT COUNT(id) AS count
+        FROM clips
+        WHERE created_at >= CURDATE() AND created_at < CURDATE() + INTERVAL 1 DAY
+      `
+    ))[0][0].count;
+  }
+
+  async getDailyVotesCount() {
+    return (await this.mysql.query(
+      `
+        SELECT COUNT(id) AS count
+        FROM votes
+        WHERE created_at >= CURDATE() AND created_at < CURDATE() + INTERVAL 1 DAY
+      `
+    ))[0][0].count;
+  }
 }
