@@ -1,3 +1,5 @@
+@import url('../../../node_modules/react-tippy/dist/tippy.css');
+
 @import url('vars.css');
 @import url('ui/ui.css');
 
@@ -680,4 +682,20 @@ a.small, .small a, .text-button.small {
     background: url('/img/down-arrow.svg') no-repeat right 15px center;
     background-size: 13px 9px;
     pointer-events: none;
+}
+
+.tippy-popper {
+    & .tippy-tooltip {
+        border-radius: 20px;
+        padding: 4px 25px;
+        line-height: 1.5;
+        font-size: 12px;
+        font-style: italic;
+        background: var(--near-black);
+        color: var(--white);
+    }
+
+    & .arrow-regular {
+        border-top-color: var(--near-black);
+    }
 }

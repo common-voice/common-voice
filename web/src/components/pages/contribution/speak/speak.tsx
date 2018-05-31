@@ -347,7 +347,7 @@ class SpeakPage extends React.Component<Props, State> {
   };
 
   render() {
-    const { getString } = this.props;
+    const { getString, user } = this.props;
     const {
       clips,
       isSubmitted,
@@ -463,6 +463,7 @@ class SpeakPage extends React.Component<Props, State> {
               />
             )
           }
+          isFirstSubmit={user.recordTally === 0}
           isSubmitted={isSubmitted}
           onReset={this.resetState}
           onSkip={this.handleSkip}

@@ -1,5 +1,6 @@
 import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
 import * as React from 'react';
+const {Tooltip} = require('react-tippy');
 import URLS from '../../../urls';
 import { LocaleLink, LocaleNavLink } from '../../locale-helpers';
 import { ArrowLeft, CheckIcon, SkipIcon } from '../../ui/icons';
@@ -25,6 +26,7 @@ interface Props extends LocalizationProps {
   instruction: (
     props: { $actionType: string; children: any }
   ) => React.ReactNode;
+  isFirstSubmit?: boolean;
   isSubmitted: boolean;
   onReset: () => any;
   onSkip: () => any;
@@ -40,6 +42,10 @@ interface State {
 }
 
 class ContributionPage extends React.Component<Props, State> {
+  static defaultProps = {
+    isFirstSubmit: false,
+  };
+
   state: State = { selectedPill: null };
 
   private get isLoaded() {
@@ -110,6 +116,7 @@ class ContributionPage extends React.Component<Props, State> {
       extraButton,
       getString,
       instruction,
+      isFirstSubmit,
       isSubmitted,
       onReset,
       onSkip,
@@ -228,16 +235,25 @@ class ContributionPage extends React.Component<Props, State> {
                   <SkipIcon />
                 </Button>
                 {onSubmit && (
-                  <Localized id="submit-form-action">
-                    <Button
-                      rounded
-                      outline
-                      disabled={!this.isDone}
-                      className="hidden-sm-down"
-                      onClick={onSubmit}
-                      type="submit"
-                    />
-                  </Localized>
+                  <Tooltip
+                    arrow
+                    disabled={!this.isDone}
+                    open={isFirstSubmit || undefined}
+                    title={getString('record-submit-tooltip', {
+                      actionType: getString('action-tap'),
+                    })}
+                    >
+                    <Localized id="submit-form-action">
+                      <Button
+                        rounded
+                        outline
+                        disabled={!this.isDone}
+                        className="hidden-sm-down"
+                        onClick={onSubmit}
+                        type="submit"
+                      />
+                    </Localized>
+                  </Tooltip>
                 )}
               </div>
             </div>
