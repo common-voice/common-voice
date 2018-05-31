@@ -130,9 +130,11 @@
             display: flex;
             flex-direction: row;
             border-bottom: 1px solid var(--grey);
+            overflow-x: auto;
         }
 
         & h2 {
+            white-space: nowrap;
             padding: 1rem;
             cursor: pointer;
         }
@@ -211,8 +213,24 @@
             transition: margin-left var(--transition-duration-slow) var(--easing);
 
             @media (--md-up) {
-                margin-top: 2.5rem;
+                margin-top: 4rem;
                 width: auto;
+            }
+
+            & > p {
+                color: var(--near-black);
+                max-width: 740px;
+                line-height: 24px;
+
+                @media (--sm-down) {
+                    padding-top: 20px;
+                    padding-bottom: 5px;
+                }
+
+                @media (--md-up) {
+                    padding-top: 5px;
+                    padding-bottom: 20px;
+                }
             }
 
             &:nth-child(2) {
