@@ -17,6 +17,7 @@ audio-loading-error = Ospravedlňujeme sa, ale práve spracovávame naše zvukov
 ## Languages
 
 bn = bengálčina
+br = bretónčina
 ca = katalánčina
 cs = čeština
 cv = čuvaština
@@ -226,6 +227,7 @@ record-platform-not-supported-desktop = Na počítačoch si môžete prevziať n
 record-platform-not-supported-ios = Používatelia <bold>iOS</bold> si môžu prevziať našu bezplatnú aplikáciu:
 record-must-allow-microphone = Musíte povoliť prístup ku mikrofónu.
 record-retry = Znova
+record-no-mic-found = Nenašiel sa žiadny mikrofón.
 record-error-too-short = Vaša nahrávka bola príliš krátka.
 record-error-too-long = Vaša nahrávka bola príliš dlhá.
 record-error-too-quiet = Vaša nahrávka bola príliš tichá.
@@ -257,7 +259,6 @@ download-no = Nie, ďakujem
 ## Contact Modal
 
 contact-title = Kontaktný formulár
-contact-cancel = Zrušiť
 contact-form-name =
     .label = Meno
 contact-form-message =
@@ -267,7 +268,6 @@ contact-required = *vyžadované
 ## Request Language Modal
 
 request-language-title = Žiadosť o jazyk
-request-language-cancel = Zavrieť formulár
 request-language-form-language =
     .label = Jazyk
 request-language-success-title = Žiadosť o jazyk bola odoslaná. Ďakujeme.
