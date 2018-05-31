@@ -291,6 +291,7 @@ clips = 片段
 goal-type-record = 錄製中
 goal-type-validation = 驗證
 toward-goal = 今天的 Common Voice { $goalType } 目標已達成 <goalPercentage></goalPercentage>。感謝您！
+goal-help = 您已幫助 Common Voice 完成 <goalPercentage></goalPercentage> 的每日 { $goalType } 目標！
 contribute-more = 準備好再作 { $count } 筆了嗎？
 record-cta = 開始錄音
 record-instruction = { $actionType } 按下 <recordIcon></recordIcon> 然後大聲說出句子
