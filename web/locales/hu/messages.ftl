@@ -219,6 +219,7 @@ record-platform-not-supported-desktop = Asztali számítógépekre, letöltheti 
 record-platform-not-supported-ios = Az <bold>iOS</bold> felhasználók letölthetik szabad szoftver alkalmazásunkat:
 record-must-allow-microphone = Engedélyezni kell a mikrofon hozzáférést.
 record-retry = Újra
+record-no-mic-found = Nem található mikrofon.
 record-error-too-short = A felvétel túl rövid volt.
 record-error-too-long = A felvétel túl hosszú volt.
 record-error-too-quiet = A felvétel túl halk volt.
@@ -250,7 +251,6 @@ download-no = Köszönöm, nem
 ## Contact Modal
 
 contact-title = Kapcsolatfelvétel
-contact-cancel = Mégse
 contact-form-name =
     .label = Név
 contact-form-message =
@@ -260,7 +260,6 @@ contact-required = *kötelező
 ## Request Language Modal
 
 request-language-title = Nyelv kérése
-request-language-cancel = Űrlap bezárása
 request-language-form-language =
     .label = Nyelv
 request-language-success-title = Nyelvkérés sikeresen beküldve, köszönjük.
@@ -273,6 +272,7 @@ language-section-launched = Elindítva
 languages-show-more = Több
 languages-show-less = Kevesebb
 language-speakers = Beszélők
+language-meter-in-progress = Előrehaladás
 language-total-progress = Összesen
 language-search-input =
     .placeholder = Keresés
@@ -288,6 +288,7 @@ clips = Klipek
 goal-type-record = felvétel
 goal-type-validation = érvényesítés
 toward-goal = Ez <goalPercentage></goalPercentage> a Common Voice célja felé, amely { $goalType }. Köszönjük
+goal-help = Segítettél a Common Voice-nak elérni a napi { $goalType } céljának <goalPercentage></goalPercentage>-át!
 contribute-more = Készen áll még { $count } felvételre?
 record-cta = Felvétel indítása
 record-instruction = { $actionType } a <recordIcon></recordIcon> ikonra, és olvassa fel hangosan a mondatot
