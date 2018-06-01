@@ -22,14 +22,15 @@ interface Props extends ContributionPillProps, LocalizationProps {
 
 interface State {
   isPlaying: boolean;
+  showSentenceTooltip: boolean;
 }
 
 class RecordingPill extends React.Component<Props, State> {
   audioRef = React.createRef<HTMLAudioElement>();
 
-  state = { isPlaying: false };
+  state = { isPlaying: false, showSentenceTooltip: false };
 
-  toggleIsPlaying = () => {
+  private toggleIsPlaying = () => {
     const { current: audio } = this.audioRef;
     const isPlaying = !this.state.isPlaying;
     if (isPlaying) {
@@ -41,6 +42,11 @@ class RecordingPill extends React.Component<Props, State> {
     this.setState({ isPlaying });
   };
 
+  private showSentenceTooltip = () =>
+    this.setState({ showSentenceTooltip: true });
+  private hideSentenceTooltip = () =>
+    this.setState({ showSentenceTooltip: false });
+
   render() {
     const {
       children,
@@ -50,7 +56,7 @@ class RecordingPill extends React.Component<Props, State> {
       status,
       ...props
     } = this.props;
-    const { isPlaying } = this.state;
+    const { isPlaying, showSentenceTooltip } = this.state;
     return (
       <Pill {...props} className="recording" openable status={status}>
         {children}
@@ -73,14 +79,18 @@ class RecordingPill extends React.Component<Props, State> {
               />
               <Tooltip
                 arrow
-                open={isPlaying}
+                open={isPlaying || showSentenceTooltip}
                 theme="grey-tooltip"
                 title={clip.sentence.text}>
                 <button
                   className="play"
                   type="button"
-                  onClick={this.toggleIsPlaying}>
-                  {isPlaying ? <StopIcon /> : <PlayOutlineIcon />}
+                  onClick={this.toggleIsPlaying}
+                  onMouseEnter={this.showSentenceTooltip}
+                  onMouseLeave={this.hideSentenceTooltip}>
+                  <span className="padder">
+                    {isPlaying ? <StopIcon /> : <PlayOutlineIcon />}
+                  </span>
                 </button>
               </Tooltip>
               {isPlaying ? (
@@ -89,11 +99,15 @@ class RecordingPill extends React.Component<Props, State> {
                 <React.Fragment>
                   <Tooltip arrow title={getString('review-tooltip')}>
                     <button className="redo" type="button" onClick={onRerecord}>
-                      <RedoIcon />
+                      <span className="padder">
+                        <RedoIcon />
+                      </span>
                     </button>
                   </Tooltip>
                   <button className="share" type="button">
-                    <ShareIcon />
+                    <span className="padder">
+                      <ShareIcon />
+                    </span>
                   </button>
                 </React.Fragment>
               )}

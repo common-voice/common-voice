@@ -1,6 +1,10 @@
 @import url('../../../vars.css');
 
 .pill.recording {
+    &.done .contents  > * {
+        height: 100%;
+    }
+
     & .text {
         margin: 0 12px;
         width: 133px;
@@ -17,14 +21,20 @@
         color: var(--warm-grey);
     }
 
-    & button {
-        padding: 0 16px;
-        border: none;
+    & .padder {
+        display: inline-block;
         border-left: 1px solid var(--desert-storm);
+        padding: 0 16px;
+    }
 
-        &.play {
-            border-left: none;
-        }
+    & .play .padder {
+        border-left: none;
+    }
+
+    & button {
+        border: none;
+        padding: 0;
+        height: 100%;
 
         &.play:hover path {
             fill: var(--valid-green);

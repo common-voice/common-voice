@@ -44,6 +44,8 @@
 
     & .contents {
         display: none !important;
+        height: 100%;
+        align-items: center;
 
         @media (--md-up) {
             display: flex !important;
