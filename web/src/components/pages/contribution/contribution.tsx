@@ -82,7 +82,7 @@ class ContributionPage extends React.Component<Props, State> {
 
   private handleKeyDown = (event: React.KeyboardEvent<any>) => {
     const { getString, type } = this.props;
-    if (this.isDone) return;
+    if (this.isDone || event.ctrlKey || event.altKey || event.shiftKey) return;
 
     const shortcut = this.shortcuts.find(
       ({ key }) => getString(key) === event.key
