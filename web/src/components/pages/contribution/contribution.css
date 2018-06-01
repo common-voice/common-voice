@@ -5,7 +5,7 @@
 }
 
 .contribution-wrapper, .contribution {
-    background-image: linear-gradient(to top, var(--white), var(--desert-storm));
+    background-image: linear-gradient(to top, var(--white) 20%, var(--desert-storm));
 }
 
 .contribution {

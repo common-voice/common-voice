@@ -7,7 +7,7 @@ import { LocaleLink, LocaleNavLink } from '../../locale-helpers';
 import Modal from '../../modal/modal';
 import { ArrowLeft, CheckIcon, SkipIcon } from '../../ui/icons';
 import { Button } from '../../ui/ui';
-import {PrimaryButton} from "./primary-buttons";
+import { PrimaryButton } from './primary-buttons';
 import Success from './success';
 
 import './contribution.css';
