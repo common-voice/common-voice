@@ -251,6 +251,23 @@ class ListenPage extends React.Component<Props, State> {
             }
           )}
           sentences={clips.map(clip => clip.sentence)}
+          shortcuts={[
+            {
+              key: 'shortcut-play-toggle',
+              label: 'shortcut-play-toggle-label',
+              action: this.play,
+            },
+            {
+              key: 'shortcut-vote-yes',
+              label: 'vote-yes',
+              action: this.voteYes,
+            },
+            {
+              key: 'shortcut-vote-no',
+              label: 'vote-no',
+              action: this.voteNo,
+            },
+          ]}
           type="listen"
         />
       </React.Fragment>

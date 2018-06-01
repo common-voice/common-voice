@@ -3,11 +3,13 @@ import * as React from 'react';
 const { Tooltip } = require('react-tippy');
 import URLS from '../../../urls';
 import { LocaleLink, LocaleNavLink } from '../../locale-helpers';
+import Modal from '../../modal/modal';
 import { ArrowLeft, CheckIcon, SkipIcon } from '../../ui/icons';
 import { Button } from '../../ui/ui';
 import Success from './success';
 
 import './contribution.css';
+import { trackListening, trackRecording } from '../../../services/tracker';
 
 export const SET_COUNT = 5;
 
@@ -34,11 +36,17 @@ interface Props extends LocalizationProps {
   primaryButtons: React.ReactNode;
   pills: ((props: ContributionPillProps) => React.ReactNode)[];
   sentences: string[];
+  shortcuts: {
+    key: string;
+    label: string;
+    action: () => any;
+  }[];
   type: 'speak' | 'listen';
 }
 
 interface State {
   selectedPill: number;
+  showShortcutsModal: boolean;
 }
 
 class ContributionPage extends React.Component<Props, State> {
@@ -46,7 +54,7 @@ class ContributionPage extends React.Component<Props, State> {
     isFirstSubmit: false,
   };
 
-  state: State = { selectedPill: null };
+  state: State = { selectedPill: null, showShortcutsModal: false };
 
   private get isLoaded() {
     return this.props.sentences.length > 0;
@@ -56,17 +64,72 @@ class ContributionPage extends React.Component<Props, State> {
     return this.isLoaded && this.props.activeIndex === -1;
   }
 
+  private get shortcuts() {
+    const { onSkip, shortcuts } = this.props;
+    return shortcuts.concat({
+      key: 'shortcut-skip',
+      label: 'skip',
+      action: onSkip,
+    });
+  }
+
   private selectPill(i: number) {
     this.setState({ selectedPill: i });
   }
 
+  private toggleShowShortcutsModal = () =>
+    this.setState({ showShortcutsModal: !this.state.showShortcutsModal });
+
+  private handleKeyDown = (event: React.KeyboardEvent<any>) => {
+    const { getString, type } = this.props;
+    if (this.isDone) return;
+
+    const shortcut = this.shortcuts.find(
+      ({ key }) => getString(key) === event.key
+    );
+    if (!shortcut) return;
+
+    shortcut.action();
+    type === 'listen' ? trackListening('shortcut') : trackRecording('shortcut');
+    event.preventDefault();
+  };
+
   render() {
-    const { errorContent, isSubmitted, type } = this.props;
+    const { errorContent, getString, isSubmitted, type } = this.props;
+    const { showShortcutsModal } = this.state;
 
     return (
       <div
         className="contribution-wrapper"
-        onClick={() => this.selectPill(null)}>
+        onClick={() => this.selectPill(null)}
+        onKeyDown={this.handleKeyDown}
+        tabIndex={-1}>
+        {showShortcutsModal && (
+          <Modal onRequestClose={this.toggleShowShortcutsModal}>
+            <table style={{ margin: '0 auto' }}>
+              <thead>
+                <tr>
+                  <Localized id="shortcuts">
+                    <th />
+                  </Localized>
+                  <th />
+                </tr>
+              </thead>
+              <tbody>
+                {this.shortcuts.map(({ key, label }) => (
+                  <tr key={key}>
+                    <td style={{ textAlign: 'left', fontWeight: 600 }}>
+                      {getString(key)}
+                    </td>
+                    <td style={{ paddingLeft: 20, textAlign: 'right' }}>
+                      {getString(label)}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </Modal>
+        )}
         <div
           className={[
             'contribution',
@@ -218,7 +281,12 @@ class ContributionPage extends React.Component<Props, State> {
             <div className="buttons">
               <div>
                 <Localized id="shortcuts">
-                  <Button rounded outline className="hidden-sm-down" />
+                  <Button
+                    rounded
+                    outline
+                    className="hidden-sm-down"
+                    onClick={this.toggleShowShortcutsModal}
+                  />
                 </Localized>
                 <div className="extra-button">{extraButton}</div>
               </div>

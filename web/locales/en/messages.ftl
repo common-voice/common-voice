@@ -100,16 +100,27 @@ vote-yes = Yes
 vote-no = No
 toggle-play-tooltip = Press { shortcut-play-toggle } to toggle play mode
 
-## Shortcuts
-# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
-# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+## Speak & Listen Shortcuts
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
+
+## Listen Shortcuts
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
+shortcut-play-toggle-label = Play/Stop
 # Must be one letter that appears in the { vote-yes } string.
-# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
-# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Speak Shortcuts
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Record/Stop
 
 request-language-text = Don't see your language on Common Voice yet?
 request-language-button = Request a Language
@@ -300,7 +311,7 @@ record-again-instruction = Great! <recordIcon></recordIcon> Record your next cli
 record-again-instruction2 = Keep it up, record again <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Last one!
 review-tooltip = Review & re-record clips here as you go
-unable-speak = Unable to speak right now
+unable-speak = Unable to speak right now?
 review-instruction = Review & re-record clips if needed
 record-submit-tooltip = { $actionType } submit when ready
 clips-submitted =

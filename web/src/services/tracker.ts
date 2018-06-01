@@ -17,7 +17,9 @@ function track(
   }
 }
 
-export function trackRecording(action: 'record' | 'submit' | 'rerecord') {
+export function trackRecording(
+  action: 'record' | 'submit' | 'rerecord' | 'shortcut'
+) {
   track('Recording', action);
 }
 

@@ -486,6 +486,13 @@ class SpeakPage extends React.Component<Props, State> {
             </RecordingPill>
           ))}
           sentences={clips.map(({ sentence: { text } }) => text)}
+          shortcuts={[
+            {
+              key: 'shortcut-record-toggle',
+              label: 'shortcut-record-toggle-label',
+              action: this.handleRecordClick,
+            },
+          ]}
           type="speak"
         />
       </React.Fragment>
