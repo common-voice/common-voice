@@ -6,10 +6,11 @@ import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
 import URLS from '../../../urls';
 import { CheckIcon } from '../../ui/icons';
-import { Button, LinkButton } from '../../ui/ui';
+import {Button, LinkButton, TextButton} from '../../ui/ui';
 import { SET_COUNT } from './contribution';
 
 import './success.css';
+import {LocaleLink} from "../../locale-helpers";
 
 const COUNT_UP_MS = 500; // should be kept in sync with .contribution-success .done transition duration
 const DAILY_GOAL = Object.freeze({ speak: 600, listen: 1200 });
@@ -116,12 +117,12 @@ class Success extends React.Component<Props, State> {
         )}
 
         <Localized id="contribute-more" $count={SET_COUNT}>
-          <Button outline={!hasEnteredInfo} rounded onClick={onReset} />
+          {hasEnteredInfo ? <Button rounded onClick={onReset} /> : <TextButton className="secondary" onClick={onReset}/>}
         </Localized>
 
         {hasEnteredInfo && (
           <Localized id="edit-profile">
-            <LinkButton rounded outline to={URLS.PROFILE} />
+            <LocaleLink className="secondary" to={URLS.PROFILE} />
           </Localized>
         )}
       </div>
