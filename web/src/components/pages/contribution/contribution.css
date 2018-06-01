@@ -1,6 +1,7 @@
 @import url('../../vars.css');
 
 .contribution-wrapper {
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -82,6 +83,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        @media (--md-up) {
+            margin-top: auto;
+        }
 
         & .back {
             display: flex;
@@ -205,6 +210,7 @@
             width: 100%;
 
             @media (--md-up) {
+                max-height: 430px;
                 height: 43vh;
             }
         }
@@ -311,6 +317,7 @@
 
         @media (--md-up) {
             margin-top: 3.5vh;
+            margin-bottom: auto;
         }
 
         & > * {
