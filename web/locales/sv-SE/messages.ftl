@@ -219,6 +219,7 @@ record-platform-not-supported-desktop = På datorer, kan du ladda ner senaste:
 record-platform-not-supported-ios = Användare av <bold>iOS</bold> kan ladda ner våran gratisapp:
 record-must-allow-microphone = Du måste tillåta mikrofon åtkomst.
 record-retry = Försök igen
+record-no-mic-found = Ingen mikrofon kunde hittas.
 record-error-too-short = Inspelningen var för kort.
 record-error-too-long = Inspelningen var för lång.
 record-error-too-quiet = Inspelningen var för tyst.
@@ -250,7 +251,6 @@ download-no = Nej tack
 ## Contact Modal
 
 contact-title = Kontaktformulär
-contact-cancel = Avbryt
 contact-form-name =
     .label = Namn
 contact-form-message =
@@ -260,7 +260,6 @@ contact-required = *krävs
 ## Request Language Modal
 
 request-language-title = Språkförfrågan
-request-language-cancel = Avsluta formulär
 request-language-form-language =
     .label = Språk
 request-language-success-title = Språkförfrågan har skickats in, tack.
