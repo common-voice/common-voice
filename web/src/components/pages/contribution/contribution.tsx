@@ -81,8 +81,18 @@ class ContributionPage extends React.Component<Props, State> {
     this.setState({ showShortcutsModal: !this.state.showShortcutsModal });
 
   private handleKeyDown = (event: React.KeyboardEvent<any>) => {
-    const { getString, type } = this.props;
-    if (this.isDone || event.ctrlKey || event.altKey || event.shiftKey) return;
+    const { getString, isSubmitted, onReset, onSubmit, type } = this.props;
+    if (event.ctrlKey || event.altKey || event.shiftKey) return;
+
+    const isEnter = event.key === 'Enter';
+    if (isSubmitted && isEnter) {
+      onReset();
+      return;
+    }
+    if (this.isDone) {
+      if (isEnter && onSubmit) onSubmit();
+      return;
+    }
 
     const shortcut = this.shortcuts.find(
       ({ key }) => getString(key) === event.key
