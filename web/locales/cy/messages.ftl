@@ -289,6 +289,7 @@ language-search-input =
 
 action-click = Cliciwch
 action-tap = Tapiwch
+contribute = Cyfrannwch
 listen = Gwrandewch
 skip = Hepgor
 shortcuts = Llwybrau Byr
