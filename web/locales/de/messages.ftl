@@ -97,17 +97,30 @@ vote-yes = Ja
 vote-no = Nein
 toggle-play-tooltip = Drücken Sie zum Pausieren/Fortsetzen { shortcut-play-toggle }
 
-## Shortcuts
+## Speak & Listen Shortcuts
 
-# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
-# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = w
+shortcut-play-toggle-label = Abspielen/Stoppen
 # Must be one letter that appears in the { vote-yes } string.
-# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = j
 # Must be one letter that appears in the { vote-no } string.
-# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Speak Shortcuts
+
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = a
+shortcut-record-toggle-label = Aufnehmen/Stoppen
 request-language-text = Ihre Sprache wird bei Common Voice noch nicht aufgeführt? Da lässt sich was machen!
 request-language-button = Anfrage schicken
 
