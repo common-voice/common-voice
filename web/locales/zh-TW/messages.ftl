@@ -284,6 +284,7 @@ language-search-input =
 
 action-click = 點擊
 action-tap = 點選
+contribute = 參與貢獻
 listen = 聆聽
 skip = 略過
 shortcuts = 捷徑
