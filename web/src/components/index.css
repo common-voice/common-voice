@@ -685,17 +685,30 @@ a.small, .small a, .text-button.small {
 }
 
 .tippy-popper {
+    & .tippy-tooltip.grey-tooltip-theme {
+        color: var(--black);
+        letter-spacing: initial;
+        background: var(--darker-grey);
+        font-style: normal;
+
+        & .arrow-regular {
+            border-top-color: var(--darker-grey) !important;
+        }
+    }
+
     & .tippy-tooltip {
         border-radius: 20px;
-        padding: 4px 25px;
+        padding: 9px 25px;
+        max-width: 140px;
         line-height: 1.5;
         font-size: 12px;
         font-style: italic;
+        letter-spacing: 0.8px;
         background: var(--near-black);
         color: var(--white);
     }
 
     & .arrow-regular {
-        border-top-color: var(--near-black);
+        border-top-color: var(--near-black) !important;
     }
 }

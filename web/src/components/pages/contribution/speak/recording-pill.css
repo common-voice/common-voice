@@ -54,12 +54,3 @@
     }
 }
 
-.tippy-tooltip.grey-tooltip-theme {
-    color: var(--black);
-    background: var(--darker-grey);
-    font-style: normal;
-
-    & .arrow-regular {
-        border-top-color: var(--darker-grey);
-    }
-}
