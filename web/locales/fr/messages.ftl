@@ -99,17 +99,23 @@ vote-yes = Oui
 vote-no = Non
 toggle-play-tooltip = Appuyez sur { shortcut-play-toggle } pour lancer ou arrêter la lecture
 
-## Shortcuts
+## Speak & Listen Shortcuts
 
-# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
-# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
 # Must be one letter that appears in the { vote-yes } string.
-# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = o
 # Must be one letter that appears in the { vote-no } string.
-# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Speak Shortcuts
+
 request-language-text = Votre langue n’est pas encore disponible ?
 request-language-button = Proposer une langue
 
@@ -270,9 +276,9 @@ request-language-success-content = Nous vous contacterons très bientôt avec de
 ## Languages Overview
 
 language-section-in-progress = En cours
-language-section-in-progress-description = Les langues « en cours » sont celles sur lesquelles nos communautés travaillent ; leur progrès correspond à l'avancement de la traduction du site web et l'avancement de la collecte de phrases.
+language-section-in-progress-description = Les langues « en cours » sont celles sur lesquelles nos communautés travaillent ; leur progrès correspond à l’avancement de la traduction du site web et à l’avancement de la collecte de phrases.
 language-section-launched = Lancées
-language-section-launched-description = Pour les langues en production le site web a été complètement traduit et un nombre suffisant de phrases à lire a été collecté, pour permettre les contributions tant en <italic>{ speak }</italic> qu'en <italic>{ listen }</italic>.
+language-section-launched-description = Pour les langues en production le site web a été complètement traduit et un nombre suffisant de phrases à lire a été collecté, pour permettre les contributions tant en <italic>{ speak }</italic> qu’en <italic>{ listen }</italic>.
 languages-show-more = Afficher davantage de langues
 languages-show-less = Afficher moins de langues
 language-speakers = Locuteurs
@@ -293,7 +299,7 @@ clips = Extraits
 goal-type-record = enregistrement
 goal-type-validation = validation
 toward-goal = C’est <goalPercentage></goalPercentage> de l’objectif quotidien pour Common Voice { $goalType }. Merci
-goal-help = Grâce à vous, Common Voice a atteint <goalPercentage></goalPercentage> de son objectif quotidien de { $goalType } !
+goal-help = Grâce à vous, Common Voice a atteint <goalPercentage></goalPercentage> de son objectif quotidien de { $goalType } !
 contribute-more = Prêt à en faire { $count } de plus ?
 record-cta = Commencer l’enregistrement
 record-instruction = { $actionType } <recordIcon></recordIcon> puis lisez la phrase à haute voix.
@@ -314,5 +320,5 @@ record-abort-continue = Terminer l’enregistrement
 record-abort-delete = Quitter et supprimer tous mes enregistrements
 listen-instruction = { $actionType } <playIcon></playIcon>, la phrase a-t-elle été correctement prononcée ?
 listen-again-instruction = Excellent travail ! <playIcon></playIcon> Écoutez à nouveau lorsque vous êtes prêt
-listen-3rd-time-instruction = Plus que deux <playIcon></playIcon>, continuez !
+listen-3rd-time-instruction = Plus que deux <playIcon></playIcon>, continuez !
 listen-last-time-instruction = <playIcon></playIcon> C’est le dernier !
