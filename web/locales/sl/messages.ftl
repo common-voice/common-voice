@@ -1,6 +1,7 @@
 ## General
 
 yes-receive-emails = Da, pošiljajte mi elektronska sporočila. Rad/a bi bil/a obveščen/a o novostih v projektu Common Voice.
+stayintouch = Pri Mozilli gradimo skupnost okrog glasovne tehnologije. Z vami bi radi ostali v stiku za obveščanje o novostih, novih virih podatkov in izvedeli več o tem, kako podatke uporabljate.
 privacy-info = Obljubimo, da bomo z vašimi podatki ravnali skrbno. Preberite več v našem <privacyLink>obvestilu o zasebnosti</privacyLink>.
 return-to-cv = Nazaj na Common Voice
 email-input =
@@ -86,6 +87,7 @@ help-us-title = Pomagaj nam potrditi stavke!
 help-us-explain = Pritisni predvajaj in poslušaj. Ali je spodnji stavek pravilno izgovorjen?
 vote-yes = Da
 vote-no = Ne
+toggle-play-tooltip = Pritisni { shortcut-play-toggle } za preklop načina igranja
 
 ## Shortcuts
 
