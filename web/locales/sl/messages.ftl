@@ -89,7 +89,13 @@ vote-yes = Da
 vote-no = Ne
 toggle-play-tooltip = Pritisni { shortcut-play-toggle } za preklop načina igranja
 
-## Shortcuts
+## Speak & Listen Shortcuts
+
+
+## Listen Shortcuts
+
+
+## Speak Shortcuts
 
 request-language-text = Vaš jezik še ni vključen v Common Voice?
 request-language-button = Predlagaj jezik
@@ -177,6 +183,8 @@ data-download-modal = Začel se bo prenos datoteke, velike <size>{ $size } GB</s
 data-get-started = <speechBlogLink>Začnite s prepoznavo govora</speechBlogLink>
 data-other-goto = Pojdi na { $name }
 data-other-download = Prenesi podatke
+data-other-ted-name = Korpus TED-LIUM
+data-other-ted-description = TED-LIUM je korpus, ki ga sestavljajo zvočni posnetki predstavitev in njihovi prepisi, dostopni na spletni strani TED.com.
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mešano
 
@@ -207,6 +215,7 @@ download-title = Vaš prenos se je pričel.
 download-form-email =
     .label = Vpišite svoj e-poštni naslov
     .value = Hvala, ostali bomo v stiku. 
+download-back = Nazaj na nabore podatkov Common Voice
 download-no = Ne, hvala
 
 ## Contact Modal
@@ -232,6 +241,7 @@ language-section-launched = Objavljeno
 languages-show-more = Več
 languages-show-less = Manj
 language-speakers = Govorcev
+language-meter-in-progress = Napredek
 language-total-progress = Skupaj
 language-search-input =
     .placeholder = Iskanje
@@ -240,3 +250,7 @@ language-search-input =
 
 skip = Preskoči
 shortcuts = Bližnjice
+record-cta = Začni snemati
+record-three-more-instruction = Še tri!
+record-abort-continue = Končaj snemanje
+record-abort-delete = Izhod in brisanje posnetkov
