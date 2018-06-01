@@ -2,7 +2,7 @@
 
 yes-receive-emails = Ano, posílejte mi e-maily. Rád bych zůstal o projektu Common Voice informován.
 stayintouch = V Mozille budujeme komunitu okolo hlasových technologií. Rádi bychom zůstali v kontaktu s novinkami, novými zdroji dat a rádi bychom se dozvěděli, jak tato data používáte.
-privacy-info = Slibujeme, že budeme vaše informace zpracovávat s péčí. Přečtěte si více v našich <privacyLink>Zásadách ochrany soukromí</privacyLink>.
+privacy-info = Slibujeme, že budeme vaše informace zpracovávat s péčí. Přečtěte si více v našich <privacyLink>zásadách ochrany osobních údajů</privacyLink>.
 return-to-cv = Návrat do Common Voice
 email-input =
     .label = E-mail
@@ -95,14 +95,20 @@ help-us-explain = Stiskněte přehrát, poslouchejte a řekněte nám: přečetl
 vote-yes = Ano
 vote-no = Ne
 
-## Shortcuts
+## Speak & Listen Shortcuts
 
-# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
-# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
 # Must be one letter that appears in the { vote-yes } string.
-# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
+
+## Speak Shortcuts
+
 request-language-text = Nevidíte svůj jazyk na Common Voice?
 request-language-button = Požádat o jazyk
 
@@ -221,7 +227,7 @@ record-error-too-quiet = Nahrávka byla příliš tichá.
 record-submit-success = Odeslání bylo úspěšné! Chcete nahrávat znovu?
 record-help = Prosím, klepněte na Nahrát a poté hlasitě přečtěte větu výše.
 record-cancel = Zrušit opakovaný záznam
-review-terms = Používáním Common Voice souhlasíte s našimi <termsLink>Podmínkami</termsLink> a <privacyLink>Zásadami ochrany soukromí</privacyLink>
+review-terms = Používáním Common Voice souhlasíte s našimi <termsLink>Podmínkami</termsLink> a <privacyLink>zásadami ochrany osobních údajů</privacyLink>
 terms-agree = Souhlasím
 terms-disagree = Nesouhlasím
 review-aborted = Nahrávání bylo zrušeno. Chcete smazat vaše nahrávky?
@@ -246,7 +252,6 @@ download-no = Ne, děkuji
 ## Contact Modal
 
 contact-title = Kontaktní formulář
-contact-cancel = Zrušit
 contact-form-name =
     .label = Jméno
 contact-form-message =
@@ -256,7 +261,6 @@ contact-required = *vyžadováno
 ## Request Language Modal
 
 request-language-title = Požádat o jazyk
-request-language-cancel = Zavřít formulář
 request-language-form-language =
     .label = Jazyk
 request-language-success-title = Žádost o jazyk byla odeslána. Děkujeme vám.
