@@ -293,6 +293,7 @@ language-search-input =
 
 action-click = Klikke
 action-tap = Tikke
+contribute = Meiwurkje
 listen = Lústerje
 skip = Oerslaan
 shortcuts = Fluchkeppelingen
