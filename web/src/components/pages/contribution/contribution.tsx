@@ -1,15 +1,16 @@
 import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
 import * as React from 'react';
 const { Tooltip } = require('react-tippy');
+import { trackListening, trackRecording } from '../../../services/tracker';
 import URLS from '../../../urls';
 import { LocaleLink, LocaleNavLink } from '../../locale-helpers';
 import Modal from '../../modal/modal';
 import { ArrowLeft, CheckIcon, SkipIcon } from '../../ui/icons';
 import { Button } from '../../ui/ui';
+import {PrimaryButton} from "./primary-buttons";
 import Success from './success';
 
 import './contribution.css';
-import { trackListening, trackRecording } from '../../../services/tracker';
 
 export const SET_COUNT = 5;
 
@@ -321,11 +322,9 @@ class ContributionPage extends React.Component<Props, State> {
                       actionType: getString('action-tap'),
                     })}>
                     <Localized id="submit-form-action">
-                      <Button
-                        rounded
-                        outline
+                      <PrimaryButton
+                        className="submit"
                         disabled={!this.isDone}
-                        className="hidden-sm-down"
                         onClick={onSubmit}
                         type="submit"
                       />

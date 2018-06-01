@@ -7,7 +7,7 @@ export const PrimaryButton = ({
   className,
   ...props
 }: React.ButtonHTMLAttributes<any>) => (
-  <div className={'primary-button ' + className}>
+  <div className={['primary-button', className, props.disabled ? 'disabled' : ''].join(' ')}>
     <button type="button" {...props} />
     <div className="background" />
   </div>
