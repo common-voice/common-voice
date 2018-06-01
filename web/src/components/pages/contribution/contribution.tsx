@@ -202,7 +202,7 @@ class ContributionPage extends React.Component<Props, State> {
     } = this.props;
     const { selectedPill } = this.state;
 
-    return !isSubmitted ? (
+    return isSubmitted ? (
       <Success onReset={onReset} type={type} />
     ) : (
       errorContent ||
