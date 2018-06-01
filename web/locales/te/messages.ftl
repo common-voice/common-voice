@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = అవును, నాకు ఈమెయిళ్ళు పంపండి. నేను కామన్ వాయిస్ ప్రాజెక్ట్ గురించి తెలుసుకోవాలనుకుంటున్నాను.
+yes-receive-emails = అవును, నాకు ఈమెయిళ్ళు పంపండి. నేను Common Voice ప్రాజెక్ట్ గురించి తెలుసుకోవాలనుకుంటున్నాను.
 stayintouch = Mozilla వద్ద మేము వాయిస్ సాంకేతికాల చుట్టూ ఒక సమూహాన్ని రూపొందిస్తున్నాము. మేము సదా మీతో అందుబాటులో ఉంటూ మీ నుండి తాజా సమాచారం, కొత్త వనరులు, మీరు ఈ డేటాను ఎలా వాడదలుచుకున్నారో లాంటి విషయాల గురించి తెలుసుకోవాలనుకుంటున్నాము.
 privacy-info = మేము మీ సమాచారాన్ని అతి జాగ్రత్తతో చూసుకుంటామని హామీ ఇస్తున్నాము. మరింత తెలుసుకునేందుకు మా <privacyLink>ప్రివసీ నోటీసు</privacyLink>ను చదవండి.
 return-to-cv = కామన్ వాయిస్‌కు తిరిగి వెళ్ళు
@@ -26,8 +26,6 @@ de = జర్మన్
 el = గ్రీకు
 en = ఆంగ్లం
 es = స్పానిష్
-es-AR = స్పానిష్ (అర్జెంటీనా)
-es-CL = స్పానిష్ (చిలీ)
 fr = ఫ్రెంచ్
 fy-NL = ఫ్రిసియన్
 ga-IE = ఐరిష్
@@ -84,7 +82,7 @@ back-top = తిరిగి పైకి
 
 ## Home Page
 
-home-title = కామన్ వాయిస్ ప్రాజెక్టు అనేది యంత్రాలు కూడా నిజమైన మనుషుల్లా మాట్లాడేలా శిక్షణ ఇచ్చేందుకు Mozilla తీసుకున్న చొరవ.
+home-title = Common Voice ప్రాజెక్టు, యంత్రాలు కూడా నిజమైన మనుషుల్లా మాట్లాడేలా వాటికి శిక్షణ ఇచ్చేందుకు Mozilla చేస్తున్న ప్రయత్నం.
 home-cta = మాట్లాడండి, ఇక్కడ తోడ్పడండి!
 wall-of-text-start = కంఠధ్వని సహజమైనది, కంఠధ్వని మానుషం. అందుకే మా యంత్రాలకు అనుకూలమైన స్వర సాంకేతికాలను రూపొందించడంపై మేము అత్యంత ఆసక్తితో ఉన్నాము. కానీ స్వర వ్యవస్థలను ఏర్పరిచేందుకు భారీ స్థాయిలో కంఠధ్వనులు కావాల్సి ఉంది.
 wall-of-text-more-mobile = పెద్ద కంపెనీలు వాడే డేటా సాధారణ ప్రజానీకంలో చాలా మందికి అందుబాటులో లేదు. ఇది సృజనాత్మకతను కుంటిపరుస్తుందని మా భావన. అందుకే మేము కామన్ వాయిస్ ప్రాజెక్టును మొదలుపెట్టాము, ఈ ప్రాజెక్టు ద్వారా కంఠధ్వని నిరూపణ సాంకేతికతలు అందరికీ బహిరంగంగా అందుబాటులోకి వస్తాయి.
@@ -98,17 +96,23 @@ vote-yes = అవును
 vote-no = కాదు
 toggle-play-tooltip = ప్లే మోడుని ఆన్ లేదా ఆఫ్ చెయ్యడానికి { shortcut-play-toggle } నొక్కండి
 
-## Shortcuts
+## Speak & Listen Shortcuts
 
-# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
-# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
 # Must be one letter that appears in the { vote-yes } string.
-# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
-# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Speak Shortcuts
+
 request-language-text = ఇంకా కామన్ వాయిస్‍లో మీ భాష కనబడలేదా?
 request-language-button = ఒక భాషని అభ్యర్థించండి
 
@@ -251,7 +255,6 @@ download-no = అడిగినందుకు ధన్యవాదాలు, 
 ## Contact Modal
 
 contact-title = సంప్రదింపు ఫారం
-contact-cancel = రద్దుచేయి
 contact-form-name =
     .label = పేరు
 contact-form-message =
@@ -261,7 +264,6 @@ contact-required = *తప్పనిసరి
 ## Request Language Modal
 
 request-language-title = భాష అభ్యర్థన
-request-language-cancel = ఫారం మూసివేయి
 request-language-form-language =
     .label = భాష
 request-language-success-title = భాష అభ్యర్థన విజయవంతంగా సమర్పించబడింది, ధన్యవాదాలు.
@@ -277,3 +279,6 @@ language-speakers = మాట్లాడేవారు
 language-total-progress = మొత్తం
 language-search-input =
     .placeholder = వెతుకు
+
+## New Contribution
+
