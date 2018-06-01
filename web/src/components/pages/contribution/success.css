@@ -30,12 +30,17 @@
 
     & .goal-percentage {
         display: inline-block;
-        min-width: 43px;
+        position: relative;
         text-align: right;
         color: var(--valid-green);
 
-        @media (--md-up) {
-            min-width: 64px;
+        & .final {
+            visibility: hidden;
+        }
+
+        & .current {
+            position: absolute;
+            right: 0;
         }
     }
 

@@ -5,18 +5,27 @@ import API from '../../../services/api';
 import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
 import URLS from '../../../urls';
+import { LocaleLink } from '../../locale-helpers';
 import { CheckIcon } from '../../ui/icons';
 import { Button, LinkButton, TextButton } from '../../ui/ui';
 import { SET_COUNT } from './contribution';
 
 import './success.css';
-import { LocaleLink } from '../../locale-helpers';
 
 const COUNT_UP_MS = 500; // should be kept in sync with .contribution-success .done transition duration
 const DAILY_GOAL = Object.freeze({ speak: 600, listen: 1200 });
 
-const GoalPercentage = ({ percentage }: { percentage: number }) => (
-  <span className="goal-percentage">{percentage}%</span>
+const GoalPercentage = ({
+  current,
+  final,
+}: {
+  current: number;
+  final: number;
+}) => (
+  <span className="goal-percentage">
+    <span className="final">{final}%</span>
+    <span className="current">{current}%</span>
+  </span>
 );
 
 interface PropsFromState {
@@ -67,6 +76,9 @@ class Success extends React.Component<Props, State> {
   render() {
     const { getString, hasEnteredInfo, onReset, type } = this.props;
     const { contributionCount, currentCount } = this.state;
+    const finalPercentage = Math.ceil(
+      100 * (contributionCount || 0) / DAILY_GOAL[type]
+    );
     return (
       <div className="contribution-success">
         <div className="counter done">
@@ -81,11 +93,12 @@ class Success extends React.Component<Props, State> {
           id="goal-help"
           goalPercentage={
             <GoalPercentage
-              percentage={Math.ceil(
+              current={Math.ceil(
                 100 *
                   (currentCount === null ? 0 : currentCount) /
                   DAILY_GOAL[type]
               )}
+              final={finalPercentage}
             />
           }
           $goalType={getString(type === 'speak' ? 'recording' : 'validation')}>
@@ -96,11 +109,7 @@ class Success extends React.Component<Props, State> {
           <div
             className="done"
             style={{
-              width:
-                Math.min(
-                  Math.ceil(100 * (contributionCount || 0) / DAILY_GOAL[type]),
-                  100
-                ) + '%',
+              width: Math.min(finalPercentage, 100) + '%',
             }}
           />
         </div>
