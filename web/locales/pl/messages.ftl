@@ -284,6 +284,7 @@ language-search-input =
 
 action-click = Kliknij
 action-tap = Stuknij
+contribute = Nagraj
 listen = Posłuchaj
 skip = Pomiń
 shortcuts = Skróty
