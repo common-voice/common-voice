@@ -325,7 +325,7 @@ record-abort-continue = Finish recording
 record-abort-delete = Exit & Delete clips
 listen-instruction = { $actionType } <playIcon></playIcon> did they accurately speak the sentence?
 listen-again-instruction = Great work! <playIcon></playIcon> Listen again when you're ready
-listen-3rd-time-instruction = 2 down <playIcon></playIcon> , keep it up!
+listen-3rd-time-instruction = 2 down, keep it up! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Last one!
 
 
