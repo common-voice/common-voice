@@ -11,41 +11,49 @@ loading = Yuklanmoqda...
 audio-loading-error = Uzr, biz audio fayllar bilan ishlayapmiz. Keyinroq urinib ko‘ring.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
 
-ga-IE = Irland
-cs = Chex
-uz = O‘zbek
-de = Nemis
 bn = Bengal
-sk = Slovak
 ca = Katalan
+cs = Chex
+cv = Chuvash
+cy = Uels
+da = Daniya
+de = Nemis
+el = Grek
+en = Ingliz
+es = Ispan
+fr = Fransuz
+fy-NL = Friz
+ga-IE = Irland
+he = Yahudiy
+hu = Vengriya
+id = Indonez
+it = Italiyan
+ka = Gruzin
+kab = Kabili
 ko = Koreyscha
-es-CL = Ispan (Chile)
-th = Tay
+mk = Makedon
+nl = Golland
+nn-NO = Norvegiya Ninorsk
 pl = Polyak
 pt-BR = Portugal (Braziliya)
-id = Indonez
-zh-TW = Xitoy (Tayvan)
-cy = Uels
-el = Grek
-cv = Chuvash
+ru = Rus
+sk = Slovak
+sq = Alban
 sv-SE = Shved
-mk = Makedon
-nn-NO = Norvegiya Ninorsk
-fr = Fransuz
+th = Tay
 tr = Turk
 tt = Tatar
-fy-NL = Friz
-he = Yahudiy
+uz = O‘zbek
 zh-CN = Xitoy
-nl = Golland
-sq = Alban
-ru = Rus
-it = Italiyan
-en = Ingliz
+zh-TW = Xitoy (Tayvan)
+
+# [/]
+
 
 ## Layout
 
@@ -70,6 +78,15 @@ help-us-title = Gaplarni tasdiqlashda yordam bering!
 help-us-explain = Ijro tugmasini bosing, tinglang va gaplar to‘g‘ri talaffuz qilinganligi haqida bizga xabar bering.
 vote-yes = Ha
 vote-no = Yo‘q
+
+## Speak & Listen Shortcuts
+
+
+## Listen Shortcuts
+
+
+## Speak Shortcuts
+
 request-language-text = Common Voice loyihasida ona tilingizni ko‘rmayapsizmi?
 request-language-button = Til qo‘shishni so‘rang
 
@@ -85,7 +102,6 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Keyingi marra: { $goal }
-status-more-soon = Tez kunlarda yangi tillar qo‘shiladi!
 english = Ingliz
 
 ## ProfileForm
@@ -129,12 +145,6 @@ faq-important-q = Nega u bunchalik muhim?
 ## NotFound
 
 
-## Privacy
-
-
-## Terms
-
-
 ## Data
 
 data-download-yes = Ha
@@ -163,3 +173,6 @@ languages-show-more = Ko‘proq
 languages-show-less = Kamroq
 language-speakers = So‘zlovchilar
 language-total-progress = Jami
+
+## New Contribution
+
