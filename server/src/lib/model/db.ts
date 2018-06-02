@@ -435,4 +435,16 @@ export default class DB {
       `
     ))[0][0].count;
   }
+
+  async migrateAccents() {
+    await this.mysql.query(
+      `
+        INSERT IGNORE INTO user_client_accents (client_id, locale_id, accent)  (
+          SELECT client_id, 1 AS locale_id, accent
+          FROM user_clients
+          WHERE accent IS NOT NULL AND accent <> ''
+        )
+      `
+    );
+  }
 }
