@@ -17,6 +17,7 @@ audio-loading-error = Извините! Мы обрабатываем наши �
 ## Languages
 
 bn = Бенгальский
+br = Бретонский
 ca = Каталанский
 cs = Чешский
 cv = Чувашский
@@ -96,17 +97,30 @@ vote-yes = Да
 vote-no = Нет
 toggle-play-tooltip = Нажмите { shortcut-play-toggle } для переключения режима воспроизведения
 
-## Shortcuts
+## Speak & Listen Shortcuts
 
-# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
-# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-play-toggle = ж
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = с
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = о
+shortcut-play-toggle-label = Воспроизвести/остановить
 # Must be one letter that appears in the { vote-yes } string.
-# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = а
 # Must be one letter that appears in the { vote-no } string.
-# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = е
+
+## Speak Shortcuts
+
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = и
+shortcut-record-toggle-label = Записать/остановить
 request-language-text = Пока не видите ваш язык в Common Voice?
 request-language-button = Запросить язык
 
@@ -219,6 +233,7 @@ record-platform-not-supported-desktop = На настольных компьют
 record-platform-not-supported-ios = Пользователи <bold>iOS</bold> могут загрузить наше бесплатное приложение:
 record-must-allow-microphone = Вы должны разрешить доступ к микрофону.
 record-retry = Перезаписать
+record-no-mic-found = Микрофон не найден.
 record-error-too-short = Запись слишком короткая.
 record-error-too-long = Запись слишком длинная.
 record-error-too-quiet = Запись слишком тихая.
@@ -250,7 +265,6 @@ download-no = Нет, спасибо
 ## Contact Modal
 
 contact-title = Форма связи
-contact-cancel = Отмена
 contact-form-name =
     .label = Имя
 contact-form-message =
@@ -260,7 +274,6 @@ contact-required = *обязательно
 ## Request Language Modal
 
 request-language-title = Запрос языка
-request-language-cancel = Закрыть форму
 request-language-form-language =
     .label = Язык
 request-language-success-title = Запрос о добавлении языка успешно отправлен, спасибо.
@@ -273,6 +286,7 @@ language-section-launched = Запущено
 languages-show-more = Больше языков
 languages-show-less = Меньше языков
 language-speakers = Носителей
+language-meter-in-progress = Ход выполнения
 language-total-progress = Всего
 language-search-input =
     .placeholder = Поиск
@@ -281,6 +295,7 @@ language-search-input =
 
 action-click = Щёлкнуть
 action-tap = Коснуться
+contribute = Принять участие
 listen = Прослушать
 skip = Пропустить
 shortcuts = Сочетания клавиш
