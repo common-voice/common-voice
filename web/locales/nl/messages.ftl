@@ -17,6 +17,7 @@ audio-loading-error = Sorry! We verwerken onze audiobestanden, probeer het binne
 ## Languages
 
 bn = Bengaals
+br = Bretons
 ca = Catalaans
 cs = Tsjechisch
 cv = Chuvash
@@ -96,17 +97,30 @@ vote-yes = Ja
 vote-no = Nee
 toggle-play-tooltip = Druk op { shortcut-play-toggle } om de afspeelmodus in/uit te schakelen
 
-## Shortcuts
+## Speak & Listen Shortcuts
 
-# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
-# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
+shortcut-play-toggle-label = Afspelen/Stoppen
 # Must be one letter that appears in the { vote-yes } string.
-# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = J
 # Must be one letter that appears in the { vote-no } string.
-# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = N
+
+## Speak Shortcuts
+
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = O
+shortcut-record-toggle-label = Opnemen/Stoppen
 request-language-text = Ziet u uw taal nog niet op Common Voice?
 request-language-button = Een taal aanvragen
 
@@ -218,6 +232,7 @@ record-platform-not-supported-desktop = Op desktopcomputers kunt u de meest rece
 record-platform-not-supported-ios = <bold>iOS</bold>-gebruikers kunnen onze gratis app downloaden:
 record-must-allow-microphone = U dient toegang tot uw microfoon te geven.
 record-retry = Opnieuw proberen
+record-no-mic-found = Geen microfoon gevonden.
 record-error-too-short = De opname was te kort.
 record-error-too-long = De opname was te lang.
 record-error-too-quiet = De opname was te zacht.
@@ -249,8 +264,6 @@ download-no = Nee, bedankt
 ## Contact Modal
 
 contact-title = Contactformulier
-contact-cancel = Annuleren
-    .label = E-mailadres
 contact-form-name =
     .label = Naam
 contact-form-message =
@@ -260,7 +273,6 @@ contact-required = *vereist
 ## Request Language Modal
 
 request-language-title = Taalaanvraag
-request-language-cancel = Formulier afsluiten
 request-language-form-language =
     .label = Taal
 request-language-success-title = Taalaanvraag met succes ingediend, bedankt.
@@ -269,13 +281,49 @@ request-language-success-content = We nemen binnenkort contact op met meer infor
 ## Languages Overview
 
 language-section-in-progress = In uitvoering
+language-section-in-progress-description = Talen in uitvoering worden momenteel opgezet voor bijdragen vanuit onze gemeenschappen; de voortgang geeft weer hoe ver ze zijn met de websitevertaling en fasen van zinnenverzameling.
 language-section-launched = Beschikbaar
+language-section-launched-description = Voor deze gelanceerde talen is de website met succes vertaald, en zijn er voldoende zinnen verzameld voor doorlopende bijdragen aan het <italic>{ speak }</italic> en <italic>{ listen }</italic>.
 languages-show-more = Meer zien
 languages-show-less = Minder zien
 language-speakers = Sprekers
+language-meter-in-progress = Voortgang
 language-total-progress = Totaal
 language-search-input =
     .placeholder = Zoeken
 
 ## New Contribution
 
+action-click = Klik op
+action-tap = Tik op
+contribute = Bijdragen
+listen = Luisteren
+skip = Overslaan
+shortcuts = Sneltoetsen
+clips = Fragmenten
+goal-type-record = opname
+goal-type-validation = validatie
+toward-goal = We hebben <goalPercentage></goalPercentage> van het { $goalType }doel van Common Voice voor vandaag bereikt. Bedankt
+goal-help = U hebt Common Voice geholpen <goalPercentage></goalPercentage> van het dagelijkse { $goalType }doel te bereiken!
+contribute-more = Klaar om er nog { $count } te doen?
+record-cta = Opname starten
+record-instruction = { $actionType } <recordIcon></recordIcon> en lees de zin vervolgens hardop
+record-stop-instruction = { $actionType } <stopIcon></stopIcon> wanneer gereed
+record-three-more-instruction = Nog drie te gaan!
+record-again-instruction = Geweldig! <recordIcon></recordIcon> Neem uw volgende fragment op
+record-again-instruction2 = Ga zo door, neem nog een keer op <recordIcon></recordIcon>
+record-last-instruction = <checkIcon></checkIcon> De laatste!
+review-tooltip = Beoordeel en neem nogmaals fragmenten op als u wilt
+unable-speak = Kunt u nu niet spreken?
+review-instruction = Beoordeel fragmenten en neem ze zo nodig opnieuw op
+record-submit-tooltip = { $actionType } Indienen wanneer gereed
+clips-submitted = { $count } fragmenten ingediend!
+record-abort-title = Opname eerst voltooien?
+record-abort-text = Door nu af te sluiten, verliest u uw voortgang
+record-abort-submit = Fragmenten indienen
+record-abort-continue = Opname voltooien
+record-abort-delete = Afsluiten en fragmenten verwijderen
+listen-instruction = { $actionType } <playIcon></playIcon> - is de zin duidelijk uitgesproken?
+listen-again-instruction = Goed werk! <playIcon></playIcon> Luister opnieuw wanneer u klaar bent
+listen-3rd-time-instruction = 2 gedaan, ga zo door! <playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon> De laatste!
