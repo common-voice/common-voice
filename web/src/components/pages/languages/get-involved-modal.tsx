@@ -43,7 +43,7 @@ class GetInvolvedModal extends React.Component<Props, State> {
   private update = ({ target }: any) => {
     this.setState({
       [target.name]: target.type === 'checkbox' ? target.checked : target.value,
-    });
+    } as any);
   };
 
   private save = (event: React.FormEvent<HTMLFormElement>) => {

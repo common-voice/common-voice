@@ -81,7 +81,7 @@ interface LocalizedPagesState {
   messagesGenerator: any;
 }
 
-const LocalizedLayout = withRouter(
+const LocalizedLayout: any = withRouter(
   localeConnector(
     connect<PropsFromState, PropsFromDispatch>(
       ({ api, uploads }: StateTree) => ({
@@ -192,7 +192,7 @@ interface State {
   loaded: boolean;
 }
 
-class App extends React.Component<{}, State> {
+class App extends React.Component<void, State> {
   main: HTMLElement;
   userLocales: string[];
 
@@ -203,7 +203,7 @@ class App extends React.Component<{}, State> {
   /**
    * App will handle routing to page controllers.
    */
-  constructor(props: any, context: any) {
+  constructor(props: void, context: any) {
     super(props, context);
 
     if (isNativeIOS()) {

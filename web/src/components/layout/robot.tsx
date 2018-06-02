@@ -45,7 +45,7 @@ export default class Robot extends React.PureComponent<Props> {
     const { position } = this.props;
     return (
       <img
-        className={'robot ' + position}
+        className={'robot ' + (position ? position.toString() : '')}
         src={MODES[position] || MODE_GREETINGS}
         onClick={this.secretDoorToStaging}
       />

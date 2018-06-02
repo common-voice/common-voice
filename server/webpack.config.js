@@ -22,6 +22,7 @@ fs
 
 module.exports = {
   entry: './src/server.ts',
+  mode: 'development',
   output: {
     path: OUTPUT_PATH,
     filename: 'server.js',
@@ -47,9 +48,9 @@ module.exports = {
         use: [
           {
             loader: 'ts-loader',
-            options: {
-              silent: true,
-            },
+            // options: {
+            //   silent: true,
+            // },
           },
         ],
       },

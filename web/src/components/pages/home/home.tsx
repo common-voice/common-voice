@@ -25,7 +25,10 @@ interface PropsFromState {
   api: API;
 }
 
-type Props = RouteComponentProps<any> & LocalePropsFromState & PropsFromState;
+interface Props
+  extends RouteComponentProps<any>,
+    LocalePropsFromState,
+    PropsFromState {}
 
 interface State {
   messagesGenerator: any;
@@ -87,7 +90,7 @@ class HomePage extends React.Component<Props, State> {
           id="wall-of-text"
           className={showWallOfText ? 'show-more-text' : ''}>
           <ContributableLocaleLock
-            render={({ isContributable }) =>
+            render={({ isContributable }: any) =>
               isContributable ? (
                 <CardAction id="contribute-button" to={URLS.RECORD}>
                   <div>
@@ -175,8 +178,6 @@ class HomePage extends React.Component<Props, State> {
     );
   }
 }
-export default withRouter(
-  connect<PropsFromState>(({ api }: StateTree) => ({
-    api,
-  }))(localeConnector(HomePage))
-);
+export default withRouter(connect<PropsFromState>(({ api }: StateTree) => ({
+  api,
+}))(localeConnector(HomePage)) as any);

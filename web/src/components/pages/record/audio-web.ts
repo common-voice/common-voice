@@ -50,7 +50,7 @@ export default class AudioWeb {
           ({
             NotAllowedError: AudioError.NOT_ALLOWED,
             NotFoundError: AudioError.NO_MIC,
-          } as any)[error.name] || error
+          } as { [errorName: string]: AudioError })[error.name] || error
         );
       }
       function resolve(stream: MediaStream) {

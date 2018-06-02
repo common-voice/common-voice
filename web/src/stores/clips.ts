@@ -32,7 +32,7 @@ export namespace Clips {
 
   interface RefillCacheAction extends ReduxAction {
     type: ActionType.REFILL_CACHE;
-    clips?: Clip;
+    clips?: Clip[];
   }
 
   interface RemoveClipAction extends ReduxAction {
@@ -84,7 +84,7 @@ export namespace Clips {
     },
 
     vote: (isValid: boolean, clipId?: string) => async (
-      dispatch: Dispatch<RemoveClipAction | RefillCacheAction>,
+      dispatch: Dispatch<RemoveClipAction | RefillCacheAction | User.Action>,
       getState: () => StateTree
     ) => {
       const state = getState();

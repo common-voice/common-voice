@@ -163,15 +163,18 @@ export async function importSentences(pool: any) {
       LEFT JOIN locales ON locale_id = locales.id
       GROUP BY locale_id
     `
-  )) as any;
+  )) as { locale: string; count: number }[][];
 
   print(
     'sentences',
     JSON.stringify(
-      localeCounts.reduce((obj: any, { count, locale }: any) => {
-        obj[locale] = count;
-        return obj;
-      }, {})
+      localeCounts.reduce(
+        (obj, { count, locale }) => {
+          obj[locale] = count;
+          return obj;
+        },
+        {} as { [locale: string]: number }
+      )
     )
   );
 }

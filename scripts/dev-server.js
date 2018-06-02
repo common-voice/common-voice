@@ -30,8 +30,8 @@ serverCompiler.watch({}, (err, stats) => {
 
 const clientCompiler = webpack(
   Object.assign(
-    { context: path.join(__dirname, '..', 'web') },
-    require('../web/webpack.dev.config')
+    { context: path.join(__dirname, '..', 'web'), mode: 'development' },
+    require('../web/webpack.config')
   )
 );
 clientCompiler.plugin('compile', () => {

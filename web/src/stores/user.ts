@@ -125,7 +125,7 @@ export namespace User {
         type: ActionType.UPDATE,
         state,
       });
-      const { api, user } = getState();
+      const { api } = getState();
       api.syncUser().catch(error => console.log(error));
     },
 

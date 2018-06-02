@@ -34,7 +34,7 @@ export default class Bucket {
     uid: string,
     locale: string,
     count: number
-  ): Promise<any[]> {
+  ): Promise<{ id: number; glob: string; text: string; sound: string }[]> {
     const clips = await this.model.findEligibleClips(uid, locale, count);
     if (clips.length == 0) {
       throw new ServerError('Could not find any eligible clips for this user');

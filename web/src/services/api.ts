@@ -1,5 +1,6 @@
 import { Locale } from '../stores/locale';
 import { User } from '../stores/user';
+import { Recordings } from '../stores/recordings';
 
 export interface Clip {
   id: string;
@@ -76,7 +77,7 @@ export default class API {
     return this.getLocalePath() + '/clips';
   }
 
-  fetchRandomSentences(count: number = 1): Promise<string[]> {
+  fetchRandomSentences(count: number = 1): Promise<Recordings.Sentence[]> {
     return this.fetch(`${this.getLocalePath()}/sentences?count=${count}`);
   }
 

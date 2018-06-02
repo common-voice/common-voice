@@ -72,7 +72,7 @@ const store = createStore(
   composeEnhancers(applyMiddleware(thunk))
 );
 
-store.dispatch(User.actions.update({}));
+store.dispatch(User.actions.update({}) as any);
 
 const fieldTrackers: any = {
   email: () => trackProfile('give-email'),
@@ -84,7 +84,7 @@ const fieldTrackers: any = {
 
 let prevUser: User.State = null;
 store.subscribe(() => {
-  const user = (store.getState() as any).user as User.State;
+  const { user } = store.getState();
   for (const field of Object.keys(fieldTrackers)) {
     const typedField = field as keyof User.State;
     if (prevUser && user[typedField] !== prevUser[typedField]) {
@@ -100,7 +100,7 @@ store.subscribe(() => {
 if (!(document as any).documentMode) {
   window.addEventListener('storage', (storage: StorageEvent) => {
     if (storage.key === USER_KEY) {
-      store.dispatch(User.actions.update(JSON.parse(storage.newValue)));
+      store.dispatch(User.actions.update(JSON.parse(storage.newValue)) as any);
     }
   });
 }
