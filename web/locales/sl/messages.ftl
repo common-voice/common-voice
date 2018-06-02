@@ -17,6 +17,7 @@ audio-loading-error = Oprostite! Trenutno obdelujemo zvočne datoteke, poizkusit
 ## Languages
 
 bn = bengalščina
+br = bretonščina
 ca = katalonščina
 cs = češčina
 cv = čuvaščina
@@ -65,6 +66,7 @@ zh-TW = kitajščina (Tajvan)
 
 ## Layout
 
+speak = Govorite
 datasets = Nabori podatkov
 languages = Jeziki
 profile = Profil
@@ -79,24 +81,30 @@ back-top = Nazaj na vrh
 
 ## Home Page
 
+home-title = Projekt Common Voice je iniciativa Mozille, ki želi pomagati naučiti stroje, kako ljudje govorijo.
 home-cta = Spregovori, prispevaj tukaj!
 wall-of-text-start = Govor je naraven, govor je človeški. Zato navdušeno ustvarjamo uporabno govorno tehnologijo. Da lahko ustvarimo govorne sisteme, potrebujemo ogromne količine govornih podatkov.
 wall-of-text-more-mobile = Večina podatkov, ki jih uporabljajo velika podjetja, ni na voljo vsem ljudem. Menimo, da to zavira inovacije. Projekt Common Voice smo zagnali, ker želimo, da je prepoznavanje govora dostopno vsakomur.
+wall-of-text-more-desktop =
+    Zdaj lahko prispevate svoj glas in nam pomagate zgraditi odprtokodno govorno bazo, ki jo bo lahko kdorkoli uporabil za izdelavo inovativnih aplikacij za naprave in splet.<lineBreak></lineBreak>
+    Preberite stavek in pomagajte strojem pri učenju človeškega govora. Preglejte delo ostalih sodelavcev in izboljšajte kakovost. Tako enostavno je!
 show-wall-of-text = Več
 help-us-title = Pomagaj nam potrditi stavke!
 help-us-explain = Pritisni predvajaj in poslušaj. Ali je spodnji stavek pravilno izgovorjen?
 vote-yes = Da
 vote-no = Ne
-toggle-play-tooltip = Pritisni { shortcut-play-toggle } za preklop načina igranja
+toggle-play-tooltip = Pritisnite { shortcut-play-toggle } za preklop načina predavjanja
 
 ## Speak & Listen Shortcuts
 
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = Predvajaj/Ustavi
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = Snemaj/Ustavi
 request-language-text = Vaš jezik še ni vključen v Common Voice?
 request-language-button = Predlagaj jezik
 
@@ -151,6 +159,7 @@ profile-close = Zapri
 faq-title = Pogosta vprašanja
 faq-what-q = Kaj je Common Voice?
 faq-important-q = Zakaj je to pomembno?
+faq-important-a = Govor je naraven, govor je človeški. Je najpreprostejša in najbolj naravna oblika komunikacije. Želimo si, da bi razvijalci lahko ustvarjali čudovite stvari, od prevodov v realnem času do administrativnih pomočnikov, ki jih upravljamo z glasom. Trenutno ni na voljo dovolj javno dostopnih podatkov, da bi lahko takšne aplikacije tudi zgradili. Upamo, da bo Common Voice dal razvijalcem to, kar potrebujejo za inoviranje.
 faq-get-q = Kako lahko dobim podatke Common Voice?
 faq-get-a = Nabor podatkov je na voljo na naši <downloadLink>strani za prenos</downloadLink> pod licenco <licenseLink>CC-0</licenseLink>.
 faq-mission-q = Zakaj je Common Voice del Mozillinega poslanstva?
@@ -159,9 +168,11 @@ faq-native-a = Da, tudi vaš glas potrebujemo! Del namena projekta Common Voice 
 faq-firefox-q = Bo pretvorba govora v besedilo preko Common Voice v prihodnosti postala del Firefoxa?
 faq-firefox-a = Common Voice ima brezmejen potencial in resnično raziskujemo možnosti glasovnih vmesnikov v številnih Mozillinih izdelkih, tudi v Firefoxu.
 faq-quality-q = Kako kakovostni morajo biti posnetki, da bodo uporabni?
+faq-quality-a = Želimo si, da bi kakovost govorjenih posnetkov odražala kakovost zvoka pri običajni uporabi glasovnih vmesnikov. Zato želimo raznolikost. Le tako se bo algoritem za pretvorbo govora v besedilo naučil prepoznati različne situacije – govor v ozadju, hrup avtomobilov, hrup ventilatorjev – brez napak.
 faq-hours-q = Zakaj je cilj 10 000 ur posnetkov?
 faq-hours-a = To je približno število ur, ki jih sistem za pretvorbo govora v besedilo potrebuje za učenje.
 faq-source-q = Od kod izvirajo besedila?
+faq-source-a1 = Obstoječi stavki so prispevki sodelavcev ter dialogi iz scenarijev filmov v javni domeni, npr. <italic>Čudovito življenje</italic>.
 faq-source-a2 = Izvorne stavke si lahko ogledate v <dataLink>mapi na GitHubu</dataLink>.
 
 ## Profile
@@ -185,6 +196,7 @@ data-other-goto = Pojdi na { $name }
 data-other-download = Prenesi podatke
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = TED-LIUM je korpus, ki ga sestavljajo zvočni posnetki predstavitev in njihovi prepisi, dostopni na spletni strani TED.com.
+data-other-tatoeba-description = Tatoeba je velika baza stavkov, prevodov in govorjenih glasovnih datotek za uporabo pri učenju jezikov. Tukaj lahko prenesete pogovorno angleščino, posneto v njihovi skupnosti.
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mešano
 
@@ -195,6 +207,7 @@ record-platform-not-supported-desktop = Na namiznih in prenosnih računalnikih l
 record-platform-not-supported-ios = Uporabniki <bold>iOS</bold> lahko prenesejo našo brezplačno aplikacijo:
 record-must-allow-microphone = Dovoliti morate dostop do mikrofona.
 record-retry = Poizkusi znova
+record-no-mic-found = Ni najdenega mikrofona.
 record-error-too-short = Posnetek je prekratek.
 record-error-too-long = Posnetek je predolg.
 record-error-too-quiet = Posnetek je pretih.
@@ -252,5 +265,9 @@ skip = Preskoči
 shortcuts = Bližnjice
 record-cta = Začni snemati
 record-three-more-instruction = Še tri!
+record-abort-submit = Pošlji posnetke
 record-abort-continue = Končaj snemanje
 record-abort-delete = Izhod in brisanje posnetkov
+listen-instruction = { $actionType } <playIcon></playIcon> ali je bil stavek pravilno izgovorjen?
+listen-3rd-time-instruction = Samo še 2, kar tako naprej! <playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon> Še zadnji!
