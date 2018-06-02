@@ -112,7 +112,8 @@
     "jest-matcher-utils": "^22.4.0",
     "nodemon": "^1.12.1",
     "pre-commit": "^1.2.2",
-    "react-dev-utils": "^5.0.1"
+    "react-dev-utils": "^5.0.1",
+    "webpack-bundle-analyzer": "^2.13.1"
   },
   "resolutions": {
     "fluent": "0.4.3"
