@@ -23,6 +23,10 @@
         margin-bottom: 40px;
     }
 
+    & .button {
+        height: 57px;
+    }
+
     & .text-button {
         font-size: var(--font-size-small);
         font-weight: 600;
