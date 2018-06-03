@@ -17,6 +17,7 @@ audio-loading-error = Spiacenti, i file audio sono in fase di elaborazione. Ripr
 ## Languages
 
 bn = Bengalese
+br = Bretone
 ca = Catalano
 cs = Ceco
 cv = Ciuvascio
@@ -96,17 +97,28 @@ vote-yes = Sì
 vote-no = No
 toggle-play-tooltip = Premere { shortcut-play-toggle } per passare alla modalità di riproduzione
 
-## Shortcuts
+## Speak & Listen Shortcuts
 
-# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
-# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
 # Must be one letter that appears in the { vote-yes } string.
-# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
-# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Speak Shortcuts
+
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
 request-language-text = Non trovi la tua lingua su Common Voice?
 request-language-button = Richiedi una lingua
 
@@ -249,7 +261,6 @@ download-no = No, grazie
 ## Contact Modal
 
 contact-title = Modulo di contatto
-contact-cancel = Annulla
 contact-form-name =
     .label = Nome
 contact-form-message =
@@ -259,7 +270,6 @@ contact-required = *obbligatorio
 ## Request Language Modal
 
 request-language-title = Richiesta nuova lingua
-request-language-cancel = Chiudi modulo
 request-language-form-language =
     .label = Lingua
 request-language-success-title = Richiesta per una nuova lingua inviata. Grazie per il tuo interessamento.
@@ -272,6 +282,7 @@ language-section-launched = Avviato
 languages-show-more = Visualizza più elementi
 languages-show-less = Visualizza meno elementi
 language-speakers = Parlato da
+language-meter-in-progress = Progresso
 language-total-progress = Totale
 language-search-input =
     .placeholder = Cerca
@@ -280,6 +291,7 @@ language-search-input =
 
 action-click = Clic
 action-tap = Tocca
+contribute = Contribuisci
 listen = Ascolta
 skip = Salta
 shortcuts = Scorciatoie
