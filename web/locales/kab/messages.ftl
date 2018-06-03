@@ -85,7 +85,7 @@ back-top = Uɣal d asawen
 
 ## Home Page
 
-home-title = Asenfaṛ n Common Voice yella-d s lmendad n Mozilla. Yella-d i uɛawen n tmacicin ad issinent amek i heddṛen yimdanen n tidet.
+home-title = Asenfaṛ n Common Voice yella-d s lmendad n Mozilla. Yella-d i uɛawen n yiselkimen ad issinent amek i heddṛen yimdanen n tidet.
 home-cta = Meslay, ttekki da!
 wall-of-text-start = Taɣect d tagamant, taɣect d ayla n umdan. Ɣef aya i nebɣa ad d-nexdem tatiknulujit taɣectant ara sseqdacent tmacinin-nneɣ. Acu kan, akken ad d-nesnulfu inagrawen n taɣect, yessefk ad d-nelqeḍ aṭas n yisefka s tuɣac n yimdanen.
 wall-of-text-more-mobile = Tuget n yisefka i seqdacent tkebbaniyin  ur llint ara i tuget n yimdanen. Nwala d akken ayagi yesseḥbas asnulfu. Ɣef aya, asenfaṛ Common Voice ilul-d. D asenfaṛ ara yessifsusen anekcum ar tmussni taɣectant, i yal yiwen.
@@ -97,17 +97,30 @@ vote-yes = Ih
 vote-no = Ala
 toggle-play-tooltip = Tekki ɣef { shortcut-play-toggle } i wakken ad yuɣal ɣer uskar n tɣuri.
 
-## Shortcuts
+## Speak & Listen Shortcuts
 
-# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
-# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = u
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = S
+shortcut-play-toggle-label = Urar/Seḥbes
 # Must be one letter that appears in the { vote-yes } string.
-# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = I
 # Must be one letter that appears in the { vote-no } string.
-# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = U
+
+## Speak Shortcuts
+
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = s
+shortcut-record-toggle-label = Sekles/Seḥbes
 request-language-text = Ur tettwaliḍ ara tutlayt-ik di Common Voice yakan?
 request-language-button = Suter tutlayt
 
@@ -149,7 +162,7 @@ female = Unti
 # Gender
 other = Wiyaḍ
 why-profile-title = Acuɣer amaɣnu?
-why-profile-text = Ma terniḍ-d ugar n yisallen ɣef yiman-ik, isefka n ṣṣut i d-tceyyɛeḍ ar usenfaṛ n Common Voice ad lhun aṭas i tmacicin n unadi deg uɛqal n taɣect i yessexdamen isefka-ya i wakken ad snernin leqdic-nsen.
+why-profile-text = Ma terniḍ-d ugar n yisallen ɣef yiman-ik, isefka n ṣṣut i d-tceyyɛeḍ ar usenfaṛ n Common Voice ad lhun aṭas i yiselkimen n unadi deg uɛqal n taɣect i yessexdamen isefka-ya i wakken ad snernin leqdic-nsen.
 edit-profile = Ẓreg amaɣnu
 profile-create = Rnu amaɣnu
 profile-create-success = Yedda, amaɣnu yettwarna!
