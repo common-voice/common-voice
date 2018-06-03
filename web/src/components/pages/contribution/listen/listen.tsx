@@ -209,6 +209,7 @@ class ListenPage extends React.Component<Props, State> {
               />
             )
           }
+          isPlaying={isPlaying}
           isSubmitted={isSubmitted}
           onReset={this.reset}
           onSkip={this.handleSkip}

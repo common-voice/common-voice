@@ -9,6 +9,7 @@ import { ArrowLeft, CheckIcon, SkipIcon } from '../../ui/icons';
 import { Button } from '../../ui/ui';
 import { PrimaryButton } from './primary-buttons';
 import Success from './success';
+import Wave from './wave';
 
 import './contribution.css';
 
@@ -30,6 +31,7 @@ interface Props extends LocalizationProps {
     props: { $actionType: string; children: any }
   ) => React.ReactNode;
   isFirstSubmit?: boolean;
+  isPlaying: boolean;
   isSubmitted: boolean;
   onReset: () => any;
   onSkip: () => any;
@@ -56,6 +58,17 @@ class ContributionPage extends React.Component<Props, State> {
   };
 
   state: State = { selectedPill: null, showShortcutsModal: false };
+
+  private canvasRef: { current: HTMLCanvasElement | null } = React.createRef();
+  private wave: Wave;
+
+  componentDidMount() {
+    this.wave = new Wave(this.canvasRef.current);
+  }
+
+  componentWillReceiveProps(nextProps: Props) {
+    nextProps.isPlaying ? this.wave.play() : this.wave.idle();
+  }
 
   private get isLoaded() {
     return this.props.sentences.length > 0;
@@ -287,7 +300,10 @@ class ContributionPage extends React.Component<Props, State> {
               children: <div className="instruction hidden-md-up" />,
             })}
 
-            <div className="primary-buttons">{primaryButtons}</div>
+            <div className="primary-buttons">
+              <canvas ref={this.canvasRef} />
+              {primaryButtons}
+            </div>
 
             <div className="buttons">
               <div>

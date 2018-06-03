@@ -458,6 +458,7 @@ class SpeakPage extends React.Component<Props, State> {
             )
           }
           isFirstSubmit={user.recordTally === 0}
+          isPlaying={this.isRecording}
           isSubmitted={isSubmitted}
           onReset={() => this.resetState()}
           onSkip={this.handleSkip}
