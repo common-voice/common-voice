@@ -17,6 +17,7 @@ audio-loading-error = Orsak! Vi behandlar lydfilene våre. Prøv igjen litt sein
 ## Languages
 
 bn = Bengali
+br = Bretonsk
 ca = Katalansk
 cs = Tsjekkisk
 cv = Tsjuvasjisk
@@ -96,8 +97,16 @@ vote-yes = Ja
 vote-no = Nei
 toggle-play-tooltip = Trykk på { shortcut-play-toggle } for å starte eller stoppe innspelinga
 
-## Shortcuts
+## Speak & Listen Shortcuts
 
+
+## Listen Shortcuts
+
+shortcut-play-toggle-label = Spel av/Stopp
+
+## Speak Shortcuts
+
+shortcut-record-toggle-label = Spel inn/Stopp
 request-language-text = Ser du ikkje språket ditt på Common Voice enno?
 request-language-button = Send ein førespurnad om eit nytt språk
 
@@ -209,6 +218,7 @@ record-platform-not-supported-desktop = Til datamaskiner kan du laste ned siste 
 record-platform-not-supported-ios = <bold>iOS</bold>-brukarar kan laste ned gratisappen vår:
 record-must-allow-microphone = Du må tillate tilgang til mikrofonen.
 record-retry = Prøv igjen
+record-no-mic-found = Fann ingen mikrofon.
 record-error-too-short = Innspelinga var for kort.
 record-error-too-long = Innspelinga var for lang.
 record-error-too-quiet = Innspelinga var for stille.
@@ -240,7 +250,6 @@ download-no = Nei takk
 ## Contact Modal
 
 contact-title = Kontaktskjema
-contact-cancel = Avbryt
 contact-form-name =
     .label = Namn
 contact-form-message =
@@ -250,7 +259,6 @@ contact-required = *påkravd
 ## Request Language Modal
 
 request-language-title = Språkførespurnad
-request-language-cancel = Avslutt skjemaet
 request-language-form-language =
     .label = Språk
 request-language-success-title = Språkførespurnaden er sendt inn. Takk skal du ha.
@@ -263,6 +271,7 @@ language-section-launched = Lansert
 languages-show-more = Vis meir
 languages-show-less = Vis mindre
 language-speakers = Talt av
+language-meter-in-progress = Framdrift
 language-total-progress = Totalt
 language-search-input =
     .placeholder = Søk
@@ -271,12 +280,30 @@ language-search-input =
 
 action-click = Klikk
 action-tap = Trykk
+contribute = Bidra
 listen = Lytt
 skip = Hopp over
 shortcuts = Snarvegar
 clips = Klipp
 goal-type-record = innspeling
 goal-type-validation = validering
+contribute-more =
+    { $count ->
+        [one] Klar for { $count } til?
+       *[other] Klar for { $count } til?
+    }
 record-cta = Start innspeling
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> når du er ferdig
+record-three-more-instruction = Tre att!
+record-again-instruction = Bra!<recordIcon></recordIcon> Spel inn det neste klippet ditt
+record-again-instruction2 = Fortset slik og spel inn ein gong til <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Den siste!
+record-submit-tooltip = { $actionType } send inn når du er klar
+clips-submitted = { $count } klipp sendt inn
+record-abort-title = Avslutte opptaket først?
 record-abort-submit = Send inn klipp
 record-abort-continue = Avslutt innspeling
+record-abort-delete = Avslutt og slett klippa
+listen-again-instruction = Bra jobba!<playIcon></playIcon> Lytt på det ein gong tilnår du er klar for det
+listen-3rd-time-instruction = Ferdig med to <playIcon></playIcon>, fortset slik!
+listen-last-time-instruction = <playIcon></playIcon>Det siste!
