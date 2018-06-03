@@ -17,6 +17,7 @@ audio-loading-error = Вибачте! Ми обробляємо наші ауд�
 ## Languages
 
 bn = Бенгальська
+br = Бретонська
 ca = Каталонська
 cs = Чеська
 cv = Чуваська
@@ -106,17 +107,30 @@ vote-yes = Так
 vote-no = Ні
 toggle-play-tooltip = Натисніть { shortcut-play-toggle } для перемикання режиму відтворення
 
-## Shortcuts
+## Speak & Listen Shortcuts
 
-# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
-# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = с
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = с
+shortcut-play-toggle-label = Відтворити/Зупинити
 # Must be one letter that appears in the { vote-yes } string.
-# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = т
 # Must be one letter that appears in the { vote-no } string.
-# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = н
+
+## Speak Shortcuts
+
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = в
+shortcut-record-toggle-label = Записати/Зупинити
 request-language-text = Не можете знайти свою мову в Common Voice?
 request-language-button = Запит нової мови
 
@@ -229,6 +243,7 @@ record-platform-not-supported-desktop = На настільних комп'ют�
 record-platform-not-supported-ios = Користувачі <bold>iOS</bold> можуть завантажити наш безплатний додаток:
 record-must-allow-microphone = Ви повинні дозволити доступ до мікрофону.
 record-retry = Повторити
+record-no-mic-found = Не знайдено мікрофон.
 record-error-too-short = Запис надто короткий.
 record-error-too-long = Запис надто довгий.
 record-error-too-quiet = Запис надто тихий.
@@ -260,7 +275,6 @@ download-no = Ні, дякую
 ## Contact Modal
 
 contact-title = Форма зв'язку
-contact-cancel = Скасувати
 contact-form-name =
     .label = Ім'я
 contact-form-message =
@@ -270,7 +284,6 @@ contact-required = *обов'язково
 ## Request Language Modal
 
 request-language-title = Запит мови
-request-language-cancel = Вийти з форми
 request-language-form-language =
     .label = Мова
 request-language-success-title = Запит мови успішно відправлений. Дякуємо вам.
@@ -283,6 +296,7 @@ language-section-launched = Запущено
 languages-show-more = Більше мов
 languages-show-less = Менше мов
 language-speakers = Носіїв
+language-meter-in-progress = Перебіг виконання
 language-total-progress = Разом
 language-search-input =
     .placeholder = Пошук
@@ -291,6 +305,7 @@ language-search-input =
 
 action-click = Клацнути
 action-tap = Торкнутися
+contribute = Долучитися
 listen = Слухати
 skip = Пропустити
 shortcuts = Ярлики
@@ -298,6 +313,7 @@ clips = Кліпи
 goal-type-record = запис
 goal-type-validation = перевірка
 toward-goal = Залишилося <goalPercentage></goalPercentage> до сьогоднішньої цілі { $goalType } Common Voice. Дякуємо
+goal-help = Ви допомогли проекту Common Voice досягти <goalPercentage></goalPercentage> денної цілі { $goalType }!
 contribute-more = Готові зробити ще { $count }?
 record-cta = Почати запис
 record-instruction = { $actionType }<recordIcon></recordIcon>, потім прочитайте речення вголос
