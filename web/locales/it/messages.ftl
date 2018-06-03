@@ -230,6 +230,7 @@ record-platform-not-supported-desktop = Su computer desktop puoi scaricare l'ult
 record-platform-not-supported-ios = Gli utenti <bold>iOS</bold> possono scaricare la nostra applicazione gratuita:
 record-must-allow-microphone = È necessario consentire l’accesso al microfono del dispositivo.
 record-retry = Riprova
+record-no-mic-found = Impossibile trovare il microfono.
 record-error-too-short = La registrazione è troppo breve.
 record-error-too-long = La registrazione è troppo lunga.
 record-error-too-quiet = Il volume della registrazione è troppo basso.
@@ -278,7 +279,9 @@ request-language-success-content = Presto riceverai istruzioni su come aggiunger
 ## Languages Overview
 
 language-section-in-progress = In corso
+language-section-in-progress-description = Le lingue “in corso” non sono ancora pronte per ricevere i contributi della comunità. La barra del progresso indica a che punto sono nelle fasi di localizzazione del sito e di raccolta frasi.
 language-section-launched = Avviato
+language-section-launched-description = Se una lingua è “avviata” significa che il suo sito è stato completamente tradotto e sono state raccolte frasi a sufficienza per consentire ai volontari di contribuire continuativamente in <italic>{ speak }</italic> e { listen }</italic>.
 languages-show-more = Visualizza più elementi
 languages-show-less = Visualizza meno elementi
 language-speakers = Parlato da
