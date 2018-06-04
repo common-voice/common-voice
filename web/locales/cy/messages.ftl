@@ -174,6 +174,7 @@ profile-create = Creu proffil
 profile-create-success = Llwyddiant, wedi creu proffil!
 profile-close = Cau
 profile-clear-modal = Bydd clirio data eich proffil yn golygu na fydd y wybodaeth ddemograffig yma'n cael ei chyflwyno i Common Voice gyda'ch clipiau recordio.
+profile-explanation = Cadw golwg o'ch cynnydd gyda phroffil a helpu'n data llais i fod yn fwy cywir.
 
 ## FAQ
 
@@ -286,14 +287,14 @@ request-language-success-content = Byddwn mewn cysylltiad gyda rhagor o wybodaet
 
 ## Languages Overview
 
-language-section-in-progress = Ar Waith
-language-section-in-progress-description = Mae ieithoedd ar waith yn cael eu hadeiladu ar hyn o bryd ar gyfer cyfraniadau gan ein cymunedau; mae eu cynnydd yn adlewyrchu lle maen nhw arni ar draws cyfnodau lleolieddio'r wefan a'r casglu brawddegau.
+language-section-in-progress = Ar Gynnydd
+language-section-in-progress-description = Mae ieithoedd ar gynnydd yn cael eu hadeiladu ar hyn o bryd ar gyfer cyfraniadau gan ein cymunedau; mae eu cynnydd yn adlewyrchu lle maen nhw arni ar draws cyfnodau lleolieddio'r wefan a'r casglu brawddegau.
 language-section-launched = Wedi Cychwyn
 language-section-launched-description = Ar gyfer ieithoedd sydd wedi eu cyflwyno mae'r wefan wedi ei leoleiddio'n llwyddiannus ac mae digon o frawddegau wedi eu casglu i ganiatáu cyfraniadau <italic>{ speak }</italic> a <italic>{ listen }</italic> parhaus.
 languages-show-more = Gweld Mwy
 languages-show-less = Gweld Llai
 language-speakers = Siaradwyr
-language-meter-in-progress = Ar waith
+language-meter-in-progress = Cynnydd
 language-total-progress = Cyfanswm
 language-search-input =
     .placeholder = Chwilio
