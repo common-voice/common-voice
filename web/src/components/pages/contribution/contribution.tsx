@@ -96,7 +96,7 @@ class ContributionPage extends React.Component<Props, State> {
     this.setState({ selectedPill: i });
   }
 
-  private toggleShowShortcutsModal = () =>
+``  private toggleShortcutsModal = () =>
     this.setState({ showShortcutsModal: !this.state.showShortcutsModal });
 
   private handleKeyDown = (event: React.KeyboardEvent<any>) => {
@@ -136,7 +136,7 @@ class ContributionPage extends React.Component<Props, State> {
         {showShortcutsModal && (
           <Modal
             innerClassName="shortcuts-modal"
-            onRequestClose={this.toggleShowShortcutsModal}>
+            onRequestClose={this.toggleShortcutsModal}>
             <Localized id="shortcuts">
               <h1 />
             </Localized>
@@ -308,7 +308,7 @@ class ContributionPage extends React.Component<Props, State> {
                     rounded
                     outline
                     className="hidden-sm-down"
-                    onClick={this.toggleShowShortcutsModal}
+                    onClick={this.toggleShortcutsModal}
                   />
                 </Localized>
                 <div className="extra-button">{extraButton}</div>
