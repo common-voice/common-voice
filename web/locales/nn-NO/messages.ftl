@@ -298,6 +298,7 @@ record-three-more-instruction = Tre att!
 record-again-instruction = Bra!<recordIcon></recordIcon> Spel inn det neste klippet ditt
 record-again-instruction2 = Fortset slik og spel inn ein gong til <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Den siste!
+unable-speak = Kan du ikkje snakke inn no?
 record-submit-tooltip = { $actionType } send inn når du er klar
 clips-submitted = { $count } klipp sendt inn
 record-abort-title = Avslutte opptaket først?
