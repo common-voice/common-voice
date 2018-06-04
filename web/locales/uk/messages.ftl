@@ -293,7 +293,9 @@ request-language-success-content = Ми дуже скоро зв'яжемося 
 ## Languages Overview
 
 language-section-in-progress = В процесі
+language-section-in-progress-description = Дані для мов, що знаходяться в процесі, готуються для включення нашими спільнотами; їхній прогрес відображає їх стан серед локалізації веб-сайту і етапів обробки речень.
 language-section-launched = Запущено
+language-section-launched-description = Для цих запущених мов було успішно перекладено веб-сайт, а також вони мають достатню кількість оброблених речень, щоб дозволити помічникам <italic>{ speak }</italic> та <italic>{ listen }</italic>.
 languages-show-more = Більше мов
 languages-show-less = Менше мов
 language-speakers = Носіїв
