@@ -63,11 +63,16 @@ class ContributionPage extends React.Component<Props, State> {
   private wave: Wave;
 
   componentDidMount() {
-    this.wave = new Wave(this.canvasRef.current);
+    const canvas = this.canvasRef.current;
+    if (canvas) {
+      this.wave = new Wave(canvas);
+    }
   }
 
   componentWillReceiveProps(nextProps: Props) {
-    nextProps.isPlaying ? this.wave.play() : this.wave.idle();
+    if (this.wave) {
+      nextProps.isPlaying ? this.wave.play() : this.wave.idle();
+    }
   }
 
   private get isLoaded() {
@@ -129,29 +134,20 @@ class ContributionPage extends React.Component<Props, State> {
         onKeyDown={this.handleKeyDown}
         tabIndex={-1}>
         {showShortcutsModal && (
-          <Modal onRequestClose={this.toggleShowShortcutsModal}>
-            <table style={{ margin: '0 auto' }}>
-              <thead>
-                <tr>
-                  <Localized id="shortcuts">
-                    <th />
-                  </Localized>
-                  <th />
-                </tr>
-              </thead>
-              <tbody>
-                {this.shortcuts.map(({ key, label }) => (
-                  <tr key={key}>
-                    <td style={{ textAlign: 'left', fontWeight: 600 }}>
-                      {getString(key)}
-                    </td>
-                    <td style={{ paddingLeft: 20, textAlign: 'right' }}>
-                      {getString(label)}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+          <Modal
+            innerClassName="shortcuts-modal"
+            onRequestClose={this.toggleShowShortcutsModal}>
+            <Localized id="shortcuts">
+              <h1 />
+            </Localized>
+            <div className="shortcuts">
+              {this.shortcuts.map(({ key, label }) => (
+                <div key={key} className="shortcut">
+                  <kbd>{getString(key).toUpperCase()}</kbd>
+                  <div className="label">{getString(label)}</div>
+                </div>
+              ))}
+            </div>
           </Modal>
         )}
         <div
