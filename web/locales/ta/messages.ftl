@@ -11,6 +11,7 @@ loading = ஏற்றுகிறது…
 audio-loading-error = மன்னிக்கவும்! நாங்கள் எங்கள் ஒலிக் கோப்புகளைச் செயலாக்கிக் கொண்டிருக்கிறோம், தயவுசெய்து பின்னர் மீண்டும் முயற்சியுங்கள்.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
@@ -25,8 +26,6 @@ de = ஜெர்மன்
 el = கிரேக்கம்
 en = ஆங்கிலம்
 es = ஸ்பானிஷ்
-es-AR = ஸ்பானிஷ் (அர்ஜென்டீனா)
-es-CL = ஸ்பானிஷ் (சிலி)
 fr = பிரெஞ்சு
 fy-NL = ஃப்ரிஷியன்
 ga-IE = ஐரிஷ்
@@ -61,6 +60,9 @@ uz = உஸ்பெக்
 zh-CN = சீனம் (சீனா)
 zh-TW = சீனம் (தைவான்)
 
+# [/]
+
+
 ## Layout
 
 speak = பேசுக
@@ -90,6 +92,25 @@ help-us-title = சொற்றொடர்களைச் சரிபார்
 help-us-explain = இயக்குங்கள், கேளுங்கள் & எங்களிடம் கூறுங்கள்: அவர்கள் கீழ்கண்ட சொற்றொடரைத் துல்லியமாகப் பேசினார்களா?
 vote-yes = ஆம்
 vote-no = இல்லை
+toggle-play-tooltip = இயக்கும் முறைக்கு மாற  { shortcut-play-toggle } அழுத்தவும்
+
+## Speak & Listen Shortcuts
+
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
+
+## Speak Shortcuts
+
 request-language-text = பொதுக் குரலில் உங்கள் மொழி இல்லையா?
 request-language-button = மொழியைக் கோருங்கள்
 
@@ -200,7 +221,6 @@ record-platform-not-supported = மன்னிக்கவும், உங்�
 record-platform-not-supported-desktop = பணித்திரைக் கணினிகளில், நீங்கள் சமீபத்தியதைப் பதிவிறக்கலாம்;
 record-platform-not-supported-ios = <bold>iOS</bold> பயனர்கள் எங்கள் இலவச செயலியைப் பதிவிறக்கலாம்:
 record-must-allow-microphone = ஒலிவாங்கி அணுகலை நீங்கள் அனுமதிக்க வேண்டும்.
-record-cancel = மறுபதிவினை இரத்து செய்
 record-retry = மறுமுயற்சி
 record-error-too-short = பதிவு மிகவும் குறுகியதாக உள்ளது.
 record-error-too-long = பதிவு மிக நீளமாக உள்ளது.
@@ -233,7 +253,6 @@ download-no = பரவாயில்லை நன்றி
 ## Contact Modal
 
 contact-title = தொடர்பு படிவம்
-contact-cancel = ரத்துசெய்
 contact-form-name =
     .label = பெயர்
 contact-form-message =
@@ -243,7 +262,6 @@ contact-required = *அவசியம்
 ## Request Language Modal
 
 request-language-title = மொழி கோரிக்கை
-request-language-cancel = படிவத்திலிருந்து வெளியேறு
 request-language-form-language =
     .label = மொழி
 request-language-success-title = மொழி கோரிக்கை வெற்றிகரமாக சமர்ப்பிக்கப்பட்டது, நன்றி.
@@ -257,3 +275,8 @@ languages-show-more = மேலும் பார்க்க
 languages-show-less = குறைவாகப் பார்க்க
 language-speakers = பேசுபவர்கள்
 language-total-progress = மொத்தம்
+language-search-input =
+    .placeholder = தேடு
+
+## New Contribution
+
