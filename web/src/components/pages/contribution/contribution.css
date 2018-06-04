@@ -311,6 +311,7 @@
             position: absolute;
             width: 100% !important;
             max-width: calc(var(--wide-desktop-width) - 40px);
+            mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 3%, black, rgba(0, 0, 0, 0) 97%);
         }
     }
 
