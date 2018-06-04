@@ -171,6 +171,7 @@ profile-close = Close
 profile-clear-modal =
   Clearing your profile data means this demographic information will no longer be submitted to Common Voice with your
   clip recordings.
+profile-explanation = Keep track of your progress with a profile and help our voice data be more accurate.
 
 ## FAQ
 faq-title = Frequently Asked Questions

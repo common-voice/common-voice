@@ -116,7 +116,7 @@ class Success extends React.Component<Props, State> {
 
         {!hasEnteredInfo && (
           <div className="profile-card">
-            <Localized id="why-profile-text">
+            <Localized id="profile-explanation">
               <p />
             </Localized>
             <Localized id="profile-create">
