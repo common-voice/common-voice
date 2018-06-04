@@ -178,6 +178,7 @@ profile-create = Profyl oanmeitsje
 profile-create-success = Profyl mei sukses oanmakke!
 profile-close = Slute
 profile-clear-modal = It wiskjen fan jo profylgegevens betsjut dat dizze demografyske gegevens net mear tegearre mei jo opnamen by Common Voice yntsjinne wurde.
+profile-explanation = Hâld jo foarútgong yn 'e gaten mei in profyl en help om ús stimgegevens sekuerder te wêzen.
 
 ## FAQ
 
