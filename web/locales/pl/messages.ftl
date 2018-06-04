@@ -169,6 +169,7 @@ profile-create = Utwórz profil
 profile-create-success = Pomyślnie utworzono profil.
 profile-close = Zamknij
 profile-clear-modal = Wyczyszczenie danych profilu oznacza, że te informacje demograficzne nie będą już wysyłane do projektu Common Voice razem z nagraniami.
+profile-explanation = Kontroluj swój postęp za pomocą profilu i pomóż zwiększyć dokładność naszych danych.
 
 ## FAQ
 
