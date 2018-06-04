@@ -98,14 +98,12 @@ class Curve {
 
 export default class Wave {
   private colors = [[89, 203, 183], [177, 181, 229], [248, 144, 150]];
-  private tick: number;
   private speed: number;
   private ctx: CanvasRenderingContext2D;
   private curves: Curve[];
+  private amplitude = IDLE_AMPLITUDE;
 
   constructor(canvas: HTMLCanvasElement) {
-    this.tick = 0;
-
     this.speed = 0.1;
 
     canvas.width = WIDTH;
@@ -139,6 +137,7 @@ export default class Wave {
   private draw() {
     this.clear();
     for (const curve of this.curves) {
+      curve.baseAmplitude = curve.baseAmplitude * 0.9 + this.amplitude * 0.1;
       curve.draw();
     }
 
@@ -146,12 +145,10 @@ export default class Wave {
   }
 
   play() {
-    this.tick = 0;
-    this.curves.forEach(curve => (curve.baseAmplitude = PLAY_AMPLITUDE));
+    this.amplitude = PLAY_AMPLITUDE;
   }
 
   idle() {
-    this.tick = 0;
-    this.curves.forEach(curve => (curve.baseAmplitude = IDLE_AMPLITUDE));
+    this.amplitude = IDLE_AMPLITUDE;
   }
 }
