@@ -107,6 +107,7 @@ shortcut-skip = s
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
+shortcut-play-toggle-label = Riproduci/Interrompi
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
@@ -119,6 +120,7 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
+shortcut-record-toggle-label = Registra/Interrompi
 request-language-text = Non trovi la tua lingua su Common Voice?
 request-language-button = Richiedi una lingua
 
@@ -302,6 +304,7 @@ clips = Registrazioni
 goal-type-record = registrazione
 goal-type-validation = conferma
 toward-goal = Hai portato Common Voice del <goalPercentage></goalPercentage> più vicino all‘obiettivo { $goalType } di oggi. Grazie!
+goal-help = Hai aiutato Common Voice a raggiungere il <goalPercentage></goalPercentage> del traguardo { $goalType } giornaliero!
 contribute-more = Sei pronto a farne ancora { $count }?
 record-cta = Avvia la registrazione
 record-instruction = { $actionType }<recordIcon></recordIcon>, quindi leggi la frase ad alta voce
