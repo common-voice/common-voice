@@ -63,6 +63,8 @@
         text-transform: uppercase;
         font-weight: 600;
         letter-spacing: 1px;
+        z-index: var(--top-z-index);
+        background: var(--white);
 
         &, & path {
             transition: all var(--transition-duration) linear;
