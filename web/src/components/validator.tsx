@@ -30,13 +30,12 @@ const Validator = ({ clip, getString, isLoading, vote }: Props) => (
             <span />
           </Localized>
         ) : (
-          <Localized
-            id="no-clips-to-validate"
-            recordLink={<LocaleLink to={URLS.RECORD} />}>
+          <Localized id="no-clips-to-validate">
             <span />
           </Localized>
         )
       }
+      showSpeakButton={!clip && !isLoading}
       onVote={vote}
       vote
     />

@@ -27,6 +27,11 @@
         min-height: var(--listen-box-height);
         color: var(--near-black);
 
+        &.disabled {
+            box-shadow: none;
+            background: var(--light-grey);
+        }
+
         & a {
             color: var(--green);
         }
@@ -41,6 +46,18 @@
             line-height: 1rem;
             font-size: 0.65rem;
             left: 0;
+        }
+    }
+
+    & .speak {
+        margin: 10px auto auto;
+        padding: 20px;
+        height: 50px;
+        min-width: auto;
+        white-space: nowrap;
+
+        @media (--md-up) {
+            margin: auto 0 auto 30px;
         }
     }
 }

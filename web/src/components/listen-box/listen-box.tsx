@@ -1,7 +1,9 @@
-import { LocalizationProps, withLocalization } from 'fluent-react';
+import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
 import * as React from 'react';
 import { trackListening } from '../../services/tracker';
 import { FontIcon, OldPlayIcon, OldRedoIcon } from '../ui/icons';
+import URLS from '../../urls';
+import { LinkButton } from '../ui/ui';
 
 const VOTE_NO_PLAY_MS = 3000; // Threshold when to allow voting no
 
@@ -11,6 +13,7 @@ interface Props extends LocalizationProps {
   vote?: boolean;
   onVote?(valid: boolean): void;
   onDelete?(): void;
+  showSpeakButton?: boolean;
 }
 
 interface State {
@@ -175,7 +178,7 @@ class ListenBox extends React.Component<Props, State> {
   };
 
   render() {
-    const { getString, sentence, vote } = this.props;
+    const { getString, sentence, showSpeakButton, vote } = this.props;
     const {
       loaded,
       playing,
@@ -192,14 +195,22 @@ class ListenBox extends React.Component<Props, State> {
         className={
           'listen-box' + (loaded ? ' loaded' : '') + (playing ? ' playing' : '')
         }>
-        <div className="sentence-box">{sentence}</div>
-        <button
-          onClick={this.onPlay}
-          className="play-box"
-          title={shortcutsEnabled ? getString('toggle-play-tooltip') : ''}>
-          {playing ? <FontIcon type="stop" /> : <OldPlayIcon />}
-        </button>
-        {vote ? (
+        <div className={'sentence-box ' + (showSpeakButton ? 'disabled' : '')}>
+          {sentence}
+        </div>
+        {!showSpeakButton && (
+          <button
+            onClick={this.onPlay}
+            className="play-box"
+            title={shortcutsEnabled ? getString('toggle-play-tooltip') : ''}>
+            {playing ? <FontIcon type="stop" /> : <OldPlayIcon />}
+          </button>
+        )}
+        {showSpeakButton ? (
+          <Localized id="speak-now">
+            <LinkButton className="speak" outline rounded to={URLS.RECORD} />
+          </Localized>
+        ) : vote ? (
           <div className="vote-box">
             <button
               onClick={this.voteYes}

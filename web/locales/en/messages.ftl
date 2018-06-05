@@ -62,6 +62,7 @@ zh-TW = Chinese (Taiwan)
 
 ## Layout
 speak = Speak
+speak-now = Speak now
 datasets = Datasets
 languages = Languages
 profile = Profile
