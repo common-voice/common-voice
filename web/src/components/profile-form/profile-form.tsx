@@ -2,15 +2,18 @@ import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
 import pick = require('lodash.pick');
 import * as React from 'react';
 import { connect } from 'react-redux';
+import { DEFAULT_LOCALE } from '../../services/localization';
+import { Locale } from '../../stores/locale';
 import StateTree from '../../stores/tree';
 import { ACCENTS, AGES, GENDERS, User } from '../../stores/user';
 import Modal from '../modal/modal';
 import { Button, Hr, LabeledInput, LabeledSelect, TextButton } from '../ui/ui';
+import { isContributable } from '../locale-helpers';
 
 interface EditableUser {
   email: string;
   username: string;
-  accent: string;
+  accents?: any;
   age: string;
   gender: string;
   sendEmails: boolean;
@@ -19,8 +22,8 @@ interface EditableUser {
 const userFormFields = [
   'email',
   'username',
-  'accent',
   'age',
+  'accents',
   'gender',
   'sendEmails',
 ];
@@ -29,8 +32,9 @@ const filterUserFields = (data: any) =>
   pick(data, userFormFields) as EditableUser;
 
 interface PropsFromState {
-  user: EditableUser;
   hasEnteredInfo: boolean;
+  locale: Locale.State;
+  user: EditableUser;
 }
 
 interface PropsFromDispatch {
@@ -43,11 +47,16 @@ interface Props extends LocalizationProps, PropsFromState, PropsFromDispatch {
 }
 
 interface State extends EditableUser {
+  accent: string;
   showClearModal: boolean;
 }
 
 class ProfileForm extends React.Component<Props, State> {
-  state = { ...filterUserFields(this.props.user), showClearModal: false };
+  state = {
+    ...filterUserFields(this.props.user),
+    accent: '',
+    showClearModal: false,
+  };
 
   private toggleClearModal = () => {
     this.setState(state => ({ showClearModal: !state.showClearModal }));
@@ -72,20 +81,29 @@ class ProfileForm extends React.Component<Props, State> {
 
   private save = (evt: React.FormEvent<HTMLFormElement>) => {
     evt.preventDefault();
-    const { updateUser, onExit } = this.props;
-    updateUser(filterUserFields(this.state));
+    const { locale, onExit, updateUser, user } = this.props;
+    const { accent } = this.state;
+    updateUser({
+      ...filterUserFields(this.state),
+      accents: {
+        ...user.accents,
+        [isContributable(locale) ? locale : DEFAULT_LOCALE]: accent,
+      },
+    });
 
     onExit && onExit();
   };
 
   render() {
-    const { getString, hasEnteredInfo, onExit, user } = this.props;
-    const { email, username, accent, age, gender, sendEmails } = this.state;
+    const { getString, hasEnteredInfo, locale, onExit, user } = this.props;
+    const { email, username, accents, age, gender, sendEmails } = this.state;
 
     const isModified = userFormFields.some(key => {
       const typedKey = key as keyof EditableUser;
       return this.state[typedKey] !== user[typedKey];
     });
+
+    const shownLocale = isContributable(locale) ? locale : DEFAULT_LOCALE;
 
     return (
       <div id="profile-card">
@@ -158,7 +176,7 @@ class ProfileForm extends React.Component<Props, State> {
               label="Language"
               name="language"
               tabIndex={-1}>
-              <Localized id="profile-form-more-languages">
+              <Localized id={shownLocale}>
                 <option value="" />
               </Localized>
             </LabeledSelect>
@@ -170,8 +188,11 @@ class ProfileForm extends React.Component<Props, State> {
               label="Accent"
               name="accent"
               onChange={this.update}
-              value={accent}>
-              {this.renderOptionsFor(ACCENTS)}
+              value={accents[shownLocale]}>
+              {this.renderOptionsFor({
+                '': '--',
+                ...ACCENTS[shownLocale],
+              })}
             </LabeledSelect>
           </Localized>
 
@@ -217,9 +238,10 @@ class ProfileForm extends React.Component<Props, State> {
   }
 }
 
-const mapStateToProps = ({ user }: StateTree) => ({
-  user,
+const mapStateToProps = ({ locale, user }: StateTree) => ({
   hasEnteredInfo: User.selectors.hasEnteredInfo(user),
+  locale,
+  user,
 });
 
 const mapDispatchToProps = (dispatch: any) => ({

@@ -145,7 +145,6 @@ profile-form-username =
     .label = User Name
 profile-form-language =
     .label = Language
-profile-form-more-languages = More languages coming soon!
 profile-form-accent =
     .label = Accent
 profile-form-age =

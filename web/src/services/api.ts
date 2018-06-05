@@ -97,7 +97,7 @@ export default class API {
   syncUser(): Promise<any> {
     const {
       age,
-      accent,
+      accents,
       email,
       gender,
       hasDownloaded,
@@ -109,7 +109,7 @@ export default class API {
       method: 'PUT',
       body: {
         age,
-        accent,
+        accents,
         email,
         gender,
         has_downloaded: hasDownloaded,

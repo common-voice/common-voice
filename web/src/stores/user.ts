@@ -1,26 +1,123 @@
 import pick = require('lodash.pick');
 import { createSelector } from 'reselect';
+import { DEFAULT_LOCALE } from '../services/localization';
 import { generateGUID } from '../utility';
 import StateTree from './tree';
 
-export const ACCENTS = {
-  '': '--',
-  us: 'United States English',
-  australia: 'Australian English',
-  england: 'England English',
-  canada: 'Canadian English',
-  philippines: 'Filipino',
-  hongkong: 'Hong Kong English',
-  indian: 'India and South Asia (India, Pakistan, Sri Lanka)',
-  ireland: 'Irish English',
-  malaysia: 'Malaysian English',
-  newzealand: 'New Zealand English',
-  scotland: 'Scottish English',
-  singapore: 'Singaporean English',
-  southatlandtic: 'South Atlantic (Falkland Islands, Saint Helena)',
-  african: 'Southern African (South Africa, Zimbabwe, Namibia)',
-  wales: 'Welsh English',
-  bermuda: 'West Indies and Bermuda (Bahamas, Bermuda, Jamaica, Trinidad)',
+export const ACCENTS: any = {
+  cy: {
+    uk: 'United Kingdom',
+  },
+  de: {
+    germany: 'Deutschland Deutsch',
+    netherlands: 'Niederländisch Deutsch',
+    austria: 'Österreichisches Deutsch',
+    poland: 'Polnisch Deutsch',
+    switzerland: 'Schweizerdeutsch',
+    united_kingdom: 'Britisches Deutsch',
+    france: 'Französisch Deutsch',
+    denmark: 'Dänisch Deutsch',
+    belgium: 'Belgisches Deutsch',
+    hungary: 'Ungarisch Deutsch',
+    brazil: 'Brasilianisches Deutsch',
+    czechia: 'Tschechisch Deutsch',
+    united_states: 'Amerikanisches Deutsch',
+    slovakia: 'Slowakisch Deutsch',
+    kazakhstan: 'Kasachisch Deutsch',
+    italy: 'Italienisch Deutsch',
+    finland: 'Finnisch Deutsch',
+    slovenia: 'Slowenisch Deutsch',
+    canada: 'Kanadisches Deutsch',
+    bulgaria: 'Bulgarisch Deutsch',
+    greece: 'Griechisch Deutsch',
+    lithuania: 'Litauisch Deutsch',
+    luxembourg: 'Luxemburgisches Deutsch',
+    paraguay: 'Paraguayisch Deutsch',
+    romania: 'Rumänisch Deutsch',
+    liechtenstein: 'liechtensteinisches Deutscher',
+    namibia: 'Namibisch Deutsch',
+  },
+  en: {
+    us: 'United States English',
+    australia: 'Australian English',
+    england: 'England English',
+    canada: 'Canadian English',
+    philippines: 'Filipino',
+    hongkong: 'Hong Kong English',
+    indian: 'India and South Asia (India, Pakistan, Sri Lanka)',
+    ireland: 'Irish English',
+    malaysia: 'Malaysian English',
+    newzealand: 'New Zealand English',
+    scotland: 'Scottish English',
+    singapore: 'Singaporean English',
+    southatlandtic: 'South Atlantic (Falkland Islands, Saint Helena)',
+    african: 'Southern African (South Africa, Zimbabwe, Namibia)',
+    wales: 'Welsh English',
+    bermuda: 'West Indies and Bermuda (Bahamas, Bermuda, Jamaica, Trinidad)',
+  },
+  fr: {
+    france: 'France français',
+    madagascar: 'Madagascar français',
+    cameroon: 'Cameroun français',
+    germany: 'Allemand français',
+    united_kingdom: 'United Kingdom',
+    cote_d_ivoire: 'Côte d’Ivoire',
+    tunisia: 'Tunisia',
+    mali: 'Mali',
+    algeria: 'Algeria',
+    canada: 'Canada',
+    morocco: 'Morocco',
+    burundi: 'Burundi',
+    senegal: 'Senegal',
+    niger: 'Niger',
+    netherlands: 'Netherlands',
+    togo: 'Togo',
+    burkina_faso: 'Burkina Faso',
+    belgium: 'Belgium',
+    congo_brazzaville: 'Congo - Brazzaville',
+    italy: 'Italy',
+    benin: 'Benin',
+    romania: 'Romania',
+    guinea: 'Guinea',
+    congo_kinshasa: 'Congo - Kinshasa',
+    chad: 'Chad',
+    central_african_republic: 'Central African Republic',
+    united_states: 'United States',
+    switzerland: 'Switzerland',
+    portugal: 'Portugal',
+    gabon: 'Gabon',
+    syria: 'Syria',
+    greece: 'Greece',
+    austria: 'Austria',
+    ireland: 'Ireland',
+    reunion: 'Réunion',
+    mauritania: 'Mauritania',
+    luxembourg: 'Luxembourg',
+    haiti: 'Haiti',
+    comoros: 'Comoros',
+    martinique: 'Martinique',
+    guadeloupe: 'Guadeloupe',
+    hungary: 'Hungary',
+    new_caledonia: 'New Caledonia',
+    french_polynesia: 'French Polynesia',
+    french_guiana: 'French Guiana',
+    vanuatu: 'Vanuatu',
+    mayotte: 'Mayotte',
+    cyprus: 'Cyprus',
+    equatorial_guinea: 'Equatorial Guinea',
+    seychelles: 'Seychelles',
+    malta: 'Malta',
+    mauritius: 'Mauritius',
+    st_martin: 'St. Martin',
+    monaco: 'Monaco',
+    lebanon: 'Lebanon',
+    djibouti: 'Djibouti',
+    wallis_et_futuna: 'Wallis & Futuna',
+    st_barthelemy: 'St. Barthélemy',
+    andorra: 'Andorra',
+    st_pierre_et_miquelon: 'St. Pierre & Miquelon',
+    rwanda: 'Rwanda',
+  },
 };
 
 export const AGES = {
@@ -43,7 +140,6 @@ export const GENDERS = {
   other: 'Other',
 };
 
-type Accent = keyof typeof ACCENTS;
 type Age = keyof typeof AGES;
 type Gender = keyof typeof GENDERS;
 
@@ -53,7 +149,10 @@ export namespace User {
     email: string;
     username: string;
     sendEmails: boolean;
-    accent: Accent;
+    accent: string;
+    accents?: {
+      [locale: string]: string;
+    };
     age: Age;
     gender: Gender;
     clips: number;
@@ -68,7 +167,7 @@ export namespace User {
     email?: string;
     username?: string;
     sendEmails?: boolean;
-    accent?: Accent;
+    accents?: { [locale: string]: string };
     age?: Age;
     gender?: Gender;
     privacyAgreed?: boolean;
@@ -82,6 +181,7 @@ export namespace User {
       username: '',
       sendEmails: false,
       accent: '',
+      accents: {},
       age: '',
       gender: '',
       clips: 0,
@@ -155,7 +255,10 @@ export namespace User {
         return { ...state, validateTally: state.validateTally + 1 };
 
       default:
-        return state;
+        return {
+          accents: state.accent ? { [DEFAULT_LOCALE]: state.accent } : {},
+          ...state,
+        };
     }
   }
 
