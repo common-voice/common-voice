@@ -23,6 +23,7 @@ de = German
 el = Greek
 en = English
 es = Spanish
+et = Estonian
 fr = French
 fy-NL = Frisian
 ga-IE = Irish
