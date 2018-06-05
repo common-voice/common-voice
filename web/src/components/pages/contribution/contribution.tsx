@@ -63,15 +63,14 @@ class ContributionPage extends React.Component<Props, State> {
   private wave: Wave;
 
   componentDidMount() {
-    const canvas = this.canvasRef.current;
-    if (canvas) {
-      this.wave = new Wave(canvas);
-    }
+    this.startWaving();
   }
 
-  componentWillReceiveProps(nextProps: Props) {
+  componentDidUpdate() {
+    this.startWaving();
+
     if (this.wave) {
-      nextProps.isPlaying ? this.wave.play() : this.wave.idle();
+      this.props.isPlaying ? this.wave.play() : this.wave.idle();
     }
   }
 
@@ -91,6 +90,13 @@ class ContributionPage extends React.Component<Props, State> {
       action: onSkip,
     });
   }
+
+  private startWaving = () => {
+    const canvas = this.canvasRef.current;
+    if (canvas) {
+      this.wave = new Wave(canvas);
+    }
+  };
 
   private selectPill(i: number) {
     this.setState({ selectedPill: i });
