@@ -221,8 +221,8 @@ export namespace Recordings {
           ...state,
           [locale]: {
             ...localeState,
-            sentences: localeState.sentences.filter(({ id }) =>
-              action.sentenceIds.includes(id)
+            sentences: localeState.sentences.filter(
+              ({ id }) => !action.sentenceIds.includes(id)
             ),
           },
         };
