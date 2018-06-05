@@ -128,7 +128,7 @@
     "prettier": "yarn lint --fix",
     "start": "node scripts/dev-server.js",
     "start:prod": "node server/js/server.js",
-    "test": "concurrently --kill-others-on-fail \"yarn build && bundlesize -f \"web/dist/*.js\" -s 140kb\" \"jest --forceExit\""
+    "test": "concurrently --kill-others-on-fail \"yarn build && bundlesize -f \"web/dist/*.js\" -s 145kb\" \"jest --forceExit\""
   },
   "pre-commit": [
     "prettier"
