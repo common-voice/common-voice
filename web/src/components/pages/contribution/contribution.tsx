@@ -5,7 +5,7 @@ import { trackListening, trackRecording } from '../../../services/tracker';
 import URLS from '../../../urls';
 import { LocaleLink, LocaleNavLink } from '../../locale-helpers';
 import Modal from '../../modal/modal';
-import { ArrowLeft, CheckIcon, SkipIcon } from '../../ui/icons';
+import { ArrowLeft, CheckIcon, KeyboardIcon, SkipIcon } from '../../ui/icons';
 import { Button } from '../../ui/ui';
 import { PrimaryButton } from './primary-buttons';
 import Success from './success';
@@ -309,14 +309,16 @@ class ContributionPage extends React.Component<Props, State> {
 
             <div className="buttons">
               <div>
-                <Localized id="shortcuts">
-                  <Button
-                    rounded
-                    outline
-                    className="hidden-sm-down"
-                    onClick={this.toggleShortcutsModal}
-                  />
-                </Localized>
+                <Button
+                  rounded
+                  outline
+                  className="hidden-sm-down"
+                  onClick={this.toggleShortcutsModal}>
+                  <KeyboardIcon />
+                  <Localized id="shortcuts">
+                    <span />
+                  </Localized>
+                </Button>
                 <div className="extra-button">{extraButton}</div>
               </div>
               <div>

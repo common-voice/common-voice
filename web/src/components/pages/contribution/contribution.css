@@ -325,6 +325,10 @@
             margin-top: 3.5vh;
         }
 
+        & button img {
+            margin-right: 10px;
+        }
+
         & > * {
             display: flex;
 

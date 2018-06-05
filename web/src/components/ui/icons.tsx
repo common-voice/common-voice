@@ -67,6 +67,8 @@ export const DownloadIcon = (props: any) => (
 
 export const GithubIcon = Icon('/img/github.svg');
 
+export const KeyboardIcon = Icon('/img/keyboard.svg');
+
 export const MenuIcon = ({ className = '', ...props }: any) => (
   <svg className={'menu-icon ' + className} width="10" height="10" {...props}>
     <rect className="left" x="4" y="0" width="2" height="2" />
