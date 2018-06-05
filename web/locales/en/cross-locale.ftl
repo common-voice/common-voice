@@ -1,4 +1,5 @@
 ## Languages
+contribute = Contribute
 get-involved-button = Get Involved
 get-involved-title = Contribute to { $lang }
 get-involved-text =

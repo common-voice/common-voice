@@ -1,10 +1,11 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { Link, LinkProps, NavLink, NavLinkProps } from 'react-router-dom';
-const contributableLocales = require('../../../locales/contributable.json');
 import { Locale } from '../stores/locale';
 import StateTree from '../stores/tree';
 import { isProduction } from '../utility';
+
+export const contributableLocales = require('../../../locales/contributable.json');
 
 export interface LocalePropsFromState {
   locale: Locale.State;
@@ -15,7 +16,7 @@ interface LocaleProps extends LocalePropsFromState {
   dispatch: any;
 }
 
-const toLocaleRouteBuilder = (locale: string) => (path: string) =>
+export const toLocaleRouteBuilder = (locale: string) => (path: string) =>
   `/${locale}${path}`;
 
 export const localeConnector: any = connect<LocalePropsFromState>(

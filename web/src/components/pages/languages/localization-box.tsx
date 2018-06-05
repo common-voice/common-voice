@@ -1,11 +1,15 @@
+import { toLocaleRouteBuilder } from '../../locale-helpers';
+
 const { LocalizationProvider, Localized } = require('fluent-react');
+import { RouteComponentProps, withRouter } from 'react-router';
 import * as React from 'react';
 import ContentLoader from 'react-content-loader';
 import { connect } from 'react-redux';
-import ProgressBar from '../../progress-bar/progress-bar';
+import URLS from '../../../urls';
 import { createCrossLocaleMessagesGenerator } from '../../../services/localization';
 import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';
+import ProgressBar from '../../progress-bar/progress-bar';
 import { Hr } from '../../ui/ui';
 import GetInvolvedModal from './get-involved-modal';
 
@@ -89,11 +93,13 @@ interface PropsFromState {
   globalLocale: Locale.State;
 }
 
-interface Props extends PropsFromState {
-  locale: Locale;
+interface Props extends PropsFromState, RouteComponentProps<any> {
+  localization: {
+    locale: Locale;
+    progress: number;
+  };
   localeMessages: string[][];
-  progress: number;
-  showCTA?: boolean;
+  type: 'in-progress' | 'launched';
 }
 
 interface State {
@@ -106,12 +112,12 @@ class LocalizationBox extends React.PureComponent<Props, State> {
   };
 
   buildMessagesGenerator() {
-    const { globalLocale, locale, localeMessages } = this.props;
+    const { globalLocale, localization, localeMessages } = this.props;
 
     return (
       localeMessages &&
       createCrossLocaleMessagesGenerator(localeMessages, [
-        locale.code,
+        localization.locale.code,
         globalLocale,
       ])
     );
@@ -119,41 +125,53 @@ class LocalizationBox extends React.PureComponent<Props, State> {
 
   toggleModal = () => this.setState({ showModal: !this.state.showModal });
 
+  goToContribute = () => {
+    const { history, localization } = this.props;
+    history.push(toLocaleRouteBuilder(localization.locale.code)(URLS.RECORD));
+  };
+
   render() {
-    const { locale, progress, showCTA } = this.props;
+    const { localization, type } = this.props;
+    const isInProgress = type == 'in-progress';
 
     return (
       <React.Fragment>
         {this.state.showModal && (
           <LocalizationProvider messages={this.buildMessagesGenerator()}>
             <GetInvolvedModal
-              locale={locale}
+              locale={localization.locale}
               onRequestClose={this.toggleModal}
             />
           </LocalizationProvider>
         )}
         <Skeleton
           title={
-            <Localized id={locale.code}>
+            <Localized id={localization.locale.code}>
               <span />
             </Localized>
           }
-          population={locale.population.toLocaleString()}
-          progress={progress}
-          onClick={this.toggleModal}>
-          {showCTA && (
-            <LocalizationProvider messages={this.buildMessagesGenerator()}>
+          population={localization.locale.population.toLocaleString()}
+          progress={localization.progress + (isInProgress ? 0 : 0.5)}
+          onClick={isInProgress ? this.toggleModal : this.goToContribute}>
+          <LocalizationProvider messages={this.buildMessagesGenerator()}>
+            {isInProgress ? (
               <Localized id="get-involved-button">
                 <span />
               </Localized>
-            </LocalizationProvider>
-          )}
+            ) : (
+              <Localized id="contribute">
+                <span />
+              </Localized>
+            )}
+          </LocalizationProvider>
         </Skeleton>
       </React.Fragment>
     );
   }
 }
 
-export default connect<PropsFromState>(({ locale }: StateTree) => ({
-  globalLocale: locale,
-}))(LocalizationBox);
+export default withRouter(
+  connect<PropsFromState>(({ locale }: StateTree) => ({
+    globalLocale: locale,
+  }))(LocalizationBox)
+);

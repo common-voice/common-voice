@@ -166,7 +166,7 @@
         border-bottom: 3px solid var(--red);
     }
 
-    & .selected-launched .language-sections section {
+    & .selected-in-progress .language-sections section {
         margin-left: calc(-100vw);
     }
 
@@ -202,6 +202,8 @@
         }
 
         & ul {
+            display: flex;
+            flex-wrap: wrap;
             margin-bottom: 0;
             padding: 0;
             list-style: none;

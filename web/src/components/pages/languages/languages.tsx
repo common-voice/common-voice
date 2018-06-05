@@ -9,12 +9,7 @@ import { CloseIcon, SearchIcon } from '../../ui/icons';
 import { Button, Hr, TextButton } from '../../ui/ui';
 import LocalizationBox, { LoadingLocalizationBox } from './localization-box';
 import { getNativeNameWithFallback } from '../../../services/localization';
-
-const ENGLISH_LOCALE = {
-  code: 'en',
-  name: 'English',
-  population: 1522575000,
-};
+import { contributableLocales, isContributable } from '../../locale-helpers';
 
 interface PropsFromState {
   api: API;
@@ -23,8 +18,9 @@ interface PropsFromState {
 interface Props extends PropsFromState {}
 
 interface State {
+  inProgress: any;
+  launched: any;
   localeMessages: string[][];
-  localizations: any;
   selectedLanguageSection: 'in-progress' | 'launched';
   showAll: boolean;
   showLanguageRequestModal: boolean;
@@ -34,9 +30,10 @@ interface State {
 
 class LanguagesPage extends React.PureComponent<Props, State> {
   state: State = {
+    inProgress: [],
+    launched: [],
     localeMessages: null,
-    localizations: [],
-    selectedLanguageSection: 'in-progress',
+    selectedLanguageSection: 'launched',
     showAll: false,
     showLanguageRequestModal: false,
     showSearch: false,
@@ -53,20 +50,41 @@ class LanguagesPage extends React.PureComponent<Props, State> {
       api.fetchPontoonLanguages(),
     ]);
 
+    const localizations = pontoonLanguages.data.project.localizations
+      .map((localization: any) => ({
+        ...localization,
+        progress:
+          0.5 * (localization.approvedStrings / localization.totalStrings),
+      }))
+      .sort(
+        (l1: any, l2: any) =>
+          l1.progress == l2.progress
+            ? l1.locale.population < l2.locale.population
+            : l1.progress < l2.progress
+      );
+
+    const [launched, inProgress] = localizations.reduce(
+      ([launched, inProgress]: any, localization: any) =>
+        isContributable(localization.locale.code)
+          ? [[...launched, localization], inProgress]
+          : [launched, [...inProgress, localization]],
+      [[], []]
+    );
+
     this.setState({
+      inProgress,
+      launched: [
+        ...launched,
+        {
+          locale: {
+            code: 'en',
+            name: 'English',
+            population: 1522575000,
+          },
+          progress: 0.5,
+        },
+      ],
       localeMessages,
-      localizations: pontoonLanguages.data.project.localizations
-        .map((localization: any) => ({
-          ...localization,
-          progress:
-            0.5 * (localization.approvedStrings / localization.totalStrings),
-        }))
-        .sort(
-          (l1: any, l2: any) =>
-            l1.progress == l2.progress
-              ? l1.locale.population < l2.locale.population
-              : l1.progress < l2.progress
-        ),
     });
   }
 
@@ -91,8 +109,9 @@ class LanguagesPage extends React.PureComponent<Props, State> {
 
   render() {
     const {
+      inProgress,
+      launched,
       localeMessages,
-      localizations,
       selectedLanguageSection,
       showAll,
       showLanguageRequestModal,
@@ -100,9 +119,9 @@ class LanguagesPage extends React.PureComponent<Props, State> {
       query,
     } = this.state;
 
-    const filteredLocalizations =
+    const filteredInProgress =
       showSearch && query
-        ? localizations.filter(({ locale: { code, name } }: any) => {
+        ? inProgress.filter(({ locale: { code, name } }: any) => {
             const q = query.toLowerCase();
             return (
               name.toLowerCase().includes(q) ||
@@ -111,7 +130,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
                 .includes(q)
             );
           })
-        : showAll ? localizations : localizations.slice(0, 3);
+        : showAll ? inProgress : inProgress.slice(0, 3);
 
     return (
       <div className={'selected-' + selectedLanguageSection}>
@@ -160,15 +179,6 @@ class LanguagesPage extends React.PureComponent<Props, State> {
             <Hr />
 
             <div className="labels">
-              <Localized id="language-section-in-progress">
-                <h2
-                  className="in-progress"
-                  onClick={() =>
-                    this.setState({ selectedLanguageSection: 'in-progress' })
-                  }
-                />
-              </Localized>
-
               <Localized id="language-section-launched">
                 <h2
                   className="launched"
@@ -177,6 +187,15 @@ class LanguagesPage extends React.PureComponent<Props, State> {
                       selectedLanguageSection: 'launched',
                       showAll: false,
                     })
+                  }
+                />
+              </Localized>
+
+              <Localized id="language-section-in-progress">
+                <h2
+                  className="in-progress"
+                  onClick={() =>
+                    this.setState({ selectedLanguageSection: 'in-progress' })
                   }
                 />
               </Localized>
@@ -213,6 +232,38 @@ class LanguagesPage extends React.PureComponent<Props, State> {
         )}
 
         <div className="language-sections">
+          {!showSearch && (
+            <section className="launched">
+              <div className="md-block">
+                <Localized id="language-section-launched">
+                  <h1 />
+                </Localized>
+
+                <Hr />
+              </div>
+
+              <Localized
+                id="language-section-launched-description"
+                italic={<i />}>
+                <p />
+              </Localized>
+              <ul>
+                {launched.length > 0
+                  ? launched.map((localization: any, i: number) => (
+                      <LocalizationBox
+                        key={i}
+                        localeMessages={localeMessages}
+                        type="launched"
+                        {...{ localization }}
+                      />
+                    ))
+                  : Array.from(Array(contributableLocales.length), (n, i) => (
+                      <LoadingLocalizationBox key={i} />
+                    ))}
+              </ul>
+            </section>
+          )}
+
           <section
             className="in-progress"
             style={showSearch ? { marginTop: 0 } : {}}>
@@ -235,14 +286,14 @@ class LanguagesPage extends React.PureComponent<Props, State> {
             <Localized id="language-section-in-progress-description">
               <p />
             </Localized>
-            <ul style={{ display: 'flex', flexWrap: 'wrap' }}>
-              {localizations.length > 0
-                ? filteredLocalizations.map((localization: any, i: number) => (
+            <ul>
+              {inProgress.length > 0
+                ? filteredInProgress.map((localization: any, i: number) => (
                     <LocalizationBox
                       key={i}
                       localeMessages={localeMessages}
-                      showCTA
-                      {...localization}
+                      type="in-progress"
+                      {...{ localization }}
                     />
                   ))
                 : [1, 2, 3].map(i => <LoadingLocalizationBox key={i} />)}
@@ -251,38 +302,13 @@ class LanguagesPage extends React.PureComponent<Props, State> {
             {!showSearch && (
               <Localized id={'languages-show-' + (showAll ? 'less' : 'more')}>
                 <button
-                  disabled={localizations.length === 0}
+                  disabled={inProgress.length === 0}
                   className="show-all-languages"
                   onClick={this.toggleShowAll}
                 />
               </Localized>
             )}
           </section>
-
-          {!showSearch && (
-            <section className="launched">
-              <div className="md-block">
-                <Localized id="language-section-launched">
-                  <h1 />
-                </Localized>
-
-                <Hr />
-              </div>
-
-              <Localized
-                id="language-section-launched-description"
-                italic={<i />}>
-                <p />
-              </Localized>
-              <ul>
-                <LocalizationBox
-                  locale={ENGLISH_LOCALE}
-                  localeMessages={localeMessages}
-                  progress={1}
-                />
-              </ul>
-            </section>
-          )}
         </div>
       </div>
     );
