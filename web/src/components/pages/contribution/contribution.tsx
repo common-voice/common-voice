@@ -96,7 +96,7 @@ class ContributionPage extends React.Component<Props, State> {
     this.setState({ selectedPill: i });
   }
 
-``  private toggleShortcutsModal = () =>
+  private toggleShortcutsModal = () =>
     this.setState({ showShortcutsModal: !this.state.showShortcutsModal });
 
   private handleKeyDown = (event: React.KeyboardEvent<any>) => {
