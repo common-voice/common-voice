@@ -7,7 +7,6 @@ email-input =
     .label = Email
 submit-form-action = Submit
 loading = Loading…
-audio-loading-error = Sorry! We are processing our audio files, please try again shortly.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -97,6 +96,7 @@ wall-of-text-more-desktop =
 show-wall-of-text = Read More
 help-us-title = Help us validate sentences!
 help-us-explain = Press play, listen & tell us: did they accurately speak the sentence below?
+no-clips-to-validate = Looks like there aren't any clips to listen to in this language. Help us fill the queue by recording some now. <recordLink>Speak</recordLink>
 vote-yes = Yes
 vote-no = No
 toggle-play-tooltip = Press { shortcut-play-toggle } to toggle play mode

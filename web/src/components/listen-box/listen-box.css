@@ -1,58 +1,57 @@
 .listen-box {
+    --listen-box-height: 5rem;
     display: flex;
     margin-bottom: calc(2 * var(--standard-margin));
-    opacity: 0.3;
-    pointer-events: none;
+    flex-wrap: wrap;
     outline: none;
-}
 
-@media (--mobile) {
-    .listen-box {
-        --listen-box-height: 5rem;
-        flex-wrap: wrap;
+    @media (--md-up) {
+        flex-wrap: initial;
+    }
+
+    &.loaded {
+        & .play-box, & .delete-box, & .vote-box {
+            opacity: 1;
+            pointer-events: all;
+        }
+    }
+
+    & .play-box, & .delete-box, & .vote-box {
+        opacity: 0.3;
+        border: none;
+        height: var(--listen-box-height);
+        pointer-events: none;
+    }
+
+    & .sentence-box {
+        min-height: var(--listen-box-height);
+        color: var(--near-black);
+
+        & a {
+            color: var(--green);
+        }
+    }
+
+    & .sentence-box, & .play-box, & .delete-box, & .vote-box {
+        position: relative;
+
+        & b {
+            position: absolute;
+            top: -1.3rem;
+            line-height: 1rem;
+            font-size: 0.65rem;
+            left: 0;
+        }
     }
 }
 
-.listen-box.loaded {
-    opacity: 1;
-    pointer-events: all;
-}
 
-.sentence-box {
-    min-height: var(--listen-box-height);
-    color: var(--near-black);
-}
-
-.play-box,
-.delete-box,
-.vote-box {
-    border: none;
-    height: var(--listen-box-height);
-}
 
 .play-box svg,
 .delete-box svg {
     width: 30px;
     height: 30px;
     vertical-align: middle;
-}
-
-.sentence-box,
-.play-box,
-.delete-box,
-.vote-box {
-    position: relative;
-}
-
-.sentence-box b,
-.play-box b,
-.delete-box b,
-.vote-box b {
-    position: absolute;
-    top: -1.3rem;
-    line-height: 1rem;
-    font-size: 0.65rem;
-    left: 0;
 }
 
 .play-box {

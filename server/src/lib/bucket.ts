@@ -36,10 +36,6 @@ export default class Bucket {
     count: number
   ): Promise<{ id: number; glob: string; text: string; sound: string }[]> {
     const clips = await this.model.findEligibleClips(uid, locale, count);
-    if (clips.length == 0) {
-      throw new ServerError('Could not find any eligible clips for this user');
-    }
-
     return Promise.all(
       clips.map(async ({ id, path, sentence }) => {
         // We get a 400 from the signed URL without this request

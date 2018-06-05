@@ -16,8 +16,8 @@ export namespace Clips {
   export interface State {
     [locale: string]: {
       clips: Clip[];
+      isLoading: boolean;
       next?: Clip;
-      loadError: boolean;
     };
   }
 
@@ -28,6 +28,11 @@ export namespace Clips {
   enum ActionType {
     REFILL_CACHE = 'REFILL_CLIPS_CACHE',
     REMOVE_CLIP = 'REMOVE_CLIP',
+    LOAD = 'LOAD_CLIPS',
+  }
+
+  interface LoadAction extends ReduxAction {
+    type: ActionType.LOAD;
   }
 
   interface RefillCacheAction extends ReduxAction {
@@ -40,7 +45,7 @@ export namespace Clips {
     clipId: string;
   }
 
-  export type Action = RefillCacheAction | RemoveClipAction;
+  export type Action = LoadAction | RefillCacheAction | RemoveClipAction;
 
   const preloadClip = (clip: any) =>
     new Promise(resolve => {
@@ -54,7 +59,7 @@ export namespace Clips {
 
   export const actions = {
     refillCache: () => async (
-      dispatch: Dispatch<RefillCacheAction>,
+      dispatch: Dispatch<RefillCacheAction | LoadAction>,
       getState: () => StateTree
     ) => {
       const state = getState();
@@ -63,6 +68,7 @@ export namespace Clips {
       }
 
       try {
+        dispatch({ type: ActionType.LOAD });
         const clips = await state.api.fetchRandomClips(MIN_CACHE_SIZE);
         dispatch({
           type: ActionType.REFILL_CACHE,
@@ -84,7 +90,7 @@ export namespace Clips {
     },
 
     vote: (isValid: boolean, clipId?: string) => async (
-      dispatch: Dispatch<RemoveClipAction | RefillCacheAction | User.Action>,
+      dispatch: Dispatch<Action | User.Action>,
       getState: () => StateTree
     ) => {
       const state = getState();
@@ -96,7 +102,7 @@ export namespace Clips {
     },
 
     remove: (clipId: string) => async (
-      dispatch: Dispatch<RemoveClipAction | RefillCacheAction>,
+      dispatch: Dispatch<Action>,
       getState: () => StateTree
     ) => {
       dispatch({ type: ActionType.REMOVE_CLIP, clipId });
@@ -112,7 +118,7 @@ export namespace Clips {
         [locale]: {
           clips: [],
           next: null,
-          loadError: false,
+          isLoading: false,
         },
       }),
       {}
@@ -122,6 +128,15 @@ export namespace Clips {
     const localeState = state[locale];
 
     switch (action.type) {
+      case ActionType.LOAD:
+        return {
+          ...state,
+          [locale]: {
+            ...localeState,
+            isLoading: true,
+          },
+        };
+
       case ActionType.REFILL_CACHE: {
         const clips = action.clips
           ? localeState.clips.concat(action.clips)
@@ -131,7 +146,7 @@ export namespace Clips {
           ...state,
           [locale]: {
             clips,
-            loadError: !next,
+            isLoading: false,
             next,
           },
         };
