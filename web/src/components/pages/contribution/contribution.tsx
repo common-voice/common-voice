@@ -92,6 +92,7 @@ class ContributionPage extends React.Component<Props, State> {
   }
 
   private startWaving = () => {
+    if (this.wave) return;
     const canvas = this.canvasRef.current;
     if (canvas) {
       this.wave = new Wave(canvas);
