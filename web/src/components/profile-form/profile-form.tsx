@@ -192,6 +192,7 @@ class ProfileForm extends React.Component<Props, State> {
               {this.renderOptionsFor({
                 '': '--',
                 ...ACCENTS[shownLocale],
+                other: 'Other',
               })}
             </LabeledSelect>
           </Localized>

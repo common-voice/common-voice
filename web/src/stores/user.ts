@@ -88,7 +88,7 @@ export const ACCENTS: any = {
     gabon: 'Gabon Français',
     syria: 'Syrie Français',
     greece: 'Grèce Français',
-    austria: 'L\'Autriche Français',
+    austria: "L'Autriche Français",
     ireland: 'Irlande Français',
     reunion: 'Réunion Français',
     mauritania: 'Mauritanie Français',
