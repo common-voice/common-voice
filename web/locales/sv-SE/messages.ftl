@@ -105,6 +105,7 @@ toggle-play-tooltip = Tryck på { shortcut-play-toggle } för att växla uppspel
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
+shortcut-play-toggle-label = Spela upp/Stoppa
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
@@ -114,6 +115,7 @@ shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = Spela in/Stoppa
 request-language-text = Kan du inte se ditt språk på Common Voice än?
 request-language-button = Skicka en förfrågan
 
