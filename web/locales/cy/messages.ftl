@@ -96,6 +96,7 @@ wall-of-text-more-desktop =
 show-wall-of-text = Darllen Rhagor
 help-us-title = Helpwch ni i ddilysu brawddegau!
 help-us-explain = Pwyswch chwarae, gwrando a dweud: ydyn nhw wedi dweud y frawddeg isod yn iawn?
+no-clips-to-validate = Mae'n ymddangos nad oes unrhyw glipiau i wrando arnynt yn yr iaith hon. Helpwch ni i lanw'r bwlch dry recordio rhai nawr.
 vote-yes = Iawn
 vote-no = Na
 toggle-play-tooltip = Cliciwch { shortcut-play-toggle } i newid y modd chwarae
