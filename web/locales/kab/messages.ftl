@@ -8,7 +8,6 @@ email-input =
     .label = Imayl
 submit-form-action = Azen
 loading = Asali…
-audio-loading-error = Suref-aɣ! Aqlaɣ nessesfer ifuyla imeslawen. Ma ulac aɣilif, ɛreḍ tikelt-nniḍen.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -27,6 +26,7 @@ de = Talmanit
 el = Tagrigit
 en = Taglizit
 es = Taspanit
+et = Tastunit
 fr = Tafransist
 fy-NL = Tafrizunt
 ga-IE = Tirlandit
@@ -69,6 +69,7 @@ zh-TW = Tacinwat (Taywan)
 ## Layout
 
 speak = Mmeslay
+speak-now = Mmeslay tura
 datasets = Tagrumma n yisefka
 languages = Tutlayin
 profile = Amaɣnu
@@ -93,6 +94,7 @@ wall-of-text-more-desktop = Tura, tzemreḍ ad aɣ-d-tmuddeḍ affus s taɣect-i
 show-wall-of-text = Ɣeṛ ugar
 help-us-title = Ɛawen-aɣ i wakken ad nesseɣbel tifyar!
 help-us-explain = Tekki ɣef tqeffilt "urar", ḥess, tineḍ-aɣ-d ma yella tettwanṭaq-d akken iwata tefyirt-a ukessar!
+no-clips-to-validate = Yettban d akken ulac yakan ikalasen ara tesleḍ deg tutlayt-agi. Muddaɣ-d afus ad nernu kra tura.
 vote-yes = Ih
 vote-no = Ala
 toggle-play-tooltip = Tekki ɣef { shortcut-play-toggle } i wakken ad yuɣal ɣer uskar n tɣuri.
@@ -146,7 +148,6 @@ profile-form-username =
     .label = Isem n useqdac:
 profile-form-language =
     .label = Tutlayt
-profile-form-more-languages = Ugar n tutlayin ad ddunt ar zdat!
 profile-form-accent =
     .label = Aɣdebbu
 profile-form-age =
@@ -168,6 +169,7 @@ profile-create = Rnu amaɣnu
 profile-create-success = Yedda, amaɣnu yettwarna!
 profile-close = Mdel
 profile-clear-modal = Ma tsefḍeḍ isefka n umaɣnu-ik, talɣut-agi ɣeg isefka n tdimugrafit ur ttwaznen ara ar Common Voice s yikalasen-ik iɣectanen.
+profile-explanation = Sers allen-ik ɣef usfari s tmerna n umaɣnu sakin muddaɣ-d afus ad nerr isefka iɣectanen d usdiden.
 
 ## FAQ
 
@@ -335,3 +337,4 @@ listen-instruction = { $actionType } <playIcon></playIcon> ɣran-d akken iwata t
 listen-again-instruction = Igarrez uxeddim! <playIcon></playIcon> Sell-as tikelt-nniḍen ticki theggaḍ
 listen-3rd-time-instruction = 2 d akesser <playIcon></playIcon> , kemmel ar zdat!
 listen-last-time-instruction = <playIcon></playIcon> d aneggaru! 
+share-title-new = <bold>Mudd-aɣ-d afus</bold> ad d-naf tuɣac timaynutin
