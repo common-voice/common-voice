@@ -1,7 +1,7 @@
 ## Languages
 
+contribute = Meiwurkje
 get-involved-button = Meiwurkje
-get-involved-cancel = Ofslute
 get-involved-title = Oan { $lang } meiwurkje
 get-involved-text =
     Tank foar jo ynteresse om mei te wurkje oan it { $lang }. Wy wurkje der hurd oan om elke taal foar de lansearring ree te krijen en hâlde

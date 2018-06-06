@@ -8,7 +8,6 @@ email-input =
     .label = E-mailadres
 submit-form-action = Yntsjinje
 loading = Lade…
-audio-loading-error = Sorry! Op dit stuit ferwurkje wy ús audiobestannen, probearje it letter nochris.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -27,6 +26,7 @@ de = Dútsk
 el = Gryksk
 en = Ingelsk
 es = Spaansk
+et = Estysk
 fr = Frânsk
 fy-NL = Frysk
 ga-IE = Iersk
@@ -69,6 +69,7 @@ zh-TW = Sineesk (Taiwan)
 ## Layout
 
 speak = Sprekke
+speak-now = Sprek no
 datasets = Datasets
 languages = Talen
 profile = Profyl
@@ -156,7 +157,6 @@ profile-form-username =
     .label = Brûkersnamme
 profile-form-language =
     .label = Taal
-profile-form-more-languages = Ynkoarten mear talen beskikber!
 profile-form-accent =
     .label = Aksint
 profile-form-age =
