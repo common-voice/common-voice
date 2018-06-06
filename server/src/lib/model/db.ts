@@ -64,7 +64,7 @@ export default class DB {
    * Insert or update user client row.
    */
   async updateUser(client_id: string, fields: any): Promise<void> {
-    let { age, accent, email, gender } = fields;
+    let { age, accents, email, gender } = fields;
     email = this.formatEmail(email);
     await Promise.all([
       email &&
@@ -72,8 +72,9 @@ export default class DB {
           email,
           ...pick(fields, 'send_emails', 'has_downloaded'),
         }),
-      this.userClient.update({ client_id, email, age, accent, gender }),
+      this.userClient.update({ client_id, email, age, gender }),
     ]);
+    await this.saveAccents(client_id, accents);
   }
 
   async getOrSetUserBucket(client_id: string, locale: string, bucket: string) {
@@ -445,6 +446,20 @@ export default class DB {
           WHERE accent IS NOT NULL AND accent <> ''
         )
       `
+    );
+  }
+
+  async saveAccents(client_id: string, accents: { [locale: string]: string }) {
+    await Promise.all(
+      Object.entries(accents).map(async ([locale, accent]) =>
+        this.mysql.query(
+          `
+        INSERT INTO user_client_accents (client_id, locale_id, accent) VALUES (?, ?, ?)
+          ON DUPLICATE KEY UPDATE accent = VALUES(accent)
+      `,
+          [client_id, await this.getLocaleId(locale), accent]
+        )
+      )
     );
   }
 }
