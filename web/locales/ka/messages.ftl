@@ -8,7 +8,6 @@ email-input =
     .label = ელფოსტა
 submit-form-action = გადაგზავნა
 loading = იტვირთება...
-audio-loading-error = ვწუხვართ! მიმდინარეობს ხმოვანი ფაილების დამუშავება, სცადეთ ხელახლა ცოტა ხანში.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -27,6 +26,7 @@ de = გერმანული
 el = ბერძნული
 en = ინგლისური
 es = ესპანური
+et = ესტონური
 fr = ფრანგული
 fy-NL = ფრიზული
 ga-IE = ირლანდიური
@@ -69,6 +69,7 @@ zh-TW = ჩინური (ტაივანი)
 ## Layout
 
 speak = ჩაწერა
+speak-now = დაილაპარაკეთ
 datasets = კრებული
 languages = ენები
 profile = პროფილი
@@ -95,6 +96,7 @@ wall-of-text-more-desktop =
 show-wall-of-text = იხილეთ ვრცლად
 help-us-title = დაგვეხმარეთ წინადადების შემოწმებაში!
 help-us-explain = დააწექით გაშვებას, მოუსმინეთ და მოგვახსენეთ: სწორად იყო თუ არა გახმოვანებული ქვემოთ მოცემული წინადადება?
+no-clips-to-validate = როგორც ჩანს, ჩანაწერები არაა მოსასმენად ამ ენისთვის. დაგვეხმარეთ მათ შექმნაში და თავად ჩაწერეთ რამდენიმე.
 vote-yes = დიახ
 vote-no = არა
 toggle-play-tooltip = დააწექით { shortcut-play-toggle } ღილაკს, გაშვების რეჟიმის გადასართავად
