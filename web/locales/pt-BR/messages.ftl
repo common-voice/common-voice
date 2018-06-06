@@ -94,6 +94,7 @@ wall-of-text-more-desktop = Agora você pode doar sua voz para nos ajudar a cons
 show-wall-of-text = Saiba mais
 help-us-title = Ajude-nos a validar as frases!
 help-us-explain = Aperte o play, ouça e diga-nos: Eles pronunciaram a frase abaixo corretamente?
+no-clips-to-validate = Parece que não há nenhuma frase para ouvir nesse idioma. Ajude-nos a preencher essa espaço gravando algo agora.
 vote-yes = Sim
 vote-no = Não
 toggle-play-tooltip = Pressione { shortcut-play-toggle } para alternar para o modo de reprodução
