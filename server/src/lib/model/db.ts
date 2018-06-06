@@ -79,17 +79,38 @@ export default class DB {
 
   async getOrSetUserBucket(client_id: string, locale: string, bucket: string) {
     const localeId = await this.getLocaleId(locale);
-    await this.mysql.query(
-      `
-        INSERT IGNORE INTO user_client_locale_buckets (client_id, locale_id, bucket) VALUES (?, ?, ?)
-      `,
-      [client_id, localeId, bucket]
-    );
+
+    let userBucket = await this.getUserBucket(client_id, localeId);
+    if (userBucket) return userBucket;
+
+    try {
+      await this.mysql.query(
+        `
+          INSERT INTO user_client_locale_buckets (client_id, locale_id, bucket) VALUES (?, ?, ?)
+        `,
+        [client_id, localeId, bucket]
+      );
+      userBucket = await this.getUserBucket(client_id, localeId);
+      if (!userBucket) {
+        console.error('Error: No bucket found after insert');
+        return bucket;
+      }
+      return userBucket;
+    } catch (error) {
+      console.error('Error setting user bucket', error);
+      return bucket;
+    }
+  }
+
+  async getUserBucket(
+    client_id: string,
+    localeId: number
+  ): Promise<string | null> {
     const [[row]] = await this.mysql.query(
       'SELECT bucket FROM user_client_locale_buckets WHERE client_id = ? AND locale_id = ?',
       [client_id, localeId]
     );
-    return row.bucket;
+    return row ? row.bucket : null;
   }
 
   /**
