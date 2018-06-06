@@ -311,3 +311,4 @@ record-abort-delete = Avslutt og slett klippa
 listen-again-instruction = Bra jobba!<playIcon></playIcon> Lytt på det ein gong tilnår du er klar for det
 listen-3rd-time-instruction = Ferdig med to <playIcon></playIcon>, fortset slik!
 listen-last-time-instruction = <playIcon></playIcon>Det siste!
+share-title-new = <bold>Hjelp oss</bold> med å finne fleire stemmer
