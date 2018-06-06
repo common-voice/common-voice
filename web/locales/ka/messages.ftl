@@ -331,3 +331,4 @@ listen-instruction = { $actionType } <playIcon></playIcon> სწორად �
 listen-again-instruction = მშვენიერი ნამუშევარია! <playIcon></playIcon> კვლავ მოუსმინეთ, როცა მზად იქნებით
 listen-3rd-time-instruction = 2 უკვე მზადაა <playIcon></playIcon>, ასე განაგრძეთ!
 listen-last-time-instruction = <playIcon></playIcon> ბოლო!
+share-title-new = <bold>დაგვეხმარეთ</bold> ხმების მოძიებაში
