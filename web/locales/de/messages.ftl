@@ -329,3 +329,4 @@ listen-instruction = { $actionType } <playIcon></playIcon> Wurde der Satz korrek
 listen-again-instruction = Toll! <playIcon></playIcon> Hören Sie sich den Satz erneut an, wenn Sie bereit sind
 listen-3rd-time-instruction = Zwei erledigt <playIcon></playIcon>, weiter so!
 listen-last-time-instruction = <playIcon></playIcon> Die Letzte!
+share-title-new = <bold>Helfen Sie uns</bold> noch mehr Stimmen zu finden
