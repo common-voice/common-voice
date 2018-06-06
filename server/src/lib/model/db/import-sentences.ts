@@ -117,11 +117,17 @@ async function importLocaleSentences(pool: any, locale: string) {
     await pool.query('INSERT INTO locales (name) VALUES (?)', [locale]);
     row = await queryLocaleRow();
   }
-  const { id: localeId } = row;
+  const { id: localeId, name: name } = row;
 
-  for (const sentence of await loadSentences(
+
+  const sentences = await loadSentences(
     path.join(SENTENCES_FOLDER, locale)
-  )) {
+  );
+
+  print('importing', locale, sentences.length);
+
+  let count = 0;
+  for (const sentence of sentences) {
     const id = hash(sentence);
 
     const [[sentenceExists]] = await pool.query(
@@ -133,14 +139,17 @@ async function importLocaleSentences(pool: any, locale: string) {
       await pool.query('UPDATE sentences SET is_used = TRUE WHERE id = ?', [
         id,
       ]);
+      ++count;
     } else {
       const bucket = randomBucketFromDistribution(IDEAL_SPLIT);
       await pool.query(
         'INSERT INTO sentences (id, text, is_used, bucket, locale_id) VALUES (?, ?, TRUE, ?, ?)',
         [id, sentence, bucket, localeId]
       );
+      ++count;
     }
   }
+  print('actually imported', locale, sentences.length, count);
 }
 
 export async function importSentences(pool: any) {
@@ -153,6 +162,8 @@ export async function importSentences(pool: any) {
   const locales = ((await new Promise(resolve =>
     fs.readdir(SENTENCES_FOLDER, (_, names) => resolve(names))
   )) as string[]).filter(name => name !== 'LICENSE');
+
+  print('locales', locales.join(','));
 
   await Promise.all(locales.map(locale => importLocaleSentences(pool, locale)));
 
