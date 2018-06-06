@@ -53,6 +53,7 @@ class RecordingPill extends React.Component<Props, State> {
       clip,
       getString,
       onRerecord,
+      onShare,
       status,
       ...props
     } = this.props;
@@ -104,7 +105,7 @@ class RecordingPill extends React.Component<Props, State> {
                       </span>
                     </button>
                   </Tooltip>
-                  <button className="share" type="button">
+                  <button className="share" type="button" onClick={onShare}>
                     <span className="padder">
                       <ShareIcon />
                     </span>

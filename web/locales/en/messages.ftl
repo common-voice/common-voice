@@ -329,5 +329,6 @@ listen-instruction = { $actionType } <playIcon></playIcon> did they accurately s
 listen-again-instruction = Great work! <playIcon></playIcon> Listen again when you're ready
 listen-3rd-time-instruction = 2 down, keep it up! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Last one!
+share-title-new = <bold>Help us</bold> find more voices
 
 

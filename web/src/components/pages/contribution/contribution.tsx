@@ -8,6 +8,7 @@ import Modal from '../../modal/modal';
 import { ArrowLeft, CheckIcon, KeyboardIcon, SkipIcon } from '../../ui/icons';
 import { Button } from '../../ui/ui';
 import { PrimaryButton } from './primary-buttons';
+import ShareModal from './share-modal';
 import Success from './success';
 import Wave from './wave';
 
@@ -20,6 +21,7 @@ export interface ContributionPillProps {
   key: any;
   num: number;
   onClick: () => any;
+  onShare: () => any;
   style?: any;
 }
 
@@ -49,6 +51,7 @@ interface Props extends LocalizationProps {
 
 interface State {
   selectedPill: number;
+  showShareModal: boolean;
   showShortcutsModal: boolean;
 }
 
@@ -57,7 +60,11 @@ class ContributionPage extends React.Component<Props, State> {
     isFirstSubmit: false,
   };
 
-  state: State = { selectedPill: null, showShortcutsModal: false };
+  state: State = {
+    selectedPill: null,
+    showShareModal: false,
+    showShortcutsModal: false,
+  };
 
   private canvasRef: { current: HTMLCanvasElement | null } = React.createRef();
   private wave: Wave;
@@ -103,6 +110,9 @@ class ContributionPage extends React.Component<Props, State> {
     this.setState({ selectedPill: i });
   }
 
+  private toggleShareModal = () =>
+    this.setState({ showShareModal: !this.state.showShareModal });
+
   private toggleShortcutsModal = () =>
     this.setState({ showShortcutsModal: !this.state.showShortcutsModal });
 
@@ -132,7 +142,7 @@ class ContributionPage extends React.Component<Props, State> {
 
   render() {
     const { errorContent, getString, isSubmitted, type } = this.props;
-    const { showShortcutsModal } = this.state;
+    const { showShareModal, showShortcutsModal } = this.state;
 
     return (
       <div
@@ -140,6 +150,9 @@ class ContributionPage extends React.Component<Props, State> {
         onClick={() => this.selectPill(null)}
         onKeyDown={this.handleKeyDown}
         tabIndex={-1}>
+        {showShareModal && (
+          <ShareModal onRequestClose={this.toggleShareModal} />
+        )}
         {showShortcutsModal && (
           <Modal
             innerClassName="shortcuts-modal"
@@ -282,6 +295,7 @@ class ContributionPage extends React.Component<Props, State> {
                       key: i,
                       num: i + 1,
                       onClick: () => this.selectPill(i),
+                      onShare: this.toggleShareModal,
                       style:
                         selectedPill !== null &&
                         Math.abs(

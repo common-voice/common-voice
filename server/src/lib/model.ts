@@ -28,8 +28,8 @@ export default class Model {
       locale,
       new Map(Object.keys(IDEAL_SPLIT).map(bucket => [
         bucket,
-        new Cache(count =>
-          this.db.findSentencesWithFewClips(bucket, locale, count),
+        new Cache(
+          count => this.db.findSentencesWithFewClips(bucket, locale, count),
           null,
           100
         ),

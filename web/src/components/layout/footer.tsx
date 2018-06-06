@@ -1,12 +1,11 @@
 import * as React from 'react';
-import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
-import { trackSharing } from '../../services/tracker';
+import { Localized } from 'fluent-react';
 import URLS from '../../urls';
 import ContactModal from '../contact-modal/contact-modal';
+import ShareButtons from '../share-buttons/share-buttons';
 import { LocaleLink } from '../locale-helpers';
 import {
   ContactIcon,
-  FontIcon,
   DiscourseIcon,
   SupportIcon,
   GithubIcon,
@@ -16,23 +15,15 @@ import Logo from './logo';
 
 import './footer.css';
 
-const SHARE_URL = 'https://voice.mozilla.org/';
-
 interface FooterState {
   showContactModal: boolean;
 }
 
-class Footer extends React.PureComponent<LocalizationProps, FooterState> {
+class Footer extends React.PureComponent<{}, FooterState> {
   private shareURLInput: HTMLInputElement;
 
   state: FooterState = {
     showContactModal: false,
-  };
-
-  private copyShareURL = () => {
-    this.shareURLInput.select();
-    document.execCommand('copy');
-    trackSharing('link');
   };
 
   private toggleContactModal = () => {
@@ -40,9 +31,6 @@ class Footer extends React.PureComponent<LocalizationProps, FooterState> {
   };
 
   render() {
-    const encodedShareText = encodeURIComponent(
-      this.props.getString('share-text', { link: SHARE_URL })
-    );
     return (
       <footer>
         {this.state.showContactModal && (
@@ -123,34 +111,7 @@ class Footer extends React.PureComponent<LocalizationProps, FooterState> {
             </Localized>
 
             <div className="icons">
-              <button id="link-copy" onClick={this.copyShareURL}>
-                <input
-                  type="text"
-                  readOnly
-                  value={SHARE_URL}
-                  ref={node => (this.shareURLInput = node)}
-                />
-                <FontIcon type="link" />
-              </button>
-              <a
-                href={
-                  'https://twitter.com/intent/tweet?text=' + encodedShareText
-                }
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => trackSharing('twitter')}>
-                <FontIcon type="twitter" />
-              </a>
-              <a
-                href={
-                  'https://www.facebook.com/sharer/sharer.php?u=' +
-                  encodeURIComponent(SHARE_URL)
-                }
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => trackSharing('facebook')}>
-                <FontIcon type="facebook" />
-              </a>
+              <ShareButtons />
             </div>
           </div>
           <Localized id="back-top">
@@ -170,4 +131,4 @@ class Footer extends React.PureComponent<LocalizationProps, FooterState> {
   }
 }
 
-export default withLocalization(Footer);
+export default Footer;

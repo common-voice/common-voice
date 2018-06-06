@@ -188,35 +188,5 @@ footer {
         & > * {
             margin: 0 21px;
         }
-
-        & [data-icon]:hover {
-            color: var(--blue);
-        }
-    }
-}
-
-#sharing a, #link-copy {
-    font-size: .8rem;
-    color: var(--white);
-}
-
-#link-copy {
-    border: none;
-    padding: 0;
-    width: auto;
-    background: transparent;
-
-    &:active {
-        color: var(--black);
-    }
-
-    &:hover {
-        color: var(--blue);
-    }
-
-    & input {
-        position: fixed;
-        top: 1000rem;
-        left: 1000rem;
     }
 }

@@ -1,0 +1,31 @@
+@import url('../vars.css');
+
+.share-button [data-icon] {
+    color: var(--white);
+    font-size: var(--font-size-small);
+
+    &:hover {
+        color: var(--blue);
+    }
+}
+
+#link-copy {
+    border: none;
+    padding: 0;
+    width: auto;
+    background: transparent;
+
+    &:active {
+        color: var(--black);
+    }
+
+    &:hover [data-icon] {
+        color: var(--blue);
+    }
+
+    & input {
+        position: fixed;
+        top: 1000rem;
+        left: 1000rem;
+    }
+}
