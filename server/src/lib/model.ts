@@ -29,7 +29,9 @@ export default class Model {
       new Map(Object.keys(IDEAL_SPLIT).map(bucket => [
         bucket,
         new Cache(count =>
-          this.db.findSentencesWithFewClips(bucket, locale, count)
+          this.db.findSentencesWithFewClips(bucket, locale, count),
+          null,
+          100
         ),
       ]) as any),
     ]) as any
