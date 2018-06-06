@@ -87,10 +87,10 @@ export default class API {
 
   syncDemographics(): Promise<Event> {
     // Note: Do not add more properties of this.user w/o legal review
-    const { userId, accent, age, gender } = this.user;
+    const { userId, accents, age, gender } = this.user;
     return this.fetch(API_PATH + '/user_clients/' + userId, {
       method: 'PUT',
-      body: { accent, age, gender },
+      body: { accents, age, gender },
     });
   }
 

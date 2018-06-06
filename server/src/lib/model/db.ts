@@ -74,7 +74,7 @@ export default class DB {
         }),
       this.userClient.update({ client_id, email, age, gender }),
     ]);
-    await this.saveAccents(client_id, accents);
+    accents && (await this.saveAccents(client_id, accents));
   }
 
   async getOrSetUserBucket(client_id: string, locale: string, bucket: string) {
