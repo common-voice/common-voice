@@ -1,7 +1,7 @@
 ## Languages
 
+contribute = Közreműködés
 get-involved-button = Kapcsolódjon be
-get-involved-cancel = Kilépés
 get-involved-title = Közreműködés a(z) { $lang } nyelvben
 get-involved-text = Köszönjük az érdeklődését a { $lang } nyelvhez való közreműködésben. Keményen dolgozunk, hogy minden nyelvet elindítsunk, és a csapatokat e-mailben tájékoztassuk. Ha szeretne közreműködni, adja meg az e-mail címét.
 get-involved-form-title = Iratkozzon fel a(z) { $lang } hírlevélre:

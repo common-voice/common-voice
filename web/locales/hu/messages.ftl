@@ -8,7 +8,6 @@ email-input =
     .label = E-mail
 submit-form-action = Elküldés
 loading = Betöltés…
-audio-loading-error = Sajnáljuk! Jelenleg a hangfájlok feldolgozása folyik, próbálja újra később.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -27,6 +26,7 @@ de = Német
 el = Görög
 en = Angol
 es = Spanyol
+et = Észt
 fr = Francia
 fy-NL = Fríz
 ga-IE = Ír
@@ -69,6 +69,7 @@ zh-TW = Kínai (Tajvan)
 ## Layout
 
 speak = Beszéljen
+speak-now = Most beszéljen
 datasets = Adatkészletek
 languages = Nyelvek
 profile = Profil
@@ -146,7 +147,6 @@ profile-form-username =
     .label = Felhasználónév
 profile-form-language =
     .label = Nyelv
-profile-form-more-languages = Hamarosan lesznek további nyelvek!
 profile-form-accent =
     .label = Akcentus
 profile-form-age =
