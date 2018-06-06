@@ -1,8 +1,8 @@
 const RATIO = window.devicePixelRatio;
 const WIDTH = RATIO * 320;
 const HEIGHT = RATIO * 100;
-const IDLE_AMPLITUDE = 0.05;
-const PLAY_AMPLITUDE = 0.5;
+const IDLE_AMPLITUDE = 0.1;
+const PLAY_AMPLITUDE = 0.6;
 
 class Curve {
   baseAmplitude: number;
@@ -74,13 +74,13 @@ class Curve {
     const gradient = ctx.createRadialGradient(
       xBase,
       yBase,
-      h * 1.15,
+      h * 2,
       xBase,
       yBase,
       h * 0.3
     );
-    gradient.addColorStop(0, `rgba(${this.color.join(',')},0.4)`);
-    gradient.addColorStop(1, `rgba(${this.color.join(',')},0.2)`);
+    gradient.addColorStop(0, `rgba(${this.color.join(',')},0.1)`);
+    gradient.addColorStop(1, `rgba(${this.color.join(',')},0.05)`);
 
     ctx.fillStyle = gradient;
 
@@ -97,11 +97,12 @@ class Curve {
 }
 
 export default class Wave {
+  private amplitude = IDLE_AMPLITUDE;
   private colors = [[89, 203, 183], [177, 181, 229], [248, 144, 150]];
-  private speed: number;
   private ctx: CanvasRenderingContext2D;
   private curves: Curve[];
-  private amplitude = IDLE_AMPLITUDE;
+  private shouldDraw = false;
+  private speed: number;
 
   constructor(canvas: HTMLCanvasElement) {
     this.speed = 0.1;
@@ -121,7 +122,7 @@ export default class Wave {
             color: color as any,
             ctx: this.ctx,
             speed: this.speed,
-            baseAmplitude: IDLE_AMPLITUDE,
+            baseAmplitude: 2 * IDLE_AMPLITUDE,
           })
       );
 
@@ -136,19 +137,27 @@ export default class Wave {
 
   private draw() {
     this.clear();
+
+    const baseAmplitude =
+      this.curves[0].baseAmplitude * 0.9 + this.amplitude * 0.1;
     for (const curve of this.curves) {
-      curve.baseAmplitude = curve.baseAmplitude * 0.9 + this.amplitude * 0.1;
+      curve.baseAmplitude = baseAmplitude;
       curve.draw();
     }
 
-    requestAnimationFrame(this.draw.bind(this));
+    if (this.shouldDraw || Math.abs(baseAmplitude - this.amplitude) > 0.01) {
+      requestAnimationFrame(this.draw.bind(this));
+    }
   }
 
   play() {
     this.amplitude = PLAY_AMPLITUDE;
+    this.shouldDraw = true;
+    this.draw();
   }
 
   idle() {
+    this.shouldDraw = false;
     this.amplitude = IDLE_AMPLITUDE;
   }
 }
