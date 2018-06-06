@@ -8,7 +8,6 @@ email-input =
     .label = E-bost
 submit-form-action = Cyflwyno
 loading = Llwytho…
-audio-loading-error = Ymddiheuriadau! Rydym yn prosesu ein ffeiliau sain, ceisiwch eto cyn bo hir.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -27,6 +26,7 @@ de = Almaeneg
 el = Groeg
 en = Saesneg
 es = Sbaeneg
+et = Estoneg
 fr = Ffrangeg
 fy-NL = Ffriseg
 ga-IE = Gwyddeleg
@@ -69,6 +69,7 @@ zh-TW = Tsieinëeg (Taiwan)
 ## Layout
 
 speak = Siarad
+speak-now = Siaradwch nawr
 datasets = Setiau data
 languages = Ieithoedd
 profile = Proffil
@@ -152,7 +153,6 @@ profile-form-username =
     .label = Enw Defnyddiwr
 profile-form-language =
     .label = Iaith
-profile-form-more-languages = Mae rhagor o ieithoedd ar eu ffordd!
 profile-form-accent =
     .label = Acen
 profile-form-age =
