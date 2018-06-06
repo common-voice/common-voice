@@ -8,7 +8,6 @@ email-input =
     .label = Surel
 submit-form-action = Kirim
 loading = Memuat…
-audio-loading-error = Maaf! Kami sedang memproses berkas audio kami, silakan coba beberapa saat lagi.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -27,6 +26,7 @@ de = Bahasa Jerman
 el = Bahasa Yunani
 en = Bahasa Inggris
 es = Bahasa Spanyol
+et = Bahasa Estonia
 fr = Bahasa Perancis
 fy-NL = Bahasa Frisia
 ga-IE = Bahasa Irlandia
@@ -69,6 +69,7 @@ zh-TW = Bahasa Tionghoa (Taiwan)
 ## Layout
 
 speak = Bicara
+speak-now = Bicara sekarang
 datasets = Himpunan Data
 languages = Bahasa
 profile = Profil
@@ -95,6 +96,7 @@ wall-of-text-more-desktop =
 show-wall-of-text = Baca Lebih Lanjut
 help-us-title = Bantu kami memvalidasi kalimat-kalimat!
 help-us-explain = Tekan mulai, dengarkan, dan beri tahu kami: apakah mereka sudah mengucapkan kalimat di bawah ini dengan akurat?
+no-clips-to-validate = Nampaknya tidak ada klip untuk didengar dalam bahasa ini. Bantu kami mengisinya dengan merekam beberapa sekarang.
 vote-yes = Ya
 vote-no = Tidak
 toggle-play-tooltip = Tekan { shortcut-play-toggle } untuk mengaktifkan mode putar
@@ -147,7 +149,6 @@ profile-form-username =
     .label = Nama Pengguna
 profile-form-language =
     .label = Bahasa
-profile-form-more-languages = Segera hadir dalam berbagai bahasa lainnya!
 profile-form-accent =
     .label = Logat
 profile-form-age =
@@ -169,6 +170,7 @@ profile-create = Buat profil
 profile-create-success = Berhasil, profil telah dibuat!
 profile-close = Tutup
 profile-clear-modal = Data demografis ini tidak akan dikumpulkan bersama dengan rekaman berikutnya jika Anda menghapus data profil Anda dari Common Voice.
+profile-explanation = Pantau progres Anda dengan sebuah profil dan bantu data suara kami semakin akurat.
 
 ## FAQ
 

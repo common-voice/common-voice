@@ -8,7 +8,6 @@ email-input =
     .label = Е-пошта
 submit-form-action = Відправити
 loading = Завантаження…
-audio-loading-error = Вибачте! Ми обробляємо наші аудіо файли. Спробуйте знову пізніше.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -27,6 +26,7 @@ de = Німецька
 el = Грецька
 en = Англійська
 es = Іспанська
+et = Естонська
 fr = Французька
 fy-NL = Фризька
 ga-IE = Ірландська
@@ -69,6 +69,7 @@ zh-TW = Китайська (Тайвань)
 ## Layout
 
 speak = Озвучити
+speak-now = Говорити зараз
 datasets = Набори даних
 languages = Мови
 profile = Профіль
@@ -103,6 +104,7 @@ wall-of-text-more-desktop =
 show-wall-of-text = Докладніше
 help-us-title = Допоможіть нам перевірити речення!
 help-us-explain = Натисніть кнопку відтворення, прослухайте і повідомте нас чи правильно вимовлено речення внизу.
+no-clips-to-validate = Схоже, немає жодних записів для прослуховування цією мовою. Допоможіть нам створити нові, зробивши декілька записів.
 vote-yes = Так
 vote-no = Ні
 toggle-play-tooltip = Натисніть { shortcut-play-toggle } для перемикання режиму відтворення
@@ -157,7 +159,6 @@ profile-form-username =
     .label = Ім’я користувача
 profile-form-language =
     .label = Мова
-profile-form-more-languages = Невдовзі буде ще більше мов!
 profile-form-accent =
     .label = Акцент
 profile-form-age =
