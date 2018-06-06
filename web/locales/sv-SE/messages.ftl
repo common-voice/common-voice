@@ -8,7 +8,6 @@ email-input =
     .label = E-post
 submit-form-action = Skicka in
 loading = Laddar…
-audio-loading-error = Ursäkta! Vi bearbetar våra ljudfiler, var vänlig och försök igen inom kort.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -27,6 +26,7 @@ de = Tyska
 el = Grekiska
 en = Engelska
 es = Spanska
+et = Estländska
 fr = Franska
 fy-NL = Frisiska
 ga-IE = Irländska
@@ -69,6 +69,7 @@ zh-TW = Kinesiska (Taiwan)
 ## Layout
 
 speak = Tala
+speak-now = Prata nu
 datasets = Datamängder
 languages = Språk
 profile = Profil
@@ -141,7 +142,6 @@ profile-form-username =
     .label = Användarnamn
 profile-form-language =
     .label = Språk
-profile-form-more-languages = Fler språk kommer snart!
 profile-form-accent =
     .label = Dialekt
 profile-form-age =
