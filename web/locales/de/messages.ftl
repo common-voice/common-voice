@@ -8,7 +8,6 @@ email-input =
     .label = E-Mail-Adresse
 submit-form-action = Absenden
 loading = Wird geladen…
-audio-loading-error = Es tut uns leid! Wir verarbeiten unsere Audiodateien, bitte versuchen Sie es in Kürze erneut.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -146,7 +145,6 @@ profile-form-username =
     .label = Benutzername
 profile-form-language =
     .label = Sprache
-profile-form-more-languages = Weitere Sprachen folgen bald!
 profile-form-accent =
     .label = Akzent
 profile-form-age =
