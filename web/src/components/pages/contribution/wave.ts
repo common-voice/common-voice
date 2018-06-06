@@ -30,7 +30,7 @@ class Curve {
   respawn() {
     this.amplitude = 0.3 + Math.random() * 0.7;
     this.seed = Math.random();
-    this.openClass = (2 + Math.random() * 3) | 0;
+    this.openClass = (5 + Math.random() * 4) | 0;
   }
 
   private equation(i: number) {
