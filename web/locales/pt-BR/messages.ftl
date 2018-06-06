@@ -8,7 +8,6 @@ email-input =
     .label = E-mail
 submit-form-action = Enviar
 loading = Carregando…
-audio-loading-error = Desculpe! Nós estamos processando nossos arquivos de audio, por favor tente novamente em breve.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -97,17 +96,24 @@ vote-yes = Sim
 vote-no = Não
 toggle-play-tooltip = Pressione { shortcut-play-toggle } para alternar para o modo de reprodução
 
-## Shortcuts
+## Speak & Listen Shortcuts
 
-# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
-# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = r
 # Must be one letter that appears in the { vote-yes } string.
-# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = s
 # Must be one letter that appears in the { vote-no } string.
-# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Speak Shortcuts
+
+shortcut-record-toggle-label = Gravar/Parar
 request-language-text = Seu idioma ainda não está disponível no Common Voice?
 request-language-button = Solicite um idioma
 
@@ -133,7 +139,6 @@ profile-form-username =
     .label = Usuário
 profile-form-language =
     .label = Idioma
-profile-form-more-languages = Mais idiomas em breve!
 profile-form-accent =
     .label = Sotaque
 profile-form-age =
@@ -281,6 +286,7 @@ language-search-input =
 
 action-click = Clique
 action-tap = Toque
+contribute = Contribua
 listen = Ouvir
 skip = Pular
 shortcuts = Atalhos
@@ -288,6 +294,7 @@ clips = Clipes
 goal-type-record = gravando
 goal-type-validation = validação
 toward-goal = Essa é a <goalPercentage></goalPercentage> em relação à meta de { $goalType } do Common Voice hoje. Obrigado
+goal-help = Você ajudou o Common Voice a atingir <goalPercentage></goalPercentage> de sua meta diária de { $goalType }!
 contribute-more = Pronto para fazer mais { $count }?
 record-cta = Iniciar gravação
 record-instruction = { $actionType }<recordIcon></recordIcon>e então leia a sentença em voz alta
