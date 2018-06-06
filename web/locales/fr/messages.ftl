@@ -69,6 +69,7 @@ zh-TW = Chinois (Taïwan)
 ## Layout
 
 speak = Parler
+speak-now = Parler
 datasets = Jeux de données
 languages = Langues
 profile = Profil
@@ -103,7 +104,7 @@ toggle-play-tooltip = Appuyez sur { shortcut-play-toggle } pour lancer ou arrêt
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
-shortcut-skip = l
+shortcut-skip = a
 
 ## Listen Shortcuts
 
@@ -321,10 +322,10 @@ unable-speak = Impossible de parler en ce moment
 review-instruction = Vérifiez et réenregistrez si nécessaire
 record-submit-tooltip = { $actionType } envoyer lorsque vous êtes prêt
 clips-submitted = { $count } extraits envoyés !
-record-abort-title = Terminer l’enregistrement ?
-record-abort-text = Quitter maintenant va vous faire perdre votre progression
+record-abort-title = D’abord finir d’enregistrer ?
+record-abort-text = Quitter maintenant vous fera perdre votre progression
 record-abort-submit = Envoyer les enregistrements
-record-abort-continue = Terminer l’enregistrement
+record-abort-continue = Finir d’enregistrer
 record-abort-delete = Quitter et supprimer tous mes enregistrements
 listen-instruction = { $actionType } <playIcon></playIcon>, la phrase a-t-elle été correctement prononcée ?
 listen-again-instruction = Excellent travail ! <playIcon></playIcon> Écoutez à nouveau lorsque vous êtes prêt
