@@ -8,7 +8,6 @@ email-input =
     .label = 電子郵件地址
 submit-form-action = 送出
 loading = 載入中…
-audio-loading-error = 很抱歉，我們正在處理音訊檔案，請稍候再試。
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -27,6 +26,7 @@ de = 德語
 el = 希臘語
 en = 英語
 es = 西班牙語
+et = 愛沙尼亞語
 fr = 法語
 fy-NL = 弗利西亞語
 ga-IE = 愛爾蘭語
@@ -69,6 +69,7 @@ zh-TW = 華語（台灣）
 ## Layout
 
 speak = 說話
+speak-now = 現在說話
 datasets = 資料集
 languages = 語言
 profile = 帳號資料
@@ -95,6 +96,7 @@ wall-of-text-more-desktop =
 show-wall-of-text = 了解更多
 help-us-title = 請幫助我們驗證句子！
 help-us-explain = 按下播放按鈕，聽一聽，然後告訴我們: 他們正確說出下面的句子了嗎？
+no-clips-to-validate = 看來這個語言沒有任何片段可聽。請幫助我們錄下一些片段。
 vote-yes = 是
 vote-no = 否
 toggle-play-tooltip = 按下 { shortcut-play-toggle } 即可切換播放模式
@@ -147,7 +149,6 @@ profile-form-username =
     .label = 使用者名稱
 profile-form-language =
     .label = 語言
-profile-form-more-languages = 更多語言即將到來！
 profile-form-accent =
     .label = 腔調
 profile-form-age =
