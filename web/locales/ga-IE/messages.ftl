@@ -8,7 +8,6 @@ email-input =
     .label = Ríomhphost
 submit-form-action = Seol
 loading = Á lódáil...
-audio-loading-error = Ár leithscéal! Táimid ag próiseáil ár gcuid comhad fuaime. Bain triail eile as ar ball.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -27,6 +26,7 @@ de = Gearmáinis
 el = Gréigis
 en = Béarla
 es = Spáinnis
+et = Eastóinis
 fr = Fraincis
 fy-NL = Freaslannais
 ga-IE = Gaeilge
@@ -96,17 +96,23 @@ vote-yes = Tá
 vote-no = Níl
 toggle-play-tooltip = Brúigh { shortcut-play-toggle } chun an mód seinnte a athrú
 
-## Shortcuts
+## Speak & Listen Shortcuts
 
-# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
-# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = b
 # Must be one letter that appears in the { vote-yes } string.
-# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = t
 # Must be one letter that appears in the { vote-no } string.
-# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Speak Shortcuts
+
 request-language-text = Cá bhfuil mo theangasa?
 request-language-button = Iarr Teanga Nua
 
@@ -135,7 +141,6 @@ profile-form-username =
     .label = Ainm Úsáideora
 profile-form-language =
     .label = Teanga
-profile-form-more-languages = Tuilleadh teangacha le teacht!
 profile-form-accent =
     .label = Blas
 profile-form-age =
@@ -252,7 +257,6 @@ download-no = Níl, GRMA
 ## Contact Modal
 
 contact-title = Foirm Teagmhála
-contact-cancel = Cealaigh
 contact-form-name =
     .label = Ainm
 contact-form-message =
@@ -262,7 +266,6 @@ contact-required = *riachtanach
 ## Request Language Modal
 
 request-language-title = Iarratas ar Theanga Nua
-request-language-cancel = Fág an Fhoirm
 request-language-form-language =
     .label = Teanga
 request-language-success-title = Fuaireamar an t-iarratas, go raibh maith agat.
