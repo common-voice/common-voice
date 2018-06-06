@@ -223,9 +223,11 @@ class SpeakPage extends React.Component<Props, State> {
 
   private handleRecordClick = async () => {
     if (this.state.recordingStatus === 'waiting') return;
+    const isRecording = this.isRecording;
+
     this.setState({ recordingStatus: 'waiting' });
 
-    if (this.isRecording) {
+    if (isRecording) {
       this.saveRecording();
       return;
     }

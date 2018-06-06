@@ -71,6 +71,7 @@ class ContributionPage extends React.Component<Props, State> {
 
   componentDidMount() {
     this.startWaving();
+    window.addEventListener('keydown', this.handleKeyDown);
   }
 
   componentDidUpdate() {
@@ -79,6 +80,10 @@ class ContributionPage extends React.Component<Props, State> {
     if (this.wave) {
       this.props.isPlaying ? this.wave.play() : this.wave.idle();
     }
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('keydown', this.handleKeyDown);
   }
 
   private get isLoaded() {
@@ -116,7 +121,7 @@ class ContributionPage extends React.Component<Props, State> {
   private toggleShortcutsModal = () =>
     this.setState({ showShortcutsModal: !this.state.showShortcutsModal });
 
-  private handleKeyDown = (event: React.KeyboardEvent<any>) => {
+  private handleKeyDown = (event: any) => {
     const { getString, isSubmitted, onReset, onSubmit, type } = this.props;
     if (event.ctrlKey || event.altKey || event.shiftKey) return;
 
@@ -148,7 +153,6 @@ class ContributionPage extends React.Component<Props, State> {
       <div
         className="contribution-wrapper"
         onClick={() => this.selectPill(null)}
-        onKeyDown={this.handleKeyDown}
         tabIndex={-1}>
         {showShareModal && (
           <ShareModal onRequestClose={this.toggleShareModal} />
