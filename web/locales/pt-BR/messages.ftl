@@ -26,6 +26,7 @@ de = Alemão
 el = Grego
 en = Inglês
 es = Espanhol
+et = Estoniano
 fr = Francês
 fy-NL = Frisão
 ga-IE = Irlandês
@@ -68,6 +69,7 @@ zh-TW = Chinês (Taiwan)
 ## Layout
 
 speak = Falar
+speak-now = Fale agora
 datasets = Conjuntos de dados
 languages = Idiomas
 profile = Perfil
@@ -104,6 +106,7 @@ toggle-play-tooltip = Pressione { shortcut-play-toggle } para alternar para o mo
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = r
+shortcut-play-toggle-label = Tocar/Parar
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = s
@@ -159,7 +162,8 @@ edit-profile = Editar perfil
 profile-create = Criar um perfil
 profile-create-success = Perfil criado com sucesso!
 profile-close = Fechar
-profile-clear-modal = Limpar seus dados de perfil significa que esta informação demográfica não será mais enviada ao Common Voice com suas gravações de clipes.
+profile-clear-modal = Limpar seus dados de perfil significa que esta informação demográfica não será mais enviada ao Common Voice com suas gravações.
+profile-explanation = Acompanhe o seu progresso com um perfil e ajude que as gravações sejam cada vez mais precisas.
 
 ## FAQ
 
@@ -290,7 +294,7 @@ contribute = Contribua
 listen = Ouvir
 skip = Pular
 shortcuts = Atalhos
-clips = Clipes
+clips = Frases
 goal-type-record = gravando
 goal-type-validation = validação
 toward-goal = Essa é a <goalPercentage></goalPercentage> em relação à meta de { $goalType } do Common Voice hoje. Obrigado
