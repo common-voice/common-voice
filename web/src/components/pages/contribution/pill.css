@@ -41,7 +41,7 @@
         border-radius: 50%;
         font-weight: 600;
 
-        color: var(--warm-grey);
+        color: var(--near-black);
     }
 
     & .contents {
