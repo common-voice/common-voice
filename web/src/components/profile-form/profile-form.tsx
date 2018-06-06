@@ -23,7 +23,7 @@ const userFormFields = [
   'email',
   'username',
   'age',
-  'accents',
+  'accent',
   'gender',
   'sendEmails',
 ];
@@ -52,11 +52,23 @@ interface State extends EditableUser {
 }
 
 class ProfileForm extends React.Component<Props, State> {
-  state = {
-    ...filterUserFields(this.props.user),
-    accent: '',
-    showClearModal: false,
-  };
+  constructor(props: Props, context: any) {
+    super(props, context);
+    const { locale, user } = this.props;
+    this.state = {
+      ...filterUserFields(user),
+      accent: user.accents[isContributable(locale) ? locale : DEFAULT_LOCALE],
+      showClearModal: false,
+    };
+  }
+
+  componentWillReceiveProps({ locale, user }: Props) {
+    if (locale !== this.props.locale) {
+      this.setState({
+        accent: user.accents[isContributable(locale) ? locale : DEFAULT_LOCALE],
+      });
+    }
+  }
 
   private toggleClearModal = () => {
     this.setState(state => ({ showClearModal: !state.showClearModal }));
@@ -96,14 +108,16 @@ class ProfileForm extends React.Component<Props, State> {
 
   render() {
     const { getString, hasEnteredInfo, locale, onExit, user } = this.props;
-    const { email, username, accents, age, gender, sendEmails } = this.state;
-
-    const isModified = userFormFields.some(key => {
-      const typedKey = key as keyof EditableUser;
-      return this.state[typedKey] !== user[typedKey];
-    });
+    const { email, username, accent, age, gender, sendEmails } = this.state;
 
     const shownLocale = isContributable(locale) ? locale : DEFAULT_LOCALE;
+
+    const isModified =
+      accent !== user.accents[shownLocale] ||
+      userFormFields.filter(k => k !== 'accent').some(key => {
+        const typedKey = key as keyof EditableUser;
+        return this.state[typedKey] !== user[typedKey];
+      });
 
     return (
       <div id="profile-card">
@@ -188,7 +202,7 @@ class ProfileForm extends React.Component<Props, State> {
               label="Accent"
               name="accent"
               onChange={this.update}
-              value={accents[shownLocale]}>
+              value={accent}>
               {this.renderOptionsFor({
                 '': '--',
                 ...ACCENTS[shownLocale],
