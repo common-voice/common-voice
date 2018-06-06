@@ -8,7 +8,6 @@ email-input =
     .label = E-post
 submit-form-action = Send inn
 loading = Lastar…
-audio-loading-error = Orsak! Vi behandlar lydfilene våre. Prøv igjen litt seinare.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -27,6 +26,7 @@ de = Tysk
 el = Gresk
 en = Engelsk
 es = Spansk
+et = Estisk
 fr = Fransk
 fy-NL = frisisk
 ga-IE = Irsk
@@ -69,6 +69,7 @@ zh-TW = Kinesisk (Taiwan)
 ## Layout
 
 speak = Snakk
+speak-now = Snakk no
 datasets = Datamengder
 languages = Språk
 profile = Profil
@@ -102,6 +103,9 @@ toggle-play-tooltip = Trykk på { shortcut-play-toggle } for å starte eller sto
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
 shortcut-play-toggle-label = Spel av/Stopp
 
 ## Speak Shortcuts
@@ -132,7 +136,6 @@ profile-form-username =
     .label = Brukarnamn
 profile-form-language =
     .label = Språk
-profile-form-more-languages = Fleire språk kjem snart!
 profile-form-accent =
     .label = Dialekt
 profile-form-age =
