@@ -11,7 +11,8 @@
         margin-left: auto;
     }
 
-    #contribute-button {
+    .home-cta-container {
+        position: absolute;
         top: calc(var(--home-background-offset) + 9.8rem);
     }
 }
@@ -24,10 +25,17 @@
         width: 100%;
     }
 
-    #contribute-button {
-        top: 16.5rem;
+    .home-cta-container {
+        position: absolute;
+        top: 12rem;
         left: 0;
         right: 0;
+        height: 12rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .home-cta {
         box-sizing: border-box;
         margin: 0 auto;
         max-width: 280px;
@@ -45,18 +53,17 @@
     animation: fade-in var(--transition-duration-slow);
 }
 
-#contribute-button {
-    position: absolute;
+.home-cta {
     min-width: 16rem;
     justify-content: center;
 }
 
-#contribute-button img {
+.home-cta img {
     width: 20px;
     height: 20px;
 }
 
-#contribute-button div {
+.home-cta div {
     display: flex;
     margin-right: 1rem;
 }

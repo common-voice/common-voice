@@ -19,11 +19,11 @@ export const Button = ({
   />
 );
 
-export const CardAction = (props: any) =>
+export const CardAction = ({ className, ...props }: any) =>
   props.to ? (
-    <LocaleLink className="card-action" {...props} />
+    <LocaleLink className={'card-action ' + className} {...props} />
   ) : (
-    <Button outline className="card-action" {...props} />
+    <Button outline className={'card-action ' + className} {...props} />
   );
 
 export const Hr = (props: any) => <hr className="hr" {...props} />;

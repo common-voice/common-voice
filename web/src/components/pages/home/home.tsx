@@ -90,40 +90,42 @@ class HomePage extends React.Component<Props, State> {
           id="wall-of-text"
           className={showWallOfText ? 'show-more-text' : ''}>
           <ContributableLocaleLock
-            render={({ isContributable }: any) =>
-              isContributable ? (
-                <CardAction id="contribute-button" to={URLS.RECORD}>
-                  <div>
-                    <RecordIcon />
-                  </div>
-                  <Localized id="home-cta">
-                    <span />
-                  </Localized>
-                </CardAction>
-              ) : (
-                messagesGenerator && (
-                  <LocalizationProvider messages={messagesGenerator}>
-                    <React.Fragment>
-                      <Localized id="get-involved-button">
-                        <CardAction
-                          id="contribute-button"
-                          onClick={this.toggleGetInvolvedModal}
-                        />
-                      </Localized>
-                      {showGetInvolvedModal && (
-                        <GetInvolvedModal
-                          locale={{
-                            code: locale,
-                            name: getNativeNameWithFallback(locale),
-                          }}
-                          onRequestClose={this.toggleGetInvolvedModal}
-                        />
-                      )}
-                    </React.Fragment>
-                  </LocalizationProvider>
-                )
-              )
-            }
+            render={({ isContributable }: any) => (
+              <div className="home-cta-container">
+                {isContributable ? (
+                  <CardAction className="home-cta" to={URLS.RECORD}>
+                    <div>
+                      <RecordIcon />
+                    </div>
+                    <Localized id="home-cta">
+                      <span />
+                    </Localized>
+                  </CardAction>
+                ) : (
+                  messagesGenerator && (
+                    <LocalizationProvider messages={messagesGenerator}>
+                      <React.Fragment>
+                        <Localized id="get-involved-button">
+                          <CardAction
+                            id="home-cta"
+                            onClick={this.toggleGetInvolvedModal}
+                          />
+                        </Localized>
+                        {showGetInvolvedModal && (
+                          <GetInvolvedModal
+                            locale={{
+                              code: locale,
+                              name: getNativeNameWithFallback(locale),
+                            }}
+                            onRequestClose={this.toggleGetInvolvedModal}
+                          />
+                        )}
+                      </React.Fragment>
+                    </LocalizationProvider>
+                  )
+                )}
+              </div>
+            )}
           />
 
           <Localized id="wall-of-text-start">
