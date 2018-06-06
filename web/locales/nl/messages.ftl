@@ -8,7 +8,6 @@ email-input =
     .label = E-mailadres
 submit-form-action = Indienen
 loading = Laden…
-audio-loading-error = Sorry! We verwerken onze audiobestanden, probeer het binnenkort nog eens.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -27,6 +26,7 @@ de = Duits
 el = Grieks
 en = Engels
 es = Spaans
+et = Estisch
 fr = Frans
 fy-NL = Fries
 ga-IE = Iers
@@ -69,6 +69,7 @@ zh-TW = Chinees (Taiwan)
 ## Layout
 
 speak = Spreken
+speak-now = Nu spreken
 datasets = Gegevenssets
 languages = Talen
 profile = Profiel
@@ -93,6 +94,7 @@ wall-of-text-more-desktop = U kunt nu uw stem doneren om ons te helpen een opens
 show-wall-of-text = Meer lezen
 help-us-title = Help ons zinnen te valideren!
 help-us-explain = Klik op de afspeelknop, luister en vertel ons: wordt de onderstaande zin juist uitgesproken?
+no-clips-to-validate = Het lijkt erop dat er in deze taal geen te beluisteren fragmenten zijn. Help de rij te vullen door er nu een paar op te nemen.
 vote-yes = Ja
 vote-no = Nee
 toggle-play-tooltip = Druk op { shortcut-play-toggle } om de afspeelmodus in/uit te schakelen
@@ -146,7 +148,6 @@ profile-form-username =
     .label = Gebruikersnaam
 profile-form-language =
     .label = Taal
-profile-form-more-languages = Meer talen volgen binnenkort!
 profile-form-accent =
     .label = Accent
 profile-form-age =
