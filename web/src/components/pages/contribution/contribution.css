@@ -142,6 +142,27 @@
                 }
             }
         }
+
+        & .open-share {
+            border: 2px solid var(--grey);
+            border-radius: 50%;
+            margin-left: 20px;
+            background: var(--white);
+
+            @media (--sm-down) {
+                width: 46px;
+                height: 46px;
+
+                & svg {
+                    width: 20px;
+                }
+            }
+
+            @media (--md-up) {
+                width: 57px;
+                height: 57px;
+            }
+        }
     }
 
     & .instruction {

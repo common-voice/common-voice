@@ -5,7 +5,13 @@ import { trackListening, trackRecording } from '../../../services/tracker';
 import URLS from '../../../urls';
 import { LocaleLink, LocaleNavLink } from '../../locale-helpers';
 import Modal from '../../modal/modal';
-import { ArrowLeft, CheckIcon, KeyboardIcon, SkipIcon } from '../../ui/icons';
+import {
+  ArrowLeft,
+  CheckIcon,
+  KeyboardIcon,
+  ShareIcon,
+  SkipIcon,
+} from '../../ui/icons';
 import { Button } from '../../ui/ui';
 import { PrimaryButton } from './primary-buttons';
 import ShareModal from './share-modal';
@@ -204,6 +210,11 @@ class ContributionPage extends React.Component<Props, State> {
                   </Localized>
                 </div>
               )}
+            {isSubmitted && (
+              <button className="open-share" onClick={this.toggleShareModal}>
+                <ShareIcon />
+              </button>
+            )}
           </div>
 
           {this.renderContent()}
