@@ -26,6 +26,7 @@ de = Deutsch
 el = Griechisch
 en = Englisch
 es = Spanisch
+et = Estnisch
 fr = Französisch
 fy-NL = Friesisch
 ga-IE = Irisch
@@ -68,6 +69,7 @@ zh-TW = Chinesisch (Taiwan)
 ## Layout
 
 speak = Sprechen
+speak-now = Sprechen Sie jetzt
 datasets = Datensätze
 languages = Sprachen
 profile = Profil
@@ -92,6 +94,7 @@ wall-of-text-more-desktop = Nun ist es an Ihnen! Helfen Sie uns, indem Sie Ihre 
 show-wall-of-text = Mehr erfahren
 help-us-title = Helfen Sie uns beim Bestätigen von Sätzen!
 help-us-explain = Drücken Sie Play, hören Sie zu & erzählen Sie uns: Wurde der folgende Satz korrekt aufgesprochen?
+no-clips-to-validate = Sieht so aus, als gäbe es keine Aufnahmen mehr, die Sie bestätigen könnten. Helfen Sie uns dabei die Warteschlange wieder aufzufüllen, indem Sie jetzt selbst etwas aufnehmen.
 vote-yes = Ja
 vote-no = Nein
 toggle-play-tooltip = Drücken Sie zum Pausieren/Fortsetzen { shortcut-play-toggle }
