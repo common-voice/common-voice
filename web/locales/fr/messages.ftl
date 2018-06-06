@@ -26,6 +26,7 @@ de = Allemand
 el = Grec
 en = Anglais
 es = Espagnol
+et = Estonien
 fr = Français
 fy-NL = Frison
 ga-IE = Irlandais
@@ -94,6 +95,7 @@ wall-of-text-more-desktop =
 show-wall-of-text = En savoir plus
 help-us-title = Aidez-nous à valider des phrases !
 help-us-explain = Appuyez sur lecture, écoutez et dites-nous : la phrase ci-dessous est-elle prononcée correctement ?
+no-clips-to-validate = Il semblerait qu’il n’y ait aucun enregistrement à écouter dans cette langue. Aidez-nous à en créer quelques-uns !
 vote-yes = Oui
 vote-no = Non
 toggle-play-tooltip = Appuyez sur { shortcut-play-toggle } pour lancer ou arrêter la lecture
@@ -168,6 +170,7 @@ profile-create = Créer un profil
 profile-create-success = Bravo, votre profil est créé !
 profile-close = Fermer
 profile-clear-modal = Si vous effacez les données de votre profil, ces informations démographiques ne seront plus transmises à Common Voice avec vos enregistrements sonores.
+profile-explanation = Gardez un œil sur votre progression en créant un profil et aidez-nous à rendre nos données vocales plus précises.
 
 ## FAQ
 
@@ -244,7 +247,7 @@ terms-agree = J’accepte
 terms-disagree = Je refuse
 review-aborted = Échec de l’envoi. Voulez-vous supprimer vos enregistrements ?
 review-submit-title = Vérifier et envoyer
-review-submit-msg = Merci pour votre enregistrement !<lineBreak></lineBreak>Vous pouvez maintenant valider et envoyer vos extraits ci-dessous.
+review-submit-msg = Merci pour vos enregistrements !<lineBreak></lineBreak>Vous pouvez maintenant valider et envoyer les extraits ci-dessous.
 review-recording = Vérification
 review-rerecord = Réenregistrer
 review-cancel = Annuler l’envoi
