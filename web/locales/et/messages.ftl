@@ -38,6 +38,9 @@ kab = kabiili
 ko = korea
 kw = korni
 mk = makedoonia
+nb-NO = norra (bokmåli)
+ne-NP = nepaali
+nl = hollandi
 
 # [/]
 
