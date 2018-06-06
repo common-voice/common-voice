@@ -6,7 +6,7 @@ import StateTree from './tree';
 
 export const ACCENTS: any = {
   cy: {
-    uk: 'United Kingdom',
+    united_kingdom: 'Y Deyrnas Unedig Cymraeg',
   },
   de: {
     germany: 'Deutschland Deutsch',
