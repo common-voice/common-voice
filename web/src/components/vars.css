@@ -85,6 +85,8 @@
 @custom-media --lg-only (width >= 992px) and (width < 1200px);
 @custom-media --xl-only (width >= 1200px);
 
+@custom-media --tall (height > 800px);
+
 @keyframes fade-in {
     from {
         opacity: 0;

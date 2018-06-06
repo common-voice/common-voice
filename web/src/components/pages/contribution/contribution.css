@@ -21,7 +21,7 @@
     width: 100%;
     box-sizing: border-box;
 
-    @media (height > 800px) {
+    @media (--tall) {
         padding-top: 60px;
     }
 
@@ -161,6 +161,15 @@
             @media (--md-up) {
                 width: 57px;
                 height: 57px;
+            }
+
+            &:hover {
+                border-color: transparent;
+                background: var(--near-black);
+
+                & path {
+                    fill: var(--white);
+                }
             }
         }
     }
