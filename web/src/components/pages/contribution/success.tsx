@@ -101,7 +101,9 @@ class Success extends React.Component<Props, State> {
               final={finalPercentage}
             />
           }
-          $goalType={getString(type === 'speak' ? 'recording' : 'validation')}>
+          $goalType={getString(
+            'goal-type-' + (type === 'speak' ? 'record' : 'validation')
+          )}>
           <h1 />
         </Localized>
 
