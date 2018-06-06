@@ -88,13 +88,9 @@ class ProjectStatus extends React.Component<Props, State> {
               <div />
             </Localized>
 
-            <br />
-
             <Localized id="request-language-button">
               <Button rounded onClick={this.props.onRequestLanguage} />
             </Localized>
-
-            <br />
           </div>
         </div>
       </div>

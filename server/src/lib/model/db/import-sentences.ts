@@ -119,10 +119,7 @@ async function importLocaleSentences(pool: any, locale: string) {
   }
   const { id: localeId, name: name } = row;
 
-
-  const sentences = await loadSentences(
-    path.join(SENTENCES_FOLDER, locale)
-  );
+  const sentences = await loadSentences(path.join(SENTENCES_FOLDER, locale));
 
   print('importing', locale, sentences.length);
 

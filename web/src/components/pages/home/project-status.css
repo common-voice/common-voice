@@ -50,5 +50,11 @@
 }
 
 #home-container .project-status .request-language {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & button {
+        margin: 20px 0;
+    }
 }
