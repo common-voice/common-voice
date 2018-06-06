@@ -8,7 +8,6 @@ email-input =
     .label = Adresse électronique
 submit-form-action = Envoyer
 loading = Chargement…
-audio-loading-error = Désolé, nous préparons nos fichiers audio. Veuillez réessayer dans quelques instants.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -148,7 +147,6 @@ profile-form-username =
     .label = Nom d’utilisateur
 profile-form-language =
     .label = Langue
-profile-form-more-languages = Bientôt de nouvelles langues !
 profile-form-accent =
     .label = Accent
 profile-form-age =
@@ -285,7 +283,7 @@ request-language-success-content = Nous vous contacterons très bientôt avec de
 language-section-in-progress = En cours
 language-section-in-progress-description = Les langues « en cours » sont celles sur lesquelles nos communautés travaillent ; leur progrès correspond à l’avancement de la traduction du site web et à l’avancement de la collecte de phrases.
 language-section-launched = Lancées
-language-section-launched-description = Pour les langues en production le site web a été complètement traduit et un nombre suffisant de phrases à lire a été collecté, pour permettre les contributions tant en <italic>{ speak }</italic> qu’en <italic>{ listen }</italic>.
+language-section-launched-description = Pour les langues en production, le site web a été complètement traduit et un nombre suffisant de phrases à lire a été collecté, pour permettre les contributions tant en <italic>parlant</italic> qu’en <italic>écoutant</italic>.
 languages-show-more = Afficher davantage de langues
 languages-show-less = Afficher moins de langues
 language-speakers = Locuteurs
