@@ -103,15 +103,36 @@
         margin: 60px auto 0;
     }
 
+    & .contribute-more-button {
+        &.secondary {
+            & path {
+                fill: var(--black);
+            }
+
+            &:hover path {
+                fill: var(--blue);
+            }
+        }
+
+        & svg {
+            margin-right: 10px;
+        }
+
+        & path {
+            fill: var(--white);
+        }
+    }
+
     & .secondary {
         margin: 60px auto 0;
+        display: flex;
+        align-items: center;
         font-size: var(--font-size-small);
-        text-decoration: underline;
         font-weight: 600 !important;
+        text-decoration: none !important;
 
         &:hover {
             color: var(--blue);
-            text-decoration-color: var(--blue);
 
             & a {
                 color: var(--blue);

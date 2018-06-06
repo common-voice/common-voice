@@ -6,7 +6,7 @@ import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
 import URLS from '../../../urls';
 import { LocaleLink } from '../../locale-helpers';
-import { CheckIcon } from '../../ui/icons';
+import { CheckIcon, MicIcon, PlayOutlineIcon } from '../../ui/icons';
 import { Button, LinkButton, TextButton } from '../../ui/ui';
 import { SET_COUNT } from './contribution';
 
@@ -79,6 +79,23 @@ class Success extends React.Component<Props, State> {
     const finalPercentage = Math.ceil(
       100 * (contributionCount || 0) / DAILY_GOAL[type]
     );
+
+    const ContributeMoreButton = (props: { children: React.ReactNode }) =>
+      hasEnteredInfo ? (
+        <Button
+          className="contribute-more-button"
+          rounded
+          onClick={onReset}
+          {...props}
+        />
+      ) : (
+        <TextButton
+          className="contribute-more-button secondary"
+          onClick={onReset}
+          {...props}
+        />
+      );
+
     return (
       <div className="contribution-success">
         <div className="counter done">
@@ -127,13 +144,12 @@ class Success extends React.Component<Props, State> {
           </div>
         )}
 
-        <Localized id="contribute-more" $count={SET_COUNT}>
-          {hasEnteredInfo ? (
-            <Button rounded onClick={onReset} />
-          ) : (
-            <TextButton className="secondary" onClick={onReset} />
-          )}
-        </Localized>
+        <ContributeMoreButton>
+          {type === 'speak' ? <MicIcon /> : <PlayOutlineIcon />}
+          <Localized id="contribute-more" $count={SET_COUNT}>
+            <span />
+          </Localized>
+        </ContributeMoreButton>
 
         {hasEnteredInfo && (
           <Localized id="edit-profile">
