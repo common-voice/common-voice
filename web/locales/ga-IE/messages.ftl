@@ -235,6 +235,7 @@ record-platform-not-supported-desktop = Ar ríomhaire, is féidir leat na leagan
 record-platform-not-supported-ios = Is féidir le daoine ar <bold>iOS</bold> aip saor in aisce a íoslódáil:
 record-must-allow-microphone = Caithfidh tú cead a thabhairt dúinn an micreafón a úsáid.
 record-retry = Bain triail eile as
+record-no-mic-found = Níor aimsíodh micreafón.
 record-error-too-short = Bhí an taifeadadh róghearr.
 record-error-too-long = Bhí an taifeadadh rófhada.
 record-error-too-quiet = Bhí an taifeadadh róchiúin.
@@ -301,8 +302,10 @@ listen = Éist
 skip = Ar Aghaidh
 shortcuts = Aicearraí
 clips = Gearrthóga
-goal-type-record = taifeadadh
-goal-type-validation = deimhniú
+goal-type-record = taifeadtaí
+goal-type-validation = deimhnithe
+toward-goal = Sin <goalPercentage></goalPercentage> den sprioc laethúil Common Voice i gcomhair { $goalType }. Go raibh maith agat
+goal-help = Chabhraigh tú le Common Voice <goalPercentage></goalPercentage> dá sprioc laethúil i gcomhair { $goalType } a bhaint amach!
 contribute-more =
     { $count ->
         [one] An bhfuil tú réidh ceann amháin eile a dhéanamh?
@@ -320,6 +323,16 @@ record-again-instruction2 = Lean ort, déan taifead eile <recordIcon></recordIco
 record-last-instruction = <recordIcon></recordIcon> An ceann deireanach!
 review-instruction = Athbhreithnigh agus ataifead más gá
 record-submit-tooltip = { $actionType } Seol nuair a bheidh tú réidh
+clips-submitted =
+    { $count ->
+        [one] Gearrthóg amháin seolta
+        [two] { $count } ghearrthóg seolta
+        [few] { $count } ghearrthóg seolta
+        [many] { $count } ngearrthóg seolta
+       *[other] { $count } gearrthóg seolta
+    }
+record-abort-title = An bhfuil fonn ort na taifeadtaí a chríochnú ar dtús?
+record-abort-text = Má fhágann tú anois, caillfidh tú aon dul chun cinn a rinne tú
 record-abort-submit = Seol gearrthóga
 record-abort-delete = Scoir agus scrios na gearrthóga
 listen-last-time-instruction = <playIcon></playIcon> An ceann deireanach!
