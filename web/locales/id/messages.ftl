@@ -330,3 +330,4 @@ listen-instruction = { $actionType } <playIcon></playIcon> apakah kalimatnya sud
 listen-again-instruction = Hasil yang hebat! <playIcon></playIcon> Dengarkan kembali jika Anda siap
 listen-3rd-time-instruction = sudah 2 <playIcon></playIcon> , lanjut terus!
 listen-last-time-instruction = <playIcon></playIcon> Satu lagi!
+share-title-new = <bold>Bantu kami</bold> menemukan lebih banyak suara
