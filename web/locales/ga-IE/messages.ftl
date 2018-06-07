@@ -35,6 +35,7 @@ hu = Ungáiris
 id = Indinéisis
 it = Iodáilis
 ka = Seoirsis
+kab = Ceabáilis
 ko = Cóiréis
 kw = Coirnis
 mk = Macadóinis
@@ -171,6 +172,7 @@ profile-create = Cruthaigh próifíl
 profile-create-success = Cruthaíodh do phróifíl!
 profile-close = Dún
 profile-clear-modal = Má ghlanann tú do phróifíl, ní sheolfar an fhaisnéis dhéimeagrafach seo chuig Common Voice in éindí le do chuid taifeadtaí.
+profile-explanation = Cruthaigh próifíl chun do chuid oibre a leanúint agus chun cabhrú linn cruinneas na sonraí gutha a fheabhsú.
 
 ## FAQ
 
@@ -321,6 +323,8 @@ record-three-more-instruction = Trí cinn fágtha!
 record-again-instruction = Iontach! <recordIcon></recordIcon> Taifead abairt eile
 record-again-instruction2 = Lean ort, déan taifead eile <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> An ceann deireanach!
+review-tooltip = Athbhreithnigh agus ataifead gearrthóga anseo
+unable-speak = Níl tú in ann labhairt anois?
 review-instruction = Athbhreithnigh agus ataifead más gá
 record-submit-tooltip = { $actionType } Seol nuair a bheidh tú réidh
 clips-submitted =
@@ -335,7 +339,7 @@ record-abort-title = An bhfuil fonn ort na taifeadtaí a chríochnú ar dtús?
 record-abort-text = Má fhágann tú anois, caillfidh tú aon dul chun cinn a rinne tú
 record-abort-submit = Seol gearrthóga
 record-abort-delete = Scoir agus scrios na gearrthóga
-listen-instruction = { $actionType } <playIcon></playIcon> — ar léadh an abairt go cruinn?
+listen-instruction = { $actionType } <playIcon></playIcon> — an bhfuil an taifeadadh cruinn?
 listen-again-instruction = Maith thú! <playIcon></playIcon> Éist le ceann eile nuair a bheidh tú réidh
 listen-3rd-time-instruction = Sin dhá cheann, lean ort! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> An ceann deireanach!
