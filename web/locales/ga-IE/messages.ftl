@@ -68,6 +68,7 @@ zh-TW = Sínis (An Téaváin)
 ## Layout
 
 speak = Abair
+speak-now = Abair leat anois
 datasets = Tacair sonraí
 languages = Teangacha
 profile = Próifíl
@@ -92,18 +93,22 @@ wall-of-text-more-desktop = Anois is féidir leat do ghuth a bhronnadh dúinn ch
 show-wall-of-text = Tuilleadh Eolais
 help-us-title = Cabhraigh linn abairtí a dheimhniú!
 help-us-explain = Cliceáil an tsaighead, éist, agus abair linn: an bhfuil an taifeadadh cruinn?
+no-clips-to-validate = Is cosúil nach bhfuil aon taifeadtaí sa teanga seo fós. Cabhraigh linn an ciú a líonadh trí chúpla taifead a dhéanamh anois.
 vote-yes = Tá
 vote-no = Níl
 toggle-play-tooltip = Brúigh { shortcut-play-toggle } chun an mód seinnte a athrú
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = a
 
 ## Listen Shortcuts
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-play-toggle = b
+shortcut-play-toggle = s
+shortcut-play-toggle-label = Seinn/Stop
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = t
@@ -113,6 +118,10 @@ shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = f
+shortcut-record-toggle-label = Taifead/Stop
 request-language-text = Cá bhfuil mo theangasa?
 request-language-button = Iarr Teanga Nua
 
@@ -285,3 +294,4 @@ language-search-input =
 ## New Contribution
 
 listen = Éist
+skip = Ar Aghaidh
