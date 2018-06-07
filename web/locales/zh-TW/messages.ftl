@@ -330,3 +330,4 @@ listen-instruction = { $actionType }<playIcon></playIcon> 他們有準確地說�
 listen-again-instruction = 幹得好！<playIcon></playIcon> 準備好就可以再聽一次
 listen-3rd-time-instruction = 完成兩筆了 <playIcon></playIcon>，繼續保持！
 listen-last-time-instruction = <playIcon></playIcon> 最後一筆了！
+share-title-new = <bold>請幫助我們</bold>找到更多聲音
