@@ -8,7 +8,6 @@ email-input =
     .label = Эл. почта
 submit-form-action = Отправить
 loading = Загрузка…
-audio-loading-error = Извините! Мы обрабатываем наши аудио файлы, пожалуйста, попробуйте ещё раз позже.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -27,6 +26,7 @@ de = Немецкий
 el = Греческий
 en = Английский
 es = Испанский
+et = Эстонский
 fr = Французский
 fy-NL = Фризский
 ga-IE = Ирландский
@@ -69,6 +69,7 @@ zh-TW = Китайский (Тайвань)
 ## Layout
 
 speak = Запись
+speak-now = Начать запись
 datasets = Наборы данных
 languages = Языки
 profile = Профиль
@@ -147,7 +148,6 @@ profile-form-username =
     .label = Имя пользователя
 profile-form-language =
     .label = Язык
-profile-form-more-languages = Скоро добавим ещё больше языков!
 profile-form-accent =
     .label = Акцент
 profile-form-age =
@@ -328,3 +328,4 @@ record-abort-delete = Выйти и удалить клипы
 listen-again-instruction = Отличная работа! <playIcon></playIcon> Прослушайте снова, когда будете готовы
 listen-3rd-time-instruction = Два готовы <playIcon></playIcon> , продолжайте!
 listen-last-time-instruction = <playIcon></playIcon> Последний!
+share-title-new = <bold>Помогите нам</bold> найти больше голосов
