@@ -100,6 +100,8 @@ toggle-play-tooltip = Tryck på { shortcut-play-toggle } för att växla uppspel
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
@@ -116,6 +118,9 @@ shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
 shortcut-record-toggle-label = Spela in/Stoppa
 request-language-text = Kan du inte se ditt språk på Common Voice än?
 request-language-button = Skicka en förfrågan
@@ -312,3 +317,4 @@ record-abort-continue = Avsluta inspelning
 record-abort-delete = Avsluta & ta bort klipp
 listen-again-instruction = Bra jobbat!<playIcon></playIcon> Lyssna igen när du är redo
 listen-last-time-instruction = <playIcon></playIcon>Sista!
+share-title-new = <bold>Hjälp oss</bold> hitta mer röster
