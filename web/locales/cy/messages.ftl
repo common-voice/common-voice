@@ -335,3 +335,4 @@ listen-instruction = { $actionType } <playIcon> </playIcon> ydyn nhw wedi ynganu
 listen-again-instruction = Gwaith gwych! <playIcon> </playIcon> Gwrandewch eto pan fyddwch yn barod
 listen-3rd-time-instruction = 2 i lawr <playIcon> </playIcon> , daliwch ati!
 listen-last-time-instruction = <playIcon> </playIcon> Yr un olaf!
+share-title-new = <bold>Helpwch ni</bold> i ganfod rhagor o leisiau
