@@ -318,7 +318,7 @@ review-instruction = Review & re-record clips if needed
 record-submit-tooltip = { $actionType } submit when ready
 clips-submitted =
     { $count ->
-       *[other] { $count } Clips submitted!
+       *[other] { $count } Clips Submitted
     }
 record-abort-title = Finish recording first?
 record-abort-text = Leaving now means you'll lose your progress

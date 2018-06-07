@@ -158,8 +158,7 @@ class ContributionPage extends React.Component<Props, State> {
     return (
       <div
         className="contribution-wrapper"
-        onClick={() => this.selectPill(null)}
-        tabIndex={-1}>
+        onClick={() => this.selectPill(null)}>
         {showShareModal && (
           <ShareModal onRequestClose={this.toggleShareModal} />
         )}
@@ -205,7 +204,9 @@ class ContributionPage extends React.Component<Props, State> {
                 <div className={'counter ' + (isSubmitted ? 'done' : '')}>
                   {isSubmitted && <CheckIcon />}
                   {this.renderCounter()}
-                  <Localized id="clips">
+                  <Localized
+                    id={isSubmitted ? 'clips-submitted' : 'clips'}
+                    $count={''}>
                     <span className="text" />
                   </Localized>
                 </div>
@@ -224,7 +225,10 @@ class ContributionPage extends React.Component<Props, State> {
   }
 
   renderCounter() {
-    return (this.props.activeIndex + 1 || SET_COUNT) + '/' + SET_COUNT;
+    const { activeIndex, isSubmitted } = this.props;
+    return (
+      (isSubmitted ? SET_COUNT : activeIndex + 1 || SET_COUNT) + '/' + SET_COUNT
+    );
   }
 
   renderContent() {

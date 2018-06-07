@@ -308,11 +308,12 @@ class SpeakPage extends React.Component<Props, State> {
 
     this.setState({ clips: [], isSubmitted: true });
 
-    for (const { sentence, recording } of clips)
+    for (const { sentence, recording } of clips) {
       addUpload(async () => {
         await api.uploadClip(recording.blob, sentence.id, sentence.text);
         tallyRecording();
       });
+    }
 
     removeSentences(clips.map(c => c.sentence.id));
 
