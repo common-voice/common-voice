@@ -319,6 +319,7 @@ record-again-instruction = Iontach! <recordIcon></recordIcon> Taifead abairt eil
 record-again-instruction2 = Lean ort, déan taifead eile <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> An ceann deireanach!
 review-instruction = Athbhreithnigh agus ataifead más gá
+record-submit-tooltip = { $actionType } Seol nuair a bheidh tú réidh
 record-abort-submit = Seol gearrthóga
 record-abort-delete = Scoir agus scrios na gearrthóga
 listen-last-time-instruction = <playIcon></playIcon> An ceann deireanach!
