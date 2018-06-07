@@ -8,7 +8,6 @@ email-input =
     .label = E-mailová adresa
 submit-form-action = Odoslať
 loading = Načítava sa…
-audio-loading-error = Ospravedlňujeme sa, ale práve spracovávame naše zvukové nahrávky. Skúste to znova neskôr.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -27,6 +26,7 @@ de = nemčina
 el = gréčtina
 en = angličtina
 es = španielčina
+et = estónčina
 fr = francúzština
 fy-NL = frízština
 ga-IE = írčina
@@ -69,6 +69,7 @@ zh-TW = čínština (Taiwan)
 ## Layout
 
 speak = Hovorte
+speak-now = Hovorte teraz
 datasets = Datasety
 languages = Jazyky
 profile = Profil
@@ -100,21 +101,35 @@ wall-of-text-more-desktop =
 show-wall-of-text = Prečítajte si viac
 help-us-title = Pomôžte nám overovať vety!
 help-us-explain = Kliknite na prehrať, počúvajte a povedzte nám, či sa nahrávka zhoduje s vetou nižšie.
+no-clips-to-validate = Vyzerá to tak, že vo vašom jazyku nie sú k dispozícii žiadne nahrávky. Pomôžte nám a nejaké vytvorte.
 vote-yes = Áno
 vote-no = Nie
 toggle-play-tooltip = Stlačením { shortcut-play-toggle } spustíte režim prehrávania
 
-## Shortcuts
+## Speak & Listen Shortcuts
 
-# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
-# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
+shortcut-play-toggle-label = Prehrať/zastaviť
 # Must be one letter that appears in the { vote-yes } string.
-# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = á
 # Must be one letter that appears in the { vote-no } string.
-# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Speak Shortcuts
+
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Nahrať/zastaviť
 request-language-text = Nevidíte na Common Voice svoj jazyk?
 request-language-button = Požiadajte o jazyk
 
@@ -141,7 +156,6 @@ profile-form-username =
     .label = Používateľské meno
 profile-form-language =
     .label = Jazyk
-profile-form-more-languages = Ďalšie jazyky už čoskoro!
 profile-form-accent =
     .label = Prízvuk
 profile-form-age =
@@ -276,7 +290,7 @@ request-language-success-content = Čoskoro vám dáme vedieť, ako môžete pri
 ## Languages Overview
 
 language-section-in-progress = Jazyky, ktoré sa pripravujú
-language-section-launched = Spustené jazyky
+language-section-launched = Spustené
 languages-show-more = Zobraziť viac
 languages-show-less = Zobraziť menej
 language-speakers = Počet hovoriacich
@@ -292,3 +306,5 @@ listen = Počúvajte
 skip = Preskočiť
 shortcuts = Skratky
 clips = Klipy
+goal-type-record = nahrávka
+goal-type-validation = overenie
