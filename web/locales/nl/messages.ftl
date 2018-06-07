@@ -329,3 +329,4 @@ listen-instruction = { $actionType } <playIcon></playIcon> - is de zin duidelijk
 listen-again-instruction = Goed werk! <playIcon></playIcon> Luister opnieuw wanneer u klaar bent
 listen-3rd-time-instruction = 2 gedaan, ga zo door! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> De laatste!
+share-title-new = <bold>Help ons</bold> meer stemmen te vinden
