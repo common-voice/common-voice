@@ -101,6 +101,8 @@ toggle-play-tooltip = Pressione { shortcut-play-toggle } para alternar para o mo
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
@@ -117,6 +119,9 @@ shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
 shortcut-record-toggle-label = Gravar/Parar
 request-language-text = Seu idioma ainda não está disponível no Common Voice?
 request-language-button = Solicite um idioma
@@ -278,7 +283,9 @@ request-language-success-content = Nós entraremos em contato com mais informaç
 ## Languages Overview
 
 language-section-in-progress = Em andamento
+language-section-in-progress-description = O idioma "em curso" estão em desenvolvimento através de contribuições das nossas comunidades; o seu progresso reflete onde estão em relação a localização do site e coleta de frases.
 language-section-launched = Iniciada
+language-section-launched-description = Para os idiomas lançados o site foi completamente localizado, e tem frases suficientes para permitir contribuição através da <italic>{ speak }</italic> e <italic>{ listen }</italic> .
 languages-show-more = Veja mais
 languages-show-less = Ver menos
 language-speakers = Falantes
@@ -326,3 +333,4 @@ listen-instruction = { $actionType } <playIcon></playIcon> as sentenças foram p
 listen-again-instruction = Bom trabalho! <playIcon></playIcon> Ouça novamente quando estiver pronto
 listen-3rd-time-instruction = 2 prontas <playIcon></playIcon> , continue assim!
 listen-last-time-instruction = <playIcon></playIcon> Última!
+share-title-new = <bold>Ajude-nos</bold> a encontrar mais vozes
