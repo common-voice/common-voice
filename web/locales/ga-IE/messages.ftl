@@ -287,11 +287,39 @@ language-section-launched = Seolta
 languages-show-more = Níos Mó
 languages-show-less = Níos Lú
 language-speakers = Cainteoirí
+language-meter-in-progress = Dul Chun Cinn
 language-total-progress = Iomlán
 language-search-input =
     .placeholder = Cuardaigh
 
 ## New Contribution
 
+action-click = Cliceáil
+action-tap = Tapáil
+contribute = Rannpháirtíocht
 listen = Éist
 skip = Ar Aghaidh
+shortcuts = Aicearraí
+clips = Gearrthóga
+goal-type-record = taifeadadh
+goal-type-validation = deimhniú
+contribute-more =
+    { $count ->
+        [one] An bhfuil tú réidh ceann amháin eile a dhéanamh?
+        [two] An bhfuil tú réidh { $count } cheann eile a dhéanamh?
+        [few] An bhfuil tú réidh { $count } cinn eile a dhéanamh?
+        [many] An bhfuil tú réidh { $count } gcinn eile a dhéanamh?
+       *[other] An bhfuil tú réidh { $count } ceann eile a dhéanamh?
+    }
+record-cta = Tosaigh ag taifeadadh
+record-instruction = { $actionType } <recordIcon></recordIcon>ansin léigh an abairt os ard
+record-stop-instruction = { $actionType } <stopIcon></stopIcon> nuair a bheidh tú críochnaithe
+record-three-more-instruction = Trí cinn fágtha!
+record-again-instruction = Iontach! <recordIcon></recordIcon> Taifead abairt eile
+record-again-instruction2 = Lean ort, déan taifead eile <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> An ceann deireanach!
+review-instruction = Athbhreithnigh agus ataifead más gá
+record-abort-submit = Seol gearrthóga
+record-abort-delete = Scoir agus scrios na gearrthóga
+listen-last-time-instruction = <playIcon></playIcon> An ceann deireanach!
+share-title-new = <bold>Cabhraigh linn</bold> tuilleadh guthanna a fháil
