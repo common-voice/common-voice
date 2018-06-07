@@ -8,7 +8,6 @@ email-input =
     .label = Email
 submit-form-action = Invia
 loading = Caricamento in corso…
-audio-loading-error = Spiacenti, i file audio sono in fase di elaborazione. Riprova tra poco.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -27,6 +26,7 @@ de = Tedesco
 el = Greco
 en = Inglese
 es = Spagnolo
+et = Estone
 fr = Francese
 fy-NL = Frisone
 ga-IE = Irlandese
@@ -69,6 +69,7 @@ zh-TW = Cinese (Taiwan)
 ## Layout
 
 speak = Parla
+speak-now = Parla ora
 datasets = Dataset
 languages = Lingue
 profile = Profilo
@@ -93,6 +94,7 @@ wall-of-text-more-desktop = Ora puoi donare la tua voce per aiutarci a costruire
 show-wall-of-text = Ulteriori informazioni
 help-us-title = Aiutaci a confermare le frasi!
 help-us-explain = Premi Avvia, ascolta e indica se l’audio corrisponde alla frase qui sotto.
+no-clips-to-validate = Sembra non ci siano registrazioni in questa lingua. Contribuisci registrando qualcosa.
 vote-yes = Sì
 vote-no = No
 toggle-play-tooltip = Premere { shortcut-play-toggle } per passare alla modalità di riproduzione
@@ -146,7 +148,6 @@ profile-form-username =
     .label = Nome utente
 profile-form-language =
     .label = Lingua
-profile-form-more-languages = Nuove lingue in arrivo!
 profile-form-accent =
     .label = Accento
 profile-form-age =
