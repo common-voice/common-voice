@@ -8,7 +8,6 @@ email-input =
     .label = ఈమెయిలు
 submit-form-action = సమర్పించు
 loading = లోడవుతున్నది...
-audio-loading-error = క్షమించండి! మేము మా ఆడియో ఫైళ్లను ప్రాసెస్ చేస్తున్నాము, దయచేసి త్వరలో మళ్ళీ ప్రయత్నించండి.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -66,6 +65,7 @@ zh-TW = చైనీస్ (తైవాన్)
 ## Layout
 
 speak = మాట్లాడండి
+speak-now = ఇప్పుడు మాల్టాడండి
 datasets = దత్తాంశసమితులు
 languages = భాషలు
 profile = ప్రొఫైలు
@@ -98,6 +98,8 @@ toggle-play-tooltip = ప్లే మోడుని ఆన్ లేదా ఆ
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
@@ -113,6 +115,9 @@ shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
 request-language-text = ఇంకా కామన్ వాయిస్‍లో మీ భాష కనబడలేదా?
 request-language-button = ఒక భాషని అభ్యర్థించండి
 
@@ -138,7 +143,6 @@ profile-form-username =
     .label = వాడుకరి పేరు
 profile-form-language =
     .label = భాష
-profile-form-more-languages = మరిన్ని భాషలు త్వరలో వస్తున్నాయి!
 profile-form-accent =
     .label = యాస
 profile-form-age =
@@ -276,9 +280,17 @@ language-section-launched = లాంచైనవి
 languages-show-more = మరిన్ని చూడండి
 languages-show-less = తక్కువ చూడండి
 language-speakers = మాట్లాడేవారు
+language-meter-in-progress = పురోగతి
 language-total-progress = మొత్తం
 language-search-input =
     .placeholder = వెతుకు
 
 ## New Contribution
 
+action-click = నొక్కండి
+action-tap = తాకండి
+contribute = తోడ్పడండి
+listen = వినండి
+skip = దాటవేయి
+record-abort-title = ముందుగా రికార్డింగు ముగిస్తారా?
+listen-last-time-instruction = <playIcon></playIcon> చివరిది!
