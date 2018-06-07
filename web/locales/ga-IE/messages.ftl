@@ -338,6 +338,7 @@ clips-submitted =
 record-abort-title = An bhfuil fonn ort na taifeadtaí a chríochnú ar dtús?
 record-abort-text = Má fhágann tú anois, caillfidh tú aon dul chun cinn a rinne tú
 record-abort-submit = Seol gearrthóga
+record-abort-continue = Críochnaigh
 record-abort-delete = Scoir agus scrios na gearrthóga
 listen-instruction = { $actionType } <playIcon></playIcon> — an bhfuil an taifeadadh cruinn?
 listen-again-instruction = Maith thú! <playIcon></playIcon> Éist le ceann eile nuair a bheidh tú réidh
