@@ -4,6 +4,7 @@ import { RouteComponentProps, withRouter } from 'react-router';
 import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
 import API from '../../../services/api';
 import { trackRecording } from '../../../services/tracker';
+import { Locale } from '../../../stores/locale';
 import { Recordings } from '../../../stores/recordings';
 import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
@@ -15,6 +16,7 @@ import ProfileActions from './profile-actions';
 
 interface PropsFromState {
   api: API;
+  locale: Locale.State;
   recordingsCount: number;
   sentenceRecordings: Recordings.SentenceRecording[];
   user: User.State;
@@ -106,6 +108,7 @@ class Review extends React.Component<Props, State> {
 
       const {
         api,
+        locale,
         recordingsCount,
         sentenceRecordings,
         tallyRecording,
@@ -125,7 +128,7 @@ class Review extends React.Component<Props, State> {
       }
       await this.props.api.syncDemographics();
       this.props.buildNewSentenceSet();
-      trackRecording('submit');
+      trackRecording('submit', locale);
       window.scrollTo({
         top: 0,
         behavior: 'smooth',
@@ -219,6 +222,7 @@ class Review extends React.Component<Props, State> {
 
 const mapStateToProps = (state: StateTree) => ({
   api: state.api,
+  locale: state.locale,
   recordingsCount: Recordings.selectors.recordingsCount(state),
   sentenceRecordings: Recordings.selectors.localeRecordings(state)
     .sentenceRecordings,

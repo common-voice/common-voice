@@ -3,6 +3,7 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, withRouter } from 'react-router';
 const NavigationPrompt = require('react-router-navigation-prompt').default;
+import { Locale } from '../../../../stores/locale';
 import { Recordings } from '../../../../stores/recordings';
 import StateTree from '../../../../stores/tree';
 import { Uploads } from '../../../../stores/uploads';
@@ -69,6 +70,7 @@ const UnsupportedInfo = () => (
 
 interface PropsFromState {
   api: API;
+  locale: Locale.State;
   sentences: Recordings.Sentence[];
   user: User.State;
 }
@@ -188,7 +190,7 @@ class SpeakPage extends React.Component<Props, State> {
       rerecordIndex: null,
     });
 
-    trackRecording('record');
+    trackRecording('record', this.props.locale);
   };
 
   private getRecordingError = (): RecordingError => {
@@ -294,6 +296,7 @@ class SpeakPage extends React.Component<Props, State> {
     const {
       addUpload,
       api,
+      locale,
       removeSentences,
       tallyRecording,
       user,
@@ -319,7 +322,7 @@ class SpeakPage extends React.Component<Props, State> {
 
     addUpload(async () => {
       await api.syncDemographics();
-      trackRecording('submit');
+      trackRecording('submit', locale);
     });
   };
 
@@ -507,6 +510,7 @@ class SpeakPage extends React.Component<Props, State> {
 const mapStateToProps = (state: StateTree) => {
   return {
     api: state.api,
+    locale: state.locale,
     sentences: Recordings.selectors.localeRecordings(state).sentences,
     user: state.user,
   };

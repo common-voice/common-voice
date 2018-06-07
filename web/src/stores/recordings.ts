@@ -167,7 +167,7 @@ export namespace Recordings {
             ({ sentence }) => sentence.id === sentenceId
           ).recording
         ) {
-          trackRecording('rerecord');
+          trackRecording('rerecord', locale);
         }
         return {
           ...state,

@@ -1,13 +1,20 @@
 import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
 import * as React from 'react';
+import { connect } from 'react-redux';
 import { trackListening } from '../../services/tracker';
+import { Locale } from '../../stores/locale';
+import StateTree from '../../stores/tree';
 import { FontIcon, OldPlayIcon, OldRedoIcon } from '../ui/icons';
 import URLS from '../../urls';
 import { LinkButton } from '../ui/ui';
 
 const VOTE_NO_PLAY_MS = 3000; // Threshold when to allow voting no
 
-interface Props extends LocalizationProps {
+interface PropsFromState {
+  locale: Locale.State;
+}
+
+interface Props extends LocalizationProps, PropsFromState {
   src?: string;
   sentence?: string | React.ReactNode;
   vote?: boolean;
@@ -89,7 +96,7 @@ class ListenBox extends React.Component<Props, State> {
 
   private onPlayEnded() {
     this.setState({ playing: false, played: true });
-    trackListening('listen');
+    trackListening('listen', this.props.locale);
   }
 
   private onPlay() {
@@ -138,7 +145,7 @@ class ListenBox extends React.Component<Props, State> {
       return;
     }
     this.vote(true);
-    trackListening('vote-yes');
+    trackListening('vote-yes', this.props.locale);
   }
 
   private voteNo() {
@@ -147,14 +154,14 @@ class ListenBox extends React.Component<Props, State> {
       return;
     }
     this.vote(false);
-    trackListening('vote-no');
+    trackListening('vote-no', this.props.locale);
   }
 
   private enableShortcuts = () => this.setState({ shortcutsEnabled: true });
   private disableShortcuts = () => this.setState({ shortcutsEnabled: false });
 
   private handleKeyDown = (event: React.KeyboardEvent<any>) => {
-    const { getString } = this.props;
+    const { getString, locale } = this.props;
     if (!this.state.shortcutsEnabled) return;
 
     switch (event.key) {
@@ -173,7 +180,7 @@ class ListenBox extends React.Component<Props, State> {
       default:
         return;
     }
-    trackListening('shortcut');
+    trackListening('shortcut', locale);
     event.preventDefault();
   };
 
@@ -264,4 +271,6 @@ class ListenBox extends React.Component<Props, State> {
   }
 }
 
-export default withLocalization(ListenBox);
+export default connect<PropsFromState>(({ locale }: StateTree) => ({ locale }))(
+  withLocalization(ListenBox)
+);

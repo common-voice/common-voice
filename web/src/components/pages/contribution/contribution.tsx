@@ -1,6 +1,9 @@
 import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
 import * as React from 'react';
+import { connect } from 'react-redux';
 const { Tooltip } = require('react-tippy');
+import { Locale } from '../../../stores/locale';
+import StateTree from '../../../stores/tree';
 import { trackListening, trackRecording } from '../../../services/tracker';
 import URLS from '../../../urls';
 import { LocaleLink, LocaleNavLink } from '../../locale-helpers';
@@ -31,7 +34,11 @@ export interface ContributionPillProps {
   style?: any;
 }
 
-interface Props extends LocalizationProps {
+interface PropsFromState {
+  locale: Locale.State;
+}
+
+interface Props extends LocalizationProps, PropsFromState {
   activeIndex: number;
   errorContent?: any;
   extraButton?: React.ReactNode;
@@ -137,7 +144,14 @@ class ContributionPage extends React.Component<Props, State> {
     this.setState({ showShortcutsModal: !this.state.showShortcutsModal });
 
   private handleKeyDown = (event: any) => {
-    const { getString, isSubmitted, onReset, onSubmit, type } = this.props;
+    const {
+      getString,
+      isSubmitted,
+      locale,
+      onReset,
+      onSubmit,
+      type,
+    } = this.props;
     if (event.ctrlKey || event.altKey || event.shiftKey) return;
 
     const isEnter = event.key === 'Enter';
@@ -156,7 +170,10 @@ class ContributionPage extends React.Component<Props, State> {
     if (!shortcut) return;
 
     shortcut.action();
-    type === 'listen' ? trackListening('shortcut') : trackRecording('shortcut');
+    ((type === 'listen' ? trackListening : trackRecording) as any)(
+      'shortcut',
+      locale
+    );
     event.preventDefault();
   };
 
@@ -402,4 +419,6 @@ class ContributionPage extends React.Component<Props, State> {
   }
 }
 
-export default withLocalization(ContributionPage);
+export default connect<PropsFromState>(({ locale }: StateTree) => ({ locale }))(
+  withLocalization(ContributionPage)
+);

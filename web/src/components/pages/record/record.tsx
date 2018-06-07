@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
 import ERROR_MSG from '../../../error-msg';
 import API from '../../../services/api';
+import { Locale } from '../../../stores/locale';
 import { trackRecording } from '../../../services/tracker';
 import { Recordings } from '../../../stores/recordings';
 import StateTree from '../../../stores/tree';
@@ -64,6 +65,7 @@ interface PropsFromState {
   api: API;
   areSentencesLoaded: boolean;
   isSetFull: boolean;
+  locale: Locale.State;
   recordingsCount: number;
   reRecordSentenceId?: string;
   sentenceRecordings: Recordings.SentenceRecording[];
@@ -143,7 +145,12 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
   };
 
   private processRecording = (info: AudioInfo) => {
-    const { onRecordStop, recordingsCount, sentenceRecordings } = this.props;
+    const {
+      locale,
+      onRecordStop,
+      recordingsCount,
+      sentenceRecordings,
+    } = this.props;
     onRecordStop && onRecordStop();
 
     const recordingError = this.getRecordingError();
@@ -163,7 +170,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
       });
     });
 
-    trackRecording('record');
+    trackRecording('record', locale);
   };
 
   private getRecordingError = (): RecordingError => {
@@ -402,6 +409,7 @@ const mapStateToProps = (state: StateTree) => {
   const localeRecordings = Recordings.selectors.localeRecordings(state);
   return {
     api: state.api,
+    locale: state.locale,
     areSentencesLoaded: Recordings.selectors.areEnoughSentencesLoaded(state),
     isSetFull: Recordings.selectors.isSetFull(state),
     recordingsCount: Recordings.selectors.recordingsCount(state),

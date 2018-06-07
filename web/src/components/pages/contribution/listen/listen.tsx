@@ -3,13 +3,13 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import { trackListening } from '../../../../services/tracker';
 import { Clips } from '../../../../stores/clips';
-import StateTree from '../../../../stores/tree';
+import { Locale } from '../../../../stores/locale';
 import { User } from '../../../../stores/user';
+import StateTree from '../../../../stores/tree';
 import {
   CheckIcon,
   CrossIcon,
   OldPlayIcon,
-  PlayIcon,
   ThumbsDownIcon,
   ThumbsUpIcon,
   VolumeIcon,
@@ -40,6 +40,7 @@ const VoteButton = ({
 
 interface PropsFromState {
   clips: Clips.Clip[];
+  locale: Locale.State;
 }
 
 interface PropsFromDispatch {
@@ -115,7 +116,7 @@ class ListenPage extends React.Component<Props, State> {
 
   private hasPlayed = () => {
     this.setState({ hasPlayed: true, isPlaying: false });
-    trackListening('listen');
+    trackListening('listen', this.props.locale);
   };
 
   private vote = (isValid: boolean) => {
@@ -141,7 +142,7 @@ class ListenPage extends React.Component<Props, State> {
       return;
     }
     this.vote(true);
-    trackListening('vote-yes');
+    trackListening('vote-yes', this.props.locale);
   };
 
   private voteNo = () => {
@@ -150,7 +151,7 @@ class ListenPage extends React.Component<Props, State> {
       return;
     }
     this.vote(false);
-    trackListening('vote-no');
+    trackListening('vote-no', this.props.locale);
   };
 
   private handleSkip = () => {
@@ -279,6 +280,7 @@ class ListenPage extends React.Component<Props, State> {
 const mapStateToProps = (state: StateTree) => {
   return {
     clips: Clips.selectors.localeClips(state).clips,
+    locale: state.locale,
   };
 };
 
