@@ -339,3 +339,4 @@ listen-instruction = { $actionType } <playIcon></playIcon> waard de sin dúdlik 
 listen-again-instruction = Goed wurk! <playIcon></playIcon> Lústerje opnij wannear't jo klear binne
 listen-3rd-time-instruction = 2 klear <playIcon></playIcon> , gean sa troch!
 listen-last-time-instruction = <playIcon></playIcon> De lêste!
+share-title-new = <bold>Help ús</bold> mear stimmen te finen
