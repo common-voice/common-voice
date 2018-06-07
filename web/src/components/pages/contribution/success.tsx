@@ -46,6 +46,8 @@ interface State {
 class Success extends React.Component<Props, State> {
   state: State = { contributionCount: null, currentCount: null };
 
+  killAnimation = false;
+
   async componentDidMount() {
     const { api, type } = this.props;
     this.setState(
@@ -59,8 +61,13 @@ class Success extends React.Component<Props, State> {
     );
   }
 
+  componentWillUnmount() {
+    this.killAnimation = true;
+  }
+
   private startedAt: number;
   private countUp = (time: number) => {
+    if (this.killAnimation) return;
     if (!this.startedAt) this.startedAt = time;
     const newCount = Math.ceil(
       this.state.contributionCount * (time - this.startedAt) / COUNT_UP_MS
