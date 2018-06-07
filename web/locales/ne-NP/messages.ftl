@@ -8,7 +8,6 @@ email-input =
     .label = इमेल
 submit-form-action = पेश गर्नुहोस्
 loading = लोड गरिदैं...
-audio-loading-error = माफ गर्नुहोस् । हामी हाम्रो अडियो फाईलहरू प्रशोधन गर्दैछौँ, कृपया पुनः प्रयास गर्नुहोस् ।
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -17,6 +16,7 @@ audio-loading-error = माफ गर्नुहोस् । हामी ह
 ## Languages
 
 bn = बङ्गाली
+br = ब्रिटन
 ca = क्याटालन
 cs = चेक
 cv = चुभास
@@ -26,6 +26,7 @@ de = जर्मन
 el = ग्रीक
 en = अंग्रेजी
 es = स्पेनिस
+et = इस्टोनियन
 fr = फ्रान्सेली
 fy-NL = फ्रिसियन
 ga-IE = आइरिस
@@ -68,6 +69,7 @@ zh-TW = चीनियाँ (ताइवान)
 ## Layout
 
 speak = बोल्नुहोस्
+speak-now = अहिले बोल्नुस्
 datasets = डाटासेटहरु
 languages = भाषाहरू
 profile = प्रोफाइल
@@ -96,17 +98,25 @@ vote-yes = हो
 vote-no = होेइन
 toggle-play-tooltip = प्ले मोड टगल गर्न { shortcut-play-toggle } थिच्नुहोस्
 
-## Shortcuts
+## Speak & Listen Shortcuts
 
-# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
-# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
 # Must be one letter that appears in the { vote-yes } string.
-# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
-# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Speak Shortcuts
+
 request-language-text = Common Voice मा तपाईँको भाषा अझै देख्नुभएन ?
 request-language-button = भाषा अनुरोध गर्नुहोस्
 
@@ -132,7 +142,6 @@ profile-form-username =
     .label = प्रयोगकर्ता नाम
 profile-form-language =
     .label = भाषा
-profile-form-more-languages = थप भाषाहरू चाँडै आउँदैछ!
 profile-form-accent =
     .label = उच्चारण
 profile-form-age =
@@ -249,7 +258,6 @@ download-no = पर्दैन, धन्यबाद
 ## Contact Modal
 
 contact-title = सम्पर्क फारम
-contact-cancel = रद्द गर्नुहोस्
 contact-form-name =
     .label = नाम
 contact-form-message =
@@ -259,7 +267,6 @@ contact-required = *अनिवार्य
 ## Request Language Modal
 
 request-language-title = भाषा अनुरोध
-request-language-cancel = फारम बन्द गर्नुहोस्
 request-language-form-language =
     .label = भाषा
 request-language-success-title = भाषा अनुरोध सफलतापूर्वक पेश गरियो, धन्यवाद ।
