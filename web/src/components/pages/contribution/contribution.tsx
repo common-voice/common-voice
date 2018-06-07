@@ -90,6 +90,7 @@ class ContributionPage extends React.Component<Props, State> {
 
   componentWillUnmount() {
     window.removeEventListener('keydown', this.handleKeyDown);
+    if (this.wave) this.wave.idle();
   }
 
   private get isLoaded() {
@@ -110,8 +111,16 @@ class ContributionPage extends React.Component<Props, State> {
   }
 
   private startWaving = () => {
-    if (this.wave) return;
     const canvas = this.canvasRef.current;
+
+    if (this.wave) {
+      if (!canvas) {
+        this.wave.idle();
+        this.wave = null;
+      }
+      return;
+    }
+
     if (canvas) {
       this.wave = new Wave(canvas);
     }
