@@ -8,7 +8,6 @@ email-input =
     .label = Postel
 submit-form-action = Kas
 loading = O kargañ...
-audio-loading-error = Hon digarezit! Emaomp o plediñ gant hor restroù son, klaskit en-dro diwezhatoc'h mar plij.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -27,6 +26,7 @@ de = Alamaneg
 el = Gresianeg
 en = Saozneg
 es = Spagnoleg
+et = Estoneg
 fr = Galleg
 fy-NL = Frizeg
 ga-IE = Iwerzhoneg
@@ -69,6 +69,7 @@ zh-TW = Sinaeg (Taiwan)
 ## Layout
 
 speak = Komz
+speak-now = Komz bremañ
 datasets = Hollad roadennoù
 languages = Yezhoù
 profile = Profil
@@ -97,17 +98,30 @@ vote-yes = Ya
 vote-no = Ket
 toggle-play-tooltip = Pouezit war { shortcut-play-toggle } evit gwintañ war-du ar mod lenn
 
-## Shortcuts
+## Speak & Listen Shortcuts
 
-# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
-# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
+shortcut-play-toggle-label = Lenn/Stop
 # Must be one letter that appears in the { vote-yes } string.
-# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
-# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Speak Shortcuts
+
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Enrolliñ/Stop
 request-language-text = Ne welit ket ho yezh e Common Voice evit ar mare?
 request-language-button = Goulenn ouzhpennañ ur yezh
 
@@ -136,7 +150,6 @@ profile-form-username =
     .label = Anv implijer
 profile-form-language =
     .label = Yezh
-profile-form-more-languages = Muioc'h a yezhoù 'zo da zont!
 profile-form-accent =
     .label = Pouez-mouezh
 profile-form-age =
@@ -253,7 +266,6 @@ download-no = Nann avat
 ## Contact Modal
 
 contact-title = Furmskrid daremprediñ
-contact-cancel = Nullañ
 contact-form-name =
     .label = Anv
 contact-form-message =
@@ -263,7 +275,6 @@ contact-required = *rekis
 ## Request Language Modal
 
 request-language-title = Goulenn ouzhpennañ ur yezh
-request-language-cancel = Kuitaat ar furmskrid
 request-language-form-language =
     .label = Yezh
 request-language-success-title = Goulenn yezh kaset gant berzh, trugarez vras deoc'h.

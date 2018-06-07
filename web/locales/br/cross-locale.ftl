@@ -1,7 +1,7 @@
 ## Languages
 
+contribute = Kemer-perzh
 get-involved-button = Kemer perzh
-get-involved-cancel = Kuitaat
 get-involved-title = Kemer perzh e { $lang }
 get-involved-text = Ho trugarekaat a reomp evit an dedenn a ziskouezit evit kemer perzh e { $lang }. Start e labouromp evit ma c'hallo pep yezh loc'hañ ganti hag e talc'homp da gelaouiñ ar skipailhoù dre bostel. Mar fell deoc'h kemer perzh, lakait ho chomlec'h postel amañ dindan.
 get-involved-form-title = Lakait hoc'h anv evit resev hizivadurioù evit { $lang } :
