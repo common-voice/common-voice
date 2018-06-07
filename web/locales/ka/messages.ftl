@@ -298,13 +298,13 @@ language-search-input =
 
 ## New Contribution
 
-action-click = დააწკაპეთ
+action-click = დააწექით
 action-tap = დააჭირეთ
 contribute = წვლილის შეტანა
 listen = მოსმენა
 skip = გამოტოვება
 shortcuts = მალსახმობები
-clips = ჩანაწერები
+clips = ჩანაწერი
 goal-type-record = ჩაწერა
 goal-type-validation = დამოწმება
 toward-goal = ესაა Common Voice-ის დღევანდელი { $goalType } მიზნის <goalPercentage></goalPercentage>. გმადლობთ.
@@ -317,9 +317,9 @@ record-three-more-instruction = სამიღაა დარენილი!
 record-again-instruction = მშვენიერია! <recordIcon></recordIcon> გააკეთეთ შემდეგი ჩანაწერი
 record-again-instruction2 = ასე განაგრძეთ, კვლავ ჩაწერეთ <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> ბოლო!
-review-tooltip = აქედან შეგიძლიათ შეამოწმოთ და შექმნათ ჩანაწერები
-unable-speak = ამჟამად ჩაწერა ვერ ხერხდება
-review-instruction = საჭიროა ჩანაწერების გადახედვა და ხელახლა ჩაწერა
+review-tooltip = აქედან შეგიძლიათ შეამოწმოთ და ხელახლა შექმნათ ჩანაწერები
+unable-speak = ვერ ხერხდება ამჟამად, ჩაწერა?
+review-instruction = შეამოწმეთ ჩანაწერები ან ხელახლა ჩაწერეთ, თუ საჭიროა
 record-submit-tooltip = { $actionType } გადაგზავნას როცა მზად იქნებით
 clips-submitted = წარდგენილია { $count } ჩანაწერი!
 record-abort-title = ჯერ დასრულდეს ჩაწერა?
