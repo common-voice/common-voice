@@ -41,12 +41,31 @@ mk = makedoonia
 nb-NO = norra (bokmåli)
 ne-NP = nepaali
 nl = hollandi
+nn-NO = norra (nynorsk)
+pl = poola
+pt-BR = portugali (brasiilia)
+ro = rumeenia
+ru = vene
+sk = slovaki
+sl = sloveeni
+sq = albaania
+sr = serbia
+sv-SE = rootsi
+ta = tamili
+te = telugu
+th = tai
+tr = türgi
+tt = tatari
+uk = ukraina
+uz = usbeki
+zh-CN = hiina (Hiina)
 
 # [/]
 
 
 ## Layout
 
+speak = Räägi
 
 ## Home Page
 
@@ -62,6 +81,7 @@ nl = hollandi
 
 ## ProjectStatus
 
+english = inglise
 
 ## ProfileForm
 
