@@ -94,6 +94,7 @@ wall-of-text-more-desktop = Gellout a rit reiñ ho mouezh evit reiñ an dorn deo
 show-wall-of-text = Lenn muioc'h
 help-us-title = Skoazellit ac'hanomp da gadarnaat frazennoù!
 help-us-explain = Pouezit war lenn, selaou & lavarit deomp: distripet en/he deus mat ar frazenn dindan?
+no-clips-to-validate = War a seblant n'eus klip ebet da selaou evit ar yezh-mañ. Sikourit ac'hanomp da leuniañ ar steudad c'hortoz en ur enrollañ un nebeud bremañ.
 vote-yes = Ya
 vote-no = Ket
 toggle-play-tooltip = Pouezit war { shortcut-play-toggle } evit gwintañ war-du ar mod lenn
