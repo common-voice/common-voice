@@ -108,6 +108,7 @@ shortcut-skip = s
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
+shortcut-play-toggle-label = बजाउनुहो/रोक्नुहोस्
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
@@ -117,6 +118,10 @@ shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = रेकर्ड गर्नुहोस्/रोक्नुहोस्
 request-language-text = Common Voice मा तपाईँको भाषा अझै देख्नुभएन ?
 request-language-button = भाषा अनुरोध गर्नुहोस्
 
@@ -227,6 +232,7 @@ record-platform-not-supported-desktop = डेस्कटप कम्प्य
 record-platform-not-supported-ios = <bold>iOS</bold> ले प्रयोगकर्ताहरूले हाम्रो नि: शुल्क अनुप्रयोग डाउनलोड गर्न सक्छन्:
 record-must-allow-microphone = तपाईँले माइक्रोफोनको प्रयोग गर्ने अनुमति दिनुपर्छ ।
 record-retry = पुनः प्रयास गर्नुहोस्
+record-no-mic-found = कुनै माइक्रोफोन फेला परेन ।
 record-error-too-short = रेकर्डिङ निकै छोटो थियो ।
 record-error-too-long = रेकर्डिङ निकै लामो थियो ।
 record-error-too-quiet = रेकर्डिङ धेरै शान्त थियो ।
@@ -279,6 +285,7 @@ language-section-launched = सुरूवात गरियो
 languages-show-more = थप हेर्नुहोस्
 languages-show-less = थोरै हेर्नुहोस्
 language-speakers = स्पिकरहरू
+language-meter-in-progress = प्रगति
 language-total-progress = जम्मा
 language-search-input =
     .placeholder = खोजी गर्नुहोस्
@@ -287,6 +294,7 @@ language-search-input =
 
 action-click = क्लिक गर्नुहोस्
 action-tap = थिच्नुहोस्
+contribute = योगदान गर्नुहोस्
 listen = सुन्नुहोस्
 skip = छोड्नुहोस्
 shortcuts = छोटकरिहरु
@@ -316,3 +324,4 @@ listen-instruction = { $actionType }<playIcon></playIcon> के तिनीह
 listen-again-instruction = राम्रो काम! <playIcon></playIcon> तपाईं तयार भएपछि फेरि सुन्नुहोस्
 listen-3rd-time-instruction = २ वटा सकियो <playIcon></playIcon>, यसलाई जारी राख्नुहोस्!
 listen-last-time-instruction = <playIcon></playIcon> अन्तिम एक!
+share-title-new = थप आवाजहरू फेला पार्न हामीलाई <bold>सहयोग गर्नुहोस्</bold>
