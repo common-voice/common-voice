@@ -284,7 +284,7 @@ request-language-success-content = A nennadi aṭas amek ara nernu tulayt-nwen a
 
 language-section-in-progress = Ad d-iteddu
 language-section-in-progress-description = Tutlayin deg usfari ttwabnant i uttekki sɣur tirebbaɛ-nneɣ; asfari-nsent yeskan-d anida llant deg usmel n usidel akked imecwaṛen n ulqaḍ n tifyar.
-language-section-launched = Yendeh
+language-section-launched = Yekker
 language-section-launched-description = Tutlayin-agi yekkren, d tid yesɛan asmel web yettwasuqel akken iwata, tid yesɛan daɣen ddeqs n tifyar i d-yettwaleqḍen, akken ad yebdu uttekki s <italic>{ speak }</italic> akked <italic>{ listen }</italic>.
 languages-show-more = Wali ugar
 languages-show-less = Wali qqel
