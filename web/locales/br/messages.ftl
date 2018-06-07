@@ -172,6 +172,7 @@ profile-create = Krouiñ ur profil
 profile-create-success = Berzh, profil krouet!
 profile-close = Serriñ
 profile-clear-modal = Ma skarzhit roadennoù ho profil, ne vo ket kaset an titouroù poblañs ken da gCommon Voice gant hoc'h enrolladennoù son.
+profile-explanation = Dalc'hit ur roud diouzh hoc'h araokadurioù gant ur profil ha sikourit hor roadennoù mouezhiel da vezañ spisoc'h.
 
 ## FAQ
 
@@ -236,6 +237,7 @@ record-platform-not-supported-desktop = War urzhiataerioù burev e c'hallit pell
 record-platform-not-supported-ios = Implijerien <bold>iOS</bold> a c'hall pellgargañ hon arload digoust:
 record-must-allow-microphone = Ret eo deoc'h aotren ar mikrofon.
 record-retry = Klask en-dro
+record-no-mic-found = Mikrofon ebet kavet.
 record-error-too-short = Re verr e oa an enrolladenn.
 record-error-too-long = Re hir e oa an enrolladenn.
 record-error-too-quiet = Re sioul e oa an enrolladenn.
@@ -284,10 +286,13 @@ request-language-success-content = Mont a raimp e darempred ganeoc'h a-barzh nem
 ## Languages Overview
 
 language-section-in-progress = War ober
+language-section-in-progress-description = Ar yezhoù war ober a zo war sevel evit ar mare gant hor c'humuniezhioù evit gellet kemer-perzh da c'houde; o araokadenn a ziskouez pelec'h emaint en em gavet ganti war troidigezh al lec'hienn hag an dastum frazennoù.
 language-section-launched = Loc'het
+language-section-launched-description = Evit ar yezhoù loc'het-mañ al lec'hienn a zo bet lec'helaet gant berzh, ha trawalc'h a roadennoù a zo bet dastumet, evit gellet kemer-perzh dre <italic>{ speak }</italic> ha dre <italic>{ listen }</italic>.
 languages-show-more = Gouzout hiroc'h
 languages-show-less = Gwelet nebeutoc'h
 language-speakers = Komzerien
+language-meter-in-progress = War ober
 language-total-progress = Hollad
 language-search-input =
     .placeholder = Klask
@@ -296,6 +301,7 @@ language-search-input =
 
 action-click = Klikañ
 action-tap = Pouezit
+contribute = Kemer-perzh
 listen = Selaou
 skip = Mont hebioù
 shortcuts = Berradurioù
@@ -303,6 +309,7 @@ clips = Klipoù
 goal-type-record = oc'h enrollañ
 goal-type-validation = kadarnaat
 toward-goal = Hemañ eo <goalPercentage></goalPercentage>pal Common Voice{ $goalType } hiziv. Trugarez deoc'h
+goal-help = Sikouret ho peus Common Voice da dizhout <goalPercentage></goalPercentage> war e bal pemdeziek { $goalType }!
 contribute-more = Prest d'ober { $count } ouzhpenn?
 record-cta = Kregiñ da enrollañ
 record-instruction = { $actionType }<recordIcon></recordIcon> da c'houde, lennit ar frazenn a vouezh uhel
@@ -325,3 +332,4 @@ listen-instruction = { $actionType }<playIcon></playIcon> ha distripet mat eo be
 listen-again-instruction = Labour vat! <playIcon></playIcon> Adselaou pa viot prest
 listen-3rd-time-instruction = 2 graet <playIcon></playIcon> , dalc'hit da vont!
 listen-last-time-instruction = <playIcon></playIcon> An hini ziwezhañ!
+share-title-new = <bold>Sikourit ac'hanomp</bold> da gavout muioc'h a vouezhioù
