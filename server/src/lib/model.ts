@@ -1,7 +1,6 @@
 const contributableLocales = require('../../../locales/contributable.json') as string[];
 import DB, { Sentence } from './model/db';
 import { DBClipWithVoters } from './model/db/tables/clip-table';
-import Cache from './cache';
 import {
   IDEAL_SPLIT,
   randomBucketFromDistribution,
@@ -14,28 +13,6 @@ import {
  */
 export default class Model {
   db = new DB();
-  clipCache: Map<string, Cache<DBClipWithVoters>> = new Map(
-    contributableLocales.map(locale => [
-      locale,
-      new Cache(
-        count => this.db.findClipsWithFewVotes(locale, count),
-        clip => clip.id
-      ),
-    ]) as any
-  );
-  sentencesCaches: Map<string, Map<string, Cache<Sentence>>> = new Map(
-    contributableLocales.map(locale => [
-      locale,
-      new Map(Object.keys(IDEAL_SPLIT).map(bucket => [
-        bucket,
-        new Cache(
-          count => this.db.findSentencesWithFewClips(bucket, locale, count),
-          null,
-          100
-        ),
-      ]) as any),
-    ]) as any
-  );
   clipDistribution: Split = IDEAL_SPLIT;
 
   constructor() {
@@ -59,13 +36,7 @@ export default class Model {
     locale: string,
     count: number
   ): Promise<DBClipWithVoters[]> {
-    return this.clipCache
-      .get(locale)
-      .takeWhere(
-        clip =>
-          clip.client_id !== client_id && !clip.voters.includes(client_id),
-        count
-      );
+    return this.db.findClipsWithFewVotes(client_id, locale, count)
   }
 
   async findEligibleSentences(
@@ -78,8 +49,7 @@ export default class Model {
       locale,
       randomBucketFromDistribution(this.clipDistribution)
     );
-    const localeCache = this.sentencesCaches.get(locale);
-    return localeCache ? localeCache.get(bucket || 'train').take(count) : [];
+    return this.db.findSentencesWithFewClips(client_id, bucket, locale, count)
   }
 
   /**

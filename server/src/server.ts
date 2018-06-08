@@ -221,8 +221,6 @@ export default class Server {
 
     try {
       await this.model.performMaintenance();
-      // await this.model.db.fillCacheColumns();
-      await this.model.db.migrateAccents();
       if (doImport) {
         await importSentences(await this.model.db.mysql.createPool());
       }

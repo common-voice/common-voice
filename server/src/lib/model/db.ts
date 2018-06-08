@@ -218,44 +218,45 @@ export default class DB {
   }
 
   async findSentencesWithFewClips(
+    client_id: string,
     bucket: string,
     locale: string,
     count: number
   ): Promise<Sentence[]> {
     const [rows] = await this.mysql.query(
       `
-        SELECT sentences.id, text
+        SELECT id, text
         FROM sentences
-        LEFT JOIN clips ON sentences.id = clips.original_sentence_id
-        WHERE sentences.is_used AND sentences.bucket = ? AND sentences.locale_id = ?
-        GROUP BY sentences.id
-        ORDER BY COUNT(clips.id) ASC
+        WHERE is_used AND bucket = ? AND locale_id = ? AND NOT EXISTS (
+          SELECT *
+          FROM clips
+          WHERE clips.original_sentence_id = sentences.id AND clips.client_id = ?
+        )
+        ORDER BY clips_count ASC
         LIMIT ?
       `,
-      [bucket, await this.getLocaleId(locale), count]
+      [bucket, await this.getLocaleId(locale), client_id, count]
     );
     return (rows || []).map(({ id, text }: any) => ({ id, text }));
   }
 
   async findClipsWithFewVotes(
+    client_id: string,
     locale: string,
     limit: number
   ): Promise<DBClipWithVoters[]> {
     const [clips] = await this.mysql.query(
       `
-      SELECT clips.*,
-        GROUP_CONCAT(votes.client_id) AS voters,
-        COALESCE(SUM(votes.is_valid), 0) AS upvotes_count,
-        COALESCE(SUM(NOT votes.is_valid), 0) AS downvotes_count
+      SELECT *
       FROM clips
-      LEFT JOIN votes ON clips.id = votes.clip_id
-      WHERE clips.locale_id = ?
-      GROUP BY clips.id
-      HAVING upvotes_count < 2 AND downvotes_count < 2 OR upvotes_count = downvotes_count
-      ORDER BY upvotes_count DESC, downvotes_count DESC
+      WHERE needs_votes AND locale_id = ? AND client_id <> ? AND NOT EXISTS (
+        SELECT *
+        FROM votes
+        WHERE votes.clip_id = clips.id AND client_id = ?
+      )
       LIMIT ?
     `,
-      [await this.getLocaleId(locale), limit]
+      [await this.getLocaleId(locale), client_id, client_id, limit]
     );
     for (const clip of clips) {
       clip.voters = clip.voters ? clip.voters.split(',') : [];
@@ -279,6 +280,29 @@ export default class DB {
     `,
       [id, client_id, is_valid ? 1 : 0]
     );
+    const [[row]] = await this.mysql.query(
+      `
+       SELECT
+         COALESCE(SUM(votes.is_valid), 0)     AS upvotes_count,
+         COALESCE(SUM(NOT votes.is_valid), 0) AS downvotes_count
+       FROM clips
+         LEFT JOIN votes ON clips.id = votes.clip_id
+       WHERE clips.id = ?
+       GROUP BY clips.id
+       HAVING upvotes_count < 2 AND downvotes_count < 2 OR upvotes_count = downvotes_count
+      `,
+      [id]
+    );
+
+    if (!row)
+      await this.mysql.query(
+        `
+        UPDATE clips
+        SET needs_votes = FALSE
+        WHERE id = ?
+      `,
+        [id]
+      );
   }
 
   async saveClip({
@@ -308,6 +332,12 @@ export default class DB {
           VALUES (?, ?, ?, ?, ?, ?)
       `,
       [client_id, sentenceId, path, sentence, localeId, bucket]
+    );
+    await this.mysql.query(
+      `
+        UPDATE sentences SET clips_count = clips_count + 1 WHERE id = ?
+      `,
+      [sentenceId]
     );
     const [[row]] = await this.mysql.query(
       'SELECT * FROM clips WHERE id = LAST_INSERT_ID()'
@@ -406,38 +436,6 @@ export default class DB {
     return row;
   }
 
-  async fillCacheColumns() {
-    await Promise.all([
-      this.mysql.query(
-        `
-          UPDATE clips
-          SET needs_votes = id IN (
-            SELECT t.id
-            FROM (
-              SELECT
-                clips.id,
-                COALESCE(SUM(votes.is_valid), 0)     AS upvotes_count,
-                COALESCE(SUM(NOT votes.is_valid), 0) AS downvotes_count
-              FROM clips
-                LEFT JOIN votes ON clips.id = votes.clip_id
-              GROUP BY clips.id
-              HAVING upvotes_count < 2 AND downvotes_count < 2 OR upvotes_count = downvotes_count
-            ) t
-          )
-        `
-      ),
-      this.mysql.query(
-        `
-          UPDATE sentences SET clips_count = (
-            SELECT COUNT(clips.id)
-            FROM clips
-            WHERE original_sentence_id = sentences.id
-          )
-        `
-      ),
-    ]);
-  }
-
   async getDailyClipsCount() {
     return (await this.mysql.query(
       `
@@ -456,18 +454,6 @@ export default class DB {
         WHERE created_at >= CURDATE() AND created_at < CURDATE() + INTERVAL 1 DAY
       `
     ))[0][0].count;
-  }
-
-  async migrateAccents() {
-    await this.mysql.query(
-      `
-        INSERT IGNORE INTO user_client_accents (client_id, locale_id, accent)  (
-          SELECT client_id, 1 AS locale_id, accent
-          FROM user_clients
-          WHERE accent IS NOT NULL AND accent <> ''
-        )
-      `
-    );
   }
 
   async saveAccents(client_id: string, accents: { [locale: string]: string }) {
