@@ -8,6 +8,10 @@ import UserClientTable from './db/tables/user-client-table';
 import ClipTable, { DBClip, DBClipWithVoters } from './db/tables/clip-table';
 import VoteTable from './db/tables/vote-table';
 
+// When getting new sentences/clips we need to fetch a larger pool and shuffle it to make it less
+// likely that different users requesting at the same time get the same data
+const SHUFFLE_SIZE = 1000;
+
 export interface Sentence {
   id: string;
   text: string;
@@ -225,17 +229,22 @@ export default class DB {
   ): Promise<Sentence[]> {
     const [rows] = await this.mysql.query(
       `
-        SELECT id, text
-        FROM sentences
-        WHERE is_used AND bucket = ? AND locale_id = ? AND NOT EXISTS (
-          SELECT *
-          FROM clips
-          WHERE clips.original_sentence_id = sentences.id AND clips.client_id = ?
-        )
-        ORDER BY clips_count ASC
+        SELECT *
+        FROM (
+          SELECT id, text
+          FROM sentences
+          WHERE is_used AND bucket = ? AND locale_id = ? AND NOT EXISTS(
+            SELECT *
+            FROM clips
+            WHERE clips.original_sentence_id = sentences.id AND clips.client_id = ?
+          )
+          ORDER BY clips_count ASC
+          LIMIT ?
+        ) t
+        ORDER BY RAND()
         LIMIT ?
       `,
-      [bucket, await this.getLocaleId(locale), client_id, count]
+      [bucket, await this.getLocaleId(locale), client_id, SHUFFLE_SIZE, count]
     );
     return (rows || []).map(({ id, text }: any) => ({ id, text }));
   }
@@ -243,20 +252,31 @@ export default class DB {
   async findClipsWithFewVotes(
     client_id: string,
     locale: string,
-    limit: number
+    count: number
   ): Promise<DBClipWithVoters[]> {
     const [clips] = await this.mysql.query(
       `
       SELECT *
-      FROM clips
-      WHERE needs_votes AND locale_id = ? AND client_id <> ? AND NOT EXISTS (
+      FROM (
         SELECT *
-        FROM votes
-        WHERE votes.clip_id = clips.id AND client_id = ?
-      )
+        FROM clips
+        WHERE needs_votes AND locale_id = ? AND client_id <> ? AND NOT EXISTS(
+          SELECT *
+          FROM votes
+          WHERE votes.clip_id = clips.id AND client_id = ?
+        )
+        LIMIT ?
+      ) t
+      ORDER BY RAND()
       LIMIT ?
     `,
-      [await this.getLocaleId(locale), client_id, client_id, limit]
+      [
+        await this.getLocaleId(locale),
+        client_id,
+        client_id,
+        SHUFFLE_SIZE,
+        count,
+      ]
     );
     for (const clip of clips) {
       clip.voters = clip.voters ? clip.voters.split(',') : [];
