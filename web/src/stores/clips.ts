@@ -145,7 +145,10 @@ export namespace Clips {
         return {
           ...state,
           [locale]: {
-            clips,
+            clips: clips.filter(
+              (clip1, i) =>
+                clips.findIndex(clip2 => clip2.id === clip1.id) === i
+            ),
             isLoading: false,
             next,
           },

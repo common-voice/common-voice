@@ -185,11 +185,18 @@ export namespace Recordings {
         };
 
       case ActionType.REFILL_SENTENCES:
+        const sentenceIds = localeState.sentences
+          .map(s => s.id)
+          .concat(
+            localeState.sentenceRecordings.map(({ sentence }) => sentence.id)
+          );
         return {
           ...state,
           [locale]: {
             ...localeState,
-            sentences: localeState.sentences.concat(action.sentences),
+            sentences: localeState.sentences.concat(
+              action.sentences.filter(({ id }) => !sentenceIds.includes(id))
+            ),
           },
         };
 
