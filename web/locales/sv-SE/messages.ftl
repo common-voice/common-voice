@@ -285,6 +285,7 @@ language-section-launched = Lanserad
 languages-show-more = Läs mer
 languages-show-less = Visa mindre
 language-speakers = Talas av
+language-meter-in-progress = Förlopp
 language-total-progress = Totalt
 language-search-input =
     .placeholder = Sök
