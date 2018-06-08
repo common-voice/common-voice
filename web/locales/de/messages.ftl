@@ -97,7 +97,7 @@ help-us-explain = Drücken Sie Play, hören Sie zu & erzählen Sie uns: Wurde de
 no-clips-to-validate = Sieht so aus, als gäbe es keine Aufnahmen mehr, die Sie bestätigen könnten. Helfen Sie uns dabei die Warteschlange wieder aufzufüllen, indem Sie jetzt selbst etwas aufnehmen.
 vote-yes = Ja
 vote-no = Nein
-toggle-play-tooltip = Drücken Sie für Play/Pause { shortcut-play-toggle }
+toggle-play-tooltip = Drücken Sie für Play/Stop { shortcut-play-toggle }
 
 ## Speak & Listen Shortcuts
 
@@ -109,7 +109,7 @@ shortcut-skip = s
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
-shortcut-play-toggle-label = Play/Pause
+shortcut-play-toggle-label = Play/Stop
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = j
