@@ -959,7 +959,7 @@ Magnetische Felder sind quellenfrei.
 Unsere Kinder glauben noch ans Christkind.
 Der Anfängerkurs ist mir zu leicht und der Fortgeschrittenenkurs zu anspruchsvoll.
 Derzeit sind uns noch die Hände gebunden.
-Der Erweiterung des Gebäudes wurde von Anfang an geplant.
+Die Erweiterung des Gebäudes wurde von Anfang an geplant.
 Die Kosten für den Anbau sind nach meiner Kalkulation überschaubar.
 Der operative Gewinn beträgt fast eine Milliarde Dollar.
 Eines der Wahlversprechen war, verstärkt gegen Steuerhinterziehung vorzugehen.
@@ -4144,7 +4144,7 @@ Habe ich denn eine Wahl?
 Die Zeichenkodierung kommt nicht mit Umlauten klar.
 Für Quelltext ist bitte immer die UTF-acht-Kodierung zu verwenden.
 Meine Erinnerung daran ist schon sehr verblasst.
-Aus Mitleid kaufte Henrike dem frierendem Obdachlosen eine Jacke.
+Aus Mitleid kaufte Henrike dem frierenden Obdachlosen eine Jacke.
 Der Hausmeister hat uns gerade noch gefehlt.
 Ich gebe zu, dass es ein unkonventionelles Verkehrsmittel ist.
 Aber ohne meinen Raketenrucksack fühle ich mich wie ein Sterblicher.
@@ -4181,7 +4181,7 @@ Wie läuft eure Spedition?
 Eher schlecht als recht.
 Ein Sieg würde sie an die Spitze der Tabelle katapultieren.
 Was ist das für ein Gewürz?
-Zum Schluss kommt noch eine Priese Salz hinzu.
+Zum Schluss kommt noch eine Prise Salz hinzu.
 An der Küste weht immer eine steife Brise.
 Heute haben wir Windstärke fünf mit teils orkanartigen Böen.
 Aus etwas Pappe könnt ihr euch das auch selber basteln.
