@@ -1,5 +1,6 @@
 ## Languages
 
+contribute = Prispevaj
 get-involved-button = Pridružite se
 get-involved-form-title = Prijavite se na obvestila za { $lang }:
 get-involved-email =

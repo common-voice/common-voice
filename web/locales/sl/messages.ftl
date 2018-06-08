@@ -8,7 +8,6 @@ email-input =
     .label = Elektronski naslov
 submit-form-action = Pošlji
 loading = Nalaganje …
-audio-loading-error = Oprostite! Trenutno obdelujemo zvočne datoteke, poizkusite znova čez nekaj trenutkov.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -27,6 +26,7 @@ de = nemščina
 el = grščina
 en = angleščina
 es = španščina
+et = estonščina
 fr = francoščina
 fy-NL = frizijščina
 ga-IE = irščina
@@ -35,7 +35,9 @@ hu = madžarščina
 id = indonezijščina
 it = italijanščina
 ka = gruzinščina
+kab = kabilščina
 ko = korejščina
+kw = kornijščina
 mk = makedonščina
 nb-NO = norveščina (bokmål)
 ne-NP = nepalščina
@@ -132,7 +134,6 @@ profile-form-username =
     .label = Uporabniško ime
 profile-form-language =
     .label = Jezik
-profile-form-more-languages = Kmalu bo na voljo več jezikov!
 profile-form-accent =
     .label = Naglas
 profile-form-age =
@@ -217,6 +218,7 @@ review-terms = Z uporabo Common Voice se strinjate z našimi <termsLink>pogoji</
 terms-agree = Strinjam se
 terms-disagree = Ne strinjam se
 review-aborted = Pošiljanje je preklicano. Želite svoje posnetke izbrisati?
+review-submit-title = Poslušajte in pošljite
 review-rerecord = Posnemite ponovno
 review-cancel = Prekliči pošiljanje
 review-keep-recordings = Ohrani posnetke
@@ -261,10 +263,22 @@ language-search-input =
 
 ## New Contribution
 
+contribute = Prispevaj
+listen = Poslušaj
 skip = Preskoči
 shortcuts = Bližnjice
+clips = Posnetki
+goal-type-record = snemanje
+goal-type-validation = preverjanje
 record-cta = Začni snemati
 record-three-more-instruction = Še tri!
+clips-submitted =
+    { $count ->
+        [one] { $count } posnetek poslan
+        [two] { $count } posnetka poslana
+        [few] { $count } posnetki poslani
+       *[other] { $count } posnetkov poslanih
+    }
 record-abort-submit = Pošlji posnetke
 record-abort-continue = Končaj snemanje
 record-abort-delete = Izhod in brisanje posnetkov
