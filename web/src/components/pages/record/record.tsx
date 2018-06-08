@@ -213,7 +213,7 @@ class RecordPage extends React.Component<RecordProps, RecordState> {
     }
 
     this.props.setRecording(
-      Object.keys(sentenceRecordings)[recordingsCount - 1],
+      sentenceRecordings[recordingsCount - 1].sentence.id,
       null
     );
     this.setState({

@@ -36,7 +36,11 @@ export default class Model {
     locale: string,
     count: number
   ): Promise<DBClipWithVoters[]> {
-    return this.db.findClipsWithFewVotes(client_id, locale, Math.min(count, 50));
+    return this.db.findClipsWithFewVotes(
+      client_id,
+      locale,
+      Math.min(count, 50)
+    );
   }
 
   async findEligibleSentences(
@@ -49,7 +53,12 @@ export default class Model {
       locale,
       randomBucketFromDistribution(this.clipDistribution)
     );
-    return this.db.findSentencesWithFewClips(client_id, bucket, locale, Math.min(count, 50));
+    return this.db.findSentencesWithFewClips(
+      client_id,
+      bucket,
+      locale,
+      Math.min(count, 50)
+    );
   }
 
   /**
