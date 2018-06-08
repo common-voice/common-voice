@@ -108,8 +108,8 @@ shortcut-skip = s
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-play-toggle = w
-shortcut-play-toggle-label = Abspielen/Stoppen
+shortcut-play-toggle = p
+shortcut-play-toggle-label = Play/Pause
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = j
@@ -122,7 +122,7 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = a
-shortcut-record-toggle-label = Aufnehmen/Stoppen
+shortcut-record-toggle-label = Aufnahme/Abbruch
 request-language-text = Ihre Sprache wird bei Common Voice noch nicht aufgeführt? Da lässt sich was machen!
 request-language-button = Anfrage schicken
 
@@ -318,9 +318,9 @@ record-last-instruction = <recordIcon></recordIcon> Die Letzte!
 review-tooltip = Hier können Sie Aufzeichnungen überprüfen und erneut aufnehmen
 unable-speak = Aktuell können Sie nicht sprechen
 review-instruction = Falls nötig, können Sie Aufzeichnungen überprüfen und erneut aufnehmen
-record-submit-tooltip = { $actionType } Übermitteln, wenn Sie fertig sind
+record-submit-tooltip = { $actionType } Senden, wenn Sie fertig sind
 clips-submitted = { $count } Aufzeichnungen übermittelt!
-record-abort-title = Beenden Sie erst die Aufnahme?
+record-abort-title = Zuerst Aufnahme vervollständigen?
 record-abort-text = Wenn Sie jetzt abbrechen, geht Ihr Fortschritt verloren
 record-abort-submit = Aufzeichnungen übermitteln
 record-abort-continue = Aufnahme abschließen
