@@ -13,7 +13,6 @@ function track(
   action: string,
   locale?: string
 ) {
-  console.log(arguments);
   if (isProduction() && typeof ga === 'function') {
     ga('send', 'event', category, action, locale);
   }
