@@ -283,10 +283,13 @@ request-language-success-content = Estaremos en contacto con más información s
 ## Languages Overview
 
 language-section-in-progress = En proceso
+language-section-in-progress-description = Son nuestras comunidades las que crean los idiomas en progreso; es decir, en qué fase se encuentran del proceso de localización web y de la recopilación de frases.
 language-section-launched = Lanzados
+language-section-launched-description = Para estos idiomas, el sitio web se ha localizado con éxito y se han recopilado suficientes oraciones para permitir una contribución continua de <italic> { speak } </ italic> y <italic> { listen } </ italic>.
 languages-show-more = Ver más
 languages-show-less = Ver menos
 language-speakers = Hablantes
+language-meter-in-progress = Progreso
 language-total-progress = Total
 language-search-input =
     .placeholder = Buscar
@@ -295,6 +298,7 @@ language-search-input =
 
 action-click = Clic
 action-tap = Seleccionar
+contribute = Colaborar
 listen = Escuchar
 skip = Saltar
 shortcuts = Accesos directos
@@ -302,6 +306,7 @@ clips = Grabaciones
 goal-type-record = grabando
 goal-type-validation = validación
 toward-goal = Queda un <goalPercentage></goalPercentage> para alcanzar el reto { $goalType } de hoy de Common Voice. Gracias
+goal-help = ¡Has ayudado a Common Voice a alcanzar un <goalPercentage></goalPercentage> de su meta diaria de { $goalType }!
 contribute-more = ¿Listo para hacer { $count } más?
 record-cta = Empezar a grabar
 record-instruction = { $actionType } <recordIcon> </recordIcon> y después lee la frase en alto
@@ -324,3 +329,4 @@ listen-instruction = { $actionType } <playIcon></playIcon> ¿han dicho la frase 
 listen-again-instruction = ¡Buen trabajo! <playIcon></playIcon> Escucha de nuevo cuando estés preparado
 listen-3rd-time-instruction = Dos menos <playIcon></playIcon>, ¡sigue así!
 listen-last-time-instruction = <playIcon></playIcon> ¡La última!
+share-title-new = <bold>Ayúdanos</bold> a encontrar más voces.
