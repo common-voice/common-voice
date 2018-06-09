@@ -102,7 +102,7 @@ toggle-play-tooltip = Drücken Sie für Play/Stop { shortcut-play-toggle }
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
-shortcut-skip = s
+shortcut-skip = ü
 
 ## Listen Shortcuts
 
@@ -188,7 +188,7 @@ faq-firefox-q = Wird es irgendwann in Firefox eine Diktierfunktion auf Basis von
 faq-firefox-a = Common Voice hat grenzenloses Potenzial und wir erforschen in der Tat Sprachschnittstellen in vielen Mozilla-Produkten, u.a. Firefox.
 faq-quality-q = Wie hoch muss die Qualität der Tonaufnahme sein, um verwendet werden zu können?
 faq-quality-a = Wir wollen, dass die Qualität der Aufnahme die Qualität widerspiegelt, mit der eine Spracherkennungssoftware auch in der freien Wildbahn zu tun haben wird. Eine große Vielfalt ist also durchaus erwünscht. Dies bringt der Spracherkennungssoftware bei, mit diversen Situationen—Hintergrundgesprächen, Autolärm, Lüftergeräuschen—fehlerfrei umzugehen.
-faq-hours-q = Weshalb werden 10 000 Stunden an Tonaufnahmen angepeilt?
+faq-hours-q = Weshalb werden 10&thinsp;000 Stunden an Tonaufnahmen angepeilt?
 faq-hours-a = Dies ist ungefähr die Anzahl an Stunden, die notwendig ist, um ein produktiv einsetzbares Spracherkennungssystem zu trainieren.
 faq-source-q = Wo kommen die ursprünglichen Texte her?
 faq-source-a1 = Die aktuellen Sätze wurden von Mitwirkenden beigesteuert, sowie aus Dialogen gemeinfreier Filmdrehbücher wie <italic>It’s a Wonderful Life</italic> entnommen.
@@ -305,16 +305,14 @@ shortcuts = Tastenkombinationen
 clips = Aufzeichnungen
 goal-type-record = Aufnahme
 goal-type-validation = Überprüfung
-toward-goal = Damit sind <goalPercentage></goalPercentage> vom heutigen Common-Voice-Ziel { $goalType } erreicht. Vielen Dank
-goal-help = Sie haben Common Voice geholen, <goalPercentage></goalPercentage> seines täglichen Ziels { $goalType } zu erreichen!
 contribute-more = Bereit { $count } weitere zu machen?
 record-cta = Aufzeichnung starten
 record-instruction = <recordIcon></recordIcon> { $actionType } - Lesen Sie den Satz laut vor
 record-stop-instruction = <stopIcon></stopIcon> { $actionType }, wenn Sie fertig sind
 record-three-more-instruction = Noch drei!
 record-again-instruction = Toll! <recordIcon></recordIcon> Nehmen Sie jetzt noch mehr auf
-record-again-instruction2 = Weiter so, erneut aufnehmen <recordIcon></recordIcon>
-record-last-instruction = <recordIcon></recordIcon> Die Letzte!
+record-again-instruction2 = Weiter so, <recordIcon></recordIcon> erneut aufnehmen
+record-last-instruction = <recordIcon></recordIcon> Einmal noch!
 review-tooltip = Hier können Sie Aufzeichnungen überprüfen und erneut aufnehmen
 unable-speak = Ich kann gerade nicht reden
 review-instruction = Falls nötig, können Sie Aufzeichnungen überprüfen und erneut aufnehmen
@@ -326,7 +324,7 @@ record-abort-submit = Aufzeichnungen übertragen
 record-abort-continue = Weitermachen
 record-abort-delete = Beenden und Aufzeichnungen löschen
 listen-instruction = <playIcon></playIcon> { $actionType } - Wurde der Satz korrekt ausgesprochen?
-listen-again-instruction = Gut so! <playIcon></playIcon> Hören Sie sich den Satz erneut an, wenn Sie soweit sind
-listen-3rd-time-instruction = Zwei erledigt <playIcon></playIcon>, weiter so!
-listen-last-time-instruction = <playIcon></playIcon> Die Letzte!
+listen-again-instruction = Gut so! <playIcon></playIcon> Machen Sie einfach weiter, wenn Ihnen danach ist
+listen-3rd-time-instruction = Zwei erledigt, <playIcon></playIcon> weiter so!
+listen-last-time-instruction = <playIcon></playIcon> Einmal noch!
 share-title-new = <bold>Helfen Sie uns</bold> dabei mehr Stimmen zu finden
