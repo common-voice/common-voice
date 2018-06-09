@@ -8,7 +8,6 @@ email-input =
     .label = Correo
 submit-form-action = Enviar
 loading = Cargando…
-audio-loading-error = ¡Lo sentimos! Estamos procesando nuestros archivos de audio, por favor vuelve a intentarlo dentro de poco.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -27,6 +26,7 @@ de = Alemán
 el = Griego
 en = Inglés
 es = Español
+et = Estonio
 fr = Francés
 fy-NL = Frisón
 ga-IE = Irlandés
@@ -69,6 +69,7 @@ zh-TW = Chino (Taiwán)
 ## Layout
 
 speak = Hablar
+speak-now = Habla ahora
 datasets = Archivos de datos
 languages = Idiomas
 profile = Perfil
@@ -93,21 +94,35 @@ wall-of-text-more-desktop = Ahora puedes donar tu voz para ayudarnos a construir
 show-wall-of-text = Leer más
 help-us-title = ¡Ayúdanos a verificar oraciones!
 help-us-explain = Presiona reproducir, escucha y cuéntanos: ¿dijeron con precisión la oración anterior?
+no-clips-to-validate = Parece que no hay grabaciones para escuchar en este idioma. Ayúdanos a llenar la lista grabando alguna ahora.
 vote-yes = Sí
 vote-no = No
 toggle-play-tooltip = Presiona { shortcut-play-toggle } para activar el modo de reproducción
 
-## Shortcuts
+## Speak & Listen Shortcuts
 
-# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
-# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = h
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = r
+shortcut-play-toggle-label = Reproducir/Detener
 # Must be one letter that appears in the { vote-yes } string.
-# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = s
 # Must be one letter that appears in the { vote-no } string.
-# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Speak Shortcuts
+
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = g
+shortcut-record-toggle-label = Grabar/Detener
 request-language-text = ¿Aún no encuentras tu idioma en Common Voice?
 request-language-button = Solicitar un idioma
 
@@ -133,7 +148,6 @@ profile-form-username =
     .label = Nombre de usuario
 profile-form-language =
     .label = Idioma
-profile-form-more-languages = ¡Próximamente más idiomas!
 profile-form-accent =
     .label = Acento
 profile-form-age =
@@ -155,6 +169,7 @@ profile-create = Crear un perfil
 profile-create-success = Hecho, ¡perfil creado!
 profile-close = Cerrar
 profile-clear-modal = Limpiar los datos del perfil implica que tu información demográfica ya no será enviada a Common Voice junto con tus grabaciones.
+profile-explanation = Ve tu progreso con un perfil y ayuda a nuestros datos de voz a ser más precisos.
 
 ## FAQ
 
@@ -251,7 +266,6 @@ download-no = No, gracias
 ## Contact Modal
 
 contact-title = Formulario de contacto
-contact-cancel = Cancelar
 contact-form-name =
     .label = Nombre
 contact-form-message =
