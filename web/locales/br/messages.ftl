@@ -109,7 +109,7 @@ shortcut-skip = s
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
-shortcut-play-toggle-label = Lenn/Stop
+shortcut-play-toggle-label = Lenn/Paouez
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
@@ -122,7 +122,7 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
-shortcut-record-toggle-label = Enrolliñ/Stop
+shortcut-record-toggle-label = Enrollañ/Paouez
 request-language-text = Ne welit ket ho yezh e Common Voice evit ar mare?
 request-language-button = Goulenn ouzhpennañ ur yezh
 
@@ -172,7 +172,7 @@ profile-create = Krouiñ ur profil
 profile-create-success = Berzh, profil krouet!
 profile-close = Serriñ
 profile-clear-modal = Ma skarzhit roadennoù ho profil, ne vo ket kaset an titouroù poblañs ken da gCommon Voice gant hoc'h enrolladennoù son.
-profile-explanation = Dalc'hit ur roud diouzh hoc'h araokadurioù gant ur profil ha sikourit hor roadennoù mouezhiel da vezañ spisoc'h.
+profile-explanation = Dalc'hit ur roud diouzh hoc'h araokadurioù gant ur profil ha sikourit hor roadennoù mouezh da vezañ resisoc'h.
 
 ## FAQ
 
@@ -286,9 +286,9 @@ request-language-success-content = Mont a raimp e darempred ganeoc'h a-barzh nem
 ## Languages Overview
 
 language-section-in-progress = War ober
-language-section-in-progress-description = Ar yezhoù war ober a zo war sevel evit ar mare gant hor c'humuniezhioù evit gellet kemer-perzh da c'houde; o araokadenn a ziskouez pelec'h emaint en em gavet ganti war troidigezh al lec'hienn hag an dastum frazennoù.
+language-section-in-progress-description = Ar yezhoù war ober a zo war sevel evit ar mare gant hor c'humuniezhioù evit gallout kemer-perzh da c'houde; o araokadenn a ziskouez pelec'h emaint en em gavet ganti war droidigezh al lec'hienn hag an dastum frazennoù.
 language-section-launched = Loc'het
-language-section-launched-description = Evit ar yezhoù loc'het-mañ al lec'hienn a zo bet lec'helaet gant berzh, ha trawalc'h a roadennoù a zo bet dastumet, evit gellet kemer-perzh dre <italic>{ speak }</italic> ha dre <italic>{ listen }</italic>.
+language-section-launched-description = Al lec'hienn a zo bet lec'helaet gant berzh evit ar yezhoù loc'het-mañ, ha trawalc'h a roadennoù a zo bet dastumet, evit gallout kemer-perzh dre <italic>{ speak }</italic> ha dre <italic>{ listen }</italic>.
 languages-show-more = Gouzout hiroc'h
 languages-show-less = Gwelet nebeutoc'h
 language-speakers = Komzerien
