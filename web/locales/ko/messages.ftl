@@ -144,6 +144,31 @@ english = 영어
 ## ProfileForm
 
 profile-form-cancel = 서식 나가기
+profile-form-delete = 프로필 지우기
+profile-form-username =
+    .label = 사용자 이름
+profile-form-language =
+    .label = 언어
+profile-form-accent =
+    .label = 억양
+profile-form-age =
+    .label = 나이
+profile-form-gender =
+    .label = 성별
+profile-form-submit-save = 저장
+profile-form-submit-saved = 저장됨
+profile-keep-data = 데이터 보관
+profile-delete-data = 데이터 지우기
+male = 남자
+female = 여자
+# Gender
+other = 그외
+why-profile-title = 왜 사용자 정보가 필요한가요?
+why-profile-text = 사용자에 대한 정보를 제공함으로써 Common Voice에 제출하는 오디오 데이터는 이 데이터를 사용하여 정확성을 향상시키는 음성 인식 엔진에 더 유용하게 사용됩니다.
+edit-profile = 프로필 고치기
+profile-create = 프로필 만들기
+profile-create-success = 성공, 프로필이 만들어졌습니다!
+profile-close = 닫기
 
 ## FAQ
 
