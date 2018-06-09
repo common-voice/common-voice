@@ -69,6 +69,11 @@ datasets = 데이타셋
 languages = 언어
 profile = 프로필
 help = 도움말
+contact = 연락처
+privacy = 개인 정보
+terms = 이용 약관
+cookies = 쿠키
+faq = 자주 묻는 질문
 
 ## Home Page
 
