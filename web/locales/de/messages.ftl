@@ -80,14 +80,14 @@ terms = Nutzungsbedingungen
 cookies = Cookies
 faq = FAQ
 content-license-text = Inhalte stehen unter einer <licenseLink>Creative-Commons-Lizenz</licenseLink>
-share-title = Überzeugen Sie auch andere, mit Ihrer Stimme beizutragen!
+share-title = Überzeugen Sie auch andere, ihre Stimme zu spenden!
 share-text = Zeigt Maschinen, wie echte Menschen sprechen und spendet eure Stimme auf { $link }!
 back-top = Zum Seitenanfang
 
 ## Home Page
 
 home-title = Das Common-Voice-Projekt ist eine Initiative von Mozilla, die dabei helfen soll Maschinen beizubringen, wie echte Menschen sprechen.
-home-cta = Mund aufmachen, Projekt unterstützen, Beitrag leisten!
+home-cta = Mund aufmachen, Projekt unterstützen, mitarbeiten!
 wall-of-text-start = Sprache ist natürlich, Sprache ist menschlich. Deshalb sind wir davon fasziniert, brauchbare Technologien zur Spracherkennung für unsere Geräte zu erschaffen. Allerdings wird zur Entwicklung sprachbasierter Systeme eine sehr große Menge an Aufnahmen von gesprochener Sprache benötigt.
 wall-of-text-more-mobile = Der überwiegende Teil der von großen Unternehmen genutzten Daten ist für die Mehrheit der Menschen jedoch nicht zugänglich. Wir glauben, dass dadurch Innovation unterbunden wird. Aus diesem Grund haben wir das Projekt Common Voice ins Leben gerufen, ein Projekt, das dabei hilft, Spracherkennung für jeden zugänglich zu machen.
 wall-of-text-more-desktop = Nun ist es an Ihnen! Helfen Sie uns, indem Sie Ihre Stimme spenden, eine gemeinfreie Sprachdatenbank aufzubauen, mit der jeder von nun an innovative Geräte- oder Webanwendungen erschaffen kann.<lineBreak></lineBreak>Lesen Sie einen Satz vor, um Maschinen ein Verständnis davon zu geben, wie echte Menschen sprechen. Überprüfen Sie die Arbeit anderer, die bereits mitgewirkt haben, um die Qualität der Datenbasis zu steigern. Und das ist auch schon alles!
@@ -129,7 +129,7 @@ request-language-button = Anfrage schicken
 ## ProjectStatus
 
 status-title = Projektstatus-Übersicht: so weit haben wir es schon geschafft!
-status-contribute = Mit Ihrer Stimme beitragen
+status-contribute = Spenden Sie Ihre Stimme
 status-hours =
     { $hours ->
         [one] Bereits eine validierte Stunde!
@@ -298,7 +298,7 @@ language-search-input =
 
 action-click = Klicken
 action-tap = Berühren
-contribute = Mitwirken
+contribute = Mitarbeiten
 listen = Anhören
 skip = Überspringen
 shortcuts = Tastenkombinationen
@@ -316,7 +316,7 @@ record-again-instruction = Toll! <recordIcon></recordIcon> Nehmen Sie jetzt noch
 record-again-instruction2 = Weiter so, erneut aufnehmen <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Die Letzte!
 review-tooltip = Hier können Sie Aufzeichnungen überprüfen und erneut aufnehmen
-unable-speak = Aktuell können Sie nicht sprechen
+unable-speak = Ich kann gerade nicht reden
 review-instruction = Falls nötig, können Sie Aufzeichnungen überprüfen und erneut aufnehmen
 record-submit-tooltip = { $actionType } Senden, wenn Sie fertig sind
 clips-submitted = { $count } Aufzeichnungen übertragen!
