@@ -169,6 +169,7 @@ profile-create = Crea un profilo
 profile-create-success = Profilo creato con successo
 profile-close = Chiudi
 profile-clear-modal = Cancellare i dati del tuo profilo significa che le informazioni demografiche non saranno più inviate a Common Voice con le tue registrazioni.
+profile-explanation = Registra un profilo per tenere traccia dei tuoi progressi e aiutarci a migliorare la precisione dei dati vocali.
 
 ## FAQ
 
@@ -328,3 +329,4 @@ listen-instruction = { $actionType } <playIcon></playIcon> La frase è stata let
 listen-again-instruction = Ottimo lavoro! <playIcon></playIcon> Riascolta la registrazione quando sei pronto
 listen-3rd-time-instruction = 2 andate <playIcon></playIcon>, avanti un'altra!
 listen-last-time-instruction = <playIcon></playIcon> L'ultima!
+share-title-new = <bold>Aiutaci</bold> a trovare altre voci
