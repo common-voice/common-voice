@@ -285,13 +285,57 @@ request-language-success-content = Common Voice'ка Сезнең телне ө�
 ## Languages Overview
 
 language-section-in-progress = Эштә
+language-section-in-progress-description = «Эштә» булган телләрне без волонтерлар алар өчен өлеш кертә алсыннар дип әзерләүдәбез; түбәндәге прогресс шкалалары ул телләр өчен вебсайт ни күләмдә тәрҗемә ителгән һәм никадәр җөмлә җыелган икәнен күрсәтә.
 language-section-launched = Өстәлде
+language-section-launched-description = Әлеге эшли башлаган телләр өчен веб-сайт уңышлы тәрҗемә ителде, <italic>{ speak }</italic> һәм <italic>{ listen }</italic> буенча кертемнәр кабул ителә бирсен өчен җитәрлек җөмләләр тупланды.
 languages-show-more = Күбрәк
 languages-show-less = Әзрәк
 language-speakers = Сөйләүчеләр
+language-meter-in-progress = Прогресс
 language-total-progress = Барлыгы
 language-search-input =
     .placeholder = Эзләү
 
 ## New Contribution
 
+action-click = Чиртү
+action-tap = Кагылып алу
+contribute = Үз өлешеңне кертү
+listen = Тыңлау
+skip = Калдырып тору
+shortcuts = Төймә комбинацияләре
+clips = Клиплар
+goal-type-record = яздыру
+goal-type-validation = тикшерү
+toward-goal = Бу Common Voice'ның { $goalType } бүгенге максатына таба <goalPercentage></goalPercentage>.  Рәхмәт!
+goal-help = Сез Common Voice'ка көнлек { $goalType } максатының <goalPercentage></goalPercentage> ирешүгә ярдәм иттегез!
+contribute-more =
+    { $count ->
+        [one] башка
+       *[other] Тагын { $count } башкарырга әзерме?
+    }
+record-cta = Яздыра башлау
+record-instruction = { $actionType }<recordIcon></recordIcon>, шуннан соң җөмләне кычкырып укыгыз
+record-stop-instruction = Тәмамлагач, { $actionType }<stopIcon></stopIcon>
+record-three-more-instruction = Өчәү калды!
+record-again-instruction = Шәп! <recordIcon></recordIcon> Киләсе клибыгызны яздырыгыз
+record-again-instruction2 = Шулай дәвам итеп, тагын яздырыгыз <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Соңгысы!
+review-tooltip = Монда клипларны тикшереп чыгыгыз һәм яңадан яздырыгыз
+unable-speak = Хәзер сөйли алмыйсызмы?
+review-instruction = Кирәк булса, клипларны карап чыгыгыз һәм яңадан яздырыгыз
+record-submit-tooltip = Әзер булгач, тапшырыгыз { $actionType }
+clips-submitted =
+    { $count ->
+       *[other] { $count } Клип тапшырылды
+    }
+record-abort-title = Башта яздыруны тәмамларгамы?
+record-abort-text = Хәзер эшне туктату сезнең эшләгәнегез югалуга китерәчәк.
+record-abort-submit = Клиплар тапшыру
+record-abort-continue = Яздыруны тәмамлау
+record-abort-delete = Чыгу һәм клипларны бетерү
+listen-instruction = { $actionType }<playIcon></playIcon> алар җөмләләрне төгәл укыдымы?
+listen-again-instruction = Шәп эш! <playIcon></playIcon> Әзер булгач, яңадан тыңлагыз
+listen-3rd-time-instruction = Икесе әзер, <playIcon></playIcon> дәвам итегез!
+listen-last-time-instruction = <playIcon></playIcon> Соңгысы!
+share-title-new = Безгә күбрәк тавыш табарга <bold>ярдәм итегез</bold>
