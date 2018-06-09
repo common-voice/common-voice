@@ -8,7 +8,6 @@ email-input =
     .label = Эл. почта
 submit-form-action = Җибәрү
 loading = Йөкләнелә...
-audio-loading-error = Гафу! Без аудио файлларны эшкәртү белән мәшгульбез, бераздан янәдән тырышып карагыз.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -17,6 +16,7 @@ audio-loading-error = Гафу! Без аудио файлларны эшкәр�
 ## Languages
 
 bn = Бенгальча
+br = Бретонча
 ca = Каталанча
 cs = Чехча
 cv = Чувашча
@@ -26,8 +26,7 @@ de = Алманча
 el = Грекча
 en = Инглизчә
 es = Испанча
-es-AR = Испанча (Аргентина)
-es-CL = Испанча (Чили)
+et = Эстонча
 fr = Французча
 fy-NL = Фризча
 ga-IE = Ирландча
@@ -36,6 +35,7 @@ hu = Маҗарча
 id = Индонезча
 it = Итальянча
 ka = Гөрҗичә
+kab = Кабилчә
 ko = Корейча
 kw = Корнча
 mk = Македонча
@@ -49,6 +49,7 @@ pt-BR = Португальча
 ro = Румынча
 ru = Русча
 sk = Словакча
+sl = Словенча
 sq = Албанча
 sr = Сербча
 sv-SE = Шведча
@@ -68,6 +69,7 @@ zh-TW = Кытайча (Тайвань)
 ## Layout
 
 speak = Сөйләгез
+speak-now = Хәзер сөйләү
 datasets = Мәгълүмат тупланмасы
 languages = Телләр
 profile = Профиль
@@ -94,21 +96,35 @@ wall-of-text-more-desktop =
 show-wall-of-text = Дәвамын укы
 help-us-title = Җөмләләрнең сыйфатын тикшерергә ярдәм итегез!
 help-us-explain = «Плей» төймәсенә басып тыңлагыз һәм әйтегез: түбәндәге җөмлә дөрес укылганмы?
+no-clips-to-validate = Бу телдә тыңлар өчен әлегә бернинди дә клиплар юк. Бераз яздырып безгә бу исемлекне тулыландырырга ярдәм итегез.
 vote-yes = Әйе
 vote-no = Юк
 toggle-play-tooltip = Туктату/дәвам итү өчен { shortcut-play-toggle } төймәсенә басыгыз
 
-## Shortcuts
+## Speak & Listen Shortcuts
 
-# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
-# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
+shortcut-play-toggle-label = Уйнату/Туктату
 # Must be one letter that appears in the { vote-yes } string.
-# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
-# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Speak Shortcuts
+
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Яздыру/Туктату
 request-language-text = Common Voice'ка Сезнең телегез өстәлмәгәнме әле?
 request-language-button = Телнең өстәлүен сорау
 
@@ -134,7 +150,6 @@ profile-form-username =
     .label = Кулланучы исеме
 profile-form-language =
     .label = Тел
-profile-form-more-languages = Башка телләр тиздән өстәләчәк!
 profile-form-accent =
     .label = Акцент
 profile-form-age =
@@ -156,6 +171,7 @@ profile-create = Профиль ясау
 profile-create-success = Булды, профиль ясалды!
 profile-close = Ябу
 profile-clear-modal = Сезнең профилегезнең бирелгәннәрен бетерү аудиоязмаларыгыз белән бергә Common Voice'ка демографик мәгълүмат җибәрелмәячәк дигәнне аңлата.
+profile-explanation = Үзегезнең прогрессыгызны профиль аша карап барыгыз һәм безнең тавыш мәгълүматыбызны төгәлрәк итүдә ярдәм итегез.
 
 ## FAQ
 
@@ -220,6 +236,7 @@ record-platform-not-supported-desktop = Өстәл компьютерларын�
 record-platform-not-supported-ios = <bold>iOS</bold>'ны кулланучылар безнең бушлай программабызны йөкләп ала алалар:
 record-must-allow-microphone = Сезнең микрофоныгызны куллануны рөхсәт итүегез кирәк.
 record-retry = Янәдән
+record-no-mic-found = Микрофон табылмады.
 record-error-too-short = Аудиоязма артык кыска иде.
 record-error-too-long = Аудиоязма артык озын иде.
 record-error-too-quiet = Аудиоязмадагы тавыш артык тыныч иде.
@@ -251,7 +268,6 @@ download-no = Юк, рәхмәт
 ## Contact Modal
 
 contact-title = Элемтә формуляры
-contact-cancel = Баш тарту
 contact-form-name =
     .label = Исем
 contact-form-message =
@@ -261,7 +277,6 @@ contact-required = *кирәк
 ## Request Language Modal
 
 request-language-title = Телнең өстәлүен сорау
-request-language-cancel = Формулярдан чыгу
 request-language-form-language =
     .label = Тел
 request-language-success-title = Телнең өстәлүен сорау тапшырылды, рәхмәт Сезгә!
@@ -277,3 +292,6 @@ language-speakers = Сөйләүчеләр
 language-total-progress = Барлыгы
 language-search-input =
     .placeholder = Эзләү
+
+## New Contribution
+
