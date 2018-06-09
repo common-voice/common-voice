@@ -296,8 +296,8 @@ language-search-input =
 
 ## New Contribution
 
-action-click = Klicken
-action-tap = Antippen
+action-click = klicken
+action-tap = antippen
 contribute = Mitarbeiten
 listen = Anhören
 skip = Überspringen
@@ -307,8 +307,8 @@ goal-type-record = Aufnahme
 goal-type-validation = Überprüfung
 contribute-more = Bereit { $count } weitere zu machen?
 record-cta = Aufnehmen
-record-instruction = <recordIcon></recordIcon> { $actionType } - Lesen Sie den Satz laut vor
-record-stop-instruction = <stopIcon></stopIcon> { $actionType }, wenn Sie fertig sind
+record-instruction = <recordIcon></recordIcon>{ $actionType } - Lesen Sie den Satz laut vor
+record-stop-instruction = <stopIcon></stopIcon>{ $actionType }, wenn Sie fertig sind
 record-three-more-instruction = Noch drei!
 record-again-instruction = Toll! <recordIcon></recordIcon> Nehmen Sie jetzt noch mehr auf
 record-again-instruction2 = Weiter so, <recordIcon></recordIcon> erneut aufnehmen
@@ -323,7 +323,7 @@ record-abort-text = Wenn Sie jetzt abbrechen, geht Ihr Fortschritt verloren
 record-abort-submit = Aufzeichnungen übertragen
 record-abort-continue = Weitermachen
 record-abort-delete = Beenden und Aufzeichnungen löschen
-listen-instruction = <playIcon></playIcon> { $actionType } - Wurde der Satz korrekt ausgesprochen?
+listen-instruction = <playIcon></playIcon>{ $actionType } - Wurde der Satz korrekt ausgesprochen?
 listen-again-instruction = Gut so! <playIcon></playIcon> Machen Sie einfach weiter, wenn Ihnen danach ist
 listen-3rd-time-instruction = Zwei erledigt, <playIcon></playIcon> weiter so!
 listen-last-time-instruction = <playIcon></playIcon> Einmal noch!
