@@ -8,4 +8,7 @@ get-involved-email =
     .label = 이메일
 get-involved-opt-in = 네, 이메일을 보내 주세요.  Common Voice의 이 언어의 진행상황을 계속 알고 싶습니다.
 get-involved-submit = 보내기
+get-involved-stayintouch = 우리 Mozilla는 음성 기술에 관한 커뮤니티를 구축하고 있습니다. 우리는 업데이트와 새로운 데이터 소스에 대한 소식을 지속적으로 접하고 이 데이터를 사람들이 어떻게 사용하는지 듣고 싶습니다.
+get-involved-privacy-info = 우리는 사용자의 정보를 소중하게 다룰 것을 약속합니다. 자세한 사항은 <privacyLink>개인정보 보호 안내</privacyLink>를 확인해주세요.
+get-involved-success-title = { $language } 기여를 위해 성공적으로 가입 되었습니다. 감사합니다.
 get-involved-return-to-languages = 언어목록으로 돌아가기
