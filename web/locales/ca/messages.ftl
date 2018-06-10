@@ -283,7 +283,7 @@ request-language-success-content = Aviat ens posarem en contacte amb més inform
 ## Languages Overview
 
 language-section-in-progress = En curs
-language-section-in-progress-description = Les llengües «en curs» s'estan preparant per rebre contribucions de la comunitat. El seu progrés reflecteix l'estat en què es troben pel que fa a la traducció del lloc web i a la recol·lecció de frases.
+language-section-in-progress-description = Les llengües en curs s'estan preparant per rebre contribucions de la comunitat. El seu progrés reflecteix l'estat en què es troben pel que fa a la traducció del lloc web i a la recol·lecció de frases.
 language-section-launched = Publicades
 language-section-launched-description = Per a les llengües publicades, el lloc web s'ha traduït completament i s'han recollit frases suficients per permetre les col·laboracions d'<italic>{ speak }</italic> i de <italic>{ listen }</italic>.
 languages-show-more = Mostra'n més
