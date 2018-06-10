@@ -94,6 +94,7 @@ wall-of-text-more-desktop = Nu kan du donera din röst för att hjälpa oss att 
 show-wall-of-text = Läs mer
 help-us-title = Hjälp oss validera meningar!
 help-us-explain = Tryck på Play, lyssna och berätta: Var följande mening inspelad korrekt?
+no-clips-to-validate = Det verkar som om det inte finns några klipp att lyssna på för det här språket. Hjälp oss att fylla kön genom att spela in några nu.
 vote-yes = Ja
 vote-no = Nej
 toggle-play-tooltip = Tryck på { shortcut-play-toggle } för att växla uppspelningsläge
@@ -168,6 +169,7 @@ profile-create = Skapa en profil
 profile-create-success = Profil skapad!
 profile-close = Stäng
 profile-clear-modal = Att rensa din profildata innebär att din demografiska information inte längre kommer att skickas till Common Voice med dina inspelningar.
+profile-explanation = Håll reda på dina framsteg med en profil och hjälp vår röstdata att bli mer exakt.
 
 ## FAQ
 
