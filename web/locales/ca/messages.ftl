@@ -8,7 +8,6 @@ email-input =
     .label = Adreça electrònica
 submit-form-action = Envia
 loading = S'està carregant…
-audio-loading-error = Estem processant els fitxers d'àudio. Torneu a provar-ho d'aquí una mica.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -17,6 +16,7 @@ audio-loading-error = Estem processant els fitxers d'àudio. Torneu a provar-ho 
 ## Languages
 
 bn = bengalí
+br = bretó
 ca = català
 cs = txec
 cv = txuvaix
@@ -68,6 +68,7 @@ zh-TW = xinès (Taiwan)
 ## Layout
 
 speak = Parleu
+speak-now = Parleu ara
 datasets = Conjunts de dades
 languages = Llengües
 profile = Perfil
@@ -96,17 +97,25 @@ vote-yes = Sí
 vote-no = No
 toggle-play-tooltip = Premeu { shortcut-play-toggle } per iniciar i aturar la reproducció
 
-## Shortcuts
+## Speak & Listen Shortcuts
 
-# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
-# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
+shortcut-play-toggle-label = Reprodueix/atura
 # Must be one letter that appears in the { vote-yes } string.
-# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = s
 # Must be one letter that appears in the { vote-no } string.
-# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Speak Shortcuts
+
+shortcut-record-toggle-label = Enregistra/atura
 request-language-text = No trobeu la vostra llengua al Common Voice?
 request-language-button = Sol·licita una llengua
 
@@ -132,7 +141,6 @@ profile-form-username =
     .label = Nom d'usuari
 profile-form-language =
     .label = Llengua
-profile-form-more-languages = Aviat hi haurà més llengües disponibles!
 profile-form-accent =
     .label = Accent
 profile-form-age =
@@ -154,6 +162,7 @@ profile-create = Crea un perfil
 profile-create-success = Fet. S'ha creat el perfil!
 profile-close = Tanca
 profile-clear-modal = Si esborreu les vostres dades del perfil, es deixarà d'enviar aquesta informació demogràfica al Common Voice amb els vostres enregistraments.
+profile-explanation = Un perfil permet fer el seguiment del vostre progrés i ajuda a fer que les dades de veu siguin més precises.
 
 ## FAQ
 
@@ -218,6 +227,7 @@ record-platform-not-supported-desktop = En ordinadors d'escriptori, podeu baixar
 record-platform-not-supported-ios = Els usuaris de l'<bold>iOS</bold> poden baixar la nostra aplicació gratuïta:
 record-must-allow-microphone = Cal que permeteu l'accés al micròfon.
 record-retry = Reintenta
+record-no-mic-found = No s'ha trobat cap micròfon.
 record-error-too-short = L'enregistrament és massa curt.
 record-error-too-long = L'enregistrament és massa llarg.
 record-error-too-quiet = El volum de l'enregistrament és massa baix.
@@ -249,7 +259,6 @@ download-no = No, gràcies
 ## Contact Modal
 
 contact-title = Formulari de contacte
-contact-cancel = Cancel·la
 contact-form-name =
     .label = Nom
 contact-form-message =
@@ -259,7 +268,6 @@ contact-required = * necessari
 ## Request Language Modal
 
 request-language-title = Sol·licitud de llengua
-request-language-cancel = Surt del formulari
 request-language-form-language =
     .label = Llengua
 request-language-success-title = La sol·licitud de llengua s'ha enviat correctament, gràcies.
@@ -272,6 +280,7 @@ language-section-launched = Publicats
 languages-show-more = Mostra'n més
 languages-show-less = Mostra'n menys
 language-speakers = Parlants
+language-meter-in-progress = Progrés
 language-total-progress = Total
 language-search-input =
     .placeholder = Cerca
@@ -287,6 +296,7 @@ contribute-more =
        *[other] Preparat per fer-ne { $count } més?
     }
 record-three-more-instruction = Només en falten tres!
+unable-speak = No podeu parlar, ara?
 clips-submitted =
     { $count ->
         [one] S'ha enviat { $count } enregistrament!
