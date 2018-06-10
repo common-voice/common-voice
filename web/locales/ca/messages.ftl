@@ -115,6 +115,9 @@ shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
 shortcut-record-toggle-label = Enregistra/atura
 request-language-text = No trobeu la vostra llengua al Common Voice?
 request-language-button = Sol·licita una llengua
@@ -276,7 +279,9 @@ request-language-success-content = Aviat ens posarem en contacte amb més inform
 ## Languages Overview
 
 language-section-in-progress = En curs
-language-section-launched = Publicats
+language-section-in-progress-description = Les llengües «en curs» s'estan preparant per rebre contribucions de la comunitat. El seu progrés reflecteix l'estat en què es troben pel que fa a la traducció del lloc web i a la recol·lecció de frases.
+language-section-launched = Publicades
+language-section-launched-description = Per a les llengües publicades, el lloc web s'ha traduït completament i s'han recollit frases suficients per permetre les col·laboracions d'<italic>{ speak }</italic> i de <italic>{ listen }</italic>.
 languages-show-more = Mostra'n més
 languages-show-less = Mostra'n menys
 language-speakers = Parlants
@@ -287,18 +292,30 @@ language-search-input =
 
 ## New Contribution
 
+action-click = Clica
+action-tap = Toca
+contribute = Col·laboreu-hi
+listen = Escolta
 skip = Omet
 shortcuts = Dreceres
+clips = Talls
+goal-type-record = enregistrament
+goal-type-validation = validació
 toward-goal = Manca un <goalPercentage></goalPercentage> per arribar a l'objectiu { $goalType } d'avui del Common Voice
 contribute-more =
     { $count ->
         [one] Preparat per fer-ne { $count } més?
        *[other] Preparat per fer-ne { $count } més?
     }
+record-cta = Inicia l'enregistrament
 record-three-more-instruction = Només en falten tres!
 unable-speak = No podeu parlar, ara?
+review-instruction = Reviseu els talls i, si cal, torneu-los a enregistrar
 clips-submitted =
     { $count ->
         [one] S'ha enviat { $count } enregistrament!
        *[other] S'han enviat { $count } enregistraments!
     }
+record-abort-submit = Envia els talls
+record-abort-continue = Finalitza l'enregistrament
+record-abort-delete = Surt i suprimeix els talls
