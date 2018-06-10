@@ -26,6 +26,7 @@ de = alemany
 el = grec
 en = anglès
 es = espanyol
+et = estonià
 fr = francès
 fy-NL = frisó
 ga-IE = irlandès
@@ -93,12 +94,15 @@ wall-of-text-more-desktop = Ara podeu donar la vostra veu per a ajudar-nos a con
 show-wall-of-text = Més informació
 help-us-title = Ajudeu-nos a validar frases!
 help-us-explain = Premeu el botó de reproducció, escolteu i digueu-nos si l'àudio correspon exactament a la frase de sota:
+no-clips-to-validate = Sembla que no hi ha cap tall de veu per revisar en aquesta llengua. Ajudeu-nos a emplenar la cua enregistrant-ne alguns ara.
 vote-yes = Sí
 vote-no = No
 toggle-play-tooltip = Premeu { shortcut-play-toggle } per iniciar i aturar la reproducció
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = o
 
 ## Listen Shortcuts
 
@@ -292,8 +296,8 @@ language-search-input =
 
 ## New Contribution
 
-action-click = Clica
-action-tap = Toca
+action-click = Feu clic a
+action-tap = Toqueu
 contribute = Col·laboreu-hi
 listen = Escolta
 skip = Omet
@@ -302,20 +306,35 @@ clips = Talls
 goal-type-record = enregistrament
 goal-type-validation = validació
 toward-goal = Manca un <goalPercentage></goalPercentage> per arribar a l'objectiu { $goalType } d'avui del Common Voice
+goal-help = Heu ajudat al Common Voice a aconseguir el <goalPercentage></goalPercentage> de l'objectiu diari de { $goalType }!
 contribute-more =
     { $count ->
         [one] Preparat per fer-ne { $count } més?
        *[other] Preparat per fer-ne { $count } més?
     }
 record-cta = Inicia l'enregistrament
+record-instruction = { $actionType } <recordIcon></recordIcon>després llegiu la frase en veu alta
+record-stop-instruction = { $actionType } <stopIcon></stopIcon> quan hàgiu acabat
 record-three-more-instruction = Només en falten tres!
+record-again-instruction = Molt bé! <recordIcon></recordIcon> Enregistreu un altre tall
+record-again-instruction2 = Seguiu així! Enregistreu-ne un altre <recordIcon></recordIcon>
+record-last-instruction = <checkIcon></checkIcon> L'últim!
+review-tooltip = Reviseu i torneu a enregistrar talls des d'aquí, allà on sigueu
 unable-speak = No podeu parlar, ara?
 review-instruction = Reviseu els talls i, si cal, torneu-los a enregistrar
+record-submit-tooltip = { $actionType } Envia quan hàgiu enllestit
 clips-submitted =
     { $count ->
         [one] S'ha enviat { $count } enregistrament!
        *[other] S'han enviat { $count } enregistraments!
     }
+record-abort-title = Voleu acabar l'enregistrament primer?
+record-abort-text = Si sortiu ara, perdreu el vostre progrés
 record-abort-submit = Envia els talls
 record-abort-continue = Finalitza l'enregistrament
 record-abort-delete = Surt i suprimeix els talls
+listen-instruction = { $actionType } <playIcon></playIcon> Han pronunciat correctament la frase?
+listen-again-instruction = Bona feina! <playIcon></playIcon> Escolteu una altra vegada quan estigueu a punt
+listen-3rd-time-instruction = 2 menys! Mantingueu el ritme! <playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon> L'últim!
+share-title-new = <bold>Ajudeu-nos</bold>a trobar més veus
