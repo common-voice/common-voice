@@ -169,9 +169,15 @@ edit-profile = 프로필 고치기
 profile-create = 프로필 만들기
 profile-create-success = 성공, 프로필이 만들어졌습니다!
 profile-close = 닫기
+profile-clear-modal = 프로필 데이터를 지우면 사용자 인구 통계 정보가 녹음된 클립과 함께 더 이상 Common Voice에 보내지지 않습니다.
+profile-explanation = 프로필을 사용하여 진행 상황을 파악하고 음성 데이터의 정확성을 높일 수 있습니다.
 
 ## FAQ
 
+faq-title = 자주 묻는 질문
+faq-what-q = Common Voice가 무엇인가요?
+faq-what-a = 음성 인식 기술은 우리가 기계와 상호 작용하는 방식에 혁명을 일으킬 수 있지만, 현재 이용 가능한 시스템은 비싸고 독점되어 있습니다. CommonVoice는 모든 사람이 쉽게 음성 인식 기술에 접근할 수 있도록 해 주는 프로젝트입니다. 누구나 쉽고 빠르게 음성 인식 앱을 훈련시킬 수 있도록 사람들이 방대한 데이터베이스에 자신의 목소리를 기부합니다. 개발자들은 모든 음성 데이터를 이용할 수 있을 것입니다.
+faq-important-q = 왜 그게 중요한가요?
 
 ## Profile
 
