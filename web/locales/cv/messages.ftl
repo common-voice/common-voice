@@ -1,8 +1,21 @@
 ## General
 
 yes-receive-emails = Паллах, эл. пуштӑ килтер. Манӑн Common Voice Project аталанни пирки пӗлес килет.
+stayintouch = Эпир Mozilla'ра чӗлхе технологисем тӑрӑх ушкӑн пухатпӑр. Эпир эсир ҫенӗ хыпарсене, ҫӗнӗ даннӑйсем источникӗсене пӗлсе тӑрассинче кӗлетпӗр, татах та нумайрах ҫак даннӑйсене эсир мӗнле усӑ курассине пӗлесшӗн.
+privacy-info = Эпир сирӗн информацине асӑрханулӑхпа туса кӑларассине сунатпӑр. Нумайрах пирӗн <privacyLink>приватность политикинче</privacyLink>.
 email-input =
     .label = Эл. пуштӑ
+loading = Тиенет...
+
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
+
+
+## Languages
+
+
+# [/]
+
 
 ## Layout
 
@@ -31,11 +44,19 @@ show-wall-of-text = Туллин
 help-us-title = Педложенисем тӗрӗслеме пире пулӑш!
 help-us-explain = Пусса калаттар, аялти пуплерӗш (предложени) калани тӗрӗс-и е тӗрӗс мар?
 
+## Speak & Listen Shortcuts
+
+
+## Listen Shortcuts
+
+
+## Speak Shortcuts
+
+
 ## ProjectStatus
 
 status-title = Проектӑн пӗтӗмӗшле статусӗ: Мӗн чухлӗ туса ҫитертӗмӗр!
 status-contribute = Сассуна парнелесе хутшӑн
-loading = Тиенет...
 status-hours =
     { $hours ->
         [one] Хальлӗхе тӗрӗслени пӗр сехет
@@ -44,7 +65,6 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Ҫитес тĕллев: { $goal } сехет
-status-more-soon = Ытти чӗлхеллӗ те пулӗ!
 
 ## ProfileForm
 
@@ -52,7 +72,6 @@ profile-form-username =
     .label = Ят
 profile-form-language =
     .label = Чӗлхе
-profile-form-more-languages = Ытти чӗлхеллӗ те пулӗ!
 profile-form-accent =
     .label = Акцент
 profile-form-age =
@@ -79,17 +98,6 @@ profile-why-title = Мӗншӗн профиль кирлӗ?
 
 notfound-title = Тупӑнман
 notfound-content = Каҫар, эсӗ мӗн тупасшӑнне ӑнланаймастӑп.
-
-## Privacy
-
-privacy-title = «Common Voice» харпӑрлӑх пирки асӑрхаттару
-privacy-more = <more>Тӗплӗнрех вула</more>
-
-## Terms
-
-terms-privacy-title = Харпӑрлӑх
-terms-communications-title = Ҫыхӑну
-terms-general-title = Пӗтӗмӗшле
 
 ## Data
 
@@ -134,5 +142,8 @@ contact-form-name =
 request-language-form-language =
     .label = Чӗлхе
 
-## Help Translate Modal
+## Languages Overview
+
+
+## New Contribution
 
