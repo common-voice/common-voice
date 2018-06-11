@@ -94,6 +94,7 @@ wall-of-text-more-desktop = Most adhatja a hangját, hogy segítsen nekünk egy 
 show-wall-of-text = Bővebben
 help-us-title = Segítsen jóváhagyni a mondatokat.
 help-us-explain = Nyomja meg a lejátszás gombot, hallgassa meg a mondatot és mondja el: helyesen hangzik el az alábbi mondat?
+no-clips-to-validate = Úgy néz ki egyetlen meghallgató klip sincs ezen a nyelven. Segítsen feltölteni a sor azzal, hogy rögzít néhányat.
 vote-yes = Igen
 vote-no = Nem
 toggle-play-tooltip = Nyomja meg az { shortcut-play-toggle } gombot a lejátszási módba váltáshoz
@@ -168,6 +169,7 @@ profile-create = Profil létrehozása
 profile-create-success = Profil sikeresen létrehozva!
 profile-close = Bezárás
 profile-clear-modal = A profiladatok törlése azt jelenti, hogy ezek a demográfiai információk többé már nem lesznek beküldve a Common Voice-ba a hangrögzítéseivel.
+profile-explanation = Kövesse az előrehaladását egy profillal, és segítsen pontosabbá tenni az adatainkat.
 
 ## FAQ
 
@@ -281,7 +283,9 @@ request-language-success-content = Hamarosan jelenkezünk további információk
 ## Languages Overview
 
 language-section-in-progress = Folyamatban
+language-section-in-progress-description = A folyamatban lévő nyelveket a közösség közreműködésére építjük; az előrehaladás a weboldal honosítását, és a mondatgyűjtési fázist tükrözi.
 language-section-launched = Elindítva
+language-section-launched-description = Ezen elindított nyelvek esetén a weboldal sikeresen honosítva lett, és elég mondat lett összegyűjtve ahhoz, hogy lehetővé tegye a <italic>{ speak }</italic> és <italic>{ listen }</italic> típusú közreműködést.
 languages-show-more = Több
 languages-show-less = Kevesebb
 language-speakers = Beszélők
@@ -325,3 +329,4 @@ listen-instruction = { $actionType } a <playIcon></playIcon> ikonra, pontosan ol
 listen-again-instruction = Jó munka! <playIcon></playIcon> Hallgassa meg újra, ha kész
 listen-3rd-time-instruction = 2 kész <playIcon></playIcon>, csak így tovább!
 listen-last-time-instruction = <playIcon></playIcon> Utolsó!
+share-title-new = <bold>Segítsen nekünk</bold> további hangokat találni
