@@ -2,6 +2,7 @@
 
 contribute = Prispevaj
 get-involved-button = Pridružite se
+get-involved-text = Hvala za izkazano zanimanje za { $lang }. Trudimo se, da bi bili vsi jeziki pripravljeni pravočasno in ekipe obveščene preko e-pošte. Če želite prispevati, spodaj vnesite svoj e-poštni naslov.
 get-involved-form-title = Prijavite se na obvestila za { $lang }:
 get-involved-email =
     .label = Elektronski naslov

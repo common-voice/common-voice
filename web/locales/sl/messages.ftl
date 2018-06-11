@@ -154,6 +154,7 @@ edit-profile = Uredi profil
 profile-create = Ustvari profil
 profile-create-success = Uspelo je, profil je ustvarjen!
 profile-close = Zapri
+profile-clear-modal = Izbris vaših profilnih podatkov pomeni, da vaši demografski podatki ne bodo dostopni ob vaših posnetkih v projektu Common Voice. 
 
 ## FAQ
 
