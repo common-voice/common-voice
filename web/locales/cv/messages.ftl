@@ -13,6 +13,52 @@ loading = Тиенет...
 
 ## Languages
 
+bn = Бенгалла
+br = Бретонла
+ca = Каталанла
+cs = Чехла
+cv = Чӑвашла
+cy = Валлий
+da = Датчан
+de = Нимӗҫле
+el = Грекла
+en = Акӑлчанла
+es = Испанла
+et = Эстонла
+fr = Французла
+fy-NL = Фризла
+ga-IE = Ирландла
+he = Иврит
+hu = Венгрла
+id = Индонез
+it = Итальянла
+ka = Грузинла
+kab = Кабил
+ko = Корейла
+kw = Корнла
+mk = Македонла
+nb-NO = Норвеги Букмол
+ne-NP = Непалла
+nl = Голландла
+nn-NO = Норвеги Нюнорск
+or = Ория
+pl = Полякла
+pt-BR = Португалла (Бразили)
+ro = Румынла
+ru = Вырӑсла
+sk = Словакла
+sl = Словенла
+sq = Албанла
+sr = Сербла
+sv-SE = Шведла
+ta = Тамилла
+te = Телугу
+th = Тайла
+tr = Турккӑлла
+tt = Тутарла
+uk = Украинла
+uz = Узбекла
+zh-CN = Китайла (Китай)
 
 # [/]
 
@@ -43,6 +89,8 @@ wall-of-text-more-desktop =
 show-wall-of-text = Туллин
 help-us-title = Педложенисем тӗрӗслеме пире пулӑш!
 help-us-explain = Пусса калаттар, аялти пуплерӗш (предложени) калани тӗрӗс-и е тӗрӗс мар?
+vote-yes = Ҫапла
+vote-no = Ҫук
 
 ## Speak & Listen Shortcuts
 
@@ -65,6 +113,7 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Ҫитес тĕллев: { $goal } сехет
+english = Акӑлчанла
 
 ## ProfileForm
 
@@ -102,6 +151,8 @@ notfound-content = Каҫар, эсӗ мӗн тупасшӑнне ӑнланай
 ## Data
 
 data-download-button = «Common Voice» пӗлӗмне тиесе антар
+data-download-yes = Ҫапла
+data-download-deny = Ҫук
 data-download-license = Лицензи: <licenseLink>CC-0</licenseLink>
 data-get-started = <speechBlogLink>Калаҫӑва уянипе ӗҫлеме пуҫла</speechBlogLink>
 data-other-title = Ытти сасӑ пухмӑшӗсем
@@ -122,6 +173,8 @@ record-error-too-quiet = Шел, ҫырса илни шӑпрах пулчӗ.
 record-submit-success = Пулчӗ! Ҫырса илнине упрарӑмӑр. Атя, тата ҫырса илер-и?
 record-help = Ҫырса илмешкӗн пус та ҫӳлти пуплерӗше (предложенине) янравлӑн вуласа пар.
 record-cancel = Ҫӗнӗрен ҫырса илессине пӑрахӑҫла
+terms-agree = Эпӗ килӗшетӗп
+terms-disagree = Эпӗ килӗшместӗп
 review-aborted = Тиессине пӑрахӑҫланӑ. Санӑн ҫырса илнисене катертес-и?
 review-submit-title = Тӗрӗсле те яр
 review-submit-msg = Ҫырса илнӗшӗн тавах!<lineBreak></lineBreak>Халь вара вӗсене тӗрӗслесе пӑх та тие.
@@ -147,3 +200,4 @@ request-language-form-language =
 
 ## New Contribution
 
+clips = Клипсем
