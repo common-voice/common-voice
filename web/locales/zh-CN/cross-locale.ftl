@@ -1,7 +1,7 @@
 ## Languages
 
+contribute = 出力
 get-involved-button = 参与进来
-get-involved-cancel = 退出
 get-involved-title = 贡献给 { $lang }
 get-involved-text = 感谢您希望 { $lang } 作出贡献。我们正努力支持各种不同语言。在此期间，我们会通过电子邮件适时发布团队的进展信息。若您有意作出贡献，请在下方提供您的电子邮件地址。
 get-involved-form-title = 订阅 { $lang } 新消息提醒：

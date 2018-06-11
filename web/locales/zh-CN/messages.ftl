@@ -8,7 +8,6 @@ email-input =
     .label = 电子邮箱
 submit-form-action = 提交
 loading = 加载中…
-audio-loading-error = 抱歉！我们正在处理音频文件，请稍后再试。
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -27,6 +26,7 @@ de = 德语
 el = 希腊语
 en = 英语
 es = 西班牙语
+et = 爱沙尼亚语
 fr = 法语
 fy-NL = 弗里西语
 ga-IE = 爱尔兰语
@@ -69,6 +69,7 @@ zh-TW = 汉语（台湾）
 ## Layout
 
 speak = 说话
+speak-now = 开始朗读
 datasets = 数据集
 languages = 语言
 profile = 用户资料
@@ -93,21 +94,35 @@ wall-of-text-more-desktop = 现在，您可以贡献出您的声音，帮助我�
 show-wall-of-text = 了解更多
 help-us-title = 帮助我们验证语句！
 help-us-explain = 请点击播放，仔细聆听并告诉我们：他们是否准确地说出了下面的句子？
+no-clips-to-validate = 看来这个语言没有任何片段可听。请帮助我们录下一些片段。
 vote-yes = 是
 vote-no = 否
 toggle-play-tooltip = 按下 { shortcut-play-toggle } 即可切换播放模式
 
-## Shortcuts
+## Speak & Listen Shortcuts
 
-# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
-# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
+shortcut-play-toggle-label = 播放/停止
 # Must be one letter that appears in the { vote-yes } string.
-# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
-# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Speak Shortcuts
+
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = 录音/停止
 request-language-text = 没在 Common Voice 看到您的语言吗？
 request-language-button = 请求新语言
 
@@ -132,7 +147,6 @@ profile-form-username =
     .label = 用户名
 profile-form-language =
     .label = 语言
-profile-form-more-languages = 更多语言即将到来！
 profile-form-accent =
     .label = 口音
 profile-form-age =
@@ -154,6 +168,7 @@ profile-create = 创建用户资料
 profile-create-success = 成功，用户资料已创建！
 profile-close = 关闭
 profile-clear-modal = 清除您的用户资料后，您提交给 Common Voice 的录音将不再标注上人口统计学特征。
+profile-explanation = 通过使用个人资料跟踪您的进度，以帮助我们的语音数据更准确。
 
 ## FAQ
 
@@ -267,10 +282,13 @@ request-language-success-content = 我们将尽快披露更多有关如何将您
 ## Languages Overview
 
 language-section-in-progress = 准备中
+language-section-in-progress-description = 处理中的语言，代表我们的该语言社区正在进行贡献，当中的进度反映了网站的本地化翻译进度，以及语句收集进度。
 language-section-launched = 已上线
+language-section-launched-description = 若是已上线的语言，代表网站的本地化已完成，也收集了足够的语句，足以支持<italic>{ speak }</italic>及<italic>{ listen }</italic>的贡献。
 languages-show-more = 显示更多
 languages-show-less = 显示更少
 language-speakers = 使用人数
+language-meter-in-progress = 进度
 language-total-progress = 总共
 language-search-input =
     .placeholder = 搜索
@@ -279,6 +297,7 @@ language-search-input =
 
 action-click = 点击
 action-tap = 点选
+contribute = 参与贡献
 listen = 聆听
 skip = 跳过
 shortcuts = 快捷方式
@@ -286,6 +305,7 @@ clips = 片段
 goal-type-record = 录制中
 goal-type-validation = 验证
 toward-goal = 今天的 Common Voice { $goalType } 目标已达成 <goalPercentage></goalPercentage>。感谢您！
+goal-help = 您已帮助 Common Voice 完成 <goalPercentage></goalPercentage> 的每日 { $goalType } 目标！
 contribute-more = 准备好再录 { $count } 条了吗？
 record-cta = 开始录音
 record-instruction = { $actionType } 按下 <recordIcon></recordIcon> 然后大声朗读句子
@@ -308,3 +328,4 @@ listen-instruction = { $actionType }<playIcon></playIcon> 他们是否准确地�
 listen-again-instruction = 做得好！<playIcon></playIcon> 准备好就可以再听一遍
 listen-3rd-time-instruction = 完成两条了 <playIcon></playIcon>，继续加油！
 listen-last-time-instruction = <playIcon></playIcon> 最后一个了！
+share-title-new = <bold>请帮助我们</bold>找到更多声音
