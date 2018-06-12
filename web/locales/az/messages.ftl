@@ -121,9 +121,32 @@ request-language-button = Dil tələb edin
 ## ProjectStatus
 
 status-contribute = Səsinizi ianə edin
+english = İngiliscə
 
 ## ProfileForm
 
+profile-form-cancel = Formadan çıx
+profile-form-delete = Profili Sil
+profile-form-username =
+    .label = İstifadəçi adı
+profile-form-language =
+    .label = Dil
+profile-form-accent =
+    .label = Ləhcə
+profile-form-age =
+    .label = Yaş
+profile-form-gender =
+    .label = Cins
+profile-form-submit-save = Saxla
+profile-form-submit-saved = Saxlandı
+profile-keep-data = Məlumatı saxla
+profile-delete-data = Məlumatı sil
+male = Kişi
+female = Qadın
+# Gender
+other = Digər
+why-profile-title = Niyə profil?
+profile-close = Qapat
 
 ## FAQ
 
@@ -136,6 +159,9 @@ status-contribute = Səsinizi ianə edin
 
 ## Data
 
+data-download-yes = Bəli
+data-download-deny = Xeyr
+data-download-license = Lisenziya: <licenseLink>CC-0</licenseLink>
 
 ## Record Page
 
