@@ -22,7 +22,7 @@ const datasets = [
     name: 'LibriSpeech',
     nick: 'librispeech',
     size: 57.2,
-    url: 'http://www.openslr.org/12',
+    url: 'https://www.openslr.org/12',
     download: [],
     license: {
       name: 'CC-BY-4.0',
