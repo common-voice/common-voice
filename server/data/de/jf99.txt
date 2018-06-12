@@ -828,7 +828,7 @@ Ich komme da nicht an.
 Kannst du mir bitte diesen Karton herunter holen?
 Susi ist zu klein.
 Patrick ist ein Meter neunzig groß.
-Wann wird er endlich erwachsen.
+Wann wird er endlich erwachsen?
 Manche Leute werden nie erwachsen.
 Sehr vernünftig von dir.
 Was für ein Einsatz!
@@ -959,7 +959,7 @@ Magnetische Felder sind quellenfrei.
 Unsere Kinder glauben noch ans Christkind.
 Der Anfängerkurs ist mir zu leicht und der Fortgeschrittenenkurs zu anspruchsvoll.
 Derzeit sind uns noch die Hände gebunden.
-Der Erweiterung des Gebäudes wurde von Anfang an geplant.
+Die Erweiterung des Gebäudes wurde von Anfang an geplant.
 Die Kosten für den Anbau sind nach meiner Kalkulation überschaubar.
 Der operative Gewinn beträgt fast eine Milliarde Dollar.
 Eines der Wahlversprechen war, verstärkt gegen Steuerhinterziehung vorzugehen.
@@ -975,7 +975,7 @@ Spanien besteht nicht nur aus Mallorca und Ibiza.
 Es bleibt abzuwarten, ob sich der Aufwärtstrend fortsetzt.
 Die Vergangenheit hat gezeigt, dass Prognosen oft falsch liegen.
 Die Schufa stuft ihr genaues Berechnungsmodell als Betriebsgeheimnis ein.
-Wählt der Kunde Lastschrift als Zahlart, so prüft der Verkäufer zunächst die Bonität.
+Wählt der Kunde Lastschrift als Zahlungsart, so prüft der Verkäufer zunächst die Bonität.
 Die Abfrage bei der Auskunftei erfolgt vollautomatisch.
 Die Rotation von Gradientenfeldern beträgt stets null.
 Hartmut, du wirst alt.
@@ -2388,7 +2388,7 @@ Was du heute kannst besorgen, das verschiebe nicht auf morgen.
 Herrlich, dieses Wetter!
 Der Kühlschrank ist fast leer.
 Wer hat gestern nicht aufgegessen?
-Wer das Licht angelassen?
+Wer hat das Licht angelassen?
 Alle natürlich.
 Das ist pure Aussagenlogik.
 Lass dich nicht provozieren.
@@ -4144,7 +4144,7 @@ Habe ich denn eine Wahl?
 Die Zeichenkodierung kommt nicht mit Umlauten klar.
 Für Quelltext ist bitte immer die UTF-acht-Kodierung zu verwenden.
 Meine Erinnerung daran ist schon sehr verblasst.
-Aus Mitleid kaufte Henrike dem frierendem Obdachlosen eine Jacke.
+Aus Mitleid kaufte Henrike dem frierenden Obdachlosen eine Jacke.
 Der Hausmeister hat uns gerade noch gefehlt.
 Ich gebe zu, dass es ein unkonventionelles Verkehrsmittel ist.
 Aber ohne meinen Raketenrucksack fühle ich mich wie ein Sterblicher.
@@ -4181,7 +4181,7 @@ Wie läuft eure Spedition?
 Eher schlecht als recht.
 Ein Sieg würde sie an die Spitze der Tabelle katapultieren.
 Was ist das für ein Gewürz?
-Zum Schluss kommt noch eine Priese Salz hinzu.
+Zum Schluss kommt noch eine Prise Salz hinzu.
 An der Küste weht immer eine steife Brise.
 Heute haben wir Windstärke fünf mit teils orkanartigen Böen.
 Aus etwas Pappe könnt ihr euch das auch selber basteln.
@@ -4910,7 +4910,7 @@ Wir berechnen die Zwischenwerte stumpf durch lineare Interpolation.
 Per Kommandozeilenparameter lassen sich die Warnungen unterdrücken.
 Die Stelle ist stark angeschwollen.
 Beim unüberwachten Lernen spart man sich die separate Trainingsphase.
-Fachlich hat sie viel drauf, aber ihre Didaktischen Fähigkeiten sind noch ausbaufähig.
+Fachlich hat sie viel drauf, aber ihre didaktischen Fähigkeiten sind noch ausbaufähig.
 An einem Stand werden Waffeln verkauft, um die Vereinskasse aufzubessern.
 Sie stellt Nüsse, Salzstangen und anderen Knabberkram auf den Tisch.
 Bedient euch

@@ -83,7 +83,7 @@ Sie ist bis nach Düsseldorf gelaufen
 Zwischen Aachen und Baden-Baden fährt keine U-Bahn
 Ich muss schon in Koblenz aussteigen 
 Willst du wirklich bis nach Nürnberg fahren?
-Dann können wir in Rosenheim umstiegen
+Dann können wir in Rosenheim umsteigen.
 Ich musste lange in Ingolstadt warten
 Wie lange muss ich in Kempten warten?
 Meine Reise brachte mich nach Cottbus
@@ -212,7 +212,7 @@ Sie ist bis nach Görlitz gelaufen
 Zwischen Delmenhorst und Rosenheim fährt keine U-Bahn
 Ich muss schon in Neumünster aussteigen 
 Willst du wirklich bis nach Freiburg im Breisgau fahren?
-Dann können wir in Osnabrück umstiegen
+Dann können wir in Osnabrück umsteigen.
 Ich musste lange in Leipzig warten
 Wie lange muss ich in Mainz warten?
 Meine Reise brachte mich nach Oberhausen
