@@ -11,6 +11,8 @@ loading = Loading…
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
 ## Languages
+as = Assamese
+az = Azerbaijani
 bn = Bengali
 br = Breton
 ca = Catalan
@@ -32,6 +34,7 @@ id = Indonesian
 it = Italian
 ka = Georgian
 kab = Kabyle
+kk = Kazakh
 ko = Korean
 kw = Cornish
 mk = Macedonian
