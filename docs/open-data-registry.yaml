@@ -1,0 +1,10 @@
+Name: The Common Voice Project
+Description: Common Voice is a corpus of speech data read by users on the Common Voice website (https://voice.mozilla.org/), and based upon text from a number of public domain sources like user submitted blog posts, old books, movies, and other public speech corpora. Its primary purpose is to enable the training and testing of automatic speech recognition (ASR) systems, but we encourage its use for other purposes as well.
+Documentation: https://github.com/mozilla/voice-web/blob/master/docs/corpus_readme.txt
+Contact: https://common-voice-slack-invite.herokuapp.com/
+UpdateFrequency: We publish new versions of the dataset for every 500 hours collected for a single language. We may publish more often for smaller languages.
+Tags:
+  - machine learniner
+  - speech recognition
+  - speech synthesis
+License: CC-0 (https://creativecommons.org/publicdomain/zero/1.0/)
