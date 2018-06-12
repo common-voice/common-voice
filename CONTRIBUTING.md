@@ -99,6 +99,18 @@ Migrations are always run when the server is started.
 #### Making Strings localizable
 We're using [Fluent](http://projectfluent.org/) to localize strings. You can find examples all over the frontend code. Strings that appear in the [english message files](https://github.com/mozilla/voice-web/tree/master/web/locales/en), can then be translated on [Pontoon](https://pontoon.mozilla.org/projects/common-voice/). Some things to note regarding string changes are documented on [MDN](https://developer.mozilla.org/en-US/docs/Mozilla/Localization/Localization_content_best_practices#Changing_existing_strings).
 
+
+#### Import languages
+To update the list of locales run:
+```
+yarn import-locales
+```
+
+This creates/updates files in `/locales`:
+- fetch locale codes & names from Pontoon and save them in `all.json`
+- based on Pontoon translated data and a threshold defined in the script, save "completed" locales to `completed.json`
+- add codes that have a sentence folder in `/server/data` to `contributable.json`
+
 #### Need Help?
 For more options, just type:
 ```

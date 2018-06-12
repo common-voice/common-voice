@@ -123,6 +123,7 @@
   },
   "scripts": {
     "build": "concurrently \"node scripts/build-server.js\" \"cd web/ && webpack --mode=production\"",
+    "import-locales": "node scripts/import-locales",
     "lint": "eslint **/*.ts **/*.tsx",
     "migrate": "cd server/src/lib/model/db && db-migrate",
     "prettier": "yarn lint --fix",
