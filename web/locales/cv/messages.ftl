@@ -184,19 +184,30 @@ review-cancel = Ҫырса илнине тиеме пӑрахӑҫла
 
 ## Download Modal
 
+download-form-email =
+    .label = Эл. пуштӑ
+    .value = Тавах, сана çырӑмӑр.
+download-no = Ҫук
 
 ## Contact Modal
 
+contact-title = Ҫыхӑну бланки
 contact-form-name =
     .label = Ят
+contact-form-message =
+    .label = Çыру
+contact-required = * кирлӗ
 
 ## Request Language Modal
 
+request-language-title = Чӗлхене ярса пама ыйт
 request-language-form-language =
     .label = Чӗлхе
 
 ## Languages Overview
 
+languages-show-more = Нумайрах кур
+languages-show-less = Сахалрах кур
 
 ## New Contribution
 
