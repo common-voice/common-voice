@@ -10,3 +10,7 @@ get-involved-email =
 get-involved-opt-in = Bəli, mənə e-poçtları göndər. Bu dilin Common Voice üzərində inkişafından xəbərdar olmaq istəyirəm.
 get-involved-submit = Göndər
 get-involved-stayintouch = Mozillada səs texnologiyaları ətrafında icma qururuq. Yeniliklər, yeni məlumat mənbəələri və bu məlumatı necə işlətməyinizlə bağlı sizinlə əlaqədə olmaq istərdik.
+get-involved-privacy-info = Məlumatlarınızı diqqətlə idarə edəcəyimizə söz veririk. Daha ətraflı <privacyLink>Məxfilik Bildirişi</privacyLink>mizdə oxuyun.
+get-involved-success-title = { $language } üçün dəstək olmaya uğurla qeyd oldunuz. Təşəkkürlər.
+get-involved-success-text = Daha çox məlumat gəldikcə xəbər edəcik.
+get-involved-return-to-languages = Dillərə qayıt
