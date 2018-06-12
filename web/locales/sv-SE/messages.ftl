@@ -283,7 +283,9 @@ request-language-success-content = Vi hör av oss med mer information om hur du 
 ## Languages Overview
 
 language-section-in-progress = Pågående
+language-section-in-progress-description = Pågående språk byggs nu för bidrag från våra gemenskaper. Deras framsteg återspeglar var de står i översättning av webbplatsen och insamling av meningar.
 language-section-launched = Lanserad
+language-section-launched-description = För dessa lanserade språk har webbplatsen översatts fullständigt och tillräckligt med meningar har samlats in för att möjliggöra ett pågående samarbete genom <italic>{ speak }</italic> och <italic>{ listen }</italic>.
 languages-show-more = Läs mer
 languages-show-less = Visa mindre
 language-speakers = Talas av
@@ -303,6 +305,8 @@ shortcuts = Genvägar
 clips = Klipp
 goal-type-record = inspelning
 goal-type-validation = validering
+toward-goal = Det är <goalPercentage></goalPercentage> närmare dagens Common Voice { $goalType } mål. Tack
+goal-help = Du har hjälpt till att nå Common Voice <goalPercentage></goalPercentage> av det dagliga målet { $goalType }!
 contribute-more =
     { $count ->
         [one] Redo att göra { $count } till?
@@ -312,11 +316,18 @@ record-cta = Starta inspelning
 record-instruction = { $actionType } <recordIcon></recordIcon> och läs sedan meningen högt
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> när du är klar
 record-three-more-instruction = Tre kvar!
-record-again-instruction = Bra!<recordIcon></recordIcon> Spela in ditt nästa klipp
-record-last-instruction = <recordIcon></recordIcon>Sista!
+record-again-instruction = Bra! <recordIcon></recordIcon> Spela in ditt nästa klipp
+record-again-instruction2 = Bra jobbat, spela in igen <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Sista!
 review-tooltip = Här kan du kontrollera och återuppta inspelningar
+unable-speak = Kan inte prata just nu?
 review-instruction = Om det behövs kan du granska och återuppta inspelningar
 record-submit-tooltip = { $actionType } skicka in när du är redo
+clips-submitted =
+    { $count ->
+        [one] { $count } klipp lämnades
+       *[other] { $count } klipp lämnades
+    }
 record-abort-title = Avsluta inspelningen först?
 record-abort-text = Om du slutar nu kommer dina framsteg att gå förlorade
 record-abort-submit = Skicka in klipp
@@ -325,5 +336,5 @@ record-abort-delete = Avsluta & ta bort klipp
 listen-instruction = { $actionType }<playIcon></playIcon> var meningen uttalad korrekt?
 listen-again-instruction = Bra jobbat!<playIcon></playIcon> Lyssna igen när du är redo
 listen-3rd-time-instruction = Två färdiga, <playIcon></playIcon> bra jobbat!
-listen-last-time-instruction = <playIcon></playIcon>Sista!
+listen-last-time-instruction = <playIcon></playIcon> Sista!
 share-title-new = <bold>Hjälp oss</bold> hitta mer röster
