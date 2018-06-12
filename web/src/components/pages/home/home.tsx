@@ -57,14 +57,25 @@ class HomePage extends React.Component<Props, State> {
     await this.updateMessagesGenerator(nextProps);
   }
 
+  private isFetching = false;
   async updateMessagesGenerator({ api, locale }: Props) {
-    if (this.state.messagesGenerator && locale === this.props.locale) return;
-    this.setState({
-      messagesGenerator: createCrossLocaleMessagesGenerator(
-        await api.fetchCrossLocaleMessages(),
-        [locale]
-      ),
-    });
+    if (
+      this.isFetching ||
+      (this.state.messagesGenerator && locale === this.props.locale)
+    )
+      return;
+    this.isFetching = true;
+    this.setState(
+      {
+        messagesGenerator: createCrossLocaleMessagesGenerator(
+          await api.fetchCrossLocaleMessages(),
+          [locale]
+        ),
+      },
+      () => {
+        this.isFetching = false;
+      }
+    );
   }
 
   render() {
