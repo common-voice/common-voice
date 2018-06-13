@@ -164,7 +164,7 @@ profile-delete-data = Dilemel ar roadennoù
 male = Paotr
 female = Plac'h
 # Gender
-other = Re all
+other = All
 why-profile-title = Perak ur profil?
 why-profile-text = Seul dalvoudusoc'h e vo ar roadennoù son a gasit da gCommon voice evit ar mekanikoù anaout ar vouezh ma vo bet pourvezet ganeoc'h un nebeud titouroù diwar ho penn. O skoazellañ a ray d'en em varrekaat.
 edit-profile = Aozañ ar profil
