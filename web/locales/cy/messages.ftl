@@ -15,6 +15,8 @@ loading = Llwytho…
 
 ## Languages
 
+as = Asameg
+az = Aserbaijaneg
 bn = Bengaleg
 br = Llydaweg
 ca = Catalaneg
@@ -36,6 +38,7 @@ id = Indoneseg
 it = Eidaleg
 ka = Georgeg
 kab = Kabyle
+kk = Casac
 ko = Corëeg
 kw = Cernyweg
 mk = Macedoneg
