@@ -227,21 +227,92 @@ data-other-ted-description = TED-LIUM 말뭉치는 TED 웹 사이트에서 이�
 data-other-voxforge-description = VoxForge는 무료 및 오픈 소스 음성 인식 엔진에서 사용하기 위한 변환된 음성을 수집하도록 설립 되었습니다.
 data-other-tatoeba-description = Tatoeba는 언어 학습에 사용하기 위한 문장, 번역, 음성 오디오의 대규모 데이터베이스입니다. 이 다운로드에는 커뮤니티에서 녹음한 구어체 영어가 포함되어 있습니다.
 data-bundle-button = 데이터 세트 번들 다운로드
+data-bundle-description = Common Voice 데이터에는 위의 모든 다른 음성 데이타 세트가 포함됩니다.
+license = 라이센스: <licenseLink>{ $license }</licenseLink>
+license-mixed = 혼합됨
 
 ## Record Page
 
+record-platform-not-supported = 죄송합니다. 현재 지원되지 않는 플랫폼입니다.
+record-platform-not-supported-desktop = 데스크 톱 컴퓨터에서 최신 버전을 다운로드할 수 있음:
+record-platform-not-supported-ios = <bold>iOS</bold> 사용자는 무료앱을 다운받을 수 있음:
+record-must-allow-microphone = 마이크 사용 접근을 허용해야 합니다.
+record-retry = 다시 시도하기
+record-no-mic-found = 마이크를 찾을 수 없습니다.
+record-error-too-short = 녹음이 너무 짧습니다.
+record-error-too-long = 녹음이 너무 깁니다.
+record-error-too-quiet = 녹음이 너무 조용합니다.
+record-submit-success = 제출에 성공했습니다! 다시 녹음하기를 원하시나요?
+record-help = 녹음을 탭하고 위의 문장을 소리 내어 읽어 주세요.
+record-cancel = 재 녹음 취소
+review-terms = Common Voice를 사용하면 <termsLink>이용약관</termsLink>과 <privacyLink>개인정보 보호 정책</privacyLink>에 동의한 것으로 간주합니다.
+terms-agree = 동의합니다
+terms-disagree = 동의하지 않습니다
+review-aborted = 업로드가 중단되었습니다. 녹음을 삭제하시겠습니까?
+review-submit-title = 검토 및 제출
+review-submit-msg = 녹음해 주셔서 감사합니다!<lineBreak></lineBreak>아래의 클립을 검토하고 제출하십시오.
+review-recording = 검토
+review-rerecord = 다시 녹음
+review-cancel = 제출 취소
+review-keep-recordings = 녹음 유지
+review-delete-recordings = 내 녹음 삭제
 
 ## Download Modal
 
+download-title = 다운로드를 시작하였습니다.
+download-helpus = 음성 기술을 중심으로 커뮤니티를 구축할 수 있게 도와주시고 이메일을 통해 연락을 유지해 주세요.
+download-form-email =
+    .label = 이메일 입력
+    .value = 감사합니다, 연락 드리겠습니다.
+download-back = Common Voice 데이타 세트로 돌아가기
+download-no = 사양하겠습니다
 
 ## Contact Modal
 
+contact-title = 연락처 서식
+contact-form-name =
+    .label = 이름
+contact-form-message =
+    .label = 메시지
+contact-required = *필수
 
 ## Request Language Modal
 
+request-language-title = 언어 요청
+request-language-form-language =
+    .label = 언어
+request-language-success-title = 언어 요청을 제출하였습니다, 감사합니다.
+request-language-success-content = 곧 언어를 Common Voice에 추가하는 방법에 대해 더 많은 정보를 알려 드리겠습니다.
 
 ## Languages Overview
 
+language-section-in-progress = 진행중
+language-section-in-progress-description = 진행 중인 언어는 현재 우리 커뮤니티의 기여로 만들어지고 있습니다. 진행 상태는 웹 사이트의 지역화와 문장 수집을 종합하여 반영합니다.
+language-section-launched = 출시됨
+language-section-launched-description = 이러한 출시된 언어의 경우 웹 사이트가 성공적으로 지역화되었으며 지속적인 <italic>{ speak }</italic> 와 <italic>{ listen }</italic> 기여를 허용하기 위해 충분한 문장을 수집했습니다.
+languages-show-more = 더 보기
+languages-show-less = 접기
+language-speakers = 말한 사람
+language-meter-in-progress = 진행
+language-total-progress = 총
+language-search-input =
+    .placeholder = 검색
 
 ## New Contribution
 
+action-click = 클릭
+action-tap = 탭
+contribute = 기여하기
+listen = 듣기
+skip = 건너뛰기
+shortcuts = 바로 가기
+clips = 클립
+goal-type-record = 녹음
+goal-type-validation = 유효성
+toward-goal = 그 <goalPercentage></goalPercentage>는 오늘의 Common Voice { $goalType } 목표를 향한 것입니다. 감사합니다.
+goal-help = Common Voice가 오늘의 오늘의 { $goalType } 목표의 <goalPercentage></goalPercentage>에 도달할 수 있도록 도왔습니다!
+contribute-more =
+    { $count ->
+       *[other] { $count } 번 더 할 준비가 되셨습니까?
+    }
+record-cta = 녹음 시작
