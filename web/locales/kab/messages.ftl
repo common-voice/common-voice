@@ -15,6 +15,8 @@ loading = Asali…
 
 ## Languages
 
+as = Tasamizt
+az = Tazerbiǧanit
 bn = Tabengalit
 br = Tabrutunt
 ca = Takatalant
@@ -36,6 +38,7 @@ id = Tandunizit
 it = Taṭeyanit
 ka = Tajyuṛjit
 kab = Taqbaylit
+kk = Takazaxt
 ko = Takurit
 kw = Takuṛnikt
 mk = Tamasidunit
