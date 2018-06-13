@@ -339,30 +339,34 @@ export default class DB {
     path: string;
     sentence: string;
     sentenceId: string;
-  }): Promise<DBClip> {
-    sentenceId = sentenceId || hash(sentence);
-    const [localeId] = await Promise.all([
-      this.getLocaleId(locale),
-      this.saveUserClient(client_id),
-    ]);
-    const bucket = await this.getOrSetUserBucket(client_id, locale, 'train');
-    await this.mysql.query(
-      `
-        INSERT IGNORE INTO clips (client_id, original_sentence_id, path, sentence, locale_id, bucket)
+  }): Promise<string> {
+    try {
+      sentenceId = sentenceId || hash(sentence);
+      const [localeId] = await Promise.all([
+        this.getLocaleId(locale),
+        this.saveUserClient(client_id),
+      ]);
+      const bucket = await this.getOrSetUserBucket(client_id, locale, 'train');
+
+      await this.mysql.query(
+        `
+          INSERT IGNORE INTO clips (client_id, original_sentence_id, path, sentence, locale_id, bucket)
           VALUES (?, ?, ?, ?, ?, ?)
-      `,
-      [client_id, sentenceId, path, sentence, localeId, bucket]
-    );
-    await this.mysql.query(
-      `
-        UPDATE sentences SET clips_count = clips_count + 1 WHERE id = ?
-      `,
-      [sentenceId]
-    );
-    const [[row]] = await this.mysql.query(
-      'SELECT * FROM clips WHERE id = LAST_INSERT_ID()'
-    );
-    return row;
+        `,
+        [client_id, sentenceId, path, sentence, localeId, bucket]
+      );
+      await this.mysql.query(
+        `
+          UPDATE sentences
+          SET clips_count = clips_count + 1
+          WHERE id = ?
+        `,
+        [sentenceId]
+      );
+      return bucket;
+    } catch (e) {
+      console.error('error saving clip', e);
+    }
   }
 
   async getValidatedClipsCount() {

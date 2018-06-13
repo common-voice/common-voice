@@ -90,9 +90,9 @@ export default class Model {
   }
 
   async saveClip(clipData: any) {
-    const clip = await this.db.saveClip(clipData);
-    if (clip) {
-      this.clipDistribution[clip.bucket]++;
+    const bucket = await this.db.saveClip(clipData);
+    if (bucket) {
+      (this.clipDistribution as any)[bucket]++;
     }
   }
 }
