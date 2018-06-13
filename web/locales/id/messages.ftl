@@ -15,6 +15,8 @@ loading = Memuat…
 
 ## Languages
 
+as = Bahasa Assam
+az = Bahasa Azeri
 bn = Bahasa Bengali
 br = Bahasa Breton
 ca = Bahasa Katalan
@@ -36,6 +38,7 @@ id = Bahasa Indonesia
 it = Bahasa Italia
 ka = Bahasa Georgia
 kab = Bahasa Kabyle
+kk = Bahasa Kazak
 ko = Bahasa Korea
 kw = Bahasa Kornish
 mk = Bahasa Makedonia
