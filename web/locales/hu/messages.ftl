@@ -15,6 +15,8 @@ loading = Betöltés…
 
 ## Languages
 
+as = Asszámi
+az = Azeri
 bn = Bengáli
 br = Breton
 ca = Katalán
@@ -36,6 +38,7 @@ id = Indonéz
 it = Olasz
 ka = Grúz
 kab = Kabil
+kk = Kazak
 ko = Koreai
 kw = Cornwalli
 mk = Macedón
