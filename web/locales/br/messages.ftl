@@ -15,6 +15,7 @@ loading = O kargañ...
 
 ## Languages
 
+as = Asameg
 bn = Bengaleg
 br = Brezhoneg
 ca = Katalaneg
