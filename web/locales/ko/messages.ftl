@@ -193,12 +193,19 @@ faq-firefox-a = CommonVoice는 무한한 잠재력을 가지고 있으며 우리
 faq-quality-q = 음성이 사용되는데 필요한 품질 수준은 어느정도 인가요?
 faq-quality-a = 우리는 음성-텍스트 엔진의 품질이 실제 환경을 반영한 음성 품질이 되기를 바랍니다. 그래서 우리는 다양성을 원합니다. 이를 통해 음성-텍스트 엔진이 배경 대화나 자동차, 환풍기 잡음 등이 있는 다양한 환경을 오류없이 처리하도록 학습할 것입니다.
 faq-hours-q = 음성 수집의 목표가 10,000시간인 이유는 무엇인가요?
+faq-hours-a = 이는 상용 STT 시스템을 교육하는 데 필요한 대략적인 시간입니다.
+faq-source-q = 원본 텍스트의 출처는 어디인가요?
+faq-source-a1 = 현재의 문장들은 기부자들의 기부와 더불어<italic>멋진 인생(It's a Wonderful Life)</italic>과 같은 공개 영화 대본의 대사로부터 나온 것입니다.
+faq-source-a2 = 원본 문장을 <dataLink>이 GitHub 폴더</dataLink>에서 확인할 수 있습니다.
 
 ## Profile
 
+profile-why-title = 왜 프로필을 사용하나요?
+profile-why-content = 음성 제공자의 정보를 제공하면 음성 인식 엔진이 정확성을 높이는데 사용할 수 있어서 제출된 음성 데이터가 CommonVoice에 더 유용하게 됩니다.
 
 ## NotFound
 
+notfound-title = 찾을 수 없음
 
 ## Data
 
