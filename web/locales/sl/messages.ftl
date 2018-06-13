@@ -15,6 +15,8 @@ loading = Nalaganje …
 
 ## Languages
 
+as = asamščina
+az = azerbajdžanščina
 bn = bengalščina
 br = bretonščina
 ca = katalonščina
@@ -36,6 +38,7 @@ id = indonezijščina
 it = italijanščina
 ka = gruzinščina
 kab = kabilščina
+kk = kazaščina
 ko = korejščina
 kw = kornijščina
 mk = makedonščina
@@ -79,6 +82,7 @@ terms = Pogoji
 cookies = Piškotki
 faq = Pogosta vprašanja
 content-license-text = Vsebina je na voljo pod <licenseLink>licenco Creative Commons</licenseLink>
+share-text = Pomagaj stroje naučiti, kako govorijo resnični ljudje. Prispevaj svoj glas na { $link }
 back-top = Nazaj na vrh
 
 ## Home Page
