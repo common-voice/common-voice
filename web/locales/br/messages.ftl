@@ -16,6 +16,7 @@ loading = O kargañ...
 ## Languages
 
 as = Asameg
+az = Azerbaidjaneg
 bn = Bengaleg
 br = Brezhoneg
 ca = Katalaneg
@@ -37,6 +38,7 @@ id = Indonezeg
 it = Italianeg
 ka = Jorjieg
 kab = Kabileg
+kk = Kazakh
 ko = Koreaneg
 kw = Kerneveureg
 mk = Makedoneg
