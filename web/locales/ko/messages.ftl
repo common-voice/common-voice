@@ -316,3 +316,27 @@ contribute-more =
        *[other] { $count } 번 더 할 준비가 되셨습니까?
     }
 record-cta = 녹음 시작
+record-instruction = { $actionType } <recordIcon></recordIcon> 후에 문장을 큰 소리로 읽어주세요
+record-stop-instruction = 끝나면 { $actionType } <stopIcon></stopIcon> 하세요
+record-three-more-instruction = 세번 남았어요!
+record-again-instruction = 잘하셨습니다! <recordIcon></recordIcon> 다음 클립을 녹음해 주세요
+record-again-instruction2 = 계속하세요, <recordIcon></recordIcon> 다시 녹음하세요
+record-last-instruction = <recordIcon></recordIcon> 마지막입니다!
+review-tooltip = 진행하면서 여기서 클립을 검토하고 재녹음 하세요
+unable-speak = 현재 말할 수 없습니까?
+review-instruction = 필요한 경우 클립을 검토하고 재녹음 하세요
+record-submit-tooltip = { $actionType } 준비가 되면 제출
+clips-submitted =
+    { $count ->
+       *[other] { $count } 클립이 제출됨
+    }
+record-abort-title = 녹음을 먼저 끝내시겠습니까?
+record-abort-text = 지금 그만두면 진행된 것을 잃게 됩니다
+record-abort-submit = 클립 제출
+record-abort-continue = 녹음 끝내기
+record-abort-delete = 종료 & 클립 삭제
+listen-instruction = { $actionType } <playIcon></playIcon> 문장을 정확하게 말했나요?
+listen-again-instruction = 잘하셨습니다! <playIcon></playIcon> 준비가 되면 다시 듣기
+listen-3rd-time-instruction = 2개 하셨네요, 계속 하세요! <playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon> 마지막입니다!
+share-title-new = 더 많은 목소리를 찾게 <bold>도와주세요</bold>
