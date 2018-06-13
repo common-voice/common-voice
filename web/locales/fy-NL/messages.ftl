@@ -15,6 +15,8 @@ loading = Lade…
 
 ## Languages
 
+as = Assameesk
+az = Azerbeidzjaansk
 bn = Bingaalsk
 br = Bretonsk
 ca = Katalaansk
@@ -36,6 +38,7 @@ id = Yndonezysk
 it = Italiaansk
 ka = Georgysk
 kab = Kabylysk
+kk = Kazaksk
 ko = Koreaansk
 kw = Kornish
 mk = Masedoanysk
