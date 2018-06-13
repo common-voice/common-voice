@@ -221,6 +221,10 @@ data-get-started = <speechBlogLink>음성인식 시작하기</speechBlogLink>
 data-other-title = 다른 음성 데이타 세트…
 data-other-goto = { $name }로 이동
 data-other-download = 데이타 다운로드
+data-other-librispeech-description = LibriSpeech는 LibriVox 프로젝트에서 읽은 오디오 북에서 파생 된 16Khz의 약 1000 시간의 말뭉치입니다.
+data-other-ted-name = TED-LIUM 말뭉치
+data-other-ted-description = TED-LIUM 말뭉치는 TED 웹 사이트에서 이용할 수 있는 오디오 강연과 번역본으로 만들어졌습니다.
+data-other-voxforge-description = VoxForge는 무료 및 오픈 소스 음성 인식 엔진에서 사용하기 위한 변환된 음성을 수집하도록 설립 되었습니다.
 
 ## Record Page
 
