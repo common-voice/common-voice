@@ -268,6 +268,8 @@ language-search-input =
 
 ## New Contribution
 
+action-click = Kliknite
+action-tap = Tapnite
 contribute = Prispevaj
 listen = Poslušaj
 skip = Preskoči
@@ -290,3 +292,4 @@ record-abort-delete = Izhod in brisanje posnetkov
 listen-instruction = { $actionType } <playIcon></playIcon> ali je bil stavek pravilno izgovorjen?
 listen-3rd-time-instruction = Samo še 2, kar tako naprej! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Še zadnji!
+share-title-new = <bold>Pomagajte nam</bold> najti več glasov
