@@ -15,6 +15,8 @@ loading = Laddar…
 
 ## Languages
 
+as = Assamesiska
+az = Azerbajdzjanska
 bn = Bengaliska
 br = Bretonska
 ca = Katalanska
@@ -36,6 +38,7 @@ id = Indonesiska
 it = Italienska
 ka = Georgiska
 kab = Kabyliska
+kk = Kazakstanska
 ko = Koreanska
 kw = Korniska
 mk = Makedonska
