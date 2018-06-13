@@ -225,6 +225,8 @@ data-other-librispeech-description = LibriSpeech는 LibriVox 프로젝트에서 
 data-other-ted-name = TED-LIUM 말뭉치
 data-other-ted-description = TED-LIUM 말뭉치는 TED 웹 사이트에서 이용할 수 있는 오디오 강연과 번역본으로 만들어졌습니다.
 data-other-voxforge-description = VoxForge는 무료 및 오픈 소스 음성 인식 엔진에서 사용하기 위한 변환된 음성을 수집하도록 설립 되었습니다.
+data-other-tatoeba-description = Tatoeba는 언어 학습에 사용하기 위한 문장, 번역, 음성 오디오의 대규모 데이터베이스입니다. 이 다운로드에는 커뮤니티에서 녹음한 구어체 영어가 포함되어 있습니다.
+data-bundle-button = 데이터 세트 번들 다운로드
 
 ## Record Page
 
