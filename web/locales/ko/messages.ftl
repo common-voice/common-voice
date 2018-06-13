@@ -206,9 +206,21 @@ profile-why-content = 음성 제공자의 정보를 제공하면 음성 인식 �
 ## NotFound
 
 notfound-title = 찾을 수 없음
+notfound-content = 찾고 있는 것이 무엇인지 모르겠습니다.
 
 ## Data
 
+data-download-button = Common Voice 데이타 다운로드
+data-download-yes = 네
+data-download-deny = 아니오
+data-download-license = 라이센스: <licenseLink>CC-0</licenseLink>
+data-download-modal = <size>{ $size }GB</size>를 다운로드하려 합니다. 계속하시겠습니까?
+data-subtitle = 모두가 음성 인식 애플리케이션을 훈련하는 데 사용할 수 있는 공개적인 음성 데이터 세트를 구축하고 있습니다.
+data-explanatory-text = 크고 공개적으로 이용할 수 있는 음성 데이터 세트가 기계 학습 기반 음성 기술의 혁신과 건전한 상업적 경쟁을 촉진한다고 믿습니다. 이것은 전 세계적인 노력이며 모두가 참여하도록 초대합니다. 전 세계의 다양한 목소리를 반영하여 음성 기술이 좀 더 포괄적이 되도록 돕는 목표를 가지고 있습니다.
+data-get-started = <speechBlogLink>음성인식 시작하기</speechBlogLink>
+data-other-title = 다른 음성 데이타 세트…
+data-other-goto = { $name }로 이동
+data-other-download = 데이타 다운로드
 
 ## Record Page
 
