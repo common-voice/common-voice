@@ -118,6 +118,19 @@ export const ACCENTS: any = {
     st_pierre_et_miquelon: 'Français de Saint-Pierre-et-Miquelon',
     rwanda: 'Français du Rwanda',
   },
+  nl: {
+    netherlands: 'Nederlands Nederlands',
+    belgium: 'Belgisch Nederlands',
+    suriname: 'Surinaams Nederlands',
+    france: 'Frans Nederlands',
+    germany: 'Duits Nederlands',
+    curacao: 'Nederlands van Curaçao',
+    aruba: 'Nederlands van Aruba',
+    sint_maarten: 'Nederlands van Sint-Maarten',
+    south_africa: 'Zuid-Afrikaans Nederlands',
+    namibia: 'Namibisch Nederlands',
+    indonesia: 'Indonesisch Nederlands',
+  },
 };
 
 export const AGES = {
