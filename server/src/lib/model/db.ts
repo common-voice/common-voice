@@ -373,6 +373,7 @@ export default class DB {
          SELECT clips.*, SUM(votes.is_valid) AS upvotes_count, SUM(NOT votes.is_valid) AS downvotes_count
          FROM clips
          LEFT JOIN votes ON clips.id = votes.clip_id
+         WHERE locale_id = 1
          GROUP BY clips.id
          HAVING upvotes_count >= 2 AND upvotes_count > downvotes_count
         ) AS valid_clips
