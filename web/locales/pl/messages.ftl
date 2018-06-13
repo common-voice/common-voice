@@ -15,6 +15,8 @@ loading = Wczytywanie…
 
 ## Languages
 
+as = asamski
+az = azerski
 bn = bengalski
 br = bretoński
 ca = kataloński
@@ -36,6 +38,7 @@ id = indonezyjski
 it = włoski
 ka = gruziński
 kab = kabylski
+kk = kazachski
 ko = koreański
 kw = kornijski
 mk = macedoński
