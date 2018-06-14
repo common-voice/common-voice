@@ -15,8 +15,10 @@ loading = Yükleniyor…
 
 ## Languages
 
+as = Assamca
 az = Azerice
 bn = Bengalce
+br = Bretonca
 ca = Katalanca
 cs = Çekçe
 cv = Çuvaşça
@@ -26,6 +28,7 @@ de = Almanca
 el = Yunanca
 en = İngilizce
 es = İspanyolca
+et = Estonca
 fr = Fransızca
 fy-NL = Frizce
 ga-IE = İrlandaca
@@ -89,6 +92,7 @@ wall-of-text-more-mobile = Büyük şirketlerin kullandığı verilerin çoğu i
 show-wall-of-text = Devamını oku
 help-us-title = Cümleleri doğrulamamıza yardım et!
 help-us-explain = Oynatma tuşuna basıp dinleyin: Konuşmacı, aşağıdaki cümleyi doğru şekilde okumuş mu?
+no-clips-to-validate = Bu dilde dinlenecek kayıt kalmadı. Yeni konuşmalar kaydederk kuyruğu doldurmamıza yardım edebilirsiniz.
 vote-yes = Evet
 vote-no = Hayır
 toggle-play-tooltip = Oynatma modunu açıp kapatmak için { shortcut-play-toggle } tuşuna basın
@@ -212,6 +216,7 @@ license-mixed = Karma
 ## Record Page
 
 record-platform-not-supported = Maalesef kullandığınız platform şu an desteklenmemektedir.
+record-platform-not-supported-desktop = Bilgisayarlarınıza son sürümü indirebilirsiniz:
 record-platform-not-supported-ios = <bold>iOS</bold> kullanıcıları bedava uygulamamızı indirebilir:
 record-must-allow-microphone = Mikrofon erişimine izin vermeniz gerekiyor.
 record-retry = Yeniden dene
@@ -222,10 +227,12 @@ record-error-too-quiet = Bu kayıt çok sessiz oldu.
 record-submit-success = Gönderi tamamlandı! Yeni bir kayıt yapmak ister misiniz?
 record-help = Lütfen kayıt düğmesine bastıktan sonra yukarıdaki cümleyi yüksek sesle okuyun.
 record-cancel = Yeniden kaydetmeyi iptal et
+review-terms = Common Voice’u kullandığınızda <termsLink>Koşullarımızı</termsLink> ve <privacyLink>Gizlilik İlkelerimizi</privacyLink> kabul etmiş olursunuz.
 terms-agree = Kabul ediyorum
 terms-disagree = Kabul etmiyorum
 review-aborted = Yükleme iptal edildi. Kayıtlarınızı silmek istiyor musunuz?
 review-submit-title = İncele ve gönder
+review-submit-msg = Kayıt için teşekkürler!<lineBreak></lineBreak>Şimdi aşağıdaki klipleri inceleyin ve gönderin.
 review-recording = İnceleme
 review-rerecord = Yeniden kaydet
 review-cancel = Gönderimi iptal et
@@ -235,6 +242,7 @@ review-delete-recordings = Kayıtlarımı sil
 ## Download Modal
 
 download-title = İndirme işleminiz başladı.
+download-helpus = Ses teknolojileriyle ilgilenen bir topluluk oluşturmamıza yardımcı olun: E-postalarımıza kaydolun.
 download-form-email =
     .label = E-postanızı yazın
     .value = Teşekkür ederiz.
@@ -256,6 +264,7 @@ request-language-title = Dil İsteği
 request-language-form-language =
     .label = Dil
 request-language-success-title = Dil isteği başarıyla gönderildi. Teşekkür ederiz.
+request-language-success-content = Dilinizi Common Voice’a nasıl ekleyeceğiniz hakkında daha fazla bilgi vermek için yakında size ulaşacağız.
 
 ## Languages Overview
 
@@ -280,12 +289,17 @@ shortcuts = Kısayollar
 clips = Klipler
 goal-type-record = kaydediyor
 goal-type-validation = doğrulama
+toward-goal = Common Voice’un bugünkü { $goalType } hedefinin <goalPercentage></goalPercentage> kadarına ulaştık. Teşekkürler
+goal-help = Common Voice’un günlük { $goalType } hedefinin <goalPercentage></goalPercentage> kadarına ulaşmasına yardım ettiniz!
 record-cta = Kaydetmeye başla
 record-stop-instruction = Bitirince { $actionType } <stopIcon></stopIcon>
 record-three-more-instruction = Üç tane kaldı!
-record-again-instruction2 = Böyle devam et, tekrar kaydet <recordIcon></recordIcon>
+record-again-instruction = Harika! <recordIcon></recordIcon> Sonraki klibinizi kaydedin
+record-again-instruction2 = Böyle devam edin, tekrar kaydedin <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Bu son!
 unable-speak = Şu anda konuşamıyor musunuz?
+review-instruction = Kayıtları gözden geçirip gerekirse yeniden kaydedin
+record-submit-tooltip = { $actionType } hazır olduğunuzda gönderin
 clips-submitted =
     { $count ->
         [one] { $count } klip gönderildi!
