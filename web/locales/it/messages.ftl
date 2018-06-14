@@ -15,6 +15,8 @@ loading = Caricamento in corso…
 
 ## Languages
 
+as = Assamese
+az = Azerbaigiano
 bn = Bengalese
 br = Bretone
 ca = Catalano
@@ -36,6 +38,7 @@ id = Indonesiano
 it = Italiano
 ka = Georgiano
 kab = Cabilo
+kk = Kazako
 ko = Coreano
 kw = Cornico
 mk = Macedone
