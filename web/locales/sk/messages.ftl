@@ -15,6 +15,8 @@ loading = Načítava sa…
 
 ## Languages
 
+as = asámčina
+az = azerbajdžančina
 bn = bengálčina
 br = bretónčina
 ca = katalánčina
@@ -36,6 +38,7 @@ id = indonézština
 it = taliančina
 ka = gruzínčina
 kab = kabylčina
+kk = kazaština
 ko = kórejčina
 kw = kornčina
 mk = macedónčina
