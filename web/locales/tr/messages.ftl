@@ -8,7 +8,6 @@ email-input =
     .label = E-posta
 submit-form-action = Gönder
 loading = Yükleniyor…
-audio-loading-error = Özür dileriz! Şu anda ses dosyalarımızı işliyoruz. Lütfen birazdan yeniden deneyin.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -16,6 +15,7 @@ audio-loading-error = Özür dileriz! Şu anda ses dosyalarımızı işliyoruz. 
 
 ## Languages
 
+az = Azerice
 bn = Bengalce
 ca = Katalanca
 cs = Çekçe
@@ -65,6 +65,7 @@ zh-TW = Çince (Tayvan)
 ## Layout
 
 speak = Konuş
+speak-now = Şimdi konuşun
 datasets = Veri kümeleri
 languages = Diller
 profile = Profil
@@ -91,8 +92,16 @@ vote-yes = Evet
 vote-no = Hayır
 toggle-play-tooltip = Oynatma modunu açıp kapatmak için { shortcut-play-toggle } tuşuna basın
 
-## Shortcuts
+## Speak & Listen Shortcuts
 
+
+## Listen Shortcuts
+
+shortcut-play-toggle-label = Başlat/Durdur
+
+## Speak Shortcuts
+
+shortcut-record-toggle-label = Kaydet/Durdur
 request-language-text = Dilinizi henüz Common Voice’ta göremiyor musunuz?
 request-language-button = Yeni dil iste
 
@@ -118,7 +127,6 @@ profile-form-username =
     .label = Kullanıcı adı
 profile-form-language =
     .label = Dil
-profile-form-more-languages = Yakında başka diller de geliyor!
 profile-form-accent =
     .label = Aksan
 profile-form-age =
@@ -222,7 +230,6 @@ download-no = Hayır
 ## Contact Modal
 
 contact-title = İletişim Formu
-contact-cancel = İptal
 contact-form-name =
     .label = Adınız
 contact-form-message =
@@ -232,7 +239,6 @@ contact-required = *gerekli
 ## Request Language Modal
 
 request-language-title = Dil İsteği
-request-language-cancel = Formdan çık
 request-language-form-language =
     .label = Dil
 request-language-success-title = Dil isteği başarıyla gönderildi. Teşekkür ederiz.
