@@ -93,6 +93,7 @@ home-title = Common Voice projesi makinelere gerçek insanların nasıl konuştu
 home-cta = Konuşarak katkı sağla!
 wall-of-text-start = Ses doğaldır, insanidir. Bu yüzden makinelerimiz için kullanılabilir ses teknolojileri üretmekle ilgileniyoruz. Ama ses sistemleri yaratmak için çok büyük miktarlarda ses verisine ihtiyaç var.
 wall-of-text-more-mobile = Büyük şirketlerin kullandığı verilerin çoğu insanların çoğunluğunun kullanımına açık değil. Biz bunun yenileşmeyi bastırdığını düşünüyoruz. Bu yüzden ses tanıma sistemlerini herkese açık hale getirmek için Common Voice projesini başlattık.
+wall-of-text-more-desktop = Herkesin cihazlara ve web'e yönelik yenilikçi uygulamalar geliştirmede kullanabileceği, açık kaynaklı bir ses veritabanı oluşturmamıza yardımcı olmak için sesinizi bağışlayabilirsiniz.<lineBreak></lineBreak>Ggerçek insanların nasıl konuştuğunu makinelere öğretmek için bir cümle okuyun. Kaliteyi artırmak için diğer gönüllülerin kayıtlarını kontrol edin. Bu kadar basit!
 show-wall-of-text = Devamını oku
 help-us-title = Cümleleri doğrulamamıza yardım et!
 help-us-explain = Oynatma tuşuna basıp dinleyin: Konuşmacı, aşağıdaki cümleyi doğru şekilde okumuş mu?
@@ -165,10 +166,13 @@ female = Kadın
 # Gender
 other = Diğer
 why-profile-title = Neden profil oluşturmalıyım?
+why-profile-text = kendiniz hakkında biraz bilgiler verirseniz, Common Voice’a gönderdiğiniz ses verilerini doğruluk artırma amacıyla kullanan konuşma tanıma motorları için bu veriler daha yararlı olacaktır.
 edit-profile = Profili düzenle
 profile-create = Profil oluştur
 profile-create-success = Profil başarıyla oluşturuldu!
 profile-close = Kapat
+profile-clear-modal = Profil verilerinizi silerseniz bu demografik bilgiler artık ses kayıtlarınızla birlikte Common Voice'a gönderilmeyecektir.
+profile-explanation = Profil oluşturarak hem ilerlemenizi takip edebilir hem de ses verilerimizin daha verimli olmasını sağlayabilirsiniz.
 
 ## FAQ
 
