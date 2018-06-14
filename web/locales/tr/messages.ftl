@@ -37,9 +37,12 @@ hu = Macarca
 id = Endonezce
 it = İtalyanca
 ka = Gürcüce
+kab = Berberice
 kk = Kazakça
 ko = Korece
+kw = Kernevekçe
 mk = Makedonca
+nb-NO = Norveç Bokmål
 ne-NP = Nepalce
 nl = Felemenkçe
 nn-NO = Norveççe (Nynorsk)
@@ -81,6 +84,7 @@ cookies = Çerezler
 faq = SSS
 content-license-text = İçerikler <licenseLink>Creative Commons lisansı</licenseLink> ile sunulmaktadır
 share-title = Sesini bağışlayacak birilerini bulmamıza yardım et!
+share-text = Makinelere gerçek insanların nasıl konuştuğunu öğretin: { $link } ile sesinizi bağışlayın 
 back-top = Başa dön
 
 ## Home Page
@@ -99,6 +103,8 @@ toggle-play-tooltip = Oynatma modunu açıp kapatmak için { shortcut-play-toggl
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = a
 
 ## Listen Shortcuts
 
@@ -291,6 +297,11 @@ goal-type-record = kaydediyor
 goal-type-validation = doğrulama
 toward-goal = Common Voice’un bugünkü { $goalType } hedefinin <goalPercentage></goalPercentage> kadarına ulaştık. Teşekkürler
 goal-help = Common Voice’un günlük { $goalType } hedefinin <goalPercentage></goalPercentage> kadarına ulaşmasına yardım ettiniz!
+contribute-more =
+    { $count ->
+        [one] { $count } tane daha yapmaya hazır mısın?
+       *[other] { $count } tane daha yapmaya hazır mısın?
+    }
 record-cta = Kaydetmeye başla
 record-stop-instruction = Bitirince { $actionType } <stopIcon></stopIcon>
 record-three-more-instruction = Üç tane kaldı!
@@ -310,4 +321,8 @@ record-abort-text = Şimdi çıkarsanız yaptıklarınız kaydedilmeyecek
 record-abort-submit = Klipleri gönder
 record-abort-continue = Kaydı bitir
 record-abort-delete = Klipleri sil ve çık
+listen-instruction = { $actionType }<playIcon></playIcon> cümle doğru okunmuş mu?
+listen-again-instruction = Çok iyi iş! <playIcon></playIcon> Hazır olduğunuzda yeniden dinleyin.
+listen-3rd-time-instruction = İkisi gitti, çalışmaya devam! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Son bir tane!
+share-title-new = Daha fazla ses bulmamıza <bold>yardım edin</bold>
