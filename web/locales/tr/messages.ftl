@@ -34,6 +34,7 @@ hu = Macarca
 id = Endonezce
 it = İtalyanca
 ka = Gürcüce
+kk = Kazakça
 ko = Korece
 mk = Makedonca
 ne-NP = Nepalce
@@ -97,10 +98,22 @@ toggle-play-tooltip = Oynatma modunu açıp kapatmak için { shortcut-play-toggl
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = b
 shortcut-play-toggle-label = Başlat/Durdur
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = e
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = h
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = k
 shortcut-record-toggle-label = Kaydet/Durdur
 request-language-text = Dilinizi henüz Common Voice’ta göremiyor musunuz?
 request-language-button = Yeni dil iste
@@ -202,6 +215,7 @@ record-platform-not-supported = Maalesef kullandığınız platform şu an deste
 record-platform-not-supported-ios = <bold>iOS</bold> kullanıcıları bedava uygulamamızı indirebilir:
 record-must-allow-microphone = Mikrofon erişimine izin vermeniz gerekiyor.
 record-retry = Yeniden dene
+record-no-mic-found = Mikrofon bulunamadı.
 record-error-too-short = Kayıt çok kısa.
 record-error-too-long = Kayıt çok uzun.
 record-error-too-quiet = Bu kayıt çok sessiz oldu.
@@ -250,6 +264,7 @@ language-section-launched = Yayımlandı
 languages-show-more = Daha fazlasını göster
 languages-show-less = Daha az göster
 language-speakers = Konuşmacı
+language-meter-in-progress = İlerleme
 language-total-progress = Toplam
 language-search-input =
     .placeholder = Ara
@@ -258,6 +273,7 @@ language-search-input =
 
 action-click = tıklayın
 action-tap = dokunun
+contribute = Katkıda bulun
 listen = Dinle
 skip = Atla
 shortcuts = Kısayollar
@@ -267,6 +283,9 @@ goal-type-validation = doğrulama
 record-cta = Kaydetmeye başla
 record-stop-instruction = Bitirince { $actionType } <stopIcon></stopIcon>
 record-three-more-instruction = Üç tane kaldı!
+record-again-instruction2 = Böyle devam et, tekrar kaydet <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Bu son!
+unable-speak = Şu anda konuşamıyor musunuz?
 clips-submitted =
     { $count ->
         [one] { $count } klip gönderildi!
