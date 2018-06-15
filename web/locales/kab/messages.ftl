@@ -51,6 +51,7 @@ pl = Tapulunit
 pt-BR = Tapuṛtugit (Brizil)
 ro = Taṛumanit
 ru = Tarusit
+sah = Tasaxit
 sk = Tasluvakt
 sl = Tasluvinit
 sq = Talbanit
