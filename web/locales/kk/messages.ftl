@@ -69,7 +69,9 @@ request-language-success-content = Таяу арада өзіңіздің тіл
 ## Languages Overview
 
 language-section-in-progress = Орындалуда
+language-section-in-progress-description = Ағымдағы тілдер еріктілер қауымдастығы өз үлестерін қоса алу үшін дайындалып жатыр;  Ілгерілік көрсеткіштері веб-сайттың тілдерге қаншалықты аударылғандығын және жиналған сөйлемдер саны туралы ақпарат береді.
 language-section-launched = Іске қосылды
+language-section-launched-description = Іске қосылған тілдер үшін веб-сайт сәтті аударылды, сонымен қоса, <italic>{ speak }</italic> және <italic>{ listen }</italic> түрінде үлес қосуға рұқсат берілу үшін жеткілікті сөйлемдер жиналды.
 languages-show-more = Толығырақ көру
 languages-show-less = Азырақ көру
 language-speakers = Спикерлер
@@ -87,5 +89,12 @@ listen = Тыңдаңыз
 skip = Өткізіңіз
 shortcuts = Таңбашалар
 clips = Клиптер
-goal-type-record = жазба
+goal-type-record = жазу
 goal-type-validation = тексеру
+contribute-more =
+    { $count ->
+       *[other] Тағы { $count } -н жасауға дайынсыз ба?
+    }
+record-cta = Жазуды бастау
+record-three-more-instruction = Үшеуі қалды!
+record-again-instruction = Керемет! Келесі клипіңізді жазыңыз <recordIcon></recordIcon>
