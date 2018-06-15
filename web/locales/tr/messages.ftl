@@ -184,6 +184,7 @@ faq-important-a = Ses doğaldır, ses insancıldır. İletişim kurmanın en kol
 faq-get-q = Common Voice verilerini nasıl elde edebilirim?
 faq-get-a = Veri kümesi, <licenseLink>CC-0</licenseLink> lisansıyla <downloadLink>indirme sayfamızdan</downloadLink> indirilebilir durumda.
 faq-mission-q = Common Voice neden Mozilla misyonunun bir parçası?
+faq-mission-a = Mozilla, web’i herkes için açık ve erişilebilir tutmaya söz vermiştir. Bunu başarmak için web yapımcılarını Common Voice gibi projelerle güçlendirmeliyiz. Ses teknolojilerinin günlük hayatımıza girdiği günümüzde, bu teknolojilerin tüm kullanıcılara eşit şekilde hizmet etmeleri gerektiğine inanıyoruz. Ses teknolojilerini geliştirir ve test ederken daha fazla dil, aksan ve demografik çeşitliliğin kapsanması gerekiyor. Mozilla olarak biz, sağlıklı ve canlı bir internet görmek istiyoruz. Böyle bir internet için de geliştiricilere yeni, sıra dışı projeler inşa ederken kullanabilecekleri ses verileri sağlamamız gerekiyor. Common Voice, hem Mozilla çalışanlarına hem de dünyadaki tüm geliştiricilere yardımcı olacak, açık bir kaynak olacaktır.
 faq-native-q = Ana dili { $lang } olmayan ve aksanlı konuşan bir konuşmacıyım, yine de katkıda bulunmamı istiyor musunuz?
 faq-native-a = Evet, sesinizi kesinlikle istiyoruz. Common Voice'un bir amacı da olabildiğince fazla farklı aksanı toplamaktır, böylece bilgisayarlar <bold>herkesi</bold> konuştuklarında daha iyi anlayabilir.
 faq-firefox-q = Common Voice aracılığıyla konuşmayı metne dönüştürme özelliği Firefox’a eklenecek mi?
@@ -313,6 +314,7 @@ contribute-more =
        *[other] { $count } tane daha yapmaya hazır mısın?
     }
 record-cta = Kaydetmeye başla
+record-instruction = { $actionType } <recordIcon></recordIcon>sonra cümleyi net bir şekilde okuyun
 record-stop-instruction = Bitirince { $actionType } <stopIcon></stopIcon>
 record-three-more-instruction = Üç tane kaldı!
 record-again-instruction = Harika! <recordIcon></recordIcon> Sonraki klibinizi kaydedin
