@@ -47,6 +47,7 @@ pl = Polish
 pt-BR = Portuguese (Brazil)
 ro = Romanian
 ru = Russian
+sah = Sakha
 sk = Slovak
 sl = Slovenian
 sq = Albanian
