@@ -350,7 +350,7 @@ export default class DB {
 
       await this.mysql.query(
         `
-          INSERT IGNORE INTO clips (client_id, original_sentence_id, path, sentence, locale_id, bucket)
+          INSERT INTO clips (client_id, original_sentence_id, path, sentence, locale_id, bucket)
           VALUES (?, ?, ?, ?, ?, ?)
         `,
         [client_id, sentenceId, path, sentence, localeId, bucket]
