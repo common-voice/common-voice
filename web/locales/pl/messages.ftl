@@ -51,6 +51,7 @@ pl = polski
 pt-BR = portugalski (Brazylia)
 ro = rumuński
 ru = rosyjski
+sah = jakucki
 sk = słowacki
 sl = słoweński
 sq = albański
