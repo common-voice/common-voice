@@ -190,6 +190,7 @@ faq-native-a = Evet, sesinizi kesinlikle istiyoruz. Common Voice'un bir amacı d
 faq-firefox-q = Common Voice aracılığıyla konuşmayı metne dönüştürme özelliği Firefox’a eklenecek mi?
 faq-firefox-a = Common Voice’un potansiyeli çok büyük. Firefox dahil olmak üzere birçok Mozilla ürününde konuşma arayüzlerini nasıl kullanabileceğimizi planlama aşamasındayız.
 faq-quality-q = Kaydın kullanılabilmesi için gerekli olan kalite seviyesi nedir?
+faq-quality-a = Ses kalitesinin konuşmayı metne dönüştürme sisteminin (KMDS) göreceği şekilde olmasını istiyoruz. Bu nedenle çeşitlilik istiyoruz. Bu sayede KMDS'e değişik durumlarda söyleneni anlamasını öğretiyoruz.
 faq-hours-q = Neden 10.000 saatlik ses kaydetmeye çalışıyorsunuz?
 faq-hours-a = Bu süre, işe yarar bir STT (konuşmayı metne dönüştürme) sisteminin eğitilmesi için gereken yaklaşık süredir.
 faq-source-q = Kaynak metinler nereden geliyor?
@@ -199,6 +200,7 @@ faq-source-a2 = Kaynak cümlelerimizi <dataLink>bu GitHub klasöründe</dataLink
 ## Profile
 
 profile-why-title = Neden profil oluşturmalıyım?
+profile-why-content = Kendiniz hakkında biraz bilgi verirseniz, Common Voice’a gönderdiğiniz ses verileri, doğruluğu artırmak için bu verileri kullanan Konuşma Tanıma motorlarının daha fazla işine yarayacaktır.
 
 ## NotFound
 
@@ -286,7 +288,7 @@ request-language-success-content = Dilinizi Common Voice’a nasıl ekleyeceğin
 language-section-in-progress = Devam ediyor
 language-section-in-progress-description = Devam eden diller, gönüllülerimiz tarafından katkıya açılmaya hazırlanmaktadır. İlerleme durumları, web sitesi çevirisinde ve cümle derlemede ne durumda olduklarını göstermektedir.
 language-section-launched = Yayımlandı
-language-section-launched-description = Bu diller web sitesinin çeviris tamamlanmış ve sürmekte olan <italic>{ listen }</italic> ve <italic>{ speak }</italic> katkıları için yeterli sayıda cümle derlenmiştir.
+language-section-launched-description = Bu dillerde web sitesinin çevirisi tamamlanmış ve sürmekte olan <italic>{ listen }</italic> ve <italic>{ speak }</italic> katkıları için yeterli sayıda cümle derlenmiştir.
 languages-show-more = Daha fazlasını göster
 languages-show-less = Daha az göster
 language-speakers = Konuşmacı
