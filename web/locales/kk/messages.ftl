@@ -96,5 +96,9 @@ contribute-more =
        *[other] Тағы { $count } -н жасауға дайынсыз ба?
     }
 record-cta = Жазуды бастау
+record-instruction = { $actionType }<recordIcon></recordIcon> содан кейін сөйлемді дауыстап оқыңыз
 record-three-more-instruction = Үшеуі қалды!
 record-again-instruction = Керемет! Келесі клипіңізді жазыңыз <recordIcon></recordIcon>
+record-abort-submit = Клиптерді жіберу
+record-abort-continue = Жазуды аяқтау
+record-abort-delete = Шығу & Клиптерді өшіру
