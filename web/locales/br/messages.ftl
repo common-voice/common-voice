@@ -51,6 +51,7 @@ pl = Poloneg
 pt-BR = Portugaleg (Brazil)
 ro = Roumaneg
 ru = Rusianeg
+sah = Sakha
 sk = Slovakeg
 sl = Sloveneg
 sq = Albaneg
