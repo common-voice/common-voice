@@ -51,6 +51,7 @@ pl = Bahasa Polandia
 pt-BR = Bahasa Portugis (Brasil)
 ro = Bahasa Rumania
 ru = Bahasa Rusia
+sah = Bahasa Sakha
 sk = Bahasa Slowakia
 sl = Bahasa Slovenia
 sq = Bahasa Albania
