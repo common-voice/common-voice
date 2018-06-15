@@ -54,6 +54,8 @@ privacy-info = Сіздің ақпаратынызды біз ұқыпты тү�
 
 ## Contact Modal
 
+contact-form-message =
+    .label = Хабар
 contact-required = *талап етіледі
 
 ## Request Language Modal
@@ -71,6 +73,7 @@ language-section-launched = Іске қосылды
 languages-show-more = Толығырақ көру
 languages-show-less = Азырақ көру
 language-speakers = Спикерлер
+language-meter-in-progress = Ілгерілік
 language-total-progress = Барлығы
 language-search-input =
     .placeholder = Іздеу
@@ -78,3 +81,11 @@ language-search-input =
 ## New Contribution
 
 action-click = Басыңыз
+action-tap = Түртіңіз
+contribute = Үлес қосу
+listen = Тыңдаңыз
+skip = Өткізіңіз
+shortcuts = Таңбашалар
+clips = Клиптер
+goal-type-record = жазба
+goal-type-validation = тексеру
