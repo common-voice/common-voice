@@ -287,9 +287,9 @@ request-language-success-content = Kami akan tetap terhubung dengan lebih banyak
 
 ## Languages Overview
 
-language-section-in-progress = Sedang diproses
+language-section-in-progress = Sedang Diproses
 language-section-in-progress-description = Saat ini, bahasa-bahasa dalam pengembangan sedang dibangun untuk kontribusi oleh komunitas kami; kemajuan mereka mencerminkan kemajuan keseluruhan pelokalan situs web dan fase pengumpulan kalimat.
-language-section-launched = Telah diluncurkan
+language-section-launched = Telah Diluncurkan
 language-section-launched-description = Untuk bahasa-bahasa yang telah diluncurkan, situs web telah berhasil dilokalkan dan memiliki kalimat terkoleksi yang cukup, memungkinkan untuk berlangsungnya kontribusi <italic>{ speak }</italic> dan <italic>{ listen }</italic>.
 languages-show-more = Lebih Banyak
 languages-show-less = Lebih Sedikit
