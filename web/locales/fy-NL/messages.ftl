@@ -51,6 +51,7 @@ pl = Poalsk
 pt-BR = Portugeesk (Braziliaansk)
 ro = Roemeensk
 ru = Russysk
+sah = Sakha
 sk = Slowaaksk
 sl = Sloveensk
 sq = Albaneesk
