@@ -86,12 +86,25 @@ license-mixed = Аралаш
 
 ## Record Page
 
+record-platform-not-supported = Кечиресиз сиздин платформаңыз учурда колдоого алынбайт.
+record-platform-not-supported-desktop = Дайыма колдонулуучу компьютерге акыркы жаңылыктардан жүктөй аласыз:
+record-platform-not-supported-ios = <bold>iOS</bold>-тун колдонучуулары биздин app-ти акысыз жүктөй алышат:
+record-help = Жаздыруу үчүн кнопканы басыңыз, андан соң жогорудагы сүйлөмдү үнүңүздү чыгарып окуңуз.
+record-cancel = Кайра жаздыруудан баш тартуу
+review-terms = Сиз Common Voice-ту колдонуу менен биздин <termsLink>Келишим</termsLink> жана <privacyLink>Конфиденциалдуулугубузга</privacyLink> макулдугуңузду бересиз
 
 ## Download Modal
 
+download-helpus = Бизге үн технологиясы аянасында коом түзгөнгө жардам бериңиз жана электронңдук почта аркылуу байланышта болуңуз.
+download-form-email =
+    .label = Эмейлиңерди киргизгиле
+    .value = Рахмат, биз байланышта болобуз.
+download-back = Common Voice берилиштерине кайтуу
+download-no = Жок, Рахмат
 
 ## Contact Modal
 
+contact-title = Байланыш Формасы
 
 ## Request Language Modal
 
@@ -101,3 +114,17 @@ license-mixed = Аралаш
 
 ## New Contribution
 
+toward-goal = Бул <goalPercentage></goalPercentage> Common Voice-тун бүгүнкү { $goalType } максаты. Рахмат!
+goal-help = Common Voice-тун күндүк { $goalType } максатына  <goalPercentage></goalPercentage> жетүүгө жардам бердиңиз!
+contribute-more =
+    { $count ->
+        [one] { $count }-ны дагы улантууга даярсызбы?
+       *[other] { $count }-ны дагы улантууга даярсызбы?
+    }
+record-instruction = { $actionType } <recordIcon></recordIcon> андан кийин сүйлөмдү үн чыгарып окууңуз
+record-stop-instruction = Даяр болгондо { $actionType } <stopIcon></stopIcon>
+record-three-more-instruction = үчөө калды!
+review-tooltip = Улантканча үзүндүңүздү текшерип жана кайра жаздырыңыз
+review-instruction = Эгер муктаждык болсо үзүндүңүздү карап чыгып, кайра жаздырыңыз
+record-abort-text = Азыр чыгып кетсеңиз анда прогресиңизди жоготуп аласыңыз
+listen-instruction = Сүйлөмдөрдү так жана даана айтыштыбы?
