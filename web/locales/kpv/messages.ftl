@@ -32,16 +32,40 @@ ka = Грузин кыв
 kab = Кабил кыв
 kk = Казах кыв
 ko = Корея кыв
+kw = Керновса кыв
+mk = Македон кыв
+nb-NO = Норвег кыв (букмол)
+ne-NP = Непал кыв
+nl = Нидерланд кыв
+nn-NO = Норвег кыв (нюношк)
+or = Одиа кыв
+pl = Поляк кыв
+pt-BR = Португал кыв (Бразилия)
+ro = Румын кыв
+ru = Роч кыв
+sah = Саха кыв
+sk = Словак кыв
+sl = Словен кыв
+sq = Албан кыв
+sr = Серб кыв
+sv-SE = Швед кыв
+ta = Тамил кыв
+te = Телугу кыв
+th = Таи кыв
 tr = Турок кыв
 tt = Тотара кыв
 uk = Украин кыв
 uz = Узбек кыв
+zh-CN = Китай кыв (Китай)
+zh-TW = Китай кыв (Тайвань)
 
 # [/]
 
 
 ## Layout
 
+speak = Сёрнит
+speak-now = Сёрнит ӧні
 languages = Кывъяс
 help = Отсӧг
 
@@ -65,9 +89,17 @@ vote-no = Абу
 
 ## ProfileForm
 
+profile-form-language =
+    .label = Кыв
+profile-form-age =
+    .label = Арлыд
+# Gender
+other = Мӧд
 
 ## FAQ
 
+faq-what-q = Мый сійӧ Common Voice?
+faq-important-q = Мыйля сійӧ колана?
 
 ## Profile
 
