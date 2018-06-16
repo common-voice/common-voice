@@ -109,21 +109,38 @@ faq-important-q = Мыйля сійӧ колана?
 
 ## Data
 
+data-download-yes = Да
 
 ## Record Page
 
+record-error-too-short = Гижӧд вывти дзеньыд.
+record-error-too-long = Гижӧд вывті кузь.
 
 ## Download Modal
 
 
 ## Contact Modal
 
+contact-form-name =
+    .label = Ним
+contact-required = *колӧ
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = Кыв
 
 ## Languages Overview
 
+languages-show-more = Аддзы унджык
+languages-show-less = Аддзы этшаджык
+language-speakers = Сёрнитысьяс
+language-total-progress = Ставнас
+language-search-input =
+    .placeholder = Корсьны
 
 ## New Contribution
 
+listen = Кывзы
+record-last-instruction = Медбӧръя!
+listen-last-time-instruction = Медбӧръя!
