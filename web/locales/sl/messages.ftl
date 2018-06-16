@@ -51,6 +51,7 @@ pl = poljščina
 pt-BR = portugalščina (Brazilija)
 ro = romunščina
 ru = ruščina
+sah = jakutščina
 sk = slovaščina
 sl = slovenščina
 sq = albanščina
