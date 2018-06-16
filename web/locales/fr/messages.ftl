@@ -15,6 +15,8 @@ loading = Chargement…
 
 ## Languages
 
+as = Assamais
+az = Azerbaïdjanais
 bn = Bengali
 br = Breton
 ca = Catalan
@@ -36,6 +38,7 @@ id = Indonésien
 it = Italien
 ka = Géorgien
 kab = Kabyle
+kk = Kazakh
 ko = Coréen
 kw = Cornique
 mk = Macédonien
@@ -48,6 +51,7 @@ pl = Polonais
 pt-BR = Portugais (Brésil)
 ro = Roumain
 ru = Russe
+sah = Iakoute
 sk = Slovaque
 sl = Slovène
 sq = Albanais
