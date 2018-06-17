@@ -15,6 +15,8 @@ loading = Cargando…
 
 ## Languages
 
+as = Asamés
+az = Azerí
 bn = Bengalí
 br = Bretón
 ca = Catalán
@@ -36,6 +38,7 @@ id = Indonesio
 it = Italiano
 ka = Georgiano
 kab = Cabilio
+kk = Kazajo
 ko = Coreano
 kw = Córnico
 mk = Macedonio
