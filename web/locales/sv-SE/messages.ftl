@@ -51,6 +51,7 @@ pl = Polska
 pt-BR = Portugisiska (Brasilien)
 ro = Rumänska
 ru = Ryska
+sah = Sakha
 sk = Slovakiska
 sl = Slovenska
 sq = Albanska
