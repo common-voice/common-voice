@@ -51,6 +51,7 @@ pl = Pwyleg
 pt-BR = Portiwgaleg (Brasil)
 ro = Rwmaneg
 ru = Rwsieg
+sah = Sakha
 sk = Slofaceg
 sl = Slofeneg
 sq = Albaneg
