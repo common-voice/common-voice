@@ -51,6 +51,7 @@ pl = Lengyel
 pt-BR = Portugál (Brazília)
 ro = Román
 ru = Orosz
+sah = Szaha
 sk = Szlovák
 sl = Szlovén
 sq = Albán
