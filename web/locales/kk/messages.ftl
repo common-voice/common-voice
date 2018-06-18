@@ -110,6 +110,8 @@ clips-submitted =
        *[other] { $count } клиптер жіберілді.
     }
 record-abort-title = Жазуды бірінші аяқтайсыз ба?
+record-abort-text = Қазір шығып кетсеңіз, Сіздің жетістігіңіз сақталынбайды
 record-abort-submit = Клиптерді жіберу
 record-abort-continue = Жазуды аяқтау
 record-abort-delete = Шығу & Клиптерді өшіру
+listen-instruction = { $actionType } <playIcon></playIcon> Олар сөйлемді дұрыс айтты ма?
