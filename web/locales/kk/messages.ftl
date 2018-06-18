@@ -103,6 +103,7 @@ record-again-instruction = Керемет! Келесі клипіңізді ж�
 record-again-instruction2 = Жалғастырыңыз, қайта жазып көріңіз <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Соңғысы!
 unable-speak = Қазір сөйлей алмайсыз ба?
+review-instruction = Клиптерді қарап шығыңыз, қажет болса, қайта жазыңыз.
 record-abort-submit = Клиптерді жіберу
 record-abort-continue = Жазуды аяқтау
 record-abort-delete = Шығу & Клиптерді өшіру
