@@ -115,3 +115,6 @@ record-abort-submit = Клиптерді жіберу
 record-abort-continue = Жазуды аяқтау
 record-abort-delete = Шығу & Клиптерді өшіру
 listen-instruction = { $actionType } <playIcon></playIcon> Олар сөйлемді дұрыс айтты ма?
+listen-again-instruction = Керемет жұмыс! <playIcon></playIcon> Дайын болған кезіңізде қайта тыңдаңыз
+listen-3rd-time-instruction = 2 төмен, жалғастырыңыз! <playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon> Соңғысы!
