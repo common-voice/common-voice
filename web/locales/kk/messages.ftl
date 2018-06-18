@@ -97,8 +97,12 @@ contribute-more =
     }
 record-cta = Жазуды бастау
 record-instruction = { $actionType }<recordIcon></recordIcon> содан кейін сөйлемді дауыстап оқыңыз
+record-stop-instruction = Аяқтаған уақытта { $actionType } <stopIcon></stopIcon> 
 record-three-more-instruction = Үшеуі қалды!
 record-again-instruction = Керемет! Келесі клипіңізді жазыңыз <recordIcon></recordIcon>
+record-again-instruction2 = Жалғастырыңыз, қайта жазып көріңіз <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Соңғысы!
+unable-speak = Қазір сөйлей алмайсыз ба?
 record-abort-submit = Клиптерді жіберу
 record-abort-continue = Жазуды аяқтау
 record-abort-delete = Шығу & Клиптерді өшіру
