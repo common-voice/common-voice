@@ -9,6 +9,7 @@ privacy-info = Сіздің ақпаратынызды біз ұқыпты тү�
 
 ## Languages
 
+sah = Саха
 
 # [/]
 
@@ -21,12 +22,20 @@ privacy-info = Сіздің ақпаратынызды біз ұқыпты тү�
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = ө
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = о
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = ж
 
 ## ProjectStatus
 
@@ -91,7 +100,8 @@ shortcuts = Таңбашалар
 clips = Клиптер
 goal-type-record = жазу
 goal-type-validation = тексеру
-toward-goal = Бұл бүгінгі Common Voice { $goalType } мақсатының  <goalPercentage></goalPercentage>. Рақмет
+toward-goal = Бұл бүгінгі Common Voice жобасының { $goalType } жоспарының  <goalPercentage></goalPercentage>. Рақмет
+goal-help = Сіз Common Voice жобасының { $goalType } бір күндік жоспарының <goalPercentage></goalPercentage> орындалуына көмек көрсеттіңіз!
 contribute-more =
     { $count ->
        *[other] Тағы { $count } -н жасауға дайынсыз ба?
@@ -103,6 +113,7 @@ record-three-more-instruction = Үшеуі қалды!
 record-again-instruction = Керемет! Келесі клипіңізді жазыңыз <recordIcon></recordIcon>
 record-again-instruction2 = Жалғастырыңыз, қайта жазып көріңіз <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Соңғысы!
+review-tooltip = Қарап шығып, жазуларды қайта жазыңыз
 unable-speak = Қазір сөйлей алмайсыз ба?
 review-instruction = Клиптерді қарап шығыңыз, қажет болса, қайта жазыңыз.
 record-submit-tooltip = { $actionType } Дайын болғанда жіберіңіз.
