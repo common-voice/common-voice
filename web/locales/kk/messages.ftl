@@ -91,6 +91,7 @@ shortcuts = Таңбашалар
 clips = Клиптер
 goal-type-record = жазу
 goal-type-validation = тексеру
+toward-goal = Бұл бүгінгі Common Voice { $goalType } мақсатының  <goalPercentage></goalPercentage>. Рақмет
 contribute-more =
     { $count ->
        *[other] Тағы { $count } -н жасауға дайынсыз ба?
@@ -118,3 +119,4 @@ listen-instruction = { $actionType } <playIcon></playIcon> Олар сөйлем
 listen-again-instruction = Керемет жұмыс! <playIcon></playIcon> Дайын болған кезіңізде қайта тыңдаңыз
 listen-3rd-time-instruction = 2 төмен, жалғастырыңыз! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Соңғысы!
+share-title-new = <bold>Бізге көмектесіңіз</bold> көбірек дауыстар табыңыз
