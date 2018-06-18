@@ -51,6 +51,7 @@ pl = Pools
 pt-BR = Portugees (Brazilië)
 ro = Roemeens
 ru = Russisch
+sah = Jakoets
 sk = Slowaaks
 sl = Sloveens
 sq = Albanees
