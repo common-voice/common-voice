@@ -81,7 +81,7 @@ help = Көмек
 contact = Контакт
 privacy = Құпиялылық
 terms = Шарттар
-cookies = «Cookie» файлдары
+cookies = "Cookies" файлдары
 faq = ЖҚС
 content-license-text = <licenseLink>Creative Commons лицензиясы</licenseLink> бойынша қол жетімді мазмұн
 share-title = Басқа адамдар дауыстарын табуға бізге көмектесіңіз!
@@ -212,13 +212,13 @@ notfound-content = Өкінішке орай, не іздеп жатқаныңы
 data-download-button = Common Voice деректерін жүктеп алу
 data-download-yes = Иә
 data-download-deny = Жоқ
-data-download-license = Лицензия: <licenseLink>CC-0</licenseLink>
+data-download-license = Лицензиясы: <licenseLink>CC-0</licenseLink>
 data-download-modal = Сіз <size> { $size } ГБ</size> жүктеуді бастауды жоспарлап отырсыз, жалғастырасыз ба?
 data-subtitle = Біз сөйлеуге қабілетті қосымшаларды үйрету үшін әрқайсысы пайдалана алатын дауыстардың ашық және жалпыға қолжетімді жиынтығын құрап жатырмыз.
 data-explanatory-text = Үлкен және жалпыға қолжетімді дауыстық жиынтықтар машина-оқытуға негізделген сөйлеу технологиясында инновациялар мен сау коммерциялық бәсекелестікті дамытуға ықпал етеді деп есептейміз. Бұл жаһандық күш және біз барлығын қатысуға шақырамыз. Біздің мақсатымыз - сөйлеу технологиясын әлемдегі әртүрлі дауыстардың саналуандығын көрсете отырып, инклюзивті болу.
 data-get-started = <speechBlogLink>Сөйлеуді танумен жұмысты бастаңыз</speechBlogLink>
 data-other-title = Басқа дауыс деректер жинақтары…
-data-other-goto = { $name } дегенге өту
+data-other-goto = { $name } жобасына өту
 data-other-download = Деректерді жүктеу
 data-other-librispeech-description = LibriSpeech - LibriVox жобасынан аудиокітаптарды оқудан алынған ағылшын тіліндегі сөздерді оқу 1000 сағатқа жуық созылған 16 кГц аудио жазбалары.
 data-other-ted-name = TED-LIUM корпусы
@@ -227,7 +227,7 @@ data-other-voxforge-description = VoxForge Тегін және Бастапқы 
 data-other-tatoeba-description = Tatoeba - бұл сөйлемдер, аудармалар және ауызша дыбысталудың үлкен дерекқоры. Бұл жүктеме  Tatoeba қауымдастығымен жазылған ағылшын тілін қамтиды.
 data-bundle-button = Деректер жиынының жиынтығын жүктеп алу
 data-bundle-description = Common Voice деректер және жоғарыдағы барлық дауыс деректер жиынтығы.
-license = Лицензия: <licenseLink>{ $license }</licenseLink>
+license = Лицензиясы: <licenseLink>{ $license }</licenseLink>
 license-mixed = Аралас
 
 ## Record Page
@@ -272,7 +272,7 @@ contact-title = Байланыс формасы
 contact-form-name =
     .label = Аты
 contact-form-message =
-    .label = Хабар
+    .label = Хабарлама
 contact-required = *талап етіледі
 
 ## Request Language Modal
@@ -280,14 +280,14 @@ contact-required = *талап етіледі
 request-language-title = Тілге сұрау салу
 request-language-form-language =
     .label = Тіл
-request-language-success-title = Тілге сұрау салу сәтті жіберілді. Рақмет.
-request-language-success-content = Таяу арада өзіңіздің тіліңізді Common Voice жобасына қалай қосу керектігі туралы көбірек ақпаратты аласыз.
+request-language-success-title = Тілге сұрау салу сәтті жіберілді. Рахмет.
+request-language-success-content = Жақын арада өз тіліңізді Common Voice жобасына қалай қосу керектігі туралы көбірек ақпаратты аласыз.
 
 ## Languages Overview
 
 language-section-in-progress = Орындалуда
 language-section-in-progress-description = Тілдер еріктілер қауымдастығы өз үлестерін қоса алу үшін дайындалып жатыр;  Ілгерілік көрсеткіштері веб-сайттың тілдерге қаншалықты аударылғандығын және жиналған сөйлемдер саны туралы ақпарат береді.
-language-section-launched = Іске қосылды
+language-section-launched = Іске қосылған
 language-section-launched-description = Іске қосылған тілдер үшін веб-сайт сәтті аударылды, сонымен қоса, <italic>{ speak }</italic> және <italic>{ listen }</italic> түрінде үлес қосуға рұқсат берілу үшін жеткілікті сөйлемдер жиналды.
 languages-show-more = Толығырақ көру
 languages-show-less = Азырақ көру
