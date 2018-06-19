@@ -168,7 +168,12 @@ profile-close = ବନ୍ଦକରନ୍ତୁ
 
 faq-title = ଅଧିକ ପଚରାଯାଉଥିବା ପ୍ରଶ୍ନ
 faq-what-q = Common Voice କଣ?
-faq-important-q = କାହିଁକି ଏହା ଏତେ ଜରୁରୀ?
+faq-what-a = ଭଏସ ରେକଗନେସନ ଟେକନୋଲୋଜି ଆମର ବିଭିନ୍ନ ଯନ୍ତ୍ର ସଙ୍ଗେ ଯୋଗାଯୋଗ କରିବେ ବିପ୍ଳବ ଆଣିପାରିବ । କିନ୍ତୁ ଏହା ଉପଲବ୍ଧ ଥିବା ସିସ୍ଟମସବୁ ମହଙ୍ଗା ଓ  ସୀମିତ ମାଲିକାନରେ ରହିଛି । ସମସ୍ତଙ୍କ ପାଖେ ଭଏସ ରେକଗନେସନ ଟେକନୋଲୋଜି ସୁବିଧାରେ ପହଞ୍ଚାଇବା ପାଇଁ Common Voice ଏକ ପ୍ରକଳ୍ପ । ଲୋକେ ଏକ ବିଶାଳ ଡାଟାବେସକୁ ନିଜ ସ୍ୱର ଦାନକରନ୍ତି ଫଳରେ ଯେକୌଣସି ଜଣେ ସଙ୍ଗେସଙ୍ଗେ ଓ ସହଜରେ ସ୍ୱର ଦ୍ୱାରା ଚାଳିତ ଆପସବୁକୁ ତାଲିମ ଦେଇପାରିବ । ସବୁ ସ୍ୱର ଡାଟା ଡେଭେଲପରମାନଙ୍କ ପାଇଁ ଉପଲବ୍ଧ ହେବ ।
+faq-important-q = ଏହା କାହିଁକି ଏତେ ଜରୁରୀ?
+faq-get-q = ମୁଁ କେମିତି Common Voice ଡାଟା ପାଇବି?
+faq-get-a = ଡାଟାସେଟଟି ଏବେ <downloadLink>ଡାଉନଲୋଡ଼ ପୃଷ୍ଠା</downloadLink>ରେ <licenseLink>CC-0</licenseLink> ଲାଇସେନ୍ସରେ ଉପଲବ୍ଧ ।
+faq-mission-q = Common Voice କାହିଁକି Mozilla ଲକ୍ଷ୍ୟ ଅନ୍ତର୍ଭୁକ୍ତ?
+faq-native-q = ମୁଁ ଜଣେ ଅଣ { $lang } ଭାଷୀ ଓ ମୁଁ ଏକ ଉଚ୍ଚାରଣ ସହ ଏହା କହେ । ଆପଣ ତଥାପି ମୋ ସ୍ୱର ଚାହାନ୍ତି କି?
 
 ## Profile
 
@@ -233,7 +238,14 @@ language-section-launched = ଆରମ୍ଭ ହେଲା
 languages-show-more = ଅଧିକ ଦେଖନ୍ତୁ
 languages-show-less = କମ ଦେଖନ୍ତୁ
 language-speakers = ବକ୍ତା
+language-meter-in-progress = ପ୍ରଗତି
 language-total-progress = ମୋଟ
+language-search-input =
+    .placeholder = ଖୋଜନ୍ତୁ
 
 ## New Contribution
 
+action-click = କ୍ଲିକ
+action-tap = ଟ୍ୟାପ
+contribute = ଯୋଗଦିଅନ୍ତୁ
+listen = ଶୁଣନ୍ତୁ
