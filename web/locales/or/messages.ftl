@@ -249,3 +249,23 @@ action-click = କ୍ଲିକ
 action-tap = ଟ୍ୟାପ
 contribute = ଯୋଗଦିଅନ୍ତୁ
 listen = ଶୁଣନ୍ତୁ
+skip = ଛାଡ଼ନ୍ତୁ
+shortcuts = ସର୍ଟକଟ
+clips = କ୍ଲିପସବୁ
+goal-type-record = ରେକର୍ଡ଼ିଂ
+goal-type-validation = ବୈଧିକରଣ
+toward-goal = ତାହା ଆଜିର Common Voice { $goalType } ଲକ୍ଷ୍ୟର <goalPercentage></goalPercentage> । ସାଧୁବାଦ
+goal-help = ଆପଣ Common Voiceକୁ ତା'ର ଦୈନିକ { $goalType } ଲକ୍ଷ୍ୟରେ <goalPercentage></goalPercentage>ରେ ପହଞ୍ଚିବାରେ ସାହାଯ୍ୟ କରିଛନ୍ତି!
+contribute-more =
+    { $count ->
+       *[other] ଆହୁରି { $count } କରିବାକୁ ଚାହୁଁଛନ୍ତି?
+    }
+record-cta = ରେକର୍ଡ଼ିଂ ଆରମ୍ଭକରନ୍ତୁ
+record-instruction = { $actionType }<recordIcon></recordIcon>ତା'ପରେ ବାକ୍ୟଟିକୁ ବଡ଼ପାଟିରେ ପଢ଼ନ୍ତୁ
+record-stop-instruction = ସରିଲା ପରେ { $actionType }<stopIcon></stopIcon>
+record-three-more-instruction = ଆଉ ତିନୋଟି ବାକି!
+record-again-instruction = ବଢ଼ିଆ! <recordIcon></recordIcon> ନିଜ ପର କ୍ଲିପ ରେକର୍ଡ଼କରନ୍ତୁ
+record-again-instruction2 = ଏମିତି ଚାଲିଥାଉ, ଆହୁରି ରେକର୍ଡ଼କରନ୍ତୁ <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> ଶେଷଟି!
+review-tooltip = ଆଗକୁ ବଢ଼ିଲାବେଳେ କ୍ଲିପଗୁଡ଼ିକ ଏଠାରେ ପରଖି ଓ ଆଉଥରେ ରେକର୍ଡ଼କରନ୍ତୁ
+unable-speak = ଏବେ କହିବାରେ ଅକ୍ଷମ?
