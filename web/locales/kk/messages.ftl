@@ -158,7 +158,7 @@ profile-form-age =
 profile-form-gender =
     .label = Жынысы
 profile-form-submit-save = Сақтау
-profile-form-submit-saved = Сақталды
+profile-form-submit-saved = Сақталған
 profile-keep-data = Деректерді сақтау
 profile-delete-data = Деректерді өшіру
 male = Ер адам
@@ -200,7 +200,7 @@ faq-source-a2 = Осы <dataLink>GitHub бумасы</dataLink> ішіндегі
 ## Profile
 
 profile-why-title = Профайл не үшін қажет?
-profile-why-content = Өзіңіз туралы кейбір ақпарат бере отырып,Common Voice-қа жіберілген дыбыстық деректер олардың дәлдігін жақсарту үшін осы деректерді пайдаланатын сөйлеуді тану қозғалтқыштарына пайдалы болады.
+profile-why-content = Өзіңіз туралы кейбір ақпарат бере отырып, Common Voice-қа жіберілген дыбыстық деректер олардың дәлдігін жақсарту үшін осы деректерді пайдаланатын сөйлеуді тану қозғалтқыштарына пайдалы болады.
 
 ## NotFound
 
@@ -291,7 +291,7 @@ language-section-launched = Іске қосылған
 language-section-launched-description = Іске қосылған тілдер үшін веб-сайт сәтті аударылды, сонымен қоса, <italic>{ speak }</italic> және <italic>{ listen }</italic> түрінде үлес қосуға рұқсат берілу үшін жеткілікті сөйлемдер жиналды.
 languages-show-more = Толығырақ көру
 languages-show-less = Азырақ көру
-language-speakers = Спикерлер
+language-speakers = Сөйлейтіндер
 language-meter-in-progress = Ілгерілік
 language-total-progress = Барлығы
 language-search-input =
