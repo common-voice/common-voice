@@ -8,48 +8,72 @@ email-input =
     .label = ଇମେଲ
 submit-form-action = ପଠାନ୍ତୁ
 loading = ଲୋଡ଼ହେଉଛି...
-audio-loading-error = କ୍ଷମା କରିବେ! ଆମେ ଆମ ଅଡ଼ିଓ ଫାଇଲ ପ୍ରୋସେସକରୁଛୁ । ଦୟାକରି ଟିକେ ଛାଡ଼ି ଆଉଥରେ ଚେଷ୍ଟାକରନ୍ତୁ ।
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
 
 
 ## Languages
 
-ga-IE = ଆଇରିସ
-cs = ଚେକ
-uz = ଉଜବେକ
-de = ଜର୍ମାନ
+as = ଅହମୀୟା
+az = ଆଜରବାଇଜାନି
 bn = ବଙ୍ଗଳା
-sk = ସ୍ଲୋଭାକ
+br = ବ୍ରେଟୋନ
 ca = କାଟାଲାନ
+cs = ଚେକ
+cv = ଚୁଭାସ
+cy = ୱେଲ୍ସ
+da = ଡାନିସ
+de = ଜର୍ମାନ
+el = ଗ୍ରୀକ
+en = ଇଂରାଜୀ
+es = ସ୍ପାନିସ
+et = ଏଷ୍ଟୋନିଆନ
+fr = ଫରାସୀ
+fy-NL = ଫ୍ରିସିଆନ
+ga-IE = ଆଇରିସ
+he = ହିବ୍ରୁ
+hu = ହଙ୍ଗାରିଆନ
+id = ଇଣ୍ଡୋନେସିଆନ
+it = ଇଟାଲୀୟ
+ka = ଜର୍ଜିଆନ
+kab = କାବିଲ
+kk = କାଜାଖ
 ko = କୋରିଆନ
-es-CL = ସ୍ପାନିସ (ଚିଲି)
-th = ଥାଇ
+kw = କର୍ଣ୍ଣିସ
+mk = ମାସିଡୋନିଆନ
+nb-NO = ନରୱେଇଆନ ବକମାଲ
+ne-NP = ନେପାଳୀ
+nl = ଡଚ
+nn-NO = ନରୱେଇଆନ ନାଇନରସ୍କ
+or = ଓଡ଼ିଆ
 pl = ପୋଲିସ
 pt-BR = ପର୍ତ୍ତୁଗୀଜ (ବ୍ରାଜିଲ)
-id = ଇଣ୍ଡୋନେସିଆନ
-zh-TW = ଚାଇନିଜ (ତାଇୱାନ)
-cy = ୱେଲ୍ସ
-el = ଗ୍ରୀକ
-cv = ଚୁଭାସ
+ro = ରୋମାନିଆନ
+ru = ଋଷୀୟ
+sah = ସାଖା
+sk = ସ୍ଲୋଭାକ
+sl = ସ୍ଳୋଭେନିଆନ
+sq = ଆଲବାନିଆନ
+sr = ସର୍ବିଆନ
 sv-SE = ସୁଇଡିସ
-mk = ମାସିଡୋନିଆନ
-nn-NO = ନରୱେଇଆନ ନାଇନରସ୍କ
-fr = ଫରାସୀ
+ta = ତାମିଲ
+te = ତେଲୁଗୁ
+th = ଥାଇ
 tr = ତୁର୍କିସ
 tt = ଟାଟାର
-fy-NL = ଫ୍ରିସିଆନ
-he = ହିବ୍ରୁ
+uk = ଇଉକ୍ରେନିଆନ
+uz = ଉଜବେକ
 zh-CN = ଚାଇନିଜ (ଚାଇନା)
-nl = ଡଚ
-sq = ଆଲବାନିଆନ
-ru = ଋଷୀୟ
-it = ଇଟାଲୀୟ
-en = ଇଂରାଜୀ
+zh-TW = ଚାଇନିଜ (ତାଇୱାନ)
+
+# [/]
+
 
 ## Layout
 
 speak = କହନ୍ତୁ
+speak-now = ଏବେ କହନ୍ତୁ
 datasets = ଡାଟାସେଟ
 languages = ଭାଷାସମୁହ
 profile = ପ୍ରୋଫାଇଲ
@@ -69,20 +93,46 @@ home-cta = କହନ୍ତୁ, ଏଠାରେ ଅଂଶଗ୍ରହଣ କର�
 show-wall-of-text = ଅଧିକ ପଢ଼ନ୍ତୁ
 vote-yes = ହଁ
 vote-no = ନାଁ
+
+## Speak & Listen Shortcuts
+
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = ଚଳାନ୍ତୁ/ବନ୍ଦକରନ୍ତୁ
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
+
+## Speak Shortcuts
+
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = ରେକର୍ଡ଼/ବନ୍ଦ
+request-language-text = Common Voiceରେ ଏଯାଏ ନିଜ ଭାଷା ପାଉନାହାନ୍ତି?
 request-language-button = ଭାଷାଟିଏ ପାଇଁ ଅନୁରୋଧ କରନ୍ତୁ
 
 ## ProjectStatus
 
-status-contribute = ନିଜ ସ୍ୱରଦାନ କରନ୍ତୁ
+status-title = ମୋଟାମୋଟି ପ୍ରକଳ୍ପ ସ୍ଥିତି: ଆମେ ଏବେ ଯାଏ କଣ କରିଛୁ ଦେଖନ୍ତୁ!
+status-contribute = ନିଜ ସ୍ୱର ଦାନକରନ୍ତୁ
 status-hours =
     { $hours ->
-        [one] ଏବେ ଯାଏ ଗୋଟେ ମଞ୍ଜୁର ହୋଇଛି!
-       *[other] ଏବେ ଯାଏ { $hours } ମଞ୍ଜୁର ହୋଇଛି!
+        [one] ଏଯାଏ ଗୋଟେ ଅନୁମୋଦିତ ହୋଇଛି!
+       *[other] ଏଯାଏ { $hours } ଅନୁମୋଦିତ ହୋଇଛି!
     }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = ଆଗାମୀ ଲକ୍ଷ୍ୟ: { $goal }
-status-more-soon = ଆଗକୁ ଅଧିକ ଭାଷା ଆସୁଛି!
 english = ଇଂରାଜୀ
 
 ## ProfileForm
@@ -93,7 +143,6 @@ profile-form-username =
     .label = ବ୍ୟବହାରକାରୀ ନାମ
 profile-form-language =
     .label = ଭାଷା
-profile-form-more-languages = ଚଞ୍ଚଳ ଆହୁରି ଅଧିକ ଭାଷା ଆସୁଛି!
 profile-form-accent =
     .label = ଉଚ୍ଚାରଣ
 profile-form-age =
@@ -109,6 +158,7 @@ female = ମହିଳା
 # Gender
 other = ଅନ୍ଯାନ୍ଯ
 why-profile-title = ପ୍ରୋଫାଇଲଟିଏ କାହିଁକି?
+why-profile-text = ନିଜ ବିଷୟରେ କିଛି ତଥ୍ୟ ଦେବା ଦ୍ୱାରା Common Voiceରେ ଆପଣ ପଠାଉଥିବା ଅଡ଼ିଓ ଡାଟା ସେହି ଡାଟାକୁ ବ୍ୟବହାର କରୁଥିବା ସ୍ପିଚ ରେକଗନେସନ ଇଞ୍ଜିନ ପାଇଁ ବେଶୀ ସହାୟକ ହେବ ।
 edit-profile = ପ୍ରୋଫାଇଲ ସମ୍ପାଦନା
 profile-create = ପ୍ରୋଫାଇଲଟିଏ ଗଢ଼ନ୍ତୁ
 profile-create-success = ପ୍ରୋଫାଇଲଟି ସଫଳ ଭାବେ ଗଢ଼ାଗଲା!
@@ -127,17 +177,6 @@ profile-why-title = ପ୍ରୋଫାଇଲଟିଏ କାହିଁକି?
 ## NotFound
 
 notfound-title = ମିଳିଲା ନାହିଁ
-
-## Privacy
-
-privacy-more = <more>ଅଧିକ ଜାଣନ୍ତୁ</more>
-
-## Terms
-
-terms-eligibility-title = ଯୋଗ୍ୟତା
-terms-privacy-title = ଗୋପନୀୟତା
-terms-communications-title = ଯୋଗାଯୋଗସମୂହ
-terms-general-title = ସାଧାରଣ
 
 ## Data
 
@@ -175,7 +214,6 @@ download-no = ନାଁ ଥାଉ
 ## Contact Modal
 
 contact-title = ଯୋଗାଯୋଗ ଆବେଦନ
-contact-cancel = ନାକଚ
 contact-form-name =
     .label = ନାମ
 contact-form-message =
@@ -185,7 +223,6 @@ contact-required = *ଦରକାରୀ
 ## Request Language Modal
 
 request-language-title = ଭାଷା ଅନୁରୋଧ
-request-language-cancel = ଆବେଦନରୁ ବାହାରନ୍ତୁ
 request-language-form-language =
     .label = ଭାଷା
 
@@ -197,3 +234,6 @@ languages-show-more = ଅଧିକ ଦେଖନ୍ତୁ
 languages-show-less = କମ ଦେଖନ୍ତୁ
 language-speakers = ବକ୍ତା
 language-total-progress = ମୋଟ
+
+## New Contribution
+
