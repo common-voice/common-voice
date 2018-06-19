@@ -346,9 +346,9 @@ Der Seemann nahm das Tau in die Hand, um es am Schiffspoller festzumachen.
 Alle Matrosen sind an Deck, Herr Kapitän.
 Wer in der Nordsee baden geht, sollte an Ebbe und Flut denken.
 Mehr Tangos auf sechs Uhr.
-Es ist halb Acht.
+Es ist halb acht.
 Wie spät ist es?
-Wir treffen uns um viertel vor Zwölf.
+Wir treffen uns um viertel vor zwölf.
 Kannst du auch um dreiviertel eins?
 Zwanzig nach neun würde mir besser passen.
 Um viertel drei bin ich mit Frauke verabredet.
@@ -578,7 +578,7 @@ Entschuldigen Sie, diese Plätze sind reserviert.
 Lassen Sie uns über Ihre Kindheit reden.
 Markus ist erst dreißig und hat bereits eine Glatze.
 Stefan, hast du am Mittwoch Zeit?
-Wir wäre es mit Samstag?
+Wie wäre es mit Samstag?
 Als die Betrüger den Enkeltrick bei meiner Oma versucht haben, hat sie genau richtig gehandelt.
 Die Polizei konnte den Anrufer dingfest machen.
 Wo sehen Sie sich in fünf Jahren?
@@ -1569,7 +1569,7 @@ Wir sind hier nicht bei Wünsch-dir-was.
 Wenn es besonders schön werden soll, garniert man es noch mit bunten Streuseln.
 Bevor du was Neues anbrichst, mache zuerst die alte Packung leer.
 Mehr als eine Schüssel Reis am Tag haben die Menschen hier nicht zu essen.
-Dazu wird die rote Bete in Scheiben geschnitten.
+Dazu wird die Rote Bete in Scheiben geschnitten.
 Haben wir einen Behälter für die Walnussschale?
 Die gröbsten Brocken werden hier bereits ausgesiebt.
 Für Spiegelei braucht man eine kleine Flamme.
@@ -2483,7 +2483,7 @@ Hier gilt rechts vor links.
 Empfindest du denn auch etwas für sie?
 Der Konzern ist gigantisch.
 "Das versteht sich ja von selbst", kommentiert Norbert.
-Und dann haben wir, ich sag mal, ein paar Nettigkeiten ausgetauscht.
+Und dann haben wir, ich sag' mal, ein paar Nettigkeiten ausgetauscht.
 Schon gut, mehr wollte ich gar nicht.
 Sie wollten eine bescheidene Hütte aufstellen und jetzt haben Sie einen Tempel errichtet!
 Die Wahl fällt ihr schwer.
@@ -2565,7 +2565,7 @@ Der Hacker machte sich an der Konsole zu schaffen.
 Die ganze Szene ist einfach nur albern.
 Finden Sie das witzig?
 Mir ist nicht zum Scherzen zumute.
-Ich hab keine Munition mehr!
+Ich hab' keine Munition mehr!
 Mein Partner hat Ladehemmungen.
 Ich muss nachladen.
 Es war ein erbitterter Kampf der Rivalen.
@@ -4797,7 +4797,7 @@ Die Viecher sind nicht leicht zu bändigen.
 Wie Sie sehen, sehen Sie nichts.
 An der Wand hängen Porträts aller ehemaligen Bonzen des Hauses.
 Der Priester schritt zum Rednerpult und las Verse aus der Bibel vor.
-Für die einen eine Heldentat, für die anderen ein Todsünde.
+Für die einen eine Heldentat, für die anderen eine Todsünde.
 Noch nie hatte Reinhold erlebt, dass Musik derartige Emotionen auslösen kann.
 Ein gewaltiger Felsen rollte mit der Lawine ins Tal.
 Das Straßenbild ist von der mit Neonlicht beleuchteten Reklame geprägt.
