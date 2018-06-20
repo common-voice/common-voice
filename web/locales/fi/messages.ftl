@@ -99,6 +99,19 @@ profile-form-language =
     .label = Kieli
 profile-form-accent =
     .label = Aksentti
+profile-form-age =
+    .label = Ikä
+profile-form-gender =
+    .label = Sukupuoli
+profile-form-submit-save = Tallenna
+profile-form-submit-saved = Tallennettu
+profile-keep-data = Säilytä tiedot
+profile-delete-data = Poista tiedot
+male = Mies
+female = Nainen
+# Gender
+other = Muu
+why-profile-title = Minkä takia profiili?
 
 ## FAQ
 
