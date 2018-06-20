@@ -3,10 +3,10 @@
 yes-receive-emails = Иә, маған электрондық хат жіберіңіз. Common Voice жобасы жайлы хабардар болғым келеді.
 stayintouch = Біздер Mozilla-да дауыс технологиясы айналасында қауымдастық құрып жатырмыз. Жаңартулар мен жаңа деректер көздері жөнінде сізді хабардар етіп, осы деректерді сіздің қалайша пайдаланып жатқаныңыз туралы білгіміз келеді.
 privacy-info = Сіздің ақпаратынызды біз ұқыпты түрде қарауға уәде береміз. Толығырақ біздің <privacyLink>Құпиялылық Туралы Ескертуде</privacyLink> оқи аласыз.
-return-to-cv = Common Voice-қа қайта оралу
+return-to-cv = Common Voice жобасына қайта оралу
 email-input =
     .label = Эл. пошта
-submit-form-action = Растау
+submit-form-action = Жіберу
 loading = Жүктелу барысында…
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
