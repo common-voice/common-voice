@@ -8,7 +8,6 @@ email-input =
     .label = Email
 submit-form-action = Υποβολή
 loading = Φόρτωση...
-audio-loading-error = Συγνώμη! Επεξεργαζόμαστε τα αρχεία ήχου, παρακαλώ δοκιμάστε ξανά σε λίγο.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -26,8 +25,6 @@ de = Γερμανικά
 el = Ελληνικά
 en = Αγγλικά
 es = Ισπανικά
-es-AR = Ισπανικά (Αργεντινή)
-es-CL = Ισπανικά (Χιλή)
 fr = Γαλλικά
 fy-NL = Φριζιακά
 ga-IE = Ιρλανδικά
@@ -68,6 +65,7 @@ zh-TW = Κινέζικα (Ταϊβάν)
 ## Layout
 
 speak = Μιλήστε
+speak-now = Μιλήστε τώρα
 datasets = Σύνολα δεδομένων
 languages = Γλώσσες
 profile = Προφίλ
@@ -94,21 +92,30 @@ wall-of-text-more-desktop =
 show-wall-of-text = Διαβάστε περισσότερα
 help-us-title = Βοηθήστε μας να επικυρώσουμε τις προτάσεις!
 help-us-explain = Πατήστε το κουμπί αναπαραγωγής, ακούστε και πείτε μας: η ακόλουθη πρόταση διαβάστηκε σωστά;
+no-clips-to-validate = Φαίνεται ότι δεν υπάρχει κανέναν κλιπ για ακρόαση σε αυτή τη γλώσσα. Βοηθήστε μας να συμπληρώσουμε τη σειρά καταγράφοντας μερικά τώρα.
 vote-yes = Ναι
 vote-no = Όχι
 toggle-play-tooltip = Πατήστε το πλήκτρο { shortcut-play-toggle } για εναλλαγή της κατάστασης αναπαραγωγής
 
-## Shortcuts
+## Speak & Listen Shortcuts
 
-# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
-# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = π
+shortcut-play-toggle-label = Αναπαραγωγή/Διακοπή
 # Must be one letter that appears in the { vote-yes } string.
-# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = ν
 # Must be one letter that appears in the { vote-no } string.
-# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = ο
+
+## Speak Shortcuts
+
+shortcut-record-toggle-label = Εγγραφή/Διακοπή
 request-language-text = Η γλώσσα δεν είναι διαθέσιμη στο Common Voice;
 request-language-button = Προτείνετε μία γλώσσα
 
@@ -134,7 +141,6 @@ profile-form-username =
     .label = Όνομα χρήστη
 profile-form-language =
     .label = Γλώσσα
-profile-form-more-languages = Σύντομα σε περισσότερες γλώσσες!
 profile-form-accent =
     .label = Προφορά
 profile-form-age =
@@ -219,6 +225,7 @@ record-platform-not-supported-desktop = Σε επιτραπέζιους υπολ
 record-platform-not-supported-ios = Οι χρήστες <bold>iOS</bold> μπορούν να κατεβάσουν τη δωρεάν εφαρμογή μας:
 record-must-allow-microphone = Χρειάζεται να επιτρέψετε πρόσβαση στο μικρόφωνο σας.
 record-retry = Επανάληψη
+record-no-mic-found = Δεν βρέθηκε μικρόφωνο.
 record-error-too-short = Η ηχογράφηση ήταν πολύ σύντομη.
 record-error-too-long = Η ηχογράφηση ήταν πολύ μεγάλη.
 record-error-too-quiet = Η ένταση της ηχογράφησης ήταν πολύ χαμηλή.
@@ -250,7 +257,6 @@ download-no = Όχι, ευχαριστώ
 ## Contact Modal
 
 contact-title = Φόρμα επικοινωνίας
-contact-cancel = Ακύρωση
 contact-form-name =
     .label = Όνομα
 contact-form-message =
@@ -260,7 +266,6 @@ contact-required = *απαιτείται
 ## Request Language Modal
 
 request-language-title = Αίτημα για γλώσσα
-request-language-cancel = Έξοδος από τη φόρμα
 request-language-form-language =
     .label = Γλώσσα
 request-language-success-title = Η υποβολή αιτήματος γλώσσας ήταν επιτυχής, ευχαριστούμε.
@@ -273,4 +278,35 @@ language-section-launched = Εκκινήθηκε
 languages-show-more = Περισσότερα
 languages-show-less = Λιγότερα
 language-speakers = Ομιλητές
+language-meter-in-progress = Πρόοδος
 language-total-progress = Σύνολο
+language-search-input =
+    .placeholder = Αναζήτηση
+
+## New Contribution
+
+action-click = Κάντε κλικ
+action-tap = Πατήστε
+contribute = Συνεισφορά
+listen = Ακρόαση
+skip = Παράλειψη
+shortcuts = Συντομεύσεις
+clips = Κλιπς
+goal-type-record = εγγραφή
+goal-type-validation = επαλήθευση
+contribute-more =
+    { $count ->
+        [one] Έτοιμοι να κάνετε { $count } ακόμη;
+       *[other] Έτοιμοι να κάνετε { $count } ακόμη;
+    }
+record-cta = Έναρξη εγγραφής
+record-instruction = { $actionType } στο <recordIcon></recordIcon>και διαβάστε δυνατά την πρόταση
+record-stop-instruction = { $actionType } στο <stopIcon></stopIcon> όταν τελειώσετε
+record-three-more-instruction = Τρία ακόμη!
+record-again-instruction = Υπέροχα! <recordIcon></recordIcon> Κάντε εγγραφή του επόμενου κλιπ σας
+record-again-instruction2 = Συνεχίστε, κάντε ξανά εγγραφή <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Τελευταίο!
+unable-speak = Δεν μπορείτε να μιλήσετε τώρα;
+record-abort-submit = Υποβολή κλιπ
+record-abort-continue = Λήξη εγγραφής
+record-abort-delete = Έξοδος & διαγραφή κλιπ

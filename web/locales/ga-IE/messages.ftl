@@ -15,6 +15,8 @@ loading = Á lódáil...
 
 ## Languages
 
+as = Asaimis
+az = Asarbaiseáinis
 bn = Beangáilis
 br = Briotáinis
 ca = Catalóinis
@@ -36,6 +38,7 @@ id = Indinéisis
 it = Iodáilis
 ka = Seoirsis
 kab = Ceabáilis
+kk = Casaicis
 ko = Cóiréis
 kw = Coirnis
 mk = Macadóinis
@@ -48,6 +51,7 @@ pl = Polainnis
 pt-BR = Portaingéilis (An Bhrasaíl)
 ro = Rómáinis
 ru = Rúisis
+sah = Sachais
 sk = Slóvaicis
 sl = Slóivéinis
 sq = Albáinis

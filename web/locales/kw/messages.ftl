@@ -8,7 +8,6 @@ email-input =
     .label = Ebost
 submit-form-action = Danvon
 loading = Ow karga...
-audio-loading-error = Diharesow! Yth eson ow processya agan restrennow son, gwrewgh assaya arta a verr spys.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -16,7 +15,10 @@ audio-loading-error = Diharesow! Yth eson ow processya agan restrennow son, gwre
 
 ## Languages
 
+as = Asamek
+az = Azerbayjanek
 bn = Bengalek
+br = Bretonek
 ca = Katalanek
 cs = Check
 cv = Chouvash
@@ -26,6 +28,7 @@ de = Almaynek
 el = Greka
 en = Sowsnek
 es = Spaynek
+et = Estonek
 fr = Frenkek
 fy-NL = Frisek
 ga-IE = Wordhenek
@@ -35,6 +38,7 @@ id = Indonesek
 it = Italek
 ka = Jorjek
 kab = Kabyle
+kk = Kazakh
 ko = Koreek
 kw = Kernowek
 mk = Makedonek
@@ -47,6 +51,7 @@ pl = Polonek
 pt-BR = Portyngalek (Brasil)
 ro = Romaniek
 ru = Russek
+sah = Sakha
 sk = Slovakek
 sl = Slovenek
 sq = Albaniek
@@ -68,6 +73,7 @@ zh-TW = Chinek (Taiwan)
 ## Layout
 
 speak = Kowsel
+speak-now = Kowsowgh lemmyn
 datasets = Settys data
 languages = Yethow
 profile = Profil
@@ -94,21 +100,35 @@ wall-of-text-more-desktop =
 show-wall-of-text = Redya moy
 help-us-title = Gweresowgh dhyn ow kwirya lavarow!
 help-us-explain = Gweskowgh seni, goslowowgh ha leverowgh dhyn: a veu an lavar a-woles leverys yn ewn?
+no-clips-to-validate = Yth hevel nag eus klyppys dhe woslowes orta y'n yeth ma. Gweresowgh dhyn ow lenwel an lost dre rekordya nebes lemmyn.
 vote-yes = Beu
 vote-no = Na veu
 toggle-play-tooltip = Gweskowgh war { shortcut-play-toggle } rag dalleth po hedhi an modh seni
 
-## Shortcuts
+## Speak & Listen Shortcuts
 
-# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
-# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = s
+shortcut-play-toggle-label = Seni/Powes
 # Must be one letter that appears in the { vote-yes } string.
-# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
-# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Speak Shortcuts
+
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Rekordya/Powes
 request-language-text = A ny welowgh agas yeth war Common Voice hwath?
 request-language-button = Profya yeth
 
@@ -138,7 +158,6 @@ profile-form-username =
     .label = Hanow usyer
 profile-form-language =
     .label = Yeth
-profile-form-more-languages = Yma moy yethow war an fordh!
 profile-form-accent =
     .label = Lesyeth
 profile-form-age =
@@ -160,6 +179,7 @@ profile-create = Gwul profil
 profile-create-success = Gwrys veu agas profil!
 profile-close = Degea
 profile-clear-modal = Klerhe data agas profil a styr na vydh an kledhlow demografek danvenys dhe Common Voice na fella war-barth ha'gas rekordyansow trogh.
+profile-explanation = Helerghowgh agas ober gans profil ha gweresowgh dhyn ow kul dh'agan data lev kewera.
 
 ## FAQ
 
@@ -224,6 +244,7 @@ record-platform-not-supported-desktop = War jynnow bord gweyth, hwi a yll iskarg
 record-platform-not-supported-ios = Usyoryon a <bold>iOS</bold> a yll iskarga agan towlen heb kost:
 record-must-allow-microphone = Res yw alowa hedhas dhe'n mikrofon.
 record-retry = Assaya arta
+record-no-mic-found = Ny veu mikrofon kevys.
 record-error-too-short = Re gott yw an rekordyans.
 record-error-too-long = Re hir yw an rekordyans.
 record-error-too-quiet = Re gosel yw an rekordyans.
@@ -255,7 +276,6 @@ download-no = Ny vynnav, meur ras
 ## Contact Modal
 
 contact-title = Furvlen gestava
-contact-cancel = Hedhi
 contact-form-name =
     .label = Hanow
 contact-form-message =
@@ -265,7 +285,6 @@ contact-required = *res
 ## Request Language Modal
 
 request-language-title = Profyans yeth
-request-language-cancel = Kwytya an furvlen
 request-language-form-language =
     .label = Yeth
 request-language-success-title = Danvenys yn sowen a veu an profyans, meur ras.
