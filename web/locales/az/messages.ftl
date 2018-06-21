@@ -134,7 +134,16 @@ request-language-button = Dil tələb edin
 
 ## ProjectStatus
 
+status-title = Ümumi proyekt vəziyyəti: nə qədər irəlilədiyimizi görün!
 status-contribute = Səsinizi ianə edin
+status-hours =
+    { $hours ->
+        [one] İndiyə qədər bir saatlıq məlumat təsdiqləndi!
+       *[other] İndiyə qədər { $hours } saatlıq məlumat təsdiqləndi!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Növbəti hədəf: { $goal }
 english = İngiliscə
 
 ## ProfileForm
@@ -160,10 +169,20 @@ female = Qadın
 # Gender
 other = Digər
 why-profile-title = Niyə profil?
+why-profile-text = Haqqınızda bəzi məlumatları verərək Common Voice üçün göndərdiyiniz səs məlumatlarını Səs Tanıma mühərriyi üçün daha mənalı hala gətirə bilərsiz.
+edit-profile = Profili düzəlt
+profile-create = Profil yarat
+profile-create-success = Profil uğurla yaradıldı!
 profile-close = Qapat
+profile-clear-modal = Profil məlumatlarınızı təmizlədiyinizdə bu demoqrafik məlumat və səs qeydləriniz Common Voice-ə göndərilməyəcək.
+profile-explanation = Profil yaradaraq müvəffəqiyyətlərinizi izləyə və səs məlumatlarımızı daha dəqiq hala gətirə bilərsiz.
 
 ## FAQ
 
+faq-title = Çox Soruşulan Suallar
+faq-what-q = Common Voice nədir?
+faq-important-q = Bu niyə vacibdir?
+faq-get-q = Common Voice məlumatlarını necə əldə edə bilərəm?
 
 ## Profile
 
@@ -179,9 +198,16 @@ data-download-license = Lisenziya: <licenseLink>CC-0</licenseLink>
 
 ## Record Page
 
+terms-agree = Razıyam
+terms-disagree = Razı deyiləm
+review-aborted = Yükləmə ləğv edildi. Qeydlərinizi silmək istəyirsiniz?
+review-cancel = Göndərməni ləğv et
+review-keep-recordings = Qeydləri saxla
+review-delete-recordings = Qeydlərimi sil
 
 ## Download Modal
 
+download-title = Endirməniz başladı.
 
 ## Contact Modal
 
