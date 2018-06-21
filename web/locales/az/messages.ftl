@@ -208,15 +208,30 @@ review-delete-recordings = Qeydlərimi sil
 ## Download Modal
 
 download-title = Endirməniz başladı.
+download-form-email =
+    .label = E-poçtunuzu daxil edin
+    .value = Təşəkkürlər, əlaqədə saxlayacıq.
 
 ## Contact Modal
 
+contact-title = Əlaqə Formu
+contact-form-name =
+    .label = Ad
+contact-form-message =
+    .label = Mesaj
+contact-required = *tələb edilir
 
 ## Request Language Modal
 
+request-language-title = Dil Tələbi
+request-language-form-language =
+    .label = Dil
+request-language-success-title = Dil tələbi uğurla göndərildi, təşəkkürlər.
 
 ## Languages Overview
 
+language-speakers = Danışan
+language-meter-in-progress = İrəliləyiş
 
 ## New Contribution
 
