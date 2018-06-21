@@ -91,6 +91,12 @@ back-top = Üstə Qayıt
 ## Home Page
 
 home-title = Common Voice proyekti Mozillanın maşınlara real insanların necə danışdıqlarını öyrətmə təşəbbüskarlığıdır.
+home-cta = Danışaraq dəstək olun!
+wall-of-text-start = Səs naturaldır, insancadır. Bu səbəbdən maşınlarımız üçün işlək səs texnologiyalarını yaratmaq istəyirik. Amma səs sistemlərini yaratmaq üçün kalan səs qeydləri lazımdır.
+wall-of-text-more-mobile = Böyük şirkətlər tərəfindən işlədilən məlumatlar insanların çoxu üçün əlçatmazdır. Bunun yenilikləri əngəllədiyini düşünürük. Bu səbəbdən səs tanıma sistemlərini hamıya açıq hala gətirəcək Common Voice Proyektini başlatdıq.
+wall-of-text-more-desktop =
+    Artıq siz də səsinizi paylaşaraq hamının cihaz və web üçün innovativ tətbiqlər üçün işlədə biləcəkləri açıq mənbəəli səs sistemləri inşa etməyimizə kömək edə bilərsiz.<lineBreak></lineBreak>
+    Cümlələri səsləndirərək maşınlara real insanların necə danışdıqlarını öyrədin. Digər dəstəkçilərin işlərini yoxlayaraq keyfiyyəti artırın. Bu qədər asanlıqla!
 show-wall-of-text = Ətraflı Oxu
 help-us-title = Cümlələri təsdiqləməyə kömək et!
 help-us-explain = Oxut, dinlə və xəbər ver: aşağıdakı cümləni düz səsləndirdilər?
