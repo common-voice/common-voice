@@ -1,5 +1,6 @@
 ## General
 
+yes-receive-emails = Bəli, mənə e-poçt göndər. Common Voice Proyekti haqqında yeniliklərdən xəbərdar olmaq istəyirəm.
 email-input =
     .label = E-poçt
 submit-form-action = Göndər
