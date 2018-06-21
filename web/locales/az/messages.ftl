@@ -1,6 +1,7 @@
 ## General
 
 yes-receive-emails = Bəli, mənə e-poçt göndər. Common Voice Proyekti haqqında yeniliklərdən xəbərdar olmaq istəyirəm.
+stayintouch = Mozillada səs texnologiyaları ətrafında icma inşa edirik. Yeniliklər, yeni məlumat mənbəələri haqqında əlaqədə qalmaq və bu məlumatları necə işlətdiyiniz haqqında öyrənmək istərdik.
 email-input =
     .label = E-poçt
 submit-form-action = Göndər
