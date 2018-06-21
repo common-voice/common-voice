@@ -8,7 +8,6 @@ email-input =
     .label = Email
 submit-form-action = Υποβολή
 loading = Φόρτωση...
-audio-loading-error = Συγνώμη! Επεξεργαζόμαστε τα αρχεία ήχου, παρακαλώ δοκιμάστε ξανά σε λίγο.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -26,8 +25,6 @@ de = Γερμανικά
 el = Ελληνικά
 en = Αγγλικά
 es = Ισπανικά
-es-AR = Ισπανικά (Αργεντινή)
-es-CL = Ισπανικά (Χιλή)
 fr = Γαλλικά
 fy-NL = Φριζιακά
 ga-IE = Ιρλανδικά
@@ -68,6 +65,7 @@ zh-TW = Κινέζικα (Ταϊβάν)
 ## Layout
 
 speak = Μιλήστε
+speak-now = Μιλήστε τώρα
 datasets = Σύνολα δεδομένων
 languages = Γλώσσες
 profile = Προφίλ
@@ -98,17 +96,24 @@ vote-yes = Ναι
 vote-no = Όχι
 toggle-play-tooltip = Πατήστε το πλήκτρο { shortcut-play-toggle } για εναλλαγή της κατάστασης αναπαραγωγής
 
-## Shortcuts
+## Speak & Listen Shortcuts
 
-# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
-# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = π
+shortcut-play-toggle-label = Αναπαραγωγή/Διακοπή
 # Must be one letter that appears in the { vote-yes } string.
-# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = ν
 # Must be one letter that appears in the { vote-no } string.
-# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = ο
+
+## Speak Shortcuts
+
 request-language-text = Η γλώσσα δεν είναι διαθέσιμη στο Common Voice;
 request-language-button = Προτείνετε μία γλώσσα
 
@@ -134,7 +139,6 @@ profile-form-username =
     .label = Όνομα χρήστη
 profile-form-language =
     .label = Γλώσσα
-profile-form-more-languages = Σύντομα σε περισσότερες γλώσσες!
 profile-form-accent =
     .label = Προφορά
 profile-form-age =
@@ -250,7 +254,6 @@ download-no = Όχι, ευχαριστώ
 ## Contact Modal
 
 contact-title = Φόρμα επικοινωνίας
-contact-cancel = Ακύρωση
 contact-form-name =
     .label = Όνομα
 contact-form-message =
@@ -260,7 +263,6 @@ contact-required = *απαιτείται
 ## Request Language Modal
 
 request-language-title = Αίτημα για γλώσσα
-request-language-cancel = Έξοδος από τη φόρμα
 request-language-form-language =
     .label = Γλώσσα
 request-language-success-title = Η υποβολή αιτήματος γλώσσας ήταν επιτυχής, ευχαριστούμε.
@@ -273,4 +275,17 @@ language-section-launched = Εκκινήθηκε
 languages-show-more = Περισσότερα
 languages-show-less = Λιγότερα
 language-speakers = Ομιλητές
+language-meter-in-progress = Πρόοδος
 language-total-progress = Σύνολο
+language-search-input =
+    .placeholder = Αναζήτηση
+
+## New Contribution
+
+shortcuts = Συντομεύσεις
+clips = Κλιπς
+record-cta = Έναρξη εγγραφής
+unable-speak = Δεν μπορείτε να μιλήσετε τώρα;
+record-abort-submit = Υποβολή κλιπ
+record-abort-continue = Λήξη εγγραφής
+record-abort-delete = Έξοδος & διαγραφή κλιπ
