@@ -38,6 +38,7 @@ Is maith a scéalaí an aimsir
 Is maith an rud é go dtéann na bóithre i gCiarraí as Ciarraí
 Is maith an scáthán súil charad
 Is maith an t-anlann an t-ocras
+Is maith sú bó, beo nó marbh
 Is minic a bhris béal duine a shrón
 Is minic an fhírinne searbh
 Is minic cuma aingeal ar an diabhal féin
