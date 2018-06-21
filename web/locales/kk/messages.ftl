@@ -84,7 +84,7 @@ terms = Шарттар
 cookies = "Cookies" файлдары
 faq = ЖҚС
 content-license-text = <licenseLink>Creative Commons лицензиясы</licenseLink> бойынша қол жетімді мазмұн
-share-title = Басқа адамдар дауыстарын табуға бізге көмектесіңіз!
+share-title = Басқа адамдардың дауыстарын табуға бізге көмектесіңіз!
 share-text = Машиналарға шынайы адам ретінде сөйлеуін үйрету үшін, өз дауысыңызбен бөлісіңіз { $link }
 back-top = Жоғарыға оралу
 
