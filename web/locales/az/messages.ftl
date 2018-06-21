@@ -2,6 +2,8 @@
 
 yes-receive-emails = Bəli, mənə e-poçt göndər. Common Voice Proyekti haqqında yeniliklərdən xəbərdar olmaq istəyirəm.
 stayintouch = Mozillada səs texnologiyaları ətrafında icma inşa edirik. Yeniliklər, yeni məlumat mənbəələri haqqında əlaqədə qalmaq və bu məlumatları necə işlətdiyiniz haqqında öyrənmək istərdik.
+privacy-info = Məlumatlarınızı diqqətlə idarə edəcəyimizə söz veririk. Daha ətraflı <privacyLink>Məxfilik Bildirişi</privacyLink>mizdə oxuyun.
+return-to-cv = Common Voice-ə qayıt
 email-input =
     .label = E-poçt
 submit-form-action = Göndər
@@ -13,6 +15,8 @@ loading = Yüklənir…
 
 ## Languages
 
+as = Assam dili
+az = Azərbaycanca
 bn = Benqal dili
 br = Breton dili
 ca = Katalan dili
@@ -34,7 +38,8 @@ id = İndoneziya dili
 it = İtalyanca
 ka = Gürcücə
 kab = Kabile dili
-ko = Koreyaca
+kk = Qazaxca
+ko = Koreya dili
 kw = Korniş dili
 mk = Makedon dili
 nb-NO = Norveç Bukmolu
@@ -46,6 +51,7 @@ pl = Polyakca
 pt-BR = Portuqalca (Braziliya)
 ro = Rumın dili
 ru = Rusca
+sah = Saxa dili
 sk = Slovakca
 sl = Slovencə
 sq = Alban dili
