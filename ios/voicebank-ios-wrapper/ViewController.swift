@@ -18,8 +18,8 @@ class ViewController: UIViewController, WKScriptMessageHandler, WKNavigationDele
         
         if !Reachability.isConnectedToNetwork(){
             self.activityIndicatorView.stopAnimating()
-            labelStatus.text = "Voice Commons needs an internet connection to function properly. Please connect to the internet and try again."
             timerconn = Timer.scheduledTimer(timeInterval: 0.4, target: self, selector: #selector(self.checkconnectivity), userInfo: nil, repeats: true)
+            labelStatus.text = "Common Voice needs an internet connection to function properly. Please connect to the Internet and try again."
         } else {
             self.loadWebView()
         }
