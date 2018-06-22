@@ -8,7 +8,7 @@ class ViewController: UIViewController {
     var webView: WKWebView?
     var recorder: Recorder!
     var orientation: UIInterfaceOrientationMask!
-    var browserViewController: UIViewController? = nil
+    var browserViewController: BrowserViewController?
     var timerconn: Timer!
     @IBOutlet weak var labelStatus: UILabel!
     @IBOutlet weak var activityIndicatorView: UIActivityIndicatorView!
@@ -52,7 +52,7 @@ class ViewController: UIViewController {
         recorder = Recorder()
         recorder.webView = webView!
         let mainStoryboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-        browserViewController = mainStoryboard.instantiateViewController(withIdentifier: "browser")
+        browserViewController = mainStoryboard.instantiateViewController(withIdentifier: "browser") as? BrowserViewController
     }
 
     @objc private func checkConnectivity() {
@@ -108,7 +108,7 @@ extension ViewController: WKNavigationDelegate {
             print(navigationAction.request.url?.relativeString as Any)
             decisionHandler(WKNavigationActionPolicy.cancel)
             present(browserViewController!, animated: true, completion: nil)
-            (browserViewController as! BrowserViewController).setUrl(url: (navigationAction.request.url?.absoluteString)!)
+            browserViewController?.setUrl(url: (navigationAction.request.url?.absoluteString)!)
         } else {
             decisionHandler(WKNavigationActionPolicy.allow)
         }
