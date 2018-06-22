@@ -24,7 +24,7 @@
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="iCj-1t-oGY">
                                 <rect key="frame" x="177" y="270" width="20" height="20"/>
                             </activityIndicatorView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gcR-lo-ZPX">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gcR-lo-ZPX" userLabel="Connection Status Label">
                                 <rect key="frame" x="16" y="301" width="343" height="65"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -33,7 +33,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="gcR-lo-ZPX" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="0j3-YP-zfn"/>
+                            <constraint firstItem="gcR-lo-ZPX" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" constant="-20" id="0j3-YP-zfn"/>
                             <constraint firstItem="iCj-1t-oGY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2a2-wJ-IOi"/>
                             <constraint firstItem="gcR-lo-ZPX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MSB-mA-aFd"/>
                             <constraint firstItem="gcR-lo-ZPX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="djG-ZD-DcZ"/>
