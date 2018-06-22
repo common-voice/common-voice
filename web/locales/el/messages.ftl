@@ -29,12 +29,14 @@ el = Ελληνικά
 en = Αγγλικά
 es = Ισπανικά
 et = Εσθονικά
+fi = Φιλανδικά
 fr = Γαλλικά
 fy-NL = Φριζιακά
 ga-IE = Ιρλανδικά
 he = Εβραϊκά
 hu = Ουγγρικά
 id = Ινδονησιακά
+is = Ισλανδικά
 it = Ιταλικά
 ka = Γεωργιανά
 kab = Καβυλικά
@@ -129,7 +131,7 @@ shortcut-vote-no = χ
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = γ
 shortcut-record-toggle-label = Εγγραφή/Διακοπή
-request-language-text = Η γλώσσα δεν είναι διαθέσιμη στο Common Voice;
+request-language-text = Δεν βλέπετε ακόμη τη γλώσσα σας στο Common Voice;
 request-language-button = Προτείνετε μία γλώσσα
 
 ## ProjectStatus
