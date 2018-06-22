@@ -92,7 +92,7 @@ wall-of-text-more-desktop =
 show-wall-of-text = Διαβάστε περισσότερα
 help-us-title = Βοηθήστε μας να επικυρώσουμε τις προτάσεις!
 help-us-explain = Πατήστε το κουμπί αναπαραγωγής, ακούστε και πείτε μας: η ακόλουθη πρόταση διαβάστηκε σωστά;
-no-clips-to-validate = Φαίνεται ότι δεν υπάρχει κανέναν κλιπ για ακρόαση σε αυτή τη γλώσσα. Βοηθήστε μας να συμπληρώσουμε τη σειρά καταγράφοντας μερικά τώρα.
+no-clips-to-validate = Φαίνεται ότι δεν υπάρχει κανέναν κλιπ για ακρόαση σε αυτή τη γλώσσα. Βοηθήστε μας να συμπληρώσουμε τη σειρά ηχογραφώντας μερικά τώρα.
 vote-yes = Ναι
 vote-no = Όχι
 toggle-play-tooltip = Πατήστε το πλήκτρο { shortcut-play-toggle } για εναλλαγή της κατάστασης αναπαραγωγής
@@ -241,8 +241,8 @@ review-submit-msg = Ευχαριστούμε για την ηχογράφηση!
 review-recording = Αξιολόγηση
 review-rerecord = Επανάληψη εγγραφής
 review-cancel = Ακύρωση υποβολής
-review-keep-recordings = Διατήρηση των ηχογραφήσεων
-review-delete-recordings = Διαγραφή των ηχογραφήσεών μου
+review-keep-recordings = Διατήρηση ηχογραφήσεων
+review-delete-recordings = Διαγραφή ηχογραφήσεων
 
 ## Download Modal
 
@@ -292,21 +292,27 @@ listen = Ακρόαση
 skip = Παράλειψη
 shortcuts = Συντομεύσεις
 clips = Κλιπς
-goal-type-record = εγγραφή
+goal-type-record = ηχογράφηση
 goal-type-validation = επαλήθευση
 contribute-more =
     { $count ->
         [one] Έτοιμοι να κάνετε { $count } ακόμη;
        *[other] Έτοιμοι να κάνετε { $count } ακόμη;
     }
-record-cta = Έναρξη εγγραφής
+record-cta = Έναρξη ηχογράφησης
 record-instruction = { $actionType } στο <recordIcon></recordIcon>και διαβάστε δυνατά την πρόταση
 record-stop-instruction = { $actionType } στο <stopIcon></stopIcon> όταν τελειώσετε
 record-three-more-instruction = Τρία ακόμη!
-record-again-instruction = Υπέροχα! <recordIcon></recordIcon> Κάντε εγγραφή του επόμενου κλιπ σας
-record-again-instruction2 = Συνεχίστε, κάντε ξανά εγγραφή <recordIcon></recordIcon>
+record-again-instruction = Υπέροχα! <recordIcon></recordIcon> Ηχογραφήστε το επόμενο κλιπ σας
+record-again-instruction2 = Συνεχίστε, ηχογραφήστε ξανά <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Τελευταίο!
 unable-speak = Δεν μπορείτε να μιλήσετε τώρα;
+clips-submitted =
+    { $count ->
+        [one] Έγινε υποβολή { $count } κλιπ
+       *[other] Έγινε υποβολή { $count } κλιπς
+    }
+record-abort-title = Να ολοκληρωθεί πρώτα η ηχογράφηση;
 record-abort-submit = Υποβολή κλιπ
-record-abort-continue = Λήξη εγγραφής
+record-abort-continue = Λήξη ηχογράφησης
 record-abort-delete = Έξοδος & διαγραφή κλιπ
