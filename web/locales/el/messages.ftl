@@ -15,7 +15,10 @@ loading = Φόρτωση...
 
 ## Languages
 
+as = Ασαμικά
+az = Αζερικά
 bn = Μπενγκάλι
+br = Βρετονικά
 ca = Καταλανικά
 cs = Τσέχικα
 cv = Chuvash
@@ -25,6 +28,7 @@ de = Γερμανικά
 el = Ελληνικά
 en = Αγγλικά
 es = Ισπανικά
+et = Εσθονικά
 fr = Γαλλικά
 fy-NL = Φριζιακά
 ga-IE = Ιρλανδικά
@@ -33,6 +37,8 @@ hu = Ουγγρικά
 id = Ινδονησιακά
 it = Ιταλικά
 ka = Γεωργιανά
+kab = Καβυλικά
+kk = Καζακικά
 ko = Κορεατικά
 kw = Κορνουαλικά
 mk = Σλαβομακεδονικά
@@ -45,7 +51,9 @@ pl = Πολωνικά
 pt-BR = Πορτογαλικά (Βραζιλίας)
 ro = Ρουμανικά
 ru = Ρώσικα
+sah = Σαχά
 sk = Σλοβακικά
+sl = Σλοβενικά
 sq = Αλβανικά
 sr = Σερβικά
 sv-SE = Σουηδικά
@@ -99,6 +107,8 @@ toggle-play-tooltip = Πατήστε το πλήκτρο { shortcut-play-toggle 
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = α
 
 ## Listen Shortcuts
 
@@ -108,13 +118,16 @@ shortcut-play-toggle = π
 shortcut-play-toggle-label = Αναπαραγωγή/Διακοπή
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
-shortcut-vote-yes = ν
+shortcut-vote-yes = ι
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
-shortcut-vote-no = ο
+shortcut-vote-no = χ
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = γ
 shortcut-record-toggle-label = Εγγραφή/Διακοπή
 request-language-text = Η γλώσσα δεν είναι διαθέσιμη στο Common Voice;
 request-language-button = Προτείνετε μία γλώσσα
@@ -162,6 +175,7 @@ profile-create = Δημιουργία προφίλ
 profile-create-success = Το προφίλ δημιουργήθηκε επιτυχώς!
 profile-close = Κλείσιμο
 profile-clear-modal = Εάν διαγράψετε τα δεδομένα του προφίλ σας, αυτές οι δημογραφικές πληροφορίες δεν θα υποβάλλονται πλέον στο Common Voice μαζί με τις ηχογραφήσεις σας.
+profile-explanation = Παρακολουθήστε την πρόοδό σας με ένα προφίλ και βοηθήστε τα δεδομένα φωνής μας να γίνουν πιο ακριβή.
 
 ## FAQ
 
@@ -294,6 +308,7 @@ shortcuts = Συντομεύσεις
 clips = Κλιπς
 goal-type-record = ηχογράφηση
 goal-type-validation = επαλήθευση
+goal-help = Έχετε βοηθήσει το Common Voice να φτάσει το <goalPercentage></goalPercentage> του ημερήσιου στόχου "{ $goalType }" του!
 contribute-more =
     { $count ->
         [one] Έτοιμοι να κάνετε { $count } ακόμη;
@@ -313,6 +328,10 @@ clips-submitted =
        *[other] Έγινε υποβολή { $count } κλιπς
     }
 record-abort-title = Να ολοκληρωθεί πρώτα η ηχογράφηση;
+record-abort-text = Αν αποχωρήσετε τώρα, θα χάσετε την πρόοδό σας
 record-abort-submit = Υποβολή κλιπ
 record-abort-continue = Λήξη ηχογράφησης
 record-abort-delete = Έξοδος & διαγραφή κλιπ
+listen-again-instruction = Εξαιρετική δουλειά! <playIcon></playIcon> Ακούστε ξανά όταν είστε έτοιμος
+listen-last-time-instruction = <playIcon></playIcon> Τελευταίο!
+share-title-new = <bold>Βοηθήστε μας</bold> να βρούμε περισσότερες φωνές
