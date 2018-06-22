@@ -5432,7 +5432,7 @@ Vous faites un sport quelconque ?
 Vous pratiquez un sport quelconque ?
 Vous jouez au Basket ?
 Vous vendez des piles ?
-Vous vendes des médicaments ?
+Vous vendez des médicaments ?
 Vous fumez ?
 Vous parlez anglais ?
 Vous parlez français ?
@@ -5710,7 +5710,7 @@ Comment va votre mère ?
 Comment va votre sœur ?
 Combien de temps resterez-vous en Californie ?
 Combien de temps allez-vous rester là ?
-Combien de temps alez-vous rester ?
+Combien de temps allez-vous rester ?
 Combien de temps ça prend en voiture ?
 Combien de temps pour aller en Georgie ?
 Combien de temps avez-vous été ici ?
@@ -6944,7 +6944,7 @@ Quand revenez-vous ?
 Quand terminez-vous votre stage d'informatique ?
 Quand aurez-vous fini votre travail ?
 Quand aurez-vous terminé votre travail ?
-Qaund est-ce que vous y allez ?
+Quand est-ce que vous y allez ?
 Quand est-ce que tu y vas ?
 Quand est-ce que vous irez à Delhi ?
 Pour quand est le mariage ?
@@ -6960,7 +6960,7 @@ Quand était-il venu ?
 Quand est-ce que c'est arrivé ?
 Quand êtes-vous arrivé à Boston ?
 Quand avez-vous rejoint cette course ?
-Qund vous étiez-vous vu en dernier ?
+Quand vous étiez-vous vu en dernier ?
 Quand avez-vous ouvert la porte ?
 Quand êtes-vous rentré de Bombay ?
 À quelle heure arrivons-nous ?
@@ -7147,7 +7147,7 @@ Pourquoi l'avez-vous frappé ?
 Pourquoi êtes-vous mal poli ?
 Pourquoi avez-vous fait ça ?
 Pourquoi y êtes-vous allé ?
-Pourquoi avez-vous démissioné de votre travail ?
+Pourquoi avez-vous démissionné de votre travail ?
 Pourquoi avez-vous dit ça ?
 Pourquoi avez-vous gaspillé tout l'argent.
 Pourquoi n'avez-vous pas postulé à ce poste de travail ?
@@ -7160,7 +7160,7 @@ Pourquoi est-ce ennuyeux ?
 Pourquoi le train est-il en retard ?
 Pourquoi pas ?
 Est-ce qu'il va pleuvoir aujourd'hui ?
-Y aura-t-il une fête d'aniverssaire à la maison ?
+Y aura-t-il une fête d'anniversaire à la maison ?
 Viendront-ils jusqu'ici ?
 Appelez-moi un taxi s'il vous plait.
 Passez-moi une serviette s'il vous plait.
