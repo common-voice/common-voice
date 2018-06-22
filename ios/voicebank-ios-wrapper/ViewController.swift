@@ -4,7 +4,7 @@
 
 import WebKit
 
-class ViewController: UIViewController, WKScriptMessageHandler, WKNavigationDelegate {
+class ViewController: UIViewController {
     var webView: WKWebView?
     var recorder: Recorder!
     var orientation: UIInterfaceOrientationMask!
@@ -16,17 +16,28 @@ class ViewController: UIViewController, WKScriptMessageHandler, WKNavigationDele
     override func loadView() {
         super.loadView()
         
-        if !Reachability.isConnectedToNetwork(){
-            self.activityIndicatorView.stopAnimating()
-            timerconn = Timer.scheduledTimer(timeInterval: 0.4, target: self, selector: #selector(self.checkconnectivity), userInfo: nil, repeats: true)
+        if !Reachability.isConnectedToNetwork() {
+            activityIndicatorView.stopAnimating()
+            timerconn = Timer.scheduledTimer(timeInterval: 0.4, target: self, selector: #selector(checkConnectivity), userInfo: nil, repeats: true)
             labelStatus.text = "Common Voice needs an internet connection to function properly. Please connect to the Internet and try again."
         } else {
-            self.loadWebView()
+            loadWebView()
         }
     }
 
-    func loadWebView(){
-        self.activityIndicatorView.isHidden = false
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        guard orientation == nil else { return orientation }
+        return [.portrait, .portraitUpsideDown]
+    }
+
+    // MARK: - Private
+
+    private func loadWebView() {
+        activityIndicatorView.isHidden = false
         // create the webview and load the commonvoice website in it
         webView = WKWebView(frame: self.view.frame)
         webView?.isHidden = true
@@ -44,79 +55,62 @@ class ViewController: UIViewController, WKScriptMessageHandler, WKNavigationDele
         browserViewController = mainStoryboard.instantiateViewController(withIdentifier: "browser")
     }
 
-    @objc func checkconnectivity() {
-        if Reachability.isConnectedToNetwork(){
+    @objc private func checkConnectivity() {
+        if Reachability.isConnectedToNetwork() {
             timerconn.invalidate()
             timerconn = nil
             labelStatus.text = "Connection re-established"
-            self.loadWebView()
+            loadWebView()
         }
     }
+}
 
-    public func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
+extension ViewController: WKScriptMessageHandler {
+    func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
         let msg = message.body as! String
         switch msg {
-            case "startCapture":
-                recorder.startRecording()
-            case "stopCapture":
-                recorder.stopRecording()
-            case "playCapture":
-                recorder.playCapture()
-            case "stopPlaying":
-                recorder.stopPlayingCapture()
-            case "openSettings":
-                UIApplication.shared.open(URL(string: UIApplicationOpenSettingsURLString)!, options: [:], completionHandler: nil)
-            case "lockportrait":
-                orientation = [UIInterfaceOrientationMask.portrait, UIInterfaceOrientationMask.portraitUpsideDown]
-            case "locklandscape":
-                orientation = UIInterfaceOrientationMask.landscape
-            case "unlockall":
-                orientation = UIInterfaceOrientationMask.all
-            default :
-                break
+        case "startCapture":
+            recorder.startRecording()
+        case "stopCapture":
+            recorder.stopRecording()
+        case "playCapture":
+            recorder.playCapture()
+        case "stopPlaying":
+            recorder.stopPlayingCapture()
+        case "openSettings":
+            UIApplication.shared.open(URL(string: UIApplicationOpenSettingsURLString)!, options: [:], completionHandler: nil)
+        case "lockportrait":
+            orientation = [.portrait, .portraitUpsideDown]
+        case "locklandscape":
+            orientation = .landscape
+        case "unlockall":
+            orientation = .all
+        default:
+            break
         }
     }
-    
-    override var prefersStatusBarHidden: Bool {
-        return true
+}
+
+extension ViewController: WKNavigationDelegate {
+    func webView(_ webView: UIWebView, didFailLoadWithError error: Error) {
+        labelStatus.text = "Error loading the application."
     }
-    
-    func webView(_ webView: UIWebView, didFailLoadWithError error: Error)
-    {
-        labelStatus.text = "Error loading the webapp"
-    }
-    
-    override var supportedInterfaceOrientations:UIInterfaceOrientationMask {
-        if (orientation != nil) {
-            return orientation
-        }
-        else {
-            return  [UIInterfaceOrientationMask.portrait, UIInterfaceOrientationMask.portraitUpsideDown]
-        }
-    }
-    
-    func webView(_ webView: WKWebView,
-                 didFinish navigation: WKNavigation!) {
+
+    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         webView.isHidden = false
-        self.activityIndicatorView.isHidden = true
+        activityIndicatorView.isHidden = true
         // register javascript function to open settings page
         webView.evaluateJavaScript("window.vcopensettings = function () { window.webkit.messageHandlers['scriptHandler'].postMessage('openSettings'); }")
     }
-    
+
     func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping ((WKNavigationActionPolicy) -> Void)) {
-        if (navigationAction.navigationType == WKNavigationType.linkActivated){
+        if navigationAction.navigationType == .linkActivated {
             print(navigationAction.request.url?.relativeString as Any)
             decisionHandler(WKNavigationActionPolicy.cancel)
-            self.present(browserViewController!, animated: true, completion: nil)
+            present(browserViewController!, animated: true, completion: nil)
             (browserViewController as! BrowserViewController).setUrl(url: (navigationAction.request.url?.absoluteString)!)
         } else {
             decisionHandler(WKNavigationActionPolicy.allow)
         }
-    }
-    
-
-    @IBAction func closeBrowserView() {
-        let prefs = UserDefaults.standard
-        prefs.setValue(0, forKey: "userDetails")
     }
 }
