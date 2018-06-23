@@ -291,7 +291,7 @@ request-language-success-content = Vi kontaktar deg snart med meir informasjon o
 ## Languages Overview
 
 language-section-in-progress = Under arbeid
-language-section-in-progress-description = Pågåande språk vert laga frå bidrag av fellesskapen vår. Framdrifta speglar kvar dei er i omsetjinga av netsida og innhenting av setningar.
+language-section-in-progress-description = Pågåande språk vert laga frå bidrag av fellesskapen vår. Framdrifta speglar kvar dei er i omsettinga av netsida og innhenting av setningar.
 language-section-launched = Lansert
 language-section-launched-description = For desse lanserte språka er nettsida fullstendig omsett i tillegg til at dei har nok setningar for pågåande samarbeid gjennom <italic>{ speak }</italic> og <italic>{ listen }</italic>.
 languages-show-more = Vis meir
