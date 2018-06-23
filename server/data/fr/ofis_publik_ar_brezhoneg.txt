@@ -32,7 +32,7 @@ il est parti.
 elle est partie.
 j'aime aussi ce livre.
 j'aime ce livre.
-la couleur qui me plait le plus est le jaune.
+la couleur qui me plaît le plus est le jaune.
 je mange souvent des pâtes.
 ces gens-là sont souvent en train de se plaindre.
 j'avais souvent froid durant l'hiver.
@@ -91,7 +91,7 @@ prénoms et nom du futur époux.
 prénoms et nom de la future épouse.
 Audit annuel des fermes pour le lait, des fromageries pour le lactosérum.
 Nous avions eu peur.
-Licencié : Personne autorisée à prendre part aux compétitions des fédérations sportives.
+Licencié : Personne autorisée à prendre part aux compétitions des fédérations sportives.
 des messieurs fort arrogants.
 approuver la proposition de bail des nouveaux bureaux de Rennes.
 la page 44.
@@ -106,11 +106,11 @@ la plus grande femme.
 Evaluation réalisée dans les classes bilingues breton- français à l’initiative de Dihun par Gilbert Dalgalian, linguiste, ancien Directeur Pédagogique de l’Alliance Française.
 Les larmes montaient aux yeux de l'enfant.
 la fille la plus courageuse.
-les chiens coivent obéir aux bergers.
+les chiens croient obéir aux bergers.
 ce château-là.
 Le chat se voyait dans le miroir.
 le professeur avait donné une mauvais note à Mark.
-les changements qui se passent concernant les classes sociales qui utilisent le breton (en lien avec le deuxièrme point).
+les changements qui se passent concernant les classes sociales qui utilisent le breton (en lien avec le deuxième point).
 c'est la première fois que j'entends cela.
 le chien était dans sa niche.
 le chien est dans sa niche.
@@ -153,16 +153,16 @@ ceux-ci.
 la République dominicaine.
 ces blancs_là.
 ceux-là.
-Les données les plus complètes dont on dispose pour la Bretagne sont celles de l’enquête Étude de l’histoire familiale menée par l’INSEE* en 1999 (ces chiffres sont analysés en détail dans ce rapport).
+Les données les plus complètes dont on dispose pour la Bretagne sont celles de l’enquête Étude de l’histoire familiale menée par l’INSEE en 1999 (ces chiffres sont analysés en détail dans ce rapport).
 Les données les plus complètes qui existent (INSEE, 1999) commencent maintenant à dater.
 c'est samedi.
 les instituteurs sont contre maintenant car l'IEN leur a dit qu'un poste d'institutrice monolingue sera retiré si la classe ouvre.
 les sportifs courraient vite.
-L’étoile la plus proche du Soleil est à 250 000 fois la distance Terre Soleil !
+L’étoile la plus proche du Soleil est à 250 000 fois la distance Terre Soleil !
 la formation de perfectionnement débutera le 2 avril 2015.
 aujourd'hui c'est dimanche.
 c'est les vacances.
-la mamam a ressenti une oposition forte quand elle a parlé à l'école, elle est prête à continuer mais à Pabu ou Ploumagoar si ça ne fonctionne pas bien.
+la maman a ressenti une opposition forte quand elle a parlé à l'école, elle est prête à continuer mais à Pabu ou Ploumagoar si ça ne fonctionne pas bien.
 les bons médecins.
 la jolie petite fille.
 les bergers doivent être obéis par les chiens.
@@ -268,18 +268,18 @@ elle jouait avec elle.
 il jouait avec moi.
 elle jouait avec moi.
 il jouait avec lui.
-ellel jouait avec lui.
+elle jouait avec lui.
 il jouait avec eux.
 elle jouait avec eux.
 il jouait avec toi.
 elle jouait avec toi.
 des joueurs de boules.
-des jouers violents.
+des jouets violents.
 Il riait en se voyant habillé comme ceci.
 Il riait en se voyant habillé comme ça.
 Il riait en se voyant…
-Je resterai ici jusquà ce que vous me disiez d'entrer.
-Je resterai ici jusquà ce que vous me disiez de venir.
+Je resterai ici jusqu'à ce que vous me disiez d'entrer.
+Je resterai ici jusqu'à ce que vous me disiez de venir.
 Ne pas aller voir le médecin.
 Restons tranquille de peur qu'il nous entende.
 quarante six.
@@ -389,7 +389,7 @@ ils aiment ta sœur.
 elles aiment ta sœur.
 on aimera ta sœur.
 ton père est grand.
-ton père n'est pa grand.
+ton père n'est pas grand.
 ton père.
 on doit lui reprocher cela.
 ta djellaba.
@@ -441,7 +441,7 @@ le marché se tient le jeudi.
 tes mains.
 les bleus sont les derniers.
 ta main.
-à l'occasion de la nouvelle année Lena Louarn, Présidente et les membres du conseil d'administration de l'établissement public Office public de la langue bretonne sont heureux de vous souahiter une très bonne année 2015.
+à l'occasion de la nouvelle année Lena Louarn, Présidente et les membres du conseil d'administration de l'établissement public Office public de la langue bretonne sont heureux de vous souhaiter une très bonne année 2015.
 tiens.
 Merci de tenir votre chien en laisse pour ne pas les déranger.
 tenez.
@@ -476,14 +476,14 @@ des yeux vifs.
 cet enfant a les yeux bleus.
 le petit garçon avait les yeux bleus.
 malgré tous les écrits que je dois lire tous les jours j'essaierai de la lire, ou bien au moins d'y jeter un regard minutieux.
-est-ce que tu as eu des nouvelles au sujet de ce nouveau décrêt ?
+est-ce que tu as eu des nouvelles au sujet de ce nouveau décret ?
 quarante chevaux bruns.
 quarante chevaux.
 quarante.
 douze maisons.
 douze.
 le 5 novembre 2007.
-à cette époque, les gens n'avaient pas beacoup de temps libre.
+à cette époque, les gens n'avaient pas beaucoup de temps libre.
 il rentrait à la maison sans se presser.
 en ce temps-là nous étions nombreux à travailler dans cette entreprise.
 en ce temps-là j'étais petit et en bonne santé.
@@ -494,7 +494,7 @@ le mardi 6 avril.
 mange.
 des mangeurs d'hommes.
 on dînait tard.
-tont frère a mangé la dernière part de gâteau.
+ton frère a mangé la dernière part de gâteau.
 mon frère a mangé mon morceau de pain.
 le petit déjeuner est terminé.
 nous mangeons des fruits.
@@ -539,8 +539,8 @@ viens vendredi.
 viens immédiatement.
 viens tout de suite.
 viens avec nous.
-suis-moi s'il te plait .
-viens avec moi s'il te plait.
+suis-moi s'il te plaît .
+viens avec moi s'il te plaît.
 viens quand tu veux.
 viens quand le temps sera venu.
 viens.
@@ -550,14 +550,14 @@ on a défendu aux voitures de passer par cette route.
 diphtérie, tétanos, poliomyélite.
 J'ouvre la barrière tous les matins.
 ouvre la porte avant de partir.
-le magazin est ouvert le lundi.
+le magasin est ouvert le lundi.
 c'est ouvert le mercredi.
 elle est ouverte aux stagiaires qui ont suivi une formation 6 mois ainsi qu'à tous ceux qui parlent breton et qui veulent améliorer leur langue.
 Digor party.
 il est sans travail.
 lundi je suis resté à la maison.
 je serai là lundi.
-la clé sera sous le paillason.
+la clé sera sous le paillasson.
 sous la mer.
 le mur avait été détruit il y a cinq ans.
 descend tout de suite du mur.
@@ -596,7 +596,7 @@ c'est la porte de la maison.
 c'est la porte de la chambre qui était resté ouverte.
 c'est la porte de la chambre que je vois là-bas.
 c'est la porte de la chambre que je vois ici.
-c'est la porte de la chambe que je vois là.
+c'est la porte de la chambre que je vois là.
 c'est la porte de la chambre.
 Dieu vous bénisse.
 Que Dieu soit loué !
@@ -617,7 +617,7 @@ il est furieux que son parti ait perdu les élections.
 les ducs de Bretagne.
 les gens sont là-bas.
 c'est là-bas.
-il es tlà-bas.
+il est là-bas.
 elle est là-bas.
 sa tête.
 son genou.
@@ -676,7 +676,7 @@ dans ma maison.
 Ils sont en train de faire des paniers.
 l'assiette est sur la table.
 le chat est en train de manger des souris.
-Le chien est en train de courrir.
+Le chien est en train de courir.
 les enfant sont en train de jouer sur la plage.
 Les enfant sont en train de jouer sur la rue.
 les enfants sont en train d'écrire une lettre.
@@ -687,7 +687,7 @@ il est en train de lire le journal.
 elle est en train de lire le journal.
 il vient juste de partir.
 elle vient juste de partir.
-Il est en train de courrir.
+Il est en train de courir.
 elle est en train d'enlever son tablier.
 nous sommes debout.
 le Combat des Trente.
@@ -744,15 +744,15 @@ ces temps-ci vous devez faire attention.
 ces temps-ci je n'ai pas beaucoup de travail.
 ces temps-ci je suis souvent fatigué.
 ces temps-ci j'ai souvent mal à la tête.
-il y avait des vaches dans ce hamps hier.
-Cette pièce contenait un coin toilette, une douche, des WC et une baignoire 
+il y avait des vaches dans ce champs hier.
+Cette pièce contenait un coin toilette, une douche, des WC et une baignoire
 il y a un tas de choses bon-marché dans ce magasin.
 les gants étaient dans la boîte.
 il neige régulièrement en Sibérie.
 Il neige où pas ?
 il neigeait.
 Echange et formation.
-En comparaison, la Lune orbite en moyenne à 390 000 km de la Terre.
+En comparaison, la Lune orbite en moyenne à 390 000 km de la Terre.
 l'heure du dîner.
 c'est l'heure du goûter.
 horaires d'ouverture : lundi, mercredi, vendredi de 14h00 à 18h30 et samedi de 9h00 à 12h00 et de 14h00 à 18h30.
@@ -777,7 +777,7 @@ Pour la première fois, de nombreuses listes, et notamment les listes principale
 Pour être efficace, cette vaccination nécessite un rappel tous les 5 ans.
 il s’agit d’un rappel puisque vous avez dû recevoir une invitation de l’ULAMIR.
 Pour en savoir plus voir Vie et mort des étoiles par Bruno Manguin et Bénédicte Saulier-Le Dréan, collection a Espace des sciences, Éditions Apogée, 2005.
-Pour que la préfecture ne viennent pas nous dire : « Ah non, maintenant vous avez transféré vote compétence, les communes ne pourront plus s’occuper de ça », parce qu’il y aussi des gens qui veulent nous embêter là-dessus.
+Pour que la préfecture ne viennent pas nous dire : « Ah non, maintenant vous avez transféré vote compétence, les communes ne pourront plus s’occuper de ça », parce qu’il y aussi des gens qui veulent nous embêter là-dessus.
 pour qu'il pêche.
 pour qu'elle pêche.
 pour que vous pêchiez.
@@ -798,7 +798,7 @@ dans ton bureau.
 dans tes mains.
 dans ta maison.
 dans ta main.
-nous avons besoin de bénévoles prêts à nous aider ou à nous proposer de nouvelles idées pour organiser des évènements de qualité.
+nous avons besoin de bénévoles prêts à nous aider ou à nous proposer de nouvelles idées pour organiser des événements de qualité.
 Fañch s'occupe des bêtes.
 C'est Fañch qui s'occupe des bêtes.
 on mange le far avec les mains.
@@ -847,7 +847,7 @@ il est capable de nous faire perdre.
 Il est capable oui ou non ?
 le roi demande que son maître de maison vienne.
 Yannig demande une réunion préparatoire et il viendra au déjeuner de travail.
-On vous demande d'être à un quart d'heure près afin de povoir prendre plus d'une personne à  la fois.
+On vous demande d'être à un quart d'heure près afin de pouvoir prendre plus d'une personne à  la fois.
 je sais.
 je sais bien.
 il le sait fort bien, j'en suis sur.
@@ -870,7 +870,7 @@ réalisée à partir de pièces de monnaie par des prisonniers de guerre frança
 on a fait un scanner et découvert une tumeur.
 elles se sont rencontrées pendant la formation longue de Roudour de 2013-2014 et ont créé à Carhaix une crèche où l'on parle breton aux enfants.
 pas un mot à ce sujet.
-pas un mot de la part du Pst de la communauté sur ses documents de communication pour la campagne éléctorale départementale en tous cas, si ce n'est un petit mot sur l'identité lié au tourisme.
+pas un mot de la part du Pst de la communauté sur ses documents de communication pour la campagne électorale départementale en tous cas, si ce n'est un petit mot sur l'identité lié au tourisme.
 faites ce que je vous dis.
 suivez ses indications.
 faites comme je vous dis.
@@ -915,10 +915,10 @@ Croyez-vous que je puisse y parvenir ?
 Surtout pas !
 et même si la lumière revenait, ce serait trop tard.
 Et pourquoi donc ?
-elle tranquilisa sa mère en lui téléphonant.
+Elle tranquillisa sa mère en lui téléphonant.
 Applaudissements sur les bancs du groupe socialiste, radical, citoyen et divers gauche et sur quelques bancs du groupe de l’Union pour un mouvement populaire.
 et je vis l'avion partir.
-Et lui de courrir à toute vitesse.
+Et lui de courir à toute vitesse.
 et d’autres employés de l’Office de la Langue Bretonne, en fonction de leur domaine d’activité.
 à moitié vivant.
 cinquante.
@@ -955,7 +955,7 @@ elle, elle lirait.
 elle, elle lira.
 elle, elle a été aimée.
 elle, elle est aimée.
-elle a l'esprit affuté.
+elle a l'esprit affûté.
 c'est elle.
 elle, elle a eu aimé.
 elle, elle a aimé.
@@ -1036,8 +1036,8 @@ eux, ils aimeront.
 elles, elles aimeront.
 eux, ils lisent.
 elles, elles lisent.
-ils, ils lûrent.
-elles, elles lûrent.
+ils, ils lurent.
+elles, elles lurent.
 eux, ils lisaient.
 elles, elles lisaient.
 eux, ils liraient.
@@ -1124,8 +1124,8 @@ des professeurs de breton.
 Des nouvelles de votre époux et du mien.
 Pour en savoir plus, voir aussi le chapitre La formation continue dans la partie L’enseignement aux adultes : le début d’un renouveau ? et le chapitre Daoulagad Breizh et le Festival de cinéma de Douarnenez dans la partie des Médias.
 tout vous est expliqué ci-dessous et les archives jointes pour répondre, allons-y !
-La plus petite quantité réalisable : 1 exemplaire.
-La plus grande quantité réalisable : 1 exemplaire.
+La plus petite quantité réalisable : 1 exemplaire.
+La plus grande quantité réalisable : 1 exemplaire.
 Il écrit tellement mal qu'on ne peut lire son écriture.
 il continuait à fumer en m'écoutant.
 un concours de haïkus sera organisé en grande pompe en 2016 .
@@ -1174,7 +1174,7 @@ il parle à son chien.
 il parlait de sa sœur partie travailler dans un autre pays.
 j'ai parlé avec le gars de la garderie (je trouvais qu'il y avait moins de familles vues).
 je lui ai parlé pour lui dire que l'école (instituteurs, parents) pouvait défendre les postes dans leur ensemble (comme cela avait été et est le cas à Bégard) plutôt que de les opposer.
-j'étais content que vous soyiez venu.
+j'étais content que vous soyez venu.
 je suis tombé en essayant de marcher sur un seul pied.
 l'oiseau est tombé de son nid.
 le moucheron est tombé dans le verre.
@@ -1192,7 +1192,7 @@ j'avais cru qu'il aurait chanté.
 j'ai cru qu'il aurait chanté.
 il pense avoir un livre sur les Vikings.
 le feu a pris dans un bâtiment à Lannion.
-cette journée a été créée pour promouvoir et célébrer la diversité culturelle et linguistique dans le monde entier et surtout les langues autochnones, les langues minoritaires et le patrimoine linguistique en danger.
+cette journée a été créée pour promouvoir et célébrer la diversité culturelle et linguistique dans le monde entier et surtout les langues autochtones, les langues minoritaires et le patrimoine linguistique en danger.
 elle avait des problèmes de mémoire depuis peu et elle somnolait à d'autres moments.
 du travail soigné.
 du bon travail.
@@ -1282,7 +1282,7 @@ si tu me dis que ça vaut la peine d'y aller j'irai.
 mes chaussettes sont sous le lit.
 mes chaussettes ne sont pas sous le lit.
 ma mère me tira de ce mauvais pas.
-Ma grand'mère a bien connu M. Gauguin, ajoute de nouveau le fermier.
+Ma grand-mère a bien connu M. Gauguin, ajoute de nouveau le fermier.
 mes mur.
 si tu n'avais pas été là je serais parti.
 si tu n'avais pas été là je partais.
@@ -1316,19 +1316,19 @@ si j'ai deux tickets, je vous en donnerai un.
 si j'avais travaillé, j'aurais de l'argent.
 si j'ai deux tickets.
 si j'avais le temps.
-la mêre de Pêr.
-la maman de Youenn (était à la réunion, enfant dans la classe d'Enora, mais je ne l'ai pas reconnue) et la mère de Liza (elle était muette, malade, elle n'est pas restée discutrer).
+la mère de Pêr.
+la maman de Youenn (était à la réunion, enfant dans la classe d'Enora, mais je ne l'ai pas reconnue) et la mère de Liza (elle était muette, malade, elle n'est pas restée discuter).
 source : ANPE – 2005.
-Source : enquête «Produit en Bretagne» 2011.
+Source : enquête «Produit en Bretagne» 2011.
 Tu as eu tort, mon fille Merlette, d'espérer ainsi ma mort.
 s'ils n'étaient pas venus l'attraper, il tombait.
 s'il n'avait pas tenu bon il se noyait.
-s'il vous plait suivez-moi.
-s'il vous plait venez avec moi.
-s'il te plait suis-moi.
-s'il te plait viens avec moi.
-s'il te plait.
-s'il vous plait.
+s'il vous plaît suivez-moi.
+s'il vous plaît venez avec moi.
+s'il te plaît suis-moi.
+s'il te plaît viens avec moi.
+s'il te plaît.
+s'il vous plaît.
 Nous n'irons pas si tu es trop fatigué.
 Nous n'irons pas si tu es trop fatiguée.
 Marie Mahieu (langue française).
@@ -1402,7 +1402,7 @@ elle viendra probablement plus tard.
 il va à Quimper.
 elle va à Quimper.
 il va à l'école.
-elle va à lécole.
+elle va à l'école.
 il s'en va.
 elle s'en va.
 Ça va bien ?
@@ -1411,8 +1411,8 @@ elle va bien.
 ils vont très bien.
 elles vont très bien.
 je vais à table.
-On fatigue à force d'entendre des bétises à longueur de journée.
-on fatigue en entendant des bétises à longueur de journée.
+On fatigue à force d'entendre des bêtises à longueur de journée.
+on fatigue en entendant des bêtises à longueur de journée.
 il va à cheval.
 elle va à cheval.
 elle va.
@@ -1446,7 +1446,7 @@ Ne faites pas cela !
 ne donne pas de nourriture aux chiens.
 ne donne pas de la nourriture au chat.
 ne soyez par sur vos gardes.
-n'oublie pas de predre rendez-vous au garage.
+n'oublie pas de prendre rendez-vous au garage.
 N'allez pas trop vite !
 ne répétez pas ce que je vous ai dit.
 Je ne connais pas ça.
@@ -1523,7 +1523,7 @@ elle ne faisait que jeter un œil.
 il ne faisait qu'observer.
 elle ne faisait qu'observer.
 Peu m'importe.
-nous ne faisons que lui obérir.
+nous ne faisons que lui obéir.
 Vas-tu te taire ?
 on n'enfonce pas les clous si fort.
 nous n'avions pas l'impression que c'était utile.
@@ -1555,7 +1555,7 @@ je n'ai pas eu le temps de regarder cela ce soir.
 je n'ai pas eu le temps de regarder ça ce soir.
 Lizig n'est pas à la maison.
 je ne suis pas d'accord avec lui.
-il n'avai tpas assez réfléchi.
+il n'avait pas assez réfléchi.
 il n'est pas facile de chercher des arguments économiques alors que l'on sait pertinemment qu'il s'agit d'un besoin social.
 le temps n'est pas beau.
 il n'est pas capable de s'en tirer.
@@ -1607,7 +1607,7 @@ Note : les dates peuvent varier d'un jour selon les années.
 on ne sait pas s'il est mort ou vivant.
 on ne sait pas s'il est mort ou bien s'il est encore vivant.
 je ne sais rien.
-je ne sais pa grand-chose.
+je ne sais pas grand-chose.
 je ne sais pas bien.
 je ne sais pas ce qu'il veut.
 la nuit du Mardi-Gras.
@@ -1635,8 +1635,8 @@ leur mur.
 leurs murs.
 ce sont les leurs.
 les leurs.
-ils sont en train de courrir.
-elles sont en train de courrir.
+ils sont en train de courir.
+elles sont en train de courir.
 Il avait appris un tas de choses en écoutant les gens.
 Herve était en train de laver la vaisselle.
 je suis en train de manger.
@@ -1661,7 +1661,7 @@ Qu'est-ce que tu es en train de faire ?
 Qu'étais-tu en train de faire ?
 je regarderai la télévision ce soir.
 à table.
-de toutes manières plus d'un ½ poste monolingue sera retiré car il est prévu une baisse (ouverture => -1 poste ou -1.5 post mono alors ? C'es pas clair).
+de toutes manières plus d'un ½ poste monolingue sera retiré car il est prévu une baisse (ouverture => -1 poste ou -1.5 post mono alors ? C'est pas clair).
 rajouter les formes dérivées pour les substantifs et les adjectifs.
 De plus, ils pourraient être perdus.
 quand je ne m'en occupe pas je ne sais pas ce qu'ils font.
@@ -1742,7 +1742,7 @@ Où suis-je ?
 Où-suis-je ?
 Où es-tu ?
 je serai long.
-il est parti pour logntemps.
+il est parti pour longtemps.
 elle est partie pour longtemps.
 il est loin.
 elle est loin.
@@ -1754,22 +1754,22 @@ téléphoner ou y aller.
 j'ai téléphoné à la maman que je n'avais pas vu, et lui ai proposé de la voir à ce moment-là, elle travaille dans la restauration et le père est conducteur de poids-lourds, ils sont débordés et peu à l'école.
 très loin.
 il est cinq heures.
-quarante cinq.
-quarante cinq petits animaux verts.
-quarante cinq petits animaux.
-quarante cinq animaux.
-vingt cinq beaux animaux.
+Quarante-cinq.
+Quarante-cinq petits animaux verts.
+Quarante-cinq petits animaux.
+Quarante-cinq animaux.
+Vingt-cinq beaux animaux.
 cinq beaux animaux.
-vingt cinq animaux.
-trente cinq éléphants noirs.
-trente cinq éléphants.
-trente cinq beaux éléphants.
-ving cinq maisons.
+Vingt-cinq animaux.
+Trente-cinq éléphants noirs.
+Trente-cinq éléphants.
+Trente-cinq beaux éléphants.
+Vingt-cinq maisons.
 cinq maisons.
-vingt cinq.
+Vingt-cinq.
 cinq.
 quinze.
-il allait se coucher quand il avait diné.
+il allait se coucher quand il avait diner.
 Comment ?
 Comment est-il ?
 Comment est-elle ?
@@ -1783,8 +1783,8 @@ Pêr Le Bihan.
 Pourquoi ?
 Pourquoi ferais-je cela ?
 Pourquoi devrais-tu mentir ?
-Pourquoi ne nous dit-il pas clairement qu'il ne veut pas vnier avec nous ?
-Pourquoi ne nous dit-elle pas clairement qu'elle ne veut pas vnier avec nous ?
+Pourquoi ne nous dit-il pas clairement qu'il ne veut pas venir avec nous ?
+Pourquoi ne nous dit-elle pas clairement qu'elle ne veut pas venir avec nous ?
 Pourquoi donc ?
 Lesquels ?
 Lesquelles ?
@@ -1824,16 +1824,16 @@ Qu'est-ce qu'on mange ce soir ?
 Qu'est-ce qu'on mange au petit-déjeuner ?
 Qu'est-ce qu'on mange ce midi ?
 Qu'est-ce qui est rouge ?
-vingt quatre jeux intéréssants.
+vingt quatre jeux intéressants.
 quatre jeux intéressants.
 vingt quatre jeux.
-quantre jeux.
+quatre jeux.
 quatre personnes.
 quatre hommes.
 quatre gars.
-quarante quatre éléphants.
-trente quatre éléphants.
-trente quatre éléphants rouges.
+Quarante-quatre éléphants.
+Trente-quatre éléphants.
+Trente-quatre éléphants rouges.
 quatre éléphants.
 quatre coups.
 trente quatre nouvelles maisons avaient été construites.
@@ -1851,7 +1851,7 @@ Qui est-il ?
 Qui est-elle ?
 Qui sont-ils ?
 Qui sont-elles ?
-Qui sait ce qu'est un ornithorinque ?
+Qui sait ce qu'est un ornithorynque ?
 Qui êtes-vous ?
 Qui suis-je ?
 Qui es-tu ?
@@ -1864,7 +1864,7 @@ il plia le bout de papier et le mit dans sa poche.
 il avait plié le bout de papier.
 il est content.
 elles est contente.
-ça lui plait.
+ça lui plaît.
 J'ai du mal à croire cette histoire.
 il a mal à la tête.
 mal de tête.
@@ -1939,7 +1939,7 @@ il faut que je travaille.
 il est nécessaire d'avoir un imperméable.
 Il faut faire croître l’intérêt des étudiants et, de manière générale, des actifs vis-à-vis de ce métier si l’on veut développer la filière et rendre les formations plus efficaces.
 donne cette lettre à la mère de Herve.
-donne un baiser à mamam.
+donne un baiser à maman.
 pierre qui roule n'amasse pas mousse.
 il a été viré.
 elle a été virée.
@@ -2009,11 +2009,11 @@ te voici.
 plus c'est loin mieux c'est.
 je me lève tous les jours à sept heures du matin.
 Malheureusement, en France (à l’inverse des autres pays européens), le recensement ne s’intéresse pas aux langues parlées par les citoyens.
-Les « ducs à cause d’elle » sont indiqués en plus clair.
+Les « ducs à cause d’elle » sont indiqués en plus clair.
 Aujourd'hui Ecole Jean Jaurès.
 l'école de Morlaix.
 J'avais frémis en le voyant.
-Gwenole Larvol m'écrit qu'il n'a pas été invité par l'Office à participer à la commision lexicographique de mathématique dont on avait parlé au conseil scientifique.
+Gwenole Larvol m'écrit qu'il n'a pas été invité par l'Office à participer à la commission lexicographique de mathématique dont on avait parlé au conseil scientifique.
 Écrire en breton.
 Écrivez-moi si vous voyez des choses à rajouter.
 Nous sommes assez fatigués.
@@ -2033,7 +2033,7 @@ C'est fatigant.
 Il est fatigant.
 Elle est fatigante.
 J'ai pensé que l'on enverrait ça par courriel avec un mot d'accompagnement en plus.
-SP à son compte, rétribuée par la mairie, compétente en kayak, premiers secours, danses à l'ancienne, diplomée pour être assistante maternelle.
+SP à son compte, rétribuée par la mairie, compétente en kayak, premiers secours, danses à l'ancienne, diplômée pour être assistante maternelle.
 notre chienne est intelligente.
 il est épouvantable d'entendre de telles choses.
 nous pouvons vous proposer des stages de toutes sortes pour les semaines et les mois à venir.
@@ -2254,7 +2254,7 @@ je vous remercie.
 je te remercie.
 merci pour tes vœux, je te souhaite une année 2015 avec des nouveaux brittophones qui germent partout.
 merci de ta réponse.
-mersi de tes réponses.
+merci de tes réponses.
 merci de votre réponse.
 merci de vos réponses.
 merci beaucoup.
@@ -2276,7 +2276,7 @@ des petites gens.
 vingt maisons.
 vingt.
 trente et un livres noirs.
-vintgt et un livres noirs.
+vingt et un livres noirs.
 un livre noir.
 trente et un livres.
 vint et un livres.
@@ -2302,7 +2302,7 @@ une statue en bois.
 un adulte.
 Une personne à la langue bien pendue.
 c'est une grosse déception qui va à l'encontre du vote fait en 2011 par le conseil communautaire qui avait voté le niveau 1 de la charte.
-Une décision qui, bien entendu, n’a jamais été prise… ni même envisagée !
+Une décision qui, bien entendu, n’a jamais été prise… ni même envisâgée !
 une gardienne d'enfants.
 une garderie d'enfants.
 Il y a là quelque chose à imaginer pour progresser : utiliser toutes les bonnes volontés pour faire avancer la langue bretonne.
@@ -2381,7 +2381,7 @@ un chien.
 un vieux truc.
 un vieux machin.
 un lave-linge bruyant.
-une petie gare.
+une petite gare.
 une professeure de français.
 une grande ville.
 trente et une chiennes.
@@ -2407,11 +2407,11 @@ une robe jaune et non rouge.
 Il s’agit là d’un obstacle majeur qui nous empêche d’avoir une connaissance suffisamment fine de l’état de la langue.
 une école de dessin.
 Un exemple quand même, celui d’Yvette Guilbert, chanteuse de cabaret qui avait en 1899 proche de sa chambre, une seule grande pièce fonctionnelle.
-une très grosse bétise.
+une très grosse bêtise.
 une poissonnerie.
 une boucherie.
 une librairie.
-un magazin de vieilleries.
+un magasin de vieilleries.
 une boulangerie.
 un voilier.
 un tout petit petit papillon.
@@ -2422,7 +2422,7 @@ Un visage rasé de près.
 une belle fleur.
 une tabatière.
 une grande bouteille.
-une boutaille de vin blanc.
+une bouteille de vin blanc.
 une bouteille de vin.
 une jupe quelconque.
 une jupe noire.
@@ -2474,11 +2474,11 @@ le temps se refroidit.
 il refroidit.
 ça se refroidit.
 Elle refroidit.
-Le cas du zoo de Pont-Scorff, défendu hier aussi par des élus, responsables économiques, hôteliers, restaurateurs, est loin d'être unique. 
+Le cas du zoo de Pont-Scorff, défendu hier aussi par des élus, responsables économiques, hôteliers, restaurateurs, est loin d'être unique.
 Zoom sur…
 Récemment.
 Récemment j'ai vu un homme.
-Ca, c'est nouveau.
+Ça, c'est nouveau.
 Ça c'est assez nouveau.
 Ça c'est assez neuf.
 Ça c'est assez récent.
@@ -2611,12 +2611,12 @@ Tu n'iras pas danser ?
 Ils ne connaissent pas la nouvelle ?
 Il ne tombera pas ?
 Ils ne seraient pas venus ?
-Ils ne se plaidront pas ? Si.
+Ils ne se plaindront pas ? Si.
 Il faisait beau hier. Oui.
 Il n'est pas venu aujourd'hui. Non.
 Quel stupide animal !
 Ce tableau représente la Sainte Vierge.
-Quel huluberlus !
+Quel hurluberlus !
 Quelles bruyantes voitures !
 Comme il est fort !
 Qu'est-ce qu'on les voit souvent !
@@ -2689,7 +2689,7 @@ Un liquide.
 L'étude des sciences.
 La pêche.
 Une étude de notaire.
-Les quatres vents.
+Les quatre vents.
 Celui-là, ce temps-là.
 Deux livres.
 Il y a une mauvaise odeur ici, il faut l'éliminer.
@@ -2703,7 +2703,7 @@ Une chanteuse.
 Un Anglais.
 Une Anglaise.
 Un protestant.
-Une brotestante.
+Une protestante.
 Le loup.
 La louve.
 Un médecin.
@@ -2745,7 +2745,7 @@ Ces châtaignes ne sont pas pourries.
 Quelques châtaignes.
 Les châtaigniers ne sont pas encore en fleur.
 Le bois de châtaignier est clair.
-Le goémon non-pourri n'est pas bon comme emgrais.
+Le goémon non-pourri n'est pas bon comme engrais.
 Ses oreilles ne sont pas sales.
 La libellule a deux paires d'ailes.
 Des paires d'yeux me regardaient.
@@ -2822,18 +2822,18 @@ La plus neuve d'entre elles.
 Le chemin de la plage.
 l'aide des pompiers.
 Les gens de la campagne.
-Un bâteau à voile.
+Un bateau à voile.
 La bonté à l'égard des pauvres
 L'amour du prochain.
 La peur des chiens.
 Les cheveux de Yann sont noirs.
-Le cœur de cette fille tréssaille.
+Le cœur de cette fille tressaille.
 J'aime bien les règles de ce jeu.
 Une machine à écrire.
 Le moment de partir.
 L'avenir.
 Un bureau.
-Le bâteau de pêche.
+Le bateau de pêche.
 Un restaurant.
 Un moment de repos.
 Un mois de travail.
@@ -2845,7 +2845,7 @@ Aucune autre maison.
 Il n'y a pas de chaises.
 Il n'y a aucune autre chaise.
 Il n'y a pas de maisons.
-Il n'y a pas d'uatre maison.
+Il n'y a pas d'autre maison.
 Si les enfants ne peuvent pas jouer.
 Si tu ne peux pas jouer.
 Si les enfants ne peuvent pas jouer il faudra trouver autre chose.
@@ -2891,8 +2891,8 @@ Mieux vaut instruction que richesse.
 Qu'est-ce que tu prendras ?
 Du thé ou du café ?
 Il y a de la sauce à rajouter.
-J'aime bien les crèpes.
-J'aime courrir.
+J'aime bien les crêpes.
+J'aime courir.
 Il aime lire.
 Elle aime lire.
 Y aura-t-il de la neige à Noël ?
@@ -2956,7 +2956,7 @@ Monsieur Louarn.
 Madame la directrice, venez vite.
 Bonjour monsieur Le Goff.
 Au revoir madame Louarn.
-Docteur Keraotred, écoutez-moi s'il vous plait.
+Docteur Keraotred, écoutez-moi s'il vous plaît.
 Les Trégorois sont moqueurs.
 Tous les Irlandais.
 Ces Écossais portaient des kilts.
@@ -2987,7 +2987,7 @@ Le Grand chariot.
 La ville du Faou.
 L'Union des Enseignants de Breton.
 L'UGB s'était réunie la semaine dernière.
-Il est bien pauvre, sa paye n'atteint même pas le smic.
+Il est bien pauvre, sa paye n'atteint même pas le SMIC.
 Une trentaine de moules.
 Une trentaine de personnes.
 Dix soldats étaient en train de tirer environ.
@@ -2995,7 +2995,7 @@ Une dizaine de soldats étaient en train de tirer.
 Une paire de lunettes fines sur le nez.
 Des yeux emplis d'amour me regardaient.
 Mourir de froid.
-Trésaillir de joie.
+Tressaillir de joie.
 Rougir de honte.
 L'odeur de roussi
 Une odeur de roussi
@@ -3028,7 +3028,7 @@ Ils ne l'avaient pas écouté.
 Elles ne l'avaient pas écouté.
 D'ici à demain nous les aurons informés.
 D'ici à demain nous les aurons informées.
-Ils se méfiaent comme toi et moi.
+Ils se méfiaient comme toi et moi.
 Il y avait eu une dispute entre lui et sa femme.
 Iras-tu, toi, au cinéma après dîner ?
 On ne vous verra pas, vous, vous occuper des enfants.
@@ -3223,7 +3223,7 @@ Votre idée.
 Leur idée.
 Cela m'a été dit par un de ses frères.
 Son prix est à 100 euros.
-Son toît est rouge.
+Son toit est rouge.
 Ses chambres sont vastes.
 Et son jardin bien entretenu.
 Prends les trois feuilles qui sont sur la table.
@@ -3326,7 +3326,7 @@ Une heure après minuit.
 Une heure du matin.
 Deux heures après minuit.
 Deux heures du matin.
-Le vote du douze spetembre.
+Le vote du douze septembre.
 On prélèvera l'argent de votre compte le quinze du mois.
 Le combien sommes-nous ?
 Le premier mai.
@@ -3387,7 +3387,7 @@ Une telle.
 Et patati et patata.
 Un tas de livres.
 Une marée humaine.
-Un certains nombre d'huluberlus.
+Un certains nombre d'hurluberlus.
 Tout le monde sait ça.
 Dans chaque commune il y a une mairie.
 Tous ceux qui étaient là-bas ce jour-là virent son frère.
@@ -3398,7 +3398,7 @@ Tu as perdu tout ton argent ?
 Tout Rennes est content du résultat du match.
 Le pays tout entier avait été pillé.
 Tout ce monde-ci.
-J'ai envie de voir ce mone magnifique en entier.
+J'ai envie de voir ce monde magnifique en entier.
 Ce ne sont que des mensonges !
 Rien que des idioties !
 Nous étions allés en ville, nous tous.
@@ -3422,7 +3422,7 @@ Tout le monde est bien habillé ce soir.
 Ils ont chacun un chapeau.
 Les enfants ont tous eu une part de gâteau.
 Vous prendrez tous un café ?
-On meur donnera trois livres à chacun.
+On donnera trois livres à chacun.
 Les invités ont eu chacun leur tasse de café.
 Nous, nous avons fait chacun notre travail.
 Après le jeu, il ne leur en restait qu'un seul à chacun.
@@ -3481,7 +3481,7 @@ Beaucoup ont crié de peur.
 Beaucoup de renards étaient venus manger les poules du paysan.
 La majorité du travail a été faite.
 J'ai suffisamment d'or.
-Ils avaient eu suffissament de chagrin.
+Ils avaient eu suffisamment de chagrin.
 J'ai assez d'or.
 Ils avaient eu assez de chagrin.
 Nous n'aurons pas assez de temps pour aller voir ta sœur.
@@ -3525,7 +3525,7 @@ Maintenant nous somme peu de monde.
 J'ai quelques livres qui traitent de l'informatique.
 J'aime l'informatique.
 Il n'est pas compétent en informatique.
-Les quelques rares nouvelles qu'elle m'avait envoyées n'ataient pas très bonnes.
+Les quelques rares nouvelles qu'elle m'avait envoyées n'étaient pas très bonnes.
 Ils vivent de peu.
 Peu sont venus manger ce soir.
 Il y a beaucoup de nourriture sur la table.
@@ -3534,7 +3534,7 @@ Peu de gens ne sont pas vêtu de rouge.
 Quelques choses n'avaient pas été faites.
 Peu ne rient pas.
 J'ai trop peu d'argent pour acheter une maison.
-J'ai trop peu d'argent pour acheter ur c'harr.
+J'ai trop peu d'argent pour acheter un char.
 J'ai bien peu confiance en lui.
 Il est vraiment préoccupé.
 C'est vraiment beau.
@@ -3659,7 +3659,7 @@ Comprendre la vie des gens.
 Il ne comprend pas la vie des gens.
 Développer les compétences humaines.
 Développer les compétences des gens.
-Acheter le terrioire commun.
+Acheter le territoire commun.
 Diffuser à tous.
 Diffuser aux personnes qui ont participé.
 Quel jour téléphonera-t-il donc ?
@@ -3690,7 +3690,7 @@ Je ne trouve aucune graine dans ce champ.
 Là-bas, aucun arbre ne pousse.
 Bien qu'il eût fait une grave erreur, il s'en retourna sans aucune honte.
 On peut courir à n'importe quelle période de l'année.
-Voici une œuvre qui me plait plus qu'aucune autre.
+Voici une œuvre qui me plaît plus qu'aucune autre.
 J'achèterai une autre maison quand j'aurai de l'argent.
 Ton autre manteau est dans le couloir.
 Quand viendront les autres personnes ?
@@ -3734,7 +3734,7 @@ Diffuser la bonne nouvelle aux gens.
 Si le vent faiblit.
 Si la force me manque.
 Si tout le monde se met ensemble pour danser on y arrivera.
-Si les gens s'ennuient ils peuvent toujours éteindre la téle et aller se promener.
+Si les gens s'ennuient ils peuvent toujours éteindre la télé et aller se promener.
 Je ne suis pas sûr d'avoir éteint la télé avant de sortir.
 Je ne suis pas sûr d'avoir éteint la lumière avant de sortir.
 Si le jardin de Douarnenez avait été nettoyé le site aurait été mieux conservé.
@@ -3812,7 +3812,7 @@ Ce genre de choses ne se vend pas bien.
 J'aimerais bien avoir une maison telle que celle-là.
 J'aimerais bien avoir un travail tel que celui-là.
 Un grand garçon.
-La petie cuillère.
+La petite cuillère.
 De petites voitures rouges.
 De jolis petits boutons ronds rouges.
 Une bien mauvaise nouvelle.
@@ -3839,8 +3839,8 @@ Peu de chose.
 C'est un homme porté à dire la vérité.
 Un gars qui ne ressemble pas à son père.
 Une bouteille pleine d'eau.
-Cet homme, porté à dire la vérité, me plait.
-Cet écrivain, connu pour ses pièves ed théâtre, a également écrit un roman.
+Cet homme, porté à dire la vérité, me plaît.
+Cet écrivain, connu pour ses pièces de théâtre, a également écrit un roman.
 Il fait beau.
 Le beau temps.
 Ses cheveux sont noirs, longs et brillants.
@@ -3883,9 +3883,9 @@ C'est un homme plutôt grand.
 Le tas sera un peu plus grand.
 J'ai beaucoup de mal à me lever.
 J'ai une grande douleur au bras.
-J'ai beaucoup de mal à coire qu'il a été enlevé.
+J'ai beaucoup de mal à croire qu'il a été enlevé.
 J'ai une douleur au bras.
-J'ai du mal à coire ce que tu m'expliques.
+J'ai du mal à croire ce que tu m'expliques.
 Les trous sont nombreux par ici.
 Les gens ne sont pas nombreux.
 Les gens sont peu nombreux.
@@ -3896,8 +3896,8 @@ De 845 à 978
 Il faut que tu mettes ça en place.
 Tu doit mettre ça en place.
 Il s'occupe d'une grande charge.
-Cet endroit me plait.
-Cet endroit me plait, qu'on y vende des maisons ou non.
+Cet endroit me plaît.
+Cet endroit me plaît, qu'on y vende des maisons ou non.
 Je vais directement à la maison.
 Il ira directement à la maison.
 Deux points d'avance.
@@ -3966,7 +3966,7 @@ Une quarantaine de personnes.
 Une vingtaine de joueurs.
 Une trentaine d'étudiants.
 Une cinquantaine de policiers.
-Une quinzaine d'huluberlus.
+Une quinzaine d'hurluberlus.
 Les choses ont été grandement facilitées.
 Trois point d'avance.
 Il faut apporter du changement.
@@ -3975,7 +3975,7 @@ Un grand changement.
 Il y a eu de grands changement.
 Il apprend bien.
 Elle apprend bien.
-Tu apprens bien tes leçons.
+Tu apprends bien tes leçons.
 On fait durer les choses.
 On fait attendre les gens.
 On fait attendre les gens longtemps.
@@ -4052,7 +4052,7 @@ Vraiment mauvais.
 Assez fatigué.
 C'est vivant que le renard avait été attrapé.
 On mange le far froid ou tiède.
-Il avit appris beaucoup de chansons étant jeune.
+Il avait appris beaucoup de chansons étant jeune.
 Blanc comme neige.
 Noir comme dans un four.
 Brièvement.
@@ -4110,7 +4110,7 @@ On a apporté des changements au texte.
 On a apporté de grands changements au texte.
 Depuis longtemps les maires doivent faire attention à ça.
 Ce livre te plaira.
-Ces évènements leur plaisaient.
+Ces événements leur plaisaient.
 L'orage est à son maximum.
 La radio est au maximum.
 Quelle jolie maison !
@@ -4251,7 +4251,7 @@ Quand ton père achète-il le journal ?
 Qu'achète ton père tous les jours ?
 Où ton père achète le journal ?
 Que fait ton père tous les jours.
-Faire des crèpes.
+Faire des crêpes.
 Se peigner les cheveux.
 Bien jouer.
 Il joue bien.
@@ -4262,7 +4262,7 @@ Achète le journal tous les jours.
 Regardez ce qu'il est en train de montrer.
 Tiens donc !
 Si !
-On n'aua pas le temps d'y aller ? Si !
+On n'aura pas le temps d'y aller ? Si !
 Que si !
 Voilà qui est bien!
 Voilà qui est vrai !
@@ -4336,12 +4336,12 @@ Elle qui devait être ici depuis un quart d'heure…
 Moi qui suit de devenu vieux…
 Ronan, qui était malade, était resté à la maison également.
 Une lettre qui est joliment écrite.
-J'irai demander à quelqu'un qui connait la route.
+J'irai demander à quelqu'un qui connaît la route.
 La porte que vous être en train de peindre.
 L'homme avec qui j'étais en train de parler est mon voisin.
 Dites-moi quel est ce médicament dont on parle tellement.
 Les gens avec qui j'aime bien être sont des gens sans façons.
-Cet homme-là, qui avait vécu dans les pays lontains, savait un tas de choses.
+Cet homme-là, qui avait vécu dans les pays lointains, savait un tas de choses.
 Mon père, qui venait de perdre son travail, préféra changer de profession.
 L'oiseau qui ne chante plus.
 Les choses que je n'aime plus.
@@ -4414,8 +4414,8 @@ Il était plus vieux que je ne le croyait.
 Moi, je cherche alors que toi tu ne le fais pas.
 Je vais manger car j'ai faim.
 C'est joli mais c'est trop cher.
-Ce n'était pas quelqu'un de très instruit mais il s'avait bien s'exprimer.
-Ce n'était pas quelqu'un de très instruit sauf qu'il s'avait bien s'exprimer.
+Ce n'était pas quelqu'un de très instruit mais il savait bien s'exprimer.
+Ce n'était pas quelqu'un de très instruit sauf qu'il savait bien s'exprimer.
 J'allais à l'école en bus et je devais me lever tôt.
 Arrête tout de suite où je le dirai à mon père.
 Elle ira.
@@ -4451,7 +4451,7 @@ Environ 300 kilomètres.
 Environ 8 heures de voyage avec la route.
 En face de la poste.
 Quand il sera arrivé nous irons tous dehors.
-L'agriculture est la principale occupation des gens la-bàs.
+L'agriculture est la principale occupation des gens là-bas.
 Tout.
 Tout est bon.
 Ils sont tous bons.
@@ -4487,7 +4487,7 @@ Vous avez peur ?
 Tu as peur ?
 Êtes-vous allergique à quelque chose ?
 Êtes-vous Américain ?
-Vous êtes faché contre moi ?
+Vous êtes fâché contre moi ?
 Êtes-vous réveillé ?
 Es-tu réveillé ?
 Connaissez-vous cela ?
@@ -4553,7 +4553,7 @@ Soyez poli ou vous entendrez parler de moi.
 Grand / Petit.
 Dieu vous pardonne.
 Fermer la porte à clef.
-Emmenez-moi ma chemise s'il vous plait.
+Emmenez-moi ma chemise s'il vous plaît.
 Emmenez-les ici.
 Les affaires sont bonnes.
 Téléphonez-moi.
@@ -4564,25 +4564,25 @@ Je peux me connecter à Internet ici ?
 Je peux me connecter au réseau ici ?
 Je peux emprunter un peu d'argent ?
 Je peux venir avec mon ami ?
-Est-ce que je peux avoir un verre d'eau s'il vous plait ?
-Est-ce que je peux avoir une facture s'il vous plait ?
-Est-ce que je peux avoir la note s'il vous plait ?
+Est-ce que je peux avoir un verre d'eau s'il vous plaît ?
+Est-ce que je peux avoir une facture s'il vous plaît ?
+Est-ce que je peux avoir la note s'il vous plaît ?
 Un peu d'aide ?
 Je peux vous aider ?
 Je peux mettre un rendez-vous pour mercredi ?
-Puis-je voir votre passeport s'il vous plait ?
+Puis-je voir votre passeport s'il vous plaît ?
 Je peux prendre un message ?
 Est-ce que je peux l'essayer ?
 Je peux utiliser votre téléphone ?
 Il peut être meilleur marché ?
-Est-ce que nous pouvons avoir la carte s'il vous plait ?
-Nous pouvons avoir un peu plus de pain s'il vous plait ?
-Est-ce que nous pouvons avoir un peu plus de pain s'il vous plait ?
-Pouvons-nous avoir un peu plus de pain s'il vous plait ?
+Est-ce que nous pouvons avoir la carte s'il vous plaît ?
+Nous pouvons avoir un peu plus de pain s'il vous plaît ?
+Est-ce que nous pouvons avoir un peu plus de pain s'il vous plaît ?
+Pouvons-nous avoir un peu plus de pain s'il vous plaît ?
 Nous pouvons nous asseoir par là ?
 Pouvez-vous retéléphoner plus tard ?
 Pouvez-vous me retéléphoner plus tard ?
-Pouvez-vous porter ça pour moi s'il vous plait.
+Pouvez-vous porter ça pour moi s'il vous plaît.
 Pouvez-vous me rendre un petit service ?
 Pouvez-vous arranger ça ?
 Vous pouvez me donner un exemple ?
@@ -4590,10 +4590,10 @@ Pouvez-vous m'aider ?
 Vous pouvez tenir ça pour moi ?
 Vous pouvez redire ça ?
 Vous pouvez nous recommander un bon restaurant ?
-Vous pouvez redire ça s'il vous plait ?
-Vous pouvez le redire s'il vous plait ?
+Vous pouvez redire ça s'il vous plaît ?
+Vous pouvez le redire s'il vous plaît ?
 Vous pouvez me montrer ?
-Vous pouvez parler plus fort  s'il vous plait ?
+Vous pouvez parler plus fort  s'il vous plaît ?
 Vous pouvez parler doucement ?
 Vous savez nager ?
 Pouvez-vous lancer ça dehors pour moi ?
@@ -4622,7 +4622,7 @@ Vous étiez venu avec votre famille ?
 Vous avez eu mon mail ?
 Vous avez eu mon courrier ?
 Vous étiez arrivé à temps ?
-Vous étiez au brureau hier ?
+Vous étiez au bureau hier ?
 Ça vous a plu ici ?
 Vous avez fermé la porte à clef ?
 Vous avez ouvert la porte ?
@@ -4635,7 +4635,7 @@ Vous avez pris votre médicament ?
 Vous avez tapé la lettre ?
 Vous avez compris cette leçon ?
 Votre femme aime-t-elle la Californie ?
-Votre femme se plait en Californie ?
+Votre femme se plaît en Californie ?
 Faites vos devoirs.
 Nous aimons l'école ?
 Vous acceptez les dollars USA ?
@@ -4644,7 +4644,7 @@ Vous allez mieux ?
 Vous allez souvent en Floride ?
 Vous avez un amoureux ?
 Vous avez une amoureuse ?
-Vous avez ur crayon gris ?
+Vous avez un crayon gris ?
 Vous avez un problème ?
 Vous avez une piscine ?
 Vous avez rendez-vous ?
@@ -4654,7 +4654,7 @@ Vous avez du café ?
 Vous avez de l'argent ?
 Vous avez des crayons gris ?
 Il y a des places vacantes ?
-Vous avez quleque chose ?
+Vous avez quelque chose ?
 Vous avez quelque chose de meilleur marché ?
 Vous avez assez d'argent sur vous ?
 Vous avez le numéro du taxi ?
@@ -4677,10 +4677,10 @@ Est-ce que vous savez qui elle est ?
 Savez-vous où est-ce qu'il y a un magasin qui vend des serviettes ?
 Vous savez où est-ce qu'il y a un magasin qui vend des serviettes ?
 Vous vous plaisez ici ?
-Ça vous plait ?
-Le livre vous plait ?
+Ça vous plaît ?
+Le livre vous plaît ?
 Vous aimez regarder la télévision ?
-Votre directeur vous plait ?
+Votre directeur vous plaît ?
 Vos collaborateurs vous plaisent ?
 Vous avez besoin de quelque chose d'autre ?
 Vous avez besoin de quelque chose ?
@@ -4702,17 +4702,17 @@ Et vous pensez qu'il va pleuvoir demain ?
 C'est possible, vous pensez ?
 Et vous pensez être une personne intelligente ?
 Vous serez de retour pour 11h30, vous pensez ?
-Vous conprenez ?
+Vous comprenez ?
 Vous voulez que je vienne vous prendre ?
 Vous voulez venir avec moi ?
 Vous voulez aller au cinéma ?
 Vous voulez y aller avec moi ?
 Quelqu'un sait l'anglais ici ?
 Quelqu'un sait l'allemand ici ?
-Il se plait à l'école ?
-L'école lui plait ?
+Il se plaît à l'école ?
+L'école lui plaît ?
 Il ouvre la porte ?
-Il neige souvent pendant l'hiver au Masschussets ?
+Il neige souvent pendant l'hiver au Massachusetts ?
 Cette route va à Auray ?
 Cette route va à Nantes ?
 Cette route va à New York ?
@@ -4738,7 +4738,7 @@ Ne laissez pas la parte ouverte.
 Ne me faites pas me mettre en colère.
 Ne faites pas de bruit.
 Il ne faut pas faire de bruit.
-Pas un mo sur ça.
+Pas un mot sur ça.
 Pas un mot là-dessus.
 Ne déménagez pas avec eux.
 Ne bougez pas avec eux.
@@ -4775,7 +4775,7 @@ Excusez-moi, qu'avez-vous dit ?
 Excusez-moi
 Date de fin.
 Extra.
-Remplissez-le s'il vous plait.
+Remplissez-le s'il vous plaît.
 Bien.
 Excellent.
 En très bonne santé.
@@ -4808,7 +4808,7 @@ Bonjour !
 Bonne nuit et dormez bien !
 Bien/ mal/ entre les deux.
 Bien/ entre les deux.
-Bon anniverssaire !
+Bon anniversaire !
 Bonne année !
 Est-ce que votre frère a déjà été en Californie ?
 Bon voyage.
@@ -4841,7 +4841,7 @@ Ellen ne ressemble pas à une infirmière.
 Il a une belle voiture.
 Est-ce qu'il a quelques lettres pour votre père ?
 C'est un affairiste.
-C'est ur gars rigolo.
+C'est un gars rigolo.
 Il est ingénieur en informatique chez WIPRO.
 C'est Andrew.
 Il s'appelle Andrew.
@@ -4849,22 +4849,22 @@ Il réussit bien.
 Il va bien.
 Il est en classe avec moi.
 C'est un de mes collaborateurs.
-C'est mon frère ainé.
+C'est mon frère aîné.
 C'est mon père.
-C'est pmon grand-père.
+C'est mon grand-père.
 C'est mon voisin.
 Il est en train d'ouvrir la porte…
 Il travaille comme ingénieur en informatique chez WIPRO.
 Il travaille chez MSN - USA.
 Il est venu faire un tour seulement.
-Ça lui plait énormément.
+Ça lui plaît énormément.
 Il aime bien le jus mais il n'aime pas le lait.
 Il habite à Paris en France.
 Nous avons besoin de quelques nouveaux vêtements.
 Il ne me donne jamais rien.
 Il ouvre la porte.
 La porte ouvre.
-Il dit que c'est ul lieu agréable.
+Il dit que c'est un lieu agréable.
 Il dit que vous aimez regardez des films.
 Il étudie à l'université de Boston.
 Il pense que nous ne voulons y aller.
@@ -4898,7 +4898,7 @@ Il travaille d'arrache-pied.
 Alors ! Mon gars !
 Alors ! Comment est-ce que vous pouvez me parlez comme ça ?
 Salut !
-Salut ! Mme Smith est là, s'il vous plait ?
+Salut ! Mme Smith est là, s'il vous plaît ?
 Cachez le quelque part.
 Sa famille vient demain.
 Sa chambre est très petite.
@@ -4954,7 +4954,7 @@ Combien de temps resterez-vous en Californie ?
 Combien de temps allez-vous rester là ?
 Combien de temps allez-vous rester ?
 Combien de temps ça prend en voiture ?
-Combien de temps pour aller en Georgie ?
+Combien de temps pour aller en Géorgie ?
 Combien de temps avez-vous été ici ?
 Combien de temps avez-vous été en Amérique ?
 Combien de temps avez-vous habité ici ?
@@ -4999,10 +4999,10 @@ Comment est-ce que vous réussirez ?
 Comment sont les affaires ?
 Comment ça va avec le travail ?
 Dépêchez-vous !
-Je suis diplomé de B.E.
+Je suis diplômé de B.E.
 Je suis une fille.
 Moi, je suis une fille.
-Je suis diplomé en ingénierie.
+Je suis diplômé en ingénierie.
 Je suis femme au foyer.
 Je suis originaire de Washington.
 Je fais une thèse de médecine.
@@ -5040,7 +5040,7 @@ J'habite à Londres.
 Je suis certain que ce n'était pas de voter faute et tout le monde le sait.
 Je vous suis très reconnaissant.
 Je suis très satisfait.
-Je suis extrèmement satistfait.
+Je suis extrêmement satisfait.
 Je suis très strict.
 Je travaille comme agent de publicité.
 Je travaille chez Google.
@@ -5120,7 +5120,7 @@ J'ai beaucoup de riz.
 J'ai beaucoup de choses à manger.
 J'ai beaucoup de choses à faire.
 J'ai une paire de tasses de thé.
-J'ai une paire de siceaux.
+J'ai une paire de ciseaux.
 J'ai une paire de chaussures.
 J'ai une paire de chaussons.
 J'ai un crayon et deux livres.
@@ -5133,14 +5133,14 @@ J'ai un sac de riz.
 J'ai été travailler, je n'ai pas ouvert.
 Je n'ai plus de patience.
 J'en ai fini avec ma M.S.
-J'ai fait mon B.S en ingiénierie.
+J'ai fait mon B.S en ingénierie.
 J'ai des problèmes de cœur.
 J'ai des problèmes de foie.
 J'ai de l'argent.
 Je ne me souviens de rien.
 Je n'ai pas le temps de vous voir.
 J'en ai un dans ma voiture.
-Il ne me reste que quelques secondes pour vous rappeller que votre travail sur ces leçons n'est pas terminé, loin de là.
+Il ne me reste que quelques secondes pour vous rappeler que votre travail sur ces leçons n'est pas terminé, loin de là.
 J'ai ouvert, je n'ai pas ouvert. Est-ce que vous avez ouvert ?
 J'ai mal au bras.
 J'ai mal à la gorge.
@@ -5170,7 +5170,7 @@ J'ai lu les titres rapidement.
 Je sais.
 Je m'en vais à 9h15.
 J'aime l'anglais.
-Ça me plait.
+Ça me plaît.
 J'aime ça.
 J'aime la nourriture italienne.
 J'aime regarder la télévision.
@@ -5236,7 +5236,7 @@ Je reviens tout de suite.
 Je viendrai vous chercher.
 Je n'oublierai jamais le temps que vous m'avez consacré pour m'aider.
 Je n'ouvrirai pas la porte.
-J'ouvrrai la porte. Je devrais ouvrir la porte.
+J'ouvrirai la porte. Je devrais ouvrir la porte.
 J'ouvrirai, je n'ouvrirai pas, est-ce que vous ouvrirez, qu'est-ce que vous ferez.
 Je t'y emmènerai un jour.
 J'aimerais en avoir une.
@@ -5256,14 +5256,14 @@ Je suis prêt à déjeuner.
 Tu me plais beaucoup comme ami.
 J'aimerais avoir un plan de ville.
 Je voudrais une chambre non fumeur.
-Je voudrais avoir une chambre avec deux lits s'il vous plait
+Je voudrais avoir une chambre avec deux lits s'il vous plaît
 Je voudrais avoir une chambre.
 Je voudrais avoir une chambre seule.
 J'aimerais avoir une table près de la fenêtre.
-J'aimerais aussi avoir un verre d'eau, s'il vous plait.
-Je voudrais avoir le numéro de l'hôtel Hilton, s'il vous plait.
-Je voudrais acheter une bouteille d'eau s'il vous plait.
-Je voudais acheter une carte de téléphone.
+J'aimerais aussi avoir un verre d'eau, s'il vous plaît.
+Je voudrais avoir le numéro de l'hôtel Hilton, s'il vous plaît.
+Je voudrais acheter une bouteille d'eau s'il vous plaît.
+Je voudrais acheter une carte de téléphone.
 Je voudrais acheter quelque chose.
 Je voudrais téléphoner aux États-Unis.
 Je voudrais manger au restaurant de la 5è rue.
@@ -5277,18 +5277,18 @@ Je veux réserver une place.
 Je veux louer une voiture.
 J'aimerais envoyer un fax.
 Je veux envoyer ça en Amérique.
-J'aimerais parler à M. Smith s'il vous plait.
+J'aimerais parler à M. Smith s'il vous plaît.
 J'aimerais utiliser l'Internet.
 J'aimerais aller en Espagne un jour.
-Si ça te plait je peux acheter plus.
+Si ça te plaît je peux acheter plus.
 Si vous avez besoin d'être aidé, dites le moi.
 Je rappellerai plus tard.
 Je vous téléphonerai vendredi.
 Je vous téléphonerai quand je partirai.
 Je reviendrai plus tard.
 Je vous téléphonerai.
-Je prendrai une tasse de thé s'il vous plait.
-Je prendrai un verre d'eau s'il vous plait.
+Je prendrai une tasse de thé s'il vous plaît.
+Je prendrai un verre d'eau s'il vous plaît.
 Je prendrai la même chose.
 Je paierai mon dîner.
 Je paierai les tickets.
@@ -5313,7 +5313,7 @@ Je suis Américain.
 Je m'ennuie.
 Je suis en train de nettoyer ma chambre.
 J'ai froid.
-Je viens dout de suite.
+Je viens tout de suite.
 Je viens vous prendre.
 Je suis bien, et vous ?
 Je suis bien, merci !
@@ -5348,7 +5348,7 @@ Je suis en train d'écouter. (téléphone).
 Je suis prêt.
 Je suis mon propre employé.
 Excusez-moi (si vous n'entendez pas quelque chose).
-Je suis désolé, il est epuisé.
+Je suis désolé, il est épuisé.
 Excusez-moi.
 Je suis certain.
 J'ai beaucoup de travail.
@@ -5373,7 +5373,7 @@ Il apprend l'anglais ?
 Il est en train de payer les frais ?
 Il est en train de courir ?
 Il est en train de prendre votre téléphone portable ?
-C'est votre entraineur ?
+C'est votre entraîneur ?
 C'est un parent à vous ?
 C'est fermé ?
 Il fait froid dehors ?
@@ -5391,7 +5391,7 @@ C'est vrai ?
 Ça vaut la peine ?
 C'est la première fois que vous venez à Chennai ?
 John est là ?
-John est là s'il vous plait ?
+John est là s'il vous plaît ?
 Mala est en train de raconter une histoire ?
 Maran est en train de prendre votre crayon ?
 M. Smith est américain ?
@@ -5475,7 +5475,7 @@ C'est un régal !
 C'est loin d'ici.
 C'est marrant.
 Il fait chaud aujourd'hui.
-Il ca neiger aujourd'hui.
+Il va neiger aujourd'hui.
 Il est 11 heures et demi.
 C'est ici.
 Il est chaud.
@@ -5495,7 +5495,7 @@ C'est bon.
 Il est dans la 7è rue.
 C'est par ici.
 Il pleut.
-C'est brulant.
+C'est brûlant.
 Il fait extrêmement chaud.
 Il est plus court que 3 miles.
 Il est censé pleuvoir demain.
@@ -5529,7 +5529,7 @@ Allons jeter un œil.
 Allons.
 Nous nous verrons en face de l'hôtel.
 Parlons anglais.
-Répartons les choses.
+Répartissons les choses.
 Vivre c'est plus que souffrir.
 Fermez la porte.
 Fermez !
@@ -5585,9 +5585,9 @@ Mon fils.
 J'ai mis ma montre.
 À côté de la banque.
 Il ne marque pas.
-La pochaine fois.
+La prochaine fois.
 Dans une semaine mon cousin de Bombay viendra.
-C'est ur plaisir de faire connaissance avec vous.
+C'est un plaisir de faire connaissance avec vous.
 C'est un plaisir de faire votre connaissance.
 Pas de problème !
 Pas de problème.
@@ -5623,8 +5623,8 @@ Bien, déballe les choses.
 Au second étage.
 L'un est fort, l'autre est faible.
 Un comme ça.
-Un petit moment s'il vous plait.
-Un billet pour New York s'il vous plait.
+Un petit moment s'il vous plaît.
+Un billet pour New York s'il vous plaît.
 Un aller ou un voyage aller-retour ?
 Un, deux, trois.
 Ouvrez la porte.
@@ -5642,9 +5642,9 @@ Par là.
 Payez la note.
 Les gens parlent tamoul.
 Ramassez vos vêtements.
-Appelez-moi s'il vous plait
-Téléphonez-moi s'il vous plait.
-Entrez s'il vous plait.
+Appelez-moi s'il vous plaît
+Téléphonez-moi s'il vous plaît.
+Entrez s'il vous plaît.
 Contez ça pour moi.
 Comptez ça pour moi.
 Remplissez ce formulaire.
@@ -5653,12 +5653,12 @@ Parlez en anglais s'il vous plait.
 Parlez plus lentement s'il vous plait.
 Emmenez-moi à l'aéroport.
 Emmenez-moi à cette adresse.
-Enlevez-vos chaussures s'il vous plait.
+Enlevez-vos chaussures s'il vous plaît.
 Dites-lui que John a téléphoné.
-Dites-moi s'il vous plait.
-Attendez-moi s'il vous plait.
-Écrivez-ça s'il vous plait.
-S'il vous plait.
+Dites-moi s'il vous plaît.
+Attendez-moi s'il vous plaît.
+Écrivez-ça s'il vous plaît.
+S'il vous plaît.
 Assez bien.
 Mettez votre chemise.
 Qu'il pleuve ou qu'il fasse soleil, je serai là pour vous.
@@ -5690,9 +5690,9 @@ Elle veut savoir quand viendrez-vous.
 C'est une experte.
 Elle s'appelle Barbara.
 Il viendra avec moi demain.
-Il est plus agé que moi.
+Il est plus âgé que moi.
 C'est plus vieux que moi.
-Elle est plus agée que moi.
+Elle est plus âgée que moi.
 C'est joli.
 Elle s'appelle Sandra.
 Je dois attendre ?
@@ -5744,7 +5744,7 @@ Je vous remercie beaucoup.
 Merci.
 Merci d'avoir appelé.
 Merci pour tout.
-Merci de voter aide.
+Merci de votre aide.
 Cette voiture est pareille que la mienne.
 Cette voiture est identique à la mienne.
 Cette voiture est la même que la mienne.
@@ -5817,10 +5817,10 @@ Il y a quelques livres sur la table.
 Il y a deux crayons dans ma boîte.
 Il y a.
 Il y a eu un accident de voiture.
-Il y a un livre sutr la table.
+Il y a un livre sur la table.
 Il y a un puits mais l'eau est saumâtre.
 Chaque problème a toujours sa solution.
-Ce n'est pas la peine d'être préocuppé.
+Ce n'est pas la peine d'être préoccupé.
 Il n'y a aucun problème d'eau.
 Il n'y a aucun livre sur la table.
 Il y a de l'eau en quantité.
@@ -5846,7 +5846,7 @@ Eux, ils sont connus.
 Le bonus sera donné la semaine prochaine.
 Ils vident la maison le mois prochain.
 Ils sont très connus.
-Ils sont extrèmement connus.
+Ils sont extrêmement connus.
 Ils sont super connus.
 Ils sont arrivés hier.
 Ça coûte 26 dollars par jour.
@@ -5902,7 +5902,7 @@ Réveille-la.
 Réveille-le.
 Nous sommes connus.
 Nous, nous sommes connus.
-Nous vivont au Wisconsin.
+Nous vivons au Wisconsin.
 Nous sommes six personnes à la maison. Mon père, ma mère, mes deux sœurs et un frère en plus de moi-même.
 Nous sommes six personnes.
 Nous sommes deux frères et une sœur à la maison.
@@ -5910,7 +5910,7 @@ Nous pouvons manger de la nourriture de Chine ou d'Italie.
 Nous avons une voiture.
 Nous avons deux fils et une fille.
 Nous avons deux garçons et une fille.
-Ça nous plait énormément.
+Ça nous plaît énormément.
 Bienvenue (pour saluer quelqu'un)
 Deux verres d'eau s'il vous plait.
 Nous sommes de Californie.
@@ -6195,7 +6195,7 @@ Lequel veux-tu ?
 Lequel voulez-vous ?
 Lequel est le meilleur marché ?
 Lequel est le meilleur ?
-Quel chlin devrais-je prendre ?
+Quel chemin devrais-je prendre ?
 À quelle école va-t-il ?
 T'es qui ?
 Tu es qui ?
@@ -6228,7 +6228,7 @@ Pourquoi me le demandez-vous ?
 Pourquoi s'emporter sans raison ?
 Pourquoi êtes-vous en retard ?
 Pourquoi êtes-vous en train de rire ?
-Pourquoi êtes-vous en train d'hurler comme ça ?
+Pourquoi êtes-vous en train de hurler comme ça ?
 Pourquoi est-ce que vous me regardez comme ça ?
 Pourquoi me dites-vous tout ça ?
 Pourquoi n'y allez-vous pas ?
@@ -6246,24 +6246,24 @@ Pourquoi ne m'avez-vous pas informé ?
 Pourquoi portez-vous toujours des chemises bleues ?
 Pourquoi êtes-vous gêné ?
 Pourquoi avoir peur quand je suis avec vous ?
-Pouquoi avoir peur puisque je suis là ?
+Pourquoi avoir peur puisque je suis là ?
 Pourquoi est-ce ennuyeux ?
 Pourquoi le train est-il en retard ?
 Pourquoi pas ?
 Est-ce qu'il va pleuvoir aujourd'hui ?
 Y aura-t-il une fête d'anniversaire à la maison ?
 Viendront-ils jusqu'ici ?
-Appelez-moi un taxi s'il vous plait.
-Passez-moi une serviette s'il vous plait.
+Appelez-moi un taxi s'il vous plaît.
+Passez-moi une serviette s'il vous plaît.
 Ouvrirez-vous la porte ?
-Passez-moi le sel s'il vous plait.
+Passez-moi le sel s'il vous plaît.
 Vous le mettrez  dans la voiture pour moi ?
 Vous me le rappellerez ?
 Vous me raccompagnerez chez moi ?
 Avec qui était-elle venu ?
 Qui l'accompagnait ?
 Qui vous accompagnait ?
-Pouvez-vous lui dire de me rappeler s'il vous plait ?
+Pouvez-vous lui dire de me rappeler s'il vous plaît ?
 Pouvez-vous lui demander de venir ici ?
 Prendrez-vous un verre d'eau.
 Prendrez-vous du café ou du thé ?
@@ -6276,8 +6276,8 @@ Que diriez-vous de dîner avec moi ?
 Vous voulez louer un film ?
 Vous voulez regarder la télévision ?
 Vous aurez de l'eau ou du café ?
-Pouvez-vous prendre un message s'il vous plait ?
-Notez par écrit, s'il vous plait.
+Pouvez-vous prendre un message s'il vous plaît ?
+Notez par écrit, s'il vous plaît.
 Oui, tout à fait.
 Oui.
 Oui. J'en ai.
@@ -6293,14 +6293,14 @@ Vous êtes la bienvenue.
 Vous avez un très belle voiture.
 Vous m'avez beaucoup aidé.
 Attendez ici.
-Cela vous plait ?
+Cela vous plaît ?
 Vous ressemblez à ma sœur.
 Vous avez l'air fatigué.
 Vous parlez breton couramment.
 Vous parlez anglais couramment.
 Vos enfants sont bien élevés.
 Votre fille.
-Votre prénom, s'il vous plait ?
+Votre prénom, s'il vous plaît ?
 Votre maison est très agréable.
 Toutes vos affaires sont ici.
 Vous êtes beau.
