@@ -111,20 +111,31 @@ vote-no = Ne
 toggle-play-tooltip = Pritisnite { shortcut-play-toggle } za preklop načina predavjanja
 
 ## Speak & Listen Shortcuts
-
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = r
 
 ## Listen Shortcuts
-
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
 shortcut-play-toggle-label = Predvajaj/Ustavi
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = d
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
-
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = s
 shortcut-record-toggle-label = Snemaj/Ustavi
+
 request-language-text = Vaš jezik še ni vključen v Common Voice?
 request-language-button = Predlagaj jezik
 
 ## ProjectStatus
-
 status-title = Stanje projekta: oglejte si, kako daleč smo že prišli!
 status-contribute = Prispevaj svoj glas
 status-hours =
@@ -140,7 +151,6 @@ status-goal = Naslednji cilj: { $goal }
 english = angleščina
 
 ## ProfileForm
-
 profile-form-cancel = Zapri obrazec
 profile-form-delete = Izbriši profil
 profile-form-username =
@@ -162,22 +172,29 @@ female = Ženski
 # Gender
 other = Drugo
 why-profile-title = Zakaj profil?
-why-profile-text = S tem, da dodate nekaj podatkov o sebi, bodo glasovni podatki, ki jih pošljete projektu Common Voice, uporabnejši za razpoznavo govora, saj se lahko uporabijo za zagotavljanje večje natančnosti.
+why-profile-text = 
+    S tem, da dodate nekaj podatkov o sebi, bodo glasovni podatki, ki jih pošljete 
+    projektu Common Voice, uporabnejši za razpoznavo govora, saj se lahko uporabijo za zagotavljanje večje natančnosti.
 edit-profile = Uredi profil
 profile-create = Ustvari profil
 profile-create-success = Uspelo je, profil je ustvarjen!
 profile-close = Zapri
-profile-clear-modal = Izbris vaših profilnih podatkov pomeni, da vaši demografski podatki ne bodo dostopni ob vaših posnetkih v projektu Common Voice. 
+profile-clear-modal = 
+    Izbris vaših profilnih podatkov pomeni, da vaši demografski podatki 
+    ne bodo dostopni ob vaših posnetkih v projektu Common Voice. 
+profile-explanation = Sledite svojemu napredku s pomočjo svojega profila in nam pomagajte narediti naše zvočne podatke bolj natančne.
 
 ## FAQ
 
 faq-title = Pogosta vprašanja
 faq-what-q = Kaj je Common Voice?
+faq-what-a = Tehnologija za prepoznavo glasu bo lahko revolucionizirala način, kako komuniciramo s stroji, ampak so sistemi, ki so trenutno na voljo, dragi in lastniški. Common Voice je projekt, s katerim bi naredili tehnologijo prepoznave glasu  na voljo vsem. Ljudje darujejo svoj glas v masivno bazo podatkov, ki bo omogočila komurkoli hitro in zlahka učiti aplikacije, ki se upravljajo z zvokom. Vsi glasovni podatki bodo na voljo razvijalcem.
 faq-important-q = Zakaj je to pomembno?
 faq-important-a = Govor je naraven, govor je človeški. Je najpreprostejša in najbolj naravna oblika komunikacije. Želimo si, da bi razvijalci lahko ustvarjali čudovite stvari, od prevodov v realnem času do administrativnih pomočnikov, ki jih upravljamo z glasom. Trenutno ni na voljo dovolj javno dostopnih podatkov, da bi lahko takšne aplikacije tudi zgradili. Upamo, da bo Common Voice dal razvijalcem to, kar potrebujejo za inoviranje.
 faq-get-q = Kako lahko dobim podatke Common Voice?
 faq-get-a = Nabor podatkov je na voljo na naši <downloadLink>strani za prenos</downloadLink> pod licenco <licenseLink>CC-0</licenseLink>.
 faq-mission-q = Zakaj je Common Voice del Mozillinega poslanstva?
+faq-mission-a = Mozilla je posvečena dejstvu, da obdrži internet odprt in dostopen vsem. Da nam bo to uspelo, moramo dati moč spletnim ustvarjalcem s projekti kot je Common Voice. Z razmnoževanjem zvočnih tehnologij preko nišnih aplikacij menimo, da morajo te služiti vsem uporabnikom enako dobro. Mi vidimo potrebo, da vključimo več jezikov, naglasov in demografskih skupnosti pri gradnji in testiranju zvočne tehnologije. Mozilla želi, da je internet zdrav in živahen. To pomeni, da se da spletnim ustvarjalcem dostop do zvočnih podatkov, da lahko ogradijo nove in posebne projekte.  Common Voice bo javno dobro, ki bo pomagal Mozillinim ekipam in razvijalcem po vsem svetu.
 faq-native-q = { $lang } ni moj materni jezik in govorim z naglasom. Vseeno želite moj govor?
 faq-native-a = Da, tudi vaš glas potrebujemo! Del namena projekta Common Voice je zbrati karseda veliko naglasov, tako da bodo računalniki bolje razumeli govor <bold>vseh</bold> ljudi.
 faq-firefox-q = Bo pretvorba govora v besedilo preko Common Voice v prihodnosti postala del Firefoxa?
@@ -191,27 +208,32 @@ faq-source-a1 = Obstoječi stavki so prispevki sodelavcev ter dialogi iz scenari
 faq-source-a2 = Izvorne stavke si lahko ogledate v <dataLink>mapi na GitHubu</dataLink>.
 
 ## Profile
-
 profile-why-title = Zakaj profil?
+profile-why-content = Z dodatnimi informacijami, ki ji priskrbite o sebi, bodo zvočni podatki, ki ji objavite v Common Voice projektu, veliko bolj uporabni za računalniško analizo zvoka, saj se bo s tem izboljšala kakovost podanih zvočnih podatkov.
 
 ## NotFound
-
 notfound-title = Ni zadetkov
 notfound-content = Na žalost tega, kar iščete, ne najdemo.
 
 ## Data
-
 data-download-button = Prenesite podatke Common Voice
 data-download-yes = Da
 data-download-deny = Ne
 data-download-license = Licenca: <licenseLink>CC-0</licenseLink>
 data-download-modal = Začel se bo prenos datoteke, velike <size>{ $size } GB</size>, nadaljujemo?
+data-subtitle = Mi gradimo odprt in javno dostopno bazo glasovnih podatkov, ki jo bo lahko kdorkoli uporabil za učenje zvočno podprtih aplikacij.
+data-explanatory-text = Mi verjamemo, da lahko velika in javno dostopna zbirka glasovnih podatkov spodbuja inovacijo in zdravo komercialno tekmovalnost v računalniško obdelani zvočni tehnologiji. Trud vložen v projekt je svetovnih razsežnosti, zato vabimo vse, da sodelujete. Naš cilj je pomagati zvočni tehnologiji biti bolj vključujoča in odsevati glasove vsega sveta. 
 data-get-started = <speechBlogLink>Začnite s prepoznavo govora</speechBlogLink>
+data-other-title = Ostali nabori zvočnih podatkov
 data-other-goto = Pojdi na { $name }
 data-other-download = Prenesi podatke
+data-other-librispeech-description = LibriSpeech je sklop približno 1000 ur 16Khz branega angleškega govora, pridobljenega iz audioknjig v projektu LibriVox. 
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = TED-LIUM je korpus, ki ga sestavljajo zvočni posnetki predstavitev in njihovi prepisi, dostopni na spletni strani TED.com.
+data-other-voxforge-description = VoxForge je bil ustanovljen za zbiranje zapisanih govorov za uporabo v odprto kodni računalniški prepoznavi govora.
 data-other-tatoeba-description = Tatoeba je velika baza stavkov, prevodov in govorjenih glasovnih datotek za uporabo pri učenju jezikov. Tukaj lahko prenesete pogovorno angleščino, posneto v njihovi skupnosti.
+data-bundle-button = Prenesi paket zvočnih podatkov
+data-bundle-description = Podatki projetka Common Voice kot tudi vse ostale zgornje zvočne baze.
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mešano
 
