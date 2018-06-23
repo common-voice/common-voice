@@ -1,5 +1,4 @@
 ## General
-
 yes-receive-emails = Da, pošiljajte mi elektronska sporočila. Rad/a bi bil/a obveščen/a o novostih v projektu Common Voice.
 stayintouch = Pri Mozilli gradimo skupnost okrog glasovne tehnologije. Z vami bi radi ostali v stiku za obveščanje o novostih, novih virih podatkov in izvedeli več o tem, kako podatke uporabljate.
 privacy-info = Obljubimo, da bomo z vašimi podatki ravnali skrbno. Preberite več v našem <privacyLink>obvestilu o zasebnosti</privacyLink>.
@@ -11,10 +10,7 @@ loading = Nalaganje …
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
-
-
 ## Languages
-
 as = asamščina
 az = azerbajdžanščina
 bn = bengalščina
@@ -42,6 +38,7 @@ ka = gruzinščina
 kab = kabilščina
 kk = kazaščina
 ko = korejščina
+kpv = komijščina
 kw = kornijščina
 ky = kirgiščina
 mk = makedonščina
@@ -69,13 +66,11 @@ uk = ukrajinščina
 uz = uzbeščina
 zh-CN = kitajščina (Kitajska)
 zh-TW = kitajščina (Tajvan)
-
 # [/]
 
-
 ## Layout
-
 speak = Govorite
+speak-now = Začnite govoriti
 datasets = Nabori podatkov
 languages = Jeziki
 profile = Profil
@@ -86,21 +81,31 @@ terms = Pogoji
 cookies = Piškotki
 faq = Pogosta vprašanja
 content-license-text = Vsebina je na voljo pod <licenseLink>licenco Creative Commons</licenseLink>
+share-title = Pomagaj nam najti ostale, ki bi prispevali svoj glas!
 share-text = Pomagaj stroje naučiti, kako govorijo resnični ljudje. Prispevaj svoj glas na { $link }
 back-top = Nazaj na vrh
 
 ## Home Page
-
-home-title = Projekt Common Voice je iniciativa Mozille, ki želi pomagati naučiti stroje, kako ljudje govorijo.
+home-title = 
+    Projekt Common Voice je iniciativa Mozille, ki želi pomagati naučiti stroje, kako ljudje govorijo.
 home-cta = Spregovori, prispevaj tukaj!
-wall-of-text-start = Govor je naraven, govor je človeški. Zato navdušeno ustvarjamo uporabno govorno tehnologijo. Da lahko ustvarimo govorne sisteme, potrebujemo ogromne količine govornih podatkov.
-wall-of-text-more-mobile = Večina podatkov, ki jih uporabljajo velika podjetja, ni na voljo vsem ljudem. Menimo, da to zavira inovacije. Projekt Common Voice smo zagnali, ker želimo, da je prepoznavanje govora dostopno vsakomur.
+wall-of-text-start = 
+    Govor je naraven, govor je človeški. Zato navdušeno ustvarjamo uporabno 
+    govorno tehnologijo. Da lahko ustvarimo govorne sisteme, potrebujemo 
+    ogromne količine govornih podatkov.
+wall-of-text-more-mobile = Večina podatkov, ki jih uporabljajo 
+    velika podjetja, ni na voljo vsem ljudem. Menimo, da to zavira inovacije.
+    Projekt Common Voice smo zagnali, ker želimo, da je prepoznavanje 
+    govora dostopno vsakomur.
 wall-of-text-more-desktop =
-    Zdaj lahko prispevate svoj glas in nam pomagate zgraditi odprtokodno govorno bazo, ki jo bo lahko kdorkoli uporabil za izdelavo inovativnih aplikacij za naprave in splet.<lineBreak></lineBreak>
-    Preberite stavek in pomagajte strojem pri učenju človeškega govora. Preglejte delo ostalih sodelavcev in izboljšajte kakovost. Tako enostavno je!
+    Zdaj lahko prispevate svoj glas in nam pomagate zgraditi odprtokodno govorno bazo, ki jo
+    bo lahko kdorkoli uporabil za izdelavo inovativnih aplikacij za naprave in splet.<lineBreak></lineBreak>
+    Preberite stavek in pomagajte strojem pri učenju človeškega govora. Preglejte delo ostalih sodelavcev
+    in izboljšajte kakovost. Tako enostavno je!
 show-wall-of-text = Več
 help-us-title = Pomagaj nam potrditi stavke!
 help-us-explain = Pritisni predvajaj in poslušaj. Ali je spodnji stavek pravilno izgovorjen?
+no-clips-to-validate = Izgleda, da trenutno ni posnetkov, ki bi jih lahko poslušali v tem jeziku. Pomagajte nam napraviti posnetke, ki bodo zapolnili seznam.
 vote-yes = Da
 vote-no = Ne
 toggle-play-tooltip = Pritisnite { shortcut-play-toggle } za preklop načina predavjanja
