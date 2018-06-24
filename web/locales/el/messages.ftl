@@ -312,6 +312,7 @@ shortcuts = Συντομεύσεις
 clips = Κλιπς
 goal-type-record = ηχογράφηση
 goal-type-validation = επαλήθευση
+toward-goal = Φτάσαμε <goalPercentage></goalPercentage> πιο κοντά στο σημερινό στόχο { $goalType } του Common Voice. Ευχαριστούμε
 goal-help = Έχετε βοηθήσει το Common Voice να φτάσει το <goalPercentage></goalPercentage> του ημερήσιου στόχου "{ $goalType }" του!
 contribute-more =
     { $count ->
@@ -337,5 +338,6 @@ record-abort-submit = Υποβολή κλιπ
 record-abort-continue = Λήξη ηχογράφησης
 record-abort-delete = Έξοδος & διαγραφή κλιπ
 listen-again-instruction = Εξαιρετική δουλειά! <playIcon></playIcon> Ακούστε ξανά όταν είστε έτοιμος
+listen-3rd-time-instruction = Έφυγαν 2, συνεχίστε! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Τελευταίο!
 share-title-new = <bold>Βοηθήστε μας</bold> να βρούμε περισσότερες φωνές
