@@ -272,7 +272,11 @@ contribute-more =
        *[other] Sće hotowy, hišće { $count } dalšich činić?
     }
 record-cta = Natočenje startować
+record-instruction = { $actionType } <recordIcon></recordIcon> a předčitajće sadu wótře
+record-stop-instruction = { $actionType } <stopIcon></stopIcon> hdyž sće hotowy
 record-three-more-instruction = Hišće tři!
+record-again-instruction = Wulkotne! <recordIcon></recordIcon> Natočće swój přichodny klip
+record-again-instruction2 = Dale tak, <recordIcon></recordIcon> znowa natočić
 record-last-instruction = <recordIcon></recordIcon> Poslednje!
 clips-submitted =
     { $count ->
