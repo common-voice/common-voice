@@ -58,18 +58,50 @@ sl = Słowjenšćina
 sq = Albanšćina
 sr = Serbišćina
 sv-SE = Šwedšćina
+ta = Tamilšćina
+te = Telugušćina
+th = Thaišćina
+tr = Turkowšćina
+tt = Tataršćina
+uk = Ukrainšćina
+uz = Uzbekšćina
+zh-CN = Chinšćina (China)
+zh-TW = Chinšćina (Taiwan)
 
 # [/]
 
 
 ## Layout
 
+speak = Rěčeć
+speak-now = Rěčće nětko
+datasets = Datowe sadźby
+languages = Rěče
+profile = Profil
+help = Pomoc
+contact = Kontakt
+privacy = Priwatnosć
+terms = Wuměnjenja
+cookies = Placki
+faq = HUP
+content-license-text = Wobsah je k dispoziciji pod <licenseLink>licencu Creative Commons</licenseLink>
+share-title = Pomhajće nam, dalšich namakać, kotřiž swój hłós daruja!
+share-text = Pomhajće mašinam wučić, kak ludźo rěča, darće swój hłós an { $link }
+back-top = Wróćo horje
 
 ## Home Page
 
+home-title = Projekt Common Voice je iniciatiwa Mozilla, kotraž ma pomhać, mašinam wučić, kak woprawdźići ludźo rěča.
+home-cta = Rěčće runjewon, dźěłajće tu sobu!
+show-wall-of-text = Dalše informacije
+help-us-title = Pomhajće nam, sady wobkrućić!
+vote-yes = Haj
+vote-no = Ně
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
