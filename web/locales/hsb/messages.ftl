@@ -1,5 +1,6 @@
 ## General
 
+stayintouch = My pola Mozilla twarimy zhromadźenstwo wokoło hłosoweje technologije. Bychmy rady z aktualizacijemi, žórłami nowych datow w zwisku wostać a wjace wo tym słyšeli, kak tute daty wužiwaće.
 return-to-cv = Wróćo k Common Voice
 email-input =
     .label = E-mejlowa adresa

@@ -9,4 +9,7 @@ get-involved-email =
     .label = E-mejlowa adresa
 get-involved-opt-in = Haj, sćelće mi prošu mejlki. Chcu so wo postupje tuteje rěče na Common Voice informować.
 get-involved-submit = Wotpósłać
+get-involved-stayintouch = My pola Mozilla twarimy zhromadźenstwo wokoło hłosoweje technologije. Bychmy rady z aktualizacijemi, žórłami nowych datow w zwisku wostać a wjace wo tym słyšeli, kak tute daty wužiwaće.
+get-involved-privacy-info = Lubimy wam, z wašimi informacijemi starosćiwje wobchadźeć. Čitajće wjace w našej <privacyLink>zdźělence priwatnosće</privacyLink>.
+get-involved-success-title = Sće so wuspěšnje za sobudźěło na { $language } zregistrował. Wulki dźak.
 get-involved-return-to-languages = Wróćo k rěčam
