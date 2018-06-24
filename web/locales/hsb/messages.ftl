@@ -195,17 +195,24 @@ data-other-title = Druhe hłosowe datowe sadźby…
 data-other-goto = K { $name }
 data-other-download = Daty sćahnyć
 data-other-ted-name = Korpus TED-LIUM
+data-bundle-button = Paket datowych sadźbow sćahnyć
+data-bundle-description = Daty Common Voice plus wšě druhe hłosowe datowe sadźby horjeka.
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Měšany
 
 ## Record Page
 
 record-platform-not-supported = Je nam žel, ale waša platforma so tuchwilu njepodpěruje.
+record-platform-not-supported-desktop = Na desktopowych ličakach móžeće najnowšu wersiju sćahnyć:
+record-platform-not-supported-ios = Wužiwarjo <bold>iOS</bold> móža naše darmotne nałoženje sćahnyć:
+record-must-allow-microphone = Dyrbiće přistup na mikrofon dowolić.
 record-retry = Hišće raz spytać
 record-no-mic-found = Žadyn mikrofon namakany.
 record-error-too-short = Natočenje bě překrótke.
 record-error-too-long = Natočenje bě předołhe.
 record-error-too-quiet = Natočenje bě přećiche.
+record-submit-success = Wotpósłanje wuspěšne! Chceće znowa natočić?
+record-help = Prošu podótkńće so Natočić a předčitajće wótře hornju sadu.
 record-cancel = Zasonatočenje přetorhnyć
 terms-agree = Sym přezjedny
 terms-disagree = Njejsym přezjedny
@@ -240,6 +247,7 @@ contact-required = *trěbny
 request-language-title = Rěč požadać
 request-language-form-language =
     .label = Rěč
+request-language-success-title = Źadanje wo rěč je so wuspěšnje wotpósłało, wulki dźak.
 
 ## Languages Overview
 
@@ -278,6 +286,10 @@ record-three-more-instruction = Hišće tři!
 record-again-instruction = Wulkotne! <recordIcon></recordIcon> Natočće swój přichodny klip
 record-again-instruction2 = Dale tak, <recordIcon></recordIcon> znowa natočić
 record-last-instruction = <recordIcon></recordIcon> Poslednje!
+review-tooltip = Tu móžeće klipy přepruwować a znowa natočić
+unable-speak = Njemóžeće runje rěčeć?
+review-instruction = Klipy přepruwować a znowa natočić, jeli trěbne
+record-submit-tooltip = { $actionType } wotpósłać, hdyž sće hotowy
 clips-submitted =
     { $count ->
         [one] { $count } natočenje wótpósłane
@@ -286,9 +298,12 @@ clips-submitted =
        *[other] { $count } natočenjow wótpósłane
     }
 record-abort-title = Chceće natočenje najprjedy dokónčić?
+record-abort-text = Jeli nětko přetorhnjeće, so waš postup zhubi
 record-abort-submit = Natočenja wotpósłać
 record-abort-continue = Natočenje dokónčić
 record-abort-delete = Natočenja skónčić a zhašeć
+listen-instruction = { $actionType } <playIcon></playIcon> je so sada korektnje wurjekowała?
+listen-again-instruction = Wulkotne dźěło! <playIcon></playIcon> Słuchajće znowa, hdyž sće hotowy
 listen-3rd-time-instruction = 2 sčinjenej, <playIcon></playIcon> dale tak!
 listen-last-time-instruction = <playIcon></playIcon> Poslednje!
 share-title-new = <bold>Pomhajće nam</bold>, dalše hłosy namakać
