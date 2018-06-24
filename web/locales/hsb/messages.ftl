@@ -97,6 +97,7 @@ show-wall-of-text = Dalše informacije
 help-us-title = Pomhajće nam, sady wobkrućić!
 vote-yes = Haj
 vote-no = Ně
+toggle-play-tooltip = Tłóčće na { shortcut-play-toggle }, zo byšće wothrawanski modus přepinał
 
 ## Speak & Listen Shortcuts
 
@@ -105,30 +106,95 @@ shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = t
+shortcut-play-toggle-label = Wothrać/Zastajić
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = h
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = o
+shortcut-record-toggle-label = Natočić/Zastajić
+request-language-text = Waša rěč hišće na Common Voice njeje?
+request-language-button = Rěč požadać
 
 ## ProjectStatus
 
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Přichodny cil: { $goal }
+english = Jendźelšćina
 
 ## ProfileForm
 
+profile-form-cancel = Formular začinić
+profile-form-delete = Profil zhašeć
+profile-form-username =
+    .label = Wužiwarske mjeno
+profile-form-language =
+    .label = Rěč
+profile-form-accent =
+    .label = Akcent
+profile-form-age =
+    .label = Staroba
+profile-form-gender =
+    .label = Splah
+profile-form-submit-save = Składować
+profile-form-submit-saved = Składowany
+profile-keep-data = Daty wobchować
+profile-delete-data = Daty zhašeć
+male = Muski
+female = Źónski
+# Gender
+other = Druhe
+why-profile-title = Čehodla profil?
+edit-profile = Profil wobdźěłać
+profile-create = Profil załožić
+profile-create-success = Profil je so wuspěšnje załožił!
+profile-close = Začinić
 
 ## FAQ
 
+faq-title = Huste prašenja
+faq-what-q = Što je Common Voice?
+faq-important-q = Čehodla je wažny?
+faq-get-q = Kak móžu so k datam Common Voice dóstać?
 
 ## Profile
 
+profile-why-title = Čehodla profil?
 
 ## NotFound
 
+notfound-title = Njenamakany
+notfound-content = Boju so, njewěm, za čimž pytaće.
 
 ## Data
 
+data-download-button = Daty Common Voice sćahnyć
+data-download-yes = Haj
+data-download-deny = Ně
+data-download-license = Licenca: <licenseLink>CC-0</licenseLink>
+data-other-title = Druhe hłosowe datowe sadźby…
+data-other-goto = K { $name }
+data-other-download = Daty sćahnyć
+data-other-ted-name = Korpus TED-LIUM
+license = Licenca: <licenseLink>{ $license }</licenseLink>
+license-mixed = Měšany
 
 ## Record Page
 
+record-platform-not-supported = Je nam žel, ale waša platforma so tuchwilu njepodpěruje.
+record-retry = Hišće raz spytać
+record-no-mic-found = Žadyn mikrofon namakany.
 
 ## Download Modal
 
