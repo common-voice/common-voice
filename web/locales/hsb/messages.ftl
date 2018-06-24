@@ -1,6 +1,8 @@
 ## General
 
+yes-receive-emails = Haj, sćelće mi mejlki. Bych rady wo projekće Common Voice na běžnym wostał.
 stayintouch = My pola Mozilla twarimy zhromadźenstwo wokoło hłosoweje technologije. Bychmy rady z aktualizacijemi, žórłami nowych datow w zwisku wostać a wjace wo tym słyšeli, kak tute daty wužiwaće.
+privacy-info = Lubimy wam, z wašimi informacijemi starosćiwje wobchadźeć. Čitajće wjace w našej <privacyLink>zdźělence priwatnosće</privacyLink>.
 return-to-cv = Wróćo k Common Voice
 email-input =
     .label = E-mejlowa adresa
@@ -94,6 +96,8 @@ back-top = Wróćo horje
 
 home-title = Projekt Common Voice je iniciatiwa Mozilla, kotraž ma pomhać, mašinam wučić, kak woprawdźići ludźo rěča.
 home-cta = Rěčće runjewon, dźěłajće tu sobu!
+wall-of-text-start = Hłós je přirodny, hłós je čłowjeski. Tohodla smy fascinowani, wužitnu hłosowu technologiju za naše mašiny wutworić. Ale, za wutworjenje hłosowych systemow je jara wulke mnóstwo hłosowych datow trěbne.
+wall-of-text-more-mobile = Najwjace datow wužiwane wot wulkich předewzaćow za wjetšinu ludźi přistupne njeje. Myslimy, zo to inowaciju znjemóžnja. Tohodla smy projekt Common Voice startowali, projekt, kotryž kóždemu spóznawanje hłosow spřistupnja.
 show-wall-of-text = Dalše informacije
 help-us-title = Pomhajće nam, sady wobkrućić!
 vote-yes = Haj
