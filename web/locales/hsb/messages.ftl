@@ -128,6 +128,14 @@ request-language-button = Rěč požadać
 
 ## ProjectStatus
 
+status-contribute = Přinošujće swój hłós
+status-hours =
+    { $hours ->
+        [one] Dotal { $hours } wobkrućena hodźina!
+        [two] Dotal { $hours } wobkrućenej hodźinje!
+        [few] Dotal { $hours } wobkrućene hodźiny!
+       *[other] Dotal { $hours } wobkrućenych hodźin!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Přichodny cil: { $goal }
@@ -195,9 +203,23 @@ license-mixed = Měšany
 record-platform-not-supported = Je nam žel, ale waša platforma so tuchwilu njepodpěruje.
 record-retry = Hišće raz spytać
 record-no-mic-found = Žadyn mikrofon namakany.
+record-error-too-short = Natočenje bě překrótke.
+record-error-too-long = Natočenje bě předołhe.
+record-error-too-quiet = Natočenje bě přećiche.
+record-cancel = Zasonatočenje přetorhnyć
+terms-agree = Sym přezjedny
+terms-disagree = Njejsym přezjedny
+review-aborted = Nahraće přetorhnjene. Chceće swoje natočenja zhašeć?
+review-submit-title = Přepruwować a wotpósłać
+review-recording = Přepruwować
+review-rerecord = Znowa natočić
+review-cancel = Wótpósłanje přetorhnyć
+review-keep-recordings = Natočenja wobchować
+review-delete-recordings = Natočenja zhašeć
 
 ## Download Modal
 
+download-title = Waše sćehnjenje je so započało.
 
 ## Contact Modal
 
