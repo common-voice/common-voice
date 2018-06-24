@@ -220,15 +220,57 @@ review-delete-recordings = Natočenja zhašeć
 ## Download Modal
 
 download-title = Waše sćehnjenje je so započało.
+download-form-email =
+    .label = E-mejlowu adresu zapodać
+    .value = Wulki dźak, wostawamy w zwisku.
+download-back = Wróćo k datowym sadźbam Common Voice
+download-no = Ně, dźakuju so
 
 ## Contact Modal
 
+contact-title = Kontaktny formular
+contact-form-name =
+    .label = Mjeno
+contact-form-message =
+    .label = Powěsć
+contact-required = *trěbny
 
 ## Request Language Modal
 
+request-language-title = Rěč požadać
+request-language-form-language =
+    .label = Rěč
 
 ## Languages Overview
 
+language-section-in-progress = Běži
+language-section-launched = Startowany
+languages-show-more = Wjace pokazać
+languages-show-less = Mjenje pokazać
+language-speakers = Rěčnicy
+language-meter-in-progress = Postup
+language-total-progress = Dohromady
+language-search-input =
+    .placeholder = Pytać
 
 ## New Contribution
 
+action-click = Kliknyć
+action-tap = Podótknyć so
+contribute = Sobu dźěłać
+listen = Słuchać
+skip = Přeskočić
+shortcuts = Skrótšenki
+clips = Klipy
+goal-type-record = natočenje
+goal-type-validation = přepruwowanje
+contribute-more =
+    { $count ->
+        [one] Sće hotowy, hišće { $count } dalše činić?
+        [two] Sće hotowy, hišće { $count } dalšej činić?
+        [few] Sće hotowy, hišće { $count } dalše činić?
+       *[other] Sće hotowy, hišće { $count } dalšich činić?
+    }
+record-cta = Natočenje startować
+record-three-more-instruction = Hišće tři!
+record-last-instruction = <recordIcon></recordIcon> Posledni!
