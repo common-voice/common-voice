@@ -273,4 +273,18 @@ contribute-more =
     }
 record-cta = Natočenje startować
 record-three-more-instruction = Hišće tři!
-record-last-instruction = <recordIcon></recordIcon> Posledni!
+record-last-instruction = <recordIcon></recordIcon> Poslednje!
+clips-submitted =
+    { $count ->
+        [one] { $count } natočenje wótpósłane
+        [two] { $count } natočeni wótpósłanej
+        [few] { $count } natočenja wótpósłane
+       *[other] { $count } natočenjow wótpósłane
+    }
+record-abort-title = Chceće natočenje najprjedy dokónčić?
+record-abort-submit = Natočenja wotpósłać
+record-abort-continue = Natočenje dokónčić
+record-abort-delete = Natočenja skónčić a zhašeć
+listen-3rd-time-instruction = 2 sčinjenej, <playIcon></playIcon> dale tak!
+listen-last-time-instruction = <playIcon></playIcon> Poslednje!
+share-title-new = <bold>Pomhajće nam</bold>, dalše hłosy namakać
