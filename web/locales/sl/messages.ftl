@@ -42,6 +42,7 @@ ka = gruzinščina
 kab = kabilščina
 kk = kazaščina
 ko = korejščina
+kpv = komijščina
 kw = kornijščina
 ky = kirgiščina
 mk = makedonščina
@@ -76,6 +77,7 @@ zh-TW = kitajščina (Tajvan)
 ## Layout
 
 speak = Govorite
+speak-now = Začnite govoriti
 datasets = Nabori podatkov
 languages = Jeziki
 profile = Profil
@@ -86,6 +88,7 @@ terms = Pogoji
 cookies = Piškotki
 faq = Pogosta vprašanja
 content-license-text = Vsebina je na voljo pod <licenseLink>licenco Creative Commons</licenseLink>
+share-title = Pomagajte nam poiskati druge, ki bi prispevali svoj glas!
 share-text = Pomagaj stroje naučiti, kako govorijo resnični ljudje. Prispevaj svoj glas na { $link }
 back-top = Nazaj na vrh
 
@@ -101,19 +104,34 @@ wall-of-text-more-desktop =
 show-wall-of-text = Več
 help-us-title = Pomagaj nam potrditi stavke!
 help-us-explain = Pritisni predvajaj in poslušaj. Ali je spodnji stavek pravilno izgovorjen?
+no-clips-to-validate = Videti je, da trenutno ni posnetkov, ki bi jih lahko poslušali v tem jeziku. Pomagajte nam napraviti posnetke, ki bodo zapolnili seznam.
 vote-yes = Da
 vote-no = Ne
 toggle-play-tooltip = Pritisnite { shortcut-play-toggle } za preklop načina predavjanja
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = i
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
 shortcut-play-toggle-label = Predvajaj/Ustavi
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = d
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = s
 shortcut-record-toggle-label = Snemaj/Ustavi
 request-language-text = Vaš jezik še ni vključen v Common Voice?
 request-language-button = Predlagaj jezik
@@ -283,6 +301,7 @@ goal-type-record = snemanje
 goal-type-validation = preverjanje
 record-cta = Začni snemati
 record-three-more-instruction = Še tri!
+record-last-instruction = <recordIcon></recordIcon> Zadnji!
 clips-submitted =
     { $count ->
         [one] { $count } posnetek poslan
