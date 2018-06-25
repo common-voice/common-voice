@@ -38,6 +38,7 @@ hu = Bahasa Hongaria
 id = Bahasa Indonesia
 is = Bahasa Islandia
 it = Bahasa Italia
+ja = Bahasa Jepang
 ka = Bahasa Georgia
 kab = Bahasa Kabyle
 kk = Bahasa Kazak
