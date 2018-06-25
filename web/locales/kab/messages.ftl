@@ -76,7 +76,7 @@ zh-TW = Tacinwat (Taywan)
 
 ## Layout
 
-speak = Umeslay
+speak = Mmeslay
 speak-now = Mmeslay tura
 datasets = Tagrumma n yisefka
 languages = Tutlayin
@@ -157,7 +157,7 @@ profile-form-username =
 profile-form-language =
     .label = Tutlayt
 profile-form-accent =
-    .label = Aɣdebbu
+    .label = Asusru
 profile-form-age =
     .label = Awtay
 profile-form-gender =

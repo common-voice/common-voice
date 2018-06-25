@@ -15,6 +15,8 @@ loading = Lastar…
 
 ## Languages
 
+as = Assamesisk
+az = Aserbajdsjansk
 bn = Bengali
 br = Bretonsk
 ca = Katalansk
@@ -27,17 +29,22 @@ el = Gresk
 en = Engelsk
 es = Spansk
 et = Estisk
+fi = Finsk
 fr = Fransk
 fy-NL = frisisk
 ga-IE = Irsk
 he = Hebraisk
 hu = Ungarsk
 id = Indonesisk
+is = Islandsk
 it = Italiensk
 ka = Georgisk
 kab = Kabylsk
+kk = Kasakhisk
 ko = Koreansk
+kpv = Komi (syriansk)
 kw = Kornisk
+ky = Kirgisk
 mk = Makedonsk
 nb-NO = Norsk bokmål
 ne-NP = Nepalsk
@@ -48,6 +55,7 @@ pl = Polsk
 pt-BR = Portugisisk (Brazil)
 ro = Rumensk
 ru = Russisk
+sah = Sakha
 sk = Slovakisk
 sl = Slovensk
 sq = Albansk
@@ -94,12 +102,15 @@ wall-of-text-more-desktop = No kan du bidra med stemma di og hjelpe til med å b
 show-wall-of-text = Les meir
 help-us-title = Hjelp oss med å validere setningar!
 help-us-explain = Trykk på Spel av, lytt, og fortel os om den innspelte setninga var korrekt.
+no-clips-to-validate = Det verkar ikkje som om det finst klipp å høyre på for dette språket. Hjelp oss fylle inn køen ved å spele inn nokre no.
 vote-yes = Ja
 vote-no = Nei
 toggle-play-tooltip = Trykk på { shortcut-play-toggle } for å starte eller stoppe innspelinga
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = h
 
 ## Listen Shortcuts
 
@@ -107,9 +118,18 @@ toggle-play-tooltip = Trykk på { shortcut-play-toggle } for å starte eller sto
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
 shortcut-play-toggle-label = Spel av/Stopp
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = j
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = e
 shortcut-record-toggle-label = Spel inn/Stopp
 request-language-text = Ser du ikkje språket ditt på Common Voice enno?
 request-language-button = Send ein førespurnad om eit nytt språk
@@ -157,6 +177,7 @@ profile-create = Opprett ein profil
 profile-create-success = Profil oppretta
 profile-close = Lat att
 profile-clear-modal = Sletting av dine profildata tyder at denne demografiske informasjonen ikkje lenger vil sendast til Common Voice saman med innspelingane dine.
+profile-explanation = Hald auge med framdrifta di med ein profil som òg gjer stemmedataa våre meir korrekte.
 
 ## FAQ
 
@@ -270,7 +291,9 @@ request-language-success-content = Vi kontaktar deg snart med meir informasjon o
 ## Languages Overview
 
 language-section-in-progress = Under arbeid
+language-section-in-progress-description = Pågåande språk vert laga frå bidrag av fellesskapen vår. Framdrifta speglar kvar dei er i omsettinga av netsida og innhenting av setningar.
 language-section-launched = Lansert
+language-section-launched-description = For desse lanserte språka er nettsida fullstendig omsett i tillegg til at dei har nok setningar for pågåande samarbeid gjennom <italic>{ speak }</italic> og <italic>{ listen }</italic>.
 languages-show-more = Vis meir
 languages-show-less = Vis mindre
 language-speakers = Talt av
@@ -290,12 +313,15 @@ shortcuts = Snarvegar
 clips = Klipp
 goal-type-record = innspeling
 goal-type-validation = validering
+toward-goal = Det er <goalPercentage></goalPercentage> nærare dagens Common Voice { $goalType } mål. Takk
+goal-help = Du har hjelpt Common Voice til å nå <goalPercentage></goalPercentage> av det daglege målet { $goalType }!
 contribute-more =
     { $count ->
         [one] Klar for { $count } til?
        *[other] Klar for { $count } til?
     }
 record-cta = Start innspeling
+record-instruction = { $actionType } <recordIcon></recordIcon> og so les setninga høgt
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> når du er ferdig
 record-three-more-instruction = Tre att!
 record-again-instruction = Bra!<recordIcon></recordIcon> Spel inn det neste klippet ditt
@@ -307,9 +333,11 @@ review-instruction = Vurder og spel inn klipp på nytt om det trengst
 record-submit-tooltip = { $actionType } send inn når du er klar
 clips-submitted = { $count } klipp sendt inn
 record-abort-title = Avslutte opptaket først?
+record-abort-text = Forlet du no, mistar du framdrifta di
 record-abort-submit = Send inn klipp
 record-abort-continue = Avslutt innspeling
 record-abort-delete = Avslutt og slett klippa
+listen-instruction = { $actionType } <playIcon></playIcon> var setninga sagt rett?
 listen-again-instruction = Bra jobba!<playIcon></playIcon> Lytt på det ein gong tilnår du er klar for det
 listen-3rd-time-instruction = Ferdig med to <playIcon></playIcon>, fortset slik!
 listen-last-time-instruction = <playIcon></playIcon>Det siste!

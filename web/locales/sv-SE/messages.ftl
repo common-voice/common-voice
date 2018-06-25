@@ -29,18 +29,22 @@ el = Grekiska
 en = Engelska
 es = Spanska
 et = Estländska
+fi = Finska
 fr = Franska
 fy-NL = Frisiska
 ga-IE = Irländska
 he = Hebreiska
 hu = Ungerska
 id = Indonesiska
+is = Isländska
 it = Italienska
 ka = Georgiska
 kab = Kabyliska
 kk = Kazakstanska
 ko = Koreanska
+kpv = Komi-syrjänska
 kw = Korniska
+ky = Kirgiziska
 mk = Makedonska
 nb-NO = Norska Bokmål
 ne-NP = Nepali
@@ -196,7 +200,7 @@ faq-hours-q = Varför är 10 000 timmar målet för inspelningen av ljud?
 faq-hours-a = Det är ungefär det antal timmar som krävs för att träna ett röst-till-tal system.
 faq-source-q = Var kommer källtexten ifrån?
 faq-source-a1 = De nuvarande meningarna kommer från bidragsgivare samt från dialoger från filmer som är "public domain" som till exempel filmen <italic>It’s a Wonderful Life.</italic>
-faq-source-a2 = Du kan se våra källmeningar i <dataLink>denna GitHub mapp</dataLink>
+faq-source-a2 = Du kan se våra källmeningar i <dataLink>denna GitHub-mapp</dataLink>
 
 ## Profile
 

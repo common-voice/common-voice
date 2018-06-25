@@ -2,7 +2,8 @@ const fs = require('fs');
 const path = require('path');
 const request = require('request-promise-native');
 
-const PROGRESS_THRESHOLD = 0.95;
+const TRANSLATED_MIN_PROGRESS = 0.95;
+const CONTRIBUTABLE_MIN_SENTENCES = 1000;
 
 const dataPath = path.join(__dirname, '..', 'locales');
 
@@ -81,7 +82,9 @@ async function saveCompletedLocalesJSON(languages) {
       ...new Set([
         ...existingLocales,
         ...languages
-          .filter(([code, name, progress]) => progress >= PROGRESS_THRESHOLD)
+          .filter(
+            ([code, name, progress]) => progress >= TRANSLATED_MIN_PROGRESS
+          )
           .map(l => l[0]),
       ]),
     ].sort()
@@ -105,14 +108,33 @@ async function importPontoonLocales() {
 
 async function importContributableLocales() {
   const sentencesPath = path.join(__dirname, '..', 'server', 'data');
-  const names = (await new Promise(resolve =>
-    fs.readdir(sentencesPath, (_, names) => resolve(names))
-  )).filter(name => name !== 'LICENSE');
+  const names = fs.readdirSync(sentencesPath).filter(name => {
+    if (name === 'LICENSE') {
+      return false;
+    }
+    const localeSentencesPath = path.join(sentencesPath, name);
+    const count = fs
+      .readdirSync(localeSentencesPath)
+      .reduce(
+        (count, sentencesFile) =>
+          sentencesFile.endsWith('.txt')
+            ? count +
+              fs
+                .readFileSync(
+                  path.join(localeSentencesPath, sentencesFile),
+                  'utf-8'
+                )
+                .split('\n').length
+            : count,
+        0
+      );
+    return count > CONTRIBUTABLE_MIN_SENTENCES;
+  });
   saveDataJSON('contributable', names.sort(), null, 2);
 }
 
 async function importLocales() {
-  await Promise.all([importPontoonLocales(), importContributableLocales()]);
+  await Promise.all([/*importPontoonLocales(),*/ importContributableLocales()]);
 }
 
 importLocales().catch(e => console.error(e));
