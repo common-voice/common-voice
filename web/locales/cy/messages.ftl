@@ -34,10 +34,12 @@ fr = Ffrangeg
 fy-NL = Ffriseg
 ga-IE = Gwyddeleg
 he = Hebraeg
+hsb = Sorbeg Uwch
 hu = Hwngareg
 id = Indoneseg
 is = Eislandeg
 it = Eidaleg
+ja = Japanëeg
 ka = Georgeg
 kab = Kabyle
 kk = Casac
@@ -69,6 +71,7 @@ tt = Tartareg
 uk = Wcraneg
 uz = Wsbeceg
 zh-CN = Tsieinëeg (Tsiena)
+zh-HK = Tsieinëeg (Hong Kong)
 zh-TW = Tsieinëeg (Taiwan)
 
 # [/]
