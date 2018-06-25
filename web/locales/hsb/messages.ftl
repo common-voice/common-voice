@@ -181,6 +181,7 @@ edit-profile = Profil wobdźěłać
 profile-create = Profil załožić
 profile-create-success = Profil je so wuspěšnje załožił!
 profile-close = Začinić
+profile-explanation = Z profilom móžeće swój pokrok we wóčku wobchować a pomhać, naše hłosowe daty dokładniše činić.
 
 ## FAQ
 
@@ -188,6 +189,9 @@ faq-title = Huste prašenja
 faq-what-q = Što je Common Voice?
 faq-important-q = Čehodla je wažny?
 faq-get-q = Kak móžu so k datam Common Voice dóstać?
+faq-get-a = Datowa sadźba je nětko na našej <downloadLink>sćehnjenskej stronje</downloadLink> pod licencu <licenseLink>CC-0</licenseLink> k dispoziciji.
+faq-mission-q = Čehodla je Common Voice dźěl misije Mozilla?
+faq-native-q = { $lang } moja maćeršćina njeje a rěcu z akcentom, chceće mój hłós?
 
 ## Profile
 
