@@ -105,6 +105,7 @@ wall-of-text-more-desktop = Nětko móžeće swój hłós dać, zo byšće nam p
 show-wall-of-text = Dalše informacije
 help-us-title = Pomhajće nam, sady wobkrućić!
 help-us-explain = Tłóčće na Wothrać, słuchajće a zdźělće nam: je so slědowaca sada korektnje wurjekowała?
+no-clips-to-validate = Zda so, kaž njebychu žane natočenja byli, na kotrež móžeće w tutej rěči słuchać. Natočće nětko někotre nowe, zo byšće nam pomhał, čakanski rynk pjelnić.
 vote-yes = Haj
 vote-no = Ně
 toggle-play-tooltip = Tłóčće na { shortcut-play-toggle }, zo byšće wothrawanski modus přepinał
@@ -138,6 +139,7 @@ request-language-button = Rěč požadać
 
 ## ProjectStatus
 
+status-title = Projektowy status dohromady: hlejće, štož smy hižo docpěli!
 status-contribute = Přinošujće swój hłós
 status-hours =
     { $hours ->
@@ -174,6 +176,7 @@ female = Źónski
 # Gender
 other = Druhe
 why-profile-title = Čehodla profil?
+why-profile-text = Dajće nam někotre informacije wo sebi, zo bychu awdiodaty, kotrež na Common Voice sćeleće, wužitniše byli, zo by so dokładnosć systemow rěčenskeho spóznaća polěpšiła.
 edit-profile = Profil wobdźěłać
 profile-create = Profil załožić
 profile-create-success = Profil je so wuspěšnje załožił!
