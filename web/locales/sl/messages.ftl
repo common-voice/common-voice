@@ -240,12 +240,15 @@ record-error-too-short = Posnetek je prekratek.
 record-error-too-long = Posnetek je predolg.
 record-error-too-quiet = Posnetek je pretih.
 record-submit-success = Uspešno posneto! Želite posneti znova?
+record-help = Začnite snemati in naglas preberite zgornji stavek.
 record-cancel = Prekliči ponovno snemanje
 review-terms = Z uporabo Common Voice se strinjate z našimi <termsLink>pogoji</termsLink> in z <privacyLink>obvestilom o zasebnosti</privacyLink>
 terms-agree = Strinjam se
 terms-disagree = Ne strinjam se
 review-aborted = Pošiljanje je preklicano. Želite svoje posnetke izbrisati?
 review-submit-title = Poslušajte in pošljite
+review-submit-msg = Hvala za posnetek!<lineBreak></lineBreak>Zdaj svoje spodnje posnetke še enkrat poslušajte in nam jih pošljite. 
+review-recording = Poslušajte
 review-rerecord = Posnemite ponovno
 review-cancel = Prekliči pošiljanje
 review-keep-recordings = Ohrani posnetke
@@ -299,8 +302,18 @@ shortcuts = Bližnjice
 clips = Posnetki
 goal-type-record = snemanje
 goal-type-validation = preverjanje
+contribute-more =
+    { $count ->
+        [one] Ste pripravljeni narediti še enega?
+        [two] Ste pripravljeni narediti še dva?
+        [few] Ste pripravljeni narediti še { $count }?
+       *[other] Ste pripravljeni narediti še kakšnega, npr. { $count }?
+    }
 record-cta = Začni snemati
+record-instruction = { $actionType } <recordIcon></recordIcon> in nato naglas preberite stavek
 record-three-more-instruction = Še tri!
+record-again-instruction = Odlično! <recordIcon></recordIcon> Posnemite naslednji posnetek
+record-again-instruction2 = Odlično napredujete, začnite ponovno snemati <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Zadnji!
 clips-submitted =
     { $count ->
