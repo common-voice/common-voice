@@ -34,10 +34,12 @@ fr = Francia
 fy-NL = Fríz
 ga-IE = Ír
 he = Héber
+hsb = Szorb, felső
 hu = Magyar
 id = Indonéz
 is = Izlandi
 it = Olasz
+ja = Japán
 ka = Grúz
 kab = Kabil
 kk = Kazak
@@ -69,6 +71,7 @@ tt = Tatár
 uk = Ukrán
 uz = Üzbég
 zh-CN = Kínai (Kína)
+zh-HK = Kínai (Hong Kong)
 zh-TW = Kínai (Tajvan)
 
 # [/]
