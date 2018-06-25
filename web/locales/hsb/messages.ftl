@@ -196,6 +196,10 @@ faq-native-q = { $lang } moja maćeršćina njeje a rěcu z akcentom, chceće m�
 faq-firefox-q = Budźe něhdy přenjesenje rěčenja do teksta přez Common Voice dźěl Firefox?
 faq-firefox-a = Common Voice ma njewobmjezowany potencial a wuslědźamy woprawdźe rěčenske zwjazowanske městna we wjele produktach Mozilla, inkluziwnje Firefox.
 faq-quality-q = Kajka je trěbna kwalita za awdio, zo by so wužiwało?
+faq-hours-q = Čehodla je 10.000 hodźin cil za zynkowe natočenja?
+faq-hours-a = To je přibližnje ličba hodźin, kotrež su trěbne, zo by produktiwny system rěčenskeho spóžnaća trenowało.
+faq-source-q = Zwotkel žórłowy tekst přińdźe?
+faq-source-a2 = Móžeće sej naše žórłowe sady w <dataLink>tutym rjadowaku GitHub</dataLink> wobhladać.
 
 ## Profile
 
@@ -212,6 +216,8 @@ data-download-button = Daty Common Voice sćahnyć
 data-download-yes = Haj
 data-download-deny = Ně
 data-download-license = Licenca: <licenseLink>CC-0</licenseLink>
+data-download-modal = Chceće <size>{ $size }GB</size> sćahnyć, chceće pokročować?
+data-get-started = <speechBlogLink>Prěnje kroki z rěčenskim spóznaćom</speechBlogLink>
 data-other-title = Druhe hłosowe datowe sadźby…
 data-other-goto = K { $name }
 data-other-download = Daty sćahnyć
@@ -293,6 +299,8 @@ shortcuts = Skrótšenki
 clips = Klipy
 goal-type-record = natočenje
 goal-type-validation = přepruwowanje
+toward-goal = To je <goalPercentage></goalPercentage> bliše dźensnišemu cilej Common Voice{ $goalType }. Wulki dźak.
+goal-help = Sće Common Voice pomhał, <goalPercentage></goalPercentage> jeho dnjoweho cila { $goalType } docpěć!
 contribute-more =
     { $count ->
         [one] Sće hotowy, hišće { $count } dalše činić?
