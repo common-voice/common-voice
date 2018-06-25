@@ -34,10 +34,12 @@ fr = Francosćina
 fy-NL = Frizišćina
 ga-IE = Iršćina
 he = Hebrejšćina
+hsb = Hornjoserbšćina
 hu = Madźaršćina
 id = Indonešćina
 is = Islandšćina
 it = Italšćina
+ja = Japanšćina
 ka = Georgišćina
 kab = Kabylšćina
 kk = Kazachšćina
@@ -69,6 +71,7 @@ tt = Tataršćina
 uk = Ukrainšćina
 uz = Uzbekšćina
 zh-CN = Chinšćina (China)
+zh-HK = Chinšćina (Hong Kong)
 zh-TW = Chinšćina (Taiwan)
 
 # [/]
