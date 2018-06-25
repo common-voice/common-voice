@@ -38,6 +38,7 @@ hu = madžarščina
 id = indonezijščina
 is = islandščina
 it = italijanščina
+ja = japonščina
 ka = gruzinščina
 kab = kabilščina
 kk = kazaščina
@@ -274,6 +275,7 @@ contact-required = *obvezno polje
 
 ## Request Language Modal
 
+request-language-title = Predlagaj jezik
 request-language-form-language =
     .label = Jezik
 request-language-success-title = Predlog za jezik je bil uspešno poslan, hvala.
@@ -302,6 +304,7 @@ shortcuts = Bližnjice
 clips = Posnetki
 goal-type-record = snemanje
 goal-type-validation = preverjanje
+goal-help = Projektu Common Voice ste pomagali doseči <goalPercentage></goalPercentage> od skupnega { $goalType } dnevnega cilja.
 contribute-more =
     { $count ->
         [one] Ste pripravljeni narediti še enega?
@@ -322,6 +325,7 @@ clips-submitted =
         [few] { $count } posnetki poslani
        *[other] { $count } posnetkov poslanih
     }
+record-abort-title = Želite najprej končati s snemanjem?
 record-abort-submit = Pošlji posnetke
 record-abort-continue = Končaj snemanje
 record-abort-delete = Izhod in brisanje posnetkov
