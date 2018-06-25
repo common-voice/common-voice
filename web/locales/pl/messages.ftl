@@ -34,10 +34,12 @@ fr = francuski
 fy-NL = fryzyjski
 ga-IE = irlandzki
 he = hebrajski
+hsb = górnołużycki
 hu = węgierski
 id = indonezyjski
 is = islandzki
 it = włoski
+ja = japoński
 ka = gruziński
 kab = kabylski
 kk = kazachski
@@ -69,6 +71,7 @@ tt = tatarski
 uk = ukraiński
 uz = uzbecki
 zh-CN = chiński (Chiny)
+zh-HK = chiński (Hongkong)
 zh-TW = chiński (Tajwan)
 
 # [/]
