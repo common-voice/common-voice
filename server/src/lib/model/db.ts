@@ -39,12 +39,14 @@ export default class DB {
   /**
    * Normalize email address as input.
    */
-   private formatEmail(email?: string): string {
-     let emailRexep = new RegExp('/^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/');
-     let isValid = emailRexep.test(email)
-     if (!email || !isValid) {
-       return '';
-     }
+  private formatEmail(email?: string): string {
+    let emailRexep = new RegExp(
+      '/^(([^<>()[]\\.,;:s@"]+(.[^<>()[]\\.,;:s@"]+)*)|(".+"))@(([[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}])|(([a-zA-Z-0-9]+.)+[a-zA-Z]{2,}))$/'
+    );
+    let isValid = emailRexep.test(email);
+    if (!email || !isValid) {
+      return '';
+    }
     return email.toLowerCase();
   }
 
