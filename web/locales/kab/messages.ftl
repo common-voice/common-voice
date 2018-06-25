@@ -34,10 +34,12 @@ fr = Tafransist
 fy-NL = Tafrizunt
 ga-IE = Tirlandit
 he = Taɛebrit
+hsb = Sorbyan, Tameqqrant
 hu = Tahungaṛit
 id = Tandunizit
 is = Taṣlandit
 it = Taṭeyanit
+ja = Tajapunit
 ka = Tajyuṛjit
 kab = Taqbaylit
 kk = Takazaxt
@@ -69,6 +71,7 @@ tt = Taṭaṭarit
 uk = Takrinit
 uz = Tazbikit
 zh-CN = Tacinwat (Cin)
+zh-HK = Tacinit 5Hung Kung)
 zh-TW = Tacinwat (Taywan)
 
 # [/]
