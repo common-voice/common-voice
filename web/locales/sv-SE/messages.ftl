@@ -34,10 +34,12 @@ fr = Franska
 fy-NL = Frisiska
 ga-IE = Irländska
 he = Hebreiska
+hsb = Högsorbiska
 hu = Ungerska
 id = Indonesiska
 is = Isländska
 it = Italienska
+ja = Japanska
 ka = Georgiska
 kab = Kabyliska
 kk = Kazakstanska
@@ -69,6 +71,7 @@ tt = Tatariska
 uk = Ukrainska
 uz = Uzbekistanska
 zh-CN = Kinesiska (Kina)
+zh-HK = Kinesiska (Hong Kong)
 zh-TW = Kinesiska (Taiwan)
 
 # [/]
