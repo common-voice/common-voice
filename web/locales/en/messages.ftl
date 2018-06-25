@@ -30,10 +30,12 @@ fr = French
 fy-NL = Frisian
 ga-IE = Irish
 he = Hebrew
+hsb = Sorbian, Upper
 hu = Hungarian
 id = Indonesian
 is = Icelandic
 it = Italian
+ja = Japanese
 ka = Georgian
 kab = Kabyle
 kk = Kazakh
@@ -65,6 +67,7 @@ tt = Tatar
 uk = Ukrainian
 uz = Uzbek
 zh-CN = Chinese (China)
+zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
 # [/]
 
