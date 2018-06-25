@@ -134,7 +134,7 @@ async function importContributableLocales() {
 }
 
 async function importLocales() {
-  await Promise.all([/*importPontoonLocales(),*/ importContributableLocales()]);
+  await Promise.all([importPontoonLocales(), importContributableLocales()]);
 }
 
 importLocales().catch(e => console.error(e));
