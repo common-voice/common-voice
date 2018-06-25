@@ -181,6 +181,7 @@ edit-profile = Profil wobdźěłać
 profile-create = Profil załožić
 profile-create-success = Profil je so wuspěšnje załožił!
 profile-close = Začinić
+profile-clear-modal = Hdyž swoje profilowe daty zhašeće, so tute demografiske informacije hižo na Common Voice hromadźe z natočenjemi njepósćelu.
 profile-explanation = Z profilom móžeće swój pokrok we wóčku wobchować a pomhać, naše hłosowe daty dokładniše činić.
 
 ## FAQ
@@ -192,6 +193,9 @@ faq-get-q = Kak móžu so k datam Common Voice dóstać?
 faq-get-a = Datowa sadźba je nětko na našej <downloadLink>sćehnjenskej stronje</downloadLink> pod licencu <licenseLink>CC-0</licenseLink> k dispoziciji.
 faq-mission-q = Čehodla je Common Voice dźěl misije Mozilla?
 faq-native-q = { $lang } moja maćeršćina njeje a rěcu z akcentom, chceće mój hłós?
+faq-firefox-q = Budźe něhdy přenjesenje rěčenja do teksta přez Common Voice dźěl Firefox?
+faq-firefox-a = Common Voice ma njewobmjezowany potencial a wuslědźamy woprawdźe rěčenske zwjazowanske městna we wjele produktach Mozilla, inkluziwnje Firefox.
+faq-quality-q = Kajka je trěbna kwalita za awdio, zo by so wužiwało?
 
 ## Profile
 
