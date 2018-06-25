@@ -34,10 +34,12 @@ fr = Francese
 fy-NL = Frisone
 ga-IE = Irlandese
 he = Ebraico
+hsb = Alto sorabo
 hu = Ungherese
 id = Indonesiano
 is = Islandese
 it = Italiano
+ja = Giapponese
 ka = Georgiano
 kab = Cabilo
 kk = Kazako
@@ -69,6 +71,7 @@ tt = Tataro
 uk = Ucraino
 uz = Uzbeco
 zh-CN = Cinese (Cina)
+zh-HK = Cinese (Hong Kong)
 zh-TW = Cinese (Taiwan)
 
 # [/]
