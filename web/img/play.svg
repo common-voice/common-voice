@@ -54,7 +54,6 @@
             <mask id="l" fill="#fff">
                 <use xlink:href="#k"/>
             </mask>
-            <use fill="#000" fill-rule="nonzero" xlink:href="#k"/>
             <g fill="#59CBB7" mask="url(#l)">
                 <path d="M0-.117h28v28H0z"/>
             </g>
