@@ -23,7 +23,7 @@ Ní raibh siad ábalta a n-aghaidheanna a thaispeáint.
 Bhí a lán daoine ann.
 Is cuma ann nó as é.
 Cé a bhí in aice leis?
-Beidh said ag imeacht amárach.
+Beidh siad ag imeacht amárach.
 Beidh an gabhar á róstadh anocht.
 Anois teacht an Earraigh beidh an lá ag dul chun síneadh.
 Tá an aimsir go huafásach.
@@ -104,7 +104,7 @@ Dheineas féin é gan cabhair ná cúnamh.
 An bhfuair tú é sin fós?
 B’fhéidir go bhfuil tú déanach anois.
 Caithfear díol as an bhfuil a doirteadh.
-D’fhanadar i bhfocair a chéile.
+D’fhanadar i bhfochair a chéile.
 Ní raibh sí i bhfoisceacht scread asail díom.
 I bhfad uainn an t-olc.
 Tiocfaidh sé abhaile liom ar ball.
@@ -145,7 +145,7 @@ Luigh sí cliathánach sa diallait.
 Caithfidh tú cleachtadh a dhéanamh má tá tú chun é a dhéanamh ceart.
 Múinfidh sé sin ceacht dóibh.
 Tá sé chomh héadrom le cleite.
-Tá Gaoluinn acu ó ngcliabhán.
+Tá Gaoluinn acu ón gcliabhán.
 Sheas an t-abhchóideach ag caint lena chliant.
 Chonac chugam an cailín ba dheise riamh.
 Tá mé i mo chónaí i gCarraig na bhFear.
@@ -1020,14 +1020,13 @@ Tá sé an-te sa seomra seo faoi láthair.
 Téigh síos go bun an bhóthair agus ar dheis.
 Tá tinneas cinn orm le dhá lá.
 Bíonn sé i gcónaí ag rith timpeall.
-DIPHONES
 ‘Sí mo pheata í.
 Bean an-mhacánta í gan dabht.
 Ní féidir an seanfhocal a shárú.
 Bhíos ag gabháil do go lánaimseartha
 A Mhuire na nGrást nach é a bhí dall?
 Ní go rómhaith a thuigeas é.
-Bhí flea agus féasta acu a mhair deich lá is deich oíche.
+Bhí fleá agus féasta acu a mhair deich lá is deich oíche.
 Ní raibh cuma rómhaith air an lá dar gcionn.
 Níl an tsláinte go rómhaith aige.
 Bhí sé rómhaith dhomsa, ach go háirithe.
@@ -1061,10 +1060,10 @@ Is baolach go bhfuil a phort seinnte.
 Phreab fear an phoist.
 Ní dóigh liom gurb iad a dhein é.
 Tháinig an madra isteach le crúb caoirigh ina bhéal.
-Phreab cearthrar eile ina dhiaidh sin.
+Phreab ceathrar eile ina dhiaidh sin.
 Preab leat anois nó duitse is measa é.
 Phreab mo chroí le háthas ar chloisint an scéil dom.
-Phreab Nora ina seasamh agub phreab na mná eile ina teannta.
+Phreab Nora ina seasamh agus phreab na mná eile ina teannta.
 Dún do chlab.
 D’éalaigh an chearc isteach sa ghairdín agus scríob sí roimpi.
 Níl ár gceann scríbe i bhfad uainn anois.
@@ -1123,7 +1122,7 @@ Tá sé róthógtha leis an stuif dubh.
 Tóg braon den stuif seo.
 Dhein sé stól beag adhmaide den stuif sin.
 Thug garsún beag, a bhí óg go leor, cabhair dom.
-Fágadh marc gránna ar bhold Dheirdre.
+Fágadh marc gránna ar bhord Dheirdre.
 Bhí fear beag giobalach ina shuí sa chúinne.
 Thugas faoi ndeara rud beag geal leagtha ar an mbord.
 Bhíos ag guí Dé go mbeadh freagraí aige dom.
@@ -1252,7 +1251,7 @@ Fuair sé buile san aghaidh agus thosaigh fuil shrón ag sileadh anuas uaidh.
 Tar éis gabháil thríd an trioblóid sin ar fad táim braon bailithe de.
 Níl aon rud níos deise ná na céad mharcréil Bhealtaine.
 Thosaigh an céilí le ríl cheathrar.
-xAn bhfuil dhá euro le spáráil agat?
+An bhfuil dhá euro le spáráil agat?
 Déil dhearg a úsáidtí chun cónraí a dhéanamh.
 Tá m’uncail maith go leor ach níl sé thar moladh beirte.
 Níl mí fós ann ó ligeadh isteach ar scoil mé.
@@ -1302,7 +1301,7 @@ Seo uair na cinniúna chugainn anois.
 An mó bliain atá caite agat ar an Ollscoil anois?
 Is ag Seán nó ag Aonghus atá sé.
 Bhí bó ag ól uisce le taobh an bhóthair.
-An bhfuil gnó éigin atag anseo?
+An bhfuil gnó éigin agat anseo?
 Bíonn sí rólách ar fad leo.
 Thógadar an gaineamh sin ó thráigh éigin eile.
 Tá na bóithre fós go dona.
@@ -1348,7 +1347,7 @@ Bhídís lán gach aon oíche.
 Dúradar nach mbogfaidís nó go mbeidís ullamh.
 Ba throm leis ualach a chroí.
 Iarradh orm cuntais chinn lae a scríobh síos.
-Do bhí hocht ngalúin poitín acu réidd le díol.
+Do bhí hocht ngalúin poitín acu réidh le díol.
 D’iarr sí orm gan teacht níos luaithe ná sin.
 D’imigh an sagart paróiste as a mheabhair ar fad.
 B’shin é mar a bhí agus ní raibh aon teacht timpeall air.
