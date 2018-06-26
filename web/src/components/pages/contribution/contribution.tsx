@@ -360,7 +360,7 @@ class ContributionPage extends React.Component<Props, State> {
             {instruction({
               $actionType: getString('action-tap'),
               children: <div className="instruction hidden-md-up" />,
-            })}
+            }) || <div className="instruction hidden-md-up" />}
 
             <div className="primary-buttons">
               <canvas ref={this.canvasRef} />
