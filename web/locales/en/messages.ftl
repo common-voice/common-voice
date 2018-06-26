@@ -26,6 +26,7 @@ en = English
 es = Spanish
 et = Estonian
 fi = Finnish
+fo = Faroese
 fr = French
 fy-NL = Frisian
 ga-IE = Irish
