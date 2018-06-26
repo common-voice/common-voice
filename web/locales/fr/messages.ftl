@@ -30,14 +30,17 @@ en = Anglais
 es = Espagnol
 et = Estonien
 fi = Finnois
+fo = Féroïen
 fr = Français
 fy-NL = Frison
 ga-IE = Irlandais
 he = Hébreu
+hsb = Haut-sorabe
 hu = Hongrois
 id = Indonésien
 is = Islandais
 it = Italien
+ja = Japonais
 ka = Géorgien
 kab = Kabyle
 kk = Kazakh
@@ -69,6 +72,7 @@ tt = Tatar
 uk = Ukrainien
 uz = Ouzbek
 zh-CN = Chinois (Chine)
+zh-HK = Chinois (Hong-Kong)
 zh-TW = Chinois (Taïwan)
 
 # [/]
