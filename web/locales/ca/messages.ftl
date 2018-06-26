@@ -15,6 +15,8 @@ loading = S'està carregant…
 
 ## Languages
 
+as = assamès
+az = àzeri
 bn = bengalí
 br = bretó
 ca = català
@@ -27,13 +29,16 @@ el = grec
 en = anglès
 es = espanyol
 et = estonià
+fi = finès
 fr = francès
 fy-NL = frisó
 ga-IE = irlandès
 he = hebreu
 hu = hongarès
 id = indonesi
+is = islandès
 it = italià
+ja = japonès
 ka = georgià
 kab = cabilenc
 ko = coreà
@@ -61,6 +66,7 @@ tt = tàtar
 uk = ucraïnès
 uz = uzbek
 zh-CN = xinès (Xina)
+zh-HK = xinès (Hong Kong)
 zh-TW = xinès (Taiwan)
 
 # [/]
@@ -165,7 +171,7 @@ other = Altre
 why-profile-title = Per què un perfil?
 why-profile-text = Si proporcioneu informació vostra, les dades d'àudio que envieu al Common Voice seran més útils per als motors de reconeixement de la veu que utilitzen aquestes dades per millorar la seva precisió.
 edit-profile = Edita el perfil
-profile-create = Crea un perfil
+profile-create = Creeu un perfil
 profile-create-success = Fet. S'ha creat el perfil!
 profile-close = Tanca
 profile-clear-modal = Si esborreu les vostres dades del perfil, es deixarà d'enviar aquesta informació demogràfica al Common Voice amb els vostres enregistraments.
