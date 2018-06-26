@@ -30,14 +30,17 @@ en = Engels
 es = Spaans
 et = Estisch
 fi = Fins
+fo = Faeröers
 fr = Frans
 fy-NL = Fries
 ga-IE = Iers
 he = Hebreeuws
+hsb = Oppersorbisch
 hu = Hongaars
 id = Indonesisch
 is = IJslands
 it = Italiaans
+ja = Japans
 ka = Georgisch
 kab = Kabylisch
 kk = Kazachs
@@ -69,6 +72,7 @@ tt = Tataars
 uk = Oekraïens
 uz = Oezbeeks
 zh-CN = Chinees (China)
+zh-HK = Chinees (Hongkong)
 zh-TW = Chinees (Taiwan)
 
 # [/]
