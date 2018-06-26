@@ -30,14 +30,17 @@ en = angličtina
 es = španielčina
 et = estónčina
 fi = fínčina
+fo = faerčina
 fr = francúzština
 fy-NL = frízština
 ga-IE = írčina
 he = hebrejčina
+hsb = hornolužická srbčina
 hu = maďarčina
 id = indonézština
 is = islandčina
 it = taliančina
+ja = japončina
 ka = gruzínčina
 kab = kabylčina
 kk = kazaština
@@ -68,6 +71,7 @@ tt = tatárčina
 uk = ukrajinčina
 uz = uzbečtina
 zh-CN = čínština (Čína)
+zh-HK = čínština (Hongkong)
 zh-TW = čínština (Taiwan)
 
 # [/]
@@ -325,6 +329,13 @@ record-again-instruction2 = Vynikajúce, pokračujte v nahrávaní <recordIcon><
 record-last-instruction = <recordIcon></recordIcon> Ešte naposledy!
 unable-speak = Nemôžete práve teraz hovoriť?
 review-instruction = Skontrolujte nahrávky a v prípade potreby ich nahrajte znova
+clips-submitted =
+    { $count ->
+        [one] Bola odoslaná { $count } nahrávka
+        [few] Boli odoslané { $count } nahrávky
+       *[other] Bolo odoslaných { $count } nahrávok
+    }
+record-abort-title = Nechcete najprv dokončiť nahrávanie?
 record-abort-text = Ak teraz odídete, stratíte svoj pokrok
 record-abort-submit = Odoslať nahrávky
 record-abort-continue = Dokončiť nahrávanie
