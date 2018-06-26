@@ -30,6 +30,7 @@ en = Bahasa Inggris
 es = Bahasa Spanyol
 et = Bahasa Estonia
 fi = Bahasa Finlandia
+fo = Bahasa Faroe
 fr = Bahasa Perancis
 fy-NL = Bahasa Frisia
 ga-IE = Bahasa Irlandia
