@@ -93,6 +93,8 @@ back-top = 回到頁頂
 ## Home Page
 
 home-title = Common Voice 係想畀機器學識真人說話方式的 Mozilla 計劃。
+help-us-title = 請幫我哋驗證句子！
+no-clips-to-validate = 睇嚟而家無任何錄音可聽。請幫我哋錄下一些聲音。
 
 ## Speak & Listen Shortcuts
 
@@ -104,9 +106,16 @@ shortcut-play-toggle-label = 播放/停止
 ## Speak Shortcuts
 
 shortcut-record-toggle-label = 錄音/停止
+request-language-text = 沒在 Common Voice 看到您的語言嗎？
+request-language-button = 要求一個新語言
 
 ## ProjectStatus
 
+status-title = 計劃狀態：睇下我哋做到邊到！
+status-hours =
+    { $hours ->
+       *[other] 目前已驗證了 { $hours } 小時！
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = 下個目標: { $goal }
@@ -136,28 +145,49 @@ edit-profile = 編輯個人帳戶
 profile-create = 註冊帳戶
 profile-create-success = 成功建立帳戶！
 profile-close = 關閉
+profile-clear-modal = 清除您的帳戶資料後，您的錄音不會再和人口統計資料一起傳送給 Common Voice。
 
 ## FAQ
 
 faq-title = 常見問題
 faq-what-q = Common Voice 是什麼？
 faq-important-q = 點解咁重要？
+faq-hours-a = 這是用來訓練 STT 系統所需的大約時數。
+faq-source-q = 原文的文字來自哪裏？
 
 ## Profile
 
+profile-why-title = 為什麼需要註冊帳戶？
 
 ## NotFound
 
+notfound-title = 找不到
+notfound-content = 對不起，我不知道您想找甚麽。
 
 ## Data
 
+data-download-button = 下載 Common Voice 資料
 data-download-yes = 好
 data-download-deny = 不好
+data-download-license = 授權條款: <licenseLink>CC-0</licenseLink>
+data-download-modal = 您將會下載 <size>{ $size } GB</size> 的檔案，要繼續嗎？
+data-other-title = 其他語音資料集…
 
 ## Record Page
 
+record-platform-not-supported = 對不起，你的平台暫時不被支援。
+record-platform-not-supported-desktop = 在桌面電腦上，您可以下載最新的：
+record-platform-not-supported-ios = <bold>iOS</bold> 用戶可以下載我們免費的應用程式：
+record-retry = 重新嘗試
+record-error-too-short = 這個錄音太短了。
+record-error-too-long = 這個錄音太長了。
+record-error-too-quiet = 這個錄音太靜了。
+record-submit-success = 成功提交了！想再錄更多嗎？
+record-cancel = 取消重新錄音
 terms-agree = 我同意
 terms-disagree = 我不同意
+review-cancel = 取消提交
+review-delete-recordings = 刪除我的錄音
 
 ## Download Modal
 
@@ -173,3 +203,4 @@ terms-disagree = 我不同意
 
 ## New Contribution
 
+listen-last-time-instruction = <playIcon></playIcon> 最後一個！
