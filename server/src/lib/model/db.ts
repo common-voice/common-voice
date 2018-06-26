@@ -528,4 +528,13 @@ export default class DB {
       ),
     ]);
   }
+
+  async createSkippedSentence(id: string, client_id: string) {
+    await this.mysql.query(
+      `
+        INSERT INTO skipped_sentences (sentence_id, client_id) VALUES (?, ?) 
+      `,
+      [id, client_id]
+    );
+  }
 }

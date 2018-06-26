@@ -48,6 +48,7 @@ export default class API {
     router.put('/users/:id', this.saveUser);
 
     router.get('/:locale/sentences', this.getRandomSentences);
+    router.post('/skipped_sentences/:id', this.createSkippedSentence);
 
     router.use(
       '/:locale/clips',
@@ -116,6 +117,12 @@ export default class API {
   createLanguageRequest = async (request: Request, response: Response) => {
     await this.model.db.createLanguageRequest(request.body.language, request
       .headers.uid as string);
+    response.json({});
+  };
+
+  createSkippedSentence = async (request: Request, response: Response) => {
+    const { headers: { uid }, params: { id } } = request;
+    await this.model.db.createSkippedSentence(id, uid as string);
     response.json({});
   };
 }

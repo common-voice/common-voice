@@ -200,4 +200,10 @@ export default class API {
       isJSON: false,
     });
   }
+
+  skipSentence(id: string) {
+    return this.fetch(`${API_PATH}/skipped_sentences/` + id, {
+      method: 'POST',
+    });
+  }
 }

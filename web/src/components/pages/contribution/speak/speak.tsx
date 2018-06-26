@@ -278,10 +278,11 @@ class SpeakPage extends React.Component<Props, State> {
   };
 
   private handleSkip = async () => {
-    const { removeSentences, sentences } = this.props;
+    const { api, removeSentences, sentences } = this.props;
     const { clips } = this.state;
     await this.discardRecording();
-    removeSentences([clips[this.getRecordingIndex()].sentence.id]);
+    const { id } = clips[this.getRecordingIndex()].sentence;
+    removeSentences([id]);
     this.setState({
       clips: clips.map(
         (clip, i) =>
@@ -290,6 +291,7 @@ class SpeakPage extends React.Component<Props, State> {
             : clip
       ),
     });
+    await api.skipSentence(id);
   };
 
   private upload = async (hasAgreed: boolean = false) => {
