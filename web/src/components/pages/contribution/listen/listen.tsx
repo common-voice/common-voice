@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 import { trackListening } from '../../../../services/tracker';
 import { Clips } from '../../../../stores/clips';
 import { Locale } from '../../../../stores/locale';
-import { User } from '../../../../stores/user';
 import StateTree from '../../../../stores/tree';
 import {
   CheckIcon,
@@ -45,7 +44,6 @@ interface PropsFromState {
 
 interface PropsFromDispatch {
   removeClip: typeof Clips.actions.remove;
-  tallyVerification: typeof User.actions.tallyVerification;
   vote: typeof Clips.actions.vote;
 }
 
@@ -124,6 +122,7 @@ class ListenPage extends React.Component<Props, State> {
     const clipIndex = this.getClipIndex();
 
     clearInterval(this.playedSomeInterval);
+    this.props.vote(isValid, this.state.clips[this.getClipIndex()].id);
     this.setState({
       hasPlayed: false,
       hasPlayedSome: false,
@@ -133,8 +132,6 @@ class ListenPage extends React.Component<Props, State> {
         (clip, i) => (i === clipIndex ? { ...clip, isValid } : clip)
       ),
     });
-
-    this.props.vote(isValid, this.state.clips[this.getClipIndex()].id);
   };
 
   private voteYes = () => {
@@ -286,7 +283,6 @@ const mapStateToProps = (state: StateTree) => {
 
 const mapDispatchToProps = {
   removeClip: Clips.actions.remove,
-  tallyVerification: User.actions.tallyVerification,
   vote: Clips.actions.vote,
 };
 
