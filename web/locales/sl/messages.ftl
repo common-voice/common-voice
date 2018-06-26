@@ -30,10 +30,12 @@ en = angleščina
 es = španščina
 et = estonščina
 fi = finščina
+fo = ferščina
 fr = francoščina
 fy-NL = frizijščina
 ga-IE = irščina
 he = hebrejščina
+hsb = gornja lužiška srbščina
 hu = madžarščina
 id = indonezijščina
 is = islandščina
@@ -70,6 +72,7 @@ tt = tatarščina
 uk = ukrajinščina
 uz = uzbeščina
 zh-CN = kitajščina (Kitajska)
+zh-HK = kitajščina (Hong Kong)
 zh-TW = kitajščina (Tajvan)
 
 # [/]
