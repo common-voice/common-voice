@@ -30,6 +30,7 @@ en = angielski
 es = hiszpański
 et = estoński
 fi = fiński
+fo = farerski
 fr = francuski
 fy-NL = fryzyjski
 ga-IE = irlandzki
