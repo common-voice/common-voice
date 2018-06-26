@@ -30,6 +30,7 @@ en = Engelska
 es = Spanska
 et = Estländska
 fi = Finska
+fo = Färöiska
 fr = Franska
 fy-NL = Frisiska
 ga-IE = Irländska
