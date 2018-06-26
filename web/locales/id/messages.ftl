@@ -34,6 +34,7 @@ fr = Bahasa Perancis
 fy-NL = Bahasa Frisia
 ga-IE = Bahasa Irlandia
 he = Bahasa Ibrani
+hsb = Bahasa Sorbia Hulu
 hu = Bahasa Hongaria
 id = Bahasa Indonesia
 is = Bahasa Islandia
@@ -70,6 +71,7 @@ tt = Bahasa Tatar
 uk = Bahasa Ukraina
 uz = Bahasa Uzbek
 zh-CN = Bahasa Tionghoa (Tiongkok)
+zh-HK = Bahasa Tiongkok (Hong Kong)
 zh-TW = Bahasa Tionghoa (Taiwan)
 
 # [/]
