@@ -41,7 +41,7 @@
         }
     }
 
-    & .vote-button, & .vote-button-placeholder {
+    & .vote-button {
         width: 100px;
         height: 46px;
 
@@ -89,10 +89,20 @@
         }
 
         &:hover {
-            color: white;
+            color: var(--white);
 
             & path {
-                fill: white;
+                fill: var(--white);
+            }
+        }
+
+        &.yes:disabled, &.no:disabled {
+            color: var(--near-black);
+            background: var(--white);
+            box-shadow: var(--vote-button-box-shadow) color(var(--grey) alpha(80%));
+
+            & path {
+                fill: var(--near-black);
             }
         }
 

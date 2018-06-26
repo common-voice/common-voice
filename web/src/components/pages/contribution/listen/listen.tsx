@@ -213,17 +213,17 @@ class ListenPage extends React.Component<Props, State> {
           onSkip={this.handleSkip}
           primaryButtons={
             <React.Fragment>
-              {hasPlayed ? (
-                <VoteButton type="yes" onClick={this.voteYes} />
-              ) : (
-                <div className="vote-button-placeholder" />
-              )}
+              <VoteButton
+                type="yes"
+                onClick={this.voteYes}
+                disabled={!hasPlayed}
+              />
               <PlayButton isPlaying={isPlaying} onClick={this.play} />
-              {hasPlayed || hasPlayedSome ? (
-                <VoteButton type="no" onClick={this.voteNo} />
-              ) : (
-                <div className="vote-button-placeholder" />
-              )}
+              <VoteButton
+                type="no"
+                onClick={this.voteNo}
+                disabled={!hasPlayed && !hasPlayedSome}
+              />
             </React.Fragment>
           }
           pills={clips.map(
