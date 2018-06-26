@@ -30,6 +30,7 @@ en = Jendźelšćina
 es = Španišćina
 et = Estnišćina
 fi = Finšćina
+fo = Ferejšćina
 fr = Francosćina
 fy-NL = Frizišćina
 ga-IE = Iršćina
