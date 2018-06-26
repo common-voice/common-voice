@@ -30,6 +30,7 @@ en = Angol
 es = Spanyol
 et = Észt
 fi = Finn
+fo = Feröeri
 fr = Francia
 fy-NL = Fríz
 ga-IE = Ír
