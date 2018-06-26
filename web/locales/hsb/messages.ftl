@@ -200,6 +200,7 @@ faq-quality-q = Kajka je trěbna kwalita za awdio, zo by so wužiwało?
 faq-hours-q = Čehodla je 10.000 hodźin cil za zynkowe natočenja?
 faq-hours-a = To je přibližnje ličba hodźin, kotrež su trěbne, zo by produktiwny system rěčenskeho spóžnaća trenowało.
 faq-source-q = Zwotkel žórłowy tekst přińdźe?
+faq-source-a1 = Aktualne sady su so wot sobuskutkowarjow přinošowali, kaž tež dialog z powšitkownosći wužitnych filmowych scenarijow kaž <italic>It¨s a Wonderful Life.</italic>
 faq-source-a2 = Móžeće sej naše žórłowe sady w <dataLink>tutym rjadowaku GitHub</dataLink> wobhladać.
 
 ## Profile
@@ -246,6 +247,7 @@ terms-agree = Sym přezjedny
 terms-disagree = Njejsym přezjedny
 review-aborted = Nahraće přetorhnjene. Chceće swoje natočenja zhašeć?
 review-submit-title = Přepruwować a wotpósłać
+review-submit-msg = Wulki dźak za natočenje!<lineBreak></lineBreak>Přepruwujće swoje natočenja, prjedy hač je wotpósćeleće. 
 review-recording = Přepruwować
 review-rerecord = Znowa natočić
 review-cancel = Wótpósłanje přetorhnyć
@@ -255,6 +257,7 @@ review-delete-recordings = Natočenja zhašeć
 ## Download Modal
 
 download-title = Waše sćehnjenje je so započało.
+download-helpus = Pomhajće nam zhromadźenstwo wokoło hłosoweje technologije natwarić, wostańće přez e-mejl w zwisku.
 download-form-email =
     .label = E-mejlowu adresu zapodać
     .value = Wulki dźak, wostawamy w zwisku.
@@ -276,6 +279,7 @@ request-language-title = Rěč požadać
 request-language-form-language =
     .label = Rěč
 request-language-success-title = Źadanje wo rěč je so wuspěšnje wotpósłało, wulki dźak.
+request-language-success-content = Přizjewimy so jara bórze z dalšimi informacijemi wo tym, kak móžeće Common Voice swoju rěč přidać.
 
 ## Languages Overview
 
