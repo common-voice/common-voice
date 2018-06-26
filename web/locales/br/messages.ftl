@@ -30,14 +30,17 @@ en = Saozneg
 es = Spagnoleg
 et = Estoneg
 fi = Finneg
+fo = Faeroeg
 fr = Galleg
 fy-NL = Frizeg
 ga-IE = Iwerzhoneg
 he = Hebraeg
+hsb = Uhel-Sorabeg
 hu = Hungareg
 id = Indonezeg
 is = Islandeg
 it = Italianeg
+ja = Japaneg
 ka = Jorjieg
 kab = Kabileg
 kk = Kazakh
@@ -69,6 +72,7 @@ tt = Tatareg
 uk = Ukraineg
 uz = Ouzbekeg
 zh-CN = Sinaeg (Sina)
+zh-HK = Sinaeg (Hong Kong)
 zh-TW = Sinaeg (Taiwan)
 
 # [/]
