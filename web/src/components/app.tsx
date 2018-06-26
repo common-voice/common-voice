@@ -153,6 +153,8 @@ const LocalizedLayout: any = withRouter(
             this.props.setLocale(userLocales[0]);
           }
 
+          document.documentElement.setAttribute('lang', mainLocale);
+
           this.setState({
             messagesGenerator: await createMessagesGenerator(api, userLocales),
           });
