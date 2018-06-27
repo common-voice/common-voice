@@ -94,22 +94,26 @@ class ListenPage extends React.Component<Props, State> {
   }
 
   private play = () => {
-    const audio = this.audioRef.current;
     if (this.state.isPlaying) {
-      audio.pause();
-      audio.currentTime = 0;
-      clearInterval(this.playedSomeInterval);
-      this.setState({ isPlaying: false });
+      this.stop();
       return;
     }
 
-    audio.play();
+    this.audioRef.current.play();
     this.setState({ isPlaying: true });
     clearInterval(this.playedSomeInterval);
     this.playedSomeInterval = setInterval(
       () => this.setState({ hasPlayedSome: true }),
       VOTE_NO_PLAY_MS
     );
+  };
+
+  private stop = () => {
+    const audio = this.audioRef.current;
+    audio.pause();
+    audio.currentTime = 0;
+    clearInterval(this.playedSomeInterval);
+    this.setState({ isPlaying: false });
   };
 
   private hasPlayed = () => {
@@ -154,6 +158,7 @@ class ListenPage extends React.Component<Props, State> {
   private handleSkip = () => {
     const { removeClip } = this.props;
     const { clips } = this.state;
+    this.stop();
     removeClip(clips[this.getClipIndex()].id);
     this.setState({
       clips: clips.map(
