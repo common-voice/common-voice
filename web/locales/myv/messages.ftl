@@ -1,6 +1,7 @@
 ## General
 
-return-to-cv = Велявтомс мекев "Common Voice" сайтантень
+yes-receive-emails = Паро мельсэ, кучодо монень э-сёрмат. Ули мелем содамс седе тов, кода «Common Voice» проектэнть тевензэ молить.
+return-to-cv = Велявтомс мекев "Common Voice" сайтас
 email-input =
     .label = э-сёрма
 submit-form-action = Совавтомс
@@ -30,6 +31,7 @@ fr = Французокс
 fy-NL = Фризикс
 ga-IE = Ирляндиякс
 he = Ивритэкс
+hsb = Верце Сорбокс
 hu = Венгракс
 id = Индонесиякс
 is = Исландиякс
@@ -64,12 +66,17 @@ tr = Туркакс
 tt = Татарокс
 uk = Украинакс
 uz = Узбекекс
+zh-CN = Мандринэкс (Китаень)
+zh-HK = Кантонокс (Гонгконгонь)
+zh-TW = Мандринэкс (Тайванень)
 
 # [/]
 
 
 ## Layout
 
+speak = Кортамс
+speak-now = Кортамс ней
 languages = Кельть
 profile = Профиль
 help = Лезкс
@@ -88,16 +95,21 @@ vote-no = Арась
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = Кунсоломс/Лоткавтомс
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = Сёрмадомс/Лоткавтомс
 request-language-button = Вешемс кель
 
 ## ProjectStatus
 
+english = Англакс
 
 ## ProfileForm
 
+profile-form-cancel = Лисемс анкетастонть
+profile-form-delete = Нардамс профиленть
 profile-form-language =
     .label = Кель
 profile-form-age =
@@ -170,4 +182,7 @@ language-search-input =
 
 listen = Кунсоломс
 skip = Ютамс вакска
-shortcuts = Киртязь кить
+shortcuts = Керязь кить
+record-three-more-instruction = Лиядсть колмо! 
+record-last-instruction = Меельце!
+share-title-new = <bold>Лездак миненек</bold> муемс лия вайгельть
