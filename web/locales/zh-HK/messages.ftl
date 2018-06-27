@@ -80,6 +80,7 @@ zh-TW = 中文 (臺灣)
 
 ## Layout
 
+datasets = 數據集
 languages = 所有語言
 profile = 個人帳戶
 help = 說明
@@ -93,7 +94,14 @@ back-top = 回到頁頂
 ## Home Page
 
 home-title = Common Voice 係想畀機器學識真人說話方式的 Mozilla 計劃。
+wall-of-text-start = 語音係自然、有人性的。所以我們非常希望為電腦建立可用的語音技術。但建立語音系統需要有非常大量的語音數據。
+wall-of-text-more-mobile = 大部分現成的數據由大公司擁有，並未開放給公眾使用。我哋覺得咁樣會阻礙創新，所以創立了讓每個人都可以自由來建立語音識別的 Common Voice 計劃。
+wall-of-text-more-desktop =
+    現在您可以將自己的聲音捐畀我哋，以幫助打造開放原始碼的語音資料庫，讓任何人都可以為裝置和互聯網打造嶄新的應用程式。<lineBreak></lineBreak>
+    只要朗讀一段文字，您就可以幫助機器了解我哋點樣講嘢。您亦可以驗證其他貢獻者的聲音，以協助改善品質。就係咁簡單！
+show-wall-of-text = 瞭解更多
 help-us-title = 請幫我哋驗證句子！
+help-us-explain = 按下播放按鈕，聽一聽，然後回覆：佢哋正確地讀出以下的句子嗎？
 no-clips-to-validate = 睇嚟而家無任何錄音可聽。請幫我哋錄下一些聲音。
 
 ## Speak & Listen Shortcuts
@@ -134,8 +142,8 @@ profile-form-age =
 profile-form-gender =
     .label = 性別
 profile-form-submit-save = 儲存
-profile-keep-data = 保留資料
-profile-delete-data = 刪除資料
+profile-keep-data = 保留數據
+profile-delete-data = 刪除數據
 male = 男性
 female = 女性
 # Gender
@@ -166,12 +174,14 @@ notfound-content = 對不起，我不知道您想找甚麽。
 
 ## Data
 
-data-download-button = 下載 Common Voice 資料
+data-download-button = 下載 Common Voice 數據
 data-download-yes = 好
 data-download-deny = 不好
 data-download-license = 授權條款: <licenseLink>CC-0</licenseLink>
 data-download-modal = 您將會下載 <size>{ $size } GB</size> 的檔案，要繼續嗎？
-data-other-title = 其他語音資料集…
+data-subtitle = 我們正在打造一套開放、可公開使用的語音數據集，讓每個人都可用來訓練有語音功能的應用程式。
+data-other-title = 其他語音數據集…
+data-other-download = 下載數據
 
 ## Record Page
 
