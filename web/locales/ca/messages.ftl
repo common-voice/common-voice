@@ -30,10 +30,12 @@ en = anglès
 es = espanyol
 et = estonià
 fi = finès
+fo = feroès
 fr = francès
 fy-NL = frisó
 ga-IE = irlandès
 he = hebreu
+hsb = alt sòrab
 hu = hongarès
 id = indonesi
 is = islandès
@@ -41,9 +43,13 @@ it = italià
 ja = japonès
 ka = georgià
 kab = cabilenc
+kk = kazakh
 ko = coreà
+kpv = komi
 kw = còrnic
+ky = kirguís
 mk = macedònic
+myv = mordovià erza
 nb-NO = Bokmål noruec
 ne-NP = nepalès
 nl = neerlandès
@@ -53,6 +59,7 @@ pl = polonès
 pt-BR = portuguès (Brasil)
 ro = romanès
 ru = rus
+sah = iacut
 sk = eslovac
 sl = eslovè
 sq = albanès
@@ -135,7 +142,7 @@ request-language-button = Sol·licita una llengua
 ## ProjectStatus
 
 status-title = Estat general del projecte: veieu fins on hem arribat!
-status-contribute = Col·laboreu amb la vostra veu
+status-contribute = Col·laboreu-hi amb la vostra veu
 status-hours =
     { $hours ->
         [one] Ja s'ha validat { $hours } hora!
