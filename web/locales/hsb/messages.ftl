@@ -228,6 +228,7 @@ data-download-deny = Ně
 data-download-license = Licenca: <licenseLink>CC-0</licenseLink>
 data-download-modal = Chceće <size>{ $size }GB</size> sćahnyć, chceće pokročować?
 data-subtitle = Tworimy wotewrjenu a zjawnje přistupnu datowu sadźbu hłosow, kotruž kóždy móže wužiwać, zo by nałoženja z rěčenskej podpěru trenował.
+data-explanatory-text = Měnimy, zo wulke a zjawnje k dispoziciji stejace datowe sadźby hłosow inowaciju a strowe komercielne wubědźowanje we hłosowej teczhnologiji spěchuja, kotraž na mašinelnym wuknjenju bazuja. To je globalne napinanje a přeprošujemy kóždeho so na tym wobdźělić. Naš cil je pomhać, zo hłosowa technologija je bóle wotewrjena, zo by wšelakorosć hłosow z cyłeho swěta wotbłyšćowała.
 data-get-started = <speechBlogLink>Prěnje kroki z rěčenskim spóznaćom</speechBlogLink>
 data-other-title = Druhe hłosowe datowe sadźby…
 data-other-goto = K { $name }
@@ -298,6 +299,7 @@ request-language-success-content = Přizjewimy so jara bórze z dalšimi informa
 ## Languages Overview
 
 language-section-in-progress = Běži
+language-section-in-progress-description = Rěče w přihotowanju so tuchwilu přez naše zhromadźenstwa wuwiwaja; jich postup wotbłyšćuje, na kotrym stawje přełožowanje jich websydła a fazy zběrki sadow su.
 language-section-launched = Startowany
 language-section-launched-description = Za tue startowane rěče je so websydło wuspěšnje přełožiło, a ma dosć zběranych sadow, zo by běžne sobudźěło přez <italic>{ speak }</italic> a <italic>{ listen }</italic> dowoliło.
 languages-show-more = Wjace pokazać
