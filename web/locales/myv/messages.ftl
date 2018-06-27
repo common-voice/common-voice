@@ -141,6 +141,9 @@ faq-what-q = "Common Voice" те мезе истямось?
 faq-important-q = Те мезекс эряви?
 faq-get-q = Кода монень саеви «Common Voice» датась?
 faq-mission-q = Мейсь «Common Voice» Мозилла миссиянть пельксэзэ?
+faq-native-q = Кадык { $lang }-нь келесь аволь васенце келем, ды эсень кортамо лувом ули, моньгак вайгелем тенк эряви?
+faq-native-a = Эряви, тоньгак вайгелеть миненек эряви! «Common Voice» проектэнть вейке целазо пурнамс зяро-понги кортамо лувт -- кортавкст. Истя содымашинатне седе парсте кармить <bold>весень</bold> чарькодеме кортамстост.
+faq-firefox-q = «Common Voice» проектэнть вельде кортамосто-текстс функциясь зярдояк совавтови Толривезень (Firefox-онь) пельксэкс?
 
 ## Profile
 
@@ -149,20 +152,25 @@ profile-why-title = Мезекс профилесь?
 ## NotFound
 
 notfound-title = А муеви
+notfound-content = Пелян аздан, мезе вешнят.
 
 ## Data
 
 data-download-button = Таргамс «Common Voice» дата
 data-download-yes = Истя
 data-download-deny = Арась
+data-download-license = Лицензиясь: <licenseLink>CC-0</licenseLink>
+data-other-title = Вайгелень лия датапурнавкст...
 data-other-download = Таргамс Датанть
 data-other-ted-name = «TED-LIUM» Корпус
 data-bundle-button = Таргамс датапурнавкс керьмаз
+license = Лицензиясь: <licenseLink>{ $license }</licenseLink>
 license-mixed = Човор
 
 ## Record Page
 
 record-platform-not-supported-desktop = Столь лангсо содымашинатнес маштови таргамс меельце:
+record-platform-not-supported-ios = <bold>iOS</bold>-нь тевс нолдыцятненень маштови таргамс минек приложениянть питневтеме:
 record-must-allow-microphone = Эряви максомс микрофононтень нолдавомань видечить.
 record-retry = Варчамс одов
 record-no-mic-found = А муеви микрофон.
@@ -182,6 +190,8 @@ review-delete-recordings = Нардамс мезе лентас сёрмадын
 
 ## Download Modal
 
+download-title = Таргамот ушодовсь.
+download-helpus = Лездак миненек путомс-аравтомс вайгельтехнологиянь перька ломаньпурнавкс, кирдть контакт э-сёрма вельде.
 download-form-email =
     .label = Совавтык э-сёрмапаргот
     .value = Сюкпря, сёрмадтано тенть.
@@ -211,12 +221,14 @@ language-section-launched = Нолдазь
 languages-show-more = Неемс седе ламо
 languages-show-less = Неемс седе аламо
 language-speakers = Кортыцятнеде
+language-meter-in-progress = Поладксонь молемась
 language-total-progress = Весемезе
 language-search-input =
     .placeholder = Вешнемс
 
 ## New Contribution
 
+action-click = Лепштямс
 listen = Кунсоломс
 skip = Ютамс вакска
 shortcuts = Керязь кить
