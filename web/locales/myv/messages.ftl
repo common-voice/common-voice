@@ -114,6 +114,8 @@ profile-form-cancel = Лисемс анкетастонть
 profile-form-delete = Нардамс профиленть
 profile-form-language =
     .label = Кель
+profile-form-accent =
+    .label = Кортавкс
 profile-form-age =
     .label = Иеть
 profile-form-gender =
@@ -137,6 +139,8 @@ profile-close = Пекстамс
 faq-title = Сеедьстэ максозь кевкстемат
 faq-what-q = "Common Voice" те мезе истямось?
 faq-important-q = Те мезекс эряви?
+faq-get-q = Кода монень саеви «Common Voice» датась?
+faq-mission-q = Мейсь «Common Voice» Мозилла миссиянть пельксэзэ?
 
 ## Profile
 
@@ -203,6 +207,7 @@ request-language-success-title = Келень вешемат совавтовс�
 ## Languages Overview
 
 language-section-in-progress = Тевесь моли
+language-section-launched = Нолдазь
 languages-show-more = Неемс седе ламо
 languages-show-less = Неемс седе аламо
 language-speakers = Кортыцятнеде
@@ -216,9 +221,19 @@ listen = Кунсоломс
 skip = Ютамс вакска
 shortcuts = Керязь кить
 clips = Клипст
+goal-type-record = сёрмадовкс
+contribute-more =
+    { $count ->
+       *[other] Анокат седе тов { $count } теемс?
+    }
 record-cta = Ушодомс сёрмадоманть
 record-three-more-instruction = Лиядсть колмо! 
+record-again-instruction = Пек паро! <recordIcon></recordIcon> Сёрмадт седе тов вейке клип
+record-again-instruction2 = Вадрясто теят, одов сёрмадт <recordIcon></recordIcon>
 record-last-instruction = Меельце!
+review-tooltip = Кунсоломс & сёрмадомс лентас одов кува тев теят
+unable-speak = Арась шкат кортамс ней?
+review-instruction = Одов кунсоломс & лентас сёрмадомс кува эряви
 record-submit-tooltip = { $actionType } совавтомс зярдо анокат
 clips-submitted =
     { $count ->
@@ -226,7 +241,12 @@ clips-submitted =
        *[other] Клипст совавтозь
     }
 record-abort-title = Васня сёрмадоманть прядомс?
+record-abort-text = Лисиндерят нейке, поладома теветь ёми
 record-abort-submit = Совавтомс клипст
 record-abort-continue = Прядомс лентас сёрмадоманть
 record-abort-delete = Лисемс & Нардамс клипстнэнь
+listen-instruction = { $actionType } <playIcon></playIcon> истя кода эряви ёвтызь валрисьменть?
+listen-again-instruction = Пек паро! <playIcon></playIcon> Кунсолок одов, зярдо кенерят
+listen-3rd-time-instruction = 2 теезь, ней седе тов! <playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon> Меельцесь!
 share-title-new = <bold>Лездак миненек</bold> муемс лия вайгельть
