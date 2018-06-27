@@ -304,7 +304,7 @@ language-search-input =
 
 action-click = Feu clic a
 action-tap = Toqueu
-contribute = Col·laboreu-hi
+contribute = Col·laboreu‑hi
 listen = Escolta
 skip = Omet
 shortcuts = Dreceres
