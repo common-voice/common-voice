@@ -191,6 +191,7 @@ profile-explanation = Z profilom móžeće swój pokrok we wóčku wobchować a 
 
 faq-title = Huste prašenja
 faq-what-q = Što je Common Voice?
+faq-what-a = Technologija hłosoweho spóznaća móhła wašnje rewolucionować, z kotrymž z mašinami interagujemy, ale tuchwilu k dispoziciji stejace systemy su drohe a proprietarne. Common Voice je projekt, kotryž technologiju hłosoweho spóznaća za kóždeho lochko přistupnu čini. Ludźo masiwnej datowej bance swoje hłosy daruja, kotraž kóždemu zmóžnja, nałoženja za hłosowe spóznaće trenować. Wšě hłosowe daty budu wuwiwarjam k dispoziciji.
 faq-important-q = Čehodla je wažny?
 faq-get-q = Kak móžu so k datam Common Voice dóstać?
 faq-get-a = Datowa sadźba je nětko na našej <downloadLink>sćehnjenskej stronje</downloadLink> pod licencu <licenseLink>CC-0</licenseLink> k dispoziciji.
