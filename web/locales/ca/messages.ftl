@@ -100,8 +100,8 @@ back-top = Torna a dalt
 
 ## Home Page
 
-home-title = El projecte Common Voice és la iniciativa de Mozilla que ajuda a les màquines a aprendre com parlem les persones de carn i ossos.
-home-cta = Alceu la veu! Col·laboreu-hi!
+home-title = El projecte Common Voice és la iniciativa de Mozilla que ajuda a les màquines a aprendre com parlem les persones de debò.
+home-cta = Alceu la veu i col·laboreu-hi!
 wall-of-text-start = La veu és natural, la veu és humana. És per això que volem crear tecnologies de veu de qualitat per a les màquines. Però el desenvolupament d'aquests sistemes requereix un gran volum de dades de veu.
 wall-of-text-more-mobile = La majoria de les dades usades per grans companyies no estan disponibles per a tothom. Considerem que això frena la innovació. Per això, hem iniciat el projecte Common Voice, per tal de fer que la tecnologia de reconeixement de la veu estigui oberta a tothom.
 wall-of-text-more-desktop = Ara podeu donar la vostra veu per a ajudar-nos a construir una base de dades de veu amb llicència oberta que qualsevol pot usar per a desenvolupar aplicacions innovadores per als aparells i el web.<lineBreak></lineBreak>Llegiu una frase per a ajudar les màquines a aprendre com parlen les persones reals. Reviseu la feina d'altres col·laboradors per a millorar la qualitat. Així de fàcil!
@@ -259,7 +259,7 @@ review-terms = En usar Common Voice, accepteu les <termsLink>condicions d'ús</t
 terms-agree = D'acord
 terms-disagree = No hi estic d'acord
 review-aborted = S'ha cancel·lat l'enviament. Voleu suprimir els vostres enregistraments?
-review-submit-title = Revisa i envia
+review-submit-title = Reviseu i envieu-ho
 review-submit-msg = Gràcies pel vostre enregistrament!<lineBreak></lineBreak>A continuació podeu revisar i enviar els vostres talls de veu.
 review-recording = Revisa
 review-rerecord = Torna a enregistrar
@@ -316,7 +316,7 @@ contribute = Col·laboreu‑hi
 listen = Escolta
 skip = Omet
 shortcuts = Dreceres
-clips = Talls
+clips = talls
 goal-type-record = enregistrament
 goal-type-validation = validació
 toward-goal = Manca un <goalPercentage></goalPercentage> per arribar a l'objectiu { $goalType } d'avui del Common Voice
@@ -326,8 +326,8 @@ contribute-more =
         [one] Preparat per fer-ne { $count } més?
        *[other] Preparat per fer-ne { $count } més?
     }
-record-cta = Inicia l'enregistrament
-record-instruction = { $actionType } <recordIcon></recordIcon>després llegiu la frase en veu alta
+record-cta = Enregistreu
+record-instruction = { $actionType } <recordIcon></recordIcon>i llegiu la frase en veu alta
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> quan hàgiu acabat
 record-three-more-instruction = Només en falten tres!
 record-again-instruction = Molt bé! <recordIcon></recordIcon> Enregistreu un altre tall
