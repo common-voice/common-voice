@@ -96,7 +96,7 @@ class ListenBox extends React.Component<Props, State> {
 
   private onPlayEnded() {
     this.setState({ playing: false, played: true });
-    trackListening('listen', this.props.locale);
+    trackListening('listen-home', this.props.locale);
   }
 
   private onPlay() {
