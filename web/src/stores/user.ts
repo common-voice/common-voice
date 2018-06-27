@@ -125,7 +125,7 @@ export const ACCENTS: any = {
     st_pierre_et_miquelon: 'Français de Saint-Pierre-et-Miquelon',
     rwanda: 'Français du Rwanda',
   },
-  ga-IE: {
+  'ga-IE': {
     mumhain: 'Gaeilge na Mumhan',
     connachta: 'Gaeilge Chonnacht',
     ulaidh: 'Gaeilge Uladh',
