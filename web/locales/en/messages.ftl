@@ -318,10 +318,10 @@ contribute-more =
        *[other] Ready to do { $count } more?
     }
 record-cta = Start recording
-record-instruction = { $actionType } <recordIcon></recordIcon>then read the sentence aloud
-record-stop-instruction = { $actionType } <stopIcon></stopIcon> when done
+record-instruction = { $actionType }<recordIcon></recordIcon> then read the sentence aloud
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> when done
 record-three-more-instruction = Three to go!
-record-again-instruction = Great! <recordIcon></recordIcon> Record your next clip
+record-again-instruction = Great!<recordIcon></recordIcon> Record your next clip
 record-again-instruction2 = Keep it up, record again <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Last one!
 review-tooltip = Review & re-record clips here as you go
@@ -337,10 +337,10 @@ record-abort-text = Leaving now means you'll lose your progress
 record-abort-submit = Submit clips
 record-abort-continue = Finish recording
 record-abort-delete = Exit & Delete clips
-listen-instruction = { $actionType } <playIcon></playIcon> did they accurately speak the sentence?
-listen-again-instruction = Great work! <playIcon></playIcon> Listen again when you're ready
-listen-3rd-time-instruction = 2 down, keep it up! <playIcon></playIcon>
-listen-last-time-instruction = <playIcon></playIcon> Last one!
+listen-instruction = { $actionType }<playIcon></playIcon> did they accurately speak the sentence?
+listen-again-instruction = Great work!<playIcon></playIcon> Listen again when you're ready
+listen-3rd-time-instruction = 2 down, keep it up!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Last one!
 share-title-new = <bold>Help us</bold> find more voices
 
 
