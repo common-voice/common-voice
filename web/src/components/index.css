@@ -712,3 +712,29 @@ a.small, .small a, .text-button.small {
         border-top-color: var(--near-black) !important;
     }
 }
+
+@keyframes move-background {
+    0% {
+        background-position: 0 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0 50%
+    }
+}
+
+.upload-progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    z-index: var(--middle-z-index);
+    background: linear-gradient(270deg, #f89096, #b1b4e5);
+    background-size: 400% 400%;
+    animation: move-background 2s ease infinite;
+    transition: width var(--transition-duration-slow) var(--easing),
+                opacity var(--transition-duration-slow) linear var(--transition-duration-slow);
+}

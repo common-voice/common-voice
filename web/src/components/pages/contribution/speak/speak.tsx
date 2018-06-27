@@ -76,7 +76,7 @@ interface PropsFromState {
 }
 
 interface PropsFromDispatch {
-  addUpload: typeof Uploads.actions.add;
+  addUploads: typeof Uploads.actions.add;
   removeSentences: typeof Recordings.actions.removeSentences;
   tallyRecording: typeof User.actions.tallyRecording;
   updateUser: typeof User.actions.update;
@@ -296,7 +296,7 @@ class SpeakPage extends React.Component<Props, State> {
 
   private upload = async (hasAgreed: boolean = false) => {
     const {
-      addUpload,
+      addUploads,
       api,
       locale,
       removeSentences,
@@ -313,19 +313,18 @@ class SpeakPage extends React.Component<Props, State> {
 
     this.setState({ clips: [], isSubmitted: true });
 
-    for (const { sentence, recording } of clips) {
-      addUpload(async () => {
+    addUploads([
+      ...clips.map(({ sentence, recording }) => async () => {
         await api.uploadClip(recording.blob, sentence.id, sentence.text);
         tallyRecording();
-      });
-    }
+      }),
+      async () => {
+        await api.syncDemographics();
+        trackRecording('submit', locale);
+      },
+    ]);
 
     removeSentences(clips.map(c => c.sentence.id));
-
-    addUpload(async () => {
-      await api.syncDemographics();
-      trackRecording('submit', locale);
-    });
   };
 
   private resetState = (callback?: any) =>
@@ -519,7 +518,7 @@ const mapStateToProps = (state: StateTree) => {
 };
 
 const mapDispatchToProps = {
-  addUpload: Uploads.actions.add,
+  addUploads: Uploads.actions.add,
   removeSentences: Recordings.actions.removeSentences,
   tallyRecording: User.actions.tallyRecording,
   updateUser: User.actions.update,

@@ -79,6 +79,7 @@ interface LocalizedPagesProps
 
 interface LocalizedPagesState {
   messagesGenerator: any;
+  uploadPercentage?: number;
 }
 
 const LocalizedLayout: any = withRouter(
@@ -93,6 +94,7 @@ const LocalizedLayout: any = withRouter(
       class extends React.Component<LocalizedPagesProps, LocalizedPagesState> {
         state: LocalizedPagesState = {
           messagesGenerator: null,
+          uploadPercentage: null,
         };
 
         isUploading = false;
@@ -105,6 +107,7 @@ const LocalizedLayout: any = withRouter(
           const { uploads, userLocales } = nextProps;
 
           this.runUploads(uploads).catch(e => console.error(e));
+
           window.onbeforeunload =
             uploads.length > 0
               ? e =>
@@ -124,11 +127,19 @@ const LocalizedLayout: any = withRouter(
         async runUploads(uploads: Uploads.State) {
           if (this.isUploading) return;
           this.isUploading = true;
-          for (const upload of uploads) {
+          this.setState({ uploadPercentage: 0 });
+          for (let i = 0; i < uploads.length; i++) {
+            this.setState({ uploadPercentage: (i + 1) / (uploads.length + 1) });
+            const upload = uploads[i];
             await upload();
             this.props.removeUpload(upload);
           }
+          this.setState({ uploadPercentage: null });
           this.isUploading = false;
+
+          if (this.props.uploads.length > 0) {
+            await this.runUploads(this.props.uploads);
+          }
         }
 
         async prepareMessagesGenerator({
@@ -161,25 +172,35 @@ const LocalizedLayout: any = withRouter(
         }
 
         render() {
-          const { messagesGenerator } = this.state;
           const { toLocaleRoute } = this.props;
+          const { messagesGenerator, uploadPercentage } = this.state;
           return (
             messagesGenerator && (
-              <LocalizationProvider messages={messagesGenerator}>
-                <Switch>
-                  <Route
-                    exact
-                    path={toLocaleRoute(URLS.SPEAK)}
-                    component={SpeakPage}
-                  />
-                  <Route
-                    exact
-                    path={toLocaleRoute(URLS.LISTEN)}
-                    component={ListenPage}
-                  />
-                  <Layout />
-                </Switch>
-              </LocalizationProvider>
+              <div>
+                <div
+                  className="upload-progress"
+                  style={
+                    uploadPercentage === null
+                      ? { opacity: 0, width: '100%' }
+                      : { opacity: 1, width: uploadPercentage * 100 + '%' }
+                  }
+                />
+                <LocalizationProvider messages={messagesGenerator}>
+                  <Switch>
+                    <Route
+                      exact
+                      path={toLocaleRoute(URLS.SPEAK)}
+                      component={SpeakPage}
+                    />
+                    <Route
+                      exact
+                      path={toLocaleRoute(URLS.LISTEN)}
+                      component={ListenPage}
+                    />
+                    <Layout />
+                  </Switch>
+                </LocalizationProvider>
+              </div>
             )
           );
         }
