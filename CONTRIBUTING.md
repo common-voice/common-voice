@@ -3,7 +3,7 @@
 🎉 First off, thanks for taking the time to contribute! This project would not be possible without people like you. 🎉
 
 ## Code of Conduct
-By participating in this project, you're agreeing to uphold the [Mozilla Community Participation Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/). If you need to report a problem, please contact [mikey@mozilla.com](mailto:mikey@mozilla.com).
+By participating in this project, you're agreeing to uphold the [Mozilla Community Participation Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/). If you need to report a problem, please see our [REPORTING.md](./REPORTING.md) guide.
 
 ## How Can I Contribute?
 
