@@ -30,6 +30,7 @@ en = Saesneg
 es = Sbaeneg
 et = Estoneg
 fi = Ffinneg
+fo = Ffaroeg
 fr = Ffrangeg
 fy-NL = Ffriseg
 ga-IE = Gwyddeleg
