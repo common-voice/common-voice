@@ -90,6 +90,9 @@ content-license-text = Content available under a <licenseLink>Creative Commons l
 share-title = Help us find others to donate their voice!
 share-text = Help teach machines how real people speak, donate your voice at { $link }
 back-top = Back to Top
+contribution-banner-text = We've just launched a new contribution experience
+contribution-banner-button = Take a look
+report-bugs-link = Help report bugs
 
 ## Home Page
 home-title =

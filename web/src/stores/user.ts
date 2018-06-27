@@ -10,7 +10,7 @@ export const ACCENTS: any = {
     central: 'català central',
     northwestern: 'català nord-occidental',
     northern: 'català septentrional',
-    valencian: 'català valencià'
+    valencian: 'català valencià',
   },
   cy: {
     united_kingdom: 'Y Deyrnas Unedig Cymraeg',

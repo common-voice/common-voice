@@ -1,3 +1,4 @@
+import { Localized } from 'fluent-react';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, withRouter } from 'react-router';
@@ -9,15 +10,17 @@ import { Recordings } from '../../stores/recordings';
 import StateTree from '../../stores/tree';
 import { User } from '../../stores/user';
 import { Locale } from '../../stores/locale';
+import URLS from '../../urls';
 import {
   getItunesURL,
   isNativeIOS,
   isIOS,
   isSafari,
   replacePathLocale,
+  isProduction,
 } from '../../utility';
-import { MenuIcon, RecordIcon, OldPlayIcon } from '../ui/icons';
-import { LabeledSelect } from '../ui/ui';
+import { MenuIcon, RecordIcon, OldPlayIcon, ChevronRight } from '../ui/icons';
+import { LabeledSelect, LinkButton } from '../ui/ui';
 import Content from './content';
 import Footer from './footer';
 import LanguageSelect from './language-select';
@@ -304,6 +307,28 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             </button>
           </div>
         </header>
+        {!isProduction() && (
+          <div className="contribution-banner">
+            <div className="inner">
+              <Localized id="contribution-banner-text">
+                <h1 />
+              </Localized>
+              <Localized id="contribution-banner-button">
+                <LinkButton className="open" rounded to={URLS.SPEAK} />
+              </Localized>
+            </div>
+
+            <a
+              className="bugs-link"
+              href="https://github.com/mozilla/voice-web/issues/new"
+              target="_blank">
+              <Localized id="report-bugs-link">
+                <span />
+              </Localized>
+              <ChevronRight />
+            </a>
+          </div>
+        )}
         <div
           id="scroller"
           ref={div => {
