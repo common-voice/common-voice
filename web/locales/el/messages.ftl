@@ -20,6 +20,7 @@ az = Αζερικά
 bn = Μπενγκάλι
 br = Βρετονικά
 ca = Καταλανικά
+cnh = Hakha Chin
 cs = Τσέχικα
 cv = Chuvash
 cy = Ουαλικά
@@ -49,6 +50,7 @@ kpv = Komi-Zyrian
 kw = Κορνουαλικά
 ky = Κιργιζικά
 mk = Σλαβομακεδονικά
+myv = Erzya
 nb-NO = Νορβηγικά (Bokmål)
 ne-NP = Νεπαλικά
 nl = Ολλανδικά
@@ -296,6 +298,7 @@ request-language-success-content = Θα σας ενημερώσουμε πώς �
 ## Languages Overview
 
 language-section-in-progress = Σε εξέλιξη
+language-section-in-progress-description = Οι γλώσσες υπό κατασκευή δημιουργούνται με τη συνεισφορά των κοινοτήτων μας. Η πρόοδός τους αντανακλά την πορεία της μετάφρασης της ιστοσελίδας και της συλλογής προτάσεων. 
 language-section-launched = Εκκινήθηκε
 languages-show-more = Δείτε περισσότερα
 languages-show-less = Λιγότερα
@@ -331,6 +334,7 @@ record-again-instruction = Υπέροχα! <recordIcon></recordIcon> Ηχογρ�
 record-again-instruction2 = Συνεχίστε, ηχογραφήστε ξανά <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Τελευταίο!
 unable-speak = Δεν μπορείτε να μιλήσετε τώρα;
+record-submit-tooltip = Υποβολή όταν είστε έτοιμοι
 clips-submitted =
     { $count ->
         [one] Έγινε υποβολή { $count } κλιπ
@@ -341,6 +345,7 @@ record-abort-text = Αν αποχωρήσετε τώρα, θα χάσετε τη
 record-abort-submit = Υποβολή κλιπ
 record-abort-continue = Λήξη ηχογράφησης
 record-abort-delete = Έξοδος & διαγραφή κλιπ
+listen-instruction = Εκφώνησαν σωστά την πρόταση;
 listen-again-instruction = Εξαιρετική δουλειά! <playIcon></playIcon> Ακούστε ξανά όταν είστε έτοιμος
 listen-3rd-time-instruction = Έφυγαν 2, συνεχίστε! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Τελευταίο!
