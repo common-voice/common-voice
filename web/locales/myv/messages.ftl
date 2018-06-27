@@ -154,14 +154,32 @@ license-mixed = Човор
 
 record-retry = Варчамс одов
 record-no-mic-found = А муеви микрофон.
+terms-agree = Ве мельс пран
+terms-disagree = Ве мельс а пран
+review-aborted = Материалонь тонгомась лоткавтозь. Ули мелеть нардамс эсеть лентас сёрмадовкстнэнь?
+review-submit-title = Одов кунсоломс & Совавтомс
+review-submit-msg = Сюкпря лентас сёрмадовкстнэнь кисэ!<lineBreak></lineBreak>Ней, одов кунсолытя ды совавтытя эсеть клипстнэнь ало.
+review-recording = Лентас сёрмадовксонь кунсолома
+review-rerecord = Сёрмадомс одов
+review-cancel = Нардамс мезе совавтыть
+review-keep-recordings = Ванстомс лентас сёрмадовкстнэнь
+review-delete-recordings = Нардамс мезе лентас сёрмадынь
 
 ## Download Modal
 
+download-form-email =
+    .label = Совавтык э-сёрмапаргот
+    .value = Сюкпря, сёрмадтано тенть.
+download-back = Велявтомс «Common Voice» датапурнавкстнэс
+download-no = А эряви
 
 ## Contact Modal
 
+contact-title = Контактонь анкета
 contact-form-name =
     .label = Лем
+contact-form-message =
+    .label = Пачтямне
 contact-required = *эряви
 
 ## Request Language Modal
@@ -169,6 +187,7 @@ contact-required = *эряви
 request-language-title = Келень вешема
 request-language-form-language =
     .label = Кель
+request-language-success-title = Келень вешемат совавтовсь, сюконятано.
 
 ## Languages Overview
 
@@ -185,6 +204,18 @@ language-search-input =
 listen = Кунсоломс
 skip = Ютамс вакска
 shortcuts = Керязь кить
+clips = Клипст
+record-cta = Ушодомс сёрмадоманть
 record-three-more-instruction = Лиядсть колмо! 
 record-last-instruction = Меельце!
+record-submit-tooltip = { $actionType } совавтомс зярдо анокат
+clips-submitted =
+    { $count ->
+        [one] Клипс совавтозь
+       *[other] Клипст совавтозь
+    }
+record-abort-title = Васня сёрмадоманть прядомс?
+record-abort-submit = Совавтомс клипст
+record-abort-continue = Прядомс лентас сёрмадоманть
+record-abort-delete = Лисемс & Нардамс клипстнэнь
 share-title-new = <bold>Лездак миненек</bold> муемс лия вайгельть
