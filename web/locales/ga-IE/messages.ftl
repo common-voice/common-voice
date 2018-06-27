@@ -30,6 +30,7 @@ en = Béarla
 es = Spáinnis
 et = Eastóinis
 fi = Fionlainnis
+fo = Faróis
 fr = Fraincis
 fy-NL = Freaslannais
 ga-IE = Gaeilge
