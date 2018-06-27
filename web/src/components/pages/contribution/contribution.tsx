@@ -304,7 +304,7 @@ class ContributionPage extends React.Component<Props, State> {
                         style={{
                           transform: [
                             `scale(${isActive ? 1 : 0.9})`,
-                            `translateX(${(i - activeSentenceIndex) * -120}%)`,
+                            `translateX(${(i - activeSentenceIndex) * -130}%)`,
                           ].join(' '),
                           opacity: i < activeSentenceIndex ? 0 : 1,
                         }}>

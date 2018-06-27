@@ -115,11 +115,11 @@
                 padding-bottom: 6px;
 
                 @media (--md-up) {
-                    padding-bottom: 14px;
+                    padding-bottom: 12px;
                 }
 
                 &:first-child {
-                    margin-right: 25px;
+                    margin-right: 40px;
                 }
 
                 &.active {
@@ -181,6 +181,7 @@
         justify-content: center;
         align-items: center;
         font-style: italic;
+        color: var(--near-black);
 
         @media (--md-up) {
             margin-top: 4vh;
@@ -285,7 +286,7 @@
             &.inactive {
                 pointer-events: none;
                 opacity: 0.5;
-                filter: blur(5px);
+                filter: blur(6px);
             }
         }
     }
