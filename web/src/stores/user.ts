@@ -5,6 +5,13 @@ import { generateGUID } from '../utility';
 import StateTree from './tree';
 
 export const ACCENTS: any = {
+  ca: {
+    balearic: 'català balear',
+    central: 'català central',
+    northwestern: 'català nord-occidental',
+    northern: 'català septentrional',
+    valencian: 'català valencià'
+  },
   cy: {
     united_kingdom: 'Y Deyrnas Unedig Cymraeg',
   },
