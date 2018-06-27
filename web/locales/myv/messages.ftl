@@ -116,6 +116,8 @@ profile-form-language =
     .label = Кель
 profile-form-age =
     .label = Иеть
+profile-form-gender =
+    .label = Сыме
 profile-form-submit-save = Ванстомс
 profile-form-submit-saved = Ванстозь
 profile-keep-data = Ванстомс дата
@@ -132,6 +134,7 @@ profile-close = Пекстамс
 
 ## FAQ
 
+faq-title = Сеедьстэ максозь кевкстемат
 faq-what-q = "Common Voice" те мезе истямось?
 faq-important-q = Те мезекс эряви?
 
@@ -145,15 +148,23 @@ notfound-title = А муеви
 
 ## Data
 
+data-download-button = Таргамс «Common Voice» дата
 data-download-yes = Истя
 data-download-deny = Арась
 data-other-download = Таргамс Датанть
+data-other-ted-name = «TED-LIUM» Корпус
+data-bundle-button = Таргамс датапурнавкс керьмаз
 license-mixed = Човор
 
 ## Record Page
 
+record-platform-not-supported-desktop = Столь лангсо содымашинатнес маштови таргамс меельце:
+record-must-allow-microphone = Эряви максомс микрофононтень нолдавомань видечить.
 record-retry = Варчамс одов
 record-no-mic-found = А муеви микрофон.
+record-error-too-short = Лентас те сёрмадовксонть кувалмозо а саты.
+record-error-too-long = Лентас те сёрмадовксось таргавсь куватьс.
+record-error-too-quiet = Лентас те сёрмадовксонть гайтезэ аламо.
 terms-agree = Ве мельс пран
 terms-disagree = Ве мельс а пран
 review-aborted = Материалонь тонгомась лоткавтозь. Ули мелеть нардамс эсеть лентас сёрмадовкстнэнь?
