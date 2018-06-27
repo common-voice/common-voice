@@ -203,6 +203,7 @@ faq-native-a = Haj, chcemy waš hłós na kóždy pad měć! Dźěl cila Common 
 faq-firefox-q = Budźe něhdy přenjesenje rěčenja do teksta přez Common Voice dźěl Firefox?
 faq-firefox-a = Common Voice ma njewobmjezowany potencial a wuslědźamy woprawdźe rěčenske zwjazowanske městna we wjele produktach Mozilla, inkluziwnje Firefox.
 faq-quality-q = Kajka je trěbna kwalita za awdio, zo by so wužiwało?
+faq-quality-a = Chcemy, zo kwalita zynkowych natočenjow zynkowu kwalita wotbłyšćuje, z kotrejž system hłosoweho spóznaća ma w praksy činić. Přetož chcemy  wšelakorosć. To system hłosoweho spóznaća wukmanja, ze wšelakimi situacijemi wobchadźeć - z rěčenjom w pozadku, šumami awtow, šumami fanow - bjez zmylkow. 
 faq-hours-q = Čehodla je 10.000 hodźin cil za zynkowe natočenja?
 faq-hours-a = To je přibližnje ličba hodźin, kotrež su trěbne, zo by produktiwny system rěčenskeho spóžnaća trenowało.
 faq-source-q = Zwotkel žórłowy tekst přińdźe?
@@ -212,6 +213,7 @@ faq-source-a2 = Móžeće sej naše žórłowe sady w <dataLink>tutym rjadowaku 
 ## Profile
 
 profile-why-title = Čehodla profil?
+profile-why-content = Zdźělće někotre informacije wo sebi, zo bychu awdiodaty, kotrež na Common Voice sćeleće, su wužitniše za systemy hłosoweho spóznaća, kotrež tute daty wužiwaja, zo bychu swoju dokładnosć polěpšili.
 
 ## NotFound
 
