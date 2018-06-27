@@ -9,5 +9,5 @@ For more details please see the
 * Be nice to each other
 * Remember that we are all humans, and we are all on the same team
 * Self-care is of utmost importance (take breaks, eat food, plenty of sleep)
-* "Please" and "Thank you" are always nice ways to communicate
+* "Please" and "Thank you" are always nice ways to facilitate communication
 * Have fun
