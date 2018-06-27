@@ -88,6 +88,7 @@ terms-disagree = Сөбүлэспэппин
 
 ## Request Language Modal
 
+request-language-title = Тыл ирдэбилэ
 request-language-form-language =
     .label = Тыл
 
