@@ -111,6 +111,7 @@ help-us-explain = 按下播放按鈕，聽一聽，然後回覆：佢哋正確�
 no-clips-to-validate = 睇嚟而家無任何錄音可聽。請幫我哋錄下一些聲音。
 vote-yes = Yes
 vote-no = No
+toggle-play-tooltip = 按下 { shortcut-play-toggle } 即可切換播放模式
 
 ## Speak & Listen Shortcuts
 
