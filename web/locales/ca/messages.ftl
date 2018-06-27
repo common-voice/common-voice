@@ -114,7 +114,7 @@ shortcut-skip = o
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-play-toggle = p
+shortcut-play-toggle = r
 shortcut-play-toggle-label = Reprodueix/atura
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
@@ -127,7 +127,7 @@ shortcut-vote-no = n
 
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-record-toggle = r
+shortcut-record-toggle = e
 shortcut-record-toggle-label = Enregistra/atura
 request-language-text = No trobeu la vostra llengua al Common Voice?
 request-language-button = Sol·licita una llengua
@@ -171,7 +171,7 @@ other = Altre
 why-profile-title = Per què un perfil?
 why-profile-text = Si proporcioneu informació vostra, les dades d'àudio que envieu al Common Voice seran més útils per als motors de reconeixement de la veu que utilitzen aquestes dades per millorar la seva precisió.
 edit-profile = Edita el perfil
-profile-create = Creeu un perfil
+profile-create = Crea un perfil
 profile-create-success = Fet. S'ha creat el perfil!
 profile-close = Tanca
 profile-clear-modal = Si esborreu les vostres dades del perfil, es deixarà d'enviar aquesta informació demogràfica al Common Voice amb els vostres enregistraments.
@@ -290,8 +290,8 @@ request-language-success-content = Aviat ens posarem en contacte amb més inform
 
 language-section-in-progress = En curs
 language-section-in-progress-description = Les llengües en curs s'estan preparant per rebre contribucions de la comunitat. El seu progrés reflecteix l'estat en què es troben pel que fa a la traducció del lloc web i a la recol·lecció de frases.
-language-section-launched = Publicades
-language-section-launched-description = Les llengües publicades tenen el lloc web totalment traduït i s'han recollit frases suficients per permetre les col·laboracions (<italic>{ speak }</italic> i <italic>{ listen }</italic>).
+language-section-launched = En producció
+language-section-launched-description = Les llengües en producció tenen el lloc web totalment traduït i s'han recollit frases suficients per permetre les col·laboracions (<italic>{ speak }</italic> i <italic>{ listen }</italic>).
 languages-show-more = Mostra'n més
 languages-show-less = Mostra'n menys
 language-speakers = Parlants
