@@ -80,6 +80,8 @@ zh-TW = 中文 (臺灣)
 
 ## Layout
 
+speak = 說話
+speak-now = 現在開始說話
 datasets = 數據集
 languages = 所有語言
 profile = 個人帳戶
@@ -94,6 +96,7 @@ back-top = 回到頁頂
 ## Home Page
 
 home-title = Common Voice 係想畀機器學識真人說話方式的 Mozilla 計劃。
+home-cta = 在此貢獻您的聲音！
 wall-of-text-start = 語音係自然、有人性的。所以我們非常希望為電腦建立可用的語音技術。但建立語音系統需要有非常大量的語音數據。
 wall-of-text-more-mobile = 大部分現成的數據由大公司擁有，並未開放給公眾使用。我哋覺得咁樣會阻礙創新，所以創立了讓每個人都可以自由來建立語音識別的 Common Voice 計劃。
 wall-of-text-more-desktop =
@@ -103,6 +106,8 @@ show-wall-of-text = 瞭解更多
 help-us-title = 請幫我哋驗證句子！
 help-us-explain = 按下播放按鈕，聽一聽，然後回覆：佢哋正確地讀出以下的句子嗎？
 no-clips-to-validate = 睇嚟而家無任何錄音可聽。請幫我哋錄下一些聲音。
+vote-yes = Yes
+vote-no = No
 
 ## Speak & Listen Shortcuts
 
@@ -182,13 +187,17 @@ data-download-modal = 您將會下載 <size>{ $size } GB</size> 的檔案，要�
 data-subtitle = 我們正在打造一套開放、可公開使用的語音數據集，讓每個人都可用來訓練有語音功能的應用程式。
 data-other-title = 其他語音數據集…
 data-other-download = 下載數據
+data-bundle-button = 下載數據組合
+license-mixed = 混合
 
 ## Record Page
 
 record-platform-not-supported = 對不起，你的平台暫時不被支援。
 record-platform-not-supported-desktop = 在桌面電腦上，您可以下載最新的：
 record-platform-not-supported-ios = <bold>iOS</bold> 用戶可以下載我們免費的應用程式：
+record-must-allow-microphone = 你必需允許我們存取你的咪高峰。
 record-retry = 重新嘗試
+record-no-mic-found = 我們找不到你的咪高峰。
 record-error-too-short = 這個錄音太短了。
 record-error-too-long = 這個錄音太長了。
 record-error-too-quiet = 這個錄音太靜了。
@@ -196,21 +205,45 @@ record-submit-success = 成功提交了！想再錄更多嗎？
 record-cancel = 取消重新錄音
 terms-agree = 我同意
 terms-disagree = 我不同意
+review-aborted = 上載中斷了，你想刪除你的錄音嗎？
+review-submit-title = 檢閱和提交
+review-submit-msg = 多謝你的錄音！<lineBreak></lineBreak>請在下面檢閱和提交你的錄音。
+review-rerecord = 重新錄音
 review-cancel = 取消提交
 review-delete-recordings = 刪除我的錄音
 
 ## Download Modal
 
+download-back = 返回 Common Voice 數據集
 
 ## Contact Modal
 
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = 語言
 
 ## Languages Overview
 
+language-meter-in-progress = 進度
+language-total-progress = 總計
+language-search-input =
+    .placeholder = 搜尋
 
 ## New Contribution
 
+action-click = 點擊
+action-tap = 點選
+contribute = 參與貢獻
+listen = 聆聽
+skip = 略過
+shortcuts = 捷徑
+goal-type-validation = 驗證
+record-cta = 開始錄音
+record-three-more-instruction = 仲有三個！
+record-abort-submit = 提交錄音
+record-abort-continue = 完成錄音
+record-abort-delete = 結束並刪除錄音
+listen-instruction = { $actionType }<playIcon></playIcon> 佢哋將句子讀得準確嗎？
 listen-last-time-instruction = <playIcon></playIcon> 最後一個！
