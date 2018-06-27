@@ -95,7 +95,7 @@ cookies = Galetes
 faq = PMF
 content-license-text = Contingut disponible en els termes de la <licenseLink>llicència Creative Commons</licenseLink>
 share-title = Ajudeu-nos a trobar altres persones que donin la veu!
-share-text = Ajudeu a ensenyar a les màquines com parla la gent real. Doneu la vostra veu a { $link }
+share-text = Ajudeu a ensenyar a les màquines com parla la gent de debò. Col·laboreu amb la vostra veu a { $link }
 back-top = Torna a dalt
 
 ## Home Page
@@ -104,7 +104,7 @@ home-title = El projecte Common Voice és la iniciativa de Mozilla que ajuda a l
 home-cta = Alceu la veu i col·laboreu-hi!
 wall-of-text-start = La veu és natural, la veu és humana. És per això que volem crear tecnologies de veu de qualitat per a les màquines. Però el desenvolupament d'aquests sistemes requereix un gran volum de dades de veu.
 wall-of-text-more-mobile = La majoria de les dades usades per grans companyies no estan disponibles per a tothom. Considerem que això frena la innovació. Per això, hem iniciat el projecte Common Voice, per tal de fer que la tecnologia de reconeixement de la veu estigui oberta a tothom.
-wall-of-text-more-desktop = Ara podeu donar la vostra veu per a ajudar-nos a construir una base de dades de veu amb llicència oberta que qualsevol pot usar per a desenvolupar aplicacions innovadores per als aparells i el web.<lineBreak></lineBreak>Llegiu una frase per a ajudar les màquines a aprendre com parlen les persones reals. Reviseu la feina d'altres col·laboradors per a millorar la qualitat. Així de fàcil!
+wall-of-text-more-desktop = Ara podeu donar la vostra veu per a ajudar-nos a construir una base de dades de veu amb llicència oberta que qualsevol pot usar per a desenvolupar aplicacions innovadores per als aparells i el web.<lineBreak></lineBreak>Llegiu una frase per a ajudar les màquines a aprendre com parlem les persones de debò. Reviseu la feina d'altres col·laboradors per a millorar la qualitat. Així de fàcil!
 show-wall-of-text = Més informació
 help-us-title = Ajudeu-nos a validar frases!
 help-us-explain = Premeu el botó de reproducció, escolteu i digueu-nos si l'àudio correspon exactament a la frase de sota:
@@ -317,10 +317,10 @@ listen = Escolta
 skip = Omet
 shortcuts = Dreceres
 clips = talls
-goal-type-record = enregistrament
-goal-type-validation = validació
+goal-type-record = d'enregistrament
+goal-type-validation = de validació
 toward-goal = Manca un <goalPercentage></goalPercentage> per arribar a l'objectiu { $goalType } d'avui del Common Voice
-goal-help = Heu ajudat al Common Voice a aconseguir el <goalPercentage></goalPercentage> de l'objectiu diari de { $goalType }!
+goal-help = Heu ajudat al Common Voice a aconseguir el <goalPercentage></goalPercentage> de l'objectiu diari { $goalType }!
 contribute-more =
     { $count ->
         [one] Preparat per fer-ne { $count } més?
@@ -333,22 +333,22 @@ record-three-more-instruction = Només en falten tres!
 record-again-instruction = Molt bé! <recordIcon></recordIcon> Enregistreu un altre tall
 record-again-instruction2 = Seguiu així! Enregistreu-ne un altre <recordIcon></recordIcon>
 record-last-instruction = <checkIcon></checkIcon> L'últim!
-review-tooltip = Reviseu i torneu a enregistrar talls des d'aquí, allà on sigueu
+review-tooltip = Reviseu i torneu a enregistrar talls des d'aquí mateix
 unable-speak = No podeu parlar, ara?
 review-instruction = Reviseu els talls i, si cal, torneu-los a enregistrar
 record-submit-tooltip = { $actionType } Envia quan hàgiu enllestit
 clips-submitted =
     { $count ->
-        [one] S'ha enviat { $count } enregistrament!
-       *[other] S'han enviat { $count } enregistraments!
+        [one] { $count } enregistrament enviat!
+       *[other] { $count } enregistraments enviats!
     }
 record-abort-title = Voleu acabar l'enregistrament primer?
 record-abort-text = Si sortiu ara, perdreu el vostre progrés
 record-abort-submit = Envia els talls
 record-abort-continue = Finalitza l'enregistrament
 record-abort-delete = Surt i suprimeix els talls
-listen-instruction = { $actionType } <playIcon></playIcon> Han pronunciat correctament la frase?
+listen-instruction = { $actionType } <playIcon></playIcon> Han pronunciat la frase correctament?
 listen-again-instruction = Bona feina! <playIcon></playIcon> Escolteu una altra vegada quan estigueu a punt
 listen-3rd-time-instruction = 2 menys! Mantingueu el ritme! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> L'últim!
-share-title-new = <bold>Ajudeu-nos</bold>a trobar més veus
+share-title-new = <bold>Ajudeu-nos</bold> a trobar més veus
