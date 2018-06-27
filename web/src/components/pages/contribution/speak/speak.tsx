@@ -290,6 +290,7 @@ class SpeakPage extends React.Component<Props, State> {
             ? { recording: null, sentence: sentences.slice(SET_COUNT)[0] }
             : clip
       ),
+      error: null,
     });
     await api.skipSentence(id);
   };
