@@ -20,6 +20,7 @@ az = àzeri
 bn = bengalí
 br = bretó
 ca = català
+cnh = Hakha Chin
 cs = txec
 cv = txuvaix
 cy = gal·lès
@@ -99,8 +100,8 @@ back-top = Torna a dalt
 
 ## Home Page
 
-home-title = El projecte Common Voice és una iniciativa de Mozilla que ajuda a les màquines a aprendre com parlen les persones reals.
-home-cta = Alceu la veu! Contribuïu-hi!
+home-title = El projecte Common Voice és la iniciativa de Mozilla que ajuda a les màquines a aprendre com parlem les persones de carn i ossos.
+home-cta = Alceu la veu! Col·laboreu-hi!
 wall-of-text-start = La veu és natural, la veu és humana. És per això que volem crear tecnologies de veu de qualitat per a les màquines. Però el desenvolupament d'aquests sistemes requereix un gran volum de dades de veu.
 wall-of-text-more-mobile = La majoria de les dades usades per grans companyies no estan disponibles per a tothom. Considerem que això frena la innovació. Per això, hem iniciat el projecte Common Voice, per tal de fer que la tecnologia de reconeixement de la veu estigui oberta a tothom.
 wall-of-text-more-desktop = Ara podeu donar la vostra veu per a ajudar-nos a construir una base de dades de veu amb llicència oberta que qualsevol pot usar per a desenvolupar aplicacions innovadores per als aparells i el web.<lineBreak></lineBreak>Llegiu una frase per a ajudar les màquines a aprendre com parlen les persones reals. Reviseu la feina d'altres col·laboradors per a millorar la qualitat. Així de fàcil!
