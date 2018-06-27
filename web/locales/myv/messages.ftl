@@ -80,12 +80,14 @@ speak-now = Кортамс ней
 languages = Кельть
 profile = Профиль
 help = Лезкс
+contact = Контакт
 terms = Терминт
 cookies = Нумолонь кшить
 back-top = Верьксэс мекев
 
 ## Home Page
 
+home-cta = Кортак седе, лездак тесэ!
 show-wall-of-text = Ловномс седе тов
 vote-yes = Истя
 vote-no = Арась
