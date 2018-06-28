@@ -227,11 +227,14 @@ data-download-deny = Ne
 data-download-license = Licenca: <licenseLink>CC-0</licenseLink>
 data-download-modal = Začel se bo prenos datoteke, velike <size>{ $size } GB</size>, nadaljujemo?
 data-get-started = <speechBlogLink>Začnite s prepoznavo govora</speechBlogLink>
+data-other-title = Drugi govorni nabori podatkov ...
 data-other-goto = Pojdi na { $name }
 data-other-download = Prenesi podatke
+data-other-librispeech-description = LibriSpeech je korpus, sestavljen iz približno 1000 ur branih angleških besedil (pri 16 kHz), pridobljen iz zvočnih knjig projekta LibriVox.
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = TED-LIUM je korpus, ki ga sestavljajo zvočni posnetki predstavitev in njihovi prepisi, dostopni na spletni strani TED.com.
 data-other-tatoeba-description = Tatoeba je velika baza stavkov, prevodov in govorjenih glasovnih datotek za uporabo pri učenju jezikov. Tukaj lahko prenesete pogovorno angleščino, posneto v njihovi skupnosti.
+data-bundle-button = Prenesi nabor podatkov
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mešano
 
