@@ -1,5 +1,7 @@
 ## General
 
+return-to-cv = Бӧр Common Voice вылӧ
+submit-form-action = Ысты
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -21,19 +23,25 @@ el = Грек кыв
 en = Англи кыв
 es = Испан кыв
 et = Эст кыв
+fi = Суоми кыв
 fr = Франсуз кыв
 fy-NL = Фриз кыв
 ga-IE = Ирландса кыв
 he = Иврит кыв
 hu = Маддяр кыв
 id = Индонезия кыв
+is = Исландса кыв
 it = Итальян кыв
+ja = Япон кыв
 ka = Грузин кыв
 kab = Кабил кыв
 kk = Казах кыв
 ko = Корея кыв
+kpv = Коми кыв
 kw = Керновса кыв
+ky = Кыргыз кыв
 mk = Македон кыв
+myv = Эрзя кыв
 nb-NO = Норвег кыв (букмол)
 ne-NP = Непал кыв
 nl = Нидерланд кыв
@@ -67,7 +75,9 @@ zh-TW = Китай кыв (Тайвань)
 speak = Сёрнит
 speak-now = Сёрнит ӧні
 languages = Кывъяс
+profile = Профиль
 help = Отсӧг
+contribution-banner-button = Видзӧдышт
 
 ## Home Page
 
@@ -83,6 +93,8 @@ vote-no = Абу
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = Гиж/помась
+request-language-text = Он на аддзыв ас кывтӧ Common Voice вылын?
 
 ## ProjectStatus
 
