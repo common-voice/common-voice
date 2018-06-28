@@ -97,6 +97,9 @@ content-license-text = Contingut disponible en els termes de la <licenseLink>lli
 share-title = Ajudeu-nos a trobar altres persones que donin la veu!
 share-text = Ajudeu a ensenyar a les màquines com parla la gent de debò. Col·laboreu amb la vostra veu a { $link }
 back-top = Torna a dalt
+contribution-banner-text = Hem millorat el disseny de la interfície de col·laboració
+contribution-banner-button = Prova-la
+report-bugs-link = Ajudeu a notificar errors
 
 ## Home Page
 
@@ -317,10 +320,10 @@ listen = Escolta
 skip = Omet
 shortcuts = Dreceres
 clips = talls
-goal-type-record = d'enregistrament
-goal-type-validation = de validació
+goal-type-record = d'enregistraments
+goal-type-validation = de validacions
+# $goalType will either be the string goal-type-record or goal-type-validation
 toward-goal = Manca un <goalPercentage></goalPercentage> per arribar a l'objectiu { $goalType } d'avui del Common Voice
-goal-help = Heu ajudat al Common Voice a aconseguir el <goalPercentage></goalPercentage> de l'objectiu diari { $goalType }!
 contribute-more =
     { $count ->
         [one] Preparat per fer-ne { $count } més?
