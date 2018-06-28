@@ -97,6 +97,9 @@ content-license-text = Вміст доступний на умовах ліце�
 share-title = Допоможіть нам знайти інших бажаючих записати свій голос!
 share-text = Допоможіть навчити машини розуміти мову людей. Запишіть свій голос тут { $link }
 back-top = Нагору
+contribution-banner-text = Ми щойно запустили нові можливості для помічників
+contribution-banner-button = Погляньте
+report-bugs-link = Допоможіть звітувати про помилки
 
 ## Home Page
 
@@ -330,8 +333,10 @@ shortcuts = Ярлики
 clips = Кліпи
 goal-type-record = запис
 goal-type-validation = перевірка
+# $goalType will either be the string goal-type-record or goal-type-validation
 toward-goal = Залишилося <goalPercentage></goalPercentage> до сьогоднішньої цілі { $goalType } Common Voice. Дякуємо
-goal-help = Ви допомогли проекту Common Voice досягти <goalPercentage></goalPercentage> денної цілі { $goalType }!
+# $goalType will either be the string goal-type-record or goal-type-validation
+goal-help-specific = Ви допомогли проекту Common Voice досягти <goalPercentage></goalPercentage> нашої щоденної цілі { $goalValue } { $goalType }!
 contribute-more = Готові зробити ще { $count }?
 record-cta = Почати запис
 record-instruction = { $actionType }<recordIcon></recordIcon>, потім прочитайте речення вголос
