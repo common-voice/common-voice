@@ -97,6 +97,8 @@ content-license-text = Vsebina je na voljo pod <licenseLink>licenco Creative Com
 share-title = Pomagajte nam poiskati druge, ki bi prispevali svoj glas!
 share-text = Pomagaj stroje naučiti, kako govorijo resnični ljudje. Prispevaj svoj glas na { $link }
 back-top = Nazaj na vrh
+contribution-banner-text = Pravkar smo omogočili novo izkušnjo sodelovanja
+contribution-banner-button = Razglejte se
 report-bugs-link = Pomagajte prijaviti hrošče
 
 ## Home Page
@@ -188,6 +190,7 @@ profile-create = Ustvari profil
 profile-create-success = Uspelo je, profil je ustvarjen!
 profile-close = Zapri
 profile-clear-modal = Izbris vaših profilnih podatkov pomeni, da vaši demografski podatki ne bodo dostopni ob vaših posnetkih v projektu Common Voice. 
+profile-explanation = Sledite svojemu napredku s pomočjo profila in nam pomagajte narediti naše zvočne podatke natančnejše.
 
 ## FAQ
 
@@ -235,6 +238,7 @@ data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = TED-LIUM je korpus, ki ga sestavljajo zvočni posnetki predstavitev in njihovi prepisi, dostopni na spletni strani TED.com.
 data-other-tatoeba-description = Tatoeba je velika baza stavkov, prevodov in govorjenih glasovnih datotek za uporabo pri učenju jezikov. Tukaj lahko prenesete pogovorno angleščino, posneto v njihovi skupnosti.
 data-bundle-button = Prenesi nabor podatkov
+data-bundle-description = Podatki Common Voice in vsi zgornji govorni nabori podatkov.
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mešano
 
@@ -267,6 +271,7 @@ review-delete-recordings = Izbriši moje posnetke
 ## Download Modal
 
 download-title = Vaš prenos se je pričel.
+download-helpus = Pomagajte nam zgraditi skupnost okoli govorne tehnologije. Ostanimo v stiku preko e-pošte. 
 download-form-email =
     .label = Vpišite svoj e-poštni naslov
     .value = Hvala, ostali bomo v stiku. 
@@ -313,7 +318,6 @@ shortcuts = Bližnjice
 clips = Posnetki
 goal-type-record = snemanje
 goal-type-validation = preverjanje
-goal-help = Projektu Common Voice ste pomagali doseči <goalPercentage></goalPercentage> od skupnega { $goalType } dnevnega cilja.
 contribute-more =
     { $count ->
         [one] Ste pripravljeni narediti še enega?
@@ -323,10 +327,15 @@ contribute-more =
     }
 record-cta = Začni snemati
 record-instruction = { $actionType } <recordIcon></recordIcon> in nato naglas preberite stavek
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> ob zaključku
 record-three-more-instruction = Še tri!
 record-again-instruction = Odlično! <recordIcon></recordIcon> Posnemite naslednji posnetek
 record-again-instruction2 = Odlično napredujete, začnite ponovno snemati <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Zadnji!
+review-tooltip = Tukaj lahko pregledate posnetke in jih ponovno posnamete.
+unable-speak = Ali trenutno ne morete govoriti?
+review-instruction = Če je potrebno, lahko posnetke pregledate in ponovno posnamete
+record-submit-tooltip = { $actionType } objavite, ko ste pripravljeni
 clips-submitted =
     { $count ->
         [one] { $count } posnetek poslan
@@ -335,10 +344,12 @@ clips-submitted =
        *[other] { $count } posnetkov poslanih
     }
 record-abort-title = Želite najprej končati s snemanjem?
+record-abort-text = Ob izhodu boste izgubili vaš napredek.
 record-abort-submit = Pošlji posnetke
 record-abort-continue = Končaj snemanje
 record-abort-delete = Izhod in brisanje posnetkov
 listen-instruction = { $actionType } <playIcon></playIcon> ali je bil stavek pravilno izgovorjen?
+listen-again-instruction = Odlično opravljeno!<playIcon></playIcon> Poslušajte znova, ko boste pripravljeni.
 listen-3rd-time-instruction = Samo še 2, kar tako naprej! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Še zadnji!
 share-title-new = <bold>Pomagajte nam</bold> najti več glasov
