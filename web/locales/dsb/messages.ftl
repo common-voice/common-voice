@@ -41,12 +41,60 @@ hu = Hungoršćina
 id = Indonešćina
 is = Islandšćina
 it = Italšćina
+ja = Japańšćina
+ka = Georgišćina
+kab = Kabylšćina
+kk = Kazachšćina
+ko = Korejańšćina
+kpv = Komi-syrjeńšćina
+kw = Kornišćina
+ky = Kirgišćina
+mk = Makedońšćina
+myv = Erzya
+nb-NO = Norwegski Bokmål
+ne-NP = Nepalšćina
+nl = Nižozemšćina
+nn-NO = Norwegski Nynorsk
+or = Odiašćina
+pl = Pólšćina
+pt-BR = Portugišćina (Brazilska)
+ro = Rumunšćina
+ru = Rušćina
+sah = Sachašćina
+sk = Słowakšćina
+sl = Słowjeńšćina
+sq = Albanšćina
+sr = Serbišćina
+sv-SE = Šwedšćina
+ta = Tamilšćina
+te = Telugušćina
+th = Thailandšćina
+tr = Turkojšćina
+tt = Tataršćina
+uk = Ukrainšćina
+uz = Uzbekišćina
+zh-CN = Chinšćina (China)
+zh-HK = Chinšćina (Hong Kong)
+zh-TW = Chinšćina (Taiwan)
 
 # [/]
 
 
 ## Layout
 
+speak = Powědaś
+speak-now = Powědajśo něnto
+datasets = Datowe sajźby
+languages = Rěcy
+profile = Profil
+help = Pomoc
+contact = Kontakt
+privacy = Priwatnosć
+terms = Wuměnjenja
+cookies = Cookieje
+faq = CEP
+content-license-text = Wopśimjeśe jo k dispoziciji pód <licenseLink>licencu Creative Commons</licenseLink>
+share-title = Pomagajśo nam, dalšne namakaś, kótarež swój głos dawaju!
 
 ## Home Page
 
