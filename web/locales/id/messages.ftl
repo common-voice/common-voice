@@ -320,8 +320,10 @@ shortcuts = Pintasan
 clips = Klip
 goal-type-record = merekam
 goal-type-validation = validasi
+# $goalType will either be the string goal-type-record or goal-type-validation
 toward-goal = Sudah mencapai <goalPercentage></goalPercentage> dari capaian { $goalType } Common Voice hari ini. Terima kasih
-goal-help = Anda telah membantu Common Voice mencapai <goalPercentage></goalPercentage> dari capaian harian { $goalType }!
+# $goalType will either be the string goal-type-record or goal-type-validation
+goal-help-specific = Anda telah membantu Common Voice mencapai <goalPercentage></goalPercentage> dari target harian kami { $goalValue }{ $goalType }!
 contribute-more = Siap melanjutkan { $count } sisanya?
 record-cta = Mulai merekam
 record-instruction = { $actionType } <recordIcon></recordIcon> kemudian baca kalimatnya dengan lantang
