@@ -97,6 +97,9 @@ content-license-text = Ynhâld beskikber ûnder in <licenseLink>Creative Commons
 share-title = Help ús oaren te finen om harren stim te donearjen!
 share-text = Help mei masinen te learen hoe't echte minsken prate, donearje jo stim op { $link }
 back-top = Nei boppe
+contribution-banner-text = Wy hawwe krekt in nije ûnderfining foar meiwurkers lansearre
+contribution-banner-button = Sjoch ris rûn
+report-bugs-link = Rapportearje bugs
 
 ## Home Page
 
