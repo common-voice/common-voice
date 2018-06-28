@@ -325,7 +325,7 @@ clips = Κλιπς
 goal-type-record = ηχογράφηση
 goal-type-validation = επαλήθευση
 toward-goal = Φτάσαμε <goalPercentage></goalPercentage> πιο κοντά στο σημερινό στόχο { $goalType } του Common Voice. Ευχαριστούμε
-goal-help = Έχετε βοηθήσει το Common Voice να φτάσει το <goalPercentage></goalPercentage> του ημερήσιου στόχου "{ $goalType }" του!
+goal-help-specific = Έχετε βοηθήσει το Common Voice να φτάσει το <goalPercentage></goalPercentage> του ημερήσιου στόχου { $goalValue }{ $goalType } μας!
 contribute-more =
     { $count ->
         [one] Έτοιμοι να κάνετε { $count } ακόμη;
