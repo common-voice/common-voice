@@ -20,6 +20,7 @@ az = Tazerbiǧanit
 bn = Tabengalit
 br = Tabrutunt
 ca = Takatalant
+cnh = Haxa Cin
 cs = Tačikit
 cv = Tačuvacit
 cy = Tagalit
@@ -49,6 +50,7 @@ kpv = Takumt Zyrian
 kw = Takuṛnikt
 ky = Takirgizt
 mk = Tamasidunit
+myv = Erzya
 nb-NO = Tanuṛvijt Bokmål
 ne-NP = Tanipalit
 nl = Tahulandit
@@ -95,6 +97,9 @@ content-license-text = Agbur yella ddaw n <licenseLink>Creative Commons license<
 share-title = Ɛawen-aɣ i wakken ad d-naf imdanen-nniḍen ara d-yefken taɣect-nsen!
 share-text = Ɛawen timacicin ad ttmeslayent am yimdanen, efk-d taɣect-ik { $link }
 back-top = Uɣal d asawen
+contribution-banner-text = Tura kan i nesker yiwen umahil n uttekki amaynut 
+contribution-banner-button = Walli ugar
+report-bugs-link = Ɛiwen s ucceger n ibugen
 
 ## Home Page
 
