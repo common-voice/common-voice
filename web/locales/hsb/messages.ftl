@@ -97,6 +97,9 @@ content-license-text = Wobsah je k dispoziciji pod <licenseLink>licencu Creative
 share-title = Pomhajće nam, dalšich namakać, kotřiž swój hłós daruja!
 share-text = Pomhajće mašinam wučić, kak ludźo rěča, darće swój hłós an { $link }
 back-top = Wróćo horje
+contribution-banner-text = Smy runje nowu móžnosć za sobudźěło startowali
+contribution-banner-button = Rozhladajće so
+report-bugs-link = Zdźělće programowe zmylki
 
 ## Home Page
 
@@ -321,8 +324,8 @@ shortcuts = Skrótšenki
 clips = Klipy
 goal-type-record = natočenje
 goal-type-validation = přepruwowanje
+# $goalType will either be the string goal-type-record or goal-type-validation
 toward-goal = To je <goalPercentage></goalPercentage> bliše dźensnišemu cilej Common Voice{ $goalType }. Wulki dźak.
-goal-help = Sće Common Voice pomhał, <goalPercentage></goalPercentage> jeho dnjoweho cila { $goalType } docpěć!
 contribute-more =
     { $count ->
         [one] Sće hotowy, hišće { $count } dalše činić?
