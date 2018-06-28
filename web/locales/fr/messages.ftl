@@ -95,6 +95,9 @@ content-license-text = Contenu disponible sous licence <licenseLink>Creative Com
 share-title = Aidez-nous à collecter davantage de voix !
 share-text = Aidez les machines à apprendre à parler comme de vraies personnes en donnant votre voix sur { $link }
 back-top = Haut de la page
+contribution-banner-text = Nous avons ajouté une toute nouvelle façon de contribuer
+contribution-banner-button = L’essayer
+report-bugs-link = Signaler des dysfonctionnements
 
 ## Home Page
 
