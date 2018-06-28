@@ -95,9 +95,19 @@ cookies = Cookieje
 faq = CEP
 content-license-text = Wopśimjeśe jo k dispoziciji pód <licenseLink>licencu Creative Commons</licenseLink>
 share-title = Pomagajśo nam, dalšne namakaś, kótarež swój głos dawaju!
+share-text = Pomagajśo mašinam wucyś, kak luźe powědaju, dajśo swój głos na { $link }
+back-top = Slědk górjej
+contribution-banner-text = Smy rowno startowali nowu móžnosć za sobuźěło
+contribution-banner-button = Rozglědajśo se
+report-bugs-link = Dajśo programowe zmólki k wěsći
 
 ## Home Page
 
+home-title = Projekt Common Voice jo iniciatiwa Mozilla, kótaraž ma pomagaś, mašinam wucyś, kak napšawdne luźe powědaju.
+home-cta = Powědajśo a cyńśo how sobu!
+wall-of-text-start = Głos jp pśirodny, głos je cłowjeski. Togodla smy fasciněrowane, wužytnu głosowu technologiju za naše mašiny napóraś. Ale, za napóranje głosowych systemow jo wjelgin wjelika tšocha głosowych datow trěbne.
+wall-of-text-more-mobile = Nejwěcej datow wužywane wót wjelikich pśedewześow njejo pśitupne za wětšynu luźi. Myslimy, až to inowaciju znjemóžnja. Togodla smy startowali projekt Common Voice, projekt, kótaryž kuždemu spóznawanje głosow pśistupni.
+wall-of-text-more-desktop = Něnto móžośo swój głos daś, aby nam pomagał, datowu banku głosow wótwórjonego žrědła natwariś, kótaruž kuždy móžo wužywaś, aby inowatiwne nałoženja za rědy a web napórak.<lineBreak></lineBreak>Cytajśo sadu, aby mašinam pomagał, wuknuś, kak napšawdne luźe powědaju. Kontrolěrujśo źěło drugich sobustatkujucych, aby kwalitu pólěpšył. Jo tak lažko!
 
 ## Speak & Listen Shortcuts
 
