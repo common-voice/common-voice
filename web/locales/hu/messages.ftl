@@ -97,6 +97,9 @@ content-license-text = A tartalom <licenseLink>Creative Commons licenc</licenseL
 share-title = Segítsen olyanokat találni, akik a hangjukat adják.
 share-text = Segítsen megtanítani a gépeknek, hogyan beszélnek az emberek. Adja a hangját: { $link }
 back-top = Vissza a tetejére
+contribution-banner-text = Elindítottuk az új közreműködési élményt
+contribution-banner-button = Nézze meg
+report-bugs-link = Segítsen a hibák jelentésében
 
 ## Home Page
 
@@ -319,8 +322,8 @@ shortcuts = Gyorsbillentyűk
 clips = Klipek
 goal-type-record = felvétel
 goal-type-validation = érvényesítés
+# $goalType will either be the string goal-type-record or goal-type-validation
 toward-goal = Ez <goalPercentage></goalPercentage> a Common Voice célja felé, amely { $goalType }. Köszönjük
-goal-help = Segítettél a Common Voice-nak elérni a napi { $goalType } céljának <goalPercentage></goalPercentage>-át!
 contribute-more = Készen áll még { $count } felvételre?
 record-cta = Felvétel indítása
 record-instruction = { $actionType } a <recordIcon></recordIcon> ikonra, és olvassa fel hangosan a mondatot
