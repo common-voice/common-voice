@@ -28,14 +28,17 @@ export const CheckIcon = (props: any) => (
 export const ChevronRight = (props: any) => (
   <svg width="24" height="24" viewBox="0 0 24 24">
     <defs>
-      <path id="a" d="M15.7 12.7l-6 6c-.2.2-.4.3-.7.3-.3 0-.5-.1-.7-.3-.4-.4-.4-1 0-1.4l5.3-5.3-5.3-5.3c-.4-.4-.4-1 0-1.4.4-.4 1-.4 1.4 0l6 6c.4.4.4 1 0 1.4z"/>
+      <path
+        id="a"
+        d="M15.7 12.7l-6 6c-.2.2-.4.3-.7.3-.3 0-.5-.1-.7-.3-.4-.4-.4-1 0-1.4l5.3-5.3-5.3-5.3c-.4-.4-.4-1 0-1.4.4-.4 1-.4 1.4 0l6 6c.4.4.4 1 0 1.4z"
+      />
     </defs>
     <g fill="none" fillRule="evenodd">
       <mask id="b" fill="#fff">
-        <use xlinkHref="#a"/>
+        <use xlinkHref="#a" />
       </mask>
       <g fill="#4A4A4A" mask="url(#b)">
-        <path d="M0 0h24v24H0z"/>
+        <path d="M0 0h24v24H0z" />
       </g>
     </g>
   </svg>

@@ -751,6 +751,10 @@ a.small, .small a, .text-button.small {
 
     @media (--sm-down) {
         display: none;
+        position: absolute;
+        top: var(--header-height);
+        flex-direction: column;
+        align-items: flex-end;
     }
 
     & .inner {
@@ -771,8 +775,13 @@ a.small, .small a, .text-button.small {
     & .open {
         margin: 0 30px;
         min-width: 150px;
+        width: auto;
         background-color: transparent;
         border: 1px solid color(var(--white) alpha(50%));
+
+        @media (--sm-down) {
+            margin-right: 0;
+        }
     }
 
     & .bugs-link {
