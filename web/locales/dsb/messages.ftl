@@ -108,21 +108,80 @@ home-cta = Powědajśo a cyńśo how sobu!
 wall-of-text-start = Głos jp pśirodny, głos je cłowjeski. Togodla smy fasciněrowane, wužytnu głosowu technologiju za naše mašiny napóraś. Ale, za napóranje głosowych systemow jo wjelgin wjelika tšocha głosowych datow trěbne.
 wall-of-text-more-mobile = Nejwěcej datow wužywane wót wjelikich pśedewześow njejo pśitupne za wětšynu luźi. Myslimy, až to inowaciju znjemóžnja. Togodla smy startowali projekt Common Voice, projekt, kótaryž kuždemu spóznawanje głosow pśistupni.
 wall-of-text-more-desktop = Něnto móžośo swój głos daś, aby nam pomagał, datowu banku głosow wótwórjonego žrědła natwariś, kótaruž kuždy móžo wužywaś, aby inowatiwne nałoženja za rědy a web napórak.<lineBreak></lineBreak>Cytajśo sadu, aby mašinam pomagał, wuknuś, kak napšawdne luźe powědaju. Kontrolěrujśo źěło drugich sobustatkujucych, aby kwalitu pólěpšył. Jo tak lažko!
+show-wall-of-text = Dalšne informacije
+help-us-title = Pomagajśo nam, sady wobkšuśiś!
+help-us-explain = Tłocćo na Wótgraś, słuchajśo a dajśo nam k wěsći: jo se slědujuca sada korektnje wugroniła?
+no-clips-to-validate = Zda se, ako njeby dali žedne nagraśa, na kótarež móžośo w toś tej rěcy słuchaś. Nagrajśo něnto někotare nowe, aby nam pomagał, cakański rěd połniś.
+vote-yes = Jo
+vote-no = Ně
+toggle-play-tooltip = Tłocćo na { shortcut-play-toggle }, aby wótgrawański modus pśešaltował
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = t
+shortcut-play-toggle-label = Wótgraś/Zastajiś
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = j
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Nagraś/Zastajiś
+request-language-text = Waša rěc hyšći njejo na Common Voice?
+request-language-button = Rěc pominaś
 
 ## ProjectStatus
 
+status-title = Projektowy status dogromady: glejśo, což smy južo dojśpili!
+status-contribute = Pśinosujśo swój głos
+status-hours =
+    { $hours ->
+        [one] Dotychměst { $hours } wobkšuśona góźina!
+        [two] Dotychměstl { $hours } wobkšuśonej góźinje!
+        [few] Dotychměst { $hours } wobkšuśone góźiny!
+       *[other] Dotychměst { $hours } wobkšuśonych góźinow!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Pśiducy cel: { $goal }
+english = Engelšćina
 
 ## ProfileForm
 
+profile-form-cancel = Formular zacyniś
+profile-form-delete = Profil wulašowaś
+profile-form-username =
+    .label = Wužywarske mě
+profile-form-language =
+    .label = Rěc
+profile-form-accent =
+    .label = Akcent
+profile-form-age =
+    .label = Starstwo
+profile-form-gender =
+    .label = Rod
+profile-form-submit-save = Składowaś
+profile-form-submit-saved = Skłaźony
+profile-keep-data = Daty wobchowaś
+profile-delete-data = Daty wulašowaś
+male = Muski
+female = Žeńscyny
+# Gender
+other = Druge
+why-profile-title = Cogodla profil?
 
 ## FAQ
 
@@ -153,3 +212,4 @@ wall-of-text-more-desktop = Něnto móžośo swój głos daś, aby nam pomagał,
 
 ## New Contribution
 
+skip = Pśeskócyś
