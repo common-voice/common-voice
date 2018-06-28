@@ -732,11 +732,12 @@ a.small, .small a, .text-button.small {
     right: 0;
     height: 5px;
     z-index: var(--middle-z-index);
-    background: linear-gradient(270deg, #f89096, #b1b4e5);
+    background: linear-gradient(270deg, #e5868b, #a2a4d1);
     background-size: 400% 400%;
     animation: move-background 2s ease infinite;
     transition: width var(--transition-duration-slow) var(--easing),
-                opacity var(--transition-duration-slow) linear var(--transition-duration-slow);
+                opacity var(--transition-duration-slow) linear var(--transition-duration-slow),
+                background var(--transition-duration) linear;
 }
 
 .contribution-banner {
