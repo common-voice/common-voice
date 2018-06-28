@@ -97,6 +97,9 @@ content-license-text = Inhalte stehen unter einer <licenseLink>Creative-Commons-
 share-title = Überzeugen Sie auch andere, ihre Stimme zu spenden!
 share-text = Zeigt Maschinen, wie echte Menschen sprechen und spendet eure Stimme auf { $link }!
 back-top = Zum Seitenanfang
+contribution-banner-text = Wir haben gerade eine neue Möglichkeit zum Mitmachen gestartet
+contribution-banner-button = Schauen Sie mal vorbei
+report-bugs-link = Melden Sie Fehler
 
 ## Home Page
 
