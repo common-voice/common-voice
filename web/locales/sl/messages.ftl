@@ -50,7 +50,7 @@ kpv = komijščina
 kw = kornijščina
 ky = kirgiščina
 mk = makedonščina
-myv = Erzjanščina
+myv = erzjanščina
 nb-NO = norveščina (bokmål)
 ne-NP = nepalščina
 nl = nizozemščina
@@ -196,6 +196,7 @@ profile-explanation = Sledite svojemu napredku s pomočjo profila in nam pomagaj
 
 faq-title = Pogosta vprašanja
 faq-what-q = Kaj je Common Voice?
+faq-what-a = Tehnologija za prepoznavo govora lahko revolucionizira način, s katerim upravljamo z napravami, toda trenutno dostopni sistemi so dragi in zaprti. Common Voice je projekt, ki bo naredil tehnologijo govorne prepoznave preprosto in dostopno vsem. Ljudje prispevajo svoje zvočne posnetke v ogromno bazo podatkov, ki bo nato omogočala hitro in enostavno učenje govorno podprtih aplikacij. Vsi govorni podatki bodo na voljo razvijalcem.
 faq-important-q = Zakaj je to pomembno?
 faq-important-a = Govor je naraven, govor je človeški. Je najpreprostejša in najbolj naravna oblika komunikacije. Želimo si, da bi razvijalci lahko ustvarjali čudovite stvari, od prevodov v realnem času do administrativnih pomočnikov, ki jih upravljamo z glasom. Trenutno ni na voljo dovolj javno dostopnih podatkov, da bi lahko takšne aplikacije tudi zgradili. Upamo, da bo Common Voice dal razvijalcem to, kar potrebujejo za inoviranje.
 faq-get-q = Kako lahko dobim podatke Common Voice?
@@ -240,7 +241,7 @@ data-other-tatoeba-description = Tatoeba je velika baza stavkov, prevodov in gov
 data-bundle-button = Prenesi nabor podatkov
 data-bundle-description = Podatki Common Voice in vsi zgornji govorni nabori podatkov.
 license = Licenca: <licenseLink>{ $license }</licenseLink>
-license-mixed = Mešano
+license-mixed = Mešana
 
 ## Record Page
 
@@ -344,7 +345,7 @@ clips-submitted =
        *[other] { $count } posnetkov poslanih
     }
 record-abort-title = Želite najprej končati s snemanjem?
-record-abort-text = Ob izhodu boste izgubili vaš napredek.
+record-abort-text = Ob izhodu boste izgubili svoj napredek.
 record-abort-submit = Pošlji posnetke
 record-abort-continue = Končaj snemanje
 record-abort-delete = Izhod in brisanje posnetkov
