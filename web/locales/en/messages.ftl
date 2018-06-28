@@ -316,7 +316,9 @@ shortcuts = Shortcuts
 clips = Clips
 goal-type-record = recording
 goal-type-validation = validation
+# $goalType will either be the string goal-type-record or goal-type-validation
 toward-goal = That's <goalPercentage></goalPercentage> toward today's Common Voice { $goalType } goal. Thank you
+# $goalType will either be the string goal-type-record or goal-type-validation
 goal-help-specific = You've helped Common Voice reach <goalPercentage></goalPercentage> of our daily { $goalValue } { $goalType } goal!
 contribute-more =
     { $count ->
