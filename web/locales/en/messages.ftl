@@ -317,7 +317,7 @@ clips = Clips
 goal-type-record = recording
 goal-type-validation = validation
 toward-goal = That's <goalPercentage></goalPercentage> toward today's Common Voice { $goalType } goal. Thank you
-goal-help = You've helped Common Voice reach <goalPercentage></goalPercentage> of its daily { $goalType } goal!
+goal-help-specific = You've helped Common Voice reach <goalPercentage></goalPercentage> of our daily { $goalValue } { $goalType } goal!
 contribute-more =
     { $count ->
        *[other] Ready to do { $count } more?

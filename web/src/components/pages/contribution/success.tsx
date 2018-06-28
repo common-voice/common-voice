@@ -114,7 +114,7 @@ class Success extends React.Component<Props, State> {
         </div>
 
         <Localized
-          id="goal-help"
+          id="goal-help-specific"
           goalPercentage={
             <GoalPercentage
               current={Math.ceil(
@@ -125,6 +125,7 @@ class Success extends React.Component<Props, State> {
               final={finalPercentage}
             />
           }
+          $goalValue={DAILY_GOAL[type]}
           $goalType={getString(
             'goal-type-' + (type === 'speak' ? 'record' : 'validation')
           )}>
