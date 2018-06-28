@@ -323,7 +323,9 @@ clips = talls
 goal-type-record = d'enregistraments
 goal-type-validation = de validacions
 # $goalType will either be the string goal-type-record or goal-type-validation
-toward-goal = Manca un <goalPercentage></goalPercentage> per arribar a l'objectiu { $goalType } d'avui del Common Voice
+toward-goal = Això és un <goalPercentage></goalPercentage> de l'objectiu { $goalType } diari del Common Voice. Gràcies
+# $goalType will either be the string goal-type-record or goal-type-validation
+goal-help-specific = Heu ajudat el Common Voice a assolir el <goalPercentage></goalPercentage> de l'objectiu { $goalType } diari de { $goalValue } frases!
 contribute-more =
     { $count ->
         [one] Preparat per fer-ne { $count } més?
