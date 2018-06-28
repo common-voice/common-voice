@@ -95,6 +95,7 @@ content-license-text = Vsebina je na voljo pod <licenseLink>licenco Creative Com
 share-title = Pomagajte nam poiskati druge, ki bi prispevali svoj glas!
 share-text = Pomagaj stroje naučiti, kako govorijo resnični ljudje. Prispevaj svoj glas na { $link }
 back-top = Nazaj na vrh
+report-bugs-link = Pomagajte prijaviti hrošče
 
 ## Home Page
 
