@@ -263,7 +263,7 @@ Aquesta convocatòria, si escau, es publicarà juntament amb els resultats de la
 Aquesta correcció d'errades no amplia el termini de presentació de sol·licituds.
 Aquesta disposició permet complir les distàncies ramaderes, separar zones i facilitar la gestió dels ous produïts.
 Aquesta documentació ha d'acompanyar-se a la instància en sobre tancat, que podrà ser lacrat.
-Aquesta dotació financera tindrà com a destinació als articles operatius del mateix programa pressupostari.
+Aquesta dotació financera tindrà com a destinació els articles operatius del mateix programa pressupostari.
 Aquesta entrevista podrà consistir en una prova pràctica.
 Aquesta enumeració no és limitadora.
 Aquesta espècie té una representació creixent al paratge, i guanyen terreny a les masses de coníferes.
@@ -515,8 +515,8 @@ Constituïda la Comissió Avaluadora, s'aprovarà el barem que calga aplicar per
 Constituïx la base imposable de la taxa el valor de la primera venda de la pesca fresca subhastada.
 Consulteu Annex dos.
 Contindrà la documentació detallada en la base particular díhuit.
-Contingut: Dades, fets, xifres, interessos, realitats+ que estan darrere de l'actual epidèmia d'obesitat infantil.
-Contingut: Il·lumina de l'atenció primària.
+Contingut: Dades, fets, xifres, interessos, realitats+ que estan darrere de l'actual epidèmia d'obesitat infantil.
+Contingut: Il·lumina de l'atenció primària.
 Continua firma i rúbrica.
 Continua pel carrer de la Font i pel carrer Font d'en Jana.
 Continua per la corba de nivell de sis-cents metres cap al zero fins a arribar a les plataformes de la planta de formigó.
@@ -740,7 +740,7 @@ El Comité de Coordinació designarà, d'entre els seus membres, dos coordinador
 El Comité de Direcció podrà conferir apoderaments especials per a casos concrets sense limitació de persones.
 El complement específic s'abona en dotze mensualitats i la seua quantia anual és de mil sis-cents noranta-un coma quaranta euros.
 El concepte de temps geològic és una idea guia al llarg de tot el nucli.
-El concert de les unitats assenyalades amb * tenen caràcter provisional.
+El concert de les unitats assenyalades amb asterisc tenen caràcter provisional.
 El Consell de Cambres podrà presentar fins a un màxim de tres declaracions de despeses durant cada any natural.
 El Consell de Direcció pot reunir-se en ple o en comissions.
 El Consell de Participació podrà regular limitacions explícites per a cadascuna de les espècies.
@@ -797,7 +797,7 @@ El document té com a objecte la reparcel·lació dels terrenys integrats en l'�
 El dret a l'acumulació es vincula a la prestació efectiva del treball fins que el menor complisca els nou mesos.
 El dret d'aliments de l'article nou no admet pacte en contra.
 El ferm existent presenta algunes deficiències en alguns punts, més pel temps que per problemes estructurals.
-El fet de no incorporar-s'hi una vegada conclòs el termini concedit, s'entendrà que renuncia a la beca.
+En cas de no incorporar-s'hi una vegada conclòs el termini concedit, s'entendrà que renuncia a la beca.
 El fet de no presentar-lo serà motiu de revocació de l'ajuda concedida.
 El fill menor d'edat quedarà en companyia i sota la guarda i custòdia de la mare.
 El fill menor d'edat restarà en companyia i sota la custòdia de la mare.
@@ -1427,7 +1427,7 @@ En el cas que el titular no dispose res, la inhumació s'ha de fer en la fossa c
 En el cas que fóra festiu es realitzarà el següent dia laborable.
 En el cas que hi haja excedència de materials, hauran de ser retirats per gestor autoritzat.
 En el cas que hi resulten insuficients, ha d'estendre de noves en les pàgines destinades a observacions.
-En el cas que l'aprofitament siga tèrmic es prendrà com a cost de referència mil cent euros per quilowat.
+En el cas que l'aprofitament siga tèrmic es prendrà com a cost de referència mil cent euros per quilovat.
 En el cas que no existisca l'esmentat ordinal, el termini expirarà l'últim dia del mes.
 En el cas que no s'emeta resolució en el termini de quinze dies, el silenci tindrà efecte estimatori.
 En el cas que no s'observen deficiències, l'ajuntament atorgarà la llicència d'obertura.
@@ -1561,7 +1561,7 @@ Es consideraran només projectes la inversió dels quals siga superior a quatre 
 Es consideraren només projectes la inversió dels quals siga superior a sis mil euros.
 Es considerarà nocturna tota la jornada si comença i acaba entre les vint-i-una i les set hores.
 Es considerarà treballador agrícola desocupat aquell que acredite la seua condició agrària.
-Es construiran bermes intermèdies cada tres metres d'altura en els talussos que superen els cin metres de desnivell.
+Es construiran bermes intermèdies cada tres metres d'altura en els talussos que superen els cinc metres de desnivell.
 Es convoquen per a l'exercici del dos mil cinc les ajudes econòmiques a què fa referència l'article primer.
 Es crearà una comissió de salut laboral la composició de la qual serà paritària.
 Es cuidarà que els contrastos causen enlluernaments, com succeïx entre el blanc i el negre.
@@ -1935,7 +1935,7 @@ L'alumne, o els seus representants legals, signarà l'acceptació d'aquestes con
 L'al·legació no conté consideracions de caràcter ambiental.
 L'al·legació presentada no respon al tipus d'al·legació de caràcter ambiental.
 L'alçament d'actes tindrà lloc el dia quinze de novembre de dos mil deu a l'Ajuntament de Paterna.
-L'alçament d'actes tindrà lloc els pròxims dies vint-i-set, vint-i-huit, vint-i-nou i trenta de setembre de dos mil deu i quatre d'octubre de dos meil deu.
+L'alçament d'actes tindrà lloc els pròxims dies vint-i-set, vint-i-huit, vint-i-nou i trenta de setembre de dos mil deu i quatre d'octubre de dos mil deu.
 L'alçària de cornisa màxima és de deu metres per a tres plantes i quatre metres per a una planta.
 L'ampliació d'activitat proposada no afectarà el règim hídric de la zona.
 L'amplària de la calçada serà entre tres coma cinc i quatre coma cinc metres per a l'accés d'un camió grua perquè alce la torre.
@@ -2293,7 +2293,7 @@ La Llei vint-i-nou de mil nou-cents noranta-quatre, de vint-i-quatre de novembre
 La llengua de què es realitze l'exercici no podrà ser valorada com a mèrit.
 La llinda és una tanca de mur de fàbrica de bloc de dos coma quaranta-cinc metres d'alçària.
 La longitud de la canonada de desaigüe serà de huit-cents huitanta-huit metres i s'executarà amb PVC corrugat.
-La longitud del tronc de l'actuació és de sis mil sis-cents seixanta-hui coma huit-cents setanta-huit metres.
+La longitud del tronc de l'actuació és de sis mil sis-cents seixanta-huit coma huit-cents setanta-huit metres.
 La línia Benidorm — la Nucia acaba en la Societat Temàtica Terra Mítica, amb una longitud aproximada de dos mil nou-cents metres.
 La línia elèctrica pot portar amb si afectació a aus, i per tant hauran d'habilitar-se mesures correctores.
 La línia té una longitud de dotze mil sis-cents huitanta-huit metres, dos mil cent cinquanta-dos metres en subterrani i deu mil cinc-cents trenta-sis metres en aeri.
@@ -2719,11 +2719,11 @@ Manté conversacions en llengua anglesa, senzilles i rutinàries del sector, int
 Manté el pas de guàrdia de la muralla en el seu llenç nord.
 Mantín la calma.
 Marc mèdic ètic i legal de col·laboració i suport en el maneig, tractament o transport d'aquests malalts.
-Marco redó de seixanta cenímetres de llum lliure.
+Marco redó de seixanta centímetres de llum lliure.
 Marqueu amb una X.
 Material de marxandatge en què aparega explícitament la campanya de promoció del valencià.
 Memòria explicativa: l'opositor farà una explicació descriptiva de les parts del projecte.
-Menció especifica de la normativa de plans d'estudi.
+Menció específica de la normativa de plans d'estudi.
 Mentre celebrava audiència pública en el dia de la data.
 Mentrestant segueix la investigació a fi de trobar noves municions que eviten el canvi d'arma.
 Metodologia: exposicions teòriques i treballs de grup que faciliten la participació activa del grup.
@@ -2881,7 +2881,7 @@ Notifiqueu-ho al promotor, al Ministeri Fiscal, a l'acollidor i als pares biolò
 Notifiqueu-ho al promotor, al Ministeri Fiscal, als acollidors i als pares biològics dels menors.
 Número de referència que el poder adjudicador assigna a l'expedient.
 Objectius finals i parcials als quals respon el projecte.
-Objectius generals: desenvolupar estratègies que permeten afrontar situacions difícils generadores d'estrés.
+Objectius generals: desenvolupar estratègies que permeten afrontar situacions difícils generadores d'estrés.
 Objectius, funcions i processos que desenvolupen.
 Obligacions que poden ser garantides amb hipoteca.
 Obra: eliminació barreres arquitectòniques i reforma vestidors al centre IES Balears de València.

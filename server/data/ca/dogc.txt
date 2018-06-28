@@ -1091,7 +1091,7 @@ El nombre màxim de grups recomanat per centre és de quatre, fent un total de q
 El nombre total de llicències de Venda No Sedentària en el marc dels Encants és de noranta.
 El nomenament de l'expert independent correspon al registrador mercantil del domicili de la cooperativa.
 El nomenament especificarà la denominació de la plaça, el cos i l'àrea de coneixement als quals s'adscriu.
-El nostre interlocutor serà sempre l'informàtic del centre que serà qui inicií la trucada.
+El nostre interlocutor serà sempre l'informàtic del centre que serà qui iniciï la trucada.
 El notari, si resulta que el testament hològraf és autèntic, l'ha de protocol·litzar.
 El nucli de població més proper és Llobera, a més de dos quilòmetres de distància.
 El nucli de població més proper és Vallmanya, ubicat a més d'un quilòmetre de distància.
@@ -1636,7 +1636,7 @@ En cas que cap dels aspirants superés el procés selectiu el tribunal declarar�
 En cas que hi detecti algun error, podrà adreçar-se a la unitat de recursos humans corresponent.
 En cas que hi hagi dos o més licitadors amb la mateixa oferta, el guanyador sortirà d'un sorteig.
 En cas que l'acció instrumental sigui pluriennal, el pagament s'ha de realitzar un cop justificada cada anualitat.
-En cas que l'informant no sigui el propi afectat, es recull el vincle amb l'afectat.
+En cas que l'informant no sigui el mateix afectat, es recull el vincle amb l'afectat.
 En cas que la persona no figuri en el fitxer de relació, el registre serà rebutjat.
 En cas que la puntuació de l'informe sigui inferior a deu punts, es puntuarà amb zero punts.
 En cas que n'hi hagi, cal reparar-les.
@@ -3581,7 +3581,7 @@ Repeteixen curs.
 Representarà a l'ajuntament en les relacions amb les entitats culturals.
 Requereix per tant, un espai físic de privacitat en un ambient tranquil i distès.
 Requisits específics del contractista: veieu el plec de clàusules administratives.
-Res d'això trobem al precepte qüestionat.
+Res d'això trobem en el precepte qüestionat.
 Rescatar la concessió abans del seu venciment si ho justifiquen circumstàncies d'interès públic.
 Resol els recursos de reposició plantejats en via d'inspecció.
 Resol les alteracions detectades.
@@ -3705,7 +3705,7 @@ Serà responsable de la conservació, neteja i manteniment dels mitjans utilitza
 Serà responsable que es respectin els nivells de qualitat especificats per a la seva àrea de treball.
 Serà responsable tècnic d'aquest procés selectiu un òrgan tècnic de selecció format per tres membres.
 Seu del Consell Comarcal del Pallars Jussà.
-Si abans de l'entrevista ho han assolit un mínim de vint punts, el tribunal podrà decidir que no la facin.
+Si abans de l'entrevista no han assolit un mínim de vint punts, el tribunal podrà decidir que no la facin.
 Si amb la memòria s'annexa qualsevol altre document, el còmput total de fulls no podrà excedir de trenta.
 Si aquesta via no és possible, es recorre a l'acolliment d'urgència.
 Si cal administrar algun medicament als alumnes, es demana a les famílies que ho facin fora de l'horari escolar.
