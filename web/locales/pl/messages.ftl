@@ -97,6 +97,9 @@ content-license-text = Treść dostępna na warunkach <licenseLink>licencji Crea
 share-title = Zachęć innych do nagrania swojego głosu!
 share-text = Pomóż nauczyć komputery, jak mówią prawdziwi ludzie — wspomóż swoim głosem na { $link }
 back-top = Powrót na górę
+contribution-banner-text = Właśnie włączyliśmy interfejs nowego uczestnika
+contribution-banner-button = Wypróbuj
+report-bugs-link = Pomóż zgłaszać błędy
 
 ## Home Page
 
@@ -321,7 +324,7 @@ clips = Nagrania
 goal-type-record = nagrywania
 goal-type-validation = weryfikowania
 toward-goal = To <goalPercentage></goalPercentage> w kierunku dzisiejszego celu { $goalType } projektu Common Voice. Dziękujemy
-goal-help = Twój udział pomógł projektowi Common Voice osiągnąć <goalPercentage></goalPercentage> dziennego celu { $goalType }!
+goal-help-specific = Twój udział pomógł projektowi Common Voice osiągnąć <goalPercentage></goalPercentage> dziennego celu { $goalType } ({ $goalValue })!
 contribute-more = Zrobimy jeszcze { $count }?
 record-cta = Zacznij nagrywanie
 record-instruction = { $actionType } <recordIcon></recordIcon>, a następnie przeczytaj to zdanie
