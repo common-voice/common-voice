@@ -20,6 +20,7 @@ az = 亞塞拜然語
 bn = 孟加拉語
 br = 布里多尼語
 ca = 加泰隆語
+cnh = 哈卡秦語
 cs = 捷克語
 cv = 楚瓦什語
 cy = 威爾斯語
@@ -30,6 +31,7 @@ en = 英語
 es = 西班牙語
 et = 愛沙尼亞語
 fi = 芬蘭語
+fo = 法羅語
 fr = 法語
 fy-NL = 弗利西亞語
 ga-IE = 愛爾蘭語
@@ -48,6 +50,7 @@ kpv = 科米-齊良語
 kw = 康瓦爾語
 ky = 吉爾吉斯語
 mk = 馬其頓語
+myv = 厄茲亞語
 nb-NO = 挪威語（Bokmål）
 ne-NP = 尼泊爾語
 nl = 荷蘭語
@@ -94,6 +97,9 @@ content-license-text = 內容依照 <licenseLink>Creative Commons 條款</licens
 share-title = 幫助我們找人一起獻聲！
 share-text = 請到 { $link } 獻聲，協助我們教導機器了解人們是如何說話的。
 back-top = 回到頁面頂端
+contribution-banner-text = 我們剛推出全新的貢獻方式
+contribution-banner-button = 體驗一下
+report-bugs-link = 協助回報問題
 
 ## Home Page
 
