@@ -97,6 +97,9 @@ content-license-text = Endalc'had hegerz dindan ul <licenseLink>lañvaz Creative
 share-title = Sikourit ac'hanomp da gavout tud all da reiñ o mouezh!
 share-text = Sikourit ar mekanikoù da gompren penaos e komz an dud wirion, roit ho mouezh da { $link }
 back-top = Distreiñ d'ar c'hrec'h
+contribution-banner-text = Emaomp o paouez ouzhpennañ un doare nevez da gemer-perzh
+contribution-banner-button = Esaeit 'ta
+report-bugs-link = Skoazellit da zanevelliñ beugoù
 
 ## Home Page
 
