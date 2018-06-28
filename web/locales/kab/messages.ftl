@@ -323,7 +323,7 @@ clips = Tukkisin
 goal-type-record = Asekles
 goal-type-validation = Asentem
 toward-goal = D wagi i  d <goalPercentage></goalPercentage>  iswi { $goalType }  n Common Voice  n wass-a ar zdat. Tanemmirt-ik
-goal-help = Tmuddeḍ-d afus akken akken Common Voicead yaweḍ <goalPercentage></goalPercentage> iswi-is n wass { $goalType }!
+goal-help-specific = Tmuddeḍ-d afus akken akken Common Voicead yaweḍ <goalPercentage></goalPercentage> iswi-inneɣ n wass { $goalType }!
 contribute-more =
     { $count ->
         [one] Theggaḍ i { $count } nniḍen?
