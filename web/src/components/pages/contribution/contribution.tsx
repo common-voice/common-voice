@@ -129,7 +129,7 @@ class ContributionPage extends React.Component<Props, State> {
     }
 
     if (canvas) {
-      this.wave = new Wave(canvas);
+      // this.wave = new Wave(canvas);
     }
   };
 
