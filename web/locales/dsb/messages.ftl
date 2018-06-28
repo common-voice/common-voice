@@ -27,6 +27,20 @@ cy = Kymrišćina
 da = Dańšćina
 de = Nimčina
 el = Grichišćina
+en = Engelšćina
+es = Špańšćina
+et = Estnišćina
+fi = Finšćina
+fo = Ferejšćina
+fr = Francojsćina
+fy-NL = Frizišćina
+ga-IE = Iršćina
+he = Hebrejšćina
+hsb = Górnoserbšćina
+hu = Hungoršćina
+id = Indonešćina
+is = Islandšćina
+it = Italšćina
 
 # [/]
 
