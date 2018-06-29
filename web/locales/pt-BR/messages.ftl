@@ -97,6 +97,9 @@ content-license-text = Conteúdo disponível sob licença <licenseLink>Creative 
 share-title = Ajude-nos a encontrar outros doadores de voz!
 share-text = Ajude a ensinar às máquinas como uma pessoal fala, doando sua voz em { $link }
 back-top = Voltar para o início
+contribution-banner-text = Lançamos uma nova experiência para contribuição
+contribution-banner-button = Dê uma olhada
+report-bugs-link = Ajude reportando problemas
 
 ## Home Page
 
@@ -317,10 +320,8 @@ listen = Ouvir
 skip = Pular
 shortcuts = Atalhos
 clips = Frases
-goal-type-record = gravando
-goal-type-validation = validação
-toward-goal = Essa é a <goalPercentage></goalPercentage> em relação à meta de { $goalType } do Common Voice hoje. Obrigado
-goal-help = Você ajudou o Common Voice a atingir <goalPercentage></goalPercentage> de sua meta diária de { $goalType }!
+goal-help-recording = Você ajudou o Common Voice a atingir <goalPercentage></goalPercentage> da nossa meta diária de { $goalValue } de gravações!
+goal-help-validation = Você ajudou o Common Voice a atingir <goalPercentage></goalPercentage> da nossa meta diária de { $goalValue } de validações!
 contribute-more = Pronto para fazer mais { $count }?
 record-cta = Iniciar gravação
 record-instruction = { $actionType }<recordIcon></recordIcon>e então leia a sentença em voz alta
