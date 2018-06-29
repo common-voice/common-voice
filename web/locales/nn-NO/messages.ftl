@@ -47,6 +47,7 @@ kpv = Komi (syriansk)
 kw = Kornisk
 ky = Kirgisk
 mk = Makedonsk
+myv = Erziamordvinsk
 nb-NO = Norsk bokmål
 ne-NP = Nepalsk
 nl = Nederlandsk
@@ -70,6 +71,7 @@ tt = Tatarisk
 uk = Ukrainsk
 uz = Usbekisk
 zh-CN = Kinesisk (Kina)
+zh-HK = Kinesisk (Hong Kong)
 zh-TW = Kinesisk (Taiwan)
 
 # [/]
