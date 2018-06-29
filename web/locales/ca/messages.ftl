@@ -320,12 +320,8 @@ listen = Escolta
 skip = Omet
 shortcuts = Dreceres
 clips = talls
-goal-type-record = d'enregistraments
-goal-type-validation = de validacions
-# $goalType will either be the string goal-type-record or goal-type-validation
-toward-goal = Això és un <goalPercentage></goalPercentage> de l'objectiu { $goalType } diari del Common Voice. Gràcies
-# $goalType will either be the string goal-type-record or goal-type-validation
-goal-help-specific = Heu ajudat el Common Voice a assolir el <goalPercentage></goalPercentage> de l'objectiu { $goalType } diari de { $goalValue } talls!
+goal-help-recording = Heu ajudat el Common Voice a assolir el <goalPercentage></goalPercentage> de l'objectiu diari de { $goalValue } enregistraments!
+goal-help-validation = Heu ajudat el Common Voice a assolir el <goalPercentage></goalPercentage> de l'objectiu diari de { $goalValue } validacions!
 contribute-more =
     { $count ->
         [one] Preparat per fer-ne { $count } més?
