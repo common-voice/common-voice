@@ -194,7 +194,9 @@ profile-explanation = Z profilom móžośo swój póstup we wócyma wobchowaś a
 
 faq-title = Ceste pšašanja
 faq-what-q = Co jo Common Voice?
+faq-what-a = Technologija głosowego spóznaśa mógła wašnju rewolucioněrowaś, z kótarymž z mašinami interagěrujomy, ale tuchylu k dispoziciji stojece systemy su droge a proprietarne. Common Voice jo projekt, kótaryž technologiju głosowego spóznaśa za kuždeho lažko pśistupnu cyni. Luźe masiwnej datowej bance swóje głose dawaju, kótaraž kuždemu zmóžnja, nałoženja za głosowe spóznaśe treněrowaś. Wšykne głosowe daty budu wuwijarjam k dispoziciji.
 faq-important-q = Cogodla jo wažny?
+faq-important-a = Głoss jo pśirodny, głos jo cłowjeski. Jo nejlažčejša a nejpřśrodnjejša wašnja komunikacije. Comy, až wuwijarje mógu fantastiske wěcy napóraś, wót programow, kótarež w napšawdnem casu pśełožuju až do zastojańskich asistentow z głosowym spóznaśim. Ale tuchylu dosć datow njedajo, kótarež su za toś te typy nałoženjow zjawnje k dispoziciji. Naźijamy se, až Common Voice wuwijarjam to dajo, což za inowacije trjebaju.
 faq-get-q = Kak mógu do datow Common Voice pśiś?
 faq-get-a = Datowa sajźba jo něnto na našej <downloadLink>ześěgnjeńskem boku</downloadLink> pód licencu <licenseLink>CC-0</licenseLink> k dispoziciji.
 faq-mission-q = Cogodla jo Common Voice źěl misije Mozilla?
