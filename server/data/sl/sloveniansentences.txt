@@ -1276,7 +1276,7 @@ Imate Hugojevo telefonsko številko?
 Nič se ne posuši prej kot solza.
 Kdor te je krivil, te sovraži.
 Najboljše stvari v življenju niso zastonj.
-Bolje, da se obrabijo, kot rjavijo.
+Bolje je, da se obrabijo, kot pa da rjavijo.
 Čistost je lepa čednost.
 Slab izgovor je boljši od nobenega.
 Za argument je potrebno imeti dve osebi.
@@ -1482,7 +1482,7 @@ V darilu je presenečenje.
 Ali mi lahko pomagate s tem vprašanjem?
 Vozil je na ladji z imenom Bibavica.
 Java ni enako kot JavaScript.
-Nostalgija ni tisto, kaj bi radi, da bi bilo.
+Nostalgija ni tisto, kar bi radi, da bi bilo.
 Nato je ponudil otrokom velik sladoled.
 Restavracija je bila precej draga.
 Pot s trajektom je bila pametna izbira.
@@ -1551,7 +1551,7 @@ Oglejte si predvajalnik, ki se premika po ritmu.
 Vam je všeč sodobna slika?
 Ali lahko kaj storim za vas?
 Izgleda, da je Lena pustila jakno doma.
-Naslednjič, ko pade, me pokliči.
+Naslednjič me ob padcu prosim pokliči!
 Napravo smo našli v omari.
 Kako veste, da je to res?
 Kaj si tukaj za delo?
@@ -2122,7 +2122,7 @@ Poslal bom nekaj pošte svoji družini.
 Načrtujemo obisk Velikega kanjona.
 Vlada je prepovedala izvoz rakov.
 Ne me vleči v vaše osebne težave.
-Datoteka je imela velikost več gigabajtov, kot smo mislili.
+Datoteka je imela velikost več gigabajtov in je tako bila veliko večja, kot smo sprva mislili.
 Najmanj, kar lahko storite je, da pokličite ena ena tri.
 Šla je v lekarno, da ji je vzela tablete.
 Gorsko reševalna ekipa se je odrekla svojemu delu.
@@ -2131,7 +2131,7 @@ Pekarna je bila poleg klavnice.
 Idealno bi bilo, če bi bil WiFi brezplačen.
 Aspergerjev sindrom je oblika avtizma.
 Moj kolega je iz zahodne Slovenije.
-Bolje, da ga prekinete, preden se zapletete!
+Bolje je, da ga prekinete, preden se zapletete!
 Z drugimi besedami, to ni odprta platforma.
 S to novo frizuro si videti smešna.
 Kdo je blondinka z rdečim krilom?
