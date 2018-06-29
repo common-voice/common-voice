@@ -182,9 +182,24 @@ female = Žeńscyny
 # Gender
 other = Druge
 why-profile-title = Cogodla profil?
+why-profile-text = Dajśo nam někotare informacije wó sebje, aby awdiodaty, kótarež na Common Voice sćelośo, wužytnjejše byli, aby se dokradnosć systemow spóznawanja rěcy pólěpšyła.
+edit-profile = Profil wobźěłaś
+profile-create = Profil załožyś
+profile-create-success = Profil jo se wuspěšnje załožył!
+profile-close = Zacyniś
+profile-clear-modal = Gaž swóje profilowe daty wulašujośo, se toś te demografiske informacije na Common Voice gromaźe z nagraśami wěcej njepósćelu.
+profile-explanation = Z profilom móžośo swój póstup we wócyma wobchowaś a pomagaś, naše głosowe daty dokradnjejše cyniś.
 
 ## FAQ
 
+faq-title = Ceste pšašanja
+faq-what-q = Co jo Common Voice?
+faq-important-q = Cogodla jo wažny?
+faq-get-q = Kak mógu do datow Common Voice pśiś?
+faq-get-a = Datowa sajźba jo něnto na našej <downloadLink>ześěgnjeńskem boku</downloadLink> pód licencu <licenseLink>CC-0</licenseLink> k dispoziciji.
+faq-mission-q = Cogodla jo Common Voice źěl misije Mozilla?
+faq-native-q = { $lang } njejo mója mamina rěc a powědam z akcentom, cośo mój głos?
+faq-native-a = Jo, comy waš głos na kuždy pad měś! Źěl cela Common Voice jo, wjele rozdźělnych akcentow ako móžno zběraś, aby licadła mógli <bold>kuždego </bold> lěpjej rozměś, gaž powěda.
 
 ## Profile
 
