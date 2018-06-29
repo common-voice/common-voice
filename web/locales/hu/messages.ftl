@@ -320,10 +320,8 @@ listen = Figyeljen
 skip = Kihagyás
 shortcuts = Gyorsbillentyűk
 clips = Klipek
-goal-type-record = felvétel
-goal-type-validation = érvényesítés
-# $goalType will either be the string goal-type-record or goal-type-validation
-toward-goal = Ez <goalPercentage></goalPercentage> a Common Voice célja felé, amely { $goalType }. Köszönjük
+goal-help-recording = Segítettél a Common Voice-nak elérni a napi rögzítési céljának ({ $goalValue }) <goalPercentage></goalPercentage>-át!
+goal-help-validation = Segítettél a Common Voice-nak elérni a napi ellenőrzési céljának ({ $goalValue }) <goalPercentage></goalPercentage>-át!
 contribute-more = Készen áll még { $count } felvételre?
 record-cta = Felvétel indítása
 record-instruction = { $actionType } a <recordIcon></recordIcon> ikonra, és olvassa fel hangosan a mondatot
