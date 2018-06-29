@@ -320,12 +320,8 @@ listen = Anhören
 skip = Überspringen
 shortcuts = Tastenkürzel
 clips = Aufzeichnungen
-goal-type-record = Aufnahme
-goal-type-validation = Überprüfung
-# $goalType will either be the string goal-type-record or goal-type-validation
-toward-goal = Das sind <goalPercentage></goalPercentage> näher am heutigen Common-Voice-Ziel »{ $goalType }« Vielen Dank
-# $goalType will either be the string goal-type-record or goal-type-validation
-goal-help-specific = Sie haben Common Voice geholfen, <goalPercentage></goalPercentage> von unserem täglichen Ziel { $goalValue }{ $goalType } zu erreichen!
+goal-help-recording = Sie haben Common Voice geholfen, <goalPercentage></goalPercentage> des heutigen Aufzeichnungsziels »{ $goalValue }« zu erreichen!
+goal-help-validation = Sie haben Common Voice geholfen, <goalPercentage></goalPercentage> des heutigen Bestätigungsziels »{ $goalValue }« zu erreichen!
 contribute-more = Bereit { $count } weitere zu machen?
 record-cta = Aufnehmen
 record-instruction = <recordIcon></recordIcon>{ $actionType } - Lesen Sie den Satz laut vor
