@@ -20,6 +20,7 @@ az = Aserbaijaneg
 bn = Bengaleg
 br = Llydaweg
 ca = Catalaneg
+cnh = Hakha Chin
 cs = Tsiec
 cv = Chuvash
 cy = Cymraeg
@@ -49,6 +50,7 @@ kpv = Komi-Zyrian
 kw = Cernyweg
 ky = Kyrgyz
 mk = Macedoneg
+myv = Erzya
 nb-NO = Bokmål Norwyeg
 ne-NP = Nepaleg
 nl = Iseldireg
@@ -95,6 +97,9 @@ content-license-text = Mae'r cynnwys ar gael o dan <licenseLink>drwydded Creativ
 share-title = Helpwch ni i gael rhagor o bobl i gyfrannu eu lleisiau!
 share-text = Helpwch beiriannau i ddysgu sut mae pobl go iawn yn siarad, cyfrannwch eich llais yn { $link }
 back-top = Nôl i'r Brig
+contribution-banner-text = Rydym newydd lansio profiad cyfrannwr newydd
+contribution-banner-button = Cymrwch olwg
+report-bugs-link = Adrodd ar wallau
 
 ## Home Page
 
@@ -321,10 +326,7 @@ listen = Gwrandewch
 skip = Hepgor
 shortcuts = Llwybrau Byr
 clips = Clipiau
-goal-type-record = recordio
-goal-type-validation = dilysu
-toward-goal = Mae hynny'n <goalPercentage></goalPercentage> tuag at nod { $goalType } Common Voice. Diolch
-goal-help = Rydych wedi helpu Common Voice i gyrraedd <goalPercentage></goalPercentage> o'i nod { $goalType } dyddiol!
+goal-help-recording = Rydych wedi cynorthwyo Common Voice i gyrraedd  <goalPercentage></goalPercentage> o { $goalValue }, ein nod recordio dyddiol!
 contribute-more = Barod i wneud { $count } yn rhagor?
 record-cta = Cychwyn recordio
 record-instruction = { $actionType }<recordIcon></recordIcon> ac yna darllen y frawddeg yn uchel
