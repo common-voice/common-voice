@@ -22,6 +22,7 @@ cv = Chuvash
 cy = Welsh
 da = Danish
 de = German
+dsb = Sorbian, Lower
 el = Greek
 en = English
 es = Spanish
