@@ -314,12 +314,8 @@ listen = Listen
 skip = Skip
 shortcuts = Shortcuts
 clips = Clips
-goal-type-record = recording
-goal-type-validation = validation
-# $goalType will either be the string goal-type-record or goal-type-validation
-toward-goal = That's <goalPercentage></goalPercentage> toward today's Common Voice { $goalType } goal. Thank you
-# $goalType will either be the string goal-type-record or goal-type-validation
-goal-help-specific = You've helped Common Voice reach <goalPercentage></goalPercentage> of our daily { $goalValue } { $goalType } goal!
+goal-help-recording = You've helped Common Voice reach <goalPercentage></goalPercentage> of our daily { $goalValue } recording goal!
+goal-help-validation = You've helped Common Voice reach <goalPercentage></goalPercentage> of our daily { $goalValue } validation goal!
 contribute-more =
     { $count ->
        *[other] Ready to do { $count } more?
