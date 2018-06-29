@@ -38,6 +38,7 @@ hu = Ungarsk
 id = Indonesisk
 is = Islandsk
 it = Italiensk
+ja = Japansk
 ka = Georgisk
 kab = Kabylsk
 kk = Kasakhisk
@@ -91,6 +92,7 @@ content-license-text = Innhald tilgjengeleg under ein <licenseLink>Creative Comm
 share-title = Hjelp oss med å finne andre som vil donere stemma si!
 share-text = Hjelp til med å lære maskiner korleis folk snakkar, doner stemma di på { $link }
 back-top = Tilbake til toppen av sida
+report-bugs-link = Hjelp oss med å rapportere feil
 
 ## Home Page
 
@@ -311,10 +313,6 @@ listen = Lytt
 skip = Hopp over
 shortcuts = Snarvegar
 clips = Klipp
-goal-type-record = innspeling
-goal-type-validation = validering
-toward-goal = Det er <goalPercentage></goalPercentage> nærare dagens Common Voice { $goalType } mål. Takk
-goal-help = Du har hjelpt Common Voice til å nå <goalPercentage></goalPercentage> av det daglege målet { $goalType }!
 contribute-more =
     { $count ->
         [one] Klar for { $count } til?
