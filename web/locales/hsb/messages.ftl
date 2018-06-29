@@ -322,12 +322,8 @@ listen = Słuchać
 skip = Přeskočić
 shortcuts = Skrótšenki
 clips = Klipy
-goal-type-record = natočenje
-goal-type-validation = přepruwowanje
-# $goalType will either be the string goal-type-record or goal-type-validation
-toward-goal = To je <goalPercentage></goalPercentage> bliše dźensnišemu cilej Common Voice{ $goalType }. Wulki dźak.
-# $goalType will either be the string goal-type-record or goal-type-validation
-goal-help-specific = Sće Common Voice pomhał, <goalPercentage></goalPercentage> našeho wšědneho cila { $goalValue }{ $goalType } docpěć!
+goal-help-recording = Sće Common Voice pomhał, <goalPercentage></goalPercentage> našeho wšědneho natočenskeho cila { $goalValue } docpěć!
+goal-help-validation = Sće Common Voice pomhał, <goalPercentage></goalPercentage> našeho wšědneho wobkručenskeho  cila { $goalValue } docpěć!
 contribute-more =
     { $count ->
         [one] Sće hotowy, hišće { $count } dalše činić?
