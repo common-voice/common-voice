@@ -49,6 +49,7 @@ kpv = Coimis
 kw = Coirnis
 ky = Cirgisis
 mk = Macadóinis
+myv = Éarsais
 nb-NO = Ioruais Bokmål
 ne-NP = Neipeailis
 nl = Ollainnis
@@ -316,10 +317,6 @@ listen = Éist
 skip = Ar Aghaidh
 shortcuts = Aicearraí
 clips = Gearrthóga
-goal-type-record = taifeadtaí
-goal-type-validation = deimhnithe
-toward-goal = Sin <goalPercentage></goalPercentage> den sprioc laethúil Common Voice i gcomhair { $goalType }. Go raibh maith agat
-goal-help = Chabhraigh tú le Common Voice <goalPercentage></goalPercentage> dá sprioc laethúil i gcomhair { $goalType } a bhaint amach!
 contribute-more =
     { $count ->
         [one] An bhfuil tú réidh ceann amháin eile a dhéanamh?
