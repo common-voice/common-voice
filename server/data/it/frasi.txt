@@ -13,7 +13,7 @@ Vorrei poter controllare l'algoritmo di facebook, siccome decide cosa prioritizz
 Spiegami come si usa questo strumento, perchè é troppo complicato.
 La documentazione di un progetto complesso è essenziale per il suo mantenimento.
 Forse nella nostra epoca, le migliori opere d'arte sono gli adesivi.
-"Guarda che bel palazzo laggiù
+Guarda che bel palazzo laggiù
 A Marco piaceva giocare a biliardo, ma non a biliardino
 Potrai uscire solo quando avrai finito di lavorare
 Il cuscino soffice aiuta a dormire bene
@@ -27,8 +27,8 @@ Sempre caro mi fu quest'ermo colle
 Le graminacee sono la la famiglia economicamente più importante
 La capsula è in tipo di frutto secco deiscente
 La teoria della tettonica delle placche fu accetta solo 30 anni fa
-Mi puoi dare uno strappo fino alla stazione?"
-"Mozilla è una fondazione con sede in America il cui manifesto specifica le ragioni della sua esistenza.
+Mi puoi dare uno strappo fino alla stazione?
+Mozilla è una fondazione con sede in America il cui manifesto specifica le ragioni della sua esistenza.
 Tra i principi fondamentali il fatto che la comunità internazionale si occupa di mantenere il web accessibile in modo che tutti possano utilizzarlo liberamente e contribuire in modo informato.
 Privacy e sicurezza di ogni individuo su internet non può essere considerate facoltativa dice lo stesso manifesto e il software libero e open source contribuisce a promuovere lo sviluppo di internet come risorsa pubblica.
 Essendo una fondazione non ha come scopo principale il lucro: tutto ciò che guadagna lo reinveste sui eventi e sulla formazione dei volontari.
@@ -63,8 +63,8 @@ Non dimentichiamoci inoltre del marketing per promuovere il software presso i no
 Non dimentichiamoci del supporto, in caso di problemi dobbiamo poter risolvere il problema e quindi poter intervenire in modo avanzato o veloce a seconda delle necessità.
 Oramai avremo capito che il costo di un software open source esiste, solo che non è trasparente come quanto pagare una licenza.
 Effettivamente con un software proprietario avremo gli stessi costi, solamente che non è detto che il software proprietario sia estendibile, modificabile e che venga messo a disposizione il codice sorgente.
-Oltre che in caso di necessità di supporto è necessario appoggiarsi a terzi p"
-"Ad ogni evento miglioriamo sempre di più il tiro per offrire argomenti che non siano solo migrazioni, temi da sysadmin o di sviluppo ma più pensati al mondo business riguardo l’open source.
+Oltre che in caso di necessità di supporto è necessario appoggiarsi a terzi
+Ad ogni evento miglioriamo sempre di più il tiro per offrire argomenti che non siano solo migrazioni, temi da sysadmin o di sviluppo ma più pensati al mondo business riguardo l’open source.
 Ad oggi di conferenze, presentazioni e incontri su quelle tematiche se ne trovano di tutti i tipi.
 Il nostro scopo non è parlare ai tecnici ma parlare ai manager o a chi si occupa di offrire soluzioni ai clienti e quindi meno tecnicismi ci sono e meglio è.
 In questo incontro abbiamo quindi fatto una scelta ragionata, essendo stato il percorso con più proposte su tematiche per questo target di persone.
@@ -75,8 +75,8 @@ Al momento abbiamo il progetto Industria Aperta (link a fine articolo) e stiamo 
 Il piano al momento è in lavorazione e sarà utilizzato per il primo ordine del giorno che avremo fra una settimana.
 Uno dei punti più importanti è stata la questione Albo.
 Come associazione abbiamo sempre cercato di trovare idee per dei servizi ai nostri associati e quindi volevamo sempre offrire qualcosa di più di un albo.
-Ad oggi dopo 2 anni dalla fondazione sembra che il concetto di albo sembra riscuotere interesse e quindi ne discuteremo e vedremo cosa possiamo fare per migliorarlo."
-"Riprendendo il titolo dalla minaccia fantasma di un altro film lodato da pochi e criticato da tanti, oggi ci troviamo in una situazione veramente da film.
+Ad oggi dopo 2 anni dalla fondazione sembra che il concetto di albo sembra riscuotere interesse e quindi ne discuteremo e vedremo cosa possiamo fare per migliorarlo.
+Riprendendo il titolo dalla minaccia fantasma di un altro film lodato da pochi e criticato da tanti, oggi ci troviamo in una situazione veramente da film.
 Dalle fughe di notizie con Snowden sappiamo tutti che siamo spiati quando siamo su Internet oppure quando usiamo il computer.
 Una frase che gira nella cultura hacker è che l’unico computer sicuro non è quello sconnesso da internet ma quello spento.
 Per questo motivo i computer che si occupano di contenere archivi di dati molto sensibili sono scollegati dalla rete ma oggi non basta neanche quello.
@@ -87,15 +87,15 @@ Ogni pin di questa presa forniva differenti informazioni: ad esempio dal sonoro 
 In poche parole si buttava il cavo e se ne comprava uno nuovo.
 Quindi ci trovavamo in una situazione in cui si poteva continuare ad utilizzare il cavo anche se il risultato non era soddisfacente.
 Nel digitale invece o c’è segnale o… niente, altrimenti non si ottiene nulla.
-Il digitale è un unico flusso, per questo motivo si usano ora i cavi HDMI per avere il miglior segnale come qualità ma che se si rompono sono da buttare."
-"Il libro, in quanto libro, appartiene all'autore, ma in quanto pensiero appartiene - senza voler esagerare - al genere umano.
+Il digitale è un unico flusso, per questo motivo si usano ora i cavi HDMI per avere il miglior segnale come qualità ma che se si rompono sono da buttare.
+Il libro, in quanto libro, appartiene all'autore, ma in quanto pensiero appartiene - senza voler esagerare - al genere umano.
 Tutti gli intelletti ne hanno diritto.
-Se uno dei due diritti, quello dello scrittore e quello dello spirito umano, dovesse essere sacrificato, sarebbe certo quello dello scrittore, dal momento che la nostra unica preoccupazione è l'interesse pubblico e tutti, lo dichiaro, vengono prima di noi"
-"I nostri mercati, la nostra democrazia, la nostra scienza, le tradizioni della libertà di parola, e l'arte, tutto dipende in maniera cruciale da un pubblico dominio di materiale liberamente accessibile molto più di quanto non lo sia dal materiale informativo coperto da diritti di proprietà.
+Se uno dei due diritti, quello dello scrittore e quello dello spirito umano, dovesse essere sacrificato, sarebbe certo quello dello scrittore, dal momento che la nostra unica preoccupazione è l'interesse pubblico e tutti, lo dichiaro, vengono prima di noi
+I nostri mercati, la nostra democrazia, la nostra scienza, le tradizioni della libertà di parola, e l'arte, tutto dipende in maniera cruciale da un pubblico dominio di materiale liberamente accessibile molto più di quanto non lo sia dal materiale informativo coperto da diritti di proprietà.
 Il pubblico dominio non è quanto rimane dopo che tutte le cose migliori siano state coperte dalle norme sulla proprietà.
 Il pubblico dominio è l'ambito da cui estraiamo i mattoni con cui costruire la nostra cultura.
-Rappresenta, di fatto, la maggior parte della nostra cultura."
-"Per problemi di compatibilità intendiamo comportamenti diversi che i siti hanno in base al dispositivo e al browser che li visita.
+Rappresenta, di fatto, la maggior parte della nostra cultura.
+Per problemi di compatibilità intendiamo comportamenti diversi che i siti hanno in base al dispositivo e al browser che li visita.
 Contribuire è semplicissimo, in primo luogo a questo link trovi la discussione sul forum di Mozilla Italia che usiamo per coordinarci e segnalare i nuovi ticket aperti.
 Prima di segnalare un bug controlla che non ci sia già un bug aperto, sulla destra subito sotto il nome del sito trovi l’elenco coi link.
 Sotto trovi i campi in parte pre-compilati per aprire il ticket.
@@ -178,7 +178,7 @@ Per l’accesso all’ambiente di pre-subentro si utilizzano al momento le stess
 In quanto segue sono sintetizzati i controlli che il sistema ANPR assicura nella fase di emissione dei certificati.
 Per tutti i certificati anagrafici producibili dagli ufficiali di anagrafe attraverso il sistema ANPR, sono riportati i controlli e le condizioni sui dati che ne inibiscono l’emissione.
 L’applicazione 18app permette di gestire il beneficio nominale di 500 euro ai cittadini residenti nel territorio nazionale (in possesso, ove previsto, di permesso di soggiorno in corso di validità) che compiono i diciotto anni di età nell’anno 2017.
-Sì, è necessario verificare l’identità del beneficiario tramite il confronto del nome e cognome presenti nel buono d’acquisto ed i riferimenti del documento d’identità esibito dal diciottenne."
+Sì, è necessario verificare l’identità del beneficiario tramite il confronto del nome e cognome presenti nel buono d’acquisto ed i riferimenti del documento d’identità esibito dal diciottenne.
 Questi ruoli possono richiedere specializzazioni verticali su temi specifici (es.
 visual design) o trasversali in grado di coprire diversi aspetti all’interno del processo progettuale (dalla ricerca alla prototipazione).
 Le competenze manageriali includono la capacità di lavorare in team in modo collaborativo, gestire le relazioni con tutti gli attori coinvolti nel percorso di innovazione, avere un forte orientamente al raggiungimento degli obiettivi e misurare costantemente l’andamento dei progetti.
@@ -201,7 +201,7 @@ Grazie alla ricerca sugli utenti e all’analisi del contesto, è possibile defi
 I contenuti diventano quindi parte integrante del servizio all’utente.
 È bene prendere decisioni sulla base dell’analisi dei dati riferiti all’utente in particolare i dati statistici di navigazione sul sito per comprendere il comportamento dell’utente la realizzazione di interviste e altri metodi di analisi qualitativa l’esperienza e la competenza generale di navigazione dell’utente target.
 Lo scopo primario dell’interfaccia di un servizio web è quello di aiutare l’utente a raggiungere ciò che cerca in modo naturale e immediato, in modo quasi trasparente.
-Per questo, la coerenza dei vari elementi che la compongono, anche su diversi dispositivi, è un elemento fondante per la creazione di prodotti funzionali e semplici da usare."
+Per questo, la coerenza dei vari elementi che la compongono, anche su diversi dispositivi, è un elemento fondante per la creazione di prodotti funzionali e semplici da usare.
 No.
 La fatturazione di buoni di spesa accettati relativi all’acquisto di tutti i beni e servizi previsti dalla normativa può avvenire in qualsiasi momento.
 In sede di registrazione al servizio 18app puoi inserire i tuoi punti negozio con i relativi dati di riferimento (provincia, comune ed indirizzo) corredati di recapiti telefonici, sito internet ed indirizzo di posta elettronica.
@@ -218,7 +218,7 @@ Per l’esercente il ricavo è generato dall’operazione posta in essere con il
 In questo tema rientra tutto ciò che concerne lo sviluppo della società, le condizioni della società, la cittadinanza, la demografia, il welfare.
 In questo tema rientra tutto ciò che riguarda la ricerca, l’innovazione, la tecnologia, la banda larga e ultralarga, la psicologia, le scienze umane, lo spazio.
 In questo tema rientra tutto ciò che riguarda i trasporti e le relative infrastrutture, la mobilità.
-E” un’applicazione Web integrata nel catalogo per l’acquisizione e l’aggiornamento guidato dei metadati.
+E un’applicazione Web integrata nel catalogo per l’acquisizione e l’aggiornamento guidato dei metadati.
 L’editor, acceduto tipicamente previa autenticazione, alimenta automaticamente il catalogo in modo da garantire la conformità al profilo di metadatazione nazionale.
 Solo adottando un’ottica di miglioramento continuo possiamo sperare di renderle efficaci e utili per tutte le Pubbliche Amministrazioni.
 Poiché le linee guida evolvono continuamente (diciamo con frequenza mensile) diventa fondamentale introdurre il versionamento che consente di tenere traccia delle diverse release nel tempo.
@@ -249,8 +249,8 @@ L’esercente prende altresì atto che ai fini della liquidazione dei buoni inca
 È, pertanto, vietato incassare i buoni generati attraverso il servizio da un soggetto diverso rispetto al titolare del buono il cui nome è riportato sullo stesso e/o a fronte della vendita di beni o servizi diversi rispetto a quelli di cui alle lettere da a) a c) che precedono.
 Il Ministero dei beni e delle attività culturali e del turismo vigila sulla corretta applicazione da parte dell’esercente delle regole che precedono nonché di quelle dettate nella disciplina vigente e, in caso di eventuali violazioni, provvede alla esclusione dell’esercente autore della violazione dal progetto, fatte salve le ulteriori sanzioni previste dalla normativa vigente.
 Rendere facilmente disponibili e interoperabili una serie di dataset Open Data ritenuti strategici sotto il profilo dei fenomeni in essi descritti.
-Per questi dataset, si vogliono minimizzare i costi transattivi di utilizzo, prevedendo standard e regole di esposizione più stringenti rispetto a quelle normalmente previste per gli Open Data."
-"Ricorda che tu non puoi rinunciare a diritti su una tua opera se non li possiedi, salvo che tu ne ottenga il permesso da parte del detentore.
+Per questi dataset, si vogliono minimizzare i costi transattivi di utilizzo, prevedendo standard e regole di esposizione più stringenti rispetto a quelle normalmente previste per gli Open Data.
+Ricorda che tu non puoi rinunciare a diritti su una tua opera se non li possiedi, salvo che tu ne ottenga il permesso da parte del detentore.
 Per evitare di violare i diritti di terze parti, dovresti consultarti col tuo avvocato se non sei certo di possedere tutti i diritti necessari per distribuire l'opera.
 Sebbene molte biblioteche tedesche avessero familiarizzato con il tema del libero accesso già da tempo, poche di esse avevano poi in concreto utilizzato una simile forma di pubblicazione per i propri contenuti:
 l'iniziativa di Colonia rappresenta dunque un'interessante novità per la Germania, in tema di libera circolazione e condivisione dei dati.
@@ -273,8 +273,8 @@ Firefox è il browser davvero “personale”.
 Grazie alle migliaia di estensioni disponibili è possibile aggiungere nuove funzionalità e, se non trovi l'estensione adatta alle tue esigenze, puoi svilupparla tu stesso.
 Inoltre, la moltitudine di temi disponibili consente di personalizzare anche l'interfaccia grafica e, se non dovessi trovare un tema che ti piace, puoi crearne uno tutto tuo!
 La sicurezza sul Web è fondamentale: Firefox integra moltissime funzioni in grado di migliorare la sicurezza della navigazione sul Web come, ad esempio, la protezione anti-phishing, la gestione avanzata delle password, il controllo dei cookie e le impostazioni di sicurezza personalizzate.
-Il sistema di aggiornamento automatico consente di mantenere il browser sempre aggiornato all’ultima versione disponibile."
-"Il concetto di “comunità” è alla base della filosofia di Mozilla.
+Il sistema di aggiornamento automatico consente di mantenere il browser sempre aggiornato all’ultima versione disponibile.
+Il concetto di “comunità” è alla base della filosofia di Mozilla.
 Centinaia di persone in tutto il mondo collaborano alla pubblicazione di articoli di supporto e offrono assistenza agli utenti nelle principali lingue mondiali.
 In Italia questo compito è affidato a Mozilla Italia che offre supporto attraverso il suo forum o sui canali Telegram ufficiali.
 Novità
@@ -306,7 +306,7 @@ utilizzare il lessico giusto, in base al luogo e alle persone con cui si sta par
 Non utilizzare molto tecnicismo: preferire all'hard tecnicismo un tecnicismo di base o per niente tecnicismo:
 gli utenti potrebbero essere sia esperti nel settore informatico/tecnologico, sia utenti normali che si affacciano per le prime volte in questo grande mondo
 Cercare di non inserire sigle o roba del genere se poi non la si spiega, ciò crea più confusione che informazione per un utente generico
-"Hai voglia di aiutare ma non sai da dove cominciare?
+Hai voglia di aiutare ma non sai da dove cominciare?
 Abbiamo rilasciato il codice e le credenziali per poter accedere all’ambiente di test dell’Anagrafe nazionale della popolazione residente
 Si tratta di un passaggio molto importante per lo sviluppo dell’anagrafe nazionale, perché permette a qualsiasi sviluppatore di lavorare più liberamente all’integrazione con ANPR, anche senza disporre delle credenziali di un comune
 Una vera e propria apertura, che potrà accelerare il processo di diffusione dell’anagrafe e di servizi che si integrano con essa su tutto il territorio nazionale.
@@ -323,8 +323,8 @@ PagoPA è il nodo di pagamenti della Pubblica Amministrazione.
 È una piattaforma che connette tra loro cittadini, Pubblica Amministrazione e i Prestatori di Servizi di Pagamento (PSP) per effettuare pagamenti verso la Pubblica Amministrazione in sicurezza e con semplicità.
 Integrare PagoPA rappresenta un grosso vantaggio per le Pubbliche Amministrazioni perché i pagamenti vengono accreditati in tempo reale, vengono correttamente rendicontati e di conseguenza può immediatamente essere rilasciato al cittadino la quietanza con valore legale.
 Per un cittadino, PagoPA permette di scegliere il metodo di pagamento tra i diversi a disposizione, a seconda delle comodità e del livello di digitalizzazione.
-Stiamo facendo evolvere il sistema in una ottica di mercato integrando canali di pagamento innovativi ed evolvendo l’interfaccia utente e le funzionalità del sistema verso gli standard consolidati sul mercato."
-"La trasformazione digitale è una priorità del Governo.
+Stiamo facendo evolvere il sistema in una ottica di mercato integrando canali di pagamento innovativi ed evolvendo l’interfaccia utente e le funzionalità del sistema verso gli standard consolidati sul mercato.
+La trasformazione digitale è una priorità del Governo.
 Il Piano Triennale richiede un gioco di squadra per semplificare la Pubblica Amministrazione e la vita dei cittadini
 È il documento di indirizzo strategico ed economico destinato a tutta la Pubblica Amministrazione che accompagna la trasformazione digitale del Paese.
 Con il Piano Triennale prosegue la trasformazione digitale che permetterà alle pubbliche amministrazioni di diventare più efficienti e mettere il cittadino al centro delle loro azioni.
@@ -346,8 +346,8 @@ La misurazione può essere realizzata in momenti differenti in relazione alle es
 Tipicamente, infatti, i sistemi prevedono delle misurazioni intermedie (monitoraggio) ed una misurazione finale alla conclusione del periodo (anno) di riferimento.
 La frequenza del monitoraggio può variare a seconda delle caratteristiche dei fenomeni oggetto di osservazione.
 In tutti i casi le attività di monitoraggio devono essere documentate mediante un efficace sistema di reportistica.
-Nell'ultima fase, sulla base del livello misurato di raggiungimento degli obiettivi rispetto ai target prefissati, si effettua la valutazione, ovvero si formula un “giudizio” complessivo sulla performance, cercando di comprendere i fattori (interni ed esterni) che possono aver influito positivamente o negativamente sul grado di raggiungimento degli obiettivi medesimi, anche al fine di apprendere per migliorare nell'anno successivo."
-"In questa guida trovi una selezione di termini associati alla Pubblica Amministrazione che generano spesso dubbi di ortografia.
+Nell'ultima fase, sulla base del livello misurato di raggiungimento degli obiettivi rispetto ai target prefissati, si effettua la valutazione, ovvero si formula un “giudizio” complessivo sulla performance, cercando di comprendere i fattori (interni ed esterni) che possono aver influito positivamente o negativamente sul grado di raggiungimento degli obiettivi medesimi, anche al fine di apprendere per migliorare nell'anno successivo.
+In questa guida trovi una selezione di termini associati alla Pubblica Amministrazione che generano spesso dubbi di ortografia.
 Abbiamo elencato anche diversi esempi di termini tipici del contesto burocratico della Pubblica Amministrazione (cosiddetto “burocratese”) che possono essere sostituiti con parole più semplici senza perdere significato.
 In alcuni casi esistono più alternative corrette relative alla grafia di un singolo termine.
 Abbiamo preferito fare una scelta, per favorire la diffusione di uno standard.
@@ -374,8 +374,8 @@ In fase di pianificazione, infatti, esse possono portare ad una scelta errata de
 In fase di misurazione e valutazione possono, invece, comportare una valutazione non corretta del grado di raggiungimento degli obiettivi e la mancata corretta identificazione dei motivi di uno scostamento tra valori target previsti e risultati effettivi.
 Questo indicatore oltre ad essere incompleto e impreciso (vedi sopra), è spesso misurato direttamente dalle strutture che lo gestiscono, non condividendo procedure e database con gli uffici di supporto alla programmazione.
 Più in generale l'affidabilità delle fonti interne (quindi legate a sistemi informativi strutturati) o esterne (fonti ufficiali) è centrale.
-Occorre che la differenziazione diventi espressione di un orientamento organizzativo da condividere, in primo luogo, tra i soggetti valutatori e, in un momento successivo, con tutti gli altri attori presenti nel processo."
-"Quando siamo venuti a scuola per salutare tutti i vecchi professori non l'abbiamo trovata e abbiamo deciso di scriverle quello che volevamo dirle.
+Occorre che la differenziazione diventi espressione di un orientamento organizzativo da condividere, in primo luogo, tra i soggetti valutatori e, in un momento successivo, con tutti gli altri attori presenti nel processo.
+Quando siamo venuti a scuola per salutare tutti i vecchi professori non l'abbiamo trovata e abbiamo deciso di scriverle quello che volevamo dirle.
 Luigi invece ha deciso di mettersi alla prova partendo come volontario per un anno nell'Esercito.
 Io invece quest'anno non ho trovato niente nell'ambito universitario di mio gradimento e quindi ho deciso di fare un anno sabbatico-lavorativo.
 Questo articolo nasce da esperienze dirette di clienti che mi hanno contattato per sistemare il loro sito perchè il precedente autore non aveva fatto un buon lavoro.
@@ -449,7 +449,7 @@ Sosteniamo sia le esigenze dell’utente nella sua attività web quotidiana sia 
 Un Internet in cui le persone vengano realmente al primo posto.
 Un Internet in cui l’individuo possa plasmare la propria personale esperienza sul Web.
 Un Internet in cui gli utenti siano in controllo, al sicuro e indipendenti.
-La lentezza è particolarmente evidente quando si cerca di accedere al forum di supporto."
+La lentezza è particolarmente evidente quando si cerca di accedere al forum di supporto.
 Sull’imbrunire si fermava alla porta dell’Albergo del Caval Marino una sedia di posta, tirata da due buoni cavalli romani, nella quale si trovavano due persone.
 Il cocchiere fece schioccar la frusta e tosto accorse Menicuccio, col berretto in mano.
 Uno dei due viaggiatori sporse il capo e gli ordinò:
@@ -531,14 +531,14 @@ Mi siete testimoni, che avrei potuto ammazzarlo e che gli faccio grazia, per ris
 Compiuta l’operazione, tornò alla sedia di posta e intimò al Corriere del Papa di scendere.
 Questi non si fece pregare, e fu legato pur lui.
 L’ultimo a subire siffatta operazione fu il cocchiere.
-È una formalità, sai,  gli diceva intanto il bandito, una semplice formalità."
+È una formalità, sai,  gli diceva intanto il bandito, una semplice formalità.
 Per il buon funzionamento della scuola e la miglior riuscita del comune progetto educativo si propone alle sue componenti fondamentali un “patto”, cioè un insieme di principi, regole, comportamenti che ciascuno si impegna a rispettare.
 Questo patto va letto e sottoscritto dalla scuola, dalla famiglia, dallo studente all’atto di iscrizione.
 L’assunzione di questo impegno ha validità per l’intero periodo di permanenza di ciascun alunno nella nostra istituzione scolastica.
-"Il vetturino si presentò allo sportello di sinistra e il viaggiatore che si trovava dalla sua parte, gli consegnò tosto le sue armi.
+Il vetturino si presentò allo sportello di sinistra e il viaggiatore che si trovava dalla sua parte, gli consegnò tosto le sue armi.
 Signor conte di Lavello  disse questi  non facciamo ragazzate.
-E per il dolore cagionatogli dallo aver battuto il petto ed il volto nei ciottoli, svenne."
-"Arrivati a Tor Vergata piazza di Giovanni Paolo II, verso le 10:30 entrati nel grandioso teatro tenda creato appositamente per l’evento, abbiamo potuto assistere allo spettacolo teatrale “ La Divina Commedia – L’opera”.
+E per il dolore cagionatogli dallo aver battuto il petto ed il volto nei ciottoli, svenne.
+Arrivati a Tor Vergata piazza di Giovanni Paolo II, verso le 10:30 entrati nel grandioso teatro tenda creato appositamente per l’evento, abbiamo potuto assistere allo spettacolo teatrale “La Divina Commedia – L’opera”.
 Dopo esserci accomodati nei posti assegnateci siamo calati in un buio profondo che all’improvviso è infranto da una luce che colpiva direttamente l’attore che personificava Dante, recitante i primi versi della Divina Commedia.
 Sul palco, su cui erano posizionati dei teloni semi-trasparenti, venivano proiettate scenografie realizzate al computer ispiratesi alle stampe ottocentesche dell’opera.
 Così Dante incominciava il suo viaggio passando tra tre belve e Virgilio, per la porta dell’inferno, incontrando Caronte.
@@ -557,8 +557,8 @@ Gli attori principali cantano molto spesso, anche se in alcuni casi non era adat
 La scenografia digitale riesce a dare la sensazione di presenza dello spettatore all’interno dell’opera.
 Molto bella la prima parte con i suoi colpi di scena e cambiamenti del ritmo musicale fino all’arrivo del paradiso.
 Il paradiso invece è stato molto statico sia sulla musica che nell’azione dei personaggi sul palco, ma la sceneggiatura dantesca non permetteva altro.
-Nel complesso una rappresentazione non letteraria, ma quasi musical con un buon coinvolgimento dello spettatore (ma richiede una ripassatina alle parti più importanti dell’opera per capire al meglio ciò che accade)."
-"Sperimentare è nella natura dell’uomo, infatti, sono stati sviluppati metodi di sperimentazione fin dall’epoca dei filosofi greci.
+Nel complesso una rappresentazione non letteraria, ma quasi musical con un buon coinvolgimento dello spettatore (ma richiede una ripassatina alle parti più importanti dell’opera per capire al meglio ciò che accade).
+Sperimentare è nella natura dell’uomo, infatti, sono stati sviluppati metodi di sperimentazione fin dall’epoca dei filosofi greci.
 Qualunque persona, per capire il funzionamento di qualcosa, sperimenta ma ciò comporta l’uso di materiale e anche dispendio di energie e denaro.
 Oggi, in alcuni campi, per risparmiare e ottimizzare sul lavoro si usa la simulazione virtuale che permette di ottenere risultati in tempi brevi.
 Purtroppo questa tecnica di sperimentazione funziona solo in alcuni settori come nell’edilizia o nell’investigazione ed è un aiuto per la comprensione di un determinato fenomeno.
@@ -626,8 +626,8 @@ Un terzo gruppo ha dimostrato scarso impegno e frequenza molto discontinua, tutt
 Nella fase iniziale i Docenti hanno dedicato le prime lezioni al ripasso degli argomenti fondamentali e propedeutici svolti nell’anno precedente e successivamente hanno proceduto, ciascuno nella propria disciplina, ad una valutazione delle conoscenze e delle competenze acquisite attraverso  verifiche di diversa tipologia.
 Durante il corso dell’anno, si è controllato l’andamento didattico e disciplinare, mettendo a disposizione degli alunni l’eventuale utilizzo dello sportello pomeridiano per recupero e/o approfondimento.
 Le verifiche generalmente sono state effettuate a conclusione di ogni modulo didattico in forma orale, in forma scritta di vario tipo (composizioni, relazioni, soluzione di semplici problemi, test a risposta multipla, domande a risposta aperta) e di tipo pratico, esplicitando ogni volta agli studenti le modalità per lo svolgimento delle prove e dei criteri di valutazione.
-Per la valutazione è stata utilizzata l’intera gamma dei voti in decimi."
-"Noi discendenti non siamo da meno?
+Per la valutazione è stata utilizzata l’intera gamma dei voti in decimi.
+Noi discendenti non siamo da meno?
 Uno dei paesi con il bagaglio culturale più ampio si arrende al progresso?
 I romani hanno fatto del progresso la loro arma!
 Hanno sconvolto l'Europa con la loro intelligenza senza utilizzare bombe atomiche.
@@ -644,8 +644,8 @@ Vogliamo ridurci come in Cina dove non si può usare Google o Skype perché sono
 Dopo tutto questo discorsetto di riflessione su informazioni che non danno i media, forse è ora che ci dimostriamo capaci di sconvolgere l'opinione pubblica?
 Io ritengo di si, quindi basta andare in piazza ma utilizzare la rete come fanno in America.
 Il presidente americano Obama faceva comizi prima e dopo la sua elezione con internet!
-E noi invece andiamo in giro per le piazze con striscioni nel tentativo di farci sentire e colpiamo i poliziotti che in realtà sono venuti per evitare che facciamo danni, prima che distruggiamo le attività e i beni, di chi come noi, vorrebbe vivere meglio senza veder incendiate le loro macchine o le loro vetrine."
-"Lo sviluppo tecnologico ha raggiunto ormai gli apici dell'immaginazione.
+E noi invece andiamo in giro per le piazze con striscioni nel tentativo di farci sentire e colpiamo i poliziotti che in realtà sono venuti per evitare che facciamo danni, prima che distruggiamo le attività e i beni, di chi come noi, vorrebbe vivere meglio senza veder incendiate le loro macchine o le loro vetrine.
+Lo sviluppo tecnologico ha raggiunto ormai gli apici dell'immaginazione.
 La tecnologia d'oggi è segnata più dal software che dalla macchina ma ormai non ci facciamo più caso.
 L'hardware, ovvero i componenti fisici dell'apparecchio, ha si nuove funzioni importanti ma senza l'informatica ovvero il software non sarebbe niente.
 L'informatica è quello strumento che adatta la tecnologia a noi.
@@ -676,8 +676,8 @@ La borsa a quest'annuncio ha avuto subito dei rialzi, a dimostrazione che l'Ital
 Le grandi catene e i vari negozi stanno facendo moltissime richieste ai loro produttori per avere il prima possibile nuovi prodotti da aggiungere al loro magazzino, perchè a quanto si vede dai pareri dei sondaggi ci sarà  un grande afflusso di acquirenti.
 La catena che ha avuto l'idea ha affermato che l'idea di partenza l'ha ricevuta proprio da un email di un cittadino italiano anonimo, a dimostrazione che l'informatica non serve solo per simulare ma anche per sconvolgere pareri.
 Infatti affermava G.O.Longo “la nostra capacità di agire ha superato di molto la nostra capacità di prevedere [grazie alla tecnologia informatica e scientifica]....
-la tecnologia è importante per ciò che ci consente di fare, non di capire.”"
-"“Noi sentiamo che, anche una volta che tutte le possibili domande scientifiche hanno avuto risposta, i nostri problemi vitali non sono ancora neppur toccati.” Questo affermava Wittgenstein.
+la tecnologia è importante per ciò che ci consente di fare, non di capire.”
+“Noi sentiamo che, anche una volta che tutte le possibili domande scientifiche hanno avuto risposta, i nostri problemi vitali non sono ancora neppur toccati.” Questo affermava Wittgenstein.
 La scienza studia tutti i fenomeni apparenti come funzionano ma non riuscirà mai a capire perchè quella cellula esiste o perchè i pianeti girano in questo modo.
 Come diceva anche Spencer la scienza studia il fenomeno in sé ma la religione permette di conoscere l'essenza del fenomeno.
 Tutto questo grande affidamento alla scienza non darà mai risposte alla fatidica domanda a cui nessun filosofo a trovato una risposta certa: perchè noi esistiamo?
@@ -707,8 +707,8 @@ Quindi noi ci facciamo coinvolgere più dall'emozioni che secondo lei hanno prev
 Secondo me ha ragione perchè una persona ha 100 ne abbia viste di tutte i colori ma non solo per quello ma anche perchè l'uomo spesso pensa poco.
 La scienza è nata perchè l'uomo deve pensare e sempre penserà ma non si può permettere di dare una spiegazione scientifica a tutto altrimenti si sterilisce l'essenza umana ovvero che non è portato all'amore ma ad una definizione scientifica e da studio godendo di ciò che fà.
 La scienza ci ha permesso di scoprire la cura alla penicillina e tanto altro.
-È molto importante continuare a diffonderla ma bisogna diffondere anche l'idea che non è l'unica soluzione ai nostri problemi."
-"George Orwell è lo pseudonimo di Eric Arthur Blair, nato il 25 giugno 1903 in India da genitori inglesi e morto il 21 gennaio 1950.
+È molto importante continuare a diffonderla ma bisogna diffondere anche l'idea che non è l'unica soluzione ai nostri problemi.
+George Orwell è lo pseudonimo di Eric Arthur Blair, nato il 25 giugno 1903 in India da genitori inglesi e morto il 21 gennaio 1950.
 Fu uno scrittore, saggista, giornalista e glottoteta [1].
 Questo personaggio è uno degli autori inglesi del XX secolo più apprezzati principalmente per i suoi due ultimi romanzi: La fattoria degli animali e 1984.
 Nato in india da padre funzionario del Servizio Civile Indiano, visse in una famiglia che cercava di salvaguardare le apparenze perché lo status che aveva in India era molto diverso da quello in patria, per questo Blair lo definì poi “nobiltà senza terra” il suo stile di vita in Inghilterra.
@@ -735,8 +735,8 @@ Lo stesso anno adotta un bambino, si dimette da direttore del Tribune e diventa 
 Nel 1945 la moglie lo abbandona e viene pubblicata La fattoria degli animali.
 Nel 1946 dirà una frase che permetterà di capire il suo orientamento politico : “Ogni riga di lavoro serio che ho scritto dal 1936 a questa parte è stata scritta, direttamente o indirettamente, contro il totalitarismo” e si trasferisce insieme al figlio alle isole Ebridi (Scozia).
 Lo stesso anno si ammala di tisi vivendo periodi molto spesso al sanatorio, nel 1948 si risposa e scrive “1984”.
-Nel 1950 muore di tubercolosi polmonare a Londra a soli 47 anni."
-"La fattoria degli animali , libro tra i più conosciuti di Blair, racconta la storia di alcuni animali che vivono in una fattoria dove soffrono la fame per cui si ribellano al loro fattore.
+Nel 1950 muore di tubercolosi polmonare a Londra a soli 47 anni.
+La fattoria degli animali , libro tra i più conosciuti di Blair, racconta la storia di alcuni animali che vivono in una fattoria dove soffrono la fame per cui si ribellano al loro fattore.
 La ribellione scoppierà quando un maiale molto anziano, grazie alla sua saggezza ed esperienza darà i suoi i dieci comandamenti per vivere bene in fattoria senza uomini.
 Gli animali quindi decidono di ribellarsi al fattore, lo cacciano e fondano un nuovo ordine sociale secondo cui tutti dovranno contribuire lavorando ma emergerà una razza di animali, il maiale, che non essendo adatto a nessun lavoro diventerà un burocrate.
 Tra i maiali hanno il predominio Napoleon e Palla di Neve, ma mentre il primo vuole conquistare le altre fattorie con la forza, l'altro propone di dare soltanto il buon esempio.
@@ -763,7 +763,7 @@ Il Partito Interno è quello che ha il potere e controlla il Partito Esterno con
 Questi televisori oltre a controllare la vita dei membri fanno propaganda 24 ore su 24.
 Il Ministero dell'amore, in Neolingua MinAmor, si occupa di convertire i dissidenti e di controllare i membri del partito.
 Il suo mezzo di controllo è la Psicopolizia (Neolingua) che cattura chi commette reati e li porta al MinAmor.
-"Con quest'opera Orwell vuole indicare come sia possibile controllare l'uomo eliminando tutti i suoi bisogni, piaceri e pensieri solamente con gli slogan, con la lingua e la violenza occulta.
+Con quest'opera Orwell vuole indicare come sia possibile controllare l'uomo eliminando tutti i suoi bisogni, piaceri e pensieri solamente con gli slogan, con la lingua e la violenza occulta.
 Il personaggio si rende conto del potere che subisce, non l'accetta, cerca di ribellarsi, ma il Socing ormai è troppo potente, si è addentrato nella mente di tutti e non c'è via di scampo.
 Per questo motivo 1984 è definito un romanzo Distopico, che si ambienta in un posto dove non è preferibile vivere.
 L'identità dell'uomo viene schiacciata e resa uguale a quella di tutti, l'unica cosa da fare è seguire il partito.
@@ -774,8 +774,8 @@ Si ritiene che per il fondatore della Confraternita , Emmanuel Goldstein, Orwell
 Questo personaggio si può identificare in 1984 con Goldstein e nella Fattoria degli animali con Palla di neve.
 Questo romanzo è molto più complesso della Fattoria degli animali e molto più articolato perché esamina tutti gli aspetti dell'uomo: affetti, bisogni, pensieri, piaceri, lingua mentre nell'altro si parla solo della classe al potere.
 Con questo romanzo anche senza l'uso della Neolingua, Orwell avrebbe raggiunto il suo scopo ma non si accontenta, cerca di dimostrare come l'uomo è facilmente soggiogabile.
-Questa idea della Neolingua è presa anche essa dallo Stalinismo precisamente dal materialismo dialettico leninista che non permetteva altre vie di pensiero."
-"Orwell è una persona di grandi ideali e da ogni sua esperienza scaturisce un romanzo o un saggio che lo porteranno a criticare o a commentare i fatti.
+Questa idea della Neolingua è presa anche essa dallo Stalinismo precisamente dal materialismo dialettico leninista che non permetteva altre vie di pensiero.
+Orwell è una persona di grandi ideali e da ogni sua esperienza scaturisce un romanzo o un saggio che lo porteranno a criticare o a commentare i fatti.
 I romanzi 1984 e Fattoria degli animali sono gli unici che non raccontano una sua esperienza diretta: qui esprime tutti i lati oscuri e di soggiogazione del totalitarismo che lo aveva disgustato come l'imperialismo.
 Cerca di raccontare i fatti con metafore, perché il suo scopo è quello di far ragionare le persone.
 Un uomo non si deve inchinare di fronte ad un superiore e accettare le sue condizione, ma reagire.
@@ -826,7 +826,7 @@ Con il passare degli anni emergerà in modo sempre più assoluto Stalin che cacc
 La troika inizialmente aveva allontanato Trozkij perché aveva un pensiero differente riguardo allo sviluppo del comunismo poiché egli avrebbe voluto diffondere l'idea del socialismo in tutto il mondo per sconfiggere il capitalismo che altrimenti avrebbe avuto il sopravvento.
 Lentamente Trozkij fu limitato nella sua autorità fino ad essere costretto all'esilio in Messico dove verrà ucciso da un sicario di Stalin nel 1940.
 Il paese accettava l'idea del socialismo in un solo paese perché era stremato dalla rivoluzione e dalla prima guerra mondiale e non si preoccupava della politica.
-Questo permise a Stalin di ottenere sempre più consensi."
+Questo permise a Stalin di ottenere sempre più consensi.
 L'evoluzione industriale precedente la seconda guerra mondiale, ebbe uno slancio grazie alla Germania Nazista che metteva a disposizione dell'URSS la sua tecnologia:
 quest'ultima in cambio avrebbe ospitato fabbriche tedesche per la produzione di armi.
 In tal modo la Germania superava l'ostacolo del diktat post-bellico che vietava il riarmamento.
@@ -857,8 +857,8 @@ Dopo questo secondo tentativo nazista, i sovietici proseguirono l'avanzata respi
 qui vennero fermati per un mese dai nazisti.
 Nel 1945 i sovietici riuscirono ad avanzare su Vienna e finalmente su Berlino.
 Al termine del conflitto la Russia ebbe dei paesi satelliti che controllava imponendogli sia con le buone o con le cattive un governo di stampo comunista, tutto questo grazie ai diversi tratta di pace.
-Il dittatore controllò la Russia fino alla sua morte nel 1953 di cui è ancora incerta la causa."
-"Ci sono moltissimi punti di contatto con la politica idolatrica e di repressione di Stalin e in 1984, infatti quando Orwell volle pubblicare quest'opera, nella libera e democratica Inghilterra  nel 1948, gli venne impedito perché Stalin era alleato degli Inglesi e ciò avrebbe provocato problemi diplomatici.
+Il dittatore controllò la Russia fino alla sua morte nel 1953 di cui è ancora incerta la causa.
+Ci sono moltissimi punti di contatto con la politica idolatrica e di repressione di Stalin e in 1984, infatti quando Orwell volle pubblicare quest'opera, nella libera e democratica Inghilterra  nel 1948, gli venne impedito perché Stalin era alleato degli Inglesi e ciò avrebbe provocato problemi diplomatici.
 Ciò conferma che quanto fantasiosamente narrato in 1984 non è tutto finzione ma realtà visto che la sovrascrizione della storia non è soltanto di tipo stalinista ma anche nazista, insomma una chiara allusione e condanna di tutti i regimi dittatoriali.
 E' evidente perciò che l'adulazione dell'icona del Piccolo Padre, appellativo di Stalin, è l'origine, il modello del Grande Fratello onnipresente nel suo sguardo vacuo profetizzato da Orwell.
 Ungaretti è definito il maestro e fondatore della poesia Ermetica in Italia.
@@ -874,8 +874,8 @@ Per Ungaretti la guerra non è un modo per esprimere il proprio patriottismo ma 
 Non vengono seguite regole metriche precise per i versi per far riflettere di più il lettore sul verso espresso.
 Questa brevissima poesia ma densissima di significato paragona i compagni caduti così velocemente quanto le foglie di un albero durante l'autunno:
 questa brevità riesce a sconvolgere il lettore anche grazie alla facile analogia presente.
-La fragilità dell'uomo, dovuta alla perdita dei propri cari, alla devastazione, alla precarietà, alla presenza della morte inducono Ungaretti ad una depressione evocativa presente anche in 1984 di Orwell."
-"La riflessione di Sartre scaturisce dall'analisi della coscienza intesa come intenzione e libertà.
+La fragilità dell'uomo, dovuta alla perdita dei propri cari, alla devastazione, alla precarietà, alla presenza della morte inducono Ungaretti ad una depressione evocativa presente anche in 1984 di Orwell.
+La riflessione di Sartre scaturisce dall'analisi della coscienza intesa come intenzione e libertà.
 La coscienza è soltanto dell'uomo perché egli sa della sua esistenza, quindi non è posta tra le cose che sono definite da Sartre “essere in se”, mentre l'uomo è definito “essere per se”.
 L'essere in se è un oggetto immodificabile che riceve forma soltanto grazie alla razza umana.
 L'essere per se invece è trasparente e conferisce il significato alle cose.
@@ -1008,7 +1008,7 @@ Il becco ricurvo e le unghie acute.
 L’altezza massima è 68 cm e l’apertura lare di 1,5 metri.
 I gufi reali sono capaci di catturare roditori nell’oscurità totale perché usano il loro acutissimo udito.
 Girano la testa a 180°.
-Una delle caratteristiche che lì differenza dagli altri volatili è che hanno gli occhi di fronte."
+Una delle caratteristiche che lì differenza dagli altri volatili è che hanno gli occhi di fronte.
 I maschi hanno un lungo strascico costituito perfino da 150 penne, sulla coda, che si possono ergere formando un vistoso ventaglio.
 La femmina ha la coda meno sviluppata del maschio, infatti il maschio durante l’accoppiamento per attirare a sé la compagna mostra il suo piumaggio dalle molte forme e colori.
 Passeggiavano tranquillamente tra di noi durante la nostra visita.
@@ -1043,8 +1043,8 @@ Quando un individuo cerca di avvicinarsi ad un compagno che sta mangiando,ne nas
 Non sono sanguinari ma semplicemente attaccabrighe.
 I vecchi maschi vivono lontani dal branco per riavvicinarsi nel periodo dell’accoppiamento.
 Anche in questa occasione nascono zuffe clamorose:
-ma è comprensibile: i vincitori avranno il diritto di scegliere le femmine."
-"Si chiamano cebi dai cornetti perché i maschi hanno due ciuffi di peli sopra la testa.
+ma è comprensibile: i vincitori avranno il diritto di scegliere le femmine.
+Si chiamano cebi dai cornetti perché i maschi hanno due ciuffi di peli sopra la testa.
 Hanno tantissime caratteristiche tra cui la coda semi prensile che usano come quinto arto, riescono a resistere attaccate con la coda sull’albero all’incirca 5 secondi.
 Sanno usare bene le mani e gli altri arti, infatti si può vedere che quando devono rompere, per esempio, una nocciola prendono un sasso e la colpiscono.
 Sono molto curiose e litigano spesso, mandano un urlo per scacciare il cacciatore per difendersi.
@@ -1081,14 +1081,14 @@ Sono maculati anche da adulti.
 Hanno delle corna molto resistenti e grandi a differenza dei daini.
 Come altezza non superano i 90 cm.
 Le corna servono per difendersi dagli altri animali ma anche per lottare tra di loro nello scegliere la femmina.
-Le corna sono praticamente un prolungamento osseo della testa che subisce delle ramificazioni a differenza dei cervi."
-"I macachi di tonkean sono particolarmente manipolativi.
+Le corna sono praticamente un prolungamento osseo della testa che subisce delle ramificazioni a differenza dei cervi.
+I macachi di tonkean sono particolarmente manipolativi.
 Gli oggetti vengono usati sia nel gioco ma anche come strumenti.
 Infatti sono stati capaci ad scappare dai recinti grazie a sassi o a rami.
 Degli esperimenti suggeriscono che questi macachi sono molti veloci ad apprendere.
 È stato visto che due macachi, a cui sono dati dei bastoni, abbiano capito come raggiungere del cibo apprendendo dall’altro, infatti il macaco che aveva preso per secondo il cibo ha effettuato molti tentativi utilizzando lo strumento nello stesso modo dell’altro soggetto.
-Nonostante questi individui non riescano a riconoscere la propria immagine davanti ad uno specchio, alcuni individui possono imparare ad utilizzare le informazioni provenienti dell’immagine riflessa per trovare per esempio del cibo nascosto."
-"A Mozilla per aver sempre creduto in noi, per il suo sforzo di mantenere il web aperto e libero e perché mette sempre l’utente al primo posto.
+Nonostante questi individui non riescano a riconoscere la propria immagine davanti ad uno specchio, alcuni individui possono imparare ad utilizzare le informazioni provenienti dell’immagine riflessa per trovare per esempio del cibo nascosto.
+A Mozilla per aver sempre creduto in noi, per il suo sforzo di mantenere il web aperto e libero e perché mette sempre l’utente al primo posto.
 Il mio auspicio è di aggiornare questo testo spesso, ampliandone i contenuti e revisionandolo secondo le segnalazioni dei lettori.
 L’auspicio è di aggiornare il testo qualche volta al mese.
 Se si è ottenuto questo testo da un amico o da qualche altro sito, si vada alla pagina su Leanpub per scaricare e registrarsi in modo da ricevere le notifiche sugli aggiornamenti.
@@ -1114,8 +1114,8 @@ Alcune piattaforme precedenti hanno provato a realizzare sistemi operativi che u
 Per esempio, quando venne presentato l’iPhone, l’unico modo per creare applicazioni era usare tecnologie web.
 Queste applicazioni web erano limitate dal fatto che non avevano accesso all’hardware o al dispositivo - quindi potevano esserci solo poche applicazioni.
 Quando Apple ha permesso di sviluppare in Objective-C, le funzionalità del dispositivo sono diventate accessibili, ha portato una ventata di innovazione.
-Purtroppo, le web app non hanno ottenuto accesso alle caratteristiche del dispositivo e sono state abbandonate come “cittadini di seconda classe” - questo le ha rese meno interessanti sia per gli sviluppatori che per gli utenti, in quanto non competitive in confronto alle app native di quei sistemi."
-"l’idea alla base di tutto è che Mozilla non mette alcun limite.
+Purtroppo, le web app non hanno ottenuto accesso alle caratteristiche del dispositivo e sono state abbandonate come “cittadini di seconda classe” - questo le ha rese meno interessanti sia per gli sviluppatori che per gli utenti, in quanto non competitive in confronto alle app native di quei sistemi.
+l’idea alla base di tutto è che Mozilla non mette alcun limite.
 Se si vuole prendere il codice sorgente del sistema e cambiarlo per le proprie necessità, beh, si può fare.
 Se si deve realizzare un’applicazione per uso interno alla propria azienda, se si vogliono distribuire le proprie creazioni esclusivamente sul proprio sito, ciò è possibile.
 Solitamente nelle altre piattaforme si è bloccati dallo store ufficiale, che è l’unico canale di distribuzione per le applicazioni.
@@ -1138,8 +1138,8 @@ Lo sviluppatore avrà sempre il beneficio del dubbio e potrà rinviare l’appli
 Non deve contenere materiale pornografico, codice maligno o promozione di materiale illegale/gioco d’azzardo/servizi illegali.
 Potremmo dire: regole del buon senso!
 Spero che la lettura di questa veloce guida sia stata piacevole.
-Ho in mente di aggiornare e ampliare spesso questa guida, quindi consiglio di tenere gli occhi aperti e iscriversi per ricevere le notizie sul suo aggiornamento."
-"un documentario originale netflix
+Ho in mente di aggiornare e ampliare spesso questa guida, quindi consiglio di tenere gli occhi aperti e iscriversi per ricevere le notizie sul suo aggiornamento.
+un documentario originale netflix
 Lo sport è solo per i ragazzi.
 Deciderà suo marito.
 Non permetterò a mia figlia di praticare nessuno sport.
@@ -1250,9 +1250,9 @@ Quando aveva tre anni,
 ci siamo avvicinati a un venditore ambulante
 che vendeva una piccola casetta di terracotta. Ce l'abbiamo ancora. Così, Deepika l'ha presa e ha detto:
 "Papà, questo è un elicottero".
-Ha sollevato il tetto e ha detto: "Papà, tu,
+Ha sollevato il tetto e ha detto: Papà
 io e la mamma ci siederemo qui
-e voleremo via da qui".
+e voleremo via da qui.
 Probabilmente sono la sola ragazza
 che ha lasciato il villaggio così giovane.
 Le ragazze non hanno opportunità, qui.
@@ -1271,8 +1271,8 @@ Avevano viaggiato tutti e tre per 130 chilometri su uno scooter.
 Il coach disse: "È così debole! Come può farcela?"
 Deepika ne fu turbata e pensò di aver perso l'occasione.
 Mi prese da pare e disse: "Mamma, posso dirgli una cosa?" Dissi: "Fa' pure".
-Disse: "Mi dia tre mesi.
-Se non sono abbastanza brava, può cacciarmi dalla scuola".
+Disse: "Mi dia tre mesi."
+Se non sono abbastanza brava, può cacciarmi dalla scuola.
 Il coach accettò. Ero davvero felice.
 All'epoca non ero realmente interessata al tiro con l'arco.
 Andai là perché le condizioni della mia famiglia erano pessime.
@@ -2057,8 +2057,8 @@ Nel frattempo i fermati vengono rilasciati e si afferma la pista che porta alla 
 L'inchiesta giudiziaria si concentra sui banditi e procede con indagini frettolose e superficiali: Il 17 ottobre 1948 la sezione istruttoria della Corte d'appello di Palermo rinvia a giudizio Salvatore Giuliano e gli altri componenti della banda.
 La Corte di Cassazione, per legittima suspicione, decide la competenza della Corte d'assise di Viterbo, dove il dibattimento avrà inizio il 12 giugno 1950 e si concluderà il 3 maggio 1952, con la condanna all'ergastolo di 12 imputati (Giuliano era stato assassinato il 5 luglio del1950).
 Nella sentenza, a proposito della ricerca della causale, si sostiene che Giuliano compiendo la strage e gli attentati successivi ha voluto combattere i comunisti e si richiama la tesi degli avvocati difensori secondo cui la banda Giuliano aveva operato come "un plotone di polizia", supplendo in tal modo alla "carenza dello Stato che in quel momento si notò in Sicilia"
-Cioè: la violenza banditesca era stata impiegata come risorsa di una strategia"
-"politica volta a colpire le forze che si battevano contro un determinato sistema di potere.
+Cioè: la violenza banditesca era stata impiegata come risorsa di una strategia
+politica volta a colpire le forze che si battevano contro un determinato sistema di potere.
 Restava tra le righe che le "carenze dello Stato" erano da attribuire all'azione della coalizione antifascista allora al governo del Paese.
 La sentenza di Viterbo non toccava il problema dei mandanti della strage e dell'offensiva contro il movimento contadino e le forze di sinistra, affermando esplicitamente che la causa doveva essere ricercata altrove.
 Contro la sentenza fu proposto appello e il processo di secondo grado si svolse presso la Corte d'assise d'appello di Roma (nel frattempo molti degli imputati, tra cui Gaspare Pisciotta, erano morti).
@@ -2087,8 +2087,8 @@ Tornato in Sicilia, continua a scrivere ma il lavoro che più gli sta a cuore no
 Nel 1922 muore a Catania.Verga, durante il periodo Milanese, venne a contatto con gli studiosi Leopoldo Franchetti e Sidney Sonnino, i quali giornalisti presso una rivista, si erano interessati alla tematica dei “Carusi” in Sicilia e collaborava con essi.
 Nell’ Inchiesta in Sicilia, scritta proprio da Franchetti e Sonnino, si dedica particolare attenzione al lavoro dei ragazzi, i cosiddetti carusi, impiegati come garzoni nel duro lavoro nelle miniere di zolfo.
 “Il lavoro di questi fanciulli consisteva nel trasporto sulla schiena del minerale in sacchi o ceste, dalla galleria dove veniva scavato dal picconiere, fino al luogo dove all’aria aperta si faceva la basterella (riunione  di più casse) delle casse dei diversi picconieri, prima di riempire il calcarone (fornace).
-Ogni picconiere impiegava in media da due a quattro"
-"ragazzi, la cui età variava dai sette agli undici anni.
+Ogni picconiere impiegava in media da due a quattro
+ragazzi, la cui età variava dai sette agli undici anni.
 I fanciulli  lavoravano sotto terra da otto a dieci ore al giorno.
 I ragazzi impiegati all’aria aperta lavoravano per undici-dodici ore.
 Il carico variava secondo l’età e la forza dei ragazzi, ma era sempre molto superiore a quanto potesse portare una creatura di tenera età, senza grave danno alla salute, e senza pericolo di storpiarsi.
@@ -2113,8 +2113,8 @@ Anche Ranocchio si ammalò ma continuò a lavorare finché , un giorno Rosso non
 Dopo la morte di Ranocchio , rosso ha perso l’unica speranza di vita che aveva e affronta senza timore tutti gli incarichi affidatogli, tra cui il verificare
 una nuova via sotterranea che lo porterà a smarrirsi per sempre nel sottosuolo della cava e morire come il padre.
 I beni confiscati alla criminalità organizzata, grazie alla legge 109/1996, vengono amministrati dall’ANSBC - Agenzia Nazionale per l'Amministrazione e la Destinazione dei Beni Sequestrati e Confiscati alla Criminalità Organizzata, con sede a Reggio Calabria, sotto vigilanza del Ministero dell'Interno.
-L'Agenzia viene istituita con Decreto Legge 4/10, convertito in Legge 50/10, con il"
-"compito di provvedere all'amministrazione, alla custodia ed alla destinazione dei beni mobili e immobili sequestrati e confiscati alla criminalità organizzata.
+L'Agenzia viene istituita con Decreto Legge 4/10, convertito in Legge 50/10, con il
+compito di provvedere all'amministrazione, alla custodia ed alla destinazione dei beni mobili e immobili sequestrati e confiscati alla criminalità organizzata.
 L'Agenzia provvede all'amministrazione dei beni confiscati anche in via non definitiva e adotta i provvedimenti di destinazione dei beni confiscati per le prioritarie finalità istituzionali e sociali, secondo le modalità indicate dalla legge 31 maggio 1965, n.
 575, e successive modificazioni.
 Ha inoltre il compito di verificare che i soggetti che sono risultati assegnatari dei beni, provvedano al loro utilizzo conformemente alle finalità per le quali si è proceduto alla destinazione, pena la revoca della stessa.
@@ -2135,8 +2135,8 @@ Occupazioni abusive, confisca di quote indivise, carenze strutturali (Per quanto
 Per le Aziende: La grave situazione finanziaria in cui erano alcune aziende al momento della confisca:
 Amministratori giudiziari affidati a tali aziende i quali, anziché amministrarle sapientemente, si limitavano semplicemente a farne da custodi:
 Caratteristiche strutturali dell’azienda che impedivano di restare nell’ambito della legalità.
-Per i beni immobili: Il problema più grande è dovuto all’obsolescenza provocata dalla mancata manutenzione di"
-"quest’ultimi.È costituito dall’insieme degli strumenti, delle procedure e dei circuiti di collegamento mediante i quali si realizza il trasferimento della moneta da un operatore all’ altro.
+Per i beni immobili: Il problema più grande è dovuto all’obsolescenza provocata dalla mancata manutenzione di
+quest’ultimi.È costituito dall’insieme degli strumenti, delle procedure e dei circuiti di collegamento mediante i quali si realizza il trasferimento della moneta da un operatore all’ altro.
 Gli scambi regolati con denaro sono un atto reso possibile dallo stato il quale presta il servizio con la sua banca centrale con la stampa dei biglietti e con la coniazione di moneta e la loro messa in circolo.
 Sono forme di regolamento che la banca mette a disposizione degli operatori.
 Sono di tipo cartolare (assegni) o non cartolare (bonifici, giroconti e compensazioni).
@@ -2172,8 +2172,8 @@ Ogni volta che poteva, il giovane portava alla luce il discorso solo per ricever
 Erano queste pure ben fondate: il padre aveva perso la moglie da diciannove anni e ancora non aveva superato il dolore, lui ne aveva avuto uno simile e lo aveva più velocemente superato.Era, nel Amkog’ 3077, Uldor ancora nell’età più giovane della sua razza, essendo nato agli inizi dell’anno 3071:
 questa significava che, a breve, egli avrebbe iniziato la sua fase di crescita ed avrebbe iniziato a parlare.
 Le lingue che il lupo conosceva erano molte, tante quante quella che erano a conoscenza di Dalmor, poiché gli aveva insegnato tutto quel che sapeva nell’arco di tempo trascorso assieme.
-Non poteva ancora"
-"parlare, ma il lupo sapeva apprendere, e dar cenni chiari della sua conoscenza: riusciva a far sapere qualora non avesse compreso una lezione che gli veniva insegnata, e quindi gli veniva ripetuta.
+Non poteva ancora
+parlare, ma il lupo sapeva apprendere, e dar cenni chiari della sua conoscenza: riusciva a far sapere qualora non avesse compreso una lezione che gli veniva insegnata, e quindi gli veniva ripetuta.
 Era attivo molto più del suo padrone, in ottima forma, anche se leggermente più piccolo di statura di quanto non avrebbe dovuto un lupo della sua razza essere alla sua età:
 non era questo tuttavia un problema, non vivendo lui nelle feroci valli di ferro dove la forza fisica faceva la differenza tra la vita e la morte.Al richiamo ed alle coccole del suo compagno, il lupo rispose con leggeri guaiti ed appoggiandosi dolcemente alle sue gambe:
 dopodiché, lo seguì nell’incontro con suo padre.La domanda del figlio non era troppo scontata al padre:
@@ -2202,8 +2202,8 @@ La seconda torre, quella del re, era a base esagonale, e si trovava a sud rispet
 procedendo in verso orario, si aveva la sesta torre, a base circolare, adibita ad armeria di emergenza: quasi la metà delle armi della città era in essa:
 la terza torre, a base ottagonale, adibita a biblioteca, orgoglio non solo dei monti, ma di tutto l’esagono, poiché essa conteneva molti scritti proveniente dai primi anni riportati dalle scritture, dagli stati esterni:
 faceva concorrenza alla biblioteca di Arat Vanur.
-Vi era poi la quinta torre, esagonale, adibita a sole stalle: ben"
-"cinque piani di rifugi per cavalli, di cui i nove decimi non utilizzati: non erano utili i cavalli in una città come quella:
+Vi era poi la quinta torre, esagonale, adibita a sole stalle: ben
+cinque piani di rifugi per cavalli, di cui i nove decimi non utilizzati: non erano utili i cavalli in una città come quella:
 poi c’era la settima torre a base circolare, la più bassa, che raggiungeva appena i venti piedi: in realtà, essa proseguiva sotto il terreno, attorcigliandosi fino alle falde del monte: era uno degli accessi ai magazzini nascosti della città:
 la quarta torre era affianco a quella del re, era a base ottagonale, ed i piani in cima erano riservati a Dalmor, mentre i piani in basso erano per le cucine.
 Vivevano in questo complesso di pietre nere come la pece o bianche e risplendenti come la luna pochissime persone:
@@ -2225,8 +2225,8 @@ Superata la curva verso Est, questa si trovava dopo appena venti chilometri, in 
 La strada procedeva in linea quasi retta fino al ponte, collegando Zorqun e Torre Oscura al mare interno:
 nei pressi delle città era larga dieci metri circa, poi si stringeva, diventando una semplice corsia lastricata di pietre che permetteva il passaggio di un solo carro.
 Affianco, per tutta la sua lunghezza, c’era una corsia in erba corta per i cavalli, usabile come area di sosta per quei carri merci e carovane che necessitavano di una pausa.
-Mamnor lo trovò"
-"esattamente in quella posizione.
+Mamnor lo trovò
+esattamente in quella posizione.
 Lo toccò sulla spalla, e fu sorpreso della reattività del giovane: di solito, doveva buttarlo giù dal letto, o buttare del ghiaccio su di lui:
 quella notte, invece, bastò una leggere spinta per destarlo.
 Il principe si mise a sedere, affondando le mani nei suoi capelli ribelli, cercando di pulire dal viso i segni della notte.Il giovane impiegò una mezz’ora buona a salire le scale della sua torre, sbandando vistosamente e in preda a sporadici attacchi di risa:
@@ -2256,8 +2256,8 @@ Nelle successive settimane, la vita nella Fortezza Nera continuò normalmente se
 Il resto del mondo, però, era in bilico sull’orlo del precipizio.
 Il Regno del Nord dominava i mari dell’emisfero boreale, nonostante non una sola nave nemica fosse stata attaccata: il dominio era stato guadagnato solo con la schiacciante supremazia numerica.
 Il golfo di ferro era ancora sotto il dominio ed il controllo dei Monti, nonostante le numerose difficoltà che incontravano le navi mercantili a giungervi.
-Durtar Malur, nel pieno dello stretto del serpente, era in forte prosperità: l’unica via d’accesso via mare ad Arat Vanur era"
-"quella e, sebbene non vi fossero dazi sul passaggio, la stragrande maggioranza delle navi dirette alla capitale del nord si fermavano prima nel porto dei Monti, con grande vantaggio per il commercio.
+Durtar Malur, nel pieno dello stretto del serpente, era in forte prosperità: l’unica via d’accesso via mare ad Arat Vanur era
+quella e, sebbene non vi fossero dazi sul passaggio, la stragrande maggioranza delle navi dirette alla capitale del nord si fermavano prima nel porto dei Monti, con grande vantaggio per il commercio.
 Esattamente come Dalmor aveva previsto, non seguirono la vallata verso est, bensì voltarono a Nord: suo padre aveva scelto non il percorso più breve, ma forse il più significativo: non una città avrebbero incontrato durante il percorso, almeno così pensava il principe, tentando di indovinare i propositi del re a riguardo.
 Quando la Luna tramontò erano già usciti dalla valle, inoltrandosi in un passaggio sotterraneo che avrebbe permesso loro di sbucare al di là del passo sotto cui stavano cavalcando: uno straniero avrebbe impiegato due, forse addirittura tre, giorni per salire il passo e discendere dall’altra parte:
 loro lo avrebbero superato prima che il Sole salisse.
@@ -2280,8 +2280,8 @@ Aprì gli occhi con non poche difficoltà:
 rimase qualche minuto immobile, con gli occhi semiaperti, senza riuscire a connettere immagini e cervello.
 Quando finalmente riuscì a mettere in moto qualcosa, fu capace anche di alzare leggermente la testa, con uno sforzo enorme: davanti alla sua testa aveva una brocca di ceramica in frantumi, e il vino era asciutto a terra, una scura macchia viola sulla pietra.
 La testa gli scoppiava, e la lasciò cadere a terra, con immediato sollievo:
-si rotolò sulla"
-"schiena, sentendo qualcosa di duro che gli premeva sulle scapole, ma non vi fece caso.
+si rotolò sulla
+schiena, sentendo qualcosa di duro che gli premeva sulle scapole, ma non vi fece caso.
 Il soffitto gli sembrava un muro che si divertiva a non stare fermo davanti ai suoi occhi:
 il pensiero gli fece venire un conato di vomito.
 Dovettero fermarsi ed accamparsi quando la luce calò:
@@ -2309,8 +2309,8 @@ Piatti e vassoi erano in oro, posate in argento e bicchieri e brocche in cristal
 Ferm, alla destra del fratello, seduto sulla sua sfarzosa poltrona, presenziò il banchetto, e Tildor assunse il ruolo di ospite d’onore, sebbene sedesse al trono che spettava solo a lui:
 non indossò la corona, perché i re dei Monti non la indossavano mai nei confini del Regno, escluso il giorno dell’incoronazione.
 Uldor si divertiva gironzolando e facendosi coccolare dalle dame che popolavano la stanza, mentre Dalmor si nascose tra un gruppo di giovani assistenti dell’ambasciata di Aglaas, seduto accanto al suo amico Turyn.
-Non gli piaceva essere al centro dell’attenzione, e preferiva"
-"una convivialità più intima, che trovò in quel gruppo di giovani intelligenti e prestanti.
+Non gli piaceva essere al centro dell’attenzione, e preferiva
+una convivialità più intima, che trovò in quel gruppo di giovani intelligenti e prestanti.
 Nel frattempo, un giullare di corte arrivò suonando il flauto e saltellando allegramente, danzando tra i tavoli in inchini e smancerie.
 La vita nella cittadella di Zorqun era una ventata d’aria fresca per il giovane.
 Trascorse quel breve periodo gustandosi il perfetto microclima sempre sereno e fresco della città, ebbe l’opportunità di parlare e discorrere con molti personaggi che avevano una certa rilevanza a corte:
@@ -2341,8 +2341,8 @@ Il principe e il re, mentre mangiavano, bevevano e fumavano, si diedero ad una d
 Dalmor notò che il dialetto non era per nulla diverso dal paesino precedente, e che aveva quindi a che fare di nuovo con dei modi di fare non proprio garbati.
 L’oste tuttavia non fece storie, disse a Tildor dove erano le loro stanze e li mandò in un corridoio laterale, informandoli che ‘La cena l’amo fatta già, se volete ce sta quarche avanzo ma ve dovete accontetà.
 Ed è freddo, quindi ve accontentate’.
-Si sistemarono e mangiarono"
-"quello che passava la casa, accontentandosi come previsto: almeno il bollito di carne era mangiabile.Nei giorni seguenti, il tempo resto cupo, alternando folate di vento a piogge incessanti.
+Si sistemarono e mangiarono
+quello che passava la casa, accontentandosi come previsto: almeno il bollito di carne era mangiabile.Nei giorni seguenti, il tempo resto cupo, alternando folate di vento a piogge incessanti.
 I prossimi punti di ristoro erano più vicini tra loro, quindi poterono permettersi di viaggiare con più calma.
 Il dialetto locale ancora assillava le orecchie di Dalmor, il quale si stava tuttavia abituando e iniziava a capirlo, trovandolo anche meno terribile della prima impressione che gli fece.
 Forse, si disse, avrebbe potuto parlarlo tranquillamente: in fondo, era sprezzante, sincero e a volte sarcasticamente cattivo, cosa che gli piaceva.
@@ -2389,8 +2389,8 @@ La città non era ancora alla fame, ma lo sarebbe stata appena finita l’estate
 Il Re continuava a fare avanti e indietro davanti le porte della città, senza proferire parola ma continuando a gesticolare, come se stesse tenendo una conversazione con qualcuno.
 Le truppe lo osservavano, ma nessuno osò disturbarlo o distrarlo, almeno finché le porte della città non cedettero sotto i colpi dell’ariete.
 A quel punto, qualcuno doveva comunicargli la notizia che stavano per entrare in città, ma nessuno, né i generali, né i soldati, avevano intenzione di farlo.La terza armata entrò in città e si trovò davanti quel terribile spettacolo ovunque.
-L’unica zona dove non arrivarono fu la cittadella, il quartiere"
-"centrale della città, costruito sul versante di un colle:
+L’unica zona dove non arrivarono fu la cittadella, il quartiere
+centrale della città, costruito sul versante di un colle:
 era un’area molto ampia e cinta da mura.
 Il Re ordinò che si lasciasse stare la cittadella e si pensasse ad aiutare la popolazione stremata, prima.
 Si scoprì anche la causa dell’esplosione che avevano sentito prima: un piccolo magazzino di polvere da sparo, utilizzata per i pochi cannoni che erano sulle mura (Arat Vanur era la prima città al mondo ad essere difesa da cannoni, ma questo lo si scoprì solo quando le truppe dei Monti entrarono nella città) era esploso, forse per mano dolosa.
@@ -2585,8 +2585,8 @@ Questa assegnazione avviene secondo un rapporto di tipo associativo con il più 
 Per giunta possono esserci diverse interpretazioni a seconda del corrispondente italiano che ciascun individuo ha in mente.Non esiste un metodo intrinsecamente più giusto dell’altro, ma è opportuno che ogni organizzazione stabilisca delle convenzioni allo scopo di mantenere la coerenza terminologica interna.Quando esiste un traducente italiano ufficiale di un prodotto, va usato quello, altrimenti si lascia la versione originale.L’altra opzione è conferire al termine un traducente italiano.Prima c’è tutto un lavoro di ricerca della terminologia non solo corretta, ma anche coerente con lo stile Mozilla e con i prodotti localizzati in precedenza.
 Le traduzioni in italiano trasparenti e riconoscibili dei termini inglesi hanno il vantaggio “didattico” di portare a una consapevolezza più pragmatica e profonda dei terminiPer evitare questo effetto può essere utile unire due periodi brevi in uno più lungo, quando possibile evidenziandone il nesso logico con una proposizione subordinata.
 Questo darà al discorso un senso di continuità e renderà più facile seguirne il filo logico.Il campo dell’informatica ha senza dubbio adottato come lingua franca l’inglese.La prima opzione è lasciare il termine invariato.
-Questa scelta è da preferire in caso di termini"
-"Va al progetto.
+Questa scelta è da preferire in caso di termini
+Va al progetto.
 Esegue l'accesso.Inserisce la traduzione nell’apposito campo.Il corpo dell’articolo, tecnicamente la traduzione vera e propria.Ciascuno ha le sue preferenze per gestire questa parte della traduzione.Naviga fino all’articolo da tradurre.
 Per gli studenti di marketing può essere un interessante sbocco per studiare applicazioni reali per la comunicazione, il brand, la gestione di community.
 Chi studia per una carriera manageriale può gestire un progetto, interfacciarsi con situazioni complesse e di problem solving.
@@ -2608,8 +2608,8 @@ Inoltre ti informa del numero di articoli e molto altro!Passando con il mouse su
 Vanno moderati cioè cancellati o approvati per l’apparizione nel sito.Imposta il gruppo o più gruppi in cui quel banner deve apparire sul sito.
 Parleremo anche delle nuove uscite, ed anche delle vecchie, posteremo recensioni, e soprattutto resteremo in contatto con voi che ci seguite e con chi (speriamo) ci seguirà.
 Il tutto sempre con la nostra simpatia e cordialità di sempre!Ciò renderebbe il tutto molto più allettante, ma non è assolutamente necessario giocare insieme allo stesso gioco.L’iniziativa dura una settimana, e al termine di essa, a seconda di quanti trofei sono stati acquisiti, o anche se non si possiede nessun trofeo.
-Una associazione, una piccola associazione, con grandi progetti.E’ scegliere di avere libertà di modificare il programma per cui hai"
-"E’ scegliere di mantenere alta la competenza ed il mercato, devo essere sempre più bravo dei miei competitor per avere la tua fiducia.
+Una associazione, una piccola associazione, con grandi progetti.E’ scegliere di avere libertà di modificare il programma per cui hai
+E’ scegliere di mantenere alta la competenza ed il mercato, devo essere sempre più bravo dei miei competitor per avere la tua fiducia.
 Durante il periodo di formazione si verrà affiancati da Mentor che hanno già completato i progetti l’anno precedente.
 Fine ultimo del programma è costruire una community.
 di persone.
@@ -2638,8 +2638,8 @@ E proprio per questo non si può più smettere di guardarla.
 Lemony Snicket, l’autore della storia, fin dall’inizio, avvisa lo spettatore che quello che vedrà non sarà piacevole.
 Dal momento in cui perdono i genitori in un incendio, la sfiga si abbatte sugli orfani Baudelaire in maniera incontenibile.
 Perennemente tormentati dal malvagio conte Olaf, che vuole impadronirsi della loro eredità, i tre ragazzi Baudelaire sono costretti a lottare contro un mondo di adulti idioti e ottusi, incapaci di osservare la realtà e di dar loro fiducia.
-Temi importanti, come l’affrontare un lutto o lottare contro paure inutili, affiorano sulla superficie dell’"
-"Le atmosfere sono quasi fiabesche, a metà tra l’immaginario di Tim Burton e quello di Wes Anderson, i mondi creati da Lemony Snicket pseudinimo di Daniel Handler, sono tutto quello che avremmo voluto vivere da bambini.Presenza costante e quasi personaggio fondamentale delle storie sono i libri.
+Temi importanti, come l’affrontare un lutto o lottare contro paure inutili, affiorano sulla superficie dell’
+Le atmosfere sono quasi fiabesche, a metà tra l’immaginario di Tim Burton e quello di Wes Anderson, i mondi creati da Lemony Snicket pseudinimo di Daniel Handler, sono tutto quello che avremmo voluto vivere da bambini.Presenza costante e quasi personaggio fondamentale delle storie sono i libri.
 In ogni avventura i tre ragazzi si confrontano con la necessità di reperire informazioni e in modo del tutto naturale si rivolgono ai libri.
 Splendide librerie, specchio delle personalità dei loro padroni, popolano ogni luogo in cui i tre orfani si trovano e grazie alla consultazione dei libri, i Baudelaire riescono ogni volta a vincere sul conte Olaf e ad aggiungere piccoli indizi per risolvere l’enigma della morte dei genitori.Una serie di sfortunati eventi è molto bella e il 30 marzo esce la seconda stagione.
 Non guardatela!
@@ -2655,8 +2655,8 @@ Ti alzi un giorno convinto di essere nel presente e invece bam!
 Fuori è già futuro, baby!Ti affacci alla finestra, guardi il cielo sconfinato e ti sembra proprio di vederla quella Tesla rossa, che viaggia verso Marte con la scritta Don’t panic!
 in bella vista e un asciugamano nel cruscotto.
 Non si può più fermare, il futuro comincia a entrare da tutte le parti.
-Apri la porta e spunta uno che progetta e vende macchine elettriche che si guidano da sole, apri la credenza ed esce fuori quello che progetta treni superveloci, da sotto il tappeto spunta quello che sta scavando tunnel sotto Los Angeles perché si annoiava a stare nel traffico, infine ti atterra un booster sul balcone e non ci capisci"
-"In tv ci sono i pooh che cantano a Sanremo e attorno a me c’è Elon Musk che spunta da tutte le parti.
+Apri la porta e spunta uno che progetta e vende macchine elettriche che si guidano da sole, apri la credenza ed esce fuori quello che progetta treni superveloci, da sotto il tappeto spunta quello che sta scavando tunnel sotto Los Angeles perché si annoiava a stare nel traffico, infine ti atterra un booster sul balcone e non ci capisci
+In tv ci sono i pooh che cantano a Sanremo e attorno a me c’è Elon Musk che spunta da tutte le parti.
 Elon Musk è l’uomo del futuro.
 È colui che ha la soluzione a ogni problema.Le emissioni di gas serra stanno distruggendo il pianeta e compromettendo la vita su di esso?
 La soluzione è Tesla Motors, la ditta che produce macchine elettriche super tecnologiche che si guidano da sole, non emettono CO2 e hanno prezzi abbordabili.Il traffico a Los Angeles fa impazzire tutti?
@@ -2684,8 +2684,8 @@ Sbattere contro il pavimento fa male.Tornare a casa con lividi invisibili.
 Sbattere contro le emozioni fa male.Abbattere ogni tipo di barriera relativa al contatto fisico.
 Resistere è inutile.
 Quando faccio teatro non riesco a camminare per colpa dell’acido lattico nei muscoli, non riesco a pensare per colpa dell’affollamento di pensieri nella testa, ma riesco a vedere benissimo dove andare.
-Questo"
-"Lo fa a tutti, lo fa sempre.Non sai dove andare?
+Questo
+Lo fa a tutti, lo fa sempre.Non sai dove andare?
 Prova a fare teatro troverai la tua strada!
 Chi bazzica l’ambiente della cultura lo sa bene, chi bazzica Benevento lo sa anche meglio: fare di più non è fare meglio.Mai vista in vita mia una fila ordinata per entrare ad un concerto al teatro romano.
 Tutti in fila per due, schierati come soldatini.
@@ -2711,8 +2711,8 @@ Eh si, per vedere uno spettacolo decente bisogna aspettare il Napoli Teatro Fest
 Qualcuno lassù mi ama e ha ascoltato le mie preghiere.
 Lo spettacolo Frankenstein o’ Mostro è stato replicato a Morcone.
 E così:
-gambe in spalla si"
-"Ma stasera c’è il concerto di Savastano.
+gambe in spalla si
+Ma stasera c’è il concerto di Savastano.
 Benissimo allora si va quasi tutti a vedere lo spettacolo!
 Ma io veramente preferisco vedere Savastano.
 E va bene si va in tre.
@@ -3139,7 +3139,7 @@ Vesti un palo che bel t'appare.
 Vive bene chi prende il mondo come viene.
 Voce di popolo, voce di Dio.
 Zotici e villani discuton con le mani.
-"Cosa significa “Inclusione Digitale” ?
+Cosa significa “Inclusione Digitale” ?
 Siamo pronti ad accettare un Internet realmente globale?
 Chi è benvenuto “online”?
 Siamo abituati e circondati da slogan che dichiarano che il web sia un rete globale.
@@ -3147,7 +3147,7 @@ Purtroppo questo non sempre è vero!
 Non basta contare quante siano le persone che hanno accesso alla rete, bisogna considerare anche per quanti di noi l’accesso sia sicuro e significativo.
 Allo stato attuale circa metà della popolazione mondiale è già online e giorno dopo giorno, grazie ai dispositivi mobili e i Social Network, il numero è destinato a crescere in modo spropositato.
 Questa crescita però non può sminuire il problema del “Digital divide” che purtroppo persiste e si sposta da un aspetto tecnologico ad un problema di conoscenze e abilità necessarie per poter navigare in modo consapevole.
-"L’Inclusione Digitale dunque è un problema che rimane costante malgrado gli utenti della rete siano destinati a crescere, perché, per creare una vera inclusione non basta dare il libero accesso.
+L’Inclusione Digitale dunque è un problema che rimane costante malgrado gli utenti della rete siano destinati a crescere, perché, per creare una vera inclusione non basta dare il libero accesso.
 Quanti sono i contenuti a cui possiamo avere accesso dalla nostra nazione?
 Quali di questi sono tradotti in un linguaggio che possiamo comprendere facilmente?
 Ringrazio tutti coloro che hanno reso possibile questo evento e tutti coloro che attivamente hanno partecipato alla discussione.
@@ -3155,7 +3155,7 @@ Ma soprattutto, quali sono i rischi a cui veniamo incontro utilizzando la rete?
 Una inclusione digitale non può esistere senza una reale volontà di inclusione sociale verso il prossimo uguale ma diverso da noi stessi.
 Per questa ragione è stato importante coinvolgere le persone in un ampio e inclusivo dibattito su argomenti come la neutralità della rete e la resilienza di Internet.
 Ogni volta che partecipo ad inziative o eventi di questo genere sono sempre curioso di conoscere come gli altri concepiscono e trasmettono il loro modo di fare Comunità.
-"Quest’anno la capitale del ritrovo é stata la città di Eindhoven in Olanda.
+Quest’anno la capitale del ritrovo é stata la città di Eindhoven in Olanda.
 Eindhoven, con i suoi circa 220.
 000 abitanti è attualmente uno dei centri più importanti di innovazione nei Paesi Bassi.
 Storicamente ha ricoperto un importante ruolo di innovazione, basti pensare che la Philips ha avuto nascita proprio qui!
@@ -3165,7 +3165,7 @@ Personalmente, poter contribuire attivamente al Festival é qualcosa di verament
 Nei giorni scorsi mi sono sentito un privilegiato nel poter ascoltare le esperienze di persone provenienti da tutti i continenti del Mondo e prender parte al MozRetreat.
 L’evento di Cagliari è stato rimodulato più e più volte da noi tutti del team di sviluppo della Campagna per far fronte alle forti limitazioni e gli ostacoli che per il forte caldo si sono presentati quest’anno nel capoluogo Sardo.
 Ovviamente, non sono mancati i tanti gadget che abbiamo voluto offrire a tutti i curiosi che sono accorsi per sapere qualcosa in più su tutti noi.
-"Prima di scrivere questo articolo, mi sono posto due domande che ho voluto condividere con voi.
+Prima di scrivere questo articolo, mi sono posto due domande che ho voluto condividere con voi.
 Personalmente non credo esista una sola definizione di cosa significhi comunità e le ragioni per le quali decidiamo di farne parte.
 L’unica cosa che ritengo importante è che ci sia una reale connessione e volontà di condividere se stessi e delle esperienze tutti assieme.
 Per me è comunità sia Mozilla che il MozRetreat e tutti i momenti nei quali ci si connette come umani gli uni con gli altri.
@@ -3174,7 +3174,7 @@ Tra il pubblico oltre i curiosi erano presenti artisti, professionisti, nonchè 
 Al termine di questa breve parentesi, abbiamo voluto realizzare una tavola rotonda inclusiva tra tutti gli spettatori e i relatori.
 I temi principali sono stati le implicazioni che questa normativa ha nel quotidiano per i relatori coinvolti, le prospettive future derivate da quelle che sono le proposte in dibattimento a Bruxelles e i “side effect” che derivano da una normativa inadeguata come quella attuale.
 Durante l’incontro si è parlato anche delle Fake News e di quelli che sono i fattori Sociali che influenzano sia il mercato che come viene recepita e applicata dalla cittadinanza una normativa come quella del diritto di autore.
-"In ultimo ma non ultimo, il Venerdì ho avuto l’occasione di poter prender parte all’incontro con il team di trasformazione digitale voluto fortemente dal Governo Italiano per avvicinare la pubblica amministrazione al mondo digitale.
+In ultimo ma non ultimo, il Venerdì ho avuto l’occasione di poter prender parte all’incontro con il team di trasformazione digitale voluto fortemente dal Governo Italiano per avvicinare la pubblica amministrazione al mondo digitale.
 Oggi volevo condividere con voi la grandiosa esperienza che ho potuto vivere la settimana scorsa a Tallinn in Estonia.
 Il primo giorno, dopo un giro di presentazioni generali da parte di tutti, è stata fatta una introduzione su quali argomenti tratterà il Mozilla Festival.
 Successivamente, ci siamo divisi in piccoli gruppi e ognuno di noi ha dato una sua vision del festival e ha disegnato come i vari argomenti possano essere collegati tra di loro.
@@ -3185,7 +3185,7 @@ Ognuno di noi poteva scegliere tra un tour storico nella vecchia città medieval
 Personalmente ho scelto il tour storico medievale.
 Personalmente è stata una esperienza grandiosa accompagnata da persone fantastiche.
 Conoscere questa città, la sua storia e contribuire al prossimo Mozilla Festival per me non solo è fantastico, ma è una grande opportunità per aiutare la Fondazione Mozilla a perseguire gli ideali di libertà, uguaglianza e inclusività nel web.
-"Nei prossimi giorni verranno pubblicati sul sito ufficiale del summit le registrazione dei talk e le note delle varie sessioni presentate durante la unconference.
+Nei prossimi giorni verranno pubblicati sul sito ufficiale del summit le registrazione dei talk e le note delle varie sessioni presentate durante la unconference.
 Sono estremamente contento di questa esperienza.
 Conoscere altre persone che hanno passioni simili alle mie, che portano avanti degli obiettivi attraverso delle community e sono pronte a condividere le loro esperienze con gli altri in maniera spontanea, inclusiva, libera e aperta è per me veramente fantastico.
 Ultimo elemento ma non ultimo, che ha caratterizzato questo weekend Milanese è stato l’incontro con alcuni volontari di Mozilla Italia che risiedono nel Nord Italia.
@@ -3200,13 +3200,13 @@ Una per le Americhe, Una per Europa, Asia e Africa e Una per l’estremo Oriente
 Le demo live hanno permesso a tutte le persone Online e Offline di poter conoscere meglio i progetti coinvolti e poter prendere parte alla loro realizzazione.
 o stato di salute di un giardino condivide molti attributi con lo stato di salute di Internet.
 Entrambi gli ecosistemi ci “nutrono” e ci danno l’opportunità di contribuire.
-Per questa ragione speriamo che ti unirai a noi dal 27 al 29 Ottobre"
-"al Ravensbourne di Londra, per condividere con noi il divertimento!
+Per questa ragione speriamo che ti unirai a noi dal 27 al 29 Ottobre
+al Ravensbourne di Londra, per condividere con noi il divertimento!
 Un Giardino in salute ha la necessità di esser vario tanto quanto ha la necessità di difendersi dagli insetti e dalle malattie.
 Il web non è differente e non è differente anche il modo con il quale esprimiamo rapidamente noi stessi in tutte le possibili forme online.
 E’ stato dunque interessante raccogliere le esperienze e i pareri di tutti i presenti per costruire un dialogo volto a sensibilizzare tutte le persone sul fatto che, mal grado sino ad oggi, non ci siano state queste ripercussioni, è importante chiedere a gran voce che l’Unione Europea faccia chiarezza con una legge che possa esser scritta per esser vicina alle persone e ai propri bisogni.
 In conclusione abbiamo discusso su degli esempi pratici di quello che potrebbe esser inteso come violazione del Copyright in Italia e su quelle che sono le normative ufficiali Italiane che trattano questi temi.
-"A fine giornata gli organizzatori hanno assegnato dei premi ai relatori più meritevoli.
+A fine giornata gli organizzatori hanno assegnato dei premi ai relatori più meritevoli.
 E’ stato per me un vero piacere poter collaborare con il Gruppo Utenti di Linux di Cagliari e aver preso parte a questa manifestazione che oramai a Cagliari viene realizzata da oramai 15 Anni.
 E’ stato interessante cogliere come le persone percepiscano differentemente questo problema.
 Mal grado tutte le persone presenti ai due incontri abbiano mostrato della preoccupazione circa questa tematica, alcune, non sentono una reale implicazione dalla violazione di questa legge, perchè sino ad oggi non sono stati rilevanti i casi di ripercussioni pesanti sugli utenti.
@@ -3216,7 +3216,7 @@ Per noi è importante che le persone sappiano come interpretare il web, che poss
 Oggi giorno, sopratutto in Italia, l’università non propone a tutti i propri studenti delle realtà e delle occasioni che permettano di confrontarsi su queste tematiche o sviluppare nuove idee e innovazioni in modo collaborativo e inclusivo.
 Per questa ragione credo che questa sia una occasione a cui nessuno studente Universitario può rinunciare.
 Una occasione che permette a chiunque di mettersi in gioco, di sviluppare nuove idee e proteggere la libertà che sempre meno diventa importante nel web.
-"Vogliamo che gli utenti abbiano modo di poter avere una vita virtuale consapevole e sicura e per questo ci battiamo.
+Vogliamo che gli utenti abbiano modo di poter avere una vita virtuale consapevole e sicura e per questo ci battiamo.
 Sono contento di poter ufficialmente annunciare l’arrivo tra noi del nuovo programma Universitario di Mozilla.
 Un programma che definitivamente abbraccia globalmente tutte le tematiche e gli obbiettivi della Fondazione, permettendo agli studenti di poter affrontare queste tematiche in prima persona e realizzando laboratori che possano incentivare l’innovazione e la collaborazione tra tutti gli studenti del nostro globo.
 Oggi giorno tutti noi abbiamo la necessità di interagire con il web.
@@ -3249,15 +3249,15 @@ Questa è una storia narrata sui libri di scuola, ma c'è un seguito che non vie
 Segnalo, a scanso di equivoci, che ciò che sto per raccontare non è realmente accaduto e di conseguenza non è mai stato riportato da nessuno storiografo.
 Potrei inventarmi che ne abbia scritto qualcosa Erodoto, perché mi ricordo di lui come storiografo, ma so di certo che è antecedente alla fondazione di Roma.
 In questo modo, oltre a raccontare un fatto non vero, citerei anche fonti che non avrebbero potuto proprio tramandare quanto segue.
-Sapete perché a Roma si dice "tu sorella!""
+Sapete perché a Roma si dice "tu sorella!"
 Si tratta di un modo di dire che risale proprio a quel periodo quando alcune donne della regione si organizzarono in una setta segreta volta a sabotare la città e vendicarsi di quanto fatto dai Romani alle Sabine.
 Era difficilissimo scovare delle appartenenti a questo primordiale movimento antagonista.
 Potevi incontrare ovunque un membro che ne faceva parte e non riconoscerlo.
 Una di quelle donne della setta, poteva anche essere in casa tua, poteva essere persino tua sorella senza che tu lo sapessi.
 È qui che nasce il modo di dire "se, tu sorella…".
 Quando in quel periodo storico accadeva qualche problema e non si conosceva la causa, i Romani ipotizzavano di avere una sovversiva all’interno delle mura domestiche.
-L'arcaico "tu sorella", o"
-"sorellam tua (sì, non è il termine latino esatto, ma “sorellam” fa più ridere di soror), veniva spesso anche usato come malaugurio per auspicare a qualcuno di avere in casa una militante.
+L'arcaico "tu sorella", o
+sorellam tua (sì, non è il termine latino esatto, ma “sorellam” fa più ridere di soror), veniva spesso anche usato come malaugurio per auspicare a qualcuno di avere in casa una militante.
 La stessa accezione negativa può essere estesa anche a “tu zia”, ovviamente in questo caso il malaugurio è di avere una zia sovversiva.
 Dal ratto delle Sabine in poi, tutti i peggiori avvenimenti della città di Roma si dice che furono progettati da questa setta segreta, la setta delle Toga Nigra (come nome mi sembra davvero molto potente).
 Dall'incendio di Roma del 64 a.C.
@@ -3273,8 +3273,8 @@ Avevano ragione comunque, poiché i Romani la combinarono grossa.
 Le combattenti della Toga Nigra a conti fatti sono le attuali suore.
 Come dicevo, la loro reazione fu una conseguenza giusta a ciò che molte donne dovettero subire, rivendicando così i diritti di quelle vittime ingiustamente rapite.
 Da centinaia di anni le sovversive compiono atti di sabotaggio su Roma per vendicarsi del sopruso subito.
-Anche se sto utilizz"
-"ando la loro figura per il mio racconto e devo rappresentarle come le cattive della situazione, sono dalla loro parte e sono d’accordo con la loro causa.
+Anche se sto utilizz
+ando la loro figura per il mio racconto e devo rappresentarle come le cattive della situazione, sono dalla loro parte e sono d’accordo con la loro causa.
 Inoltre, mi piacciono anche le suore!
 Probabilmente le donne di cui sto parlando continuano questa lotta perché nessuno finora ha chiesto scusa per il ratto delle Sabine.
 Basterebbe semplicemente affrontare la tematica a un tavolo.
@@ -3294,8 +3294,8 @@ Hanno vari meeting point (i conventi) sparsi per la città, che alla fine sono t
 Bevono il tè, fanno battute nerd e a volte guardano le serie tv.
 Dentro ci sono delle workstation da dove scrivono centinaia di righe di codice al giorno.
 Contribuiscono persino a importantissimi progetti comunitari, come il Kernel Linux e supportano attivamente la comunità hacker.
-Le sorelle provano ogni"
-"giorni svariati tipi di attacchi informatici e spesso riescono nel loro intento.
+Le sorelle provano ogni
+giorni svariati tipi di attacchi informatici e spesso riescono nel loro intento.
 La metro non passa da quasi 15 minuti?
 Dietro il ritardo probabilmente c’è una loro intrusione nei sistemi informatici della società dei trasporti.
 Spesso collegandosi al main-frame che gestisce gli scambi dei binari della metropolitani causano forti rallentamenti.
@@ -3331,7 +3331,7 @@ Dopo aver udito quel nome, dimenticai tutte le opere di Anacreonte focalizzando 
 Smerdi.
 Space Cowboy era solo.
 I suoi compagni erano intrappolati nel caos cittadino e non avrebbero potuto aiutarlo.
-"Dava uno sguardo ai binari del treno, a una Roma che lo affascinava, e subito si metteva davanti al computer.
+Dava uno sguardo ai binari del treno, a una Roma che lo affascinava, e subito si metteva davanti al computer.
 Come Mongoose anche lui lavorava nel buio della sua stanza, tra monitor, tastiere e tecnologia old school poco fighetta.
 Ho già usato l’epiteto “fighetto” in relazione alla tecnologia ed è ora che spieghi di cosa sto parlando.
 In poche parole, le cose della Apple sono considerate “fighette”, il resto no.
@@ -3366,7 +3366,7 @@ Sarebbe stato poi contattato da un tizio tipo Morpheus?
 Orecchio poggiato sulla porta, un mozzicone sulle labbra e un mezzo sorriso, mentre i passi si facevano sempre più vicini.
 <<Ciao, amore!>>.
 Odore di caffè e cornetti industriali scaldati al forno era quello che si sentiva nella cucina in perfetto ordine dello Space Cowboy in versione cittadino normale e anonimo.
-"Era sulla buona strada quando fuori dal call center vide Cinnamon Girl abbastanza incazzata.
+Era sulla buona strada quando fuori dal call center vide Cinnamon Girl abbastanza incazzata.
 Pareva avesse un aspetto robotico.
 Evidentemente Skynet aveva preso il controllo di Cinnamon, oppure lei era già da prima un cyborg, un terminator per la precisione.
 La ragazza entrò nell’internet point e iniziò a lanciare tutti i monitor, a tubo catodico old-school, verso Space Cowboy per cercare di ucciderlo.
@@ -3461,8 +3461,8 @@ Tra gli spettatori cominciarono i mormorii.
 Povero americano!
 Peccato!
 Il tentativo era così bello .
-Mezz’ora dopo, la torretta del Nautilus scaturì"
-"dalle onde, a grande distanza dai moli: subito l’albero coricato su la coperta si rialzò, venne spiegata 1a piccola vela e poichè spirava vento favorevole, in breve tempo il curioso battello, navigando alla superficie, ritornò presso lo scalo.
+Mezz’ora dopo, la torretta del Nautilus scaturì
+dalle onde, a grande distanza dai moli: subito l’albero coricato su la coperta si rialzò, venne spiegata 1a piccola vela e poichè spirava vento favorevole, in breve tempo il curioso battello, navigando alla superficie, ritornò presso lo scalo.
 Roberto Fulton venne ammesso alla presenza del Primo Console.
 Era, in quel tempo, un bell’uomo su i trentacinque anni, robusto, con la faccia aperta e intelligente e nella espressione della fisonomia il grande inventore spirava una gioiosa sicurezza.
 Ma l’accoglienza di Napoleone non fu tale, in realtà, da infondere nuovo coraggio a Roberto Fulton.
@@ -3503,8 +3503,8 @@ Facile è sciogliere il sottomarino dagli ormeggi, attaccarlo solidamente al can
 Prima dell’alba, arrivano all’estremo limite del porto: il guardiano inglese balza a terra, saluta, augura buona fortuna.
 E adesso i due americani continuano a vogare con lena raddoppiata, trascinandosi dietro il carico prezioso.
 La sfera subacquea sarà in continua comunicazione telefonica con il personale della nave.
-Su quest’ultima, poi, verrà disposto uno speciale servizio di stenodattilografia, che non"
-"appena ricevute le notizie le trasmetterà a mezzo radio a tutto il mondo.
+Su quest’ultima, poi, verrà disposto uno speciale servizio di stenodattilografia, che non
+appena ricevute le notizie le trasmetterà a mezzo radio a tutto il mondo.
 Fino a tutt’oggi non si conoscono ancora i nomi degli esploratori che prenderanno parte alla spedizione, ma a quanto si dice il numero dei nuovi Argonauti sarà limitato a tre.
 Questa sfera, che chiameremo danese, potrà discendere a 860 metri sotto il livello del mare.
 Ma sembra che anche nel Belgio si vada preparando una spedizione simile con un’altra sfera metallica che potrà scendere fino a mille metri.
@@ -3532,8 +3532,8 @@ Una specie di piattaforma quasi a fior di acqua sporgeva dalla sua prora e perme
 Una passerella lungo i fianchi della nave consentiva osservazioni dirette e fotografie.
 Un magnifico laboratorio a grandi vetrate sul ponte, acquari spaziosi a scompartimenti, camere oscure per lo studio degli animali luminosi, canotti a fondo piatto formato da una grande e resistente lastra di vetro di trasparenza perfetta, quanto di migliore e di più perfetto si sa costruire in fatto di reti, di nasse elettriche, e d’altri arnesi da pesca, scafandri perfezionatissimi, facevano della grande e bella nave, lunga ottanta metri, una vera meraviglia del genere.
 Della spedizione facevano parte alcune signore, quasi tutte mogli degli oceanografi imbarcati sull’Arcturus, oceanografe distinte esse stesse.
-Oliveira, il cui volto si era rischiarato, come si rischiara il cielo"
-"dopo un burrascoso passaggio di nubi.
+Oliveira, il cui volto si era rischiarato, come si rischiara il cielo
+dopo un burrascoso passaggio di nubi.
 Sieno rinnovate le operazioni di scandaglio  ordinò il capitano del Condor.
 Intanto il professore era disceso nella sua cabina, dove i marinai avevano collocato il sasso, dritto contro una parete.
 Ora il poveromo, tutto curvo, col capo proteso, tenendo in una mano uno scalpello e nell’altra una lente d’ingrandimento, cercava di riconoscer la natura di quell’oggetto misterioso.
@@ -3586,8 +3586,8 @@ Del tutto disinteressato, egli cedeva del resto con la stessa frequenza al cuore
 caritatevole e cavalleresco, non avrebbe segnato la condanna del suo più crudele nemico, e si sarebbe venduto come uno schiavo per riscattare un negro… .
 Michele Ardan è il vero eroe dell’avventura interplanetare.
 Per la sua volontà la palla si trasforma in una specie di battello navigante nello spazio: per la sua ispirazione il tentativo audace ma freddo degli yankees diventa un’impresa piena di commozione, di spirito, di grandezza umana.
-Egli riesce a far riconciliare il capitano Nicholl, grande costruttore di corazze, con l’impassibile Barbicane, grande costruttore"
-"di proietti, fino a quel punto nemici mortali.
+Egli riesce a far riconciliare il capitano Nicholl, grande costruttore di corazze, con l’impassibile Barbicane, grande costruttore
+di proietti, fino a quel punto nemici mortali.
 Solo tali occhi erano protetti contro l’urto della partenza da lastre solidamente incastrate ch’era facile gettare al di fuori svitando le madreviti interne: in questa maniera l’aria contenuta nel proiettile non poteva sfuggire e le osservazioni divenivano possibili.
 Tutti questi congegni, maravigliosamente posti in opera, funzionavano con la massima facilità: e gli ingegneri non si erano mostrati meno intelligenti nell’ammobiliare il vagone-proiettile.
 Recipienti solidamente fissati erano destinati a contenere l’acqua e i viveri necessari ai viaggiatori, i quali potevano procurarsi anche il fuoco e la luce per mezzo del gas, raccolto in un recipiente speciale sotto una pressione di molte atmosfere;
@@ -3796,8 +3796,7 @@ Avere una memoria del pesce rosso.
 Avere un riccio nella tasca.
 Bagnarsi il becco.
 Ballarci dentro.
-Battere cassa."
-
+Battere cassa.
 Battere due chiodi a una calda.
 Battere il cane al posto del padrone.
 Battere il chiodo.
@@ -4293,17 +4292,17 @@ e grandemente poi si allieta, quando vede che tale invocazione estende la sua ef
 Anzi, a ben considerare questa stessa unità, impetrata da Cristo per la sua chiesa, sembra quasi rifulgere di un triplice raggio di suprema luce benefica: l’unità dei cattolici tra di loro, che deve conservarsi esemplarmente saldissima;
 l’unità di preghiere e di ardenti desideri, con cui i cristiani separati da questa sede apostolica aspirano ad essere uniti con noi;
 infine l’unità nella stima e nel rispetto verso la chiesa cattolica, da parte di coloro che seguono religioni ancora non cristiane.
-Dopo una pausa compare la guardia che con voce minacciosa gridò a Giacinta:"O dite il segreto o morirete!
-"La piccola rispose negativamente e la guardia la trascinò fuori con sé.
-"È andata via subito, senza congedarci da noi.
-Mentre la interrogavano, Francesco mi diceva con immensa pace e gioia:"Se ci uccidono, in poco tempo siamo in Cielo!
+Dopo una pausa compare la guardia che con voce minacciosa gridò a Giacinta:"O dite il segreto o morirete!"
+La piccola rispose negativamente e la guardia la trascinò fuori con sé.
+È andata via subito, senza congedarci da noi.
+Mentre la interrogavano, Francesco mi diceva con immensa pace e gioia:"Se ci uccidono, in poco tempo siamo in Cielo!"
 Che bello!
 A me non importa niente.
-""Passato un attimo di silenzio, aggiunse:"Voglia Dio che Giacinta non abbia paura.
-Reciterò un’Ave Maria per Lei".
+Passato un attimo di silenzio, aggiunse:"Voglia Dio che Giacinta non abbia paura."
+Reciterò un’Ave Maria per Lei.
 Si tolse il cappello e pregò.
-La guardia al vederlo in atteggiamento di preghiera gli domandò:"Cosa fate?
-" Al nostro arrivo abbiamo trovato uno dei nostri confratelli in lutto a motivo della morte di suo fratello giovane che era cuoco nell’edificio delle Nazioni Unite.
+La guardia al vederlo in atteggiamento di preghiera gli domandò:"Cosa fate?"
+ Al nostro arrivo abbiamo trovato uno dei nostri confratelli in lutto a motivo della morte di suo fratello giovane che era cuoco nell’edificio delle Nazioni Unite.
 La famiglia, che abbiamo visitata immediatamente, ne dovette aspettare la salma durante sei giorni!
 È quel che i militari chiamano “danni collaterali”.
 La giovane sposa di Saad è avvilita, e così pure i suoi fratelli, vari dei quali fecero già la guerra di Iran, anni di servizio militare obbligatorio, ed anche l’embargo.
@@ -4489,7 +4488,7 @@ Ridursi agli sgoccioli.
 Essere un pulcino nella stoppa.
 Essere tra i piedi.
 Essere stretto.
-"Ma questa qui, in abito da sera, coi capelli biondi, gli occhi turchini, l’ovale purissimo.
+Ma questa qui, in abito da sera, coi capelli biondi, gli occhi turchini, l’ovale purissimo.
 No, gli zigomi sporgevano un poco e quello strano taglio d’occhi.
 “Bene!
 Ammettiamo che siate italiana.
@@ -4533,7 +4532,7 @@ ma la logica risolve il problema.
 Aveva la faccia bianca, coperta di uno strato di cipria spessa, e gli occhi bistrati di violaceo si scavavano, neri e brillanti, in mezzo a quel biancore di tomba.
 Il cranio raso appariva anch’esso giallastro.
 Ma era di cartapecora: una specie di calotta aderente, fermata alla fronte col mastice e poi coperta di cerone.
-"L’ultimo tocco d’orrore a quel cristiano, resosi bestia da notte di tregenda apocalittica, lo dava il carminio acceso delle labbra, distese in una specie di ghigno pauroso sopra una dentatura bianca e brillante, aguzza come quella d’un caimano.
+L’ultimo tocco d’orrore a quel cristiano, resosi bestia da notte di tregenda apocalittica, lo dava il carminio acceso delle labbra, distese in una specie di ghigno pauroso sopra una dentatura bianca e brillante, aguzza come quella d’un caimano.
 Anche Sani, anche l’albergatore – che non aveva mai dovuto vedere il suo inquilino ridotto a quel modo – erano rimasti senza parola, fulminati da quella apparizione di incubo.
 “Proprio come al teatro,” esclamò Cruni.
 “Ma che diavolo faceva.
@@ -4580,7 +4579,7 @@ Ed entrare?
 Sputò e si passò un dito sulle labbra, arricciando il naso con una smorfia di schifo.
 “Robaccia.
 Li avete avvertiti di quel che era accaduto?
-"Ma poco dopo è arrivato il commissario con le guardie e lo avranno capito, naturalmente.
+Ma poco dopo è arrivato il commissario con le guardie e lo avranno capito, naturalmente.
 E tutti gli altri, che abbiamo trovati nelle camere, c’erano o sono entrati dopo la mezzanotte?
 Parte c’erano e parte sono arrivati dopo.
 Qualcuno, che abitava nell’albergo, quando ha veduto le guardie, ha tagliato la corda piú che in fretta.
@@ -4620,7 +4619,7 @@ Mai!
 Mentiva.
 Anche prima aveva mentito.
 Forse, neppure una delle parole che aveva dette rispondeva a verità.
-"De Vincenzi sorrise.
+De Vincenzi sorrise.
 “Se vi chiedessi di giurarmelo, mister Vehrehan?
 Sapete?
 Come si fa nei tribunali.
@@ -4678,7 +4677,7 @@ E il nome era inglese e lo seguiva l’indicazione: London.
 De Vincenzi, senza esitare, mise le tre fotografie nel suo portafogli, e lasciò cadere la busta di pelle in fondo alla valigia.
 Sani lo guardava.
 “Rimetti tutto in ordine, possibilmente com’era.
-"Non avrà tempo adesso di cercare le fotografie, e non si accorgerà subito che le ho prese.
+Non avrà tempo adesso di cercare le fotografie, e non si accorgerà subito che le ho prese.
 Quando le valige furono di nuovo chiuse, diede ordine a due agenti di caricarle su di un taxi e di portarle al Plaza.
 Le dovevano consegnare al portiere dell’albergo, per John Vehrehan.
 Tranne le fotografie – che poi, forse, non recavano alcun elemento essenziale – anche quest’altra speranza era svanita.
@@ -4735,7 +4734,7 @@ Era il volto degli avvenimenti gravi.
 E anche un poco la cravatta gli stava di traverso e alla bottoniera della giacca mancava il fiore, dimenticato sopra il tavolo.
 “De Vincenzi, il morto dello Specchio d’Oro era una spia.
 Lo so, commendatore.
-"Quello che non sapete, però, è che.
+Quello che non sapete, però, è che.
 il.
 Cercò un foglio davanti a sé e lesse il nome:
 che il sedicente Melkon Gehenlyan nato a Talas, era in realtà l’egiziano Osman Mascali di Ohman, nato al Cairo.
@@ -4780,7 +4779,7 @@ Il Plaza era completamente isolato: un blocco enorme, altissimo, sette piani, ci
 Uscire da una di quelle finestre era impossibile.
 Tornò a sedere.
 L’attesa fu lunga.
-"Forse mezz’ora.
+Forse mezz’ora.
 Forse un’ora.
 Quando finalmente la porta del bagno si aprí, guardò l’orologio: erano le due.
 John Vehrehan s’era messo in pigiama da notte, tutto bianco.
@@ -4823,7 +4822,7 @@ Lo attraversò rapidamente e, aperto l’uscio della camera 122, senza accender 
 Richiuse la porta e tornò nella sua camera.
 Lasciò la porta aperta e spense la luce.
 Vedeva e non poteva esser visto.
-"Che cosa sperava da quel tentativo?
+Che cosa sperava da quel tentativo?
 John Vehrehan non era uomo da tradirsi facilmente.
 Era possibile, naturalmente, che Vehrehan e May Bigland, agenti dell’Intelligence Service – quali indubbiamente erano – avessero inseguito Osman Mascali, per togliergli i sette fogli rubati.
 Era ancora possibile che essi – in ogni caso però con l’aiuto di complici capaci di uccidere nel modo in cui l’egiziano era stato ucciso – avessero anche soppresso l’uomo e si fossero impadroniti delle formule.
@@ -4964,7 +4963,7 @@ Entrò nello stanzino del bagno e si mise sotto la doccia.
 se avesse potuto sapere chi era stato William Ellis!
 non avrebbe pronunziato quel nome davanti a John Vehrehan e ad altri.
 ma tuttavia era da quel nome che occorreva partire per giungere alla verità.
-"Quando uscí nel corridoio, la nave cominciava la vita del nuovo giorno.
+Quando uscí nel corridoio, la nave cominciava la vita del nuovo giorno.
 Il sole era già alto sull’orizzonte e il mare sembrava una smisurata lastra di vetro lucente.
 Non aveva mai veduto un mare cosí immobile.
 Percorse lentamente i ponti e le sale.
@@ -5012,7 +5011,7 @@ Sí, lo farò.
 L’uomo, che aveva giurato nel suo cuore di ridare la Terra di Galilea ai figli d’Israele, dopo la concessione strappata alla Potenza che ha il mandato di governare la Palestina e la Siria, quando gli ebrei sparsi per il mondo poterono recarsi ad occupare quella terra, non credette terminata la sua missione.
 La Palestina era stata riconosciuta terra del popolo ebreo, ma non bastava!
 Occorreva che essa fosse realmente nostra!
-"E, invece, attorno alle nostre case e ai nostri campi premeva un’orda smisurata d’infedeli che c’insidiavano.
+E, invece, attorno alle nostre case e ai nostri campi premeva un’orda smisurata d’infedeli che c’insidiavano.
 William Ellis sapeva che avrebbe dovuto combattere ancora e si preparava a farlo, quando venne ucciso.
 Egli sapeva che la lotta contro di noi non era cessata e quel che oggi è avvenuto.
 il tentativo ultimo di rapirci il candeliere del Tempio, per darlo nelle mani degli arabi che lo avrebbero mercanteggiato con noi, dopo averci attaccati nelle nostre case e nei nostri campi.
@@ -5128,7 +5127,7 @@ Nulla di strano, dopo l'accaduto, eppure qualcosa di torbido, di malsano, nell'a
 Ognuna di quelle persone sembrava avulsa dalle altre.
 Divisa e circondata da un muro di diffidenza e di timore.
 C'è da supporre che sia stato ucciso con un colpo di rivoltella, mentre rientrava in casa, questa notte.
-" Il corpo è stato trovato davanti alla porta del giardino.
+ Il corpo è stato trovato davanti alla porta del giardino.
 dalla parte dei Boschetti.
 Daniele non avrebbe potuto entrare da quella porta.
 Non era nelle sue abitudini e non ne aveva la chiave.
@@ -5284,7 +5283,7 @@ De Vincenzi si dirigeva alla vetrata.
 Dottore, credo di potervi lasciare libero.
 Di nuovo i suoi sguardi si fermarono sul cugino Oscar.
 Notò che indossava il pastrano e aveva in mano il cappello.
-" Desidero che nessuno esca dal palazzo questa notte.
+ Desidero che nessuno esca dal palazzo questa notte.
 Avrò certamente bisogno d'interrogarvi ancora.
 La voce di don Viciente risonò fredda.
 Nessuno si allontanerà, commissario.
@@ -5365,7 +5364,7 @@ Nessun dubbio che appartenga a Loïs!
 E poi?
 Guardaci dentro.
 E si alzò, affettando di non dare importanza alla cosa.
-"Paolo pure si alzò.
+Paolo pure si alzò.
 Ben.
 Il monosillabo risuonò secco e metallico.
 Il giovanotto si volse.
@@ -5468,7 +5467,7 @@ Le sue facoltà chiaroveggenti gli si erano illuminate al momento in cui aveva t
 La lettera mistificatrice era servita a fargli decifrare l'altra.
 Cosicché quello che doveva essere per l'assassino un mezzo buono ad allontanare da sé i sospetti si era risolto in un errore irreparabile per lui.
 Tutto questo costituiva la realtà formatasi nello spirito di De Vincenzi.
-"Adesso, egli aveva terrore che quella realtà non fosse tale e che egli avesse fatto avventurare don Viciente e forse altri ancora sull'orlo di un precipizio, con la certezza ch'essi fossero trattenuti da una corda!
+Adesso, egli aveva terrore che quella realtà non fosse tale e che egli avesse fatto avventurare don Viciente e forse altri ancora sull'orlo di un precipizio, con la certezza ch'essi fossero trattenuti da una corda!
 E questo sostegno poteva essere immaginario, inadatto a salvarli dalla caduta!
 Un sensibile presentimento di pericolo lo attanagliava.
 L'oscurità creava ombre viscide e serpeggianti attorno a lui e al vecchio.
@@ -5559,7 +5558,7 @@ Le farò avere il rapporto questa sera.
 De Vincenzi lo avrebbe mandato anche subito al Monumentale, gli premeva di riunire in quelle sale tutte le persone che vi si erano trovate la sera prima, ma c'era il giudice istruttore da aspettare.
 Sani, manda un agente alla Procura.
 Se fosse di servizio un giudice come dico io.
-"Il vice commissario si allontanò mentre entravano il professore con Kruger e Bargelli.
+Il vice commissario si allontanò mentre entravano il professore con Kruger e Bargelli.
 Al professore si fecero gli occhi brillanti, già appena davanti al cadavere;
 ma quando vide il pugnale, non si poté trattenere dal far schioccare la lingua, che per lui era il segno della maggiore soddisfazione.
 Kruger, le impronte.
@@ -5637,7 +5636,7 @@ Che altro?
 Una sua idea repentina, che gli era balenata dopo il colloquio con Claudia Sutton;
 ma come avrebbe potuto parlare al Questore di quella sua fantastica ipotesi, che gli era germogliata all'improvviso nel cervello?
 Tutto è terminato, dunque, prima ancora di cominciare e sono lieto.
-"Fece una pausa: Vuol avere la cortesia di darmi i particolari del consulto tenuto dai medici?
+Fece una pausa: Vuol avere la cortesia di darmi i particolari del consulto tenuto dai medici?
 I particolari?
 Sembrava scandalizzato.
 Per me i particolari sono contenuti tutti in questi due fogli.
@@ -6813,7 +6812,7 @@ Ma ha sentito qualche rumore sullo spiazzo e ha aperto la finestra per accertars
 In quel momento noi ci siamo gettati contro l'uscio e lui si è visto costretto a fuggire.
 Poi.
 poi gli avvenimenti lo hanno travolto.
-"Un pazzo lucido, naturalmente!
+Un pazzo lucido, naturalmente!
 Il pericolo, la lotta hanno fatto sparire in lui.
 la lucidezza ed è rimasta la pazzia!
 La sua risata mi risuonerà nelle orecchie finchè vivrò!
@@ -6955,7 +6954,7 @@ Uscire dai binari.
 Uscire dai gangheri.
 Uscire dal bozzolo.
 Uscire dal gregge.
-"Uscire dal guscio.
+Uscire dal guscio.
 Uscire dal mazzo.
 Uscire dalla porta e rientrare dalla finestra.
 Uscire per il rotto della cuffia.
@@ -7441,3 +7440,4 @@ Rompere le uova nel paniere a qualcuno.
 Rompere gli indugi.
 Rompere lo scilinguagnolo.
 Rompersi la testa.
+Dove passa Attila non nasce più erba.
