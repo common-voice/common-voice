@@ -200,20 +200,49 @@ faq-important-a = Głoss jo pśirodny, głos jo cłowjeski. Jo nejlažčejša a 
 faq-get-q = Kak mógu do datow Common Voice pśiś?
 faq-get-a = Datowa sajźba jo něnto na našej <downloadLink>ześěgnjeńskem boku</downloadLink> pód licencu <licenseLink>CC-0</licenseLink> k dispoziciji.
 faq-mission-q = Cogodla jo Common Voice źěl misije Mozilla?
+faq-mission-a = Mozilla se za to zasajźujo, web wótwórjony a za kuždego pśistupny źaržaś. Aby to cyniło, musymy webstwóriśele pśez projekty ako Common Voice wuzamóžniś. Dokulaž głosowe technologije wěcej žedne nišowe nałoženja njejsu, měnimy, až muse wšym wužywarjam w jadnak słužyś. Wiźimy nutnosć, dalšne rěcy, akcenty a demografiske daty zapśimjeś, gaž głosowe technologije wuwijamy a testujomy. Mozilla co strowy a žywy internet. To groni, dawamy nowym stwóriśelam pśistup na głosowe daty, aby móhli nowe, wurědne projekty napóraś. Common Voice buźo zjawna resursa, kótaraž teamam Mozilla a wuwijarjam z cełego swěta pomaga.
 faq-native-q = { $lang } njejo mója mamina rěc a powědam z akcentom, cośo mój głos?
 faq-native-a = Jo, comy waš głos na kuždy pad měś! Źěl cela Common Voice jo, wjele rozdźělnych akcentow ako móžno zběraś, aby licadła mógli <bold>kuždego </bold> lěpjej rozměś, gaž powěda.
+faq-source-q = Wótkul žrědłowy tekst pśiźo?
 
 ## Profile
 
+profile-why-title = Cogodla profil?
 
 ## NotFound
 
+notfound-title = Njenamakany
+notfound-content = Bójm se, njewěm, za cymž pytaśo.
 
 ## Data
 
+data-download-button = Daty Common Voice ześěgnuś
+data-download-yes = Jo
+data-download-deny = Ně
+data-download-license = Licenca: <licenseLink>CC-0</licenseLink>
+data-download-modal = Cośo <size>{ $size }GB</size> ześěgnuś, cośo pókšacowaś?
+data-other-title = Druge głosowe datowe sajźby…
+data-other-goto = K { $name }
+data-other-download = Daty ześěgnuś
+data-other-librispeech-description = LibriSpeech jo korpus skóro 1.000 góźinow wjengelskej rěcy (nagrate z 16 Khz), kótarež z wótsłuchańskich knigłow projekta LibriVox póchadaju.
+data-other-ted-name = Korpus TED-LIUM
+data-bundle-button = Paket datowych sajźbow ześěgnuś
+data-bundle-description = Daty Common Voice plus wšykne druge głosowe datowe sajźby górjejce.
+license = Licenca: <licenseLink>{ $license }</licenseLink>
+license-mixed = Měšany
 
 ## Record Page
 
+record-platform-not-supported = Jo nam luto, ale waša platforma se tuchylu njepódpěra.
+record-platform-not-supported-desktop = Na desktopowych licadłach móžośo nejnowšu wersiju ześěgnuś:
+record-platform-not-supported-ios = Wužywarje <bold>iOS</bold> mógu naše dermotne nałoženje ześěgnuś:
+record-must-allow-microphone = Musyśo pśistup na mikrofon dowóliś.
+record-retry = Hyšći raz wopytaś
+record-no-mic-found = Žeden mikrofon namakany.
+record-error-too-short = Nagraśe jo było pśekrotke.
+record-error-too-long = Nagraśe jo było pśedłujke.
+record-error-too-quiet = Nagraśe jo było pśeśiche.
+record-submit-success = Wótpósłanje wuspěšne! Cośo znowego nagraś?
 
 ## Download Modal
 
