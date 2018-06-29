@@ -17,7 +17,6 @@ import {
   isIOS,
   isSafari,
   replacePathLocale,
-  isProduction,
 } from '../../utility';
 import { MenuIcon, RecordIcon, OldPlayIcon, ChevronRight } from '../ui/icons';
 import { LabeledSelect, LinkButton } from '../ui/ui';
@@ -307,28 +306,26 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             </button>
           </div>
         </header>
-        {!isProduction() && (
-          <div className="contribution-banner">
-            <div className="inner">
-              <Localized id="contribution-banner-text">
-                <h1 />
-              </Localized>
-              <Localized id="contribution-banner-button">
-                <LinkButton className="open" rounded to={URLS.SPEAK} />
-              </Localized>
-            </div>
-
-            <a
-              className="bugs-link"
-              href="https://github.com/mozilla/voice-web/issues/new"
-              target="_blank">
-              <Localized id="report-bugs-link">
-                <span />
-              </Localized>
-              <ChevronRight />
-            </a>
+        <div className="contribution-banner">
+          <div className="inner">
+            <Localized id="contribution-banner-text">
+              <h1 />
+            </Localized>
+            <Localized id="contribution-banner-button">
+              <LinkButton className="open" rounded to={URLS.SPEAK} />
+            </Localized>
           </div>
-        )}
+
+          <a
+            className="bugs-link"
+            href="https://github.com/mozilla/voice-web/issues/new"
+            target="_blank">
+            <Localized id="report-bugs-link">
+              <span />
+            </Localized>
+            <ChevronRight />
+          </a>
+        </div>
         <div
           id="scroller"
           ref={div => {

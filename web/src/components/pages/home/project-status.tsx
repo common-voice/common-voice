@@ -48,7 +48,7 @@ class ProjectStatus extends React.Component<Props, State> {
           <ContributableLocaleLock>
             <Localized id="status-contribute">
               <LocaleLink
-                to={URLS.RECORD}
+                to={URLS.SPEAK}
                 onClick={() => trackNavigation('progress-to-record')}
               />
             </Localized>

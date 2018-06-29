@@ -215,7 +215,7 @@ class ListenBox extends React.Component<Props, State> {
         )}
         {showSpeakButton ? (
           <Localized id="speak-now">
-            <LinkButton className="speak" outline rounded to={URLS.RECORD} />
+            <LinkButton className="speak" outline rounded to={URLS.SPEAK} />
           </Localized>
         ) : vote ? (
           <div className="vote-box">
