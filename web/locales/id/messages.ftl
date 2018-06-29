@@ -97,6 +97,9 @@ content-license-text = Konten tersedia di bawah <licenseLink>lisensi Creative Co
 share-title = Bantu kami menemukan yang lain untuk menyumbangkan suara mereka!
 share-text = Bantu ajari mesin bagaimana manusia berbicara, sumbangkan suara Anda di { $link }
 back-top = Kembali ke Atas
+contribution-banner-text = Kami baru saja meluncurkan pengalaman kontribusi yang baru
+contribution-banner-button = Lihatlah
+report-bugs-link = Bantu laporkan kutu
 
 ## Home Page
 
@@ -318,12 +321,6 @@ listen = Dengarkan
 skip = Lewati
 shortcuts = Pintasan
 clips = Klip
-goal-type-record = merekam
-goal-type-validation = validasi
-# $goalType will either be the string goal-type-record or goal-type-validation
-toward-goal = Sudah mencapai <goalPercentage></goalPercentage> dari capaian { $goalType } Common Voice hari ini. Terima kasih
-# $goalType will either be the string goal-type-record or goal-type-validation
-goal-help-specific = Anda telah membantu Common Voice mencapai <goalPercentage></goalPercentage> dari target harian kami { $goalValue }{ $goalType }!
 contribute-more = Siap melanjutkan { $count } sisanya?
 record-cta = Mulai merekam
 record-instruction = { $actionType } <recordIcon></recordIcon> kemudian baca kalimatnya dengan lantang
