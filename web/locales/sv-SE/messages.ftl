@@ -97,6 +97,7 @@ content-license-text = Innehåll tillgängligt under en <licenseLink>Creative Co
 share-title = Hjälp oss att hitta andra som är redo att bidra med sin röst!
 share-text = Hjälp till att lära maskiner hur riktiga människor pratar, donera din röst på { $link }
 back-top = Tillbaka till toppen av sidan
+report-bugs-link = Hjälp oss att rapportera buggar
 
 ## Home Page
 
@@ -319,8 +320,8 @@ shortcuts = Genvägar
 clips = Klipp
 goal-type-record = inspelning
 goal-type-validation = validering
+# $goalType will either be the string goal-type-record or goal-type-validation
 toward-goal = Det är <goalPercentage></goalPercentage> närmare dagens Common Voice { $goalType } mål. Tack
-goal-help = Du har hjälpt till att nå Common Voice <goalPercentage></goalPercentage> av det dagliga målet { $goalType }!
 contribute-more =
     { $count ->
         [one] Redo att göra { $count } till?
