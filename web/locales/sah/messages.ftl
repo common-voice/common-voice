@@ -38,12 +38,19 @@ zh-TW = Китай тыла (Тайвань)
 
 ## Layout
 
+speak = Саҥар
+speak-now = Билигин саҥар
 languages = Тыллар
 help = Көмө
+contact = Сибээс
+terms = Усулуобуйалар
+back-top = Үөһээ төнүн
 
 ## Home Page
 
+show-wall-of-text = Өссө аах
 vote-yes = Сөп
+vote-no = Суох
 
 ## Speak & Listen Shortcuts
 
@@ -85,6 +92,9 @@ terms-disagree = Сөбүлэспэппин
 
 ## Contact Modal
 
+contact-form-name =
+    .label = Аатын
+contact-required = *булгуччулаах
 
 ## Request Language Modal
 
