@@ -299,6 +299,7 @@ request-language-success-content = V kratkem se vam bomo oglasili z več informa
 ## Languages Overview
 
 language-section-in-progress = V nastajanju
+language-section-in-progress-description = Jezike, ki so trenutno v fazi nastajanja, naše skupnosti še pripravljajo za nadaljnje faze projekta Common Voice; napredek jezika tako odraža napredek pri prevajanju spletne strani in količino zbranih stavkov.
 language-section-launched = V teku
 languages-show-more = Več
 languages-show-less = Manj
@@ -334,7 +335,7 @@ record-last-instruction = <recordIcon></recordIcon> Zadnji!
 review-tooltip = Tukaj lahko pregledate posnetke in jih ponovno posnamete.
 unable-speak = Ali trenutno ne morete govoriti?
 review-instruction = Če je potrebno, lahko posnetke pregledate in ponovno posnamete
-record-submit-tooltip = { $actionType } objavite, ko ste pripravljeni
+record-submit-tooltip = { $actionType } Pošlji, ko ste pripravljeni
 clips-submitted =
     { $count ->
         [one] { $count } posnetek poslan
