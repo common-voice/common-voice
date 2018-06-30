@@ -95,6 +95,8 @@ profile-close = 閉じる
 
 faq-title = よくある質問
 faq-what-q = Common Voice とは？
+faq-source-q = 文章はどこから入手していますか？
+faq-source-a1 = 現在はコントリビュータの寄付、または、<italic>素晴らしき哉、人生! </italic>のようなパブリックドメインの映画の会話から文章を得ています。
 
 ## Profile
 
