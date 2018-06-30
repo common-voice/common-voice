@@ -203,6 +203,12 @@ faq-mission-q = Cogodla jo Common Voice źěl misije Mozilla?
 faq-mission-a = Mozilla se za to zasajźujo, web wótwórjony a za kuždego pśistupny źaržaś. Aby to cyniło, musymy webstwóriśele pśez projekty ako Common Voice wuzamóžniś. Dokulaž głosowe technologije wěcej žedne nišowe nałoženja njejsu, měnimy, až muse wšym wužywarjam w jadnak słužyś. Wiźimy nutnosć, dalšne rěcy, akcenty a demografiske daty zapśimjeś, gaž głosowe technologije wuwijamy a testujomy. Mozilla co strowy a žywy internet. To groni, dawamy nowym stwóriśelam pśistup na głosowe daty, aby móhli nowe, wurědne projekty napóraś. Common Voice buźo zjawna resursa, kótaraž teamam Mozilla a wuwijarjam z cełego swěta pomaga.
 faq-native-q = { $lang } njejo mója mamina rěc a powědam z akcentom, cośo mój głos?
 faq-native-a = Jo, comy waš głos na kuždy pad měś! Źěl cela Common Voice jo, wjele rozdźělnych akcentow ako móžno zběraś, aby licadła mógli <bold>kuždego </bold> lěpjej rozměś, gaž powěda.
+faq-firefox-q = Buźo raz pśenjasenje grona do teksta pśez Common Voice źěl Firefox?
+faq-firefox-a = Common Voice ma njewobgranicowany potencial a wuslěźujomy napšawdu zwězowańske městna powědanja we wjele produktach Mozilla, inkluziwnje Firefox.
+faq-quality-q = Kaka jo trěbna kwalita za awdio, aby se wužywało?
+faq-quality-a = Comy, až kwalita zwukowych nagraśow zukowu kwalitu wótbłyšćujo, z kótarejuž system głosowego spóznaśa ma w praksy cyniś. Pśeto comy wjelerakosć. To system głosowego spóznaśa wuzamóžnja, ze wšakimi situacijami wobchadaś - z powědanim w slězynje, šumami awtow, šumami fanow - bźez zmólkow. 
+faq-hours-q = Cogodla jo 10.000 góźinow cel za zukowe nagraśe?
+faq-hours-a = To jo pśibližnje licba góźinow, kótarež su trěbne, aby produktiwny system powědańskego spóžnaśa treněrowało.
 faq-source-q = Wótkul žrědłowy tekst pśiźo?
 
 ## Profile
