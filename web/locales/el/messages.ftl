@@ -322,10 +322,8 @@ listen = Ακρόαση
 skip = Παράλειψη
 shortcuts = Συντομεύσεις
 clips = Κλιπς
-goal-type-record = ηχογράφηση
-goal-type-validation = επαλήθευση
-toward-goal = Φτάσαμε <goalPercentage></goalPercentage> πιο κοντά στο σημερινό στόχο { $goalType } του Common Voice. Ευχαριστούμε
-goal-help-specific = Έχετε βοηθήσει το Common Voice να φτάσει το <goalPercentage></goalPercentage> του ημερήσιου στόχου { $goalValue }{ $goalType } μας!
+goal-help-recording = Έχετε βοηθήσει το Common Voice να φτάσει το <goalPercentage></goalPercentage> του ημερήσιου { $goalValue } στόχου ηχογραφήσεών μας!
+goal-help-validation = Έχετε βοηθήσει το Common Voice να φτάσει το <goalPercentage></goalPercentage> του ημερήσιου { $goalValue } στόχου επαληθεύσεών μας!
 contribute-more =
     { $count ->
         [one] Έτοιμοι να κάνετε { $count } ακόμη;
