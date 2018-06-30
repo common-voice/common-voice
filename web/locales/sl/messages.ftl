@@ -301,6 +301,7 @@ request-language-success-content = V kratkem se vam bomo oglasili z več informa
 language-section-in-progress = V nastajanju
 language-section-in-progress-description = Jezike, ki so trenutno v fazi nastajanja, naše skupnosti še pripravljajo za nadaljnje faze projekta Common Voice; napredek jezika tako odraža napredek pri prevajanju spletne strani in količino zbranih stavkov.
 language-section-launched = V teku
+language-section-launched-description = Za te objavljene jezike je bila spletna stran popolnoma prevedena in je zbrala dovolj stavkov za omogočanje nadaljnjega delo preko <italic>{ speak }</italic> in <italic>{ listen }</italic> .
 languages-show-more = Več
 languages-show-less = Manj
 language-speakers = Govorcev
