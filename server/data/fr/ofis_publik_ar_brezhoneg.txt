@@ -2509,7 +2509,7 @@ tu es sûr qu'elle aima.
 tu es sûr qu'il aimait.
 tu es sûr qu'elle aimait.
 tu es sûr que vous aimiez.
-tu es sûr qu'on aimaient.
+tu es sûr qu'on aimait.
 tu es sûr que nous aimions.
 tu es sûr que j'aimais.
 tu es sûr qu'ils aimaient.
