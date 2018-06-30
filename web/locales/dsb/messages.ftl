@@ -275,16 +275,50 @@ review-delete-recordings = Nagraśa wulašowaś
 ## Download Modal
 
 download-title = Wašo ześěgnjenje jo se zachopiło.
+download-helpus = Pomagajśo nam zgromaźeństwo wokoło głosoweje technologije natwariś, wostańśo pśez e-mail w zwisku.
+download-form-email =
+    .label = E-majlowu adresu zapódaś
+    .value = Wjeliki źěk, wóstawamy w zwisku.
+download-back = Slědk k datowym sajźbam Common Voice
+download-no = Ně, źěkujom se
 
 ## Contact Modal
 
+contact-title = Kontaktny formular
+contact-form-name =
+    .label = Mě
+contact-form-message =
+    .label = Powěsć
+contact-required = *trěbny
 
 ## Request Language Modal
 
+request-language-title = Póžedanje na rěc
+request-language-form-language =
+    .label = Rěc
+request-language-success-title = Póžedanje na rěc jo se wuspěšnje wótpósłało, wjeliki źěk.
+request-language-success-content = Dajomy wjelgin skóro z dalšnymi informacijami wót se wó tom słyšaś, kak móžośo Common Voice swóju rěc pśidaś.
 
 ## Languages Overview
 
+language-section-in-progress = Běžy
+language-section-in-progress-description = Rěcy w pśigótowanju se tuchylu pśez naše zgromaźeństwa wuwijaju; jich póstup wótbłyšćujo, na kótarem stawje pśełožowanje jich websedła a faze zběrki sadow su.
+language-section-launched = Startowany
+language-section-launched-description = Za toś te startowane rěcy jo se websedło wuspěšnje pśełožyło, a ma dosć zběranych sadow, aby běžne sobuźěło pśez <italic>{ speak }</italic> a <italic>{ listen }</italic> dowóliło.
+languages-show-more = Wěcej pokazaś
+languages-show-less = Mjenjej pokazaś
+language-speakers = Powědarje
+language-meter-in-progress = Póstup
+language-total-progress = Dogromady
+language-search-input =
+    .placeholder = Pytaś
 
 ## New Contribution
 
+action-click = Kliknuś
+action-tap = Pótusnuś
+contribute = Sobu źěłaś
+listen = Słuchaś
 skip = Pśeskócyś
+shortcuts = Skrotconki
+clips = Nagraśa
