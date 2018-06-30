@@ -33,40 +33,27 @@ export default class API {
       { isJSON: true },
       options
     );
-    return new Promise(
-      (resolve: (r: any) => void, reject: (r: XMLHttpRequest) => void) => {
-        const request = new XMLHttpRequest();
-        request.open(method || 'GET', path);
 
-        const finalHeaders = Object.assign(
-          {
-            'Content-type': isJSON
-              ? 'application/json; charset=utf-8'
-              : 'text/plain',
-          },
-          headers
-        );
-
-        if (path.startsWith(location.origin)) {
-          finalHeaders.uid = this.user.userId;
-        }
-
-        for (const header of Object.keys(finalHeaders)) {
-          request.setRequestHeader(header, finalHeaders[header]);
-        }
-
-        request.addEventListener('load', () => {
-          if (request.status === 200) {
-            resolve(
-              isJSON ? JSON.parse(request.response) : request.responseText
-            );
-          } else {
-            reject(request);
-          }
-        });
-        request.send(body instanceof Blob ? body : JSON.stringify(body));
-      }
+    const finalHeaders = Object.assign(
+      {
+        'Content-type': isJSON
+          ? 'application/json; charset=utf-8'
+          : 'text/plain',
+      },
+      headers
     );
+
+    if (path.startsWith(location.origin)) {
+      finalHeaders.uid = this.user.userId;
+    }
+
+    return fetch(path, {
+      method: method || 'GET',
+      headers: finalHeaders,
+      body: body
+        ? body instanceof Blob ? body : JSON.stringify(body)
+        : undefined,
+    }).then(response => (isJSON ? response.json() : response.text()));
   }
 
   getLocalePath() {
