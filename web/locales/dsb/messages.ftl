@@ -349,3 +349,13 @@ clips-submitted =
         [few] { $count } nagraśa wótpósłane
        *[other] { $count } nagraśow wótpósłane
     }
+record-abort-title = Cośo nagraśe nejpjerwjej dokóńcyś?
+record-abort-text = Jolic něnto pśetergnjośo, se waš póstup zgubijo
+record-abort-submit = Klipy wótpósłaś
+record-abort-continue = Wótgraśe dokóńcyś
+record-abort-delete = Nagraśe skóńcyś a wulašowaś
+listen-instruction = { $actionType } <playIcon></playIcon> jo se sada korektnje wugroniła?
+listen-again-instruction = Wjelicne źěło! <playIcon></playIcon> Słuchajśo znowego, gaž sćo gótowy
+listen-3rd-time-instruction = 2 zwónoźonej, <playIcon></playIcon> dalej tak!
+listen-last-time-instruction = <playIcon></playIcon> Slědny!
+share-title-new = <bold>Pomagajśo nam</bold>, dalšne głose namakaś
