@@ -210,10 +210,13 @@ faq-quality-a = Comy, až kwalita zwukowych nagraśow zukowu kwalitu wótbłyš�
 faq-hours-q = Cogodla jo 10.000 góźinow cel za zukowe nagraśe?
 faq-hours-a = To jo pśibližnje licba góźinow, kótarež su trěbne, aby produktiwny system powědańskego spóžnaśa treněrowało.
 faq-source-q = Wótkul žrědłowy tekst pśiźo?
+faq-source-a1 = Aktualne sady su se wót sobustatkujucych pśinosowali, ako teke dialog z za wše wužytnych filmowych scenariskich knigłow ako <italic>It's a Wonderful Life.</italic>
+faq-source-a2 = Móžośo se naše žrědłowe sady w <dataLink>toś tom zarědniku GitHub</dataLink> woglědaś.
 
 ## Profile
 
 profile-why-title = Cogodla profil?
+profile-why-content = Dajśo někotare informacije wó sebje k wěsći, aby awdiodaty, kótarež na Common Voice sćelośo, su wužytnjejše za systemy głosowego spóznaśa, kótarež toś te daty wužywaju, aby swóju dokradnosć pólěpšyli.
 
 ## NotFound
 
@@ -227,11 +230,17 @@ data-download-yes = Jo
 data-download-deny = Ně
 data-download-license = Licenca: <licenseLink>CC-0</licenseLink>
 data-download-modal = Cośo <size>{ $size }GB</size> ześěgnuś, cośo pókšacowaś?
+data-subtitle = Napórajomy wótwórjonu a zjawnje pśistupnu datowu sajźbu głosow, kótaruž kuždy móžo wužywaś, aby nałoženja z powědańskeju pódpěru treněrował.
+data-explanatory-text = Měnimy, až wjelike a zjawnje k dispoziciji stojece datowe sajźby głosow inowaciju a strowe komercielne wuběźowanje w głosowej teczhnologiji spěchuju, kótaraž na mašinelnym wuknjenju bazěruju. To jo globalne napinanje a pśepšosujomy kuždego se na tom wobźěliś. Naš cel jo pomagaś, až głosowa technologija jo wěcej wótwórjona, aby wjelerakosć głosow z cełego swěta wótbłyšćowała.
+data-get-started = <speechBlogLink>Prědne kšace z powědańskim spóznaśim</speechBlogLink>
 data-other-title = Druge głosowe datowe sajźby…
 data-other-goto = K { $name }
 data-other-download = Daty ześěgnuś
 data-other-librispeech-description = LibriSpeech jo korpus skóro 1.000 góźinow wjengelskej rěcy (nagrate z 16 Khz), kótarež z wótsłuchańskich knigłow projekta LibriVox póchadaju.
 data-other-ted-name = Korpus TED-LIUM
+data-other-ted-description = Korpus TED-LIUM jo napórał z awdiopśednoskow a jich transkripcijow, kótarež su na websedle TED k dispoziciji.
+data-other-voxforge-description = VoxForge jo se załožył, aby transkripcije powědanja za wužywanje ze systemami powědańskego spóznaśa wótwórjonego žrědła zběrał.
+data-other-tatoeba-description = Tatoeba jo wjelika datowa banka sadow, pśełožkow a zukowych datow za wuknjenje rěcow. Toś to ześěgnjenje wopśimujo engelske teksty, kótarež jo se nagrali wót tamnjejšego zgromaźeństwa.
 data-bundle-button = Paket datowych sajźbow ześěgnuś
 data-bundle-description = Daty Common Voice plus wšykne druge głosowe datowe sajźby górjejce.
 license = Licenca: <licenseLink>{ $license }</licenseLink>
@@ -249,9 +258,23 @@ record-error-too-short = Nagraśe jo było pśekrotke.
 record-error-too-long = Nagraśe jo było pśedłujke.
 record-error-too-quiet = Nagraśe jo było pśeśiche.
 record-submit-success = Wótpósłanje wuspěšne! Cośo znowego nagraś?
+record-help = Pšosym pótusniśo Nagraś a pśedcytajśo górjejcne sady głosnje.
+record-cancel = Zasejnagraśe pśetergnuś
+review-terms = Gaž Common Voice wužywaśo, zwolijośo do našych <termsLink>wužywarskich wuměnjenjow</termsLink> a <privacyLink>powěźeńki priwatnosći</privacyLink>
+terms-agree = Som wobjadny
+terms-disagree = Njejsom wobjadny
+review-aborted = Nagraśe pśetergnjone. Cośo swójo nagraśe wulašowaś?
+review-submit-title = Pśeglědaś a wótpósłaś
+review-submit-msg = Wjeliki źěk za nagraśe!<lineBreak></lineBreak>Pśeglědujśo swóje nagraśa, nježli až je wótpósćelośo. 
+review-recording = Pśeglědaś
+review-rerecord = Znowego nagraś
+review-cancel = Wótpósłanje pśetergnuś
+review-keep-recordings = Nagraśa wobchować
+review-delete-recordings = Nagraśa wulašowaś
 
 ## Download Modal
 
+download-title = Wašo ześěgnjenje jo se zachopiło.
 
 ## Contact Modal
 
