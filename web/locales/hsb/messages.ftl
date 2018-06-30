@@ -268,7 +268,7 @@ review-submit-title = Přepruwować a wotpósłać
 review-submit-msg = Wulki dźak za natočenje!<lineBreak></lineBreak>Přepruwujće swoje natočenja, prjedy hač je wotpósćeleće. 
 review-recording = Přepruwować
 review-rerecord = Znowa natočić
-review-cancel = Wótpósłanje přetorhnyć
+review-cancel = Wotpósłanje přetorhnyć
 review-keep-recordings = Natočenja wobchować
 review-delete-recordings = Natočenja zhašeć
 
@@ -301,7 +301,7 @@ request-language-success-content = Přizjewimy so jara bórze z dalšimi informa
 
 ## Languages Overview
 
-language-section-in-progress = Běži
+language-section-in-progress = W přihotowanju
 language-section-in-progress-description = Rěče w přihotowanju so tuchwilu přez naše zhromadźenstwa wuwiwaja; jich postup wotbłyšćuje, na kotrym stawje přełožowanje jich websydła a fazy zběrki sadow su.
 language-section-launched = Startowany
 language-section-launched-description = Za tute startowane rěče je so websydło wuspěšnje přełožiło, a ma dosć zběranych sadow, zo by běžne sobudźěło přez <italic>{ speak }</italic> a <italic>{ listen }</italic> dowoliło.
@@ -344,10 +344,10 @@ review-instruction = Klipy přepruwować a znowa natočić, jeli trěbne
 record-submit-tooltip = { $actionType } wotpósłać, hdyž sće hotowy
 clips-submitted =
     { $count ->
-        [one] { $count } natočenje wótpósłane
-        [two] { $count } natočeni wótpósłanej
-        [few] { $count } natočenja wótpósłane
-       *[other] { $count } natočenjow wótpósłane
+        [one] { $count } natočenje wotpósłane
+        [two] { $count } natočeni wotpósłanej
+        [few] { $count } natočenja wotpósłane
+       *[other] { $count } natočenjow wotpósłane
     }
 record-abort-title = Chceće natočenje najprjedy dokónčić?
 record-abort-text = Jeli nětko přetorhnjeće, so waš postup zhubi
