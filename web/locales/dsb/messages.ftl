@@ -301,7 +301,7 @@ request-language-success-content = Dajomy wjelgin skóro z dalšnymi informacija
 
 ## Languages Overview
 
-language-section-in-progress = Běžy
+language-section-in-progress = W pśigótowanju
 language-section-in-progress-description = Rěcy w pśigótowanju se tuchylu pśez naše zgromaźeństwa wuwijaju; jich póstup wótbłyšćujo, na kótarem stawje pśełožowanje jich websedła a faze zběrki sadow su.
 language-section-launched = Startowany
 language-section-launched-description = Za toś te startowane rěcy jo se websedło wuspěšnje pśełožyło, a ma dosć zběranych sadow, aby běžne sobuźěło pśez <italic>{ speak }</italic> a <italic>{ listen }</italic> dowóliło.
@@ -335,3 +335,17 @@ record-cta = Nagraśe startowaś
 record-instruction = { $actionType } <recordIcon></recordIcon> a pśedcytajśo sadu głosnje
 record-stop-instruction = { $actionType } <stopIcon></stopIcon>, gaž sćo gótowy
 record-three-more-instruction = Hyšći tśi!
+record-again-instruction = Wjelicny!<recordIcon></recordIcon> Nagrajśo swój pśiducy klip
+record-again-instruction2 = Dalej tak, <recordIcon></recordIcon> znowego nagraś
+record-last-instruction = <recordIcon></recordIcon> Slědne!
+review-tooltip = How móžośo klipy pśeglědowaś a znowego nagraś
+unable-speak = Njamóžośo rowno powědaś?
+review-instruction = Klipy pśeglědowaś a znowego nagraś, jolic trěbne
+record-submit-tooltip = { $actionType } wótpósłaś, gaž sćo gótowy
+clips-submitted =
+    { $count ->
+        [one] { $count } nagraśe wótpósłane
+        [two] { $count } nagraśi wótpósłanej
+        [few] { $count } nagraśa wótpósłane
+       *[other] { $count } nagraśow wótpósłane
+    }
