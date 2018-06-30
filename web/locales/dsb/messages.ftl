@@ -206,7 +206,7 @@ faq-native-a = Jo, comy waš głos na kuždy pad měś! Źěl cela Common Voice 
 faq-firefox-q = Buźo raz pśenjasenje grona do teksta pśez Common Voice źěl Firefox?
 faq-firefox-a = Common Voice ma njewobgranicowany potencial a wuslěźujomy napšawdu zwězowańske městna powědanja we wjele produktach Mozilla, inkluziwnje Firefox.
 faq-quality-q = Kaka jo trěbna kwalita za awdio, aby se wužywało?
-faq-quality-a = Comy, až kwalita zwukowych nagraśow zukowu kwalitu wótbłyšćujo, z kótarejuž system głosowego spóznaśa ma w praksy cyniś. Pśeto comy wjelerakosć. To system głosowego spóznaśa wuzamóžnja, ze wšakimi situacijami wobchadaś - z powědanim w slězynje, šumami awtow, šumami fanow - bźez zmólkow. 
+faq-quality-a = Comy, až kwalita zwukowych nagraśow zukowu kwalitu wótbłyšćujo, z kótarejuž system głosowego spóznaśa ma w praksy cyniś. Pśeto comy wjelerakosć. To system głosowego spóznaśa wuzamóžnja, ze wšakimi situacijami wobchadaś - z powědanim w slězynje, šumami awtow, šumami fanow - bźez zmólkow.
 faq-hours-q = Cogodla jo 10.000 góźinow cel za zukowe nagraśe?
 faq-hours-a = To jo pśibližnje licba góźinow, kótarež su trěbne, aby produktiwny system powědańskego spóžnaśa treněrowało.
 faq-source-q = Wótkul žrědłowy tekst pśiźo?
@@ -231,7 +231,7 @@ data-download-deny = Ně
 data-download-license = Licenca: <licenseLink>CC-0</licenseLink>
 data-download-modal = Cośo <size>{ $size }GB</size> ześěgnuś, cośo pókšacowaś?
 data-subtitle = Napórajomy wótwórjonu a zjawnje pśistupnu datowu sajźbu głosow, kótaruž kuždy móžo wužywaś, aby nałoženja z powědańskeju pódpěru treněrował.
-data-explanatory-text = Měnimy, až wjelike a zjawnje k dispoziciji stojece datowe sajźby głosow inowaciju a strowe komercielne wuběźowanje w głosowej teczhnologiji spěchuju, kótaraž na mašinelnym wuknjenju bazěruju. To jo globalne napinanje a pśepšosujomy kuždego se na tom wobźěliś. Naš cel jo pomagaś, až głosowa technologija jo wěcej wótwórjona, aby wjelerakosć głosow z cełego swěta wótbłyšćowała.
+data-explanatory-text = Měnimy, až wjelike a zjawnje k dispoziciji stojece datowe sajźby głosow inowaciju a strowe komercielne wuběźowanje w głosowej technologiji spěchuju, kótaraž na mašinelnym wuknjenju bazěruju. To jo globalne napinanje a pśepšosujomy kuždego se na tom wobźěliś. Naš cel jo pomagaś, až głosowa technologija jo wěcej wótwórjona, aby wjelerakosć głosow z cełego swěta wótbłyšćowała.
 data-get-started = <speechBlogLink>Prědne kšace z powědańskim spóznaśim</speechBlogLink>
 data-other-title = Druge głosowe datowe sajźby…
 data-other-goto = K { $name }
@@ -322,3 +322,16 @@ listen = Słuchaś
 skip = Pśeskócyś
 shortcuts = Skrotconki
 clips = Nagraśa
+goal-help-recording = Sćo pomogł Common Voice, <goalPercentage></goalPercentage> našogo wšednego nagraśowego cela { $goalValue } dojśpiś!
+goal-help-validation = Sćo pomogł Common Voice, <goalPercentage></goalPercentage> našogo wšednego wobkšuśeńskego  cela { $goalValue } dojśpiś!
+contribute-more =
+    { $count ->
+        [one] Sćo gótowy, hyšći { $count } dalšne gótowaś?
+        [two] Sćo gótowy, hyšći { $count } dalšnej gótowaś?
+        [few] Sćo gótowy, hyšći { $count } dalšne gótowaś?
+       *[other] Sćo gótowy, hyšći { $count } dalšnych gótowaś?
+    }
+record-cta = Nagraśe startowaś
+record-instruction = { $actionType } <recordIcon></recordIcon> a pśedcytajśo sadu głosnje
+record-stop-instruction = { $actionType } <stopIcon></stopIcon>, gaž sćo gótowy
+record-three-more-instruction = Hyšći tśi!
