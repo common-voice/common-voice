@@ -221,7 +221,7 @@ profile-why-content = Zdźělće někotre informacije wo sebi, zo bychu awdiodat
 ## NotFound
 
 notfound-title = Njenamakany
-notfound-content = Boju so, njewěm, za čimž pytaće.
+notfound-content = Boju so, njewěm, za čim pytaće.
 
 ## Data
 
@@ -240,7 +240,7 @@ data-other-librispeech-description = LibriSpeech je korpus nimale 1.000 hodźin 
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = Korpus TED-LIUM je z awdiopřednoškow a jich transkripcijow wutworił, kotrež su na websydle TED k dispoziciji.
 data-other-voxforge-description = VoxForge je so załožił, zop by transkripcije rěčenja za wužiwanje ze systemami rěčenskeho spóznaća wotewrjeneho žórła zběrał.
-data-other-tatoeba-description = Tatoeba je wulka datowa banka sadow, přełožkow a zynkowych datow za wuknjenje rěčow. Tute sćehnjenje wobsahuje jendźelske teksty, kotrež je so wot tamnišeho zhromadźenstwa natočili.
+data-other-tatoeba-description = Tatoeba je wulka datowa banka sadow, přełožkow a zynkowych datow za wuknjenje rěčow. Tute sćehnjenje wobsahuje jendźelske teksty, kotrež su so wot tamnišeho zhromadźenstwa natočili.
 data-bundle-button = Paket datowych sadźbow sćahnyć
 data-bundle-description = Daty Common Voice plus wšě druhe hłosowe datowe sadźby horjeka.
 license = Licenca: <licenseLink>{ $license }</licenseLink>
