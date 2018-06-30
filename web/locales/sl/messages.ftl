@@ -207,7 +207,7 @@ faq-native-a = Da, tudi vaš glas potrebujemo! Del namena projekta Common Voice 
 faq-firefox-q = Bo pretvorba govora v besedilo preko Common Voice v prihodnosti postala del Firefoxa?
 faq-firefox-a = Common Voice ima brezmejen potencial in resnično raziskujemo možnosti glasovnih vmesnikov v številnih Mozillinih izdelkih, tudi v Firefoxu.
 faq-quality-q = Kako kakovostni morajo biti posnetki, da bodo uporabni?
-faq-quality-a = Želimo si, da bi kakovost govorjenih posnetkov odražala kakovost zvoka pri običajni uporabi glasovnih vmesnikov. Zato želimo raznolikost. Le tako se bo algoritem za pretvorbo govora v besedilo naučil prepoznati različne situacije – govor v ozadju, hrup avtomobilov, hrup ventilatorjev – brez napak.
+faq-quality-a = Želimo si, da bi kakovost govorjenih posnetkov odražala kakovost zvoka pri običajni uporabi glasovnih vmesnikov. Želimo si raznolikosti. Le tako se bo algoritem za pretvorbo govora v besedilo naučil prepoznati različne situacije – govor v ozadju, hrup avtomobilov, hrup ventilatorjev – brez napak.
 faq-hours-q = Zakaj je cilj 10 000 ur posnetkov?
 faq-hours-a = To je približno število ur, ki jih sistem za pretvorbo govora v besedilo potrebuje za učenje.
 faq-source-q = Od kod izvirajo besedila?
@@ -299,7 +299,7 @@ request-language-success-content = V kratkem se vam bomo oglasili z več informa
 ## Languages Overview
 
 language-section-in-progress = V nastajanju
-language-section-launched = Objavljeno
+language-section-launched = V teku
 languages-show-more = Več
 languages-show-less = Manj
 language-speakers = Govorcev
@@ -317,8 +317,6 @@ listen = Poslušaj
 skip = Preskoči
 shortcuts = Bližnjice
 clips = Posnetki
-goal-type-record = snemanje
-goal-type-validation = preverjanje
 contribute-more =
     { $count ->
         [one] Ste pripravljeni narediti še enega?
