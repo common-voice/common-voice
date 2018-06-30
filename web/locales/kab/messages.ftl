@@ -320,8 +320,8 @@ listen = Timesliwt
 skip = Suref
 shortcuts = Inegzumen
 clips = Tukkisin
-goal-help-recording = Tmuddeḍ-d afus akken Common Voice ad yaweḍ <goalPercentage></goalPercentage> seg iswi-ines n usekles n wass { $goalType }!
-goal-help-validation = Tmuddeḍ-d afus akken  Common Voice ad yaweḍ <goalPercentage></goalPercentage> seg iswi-ines n usentem n wass { $goalType }!
+goal-help-recording = Tmuddeḍ-d afus akken Common Voice ad yaweḍ <goalPercentage></goalPercentage> seg iswi-ines n usekles n wass { $goalValue }!
+goal-help-validation = Tmuddeḍ-d afus akken  Common Voice ad yaweḍ <goalPercentage></goalPercentage> seg iswi-ines n usentem n wass { $goalValue }!
 contribute-more =
     { $count ->
         [one] Theggaḍ i { $count } nniḍen?
