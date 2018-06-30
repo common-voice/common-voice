@@ -97,6 +97,9 @@ content-license-text = Contenuto disponibile sotto <licenseLink>licenza Creative
 share-title = Aiutaci a trovare altri donatori di voce!
 share-text = Aiutaci a insegnare alle macchine come le persone parlano nella vita reale, dona la tua voce su { $link }
 back-top = Torna in alto
+contribution-banner-text = È disponibile una nuova esperienza di contribuzione
+contribution-banner-button = Dai un’occhiata
+report-bugs-link = Aiutaci segnalando bug
 
 ## Home Page
 
