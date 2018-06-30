@@ -383,7 +383,6 @@ Cap pregunta?
 Cap problema.
 Cap reacció.
 Cap resposta.
-Capítol VI.
 Carai!
 Caram!
 Catalunya.
@@ -406,7 +405,6 @@ Claríssim.
 Clic!
 Cloc.
 Collons!
-Collons.
 Com abans.
 Com anem?
 Com ara què?

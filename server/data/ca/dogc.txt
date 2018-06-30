@@ -71,7 +71,7 @@ Acompanyà aquesta sol·licitud amb l'estudi d'impacte ambiental.
 Acordar, en el seu cas, la creació de la Comissió Executiva i designar-ne, i cessar-ne si escau, els membres.
 Acostuma a inhibir-se i a traspassar la presa de decisió a un altre comandament.
 Acostuma a prendre les decisions més encertades per cada cas.
-Acreditació d'haver obtingut la llicència d'obres o haver presentat la comunicació prèvia d'obres quan procedeixi.
+Acreditació d'haver obtingut la llicència d'obres o haver presentat la comunicació prèvia d'obres quan escaigui.
 Acreditar i complir els requisits que determini la concessió o el gaudiment de la beca.
 Activitats que donin suport a partits polítics.
 Activitats que fomentin la recerca, la conservació i la difusió del patrimoni etnològic de Catalunya.
@@ -234,7 +234,7 @@ Aprovar els Estatus, les Bases d'actuació i les modificacions que siguin acorda
 Aprovar els estatuts reguladors del Consorci del Ter que figuren a l'expedient.
 Aprovar els projectes d'obres, instal·lacions i serveis la contractació dels quals sigui competent.
 Aprovar i adjudicar els contractes l'import dels quals superi el vint per cent dels recursos ordinaris del pressupost.
-Aprovar les bases han de regir aquesta convocatòria i que figuren com a annex en aquesta Resolució.
+Aprovar les bases que han de regir aquesta convocatòria i que figuren com a annex en aquesta Resolució.
 Aprovar les bases que regulen aquests concursos i que es relacionen en l'annex primer d'aquesta convocatòria.
 Aprovar les regles específiques d'aquest procés participatiu que figuren com a Annex al present Decret.
 Aprovar les variacions pressupostàries que sobrepassin la xifra que la Junta mateixa estableixi durant l'exercici.
@@ -376,9 +376,9 @@ Aquesta vigilància només podrà portar-se a terme quan el treballador presti e
 Aquesta és la meva sentència, que mano i signo.
 Aquestes activitats no podran superar el trenta per cent de l'import anual brut íntegre de l'ajut.
 Aquestes bases específiques regiran la present convocatòria.
-Aquestes beques no representaran, en cap cas, despesa per l'Ajuntament de L'Hospitalet de Llobregat.
+Aquestes beques no representaran, en cap cas, despesa per a l'Ajuntament de L'Hospitalet de Llobregat.
 Aquestes bonificacions són incompatibles entre si.
-Aquestes colònies poden causar problemes de salut pública i afectar de la fauna silvestre.
+Aquestes colònies poden causar problemes de salut pública i afectar la fauna silvestre.
 Aquestes dades poden ser utilitzades, també, per extreure'n mostres per a actuacions estadístiques oficials.
 Aquestes dues exigències són a la Constitució, de forma que integren el concepte constitucional d'estat d'alarma.
 Aquestes expliquen el vuitanta-vuit per cent de l'import net de negocis del sistema territorial i el setanta-u coma nou per cent dels llocs de treball.
@@ -1915,7 +1915,7 @@ Farà de secretari de la Comissió Qualificadora el tècnic responsable del serv
 Farà el seguiment complet de l'arranjament.
 Feines que consisteixen a exercir comandament directe al capdavant d'un grup d'operaris.
 Fem el tractament i el seguiment individualitzat de cada cas en una mesa conjunta multidisciplinària de seguiment.
-Fer complir el que disposa aquest Plec, usant els mitjans descrits en el mateix o altres permesos legalment.
+Fer complir el que disposa aquest Plec, usant els mitjans que s'hi descriuen o altres permesos legalment.
 Fer el seguiment de les tasques que realitzin en l'estona del reforç escolar.
 Fer fotocòpies i enviar faxos.
 Fer les tasques de manteniment i de neteja, que el programa pugui exigir.
@@ -2014,7 +2014,7 @@ Gestiona els nomenaments de personal interí i les propostes de contractació.
 Gestiona els procediments d'accés a les borses d'interins de cada cos docent.
 Gestiona els sistemes d'arxius, buscant i seleccionant amb mitjans informàtics la informació necessària.
 Gestiona i controla les compres de la secretaria.
-Gestiona i dona resposta a les consultes procedents de particulars, jardiners i ajuntaments.
+Gestiona i dóna resposta a les consultes procedents de particulars, jardiners i ajuntaments.
 Gestiona l'execució de l'activitat, definint el procediment de seguiment i control.
 Gestiona l'extracció del suro caracteritzant les tècniques, els processos i els factors implicats.
 Gestiona l'intercanvi d'informació entre el Registre autonòmic i el Registre estatal.
@@ -2665,7 +2665,7 @@ La qualificació de l'entrevista serà d'un màxim de cinc punts.
 La qualificació final serà la suma dels punts obtinguts en la fase d'oposició i l'obtinguda en la fase de concurs.
 La quantitat convinguda a l'efecte de la redempció, si el capital és en béns.
 La quantitat fixada com a base de càlcul dels incentius serà de vuit mil trenta-sis coma seixanta-vuit euros per al dos mil quinze.
-La quota de liquidació de cada membre del consorci serà a parts igual entre tots ells.
+La quota de liquidació de cada membre del consorci serà a parts iguals entre tots ells.
 La quota del transport inclou: el quilometratge i el preu de les hores de treball del personal de l'ortopèdia.
 La rasa a excavar tindrà una amplada de vint-i-cinc centímetres i una profunditat mínima contínua de seixanta centímetres.
 La readquisició pel venedor comporta l'afectació de l'immoble.
@@ -2779,7 +2779,7 @@ Les cadires seran de tipus individual.
 Les calmes més llargues són de novembre a gener.
 Les campanes repiquen des de la sortida fins a la tornada de la processó.
 Les casetes estaran aixecades respecte al terreny, sense que hi hagi cap tipus de solera per a la seva ubicació.
-Les certificacions s'expediran amb el vis-i-plau del President.
+Les certificacions s'expediran amb el vistiplau del President.
 Les conclusions dels grups de treball són objecte d'informe a la Comissió.
 Les condicions pactades en aquest conveni formen un tot indivisible.
 Les corresponents convocatòries anuals determinaran l'import d'aquest ajut.
@@ -3054,7 +3054,7 @@ No podrà substituir llocs de treball i es tractarà de contribucions voluntàri
 No preveu obres de fàbrica i no hi ha disminució longitudinal de la calçada.
 No s'accepten documents que no incorporin la fotografia de la persona.
 No s'admeten candidatures que arribin més enllà del termini de finalització indicat en aquesta base.
-No s'admetran fotocòpies de discs- diagrama ni reproduccions de discs diagrama en format digital.
+No s'admetran fotocòpies de discs diagrama ni reproduccions de discs diagrama en format digital.
 No s'admetran les ofertes que excedeixin d'aquests imports.
 No s'admetran reclamacions presentades per altres mitjans com poden ser el correu postal o electrònic.
 No s'admetrà a tràmit cap recurs el dipòsit del qual no estigui constituït.
@@ -3144,7 +3144,7 @@ Organitza sessions de supervisió i formació per als professionals que col·lab
 Organitza, assigna i supervisa les feines del personal del Servei.
 Organització de lluites i espectacles que provoquin sofriment, lesions o la mort dels animals.
 Organitzarà les festes des del consens i la participació ciutadana.
-Orienta als clients sobre la ubicació de la mercaderia.
+Orienta els clients sobre la ubicació de la mercaderia.
 Orientació educativa, acadèmica i professional de l'alumnat en col·laboració, si escau, amb les famílies.
 Original de tots els documents que s'ha aportat fotocopia.
 Orquestra simfònica que desenvolupi una activitat itinerant majoritàriament a Catalunya.
@@ -3228,7 +3228,7 @@ Per contra, les preguntes no contestades no tindran cap descompte.
 Per coordinador a jornada completa, serà de tres mil nou-cents trenta-set coma cinquanta euros al mes.
 Per defecte, el Consorci aplicarà el mètode relatiu a hores de formació.
 Per facilitar la seva gestió i en especial el seu reciclatge, els residus estaran correctament identificats.
-Per faltes greus i molts greus l'exclusió serà definitiva.
+Per faltes greus i molt greus l'exclusió, serà definitiva.
 Per la realització d'aquesta prova és obligatori que els aspirants portin roba i calçat esportiu.
 Per la seva feina és necessari tenir amplis coneixements d'ofimàtica i idiomes.
 Per la seva trajectòria, que combina la medicina i la preocupació per les qüestions socials.
@@ -3408,7 +3408,7 @@ Proposar noves eines i canals que facilitin la comunicació interna i assegurar-
 Proposarà a la Junta de Govern Local les llicències urbanístiques.
 Prorroga en relació amb la implantació d'un programa educatiu en suport vital a les escoles.
 Protecció Civil respon comunicant que, ateses les característiques que presenta el Pla no emetran informe.
-Prova especifica per demostrar el coneixement de llengua.
+Prova específica per demostrar el coneixement de llengua.
 Prova teòrica.
 Provar els programes que realitzen els proveïdors.
 Proves psicotècniques i professionals: què són, en què consisteixen, com es preparen i com s'avaluen.
@@ -3462,7 +3462,7 @@ Quan no vingui imposada per disposicions legals o reglamentàries.
 Quan per aquest motiu es necessiti fer un desplaçament fora del terme municipal, el termini serà de tres dies.
 Quan perd l'autocontrol sap per què ho fa.
 Quan s'exigeix l'import de la reducció practicada, no cal interposar recurs independent contra aquest acte.
-Quan s'extingí la personalitat jurídica, tindrà lloc la liquidació de la Junta.
+Quan s'extingeixi la personalitat jurídica, tindrà lloc la liquidació de la Junta.
 Quan sigui compensat econòmicament només es lliuraran dos equips.
 Quan tinguin posicions processals contràries.
 Quan truqueu per una urgència, mireu de ser tan breus, concisos i clars com sigui possible.
@@ -3535,7 +3535,7 @@ Realització de tres vídeos d'un minut cada un aproximadament que incloguin una
 Realitzar el treball de camp que impliquin aquestes recerques.
 Realitzar els espectacles de circ amb animals que pertanyen a la fauna salvatge.
 Realitzar les inspeccions en matèria de sanitat animal i ramaderia que corresponguin al seu àmbit territorial.
-Realitzaran totes les abdominals que els siguin possibles en trenta segons.
+Faran totes les abdominals que els siguin possibles en trenta segons.
 Realitzarà la dinamització territorial perquè sorgeixin projectes.
 Rebran la informació adient sobre del seguiment del programa en cada una de les seves fases.
 Reclama els contractes i factures sobre béns mobles inventariables a les unitats promotores de la contractació.
@@ -3578,7 +3578,7 @@ Rep habitualment visites d'intèrprets, directors i productors de renom internac
 Rep i decreta la correspondència adreçada a la Delegació.
 Rep, revisa i incorpora a l'expedient la documentació aportada per les persones interessades.
 Repeteixen curs.
-Representarà a l'ajuntament en les relacions amb les entitats culturals.
+Representarà l'ajuntament en les relacions amb les entitats culturals.
 Requereix per tant, un espai físic de privacitat en un ambient tranquil i distès.
 Requisits específics del contractista: veieu el plec de clàusules administratives.
 Res d'això trobem en el precepte qüestionat.
@@ -3845,7 +3845,7 @@ Supervisa les obres de rehabilitació i millora en els habitatges administrats i
 Supervisa les resolucions per a l'autorització d'ensenyaments en els centres públics.
 Supervisa les sol·licituds de llicències de supervisor i operador.
 Supervisar i organitzar les tasques que realitzen els oficials segona i peons que li siguin assignats.
-Supervisar que a cada centre es duen a terme els diferents exercicis que componen les proves.
+Supervisar que en cada centre es duen a terme els diferents exercicis que componen les proves.
 Supervisar que les tasques que realitza l'equip de treball disposi de les mesures de seguretat apropiades.
 Supòsits legals en què és procedent la detenció.
 Sé aprendre?
@@ -4131,7 +4131,7 @@ Verifica les memòries i fitxes resum de programa, a incorporar a la memòria ex
 Verifica que totes les factures pendents de pagament compleixin tots els requisits per poder-les pagar.
 Verificar i instar, si escau, el compliment de les normes o bases establertes.
 Vespella de Gaià té una població de quatre-cents vint-i-cinc habitants l'any dos mil quinze i un pressupost de quatre-cents tretze mil quatre-cents tretze euros per al dos mil setze.
-Vetllador d'Escola Bressol, la data d'inici de procés és vint-i-sis de setembre de dos mil sis.
+Vetllador d'Escola Bressol, la data d'inici del procés és vint-i-sis de setembre de dos mil sis.
 Vetllar sempre perquè els diputats compleixin les obligacions d'aquest Codi de conducta.
 Vetllarà pel seguiment del Pla Local d'Equipaments Culturals.
 Vetllarà pels aspectes relatius a la salut laboral i prevenció dels riscos laborals.
