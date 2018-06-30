@@ -34,15 +34,7 @@ export default class API {
       options
     );
 
-    const finalHeaders = Object.assign(
-      {
-        'Content-type': isJSON
-          ? 'application/json; charset=utf-8'
-          : 'text/plain',
-      },
-      headers
-    );
-
+    const finalHeaders = Object.assign(headers || {});
     if (path.startsWith(location.origin)) {
       finalHeaders.uid = this.user.userId;
     }
