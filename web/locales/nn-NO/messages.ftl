@@ -96,6 +96,7 @@ content-license-text = Innhald tilgjengeleg under ein <licenseLink>Creative Comm
 share-title = Hjelp oss med å finne andre som vil donere stemma si!
 share-text = Hjelp til med å lære maskiner korleis folk snakkar, doner stemma di på { $link }
 back-top = Tilbake til toppen av sida
+contribution-banner-button = Ta ein titt
 report-bugs-link = Hjelp oss med å rapportere feil
 
 ## Home Page
