@@ -126,7 +126,11 @@ const LocalizedLayout: any = withRouter(
           for (let i = 0; i < uploads.length; i++) {
             this.setState({ uploadPercentage: (i + 1) / (uploads.length + 1) });
             const upload = uploads[i];
-            await upload();
+            try {
+              await upload();
+            } catch (e) {
+              console.error('upload error', e);
+            }
             this.props.removeUpload(upload);
           }
           this.setState({ uploadPercentage: null });

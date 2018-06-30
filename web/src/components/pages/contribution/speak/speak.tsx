@@ -316,8 +316,24 @@ class SpeakPage extends React.Component<Props, State> {
 
     addUploads([
       ...clips.map(({ sentence, recording }) => async () => {
-        await api.uploadClip(recording.blob, sentence.id, sentence.text);
-        tallyRecording();
+        let retries = 3;
+        while (retries) {
+          try {
+            await api.uploadClip(recording.blob, sentence.id, sentence.text);
+            tallyRecording();
+            retries = 0;
+          } catch (e) {
+            console.error(e);
+            retries--;
+            await new Promise(resolve => setTimeout(resolve, 1000));
+            if (
+              retries == 0 &&
+              confirm('Upload of this clip keeps failing, keep retrying?')
+            ) {
+              retries = 3;
+            }
+          }
+        }
       }),
       async () => {
         await api.syncDemographics();

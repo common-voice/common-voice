@@ -73,7 +73,7 @@
         &.yes {
             box-shadow: var(--vote-button-box-shadow) color(var(--valid-green) alpha(30%));
 
-            &:hover {
+            &:hover, &:active {
                 background: var(--valid-green);
                 box-shadow: var(--vote-button-box-shadow) color(var(--valid-green) alpha(70%));
             }
@@ -82,13 +82,13 @@
         &.no {
             box-shadow: var(--vote-button-box-shadow) color(var(--red) alpha(20%));
 
-            &:hover {
+            &:hover, &:active {
                 background: var(--red);
                 box-shadow: var(--vote-button-box-shadow) color(var(--red) alpha(60%));
             }
         }
 
-        &:hover {
+        &:hover, &:active {
             color: var(--white);
 
             & path {
