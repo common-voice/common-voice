@@ -257,7 +257,7 @@ license-mixed = Змішана
 
 ## Record Page
 
-record-platform-not-supported = Шкода, але ваша платформа зараз не підтримується.
+record-platform-not-supported = Шкода, але ваша платформа наразі не підтримується.
 record-platform-not-supported-desktop = На настільних комп'ютерах, ви можете завантажити найновіший:
 record-platform-not-supported-ios = Користувачі <bold>iOS</bold> можуть завантажити наш безплатний додаток:
 record-must-allow-microphone = Ви повинні дозволити доступ до мікрофону.
@@ -331,12 +331,8 @@ listen = Слухати
 skip = Пропустити
 shortcuts = Ярлики
 clips = Кліпи
-goal-type-record = запис
-goal-type-validation = перевірка
-# $goalType will either be the string goal-type-record or goal-type-validation
-toward-goal = Залишилося <goalPercentage></goalPercentage> до сьогоднішньої цілі { $goalType } Common Voice. Дякуємо
-# $goalType will either be the string goal-type-record or goal-type-validation
-goal-help-specific = Ви допомогли проекту Common Voice досягти <goalPercentage></goalPercentage> нашої щоденної цілі { $goalValue } { $goalType }!
+goal-help-recording = Ви допомогли Common Voice досягти <goalPercentage></goalPercentage> нашої щоденної { $goalValue } мети з запису!
+goal-help-validation = Ви допомогли Common Voice досягти <goalPercentage></goalPercentage> нашої щоденної { $goalValue } мети з перевірки!
 contribute-more = Готові зробити ще { $count }?
 record-cta = Почати запис
 record-instruction = { $actionType }<recordIcon></recordIcon>, потім прочитайте речення вголос
@@ -346,7 +342,7 @@ record-again-instruction = Чудово! <recordIcon></recordIcon> Запиші�
 record-again-instruction2 = Продовжуйте, запишіть знову <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Останній!
 review-tooltip = Перевіряйте і повторно записуйте кліпи тут
-unable-speak = Неможливо говорити зараз
+unable-speak = Не можете говорити зараз?
 review-instruction = Перевіряйте і повторно записуйте кліпи при необхідності
 record-submit-tooltip = { $actionType } відправте, коли готово
 clips-submitted = { $count } кліпів відправлено!
