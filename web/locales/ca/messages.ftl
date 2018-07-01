@@ -103,7 +103,7 @@ report-bugs-link = Ajudeu a notificar errors
 
 ## Home Page
 
-home-title = El projecte Common Voice és la iniciativa de Mozilla que ajuda a les màquines a aprendre com parlem les persones de debò.
+home-title = El projecte Common Voice és la iniciativa de Mozilla que ajuda les màquines a aprendre com parlem les persones de debò.
 home-cta = Alceu la veu i col·laboreu-hi!
 wall-of-text-start = La veu és natural, la veu és humana. És per això que volem crear tecnologies de veu de qualitat per a les màquines. Però el desenvolupament d'aquests sistemes requereix un gran volum de dades de veu.
 wall-of-text-more-mobile = La majoria de les dades usades per grans companyies no estan disponibles per a tothom. Considerem que això frena la innovació. Per això, hem iniciat el projecte Common Voice, per tal de fer que la tecnologia de reconeixement de la veu estigui oberta a tothom.
