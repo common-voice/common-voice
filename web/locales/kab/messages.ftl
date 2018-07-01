@@ -206,10 +206,10 @@ faq-firefox-a = Common Voice ɣur-s tazmert ur nesɛi talast, daɣen neslaḍ as
 faq-quality-q = Anwa i d aswir n tɣaṛa i ilaq ad t-yesɛu yimesli akken ad yettwaseqdec?
 faq-quality-a = Nebɣa taɣara tameslawt ara d-yemmager umsedday n uɛqal n taɣect di tmeddurt n yal ass. Nesra ihi tanḍa. Ayagi ad yesleɣmu amsedday akken ad yerr di leḥsab ddeqs n waddaden : ammeslay deg ugilal, ahiten neɣ lḥes n yimseddayen n yisezwayen.
 faq-hours-q = Acuɣer 10 000 n isragen n yimesla i nebɣa ad nsekles?
-faq-hours-a = Hatan meḥsub umḍan n yisragen i ilaqen i uheyyi n ufares n unagraw STT.
-faq-source-q = Ansa i d-yekka uḍris aɣbalu?
-faq-source-a1 = Tifyar n tura kkant-d seg uttekki n yal yiwen akked idiwenniyen n isura izuyaz am <italic>Tudert tecbeḥ</italic>.
-faq-source-a2 = Tifyar tiɣbula ttwakcament <dataLink>deg ukaram-agi</dataLink> di GitHub.
+faq-hours-a = Hatan meḥsub d amḍan n yisefka ilaqen ad yili akken ad nheggi taneɣruft n uselmed n unagraw n ufares n uɛqal n taɣect STT.
+faq-source-q = Ansa i d-ekkan iḍrisen i usekles n taɣect?
+faq-source-a1 = Tifyar akka tura kkant-d seg uttekki n yal yiwen akked idiwenniyen n yisura izuyaz am <italic>Tudert tecbeḥ</italic>.
+faq-source-a2 = Tifyar tiɣbula ad ten-tafeḍ <dataLink>deg ukaram-agi</dataLink> di GitHub.
 
 ## Profile
 
