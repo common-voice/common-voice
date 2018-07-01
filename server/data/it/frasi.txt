@@ -3,21 +3,21 @@ Finalmente mi sono laureata, ora temo in anni di interinale sottopagato.
 Sono stanco morto, vado a farmi una doccia.
 Ho smesso di fumare, ma sono passato a farmi di sigaretta elettronica.
 Il sistema politico non si divide più in destra e sinistra, ma in populisti e sistemisti.
-Vorrei tanto bere una birra, ma è ancora mattina, sarebbe troppo inappropiato.
+Vorrei tanto bere una birra, ma è ancora mattina, sarebbe troppo inappropriato.
 Qualunque male tu abbia, con mezzo litro di grappa, ti passa.
 E' stata mia madre ad insegnarmi a fare le mozzarelle in carrozza.
 Vorrei arrivare dall'altra parte della città, ma c'è troppo traffico.
 Fa scendere il cane che lo porto a fare la sua passeggiatina.
-Esiste una nuova branca del diritto che sono i diritti digitiali, siamo ancora molto  ignoranti a riguardo.
-Vorrei poter controllare l'algoritmo di facebook, siccome decide cosa prioritizza per me, allora deve implementare i miei valori, non quelli della piattaforma.
-Spiegami come si usa questo strumento, perchè é troppo complicato.
+Esiste una nuova branca del diritto che sono i diritti digitali, siamo ancora molto  ignoranti a riguardo.
+Vorrei poter controllare l'algoritmo di facebook, siccome decide cosa è prioritario per me, allora deve implementare i miei valori, non quelli della piattaforma.
+Spiegami come si usa questo strumento, perché è troppo complicato.
 La documentazione di un progetto complesso è essenziale per il suo mantenimento.
 Forse nella nostra epoca, le migliori opere d'arte sono gli adesivi.
 Guarda che bel palazzo laggiù
 A Marco piaceva giocare a biliardo, ma non a biliardino
 Potrai uscire solo quando avrai finito di lavorare
 Il cuscino soffice aiuta a dormire bene
-A ladro!
+Al ladro!
 Perché è successo questo?
 Non si riesce a trovare la spiegazione
 Il frassino cresce lungo le sponde del ruscello
@@ -130,7 +130,7 @@ In un progetto, tutti devono tenere d’occhio le domande dei nuovi arrivati.
 I coordinatori del progetto non devono essere gli unici a fornire nozioni ed abilità ai nuovi arrivati.
 Tieni a mente quello che hai appreso su come le persone nella tua community vorrebbero essere riconosciute sulla base dei propri meriti.
 Mozilla Italia di base promuove e continua a promuovere ufficialmente tutte le attività, programmi e progetti promossi dalla Community Internazionale di Mozilla.
-Al fine di incrementare l’attrattività della nostra community si è deciso di realizzare delle attività finalizzate a coinvolgere tutti i volontari generici che, non facendo parte di nessun programma nello specifico, vogliono collaborare alle attività promosse localmente da tutta la community Mozilla Italia.
+Al fine di incrementare l'attrattiva della nostra community si è deciso di realizzare delle attività finalizzate a coinvolgere tutti i volontari generici che, non facendo parte di nessun programma nello specifico, vogliono collaborare alle attività promosse localmente da tutta la community Mozilla Italia.
 Al fine di organizzare e mantenere costantemente attiva la community locale è necessario determinare dei ruoli e delle responsabilità locali o decisionali.
 Esse non sono da intendersi di tipo verticale o gerarchiche ma funzionali.
 Volontari non facenti parte di programmi ufficiali Mozilla che hanno contribuito in modo significativo alle attività Locali e hanno ottenuto un “vouch” su mozillians.org
@@ -181,7 +181,7 @@ L’applicazione 18app permette di gestire il beneficio nominale di 500 euro ai 
 Sì, è necessario verificare l’identità del beneficiario tramite il confronto del nome e cognome presenti nel buono d’acquisto ed i riferimenti del documento d’identità esibito dal diciottenne.
 Questi ruoli possono richiedere specializzazioni verticali su temi specifici (es.
 visual design) o trasversali in grado di coprire diversi aspetti all’interno del processo progettuale (dalla ricerca alla prototipazione).
-Le competenze manageriali includono la capacità di lavorare in team in modo collaborativo, gestire le relazioni con tutti gli attori coinvolti nel percorso di innovazione, avere un forte orientamente al raggiungimento degli obiettivi e misurare costantemente l’andamento dei progetti.
+Le competenze manageriali includono la capacità di lavorare in team in modo collaborativo, gestire le relazioni con tutti gli attori coinvolti nel percorso di innovazione, avere un forte orientamento al raggiungimento degli obiettivi e misurare costantemente l’andamento dei progetti.
 Competenze essenziali riguardano aspetti come l’empatia e la comunicazione, la capacità di inquadrare i problemi e gestire l’incertezza, quella di passare rapidamente dalla teoria alla pratica e saper risolvere i problemi.
 Le mappature del sistema sono delle rappresentazioni sintetiche di tutti gli attori coinvolti nell’erogazione del servizio, e dei flussi di motivazioni e valori che scambiano.
 Le mappe di sistema hanno il vantaggio di descrivere in modo visivo e sintetico una serie di contenuti che diversamente andrebbero descritti in modo testuale o verbale.
@@ -199,7 +199,7 @@ Questo processo porta all’individuazione dei contenuti imprescindibili del pro
 Progettare l’architettura dell’informazione significa soddisfare i bisogni degli utenti, creando contenuti utili e rilevanti che possano adattarsi al contesto di fruizione.
 Grazie alla ricerca sugli utenti e all’analisi del contesto, è possibile definire le funzioni principali del sito e di ogni sua pagina.
 I contenuti diventano quindi parte integrante del servizio all’utente.
-È bene prendere decisioni sulla base dell’analisi dei dati riferiti all’utente in particolare i dati statistici di navigazione sul sito per comprendere il comportamento dell’utente la realizzazione di interviste e altri metodi di analisi qualitativa l’esperienza e la competenza generale di navigazione dell’utente target.
+È bene prendere decisioni sulla base dell’analisi dei dati riferiti all’utente in particolare i dati statistici di navigazione sul sito per comprendere il comportamento dell’utente la realizzazione di interviste.
 Lo scopo primario dell’interfaccia di un servizio web è quello di aiutare l’utente a raggiungere ciò che cerca in modo naturale e immediato, in modo quasi trasparente.
 Per questo, la coerenza dei vari elementi che la compongono, anche su diversi dispositivi, è un elemento fondante per la creazione di prodotti funzionali e semplici da usare.
 No.
@@ -209,9 +209,9 @@ I musei che fanno riferimento al Ministero dei beni e delle attività culturali 
 I monumenti, parchi naturali e le aree archeologiche che fanno riferimento al Ministero dei beni e delle attività culturali e del turismo sono censiti direttamente dalla Direzione Generale archeologia, belle arti e paesaggio e saranno geo-localizzabili dai diciottenni nell’applicazione a loro dedicata.
 Per la geo-localizzazione di tutti i miei punti vendita occorre inserire nell’applicazione i dati dei singoli esercizi commerciali.
 Attraverso bonifico bancario sul c/c il cui IBAN è indicato in fattura.
-A tal proposito si evidenzia la necessità di verificare sempre con estrema attenzione il corretto inserimento del codice IBAN nonché di controllare, soprattutto in caso di fusioni bancarie, che non siano intervenute eventuali variazioni o aggiornamenti che potrebbero causare storni e/o ritardi nelle liquidazioni.
+A tal proposito si evidenzia la necessità di verificare sempre con estrema attenzione il corretto inserimento del codice IBAN.
 A pagamento effettuato verrà inviata una e-mail automatica di notifica di avvenuto accredito all’indirizzo mail indicato nella sezione Contatti all’interno della fattura elettronica.
-Si ritiene che la fattura, pur se diretta a documentare un’operazione esclusa da IVA, in quanto (fra l’altro) caratterizzata da numerazione progressiva apposta in continuità rispetto alle fatture precedenti e successive, debba essere registrata contabilmente:
+Si ritiene che la fattura, pur se diretta a documentare un’operazione esclusa da IVA, in quanto (fra l’altro) caratterizzata da numerazione progressiva apposta in continuità rispetto alle fatture precedenti e successive, debba essere registrata contabilmente
 rimane ovviamente ferma la sua irrilevanza agli effetti delle imposte sui redditi e del volume d’affari.
 la fattura emessa genera solo un credito nei confronti della pubblica amministrazione e attiene esclusivamente al profilo finanziario.
 Per l’esercente il ricavo è generato dall’operazione posta in essere con il cliente, documentato dal biglietto, scontrino o ricevuta messi dall’esercente medesimo secondo le consuete modalità e tempistica.
@@ -226,7 +226,9 @@ Grazie al versionamento, chi realizza siti aderenti alle linee guida può fare r
 Le competenze funzionali vanno dalla conduzione di attività di ricerca con gli utenti alla prototipazione, fino alla capacità di progettazione e realizzazione di interfacce e contenuti.
 Queste competenze generano dei ruoli che possono variare in funzione delle caratteristiche del progetto e dell’assetto di un team.
 Negli ultimi anni le soluzioni tecnologiche volte a supportare il processo di apertura dei dati sono diventate molteplici.
-Questo ha portato all’introduzione di vari modelli di classificazione e di descrizione dei dati pubblicati, alcuni dei quali dipendenti dalla piattaforma scelta per l’implementazione e alla proliferazione di portali pubblici di open data, in molti casi non interoperabili né dal punto di vista semantico né da quello tecnologico.
+Questo ha portato all’introduzione di vari modelli di classificazione e di descrizione dei dati pubblicati
+alcuni dei quali dipendenti dalla piattaforma scelta per l’implementazione e alla proliferazione di portali pubblici di open data
+in molti casi non interoperabili né dal punto di vista semantico né da quello tecnologico.
 La situazione delineata evidenzia, quindi, ancora di più la necessità di standardizzare un profilo condiviso delle descrizioni dei dati anche a livello nazionale, in conformità anche alle regole e agli standard di interoperabilità definiti a livello internazionale.
 In questo tema rientra tutto ciò che riguarda la cultura, il turismo, l’istruzione e le attività sportive, eventi culturali e locali.
 In questo tema rientra tutto ciò che riguarda le politiche di governo, gli affari istituzionali, la trasparenza del settore pubblico (dati relativi ad amministrazione trasparente).
@@ -237,17 +239,18 @@ Il Team Digitale e la PA selezionata lavoreranno in sinergia durante la fase di 
 il mondo della ricerca e dell’innovazione.
 Grazie al DAF sarà, infatti, possibile promuovere iniziative atte a coinvolgere il mondo della ricerca e dell’innovazione su tematiche di interesse pubblico.
 Le presenti linee guida forniscono indicazioni sui temi dei dati, sui vocabolari controllati da utilizzare nonché una descrizione degli elementi principali del profilo di metadazione con le relative proprietà.
-Nell’ambito delle attività istituzionali relative alla promozione delle politiche di valorizzazione del patrimonio informativo pubblico nazionale, l’Agenzia per l’Italia Digitale è da tempo impegnata, tra l’altro, a favorire l’interoperabilità semantica di dati e servizi, per rendere omogenei in tutta la Pubblica Amministrazione (PA) i processi di accesso e scambio delle informazioni tra le PA stesse e tra le PA e i cittadini e le imprese, nell’ambito del più ampio framework europeo.
-Il presente servizio è volto a consentire agli esercenti commerciali, di incassare i buoni connessi all’utilizzo del bonus del valore di 500€ a coloro che abbiano compiuto diciott’anni nel 2016 e nel 2017 e di vedersene liquidare il controvalore dal Ministero dei beni e delle attività culturali e del turismo che è fornitore del presente servizio.
-L’esercente prende atto ed accetta che il servizio lo identificherà, riconoscendogli accesso alle funzionalità di verifica, incasso e richiesta di liquidazione dei buono attraverso le citate credenziali e che, pertanto, chiunque entrasse fraudolentemente in possesso delle stesse potrà essere abilitato all’utilizzo del servizio medesimo al suo posto.
+Nell’ambito delle attività istituzionali relative alla promozione delle politiche di valorizzazione del patrimonio informativo pubblico nazionale, l’Agenzia per l’Italia Digitale è da tempo impegnata, a favorire l’interoperabilità semantica di dati e servizi
+Il presente servizio è volto a consentire agli esercenti commerciali, di incassare i buoni connessi all’utilizzo del bonus del valore di 500€
+L’esercente prende atto ed accetta che il servizio lo identificherà, riconoscendogli accesso alle funzionalità di verifica, incasso e richiesta di liquidazione dei buono attraverso le citate credenziali
+pertanto chiunque entrasse fraudolentemente in possesso delle stesse potrà essere abilitato all’utilizzo del servizio medesimo al suo posto.
 Al riguardo l’utente prende atto di essere stato informato dell’obbligo di tempestiva denuncia in ogni ipotesi di perdita di possesso delle citate credenziali al fine di consentirne il blocco immediato.
-Il DAF mette a disposizione la sua capacità di calcolo, la presenza (al suo interno) di basi di dati autoritative, nonché l’integrazione con il Registro dei vocabolari controllati, al fine di fornire un servizio per la verifica batch della qualità delle informazioni contenute all’interno delle basi di dati della PA.
-Oltre a quanto messo a disposizione dalla piattaforma, attraverso il team di data scientist, il DAF offre un supporto alle PA per la costruzione di modelli di interconnessione delle diverse sorgenti dati, l’analisi dei dati, lo sviluppo di modelli di machine learning, il coordinamento dello sviluppo di data application e l’organizzazione di “competizioni” scientifiche su tematiche di interesse per la PA.
+Il DAF mette a disposizione la sua capacità di calcolo, la presenza (al suo interno) di basi di dati autoritative.
+Il DAF offre un supporto alle PA per la costruzione di modelli di interconnessione delle diverse sorgenti dati e l’analisi dei dati su tematiche di interesse per la PA.
 Durante la fase sperimentale la governance del DAF è in carico al Team Digitale che ha il compito di gestire attivamente la fase di sviluppo concettuale e implementativo dell’infrastruttura, insieme a tutte le fasi del ciclo di vita del dato, dall’ingestione all’analisi e sviluppo di applicazioni.
 Il Team Digitale si farà anche carico di ingaggiare i rapporti con le PA coinvolte nella fase di sperimentazione e lavorerà insieme a loro per lo sviluppo di casi d’uso indicati nella roadmap.
 L’esercente prende altresì atto che ai fini della liquidazione dei buoni incassati dovrà disporre o dotarsi di un sistema di fatturazione elettronica conforme alla disciplina vigente e che, in assenza, non potrà, in alcun modo, vedersi liquidare il valore dei buoni eventualmente incassati.
 È, pertanto, vietato incassare i buoni generati attraverso il servizio da un soggetto diverso rispetto al titolare del buono il cui nome è riportato sullo stesso e/o a fronte della vendita di beni o servizi diversi rispetto a quelli di cui alle lettere da a) a c) che precedono.
-Il Ministero dei beni e delle attività culturali e del turismo vigila sulla corretta applicazione da parte dell’esercente delle regole che precedono nonché di quelle dettate nella disciplina vigente e, in caso di eventuali violazioni, provvede alla esclusione dell’esercente autore della violazione dal progetto, fatte salve le ulteriori sanzioni previste dalla normativa vigente.
+Il Ministero dei beni e delle attività culturali e del turismo vigila sulla corretta applicazione da parte dell’esercente delle regole che precedono nonché di quelle dettate nella disciplina vigente e, in caso di eventuali violazioni.
 Rendere facilmente disponibili e interoperabili una serie di dataset Open Data ritenuti strategici sotto il profilo dei fenomeni in essi descritti.
 Per questi dataset, si vogliono minimizzare i costi transattivi di utilizzo, prevedendo standard e regole di esposizione più stringenti rispetto a quelle normalmente previste per gli Open Data.
 Ricorda che tu non puoi rinunciare a diritti su una tua opera se non li possiedi, salvo che tu ne ottenga il permesso da parte del detentore.
@@ -301,7 +304,7 @@ Non è necessario che tu abbia delle abilità specifiche.
 Tra di noi potrai confrontarti con grafici, ingegneri, informatici, linguisti, studenti e insegnanti.
 Il nostro fattore comune è la volontà e la consapevolezza che l’unione fa la forza.
 Essere più sintetici possibile, quindi essere diretti: dal momento che verrà anche stampato potrebbe non entrare negli spazi prevesti ed, inoltre, un testo troppo lungo annoia, di conseguenza non viene letto
-Utilizzare un lessico non molto "aulico": questo non perchè gli utenti Mozilla siano "analfabetizzati" o "non istruiti", ma bensì per dare quel tocco di "amicizia" e "confidenzialità" che Mozilla Italia vuole dare:
+Utilizzare un lessico non molto "aulico": questo non perché gli utenti Mozilla siano "analfabetizzati" o "non istruiti", ma bensì per dare quel tocco di "amicizia" e "confidenzialità" che Mozilla Italia vuole dare:
 utilizzare il lessico giusto, in base al luogo e alle persone con cui si sta parlando, in questo caso in base a ciò che si vuole comunicare
 Non utilizzare molto tecnicismo: preferire all'hard tecnicismo un tecnicismo di base o per niente tecnicismo:
 gli utenti potrebbero essere sia esperti nel settore informatico/tecnologico, sia utenti normali che si affacciano per le prime volte in questo grande mondo
@@ -378,20 +381,20 @@ Occorre che la differenziazione diventi espressione di un orientamento organizza
 Quando siamo venuti a scuola per salutare tutti i vecchi professori non l'abbiamo trovata e abbiamo deciso di scriverle quello che volevamo dirle.
 Luigi invece ha deciso di mettersi alla prova partendo come volontario per un anno nell'Esercito.
 Io invece quest'anno non ho trovato niente nell'ambito universitario di mio gradimento e quindi ho deciso di fare un anno sabbatico-lavorativo.
-Questo articolo nasce da esperienze dirette di clienti che mi hanno contattato per sistemare il loro sito perchè il precedente autore non aveva fatto un buon lavoro.
-Perchè i file obsoleti non vengono rimossi, per una questione di tempo, di corruzione dei file e di aggiornamenti automatici del database.
+Questo articolo nasce da esperienze dirette di clienti che mi hanno contattato per sistemare il loro sito perché il precedente autore non aveva fatto un buon lavoro.
+Perché i file obsoleti non vengono rimossi, per una questione di tempo, di corruzione dei file e di aggiornamenti automatici del database.
 Come abbiamo visto negli episodi precedenti una community non è altro che una grande azienda con un fine specifico più nobile dove l’obiettivo non sono il profitto ma il progetto stesso.
 In questo modo la soluzione è offerta da chi ha il problema, quindi il diretto interessato puó fornire una delle migliori soluzioni e si interviene successivamente.
 Tutto questo per portare i volontari a pensare in modo costruttivo e non solo “lamentoso”.
 In ambito open source il metodo più semplice è quello di scrivere.
 Scrivere guide, processi, regole, analisi su documenti pubblicamente accessibili e revisionarli insieme agli altri volontari:
 tutto questo però lo deve fare il primo interessato.
-In questo modo si ha un esempio di soluzione, utile nel tempo ed aggiornabile dove tutti possono partecipare per migliorarlo e diventa parte del materiale della comunitá oltre che della sua filosofia di trasparenza.
+In questo modo si ha un esempio di soluzione, utile nel tempo ed aggiornabile dove tutti possono partecipare per migliorarlo e diventa parte del materiale della comunità oltre che della sua filosofia di trasparenza.
 Una cosa piccola come una guida, ad esempio, su come fare una campagna promozionale online basata sulla propria esperienza, con l’aiuto degli altri e di altre campagne realizzate precedentemente.
 Nelle community il reclutamento è importante perché una community che non cresce, stagna ed è destinata a morire.
 Consideriamo poi che questo è il mio approccio, personale, da italiano verso altri italiani, altre culture potrebbero trovarlo troppo da contatto ma da noi si è dimostrato funzionante.
 In Italia puoi parlare con una persona quanto vuoi via email o chat ma una volta che la incontri dal vivo sarete amiconi per sempre.
-Specifica che la chiacchierata è per cercare di capire quali sono i progetti più interessanti per lui e delle persone ma anche perchè vuoi migliorare la comunicazione in quella zona (intesa come territorio)
+Specifica che la chiacchierata è per cercare di capire quali sono i progetti più interessanti per lui e delle persone ma anche perché vuoi migliorare la comunicazione in quella zona (intesa come territorio)
 Racconta la tua esperienza come volontario, alle persone piace sentire le storie da parte dei “rappresentanti”
 Una introduzione di due righe che spiega il progetto e il perché è nato senza un discorso di un'ora.
 Chiaro, conciso e facile da ricordare oltre che convincere le persone della bontà del progetto.
@@ -652,7 +655,7 @@ L'informatica è quello strumento che adatta la tecnologia a noi.
 Infatti come diceva Solly Zuckerman “la tecnologia è sempre stata con noi.
 Non è qualcosa al di fuori della società, qualche forza esterna dal quale veniamo sospinti..la società è la tecnologia sono...riflessi l'una dell'altra”.
 In poche parole la tecnologia si adatta ai nostri bisogni.
-Siccome l'uomo inventa per dare benessere agli uomini perchè dobbiamo rimanere indietro?
+Siccome l'uomo inventa per dare benessere agli uomini perché dobbiamo rimanere indietro?
 Questo potrebbe definirsi lo slogan di una promozione che tra pochi giorni avverrà nel nostro bel paese.
 Questa promozione riguarderà tutti i negozi di prodotti tecnologici e informatici come incentivo per uscire dalla crisi.
 I più famosi prodotti delle maggiori società di questo tipo subiranno degli sconti e dei bonus da parte dello stato.
@@ -661,11 +664,11 @@ All'inizio l'esperimento è stato fatto nella città di Milano ed ha avuto buoni
 Il ministro ha preso in considerazione questa idea e si è messo subito all'opera contattando le diverse catene più diffuse presenti nel nostro territorio.
 Il ministro ha deciso di dare dei bonus a seconda del prodotto tecnologico, che secondo le stime verrà venduto in quantità maggiori, per esempio ai decoder digitali.
 La prima risposta dall'opposizione è stata quella di chiedere se i soldi saranno presi da quelli dei fondi destinati ai terremotati dell'Aquila.
-No, è stata la risposta del ministro, i soldi sono quelli presi dagli evasori fiscali e dalle attività mafiose sequestrate perchè loro contribuiscono alla crisi a livello mondiale e quindi i loro soldi saranno quelli che l'aiuteranno a raddrizzarsi.
+No, è stata la risposta del ministro, i soldi sono quelli presi dagli evasori fiscali e dalle attività mafiose sequestrate perché loro contribuiscono alla crisi a livello mondiale e quindi i loro soldi saranno quelli che l'aiuteranno a raddrizzarsi.
 L'opposizione ha accettato subito questa proposta proponendo di farla anche nei negozi privati che non devono rimanere esclusi.
 Il ministero ha risposto che stava valutando quali di questi potranno entrare in questa promozione e se in quel caso ottengano possibilità di bonus statali per la vendita come le catene.
 Questo avveniva 3 settimane fa, oggi il Ministro ha reso pubblica la campagna “La tecnologia accessibile a tutti” che inizierà a livello statale 11 e 12 luglio.
-Gli altri paesi dell'unione europea stanno guardando questa campagna con occhi interessati perchè hanno visto che l'Italia, anche se arretrata tecnologicamente nell'insegnamento e nelle ricerche, è capace di iniziative lampo inaspettate.
+Gli altri paesi dell'unione europea stanno guardando questa campagna con occhi interessati perché hanno visto che l'Italia, anche se arretrata tecnologicamente nell'insegnamento e nelle ricerche, è capace di iniziative lampo inaspettate.
 Il ministro sta valutando anche altre possibili campagne in altri campi tra cui le fonti di energie rinnovabili e altro ancora non reso pubblico.
 Le grandi industrie automobilistiche, presenti nel nostro paese, hanno chiesto di fare una cosa simile anche per i loro prodotti ma la risposta da parte del Ministro è stata negativa.
 Il ministro ha detto “abbiamo dato alle industrie automobilistiche, come alle banche, per uscire dalla crisi molti soldi e adesso devono farli fruttare.
@@ -673,15 +676,15 @@ Noi aiuteremo, adesso, quegli altri settori più piccoli ma altrettanto importan
 Il presidente della repubblica ha voluto commentare questo avvenimento dicendo “noi italiani dobbiamo dimostrare di essere tecnologici e di stare allo stesso livello tecnologico degli altri paesi europei quindi approfittatene italiani.
 Anch'io ne approfitterò per prendere un televisore nuovo.” afferma ridendo.
 La borsa a quest'annuncio ha avuto subito dei rialzi, a dimostrazione che l'Italia ha sempre proposte nuove per aiutare i suoi italiani.
-Le grandi catene e i vari negozi stanno facendo moltissime richieste ai loro produttori per avere il prima possibile nuovi prodotti da aggiungere al loro magazzino, perchè a quanto si vede dai pareri dei sondaggi ci sarà  un grande afflusso di acquirenti.
+Le grandi catene e i vari negozi stanno facendo moltissime richieste ai loro produttori per avere il prima possibile nuovi prodotti da aggiungere al loro magazzino, perché a quanto si vede dai pareri dei sondaggi ci sarà  un grande afflusso di acquirenti.
 La catena che ha avuto l'idea ha affermato che l'idea di partenza l'ha ricevuta proprio da un email di un cittadino italiano anonimo, a dimostrazione che l'informatica non serve solo per simulare ma anche per sconvolgere pareri.
 Infatti affermava G.O.Longo “la nostra capacità di agire ha superato di molto la nostra capacità di prevedere [grazie alla tecnologia informatica e scientifica]....
 la tecnologia è importante per ciò che ci consente di fare, non di capire.”
 “Noi sentiamo che, anche una volta che tutte le possibili domande scientifiche hanno avuto risposta, i nostri problemi vitali non sono ancora neppur toccati.” Questo affermava Wittgenstein.
-La scienza studia tutti i fenomeni apparenti come funzionano ma non riuscirà mai a capire perchè quella cellula esiste o perchè i pianeti girano in questo modo.
+La scienza studia tutti i fenomeni apparenti come funzionano ma non riuscirà mai a capire perché quella cellula esiste o perché i pianeti girano in questo modo.
 Come diceva anche Spencer la scienza studia il fenomeno in sé ma la religione permette di conoscere l'essenza del fenomeno.
-Tutto questo grande affidamento alla scienza non darà mai risposte alla fatidica domanda a cui nessun filosofo a trovato una risposta certa: perchè noi esistiamo?
-Uno scienziato potrebbe dire che esistiamo perchè nell'atto di fecondazione nella vita ci siamo formati e poi cresciuti sotto la forma che abbiamo adesso.
+Tutto questo grande affidamento alla scienza non darà mai risposte alla fatidica domanda a cui nessun filosofo a trovato una risposta certa: perché noi esistiamo?
+Uno scienziato potrebbe dire che esistiamo perché nell'atto di fecondazione nella vita ci siamo formati e poi cresciuti sotto la forma che abbiamo adesso.
 Ad un bambino diremmo che ci ha portati la cicogna o che l'hanno trovato sotto un cavolfiore.
 La vita non è solo l'atto di fecondazione è un atto di amore di cui i genitori, si spera consapevolmente, decidono che l'unico modo per poter vedere un frutto dal loro amore sia quello di avere una prole.
 Lì la scienza dovrebbe dirci che cos'è l'amore.
@@ -689,7 +692,7 @@ Direbbe è un desiderio sessuale che hanno tutti gli essere viventi.
 Mai fù fatto un così grande errore.
 L'amore non ha una definizione scientifica e forse anche filosofica.
 Oggi giorno la scienza è l'unico faro presente nel mondo che dà risposte mentre la secolarizzazione ormai sta raggiungendo il suo scopo e la fede religiosa è vista come insulsa da chi non la segue.
-La scienza potrà darci le soluzioni a tutte le malattie ma non potrà mai spiegare perchè ci sono i miracoli.
+La scienza potrà darci le soluzioni a tutte le malattie ma non potrà mai spiegare perché ci sono i miracoli.
 Per certa gente queste cose è meglio ignorarle.
 Ecco ignorare la presenza divina o le sue manifestazioni significa mettersi i paraocchi come ai cavalli che non devono distrarsi o potrebbero creare problemi al cocchiere.
 La scienza è il progresso ovvero una ricerca per migliorare la condizione di vita terrena ma non spiegherà mai cos'è l'amore.
@@ -698,23 +701,23 @@ I progressi della scienza sono un capitolo tra i più affascinanti nella storia 
 I suoi enormi successi sono stati raggiunti, peraltro, attraverso una delimitazione metodica.
 Ci si è limitati strettamente e del tutto consapevolmente a ricercare soltanto ciò che poteva essere misurato e contato.
 Ma ogni delimitazione comporta anche dei confini e dunque sono “rimaste fuori” tutte le questioni che riguardano il perché dell’esistenza, da dove veniamo, dove andiamo.
-In italia è uscita da poco la famosa rivista americana Wired.
+In Italia è uscita da poco la famosa rivista americana Wired.
 Questa rivista è l'anello di congiunzione per la tecnologia scienza e informatica per chi non né un esperto.
 Adesso è al terzo numero e chissà cosa potrebbe diventare per l'Italia che è famosa per la sua arretratezza tecnologica.
 Gli italiani di tecnologico come innovazione prima di tutti  stata quella del digitale terrestre e subito si è pensato che è stata fatta per la Confederation Cup in arrivo...
-Comunque Wired a quanto pare sta avendo un buon successo in italia, ha incominciato la sua storia con Rita Levi Montalcini che parla dell'italia e del futuro dove l'uomo è coinvolto dalla sua parte del cervello emotiva.
+Comunque Wired a quanto pare sta avendo un buon successo in Italia, ha incominciato la sua storia con Rita Levi Montalcini che parla dell'Italia e del futuro dove l'uomo è coinvolto dalla sua parte del cervello emotiva.
 Quindi noi ci facciamo coinvolgere più dall'emozioni che secondo lei hanno prevalso sulla cognitiva creando le guerre, la shoa ecc.
-Secondo me ha ragione perchè una persona ha 100 ne abbia viste di tutte i colori ma non solo per quello ma anche perchè l'uomo spesso pensa poco.
-La scienza è nata perchè l'uomo deve pensare e sempre penserà ma non si può permettere di dare una spiegazione scientifica a tutto altrimenti si sterilisce l'essenza umana ovvero che non è portato all'amore ma ad una definizione scientifica e da studio godendo di ciò che fà.
+Secondo me ha ragione perché una persona ha 100 ne abbia viste di tutte i colori ma non solo per quello ma anche perché l'uomo spesso pensa poco.
+La scienza è nata perché l'uomo deve pensare e sempre penserà ma non si può permettere di dare una spiegazione scientifica a tutto altrimenti si sterilisce l'essenza umana ovvero che non è portato all'amore ma ad una definizione scientifica e da studio godendo di ciò che fà.
 La scienza ci ha permesso di scoprire la cura alla penicillina e tanto altro.
 È molto importante continuare a diffonderla ma bisogna diffondere anche l'idea che non è l'unica soluzione ai nostri problemi.
 George Orwell è lo pseudonimo di Eric Arthur Blair, nato il 25 giugno 1903 in India da genitori inglesi e morto il 21 gennaio 1950.
-Fu uno scrittore, saggista, giornalista e glottoteta [1].
+Fu uno scrittore, saggista, giornalista e glottoteta.
 Questo personaggio è uno degli autori inglesi del XX secolo più apprezzati principalmente per i suoi due ultimi romanzi: La fattoria degli animali e 1984.
 Nato in india da padre funzionario del Servizio Civile Indiano, visse in una famiglia che cercava di salvaguardare le apparenze perché lo status che aveva in India era molto diverso da quello in patria, per questo Blair lo definì poi “nobiltà senza terra” il suo stile di vita in Inghilterra.
 nel 1907 va in Madre Patria con la madre e le due sorelle: dove viene iscritto ad un collegio.
 Ne esce con una borsa di studio, ma anche con un grosso complesso di inferiorità dovuto allo snobismo e alle umiliazioni della società inglese.
-Nel 1917 fù ammesso ad un altro college dove avrà per insegnante un grande esponente della letteratura dispotica [2] Aldous Huxley, a cui si ispirerà per alcuni suoi romanzi.
+Nel 1917 fu ammesso ad un altro college dove avrà per insegnante un grande esponente della letteratura dispotica [2] Aldous Huxley, a cui si ispirerà per alcuni suoi romanzi.
 Nel 1922 decide di seguire il lavoro del padre e va in Birmania ed entra nella Polizia Imperiale ma nel 1928 si dimette perché disgustato dell'arroganza imperialistica inglese.
 Da questa esperienza scrive nel 1934 Giorni in Birmania, quindi va a Parigi per conoscere le grandi metropoli europee, per guadagnarsi da vivere fa lavori molto umili come sguattero in locali e ristoranti e sopravvive solo con l'aiuto dell'Esercito della Salvezza.
 Tornato in patria, visse allo stesso modo a Londra.
@@ -805,7 +808,7 @@ Che cosa sono le aree cicloniche e le aree anticic1oniche?
 Sono le aree in cui i cicloni possono formarsi facilmente grazie alla bassa pressione mentre i cicloni non si formano dove c'è alta pressione.
 Ciò è dovuto al vento che spostandosi segue le curve isobariche ma dall'area anticiclonica a quella ciclonica e la vicinanza tra le isobare con valori di pressione molto diversi può provocare cicloni.
 Perché il tempo in Italia e condizionato dall’Anticiclone delle Azzorre?
-Le perturbazioni presenti nella zone dell'anticiclone si spostano per via del vento in Italia anche perchè questa zona si espande fino in Europa.
+Le perturbazioni presenti nella zone dell'anticiclone si spostano per via del vento in Italia anche perché questa zona si espande fino in Europa.
 Questo anticiclone provoca un abbassamento temporaneo delle temperature nei periodi estivi in questo modo non si provocano periodi estivi con siccità.
 Perché nella troposfera la temperatura dell‘aria diminuisce andando verso l’alto?
 Qual e il valore medio di questa diminuzione che indichiamo come gradiente termico verticale?
@@ -918,7 +921,8 @@ Durante la seconda guerra mondiale, il petrolio permise agli Alleati di vincere 
 Alla fine della guerra il petrolio permise l'espansione industriale e scientifica della società permettendo un recupero della normalità dopo quell'avvenimento.
 Il petrolio assunse così grande importanza nell'economia mondiale tanto che le due crisi economiche del 73 e 79 furono dovute al prezzo del greggio che subiva oscillazioni.
 La ricerca di pozzi petroliferi scatenò delle guerre come la guerra del Golfo in Arabia saudita.
-I vantaggi del petrolio gli permisero di ottenere una popolarità immediata e di essere l'ago della bilancia nell'economia mondiale sia ieri che oggi, però ha contribuito all'inquinamento mondiale in modo massiccio.Il petrolio è una fonte energetica fondamentale tant'è che è causa di conflitti ed interessi economici da parte di tutte le nazioni.
+I vantaggi del petrolio gli permisero di ottenere una popolarità immediata e di essere l'ago della bilancia nell'economia mondiale sia ieri che oggi, però ha contribuito all'inquinamento mondiale in modo massiccio. 
+Il petrolio è una fonte energetica fondamentale tant'è che è causa di conflitti ed interessi economici da parte di tutte le nazioni.
 Attraverso di esso sono ricattati popoli ricchi e poveri, sviluppati e sottosviluppati e lo spauracchio della fine dei giacimenti di petrolio scatena ulteriori speculazioni a livello planetario.
 George Orwell, nel romanzo 1984, non parla del petrolio ma chiarisce come le risorse che influiscono sull'economia, possono essere ancora una volta uno strumento di pacificazione per il bene dei popoli oppure, leva di forza e potere per soggiogare l'umanità.
 Noi essere umani apparteniamo all'ordine dei primati, che secondo alcuni studi si sono evoluti partendo da piccoli mammiferi simili ai topiragno che incominciarono a vivere sugli alberi.
@@ -931,7 +935,7 @@ Il primo ominide, a dispetto del nome Australopithecus Africanus, chiamato anche
 Le altre caratteristiche erano la postura eretta dovuta all'attacco della colonna vertebrale diverso dalle scimmie e una rotondità del cranio più “umana”.
 La scoperta del cranio di Tuang, venne ignorata dagli scienziati perché la culla della vita per loro non era l'Africa ma l'Asia o l'Europa e anche perché non erano stati trovati molti fossili all'epoca (1925) in quel continente.
 Nel '59 vennero scoperti altri fossili in Africa e ciò confermò che era il continente della culla degli essere umani.
-Venne scoperto tempo dopo un altro ominide chiamato Australopithecus Afarensis, femmina databile sui 3 e 3,8 milioni di anni fà, che era alta non più di 110 cm che avrebbe potuto pesare sui 23 kg mentre, i maschi probabilmente il doppio.
+Venne scoperto tempo dopo un altro ominide chiamato Australopithecus Afarensis, femmina databile sui 3 e 3,8 milioni di anni fa, che era alta non più di 110 cm che avrebbe potuto pesare sui 23 kg mentre, i maschi probabilmente il doppio.
 Successivamente vennero scoperti altri reperti catalogati come Autralopithecus Boisei e Astralopithecus Robustus che vissero tra 1,75 e 1,8 milioni di anni fa.
 Il primo aveva ancora la cresta ossea che serviva nelle scimmie per l'attaccatura dei muscoli della loro forte mascella la quale, con l'evoluzione in ominidi, diminuisce.
 Tale specie aveva anche dei grossi molari e ciò indica che è un vecchio antenato dell'uomo.
@@ -957,7 +961,7 @@ Egli sviluppò l'agricoltura, l'arte, la tecnologia.
 Questo passaggio epocale corrisponde alla fine di quel lungo periodo che gli storici chiamano Preistoria.
 La teoria secondo cui gli ominidi si sono diffusi in tutto il globo è definita ipotesi dell'evoluzione multi-regionale rappresentata dal modello a candelabro perché un gruppo di ominidi si sposta sempre di più dividendosi in altri gruppi fino ad arrivare dappertutto contemporaneamente.
 Un'altra teoria è detta invece del modello dell'arca di Noè, è quella secondo cui un solo gruppo di esseri umani già evoluti si sposta diffondendosi dappertutto evolvendosi.
-L'era cenozoica detta terziaria iniziò 65 Ma di anni fa e fà parte dell'eone fanerozoico.
+L'era cenozoica detta terziaria iniziò 65 Ma di anni fa e fa parte dell'eone fanerozoico.
 In questo periodo storico abbiamo la formazione delle grandi catene montuose perché l'India alla deriva verso nord si scontra con l'Eurasia.
 Così viene a formarsi la catena Himalayana.
 Per quanto riguarda la vita, il cenozoico è definito era dei mammiferi che prendono il sopravvento sui rettili e i dinosauri che si sono estinti.
@@ -1039,7 +1043,7 @@ I piccoli poi sono ancora più vivaci e curiosi dei genitori e sono impossibili 
 Sono simili a lunghi gattoni dalla lunga coda e dal naso molto sviluppato, i coati vivono a piccoli branchi nei boschi.
 Scavano nella terra per trovare insetti da mangiare.
 A differenza dei procioni, sono litigiosi.
-Quando un individuo cerca di avvicinarsi ad un compagno che sta mangiando,ne nascono zuffefuribonde, che non hanno mai conseguenze gravi.
+Quando un individuo cerca di avvicinarsi ad un compagno che sta mangiando,ne nascono zuffe furibonde, che non hanno mai conseguenze gravi.
 Non sono sanguinari ma semplicemente attaccabrighe.
 I vecchi maschi vivono lontani dal branco per riavvicinarsi nel periodo dell’accoppiamento.
 Anche in questa occasione nascono zuffe clamorose:
@@ -1208,7 +1212,6 @@ lavare i vestiti e fare altre faccende, per questo non mi lasciava giocare
 per paura che la gente dicesse: "Ha lasciato uscire sua figlia".
 Avevano questa mentalità ristretta.
 Mia mamma lavora nell'ospedale di un piccolo villaggio.
-geeta davi madre
 A Ratu non ci sono donne che lavorano, solo casalinghe.
 - Vedi quello giallo? - Questo?
 Mia mamma è la mia principale ispirazione. Come lei, volevo essere indipendente.
@@ -1226,7 +1229,6 @@ Non è molto istruito,
 ma conosce molto bene
 le piccole cose della vita.
 Ogni volta che parla, ho voglia di ascoltarlo.
-shiv narayan mahto padre
 Eravamo molto felici quando è nata Deepika.
 Era una bambina in salute, di 5 chili.
 Aveva degli occhi curiosi.
@@ -1260,7 +1262,6 @@ I loro genitori le fanno sposare intorno ai 18 anni.
 Se non me ne fossi andata, sono sicura
 che mi sarei sposata intorno ai 18 o 19 anni.
 Volevo allontanarmi dalla vita di quel villaggio e fuggire da quella situazione triste.
-seraikella la prima scuola di deepika
 Avevo 12 anni quando sentii parlare per la prima volta del tiro con l'arco.
 Qualcuno mi parlò di una scuola a Seraikella,
 e, cosa più importante, disse che era gratuita. Non dovevo pagare nessuna retta,
@@ -1294,7 +1295,7 @@ scuola di tiro con l'arco tata, jamshedpur - la migliore in india
 Quando avevo 13 anni la Scuola di Tiro con l'arco TATA faceva delle selezioni,
 e io ero determinata a farmi scegliere.
 Il mio coach Dharmendra Tiwari, era incaricato delle selezioni.
-dharmendra tiwari capo coach della squadra indiana
+capo coach della squadra indiana
 Venne da me e disse: "Voglio allenarmi con lei".
 Dissi: "Ok, ma dovrai seguire le mie istruzioni".
 Mi informò di essere stata selezionata dalla TATA.
@@ -1304,11 +1305,11 @@ Sono povero, dove troverò i soldi?
 Ma, in qualche modo, racimolai tutto quello che potevo.
 Era un'ingenua ragazza di paese senza fiducia in se stessa.
 Non sapeva come mangiare, dormire, o vestirsi adeguatamente.
-kuntala paul direttrice della scuola tata
+direttrice della scuola tata
 Le insegnammo come mangiare con un cucchiaio, e come comportarsi.
 Se ne stava isolata e si allenava da sola.
 Lavorava molto duramente per correggere i suoi difetti.
-purnima mahto coach di tiro con l'arco femminile indiano
+coach di tiro con l'arco femminile indiano
 Tirava quante frecce le dicessimo di tirare e imparava in fretta.
 Il suo talento è quasi un miracolo.
 Solo un anno dopo aver cominciato, diventò Campionessa Mondiale Cadetti.
@@ -1319,7 +1320,6 @@ Lentamente incominciò a interessarmi. Ma poi ne fui rapita.
 Ho sempre desiderato fare qualcosa che mi facesse notare.
 Così che la gente mi riconoscesse e dicesse: "Quella è Deepika".
 Ecco che arriva Deepika Kumari per l'incontro della medaglia d'oro.
-giochi del commonwealth, nuova delhi 2010
 Se riuscirà Kumari avrà vinto.
 Dieci punti. Deepika Kumari è campionessa del Commonwealth.
 Deepika Kumari ha raggiunto grandi vette sul palcoscenico internazionale.
@@ -1332,7 +1332,6 @@ padma shri uno dei riconoscimenti più alti dell'india
 La signorina Deepika Kumari.
 Ricevere a una così giovane età una delle onorificenze più alte dell'India,
 ero così orgogliosa e piangevo di gioia.
-pranab mukherjee presidente dell'india
 Da quando Deepika è sbocciata, non ci sono mai mancati i soldi.
 La casa che vedete qui...
 Non ci ho speso un singolo penny.
@@ -1463,7 +1462,6 @@ ha portato Deepika ad avere un infortunio a una spalla.
 Ho un appuntamento con il medico.
 Forse andremo a Delhi o dopo essere tornati a Mumbai.
 L'appuntamento è confermato.
-3 giugno 2016 mumbai, india
 69 giorni a rio 2016
 È un incubo subire un infortunio pochi giorni prima delle Olimpiadi.
 Salve
@@ -1528,7 +1526,7 @@ perché torni a casa vincitrice.
 Non so perché stia piangendo.
 Forse sono lacrime di gioia
 in attesa di buone notizie.
-marica, 40 km da rio - base d'allenamento tiro con l'arco indiano
+base d'allenamento tiro con l'arco indiano
 22 luglio 2016
 21 giorni all'evento
 Spero solo di non avere dolore.
@@ -1536,7 +1534,7 @@ Spero che non mi dia dolore.
 Fa male.
 Molto?
 Fa male quando rilascio...
-...dopo averlo tenuto in questa posizione.
+dopo averlo tenuto in questa posizione.
 Deepika era all'apice durante le prime tre prove
 quando ha battuto il record mondiale.
 Poi ha avuto l'infortunio e ha perso sensibilità nella spalla.
@@ -1577,7 +1575,6 @@ Siamo a India contro la Cina Taipei.
 Deepika Kumari contro Tan Ya-Ting.
 Dunque, ecco qui Deepika Kumari...
 città sacra di shirdi
-Deepika Kumari.
 Sta per tirare.
 È un inizio concreto per Kumari.
 Ha per le mani una sfida difficile, Kumari.
@@ -1597,38 +1594,43 @@ e aver perso,
 il peso di una sconfitta è una croce pesante da portare.
 Ti prego non farmi quella domanda.
 Ti senti male quando...
-...ovunque tu vada...
-...non ottieni
+ovunque tu vada
+non ottieni
 alcun rispetto solo perché...
 Non hai una medaglia d'oro olimpica o nessuna medaglia olimpica.
 Non ha importanza quante altre competizioni tu abbia vinto.
 Non ha davvero importanza.
 Queste cose devono
 cambiare nel nostro paese.
-Non lo so. Però...
+Non lo so. 
+Però...
 Forse
-ci vorrà...
-...parecchio tempo.
+ci vorrà parecchio tempo.
 Otto anni, dodici anni?
 Ma...
 nessuna donna in india ha mai vinto una medaglia d'oro olimpica.
 né alcuna donna tra questi paesi in via di sviluppo.
 popolazione 3,1 miliardi
-- Ciao, sorellona. - Ciao. Cos'è tutto questo?
+Ciao, sorellona.
+Ciao. Cos'è tutto questo?
 Fiori?
-- Unzione. - Pochissima.
+Pochissima.
 Grazie.
-- Benvenuta, sorellona. - Come state tutte?
+Benvenuta, sorellona
+Come state tutte?
 Stiamo bene.
-- Come stanno andando gli allenamenti? - Molto bene.
-- Cosa? - Guarda qui.
-- Ho fatto un quaderno di tuoi articoli. - Il tempo è il miglior insegnante.
+Come stanno andando gli allenamenti?
+Molto bene.
+Cosa? - Guarda qui.
+Ho fatto un quaderno di tuoi articoli.
+Il tempo è il miglior insegnante.
 Né troppo duro
 né troppo clemente. Oh, dunque questi sono solo quelli buoni.
 Abbiamo visto le Olimpiadi insieme nella sala TV.
 Mettevamo la sveglia a mezzanotte e ci svegliavamo
 dicendo: "C'è la gara di Deepika".
-- Saltavamo fuori dal letto... - E pregavamo per la tua vittoria.
+Saltavamo fuori dal letto
+E pregavamo per la tua vittoria.
 Se il tuo punteggio era basso, pregavamo:
 "Dio, ti prego, aiuta nostra sorella Deepika", e gridavamo che tu vincessi.
 Avreste dovuto gridare più forte, così vi avrei sentite a Rio.
@@ -1651,7 +1653,7 @@ guardate i loro video.
 È questo che comporta lavorare duramente. Lavorare duramente...
 è fare la cosa giusta.
 Sì.
-- Allenatevi bene. - Dobbiamo fare una foto.
+Allenatevi bene. - Dobbiamo fare una foto.
 Adesso siete voi quelle più grandi.
 Nel nostro paese, le ragazze hanno grandi sogni
 e ambizioni, e vogliono esaudirli
@@ -1836,7 +1838,7 @@ E' proprio una bella casetta, dovresti visitarla.
 Andiamo al parco giochi? Ha finalmente riaperto!
 La graffa che si mangiava in quel parco giochi era buonissima, non vedo l'ora di riprovarla.
 E' una focaccia più che una pizza.
-Il gattò che hai cucinato era buonissimo.
+Il gatto che hai cucinato era buonissimo.
 Preferisci un gatto o un cane?
 I gatti sono animali malvagi. I cani sì che sono buoni!
 Sua madre lo vedeva bello nonostante somigliasse moltissimo a uno scarafaggio.
@@ -2108,11 +2110,13 @@ Ranocchio era l’unica persona che contasse nella vita del giovane , dopo il pa
 infatti la madre non lo considerava nemmeno e la sorella lo picchiava , credendo che si trattenesse parte della paga ricevuta alla cava.
 Un giorno mentre scavava Rosso trovò le scarpe del padre ma il corpo fu trovato in seguito.
 Del padre furono ritrovati anche i calzoni , il piccone e la zappa , e furono restituiti a Rosso.
-Un altro evento che viene narrato riguarda il vecchio asino grigio, sempre bastonato dal ragazzo per fargli smettere di soffrire , il quale dopo essere morto fu portato lontano dalla cava e abbandonato come cibo per cani.
+Un altro evento che viene narrato riguarda il vecchio asino grigio
+sempre bastonato dal ragazzo per fargli smettere di soffrire
+il quale dopo essere morto fu portato lontano dalla cava e abbandonato come cibo per cani.
 Anche Ranocchio si ammalò ma continuò a lavorare finché , un giorno Rosso non lo vide più venire alla cava e sentì raccontare dagli altri minatori che era morto.
-Dopo la morte di Ranocchio , rosso ha perso l’unica speranza di vita che aveva e affronta senza timore tutti gli incarichi affidatogli, tra cui il verificare
+Dopo la morte di Ranocchio, rosso ha perso l’unica speranza di vita che aveva e affronta senza timore tutti gli incarichi affidatogli
 una nuova via sotterranea che lo porterà a smarrirsi per sempre nel sottosuolo della cava e morire come il padre.
-I beni confiscati alla criminalità organizzata, grazie alla legge 109/1996, vengono amministrati dall’ANSBC - Agenzia Nazionale per l'Amministrazione e la Destinazione dei Beni Sequestrati e Confiscati alla Criminalità Organizzata, con sede a Reggio Calabria, sotto vigilanza del Ministero dell'Interno.
+I beni confiscati alla criminalità organizzata, grazie alla legge 109/1996, vengono amministrati dall’ANSBC - Agenzia Nazionale per l'Amministrazione e la Destinazione dei Beni Sequestrati e Confiscati alla Criminalità Organizzata
 L'Agenzia viene istituita con Decreto Legge 4/10, convertito in Legge 50/10, con il
 compito di provvedere all'amministrazione, alla custodia ed alla destinazione dei beni mobili e immobili sequestrati e confiscati alla criminalità organizzata.
 L'Agenzia provvede all'amministrazione dei beni confiscati anche in via non definitiva e adotta i provvedimenti di destinazione dei beni confiscati per le prioritarie finalità istituzionali e sociali, secondo le modalità indicate dalla legge 31 maggio 1965, n.
@@ -2144,20 +2148,22 @@ Con il diffondersi e il perfezionarsi dell’automazione la moneta bancaria sta 
 Esistono sportelli automatici(Bancomat) ai quali si rivolge la clientela e terminali installati presso negozi chiamati POS.
 Sono gli strumenti cartolari.
 Possono essere ordinari(bancari,circolari) o speciali.
-Hanno in comune: pagabili a vista, sono titoli di credito all’ordine(trasferibili per girata) , emessi perché esiste un fondo.Vaglia cambiario della Banca d’Italia, del Banco di Napoli e del Banco di Sicilia È un assegno circolare rilasciato solo contro versamento di denaro contante, ha però nome diverso per ragioni di prestigio degli enti emittenti.
-Viene emesso da banche autorizzate dalla Banca d’Italia nelle località in cui non esiste una filiale della Banca d’Italia.È un titolo all’ordine emesso dal Banco di Napoli e dal Banco di Sicilia pagabile a vista presso qualunque loro filiale sul quale può essere indicata la causale del pagamento che può essere sottoposta all’ accertamento della condizione che ha causato il pagamento.
+Hanno in comune: pagabili a vista, sono titoli di credito all’ordine(trasferibili per girata) , emessi perché esiste un fondo.
+Vaglia cambiario della Banca d’Italia, del Banco di Napoli e del Banco di Sicilia È un assegno circolare rilasciato solo contro versamento di denaro contante, ha però nome diverso per ragioni di prestigio degli enti emittenti.
+Viene emesso da banche autorizzate dalla Banca d’Italia nelle località in cui non esiste una filiale della Banca d’Italia.È un titolo all’ordine emesso dal Banco di Napoli e dal Banco di Sicilia pagabile a vista presso qualunque loro filiale sul quale può essere indicata la causale del pagamento che può essere sottoposta all’accertamento della condizione che ha causato il pagamento.
 La legge 109/96 costituisce lo strumento più avanzato di contrasto  alla criminalità organizzata nel campo culturale, sociale ed economico, prevedendo la  restituzione alla collettività di grandi patrimoni accumulati illecitamente e colpendo le mafie in uno degli ambiti più importanti: la creazione del consenso sociale.
 Se l’azione repressiva della magistratura punta ad indebolire le mafie attraverso la sottrazione delle ricchezze, mettendone in crisi il potere economico, l’azione costruttiva delle istituzioni e delle forze sociali punta ad indebolirne il consenso e dunque il potere politico.
 Il raggiungimento di tale obiettivo è tanto più alla portata quanto maggiore sarà il numero di beni che sono confiscati ed introdotti nel circolo virtuoso dell’uso sociale, ma anche quanto migliore sarà l’uso sociale degli stessi.
 In altre parole, se da un lato è fondamentale non perdere di vista il dato numerico che rappresenta un buon indicatore per valutare l’efficienza della giustizia e della macchina amministrativa, rispettivamente, nel confiscare e destinare le ricchezze confiscate, dall’altro è indispensabile valutare la qualità dell’uso finale del bene stesso, poiché da ciò dipenderà l’effettiva efficacia dell’azione di contrasto alla criminalità organizzata.
 Per quanto attiene alle procedure si propone lo snellimento e la semplificazione delle procedure di confisca ed assegnazione dei beni confiscati mediante la costituzione di un’agenzia unica che funzioni da cabina di regia e che, dotata di poteri, finanziamenti  e personale tecnico e specialistico adeguato sia in grado di assicurare in tempi certi che il bene confiscato sia definitivamente consegnato all’assegnatario.
 Per quanto riguarda gli enti locali, gli stessi dovrebbero essere vincolati all’attuazione di procedure di partecipazione e ad evidenza pubblica relative alla progettazione del  recupero dei beni confiscati (es.: concorsi di idee, ecc.) e alla successiva assegnazione (bandi pubblici, ecc.).
-Allo stesso tempo, occorrerebbe introdurre forme di sostegno ai comuni per la progettazione ed il recupero strutturale dei beni oggetto di confisca.La legge n.
-109/96 modifica il processo di assegnazione dei beni confiscati alle mafie, snellendo sia in termini di steps che di attori istituzionali coinvolti.
+Allo stesso tempo, occorrerebbe introdurre forme di sostegno ai comuni per la progettazione ed il recupero strutturale dei beni oggetto di confisca.
+La legge n.109/96 modifica il processo di assegnazione dei beni confiscati alle mafie, snellendo sia in termini di passaggi che di attori istituzionali coinvolti.
 Di fatto le fasi del processo di assegnazione dei beni immobili si riducono a tre, mentre il numero di soggetti coinvolti si riducono a nove.
-In particolare:“Il"
-"provvedimento definitivo di confisca e’ comunicato, dalla cancelleria dell’ufficio giudiziario che ha emesso il provvedimento, all’ufficio del territorio del Ministero delle finanze (oggi Agenzia del Demanio) che ha sede nella provincia ove si trovano i beni o ha sede l’azienda confiscata, nonché al prefetto e al Dipartimento della pubblica sicurezza del Ministero dell’interno.”
-”Il dirigente del competente ufficio del territorio, sulla base della stima del valore dei beni effettuata dal medesimo ufficio, acquisiti i pareri del prefetto e del sindaco del comune interessato e sentito l’amministratore giudiziario del bene stesso, formula una proposta di assegnazione entro 90 giorni dal ricevimento della comunicazione, al direttore generale del Demanio del Ministero delle Finanze.”“Il direttore centrale del demanio del Ministero delle finanze emana, entro 30 giorni dalla comunicazione (non vincolante) della proposta, il decreto definitivo di destinazione.Caratteristica, questa del popolo montano, che rendeva poco pratiche le visite da chi non vi faceva parte: non tutti avevano una capacità di adattamento tale da permettere un così repentino cambio orario di vita.
+Il "provvedimento definitivo di confisca e’ comunicato, dalla cancelleria dell’ufficio giudiziario che ha emesso il provvedimento, all’ufficio del territorio del Ministero delle finanze (oggi Agenzia del Demanio) che ha sede nella provincia ove si trovano i beni o ha sede l’azienda confiscata, nonché al prefetto e al Dipartimento della pubblica sicurezza del Ministero dell’interno.”
+Il dirigente del competente ufficio del territorio, sulla base della stima del valore dei beni effettuata dal medesimo ufficio, acquisiti i pareri del prefetto e del sindaco del comune interessato e sentito l’amministratore giudiziario del bene stesso, formula una proposta di assegnazione entro 90 giorni dal ricevimento della comunicazione, al direttore generale del Demanio del Ministero delle Finanze.
+Il direttore centrale del demanio del Ministero delle finanze emana, entro 30 giorni dalla comunicazione (non vincolante) della proposta, il decreto definitivo di destinazione.
+Caratteristica, questa del popolo montano, che rendeva poco pratiche le visite da chi non vi faceva parte: non tutti avevano una capacità di adattamento tale da permettere un così repentino cambio orario di vita.
 Eppure era per il regno un vantaggio assai notevole: la vita notturna aveva permesso la vittoria in numerose battaglie, mentre di rado gli eserciti nemici avevano potuto scontrarsi con le armate del nord-ovest sotto la luce del sole:
 regole e addestramenti validi che ne facevano uno dei più efficienti eserciti del mondo.
 Neanche, in alcun modo, ne risentiva di questa usanza il commercio: Durtar Malur, il secondo più grande porto dell’esagono, situato in un piccolo golfo nel pieno dello stretto del serpente, era florida meta di mercanti di ogni dove, e principale snodo commerciale tra regni esterni e regni interni:
@@ -2175,8 +2181,10 @@ Le lingue che il lupo conosceva erano molte, tante quante quella che erano a con
 Non poteva ancora
 parlare, ma il lupo sapeva apprendere, e dar cenni chiari della sua conoscenza: riusciva a far sapere qualora non avesse compreso una lezione che gli veniva insegnata, e quindi gli veniva ripetuta.
 Era attivo molto più del suo padrone, in ottima forma, anche se leggermente più piccolo di statura di quanto non avrebbe dovuto un lupo della sua razza essere alla sua età:
-non era questo tuttavia un problema, non vivendo lui nelle feroci valli di ferro dove la forza fisica faceva la differenza tra la vita e la morte.Al richiamo ed alle coccole del suo compagno, il lupo rispose con leggeri guaiti ed appoggiandosi dolcemente alle sue gambe:
-dopodiché, lo seguì nell’incontro con suo padre.La domanda del figlio non era troppo scontata al padre:
+non era questo tuttavia un problema, non vivendo lui nelle feroci valli di ferro dove la forza fisica faceva la differenza tra la vita e la morte.
+Al richiamo ed alle coccole del suo compagno, il lupo rispose con leggeri guaiti ed appoggiandosi dolcemente alle sue gambe:
+dopodiché, lo seguì nell’incontro con suo padre.
+La domanda del figlio non era troppo scontata al padre:
 conosceva bene la sua sfrontatezza, e non fu sorpreso per la domanda direttissima.
 Alzò gli occhi dalla mappa, e si osservarono: gli occhi del re erano profondi, vecchi più di quanto non lo fossero in realtà, e circondati da scure borse:
 il viso era magro e scavato, e la mancanza di barba lo faceva sembrare ancora di più un prigioniero il quale non vedeva la luce da anni.
@@ -2187,9 +2195,11 @@ fu così che uno dei due bicchieri fu mandato in pezzi dal padre, mentre per poc
 Alla fine, Dalmor cedette imprecando, e si ricaricò la pipa:
 Tildor sorrise, andò a prendere un altro bicchierino e riempì questo e l’altro miracolosamente integro di liquore: brindarono e bevvero.
 I beni del territorio non andavano completamente alle colline, che erano il possessore diretto, ma una percentuale andava ai venti, a causa di un antico trattato, stipulato ai tempi in cui l’esagono era colonia.
-Adesso tuttavia sembrava in corso il prepararsi di una vera e propria guerra, e gli stati tutti ne erano coinvolti dai giochi di alleanze.Il re era furioso e tremante:
+Adesso tuttavia sembrava in corso il prepararsi di una vera e propria guerra, e gli stati tutti ne erano coinvolti dai giochi di alleanze.
+Il re era furioso e tremante:
 si appoggiò ad una sedia e calmò il suo animo con respiri lenti e profondi.
-Poi si volse verso il figlio, che si era alzato.Calò un altro momento di muto silenzio.
+Poi si volse verso il figlio, che si era alzato.
+Calò un altro momento di muto silenzio.
 Uldor era seduto fermo ad ammirare la luna:
 il re fumava sulla poltrona e Dalmor pure fumava, ma seduto su una sedia, gomito poggiato sul tavolo pensieroso.
 Nel mentre, la luna continuava il suo percorso, e la città fremeva di vita: nelle caserme si continuavano i ritmi degli addestramenti, nei mercati e nelle piazze le urla della gente riempivano l’aria:
@@ -2211,8 +2221,10 @@ la regina era morta diciannove anni prima, in occasione del parto di Dalmor.
 Nessun altro appartenente alla casa reale o alla nobiltà viveva nella capitale dei monti oltre il re e suo figlio: quella schiera di uomini, famiglie e personaggi popolavano la corte di Zorqun, meraviglia, orgoglio e imponente simbolo di potenza delle montagne in tutto il mondo abitato.
 Dalmor andava a studiare in quell’ora tarda della notte: conosceva a memoria e menadito gli eventi registrati dalle scritture in seguito, ma c’erano alcuni punti ch’egli amava rileggere, poiché da essi non si finiva mai di imparare: strategia, umana indole, diplomazia:
 tutto era importante, meno che mai in tempi preoccupanti come quelli che viveva.
-E allora entrò nella torre, e portò con sé un candelabro di pietra lunare: fino a quanto essa avrebbe brillato, non avrebbe avuto necessità di accendere le candele:
-si avviò su per la scala a chiocciola in legno che era posta al centro della torre, illuminata da pietre e candele ovunque.Allegò al suo vestiario dei comodi stivali di pelle nera, un paio di pugnali alla cintola, e due ciondoli molto curiosi: uno era un globo di bianco diamante, un altro era, invece, una piccola punta di freccia in zaffiro blu profondo, con una grande macchia di sangue sulla punta.
+E allora entrò nella torre, e portò con sé un candelabro di pietra lunare: 
+fino a quanto essa avrebbe brillato, non avrebbe avuto necessità di accendere le candele:
+si avviò su per la scala a chiocciola in legno che era posta al centro della torre, illuminata da pietre e candele ovunque.
+Allegò al suo vestiario dei comodi stivali di pelle nera, un paio di pugnali alla cintola, e due ciondoli molto curiosi: uno era un globo di bianco diamante, un altro era, invece, una piccola punta di freccia in zaffiro blu profondo, con una grande macchia di sangue sulla punta.
 Dopo essersi così vestito, decise di portare anche la spada reale, e la allacciò dietro le sue spade: due piedi e mezzo di acciaio nero, pesante ed affilatissima, sormontata da un’elsa in argento puro con un diamante sferico, simbolo della luna: la spada era da quasi due millenni nelle mani della casata Della Luna e veniva tramandata di re in re, alla prima battaglia da regnante del successore:
 Dalmor l’aveva ricevuta dal padre il mese precedente.
 Così vestito, si avviò verso l’uscita, ma tornò, come al solito, indietro quattro o cinque volte prendendo ogni volta ciò che aveva dimenticato, sotto lo sguardo del suo vecchio scudiero, il quale aveva chiuso le finestre e mandato a chiamare qualche garzone per pulire la stanza, che ancora non si era presentato.
@@ -2229,9 +2241,12 @@ Mamnor lo trovò
 esattamente in quella posizione.
 Lo toccò sulla spalla, e fu sorpreso della reattività del giovane: di solito, doveva buttarlo giù dal letto, o buttare del ghiaccio su di lui:
 quella notte, invece, bastò una leggere spinta per destarlo.
-Il principe si mise a sedere, affondando le mani nei suoi capelli ribelli, cercando di pulire dal viso i segni della notte.Il giovane impiegò una mezz’ora buona a salire le scale della sua torre, sbandando vistosamente e in preda a sporadici attacchi di risa:
-non appena riuscì ad entrare nella sua stanza da letto, si buttò sul letto e, strisciando e contorcendosi, si spogliò, svegliandosi la notte successiva in una posizione atipica, nudo.Mamnor dovette compiere più sforzi del consueto, a causa dei postumi che gravavano sul giovane, e questi non riuscì a svegliarsi completamente, nonostante fosse lucido e consapevole della situazione.
-Quando seppe che il padre lo attendeva nel cortile per un duello rispose facendo cadere la testa sulla tavola.Entrando, si trovarono nella piccola sala comune.
+Il principe si mise a sedere, affondando le mani nei suoi capelli ribelli, cercando di pulire dal viso i segni della notte.
+Il giovane impiegò una mezz’ora buona a salire le scale della sua torre, sbandando vistosamente e in preda a sporadici attacchi di risa:
+non appena riuscì ad entrare nella sua stanza da letto, si buttò sul letto e, strisciando e contorcendosi, si spogliò, svegliandosi la notte successiva in una posizione atipica, nudo.
+Mamnor dovette compiere più sforzi del consueto, a causa dei postumi che gravavano sul giovane, e questi non riuscì a svegliarsi completamente, nonostante fosse lucido e consapevole della situazione.
+Quando seppe che il padre lo attendeva nel cortile per un duello rispose facendo cadere la testa sulla tavola.
+Entrando, si trovarono nella piccola sala comune.
 La taverna stessa era molto piccola, e l’oste li accolse senza troppe smancerie:
 disse loro che era stato avvisato, e anche che aveva avuto difficoltà, perché c’erano solo quattro stanze disponibili, quindi aveva dovuto cacciare i clienti che pernottavano e preparare sette pagliericci, perché non aveva quindici materassi.
 Tildor ascoltò con pazienza le lamentele, poi infilò nelle mani dell’oste cinque monete d’oro e quello si azzittì subito, ringraziando e facendo un goffo inchino: era di certo più oro di quanto ne avesse mai visto in vita sua.
@@ -2241,11 +2256,13 @@ Tutti furono concordi per una leggera minestra: avevano ancora lo stomaco gonfio
 Mangiarono in sala: il cibo non era granché, ma almeno era commestibile:
 nessuno toccò il vino.
 Poi andarono a dormire nelle stanze, che erano al piano terra, dividendosi: nelle stanze più grandi avrebbero dormito in quattro, nella più piccola in tre.
-Uldor si sarebbe accucciato al letto di Dalmor: cresceva a vista d’occhio.Fu con gioia che salutarono l’apparire della torre sul ponte all’orizzonte.
+Uldor si sarebbe accucciato al letto di Dalmor: cresceva a vista d’occhio.
+Fu con gioia che salutarono l’apparire della torre sul ponte all’orizzonte.
 Tuttavia, avrebbero pernottato ancora una volta in una locanda, e, facendosi coraggio, si sorbirono per un’ultima volta una cena terribile, giungendo infine, a metà del giorno seguente, alla guarnigione
 La notte morì nel cielo, Dalmor rientrò nella sua stanza che l’alba era vicina.
 Vi trovò Uldor ad attenderlo:
-il lupo era seduto tra l’ingresso e il letto, e lo guardava con sguardo insondabile.Tornarono alla fortezza che gli ultimi barlumi di luce si stavano spegnendo:
+il lupo era seduto tra l’ingresso e il letto, e lo guardava con sguardo insondabile.
+Tornarono alla fortezza che gli ultimi barlumi di luce si stavano spegnendo:
 entrambi sudati, si infilarono nella vasca ghiacciata e si lavarono.
 Dalmor lavò anche i suoi vestiti, poi li sistemò accanto al camino, che accendeva solo per quello scopo, per farli asciugare, attendendo nudo e fumando.
 Appena furono asciutti, corse via, fece una rapida colazione nelle cucine ed infilò le scale della seconda torre.
@@ -2256,9 +2273,10 @@ Nelle successive settimane, la vita nella Fortezza Nera continuò normalmente se
 Il resto del mondo, però, era in bilico sull’orlo del precipizio.
 Il Regno del Nord dominava i mari dell’emisfero boreale, nonostante non una sola nave nemica fosse stata attaccata: il dominio era stato guadagnato solo con la schiacciante supremazia numerica.
 Il golfo di ferro era ancora sotto il dominio ed il controllo dei Monti, nonostante le numerose difficoltà che incontravano le navi mercantili a giungervi.
-Durtar Malur, nel pieno dello stretto del serpente, era in forte prosperità: l’unica via d’accesso via mare ad Arat Vanur era
-quella e, sebbene non vi fossero dazi sul passaggio, la stragrande maggioranza delle navi dirette alla capitale del nord si fermavano prima nel porto dei Monti, con grande vantaggio per il commercio.
-Esattamente come Dalmor aveva previsto, non seguirono la vallata verso est, bensì voltarono a Nord: suo padre aveva scelto non il percorso più breve, ma forse il più significativo: non una città avrebbero incontrato durante il percorso, almeno così pensava il principe, tentando di indovinare i propositi del re a riguardo.
+Durtar Malur, nel pieno dello stretto del serpente, era in forte prosperità: l’unica via d’accesso via mare ad Arat Vanur era quella 
+la stragrande maggioranza delle navi dirette alla capitale del nord si fermavano prima nel porto dei Monti, con grande vantaggio per il commercio.
+Esattamente come Dalmor aveva previsto, non seguirono la vallata verso est, bensì voltarono a Nord: suo padre aveva scelto non il percorso più breve, ma forse il più significativo: 
+non una città avrebbero incontrato durante il percorso, almeno così pensava il principe, tentando di indovinare i propositi del re a riguardo.
 Quando la Luna tramontò erano già usciti dalla valle, inoltrandosi in un passaggio sotterraneo che avrebbe permesso loro di sbucare al di là del passo sotto cui stavano cavalcando: uno straniero avrebbe impiegato due, forse addirittura tre, giorni per salire il passo e discendere dall’altra parte:
 loro lo avrebbero superato prima che il Sole salisse.
 Così avvenne, e, una volta fuori dal passaggio, si fermarono alla stazione, dove non si limitarono a cambiare i cavalli, bensì si riposarono proprio.
@@ -2272,10 +2290,12 @@ Dalmor, dopo essersi rinfrescato ad una fonte alle spalle della stazione, salì 
 Ad ovest non mi era che rocce e monti, e la via per la quale erano giunti lì era celata alla vista:
 a Nord e Sud la vista era occultata dalle montagne, che si alzavano quasi verticalmente, raggiungendo picchi elevati ed innevati nei cieli.
 Nulla di diverso vi era guardando ad Est: la strada si inabissava subito, dopo una brusca svolta verso Sud, scomparendo alla vista, che si fermava quindi ad altri monti, altri boschi.
-Il sole era ancora alto, ma era sprofondato dietro le montagne da tempo ormai: restava solo la luce, che continuava a perdurare, mentre sulle sponde e sulle spiagge del mondo il disco rosso ancora poteva essere scorto nel cielo.Dalmor si svegliò a mattina inoltrata, e Turyn era già andato via.
+Il sole era ancora alto, ma era sprofondato dietro le montagne da tempo ormai: restava solo la luce, che continuava a perdurare, mentre sulle sponde e sulle spiagge del mondo il disco rosso ancora poteva essere scorto nel cielo.
+Dalmor si svegliò a mattina inoltrata, e Turyn era già andato via.
 Il suo pensiero volò a cosa avevano pensato le guardie vedendolo scendere dopo la notte, ma si rese conto che non gli importava e la sua testa crollò di nuovo a terra.
 Ridiscese e fece colazione assieme ai suoi compagni di viaggio:
-il cibo in viaggio era certamente scarso rispetto a quello che poteva avere ogni mattina nella Fortezza Nera, ma, nonostante questo, era abbondante per gli standard di qualsiasi viaggio: trovandosi ancora al sicuro tra le montagne, questo non scarseggiava e non c’era bisogno di razionare i pasti.La mattina seguente Dalmor si svegliò nel caos più totale.
+il cibo in viaggio era certamente scarso rispetto a quello che poteva avere ogni mattina nella Fortezza Nera, ma, nonostante questo, era abbondante per gli standard di qualsiasi viaggio: trovandosi ancora al sicuro tra le montagne, questo non scarseggiava e non c’era bisogno di razionare i pasti.
+La mattina seguente Dalmor si svegliò nel caos più totale.
 Aprì gli occhi con non poche difficoltà:
 rimase qualche minuto immobile, con gli occhi semiaperti, senza riuscire a connettere immagini e cervello.
 Quando finalmente riuscì a mettere in moto qualcosa, fu capace anche di alzare leggermente la testa, con uno sforzo enorme: davanti alla sua testa aveva una brocca di ceramica in frantumi, e il vino era asciutto a terra, una scura macchia viola sulla pietra.
@@ -2296,7 +2316,8 @@ per loro fortuna, l’angusto passaggio era breve e ne erano usciti in tempo per
 Ora Dalmor conosceva i luoghi in cui si trovavano: si trovavano nelle anguste e inospitali fosse di Terranova, così chiamate in onore dell’isola da cui proveniva re Ghurtar I, l’isola di Terranova per l’appunto.
 Il Sole si alzò, e venne il cambio di guarda alla Torre del Perdono:
 il nome è dovuto a quando, nei tempi antichi, il Re di Aglaas chiese perdono al popolo dei Monti per le misure che ne limitavano la libertà, e concesse la piena sovranità ed indipendenza al Regno, dando vita ad uno stato autonomo.
-Nella sala più alta della torre più alta è mantenuta conservata ed intatta la pietra su cui vennero pronunciate le parole del  giuramento.Si rifugiarono, per la notte, nella fortezza:
+Nella sala più alta della torre più alta è mantenuta conservata ed intatta la pietra su cui vennero pronunciate le parole del  giuramento.
+Si rifugiarono, per la notte, nella fortezza:
 simile, ma più piccola, di quella che avevano incontrato a valle, era calda ed ospitale, e da essa si scorgeva lontano a Nord ed a Sud.
 Sotto i loro occhi, la Meraviglia, così era chiamata Zorqun, brillava di infinite luci, e le distese verdi si allungavano davanti alle sue porte per chilometri e chilometri.
 Dalmor e Tildor attesero sul passo, imponendosi affiancati contro il freddo e il vento, sovrastando il loro regno e la città di pietra, finché la Luna non ascese in gloria e brillò nel cielo, facendo risplendere tutte le pietre lunari sulla loro vista, nonché i sottili battenti del portone che avevano superato.
@@ -2317,7 +2338,8 @@ Trascorse quel breve periodo gustandosi il perfetto microclima sempre sereno e f
 alcuni erano molto strani, come i grandi professori della Scuola Magistrale, i quali sembravano sempre avere la testa tra le nuvole:
 altri erano amichevoli, soprattutto gli assistenti delle ambasciate, i giovani della guardia o la servitù che popolava la fortezza.
 Però le conversazioni più interessanti le ebbe con gli ambasciatori stranieri, da cui potette apprendere che, in verità, a ben pochi, anche nell’esagono, interessava della guerra, guerra che loro non vedevano, che consideravano una chimera, che era solo futile e controproducente allarmismo.
-Ogni volta capiva sempre di più che l’illusione è meglio di qualsiasi realismo per l’animo umano, nonostante le conseguenze fossero poi catastrofiche.Tutti, ovviamente, sapevano che sarebbero andati a cavallo, che erano fondamentali e che, addirittura, avrebbero percorso molte miglia al galoppo, ma quando viene sbattuta in faccia la dura realtà delle cose fa sempre male.
+Ogni volta capiva sempre di più che l’illusione è meglio di qualsiasi realismo per l’animo umano, nonostante le conseguenze fossero poi catastrofiche.
+Tutti, ovviamente, sapevano che sarebbero andati a cavallo, che erano fondamentali e che, addirittura, avrebbero percorso molte miglia al galoppo, ma quando viene sbattuta in faccia la dura realtà delle cose fa sempre male.
 La spedizione lungo la strada rientrò quattro giorni dopo:
 era il giorno 11 di Ilraset, e l’atmosfera festiva in cui la città li aveva accolti si stava affievolendo, e pian piano la vita stava tornando alla normalità.
 Dalmor, il Re e il Governatore di Zorqun andarono alle porte della città ad attendere il ritorno della compagnia:
@@ -2339,10 +2361,11 @@ un boato accolse un garzone assonnato che portò, alle quattro inoltrate, un vas
 Uldor li guardava tutti in malo modo, ma non perché era contrario, bensì perché Dalmor gli aveva offerto un bicchiere di vino ed era anche lui partito per la piacevole sensazione che Bacco offre ai suoi devoti.
 Il principe e il re, mentre mangiavano, bevevano e fumavano, si diedero ad una delle loro amate sfide a scacchi da ubriachi, mentre tutt’attorno a loro si faceva il tifo, si tiravano scommesse e si rideva senza motivo logico.
 Dalmor notò che il dialetto non era per nulla diverso dal paesino precedente, e che aveva quindi a che fare di nuovo con dei modi di fare non proprio garbati.
-L’oste tuttavia non fece storie, disse a Tildor dove erano le loro stanze e li mandò in un corridoio laterale, informandoli che ‘La cena l’amo fatta già, se volete ce sta quarche avanzo ma ve dovete accontetà.
+L’oste tuttavia non fece storie, disse a Tildor dove erano le loro stanze e li mandò in un corridoio laterale
 Ed è freddo, quindi ve accontentate’.
 Si sistemarono e mangiarono
-quello che passava la casa, accontentandosi come previsto: almeno il bollito di carne era mangiabile.Nei giorni seguenti, il tempo resto cupo, alternando folate di vento a piogge incessanti.
+quello che passava la casa, accontentandosi come previsto: almeno il bollito di carne era mangiabile.
+Nei giorni seguenti, il tempo resto cupo, alternando folate di vento a piogge incessanti.
 I prossimi punti di ristoro erano più vicini tra loro, quindi poterono permettersi di viaggiare con più calma.
 Il dialetto locale ancora assillava le orecchie di Dalmor, il quale si stava tuttavia abituando e iniziava a capirlo, trovandolo anche meno terribile della prima impressione che gli fece.
 Forse, si disse, avrebbe potuto parlarlo tranquillamente: in fondo, era sprezzante, sincero e a volte sarcasticamente cattivo, cosa che gli piaceva.
@@ -2362,9 +2385,11 @@ Se solo le pianure non si fossero messe in mezzo… No, probabilmente tutto ques
 Dovevamo farlo, dovevamo rischiare.
 Era nostro dovere farlo.
 La probabilità di trovarsi due stati alleati militarmente e economicamente a prevalere sugli altri quattro, e per giunta posti a due angoli opposti  dell’esagono… No, era troppo bassa, e noi ci eravamo finiti dentro.
-Non potevamo non farlo, dovevamo, per rispetto nei confronti di qualche dio strano, ma dovevamo.La risposta partì a metà pomeriggio, sul cavallo con cui era arrivata la prima.
+Non potevamo non farlo, dovevamo, per rispetto nei confronti di qualche dio strano, ma dovevamo.
+La risposta partì a metà pomeriggio, sul cavallo con cui era arrivata la prima.
 Ermen guardò felice il messaggero partire diretto a Est.
-Poi, tornò ai suoi accampamenti.La vita da campo è una palla.
+Poi, tornò ai suoi accampamenti.
+La vita da campo è una palla.
 Nulla di nuovo da fare, nulla di nuovo.
 Niente di interessante o divertente, ufficiali noiosi, generali impettiti.
 Gente noiosa.
@@ -2382,7 +2407,8 @@ Bah, che noia.
 Speravo di divertirmi di più in guerra.
 A quanto pare, mi sbagliavo.
 Ora attendiamo solo Etham che arrivi e poi festeggeremo.
-Almeno ci sarà qualcosa di diverso da fare.All’alba del 5 Sêdulem il Re e i suoi cinque compagni arrivarono ad Arat Vanur, unendosi a metà mattina al resto dell’esercito.
+Almeno ci sarà qualcosa di diverso da fare.
+All’alba del 5 Sêdulem il Re e i suoi cinque compagni arrivarono ad Arat Vanur, unendosi a metà mattina al resto dell’esercito.
 La città era assediabile via mare e via terra, ma loro avrebbero attaccato solo da terra: poche miglia più a sud la flotta dei Monti aveva chiuso lo stretto fin dall’inizio della guerra, impedendo a qualsiasi nave di entrare o uscire dalla capitale, ammazzando commercio, fughe della speranza e rifornimenti.
 La flotta aveva tentato più volte di aprirsi un varco, ma perse in casa propria, e venne completamente distrutta.
 La città non era ancora alla fame, ma lo sarebbe stata appena finita l’estate, quando non sarebbero arrivati rifornimenti da Nord, e sarebbe iniziata l’agonia della popolazione.
@@ -2401,7 +2427,8 @@ I caladri che partivano dalla fortezza venivano uccisi tutti, ma quelli che arri
 Dovevano ricevere notizie dall’esterno, essere consapevoli della sconfitta che stavano subendo ovunque, ma non dovevano poter chiedere aiuto.
 Dovevano essere soli.
 Le catapulte avevano danneggiato in gran parte le mura, peccato che erano solo lo strato più esterno, quindi non si era ottenuto alcun risultato.
-Le mura interne risultarono più ardue da distruggere, ed era rischioso avanzare ancora con le catapulte.Il Re si rimise a dormire come se niente fosse, senza porsi troppe domande.
+Le mura interne risultarono più ardue da distruggere, ed era rischioso avanzare ancora con le catapulte.
+Il Re si rimise a dormire come se niente fosse, senza porsi troppe domande.
 Non erano affari suoi.
 Si svegliò al mattino riposato, come poche volte gli era capitato da quando era iniziata la guerra, e scese giù immediatamente a coordinare la giornata.
 Avrebbero organizzato degli ospedali improvvisati, in magazzini grandi e ancora integri, in cui avrebbero invitato o trasportato la popolazione della città.
@@ -2415,11 +2442,14 @@ Le mura interne, che dividevano la cittadella dal resto della città, avevano un
 Sgomberata la strada, venne fatto avanzare l’ariete, che stavolta si fermò però a distanza di tiro, come il resto dell’esercito.
 Il Re e i suoi generali, a cavallo, erano fermi davanti le enormi porte, e inviarono un araldo sotto le mura, a chiedere al governatore di arrendersi e abbandonare le armi.
 In tutta risposta, venne inviata una freccia ai piedi del cavallo, a cui era legata una lettera:
-raccolta la missiva, l’ambasciatore tornò immediatamente dal Re, porgendola.Giunsero nell’ospedale all’aperto, che sfruttava le abitazioni attorno la piazza per ospitare i feriti e la popolazione.
+raccolta la missiva, l’ambasciatore tornò immediatamente dal Re, porgendola.
+Giunsero nell’ospedale all’aperto, che sfruttava le abitazioni attorno la piazza per ospitare i feriti e la popolazione.
 Lei si trovava in una piccola bottega, che doveva essere di un calzolaio.
-Si fece accompagnare da lei e chiese che fossero lasciati soli.Lei riposava sul letto:
+Si fece accompagnare da lei e chiese che fossero lasciati soli.
+Lei riposava sul letto:
 la gamba era fasciata e steccata, appesa al soffitto.
-Sembrava dormire.L’alba seguente si aprì un nuovo scenario nel mondo.
+Sembrava dormire.
+L’alba seguente si aprì un nuovo scenario nel mondo.
 La voce che la guerra col Nord era finita si sparse tra i soldati, ma la fine non fu quella aspettata: sarebbero tornati a casa sconfitti.
 Imbattuti, ma sconfitti.
 Le perdite erano poche rispetto a quelle auspicate a inizio campagna, ma c’erano comunque state.
@@ -2434,11 +2464,13 @@ Cazzo pure i piccioni sono morti, guarda che moria a terra.
 Alla fine, ce ne torniamo a casa senza territori conquistati ma carichi d’oro, i soldati saranno felici quando lo sapranno.
 Per il Governatore, se la vedranno loro.
 Se Evelfo dovesse fare guerra a questo angolo del mondo, vedrò bene di starne lontano, Azhamor l’ha ben capito.
-Non so quanto sia saggio sfidarlo, comunque: io stesso me ne sono reso conto subito, e sono pazzo: figuriamoci una persona sana.La politica delle spedizioni non era incentrata solo verso il continente interno: numerose spedizioni, infatti, vennero inviate alla cieca, nella speranza di trovare nuove terre.
+Non so quanto sia saggio sfidarlo, comunque: io stesso me ne sono reso conto subito, e sono pazzo: figuriamoci una persona sana.
+La politica delle spedizioni non era incentrata solo verso il continente interno: numerose spedizioni, infatti, vennero inviate alla cieca, nella speranza di trovare nuove terre.
 Il Regno di Evelfo, il più a Nord degli stati esterni, diresse le sue attenzioni vero Nord, alla ricerca di un passo tra i ghiacci:
 fu uno degli ultimi a colonizzare il continente interno, restando escluso dall’esagono.
 Le diverse spedizioni che si avventuravano nei ghiacci artici fecero fini catastrofiche: solo pochi uomini riuscirono a tornare alle terre degli uomini, vivi ma distrutti nello spirito e nel corpo, a raccontare i loro viaggi e le loro peripezie.
-Verso Nord, la sete di scoperta si placò del tutto intorno al XIV secolo, quando nessun uomo accettava ormai di partire verso la morte.La tempesta non è arrivata nella notte, ma stamattina il Sole non è sorto.
+Verso Nord, la sete di scoperta si placò del tutto intorno al XIV secolo, quando nessun uomo accettava ormai di partire verso la morte.
+La tempesta non è arrivata nella notte, ma stamattina il Sole non è sorto.
 Nuvoloni neri ci circondano, ma il vento non si è alzato.
 Abbiamo abbassato le vele per sicurezza – i catini sono pronti per raccogliere l’acqua piovana.
 La pioggia si prospetta essere come tre giorni fa.
@@ -2446,13 +2478,15 @@ Il capitano della spedizione chiese di essere ricevuto dal Re.
 Il capitano negò loro questa possibilità, avvisandoli che avrebbero dovuto attendere almeno tre giorni prima di poter essere ammessi al cospetto di Sua Maestà.
 La ciurma era sconfortata dalla fredda accoglienza ricevuta e chiese che fossero almeno annunciati: sarebbe stato il Re in persona a decidere se riceverli o meno.
 Gli venne concessa questa possibilità, e un pasto caldo, dopo lunghi mesi passati in mare.
-Per loro fortuna, il Re si rivelò meno scettico dei militari e li convocò per il pomeriggio.Dopo cinque mesi e mezzo di viaggio in mare, la settima spedizione giunse a terra.
+Per loro fortuna, il Re si rivelò meno scettico dei militari e li convocò per il pomeriggio.
+Dopo cinque mesi e mezzo di viaggio in mare, la settima spedizione giunse a terra.
 Trascorsero gli ultimi tre giorni del loro viaggio circondati e ingabbiati in una fitta nebbia, da cui non si scorgeva nulla.
 Molti erano esausti, malnutriti e affranti: restavano sdraiati sul ponte ad attendere la morte.
 La corrente immota li trascinò fino alla secca, su cui si arenarono in piena notte.
 Al mattino, quando sorse il Sole, videro ciò che solo loro, tra gli uomini mortali, poterono osservare: la terra degli dèi.
 Si erano arenati a poche decine di metri da una bianca e immacolata spiaggia sabbiosa, dietro cui si stagliava una foresta verde e fitta.
-Enorme e immobile davanti ai loro occhi si stagliava un monte altissimo, più alto di ogni altro che si fosse mai visto sulla terra, la cui cima era nascosta nel cielo da nubi e foschia.Alla loro destra vi era la più piccola di statura, esile, ma allo stesso tempo la creatura più bella e meravigliosa che essi mai videro in vita loro.
+Enorme e immobile davanti ai loro occhi si stagliava un monte altissimo, più alto di ogni altro che si fosse mai visto sulla terra, la cui cima era nascosta nel cielo da nubi e foschia.
+Alla loro destra vi era la più piccola di statura, esile, ma allo stesso tempo la creatura più bella e meravigliosa che essi mai videro in vita loro.
 Lunghi capelli corvini le scendevano dietro le spalle, e la sua figura esile era circondata dall’oscurità, che ne occultava la vista:
 ma i suoi piedi e le sue braccia bianche brillavano, e con lei veniva la tristezza in cui erano immersi.
 Al suo fianco una figura materna, vestita di fiori, che allattava una nuova vita al seno, la teneva per mano, portandola dinanzi a loro.
@@ -2463,14 +2497,18 @@ nel cielo, uno spirito potente li raggiunse, sedendo anche lui.
 E gli uomini meravigliati li osservarono tutti, guardandoli.
 Non seppero quanto dormirono, e si risvegliarono con degli spiriti nuovi, alleggeriti e risanati.
 I loro corpi, corrotti e piegati dal viaggio e dal peso della spedizione, si erano rinforzati, tornando ad essere come erano prima della partenza.
-Si sentivano tutti forti e rinvigoriti.Vennero lasciati sulla terrazza per tutta la notte, eppure non se ne lamentarono.
+Si sentivano tutti forti e rinvigoriti.
+Vennero lasciati sulla terrazza per tutta la notte, eppure non se ne lamentarono.
 A lungo osservarono le stelle, diverse da quelle che conoscevano, e vi diedero nomi:
-rinfrancati dal lungo riposo, non ebbero bisogno di dormire, e così salutarono con gioia il sorgere del Sole al mattino.Trascorsero allora molti giorni soli, nella foresta, vivendo dei frutti degli alberi e rispettando la fauna locale, come Selàma aveva loro chiesto.
+rinfrancati dal lungo riposo, non ebbero bisogno di dormire, e così salutarono con gioia il sorgere del Sole al mattino.
+Trascorsero allora molti giorni soli, nella foresta, vivendo dei frutti degli alberi e rispettando la fauna locale, come Selàma aveva loro chiesto.
 In quel tempo, i loro spiriti si accrebbero ancora di più, e iniziarono a legarsi a quelle terre, sebbene sapessero che dovevano andarsene da quei luoghi, anche se non sapevano quando.
-Dovettero attendere fino alla primavera, prima che qualcuno degli dei andò a parlare di nuovo con loro, e Kog’Tar venne da sola, nella foresta, e loro non la scorsero fino a quando non fu tra loro.Al mattino, si svegliarono sulla spiaggia in cui erano sbarcati, e seppero che era giunto il momento di abbandonare per sempre quelle sponde.
+Dovettero attendere fino alla primavera, prima che qualcuno degli dei andò a parlare di nuovo con loro, e Kog’Tar venne da sola, nella foresta, e loro non la scorsero fino a quando non fu tra loro.
+Al mattino, si svegliarono sulla spiaggia in cui erano sbarcati, e seppero che era giunto il momento di abbandonare per sempre quelle sponde.
 Allora tutti, senza essere tristi, si diedero da fare per partire:
 tuttavia la nave era in uno stato fatiscente, e temevano di non raggiungere casa.
-Fu allora che Avore tornò nuovamente a loro dalle acque.Al suo fianco, Dalmor era vestito in maniera simile al padre, con due importanti differenze: le brache ed il mantello erano i suoi lavori in acciaio nero, che svolazzavano al vento della sera , e la sua spada lunga era quella della casa reale, Lama di Luna, e brillava nella notte al suo fianco:
+Fu allora che Avore tornò nuovamente a loro dalle acque.
+Al suo fianco, Dalmor era vestito in maniera simile al padre, con due importanti differenze: le brache ed il mantello erano i suoi lavori in acciaio nero, che svolazzavano al vento della sera , e la sua spada lunga era quella della casa reale, Lama di Luna, e brillava nella notte al suo fianco:
 la portava lì solo per uniforme, poiché gli era più comoda assicurata dietro le spalle.
 Quando furono tutti scesi, entrarono nel piccolo forte che controllava il ponte, e, senza perdere tempo, salirono sui cavalli già pronti e galopparono verso le sei fortezze.
 Avevano pranzato direttamente sul ponte del traghetto.
@@ -2481,7 +2519,8 @@ La corona era un semplice disco d’oro con sei punte, molto fragile e sottile.
 Aveva capelli corti e brizzolati, biondi, la mascella squadrata, felici occhi verdi e viso gioviale:
 in passato doveva essere stato un bell’uomo, ed anche fisicamente forte, viste le dimensioni delle spalle e del torace, ma ora una piccola pancia si era insinuata sotto il petto, con l’avanzare degli anni.
 Dietro di lui, con l’armatura militare e l’elmo sottobraccio, c’era un giovane dai capelli identici al padre ma con gli occhi color del ghiaccio, che si poteva dire un bell’uomo.
-Portava lui lo scettro reale, un semplice bastone bianco di betulla con punta in avorio e ricami in argento, che aveva una lunghissima storia.Dopo le mura a raggiera, che si innalzavano da miglia di distanza andando a confluire nelle mura esterne, e dopo di queste, vi erano i cortili esterni dei castelli:
+Portava lui lo scettro reale, un semplice bastone bianco di betulla con punta in avorio e ricami in argento, che aveva una lunghissima storia.
+Dopo le mura a raggiera, che si innalzavano da miglia di distanza andando a confluire nelle mura esterne, e dopo di queste, vi erano i cortili esterni dei castelli:
 ogni castello aveva la forma di un triangolo equilatero, poiché le mura a raggiera continuavano anche oltre le mura esterne, dividendo in sei castelli l’unica grande fortezza.
 I cortili esterni erano a forma di trapezi isosceli, i cui lati obliqui erano le mura di confine:
 queste mura erano molto particolari, poiché coincidevano esattamente con i confini dei sei stati.
@@ -2497,14 +2536,17 @@ Lo accompagnò fino al sottile ponticello che collegava il forte alla torre cent
 Tutti si guardarono per qualche secondo, poi, dopo un cenno del capo di Tildor, tutti si alzarono:
 i principi si diressero immediatamente verso Dalmor, mentre i re si raccolsero attorno a Blostgas, confabulando a bassa voce e dandosi pacche sulle spalle.
 Felagos fu richiamato a partecipare, ed i re riempirono il tavolo di vivande e bevande, si rinfrescarono a delle fontane poste proprio sulle pareti, e si sedettero tutti attorno al tavolo, occupando gli spicchi dei corrispondenti ai regni dei venti e delle colline:
-usarono le poltrone, che erano nettamente più comode degli scranni a loro destinati, ed al loro centro si porse Gorfin: suo era il compito di stendere i comunicati ed i verbali, avendo ricoperto in passato, durante il regno di suo padre, il ruolo di mastro cancelliere: mentre tutti i suoi colleghi passavano il tempo con le spade in mano, lui stringeva una penna, e questo contribuì a creare l’ottimo diplomatico che era stato e che rimaneva.Restarono per una mezz’ora buona a discutere di eventi passati e presenti e a conoscersi meglio:
+usarono le poltrone, che erano nettamente più comode degli scranni a loro destinati, ed al loro centro si porse Gorfin: suo era il compito di stendere i comunicati ed i verbali, avendo ricoperto in passato, durante il regno di suo padre, il ruolo di mastro cancelliere: mentre tutti i suoi colleghi passavano il tempo con le spade in mano, lui stringeva una penna, e questo contribuì a creare l’ottimo diplomatico che era stato e che rimaneva.
+Restarono per una mezz’ora buona a discutere di eventi passati e presenti e a conoscersi meglio:
 vennero richiamati dai loro genitori al centro della sala, dove, nonostante avessero trascorso più tempo a bere e mangiare che a lavorare, avevano steso i verbali ed i comunicati, che vennero letti e firmati dai principi.
 Infine, si sedettero un  po’ a caso, ognuno dove capitava, e si guardarono tutti, aspettandosi un discorso di chiusura.
-Dalmor si era seduto sullo scranno di Felagos, allungando i piedi sul tavolo e guardandolo sorridendo.Un ululato giunse alle loro orecchie, lontano:
+Dalmor si era seduto sullo scranno di Felagos, allungando i piedi sul tavolo e guardandolo sorridendo.
+Un ululato giunse alle loro orecchie, lontano:
 Uldor cacciava nelle colline attorno alla pian del castello, e la sua possente voce li raggiungeva.
 I loro genitori erano tornati nei loro castelli e appartamenti, a riposare, e la maggior parte degli abitanti delle sei fortezze faceva lo stesso:
 le guardie vegliavano immobili come statue, e le nuvole ancora coprivano il cielo, andando però via via sciogliendosi verso sud.
-La luna era vicinissima al tramonto.Arrivò velocemente la sera, ed il sole si avviò al tramonto:
+La luna era vicinissima al tramonto.
+Arrivò velocemente la sera, ed il sole si avviò al tramonto:
 Dalmor era seduto sul tetto del castello, rivolto a nord, completamente concentrato sul flusso della sua mente ed ignaro degli aventi che lo attorniavano:
 come si era prefissato prima di sedersi, si ridestò quando il sole cominciava a diventare rosso.
 Scese lentamente, tornando nel suo appartamento:
@@ -2519,9 +2561,11 @@ il giovane fu il primo ad avvicinarsi fulmineo, alzò leggermente la spada da te
 Per qualche minuto ripeté la tattica, continuando a pressare l’avversario con colpi inutili, che non potevano procurare alcun problema.
 L’unico che si stancava era lui
 Il giovane, inaspettatamente, parò e bloccò la spada lunga dell’avversario con il suo pugnale, ed alzò di un piede la spada lunga dal terreno, tentando un colpo alle ginocchia:
-il re non si fece cogliere impreparato, anche perché Dalmor aveva atteso qualche secondo di troppo, e spostò prontamente la lama a parare il colpo: il giovane non se lo fece chiedere due volte, allargò la lama del pugnale e tentò un colpo all’addome.Si muoveva nell’oscurità più totale del suo spirito, passando velocemente da un angolo all’altro dell’anima, in una ricerca disperata e disorganizzata:
+il re non si fece cogliere impreparato, anche perché Dalmor aveva atteso qualche secondo di troppo, e spostò prontamente la lama a parare il colpo: il giovane non se lo fece chiedere due volte, allargò la lama del pugnale e tentò un colpo all’addome.
+Si muoveva nell’oscurità più totale del suo spirito, passando velocemente da un angolo all’altro dell’anima, in una ricerca disperata e disorganizzata:
 da qualunque parte volgesse, non trovava null’altro che se stesso.
-Una voce dal buio, in lontananza, lo fece fermare.Quando ebbe finito, alzò la testa leggermente, e vide il perché delle pulsazioni lungo la gamba destra: la poltrona era caduta su di essa, ed aveva l’arto completamente addormentato.
+Una voce dal buio, in lontananza, lo fece fermare.
+Quando ebbe finito, alzò la testa leggermente, e vide il perché delle pulsazioni lungo la gamba destra: la poltrona era caduta su di essa, ed aveva l’arto completamente addormentato.
 Bottiglie di liquore erano sparse a terra, alcune ancora piene, altre vuote.
 Non ricordava quasi nulla della sera precedente.
 Lentamente, con la testa che gli scoppiava e lo stomaco che gli doleva, si mise a sedere, riuscendo a disincastrare la gamba da sotto la poltrona.
@@ -2537,7 +2581,8 @@ A lui poco importava, e sperò lo stesso per la sua futura consorte.Quasi tutti 
 caratterizzato da un alto e vastissimo altipiano, il Regno dei deserti era il meno popoloso, ma tra i più attivi nei commerci: Durtar Oslager era il terzo porto dell’esagono per grandezza e secondo in attività commerciale:
 con l’unione tra i due regni, Dalmor andava a tenere sotto controllo più del novantacinque percento dei traffici commerciali tra continente interno e paesi esterni:
 il restante cinque percento era diviso tra Durtar Hirin e Arat Vanur, per cui un tempo passavano oltre i sette decimi di merci del mondo, e i porti minori degli altri stati.
-Il continente interno si trovava ad un altezza media di trecento metri sul livello del mare, ed erano pochi i punti in cui la costa, quasi totalmente rocciosa e a strapiombo, si abbassava permettendo la creazione di porti e attracchi per i lunghi viaggi.I due si presero per mano, senza parlarsi, e si voltarono verso Blostgas, lui a sinistra e lei a destra.
+Il continente interno si trovava ad un altezza media di trecento metri sul livello del mare, ed erano pochi i punti in cui la costa, quasi totalmente rocciosa e a strapiombo, si abbassava permettendo la creazione di porti e attracchi per i lunghi viaggi.
+I due si presero per mano, senza parlarsi, e si voltarono verso Blostgas, lui a sinistra e lei a destra.
 Gli invitati restarono al loro posto, i loro genitori si disposero dietro i loro figli, defilati ed invertiti: sarebbero stati l’uno il testimone del figlio dell’altro.
 Uldor si mise dietro Blostgas, seduto.
 Questi stava ritto dietro il tavolino, guardandoli sorridendo.
@@ -2545,14 +2590,17 @@ Prima che iniziasse a parlare, Dalmor si voltò verso Araya, e vide le sue labbr
 Scesero a fare colazione, poi si separarono:
 lui raggiunse i suoi appartamenti, di nascosto, per infilarsi i suoi vestiti.
 Quando vi entrò, a dispetto delle sue fatiche di segretezza, suo padre era lì ad attenderlo, nudo su una poltrona, fumando tranquillamente.
-Il nuovo re restò a fissarlo per qualche secondo, spogliandosi poi facendo finta di nulla.Appena fu uscito dalle Sei Fortezze, una strana sensazione gli riempì l’animo.
+Il nuovo re restò a fissarlo per qualche secondo, spogliandosi poi facendo finta di nulla.
+Appena fu uscito dalle Sei Fortezze, una strana sensazione gli riempì l’animo.
 Stava per terminare la pace, e la guerra sarebbe scoppiata.
 E lui avrebbe rincontrato Syriel.
 Come avrebbe reagito?
 Cosa le avrebbe detto?
-Erano domande a cui non poteva in alcun modo rispondere.Uldor lo attendeva non molto distante.
+Erano domande a cui non poteva in alcun modo rispondere.
+Uldor lo attendeva non molto distante.
 Una macchia bianca nel brunastro della ghiaia e polvere che si stendeva poco oltre le mura esterne.
-Lo raggiunse e gli carezzò il collo peloso.La testa gli scoppiava.
+Lo raggiunse e gli carezzò il collo peloso.
+La testa gli scoppiava.
 Capì dove si trovava: nel cortile dei Deserti.
 Era praticamente circondato di gatti, che riuscì a mettere a fuoco solo in quell’istante.
 Doveva raggiungere una fontana subito.
@@ -2566,7 +2614,8 @@ Era l’ultimo giorno che avrebbe passato alle Sei Fortezze, ed era ancora l’a
 Si alzò e corse verso il tetto.
 Non poteva andarsene prima di averlo fatto.
 Si diresse verso il tetto della torre interno e, una volta su, si calò i pantaloni (si accorse allora di non indossare maglia e mantello) e pisciò al centro del mondo.
-Ora poteva anche andare a morire.Dalmor scese giù nel cortile, dopo aver mangiato qualcosa al volo nelle cucine, ad attendere gli altri.
+Ora poteva anche andare a morire.
+Dalmor scese giù nel cortile, dopo aver mangiato qualcosa al volo nelle cucine, ad attendere gli altri.
 La Luna era tramontata e il cielo stava diventando blu a Oriente, ma lui non poteva vederlo, impegnato a guardare solo a Ovest, dove la notte era ancora illuminata dalle stelle.
 Uldor lo raggiunse dopo qualche minuto, sbucando dalle mura di confine.
 Si sedettero davanti al portone, affiancati e in silenzio.
@@ -2574,50 +2623,87 @@ Dalmor si sentiva un macigno sullo stomaco.
 Qualche intoppo tecnico ma tutto procede  per il verso giusto e la giornata si conclude con una visita della struttura che ha ospitato questo Linux Day.
 Non vi dico le emozioni che ho provato in quel momento.
 Il mio primo viaggio all’estero, in una città magnifica, con gente che non conoscevo e sopratutto con dei Mozilliani molto ma molto più bravi di me.
-Cuore che palpitava e latte alle ginocchia.Ed ecco che arriva il momento di sfoderare il mio inglese e cambiare la mia lingua di default.
+Cuore che palpitava e latte alle ginocchia.
+Ed ecco che arriva il momento di sfoderare il mio inglese e cambiare la mia lingua di default.
 Ed eccoci alla sera, l’ultima sera dove ceniamo tutti insieme, tra zuppe strane, giochi con pepe nero carta e candele, cameriere che si arrabbiano, cantate degne del miglior Karaoke di Fiorello, ricerche infruttuose di un bar e risate nella hall dell’albergo, arriva il momento di salutarci tutti.Da tutto ciò ho capito che essere volontaria Mozilla non è solo programmazione, è anche cooperazione, lavoro di gruppo, sinergia e scambio di idee.
 Una nuova ventata di energia che mi porto dietro.
 Si tratta di un capitolo corposo e dettagliato, in continua espansione.
-È concepito per essere tenuto a portata di mano durante la traduzione e consultato all’occasione mediante l’Indice dei contenuti o la funzione di ricerca.Per essere definita di qualità adeguata, una traduzione tecnica deve corrispondere ai seguenti requisiti.I traducenti scelti devono essere conformi all’uso comune nella lingua d’arrivo.La localizzazione prevede un passaggio in più della semplice traduzione: invece di limitarsi a trasporre un contenuto così com’è in una lingua diversa, lo adatta agli usi e alle convenzioni di uno specifico Paese o regione.Nel caso di gergo tecnico, è necessario svolgere un’accurata ricerca terminologica su fonti ufficiali o autorevoli, invece bisogna evitare di rimpiazzare i termini tecnici con equivalenti approssimativi o troppo  generici.
-Nel migliore dei casi, usare un formato diverso da quello della regione di destinazione può apparire come una trascuratezza stilistica, ma in alcuni casi, specialmente quando si esprime la data in cifre, può dare adito a gravi fraintendimenti.Durante una traduzione è importante essere consapevoli delle sottili differenze nell’uso della punteggiatura tra una lingua e l’altra.
-Questo è il caso della virgola.Il punto va omesso alla fine dei titoli.Eccezione va fatta naturalmente per il discorso degli incisi.Viene utilizzato spesso (a volte abusato) nello stile informatico anglofono, specialmente nei messaggi di sistema che notificano un errore.In realtà il simbolo dell’ellissi ha la sua combinazione di tasti dedicata.Le regole della maiuscola sono diverse in italiano e in inglese.Di solito è l’uso comune a determinare il genere di un vocabolo straniero.
+È concepito per essere tenuto a portata di mano durante la traduzione e consultato all’occasione mediante l’Indice dei contenuti o la funzione di ricerca.
+Per essere definita di qualità adeguata, una traduzione tecnica deve corrispondere ai seguenti requisiti.
+I traducenti scelti devono essere conformi all’uso comune nella lingua d’arrivo.
+La localizzazione prevede un passaggio in più della semplice traduzione: invece di limitarsi a trasporre un contenuto così com’è in una lingua diversa, lo adatta agli usi e alle convenzioni di uno specifico Paese o regione.
+Nel caso di gergo tecnico, è necessario svolgere un’accurata ricerca terminologica su fonti ufficiali o autorevoli, invece bisogna evitare di rimpiazzare i termini tecnici con equivalenti approssimativi o troppo  generici.
+Nel migliore dei casi, usare un formato diverso da quello della regione di destinazione può apparire come una trascuratezza stilistica, ma in alcuni casi, specialmente quando si esprime la data in cifre, può dare adito a gravi fraintendimenti.
+Durante una traduzione è importante essere consapevoli delle sottili differenze nell’uso della punteggiatura tra una lingua e l’altra.
+Questo è il caso della virgola.
+Il punto va omesso alla fine dei titoli.
+Eccezione va fatta naturalmente per il discorso degli incisi.
+Viene utilizzato spesso (a volte abusato) nello stile informatico anglofono, specialmente nei messaggi di sistema che notificano un errore.
+In realtà il simbolo dell’ellissi ha la sua combinazione di tasti dedicata.
+Le regole della maiuscola sono diverse in italiano e in inglese.
+Di solito è l’uso comune a determinare il genere di un vocabolo straniero.
 Questa assegnazione avviene secondo un rapporto di tipo associativo con il più vicino corrispondente italiano.
-Per giunta possono esserci diverse interpretazioni a seconda del corrispondente italiano che ciascun individuo ha in mente.Non esiste un metodo intrinsecamente più giusto dell’altro, ma è opportuno che ogni organizzazione stabilisca delle convenzioni allo scopo di mantenere la coerenza terminologica interna.Quando esiste un traducente italiano ufficiale di un prodotto, va usato quello, altrimenti si lascia la versione originale.L’altra opzione è conferire al termine un traducente italiano.Prima c’è tutto un lavoro di ricerca della terminologia non solo corretta, ma anche coerente con lo stile Mozilla e con i prodotti localizzati in precedenza.
-Le traduzioni in italiano trasparenti e riconoscibili dei termini inglesi hanno il vantaggio “didattico” di portare a una consapevolezza più pragmatica e profonda dei terminiPer evitare questo effetto può essere utile unire due periodi brevi in uno più lungo, quando possibile evidenziandone il nesso logico con una proposizione subordinata.
-Questo darà al discorso un senso di continuità e renderà più facile seguirne il filo logico.Il campo dell’informatica ha senza dubbio adottato come lingua franca l’inglese.La prima opzione è lasciare il termine invariato.
+Per giunta possono esserci diverse interpretazioni a seconda del corrispondente italiano che ciascun individuo ha in mente.
+Non esiste un metodo intrinsecamente più giusto dell’altro, ma è opportuno che ogni organizzazione stabilisca delle convenzioni allo scopo di mantenere la coerenza terminologica interna.
+Quando esiste un traducente italiano ufficiale di un prodotto, va usato quello, altrimenti si lascia la versione originale.
+L’altra opzione è conferire al termine un traducente italiano.
+Prima c’è tutto un lavoro di ricerca della terminologia non solo corretta, ma anche coerente con lo stile Mozilla e con i prodotti localizzati in precedenza.
+Le traduzioni in italiano trasparenti e riconoscibili dei termini inglesi hanno il vantaggio “didattico” di portare a una consapevolezza più pragmatica e profonda dei termini
+Per evitare questo effetto può essere utile unire due periodi brevi in uno più lungo, quando possibile evidenziandone il nesso logico con una proposizione subordinata.
+Questo darà al discorso un senso di continuità e renderà più facile seguirne il filo logico.
+Il campo dell’informatica ha senza dubbio adottato come lingua franca l’inglese.
+La prima opzione è lasciare il termine invariato.
 Questa scelta è da preferire in caso di termini
 Va al progetto.
-Esegue l'accesso.Inserisce la traduzione nell’apposito campo.Il corpo dell’articolo, tecnicamente la traduzione vera e propria.Ciascuno ha le sue preferenze per gestire questa parte della traduzione.Naviga fino all’articolo da tradurre.
+Esegue l'accesso.
+Inserisce la traduzione nell’apposito campo.
+Il corpo dell’articolo, tecnicamente la traduzione vera e propria.
+Ciascuno ha le sue preferenze per gestire questa parte della traduzione.
+Naviga fino all’articolo da tradurre.
 Per gli studenti di marketing può essere un interessante sbocco per studiare applicazioni reali per la comunicazione, il brand, la gestione di community.
 Chi studia per una carriera manageriale può gestire un progetto, interfacciarsi con situazioni complesse e di problem solving.
-Studenti di economia possono scoprire modelli di business basati sul software libero e studiarli.L'ambito dei progetti open spazia notevolmente nel campo legislativo, la protezione delle proprietà intellettuali tramite GPL o forme di protezione che permettano la diffusione sono casi di studio molto particolari.
+Studenti di economia possono scoprire modelli di business basati sul software libero e studiarli.
+L'ambito dei progetti open spazia notevolmente nel campo legislativo, la protezione delle proprietà intellettuali tramite GPL o forme di protezione che permettano la diffusione sono casi di studio molto particolari.
 Adattare dei termini legali alle varie legislazioni internazionali.
 Creare un portfolio su casi di studi in ambiti molto variegati.
 Un corso di scienze dell'Educazione e della Formazione ha come obbiettivo formatico l'acquisizione si una solida preparazione culturale, che fornisca competenze di carattere teorico e tecnico-metodologico.
-Queste competenze risultano indispensabili per l'attività di educatore che operi nell'ambito di un sistema formativo.Uno studente di Lettere può invece ritenere interessante redare e revisionare testi riguardanti aree totalmente diverse dalla sua, come ad ad esempio testi scientifici o tecnici.
+Queste competenze risultano indispensabili per l'attività di educatore che operi nell'ambito di un sistema formativo.
+Uno studente di Lettere può invece ritenere interessante redare e revisionare testi riguardanti aree totalmente diverse dalla sua, come ad ad esempio testi scientifici o tecnici.
 Per quanto riguarda uno studente di Beni Culturali potrebbe essere interessato a sviluppare un sistema di audioguide per un museo e potrebbe farlo insieme a un ingegnere e un informatico.
-Che vantaggi ha tutto ciò?Inoltre quiz e feedback offrono un'apprendimento e una partecipazione attiva dove studenti e insegnanti possono interagire.La progettazione collaborativa, inoltre, permette di poter realizzare de progetti dove chiunque può offrire le proprie specifiche competenze o il proprio pensiero al fine di perseguire gli obbiettivi per il quale lo stesso progetto è nato.
+Che vantaggi ha tutto ciò?Inoltre quiz e feedback offrono un'apprendimento e una partecipazione attiva dove studenti e insegnanti possono interagire.
+La progettazione collaborativa, inoltre, permette di poter realizzare de progetti dove chiunque può offrire le proprie specifiche competenze o il proprio pensiero al fine di perseguire gli obbiettivi per il quale lo stesso progetto è nato.
 Si pongono come obiettivo finale la professionalizzazione di una figura che collabora con un team di lavoro alla creazione di un progetto.
-Un esempio di progetto potrebbe essere inerente all'impiego dell'energia nucleare, dai reattori, all'uso del combustibile, fino alla creazione di software utilizzati dall'ipotetica centrale nucleare.Le Scienze classiche sono tutte le scienze in cui troviamo quelle definite fondamentali come Fisica, Chimica o Matematica.
+Un esempio di progetto potrebbe essere inerente all'impiego dell'energia nucleare, dai reattori, all'uso del combustibile, fino alla creazione di software utilizzati dall'ipotetica centrale nucleare.
+Le Scienze classiche sono tutte le scienze in cui troviamo quelle definite fondamentali come Fisica, Chimica o Matematica.
 Il loro approccio scientifico si basa sullo studio teorico di un fenomeno al fine di poterlo interpretare e poterlo spiegare.
 Le guide sono tematiche suddivise per cartelle.
-A seconda del soggetto possono essere in un unico file diviso per paragrafi oppure piu file sempre dentro la cartella dedicata.Se pensi che il tuo messaggio possa in qualche modo offendere qualcuno, probabilmente lo farà.
+A seconda del soggetto possono essere in un unico file diviso per paragrafi oppure piu file sempre dentro la cartella dedicata.
+Se pensi che il tuo messaggio possa in qualche modo offendere qualcuno, probabilmente lo farà.
 Evita.
 La bacheca ti permette di essere aggiornato riguardo i nuovi commenti e il loro stato.
-Inoltre ti informa del numero di articoli e molto altro!Passando con il mouse sul link nella barra laterale Articoli si apre un piccolo menù, clicca su Aggiungi nuovo.I Commenti sono uno dei modi per vedere quanto il sito ha successo.
-Vanno moderati cioè cancellati o approvati per l’apparizione nel sito.Imposta il gruppo o più gruppi in cui quel banner deve apparire sul sito.
+Inoltre ti informa del numero di articoli e molto altro!Passando con il mouse sul link nella barra laterale Articoli si apre un piccolo menù, clicca su Aggiungi nuovo.
+I Commenti sono uno dei modi per vedere quanto il sito ha successo.
+Vanno moderati cioè cancellati o approvati per l’apparizione nel sito.
+Imposta il gruppo o più gruppi in cui quel banner deve apparire sul sito.
 Parleremo anche delle nuove uscite, ed anche delle vecchie, posteremo recensioni, e soprattutto resteremo in contatto con voi che ci seguite e con chi (speriamo) ci seguirà.
-Il tutto sempre con la nostra simpatia e cordialità di sempre!Ciò renderebbe il tutto molto più allettante, ma non è assolutamente necessario giocare insieme allo stesso gioco.L’iniziativa dura una settimana, e al termine di essa, a seconda di quanti trofei sono stati acquisiti, o anche se non si possiede nessun trofeo.
-Una associazione, una piccola associazione, con grandi progetti.E’ scegliere di avere libertà di modificare il programma per cui hai
+Il tutto sempre con la nostra simpatia e cordialità di sempre!Ciò renderebbe il tutto molto più allettante, ma non è assolutamente necessario giocare insieme allo stesso gioco.
+L’iniziativa dura una settimana, e al termine di essa, a seconda di quanti trofei sono stati acquisiti, o anche se non si possiede nessun trofeo.
+Una associazione, una piccola associazione, con grandi progetti.
+E’ scegliere di avere libertà di modificare il programma per cui hai
 E’ scegliere di mantenere alta la competenza ed il mercato, devo essere sempre più bravo dei miei competitor per avere la tua fiducia.
 Durante il periodo di formazione si verrà affiancati da Mentor che hanno già completato i progetti l’anno precedente.
 Fine ultimo del programma è costruire una community.
 di persone.
 che sanno creare community!
-Semplice no?E tu cosa hai fatto questo Weekend?Siamo giunti ad Ancona in tempo per l’attività conclusiva della giornata del 19: La Cena al Buio.La libertà non va solo voluta, ma ci si deve impegnare per averla!E la libertà ha un costo!
+Semplice no?E tu cosa hai fatto questo Weekend?
+Siamo giunti ad Ancona in tempo per l’attività conclusiva della giornata del 19: La Cena al Buio.
+La libertà non va solo voluta, ma ci si deve impegnare per averla!
+E la libertà ha un costo!
 Diventare grandi vuol dire liberarsi di tutti quei blocchi che hanno tormentato la tua giovinezza.
-Diventare grandi vuol dire anche aumentare lo spazio fisico, del corpo e dell’anima per fare posto alla vita e accogliere blocchi e paranoie nuovi di zecca.Diventare grandi fa schifo, è inevitabile e non servono a nulla le creme antirughe e i risvoltini ai pantaloni.
-L’adultità ci renderà sempre più tormentati, fuori e dentro.È con questo incipit motivato e grintoso che inizia il racconto della mia adultità, iniziata oggi con la presa di coscienza di un blocco nuovo, grande e scintillante: il blocco del lettore.
+Diventare grandi vuol dire anche aumentare lo spazio fisico, del corpo e dell’anima per fare posto alla vita e accogliere blocchi e paranoie nuovi di zecca.
+Diventare grandi fa schifo, è inevitabile e non servono a nulla le creme antirughe e i risvoltini ai pantaloni.
+L’adultità ci renderà sempre più tormentati, fuori e dentro.
+È con questo incipit motivato e grintoso che inizia il racconto della mia adultità, iniziata oggi con la presa di coscienza di un blocco nuovo, grande e scintillante: il blocco del lettore.
 Ho paura di leggere.
 Non mi era mai successo prima.
 Avevo sempre dato per scontato che se ti piace fare una cosa non potrai mai averne paura, eppure ora è così.
@@ -2629,30 +2715,50 @@ Da giovane entravo nelle librerie e mi sentivo al centro del mondo, mi muovevo c
 Diventare grandi fa schifo perché si smette di crescere.
 Non potendo più leggere, bloccata da una paura che chissà da dove viene, io ho smesso di crescere.
 È come se mi avessero tagliato le radici e tolto il sole.
-Mi sento vecchia, rinsecchita, inutile.Non riesco a uscire da questo labirinto mentale, fatto di pile di libri impolverati sul comodino e ossessioni impossibili da controllare.Dicono che prendere coscienza di un problema sia il primo passo verso la guarigione, ma io ho bisogno di correre verso la guarigione perciò chiedo il vostro aiuto.Aiutatemi a superare il blocco del lettore.
+Mi sento vecchia, rinsecchita, inutile.
+Non riesco a uscire da questo labirinto mentale, fatto di pile di libri impolverati sul comodino e ossessioni impossibili da controllare.
+Dicono che prendere coscienza di un problema sia il primo passo verso la guarigione, ma io ho bisogno di correre verso la guarigione perciò chiedo il vostro aiuto.
+Aiutatemi a superare il blocco del lettore.
 Adottate un libro della mia pila infinita e leggetelo con me.
 Siamo tutti abituati all’effetto che Netflix causa al nostro corpo: paralisi degli arti, dilatazione delle pupille, felicità che bombarda i neuroni.
-È una sorta di sindrome di Stendhal che colpisce la parte più nascosta del nostro essere, quella che brama la bellezza, che vuole che le cose abbiano un senso.Dopo anni di distretti di polizia antimafia con la uno bianca e cento venti passioni sotto al sole della toscana, i nostri occhi hanno la possibilità di posarsi su immagini elaborate per catturare, per stupire e non solo per fare da sottofondo allo sparecchiamento della tavola.Le belle storie non le ha inventate Netflix, ma di certo ha saputo venderle.
-Una serie di sfortunati eventi ne è la prova: ciclo di romanzi di grande successo, già film di grande successo, nelle mani di Netflix diventa una serie tv di grande successo.Una serie di sfortunati eventi inizia con un monito: non guardate!
+È una sorta di sindrome di Stendhal che colpisce la parte più nascosta del nostro essere, quella che brama la bellezza, che vuole che le cose abbiano un senso.
+Dopo anni di distretti di polizia antimafia con la uno bianca e cento venti passioni sotto al sole della toscana, i nostri occhi hanno la possibilità di posarsi su immagini elaborate per catturare, per stupire e non solo per fare da sottofondo allo sparecchiamento della tavola.
+Le belle storie non le ha inventate Netflix, ma di certo ha saputo venderle.
+Una serie di sfortunati eventi ne è la prova: ciclo di romanzi di grande successo, già film di grande successo, nelle mani di Netflix diventa una serie tv di grande successo.
+Una serie di sfortunati eventi inizia con un monito: non guardate!
 E proprio per questo non si può più smettere di guardarla.
 Lemony Snicket, l’autore della storia, fin dall’inizio, avvisa lo spettatore che quello che vedrà non sarà piacevole.
 Dal momento in cui perdono i genitori in un incendio, la sfiga si abbatte sugli orfani Baudelaire in maniera incontenibile.
 Perennemente tormentati dal malvagio conte Olaf, che vuole impadronirsi della loro eredità, i tre ragazzi Baudelaire sono costretti a lottare contro un mondo di adulti idioti e ottusi, incapaci di osservare la realtà e di dar loro fiducia.
 Temi importanti, come l’affrontare un lutto o lottare contro paure inutili, affiorano sulla superficie dell’
-Le atmosfere sono quasi fiabesche, a metà tra l’immaginario di Tim Burton e quello di Wes Anderson, i mondi creati da Lemony Snicket pseudinimo di Daniel Handler, sono tutto quello che avremmo voluto vivere da bambini.Presenza costante e quasi personaggio fondamentale delle storie sono i libri.
+Le atmosfere sono quasi fiabesche, a metà tra l’immaginario di Tim Burton e quello di Wes Anderson, i mondi creati da Lemony Snicket pseudinimo di Daniel Handler, sono tutto quello che avremmo voluto vivere da bambini.
+Presenza costante e quasi personaggio fondamentale delle storie sono i libri.
 In ogni avventura i tre ragazzi si confrontano con la necessità di reperire informazioni e in modo del tutto naturale si rivolgono ai libri.
-Splendide librerie, specchio delle personalità dei loro padroni, popolano ogni luogo in cui i tre orfani si trovano e grazie alla consultazione dei libri, i Baudelaire riescono ogni volta a vincere sul conte Olaf e ad aggiungere piccoli indizi per risolvere l’enigma della morte dei genitori.Una serie di sfortunati eventi è molto bella e il 30 marzo esce la seconda stagione.
+Splendide librerie, specchio delle personalità dei loro padroni, popolano ogni luogo in cui i tre orfani si trovano e grazie alla consultazione dei libri, i Baudelaire riescono ogni volta a vincere sul conte Olaf e ad aggiungere piccoli indizi per risolvere l’enigma della morte dei genitori.
+Una serie di sfortunati eventi è molto bella e il 30 marzo esce la seconda stagione.
 Non guardatela!
 Nella seconda metà del 1600 nessuno veniva con la mimosa in mano a dirti come essere più donna.
-All’epoca le donne non si facevano troppi problemi su quali fossero i loro desideri, li realizzavano e basta.Certo l’aspettativa di vita era più bassa, gli uomini più puzzolenti e le spade più affilate.
-c’era un sacco da divertirsi.Era un epoca in cui se ti venivano a dire che non potevi essere una fuorilegge, tu te ne fregavi e continuavi a fare la fuorilegge.Anne Dieut-le-Veut nasce nel 1661 in Francia e il suo desiderio profondo di essere una criminale la porta presto ad essere deportata sull’isola di Tortuga, in compagnia di tanti bei talenti della criminalità.Una volta lì decide di mettere la testa a posto e di fare le cose per bene.Cede al corteggiamento di Pierre Lelong, il primo bucaniere che passava di lì, e con lui vive sei anni di romantici saccheggi e razzie nel mar dei caraibi.Nel 1690 Pierre muore inaspettatamente in una rissa e Anne, presa dalla paura che abbiamo noi donne di restare sole, sposa il secondo bucaniere che passava di lì: Joseph Cherel.
+All’epoca le donne non si facevano troppi problemi su quali fossero i loro desideri, li realizzavano e basta.
+Certo l’aspettativa di vita era più bassa, gli uomini più puzzolenti e le spade più affilate.
+c’era un sacco da divertirsi.
+Era un epoca in cui se ti venivano a dire che non potevi essere una fuorilegge, tu te ne fregavi e continuavi a fare la fuorilegge.
+Anne Dieut-le-Veut nasce nel 1661 in Francia e il suo desiderio profondo di essere una criminale la porta presto ad essere deportata sull’isola di Tortuga, in compagnia di tanti bei talenti della criminalità.
+Una volta lì decide di mettere la testa a posto e di fare le cose per bene.
+Cede al corteggiamento di Pierre Lelong, il primo bucaniere che passava di lì, e con lui vive sei anni di romantici saccheggi e razzie nel mar dei caraibi.
+Nel 1690 Pierre muore inaspettatamente in una rissa e Anne, presa dalla paura che abbiamo noi donne di restare sole, sposa il secondo bucaniere che passava di lì: Joseph Cherel.
 Il tempo di distribuire i confetti e razziare qualche villaggio che anche il povero Joseph viene coinvolto in una rissa e muore.Un po’ seccata dal fatto che le uccidano tutti i mariti Anne, senza mimosa alcuna, sfida a duello l’assassino del consorte, il pirata Laurens De Graffe.Alto, biondo, olandese.
 se non bastassero queste caratteristiche a renderlo seducente c’è anche il fatto che è conosciuto come il flagello d’occidente, il diavolo in persona.
-La leggenda narra che Anne a Laurens si guardarono a lungo e nel momento di affrontarsi, Laurens cacciò la spada, mentre Anne sfoderò la pistola.Preso alla sprovvista, ammirato da tanta scaltrezza e seriamente preoccupato per la sua vita, Laurens si inginocchiò e chiese ad Anne di sposarlo.Vissero felici a lungo, depredando e razziando, tra un colpo di cannone e una bottiglia di rum.
-Spargendo terrore  mano nella mano e scrivendo, a colpi di pistola, la storia della pirateria.La morale di questa storia non è che prima o poi arriva il pirata azzurro che vuole ucciderti e poi ti sposa.La morale di questa storia è: quando tutti si aspettano una spada, tu caccia la pistola.
-Tieni bene in testa che non puoi combattere per i tuoi sogni se non hai le armi giuste.Le mimose fanno starnutire, la determinazione colpisce al cuore.Certe volte il futuro succede all’improvviso.
+La leggenda narra che Anne a Laurens si guardarono a lungo e nel momento di affrontarsi, Laurens cacciò la spada, mentre Anne sfoderò la pistola.
+Preso alla sprovvista, ammirato da tanta scaltrezza e seriamente preoccupato per la sua vita, Laurens si inginocchiò e chiese ad Anne di sposarlo.
+Vissero felici a lungo, depredando e razziando, tra un colpo di cannone e una bottiglia di rum.
+Spargendo terrore  mano nella mano e scrivendo, a colpi di pistola, la storia della pirateria.
+La morale di questa storia non è che prima o poi arriva il pirata azzurro che vuole ucciderti e poi ti sposa.La morale di questa storia è: quando tutti si aspettano una spada, tu caccia la pistola.
+Tieni bene in testa che non puoi combattere per i tuoi sogni se non hai le armi giuste.
+Le mimose fanno starnutire, la determinazione colpisce al cuore.
+Certe volte il futuro succede all’improvviso.
 Ti alzi un giorno convinto di essere nel presente e invece bam!
-Fuori è già futuro, baby!Ti affacci alla finestra, guardi il cielo sconfinato e ti sembra proprio di vederla quella Tesla rossa, che viaggia verso Marte con la scritta Don’t panic!
+Fuori è già futuro, baby!
+Ti affacci alla finestra, guardi il cielo sconfinato e ti sembra proprio di vederla quella Tesla rossa, che viaggia verso Marte con la scritta Don’t panic!
 in bella vista e un asciugamano nel cruscotto.
 Non si può più fermare, il futuro comincia a entrare da tutte le parti.
 Apri la porta e spunta uno che progetta e vende macchine elettriche che si guidano da sole, apri la credenza ed esce fuori quello che progetta treni superveloci, da sotto il tappeto spunta quello che sta scavando tunnel sotto Los Angeles perché si annoiava a stare nel traffico, infine ti atterra un booster sul balcone e non ci capisci
@@ -2660,10 +2766,14 @@ In tv ci sono i pooh che cantano a Sanremo e attorno a me c’è Elon Musk che s
 Elon Musk è l’uomo del futuro.
 È colui che ha la soluzione a ogni problema.Le emissioni di gas serra stanno distruggendo il pianeta e compromettendo la vita su di esso?
 La soluzione è Tesla Motors, la ditta che produce macchine elettriche super tecnologiche che si guidano da sole, non emettono CO2 e hanno prezzi abbordabili.Il traffico a Los Angeles fa impazzire tutti?
-La soluzione è The Boring Company, la compagnia che scava tunnel sotterranei nei quali scorrono dei carrelli che permettono alla tua automobile di viaggiare velocissima ed evitare spiacevoli code.L’esplorazione spaziale è in stallo per via degli elevati costi di produzione dei razzi?
-La soluzione è SpaceX, la compagnia che produce “razzi riciclabili”, i cui booster sono in grado di tornare indietro e atterrare senza nemmeno un graffio, così da poter essere riutilizzati.Certe volte il futuro succede solo se ti rimbocchi le maniche e lo fai succedere.Il 6 febbraio 2018 in tanti si sono rimboccati le maniche e hanno spedito il Falcon Heavy, (un razzo grande, molto grande, davvero tanto grande) verso Marte e oltre la cintura degli asteroidi.
+La soluzione è The Boring Company, la compagnia che scava tunnel sotterranei nei quali scorrono dei carrelli che permettono alla tua automobile di viaggiare velocissima ed evitare spiacevoli code.
+L’esplorazione spaziale è in stallo per via degli elevati costi di produzione dei razzi?
+La soluzione è SpaceX, la compagnia che produce “razzi riciclabili”, i cui booster sono in grado di tornare indietro e atterrare senza nemmeno un graffio, così da poter essere riutilizzati.
+Certe volte il futuro succede solo se ti rimbocchi le maniche e lo fai succedere.
+Il 6 febbraio 2018 in tanti si sono rimboccati le maniche e hanno spedito il Falcon Heavy, (un razzo grande, molto grande, davvero tanto grande) verso Marte e oltre la cintura degli asteroidi.
 Su quel razzo c’è una Tesla rossa e una tuta spaziale che ascolta Starman di David Bowie.
-Il 6 febbraio 2018 sarà ricordato come il giorno in cui i sogni si avverano, come il giorno in cui la tecnologia ha accorciato le distanze, il giorno in cui l’uomo è finalmente riuscito nell’impossibile.Avrei voluto essere lì e invece, il 6 febbraio 2018, sono stata testimone di un altro evento più piccolo, ma altrettanto straordinario, irripetibile e indimenticabile: il treno delle 14:06 partito dalla stazione centrale di Benevento è arrivato alla stazione di Napoli centrale in perfetto orario, senza nessun blocco, malfunzionamento o ripensamento.
+Il 6 febbraio 2018 sarà ricordato come il giorno in cui i sogni si avverano, come il giorno in cui la tecnologia ha accorciato le distanze, il giorno in cui l’uomo è finalmente riuscito nell’impossibile.
+Avrei voluto essere lì e invece, il 6 febbraio 2018, sono stata testimone di un altro evento più piccolo, ma altrettanto straordinario, irripetibile e indimenticabile: il treno delle 14:06 partito dalla stazione centrale di Benevento è arrivato alla stazione di Napoli centrale in perfetto orario, senza nessun blocco, malfunzionamento o ripensamento.
 Io ero lì, io l’ho vissuto quel momento, quella sensazione di normalità, di sollievo per qualcosa che finalmente funziona, quella sensazione di futuro che può arrivare.
 Sensazione che non rivivrò mai più, perché certe volte il futuro succede solo se sei lontano da qui.
 È necessario.
@@ -2678,33 +2788,45 @@ Un po’ di esperienza l’ho maturata nel tempo, e proprio questa esperienza mi
 Fare teatro è per me:Muoversi su un pavimento impolverato.
 Non importa quante volte sarà stato pulito, lo strato di polvere ci sarà sempre.
 Avere troppo caldo in estate e troppo freddo in inverno.
-Qualunque tipo di climatizzazione è impossibile.Lottare per la fluidità dei movimenti.
-L’acido lattico e la rigidità sono dietro l’angolo.Tornare a casa con lividi visibili.
-Sbattere contro il pavimento fa male.Tornare a casa con lividi invisibili.
-Sbattere contro le emozioni fa male.Abbattere ogni tipo di barriera relativa al contatto fisico.
+Qualunque tipo di climatizzazione è impossibile.
+Lottare per la fluidità dei movimenti.
+L’acido lattico e la rigidità sono dietro l’angolo.
+Tornare a casa con lividi visibili.
+Sbattere contro il pavimento fa male.
+Tornare a casa con lividi invisibili.
+Sbattere contro le emozioni fa male.
+Abbattere ogni tipo di barriera relativa al contatto fisico.
 Resistere è inutile.
 Quando faccio teatro non riesco a camminare per colpa dell’acido lattico nei muscoli, non riesco a pensare per colpa dell’affollamento di pensieri nella testa, ma riesco a vedere benissimo dove andare.
 Questo
-Lo fa a tutti, lo fa sempre.Non sai dove andare?
+Lo fa a tutti, lo fa sempre.
+Non sai dove andare?
 Prova a fare teatro troverai la tua strada!
-Chi bazzica l’ambiente della cultura lo sa bene, chi bazzica Benevento lo sa anche meglio: fare di più non è fare meglio.Mai vista in vita mia una fila ordinata per entrare ad un concerto al teatro romano.
+Chi bazzica l’ambiente della cultura lo sa bene, chi bazzica Benevento lo sa anche meglio: fare di più non è fare meglio.
+Mai vista in vita mia una fila ordinata per entrare ad un concerto al teatro romano.
 Tutti in fila per due, schierati come soldatini.
 Tutti tranquilli, ben consapevoli di dover rispettare la fila, persino i consiglieri comunali.
 Abbiamo scomodato i pezzi grossi, quando c’è Giuseppe Verdi in ballo non si scherza.
 Fa caldo ma non caldissimo, il teatro è pieno ma non pienissimo, possiamo stare larghi, la fila si smaltisce veloce, tutti con il biglietto pronto in mano, sembra di essere altrove.
-Il pubblico dei grandi eventi culturali è ben schierato, Il Rigoletto ha un forte richiamo, c’è speranza quindi.Chiacchieriamo allegri prima dell’inizio, siamo felici, la lirica è tornata dicono, ogni due tre anni torna sempre, eh ma stavolta promettono una rassegna vera!Tutti promettono di far tornare la lirica me nessuno promette di farla restare.Lo spettacolo che dovrebbe inaugurare una promettente rassegna di opera lirica non ha un manifesto, né una locandina, né un programma di sala, né nient’altro, all’ingresso si limitano a staccarti il biglietto con grandi sorrisoni e il libretto devi leggertelo sullo smartphone, benedetta tecnologia.
+Il pubblico dei grandi eventi culturali è ben schierato, Il Rigoletto ha un forte richiamo, c’è speranza quindi.
+Chiacchieriamo allegri prima dell’inizio, siamo felici, la lirica è tornata dicono, ogni due tre anni torna sempre, eh ma stavolta promettono una rassegna vera!Tutti promettono di far tornare la lirica me nessuno promette di farla restare.
+Lo spettacolo che dovrebbe inaugurare una promettente rassegna di opera lirica non ha un manifesto, né una locandina, né un programma di sala, né nient’altro, all’ingresso si limitano a staccarti il biglietto con grandi sorrisoni e il libretto devi leggertelo sullo smartphone, benedetta tecnologia.
 Il biglietto costa 15 euro + 2 di prevendita e se non hai letto il comunicato stampa inviato ai giornali online non puoi nemmeno sapere i nomi dei cantanti, né chi è il regista o il direttore d’orchestra.
 Non c’è testimonianza cartacea o digitale che lo spettacolo inaugurale della promettente stagione lirica sia mai accaduto.
-È un numero zero e si sprecano le promesse, si parla di qualità, di forte qualità, di intrattenimento di qualità, come quando devi fare la colonscopia e ti dicono che non sentirai niente.Il caldo ora si comincia a sentire e il nervosismo mette in luce tutti i dettagli non curati: l’orchestra trasandata, la scenografia brutta, le luci oscene.
+È un numero zero e si sprecano le promesse, si parla di qualità, di forte qualità, di intrattenimento di qualità, come quando devi fare la colonscopia e ti dicono che non sentirai niente.
+Il caldo ora si comincia a sentire e il nervosismo mette in luce tutti i dettagli non curati: l’orchestra trasandata, la scenografia brutta, le luci oscene.
 La confusione, il disordine e l’approssimazione diventano rumorosi e si fanno notare troppo.
 Il pubblico è distratto, si chiacchiera amabilmente come se si fosse davanti al bar e i telefoni squillano più che a wall street.
 Gli applausi migliori vengono conservati per i temerari tecnici di palcoscenico che, evidentemente alle prime armi o alle ultime, riescono a smontare e montare due pannelli in un quarto d’ora.
 Stare seduti sui gradini duri del teatro romano, a guardare per la maggior parte del tempo lo smontaggio delle scene diventa un calvario.
 Finito il terzo atto il pubblico fugge via, provato dalle tante difficoltà, con il sedere a dolorante proprio come dopo una colonscopia.
-L’approssimazione è la chiave di lettura di questo spettacolo, e forse di tutte le promesse iniziali, e forse della nostra intera esistenza.L’affanno a voler fare di più, a mostrare sempre il profilo migliore, a non voler mai sbagliare, a non guardarsi intorno.
+L’approssimazione è la chiave di lettura di questo spettacolo, e forse di tutte le promesse iniziali, e forse della nostra intera esistenza.
+L’affanno a voler fare di più, a mostrare sempre il profilo migliore, a non voler mai sbagliare, a non guardarsi intorno.
 L’ossessione continua di dover fare le cose come si facevano un tempo, quando c’erano i vecchi fasti, quando qua era tutta campagna.
 La cecità insensata verso quello che si crea di nuovo.
-La grettezza esasperante che accompagna ogni aspetto di vita sociale.Ma non facciamone una tragedia.Era una splendida serata estiva, la temperatura era mite, si potevano addirittura indossare i sandali.
+La grettezza esasperante che accompagna ogni aspetto di vita sociale.
+Ma non facciamone una tragedia.
+Era una splendida serata estiva, la temperatura era mite, si potevano addirittura indossare i sandali.
 Le lucciole sbrilluccicavano qua e là, la gente aveva già preso posto e riempito le misere quattro file di sedie pieghevoli allestite nel cortile del convento.
 Lo spettacolo stava per cominciare.
 Eh si, per vedere uno spettacolo decente bisogna aspettare il Napoli Teatro Festival, ma non solo, bisogna anche sperare che qualche spettacolo venga replicato nella remota provincia Beneventana (sperare che possa accadere in città è da folli) e così è stato.
@@ -2716,7 +2838,8 @@ Ma stasera c’è il concerto di Savastano.
 Benissimo allora si va quasi tutti a vedere lo spettacolo!
 Ma io veramente preferisco vedere Savastano.
 E va bene si va in tre.
-a vedere lo spettacolo!Non c’è speranza.
+a vedere lo spettacolo!
+Non c’è speranza.
 Non c’è curiosità.
 C’è solo che a Morcone hanno una specie di mini rassegna teatrale estiva.
 Ma che vuoi farci lì non hanno Savastano.
@@ -2728,7 +2851,8 @@ E molto reali sono anche i lampi che ogni tanto illuminano a giorno il cielo, se
 E proprio nel momento in cui Viktor Frankenstein sta per far rivivere il suo mostro un lampo squarcia il cielo seguito dal tuono abbinato, e fu subito pioggia.
 Il pubblico scappa terrorizzato, i tecnici si arrampicano per salvare le attrezzature, gli attori mettono al riparo la delicatissima scenografia.
 E noi tre, riparati sotto un arco, a guardare tutto questo, in compagnia di un indigeno del luogo, che ci consola dicendo che per fortuna il Benevento è in serie B.
-Tutto sommato poteva andare peggio.Lavorare per i bambini è difficile.
+Tutto sommato poteva andare peggio.
+Lavorare per i bambini è difficile.
 Ideare, preparare e mettere in scena uno spettacolo per bambini può diventare un’impresa  estenuante.
 Si ha sempre la sensazione che non sia abbastanza.
 Non è abbastanza divertente, non è abbastanza ritmato, non è abbastanza colorato.
@@ -2739,7 +2863,8 @@ In una settimana (scarsa) di prove abbiamo deciso di giocare e sperimentare, di 
 Una robetta ,insomma.
 Non si poteva andare nel panico.
 È divertente tornare ad essere longobardi per una manciata di giorni,  guardarsi intorno e vedere spade, cavalli, tuniche e mantelli è emozionante , un bel colpo d’occhio.
-Considerato che il tutto avviene in una città che si prende talmente sul serio da eleggere Mastella sindaco, capite bene che una rievocazione medievale è un grande passo avanti.Benevento Longobarda è un evento che mi ha fatto sentire parte di un qualcosa.
+Considerato che il tutto avviene in una città che si prende talmente sul serio da eleggere Mastella sindaco, capite bene che una rievocazione medievale è un grande passo avanti.
+Benevento Longobarda è un evento che mi ha fatto sentire parte di un qualcosa.
 Lotto ogni giorno perché il mio lavoro possa avere una dignità:
 sono un’attrice e vivo sospesa in un mondo dove chi lo fa per hobby riempie i teatri e chi lo fa di mestiere non arriva a fine mese.
 Un mondo dove far pagare un biglietto è come un’offesa, la cultura e l’intrattenimento devono essere gratis, altrimenti è meglio guardare la tv, no?
@@ -2752,12 +2877,18 @@ Ora che tutto è finito non voglio lasciarmi andare alla malinconia ma.
 che faccio stasera?
 E soprattutto come mi vesto?
 Della necessità di raccontare storie.
-Continua a leggere Oltre ogni limite.Io vivo per l’attimo di silenzio che c’è prima dell’inizio di uno spettacolo o di un concerto o di una gara.
-È un momento di concentrazione massima.Non sfugge nulla, né al pubblico né agli attori/atleti/performers.Condivido con pochi il brivido che corre sottopelle in quel momento e so esattamente da dove si origina: dalla voglia di essere stupita.
+Continua a leggere Oltre ogni limite.
+Io vivo per l’attimo di silenzio che c’è prima dell’inizio di uno spettacolo o di un concerto o di una gara.
+È un momento di concentrazione massima.
+Non sfugge nulla, né al pubblico né agli attori/atleti/performers.
+Condivido con pochi il brivido che corre sottopelle in quel momento e so esattamente da dove si origina: dalla voglia di essere stupita.
 Non è l’aspettarsi che succeda qualcosa,  lo sappiamo che la luce si accenderà, che uno strumento suonerà , che qualcuno vincerà.
 È qualcosa più simile all’affidarsi:
-mi fido che mi stupirai  e non vedo l’ora ed ho la pelle d’oca.Questo è il momento.
-Ora voglio stupirmi.Certo, potrei stupire voi, sarebbe più giusto, ma non vi conosco ancora.Fidatevi di me, vi divertirete.
+mi fido che mi stupirai  e non vedo l’ora ed ho la pelle d’oca.
+Questo è il momento.
+Ora voglio stupirmi.
+Certo, potrei stupire voi, sarebbe più giusto, ma non vi conosco ancora.
+Fidatevi di me, vi divertirete.
 questo non lo sapevo, pensavo che rimanessero proprietà dell'autore.
 perfetto me lo segno.
 Anche le tesine sono sotto licenza se non specificato diversamente.
@@ -2982,7 +3113,8 @@ La fame è il miglior condimento.
 La fame fa uscire il lupo dal bosco.
 La farina del diavolo va tutta in crusca.
 La fretta è cattiva consigliera.
-La gatta frettolosa fece i mici ciechiLa goccia scava la pietra.
+La gatta frettolosa fece i mici ciechi
+La goccia scava la pietra.
 L'albero si riconosce dai frutti.
 La lingua batte dove duole il dente.
 L'amico certo lo conosci nell'incerto.
@@ -3155,13 +3287,13 @@ Ma soprattutto, quali sono i rischi a cui veniamo incontro utilizzando la rete?
 Una inclusione digitale non può esistere senza una reale volontà di inclusione sociale verso il prossimo uguale ma diverso da noi stessi.
 Per questa ragione è stato importante coinvolgere le persone in un ampio e inclusivo dibattito su argomenti come la neutralità della rete e la resilienza di Internet.
 Ogni volta che partecipo ad inziative o eventi di questo genere sono sempre curioso di conoscere come gli altri concepiscono e trasmettono il loro modo di fare Comunità.
-Quest’anno la capitale del ritrovo é stata la città di Eindhoven in Olanda.
+Quest’anno la capitale del ritrovo è stata la città di Eindhoven in Olanda.
 Eindhoven, con i suoi circa 220.
 000 abitanti è attualmente uno dei centri più importanti di innovazione nei Paesi Bassi.
 Storicamente ha ricoperto un importante ruolo di innovazione, basti pensare che la Philips ha avuto nascita proprio qui!
 L’invenzione del Compact Disc è uno degli esempi più importanti che permette di cogliere quanto questa città sia un centro importante di innovazione, che si perpetua ancora oggi non soltanto in ambito tecnologico.
 Durante l’evento hanno partecipato circa 25-30 persone.
-Personalmente, poter contribuire attivamente al Festival é qualcosa di veramente speciale, se poi si aggiunge la possibilità di poterlo fare in un contesto multi-etnico sociale e inclusivo, questa esperienza diventa unica e irripetibile.
+Personalmente, poter contribuire attivamente al Festival è qualcosa di veramente speciale, se poi si aggiunge la possibilità di poterlo fare in un contesto multi-etnico sociale e inclusivo, questa esperienza diventa unica e irripetibile.
 Nei giorni scorsi mi sono sentito un privilegiato nel poter ascoltare le esperienze di persone provenienti da tutti i continenti del Mondo e prender parte al MozRetreat.
 L’evento di Cagliari è stato rimodulato più e più volte da noi tutti del team di sviluppo della Campagna per far fronte alle forti limitazioni e gli ostacoli che per il forte caldo si sono presentati quest’anno nel capoluogo Sardo.
 Ovviamente, non sono mancati i tanti gadget che abbiamo voluto offrire a tutti i curiosi che sono accorsi per sapere qualcosa in più su tutti noi.
@@ -3170,7 +3302,7 @@ Personalmente non credo esista una sola definizione di cosa significhi comunità
 L’unica cosa che ritengo importante è che ci sia una reale connessione e volontà di condividere se stessi e delle esperienze tutti assieme.
 Per me è comunità sia Mozilla che il MozRetreat e tutti i momenti nei quali ci si connette come umani gli uni con gli altri.
 Grazie a tutti coloro che in un modo o in un’altro hanno voluto condividere con me loro stessi!
-Tra il pubblico oltre i curiosi erano presenti artisti, professionisti, nonchè rappresentati di spicco del Collegio dei Periti Industriali e Periti Industriali Laureati di Cagliari.
+Tra il pubblico oltre i curiosi erano presenti artisti, professionisti, nonché rappresentati di spicco del Collegio dei Periti Industriali e Periti Industriali Laureati di Cagliari.
 Al termine di questa breve parentesi, abbiamo voluto realizzare una tavola rotonda inclusiva tra tutti gli spettatori e i relatori.
 I temi principali sono stati le implicazioni che questa normativa ha nel quotidiano per i relatori coinvolti, le prospettive future derivate da quelle che sono le proposte in dibattimento a Bruxelles e i “side effect” che derivano da una normativa inadeguata come quella attuale.
 Durante l’incontro si è parlato anche delle Fake News e di quelli che sono i fattori Sociali che influenzano sia il mercato che come viene recepita e applicata dalla cittadinanza una normativa come quella del diritto di autore.
@@ -3181,7 +3313,7 @@ Successivamente, ci siamo divisi in piccoli gruppi e ognuno di noi ha dato una s
 Sono state più o meno una cinquantina le persone presenti e che sono intervenute durante la manifestazione.
 Avrei voluto poter creare tanti cloni di me stesso per poter seguire da vicino tutte le attività, ma dovendo fare una scelta, ho cercato di fare quella che fosse più vicina alle mie esperienze come volontario.
 L’ultimo giorno è iniziato con un tour della città.
-Ognuno di noi poteva scegliere tra un tour storico nella vecchia città medievale, oppure, un tour improntanto sull’anima artistica di Tallinn.
+Ognuno di noi poteva scegliere tra un tour storico nella vecchia città medievale, oppure, un tour improntato sull’anima artistica di Tallinn.
 Personalmente ho scelto il tour storico medievale.
 Personalmente è stata una esperienza grandiosa accompagnata da persone fantastiche.
 Conoscere questa città, la sua storia e contribuire al prossimo Mozilla Festival per me non solo è fantastico, ma è una grande opportunità per aiutare la Fondazione Mozilla a perseguire gli ideali di libertà, uguaglianza e inclusività nel web.
@@ -3209,7 +3341,7 @@ In conclusione abbiamo discusso su degli esempi pratici di quello che potrebbe e
 A fine giornata gli organizzatori hanno assegnato dei premi ai relatori più meritevoli.
 E’ stato per me un vero piacere poter collaborare con il Gruppo Utenti di Linux di Cagliari e aver preso parte a questa manifestazione che oramai a Cagliari viene realizzata da oramai 15 Anni.
 E’ stato interessante cogliere come le persone percepiscano differentemente questo problema.
-Mal grado tutte le persone presenti ai due incontri abbiano mostrato della preoccupazione circa questa tematica, alcune, non sentono una reale implicazione dalla violazione di questa legge, perchè sino ad oggi non sono stati rilevanti i casi di ripercussioni pesanti sugli utenti.
+Mal grado tutte le persone presenti ai due incontri abbiano mostrato della preoccupazione circa questa tematica, alcune, non sentono una reale implicazione dalla violazione di questa legge, perché sino ad oggi non sono stati rilevanti i casi di ripercussioni pesanti sugli utenti.
 A livello locale noi tutti volontari Mozilla di Cagliari, abbiamo deciso di realizzare dei laboratori che non hanno soltanto l’obbiettivo di informare, ma principalmente di realizzare una esperienza che possa cercare realmente di creare una maggiore consapevolezza su tutte queste tecnologie.
 Vogliamo creare momenti di confronto su come leggere, scrivere e partecipare nel Web.
 Per noi è importante che le persone sappiano come interpretare il web, che possano sviluppare i loro contenuti e che riescano a partecipare in tutta sicurezza alla vita nei Social Network.
@@ -3256,8 +3388,8 @@ Potevi incontrare ovunque un membro che ne faceva parte e non riconoscerlo.
 Una di quelle donne della setta, poteva anche essere in casa tua, poteva essere persino tua sorella senza che tu lo sapessi.
 È qui che nasce il modo di dire "se, tu sorella…".
 Quando in quel periodo storico accadeva qualche problema e non si conosceva la causa, i Romani ipotizzavano di avere una sovversiva all’interno delle mura domestiche.
-L'arcaico "tu sorella", o
-sorellam tua (sì, non è il termine latino esatto, ma “sorellam” fa più ridere di soror), veniva spesso anche usato come malaugurio per auspicare a qualcuno di avere in casa una militante.
+L'arcaico "tu sorella", o sorellam tua (sì, non è il termine latino esatto, ma “sorellam” fa più ridere di soror)
+veniva spesso anche usato come malaugurio per auspicare a qualcuno di avere in casa una militante.
 La stessa accezione negativa può essere estesa anche a “tu zia”, ovviamente in questo caso il malaugurio è di avere una zia sovversiva.
 Dal ratto delle Sabine in poi, tutti i peggiori avvenimenti della città di Roma si dice che furono progettati da questa setta segreta, la setta delle Toga Nigra (come nome mi sembra davvero molto potente).
 Dall'incendio di Roma del 64 a.C.
@@ -3273,8 +3405,7 @@ Avevano ragione comunque, poiché i Romani la combinarono grossa.
 Le combattenti della Toga Nigra a conti fatti sono le attuali suore.
 Come dicevo, la loro reazione fu una conseguenza giusta a ciò che molte donne dovettero subire, rivendicando così i diritti di quelle vittime ingiustamente rapite.
 Da centinaia di anni le sovversive compiono atti di sabotaggio su Roma per vendicarsi del sopruso subito.
-Anche se sto utilizz
-ando la loro figura per il mio racconto e devo rappresentarle come le cattive della situazione, sono dalla loro parte e sono d’accordo con la loro causa.
+Anche se sto utilizzando la loro figura per il mio racconto e devo rappresentarle come le cattive della situazione, sono dalla loro parte e sono d’accordo con la loro causa.
 Inoltre, mi piacciono anche le suore!
 Probabilmente le donne di cui sto parlando continuano questa lotta perché nessuno finora ha chiesto scusa per il ratto delle Sabine.
 Basterebbe semplicemente affrontare la tematica a un tavolo.
@@ -3320,8 +3451,7 @@ C’è il problema del bancomat: tutti si lamentano che spesso a Roma non accett
 Sono loro che lanciano attacchi DoS ai sistemi bancari.
 L’altro giorno mi trovavo in un ufficio pubblico ed era tutto sporco e malandato.
 Ho pensato: “È probabile siano stati sabotati gli addetti alle pulizie.
-” Poco dopo la fondazione di Roma nel 753 a.
-C.
+Poco dopo la fondazione di Roma nel 753
 avvenne uno dei fatti più leggendari che riguarda la mia città: il ratto delle Sabine.
 Da piccolo ero troppo impegnato a focalizzare la mia attenzione sulla parola “ratto”, per cui solamente oggi gli do la giusta importanza.
 Ho pensato quindi di utilizzare questo evento per iniziare il mio racconto.
@@ -3495,7 +3625,7 @@ Non era ancora avvenuto Trafalgar.
 Mancava il meglio: mancava il sottomarino.
 Una cupa notte di dicembre Dick Johnson e Tom Kennedy si trovano su i docks di Londra, e vanno, guardinghi, favoriti dalla nebbia e dall’oscurità, verso il piccolo e remoto bacino dove galleggia ancora il vecchio Nautilus, il sottomarino che Roberto Fulton aveva fatto manovrare nella rada di Brest alla presenza di Napoleone Primo Console, circa diciotto anni prima.
 Un guardiano dei docks è la guida dei contrabbandieri;
-non parlerà perchè ha avuto un discreto gruzzolo di monete.
+non parlerà perché ha avuto un discreto gruzzolo di monete.
 D’altra parte egli concorre ad un’opera buona: quei due americani sono mossi dal pio desiderio di riconquistare la prima nave sottomarina del loro compatriota Fulton, per portarla in America e collocarla in un museo dedicato al grandissimo inventore… .
 Ha concesso anche l’uso di un robusto canotto, col quale il sottomarino verrà rimorchiato fino a un battello francese che aspetta, nel mezzo del Tamigi… .
 Ecco i tre uomini al piccolo bacino.
@@ -3571,7 +3701,7 @@ quei templi… .
 quei palazzi… .
 quelle torri altissime… .
 quelle piramidi coperte di oricalchi dai riflessi di fiamma… .
-quelle maravigliose scalinate che accedevano alle dimore dei re… .
+quelle meravigliose scalinate che accedevano alle dimore dei re… .
 tutto vedrò crollare… .
 ruinare tra le ondate immense, livide di schiuma!
 … E l’agonia della terra sarà l’agonia di un gran popolo, condannato dalla inesorabile fatalità a perire in una notte!
@@ -3589,7 +3719,7 @@ Per la sua volontà la palla si trasforma in una specie di battello navigante ne
 Egli riesce a far riconciliare il capitano Nicholl, grande costruttore di corazze, con l’impassibile Barbicane, grande costruttore
 di proietti, fino a quel punto nemici mortali.
 Solo tali occhi erano protetti contro l’urto della partenza da lastre solidamente incastrate ch’era facile gettare al di fuori svitando le madreviti interne: in questa maniera l’aria contenuta nel proiettile non poteva sfuggire e le osservazioni divenivano possibili.
-Tutti questi congegni, maravigliosamente posti in opera, funzionavano con la massima facilità: e gli ingegneri non si erano mostrati meno intelligenti nell’ammobiliare il vagone-proiettile.
+Tutti questi congegni, meravigliosamente posti in opera, funzionavano con la massima facilità: e gli ingegneri non si erano mostrati meno intelligenti nell’ammobiliare il vagone-proiettile.
 Recipienti solidamente fissati erano destinati a contenere l’acqua e i viveri necessari ai viaggiatori, i quali potevano procurarsi anche il fuoco e la luce per mezzo del gas, raccolto in un recipiente speciale sotto una pressione di molte atmosfere;
 bastava girare un rubinetto, e durante sei giorni consecutivi il gas avrebbe illuminato e riscaldato l’astronave.
 Come si vede non mancava nessuna delle cose essenziali alla vita e al benessere.
@@ -3629,8 +3759,8 @@ Ma questi sembra abbia fatto qualche cosa di meglio: è riuscito a fotografare q
 L’esame di questa serie di microfotografie che fissano i vari aspetti della vita proplasmica rinascente ha sbalordito e commosso il visitatore del signor Martin.
 Egli non può giurare su la realtà di quel che lo scienziato inglese gli ha messo sott’occhio ma non può escludere che si possa trattare davvero di una scoperta straordinaria.
 Come tutti i precursori, il Martin ha i suoi detrattori e i suoi avversari.
-Egli è combattuto dai principi della scienza perchè le sue teorie contrastano con quelle ammesse e valorizzate fin qui.
-Ma il tenace chimico non si abbatte per la guerra che gli muovono: è sicuro del fatto suo e procede nelle sue esperienze per riuscire a produrre un animale più caratteristico di quelli fabbricati fino adesso perchè, egli dice, sola la evidenza potrà chiudere la bocca degli increduli o dei maligni.
+Egli è combattuto dai principi della scienza perché le sue teorie contrastano con quelle ammesse e valorizzate fin qui.
+Ma il tenace chimico non si abbatte per la guerra che gli muovono: è sicuro del fatto suo e procede nelle sue esperienze per riuscire a produrre un animale più caratteristico di quelli fabbricati fino adesso perché, egli dice, sola la evidenza potrà chiudere la bocca degli increduli o dei maligni.
 Avrete visto –ha detto a questo proposito il Martin al suo interlocutore parigino – in quel vetrino un animaletto somigliante, all’ingrosso, a un animale preistorico di cui la specie è spenta.
 Avrete anche notato in quel nuovo organismo, seguendo le micro-fotografie, in che modo si è potuto formare gradualmente lo scheletro.
 Io stesso, pensate, seguivo queste trasformazioni con commozione e stupore.
@@ -3639,7 +3769,7 @@ Che cosa sono i raggi cosmici?
 Oggi gli studiosi affermano e spesso dimostrano sperimentalmente che dagli spazi cosmici e particolarmente da alcuni astri vaganti in essi, ci giungono vere e proprie radiazioni, e quindi su onde e con relative lunghezze di onde.
 L’origine e gli effetti di queste onde trovano per il sole importantissime conferme da parte dei biologi e dei fisici.
 Gli esperimenti che furono fatti fino ad oggi, salendo su i più alti ghiacciai, hanno provato che queste radiazioni o vibrazioni dell’etere possono attraversare spessori di materia fino a 10 metri e che esiste una variazione diurna di queste onde che sono più intense quando alcune regioni del cielo sono allo zenith piuttosto che quando sono in vicinanza o al di sotto dell’orizzonte.
-E la scoperta e lo studio di queste onde cosmiche costituisce una conquista nuova ben degna di ammirazione perchè apre nuovi orizzonti ai collegamenti che i fenomeni vitali potrebbero avere con esse.
+E la scoperta e lo studio di queste onde cosmiche costituisce una conquista nuova ben degna di ammirazione perché apre nuovi orizzonti ai collegamenti che i fenomeni vitali potrebbero avere con esse.
 E immaginiamoci inoltre, che sopra alla nostra atmosfera composta di ossigeno, di azoto e di vapore acqueo si trovi una atmosfera assai leggera, naturalmente composta dei gas più tenui formatisi nei tempi primitivi dell’ordinamento terrestre.
 Questa seconda atmosfera, forse costituita in principal modo dall’idrogeno, potrebbe arrivare a distanze grandissime.
 E di là?
@@ -3649,7 +3779,7 @@ L’elio?
 L’etere?
 Il vuoto assoluto?
 Il nulla?
-La scienza, a questo proposito avrebbe da dire molte cose, ma tutte difficili e oscure: meglio contentarsi dell’ipotesi più semplice: che oltre i limiti dell’atmosfera si stenda il vuoto interplanetare, lo spazio agghiacciato nel quale ruotano i mondi e i soli, le stelle e le nebulose tutto il meraviglioso fuoco d’artificio dell’universo.
+La scienza, a questo proposito avrebbe da dire molte cose, ma tutte difficili e oscure: meglio contentarsi dell’ipotesi più semplice: che oltre i limiti dell’atmosfera si stenda il vuoto interplanetario, lo spazio agghiacciato nel quale ruotano i mondi e i soli, le stelle e le nebulose tutto il meraviglioso fuoco d’artificio dell’universo.
 Abbaiare alla luna.
 Abbassare le ali.
 Abboccare all'amo.
@@ -3721,7 +3851,7 @@ Aspettare la manna del cielo.
 Aspettare la palla al balzo.
 Aspettare qualcuno al varco.
 Aspettare la lepre al balzello.
-Attaccare botone.
+Attaccare bottone.
 Attaccare il berretto al chiodo.
 Attaccarsi come la gramigna.
 Attaccare il campanello al collo dei gatti.
@@ -3899,7 +4029,7 @@ Credere che l'asino voli.
 Credersi figlio della gallina bianca.
 Crepare dalla bile.
 Crescere come la gramigna.
-Cucire i panni addoso a qualcuno.
+Cucire i panni addosso a qualcuno.
 Dar da bere alle rane.
 Dar del filo da torcere.
 Dar le mele a uno.
@@ -4125,7 +4255,7 @@ Nella prima edizione era stata usata la chiave della grammatica, nella seconda l
 Sensibilizzare sull’uso corretto della lingua è necessario in quest’epoca in cui, ad esempio, si usa sempre più spesso “kk” invece che “cch”, si scrivono tante parole sbagliate, oppure non si esprime a pieno ciò che era nelle intenzioni, anche a causa dello T9 del cellulare, che se ne va spesso per conto suo.
 Sensibilizzare e appassionare i ragazzi all’uso corretto dell’italiano, attraverso argomenti che possano interessare.
 Qui vi spieghiamo che cosa è e come si realizza una storia collaborativa.
-Una premessa è d’obbligo: ciò che distingue Intertwine dalle altre piattaforme di storytelling collaborativo è la salvaguardia del principio di autorialità.
+a salvaguardia del principio di autorialità.
 Colui che lancia l’incipit di una storia, infatti, può selezionare il contributo che ritiene più valido per farla proseguire, e solo dopo averne scelto uno, la storia può continuare.
 In questo modo non viene fuori una storia a caso, con contributi che non rispondono alle esigenze dell’autore iniziale.
 L'incipit è l'inizio della storia e può essere sia un testo, che un'immagine.
@@ -4197,7 +4327,7 @@ San Benedetto percorre questa via maestra attraverso la quale, nell'ambito della
 Ora, la convivenza monastica - chiamata dallo stesso santo ambito singolare nel quale i cuori di coloro che vi fanno parte si dilatano nell'esercizio della reciproca obbedienza - è mossa e stimolata da veemente amore del prossimo, per il quale ciascuno è spinto a dedicarsi al bene del fratello trascurando il proprio vantaggio.
 Intanto nell'ambito della Chiesa era in atto un'ardua e diuturna controversia per la quale uomini ardenti, investigavano, in modo piuttosto animoso i misteri di Dio, specialmente l'imperscrutabile verità della divinità del Figlio e della sua genuina umanità.
 Tutte queste cose risuonavano come un'eco nelle parole degne di eterna memoria di Leone Magno, successore del beato Pietro e Vescovo di Roma.
-Negli uomini infatti e nelle reltà terrene vi è una forza ed una importanza in quanto sono connessi con Cristo;
+Negli uomini infatti e nelle realtà terrene vi è una forza ed una importanza in quanto sono connessi con Cristo;
 in questa luce devono essere considerati e stimati.
 Tutti coloro che si trovano nel monastero - dal superiore (che è il padre, l'abate) all'ospite ignoto e povero, dall'infermo al più piccolo dei fratelli - significano la viva presenza di Cristo.
 Anche i beni del monastero sono segni dell'amore di Dio verso le creature, o dell'amore che conduce l'uomo verso Dio;
@@ -4275,7 +4405,7 @@ Durante il mese di settembre mi trovai alla guida della missione cattolica polac
 Fu un'esperienza molto fruttuosa.
 Per la prima volta visitai una miniera di carbone e potei conoscere da vicino il pesante lavoro dei minatori.
 Visitavo le famiglie degli emigrati polacchi, parlavo con loro, incontravo la gioventù e i bambini, accolto sempre con benevolenza e cordialità, come quando mi trovavo alla Solvay.
-onsiderando la vita di quelli che hanno fedelmente seguito Cristo, per una tale insolita ragione siamo incitati a ricercare la Città futura e ci è insegnata una via sicurissima attraverso la quale, tra le vicende del mondo, possiamo arrivare alla perfetta unione con Cristo o, per dir meglio, alla santità, secondo lo stato e la condizione propria di ciascuno.
+considerando la vita di quelli che hanno fedelmente seguito Cristo, per una tale insolita ragione siamo incitati a ricercare la Città futura e ci è insegnata una via sicurissima attraverso la quale, tra le vicende del mondo, possiamo arrivare alla perfetta unione con Cristo o, per dir meglio, alla santità, secondo lo stato e la condizione propria di ciascuno.
 Senza dubbio, avendo una tal moltitudine di testimoni, attraverso i quali Dio si fa presente a noi e ci parla, siamo attirati con grande forza a guardare il Regno suo nei cieli.
 La Sede Apostolica, accogliendo i segni e la voce del suo Signore col massimo timore e docilità, da tempi immemorabili, per il gravoso compito affidatole di insegnare, santificare e reggere il Popolo di Dio, offre all'imitazione dei fedeli, alla venerazione e all'invocazione gli uomini e le donne insigni per lo splendore della carità e di tutte le altre virtù evangeliche e dopo aver condotto i debiti accertamenti, dichiara con un solenne atto di canonizzazione che essi sono Santi o Sante.
 L'Ordinamento delle cause di canonizzazione, che il Nostro predecessore Sisto V affidò alla Congregazione dei Sacri Riti da lui stesso fondata, è stato sviluppato nel corso dei tempi da sempre nuove norme, soprattutto ad opera di Urbano VIII, che Prospero Lambertini (poi divenuto Benedetto XIV), raccogliendo anche esperienze del tempo passato, lasciò ai posteri nell'opera intitolata Beatificazione dei Servi di Dio e canonizzazione dei Beati, e che rimase come regola per quasi due secoli presso la Sacra Congregazione dei Riti.
@@ -4416,11 +4546,11 @@ Certo ero stato un uomo misteriosissimo: non un amico, non una lettera, mai, da 
 Non sapendo che fare, sperando di distrarmi un po' da tante costernazioni, portai questi due morti a spasso per Pisa.
 Oh, fu una piacevolissima passeggiata!
 Adriano Meis, che c'era stato, voleva quasi quasi far da guida e da cicerone a Mattia Pascal;
-ma questi oppresso da tante cose che andava rivolgendo in mente, si scrollava con fosche maniere, scoteva un braccio come per levarsi di torno quell'ombra esosa, capelluta, in abito lungo, col cappellaccio a larghe tese e con gli occhiali.
+ma questi oppresso da tante cose che andava rivolgendo in mente, si scrollava con fosche maniere, scuoteva un braccio come per levarsi di torno quell'ombra esosa, capelluta, in abito lungo, col cappellaccio a larghe tese e con gli occhiali.
 Pietro era sempre socialista, ma andava meno con gli operai.
 Si vergognava d'aver già vent'anni, e d'essere così a dietro degli studii: questa cosa l'avviliva.
 Presa a Firenze una camera in Via Cimabue, mangiava a una trattoria, lì vicina.
-Stava lunghe ore con la testa tra le mani, imaginandosi di studiare;
+Stava lunghe ore con la testa tra le mani, immaginandosi di studiare;
 con un ansia attraversata e tagliata in tutti i sensi da malumore e da malinconia, come da linee tirate con una squadra.
 Si sforzava d'essere soddisfatto e di affezionarsi alla scuola;
 ma gli pareva che i giorni fossero così staccati e separati l'uno dall'altro che sentiva prendersi dallo scoraggiamento.
@@ -4437,7 +4567,7 @@ e, allora, s'infastidiva anche di loro.
 Della città, invece, non sentiva né meno il rumore;
 perché la cinta, perpendicolare al muro della casa, era lunga e andava a finire a un fabbricato così grande che gli tappava quasi tutta la Piazza Beccaria;
 e, di qua e di là, altre case, quantunque più basse, quasi in semicerchio, chiudevano ogni cosa.
-Si trovava sempre a disagio: ed era come una cosa che non riesciva a spiegarsi.
+Si trovava sempre a disagio: ed era come una cosa che non riusciva a spiegarsi.
 Non si affidava agli amici, e ne sentiva la mancanza.
 Si annoiava di tutto;
 e la cupola di Santa Maria del Fiore, velata quasi sempre di nebbia in fondo a Via dei Servi, che egli vedeva prima di rientrare a scuola, quando andava a prendere cinque minuti di sole in Piazza dell'Annunziata, gli dava uno scoraggiamento languido, che ingrandiva se qualche campana suonava.
@@ -4735,7 +4865,6 @@ E anche un poco la cravatta gli stava di traverso e alla bottoniera della giacca
 “De Vincenzi, il morto dello Specchio d’Oro era una spia.
 Lo so, commendatore.
 Quello che non sapete, però, è che.
-il.
 Cercò un foglio davanti a sé e lesse il nome:
 che il sedicente Melkon Gehenlyan nato a Talas, era in realtà l’egiziano Osman Mascali di Ohman, nato al Cairo.
 Non sapevo questo, commendatore, perché nulla ho trovato che me lo potesse rivelare;
@@ -5031,7 +5160,7 @@ Ben osservava il cadavere.
 Un ragazzo!
 Daniele Seminari si era fatto ammazzare a vent'anni.
 Ma perché gliel'avevano fatta?
-, si chiese.
+si chiese.
 In fondo, era innocuo.
 Certo, dovevano averlo ucciso per mettere Paolo e tutti loro nei guai.
 I nemici di Paolo erano infiniti.
@@ -5051,10 +5180,8 @@ ghignò Occhistorti.
 Ben afferrò la spugna che gli porgeva Piedipiccoli e deterse il volto al cadavere.
 E aveva i lineamenti composti e placidi.
 Se non vi fosse stato quel foro in mezzo alla fronte, lo si sarebbe creduto addormentato.
-Scianin d'oro.
 Vien dal tuo padron.
-Il gatto non si moveva.
-Gli occhi di zaffiro gli lucevano come due focherelli.
+Il gatto non si muoveva.
 Aveva la schiena inarcata e il pelo ritto.
 L'avvocato si alzò.
 Quando fu a un metro dalla bestia e riuscì a vederla, diede in una esclamazione di sgomento.
@@ -5062,7 +5189,6 @@ Che gli hai fatto?
 L'hai cacciato di casa?
 Si chinò e tese la mano.
 Il micio inarcò di più la schiena e mostrò le unghie.
-Oh, micin.
 Sta' attento che ti graffia!
 Vorrei vedere!.
 È mio figlio!
@@ -5183,7 +5309,7 @@ Come aveva potuto pensare che Loïs fosse andata a rifugiarsi in quel luogo?
 Anche ad aver la complicità di Walter, sarebbe stato impossibile che Paolo o i suoi uomini non l'avessero scoperta.
 Girò rapidamente per le sale e le salette del primo piano.
 Tutto deserto.
-Sui tavoli da giuoco le coperture di tela grigia.
+Sui tavoli da gioco le coperture di tela grigia.
 Guardò anche nel bar e nei gabinetti.
 Il colosso lo seguiva, bofonchiando.
 Ma si può sapere chi cerchi?
@@ -6042,7 +6168,7 @@ Delia disse lentamente: Io non posso ereditare nulla.
 L'eredità andrà egualmente a Gastone.
 È vero?
 È vero?
- chiese il giovane, afferrando il notaio per il bavero della redingote.
+ chiese il giovane, afferrando il notaio per il bavero.
 Se la signora firma un atto di donazione, ma in tal caso il fisco riscuoterà il sessanta per cento.
 E tu mi fai la donazione, zia?
 E perché non dovrei?
@@ -6067,7 +6193,7 @@ Al diavolo voi e i vostri impegni!
 Sono ricco abbastanza per vivere comodamente, senza espormi ai vostri insulti e a questi rischi.
 Il sogghigno ironico di Manfredo lo interruppe.
 Non vi ubriacate di parole, adesso!
-È troppo tardi perchè vi possiate sottrarre.
+È troppo tardi perché vi possiate sottrarre.
 Se anche avete paura di lasciarci la pelle, non potete far altro che andare avanti.
 Sapete troppo bene che, se anche i nostri nemici vi mancassero, non vi mancherebbe lui!
 Vi ha avvertito dal primo giorno.
@@ -6205,7 +6331,7 @@ Ridivenuto padrone di se stesso, ebbe il coraggio di volgersi a Nichols e di dir
 Quando sarò ammalato, mi guarderò bene dal dirvelo!
 Il capitano sorrise.
 Che cosa dite!
-La vostra vita è troppo preziosa, perchè io ricorra per voi a tali rimedi.
+La vostra vita è troppo preziosa, perché io ricorra per voi a tali rimedi.
 – e si allontanò seguito da Sanchez e dal marinaio.
 Bonard provò un vero sollievo, nel trovarsi solo.
 L'obbligo di fingere e di mentire gli pesava e le sue apprensioni s'erano ingigantite al punto, da fargli sentire il bisogno di riflettere e di ritrovar se stesso per dominarle.
@@ -6234,18 +6360,18 @@ Nichols fissava gli uomini.
 Ebbene, che significa tutto ciò?
 – chiese con collera.
 Carlo s'irrigidì e cercò di ritrovare se stesso e sopratutto di non dimenticare che era Manfredo Vatel.
-Perchè mi avete chiuso nella mia cabina?
+perché mi avete chiuso nella mia cabina?
 Siete sicuro di rispettare gli ordini che vi sono stati dati?
 State attento, capitano, che io ho buona memoria!
 Nichols alzò le spalle e fu con voce dura che rispose:
-E voi perchè avete tentato di fuggire sul canotto?
+E voi perché avete tentato di fuggire sul canotto?
 Premette un bottone e subito la porta si aprì e sulla soglia comparve lo stesso uomo che aveva accolto Nichols e Bonard:
 Andate, caro Manfredo, e dormite tranquillamente!
 Carlo obbedì, così sconvolto ancora che non ebbe la forza di salutare lo strano essere da cui adesso dipendeva la sua vita.
 Preceduto dal silenzioso cameriere, rifece il lungo corridoio e penetrò in una piccola stanza, che evidentemente gli era destinata.
 La camera era abbondantemente illuminata e ammobiliata con gusto e Bonard vide in mezzo di essa la valigia di Manfredo Vatel.
 che era la sua!
-Magda, perchè non ci canti una delle tue vecchie canzoni polacche?
+Magda, perché non ci canti una delle tue vecchie canzoni polacche?
 La giovane rifiutò.
 Ho i nervi troppo scossi dal temporale, per poter cantare.
 Il vecchio si volse a Bonard.
@@ -6364,13 +6490,13 @@ Se lo ha fatto!.
 Non si può negare l'evidenza.
 Ma quando l'evidenza ripugna alla ragione, occorre ridurre l'impossibile al possibile.
 Si volse a guardare la morta.
-perchè non l'aveva conosciuta in vita?
+perché non l'aveva conosciuta in vita?
 Gli sarebbe stato tanto più facile trovare fra quelle nove persone colui che l'aveva uccisa.
 E, invece, adesso era necessario che cominciasse col conoscere lei, attraverso gli altri?.
 Venti, trenta milioni.
 Una famiglia regolarmente costituita.
 Una reputazione integra.
-Perchè?
+perché?
 Quale nesso?
 De Vincenzi non ne trovava alcuno.
 Una pelliccia col collo di visone, una sciarpa azzurra, un ridicolo tubino rotondo, una perla alla cravatta.
@@ -6440,7 +6566,7 @@ Saranno dieci minuti.
 C'è il commissario Gandolfi con noi.
 Adesso salgono.
 De Vincenzi lo mise di guardia davanti alle porte delle camere incendiate, con la consegna di non farvi entrare nessuno.
-Al suo collega chiese che lasciasse due agenti nel corridoio fino a giorno chiaro e comunque fin quando lui fosse tornato e lo pregò di mettersi in basso con gli altri agenti, perchè nessuno uscisse dall'albergo, senza esser stato prima esaminato e perquisito.
+Al suo collega chiese che lasciasse due agenti nel corridoio fino a giorno chiaro e comunque fin quando lui fosse tornato e lo pregò di mettersi in basso con gli altri agenti, perché nessuno uscisse dall'albergo, senza esser stato prima esaminato e perquisito.
 Credi a un furto?
 È un po' come chiuder la stalla, quando sono usciti i buoi.
 Non servirà a nulla;
@@ -6463,8 +6589,8 @@ Un quintale di carne!
 De Vincenzi con gli occhi cercava l'arma.
 Possibile che Kid Tiger avesse sparato e poi l'avesse gettata via o se la fosse rimessa in tasca?
 Sì, possibile, poichè rivoltelle in giro non se ne vedevano.
-Ma perchè non era fuggito?
-Perchè non tentava di farlo adesso?
+Ma perché non era fuggito?
+perché non tentava di farlo adesso?
 In fondo De Vincenzi si era esposto a tutti i rischi, salendo solo lassù.
 Aveva fatto fermare il tassì in via Monterosa, lo aveva mandato via e lui era tornato a piedi alla villetta.
 Il suo proposito era di spiare da lontano l'uscita di Romney Bypass e di chi altro vi si fosse trovato con lui, per tornare poi a stringere in un interrogatorio definitivo Mira Lubiskaja.
@@ -6510,11 +6636,11 @@ Ansava un poco ancora.
 De Vincenzi nel suo interno la ammirò: aveva dominato la crisi con una forza di volontà poco comune;
 non tutte le donne in quelle condizioni ci sarebbero riuscite.
 E lui cominciò a disperare di ottenere da lei quel che si era proposto.
-Perchè non lo fa?
+perché non lo fa?
 disse con voce gelida la ragazza.
 A me non importa nulla di Kid Tiger!
 Voglio esser franco con lei.
-Non arresto i quattro americani e non li faccio ricondurre alla frontiera, perchè non voglio perdere l'aiuto che può darmi Kid Tiger, col farmi trovare l'assassino di Sofia Scimanova e di Mira Lubiskaja.
+Non arresto i quattro americani e non li faccio ricondurre alla frontiera, perché non voglio perdere l'aiuto che può darmi Kid Tiger, col farmi trovare l'assassino di Sofia Scimanova e di Mira Lubiskaja.
 La osservava e vide che il nome della Lubiskaja non aveva prodotto in lei alcuna reazione.
 Certo, conosceva anche la morte della vecchia.
 Lei ha parlato da poco con Kid Tiger.
@@ -6541,7 +6667,7 @@ Passare da quella parte non era più possibile, senza scoprirsi.
 Ma che fine aveva fatto Appleby?
 Era possibile che avesse affrontato Kid Tiger?
 Oppure l'americano, sopraggiunto dopo, lo aveva aspettato in agguato?
-Ma allora perchè quella macchina lasciata in evidenza?
+Ma allora perché quella macchina lasciata in evidenza?
 Certo, Appleby la avrebbe notata.
 A lui mancava il tempo di perdersi in supposizioni.
 Era necessario che trovasse il modo di entrare nella villa.
@@ -6590,21 +6716,21 @@ E adesso?
 Che doveva fare, adesso?
 avvertire la polizia, doveva.
 Un delitto!.
-Ma perchè?
-Ma perchè, by Jove!.
+Ma perché?
+Ma perché, by Jove!.
 Si diede una manata sulla fronte.
 Per tutti i diavoli e chi avrebbe montato la Vergine, fra otto giorni?
 Lei è?.
 Precisamente, Eccellenza!
-– e Vladimiro Curti Bo' s'inchinò gravemente, per poi avanzare ancora con quei suoi passettini rapidi sino al tavolo.
-– Precisamente!
+e Vladimiro Curti Bo' s'inchinò gravemente, per poi avanzare ancora con quei suoi passettini rapidi sino al tavolo.
+Precisamente!
 Il signor Swan mi onora della sua amicizia e assai spesso assieme a lui ho assistito al levarsi del sole sulla città tentacolare, sentina di vizi e di sozzure.
 Il barone lo aveva ascoltato e lo guardava a occhi socchiusi.
 Accennò col capo:
 Segga.
 – e lui per primo sedette davanti al tavolo.
 L'omino gli sedette di fronte.
-Perchè è venuto da me, lei?
+perché è venuto da me, lei?
 – fece Vladimiro.
 – Gli è ch'io non ignoro come la forza materiale, vivificatrice, sostenitrice dei Rosa Croce, promani da questo palazzo.
 da questa sala.
@@ -6660,7 +6786,7 @@ Ma che dice?
 Se continua così, la storia è proprio di quelle che fanno impazzire!.
 Io debbo andar subito alla scuderia.
 Prima che faccia giorno, verrò da lei.
-Depose il ricevitore, perchè non voleva che l'altro gli rispondesse.
+Depose il ricevitore, perché non voleva che l'altro gli rispondesse.
 Inutile farlo parlare.
 Sapeva benissimo che se lo sarebbe trovato fra i piedi a San Siro.
 Così, Verità era scomparsa.
@@ -6673,7 +6799,7 @@ Occorreva gettarsi sui fatti.
 Soltanto da essi avrebbe potuto scaturire qualche luce.
 Col maresciallo Cruni e coi due agenti salì in un tassi, mentre il camion della Squadra Volante si muoveva rombando nel silenzio della piazza deserta.
 Sulla stradetta di Trenno, faccia alla luna, Clark O' Brian giaceva adesso con un coltello dal manico giallastro piantato nel petto.
-Un coltello, che quando il barone aveva inciampato nel cadavere, né lui né Matteo avevano veduto, perchè non c'era.
+Un coltello, che quando il barone aveva inciampato nel cadavere, né lui né Matteo avevano veduto, perché non c'era.
 Ma un pensiero improvviso gli fece oscurare il volto, che un poco gli si contrasse.
 Preoccupati della frontiera, Vladimiro!.
 Tutti questi cadaveri conducono soltanto al cimitero .
@@ -6735,7 +6861,7 @@ Allora, egli si scosse.
 Passò il bastone di mano e con la destra libera si aggiustò il cappello sulla fronte.
 Poi recò la mano alla tasca posteriore dei pantaloni e avanzò diritto verso la porta della casetta.
 Salì i tre gradini e avvicinò gli occhi alla serratura.
-L'esame lo dovette soddisfare, perchè emise un leggero tortoreggiamento gorgogliante.
+L'esame lo dovette soddisfare, perché emise un leggero tortoreggiamento gorgogliante.
 Quindi estrasse la mano dalla tasca e con essa un mazzetto di grimaldelli.
 Non ne provò che due e col terzo fece scattare la molla.
 La porta si aprì.
