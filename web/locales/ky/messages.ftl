@@ -205,7 +205,7 @@ faq-source-a2 = Биздин сүйлөмдөрдүн <dataLink>булагын G
 ## Profile
 
 profile-why-title = Эмнеге профайл керек?
-profile-why-content = Өзүнүз жөнүндө айрым маалыматтарды берүү менен, сиз «Common Voice»'го жүктөгөн аудио маалыматтар Ун таануу машиналарга бул маалыматтарды пайдаланууга жана алардын тактыгын жакшыртуу үчүн көбүрөөк пайдалуу болот.
+profile-why-content = Өзүңүз жөнүндө айрым маалыматтарды берүү менен, сиз «Common Voice»'ко жүктөгөн аудио маалыматтар үн таануу машиналарга бул маалыматтарды пайдаланууга жана алардын тактыгын жакшыртуу үчүн көбүрөөк пайдалуу болот.
 
 ## NotFound
 
@@ -311,10 +311,6 @@ listen = Угуу
 skip = Өткөзүү
 shortcuts = Байламалар
 clips = Үзүндүлөр
-goal-type-record = жаздыруу
-goal-type-validation = Текшерүү
-toward-goal = Бул <goalPercentage></goalPercentage> Common Voice-тун бүгүнкү { $goalType } максаты. Рахмат!
-goal-help = Common Voice-тун күндүк { $goalType } максатына  <goalPercentage></goalPercentage> жетүүгө жардам бердиңиз!
 contribute-more =
     { $count ->
         [one] { $count }-ны дагы улантууга даярсызбы?
