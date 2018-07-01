@@ -31,6 +31,7 @@ en = Аңгылысача
 es = Испанча
 et = Эстончо
 fi = Финче
+fo = Фарерче
 fr = Французча
 fy-NL = Фризче
 ga-IE = Ирландча
@@ -39,6 +40,7 @@ hu = Венгерче
 id = Индонезче
 is = Исландияча
 it = Итальянча
+ja = Жапончо
 ka = Грузинче
 kab = Кабилче
 kk = Казакча
@@ -47,6 +49,7 @@ kpv = Комиче
 kw = Корнчо
 ky = Кыргызча
 mk = Македонияча
+myv = Ирзече
 nb-NO = Букмолчо
 ne-NP = Непаличе
 nl = Нидерландча
@@ -70,6 +73,7 @@ tt = Татарча
 uk = Украинче
 uz = Өзбекче
 zh-CN = Кытайча (Кытай)
+zh-HK = Кытайча (Гонконг)
 zh-TW = Кытайча (Тайвань)
 
 # [/]
@@ -286,15 +290,15 @@ contact-required = *милдеттүү
 request-language-title = Тил талап кылуу
 request-language-form-language =
     .label = Тил
-request-language-success-title = Тил талап кылуу ийгиликтүү кошулду, алкыш айтабыз!
-request-language-success-content = Биз жакында «Common Voice»'го сиздин тилинизди кошуу тууралуу көбүрөөк маалымат менен байланышта болот.
+request-language-success-title = Тилди талап кылуу ийгиликтүү кошулду, алкыш айтабыз!
+request-language-success-content = Тилинизди Common Voice'ко кантип кошсо боло тургандыгын билдирген маалыматтарды кабарлап турабыз.
 
 ## Languages Overview
 
 language-section-in-progress = Каралууда
-language-section-in-progress-description = Аткарылуу режиминдеги тилилдер  азыркы учурда биздин коомчулуктун кошуп жаткан салымы менен курулууда; Алардын прогресси сайтын  жана сүйлөм чогултуу баскычтарынын жайгашкандыгынан кайда экенин чагылдырат.
+language-section-in-progress-description = Учурда каралып жаткан тилдер биздин коомчулуктун салымы менен түзүлүүдө; алардын жылышы сайтын которулушу жана сүйлөм чогултуу иштеринин абалын чагылдырып турат.
 language-section-launched = Ишке кирди
-language-section-launched-description = Ишке киргизилген тилдерди сайт ийгиликтүү өздөштүрүп алган жана жетиштүү сүйлөмдөрдү чогултуп <italic>{ speak }</italic> жана <italic>{ listen }</italic> деген баскычтарын иштөөсүнө жана сайтка кийинки салым кошуга мүнкүнчүлүк жараткан.
+language-section-launched-description = Иштетилип баштаган тилдердин вебсайты ийгиликтүү которулган жана жетиштүү санда сүйлөмдөр чогултулган.  <italic>{ speak }</italic> жана <italic>{ listen }</italic> салымдарын кошо берүү мүмкүн.  
 languages-show-more = Көбүрөөк көрүү
 languages-show-less = Aзыраак көрүү
 language-speakers = Сүйлөгөндөр
@@ -312,21 +316,22 @@ listen = Угуу
 skip = Өткөзүү
 shortcuts = Байламалар
 clips = Үзүндүлөр
+goal-help-recording = Бул Common Voice { $goalValue } максатынын бүгүнкү аткарылышы - <goalPercentage></goalPercentage>. Алкыш!
 contribute-more =
     { $count ->
-        [one] { $count }-ны дагы улантууга даярсызбы?
-       *[other] { $count }-ны дагы улантууга даярсызбы?
+        [one] Дагы { $count } салым кошконго даярсыңарбы?
+       *[other] Дагы { $count } салым кошконго даярсыңарбы?
     }
 record-cta = Жаздырып баштоо
-record-instruction = { $actionType } <recordIcon></recordIcon> андан кийин сүйлөмдү үн чыгарып окууңуз
+record-instruction = { $actionType } <recordIcon></recordIcon> андан кийин сүйлөмдү үн чыгарып окугула
 record-stop-instruction = Даяр болгондо { $actionType } <stopIcon></stopIcon>
 record-three-more-instruction = үчөө калды!
-record-again-instruction = Мыкты! <recordIcon></recordIcon> Кийинки үзүндүңөрдү жаздыргыла
+record-again-instruction = Мыкты! <recordIcon></recordIcon> Дагы бир үзүндү жаздыргыла
 record-again-instruction2 = Уланта бергиле, дагы жаздыргыла <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Акыркысы!
-review-tooltip = Улантканча үзүндүңүздү текшерип жана кайра жаздырыңыз
+review-tooltip = Улантканча үзүндүңүздү текшерип жана кайра жаздыргыла
 unable-speak = Азыр сүйлөө мүмкүн болбой жатабы?
-review-instruction = Эгер муктаждык болсо үзүндүңүздү карап чыгып, кайра жаздырыңыз
+review-instruction = Керек болсо үзүндүнү карап чыгып, кайра жаздыргыла
 record-submit-tooltip = { $actionType } даяр болгондо кошкула
 clips-submitted =
     { $count ->
@@ -334,12 +339,12 @@ clips-submitted =
        *[other] { $count } үзүндүлөр кошулду
     }
 record-abort-title = Биринчи жаздырууну аяктагыла?
-record-abort-text = Азыр чыгып кетсеңиз анда прогресиңизди жоготуп аласыңыз
+record-abort-text = Азыр чыгып кетсеңер, прогресиңер жоголот
 record-abort-submit = үзүндүлөрдү кошуу
 record-abort-continue = Жаздырууну аяктоо
 record-abort-delete = Чыгуу жана үзүндүлөрдү жок кылуу.
-listen-instruction = Сүйлөмдөрдү так жана даана айтыштыбы?
-listen-again-instruction = Азаматсыз! <playIcon></playIcon> Даяр болгондо кайра угуңуз
-listen-3rd-time-instruction = Дагы экөө калды, улантыңыз! <playIcon></playIcon>
+listen-instruction = { $actionType }<playIcon></playIcon> Сүйлөмдөрдү так жана даана айтылганбы?
+listen-again-instruction = Азаматсыз!<playIcon></playIcon> Даяр болгондо дагы уккула
+listen-3rd-time-instruction = Улантыбыз, эми экөө калды!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Акыркысы!
-share-title-new = Дагы үн тапканга <bold>бизге жардам</bold> бериңиз
+share-title-new = Дагы үн тапканга <bold>бизге жардам</bold> бергиле
