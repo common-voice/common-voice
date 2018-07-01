@@ -210,7 +210,7 @@ faq-quality-a = Comy, až kwalita zwukowych nagraśow zukowu kwalitu wótbłyš�
 faq-hours-q = Cogodla jo 10.000 góźinow cel za zukowe nagraśe?
 faq-hours-a = To jo pśibližnje licba góźinow, kótarež su trěbne, aby produktiwny system powědańskego spóžnaśa treněrowało.
 faq-source-q = Wótkul žrědłowy tekst pśiźo?
-faq-source-a1 = Aktualne sady su se wót sobustatkujucych pśinosowali, ako teke dialog z za wše wužytnych filmowych scenariskich knigłow ako <italic>It's a Wonderful Life.</italic>
+faq-source-a1 = Aktualne sady su se wót sobustatkujucych pśinosowali, ako teke dialog z filmowych scenariskich knigłow, kótarež su zgromadne swójstwo, ako <italic>It's a Wonderful Life.</italic>
 faq-source-a2 = Móžośo se naše žrědłowe sady w <dataLink>toś tom zarědniku GitHub</dataLink> woglědaś.
 
 ## Profile
