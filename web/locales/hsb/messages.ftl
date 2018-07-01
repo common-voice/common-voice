@@ -210,7 +210,7 @@ faq-quality-a = Chcemy, zo kwalita zynkowych natočenjow zynkowu kwalitu wotbły
 faq-hours-q = Čehodla je 10.000 hodźin cil za zynkowe natočenja?
 faq-hours-a = To je přibližnje ličba hodźin, kotrež su trěbne, zo by produktiwny system rěčenskeho spóžnaća trenowało.
 faq-source-q = Zwotkel žórłowy tekst přińdźe?
-faq-source-a1 = Aktualne sady su so wot sobuskutkowarjow přinošowali, kaž tež dialog z powšitkownosći wužitnych filmowych scenarijow kaž <italic>It¨s a Wonderful Life.</italic>
+faq-source-a1 = Aktualne sady su so wot sobuskutkowarjow přinošowali, kaž tež dialog z  filmowych scenarijow, kotrež su zhromadne swójstwo, kaž <italic>It¨s a Wonderful Life.</italic>
 faq-source-a2 = Móžeće sej naše žórłowe sady w <dataLink>tutym rjadowaku GitHub</dataLink> wobhladać.
 
 ## Profile
