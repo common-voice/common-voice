@@ -71,7 +71,7 @@ La community rappresenta il training perfetto per il mondo aziendale.
 Basato non su corsi o webinar ma sull’esperienza diretta di lavoro in team.
 I volontari sono sicuramente il patrimonio più grande sul quale le comunità di software libero possono contare.
 Una domanda molto comune per gli esperti.
-Affinché la maggior parte dei clienti quando leggono free od open source pensino subito “É gratis!”.
+Affinché la maggior parte dei clienti quando leggono free od open source pensino subito “È gratis!”.
 A prescindere dal fatto che il sofware sia web, desktop o mobile.
 Effettivamente il fatto che il software open source sia gratuito è una leggenda metropolitana.
 La diffondiamo, sia noi produttori di software che noi fornitori di servizi.
@@ -104,7 +104,7 @@ Ad oggi di conferenze, presentazioni e incontri su quelle tematiche se ne trovan
 Il nostro scopo non è parlare ai tecnici ma parlare ai manager o a chi si occupa di offrire soluzioni ai clienti e quindi, meno tecnicismi ci sono e meglio è.
 In questo incontro abbiamo quindi fatto una scelta ragionata, essendo stato il percorso con più proposte su tematiche per questo target di persone.
 L’evento per noi come associazione, viste le varie coincidenze, è un punto di non ritorno per puntare a crescere.
-Si, lo scopo dei prossimi due anni è crescere come numeri di iscritti e come attività che ci vedono coinvolti.
+Sì, lo scopo dei prossimi due anni è crescere come numeri di iscritti e come attività che ci vedono coinvolti.
 Il momento assemblea aperto a tutti ci è servito per avere pareri e suggerimenti su diversi aspetti.
 Ritengo che come associazione bisogni puntare sulla trasparenza.
 Al momento abbiamo il progetto Industria Aperta e stiamo lavorando sul piano 2018-2020.
@@ -223,16 +223,17 @@ Ignorare queste regole non è tollerato essendo membro della community e può co
 Il progetto è nato per ampliare il team di traduttori di Mozilla Italia, cercando anche di capire i motivi che portano i nuovi volontari ad allontanarsi
 Ciascuno tramite il proprio profilo potrà tenere traccia dei compiti fatti e da fare, un team di volontari si occupa dei compiti eseguiti!
 Avendo a disposizione il codice è possibile cambiarlo, salvarlo od usarlo in altri progetti non legati all'originale
-La prima modalità, che permette al Comune di svolgere le funzioni anagrafiche utilizzando il sito web dell’ANPR, è completamente gratuita e consente comunque al Comune, nel caso se ne ravveda la necessità, di mantenere allineata una banca dati locale per l’espletamento di altre funzionalità (gestione tributi, elettorale, etc.).
+La prima modalità, che permette al Comune di svolgere le funzioni anagrafiche utilizzando il sito web dell’ANPR, è completamente gratuita e consente comunque al Comune, di mantenere allineata una banca dati locale per l’espletamento di altre funzionalità
 A carico del Comune è la predisposizione del file di subentro che contiene i dati delle proprie anagrafi.
 Qualora il Comune abbia esigenza di aggiornare automaticamente le proprie basi dati locali, necessarie per lo svolgimento dei propri compiti istituzionali diversi da quelli di natura propriamente anagrafica, utilizzerà i servizi che ANPR rende disponibili a questo scopo.
 Per utilizzare questa modalità è dunque necessario che il Comune modifichi il software anagrafico per integrarlo con ANPR.
 Il Comune in tal caso opera attraverso il proprio sistema gestionale modificato.
 La prima operazione da fare per poter utilizzare ANPR è la “compilazione della scheda di monitoraggio”.
-La compilazione di tale scheda consente al Ministero dell’Interno di predisporre il c.d.
+La compilazione di tale scheda consente al Ministero dell’Interno di predisporre la richiesta.
 “Piano di subentro” e assegnare a ogni Comune la data a partire dalla quale potrà iniziare a svolgere i passi propedeutici all’utilizzo effettivo di ANPR illustrati di seguito.
 Durante la fase di test , si dovrà inviare una parte dei dati registrati nella base dati comunale: tali dati popoleranno l’ANPR, facilitando in questo modo le successive fasi di apprendimento e test delle restanti funzionalità.
-L’ambiente di test è destinato prevalentemente ai fornitori dei SW anagrafici comunali prima del rilascio della nuova versione al comune per l’avvio dei test di pre-subentro.Per l’accesso all’ambiente di test si utilizza un certificato di postazione e una user-id e password che saranno trasmesse via PEC ai Comuni successivamente alla compilazione della scheda di monitoraggio, con almeno due mesi di anticipo rispetto alla data indicata dal comune per l’avvio dei test.
+L’ambiente di test è destinato prevalentemente ai fornitori dei SW anagrafici comunali prima del rilascio della nuova versione al comune per l’avvio dei test di pre-subentro. 
+Per l’accesso all’ambiente di test si utilizza un certificato di postazione e una user-id e password che saranno trasmesse via PEC ai Comuni successivamente alla compilazione della scheda di monitoraggio, con almeno due mesi di anticipo rispetto alla data indicata dal comune per l’avvio dei test.
 È la fase immediatamente successiva a quella di test, che viene utilizzata per rilevare, preliminarmente al subentro, la presenza di eventuali criticità nella base dati.
 Per poter eseguire questa fase è necessario aver predisposto il file di subentro.
 Si utilizza in questa fase un ambiente diverso da quello di test, che consente di simulare il subentro e la successiva fase di esercizio.
@@ -268,7 +269,6 @@ I contenuti diventano quindi parte integrante del servizio all’utente.
 È bene prendere decisioni sulla base dell’analisi dei dati riferiti all’utente in particolare i dati statistici di navigazione sul sito per comprendere il comportamento dell’utente la realizzazione di interviste.
 Lo scopo primario dell’interfaccia di un servizio web è quello di aiutare l’utente a raggiungere ciò che cerca in modo naturale e immediato, in modo quasi trasparente.
 Per questo, la coerenza dei vari elementi che la compongono, anche su diversi dispositivi, è un elemento fondante per la creazione di prodotti funzionali e semplici da usare.
-No.
 La fatturazione di buoni di spesa accettati relativi all’acquisto di tutti i beni e servizi previsti dalla normativa può avvenire in qualsiasi momento.
 In sede di registrazione al servizio 18app puoi inserire i tuoi punti negozio con i relativi dati di riferimento (provincia, comune ed indirizzo) corredati di recapiti telefonici, sito internet ed indirizzo di posta elettronica.
 I musei che fanno riferimento al Ministero dei beni e delle attività culturali e del turismo sono censiti direttamente dalla Direzione Generale Musei e saranno geo-localizzabili dai diciottenni nell’applicazione a loro dedicata.
@@ -343,7 +343,6 @@ Trovi Mozilla Italia sia sul forum (forum.mozillaitalia.orgs) sia sui canali Tel
 Firefox è creato dagli utenti per gli utenti.
 Non è realizzato per guadagnare (Mozilla è una fondazione no profit), ma per offrire un'esperienza di navigazione unica.
 Scegli il browser libero, sicuro, affidabile e indipendente.
-Scegli Firefox!
 Firefox è il browser davvero “personale”.
 Grazie alle migliaia di estensioni disponibili è possibile aggiungere nuove funzionalità e, se non trovi l'estensione adatta alle tue esigenze, puoi svilupparla tu stesso.
 Inoltre, la moltitudine di temi disponibili consente di personalizzare anche l'interfaccia grafica e, se non dovessi trovare un tema che ti piace, puoi crearne uno tutto tuo!
@@ -353,7 +352,6 @@ Il sistema di aggiornamento automatico consente di mantenere il browser sempre a
 Il concetto di “comunità” è alla base della filosofia di Mozilla.
 Centinaia di persone in tutto il mondo collaborano alla pubblicazione di articoli di supporto e offrono assistenza agli utenti nelle principali lingue mondiali.
 In Italia questo compito è affidato a Mozilla Italia che offre supporto attraverso il suo forum o sui canali Telegram ufficiali.
-Novità.
 Gli aggiornamenti di Firefox mirano a migliorare l'esperienza utente, quindi aggiungendo funzionalità utili e richieste.
 Alcune di queste funzionalità sono: la Modalità lettura, il Pulsante dimentica, la Barra degli indirizzi intelligente.
 Firefox offre diverse versioni, oltre alla stabile, la Dev Edition, rivolta agli sviluppatori, e la Nightly, rivolta a chi vuole collaborare segnalando eventuali problemi.
@@ -441,15 +439,7 @@ La dimensione dell'efficacia, esprime l'adeguatezza dell'output erogato rispetto
 Per misurare l'efficacia dell'azione di una amministrazione, è quindi fondamentale individuare quali dimensioni siano rilevanti per gli utenti.
 L'insieme di queste dimensioni dipende dalla tipologia di amministrazione e dai suoi obiettivi, e proprio la loro definizione permette di specificare meglio il risultato atteso nei confronti dell'utenza.
 Ad esempio, per misurare l'efficacia di un servizio rivolto al pubblico è possibile prendere varie dimensioni.
-Accessibilità.
-Estetica/immagine.
-Disponibilità.
-Pulizia/ordine.
-Comunicazione.
-Cortesia.
-Correttezza dell'output erogato.
-Affidabilità.
-Tempestività di risposta.
+Accessibilità, estetica, disponibilità, pulizia, comunicazione, affidabilità, tempestività di risposta.
 La definizione degli indicatori che l'amministrazione utilizza per programmare, misurare e poi valutare la performance è un'attività di importanza critica.
 Spesso obiettivi sfidanti vengono misurati in modo non adeguato, fornendo informazioni incomplete o addirittura fuorvianti ai decisori.
 L'incompletezza e la scarsa precisione hanno implicazioni sia sulla fase di pianificazione che su quella di misurazione e valutazione.
@@ -527,8 +517,7 @@ Quello che molti non sanno è che modificare questi fotogrammi, anche solo aggiu
 Il nuovo processo ci spinge a considerare le idee fin dal primo stadio alla stregua di progetti di una start-up tecnologica.
 Il team che propone l’idea è tenuto a presentare una chiara proposta di valore per il consumatore a ogni stadio del ciclo di sviluppo.
 Validazione: esiste un problema da risolvere?
-Analisi del prodotto: esiste un mercato per questo prodotto?.
-Scalabilità.
+Analisi del prodotto: esiste un mercato per questo prodotto?
 Se vogliamo raggiungere gli obiettivi indicati nella missione di Mozilla, non possiamo pensare di lottare da soli.
 Per compiere le straordinarie imprese che ci siamo prefissati, abbiamo bisogno che ciascuno delle migliaia di Mozilliani sparsi in tutto il mondo si schieri al nostro fianco.
 Per avanzare più rapidamente tutti uniti e far udire la nostra voce come mai prima d’ora.
@@ -544,20 +533,19 @@ Uno dei due viaggiatori sporse il capo e gli ordinò.
 Recaci da bere una bottiglia.
 Il viaggiatore che l’aveva ordinata passò il vassoio all’altro con rispettosa deferenza.
 Quegli bevve, quindi mormorò.
-A voi.
 Il viaggiatore vuotò il suo bicchiere, quindi ordinò a Menicuccio di dare il rimanente al cocchiere, e gli porse uno scudo, dicendogli.
 Da parte di questo signore che ha trovato buono il vostro vino.
 Mille grazie!
 Esclamò l’oste inchinandosi fino a terra, mentre la carrozza partiva di buon trotto.
-Maledizione!
+Maledizione! 
 Hanno anticipato di tre ore.
 Un bel colpo fallito.
 Nulla di perduto, rispose l’altro.
 Fra mezz’ora io li avrò sorpassati.
 La salita per la strada maestra è lunga, per i giri che fa la strada ed erta in modo che i cavalli non possono che andare al passo.
-E i compagni?
+E i compagni? 
+Non ci pensare, li troverò io.
 Non ci pensare.
-Li troverò io.
 Il buio si era fatto intanto profondo e Menicuccio lieto della sua giornata, aveva chiuso l’albergo, ben certo che a quell’ora nessun altro avventore sarebbe capitato.
 Il cacciatore, fatto sicuro di non essere veduto, aperse la finestra, che distava pochi metri dal suolo e colla lestezza e agilità del dardo, discese nella via, tenendo il suo fucile ad armacollo.
 Dio lo salvi e il diavolo lo protegga.
@@ -577,8 +565,7 @@ Non appena i cavalli della vettura giunsero innanzi al burrone, ove stava celato
 E il vetturino cedendo alla paura che gli ispirava la persona atletica del masnadiero, la sua estrema sicurezza, il suo sangue freddo, ubbidì.
 Frusta i cavalli, codardo  tonò una voce dall’interno della carrozza e contemporaneamente un colpo d’arma da fuoco rintronò nell’aria.
 Era diretto contro l’assalitore e colpì invece alla testa uno dei cavalli, il quale stramazzò.
-Mal diretto!
-esclamò forte il malandrino.
+Mal diretto! Esclamò forte il malandrino.
 Se sciupate così la vostra polvere, non ve ne resterà per farvi saltare le cervella, se per avventura sdegnassimo noi di farlo.
 Due altri colpi da fuoco scoppiarono contemporaneamente.
 L’uno forò il cappello del vetturino, l’altro sfiorò una spalla del brigante, senza che questi mostrasse avvedersene.
@@ -616,8 +603,7 @@ Avevo intenzione  disse di liberarvi io stesso e di porvi in condizione di conti
 Avevo data l’ultima mano al mio libro La scienza in cucina e l’Arte di mangiar bene, quando capitò in Firenze il mio dotto amico Francesco Trevisan, professore di belle lettere al liceo Scipione Maffei di Verona.
 Appassionato cultore degli studi foscoliani, fu egli eletto a far parte del Comitato per erigere un monumento in Santa Croce al Cantor dei Sepolcri.
 In quella occasione avendo avuto il piacere di ospitarlo in casa mia, mi parve opportuno chiedergli il suo savio parere intorno a quel mio culinario lavoro.
-ma ohimé!
-che, dopo averlo esaminato, alle mie povere fatiche di tanti anni pronunziò la brutta sentenza: Questo è un libro che avrà poco esito.
+Dopo averlo esaminato, alle mie povere fatiche di tanti anni pronunziò la brutta sentenza: Questo è un libro che avrà poco esito.
 Mi siete testimoni, che avrei potuto ammazzarlo e che gli faccio grazia, per rispetto alla Santità di Nostro Signore, che ne affidò i preziosi giorni al suo Corriere
 Compiuta l’operazione, tornò alla sedia di posta e intimò al Corriere del Papa di scendere.
 Questi non si fece pregare, e fu legato pur lui.
@@ -748,7 +734,8 @@ La tecnologia d'oggi è segnata più dal software che dalla macchina ma ormai no
 L'hardware, ovvero i componenti fisici dell'apparecchio, ha si nuove funzioni importanti ma senza l'informatica ovvero il software non sarebbe niente.
 L'informatica è quello strumento che adatta la tecnologia a noi.
 Infatti come diceva Solly Zuckerman “la tecnologia è sempre stata con noi.
-Non è qualcosa al di fuori della società, qualche forza esterna dal quale veniamo sospinti..la società è la tecnologia sono riflessi l'una dell'altra”.
+Non è qualcosa al di fuori della società, qualche forza esterna dal quale veniamo sospinti. 
+La società è la tecnologia sono riflessi l'una dell'altra”.
 In poche parole la tecnologia si adatta ai nostri bisogni.
 Siccome l'uomo inventa per dare benessere agli uomini perché dobbiamo rimanere indietro?
 Questo potrebbe definirsi lo slogan di una promozione che tra pochi giorni avverrà nel nostro bel paese.
@@ -784,7 +771,7 @@ Ad un bambino diremmo che ci ha portati la cicogna o che l'hanno trovato sotto u
 La vita non è solo l'atto di fecondazione è un atto di amore di cui i genitori, si spera consapevolmente, decidono che l'unico modo per poter vedere un frutto dal loro amore sia quello di avere una prole.
 Lì la scienza dovrebbe dirci che cos'è l'amore.
 Direbbe è un desiderio sessuale che hanno tutti gli essere viventi.
-Mai fù fatto un così grande errore.
+Mai fu fatto un così grande errore.
 L'amore non ha una definizione scientifica e forse anche filosofica.
 Oggi giorno la scienza è l'unico faro presente nel mondo che dà risposte mentre la secolarizzazione ormai sta raggiungendo il suo scopo e la fede religiosa è vista come insulsa da chi non la segue.
 La scienza potrà darci le soluzioni a tutte le malattie ma non potrà mai spiegare perché ci sono i miracoli.
@@ -803,7 +790,7 @@ Gli italiani di tecnologico come innovazione prima di tutti  stata quella del di
 Comunque Wired a quanto pare sta avendo un buon successo in Italia, ha incominciato la sua storia con Rita Levi Montalcini che parla dell'Italia e del futuro dove l'uomo è coinvolto dalla sua parte del cervello emotiva.
 Quindi noi ci facciamo coinvolgere più dall'emozioni che secondo lei hanno prevalso sulla cognitiva creando le guerre, la shoa ecc.
 Secondo me ha ragione perché una persona ha 100 ne abbia viste di tutte i colori ma non solo per quello ma anche perché l'uomo spesso pensa poco.
-La scienza è nata perché l'uomo deve pensare e sempre penserà ma non si può permettere di dare una spiegazione scientifica a tutto altrimenti si sterilisce l'essenza umana ovvero che non è portato all'amore ma ad una definizione scientifica e da studio godendo di ciò che fà.
+La scienza è nata perché l'uomo deve pensare e sempre penserà ma non si può permettere di dare una spiegazione scientifica a tutto altrimenti si sterilisce l'essenza umana ovvero che non è portato all'amore ma ad una definizione scientifica e da studio godendo di ciò che fa.
 La scienza ci ha permesso di scoprire la cura alla penicillina e tanto altro.
 È molto importante continuare a diffonderla ma bisogna diffondere anche l'idea che non è l'unica soluzione ai nostri problemi.
 George Orwell è lo pseudonimo di Eric Arthur Blair, nato il 25 giugno 1903 in India da genitori inglesi e morto il 21 gennaio 1950.
@@ -834,7 +821,7 @@ Nel 1945 la moglie lo abbandona e viene pubblicata La fattoria degli animali.
 Nel 1946 dirà una frase che permetterà di capire il suo orientamento politico : “Ogni riga di lavoro serio che ho scritto dal 1936 a questa parte è stata scritta, direttamente o indirettamente, contro il totalitarismo” e si trasferisce insieme al figlio alle isole Ebridi (Scozia).
 Lo stesso anno si ammala di tisi vivendo periodi molto spesso al sanatorio, nel 1948 si risposa e scrive “1984”.
 Nel 1950 muore di tubercolosi polmonare a Londra a soli 47 anni.
-La fattoria degli animal , libro tra i più conosciuti di Blair, racconta la storia di alcuni animali che vivono in una fattoria dove soffrono la fame per cui si ribellano al loro fattore.
+La fattoria degli animali, libro tra i più conosciuti di Blair, racconta la storia di alcuni animali che vivono in una fattoria dove soffrono la fame per cui si ribellano al loro fattore.
 La ribellione scoppierà quando un maiale molto anziano, grazie alla sua saggezza ed esperienza darà i suoi i dieci comandamenti per vivere bene in fattoria senza uomini.
 Gli animali quindi decidono di ribellarsi al fattore, lo cacciano e fondano un nuovo ordine sociale secondo cui tutti dovranno contribuire lavorando ma emergerà una razza di animali, il maiale, che non essendo adatto a nessun lavoro diventerà un burocrate.
 Tra i maiali hanno il predominio Napoleon e Palla di Neve, ma mentre il primo vuole conquistare le altre fattorie con la forza, l'altro propone di dare soltanto il buon esempio.
@@ -865,7 +852,7 @@ Con quest'opera Orwell vuole indicare come sia possibile controllare l'uomo elim
 Il personaggio si rende conto del potere che subisce, non l'accetta, cerca di ribellarsi, ma il Socing ormai è troppo potente, si è addentrato nella mente di tutti e non c'è via di scampo.
 Per questo motivo 1984 è definito un romanzo Distopico, che si ambienta in un posto dove non è preferibile vivere.
 L'identità dell'uomo viene schiacciata e resa uguale a quella di tutti, l'unica cosa da fare è seguire il partito.
-É una realtà portata all'estremo dell'irrealtà  ma realistica allo stesso tempo.
+È una realtà portata all'estremo dell'irrealtà  ma realistica allo stesso tempo.
 Per quest'opera Orwell si basa molto sulle idee staliniste: Stalin affermava di aver inventato il trattore e il carro armato quando non era vero, l'appellativo il Grande Fratello deriva da Piccolo Padre, appellativo di Stalin, gli slogan tipo “il partito è la saggezza del popolo” è leninista.
 L'alterazione della realtà è un fatto visto più volte non solo nello stalinismo ma nache nel nazismo dove per esempio delle foto in cui c'erano i fondatori del partito venivano cancellati quando essi li tradivano.
 Si ritiene che per il fondatore della Confraternita , Emmanuel Goldstein, Orwell si sia basato su Trotskij che in Russia aveva contribuito al soviet ma che venne poi espulso perché si era differito alla linea militarista di Stalin e ucciso tempo dopo dai sovietici.
@@ -880,7 +867,7 @@ Un uomo non si deve inchinare di fronte ad un superiore e accettare le sue condi
 Non deve permettersi di arrivare alla condizione utopica espressa in 1984.
 Blair è un uomo che ha sempre agito, non si è mai fermato, ha dimostrato di essere reattivo e di saper spiegare i fatti in modo critico.
 Ci dovrebbe essere un Orwell in ognuno di noi per infonderci la forza ed il desiderio di capire e approfondire tutto ciò che avviene intorno a noi.
-in tal modo si sviluppa lo spirito critico, una serie infinita di perché ai quali ,anche attraverso il confronto con gli altri, si possa trovare la risposta che ritiene più idonea.
+in tal modo si sviluppa lo spirito critico, una serie infinita di perché ai quali, anche attraverso il confronto con gli altri, si possa trovare la risposta che ritiene più idonea.
 1984 è un romanzo modernissimo anche se scritto più di 50 anni fa.
 Io mi sono avvicinato a quest'opera perché in ambito informatico il Grande Fratello sta diventando un'entità reale e non virtuale.
 Il termine informatico Trusted Computing, in italiano Informatica Fidata, indica l'inserimento di chip e/o software obbligatori che limiterebbero le libertà dell'utente per l'uso di altri software e/o di modifiche all'apparecchio.
@@ -1141,7 +1128,7 @@ I piccoli poi sono ancora più vivaci e curiosi dei genitori e sono impossibili 
 Sono simili a lunghi gattoni dalla lunga coda e dal naso molto sviluppato, i coati vivono a piccoli branchi nei boschi.
 Scavano nella terra per trovare insetti da mangiare.
 A differenza dei procioni, sono litigiosi.
-Quando un individuo cerca di avvicinarsi ad un compagno che sta mangiando,ne nascono zuffe furibonde, che non hanno mai conseguenze gravi.
+Quando un individuo cerca di avvicinarsi ad un compagno che sta mangiando, ne nascono zuffe furibonde, che non hanno mai conseguenze gravi.
 Non sono sanguinari ma semplicemente attaccabrighe.
 I vecchi maschi vivono lontani dal branco per riavvicinarsi nel periodo dell’accoppiamento.
 Anche in questa occasione nascono zuffe clamorose.
@@ -1286,7 +1273,6 @@ che il coach che mi ha insegnato
 mi consegni la medaglia Olimpica sul podio,
 mi piacerebbe riceverla da lui.
 Beh, quello è il mio sogno.
-E adesso.
 si stanno avvicinando delle nuove Olimpiadi.
 Perciò sono pronta.
 Ogni atleta deve sacrificare qualcosa per trovarsi al tuo posto.
@@ -1300,17 +1286,16 @@ Lavare i vestiti e fare altre faccende, per questo non mi lasciava giocare.
 Avevano questa mentalità ristretta.
 Mia mamma lavora nell'ospedale di un piccolo villaggio.
 Vedi quello giallo?
-Questo?
 Mia mamma è la mia principale ispirazione.
 Come lei, volevo essere indipendente.
 Adoravo rubare le verdure dal campo, specialmente il granturco.
 Io e i miei amici eravamo esperti nel furto di verdure.
 Il cibo rubato ha un gusto migliore.
+Basta!
 Poi lo friggevamo e lo mangiavamo.
 La mamma usciva presto la mattina,
 ed è per questo che sono più attaccata a mio padre, ho trascorso più tempo con lui.
 Cosa stai facendo?
-Basta!
 Non c'è bisogno che tu spazzi la strada.
 Mio papà guida un risciò.
 Non è molto istruito,
@@ -1357,9 +1342,7 @@ Andai là perché le condizioni della mia famiglia erano pessime.
 A casa c'erano continui litigi a causa della mancanza di soldi.
 Pensai che se avessi lasciato casa,
 ci sarebbe stato un peso in meno.
-Questa era la nostra cucina.
-tenevamo da mangiare, lì dietro
-e cucinavamo qui.
+Questa era la nostra cucina. Tenevamo da mangiare, lì dietro e cucinavamo qui.
 I piatti li lavavamo laggiù.
 Avevamo tre stanze.
 Non c'erano ventilatori, solo un letto.
@@ -1371,9 +1354,8 @@ Dovemmo ricoverarla in un ospedale.
 Stetti malissimo.
 e io ero determinata a farmi scegliere.
 Venne da me e disse: "Voglio allenarmi con lei".
-Dissi: "Ok, ma dovrai seguire le mie istruzioni".
+Dissi: "OK, ma dovrai seguire le mie istruzioni".
 Dunque, l'arco che le serviva era davvero costoso.
-Le dissi.
 Sono povero, dove troverò i soldi?
 Ma, in qualche modo, racimolai tutto quello che potevo.
 Era un'ingenua ragazza di paese senza fiducia in se stessa.
@@ -1390,7 +1372,6 @@ Ho sempre desiderato fare qualcosa che mi facesse notare.
 Dieci punti.
 Era una bambina quando partì in cerca di un modo per sopravvivere.
 E poi guardate le vette che è riuscita a conquistare.
-Eccola.
 Perché ha reso così fiero il nostro paese, e voglio essere proprio come lei.
 Attualmente è campionessa mondiale.
 È diventata campionessa mondiale in appena 3, 4 anni
@@ -1435,8 +1416,7 @@ Se diamo alle nostre ragazze un'occasione per farsi avanti ed esprimersi
 la loro autostima crescerà.
 Secondo me sono assurdi
 il loro pensiero è estremamente retrogrado.
-Secondo me,
-la gente spesso usa la frase: "prima le donne".
+Secondo me, la gente spesso usa la frase: "prima le donne".
 Così, se le ragazze vogliono farsi avanti nella vita, nell'istruzione o nello sport
 perché non dire "prima le donne", quando conta veramente?
 Pensano davvero che le ragazze siano deboli o incompetenti?
@@ -1490,9 +1470,7 @@ Ho un appuntamento con il medico.
 L'appuntamento è confermato.
 69 giorni a rio 2016
 È un incubo subire un infortunio pochi giorni prima delle Olimpiadi.
-Salve
-Ciao.
-Ok.
+OK, ciao.
 Raccontami, cosa succede?
 Quindi non sono in grado di tendere indietro.
 Quando raggiungo questa posizione, è davvero doloroso
@@ -1505,14 +1483,9 @@ Un'opzione è iniettarti localmente una dose di steroidi.
 Ora, durante l'iniezione vorrei chiedervi di uscire, se non vi dispiace.
 10 minuti dopo
 Non mi sento bene.
-Cosa?
 Non mi sento molto bene.
 Mangia qualcosa, poi puoi dormire.
-Ok?
 Va bene?
-Sdraiati.
-Vieni.
-Sdraiati.
 Si sdraierà per un po'.
 Ti serve dell'acqua?
 Penso di stare per vomitare.
@@ -1548,11 +1521,10 @@ in attesa di buone notizie.
 21 giorni all'evento
 Spero solo di non avere dolore.
 Spero che non mi dia dolore.
-Fa male.
-Molto?
+Fa male. 
 Fa male quando rilascio
-dopo averlo tenuto in questa posizione.
-quando ha battuto il record mondiale.
+Dopo averlo tenuto in questa posizione.
+Quando ha battuto il record mondiale.
 Poi ha avuto l'infortunio e ha perso sensibilità nella spalla.
 Senza dolore tira bene, con il dolore diventa nervosa.
 La sua concentrazione vacilla quando non tira bene.
@@ -1571,52 +1543,30 @@ Abbi fiducia in te.
 Senti la fiducia dentro di te, ok?
 Ti auguro buona fortuna.
 Che Dio ti benedica.
-Ok.
-Ciao.
-11 agosto 2016
-il giorno dell'evento
+Il giorno dell'evento
 Sta per tirare.
 Con l'obiettivo della gara di ottenere sei set point.
-Salve.
-Benvenuti.
-ha perso nel turno 16
-in tiro con l'arco ricurvo femminile.
+Ha perso nel turno 16
+In tiro con l'arco ricurvo femminile.
 7 mesi dopo
 Come ti sei sentita dopo Rio?
-Dopo Rio?
-Solo che dopo aver lavorato così duramente
-e aver perso,
+Solo che dopo aver lavorato così duramente e aver perso,
 il peso di una sconfitta è una croce pesante da portare.
 Ti prego non farmi quella domanda.
-ovunque tu vada
 Non hai una medaglia d'oro olimpica o nessuna medaglia olimpica.
 Non ha importanza quante altre competizioni tu abbia vinto.
 Non ha davvero importanza.
 Queste cose devono cambiare nel nostro paese.
 Non lo so.
-Però
-Forse
-ci vorrà parecchio tempo.
+Forse ci vorrà parecchio tempo.
 Otto anni, dodici anni?
-Ma
-né alcuna donna tra questi paesi in via di sviluppo.
-Ciao, sorellona.
-Ciao.
-Cos'è tutto questo?
-Fiori?
-Pochissima.
-Grazie.
-Benvenuta, sorellona
-Come state tutte?
-Stiamo bene.
+Come state tutte? Stiamo bene.
 Come stanno andando gli allenamenti?
 Molto bene.
-Cosa?
 Guarda qui.
 Ho fatto un quaderno di tuoi articoli.
 Il tempo è il miglior insegnante.
-Né troppo duro.
-né troppo clemente.
+Né troppo duro, né troppo clemente.
 Oh, dunque questi sono solo quelli buoni.
 Abbiamo visto le Olimpiadi insieme nella sala TV.
 Mettevamo la sveglia a mezzanotte e ci svegliavamo
@@ -1628,41 +1578,37 @@ Pregavamo che ogni freccia fosse un 10
 Se non lavoriamo duramente.
 non otterremo nulla.
 Dobbiamo solo lavorare sodo e un giorno ci arriveremo.
-Nel nostro paese,
-le ragazze continuano a dire che lavoreranno duramente.
-Lavoriamo tutte duramente,
-ma
-nessuno ti insegna il modo giusto.
-Ti dicono.
+Nel nostro paese, le ragazze continuano a dire che lavoreranno duramente.
+Lavoriamo tutte duramente, ma nessuno ti insegna il modo giusto.
 Va bene, vi daremo il nostro 100 o 200 percento.
 Ma come fai a sapere se quello che stai facendo è giusto? Come lo saprai?
-Guardate tirare quelli più grandi, chiedete ai vostri coach,
-guardate i filmati delle loro gare.
+Guardate tirare quelli più grandi, chiedete ai vostri coach, guardate i filmati delle loro gare.
 Siamo nell'era di Internet, scaricate video.
-Ci sono così tanti bravi atleti dalla Corea, USA, Messico,
-guardate i loro video.
+Ci sono così tanti bravi atleti dalla Corea, USA, Messico, guardate i loro video.
 È questo che comporta lavorare duramente.
-Lavorare duramente
-è fare la cosa giusta.
-Sì.
+Lavorare duramente è fare la cosa giusta.
 Allenatevi bene.
 Dobbiamo fare una foto.
 Adesso siete voi quelle più grandi.
 Nel nostro paese, le ragazze hanno grandi sogni e ambizioni, e vogliono esaudirli
 ma vengono ostacolate dalla paura.
 Voglio che la mia storia sia d'ispirazione per ogni ragazza.
-Se volete avere successo,
-dovete lottare!
-Dite cheese!
+Se volete avere successo, dovete lottare!
 Lo sport mi ha insegnato una lezione importante.
-Mai arrendersi,
-perché l'istante in cui ti arrendi, perdi.
+Mai arrendersi, perché l'istante in cui ti arrendi, perdi.
 Ma fin tanto che continui a lottare,
 acquisisci il senso di sicurezza di poter vincere!
 Che stai facendo?
-Come stai?
 Vorrei un bel pezzo di cioccolata.
 Fallo e basta!
+Ciao, sorellona.
+Cos'è tutto questo?
+Fiori?
+Pochissima.
+Grazie.
+Benvenuta, sorellona
+Come state tutte?
+Stiamo bene.
 Non ho sentito, puoi ripetere?
 Come è andata ieri?
 Com'era il concerto?
@@ -1759,15 +1705,12 @@ Se fosse così non sarei qui.
 Andiamo a mare, è una bella giornata di sole.
 Il cielo è blu come il mare.
 E' talmente bella che me la sposerei.
-Grande!
-Ottimo!
 Devo bere un po' d'acqua, sto morendo di sete!
 Meglio non rischiare, fai piano.
 Quando io ero giovane queste cose non capitavano mai.
 Il mio aereo arriva alle sette di sera, puoi venirmi a prendere?
 Cosa mangiamo stasera? Ho fame!
 Siamo arrivati? Quanto manca?
-Va bene!
 Giovanna è una simpatica pulzella.
 C'è troppo smog e nebbia in questa città, come fai a viverci?
 Quel castello è davvero maestoso.
@@ -1821,7 +1764,6 @@ Ha un'aura potentissima!
 A mio figlio piacciono molto i cartoni animati, tranne quando cantano troppo.
 Non dimenticherò mai quella canzone, sarà impressa nella mia memoria per sempre.
 Ti amerò per sempre.
-Ti odio!
 Ma cosa hai combinato? Pulisci subito!
 C'è qualcuno a cui piace spazzare, com'è possibile?
 Ci sono un sacco di molliche a terra, potresti scopare?
@@ -1866,8 +1808,7 @@ Direi che ottanta anni fa la vita era ben più difficile.
 Non credo che tu sia stupido, ma penso che dovresti sforzarti di più.
 Descrivimi tutto quello che vedi, voglio essere partecipe.
 Buongiorno!
-Buonasera!
-Si, ho capito che dici, ma non sono d'accordo.
+Sì, ho capito che dici, ma non sono d'accordo.
 Perché pensi che ti odi?
 Non è affatto così!
 Riesci a leggere questo foglietto informativo?
@@ -1925,6 +1866,7 @@ Lo stadio sta intonando un coro in perfetto unisono.
 Guarda, se spegni le luci si riescono a vedere un sacco di lucciole!
 Le coccinelle portano fortuna, non le schiacciare!
 Guarda quel geco com'è rosa!
+Buonasera!
 No, quello è un geco, non una lucertola.
 Sono due cose diverse!
 Quel ragno è gigante, sembra quasi una tarantola!
@@ -2005,7 +1947,6 @@ Ho mangiato così tanto che mi sento abbattuto.
 Ho bisogno di fare un pisolino.
 Quando mangi un panino mi sembri Poldo!
 Non penso proprio sia così, fossi in te controllerei di nuovo.
-Magari!
 Purtroppo non viene, mi sarebbe piaciuto conoscerla di persona
 Sicura che il segnale sia stato inviato correttamente?
 Hai eliminato quel documento in maniera sicura? Non dovresti lasciare alcuna traccia di quello che hai combinato.
@@ -2064,6 +2005,7 @@ All'Assemblea costituente il giorno dopo la strage Girolamo Li Causi, segretario
 dopo il 20 aprile c'è stata una campagna di provocazioni politiche e di intimidazioni.
 durante la strage il maresciallo dei carabinieri si intratteneva con i mafiosi e tra gli sparatori c'erano monarchici e qualunquisti.
 Viene interrotto da esponenti dei qualunquisti e della destra e il ministro degli interni Mario Scelba dichiara che non c'è un "movente politico", si tratta solo di un "fatto di delinquenza".
+Magari!
 Nel frattempo i fermati vengono rilasciati e si afferma la pista che porta alla banda Giuliano, il cui nome viene fatto dall'Ispettore di Pubblica Sicurezza Ettore Messana.
 L'inchiesta giudiziaria si concentra sui banditi e procede con indagini frettolose e superficiali: Il 17 ottobre 1948 la sezione istruttoria della Corte d'appello di Palermo rinvia a giudizio Salvatore Giuliano e gli altri componenti della banda.
 La Corte di Cassazione, per legittima suspicione, decide la competenza della Corte d'assise di Viterbo, dove il dibattimento avrà inizio il 12 giugno 1950 e si concluderà il 3 maggio 1952, con la condanna all'ergastolo di 12 imputati.
@@ -2102,7 +2044,7 @@ Di tanto in tanto Verga torna a narrare storie sentimentali borghesi.
 Dei suoi testi per il teatro quello che fa maggior successo è Cavalleria rusticana (1884), storia a forti tinte di un “delitto d’onore”.
 Nel 1893 compie a ritroso il viaggio della sua giovinezza e si trasferisce definitivamente a Catania.
 Tornato in Sicilia, continua a scrivere ma il lavoro che più gli sta a cuore non riesce a prender forma, e col passare degli anni finisce per rinunciare alla letteratura.
-Nel 1922 muore a Catania.Verga, durante il periodo Milanese, venne a contatto con gli studiosi Leopoldo Franchetti e Sidney Sonnino, i quali giornalisti presso una rivista, si erano interessati alla tematica dei “Carusi” in Sicilia e collaborava con essi.
+Nel 1922 muore a Catania. Verga, durante il periodo Milanese, venne a contatto con gli studiosi Leopoldo Franchetti e Sidney Sonnino, i quali giornalisti presso una rivista, si erano interessati alla tematica dei “Carusi” in Sicilia e collaborava con essi.
 Nell’ Inchiesta in Sicilia, scritta proprio da Franchetti e Sonnino, si dedica particolare attenzione al lavoro dei ragazzi, i cosiddetti carusi, impiegati come garzoni nel duro lavoro nelle miniere di zolfo.
 Il lavoro di questi fanciulli consisteva nel trasporto sulla schiena del minerale in sacchi o ceste, dalla galleria dove veniva scavato dal picconiere, fino al luogo dove all’aria aperta si faceva la basterella delle casse dei diversi picconieri.
 prima di riempire il calcarone (fornace).
@@ -2114,7 +2056,7 @@ I ragazzi impiegati all’aria aperta lavoravano per undici-dodici ore.
 Il carico variava secondo l’età e la forza dei ragazzi, ma era sempre molto superiore a quanto potesse portare una creatura di tenera età, senza grave danno alla salute, e senza pericolo di storpiarsi.
 I più piccoli portavano sulle spalle, incredibile a dirsi, un peso dai 25 ai 30 kg.
 Il numero dei viaggi che faceva ogni ragazzo in un giorno variava molto, a seconda delle profondità diverse delle miniere e delle gallerie .
-Il guadagno giornaliero di un ragazzo di otto anni era di £ 0,50,dei più piccoli e deboli era di £ 0,35.
+Il guadagno giornaliero di un ragazzo di otto anni era di £ 0,50, dei più piccoli e deboli era di £ 0,35.
 Questi poveri carusi uscivano dalle bocche delle gallerie dove la temperatura era caldissima, grondando sudore e contratti sotto i gravissimi pesi che portavano, e uscivano all’aria aperta, dove dovevano percorrere un’altra cinquantina di metri, esposti a un vento ghiaccio.
 Altre schiere di fanciulli lavoravano all’aria aperta trasportando il minerale dalla basterella  al calcarone.
 Là dei lavoranti riempivano le ceste e le caricavano sui ragazzi, che correndo le portavano fino alla bocca della fornace, dove un altro operaio li sorvegliava, gridando questo, spingendo quello, dando ogni tanto una sferzata a chi correva meno.”
@@ -2161,7 +2103,7 @@ potranno essere affidati agli organi di polizia giudiziaria per l’impiego dell
 potranno essere affidati all’Agenzia nazionale, agli enti territoriali, di protezione civile o di tutela ambientale.
 potranno essere venduti.
 A Gennaio 2013, tra immobili ed aziende, si stimano circa 11 mila beni sequestrati, di cui il 43% presenti in Sicilia, il 15% in Campania, il 14% in Calabria, solo il 9% in Puglia e il restante 19% suddiviso fra le altre regioni italiane.
-Dunque, c’è una concentrazione al Sud di beni posseduti dalla Mafia.Sin dalla sua istituzione, l’ANSBC ha emesso oltre 600 provvedimenti e numerosi progetti per la destinazione dei beni confiscati.
+Dunque, c’è una concentrazione al Sud di beni posseduti dalla Mafia. Sin dalla sua istituzione, l’ANSBC ha emesso oltre 600 provvedimenti e numerosi progetti per la destinazione dei beni confiscati.
 Occupazioni abusive, confisca di quote indivise, carenze strutturali.
 Per quanto riguarda soprattutto i beni immobili.
 Per le Aziende: La grave situazione finanziaria in cui erano alcune aziende al momento della confisca.
@@ -2176,10 +2118,11 @@ Sono di tipo cartolare (assegni) o non cartolare (bonifici, giroconti e compensa
 Con il diffondersi e il perfezionarsi dell’automazione la moneta bancaria sta diventando moneta elettronica.
 Esistono sportelli automatici(Bancomat) ai quali si rivolge la clientela e terminali installati presso negozi chiamati POS.
 Sono gli strumenti cartolari.
-Possono essere ordinari(bancari,circolari) o speciali.
+Possono essere ordinari(bancari, circolari) o speciali.
 Hanno in comune: pagabili a vista, sono titoli di credito all’ordine(trasferibili per girata) , emessi perché esiste un fondo.
-Vaglia cambiario della Banca d’Italia, del Banco di Napoli e del Banco di Sicilia È un assegno circolare rilasciato solo contro versamento di denaro contante, ha però nome diverso per ragioni di prestigio degli enti emittenti.
-Viene emesso da banche autorizzate dalla Banca d’Italia nelle località in cui non esiste una filiale della Banca d’Italia.È un titolo all’ordine emesso dal Banco di Napoli e dal Banco di Sicilia pagabile a vista presso qualunque loro filiale sul quale può essere indicata la causale del pagamento che può essere sottoposta all’accertamento della condizione che ha causato il pagamento.
+Vaglia cambiario della Banca d’Italia, del Banco di Napoli e del Banco di Sicilia è un assegno circolare rilasciato solo contro versamento di denaro contante, ha però nome diverso per ragioni di prestigio degli enti emittenti.
+Viene emesso da banche autorizzate dalla Banca d’Italia nelle località in cui non esiste una filiale della Banca d’Italia. 
+È un titolo all’ordine emesso dal Banco di Napoli e dal Banco di Sicilia pagabile a vista presso qualunque loro filiale sul quale può essere indicata la causale del pagamento che può essere sottoposta all’accertamento della condizione che ha causato il pagamento.
 La legge 109/96 costituisce lo strumento più avanzato di contrasto  alla criminalità organizzata nel campo culturale, sociale ed economico, prevedendo la  restituzione alla collettività di grandi patrimoni accumulati illecitamente e colpendo le mafie in uno degli ambiti più importanti: la creazione del consenso sociale.
 Se l’azione repressiva della magistratura punta ad indebolire le mafie attraverso la sottrazione delle ricchezze, mettendone in crisi il potere economico, l’azione costruttiva delle istituzioni e delle forze sociali punta ad indebolirne il consenso e dunque il potere politico.
 Il raggiungimento di tale obiettivo è tanto più alla portata quanto maggiore sarà il numero di beni che sono confiscati ed introdotti nel circolo virtuoso dell’uso sociale, ma anche quanto migliore sarà l’uso sociale degli stessi.
@@ -2394,7 +2337,8 @@ La spedizione lungo la strada rientrò quattro giorni dopo.
 era il giorno 11 di Ilraset, e l’atmosfera festiva in cui la città li aveva accolti si stava affievolendo, e pian piano la vita stava tornando alla normalità.
 Dalmor, il Re e il Governatore di Zorqun andarono alle porte della città ad attendere il ritorno della compagnia.
 approfittarono dell’occasione per discutere di una questione spinosa.
-Si trovavano appena fuori dalla Porta del Regno, sull’immenso spiazzale lastricato da cui si dipartivano le strade che uscivano dai Monti.A sera inoltrata si diresse verso l’ala del Palazzo in cui viveva la famiglia dello zio.
+Si trovavano appena fuori dalla Porta del Regno, sull’immenso spiazzale lastricato da cui si dipartivano le strade che uscivano dai Monti. 
+A sera inoltrata si diresse verso l’ala del Palazzo in cui viveva la famiglia dello zio.
 la Luna era salita già oltre le cime dei monti circondanti, l’aria era fresca, e per il palazzo non vi era troppa gente.
 Raggiunse una piccola porta di legno chiaro, spinse la maniglia.
 era chiusa, quindi aprì con la chiave che aveva trovato assieme al biglietto.
@@ -2466,7 +2410,7 @@ La flotta aveva tentato più volte di aprirsi un varco, ma perse in casa propria
 La città non era ancora alla fame, ma lo sarebbe stata appena finita l’estate, quando non sarebbero arrivati rifornimenti da Nord, e sarebbe iniziata l’agonia della popolazione.
 Il Re continuava a fare avanti e indietro davanti le porte della città, senza proferire parola ma continuando a gesticolare, come se stesse tenendo una conversazione con qualcuno.
 Le truppe lo osservavano, ma nessuno osò disturbarlo o distrarlo, almeno finché le porte della città non cedettero sotto i colpi dell’ariete.
-A quel punto, qualcuno doveva comunicargli la notizia che stavano per entrare in città, ma nessuno, né i generali, né i soldati, avevano intenzione di farlo.La terza armata entrò in città e si trovò davanti quel terribile spettacolo ovunque.
+A quel punto, qualcuno doveva comunicargli la notizia che stavano per entrare in città, ma nessuno, né i generali, né i soldati, avevano intenzione di farlo. La terza armata entrò in città e si trovò davanti quel terribile spettacolo ovunque.
 L’unica zona dove non arrivarono fu la cittadella, il quartiere
 centrale della città, costruito sul versante di un colle.
 era un’area molto ampia e cinta da mura.
@@ -2631,7 +2575,7 @@ vi pose affianco la spada reale, il pugnale, la cintola.
 Osservò il complesso, ritenne di non aver dimenticato nulla e si avviò fuori dalla stanza.
 Una rapida occhiata al cielo gli bastò per comprendere che mancavano circa quattro o cinque ore alla notte senza luna.
 L’appuntamento era per il sorgere di essa, ma l’astro non sarebbe sorto quella notte: sposarsi in luna nuova, si diceva, portava male.
-A lui poco importava, e sperò lo stesso per la sua futura consorte.Quasi tutti i cortili esterni erano una rappresentazione dello stato cui appartenevano, le uniche eccezioni erano i Monti ed i Venti, quindi anche il cortile dei Deserti andava a rappresentare in scala ridotta la geografia fisica del regno.
+A lui poco importava, e sperò lo stesso per la sua futura consorte. Quasi tutti i cortili esterni erano una rappresentazione dello stato cui appartenevano, le uniche eccezioni erano i Monti ed i Venti, quindi anche il cortile dei Deserti andava a rappresentare in scala ridotta la geografia fisica del regno.
 caratterizzato da un alto e vastissimo altipiano, il Regno dei deserti era il meno popoloso, ma tra i più attivi nei commerci: Durtar Oslager era il terzo porto dell’esagono per grandezza e secondo in attività commerciale.
 con l’unione tra i due regni, Dalmor andava a tenere sotto controllo più del novantacinque percento dei traffici commerciali tra continente interno e paesi esterni.
 il restante cinque percento era diviso tra Durtar Hirin e Arat Vanur, per cui un tempo passavano oltre i sette decimi di merci del mondo, e i porti minori degli altri stati.
@@ -2734,7 +2678,6 @@ Il loro approccio scientifico si basa sullo studio teorico di un fenomeno al fin
 Le guide sono tematiche suddivise per cartelle.
 A seconda del soggetto possono essere in un unico file diviso per paragrafi oppure piu file sempre dentro la cartella dedicata.
 Se pensi che il tuo messaggio possa in qualche modo offendere qualcuno, probabilmente lo farà.
-Evita.
 La bacheca ti permette di essere aggiornato riguardo i nuovi commenti e il loro stato.
 Inoltre ti informa del numero di articoli e molto altro!Passando con il mouse sul link nella barra laterale Articoli si apre un piccolo menù, clicca su Aggiungi nuovo.
 I Commenti sono uno dei modi per vedere quanto il sito ha successo.
@@ -2747,10 +2690,7 @@ Una associazione, una piccola associazione, con grandi progetti.
 E’ scegliere di avere libertà di modificare il programma per cui hai
 E’ scegliere di mantenere alta la competenza ed il mercato, devo essere sempre più bravo dei miei competitor per avere la tua fiducia.
 Durante il periodo di formazione si verrà affiancati da Mentor che hanno già completato i progetti l’anno precedente.
-Fine ultimo del programma è costruire una community.
-di persone.
-che sanno creare community!
-Semplice no?E tu cosa hai fatto questo Weekend?
+Semplice no? E tu cosa hai fatto questo fine settimana?
 Siamo giunti ad Ancona in tempo per l’attività conclusiva della giornata del 19: La Cena al Buio.
 La libertà non va solo voluta, ma ci si deve impegnare per averla!
 E la libertà ha un costo!
@@ -2813,7 +2753,7 @@ La leggenda narra che Anne a Laurens si guardarono a lungo e nel momento di affr
 Preso alla sprovvista, ammirato da tanta scaltrezza e seriamente preoccupato per la sua vita, Laurens si inginocchiò e chiese ad Anne di sposarlo.
 Vissero felici a lungo, depredando e razziando, tra un colpo di cannone e una bottiglia di rum.
 Spargendo terrore  mano nella mano e scrivendo, a colpi di pistola, la storia della pirateria.
-La morale di questa storia non è che prima o poi arriva il pirata azzurro che vuole ucciderti e poi ti sposa.La morale di questa storia è: quando tutti si aspettano una spada, tu caccia la pistola.
+La morale di questa storia non è che prima o poi arriva il pirata azzurro che vuole ucciderti e poi ti sposa. La morale di questa storia è: quando tutti si aspettano una spada, tu caccia la pistola.
 Tieni bene in testa che non puoi combattere per i tuoi sogni se non hai le armi giuste.
 Le mimose fanno starnutire, la determinazione colpisce al cuore.
 Certe volte il futuro succede all’improvviso.
@@ -2825,8 +2765,8 @@ Non si può più fermare, il futuro comincia a entrare da tutte le parti.
 Apri la porta e spunta uno che progetta e vende macchine elettriche che si guidano da sole, apri la credenza ed esce fuori quello che progetta treni superveloci, da sotto il tappeto spunta quello che sta scavando tunnel sotto Los Angeles perché si annoiava a stare nel traffico, infine ti atterra un booster sul balcone e non ci capisci
 In tv ci sono i pooh che cantano a Sanremo e attorno a me c’è Elon Musk che spunta da tutte le parti.
 Elon Musk è l’uomo del futuro.
-È colui che ha la soluzione a ogni problema.Le emissioni di gas serra stanno distruggendo il pianeta e compromettendo la vita su di esso?
-La soluzione è Tesla Motors, la ditta che produce macchine elettriche super tecnologiche che si guidano da sole, non emettono CO2 e hanno prezzi abbordabili.Il traffico a Los Angeles fa impazzire tutti?
+È colui che ha la soluzione a ogni problema. Le emissioni di gas serra stanno distruggendo il pianeta e compromettendo la vita su di esso?
+La soluzione è Tesla Motors, la ditta che produce macchine elettriche super tecnologiche che si guidano da sole, non emettono CO2 e hanno prezzi abbordabili. Il traffico a Los Angeles fa impazzire tutti?
 La soluzione è The Boring Company, la compagnia che scava tunnel sotterranei nei quali scorrono dei carrelli che permettono alla tua automobile di viaggiare velocissima ed evitare spiacevoli code.
 L’esplorazione spaziale è in stallo per via degli elevati costi di produzione dei razzi?
 La soluzione è SpaceX, la compagnia che produce “razzi riciclabili”, i cui booster sono in grado di tornare indietro e atterrare senza nemmeno un graffio, così da poter essere riutilizzati.
@@ -2839,12 +2779,12 @@ il treno delle 14:06 partito dalla stazione centrale di Benevento è arrivato al
 Io ero lì, io l’ho vissuto quel momento, quella sensazione di normalità, di sollievo per qualcosa che finalmente funziona, quella sensazione di futuro che può arrivare.
 Sensazione che non rivivrò mai più, perché certe volte il futuro succede solo se sei lontano da qui.
 È necessario.
-Non saprei trovare altre parole per spiegare perché sono piena di lividi, o perché torno a casa ricoperta di rossetto, o perché bastano poche ore di lavoro per sfinirmi.È necessario smuoversi, agitarsi, andare a pescare le emozioni più dense che erano sedimentate sul fondo.
+Non saprei trovare altre parole per spiegare perché sono piena di lividi, o perché torno a casa ricoperta di rossetto, o perché bastano poche ore di lavoro per sfinirmi. È necessario smuoversi, agitarsi, andare a pescare le emozioni più dense che erano sedimentate sul fondo.
 Ritornare nel punto in cui ti faceva più male e capire le ragioni di quel dolore.
 Tornare lì nel punto in cui faceva più bene e capire le ragioni di quel piacere.
 Stare nel mezzo tra dolore e piacere e non sapere assolutamente dove andare.
 Ricercare sempre, ricercare tutto, non assecondare mai quel morire naturale, mantenersi vivi.
-Fare teatro, è necessario.Affermare di fare teatro è insieme una trappola ed una scappatoia.
+Fare teatro, è necessario. Affermare di fare teatro è insieme una trappola ed una scappatoia.
 Il teatro è per natura, architettonica e ideologica, contenitore di tante cose e con l’affermazione “Io faccio teatro!” si sfugge facilmente alla necessità di dichiarare con onestà cosa diavolo si fa in teatro.
 Un po’ di esperienza l’ho maturata nel tempo, e proprio questa esperienza mi ha consentito di elaborare una mia personalissima definizione del “fare teatro” che comprende tante sensazioni, pensieri ed emozioni che è difficile tradurre in parole.
 Fare teatro è per me:Muoversi su un pavimento impolverato.
@@ -2860,7 +2800,6 @@ Sbattere contro le emozioni fa male.
 Abbattere ogni tipo di barriera relativa al contatto fisico.
 Resistere è inutile.
 Quando faccio teatro non riesco a camminare per colpa dell’acido lattico nei muscoli, non riesco a pensare per colpa dell’affollamento di pensieri nella testa, ma riesco a vedere benissimo dove andare.
-Questo
 Lo fa a tutti, lo fa sempre.
 Non sai dove andare?
 Prova a fare teatro troverai la tua strada!
@@ -2897,13 +2836,10 @@ ma non solo, bisogna anche sperare che qualche spettacolo venga replicato nella 
 sperare che possa accadere in città è da folli.
 Qualcuno lassù mi ama e ha ascoltato le mie preghiere.
 Lo spettacolo Frankenstein o’ Mostro è stato replicato a Morcone.
-E così.
-gambe in spalla si
 Ma stasera c’è il concerto di Savastano.
 Benissimo allora si va quasi tutti a vedere lo spettacolo!
 Ma io veramente preferisco vedere Savastano.
-E va bene si va in tre.
-a vedere lo spettacolo!
+E va bene si va in tre a vedere lo spettacolo!
 Non c’è speranza.
 Non c’è curiosità.
 C’è solo che a Morcone hanno una specie di mini rassegna teatrale estiva.
@@ -2926,7 +2862,7 @@ Non ci possono essere mezze misure : o sarà un successo totale o sarà una umil
 E lavorare per raggiungere il successo è la cosa più divertente del mondo.
 Mettere in piedi lo spettacolo “ Che Barba Lunga Che Hai!” è stato davvero divertente.
 In una settimana (scarsa) di prove abbiamo deciso di giocare e sperimentare, di solito siamo bravissimi a complicarci la vita e ad andare in ansia per i dettagli più insignificanti, ma questa volta andavamo incontro ad una situazione totalmente nuova per noi: uno spettacolo itinerante, all’aperto, sulle origini mitiche dei longobardi.
-Una robetta ,insomma.
+Una robetta, insomma.
 Non si poteva andare nel panico.
 È divertente tornare ad essere longobardi per una manciata di giorni,  guardarsi intorno e vedere spade, cavalli, tuniche e mantelli è emozionante , un bel colpo d’occhio.
 Considerato che il tutto avviene in una città che si prende talmente sul serio da eleggere Mastella sindaco, capite bene che una rievocazione medievale è un grande passo avanti.
@@ -2950,7 +2886,7 @@ Non sfugge nulla, né al pubblico né agli attori/atleti/performers.
 Condivido con pochi il brivido che corre sottopelle in quel momento e so esattamente da dove si origina: dalla voglia di essere stupita.
 Non è l’aspettarsi che succeda qualcosa,  lo sappiamo che la luce si accenderà, che uno strumento suonerà , che qualcuno vincerà.
 È qualcosa più simile all’affidarsi.
-mi fido che mi stupirai  e non vedo l’ora ed ho la pelle d’oca.
+Mi fido che mi stupirai, non vedo l’ora ed ho la pelle d’oca.
 Questo è il momento.
 Ora voglio stupirmi.
 Certo, potrei stupire voi, sarebbe più giusto, ma non vi conosco ancora.
@@ -2960,15 +2896,14 @@ perfetto me lo segno.
 Anche le tesine sono sotto licenza se non specificato diversamente.
 Puoi prendere anche le frasi dal mio blog.
 Gli articoli sul mio blog possono andare bene?
-no.
 La mia tesina delle superiori è online.
 Ciao omonimo!
 Grazie e buon lavoro.
-dammi 30 minuti e ti dico.
-devo avere una conferma da qualche parte prima di caricarlo.
-sarebbe da capire la licenza.
-Si lo ho visto dopo.
-si ma il problema non è quello.
+Dammi 30 minuti e ti dico.
+Devo avere una conferma da qualche parte prima di caricarlo.
+Sarebbe da capire la licenza.
+Sì l'ho visto dopo.
+Ma il problema non è quello.
 A bocce ferme si saprà chi ha vinto.
 A buon cavalier non manca lancia.
 A buon consiglio non si trova prezzo.
@@ -3527,7 +3462,6 @@ Ho pensato quindi di utilizzare questo evento per iniziare il mio racconto.
 È un po’ come quando studiai Anacreonte e la professoressa mi raccontò del suo giovane amico.
 Il giovinetto Smerdi.
 Dopo aver udito quel nome, dimenticai tutte le opere di Anacreonte focalizzando tutta la mia attenzione sul quel giovinetto.
-Smerdi.
 Space Cowboy era solo.
 I suoi compagni erano intrappolati nel caos cittadino e non avrebbero potuto aiutarlo.
 Dava uno sguardo ai binari del treno, a una Roma che lo affascinava, e subito si metteva davanti al computer.
@@ -3543,7 +3477,6 @@ Ma cosa stava facendo Space Cowboy?
 Chi stava spiando?
 Forse aveva intercettato qualcuno della Toga Nigra?
 Bene così… fermati.
-Ok!
 Checkpoint 3 fatto.
 Il puntino verde si avvicinava sempre di più alla casa di Space Cowboy, al Quadraro (una delle mie zone preferite di Roma).
 Passati altri checkpoint si avvicinava.
@@ -3563,7 +3496,7 @@ Possibile che il giorno prima Space Cowboy avesse lasciato tracce?
 Erano veramente gli sbirri?
 Sarebbe stato poi contattato da un tizio tipo Morpheus?
 Orecchio poggiato sulla porta, un mozzicone sulle labbra e un mezzo sorriso, mentre i passi si facevano sempre più vicini.
-<<Ciao, amore!>>.
+Ciao, amore!
 Odore di caffè e cornetti industriali scaldati al forno era quello che si sentiva nella cucina in perfetto ordine dello Space Cowboy in versione cittadino normale e anonimo.
 Era sulla buona strada quando fuori dal call center vide Cinnamon Girl abbastanza incazzata.
 Pareva avesse un aspetto robotico.
@@ -3638,7 +3571,6 @@ Risalivamo sempre, seguendo diagonalmente la splendida superficie che scintillav
 I borgognoni si abbassavano al disotto e al di sopra come lunghe gradinate e si assottigliavano.
 Finalmente, alle sei del mattino, di quel memorabile 19 marzo, si aprì la porta della sala e apparve il capitano Nemo.
 Il mare libero!
-mi disse
 Si può dunque aprire una botola e attraverso questa si possono immergere alla profondità che si vuole i nostri preziosi strumenti.
 La nostra gru idrografica sarà messa in questa camera e qui potremo lavorare col sommergibile fermo, sia in superficie sia sotto i ghiacci.
 Ma oltre che alle condizioni fisiche del mare volgeremo la nostra attenzione alle condizioni della vita marina.
@@ -3651,14 +3583,12 @@ Anche lo studio dei depositi sul fondo dell’Oceano Artico dovrebbe darci infor
 Finalmente, potremo dare un resoconto sintetico del carattere dei ghiacci artici durante l’estate.
 Otterremo delle vedute del ghiaccio lungo un tratto di 2200 miglia e, per mezzo della speciale asta di guida a puleggia, costruita per tener contatto con il ghiaccio, avremo modo di registrare lo spessore e le irregolarità di questo, lungo tutto quel percorso.
 Che caro uomo, quel prof.
-Sverdrup!
 E quanta fede in lui!
 Il Nautilus riapparve a fior d’acqua, fece qualche rapido giro su se stesso, poi tornò ad immergersi.
 Questa volta l’attesa fu lunga.
 Tra gli spettatori cominciarono i mormorii.
 È colato a picco.
 Povero americano!
-Peccato!
 Il tentativo era così bello .
 Mezz’ora dopo, la torretta del Nautilus scaturì
 dalle onde, a grande distanza dai moli: subito l’albero coricato su la coperta si rialzò, venne spiegata 1a piccola vela e poichè spirava vento favorevole, in breve tempo il curioso battello, navigando alla superficie, ritornò presso lo scalo.
@@ -3677,7 +3607,6 @@ sapete il grande Napoleone, l’Imperatore che ora gl’inglesi tengono a Sant�
 Mi vennero concessi allora diecimila franchi;
 ed una commissione di esperti, ricordo bene i loro nomi: La Place, Mouge e Volney, fu nominata per studiare il mio progetto, esaminare il battello che avrei costruito, assistere agli esperimenti.
 Ed io lo costruii, il mio bel sottomarino – il Nautilus – e l’anno dopo, nel 1801, dal maggio al luglio mi immersi prima nella Senna, poi in mare, a Brest, scendendo a ben 23 piedi di profondità e restando diverso tempo sott’acqua… .
-Ah!
 Dick, amico mio, con quale e quanta gioia, dopo aver sofferto mille tormenti risalii alla superficie, vincitore della più ardua prova che potesse proporsi un uomo!
 Ero raggiante e ne avevo ben ragione!
 Voi mi capite
@@ -3750,7 +3679,6 @@ Ora il poveromo, tutto curvo, col capo proteso, tenendo in una mano uno scalpell
 Egli aveva tolto al masso i vegetali che lo rivestivano, e aveva fatto saltar via in molti punti l’intonaco di conchiglie, di detriti foraminiferi, di sedimenti calcarei;
 ma non aveva scoperto nulla.
 La sua zucca lucida s’imperlava di gocce di sudore, su le quali il sole metteva piccoli riflessi iridati.
-Nulla!
 brontolava lo scienziato, cominciando a stizzirsi.
 E pure giurerei che questo non è un semplice frammento di roccia!
 Sarei dunque un imbecille?
@@ -3774,15 +3702,14 @@ Io vedrò approdare ai lidi dell’Atlantide le barche dei vincitori degli Ateni
 Io vedrò gli sponsali di uno di quegli imperatori con la figliuola di un semidio.
 Io assisterò ai loro giuochi, alle loro feste, alle loro glorie.
 Per ultimo, ammirerò, compreso di spavento sublime, la gran scena della distruzione, il cui orrore fu soltanto superato dal primo cataclisma del diluvio universale: vedrò inabissarsi un intero continente nei flutti impetuosi dell’Atlantico… .
-Oh!
-quei templi… .
-quei palazzi… .
-quelle torri altissime… .
-quelle piramidi coperte di oricalchi dai riflessi di fiamma… .
-quelle meravigliose scalinate che accedevano alle dimore dei re… .
-tutto vedrò crollare… .
+quei templi…
+quei palazzi…
+quelle torri altissime…
+quelle piramidi coperte di oricalchi dai riflessi di fiamma…
+quelle meravigliose scalinate che accedevano alle dimore dei re…
+tutto vedrò crollare…
 ruinare tra le ondate immense, livide di schiuma!
-… E l’agonia della terra sarà l’agonia di un gran popolo, condannato dalla inesorabile fatalità a perire in una notte!
+E l’agonia della terra sarà l’agonia di un gran popolo, condannato dalla inesorabile fatalità a perire in una notte!
 Amici, l’Atlantide muore!
 Del resto egli era arrischiato, si gettava a fronte alta nelle pazze imprese, e, pronto a fiaccarsi le reni ad ogni momento, finiva, invariabilmente, col ricadere diritto come quei piccoli fantocci fatti di midolla di sambuco con cui giuocano i fanciulli.
 Sua impresa era ad ogni costo e sua passione dominante l’amore dell’impossibile.
@@ -3859,7 +3786,6 @@ Che cosa c’è oltre questa seconda atmosfera?
 L’elio?
 L’etere?
 Il vuoto assoluto?
-Il nulla?
 La scienza, a questo proposito avrebbe da dire molte cose, ma tutte difficili e oscure: meglio contentarsi dell’ipotesi più semplice: che oltre i limiti dell’atmosfera si stenda il vuoto interplanetario, lo spazio agghiacciato nel quale ruotano i mondi e i soli, le stelle e le nebulose tutto il meraviglioso fuoco d’artificio dell’universo.
 Abbaiare alla luna.
 Abbassare le ali.
@@ -4022,7 +3948,6 @@ Battere il tacco.
 Battersela.
 Benedire con la granata.
 Bere d'ogni acqua.
-Bersela.
 Bollare a fuoco.
 Bollire in pentola.
 Brancolare nel buio.
@@ -4069,7 +3994,6 @@ Cascare dal pero.
 Cavalcare la tigre.
 Cavar le castagne dal fuoco.
 Cavar sangue dalle rape.
-Cavarsela.
 Cavarsela per il rotto della cuffia.
 Cercare col lanternino.
 Cercare di raddrizzare le gambe ai cani.
@@ -4278,7 +4202,6 @@ Esaminiamo una serie di dialoghi particolarmente riusciti per capire perché son
 Ma non fermiamoci qui.
 Il nostro intento, infatti, è quello di affrontare la questione-dialogo da un punto di vista inconsueto
 oltre a prendere in considerazione quello che i personaggi si dicono, ci soffermeremo sul non detto, ovvero su ciò che, pur restando fuori dallo scambio esplicito di battute, rappresenta una delle cifre di un buon dialogo scritto nella forma di sottotesto.
-Iniziamo!
 Anzi, a dirla tutta, perché un dialogo scritto funzioni e risulti verosimile, bisogna che sia studiato e costruito nei minimi dettagli.
 In sostanza, il dialogo appare come una strana creatura letteraria: il luogo narrativo del paradosso, dove la spontaneità risulta per effetto del suo contrario.
 Di sicuro, lo scambio di battute fra personaggi ha un ruolo informativo ma attenzione, queste informazioni dovranno essere funzionali non solo al tipo di personaggio che ne sarà portavoce ma anche e soprattutto allo sviluppo della vicenda narrata.
@@ -4355,6 +4278,7 @@ Ecco la causa del nostro passeggero malessere.
 Sento con molto pungente rammarico l’essere stato privato della partecipazione allo sviluppo della personalità e della vita dei due bambini;
 eppure io diventavo subito amico dei bambini e riuscivo a interessarli.
 Il padre non la volle ascoltare, prese il mortaio, lo portò al re e disse che l'aveva trovato nella landa, e che glielo offriva come atto di omaggio.
+Iniziamo!
 Il re prese il mortaio e domandò se non avesse trovato altro.
 Il litigio fu portato dinanzi al re che sentenziò che il polledrino doveva rimanere là dove era stato trovato;
 e così se lo portò via il padrone dei buoi, al quale invece non apparteneva.
@@ -4365,7 +4289,6 @@ allora le tre donne le offrirono il loro aiuto e le dissero.
 Se tu ci inviterai alle tue nozze, non avrai vergogna di noi e ci chiamerai tue zie, facendoci sedere alla tua mensa, noi ti fileremo il lino e in brevissimo tempo.
 a presenza di sposi novelli commuove particolarmente, perché la famiglia è una grande cosa.
 Io una volta ho scritto un articolo sul giornale e mi sono permesso di scherzare, citando Montaigne, uno scrittore francese, il quale diceva:  Il matrimonio è come una gabbia: quelli che son fuori, fanno di tutto per entrare, quelli che son dentro fan di tutto per uscire .
-No no no.
 Però, però alcuni giorni dopo mi è capitata una lettera di un vecchio Provveditore agli studi, che aveva scritto libri e mi ha rimproverato dicendo:  Eccellenza, ha fatto male a citare Montaigne, io e mia moglie ci siamo uniti da 60 anni ed ogni giorno è come il primo giorno .
 Anzi, mi ha citato un altro poeta francese, in francese, ma io lo dico in italiano: ti amo ogni giorno di più: oggi molto più di ieri, ma molto meno di domani.
 E faccio l'augurio che, a voi, succeda la stessa cosa.
@@ -4390,9 +4313,7 @@ ed i laici cattolici mai abbastanza si batteranno per risolvere questi problemi.
 Qualcuno dirà: ma se io sono povero peccatore?
 Gli rispondo come risposi a una signora sconosciuta, che s'era confessata da me molti anni fa.
 Essa era scoraggiata, perché aveva avuta una vita moralmente burrascosa.
-Posso chiederle
-dissi
-quanti anni ha?
+Posso chiederle quanti anni ha?
 Trentacinque!
 Ma lei può viverne altri quaranta o cinquanta e fare ancora un mucchio di bene.
 Allora, pentita com'è, invece che pensare al passato, si proietti verso l'avvenire e rinnovi, con l'aiuto di Dio, la sua vita.
@@ -4527,14 +4448,12 @@ La giovane sposa di Saad è avvilita, e così pure i suoi fratelli, vari dei qua
 Al tempo stesso, molta dignità.
 Una bella solidarietà familiare ne è la prova.
 Quanta sofferenza negli iracheni semplici!
-Parentesi.
 Un'altra, sì.
 Quello che mi tocca fare tutto il giorno, non lo dico;
 le bestialità che mi tocca dare da mangiare, tutto il giorno, a questo ragno nero sul treppiedi, che non si sazia mai, non le dico;
 bestialità incarnata da questi attori, da queste attrici, da tanta gente che per bisogno si presta a dare in pasto a questa macchinetta il proprio pudore, la propria dignità;
 non le dico;
 ma bisogna pure ch'io mi prenda un po' di respiro di tanto in tanto, assolutamente, una boccata d'aria per il mio superfluo;
-o muojo.
 Mi interesso alla storia di questa donna, dico della Nestoroff, riempio di lei molte di queste mie notti;
 ma non voglio infine lasciarmi prendere la mano da questa storia;
 voglio che lei, questa donna, mi resti davanti la macchinetta, o, meglio, ch'io resti davanti a lei quello che per lei sono, operatore, e basta.
@@ -4551,7 +4470,6 @@ Ecco: bisogna questa sera richiamare la memoria di tutte le buone cose antiche a
 Confesso che vedo male qua dentro, in questo momento, il mio amico.
 Sì, te, Serafino.
 Il mio amico, signori - ve lo presento: Serafino Gubbio - è operatore: gira, disgraziato, la macchinetta d'un cinematografo.
-Lo so!
 m'interruppe.
 Tu non sei nella tua professione, ma ciò non vuol dire, caro mio, che la tua professione non sia in te!
 Leva dal capo a questi miei signori colleghi ch'io non sia professore.
@@ -4559,7 +4477,6 @@ Sono il professore, per loro: un po' strambo, ma professore!
 Noi possiamo benissimo non ritrovarci in quello che facciamo;
 ma quello che facciamo, caro mio, è, resta fatto: fatto che ti circoscrive, ti dà comunque una forma e t'imprigiona in essa.
 Vuoi ribellarti?
-Non puoi.
 Prima di tutto, non siamo liberi di fare quello che vorremmo: il tempo, il costume degli altri, la fortuna, le condizioni dell'esistenza, tant'altre ragioni fuori e dentro di noi, ci costringono spesso a fare quello che non vorremmo;
 e poi lo spirito non è senza carne;
 e la carne, hai un bel sorvegliarla, vuole la sua parte.
@@ -4594,11 +4511,9 @@ Doveva forse sostenere anche lui che Cristo era bruttissimo.
 E brutto davvero e sdegnato l'aveva veduto là, in America, se con la moglie lì lì per partorire, appena ricevuto il soccorso dal nonno, se n'era venuto via.
 Ma perché proprio in viaggio dovevo esser nato io?
 Non sarebbe stato meglio nascere addirittura in America, nell'Argentina, pochi mesi prima del ritorno in patria de' miei genitori?
-Ma si!
 Anzi il nonno s'era intenerito per il nipotino innocente;
 per me, unicamente per me aveva perdonato il figliuolo.
 Così io, piccino piccino, avevo traversato l'Oceano, e forse in terza classe, e durante il viaggio avevo preso una bronchite e per miracolo non ero morto.
-Benone!
 Me lo diceva sempre il nonno.
 Io però non dovevo rimpiangere come comunemente si suol fare, di non esser morto, allora di pochi mesi.
 No: perché, in fondo, che dolori avevo sofferto io, in vita mia?
@@ -4610,7 +4525,6 @@ solo con queste scarse notizie di loro.
 Ma c'era di più!
 Non sapevo neppure con precisione il mio luogo di nascita.
 Nell'Argentina, va bene!
-Ma dove?
 Il nonno lo ignorava, perché mio padre non gliel'aveva mai detto o perché se n'era dimenticato, e io non potevo certamente ricordarmelo.
 Riassumendo:Non volli immaginarmi una nuova mamma.
 Mi sarebbe parso di profanar la memoria viva e dolorosa della mia mamma vera.
@@ -4619,7 +4533,6 @@ Oh, di quanti nonnini veri, di quanti vecchietti inseguiti e studiati un po' a T
 Toglievo a uno qua la tabacchiera d'osso e il pezzolone a dadi rossi e neri, a un altro là il bastoncino, a un terzo gli occhiali e la barba a collana, a un quarto il modo di camminare e di soffiarsi il naso, a un quinto il modo di parlare e di ridere;
 e ne venne fuori un vecchietto fino un po' bizzoso, amante delle arti, un nonnino spregiudicato, che non mi volle far seguire un corso regolare di studii, preferendo d'istruirmi lui, con la viva conversazione e conducendomi con sé, di città in città, per musei e gallerie.
 Mi calcai il cappellaccio su gli occhi e, sotto la pioggerella fina fina che già il cielo cominciava a mandare, m'allontanai, considerando però, per la prima volta, che era bella, sì, senza dubbio, quella mia libertà così sconfinata, ma anche un tantino tiranna, ecco, se non mi consentiva neppure di comperarmi un cagnolino.
-Un pugno!
 La signorina Caporale aveva ricevuto un pugno su la bocca, formidabile.
 le sanguinavano le gengive.
 Pepita e la signora Candida scattarono in piedi, spaventate.
@@ -4631,7 +4544,6 @@ Sì: qualche stranezza, più d'una, l'avevo commessa in quegli ultimi giorni: qu
 Oh che forse quei denari non erano miei?
 dovevo forse restituirli a qualcuno?
 m'ero indebitamente appropriato d'una parte di essi e avevo tentato di farmi credere vittima d'un furto, poi m'ero pentito, e, in fine, ucciso?
-Chi sa!
 Certo ero stato un uomo misteriosissimo: non un amico, non una lettera, mai, da nessuna parte.
 Non sapendo che fare, sperando di distrarmi un po' da tante costernazioni, portai questi due morti a spasso per Pisa.
 Oh, fu una piacevolissima passeggiata!
@@ -4712,7 +4624,7 @@ Ma questa qui, in abito da sera, coi capelli biondi, gli occhi turchini, l’ova
 No, gli zigomi sporgevano un poco e quello strano taglio d’occhi.
 “Bene!
 Ammettiamo che siate italiana.
-Ma di dove?.
+Ma di dove?
 La ragazza si alzò.
 Poi ricadde.
 Naturalmente: il cloroformio lo aveva aspirato davvero.
@@ -4722,26 +4634,22 @@ Ma le era stato poi davvero applicato contro le narici?
 Il naso sottile vibrava e lei contraeva le labbra e guardava con gli occhi socchiusi, in modo strano, intenso, grazioso e un poco ironico il commissario, che le si teneva ritto davanti.
 “Sono nata a Ferrara.
 Come mai vi trovate a Milano?
-Viaggio.
 Per diporto?
-Come?
-Dico per quale ragione siete venuta a finire allo Specchio d’Oro?.
-Sapete in quale albergo vi trovate?.
-Sapete.
+Dico per quale ragione siete venuta a finire allo Specchio d’Oro?
+Sapete in quale albergo vi trovate?
 Ma s’interruppe.
 Dal terzo piano scendeva il dottore.
 Era lungo e allampanato.
 Masticava con rabbia un pezzo di “toscano,” facendoselo passeggiare per la bocca.
 Si fermò davanti a De Vincenzi.
-“Salute, dottore!.
-Eravate di servizio voi, stanotte, alla Guardia Medica?.
-Proprio io!.
+Salute, dottore!
+Eravate di servizio voi, stanotte, alla Guardia Medica?
+Proprio io!
 Mi poteva capitar di meglio.
 Non ho mai veduto un uomo sventrato a quel modo.
-E perché, poi?.
+E perché, poi?
 Lo avevano già ammazzato con una rivoltellata.
 e non c’era nessun bisogno di macellarlo.
-Che dite?
 Dico che quello lassú è morto per un colpo di rivoltella alla nuca.
 un colpo dato con mano sicura, sparato quasi a bruciapelo.
 E, se le interessa, le dirò che chi l’ha ammazzato s’è preoccupato di non far rumore, perché aveva avvoltolato un fazzoletto o qualcosa di simile attorno alla canna della rivoltella.
@@ -4765,7 +4673,7 @@ Gli altri agenti eran scesi di qualche gradino e guardavano, trasecolati.
 Dall’alto veniva sempre il pianto di Rosetta.
 Fatela tacere, per Dio.
 Cruni si lanciò su per le scale, sbuffando un poco, cosí massiccio e corto di gambe com’era.
-E voialtri, via!.
+E voialtri, via!
 Fermatevi ai piani superiori.
 A malincuore, gli agenti risalirono nel buio.
 Va’ su, Sani, e comincia a far vestire e a raccogliere nei corridoi tutti coloro che trovi nelle camere.
@@ -4782,18 +4690,17 @@ Portava il berretto grigio calcato fino alle orecchie e la pellegrina nera.
 La pellegrina?
 Sí, come la chiama, lei?
 Quella specie di pastrano con una mantellina sopra.
-il pipistrello, via!.
+Il pipistrello, via!
 Tutte le sere l’ho visto uscire vestito allo stesso modo.
 E rientrava sempre alla mezzanotte?
 All’incirca.
 Ma molto spesso, i giorni scorsi, è uscito di nuovo, per tornare alle quattro o alle cinque del mattino.
-Sempre col pipistrello?.
+Sempre col pipistrello?
 Quando usciva la seconda volta, aveva un pastrano turchino e il cappello floscio, di quelli di velluto, sa?
 che da noi si usano poco.
 E dopo telefonato al commissariato?
 Mi sono messo in portineria ad aspettare che arrivassero il commissario e le guardie.
 Avete veduto uscire qualcuno?
-Nessuno.
 Ed entrare?
 È entrata Rosetta col suo uomo.
 Sputò e si passò un dito sulle labbra, arricciando il naso con una smorfia di schifo.
@@ -4817,8 +4724,8 @@ I macellai sono per natura sanguinari.
 De Vincenzi non rise e non sorrise.
 Assentí col capo gravemente.
 Trent’anni.
-Perché mi sono messo ad arrampicarmi?.
-Per salire!.
+Perché mi sono messo ad arrampicarmi?
+Per salire!
 Che cosa volevate che facessi?
 Nato a Flessinga, sono stato condotto in Inghilterra.
 Ho vissuto nelle fiere, in un carrozzone da saltimbanchi.
@@ -4831,17 +4738,13 @@ Di nuovo aprí un poco le labbra per ghignare – un’abitudine!
 cosí faceva sempre davanti al pubblico – ma si fermò.
 Rimasto solo, ho continuato.
 E ho corso il mondo.
-Che cosa volete che vi racconti ancora?.
-Niente.
+Che cosa volete che vi racconti ancora?
 Quando vi siete incontrato con Virginia Olcombi.
-che non si chiama Olcombi e forse neppure Virginia?.
-Mai!
-Mentiva.
+che non si chiama Olcombi e forse neppure Virginia?
 Anche prima aveva mentito.
 Forse, neppure una delle parole che aveva dette rispondeva a verità.
 De Vincenzi sorrise.
 Se vi chiedessi di giurarmelo, mister Vehrehan?
-Sapete?
 Come si fa nei tribunali.
 davanti al Cristo.
 Ma io sono pronto a giurarvi tutto quello che volete e che può passarmi per la testa.
@@ -4860,8 +4763,7 @@ Ed è per questo, vedete, commissario, che mi sarebbe stato assolutamente imposs
 fisicamente impossibile di aprire il ventre a quel vostro.
 tedesco, lassú all’ultimo piano.
 Chi vi ha detto che era.
-tedesco?
-Non lo era?.
+Non lo era?
 Già!
 Forse, non lo era.
 Tutto il bagaglio di John Vehrehan consisteva, come lui stesso aveva detto, in due valige, se valige si potevano chiamare quelle due specie di cassette rettangolari, nere e rigide, di cuoio duro.
@@ -4909,7 +4811,7 @@ L’agente aveva la voce rotta e parlava rapido.
 Va’ avanti.
 Le telefono da un caffè di Piazza Corvetto.
 Dove sta Piazza Corvetto?
-All’inferno, cavaliere!.
+All’inferno, cavaliere!
 Mi perdoni.
 Sta a Taliedo;
 ma mi lasci dire.
@@ -4919,13 +4821,12 @@ Ha fatto lentamente il corridoio e s’è fermato alla porta dell’ascensore.
 Io mi sono precipitato per le scale e l’ho ripreso nella hall.
 che stava già sulla porta dell’albergo.
 Tutti quei particolari, dati con voce sempre piú affannata, facevano trepidare De Vincenzi, che temeva essi fossero forniti per ritardare il piú possibile qualche annunzio spiacevole.
-“Va’ avanti!.
+“Va’ avanti!
 È salito su un taxi e ha mormorato qualche parola al conducente.
 Il taxi è partito di carriera.
-E tu?.
 Forse, essi hanno pensato che il loro pedinamento mi desse noia.
 Forse, voi avete creduto che io volessi fuggire.
-Nulla di meno esatto, invece!.
+Nulla di meno esatto, invece!
 Io avevo bisogno di una boccata d’aria libera e mi sono recato laggiú a passeggiare.
 E adesso mi trovo di nuovo qui, nella mia camera, ai vostri ordini.
 Mister Vehrehan, nessuno ha pensato quel che voi dite.
@@ -4933,20 +4834,16 @@ e voi siete libero di recarvi dove vi aggrada.
 Sono lieto di sentirvelo dire, commissario.
 Ma per ora non ho alcun bisogno di libertà.
 Rimarrò tutto il giorno in albergo.
-E stasera?
-Non so.
 Non faccio mai programmi troppo lunghi.
 Ma se dovessi uscire.
 vi avvertirò.
-Ci conto.
 E riappese il ricevitore.
 Si era difeso meglio che aveva potuto.
 L’avversario era di tempra.
 Che dice?
-Nulla.
 Ha ragione lui, per ora.
 La prima mano, nella partita, è stata sua.
-Vedremo le altre..
+Vedremo le altre.
 Andiamo dal Questore.
 Quando si trovò davanti al suo Capo, De Vincenzi vide subito che vento tirava.
 Il Questore aveva il volto chiuso, lo sguardo diritto e penetrante.
@@ -5011,10 +4908,8 @@ Consegnala al portiere, la prenderò piú tardi.
 Cruni lasciò la valigia, poi tornò verso di lui.
 Il Questore mi ha dato questa per voi, dottore,” e gli porse una busta chiusa.
 De Vincenzi, senza aprirla, se la mise nella tasca interna della giacca.
-Allora.
 partite, dottore?
 Il commissario lo guardò.
-Sembra!
 E il viaggio sarà lungo!
 Come lo sai?
 Perché non mi portate con voi?
@@ -5048,7 +4943,7 @@ Era ancora possibile che essi – in ogni caso però con l’aiuto di complici c
 Tutto questo si trovava nel campo delle ipotesi possibili e persino probabili, ma non era sufficiente a spiegare i movimenti dell’uomo ragno e quelli della ragazza, dal momento della scopetta del cadavere in poi.
 Che cosa c’entrava il candeliere ebraico?
 Come potevano spiegarsi le sette tracce di cera, trovate tanto nella camera di John Vehrehan quanto in quella dello scannato?
-E il foglietto scritto da May Bigland, in cui si parlava di candelabro e di Tabernacolo e del furto commesso dai Romani?.
+E il foglietto scritto da May Bigland, in cui si parlava di candelabro e di Tabernacolo e del furto commesso dai Romani?
 Il candeliere era stato portato allo Specchio d’Oro.
 Forse, da Osman Mascali;
 forse, da altri.
@@ -5066,7 +4961,6 @@ Naturalmente, non trovava, non poteva trovare una spiegazione logica.
 Meglio era affidarsi al caso e seguire dappresso lo svolgimento ulteriore della vicenda, attendendo il momento in cui dai fatti stessi sarebbe scaturita la luce.
 La donna fingeva sempre di leggere;
 ma ormai la sua agitazione si era fatta piú percettibile per le contrazioni del volto, pei movimenti improvvisi e infrenabili del corpo e delle mani.
-Credete?
 fece soavemente De Vincenzi.
 È un invito o una preghiera, la vostra?
 Vogliamo sbarazzare il terreno, prima di cominciare?
@@ -5074,17 +4968,17 @@ Guadagneremmo tempo.
 De Vincenzi consultò l’orologio.
 Una ventina di minuti basteranno.
 Avremo finito prima di Venezia.
-Ma che cosa intendete per sbarazzare il terreno?.
+Ma che cosa intendete per sbarazzare il terreno?
 Ieri sera.
 press’a poco a quest’ora.
 un individuo qualsiasi.
 Se lo chiamassimo col suo nome, dal momento che vogliamo precisare?
-A vostro piacere!.
+A vostro piacere!
 Osman Mascali, dunque.
 Noto che conoscete il nome autentico di.
 quell’individuo.
 Conosco molte altre cose e voi lo sapete.
-Non è per giocare a nasconderci che stiamo parlando!.
+Non è per giocare a nasconderci che stiamo parlando!
 Dunque, Osman Mascali ieri sera credette conveniente farsi uccidere in una camera dello Specchio d’Oro.
 In quell’albergo c’ero io e c’era miss Bigland.
 Intendo dire, per esser preciso come ricostruzione, Virginia Olcombi.
@@ -5093,15 +4987,13 @@ Ma certo,” si affrettò ad acconsentire De Vincenzi.
 Né voi né miss Bigland potete avere aperto il ventre di quell’uomo.
 Non avreste mai commesso un atto tanto selvaggiamente inutile, voi due.
 Il volto di Vehrehan si contrasse e le mani di May strinsero convulsamente la stoffa dell’abito sulle ginocchia.
-Volete insinuare?.
+Volete insinuare?
 Neppure che potreste esser stato voi ad uccidere Osman Mascali con un colpo di rivoltella alla nuca.
-E.
-lo sventramento?
+E lo sventramento?
 chiese con sarcasmo l’altro.
-Quello no!.
+Quello no!
 Qualche altro se mai, dopo di voi, ha voluto aggiungere una pennellata macabra al quadro.
 Se avete le prove di quanto affermate, perché non mi arrestate?
-Prove?
 Neppure una.
 Ma, per parlare seriamente, convincetevi anche di questo: se anche avessi le prove, non vi arresterei.
 o, per lo meno, non vi arresterei ancora.
@@ -5119,28 +5011,26 @@ Lei tacque un istante.
 Rifletteva.
 Era evidente che stava combattendo con se stessa.
 Di che cosa temete, miss Bigland?
-Voi non potete sapere!.
-perché volete cacciarvi a ogni costo in mezzo a quanto sta per accadere?.
+Voi non potete sapere!
+perché volete cacciarvi a ogni costo in mezzo a quanto sta per accadere?
 De Vincenzi tacque, attendendo.
 Di che cosa aveva paura quella donna?
 Perché si preoccupava tanto che la seguisse in Egitto?
 Che temesse per lui era sciocco pensare.
 Doveva esservi qualche altra ragione.
-Ma quale?.
-E anche Vehrehan aveva mostrato la medesima preoccupazione, quando gli aveva parlato in treno!.
-Miss Bigland, non vorreste esser franca con me?.
+Ma quale?
+E anche Vehrehan aveva mostrato la medesima preoccupazione, quando gli aveva parlato in treno!
+Miss Bigland, non vorreste esser franca con me?
 Forse, potrei esservi utile.
 Si era ripresa di colpo.
 Ebbene, commissario, che la fortuna vi assista!
 Fece per dirigersi alla porta e allora tanto lei che De Vincenzi videro Vehrehan, ritto sulla soglia, osservarli con quel suo sorriso sarcastico.
-Finito?
-fece.
 È ora di andare.
-Volete venire in gondola con noi, commissario?.
+Volete venire in gondola con noi, commissario?
 Vi ringrazio, Vehrehan.
 Avremo da stare assieme troppo tempo, perché vi imponga la mia presenza anche sulla gondola.
 Pensò a Cruni.
-Come se la sarebbe cavata il povero brigadiere, alle prese con un compito inusitato, in un’impresa piú grande di lui?.
+Come se la sarebbe cavata il povero brigadiere, alle prese con un compito inusitato, in un’impresa piú grande di lui?
 Altro che occuparsi di Cruni e di miss Bigland.
 Adesso, aveva da badar bene a se stesso.
 Il canotto filava sulle onde, sollevando un ventaglio di spuma dietro di sé.
@@ -5150,9 +5040,9 @@ De Vincenzi trasse di tasca il fonogramma e lo rilesse.
 Ore 10,30 del 24-5-1931 – A vostro fonogramma della notte.
 Ispezionata vanamente linea e ponte fino al secondo chilometro.
 Diteci se dobbiamo dragare fondo mare verso San Giuliano, poiché direttissimo 49 passa sul primo binario verso parapetto ed è possibile valigia sia stata lanciata in acqua.
-Mica stupido il tenente Romualdi!.
+Mica stupido il tenente Romualdi!
 E lui non ci aveva pensato.
-Ma sicuro!.
+Ma sicuro!
 Dopo Mestre egli era uscito dallo scompartimento nel quale si trovavano Vehrehan e miss Bigland, per dirigersi allo scompartimento dello sconosciuto.
 I due erano rimasti soli e senza sorveglianza.
 Nulla d’impossibile che l’uomo ragno avesse approfittato di quei pochi minuti – largamente sufficienti del resto – per tornare là dove aveva lasciato le due grosse valige nere
@@ -5252,17 +5142,14 @@ Ben osservava il cadavere.
 Un ragazzo!
 Daniele Seminari si era fatto ammazzare a vent'anni.
 Ma perché gliel'avevano fatta?
-si chiese.
 In fondo, era innocuo.
 Certo, dovevano averlo ucciso per mettere Paolo e tutti loro nei guai.
 I nemici di Paolo erano infiniti.
 Si sentì il rumore dell'acqua che colava e Ben bestemmiò.
 Ci manca che si metta a cantare, quell'idiota!
 Il Lottatore s'era chinato sul cadavere.
-Che fai?
 Vedo se l'hanno pulito.
 Tanto vale che lo portiamo leggero.
-Alzati!
 Un bel paio di cretini siete voi due!
 Io non so perché Paolo vi tenga.
 Non toccarlo!
@@ -5282,7 +5169,7 @@ L'hai cacciato di casa?
 Si chinò e tese la mano.
 Il micio inarcò di più la schiena e mostrò le unghie.
 Sta' attento che ti graffia!
-Vorrei vedere!.
+Vorrei vedere!
 È mio figlio!
 E avvicinò la mano al pelo.
 Satana, al contatto della carezza conosciuta, sembrò calmarsi.
@@ -5290,7 +5177,6 @@ Il pelo gli si abbassò, le unghie gli rientrarono.
 Così va bene!
 Lo prese sotto il pancino e lo sollevò.
 Stretto al petto, se lo portò al tavolo e lo depose sul tappeto, accanto agli altri.
-Che cosa?
 Ditemi tutta la storia.
 se pure volete dirmela.
 Io non so ancora perché siate venuta da me e che cosa volete che faccia.
@@ -5304,7 +5190,6 @@ Non so neppure come si chiami ora e se sia viva.
 Tra le carte lasciate da mio padre.
 tra quelle per lo meno che trovai, ché era passata la Polizia a casa nostra.
 c'era una fotografia con una dedica firmata Betty.
-Betty.
 dev'essere stata mia madre.
 L'avvocato l'ascoltava, fissandola sempre di sopra alle lenti.
 La ragazza parlava con molta fermezza, senza alcuna commozione.
@@ -5327,7 +5212,7 @@ per una scala assai più stretta e senza tappeto, raggiunse il terzo, che era un
 L'incubo delle porte lo riprese.
 Anche qui un corridoio, ch'era una galleria di usci tutti eguali, a farsi fronte.
 Bussò al primo e gli rispose un breve grido soffocato di donna.
-Manca Jacques!.
+Manca Jacques!
 Jacques non dev'essere chiamato!
 Jacques non deve sapere!
 Taci, Vera!
@@ -5363,18 +5248,15 @@ Chi è?
 chiese De Vincenzi al portinaio.
 Il signorino Oscar.
 È il nipote del padrone.
-Oscar.
-e poi?
 Figlio di chi?
 Oscar Seminari.
 Figlio di un fratello di don Viciente.
 Abita nel palazzo?
 Aveva dovuto promettere a Loïs di non abbandonarla – il suo buon cuore gli faceva sempre di tali scherzi – e non sapeva da che parte cominciare.
 Era uscito di casa, così di furia e all'improvviso, determinato ad agire.
-Ma come?
 Se fosse andato in questura, dal suo amico De Vincenzi, a raccontargli la storia di Loïs Burlington, avrebbe tradito un segreto professionale, senza poter chiedere un aiuto efficace per la sua cliente o per lo meno facendo proprio l'opposto di quanto lei voleva.
 E in quanto alle impronte di sangue.
-troppo vago!.
+troppo vago!
 C'era da coprirsi di ridicolo, se fosse risultato che era sangue di pollo o di coniglio.
 E non poteva trattarsi di vernice o di qualche altra sudiceria qualsiasi?
 Ma no, era sangue.
@@ -5394,9 +5276,7 @@ Tu lo sai dove è andata, Ben!
 Adesso la collera vibrava nella sua voce, che s'era fatta stridula.
 Quante volte t'ho detto che non voglio che ti occupi di lei.
 Ben rispose lentamente, quasi cantilenando.
-Chi?
 Ben girò su se stesso e si diresse alla scala.
-Nessuno!
 Come aveva potuto pensare che Loïs fosse andata a rifugiarsi in quel luogo?
 Anche ad aver la complicità di Walter, sarebbe stato impossibile che Paolo o i suoi uomini non l'avessero scoperta.
 Girò rapidamente per le sale e le salette del primo piano.
@@ -5409,7 +5289,6 @@ Nessuno, Walter!
 Vedo se la casa è ancora intera.
 Il cameriere lanciò un'ingiuria grossolana.
 Ben si volse a guardarlo.
-Walter!
 Nel King Lear di Shakespeare c'è qualcosa di simile, lo sai?
 Shakespeare non è più di moda;
 ma, se tu lo citi di colpo, fa sempre impressione.
@@ -5423,19 +5302,15 @@ Loïs la guardò, senza toccarla.
 La mia fotografia!
 Conoscete questo?
 E le mostrò il portafogli.
-Ma no.
 Era il portafogli di Dan Seminari.
 Dentro c'era la vostra fotografia.
 Gli occhi di Loïs si aprirono, stupefatti e atterriti.
-Era?.
-mormorò.
 Vi chiamate?
 L'uomo ebbe sul volto una certa perplessità.
 Chiedete il mio nome?
 Credevo vi interessasse il nome della ragazza scomparsa.
 Io mi chiamo Paolo Tabor.
 De Vincenzi lo aveva dubitato dal primo istante.
-Straniero?
 Se volete, ma da più di dieci anni risiedo a Milano.
 La ragazza scomparsa è vostra figlia?
 Come se lo fosse.
@@ -5460,12 +5335,11 @@ Il vecchio le toccò affettuosamente una spalla.
 La spinse indietro.
 Una forma di avvelenamento.
 Forse, ha bevuto troppo.
-Vera, dalla poltrona dove si era accasciata, urlò istericamente:  Non è vero!.
+Vera, dalla poltrona dove si era accasciata, urlò istericamente:  Non è vero!
 Un bicchiere solo.
 un solo bicchiere di whisky aveva bevuto.
 e subito si è sentito male.
 Si alzò in piedi, con gli occhi più che mai da forsennata.
-E poi.
 guardate quella bottiglia!
 Il medico si volse e prese la bottiglia del whisky.
 De Vincenzi ebbe un gesto, ma si trattenne subito: al diavolo le impronte;
@@ -5474,10 +5348,9 @@ Tuttavia, si avvicinò al dottore, che stava annusando il liquido.
 Un grande stupore si dipinse sul volto del medico.
 Allontanò il naso dalla bottiglia, poi tornò ad annusare.
 Guardò l'alcol attraverso la luce.
-Strano.
 Che cosa è strano, dottore?
 Che si sia adoperato proprio questo veleno .
-Cercò attorno:  Volete darmi la mia borsa?.
+Cercò attorno:  Volete darmi la mia borsa?
 L'aveva deposta sul letto e non la vedeva.
 De Vincenzi gliela indicò.
 Il medico prese il bicchiere sul comodino.
@@ -5488,8 +5361,6 @@ Il silenzio nella stanza era opprimente.
 Il morto sbarrava gli occhi stravolti.
 Reazione alcalina.
 Non mi sono sbagliato.
-No, Vera.
-E inutile.
 Juan non ha più bisogno di te, né di nessuno.
 Passerai la notte nella camera di Florastella.
 e rivolse alla moglie uno sguardo quasi ansioso di preghiera.
@@ -5539,9 +5410,8 @@ E la fialetta?
 Quella almeno era un indizio preciso.
 Dove l'aveva trovata Jacques?
 Si poteva credere che l'assassino l'avesse fatta cadere in terra o l'avesse gettata via, senza curarsi di farla scomparire?
-L'ho trovata!.
+L'ho trovata!
 Era sul tappeto rosso.
-brillava.
 Diceva la verità il giovane?
 L'aveva realmente trovata?
 Egli odiava un po' tutti in quella casa, tranne forse la sorella.
@@ -5572,18 +5442,14 @@ No, occorreva rimaner freddi e adoperare l'astuzia.
 Mi sembra una vendetta un po' teatrale, la tua!
 Invecchiando, ti sei infrollito.
 in fin dei conti, sarà facile a Loïs dimostrare che non lo ha ucciso.
-Credi?.
 Si mise una mano nella tasca e trasse di sotto il mantello una borsetta di pelle nera.
 Guarda quel che ho trovato in camera di Loïs.
 Gettò la borsetta sul tavolo.
 Ben la guardò, senza toccarla.
-Ebbene?
 Nessun dubbio che appartenga a Loïs!
-E poi?
 Guardaci dentro.
 E si alzò, affettando di non dare importanza alla cosa.
 Paolo pure si alzò.
-Ben.
 Il monosillabo risuonò secco e metallico.
 Il giovanotto si volse.
 Ben, questa volta non t'occupare della faccenda!
@@ -5600,35 +5466,28 @@ I due uomini si guardarono.
 Finalmente Paolo disse:  Imbecille!
 Uno di noi due lo è certamente!
 E Ben si allontanò dalla scrivania, dirigendosi alla porta.
-Rosita.
-Isabella.
-Vera
 Seguiva un'altra sbarretta a capo linea, che indicava come l'elenco non fosse finito, che De Vincenzi si era fermato per meditare.
 La sua meditazione fu interrotta bruscamente dal commissario Valenti, che era entrato col cappello in testa e che gli si era andato a sedere davanti.
 Sono fuggiti!
-Chi?.
 Ah, sì, sei andato laggiù.
 Che hai trovato?
 Era una bisca, naturalmente.
-Roulette, carte, gettoni e tutto il diavolo che se li porti!.
+Roulette, carte, gettoni e tutto il diavolo che se li porti!
 C'è anche una specie di ufficio con un casellario e una scrivania pieni di carte.
 Ho chiuso a chiave la stanza e ho lasciato alla villa due uomini di guardia.
 Quando vorrai, potrai esaminare tutto.
 Quelle carte hanno l'aria di essere dinamite, capace di far saltare mezza città!
-Certo che contenevano molti nomi di persone note!.
+Certo che contenevano molti nomi di persone note!
 Gli servono due capri espiatori e ha scelto noi.
-Maiale!.
 E sputò in terra.
 Sta' attento al tappeto.
 Finché ti preoccupi dei mobili e dell'arredamento, il pericolo non è grave.
-e rise.
-È grave, invece, imbecille!.
+È grave, invece, imbecille!
 Ma non c'è ragione che tu sputi per terra.
 È tanto grave che io non sono neppure andato a casa mia.
 È vero!
 mormorò Walter e si guardò attorno.
 Che cosa volevi dire poco fa?
-Io?.
 Ah, sì.
 Te l'ho detto, gli ho messo il pastrano e l'ho accompagnato alla porta.
 Si è perso nell'ombra del giardino.
@@ -5661,7 +5520,7 @@ L'altra è seria.
 Lo spirito che l'ha scritta è quello di un assassino.
 anche se lo scopo per il quale vi è stata inviata è uno scopo carico d'inganni.
 Don Viciente sorrise.
-E il vostro, stamane, è uno spirito enigmatico, commissario!.
+E il vostro, stamane, è uno spirito enigmatico, commissario!
 Credo che avrò bisogno di molto alcol, prima di potervi comprendere.
 E premette il bottone del campanello, mentre De Vincenzi andava a prendersi una seggiola e sedeva di fianco al tavolo.
 Per qualche minuto i due uomini tacquero.
@@ -5690,7 +5549,7 @@ E questo sostegno poteva essere immaginario, inadatto a salvarli dalla caduta!
 Un sensibile presentimento di pericolo lo attanagliava.
 L'oscurità creava ombre viscide e serpeggianti attorno a lui e al vecchio.
 Avete annunziato il vostro proposito di andare a Villa Verde questa sera?
-Un povero demonio, lui!.
+Un povero demonio, lui!
 E un tristo mestiere il suo: di cercatore d'anime.
 Sani si precipitò allo sportello della macchina, entrata sotto l'androne, e aiutò il vecchio Seminari a scendere.
 Don Viciente, appena a terra, respinse la mano del vicecommissario che voleva sorreggerlo e si avviò diritto, con passo fermo su per lo scalone.
@@ -5710,7 +5569,6 @@ Portala a San Fedele.
 Io ti raggiungerò più tardi.
 Ma il tentativo contro don Viciente ha avuto luogo la sera seguente!
 obbiettò l'avvocato.
-Appunto!
 Juan José si ritirò in camera alle nove.
 Era alcolizzato e non poteva privarsi troppo lungamente del whisky.
 Bevve subito, e la forte dose di nicotina messa nel liquido.
@@ -5760,7 +5618,7 @@ Le spiegherò.
 Il palazzo è di recente costruzione.
 Il primo piano lo abbiamo preso in affitto noi, per il circolo.
 Il medico s'è sbrigato: L'autopsia dirà il resto.
-Proprio oggi questo morto!.
+Proprio oggi questo morto!
 Ma a colazione con Vittorio bisogna che vada!
 Del resto, c'è poco da vedere.
 Una pugnalata al cuore è una pugnalata che uccide.
@@ -5785,13 +5643,9 @@ Da tutte le parti.
 Me lo fotografi da tutte le parti!
 Il professore aveva trovato il fatto suo.
 E De Vincenzi si ritirò nell'ingresso e poi entrò nella sala da gioco.
-Il morto?
-Giace.
 Ma giace qui, o il giudice lo ha mandato al Monumentale?
 Ho sentito il cancelliere, che telefonava di venirlo a prendere.
 Il commissario entrò nel salotto, fece il giro largo, per evitare il cadavere, e avanzò nel salone.
-Commissario De Vincenzi.
-Palmieri.
 È lei che conduce le indagini, vero?
 Mi ha già informato di tutto il vicecommissario.
 Io me ne vado.
@@ -5808,7 +5662,6 @@ A rivederla!
 Il cancelliere lo seguì e nel voltarsi per salutare, ammiccò furbescamente.
 De Vincenzi, adesso che si era liberato da quella preoccupazione, tornò a pensare a tutti gli altri fastidi grossi, che lo attendevano.
 Hai la lista delle persone che si trovavano qui ieri notte?
-Eccotela.
 Mi ha dettato i nomi il segretario.
 Ho cercato di verificarne l'esattezza col cameriere, ma non ti garantisco che non ci siano omissioni.
 Il cameriere mi ha tutta l'aria di un imbecille, che vuol fare il furbo, e in quanto a quell'altro.
@@ -5830,7 +5683,6 @@ Continua a dormire.
 Impossibile parlarle.
 Non vogliamo parlarle.
 Desidero soltanto che la signora la veda, per riconoscerla.
-Venite.
 Li precedette rapida, silenziosa, scorrendo su invisibili rotelline, in mezzo alle due file di letti bianchi.
 Claudia camminava come un automa.
 Non osava guardare i letti.
@@ -5840,12 +5692,10 @@ Come potrebbe trovarsi in un ospedale, se non si fosse suicidata?
 Io l'ho uccisa!
 Io l'ho uccisa.
 L'infermiera si era fermata ai piedi di un letto, l'ultimo della fila di destra.
-Eccola.
 Signora Sutton, la guardi e mi dica se è sua figlia.
 Lui non poteva certo mettere in dubbio il responso dei medici;
 eppure, ora più di prima, era convinto che le cose non fossero andate così lisce come le apparenze volevano far credere, ora più di prima sentiva di non dover lasciare quella casa.
 Giustificazioni a sé e agli altri poteva trovarne: il nome di Delia Vitelleschi non era forse compreso fra quelli delle persone che Sofia Moroni aveva denunciate come frequentatrici della casa di Vannetta Arcangeli?
-Che altro?
 Una sua idea repentina, che gli era balenata dopo il colloquio con Claudia Sutton;
 ma come avrebbe potuto parlare al Questore di quella sua fantastica ipotesi, che gli era germogliata all'improvviso nel cervello?
 Tutto è terminato, dunque, prima ancora di cominciare e sono lieto.
@@ -5872,42 +5722,33 @@ Non se lo poteva vedere davanti così buffo.
 Il cavaliere si passò le mani sul cranio, leste, leste, mormorando: Scusi.
 Le ciocchettine un poco s'abbassarono, un poco soltanto.
 Perché ha trovato necessario correre il rischio di venire arrestato, pur di parlare alla marchesa?
-Ma.
-non so.
+Ma, non so.
 Non lo sapeva davvero!
 Era stata Sofia.
 Non faccia l'idiota!
 Che cosa è andato a dire alla marchesa?
 che il signor Marco era morto.
 E perché pensava che fosse urgente comunicare proprio a lei una tale notizia?
-Non so!
 De Vincenzi si fece minaccioso.
 Vuole che la mandi a San Fedele, e domattina in carcere?
 Poi esplose: Ma non capisce che c'è stato un assassinio?
-E forse.
-forse due!
 Non si rende conto della gravità di quanto sta accadendo?
-Due.
 due assassinii!
 Perché due?
 Non glielo hanno detto che anche il marchese è morto?
 Gli occhi gli si fecero più piccini, proprio due capocchie di spillo.
 Morto, ma non assassinato, credeva.
 Quali rapporti c'erano tra la marchesa e il signor Marco?
-ma.
 La marchesa Delia andava nella casa della Arcangeli.
 A fumar l'oppio?
 Io non ci sono mai andato.
-Badi!
 La povera lepre lo credette.
 La storia dello smeraldo!
 Ebbe un brivido.
 Lo avevano rubato
-A chi?
 Con la barchetta di cristallo.
 De Vincenzi dovette dominarsi.
 La barchetta di cristallo, la giunca preziosa, che si trovava sul cassettone del vecchio!
-Ma a chi?
 Non so con precisione.
 Il capitano, in Cina, aveva rapporti con tanta gente.
 Fu per liberarci da lui e dagli altri che Sofia e io lasciammo Shangai.
@@ -5921,13 +5762,11 @@ Lo smeraldo era incastonato nella barchetta.
 Serviva da fuoco di poppa.
 Ma fu il capitano?
 Si coprì il volto con le mani.
-Parli!
 Non faccia il bambino!
 Per rubarlo, uccise anche?
 E il marchese?
 Aveva comperato lo smeraldo.
 In che anno, tutto questo?
-Prima.
 prima della guerra.
 Il marchese aveva già moglie in quell'epoca?
 Se l'aspettava.
@@ -5978,7 +5817,6 @@ a sinistra la porta che dà nell'appartamento della marchesa.
 Di fronte, la porta conduce a un terzo salotto e subito dopo viene la camera da letto del marchese.
 Le finestre?
 Soltanto quelle dell'appartamento della signora marchesa danno sulla strada.
-Ho capito.
 Tornate in anticamera.
 Lui entrò nella sala.
 Sui tappeti il suo passo era silenzioso.
@@ -6004,8 +5842,6 @@ La porta si spalancò e apparve Delia.
 Dietro di lei le fiamme dei ceri attorno al letto.
 Anche i capelli della donna ardevano.
 Lei ardeva tutta, per quanto avesse il volto di marmo e l'abito nero, opaco.
-Ho paura!
- disse ed ebbe un fremito lungo.
 Gli occhi le brillavano stranamente.
 Fece qualche passo verso di lui.
 Non capisco!
@@ -6019,27 +5855,20 @@ Lei lo guardò ed ebbe un gesto delle due mani.
 Le protese bianche, diafane, nude – vuote – come per trattenerlo.
 Ma non parlò e cadde a sedere sopra una poltrona.
 De Vincenzi si avvicinò all'infermiera.
-Dormiva.
 La toccò.
 Il cuore le batteva.
 Il respiro le usciva regolare dalle labbra, che sembrava sorridessero.
 Sulla pietra del caminetto vide una tazza da tè, in cui qualcuno aveva bevuto.
 Scosse di nuovo la donna, che mandò un leggerissimo lamento e continuò a dormire.
 Le sollevò le palpebre, che si richiusero.
-Ecco!
-disse.
 Avrebbe dovuto aspettarselo.
 Tornò rapido sulla porta.
-Quante?
 chiese con voce tagliente.
 La donna lo guardò coi suoi occhi splendenti, vagamente fissi.
 ripeté.
-Presto!
 Mi dica quante pastiglie le ha date.
 Dica la verità!
 Non continuiamo con le morti naturali!
-Una.
-Una sola.
 Non abbia paura.
 Non può farle che bene.
 Arriverà a domattina senza accorgersene.
@@ -6065,9 +5894,7 @@ Venga con me.
 Qui non si può parlare.
 Non è bene parlar qui.
 Ma perché vuol parlare?
-Venga.
 Vi piace risolvere enigmi?
-Talvolta.
 Il gioco delle parole incrociate è il mio favorito.
 Ebbene, risolvete questo: una persona è entrata iersera nella camera del marchese, dopo le nove.
 Chi era questa persona?
@@ -6087,7 +5914,6 @@ Lui si diresse all'armadio d'angolo.
 C'erano, infatti, molte bottiglie di liquori.
 Al marchese doveva piacere bere forte.
 Ma De Vincenzi s'era fermato davanti allo sportello dell'armadio.
-Strano!
 Era strano per lui che nella prima fila delle bottiglie, in alto, ci fosse un posto vuoto.
 Mancava una bottiglia tra quella del cognac e quella del rum.
 Poiché la seconda fila era al completo, e sul ripiano di fondo erano bicchieri e bicchierini, uno shaker d'argento, una scatola chiusa di ebano e avorio, quel vuoto appariva subito;
@@ -6100,19 +5926,16 @@ Guardò e la vide di faccia: inginocchiata sulla poltrona coi gomiti appoggiati 
 Si era riavuta anche dallo sfinimento.
 Aveva il ricupero delle forze facile!
 Suo marito beveva molti liquori?
-Ma no!
 Gli piaceva averne molti lì dentro.
 Era una specie di mania.
 Un'abitudine contratta in Oriente.
 Perché mancano una bottiglia e due bicchieri da questo armadietto?
-Mancano?
 Non capisco dove possano essere.
 Anche De Vincenzi lo fece.
 Non vide nulla;
 riprese a ispezionare la stanza con metodo, incasellando gli oggetti.
 Stava per dirigersi alla porta, quando ricordò la ragione che lo aveva spinto ad aprire il bar.
 Vuol bere un cognac, signora?
-sì.
 Quando ebbe bevuto, un poco le gote le si arrossarono e tossì.
 Non sono abituata ai liquori forti.
 Adesso, rimanga seduta.
@@ -6128,9 +5951,7 @@ Lui lo sapeva che soltanto riunendo tutti quei piccoli misteri, avrebbe potuto t
 Eccomi qui!
 Adesso riprenderemo la nostra conversazione.
 Vuol discorrere con me tutta la notte?
-Non credo che discorrerò con lei sola tutta la notte!.
-Con me.
-sola?
+Non credo che discorrerò con lei sola tutta la notte!
 Ebbe sguardi di bestia inseguita, e si strinse nella persona, per farsi piccina.
 Che avesse paura d'un pericolo sovrastante era sicuro.
 Si era nascosto nel vano della finestra, dietro le tende pesanti, che aveva lasciate ricadere un poco aperte, sicché, dalla fessura, vedeva la camera e nella camera il letto col morto e i tendaggi del baldacchino contro la parete.
@@ -6160,7 +5981,6 @@ De Vincenzi si fece portare un caffè.
 Gastone mangiava di gusto.
 La morte dello zio e il funerale non gli avevano di certo tolto l'appetito.
 In che cosa posso esserle utile?
-A me?
 In ben poco.
 Ma perché non mi chiede notizie di Margaret Sutton?
 L'altro depose la brioche e alzò le ciglia nere, pesanti, lunghe e lo guardò.
@@ -6186,8 +6006,7 @@ Vuol parlarmi dei rapporti che correvano tra lei e il marchese suo zio?
 Adesso, quello aggrottò le sopracciglia e strinse le labbra.
 Commissario, il notaio mi ha informato del dubbio del medico sulla causa della morte del povero zio.
 Io stamattina ho saputo anche.
-sempre dal dottor Narboni, che alla zia era capitata..
-uhm.
+sempre dal dottor Narboni, che alla zia era capitata.
 una disgrazia.
 Immagino che sia per questo che lei m'interroga.
 Che cosa vuol sapere da me?
@@ -6195,7 +6014,6 @@ Quando ha veduto il marchese per l'ultima volta?
 Il portone del palazzo Vitelleschi del Verbano era interamente aperto, perché la salma del compianto marchese ne aveva ormai varcata la soglia, per recarsi, tra salmodiar di preti e strofinio di suole sui lastricati fangosi, al Colombario.
 Ma il portinaio in berretto gallonato non si teneva – cerbero solenne – in mezzo all'androne.
 Due agenti di P.
-S.
 ne guardavano la severa portineria, di sul tavolo della quale il registro per le firme era scomparso.
 E in quanto al portinaio, costui, in uniforme, faceva un bel meschino vedere, seduto come era in un angolo della stanza, col berretto sulle ginocchia e senza più autorità e solennità.
 Se il cadavere aveva esulato verso l'ultimo riposo, una donna dai capelli rossi e dall'irregolare beltà turbevole si trovava nel palazzo in stato di arresto, guardata a vista dal brigadiere Cruni e da altri due agenti.
@@ -6221,7 +6039,6 @@ Sono stato molto occupato, signora.
 Occupato a che cosa, se io le ho ucciso Harry Gordon?
 Occupato anche a cercar di capire perché lei lo abbia ucciso.
 Non ha mai provato a guardarsi in uno specchio?
-Anche lei!
 Che cosa c'entrava lo specchio, adesso?
 E non ha mai avuto il desiderio di frantumare la sua propria immagine, frantumando lo specchio?
 Dunque era vero!
@@ -6243,7 +6060,7 @@ Lo zio deve averne fatto un altro posteriore.
 Occorre cercarlo!
 Non sono quelle le sue ultime volontà, e io le conosco.
 Me le ha confidate.
-Non sono quelle!.
+Non sono quelle!
 Lunedì sera mi ha detto che l'unico erede di tutto il suo patrimonio ero io!
 Il notaio taceva.
 Tutti tacevano.
@@ -6263,7 +6080,6 @@ Venga, venga!
 Vercingetorige chiudeva la busta di pelle, si alzava.
 Il vecchio fece un gesto di protesta.
 Stava per parlare, ma l'altro non gliene lasciò il tempo.
-Tacete!
 Altri piú furbi di voi ci hanno lasciato la pelle e voi sapete benissimo in che modo.
 È soltanto nell'interesse vostro che dovete diffidare di tutto e di tutti.
 Per me, è lo stesso trattare con voi e con un altro.
@@ -6282,11 +6098,10 @@ Vi ha avvertito dal primo giorno.
 Dovevate non accettare le nostre proposte.
 Il rumore di una porta sfondata ruppe il silenzio della casa tenebrosa.
 Samuele sussultò, mentre un sottile sorriso appariva sulle labbra taglienti di Vatel.
-E una!
 Ne hanno ancora tre davanti a loro!
 Via, non tremate come una femminuccia.
 Cercate di capire che anch’io tengo alla pelle.
-E così bella la vita!.
+E così bella la vita!
 Fra cinque minuti saranno dietro quella porta.
 che non resisterà piú delle altre, per solida che sembri.
 La notte li aiutava ed essi raggiunsero facilmente il villaggio e si cacciarono in un vicolo oscuro.
@@ -6304,7 +6119,7 @@ Siamo intesi?
 Beck rispose con una specie di grugnito e Vatel si allontanò in fretta, senza neppure salutarlo.
 Rimasto solo, l'orefice si affrettò alla sua volta.
 Non vedeva l'ora d'aver raggiunto Southampton e d'essersi imbarcato per far ritorno in Francia.
-la sua famiglia, la sua casa di Parigi!.
+la sua famiglia, la sua casa di Parigi!
 E, intanto, con la destra prima strinse poi accarezzò dolcemente il piccolo involto che valeva per lui almeno dieci milioni.
 Ma che gli importava adesso del denaro, davanti alla certezza di una morte orribile?
 Anche tutto quello che già possedeva avrebbe dovuto abbandonare, tra poco.
@@ -6332,20 +6147,17 @@ Ho grande fiducia in voi e so apprezzare i vostri meriti.
 Bonard sedette.
 Era sorpreso e lusingato.
 Samuele lo fissava sempre.
-Sì;
 era proprio l'uomo adatto, quello.
 Onesto intelligente, deciso.
 Passarono sotto l'androne buio, traversarono il cortile e si trovarono davanti alla facciata di un altro fabbricato.
 Manfredo trasse di tasca un mazzo di chiavi, percorse un breve corridoio e aprì una porta.
-Favorite.
 disse al compagno e si trasse da parte per farlo entrare.
 Appena dentro, l'uomo diede una rapida occhiata all'ambiente.
 È molto tempo che non venite qui?
-Un secolo!
 Non vedete che tomba?
 Che ci verrei a fare?
 Aveva chiusa la porta e accesa la luce.
-Volete visitare l'appartamento?.
+Volete visitare l'appartamento?
 Quella porta dà nella cosidetta sala da ricevere.
 lo precedette in una grande stanza dai mobili pretenziosamente dorati.
 Di lì passarono nella stanza da pranzo adorna di orripilanti nature morte, nella camera da letto, in un camerino che poteva essere studio, a meno che non fosse ripostiglio, e nella cucina.
@@ -6388,13 +6200,12 @@ Di poche parole, eh!
 Bonard stava per dire una banalità qualsiasi, quando un rumore risonò per la casa.
 Certo Manfredo, nella stanza vicina, aveva dovuto rovesciare qualche mobile.
 Chi c'è?
-Non eravate solo, voi?.
+Non eravate solo, voi?
 Di nuovo il sospetto lampeggiava nel suoi occhi.
 Certo che son venuto solo!
 Sarà stato il legno di qualche mobile a far rumore.
 Nelle case abbandonate avviene spesso.
-Bene.
-Adesso, vedremo..
+Adesso, vedremo.
 Si volse ai due accoliti e fece loro un segno.
 I due scomparvero.
 Bonard malediva quell'incidente di cui ignorava le possibili conseguenze.
@@ -6517,14 +6328,14 @@ Un sordo boato si ripercosse per tutta l'isola.
 Tornò verso la donna distesa sul divano e le auscultò il cuore, le toccò il polso.
 Si rialzò, sbuffando.
 Ha un cuore di ferro e la circolazione è regolare.
-Non ci capisco un accidente!.
+Non ci capisco un accidente!
 La ipnotizza spesso, questo dottore?
-Ah!.
+Ah!
 L'imbecillità umana è grande quanto è infinita la.
-la Conoscenza delle entità invisibili!.
-A ogni modo io non ci ho più nulla da fare qui!.
-Chiamate lo specialista!.
-Rimanga, dottore, la prego!.
+la Conoscenza delle entità invisibili!
+A ogni modo io non ci ho più nulla da fare qui!
+Chiamate lo specialista!
+Rimanga, dottore, la prego!
 Io non desidero che la nostra Società abbia noie e, per quanto ogni nostra responsabilità sia esclusa nel caso presente, non voglio si possa dire che alla signora sono mancate cure e assistenza.
 Brontolando il dottore andò a sedere in una poltrona, contro la parete di fondo.
 Allora, faccia presto a telefonare, signorina!
@@ -6543,7 +6354,7 @@ Il medico bestemmiò.
 Uno spillone nel cuore!
 È stato lei che ha scoperto lo spillone?
 Il dottor Appleby ha annunciato che era morta.
-Mi sembrava impossibile!.
+Mi sembrava impossibile!
 Tutti noi l'avevamo veduta dormire sul divano!
 Mi sono precipitato a esaminarla.
 Era morta, infatti.
@@ -6552,50 +6363,41 @@ ma il cuore immoto, il polso fermo.
 Ho dovuto cercare per trovare la causa di quella morte.
 Sulle prime ho pensato a una sincope, a un'embolia.
 Poi ho veduto la testa gialla dello spillone sotto l'omoplata sinistro.
-Un colpo diritto!.
-per Dio!
-la mano che ha conficcato quello spillone non tremava!.
-E
-quando?
+Un colpo diritto!
+la mano che ha conficcato quello spillone non tremava!
 Il medico spalancò gli occhi glauchi.
 Da me vuol saperlo?
-Debbono averla uccisa mentre dormiva, quindi davanti a tutti loro, anche davanti a lei!.
+Debbono averla uccisa mentre dormiva, quindi davanti a tutti loro, anche davanti a lei!
 Ma la luce s'è spenta.
 De Vincenzi assentì.
 La luce s'è spenta.
-E lei ammette che nel buio sia stato possibile all'assassino di conficcare lo spillo proprio nel cuore?.
-Se lo ha fatto!.
-, pensò De Vincenzi.
+E lei ammette che nel buio sia stato possibile all'assassino di conficcare lo spillo proprio nel cuore?
+Se lo ha fatto!, pensò De Vincenzi.
 Non si può negare l'evidenza.
 Ma quando l'evidenza ripugna alla ragione, occorre ridurre l'impossibile al possibile.
 Si volse a guardare la morta.
 perché non l'aveva conosciuta in vita?
 Gli sarebbe stato tanto più facile trovare fra quelle nove persone colui che l'aveva uccisa.
-E, invece, adesso era necessario che cominciasse col conoscere lei, attraverso gli altri?.
+E, invece, adesso era necessario che cominciasse col conoscere lei, attraverso gli altri?
 Venti, trenta milioni.
 Una famiglia regolarmente costituita.
 Una reputazione integra.
-perché?
 Quale nesso?
 De Vincenzi non ne trovava alcuno.
 Una pelliccia col collo di visone, una sciarpa azzurra, un ridicolo tubino rotondo, una perla alla cravatta.
-Il nesso.
 E poi gli altri tre: la donna dai capelli rossi, il segretario tondo come una trottola, lo psichiatra misterioso e astutissimo.
 Il nesso fra tutti costoro era invisibile.
 Eppure doveva esistere.
-Quale?
-Il denaro?
 L'amore?
 La complicità in un crimine remoto?
 E quei quattro erano corsi attorno alla donna addormentata, come mosche sopra un cadavere.
 E il cadavere c'era!
 De Vincenzi cessò di fissare la tenda dinanzi a sè e si volse.
 Comunque, nel suo spirito il problema era impostato.
-Sorrise.
 Aveva messo Cruni alle calcagna di Appleby!
 Il bulldog non avrebbe lasciato la presa.
 Ma aveva fatto bene?
-O non sarebbe stato più avveduto lasciar corda all'ipnotizzatore?.
+O non sarebbe stato più avveduto lasciar corda all'ipnotizzatore?
 Tanta corda che lui stesso se ne fosse fatto un cappio?
 A ogni modo, Letchley Appleby non poteva avere uccisa Sofia Scimanova.
 Era giunto e l'aveva trovata morta, invece che addormentata.
@@ -6621,15 +6423,13 @@ De Vincenzi aspettava.
 La pausa fu lunga.
 Evidentemente, il senatore pesava le parole che stava per dire.
 Finì per scuotere il capo con profonda amarezza.
-Un caso disgraziato!.
-disgraziatissimo!.
+Un caso disgraziato!
+disgraziatissimo!
 Ma un caso.
 Se lei commissario, saprà convincersi di questa realtà, potrà evitare molte noie a me e a lei stesso.
 S'interruppe di nuovo.
 L'attitudine di De Vincenzi non era incoraggiante.
-Bene!
-– finì coll'esclamare il senatore, cercando di dominare la stizza per quel silenzio.
-– Non mi ha fatto venir qui dentro, per interrogarmi?.
+Non mi ha fatto venir qui dentro, per interrogarmi?
 Mi interroghi!
 Preferirei, senatore, che lei mi dicesse tutto quello che sa.
 Abbrevieremmo e.
@@ -6650,11 +6450,8 @@ Credi a un furto?
 È un po' come chiuder la stalla, quando sono usciti i buoi.
 Non servirà a nulla;
 ma desidero almeno circoscrivere il tempo che ha avuto per andarsene.
-Ha avuto.
-chi?
-Eh!
-mio caro, se lo sapessi!
-Ma tu dici esaminare e perquisire!.
+Mio caro, se lo sapessi!
+Ma tu dici esaminare e perquisire!
 Che cosa debbo cercare?
 Cerca un uomo.
 ebbene, cerca un uomo che sta giuocando la sua vita su di una carta e che per non perdere brucia tutto il mazzo!
@@ -6676,23 +6473,21 @@ Il suo proposito era di spiare da lontano l'uscita di Romney Bypass e di chi alt
 Ma appena giunto al principio di via Domenichino, aveva veduto la cameriera uscir correndo dal cancello, col volto terrorizzato, agitando disperatamente le mani.
 Si era messo a correrle incontro e la ragazza gli aveva gridato.
 Di sopra sparano!
-Hanno ucciso la signora!.
+Hanno ucciso la signora!
 Senza sentir altro, De Vincenzi si era precipitato nell'interno, aveva fatto le scale in un baleno e si era trovato dinanzi al cadavere e al banchiere Romney Bypass, che zufolava dolcemente con un fiore dai colori teneri alla bottoniera.
 Un colpo solo.
 mormorò finalmente e riprese a far andare la pallottola da una mano all'altra, con ritmo eguale.
 Lei, naturalmente, avrà sentito il rumore dello sparo dopo aver ricevuto il proiettile.
 Deve aver rintronato mica male in quel pozzo, come lo chiama lei.
-Una pausa.
 La rivoltella doveva avere il silenziatore.
 La pallottola s'immobilizzò sulla palma.
 Ma non vi fu silenzio meditativo.
-Metodi americani?.
-Kid Tiger.
+Metodi americani?
 Harlem e Hell's Kitchen.
 I bootleggers.
 Appena un po' d'ironia nella voce di De Vincenzi;
 il suo volto rimaneva grave.
-Dunque, lei crede che sia stato il banchiere Bypass o qualcuno dei suoi a tentare di farle la pelle?.
+Dunque, lei crede che sia stato il banchiere Bypass o qualcuno dei suoi a tentare di farle la pelle?
 Io non credo niente.
 È lei che tira le sue conclusioni, commissario.
 Io le dico quel che ho veduto e sentito.
@@ -6758,7 +6553,6 @@ Ma istantaneamente si contenne.
 Con sarcasmo gelido, più tosto che con furore, disse.
 Non trova un poco avventato, commissario, affermare che io abbia potuto da me stesso tirarmi un colpo di rivoltella a quattro metri di distanza?
 De Vincenzi si volse.
-Sani!
 Il vicecommissario scomparve.
 Abbia la cortesia di aspettare, dottor Appleby!
 Il dottore ricadde a sedere.
@@ -6776,35 +6570,33 @@ e ha tirato lo spago.
 Era solo in casa e le sono bastati pochi istanti per andare a togliere la rivoltella dalla scala e nasconderla con lo spago nel tubo della grondaia, sicuro che nessuno avrebbe pensato di andarvela a cercare.
 Infatti, anche a me quel tentativo di assassinio contro di lei doveva apparire logico.
 Lei aveva preparato il mio spirito ad accettarlo.
-Non mi aveva forse mostrato la sbarra schiodata?.
-Non mi aveva abilmente parlato delle sue paure?.
-Non aveva affermato di aver viaggiato tutta una notte, per evitare d'essere ucciso?.
+Non mi aveva forse mostrato la sbarra schiodata?
+Non mi aveva abilmente parlato delle sue paure?
+Non aveva affermato di aver viaggiato tutta una notte, per evitare d'essere ucciso?
 Soltanto, vede?
 lei aveva tutto calcolato tranne il fatto che dalla sua ferita, per quanto superficiale o forse appunto per questo, sgorgava sangue.
 Io ho trovato sul pavimento del terrazzino, presso alla scala, una piccola macchia di sangue.
-e ho compreso!.
+e ho compreso!
 Appleby non sogghignava più.
 La sua voce era adesso lacerata.
-Che cosa ha compreso?.
+Che cosa ha compreso?
 Che avevo l'intenzione di accumular prove contro un altro!
-Questo soltanto può aver compreso!.
-Ma non può dirmi come abbia potuto uccidere Sofia Scimanova, se sono stato proprio io a trovarla con uno spillone nel cuore!.
-E adesso?
+Questo soltanto può aver compreso!
+Ma non può dirmi come abbia potuto uccidere Sofia Scimanova, se sono stato proprio io a trovarla con uno spillone nel cuore!
 Che doveva fare, adesso?
 avvertire la polizia, doveva.
-Un delitto!.
+Un delitto!
 Ma perché?
-Ma perché, by Jove!.
+Ma perché, by Jove!
 Si diede una manata sulla fronte.
 Per tutti i diavoli e chi avrebbe montato la Vergine, fra otto giorni?
-Lei è?.
+Lei è?
 Precisamente, Eccellenza!
 e Vladimiro Curti Bo' s'inchinò gravemente, per poi avanzare ancora con quei suoi passettini rapidi sino al tavolo.
 Precisamente!
 Il signor Swan mi onora della sua amicizia e assai spesso assieme a lui ho assistito al levarsi del sole sulla città tentacolare, sentina di vizi e di sozzure.
 Il barone lo aveva ascoltato e lo guardava a occhi socchiusi.
 Accennò col capo.
-Segga.
 e lui per primo sedette davanti al tavolo.
 L'omino gli sedette di fronte.
 perché è venuto da me, lei?
@@ -6820,7 +6612,7 @@ io sono un uomo sicuro, signor barone.
 Una tomba per i segreti.
 Una spada per la battaglia.
 ripetè la voce e il barone prese fra le dita il biglietto di visita che aveva deposto sul tavolo e si mise a osservarlo.
-Ma il nome di Vergine alla cavalla era stato dato da Fred Drake!.
+Ma il nome di Vergine alla cavalla era stato dato da Fred Drake!
 Possibile che fosse soltanto una coincidenza?
 Il signor Drake è venuto anche lui in Europa col barone?
 Mister Drake è stato assunto da Sua Eccellenza, quando ha messo scuderia da corsa.
@@ -6837,7 +6629,6 @@ Non comprendo.
 Tutti i mortali sono minacciati dal pericolo a ogni momento.
 De Vincenzi prese la tangente.
 Parlatemi di coloro che abitano il palazzo.
-Servi?
 E della famiglia?
 Miss Verity soltanto.
 La figlia del barone?
@@ -6845,7 +6636,6 @@ E la moglie?
 No, non pensi ch'io abbia disturbato lei senza una ragione.
 Preoccupato di non veder ritornare mia figlia, ho interrogato la sua cameriera.
 La ragazza aveva aiutato Verità a vestirsi ieri sera e sapeva benissimo quale abito e quale mantello si era messi.
-Allora?
 L'abito che indossava Verità quando è uscita alle nove si trova adesso nella sua camera, assieme al mantello.
 Questa è la prova che sua figlia è rientrata!
 Ma se in palazzo non c'è!
@@ -6857,7 +6647,7 @@ Le voci hanno un'anima e talvolta tradiscono quella del corpo.
 Lo sa che questa notte un altro dei suoi fantini è stato ucciso?
 Ma che dice?
 È impazzito!
-Se continua così, la storia è proprio di quelle che fanno impazzire!.
+Se continua così, la storia è proprio di quelle che fanno impazzire!
 Io debbo andar subito alla scuderia.
 Prima che faccia giorno, verrò da lei.
 Depose il ricevitore, perché non voleva che l'altro gli rispondesse.
@@ -6875,16 +6665,16 @@ Col maresciallo Cruni e coi due agenti salì in un tassi, mentre il camion della
 Sulla stradetta di Trenno, faccia alla luna, Clark O' Brian giaceva adesso con un coltello dal manico giallastro piantato nel petto.
 Un coltello, che quando il barone aveva inciampato nel cadavere, né lui né Matteo avevano veduto, perché non c'era.
 Ma un pensiero improvviso gli fece oscurare il volto, che un poco gli si contrasse.
-Preoccupati della frontiera, Vladimiro!.
+Preoccupati della frontiera, Vladimiro!
 Tutti questi cadaveri conducono soltanto al cimitero .
 Terra d'avello non dà grano!
 Rimase qualche istante assorto, poi si scosse.
-Al lavoro!.
+Al lavoro!
 Sbroglieremo la matassa e coi fili fileremo giubbetto caldo.
 Si guardò attorno, andò ad accostare le persiane e chiuse a chiave la porta della camera, che dava sul ballatoio.
 Per le scale zufolava l'aria dell'uomo in mezzo al mare.
 Sul portone, abbracciando i viali gli alberi i tappeti verdi con un rapido sguardo di possesso, mormorò.
-non fatelo affogare!.
+non fatelo affogare!
 e si mosse rapido.
 Erano le otto del mattino.
 La domenica rendeva le strade deserte.
@@ -6899,14 +6689,13 @@ La porticina si richiuse.
 Rimase nell'interno di quel vasto fabbricato bianco, che sembrava un ospedale, oltre mezz'ora.
 Quando ne uscì appariva smarrito.
 Il sorriso era scomparso dal suo volto.
-Diavolo!.
 Lo stoppino acceso consuma la cera, ma la cera non fa fumo.
-e se manda un odore esso non basta!.
-La mia ipotesi se ne è andata a Patrasso!.
-Dove trovarne un'altra, che si regga in piedi?.
+e se manda un odore esso non basta!
+La mia ipotesi se ne è andata a Patrasso!
+Dove trovarne un'altra, che si regga in piedi?
 S'era fermato sul marciapiede e, toltosi il cappello, si passava la palma sul cranio.
-Affrettare i tempi!.
-E pensare che sarà proprio il commissario a impedirmi di agire!.
+Affrettare i tempi!
+E pensare che sarà proprio il commissario a impedirmi di agire!
 Si rimise il cappello.
 Un tassi passava.
 Gli fece cenno e, quando vi si fu seduto ed ebbe fatto sbattere lo sportello, ordinò al conducente.
@@ -6924,11 +6713,10 @@ Se almeno si fosse mostrato il guardaportone azzurro cielo!
 Ma il portone continuava a rimaner chiuso.
 Dopo mezz'ora, vide aprirsi il portello e uscirne alcuni uomini.
 Li contò: erano sette.
-Ahi!
-O mi sbaglio o i defunti sono adesso più di due!.
-E uno se ne trova lì dentro!.
-Madonna aiutami, Cristo proteggimi!.
-Se l'hanno fatta al barone, sono fritto!.
+O mi sbaglio o i defunti sono adesso più di due!
+E uno se ne trova lì dentro!
+Madonna aiutami, Cristo proteggimi!
+Se l'hanno fatta al barone, sono fritto!
 Il gruppo degli uomini si diresse compatto per via Caserotte, verso San Fedele.
 L'orologio della chiesa di via Giannone battè due colpi.
 Allora, egli si scosse.
@@ -6961,7 +6749,6 @@ Quando si rialzò, chi avesse potuto vederlo lo avrebbe preso per un curioso ani
 Il volto gli era diventato una specie di muso cilindriforme.
 In realtà, egli non aveva fatto che mettersi una maschera antigas.
 Non sarà con la candela che tu riuscirai a farmela!
-pensava.
 Dentro la maschera rideva, sentenziando: dove manca l'inganno, finisce il danno!
 Accese di nuovo la lampadina e cominciò a salire la scala.
 Si muoveva con sicurezza, senza far rumore, leggero e veloce.
@@ -7000,9 +6787,9 @@ Contraccolpo fisico.
 oppure le funzioni mentali sono scosse?
 Vladimiro sollevò l'arguto volto da faina e guardò il commissario con occhi brillanti.
 Lei ha compreso quel che avveniva nella stanza chiusa, prima che noi entrassimo?
-Non ho certo creduto che la signorina Verità si stesse confessando dei suoi delitti!.
+Non ho certo creduto che la signorina Verità si stesse confessando dei suoi delitti!
 Abbastanza inverosimile la cosa e non so capire come Fred Drake abbia potuto supporre che noi avremmo prestato fede a una confessione di quel genere!
-quella non era che la preparazione!.
+quella non era che la preparazione!
 L'uomo, aveva saputo impadronirsi del cervello della ragazza.
 lo aveva reso plastico come cera e stava incidendolo proprio a quel modo che si fa con un disco.
 Era stata la sua ultima vendetta, quella!
@@ -7010,7 +6797,6 @@ La più raffinata e crudele!
 Far credere che i delitti da lui commessi lo fossero stati da Verità.
 Ma ha sentito qualche rumore sullo spiazzo e ha aperto la finestra per accertarsene.
 In quel momento noi ci siamo gettati contro l'uscio e lui si è visto costretto a fuggire.
-Poi.
 poi gli avvenimenti lo hanno travolto.
 Un pazzo lucido, naturalmente!
 Il pericolo, la lotta hanno fatto sparire in lui.
@@ -7026,14 +6812,14 @@ Un caso pauroso e originalissimo di follia.
 Una forma atrocemente morbosa di autosuggestione e di monomania.
 Il cervello che si divide in due compartimenti stagni.
 Mi interroghi, commissario!
-Io esco appena dall'aver fatto parlare la ragazza!.
-Non mi ci proverei un'altra volta, glielo garantisco!.
+Io esco appena dall'aver fatto parlare la ragazza!
+Non mi ci proverei un'altra volta, glielo garantisco!
 Quello lì la teneva sotto il dominio dell'ipnosi e, per ricondurla alla realtà, ho dovuto correre il rischio di vederle perdere la ragione.
 Lei ha detto: il sedicente Fred Drake.
-Se cominciassimo da lui?.
+Se cominciassimo da lui?
 Chi era realmente Fred Drake?
-per essere Fred Drake lo era!.
-Era lui ed era un altro!.
+per essere Fred Drake lo era!
+Era lui ed era un altro!
 Da quando cominciò la serie degli assassinii, Fred Drake credette di essere Marco Mac Lare.
 De Vincenzi sussultò.
 Ma che dice!
@@ -7051,7 +6837,6 @@ Gettare via il bambino [insieme] con l'acqua sporca.
 Giocare a palline.
 Giocare come il gatto col topo.
 Giocare con il morto.
-Godersela.
 Grattarsi la pancia.
 Grattar la pancia alla cicala.
 Gridare ai quattro venti.
@@ -7189,7 +6974,6 @@ Far vedere i sorci verdi.
 Far vedere la luna nel pozzo.
 Far venire il latte alle ginocchia.
 Far venire la barba.
-Farcela.
 Farci la birra.
 Farci una croce sopra.
 Fare "semel in anno".
@@ -7279,6 +7063,7 @@ Fare la nanna.
 Fare la pelle.
 Fare la primadonna.
 Fare la puttana.
+fare la quadra.
 Fare la ronda.
 Fare la ruota.
 Fare la spola.
