@@ -1,6 +1,11 @@
 ## General
 
+yes-receive-emails = Asi, ca ka kua ko. Common Voice Project kong theih peng ka duh.
 stayintouch = Holh phun kip in computer a ngah ding hi kan nih Mozilla compani nih kan i tinh mi cu asi. Zei tiin dah hihi na hman timi le  thilthar pawl kan ngeih tik ah in chimh ve kan duh. 
+return-to-cv = Common Voice ah kir
+email-input =
+    .label = Email
+submit-form-action = Kuat
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -8,12 +13,68 @@ stayintouch = Holh phun kip in computer a ngah ding hi kan nih Mozilla compani n
 
 ## Languages
 
+as = Assam holh
+az = Azerbaijan holh
+bn = Bangla holh
+br = Brittany holh
+ca = Catalan holh
+cnh = Hakha Chin/Laiholh
+cs = Czech Republic holh
+cv = Chuvash holh
+cy = Wales holh
+da = Denmark holh
+de = Germany holh
+el = Greek holh
+en = Mirang holh
+es = Spanish holh
+et = Estonia holh
+fi = Finland holh
+fo = Faroe Islands holh
+fr = France holh
+ga-IE = Ireland holh
+he = Hebrew holh
+hsb = Cunglei Sorbian holh
+hu = Hungary holh
+id = Indonesia holh
+is = Iceland holh
+it = Italy holh
+ja = Japan holh
+kab = Kabyle holh
+kk = Kazakhstan holh
+ko = Korea holh
+kpv = Komi-Zyrian holh
+ky = Kyrgyzstan holh
+mk = Macedonia holh
+ne-NP = Nepal holh
+nl = Netherlands holh
+pl = Poland holh
+ro = Romania holh
+ru = Russia holh
+sk = Slovakia holh
+sl = Slovenia holh
+sq = Albania holh
+sr = Serbia holh
+sv-SE = Sweden holh
+th = Thailand holh
+tr = Turkey holh
+uk = Ukraine holh
+uz = Uzbekistan holh
+zh-CN = China holh (China)
+zh-HK = China holh (Hong Kong)
+zh-TW = China holh (Taiwan)
 
 # [/]
 
 
 ## Layout
 
+speak = Chim
+languages = Holh phun
+help = Bawmh
+terms = Bia kamnak
+cookies = khuk-ki
+faq = FAQ
+share-title = Na hawi le dang nih an aw an rak tun ve ding ah kan bawm!
 back-top = A cung ah kir
 contribution-banner-button = Van zoh 
 report-bugs-link = A ttha lo mi kan chim
