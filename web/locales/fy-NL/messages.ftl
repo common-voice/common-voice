@@ -330,12 +330,8 @@ listen = Lústerje
 skip = Oerslaan
 shortcuts = Fluchkeppelingen
 clips = Fragminten
-goal-type-record = opname
-goal-type-validation = falidaasje
-# $goalType will either be the string goal-type-record or goal-type-validation
-toward-goal = Wy hawwe <goalPercentage></goalPercentage> fan it { $goalType }-doel fan Common Voice foar hjoed berikke. Tank
-# $goalType will either be the string goal-type-record or goal-type-validation
-goal-help-specific = U hebt Common Voice geholpen, <goalPercentage></goalPercentage> fan ús deistige doel { $goalValue }{ $goalType } te berikjen!
+goal-help-recording = Jo hawwe Common Voice holpen om <goalPercentage></goalPercentage> fan harren deistige { $goalValue } doel te beheljen!
+goal-help-validation = Jo hawwe Common Voice holpen om <goalPercentage></goalPercentage> fan harren deistige { $goalValue } falidaasje te beheljen!
 contribute-more = Klear om der noch { $count } te dwaan?
 record-cta = Opname starte
 record-instruction = { $actionType } <recordIcon></recordIcon> en lês de sin dêrnei hurdop
