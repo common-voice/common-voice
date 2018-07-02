@@ -2,7 +2,7 @@
 
 yes-receive-emails = はい、Common Voice プロジェクトに関する最新の情報をメールで受け取ります。
 stayintouch = Mozillaは音声技術のコミュニティを立ち上げています。更新情報や新しいデータ、データの利用方法などについて気軽にお問い合わせください。
-privacy-info = Mozillaは個人情報の取扱に細心の注意を払っています。詳細については「<privacyLink>プライバシーについて</privacyLink>」をご覧ください。
+privacy-info = 私たちは個人情報の取扱に細心の注意を払っています。詳細については「<privacyLink>プライバシーについて</privacyLink>」をご覧ください。
 return-to-cv = Common Voiceに戻る
 email-input =
     .label = メールアドレス
