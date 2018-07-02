@@ -30,13 +30,16 @@ en = İngilizce
 es = İspanyolca
 et = Estonca
 fi = Fince
+fo = Faroece
 fr = Fransızca
 fy-NL = Frizce
 ga-IE = İrlandaca
 he = İbranice
 hu = Macarca
 id = Endonezce
+is = İzlandaca
 it = İtalyanca
+ja = Japonca
 ka = Gürcüce
 kab = Berberice
 kk = Kazakça
@@ -44,6 +47,7 @@ ko = Korece
 kw = Kernevekçe
 ky = Kırgızca
 mk = Makedonca
+myv = Erzyanca
 nb-NO = Norveç Bokmål
 ne-NP = Nepalce
 nl = Felemenkçe
@@ -67,6 +71,7 @@ tt = Tatarca
 uk = Ukraynaca
 uz = Özbekçe
 zh-CN = Çince (Çin)
+zh-HK = Çince (Hong Kong)
 zh-TW = Çince (Tayvan)
 
 # [/]
@@ -89,6 +94,8 @@ content-license-text = İçerikler <licenseLink>Creative Commons lisansı</licen
 share-title = Sesini bağışlayacak birilerini bulmamıza yardım edin!
 share-text = Makinelere gerçek insanların nasıl konuştuğunu öğretin: { $link } ile sesinizi bağışlayın 
 back-top = Başa dön
+contribution-banner-button = Bir göz atın
+report-bugs-link = Hataları rapor edin
 
 ## Home Page
 
@@ -309,10 +316,8 @@ listen = Dinle
 skip = Atla
 shortcuts = Kısayollar
 clips = Klipler
-goal-type-record = kaydediyor
-goal-type-validation = doğrulama
-toward-goal = Common Voice’un bugünkü { $goalType } hedefinin <goalPercentage></goalPercentage> kadarına ulaştık. Teşekkürler
-goal-help = Common Voice’un günlük { $goalType } hedefinin <goalPercentage></goalPercentage> kadarına ulaşmasına yardım ettiniz!
+goal-help-recording = Common Voice'un günlük { $goalValue } kayıt hedefinin <goalPercentage></goalPercentage> kadarına ulaşmasına katkıda bulundunuz!
+goal-help-validation = Common Voice'un günlük { $goalValue } doğrulama hedefinin <goalPercentage></goalPercentage> kadarına ulaşmasına katkıda bulundunuz!
 contribute-more =
     { $count ->
         [one] { $count } tane daha yapmaya hazır mısın?
