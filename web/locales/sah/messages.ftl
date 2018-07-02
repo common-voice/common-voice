@@ -1,5 +1,7 @@
 ## General
 
+email-input =
+    .label = Электроннай почта
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -30,8 +32,9 @@ tr = Туурак тыла
 tt = Татаар тыла
 uk = Украинскай тыл
 uz = Узбек тыла
-zh-CN = Китай тыла (Китай)
-zh-TW = Китай тыла (Тайвань)
+zh-CN = Кытай тыла (Кытай)
+zh-HK = Кытай тыла (Гонконг)
+zh-TW = Кытай тыла (Тайвань)
 
 # [/]
 
@@ -84,6 +87,7 @@ profile-form-language =
 ## Record Page
 
 record-retry = Хатылаа
+record-no-mic-found = Микрофон булуллубата
 terms-agree = Сөбүлэһэбин
 terms-disagree = Сөбүлэспэппин
 
@@ -92,6 +96,7 @@ terms-disagree = Сөбүлэспэппин
 
 ## Contact Modal
 
+contact-title = Сибээстэһии халыыба
 contact-form-name =
     .label = Аатын
 contact-required = *булгуччулаах
