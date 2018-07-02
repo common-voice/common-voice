@@ -85,7 +85,11 @@ profile-close = Phit
 ## FAQ
 
 faq-what-q = Common Voice cu zei dah asi?
-faq-important-q = Zei tuang ah dah a biapit?
+faq-what-a = Computer pawl holh in chawnh khawh cu thil lianngan tuk asi, asi nain cheukhat cu an man faktuk tawn. Common Voice i kan i tinhmi cu a mikip caah fawi tein hmanter khawh hi asi. Mi tampi nih an Aw khumh in khulrang tele fawi tein tuah asi. Kan tuahmi vialte hi mipi nih hman khawh dih asi lai.
+faq-important-q = Zei ruang ah dah a bia pi?
+faq-important-a = Aw cu kokek asi, Aw cu minung asi. I chawnh khanh nak caah a a fawi cemmi le hmancem mi asi. Computer thiam nih hi thil chung in hman awktlak thil ttha, holh leh/ ca leh le a dang dang bawntuk ah an ser khawh nak ding hi kan duh. Asinain atu ah cun mipi nih hamn khawh ding mi hi a um lo. Common Voice nih hin computer thiam pawl thil ttha ttha an sernak cung ah a bawmh hna lai hi kan duh.
+faq-get-q = Common Voice thil (data) hi zei tin dah ka lak khawh lai?
+faq-mission-q = Zei ruang ah dah Common Voice hi Mozilla nih a tinhmi rian asi ve?
 
 ## Profile
 
@@ -110,6 +114,21 @@ faq-important-q = Zei tuang ah dah a biapit?
 
 ## Languages Overview
 
+languages-show-more = Tam deuh zoh 
+languages-show-less = Tawm deuh zoh
+language-speakers = Chimtu 
+language-total-progress = Zate
+language-search-input =
+    .placeholder = Kawl
 
 ## New Contribution
 
+action-click = Hmet
+listen = Ngai
+skip = Lawnh
+record-three-more-instruction = Pathum a tang!
+unable-speak = Holh kho lo?
+listen-again-instruction = A ttha tuk! <playIcon></playIcon> naa manh in ngai tthan
+listen-3rd-time-instruction = 2 na tuah cang hih!
+listen-last-time-instruction = <playIcon></playIcon>Dongh nak!
+share-title-new = <bold> Kan bawm </bold> Aw tampiin kawl
