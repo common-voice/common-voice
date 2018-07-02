@@ -1,8 +1,13 @@
 ## General
 
+yes-receive-emails = はい、Common Voice プロジェクトに関する最新の情報をメールで受け取ります。
+stayintouch = Mozillaは音声技術のコミュニティを立ち上げています。更新情報や新しいデータ、データの利用方法などについて気軽にお問い合わせください。
+privacy-info = Mozillaは個人情報の取扱に細心の注意を払っています。詳細については「<privacyLink>プライバシーについて</privacyLink>」をご覧ください。
+return-to-cv = Common Voiceに戻る
 email-input =
     .label = メールアドレス
 submit-form-action = 送信
+loading = 読み込み中…
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -37,9 +42,18 @@ privacy = プライバシー
 terms = 利用規約
 cookies = Cookies
 faq = FAQ
+content-license-text = 本コンテンツは<licenseLink>クリエイティブ・コモンズ・ライセンス</licenseLink>で提供しています。
+share-title = 他の人にも音声の提供を呼びかけてください！
+share-text = 機械が人の話を理解できるようにするため、あなたの音声を提供してください。{ $link }
+back-top = 先頭へ戻る
+contribution-banner-text = 貢献のためのUIを一新しました
+contribution-banner-button = 見てみる
+report-bugs-link = バグを報告
 
 ## Home Page
 
+home-title = Common Voiceプロジェクトは機械が人の話を理解できるようにする、Mozillaの新たな取り組みです。
+home-cta = あなたの声で貢献を始めましょう！
 vote-yes = はい
 vote-no = いいえ
 
