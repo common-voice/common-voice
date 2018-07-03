@@ -200,21 +200,42 @@ faq-important-a = Səs naturaldır, səs insancadır. Əlaqənin ən asan və ə
 faq-get-q = Common Voice məlumatlarını necə əldə edə bilərəm?
 faq-get-a = Bu məlumat bazası hazırda <downloadLink>endirmə səhifəmiz</downloadLink>də <licenseLink>CC-0</licenseLink> lisenziyası ilə mövcuddur.
 faq-mission-q = Niyə Common Voice Mozilla missiyasının bir hissəsidir?
+faq-hours-q = Niyə səs qeydi üçün hədəf 10000 saatdır?
+faq-hours-a = Bu işlək STT (səsdən yazıya) üçün tələb edilən təxmini vaxtdır.
+faq-source-q = Qaynaq mətnləri haradan gəlir?
+faq-source-a1 = Mövcud cümlələr dəstəkçilərdən və <italic>It’s a Wonderful Life</italic> kimi ictimai film ssenari yazılarından gəlir.
+faq-source-a2 = Qaynaq mətnlərimizi <dataLink>bu Github qovluğunda</dataLink> görə bilərsiz.
 
 ## Profile
 
+profile-why-title = Niyə profil tələb edilir?
 
 ## NotFound
 
+notfound-title = Tapılmadı
 
 ## Data
 
+data-download-button = Common Voice məlumat bazasını endir
 data-download-yes = Bəli
 data-download-deny = Xeyr
 data-download-license = Lisenziya: <licenseLink>CC-0</licenseLink>
+data-download-modal = <size>{ $size } GB</size> endirilməyə başlayacaq, davam edilsin?
+data-other-download = Məlumat Bazasını Endir
+license = Lisenziya: <licenseLink>{ $license }</licenseLink>
+license-mixed = Qarışıq
 
 ## Record Page
 
+record-platform-not-supported = Üzr istəyirik, amma platformanız hazırda dəstəklənmir.
+record-retry = Təkrar yoxla
+record-no-mic-found = Mikrofon tapılmadı.
+record-error-too-short = Qeyd çox qısa idi.
+record-error-too-long = Qeyd çox uzun idi.
+record-error-too-quiet = Qeyd çox sakit idi.
+record-submit-success = Uğurla göndərildi! Təkrar qeyd etmək istərdiniz?
+record-help = Lütfən qeyd-ə basın, sonra da üstdəki cümləni səsli oxuyun.
+record-cancel = Təkrar qeydi ləğv et
 terms-agree = Razıyam
 terms-disagree = Razı deyiləm
 review-aborted = Yükləmə ləğv edildi. Qeydlərinizi silmək istəyirsiniz?
