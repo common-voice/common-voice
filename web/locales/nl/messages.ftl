@@ -97,6 +97,9 @@ content-license-text = Inhoud is beschikbaar onder een <licenseLink>Creative Com
 share-title = Help ons anderen te vinden die hun stem willen doneren!
 share-text = Help machines te leren hoe echte mensen spreken, doneer uw stem op { $link }
 back-top = Naar boven
+contribution-banner-text = We hebben onlangs een nieuwe manier om bij te dragen gelanceerd
+contribution-banner-button = Een kijkje nemen
+report-bugs-link = Help bij het melden van bugs
 
 ## Home Page
 
@@ -317,10 +320,8 @@ listen = Luisteren
 skip = Overslaan
 shortcuts = Sneltoetsen
 clips = Fragmenten
-goal-type-record = opname
-goal-type-validation = validatie
-toward-goal = We hebben <goalPercentage></goalPercentage> van het { $goalType }doel van Common Voice voor vandaag bereikt. Bedankt
-goal-help = U hebt Common Voice geholpen <goalPercentage></goalPercentage> van het dagelijkse { $goalType }doel te bereiken!
+goal-help-recording = U hebt Common Voice geholpen <goalPercentage></goalPercentage> van het dagelijkse doel van { $goalValue } opnamen te bereiken!
+goal-help-validation = U hebt Common Voice geholpen <goalPercentage></goalPercentage> van het dagelijkse doel van { $goalValue } validaties te bereiken!
 contribute-more = Klaar om er nog { $count } te doen?
 record-cta = Opname starten
 record-instruction = { $actionType } <recordIcon></recordIcon> en lees de zin vervolgens hardop
