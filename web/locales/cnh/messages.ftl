@@ -146,6 +146,7 @@ profile-close = Phit
 
 ## FAQ
 
+faq-title = Hal Tawnmi Bia
 faq-what-q = Common Voice cu zei dah asi?
 faq-what-a = Computer pawl holh in chawnh khawh cu thil lianngan tuk asi, asi nain cheukhat cu an man faktuk tawn. Common Voice i kan i tinhmi cu a mikip caah fawi tein hmanter khawh hi asi. Mi tampi nih an Aw khumh in khulrang tele fawi tein tuah asi. Kan tuahmi vialte hi mipi nih hman khawh dih asi lai.
 faq-important-q = Zei ruang ah dah a bia pi?
@@ -175,7 +176,9 @@ data-other-ted-name = TED-LIUM Corpus
 
 ## Record Page
 
+record-must-allow-microphone = Aw tunak na ngahter a hau
 record-retry = Tuah tthan
+record-no-mic-found = Aw tunnak kan hmu lo
 record-error-too-short = Na tunmi a tawi tuk.
 record-error-too-long = Na tunmi a sau tuk.
 record-error-too-quiet = Na tunmi a dih tuk.
@@ -202,8 +205,10 @@ contact-required = *ahau
 
 ## Request Language Modal
 
+request-language-title = Holh phun halnak
 request-language-form-language =
     .label = Holh
+request-language-success-title = Holh phun halnak a kuat cang, ka lawm.
 
 ## Languages Overview
 
