@@ -332,7 +332,7 @@ record-last-instruction = <recordIcon></recordIcon> Акыркысы!
 review-tooltip = Улантканча үзүндүңүздү текшерип жана кайра жаздыргыла
 unable-speak = Азыр сүйлөө мүмкүн болбой жатабы?
 review-instruction = Керек болсо үзүндүнү карап чыгып, кайра жаздыргыла
-record-submit-tooltip = { $actionType } даяр болгондо кошкула
+record-submit-tooltip = { $actionType }, даяр болгондо кошкула
 clips-submitted =
     { $count ->
         [one] { $count } үзүндү кошулду
@@ -343,7 +343,7 @@ record-abort-text = Азыр чыгып кетсеңер, прогресиңер
 record-abort-submit = үзүндүлөрдү кошуу
 record-abort-continue = Жаздырууну аяктоо
 record-abort-delete = Чыгуу жана үзүндүлөрдү жок кылуу.
-listen-instruction = { $actionType }<playIcon></playIcon> Сүйлөмдөрдү так жана даана айтылганбы?
+listen-instruction = { $actionType }<playIcon></playIcon> сүйлөмдөр так жана даана айтылганбы?
 listen-again-instruction = Азаматсыз!<playIcon></playIcon> Даяр болгондо дагы уккула
 listen-3rd-time-instruction = Улантыбыз, эми экөө калды!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Акыркысы!
