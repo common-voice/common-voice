@@ -217,6 +217,7 @@ faq-source-a2 = Izvorne stavke si lahko ogledate v <dataLink>mapi na GitHubu</da
 ## Profile
 
 profile-why-title = Zakaj profil?
+profile-why-content = Objavljeni govorni podatki bodo s pomočjo vaših osebnih podatkov bolj uporabni pri projektu Common Voice, saj bodo uporabljeni za zagotavljanje večje natančnosti pri učenju razpoznave govora.
 
 ## NotFound
 
@@ -230,6 +231,8 @@ data-download-yes = Da
 data-download-deny = Ne
 data-download-license = Licenca: <licenseLink>CC-0</licenseLink>
 data-download-modal = Začel se bo prenos datoteke, velike <size>{ $size } GB</size>, nadaljujemo?
+data-subtitle = Gradimo odprt in javno dostopen nabor govorjenih podatkov, ki ga bo lahko vsakdo uporabil za učenje govorno podprtih aplikacij.
+data-explanatory-text = Verjamemo, da veliki in javno dostopni nabori podatkov spodbujajo inovacije in zdravo tekmovalnost pri implementaciji strojnega učenja v govorno podprtih aplikacijah. Za to si prizadevamo po celem svetu in vabimo k sodelovanju vse zainteresirane. Naš namen je, da naredimo govorno tehnologijo bolj vključujočo, da bo odražala raznolikost govorjene besede po celem svetu.
 data-get-started = <speechBlogLink>Začnite s prepoznavo govora</speechBlogLink>
 data-other-title = Drugi govorni nabori podatkov ...
 data-other-goto = Pojdi na { $name }
@@ -237,6 +240,7 @@ data-other-download = Prenesi podatke
 data-other-librispeech-description = LibriSpeech je korpus, sestavljen iz približno 1000 ur branih angleških besedil (pri 16 kHz), pridobljen iz zvočnih knjig projekta LibriVox.
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = TED-LIUM je korpus, ki ga sestavljajo zvočni posnetki predstavitev in njihovi prepisi, dostopni na spletni strani TED.com.
+data-other-voxforge-description = VoxForge je bil ustanovljen za zbiranje prepisov govorov za uporabo v odprtokodnih in prosto dostopnih sistemih za prepoznavanje govora. 
 data-other-tatoeba-description = Tatoeba je velika baza stavkov, prevodov in govorjenih glasovnih datotek za uporabo pri učenju jezikov. Tukaj lahko prenesete pogovorno angleščino, posneto v njihovi skupnosti.
 data-bundle-button = Prenesi nabor podatkov
 data-bundle-description = Podatki Common Voice in vsi zgornji govorni nabori podatkov.
