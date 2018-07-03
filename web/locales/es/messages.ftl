@@ -29,13 +29,16 @@ el = Griego
 en = Inglés
 es = Español
 et = Estonio
+fi = Finlandés
 fr = Francés
 fy-NL = Frisón
 ga-IE = Irlandés
 he = Hebreo
 hu = Húngaro
 id = Indonesio
+is = Islandés
 it = Italiano
+ja = Japonés
 ka = Georgiano
 kab = Cabilio
 kk = Kazajo
@@ -64,6 +67,7 @@ tt = Tártaro
 uk = Ucraniano
 uz = Uzbeko
 zh-CN = Chino (China)
+zh-HK = Chino (Hong Kong)
 zh-TW = Chino (Taiwán)
 
 # [/]
@@ -86,6 +90,9 @@ content-license-text = Contenido disponible a través de una <licenseLink>Licenc
 share-title = ¡Ayudanos a llegar a más personas que quieran donar su voz!
 share-text = Ayuda a enseñarles a las máquinas cómo hablan las personas, dona tu voz en { $link }
 back-top = Volver al inicio
+contribution-banner-text = Acabamos de lanzar una nueva experiencia de colaboración
+contribution-banner-button = Echa un vistazo
+report-bugs-link = Ayuda a informar de errores
 
 ## Home Page
 
@@ -306,10 +313,8 @@ listen = Escuchar
 skip = Saltar
 shortcuts = Accesos directos
 clips = Grabaciones
-goal-type-record = grabando
-goal-type-validation = validación
-toward-goal = Queda un <goalPercentage></goalPercentage> para alcanzar el reto { $goalType } de hoy de Common Voice. Gracias
-goal-help = ¡Has ayudado a Common Voice a alcanzar un <goalPercentage></goalPercentage> de su meta diaria de { $goalType }!
+goal-help-recording = ¡Gracias a tu ayuda Common Voice ha alcanzado el <goalPercentage></goalPercentage> de nuestro objetivo diario de grabación del { $goalValue }!
+goal-help-validation = ¡Gracias a tu ayuda Common Voice ha alcanzado el <goalPercentage></goalPercentage> de nuestro objetivo diario de validación del { $goalValue }!
 contribute-more = ¿Listo para hacer { $count } más?
 record-cta = Empezar a grabar
 record-instruction = { $actionType } <recordIcon> </recordIcon> y después lee la frase en alto
