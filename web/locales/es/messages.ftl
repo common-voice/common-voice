@@ -1,8 +1,8 @@
 ## General
 
-yes-receive-emails = Sí, envíenme correos. Me gustaría mantenerme informado sobre el proyecto Common Voice.
-stayintouch = Nosotros en Mozilla estamos construyendo una comunidad en torno a la tecnología de voz. Nos gustaría mantenernos al tanto con las actualizaciones, nuevas fuentes de datos y escuchar más sobre como tu ocupas estos datos.
-privacy-info = Nosotros prometemos manejar tu información con cuidado. Lee más en nuestra <privacyLink>política de privacidad</privacyLink> .
+yes-receive-emails = Sí, enviadme correos. Me gustaría mantenerme informado sobre el proyecto Common Voice.
+stayintouch = En Mozilla estamos construyendo una comunidad en torno a la tecnología de voz. Nos gustaría mantenerte al tanto de las actualizaciones, nuevas fuentes de datos y saber más sobre cómo tu usas esos datos.
+privacy-info = Prometemos manejar tu información con cuidado. Lee más en nuestra <privacyLink>política de privacidad</privacyLink> .
 return-to-cv = Regresar a Common Voice
 email-input =
     .label = Correo
@@ -166,7 +166,7 @@ profile-form-gender =
     .label = Género
 profile-form-submit-save = Guardar
 profile-form-submit-saved = Guardado
-profile-keep-data = Mantener datos
+profile-keep-data = Conservar datos
 profile-delete-data = Eliminar datos
 male = Hombre
 female = Mujer
