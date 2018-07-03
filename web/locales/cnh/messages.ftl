@@ -2,6 +2,7 @@
 
 yes-receive-emails = Asi, ca ka kua ko. Common Voice Project kong theih peng ka duh.
 stayintouch = Holh phun kip in computer a ngah ding hi kan nih Mozilla compani nih kan i tinh mi cu asi. Zei tiin dah hihi na hman timi le  thilthar pawl kan ngeih tik ah in chimh ve kan duh. 
+privacy-info = Nangmah kong midang kan theih ter hna lai lo. <privacyLink>Privacy Notice</privacyLink> ah hin rel chap.
 return-to-cv = Common Voice ah kir
 email-input =
     .label = Email
@@ -162,6 +163,7 @@ faq-quality-q = Zei tluk in dah ka Aw hi a fiang a herh?
 faq-quality-a = Na Aw cu computer nih a theih khawh ding hi a biapi. Na mawtor chung na um lio, pangka a awn lio, le na hnulei in midang an rak i chawnh lio tibantuk zong a ttha tthiam tthiam ko. 
 faq-hours-q = Zei ruang ah dah nazi 10,000 renglo hi kan aw tun a herh?
 faq-source-q = Khoi ka in dah biafang hi an rat?
+faq-source-a2 = Hi ka<dataLink> hin biatlang kan lak nak na zoh khawh.  </dataLink> GitHub ah kan chiah.
 
 ## Profile
 
@@ -194,6 +196,7 @@ terms-agree = Ka lungtling
 terms-disagree = Ka lungtling lo 
 review-submit-title = Chek law Kuat
 review-recording = Chek 
+review-rerecord = tuun tthan
 review-cancel = Kuatmi letthan
 review-keep-recordings = Tuun mi i chiah
 review-delete-recordings = Tuun mi hlonh
