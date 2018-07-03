@@ -20,6 +20,7 @@ az = Азәричә
 bn = Бенгальча
 br = Бретонча
 ca = Каталанча
+cnh = Хака чинча
 cs = Чехча
 cv = Чувашча
 cy = Валисийча
@@ -49,6 +50,7 @@ kpv = Коми-зырянча
 kw = Корнча
 ky = Кыргызча
 mk = Македонча
+myv = Эрзяча
 nb-NO = Норвегча (Букмол)
 ne-NP = Непалча
 nl = Һолландча
@@ -80,7 +82,7 @@ zh-TW = Кытайча (Тайвань)
 
 ## Layout
 
-speak = Сөйләгез
+speak = Сөйләү
 speak-now = Хәзер сөйләү
 datasets = Мәгълүмат тупланмасы
 languages = Телләр
@@ -95,6 +97,7 @@ content-license-text = Контент <licenseLink>Creative Commons лиценз
 share-title = Күбрәк тавыш яздырылган саен, яхшырак. Бу проект хакында дусларыгызга сөйләгез!
 share-text = Машиналарга чын кешеләрнең ничек сөйләшүен өйрәтергә ярдәм итегез — { $link } сәхифәсендә тавышыгызны иганә итегез
 back-top = Сәхифә башына
+contribution-banner-text = Без әле генә ярдәм итүнең  яңа тәҗрибәсен башлап җибәрдек
 
 ## Home Page
 
@@ -310,17 +313,13 @@ language-search-input =
 
 ## New Contribution
 
-action-click = Чиртү
+action-click = Чиртегез
 action-tap = Кагылып алу
 contribute = Үз өлешеңне кертү
 listen = Тыңлау
 skip = Калдырып тору
 shortcuts = Төймә комбинацияләре
 clips = Клиплар
-goal-type-record = яздыру
-goal-type-validation = тикшерү
-toward-goal = Бу Common Voice'ның { $goalType } бүгенге максатына таба <goalPercentage></goalPercentage>.  Рәхмәт!
-goal-help = Сез Common Voice'ка көнлек { $goalType } максатының <goalPercentage></goalPercentage> ирешүгә ярдәм иттегез!
 contribute-more =
     { $count ->
         [one] башка
