@@ -9,7 +9,7 @@ Radoveden sem, kaj ti meniš!
 Videti je zadovoljna!
 Pa ne tepi me tako močno!
 Oba sta zamišljeno molčala nekaj trenutkov.
-Kam ga je dela?
+Kam ga je dala?
 Kaj hočeš s tem?
 Pravi, da jo glava boli.
 Ta napis mora izginiti!
@@ -25,19 +25,19 @@ Saj si lahko premislim!
 Vi se šalite gospa!
 Andraž je trkal in pil.
 Prijel se je ob mizo.
-Sedaj sta bila sama.
+Zdaj sta bila sama.
 Da se le ti nisi name spomnil!
 Kri mu je zavrela v glavi.
 Človeka ni bilo videti nikjer!
 Glas mu je bil še vedno mehak.
 Na roko si je naslonil težko glavo.
 Menim, da se šališ z menoj!
-Do sedaj še nisem nič čul o njem.
+Do zdaj še nisem nič čul o njem.
 Pri tem se je neprijetno smejal.
 Vstal je, da bi splezal na drevo.
 To vse je bilo pred komaj šestdesetimi leti.
 Če bo vprašanje pošteno, dobiš tudi pošten odgovor!
-Molči sedaj in odgovarjaj, kar te bom vprašal!
+Molči zdaj in odgovarjaj, kar te bom vprašal!
 Hotel se je nasmehniti.
 Sveti angel varuh moj.
 Vztrepetala je in se je ozrla.
@@ -55,8 +55,8 @@ Rok se je začudil.
 Pljunil je in je šel mimo.
 Mare se je vrnil v krčmo.
 Legel je, zaspati ni mogel.
-Mojmir se je vstal in samo gledal.
-Mariota je obšel velik strah.
+Mojmir je vstal in samo gledal.
+Marjana je obšel velik strah.
 Kam se ti tako mudi, Marko?
 Marko se je stresel od mraza.
 Zakaj so ljudje tako potrti?
@@ -65,7 +65,7 @@ Pokrižala se je in je šla mimo.
 Neznanec je globoko zavzdihnil.
 Kako pa je bilo s popotnikom?
 Krčmar pa se je zasmejal naglas.
-O cigani, kako ste me ociganili!
+O šment, kako ste me pretentali!
 Marko je udaril s pestjo po mizi.
 Kako je doma? 
 Kam si se namenil?
@@ -73,7 +73,7 @@ Prestrašil se je.
 Nato je legel in je spal do večera.
 Legel je pod kozolec in se zatopil v grenke misli.
 Privila se je k njemu in ga prijela trdno za obe roki.
-Zakaj mi nisi povedal tega prej ? 
+Zakaj mi nisi povedal tega prej? 
 Popotniku se je zdelo, da ga nekdo kliče.
 Kdaj boš pa plačal?
 Lačen sem in tudi žejen.
@@ -90,7 +90,7 @@ Mladi človek se je zasmejal.
 Tudi študent je legel v travo.
 Otrok je ihtel in se tresel.
 Potepuh se je od srca zasmejal.
-Tako je rekel župan in se vstal.
+Tako je rekel župan in vstal.
 Študent je pogledal in se začudil.
 Jerry se je ozrl in se hudo začudil.
 Kmetje so se spogledali in molčali.
@@ -162,19 +162,19 @@ Robert je vznemirjen.
 Kaj je danes?
 Živi in se uči.
 In tako je živel srečno do konca svojih dni.
-Ampak to ni bilo tako v tem vrstem redu.
+Ampak to ni bilo tako v tem vrstnem redu.
 Ampak, kaj je to?
 Koga ali kaj?
 Si ti to videl?
 Ali me slišiš?
-Ali ti to ne veš?
+Ali ti tega ne veš?
 Me poznaš?
 Misliš to?
 Ali jo vidiš?
 Ali me hočeš?
 Kako naj povem?
 Kako se je končalo?
-Začel sem sam, doma v delovanici.
+Začel sem sam, doma v delavnici.
 Te lahko vidim?
 Nisem vedel.
 Imam ga tukaj.
@@ -258,7 +258,7 @@ Kam je šel?
 Kdo bi lahko bil?
 Veš, da imam rad kače.
 Si sam to naredil?
-Pazi kje hodiš!
+Pazi, kje hodiš!
 Glej, svetilniki!
 Odprite okno.
 Dobro mi gre.
@@ -266,7 +266,7 @@ Kje pa je Egipt?
 Zdravo Benjamin.
 Tako si nesramen!
 Zabit kot žeblji v lesu.
-Slab kot pokvarjeno zeljo.
+Slab kot pokvarjeno zelje.
 Svež kot marjetica.
 Ujeti moram avtobus.
 Kaj je šef?
@@ -305,7 +305,7 @@ Oh, ne vem.
 Nič ni vedela.
 Povej mi še kaj o tem.
 Hudiča, kaj si rekel!
-Potem se je vstal.
+Potem se je vstal in odšel.
 No, kaj je to?
 No, kaj več povej o tem?
 Kaj bi lahko to pomenilo?
@@ -345,7 +345,7 @@ Kaj si rekel?
 No, mislim, da je tako.
 Kje je moj čevelj?
 Izbriši to datoteko.
-Kaj se spet sliši kako trava raste?
+Kaj se spet sliši rasti travo?
 Ja, tako bi lahko bilo.
 Molk je zlato.
 Zelen kot trava.
@@ -377,7 +377,7 @@ Ne mislim tako.
 Tega ne vem.
 Uganil sem toliko, več pa ne vem.
 Mislim, kar pravim.
-Obrnil sem se za njo.
+Obrnil sem se zanjo.
 Želim jo videti.
 Tako kot sem si tudi mislil!
 Zdaj pa poslušaj.
@@ -420,7 +420,7 @@ Izgledaš zelo suh.
 Moral bi vedeti.
 Ali nismo božanski?
 Torta je laž.
-Se nadaljuje...
+Se nadaljuje ...
 Prosim, odpusti mi.
 Sliši se legitimno.
 Kontekst je vedno potreben.
@@ -458,7 +458,7 @@ Ne bi smel tako misliti!
 Mislil sem, da veš.
 Prihajam v miru.
 To je edini način.
-Za mene on ni nič.
+Zame on ni nič.
 Živi naj kralj!
 Ne, nič ne vidim.
 Ne, ne vem ničesar o tem.
@@ -512,7 +512,7 @@ Kje so ključi?
 Je bila ideja dobra?
 Karl je tam.
 Ste spoznali Petra?
-Od kje si?
+Od kod si?
 Ni bilo slabo.
 Si videl Omarja?
 Elena bo zamujala.
@@ -573,7 +573,7 @@ Nobena novica ni dobra novica.
 Najmanj dela, največ govori.
 Mačka ima devet življenj.
 Diamanti so za vedno.
-Naj kupec pazi preden kupi.
+Kupec mora biti zelo pozoren na končno ceno nakupa.
 Poglej, preden skočiš.
 In za kakšen namen?
 In kaj je rekla?
@@ -603,16 +603,16 @@ Kaj bodo mislili?
 Kje so drugi?
 Kje si to dobil?
 Kje je tvoj oče?
-Veš kaj mislim. 
-Veš kaj hočem.
+Veš, kaj mislim. 
+Veš, kaj hočem.
 Tiho, kajne?
-Prosim ne bodi len.
+Prosim, ne bodi len.
 Naloga opravljena!
 Ne bodi pesimist!
 Vsi so dobri.
 Naj vam pomagam.
 Kakšen čudovit dan!
-Prosim zaprite vrata.
+Prosim, zaprite vrata.
 Siva palica je ostala v jami.
 Ste videli hrošče?
 Priznaj in odidi.
@@ -654,7 +654,7 @@ Za kaj gre?
 Kakšno je njegovo drugo ime?
 Kaj pa zdaj?
 Boš prišel z menoj?
-Prosim vrnite kocke.
+Prosim, vrnite kocke.
 Kako se je to zgodilo?
 Kajenje je prepovedano.
 Oblika sledi funkciji.
@@ -712,7 +712,7 @@ Zvil sem si gleženj.
 Daj mi več časa.
 Samo je dober pri vožnji.
 Boštjan danes odhaja.
-Rasko ve kako plavati.
+Rasko zna dobro plavati.
 Zakaj to počneš?
 Upamo, da imam prav.
 Hopsanje je čudna beseda.
@@ -721,9 +721,9 @@ Ste spoznali Katarino?
 Ste bili na Japonskem?
 Si videl kakšne duhove?
 Kakšna je bila hrana?
-Prosim ne dotikaj se me.
+Prosim, ne dotikaj se me.
 Naj vidim tvojo vozovnico.
-Rad imam karamelne bonbone.
+Rad imam karamelne bombone.
 Se še nisem odločil.
 Ne, nisem ga videl.
 Mia se je danes stara sedem.
@@ -765,7 +765,7 @@ Ta svetilka je zelo lepa.
 Papir je zelo vnetljiv.
 Znanstveno delo je težko.
 Bil je samomorilski akt.
-Prav tako je kot pravijo.
+Prav tako je, kot pravijo.
 Gospod Lincoln je moj mentor.
 Moja kosilnica je pokvarjena 
 Liza igra saksofon.
@@ -845,7 +845,7 @@ Ta človek je tvoj brat?
 Kako vam lahko pomagam gospa?
 Kura tehta pet kilogramov.
 Pojdite na prelaz številka sedem.
-Ljubim čokoladne bonbone.
+Ljubim čokoladne bombone.
 Daniela dobro poznam.
 Nisem jih videl tam.
 Nastopi na TV so zavajajoči.
@@ -860,10 +860,10 @@ Vsaka pot ima svojo sled.
 Preluknjana guma je nevarna reč.
 Korak za korakom gre daleč.
 Berači ne morejo biti izbirčni.
-To je moja žena banda neumna.
+To je moja žena zbrana družba.
 Moja mati ima Parkinsonovo bolezen.
-Moja medicinska sestra mi je povedala njegovo ime.
-Si lahko sposodim nazaj svoj podstavek?
+Prijazna medicinska sestra mi je povedala njeno ime.
+Si lahko izposodim nazaj svoj podstavek?
 Za trenutek nihče ni govoril.
 Ni si mogel pomagati in se ne smejati.
 Skomignil je z rameni.
@@ -889,7 +889,7 @@ Ne verjamem v voodoo.
 Mi lahko zapoješ uspavanko?
 Naslednji torek moramo glasovati.
 Vsak cent je sijal kot nov.
-Petindvajset evrov in 4 cente, prosim.
+Petindvajset evrov in štiri cente prosim.
 Ines ljubi plavanje.
 Jasna je zelo ustvarjalna.
 Vsi živijo na tem območju.
@@ -900,16 +900,16 @@ Ne skrbite.
 Ne, toda videl sem darilo.
 Moj stric je bil sadjar.
 Postavka je pet evrov.
-Moram govoriti z mojim odvetnikom.
+Morem govoriti z mojim odvetnikom.
 Obožujem sirup in palačinke.
 V četrtek sem jih izgubil.
 Dojenček bo naslednji teden imel rojstni dan.
 Starec je kar pustil knjigo.
 Sovraštvo je tako slepo kot ljubezen.
-Naredite kot bi storili sami.
+Naredite, kot bi storili sami.
 Matej je vedno strahopetec.
 Dom je tam, kjer je srce.
-Pokaži mi par rokavic.
+Pokaži mi ta par rokavic.
 Veliko roke naredijo veliko dela.
 To je vse ali nič.
 Rim ni bil zgrajen čez noč.
@@ -951,8 +951,8 @@ Srečamo se vsak drugi ponedeljek.
 Paradižnikova omaka je bila odlična.
 Kri je gostejša od vode.
 Ne pihajte v mojo trobento.
-Zamuda je tako dobra kot je dober človek.
-Poznavanje ponavadi povzroča prezir.
+Zamuda je tako dobra, kot je dober človek.
+Poznavanje po navadi povzroča prezir.
 Pri nas nikoli ne dežuje, ampak lije.
 Nedolžen kot novorojenček.
 Nič ne rešiš, če samo razmišljaš.
@@ -974,7 +974,7 @@ Kaj je pomen tega?
 Kaj je narobe?
 Kdaj boste morali priti?
 Kaj je z njimi?
-Zakaj mi ne poveš kaj?
+Zakaj mi ne poveš česa?
 Odločil se je, da to ni dovolj.
 Zakaj bi to želel storiti?
 Zakaj to spet počnemo?
@@ -994,7 +994,7 @@ Andrej je dobil gripo.
 Zakaj je fliper tako zasvojujoč?
 To je vendar logaritemska lestvica.
 To je verjetno spletni žargon.
-Kakšno veselje je imati psa v življenju?
+Kakšno veselje je imeti psa v življenju?
 Naredite to z leseno kuhalnico.
 Čas nam prinaša veliko sprememb.
 Papir se vedno posuši, če je moker.
@@ -1028,9 +1028,9 @@ Stranka ima vedno prav.
 V enem ušesu not in drugem ven.
 Ja, to je pravo mesto.
 Mislim, da sem se prehladil.
-Kak velika je ta omara?
+Kako velika je ta omara?
 Watt je SI enota moči.
-Sedaj je star 18 let.
+Zdaj je star osemnajst let.
 Sledila je ena jed za drugo.
 Kdo je častni gospod!
 Nisem vedel, da je bilo tako pozno.
@@ -1108,10 +1108,10 @@ Potrebujem dudo za mojega otroka.
 Žica drži piščance v kletki.
 Hruške v pločevinkah nimajo istega okusa.
 Noben cement ne bo manj trd kot les.
-Preberite samo kar pravi meter.
+Preberite samo to, kar pravi meter.
 Kakšna čudna oseba!
 Kje si našel to jabolko?
-Otroci so se naučili kako trava raste.
+Otroci so se naučili kako raste trava.
 Zdravnik je odstranil svoje rokavice.
 Znanstvenik je napisal svoj članek.
 Veš, on je pošten človek.
@@ -1132,7 +1132,7 @@ Modrost je boljša od moči.
 Slab delavec krivi svoja orodja.
 Stara lisica se ne more naučiti nobene obrti.
 Nevihta lahko pride tudi mirno.
-Iskra lahko začne velik ogenj.
+Iskra lahko začne velik požar.
 Majhni udarci so podrli velik hrast.
 Izgubljeni čas se nikoli več ne najde.
 Izkušnje so najboljši učitelji.
@@ -1175,7 +1175,7 @@ Ta steklenica ima notri štiri vrste rum.
 Nasmehnite se, ko rečete grdo besedo.
 Obesite kozarce na obe veji.
 Mali otroci so prišli k njemu.
-Večkrat je ga je poklicala po imenu.
+Večkrat ga je poklicala po imenu.
 Pomislil sem kaj kupiti.
 Nič ni narobe z njim.
 Ne, ne želim biti pilot.
@@ -1183,7 +1183,7 @@ Všeč ji bo, kajne?
 Ali prizorišče ponuja brezplačen Wi-Fi?
 Karin danes ne bo prišla.
 Zdravnik Krajnc je prispel prejšnji teden.
-Nihče še ni nikoli to storil.
+Nihče še ni nikoli tega storil.
 Upam, da ste prav zdaj tam.
 Odlično, ali jih lahko pokažete?
 To bi bilo zelo prijazno od vas.
@@ -1196,7 +1196,7 @@ Lara prihaja sem na večerjo.
 Ema je videla meduzo.
 Jutri grem v Nemčijo.
 Jutri grem v ZDA.
-Rado Mulej ni znan golfer.
+Rado Mulej ni znan igralec golfa.
 Alenka Godec je pop pevka.
 Verjetno se trudi vstopiti.
 Lahko bi jih pripeljali tja!
@@ -1239,7 +1239,7 @@ Potrebovali boste nekaj gumijastih čevljev.
 Oglate oklepaje je težko vtipkati.
 On je priseljenec iz Portugalske.
 To je neugoden položaj.
-Matematični ura je obvezna za vsakega učenca.
+Matematična ura je obvezna za vse učence.
 Ne boš uničil tega!
 Moja sostanovalka vedno povzroči kaos.
 Njena nizka samozavest je patetična.
@@ -1269,14 +1269,14 @@ Nismo imeli nobenega denarja.
 Odvetnik je sedel v sodni dvorani.
 Mati je sedela v dvorani.
 Všeč mi je tudi jabolčna pita.
-Naj vas predstavim Brankotu.
-Wau! Zgleda, da pluje!
+Naj vas predstavim Branku.
+Wau! Zgleda, da plujemo!
 Ali imate Ninino telefonsko številko?
 Imate Hugojevo telefonsko številko?
 Nič se ne posuši prej kot solza.
 Kdor te je krivil, te sovraži.
 Najboljše stvari v življenju niso zastonj.
-Bolje, da se obrabijo kot rjavijo.
+Bolje je, da se obrabijo, kot pa da rjavijo.
 Čistost je lepa čednost.
 Slab izgovor je boljši od nobenega.
 Za argument je potrebno imeti dve osebi.
@@ -1363,7 +1363,7 @@ Star mož in staro vino sta najboljša prijatelja.
 Brez ljubezni je življenje živa smrt.
 Ljubezen ima veliko moč, a denar vse naredi.
 Poročite se v naglici, če želite imeti na poroki malo ljudi.
-Razdelite si palice in okarajte otroka.
+Razdelite si torto, a ne pozabite na otroke.
 Prazna posoda ima najboljši zvok.
 Prazni sodi so najbolj hrupni.
 Najtežje delo je včasih storiti nič.
@@ -1374,7 +1374,7 @@ Denar težko naredi luknjo v žepu.
 Naj bo on preprosto glavni direktor in je to, to.
 Ničesar ne pridobivamo, če ne spreminjamo.
 Prazna posoda povzroča največ hrupa.
-Ni hujšega norca kot je stari bedak.
+Ni mogoče najti hujšega norca, kot je stari bedak.
 Vzel sem številko in našel svoj sedež.
 Kako dolgo že imaš to modro obleko?
 Ne, ne moreš imeti tega ženskarja.
@@ -1408,7 +1408,7 @@ Klešče ležijo poleg ledu.
 Prvi črv se ujame zgodaj.
 V takšni obliki ga ne potrebujemo na zabavi.
 Surova paprika lahko pokvari mesni obrok.
-Napolnite črnilo s lepljivim lepilom.
+Napolnite posodico od črnila z lepljivim lepilom.
 Samo dvigni ga in nesi stran.
 Ponarejeni kamni sijejo, čeprav malo stanejo.
 Narišite črto na severni strani zemljevida.
@@ -1424,7 +1424,7 @@ V tej pisarni ne izdajajo nobenih računov.
 Suha jajca in čaj morajo zadostovati.
 Ne morete kuhati čaja v hladnem loncu.
 Prosim, odgovorite na ta telefon.
-Poslal je fanta naj opravi nalogo.
+Poslal je fanta, da je opravil nalogo.
 Dolga pot domov je trajala eno leto.
 Huda nevihta je raztrgala skedenj.
 Ta zgodba je čudovita!
@@ -1445,8 +1445,8 @@ Spomin je zaklad uma.
 Jeza in sovraštvo ovirajo dobro svetovanje.
 Napad je najboljša oblika obrambe.
 Vest naredi strahopetce iz vseh nas.
-Težki pacienti so lahki pritožniki.
-Nikoli ne dovolite, da bi spal tvojem jezu.
+Težki pacienti se zelo radi pritožijo.
+Nikoli mu ne dovolite, da bi spal na jezu.
 Žalost in izguba človeka prizadeneta.
 Vse stvari pridejo, če čakamo.
 Kdor se smeje zadnji, se smeje najslajše.
@@ -1470,7 +1470,7 @@ Dobra vest je mehka blazina.
 Ne zanašajte se na nalepko na vreči.
 Kjer obstaja volja, obstaja pot.
 Norec v obleki ni nič bolj pameten.
-Ne morete izgubiti, kar niste nikoli imeli.
+Ne morete izgubiti, česar niste nikoli imeli.
 Čutim ostro bolečino v levi roki.
 Moram iti v sobo za nujne primere.
 To je precej grozno, če me vprašaš.
@@ -1482,7 +1482,7 @@ V darilu je presenečenje.
 Ali mi lahko pomagate s tem vprašanjem?
 Vozil je na ladji z imenom Bibavica.
 Java ni enako kot JavaScript.
-Nostalgija ni tisto, kj bi radi, da bi bilo.
+Nostalgija ni tisto, kar bi radi, da bi bilo.
 Nato je ponudil otrokom velik sladoled.
 Restavracija je bila precej draga.
 Pot s trajektom je bila pametna izbira.
@@ -1507,13 +1507,13 @@ Z letalom smo strmoglavili v ledeno goro!
 Ribiška palica se uporablja za ulov roza lososa.
 Obrišite si mast z umazanega obraza.
 Leva krava je ležala v hladni travi.
-Majhen potok teče čez polje.
-Najem je potekal v šestnajst tednov.
+Majhen potok teče skozi polje.
+Najem stanovanja je trajal šestnajst tednov.
 Račun je bil plačan vsak tretji teden.
 Hrast je močan in daje tudi senco.
 Veselje najdemo v najpreprostejših stvareh.
 Slana mast je okusna s šunko.
-Ta drevesa se upognejo v veteru.
+Ta drevesa se upognejo v vetru.
 Na tej visoki nadmorski višini je zrak čist.
 Para je izhlapela iz zlomljenega ventila.
 Pravljice morajo biti zabavne za branje.
@@ -1551,7 +1551,7 @@ Oglejte si predvajalnik, ki se premika po ritmu.
 Vam je všeč sodobna slika?
 Ali lahko kaj storim za vas?
 Izgleda, da je Lena pustila jakno doma.
-Naslednjič ko pade, me pokliči.
+Naslednjič me ob padcu prosim pokliči!
 Napravo smo našli v omari.
 Kako veste, da je to res?
 Kaj si tukaj za delo?
@@ -1560,16 +1560,16 @@ Hvala Niku, da me je povabil.
 Rekla je, da mi ti poveš, kje je.
 Solze so se dotaknile njenega obraza.
 Lahko to načrtujemo v torek?
-Kje si bil popoldan?
+Kje si bil popoldne?
 V novembru sem jedel pito.
 Cena je zrasla za dvaindvajset odstotkov.
 Kje je Cilka zapustila ključe?
 Prijatelj v stiski je pravi prijatelj.
 Odsotnost povzroči, da srce raste.
 Naročnik je tako slab kot tat.
-Kdor vstane pozno, mora delat ves dan.
+Kdor vstane pozno, mora delati ves dan.
 Ne jokaj za razlitim mlekom.
-Neučinkovito je mlatit slamo.
+Neučinkovito je mlatiti prazno slamo.
 Napad je najboljše obrambno sredstvo.
 Iz kante se je videl ogenj.
 Najsvetlejša ura je pred zoro.
@@ -1609,7 +1609,7 @@ Riž pogosto postrežemo v okrogli skodelici.
 Fant je bil že tam, ko se je sonce dvignilo.
 Pomagajte ženski, da se postavi na noge.
 Njena torbica je bila polna neuporabnih smeti.
-Mrtva mačka je rodila mladiče.
+Mlada mačka je skotila mladiče.
 Kljukica je ležala globoko vzdolž ulice.
 Slonovina se uporablja za draga darila.
 Napravil je breskov sladoled.
@@ -1619,7 +1619,7 @@ Nedelja je najboljši del tedna.
 Dodajte stolpec in vnesite znesek tukaj.
 Mletje je potekalo po programu.
 Težko je izbrisati modro ali rdečo barvo.
-Jazz in swing spadata med plesno glasbo.
+Džez in sving spadata med plesno glasbo.
 Zemljevid je imel X, ki ni pomenil ničesar.
 Voskasta tla povzročajo izgubo ravnotežja.
 Potisnite figuro v prazen prostor.
@@ -1638,7 +1638,7 @@ Potisnite pladenj čez rob mize.
 Slastne besede delujejo bolje kot ostre.
 Čaj v tankem porcelanu ima sladek okus.
 Zlata vaza je redka in draga.
-Tanka knjiga se prilega v vsaki žep.
+Tanka knjiga se prilega v vsak žep.
 Slep je prešteval stare kovance.
 Predvsem mi je všeč penasta voda.
 Torej, kakšni so vaši načrti za nocoj?
@@ -1716,7 +1716,7 @@ Danes je bila nova punca odpuščena.
 Papirnica je polna papirja.
 Nov začetek bo čudežen.
 Najbolje pišem s črnim kulijem.
-Nesite smeti,da boste lahko nato spali.
+Nesite smeti, da boste lahko nato šli spat.
 Skoči čez ograjo in pohiti v banko.
 Te tablete naredijo manj dobrega kot slabega.
 Grozni smeh je zapolnil prazno sobo.
@@ -1745,7 +1745,7 @@ Ko zaslišiš zvon, hitro pridi.
 Daj no, samo nehaj razmišljati o tem.
 Vsak otrok ljubi igrače.
 Rumena riba je plavala čez jezero.
-Cene ne more priti do najnižje police.
+Cene ne more seči niti do najnižje police.
 Sara ve, kako nadlegovati njeno sestro.
 Dobro, strinjam se, da bi to lahko bilo tako.
 Ja, tako sem tudi razmišljal.
@@ -1754,7 +1754,7 @@ Janez je svetovni teniški igralec.
 Čudno je, da je v oktobru tako hladno.
 Imeli smo nekaj okusnih jabolk s karamelo.
 Ema danes vodi tretjo tekmo.
-Oliva je prišla pobrati kruh.
+Oliva je prišla pobrat kruh.
 Poiščite sliko starejšo od petih tednov.
 Veselje gladi cesto življenja.
 Utopljen človek se ne bo dvignil na površje.
@@ -1765,7 +1765,7 @@ Noben moder človek ne želi biti mlajši.
 Neaktiven človek je hudičev igralec.
 Leopard ne spremeni svojih madežev.
 Vsi niso lovci, ki trobijo rog.
-Več kot zmešate, bolj smrdi.
+Bolj kot zmešate, bolj smrdi.
 Točka je začetek daljice.
 Lažje je uničiti kot graditi.
 Ne vstavljajte vseh jajc v eno košaro.
@@ -1801,7 +1801,7 @@ Prijazna tolpa je zapustila trgovino z drogami.
 Vojaki gredo mimo naslednjega hriba.
 Uporabite svinčnik, da napišete prvi osnutek.
 Pokupil je prodajalno strojno opremo.
-Obe sta se srečala pod peskom.
+Srečala sta se pod peskom.
 Pol kg sladkorja stane več kot deset jajc. 
 Izkoristite čoln, da če se želite rešiti pred potopom.
 Termin se je končal konec junija istega leta.
@@ -1833,7 +1833,7 @@ Nariši sliko s črnimi črtami.
 Suh vosek ščiti globoko praske.
 Izklopite ventil in sprostite vročo paro.
 Glasba je igrala med pogovorom.
-Zmago je divje odletel z helikopterjem visoko v zrak.
+Zmago je divje odletel s helikopterjem visoko v zrak.
 Pet let je živel s koščenim psom.
 Njihovi stebri se rušijo zaradi hrupa.
 Hrošč je hitel proti vročemu jugu.
@@ -1876,7 +1876,7 @@ Ponedeljek ni moj najslabši dan v tednu.
 Preverite glavne funkcije aplikacije na spletni strani.
 Pomembne informacije morda manjkajo.
 Ali so otroci bolj ustvarjalni kot odrasli?
-Wikipedia je neprofitna organizacija.
+Wikipedija je neprofitna organizacija.
 V jezeru so našli potapljača.
 Nogomet se pogosto zamenjuje z rugbyjem.
 Imenujeta se zasebni in javni ključ.
@@ -1896,7 +1896,7 @@ Zamrznjen zrak je šel skozi plašč.
 Avtomobili in avtobusi so zastali v snežnih zametih.
 Sadje je bilo rezano v debele rezine.
 Trava je zaviti okoli ograje.
-Razpolovil je hlod z hitrim udarcem.
+Razpolovil je hlod s hitrim udarcem.
 Pasta lahko očisti najbolj umazano medenino.
 Ugani rezultat v prvem poskusu.
 Nenaden začetek ne zmaga vojne.
@@ -1953,14 +1953,14 @@ Neuporabna so kot vrata na podmornici.
 Ne moreš si želeti torte in jesti seno.
 Zaprite usta in odprite oči.
 Povejte, kaj mislite in mislite, kaj pravite.
-Vsi se morajo vrniti z veslice do treh zjutraj.
+Vsi se morajo vrniti z veselice do treh zjutraj.
 Nobene koristi ni pri bičanju mrtvega konja.
 Iščejo iglo v senu.
 Bolje je, da se rodimo srečni kot bogati.
 Malo znanja je nevarna stvar.
 Nasvet, ki je najbolj potreben, je najmanj upoštevan.
 Eden izmed teh dni ni planiran za ekskurzijo.
-Povejte mi več o vaših simptomih.
+Povejte mi več o svojih simptomih.
 Zakaj nisi prišla na zabavo?
 Bila je naravnost preveč smešna.
 Kako to misliš, s kakšno besedo bi to najbolj opisal?
@@ -2016,7 +2016,7 @@ Vsaka beseda in besedna zveza, ki jo izgovori, je resnična.
 Nehajte žvižgati in pazite na dečke.
 To je bilo storjeno, preden ga je fant videl.
 E-pošta mu je na voljo trikrat na dan.
-Ne sprejemamo naših malih napak.
+Težko sprejmemo svoje male napake.
 Rad imam filme, a raje imam karikature.
 V tem pismu je preveč črk in besed.
 Ali veste, kakšen paket je bil?
@@ -2043,14 +2043,14 @@ Zjutraj bom obiskal zobozdravnika.
 Si pripravljen slišati moj kontra argument?
 Ta hrana je precej neokrnjena, vendar draga.
 Nekdo je po naključju prekinil misijo.
-Vlak bo odšel iz Pariza ob oetih.
+Vlak bo odšel iz Pariza ob petih.
 Prejšnji teden smo obiskali semensko banko.
 Šla je v park, da bi posnela nekaj posnetkov.
 Najboljše zdravilo za bolečine v trebuhu naj bi bilo smeh.
 Severna in Južna Koreja sta zelo različni.
 Ni vsakdo sposoben brati kode.
 Paket je označen kot zastarel.
-Nekateri ljudje želijo  jesti morske galebe, drugi pa ne.
+Nekateri ljudje želijo jesti morske galebe, drugi pa ne.
 Branje ni enako razumevanju.
 Ta konj ima več kot eno konjsko moč.
 Sedežnica jih je peljala gor proti vrhu.
@@ -2077,7 +2077,7 @@ Po plesu so šli naravnost domov.
 Gospodinja je poučevala služkinjo.
 Svoj zadnji roman je napisal v gostilni.
 Spustite mlado tele, da pije mleko iz vedra.
-Šole za ženske ne učijo samo čar in milino.
+Šole za ženske ne učijo samo čara in miline.
 Svetilka je sijala s stalnim zelenim plamenom.
 Stari kovanec je bil precej dolgočasen in obrabljen.
 Papirja je malo, zato pišite z veliko pozornosti.
@@ -2122,8 +2122,8 @@ Poslal bom nekaj pošte svoji družini.
 Načrtujemo obisk Velikega kanjona.
 Vlada je prepovedala izvoz rakov.
 Ne me vleči v vaše osebne težave.
-Datoteka je imela velikost več gigabajtov kot smo mislili.
-Najmanj, kar lahko storite je. da pokličite 113.
+Datoteka je imela velikost več gigabajtov in je tako bila veliko večja, kot smo sprva mislili.
+Najmanj, kar lahko storite je, da pokličite ena ena tri.
 Šla je v lekarno, da ji je vzela tablete.
 Gorsko reševalna ekipa se je odrekla svojemu delu.
 Pekarna je bila poleg klavnice.
@@ -2131,7 +2131,7 @@ Pekarna je bila poleg klavnice.
 Idealno bi bilo, če bi bil WiFi brezplačen.
 Aspergerjev sindrom je oblika avtizma.
 Moj kolega je iz zahodne Slovenije.
-Bolje, da ga prekinete, preden se zapletete!
+Bolje je, da ga prekinete preden se še bolj zapletete!
 Z drugimi besedami, to ni odprta platforma.
 S to novo frizuro si videti smešna.
 Kdo je blondinka z rdečim krilom?
@@ -2212,5 +2212,4 @@ Moja teta je delala tudi v tem podjetju.
 Všeč mi je to mesto, toda v juliju je tukaj preveč prevroče.
 Vemo, da Mitju ni všeč začinjena hrana.
 To je bilo sedemsto evrov več kot lani.
-Viktorija se je rodila v devetnajsto sedemdesetih. 
-
+Viktorija se je rodila v devetnajsto sedemdesetih.
