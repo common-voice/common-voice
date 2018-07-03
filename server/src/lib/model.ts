@@ -1,4 +1,4 @@
-const contributableLocales = require('../../../locales/contributable.json') as string[];
+import * as request from 'request-promise-native';
 import DB, { Sentence } from './model/db';
 import { DBClipWithVoters } from './model/db/tables/clip-table';
 import {
@@ -7,6 +7,9 @@ import {
   rowsToDistribution,
   Split,
 } from './model/split';
+import * as path from 'path';
+import * as fs from 'fs';
+import { getConfig } from '../config-helper';
 
 /**
  * The Model loads all clip and user data into memory for quick access.
@@ -65,7 +68,29 @@ export default class Model {
    * Update current user
    */
   async syncUser(uid: string, data: any): Promise<void> {
-    return this.db.updateUser(uid, data);
+    const user = await this.db.updateUser(uid, data);
+
+    const { BASKET_API_KEY, PROD } = getConfig();
+    if (BASKET_API_KEY && user.send_emails && !user.basket_token) {
+      const response = await request({
+        uri: `https://basket.${
+          PROD ? 'mozilla' : 'allizom'
+        }.org/news/subscribe/`,
+        method: 'POST',
+        form: {
+          'api-key': BASKET_API_KEY,
+          newsletters: 'common-voice',
+          format: 'H',
+          lang: 'en',
+          email: user.email,
+          sync: 'Y',
+        },
+      });
+      this.db.updateUser(uid, {
+        ...data,
+        basket_token: JSON.parse(response).token,
+      });
+    }
   }
 
   /**

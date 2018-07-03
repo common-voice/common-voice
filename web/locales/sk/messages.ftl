@@ -29,18 +29,24 @@ el = gréčtina
 en = angličtina
 es = španielčina
 et = estónčina
+fi = fínčina
+fo = faerčina
 fr = francúzština
 fy-NL = frízština
 ga-IE = írčina
 he = hebrejčina
+hsb = hornolužická srbčina
 hu = maďarčina
 id = indonézština
+is = islandčina
 it = taliančina
+ja = japončina
 ka = gruzínčina
 kab = kabylčina
 kk = kazaština
 ko = kórejčina
 kw = kornčina
+ky = kirgizština
 mk = macedónčina
 nb-NO = nórčina (bokmål)
 ne-NP = nepálčina
@@ -51,6 +57,7 @@ pl = poľština
 pt-BR = portugalčina (Brazília)
 ro = rumunčina
 ru = ruština
+sah = jakutčina
 sk = slovenčina
 sl = slovinčina
 sq = albánčina
@@ -64,6 +71,7 @@ tt = tatárčina
 uk = ukrajinčina
 uz = uzbečtina
 zh-CN = čínština (Čína)
+zh-HK = čínština (Hongkong)
 zh-TW = čínština (Taiwan)
 
 # [/]
@@ -180,6 +188,7 @@ profile-create = Vytvorenie profilu
 profile-create-success = Profil bol úspešne vytvorený!
 profile-close = Zavrieť
 profile-clear-modal = Odstránenie údajov profilu znamená, že tieto demografické údaje už nebudú naďalej odosielané s vašimi nahrávkami.
+profile-explanation = Sledujte svoj pokrok pomocou profilu a pomôžte nám spresniť naše hlasové údaje.
 
 ## FAQ
 
@@ -293,10 +302,12 @@ request-language-success-content = Čoskoro vám dáme vedieť, ako môžete pri
 ## Languages Overview
 
 language-section-in-progress = Jazyky, ktoré sa pripravujú
+language-section-in-progress-description = Tieto jazyky momentálne naše komunity pripravujú na prispievanie. Ich pokrok zobrazuje, ako ďaleko sú s prekladom stránky a so zberom viet.
 language-section-launched = Spustené
 languages-show-more = Zobraziť viac
 languages-show-less = Zobraziť menej
 language-speakers = Počet hovoriacich
+language-meter-in-progress = Pokrok
 language-total-progress = Celkovo
 language-search-input =
     .placeholder = Hľadať
@@ -305,9 +316,29 @@ language-search-input =
 
 action-click = Kliknite
 action-tap = Ťuknite
+contribute = Zapojte sa
 listen = Počúvajte
 skip = Preskočiť
 shortcuts = Skratky
 clips = Klipy
 goal-type-record = nahrávka
 goal-type-validation = overenie
+toward-goal = To je <goalPercentage></goalPercentage> z dnešného Common Voice cieľa { $goalType }. Ďakujeme
+record-again-instruction = Skvelé! <recordIcon></recordIcon>Nahrajte váš ďalší klip
+record-again-instruction2 = Vynikajúce, pokračujte v nahrávaní <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Ešte naposledy!
+unable-speak = Nemôžete práve teraz hovoriť?
+review-instruction = Skontrolujte nahrávky a v prípade potreby ich nahrajte znova
+clips-submitted =
+    { $count ->
+        [one] Bola odoslaná { $count } nahrávka
+        [few] Boli odoslané { $count } nahrávky
+       *[other] Bolo odoslaných { $count } nahrávok
+    }
+record-abort-title = Nechcete najprv dokončiť nahrávanie?
+record-abort-text = Ak teraz odídete, stratíte svoj pokrok
+record-abort-submit = Odoslať nahrávky
+record-abort-continue = Dokončiť nahrávanie
+record-abort-delete = Zavrieť a odstrániť nahrávky
+listen-last-time-instruction = <playIcon></playIcon> Posledná nahrávka!
+share-title-new = <bold>Pomôžte nám</bold> nájsť ďalšie hlasy

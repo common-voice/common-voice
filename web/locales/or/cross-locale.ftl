@@ -1,7 +1,7 @@
 ## Languages
 
+contribute = ଯୋଗଦିଅନ୍ତୁ
 get-involved-button = ଭାଗ ନିଅନ୍ତୁ
-get-involved-cancel = ବାହାରନ୍ତୁ
 get-involved-title = { $lang }ରେ ଯୋଗଦିଅନ୍ତୁ
 get-involved-text = ଆପଣଙ୍କୁ { $lang } ରେ ଯୋଗଦାନ ପାଇଁ ସାଧୁବାଦ । ଆମେ ସମସ୍ତ ଭାଷାକୁ ଆଣିବା ପାଇଁ କଠିନ ପରିଶ୍ରମ କରିଥାଉ ଆଉ ଦଳମାନଙ୍କୁ ଇମେଲ ଦ୍ୱାରା ଜଣଉଥାଉ । ଆପଣ ଯୋଗଦେବାକୁ ଚାହୁଁଥିଲେ ଦୟାକରି ତଳେ ନିଜ ଇମେଲ ଦେବେ ।
 get-involved-form-title = { $lang } ଅପଡେଟ ପାଇଁ ନାମ ଲେଖାନ୍ତୁ:

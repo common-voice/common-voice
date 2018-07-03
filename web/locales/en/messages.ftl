@@ -16,28 +16,38 @@ az = Azerbaijani
 bn = Bengali
 br = Breton
 ca = Catalan
+cnh = Hakha Chin
 cs = Czech
 cv = Chuvash
 cy = Welsh
 da = Danish
 de = German
+dsb = Sorbian, Lower
 el = Greek
 en = English
 es = Spanish
 et = Estonian
+fi = Finnish
+fo = Faroese
 fr = French
 fy-NL = Frisian
 ga-IE = Irish
 he = Hebrew
+hsb = Sorbian, Upper
 hu = Hungarian
 id = Indonesian
+is = Icelandic
 it = Italian
+ja = Japanese
 ka = Georgian
 kab = Kabyle
 kk = Kazakh
 ko = Korean
+kpv = Komi-Zyrian
 kw = Cornish
+ky = Kyrgyz
 mk = Macedonian
+myv = Erzya
 nb-NO = Norwegian Bokmål
 ne-NP = Nepali
 nl = Dutch
@@ -61,6 +71,7 @@ tt = Tatar
 uk = Ukrainian
 uz = Uzbek
 zh-CN = Chinese (China)
+zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
 # [/]
 
@@ -80,6 +91,9 @@ content-license-text = Content available under a <licenseLink>Creative Commons l
 share-title = Help us find others to donate their voice!
 share-text = Help teach machines how real people speak, donate your voice at { $link }
 back-top = Back to Top
+contribution-banner-text = We've just launched a new contribution experience
+contribution-banner-button = Take a look
+report-bugs-link = Help report bugs
 
 ## Home Page
 home-title =
@@ -301,19 +315,17 @@ listen = Listen
 skip = Skip
 shortcuts = Shortcuts
 clips = Clips
-goal-type-record = recording
-goal-type-validation = validation
-toward-goal = That's <goalPercentage></goalPercentage> toward today's Common Voice { $goalType } goal. Thank you
-goal-help = You've helped Common Voice reach <goalPercentage></goalPercentage> of its daily { $goalType } goal!
+goal-help-recording = You've helped Common Voice reach <goalPercentage></goalPercentage> of our daily { $goalValue } recording goal!
+goal-help-validation = You've helped Common Voice reach <goalPercentage></goalPercentage> of our daily { $goalValue } validation goal!
 contribute-more =
     { $count ->
        *[other] Ready to do { $count } more?
     }
 record-cta = Start recording
-record-instruction = { $actionType } <recordIcon></recordIcon>then read the sentence aloud
-record-stop-instruction = { $actionType } <stopIcon></stopIcon> when done
+record-instruction = { $actionType }<recordIcon></recordIcon> then read the sentence aloud
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> when done
 record-three-more-instruction = Three to go!
-record-again-instruction = Great! <recordIcon></recordIcon> Record your next clip
+record-again-instruction = Great!<recordIcon></recordIcon> Record your next clip
 record-again-instruction2 = Keep it up, record again <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Last one!
 review-tooltip = Review & re-record clips here as you go
@@ -329,10 +341,10 @@ record-abort-text = Leaving now means you'll lose your progress
 record-abort-submit = Submit clips
 record-abort-continue = Finish recording
 record-abort-delete = Exit & Delete clips
-listen-instruction = { $actionType } <playIcon></playIcon> did they accurately speak the sentence?
-listen-again-instruction = Great work! <playIcon></playIcon> Listen again when you're ready
-listen-3rd-time-instruction = 2 down, keep it up! <playIcon></playIcon>
-listen-last-time-instruction = <playIcon></playIcon> Last one!
+listen-instruction = { $actionType }<playIcon></playIcon> did they accurately speak the sentence?
+listen-again-instruction = Great work!<playIcon></playIcon> Listen again when you're ready
+listen-3rd-time-instruction = 2 down, keep it up!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Last one!
 share-title-new = <bold>Help us</bold> find more voices
 
 

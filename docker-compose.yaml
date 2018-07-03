@@ -24,4 +24,4 @@ services:
       - s3proxy
     ports:
       - 9000:9000
-    command: bash -c "/code/docker/prepare_s3.sh && yarn start"
+    command: bash -c "/code/docker/prepare_s3.sh && yarn && yarn start"

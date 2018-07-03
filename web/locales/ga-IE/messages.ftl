@@ -15,6 +15,8 @@ loading = Á lódáil...
 
 ## Languages
 
+as = Asaimis
+az = Asarbaiseáinis
 bn = Beangáilis
 br = Briotáinis
 ca = Catalóinis
@@ -27,18 +29,27 @@ el = Gréigis
 en = Béarla
 es = Spáinnis
 et = Eastóinis
+fi = Fionlainnis
+fo = Faróis
 fr = Fraincis
 fy-NL = Freaslannais
 ga-IE = Gaeilge
 he = Eabhrais
+hsb = Sorbais Uachtarach
 hu = Ungáiris
 id = Indinéisis
+is = Íoslainnis
 it = Iodáilis
+ja = Seapáinis
 ka = Seoirsis
 kab = Ceabáilis
+kk = Casaicis
 ko = Cóiréis
+kpv = Coimis
 kw = Coirnis
+ky = Cirgisis
 mk = Macadóinis
+myv = Éarsais
 nb-NO = Ioruais Bokmål
 ne-NP = Neipeailis
 nl = Ollainnis
@@ -48,6 +59,7 @@ pl = Polainnis
 pt-BR = Portaingéilis (An Bhrasaíl)
 ro = Rómáinis
 ru = Rúisis
+sah = Sachais
 sk = Slóvaicis
 sl = Slóivéinis
 sq = Albáinis
@@ -61,6 +73,7 @@ tt = Tatairis
 uk = Úcráinis
 uz = Úisbéicis
 zh-CN = Sínis (An tSín)
+zh-HK = Sínis (Hong Cong)
 zh-TW = Sínis (An Téaváin)
 
 # [/]
@@ -304,10 +317,6 @@ listen = Éist
 skip = Ar Aghaidh
 shortcuts = Aicearraí
 clips = Gearrthóga
-goal-type-record = taifeadtaí
-goal-type-validation = deimhnithe
-toward-goal = Sin <goalPercentage></goalPercentage> den sprioc laethúil Common Voice i gcomhair { $goalType }. Go raibh maith agat
-goal-help = Chabhraigh tú le Common Voice <goalPercentage></goalPercentage> dá sprioc laethúil i gcomhair { $goalType } a bhaint amach!
 contribute-more =
     { $count ->
         [one] An bhfuil tú réidh ceann amháin eile a dhéanamh?

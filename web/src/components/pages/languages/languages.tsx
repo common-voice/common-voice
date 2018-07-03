@@ -17,12 +17,15 @@ interface PropsFromState {
 
 interface Props extends PropsFromState {}
 
+type LanguageSection = 'in-progress' | 'launched';
+
 interface State {
   inProgress: any;
   launched: any;
   localeMessages: string[][];
-  selectedLanguageSection: 'in-progress' | 'launched';
-  showAll: boolean;
+  selectedSection: LanguageSection;
+  showAllInProgress: boolean;
+  showAllLaunched: boolean;
   showLanguageRequestModal: boolean;
   showSearch: boolean;
   query: string;
@@ -33,8 +36,9 @@ class LanguagesPage extends React.PureComponent<Props, State> {
     inProgress: [],
     launched: [],
     localeMessages: null,
-    selectedLanguageSection: 'launched',
-    showAll: false,
+    selectedSection: 'launched',
+    showAllInProgress: false,
+    showAllLaunched: false,
     showLanguageRequestModal: false,
     showSearch: false,
     query: '',
@@ -94,10 +98,22 @@ class LanguagesPage extends React.PureComponent<Props, State> {
     }
   }
 
-  toggleShowAll = () => this.setState(state => ({ showAll: !state.showAll }));
+  toggleShowAllInProgress = () =>
+    this.setState(state => ({ showAllInProgress: !state.showAllInProgress }));
+
+  toggleShowAllLaunched = () =>
+    this.setState(state => ({ showAllLaunched: !state.showAllLaunched }));
 
   toggleSearch = () =>
     this.setState(state => ({ showSearch: !state.showSearch, query: '' }));
+
+  changeSection = (section: LanguageSection) => {
+    this.setState({
+      selectedSection: section,
+      showAllInProgress: false,
+      showAllLaunched: false,
+    });
+  };
 
   handleQueryChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     this.setState({ query: event.target.value });
@@ -112,8 +128,9 @@ class LanguagesPage extends React.PureComponent<Props, State> {
       inProgress,
       launched,
       localeMessages,
-      selectedLanguageSection,
-      showAll,
+      selectedSection,
+      showAllInProgress,
+      showAllLaunched,
       showLanguageRequestModal,
       showSearch,
       query,
@@ -130,10 +147,10 @@ class LanguagesPage extends React.PureComponent<Props, State> {
                 .includes(q)
             );
           })
-        : showAll ? inProgress : inProgress.slice(0, 3);
+        : showAllInProgress ? inProgress : inProgress.slice(0, 3);
 
     return (
-      <div className={'selected-' + selectedLanguageSection}>
+      <div className={'selected-' + selectedSection}>
         <br />
 
         <div className="top">
@@ -182,21 +199,14 @@ class LanguagesPage extends React.PureComponent<Props, State> {
               <Localized id="language-section-launched">
                 <h2
                   className="launched"
-                  onClick={() =>
-                    this.setState({
-                      selectedLanguageSection: 'launched',
-                      showAll: false,
-                    })
-                  }
+                  onClick={this.changeSection.bind(this, 'launched')}
                 />
               </Localized>
 
               <Localized id="language-section-in-progress">
                 <h2
                   className="in-progress"
-                  onClick={() =>
-                    this.setState({ selectedLanguageSection: 'in-progress' })
-                  }
+                  onClick={this.changeSection.bind(this, 'in-progress')}
                 />
               </Localized>
 
@@ -249,18 +259,27 @@ class LanguagesPage extends React.PureComponent<Props, State> {
               </Localized>
               <ul>
                 {launched.length > 0
-                  ? launched.map((localization: any, i: number) => (
-                      <LocalizationBox
-                        key={i}
-                        localeMessages={localeMessages}
-                        type="launched"
-                        {...{ localization }}
-                      />
-                    ))
-                  : Array.from(Array(contributableLocales.length), (n, i) => (
-                      <LoadingLocalizationBox key={i} />
-                    ))}
+                  ? (showAllLaunched ? launched : launched.slice(0, 3)).map(
+                      (localization: any, i: number) => (
+                        <LocalizationBox
+                          key={i}
+                          localeMessages={localeMessages}
+                          type="launched"
+                          {...{ localization }}
+                        />
+                      )
+                    )
+                  : [1, 2, 3].map((n, i) => <LoadingLocalizationBox key={i} />)}
               </ul>
+
+              <Localized
+                id={'languages-show-' + (showAllLaunched ? 'less' : 'more')}>
+                <button
+                  disabled={launched.length === 0}
+                  className="show-all-languages"
+                  onClick={this.toggleShowAllLaunched}
+                />
+              </Localized>
             </section>
           )}
 
@@ -300,11 +319,12 @@ class LanguagesPage extends React.PureComponent<Props, State> {
             </ul>
 
             {!showSearch && (
-              <Localized id={'languages-show-' + (showAll ? 'less' : 'more')}>
+              <Localized
+                id={'languages-show-' + (showAllInProgress ? 'less' : 'more')}>
                 <button
                   disabled={inProgress.length === 0}
                   className="show-all-languages"
-                  onClick={this.toggleShowAll}
+                  onClick={this.toggleShowAllInProgress}
                 />
               </Localized>
             )}

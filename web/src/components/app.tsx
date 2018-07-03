@@ -45,13 +45,8 @@ const PRELOAD = [
   '/img/cv-logo-bw.svg',
   '/img/cv-logo-one-color-white.svg',
   '/img/robot-greetings.png',
-  '/img/robot-listening.png',
-  '/img/robot-thinking.png',
-  '/img/robot-thumbs-up.png',
   '/img/wave-blue-large.png',
   '/img/wave-blue-mobile.png',
-  '/img/wave-red-large.png',
-  '/img/wave-red-mobile.png',
   '/img/waves/_1.svg',
   '/img/waves/_2.svg',
   '/img/waves/_3.svg',
@@ -79,6 +74,7 @@ interface LocalizedPagesProps
 
 interface LocalizedPagesState {
   messagesGenerator: any;
+  uploadPercentage?: number;
 }
 
 const LocalizedLayout: any = withRouter(
@@ -93,6 +89,7 @@ const LocalizedLayout: any = withRouter(
       class extends React.Component<LocalizedPagesProps, LocalizedPagesState> {
         state: LocalizedPagesState = {
           messagesGenerator: null,
+          uploadPercentage: null,
         };
 
         isUploading = false;
@@ -105,6 +102,7 @@ const LocalizedLayout: any = withRouter(
           const { uploads, userLocales } = nextProps;
 
           this.runUploads(uploads).catch(e => console.error(e));
+
           window.onbeforeunload =
             uploads.length > 0
               ? e =>
@@ -124,11 +122,23 @@ const LocalizedLayout: any = withRouter(
         async runUploads(uploads: Uploads.State) {
           if (this.isUploading) return;
           this.isUploading = true;
-          for (const upload of uploads) {
-            await upload();
+          this.setState({ uploadPercentage: 0 });
+          for (let i = 0; i < uploads.length; i++) {
+            this.setState({ uploadPercentage: (i + 1) / (uploads.length + 1) });
+            const upload = uploads[i];
+            try {
+              await upload();
+            } catch (e) {
+              console.error('upload error', e);
+            }
             this.props.removeUpload(upload);
           }
+          this.setState({ uploadPercentage: null });
           this.isUploading = false;
+
+          if (this.props.uploads.length > 0) {
+            await this.runUploads(this.props.uploads);
+          }
         }
 
         async prepareMessagesGenerator({
@@ -153,31 +163,43 @@ const LocalizedLayout: any = withRouter(
             this.props.setLocale(userLocales[0]);
           }
 
+          document.documentElement.setAttribute('lang', mainLocale);
+
           this.setState({
             messagesGenerator: await createMessagesGenerator(api, userLocales),
           });
         }
 
         render() {
-          const { messagesGenerator } = this.state;
           const { toLocaleRoute } = this.props;
+          const { messagesGenerator, uploadPercentage } = this.state;
           return (
             messagesGenerator && (
-              <LocalizationProvider messages={messagesGenerator}>
-                <Switch>
-                  <Route
-                    exact
-                    path={toLocaleRoute(URLS.SPEAK)}
-                    component={SpeakPage}
-                  />
-                  <Route
-                    exact
-                    path={toLocaleRoute(URLS.LISTEN)}
-                    component={ListenPage}
-                  />
-                  <Layout />
-                </Switch>
-              </LocalizationProvider>
+              <div>
+                <div
+                  className="upload-progress"
+                  style={
+                    uploadPercentage === null
+                      ? { opacity: 0, width: '100%', background: '#59cbb7' }
+                      : { opacity: 1, width: uploadPercentage * 100 + '%' }
+                  }
+                />
+                <LocalizationProvider messages={messagesGenerator}>
+                  <Switch>
+                    <Route
+                      exact
+                      path={toLocaleRoute(URLS.SPEAK)}
+                      component={SpeakPage}
+                    />
+                    <Route
+                      exact
+                      path={toLocaleRoute(URLS.LISTEN)}
+                      component={ListenPage}
+                    />
+                    <Layout />
+                  </Switch>
+                </LocalizationProvider>
+              </div>
             )
           );
         }

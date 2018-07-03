@@ -127,7 +127,7 @@ class LocalizationBox extends React.PureComponent<Props, State> {
 
   goToContribute = () => {
     const { history, localization } = this.props;
-    history.push(toLocaleRouteBuilder(localization.locale.code)(URLS.RECORD));
+    history.push(toLocaleRouteBuilder(localization.locale.code)(URLS.SPEAK));
   };
 
   render() {

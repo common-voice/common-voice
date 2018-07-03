@@ -1,10 +1,8 @@
 import * as fs from 'fs';
 import * as http from 'http';
 import * as path from 'path';
-import * as commonmark from 'commonmark';
 import * as express from 'express';
 import { NextFunction, Request, Response } from 'express';
-import * as request from 'request-promise-native';
 import Model from './lib/model';
 import API from './lib/api';
 import Logger from './lib/logger';
@@ -18,6 +16,7 @@ import { importSentences } from './lib/model/db/import-sentences';
 import { getConfig } from './config-helper';
 import authRouter from './auth-router';
 import { router as adminRouter } from './admin';
+import fetchLegalDocument from './fetch-legal-document';
 
 const FULL_CLIENT_PATH = path.join(__dirname, '../web');
 
@@ -131,52 +130,17 @@ export default class Server {
     });
   }
 
-  // cache it for a day
-  documentCache: { [name: string]: { [locale: string]: string } } = {};
-  private async fetchDocument(name: string, locale: string) {
-    if (!this.documentCache[name]) this.documentCache[name] = {};
-
-    let textHTML = this.documentCache[name][locale];
-
-    if (!textHTML) {
-      const [status, text] = await request({
-        uri: `https://raw.githubusercontent.com/mozilla/legal-docs/master/Common_Voice_${name}/${locale}.md`,
-        resolveWithFullResponse: true,
-      })
-        .then((response: any) => [response.statusCode, response.body])
-        .catch(response => [response.statusCode, null]);
-      if (status >= 400 && status < 500) {
-        textHTML = (await Promise.all(
-          ['en', 'es-CL', 'fr', 'pt-BR', 'zh-TW'].map(locale =>
-            this.fetchDocument(name, locale)
-          )
-        )).join('<br>');
-      } else if (status < 300) {
-        textHTML = new commonmark.HtmlRenderer().render(
-          new commonmark.Parser().parse(
-            // There's a parseable datetime string in the legal documents, which we don't need to show
-            (text as string).replace(/{:\sdatetime=".*" }/, '')
-          )
-        );
-      }
-    }
-
-    this.documentCache[name][locale] = textHTML;
-
-    return textHTML;
-  }
-
   private setupPrivacyAndTermsRoutes() {
     this.app.get(
       '/privacy/:locale.html',
       async ({ params: { locale } }, response) => {
-        response.send(await this.fetchDocument('Privacy_Notice', locale));
+        response.send(await fetchLegalDocument('Privacy_Notice', locale));
       }
     );
     this.app.get(
       '/terms/:locale.html',
       async ({ params: { locale } }, response) => {
-        response.send(await this.fetchDocument('Terms', locale));
+        response.send(await fetchLegalDocument('Terms', locale));
       }
     );
   }

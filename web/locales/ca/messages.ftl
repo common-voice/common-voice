@@ -15,9 +15,12 @@ loading = S'està carregant…
 
 ## Languages
 
+as = assamès
+az = àzeri
 bn = bengalí
 br = bretó
 ca = català
+cnh = Hakha Chin
 cs = txec
 cv = txuvaix
 cy = gal·lès
@@ -27,18 +30,27 @@ el = grec
 en = anglès
 es = espanyol
 et = estonià
+fi = finès
+fo = feroès
 fr = francès
 fy-NL = frisó
 ga-IE = irlandès
 he = hebreu
+hsb = alt sòrab
 hu = hongarès
 id = indonesi
+is = islandès
 it = italià
+ja = japonès
 ka = georgià
 kab = cabilenc
+kk = kazakh
 ko = coreà
+kpv = komi
 kw = còrnic
+ky = kirguís
 mk = macedònic
+myv = mordovià erza
 nb-NO = Bokmål noruec
 ne-NP = nepalès
 nl = neerlandès
@@ -48,6 +60,7 @@ pl = polonès
 pt-BR = portuguès (Brasil)
 ro = romanès
 ru = rus
+sah = iacut
 sk = eslovac
 sl = eslovè
 sq = albanès
@@ -61,6 +74,7 @@ tt = tàtar
 uk = ucraïnès
 uz = uzbek
 zh-CN = xinès (Xina)
+zh-HK = xinès (Hong Kong)
 zh-TW = xinès (Taiwan)
 
 # [/]
@@ -80,17 +94,20 @@ terms = Condicions d'ús
 cookies = Galetes
 faq = PMF
 content-license-text = Contingut disponible en els termes de la <licenseLink>llicència Creative Commons</licenseLink>
-share-title = Ajudeu-nos a trobar altres persones que donin la veu!
-share-text = Ajudeu a ensenyar a les màquines com parla la gent real. Doneu la vostra veu a { $link }
+share-title = Ajudeu-nos a trobar més persones que donin la veu!
+share-text = Ensenyeu a les màquines com parlem la gent de debò. Col·laboreu amb la vostra veu a { $link }
 back-top = Torna a dalt
+contribution-banner-text = Hem millorat el disseny de la interfície de col·laboració
+contribution-banner-button = Prova-la
+report-bugs-link = Ajudeu a notificar errors
 
 ## Home Page
 
-home-title = El projecte Common Voice és una iniciativa de Mozilla que ajuda a les màquines a aprendre com parlen les persones reals.
-home-cta = Alceu la veu! Contribuïu-hi!
+home-title = El projecte Common Voice és la iniciativa de Mozilla per ajudar les màquines a aprendre com parlem les persones de debò.
+home-cta = Alceu la veu i col·laboreu-hi!
 wall-of-text-start = La veu és natural, la veu és humana. És per això que volem crear tecnologies de veu de qualitat per a les màquines. Però el desenvolupament d'aquests sistemes requereix un gran volum de dades de veu.
 wall-of-text-more-mobile = La majoria de les dades usades per grans companyies no estan disponibles per a tothom. Considerem que això frena la innovació. Per això, hem iniciat el projecte Common Voice, per tal de fer que la tecnologia de reconeixement de la veu estigui oberta a tothom.
-wall-of-text-more-desktop = Ara podeu donar la vostra veu per a ajudar-nos a construir una base de dades de veu amb llicència oberta que qualsevol pot usar per a desenvolupar aplicacions innovadores per als aparells i el web.<lineBreak></lineBreak>Llegiu una frase per a ajudar les màquines a aprendre com parlen les persones reals. Reviseu la feina d'altres col·laboradors per a millorar la qualitat. Així de fàcil!
+wall-of-text-more-desktop = Ara podeu donar la vostra veu per ajudar-nos a construir una base de dades de veu amb llicència oberta que qualsevol pot usar per a desenvolupar aplicacions innovadores per als aparells i el web.<lineBreak></lineBreak>Llegiu una frase per ajudar les màquines a aprendre com parlem les persones de debò. Reviseu la feina d'altres col·laboradors per a millorar la qualitat. Així de fàcil!
 show-wall-of-text = Més informació
 help-us-title = Ajudeu-nos a validar frases!
 help-us-explain = Premeu el botó de reproducció, escolteu i digueu-nos si l'àudio correspon exactament a la frase de sota:
@@ -108,7 +125,7 @@ shortcut-skip = o
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-play-toggle = p
+shortcut-play-toggle = r
 shortcut-play-toggle-label = Reprodueix/atura
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
@@ -121,7 +138,7 @@ shortcut-vote-no = n
 
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-record-toggle = r
+shortcut-record-toggle = e
 shortcut-record-toggle-label = Enregistra/atura
 request-language-text = No trobeu la vostra llengua al Common Voice?
 request-language-button = Sol·licita una llengua
@@ -129,7 +146,7 @@ request-language-button = Sol·licita una llengua
 ## ProjectStatus
 
 status-title = Estat general del projecte: veieu fins on hem arribat!
-status-contribute = Col·laboreu amb la vostra veu
+status-contribute = Col·laboreu-hi amb la vostra veu
 status-hours =
     { $hours ->
         [one] Ja s'ha validat { $hours } hora!
@@ -245,7 +262,7 @@ review-terms = En usar Common Voice, accepteu les <termsLink>condicions d'ús</t
 terms-agree = D'acord
 terms-disagree = No hi estic d'acord
 review-aborted = S'ha cancel·lat l'enviament. Voleu suprimir els vostres enregistraments?
-review-submit-title = Revisa i envia
+review-submit-title = Reviseu i envieu-ho
 review-submit-msg = Gràcies pel vostre enregistrament!<lineBreak></lineBreak>A continuació podeu revisar i enviar els vostres talls de veu.
 review-recording = Revisa
 review-rerecord = Torna a enregistrar
@@ -284,8 +301,8 @@ request-language-success-content = Aviat ens posarem en contacte amb més inform
 
 language-section-in-progress = En curs
 language-section-in-progress-description = Les llengües en curs s'estan preparant per rebre contribucions de la comunitat. El seu progrés reflecteix l'estat en què es troben pel que fa a la traducció del lloc web i a la recol·lecció de frases.
-language-section-launched = Publicades
-language-section-launched-description = Les llengües publicades tenen el lloc web totalment traduït i s'han recollit frases suficients per permetre les col·laboracions (<italic>{ speak }</italic> i <italic>{ listen }</italic>).
+language-section-launched = En producció
+language-section-launched-description = Les llengües en producció tenen el lloc web totalment traduït i s'han recollit frases suficients per permetre les col·laboracions (<italic>{ speak }</italic> i <italic>{ listen }</italic>).
 languages-show-more = Mostra'n més
 languages-show-less = Mostra'n menys
 language-speakers = Parlants
@@ -298,43 +315,41 @@ language-search-input =
 
 action-click = Feu clic a
 action-tap = Toqueu
-contribute = Col·laboreu-hi
+contribute = Col·laboreu‑hi
 listen = Escolta
 skip = Omet
 shortcuts = Dreceres
-clips = Talls
-goal-type-record = enregistrament
-goal-type-validation = validació
-toward-goal = Manca un <goalPercentage></goalPercentage> per arribar a l'objectiu { $goalType } d'avui del Common Voice
-goal-help = Heu ajudat al Common Voice a aconseguir el <goalPercentage></goalPercentage> de l'objectiu diari de { $goalType }!
+clips = talls
+goal-help-recording = Heu ajudat el Common Voice a assolir el <goalPercentage></goalPercentage> de l'objectiu diari de { $goalValue } enregistraments!
+goal-help-validation = Heu ajudat el Common Voice a assolir el <goalPercentage></goalPercentage> de l'objectiu diari de { $goalValue } validacions!
 contribute-more =
     { $count ->
         [one] Preparat per fer-ne { $count } més?
        *[other] Preparat per fer-ne { $count } més?
     }
-record-cta = Inicia l'enregistrament
-record-instruction = { $actionType } <recordIcon></recordIcon>després llegiu la frase en veu alta
+record-cta = Enregistreu
+record-instruction = { $actionType } <recordIcon></recordIcon>i llegiu la frase en veu alta
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> quan hàgiu acabat
 record-three-more-instruction = Només en falten tres!
 record-again-instruction = Molt bé! <recordIcon></recordIcon> Enregistreu un altre tall
 record-again-instruction2 = Seguiu així! Enregistreu-ne un altre <recordIcon></recordIcon>
 record-last-instruction = <checkIcon></checkIcon> L'últim!
-review-tooltip = Reviseu i torneu a enregistrar talls des d'aquí, allà on sigueu
+review-tooltip = Reviseu i torneu a enregistrar talls des d'aquí mateix
 unable-speak = No podeu parlar, ara?
 review-instruction = Reviseu els talls i, si cal, torneu-los a enregistrar
 record-submit-tooltip = { $actionType } Envia quan hàgiu enllestit
 clips-submitted =
     { $count ->
-        [one] S'ha enviat { $count } enregistrament!
-       *[other] S'han enviat { $count } enregistraments!
+        [one] { $count } enregistrament enviat!
+       *[other] { $count } enregistraments enviats!
     }
 record-abort-title = Voleu acabar l'enregistrament primer?
 record-abort-text = Si sortiu ara, perdreu el vostre progrés
 record-abort-submit = Envia els talls
 record-abort-continue = Finalitza l'enregistrament
 record-abort-delete = Surt i suprimeix els talls
-listen-instruction = { $actionType } <playIcon></playIcon> Han pronunciat correctament la frase?
+listen-instruction = { $actionType } <playIcon></playIcon> Han pronunciat la frase correctament?
 listen-again-instruction = Bona feina! <playIcon></playIcon> Escolteu una altra vegada quan estigueu a punt
 listen-3rd-time-instruction = 2 menys! Mantingueu el ritme! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> L'últim!
-share-title-new = <bold>Ajudeu-nos</bold>a trobar més veus
+share-title-new = <bold>Ajudeu-nos</bold> a trobar més veus

@@ -38,13 +38,11 @@ export default class DB {
 
   /**
    * Normalize email address as input.
-   * TODO: add validation here.
    */
   private formatEmail(email?: string): string {
     if (!email) {
       return '';
     }
-
     return email.toLowerCase();
   }
 
@@ -67,18 +65,19 @@ export default class DB {
   /**
    * Insert or update user client row.
    */
-  async updateUser(client_id: string, fields: any): Promise<void> {
+  async updateUser(client_id: string, fields: any): Promise<any> {
     let { age, accents, email, gender } = fields;
     email = this.formatEmail(email);
     await Promise.all([
       email &&
         this.user.update({
           email,
-          ...pick(fields, 'send_emails', 'has_downloaded'),
+          ...pick(fields, 'send_emails', 'has_downloaded', 'basket_token'),
         }),
       this.userClient.update({ client_id, email, age, gender }),
     ]);
     accents && (await this.saveAccents(client_id, accents));
+    return this.getUser(email);
   }
 
   async getOrSetUserBucket(client_id: string, locale: string, bucket: string) {
@@ -525,5 +524,23 @@ export default class DB {
         `
       ),
     ]);
+  }
+
+  async createSkippedSentence(id: string, client_id: string) {
+    await this.mysql.query(
+      `
+        INSERT INTO skipped_sentences (sentence_id, client_id) VALUES (?, ?) 
+      `,
+      [id, client_id]
+    );
+  }
+
+  async getUser(email: string) {
+    return (await this.mysql.query(
+      `
+        SELECT * FROM users WHERE email = ?
+      `,
+      [email]
+    ))[0][0];
   }
 }

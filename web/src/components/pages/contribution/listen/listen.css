@@ -41,7 +41,7 @@
         }
     }
 
-    & .vote-button, & .vote-button-placeholder {
+    & .vote-button {
         width: 100px;
         height: 46px;
 
@@ -73,7 +73,7 @@
         &.yes {
             box-shadow: var(--vote-button-box-shadow) color(var(--valid-green) alpha(30%));
 
-            &:hover {
+            &:hover, &:active {
                 background: var(--valid-green);
                 box-shadow: var(--vote-button-box-shadow) color(var(--valid-green) alpha(70%));
             }
@@ -82,17 +82,27 @@
         &.no {
             box-shadow: var(--vote-button-box-shadow) color(var(--red) alpha(20%));
 
-            &:hover {
+            &:hover, &:active {
                 background: var(--red);
                 box-shadow: var(--vote-button-box-shadow) color(var(--red) alpha(60%));
             }
         }
 
-        &:hover {
-            color: white;
+        &:hover, &:active {
+            color: var(--white);
 
             & path {
-                fill: white;
+                fill: var(--white);
+            }
+        }
+
+        &.yes:disabled, &.no:disabled {
+            color: var(--near-black);
+            background: var(--white);
+            box-shadow: var(--vote-button-box-shadow) color(var(--grey) alpha(80%));
+
+            & path {
+                fill: var(--near-black);
             }
         }
 

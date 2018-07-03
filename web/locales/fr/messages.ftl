@@ -15,9 +15,12 @@ loading = Chargement…
 
 ## Languages
 
+as = Assamais
+az = Azerbaïdjanais
 bn = Bengali
 br = Breton
 ca = Catalan
+cnh = Hakha Chin
 cs = Tchèque
 cv = Tchouvache
 cy = Gallois
@@ -27,18 +30,27 @@ el = Grec
 en = Anglais
 es = Espagnol
 et = Estonien
+fi = Finnois
+fo = Féroïen
 fr = Français
 fy-NL = Frison
 ga-IE = Irlandais
 he = Hébreu
+hsb = Haut-sorabe
 hu = Hongrois
 id = Indonésien
+is = Islandais
 it = Italien
+ja = Japonais
 ka = Géorgien
 kab = Kabyle
+kk = Kazakh
 ko = Coréen
+kpv = Komi-zyriène
 kw = Cornique
+ky = Kirghize
 mk = Macédonien
+myv = Erzya
 nb-NO = Norvégien bokmål
 ne-NP = Népalais
 nl = Néerlandais
@@ -48,6 +60,7 @@ pl = Polonais
 pt-BR = Portugais (Brésil)
 ro = Roumain
 ru = Russe
+sah = Iakoute
 sk = Slovaque
 sl = Slovène
 sq = Albanais
@@ -61,6 +74,7 @@ tt = Tatar
 uk = Ukrainien
 uz = Ouzbek
 zh-CN = Chinois (Chine)
+zh-HK = Chinois (Hong-Kong)
 zh-TW = Chinois (Taïwan)
 
 # [/]
@@ -83,6 +97,9 @@ content-license-text = Contenu disponible sous licence <licenseLink>Creative Com
 share-title = Aidez-nous à collecter davantage de voix !
 share-text = Aidez les machines à apprendre à parler comme de vraies personnes en donnant votre voix sur { $link }
 back-top = Haut de la page
+contribution-banner-text = Nous avons ajouté une toute nouvelle façon de contribuer
+contribution-banner-button = L’essayer
+report-bugs-link = Signaler des dysfonctionnements
 
 ## Home Page
 
@@ -305,10 +322,8 @@ listen = Écouter
 skip = Passer
 shortcuts = Raccourcis
 clips = extraits
-goal-type-record = d’enregistrement
-goal-type-validation = de validation
-toward-goal = C’est <goalPercentage></goalPercentage> de l’objectif { $goalType } quotidien de Common Voice. Merci
-goal-help = Grâce à vous, Common Voice a atteint <goalPercentage></goalPercentage> de son objectif quotidien { $goalType } !
+goal-help-recording = Grâce à vous, Common Voice a atteint <goalPercentage></goalPercentage> de son objectif quotidien de { $goalValue } enregistrements !
+goal-help-validation = Grâce à vous, Common Voice a atteint <goalPercentage></goalPercentage> de son objectif quotidien de { $goalValue } validations !
 contribute-more = Prêt à en faire { $count } de plus ?
 record-cta = Commencer l’enregistrement
 record-instruction = { $actionType } <recordIcon></recordIcon> puis lisez la phrase à haute voix.

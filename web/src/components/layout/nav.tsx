@@ -9,15 +9,9 @@ import './nav.css';
 export default ({ children, ...props }: { [key: string]: any }) => (
   <nav {...props} className="nav-list">
     <ContributableLocaleLock>
-      {isProduction() ? (
-        <Localized id="speak">
-          <LocaleNavLink to={URLS.RECORD} exact />
-        </Localized>
-      ) : (
-        <Localized id="contribute">
-          <LocaleNavLink to={URLS.SPEAK} exact />
-        </Localized>
-      )}
+      <Localized id="contribute">
+        <LocaleNavLink to={URLS.SPEAK} exact />
+      </Localized>
     </ContributableLocaleLock>
     <Localized id="datasets">
       <LocaleNavLink to={URLS.DATA} exact />

@@ -76,7 +76,7 @@ interface PropsFromState {
 }
 
 interface PropsFromDispatch {
-  addUpload: typeof Uploads.actions.add;
+  addUploads: typeof Uploads.actions.add;
   removeSentences: typeof Recordings.actions.removeSentences;
   tallyRecording: typeof User.actions.tallyRecording;
   updateUser: typeof User.actions.update;
@@ -278,10 +278,11 @@ class SpeakPage extends React.Component<Props, State> {
   };
 
   private handleSkip = async () => {
-    const { removeSentences, sentences } = this.props;
+    const { api, removeSentences, sentences } = this.props;
     const { clips } = this.state;
     await this.discardRecording();
-    removeSentences([clips[this.getRecordingIndex()].sentence.id]);
+    const { id } = clips[this.getRecordingIndex()].sentence;
+    removeSentences([id]);
     this.setState({
       clips: clips.map(
         (clip, i) =>
@@ -289,12 +290,14 @@ class SpeakPage extends React.Component<Props, State> {
             ? { recording: null, sentence: sentences.slice(SET_COUNT)[0] }
             : clip
       ),
+      error: null,
     });
+    await api.skipSentence(id);
   };
 
   private upload = async (hasAgreed: boolean = false) => {
     const {
-      addUpload,
+      addUploads,
       api,
       locale,
       removeSentences,
@@ -311,19 +314,34 @@ class SpeakPage extends React.Component<Props, State> {
 
     this.setState({ clips: [], isSubmitted: true });
 
-    for (const { sentence, recording } of clips) {
-      addUpload(async () => {
-        await api.uploadClip(recording.blob, sentence.id, sentence.text);
-        tallyRecording();
-      });
-    }
+    addUploads([
+      ...clips.map(({ sentence, recording }) => async () => {
+        let retries = 3;
+        while (retries) {
+          try {
+            await api.uploadClip(recording.blob, sentence.id, sentence.text);
+            tallyRecording();
+            retries = 0;
+          } catch (e) {
+            console.error(e);
+            retries--;
+            await new Promise(resolve => setTimeout(resolve, 1000));
+            if (
+              retries == 0 &&
+              confirm('Upload of this clip keeps failing, keep retrying?')
+            ) {
+              retries = 3;
+            }
+          }
+        }
+      }),
+      async () => {
+        await api.syncDemographics();
+        trackRecording('submit', locale);
+      },
+    ]);
 
     removeSentences(clips.map(c => c.sentence.id));
-
-    addUpload(async () => {
-      await api.syncDemographics();
-      trackRecording('submit', locale);
-    });
   };
 
   private resetState = (callback?: any) =>
@@ -517,7 +535,7 @@ const mapStateToProps = (state: StateTree) => {
 };
 
 const mapDispatchToProps = {
-  addUpload: Uploads.actions.add,
+  addUploads: Uploads.actions.add,
   removeSentences: Recordings.actions.removeSentences,
   tallyRecording: User.actions.tallyRecording,
   updateUser: User.actions.update,

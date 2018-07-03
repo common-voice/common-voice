@@ -1,16 +1,10 @@
 import Mysql from '../mysql';
 import { default as Table } from '../table';
 
-export interface UpdatableUserFields {
-  email?: string;
-  send_emails?: boolean;
-  has_downloaded?: boolean;
-}
-
 /**
  * Handles transactions with the user table.
  */
-export class UserTable extends Table<UpdatableUserFields> {
+export class UserTable extends Table {
   constructor(mysql: Mysql) {
     super('users', mysql);
   }
@@ -18,7 +12,7 @@ export class UserTable extends Table<UpdatableUserFields> {
   /**
    * Update and Insert user record.
    */
-  async update(fields: UpdatableUserFields): Promise<void> {
+  async update(fields: any): Promise<void> {
     await super.update(fields);
     const [[user]] = await this.mysql.query(
       `SELECT * FROM ${this.getName()} WHERE email = ?`,

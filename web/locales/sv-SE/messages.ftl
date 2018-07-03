@@ -20,6 +20,7 @@ az = Azerbajdzjanska
 bn = Bengaliska
 br = Bretonska
 ca = Katalanska
+cnh = Burmesiska
 cs = Tjeckiska
 cv = Tjuvasjiska
 cy = Walesiska
@@ -29,19 +30,27 @@ el = Grekiska
 en = Engelska
 es = Spanska
 et = Estländska
+fi = Finska
+fo = Färöiska
 fr = Franska
 fy-NL = Frisiska
 ga-IE = Irländska
 he = Hebreiska
+hsb = Högsorbiska
 hu = Ungerska
 id = Indonesiska
+is = Isländska
 it = Italienska
+ja = Japanska
 ka = Georgiska
 kab = Kabyliska
 kk = Kazakstanska
 ko = Koreanska
+kpv = Komi-syrjänska
 kw = Korniska
+ky = Kirgiziska
 mk = Makedonska
+myv = Erzya
 nb-NO = Norska Bokmål
 ne-NP = Nepali
 nl = Nederländska
@@ -51,6 +60,7 @@ pl = Polska
 pt-BR = Portugisiska (Brasilien)
 ro = Rumänska
 ru = Ryska
+sah = Sakha
 sk = Slovakiska
 sl = Slovenska
 sq = Albanska
@@ -64,6 +74,7 @@ tt = Tatariska
 uk = Ukrainska
 uz = Uzbekistanska
 zh-CN = Kinesiska (Kina)
+zh-HK = Kinesiska (Hong Kong)
 zh-TW = Kinesiska (Taiwan)
 
 # [/]
@@ -86,6 +97,7 @@ content-license-text = Innehåll tillgängligt under en <licenseLink>Creative Co
 share-title = Hjälp oss att hitta andra som är redo att bidra med sin röst!
 share-text = Hjälp till att lära maskiner hur riktiga människor pratar, donera din röst på { $link }
 back-top = Tillbaka till toppen av sidan
+report-bugs-link = Hjälp oss att rapportera buggar
 
 ## Home Page
 
@@ -195,7 +207,7 @@ faq-hours-q = Varför är 10 000 timmar målet för inspelningen av ljud?
 faq-hours-a = Det är ungefär det antal timmar som krävs för att träna ett röst-till-tal system.
 faq-source-q = Var kommer källtexten ifrån?
 faq-source-a1 = De nuvarande meningarna kommer från bidragsgivare samt från dialoger från filmer som är "public domain" som till exempel filmen <italic>It’s a Wonderful Life.</italic>
-faq-source-a2 = Du kan se våra källmeningar i <dataLink>denna GitHub mapp</dataLink>
+faq-source-a2 = Du kan se våra källmeningar i <dataLink>denna GitHub-mapp</dataLink>
 
 ## Profile
 
@@ -308,8 +320,8 @@ shortcuts = Genvägar
 clips = Klipp
 goal-type-record = inspelning
 goal-type-validation = validering
+# $goalType will either be the string goal-type-record or goal-type-validation
 toward-goal = Det är <goalPercentage></goalPercentage> närmare dagens Common Voice { $goalType } mål. Tack
-goal-help = Du har hjälpt till att nå Common Voice <goalPercentage></goalPercentage> av det dagliga målet { $goalType }!
 contribute-more =
     { $count ->
         [one] Redo att göra { $count } till?

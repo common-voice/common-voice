@@ -26,7 +26,7 @@ export function trackRecording(
 }
 
 export function trackListening(
-  action: 'listen' | 'vote-yes' | 'vote-no' | 'shortcut',
+  action: 'listen' | 'listen-home' | 'vote-yes' | 'vote-no' | 'shortcut',
   locale: string
 ) {
   track('Listening', action, locale);

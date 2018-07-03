@@ -1,7 +1,7 @@
 ## Languages
 
-contribute = Col·laboreu-hi
-get-involved-button = Col·laboreu-hi
+contribute = Col·laboreu‑hi
+get-involved-button = Col·laboreu‑hi
 get-involved-title = Col·labora en { $lang }
 get-involved-text = Gràcies pel vostre interès a col·laborar en { $lang }. Treballem dur per aconseguir que totes les llengües estiguin enllestides per al llançament i mantenim els equips informats per correu electrònic. Si voleu col·laborar, indiqueu la vostra adreça electrònica a continuació.
 get-involved-form-title = Subscriviu-vos per rebre actualitzacions sobre el { $lang }:
