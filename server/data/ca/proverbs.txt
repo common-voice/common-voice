@@ -49,7 +49,7 @@ A cada porta, la seva clau.
 A cada roscada perdem un llençol.
 A cada sant li arriba el seu dia.
 A cada sant, el seu ciri.
-A cadascú el que siga seu i l'encens per Déu.
+A cadascú el que siga seu i l'encens per a Déu.
 A cadascú el que siga seu, i a robar el que es puga.
 A cadascú el que sigui seu, i robar el que es pugui.
 A camí llarg, passa curta.
@@ -3762,7 +3762,6 @@ Hi ha més anys que capellans.
 Hi ha més caps que barrets.
 Hi ha més dies que llonganisses i més setmanes que botifarres.
 Hi ha més dies que llonganisses, i més hores que botifarres.
-Hi ha més dies que llonganisses, i més setmanes que botifarres.
 Hi ha més dies que llonganisses.
 Hi ha més doctors que malalts i cada dia hi ha més mals.
 Hi ha més metges que malalts.
@@ -3781,7 +3780,6 @@ Hivern gelat, fruita a grapats.
 Hivern molt assolellat, estiu molt ventat.
 Hivern plujós, estiu abundós.
 Hivern plujós, estiu perillós.
-Ho diu, responent a alguna crítica o comparança, qui té bellesa, intel·ligència, diners o abundància física.
 Home baixet, home de pet.
 Home brut, sembla un perdut.
 Home casat, burro espatlat.
@@ -3831,7 +3829,6 @@ Hostes i peix menut, al cap de tres dies put.
 Hostes vindran que de casa ens trauran.
 Hostes vingueren que de casa ens tragueren.
 Hui per mi, demà per tu.
-Humitats d'abril fan fer fill.
 Humitats d'abril fan fer llit.
 I què hem de fer: vendre la casa i pagar lloguer.
 Igual és un regle que no estiga tort.
@@ -5259,7 +5256,6 @@ No sempre el foc del cor fuma per la boca.
 No sempre farà el mateix temps.
 No són els anys els qui fan vell.
 No t'agrades d'advocat, que no diu la veritat.
-No t'agradin les dones, que freqüenten aplecs i bodes.
 No t'embarques per l'abril si no vols estar en perill.
 No t'estigues de sembrar per por dels ocells i per les formigues.
 No t'estiguis de sembrar pels ocells i per les formigues.
