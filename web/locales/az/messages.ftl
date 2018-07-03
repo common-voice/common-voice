@@ -20,6 +20,7 @@ az = Azərbaycanca
 bn = Benqal dili
 br = Breton dili
 ca = Katalan dili
+cnh = Xaka Çin dili
 cs = Çexcə
 cv = Çuvaşca
 cy = Qalca
@@ -29,19 +30,27 @@ el = Yunanca
 en = İngiliscə
 es = İspanca
 et = Estonca
+fi = Fincə
+fo = Farer dili
 fr = Fransızca
 fy-NL = Frizcə
 ga-IE = İrlandca
 he = İvrit dili
+hsb = Yuxarı Sorb dili
 hu = Macarca
 id = İndoneziya dili
+is = İsland dili
 it = İtalyanca
+ja = Yaponca
 ka = Gürcücə
 kab = Kabile dili
 kk = Qazaxca
 ko = Koreya dili
+kpv = Komi-zıryan dili
 kw = Korniş dili
+ky = Qırğızca
 mk = Makedon dili
+myv = Erzyan dili
 nb-NO = Norveç Bukmolu
 ne-NP = Nepal dili
 nl = Hollandca
@@ -65,6 +74,7 @@ tt = Tatarca
 uk = Ukrayna dili
 uz = Özbəkcə
 zh-CN = Çincə (Çin)
+zh-HK = Çincə (Honq Konq)
 zh-TW = Çincə (Tayvan)
 
 # [/]
@@ -87,6 +97,9 @@ content-license-text = Məzmun <licenseLink>Creative Commons lisenziyası</licen
 share-title = Səsini ianə edəcək başqa insanları tapmağa kömək et!
 share-text = Maşınlara real insanların necə danışdıqlarını öyrətməyə kömək et, səsinizi ianə edin: { $link }
 back-top = Üstə Qayıt
+contribution-banner-text = Yeni dəstək interfeysini yayına aldıq
+contribution-banner-button = Göz gəzdir
+report-bugs-link = Xətaları bildirməyə kömək et
 
 ## Home Page
 
@@ -181,8 +194,12 @@ profile-explanation = Profil yaradaraq müvəffəqiyyətlərinizi izləyə və s
 
 faq-title = Çox Soruşulan Suallar
 faq-what-q = Common Voice nədir?
+faq-what-a = Səs tanıma texnologiyaları maşınlarla necə əlaqə saxladığımızı çox innovativ halda dəyişə bilər, amma hazırda olan sistemlər çox bahadırlar və özəl mülkdürlər. Common Voice səs texnologiyalarını hər kəs üçün əlçatan hala gətirmək üçün yaradılmış proyektdir. İnsanlar öz səslərini böyük məlumat bazasına ianə edirlər və bu baza da hər kəsə səsli tətbiqlərini qısa vaxtda hazırlama imkanı yaradacaq. Bütün səs məlumatları tərtibatçılara açıq olacaq.
 faq-important-q = Bu niyə vacibdir?
+faq-important-a = Səs naturaldır, səs insancadır. Əlaqənin ən asan və ən təbii növüdür. Biz tərtibatçıların canlı tərcüməçidən səsli administrativ köməkçilərə qədər möhtəşəm tətbiqləri yarada bilmələrini istəyirik. Hazırda bu cür tətbiqləri yarada bilmək üçün yetərincə ictimai məlumat yoxdur. Ümid edirik ki, Common Voice tərtibatçılara innovasiyalar üçün olan ehtiyyaclarını qarşılamaqda kömək edəcək.
 faq-get-q = Common Voice məlumatlarını necə əldə edə bilərəm?
+faq-get-a = Bu məlumat bazası hazırda <downloadLink>endirmə səhifəmiz</downloadLink>də <licenseLink>CC-0</licenseLink> lisenziyası ilə mövcuddur.
+faq-mission-q = Niyə Common Voice Mozilla missiyasının bir hissəsidir?
 
 ## Profile
 
