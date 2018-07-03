@@ -69,6 +69,7 @@ zh-TW = China holh (Taiwan)
 ## Layout
 
 speak = Chim
+speak-now = Chim cang
 languages = Holh phun
 help = Bawmh
 terms = Bia kamnak
@@ -153,9 +154,12 @@ faq-important-q = Zei ruang ah dah a bia pi?
 faq-important-a = Aw cu kokek asi, Aw cu minung asi. I chawnh khanh nak caah a a fawi cemmi le hmancem mi asi. Computer thiam nih hi thil chung in hman awktlak thil ttha, holh leh/ ca leh le a dang dang bawntuk ah an ser khawh nak ding hi kan duh. Asinain atu ah cun mipi nih hamn khawh ding mi hi a um lo. Common Voice nih hin computer thiam pawl thil ttha ttha an sernak cung ah a bawmh hna lai hi kan duh.
 faq-get-q = Common Voice thil (data) hi zei tin dah ka lak khawh lai?
 faq-mission-q = Zei ruang ah dah Common Voice hi Mozilla nih a tinhmi rian asi ve?
+faq-native-q = { $lang } holh ah kokek ka si lo i Aw-cawi ka ngei, ka holh nan duh ko maw?
+faq-native-a = Asi, kan duh tthiam ko! Common Voice i kan i tinh mi cu computer nih Aw a theih khawh cem nak hnga zei Aw-cawi paoh lak chih dih kan duh.
 faq-firefox-q = Common Voice i bia-in-ca lehnak hi Firefox ah chiah chih a si lai maw?
 faq-firefox-a = Mozilla nih chuahmi thil, Firefox, ti bantuk ah hin Common Voice hi hman khawhnak ding thil tampi a um.
 faq-quality-q = Zei tluk in dah ka Aw hi a fiang a herh?
+faq-quality-a = Na Aw cu computer nih a theih khawh ding hi a biapi. Na mawtor chung na um lio, pangka a awn lio, le na hnulei in midang an rak i chawnh lio tibantuk zong a ttha tthiam tthiam ko. 
 faq-hours-q = Zei ruang ah dah nazi 10,000 renglo hi kan aw tun a herh?
 faq-source-q = Khoi ka in dah biafang hi an rat?
 
@@ -173,9 +177,11 @@ data-download-yes = Asi
 data-download-deny = Asi lo
 data-other-goto = { $name } hin kal
 data-other-ted-name = TED-LIUM Corpus
+license-mixed = Fawnh
 
 ## Record Page
 
+record-platform-not-supported = Kan ngai thiam, na tuahnak hi a ngah lo.
 record-must-allow-microphone = Aw tunak na ngahter a hau
 record-retry = Tuah tthan
 record-no-mic-found = Aw tunnak kan hmu lo
@@ -188,6 +194,9 @@ terms-agree = Ka lungtling
 terms-disagree = Ka lungtling lo 
 review-submit-title = Chek law Kuat
 review-recording = Chek 
+review-cancel = Kuatmi letthan
+review-keep-recordings = Tuun mi i chiah
+review-delete-recordings = Tuun mi hlonh
 
 ## Download Modal
 
@@ -227,8 +236,17 @@ action-tap = Hmet
 listen = Ngai
 skip = Lawnh
 record-three-more-instruction = Pathum a tang!
+record-again-instruction = A ttha!<recordIcon></recordIcon> A rang tuun tthan
+record-again-instruction2 = Na thiam, tuun tthan <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Donghnak!
 unable-speak = Holh kho lo?
+review-instruction = Na duh cun zohtthan law tuun tthan
+record-submit-tooltip = { $actionType } Na manh tik ah kua
+record-abort-title = Tuun dih hmasa?
+record-abort-text = Na chuak ah cun na tuun mi na thlau lai
+record-abort-continue = Tuun dih
+listen-instruction = { $actionType }<playIcon></playIcon>Hman tein biatlang an rel maw?
 listen-again-instruction = A ttha tuk! <playIcon></playIcon> naa manh in ngai tthan
-listen-3rd-time-instruction = 2 na tuah cang hih!
+listen-3rd-time-instruction = 2 na tuah cang, i zuam!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Dongh nak!
 share-title-new = <bold> Kan bawm </bold> Aw tampiin kawl
