@@ -252,7 +252,7 @@ record-error-too-short = Жаздыруу өтө кыска болду.
 record-error-too-long = Жаздыруу өтө узун болду.
 record-error-too-quiet = Жаздыруу өтө акырын болду.
 record-submit-success = Ийгиликтүү кошулду! Дагы жаздыргыңыз келеби?
-record-help = Жаздыруу үчүн кнопканы басыңыз, андан соң жогорудагы сүйлөмдү үнүңүздү чыгарып окуңуз.
+record-help = Жаздыруу үчүн баскычты басыңыз, андан соң жогорудагы сүйлөмдү үнүңүздү чыгарып окуңуз.
 record-cancel = Кайра жаздыруудан баш тартуу
 review-terms = Сиз Common Voice'ту колдонуу менен биздин <termsLink>эрежелерибиз</termsLink> жана <privacyLink>купуялуулук эскертмебиз</privacyLink> менен макулдуңузду билдиресиз
 terms-agree = Макулмун
@@ -309,8 +309,8 @@ language-search-input =
 
 ## New Contribution
 
-action-click = Басуу
-action-tap = Таптоо
+action-click = Баcкыла
+action-tap = Баскыла
 contribute = Салым кошуу
 listen = Угуу
 skip = Өткөзүү
