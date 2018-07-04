@@ -85,9 +85,11 @@ terms = Términos
 cookies = Cookies
 faq = FAQ
 content-license-text = Conteníu disponible so una <licenseLink>llicencia Creative Commons</licenseLink>
+share-title = ¡Ayúdanos a alcontrar a xente que nos empreste la so voz!
 back-top = Volver a arriba
 contribution-banner-text = Tamos acabante de llanzar una esperiencia nueva de collaboración
-contribution-banner-button = Echa-y un gueyu
+contribution-banner-button = Écha-y un gueyu
+report-bugs-link = Ayuda a informar de fallos
 
 ## Home Page
 
