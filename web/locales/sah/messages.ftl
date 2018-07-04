@@ -1,6 +1,7 @@
 ## General
 
 yes-receive-emails = Миэхэ электроннай суругу ыытын. Мин Common Voice проект туһунан сонуну истиэхпин баҕарабын.
+return-to-cv = Common Voice-ка төҥүн
 email-input =
     .label = Электроннай почта
 
