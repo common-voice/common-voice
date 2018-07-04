@@ -35,6 +35,7 @@ fr = Francés
 fy-NL = Frisiu
 ga-IE = Irlandés
 he = Hebréu
+hsb = Altu sórabu
 hu = Húngaru
 id = Indonesiu
 is = Islandés
@@ -42,22 +43,39 @@ it = Italianu
 ja = Xaponés
 ka = Xeorxanu
 ko = Coreanu
+kw = Córnicu
+mk = Macedoniu
+myv = Erzya
 nb-NO = Bokmål noruegu
 ne-NP = Nepalí
+nl = Neerlandés
+nn-NO = Nynorsk noruegu
 pl = Polacu
 pt-BR = Portugués (Brasil)
 ro = Rumanu
 ru = Rusu
+sah = Sakha
 sk = Eslovacu
 sl = Eslovenu
+sq = Albanés
+sr = Serbiu
+sv-SE = Suecu
+ta = Tamil
+te = Telugu
+th = Tailandés
 tr = Turcu
 tt = Tatar
+uz = Uzbecu
+zh-CN = Chinu (China)
+zh-HK = Chinu (Ḥong Kong)
+zh-TW = Chinu (Taiwán)
 
 # [/]
 
 
 ## Layout
 
+datasets = Conxuntos de datos
 languages = Llingües
 profile = Perfil
 help = Ayuda
@@ -67,6 +85,9 @@ terms = Términos
 cookies = Cookies
 faq = FAQ
 content-license-text = Conteníu disponible so una <licenseLink>llicencia Creative Commons</licenseLink>
+back-top = Volver a arriba
+contribution-banner-text = Tamos acabante de llanzar una esperiencia nueva de collaboración
+contribution-banner-button = Echa-y un gueyu
 
 ## Home Page
 
@@ -78,15 +99,34 @@ toggle-play-tooltip = Primi { shortcut-play-toggle } p'alternar el mou de reprod
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = l
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = r
+shortcut-play-toggle-label = Reproducir/Parar
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = s
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = g
+shortcut-record-toggle-label = Grabar/Parar
+request-language-text = ¿Entá nun ves la to llingua en Common Voice?
+request-language-button = Solicitar una llingua
 
 ## ProjectStatus
 
+status-contribute = Collabora cola to voz
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Meta próxima: { $goal }
@@ -94,6 +134,8 @@ english = Inglés
 
 ## ProfileForm
 
+profile-form-cancel = Colar del formulariu
+profile-form-delete = Desaniciar perfil
 profile-form-username =
     .label = Nome d'usuariu
 profile-form-language =
@@ -104,9 +146,16 @@ profile-form-age =
     .label = Edá
 profile-form-gender =
     .label = Xéneru
+profile-form-submit-save = Guardar
+profile-form-submit-saved = Guardóse
+profile-keep-data = Caltener datos
+profile-delete-data = Desaniciar datos
 male = Masculín
 female = Femenín
+# Gender
+other = Otru
 why-profile-title = ¿Por qué un perfil?
+profile-close = Zarrar
 
 ## FAQ
 
@@ -131,7 +180,9 @@ data-download-yes = Sí
 data-download-deny = Non
 data-download-license = Llicencia: <licenseLink>CC-0</licenseLink>
 data-download-modal = Tas a piques d'aniciar la descarga de <size>{ $size }GB</size>, ¿siguir?
+data-other-title = Otros conxuntos de datos de voz...
 data-other-goto = Dir a { $name }
+data-other-download = Baxar datos
 data-other-ted-name = Corpus de TED-LIUM
 license = Llicencia: <licenseLink>{ $license }</licenseLink>
 
@@ -145,6 +196,9 @@ record-error-too-short = La grabación foi percurtia.
 record-error-too-long = La grabación foi perllarga.
 terms-agree = Aceuto
 terms-disagree = Nun aceuto
+review-cancel = Encaboxar xuba
+review-keep-recordings = Caltener grabaciones
+review-delete-recordings = Desaniciar les mios grabaciones
 
 ## Download Modal
 
@@ -181,4 +235,5 @@ shortcuts = Atayos
 record-cta = Aniciar grabación
 record-three-more-instruction = ¡Tres p'acabar!
 unable-speak = ¿Nun pues falar agora?
+record-abort-text = Si coles agora, vas perder el to progresu
 share-title-new = <bold>Ayúdanos</bold> a alcontrar más voces
