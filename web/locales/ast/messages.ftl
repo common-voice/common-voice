@@ -70,6 +70,8 @@ content-license-text = Conteníu disponible so una <licenseLink>llicencia Creati
 
 ## Home Page
 
+show-wall-of-text = Llei más
+help-us-title = ¡Ayúdanos a validar les frases!
 vote-yes = Sí
 vote-no = Non
 toggle-play-tooltip = Primi { shortcut-play-toggle } p'alternar el mou de reproducción
@@ -85,6 +87,9 @@ toggle-play-tooltip = Primi { shortcut-play-toggle } p'alternar el mou de reprod
 
 ## ProjectStatus
 
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Meta próxima: { $goal }
 english = Inglés
 
 ## ProfileForm
@@ -99,35 +104,81 @@ profile-form-age =
     .label = Edá
 profile-form-gender =
     .label = Xéneru
+male = Masculín
+female = Femenín
+why-profile-title = ¿Por qué un perfil?
 
 ## FAQ
 
+faq-title = Entrugues frecuentes
+faq-what-q = ¿Qué ye Common Voice?
+faq-important-q = ¿Por qué ye importante?
+faq-get-q = ¿Cómo pueo consiguir los datos de Common Voice?
+faq-mission-q = ¿Por que Common Voice ye parte de la misión de Mozilla?
 
 ## Profile
 
+profile-why-title = ¿Por qué un perfil?
 
 ## NotFound
 
+notfound-title = Nun s'alcontró
 
 ## Data
 
+data-download-button = Baxar datos de Common Voice
 data-download-yes = Sí
 data-download-deny = Non
+data-download-license = Llicencia: <licenseLink>CC-0</licenseLink>
+data-download-modal = Tas a piques d'aniciar la descarga de <size>{ $size }GB</size>, ¿siguir?
+data-other-goto = Dir a { $name }
+data-other-ted-name = Corpus de TED-LIUM
+license = Llicencia: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
 
+record-platform-not-supported = Sentímoslo pero anguaño nun se sofita la to plataforma.
+record-must-allow-microphone = Has permitir l'accesu al micrófonu.
+record-retry = Retentar
+record-no-mic-found = Nun s'alcontró'l micrófonu.
+record-error-too-short = La grabación foi percurtia.
+record-error-too-long = La grabación foi perllarga.
+terms-agree = Aceuto
+terms-disagree = Nun aceuto
 
 ## Download Modal
 
+download-no = Non, gracies
 
 ## Contact Modal
 
+contact-title = Formulariu de contautu
+contact-form-name =
+    .label = Nome
+contact-form-message =
+    .label = Mensaxe
+contact-required = *ríquese
 
 ## Request Language Modal
 
+request-language-title = Solicitú de llingua
+request-language-form-language =
+    .label = Llingua
 
 ## Languages Overview
 
+language-section-in-progress = En cursu
+languages-show-more = Ver más
+languages-show-less = Ver menos
+language-speakers = Falantes
+language-meter-in-progress = Progresu
+language-total-progress = Total
 
 ## New Contribution
 
+skip = Saltar
+shortcuts = Atayos
+record-cta = Aniciar grabación
+record-three-more-instruction = ¡Tres p'acabar!
+unable-speak = ¿Nun pues falar agora?
+share-title-new = <bold>Ayúdanos</bold> a alcontrar más voces
