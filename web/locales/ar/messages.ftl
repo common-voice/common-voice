@@ -150,8 +150,8 @@ profile-why-title = لماذا أحتاج ملفا شخصيا؟
 
 ## Record Page
 
-record-must-allow-microphone = عليك السماح باستخدام المِكرفون.
-record-no-mic-found = لم يُعثر على أي مِكرفون.
+record-must-allow-microphone = عليك السماح باستخدام الميكروفون.
+record-no-mic-found = لم يُعثر على أي ميكروفون.
 
 ## Download Modal
 
