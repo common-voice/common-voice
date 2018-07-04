@@ -94,6 +94,7 @@ content-license-text = İçerikler <licenseLink>Creative Commons lisansı</licen
 share-title = Sesini bağışlayacak birilerini bulmamıza yardım edin!
 share-text = Makinelere gerçek insanların nasıl konuştuğunu öğretin: { $link } ile sesinizi bağışlayın 
 back-top = Başa dön
+contribution-banner-text = Katkıda bulunabileceğiniz yeni bir arayüz deniyoruz
 contribution-banner-button = Bir göz atın
 report-bugs-link = Hataları rapor edin
 
@@ -324,7 +325,7 @@ contribute-more =
        *[other] { $count } tane daha yapmaya hazır mısın?
     }
 record-cta = Kaydetmeye başla
-record-instruction = { $actionType } <recordIcon></recordIcon>sonra cümleyi net bir şekilde okuyun
+record-instruction = <recordIcon></recordIcon> düğmesine { $actionType }, sonra cümleyi net bir şekilde okuyun
 record-stop-instruction = Bitirince { $actionType } <stopIcon></stopIcon>
 record-three-more-instruction = Üç tane kaldı!
 record-again-instruction = Harika! <recordIcon></recordIcon> Sonraki klibinizi kaydedin
@@ -344,7 +345,7 @@ record-abort-text = Şimdi çıkarsanız yaptıklarınız kaydedilmeyecek
 record-abort-submit = Klipleri gönder
 record-abort-continue = Kaydı bitir
 record-abort-delete = Klipleri sil ve çık
-listen-instruction = { $actionType }<playIcon></playIcon> cümle doğru okunmuş mu?
+listen-instruction = <playIcon></playIcon> düğmesine { $actionType }. Cümle doğru okunmuş mu?
 listen-again-instruction = Çok iyi iş! <playIcon></playIcon> Hazır olduğunuzda yeniden dinleyin.
 listen-3rd-time-instruction = İkisi gitti, çalışmaya devam! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Son bir tane!
