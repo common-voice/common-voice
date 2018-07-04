@@ -13,7 +13,7 @@ import { SET_COUNT } from './contribution';
 import './success.css';
 
 const COUNT_UP_MS = 500; // should be kept in sync with .contribution-success .done transition duration
-const DAILY_GOAL = Object.freeze({ speak: 600, listen: 1200 });
+const DAILY_GOAL = Object.freeze({ speak: 1200, listen: 2400 });
 
 const GoalPercentage = ({
   current,
