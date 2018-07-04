@@ -200,6 +200,7 @@ faq-important-a = Səs naturaldır, səs insancadır. Əlaqənin ən asan və ə
 faq-get-q = Common Voice məlumatlarını necə əldə edə bilərəm?
 faq-get-a = Bu məlumat bazası hazırda <downloadLink>endirmə səhifəmiz</downloadLink>də <licenseLink>CC-0</licenseLink> lisenziyası ilə mövcuddur.
 faq-mission-q = Niyə Common Voice Mozilla missiyasının bir hissəsidir?
+faq-mission-a = Mozilla özünü web-i açıq və hər kəs üçün əlçatan tutmağa həsr edir. Bunu etmək üçün biz web-də yaradıcıları Common Voice kimi proyektlərlə gücləndirməliyik. Səs texnologiyaların günlük həyatımıza bu qədər uyğunlaşdığı bir dövrdə bunun hamı üçün eyni imkanları verməli olduğunu düşünürük. Səs texnologiyalarını qurarkən və yoxlayarkən daha çox dil, ləhcə və demoqrafikləri istifadə etməliyik. Mozilla sağlam və canlı internet görmək istəyir. Bunun üçün yeni yaradıcılara möhtəşəm proyektləri qura bilmələri üçün səs məlumatlarına imkan yaradılmalıdır. Common Voice Mozilla komandalarına və dünyanın hər bir yanındakı tərtibatçılara açıq ictimai qaynaq olacaq.
 faq-hours-q = Niyə səs qeydi üçün hədəf 10000 saatdır?
 faq-hours-a = Bu işlək STT (səsdən yazıya) üçün tələb edilən təxmini vaxtdır.
 faq-source-q = Qaynaq mətnləri haradan gəlir?
