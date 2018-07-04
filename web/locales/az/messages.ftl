@@ -201,6 +201,11 @@ faq-get-q = Common Voice məlumatlarını necə əldə edə bilərəm?
 faq-get-a = Bu məlumat bazası hazırda <downloadLink>endirmə səhifəmiz</downloadLink>də <licenseLink>CC-0</licenseLink> lisenziyası ilə mövcuddur.
 faq-mission-q = Niyə Common Voice Mozilla missiyasının bir hissəsidir?
 faq-mission-a = Mozilla özünü web-i açıq və hər kəs üçün əlçatan tutmağa həsr edir. Bunu etmək üçün biz web-də yaradıcıları Common Voice kimi proyektlərlə gücləndirməliyik. Səs texnologiyaların günlük həyatımıza bu qədər uyğunlaşdığı bir dövrdə bunun hamı üçün eyni imkanları verməli olduğunu düşünürük. Səs texnologiyalarını qurarkən və yoxlayarkən daha çox dil, ləhcə və demoqrafikləri istifadə etməliyik. Mozilla sağlam və canlı internet görmək istəyir. Bunun üçün yeni yaradıcılara möhtəşəm proyektləri qura bilmələri üçün səs məlumatlarına imkan yaradılmalıdır. Common Voice Mozilla komandalarına və dünyanın hər bir yanındakı tərtibatçılara açıq ictimai qaynaq olacaq.
+faq-native-q = Ana dilim { $lang } deyil və şivə ilə danışıram, hələ də mənim səsimə ehtiyyacınız var?
+faq-native-a = Bəli, tamamilə ehtiyyacımız var! Common Voice-in məqsədlərindən biri mümkün olduğu qədər fərqli tələffüzləri toplayaraq kompüterlərin <bold>hamının</bold> danışıqlarını başa düşmələrini təmin etməkdir.
+faq-firefox-q = Common Voice ilə danışığı mətnə çevirmə Firefox-un bir hissəsi olacaq?
+faq-firefox-a = Common Voice-in sonsuz potensialı var və biz də həmçinin bunu Firefox kimi bir çox Mozilla məhsullarında işlətməyi hədəfliyirik.
+faq-quality-q = İşlək olması üçün hansı keyfiyyətdə səs qeydləri lazımdır?
 faq-hours-q = Niyə səs qeydi üçün hədəf 10000 saatdır?
 faq-hours-a = Bu işlək STT (səsdən yazıya) üçün tələb edilən təxmini vaxtdır.
 faq-source-q = Qaynaq mətnləri haradan gəlir?
@@ -222,13 +227,18 @@ data-download-yes = Bəli
 data-download-deny = Xeyr
 data-download-license = Lisenziya: <licenseLink>CC-0</licenseLink>
 data-download-modal = <size>{ $size } GB</size> endirilməyə başlayacaq, davam edilsin?
+data-other-title = Digər səs bazaları…
+data-other-goto = { $name } saytına keç
 data-other-download = Məlumat Bazasını Endir
+data-bundle-button = Məlumat bazası paketini endir
+data-bundle-description = Common Voice bazası və yuxarıdakı bütün digər səs bazaları.
 license = Lisenziya: <licenseLink>{ $license }</licenseLink>
 license-mixed = Qarışıq
 
 ## Record Page
 
 record-platform-not-supported = Üzr istəyirik, amma platformanız hazırda dəstəklənmir.
+record-must-allow-microphone = Mikrofona icazə verməlisiniz.
 record-retry = Təkrar yoxla
 record-no-mic-found = Mikrofon tapılmadı.
 record-error-too-short = Qeyd çox qısa idi.
@@ -240,6 +250,8 @@ record-cancel = Təkrar qeydi ləğv et
 terms-agree = Razıyam
 terms-disagree = Razı deyiləm
 review-aborted = Yükləmə ləğv edildi. Qeydlərinizi silmək istəyirsiniz?
+review-recording = Yoxla
+review-rerecord = Yenidən qeyd et
 review-cancel = Göndərməni ləğv et
 review-keep-recordings = Qeydləri saxla
 review-delete-recordings = Qeydlərimi sil
@@ -250,6 +262,8 @@ download-title = Endirməniz başladı.
 download-form-email =
     .label = E-poçtunuzu daxil edin
     .value = Təşəkkürlər, əlaqədə saxlayacıq.
+download-back = Common Voice məlumat bazasına qayıt
+download-no = Xeyr
 
 ## Contact Modal
 
@@ -269,8 +283,21 @@ request-language-success-title = Dil tələbi uğurla göndərildi, təşəkkür
 
 ## Languages Overview
 
+languages-show-more = Daha çox göstər
+languages-show-less = Daha az göstər
 language-speakers = Danışan
 language-meter-in-progress = İrəliləyiş
+language-total-progress = Ümumi
+language-search-input =
+    .placeholder = Axtar
 
 ## New Contribution
 
+action-click = Kliklə
+action-tap = Toxun
+contribute = Dəstək ol
+listen = Qulaq as
+skip = Keç
+shortcuts = Qısa yollar
+clips = Kliplər
+record-cta = Qeydə başla
