@@ -15,18 +15,21 @@ loading = Lastar…
 
 ## Languages
 
+an = Aragonesisk
 ar = Arabisk
 as = Assamesisk
+ast = Asturiansk
 az = Aserbajdsjansk
 bn = Bengali
 br = Bretonsk
 ca = Katalansk
+cnh = Hakha Chin
 cs = Tsjekkisk
 cv = Tsjuvasjisk
 cy = Walisisk
 da = Dansk
 de = Tysk
-dsb = Låg-Sorbisk
+dsb = Nedersorbisk
 el = Gresk
 en = Engelsk
 es = Spansk
@@ -37,8 +40,9 @@ fr = Fransk
 fy-NL = frisisk
 ga-IE = Irsk
 he = Hebraisk
-hsb = Høgsorbisk
+hsb = Oversorbisk
 hu = Ungarsk
+ia = Interlingua
 id = Indonesisk
 is = Islandsk
 it = Italiensk
