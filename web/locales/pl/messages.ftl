@@ -15,7 +15,10 @@ loading = Wczytywanie…
 
 ## Languages
 
+an = aragoński
+ar = arabski
 as = asamski
+ast = asturyjski
 az = azerski
 bn = bengalski
 br = bretoński
@@ -26,6 +29,7 @@ cv = czuwaski
 cy = walijski
 da = duński
 de = niemiecki
+dsb = dolnołużycki
 el = grecki
 en = angielski
 es = hiszpański
@@ -38,6 +42,7 @@ ga-IE = irlandzki
 he = hebrajski
 hsb = górnołużycki
 hu = węgierski
+ia = interlingua
 id = indonezyjski
 is = islandzki
 it = włoski
