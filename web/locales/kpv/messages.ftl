@@ -78,6 +78,7 @@ languages = Кывъяс
 profile = Профиль
 help = Отсӧг
 contact = Йитӧд
+privacy = Арабӧн
 contribution-banner-button = Видзӧдышт
 
 ## Home Page
