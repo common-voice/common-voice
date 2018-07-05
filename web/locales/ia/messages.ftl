@@ -9,13 +9,26 @@ email-input =
 
 ## Languages
 
-ca = Catalano
+ca = catalano
+de = germano
+el = greco
+en = anglese
+it = italiano
+ja = japonese
+pt-BR = portugese (Brasil)
+ro = romaniano
+ru = russo
+sq = albanese
+zh-CN = chinese (China)
+zh-HK = chinese (Hong Kong)
+zh-TW = chinese (Taiwan)
 
 # [/]
 
 
 ## Layout
 
+languages = linguas
 back-top = Receder al initio
 contribution-banner-text = Adjuta a reportar defectos
 
