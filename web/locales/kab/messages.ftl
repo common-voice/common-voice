@@ -15,7 +15,10 @@ loading = Asali…
 
 ## Languages
 
+an = Taṛagunit
+ar = Taεrabt
 as = Tasamizt
+ast = Tasturit
 az = Tazerbiǧanit
 bn = Tabengalit
 br = Tabrutunt
@@ -26,6 +29,7 @@ cv = Tačuvacit
 cy = Tagalit
 da = Tadanit
 de = Talmanit
+dsb = Sorbyan, Tamectuḥt
 el = Tagrigit
 en = Taglizit
 es = Taspanit
@@ -38,6 +42,7 @@ ga-IE = Tirlandit
 he = Taɛebrit
 hsb = Sorbyan, Tameqqrant
 hu = Tahungaṛit
+ia = Tutlayt tagraɣlant
 id = Tandunizit
 is = Taṣlandit
 it = Taṭeyanit
