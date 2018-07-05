@@ -33,7 +33,11 @@ import { Uploads } from '../stores/uploads';
 import Layout from './layout/layout';
 import ListenPage from './pages/contribution/listen/listen';
 import SpeakPage from './pages/contribution/speak/speak';
-import { localeConnector, LocalePropsFromState } from './locale-helpers';
+import {
+  isContributable,
+  localeConnector,
+  LocalePropsFromState,
+} from './locale-helpers';
 
 const LOAD_TIMEOUT = 5000; // we can only wait so long.
 
@@ -171,7 +175,7 @@ const LocalizedLayout: any = withRouter(
         }
 
         render() {
-          const { toLocaleRoute } = this.props;
+          const { locale, toLocaleRoute } = this.props;
           const { messagesGenerator, uploadPercentage } = this.state;
           return (
             messagesGenerator && (
@@ -189,12 +193,24 @@ const LocalizedLayout: any = withRouter(
                     <Route
                       exact
                       path={toLocaleRoute(URLS.SPEAK)}
-                      component={SpeakPage}
+                      render={props =>
+                        isContributable(locale) ? (
+                          <SpeakPage {...props} />
+                        ) : (
+                          <Redirect to={toLocaleRoute(URLS.ROOT)} />
+                        )
+                      }
                     />
                     <Route
                       exact
                       path={toLocaleRoute(URLS.LISTEN)}
-                      component={ListenPage}
+                      render={props =>
+                        isContributable(locale) ? (
+                          <ListenPage {...props} />
+                        ) : (
+                          <Redirect to={toLocaleRoute(URLS.ROOT)} />
+                        )
+                      }
                     />
                     <Layout />
                   </Switch>

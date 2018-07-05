@@ -20,6 +20,7 @@ import {
 } from '../../utility';
 import { MenuIcon, RecordIcon, OldPlayIcon, ChevronRight } from '../ui/icons';
 import { LabeledSelect, LinkButton } from '../ui/ui';
+import { ContributableLocaleLock } from '../locale-helpers';
 import Content from './content';
 import Footer from './footer';
 import LanguageSelect from './language-select';
@@ -306,26 +307,28 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             </button>
           </div>
         </header>
-        <div className="contribution-banner">
-          <div className="inner">
-            <Localized id="contribution-banner-text">
-              <h1 />
-            </Localized>
-            <Localized id="contribution-banner-button">
-              <LinkButton className="open" rounded to={URLS.SPEAK} />
-            </Localized>
-          </div>
+        <ContributableLocaleLock>
+          <div className="contribution-banner">
+            <div className="inner">
+              <Localized id="contribution-banner-text">
+                <h1 />
+              </Localized>
+              <Localized id="contribution-banner-button">
+                <LinkButton className="open" rounded to={URLS.SPEAK} />
+              </Localized>
+            </div>
 
-          <a
-            className="bugs-link"
-            href="https://github.com/mozilla/voice-web/issues/new"
-            target="_blank">
-            <Localized id="report-bugs-link">
-              <span />
-            </Localized>
-            <ChevronRight />
-          </a>
-        </div>
+            <a
+              className="bugs-link"
+              href="https://github.com/mozilla/voice-web/issues/new"
+              target="_blank">
+              <Localized id="report-bugs-link">
+                <span />
+              </Localized>
+              <ChevronRight />
+            </a>
+          </div>
+        </ContributableLocaleLock>
         <div
           id="scroller"
           ref={div => {
