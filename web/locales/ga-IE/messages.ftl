@@ -15,7 +15,10 @@ loading = Á lódáil...
 
 ## Languages
 
+an = Aragóinis
+ar = Araibis
 as = Asaimis
+ast = Astúiris
 az = Asarbaiseáinis
 bn = Beangáilis
 br = Briotáinis
@@ -25,6 +28,7 @@ cv = Suvaisis
 cy = Breatnais
 da = Danmhairgis
 de = Gearmáinis
+dsb = Sorbais Íochtarach
 el = Gréigis
 en = Béarla
 es = Spáinnis
@@ -37,6 +41,7 @@ ga-IE = Gaeilge
 he = Eabhrais
 hsb = Sorbais Uachtarach
 hu = Ungáiris
+ia = Interlingua
 id = Indinéisis
 is = Íoslainnis
 it = Iodáilis
