@@ -15,7 +15,10 @@ loading = Chargement…
 
 ## Languages
 
+an = Aragonais
+ar = Arabe
 as = Assamais
+ast = Asturien
 az = Azerbaïdjanais
 bn = Bengali
 br = Breton
@@ -26,6 +29,7 @@ cv = Tchouvache
 cy = Gallois
 da = Danois
 de = Allemand
+dsb = Bas-sorabe
 el = Grec
 en = Anglais
 es = Espagnol
@@ -38,6 +42,7 @@ ga-IE = Irlandais
 he = Hébreu
 hsb = Haut-sorabe
 hu = Hongrois
+ia = Interlingua
 id = Indonésien
 is = Islandais
 it = Italien
