@@ -15,7 +15,10 @@ loading = Betöltés…
 
 ## Languages
 
+an = Aragóniai
+ar = Arab
 as = Asszámi
+ast = Asztúriai
 az = Azeri
 bn = Bengáli
 br = Breton
@@ -26,6 +29,7 @@ cv = Csuvas
 cy = Walesi
 da = Dán
 de = Német
+dsb = Szorb, alsó
 el = Görög
 en = Angol
 es = Spanyol
@@ -38,6 +42,7 @@ ga-IE = Ír
 he = Héber
 hsb = Szorb, felső
 hu = Magyar
+ia = Interlingva
 id = Indonéz
 is = Izlandi
 it = Olasz
