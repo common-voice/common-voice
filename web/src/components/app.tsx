@@ -184,8 +184,17 @@ const LocalizedLayout: any = withRouter(
                   className="upload-progress"
                   style={
                     uploadPercentage === null
-                      ? { opacity: 0, width: '100%', background: '#59cbb7' }
-                      : { opacity: 1, width: uploadPercentage * 100 + '%' }
+                      ? {
+                          opacity: 0,
+                          width: '100%',
+                          background: '#59cbb7',
+                          animationPlayState: 'paused',
+                        }
+                      : {
+                          opacity: 1,
+                          width: uploadPercentage * 100 + '%',
+                          animationPlayState: 'running',
+                        }
                   }
                 />
                 <LocalizationProvider messages={messagesGenerator}>
