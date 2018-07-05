@@ -15,7 +15,10 @@ loading = Nalaganje …
 
 ## Languages
 
+an = aragonščina
+ar = arabščina
 as = asamščina
+ast = asturijščina
 az = azerbajdžanščina
 bn = bengalščina
 br = bretonščina
