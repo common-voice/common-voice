@@ -11,7 +11,10 @@ loading = Loading…
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
 ## Languages
+an = Aragonese
+ar = Arabic
 as = Assamese
+ast = Asturian
 az = Azerbaijani
 bn = Bengali
 br = Breton
@@ -35,6 +38,7 @@ ga-IE = Irish
 he = Hebrew
 hsb = Sorbian, Upper
 hu = Hungarian
+ia = Interlingua
 id = Indonesian
 is = Icelandic
 it = Italian
