@@ -15,7 +15,10 @@ loading = Cyta se…
 
 ## Languages
 
+an = Aragońšćina
+ar = Arabšćina
 as = Asamšćina
+ast = Asturšćina
 az = Azerbajdžanišćina
 bn = Bengalšćina
 br = Bretońšćina
@@ -26,6 +29,7 @@ cv = Čuwašćina
 cy = Kymrišćina
 da = Dańšćina
 de = Nimčina
+dsb = Dolnoserbšćina
 el = Grichišćina
 en = Engelšćina
 es = Špańšćina
@@ -38,6 +42,7 @@ ga-IE = Iršćina
 he = Hebrejšćina
 hsb = Górnoserbšćina
 hu = Hungoršćina
+ia = Interlingua
 id = Indonešćina
 is = Islandšćina
 it = Italšćina
