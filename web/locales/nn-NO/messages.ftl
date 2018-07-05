@@ -15,6 +15,7 @@ loading = Lastar…
 
 ## Languages
 
+ar = Arabisk
 as = Assamesisk
 az = Aserbajdsjansk
 bn = Bengali
@@ -25,6 +26,7 @@ cv = Tsjuvasjisk
 cy = Walisisk
 da = Dansk
 de = Tysk
+dsb = Låg-Sorbisk
 el = Gresk
 en = Engelsk
 es = Spansk
