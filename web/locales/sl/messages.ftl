@@ -329,6 +329,8 @@ listen = Poslušaj
 skip = Preskoči
 shortcuts = Bližnjice
 clips = Posnetki
+goal-help-recording = Projektu Common Voice ste pomagali doseči <goalPercentage></goalPercentage> od našega dnevnega cilja, ki znaša { $goalValue } posnetkov.
+goal-help-validation = Projektu Common Voice ste pomagali doseči <goalPercentage></goalPercentage> od našega dnevnega cilja, ki znaša { $goalValue } preverjenih posnetkov.
 contribute-more =
     { $count ->
         [one] Ste pripravljeni narediti še enega?
