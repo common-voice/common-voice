@@ -15,7 +15,10 @@ loading = O kargañ...
 
 ## Languages
 
+an = Aragoneg
+ar = Arabeg
 as = Asameg
+ast = Asturieg
 az = Azerbaidjaneg
 bn = Bengaleg
 br = Brezhoneg
@@ -26,6 +29,7 @@ cv = Tchouvacheg
 cy = Kembraeg
 da = Daneg
 de = Alamaneg
+dsb = Izel-Sorabeg
 el = Gresianeg
 en = Saozneg
 es = Spagnoleg
@@ -38,6 +42,7 @@ ga-IE = Iwerzhoneg
 he = Hebraeg
 hsb = Uhel-Sorabeg
 hu = Hungareg
+ia = Interlingua
 id = Indonezeg
 is = Islandeg
 it = Italianeg
