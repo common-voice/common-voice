@@ -77,6 +77,7 @@ speak-now = Сёрнит ӧні
 languages = Кывъяс
 profile = Профиль
 help = Отсӧг
+contact = Йитӧд
 contribution-banner-button = Видзӧдышт
 
 ## Home Page
