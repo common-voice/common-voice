@@ -15,7 +15,10 @@ loading = Laden…
 
 ## Languages
 
+an = Aragonees
+ar = Arabisch
 as = Assamees
+ast = Asturisch
 az = Azeri
 bn = Bengaals
 br = Bretons
@@ -26,6 +29,7 @@ cv = Chuvash
 cy = Welsh
 da = Deens
 de = Duits
+dsb = Nedersorbisch
 el = Grieks
 en = Engels
 es = Spaans
@@ -38,6 +42,7 @@ ga-IE = Iers
 he = Hebreeuws
 hsb = Oppersorbisch
 hu = Hongaars
+ia = Interlingua
 id = Indonesisch
 is = IJslands
 it = Italiaans
