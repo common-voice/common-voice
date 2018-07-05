@@ -63,6 +63,7 @@ help-us-explain = 再生ボタンを押すと音声が流れます。流れた�
 no-clips-to-validate = この言語で再生する音声が無いようです。まず、あなたの音声を録音させてください。
 vote-yes = はい
 vote-no = いいえ
+toggle-play-tooltip = { shortcut-play-toggle } を押すと再生が始まります。
 
 ## Speak & Listen Shortcuts
 
@@ -93,10 +94,21 @@ request-language-button = 言語の追加をリクエスト
 
 ## ProjectStatus
 
+status-title = プロジェクトの進捗: どれくらい音声が集まったか見てください！
+status-contribute = 音声の収集に協力する
+status-hours =
+    { $hours ->
+       *[other] { $hours }時間の音声が検証されました！
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = 次の目標: { $goal } 時間
 english = 英語
 
 ## ProfileForm
 
+profile-form-cancel = フォームを閉じる
+profile-form-delete = プロファイルの削除
 profile-form-username =
     .label = ユーザ名
 profile-form-language =
@@ -108,11 +120,21 @@ profile-form-age =
 profile-form-gender =
     .label = 性別
 profile-form-submit-save = 保存
+profile-form-submit-saved = 保存済み
+profile-keep-data = 削除しない
+profile-delete-data = 削除する
 male = 男性
 female = 女性
 # Gender
 other = その他
+why-profile-title = なぜプロファイルが必要ですか？
+why-profile-text = Common Voice に提供いただく音声データにあなたの情報を加えることで、このデータを利用する音声認識エンジンの精度を向上できます。
+edit-profile = プロファイルの編集
+profile-create = プロファイルの作成
+profile-create-success = プロファイルの作成に成功しました！
 profile-close = 閉じる
+profile-clear-modal = プロファイルを削除すると、音声を記録した際に、統計情報が Common Voice に送信されなくなります。
+profile-explanation = プロファイルを登録すると進捗の把握や、音声データの品質向上に役立ちます。
 
 ## FAQ
 
