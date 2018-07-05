@@ -15,7 +15,10 @@ loading = Čita so…
 
 ## Languages
 
+an = Aragonšćina
+ar = Arabšćina
 as = Asamšćina
+ast = Asturišćina
 az = Azerbajdźanšćina
 bn = Bengalšćina
 br = Bretonšćina
@@ -26,6 +29,7 @@ cv = Čuwašćina
 cy = Walizišćina
 da = Danšćina
 de = Němčina
+dsb = Delnjoserbšćina
 el = Grjekšćina
 en = Jendźelšćina
 es = Španišćina
@@ -38,6 +42,7 @@ ga-IE = Iršćina
 he = Hebrejšćina
 hsb = Hornjoserbšćina
 hu = Madźaršćina
+ia = Interlingua
 id = Indonešćina
 is = Islandšćina
 it = Italšćina
