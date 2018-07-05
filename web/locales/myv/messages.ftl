@@ -12,6 +12,7 @@ submit-form-action = Совавтомс
 
 ## Languages
 
+ar = Арабокс
 as = Ассамокс
 az = Азербайджанокс
 bn = Бенгаликс
@@ -22,6 +23,7 @@ cv = Ветькекс
 cy = Кимрикс
 da = Даниякс
 de = Немецекс
+dsb = Алце Сорбиякс
 el = Грекекс
 en = Англакс
 es = Испанокс
@@ -44,6 +46,7 @@ kpv = Коми-зирянокс
 kw = Корникс
 ky = Киргизэкс
 mk = Македониякс
+myv = Эрзякс
 nb-NO = Норвегиянь букмолокс
 ne-NP = Непаликс
 nl = Недерландокс
@@ -84,6 +87,7 @@ contact = Контакт
 terms = Терминт
 cookies = Нумолонь кшить
 back-top = Верьксэс мекев
+contribution-banner-button = Варштамс
 
 ## Home Page
 
@@ -112,6 +116,8 @@ english = Англакс
 
 profile-form-cancel = Лисемс анкетастонть
 profile-form-delete = Нардамс профиленть
+profile-form-username =
+    .label = Тевс нолдыцянь лем
 profile-form-language =
     .label = Кель
 profile-form-accent =
@@ -233,7 +239,6 @@ listen = Кунсоломс
 skip = Ютамс вакска
 shortcuts = Керязь кить
 clips = Клипст
-goal-type-record = сёрмадовкс
 contribute-more =
     { $count ->
        *[other] Анокат седе тов { $count } теемс?
