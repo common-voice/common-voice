@@ -15,7 +15,10 @@ loading = Wird geladen…
 
 ## Languages
 
+an = Aragonesisch
+ar = Arabisch
 as = Assamesisch
+ast = Asturisch
 az = Aserbaidschanisch
 bn = Bengali
 br = Bretonisch
@@ -26,6 +29,7 @@ cv = Tschuwaschisch
 cy = Walisisch
 da = Dänisch
 de = Deutsch
+dsb = Niedersorbisch
 el = Griechisch
 en = Englisch
 es = Spanisch
@@ -38,6 +42,7 @@ ga-IE = Irisch
 he = Hebräisch
 hsb = Obersorbisch
 hu = Ungarisch
+ia = Interlingua
 id = Indonesisch
 is = Isländisch
 it = Italienisch
