@@ -15,7 +15,10 @@ loading = Yükleniyor…
 
 ## Languages
 
+an = Aragonca
+ar = Arapça
 as = Assamca
+ast = Asturyanca
 az = Azerice
 bn = Bengalce
 br = Bretonca
@@ -26,6 +29,7 @@ cv = Çuvaşça
 cy = Galce
 da = Danca
 de = Almanca
+dsb = Aşağı Sorbca
 el = Yunanca
 en = İngilizce
 es = İspanyolca
@@ -38,6 +42,7 @@ ga-IE = İrlandaca
 he = İbranice
 hsb = Yukarı Sorbca
 hu = Macarca
+ia = Interlingua
 id = Endonezce
 is = İzlandaca
 it = İtalyanca
