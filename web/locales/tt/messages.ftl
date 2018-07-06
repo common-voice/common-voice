@@ -332,7 +332,7 @@ goal-help-validation = Сез Common Voice'ка көнлек { $goalValue } ти
 contribute-more =
     { $count ->
         [one] башка
-       *[other] Тагын { $count } башкарырга әзерме?
+       *[other] Тагын { $count }'не башкарырга әзерме?
     }
 record-cta = Яздыра башлау
 record-instruction = { $actionType }<recordIcon></recordIcon>, шуннан соң җөмләне кычкырып укыгыз
