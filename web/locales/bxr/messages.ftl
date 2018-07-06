@@ -153,23 +153,56 @@ review-aborted = Ашаалга сусалагдаба. Бэшэлгэеэ ус�
 review-submit-title = Хянаад эльгээхэ
 review-submit-msg = Бэшэлгэ хэһэндэтнай талархая!<lineBreak></lineBreak>Мүнөө доро байһан клипнүүдые хянаад эльгээнэ гүт.
 review-recording = Хянаха
+review-rerecord = Дахин бэшэхэ
+review-cancel = Эльгээлтэ сусалха
+review-keep-recordings = Бэшэлгэнүүдээ байлгаха
+review-delete-recordings = Бэшэлгэнүүдээ усадхая
 
 ## Download Modal
 
+download-title = Татажа абажа байнат.
+download-helpus = Дуу хоолойн технологи һонирходог хүнүүдые нэгэдхэхэдэмнай туһалжа, сахим шуудангаар холбоотой байхыетнай гуйнабди.
+download-form-email =
+    .label = Сахим шуудангаа оруулна гүт
+    .value = Һайн даа, холбоотой байя.
+download-back = Ниитын дуу хоолойн үгэгдэл руу бусаха
+download-no = Үгы дөө
 
 ## Contact Modal
 
+contact-title = Холбоо бариха маягта
 contact-form-name =
     .label = Нэрэ
+contact-form-message =
+    .label = Бэшэг
+contact-required = *шаардалгатай
 
 ## Request Language Modal
 
 request-language-title = Шэнэ хэлэ үүсхэхэ
 request-language-form-language =
     .label = Хэлэн
+request-language-success-title = Шэнэ хэлэ үүсхэхэ хүсэлтэ амжалтатай эльгээгдэбэ. Һайн даа!
 
 ## Languages Overview
 
+language-total-progress = Ниитэ
+language-search-input =
+    .placeholder = Бэдэрхэ
 
 ## New Contribution
 
+action-click = Тобшохо
+action-tap = Тобшохо
+contribute = Баяжуулха
+listen = Шагнаха
+skip = Алгасаха
+clips = Клипнүүд
+record-cta = Бэшэлгэ эхилхэ
+record-three-more-instruction = Гурбал үлөө!
+record-abort-submit = Клипнүүдые эльгээхэ
+record-abort-continue = Бэшэлгэ дууһаха
+record-abort-delete = Гараад, клипнүүдээ усадхаха
+listen-3rd-time-instruction = 2 үлэбэ, бү зогсогты!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Һүүлшынхи!
+share-title-new = Шэнэ дуу хоолой олоходомнай <bold>туһална гүт</bold>
