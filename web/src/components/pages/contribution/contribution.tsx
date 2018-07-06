@@ -230,9 +230,7 @@ class ContributionPage extends React.Component<Props, State> {
                 <div className={'counter ' + (isSubmitted ? 'done' : '')}>
                   {isSubmitted && <CheckIcon />}
                   {this.renderCounter()}
-                  <Localized
-                    id={isSubmitted ? 'clips-submitted' : 'clips'}
-                    $count={''}>
+                  <Localized id="clips" $count={''}>
                     <span className="text" />
                   </Localized>
                 </div>

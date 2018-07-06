@@ -8,6 +8,7 @@ import { User } from './user';
 import { Clips } from './clips';
 import { RequestedLanguages } from './requested-languages';
 import { Locale } from './locale';
+import { Notifications } from './notifications';
 import { Uploads } from './uploads';
 
 const USER_KEY = 'userdata';
@@ -32,6 +33,7 @@ const store = createStore(
       clips,
       requestedLanguages,
       locale,
+      notifications,
       uploads,
     }: StateTree = {
       api: undefined,
@@ -40,6 +42,7 @@ const store = createStore(
       clips: undefined,
       requestedLanguages: undefined,
       locale: undefined,
+      notifications: undefined,
       uploads: undefined,
     },
     action:
@@ -63,6 +66,7 @@ const store = createStore(
         action as RequestedLanguages.Action
       ),
       locale: Locale.reducer(locale, action as Locale.Action),
+      notifications: Notifications.reducer(notifications, action as any),
       uploads: Uploads.reducer(uploads, action as Uploads.Action),
     };
 

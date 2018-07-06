@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import { RouteComponentProps, withRouter } from 'react-router';
 const NavigationPrompt = require('react-router-navigation-prompt').default;
 import { Locale } from '../../../../stores/locale';
+import { Notifications } from '../../../../stores/notifications';
 import { Recordings } from '../../../../stores/recordings';
 import StateTree from '../../../../stores/tree';
 import { Uploads } from '../../../../stores/uploads';
@@ -77,6 +78,7 @@ interface PropsFromState {
 
 interface PropsFromDispatch {
   addUploads: typeof Uploads.actions.add;
+  addNotification: typeof Notifications.actions.add;
   removeSentences: typeof Recordings.actions.removeSentences;
   tallyRecording: typeof User.actions.tallyRecording;
   updateUser: typeof User.actions.update;
@@ -297,6 +299,7 @@ class SpeakPage extends React.Component<Props, State> {
 
   private upload = async (hasAgreed: boolean = false) => {
     const {
+      addNotification,
       addUploads,
       api,
       locale,
@@ -338,6 +341,11 @@ class SpeakPage extends React.Component<Props, State> {
       async () => {
         await api.syncDemographics();
         trackRecording('submit', locale);
+        addNotification(
+          <Localized id="clips-submitted" $count={''}>
+            <span />
+          </Localized>
+        );
       },
     ]);
 
@@ -535,6 +543,7 @@ const mapStateToProps = (state: StateTree) => {
 };
 
 const mapDispatchToProps = {
+  addNotification: Notifications.actions.add,
   addUploads: Uploads.actions.add,
   removeSentences: Recordings.actions.removeSentences,
   tallyRecording: User.actions.tallyRecording,

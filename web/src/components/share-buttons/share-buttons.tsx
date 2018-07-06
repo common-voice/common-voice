@@ -1,19 +1,28 @@
 import { LocalizationProps, withLocalization } from 'fluent-react';
 import * as React from 'react';
+import { connect } from 'react-redux';
 import { trackSharing } from '../../services/tracker';
+import { Notifications } from '../../stores/notifications';
 import { FontIcon } from '../ui/icons';
 
 import './share-buttons.css';
 
 const SHARE_URL = 'https://voice.mozilla.org/';
 
-class ShareButtons extends React.Component<LocalizationProps> {
+interface PropsFromDispatch {
+  addNotification: typeof Notifications.actions.add;
+}
+
+class ShareButtons extends React.Component<
+  LocalizationProps & PropsFromDispatch
+> {
   shareURLInputRef: { current: HTMLInputElement | null } = React.createRef();
 
   private copyShareURL = () => {
     this.shareURLInputRef.current.select();
     document.execCommand('copy');
     trackSharing('link');
+    this.props.addNotification('link copied');
   };
 
   render() {
@@ -58,4 +67,6 @@ class ShareButtons extends React.Component<LocalizationProps> {
   }
 }
 
-export default withLocalization(ShareButtons);
+export default connect<void, PropsFromDispatch>(null, {
+  addNotification: Notifications.actions.add,
+})(withLocalization(ShareButtons));

@@ -1,0 +1,15 @@
+@import url('../vars.css');
+
+.notification-pill {
+    background: var(--white);
+    border-radius: 29px;
+    margin-top: 10px;
+    padding: 7px 20px;
+    border: 2px solid var(--grey);
+    opacity: 1;
+    transition: opacity linear var(--transition-duration);
+
+    &:first-child {
+        margin-top: 0;
+    }
+}

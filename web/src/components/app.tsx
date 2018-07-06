@@ -28,9 +28,11 @@ import {
 } from '../services/localization';
 import API from '../services/api';
 import { Locale } from '../stores/locale';
+import { Notifications } from '../stores/notifications';
 import StateTree from '../stores/tree';
 import { Uploads } from '../stores/uploads';
 import Layout from './layout/layout';
+import NotificationPill from './notification-pill/notification-pill';
 import ListenPage from './pages/contribution/listen/listen';
 import SpeakPage from './pages/contribution/speak/speak';
 import {
@@ -60,6 +62,7 @@ const PRELOAD = [
 
 interface PropsFromState {
   api: API;
+  notifications: Notifications.State;
   uploads: Uploads.State;
 }
 
@@ -84,8 +87,9 @@ interface LocalizedPagesState {
 const LocalizedLayout: any = withRouter(
   localeConnector(
     connect<PropsFromState, PropsFromDispatch>(
-      ({ api, uploads }: StateTree) => ({
+      ({ api, notifications, uploads }: StateTree) => ({
         api,
+        notifications,
         uploads,
       }),
       { removeUpload: Uploads.actions.remove, setLocale: Locale.actions.set }
@@ -175,7 +179,7 @@ const LocalizedLayout: any = withRouter(
         }
 
         render() {
-          const { locale, toLocaleRoute } = this.props;
+          const { locale, notifications, toLocaleRoute } = this.props;
           const { messagesGenerator, uploadPercentage } = this.state;
           return (
             messagesGenerator && (
@@ -198,31 +202,47 @@ const LocalizedLayout: any = withRouter(
                   }
                 />
                 <LocalizationProvider messages={messagesGenerator}>
-                  <Switch>
-                    <Route
-                      exact
-                      path={toLocaleRoute(URLS.SPEAK)}
-                      render={props =>
-                        isContributable(locale) ? (
-                          <SpeakPage {...props} />
-                        ) : (
-                          <Redirect to={toLocaleRoute(URLS.ROOT)} />
-                        )
-                      }
-                    />
-                    <Route
-                      exact
-                      path={toLocaleRoute(URLS.LISTEN)}
-                      render={props =>
-                        isContributable(locale) ? (
-                          <ListenPage {...props} />
-                        ) : (
-                          <Redirect to={toLocaleRoute(URLS.ROOT)} />
-                        )
-                      }
-                    />
-                    <Layout />
-                  </Switch>
+                  <div>
+                    {!isProduction() && (
+                      <div className="notifications">
+                        {notifications
+                          .slice()
+                          .reverse()
+                          .map(notification => (
+                            <NotificationPill
+                              key={notification.id}
+                              {...notification}
+                            />
+                          ))}
+                      </div>
+                    )}
+
+                    <Switch>
+                      <Route
+                        exact
+                        path={toLocaleRoute(URLS.SPEAK)}
+                        render={props =>
+                          isContributable(locale) ? (
+                            <SpeakPage {...props} />
+                          ) : (
+                            <Redirect to={toLocaleRoute(URLS.ROOT)} />
+                          )
+                        }
+                      />
+                      <Route
+                        exact
+                        path={toLocaleRoute(URLS.LISTEN)}
+                        render={props =>
+                          isContributable(locale) ? (
+                            <ListenPage {...props} />
+                          ) : (
+                            <Redirect to={toLocaleRoute(URLS.ROOT)} />
+                          )
+                        }
+                      />
+                      <Layout />
+                    </Switch>
+                  </div>
                 </LocalizationProvider>
               </div>
             )
