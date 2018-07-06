@@ -143,6 +143,7 @@ request-language-button = 要求一個新語言
 ## ProjectStatus
 
 status-title = 計劃狀態：睇下我哋做到邊到！
+status-contribute = 貢獻您把聲
 status-hours =
     { $hours ->
        *[other] 目前已驗證了 { $hours } 小時！
@@ -190,6 +191,7 @@ faq-get-a = 這個數據集現可在我們的<downloadLink>下載分頁</downloa
 faq-hours-q = 為何目標是取得一萬小時的錄音？
 faq-hours-a = 這是用來訓練 STT 系統所需的大約時數。
 faq-source-q = 原文的文字來自哪裏？
+faq-source-a2 = 您可在<dataLink>這個 GitHub 資料夾</dataLink>參考我們的原始語句。
 
 ## Profile
 
@@ -234,6 +236,7 @@ terms-disagree = 我不同意
 review-aborted = 上載中斷了，你想刪除你的錄音嗎？
 review-submit-title = 檢閱和提交
 review-submit-msg = 多謝你的錄音！<lineBreak></lineBreak>請在下面檢閱和提交你的錄音。
+review-recording = 檢閱
 review-rerecord = 重新錄音
 review-cancel = 取消提交
 review-delete-recordings = 刪除我的錄音
@@ -252,6 +255,7 @@ request-language-form-language =
 
 ## Languages Overview
 
+language-section-in-progress = 準備中
 language-section-launched = 已上線
 language-section-launched-description = 已上線嘅語言，代表網站已經完成翻譯，亦已收集足夠嘅語句，足以讓大眾作出<italic>{ speak }</italic>及<italic>{ listen }</italic>的貢獻。
 languages-show-more = 檢視更多
@@ -270,14 +274,26 @@ contribute = 參與貢獻
 listen = 聆聽
 skip = 略過
 shortcuts = 捷徑
+clips = 錄音片段
 record-cta = 開始錄音
+record-stop-instruction = 完成後請{ $actionType }<stopIcon></stopIcon>
 record-three-more-instruction = 仲有三個！
+record-again-instruction = 好！點擊<recordIcon></recordIcon>錄下一個片段
+record-again-instruction2 = 繼續加油，再錄一回！<recordIcon></recordIcon>
 review-tooltip = 在此確認或重錄片段
 unable-speak = 現在無法錄音？
+review-instruction = 確認錄音內容，有需要的話可以重錄
+clips-submitted =
+    { $count ->
+       *[other] 已送出 { $count } 個錄音片段！
+    }
 record-abort-title = 不先完成錄音嗎？
 record-abort-text = 如果要現在離開，會失去目前的進度
 record-abort-submit = 提交錄音
 record-abort-continue = 完成錄音
 record-abort-delete = 結束並刪除錄音
 listen-instruction = { $actionType }<playIcon></playIcon> 佢哋將句子讀得準確嗎？
+listen-again-instruction = 做得好！<playIcon></playIcon> 準備好就可以再聽更多
+listen-3rd-time-instruction = 完成兩筆了 <playIcon></playIcon>，繼續加油！
 listen-last-time-instruction = <playIcon></playIcon> 最後一個！
+share-title-new = <bold>請幫助我們</bold>去找更多人的聲音
