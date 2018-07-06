@@ -252,6 +252,8 @@ request-language-form-language =
 
 ## Languages Overview
 
+language-section-launched = 已上線
+language-section-launched-description = 已上線嘅語言，代表網站已經完成翻譯，亦已收集足夠嘅語句，足以讓大眾作出<italic>{ speak }</italic>及<italic>{ listen }</italic>的貢獻。
 languages-show-more = 檢視更多
 languages-show-less = 檢視更少
 language-speakers = 使用者數
@@ -271,6 +273,7 @@ shortcuts = 捷徑
 record-cta = 開始錄音
 record-three-more-instruction = 仲有三個！
 review-tooltip = 在此確認或重錄片段
+unable-speak = 現在無法錄音？
 record-abort-title = 不先完成錄音嗎？
 record-abort-text = 如果要現在離開，會失去目前的進度
 record-abort-submit = 提交錄音
