@@ -4,6 +4,7 @@ return-to-cv = Ниитын Дуу хоолой руу бусаха
 email-input =
     .label = Сахим шуудан
 submit-form-action = Эльгээхэ
+loading = Ашаалагдажа байна...
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -11,6 +12,7 @@ submit-form-action = Эльгээхэ
 
 ## Languages
 
+an = Арагон
 ar = Араб
 as = Ассам
 ast = Астур
@@ -82,10 +84,17 @@ zh-TW = Хятад (Тайван)
 
 ## Layout
 
+speak = Хэлэгты
+speak-now = Мүнөө хэлэгты
+datasets = Үгэгдэл
+languages = Хэлэнүүд
+profile = Хэрэглэгшын данса
 help = Туһаламжа
 contact = Холбоо бариха
 privacy = Хубиин эрхэ
 terms = Нүхэсэл
+cookies = Күүкис
+faq = ХАА
 
 ## Home Page
 
@@ -101,6 +110,7 @@ shortcut-play-toggle-label = Тоглуула/Зогсо
 
 ## Speak Shortcuts
 
+request-language-text = Танай хэлэн Ниитын дуу хоолой соо үгы байна гү?
 request-language-button = Шэнэ хэлэ үүсхэхэ
 
 ## ProjectStatus
@@ -213,6 +223,7 @@ clips-submitted =
        *[other] клип
     }
 record-abort-title = Түрүүн бэшэлгэеэ дүүргэхэмнай гү
+record-abort-text = Мүнөө гарашоо һаа, бэшэһэн юумэе алдахат
 record-abort-submit = Клипнүүдые эльгээхэ
 record-abort-continue = Бэшэлгэ дууһаха
 record-abort-delete = Гараад, клипнүүдээ усадхаха
