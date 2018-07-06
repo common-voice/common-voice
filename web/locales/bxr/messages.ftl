@@ -115,10 +115,21 @@ request-language-button = Шэнэ хэлэ үүсхэхэ
 
 ## ProjectStatus
 
+status-contribute = Дуу хоолойгоо оруулан баяжуулха
+status-hours =
+    { $hours ->
+        [one] Нэгэ саг баталагдаад байна!
+       *[other] { $hours } саг баталагдаад байна!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Удаадахи зорилго: { $goal }
 english = Англи
 
 ## ProfileForm
 
+profile-form-cancel = Гараха маягта
+profile-form-delete = Хэрэглэгшын данса усадхаха
 profile-form-username =
     .label = Хэрэглэгшын нэрэ
 profile-form-language =
@@ -131,20 +142,36 @@ profile-form-gender =
     .label = Хүйһэн
 profile-form-submit-save = Хадгалха
 profile-form-submit-saved = Хадгалагдаа
+profile-keep-data = Үгэгдэлым байлгаха
+profile-delete-data = Үгэгдэлым усадхаха
+male = Эрэ
+female = Эхэнэр
+# Gender
+other = Ондоо
+why-profile-title = Хэрэглэгшын данса юундэ хэрэгтэйб?
+edit-profile = Хэрэглэгшын данса заһаха
+profile-create = Хэрэглэгшын данса үүсхэхэ
+profile-create-success = Хэрэглэгшын данса амжалтатай үүсхэгдэбэ!
+profile-close = Хааха
 
 ## FAQ
 
+faq-important-q = Энэ юундэ шухалаб?
 
 ## Profile
 
+profile-why-title = Хэрэглэгшын данса юундэ хэрэгтэйб?
 
 ## NotFound
 
+notfound-title = Олдобогүй
 
 ## Data
 
+data-download-button = Ниитын дуу хоолойн үгэгдэл татажа абаха
 data-download-yes = Тии
 data-download-deny = Үгы
+data-download-license = Лицензи: <licenseLink>CC-0</licenseLink>
 
 ## Record Page
 
