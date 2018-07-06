@@ -200,9 +200,24 @@ skip = Алгасаха
 clips = Клипнүүд
 record-cta = Бэшэлгэ эхилхэ
 record-three-more-instruction = Гурбал үлөө!
+record-again-instruction = Гоё даа!<recordIcon></recordIcon> Удаадахи клип бэшэнэ гүт
+record-again-instruction2 = Бү зогсогты, дахин бэшэе <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Һүүлшынхи!
+review-tooltip = Эндэхэнэ клипнүүды хянаад, шэнээр бэшэхээр
+unable-speak = Мүнөө дуугархаар бэшэ гүт?
+review-instruction = Клипнүүды хянаад, хэрэгтэй һаань шэнээр бэшэнэ гүт
+record-submit-tooltip = { $actionType } бэлэн һаань эльгээнэ гүт
+clips-submitted =
+    { $count ->
+        [one] клип
+       *[other] клип
+    }
+record-abort-title = Түрүүн бэшэлгэеэ дүүргэхэмнай гү
 record-abort-submit = Клипнүүдые эльгээхэ
 record-abort-continue = Бэшэлгэ дууһаха
 record-abort-delete = Гараад, клипнүүдээ усадхаха
+listen-instruction = { $actionType }<playIcon></playIcon> үгүүлбэриие алдуугүйгөөр уншаба гү?
+listen-again-instruction = Бэрхэт даа!<playIcon></playIcon> Бэлэн болоходоо дахин шагнажа үзэгты
 listen-3rd-time-instruction = 2 үлэбэ, бү зогсогты!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Һүүлшынхи!
 share-title-new = Шэнэ дуу хоолой олоходомнай <bold>туһална гүт</bold>
