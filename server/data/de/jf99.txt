@@ -4515,7 +4515,7 @@ Fachlich hat sie viel drauf, aber ihre didaktischen Fähigkeiten sind noch ausba
 An einem Stand werden Waffeln verkauft, um die Vereinskasse aufzubessern.
 Sie stellt Nüsse, Salzstangen und anderen Knabberkram auf den Tisch.
 Bedient euch!
-Quantensprünge sind entgegen der landläufigen Meinung etwas winziges.
+Quantensprünge sind entgegen der landläufigen Meinung etwas Winziges.
 Wie sicher wird unsere heutige Kryptographie noch sein, wenn Quantencomputer massentauglich werden?
 Mein Schlitten hat Chromfelgen!
 Er verhält sich wie eine Eidechse im freien Fall.
