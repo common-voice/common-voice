@@ -100,6 +100,9 @@ profile-close = Clauder
 
 ## Data
 
+data-download-yes = Si
+data-download-deny = No
+data-other-download = Discargar datos
 
 ## Record Page
 
