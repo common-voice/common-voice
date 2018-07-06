@@ -12,6 +12,12 @@ loading = Cargamento…
 ## Languages
 
 an = aragonese
+ar = arabe
+as = assamese
+ast = asturiano
+az = azerbaijano
+bn = bengali
+br = breton
 ca = catalano
 da = danese
 de = germano
