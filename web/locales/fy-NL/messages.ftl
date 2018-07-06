@@ -15,7 +15,10 @@ loading = Lade…
 
 ## Languages
 
+an = Aragoneesk
+ar = Arabysk
 as = Assameesk
+ast = Asturysk
 az = Azerbeidzjaansk
 bn = Bingaalsk
 br = Bretonsk
@@ -26,6 +29,7 @@ cv = Chuvash
 cy = Welsk
 da = Deensk
 de = Dútsk
+dsb = Leger Sorbysk
 el = Gryksk
 en = Ingelsk
 es = Spaansk
@@ -38,6 +42,7 @@ ga-IE = Iersk
 he = Hebriuwsk
 hsb = Boppe-Sorbysk
 hu = Hongaarsk
+ia = Ynterlingua
 id = Yndonezysk
 is = Iislânsk
 it = Italiaansk
