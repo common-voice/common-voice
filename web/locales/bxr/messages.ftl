@@ -138,8 +138,21 @@ data-download-deny = Үгы
 
 ## Record Page
 
+record-retry = Дахин үзэхэ
+record-no-mic-found = Микрофон олдоногүй
+record-error-too-short = Бэшэлгэ дэн богони байна
+record-error-too-long = Бэшэлгэ дэн ута байна
+record-error-too-quiet = Бэшэлгэ дэн аалин байна
+record-submit-success = Амжалтатай эльгээгдэбэ! Ондоо бэшэлгэ хэхэ гүт?
+record-help = Бэшэлгэ хэхын тула тобшоод, үгүүлбэриие шангаар уншаарайгты.
+record-cancel = Дахин бэшэһэеэ сусалха
+review-terms = Ниитын дуу хоолой ашаглаһанаараа <termsLink>Нүхэсэл</termsLink> болон <privacyLink>Хубиин эрхэ тухай тэмдэглэл</privacyLink> зүбшөөрһэн болонот.
 terms-agree = Зүбшөөрнэб
 terms-disagree = Зүбшөөрнэгүйб
+review-aborted = Ашаалга сусалагдаба. Бэшэлгэеэ усадхахатнай гү?
+review-submit-title = Хянаад эльгээхэ
+review-submit-msg = Бэшэлгэ хэһэндэтнай талархая!<lineBreak></lineBreak>Мүнөө доро байһан клипнүүдые хянаад эльгээнэ гүт.
+review-recording = Хянаха
 
 ## Download Modal
 
