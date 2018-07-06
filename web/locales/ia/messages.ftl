@@ -2,6 +2,8 @@
 
 email-input =
     .label = Email
+submit-form-action = Inviar
+loading = Cargamento…
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -9,7 +11,9 @@ email-input =
 
 ## Languages
 
+an = aragonese
 ca = catalano
+da = danese
 de = germano
 el = greco
 en = anglese
@@ -41,6 +45,10 @@ contribution-banner-text = Adjuta a reportar defectos
 
 ## Home Page
 
+show-wall-of-text = Lege plus
+help-us-title = Adjuta nos a validar le phrases!
+vote-yes = Si
+vote-no = No
 
 ## Speak & Listen Shortcuts
 
@@ -53,9 +61,33 @@ contribution-banner-text = Adjuta a reportar defectos
 
 ## ProjectStatus
 
+english = anglese
 
 ## ProfileForm
 
+profile-form-cancel = Exir del formulario
+profile-form-delete = Deler le profilo
+profile-form-username =
+    .label = Nomine de usator
+profile-form-language =
+    .label = Lingua
+profile-form-accent =
+    .label = Accento
+profile-form-age =
+    .label = Etate
+profile-form-gender =
+    .label = Genere
+profile-form-submit-save = Salvar
+profile-form-submit-saved = Salvate
+profile-keep-data = Retener le datos
+profile-delete-data = Deler le datos
+male = Viro
+female = Femina
+# Gender
+other = Altero
+profile-create = Crear un profilo
+profile-create-success = Profilo create con successo
+profile-close = Clauder
 
 ## FAQ
 
