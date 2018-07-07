@@ -301,6 +301,8 @@ request-language-success-content = Dilinizi Common Voice-ə necə əlavə edə b
 
 ## Languages Overview
 
+language-section-in-progress = Hazırlanır
+language-section-launched = Buraxılıb
 languages-show-more = Daha çox göstər
 languages-show-less = Daha az göstər
 language-speakers = Danışan
@@ -311,11 +313,18 @@ language-search-input =
 
 ## New Contribution
 
-action-click = Kliklə
-action-tap = Toxun
+action-click = klikləyin
+action-tap = toxunun
 contribute = Dəstək ol
 listen = Qulaq as
 skip = Keç
 shortcuts = Qısa yollar
 clips = Kliplər
+contribute-more =
+    { $count ->
+        [one] Daha { $count } dənə etməyə hazırsınız?
+       *[other] Daha { $count } dənə etməyə hazırsınız?
+    }
 record-cta = Qeydə başla
+record-instruction = <recordIcon></recordIcon> düyməsinə { $actionType } və cümləni səsli oxuyun
+record-stop-instruction = Bitirdikdə <stopIcon></stopIcon> düyməsinə { $actionType }
