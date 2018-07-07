@@ -180,6 +180,7 @@ notfound-content = Na kawl mi hi ka thei lo.
 
 ## Data
 
+data-download-button = Common Voice thilri hi dawnlok
 data-download-yes = Asi
 data-download-deny = Asi lo
 data-download-license = Liasen:<licenseLink>CC-0</licenseLink>
