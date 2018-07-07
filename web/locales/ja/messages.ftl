@@ -166,7 +166,7 @@ english = 英語
 profile-form-cancel = フォームを閉じる
 profile-form-delete = プロファイルの削除
 profile-form-username =
-    .label = ユーザ名
+    .label = ユーザー名
 profile-form-language =
     .label = 言語
 profile-form-accent =
@@ -187,7 +187,7 @@ why-profile-title = なぜプロファイルが必要ですか？
 why-profile-text = Common Voice に提供いただく音声データにあなたの情報を加えることで、このデータを利用する音声認識エンジンの精度を向上できます。
 edit-profile = プロファイルの編集
 profile-create = プロファイルの作成
-profile-create-success = プロファイルの作成に成功しました！
+profile-create-success = プロファイルを作成しました！
 profile-close = 閉じる
 profile-clear-modal = プロファイルを削除すると、音声を記録した際に、統計情報が Common Voice に送信されなくなります。
 profile-explanation = プロファイルを登録すると進捗の把握や、音声データの品質向上に役立ちます。
@@ -196,8 +196,11 @@ profile-explanation = プロファイルを登録すると進捗の把握や、�
 
 faq-title = よくある質問
 faq-what-q = Common Voice とは？
+faq-what-a = 音声認識技術は機械と人のインタラクションに革命をもたらす可能性があります。しかし、現在利用可能なシステムは高価で利用に制限があります。 Common Voice は音声認識技術を誰もが簡単に利用できるようにするためのプロジェクトです。皆さんの音声を大規模なデータベースとして集めることで、すべての音声データを利用して誰でも素早く簡単に音声を利用したアプリケーションを開発できるようになります。
+faq-important-q = なぜこのプロジェクトは重要なのですか？
 faq-source-q = 文章はどこから入手していますか？
 faq-source-a1 = 現在はコントリビュータの寄付、または、<italic>素晴らしき哉、人生! </italic>のようなパブリックドメインの映画の会話から文章を得ています。
+faq-source-a2 = 読み上げる文章は <dataLink>GitHub</dataLink> で見ることができます。
 
 ## Profile
 
@@ -207,9 +210,27 @@ faq-source-a1 = 現在はコントリビュータの寄付、または、<italic
 
 ## Data
 
+data-download-button = Common Voice データのダウンロード
+data-download-yes = はい
+data-download-deny = いいえ
+data-download-license = ライセンス：<licenseLink>CC-0</licenseLink>
+data-other-download = データのダウンロード
+data-other-ted-name = TED-LIUM コーパス
+data-other-ted-description = TED-LIUM コーパスは TED のウェブサイトで公開されている音声と、それを文章として書き起こしたものです。
+license = ライセンス：<licenseLink>{ $license }</licenseLink>
+license-mixed = 複合ライセンス
 
 ## Record Page
 
+record-retry = 再試行
+record-no-mic-found = マイクが見つかりません。
+record-error-too-short = 録音時間が短かすぎます。
+record-error-too-long = 録音時間が長すぎます。
+record-error-too-quiet = 録音の音量が小さすぎます。
+terms-agree = 同意する
+terms-disagree = 同意しない
+review-submit-title = 確認と提出
+review-cancel = 提出をキャンセル
 
 ## Download Modal
 
