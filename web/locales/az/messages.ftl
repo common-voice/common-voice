@@ -238,6 +238,9 @@ data-get-started = <speechBlogLink>Səs tanıma ilə başla</speechBlogLink>
 data-other-title = Digər səs bazaları…
 data-other-goto = { $name } saytına keç
 data-other-download = Məlumat Bazasını Endir
+data-other-librispeech-description = LibriSpeech LibriVox proyektindən olan səsli kitabların 1000 saatlıq 16 Khz İngiliscə oxunuşundan olan topludur.
+data-other-ted-name = TED-LIUM Toplusu
+data-other-ted-description = TED-LIUM toplusu TED saytında olan səsli danışıq və transkripsiyalar ilə yaradılıb.
 data-bundle-button = Məlumat bazası paketini endir
 data-bundle-description = Common Voice bazası və yuxarıdakı bütün digər səs bazaları.
 license = Lisenziya: <licenseLink>{ $license }</licenseLink>
@@ -246,6 +249,8 @@ license-mixed = Qarışıq
 ## Record Page
 
 record-platform-not-supported = Üzr istəyirik, amma platformanız hazırda dəstəklənmir.
+record-platform-not-supported-desktop = Masaüstü kompüterinizdə bu son səyyahları endirə bilərsiz:
+record-platform-not-supported-ios = <bold>iOS</bold> istifadəçiləri pulsuz tətbiqimizi endirə bilərlər:
 record-must-allow-microphone = Mikrofona icazə verməlisiniz.
 record-retry = Təkrar yoxla
 record-no-mic-found = Mikrofon tapılmadı.
@@ -255,9 +260,12 @@ record-error-too-quiet = Qeyd çox sakit idi.
 record-submit-success = Uğurla göndərildi! Təkrar qeyd etmək istərdiniz?
 record-help = Lütfən qeyd-ə basın, sonra da üstdəki cümləni səsli oxuyun.
 record-cancel = Təkrar qeydi ləğv et
+review-terms = Common Voice işlətməklə <termsLink>Şərt</termsLink> və <privacyLink>Məxfilik Qeydləri</privacyLink>mizlə razılaşmış olursuz
 terms-agree = Razıyam
 terms-disagree = Razı deyiləm
 review-aborted = Yükləmə ləğv edildi. Qeydlərinizi silmək istəyirsiniz?
+review-submit-title = Nəzərdən keçir və göndər
+review-submit-msg = Qeyd üçün təşəkkürlər!<lineBreak></lineBreak>İndi də aşağıdakı kliplərinizi nəzərdən keçirin və göndərin.
 review-recording = Yoxla
 review-rerecord = Yenidən qeyd et
 review-cancel = Göndərməni ləğv et
@@ -267,6 +275,7 @@ review-delete-recordings = Qeydlərimi sil
 ## Download Modal
 
 download-title = Endirməniz başladı.
+download-helpus = Səs texnologiyası ətrafında icma qurmağımıza kömək edin, e-poçt ilə əlaqədə qalın.
 download-form-email =
     .label = E-poçtunuzu daxil edin
     .value = Təşəkkürlər, əlaqədə saxlayacıq.
@@ -288,6 +297,7 @@ request-language-title = Dil Tələbi
 request-language-form-language =
     .label = Dil
 request-language-success-title = Dil tələbi uğurla göndərildi, təşəkkürlər.
+request-language-success-content = Dilinizi Common Voice-ə necə əlavə edə biləcəyinizlə bağlı qısa müddətdə sizinlə əlaqə saxlayacıq.
 
 ## Languages Overview
 
