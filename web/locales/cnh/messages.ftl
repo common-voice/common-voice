@@ -74,7 +74,7 @@ zh-TW = China holh (Taiwan)
 speak = Chim
 speak-now = Chim cang
 languages = Holh phun
-profile = Mahkong
+profile = Mahkonglam
 help = Bawmh
 contact = Pehtlaihnak
 terms = Bia kamnak
@@ -137,6 +137,7 @@ english = Mirang
 
 ## ProfileForm
 
+profile-form-delete = Mahkonglam hlonhnak
 profile-form-username =
     .label = Min hman
 profile-form-language =
@@ -153,10 +154,13 @@ male = Pa
 female = Nu
 # Gender
 other = Adang
-edit-profile = Mahkong remh
-profile-create = Mahkong Sernak
-profile-create-success = A tlamtling, Mahkong na ser khawh!
+why-profile-title = Zeiruang ah keimah konglam cu a herh?
+why-profile-text = Nangmah konglam kan theihnak thawngin Common Voice nih AW ttha deuh le hman deuh in a theih khawh lai. 
+edit-profile = Mahkonlam remhnak
+profile-create = Mahkonglam Sernak
+profile-create-success = A tlamtling, Mahkonglam na ser khawh!
 profile-close = Phit
+profile-clear-modal = Mahkonglam na hlonh ah cun Commmon Voice ah nangmah konglam le na tuun cia vialte aa hlonh dih lai. 
 
 ## FAQ
 
