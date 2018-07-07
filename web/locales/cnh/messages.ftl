@@ -226,7 +226,7 @@ contact-form-name =
     .label = Min
 contact-form-message =
     .label = Cakuat
-contact-required = *ahau
+contact-required = *aherh
 
 ## Request Language Modal
 
