@@ -14,6 +14,7 @@ submit-form-action = Kuat
 
 ## Languages
 
+ar = Arabic holh 
 as = Assam holh
 az = Azerbaijan holh
 bn = Bangla holh
