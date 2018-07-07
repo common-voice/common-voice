@@ -179,7 +179,9 @@ faq-firefox-a = Mozilla nih chuahmi thil, Firefox, ti bantuk ah hin Common Voice
 faq-quality-q = Zei tluk in dah ka Aw hi a fiang a herh?
 faq-quality-a = Na Aw cu computer nih a theih khawh ding hi a biapi. Na mawtor chung na um lio, pangka a awn lio, le na hnulei in midang an rak i chawnh lio tibantuk zong a ttha tthiam tthiam ko. 
 faq-hours-q = Zei ruang ah dah nazi 10,000 renglo hi kan aw tun a herh?
+faq-hours-a = Hihi STT timi computer nih Laiholh cawnnak ding ah a herh mi suimilam zat asi. 
 faq-source-q = Khoi ka in dah biafang hi an rat?
+faq-source-a1 = Hi biatlang hna nih bawmchan tu in siseh, mipi holhnak in, cun video holh mi,<italic> It's a Wonderful Life.</italic> ti bantuk in kan lak mi asi. 
 faq-source-a2 = Hi ka<dataLink> hin biatlang kan lak nak na zoh khawh.  </dataLink> GitHub ah kan chiah.
 
 ## Profile
@@ -216,7 +218,8 @@ record-submit-success = Kuat mi a tha! Tun na duh ti maw?
 record-help = Tun kha hmet, cun biatlang kha thang piin rel.
 terms-agree = Ka lungtling
 terms-disagree = Ka lungtling lo 
-review-submit-title = Chek law Kuat
+review-aborted = Thun tthan hlah. Na tuun mi hlonh na duh maw?
+review-submit-title = Chek & Kuat
 review-submit-msg = Na tuun caah kan i lawm!<lineBreak></lineBreak> Zohtthan law a tanglei hin kan kua.
 review-recording = Zohtthan 
 review-rerecord = tuun tthan
