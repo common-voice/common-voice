@@ -240,6 +240,11 @@ action-click = Hmet
 action-tap = Hmet
 listen = Ngai
 skip = Lawnh
+contribute-more =
+    { $count ->
+        [one] { $count }Tuah tthan na duh maw?
+       *[other] Tam deuh in { $count } tuah tthan na duh maw?
+    }
 record-three-more-instruction = Pathum a tang!
 record-again-instruction = A ttha!<recordIcon></recordIcon> A rang tuun tthan
 record-again-instruction2 = Na thiam, tuun tthan <recordIcon></recordIcon>
