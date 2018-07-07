@@ -74,6 +74,7 @@ zh-TW = China holh (Taiwan)
 speak = Chim
 speak-now = Chim cang
 languages = Holh phun
+profile = Mahkong
 help = Bawmh
 contact = Pehtlaihnak
 terms = Bia kamnak
@@ -144,12 +145,17 @@ profile-form-accent =
     .label = Aw-cawi
 profile-form-age =
     .label = Kum
+profile-form-gender =
+    .label = Nupa thleidannak
 profile-form-submit-save = Khumh
 profile-form-submit-saved = Khumh
 male = Pa
 female = Nu
 # Gender
 other = Adang
+edit-profile = Mahkong remh
+profile-create = Mahkong Sernak
+profile-create-success = A tlamtling, Mahkong na ser khawh!
 profile-close = Phit
 
 ## FAQ
