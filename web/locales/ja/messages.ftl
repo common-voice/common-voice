@@ -234,15 +234,36 @@ review-cancel = 提出をキャンセル
 
 ## Download Modal
 
+download-title = ダウンロードを開始しました。
 
 ## Contact Modal
 
+contact-title = 問い合わせフォーム
+contact-form-name =
+    .label = お名前
+contact-form-message =
+    .label = 内容
+contact-required = *必須
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = 言語
 
 ## Languages Overview
 
+language-meter-in-progress = 進捗
+language-total-progress = 合計
+language-search-input =
+    .placeholder = 検索
 
 ## New Contribution
 
+action-click = クリック
+action-tap = タップ
+contribute = 貢献する
+listen = 聴く
+skip = スキップ
+shortcuts = ショートカット
+clips = 録音クリップ
+record-cta = 録音を開始する
