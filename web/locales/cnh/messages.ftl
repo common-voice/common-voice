@@ -75,6 +75,7 @@ speak = Chim
 speak-now = Chim cang
 languages = Holh phun
 help = Bawmh
+contact = Pehtlaihnak
 terms = Bia kamnak
 cookies = khuk-ki
 faq = FAQ
@@ -213,6 +214,7 @@ download-form-email =
 
 ## Contact Modal
 
+contact-title = Pehtlaihnak Ca
 contact-form-name =
     .label = Min
 contact-form-message =
