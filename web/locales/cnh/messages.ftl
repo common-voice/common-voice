@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = Asi, ca ka kua ko. Common Voice Project kong theih peng ka duh.
-stayintouch = Holh phun kip in computer a ngah ding hi kan nih Mozilla compani nih kan i tinh mi cu asi. Zei tiin dah hihi na hman timi le  thilthar pawl kan ngeih tik ah in chimh ve kan duh. 
+stayintouch = Holh phun kip in computer a ngahnak ding hi kan nih Mozilla compani nih kan i tinh mi cu asi. Zei tiin dah hihi na hman timi le  thilthar pawl kan ngeih tik ah in chimh ve kan duh. 
 privacy-info = Nangmah kong midang kan theih ter hna lai lo. <privacyLink>Privacy Notice</privacyLink> ah hin rel chap.
 return-to-cv = Common Voice ah kir
 email-input =
@@ -169,6 +169,7 @@ faq-source-a2 = Hi ka<dataLink> hin biatlang kan lak nak na zoh khawh.  </dataLi
 
 ## Profile
 
+profile-why-content = Nangmah kong kan theih deuh ah hin Common Voice nih na Aw hi ttha deuh le hmann deuh in computer a chimh khawh lai.
 
 ## NotFound
 
@@ -205,6 +206,7 @@ review-delete-recordings = Tuun mi hlonh
 
 ## Download Modal
 
+download-helpus = Holhphun kip in computer a ngah khawh nak ding kan bawm, email in kan pehtlaih peng.
 download-form-email =
     .label = Na email ttial
     .value = Kan i lawm, kan in hngalhter lai.
