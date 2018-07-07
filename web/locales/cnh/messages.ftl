@@ -144,6 +144,8 @@ profile-form-accent =
     .label = Aw-cawi
 profile-form-age =
     .label = Kum
+profile-form-submit-save = Khumh
+profile-form-submit-saved = Khumh
 male = Pa
 female = Nu
 # Gender
