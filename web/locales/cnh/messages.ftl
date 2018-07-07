@@ -183,6 +183,7 @@ data-download-yes = Asi
 data-download-deny = Asi lo
 data-other-goto = { $name } hin kal
 data-other-ted-name = TED-LIUM Corpus
+license = Laisen:<licenseLink>{ $license }</licenseLink>
 license-mixed = Fawnh
 
 ## Record Page
@@ -199,7 +200,8 @@ record-help = Tun kha hmet, cun biatlang kha thang piin rel.
 terms-agree = Ka lungtling
 terms-disagree = Ka lungtling lo 
 review-submit-title = Chek law Kuat
-review-recording = Chek 
+review-submit-msg = Na tuun caah kan i lawm!<lineBreak></lineBreak> Zohtthan law a tanglei hin kan kua.
+review-recording = Zohtthan 
 review-rerecord = tuun tthan
 review-cancel = Kuatmi letthan
 review-keep-recordings = Tuun mi i chiah
@@ -253,6 +255,7 @@ contribute-more =
        *[other] Tam deuh in { $count } tuah tthan na duh maw?
     }
 record-cta = Tuun hramthok
+record-instruction = { $actionType }<recordIcon></recordIcon> cun thang piin a biatlang hi rel
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> a ttha tuk
 record-three-more-instruction = Pathum a tang!
 record-again-instruction = A ttha!<recordIcon></recordIcon> A rang tuun tthan
