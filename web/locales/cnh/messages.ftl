@@ -7,6 +7,7 @@ return-to-cv = Common Voice ah kir
 email-input =
     .label = Email
 submit-form-action = Kuat
+loading = Thunlio...
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
