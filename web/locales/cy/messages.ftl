@@ -15,7 +15,10 @@ loading = Llwytho…
 
 ## Languages
 
+an = Aragoneg
+ar = Arabeg
 as = Asameg
+ast = Asturieg
 az = Aserbaijaneg
 bn = Bengaleg
 br = Llydaweg
@@ -26,6 +29,7 @@ cv = Chuvash
 cy = Cymraeg
 da = Daneg
 de = Almaeneg
+dsb = Sorbeg Is
 el = Groeg
 en = Saesneg
 es = Sbaeneg
@@ -38,6 +42,7 @@ ga-IE = Gwyddeleg
 he = Hebraeg
 hsb = Sorbeg Uwch
 hu = Hwngareg
+ia = Interlingua
 id = Indoneseg
 is = Eislandeg
 it = Eidaleg
