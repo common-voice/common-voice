@@ -328,3 +328,22 @@ contribute-more =
 record-cta = Qeydə başla
 record-instruction = <recordIcon></recordIcon> düyməsinə { $actionType } və cümləni səsli oxuyun
 record-stop-instruction = Bitirdikdə <stopIcon></stopIcon> düyməsinə { $actionType }
+record-three-more-instruction = Üç dənə qaldı!
+record-again-instruction = Əla! <recordIcon></recordIcon> Sonrakı klipinizi qeyd edin
+record-again-instruction2 = Belə davam edin, təkrar qeyd edin <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Sonuncu!
+review-tooltip = Davam etdikcə bu qeydləri nəzərdən keçirib təkrar qeyd edin
+unable-speak = Hazırda danışa bilmirsiz?
+review-instruction = Nəzərdən keçirin və lazım olduqda klipləri təkrar qeyd edin
+record-submit-tooltip = { $actionType } hazır olduğunuzda göndərin
+clips-submitted =
+    { $count ->
+        [one] { $count } klip göndərildi
+       *[other] { $count } klip göndərildi
+    }
+record-abort-title = Əvvəlcə qeyd bitirilsin?
+record-abort-text = İndi tərk etməklə bütün irəliləyişiniz itiriləcək
+record-abort-submit = Klipləri göndər
+record-abort-continue = Qeydiyyatı tamamla
+record-abort-delete = Çıx və klipləri sil
+listen-instruction = <playIcon></playIcon> düyməsinə { $actionType }. Cümləni düzgün oxuyublar?
