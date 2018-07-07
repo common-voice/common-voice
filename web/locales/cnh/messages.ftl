@@ -80,6 +80,7 @@ terms = Bia kamnak
 cookies = khuk-ki
 faq = FAQ
 share-title = Na hawi le dang nih an aw an rak tun ve ding ah kan bawm!
+share-text = Minung an holh ning computer chim ve, na Aw van khum { $link }
 back-top = A cung ah kir
 contribution-banner-button = Van zoh 
 report-bugs-link = A ttha lo mi kan chim
