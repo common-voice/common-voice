@@ -15,7 +15,10 @@ loading = Yüklənir…
 
 ## Languages
 
+an = Araqonca
+ar = Ərəbcə
 as = Assam dili
+ast = Asturiyaca
 az = Azərbaycanca
 bn = Benqal dili
 br = Breton dili
@@ -26,6 +29,7 @@ cv = Çuvaşca
 cy = Qalca
 da = Danimarka dili
 de = Almanca
+dsb = Aşağı Sorb dili
 el = Yunanca
 en = İngiliscə
 es = İspanca
@@ -38,6 +42,7 @@ ga-IE = İrlandca
 he = İvrit dili
 hsb = Yuxarı Sorb dili
 hu = Macarca
+ia = İnterlinqua
 id = İndoneziya dili
 is = İsland dili
 it = İtalyanca
@@ -219,6 +224,7 @@ profile-why-title = Niyə profil tələb edilir?
 ## NotFound
 
 notfound-title = Tapılmadı
+notfound-content = Nə yazıq ki, nə istədiyinizi başa düşə bilmədim.
 
 ## Data
 
@@ -227,6 +233,8 @@ data-download-yes = Bəli
 data-download-deny = Xeyr
 data-download-license = Lisenziya: <licenseLink>CC-0</licenseLink>
 data-download-modal = <size>{ $size } GB</size> endirilməyə başlayacaq, davam edilsin?
+data-subtitle = Hər kəsin səsli tətbiqləri öyrədə bilməsi üçün açıq və ictimai səs bazarı yaradırıq.
+data-get-started = <speechBlogLink>Səs tanıma ilə başla</speechBlogLink>
 data-other-title = Digər səs bazaları…
 data-other-goto = { $name } saytına keç
 data-other-download = Məlumat Bazasını Endir
