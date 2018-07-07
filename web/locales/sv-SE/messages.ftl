@@ -15,7 +15,10 @@ loading = Laddar…
 
 ## Languages
 
+an = Aragonesiska
+ar = Arabiska
 as = Assamesiska
+ast = Asturiska
 az = Azerbajdzjanska
 bn = Bengaliska
 br = Bretonska
@@ -38,6 +41,7 @@ ga-IE = Irländska
 he = Hebreiska
 hsb = Högsorbiska
 hu = Ungerska
+ia = Interlingua
 id = Indonesiska
 is = Isländska
 it = Italienska
@@ -318,10 +322,6 @@ listen = Lyssna
 skip = Hoppa över
 shortcuts = Genvägar
 clips = Klipp
-goal-type-record = inspelning
-goal-type-validation = validering
-# $goalType will either be the string goal-type-record or goal-type-validation
-toward-goal = Det är <goalPercentage></goalPercentage> närmare dagens Common Voice { $goalType } mål. Tack
 contribute-more =
     { $count ->
         [one] Redo att göra { $count } till?
