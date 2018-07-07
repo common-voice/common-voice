@@ -235,7 +235,8 @@ language-section-in-progress = Tuah lio
 languages-show-more = Tam deuh zoh 
 languages-show-less = Tawm deuh zoh
 language-speakers = Chimtu 
-language-total-progress = Zate
+language-meter-in-progress = tthanchonak
+language-total-progress = Dihlak
 language-search-input =
     .placeholder = Kawl
 
@@ -251,6 +252,8 @@ contribute-more =
         [one] { $count }Tuah tthan na duh maw?
        *[other] Tam deuh in { $count } tuah tthan na duh maw?
     }
+record-cta = Tuun hramthok
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> a ttha tuk
 record-three-more-instruction = Pathum a tang!
 record-again-instruction = A ttha!<recordIcon></recordIcon> A rang tuun tthan
 record-again-instruction2 = Na thiam, tuun tthan <recordIcon></recordIcon>
