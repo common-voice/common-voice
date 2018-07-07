@@ -225,6 +225,7 @@ request-language-title = Holh phun halnak
 request-language-form-language =
     .label = Holh
 request-language-success-title = Holh phun halnak a kuat cang, ka lawm.
+request-language-success-content = Na holh zei tiin dah Common Voice ah na chiah ve lai ti kan in chimh tthan te lai. 
 
 ## Languages Overview
 
@@ -242,6 +243,7 @@ action-click = Hmet
 action-tap = Hmet
 listen = Ngai
 skip = Lawnh
+shortcuts = tawitan
 contribute-more =
     { $count ->
         [one] { $count }Tuah tthan na duh maw?
