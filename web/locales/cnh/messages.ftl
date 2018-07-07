@@ -161,6 +161,7 @@ profile-create = Mahkonglam Sernak
 profile-create-success = A tlamtling, Mahkonglam na ser khawh!
 profile-close = Phit
 profile-clear-modal = Mahkonglam na hlonh ah cun Commmon Voice ah nangmah konglam le na tuun cia vialte aa hlonh dih lai. 
+profile-explanation = Mahkonglam ah na tuahcia vialte zoh law, Aw kan lak mi vialte a hman deuhnak ding in kan bawm. 
 
 ## FAQ
 
@@ -183,6 +184,7 @@ faq-source-a2 = Hi ka<dataLink> hin biatlang kan lak nak na zoh khawh.  </dataLi
 
 ## Profile
 
+profile-why-title = Zei tuah ah keimah konglam cu a herh?
 profile-why-content = Nangmah kong kan theih deuh ah hin Common Voice nih na Aw hi ttha deuh le hmann deuh in computer a chimh khawh lai.
 
 ## NotFound
