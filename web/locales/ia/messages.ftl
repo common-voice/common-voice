@@ -1,6 +1,9 @@
 ## General
 
 yes-receive-emails = Si, que vos me invia emails. Io amarea restar informate circa le projecto Common Voice.
+stayintouch = Nos a Mozilla construe un communitate circum le technologias del voce. Nos placerea restar in contacto con le novas, nove datos fontes e saper plus circa como tu usa iste datos.
+privacy-info = Nos promitte de gerer tu informationes con cura. Lege plus in nostre <privacyLink>Advertentia de confidentialitate</privacyLink>.
+return-to-cv = Retornar a Common Voice
 email-input =
     .label = Email
 submit-form-action = Inviar
@@ -47,6 +50,7 @@ languages = linguas
 privacy = Confidentialitate
 terms = Terminos
 cookies = Cookies
+content-license-text = Contento disponibile sub <licenseLink>licentia Creative Commons</licenseLink>
 back-top = Receder al initio
 contribution-banner-text = Adjuta a reportar defectos
 
