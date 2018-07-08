@@ -15,7 +15,10 @@ loading = S'està carregant…
 
 ## Languages
 
+an = aragonès
+ar = àrab
 as = assamès
+ast = asturià
 az = àzeri
 bn = bengalí
 br = bretó
@@ -26,6 +29,7 @@ cv = txuvaix
 cy = gal·lès
 da = danès
 de = alemany
+dsb = baix sòrab
 el = grec
 en = anglès
 es = espanyol
@@ -38,6 +42,7 @@ ga-IE = irlandès
 he = hebreu
 hsb = alt sòrab
 hu = hongarès
+ia = interlingua
 id = indonesi
 is = islandès
 it = italià
