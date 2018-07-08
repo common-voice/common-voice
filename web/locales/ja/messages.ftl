@@ -244,20 +244,35 @@ data-other-ted-description = TED-LIUM コーパスは TED のウェブサイト�
 data-other-voxforge-description = VoxForge はフリーかつオープンソースの音声認識エンジンのために、ユーザが読み上げた音声を収集しています。
 data-other-tatoeba-description = Tatoeba は言語学習のための大量の文章、翻訳、音声のデータセットです。Tatoeba のコミュニティによって録音された、英語の音声がダウンロードできます。
 data-bundle-button = データセットをまとめてダウンロード
+data-bundle-description = Common Voice のデータと、上記のその他のデータセットをすべて含みます。
 license = ライセンス：<licenseLink>{ $license }</licenseLink>
 license-mixed = 複合ライセンス
 
 ## Record Page
 
+record-platform-not-supported = 申し訳ありません、あなたが利用しているプラットフォームは、現在サポートされていません。
+record-platform-not-supported-desktop = デスクトップPCでは、次の最新のクライアントから利用できます。：
+record-platform-not-supported-ios = <bold>iOS</bold> のユーザは次の無料アプリから利用できます。：
+record-must-allow-microphone = マイクの利用を許可してください。
 record-retry = 再試行
 record-no-mic-found = マイクが見つかりません。
 record-error-too-short = 録音時間が短かすぎます。
 record-error-too-long = 録音時間が長すぎます。
 record-error-too-quiet = 録音の音量が小さすぎます。
+record-submit-success = 提出できました！もう一度録音しますか？
+record-help = 録音ボタンを押して、上記の文章を声に出して読んでください。
+record-cancel = 録音のキャンセル
+review-terms = Common Voice を利用すると、「<termsLink>利用規約</termsLink>」と「<privacyLink>プライバシーについて</privacyLink>」に同意したものとみなします。
 terms-agree = 同意する
 terms-disagree = 同意しない
+review-aborted = アップロードに失敗しました。録音を消しますか？
 review-submit-title = 確認と提出
+review-submit-msg = 録音ありがとうございます！<lineBreak></lineBreak>以下で録音した音声の確認と提出をしてください。
+review-recording = 確認
+review-rerecord = 再録音
 review-cancel = 提出をキャンセル
+review-keep-recordings = 録音を保持
+review-delete-recordings = 録音を削除
 
 ## Download Modal
 
