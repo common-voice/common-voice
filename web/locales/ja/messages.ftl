@@ -346,3 +346,12 @@ clips-submitted =
        *[other] { $count }個の音声を提出しました
     }
 record-abort-title = 録音を終了しますか？
+record-abort-text = 今ページを離れると、作業した内容が消えます
+record-abort-submit = 録音を提出
+record-abort-continue = 録音を終了
+record-abort-delete = 録音を消して終了
+listen-instruction = <playIcon></playIcon>を{ $actionType }、流れる音声は、文章を正確に読んでいますか？
+listen-again-instruction = ありがとう！準備ができたら<playIcon></playIcon>で次の音声を聞いてください
+listen-3rd-time-instruction = ２つ終わりました、続けてがんばって！<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>最後の一つ！
+share-title-new = 音声を集める<bold>手伝い</bold>をしてください
