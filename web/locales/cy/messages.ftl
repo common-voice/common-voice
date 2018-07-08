@@ -126,7 +126,7 @@ toggle-play-tooltip = Cliciwch { shortcut-play-toggle } i newid y modd chwarae
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
-shortcut-skip = s
+shortcut-skip = H
 
 ## Listen Shortcuts
 
@@ -327,10 +327,10 @@ language-search-input =
 action-click = Cliciwch
 action-tap = Tapiwch
 contribute = Cyfrannwch
-listen = Gwrandewch
+listen = Gwrando
 skip = Hepgor
 shortcuts = Llwybrau Byr
-clips = Clipiau
+clips = Clip
 goal-help-recording = Rydych wedi cynorthwyo Common Voice i gyrraedd <goalPercentage></goalPercentage> o { $goalValue }, ein nod recordio dyddiol!
 goal-help-validation = Rydych wedi cynorthwyo Common Voice i gyrraedd <goalPercentage></goalPercentage> o { $goalValue }, ein nod dilysu dyddiol!
 contribute-more = Barod i wneud { $count } yn rhagor?
@@ -352,7 +352,7 @@ record-abort-submit = Cyflwyno clipiau
 record-abort-continue = Gorffen recordio
 record-abort-delete = Gadael a Dileu clipiau
 listen-instruction = { $actionType } <playIcon> </playIcon> ydyn nhw wedi ynganu'r brawddegau'n gywir?
-listen-again-instruction = Gwaith gwych! <playIcon> </playIcon> Gwrandewch eto pan fyddwch yn barod
+listen-again-instruction = Da iawn! <playIcon> </playIcon> Gwrandewch eto pan fyddwch yn barod
 listen-3rd-time-instruction = 2 i lawr <playIcon> </playIcon> , daliwch ati!
 listen-last-time-instruction = <playIcon> </playIcon> Yr un olaf!
 share-title-new = <bold>Helpwch ni</bold> i ganfod rhagor o leisiau
