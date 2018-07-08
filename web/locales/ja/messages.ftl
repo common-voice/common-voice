@@ -218,9 +218,12 @@ faq-source-a2 = 読み上げる文章は <dataLink>GitHub</dataLink> で見る�
 ## Profile
 
 profile-why-title = なぜプロファイルが必要ですか？
+profile-why-content = Common Voice に送った音声データは、あなたに関する情報が追加されることで、 音声認識エンジンの精度向上により役立つようになります。
 
 ## NotFound
 
+notfound-title = ページが見つかりません
+notfound-content = 残念ながらお探しのページが見つかりませんでした。
 
 ## Data
 
@@ -228,6 +231,8 @@ data-download-button = Common Voice データのダウンロード
 data-download-yes = はい
 data-download-deny = いいえ
 data-download-license = ライセンス：<licenseLink>CC-0</licenseLink>
+data-download-modal = <size>{ $size }GB</size> のダウンロードを開始しますか？
+data-subtitle = 誰もが、音声に対応したアプリケーションの開発に利用できる、公開された音声データセットを構築しています。
 data-other-download = データのダウンロード
 data-other-ted-name = TED-LIUM コーパス
 data-other-ted-description = TED-LIUM コーパスは TED のウェブサイトで公開されている音声と、それを文章として書き起こしたものです。
