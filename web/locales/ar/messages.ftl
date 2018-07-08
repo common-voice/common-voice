@@ -5,6 +5,7 @@ privacy-info = نعدكم بأن نتعامل مع معلوماتكم بحذر �
 return-to-cv = عُد إلى «الصوت للعموم»
 email-input =
     .label = البريد الإلكتروني
+submit-form-action = أرسِل
 loading = يُحمّل…
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
