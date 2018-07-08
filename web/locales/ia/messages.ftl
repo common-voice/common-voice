@@ -64,6 +64,8 @@ vote-no = No
 
 ## Speak Shortcuts
 
+request-language-text = An tu non vide ancora tu lingua sur Common Voice?
+request-language-button = Propone un lingua
 
 ## ProjectStatus
 
