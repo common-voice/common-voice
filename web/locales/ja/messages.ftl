@@ -309,6 +309,7 @@ language-section-launched = 公開中
 language-section-launched-description = 公開中の言語はウェブサイトのローカライズが完了し、十分な量の文章が集まっています。 <italic>{ speak }</italic> と <italic>{ listen }</italic> で貢献できます。
 languages-show-more = もっと見る
 languages-show-less = 省略する
+language-speakers = スピーカー
 language-meter-in-progress = 進捗
 language-total-progress = 合計
 language-search-input =
@@ -323,4 +324,25 @@ listen = 聴く
 skip = スキップ
 shortcuts = ショートカット
 clips = 録音クリップ
+goal-help-recording = あなたの貢献によって Common Voice は、日々の録音目標 { $goalValue } の内 <goalPercentage></goalPercentage> を達成できました！
+goal-help-validation = あなたの貢献によって Common Voice は、日々の検証目標 { $goalValue } の内 <goalPercentage></goalPercentage> を達成できました！
+contribute-more =
+    { $count ->
+       *[other] さらに{ $count }回、貢献しませんか？
+    }
 record-cta = 録音を開始する
+record-instruction = <recordIcon></recordIcon> を{ $actionType }して、文章を声に出して読んでください
+record-stop-instruction = 終わったら<stopIcon></stopIcon>を{ $actionType }
+record-three-more-instruction = あと３つ！
+record-again-instruction = ありがとう！<recordIcon></recordIcon>で続けて録音ができます
+record-again-instruction2 = 頑張って、続けて録音しよう<recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon>これで最後！
+review-tooltip = 録音した音声の、確認と再録音
+unable-speak = 今は喋れませんか？
+review-instruction = 録音した音声を確認して、必要なら再録音してください
+record-submit-tooltip = 終わったら提出を{ $actionType }
+clips-submitted =
+    { $count ->
+       *[other] { $count }個の音声を提出しました
+    }
+record-abort-title = 録音を終了しますか？
