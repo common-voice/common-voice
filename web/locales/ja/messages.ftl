@@ -233,9 +233,17 @@ data-download-deny = いいえ
 data-download-license = ライセンス：<licenseLink>CC-0</licenseLink>
 data-download-modal = <size>{ $size }GB</size> のダウンロードを開始しますか？
 data-subtitle = 誰もが、音声に対応したアプリケーションの開発に利用できる、公開された音声データセットを構築しています。
+data-explanatory-text = 公開された大量の音声データによって、音声を使った機械学習の分野でイノベーションや、健全な商業競争を促進できると信じています。この世界的な取り組みに、皆さんに参加してもらいたいと思っています。私達の目標は、世界中のより多くの言語や、方言を音声技術と共に利用できるようすることです。
+data-get-started = <speechBlogLink>音声認識をはじめる</speechBlogLink>
+data-other-title = その他の音声データセット...
+data-other-goto = { $name } へ行く
 data-other-download = データのダウンロード
+data-other-librispeech-description = LibriSpeech は16Khzでおよそ1000時間、録音された英語音声のコーパスです。音声は LibriVox が公開しているオーディオブックを読み上げて録音しています。
 data-other-ted-name = TED-LIUM コーパス
 data-other-ted-description = TED-LIUM コーパスは TED のウェブサイトで公開されている音声と、それを文章として書き起こしたものです。
+data-other-voxforge-description = VoxForge はフリーかつオープンソースの音声認識エンジンのために、ユーザが読み上げた音声を収集しています。
+data-other-tatoeba-description = Tatoeba は言語学習のための大量の文章、翻訳、音声のデータセットです。Tatoeba のコミュニティによって録音された、英語の音声がダウンロードできます。
+data-bundle-button = データセットをまとめてダウンロード
 license = ライセンス：<licenseLink>{ $license }</licenseLink>
 license-mixed = 複合ライセンス
 
