@@ -277,6 +277,12 @@ review-delete-recordings = 録音を削除
 ## Download Modal
 
 download-title = ダウンロードを開始しました。
+download-helpus = 音声技術のコミュニティ構築のために、メールで連絡を取らせてください。
+download-form-email =
+    .label = メールアドレスを入力
+    .value = ありがとうございます。今後、メールをお送りします。
+download-back = Common Voice のデータセットへ戻る
+download-no = やめる
 
 ## Contact Modal
 
@@ -289,11 +295,20 @@ contact-required = *必須
 
 ## Request Language Modal
 
+request-language-title = 言語のリクエスト
 request-language-form-language =
     .label = 言語
+request-language-success-title = ありがとうございます。言語のリクエストが完了しました。
+request-language-success-content = Common Voice にあなたの言語を追加する方法について、こちらから連絡します。
 
 ## Languages Overview
 
+language-section-in-progress = 現在進行中
+language-section-in-progress-description = 現在進行中の言語は、コミュニティーの貢献によって構築中です。進捗は、ウェブサイトのローカライズと、文章の収集の進み具合を表しています。
+language-section-launched = 公開中
+language-section-launched-description = 公開中の言語はウェブサイトのローカライズが完了し、十分な量の文章が集まっています。 <italic>{ speak }</italic> と <italic>{ listen }</italic> で貢献できます。
+languages-show-more = もっと見る
+languages-show-less = 省略する
 language-meter-in-progress = 進捗
 language-total-progress = 合計
 language-search-input =
