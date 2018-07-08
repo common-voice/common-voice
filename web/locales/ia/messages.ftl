@@ -1,5 +1,6 @@
 ## General
 
+yes-receive-emails = Si, que vos me invia emails. Io amarea restar informate circa le projecto Common Voice.
 email-input =
     .label = Email
 submit-form-action = Inviar
