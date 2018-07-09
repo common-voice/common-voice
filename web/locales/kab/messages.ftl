@@ -22,6 +22,7 @@ ast = Tasturit
 az = Tazerbiǧanit
 bn = Tabengalit
 br = Tabrutunt
+bxr = Taburyat
 ca = Takatalant
 cnh = Haxa Cin
 cs = Tačikit
