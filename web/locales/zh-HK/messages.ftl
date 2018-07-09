@@ -197,6 +197,7 @@ faq-important-q = 點解咁重要？
 faq-get-q = 我怎樣索取 Common Voice 的數據？
 faq-get-a = 這個數據集現可在我們的<downloadLink>下載分頁</downloadLink>依照 <licenseLink>CC-0</licenseLink>授權條款取得。
 faq-mission-q = 點解 Common Voice 係 Mozilla 的使命的一部分？
+faq-native-q = { $lang } 唔係我的母語，所以我讀起來有口音，你哋仲想要我把聲？
 faq-hours-q = 為何目標是取得一萬小時的錄音？
 faq-hours-a = 這是用來訓練 STT 系統所需的大約時數。
 faq-source-q = 原文的文字來自哪裏？
