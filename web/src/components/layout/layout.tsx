@@ -18,7 +18,13 @@ import {
   isSafari,
   replacePathLocale,
 } from '../../utility';
-import { MenuIcon, RecordIcon, OldPlayIcon, ChevronRight } from '../ui/icons';
+import {
+  MenuIcon,
+  RecordIcon,
+  OldPlayIcon,
+  ChevronRight,
+  CrossIcon,
+} from '../ui/icons';
 import { LabeledSelect, LinkButton } from '../ui/ui';
 import { ContributableLocaleLock } from '../locale-helpers';
 import Content from './content';
@@ -59,8 +65,11 @@ interface LayoutState {
   hasScrolledDown: boolean;
   transitioning: boolean;
   isRecording: boolean;
+  showContributionBanner: boolean;
   showStagingBanner: boolean;
 }
+
+const CONTRIBUTION_BANNER_KEY = 'showContributionBanner';
 
 class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   private header: HTMLElement;
@@ -84,6 +93,8 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     hasScrolledDown: false,
     transitioning: false,
     isRecording: false,
+    showContributionBanner:
+      JSON.parse(localStorage.getItem(CONTRIBUTION_BANNER_KEY)) !== false,
     showStagingBanner: true,
   };
 
@@ -224,12 +235,18 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     history.push(replacePathLocale(history.location.pathname, locale));
   };
 
+  private closeContributionBanner = () => {
+    this.setState({ showContributionBanner: false });
+    localStorage.setItem(CONTRIBUTION_BANNER_KEY, JSON.stringify(false));
+  };
+
   render() {
     const { isSetFull, locale, location } = this.props;
     const {
       hasScrolled,
       hasScrolledDown,
       isMenuVisible,
+      showContributionBanner,
       showStagingBanner,
     } = this.state;
 
@@ -307,28 +324,35 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             </button>
           </div>
         </header>
-        <ContributableLocaleLock>
-          <div className="contribution-banner">
-            <div className="inner">
-              <Localized id="contribution-banner-text">
-                <h1 />
-              </Localized>
-              <Localized id="contribution-banner-button">
-                <LinkButton className="open" rounded to={URLS.SPEAK} />
-              </Localized>
+        {showContributionBanner && (
+          <ContributableLocaleLock>
+            <div className="contribution-banner">
+              <div className="inner">
+                <Localized id="contribution-banner-text">
+                  <h1 />
+                </Localized>
+                <Localized id="contribution-banner-button">
+                  <LinkButton className="open" rounded to={URLS.SPEAK} />
+                </Localized>
+                <a
+                  className="bugs-link"
+                  href="https://github.com/mozilla/voice-web/issues/new"
+                  target="_blank">
+                  <Localized id="report-bugs-link">
+                    <span />
+                  </Localized>
+                  <ChevronRight />
+                </a>
+                <button
+                  type="button"
+                  className="close"
+                  onClick={this.closeContributionBanner}>
+                  <CrossIcon />
+                </button>
+              </div>
             </div>
-
-            <a
-              className="bugs-link"
-              href="https://github.com/mozilla/voice-web/issues/new"
-              target="_blank">
-              <Localized id="report-bugs-link">
-                <span />
-              </Localized>
-              <ChevronRight />
-            </a>
-          </div>
-        </ContributableLocaleLock>
+          </ContributableLocaleLock>
+        )}
         <div
           id="scroller"
           ref={div => {

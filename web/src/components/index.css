@@ -744,26 +744,26 @@ a.small, .small a, .text-button.small {
     position: sticky;
     top: 0;
     z-index: var(--middle-z-index);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     background: var(--black);
-    padding: 20px 30px;
+    padding: 20px 0;
 
     @media (--sm-down) {
-        display: none;
         position: absolute;
         top: var(--header-height);
-        flex-direction: column;
-        align-items: flex-end;
     }
 
     & .inner {
+        margin: 0 auto;
+        padding: 0 16px;
+        max-width: var(--desktop-width);
         width: 100%;
+        box-sizing: border-box;
         display: flex;
         flex-direction: row;
-        align-items: center;
-        justify-content: center;
+
+        @media (--md-down) {
+            flex-wrap: wrap;
+        }
     }
 
     & h1 {
@@ -771,17 +771,27 @@ a.small, .small a, .text-button.small {
         color:transparent;
         background-clip: text;
         -webkit-background-clip: text;
+
+        @media (--md-down) {
+            order: 1;
+            margin-bottom: 10px;
+            max-width: calc(100% - 40px);
+        }
     }
 
     & .open {
-        margin: 0 30px;
+        margin-right: auto;
         min-width: 150px;
         width: auto;
         background-color: transparent;
         border: 1px solid color(var(--white) alpha(50%));
 
-        @media (--sm-down) {
-            margin-right: 0;
+        @media (--md-down) {
+            order: 3;
+        }
+
+        @media (--lg-up) {
+            margin: 0 auto;
         }
     }
 
@@ -790,6 +800,23 @@ a.small, .small a, .text-button.small {
         align-items: center;
         white-space: nowrap;
         color: var(--white);
+
+        @media (--md-down) {
+            order: 4;
+        }
+
+        & path {
+            fill: var(--white);
+        }
+    }
+
+    & .close {
+        border: none;
+
+        @media (--md-down) {
+            order: 2;
+            margin-left: auto;
+        }
 
         & path {
             fill: var(--white);
