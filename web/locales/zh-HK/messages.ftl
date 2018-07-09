@@ -22,6 +22,7 @@ ast = 阿斯圖里亞斯文
 az = 亞塞拜然文
 bn = 孟加拉文
 br = 布里多尼文
+bxr = 布里亞特語
 ca = 加泰隆文
 cs = 捷克文
 cv = 楚瓦什文
@@ -258,6 +259,9 @@ review-delete-recordings = 刪除我的錄音
 ## Download Modal
 
 download-title = 您的下載開始了。
+download-form-email =
+    .label = 留下您的電郵
+    .value = 多謝，我們會保持聯繫。
 download-back = 返回 Common Voice 數據集
 download-no = 唔洗喇，多謝
 
@@ -276,6 +280,7 @@ request-language-form-language =
 ## Languages Overview
 
 language-section-in-progress = 準備中
+language-section-in-progress-description = 準備中嘅語言，代表該語言社群正在貢獻中。當中嘅進度反映了網站本地化的翻譯進度，以及語句收集的進度。
 language-section-launched = 已上線
 language-section-launched-description = 已上線嘅語言，代表網站已經完成翻譯，亦已收集足夠嘅語句，足以讓大眾作出<italic>{ speak }</italic>及<italic>{ listen }</italic>的貢獻。
 languages-show-more = 檢視更多
@@ -295,7 +300,12 @@ listen = 聆聽
 skip = 略過
 shortcuts = 捷徑
 clips = 錄音片段
+contribute-more =
+    { $count ->
+       *[other] 準備好再做{ $count }個？
+    }
 record-cta = 開始錄音
+record-instruction = { $actionType }<recordIcon></recordIcon>然後大聲朗讀句子
 record-stop-instruction = 完成後請{ $actionType }<stopIcon></stopIcon>
 record-three-more-instruction = 仲有三個！
 record-again-instruction = 好！點擊<recordIcon></recordIcon>錄下一個片段
@@ -318,4 +328,5 @@ listen-instruction = { $actionType }<playIcon></playIcon> 佢哋將句子讀得�
 listen-again-instruction = 做得好！<playIcon></playIcon> 準備好就可以再聽更多
 listen-3rd-time-instruction = 完成兩筆了 <playIcon></playIcon>，繼續加油！
 listen-last-time-instruction = <playIcon></playIcon> 最後一個！
+record-button-label = 錄下您的聲音
 share-title-new = <bold>請幫助我們</bold>去找更多人的聲音
