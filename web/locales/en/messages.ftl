@@ -18,6 +18,7 @@ ast = Asturian
 az = Azerbaijani
 bn = Bengali
 br = Breton
+bxr = Buryat
 ca = Catalan
 cnh = Hakha Chin
 cs = Czech
