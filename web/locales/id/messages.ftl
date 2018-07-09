@@ -15,7 +15,10 @@ loading = Memuat…
 
 ## Languages
 
+an = Bahasa Aragon
+ar = Bahasa Arab
 as = Bahasa Assam
+ast = Bahasa Asturia
 az = Bahasa Azeri
 bn = Bahasa Bengali
 br = Bahasa Breton
@@ -26,6 +29,7 @@ cv = Bahasa Chuvash
 cy = Bahasa Wales
 da = Bahasa Denmark
 de = Bahasa Jerman
+dsb = Bahasa Sorbia Hilir
 el = Bahasa Yunani
 en = Bahasa Inggris
 es = Bahasa Spanyol
@@ -38,6 +42,7 @@ ga-IE = Bahasa Irlandia
 he = Bahasa Ibrani
 hsb = Bahasa Sorbia Hulu
 hu = Bahasa Hongaria
+ia = Bahasa Interlingua
 id = Bahasa Indonesia
 is = Bahasa Islandia
 it = Bahasa Italia
@@ -345,4 +350,6 @@ listen-instruction = { $actionType } <playIcon></playIcon> apakah kalimatnya sud
 listen-again-instruction = Hasil yang hebat! <playIcon></playIcon> Dengarkan kembali jika Anda siap
 listen-3rd-time-instruction = sudah 2 <playIcon></playIcon> , lanjut terus!
 listen-last-time-instruction = <playIcon></playIcon> Satu lagi!
+nothing-to-validate = Kami tidak memiliki apa pun untuk divalidasi dalam bahasa ini, bantu kami mengisi antreannya.
+record-button-label = Rekam suara Anda
 share-title-new = <bold>Bantu kami</bold> menemukan lebih banyak suara
