@@ -22,6 +22,7 @@ ast = asturyjski
 az = azerski
 bn = bengalski
 br = bretoński
+bxr = buriacki
 ca = kataloński
 cnh = haka czin
 cs = czeski
