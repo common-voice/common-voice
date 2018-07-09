@@ -259,11 +259,14 @@ review-delete-recordings = 刪除我的錄音
 
 download-title = 您的下載開始了。
 download-back = 返回 Common Voice 數據集
+download-no = 唔洗喇，多謝
 
 ## Contact Modal
 
+contact-title = 聯絡表格
 contact-form-name =
     .label = 名字
+contact-required = *必填欄位
 
 ## Request Language Modal
 
