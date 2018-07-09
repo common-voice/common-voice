@@ -355,4 +355,6 @@ listen-instruction = { $actionType } <playIcon></playIcon> czy poprawnie wymówi
 listen-again-instruction = Świetna robota! <playIcon></playIcon> Posłuchaj ponownie
 listen-3rd-time-instruction = Dwa zrobione <playIcon></playIcon>, tak trzymaj!
 listen-last-time-instruction = <playIcon></playIcon> Ostatnie!
+nothing-to-validate = Nie mamy nic do zweryfikowania w tym języku, pomóż nam wypełnić kolejkę.
+record-button-label = Nagraj swój głos
 share-title-new = <bold>Pomóż nam</bold> znaleźć więcej głosów
