@@ -3072,6 +3072,10 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.1"
     readable-stream "^2.0.4"
 
+focus-visible@^4.1.4:
+  version "4.1.4"
+  resolved "https://registry.yarnpkg.com/focus-visible/-/focus-visible-4.1.4.tgz#f9963bcf5784b1d9dcde62ba53214d38a4f3f9af"
+
 follow-redirects@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.0.0.tgz#8e34298cbd2e176f254effec75a1c78cc849fd37"

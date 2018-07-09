@@ -79,8 +79,8 @@ body:not(.mobile-safari) .play-box:hover,
 body:not(.mobile-safari) .play-box:hover path,
 body.mobile-safari .play-box:active,
 body.mobile-safari .play-box:active path,
-.is-keyboard-focus .play-box:focus,
-.is-keyboard-focus .play-box:focus path {
+.play-box:focus.focus-visible,
+.play-box:focus.focus-visible path {
     outline: none;
     background-color: var(--green);
     color: var(--white);
@@ -89,8 +89,8 @@ body.mobile-safari .play-box:active path,
 
 .play-box:hover svg,
 .delete-box:hover svg,
-.is-keyboard-focus .play-box:focus svg,
-.is-keyboard-focus .delete-box:focus svg {
+.play-box:focus.focus-visible svg,
+.delete-box:focus.focus-visible svg {
     transform: scale(1.1);
 }
 
@@ -139,8 +139,8 @@ body:not(.mobile-safari) .delete-box:hover,
 body:not(.mobile-safari) .delete-box:hover path,
 body.mobile-safari .delete-box:active,
 body.mobile-safari .delete-box:active path,
-.is-keyboard-focus .delete-box:focus,
-.is-keyboard-focus .delete-box:focus path {
+.delete-box:focus.focus-visible,
+.delete-box:focus.focus-visible path {
     background-color: var(--black);
     color: var(--white);
     fill: var(--white);

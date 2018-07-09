@@ -108,7 +108,11 @@ button {
     }
 }
 
-.is-keyboard-focus *:focus {
+.js-focus-visible :focus:not(.focus-visible), .js-focus-visible :focus-within:not(.focus-visible) {
+    outline: none;
+}
+
+.js-focus-visible .focus-visible {
     outline: 1px solid black;
 }
 

@@ -34,8 +34,6 @@ import Logo from './logo';
 import Nav from './nav';
 import Robot from './robot';
 
-const KEYBOARD_FOCUS_CLASS_NAME = 'is-keyboard-focus';
-
 const LOW_FPS = 20;
 const DISABLE_ANIMATION_LOW_FPS_THRESHOLD = 3;
 
@@ -219,16 +217,6 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     this.setState({ isMenuVisible: !this.state.isMenuVisible });
   };
 
-  private showKeyboardFocus = (event: any) => {
-    if (event.key == 'Tab') {
-      document.body.classList.add(KEYBOARD_FOCUS_CLASS_NAME);
-    }
-  };
-
-  private hideKeyboardFocus = () => {
-    document.body.classList.remove(KEYBOARD_FOCUS_CLASS_NAME);
-  };
-
   private selectLocale = async (locale: string) => {
     const { setLocale, history } = this.props;
     setLocale(locale);
@@ -257,11 +245,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     }
 
     return (
-      <div
-        id="main"
-        className={className}
-        onKeyDown={this.showKeyboardFocus}
-        onClick={this.hideKeyboardFocus}>
+      <div id="main" className={className}>
         {isIOS() &&
           !isNativeIOS() &&
           !isSafari() && (

@@ -150,7 +150,7 @@ header {
     }
 }
 
-.language-select:hover, .is-keyboard-focus .language-select:focus-within {
+.language-select:hover, .language-select.focus-visible:focus-within {
     &::before {
         background-image: url("/img/globe_black.svg");
     }

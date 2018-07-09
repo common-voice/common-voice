@@ -41,18 +41,18 @@
 }
 
 body:not(.mobile-safari) .button:hover,
-.is-keyboard-focus .button:focus {
+.button:focus.focus-visible {
     background-color: var(--white);
     color: var(--black);
 }
 
 body:not(.mobile-safari) .button.outline:hover,
-.is-keyboard-focus .button.outline:focus {
+.button.outline:focus.focus-visible {
     border-color: black;
 }
 
 body:not(.mobile-safari) .button:hover path,
-.is-keyboard-focus .button:focus path {
+.button:focus.focus-visible path {
     fill: var(--black);
 }
 
@@ -79,8 +79,8 @@ body:not(.mobile-safari) .button:hover path,
 
 body:not(.mobile-safari) .card-action:hover,
 body:not(.mobile-safari) .button.card-action:hover,
-.is-keyboard-focus .card-action:focus,
-.is-keyboard-focus .button.card-action:focus {
+.card-action:focus.focus-visible,
+.button.card-action:focus.focus-visible {
     outline: none;
     margin: 1px -1px -1px 1px;
     background: white;
@@ -90,7 +90,7 @@ body:not(.mobile-safari) .button.card-action:hover,
 }
 
 body:not(.mobile-safari) .button.card-action:hover path,
-.is-keyboard-focus .button.card-action:focus path {
+button.card-action:focus.focus-visible path {
     fill: var(--black);
 }
 

@@ -157,10 +157,10 @@ footer {
             display: none;
         }
     }
-}
 
-.is-keyboard-focus #moz-links *:focus {
-    outline: 1px solid white;
+    & *:focus.focus-visible {
+        outline: 1px solid white;
+    }
 }
 
 #sharing {

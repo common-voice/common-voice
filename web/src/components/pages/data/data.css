@@ -153,14 +153,14 @@
 }
 
 body:not(.mobile-safari) .dataset .button.card-action:hover,
-.is-keyboard-focus .dataset .button.card-action:focus {
+.dataset .button.card-action:focus.focus-visible {
     margin: 0;
     background: black;
     color: var(--white);
 }
 
 body:not(.mobile-safari) .dataset .button.card-action:hover path,
-.is-keyboard-focus .dataset .button.card-action:focus path {
+.dataset .button.card-action:focus.focus-visible path {
     fill: var(--white);
 }
 
