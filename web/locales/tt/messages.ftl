@@ -359,4 +359,6 @@ listen-instruction = { $actionType }<playIcon></playIcon> алар җөмләл�
 listen-again-instruction = Шәп эш! <playIcon></playIcon> Әзер булгач, яңадан тыңлагыз
 listen-3rd-time-instruction = Икесе әзер, <playIcon></playIcon> дәвам итегез!
 listen-last-time-instruction = <playIcon></playIcon> Соңгысы!
+nothing-to-validate = Бу тел өчен тикшерүгә җөмләләр юк әле, безгә бу кимчелекне төзәтергә ярдәм итегез.
+record-button-label = Тавышыгызны яздырыгыз
 share-title-new = Безгә күбрәк тавыш табарга <bold>ярдәм итегез</bold>
