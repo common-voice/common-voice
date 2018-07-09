@@ -29,6 +29,7 @@ cv = Tjuvasjiska
 cy = Walesiska
 da = Danska
 de = Tyska
+dsb = Lågsorbiska
 el = Grekiska
 en = Engelska
 es = Spanska
@@ -101,6 +102,7 @@ content-license-text = Innehåll tillgängligt under en <licenseLink>Creative Co
 share-title = Hjälp oss att hitta andra som är redo att bidra med sin röst!
 share-text = Hjälp till att lära maskiner hur riktiga människor pratar, donera din röst på { $link }
 back-top = Tillbaka till toppen av sidan
+contribution-banner-button = Ta en titt
 report-bugs-link = Hjälp oss att rapportera buggar
 
 ## Home Page
