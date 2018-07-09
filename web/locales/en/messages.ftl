@@ -349,6 +349,8 @@ listen-instruction = { $actionType }<playIcon></playIcon> did they accurately sp
 listen-again-instruction = Great work!<playIcon></playIcon> Listen again when you're ready
 listen-3rd-time-instruction = 2 down, keep it up!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Last one!
+nothing-to-validate = We don't have anything to validate in this language, help us fill the queue.
+record-button-label = Record your voice
 share-title-new = <bold>Help us</bold> find more voices
 
 

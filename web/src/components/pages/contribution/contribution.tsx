@@ -225,16 +225,17 @@ class ContributionPage extends React.Component<Props, State> {
               </Localized>
             </div>
 
-            {this.isLoaded &&
-              !errorContent && (
-                <div className={'counter ' + (isSubmitted ? 'done' : '')}>
-                  {isSubmitted && <CheckIcon />}
-                  {this.renderCounter()}
-                  <Localized id="clips" $count={''}>
-                    <span className="text" />
-                  </Localized>
-                </div>
-              )}
+            {this.isLoaded && !errorContent ? (
+              <div className={'counter ' + (isSubmitted ? 'done' : '')}>
+                {isSubmitted && <CheckIcon />}
+                {this.renderCounter()}
+                <Localized id="clips" $count={''}>
+                  <span className="text" />
+                </Localized>
+              </div>
+            ) : (
+              <div />
+            )}
             {isSubmitted && (
               <button className="open-share" onClick={this.toggleShareModal}>
                 <ShareIcon />
@@ -298,7 +299,9 @@ class ContributionPage extends React.Component<Props, State> {
                     return (
                       <div
                         key={sentence}
-                        className={'card ' + (isActive ? '' : 'inactive')}
+                        className={
+                          'card card-dimensions ' + (isActive ? '' : 'inactive')
+                        }
                         style={{
                           transform: [
                             `scale(${isActive ? 1 : 0.9})`,

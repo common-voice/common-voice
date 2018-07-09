@@ -5,14 +5,17 @@ import { trackListening } from '../../../../services/tracker';
 import { Clips } from '../../../../stores/clips';
 import { Locale } from '../../../../stores/locale';
 import StateTree from '../../../../stores/tree';
+import URLS from '../../../../urls';
 import {
   CheckIcon,
   CrossIcon,
+  MicIcon,
   OldPlayIcon,
   ThumbsDownIcon,
   ThumbsUpIcon,
   VolumeIcon,
 } from '../../../ui/icons';
+import { LinkButton } from '../../../ui/ui';
 import ContributionPage, {
   ContributionPillProps,
   SET_COUNT,
@@ -39,6 +42,7 @@ const VoteButton = ({
 
 interface PropsFromState {
   clips: Clips.Clip[];
+  isLoading: boolean;
   locale: Locale.State;
 }
 
@@ -192,6 +196,22 @@ class ListenPage extends React.Component<Props, State> {
         />
         <ContributionPage
           activeIndex={clipIndex}
+          errorContent={
+            !this.props.isLoading &&
+            clips.length === 0 && (
+              <div className="empty-container">
+                <Localized id="nothing-to-validate">
+                  <div className="error-card card-dimensions" />
+                </Localized>
+                <LinkButton rounded to={URLS.SPEAK} className="record-instead">
+                  <MicIcon />{' '}
+                  <Localized id="record-button-label">
+                    <span />
+                  </Localized>
+                </LinkButton>
+              </div>
+            )
+          }
           instruction={props =>
             activeClip &&
             !isPlaying &&
@@ -280,8 +300,10 @@ class ListenPage extends React.Component<Props, State> {
 }
 
 const mapStateToProps = (state: StateTree) => {
+  const { clips, isLoading } = Clips.selectors.localeClips(state);
   return {
-    clips: Clips.selectors.localeClips(state).clips,
+    clips,
+    isLoading,
     locale: state.locale,
   };
 };
