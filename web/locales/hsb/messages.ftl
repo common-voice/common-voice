@@ -22,6 +22,7 @@ ast = Asturišćina
 az = Azerbajdźanšćina
 bn = Bengalšćina
 br = Bretonšćina
+bxr = Burjatšćina
 ca = Katalanšćina
 cnh = Hakha Chin
 cs = Čěšćina
