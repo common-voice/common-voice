@@ -15,7 +15,10 @@ loading = Caricamento in corso…
 
 ## Languages
 
+an = Aragonese
+ar = Arabo
 as = Assamese
+ast = Asturiano
 az = Azerbaigiano
 bn = Bengalese
 br = Bretone
@@ -26,6 +29,7 @@ cv = Ciuvascio
 cy = Gallese
 da = Danese
 de = Tedesco
+dsb = Basso sorabo
 el = Greco
 en = Inglese
 es = Spagnolo
@@ -38,6 +42,7 @@ ga-IE = Irlandese
 he = Ebraico
 hsb = Alto sorabo
 hu = Ungherese
+ia = Interlingua
 id = Indonesiano
 is = Islandese
 it = Italiano
