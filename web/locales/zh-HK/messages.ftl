@@ -102,6 +102,7 @@ content-license-text = 內容依照 <licenseLink>Creative Commons 授權條款</
 share-title = 幫助我們找其他人一起獻聲！
 share-text = 請到 { $link } 獻聲，協助我們教導機器了解人們是如何說話的。
 back-top = 回到頁頂
+report-bugs-link = 幫手報告程式錯誤
 
 ## Home Page
 
@@ -162,6 +163,7 @@ english = 英文
 
 ## ProfileForm
 
+profile-form-cancel = 離開表格
 profile-form-delete = 刪除帳戶
 profile-form-username =
     .label = 使用者名稱
