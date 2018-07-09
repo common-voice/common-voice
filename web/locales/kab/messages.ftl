@@ -357,4 +357,6 @@ listen-instruction = { $actionType } <playIcon></playIcon> ɣran-d akken iwata t
 listen-again-instruction = Igarrez uxeddim! <playIcon></playIcon> Sell-as tikelt-nniḍen ticki theggaḍ
 listen-3rd-time-instruction = 2 d akesser <playIcon></playIcon> , kemmel ar zdat!
 listen-last-time-instruction = <playIcon></playIcon> d aneggaru! 
+nothing-to-validate = Ula kra ara nsentem deg tutlayt-a, mudd-aɣ-d afus ad neččaṛ adras.
+record-button-label = Sekles taect-ik
 share-title-new = <bold>Mudd-aɣ-d afus</bold> ad d-naf tuɣac timaynutin
