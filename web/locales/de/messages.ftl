@@ -350,4 +350,4 @@ listen-again-instruction = Gut so! <playIcon></playIcon> Machen Sie einfach weit
 listen-3rd-time-instruction = Zwei erledigt, <playIcon></playIcon> weiter so!
 listen-last-time-instruction = <playIcon></playIcon> Einmal noch!
 record-button-label = Nehmen Sie Ihre Stimme auf
-share-title-new = <bold>Helfen Sie uns</bold> dabei mehr Stimmen zu finden
+share-title-new = <bold>Helfen Sie uns dabei</bold> mehr Stimmen zu finden
