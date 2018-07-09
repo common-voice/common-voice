@@ -154,8 +154,8 @@ status-title = Projektstatus-Übersicht: so weit haben wir es schon geschafft!
 status-contribute = Spenden Sie Ihre Stimme
 status-hours =
     { $hours ->
-        [one] Bereits eine validierte Stunde!
-       *[other] Bereits { $hours } validierte Stunden!
+        [one] Bereits eine bestätigte Stunde!
+       *[other] Bereits { $hours } bestätigte Stunden!
     }
 # Variables:
 # $goal - number of hours representing the next goal
@@ -349,6 +349,5 @@ listen-instruction = <playIcon></playIcon>{ $actionType } - Wurde der Satz korre
 listen-again-instruction = Gut so! <playIcon></playIcon> Machen Sie einfach weiter, wenn Ihnen danach ist
 listen-3rd-time-instruction = Zwei erledigt, <playIcon></playIcon> weiter so!
 listen-last-time-instruction = <playIcon></playIcon> Einmal noch!
-nothing-to-validate = Wir haben in dieser Sprache noch nichts zum Überprüfen, bitte helfen Sie uns, die Warteschlange zu füllen.
 record-button-label = Nehmen Sie Ihre Stimme auf
 share-title-new = <bold>Helfen Sie uns</bold> dabei mehr Stimmen zu finden
