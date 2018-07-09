@@ -104,6 +104,7 @@ profile-close = Clauder
 
 ## FAQ
 
+faq-important-q = Perque es isto importante?
 
 ## Profile
 
