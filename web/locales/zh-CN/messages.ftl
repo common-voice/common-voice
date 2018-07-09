@@ -349,5 +349,6 @@ listen-instruction = { $actionType }<playIcon></playIcon> 他们是否准确地�
 listen-again-instruction = 做得好！<playIcon></playIcon> 准备好就可以再听一遍
 listen-3rd-time-instruction = 完成两条了 <playIcon></playIcon>，继续加油！
 listen-last-time-instruction = <playIcon></playIcon> 最后一个了！
+nothing-to-validate = 我们没有这个语言可供验证的录音，请帮助我们多录一些。
 record-button-label = 录下您的声音
 share-title-new = <bold>请帮助我们</bold>找到更多声音
