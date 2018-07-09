@@ -8,32 +8,34 @@
     padding-top: 0;
 }
 
-.unsupported > :first-child {
-    padding-top: 3rem;
-}
+.unsupported {
+    & > :first-child {
+        padding-top: 3rem;
+    }
 
-.unsupported a {
-    display: block;
-    color: var(--link-color);
-    margin: 0.5rem 0;
-}
+    & a {
+        display: block;
+        color: var(--link-color);
+        margin: 0.5rem 0;
+    }
 
-.unsupported span {
-    margin-right: 0.5rem;
-}
+    & span {
+        margin-right: 0.5rem;
+    }
 
-.unsupported p {
-    padding: 1rem 0;
+    & p {
+        padding: 1rem 0;
+    }
 }
 
 #recordings-count {
     color: var(--red);
     font-size: .9rem;
     font-weight: bold;
-}
 
-#recordings-count span {
-    padding: 0 0.3rem 0.3rem;
+    & span {
+        padding: 0 0.3rem 0.3rem;
+    }
 }
 
 .record-sentence {
@@ -44,38 +46,39 @@
 
 .text-box {
     transition: transform var(--transition-duration-slow) var(--easing);
-}
 
-.text-box.no-sentences-error {
-    background-color: var(--white);
-}
-.text-box.no-sentences-error p {
-    opacity: .3;
-}
+    &.no-sentences-error {
+        background-color: var(--white);
 
-.text-box.left, .text-box.right {
-    position: absolute;
-    top: 0;
-}
+        & p {
+            opacity: .3;
+        }
+    }
 
-.text-box.left {
-    transform: translateX(-100vw);
-}
+    &.left, &.right {
+        position: absolute;
+        top: 0;
+    }
 
-.text-box.right {
-    transform: translateX(100vw);
-}
+    &.left {
+        transform: translateX(-100vw);
+    }
 
-.text-box p {
-    padding: 1rem;
-    min-height: 6rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: var(--strong-font-family);
-    font-size: 1.4rem;
-    background-color: var(--white);
-    box-shadow: var(--card-shadow);
+    &.right {
+        transform: translateX(100vw);
+    }
+
+    & p {
+        padding: 1rem;
+        min-height: 6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: var(--strong-font-family);
+        font-size: 1.4rem;
+        background-color: var(--white);
+        box-shadow: var(--card-shadow);
+    }
 }
 
 .refresh {
@@ -107,18 +110,18 @@
     padding: .5rem;
     width: 50px;
     height: 50px;
-}
 
-#record-button:hover, #record-button:focus.focus-visible {
-    transform: scale(1.1);
-}
+    &:hover, &:focus.focus-visible {
+        transform: scale(1.1);
+    }
 
-#record-button img {
-    width: 100%;
-}
+    & img {
+        width: 100%;
+    }
 
-#record-button:hover {
-    background: none;
+    &:hover {
+        background: none;
+    }
 }
 
 .recording #record-button {
