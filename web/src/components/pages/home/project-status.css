@@ -1,46 +1,49 @@
 .project-status {
     color: var(--near-black);
     box-shadow: var(--card-shadow);
-}
 
-.project-status .title-and-action {
-    padding: 1.5rem 2rem;
-    background: var(--lighter-grey);
+    & .title-and-action {
+        padding: 1.5rem 2rem;
+        background: var(--lighter-grey);
+    }
 }
 
 @media (--mobile) {
-    .project-status .title-and-action h4 {
-        align-self: left;
-    }
+    .project-status .title-and-action{
+        & h4, & a {
+            align-self: left;
+        }
 
-    .project-status .title-and-action a {
-        padding-top: 1rem;
-        align-self: left;
+        & a {
+            padding-top: 1rem;
+        }
     }
 }
 
-.project-status h4 {
-    font-family: var(--base-font-family);
-    font-weight: normal;
-}
+.project-status {
+    & h4 {
+        font-family: var(--base-font-family);
+        font-weight: normal;
+    }
 
-.project-status .contents {
-    padding: 1.5rem 2rem;
-    font-size: .9rem;
+    & .contents {
+        padding: 1.5rem 2rem;
+        font-size: .9rem;
 
-    & b {
-        text-transform: uppercase;
+        & b {
+            text-transform: uppercase;
+        }
     }
 }
 
 .language-progress {
     margin-bottom: 2rem;
-}
 
-.language-progress .numbers {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    & .numbers {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
 }
 
 @media (--mobile) {
