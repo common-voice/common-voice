@@ -22,6 +22,7 @@ ast = Asturieg
 az = Azerbaidjaneg
 bn = Bengaleg
 br = Brezhoneg
+bxr = Bouriat
 ca = Katalaneg
 cnh = Hakha Chin
 cs = Tchekeg
