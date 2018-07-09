@@ -194,6 +194,7 @@ profile-explanation = 使用您的個人帳戶可以保留您的進展，並幫�
 faq-title = 常見問題
 faq-what-q = Common Voice 是什麼？
 faq-important-q = 點解咁重要？
+faq-get-q = 我怎樣索取 Common Voice 的數據？
 faq-get-a = 這個數據集現可在我們的<downloadLink>下載分頁</downloadLink>依照 <licenseLink>CC-0</licenseLink>授權條款取得。
 faq-hours-q = 為何目標是取得一萬小時的錄音？
 faq-hours-a = 這是用來訓練 STT 系統所需的大約時數。
