@@ -198,6 +198,7 @@ faq-get-q = 我怎樣索取 Common Voice 的數據？
 faq-get-a = 這個數據集現可在我們的<downloadLink>下載分頁</downloadLink>依照 <licenseLink>CC-0</licenseLink>授權條款取得。
 faq-mission-q = 點解 Common Voice 係 Mozilla 的使命的一部分？
 faq-native-q = { $lang } 唔係我的母語，所以我讀起來有口音，你哋仲想要我把聲？
+faq-firefox-q = 語音識別技術會不會透過 Common Voice 成爲火狐瀏覽器的一部分？
 faq-hours-q = 為何目標是取得一萬小時的錄音？
 faq-hours-a = 這是用來訓練 STT 系統所需的大約時數。
 faq-source-q = 原文的文字來自哪裏？
@@ -251,14 +252,18 @@ review-submit-msg = 多謝你的錄音！<lineBreak></lineBreak>請在下面檢�
 review-recording = 檢閱
 review-rerecord = 重新錄音
 review-cancel = 取消提交
+review-keep-recordings = 保存錄音
 review-delete-recordings = 刪除我的錄音
 
 ## Download Modal
 
+download-title = 您的下載開始了。
 download-back = 返回 Common Voice 數據集
 
 ## Contact Modal
 
+contact-form-name =
+    .label = 名字
 
 ## Request Language Modal
 
