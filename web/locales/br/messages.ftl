@@ -352,4 +352,6 @@ listen-instruction = { $actionType }<playIcon></playIcon> ha distripet mat eo be
 listen-again-instruction = Labour vat! <playIcon></playIcon> Adselaou pa viot prest
 listen-3rd-time-instruction = 2 graet <playIcon></playIcon> , dalc'hit da vont!
 listen-last-time-instruction = <playIcon></playIcon> An hini ziwezhañ!
+nothing-to-validate = N'eus mann da wiriañ evit ar yezh-mañ, skoazellit ac'hanomp da leuniañ ar steudad-c'hortoz.
+record-button-label = Enrollit ho mouezh
 share-title-new = <bold>Sikourit ac'hanomp</bold> da gavout muioc'h a vouezhioù
