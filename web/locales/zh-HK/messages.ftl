@@ -24,6 +24,7 @@ bn = 孟加拉文
 br = 布里多尼文
 bxr = 布里亞特語
 ca = 加泰隆文
+cnh = 哈卡鎮 欽語
 cs = 捷克文
 cv = 楚瓦什文
 cy = 威爾斯文
@@ -102,6 +103,7 @@ content-license-text = 內容依照 <licenseLink>Creative Commons 授權條款</
 share-title = 幫助我們找其他人一起獻聲！
 share-text = 請到 { $link } 獻聲，協助我們教導機器了解人們是如何說話的。
 back-top = 回到頁頂
+contribution-banner-button = 去睇一下
 report-bugs-link = 幫手報告程式錯誤
 
 ## Home Page
