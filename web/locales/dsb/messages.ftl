@@ -363,4 +363,6 @@ listen-instruction = { $actionType } <playIcon></playIcon> jo se sada korektnje 
 listen-again-instruction = Wjelicne źěło! <playIcon></playIcon> Słuchajśo znowego, gaž sćo gótowy
 listen-3rd-time-instruction = 2 zwónoźonej, <playIcon></playIcon> dalej tak!
 listen-last-time-instruction = <playIcon></playIcon> Slědny!
+nothing-to-validate = Njamamy nico, kótarež móžomy w toś tej rěcy pśekontrolěrowaś, pšosym pomagajśo nam cakański rěd połniś.
+record-button-label = Nagrajśo swój głos
 share-title-new = <bold>Pomagajśo nam</bold>, dalšne głose namakaś
