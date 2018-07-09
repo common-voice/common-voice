@@ -181,6 +181,7 @@ female = 女性
 # Gender
 other = 其他
 why-profile-title = 點解需要帳戶？
+why-profile-text = 提供一些關於您的資訊可以讓你的 Common Voice 語音資料更有用，令語音識別引擎更加準確。
 edit-profile = 編輯個人帳戶
 profile-create = 註冊帳戶
 profile-create-success = 成功建立帳戶！
@@ -202,6 +203,7 @@ faq-source-a2 = 您可在<dataLink>這個 GitHub 資料夾</dataLink>參考我�
 ## Profile
 
 profile-why-title = 為什麼需要註冊帳戶？
+profile-why-content = 提供一些關於您的資訊可以讓你的 Common Voice 語音資料更有用，令語音識別引擎更加準確。
 
 ## NotFound
 
@@ -216,6 +218,7 @@ data-download-deny = 不好
 data-download-license = 授權條款: <licenseLink>CC-0</licenseLink>
 data-download-modal = 您將會下載 <size>{ $size } GB</size> 的檔案，要繼續嗎？
 data-subtitle = 我們正在打造一套開放、可公開使用的語音數據集，讓每個人都可用來訓練有語音功能的應用程式。
+data-get-started = <speechBlogLink>語音辨識新手上路</speechBlogLink>
 data-other-title = 其他語音數據集…
 data-other-goto = 前往 { $name }
 data-other-download = 下載數據
@@ -286,9 +289,11 @@ record-stop-instruction = 完成後請{ $actionType }<stopIcon></stopIcon>
 record-three-more-instruction = 仲有三個！
 record-again-instruction = 好！點擊<recordIcon></recordIcon>錄下一個片段
 record-again-instruction2 = 繼續加油，再錄一回！<recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon>最後一筆了！
 review-tooltip = 在此確認或重錄片段
 unable-speak = 現在無法錄音？
 review-instruction = 確認錄音內容，有需要的話可以重錄
+record-submit-tooltip = 準備好即可{ $actionType }送出
 clips-submitted =
     { $count ->
        *[other] 已送出 { $count } 個錄音片段！
