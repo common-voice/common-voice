@@ -175,7 +175,6 @@ export default class Wave {
     framesInLastSecond = framesInLastSecond.slice(
       framesInLastSecond.length - index - 1
     );
-    console.log(framesInLastSecond.length);
     if (framesInLastSecond.length < LOW_FPS) {
       lowFPSCount++;
     }

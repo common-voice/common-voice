@@ -217,24 +217,29 @@ export const ShareIcon = (props: any) => {
   );
 };
 
-export const SkipIcon = (props: any) => (
-  <svg width="22" height="22" viewBox="0 0 22 22">
-    <defs>
-      <path
-        id="skip-path"
-        d="M12.558 6.142l-4.583 4.583a.832.832 0 0 1-.642.275.832.832 0 0 1-.641-.275.886.886 0 0 1 0-1.283L10.633 5.5 6.692 1.558a.886.886 0 0 1 0-1.283.886.886 0 0 1 1.283 0l4.583 4.583a.886.886 0 0 1 0 1.284zM6.142 4.858L1.558.275a.886.886 0 0 0-1.283 0 .886.886 0 0 0 0 1.283L4.217 5.5.275 9.442a.886.886 0 0 0 0 1.283.832.832 0 0 0 .642.275.832.832 0 0 0 .641-.275l4.584-4.583a.886.886 0 0 0 0-1.284z"
-      />
-    </defs>
-    <g fill="none" fillRule="evenodd" transform="translate(4.583 5.5)">
-      <mask id="skip-mask" fill="#fff">
-        <use xlinkHref="#skip-path" />
-      </mask>
-      <g fill="#000" mask="url(#skip-mask)">
-        <path d="M-4.583-5.5h22v22h-22z" />
+let skipId = 0;
+export const SkipIcon = (props: any) => {
+  const id = skipId++;
+  return (
+    <svg width="22" height="22" viewBox="0 0 22 22">
+      <defs>
+        <path
+          id={'skip-path' + id}
+          d="M12.558 6.142l-4.583 4.583a.832.832 0 0 1-.642.275.832.832 0 0 1-.641-.275.886.886 0 0 1 0-1.283L10.633 5.5 6.692 1.558a.886.886 0 0 1 0-1.283.886.886 0 0 1 1.283 0l4.583 4.583a.886.886 0 0 1 0 1.284zM6.142 4.858L1.558.275a.886.886 0 0 0-1.283 0 .886.886 0 0 0 0 1.283L4.217 5.5.275 9.442a.886.886 0 0 0 0 1.283.832.832 0 0 0 .642.275.832.832 0 0 0 .641-.275l4.584-4.583a.886.886 0 0 0 0-1.284z"
+        />
+      </defs>
+      <g fill="none" fillRule="evenodd" transform="translate(4.583 5.5)">
+        <mask id={'skip-mask' + id} fill="#fff">
+          <use xlinkHref={'#skip-path' + id} />
+        </mask>
+        <use fill="#000" fillRule="nonzero" xlinkHref={'#skip-path' + id} />
+        <g fill="#000" mask={`url(#skip-mask${id})`}>
+          <path d="M-4.583-5.5h22v22h-22z" />
+        </g>
       </g>
-    </g>
-  </svg>
-);
+    </svg>
+  );
+};
 
 let stopId = 0;
 export const StopIcon = (props: any) => {
