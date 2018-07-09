@@ -4,6 +4,9 @@ const HEIGHT = RATIO * 100;
 const IDLE_AMPLITUDE = 0.1;
 const PLAY_AMPLITUDE = 0.6;
 
+const LOW_FPS = 30;
+const DISABLE_ANIMATION_LOW_FPS_THRESHOLD = 3;
+
 class Curve {
   baseAmplitude: number;
 
@@ -96,6 +99,10 @@ class Curve {
   }
 }
 
+let lastFPSCheckAt = 0;
+let lowFPSCount = 0;
+let framesInLastSecond: number[] = [];
+
 export default class Wave {
   private amplitude = IDLE_AMPLITUDE;
   private colors = [[89, 203, 183], [177, 181, 229], [248, 144, 150]];
@@ -136,6 +143,10 @@ export default class Wave {
   }
 
   private draw() {
+    if (lowFPSCount >= DISABLE_ANIMATION_LOW_FPS_THRESHOLD) {
+      return;
+    }
+
     this.clear();
 
     const baseAmplitude =
@@ -148,6 +159,26 @@ export default class Wave {
     if (this.shouldDraw || Math.abs(baseAmplitude - this.amplitude) > 0.01) {
       requestAnimationFrame(this.draw.bind(this));
     }
+
+    const now = performance.now();
+    framesInLastSecond.push(now);
+    if (now - lastFPSCheckAt < 1000) return;
+    lastFPSCheckAt = now;
+    const index = framesInLastSecond
+      .slice()
+      .reverse()
+      .findIndex(t => now - t > 1000);
+    if (index === -1) {
+      return;
+    }
+
+    framesInLastSecond = framesInLastSecond.slice(
+      framesInLastSecond.length - index - 1
+    );
+    console.log(framesInLastSecond.length);
+    if (framesInLastSecond.length < LOW_FPS) {
+      lowFPSCount++;
+    }
   }
 
   play() {
@@ -159,5 +190,6 @@ export default class Wave {
   idle() {
     this.shouldDraw = false;
     this.amplitude = IDLE_AMPLITUDE;
+    framesInLastSecond = [];
   }
 }
