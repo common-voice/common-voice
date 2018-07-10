@@ -1,7 +1,7 @@
 ## Languages
 
+contribute = Bidrag
 get-involved-button = Bliv involveret
-get-involved-cancel = Afslut
 get-involved-title = Bidrag til { $lang }
 get-involved-text = Tak for din interesse i at bidrage til { $lang }. Vi arbejder hårdt for at få alle sprog klar til at gå i luften og holde alle orienteret via mail. Hvis du har lyst til at bidrage, så giv os din mailadresse nedenfor.
 get-involved-form-title = Tilmeld dig for at få opdateringer til { $lang }:

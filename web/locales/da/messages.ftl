@@ -8,7 +8,6 @@ email-input =
     .label = Mail
 submit-form-action = Indsend
 loading = Indlæser…
-audio-loading-error = Undskyld! Vi behandler vores lydfiler, prøv igen om lidt.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -16,29 +15,48 @@ audio-loading-error = Undskyld! Vi behandler vores lydfiler, prøv igen om lidt.
 
 ## Languages
 
+an = Aragonsk
+ar = Arabisk
+as = Assamesisk
+ast = Asturisk
+az = Aserbajdsjansk
 bn = Bengalsk
 br = Bretonsk
+bxr = Burjatisk
 ca = Catalansk
+cnh = Hakha Chin
 cs = Tjekkisk
 cv = Tjuvasjisk
 cy = Walisisk
 da = Dansk
 de = Tysk
+dsb = Nedresorbisk
 el = Græsk
 en = Engelsk
 es = Spansk
+et = Estisk
+fi = Finsk
+fo = Færøsk
 fr = Fransk
 fy-NL = Frisisk
 ga-IE = Irsk
 he = Hebraisk
+hsb = Øvresorbisk
 hu = Ungarnsk
+ia = Interlingua
 id = Indonesisk
+is = Islandsk
 it = Italiensk
+ja = Japansk
 ka = Georgisk
 kab = Kabylisk
+kk = Kasakhisk
 ko = Koreansk
+kpv = Komi
 kw = Cornisk
+ky = Kirgisisk
 mk = Makedonsk
+myv = Erzya
 nb-NO = Bokmål
 ne-NP = Nepalesisk
 nl = Nederlandsk
@@ -48,6 +66,7 @@ pl = Polsk
 pt-BR = Portugisisk (Brasilien)
 ro = Rumænsk
 ru = Russisk
+sah = Yakut
 sk = Slovakisk
 sl = Slovensk
 sq = Albansk
@@ -61,6 +80,7 @@ tt = Tatarisk
 uk = Ukrainsk
 uz = Usbekisk
 zh-CN = Kinesisk (Kina)
+zh-HK = Kinesisk (Hong Kong)
 zh-TW = Kinesisk (Taiwan)
 
 # [/]
@@ -69,6 +89,7 @@ zh-TW = Kinesisk (Taiwan)
 ## Layout
 
 speak = Tal
+speak-now = Tal nu
 datasets = Datasæt
 languages = Sprog
 profile = Profil
@@ -82,6 +103,9 @@ content-license-text = Indhold tilgængeligt under <licenseLink>Creative Commons
 share-title = Hjælp os med at finde andre, der kan bidrage med deres stemme!
 share-text = Hjælp med at lære maskiner, hvordan mennesker taler - bidrag med din stemme på { $link }
 back-top = Tilbage til toppen
+contribution-banner-text = Vi har netop lanceret et nyt interface til at bidrage
+contribution-banner-button = Tag et kig
+report-bugs-link = Hjælp med at rapportere fejl
 
 ## Home Page
 
@@ -93,21 +117,35 @@ wall-of-text-more-desktop = Nu kan du bidrage med din stemme og hjælpe med at o
 show-wall-of-text = Læs mere
 help-us-title = Hjælp os med at kontrollere sætninger!
 help-us-explain = Tryk på afspil, lyt og fortæl os, om den indtalte sætning var korrekt.
+no-clips-to-validate = Det ser ud til, at der ikke er nogen klip at lytte til på dette sprog. Hjælp os med at fylde køen ved at optage nogle nu.
 vote-yes = Ja
 vote-no = Nej
 toggle-play-tooltip = Tryk på { shortcut-play-toggle } for at starte eller stoppe afspilningen
 
-## Shortcuts
+## Speak & Listen Shortcuts
 
-# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
-# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = p
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = s
+shortcut-play-toggle-label = Afspil/Stop
 # Must be one letter that appears in the { vote-yes } string.
-# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = j
 # Must be one letter that appears in the { vote-no } string.
-# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Speak Shortcuts
+
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = O
+shortcut-record-toggle-label = Optag/Stop
 request-language-text = Kan du ikke finde dit sprog på Common Voice?
 request-language-button = Anmod om at få tilføjet et nyt sprog
 
@@ -133,7 +171,6 @@ profile-form-username =
     .label = Brugernavn
 profile-form-language =
     .label = Sprog
-profile-form-more-languages = Flere sprog kommer snart!
 profile-form-accent =
     .label = Accent
 profile-form-age =
@@ -155,6 +192,7 @@ profile-create = Opret en profil
 profile-create-success = Profil oprettet!
 profile-close = Luk
 profile-clear-modal = Når du rydder dine profil-data vil denne demografiske information ikke længere blive sendt til Common Voice sammen med dine lydoptagelser.
+profile-explanation = Hold styr på din fremgang med en profil, samtidig med at du gør vores stemme-data mere præcist.
 
 ## FAQ
 
@@ -251,7 +289,6 @@ download-no = Nej tak
 ## Contact Modal
 
 contact-title = Kontaktformular
-contact-cancel = Annuller
 contact-form-name =
     .label = Navn
 contact-form-message =
@@ -269,6 +306,7 @@ request-language-success-content = Vi kontakter dig snart med oplysninger om, hv
 ## Languages Overview
 
 language-section-in-progress = I gang
+language-section-in-progress-description = Igangværende sprog er ved at blive gjort klar til at vores fællesskab kan bidrage. Deres fremgang viser, hvor langt de er med at lokalisere hjemmesiden og indsamlingen af sætninger.
 language-section-launched = Startet
 languages-show-more = Se mere
 languages-show-less = Se mindre
@@ -285,9 +323,6 @@ listen = Lyt
 skip = Spring over
 shortcuts = Genveje
 clips = Klip
-goal-type-record = optagelse
-goal-type-validation = validering
-toward-goal = Det er <goalPercentage></goalPercentage> af dagens Common Voice { $goalType } mål. Mange tak
 contribute-more = Klar til at lave { $count } mere?
 record-cta = Start optagelse
 record-instruction = { $actionType } <recordIcon></recordIcon> og læs så sætningen højt
