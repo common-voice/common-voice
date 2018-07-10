@@ -22,6 +22,7 @@ ast = Asturiano
 az = Azerbaidjano
 bn = Bengalês
 br = Bretão
+bxr = Buriato
 ca = Catalão
 cnh = Hakha Chin
 cs = Tcheco
