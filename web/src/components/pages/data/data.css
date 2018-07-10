@@ -2,13 +2,13 @@
     #common-voice-data {
         top: 5.5rem;
         width: 100%;
-    }
 
-    #common-voice-data button {
-        display: flex;
-        justify-content: center;
-        margin: 0 auto;
-        width: auto;
+        & button {
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            width: auto;
+        }
     }
 
     #common-voice-license {
@@ -27,27 +27,33 @@
 
     .dataset {
         width: calc(50% - var(--dataset-item-margin));
-    }
 
-    .dataset:nth-child(odd) {
-        margin-right: var(--dataset-item-margin);
-    }
+        &:nth-child(odd) {
+            margin-right: var(--dataset-item-margin);
+        }
 
-    .dataset:nth-child(even) {
-        margin-left: var(--dataset-item-margin);
+        &:nth-child(even) {
+            margin-left: var(--dataset-item-margin);
+        }
     }
 }
 
-#data-container .license a {
-    font-size: var(--font-size-small);
-    font-weight: 600;
-    text-decoration: underline;
-}
+#data-container {
+    & .license a {
+        font-size: var(--font-size-small);
+        font-weight: 600;
+        text-decoration: underline;
+    }
 
-#data-container svg {
-    margin-right: 1rem;
-    width: 22px;
-    height: 22px;
+    & svg {
+        margin-right: 1rem;
+        width: 22px;
+        height: 22px;
+    }
+
+    & hr {
+        margin: 3rem 0;
+    }
 }
 
 .ReactModal__Content .download-modal.inner {
@@ -70,15 +76,17 @@
     align-items: end;
 }
 
-#common-voice-license, #common-voice-license a {
-    margin-top: .5rem;
-    width: 100%;
-    color: var(--white);
-    font-size: var(--font-size-small);
-}
+#common-voice-license {
+    &, & a {
+        margin-top: .5rem;
+        width: 100%;
+        color: var(--white);
+        font-size: var(--font-size-small);
+    }
 
-#common-voice-license a {
-    text-decoration: underline;
+    & a {
+        text-decoration: underline;
+    }
 }
 
 #explanatory-text {
@@ -90,10 +98,6 @@
     text-decoration: underline;
     font-size: var(--font-size-small);
     font-weight: 600;
-}
-
-#data-container hr {
-    margin: 3rem 0;
 }
 
 #others-head {
@@ -112,44 +116,44 @@
     justify-content: space-between;
     margin-bottom: calc(2 * var(--dataset-item-margin));
     box-shadow: var(--card-shadow);
-}
 
-.dataset .contents {
-    padding: 1.5rem;
-}
+    & .contents {
+        padding: 1.5rem;
+    }
 
-.dataset h2 a {
-    font-weight: normal;
-    color: var(--red);
-}
+    & h2 a {
+        font-weight: normal;
+        color: var(--red);
+    }
 
-.dataset p {
-    color: var(--near-black);
-    margin: var(--standard-margin) 0;
-}
+    & p {
+        color: var(--near-black);
+        margin: var(--standard-margin) 0;
+    }
 
-.dataset .license {
-    color: var(--near-black);
-    padding: 1rem 1.5rem;
-    font-size: var(--font-size-small);
-}
+    & .license {
+        color: var(--near-black);
+        padding: 1rem 1.5rem;
+        font-size: var(--font-size-small);
 
-.dataset .license a {
-    color: var(--near-black);
-}
+        & a {
+            color: var(--near-black);
+        }
+    }
 
-.dataset .action {
-    height: 6rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--lighter-grey);
-}
+    & .action {
+        height: 6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--lighter-grey);
+    }
 
-.dataset button {
-    width: auto;
-    border: 1px solid black;
-    box-shadow: none;
+    & button {
+        width: auto;
+        border: 1px solid black;
+        box-shadow: none;
+    }
 }
 
 body:not(.mobile-safari) .dataset .button.card-action:hover,
@@ -188,62 +192,64 @@ body:not(.mobile-safari) .dataset .button.card-action:hover path,
     color: var(--near-black);
 }
 
-.email-modal.compact {
-    padding: 0 2rem;
-}
+.email-modal {
+    &.compact {
+        padding: 0 2rem;
+    }
 
-.email-modal .head {
-    margin: -2rem -2rem 0;
-    padding: 3rem 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--lighter-grey);
-}
+    & .head {
+        margin: -2rem -2rem 0;
+        padding: 3rem 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--lighter-grey);
 
-.email-modal .head img {
-    margin-right: 1rem;
-}
+        & img {
+            margin-right: 1rem;
+        }
+    }
 
-.email-modal form {
-    max-width: 25rem;
-    margin: 0 auto 1rem;
-    text-align: start;
-}
+    & form {
+        max-width: 25rem;
+        margin: 0 auto 1rem;
+        text-align: start;
+    }
 
-.email-modal p:first-child {
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-}
+    & p:first-child {
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
 
-.email-modal label {
-    margin-bottom: .5rem;
-}
+    & label {
+        margin-bottom: .5rem;
+    }
 
-.email-modal input:disabled {
-    margin: 1rem 0;
-    color: var(--black);
-    text-align: center;
-    font-family: var(--strong-font-family);
-    font-size: 1.3rem;
-    font-weight: 600;
-}
+    & input:disabled {
+        margin: 1rem 0;
+        color: var(--black);
+        text-align: center;
+        font-family: var(--strong-font-family);
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
 
-.email-modal button {
-    width: 100%;
-}
+    & button {
+        width: 100%;
+    }
 
-.email-modal a {
-    text-decoration: underline;
-}
+    & a {
+        text-decoration: underline;
+    }
 
-.email-modal .cancel {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    display: block;
-    cursor: pointer;
-    text-align: center;
-    font-size: var(--font-size-small);
-    font-weight: 600;
+    & .cancel {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        display: block;
+        cursor: pointer;
+        text-align: center;
+        font-size: var(--font-size-small);
+        font-weight: 600;
+    }
 }

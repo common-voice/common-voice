@@ -56,25 +56,25 @@
 .home-cta {
     min-width: 16rem;
     justify-content: center;
-}
 
-.home-cta img {
-    width: 20px;
-    height: 20px;
-}
+    & img {
+        width: 20px;
+        height: 20px;
+    }
 
-.home-cta div {
-    display: flex;
-    margin-right: 1rem;
+    & div {
+        display: flex;
+        margin-right: 1rem;
+    }
 }
 
 #wall-of-text p {
     color: var(--near-black);
     line-height: calc(135% + 2px);
-}
 
-#wall-of-text p:first-child {
-    margin-bottom: var(--standard-margin);
+    &:first-child {
+        margin-bottom: var(--standard-margin);
+    }
 }
 
 #show-more-button {
@@ -95,8 +95,10 @@
     }
 }
 
-.show-more-text .more-text-mobile, .show-more-text .more-text-desktop {
-    display: block;
+.show-more-text {
+    & .more-text-mobile, & .more-text-desktop {
+        display: block;
+    }
 }
 
 #help-explain {
