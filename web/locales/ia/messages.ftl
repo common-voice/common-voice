@@ -62,6 +62,8 @@ report-bugs-link = Adjuta a reportar defectos
 
 home-title = Le projecto Common Voice es un initiativa de Mozilla pro adjutar a inseniar al machinas como parla le personas real.
 home-cta = Parla, contribue ora!
+wall-of-text-start = Le voce es natural, voce es human. Ecce perque nos es fascinate a crear technologia de voce usabile pro nostre machinas. Ma pro crear systemas de voce, un grandissime quantitate de datos de voce es necesse.
+wall-of-text-more-mobile = Le major parte del datos usate per le grande companias non es disponibile al majoritate del personas. Nos pensa que suffoca le innovation. Assi nos ha lanceate le projecto Commun Voce, un projecto pro adjutar a render le recognition del voce aperte pro omnes.
 show-wall-of-text = Lege plus
 help-us-title = Adjuta nos a validar le phrases!
 vote-yes = Si
