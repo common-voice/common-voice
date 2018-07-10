@@ -163,7 +163,6 @@ export default class Server {
 
     try {
       const config = getConfig();
-      console.log('config', JSON.stringify(config));
       this.isLeader = await isLeaderServer(
         config.ENVIRONMENT,
         config.RELEASE_VERSION
