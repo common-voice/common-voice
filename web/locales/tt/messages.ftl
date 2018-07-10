@@ -322,7 +322,7 @@ language-search-input =
 ## New Contribution
 
 action-click = Чиртегез
-action-tap = Кагылып алу
+action-tap = Төймәгә басып алыгыз,
 contribute = Үз өлешеңне кертү
 listen = Тыңлау
 skip = Калдырып тору
@@ -337,7 +337,7 @@ contribute-more =
     }
 record-cta = Яздыра башлау
 record-instruction = { $actionType }<recordIcon></recordIcon>, шуннан соң җөмләне кычкырып укыгыз
-record-stop-instruction = Тәмамлагач, { $actionType }<stopIcon></stopIcon>
+record-stop-instruction = Укып бетергәч, { $actionType }<stopIcon></stopIcon>
 record-three-more-instruction = Өчәү калды!
 record-again-instruction = Шәп! <recordIcon></recordIcon> Киләсе клибыгызны яздырыгыз
 record-again-instruction2 = Шулай дәвам итеп, тагын яздырыгыз <recordIcon></recordIcon>
@@ -346,10 +346,6 @@ review-tooltip = Монда клипларны тикшереп чыгыгыз �
 unable-speak = Хәзер сөйли алмыйсызмы?
 review-instruction = Кирәк булса, клипларны карап чыгыгыз һәм яңадан яздырыгыз
 record-submit-tooltip = Әзер булгач, тапшырыгыз { $actionType }
-clips-submitted =
-    { $count ->
-       *[other] { $count } Клип тапшырылды
-    }
 record-abort-title = Башта яздыруны тәмамларгамы?
 record-abort-text = Хәзер эшне туктату сезнең эшләгәнегез югалуга китерәчәк.
 record-abort-submit = Клиплар тапшыру
