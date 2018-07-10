@@ -208,6 +208,7 @@ license-mixed = Fawnh
 ## Record Page
 
 record-platform-not-supported = Kan ngai thiam, na tuahnak hi a ngah lo.
+record-platform-not-supported-ios = <bold>iOS</bold> manlo in dawnlok khawh asi:
 record-must-allow-microphone = Aw tunak na ngahter a hau
 record-retry = Tuah tthan
 record-no-mic-found = Aw tunnak kan hmu lo
@@ -229,6 +230,7 @@ review-delete-recordings = Tuun mi hlonh
 
 ## Download Modal
 
+download-title = Na dawnlok aa thok cang.
 download-helpus = Holhphun kip in computer a ngah khawh nak ding kan bawm, email in kan pehtlaih peng.
 download-form-email =
     .label = Na email ttial
