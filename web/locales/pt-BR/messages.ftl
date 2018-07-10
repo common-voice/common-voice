@@ -353,4 +353,6 @@ listen-instruction = { $actionType } <playIcon></playIcon> as sentenças foram p
 listen-again-instruction = Bom trabalho! <playIcon></playIcon> Ouça novamente quando estiver pronto
 listen-3rd-time-instruction = 2 prontas <playIcon></playIcon> , continue assim!
 listen-last-time-instruction = <playIcon></playIcon> Última!
+nothing-to-validate = Não temos nada para validar neste idioma, ajude-nos a preencher a fila.
+record-button-label = Grave sua voz
 share-title-new = <bold>Ajude-nos</bold> a encontrar mais vozes
