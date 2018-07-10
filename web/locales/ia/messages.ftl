@@ -51,6 +51,8 @@ privacy = Confidentialitate
 terms = Terminos
 cookies = Cookies
 content-license-text = Contento disponibile sub <licenseLink>licentia Creative Commons</licenseLink>
+share-title = Adjuta nos a trovar alteres pro donar lor voce!
+share-text = Adjuta a inseniar al machinas como parla le personas real, dona tu voce al { $link }
 back-top = Receder al initio
 contribution-banner-text = Adjuta a reportar defectos
 
