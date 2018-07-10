@@ -137,6 +137,7 @@ english = Mirang
 
 ## ProfileForm
 
+profile-form-cancel = Chuaknak Catlap
 profile-form-delete = Mahkonglam hlonhnak
 profile-form-username =
     .label = Min hman
@@ -204,6 +205,9 @@ data-download-modal = Atu dawnlok na timh mi hi <size>{ $size }GB</size> asi, tu
 data-other-goto = { $name } hin kal
 data-other-librispeech-description = LIbriSpeech cu suimilam thongkhat (1000) chung 16Khz tluk in cauk relmi LibriVox ah lak mi chiahnak a si. 
 data-other-ted-name = TED-LIUM Corpus
+data-other-tatoeba-description =
+    Tatoeba cu holh chimh nak ding ah biatlang, bialeh, le holh tuun mi chiahnak lian pi a si.
+    Hi dawnlok michung ah hin mikip nih mirang holh an tuun mi aa tal. 
 license = Laisen:<licenseLink>{ $license }</licenseLink>
 license-mixed = Fawnh
 
