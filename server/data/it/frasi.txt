@@ -8,7 +8,8 @@ Qualunque male tu abbia, con mezzo litro di grappa, ti passa.
 E' stata mia madre ad insegnarmi a fare le mozzarelle in carrozza.
 Vorrei arrivare dall'altra parte della città, ma c'è troppo traffico.
 Fa scendere il cane che lo porto a fare la sua passeggiatina.
-Esiste una nuova branca del diritto che sono i diritti digitali, siamo ancora molto ignoranti a riguardo.
+Esiste una nuova branca del diritto che sono i diritti digitali
+siamo ancora molto ignoranti a riguardo.
 Vorrei poter controllare l'algoritmo di facebook, siccome decide cosa è prioritario per me.
 Deve implementare i miei valori, non quelli della piattaforma.
 Spiegami come si usa questo strumento, perché è troppo complicato.
@@ -52,8 +53,10 @@ Per esempio lo sviluppo non è presente in tutte le comunità.
 L’attività principale di tutte le comunità è la promozione del software libero e del prodotto di cui si occupano.
 Senza questa parte fondamentale non esisterebbe la possibilità di aumentare la rete di volontari.
 Quindi supportare il progetto stesso.
-Le community per poter restare in contatto e discutere solitamente hanno un forum dedicato al supporto o alla gestione delle traduzioni.
-Altre comunità hanno delle chat dedicate su servizi differenti con sottogruppi, in modo da poter organizzare e gestire le varie attività.
+Le community per poter restare in contatto e discutere
+solitamente hanno un forum dedicato al supporto o alla gestione delle traduzioni.
+Altre comunità hanno delle chat dedicate su servizi differenti con sottogruppi
+in modo da poter organizzare e gestire le varie attività.
 Alcune utilizzano ancora le mailing list.
 Sono utilizzate soprattutto per scambiare informazioni tra i volontari.
 Le aziende spesso fanno parte delle community perché utilizzano o forniscono assistenza per il software.
@@ -1094,7 +1097,7 @@ I maschi sono più grandi delle femmine.
 Uccelli rapaci dal piumaggio soffice, dalla coda corta e dal capo voluminoso.
 Hanno grandi occhi diretti in avanti circondati da dischi facciali.
 Il becco ricurvo e le unghie acute.
-L’altezza massima è 68 cm e l’apertura lare di 1,5 metri.
+L’altezza massima è 68 cm e l’apertura alare di 1,5 metri.
 I gufi reali sono capaci di catturare roditori nell’oscurità totale perché usano il loro acutissimo udito.
 Girano la testa a 180°.
 Una delle caratteristiche che lì differenza dagli altri volatili è che hanno gli occhi di fronte.
@@ -2193,7 +2196,10 @@ la terza torre, a base ottagonale, adibita a biblioteca, orgoglio non solo dei m
 faceva concorrenza alla biblioteca di Arat Vanur.
 Vi era poi la quinta torre, esagonale, adibita a sole stalle: ben
 cinque piani di rifugi per cavalli, di cui i nove decimi non utilizzati: non erano utili i cavalli in una città come quella.
-poi c’era la settima torre a base circolare, la più bassa, che raggiungeva appena i venti piedi: in realtà, essa proseguiva sotto il terreno, attorcigliandosi fino alle falde del monte: era uno degli accessi ai magazzini nascosti della città.
+poi c’era la settima torre a base circolare, la più bassa
+raggiungeva appena i venti piedi
+in realtà, essa proseguiva sotto il terreno, attorcigliandosi fino alle falde del monte
+era uno degli accessi ai magazzini nascosti della città.
 la quarta torre era affianco a quella del re, era a base ottagonale, ed i piani in cima erano riservati a Dalmor, mentre i piani in basso erano per le cucine.
 Vivevano in questo complesso di pietre nere come la pece o bianche e risplendenti come la luna pochissime persone.
 la regina era morta diciannove anni prima, in occasione del parto di Dalmor.
@@ -4410,7 +4416,11 @@ Durante il mese di settembre mi trovai alla guida della missione cattolica polac
 Fu un'esperienza molto fruttuosa.
 Per la prima volta visitai una miniera di carbone e potei conoscere da vicino il pesante lavoro dei minatori.
 Visitavo le famiglie degli emigrati polacchi, parlavo con loro, incontravo la gioventù e i bambini, accolto sempre con benevolenza e cordialità, come quando mi trovavo alla Solvay.
-considerando la vita di quelli che hanno fedelmente seguito Cristo, per una tale insolita ragione siamo incitati a ricercare la Città futura e ci è insegnata una via sicurissima attraverso la quale, tra le vicende del mondo, possiamo arrivare alla perfetta unione con Cristo o, per dir meglio, alla santità, secondo lo stato e la condizione propria di ciascuno.
+considerando la vita di quelli che hanno fedelmente seguito Cristo
+per una tale insolita ragione siamo incitati a ricercare la Città futura
+ci è insegnata una via sicurissima attraverso la quale, tra le vicende del mondo, possiamo arrivare alla perfezione
+unione con Cristo o, per dir meglio, alla santità
+secondo lo stato e la condizione propria di ciascuno.
 Senza dubbio, avendo una tal moltitudine di testimoni, attraverso i quali Dio si fa presente a noi e ci parla, siamo attirati con grande forza a guardare il Regno suo nei cieli.
 La Sede Apostolica, accogliendo i segni e la voce del suo Signore col massimo timore e docilità, da tempi immemorabili
 per il gravoso compito affidatole di insegnare, santificare e reggere il Popolo di Dio, offre all'imitazione dei fedeli
@@ -6017,7 +6027,9 @@ Due agenti di P.
 ne guardavano la severa portineria, di sul tavolo della quale il registro per le firme era scomparso.
 E in quanto al portinaio, costui, in uniforme, faceva un bel meschino vedere, seduto come era in un angolo della stanza, col berretto sulle ginocchia e senza più autorità e solennità.
 Se il cadavere aveva esulato verso l'ultimo riposo, una donna dai capelli rossi e dall'irregolare beltà turbevole si trovava nel palazzo in stato di arresto, guardata a vista dal brigadiere Cruni e da altri due agenti.
-Il brigadiere Cruni – tozzo e pesante, con quel torso troppo grande per le sue corte gambe ercoline, vestito di stoffa rude cardata a mano, proiettato a linee ferme, a rilievi decisi – stonava nell'ambiente.
+Il brigadiere Cruni, col vestito di stoffa rude cardata a mano, a rilievi decisi, stonava nell'ambiente.
+proiettato a linee ferme
+tozzo e pesante, con quel torso troppo grande per le sue corte gambe ercoline
 Tra quei mobili antichi, tutti dorature e sagomature era il bove tra le porcellane.
 E lui lo sapeva e si sentiva a disagio e per reazione si muoveva più pesantemente calpestando quasi con voluttà i tappeti soffici con le sue doppie suole chiodate.
 De Vincenzi gli aveva dato la consegna di sorvegliar da presso la marchesa, non perché temesse una fuga, che – adesso, dopo la morte di Harry Gordon – sarebbe stata per lei vana e irragionevole, ma perché non voleva ritrovare un altro cadavere a palazzo.
@@ -6227,23 +6239,38 @@ Che cosa dite!
 La vostra vita è troppo preziosa, perché io ricorra per voi a tali rimedi.
 si allontanò seguito da Sanchez e dal marinaio.
 Bonard provò un vero sollievo, nel trovarsi solo.
-L'obbligo di fingere e di mentire gli pesava e le sue apprensioni s'erano ingigantite al punto, da fargli sentire il bisogno di riflettere e di ritrovar se stesso per dominarle.
+L'obbligo di fingere e di mentire gli pesava
+le sue apprensioni s'erano ingigantite al punto, da fargli sentire il bisogno di riflettere
+ritrovar se stesso per dominarle.
 Erano trascorsi tre giorni e il calore si era fatto torrido.
-Carlo, per la prima volta dopo la sua partenza dalla Francia, aveva veduto con gioia profilarsi in lontananza l'impreciso contorno di una terra e Pedro gli aveva detto che, avendo dovuto lo Sparviero mutare alquanto la sua rotta, quelle ch'egli scorgeva erano le isole del Capo Verde.
+Carlo aveva veduto con gioia profilarsi in lontananza l'impreciso contorno di una terra
+Pedro gli aveva detto che quelle ch'egli scorgeva erano le isole del Capo Verde.
+avendo dovuto lo Sparviero mutare alquanto la sua rotta
+per la prima volta dopo la sua partenza dalla Francia
 Poi le isole erano sparite e lo yacht si era trovato di nuovo fra mare e cielo.
-Ma l'Africa si avvicinava e Bonard si teneva pronto, deliberato com'era a tutto osare pur di liberarsi da una situazione che adesso, da pericolosa, gli appariva tragica.
-Il capitano Nichols non aveva fatto allusione alcuna nè ai discorsi che gli aveva tenuti in uno stato di quasi incoscienza, nè alla proibizione di scendere a Dakar.
+Ma l'Africa si avvicinava e Bonard si teneva pronto
+deliberato com'era a tutto osare pur di liberarsi da una situazione che adesso, da pericolosa, gli appariva tragica.
+Il capitano Nichols non aveva fatto allusione alcuna
+nè ai discorsi che gli aveva tenuti in uno stato di quasi incoscienza, nè alla proibizione di scendere a Dakar.
 Era evidente, però, che adesso diffidava di lui.
-Bonard, solo nella sua cabina, dopo essersi rasato, s'era messo a guardare il mare, sperando di vedere da un momento all'altro spuntare i primi segni della terra.
-Certo, egli avrebbe tentato tutto per tutto e sarebbe sceso a Dakar e di qui, col primo piroscafo in partenza, avrebbe fatto ritorno in Francia.
+Bonard s'era messo a guardare il mare, sperando di vedere da un momento all'altro spuntare i primi segni della terra.
+solo nella sua cabina
+dopo essersi rasato
+Certo, egli avrebbe tentato tutto per tutto e sarebbe sceso a Dakar
+di qui, col primo piroscafo in partenza, avrebbe fatto ritorno in Francia.
 Pedro lo avrebbe aiutato e sarebbe fuggito con lui.
-Pedro anelava alla libertà e, adesso che aveva trovato un compagno di cui fidarsi, se pur lo credeva sempre Manfredo Vatel, gli si era confidato e insieme avevano deciso di fuggire.
+Pedro anelava alla libertà
+adesso che aveva trovato un compagno di cui fidarsi
+se pur lo credeva sempre Manfredo Vatel, gli si era confidato
+insieme avevano deciso di fuggire.
 Fermi tutti!
 Nichols discese, seguito da Sanchez che reggeva una forte lampada elettrica.
 Gli uomini si gettarono in fretta verso le loro amache, immobilizzandosi.
-Solo un marinaio dalla faccia patibolare rimase afferrato alla gola di Bonard e stringeva, senza sapersi decidere a lasciar presa.
+Solo un marinaio dalla faccia patibolare rimase afferrato alla gola di Bonard e stringeva
+senza sapersi decidere a lasciar presa.
 Il capitano avanzò verso i due.
-L'uomo lo vide e il suo sguardo ebete seguì il movimento del braccio che si abbassava minaccioso su di lui, senza far nulla per schivarlo.
+L'uomo lo vide e il suo sguardo ebete seguì il movimento del braccio che si abbassava minaccioso su di lui
+senza far nulla per schivarlo.
 Il braccio colpì fulmineamente.
 Col cranio fracassato dal calcio della rivoltella, l'uomo si afflosciò, lasciando finalmente presa.
 Quel che impressionò maggiormente Bonard fu lo strano silenzio che seguì all'atto del capitano.
@@ -6261,7 +6288,9 @@ E voi perché avete tentato di fuggire sul canotto?
 Premette un bottone e subito la porta si aprì e sulla soglia comparve lo stesso uomo che aveva accolto Nichols e Bonard.
 Andate, caro Manfredo, e dormite tranquillamente!
 Carlo obbedì, così sconvolto ancora che non ebbe la forza di salutare lo strano essere da cui adesso dipendeva la sua vita.
-Preceduto dal silenzioso cameriere, rifece il lungo corridoio e penetrò in una piccola stanza, che evidentemente gli era destinata.
+Preceduto dal silenzioso cameriere
+evidentemente gli era destinata.
+rifece il lungo corridoio e penetrò in una piccola stanza
 La camera era abbondantemente illuminata e ammobiliata con gusto e Bonard vide in mezzo di essa la valigia di Manfredo Vatel.
 che era la sua!
 Magda, perché non ci canti una delle tue vecchie canzoni polacche?
@@ -6275,7 +6304,9 @@ e sembra che tu l'abbia addirittura stupito, suonandogli Beethoven e Chopin.
 Tu non avrai i nervi scossi dal temporale, spero, e vorrai suonare qualcosa per noi.
 Se la folgore fosse scoppiata ai piedi di Carlo, egli non sarebbe rimasto maggiormente atterrito.
 In tutta la sua vita, lui non aveva mai toccato i tasti d'un pianoforte!
-Nonostante che quella sera Zipak gli apparisse particolarmente amabile e bonario, tanto da dargli del tu per la prima volta dal suo arrivo, il pericolo non era meno grande.
+Nonostante quella sera Zipak gli apparisse particolarmente amabile e bonario
+tanto da dargli del tu per la prima volta dal suo arrivo
+il pericolo non era meno grande.
 Ma, ad un tratto, prima ancora che lui dovesse rispondere, Magda s'era alzata.
 Zio, lasciate dunque che Manfredo si riposi!
 È appena arrivato nell'isola e si trova qui con gente nuova.
@@ -6284,20 +6315,30 @@ Credete proprio che abbia voglia di suonare?
 Per farvi piacere, canterò e voi mi accompagnerete.
 Voi suonate divinamente bene.
 Da una parte, sotto di sè, aveva lo spiazzo brullo, dall'altra l'oceano.
-Esaminò con piú attenzione i coni eruttici e scoprì con meraviglia che essi, dalla parte del mare, scendevano con un dolce pendio.
-Lentamente, facendo attenzione a dove metteva i piedi, chè la minima imprudenza lo avrebbe fatto cadere in acqua, discese sino alla riva.
+Esaminò con piú attenzione i coni eruttici e scoprì con meraviglia che essi scendevano con un dolce pendio.
+dalla parte del mare
+Lentamente, chè la minima imprudenza lo avrebbe fatto cadere in acqua, discese sino alla riva.
+facendo attenzione a dove metteva i piedi
 Adesso l'acqua era a pochi centimetri dai suoi piedi e una barca avrebbe potuto agevolmente accostare.
 La scoperta lo riempì di gioia, per quanto essa fosse di un interesse assai problematico.
-Ma la prudenza gli consigliò di non attardarsi in quel luogo, per evitare di essere veduto e di segnalare così quel passaggio a Zipak e ai suoi, i quali probabilmente lo ignoravano.
-Rapidamente raggiunse di nuovo il sommo della cresta e, constatato con soddisfazione che sotto di lui lo spiazzo era deserto, discese la china e non soltanto gli fu possibile di trovarsi sullo spiazzo prima che Gardiel vi fosse, ma potè contornare i baraccamenti della miniera e seguire la riva che non aveva ancora percorsa.
+Ma la prudenza gli consigliò di non attardarsi in quel luogo
+per evitare di essere veduto e di segnalare così quel passaggio a Zipak e ai suoi
+i quali probabilmente lo ignoravano.
+Rapidamente raggiunse di nuovo il sommo della cresta
+constatato con soddisfazione che sotto di lui lo spiazzo era deserto, discese la china
+non soltanto seguire la riva che non aveva ancora percorsa.
+gli fu possibile di trovarsi sullo spiazzo prima che Gardiel vi fosse, ma potè contornare i baraccamenti della miniera
 Si trovò così al punto di partenza, dopo aver compiuto il giro completo dell'isola.
 Proprio nel momento in cui raggiungeva l'ascensore, la porta di esso si aprì e Gardiel apparve.
 Si salutarono con poche parole, che l'uomo di fiducia di Zipak non era loquace, e Bonard prese la macchina per ridiscendere.
-Si cacciò allora là dove la vegetazione era piú alta, per dare un'occhiata alla piccola insenatura che lui aveva scoperta, ma anche lì due uomini postati di fazione lo obbligarono a tornare in dietro.
+Si cacciò allora là dove la vegetazione era piú alta
+per dare un'occhiata alla piccola insenatura che lui aveva scoperta
+ma anche lì due uomini postati di fazione lo obbligarono a tornare in dietro.
 Fu preso da un primo scoraggiamento;
 ma si consolò rapidamente.
 Quella sorveglianza si risolveva, in fondo, a tutto loro vantaggio.
-Se Zipak aveva creduto di far sorvegliare quella parte dell'isola, era segno ch'egli riteneva che soltanto da quella parte lui potesse fuggire.
+Zipak aveva creduto di far sorvegliare quella parte dell'isola
+era segno ch'egli riteneva che soltanto da quella parte lui potesse fuggire.
 Ignorava, quindi, ancora la discesa che Carlo aveva scoperta dai due coni vulcanici e l'altro accesso al mare.
 Pieno di fiducia e di coraggio, ritornò alla villa e cercò subito Magda per metterla a parte di quanto aveva veduto.
 La giovane polacca si trovava nel salone.
@@ -6305,7 +6346,8 @@ Udendolo venire, aveva sussultato ma si era subito rimessa, non appena aveva ved
 Mi avete fatto paura!
 – mormorò con voce bianca e girò il commutatore illuminando la sala.
 Carlo fece un gesto di meraviglia, vedendo l'abbigliamento di Magda.
-Un magnifico abito da sera, di laminato d'oro metteva in rilievo le sue forme armoniose e al collo e alle braccia aveva brillanti e gioielli di inestimabile valore.
+Un magnifico abito da sera, di laminato d'oro metteva in rilievo le sue forme armoniose
+al collo e alle braccia aveva brillanti e gioielli di inestimabile valore.
 Ella si accorse dell'effetto che aveva prodotto su di lui e si affrettò a dirgli.
 È stato Zipak a volere che io indossassi quest'abito e mettessi tutti i gioielli che lui mi ha dati.
 Quando fu all'altezza del fabbricato, guardò fra le foglie.
@@ -6318,11 +6360,15 @@ A tastoni, premette il bottone.
 Passò un secondo, poi la cabina cominciò a salire lentamente.
 Carlo non distaccava gli occhi dalla massa oscura della villa e a un tratto trasalì.
 Aveva veduto illuminarsi la finestra della sua camera: la sua fuga era scoperta!
-Per fortuna – ché i suoi nervi non gli avrebbero permesso un'attesa piú lunga – proprio in quel momento l'ascensore si fermava ed egli afferrò Magda per un polso, trascinandola fuori.
+Per fortuna, perché i suoi nervi non gli avrebbero permesso un'attesa piú lunga.
+proprio in quel momento l'ascensore si fermava ed egli afferrò Magda per un polso, trascinandola fuori.
 Quindi premette il bottone, per rimandare la cabina in basso.
 Ogni minuto è prezioso.
 Non ebbe bisogno di dir altro, perché Magda conosceva il suo piano in ogni piú minuto particolare.
-Con un solo slancio, essi corsero dietro a un grosso masso che giaceva poco distante e lo spinsero verso il limite della roccia, nel punto in cui si era fermato l'ascensore.
+Con un solo slancio, essi corsero dietro a un grosso masso
+giaceva poco distante
+lo spinsero verso il limite della roccia
+nel punto in cui si era fermato l'ascensore.
 Dovettero fare un grande sforzo, ma finalmente il masso si piegò verso il vuoto e cadde.
 Un sordo boato si ripercosse per tutta l'isola.
 Tornò verso la donna distesa sul divano e le auscultò il cuore, le toccò il polso.
@@ -6336,7 +6382,9 @@ la Conoscenza delle entità invisibili!
 A ogni modo io non ci ho più nulla da fare qui!
 Chiamate lo specialista!
 Rimanga, dottore, la prego!
-Io non desidero che la nostra Società abbia noie e, per quanto ogni nostra responsabilità sia esclusa nel caso presente, non voglio si possa dire che alla signora sono mancate cure e assistenza.
+Io non desidero che la nostra Società abbia noie
+non voglio si possa dire che alla signora sono mancate cure e assistenza.
+per quanto ogni nostra responsabilità sia esclusa nel caso presente
 Brontolando il dottore andò a sedere in una poltrona, contro la parete di fondo.
 Allora, faccia presto a telefonare, signorina!
 Miss Jane si guardò attorno.
@@ -6385,7 +6433,10 @@ Una reputazione integra.
 Quale nesso?
 De Vincenzi non ne trovava alcuno.
 Una pelliccia col collo di visone, una sciarpa azzurra, un ridicolo tubino rotondo, una perla alla cravatta.
-E poi gli altri tre: la donna dai capelli rossi, il segretario tondo come una trottola, lo psichiatra misterioso e astutissimo.
+E poi gli altri tre
+la donna dai capelli rossi
+il segretario tondo come una trottola
+lo psichiatra misterioso e astutissimo.
 Il nesso fra tutti costoro era invisibile.
 Eppure doveva esistere.
 L'amore?
@@ -6445,7 +6496,10 @@ Saranno dieci minuti.
 C'è il commissario Gandolfi con noi.
 Adesso salgono.
 De Vincenzi lo mise di guardia davanti alle porte delle camere incendiate, con la consegna di non farvi entrare nessuno.
-Al suo collega chiese che lasciasse due agenti nel corridoio fino a giorno chiaro e comunque fin quando lui fosse tornato e lo pregò di mettersi in basso con gli altri agenti, perché nessuno uscisse dall'albergo, senza esser stato prima esaminato e perquisito.
+Al suo collega chiese che lasciasse due agenti nel corridoio fino a giorno chiaro
+comunque fin quando lui fosse tornato
+lo pregò di mettersi in basso con gli altri agenti, perché nessuno uscisse dall'albergo
+senza esser stato prima esaminato e perquisito.
 Credi a un furto?
 È un po' come chiuder la stalla, quando sono usciti i buoi.
 Non servirà a nulla;
@@ -6456,10 +6510,14 @@ Che cosa debbo cercare?
 Cerca un uomo.
 ebbene, cerca un uomo che sta giuocando la sua vita su di una carta e che per non perdere brucia tutto il mazzo!
 E De Vincenzi rise nervosamente, mentre l'altro lo guardava con stupore.
-Che a De Vincenzi mancasse qualche venerdì, molti lo dicevano tra i suoi colleghi, ma che scherzasse sul lavoro non era mai accaduto.
-Di fronte a lui, davanti alle tende rialzate della porta opposta, Kid Tiger e Jack Waters, il segretario, stavano ritti, immobili.
+Che a De Vincenzi mancasse qualche venerdì, molti lo dicevano tra i suoi colleghi
+ma che scherzasse sul lavoro non era mai accaduto.
+Di fronte a lui
+davanti alle tende rialzate della porta opposta
+Kid Tiger e Jack Waters, il segretario, stavano ritti, immobili.
 Il gangster teneva le mani in tasca e zufolava pian piano, fissando ironicamente il commissario.
-Il colosso bruno gli stava a fianco e i suoi occhi chiari, stranamente chiari sotto le sopracciglia folte e nere, erano spalancati dallo stupore.
+Il colosso bruno gli stava a fianco
+i suoi occhi chiari, stranamente chiari sotto le sopracciglia folte e nere, erano spalancati dallo stupore.
 Un quintale di carne!
 – disse a voce alta, in inglese, quasi con rispetto.
 De Vincenzi con gli occhi cercava l'arma.
@@ -6469,12 +6527,18 @@ Ma perché non era fuggito?
 perché non tentava di farlo adesso?
 In fondo De Vincenzi si era esposto a tutti i rischi, salendo solo lassù.
 Aveva fatto fermare il tassì in via Monterosa, lo aveva mandato via e lui era tornato a piedi alla villetta.
-Il suo proposito era di spiare da lontano l'uscita di Romney Bypass e di chi altro vi si fosse trovato con lui, per tornare poi a stringere in un interrogatorio definitivo Mira Lubiskaja.
-Ma appena giunto al principio di via Domenichino, aveva veduto la cameriera uscir correndo dal cancello, col volto terrorizzato, agitando disperatamente le mani.
+Il suo proposito era di spiare da lontano l'uscita di Romney Bypass
+chi altro vi si fosse trovato con lui
+per tornare poi a stringere in un interrogatorio definitivo Mira Lubiskaja.
+Ma appena giunto al principio di via Domenichino, aveva veduto la cameriera uscir correndo dal cancello
+col volto terrorizzato
+agitando disperatamente le mani.
 Si era messo a correrle incontro e la ragazza gli aveva gridato.
 Di sopra sparano!
 Hanno ucciso la signora!
-Senza sentir altro, De Vincenzi si era precipitato nell'interno, aveva fatto le scale in un baleno e si era trovato dinanzi al cadavere e al banchiere Romney Bypass, che zufolava dolcemente con un fiore dai colori teneri alla bottoniera.
+Senza sentir altro, De Vincenzi si era precipitato nell'interno
+aveva fatto le scale in un baleno e si era trovato dinanzi al cadavere e al banchiere Romney Bypass
+egli zufolava dolcemente con un fiore dai colori teneri alla bottoniera.
 Un colpo solo.
 mormorò finalmente e riprese a far andare la pallottola da una mano all'altra, con ritmo eguale.
 Lei, naturalmente, avrà sentito il rumore dello sparo dopo aver ricevuto il proiettile.
@@ -6512,7 +6576,10 @@ perché non lo fa?
 disse con voce gelida la ragazza.
 A me non importa nulla di Kid Tiger!
 Voglio esser franco con lei.
-Non arresto i quattro americani e non li faccio ricondurre alla frontiera, perché non voglio perdere l'aiuto che può darmi Kid Tiger, col farmi trovare l'assassino di Sofia Scimanova e di Mira Lubiskaja.
+Non arresto i quattro americani
+e non li faccio ricondurre alla frontiera
+non voglio perdere l'aiuto che può darmi Kid Tiger
+farmi trovare l'assassino di Sofia Scimanova e di Mira Lubiskaja.
 La osservava e vide che il nome della Lubiskaja non aveva prodotto in lei alcuna reazione.
 Certo, conosceva anche la morte della vecchia.
 Lei ha parlato da poco con Kid Tiger.
@@ -6524,7 +6591,8 @@ E che io gli abbia parlato è naturale, Lei sa che io conoscevo Kid Tiger da New
 E da Chicago.
 Come vuole!
 A New York, Kid Tiger aveva incontrato Sofia Scimanova;
-ma a Chicago dovette accadere quel terribile fatto che fece tornare la Scimanova in Europa e che indusse Kid a ordinare a lei di seguirla.
+ma a Chicago dovette accadere quel terribile fatto che fece tornare la Scimanova in Europa
+indusse Kid a ordinare a lei di seguirla.
 Sani fece una smorfia.
 Non era affatto convinto che il pericolo per De Vincenzi non fosse grave.
 Ma non insistette: sapeva che niente e nessuno avrebbero potuto farlo desistere dal suo proposito.
@@ -6551,7 +6619,8 @@ Tornò correndo da Sani.
 Appleby balzò in piedi, come se avesse voluto lanciarsi contro il suo accusatore.
 Ma istantaneamente si contenne.
 Con sarcasmo gelido, più tosto che con furore, disse.
-Non trova un poco avventato, commissario, affermare che io abbia potuto da me stesso tirarmi un colpo di rivoltella a quattro metri di distanza?
+Non lo trova un poco avventato, commissario?
+afferma che io abbia potuto da me stesso tirarmi un colpo di rivoltella a quattro metri di distanza?
 De Vincenzi si volse.
 Il vicecommissario scomparve.
 Abbia la cortesia di aspettare, dottor Appleby!
@@ -6562,19 +6631,23 @@ ma era scosso da un fremito convulso.
 Sani tornò e depose sul tavolo una grossa rivoltella col silenziatore e un rotolo di spago sottile.
 È semplice.
 L'invenzione non è neppur sua, dottor Appleby.
-Lei ha fissato la rivoltella alla scala di legno, sul terrazzino, dopo aver studiato accuratamente la mira e la traiettoria del proiettile.
+Lei ha fissato la rivoltella alla scala di legno, sul terrazzino
+dopo aver studiato accuratamente la mira e la traiettoria del proiettile.
 Ha legato lo spago al cane dell'arma.
 pronto a tirarlo e a far partire il colpo.
 Si è andato a mettere col braccio sul percorso del proiettile.
 e ha tirato lo spago.
-Era solo in casa e le sono bastati pochi istanti per andare a togliere la rivoltella dalla scala e nasconderla con lo spago nel tubo della grondaia, sicuro che nessuno avrebbe pensato di andarvela a cercare.
+Era solo in casa e le sono bastati pochi istanti per andare a togliere la rivoltella dalla scala
+nasconderla con lo spago nel tubo della grondaia
+sicuro che nessuno avrebbe pensato di andarvela a cercare.
 Infatti, anche a me quel tentativo di assassinio contro di lei doveva apparire logico.
 Lei aveva preparato il mio spirito ad accettarlo.
 Non mi aveva forse mostrato la sbarra schiodata?
 Non mi aveva abilmente parlato delle sue paure?
 Non aveva affermato di aver viaggiato tutta una notte, per evitare d'essere ucciso?
 Soltanto, vede?
-lei aveva tutto calcolato tranne il fatto che dalla sua ferita, per quanto superficiale o forse appunto per questo, sgorgava sangue.
+lei aveva tutto calcolato tranne il fatto che dalla sua ferita sgorgava sangue.
+per quanto superficiale o forse appunto per questo
 Io ho trovato sul pavimento del terrazzino, presso alla scala, una piccola macchia di sangue.
 e ho compreso!
 Appleby non sogghignava più.
@@ -6594,7 +6667,9 @@ Lei è?
 Precisamente, Eccellenza!
 e Vladimiro Curti Bo' s'inchinò gravemente, per poi avanzare ancora con quei suoi passettini rapidi sino al tavolo.
 Precisamente!
-Il signor Swan mi onora della sua amicizia e assai spesso assieme a lui ho assistito al levarsi del sole sulla città tentacolare, sentina di vizi e di sozzure.
+Il signor Swan mi onora della sua amicizia
+assai spesso assieme a lui ho assistito al levarsi del sole sulla città tentacolare
+sentina di vizi e di sozzure.
 Il barone lo aveva ascoltato e lo guardava a occhi socchiusi.
 Accennò col capo.
 e lui per primo sedette davanti al tavolo.
@@ -6618,7 +6693,8 @@ Il signor Drake è venuto anche lui in Europa col barone?
 Mister Drake è stato assunto da Sua Eccellenza, quando ha messo scuderia da corsa.
 Nel '32.
 Il vecchio rispondeva con precisione, a voce bassa, piena di deferenza;
-ma il suo volto glabro rimaneva immobile, con quelle sue centomila rughe impercettibili, che lo rendevano simile a una pergamena ingiallita.
+ma il suo volto glabro rimaneva immobile
+con quelle sue centomila rughe impercettibili, che lo rendevano simile a una pergamena ingiallita.
 E la parrucca deposta sul cranio calvo sembrava adesso, più che un cappello onesto, una calotta da forzato.
 Avete saputo che la notte scorsa qualcuno è stato ucciso nelle scuderie?
 Sua Eccellenza me lo ha detto.
@@ -6661,9 +6737,12 @@ De Vincenzi s'impose di non riflettere.
 Non c'era da fare ipotesi che reggessero!
 Occorreva gettarsi sui fatti.
 Soltanto da essi avrebbe potuto scaturire qualche luce.
-Col maresciallo Cruni e coi due agenti salì in un tassi, mentre il camion della Squadra Volante si muoveva rombando nel silenzio della piazza deserta.
-Sulla stradetta di Trenno, faccia alla luna, Clark O' Brian giaceva adesso con un coltello dal manico giallastro piantato nel petto.
-Un coltello, che quando il barone aveva inciampato nel cadavere, né lui né Matteo avevano veduto, perché non c'era.
+Col maresciallo Cruni e coi due agenti salì in un tassi
+mentre il camion della Squadra Volante si muoveva rombando nel silenzio della piazza deserta.
+Sulla stradetta di Trenno, faccia alla luna, Clark O' Brian giaceva
+adesso con un coltello dal manico giallastro piantato nel petto.
+Un coltello né lui né Matteo avevano veduto, perché non c'era.
+che quando il barone aveva inciampato nel cadavere
 Ma un pensiero improvviso gli fece oscurare il volto, che un poco gli si contrasse.
 Preoccupati della frontiera, Vladimiro!
 Tutti questi cadaveri conducono soltanto al cimitero .
@@ -6681,7 +6760,8 @@ La domenica rendeva le strade deserte.
 Il temporale della notte aveva rinfrescato l'aria.
 Camminare a quell'ora, con quella frescura, era una gioia.
 L'omino se la godeva e procedeva arzillo, col sorriso sulle labbra.
-Quando fu in via Andrea del Sarto, si fermò davanti a una porticina a vetri smerigliati, accanto alla quale una grande targa di marmo recava a lettere d'oro: Istituto Farmacologico della R.
+Quando fu in via Andrea del Sarto, si fermò davanti a una porticina a vetri smerigliati
+accanto alla quale una grande targa di marmo recava a lettere d'oro: Istituto Farmacologico della R.
 Università.
 Premette il bottone del campanello e un uomo in camice gli aprì.
 Lo fece entrare.
@@ -6727,7 +6807,8 @@ L'esame lo dovette soddisfare, perché emise un leggero tortoreggiamento gorgogl
 Quindi estrasse la mano dalla tasca e con essa un mazzetto di grimaldelli.
 Non ne provò che due e col terzo fece scattare la molla.
 La porta si aprì.
-Entrò con un saltino rapido e spinse il battente dietro di sè, accostandolo, in modo che dal di fuori la porta sembrasse chiusa.
+Entrò con un saltino rapido e spinse il battente dietro di sè, accostandolo
+in modo che dal di fuori la porta sembrasse chiusa.
 Si trovava nell'oscurità e vi rimase per qualche istante.
 Respirava rapido, cercando di soffocare il rumore.
 Il cuore gli batteva a martello.
@@ -6767,18 +6848,21 @@ Il chiodo penetra!
 A levarlo ti voglio!
 Ma fece con eguale rapidità la seconda rampa.
 E, per di più, abbandonata a porte aperte!
-Il che voleva dire che l'abitatore di essa si infischiava che la propria fuga venisse scoperta e che qualcuno si prendesse la briga d'interrogare le stanze della casa, impadronendosi di più di un segreto rivelatore.
+Il che voleva dire che l'abitatore di essa si infischiava che la propria fuga venisse scoperta
+e che qualcuno si prendesse la briga d'interrogare le stanze della casa, impadronendosi di più di un segreto rivelatore.
 Quando fu per la strada, zufolava sempre;
 ma aveva una grande agitazione nel cervello.
 Anche la pista indicatagli dal suo istinto gli appariva nebbiosa e punto sicura, adesso.
-Fu soltanto dopo aver ridisceso via Bramante ed essersi messo sotto gli alberi di via Legnano, che cominciò a ritrovare un poco di freddezza.
+Fu soltanto dopo aver ridisceso via Bramante ed che cominciò a ritrovare un poco di freddezza.
+essersi messo sotto gli alberi di via Legnano
 Al largo Cairoli aveva già preso la sua decisione.
 Occorre far presto!
 Anche se rischio di fracassarmi il collo per non trovar nulla.
 Crollò le spalle.
 La saggezza cinese insegna che soltanto un pazzo si mette a rimestare l'acqua torbida, per tentare di renderla limpida!
 Ma io non ho tempo di pensare ai cinesi, io!
-Seduto nello studio, davanti al tavolo, sotto la protezione dei due Redentori crocefissi, De Vincenzi ascoltava la confessione del barone Gerolamo Verbena del Santo.
+Seduto nello studio, davanti al tavolo, sotto la protezione dei due Redentori crocefissi
+De Vincenzi ascoltava la confessione del barone Gerolamo Verbena del Santo.
 Poichè si trattava di una vera e propria confessione.
 La resistenza fisica del vecchio lottatore era crollata di colpo.
 Quell'ultimo assassinio compiuto sotto i suoi occhi gli aveva tolto la forza di lottare contro un nemico, ch'egli ignorava.
@@ -6788,7 +6872,8 @@ oppure le funzioni mentali sono scosse?
 Vladimiro sollevò l'arguto volto da faina e guardò il commissario con occhi brillanti.
 Lei ha compreso quel che avveniva nella stanza chiusa, prima che noi entrassimo?
 Non ho certo creduto che la signorina Verità si stesse confessando dei suoi delitti!
-Abbastanza inverosimile la cosa e non so capire come Fred Drake abbia potuto supporre che noi avremmo prestato fede a una confessione di quel genere!
+Abbastanza inverosimile la cosa
+e non so capire come Fred Drake abbia potuto supporre che noi avremmo prestato fede a una confessione di quel genere!
 quella non era che la preparazione!
 L'uomo, aveva saputo impadronirsi del cervello della ragazza.
 lo aveva reso plastico come cera e stava incidendolo proprio a quel modo che si fa con un disco.
@@ -6814,7 +6899,8 @@ Il cervello che si divide in due compartimenti stagni.
 Mi interroghi, commissario!
 Io esco appena dall'aver fatto parlare la ragazza!
 Non mi ci proverei un'altra volta, glielo garantisco!
-Quello lì la teneva sotto il dominio dell'ipnosi e, per ricondurla alla realtà, ho dovuto correre il rischio di vederle perdere la ragione.
+Quello lì la teneva sotto il dominio dell'ipnosi e ho dovuto correre il rischio di vederle perdere la ragione.
+per ricondurla alla realtà
 Lei ha detto: il sedicente Fred Drake.
 Se cominciassimo da lui?
 Chi era realmente Fred Drake?
@@ -7429,23 +7515,36 @@ Storia del nuoto.
 Il nuoto è uno sport molto antico, praticato sin dall’antichità.
 È indispensabile per la sopravvivenza e fu uno dei primi sport ad essere praticato dalle tribù primitive.
 Insieme a corsa, equitazione e lotta.
-Testimonianze del nuoto sono state ritrovate nella “caverna dei Nuotatori” e queste pitture risalgono all’età preistorica.
+Testimonianze del nuoto sono state ritrovate nella “caverna dei Nuotatori”
+queste pitture risalgono all’età preistorica.
 Seppur molto primitivo.
 Il primo stile di nuoto “nato” e praticato fu una primitivissima rana.
 Un importante sigillo egiziano mostra alcuni nuotatori praticare uno stile riconducibile allo stile libero.
-Importante passo avvenne nel 1952 quando lo stile farfalla venne riconosciuto ufficialemente come stile distinto dalla rana e venne accettato come quarto stile ufficiale.
+Importante passo avvenne nel 1952
+lo stile farfalla venne riconosciuto ufficialemente come stile distinto dalla rana
+venne accettato come quarto stile ufficiale.
 La farfalla è un’evoluzione della rana.
-Si ebbe la necessità di creare uno stile non completamente in subacquea ma che andasse più veloce e che fosse meno dispendioso di energie.
-Quindi si pensò di effettuare la bracciata fuori dall’acqua piuttosto che internamente, poichè la resistenza dell’acqua è maggiore rispetto a quella dell’aria.
+Si ebbe la necessità di creare uno stile non completamente in subacquea ma che andasse più veloce
+e che fosse meno dispendioso di energie.
+Quindi si pensò di effettuare la bracciata fuori dall’acqua piuttosto che internamente
+la resistenza dell’acqua è maggiore rispetto a quella dell’aria.
 Proprio per questo motivom inizialmente le gambe della farfalla erano analoghe a quelle della rana.
 Nella nuotata “nuova” regolamentare sono differenti e richiamano il movimento oscillatorio del delfino.
 Infatti in Italia c’è differenza tra delfino e farfalla.
 Ufficialmente lo stile rimane “butterfly stroke”, quindi farfalla.
-Ancora ora, infatti, lo stile più dispendioso di energie è la rana poichè tutte le fasi sono in subacquea e poichè non esiste una fase di “spinta” come negli altri.
-In generale in Europa (anche in Italia) viene insegnato primo il dorso, poi lo stile libero, poi la rana e per ultimo la farfalla.
-Nei Paesi anglosassoni (Inghilterra, principalmente), invece, si preferisce insegnare prima la rana poichè è un movimento ritenuto da molti più naturale.
-In alcuni Paesi dell’Asia (il Giappone in primis) si insegna il dorso come ultimo stile perchè è ritenuto il più difficile dal punto di vista dell’orientamento e della sicurezza dell’individuo stesso.
-Tutto questo poichè non è specificato, ed è bene che sia così, quale debba essere il primo stile insegnato; è, infatti, a discrezione dell’istruttore ed in base agli allievi a cui deve insegnare le varie nuotate.
+Ancora ora, infatti, lo stile più dispendioso di energie è la rana
+tutte le fasi sono in subacquea e poichè non esiste una fase di “spinta” come negli altri.
+In generale in Europa (anche in Italia) viene insegnato primo il dorso
+poi lo stile libero
+poi la rana e per ultimo la farfalla.
+Nei Paesi anglosassoni (Inghilterra, principalmente), invece, si preferisce insegnare prima la rana
+è un movimento ritenuto da molti più naturale.
+In alcuni Paesi dell’Asia (il Giappone in primis) si insegna il dorso come ultimo stile
+è ritenuto il più difficile dal punto di vista dell’orientamento e della sicurezza dell’individuo stesso.
+Tutto questo poichè non è specificato, ed è bene che sia così
+quale debba essere il primo stile insegnato non è specificato
+è, infatti, a discrezione dell’istruttore
+in base agli allievi a cui deve insegnare le varie nuotate.
 Importanza del nuoto.
 Il nuoto è sicuramente uno delle attività sportive più praticate e consigliate a livello modiale.
 Questo grazie agli innumerevoli benefici che il nuoto comporta e grazie alla possibilità di adattarlo alle varie necessità.
@@ -7453,55 +7552,84 @@ Grazie al nuoto possono essere allenati quasi tutti i muscoli del corpo, poichè
 È molto utile il nuoto per gestanti, poichè l’acqua rilassa i tessuti e dona un certo rilassamente all’individuo stesso.
 È molto utile ai neonati, poichè nascono dall’acqua quindi il nuoto è un posto famigliare.
 È molto utile anche per i disabili, poichè possono divertirsi, rilassarsi e socializzare.
-Infine è utile anche per gli anziani (meglio Terza e Quarta età) poichè potrebbero essersi ritrovati soli (magari dopo la morte del partner), quindi il nuoto evita di far chiudere in sè stessi quelle persone. 
+è utile anche per gli anziani (meglio Terza e Quarta età)
+potrebbero essersi ritrovati soli, quindi il nuoto evita di far chiudere in sè stessi quelle persone.
+magari dopo la morte del partner
 La FINA è la federazione internazionale del nuoto, associata anche al CIO.
 La maggior parte delle federazioni nazionali fanno capo alla FINA, inclusa la FIN (Federazione Italiana Nuoto).
 La FINA venne fondata a Londra nel 1908 (19 luglio).
 La FIN, invece, fu fondata nel 1899.
 Non fu, tuttavia, la prima ad essere fondata.
-infatti già nel 1869 esisteva la British Swimming di cui fa parte (anche) la Swim England, la prima federazione esistente di nuoto al mondo nonchè la federazione del nuoto inglese.
-Le federazione sono importanti poichè gestiscono i regolamenti e le certificazioni del nuoto, aggiornando costantemente le metodologie adottate.
+infatti già nel 1869 esisteva la British Swimming
+di cui fa parte la Swim England
+la prima federazione esistente di nuoto al mondo
+nonchè la federazione di nuoto inglese.
+Le federazione sono importanti poichè gestiscono i regolamenti e le certificazioni del nuoto
+aggiornando costantemente le metodologie adottate.
 Istruttore ed allenatore di nuoto.
-La differenza tra istruttore ed allenatore non è sottile; infatti il primo deve “istruire” quindi deve insegnare sin dall’ambientamento il saper stare in acqua, incluse le nuotare.
-Infine, una volta che l’allievo consegue il 5 livello SNF è pronto, se vuole, ad iniziare l’allenamento agonistico vero e proprio, quindi si necessiterà, in quel caso, di un allenatore.
+La differenza tra istruttore ed allenatore non è sottile
+infatti il primo deve “istruire” quindi deve insegnare il saper stare in acqua, incluse le nuotare.
+è pronto ad iniziare l’allenamento agonistico vero e proprio
+quindi avrà bisogno di un allenatore.
+una volta che l’allievo consegue il 5 livello SNF è pronto
 Un istruttore può essere di due tipi.
 Allievo istruttore, precedentemente Istruttore I° livello.
 può istruire allievi fino al conseguimento del 2-3 livello SNF
 Istruttore di base, precedentemente Istruttore II° livello.
 può istruire allievi fino al conseguimento del 5 livello SNF.
-Questa differenza è teorica poichè l’esame è il medesimo solamente che per poter accedere alla qualifica di Istruttore di base è necessario prima avere la qualifica di Allievo istruttore ed averla utilizzata almeno 6 mesi.
+Questa differenza è teorica poichè l’esame è il medesimo
+per poter accedere alla qualifica di Istruttore di base è necessario prima avere la qualifica di Allievo istruttore
+averla utilizzata almeno 6 mesi.
 Un allenatore può essere di due tipi.
 Allenatore I° livello, può allenare gli agonisti fino alla categoria giovanile.
 Allenatore II° livello, può allenare, essenzialmente, qualunque categoria.
-La differenza tra istruttore ed allenatore, quindi, è che il primo deve insegnare e migliorare la tecnica, mentre il secondo deve migliorare i tempi di esecuzione degli stili.
-Per poter divenire allenatore bisogna prima conseguire la qualifica da istruttore (allievo, poi quello base) e successivamente si potrà conseguire la qualifica da allenatore.
+il primo deve insegnare e migliorare la tecnica
+il secondo deve migliorare i tempi di esecuzione degli stili.
+Per poter divenire allenatore bisogna prima conseguire la qualifica da istruttore (allievo, poi quello base)
+successivamente si potrà conseguire la qualifica da allenatore.
 prima quella di I° livello, poi quella di II° livello).
 i corsi per allenatore li indice direttamente la FIN e bisogna effettuarli presso la sede centrale, a Roma.
 a differenza di quelli per istruttore che sono affidati alle singole regioni.
-Importante aspetto da tenere in considerazione è che ciascuna qualifica va rinnovata annualmente ed ogni 2 anni (istruttori) e 4 anni (allenatori) bisogna seguire il corso di aggiornamento per riconfermare le conoscenze.
+Importante aspetto da tenere in considerazione
+ciascuna qualifica va rinnovata annualmente
+ogni 2 anni (istruttori) e 4 anni (allenatori) bisogna seguire il corso di aggiornamento per riconfermare le conoscenze.
 Livelli tecnici SNF.
 I livelli della (SNF) Scuola Nuoto Federale italiana (gestita dalla FIN) sono 5.
-Questo livello molto spesso viene identificato come il livello dei bambini più piccoli; non c’è cosa più falsa poichè ogni individuo che inizia ad approcciarsi con l’acqua ha necessità di effettuare la fase iniziale, di “ambientamento”.
-Questa fase prevede l’insegnamento del galleggiamento, della respirazione, degli scivolamenti e l’inzio della propulsione (elementare).
-Questo livello prevede l’insegnamento delle gambe a dorso e crawl, coordinazione braccia-gambre crawl e dorso e tuffi da seduto o in ginocchio, prima dal bordo vasca e poi dal blocco di partenza.
-Questo livello prevede l’insegnamento delle nuotate a dorso e stile libero (completi) e l’input alla gambata della rana e della farfalla.
+Questo livello molto spesso viene identificato come il livello dei bambini più piccoli
+non c’è cosa più falsa
+ogni individuo che inizia ad approcciarsi con l’acqua ha necessità di effettuare la fase iniziale, di “ambientamento”.
+Questa fase prevede l’insegnamento del galleggiamento, della respirazione, degli scivolamenti
+inizio della propulsione (elementare).
+Questo livello prevede l’insegnamento delle gambe a dorso e crawl
+coordinazione braccia-gambre crawl e dorso e tuffi da seduto o in ginocchio
+prima dal bordo vasca e poi dal blocco di partenza.
+Questo livello prevede l’insegnamento delle nuotate a dorso e stile libero (completi)
+input alla gambata della rana e della farfalla.
 Inoltre si sviluppa la capacità del tuffi in piedi dal blocco di partenza.
-Questo livello prevede, invece, l’insegnamento delle nuotate a rana e farfalla completa, il miglioramento del dorso e dello stile libero, l’insegnamento delle virate elementari ed è caratterizzato da vasche cronometrate in determinati giorni.
+Questo livello prevede, invece, l’insegnamento delle nuotate a rana e farfalla completa
+il miglioramento del dorso e dello stile libero, l’insegnamento delle virate elementari
+è caratterizzato da vasche cronometrate in determinati giorni.
 È il livello conclusivo.
-Prevede l’insegnamento delle virate complete ed agonistiche, miglioramento ulteriore degli stili, miglioramento ulteriore delle partenze/tuffi.
-Questo livello è caratterizzato dalle vasche cronometrate quindi con l’obiettivo di migliorare, oltre alla tecnica, soprattutto i tempi.
+Prevede l’insegnamento delle virate complete ed agonistiche
+miglioramento ulteriore degli stili
+miglioramento ulteriore delle partenze/tuffi.
+Questo livello è caratterizzato dalle vasche cronometrate
+quindi con l’obiettivo di migliorare, oltre alla tecnica, soprattutto i tempi.
 Dopo il 5 livello ci sono ulteriori livelli, anche se non vengono classificati.
 Essi vengono suddivisi in base alla specializzazione.
 pallanuoto, nuoto sincronizzato, nuoto per salvamento.
 Tecnica di nuotata dei 4 stili canonici.
-Gli stili canonici, quindi quelli riconosciuti ufficialmente dalla FINA sono quattro: il dorso, lo stile libero, la rana e la farfalla.
+Gli stili riconosciuti ufficialmente dalla FINA sono quattro: il dorso, lo stile libero, la rana e la farfalla.
 in Italia chiamato spesso come “delfino”.
 Lo stile dorso è l’unico stile in posizione supina.
 Venne approvato come stile ufficiale e regolamentato nel 1896.
 La bracciata si compone di 4 fasi.
-Presa: è la fase in cui la mano effettua una “presa” sull’acqua. La mano entra in acqua ed effettua una mini rotazione per poi iniziare la fase di trazione.
+Presa: è la fase in cui la mano effettua una “presa” sull’acqua.
+La mano entra in acqua ed effettua una mini rotazione per poi iniziare la fase di trazione.
 Importante sottolineare che il primo dito ad entrare in acqua, nel dorso, è il mignolo 
-Trazione: è la fase in cui la mano (e il braccio) dalla posizione di presa, spinge creando un “appoggio”, arrivando fino alla posizione del petto circa.
+Trazione: è la fase in cui la mano (e il braccio) dalla posizione di presa
+spinge creando un “appoggio”
+arrivando fino alla posizione del petto circa.
 il gomito si troverà in basso formando un angolo di circa 60°.
 Spinta: è la fase in cui il braccio effettuerà la spinta, quindi sarà la fase di maggior “movimento”.
 dalla posizione in cui la fase di trazione terminava si arriva fino ad avere il braccio allineato lungo i fianchi.
@@ -7509,84 +7637,122 @@ la mano in questa fase è importante che sia ben aperta, per sfruttare maggiore 
 Recupero: è l’unica fase in cui il braccio è fuori dall’acqua (fase “aerea”).
 La mano esce ed il primo dito ad uscire non sarà il migliolo come nella presa, ma il pollice.
 Quindi il braccio tornerà in fase di presa.
-Importante in questa fase è il rollio delle spalle e la mano a circa metà fase effettua una rotazione di 180°, quindi permettendo alla mano di entrare con il migliolo piuttosto che con il pollice.
+Importante in questa fase è il rollio delle spalle
+la mano a circa metà fase effettua una rotazione di 180°
+quindi permettendo alla mano di entrare con il migliolo piuttosto che con il pollice.
 questa rotazione della mano è personale, ogni nuotare la ruota in un momento differente.
-La respirazione in questo stile è molto più semplice rispetto agli altri poichè la testa è sempre fuori dall’acqua anche se c’è una sincronizzazione tra la bracciata e la respirazione.
-La testa deve essere rivolta leggermente verso avanti (più vicina al petto) altrimenti non si ha un assetto buono ed è molto probabile che si beva dell’acqua.
+La respirazione in questo stile è molto più semplice rispetto agli altri
+la testa è sempre fuori dall’acqua anche se c’è una sincronizzazione tra la bracciata e la respirazione.
+La testa deve essere rivolta leggermente verso avanti
+altrimenti non si ha un assetto buono ed è molto probabile che si beva dell’acqua.
 Infatti in questa fase è importante che si abbia un buon galleggiamento (quindi anche un buon assetto).
-Le gambe in questo stile sono di “equilibrio” e di propulsione, non hanno fasi nettamente distinte, anche se è possibile dividerle in 2 fase.
+Le gambe in questo stile sono di “equilibrio” e di propulsione
+non hanno fasi nettamente distinte
+anche se è possibile dividerle in 2 fase.
 Spinta: Le gambe dal basso spingono verso l’alto.
 Importante ricordare che le ginocchia mai devono uscire fuori dall’acqua, così come anche i piedi.
 Il movimento deve essere come quello di una frustata. I piedi sono sempre “a punta” (non “a martello”).
 Recupero: Le gambe dall’alto vanno verso il basso.
-È molto più facile rispetto alla precedente poichè le gambe sono la parte del corpo più pesate (avendo i muscoli maggiormente sviluppati).
+È molto più facile rispetto alla precedente poichè le gambe sono la parte del corpo più pesate
+avendo i muscoli maggiormente sviluppati.
 Le gambe non vanno mai fermate, in ogni fase della bracciata le gambe continuano il loro movimento alternato.
 Il piede deve necessariamente rimanere immerso o comunque solamente la punta del piede può leggermente uscire.
 Generalmente è il secondo stile insegnato.
 Anche se molto spesso si insegna prima lo stile libero ed in seguito il dorso.
 Questo stile è il più libero, quindi quello meno rigidamente regolamentato.
 La tecnica utilizzata correntemente è il crawl, quindi di seguito verrà spiegata quest’ultima.
-La nuotata a crawl è in posizione prona, con la testa immersa in acqua e bisogna regolare la respirazione (bocca-naso).
+La nuotata a crawl è in posizione prona
+con la testa immersa in acqua e bisogna regolare la respirazione (bocca-naso).
 La gambe non smettono mai di muoversi, in qualunque fase.
 La bracciata si differenzia in 4 fasi.
-Presa: La mano entra leggermente ruotata, circa 30° sul piano trasverso, ed inizia la presa, come se si stessa per afferrare qualcosa, quindi la mano ruota leggermente (sul piano sagittale e coronale).
-Trazione: Dalla fase di presa, con il braccio lungo sopra la testa, si porterà il braccio fino a metà petto (circa) effettuando un movimento ad “S”.
+nella fase di presa la mano entra leggermente ruotata
+circa 30° sul piano trasverso
+come se si stessa per afferrare qualcosa
+quindi la mano ruota leggermente
+sul piano sagittale e coronale.
+Nella fase drazione si porterà il braccio fino a metà petto (circa) effettuando un movimento ad “S”.
+con il braccio lungo sopra la testa
 Spinta: Questa fase parte dal petto fino a finire quando il braccio è lungo i fianchi.
 È la fase di maggior movimento e fatica.
 Il palmo della mano è aperto.
 Recupero: La fase di recupero è l’unica fase in cui il braccio non è in acqua (fase aerea).
-La prima parte del braccio ad uscire è il gomito, continuandolo a tenere alto si cercherà di allungarsi il più possibile fino ad arrivare ad inizio fase di presa.
+La prima parte del braccio ad uscire è il gomito
+continuandolo a tenere alto si cercherà di allungarsi il più possibile fino ad arrivare ad inizio fase di presa.
 La respirazione è controllata e, in genere, dopo 3 bracciate si effettua una respirazione (bocca-naso).
-È in questa fase che si effettua la respirazione, la testa deve essere appoggiata al braccio opposto a quello che è in posizione di spinta-recupero.
+È in questa fase che si effettua la respirazione
+la testa deve essere appoggiata al braccio opposto a quello che è in posizione di spinta-recupero.
 Quindi sarà in fase di presa-trazione.
 La testa deve necessariamente tornare immersa quando il braccio si trova a circa metà fase di recupero.
 Il braccio opposto deve rimanere sempre dritto avanti, non deve andare in affondo.
 La testa, quando è immersa, è rivolta verso il basso, inclinata leggermente verso avanti.
-Anche in questo stile come il dorso (e la farfalla) la gambata non ha un peso eccessivo, è “solo” di propulsione ed equilibrio.
+Anche in questo stile, come nel dorso e nella farfalla, la gambata non ha un peso eccessivo
+è “solo” di propulsione ed equilibrio.
 La si può differenziare in 2 fasi, che saranno esattamente opposte a quelle del dorso.
 Spinta: La gamba dall’alto si muove verso il basso. Il piede deve essere necessariamente a punta.
 Recupero: La gamba dal basso ritorna in alto.
-Importante è non fare uscire il piede fuori dall’acqua poichè produrrà molta “schiuma” ma effettivamente non produrrà movimento.
+Importante è non fare uscire il piede fuori dall’acqua
+produrrà molta “schiuma” ma effettivamente non produrrà movimento.
 Quindi la gamba, incluso il piede, deve rimanere immerso.
 Effettivamente nelle distanze brevi, dove le gambe assumo un ruolo di maggiore importanza, il tallone può uscire.
 Infatti si noterà la creazione di schiuma.
 Anche in questo stile sia le braccia sia le gambe si muovono in maniera alternata.
 La rana è lo stile più lento, il più complesso e il più dispendioso di energie.
 È insieme alla farfalla uno stile simmetrico.
-È l’unico stile ad avere tutte le fasi in subacquea, ed è l’unico stile a non avere la fase di spinta, quindi le braccia hanno una importanza nel movimento molto inferiore alle gambe.
+È l’unico stile ad avere tutte le fasi in subacquea
+ed è l’unico stile a non avere la fase di spinta
+quindi le braccia hanno una importanza nel movimento molto inferiore alle gambe.
 In genere la rana è l’ultimo stile insegnato, proprio perchè è quello che differisce di più dagli altri.
-Per questi motivi il nuotatore a rana, denominato ranista, sarà lento in tutti gli altri stili, proprio perchè è completamente differente sia per la respirazione sia per la potenza necessaria delle gambe a discapito delle braccia.
+Per questi motivi il nuotatore a rana, denominato ranista, sarà lento in tutti gli altri stili
+proprio perchè è completamente differente
+sia per la respirazione sia per la potenza necessaria delle gambe a discapito delle braccia.
 inoltre i piedi hanno la posizione a martello, quindi come se si stessa camminando sui talloni.
 Quindi la bracciata a rana si compone di 3 fasi.
-Presa: le braccia distese in assetto sopra la testa e le mani, simmetricamente, si aprono, ruotando la mano sul piano coronale all’esterno.
-Trazione: le braccia formano una specie di cerchio, o di cuore, quindi arrivando ad inizio-metà petto, è in questa fase che avviene la respirazione.
+Presa: le braccia distese in assetto sopra la testa e le mani, simmetricamente, si aprono
+ruotando la mano sul piano coronale all’esterno.
+Trazione: le braccia formano una specie di cerchio, o di cuore, quindi arrivando ad inizio-metà petto
+è in questa fase che avviene la respirazione.
 Le mani sono aperte e le braccia si muovono sul piano sagittale (e relativamente su quello trasverso).
 Per effettuare la respirazione la forza della trazione deve essere sufficiente a fare emergere la testa.
 Qui, più che mai, si nota la respirazione ispirazione dalla bocca ed espirazione dalla bocca e dal naso (contemporaneamente).
 Recupero: le braccia, dalla posizione del petto, vengono riportate in assetto in avanti.
 Notare che si effettua una specie di tuffo e i gomiti non possono uscire dall’acqua, pena la squalifica.
-La rana, più di tutti gli altri stili, utilizza lo scivolamento, quindi la fase di recupero è importantissima proprio per questo motivo.
-Nella rana sono molto importanti le gambe, proprio per questo motivo la gambata han fasi ben definite e, come nella bracciata, sono 3 fasi.
+La rana, più di tutti gli altri stili, utilizza lo scivolamento
+quindi la fase di recupero è importantissima proprio per questo motivo.
+Nella rana sono molto importanti le gambe
+proprio per questo motivo la gambata han fasi ben definite e, come nella bracciata, sono 3 fasi.
 Recupero: le gambe da distese passano a piegate, quindi portare le gambe, con le ginocchia sempre vicine, avanti.
 il tallone verso l’alto, quindi le ginocchia non vicine alla pancia.
 I piedi nella rana sono in posizione “a martello” non più a punta.
-Presa: i piedi, con le ginocchia ancora vicine, si allargano all’esterno, quindi anche le ginocchia iniziano ad allontanarsi, ma non troppo.
+Nella fase di presa i piedi, con le ginocchia ancora vicine, si allargano all’esterno
+quindi anche le ginocchia iniziano ad allontanarsi, ma non troppo.
 Una volta aperte le gambe aperte più o meno formando una “Y” o una “U”, finisce la fase di presa.
-Spinta: Dopa la presa, quindi, inizia la fase di spinta. Le gambe si chiudono tornando dritte, con i piedi a martello ed unite.
+Spinta: Dopa la presa, quindi, inizia la fase di spinta.
+Le gambe si chiudono tornando dritte, con i piedi a martello ed unite.
 Importante unire le gambe fino alla fine, poichè la spinta è molto importante specialmente (e non solo) in quel punto.
-Da notare che le gambe sono sempre leggermente in ritardo rispetto alle braccia, per poter sfruttare il massimo scivolamento e notare anche che la gambata ha la fase di spinta, ma non quella di trazione.
+Da notare che le gambe sono sempre leggermente in ritardo rispetto alle braccia
+per poter sfruttare il massimo scivolamento
+notare anche che la gambata ha la fase di spinta, ma non quella di trazione.
 Inoltre è possibile dire che ogni bracciata completa è accompagnata da una gambata completa.
-Prima di concludere con la rana, è importante evidenziare che nell’evoluzione dei vari regolamenti si è sviluppata una rana che dà sempre più importanza alla nuotate della bracciata stessa.
-Ora, infatti, molti nuotatori utilizzano molto più le braccia piuttosto che le gambe, arrivando a braccia 60-70% e gambe 40-30%.
-viene definita “rana delfinata”, poichè dopo la gambate è come se si effettuasse una leggera “gambata” a delfino, ma invece si sfrutta al massimo lo scivolamento.
+Prima di concludere con la rana
+è importante evidenziare che nell’evoluzione dei vari regolamenti si è sviluppata una rana diversa.
+Ora, infatti, molti nuotatori utilizzano molto più le braccia piuttosto che le gambe
+arrivando a utilizzare le braccia per il 60-70% e le gambe solo per il 40-30%.
+viene definita “rana delfinata”
+poichè dopo la gambate è come se si effettuasse una leggera “gambata” a delfino
+ma invece, si sfrutta al massimo lo scivolamento.
 Da notare, infatti, che da regolamento dare gambate differenti da quelle a rana è assolutamente vietato.
 Per questi motivi la rana è lo stile di maggiore interpretazioni.
 È lo stile ritenuto dai meno esperti più complesso e tecnico, quando invece non lo è, per ovvi motivi.
-Deriva dalla rana, quindi alcuni punti possono somigliare, come la simmetria e il tuffo per cercare il massimo scivolamento. Il movimento è guidato principalmente dalla testa.
+Deriva dalla rana, quindi alcuni punti possono somigliare, come la simmetria e il tuffo per cercare il massimo scivolamento.
+Il movimento è guidato principalmente dalla testa.
 La bracciata si compone in 4 fasi.
 Presa: le due mani contemporaneamente creano una presa, come se stessero aggrappandosi a qualcosa.
 Quindi ruotano all’esterno.
-Trazione: dopo la presa le braccia arrivano in corrispondenza della fine del petto sul piano coronale e sagittale e, come la tecnica del crawl, per arrivare in questa posizione si creerà una “S”, in questo caso doppia.
+Nella fase di trazione le braccia arrivano in corrispondenza della fine del petto
+sul piano coronale e sagittale
+come la tecnica del crawl
+per arrivare in questa posizione si creerà una “S”
+in questo caso doppia.
 In questa fase avviene la prima gambata ed anche la respirazione.
 In genere la stessa avviene, come nel crawl, durante la terza bracciata, ma non è una regola.
 Alcuni dei più grandi nuotatori respirano ad ogni bracciata (tra cui Phelps).
@@ -7594,129 +7760,246 @@ Spinta: è probabilmente la fase più importante, anche se è allo stesso tempo 
 Le braccia vengono portate lungo i fianchi (non vicine come nel dorso e nel crawl) e sono pronte per la fase successiva.
 Recupero: è un’altra fase molto importante, l’unica fase aerea. Qui avviene la seconda gambata.
 Le mani escono dall’acqua con il palmo rivolto verso l’alto, quindi questo è il primo ad uscire dall’acqua.
-Una volta uscite le braccia si porteranno avanti, tese e simmetriche, creando un tuffo nell’entrata, quindi sfruttando il movimento oscillatorio della gambata.
+Una volta uscite le braccia si porteranno avanti
+tese e simmetriche
+creando un tuffo nell’entrata
+quindi sfruttando il movimento oscillatorio della gambata.
 La gambata completa si compone di 2 fasi.
-A differenza della rana, ogni bracciata completa si compone di 2 battiti di gambe (prima e seconda gambata) che formano una gambata completa; le due gambate sono, comunque, leggermente differenti.
+A differenza della rana, ogni bracciata completa si compone di 2 battiti di gambe
+formano una gambata completa
+le due gambate sono, comunque, leggermente differenti.
 Spinta: Le gambe, col movimento oscillatorio che parte dal bacino, vanno dall’alto verso il basso.
 Recupero: Le gambe dal basso tornano in alto.
 Importante è non piegare troppo le gambe, altrimenti si frena il movimento oscillatorio rallentando lo stile stesso.
 La prima gambata avviene durante la fine della trazione ed inizio spinta (trazione-spinta).
 Questa gambata è principalmente a scopo propulsivo.
-La seconda gambata avviene durante la fase recupero-presa (fine recupero-inizio presa) ed è legata alla respirazione, infatti questa serve per facilitare la respirazione.
+La seconda gambata avviene durante la fase recupero-presa
+fine fase recupero e inizio fase presa
+ed è legata alla respirazione, infatti questa serve per facilitare la respirazione.
 Tecnica di virata dei 4 stili canonici.
 Ogni stile ha una propria virata, tuttavia è possibile identificarle in sole 2 virate.
 Stile libero e Dorso: la virata nello stile libero e nel dorso è la medesima.
-Per potersi portare dalla posizione supina a prona il nuotare a dorso può effettuare una singola bracciata a crawl in posizione prona, dopodichè deve rimanere immobile, pena la squalifica.
-Una volta che ci si trova in posizione prona (dorso, poichè lo stile libero è sempre prono), bisogna dare un colpo di gambe a delfino che ci permette di effettuare la virata, che non è altro che una mezza capriola in acqua.
-Quindi contemporaneamente bisogna portare le ginocchia rannicchiate, vicino alla pancia, e le braccia possono essere posizionate già in assetto o, più comunemente, un braccia lungo e l’altro lo raggiunge, formando quindi l’assetto.
-Importante differenza è che nello stile libero non è specificato in che posizione sia necessario staccare i piedi dal muro, a differenza del dorso che regolamenta l’uscita in posizione supina, pena la squalifica.
-Rana e Farfalla: la virata nella rana e nella farfalla è la medesima, poichè entrambi gli stili sono “simmetrici”, cambia ovviamente la partenza dopo la virata.
-Si compone nel toccare contemporaneamente, quindi simmetricamente, le mani al muro, dopodichè le gambe vengono portare rannicchiate con le ginocchia che toccano la pancia.
-un braccio (in genere il sinistro) si stacca dal muro e viene portato in basso, successivamente l’altro braccio con un movimento circolatorio si porta sovrapposto all’altro e, puntando verso il basso.
+Per potersi portare dalla posizione supina a prona
+il nuotare a dorso può effettuare una singola bracciata a crawl in posizione prona
+dopodichè deve rimanere immobile.
+Una volta che ci si trova in posizione prona bisogna dare un colpo di gambe a delfino
+ci permette di effettuare la virata
+non è altro che una mezza capriola in acqua.
+lo stile libero è sempre prono
+Quindi contemporaneamente bisogna portare le ginocchia rannicchiate, vicino alla pancia
+le braccia possono essere posizionate già in assetto
+o, più comunemente, un braccia lungo e l’altro lo raggiunge successivamente, formando quindi l’assetto.
+Importante differenza è che nello stile libero non è specificato in che posizione sia necessario staccare i piedi dal muro
+a differenza del dorso nel quale è regolamenta l’uscita in posizione supina.
+La virata nella rana e nella farfalla è la medesima
+poichè entrambi gli stili sono “simmetrici”
+cambia ovviamente la partenza dopo la virata.
+Si compone nel toccare contemporaneamente, quindi simmetricamente, le mani al muro
+dopodichè le gambe vengono portare rannicchiate, insieme alle ginocchia che toccano la pancia.
+un braccio, generalemente il sinistro, si stacca dal muro e viene portato in basso
+successivamente l’altro braccio con un movimento circolatorio si porta sovrapposto all’altro
+puntando verso il basso.
 creano di fatto un tuffo subacqueo che permette di avere una maggiore di spinta.
 Tecnica dei tuffi e delle partenze dei 4 stili canonici.
-Il tuffo di partenza dei vari stile è molto complesso, come anche la tecnica dello stile in sè e delle virate di ciascuno.
-In beve si può affermare che il tuffo è uguale sia per lo stile libero, sia per la rana e sia per la farfalla. L’unico a fare eccezione è il dorso.
+Il tuffo di partenza dei vari stile è molto complesso
+come anche la tecnica dello stile in sè
+le virate di ciascuno stile natatorio.
+In beve si può affermare che il tuffo è uguale sia per lo stile libero, sia per la rana e sia per la farfalla.
+L’unico a fare eccezione è il dorso.
 Esistono 2 tipi di tuffi (stile libero/rana/farfalla).
-Grap start: è la partenza più antica, adatta per un tuffo con una maggiore spinta ma ha una reazione allo start inferiore, quindi è più “lenta”.
-I piedi sono allineati uno vicino all’altro. Allo “Al posto” bisogna portare il peso indietro, successivamente spingere in avanti.
-Take your marks… Beep, nelle gare ufficiali internazionali.
-Track start: è partenza più utilizzata attualmente. I piedi sono posti uno (quello più “forte”) avanti, l’altro dietro.
-Inizialmente il peso ricade sul piede inferiore, successivamente il peso si porterà senza “caricare” ulteriormente sul piede di avanti, quindi ci si spingerà.
+La grap start è la partenza più antica
+adatta per un tuffo con una maggiore spinta ma ha una reazione allo start inferiore
+quindi è più “lenta”.
+I piedi sono allineati uno vicino all’altro.
+Al segnale “Al posto” bisogna portare il peso indietro, successivamente spingere in avanti.
+Il segnale "Take your marks… Beep", nelle gare ufficiali internazionali.
+La track start è partenza più utilizzata attualmente.
+I piedi sono posti uno (quello più “forte”) avanti, l’altro dietro.
+Inizialmente il peso ricade sul piede inferiore
+successivamente il peso si porterà senza “caricare” ulteriormente sul piede di avanti, quindi ci si spingerà.
 Una volta spinti bisogna acquisire l’assetto.
-Effettivamente la track start, dopo i recenti regolamenti, non ha più una velocità di reazione molto netta rispetto alla grap start, poichè gli ultimi regolamenti prevedono che al segnale di “Al posto” bisogna rimanere completamente immobili, pena la squalifica.
+Evidentemente la track start, dopo i recenti regolamenti, non ha più una velocità di reazione
+era molto netta la differenza rispetto alla grap start
+poichè gli ultimi regolamenti prevedono ciò
+al segnale di “Al posto” bisogna rimanere completamente immobili, pena la squalifica.
 Il tuffo a dorso è molto differente.
-Infatti gli atleti dovranno prima tuffarsi in acqua (indicativamente si entra “a candela” o “a soldatino”, quindi braccia lungo i fianchi), ma la parte importante è quando si è in acqua.
-Bisogna aggrapparsi al tubo posto al di sotto del blocco di partenza, i piedi alti e il peso verso avanti. Al segnale di “Beep” il corpo si porterà indietro formando un tuffo da posizione supina.
-Vale, in entrambi gli stili, la regola dei 15 metri massimo prima di dover emergere obbligatoriamente, pena la squalifica.
+Infatti gli atleti dovranno prima tuffarsi in acqua
+ma la parte importante è quando si è effettivamente in acqua.
+indicativamente si entra “a candela” o “a soldatino”
+quindi braccia lungo i fianchi
+Bisogna aggrapparsi al tubo posto al di sotto del blocco di partenza
+i piedi alti e il peso verso avanti.
+Al segnale di “Beep” il corpo si porterà indietro formando un tuffo da posizione supina.
+Vale la regola dei 15 metri massimo prima di dover emergere obbligatoriamente, pena la squalifica.
+in entrambi gli stili
 La differenza dell’entrata nei 3 stili rimanenti è la seguente.
-Stile libero: Le braccia in assetto sopra la testa ferme, mentre le gambe devono effettuare il movimento della gambata a farfalla, inoltre si può effettuare anche quella alternata del crawl quando si sta per emergere.
+Le braccia in assetto sopra la testa ferme
+mentre le gambe devono effettuare il movimento della gambata a farfalla
+inoltre si può effettuare anche quella alternata del crawl quando si sta per emergere.
 effettivamente si può effettuare sin dall’ingresso il movimento alternato del crawl.
-Rana: Le braccia in assetto sopra la testa e ferme, mentre le gambe rimangono totamente ferme fino a quando c’è la velocità e lo scivolamento della partenza (in genere 3-4 secondi).
-successivamente è ammesso effettuare una bracciata a rana ed è ammessa solo in questo caso una sorta di fase di spinta, che nello stile rana è inesistente.
+Le braccia in assetto sopra la testa e ferme
+mentre le gambe rimangono totamente ferme fino a quando c’è velocità e scivolamento della partenza
+in genere 3-4 secondi.
+successivamente è ammesso effettuare una bracciata a rana
+ed è ammessa solo in questo caso una sorta di fase di spinta
+nello stile rana è inesistente.
 ed è ammesso una singola oscillazione delle gambe a farfalla.
-e nell’ultima parte è possibile effettuare una bracciata ed una gambata completa, le braccia in quest’ultima parte devono emergere quando si trovano nella fase di recupero, pena la squalifica.
+e nell’ultima parte è possibile effettuare una bracciata ed una gambata completa
+le braccia in quest’ultima parte devono emergere quando si trovano nella fase di recupero, pena la squalifica.
 Farfalla: La partenza a farfalla.
 Le partenze sono le medesime delle partenze dopo le virate.
 Altri stili, non ufficiali.
 Per l’insegnamento del sapere stare in acqua vengono utilizzati numerosi “stili” non riconosciuti ufficialmente.
-sono per lo più associati agli animali sia marini sia terrestri, questo perchè specialmente i bambini sono più invogliati ad imitare un qualcosa che già conoscono.
-Alcuni esempi potrebbero essere:
-Stellina: molto importante perchè l’allievo prende consapevolezza dell’acqua, rimane rilassato quando è nella stessa e sa galleggiare orizzontalmente (sia in posizione prona sia in posizione supina).
-Cagnolino: è il primo movimento insegnato, questo permette di poter galleggiare in posizione prona e di potersi muovere liberamente ed autonomamente nella vasca.
-Il principio del cagnolino è nuotare sempre con la testa fuori dall’acqua, battere le gambe alternate e le braccia che scavano: quindi imitando la “nuotata” tipica e naturale dei cani.
-Elefante: molto importante, specialmente nella fase di ambientamento, poichè il bambino (ma anche gli adulti) si abitua all’acqua ed impara ad apprezzarla.
+sono perlopiù associati agli animali sia marini sia terrestri
+questo perchè, specialmente i bambini, sono più invogliati ad imitare un qualcosa che già conoscono.
+Alcuni esempi potrebbero essere utili
+Stellina: molto importante perchè l’allievo prende consapevolezza dell’acqua
+rimane rilassato quando è nella stessa posizione
+sa galleggiare orizzontalmente
+sia in posizione prona sia in quella supina.
+Cagnolino: è il primo movimento insegnato, questo permette di poter galleggiare in posizione prona
+potersi muovere liberamente ed autonomamente nella vasca.
+Il principio del cagnolino è nuotare sempre con la testa fuori dall’acqua
+battere le gambe alternate e le braccia che scavano
+quindi imitando la “nuotata” tipica e naturale dei cani.
+Elefante: molto importante, specialmente nella fase di ambientamento
+il bambino si abitua all’acqua ed impara ad apprezzarla.
+ma anche gli adulti
 La caratteristica di questa tecnica è far espellere l’acqua dalla bocca come se l’allievo fosse un elefante.
-Squalo: molto importante poichè l’allievo impara a nuotare con la faccia in subacquea, quindi sviluppa ed allena la respirazione.
-Canguro: anche questa tecnica è molto importante poichè l’allievo impara a sapere andare in subacquea in verticale, e mette in pratica costantemente la respirazione naso-bocca.
-I “misti” sono un tipo di gare che comprende i quattro stili canonici nel seguente ordine (misti individuali): farfalla, dorso, rana, stile libero.
+Squalo: molto importante poichè l’allievo impara a nuotare con la faccia in subacquea
+sviluppa e allena la respirazione.
+Canguro: anche questa tecnica è molto importante poichè l’allievo impara a sapere andare in subacquea in verticale
+mette in pratica costantemente la respirazione naso-bocca.
+I “misti” sono un tipo di gare che comprende i quattro stili canonici
+l'ordine dei misti individuali è: farfalla, dorso, rana, stile libero.
 Nei misti “staffetta”, invece, l’ordine è differente (in seguito descritto).
-Le competizioni nei misti possono essere 200 e 400. Notare che nei 200 l’atleta deve effettuare 50m per ogni stile, mentre nei 400 deve effettuare 100m per stile.
-È importante evidenziare che ogni 50m/100m è visto come un inizio di un nuovo stile, quindi non è ammessa la virata del dorso per il dorso-rana.
+Le competizioni nei misti possono essere 200 e 400.
+Notare che nei 200 l’atleta deve effettuare 50m per ogni stile, mentre nei 400 deve effettuare 100m per stile.
+È importante evidenziare che ogni 50m/100m è visto come un inizio di un nuovo stile
+perciò non è ammessa la virata del dorso per il dorso-rana.
 Tuttavia è possibile effettuare una capriola all’indietro o toccare il muro e ripartire subito dopo.
-Le staffette sono un tipo di gara particolare nei quali possono competere 4 atleti dello stesso sesso o, da nuovo regolamento, 2 per ciascun sesso solo nei misti (mixed relays).
+Le staffette sono un tipo di gara particolare nei quali possono competere 4 atleti dello stesso sesso
+da nuovo regolamento, possono competere 2 atleti per ciascun sesso solo nei misti (mixed relays).
 Le staffette possono essere  4x100 o 4x200 stile libero e 4x100 misti (o misti misti).
-Nei misti a staffetta l’ordine è differente: dorso, rrana, farfalla, stile libero.
+Nei misti a staffetta l’ordine è il seguente: dorso, rana, farfalla, stile libero.
 Regolamento tecnico e le modifiche sostanziali dal passato.
 Molto sono le modifiche apportate al regolamento.
 Col passare del tempo, infatti, gli stili si sono sempre più definiti e migliorati.
 Le modifiche più sostanziali identificabili sono queste.
-Modifica della nuotata a stile libero, prima utilizzata la tecnica “trudgen” ora si utilizza la tecnica “craw”.
-Regolamentazione della partenza, prima era possibile fare tutta la vasca in apnea, ora invece sino ad un massimo di 15m (e non oltre) prima di dover riemergere.
-Regolamentazione della gambata a farfalla, prima era analoga alla gambata a rana (poichè da quest’ultima deriva), ora invece è necessario effettuare un movimento che parte dal bacino, con le gambe unite e simmetriche, muovendole dal basso verso l’alto e viceversa.
-Regolamentazione del blocco di partenza, prima era liscio o, comunque, primo di “sostegni”, ora è presente una “aletta” che permette di effettuare una partenza più veloce (usando la tecnica “track start”).
-Regolamentazione della partenza sul dorso, prima, come per gli altri stili, non era presente alcun supporto, ora è possibile avere una leva che viene posizionata sotto la superficie dell’acqua e spessa pochi centimetri, e permette di non scivolare nella partenza a dorso.
+Modifica della nuotata a stile libero
+prima era utilizzata la tecnica “trudgen” ora si utilizza la tecnica “crawl”.
+Regolamentazione della partenza
+prima era possibile fare tutta la vasca in apnea
+ora invece sino ad un massimo di 15m (e non oltre) prima di dover riemergere.
+Regolamentazione della gambata a farfalla
+prima era analoga alla gambata a rana (poichè da quest’ultima deriva)
+ora invece è necessario effettuare un movimento che parte dal bacino, con le gambe unite e simmetriche
+muovendole dal basso verso l’alto e viceversa.
+Regolamentazione del blocco di partenza
+prima era liscio o, comunque, primo di “sostegni”
+ora è presente una “aletta” che permette di effettuare una partenza più veloce
+usando la tecnica “track start”.
+Regolamentazione della partenza sul dorso
+prima, come per gli altri stili, non era presente alcun supporto
+ora è possibile avere una leva che viene posizionata sotto la superficie dell’acqua e spessa pochi centimetri
+permette di non scivolare nella partenza a dorso.
 Ora è concesso di effettuare gare con 2 atleti per ciascun sesso.
 Denominati “mixed relay” o “misti misti” in italiano.
 Il GUG è il gruppo ufficiali di gara, che è un organo tecnico della FIN.
 Tutela e verifica che il regolamento emanato dalla FIN sia rispettato.
-La giuria, necessario per poter tenere una manifestazione natatoria (gara, competizione, …) è formata da differenti figure.
-Giudice arbitro: è quello che ha “maggiore” importanza (per grandi manifestazioni minimo 2, uno per ciascun sesso)
-Giudici di partenza: è obbligatorio almeno un giudice per ogni corsia, nelle manifestazioni di maggior rilievo ve ne sono 2
-Giudici addetti ai concorrenti: dà informazioni ai concorrenti, dicendo loro la corsia in cui devono gareggiare
-Giudici di virata: deve essere presente un giudice ad ogni sponda della corsia (muro partenza e muro opposto alla partenza). Nelle grandi manifestazioni sono presenti 2 giudici di virate per ogni sponda di ciascuna corsia
-Giudici di stile: importante poichè verifica la correttezza di ciascuno stile
-Giudici di arrivo: si trovano all’arrivo e controllano il tempo degli atleti e verificano che la piastra (omega) abbia registrato il tempo correttamente
-Segretario di giuria: necessario per effettuare reclami o contestazioni durante la manifestazione
-Speaker: (può non appartenere al GUG)
-È molto importante specificare che è riconoscibile qualunque giudice poichè indossa obbligatoriamente una maglia bianco, un pantalone bianco e delle scarpe bianche. Infatti gli unici giudici ad avere una maglia differente sono il giudice arbitro, maglia azzurra, ed il giudice di stile, maglia rossa.
+La giuria, necessaria per poter tenere una manifestazione natatoria (gara, competizione, …)
+è formata da differenti figure.
+Il giudice arbitro è quello che ha “maggiore” importanza
+per grandi manifestazioni minimo 2, uno per ciascun sesso
+Il giudice di partenza è obbligatorio
+almeno un giudice per ogni corsia
+nelle manifestazioni di maggior rilievo ve ne sono 2
+I giudici addetti ai concorrenti danno informazioni ai concorrenti
+dicendo loro la corsia in cui devono gareggiare
+I giudici di virata devono essere presenti su entrambe le estremità della corsia
+muro di partenza e muro opposto alla partenza.
+Nelle grandi manifestazioni sono presenti 2 giudici di virate per ogni estremità di ciascuna corsia
+I giudici di stile sono importanti poichè verificano la correttezza di ciascuno stile
+I giudici di arrivo si trovano all’arrivo e controllano il tempo degli atleti
+verificano che la piastra omega abbia registrato il tempo correttamente
+Il segretario di giuria è necessario per effettuare reclami o contestazioni durante la manifestazione
+Lo speaker può non appartenere al GUG
+È molto importante specificare che è riconoscibile qualunque giudice
+I giudici di nuoto indossano obbligatoriamente una maglia bianca, un pantalone bianco e delle scarpe bianche.
+Infatti gli unici giudici ad avere una maglia differente sono i giudici arbitro con maglia azzurra
+il giudice di stile con la maglia rossa.
 Noti nuotatori e nuotatrici e caratteristiche di ciascuno
-Nel tempo il nuoto ha avuto enormi commutazioni, quindi non avrebbe gran senso analizzare nuotatori molto remoti, poichè il nuoto stesso era differente.
-Per i motivi di cui sopra verranno analizzati nuotatori attuali:
-Adam Peaty – Rana – Inglese: Sicuramente il più forte ed il miglior ranista di tutti i tempi.
+Nel tempo il nuoto ha avuto enormi commutazioni
+quindi non avrebbe gran senso analizzare nuotatori molto remoti
+poichè il nuoto stesso era differente.
+Per i motivi di cui sopra verranno analizzati alcuni nuotatori attuali.
+Adam Peaty è un nuotatore inglese ranista fortissimo
+è sicuramente il più forte e il miglior ranista di tutti i tempi.
 Detiene i record mondiali sui 50m e 100m.
 La sua specializzazione è, appunto, la rana a breve distanza.
 È stato il primo ranista a scendere sotto il minuto nei 100m.
-Gregorio Paltrinieri – Stile libero - Italiano: Probabilmente uno dei più noti nuotatori italiani, è specializzato nello stile libero in vasca corta.
+Gregorio Paltrinieri è un nuotatore italiano
+è probabilmente uno dei più noti nuotatori italiani
+è specializzato nello stile libero in vasca corta.
 Detiene il record mondiale sui 1500m stile libero.
-Michael Phelps – Farfalla – Americano: Uno dei più celebri delfinisti.
-Era specializzato nello stile libero, nei misti, ma specialmente nella farfalla dove detiene i record mondiali sui 100m e 200m farfalla.
+Michael Phelps era specializzato nella farfalla
+è uno dei più celebri delfinisti.
+Era specializzato nello stile libero, nei misti, ma specialmente nella farfalla
+Detiene ancora i record mondiali sui 100m e 200m farfalla.
 Si è ritirato nel 2016.
-Liam Tancock – Dorso – Inglese: Pochi sono i dorsisti famosi, Liam è uno di questi.
+Liam Tancock è un inglese specializzato nel dorso
+Pochi sono i dorsisti famosi, Liam è uno di questi.
 Detiene il record mondiale sui 50m a dorso.
-Katie Ledecky – Stile libero – Americana: Una delle stile liberista più forti, infatti detiene i record mondiali nei 400m, 800m e 1500m a stile libero.
-Federica Pellegrini – Stile libero - Italiana: Probabilmente la più apprezzata e conosciuta italiana nel nuoto.
+Katie Ledecky è specializzata nello stile libero
+è un'americana
+è una delle stile liberista più forti e detiene i record mondiali nei 400m, 800m e 1500m a stile libero.
+Federica Pellegrini specializzata nello stile libero
+è un'italiana
+è probabilmente la più apprezzata e conosciuta nuotatrice italiana.
 Si differenzia dalla precedente in quanto la Pellegrini è velocista mentre la Ledecky è fondista.
 Detiene il record mondiale nei 200m stile libero.
 Tom Daley – Inglese: Uno dei più famosi e giovani tuffatori.
 specializzato nei 10m piattaforma e 3m trampolino
 Specializzazioni del nuoto
-Il nuoto comprende un vastissimo gruppo di sport a sè stanti, quali sono essere il nuoto sincronizzato, la pallanuoto, i tuffi (da piattaforma o da trampolino).
-Nel gergo comune per nuoto si intendono, comunque, i 4 stili canonici con le relative tecniche, per cui esistono 4 specializzazioni di nuotatori.
-“Stile liberista”: Specializzato nello stile libero, quindi raggiunge i massimi e migliori risultati (per lo più dei tempi) in quest’ultimo stile
-“Dorsista”: Specializzato nel dorso
-“Ranista”: Specializzato nella rana
-“Delfinista”: Specializzato nella farfalla
-Particolare attenzione bisogna dedicarla ai ranisti, i quali non potranno raggiungere mai risultati soddisfacenti nei rimanenti tre stili.
-Infatti, la rana è definito uno stile “atipico” proprio perchè è l’unico stile che, come descritto precedentemente, ha una propulsione delle gambe del ben 70-80% (e più) rispetto al 20-30% degli altri stili.
-Ed infatti la maggior parte delle volte uno stile liberista sostiene gare anche a dorso ed a farfalla, così come un dorsista le sostiene a stile libero e farfalla ed un delfinista le sostiene a stile libero e a dorso.
-Tutti e tre questi tipi di nuotatori, comunque, non sostengono mai gare a rana.
-Si può affermare, in conclusione, che il nuoto non è solo sapere fare le quattro nuotate ufficiali, ma è il saper stare in acqua (come la “cultura dell’acqua” afferma).
-Il nuoto è uno sport molto importante, anche sin da bambini, poichè il neonato nasce da uno stato di immersione in un liquido che ricorda l’acqua, quindi è un processo naturale.
-è possibile anche affermare, infatti, che più tardi si inizia a praticare nuoto e più difficile sarà imparare a stare in acqua.
-Questo è dovuto principalmente alle differenze sostanziali con la terra, quindi col mondo fuori dall’acqua.
-Un esempio eclatante potrebbe essere la semplice respirazione che avviene in maniera opposta.
-In acqua, Ispirazione: Bocca, Espirazione: Naso.
-alle volte insieme alla bocca.
-Fuori dall’acqua, Ispirazione: Naso, Espirazione: Bocca
-Terminando è possibile anche affermare che il nuoto è certamente importante poichè la stessa superficie terrestre è circa il 70% costituita da acqua.
+Il nuoto comprende un vastissimo gruppo di sport a sè stanti
+quali possono essere il nuoto sincronizzato, la pallanuoto, i tuffi
+da piattaforma o da trampolino.
+Nel gergo comune per nuoto si intendono, comunque, i 4 stili canonici con le relative tecniche
+per cui esistono 4 specializzazioni di nuotatori.
+“Stile liberista”: Specializzato nello stile libero.
+raggiunge i massimi e migliori risultati in quest’ultimo stile.
+per lo più dei tempi.
+“Dorsista”: Specializzato nel dorso.
+“Ranista”: Specializzato nella rana.
+“Delfinista”: Specializzato nella farfalla.
+Particolare attenzione bisogna dedicarla ai ranisti.
+essi non potranno raggiungere mai risultati soddisfacenti nei rimanenti tre stili.
+La rana è definito uno stile “atipico”.
+perchè è l’unico stile che ha una propulsione delle gambe del ben 70-80%.
+rispetto al 20-30% degli altri stili.
+come descritto precedentemente.
+Ed infatti la maggior parte delle volte uno stile liberista sostiene gare anche a dorso ed a farfalla.
+così come un dorsista le sostiene a stile libero e farfalla.
+un delfinista le sostiene a stile libero e a dorso.
+Tutti e tre questi tipi di nuotatori.
+non sostengono mai gare a rana.
+Ciò si può affermare in conclusione.
+il nuoto non è solo sapere fare le quattro nuotate ufficiali, ma è il saper stare in acqua.
+come la cultura dell’acqua afferma.
+Il nuoto è uno sport molto importante, anche sin da bambini.
+Poichè il neonato nasce da uno stato di immersione in un liquido che ricorda l’acqua.
+è un processo naturale.
+è possibile anche affermarlo
+più tardi si inizia a praticare nuoto e più difficile sarà imparare a stare in acqua.
+Questo è dovuto principalmente alle differenze sostanziali con la terra.
+Quindi col mondo fuori dall’acqua.
+Un esempio eclatante potrebbe essere la semplice respirazione.
+Avviene in maniera opposta.
+In acqua l'ispirazione è con la bocca.
+Espirazione con il naso.
+Alle volte insieme alla bocca.
+Fuori dall’acqua
+Ispirazione col naso
+Espirazione colla bocca
+Terminando è possibile anche affermare che il nuoto è certamente importante.
+Poichè la stessa superficie terrestre è circa per il 70% costituita da acqua.
