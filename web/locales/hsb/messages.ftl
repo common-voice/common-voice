@@ -102,6 +102,7 @@ faq = HUP
 content-license-text = Wobsah je k dispoziciji pod <licenseLink>licencu Creative Commons</licenseLink>
 share-title = Pomhajće nam, dalšich namakać, kotřiž swój hłós daruja!
 share-text = Pomhajće mašinam wučić, kak ludźo rěča, darće swój hłós na { $link }
+link-copied = Wotkaz kopěrowany
 back-top = Wróćo horje
 contribution-banner-text = Smy runje nowu móžnosć za sobudźěło startowali
 contribution-banner-button = Rozhladajće so
@@ -348,13 +349,7 @@ review-tooltip = Tu móžeće klipy přepruwować a znowa natočić
 unable-speak = Njemóžeće runje rěčeć?
 review-instruction = Klipy přepruwować a znowa natočić, jeli trěbne
 record-submit-tooltip = { $actionType } wotpósłać, hdyž sće hotowy
-clips-submitted =
-    { $count ->
-        [one] { $count } natočenje wotpósłane
-        [two] { $count } natočeni wotpósłanej
-        [few] { $count } natočenja wotpósłane
-       *[other] { $count } natočenjow wotpósłane
-    }
+clips-uploaded = Natočenja nahrate
 record-abort-title = Chceće natočenje najprjedy dokónčić?
 record-abort-text = Jeli nětko přetorhnjeće, so waš postup zhubi
 record-abort-submit = Natočenja wotpósłać
