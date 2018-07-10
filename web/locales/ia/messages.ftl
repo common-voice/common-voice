@@ -131,10 +131,14 @@ edit-profile = Rediger le profilo
 profile-create = Crear un profilo
 profile-create-success = Profilo create con successo
 profile-close = Clauder
+profile-clear-modal = Clarar tu datos de profilo significa que iste informationes demographic non sera plus inviate a Common Voice con le registrationes de tu clip.
+profile-explanation = Mantene tracia de tu progresso con un profilo e adjuta nostre datos de voce a ser plus accurate.
 
 ## FAQ
 
 faq-title = Questiones frequente
+faq-what-q = Que es Common Voice?
+faq-what-a = Le technologia de recognition del voce poterea revolutionar le maniera que nos interage con le machinas, ma le systemas actualmente disponibile es costose e proprietari.
 faq-important-q = Perque es isto importante?
 
 ## Profile
