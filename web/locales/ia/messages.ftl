@@ -66,6 +66,7 @@ wall-of-text-start = Le voce es natural, voce es human. Ecce perque nos es fasci
 wall-of-text-more-mobile = Le major parte del datos usate per le grande companias non es disponibile al majoritate del personas. Nos pensa que suffoca le innovation. Assi nos ha lanceate le projecto Commun Voce, un projecto pro adjutar a render le recognition del voce aperte pro omnes.
 show-wall-of-text = Lege plus
 help-us-title = Adjuta nos a validar le phrases!
+no-clips-to-validate = Il pare que il non ha ulle retalios video a ascoltar in iste lingua. Adjuta nos ora a registrar alco.
 vote-yes = Si
 vote-no = No
 
