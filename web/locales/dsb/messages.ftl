@@ -102,6 +102,7 @@ faq = CEP
 content-license-text = Wopśimjeśe jo k dispoziciji pód <licenseLink>licencu Creative Commons</licenseLink>
 share-title = Pomagajśo nam, dalšne namakaś, kótarež swój głos dawaju!
 share-text = Pomagajśo mašinam wucyś, kak luźe powědaju, dajśo swój głos na { $link }
+link-copied = Wótkaz kopěrowany
 back-top = Slědk górjej
 contribution-banner-text = Smy rowno startowali nowu móžnosć za sobuźěło
 contribution-banner-button = Rozglědajśo se
@@ -348,13 +349,7 @@ review-tooltip = How móžośo klipy pśeglědowaś a znowego nagraś
 unable-speak = Njamóžośo rowno powědaś?
 review-instruction = Klipy pśeglědowaś a znowego nagraś, jolic trěbne
 record-submit-tooltip = { $actionType } wótpósłaś, gaž sćo gótowy
-clips-submitted =
-    { $count ->
-        [one] { $count } nagraśe wótpósłane
-        [two] { $count } nagraśi wótpósłanej
-        [few] { $count } nagraśa wótpósłane
-       *[other] { $count } nagraśow wótpósłane
-    }
+clips-uploaded = Klipy nagrate
 record-abort-title = Cośo nagraśe nejpjerwjej dokóńcyś?
 record-abort-text = Jolic něnto pśetergnjośo, se waš póstup zgubijo
 record-abort-submit = Klipy wótpósłaś
