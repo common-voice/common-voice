@@ -101,6 +101,7 @@ faq = Pogosta vprašanja
 content-license-text = Vsebina je na voljo pod <licenseLink>licenco Creative Commons</licenseLink>
 share-title = Pomagajte nam poiskati druge, ki bi prispevali svoj glas!
 share-text = Pomagaj stroje naučiti, kako govorijo resnični ljudje. Prispevaj svoj glas na { $link }
+link-copied = Povezava kopirana
 back-top = Nazaj na vrh
 contribution-banner-text = Pravkar smo omogočili novo izkušnjo sodelovanja
 contribution-banner-button = Razglejte se
@@ -349,13 +350,7 @@ review-tooltip = Tukaj lahko pregledate posnetke in jih ponovno posnamete.
 unable-speak = Ali trenutno ne morete govoriti?
 review-instruction = Če je potrebno, lahko posnetke pregledate in ponovno posnamete
 record-submit-tooltip = { $actionType } Pošlji, ko ste pripravljeni
-clips-submitted =
-    { $count ->
-        [one] { $count } posnetek poslan
-        [two] { $count } posnetka poslana
-        [few] { $count } posnetki poslani
-       *[other] { $count } posnetkov poslanih
-    }
+clips-uploaded = Posnetki naloženi
 record-abort-title = Želite najprej končati s snemanjem?
 record-abort-text = Ob izhodu boste izgubili svoj napredek.
 record-abort-submit = Pošlji posnetke
