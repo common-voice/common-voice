@@ -130,9 +130,13 @@ request-language-button = Holh kan hal
 
 status-title = Kan tuah mi dihlak: kan tuah mi zoh ve!
 status-contribute = Na Aw rak chia
+status-hours =
+    { $hours ->
+       *[other] Tuun cang mi suimilam zat { $hours }
+    }
 # Variables:
 # $goal - number of hours representing the next goal
-status-goal = Tinh mi:
+status-goal = Tinh mi:{ $goal }
 english = Mirang
 
 ## ProfileForm
@@ -242,6 +246,7 @@ download-helpus = Holhphun kip in computer a ngah khawh nak ding kan bawm, email
 download-form-email =
     .label = Na email ttial
     .value = Kan i lawm, kan in hngalhter lai.
+download-no = Tuah hlah
 
 ## Contact Modal
 
@@ -256,7 +261,7 @@ contact-required = *aherh
 
 request-language-title = Holh phun halnak
 request-language-form-language =
-    .label = Holh
+    .label = Holh-phun
 request-language-success-title = Holh phun halnak a kuat cang, ka lawm.
 request-language-success-content = Na holh zei tiin dah Common Voice ah na chiah ve lai ti kan in chimh tthan te lai. 
 
@@ -300,4 +305,5 @@ listen-instruction = { $actionType }<playIcon></playIcon>Hman tein biatlang an r
 listen-again-instruction = A ttha tuk! <playIcon></playIcon> naa manh in ngai tthan
 listen-3rd-time-instruction = 2 na tuah cang, i zuam!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Dongh nak!
+record-button-label = Na aw tuun
 share-title-new = <bold> Kan bawm </bold> Aw tampiin kawl
