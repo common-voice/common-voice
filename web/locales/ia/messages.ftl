@@ -71,12 +71,18 @@ help-us-explain = Pulsa reproducer, ascolta & conta nos: lege illes accuratement
 no-clips-to-validate = Il pare que il non ha ulle retalios video a ascoltar in iste lingua. Adjuta nos ora a registrar alco.
 vote-yes = Si
 vote-no = No
+toggle-play-tooltip = Pulsa { shortcut-play-toggle } pro mutar modo de reproduction
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
 
 ## Speak Shortcuts
 
