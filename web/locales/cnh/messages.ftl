@@ -200,7 +200,9 @@ data-download-button = Common Voice thilri hi dawnlok
 data-download-yes = Asi
 data-download-deny = Asi lo
 data-download-license = Laisen:<licenseLink>CC-0</licenseLink>
+data-download-modal = Atu dawnlok na timh mi hi <size>{ $size }GB</size> asi, tuah ko?
 data-other-goto = { $name } hin kal
+data-other-librispeech-description = LIbriSpeech cu suimilam thongkhat (1000) chung 16Khz tluk in cauk relmi LibriVox ah lak mi chiahnak a si. 
 data-other-ted-name = TED-LIUM Corpus
 license = Laisen:<licenseLink>{ $license }</licenseLink>
 license-mixed = Fawnh
@@ -208,6 +210,7 @@ license-mixed = Fawnh
 ## Record Page
 
 record-platform-not-supported = Kan ngai thiam, na tuahnak hi a ngah lo.
+record-platform-not-supported-desktop = Athar cem chuahmi inn computer in dawnlok khawh asi:
 record-platform-not-supported-ios = <bold>iOS</bold> manlo in dawnlok khawh asi:
 record-must-allow-microphone = Aw tunak na ngahter a hau
 record-retry = Tuah tthan
