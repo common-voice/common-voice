@@ -102,6 +102,7 @@ faq = Często zadawane pytania
 content-license-text = Treść dostępna na warunkach <licenseLink>licencji Creative Commons</licenseLink>
 share-title = Zachęć innych do nagrania swojego głosu!
 share-text = Pomóż nauczyć komputery, jak mówią prawdziwi ludzie — wspomóż swoim głosem na { $link }
+link-copied = Skopiowano odnośnik
 back-top = Powrót na górę
 contribution-banner-text = Właśnie włączyliśmy interfejs nowego uczestnika
 contribution-banner-button = Wypróbuj
@@ -341,12 +342,7 @@ review-tooltip = Weryfikuj i ponownie nagrywaj w czasie pracy
 unable-speak = Nie można teraz wymówić zdania
 review-instruction = Weryfikuj i ponownie nagrywaj w razie potrzeby
 record-submit-tooltip = { $actionType } „Wyślij” po ukończeniu
-clips-submitted =
-    { $count ->
-        [one] Wysłano { $count } nagranie!
-        [few] Wysłano { $count } nagrania!
-       *[other] Wysłano { $count } nagrań!
-    }
+clips-uploaded = Wysłano nagrania
 record-abort-title = Najpierw dokończyć nagrywanie?
 record-abort-text = Wyjście teraz oznacza utratę postępów
 record-abort-submit = Wyślij nagrania
