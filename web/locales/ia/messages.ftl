@@ -93,6 +93,14 @@ request-language-button = Propone un lingua
 
 status-title = Stato general del projecto: vide quanto longe nos ha arrivate!
 status-contribute = Contribue tu voce
+status-hours =
+    { $hours ->
+        [one] Un hora validate intertanto!
+       *[other] { $hours } horas validate intertanto!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Proxime goal: { $goal }
 english = anglese
 
 ## ProfileForm
@@ -117,6 +125,9 @@ male = Viro
 female = Femina
 # Gender
 other = Altero
+why-profile-title = Perque un profilo?
+why-profile-text = Per fornir alcun informationes circa te mesme, le audio datos tu invia pro Commun Voce essera plus utile pro motores de recognition de voce que usa iste datos pro meliorar lor precision.
+edit-profile = Rediger le profilo
 profile-create = Crear un profilo
 profile-create-success = Profilo create con successo
 profile-close = Clauder
