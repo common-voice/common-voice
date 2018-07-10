@@ -91,6 +91,8 @@ request-language-button = Propone un lingua
 
 ## ProjectStatus
 
+status-title = Stato general del projecto: vide quanto longe nos ha arrivate!
+status-contribute = Contribue tu voce
 english = anglese
 
 ## ProfileForm
