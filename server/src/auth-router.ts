@@ -47,8 +47,8 @@ passport.deserializeUser((sessionUser: any, done: Function) =>
   done(null, sessionUser)
 );
 
+console.log('auth0', { DOMAIN, CLIENT_ID, CLIENT_SECRET });
 if (DOMAIN) {
-  console.log('auth0', { DOMAIN, CLIENT_ID, CLIENT_SECRET });
   const strategy = new Auth0Strategy(
     {
       domain: DOMAIN,
