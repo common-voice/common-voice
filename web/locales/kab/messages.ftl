@@ -46,7 +46,7 @@ hu = Tahungaṛit
 ia = Tutlayt tagraɣlant
 id = Tandunizit
 is = Taṣlandit
-it = Taṭeyanit
+it = Taṭelyanit
 ja = Tajapunit
 ka = Tajyuṛjit
 kab = Taqbaylit
@@ -102,6 +102,7 @@ faq = Isteqsiyen FAQ
 content-license-text = Agbur yella ddaw n <licenseLink>Creative Commons license</licenseLink>
 share-title = Ɛawen-aɣ i wakken ad d-naf imdanen-nniḍen ara d-yefken taɣect-nsen!
 share-text = Ɛawen timacicin ad ttmeslayent am yimdanen, efk-d taɣect-ik { $link }
+link-copied = Aseɣwen yettwanɣel
 back-top = Uɣal d asawen
 contribution-banner-text = Tura kan i nesker yiwen umahil n uttekki amaynut 
 contribution-banner-button = Walli ugar
@@ -344,11 +345,7 @@ review-tooltip = Cegger & ales asekles dagi ticki teddiḍ
 unable-speak = Ur izmir ara ad yemmeslay akka tura
 review-instruction = Cegger & ales asekles ma tesriḍ
 record-submit-tooltip = { $actionType } azen ticki theggaḍ
-clips-submitted =
-    { $count ->
-        [one] { $count } n tukkist tettwazen!
-       *[other] { $count } n tukkisin ttwaznent!
-    }
+clips-uploaded = Tuṭṭfiwin ulint
 record-abort-title = Ad tafkeḍ asekles di tazwara?
 record-abort-text = Ma teffɣeḍ ad tesruḥeḍ ayen teskelseḍ
 record-abort-submit = Azen tukkisin
