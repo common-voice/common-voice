@@ -138,7 +138,7 @@ profile-explanation = Mantene tracia de tu progresso con un profilo e adjuta nos
 
 faq-title = Questiones frequente
 faq-what-q = Que es Common Voice?
-faq-what-a = Le technologia de recognition del voce poterea revolutionar le maniera que nos interage con le machinas, ma le systemas actualmente disponibile es costose e proprietari.
+faq-what-a = Le technologia de recognition del voce poterea revolutionar le maniera que nos interage con le machinas, ma le systemas actualmente disponibile es costose e proprietari. Commun Voce es un projecto pro render le technologia de recognition del voce facilemente accessibile a omnes. Le personas dona lor voces a un massive base de datos que lassara quicunque rapidemente e facilemente maestrar applicationes activate per le voce. Tote le datos de voce essera disponibile al disveloppatores.
 faq-important-q = Perque es isto importante?
 
 ## Profile
