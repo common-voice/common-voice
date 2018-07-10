@@ -365,4 +365,5 @@ listen-instruction = { $actionType } <playIcon></playIcon> ali je bil stavek pra
 listen-again-instruction = Odlično opravljeno!<playIcon></playIcon> Poslušajte znova, ko boste pripravljeni.
 listen-3rd-time-instruction = Samo še 2, kar tako naprej! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Še zadnji!
+record-button-label = Posnemite svoj glas
 share-title-new = <bold>Pomagajte nam</bold> najti več glasov
