@@ -54,10 +54,14 @@ content-license-text = Contento disponibile sub <licenseLink>licentia Creative C
 share-title = Adjuta nos a trovar alteres pro donar lor voce!
 share-text = Adjuta a inseniar al machinas como parla le personas real, dona tu voce al { $link }
 back-top = Receder al initio
-contribution-banner-text = Adjuta a reportar defectos
+contribution-banner-text = Nos ha a pena lanceate un nove experientia de contribution
+contribution-banner-button = Da un reguardo
+report-bugs-link = Adjuta a reportar defectos
 
 ## Home Page
 
+home-title = Le projecto Common Voice es un initiativa de Mozilla pro adjutar a inseniar al machinas como parla le personas real.
+home-cta = Parla, contribue ora!
 show-wall-of-text = Lege plus
 help-us-title = Adjuta nos a validar le phrases!
 vote-yes = Si
