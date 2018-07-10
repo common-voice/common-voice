@@ -15,9 +15,16 @@ loading = Тиенет...
 
 ## Languages
 
+an = Араконла
+ar = Арапла
+as = Ассамла
+ast = Астурла
+az = Азербайджанла
 bn = Бенгалла
 br = Бретонла
+bxr = Буратла
 ca = Каталанла
+cnh = Гаха Чинла
 cs = Чехла
 cv = Чӑвашла
 cy = Валлий
@@ -27,13 +34,17 @@ el = Грекла
 en = Акӑлчанла
 es = Испанла
 et = Эстонла
+fi = Финнла
 fr = Французла
 fy-NL = Фризла
 ga-IE = Ирландла
 he = Иврит
 hu = Венгрла
+ia = Интерлингва
 id = Индонез
+is = Исландла
 it = Итальянла
+ja = Японла
 ka = Грузинла
 kab = Кабил
 ko = Корейла
@@ -48,6 +59,7 @@ pl = Полякла
 pt-BR = Португалла (Бразили)
 ro = Румынла
 ru = Вырӑсла
+sah = Сахала
 sk = Словакла
 sl = Словенла
 sq = Албанла
@@ -61,6 +73,7 @@ tt = Тутарла
 uk = Украинла
 uz = Узбекла
 zh-CN = Китайла (Китай)
+zh-HK = Китайла (Гонг Конг)
 zh-TW = Китайла (Тайвань)
 
 # [/]
@@ -303,3 +316,23 @@ record-three-more-instruction = Виҫҫеччен шутласа!
 record-again-instruction = Питӗ лайӑх! <recordIcon></recordIcon> Тепӗр клип ҫырар
 record-again-instruction2 = Малалла, тата ҫырӑр <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon>Юлашки!
+review-tooltip = Тӗрӗслӗр & ҫӗнӗрен ҫырӑр клипсене
+unable-speak = Хальлӗхе калаҫма хатӗр-и?
+review-instruction = Тӗрӗслӗр & ҫӗнӗрен ҫырӑр клипсене кирлӗ тӗк
+record-submit-tooltip = { $actionType } пусӑр пӗтерсессӗн
+clips-submitted =
+    { $count ->
+        [one] { $count } клип ярӑннӑ!
+       *[other] { $count } клип ярӑннӑ!
+    }
+record-abort-title = Малтан ҫырӑва пӗтеретре?
+record-abort-text = Халӗ чарӑнсассӑн эсир пӗтӗм прогреса ҫухататӑр
+record-abort-submit = Клипсене яр
+record-abort-continue = Ҫырӑва пӗтерӗр
+record-abort-delete = Тух та клипсене катарт
+listen-instruction = { $actionType }<playIcon></playIcon> тӗрӗс предложенине каларӗ-и?
+listen-again-instruction = Питӗ лайӑх!<playIcon></playIcon> Тепре итлӗр хатӗр пулсассӑн
+listen-3rd-time-instruction = Иккӗ хатӗр, малалла! <playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Юлашки!
+record-button-label = Санӑн сасуна ҫырӑв
+share-title-new = <bold>Пулӑшӑр пире</bold> нумайрах сасӑ тупма
