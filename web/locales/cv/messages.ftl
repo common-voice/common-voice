@@ -3,8 +3,10 @@
 yes-receive-emails = Паллах, эл. пуштӑ килтер. Манӑн Common Voice Project аталанни пирки пӗлес килет.
 stayintouch = Эпир Mozilla'ра чӗлхе технологисем тӑрӑх ушкӑн пухатпӑр. Эпир эсир ҫенӗ хыпарсене, ҫӗнӗ даннӑйсем источникӗсене пӗлсе тӑрассинче кӗлетпӗр, татах та нумайрах ҫак даннӑйсене эсир мӗнле усӑ курассине пӗлесшӗн.
 privacy-info = Эпир сирӗн информацине асӑрханулӑхпа туса кӑларассине сунатпӑр. Нумайрах пирӗн <privacyLink>приватность политикинче</privacyLink>.
+return-to-cv = Каялла Common Voice патне
 email-input =
     .label = Эл. пуштӑ
+submit-form-action = Яр
 loading = Тиенет...
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -79,6 +81,8 @@ cookies = Кукисем
 faq = Ыйту-хурав
 content-license-text = Кунти материалсене <licenseLink>Creative Commons licence</licenseLink> лицензипе усӑ курма пулать
 share-title = Сассине парнелекен, ҫырса илекен ҫынсене тупма пулӑш! 
+share-text = Машинсене чӑн ҫынсен сассисене ӑнлайнма пулӑшар, хӑвӑран сассӑра парнелӗр { $link }
+back-top = Ҫӳлелле хӑпар
 
 ## Home Page
 
@@ -96,15 +100,20 @@ help-us-explain = Пусса калаттар, аялти пуплерӗш (пр
 no-clips-to-validate = Ҫак чӗлхен нимле клипта ҫук иккен. Пулӑшӑр пире ҫак чӗрете тултарма, халех ҫырса.
 vote-yes = Ҫапла
 vote-no = Ҫук
+toggle-play-tooltip = Янӑраттару режимне ылмаштарас тесен { shortcut-play-toggle } пусӑр
 
 ## Speak & Listen Shortcuts
 
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = Янраттар/Чар
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = Ҫыр/Чарӑн
+request-language-text = Хальлӗхе хӑвӑрӑн чӗлхӗре Common Voice хушшинче курмастӑр?
+request-language-button = Чӗлхене ярса пама ыйт
 
 ## ProjectStatus
 
@@ -122,6 +131,8 @@ english = Акӑлчанла
 
 ## ProfileForm
 
+profile-form-cancel = Формӑна хуп
+profile-form-delete = Профиле катерт
 profile-form-username =
     .label = Ят
 profile-form-language =
@@ -132,21 +143,49 @@ profile-form-age =
     .label = Миҫе ҫулта
 profile-form-gender =
     .label = Арлӑх
+profile-form-submit-save = Çырса хур
+profile-keep-data = Упра даннӑйсене
+profile-delete-data = Даннӑйсене катерт
+male = Арҫынла
+female = Хӗрарӑмла
+# Gender
+other = Урӑх
+why-profile-title = Мӗн тума кирлӗ профиль?
+why-profile-text = Хӑвар ҫинчен кӑшт информаци парсассӑн эсир Common Voice-а  каякан аудио даннӑйсем тӑватӑр, вӗсем вӗсене хӑйсен тӗрӗслӗхне аванлатас тӗллевпе усӑ курӗҫ.
+edit-profile = Профиле тӳрлет
+profile-create = Профиле ту
+profile-create-success = Анӑслӑ, профиль тӑвӑннӑ!
+profile-close = Хуп
+profile-clear-modal = Профиль катертни демографи инофрмацийӗ урӑх Common Voice сирӗн ҫырӑвсемпе каймасть тенине пӗлтереть.
+profile-explanation = Профильте хӑвӑрӑн аталанӑвӑра йӗрлӗр тата пирӗн сассӑмӑра лайӑхрах тума пулӑшӑр.
 
 ## FAQ
 
 faq-title = Ыйту-хурав
 faq-what-q = Мӗн вӑл «Common Voice» ?
+faq-what-a = Сасӑ уйӑрас технологи машинӑпа сирӗн ҫыхӑнассине ылмаштарӗ, анчах та хальхи уҫҫисем хупӑ е хаклӑ. Сommon Voice  проект сасӑ уйӑрас технологине кашни ҫын валли уҫӑ тӑвас тӗлӗшпе тунӑ. Ҫынсем хӑйсен сассисене питӗ пысӑк даннӑйсен базине яраҫҫӗ, ҫак кашни ҫынна ҫӑмӑллӑн та хӑвӑрт хӑйсен  программисене сасӑ уйӑрассине вӗрентме пулӑшӗ. Пӗтӗм сасӑ ҫырӑвӗсем разработчиксем валли уҫӑ пулӗҫ.
 faq-important-q = Вӑл мӗнпе кирлӗ?
+faq-important-a = Сас натураллӑ, сас харпӑр. Вӑл ҫыхӑну ҫӑмӑл та пӗртен-пер средстви пулать. Эпир разработчиксем тӗлӗнмелле инструментсем тӑвассине, чӑн вӑхӑтри куҫӑруҫӑсенчен пуҫласа сас административлӑ пулӑшӑвҫӑсем таран, курасшӑн. Анчах та хале капла приложенисем тӑвас тӗлевпе кирлӗ чӳхлӗ ӳҫӑ даннӑйсем ҫуккӑ. Эпир Common Voice разработчиксене инновацисем валли веҫех мен кирлине парасса кӗтетпӗр.
 faq-get-q = «Common Voice» пӗлӗмсене мӗнле тиемелле?
+faq-get-a = Даннӑйсен пухӑвӗ пирӗн <downloadLink>уҫлас страници </downloadLink>ҫинче <licenseLink>CC-0</licenseLink> лицензипе усӑ курма юрӑхлӑ.
 faq-mission-q = «Common Voice» мӗншӗн «Mozilla»-н ӗҫ-пуҫӗн пӗр пайӗ?
+faq-mission-a = Mozilla'на Интернета кашни ҫын валли ӳҫӑ тавас тӗллевпе тунӑ. Ҫакӑн валли пирӗн Common Voice. пек разработчискен проекчӗсене пулӑшмалла.  Сасӑ технологийӗсем тӗп приложенийӗсенчен тухассине пула эпир вӗсем пӗтӗм усӑ куракана юрӑхлӑ пулӗҫ тесе ӗненетпӗр. Нумайрах чӗлхе, акцент тата демографи даннӑйсем пирӗн технологисене  тунӑ тата тӗрӗслев хушӑмра  хушмалла тенине ӑнланатпӑр. Mozilla сыва та чӗрӗ Интернет курасшӑн. Ку пирӗн енчен ҫӗнӗ разработчиксем валли сасӑ даннӑйсем патне доступ парассине вӗсем ҫӗнӗ тата экстраординарлӑ проектсем тума пултарччӗр тенине пӗлтерет. Common Voice Mozilla командине тата пӗтӗм тӗнчерен разработчиксене  пулӑшакан халӑх ресурсӗ пулӗ.
 faq-native-q = { $lang } манӑн тӑван чӗлхе мар, акцентпа калаҫатӑп, ара манӑн сасӑ кирлех-и?
 faq-native-a = Паллах, санӑн сассу та кирлӗ! "Халӑх сассин" (Common Voice) тӗллевӗсен пӗри - тӗрлӗ-тӗрлӗ акцентсене пуҫтарасси. Ҫавна май компьютерсем <bold>пурне те</bold> ӑнланма вӗренӗҫ.
 faq-firefox-q = «Халӑх сасси» (Common Voice) урлӑ пуплеве уяни Firefox-ӑн пайӗ пулӗ-и?
+faq-firefox-a = Common Voice вӗҫсӗр потенциаллӑ, эпир чӑнах та хамӑр продуктсенче сасӑ интферфейсӗсене усӑ курассине сӑнатпӑр, вӗсем хушшинче Firefox та.
+faq-quality-q = Ҫыру валли менле сас пахалӑхӗ кирле?
+faq-quality-a = Сасӑ пахалӑхе пире чӑн пахалӑхӗпе кирле, ҫак сасса сасран текста куҫаракан механизм илтӗ. Ҫавӑнпа та пире терлӗ йышши кирлӗ. Ҫакӑ калаҫӑва урӑхлаттаракан механизма ҫын сассине тӗрлӗ сассем кушшинче - урӑх калаҫусем, машинсен , вентиляторсен сассисен хушшинче тӗрӗс ӑнланма пулӑшӗ.
+faq-hours-q = 10.000 сехет мӗншӗн кирлӗ?
+faq-hours-a = Ку STT системине вӗренме кирли примерла сехет хисепӗ.
+faq-source-q = Ҫырса илни текст ӑҫтан килет?
+faq-source-a1 = Преложенисене эпир пулӑшӑвҫӑсен сӗнӳсенчен тата уса курма юрӑхлӑ фильм сценарисенчи диалогсенчен илетпӗр.
+faq-source-a2 = <dataLink>Ку «GitHub» папкинче</dataLink> ҫырса илни предложенисене тупайатӑн.
 
 ## Profile
 
 profile-why-title = Мӗншӗн профиль кирлӗ?
+profile-why-content = Хӑвар ҫинчен кӑшт информаци парсассӑн эсир Common Voice-а  каякан аудио даннӑйсем тӑватӑр, вӗсем вӗсене хӑйсен тӗрӗслӗхне аванлатас тӗллевпе усӑ курӗҫ.
 
 ## NotFound
 
@@ -159,12 +198,22 @@ data-download-button = «Common Voice» пӗлӗмне тиесе антар
 data-download-yes = Ҫапла
 data-download-deny = Ҫук
 data-download-license = Лицензи: <licenseLink>CC-0</licenseLink>
+data-download-modal = Эсир <size>{ $size } ГБ</size> уҫласа илесшӗн, малалла?
+data-subtitle = Эпир уҫӑ та кашни валли усӑ курма юрӑхлӑ сасӑ даннӑйӗсен пуххине кашни ҫын хайӗн программине вӗрентес тӗллевпе усӑ курма пултартӑр тесе тӑватпӑр.
+data-explanatory-text = Эпир пысӑк та пурин валли те уҫӑ сасӑ даннӑйӗсен пуххи машина-вӗрентес саса уйӑрасси технологинче инновацисемпе сывӑ коммерци конкуренцине стимулласине ӗненетпӗр. Ҫакӑ вӑл глбалла инициативӑ, эпир пӗтӗммине кунта хутшӑнма чӗнетпӗр. Пирӗн тӗллев - сасӑ технологисене пӗтӗм енлӗ усӑ курма юрӑхлӑ тата тӗнчери тӗрлӗрен сасӑсене уйӑрассине тӑвасси. 
 data-get-started = <speechBlogLink>Калаҫӑва уянипе ӗҫлеме пуҫла</speechBlogLink>
 data-other-title = Ытти сасӑ пухмӑшӗсем
 data-other-goto = { $name } ҫине куҫ
 data-other-download = Пӗлӗме (даннӑйсене) тие
+data-other-librispeech-description = LibriSpeech пӗр 1000 сехет 16кГц LibriVox проекчӗн аудиокӗнекисенчен илнӗ акӑлчан калаҫӳ ҫырӑвӗсенчен тӑрать.
 data-other-ted-name = «TED-LIUM» корпусӗ
+data-other-ted-description = «TED-LIUM» корпусӗ  TED сайчӗн аудио калаҫӑвӗсенчен тата вӗсен транскрипцисенчен тӑвӑнна.
+data-other-voxforge-description = VoxForge транскрибла уҫӑ уйӑрас механизмӗсем чӗлхе усӑ курмаллӑх валли тӑвӑннӑ.
+data-other-tatoeba-description = «Tatoeba» чӗлхе вӗрӗнме пирки предложенисем, куҫарусемпе аудиопа пысӑк пӗрӗме базӗ.
+data-bundle-button = Дата пуххи коллекцине тие
+data-bundle-description = Леш дата пуххисемпе «Common Voice» дачӗ
 license = Лицензи: <licenseLink>{ $license }</licenseLink>
+license-mixed = Хутӑш
 
 ## Record Page
 
@@ -172,6 +221,7 @@ record-platform-not-supported = Шел, санӑн платформа ҫинче
 record-platform-not-supported-desktop = Компьютер валли ҫӗннине тиеме май пур:
 record-platform-not-supported-ios = <bold>iOS</bold> усӑҫӗсем пирӗн тӳлевсĕр хушӑм тиейеҫҫӗ:
 record-must-allow-microphone = Санӑн микрофонпа усӑ курма ирӗк пар-ха.
+record-retry = Тепре
 record-no-mic-found = Микрофон тупӑнман.
 record-error-too-short = Шел, ҫырса илни ытлашши кӗске пулчӗ.
 record-error-too-long = Шел, ҫырса илни ытлашши вӑрӑм пулчӗ.
@@ -179,6 +229,7 @@ record-error-too-quiet = Шел, ҫырса илни шӑпрах пулчӗ.
 record-submit-success = Пулчӗ! Ҫырса илнине упрарӑмӑр. Атя, тата ҫырса илер-и?
 record-help = Ҫырса илмешкӗн пус та ҫӳлти пуплерӗше (предложенине) янравлӑн вуласа пар.
 record-cancel = Ҫӗнӗрен ҫырса илессине пӑрахӑҫла
+review-terms = Common Voice усӑ курсассӑн эсир пирӗн <termsLink>усӑ курас условийӗсемпе</termsLink> тата <privacyLink>привотность политикипе</privacyLink> килӗшетӗр
 terms-agree = Эпӗ килӗшетӗп
 terms-disagree = Эпӗ килӗшместӗп
 review-aborted = Тиессине пӑрахӑҫланӑ. Санӑн ҫырса илнисене катертес-и?
@@ -187,12 +238,17 @@ review-submit-msg = Ҫырса илнӗшӗн тавах!<lineBreak></lineBreak>
 review-recording = Тӗрӗсле
 review-rerecord = Ҫӗнӗрен ҫырса ил
 review-cancel = Ҫырса илнине тиеме пӑрахӑҫла
+review-keep-recordings = Манӑн ҫырусене упра
+review-delete-recordings = Манӑн ҫырусене картла
 
 ## Download Modal
 
+download-title = «Common Voice» пӗлем пуххисем 
+download-helpus = Пире чӗлхе технологисмепе  ушкӑн тума пулӑшӑр, пирӗнпе электронлӑ пуштӑпа ҫыхӑнма пултаратӑр.
 download-form-email =
     .label = Эл. пуштӑ
     .value = Тавах, сана çырӑмӑр.
+download-back = Каялла Common Voice даннӑйсен пуххисем патне
 download-no = Ҫук
 
 ## Contact Modal
@@ -209,12 +265,41 @@ contact-required = * кирлӗ
 request-language-title = Чӗлхене ярса пама ыйт
 request-language-form-language =
     .label = Чӗлхе
+request-language-success-title = Чӗлхе хушасси ыйтӑвӗ ӑнӑҫӳллӑ ярӑннӑ, тавтапуҫ.
+request-language-success-content = Эпир сирӗнпе ҫывӑх вӑхӑтра ҫыхӑнӑпӑр, мӗнле Common Voice хушшине ҫӗнӗ чӗлхе хушассине пӗлтерме.
 
 ## Languages Overview
 
+language-section-in-progress = Тӑвӑнать
+language-section-in-progress-description = Ҫак вӑхӑтра чӗлхесем пирӗн ушкӑнсем валли тӑвӑнаҫӗ; вӗсен прогрессӗ локализаци этапӗпе вебсайт суйлӑвӗнче курӑнать.
+language-section-launched = Ярӑннӑ
+language-section-launched-description = Ҫак янӑ чӗлхесем валли вебсайт ӑнӑҫлӑ локализациленнӗ та кирлӗ чӳхле предложенисем пухӑннӑ <italic>{ speak }</italic> тата <italic>{ listen }</italic> хушас юрӑхлине.
 languages-show-more = Нумайрах кур
 languages-show-less = Сахалрах кур
+language-speakers = Калаҫакансем
+language-meter-in-progress = Прогресс
+language-total-progress = Пӗтӗмӗшле
+language-search-input =
+    .placeholder = Шырав
 
 ## New Contribution
 
+action-click = Пус
+action-tap = Лекӗн
+contribute = Хуш
+listen = Итле
+skip = Сиктер
+shortcuts = Клавиша пӗрлешӗвӗсем
 clips = Клипсем
+contribute-more =
+    { $count ->
+        [one] Тата { $count } тума хатӗр-и?
+       *[other] Тата { $count } тума хатӗр-и?
+    }
+record-cta = Ҫырӑва пуҫла
+record-instruction = { $actionType } <recordIcon></recordIcon>, кайран вара предложенинен саспа вулӑр.
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> пӗтерсессӗн.
+record-three-more-instruction = Виҫҫеччен шутласа!
+record-again-instruction = Питӗ лайӑх! <recordIcon></recordIcon> Тепӗр клип ҫырар
+record-again-instruction2 = Малалла, тата ҫырӑр <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon>Юлашки!
