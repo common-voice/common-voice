@@ -1070,7 +1070,9 @@ Hanno un lungo becco e delle zampe molto lunghe.
 Durante la covata, la femmina, viene murata dentro un buco di un albero, nel frattempo il maschio deve cibarla.
 La femmina perde il piumaggio, dopo la nascita dei piccoli, quando finalmente rompe il muro.
 Sono uccelli tuffatori con un lungo collo, lungo becco e grandi ali.
-La loro caratteristica è che non hanno la ghiandola dell’uropigio, in quanto secerne un olio necessario per l’impearbilità delle piume, per questo devono stare tanto tempo al sole per asciugarsi le ali.
+La loro caratteristica è che non hanno la ghiandola dell’uropigio
+in quanto secerne un olio necessario per l’impermeabilità delle piume
+per questo devono stare tanto tempo al sole per asciugarsi le ali.
 I Cormorani entrano in acqua solo per pescare.
 Le ali vengono usate parzialmente anche sott’acqua, particolarmente per dirigersi e per frenare.
 I Cormorani sono per lo più gregari e nidificano in colonie sulle coste rocciose, sugli scogli ed anche sugli alberi.
@@ -4558,8 +4560,11 @@ Certo ero stato un uomo misteriosissimo: non un amico, non una lettera, mai, da 
 Non sapendo che fare, sperando di distrarmi un po' da tante costernazioni, portai questi due morti a spasso per Pisa.
 Oh, fu una piacevolissima passeggiata!
 Adriano Meis, che c'era stato, voleva quasi quasi far da guida e da cicerone a Mattia Pascal;
-ma questi oppresso da tante cose che andava rivolgendo in mente, si scrollava con fosche maniere, scuoteva un braccio come per levarsi di torno quell'ombra esosa, capelluta, in abito lungo, col cappellaccio a larghe tese e con gli occhiali.
+ma questi oppresso da tante cose che andava rivolgendo in mente
+capelluta, in abito lungo, col cappellaccio a larghe tese e con gli occhiali.
 Pietro era sempre socialista, ma andava meno con gli operai.
+si scrollava con fosche maniere
+scuoteva un braccio come per levarsi di torno quell'ombra esosa
 Si vergognava d'aver già vent'anni, e d'essere così a dietro degli studii: questa cosa l'avviliva.
 Presa a Firenze una camera in Via Cimabue, mangiava a una trattoria, lì vicina.
 Stava lunghe ore con la testa tra le mani, immaginandosi di studiare;
@@ -4577,14 +4582,23 @@ Quando le bambine arrivavano all'angolo più vicino, sorrideva amaramente, spera
 Ma non se ne accorgevano né meno;
 e, allora, s'infastidiva anche di loro.
 Della città, invece, non sentiva né meno il rumore;
-perché la cinta, perpendicolare al muro della casa, era lunga e andava a finire a un fabbricato così grande che gli tappava quasi tutta la Piazza Beccaria;
-e, di qua e di là, altre case, quantunque più basse, quasi in semicerchio, chiudevano ogni cosa.
+perché la cinta, perpendicolare al muro della casa, era lunga
+andava a finire a un fabbricato così grande che gli tappava quasi tutta la Piazza Beccaria;
+e, di qua e di là, altre case, quantunque più basse
+quasi in semicerchio, chiudevano ogni cosa.
 Si trovava sempre a disagio: ed era come una cosa che non riusciva a spiegarsi.
 Non si affidava agli amici, e ne sentiva la mancanza.
 Si annoiava di tutto;
-e la cupola di Santa Maria del Fiore, velata quasi sempre di nebbia in fondo a Via dei Servi, che egli vedeva prima di rientrare a scuola, quando andava a prendere cinque minuti di sole in Piazza dell'Annunziata, gli dava uno scoraggiamento languido, che ingrandiva se qualche campana suonava.
+e la cupola di Santa Maria del Fiore
+velata quasi sempre di nebbia in fondo a Via dei Servi
+egli la vedeva prima di rientrare a scuola
+quando andava a prendere cinque minuti di sole in Piazza dell'Annunziata
+gli dava uno scoraggiamento languido
+che ingrandiva se qualche campana suonava.
 Attilia era già morta.
-Non so perché, quando l’ho saputo a mezze scale, avendolo domandato a una donnetta che scendeva piangendo, mi son domandato se non dovessi tornare a dietro.
+Non so perché mi son domandato se non dovessi tornare a dietro.
+quando l’ho saputo a mezze scale
+avendolo domandato a una donnetta che scendeva piangendo
 Quelli della sua famiglia non mi conoscevano e non sapevano nulla.
 Mi pareva che Attilia mi volesse far paura e che io non la dovessi vedere;
 e anche non mi pareva vero che fosse morta.
@@ -4641,7 +4655,10 @@ Naturalmente: il cloroformio lo aveva aspirato davvero.
 Non troppo, però.
 Il batuffolo di cotone era scivolato sul cuscino.
 Ma le era stato poi davvero applicato contro le narici?
-Il naso sottile vibrava e lei contraeva le labbra e guardava con gli occhi socchiusi, in modo strano, intenso, grazioso e un poco ironico il commissario, che le si teneva ritto davanti.
+Il naso sottile vibrava e lei contraeva le labbra
+guardava con gli occhi socchiusi
+in modo strano, intenso, grazioso e un poco ironico
+il commissario, le si teneva ritto davanti.
 “Sono nata a Ferrara.
 Come mai vi trovate a Milano?
 Per diporto?
@@ -4661,17 +4678,29 @@ E perché, poi?
 Lo avevano già ammazzato con una rivoltellata.
 e non c’era nessun bisogno di macellarlo.
 Dico che quello lassú è morto per un colpo di rivoltella alla nuca.
-un colpo dato con mano sicura, sparato quasi a bruciapelo.
-E, se le interessa, le dirò che chi l’ha ammazzato s’è preoccupato di non far rumore, perché aveva avvoltolato un fazzoletto o qualcosa di simile attorno alla canna della rivoltella.
+Un colpo dato con mano sicura, sparato quasi a bruciapelo.
+E, se le interessa, le dirò che chi l’ha ammazzato
+s’è preoccupato di non far rumore
+perché aveva avvoltolato un fazzoletto o qualcosa di simile attorno alla canna della rivoltella.
 Ho trovato un lembo di tela nella ferita.
 Cosicché, quando gli hanno aperto il ventre era già morto?
 Impossibile dirlo prima dell’autopsia;
 ma la logica risolve il problema.
-Aveva la faccia bianca, coperta di uno strato di cipria spessa, e gli occhi bistrati di violaceo si scavavano, neri e brillanti, in mezzo a quel biancore di tomba.
+Aveva la faccia bianca
+gli occhi bistrati di violaceo si scavavano, neri e brillanti
+coperta di uno strato di cipria spessa
+in mezzo a quel biancore di tomba.
 Il cranio raso appariva anch’esso giallastro.
-Ma era di cartapecora: una specie di calotta aderente, fermata alla fronte col mastice e poi coperta di cerone.
-L’ultimo tocco d’orrore a quel cristiano, resosi bestia da notte di tregenda apocalittica, lo dava il carminio acceso delle labbra, distese in una specie di ghigno pauroso sopra una dentatura bianca e brillante, aguzza come quella d’un caimano.
-Anche Sani, anche l’albergatore – che non aveva mai dovuto vedere il suo inquilino ridotto a quel modo – erano rimasti senza parola, fulminati da quella apparizione di incubo.
+Ma era di cartapecora
+una specie di calotta aderente
+fermata alla fronte col mastice e poi coperta di cerone.
+L’ultimo tocco d’orrore a quel cristiano
+resosi bestia da notte di tregenda apocalittica
+lo dava il carminio acceso delle labbra
+distese in una specie di ghigno pauroso sopra una dentatura bianca e brillante
+aguzza come quella d’un caimano.
+Anche Sani e l’albergatore erano rimasti senza parola, fulminati da quella apparizione di incubo.
+non aveva mai dovuto vedere il suo inquilino ridotto a quel modo
 “Proprio come al teatro,” esclamò Cruni.
 “Ma che diavolo faceva.
 De Vincenzi riuscí a ritrovare il raziocinio.
@@ -4689,7 +4718,9 @@ A malincuore, gli agenti risalirono nel buio.
 Va’ su, Sani, e comincia a far vestire e a raccogliere nei corridoi tutti coloro che trovi nelle camere.
 Li porteremo quanti sono a San Fedele.
 Fino all’ultimo, perché voglio avere l’albergo completamente vuoto, per poterlo visitare da cima a fondo.
-Mentre Sani saliva, De Vincenzi andò al telefono, dentro allo sgabuzzino, e pregò il commissario di notturna di mandargli due camion.
+Mentre Sani saliva, De Vincenzi andò al telefono
+dentro allo sgabuzzino
+pregò il commissario di notturna di mandargli due camion.
 “Hai fatto una retata, eh!
 Si sentí per la strada il grido acuto d’una sirena e l’autolettiga apparve davanti alla porta dell’albergo.
 “Dov’è il defunto?
@@ -4767,7 +4798,9 @@ Certo, doveva essersi sbagliato, perché ecco che di nuovo sorrideva.
 Ma neppure per sogno.
 Una constatazione, se mai.
 Io sono fatto cosí.
-Il che non m’impedisce di avere un cuor tenero, che si commuove se vedo un uccellino sotto la neve o un inglese privo di cibo da tre ore.
+Il che non m’impedisce di avere un cuor tenero
+il mio cuore si commuove se vedo un uccellino sotto la neve
+il mio cuore si commuove se vedo un inglese privo di cibo da tre ore.
 Metto al calduccio la bestiolina e invito il gentleman a prendere un tè.
 Ed è per questo, vedete, commissario, che mi sarebbe stato assolutamente impossibile.
 fisicamente impossibile di aprire il ventre a quel vostro.
@@ -4776,14 +4809,21 @@ Chi vi ha detto che era.
 Non lo era?
 Già!
 Forse, non lo era.
-Tutto il bagaglio di John Vehrehan consisteva, come lui stesso aveva detto, in due valige, se valige si potevano chiamare quelle due specie di cassette rettangolari, nere e rigide, di cuoio duro.
+Tutto il bagaglio di John Vehrehan consisteva, come lui stesso aveva detto, in due valige
+se valige si potevano chiamare quelle due specie di cassette rettangolari, nere e rigide, di cuoio duro.
 Anche queste le visiteremo in Questura.
 Falle portare nel mio ufficio.
 La sua attenzione fu subito attratta dal cassettone.
-Sul piano di esso, di legno duro, tutto macchie e bruciacchiature di sigaro e di sigarette, si vedevano nettamente sette colature giallastre di cera.
-A distanza eguale, quelle tracce davano netta l’impressione di sette candele accese, che avessero colato in quel punto tutte insieme, per un tempo eguale, tanto le gocce eran cadute regolari e formavano sette chiazze di quasi identica larghezza.
+Sul piano di esso, di legno duro, tutto macchie e bruciacchiature di sigaro e di sigarette
+si vedevano nettamente sette colature giallastre di cera.
+A distanza eguale, quelle tracce davano netta l’impressione di sette candele accese
+che avessero colato in quel punto tutte insieme
+per un tempo eguale
+tanto le gocce eran cadute regolari
+formavano sette chiazze di quasi identica larghezza.
 De Vincenti si fermò perplesso a guardarle.
-Perché mai l’acrobata aveva sentito il bisogno di accendere candele in una stanza illuminata a luce elettrica e perché proprio le candele erano sette?
+Perché mai l’acrobata aveva sentito il bisogno di accendere candele in una stanza illuminata a luce elettrica?
+perché le candele erano proprio sette?
 Hai una lama.
 un coltello.
 qualcosa che serva?
@@ -4792,7 +4832,9 @@ L’ho tolto a un pregiudicato, stasera, quando ho perquisito le camere.
 Il commissario sorrise.
 A ogni modo.
 per quanto grande, non è con questo che è stato squarciato il ventre del tedesco.
-Con delicatezza, cercando di sollevarle dal legno tutte intere, tolse le sette gocciolature consistenti e le mise in un pezzo di giornale, che aveva in tasca.
+Con delicatezza tolse le sette gocciolature consistenti
+le mise in un pezzo di giornale, che aveva in tasca.
+cercando di sollevarle dal legno tutte intere
 Dammi il gesso.
 Segnò in bianco il contorno delle chiazze, che si vedevano ancora nettamente sul piano scuro.
 Si direbbe che le candele fossero in un candelabro.
@@ -4803,10 +4845,15 @@ Chiuse la porta a chiave e si mise la chiave in tasca.
 Visitò per ultima, e proprio per una precauzione che riteneva superflua, la camera del morto.
 Che cosa poteva trovarvi, che non fosse stato veduto da Kruger e da Bargelli?
 E trovò, invece, qualcosa di molto interessante, che era sfuggito ai due esperti del Gabinetto di Polizia Scientifica.
-Ad ogni modo, una cosa era certa: quelle fotografie non erano state fatte in Olanda e quella coppia non doveva essere olandese.
-In fondo al cartoncino delle tre fotografie, per quanto sbiaditi e corrosi, si leggevano ancora i caratteri impressi in oro col nome del fotografo.
+Ad ogni modo, una cosa era certa
+quelle fotografie non erano state fatte in Olanda
+quella coppia non doveva essere olandese.
+In fondo al cartoncino delle tre fotografie
+per quanto sbiaditi e corrosi
+si leggevano ancora i caratteri impressi in oro col nome del fotografo.
 E il nome era inglese e lo seguiva l’indicazione: London.
-De Vincenzi, senza esitare, mise le tre fotografie nel suo portafogli, e lasciò cadere la busta di pelle in fondo alla valigia.
+De Vincenzi, senza esitare, mise le tre fotografie nel suo portafogli
+lasciò cadere la busta di pelle in fondo alla valigia.
 Sani lo guardava.
 Rimetti tutto in ordine, possibilmente com’era.
 Non avrà tempo adesso di cercare le fotografie, e non si accorgerà subito che le ho prese.
@@ -4830,7 +4877,9 @@ Portava l’impermeabile chiaro e il berretto.
 Ha fatto lentamente il corridoio e s’è fermato alla porta dell’ascensore.
 Io mi sono precipitato per le scale e l’ho ripreso nella hall.
 che stava già sulla porta dell’albergo.
-Tutti quei particolari, dati con voce sempre piú affannata, facevano trepidare De Vincenzi, che temeva essi fossero forniti per ritardare il piú possibile qualche annunzio spiacevole.
+Tutti quei particolari facevano trepidare De Vincenzi
+egli temeva che essi fossero forniti per ritardare il piú possibile qualche annunzio spiacevole.
+dati con voce sempre piú affannata
 “Va’ avanti!
 È salito su un taxi e ha mormorato qualche parola al conducente.
 Il taxi è partito di carriera.
@@ -4858,7 +4907,9 @@ Andiamo dal Questore.
 Quando si trovò davanti al suo Capo, De Vincenzi vide subito che vento tirava.
 Il Questore aveva il volto chiuso, lo sguardo diritto e penetrante.
 Era il volto degli avvenimenti gravi.
-E anche un poco la cravatta gli stava di traverso e alla bottoniera della giacca mancava il fiore, dimenticato sopra il tavolo.
+E anche un poco la cravatta gli stava di traverso
+alla bottoniera della giacca mancava il fiore
+dimenticato sopra il tavolo.
 De Vincenzi, il morto dello Specchio d’Oro era una spia.
 Lo so, commendatore.
 Quello che non sapete, però, è che.
@@ -4901,7 +4952,9 @@ De Vincenzi si alzò, d’impulso.
 Fece un passo verso l’uscio.
 Se fosse fuggito?
 Sorrise a se stesso.
-Il Plaza era completamente isolato: un blocco enorme, altissimo, sette piani, circondato ai quattro lati da tappeti verdi, da aiuole e poi dal muro con l’inferriata a lance dorate.
+Il Plaza era completamente isolato
+un blocco enorme, altissimo, sette piani, circondato ai quattro lati da tappeti verdi, da aiuole
+poi dal muro con l’inferriata a lance dorate.
 Uscire da una di quelle finestre era impossibile.
 Tornò a sedere.
 L’attesa fu lunga.
@@ -4909,8 +4962,11 @@ Forse mezz’ora.
 Forse un’ora.
 Quando finalmente la porta del bagno si aprí, guardò l’orologio: erano le due.
 John Vehrehan s’era messo in pigiama da notte, tutto bianco.
-Camminò lentamente verso la porta, la chiuse, senza volgere nemmeno lo sguardo di fronte a sé, verso quell’uomo così ostentatamente seduto a osservarlo.
-De Vincenzi non vide piú che il biancore di lacca dei due battenti, incorniciati dal largo fregio in rilievo, filettato d’oro, e il numero 122.
+Camminò lentamente verso la porta e la chiuse
+senza volgere nemmeno lo sguardo di fronte a sé
+verso quell’uomo così ostentatamente seduto a osservarlo.
+De Vincenzi non vide piú che il biancore di lacca dei due battenti
+incorniciati dal largo fregio in rilievo, filettato d’oro, e il numero 122.
 L’essenziale era di riprendergliela di colpo, al momento buono.
 Uscí dal centralino e fece in tempo a vedere Vehrehan tornare in sala da pranzo.
 In quel punto, entrava nella hall Cruni con la valigia.
@@ -4925,7 +4981,9 @@ Come lo sai?
 Perché non mi portate con voi?
 Povero Cruni!
 Infatti, perché non l’avrebbe condotto con sé?
-Non c’era da contare sulla sua iniziativa, ché l’intelligenza del brigadiere era limitata, ma in compenso quanto fedele e come pronto a farsi uccidere per lui e per il servizio.
+Non c’era da contare sulla sua iniziativa
+ché l’intelligenza del brigadiere era limitata
+ma in compenso quanto fedele e come pronto a farsi uccidere per lui e per il servizio.
 L’esitazione fu breve.
 “Avverti il vice-commissario che parti con me.
 Regolerò poi io il resto.
@@ -4942,15 +5000,23 @@ Lo prese e l’osservò attentamente.
 Certo, non aveva nulla di comune col candeliere d’oro a sette fiamme, che Mosè fece mettere nel Tabernacolo.
 Ma poteva servire.
 Andò alla porta e si assicurò che il corridoio fosse deserto.
-Lo attraversò rapidamente e, aperto l’uscio della camera 122, senza accender la luce, ché quella del corridoio bastava, lo andò a mettere sul cassettone, davanti al grande specchio.
+Lo attraversò rapidamente e lo andò a mettere sul cassettone, davanti al grande specchio.
+senza accender la luce
+ché quella del corridoio bastava
+aperto l’uscio della camera 122
 Richiuse la porta e tornò nella sua camera.
 Lasciò la porta aperta e spense la luce.
 Vedeva e non poteva esser visto.
 Che cosa sperava da quel tentativo?
 John Vehrehan non era uomo da tradirsi facilmente.
-Era possibile, naturalmente, che Vehrehan e May Bigland, agenti dell’Intelligence Service – quali indubbiamente erano – avessero inseguito Osman Mascali, per togliergli i sette fogli rubati.
-Era ancora possibile che essi – in ogni caso però con l’aiuto di complici capaci di uccidere nel modo in cui l’egiziano era stato ucciso – avessero anche soppresso l’uomo e si fossero impadroniti delle formule.
-Tutto questo si trovava nel campo delle ipotesi possibili e persino probabili, ma non era sufficiente a spiegare i movimenti dell’uomo ragno e quelli della ragazza, dal momento della scopetta del cadavere in poi.
+Era possibile, naturalmente, che Vehrehan e May Bigland, quali indubbiamente erano, avessero inseguito Osman Mascali
+per togliergli i sette fogli rubati.
+agenti dell’Intelligence Service
+Era ancora possibile che essi avessero anche soppresso l’uomo e si fossero impadroniti delle formule.
+in ogni caso però con l’aiuto di complici capaci di uccidere nel modo in cui l’egiziano era stato ucciso
+Tutto questo si trovava nel campo delle ipotesi possibili e persino probabili
+ma non era sufficiente a spiegare i movimenti dell’uomo ragno e quelli della ragazza
+dal momento della scopetta del cadavere in poi.
 Che cosa c’entrava il candeliere ebraico?
 Come potevano spiegarsi le sette tracce di cera, trovate tanto nella camera di John Vehrehan quanto in quella dello scannato?
 E il foglietto scritto da May Bigland, in cui si parlava di candelabro e di Tabernacolo e del furto commesso dai Romani?
@@ -4965,12 +5031,18 @@ E le orme di passi scoperte dal professore sul tetto di lavagna, davanti alla fi
 Né John Vehrehan, né la donna erano usciti da quella finestra.
 Di chi erano, allora?
 Quelle orme non fornivano, forse, proprio l’indizio capitale?
-Non erano le tracce degli assassini, i quali avevano portato con sé il candeliere e, forse, i sette fogli rubati dall’egiziano all’inventore italiano?
-Con gli occhi fissi sul giornale, De Vincenzi cercava di riassumere gli avvenimenti, di coordinarli, di metterseli dinanzi alla mente, per poterne trarre una qualche luce.
+Non erano le tracce degli assassini
+essi avevano portato con sé il candeliere
+forse i sette fogli rubati dall’egiziano all’inventore italiano
+Con gli occhi fissi sul giornale
+De Vincenzi cercava di riassumere gli avvenimenti, di coordinarli, di metterseli dinanzi alla mente
+per poterne trarre una qualche luce.
 Naturalmente, non trovava, non poteva trovare una spiegazione logica.
-Meglio era affidarsi al caso e seguire dappresso lo svolgimento ulteriore della vicenda, attendendo il momento in cui dai fatti stessi sarebbe scaturita la luce.
+Meglio era affidarsi al caso e seguire dappresso lo svolgimento ulteriore della vicenda
+attendendo il momento in cui dai fatti stessi sarebbe scaturita la luce.
 La donna fingeva sempre di leggere;
-ma ormai la sua agitazione si era fatta piú percettibile per le contrazioni del volto, pei movimenti improvvisi e infrenabili del corpo e delle mani.
+ma ormai la sua agitazione si era fatta piú percettibile per le contrazioni del volto
+pei movimenti improvvisi e infrenabili del corpo e delle mani.
 fece soavemente De Vincenzi.
 È un invito o una preghiera, la vostra?
 Vogliamo sbarazzare il terreno, prima di cominciare?
@@ -5007,14 +5079,17 @@ Se avete le prove di quanto affermate, perché non mi arrestate?
 Neppure una.
 Ma, per parlare seriamente, convincetevi anche di questo: se anche avessi le prove, non vi arresterei.
 o, per lo meno, non vi arresterei ancora.
-Aveva terminato di leggere e cominciava a preoccuparsi di non vedere discendere Vehrehan e la donna, quando May Bigland apparve nel vestibolo.
+Aveva terminato di leggere e cominciava a preoccuparsi di non vedere discendere Vehrehan e la donna
+quando May Bigland apparve nel vestibolo.
 Lo scorse subito e continuò ad avanzare verso di lui.
 Era sempre molto pallida e aveva gli occhi profondamente cerchiati.
 Tutto in lei rivelava un’ansia contenuta e spasmodica.
 De Vincenzi si alzò e le andò incontro.
 La ragazza gli fece un breve cenno col capo ed entrò in un piccolo salotto.
 Buon giorno, miss Bigland.
-May era andata a mettersi in un angolo, per togliersi dalla vista di chi fosse passato nel vestibolo e attese ch’egli le fosse vicino.
+May era andata a mettersi in un angolo
+per togliersi dalla vista di chi fosse passato nel vestibolo
+attese ch’egli le fosse vicino.
 Commissario, v’imbarcate davvero sull’Augustus?
 Naturalmente.
 Lei tacque un istante.
@@ -5034,7 +5109,9 @@ Miss Bigland, non vorreste esser franca con me?
 Forse, potrei esservi utile.
 Si era ripresa di colpo.
 Ebbene, commissario, che la fortuna vi assista!
-Fece per dirigersi alla porta e allora tanto lei che De Vincenzi videro Vehrehan, ritto sulla soglia, osservarli con quel suo sorriso sarcastico.
+Fece per dirigersi alla porta e allora tanto lei che De Vincenzi videro Vehrehan
+ritto sulla soglia
+osservarli con quel suo sorriso sarcastico.
 È ora di andare.
 Volete venire in gondola con noi, commissario?
 Vi ringrazio, Vehrehan.
@@ -5049,37 +5126,62 @@ Uno era un merci e andava lentissimo.
 De Vincenzi trasse di tasca il fonogramma e lo rilesse.
 Ore 10,30 del 24-5-1931 – A vostro fonogramma della notte.
 Ispezionata vanamente linea e ponte fino al secondo chilometro.
-Diteci se dobbiamo dragare fondo mare verso San Giuliano, poiché direttissimo 49 passa sul primo binario verso parapetto ed è possibile valigia sia stata lanciata in acqua.
+Diteci se dobbiamo dragare fondo mare verso San Giuliano
+poiché direttissimo 49 passa sul primo binario verso parapetto ed è possibile valigia sia stata lanciata in acqua.
 Mica stupido il tenente Romualdi!
 E lui non ci aveva pensato.
 Ma sicuro!
-Dopo Mestre egli era uscito dallo scompartimento nel quale si trovavano Vehrehan e miss Bigland, per dirigersi allo scompartimento dello sconosciuto.
+Dopo Mestre egli era uscito dallo scompartimento nel quale si trovavano Vehrehan e miss Bigland
+dirigersi allo scompartimento dello sconosciuto.
 I due erano rimasti soli e senza sorveglianza.
-Nulla d’impossibile che l’uomo ragno avesse approfittato di quei pochi minuti – largamente sufficienti del resto – per tornare là dove aveva lasciato le due grosse valige nere
+Nulla d’impossibile che l’uomo ragno avesse approfittato di quei pochi minuti
+largamente sufficienti del resto
+per tornare là dove aveva lasciato le due grosse valige nere
 in una delle quali poteva aver benissimo rinchiusa la piú piccola valigia panciuta
 toglierne il candelabro con la custodia
-e, portatosi in fondo al treno, per non esser veduto dai viaggiatori affacciati ai finestrini, lo avesse gettato in mare, proponendosi di andarlo a ripescare il giorno dopo.
-Certo il colpo era ardito e lui, se lo aveva tentato, doveva averlo fatto come unico rimedio al male peggiore, di vedersi sequestrare il candeliere alla stazione di Venezia.
-Il motoscafo si avvicinava al porto di Marghera, di cui si vedevano ormai distintamente le gru in movimento, le chiatte e l’andirivieni degli uomini pur di sotto ai sacchi e alle casse.
+e, portatosi in fondo al treno, per non esser veduto dai viaggiatori affacciati ai finestrini
+lo avesse gettato in mare
+proponendosi di andarlo a ripescare il giorno dopo.
+Certo il colpo era ardito e lui, se lo aveva tentato, doveva averlo fatto come unico rimedio al male peggiore
+vedersi sequestrare il candeliere alla stazione di Venezia.
+Il motoscafo si avvicinava al porto di Marghera
+si vedevano ormai distintamente le gru in movimento, le chiatte e l’andirivieni degli uomini
+pur di sotto ai sacchi e alle casse.
 Era possibile ammettere che Vehrehan avesse gettato la valigia in mare, cosí a caso, in un punto qualsiasi?
 Per quanti complici avesse avuti, gli sarebbe stato impossibile di procedere al dragaggio del fondo per recuperarla.
-È vero che l’acqua, nei pressi del ponte ferroviario non è alta ed è anche vero che in certe giornate di mare calmo e di bel tempo da una barca se ne può vedere il fondo con una certa nitidezza.
-Ma, insomma, era sempre un lavoro che richiedeva uomini e tempo e nessuno avrebbe potuto illudersi di compierlo, senza dar nell’occhio ai pescatori, che incrociano di continuo per quei paraggi.
+È vero che l’acqua, nei pressi del ponte ferroviario non è alta
+è anche vero che in certe giornate di mare calmo e di bel tempo da una barca se ne può vedere il fondo
+con una certa nitidezza.
+Ma, insomma, era sempre un lavoro che richiedeva uomini e tempo
+nessuno avrebbe potuto illudersi di compierlo
+senza dar nell’occhio ai pescatori
+che si incrociano di continuo per quei paraggi.
 I pescatori!
-La situazione, quindi, si presentò alla mente di De Vincenzi abbastanza limpida: da un lato, Vehrehan, miss Bigland, un complice ignoto, che detenevano il candeliere;
-dall’altro almeno due avversari – gli inseguitori della ragazza – che erano ben determinati a impadronirsene, prima che il piroscafo facesse scalo ad Alessandria.
+La situazione, quindi, si presentò alla mente di De Vincenzi abbastanza limpida
+da un lato, Vehrehan e miss Bigland
+un complice ignoto che deteneva il candeliere
+dall’altro almeno due avversari
+gli inseguitori della ragazza
+erano ben determinati a impadronirsene
+prima che il piroscafo facesse scalo ad Alessandria.
 E poi: l’ebreo misterioso con cui miss Bigland si era incontrata sul ponte di terza classe.
 E poi un nome: William Ellis – un morto che mi ucciderà!
 Lui aveva promesso di non pronunziare quel nome davanti a John Vehrehan.
-e qui appunto doveva essere il dramma intimo, il dramma particolare della donna, che non aderiva all’altro, se non come corollario, necessario certo, ma non determinante.
-Ora era stato appunto questo dramma accessorio – questo dramma umano – che aveva messo in movimento la macchina del cervello di De Vincenzi e che lo aveva indotto a fare il punto.
+e qui appunto doveva essere il dramma intimo
+il dramma particolare della donna, che non aderiva all’altro
+se non come corollario, necessario certo, ma non determinante.
+Ora era stato appunto questo dramma accessorio
+questo dramma umano
+aveva messo in movimento la macchina del cervello di De Vincenzi e che lo aveva indotto a fare il punto.
 L’alba sorgeva sul mare.
 Un’alba di fuoco.
 Sui ponti, fiumi d’acqua scorrevano dalle pompe per i lavaggi mattutini.
 De Vincenzi scese dal letto e cominciò a spogliarsi.
 Non aveva chiuso occhio in tutta la notte;
 ma la veglia era stata per lui decisiva.
-Aveva il suo piano, ormai, e, seppure attraverso pericoli dei quali non si nascondeva tutta la gravità, sarebbe giunto al cuore dell’enigma.
+Aveva il suo piano, ormai
+seppure attraverso pericoli dei quali non si nascondeva tutta la gravità
+sarebbe giunto al cuore dell’enigma.
 Entrò nello stanzino del bagno e si mise sotto la doccia.
 se avesse potuto sapere chi era stato William Ellis!
 non avrebbe pronunziato quel nome davanti a John Vehrehan e ad altri.
@@ -5089,8 +5191,12 @@ Il sole era già alto sull’orizzonte e il mare sembrava una smisurata lastra d
 Non aveva mai veduto un mare cosí immobile.
 Percorse lentamente i ponti e le sale.
 Pochi passeggeri dovunque, i piú mattinieri.
-Per quanto fossero già quasi le nove e stesse per risuonare il gong della prima colazione, molti degli ospiti di prima classe erano ancora nelle loro cabine, e s’incontravano per i corridoi gli steward coi vassoi carichi.
-Quasi tutti quei viaggiatori avevano l’abitudine alle traversate e soltanto verso le 11 sarebbero apparsi per stendersi sulle seggiole a sdraio o per prendere l’aperitivo al bar.
+Per quanto fossero già quasi le nove
+e stesse per risuonare il gong della prima colazione
+molti degli ospiti di prima classe erano ancora nelle loro cabine
+e s’incontravano per i corridoi gli steward coi vassoi carichi.
+Quasi tutti quei viaggiatori avevano l’abitudine alle traversate e soltanto verso le 11 sarebbero apparsi.
+per stendersi sulle seggiole a sdraio o per prendere l’aperitivo al bar.
 E che l’abbiano in cabina è sicuro, perché non si arrischierebbero a portarla in dosso.
 e non dubitano che qualcuno possa andare a cercarla proprio lí, quando quella busta dovrebbe trovarsi già al suo destino.
 Io sola so che essi l’hanno.
@@ -5099,43 +5205,62 @@ Poiché De Vincenzi aveva taciuto e miss Bigland aveva dubitato che esitasse, la
 Si era staccata da lui e, entrata nella luce lunare, si era allontanata verso prua.
 E lui l’aveva seguita da lontano.
 Non gli era sembrato prudente lasciar sola la ragazza nel pericolo, anche se lei glielo aveva chiesto.
-De Vincenzi era cosí assorto nel ricordo delle ore vissute sul piroscafo, che fino allora aveva guardato il paesaggio attorno a sé, senza rendersi conto di quel che vedeva.
+De Vincenzi era cosí assorto nel ricordo delle ore vissute sul piroscafo
+fino allora aveva guardato il paesaggio attorno a sé
+senza rendersi conto di quel che vedeva.
 Ma un parco cintato, un soldato scozzese in gonnellino a quadratoni e cosce nude, lo distolsero dalla sua meditazione.
 Che cos’era quella distesa di hangar, di cottage, di macchine e di ali, sulla riva, tra il lago e il mare?
 Fece presto a rispondere alla domanda.
 Non poteva essere che Abukir.
 Vide sulla spiaggia una breve teoria di tank tozze e nere.
-Quale era la catastrofe che, come miss Bigland gli aveva detto, essi dovevano impedire con quella loro corsa folle da Venezia ad Alessandria e ora da Alessandria a Rosetto?
+Quale era la catastrofe che, come miss Bigland gli aveva detto, essi dovevano impedire?
+quella loro corsa folle da Venezia ad Alessandria e ora da Alessandria a Rosetto
 I due misteriosi passeggeri dell’Augustus erano morti;
 ma quali altri nemici stavano per affrontare John Vehrehan e i suoi compagni?
 Lui aveva scoperto quel loro convegno di Rosetto e vi si recava, d’accordo con miss Bigland, che aveva voluto averlo accanto.
 Forse, lei temeva ancora un pericolo, che non doveva venirle soltanto dai suoi nemici.
 Abukir era passata.
 L’autista arabo guidava immobile, col volante tra le mani grasse e flaccide, guardando fisso dinanzi a sé.
-De Vincenzi scorse un villaggio di pescatori presso il lago: selva di alberi di barca, lento volo di vele rettangolari sull’acqua, strisce di verde ramarro e di rosso sangue sulle carene.
+De Vincenzi scorse un villaggio di pescatori presso il lago
+selva di alberi di barca
+lento volo di vele rettangolari sull’acqua
+strisce di verde ramarro e di rosso sangue sulle carene.
 Quanto ancora per giungere a Rosetto?
 Un’ora, mister.
 l’uomo tornò nella sua immobilità.
-Il figlio di William Ellis si volse di nuovo, fece qualche passo e scomparve alla vista del commissario, per ricomparire immediatamente con miss May Bigland.
+Il figlio di William Ellis si volse di nuovo
+fece qualche passo e scomparve alla vista del commissario
+per ricomparire immediatamente con miss May Bigland.
 La ragazza era bellissima.
-Sotto l’aureola d’oro dei capelli, alla luce gialla della lampada e delle candele, il suo volto appariva esangue e stranamente immobile.
+Sotto l’aureola d’oro dei capelli
+alla luce gialla della lampada e delle candele
+il suo volto appariva esangue e stranamente immobile.
 Vehrehan la teneva per mano.
-Lei mi ha aiutato a riconquistare il candeliere,” disse, e tutti gli uomini attorno al tavolo si agitarono, con un movimento di curiosità.
+Lei mi ha aiutato a riconquistare il candeliere, disse
+e tutti gli uomini attorno al tavolo si agitarono, con un movimento di curiosità.
 Da un anno voi credete che William Ellis sia scomparso, richiamato a sé dalla volontà del Signore.
-Ebbene, io vi dico che sono stati i suoi nemici, che lo hanno ucciso a tradimento col píú infame degli inganni e, dopo averne travestito il cadavere, lo hanno abbandonato in una cantina di Londra, perché noi ignorassimo il delitto e io, suo figlio, non potessi vendicarlo.
+Ebbene, io vi dico che sono stati i suoi nemici
+lo hanno ucciso a tradimento col píú infame degli inganni
+dopo averne travestito il cadavere, lo hanno abbandonato in una cantina di Londra
+perché noi ignorassimo il delitto e io, suo figlio, non potessi vendicarlo.
 La voce di Vehrehan tacque.
 Egli voleva evidentemente che gli uomini raccolti davanti a lui si rendessero conto delle sue parole.
 E anche calcolava gli effetti: non doveva esser quella l’unica rivelazione, che aveva da fare!
 Prosegui, John Micael Ellis.
 Informa i fratelli di tutto quanto è avvenuto e di tutto quello che sai.
 Sí, lo farò.
-L’uomo, che aveva giurato nel suo cuore di ridare la Terra di Galilea ai figli d’Israele, dopo la concessione strappata alla Potenza che ha il mandato di governare la Palestina e la Siria, quando gli ebrei sparsi per il mondo poterono recarsi ad occupare quella terra, non credette terminata la sua missione.
+L’uomo, che aveva giurato nel suo cuore di ridare la Terra di Galilea ai figli d’Israele, era lì
+dopo la concessione strappata alla Potenza che ha il mandato di governare la Palestina e la Siria
+quando gli ebrei sparsi per il mondo poterono recarsi ad occupare quella terra
+non credette terminata la sua missione.
 La Palestina era stata riconosciuta terra del popolo ebreo, ma non bastava!
 Occorreva che essa fosse realmente nostra!
 E, invece, attorno alle nostre case e ai nostri campi premeva un’orda smisurata d’infedeli che c’insidiavano.
 William Ellis sapeva che avrebbe dovuto combattere ancora e si preparava a farlo, quando venne ucciso.
 Egli sapeva che la lotta contro di noi non era cessata e quel che oggi è avvenuto.
-il tentativo ultimo di rapirci il candeliere del Tempio, per darlo nelle mani degli arabi che lo avrebbero mercanteggiato con noi, dopo averci attaccati nelle nostre case e nei nostri campi.
+il tentativo ultimo di rapirci il candeliere del Tempio
+per darlo nelle mani degli arabi che lo avrebbero mercanteggiato con noi
+dopo averci attaccati nelle nostre case e nei nostri campi.
 William Ellis lo prevedeva.
 Per questo aveva mandato me, suo figlio, in Egitto a spiare le mosse dei nostri nemici.
 Ma non essi soli avevano interesse a che la Palestina ardesse tutta, preda alle ribellioni e alle stragi.
@@ -5145,7 +5270,8 @@ Sull’orizzonte in fiamme il sole si spegneva nel mare.
 Una grande amarezza era in lui!
 Perché miss May Bigland aveva voluto farlo assistere all’epilogo tragico di quella vicenda?
 Perché aveva voluto che conoscesse il suo tradimento?
-Quand’era tornato nel suo albergo di Alessandria, aveva trovato sul tavolo della sua stanza una busta chiusa con per tutto indirizzo il numero della sua camera.
+Quand’era tornato nel suo albergo di Alessandria
+aveva trovato sul tavolo della sua stanza una busta chiusa con per tutto indirizzo il numero della sua camera.
 Dentro vi erano i sette fogli delle formule rubate all’inventore italiano.
 Null’altro.
 Ben osservava il cadavere.
@@ -5210,13 +5336,19 @@ Ma subito la sua attenzione fu attratta da Satana, che entrava leggero e flessuo
 Tese la mano verso terra, per chiamarlo a sé, e il micione gli saltò sulle ginocchia.
 Loïs guardò il gatto ed ebbe un leggero fremito di ribrezzo.
 Il portinaio entrò dalla vetrata e accese la luce del lampadario.
-Ma, se fino a quel punto aveva agito in fretta, arrivato di corsa dalle scale, adesso, quasi la luce cruda delle ventotto lampadine spioventi a corimbi gli avesse ridato la coscienza di sé, si fermò interdetto.
-La luce di quel lampadario era sufficiente e necessaria alla vastità della sala, ma era evidentemente troppa per un portiere in giacca da fatica.
+adesso, quasi la luce cruda delle ventotto lampadine spioventi a corimbi gli avesse ridato la coscienza di sé
+si fermò interdetto.
+se fino a quel punto aveva agito in fretta
+arrivato di corsa dalle scale
+La luce di quel lampadario era sufficiente e necessaria alla vastità della sala
+era evidentemente troppa per un portiere in giacca da fatica.
 Guardò le sei porte, a destra e a sinistra.
 A quale battere?
 E pensò con raccapriccio che a una di esse avrebbe battuto vanamente, perché di certo era vuota.
 Si affrettò a far girare di nuovo il commutatore e fuggì via.
-Riprese a salire per la rampa di destra – lo scalone, dopo il primo piano, si divideva in due rampe – e raggiunse il secondo piano.
+Riprese a salire per la rampa di destra
+lo scalone, dopo il primo piano, si divideva in due rampe
+raggiunse il secondo piano.
 Neppur qui si fermò;
 per una scala assai più stretta e senza tappeto, raggiunse il terzo, che era una specie di solaio.
 L'incubo delle porte lo riprese.
@@ -5247,9 +5379,17 @@ Non era nelle sue abitudini e non ne aveva la chiave.
 È troppo presto per avventurarsi in ipotesi.
 Si può pensare a tante spiegazioni!
 I Boschetti sono molto bui e deserti di notte.
-Era elegante, un po' troppo elegante anzi, da sembrare effeminato, per il pastrano eccessivamente stretto alla cintola e gli enormi pantaloni a campana.
-E aveva in testa una tuba grigia, con il nastro nero di quelle che usavano i dandies dell'Ottocento e che ancora gli Inglesi inalberano a Epsom, nelle giornate del derby.
-A completare quel suo abbigliamento eccentrico e non certo da mattina, il giovane portava guanti di camoscio color canarino e aveva al collo un fazzoletto di seta bianca.
+Era elegante da sembrare effeminato
+per il pastrano eccessivamente stretto alla cintola
+gli enormi pantaloni a campana.
+un po' troppo elegante anzi
+E aveva in testa una tuba grigia
+con il nastro nero di quelle che usavano i dandies dell'Ottocento
+ancora gli Inglesi le inalberano a Epsom
+nelle giornate del derby.
+A completare quel suo abbigliamento eccentrico e non certo da mattina
+il giovane portava guanti di camoscio color canarino
+aveva al collo un fazzoletto di seta bianca.
 In una mano un bastone di malacca col pomo rotondo d'argento.
 Il portinaio era uscito a incontrarlo e lo salutava con rispetto.
 Il giovane guardò De Vincenzi e poi i due uomini dietro di lui e aggrottò leggermente le sopracciglia.
@@ -5262,15 +5402,22 @@ Figlio di chi?
 Oscar Seminari.
 Figlio di un fratello di don Viciente.
 Abita nel palazzo?
-Aveva dovuto promettere a Loïs di non abbandonarla – il suo buon cuore gli faceva sempre di tali scherzi – e non sapeva da che parte cominciare.
+Aveva dovuto promettere a Loïs di non abbandonarla
+il suo buon cuore gli faceva sempre di tali scherzi
+e non sapeva da che parte cominciare.
 Era uscito di casa, così di furia e all'improvviso, determinato ad agire.
-Se fosse andato in questura, dal suo amico De Vincenzi, a raccontargli la storia di Loïs Burlington, avrebbe tradito un segreto professionale, senza poter chiedere un aiuto efficace per la sua cliente o per lo meno facendo proprio l'opposto di quanto lei voleva.
+Se fosse andato in questura a raccontargli la storia di Loïs Burlington
+avrebbe tradito un segreto professionale
+senza poter chiedere un aiuto efficace per la sua cliente
+o per lo meno facendo proprio l'opposto di quanto lei voleva.
+dal suo amico De Vincenzi
 E in quanto alle impronte di sangue.
 troppo vago!
 C'era da coprirsi di ridicolo, se fosse risultato che era sangue di pollo o di coniglio.
 E non poteva trattarsi di vernice o di qualche altra sudiceria qualsiasi?
 Ma no, era sangue.
-Si attaccò al palo di una lampada, perché stava per voltare da via Broletto per via Bossi e nel piegare col corpo era scivolato.
+Si attaccò al palo di una lampada, perché stava per voltare da via Broletto per via Bossi
+nel piegare col corpo era scivolato.
 Masticò una maledizione e proseguì con più cautela.
 Paolo alzò la mano per farlo tacere.
 Non discuto, io.
@@ -5280,7 +5427,8 @@ Il vecchio le diede un'occhiataccia e spinse Ben davanti a sé.
 Adesso, il giovane sembrava perfettamente calmo e camminò in fretta, tornando nella sala da pranzo e poi nel salotto.
 Sopra un divano basso, largo come un letto, Piedipiccoli e il Lottatore attendevano.
 Ben andò a sedere lontano da loro dalla parte opposta.
-La luce che veniva dalle lampade affogate nelle piccole coppe opaline del lampadario da moschea era così acquosa e livida che i volti dei tre uomini sembravano di cera.
+La luce che veniva dalle lampade affogate nelle piccole coppe opaline del lampadario da moschea
+era così acquosa e livida che i volti dei tre uomini sembravano di cera.
 Paolo Tabor non si diede la pena di richiuder la porta e si fermò in mezzo alla stanza.
 Tu lo sai dove è andata, Ben!
 Adesso la collera vibrava nella sua voce, che s'era fatta stridula.
@@ -5394,10 +5542,15 @@ Giornalisti, fotografi, imprenditori di pompe funebri, le suore, il giudice istr
 Naturalmente!
 A questo De Vincenzi non aveva ancora pensato.
 La salma di Dan giaceva nella prima camera a sinistra, con la porta sul salone di passaggio.
-Tanto dire che chiunque, introdottosi con un pretesto nel palazzo – assassino in proprio o mandatario di Paolo Tabor, ché certo Tabor non vi si sarebbe avventurato così conosciuto com'era da don Viciente – poteva aver colto il momento ed essersi infilato, non visto, nella stanza di Juan José, per mettere il veleno nella bottiglia.
+Tanto dire che chiunque, introdottosi con un pretesto nel palazzo, abbia fatto quell'operazione.
+assassino in proprio o mandatario di Paolo Tabor
+ché certo Tabor non vi si sarebbe avventurato così conosciuto com'era da don Viciente
+poteva aver colto il momento ed essersi infilato, non visto, nella stanza di Juan José
+per mettere il veleno nella bottiglia.
 Possibile, ma non probabile!
-Come avrebbe potuto, un estraneo, sapere che proprio quel giorno Juan José si sarebbe fatto portare una bottiglia di whisky in camera?
-Avrebbe dovuto avere un complice dentro la casa e allora che necessità c'era che qualcuno fosse venuto dal di fuori, quando il complice interno avrebbe potuto operare con più facilità e sicurezza?
+Come avrebbe potuto sapere che proprio quel giorno Juan José si sarebbe fatto portare una bottiglia di whisky in camera?
+Avrebbe dovuto avere un complice dentro la casa e allora che necessità c'era che qualcuno fosse venuto dal di fuori?
+quando il complice interno avrebbe potuto operare con più facilità e sicurezza
 L'ipotesi di un estraneo era da scartare a priori.
 Avete veduto se il signor Juan sia rimasto tutto il pomeriggio nella sua camera?
 Oh, non vi è rimasto di sicuro, señor commissario.
@@ -5425,16 +5578,20 @@ Era sul tappeto rosso.
 Diceva la verità il giovane?
 L'aveva realmente trovata?
 Egli odiava un po' tutti in quella casa, tranne forse la sorella.
-La sua strana follia, fra una crisi e l'altra, poteva consentirgli parentesi di lucidità tali da fargli commettere un avvelenamento così abilmente e coscientemente preparato?
+La sua strana follia, fra una crisi e l'altra, poteva consentirgli parentesi di lucidità
+tali da fargli commettere un avvelenamento così abilmente e coscientemente preparato.
 La pioggia era cessata.
 La macchina di Tabor correva oltre l'Arco del Sempione.
 Raggiunse l'autostrada, piegò a destra, inoltrandosi per la campagna.
 Ben, che la seguiva con la sua, accese i fari.
 Nessuna necessità di nascondersi.
 Ma che cosa andava a fare Paolo col Lottatore a Villa Verde?
-La casa doveva essere deserta: lui aveva veduto Walter chiuderne la porta e mettersi le chiavi in tasca e adesso Walter dormiva a casa sua.
+La casa doveva essere deserta
+lui aveva veduto Walter chiuderne la porta e mettersi le chiavi in tasca e adesso Walter dormiva a casa sua.
 È vero che Paolo aveva altre chiavi;
-ma se lui stesso aveva temuto che il luogo, dopo la scoperta del cadavere di Dan e la fuga di Loïs, potesse essere individuato e invaso dalla Polizia, che necessità di correre quel rischio, andandovi?
+ma se lui stesso aveva temuto che il luogo potesse essere individuato e invaso dalla Polizia
+che necessità di correre quel rischio andandovi?
+dopo la scoperta del cadavere di Dan e la fuga di Loïs
 Il vecchio doveva meditar qualcosa;
 ma che cosa?
 La macchina di Tabor, appena sul viale, accelerò di nuovo.
@@ -5476,8 +5633,10 @@ I due uomini si guardarono.
 Finalmente Paolo disse:  Imbecille!
 Uno di noi due lo è certamente!
 E Ben si allontanò dalla scrivania, dirigendosi alla porta.
-Seguiva un'altra sbarretta a capo linea, che indicava come l'elenco non fosse finito, che De Vincenzi si era fermato per meditare.
-La sua meditazione fu interrotta bruscamente dal commissario Valenti, che era entrato col cappello in testa e che gli si era andato a sedere davanti.
+Seguiva un'altra sbarretta a capo linea, che indicava come l'elenco non fosse finito
+De Vincenzi si era fermato per meditare.
+La sua meditazione fu interrotta bruscamente dal commissario Valenti
+era entrato col cappello in testa e che gli si era andato a sedere davanti.
 Sono fuggiti!
 Ah, sì, sei andato laggiù.
 Che hai trovato?
@@ -5536,25 +5695,41 @@ E premette il bottone del campanello, mentre De Vincenzi andava a prendersi una 
 Per qualche minuto i due uomini tacquero.
 Escamillo entrò, uscì;
 ritornò con una bottiglia di whisky e due bicchieri.
-La bottiglia portava ancora il suo turacciolo di stagno, con l'etichetta rossa tutto attorno e il sigillo di piombo argentato della fabbrica.
-Il maggiordomo la sturò davanti al tavolo, con movimenti lenti, facendo penetrare bene in fondo al tappo di sughero l'aguzza spirale del cavaturaccioli.
+La bottiglia portava ancora il suo turacciolo di stagno, con l'etichetta rossa tutto attorno
+il sigillo di piombo argentato della fabbrica.
+Il maggiordomo la sturò davanti al tavolo, con movimenti lenti
+facendo penetrare bene in fondo al tappo di sughero l'aguzza spirale del cavaturaccioli.
 I due lo guardarono, seguendo ogni sua mossa.
 Finalmente, Escamillo depose la bottiglia aperta sul vassoio e si allontanò con solennità.
 Allora soltanto don Viciente ebbe un breve riso convulso e si versò un bicchiere colmo di whisky.
 Alla vostra salute, commissario!
 Dopo un'ora che aveva lasciato palazzo Seminari varcava il cancello di Villa Verde.
 I due agenti lasciati di guardia dal commissario Valenti lo accolsero con la segreta speranza che venisse a liberarli.
-La fazione in quella villa deserta e gelida – nessun mezzo di fortuna per riscaldarsi e il termosifone spento dal giorno prima – non aveva nulla di particolarmente attraente.
+La fazione in quella villa deserta e gelida
+nessun mezzo di fortuna per riscaldarsi e il termosifone spento dal giorno prima
+non aveva nulla di particolarmente attraente.
 De Vincenzi ascoltò distrattamente il rapporto che gli fecero, totalmente privo d'interesse per lui.
-Che alla notte fosse arrivata qualche auto e che persone sole o a gruppi fossero giunte sino alla porta, per dileguarsi alla vista degli sconosciuti che si facevano loro incontro, era prevedibile, né lui raccoglieva prove per stabilire come realmente Villa Verde fosse stata una bisca.
-Era venuto a cercare qualcosa di assai meno appariscente e sicuro sui registri e tra le carte di cui gli aveva parlato Valenti.
-Salito nell'ufficio della direzione, che comprese facilmente come fosse in definitiva l'ufficio di Paolo Tabor soltanto, trovò dopo poche ricerche quanto gli occorreva e aveva supposto;
+alla notte fosse arrivata qualche auto
+persone sole o a gruppi fossero giunte sino alla porta
+per dileguarsi alla vista degli sconosciuti che si facevano loro incontro
+ciò era prevedibile
+lui non raccoglieva prove per stabilire come realmente Villa Verde fosse stata una bisca.
+Era venuto a cercare qualcosa di assai meno appariscente e sicuro sui registri
+tra le carte di cui gli aveva parlato Valenti.
+Salito nell'ufficio della direzione
+comprese facilmente come fosse in definitiva l'ufficio di Paolo Tabor
+trovò dopo poche ricerche quanto gli occorreva e aveva supposto;
 e furono due nomi e due indirizzi, che trascrisse sul margine di un giornale trattosi dalla tasca.
-Le sue facoltà chiaroveggenti gli si erano illuminate al momento in cui aveva tenuto fra le mani quelle due lettere, una delle quali era una mistificazione.
+Le sue facoltà chiaroveggenti gli si erano illuminate al momento in cui aveva tenuto fra le mani quelle due lettere
+una delle quali era una mistificazione.
 La lettera mistificatrice era servita a fargli decifrare l'altra.
-Cosicché quello che doveva essere per l'assassino un mezzo buono ad allontanare da sé i sospetti si era risolto in un errore irreparabile per lui.
+Cosicché quello che doveva essere per l'assassino un mezzo buono
+allontanare da sé i sospetti
+si era risolto in un errore irreparabile per lui.
 Tutto questo costituiva la realtà formatasi nello spirito di De Vincenzi.
-Adesso, egli aveva terrore che quella realtà non fosse tale e che egli avesse fatto avventurare don Viciente e forse altri ancora sull'orlo di un precipizio, con la certezza ch'essi fossero trattenuti da una corda!
+Adesso, egli aveva terrore che quella realtà non fosse tale e che egli avesse fatto avventurare don Viciente
+forse altri ancora sull'orlo di un precipizio
+con la certezza ch'essi fossero trattenuti da una corda!
 E questo sostegno poteva essere immaginario, inadatto a salvarli dalla caduta!
 Un sensibile presentimento di pericolo lo attanagliava.
 L'oscurità creava ombre viscide e serpeggianti attorno a lui e al vecchio.
@@ -5562,7 +5737,8 @@ Avete annunziato il vostro proposito di andare a Villa Verde questa sera?
 Un povero demonio, lui!
 E un tristo mestiere il suo: di cercatore d'anime.
 Sani si precipitò allo sportello della macchina, entrata sotto l'androne, e aiutò il vecchio Seminari a scendere.
-Don Viciente, appena a terra, respinse la mano del vicecommissario che voleva sorreggerlo e si avviò diritto, con passo fermo su per lo scalone.
+Don Viciente, appena a terra, respinse la mano del vicecommissario che voleva sorreggerlo
+si avviò diritto, con passo fermo su per lo scalone.
 Tutto è finito!
 sussurrò De Vincenzi a Sani, che lo interrogava con lo sguardo.
 Puoi ritirare gli uomini.
@@ -5584,15 +5760,18 @@ Era alcolizzato e non poteva privarsi troppo lungamente del whisky.
 Bevve subito, e la forte dose di nicotina messa nel liquido.
 tutti gli avvelenatori propinano sempre troppo veleno e mai troppo poco.
 operò immediatamente.
-Don Viciente, davanti al malore e alla morte del figlio, sospese la sua andata a Villa Verde e involontariamente mandò all'aria il piano di Oscar.
+Don Viciente sospese la sua andata a Villa Verde e involontariamente mandò all'aria il piano di Oscar.
+davanti al malore e alla morte del figlio
 Allora, questi scrisse la lettera famosa.
-Gli occorreva non far desistere suo zio dal proposito di incontrare Paolo Tabor e, non potendo immaginare che anche altri si servisse di quel mezzo per nuocere a Paolo, ricorse alla lettera di minaccia anodina, impressionante e.
-stimolante.
+Gli occorreva non far desistere suo zio dal proposito di incontrare Paolo Tabor
+non potendo immaginare che anche altri si servissero di quel mezzo per nuocere a Paolo
+ricorse alla lettera di minaccia anodina, impressionante e stimolante.
 Uscì di nascosto dal palazzo per il giardino e, recatosi a casa sua, scrisse a macchina quelle brevi tre righe e le impostò.
 Quindi tornò al palazzo, sperando che la sua rapida fuga passasse inosservata.
 Cruni, invece, lo vide arrivare dal giardino e non credette alla sua scusa del bisogno di aria.
 Così, ebbi un nuovo indizio contro di lui.
-In quel momento Paulette entrava con la zuppiera fumante e De Vincenzi concluse:  Del resto, gli indizi che un delinquente può lasciare dietro di sé.
+In quel momento Paulette entrava con la zuppiera fumante e De Vincenzi concluse ciò che aveva da dire.
+Del resto, gli indizi che un delinquente può lasciare dietro di sé sono quelli.
 gli errori che può commettere.
 valgon poco, se il Caso non aiuta l'investigatore.
 Sì, fu pelata, pare, di qualche biglietto da mille e urlò un po' forte.
@@ -5639,12 +5818,15 @@ Flaccidità primaria cioè appena appena iniziatasi la rigidità cadaverica.
 Saranno sei ore, sette al massimo, che lo hanno freddato.
 Lo faccia portare al Monumentale.
 Le farò avere il rapporto questa sera.
-De Vincenzi lo avrebbe mandato anche subito al Monumentale, gli premeva di riunire in quelle sale tutte le persone che vi si erano trovate la sera prima, ma c'era il giudice istruttore da aspettare.
+De Vincenzi lo avrebbe mandato anche subito al Monumentale
+gli premeva di riunire in quelle sale tutte le persone che vi si erano trovate la sera prima
+ma c'era il giudice istruttore da aspettare.
 Sani, manda un agente alla Procura.
 Se fosse di servizio un giudice come dico io.
 Il vice commissario si allontanò mentre entravano il professore con Kruger e Bargelli.
 Al professore si fecero gli occhi brillanti, già appena davanti al cadavere;
-ma quando vide il pugnale, non si poté trattenere dal far schioccare la lingua, che per lui era il segno della maggiore soddisfazione.
+ma quando vide il pugnale, non si poté trattenere dal far schioccare la lingua
+per lui era il segno della maggiore soddisfazione.
 Kruger, le impronte.
 Bargelli, faccia tutti i rilievi.
 Si vide passare per la porta una gran scatola nera in cima a un treppiede.
@@ -5665,20 +5847,26 @@ Naturalmente, mi vorrà tenere informato.
 Era un giovanotto simpatico.
 Rideva, scoprendo una dentatura bianca e uguale.
 Non la invidio, commissario.
-E non invidio me stesso, se lei non riesce a consegnarmi l'assassino e a raccontarmi ogni particolare di questo imbroglio, prima che la Procura debba avocare a sé l'inchiesta.
+E non invidio me stesso
+se lei non riesce a consegnarmi l'assassino e a raccontarmi ogni particolare di questo imbroglio
+prima che la Procura debba avocare a sé l'inchiesta.
 Ma ho fiducia in lei!
 E cinque giorni di tempo glieli do tutti.
 A rivederla!
 Il cancelliere lo seguì e nel voltarsi per salutare, ammiccò furbescamente.
-De Vincenzi, adesso che si era liberato da quella preoccupazione, tornò a pensare a tutti gli altri fastidi grossi, che lo attendevano.
+De Vincenzi tornò a pensare a tutti gli altri fastidi grossi, che lo attendevano.
+adesso che si era liberato da quella preoccupazione
 Hai la lista delle persone che si trovavano qui ieri notte?
 Mi ha dettato i nomi il segretario.
 Ho cercato di verificarne l'esattezza col cameriere, ma non ti garantisco che non ci siano omissioni.
 Il cameriere mi ha tutta l'aria di un imbecille, che vuol fare il furbo, e in quanto a quell'altro.
 Bargelli ha consegnato a te gli oggetti trovati nelle tasche del morto?
-Eccoli lì, e Sani indicò una seggiola su cui si vedevano un orologio, un portafogli, alcune lettere e vari altri oggetti d'uso comune.
+Eccoli lì, e Sani indicò una seggiola su cui si vedevano una persona
+un orologio e un portafogli
+alcune lettere e vari altri oggetti d'uso comune.
 Il morto fumava la pipa e teneva il tabacco in una borsa di guttaperca impermeabile, come usano i marinai.
-Sani mostrò all'infermiera di guardia nella corsia il distintivo di cuoio da funzionario di polizia, che portava nella tasca della giacca.
+Sani mostrò all'infermiera di guardia nella corsia il distintivo di cuoio da funzionario di polizia
+lo portava nella tasca della giacca.
 L'infermiera guardava in volto la grossa signora che ansava, pallida.
 Vide le macchie rosse sulle gote e diagnosticò: malattia di cuore.
 Si tratta di lei?
@@ -5704,10 +5892,15 @@ Io l'ho uccisa.
 L'infermiera si era fermata ai piedi di un letto, l'ultimo della fila di destra.
 Signora Sutton, la guardi e mi dica se è sua figlia.
 Lui non poteva certo mettere in dubbio il responso dei medici;
-eppure, ora più di prima, era convinto che le cose non fossero andate così lisce come le apparenze volevano far credere, ora più di prima sentiva di non dover lasciare quella casa.
-Giustificazioni a sé e agli altri poteva trovarne: il nome di Delia Vitelleschi non era forse compreso fra quelli delle persone che Sofia Moroni aveva denunciate come frequentatrici della casa di Vannetta Arcangeli?
+eppure, era convinto che le cose non fossero andate così lisce come le apparenze volevano far credere
+ora più di prima sentiva di non dover lasciare quella casa.
+ora più di prima
+Giustificazioni a sé e agli altri poteva trovarne
+il nome di Delia Vitelleschi non era forse compreso fra quelli delle persone che Sofia Moroni aveva denunciate?
+frequentatrici della casa di Vannetta Arcangeli
 Una sua idea repentina, che gli era balenata dopo il colloquio con Claudia Sutton;
-ma come avrebbe potuto parlare al Questore di quella sua fantastica ipotesi, che gli era germogliata all'improvviso nel cervello?
+ma come avrebbe potuto parlare al Questore di quella sua fantastica ipotesi?
+gli era germogliata all'improvviso nel cervello
 Tutto è terminato, dunque, prima ancora di cominciare e sono lieto.
 Fece una pausa: Vuol avere la cortesia di darmi i particolari del consulto tenuto dai medici?
 I particolari?
@@ -5718,11 +5911,15 @@ Alle diciotto i medici si sono riuniti nella stanza del marchese.
 Non avranno sezionato il cadavere lì dentro!
 Ma se le dico che non c'è stato alcun bisogno di autopsia?
 Il dottor Veretti avrebbe voluto far trasportare subito la salma al Monumentale;
-ma il medico legale e il professor Mariani, il grande specialista di malattie cardiache, hanno opinato che fosse opportuno visitare il cadavere accuratamente, prima di procedere a un atto di cui ognuno comprendeva la gravità.
+il medico legale e il professor Mariani
+il grande specialista di malattie cardiache
+hanno opinato che fosse opportuno visitare il cadavere accuratamente
+prima di procedere a un atto di cui ognuno comprendeva la gravità.
 La visita è stata lunga e, come può credere, esauriente.
 Hanno osservato il corpo con tutti i mezzi e tutti gli apparecchi scientifici più moderni.
 Non si è avuta discussione: la morte per embolia è apparsa lampante.
-Nessun bisogno di autopsia, nessuna necessità di martoriare un corpo la cui anima aveva raggiunto l'eternità per cause naturali.
+Nessun bisogno di autopsia
+nessuna necessità di martoriare un corpo la cui anima aveva raggiunto l'eternità per cause naturali.
 A che scopo provocare lo scandalo?
 Ed eccoci tranquilli.
 De Vincenzi ascoltava il notaio e si chiedeva da che cosa provenisse in lui una così evidente soddisfazione.
@@ -5809,14 +6006,20 @@ Osservò in giro.
 Anche qui c'era tutto.
 Chiavi d'oro, vasi, orologi, tabacchiere, portasigarette.
 Voleva far presto, naturalmente.
-Giù, sul piancito del portone giaceva il cadavere e per quanto, ormai, quel disgraziato non avesse più bisogno di nulla, lui voleva lasciarlo lì il meno possibile.
+Giù, giaceva il cadavere
+per quanto, ormai, quel disgraziato non avesse più bisogno di nulla, lui voleva lasciarlo lì il meno possibile.
+sul piancito del portone
 No, non avevano toccato nulla.
 Almeno gli pareva.
 Ma allora perché erano venuti?
 Per una ragione grave, certo;
 altrimenti non avrebbero ucciso un uomo, pur di entrare!
 Andò nella stanza da letto.
-Il raggio della lampadina colpì il letto, il comodino, le seggiole, il catino sul treppiede di ferro, il piccolo tavolo, il cassettone di quercia.
+Il raggio della lampadina colpì il letto
+il comodino e le seggiole
+il catino sul treppiede di ferro
+il piccolo tavolo
+il cassettone di quercia.
 Non credo, signore.
 Pensateci bene.
 Sì, signore.
@@ -5926,12 +6129,19 @@ Al marchese doveva piacere bere forte.
 Ma De Vincenzi s'era fermato davanti allo sportello dell'armadio.
 Era strano per lui che nella prima fila delle bottiglie, in alto, ci fosse un posto vuoto.
 Mancava una bottiglia tra quella del cognac e quella del rum.
-Poiché la seconda fila era al completo, e sul ripiano di fondo erano bicchieri e bicchierini, uno shaker d'argento, una scatola chiusa di ebano e avorio, quel vuoto appariva subito;
+Poiché la seconda fila era al completo
+sul ripiano di fondo erano bicchieri e bicchierini
+uno shaker d'argento
+una scatola chiusa di ebano e avorio
+quel vuoto appariva subito
 era illogico.
 Guardò con attenzione e allora scoprì altri due vuoti, meno visibili, ma non meno illogici.
 Anche in basso mancavano due bicchieri.
 Sentì la voce di Delia ripetere: Sono una cosa che non conta, io!
- ma era diversa, aveva un timbro più netto e soprattutto lo aveva percosso in linea diretta, mentre la donna, come l'aveva lasciata, avrebbe dovuto voltargli le spalle.
+ma era diversa
+aveva un timbro più netto
+e soprattutto lo aveva percosso in linea diretta
+mentre la donna, come l'aveva lasciata, avrebbe dovuto voltargli le spalle.
 Guardò e la vide di faccia: inginocchiata sulla poltrona coi gomiti appoggiati alla spalliera, a fissarlo.
 Si era riavuta anche dallo sfinimento.
 Aveva il ricupero delle forze facile!
@@ -5964,14 +6174,19 @@ Vuol discorrere con me tutta la notte?
 Non credo che discorrerò con lei sola tutta la notte!
 Ebbe sguardi di bestia inseguita, e si strinse nella persona, per farsi piccina.
 Che avesse paura d'un pericolo sovrastante era sicuro.
-Si era nascosto nel vano della finestra, dietro le tende pesanti, che aveva lasciate ricadere un poco aperte, sicché, dalla fessura, vedeva la camera e nella camera il letto col morto e i tendaggi del baldacchino contro la parete.
+Si era nascosto nel vano della finestra, dietro le tende pesanti
+le aveva lasciate ricadere un poco aperte
+sicché, dalla fessura, vedeva la camera
+nella camera vedeva il letto col morto e i tendaggi del baldacchino contro la parete.
 Attendeva che quella parete si aprisse.
 E si aprì, infatti, prima che il suo cervello avesse scandito tutti i numeri del secondo centinaio.
 Aveva spento le luci del lampadario e soltanto i ceri illuminavano.
 Anche un poco il ceppo nel caminetto con le sue fiamme verdi.
 La porticina color della parete girò sui cardini e raggiunse la sponda del letto.
 Apparve un uomo e De Vincenzi non fu affatto sorpreso di vederlo a testa nuda e con la giacca di cuoio da motociclista.
-I suoi lineamenti si stagliavano fermi e regolari, e la durezza di essi – soprattutto della mascella quadrata e della fronte bassa – furono addolciti dalla luce delle candele.
+I suoi lineamenti si stagliavano fermi e regolari
+la durezza di essi
+soprattutto della mascella quadrata e della fronte bassa – furono addolciti dalla luce delle candele.
 Fermatosi un istante sulla soglia, spense la lampadina elettrica, che aveva protesa dinanzi a sé.
 Non vide subito il cadavere – il battente della porticina lo nascondeva – ma vide i ceri.
 Esitò, si tenne pronto a balzare, per la fuga o per l'aggressione.
@@ -5983,9 +6198,13 @@ Soltanto le cose palpitavano e respiravano: il ceppo, la fiamma dei ceri, le omb
 Non l'uomo nel quadro della porticina;
 non De Vincenzi dietro le tende pesanti.
 Quando il giovane ebbe telefonato e ricomparve, gridando al cameriere: Un cappuccino e brioche!
- il commissario attese che si fosse seduto a un piccolo tavolo, presso alla cabina, nella seconda sala, ch'era quella del biliardo, e poi andò a sederglisi di fronte.
+il commissario attese che si fosse seduto a un piccolo tavolo
+presso alla cabina, nella seconda sala, ch'era quella del biliardo
+poi andò a sederglisi di fronte.
 Ho bisogno di parlare con lei, signor Vitelleschi.
- il giovane sapeva perfettamente chi fosse, perché, passata la prima sorpresa, sorrise e disse: M'ha fatto paura, commissario!
+il giovane sapeva perfettamente chi fosse
+passata la prima sorpresa
+sorrise e disse: M'ha fatto paura, commissario!
 Le posso offrire qualcosa?
 De Vincenzi si fece portare un caffè.
 Gastone mangiava di gusto.
@@ -6021,30 +6240,49 @@ una disgrazia.
 Immagino che sia per questo che lei m'interroga.
 Che cosa vuol sapere da me?
 Quando ha veduto il marchese per l'ultima volta?
-Il portone del palazzo Vitelleschi del Verbano era interamente aperto, perché la salma del compianto marchese ne aveva ormai varcata la soglia, per recarsi, tra salmodiar di preti e strofinio di suole sui lastricati fangosi, al Colombario.
+Il portone del palazzo Vitelleschi del Verbano era interamente aperto
+perché la salma del compianto marchese ne aveva ormai varcata la soglia
+per recarsi, tra salmodiar di preti e strofinio di suole sui lastricati fangosi, al Colombario.
 Ma il portinaio in berretto gallonato non si teneva – cerbero solenne – in mezzo all'androne.
 Due agenti di P.
 ne guardavano la severa portineria, di sul tavolo della quale il registro per le firme era scomparso.
-E in quanto al portinaio, costui, in uniforme, faceva un bel meschino vedere, seduto come era in un angolo della stanza, col berretto sulle ginocchia e senza più autorità e solennità.
-Se il cadavere aveva esulato verso l'ultimo riposo, una donna dai capelli rossi e dall'irregolare beltà turbevole si trovava nel palazzo in stato di arresto, guardata a vista dal brigadiere Cruni e da altri due agenti.
+E in quanto al portinaio, costui, in uniforme, faceva un bel meschino vedere
+seduto come era in un angolo della stanza
+col berretto sulle ginocchia e senza più autorità e solennità.
+Se il cadavere aveva esulato verso l'ultimo riposo
+una donna dai capelli rossi e dall'irregolare beltà turbevole si trovava nel palazzo in stato di arresto
+guardata a vista dal brigadiere Cruni e da altri due agenti.
 Il brigadiere Cruni, col vestito di stoffa rude cardata a mano, a rilievi decisi, stonava nell'ambiente.
 proiettato a linee ferme
 tozzo e pesante, con quel torso troppo grande per le sue corte gambe ercoline
 Tra quei mobili antichi, tutti dorature e sagomature era il bove tra le porcellane.
-E lui lo sapeva e si sentiva a disagio e per reazione si muoveva più pesantemente calpestando quasi con voluttà i tappeti soffici con le sue doppie suole chiodate.
-De Vincenzi gli aveva dato la consegna di sorvegliar da presso la marchesa, non perché temesse una fuga, che – adesso, dopo la morte di Harry Gordon – sarebbe stata per lei vana e irragionevole, ma perché non voleva ritrovare un altro cadavere a palazzo.
+E lui lo sapeva e si sentiva a disagio
+e per reazione si muoveva più pesantemente calpestando quasi con voluttà i tappeti soffici
+con le sue doppie suole chiodate.
+De Vincenzi gli aveva dato la consegna di sorvegliar da presso la marchesa
+non perché temesse una fuga, che sarebbe stata per lei vana e irragionevole
+ma perché non voleva ritrovare un altro cadavere a palazzo.
+adesso, dopo la morte di Harry Gordon
 Che quella magnifica creatura non avesse equilibrio era evidente e c'era da aspettarsi da lei anche l'effrazione disperata.
 Sicché Cruni, messo in quel timore, non l'abbandonava di vista un solo istante.
 La lettura di un testamento di venerdì 13, per chi sia superstizioso, non è piacevole.
 Per quanto, un testamento implichi di necessità un erede;
 e quindi, per costui, il venerdì 13 sia un giorno fortunato.
-Nello studio, sotto la pendola di Boule, che segnava le undici meno cinque, Delia Vitelleschi, vestita di nero, col suo abito corto ai ginocchi, chiuso al collo, chiuso ai polsi, attendeva.
+Nello studio, sotto la pendola di Boule, che segnava le undici meno cinque, Delia Vitelleschi, vestita di nero
+col suo abito corto ai ginocchi, chiuso al collo, chiuso ai polsi, attendeva.
 Nell'angolo più buio, quasi incastonato nel muro, Cruni si teneva ritto.
 Quella fazione lo aveva stremato.
-Non si può rimanere chiuso in una camera con una donna – bella d'una bellezza strana e coi capelli rossi – per quasi ventiquattr'ore, senza maledire il destino.
+Non si può rimanere chiuso in una camera con una donna
+quella donna è bella, d'una bellezza strana e coi capelli rossi
+per quasi ventiquattr'ore, senza maledire il destino.
 E quella donna aveva ucciso!
 Cruni la considerava come una qualsiasi accusata da tradursi a San Vittore.
-Ma erano i mobili di quella stanza, il sottile e pur penetrante profumo, che alitava lì dentro, a dargli la sensazione di un caso insolito, di un caso che gli era capitato addosso di traverso e che non rientrava nel compito delle sue mansioni e dei suoi doveri.
+Ma erano i mobili di quella stanza
+il sottile e pur penetrante profumo
+che alitava lì dentro
+aveva la sensazione di un caso insolito 
+un caso che gli era capitato addosso di traverso
+la cosa non rientrava nel compito delle sue mansioni e dei suoi doveri.
 La porta si aprì ed entrò De Vincenzi.
 Commissario, lei non si è fatto più vedere!
 Sono stato molto occupato, signora.
@@ -6122,7 +6360,9 @@ Il giovane si fermò.
 È meglio separarci, adesso.
 Samuele non rispose.
 Naturalmente, non gli rimaneva che da obbedire.
-Anche lui s'era fermato e, come in un lampo, mentre in cuor suo ringraziava Iddio di averlo salvato, si disse che il rischio era troppo forte e che niente e nessuno in fondo poteva costringerlo a continuare quel commercio così carico di pericoli mortali.
+Anche lui s'era fermato e, come in un lampo, si disse che il rischio era troppo forte
+niente e nessuno in fondo poteva costringerlo a continuare quel commercio così carico di pericoli mortali.
+ mentre in cuor suo ringraziava Iddio di averlo salvato
 Era vecchio, era ricco, sarebbe stato da folle ostinarsi a voler ammassare denaro a quel prezzo.
 Manfredo intuì quel che passava nell'animo di lui.
 Inutile dirvi – scandì con voce dura – che il mese prossimo dovremo incontrarci di nuovo.
@@ -6172,26 +6412,36 @@ Aveva chiusa la porta e accesa la luce.
 Volete visitare l'appartamento?
 Quella porta dà nella cosidetta sala da ricevere.
 lo precedette in una grande stanza dai mobili pretenziosamente dorati.
-Di lì passarono nella stanza da pranzo adorna di orripilanti nature morte, nella camera da letto, in un camerino che poteva essere studio, a meno che non fosse ripostiglio, e nella cucina.
-Terminata la visita, che lo sconosciuto compì con grande attenzione, tornarono nella sala e sedettero uno di fronte all'altro in due poltrone.
+Di lì passarono nella stanza da pranzo adorna di orripilanti nature morte
+nella camera da letto
+in un camerino che poteva essere uno studio
+a meno che non fosse un ripostiglio
+e nella cucina.
+Terminata la visita tornarono nella sala e sedettero uno di fronte all'altro in due poltrone.
+lo sconosciuto compì con grande attenzione
 Vatel parlò pel primo.
 Il suo tono era concitato e la voce piena di acuti.
 Sapete, signor Trepas, che una simile esistenza è insopportabile?
 Sta bene: io adesso ho il denaro che prima non avevo e so apprezzare tutti i vantaggi, ma i rischi sono troppi.
 Non è vivere, questo!
-Non v'era dubbio, però, che il vecchio aveva scoperto qualche ignorata miniera di brillanti, si era circondato di collaboratori sicuri e, per un caso inspiegabile e tuttavia non meno certo, si era ricordato del nipote che vegetava in una qualche città di Europa.
+Non v'era dubbio, però, che il vecchio aveva scoperto qualche ignorata miniera di brillanti
+si era circondato di collaboratori sicuri
+per un caso inspiegabile e tuttavia non meno certo, si era ricordato del nipote
+vegetava in una qualche città di Europa.
 Il giovane, al principio, aveva creduto d'aver toccato il cielo con un dito!
 Nessun lavoro serio, di applicazione, e denari in abbondanza.
-Ben presto però aveva dovuto convincersi che non eran tutte rose e che i denari andavano accompagnati da molti e serii pericoli.
+Ben presto però aveva dovuto convincersi che non eran tutte rose
+i denari andavano accompagnati da molti e serii pericoli.
 Impossibile, però, tornare indietro.
 Vatel, del resto, non rimpiangeva nulla.
 Aveva voluto il denaro e adesso lo aveva.
 Meglio mille volte correr qualche pericolo e godersi la vita, che continuare ad essere un povero impiegatuccio di banca.
-Tuttavia la prospettiva di andare a raggiungere quel vecchio pazzo dello zio nel suo riparo gli sorrideva assai mediocremente.
+La prospettiva di andare a raggiungere quel vecchio pazzo dello zio nel suo riparo gli sorrideva assai mediocremente.
 non era certo così che sarebbe finito.
 Era ben determinato a non andarvi e si era fatto un piano di azione molto semplice.
 Buona parte del denaro guadagnato lo aveva già messo al sicuro, all'estero.
-Adesso, si sarebbe tenuti tutti per se i sette milioni che gli avrebbe portati Samuele Berck e, appena lasciato il commerciante, sarebbe saltato in un treno e chi s'era visto s'era visto.
+Adesso, si sarebbe tenuti tutti per se i sette milioni che gli avrebbe portati Samuele Berck
+appena lasciato il commerciante, sarebbe saltato in un treno e chi s'era visto s'era visto.
 Gli inviati di suo zio avrebbero trovato la casa vuota.
 Lui si vedeva di già in Italia o in Egitto o addirittura in Oriente, se gli fosse piaciuto.
 Manfredo Vatel?
@@ -6228,8 +6478,12 @@ ma ebbero il tempo di vederlo tornare a galla, dibattersi disperatamente e poi s
 Tutto questo si era svolto con tale rapidità, che Carlo era stato incapace di riflettere.
 Mille pensieri confusi lo agitavano;
 ma uno lo dominava consigliandogli di rimaner calmo, di non rivelare la tempesta dei sentimenti che turbinavano in lui.
-Aveva constatata una volta di piú la incredibile crudeltà dell'uomo alla mercè del quale egli si trovava e aveva potuto farsi un'idea dello stato di totale incoscienza in cui si trovavano gli uomini dell'equipaggio.
-Perciò, se teneva alla vita, doveva corazzarsi d'indifferenza, ricacciare i suoi piú nobili sentimenti, dimenticare, se stesso.
+Aveva constatata una volta di piú la incredibile crudeltà dell'uomo
+alla mercè del quale egli si trovava
+aveva potuto farsi un'idea dello stato di totale incoscienza in cui si trovavano gli uomini dell'equipaggio.
+Perciò, se teneva alla vita, doveva corazzarsi d'indifferenza
+ricacciare i suoi piú nobili sentimenti
+dimenticare se stesso.
 Non doveva, non poteva essere che Manfredo Vatel!
 Ridivenuto padrone di se stesso, ebbe il coraggio di volgersi a Nichols e di dirgli.
 È questa l'infermeria!
