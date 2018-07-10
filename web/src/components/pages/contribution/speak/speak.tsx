@@ -342,9 +342,12 @@ class SpeakPage extends React.Component<Props, State> {
         await api.syncDemographics();
         trackRecording('submit', locale);
         addNotification(
-          <Localized id="clips-submitted" $count={''}>
-            <span />
-          </Localized>
+          <React.Fragment>
+            <CheckIcon />{' '}
+            <Localized id="clips-uploaded">
+              <span />
+            </Localized>
+          </React.Fragment>
         );
       },
     ]);

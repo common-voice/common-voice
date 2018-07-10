@@ -1,4 +1,4 @@
-import { LocalizationProps, withLocalization } from 'fluent-react';
+import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { trackSharing } from '../../services/tracker';
@@ -22,7 +22,15 @@ class ShareButtons extends React.Component<
     this.shareURLInputRef.current.select();
     document.execCommand('copy');
     trackSharing('link');
-    this.props.addNotification('link copied');
+
+    this.props.addNotification(
+      <React.Fragment>
+        <FontIcon type="link" className="icon" />{' '}
+        <Localized id="link-copied">
+          <span />
+        </Localized>
+      </React.Fragment>
+    );
   };
 
   render() {

@@ -95,6 +95,7 @@ faq = FAQ
 content-license-text = Content available under a <licenseLink>Creative Commons license</licenseLink>
 share-title = Help us find others to donate their voice!
 share-text = Help teach machines how real people speak, donate your voice at { $link }
+link-copied = Link Copied
 back-top = Back to Top
 contribution-banner-text = We've just launched a new contribution experience
 contribution-banner-button = Take a look
@@ -337,10 +338,7 @@ review-tooltip = Review & re-record clips here as you go
 unable-speak = Unable to speak right now?
 review-instruction = Review & re-record clips if needed
 record-submit-tooltip = { $actionType } submit when ready
-clips-submitted =
-    { $count ->
-       *[other] { $count } Clips Submitted
-    }
+clips-uploaded = Clips Uploaded
 record-abort-title = Finish recording first?
 record-abort-text = Leaving now means you'll lose your progress
 record-abort-submit = Submit clips
