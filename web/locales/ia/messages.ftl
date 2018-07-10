@@ -145,3 +145,4 @@ record-no-mic-found = Nulle microphono trovate
 
 ## New Contribution
 
+nothing-to-validate = Nos non ha alco a validar in iste lingua, adjuta nos a plenar le cauda.
