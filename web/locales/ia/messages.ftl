@@ -121,6 +121,7 @@ profile-close = Clauder
 
 ## FAQ
 
+faq-title = Questiones frequente
 faq-important-q = Perque es isto importante?
 
 ## Profile
