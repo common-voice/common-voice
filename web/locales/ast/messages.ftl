@@ -1,6 +1,7 @@
 ## General
 
 yes-receive-emails = Sí, unviáime correos. Prestaríame tar informáu tocante al proyeutu Common Voice.
+stayintouch = En Mozilla tamos construyendo una comunidá alredor de la teunoloxía per voz. Prestaríanos siguir en contautu con anovamientos, fontes de datos nueves y oyer más tocante a cómo uses estos datos.
 privacy-info = Prometémoste que vamos remanar la to información con curiáu. Llei más  na nuesa <privacyLink>Noticia de privacidá</privacyLink>
 return-to-cv = Volver a Common Voice
 email-input =
@@ -29,6 +30,7 @@ cv = Chuvaxu
 cy = Galés
 da = Danés
 de = Alemán
+dsb = Baxu Sorabu
 el = Griegu
 en = Inglés
 es = Español
@@ -93,6 +95,7 @@ cookies = Cookies
 faq = FAQ
 content-license-text = Conteníu disponible so una <licenseLink>llicencia Creative Commons</licenseLink>
 share-title = ¡Ayúdanos a alcontrar a xente que nos empreste la so voz!
+link-copied = Copióse l'enllaz
 back-top = Volver a arriba
 contribution-banner-text = Tamos acabante de llanzar una esperiencia nueva de collaboración
 contribution-banner-button = Écha-y un gueyu
@@ -253,4 +256,5 @@ record-cta = Aniciar grabación
 record-three-more-instruction = ¡Tres p'acabar!
 unable-speak = ¿Nun pues falar agora?
 record-abort-text = Si coles agora, vas perder el to progresu
+nothing-to-validate = Nun tenemos nada pa revisar nesta llingua, ayúdanos a rellenar la cola.
 share-title-new = <bold>Ayúdanos</bold> a alcontrar más voces
