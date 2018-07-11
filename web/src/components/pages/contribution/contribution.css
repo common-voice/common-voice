@@ -203,6 +203,7 @@
     & .cards-and-pills {
         display: flex;
         flex-direction: column;
+        flex-shrink: 0;
 
         @media (--md-up) {
             flex-direction: row;
