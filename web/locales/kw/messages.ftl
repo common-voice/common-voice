@@ -315,6 +315,7 @@ request-language-success-content = Ni a vynn kestava genowgh gans moy kedhlow a-
 language-section-in-progress = Ow spedya
 language-section-in-progress-description = Yethow ow spedya yw an re usi ow pos drehevys may hallo agan kemenethow kevri; aga spedyans a dhastewyn kemmys leelheans re beu kowlwres ha kemmys lavarow re beu kuntellys.
 language-section-launched = Lonchys
+language-section-launched-description = Rag an yethow lonchys ma, an wiasva re beu leelhes yn sowen, hag yma lavarow lowr dhedhi re beu kuntellys, rag alowa kevri dre <italic>{ speak }</italic> ha <italic>{ listen }</italic>.
 languages-show-more = Gweles moy
 languages-show-less = Gweles le
 language-speakers = Kowsoryon
@@ -327,10 +328,13 @@ language-search-input =
 
 action-click = Klyckyowgh
 action-tap = Tappyowgh
+contribute = Kevri
 listen = Goslowowgh
 skip = Hepkor
 shortcuts = Skochfordhow
 clips = Klyppys
+goal-help-recording = Hwi re weresas Common Voice dhe dhrehedhes <goalPercentage></goalPercentage> a'gan amkan rekordya dedhyek a { $goalValue }!
+goal-help-validation = Hwi re weresas Common Voice dhe dhrehedhes <goalPercentage></goalPercentage> a'gan amkan gwirya dedhyek a { $goalValue }!
 contribute-more =
     { $count ->
         [zero] Parys dhe wul { $count } moy?
@@ -351,6 +355,7 @@ review-tooltip = Dasweles ha dasrekordya klyppys omma
 unable-speak = Ny yllir kowsel lemmyn
 review-instruction = Dasweles ha dasrekordya klyppys mars yw res
 record-submit-tooltip = { $actionType } danvenowgh pan vo parys
+clips-uploaded = Klyppys ughkergys
 record-abort-title = Gorfenna rekordya kens oll?
 record-abort-text = Mar tiberthowgh lemmyn, hwi a wra kelli agas ober
 record-abort-submit = Danvon klyppys
@@ -360,3 +365,6 @@ listen-instruction = { $actionType }<playIcon></playIcon> a gowssons yn kewer an
 listen-again-instruction = Ober da! <playIcon></playIcon> Goslowowgh arta pan vowgh parys
 listen-3rd-time-instruction = 2 gwrys <playIcon></playIcon>, splann!
 listen-last-time-instruction = <playIcon></playIcon> An diwettha!
+nothing-to-validate = Nyns eus tra vyth dhe wirya y'n yeth ma, gweresowgh dhyn ow lenwel an lost.
+record-button-label = Rekordyowgh agas lev
+share-title-new = <bold>Gweresowgh ni</bold> ow kavos moy levow
