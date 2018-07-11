@@ -329,6 +329,8 @@ listen = Qulaq as
 skip = Keç
 shortcuts = Qısa yollar
 clips = Kliplər
+goal-help-recording = Common Voice-in günlük { $goalValue } qeyd hədəfinin <goalPercentage></goalPercentage> qədərinə çatmağına dəstək oldunuz!
+goal-help-validation = Common Voice-in günlük { $goalValue } təsdiqləmə hədəfinin <goalPercentage></goalPercentage> qədərinə çatmağına dəstək oldunuz!
 contribute-more =
     { $count ->
         [one] Daha { $count } dənə etməyə hazırsınız?
