@@ -135,7 +135,13 @@ request-language-button = Solicitar una llingua
 
 ## ProjectStatus
 
+status-title = Estáu xeneral del proyeutu: ¡mira hasta ónde aportemos!
 status-contribute = Collabora cola to voz
+status-hours =
+    { $hours ->
+        [one] ¡Validóse yá una hora!
+       *[other] ¡Validáronse yá { $hours } hores!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Meta próxima: { $goal }
@@ -173,6 +179,7 @@ faq-what-q = ¿Qué ye Common Voice?
 faq-important-q = ¿Por qué ye importante?
 faq-get-q = ¿Cómo pueo consiguir los datos de Common Voice?
 faq-mission-q = ¿Por que Common Voice ye parte de la misión de Mozilla?
+faq-source-q = ¿D'ónde vien el testu fonte?
 
 ## Profile
 
@@ -181,6 +188,7 @@ profile-why-title = ¿Por qué un perfil?
 ## NotFound
 
 notfound-title = Nun s'alcontró
+notfound-content = Sentímoslo pero nun damos colo que tabes guetando.
 
 ## Data
 
