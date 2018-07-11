@@ -217,6 +217,7 @@ record-error-too-short = La grabación foi percurtia.
 record-error-too-long = La grabación foi perllarga.
 terms-agree = Aceuto
 terms-disagree = Nun aceuto
+review-submit-title = Revisión y unviu
 review-cancel = Encaboxar xuba
 review-keep-recordings = Caltener grabaciones
 review-delete-recordings = Desaniciar les mios grabaciones
