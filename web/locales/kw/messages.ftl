@@ -15,33 +15,48 @@ loading = Ow karga...
 
 ## Languages
 
+an = Aragonek
+ar = Arabek
 as = Asamek
+ast = Asturiek
 az = Azerbayjanek
 bn = Bengalek
 br = Bretonek
+bxr = Buryat
 ca = Katalanek
+cnh = Hakha Chin
 cs = Check
 cv = Chouvash
 cy = Kembrek
 da = Danek
 de = Almaynek
+dsb = Iselsorbek
 el = Greka
 en = Sowsnek
 es = Spaynek
 et = Estonek
+fi = Finnek
+fo = Faroek
 fr = Frenkek
 fy-NL = Frisek
 ga-IE = Wordhenek
 he = Ebrow
+hsb = Ughelsorbek
 hu = Hongarek
+ia = Interlingua
 id = Indonesek
+is = Islondek
 it = Italek
+ja = Japanek
 ka = Jorjek
 kab = Kabyle
 kk = Kazakh
 ko = Koreek
+kpv = Komi-Zyrian
 kw = Kernowek
+ky = Kyrgyz
 mk = Makedonek
+myv = Erzya
 nb-NO = Norgaghek (Bokmål)
 ne-NP = Nepalek
 nl = Iseldiryek
@@ -65,6 +80,7 @@ tt = Tatar
 uk = Ukraynek
 uz = Uzbek
 zh-CN = Chinek (China)
+zh-HK = Chinek (Hong Kong)
 zh-TW = Chinek (Taiwan)
 
 # [/]
@@ -86,6 +102,7 @@ faq = Govynnow menowgh
 content-license-text = Kavadow yw an dalgh yn-dann <licenseLink>leshyans Creative Commons</licenseLink>
 share-title = Gweresowgh ni ow hwilas re erel dhe argevro aga lev!
 share-text = Gweresowgh ow tyski dhe jynnow kowsel kepar ha pobel gwir, argevrowgh agas lev orth { $link }
+link-copied = Kevren kopies
 back-top = Dehweles dhe benn an folen
 
 ## Home Page
@@ -309,9 +326,6 @@ listen = Goslowowgh
 skip = Hepkor
 shortcuts = Skochfordhow
 clips = Klyppys
-goal-type-record = ow rekordya
-goal-type-validation = gwiryans
-toward-goal = Henn yw <goalPercentage></goalPercentage> war-tu ha amkan { $goalType } Common Voice hedhyw. Meur ras
 contribute-more =
     { $count ->
         [zero] Parys dhe wul { $count } moy?
@@ -332,15 +346,6 @@ review-tooltip = Dasweles ha dasrekordya klyppys omma
 unable-speak = Ny yllir kowsel lemmyn
 review-instruction = Dasweles ha dasrekordya klyppys mars yw res
 record-submit-tooltip = { $actionType } danvenowgh pan vo parys
-clips-submitted =
-    { $count ->
-        [zero] Ny veu klypp vyth danvenys!
-        [one] { $count } klypp danvenys!
-        [two] { $count } glypp danvenys!
-        [few] { $count } klypp danvenys!
-        [many] { $count } klypp danvenys!
-       *[other] { $count } klypp danvenys!
-    }
 record-abort-title = Gorfenna rekordya kens oll?
 record-abort-text = Mar tiberthowgh lemmyn, hwi a wra kelli agas ober
 record-abort-submit = Danvon klyppys
