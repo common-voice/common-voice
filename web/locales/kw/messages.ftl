@@ -110,10 +110,10 @@ report-bugs-link = Gweres ow terivas gwallow
 
 ## Home Page
 
-home-title = An ragdres Common Voice yw towl Mozilla dhe weres ow tyski dhe jynnow fatel wra tus gwir kowsel.
+home-title = Common Voice yw ragdres gans Mozilla dhe weres dyski dhe jynnow fatel wra tus gwir kowsel.
 home-cta = Kowsowgh yn ughel, kevrowgh omma!
-wall-of-text-start = Naturel yw an lev, dhe dhenses yma'n lev. Henn yw prag yma hwans dhyn gwul teknegieth lev dhe les rag agan jynnow. Mes rag gwul systemow lev, res yw kuntel myns bras dres eghen a dhata lev.
-wall-of-text-more-mobile = Nyns yw kavadow brassa rann an data usys gans kowethyansow bras dhe'n brassa rann a dus. Ni a grys henna dhe lettya awenekter. Ytho yma lonchyes genen an ragdres Common Voice, towl dhe weres ow kul aswonvos lev ygor dhe bubonen.
+wall-of-text-start = Naturel yw an lev, dhe dhenses yma'n lev. Henn yw prag yma hwans dhyn gwruthyl teknegieth lev rag agan jynnow. Mes rag gwruthyl systemow lev, res yw kuntel myns bras dres eghen a dhata lev.
+wall-of-text-more-mobile = Nyns yw brassa rann an data usys gans kowethyansow bras kavadow dhe'n brassa rann a dus. Ni a grys henna dhe lettya awenekter. Ytho yma lonchyes genen an ragdres Common Voice, towl dhe weres ow kul aswonvos lev ygor dhe bubonen.
 wall-of-text-more-desktop =
     Lemmyn ni a yll argevro agas lev dhe weres dhyn ow trehevel database pennfenten ygor a yll pubonen usya rag gwul towlennow awenek rag devisyow ha'n wias.<lineBreak></lineBreak>
     Redyowgh lavar dhe weres jynnow ow tyski fatel wra tus gwir kowsel. Checkyowgh an ober a gevriysi erel dhe wellhe aga hwalita. Mar sempel es henna yw!
