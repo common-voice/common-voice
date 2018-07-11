@@ -223,7 +223,7 @@ faq-source-a2 = Qaynaq mətnlərimizi <dataLink>bu Github qovluğunda</dataLink>
 ## Profile
 
 profile-why-title = Niyə profil tələb edilir?
-profile-why-content = Haqqınızda bəzi məlumatları verməklə Common Voice üçün göndərdiyiniz səs qeydləriniz bu məlumatları işlədən Səs Tanıma mühərriklərinin keyfiyyətini artırmağa kömək edəcək.
+profile-why-content = Haqqınızda bəzi məlumatları verməklə Common Voice üçün göndərdiyiniz səs qeydlərini bu məlumatları işlədən Səs Tanıma mühərriklərinin keyfiyyətini artırmaq üçün daha yararlı hala gətirə bilərsiz.
 
 ## NotFound
 
@@ -238,6 +238,7 @@ data-download-deny = Xeyr
 data-download-license = Lisenziya: <licenseLink>CC-0</licenseLink>
 data-download-modal = <size>{ $size } GB</size> endirilməyə başlayacaq, davam edilsin?
 data-subtitle = Hər kəsin səsli tətbiqləri öyrədə bilməsi üçün açıq və ictimai səs bazarı yaradırıq.
+data-explanatory-text = Böyük və ictimai olan səs bazasının innovasiyaları sürətləndirəcəyini və maşın öyrənməsi üzərinə olan səs texnologiyalarında daha sağlam rəqabətə yol açacağına inanırıq. Bu qlobal zəhmətdir və hamını iştirak etməyə dəvət edirik. Məqsədimiz dünyanın hər yanından olan səsləri başa düşə biləcək daha keyfiyyətli səs texnologiyalarının mümkün olmasını təmin etməkdir.
 data-get-started = <speechBlogLink>Səs tanıma ilə başla</speechBlogLink>
 data-other-title = Digər səs bazaları…
 data-other-goto = { $name } saytına keç
