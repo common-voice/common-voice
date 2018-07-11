@@ -104,6 +104,9 @@ share-title = Gweresowgh ni ow hwilas re erel dhe argevro aga lev!
 share-text = Gweresowgh ow tyski dhe jynnow kowsel kepar ha pobel gwir, argevrowgh agas lev orth { $link }
 link-copied = Kevren kopies
 back-top = Dehweles dhe benn an folen
+contribution-banner-text = Yma nowydh lonchys genen fordh nowydh dhe gevri
+contribution-banner-button = Gwrewgh gik
+report-bugs-link = Gweres ow terivas gwallow
 
 ## Home Page
 
@@ -310,10 +313,12 @@ request-language-success-content = Ni a vynn kestava genowgh gans moy kedhlow a-
 ## Languages Overview
 
 language-section-in-progress = Ow spedya
+language-section-in-progress-description = Yethow ow spedya yw an re usi ow pos drehevys may hallo agan kemenethow kevri; aga spedyans a dhastewyn kemmys leelheans re beu kowlwres ha kemmys lavarow re beu kuntellys.
 language-section-launched = Lonchys
 languages-show-more = Gweles moy
 languages-show-less = Gweles le
 language-speakers = Kowsoryon
+language-meter-in-progress = Spedyans
 language-total-progress = Somm
 language-search-input =
     .placeholder = Hwilas
