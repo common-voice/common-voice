@@ -144,6 +144,7 @@ faq-important-a = Le voce es natural, voce es human. Illo es le maniera plus fac
 faq-get-q = Como pote io obtener le datos de Common Voice?
 faq-get-a = Le collection de datos es disponibile ora sur nostre <downloadLink>pagina de discarga</downloadLink> sub licentia <licenseLink>CC-0</licenseLink>.
 faq-mission-q = Perque Common Voice es parte del mission de Mozilla?
+faq-mission-a = Mozilla es dedicate a mantener le web aperte e accessibile a omnes. Pro facer illo nos necessita de habilitar le autores del web per projectos como Common Voice. Como le technologias del voce prolifera ultra le applicationes de niche, nos fide que illos debe servir equalmente ben tote le usatores. Nos vide un necessitate de includer plus linguas, accentos e datos demographic quando nos produce e testa le technologias del voce. Mozilla vole vider internet salubre, vibrante. Que significa dar al nove autores accesso al datos de voce al fin que illos pote producer projectos nove e extraordinari. Common Voice essera un public ressource que adjutara le equipas de Mozilla e le disveloppatores circum le mundo.
 
 ## Profile
 
