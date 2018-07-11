@@ -100,9 +100,11 @@ terms = 使用條款
 cookies = Cookies
 faq = 常見問題
 content-license-text = 內容依照 <licenseLink>Creative Commons 授權條款</licenseLink>授權大眾使用
-share-title = 幫助我們找其他人一起獻聲！
+share-title = 幫我哋找其他人一齊獻聲！
 share-text = 請到 { $link } 獻聲，協助我們教導機器了解人們是如何說話的。
+link-copied = 超連結已被複製
 back-top = 回到頁頂
+contribution-banner-text = 我們剛剛推出咗一個新嘅貢獻體驗
 contribution-banner-button = 去睇一下
 report-bugs-link = 幫手報告程式錯誤
 
@@ -274,10 +276,13 @@ download-no = 唔洗喇，多謝
 contact-title = 聯絡表格
 contact-form-name =
     .label = 名字
+contact-form-message =
+    .label = 你的短訊
 contact-required = *必填欄位
 
 ## Request Language Modal
 
+request-language-title = 要求新語言
 request-language-form-language =
     .label = 語言
 
@@ -319,10 +324,7 @@ review-tooltip = 在此確認或重錄片段
 unable-speak = 現在無法錄音？
 review-instruction = 確認錄音內容，有需要的話可以重錄
 record-submit-tooltip = 準備好即可{ $actionType }送出
-clips-submitted =
-    { $count ->
-       *[other] 已送出 { $count } 個錄音片段！
-    }
+clips-uploaded = 錄音片段已成功上載
 record-abort-title = 不先完成錄音嗎？
 record-abort-text = 如果要現在離開，會失去目前的進度
 record-abort-submit = 提交錄音
