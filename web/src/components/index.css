@@ -831,7 +831,7 @@ a.small, .small a, .text-button.small {
 .notifications {
     position: fixed;
     top: 60px;
-    z-index: var(--top-z-index);
+    z-index: var(--override-z-index);
     width: 100%;
     display: flex;
     align-items: center;
