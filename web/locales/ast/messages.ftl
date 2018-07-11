@@ -103,6 +103,7 @@ report-bugs-link = Ayuda a informar de fallos
 
 ## Home Page
 
+wall-of-text-more-mobile = La mayoría de datos usaos por compañes grandes nun tán disponibles pa la mayoría de xente. Cuidamos qu'eso torga la innovación polo que llanzamos Common Voice. Un proyeutu p'ayudar a facer que la reconocencia de voz tea abierta al tol mundu.
 show-wall-of-text = Llei más
 help-us-title = ¡Ayúdanos a validar les frases!
 vote-yes = Sí
