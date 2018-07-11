@@ -342,6 +342,7 @@ review-tooltip = Tinjau & rekam ulang klip di sini selagi melanjutkan
 unable-speak = Tidak bisa berbicara sekarang
 review-instruction = Tinjau & rekam ulang klip jika perlu
 record-submit-tooltip = { $actionType } kirimkan jika sudah siap
+clips-uploaded = Klip Diunggah
 record-abort-title = Selesaikan rekamannya dulu?
 record-abort-text = Pergi sekarang artinya kemajuan Anda akan hilang
 record-abort-submit = Kirimkan klip
