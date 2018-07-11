@@ -246,6 +246,8 @@ data-other-download = Məlumat Bazasını Endir
 data-other-librispeech-description = LibriSpeech LibriVox proyektindən olan səsli kitabların 1000 saatlıq 16 Khz İngiliscə oxunuşundan olan topludur.
 data-other-ted-name = TED-LIUM Toplusu
 data-other-ted-description = TED-LIUM toplusu TED saytında olan səsli danışıq və transkripsiyalar ilə yaradılıb.
+data-other-voxforge-description = VoxForge Azad və Açıq Qaynaqlı Səs Tanıma Mühərriklərində işlətmək məqsədi ilə səs transkriptlərini yığmaq üçün qurulub.
+data-other-tatoeba-description = Tatoeba dil öyrənmə üçün olan cümlə, tərcümə və danışıq səslərinin böyük bazasıdır. Bu endirmədə onların icması tərəfindən qeyd edilmiş İngiliscə danışıqlar var.
 data-bundle-button = Məlumat bazası paketini endir
 data-bundle-description = Common Voice bazası və yuxarıdakı bütün digər səs bazaları.
 license = Lisenziya: <licenseLink>{ $license }</licenseLink>
@@ -307,7 +309,9 @@ request-language-success-content = Dilinizi Common Voice-ə necə əlavə edə b
 ## Languages Overview
 
 language-section-in-progress = Hazırlanır
+language-section-in-progress-description = Hazırlanmada olan dillər dəstəkləriniz üçün icmalarımız tərəfindən hazırlanır; onların irəliləyişi hazırda sayt tərcüməsi və cümlə yığmada nə vəziyyətdə olduqlarını göstərir.
 language-section-launched = Buraxılıb
+language-section-launched-description = Bu buraxılmış dillərdə sayt tərcüməsi tam hazırdır və davam edən <italic>{ speak }</italic> və <italic>{ listen }</italic> dəstəkləri üçün kifayət qədər cümlə yığılıb.
 languages-show-more = Daha çox göstər
 languages-show-less = Daha az göstər
 language-speakers = Danışan
