@@ -3,6 +3,7 @@
 contribute = Collaborar
 get-involved-button = Andechar
 get-involved-title = Collaboración en { $lang }
+get-involved-text = Gracies pol to interés en collaborar en { $lang }. Trabayamos duro pa consiguir que cada llingua tea preparada pal llanzamientu y pa que tolos equipos tean al día per corréu. Si quies collaborar, apurri'l to corréu embaxo.
 get-involved-form-title = Rexistráime pa los anovamientos de { $lang }:
 get-involved-email =
     .label = Corréu
