@@ -140,6 +140,10 @@ faq-title = Questiones frequente
 faq-what-q = Que es Common Voice?
 faq-what-a = Le technologia de recognition del voce poterea revolutionar le maniera que nos interage con le machinas, ma le systemas actualmente disponibile es costose e proprietari. Commun Voce es un projecto pro render le technologia de recognition del voce facilemente accessibile a omnes. Le personas dona lor voces a un massive base de datos que lassara quicunque rapidemente e facilemente maestrar applicationes activate per le voce. Tote le datos de voce essera disponibile al disveloppatores.
 faq-important-q = Perque es isto importante?
+faq-important-a = Le voce es natural, voce es human. Illo es le maniera plus facile e plus natural pro communicar. Nos vole que le disveloppatores pote producer cosas stupende ab le traductores in tempore real al assistentes administrative activate per le voce. Ma actualmente il non ha bastante datos disponibile publicamente pro le production de iste sorta del applicationes. Nos spera que Common Voice dara al disveloppatores lo que illos necessita pro innovar.
+faq-get-q = Como pote io obtener le datos de Common Voice?
+faq-get-a = Le collection de datos es disponibile ora sur nostre <downloadLink>pagina de discarga</downloadLink> sub licentia <licenseLink>CC-0</licenseLink>.
+faq-mission-q = Perque Common Voice es parte del mission de Mozilla?
 
 ## Profile
 
