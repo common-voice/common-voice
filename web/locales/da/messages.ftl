@@ -307,10 +307,11 @@ request-language-success-content = Vi kontakter dig snart med oplysninger om, hv
 ## Languages Overview
 
 language-section-in-progress = I gang
-language-section-in-progress-description = Igangværende sprog er ved at blive gjort klar til at vores fællesskab kan bidrage. Deres fremgang viser, hvor langt de er med at lokalisere hjemmesiden og indsamlingen af sætninger.
+language-section-in-progress-description = Kommende sprog er ved at blive gjort klar til at fællesskabet kan bidrage. Deres fremgang viser, hvor langt bidragsydere er med at oversætte hjemmesiden og indsamle sætninger.
 language-section-launched = Startet
-languages-show-more = Se mere
-languages-show-less = Se mindre
+language-section-launched-description = For følgende sprog er hjemmesiden blevet oversat, og der er indsamlet sætninger nok. <italic>{ speak }</italic> eller <italic>{ listen }</italic> for at bidrage.
+languages-show-more = Se flere
+languages-show-less = Se færre
 language-speakers = Talere
 language-meter-in-progress = Status
 language-total-progress = I alt
@@ -340,6 +341,7 @@ review-tooltip = Godkend og optag klip her efterhånden
 unable-speak = Ikke mulighed for at tale lige nu
 review-instruction = Godkend og optag klip igen hvis nødvendigt
 record-submit-tooltip = { $actionType } indsend når du er klar
+clips-uploaded = Optagelser uploaded
 record-abort-title = Færdiggør optagelsen først? 
 record-abort-text = Hvis du stopper nu, så mister du din fremgang
 record-abort-submit = Indsend klip
