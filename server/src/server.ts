@@ -3,6 +3,7 @@ import * as http from 'http';
 import * as path from 'path';
 import * as express from 'express';
 import { NextFunction, Request, Response } from 'express';
+const globalTunnel = require('global-tunnel-ng');
 import Model from './lib/model';
 import API from './lib/api';
 import Logger from './lib/logger';
@@ -30,6 +31,8 @@ const CSP_HEADER = [
   `font-src 'self' https://fonts.gstatic.com`,
   `connect-src 'self' https://pontoon.mozilla.org/graphql`,
 ].join(';');
+
+globalTunnel.initialize();
 
 export default class Server {
   app: express.Application;
