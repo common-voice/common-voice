@@ -22,6 +22,7 @@ ast = Asturiyaca
 az = Azərbaycanca
 bn = Benqal dili
 br = Breton dili
+bxr = Buryatca
 ca = Katalan dili
 cnh = Xaka Çin dili
 cs = Çexcə
@@ -101,6 +102,7 @@ faq = ÇSS
 content-license-text = Məzmun <licenseLink>Creative Commons lisenziyası</licenseLink> ilədir
 share-title = Səsini ianə edəcək başqa insanları tapmağa kömək et!
 share-text = Maşınlara real insanların necə danışdıqlarını öyrətməyə kömək et, səsinizi ianə edin: { $link }
+link-copied = Keçid Köçürüldü
 back-top = Üstə Qayıt
 contribution-banner-text = Yeni dəstək interfeysini yayına aldıq
 contribution-banner-button = Göz gəzdir
@@ -211,6 +213,7 @@ faq-native-a = Bəli, tamamilə ehtiyyacımız var! Common Voice-in məqsədlər
 faq-firefox-q = Common Voice ilə danışığı mətnə çevirmə Firefox-un bir hissəsi olacaq?
 faq-firefox-a = Common Voice-in sonsuz potensialı var və biz də həmçinin bunu Firefox kimi bir çox Mozilla məhsullarında işlətməyi hədəfliyirik.
 faq-quality-q = İşlək olması üçün hansı keyfiyyətdə səs qeydləri lazımdır?
+faq-quality-a = Səs keyfiyyətinin danışığı mətnə keçirəcək (speech-to-text) mühərriyin eşidəcəyi keyfiyyətdə olmasını istəyirik. Bu səbəbdən fərqlilik istəyirik. Bu danışığı mətnə çevirən mühərriklərini fəqli vəziyyətlərdə də işləməyi öyrədir—arxa plan danışıqları, maşın gürültüsü, vantilyator gürültüsü—səhvsiz.
 faq-hours-q = Niyə səs qeydi üçün hədəf 10000 saatdır?
 faq-hours-a = Bu işlək STT (səsdən yazıya) üçün tələb edilən təxmini vaxtdır.
 faq-source-q = Qaynaq mətnləri haradan gəlir?
@@ -220,6 +223,7 @@ faq-source-a2 = Qaynaq mətnlərimizi <dataLink>bu Github qovluğunda</dataLink>
 ## Profile
 
 profile-why-title = Niyə profil tələb edilir?
+profile-why-content = Haqqınızda bəzi məlumatları verməklə Common Voice üçün göndərdiyiniz səs qeydləriniz bu məlumatları işlədən Səs Tanıma mühərriklərinin keyfiyyətini artırmağa kömək edəcək.
 
 ## NotFound
 
@@ -336,11 +340,7 @@ review-tooltip = Davam etdikcə bu qeydləri nəzərdən keçirib təkrar qeyd e
 unable-speak = Hazırda danışa bilmirsiz?
 review-instruction = Nəzərdən keçirin və lazım olduqda klipləri təkrar qeyd edin
 record-submit-tooltip = { $actionType } hazır olduğunuzda göndərin
-clips-submitted =
-    { $count ->
-        [one] { $count } klip göndərildi
-       *[other] { $count } klip göndərildi
-    }
+clips-uploaded = Kliplər Yükləndi
 record-abort-title = Əvvəlcə qeyd bitirilsin?
 record-abort-text = İndi tərk etməklə bütün irəliləyişiniz itiriləcək
 record-abort-submit = Klipləri göndər
@@ -350,4 +350,6 @@ listen-instruction = <playIcon></playIcon> düyməsinə { $actionType }. Cümlə
 listen-again-instruction = Əla iş!<playIcon></playIcon> Hazır olduğunuzda təkrar dinləyin
 listen-3rd-time-instruction = İkisi hazır, işə davam!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Sonuncu!
+nothing-to-validate = Bu il üçün təsdiqlənəcək məlumatlarımız yoxdur, növbəni doldurmağımıza kömək edin.
+record-button-label = Səsinizi qeyd edin
 share-title-new = Daha çox səs tapmağımıza <bold>Kömək edin</bold>
