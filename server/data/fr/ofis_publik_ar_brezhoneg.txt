@@ -26,7 +26,7 @@ c'est les Kurdes qui ont gagné à Kobané.
 les Kurdes ont été victorieux à Kobané.
 c'est le gars de Carhaix qui a gagné.
 le gars de Carhaix a été victorieux.
-elles est partie.
+elle est partie.
 il est parti en mer.
 il est parti.
 elle est partie.
@@ -2107,7 +2107,7 @@ tu es sûr qu'elle aima.
 tu es sûr qu'il aimait.
 tu es sûr qu'elle aimait.
 tu es sûr que vous aimiez.
-tu es sûr qu'on aimaient.
+tu es sûr qu'on aimait.
 tu es sûr que nous aimions.
 tu es sûr que j'aimais.
 tu es sûr qu'ils aimaient.
@@ -3929,8 +3929,8 @@ On l'a frappé.
 Il l'a frappé.
 Il a été frappé.
 J'ai été frappé.
-J'ai été frappé par leurs opinions tranchés.
-Ils ont été frappé par la crise.
+J'ai été frappé par leurs opinions tranchées.
+Ils ont été frappés par la crise.
 La crise les a frappé.
 La crise les a durement frappé.
 Ils ont été durement frappé par la crise.
