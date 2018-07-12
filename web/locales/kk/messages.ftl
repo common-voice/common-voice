@@ -15,10 +15,14 @@ loading = Жүктелу барысында…
 
 ## Languages
 
+an = Арагон
+ar = Араб
 as = Ассам тілі
+ast = Астур
 az = Әзірбайжан тілі
 bn = Бенгал тілі
 br = Бретон тілі
+bxr = Бурят
 ca = Каталан тілі
 cs = Чех тілі
 cv = Чуваш тілі
@@ -37,6 +41,7 @@ ga-IE = Ирланд тілі
 he = Иврит тілі
 hsb = Жоғарғы лужицктік тілі
 hu = Венгр тілі
+ia = Интерлингва
 id = Индонезия тілі
 is = Исланд тілі
 it = Итальян тілі
@@ -94,7 +99,11 @@ faq = ЖҚС
 content-license-text = <licenseLink>Creative Commons лицензиясы</licenseLink> бойынша қол жетімді мазмұн
 share-title = Басқа адамдардың дауыстарын табуға бізге көмектесіңіз!
 share-text = Машиналарға шынайы адам ретінде сөйлеуін үйрету үшін, өз дауысыңызбен бөлісіңіз { $link }
+link-copied = Сілтеме көшірілді
 back-top = Жоғарыға оралу
+contribution-banner-text = Үлес қосудың жаңа мүмкіндігін қостық
+contribution-banner-button = Танысу
+report-bugs-link = Ақаулықтарды хабарлауға көмектесу
 
 ## Home Page
 
@@ -314,10 +323,6 @@ listen = Тыңдаңыз
 skip = Өткізіңіз
 shortcuts = Таңбашалар
 clips = Клиптер
-goal-type-record = жазу
-goal-type-validation = тексеру
-toward-goal = Бұл бүгінгі Common Voice жобасының { $goalType } жоспарының  <goalPercentage></goalPercentage>. Рақмет
-goal-help = Сіз Common Voice жобасының { $goalType } бір күндік жоспарының <goalPercentage></goalPercentage> орындалуына көмек көрсеттіңіз!
 contribute-more =
     { $count ->
        *[other] Тағы { $count } -н жасауға дайынсыз ба?
@@ -333,10 +338,6 @@ review-tooltip = Қарап шығып, жазуларды қайта жазың
 unable-speak = Қазір сөйлей алмайсыз ба?
 review-instruction = Клиптерді қарап шығыңыз, қажет болса, қайта жазыңыз.
 record-submit-tooltip = { $actionType } Дайын болғанда жіберіңіз.
-clips-submitted =
-    { $count ->
-       *[other] { $count } клип жіберілді.
-    }
 record-abort-title = Жазуды бірінші аяқтайсыз ба?
 record-abort-text = Қазір шығып кетсеңіз, Сіздің жетістігіңіз сақталынбайды
 record-abort-submit = Клиптерді жіберу
