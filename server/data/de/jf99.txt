@@ -213,7 +213,7 @@ Was transportieren Sie dort überhaupt?
 Woher soll ich das wissen?
 Wir haben gesehen, dass Sie während der Fahrt Ihr Handy bedient haben.
 Außerdem sind Sie nicht angeschnallt.
-Jetzt ist es soweit.
+Jetzt ist es so weit.
 Das ist mit Sicherheit nicht gut für die Stoßdämpfer.
 Bist du sicher, dass dies der richtige Weg ist?
 Sie nehmen es aber wirklich sehr genau mit den Vorschriften.
@@ -1095,7 +1095,7 @@ Motion-Capturing wurde zum Beispiel eingesetzt, um Gollum zu animieren.
 Der letzte Teilnehmer hat dann den Vogel abgeschossen.
 Der Flugkapitän schaltete von Autopilot auf manuelle Steuerung.
 Es reicht nicht, wenn alle an einem Strang ziehen.
-Es müssen auch alle in die selbe Richtung ziehen.
+Es müssen auch alle in dieselbe Richtung ziehen.
 Das Tauziehen ist zu einem festen Ritual beim Sommerfest geworden.
 Ihr letzter Wunsch war es, noch einmal einen Frühling zu erleben.
 Noch ein Stück von dieser köstlichen Himbeertorte bitte.
@@ -1209,7 +1209,7 @@ Inzwischen sind ja auch die meisten Frauen erwerbstätig.
 Sieht aus wie eine Zuhälterkarre.
 Diese Verhaltensmuster erinnert mich an jemanden.
 Die Polizei ist weder gewillt, noch dazu in der Lage, mit meinen Daten vernünftig umzugehen.
-Filterblasen gab es schon immer, nur das früher alle in der selben steckten.
+Filterblasen gab es schon immer, nur dass früher alle in derselben steckten.
 Ein Kumpel von mir kommt morgen aus dem Gefängnis frei.
 Marie brachte einen Alternativvorschlag ein.
 Woher kommen diese Zahlen?
@@ -3528,7 +3528,7 @@ Gegen Mittag muss der Frachter mit einer Nussschale kollidiert sein.
 Bis dahin dürften sich die Wogen geglättet haben.
 Das Band muss wirklich straff gezogen werden.
 Ist Anklopfen zu viel verlangt?
-An der Litfaßsäule hängt noch immer die selbe Reklame wie vor einem Jahr.
+An der Litfaßsäule hängt noch immer dieselbe Reklame wie vor einem Jahr.
 Verächtlich blickte ich den Jäger an.
 Aus einem Zimmer war ein elendes Wimmern zu vernehmen.
 Stramm stand die Horde in Reih' und Glied aufgestellt vor dem Befehlshaber.
@@ -4458,7 +4458,7 @@ Der Verwaltungsaufwand ist enorm.
 Ihr müsst drei Disziplinen im Bereich Leichtathletik absolvieren.
 Wärst du eher für Kegeln oder für Bowling?
 Irgendwo in der Menschenmenge sind sie dann untergetaucht.
-Ein Karatekämpfer wendet nie den selben Trick zweimal an.
+Ein Karatekämpfer wendet nie denselben Trick zweimal an.
 Im Gewerbegebiet wurde jetzt eine Kartbahn neu eröffnet.
 Ist der Plan auch wirklich gut durchdacht?
 Seit Juli letzten Jahres ist die Strecke stillgelegt.
