@@ -2378,7 +2378,6 @@ Dannazione, questo è un bel problema.
 Pensavo di archiviare entro l’estate la conquista del Nord, ma a quanto pare  dovrò tenere la terza armata lì per un po’ ancora.
 Tutto questo mentre la prima armata resta impantanata a due giorni da Fortezza delle Acque.
 Che noia, mi toccherà preoccuparmi di tutte queste cose.
-Che cazzo è quell’uccello?
 Ah è solo un pollo.
 Un pollo sulle mura?!
 Bah, ultimamente anche questo posto è diventato strano.
@@ -2464,7 +2463,6 @@ La decisione del Re non era stata presa positivamente dall’esercito.
 Che cosa strana, la storia.
 In un attimo passo dall’essere l’invasore maledetto al liberatore osannato.
 Beh, osannato magari no.
-Cazzo pure i piccioni sono morti, guarda che moria a terra.
 Alla fine, ce ne torniamo a casa senza territori conquistati ma carichi d’oro, i soldati saranno felici quando lo sapranno.
 Per il Governatore, se la vedranno loro.
 Se Evelfo dovesse fare guerra a questo angolo del mondo, vedrò bene di starne lontano, Azhamor l’ha ben capito.
@@ -4633,7 +4631,6 @@ Essere una vera pacchia.
 Essere una zavorra.
 Essere un'acqua cheta.
 Essere un'anguilla imburrata.
-Essere uno coi coglioni.
 Essere uno scozzese.
 Essere viscido come un'alga.
 Essere vispo come un gallo.
@@ -4646,7 +4643,7 @@ Essere tra i piedi.
 Essere stretto.
 Ma questa qui, in abito da sera, coi capelli biondi, gli occhi turchini, l’ovale purissimo.
 No, gli zigomi sporgevano un poco e quello strano taglio d’occhi.
-“Bene!
+Bene!
 Ammettiamo che siate italiana.
 Ma di dove?
 La ragazza si alzò.
@@ -4659,7 +4656,7 @@ Il naso sottile vibrava e lei contraeva le labbra
 Guardava con gli occhi socchiusi
 In modo strano, intenso, grazioso e un poco ironico
 Il commissario, le si teneva ritto davanti.
-“Sono nata a Ferrara.
+Sono nata a Ferrara.
 Come mai vi trovate a Milano?
 Per diporto?
 Dico per quale ragione siete venuta a finire allo Specchio d’Oro?
@@ -4721,12 +4718,12 @@ Fino all’ultimo, perché voglio avere l’albergo completamente vuoto, per pot
 Mentre Sani saliva, De Vincenzi andò al telefono
 Dentro allo sgabuzzino
 Pregò il commissario di notturna di mandargli due camion.
-“Hai fatto una retata, eh!
+Hai fatto una retata, eh!
 Si sentí per la strada il grido acuto d’una sirena e l’autolettiga apparve davanti alla porta dell’albergo.
-“Dov’è il defunto?
+Dov’è il defunto?
 I due beccamorti del Monumentale entravano giulivi, dopo essersi fermati al bar dei Portici Occidentali a bere un grappino.
 De Vincenzi si appoggiò al muro e aspettò che il cadavere fosse disceso.
-“Com’era vestito, l’artista?
+Com’era vestito, l’artista?
 Portava il berretto grigio calcato fino alle orecchie e la pellegrina nera.
 La pellegrina?
 Sí, come la chiama, lei?
@@ -4745,7 +4742,7 @@ Avete veduto uscire qualcuno?
 Ed entrare?
 È entrata Rosetta col suo uomo.
 Sputò e si passò un dito sulle labbra, arricciando il naso con una smorfia di schifo.
-“Robaccia.
+Robaccia.
 Li avete avvertiti di quel che era accaduto?
 Ma poco dopo è arrivato il commissario con le guardie e lo avranno capito, naturalmente.
 E tutti gli altri, che abbiamo trovati nelle camere, c’erano o sono entrati dopo la mezzanotte?
@@ -5201,7 +5198,7 @@ E che l’abbiano in cabina è sicuro, perché non si arrischierebbero a portarl
 E non dubitano che qualcuno possa andare a cercarla proprio lí, quando quella busta dovrebbe trovarsi già al suo destino.
 Io sola so che essi l’hanno.
 Poiché De Vincenzi aveva taciuto e miss Bigland aveva dubitato che esitasse, la ragazza aveva aggiunto.
-“Vi prometto che riavrete le formule.
+Vi prometto che riavrete le formule.
 Si era staccata da lui e, entrata nella luce lunare, si era allontanata verso prua.
 E lui l’aveva seguita da lontano.
 Non gli era sembrato prudente lasciar sola la ragazza nel pericolo, anche se lei glielo aveva chiesto.
@@ -5530,7 +5527,7 @@ De Vincenzi si dirigeva alla vetrata.
 Dottore, credo di potervi lasciare libero.
 Di nuovo i suoi sguardi si fermarono sul cugino Oscar.
 Notò che indossava il pastrano e aveva in mano il cappello.
- Desidero che nessuno esca dal palazzo questa notte.
+Desidero che nessuno esca dal palazzo questa notte.
 Avrò certamente bisogno d'interrogarvi ancora.
 La voce di don Viciente risonò fredda.
 Nessuno si allontanerà, commissario.
@@ -6532,16 +6529,18 @@ Un silenzio totale, stupefacente.
 Neppure un grido, un gesto, accolsero quell'assassinio.
 Nichols fissava gli uomini.
 Ebbene, che significa tutto ciò?
-– chiese con collera.
+Chiese con collera.
 Carlo s'irrigidì e cercò di ritrovare se stesso e sopratutto di non dimenticare che era Manfredo Vatel.
 Perché mi avete chiuso nella mia cabina?
 Siete sicuro di rispettare gli ordini che vi sono stati dati?
 State attento, capitano, che io ho buona memoria!
 Nichols alzò le spalle e fu con voce dura che rispose.
 E voi perché avete tentato di fuggire sul canotto?
-Premette un bottone e subito la porta si aprì e sulla soglia comparve lo stesso uomo che aveva accolto Nichols e Bonard.
+Premette un bottone e subito la porta si aprì
+sulla soglia comparve lo stesso uomo che aveva accolto Nichols e Bonard.
 Andate, caro Manfredo, e dormite tranquillamente!
-Carlo obbedì, così sconvolto ancora che non ebbe la forza di salutare lo strano essere da cui adesso dipendeva la sua vita.
+Carlo obbedì
+Era così sconvolto ancora che non ebbe la forza di salutare
 Preceduto dal silenzioso cameriere
 Evidentemente gli era destinata.
 Rifece il lungo corridoio e penetrò in una piccola stanza
@@ -6552,7 +6551,8 @@ La giovane rifiutò.
 Ho i nervi troppo scossi dal temporale, per poter cantare.
 Il vecchio si volse a Bonard.
 Come tutte le donne, caro Manfredo, Magda ha i suoi capricci!
-E io non ti chiederò d'intercedere presso di lei, pur essendo sicuro che la tua giovinezza ti dia dei vantaggi su di me.
+E io non ti chiederò d'intercedere presso di lei
+La tua giovinezza ti dia dei vantaggi su di me.
 Ma Trepas mi ha scritto che tu sei un ottimo pianista.
 E sembra che tu l'abbia addirittura stupito, suonandogli Beethoven e Chopin.
 Tu non avrai i nervi scossi dal temporale, spero, e vorrai suonare qualcosa per noi.
@@ -7402,7 +7402,6 @@ Fare la muffa.
 Fare la nanna.
 Fare la pelle.
 Fare la primadonna.
-Fare la puttana.
 Fare la quadra.
 Fare la ronda.
 Fare la ruota.
