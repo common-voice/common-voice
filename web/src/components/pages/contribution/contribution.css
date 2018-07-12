@@ -259,6 +259,9 @@
             box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.05);
             overflow: auto;
             word-wrap: break-word;
+            -ms-hyphens: auto;
+            -webkit-hyphens: auto;
+            hyphens: auto;
 
             opacity: 1;
             transition: transform var(--transition-duration-slow) var(--easing),
