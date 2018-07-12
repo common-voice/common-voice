@@ -101,6 +101,7 @@ faq = PMF
 content-license-text = Contingut disponible en els termes de la <licenseLink>llicència Creative Commons</licenseLink>
 share-title = Ajudeu-nos a trobar més persones que donin la veu!
 share-text = Ensenyeu a les màquines com parlem la gent de debò. Col·laboreu amb la vostra veu a { $link }
+link-copied = S'ha copiat l'enllaç
 back-top = Torna a dalt
 contribution-banner-text = Hem millorat el disseny de la interfície de col·laboració
 contribution-banner-button = Prova-la
@@ -343,11 +344,7 @@ review-tooltip = Reviseu i torneu a enregistrar talls des d'aquí mateix
 unable-speak = No podeu parlar, ara?
 review-instruction = Reviseu els talls i, si cal, torneu-los a enregistrar
 record-submit-tooltip = { $actionType } Envia quan hàgiu enllestit
-clips-submitted =
-    { $count ->
-        [one] { $count } enregistrament enviat!
-       *[other] { $count } enregistraments enviats!
-    }
+clips-uploaded = Talls pujats
 record-abort-title = Voleu acabar l'enregistrament primer?
 record-abort-text = Si sortiu ara, perdreu el vostre progrés
 record-abort-submit = Envia els talls
