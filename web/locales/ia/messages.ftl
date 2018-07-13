@@ -145,22 +145,45 @@ faq-get-q = Como pote io obtener le datos de Common Voice?
 faq-get-a = Le collection de datos es disponibile ora sur nostre <downloadLink>pagina de discarga</downloadLink> sub licentia <licenseLink>CC-0</licenseLink>.
 faq-mission-q = Perque Common Voice es parte del mission de Mozilla?
 faq-mission-a = Mozilla es dedicate a mantener le web aperte e accessibile a omnes. Pro facer illo nos necessita de habilitar le autores del web per projectos como Common Voice. Como le technologias del voce prolifera ultra le applicationes de niche, nos fide que illos debe servir equalmente ben tote le usatores. Nos vide un necessitate de includer plus linguas, accentos e datos demographic quando nos produce e testa le technologias del voce. Mozilla vole vider internet salubre, vibrante. Que significa dar al nove autores accesso al datos de voce al fin que illos pote producer projectos nove e extraordinari. Common Voice essera un public ressource que adjutara le equipas de Mozilla e le disveloppatores circum le mundo.
+faq-native-q = Io es un orator de { $lang } non-native e io parla con le un accento, desira tu ancora mi voce?
+faq-native-a = Si, nos decisemente desira tu voce! Parte del propositos de Common Voice es colliger quanto plus differente accentos possibile, proque le computatores pote melio comprender <bold>omnes</bold> quando illes parla.
+faq-firefox-q = Le recognition vocal, per Common Voice, devenira mais parte del Firefox?
+faq-firefox-a = Common Voice ha potentiales illimitate e nos in effecto explora le interfacies vocal in plure productos de Mozilla, includite Firefox.
+faq-quality-q = Que es le nivello del qualitate necessari proque le audio sia usate?
+faq-quality-a = Nos desira que le qualitate audio reflecte le qualitate del audio que un motor de recognition vocal videra in natura. Assi, nos desira varietate. Isto insenia al motor de recognition vocal de gerer plure situationes — parlate in secunde plano, rumor de auto, rumor de ventilator —sin errores.
+faq-hours-q = Perque es 10,000 horas le scopo pro capturar audio?
+faq-hours-a = Isto es circa le numero del horas requirite pro maestrar un systema de conversion vocal.
+faq-source-q = De ubi veni le texto fonte?
+faq-source-a1 = Le phrases actual veni ab le donationes de collaboratores, tam ben como dialogos ex scriptos de pelliculas de dominio public como <italic>It’s a Wonderful Life.</italic>
+faq-source-a2 = Tu pote vider nostre phrases fonte in <dataLink>iste plica de GitHub</dataLink>.
 
 ## Profile
 
+profile-why-title = Perque un profilo?
+profile-why-content = Per fornir alcun informationes circa te mesme, le datos de audio que tu invia pro Common Voice essera plus utile pro motores de recognition de voce que usa iste datos pro meliorar lor precision. 
 
 ## NotFound
 
+notfound-title = Non trovate
+notfound-content = Io time que io non sape lo que tu recerca.
 
 ## Data
 
+data-download-button = Discargar datos de Common Voice
 data-download-yes = Si
 data-download-deny = No
+data-download-license = Licentia: <licenseLink>CC-0</licenseLink>
+data-download-modal = Tu va initiar a discargar de <size>{ $size }GB</size>, continuar?
+data-subtitle = Nos construe un collection de datos de voces aperte e publicamente disponibile que omnes pote usar pro maestrar applicationes ad activation vocal.
 data-other-download = Discargar datos
 
 ## Record Page
 
+record-retry = Reproba
 record-no-mic-found = Nulle microphono trovate
+terms-agree = Io accepta
+terms-disagree = Io non accepta
+review-recording = Revider
 
 ## Download Modal
 
@@ -170,10 +193,14 @@ record-no-mic-found = Nulle microphono trovate
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = Lingua
 
 ## Languages Overview
 
+language-total-progress = Total
 
 ## New Contribution
 
+action-click = Clic
 nothing-to-validate = Nos non ha alco a validar in iste lingua, adjuta nos a plenar le cauda.
