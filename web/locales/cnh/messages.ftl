@@ -82,12 +82,14 @@ faq = FAQ
 share-title = Na hawi le dang nih an aw an rak tun ve ding ah kan bawm!
 share-text = Minung an holh ning computer chim ve, na Aw van khum { $link }
 back-top = A cung ah kir
+contribution-banner-text = Thil thar kan van thlah tthan.
 contribution-banner-button = Van zoh 
 report-bugs-link = A ttha lo mi kan chim
 
 ## Home Page
 
 home-title = Common Voice timi cu Mozilla nih tuahmi, zei tiin dah minung an holh ti computer chimh nak asi.
+home-cta = Na aw hi ka hin tuun!
 wall-of-text-start = Aw cu kokek asi, Aw cu minung asi. Cucaah cun computer ah hman khawh dingmi Laiholh ser lai hi kan i ngaih tuk. Hi kan tuah khawh nak ding caah cun Aw hi tamtuk hringhren kan herh.
 wall-of-text-more-mobile = Kampani lian ngan tampi nih an tuah tawn mi hi mitam deuh caah cun hmankhawh asi lo. Cucu tthanchonak caah hin thawphit tu asi ti ka ruah. Cucaah, Project Common Voice timi hi mi vialte nih an holh cio in computer an hman khawh nak ding caah kan tuah mi asi.  
 wall-of-text-more-desktop = Mikip nih an hman khawh ding mim Aw rak kan hrawm ve. <lineBreak></lineBreak> Minung an holh nih computer chimh din gah biatlang hi rel. Midang nih an chimcia zong chek tthan. A fawi te!
@@ -275,14 +277,20 @@ language-total-progress = Dihlak
 language-search-input =
     .placeholder = Kawl
 language-speakers = Chimtu 
+sentences = Catlang
+total-hours = Suimilam Dihlak
 
 ## New Contribution
 
 action-click = Hmet
 action-tap = Hmet
+contribute = Pek
 listen = Ngai
 skip = Lawnh
 shortcuts = tawitan
+clips = Aw-tawi
+goal-help-recording = Common Voice kan i tinhmi <goalPercentage></goalPercentage>chungah { $goalValue } na kan phak ter.
+goal-help-validation = Common Voice nih kan i tinhmi <goalPercentage></goalPercentage> chung ah { $goalValue } na chek pi .
 contribute-more =
     { $count ->
         [one] { $count }Tuah tthan na duh maw?
@@ -295,16 +303,20 @@ record-three-more-instruction = Pathum a tang!
 record-again-instruction = A ttha!<recordIcon></recordIcon> A rang tuun tthan
 record-again-instruction2 = Na thiam, tuun tthan <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Donghnak!
+review-tooltip = Hi ka hin awtawi Zoh-tthan & tuun-tthan
 unable-speak = Holh kho lo?
 review-instruction = Na duh cun zohtthan law tuun tthan
 record-submit-tooltip = { $actionType } Na manh tik ah kua
+clips-uploaded = Awtawi aa khumh cang
 record-abort-title = Tuun dih hmasa?
 record-abort-text = Na chuak ah cun na tuun mi na thlau lai
 record-abort-submit = Awtawi khumh
 record-abort-continue = Tuun dih
+record-abort-delete = Chuak & Awtawi hlonh
 listen-instruction = { $actionType }<playIcon></playIcon>Hman tein biatlang an rel maw?
 listen-again-instruction = A ttha tuk! <playIcon></playIcon> naa manh in ngai tthan
 listen-3rd-time-instruction = 2 na tuah cang, i zuam!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Dongh nak!
+nothing-to-validate = Hi holh in tuunmi zei hmanh kan ngei lo, na aw rak tuun ve.
 record-button-label = Na aw tuun
 share-title-new = <bold> Kan bawm </bold> Aw tampiin kawl
