@@ -318,6 +318,10 @@ language-meter-in-progress = Postęp
 language-total-progress = Razem
 language-search-input =
     .placeholder = Szukaj
+language-speakers = Osoby mówiące
+localized = Przetłumaczone
+sentences = Zdania
+total-hours = Razem godzin
 
 ## New Contribution
 
