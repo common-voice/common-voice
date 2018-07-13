@@ -319,6 +319,10 @@ language-meter-in-progress = İrəliləyiş
 language-total-progress = Ümumi
 language-search-input =
     .placeholder = Axtar
+language-speakers = Danışan
+localized = Lokallaşdırılıb
+sentences = Cümlələr
+total-hours = Toplam saat
 
 ## New Contribution
 
