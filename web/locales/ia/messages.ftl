@@ -209,6 +209,7 @@ record-retry = Reproba
 record-no-mic-found = Nulle microphono trovate
 record-error-too-short = Le registration era troppo breve.
 record-error-too-long = Le registration era troppo longe.
+record-error-too-quiet = Le registration era troppo quiete.
 terms-agree = Io accepta
 terms-disagree = Io non accepta
 review-submit-title = Reascolta e invia
