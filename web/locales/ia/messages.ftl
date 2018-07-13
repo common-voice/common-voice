@@ -175,15 +175,36 @@ data-download-deny = No
 data-download-license = Licentia: <licenseLink>CC-0</licenseLink>
 data-download-modal = Tu va initiar a discargar de <size>{ $size }GB</size>, continuar?
 data-subtitle = Nos construe un collection de datos de voces aperte e publicamente disponibile que omnes pote usar pro maestrar applicationes ad activation vocal.
+data-explanatory-text = Nos crede que le grande e publicamente disponibile collectiones de datos vocal favori le innovation e le salubre competition commercial in le apprendimento automatic basate sur le technologia del voce. Isto es un effortio global e nos invita omnes a participar. Nostre scopo es adjutar le technologia del voce a ser plus inclusive, reflectente le diversitate del voces del mundo.
+data-get-started = <speechBlogLink>Comenciar con le Recognition de voce</speechBlogLink>
+data-other-title = Altere collectiones de datos de voce…
+data-other-goto = Ir a { $name }
 data-other-download = Discargar datos
+data-other-librispeech-description = LibriSpeech es un corpus de circa 1000 horas de anglese parlate a 16Khz derivate ab la lectura de audio-libros ab le projecto LibriVox.
+data-other-ted-name = Corpus de TED-LIUM
+data-other-ted-description = Le corpus de TED-LIUM esseva facite ab  audio e lor transcriptiones disponibile sur le sito web de TED.
+data-other-voxforge-description = VoxForge esseva create pro colliger voces transcribite a usar con motores de recognition de voce libere e open-source.
+data-other-tatoeba-description = Tatoeba es un grande base de datos de phrases, traductiones, e audio parlate a usar in apprendimento de linguas.Iste discarga contine anglese parlate registrate per lor communitates.
+data-bundle-button = Discargar le pacco del collection de datos
+data-bundle-description = Le datos de Common Voice plus tote le altere collectiones de datos vocal precedente.
+license = Licentia: <licenseLink>{ $license }</licenseLink>
+license-mixed = Mixte
 
 ## Record Page
 
+record-platform-not-supported = Nos lo regretta, ma tu platteforma non es actualmente supportate.
+record-platform-not-supported-desktop = Sur computatores de scriptorio tu pote discargar le ultime:
+record-platform-not-supported-ios = Le usatores de <bold>iOS</bold> pote discargar nostre application gratuite:
 record-retry = Reproba
 record-no-mic-found = Nulle microphono trovate
 terms-agree = Io accepta
 terms-disagree = Io non accepta
+review-submit-title = Reascolta e invia
 review-recording = Revider
+review-rerecord = Registra de novo
+review-cancel = Cancellar invio
+review-keep-recordings = Retener le registrationes
+review-delete-recordings = Deler mi registrationes
 
 ## Download Modal
 
