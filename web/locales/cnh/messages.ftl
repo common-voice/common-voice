@@ -300,6 +300,7 @@ review-instruction = Na duh cun zohtthan law tuun tthan
 record-submit-tooltip = { $actionType } Na manh tik ah kua
 record-abort-title = Tuun dih hmasa?
 record-abort-text = Na chuak ah cun na tuun mi na thlau lai
+record-abort-submit = Awtawi khumh
 record-abort-continue = Tuun dih
 listen-instruction = { $actionType }<playIcon></playIcon>Hman tein biatlang an rel maw?
 listen-again-instruction = A ttha tuk! <playIcon></playIcon> naa manh in ngai tthan
