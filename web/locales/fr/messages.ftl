@@ -106,7 +106,7 @@ link-copied = Lien copié
 back-top = Haut de la page
 contribution-banner-text = Nous avons ajouté une toute nouvelle façon de contribuer
 contribution-banner-button = L’essayer
-report-bugs-link = Signaler des dysfonctionnements
+report-bugs-link = Signaler des problèmes
 
 ## Home Page
 
@@ -320,8 +320,9 @@ language-total-progress = Total
 language-search-input =
     .placeholder = Rechercher
 language-speakers = Locuteurs
+localized = Traduction
 sentences = Phrases
-total-hours = Nbre total d'heures
+total-hours = Nombre total d’heures
 
 ## New Contribution
 
@@ -346,6 +347,7 @@ review-tooltip = Vérifier et réenregistrer au besoin
 unable-speak = Impossible de parler en ce moment
 review-instruction = Vérifiez et réenregistrez si nécessaire
 record-submit-tooltip = { $actionType } envoyer lorsque vous êtes prêt
+clips-uploaded = Clips mis en ligne
 record-abort-title = D’abord finir d’enregistrer ?
 record-abort-text = Quitter maintenant vous fera perdre votre progression
 record-abort-submit = Envoyer les enregistrements
