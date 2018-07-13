@@ -320,6 +320,10 @@ language-meter-in-progress = War ober
 language-total-progress = Hollad
 language-search-input =
     .placeholder = Klask
+language-speakers = Komzerien
+localized = Lec'helaet
+sentences = Frazennoù
+total-hours = Hollad eurvezhioù
 
 ## New Contribution
 
