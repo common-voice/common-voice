@@ -102,6 +102,7 @@ faq = Cwestiynau Cyffredin
 content-license-text = Mae'r cynnwys ar gael o dan <licenseLink>drwydded Creative Commons</licenseLink>
 share-title = Helpwch ni i gael rhagor o bobl i gyfrannu eu lleisiau!
 share-text = Helpwch beiriannau i ddysgu sut mae pobl go iawn yn siarad, cyfrannwch eich llais yn { $link }
+link-copied = Dolen wedi'i chopïo
 back-top = Nôl i'r Brig
 contribution-banner-text = Rydym newydd lansio profiad cyfrannwr newydd
 contribution-banner-button = Cymrwch olwg
@@ -322,6 +323,7 @@ language-meter-in-progress = Cynnydd
 language-total-progress = Cyfanswm
 language-search-input =
     .placeholder = Chwilio
+language-speakers = Siaradwyr
 
 ## New Contribution
 
@@ -346,7 +348,7 @@ review-tooltip = Adolygu ac ail recordio clipiau yma wrth fynd
 unable-speak = Methu siarad nawr
 review-instruction = Adolygu ac ail recordio clipiau os oes angen
 record-submit-tooltip = { $actionType } cyflwyno pan yn barod
-clips-submitted = { $count } Clip wedi eu cyflwyno!
+clips-uploaded = Clipiau Wedi'u Llwytho
 record-abort-title = Gorffen recordio yn gyntaf?
 record-abort-text = Bydd gadael nawr yn golygu eich bod yn colli eich cyfraniad
 record-abort-submit = Cyflwyno clipiau
