@@ -101,6 +101,7 @@ faq = Často kladené otázky
 content-license-text = Obsah je dostupný v rámci licencie <licenseLink>Creative Commons</licenseLink>
 share-title = Pomôžte nám nájsť ďalších, ktorí prispejú svojím hlasom!
 share-text = Pomôžte strojom pochopiť ľudskú reč. Prispejte svojím hlasom na { $link }
+link-copied = Odkaz bol skopírovaný
 back-top = Návrat hore
 contribution-banner-text = Práve sme spustili nové prostredie pre prispievateľov
 contribution-banner-button = Pozrite sa naň
@@ -323,6 +324,7 @@ language-meter-in-progress = Pokrok
 language-total-progress = Celkovo
 language-search-input =
     .placeholder = Hľadať
+language-speakers = Počet hovoriacich
 
 ## New Contribution
 
@@ -352,12 +354,6 @@ review-tooltip = Skontrolujte nahrávky a v prípade potreby ich opätovne nahra
 unable-speak = Nemôžete práve teraz hovoriť?
 review-instruction = Skontrolujte nahrávky a v prípade potreby ich nahrajte znova
 record-submit-tooltip = { $actionType } na odoslať keď budete hotoví
-clips-submitted =
-    { $count ->
-        [one] Bola odoslaná { $count } nahrávka
-        [few] Boli odoslané { $count } nahrávky
-       *[other] Bolo odoslaných { $count } nahrávok
-    }
 record-abort-title = Nechcete najprv dokončiť nahrávanie?
 record-abort-text = Ak teraz odídete, stratíte svoj pokrok
 record-abort-submit = Odoslať nahrávky
@@ -367,4 +363,6 @@ listen-instruction = { $actionType } na <playIcon></playIcon>. Bola veta v poria
 listen-again-instruction = Skvelá práca! <playIcon></playIcon> Keď budete pripravení, spustite ďalšiu nahrávku
 listen-3rd-time-instruction = 2 už sú za vami, pokračujte v dobrej práci!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Posledná nahrávka!
+nothing-to-validate = Pre váš jazyk nemáme čo overiť. Pomôžte nám to zmeniť.
+record-button-label = Nahrajte svoj hlas
 share-title-new = <bold>Pomôžte nám</bold> nájsť ďalšie hlasy
