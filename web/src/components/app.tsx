@@ -203,19 +203,17 @@ const LocalizedLayout: any = withRouter(
                 />
                 <LocalizationProvider messages={messagesGenerator}>
                   <div>
-                    {!isProduction() && (
-                      <div className="notifications">
-                        {notifications
-                          .slice()
-                          .reverse()
-                          .map(notification => (
-                            <NotificationPill
-                              key={notification.id}
-                              {...notification}
-                            />
-                          ))}
-                      </div>
-                    )}
+                    <div className="notifications">
+                      {notifications
+                        .slice()
+                        .reverse()
+                        .map(notification => (
+                          <NotificationPill
+                            key={notification.id}
+                            {...notification}
+                          />
+                        ))}
+                    </div>
 
                     <Switch>
                       <Route
