@@ -111,7 +111,7 @@ report-bugs-link = バグを報告
 home-title = Common Voiceプロジェクトは機械が人の話を理解できるようにする、Mozillaの新たな取り組みです。
 home-cta = あなたの声で貢献を始めましょう！
 wall-of-text-start = 音声を使ったコミニケーションは自然で人間的です。人と機械が音声を使ったコミュニケーションができればどれほど素晴らしいでしょうか？この実現にむけて、人々は機械が使える音声技術の開発を行っています。しかし、音声技術の開発には非常に多くの音声データが必要です。
-wall-of-text-more-mobile = 大企業が利用している多くの音声データは一般の人が利用できません。このままでは、音声技術の発展が停滞してしまう。そう考え、私達は誰もが音声技術を利用できるようにするため、Common Voiceプロジェクトを立ち上げました。
+wall-of-text-more-mobile = 大企業が利用している多くの音声データは一般の人が利用できません。このままでは、音声技術の発展が停滞してしまう。そう考え、誰もが音声技術を利用できるように、Common Voiceプロジェクトを立ち上げました。
 wall-of-text-more-desktop = Common Voiceプロジェクトは誰もが参加または利用できる、オープンな音声データベースです。皆さんの声をデータベースへ登録する事で、このデータベースを使うアプリやwebサービスをよりすばらしいものにできます。<lineBreak></lineBreak>参加は簡単です。文章を読んで、あなたの声をデータベースに登録してください！もしくは、データベースの品質を向上するため、他の人が登録した声をチェックしてしてください！
 show-wall-of-text = 続きを読む
 help-us-title = 音声の検証を手伝ってください！
@@ -145,7 +145,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = 録音/停止
-request-language-text = あなたの使っている言語が Common Voice にありませんでしたか？
+request-language-text = あなたの使っている言語は Common Voice にありますか？
 request-language-button = 言語の追加をリクエスト
 
 ## ProjectStatus
@@ -308,12 +308,13 @@ language-section-in-progress-description = 現在進行中の言語は、コミ�
 language-section-launched = 公開中
 language-section-launched-description = 公開中の言語はウェブサイトのローカライズが完了し、十分な量の文章が集まっています。 <italic>{ speak }</italic> と <italic>{ listen }</italic> で貢献できます。
 languages-show-more = もっと見る
-languages-show-less = 省略する
+languages-show-less = 閉じる
 language-speakers = スピーカー
 language-meter-in-progress = 進捗
 language-total-progress = 合計
 language-search-input =
     .placeholder = 検索
+language-speakers = スピーカー
 
 ## New Contribution
 
@@ -341,10 +342,6 @@ review-tooltip = 録音した音声の、確認と再録音
 unable-speak = 今は喋れませんか？
 review-instruction = 録音した音声を確認して、必要なら再録音してください
 record-submit-tooltip = 終わったら提出を{ $actionType }
-clips-submitted =
-    { $count ->
-       *[other] { $count }個の音声を提出しました
-    }
 record-abort-title = 録音を終了しますか？
 record-abort-text = 今ページを離れると、作業した内容が消えます
 record-abort-submit = 録音を提出
