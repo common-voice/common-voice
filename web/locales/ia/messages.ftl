@@ -47,12 +47,16 @@ zh-TW = chinese (Taiwan)
 ## Layout
 
 languages = linguas
+help = Auxilio
+contact = Contacto
 privacy = Confidentialitate
 terms = Terminos
 cookies = Cookies
+faq = Questiones frequente
 content-license-text = Contento disponibile sub <licenseLink>licentia Creative Commons</licenseLink>
 share-title = Adjuta nos a trovar alteres pro donar lor voce!
 share-text = Adjuta a inseniar al machinas como parla le personas real, dona tu voce al { $link }
+link-copied = Ligamine copiate
 back-top = Receder al initio
 contribution-banner-text = Nos ha a pena lanceate un nove experientia de contribution
 contribution-banner-button = Da un reguardo
@@ -83,9 +87,14 @@ shortcut-skip = s
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
+shortcut-play-toggle-label = Reproducer/stoppar
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = R
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = Registrar/stoppar
 request-language-text = An tu non vide ancora tu lingua sur Common Voice?
 request-language-button = Propone un lingua
 
@@ -195,8 +204,11 @@ license-mixed = Mixte
 record-platform-not-supported = Nos lo regretta, ma tu platteforma non es actualmente supportate.
 record-platform-not-supported-desktop = Sur computatores de scriptorio tu pote discargar le ultime:
 record-platform-not-supported-ios = Le usatores de <bold>iOS</bold> pote discargar nostre application gratuite:
+record-must-allow-microphone = Tu debe permitter le accesso al microphono
 record-retry = Reproba
 record-no-mic-found = Nulle microphono trovate
+record-error-too-short = Le registration era troppo breve.
+record-error-too-long = Le registration era troppo longe.
 terms-agree = Io accepta
 terms-disagree = Io non accepta
 review-submit-title = Reascolta e invia
