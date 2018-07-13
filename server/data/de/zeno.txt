@@ -268,8 +268,8 @@ System konfigurieren.
 Systemstatus abrufen!
 Temperatur im Wohnzimmer um zwei Grad Celsius hochregeln.
 Timer anhalten.
-Timer auf 20 Minuten stellen.
-Timer auf 30 Sekunden stellen.
+Timer auf zwanzig Minuten stellen.
+Timer auf dreißig Sekunden stellen.
 Timer starten.
 Twitter-Feed anzeigen!
 Und sonst?
