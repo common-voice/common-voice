@@ -1,5 +1,6 @@
 ## General
 
+yes-receive-emails = Asi, ca ka kua ko. Common Voice Project kong theih ka duh.
 stayintouch = Holh phun kip in computer a ngahnak ding hi kan nih Mozilla compani nih kan i tinh mi cu asi. Zei tiin dah hihi na hman timi le  thilthar pawl kan ngeih tik ah in chimh ve kan duh. 
 privacy-info = Nangmah kong midang kan theih ter hna lai lo. <privacyLink>Privacy Notice</privacyLink> ah hin rel chap.
 return-to-cv = Common Voice ah kir
@@ -72,8 +73,9 @@ zh-TW = China holh (Taiwan)
 
 speak = Chim
 speak-now = Chim cang
+datasets = Datasets
 languages = Holh phun
-profile = Mahkonglam
+profile = Sining
 help = Bawmh
 contact = Pehtlaihnak
 privacy = Kilvennak
@@ -146,7 +148,7 @@ english = Mirang
 ## ProfileForm
 
 profile-form-cancel = Chuaknak Catlap
-profile-form-delete = Mahkonglam hlonhnak
+profile-form-delete = Sining hlonhnak
 profile-form-username =
     .label = Min hman
 profile-form-language =
@@ -159,18 +161,20 @@ profile-form-gender =
     .label = Nupa thleidannak
 profile-form-submit-save = Khumh
 profile-form-submit-saved = Khumh
+profile-keep-data = Data i chiah
+profile-delete-data = Data hlonh
 male = Pa
 female = Nu
 # Gender
 other = Adang
-why-profile-title = Zeiruang ah keimah konglam cu a herh?
+why-profile-title = Zeiruang ah keimah sining cu a herh?
 why-profile-text = Nangmah konglam kan theihnak thawngin Common Voice nih AW ttha deuh le hman deuh in a theih khawh lai. 
-edit-profile = Mahkonlam remhnak
-profile-create = Mahkonglam Sernak
-profile-create-success = A tlamtling, Mahkonglam na ser khawh!
+edit-profile = Sining remhnak
+profile-create = Sining Sernak
+profile-create-success = A tlamtling, Sining na ser khawh!
 profile-close = Phit
-profile-clear-modal = Mahkonglam na hlonh ah cun Commmon Voice ah nangmah konglam le na tuun cia vialte aa hlonh dih lai. 
-profile-explanation = Mahkonglam ah na tuahcia vialte zoh law, Aw kan lak mi vialte a hman deuhnak ding in kan bawm. 
+profile-clear-modal = Sining na hlonh ah cun Commmon Voice ah nangmah konglam le na tuun cia vialte aa hlonh dih lai. 
+profile-explanation = Sining ah na tuahcia vialte zoh law, Aw kan lak mi vialte a hman deuhnak ding in kan bawm. 
 
 ## FAQ
 
@@ -179,7 +183,7 @@ faq-what-q = Common Voice cu zei dah asi?
 faq-what-a = Computer pawl holh in chawnh khawh cu thil lianngan tuk asi, asi nain cheukhat cu an man faktuk tawn. Common Voice i kan i tinhmi cu a mikip caah fawi tein hmanter khawh hi asi. Mi tampi nih an Aw khumh in khulrang tele fawi tein tuah asi. Kan tuahmi vialte hi mipi nih hman khawh dih asi lai.
 faq-important-q = Zei ruang ah dah a bia pi?
 faq-important-a = Aw cu kokek asi, Aw cu minung asi. I chawnh khanh nak caah a a fawi cemmi le hmancem mi asi. Computer thiam nih hi thil chung in hman awktlak thil ttha, holh leh/ ca leh le a dang dang bawntuk ah an ser khawh nak ding hi kan duh. Asinain atu ah cun mipi nih hamn khawh ding mi hi a um lo. Common Voice nih hin computer thiam pawl thil ttha ttha an sernak cung ah a bawmh hna lai hi kan duh.
-faq-get-q = Common Voice thil (data) hi zei tin dah ka lak khawh lai?
+faq-get-q = Common Voice data hi zei tin dah ka lak khawh lai?
 faq-mission-q = Zei ruang ah dah Common Voice hi Mozilla nih a tinhmi rian asi ve?
 faq-native-q = { $lang } holh ah kokek ka si lo i Aw-cawi ka ngei, ka holh nan duh ko maw?
 faq-native-a = Asi, kan duh tthiam ko! Common Voice i kan i tinh mi cu computer nih Aw a theih khawh cem nak hnga zei Aw-cawi paoh lak chih dih kan duh.
@@ -195,7 +199,7 @@ faq-source-a2 = Hi ka<dataLink> hin biatlang kan lak nak na zoh khawh.  </dataLi
 
 ## Profile
 
-profile-why-title = Zei tuah ah keimah konglam cu a herh?
+profile-why-title = Zei tuah ah keimah sining cu a herh?
 profile-why-content = Nangmah kong kan theih deuh ah hin Common Voice nih na Aw hi ttha deuh le hmann deuh in computer a chimh khawh lai.
 
 ## NotFound
@@ -205,11 +209,12 @@ notfound-content = Na kawl mi hi ka thei lo.
 
 ## Data
 
-data-download-button = Common Voice thilri hi dawnlok
+data-download-button = Common Voice data hi tleng
 data-download-yes = Asi
 data-download-deny = Asi lo
 data-download-license = Laisen:<licenseLink>CC-0</licenseLink>
 data-download-modal = Atu dawnlok na timh mi hi <size>{ $size }GB</size> asi, tuah ko?
+data-other-title = Adang Aw datasets
 data-other-goto = { $name } hin kal
 data-other-librispeech-description = LIbriSpeech cu suimilam thongkhat (1000) chung 16Khz tluk in cauk relmi LibriVox ah lak mi chiahnak a si. 
 data-other-ted-name = TED-LIUM Corpus
@@ -250,6 +255,7 @@ download-helpus = Holhphun kip in computer a ngah khawh nak ding kan bawm, email
 download-form-email =
     .label = Na email ttial
     .value = Kan i lawm, kan in hngalhter lai.
+download-back = Common Voice Datasets ah kir
 download-no = Tuah hlah
 
 ## Contact Modal
