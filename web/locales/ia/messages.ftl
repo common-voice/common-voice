@@ -208,12 +208,18 @@ review-delete-recordings = Deler mi registrationes
 
 ## Download Modal
 
+download-title = Tu discarga initiava
+download-form-email =
+    .label = Insere tu email
+    .value = Gratias, nos es in contacto.
+download-no = No gratias
 
 ## Contact Modal
 
 
 ## Request Language Modal
 
+request-language-title = Requesta de nove lingua
 request-language-form-language =
     .label = Lingua
 
