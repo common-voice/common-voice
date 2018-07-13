@@ -102,6 +102,7 @@ faq = SSS
 content-license-text = İçerikler <licenseLink>Creative Commons lisansı</licenseLink> ile sunulmaktadır
 share-title = Sesini bağışlayacak birilerini bulmamıza yardım edin!
 share-text = Makinelere gerçek insanların nasıl konuştuğunu öğretin: { $link } ile sesinizi bağışlayın 
+link-copied = Bağlantı kopyalandı
 back-top = Başa dön
 contribution-banner-text = Katkıda bulunabileceğiniz yeni bir arayüz deniyoruz
 contribution-banner-button = Bir göz atın
@@ -316,6 +317,7 @@ language-meter-in-progress = İlerleme
 language-total-progress = Toplam
 language-search-input =
     .placeholder = Ara
+language-speakers = Konuşmacı
 
 ## New Contribution
 
@@ -344,11 +346,6 @@ review-tooltip = İlerledikçe bu kayıtları gözden geçirip yeniden kaydedin
 unable-speak = Şu anda konuşamıyor musunuz?
 review-instruction = Kayıtları gözden geçirip gerekirse yeniden kaydedin
 record-submit-tooltip = { $actionType } hazır olduğunuzda gönderin
-clips-submitted =
-    { $count ->
-        [one] { $count } klip gönderildi!
-       *[other] { $count } klip gönderildi!
-    }
 record-abort-title = Önce kayıt bitirilsin mi?
 record-abort-text = Şimdi çıkarsanız yaptıklarınız kaydedilmeyecek
 record-abort-submit = Klipleri gönder
