@@ -1,6 +1,5 @@
 ## General
 
-yes-receive-emails = Asi, ca ka kua ko. Common Voice Project kong theih peng ka duh.
 stayintouch = Holh phun kip in computer a ngahnak ding hi kan nih Mozilla compani nih kan i tinh mi cu asi. Zei tiin dah hihi na hman timi le  thilthar pawl kan ngeih tik ah in chimh ve kan duh. 
 privacy-info = Nangmah kong midang kan theih ter hna lai lo. <privacyLink>Privacy Notice</privacyLink> ah hin rel chap.
 return-to-cv = Common Voice ah kir
@@ -275,6 +274,7 @@ language-meter-in-progress = tthanchonak
 language-total-progress = Dihlak
 language-search-input =
     .placeholder = Kawl
+language-speakers = Chimtu 
 
 ## New Contribution
 
