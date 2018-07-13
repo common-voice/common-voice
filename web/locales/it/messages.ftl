@@ -22,6 +22,7 @@ ast = Asturiano
 az = Azerbaigiano
 bn = Bengalese
 br = Bretone
+bxr = Buriato
 ca = Catalano
 cnh = Hakha Chin
 cs = Ceco
@@ -101,6 +102,7 @@ faq = FAQ
 content-license-text = Contenuto disponibile sotto <licenseLink>licenza Creative Commons</licenseLink>
 share-title = Aiutaci a trovare altri donatori di voce!
 share-text = Aiutaci a insegnare alle macchine come le persone parlano nella vita reale, dona la tua voce su { $link }
+link-copied = Link copiato
 back-top = Torna in alto
 contribution-banner-text = È disponibile una nuova esperienza di contribuzione
 contribution-banner-button = Dai un’occhiata
@@ -315,6 +317,7 @@ language-meter-in-progress = Progresso
 language-total-progress = Totale
 language-search-input =
     .placeholder = Cerca
+language-speakers = Parlato da
 
 ## New Contribution
 
@@ -339,6 +342,7 @@ review-tooltip = Riascolta e, se necessario, ripeti le registrazioni prima di pr
 unable-speak = Non posso parlare in questo momento
 review-instruction = Riascolta le registrazioni e, se necessario, ripetile
 record-submit-tooltip = { $actionType } carica il tuo contributo quando è pronto
+clips-uploaded = Registrazioni caricate
 record-abort-title = Non vuoi finire la registrazione prima?
 record-abort-text = Se esci adesso perderai i progressi fatti
 record-abort-submit = Invia registrazioni
