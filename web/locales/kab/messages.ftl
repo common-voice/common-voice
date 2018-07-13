@@ -317,6 +317,10 @@ language-meter-in-progress = Asfari
 language-total-progress = Asemday
 language-search-input =
     .placeholder = Nadi
+language-speakers = Wid yettmeslayen
+localized = Yettwasideg
+sentences = Tifyar
+total-hours = Amḍan n yisragen
 
 ## New Contribution
 
