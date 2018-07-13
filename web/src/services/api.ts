@@ -1,3 +1,4 @@
+import { LanguageStats } from '../../../common/language-stats';
 import { Locale } from '../stores/locale';
 import { User } from '../stores/user';
 import { Recordings } from '../stores/recordings';
@@ -159,27 +160,8 @@ export default class API {
     });
   }
 
-  fetchPontoonLanguages() {
-    return this.fetch('https://pontoon.mozilla.org/graphql', {
-      method: 'POST',
-      body: {
-        query: `{
-          project(slug: "common-voice") {
-            slug
-            localizations {
-              totalStrings
-              approvedStrings
-              locale {
-                code
-                name
-                population
-              }
-            }
-          }
-        }`,
-        variables: null,
-      },
-    });
+  async fetchLanguageStats(): Promise<LanguageStats> {
+    return this.fetch(`${API_PATH}/language_stats`);
   }
 
   fetchDocument(name: 'privacy' | 'terms'): Promise<string> {

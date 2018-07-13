@@ -1,14 +1,17 @@
-import { toLocaleRouteBuilder } from '../../locale-helpers';
-
 const { LocalizationProvider, Localized } = require('fluent-react');
 import { RouteComponentProps, withRouter } from 'react-router';
 import * as React from 'react';
 import ContentLoader from 'react-content-loader';
 import { connect } from 'react-redux';
+import {
+  InProgressLanguage,
+  LaunchedLanguage,
+} from '../../../../../common/language-stats';
 import URLS from '../../../urls';
 import { createCrossLocaleMessagesGenerator } from '../../../services/localization';
 import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';
+import { toLocaleRouteBuilder } from '../../locale-helpers';
 import ProgressBar from '../../progress-bar/progress-bar';
 import { Hr } from '../../ui/ui';
 import GetInvolvedModal from './get-involved-modal';
@@ -16,15 +19,23 @@ import GetInvolvedModal from './get-involved-modal';
 function Skeleton({
   loading,
   title,
-  population,
+  metricLabel,
+  metricValue,
+  progressLabel,
   progress,
+  progressTotal,
+  progressSecondary,
   children,
   onClick,
 }: {
   loading?: boolean;
   title?: React.ReactNode;
-  population?: React.ReactNode;
+  metricLabel?: React.ReactNode;
+  metricValue?: React.ReactNode;
+  progressLabel?: React.ReactNode;
   progress?: number;
+  progressTotal?: number;
+  progressSecondary?: boolean;
   children?: React.ReactNode;
   onClick?: any;
 }) {
@@ -38,10 +49,8 @@ function Skeleton({
               <ContentLoader height={25} />
             ) : (
               <React.Fragment>
-                <Localized id="language-speakers">
-                  <span />
-                </Localized>
-                <b>{population}</b>
+                {metricLabel}
+                <b className="value">{metricValue.toLocaleString()}</b>
               </React.Fragment>
             )}
           </div>
@@ -51,22 +60,20 @@ function Skeleton({
               <ContentLoader height={25} />
             ) : (
               <React.Fragment>
-                <Localized
-                  id={
-                    progress < 1
-                      ? 'language-meter-in-progress'
-                      : 'language-section-launched'
-                  }>
-                  <span />
-                </Localized>
-                <b>{Math.round(progress * 100)}%</b>
+                {progressLabel}
+                <span className="value">
+                  <b>{progress}</b> / {progressTotal}
+                </span>
               </React.Fragment>
             )}
           </div>
           {loading ? (
             <ContentLoader height={25} />
           ) : (
-            <ProgressBar progress={progress} />
+            <ProgressBar
+              progress={progress / progressTotal}
+              secondary={progressSecondary}
+            />
           )}
         </div>
       </div>
@@ -83,24 +90,16 @@ export function LoadingLocalizationBox() {
   return <Skeleton loading />;
 }
 
-interface Locale {
-  code?: string;
-  name: string;
-  population: number;
-}
-
 interface PropsFromState {
   globalLocale: Locale.State;
 }
 
-interface Props extends PropsFromState, RouteComponentProps<any> {
-  localization: {
-    locale: Locale;
-    progress: number;
-  };
-  localeMessages: string[][];
-  type: 'in-progress' | 'launched';
-}
+type Props = PropsFromState &
+  RouteComponentProps<any> & {
+    localeMessages: string[][];
+  } & (
+    | (InProgressLanguage & { type: 'in-progress' })
+    | (LaunchedLanguage & { type: 'launched' }));
 
 interface State {
   showModal: boolean;
@@ -112,12 +111,12 @@ class LocalizationBox extends React.PureComponent<Props, State> {
   };
 
   buildMessagesGenerator() {
-    const { globalLocale, localization, localeMessages } = this.props;
+    const { globalLocale, locale, localeMessages } = this.props;
 
     return (
       localeMessages &&
       createCrossLocaleMessagesGenerator(localeMessages, [
-        localization.locale.code,
+        locale.code,
         globalLocale,
       ])
     );
@@ -126,45 +125,77 @@ class LocalizationBox extends React.PureComponent<Props, State> {
   toggleModal = () => this.setState({ showModal: !this.state.showModal });
 
   goToContribute = () => {
-    const { history, localization } = this.props;
-    history.push(toLocaleRouteBuilder(localization.locale.code)(URLS.SPEAK));
+    const { history, locale } = this.props;
+    history.push(toLocaleRouteBuilder(locale.code)(URLS.SPEAK));
   };
 
   render() {
-    const { localization, type } = this.props;
-    const isInProgress = type == 'in-progress';
+    const { locale } = this.props;
+
+    const title = (
+      <Localized id={locale.code}>
+        <span />
+      </Localized>
+    );
 
     return (
       <React.Fragment>
         {this.state.showModal && (
           <LocalizationProvider messages={this.buildMessagesGenerator()}>
             <GetInvolvedModal
-              locale={localization.locale}
+              locale={locale}
               onRequestClose={this.toggleModal}
             />
           </LocalizationProvider>
         )}
-        <Skeleton
-          title={
-            <Localized id={localization.locale.code}>
-              <span />
-            </Localized>
-          }
-          population={localization.locale.population.toLocaleString()}
-          progress={localization.progress + (isInProgress ? 0 : 0.5)}
-          onClick={isInProgress ? this.toggleModal : this.goToContribute}>
-          <LocalizationProvider messages={this.buildMessagesGenerator()}>
-            {isInProgress ? (
+        {this.props.type === 'in-progress' ? (
+          <Skeleton
+            title={title}
+            metricLabel={
+              <Localized id="localized">
+                <span />
+              </Localized>
+            }
+            metricValue={this.props.localizedPercentage + '%'}
+            progressLabel={
+              <Localized id="sentences">
+                <span />
+              </Localized>
+            }
+            progress={this.props.sentencesCount}
+            progressTotal={500}
+            onClick={this.toggleModal}>
+            <LocalizationProvider messages={this.buildMessagesGenerator()}>
               <Localized id="get-involved-button">
                 <span />
               </Localized>
-            ) : (
+            </LocalizationProvider>
+          </Skeleton>
+        ) : (
+          <Skeleton
+            title={title}
+            metricLabel={
+              <Localized id="language-speakers">
+                <span />
+              </Localized>
+            }
+            metricValue={this.props.speakers}
+            progressLabel={
+              <Localized id="total-hours">
+                <span />
+              </Localized>
+            }
+            progress={this.props.hours}
+            progressTotal={1200}
+            progressSecondary
+            onClick={this.goToContribute}>
+            <LocalizationProvider messages={this.buildMessagesGenerator()}>
               <Localized id="contribute">
                 <span />
               </Localized>
-            )}
-          </LocalizationProvider>
-        </Skeleton>
+            </LocalizationProvider>
+          </Skeleton>
+        )}
       </React.Fragment>
     );
   }

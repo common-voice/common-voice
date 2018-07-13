@@ -154,7 +154,20 @@ export default class DB {
     return this.userClient.getCount();
   }
 
-  async getSentencesCount(): Promise<number> {
+  async getSentenceCountByLocale(locales: string[]): Promise<any> {
+    const [rows] = await this.mysql.query(
+      `
+        SELECT COUNT(*) AS count, locales.name AS locale
+        FROM sentences
+        LEFT JOIN locales ON sentences.locale_id = locales.id
+        WHERE locales.name IN (?)
+      `,
+      [locales]
+    );
+    return rows;
+  }
+
+  async getTotalSentencesCount(locales?: string[]): Promise<number> {
     const [[{ count }]] = await this.mysql.query(
       `SELECT COUNT(*) AS count FROM sentences`
     );
@@ -196,14 +209,19 @@ export default class DB {
     ))[0][0].count;
   }
 
-  async getSubmitterCount(): Promise<number> {
+  async getSpeakerCount(
+    locales: string[]
+  ): Promise<{ locale: string; count: number }[]> {
     return (await this.mysql.query(
       `
-        SELECT DISTINCT COUNT(DISTINCT user_clients.client_id) AS count
-        FROM user_clients
-        INNER JOIN clips ON user_clients.client_id = clips.client_id
-      `
-    ))[0][0].count;
+        SELECT locales.name AS locale, COUNT(DISTINCT clips.client_id) AS count
+        FROM clips
+        LEFT JOIN locales ON clips.locale_id = locales.id
+        WHERE locales.name IN (?)
+        GROUP BY locale
+      `,
+      [locales]
+    ))[0];
   }
 
   /**
@@ -368,21 +386,28 @@ export default class DB {
     }
   }
 
-  async getValidatedClipsCount() {
-    const [[{ count }]] = await this.mysql.query(
+  async getValidClipCount(
+    locales: string[]
+  ): Promise<{ locale: string; count: number }[]> {
+    const [rows] = await this.mysql.query(
       `
-        SELECT COUNT(*) AS count
+        SELECT locale, COUNT(*) AS count
         FROM (
-         SELECT clips.*, SUM(votes.is_valid) AS upvotes_count, SUM(NOT votes.is_valid) AS downvotes_count
+         SELECT locales.name AS locale,
+                SUM(votes.is_valid) AS upvotes_count,
+                SUM(NOT votes.is_valid) AS downvotes_count
          FROM clips
          LEFT JOIN votes ON clips.id = votes.clip_id
-         WHERE locale_id = 1
+         LEFT JOIN locales ON clips.locale_id = locales.id
+         WHERE locales.name IN (?)
          GROUP BY clips.id
          HAVING upvotes_count >= 2 AND upvotes_count > downvotes_count
         ) AS valid_clips
-      `
+        GROUP BY locale
+      `,
+      [locales]
     );
-    return count || 0;
+    return rows;
   }
 
   async insertSentence(id: string, sentence: string, bucket = 'train') {

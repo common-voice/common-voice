@@ -312,6 +312,10 @@ language-meter-in-progress = Progress
 language-total-progress = Total
 language-search-input =
     .placeholder = Search
+language-speakers = Speakers
+localized = Localized
+sentences = Sentences
+total-hours = Total Hrs
 
 ## New Contribution
 action-click = Click

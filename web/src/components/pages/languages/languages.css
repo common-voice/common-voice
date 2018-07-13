@@ -342,6 +342,11 @@
                     letter-spacing: 0.8px;
                 }
 
+                & .value {
+                    font-style: normal;
+                    letter-spacing: normal;
+                }
+
                 & b {
                     color: var(--near-black);
                 }

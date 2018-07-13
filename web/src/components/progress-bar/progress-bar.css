@@ -13,7 +13,11 @@
         align-items: center;
         color: var(--white);
         font-weight: bold;
-        background: var(--green);
+        background: var(--valid-green);
         transition: width var(--transition-duration-slow) var(--easing);
+
+        &.blue {
+            background: var(--blue);
+        }
     }
 }

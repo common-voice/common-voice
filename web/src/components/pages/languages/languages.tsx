@@ -2,14 +2,17 @@ import { Localized } from 'fluent-react';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import API from '../../../services/api';
-import { isProduction } from '../../../utility';
+import {
+  InProgressLanguage,
+  LaunchedLanguage,
+} from '../../../../../common/language-stats';
+import { getNativeNameWithFallback } from '../../../services/localization';
 import StateTree from '../../../stores/tree';
+import { isProduction } from '../../../utility';
 import RequestLanguageModal from '../../request-language-modal/request-language-modal';
 import { CloseIcon, SearchIcon } from '../../ui/icons';
 import { Button, Hr, TextButton } from '../../ui/ui';
 import LocalizationBox, { LoadingLocalizationBox } from './localization-box';
-import { getNativeNameWithFallback } from '../../../services/localization';
-import { contributableLocales, isContributable } from '../../locale-helpers';
 
 interface PropsFromState {
   api: API;
@@ -20,8 +23,8 @@ interface Props extends PropsFromState {}
 type LanguageSection = 'in-progress' | 'launched';
 
 interface State {
-  inProgress: any;
-  launched: any;
+  inProgress: InProgressLanguage[];
+  launched: LaunchedLanguage[];
   localeMessages: string[][];
   selectedSection: LanguageSection;
   showAllInProgress: boolean;
@@ -49,45 +52,16 @@ class LanguagesPage extends React.PureComponent<Props, State> {
   async componentDidMount() {
     const { api } = this.props;
 
-    const [localeMessages, pontoonLanguages] = await Promise.all([
+    const [localeMessages, { launched, inProgress }] = await Promise.all([
       api.fetchCrossLocaleMessages(),
-      api.fetchPontoonLanguages(),
+      api.fetchLanguageStats(),
     ]);
 
-    const localizations = pontoonLanguages.data.project.localizations
-      .map((localization: any) => ({
-        ...localization,
-        progress:
-          0.5 * (localization.approvedStrings / localization.totalStrings),
-      }))
-      .sort(
-        (l1: any, l2: any) =>
-          l1.progress == l2.progress
-            ? l1.locale.population < l2.locale.population
-            : l1.progress < l2.progress
-      );
-
-    const [launched, inProgress] = localizations.reduce(
-      ([launched, inProgress]: any, localization: any) =>
-        isContributable(localization.locale.code)
-          ? [[...launched, localization], inProgress]
-          : [launched, [...inProgress, localization]],
-      [[], []]
-    );
-
     this.setState({
-      inProgress,
-      launched: [
-        ...launched,
-        {
-          locale: {
-            code: 'en',
-            name: 'English',
-            population: 1522575000,
-          },
-          progress: 0.5,
-        },
-      ],
+      inProgress: inProgress.sort(
+        (l1, l2) => (l1.localizedPercentage < l2.localizedPercentage ? 1 : -1)
+      ),
+      launched: launched.sort((l1, l2) => (l1.hours < l2.hours ? 1 : -1)),
       localeMessages,
     });
   }
@@ -260,12 +234,12 @@ class LanguagesPage extends React.PureComponent<Props, State> {
               <ul>
                 {launched.length > 0
                   ? (showAllLaunched ? launched : launched.slice(0, 3)).map(
-                      (localization: any, i: number) => (
+                      (localization, i) => (
                         <LocalizationBox
                           key={i}
                           localeMessages={localeMessages}
                           type="launched"
-                          {...{ localization }}
+                          {...localization}
                         />
                       )
                     )
@@ -307,12 +281,12 @@ class LanguagesPage extends React.PureComponent<Props, State> {
             </Localized>
             <ul>
               {inProgress.length > 0
-                ? filteredInProgress.map((localization: any, i: number) => (
+                ? filteredInProgress.map((localization, i) => (
                     <LocalizationBox
                       key={i}
                       localeMessages={localeMessages}
                       type="in-progress"
-                      {...{ localization }}
+                      {...localization}
                     />
                   ))
                 : [1, 2, 3].map(i => <LoadingLocalizationBox key={i} />)}

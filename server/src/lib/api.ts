@@ -62,6 +62,8 @@ export default class API {
     router.get('/requested_languages', this.getRequestedLanguages);
     router.post('/requested_languages', this.createLanguageRequest);
 
+    router.get('/language_stats', this.getLanguageStats);
+
     router.use('*', (request: Request, response: Response) => {
       response.sendStatus(404);
     });
@@ -124,5 +126,9 @@ export default class API {
     const { headers: { uid }, params: { id } } = request;
     await this.model.db.createSkippedSentence(id, uid as string);
     response.json({});
+  };
+
+  getLanguageStats = async (request: Request, response: Response) => {
+    response.json(await this.model.getLanguageStats());
   };
 }
