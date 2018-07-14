@@ -319,6 +319,10 @@ language-meter-in-progress = Póstup
 language-total-progress = Dogromady
 language-search-input =
     .placeholder = Pytaś
+language-speakers = Powědarje
+localized = Pśełožony
+sentences = Sady
+total-hours = Góźiny dogromady
 
 ## New Contribution
 
