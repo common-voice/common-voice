@@ -318,6 +318,8 @@ language-total-progress = Totale
 language-search-input =
     .placeholder = Cerca
 language-speakers = Parlato da
+sentences = Frasi
+total-hours = Ore totali
 
 ## New Contribution
 
