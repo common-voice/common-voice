@@ -102,6 +102,7 @@ faq = Συχνές ερωτήσεις
 content-license-text = Το περιεχόμενο διατίθεται με  <licenseLink>άδεια Creative Commons</licenseLink>
 share-title = Βοηθήστε μας να βρούμε και άλλους που θα συνεισφέρουν τη φωνή τους!
 share-text = Βοηθήστε τις μηχανές να κατανοήσουν πώς μιλάνε οι πραγματικοί άνθρωποι, δωρίζοντας τη φωνή σας στο { $link }
+link-copied = Ο σύνδεσμος αντιγράφηκε
 back-top = Επιστροφή στην κορυφή
 contribution-banner-text = Μόλις ξεκινήσαμε μια νέα εμπειρία συνεισφοράς
 contribution-banner-button = Ρίξτε μια ματιά
@@ -318,6 +319,10 @@ language-meter-in-progress = Πρόοδος
 language-total-progress = Σύνολο
 language-search-input =
     .placeholder = Αναζήτηση
+language-speakers = Ομιλητές
+localized = Μεταφρασμένα
+sentences = Προτάσεις
+total-hours = Συνολικές ώρες
 
 ## New Contribution
 
@@ -346,11 +351,7 @@ review-tooltip = Ελέγξτε και ηχογραφήστε ξανά τα ηχ
 unable-speak = Δεν μπορείτε να μιλήσετε τώρα;
 review-instruction = Ελέγξτε και ηχογραφήστε ξανά τα ηχητικά κλιπ, εφόσον χρειάζεται
 record-submit-tooltip = Υποβολή όταν είστε έτοιμοι
-clips-submitted =
-    { $count ->
-        [one] Έγινε υποβολή { $count } κλιπ
-       *[other] Έγινε υποβολή { $count } κλιπς
-    }
+clips-uploaded = Μεταφορτώθηκαν κλιπς
 record-abort-title = Να ολοκληρωθεί πρώτα η ηχογράφηση;
 record-abort-text = Αν αποχωρήσετε τώρα, θα χάσετε την πρόοδό σας
 record-abort-submit = Υποβολή κλιπ
