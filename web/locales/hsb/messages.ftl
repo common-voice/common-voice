@@ -319,6 +319,10 @@ language-meter-in-progress = Postup
 language-total-progress = Dohromady
 language-search-input =
     .placeholder = Pytać
+language-speakers = Rěčnicy
+localized = Přełoženy
+sentences = Sady
+total-hours = Hodźiny dohromady
 
 ## New Contribution
 
