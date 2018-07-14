@@ -102,7 +102,11 @@ faq = ЧЗВ
 content-license-text = Содержимое доступно под <licenseLink>лицензией Creative Commons</licenseLink>
 share-title = Помогите нам, найдя других желающих записать свой голос!
 share-text = Помогите машинам научиться понимать реальных людей, пожертвуйте свой голос на { $link }
+link-copied = Ссылка скопирована
 back-top = Наверх
+contribution-banner-text = Мы улучшили процесс работы для наших помощников
+contribution-banner-button = Посмотрите
+report-bugs-link = Помогите, сообщив об ошибках
 
 ## Home Page
 
@@ -114,6 +118,7 @@ wall-of-text-more-desktop = Теперь вы можете отправить н
 show-wall-of-text = Подробнее
 help-us-title = Помогите нам, проверяя записанное!
 help-us-explain = Включите запись, послушайте и расскажите нам: хорошо ли озвучена фраза, расположенная ниже?
+no-clips-to-validate = Кажется, нет никаких записей для прослушивания на этом языке. Помогите нам создать новые, сделав несколько своих.
 vote-yes = Да
 vote-no = Нет
 toggle-play-tooltip = Нажмите { shortcut-play-toggle } для переключения режима воспроизведения
@@ -189,6 +194,7 @@ profile-create = Создать профиль
 profile-create-success = Отлично, профиль создан!
 profile-close = Закрыть
 profile-clear-modal = Очистка данных вашего профиля означает, что демографическая информация больше не будет отправляться в Common Voice вместе с вашими записями.
+profile-explanation = Наблюдайте за прогрессом, пользуясь профилем, и помогайте улучшать точность наших голосовых данных.
 
 ## FAQ
 
@@ -310,6 +316,10 @@ language-meter-in-progress = Ход выполнения
 language-total-progress = Всего
 language-search-input =
     .placeholder = Поиск
+language-speakers = Носителей
+localized = Локализовано
+sentences = Предложения
+total-hours = Всего часов
 
 ## New Contribution
 
@@ -320,6 +330,8 @@ listen = Прослушать
 skip = Пропустить
 shortcuts = Сочетания клавиш
 clips = Клипы
+goal-help-recording = Вы помогли Common Voice достичь <goalPercentage></goalPercentage> из нашей ежедневной цели по записи в { $goalValue }!
+goal-help-validation = Вы помогли Common Voice достичь <goalPercentage></goalPercentage> из нашей ежедневной цели по проверке в { $goalValue }!
 contribute-more =
     { $count ->
         [one] Готовы сделать ещё { $count }?
@@ -329,14 +341,21 @@ contribute-more =
 record-cta = Начните запись
 record-instruction = { $actionType } <recordIcon></recordIcon>, затем зачитайте предложение вслух
 record-stop-instruction = { $actionType } <stopIcon></stopIcon>, когда закончите
+record-three-more-instruction = Осталось три!
 record-again-instruction = Отлично! <recordIcon></recordIcon> Запишите свой следующий клип
 record-again-instruction2 = Продолжайте, запишите ещё <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon>Последний!
+review-tooltip = Проверьте и перезапишите клипы здесь
 unable-speak = Не в состоянии говорить прямо сейчас
+review-instruction = Проверьте и перезапишите клипы при необходимости
+record-submit-tooltip = { $actionType } отправьте, когда будет готово
+clips-uploaded = Записей загружено
 record-abort-title = Сначала закончите запись?
+record-abort-text = Уход сейчас означает, что вы потеряете свой прогресс
 record-abort-submit = Отправить клипы
 record-abort-continue = Закончите запись
 record-abort-delete = Выйти и удалить клипы
+listen-instruction = { $actionType }<playIcon></playIcon> точно ли произнесено предложение?
 listen-again-instruction = Отличная работа! <playIcon></playIcon> Прослушайте снова, когда будете готовы
 listen-3rd-time-instruction = Два готовы <playIcon></playIcon> , продолжайте!
 listen-last-time-instruction = <playIcon></playIcon> Последний!
