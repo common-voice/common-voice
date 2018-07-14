@@ -48,6 +48,8 @@ pt-BR = portugese (Brasil)
 ro = romaniano
 ru = russo
 sq = albanese
+sr = serbo
+sv-SE = svedese
 zh-CN = chinese (China)
 zh-HK = chinese (Hong Kong)
 zh-TW = chinese (Taiwan)
@@ -57,7 +59,11 @@ zh-TW = chinese (Taiwan)
 
 ## Layout
 
+speak = Parla
+speak-now = Parla ora
+datasets = Collection de datos
 languages = linguas
+profile = Profilo
 help = Auxilio
 contact = Contacto
 privacy = Confidentialitate
