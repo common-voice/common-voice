@@ -129,6 +129,7 @@
         & .labels {
             display: flex;
             flex-direction: row;
+            flex-wrap: wrap;
             border-bottom: 1px solid var(--grey);
             overflow-x: auto;
         }
@@ -168,27 +169,50 @@
 
     & .selected-in-progress .language-sections section {
         margin-left: calc(-100vw);
+
+        @media (--md-up) {
+            margin-left: 0;
+        }
+    }
+
+    & .title-and-search {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        @media (--sm-down) {
+            display: none;
+        }
     }
 
     & .search {
-        margin-top: 2.5rem;
+        border: solid 1px var(--grey);
+        border-radius: 22px;
+        margin-left: auto;
+        padding: 0 10px;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
         align-items: center;
+        background: var(--lighter-grey);
 
-        & input {
-            border: none;
-            font-size: 1.8rem;
-            font-family: var(--strong-font-family);
+        @media (--sm-down) {
+            margin: 10px 0;
+            padding: 10px 0;
+            width: 100%;
         }
 
-        & button {
-            margin-right: 2rem;
-            
-            & img {
-                width: 14px;
-            }
+        & input {
+            outline: none;
+            border: none;
+            margin: 0 10px;
+            width: 100%;
+            background: transparent;
+            color: var(--near-black);
+            font-family: var(--base-font-family);
+        }
+
+        & img {
+            width: 20px;
         }
     }
 

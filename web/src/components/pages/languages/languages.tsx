@@ -1,4 +1,4 @@
-import { Localized } from 'fluent-react';
+import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import API from '../../../services/api';
@@ -18,13 +18,15 @@ interface PropsFromState {
   api: API;
 }
 
-interface Props extends PropsFromState {}
+interface Props extends PropsFromState, LocalizationProps {}
 
 type LanguageSection = 'in-progress' | 'launched';
 
 interface State {
   inProgress: InProgressLanguage[];
+  filteredInProgress: InProgressLanguage[];
   launched: LaunchedLanguage[];
+  filteredLaunched: LaunchedLanguage[];
   localeMessages: string[][];
   selectedSection: LanguageSection;
   showAllInProgress: boolean;
@@ -37,7 +39,9 @@ interface State {
 class LanguagesPage extends React.PureComponent<Props, State> {
   state: State = {
     inProgress: [],
+    filteredInProgress: [],
     launched: [],
+    filteredLaunched: [],
     localeMessages: null,
     selectedSection: 'launched',
     showAllInProgress: false,
@@ -47,7 +51,8 @@ class LanguagesPage extends React.PureComponent<Props, State> {
     query: '',
   };
 
-  searchInputRef = React.createRef<HTMLInputElement>();
+  smallSearchInputRef = React.createRef<HTMLInputElement>();
+  largeSearchInputRef = React.createRef<HTMLInputElement>();
 
   async componentDidMount() {
     const { api } = this.props;
@@ -57,18 +62,23 @@ class LanguagesPage extends React.PureComponent<Props, State> {
       api.fetchLanguageStats(),
     ]);
 
+    inProgress.sort(
+      (l1, l2) => (l1.localizedPercentage < l2.localizedPercentage ? 1 : -1)
+    );
+    launched.sort((l1, l2) => (l1.hours < l2.hours ? 1 : -1));
+
     this.setState({
-      inProgress: inProgress.sort(
-        (l1, l2) => (l1.localizedPercentage < l2.localizedPercentage ? 1 : -1)
-      ),
-      launched: launched.sort((l1, l2) => (l1.hours < l2.hours ? 1 : -1)),
+      inProgress,
+      filteredInProgress: inProgress,
+      launched,
+      filteredLaunched: launched,
       localeMessages,
     });
   }
 
   componentDidUpdate(prevProps: Props, prevState: State) {
     if (this.state.showSearch && !prevState.showSearch) {
-      this.searchInputRef.current.focus();
+      this.smallSearchInputRef.current.focus();
     }
   }
 
@@ -79,7 +89,12 @@ class LanguagesPage extends React.PureComponent<Props, State> {
     this.setState(state => ({ showAllLaunched: !state.showAllLaunched }));
 
   toggleSearch = () =>
-    this.setState(state => ({ showSearch: !state.showSearch, query: '' }));
+    this.setState(({ inProgress, launched, showSearch }) => ({
+      filteredInProgress: inProgress,
+      filteredLaunched: launched,
+      query: '',
+      showSearch: !showSearch,
+    }));
 
   changeSection = (section: LanguageSection) => {
     this.setState({
@@ -90,17 +105,49 @@ class LanguagesPage extends React.PureComponent<Props, State> {
   };
 
   handleQueryChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    this.setState({ query: event.target.value });
+    const { inProgress, launched, selectedSection } = this.state;
+    const query = event.target.value;
+
+    function filterLanguages<T>(languages: T[]): T[] {
+      return query
+        ? languages.filter(({ locale: { code, name } }: any) => {
+            const q = query.toLowerCase();
+            return (
+              name.toLowerCase().includes(q) ||
+              getNativeNameWithFallback(code)
+                .toLowerCase()
+                .includes(q)
+            );
+          })
+        : languages;
+    }
+
+    const filteredInProgress = filterLanguages(inProgress);
+    const filteredLaunched = filterLanguages(launched);
+    this.setState({
+      filteredInProgress: filteredInProgress,
+      filteredLaunched: filteredLaunched,
+      query,
+      selectedSection:
+        filteredInProgress.length == 0
+          ? 'launched'
+          : filteredLaunched.length == 0 ? 'in-progress' : selectedSection,
+    });
   };
 
   handleQueryKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
-    if (event.key === 'Escape') this.toggleSearch();
+    if (event.key === 'Escape') {
+      this.toggleSearch();
+    }
   };
 
   render() {
+    const { getString } = this.props;
     const {
       inProgress,
+      filteredInProgress,
       launched,
+      filteredLaunched,
       localeMessages,
       selectedSection,
       showAllInProgress,
@@ -110,18 +157,8 @@ class LanguagesPage extends React.PureComponent<Props, State> {
       query,
     } = this.state;
 
-    const filteredInProgress =
-      showSearch && query
-        ? inProgress.filter(({ locale: { code, name } }: any) => {
-            const q = query.toLowerCase();
-            return (
-              name.toLowerCase().includes(q) ||
-              getNativeNameWithFallback(code)
-                .toLowerCase()
-                .includes(q)
-            );
-          })
-        : showAllInProgress ? inProgress : inProgress.slice(0, 3);
+    const inProgressCountLabel = query ? ` (${filteredInProgress.length})` : '';
+    const launchedCountLabel = query ? ` (${filteredLaunched.length})` : '';
 
     return (
       <div className={'selected-' + selectedSection}>
@@ -165,87 +202,115 @@ class LanguagesPage extends React.PureComponent<Props, State> {
           />
         )}
 
-        {!showSearch && (
-          <div className="mobile-headings">
-            <Hr />
+        <div className="mobile-headings">
+          <Hr />
 
-            <div className="labels">
-              <Localized id="language-section-launched">
-                <h2
-                  className="launched"
-                  onClick={this.changeSection.bind(this, 'launched')}
-                />
-              </Localized>
+          <div className="labels">
+            <h2
+              className="launched"
+              onClick={this.changeSection.bind(this, 'launched')}>
+              {getString('language-section-launched')}
+              {launchedCountLabel}
+            </h2>
 
-              <Localized id="language-section-in-progress">
-                <h2
-                  className="in-progress"
-                  onClick={this.changeSection.bind(this, 'in-progress')}
-                />
-              </Localized>
+            <h2
+              className="in-progress"
+              onClick={this.changeSection.bind(this, 'in-progress')}>
+              {getString('language-section-in-progress')}
+              {inProgressCountLabel}
+            </h2>
 
-              {!isProduction() && (
-                <TextButton onClick={this.toggleSearch}>
-                  <SearchIcon />
-                </TextButton>
-              )}
-            </div>
-          </div>
-        )}
-
-        {showSearch && (
-          <React.Fragment>
-            <div className="search">
-              <Localized
-                id="language-search-input"
-                attrs={{ placeholder: true }}>
-                <input
-                  type="text"
-                  value={query}
-                  onChange={this.handleQueryChange}
-                  onKeyDown={this.handleQueryKeyDown}
-                  ref={this.searchInputRef}
-                />
-              </Localized>
+            {!isProduction() && (
               <TextButton onClick={this.toggleSearch}>
-                <CloseIcon black />
+                {showSearch ? (
+                  <CloseIcon black style={{ width: 15 }} />
+                ) : (
+                  <SearchIcon />
+                )}
               </TextButton>
-            </div>
-            <Hr />
-          </React.Fragment>
-        )}
+            )}
+
+            {!isProduction() &&
+              showSearch && (
+                <div className="search">
+                  <Localized
+                    id="language-search-input"
+                    attrs={{ placeholder: true }}>
+                    <input
+                      type="text"
+                      value={query}
+                      onChange={this.handleQueryChange}
+                      onKeyDown={this.handleQueryKeyDown}
+                      ref={this.smallSearchInputRef}
+                    />
+                  </Localized>
+                </div>
+              )}
+          </div>
+        </div>
 
         <div className="language-sections">
-          {!showSearch && (
-            <section className="launched">
-              <div className="md-block">
-                <Localized id="language-section-launched">
-                  <h1 />
-                </Localized>
+          <section className="launched">
+            <div className="title-and-search">
+              <h1>
+                {getString('language-section-launched')}
+                {launchedCountLabel}
+              </h1>
+              {!isProduction() && (
+                <div className="search">
+                  <Localized
+                    id="language-search-input"
+                    attrs={{ placeholder: true }}>
+                    <input
+                      type="text"
+                      value={query}
+                      onChange={this.handleQueryChange}
+                      onKeyDown={this.handleQueryKeyDown}
+                      ref={this.largeSearchInputRef}
+                    />
+                  </Localized>
+                  {query ? (
+                    <TextButton
+                      onClick={this.toggleSearch}
+                      style={{ padding: 0 }}>
+                      <CloseIcon
+                        black
+                        style={{ padding: 4, boxSizing: 'border-box' }}
+                      />
+                    </TextButton>
+                  ) : (
+                    <TextButton
+                      onClick={() => this.largeSearchInputRef.current.focus()}>
+                      <SearchIcon />
+                    </TextButton>
+                  )}
+                </div>
+              )}
+              <Hr />
+            </div>
 
-                <Hr />
-              </div>
+            <Localized
+              id="language-section-launched-description"
+              italic={<i />}>
+              <p />
+            </Localized>
+            <ul>
+              {launched.length > 0
+                ? (query || showAllLaunched
+                    ? filteredLaunched
+                    : filteredLaunched.slice(0, 3)
+                  ).map((localization, i) => (
+                    <LocalizationBox
+                      key={i}
+                      localeMessages={localeMessages}
+                      type="launched"
+                      {...localization}
+                    />
+                  ))
+                : [1, 2, 3].map((n, i) => <LoadingLocalizationBox key={i} />)}
+            </ul>
 
-              <Localized
-                id="language-section-launched-description"
-                italic={<i />}>
-                <p />
-              </Localized>
-              <ul>
-                {launched.length > 0
-                  ? (showAllLaunched ? launched : launched.slice(0, 3)).map(
-                      (localization, i) => (
-                        <LocalizationBox
-                          key={i}
-                          localeMessages={localeMessages}
-                          type="launched"
-                          {...localization}
-                        />
-                      )
-                    )
-                  : [1, 2, 3].map((n, i) => <LoadingLocalizationBox key={i} />)}
-              </ul>
-
+            {!query && (
               <Localized
                 id={'languages-show-' + (showAllLaunched ? 'less' : 'more')}>
                 <button
@@ -254,34 +319,29 @@ class LanguagesPage extends React.PureComponent<Props, State> {
                   onClick={this.toggleShowAllLaunched}
                 />
               </Localized>
-            </section>
-          )}
-
-          <section
-            className="in-progress"
-            style={showSearch ? { marginTop: 0 } : {}}>
-            {!showSearch && (
-              <div className="md-block">
-                <div style={{ display: 'flex', flexDirection: 'row' }}>
-                  <Localized id="language-section-in-progress">
-                    <h1 style={{ marginRight: '1.5rem' }} />
-                  </Localized>
-                  {!isProduction() && (
-                    <TextButton onClick={this.toggleSearch}>
-                      <SearchIcon />
-                    </TextButton>
-                  )}
-                </div>
-                <Hr />
-              </div>
             )}
+          </section>
+
+          <section className="in-progress">
+            <div className="md-block">
+              <div style={{ display: 'flex', flexDirection: 'row' }}>
+                <h1 style={{ marginRight: '1.5rem' }}>
+                  {getString('language-section-in-progress')}
+                  {inProgressCountLabel}
+                </h1>
+              </div>
+              <Hr />
+            </div>
 
             <Localized id="language-section-in-progress-description">
               <p />
             </Localized>
             <ul>
               {inProgress.length > 0
-                ? filteredInProgress.map((localization, i) => (
+                ? (query || showAllInProgress
+                    ? filteredInProgress
+                    : filteredInProgress.slice(0, 3)
+                  ).map((localization, i) => (
                     <LocalizationBox
                       key={i}
                       localeMessages={localeMessages}
@@ -292,7 +352,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
                 : [1, 2, 3].map(i => <LoadingLocalizationBox key={i} />)}
             </ul>
 
-            {!showSearch && (
+            {!query && (
               <Localized
                 id={'languages-show-' + (showAllInProgress ? 'less' : 'more')}>
                 <button
@@ -313,4 +373,6 @@ const mapStateToProps = ({ api }: StateTree) => ({
   api,
 });
 
-export default connect<PropsFromState>(mapStateToProps)(LanguagesPage);
+export default connect<PropsFromState>(mapStateToProps)(
+  withLocalization(LanguagesPage)
+);
