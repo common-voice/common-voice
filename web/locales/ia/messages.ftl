@@ -33,6 +33,7 @@ en = anglese
 es = espaniol 
 et = estoniano
 fi = finlandese
+fo = faroese
 fr = francese
 fy-NL = frison
 ga-IE = irlandese
