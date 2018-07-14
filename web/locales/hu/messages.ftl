@@ -317,6 +317,10 @@ language-meter-in-progress = Előrehaladás
 language-total-progress = Összesen
 language-search-input =
     .placeholder = Keresés
+language-speakers = Beszélők
+localized = Honosított
+sentences = Mondatok
+total-hours = Órák összesen
 
 ## New Contribution
 
