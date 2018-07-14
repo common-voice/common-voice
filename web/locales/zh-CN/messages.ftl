@@ -316,6 +316,10 @@ language-meter-in-progress = 进度
 language-total-progress = 总共
 language-search-input =
     .placeholder = 搜索
+language-speakers = 使用人数
+localized = 本地化
+sentences = 句子
+total-hours = 总小时数
 
 ## New Contribution
 
