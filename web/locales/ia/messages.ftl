@@ -305,6 +305,22 @@ shortcuts = Vias breve
 clips = Retalios
 goal-help-recording = Tu ha adjutate Common Voice a attinger <goalPercentage></goalPercentage> de nostre objectivo quotidian { $goalValue } de registration!
 goal-help-validation = Tu ha adjutate Common Voice a attinger <goalPercentage></goalPercentage> nostre objectivo { $goalValue } quotidian de validation!
+contribute-more =
+    { $count ->
+        [one] Preste a facer { $count } plus?
+       *[other] Preste a facer { $count } plus?
+    }
 record-cta = Initiar a registrar
+record-instruction = { $actionType }<recordIcon></recordIcon> pois lege le phrase in alte voce
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> quando facite
+record-again-instruction = Grande!<recordIcon></recordIcon> Registra tu proxime retalio
+unable-speak = Non pote tu leger ora?
+clips-uploaded = Retalios gargate
+record-abort-title = Finir antea de registrar?
+record-abort-text = Lassar ora significa que tu perde tu progresso
+record-abort-submit = Inviar le retalios
 record-abort-continue = Finir de registrar
+record-abort-delete = Exir e deler le retalios
 nothing-to-validate = Nos non ha alco a validar in iste lingua, adjuta nos a plenar le cauda.
+record-button-label = Registra tu voce
+share-title-new = <bold>Adiuta nos</bold> a trovar altere voces
