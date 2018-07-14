@@ -308,7 +308,9 @@ request-language-success-content = Мы максимально быстро св
 ## Languages Overview
 
 language-section-in-progress = Выполняется
+language-section-in-progress-description = Данные для языков, находящихся в процессе, готовятся для включения нашими сообществами; их прогресс отражает их состояние по локализации сайта и этапам обработки предложений.
 language-section-launched = Запущено
+language-section-launched-description = Для этих запущенных языков был успешно переведен сайт и имеется достаточное число собранных предложений, что позволит помощникам <italic>{ speak }</italic> и <italic>{ listen }</italic>.
 languages-show-more = Больше языков
 languages-show-less = Меньше языков
 language-speakers = Носителей
@@ -359,4 +361,6 @@ listen-instruction = { $actionType }<playIcon></playIcon> точно ли про
 listen-again-instruction = Отличная работа! <playIcon></playIcon> Прослушайте снова, когда будете готовы
 listen-3rd-time-instruction = Два готовы <playIcon></playIcon> , продолжайте!
 listen-last-time-instruction = <playIcon></playIcon> Последний!
+nothing-to-validate = У нас нет ничего для проверки на этом языке, помогите нам заполнить очередь.
+record-button-label = Запишите свой голос
 share-title-new = <bold>Помогите нам</bold> найти больше голосов
