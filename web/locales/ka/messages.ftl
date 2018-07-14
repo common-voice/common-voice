@@ -319,6 +319,10 @@ language-meter-in-progress = მიმდინარეობა
 language-total-progress = სულ
 language-search-input =
     .placeholder = ძიება
+language-speakers = მოსაუბრე
+localized = თარგმნილი
+sentences = წინადადებები
+total-hours = საათები სულ
 
 ## New Contribution
 
