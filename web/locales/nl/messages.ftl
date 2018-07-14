@@ -74,7 +74,7 @@ sr = Servisch
 sv-SE = Zweeds
 ta = Tamil
 te = Telugu
-th = Thais
+th = Thai
 tr = Turks
 tt = Tataars
 uk = Oekraïens
@@ -213,7 +213,7 @@ faq-firefox-a = Common Voice heeft een onbegrensd potentieel, en we verkennen in
 faq-quality-q = Wat is het benodigde kwaliteitsniveau voor audio voor bruikbaarheid?
 faq-quality-a = We willen dat de geluidskwaliteit een weergave is van de kwaliteit zoals die straks in het echt zal worden bereikt. Daarom willen we variatie. Dit leert de spraak-naar-tekst-engine om foutloos om te gaan met diverse situaties - spraak op de achtergrond, autogeluiden, ventilatiegeluiden.
 faq-hours-q = Waarom is 10.000 uur het doel voor geluidsopnamen?
-faq-hours-a = Dit is bij benadering het aantal benodigde uren om een operationeel spraak-naar-tekst-systeem te trainen.
+faq-hours-a = Dit is ongeveer het aantal benodigde uren om een operationeel spraak-naar-tekst-systeem te trainen.
 faq-source-q = Waar komt de brontekst vandaan?
 faq-source-a1 = De huidige zinnen komen van medewerkersdonaties, alsmede van dialogen uit openbare filmscripts zoals <italic>It’s a Wonderful Life.</italic>
 faq-source-a2 = U kunt onze bronzinnen bekijken in <dataLink>deze GitHub-map</dataLink>.
@@ -241,7 +241,7 @@ data-get-started = <speechBlogLink>Beginnen met spraakherkenning</speechBlogLink
 data-other-title = Andere stemgegevenssets…
 data-other-goto = Naar { $name }
 data-other-download = Gegevens downloaden
-data-other-librispeech-description = LibriSpeech is een pakket met bij benadering 1000 uur aan 16 kHz gesproken Engels, afgeleid van opgelezen audioboeken uit het LibriVox-project.
+data-other-librispeech-description = LibriSpeech is een pakket met circa 1000 uur aan 16 kHz gesproken Engels, afgeleid van opgelezen audioboeken uit het LibriVox-project.
 data-other-ted-name = TED-LIUM-corpus
 data-other-ted-description = Het TED-LIUM-corpus is samengesteld uit audiotoespraken en hun transcripties, zoals beschikbaar op de TED-website.
 data-other-voxforge-description = VoxForge is opgezet om spraaktranscripties te verzamelen voor gebruik met gratis en opensource-spraakherkenningsengines.
@@ -317,6 +317,10 @@ language-meter-in-progress = Voortgang
 language-total-progress = Totaal
 language-search-input =
     .placeholder = Zoeken
+language-speakers = Sprekers
+localized = Vertaald
+sentences = Zinnen
+total-hours = Uren totaal
 
 ## New Contribution
 
