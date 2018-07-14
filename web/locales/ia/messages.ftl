@@ -246,18 +246,37 @@ download-no = No gratias
 
 ## Contact Modal
 
+contact-form-name =
+    .label = Nomine
+contact-form-message =
+    .label = Message
+contact-required = *requirite
 
 ## Request Language Modal
 
 request-language-title = Requesta de nove lingua
 request-language-form-language =
     .label = Lingua
+request-language-success-title = Lingua requirite inviate con successo, gratias.
 
 ## Languages Overview
 
+language-section-in-progress = In corso
+language-section-launched = Lanceate
+language-speakers = Locutores
 language-total-progress = Total
+language-speakers = Locutores
+localized = Localisate
+sentences = Phrases
 
 ## New Contribution
 
 action-click = Clic
+action-tap = Tocca
+contribute = Collabora
+listen = Ascolta
+skip = Saltar
+shortcuts = Vias breve
+record-cta = Initiar a registrar
+record-abort-continue = Finir de registrar
 nothing-to-validate = Nos non ha alco a validar in iste lingua, adjuta nos a plenar le cauda.
