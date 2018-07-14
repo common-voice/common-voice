@@ -237,9 +237,12 @@ record-error-too-long = Le registration era troppo longe.
 record-error-too-quiet = Le registration era troppo quiete.
 record-submit-success = Successo del invio! Vole tu registrar ancora?
 record-help = Per favor tocca pro registrar, pois lege in alte voce le phrase de supra.
+review-terms = Al usar Common Voice, tu accepta nostre <termsLink>Terminos de uso</termsLink> e le <privacyLink>Politica de confidentialitate</privacyLink>
 terms-agree = Io accepta
 terms-disagree = Io non accepta
+review-aborted = Carga abortate. Desira tu vermente deler tu registrationes?
 review-submit-title = Reascolta e invia
+review-submit-msg = Gratias pro le registration!<lineBreak></lineBreak>Ora reascolta e invia tu retalios video infra.
 review-recording = Revider
 review-rerecord = Registra de novo
 review-cancel = Cancellar invio
@@ -249,13 +252,16 @@ review-delete-recordings = Deler mi registrationes
 ## Download Modal
 
 download-title = Tu discarga initiava
+download-helpus = Adjuta nos a crear un communitate circum le technologia del voce, remane in contacto per email.
 download-form-email =
     .label = Insere tu email
     .value = Gratias, nos es in contacto.
+download-back = Retornar al collectiones de datos de Common Voice
 download-no = No gratias
 
 ## Contact Modal
 
+contact-title = Modulo de contacto
 contact-form-name =
     .label = Nomine
 contact-form-message =
@@ -268,6 +274,7 @@ request-language-title = Requesta de nove lingua
 request-language-form-language =
     .label = Lingua
 request-language-success-title = Lingua requirite inviate con successo, gratias.
+request-language-success-content = Nos essera in contacto con altere informationes circa como adder multo tosto tu lingua a Common Voice.
 
 ## Languages Overview
 
