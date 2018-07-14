@@ -279,6 +279,7 @@ request-language-success-content = Nos essera in contacto con altere information
 ## Languages Overview
 
 language-section-in-progress = In corso
+language-section-in-progress-description = Le linguas in corso es actualmente construite per contribution de nostre communitates; lor progresso reflecte ubi illos es trans le phases de localisation del sito web e collection de phrases.
 language-section-launched = Lanceate
 language-speakers = Locutores
 language-total-progress = Total
