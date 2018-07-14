@@ -281,11 +281,18 @@ request-language-success-content = Nos essera in contacto con altere information
 language-section-in-progress = In corso
 language-section-in-progress-description = Le linguas in corso es actualmente construite per contribution de nostre communitates; lor progresso reflecte ubi illos es trans le phases de localisation del sito web e collection de phrases.
 language-section-launched = Lanceate
+language-section-launched-description = Pro iste linguas lanceate le sito web ha essite localisate con bon successo, e ha colligite bastante phrases, pro consentir al contribution in corso de <italic>{ speak }</italic> e <italic>{ listen }</italic>
+languages-show-more = Vider plus
+languages-show-less = Vider minus
 language-speakers = Locutores
+language-meter-in-progress = Progresso
 language-total-progress = Total
+language-search-input =
+    .placeholder = Recercar
 language-speakers = Locutores
 localized = Localisate
 sentences = Phrases
+total-hours = Numero total de horas
 
 ## New Contribution
 
@@ -295,6 +302,9 @@ contribute = Collabora
 listen = Ascolta
 skip = Saltar
 shortcuts = Vias breve
+clips = Retalios
+goal-help-recording = Tu ha adjutate Common Voice a attinger <goalPercentage></goalPercentage> de nostre objectivo quotidian { $goalValue } de registration!
+goal-help-validation = Tu ha adjutate Common Voice a attinger <goalPercentage></goalPercentage> nostre objectivo { $goalValue } quotidian de validation!
 record-cta = Initiar a registrar
 record-abort-continue = Finir de registrar
 nothing-to-validate = Nos non ha alco a validar in iste lingua, adjuta nos a plenar le cauda.
