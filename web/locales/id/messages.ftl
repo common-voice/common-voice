@@ -318,6 +318,10 @@ language-meter-in-progress = Kemajuan
 language-total-progress = Total
 language-search-input =
     .placeholder = Cari
+language-speakers = Penutur
+localized = Telah dilokalkan
+sentences = Kalimat
+total-hours = Total Jam
 
 ## New Contribution
 
