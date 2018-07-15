@@ -110,21 +110,50 @@ wall-of-text-more-desktop = Voit lahjoittaa ääntäsi auttaaksesi meitä rakent
 show-wall-of-text = Lue lisää
 help-us-title = Auta lauseiden varmentamisessa.
 help-us-explain = Paina toistonappia, kuuntele ja kerro: vastaako puhuttu täsmällisesti alla olevaa virkettä?
-no-clips-to-validate = Tällä kielellä ei ole yhtään ääninäytteitä. Auta meitä täyttämään listaa nauhoittamalla muutamia.
+no-clips-to-validate = Tällä kielellä ei ole yhtään ääninäytteitä. Auta meitä täyttämään listaa äänittämällä muutamia.
 vote-yes = Kyllä
 vote-no = Ei
+toggle-play-tooltip = Paina nappia { shortcut-play-toggle } vaihtaaksesi soittotilaa päälle/pois
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = o
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = s
+shortcut-play-toggle-label = Soita / pysäytä
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = k
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = e
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = n
+shortcut-record-toggle-label = Nauhoita / pysäytä
+request-language-text = Eikö kieltäsi löydy Common Voicesta vielä?
+request-language-button = Pyydä kieltä lisättäväksi
 
 ## ProjectStatus
 
+status-title = Projektin yleiskatsaus: näin pitkällä olemme.
+status-contribute = Lahjoita ääntäsi
+status-hours =
+    { $hours ->
+        [one] yksi tunti tarkistettu.
+       *[other] { $hours } tuntia tarkistettu.
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Seuraava tavoite: { $goal }
 english = Englanti
 
 ## ProfileForm
@@ -148,9 +177,18 @@ female = Nainen
 # Gender
 other = Muu
 why-profile-title = Minkä takia profiili?
+why-profile-text = Lisätiedot lähetetyistä ääninäytteistä tekevät Common Voice -aineistoa hyödyllisemmäksi puheentunnistussovelluksille, jotka käyttävät näitä tietoja parantamaan tarkkuuttaan.
+edit-profile = Muokkaa profiilia
+profile-create = Luo profiili
+profile-create-success = Profiilin luonti onnistui.
+profile-close = Sulje
+profile-clear-modal = Profiilitietojen poistaminen tarkoittaa ettei tätä demografista tietoa enää lähetetä Common Voiceen ääninäytteiden mukana.
 
 ## FAQ
 
+faq-title = Usein kysytyt kysymykset
+faq-what-q = Mitä Common Voice on?
+faq-important-q = Miksi tämä on tärkeää?
 faq-source-q = Mistä lähdetekstit tulevat?
 
 ## Profile
@@ -168,9 +206,11 @@ data-download-yes = Kyllä
 data-download-deny = Ei
 data-download-license = Lisenssi: <licenseLink>CC-0</licenseLink>
 data-other-title = Muut ääniaineistot...
+license = Lisenssi: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
 
+record-retry = Yritä uudestaan
 
 ## Download Modal
 
@@ -183,6 +223,17 @@ data-other-title = Muut ääniaineistot...
 
 ## Languages Overview
 
+languages-show-more = Lisää
+languages-show-less = Vähemmän
+language-search-input =
+    .placeholder = Haku
 
 ## New Contribution
 
+record-instruction = { $actionType } <recordIcon></recordIcon> ja lue virke ääneen
+record-stop-instruction = { $actionType } <stopIcon></stopIcon> kun olet valmis
+record-three-more-instruction = Kolme jäljellä.
+record-again-instruction = Loistavaa, <recordIcon></recordIcon> nauhoita seuraava
+record-again-instruction2 = Hyvää työtä, nauhoita uudelleen <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Viimeinen!
+unable-speak = Etkö voi puhua tällä hetkellä?
