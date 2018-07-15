@@ -22,8 +22,11 @@ ast = asturiano
 az = azerbaijano
 bn = bengali
 br = breton
+bxr = buriato
 ca = catalano
+cnh = hakha chin
 cs = ceco
+cv = chuvasio
 cy = gallese
 da = danese
 de = germano
@@ -46,8 +49,14 @@ is = islandese
 it = italiano
 ja = japonese
 ka = georgiano
+kab = cabilo
+kk = kazako
 ko = coreano
+kpv = komi-zyrian
+kw = cornico
+ky = kirghiso
 mk = macedone
+myv = erza
 nb-NO = norvegiano bokmal
 ne-NP = nepalese
 nl = neerlandese
@@ -128,9 +137,15 @@ shortcut-play-toggle-label = Reproducer/stoppar
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = R
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
 shortcut-record-toggle-label = Registrar/stoppar
 request-language-text = An tu non vide ancora tu lingua sur Common Voice?
 request-language-button = Propone un lingua
