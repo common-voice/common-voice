@@ -327,6 +327,10 @@ language-meter-in-progress = Yn útfiering
 language-total-progress = Totaal
 language-search-input =
     .placeholder = Sykje
+language-speakers = Sprekkers
+localized = Oerset
+sentences = Sinnen
+total-hours = Oeren totaal
 
 ## New Contribution
 
