@@ -189,6 +189,9 @@ profile-clear-modal = Profiilitietojen poistaminen tarkoittaa ettei tätä demog
 faq-title = Usein kysytyt kysymykset
 faq-what-q = Mitä Common Voice on?
 faq-important-q = Miksi tämä on tärkeää?
+faq-mission-q = Miten Common Voice on osa Mozillan missiota?
+faq-native-q = En ole natiivi kielen { $lang } puhuja ja minulla on aksentti puheessani, voinko silti osallistua?
+faq-native-a = Totta kai voimme käyttää myös ääntäsi. Osa Common Voice -projektia on kerätä niin paljon aksentteja kuin mahdollista jotta koneet voisivat paremmin oppia ymmärtämään kuinka <bold>kaikki</bold> puhuvat.
 faq-source-q = Mistä lähdetekstit tulevat?
 
 ## Profile
@@ -211,25 +214,54 @@ license = Lisenssi: <licenseLink>{ $license }</licenseLink>
 ## Record Page
 
 record-retry = Yritä uudestaan
+record-error-too-short = Nauhoite on liian lyhyt.
+record-error-too-long = Nauhoite on liian pitkä.
+record-error-too-quiet = Nauhoite on liian hiljainen.
+record-submit-success = Lähetys onnistui. Nauhoitetaanko uudelleen?
+review-terms = Käyttämällä Common Voicea hyväksyt <termsLink>käyttöehdot</termsLink> ja <privacyLink>tietosuojaselosteen</privacyLink>
+terms-agree = Hyväksyn
+terms-disagree = En hyväksy
 
 ## Download Modal
 
 
 ## Contact Modal
 
+contact-title = Yhteydenottolomake
+contact-form-name =
+    .label = Nimi
+contact-form-message =
+    .label = Viesti
+contact-required = *pakollinen
 
 ## Request Language Modal
 
+request-language-title = Kielipyyntö
+request-language-form-language =
+    .label = Kieli
+request-language-success-title = Kielipyyntö lähetetty, kiitos.
+request-language-success-content = Otamme yhteyttä siitä miten voidaan lisätä kielesi Common Voiceen piakkoin.
 
 ## Languages Overview
 
+language-section-in-progress = Työn alla
+language-section-in-progress-description = Työn alla olevia kieliä yhteisö työstää parhaillaan, niiden kehitys kertoo missä vaiheessa ne ovat verkkosivujen lokalisoinnissa ja lauseiden keruussa
+language-section-launched = Aloitettu
+language-section-launched-description = Näillä aloitetuilla kielillä on kunnolla lokalisoitu verkkosivusto ja tarpeeksi kerättyjä virkkeitä, että niillä voidaan edetä <italic>{ speak }</italic>- ja <italic>{ listen }</italic>-kontribuutioihin.
 languages-show-more = Lisää
 languages-show-less = Vähemmän
+language-speakers = Puhujat
+language-meter-in-progress = Edistys
+language-total-progress = Yhteensä
 language-search-input =
     .placeholder = Haku
+language-speakers = Puhujat
 
 ## New Contribution
 
+contribute = Ota osaa
+listen = Kuuntele
+skip = Ohita
 record-instruction = { $actionType } <recordIcon></recordIcon> ja lue virke ääneen
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> kun olet valmis
 record-three-more-instruction = Kolme jäljellä.
