@@ -1,6 +1,7 @@
 ## General
 
 yes-receive-emails = Lähetä minulle sähköpostia, haluan pysyä ajan tasalla Common Voice -projektista.
+stayintouch = Mozilla rakentaa yhteisöä puheteknologiaa varten. Haluamme pysyä yhteyksissä koskien päivityksiä, uusia aineistolähteitä sekä kuulla lisää siitä miten käytät näitä aineistoja.
 privacy-info = Lupaamme käsitellä tietojasi huolella, lue lisää <privacyLink>tietosuojaselosteesta</privacyLink>.
 return-to-cv = Palaa Common Voiceen
 email-input =
@@ -87,8 +88,13 @@ datasets = Aineistot
 languages = Kielet
 profile = Profiili
 help = Ohje
+contact = Yhteystiedot
+privacy = Yksityisyys
+terms = Ehdot
 cookies = Evästeet
 faq = Usein kysytyt kysymykset
+content-license-text = Sisältö on saatavilla <licenseLink>Creative Commons -lisenssillä</licenseLink>
+share-title = Auta meitä löytämään muita lahjoittamaan ääntään.
 back-top = Takaisin ylös
 
 ## Home Page
@@ -131,15 +137,23 @@ why-profile-title = Minkä takia profiili?
 
 ## FAQ
 
+faq-source-q = Mistä lähdetekstit tulevat?
 
 ## Profile
 
+profile-why-title = Minkä takia profiili?
 
 ## NotFound
 
+notfound-title = Ei löytynyt
 
 ## Data
 
+data-download-button = Lataa Common Voice -aineisto
+data-download-yes = Kyllä
+data-download-deny = Ei
+data-download-license = Lisenssi: <licenseLink>CC-0</licenseLink>
+data-other-title = Muut ääniaineistot...
 
 ## Record Page
 
