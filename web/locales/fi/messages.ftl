@@ -28,13 +28,16 @@ el = Kreikka
 en = Englanti
 es = Espanja
 et = Viro
+fi = Suomi
 fr = Ranska
 fy-NL = Friisi
 ga-IE = Iiri
 he = Heprea
 hu = Unkari
 id = Indonesia
+is = Islanti
 it = Italia
+ja = Japani
 ka = Georgia
 kab = Kabyyli
 kk = Kazakki
@@ -45,6 +48,7 @@ nb-NO = Norjan bokmål
 ne-NP = Nepali
 nl = Hollanti
 nn-NO = Norjan nynorsk
+or = Orija
 pl = Puola
 pt-BR = Brasilianportugali
 ro = Romania
@@ -55,10 +59,12 @@ sr = Serbia
 sv-SE = Ruotsi
 ta = Tamili
 te = Telugu
+th = Thai
 tr = Turkki
 tt = Tataari
 uk = Ukraina
 zh-CN = Kiina (Kiina)
+zh-HK = Kiina (Hong Kong)
 zh-TW = Kiina (Taiwan)
 
 # [/]
@@ -73,6 +79,7 @@ languages = Kielet
 profile = Profiili
 help = Ohje
 cookies = Evästeet
+faq = Usein kysytyt kysymykset
 back-top = Takaisin ylös
 
 ## Home Page
