@@ -192,15 +192,25 @@ faq-important-q = Miksi tämä on tärkeää?
 faq-mission-q = Miten Common Voice on osa Mozillan missiota?
 faq-native-q = En ole natiivi kielen { $lang } puhuja ja minulla on aksentti puheessani, voinko silti osallistua?
 faq-native-a = Totta kai voimme käyttää myös ääntäsi. Osa Common Voice -projektia on kerätä niin paljon aksentteja kuin mahdollista jotta koneet voisivat paremmin oppia ymmärtämään kuinka <bold>kaikki</bold> puhuvat.
+faq-firefox-q = Tuleeko puheentunnistus Common Voicen kautta joskus osaksi Firefoxia?
+faq-firefox-a = Common Voicen mahdolisuudet ovat rajattomat ja tällä hetkellä tutkitaan mahdollisuuksia tarjota puherajapintoja useisiin Mozilla-perheen tuotteisiin, myös Firefoxiin.
+faq-quality-q = Minkälaatuisia nauhoitusten pitää olla että ne ovat hyödyksi?
+faq-quality-a = Äänenlaadun pitää vastata tyypillisen puheentunnistuksen käyttötarkoitusten äänenlaatuja, siis tarvitaan laajaa valikoimaa eri laatuja. Näin voidaan opettaa puheentunnistusjärjestelmää selviämään eri tilanteista, kuten puhehälystä ja auton tai tuulettimen melusta, ilman virheitä.
+faq-hours-q = Miksi 10 000 tuntia on nauhoitustavoite?
+faq-hours-a = Se on summittainen arvio tunneista jota tarvitaan tuottamaan julkaisukelpoinen puheentunnistusjärjestelmä.
 faq-source-q = Mistä lähdetekstit tulevat?
+faq-source-a1 = Tämänhetkiset virkkeet ovat lahjoituksia käyttäjiltä, sekä dialogia vapaassa public domainissa olevista elokuvakäsikirjoituksista, kuten <italic>Ihmeellinen on elämästä</italic>
+faq-source-a2 = Virkkeet on saatavilla <dataLink>tässä github-hakemistossa</dataLink>.
 
 ## Profile
 
 profile-why-title = Minkä takia profiili?
+profile-why-content = Lisätiedoilla käyttäjästä, puheaineisto Common Voicessa on käyttökelpoisempaa niissä puheentunnistusjärjestelmissä, jotka parantavat tarkkuutta niillä tiedoilla.
 
 ## NotFound
 
 notfound-title = Ei löytynyt
+notfound-content = Valitettavasti se mitä haet ei ole tiedossa.
 
 ## Data
 
@@ -208,6 +218,8 @@ data-download-button = Lataa Common Voice -aineisto
 data-download-yes = Kyllä
 data-download-deny = Ei
 data-download-license = Lisenssi: <licenseLink>CC-0</licenseLink>
+data-download-modal = Olet aikeissa ladata <size>{ $size } Gt</size>, jatketaanko?
+data-subtitle = Rakennamme avointa ja vapaasti käytettävää puheaineistoa jota kuka tahansa voi hyödyntää puhesovellusten tuottamiseen
 data-other-title = Muut ääniaineistot...
 license = Lisenssi: <licenseLink>{ $license }</licenseLink>
 
