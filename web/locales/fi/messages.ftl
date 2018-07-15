@@ -95,10 +95,24 @@ cookies = Evästeet
 faq = Usein kysytyt kysymykset
 content-license-text = Sisältö on saatavilla <licenseLink>Creative Commons -lisenssillä</licenseLink>
 share-title = Auta meitä löytämään muita lahjoittamaan ääntään.
+share-text = Auta opettamaan koneita kuinka oikeat ihmiset puhuvat, lahjoita ääntäsi täällä: { $link }
 back-top = Takaisin ylös
+contribution-banner-text = Olemme juuri lisänneet uudenlaisen osallistumistavan
+report-bugs-link = Auta ilmoittamalla bugeja
 
 ## Home Page
 
+home-title = Common Voice on Mozilla-projekti opettamaan koneita puhumaan kuin ihmiset.
+home-cta = Puhu, ota osaa täällä.
+wall-of-text-start = Ääni on luonnollinen, ääni on inhimillinen. Siksi olemme kiinnostuneita luomaan käyttökelpoista puheteknologiaa koneille. Puheteknologiaa varten tarvitaan kuitenkin paljon puheaineistoja.
+wall-of-text-more-mobile = Suurin osa aineistosta jota suuryritykset käyttävät ei ole saatavilla suurimmalle osalle ihmisiä. Meistä se haittaa innovaatiota. Siitä syystä aloitimme Common Voice -projektin, joka auttaa tekemään puheentunnistusta saataville kaikille.
+wall-of-text-more-desktop = Voit lahjoittaa ääntäsi auttaaksesi meitä rakentamaan avoimen lähdekoodin äänitietokantaa, jota kuka tahansa voi hyödyntää innovatiivisissa sovelluksissa ja internetissä. <lineBreak></lineBreak> Lue virke ja auta koneita oppimaan kuinka ihmiset puhuvat. Tarkista muiden puhujien työtä laadun parantamiseksi. Niin helppoa se on.
+show-wall-of-text = Lue lisää
+help-us-title = Auta lauseiden varmentamisessa.
+help-us-explain = Paina toistonappia, kuuntele ja kerro: vastaako puhuttu täsmällisesti alla olevaa virkettä?
+no-clips-to-validate = Tällä kielellä ei ole yhtään ääninäytteitä. Auta meitä täyttämään listaa nauhoittamalla muutamia.
+vote-yes = Kyllä
+vote-no = Ei
 
 ## Speak & Listen Shortcuts
 
