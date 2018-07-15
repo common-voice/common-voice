@@ -55,6 +55,7 @@ ro = Romania
 ru = Venäjä
 sk = Slovakki
 sl = Sloveeni
+sq = Albania
 sr = Serbia
 sv-SE = Ruotsi
 ta = Tamili
