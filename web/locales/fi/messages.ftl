@@ -160,6 +160,8 @@ english = Englanti
 
 profile-form-cancel = Poistu lomakkeesta
 profile-form-delete = Poista profiili
+profile-form-username =
+    .label = Käyttäjänimi
 profile-form-language =
     .label = Kieli
 profile-form-accent =
@@ -183,6 +185,7 @@ profile-create = Luo profiili
 profile-create-success = Profiilin luonti onnistui.
 profile-close = Sulje
 profile-clear-modal = Profiilitietojen poistaminen tarkoittaa ettei tätä demografista tietoa enää lähetetä Common Voiceen ääninäytteiden mukana.
+profile-explanation = Pidä kirjaa edistyksestäsi profiilin avulla ja auta pitämään ääniaineistotietoja tarkempina.
 
 ## FAQ
 
