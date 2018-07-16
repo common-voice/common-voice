@@ -15,11 +15,14 @@ loading = Thunlio...
 
 ## Languages
 
+an = Aragon holh (Spain)
 ar = Arabic holh 
 as = Assam holh
+ast = Asturia holh (Spain)
 az = Azerbaijan holh
 bn = Bangla holh
 br = Brittany holh
+bxr = Buryat holh (Russia)
 ca = Catalan holh
 cnh = Hakha Chin/Laiholh
 cs = Czech Republic holh
@@ -34,18 +37,22 @@ et = Estonia holh
 fi = Finland holh
 fo = Faroe Islands holh
 fr = France holh
+fy-NL = Frisia holh
 ga-IE = Ireland holh
 he = Hebrew holh
 hsb = Cunglei Sorbian holh
 hu = Hungary holh
+ia = Interlingua
 id = Indonesia holh
 is = Iceland holh
 it = Italy holh
 ja = Japan holh
+ka = Georgia holh (Ram)
 kab = Kabyle holh
 kk = Kazakhstan holh
 ko = Korea holh
 kpv = Komi-Zyrian holh
+kw = Cornwall holh (England)
 ky = Kyrgyzstan holh
 mk = Macedonia holh
 ne-NP = Nepal holh
