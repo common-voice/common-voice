@@ -218,7 +218,7 @@ faq-hours-q = Ни өчен аудио яздыру өчен 10 000 сәгать
 faq-hours-a = Бу сан — яхшы сыйфатлы сөйләм-текст системасын өйрәтү өчен кирәкле сәгатьләрнең якынча саны.
 faq-source-q = Чыганак текстлар кайдан алына?
 faq-source-a1 = Әлегә кадәр кулланылган җөмләләр ирекмәннәр кертемнәреннән, һәм хәзер инде авторлык хокуклары белән чикләнмәгән "It's a Wonderful Life" кебек кинофильмнарның сценарийларыннан алынды.
-faq-source-a2 = Чыганак җөмләләрне<dataLink>бу GitHub папкасы</dataLink>нда күрергә мөмкин.
+faq-source-a2 = Чыганак җөмләләрне <dataLink>бу GitHub папкасы</dataLink>нда күрергә мөмкин.
 
 ## Profile
 
@@ -320,6 +320,9 @@ language-total-progress = Барлыгы
 language-search-input =
     .placeholder = Эзләү
 language-speakers = Сөйләүчеләр
+localized = Тәрҗемә ителгән
+sentences = Җөмләләр
+total-hours = Барлык сәгатьләр
 
 ## New Contribution
 
