@@ -299,6 +299,9 @@ language-meter-in-progress = 進度
 language-total-progress = 總計
 language-search-input =
     .placeholder = 搜尋
+language-speakers = 使用者數
+sentences = 句子
+total-hours = 總時數
 
 ## New Contribution
 
