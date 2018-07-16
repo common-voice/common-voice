@@ -312,8 +312,8 @@ request-language-success-content = Byddwn mewn cysylltiad gyda rhagor o wybodaet
 
 ## Languages Overview
 
-language-section-in-progress = Ar Gynnydd
-language-section-in-progress-description = Mae ieithoedd ar gynnydd yn cael eu hadeiladu ar hyn o bryd ar gyfer cyfraniadau gan ein cymunedau; mae eu cynnydd yn adlewyrchu lle maen nhw arni ar draws cyfnodau lleolieddio'r wefan a'r casglu brawddegau.
+language-section-in-progress = Yn Cael eu Datblygu
+language-section-in-progress-description = Mae ieithoedd sy'n cael eu datblygu yn cael eu hadeiladu ar hyn o bryd ar gyfer cyfraniadau gan ein cymunedau; mae eu cynnydd yn adlewyrchu lle maen nhw arni ar draws cyfnodau lleolieddio'r wefan a'r casglu brawddegau.
 language-section-launched = Wedi Cychwyn
 language-section-launched-description = Ar gyfer ieithoedd sydd wedi eu cyflwyno mae'r wefan wedi ei leoleiddio'n llwyddiannus ac mae digon o frawddegau wedi eu casglu i ganiatáu cyfraniadau <italic>{ speak }</italic> a <italic>{ listen }</italic> parhaus.
 languages-show-more = Gweld Mwy
@@ -324,6 +324,9 @@ language-total-progress = Cyfanswm
 language-search-input =
     .placeholder = Chwilio
 language-speakers = Siaradwyr
+localized = Wedi ei leoleiddio
+sentences = Brawddegau
+total-hours = Cyfanswm Oriau
 
 ## New Contribution
 
