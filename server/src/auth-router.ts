@@ -7,7 +7,6 @@ import * as passport from 'passport';
 import { getConfig } from './config-helper';
 
 const {
-  ENVIRONMENT,
   MYSQLHOST,
   MYSQLDBNAME,
   MYSQLUSER,
@@ -53,11 +52,7 @@ if (DOMAIN) {
       domain: DOMAIN,
       clientID: CLIENT_ID,
       clientSecret: CLIENT_SECRET,
-      callbackURL:
-        (({
-          stage: 'https://voice.allizom.org',
-          prod: 'https://voice.mozilla.org',
-        } as any)[ENVIRONMENT] || '') + CALLBACK_URL,
+      callbackURL: CALLBACK_URL,
       scope: 'openid email',
     },
     (
