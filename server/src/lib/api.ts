@@ -29,6 +29,11 @@ export default class API {
       next();
     });
 
+    router.get('/cookie', (request: Request, response: Response) => {
+      response.cookie('takethis', "it's dangerous to go alone");
+      response.json('nomnom');
+    });
+
     router.get('/metrics', (request: Request, response: Response) => {
       this.metrics.countPrometheusRequest(request);
 
