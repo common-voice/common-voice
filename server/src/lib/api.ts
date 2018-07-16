@@ -97,7 +97,7 @@ export default class API {
   };
 
   saveUser = async (request: Request, response: Response) => {
-    await this.model.syncUser(request.params.id, request.body);
+    await this.model.syncUser(request.params.id, request.body, request.header('Referer'));
     response.json('user synced');
   };
 

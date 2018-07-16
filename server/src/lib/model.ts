@@ -109,7 +109,7 @@ export default class Model {
   /**
    * Update current user
    */
-  async syncUser(uid: string, data: any): Promise<void> {
+  async syncUser(uid: string, data: any, sourceURL = ''): Promise<void> {
     const user = await this.db.updateUser(uid, data);
 
     const { BASKET_API_KEY, PROD } = getConfig();
@@ -125,6 +125,7 @@ export default class Model {
           format: 'H',
           lang: 'en',
           email: user.email,
+          source_url: sourceURL,
           sync: 'Y',
         },
       });
