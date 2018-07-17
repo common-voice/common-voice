@@ -127,10 +127,11 @@
         }
 
         & .labels {
+            border-bottom: 1px solid var(--grey);
+            margin-bottom: 20px;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            border-bottom: 1px solid var(--grey);
             overflow-x: auto;
         }
 
@@ -197,8 +198,9 @@
 
         @media (--sm-down) {
             margin: 10px 0;
-            padding: 10px 0;
+            padding: 10px;
             width: 100%;
+            box-sizing: border-box;
         }
 
         & input {
@@ -212,7 +214,8 @@
         }
 
         & img {
-            width: 20px;
+            padding-top: 2px;
+            width: 16px;
         }
     }
 
@@ -341,7 +344,7 @@
 
                 @media (--xs-up) {
                     margin-bottom: 0;
-                    padding: var(--standard-margin);
+                    padding: 1rem;
                 }
             }
 

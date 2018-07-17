@@ -32,7 +32,6 @@ interface State {
   showAllInProgress: boolean;
   showAllLaunched: boolean;
   showLanguageRequestModal: boolean;
-  showSearch: boolean;
   query: string;
 }
 
@@ -47,7 +46,6 @@ class LanguagesPage extends React.PureComponent<Props, State> {
     showAllInProgress: false,
     showAllLaunched: false,
     showLanguageRequestModal: false,
-    showSearch: false,
     query: '',
   };
 
@@ -76,12 +74,6 @@ class LanguagesPage extends React.PureComponent<Props, State> {
     });
   }
 
-  componentDidUpdate(prevProps: Props, prevState: State) {
-    if (this.state.showSearch && !prevState.showSearch) {
-      this.smallSearchInputRef.current.focus();
-    }
-  }
-
   toggleShowAllInProgress = () =>
     this.setState(state => ({ showAllInProgress: !state.showAllInProgress }));
 
@@ -89,11 +81,10 @@ class LanguagesPage extends React.PureComponent<Props, State> {
     this.setState(state => ({ showAllLaunched: !state.showAllLaunched }));
 
   toggleSearch = () =>
-    this.setState(({ inProgress, launched, showSearch }) => ({
+    this.setState(({ inProgress, launched }) => ({
       filteredInProgress: inProgress,
       filteredLaunched: launched,
       query: '',
-      showSearch: !showSearch,
     }));
 
   changeSection = (section: LanguageSection) => {
@@ -153,7 +144,6 @@ class LanguagesPage extends React.PureComponent<Props, State> {
       showAllInProgress,
       showAllLaunched,
       showLanguageRequestModal,
-      showSearch,
       query,
     } = this.state;
 
@@ -219,34 +209,9 @@ class LanguagesPage extends React.PureComponent<Props, State> {
               {getString('language-section-in-progress')}
               {inProgressCountLabel}
             </h2>
-
-            {!isProduction() && (
-              <TextButton onClick={this.toggleSearch}>
-                {showSearch ? (
-                  <CloseIcon black style={{ width: 15 }} />
-                ) : (
-                  <SearchIcon />
-                )}
-              </TextButton>
-            )}
-
-            {!isProduction() &&
-              showSearch && (
-                <div className="search">
-                  <Localized
-                    id="language-search-input"
-                    attrs={{ placeholder: true }}>
-                    <input
-                      type="text"
-                      value={query}
-                      onChange={this.handleQueryChange}
-                      onKeyDown={this.handleQueryKeyDown}
-                      ref={this.smallSearchInputRef}
-                    />
-                  </Localized>
-                </div>
-              )}
           </div>
+
+          {!isProduction() && this.renderSearch(this.smallSearchInputRef)}
         </div>
 
         <div className="language-sections">
@@ -256,36 +221,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
                 {getString('language-section-launched')}
                 {launchedCountLabel}
               </h1>
-              {!isProduction() && (
-                <div className="search">
-                  <Localized
-                    id="language-search-input"
-                    attrs={{ placeholder: true }}>
-                    <input
-                      type="text"
-                      value={query}
-                      onChange={this.handleQueryChange}
-                      onKeyDown={this.handleQueryKeyDown}
-                      ref={this.largeSearchInputRef}
-                    />
-                  </Localized>
-                  {query ? (
-                    <TextButton
-                      onClick={this.toggleSearch}
-                      style={{ padding: 0 }}>
-                      <CloseIcon
-                        black
-                        style={{ padding: 4, boxSizing: 'border-box' }}
-                      />
-                    </TextButton>
-                  ) : (
-                    <TextButton
-                      onClick={() => this.largeSearchInputRef.current.focus()}>
-                      <SearchIcon />
-                    </TextButton>
-                  )}
-                </div>
-              )}
+              {!isProduction() && this.renderSearch(this.largeSearchInputRef)}
               <Hr />
             </div>
 
@@ -364,6 +300,40 @@ class LanguagesPage extends React.PureComponent<Props, State> {
             )}
           </section>
         </div>
+      </div>
+    );
+  }
+
+  renderSearch(inputRef: { current: null | HTMLInputElement }) {
+    const { query } = this.state;
+    return (
+      <div className="search">
+        <Localized id="language-search-input" attrs={{ placeholder: true }}>
+          <input
+            type="text"
+            value={query}
+            onChange={this.handleQueryChange}
+            onKeyDown={this.handleQueryKeyDown}
+            ref={inputRef}
+          />
+        </Localized>
+        {query ? (
+          <TextButton onClick={this.toggleSearch} style={{ padding: 0 }}>
+            <CloseIcon
+              black
+              style={{
+                marginTop: 2,
+                marginRight: 8,
+                padding: 4,
+                boxSizing: 'border-box',
+              }}
+            />
+          </TextButton>
+        ) : (
+          <TextButton onClick={() => inputRef.current.focus()}>
+            <SearchIcon />
+          </TextButton>
+        )}
       </div>
     );
   }
