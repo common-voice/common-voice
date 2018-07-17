@@ -24,6 +24,17 @@ bn = Bengali
 br = Breton
 bxr = Buriato
 ca = Catalan
+cnh = Hakha Chin
+cs = Checo
+cv = Chuvasio
+cy = Gales
+da = Danes
+de = Aleman
+dsb = Bajo Sorabo
+el = Griego
+en = Q'anchi'
+es = Kaxlan tzij
+et = Estonio
 
 # [/]
 
