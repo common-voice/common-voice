@@ -152,9 +152,21 @@ request-language-button = Tik'utüx jun Ch'ab'äl
 ## ProjectStatus
 
 status-title = Rub'eyal ri nimasamaj: ¡Tatz'eta' akuchi' ojb'enäq!
+status-contribute = Kato'on Rik'in ri Ach'ab'äl
+status-hours =
+    { $hours ->
+        [one] ¡Jun ramaj junaman wakami!
+       *[other] ¡{ $hours } ramaj junaman wakami!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Jun chik Rayib'äl: { $goal }
+english = Q'anchi'
 
 ## ProfileForm
 
+profile-form-cancel = Tel pa Nojwuj
+profile-form-delete = Tiyuj Ruwäch B'i'aj
 
 ## FAQ
 
