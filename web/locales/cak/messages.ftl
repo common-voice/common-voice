@@ -115,6 +115,11 @@ home-cta = Kach'o, ¡kato'on wawe'!
 wall-of-text-start = Choj ri ch'ab'äl, ruch'ab'äl winäq, Ruma ri' yalan yojkikot richin niqanük' runa'ob'al kich'ab'äl qach'ich'b'al. Richin ninuk' jun runuk'ulem ch'ab'äl, najowäx nïm kitz'etb'al ch'ab'äl.
 wall-of-text-more-mobile = Ronojel ri taq tzij nikokisaj ri taq nimamolojri'ïl, man wachel ta chi kiwa ri winaqi'. Röj niqana'ojij chi nuq'üt ri tz'ukuj. Ruma ri' xqelesaj ri Nimasamaj Common Voice, jun nimasamaj nito'on chi ri etamanem ch'ab'äl wachel chi qawa qonojel.
 show-wall-of-text = Tisik'ïx Ch'aqa' Chik
+help-us-title = ¡Kojato' richin yenik'öx taq b'ab'!
+help-us-explain = Tipitz'a' titzij, tawak'a& tatzijoj chi qe: ¿La pa rub'eyal xkisik'ij ri b'ab'?
+no-clips-to-validate = Xa ke xa majun yakoj richin nak'axäx pa re ch'ab'äl re'. Kojato' chi niqanojisaj ri cholb'äl rik'in nayäk jun wakami.
+vote-yes = Ja'
+vote-no = Manäq
 
 ## Speak & Listen Shortcuts
 
