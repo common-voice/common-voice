@@ -95,6 +95,7 @@ languages = Taq ch'ab'äl
 profile = Ruwäch b'i'aj
 help = Tob'äl
 contact = Rub'i' achib'il
+privacy = Ichinanem
 
 ## Home Page
 
