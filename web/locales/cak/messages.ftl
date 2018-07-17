@@ -35,6 +35,20 @@ el = Griego
 en = Q'anchi'
 es = Kaxlan tzij
 et = Estonio
+fi = Finlandes
+fo = Feroes
+fr = Frances
+fy-NL = Frison
+ga-IE = Irlandes
+he = Hebreo
+hsb = Alto Sorabo
+hu = Hungaro
+ia = Interlingua
+id = Indonesio
+is = Islandes
+it = Italiano
+ja = Japones
+ka = Georgiano
 
 # [/]
 
