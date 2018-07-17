@@ -167,6 +167,14 @@ english = Q'anchi'
 
 profile-form-cancel = Tel pa Nojwuj
 profile-form-delete = Tiyuj Ruwäch B'i'aj
+profile-form-username =
+    .label = Rub'i' Okisanel
+profile-form-language =
+    .label = Ch'ab'äl
+profile-form-accent =
+    .label = K'oxomal
+profile-form-age =
+    .label = Ajuna'
 
 ## FAQ
 
