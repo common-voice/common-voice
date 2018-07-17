@@ -320,7 +320,7 @@ language-search-input =
 language-speakers = Sprecher
 localized = Übersetzt
 sentences = Sätze
-total-hours = Stunden insgesamt
+total-hours = Bestätigte Stdn.
 
 ## New Contribution
 
