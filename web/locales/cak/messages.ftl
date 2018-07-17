@@ -179,6 +179,12 @@ profile-form-gender =
     .label = Ixöq/achi
 profile-form-submit-save = Tiyak
 profile-form-submit-saved = Xyak
+profile-keep-data = Tiyak Tzij
+profile-delete-data = Tiyuj Tzij
+male = Achi
+female = Ixöq
+# Gender
+other = Juley chik
 
 ## FAQ
 
