@@ -100,6 +100,7 @@ terms = Ojqanem
 cookies = Taq kaxlanwäy
 faq = Jutaqil k'utunïk
 content-license-text = Wachel ri etamab'äl rik'in jun <licenseLink>ya'oj q'ij Creative Commons</licenseLink>
+share-title = ¡Kojato' richin yojapon kik'in ch'aqa' chik winaqi', ri nikajo' nikisipaj kich'ab'äl!
 
 ## Home Page
 
