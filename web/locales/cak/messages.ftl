@@ -96,6 +96,10 @@ profile = Ruwäch b'i'aj
 help = Tob'äl
 contact = Rub'i' achib'il
 privacy = Ichinanem
+terms = Ojqanem
+cookies = Taq kaxlanwäy
+faq = Jutaqil k'utunïk
+content-license-text = Wachel ri etamab'äl rik'in jun <licenseLink>ya'oj q'ij Creative Commons</licenseLink>
 
 ## Home Page
 
