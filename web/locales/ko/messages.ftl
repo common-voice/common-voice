@@ -15,33 +15,47 @@ loading = 로딩중…
 
 ## Languages
 
+an = 아라곤어
+ar = 아랍어
 as = 아삼어
+ast = 아스투리아스어
 az = 아제르바이잔어
 bn = 벵골어
 br = 브르타뉴어
+bxr = 부랴트어
 ca = 카탈로니아어
 cs = 체코어
 cv = 추바시어
 cy = 웨일스어
 da = 덴마크어
 de = 독일어
+dsb = 저지 소르브어
 el = 그리스어
 en = 영어
 es = 스페인어
 et = 에스토니아어
+fi = 핀란드어
+fo = 페로어
 fr = 프랑스어
 fy-NL = 프리지아어
 ga-IE = 아일랜드어
 he = 히브리어
+hsb = 고지 소르브어
 hu = 헝가리어
+ia = 인테르링구아어
 id = 인도네시아어
+is = 아이슬란드어
 it = 이탈리아어
+ja = 일본어
 ka = 그루지아어
 kab = 커바일어
 kk = 카자흐스탄어
 ko = 한국어
+kpv = 코미지리안어
 kw = 콘월어
+ky = 키르기스스탄어
 mk = 마케도니아어
+myv = 에르자어
 nb-NO = 노르웨이어 보크몰
 ne-NP = 네팔어
 nl = 네덜란드어
@@ -51,6 +65,7 @@ pl = 폴란드어
 pt-BR = 포르투갈어(브라질)
 ro = 루마니아어
 ru = 러시아어
+sah = 사하어
 sk = 슬로바키아어
 sl = 슬로베니아어
 sq = 알바니아어
@@ -64,6 +79,7 @@ tt = 타타르어
 uk = 우크라이나어
 uz = 우즈베키스탄어
 zh-CN = 중국어(중국)
+zh-HK = 중국어(홍콩)
 zh-TW = 중국어(중화민국)
 
 # [/]
@@ -85,7 +101,10 @@ faq = 자주 묻는 질문
 content-license-text = 콘텐츠는 <licenseLink>크리에이티브 커먼즈 라이센스</licenseLink> 하에 사용할 수 있음
 share-title = 다른 사람들이 목소리를 기부할 수 있게 도와주세요!
 share-text = 실제로 사람들이 말하는 방식을 프로그램에 추가하고, 자신의 목소리를 { $Link }에 기부해주세요
+link-copied = 링크 복사됨
 back-top = 처음으로 돌아가기
+contribution-banner-button = 살펴보기
+report-bugs-link = 버그 신고
 
 ## Home Page
 
@@ -237,7 +256,7 @@ record-platform-not-supported = 죄송합니다. 현재 지원되지 않는 플�
 record-platform-not-supported-desktop = 데스크 톱 컴퓨터에서 최신 버전을 다운로드할 수 있음:
 record-platform-not-supported-ios = <bold>iOS</bold> 사용자는 무료앱을 다운받을 수 있음:
 record-must-allow-microphone = 마이크 사용 접근을 허용해야 합니다.
-record-retry = 다시 시도하기
+record-retry = 다시 시도
 record-no-mic-found = 마이크를 찾을 수 없습니다.
 record-error-too-short = 녹음이 너무 짧습니다.
 record-error-too-long = 녹음이 너무 깁니다.
@@ -297,6 +316,8 @@ language-meter-in-progress = 진행
 language-total-progress = 총
 language-search-input =
     .placeholder = 검색
+language-speakers = 말한 사람
+localized = 지역화됨
 
 ## New Contribution
 
@@ -307,10 +328,6 @@ listen = 듣기
 skip = 건너뛰기
 shortcuts = 바로 가기
 clips = 클립
-goal-type-record = 녹음
-goal-type-validation = 유효성
-toward-goal = 그 <goalPercentage></goalPercentage>는 오늘의 Common Voice { $goalType } 목표를 향한 것입니다. 감사합니다.
-goal-help = Common Voice가 오늘의 오늘의 { $goalType } 목표의 <goalPercentage></goalPercentage>에 도달할 수 있도록 도왔습니다!
 contribute-more =
     { $count ->
        *[other] { $count } 번 더 할 준비가 되셨습니까?
@@ -326,10 +343,6 @@ review-tooltip = 진행하면서 여기서 클립을 검토하고 재녹음 하�
 unable-speak = 현재 말할 수 없습니까?
 review-instruction = 필요한 경우 클립을 검토하고 재녹음 하세요
 record-submit-tooltip = { $actionType } 준비가 되면 제출
-clips-submitted =
-    { $count ->
-       *[other] { $count } 클립이 제출됨
-    }
 record-abort-title = 녹음을 먼저 끝내시겠습니까?
 record-abort-text = 지금 그만두면 진행된 것을 잃게 됩니다
 record-abort-submit = 클립 제출
