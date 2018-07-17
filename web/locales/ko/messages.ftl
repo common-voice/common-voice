@@ -317,7 +317,9 @@ language-total-progress = 총
 language-search-input =
     .placeholder = 검색
 language-speakers = 말한 사람
-localized = 지역화됨
+localized = 지역화된
+sentences = 문장
+total-hours = 전체 시간
 
 ## New Contribution
 
@@ -328,6 +330,8 @@ listen = 듣기
 skip = 건너뛰기
 shortcuts = 바로 가기
 clips = 클립
+goal-help-recording = 방금 오늘 Common Voice 일간 녹음 목표 { $goalValue }의 <goalPercentage></goalPercentage>를 달성하였습니다!
+goal-help-validation = 방금 오늘 Common Voice 일간 검증 목표 { $goalValue }의 <goalPercentage></goalPercentage>를 달성하였습니다!
 contribute-more =
     { $count ->
        *[other] { $count } 번 더 할 준비가 되셨습니까?
@@ -343,6 +347,7 @@ review-tooltip = 진행하면서 여기서 클립을 검토하고 재녹음 하�
 unable-speak = 현재 말할 수 없습니까?
 review-instruction = 필요한 경우 클립을 검토하고 재녹음 하세요
 record-submit-tooltip = { $actionType } 준비가 되면 제출
+clips-uploaded = 클립 업로드됨
 record-abort-title = 녹음을 먼저 끝내시겠습니까?
 record-abort-text = 지금 그만두면 진행된 것을 잃게 됩니다
 record-abort-submit = 클립 제출
@@ -352,4 +357,6 @@ listen-instruction = { $actionType } <playIcon></playIcon> 문장을 정확하�
 listen-again-instruction = 잘하셨습니다! <playIcon></playIcon> 준비가 되면 다시 듣기
 listen-3rd-time-instruction = 2개 하셨네요, 계속 하세요! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> 마지막입니다!
+nothing-to-validate = 해당 언어에 더 이상 검증할 목소리가 없습니다. 새로운 목소리를 추가해 주세요.
+record-button-label = 목소리 녹음
 share-title-new = 더 많은 목소리를 찾게 <bold>도와주세요</bold>
