@@ -102,6 +102,7 @@ faq = Perguntas frequentes
 content-license-text = Conteúdo disponível sob licença <licenseLink>Creative Commons</licenseLink>
 share-title = Ajude-nos a encontrar outros doadores de voz!
 share-text = Ajude a ensinar às máquinas como uma pessoal fala, doando sua voz em { $link }
+link-copied = Link copiado
 back-top = Voltar para o início
 contribution-banner-text = Lançamos uma nova experiência para contribuição
 contribution-banner-button = Dê uma olhada
@@ -316,6 +317,10 @@ language-meter-in-progress = Progresso
 language-total-progress = Total
 language-search-input =
     .placeholder = Pesquisar
+language-speakers = Falantes
+localized = Localizado
+sentences = Frases
+total-hours = Total de horas
 
 ## New Contribution
 
@@ -340,11 +345,7 @@ review-tooltip = Revise e grave as frases enquanto prossegue
 unable-speak = Incapaz de falar agora
 review-instruction = Enquanto revisa, grave as frases novamente se precisar
 record-submit-tooltip = { $actionType } enviar quando estiver pronto
-clips-submitted =
-    { $count ->
-        [one] { $count } frase enviada!
-       *[other] { $count } frases enviadas!
-    }
+clips-uploaded = Gravações carregadas
 record-abort-title = Terminar a gravação primeiro?
 record-abort-text = Se parar agora vai perder todo o seu progresso
 record-abort-submit = Enviar frases
