@@ -238,9 +238,12 @@ data-other-title = Adang Aw datasets
 data-other-goto = { $name } hin kal
 data-other-librispeech-description = LIbriSpeech cu suimilam thongkhat (1000) chung 16Khz tluk in cauk relmi LibriVox ah lak mi chiahnak a si. 
 data-other-ted-name = TED-LIUM Corpus
+data-other-ted-description = TED-LIUM cu TED website i chiah mi holh le biatlang le catlang pawl hman in sermi a si.
+data-other-voxforge-description = VoxForge cu mikip  nih zalong te le tling tein computer Aw phun an hman khawh nak caah holh phun pumhnak ah hman mi a si.
 data-other-tatoeba-description =
     Tatoeba cu holh chimh nak ding ah biatlang, bialeh, le holh tuun mi chiahnak lian pi a si.
     Hi dawnlok michung ah hin mikip nih mirang holh an tuun mi aa tal. 
+data-bundle-description = Common Voice data le Aw dang data vialte a cunglei ah. 
 license = Laisen:<licenseLink>{ $license }</licenseLink>
 license-mixed = Fawnh
 
@@ -257,6 +260,7 @@ record-error-too-long = Na tunmi a sau tuk.
 record-error-too-quiet = Na tunmi a dih tuk.
 record-submit-success = Kuat mi a tha! Tun na duh ti maw?
 record-help = Tun kha hmet, cun biatlang kha thang piin rel.
+record-cancel = Tuunthar mi leet
 terms-agree = Ka lungtling
 terms-disagree = Ka lungtling lo 
 review-aborted = Thun tthan hlah. Na tuun mi hlonh na duh maw?
