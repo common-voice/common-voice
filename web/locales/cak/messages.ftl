@@ -175,6 +175,10 @@ profile-form-accent =
     .label = K'oxomal
 profile-form-age =
     .label = Ajuna'
+profile-form-gender =
+    .label = Ixöq/achi
+profile-form-submit-save = Tiyak
+profile-form-submit-saved = Xyak
 
 ## FAQ
 
