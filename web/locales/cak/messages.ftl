@@ -63,6 +63,25 @@ nl = Nerlandes
 nn-NO = Noruego Nynorsk
 or = Odia
 pl = Polaco
+pt-BR = Portugues (Brasil)
+ro = Rumano
+ru = Ruso
+sah = Yakuto
+sk = Eslovaco
+sl = Esloveno
+sq = Albanes
+sr = Serbio
+sv-SE = Sueco
+ta = Tamil
+te = Telugu
+th = Tailandes
+tr = Turco
+tt = Tartaro
+uk = Ucraniano
+uz = Uzbeko
+zh-CN = Chino (China)
+zh-HK = Chino (Hong Kong)
+zh-TW = Chino (Taiwan)
 
 # [/]
 
