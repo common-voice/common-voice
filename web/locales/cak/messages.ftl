@@ -120,18 +120,38 @@ help-us-explain = Tipitz'a' titzij, tawak'a& tatzijoj chi qe: ¿La pa rub'eyal x
 no-clips-to-validate = Xa ke xa majun yakoj richin nak'axäx pa re ch'ab'äl re'. Kojato' chi niqanojisaj ri cholb'äl rik'in nayäk jun wakami.
 vote-yes = Ja'
 vote-no = Manäq
+toggle-play-tooltip = Tapitz'a' { shortcut-play-toggle } richin pa rub'eyal natzïj
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = Titzij/Tipab'äx
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = j
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Tiyak/Tipab'äx
+request-language-text = ¿La k'a man nawïl ta ri ach'ab'äl pa Common Voice?
+request-language-button = Tik'utüx jun Ch'ab'äl
 
 ## ProjectStatus
 
+status-title = Rub'eyal ri nimasamaj: ¡Tatz'eta' akuchi' ojb'enäq!
 
 ## ProfileForm
 
