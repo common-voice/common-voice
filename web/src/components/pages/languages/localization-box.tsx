@@ -16,6 +16,9 @@ import ProgressBar from '../../progress-bar/progress-bar';
 import { Hr } from '../../ui/ui';
 import GetInvolvedModal from './get-involved-modal';
 
+const SENTENCE_COUNT_TARGET = 500;
+const HOURS_TARGET = 1200;
+
 function Skeleton({
   loading,
   title,
@@ -163,7 +166,7 @@ class LocalizationBox extends React.PureComponent<Props, State> {
               </Localized>
             }
             progress={this.props.sentencesCount}
-            progressTotal={500}
+            progressTotal={SENTENCE_COUNT_TARGET}
             onClick={this.toggleModal}>
             <LocalizationProvider messages={this.buildMessagesGenerator()}>
               <Localized id="get-involved-button">
@@ -186,7 +189,7 @@ class LocalizationBox extends React.PureComponent<Props, State> {
               </Localized>
             }
             progress={this.props.hours}
-            progressTotal={1200}
+            progressTotal={HOURS_TARGET}
             progressSecondary
             onClick={this.goToContribute}>
             <LocalizationProvider messages={this.buildMessagesGenerator()}>
