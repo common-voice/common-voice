@@ -88,6 +88,13 @@ zh-TW = Chino (Taiwan)
 
 ## Layout
 
+speak = Ch'owen
+speak-now = Kach'o wakami
+datasets = Kiyakb'al tzij
+languages = Taq ch'ab'äl
+profile = Ruwäch b'i'aj
+help = Tob'äl
+contact = Rub'i' achib'il
 
 ## Home Page
 
