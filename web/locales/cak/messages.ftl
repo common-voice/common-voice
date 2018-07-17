@@ -49,6 +49,20 @@ is = Islandes
 it = Italiano
 ja = Japones
 ka = Georgiano
+kab = Cabilio
+kk = Kazajo
+ko = Coreano
+kpv = Komi-Zyrian
+kw = Cornico
+ky = Kirguis
+mk = Macedonio
+myv = Erzya
+nb-NO = Noruego (Bokmål)
+ne-NP = Nepali
+nl = Nerlandes
+nn-NO = Noruego Nynorsk
+or = Odia
+pl = Polaco
 
 # [/]
 
