@@ -101,6 +101,12 @@ cookies = Taq kaxlanwäy
 faq = Jutaqil k'utunïk
 content-license-text = Wachel ri etamab'äl rik'in jun <licenseLink>ya'oj q'ij Creative Commons</licenseLink>
 share-title = ¡Kojato' richin yojapon kik'in ch'aqa' chik winaqi', ri nikajo' nikisipaj kich'ab'äl!
+share-text = Kato'on richin nak'üt chi kiwäch ri ch'ich'b'äl rub'eyal yech'o ri winaqi', tasipaj ach'ab'äl pa { $link }
+link-copied = Xwachib'ëx Ximonel
+back-top = Titzolin pa Rutikirib'al
+contribution-banner-text = K'ab'a' tiqelesaj jun k'ak'a' rutijb'al to'ïk
+contribution-banner-button = Taya' jun atzub'al
+report-bugs-link = Kato'on rik'in kitzijol sachoj
 
 ## Home Page
 
