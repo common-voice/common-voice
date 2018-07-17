@@ -15,9 +15,15 @@ loading = Nisamajib'ëx...
 
 ## Languages
 
-an = Aragon ch'ab'äl
-ar = Arabe ch'ab'äl
-as = Assam ch'ab'äl
+an = Aragones
+ar = Arabe
+as = Assames
+ast = Asturiano
+az = Azeri
+bn = Bengali
+br = Breton
+bxr = Buriato
+ca = Catalan
 
 # [/]
 
