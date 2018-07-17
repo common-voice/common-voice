@@ -316,6 +316,8 @@ language-meter-in-progress = Framdrift
 language-total-progress = Totalt
 language-search-input =
     .placeholder = Søk
+language-speakers = Talt av
+sentences = Setningar
 
 ## New Contribution
 
