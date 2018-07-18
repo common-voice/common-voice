@@ -243,7 +243,7 @@ Si utilizza in questa fase un ambiente diverso da quello di test, che consente d
 In particolare, la validazione del codice fiscale consiste nel verificare se il codice fiscale e i dati che concorrono alla sua formazione, coincidono con quelli registrati dall’Agenzia delle Entrate.
 Durante il pre-subentro, i Comuni che riceveranno le segnalazioni di eventuali anomalie dovranno verificarle con attenzione, rimuoverle utilizzando le proprie applicazioni quando dipendono da cause imputabili al comune e, successivamente, effettuare un nuovo invio dei dati.
 Le anomalie che non dipendono dal comune saranno gestite a livello centrale.
-Per l’accesso all’ambiente di pre-subentro si utilizzano al momento le stesse credenziali già distribuite per la l’accesso all’ambiente di test e lo stesso certificato di postazione.
+Per l’accesso all’ambiente di pre-subentro si utilizzano al momento le stesse credenziali già distribuite per l’accesso all’ambiente di test e lo stesso certificato di postazione.
 In quanto segue sono sintetizzati i controlli che il sistema ANPR assicura nella fase di emissione dei certificati.
 Per tutti i certificati anagrafici producibili dagli ufficiali di anagrafe attraverso il sistema ANPR, sono riportati i controlli e le condizioni sui dati che ne inibiscono l’emissione.
 L’applicazione 18app permette di gestire il beneficio nominale di 500 euro ai cittadini residenti nel territorio nazionale che compiono i diciotto anni di età nell’anno 2017.
@@ -635,7 +635,7 @@ Arrivato in Paradiso viene accolto da una donna che gli racconta ciò che aveva 
 Dante e Beatrice si ritrovano facendo un canto di lode a Dio.
 Così si conclude lo spettacolo con il passaggio singolare di ogni attore sul palco per ricevere gli applausi.
 In tutto lo spettacolo Dante è attorniato da ballerini mascherati a seconda della scena: da demoni anime o angeli.
-Gli attori principali cantano molto spesso, anche se in alcuni casi non era adatto, seguendo senza problemi la musica di sottofondo molto adatta all’opera.
+Gli attori principali cantano molto spesso, anche se in alcuni casi non erano adatti, seguendo senza problemi la musica di sottofondo molto adatta all’opera.
 La scenografia digitale riesce a dare la sensazione di presenza dello spettatore all’interno dell’opera.
 Molto bella la prima parte con i suoi colpi di scena e cambiamenti del ritmo musicale fino all’arrivo del paradiso.
 Il paradiso invece è stato molto statico sia sulla musica che nell’azione dei personaggi sul palco, ma la sceneggiatura dantesca non permetteva altro.
@@ -4406,41 +4406,81 @@ Questa lettura mi ha spinto a scrivere il presente testamento.
 Non lascio dietro di me alcuna proprietà di cui sia necessario disporre.
 Quanto alle cose di uso quotidiano che mi servivano, chiedo di distribuirle come apparirà opportuno.
 Gli appunti personali siano bruciati.
-Chiedo che su questo vigili don Stanislao, che ringrazio per la collaborazione e l'aiuto così prolungato negli anni e così comprensivo.
+Chiedo che su questo vigili don Stanislao
+lo ringrazio per la collaborazione e l'aiuto così prolungato negli anni e così comprensivo.
 Tutti gli altri ringraziamenti, invece, li lascio nel cuore davanti a Dio stesso, perché è difficile esprimerli.
 I gradi riconosciuti soltanto per alcuni effetti canonici non devono mai essere completamente equiparati ai gradi canonici.
-Ma è soprattutto contraddittoria una nozione di Tradizione che si oppone al Magistero universale della Chiesa, di cui è detentore il Vescovo di Roma e il Corpo dei Vescovi.
-Non si può rimanere fedeli alla Tradizione rompendo il legame ecclesiale con colui al quale Cristo stesso, nella persona dell'apostolo Pietro, ha affidato il ministero dell'unità nella sua Chiesa.
+Ma è soprattutto contraddittoria una nozione di Tradizione che si oppone al Magistero universale della Chiesa
+ne è detentore il Vescovo di Roma e il Corpo dei Vescovi.
+Non si può rimanere fedeli alla Tradizione rompendo il legame ecclesiale
+colui al quale Cristo stesso ha affidato il ministero dell'unità nella sua Chiesa.
+nella persona dell'apostolo Pietro
 Fu però in Belgio che passai la maggior parte di quelle vacanze estive.
-Durante il mese di settembre mi trovai alla guida della missione cattolica polacca, tra i minatori, nei pressi di Charleroi.
+Durante il mese di settembre mi trovai alla guida della missione cattolica polacca
+tra i minatori
+nei pressi di Charleroi.
 Fu un'esperienza molto fruttuosa.
 Per la prima volta visitai una miniera di carbone e potei conoscere da vicino il pesante lavoro dei minatori.
-Visitavo le famiglie degli emigrati polacchi, parlavo con loro, incontravo la gioventù e i bambini, accolto sempre con benevolenza e cordialità, come quando mi trovavo alla Solvay.
+Visitavo le famiglie degli emigrati polacchi
+parlavo con loro
+incontravo la gioventù e i bambini
+accolto sempre con benevolenza e cordialità
+come quando mi trovavo alla Solvay.
 Considerando la vita di quelli che hanno fedelmente seguito Cristo
 Per una tale insolita ragione siamo incitati a ricercare la Città futura
 Ci è insegnata una via sicurissima attraverso la quale, tra le vicende del mondo, possiamo arrivare alla perfezione
 Unione con Cristo o, per dir meglio, alla santità
 Secondo lo stato e la condizione propria di ciascuno.
-Senza dubbio, avendo una tal moltitudine di testimoni, attraverso i quali Dio si fa presente a noi e ci parla, siamo attirati con grande forza a guardare il Regno suo nei cieli.
+Senza dubbio, avendo una tal moltitudine di testimoni
+attraverso i quali Dio si fa presente a noi e ci parla
+siamo attirati con grande forza a guardare il Regno suo nei cieli.
 La Sede Apostolica, accogliendo i segni e la voce del suo Signore col massimo timore e docilità, da tempi immemorabili
 Per il gravoso compito affidatole di insegnare, santificare e reggere il Popolo di Dio, offre all'imitazione dei fedeli
-Alla venerazione e all'invocazione gli uomini e le donne insigni per lo splendore della carità e di tutte le altre virtù evangeliche e dopo aver condotto i debiti accertamenti, dichiara con un solenne atto di canonizzazione che essi sono Santi o Sante.
-L'Ordinamento delle cause di canonizzazione, che il Nostro predecessore Sisto V affidò alla Congregazione dei Sacri Riti da lui stesso fondata, è stato sviluppato nel corso dei tempi da sempre nuove norme
-Soprattutto ad opera di Urbano VIII, che Prospero Lambertini (poi divenuto Benedetto XIV), raccogliendo anche esperienze del tempo passato, lasciò ai posteri nell'opera intitolata Beatificazione dei Servi di Dio e canonizzazione dei Beati, e che rimase come regola per quasi due secoli presso la Sacra Congregazione dei Riti.
+Alla venerazione e all'invocazione
+gli uomini e le donne insigni per lo splendore della carità e di tutte le altre virtù evangeliche
+dopo aver condotto i debiti accertamenti
+dichiara con un solenne atto di canonizzazione che essi sono Santi o Sante.
+L'Ordinamento delle cause di canonizzazione è stato sviluppato nel corso dei tempi da sempre nuove norme
+il Nostro predecessore Sisto V le affidò alla Congregazione dei Sacri Riti da lui stesso fondata
+Soprattutto ad opera di Urbano VIII
+Prospero Lambertini, poi divenuto Benedetto XIV
+raccogliendo anche esperienze del tempo passato
+lasciò ai posteri nell'opera intitolata Beatificazione dei Servi di Dio e canonizzazione dei Beati
+rimase come regola per quasi due secoli presso la Sacra Congregazione dei Riti.
 Norme di tal genere infine furono raccolte essenzialmente nel Codice di Diritto Canonico, pubblicato nell'anno 1917.
-Ma poiché il progresso delle discipline storiche, che ha fatto grandi passi nel nostro tempo, ha mostrato la necessità di arricchire la competente Commissione di uno strumento di lavoro più adeguato, per rispondere meglio ai postulati dell'arte critica
-Il nostro predecessore Pio XI con la Lettera apostolica Già da qualche tempo (Motu proprio) pubblicata il 6 febbraio 1930, istituì presso la Sacra Congregazione dei Riti la Sezione storica e le affidò lo studio delle cause storiche.
-Il 4 gennaio 1939 lo stesso Pontefice fece pubblicare le Norme da osservare nell'istruire processi ordinari sulle cause storiche, con le quali rese di fatto superfluo il processo apostolico, così che nelle cause storiche unico divenne il processo con autorità ordinaria.
-Questo Istituto ha pertanto la facoltà di conferire con diritto proprio ai suoi studenti accademici i gradi seguenti:il dottorato in Teologia con la specializzazione in scienze teologiche su Matrimonio e Famiglia;
+Ma poiché il progresso delle discipline storiche ha mostrato la necessità di arricchire la competente Commissione
+di uno strumento di lavoro più adeguato
+per rispondere meglio ai postulati dell'arte critica
+che ha fatto grandi passi nel nostro tempo
+Il nostro predecessore Pio XI
+la Lettera apostolica Già da qualche tempo (Motu proprio) pubblicata il 6 febbraio 1930
+istituì presso la Sacra Congregazione dei Riti la Sezione storica
+le affidò lo studio delle cause storiche.
+Il 4 gennaio 1939 lo stesso Pontefice fece pubblicare tale norme
+le Norme da osservare nell'istruire processi ordinari sulle cause storiche
+con esse rese di fatto superfluo il processo apostolico
+così che nelle cause storiche
+unico divenne il processo con autorità ordinaria.
+Questo Istituto ha pertanto la facoltà di conferire con diritto proprio ai suoi studenti accademici
+i gradi seguenti
+il dottorato in Teologia con la specializzazione in scienze teologiche su Matrimonio e Famiglia;
 La licenza in Teologia su Matrimonio e Famiglia;
 Il diploma in scienza su Matrimonio e Famiglia.
 Purtroppo l’intera famiglia cristiana non ha ancora raggiunto appieno questa visibile unità nella verità.
-La chiesa cattolica ritiene pertanto suo dovere adoperarsi attivamente perché si compia il gran mistero di quell’unità, che Gesù Cristo ha invocato con ardente preghiera dal Padre celeste nell’imminenza del suo sacrificio.
+La chiesa cattolica ritiene pertanto suo dovere adoperarsi attivamente perché si compia il gran mistero di quell’unità
+che Gesù Cristo ha invocato con ardente preghiera dal Padre celeste nell’imminenza del suo sacrificio.
 Essa gode di pace soave, ben sapendo di essere intimamente congiunta con quella preghiera;
-E grandemente poi si allieta, quando vede che tale invocazione estende la sua efficacia con frutti salutari anche fra coloro, che son fuori del suo grembo.
-Anzi, a ben considerare questa stessa unità, impetrata da Cristo per la sua chiesa, sembra quasi rifulgere di un triplice raggio di suprema luce benefica: l’unità dei cattolici tra di loro, che deve conservarsi esemplarmente saldissima;
-L’unità di preghiere e di ardenti desideri, con cui i cristiani separati da questa sede apostolica aspirano ad essere uniti con noi;
-Infine l’unità nella stima e nel rispetto verso la chiesa cattolica, da parte di coloro che seguono religioni ancora non cristiane.
+E grandemente poi si allieta
+quando vede che tale invocazione estende la sua efficacia con frutti salutari anche fra coloro
+loro son fuori del suo grembo.
+Anzi, a ben considerare questa stessa unità, impetrata da Cristo per la sua chiesa
+sembra quasi rifulgere di un triplice raggio di suprema luce benefica
+l’unità dei cattolici tra di loro
+deve conservarsi esemplarmente saldissima;
+L’unità di preghiere e di ardenti desideri
+i cristiani separati da questa sede apostolica aspirano ad essere uniti con noi;
+Infine l’unità nella stima e nel rispetto verso la chiesa cattolica
+da parte di coloro che seguono religioni ancora non cristiane.
 Dopo una pausa compare la guardia che con voce minacciosa gridò a Giacinta:"O dite il segreto o morirete!"
 La piccola rispose negativamente e la guardia la trascinò fuori con sé.
 È andata via subito, senza congedarci da noi.
@@ -4451,23 +4491,33 @@ Passato un attimo di silenzio, aggiunse:"Voglia Dio che Giacinta non abbia paura
 Reciterò un’Ave Maria per Lei.
 Si tolse il cappello e pregò.
 La guardia al vederlo in atteggiamento di preghiera gli domandò:"Cosa fate?"
- Al nostro arrivo abbiamo trovato uno dei nostri confratelli in lutto a motivo della morte di suo fratello giovane che era cuoco nell’edificio delle Nazioni Unite.
+Al nostro arrivo abbiamo trovato uno dei nostri confratelli in lutto a motivo della morte di suo fratello giovane
+ella era cuoca nell’edificio delle Nazioni Unite.
 La famiglia, che abbiamo visitata immediatamente, ne dovette aspettare la salma durante sei giorni!
 È quel che i militari chiamano “danni collaterali”.
-La giovane sposa di Saad è avvilita, e così pure i suoi fratelli, vari dei quali fecero già la guerra di Iran, anni di servizio militare obbligatorio, ed anche l’embargo.
+La giovane sposa di Saad è avvilita
+e così pure i suoi fratelli
+vari dei quali fecero già la guerra di Iran
+anni di servizio militare obbligatorio
+ed anche l’embargo.
 Al tempo stesso, molta dignità.
 Una bella solidarietà familiare ne è la prova.
 Quanta sofferenza negli iracheni semplici!
 Un'altra, sì.
 Quello che mi tocca fare tutto il giorno, non lo dico;
-Le bestialità che mi tocca dare da mangiare, tutto il giorno, a questo ragno nero sul treppiedi, che non si sazia mai, non le dico;
-Bestialità incarnata da questi attori, da queste attrici, da tanta gente che per bisogno si presta a dare in pasto a questa macchinetta il proprio pudore, la propria dignità;
+Le bestialità che mi tocca dare da mangiare, tutto il giorno, a questo ragno nero sul treppiedi
+non si sazia mai, non le dico;
+Bestialità incarnata da questi attori, da queste attrici, da tanta gente
+per bisogno si presta a dare in pasto a questa macchinetta il proprio pudore, la propria dignità;
 Non le dico;
 Ma bisogna pure ch'io mi prenda un po' di respiro di tanto in tanto, assolutamente, una boccata d'aria per il mio superfluo;
 Mi interesso alla storia di questa donna, dico della Nestoroff, riempio di lei molte di queste mie notti;
 Ma non voglio infine lasciarmi prendere la mano da questa storia;
-Voglio che lei, questa donna, mi resti davanti la macchinetta, o, meglio, ch'io resti davanti a lei quello che per lei sono, operatore, e basta.
-Quando il mio amico Simone Pau trascura per parecchi giorni di venire a trovarmi alla Kosmograph, vado io la sera a trovarlo a Borgo Pio, nel suo Albergo del Falco.
+Voglio che lei, questa donna, mi resti davanti la macchinetta, o, meglio, ch'io resti davanti a lei
+quello che per lei sono, operatore, e basta.
+Quando il mio amico Simone Pau trascura per parecchi giorni di venire a trovarmi alla Kosmograph
+vado io la sera a trovarlo a Borgo Pio
+nel suo Albergo del Falco.
 Lo dico io, non lo dice lei,
 Gli rispose Simone Pau.
 Lo dico io che posso dirlo.
@@ -4476,7 +4526,8 @@ Ma lei è saggio, signor Cesarino!
 Séguiti, séguiti, la prego, a commemorarci col suo buon garbo antico i buoni lumi ad olio, a tre beccucci, di tanti anni fa.
 Ne vidi uno sa?
 Nella casa di Beethoven, a Bonn sul Reno, al tempo del mio viaggio in Germania.
-Ecco: bisogna questa sera richiamare la memoria di tutte le buone cose antiche attorno a questo povero violino, che si spezzò davanti a un pianoforte automatico.
+Ecco: bisogna questa sera richiamare la memoria di tutte le buone cose antiche attorno a questo povero violino
+si spezzò davanti a un pianoforte automatico.
 Confesso che vedo male qua dentro, in questo momento, il mio amico.
 Sì, te, Serafino.
 Il mio amico, signori - ve lo presento: Serafino Gubbio - è operatore: gira, disgraziato, la macchinetta d'un cinematografo.
@@ -4487,7 +4538,11 @@ Sono il professore, per loro: un po' strambo, ma professore!
 Noi possiamo benissimo non ritrovarci in quello che facciamo;
 Ma quello che facciamo, caro mio, è, resta fatto: fatto che ti circoscrive, ti dà comunque una forma e t'imprigiona in essa.
 Vuoi ribellarti?
-Prima di tutto, non siamo liberi di fare quello che vorremmo: il tempo, il costume degli altri, la fortuna, le condizioni dell'esistenza, tant'altre ragioni fuori e dentro di noi, ci costringono spesso a fare quello che non vorremmo;
+Prima di tutto
+non siamo liberi di fare quello che vorremmo
+il tempo, il costume degli altri, la fortuna, le condizioni dell'esistenza
+tant'altre ragioni fuori e dentro di noi
+ci costringono spesso a fare quello che non vorremmo
 E poi lo spirito non è senza carne;
 E la carne, hai un bel sorvegliarla, vuole la sua parte.
 E a che si riduce l'intelligenza, se non compatisce la bestia che è in noi?
@@ -4508,52 +4563,98 @@ Neanche dopo morto.
 Sorridevo perché m'immaginavo al cospetto di Dio Creatore, al cospetto degli Angeli e delle anime sante del Paradiso
 Dietro il mio grosso ragno nero sul treppiedi a gambe rientranti, condannato a girar la manovella, anche lassù, dopo morto.
 Uscii dall'ospizio, confortato.
-La filosofia è come la religione: conforta sempre, anche quando è disperata, perché nasce dal bisogno di superare un tormento, e anche quando non lo superi, il porselo davanti, questo tormento, è già un sollievo per il fatto che, almeno per un poco, non ce lo sentiamo più dentro.
+La filosofia è come la religione
+conforta sempre, anche quando è disperata
+perché nasce dal bisogno di superare un tormento
+e anche quando non lo superi, il porselo davanti, questo tormento
+è già un sollievo per il fatto che, almeno per un poco, non ce lo sentiamo più dentro.
 Il conforto delle parole di Simone Pau m'era venuto però sopra tutto per ciò che si riferiva alla mia professione.
 Ah se fosse destinata a questo solamente la mia professione!
-Al solo intento di presentare agli uomini il buffo spettacolo dei loro atti impensati, la vista immediata delle loro passioni, della loro vita così com'è.
+Al solo intento di presentare agli uomini il buffo spettacolo dei loro atti impensati
+la vista immediata delle loro passioni, della loro vita così com'è.
 Di questa vita, senza requie, che non conclude.
-Ah, un nonno, un nonno io volevo proprio averlo conosciuto, un caro vecchietto, per esempio, come quello ch'era sceso testé dal treno, studioso d'iconografia cristiana.
+Ah, un nonno, un nonno io volevo proprio averlo conosciuto
+un caro vecchietto
+come quello ch'era sceso testé dal treno
+studioso d'iconografia cristiana.
 Misteriosi capricci della fantasia!
-Per quale inesplicabile bisogno e donde mi veniva d'immaginare in quel momento mio padre, quel Paolo Meis, come uno scavezzacollo?
+Per quale inesplicabile bisogno e donde mi veniva d'immaginare in quel momento mio padre, come uno scavezzacollo?
 Ecco, sì, egli aveva dato tanti dispiaceri al nonno: aveva sposato contro la volontà di lui e se n'era scappato in America.
 Doveva forse sostenere anche lui che Cristo era bruttissimo.
-E brutto davvero e sdegnato l'aveva veduto là, in America, se con la moglie lì lì per partorire, appena ricevuto il soccorso dal nonno, se n'era venuto via.
+E brutto davvero e sdegnato l'aveva veduto là, in America
+se con la moglie lì lì per partorire
+appena ricevuto il soccorso dal nonno
+se n'era venuto via.
 Ma perché proprio in viaggio dovevo esser nato io?
-Non sarebbe stato meglio nascere addirittura in America, nell'Argentina, pochi mesi prima del ritorno in patria de' miei genitori?
+Non sarebbe stato meglio nascere addirittura in America, nell'Argentina?
+pochi mesi prima del ritorno in patria de' miei genitori
 Anzi il nonno s'era intenerito per il nipotino innocente;
 Per me, unicamente per me aveva perdonato il figliuolo.
-Così io, piccino piccino, avevo traversato l'Oceano, e forse in terza classe, e durante il viaggio avevo preso una bronchite e per miracolo non ero morto.
+Così io, piccino piccino, avevo traversato l'Oceano, e forse in terza classe
+durante il viaggio avevo preso una bronchite
+per miracolo non ero morto.
 Me lo diceva sempre il nonno.
 Io però non dovevo rimpiangere come comunemente si suol fare, di non esser morto, allora di pochi mesi.
 No: perché, in fondo, che dolori avevo sofferto io, in vita mia?
 Uno solo, per dire la verità: quello de la morte del povero nonno, col quale ero cresciuto.
-Mio padre, Paolo Meis, scapato e insofferente di giogo, era fuggito via di nuovo in America, dopo alcuni mesi, lasciando la moglie e me col nonno;
+Mio padre, Paolo Meis, scapato e insofferente di giogo
+era fuggito via di nuovo in America
+dopo alcuni mesi
+lasciando la moglie e me col nonno;
 E là era morto di febbre gialla.
 A tre anni, io ero rimasto orfano anche di madre, e senza memoria perciò de' miei genitori;
 Solo con queste scarse notizie di loro.
 Ma c'era di più!
 Non sapevo neppure con precisione il mio luogo di nascita.
 Nell'Argentina, va bene!
-Il nonno lo ignorava, perché mio padre non gliel'aveva mai detto o perché se n'era dimenticato, e io non potevo certamente ricordarmelo.
+Il nonno lo ignorava
+perché mio padre non gliel'aveva mai detto
+perché se n'era dimenticato
+e io non potevo certamente ricordarmelo.
 Riassumendo:Non volli immaginarmi una nuova mamma.
 Mi sarebbe parso di profanar la memoria viva e dolorosa della mia mamma vera.
 Ma un nonno, sì, il nonno del mio primo fantasticare, volli crearmelo.
-Oh, di quanti nonnini veri, di quanti vecchietti inseguiti e studiati un po' a Torino, un po' a Milano, un po' a Venezia, un po' a Firenze, si compose quel nonnino mio!
-Toglievo a uno qua la tabacchiera d'osso e il pezzolone a dadi rossi e neri, a un altro là il bastoncino, a un terzo gli occhiali e la barba a collana, a un quarto il modo di camminare e di soffiarsi il naso, a un quinto il modo di parlare e di ridere;
-E ne venne fuori un vecchietto fino un po' bizzoso, amante delle arti, un nonnino spregiudicato, che non mi volle far seguire un corso regolare di studii, preferendo d'istruirmi lui, con la viva conversazione e conducendomi con sé, di città in città, per musei e gallerie.
-Mi calcai il cappellaccio su gli occhi e, sotto la pioggerella fina fina che già il cielo cominciava a mandare, m'allontanai, considerando però, per la prima volta, che era bella, sì, senza dubbio, quella mia libertà così sconfinata, ma anche un tantino tiranna, ecco, se non mi consentiva neppure di comperarmi un cagnolino.
+un po' a Milano
+un po' a Venezia
+un po' a Firenze
+si compose quel nonnino mio!
+di quanti nonnini veri
+di quanti vecchietti inseguiti e studiati un po' a Torino
+Toglievo a uno qua la tabacchiera d'osso e il pezzolone a dadi rossi e neri
+a un altro là il bastoncino
+a un terzo gli occhiali e la barba a collana
+a un quarto il modo di camminare e di soffiarsi il naso
+a un quinto il modo di parlare e di ridere;
+E ne venne fuori un vecchietto fino un po' bizzoso
+amante delle arti
+un nonnino spregiudicato, che non mi volle far seguire un corso regolare di studii, preferendo d'istruirmi lui
+con la viva conversazione e conducendomi con sé, di città in città, per musei e gallerie.
+Mi calcai il cappellaccio su gli occhi
+sotto la pioggerella fina fina che già il cielo cominciava a mandare, m'allontanai,
+considerando però, per la prima volta, che era bella, sì, senza dubbio
+quella mia libertà così sconfinata
+ma anche un tantino tiranna
+ecco, se non mi consentiva neppure di comperarmi un cagnolino.
 La signorina Caporale aveva ricevuto un pugno su la bocca, formidabile.
 Le sanguinavano le gengive.
 Pepita e la signora Candida scattarono in piedi, spaventate.
 Anche Papiano s'alzò per riaccendere il lanternino.
 Subito Adriana ritrasse dalla mia mano la sua.
-Il Bernaldez col faccione rosso, perché teneva tra le dita un fiammifero, sorrideva, tra sorpreso e incredulo, mentre il signor Anselmo, costernatissimo, badava a ripetere:Oh, sì: l'avrebbero senza dubbio pensato!
+Il Bernaldez col faccione rosso
+perché teneva tra le dita un fiammifero
+sorrideva, tra sorpreso e incredulo
+mentre il signor Anselmo, costernatissimo, badava a ripetere: "Oh, sì"
+l'avrebbero senza dubbio pensato!
 M'uccidevo così, senz'alcuna ragione apparente, senza averne prima dimostrato in qualche modo l'intenzione.
-Sì: qualche stranezza, più d'una, l'avevo commessa in quegli ultimi giorni: quel pasticcio del furto, prima sospettato, poi improvvisamente smentito.
+Sì: qualche stranezza, più d'una, l'avevo commessa in quegli ultimi giorni
+quel pasticcio del furto
+prima sospettato
+poi improvvisamente smentito.
 Oh che forse quei denari non erano miei?
 Dovevo forse restituirli a qualcuno?
-M'ero indebitamente appropriato d'una parte di essi e avevo tentato di farmi credere vittima d'un furto, poi m'ero pentito, e, in fine, ucciso?
+M'ero indebitamente appropriato d'una parte di essi
+avevo tentato di farmi credere vittima d'un furto, poi m'ero pentito
+e, in fine, ucciso?
 Certo ero stato un uomo misteriosissimo: non un amico, non una lettera, mai, da nessuna parte.
 Non sapendo che fare, sperando di distrarmi un po' da tante costernazioni, portai questi due morti a spasso per Pisa.
 Oh, fu una piacevolissima passeggiata!
@@ -6141,7 +6242,7 @@ E soprattutto lo aveva percosso in linea diretta
 Mentre la donna, come l'aveva lasciata, avrebbe dovuto voltargli le spalle.
 Guardò e la vide di faccia: inginocchiata sulla poltrona coi gomiti appoggiati alla spalliera, a fissarlo.
 Si era riavuta anche dallo sfinimento.
-Aveva il ricupero delle forze facile!
+Aveva il recupero delle forze facile!
 Suo marito beveva molti liquori?
 Gli piaceva averne molti lì dentro.
 Era una specie di mania.
@@ -6482,7 +6583,7 @@ Perciò, se teneva alla vita, doveva corazzarsi d'indifferenza
 Ricacciare i suoi piú nobili sentimenti
 Dimenticare se stesso.
 Non doveva, non poteva essere che Manfredo Vatel!
-Ridivenuto padrone di se stesso, ebbe il coraggio di volgersi a Nichols e di dirgli.
+Ridivenuto padrone di se stesso, ebbe il coraggio di volgersi a Nichols.
 È questa l'infermeria!
 Quando sarò ammalato, mi guarderò bene dal dirvelo!
 Il capitano sorrise.
@@ -6722,7 +6823,7 @@ De Vincenzi.
 Comando la Squadra Mobile.
 Mi trovo a Milano da sette anni circa.
 Rispose con pari cortesia, per quanto un leggero sorriso gli fosse apparso agli angoli della bocca.
-Lei deve, in tal caso, conoscere uomini e cose e posso sperare che abbia quella discrezione, che non sempre si trova fra i.
+Lei deve, in tal caso, conoscere uomini e cose e posso sperare che abbia quella discrezione, che non sempre si trova.
 S'interruppe e terminò la frase con un gesto evasivo.
 De Vincenzi aspettava.
 La pausa fu lunga.
