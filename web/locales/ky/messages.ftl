@@ -317,6 +317,10 @@ language-meter-in-progress = Прогресс
 language-total-progress = Баары
 language-search-input =
     .placeholder = Издөө
+language-speakers = Сүйлөгөндөр
+localized = Которулду
+sentences = Сүйлөмдөр
+total-hours = Саат баары
 
 ## New Contribution
 
