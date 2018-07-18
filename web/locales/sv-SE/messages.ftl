@@ -101,6 +101,7 @@ faq = FAQ
 content-license-text = Innehåll tillgängligt under en <licenseLink>Creative Commons licens</licenseLink>
 share-title = Hjälp oss att hitta andra som är redo att bidra med sin röst!
 share-text = Hjälp till att lära maskiner hur riktiga människor pratar, donera din röst på { $link }
+link-copied = Länk kopierad
 back-top = Tillbaka till toppen av sidan
 contribution-banner-button = Ta en titt
 report-bugs-link = Hjälp oss att rapportera buggar
@@ -314,6 +315,8 @@ language-meter-in-progress = Förlopp
 language-total-progress = Totalt
 language-search-input =
     .placeholder = Sök
+language-speakers = Talas av
+sentences = Meningar
 
 ## New Contribution
 
@@ -340,11 +343,6 @@ review-tooltip = Här kan du kontrollera och återuppta inspelningar
 unable-speak = Kan inte prata just nu?
 review-instruction = Om det behövs kan du granska och återuppta inspelningar
 record-submit-tooltip = { $actionType } skicka in när du är redo
-clips-submitted =
-    { $count ->
-        [one] { $count } klipp lämnades
-       *[other] { $count } klipp lämnades
-    }
 record-abort-title = Avsluta inspelningen först?
 record-abort-text = Om du slutar nu kommer dina framsteg att gå förlorade
 record-abort-submit = Skicka in klipp
