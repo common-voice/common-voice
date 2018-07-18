@@ -261,6 +261,7 @@ record-error-too-quiet = Na tunmi a dih tuk.
 record-submit-success = Kuat mi a tha! Tun na duh ti maw?
 record-help = Tun kha hmet, cun biatlang kha thang piin rel.
 record-cancel = Tuunthar mi leet
+review-terms = Common Voice hman ah cun , kan <termsLink> Biakam </termsLink> le <privacyLink> Kilvennak Hngalhternak</privacyLink> hi na lung a tling.
 terms-agree = Ka lungtling
 terms-disagree = Ka lungtling lo 
 review-aborted = Thun tthan hlah. Na tuun mi hlonh na duh maw?
