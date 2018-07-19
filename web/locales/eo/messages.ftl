@@ -31,12 +31,29 @@ an = Aragona
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = Ludi / Haltigi
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = i
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = Registri / Haltigi
+request-language-text = Ĉu vi ne vidas vian lingvon en Common Voice?
+request-language-button = Peti lingvon
 
 ## ProjectStatus
 
+status-title = Superrigarda stato de la projekto: vidu nian progreson!
+status-contribute = Kontribu per via voĉo
+status-hours =
+    { $hours ->
+        [one] Jam unu horo validigita!
+       *[other] Jam { $hours } horoj validigitaj!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Venonta celo: { $goal }
 
 ## ProfileForm
 
