@@ -40,8 +40,10 @@ import {
   localeConnector,
   LocalePropsFromState,
 } from './locale-helpers';
+import { CloseIcon } from './ui/icons';
 
 const LOAD_TIMEOUT = 5000; // we can only wait so long.
+const SURVEY_KEY = 'showSurvey';
 
 /**
  * Preload these images before revealing contents.
@@ -81,6 +83,7 @@ interface LocalizedPagesProps
 
 interface LocalizedPagesState {
   messagesGenerator: any;
+  showSurvey: boolean;
   uploadPercentage?: number;
 }
 
@@ -97,6 +100,7 @@ const LocalizedLayout: any = withRouter(
       class extends React.Component<LocalizedPagesProps, LocalizedPagesState> {
         state: LocalizedPagesState = {
           messagesGenerator: null,
+          showSurvey: JSON.parse(localStorage.getItem(SURVEY_KEY)) !== false,
           uploadPercentage: null,
         };
 
@@ -178,9 +182,19 @@ const LocalizedLayout: any = withRouter(
           });
         }
 
+        hideSurvey = (options?: { immediately: boolean }) => {
+          const { immediately } = { immediately: true, ...options };
+          if (immediately) this.setState({ showSurvey: false });
+          localStorage.setItem(SURVEY_KEY, JSON.stringify(false));
+        };
+
         render() {
           const { locale, notifications, toLocaleRoute } = this.props;
-          const { messagesGenerator, uploadPercentage } = this.state;
+          const {
+            messagesGenerator,
+            showSurvey,
+            uploadPercentage,
+          } = this.state;
           return (
             messagesGenerator && (
               <div>
@@ -214,6 +228,30 @@ const LocalizedLayout: any = withRouter(
                           />
                         ))}
                     </div>
+
+                    {showSurvey && (
+                      <div className="survey">
+                        <button onClick={() => this.hideSurvey()}>
+                          <CloseIcon black />
+                        </button>
+                        <h1>Penny for your thoughts?</h1>
+                        <p>
+                          We would love to know more about how you use Common
+                          Voice, what you like and don’t like about it. Could
+                          you spare 5 min to give us some quick feedback through
+                          our survey?
+                        </p>
+                        <a
+                          href="https://www.surveygizmo.com/s3/4446677/3a21d4a69b6b"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          onClick={() =>
+                            this.hideSurvey({ immediately: false })
+                          }>
+                          Go to survey
+                        </a>
+                      </div>
+                    )}
 
                     <Switch>
                       <Route
