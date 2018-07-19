@@ -87,3 +87,4 @@ status-goal = Venonta celo: { $goal }
 
 ## New Contribution
 
+skip = Ignori
