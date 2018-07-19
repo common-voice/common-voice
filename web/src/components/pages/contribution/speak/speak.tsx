@@ -297,7 +297,7 @@ class SpeakPage extends React.Component<Props, State> {
     await api.skipSentence(id);
   };
 
-  private upload = async (hasAgreed: boolean = false) => {
+  private upload = (hasAgreed: boolean = false) => {
     const {
       addNotification,
       addUploads,
@@ -310,7 +310,7 @@ class SpeakPage extends React.Component<Props, State> {
 
     if (!hasAgreed && !user.privacyAgreed) {
       this.setState({ showPrivacyModal: true });
-      return;
+      return false;
     }
 
     const clips = this.state.clips.filter(clip => clip.recording);
@@ -353,6 +353,8 @@ class SpeakPage extends React.Component<Props, State> {
     ]);
 
     removeSentences(clips.map(c => c.sentence.id));
+
+    return true;
   };
 
   private resetState = (callback?: any) =>
@@ -361,7 +363,7 @@ class SpeakPage extends React.Component<Props, State> {
   private agreeToTerms = async () => {
     this.setState({ showPrivacyModal: false });
     this.props.updateUser({ privacyAgreed: true });
-    await this.upload(true);
+    this.upload(true);
   };
 
   private toggleDiscardModal = () => {
@@ -412,8 +414,7 @@ class SpeakPage extends React.Component<Props, State> {
                     outline
                     rounded
                     onClick={() => {
-                      this.upload().catch(e => console.error(e));
-                      onConfirm();
+                      if (this.upload()) onConfirm();
                     }}
                   />
                 </Localized>
