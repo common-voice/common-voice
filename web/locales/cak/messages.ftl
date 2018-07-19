@@ -189,6 +189,8 @@ why-profile-title = ¿Achike ruma jun ruwäch b'i'aj?
 why-profile-text = Toq naya' jub'a' awetamab'al chawij chi qe, ri taq rutzij k'oxom xtatäq pa Common Voice yalan xkek'atzin chi ke ri kik'wab'al etamanel ch'ab'äl ye'okisan kichin richin nikutzilaj ki'.
 edit-profile = Tinuk' Ruwäch B'i'aj
 profile-create = Titz'uk jun ruwäch b'i'aj
+profile-create-success = Xb'anatäj, ¡xtz'uk ruwäch b'i'aj!
+profile-close = Titz'apïx
 
 ## FAQ
 
