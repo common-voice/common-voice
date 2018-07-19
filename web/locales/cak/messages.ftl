@@ -191,6 +191,7 @@ edit-profile = Tinuk' Ruwäch B'i'aj
 profile-create = Titz'uk jun ruwäch b'i'aj
 profile-create-success = Xb'anatäj, ¡xtz'uk ruwäch b'i'aj!
 profile-close = Titz'apïx
+profile-clear-modal = Toq nijosq'ïx taq rutzij ruwäch b'i'aj nub'än chi man xtitunub'äx ta chik ri winaqirel awetamab'al rik'in ri ayakoj xtitaq chi re ri Common Voice.  
 
 ## FAQ
 
