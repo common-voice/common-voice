@@ -192,9 +192,11 @@ profile-create = Titz'uk jun ruwäch b'i'aj
 profile-create-success = Xb'anatäj, ¡xtz'uk ruwäch b'i'aj!
 profile-close = Titz'apïx
 profile-clear-modal = Toq nijosq'ïx taq rutzij ruwäch b'i'aj nub'än chi man xtitunub'äx ta chik ri winaqirel awetamab'al rik'in ri ayakoj xtitaq chi re ri Common Voice.  
+profile-explanation = Tatz'eta' ri asamaj pa jun ruwäch b'i'aj richin yato'on chi e ütz ri taq rutzij qach'ab'äl.
 
 ## FAQ
 
+faq-title = Jutaqil taq K'utunïk
 
 ## Profile
 
