@@ -402,4 +402,17 @@
             }
         }
     }
+
+    & h1, & h2 {
+        display: flex;
+        align-items: center;
+
+        & .count {
+            &:before {
+                content: '\00a0 ';
+            }
+
+            font-size: 70%;
+        }
+    }
 }

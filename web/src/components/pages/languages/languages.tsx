@@ -147,8 +147,16 @@ class LanguagesPage extends React.PureComponent<Props, State> {
       query,
     } = this.state;
 
-    const inProgressCountLabel = query ? ` (${filteredInProgress.length})` : '';
-    const launchedCountLabel = query ? ` (${filteredLaunched.length})` : '';
+    const inProgressCountLabel = query ? (
+      <span className="count">({filteredInProgress.length})</span>
+    ) : (
+      ''
+    );
+    const launchedCountLabel = query ? (
+      <span className="count">({filteredLaunched.length})</span>
+    ) : (
+      ''
+    );
 
     return (
       <div className={'selected-' + selectedSection}>
