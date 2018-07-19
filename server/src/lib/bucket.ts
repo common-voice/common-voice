@@ -38,7 +38,7 @@ export default class Bucket {
   ): Promise<{ id: number; glob: string; text: string; sound: string }[]> {
     const clips = await this.model.findEligibleClips(uid, locale, count);
     try {
-      const clipsWithURLs = await Promise.all(
+      return await Promise.all(
         clips.map(async ({ id, path, sentence }) => {
           // We get a 400 from the signed URL without this request
           await this.s3
@@ -56,10 +56,8 @@ export default class Bucket {
           };
         })
       );
-
-      return clipsWithURLs;
     } catch (e) {
-      console.error('aws error', e);
+      console.log('aws error', e, e.stack);
       return [];
     }
   }

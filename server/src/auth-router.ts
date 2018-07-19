@@ -35,6 +35,7 @@ router.use(
       database: MYSQLDBNAME,
       createDatabaseTable: false,
     }),
+    proxy: true,
     resave: false,
     saveUninitialized: false,
   })
