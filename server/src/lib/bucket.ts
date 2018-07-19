@@ -24,6 +24,7 @@ export default class Bucket {
     return this.s3.getSignedUrl('getObject', {
       Bucket: getConfig().BUCKET_NAME,
       Key: key,
+      Expires: 60 * 30,
     });
   }
 
