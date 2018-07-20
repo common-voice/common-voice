@@ -32,7 +32,7 @@ const CSP_HEADER = [
   `connect-src 'self' https://pontoon.mozilla.org/graphql`,
 ].join(';');
 
-globalTunnel.initialize();
+// globalTunnel.initialize();
 
 export default class Server {
   app: express.Application;
