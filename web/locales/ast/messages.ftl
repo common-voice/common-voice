@@ -51,6 +51,7 @@ ja = Xaponés
 ka = Xeorxanu
 ko = Coreanu
 kw = Córnicu
+ky = Kirguistanín
 mk = Macedoniu
 myv = Erzya
 nb-NO = Bokmål noruegu
@@ -244,11 +245,13 @@ request-language-form-language =
 ## Languages Overview
 
 language-section-in-progress = En cursu
+language-section-launched = Llanzáronse
 languages-show-more = Ver más
 languages-show-less = Ver menos
 language-speakers = Falantes
 language-meter-in-progress = Progresu
 language-total-progress = Total
+language-speakers = Falantes
 
 ## New Contribution
 
