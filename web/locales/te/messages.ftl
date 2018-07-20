@@ -15,12 +15,14 @@ loading = లోడవుతున్నది...
 
 ## Languages
 
+an = అరగోనీసు
+ar = అరబిక్
 as = అస్సామీ
 az = అజర్బైజానీ
 bn = బెంగాలి
 br = బ్రెటోన్
 ca = కాటలాన్
-cs = చెక్
+cs = జెక్
 cv = ఛువాష్
 cy = వెల్ష్
 da = డానిష్
@@ -36,14 +38,18 @@ ga-IE = ఐరిష్
 he = హీబ్రూ
 hu = హంగేరియన్
 id = ఇండోనేషియన్
+is = ఐస్‌లాండిక్
 it = ఇటాలియన్
 ja = జపనీ
 ka = జోర్జియన్
 kab = కాబిల్
 kk = కజక్
 ko = కొరియన్
+kpv = కొమి-జిరియన్
 kw = కార్నిష్
+ky = కిర్జిస్
 mk = మెసడోనియన్
+myv = ఎర్జియా
 nb-NO = నార్వేజియన్ బొక్మాల్
 ne-NP = నేపాలీ
 nl = డచ్
@@ -89,7 +95,9 @@ faq = తరచుగా అడిగే ప్రశ్నలు
 content-license-text = సమాచారం <licenseLink>క్రియేటివ్ కామన్స్ లైసెన్స్</licenseLink> కింద లభ్యం.
 share-title = ఇతరుల కంఠధ్వని మాకు అందేలా సహకరించండి!
 share-text = అచ్చం మనుషులు మాట్లాడేలా మట్లాడడానికి యంత్రాలకు సహాయం చేయండి, { $link }లో మీ స్వరం దానం చేయండి.
+link-copied = లంకె కాపీ అయ్యింది
 back-top = తిరిగి పైకి
+contribution-banner-button = ఒకసారి చూడండి
 
 ## Home Page
 
@@ -296,6 +304,9 @@ language-meter-in-progress = పురోగతి
 language-total-progress = మొత్తం
 language-search-input =
     .placeholder = వెతుకు
+language-speakers = మాట్లాడేవారు
+sentences = వాక్యాలు
+total-hours = మొత్తం గంటలు
 
 ## New Contribution
 
@@ -306,12 +317,13 @@ listen = వినండి
 skip = దాటవేయి
 shortcuts = సత్వరమార్గాలు
 clips = క్లిప్‌లు
-goal-type-record = రికార్డు చేస్తోంది
-goal-type-validation = నిర్ధారీకరణ
 contribute-more =
     { $count ->
         [one] ఇంకో { $count } చెయ్యడానికి తయారుగా ఉన్నారా?
        *[other] ఇంకో { $count } చెయ్యడానికి తయారుగా ఉన్నారా?
     }
+record-three-more-instruction = ఇంకా మూడే ఉన్నాయి!
+unable-speak = ఇప్పుడు మాట్లాడలేకపోతున్నారా?
 record-abort-title = ముందుగా రికార్డింగు ముగిస్తారా?
+record-abort-continue = రికార్డింగ్ ముగించు
 listen-last-time-instruction = <playIcon></playIcon> చివరిది!
