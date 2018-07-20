@@ -773,6 +773,7 @@ a.small, .small a, .text-button.small {
     & h1 {
         background-image: linear-gradient(to right, #f89096, #b1b4e5);
         color:transparent;
+        font-size: 1.71rem;
         background-clip: text;
         -webkit-background-clip: text;
 
