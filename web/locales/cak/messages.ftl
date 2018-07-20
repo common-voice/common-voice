@@ -197,6 +197,7 @@ profile-explanation = Tatz'eta' ri asamaj pa jun ruwäch b'i'aj richin yato'on c
 ## FAQ
 
 faq-title = Jutaqil taq K'utunïk
+faq-what-q = ¿Achike ri Common Voice?
 
 ## Profile
 
