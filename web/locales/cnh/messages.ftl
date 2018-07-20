@@ -30,6 +30,7 @@ cv = Chuvash holh
 cy = Wales holh
 da = Denmark holh
 de = Germany holh
+dsb = Lusatia holh (tanglei)
 el = Greek holh
 en = Mirang holh
 es = Spanish holh
@@ -120,6 +121,7 @@ help-us-explain = Play hmet, ngai, cun kan chim: A tanglei biatlang kha hman tei
 no-clips-to-validate = Hi holh in cun ngaih ding mi hi zei hmanh a um lo. Ngaih ding chiah na duh cun nangmah na aw tun law chia.
 vote-yes = Asi
 vote-no = Asi lo
+toggle-play-tooltip = lentecalh nakah  { shortcut-play-toggle } hmet.
 
 ## Speak & Listen Shortcuts
 
@@ -200,6 +202,7 @@ faq-what-a = Computer pawl holh in chawnh khawh cu thil lianngan tuk asi, asi na
 faq-important-q = Zei ruang ah dah a bia pi?
 faq-important-a = Aw cu kokek asi, Aw cu minung asi. I chawnh khanh nak caah a a fawi cemmi le hmancem mi asi. Computer thiam nih hi thil chung in hman awktlak thil ttha, holh leh/ ca leh le a dang dang bawntuk ah an ser khawh nak ding hi kan duh. Asinain atu ah cun mipi nih hamn khawh ding mi hi a um lo. Common Voice nih hin computer thiam pawl thil ttha ttha an sernak cung ah a bawmh hna lai hi kan duh.
 faq-get-q = Common Voice data hi zei tin dah ka lak khawh lai?
+faq-get-a = Dataset cu thuntlen a ngah <downloadLink> thuntlen nak</downloadLink> i a tang<licenseLink>CC-0</licenseLink> laisen.
 faq-mission-q = Zei ruang ah dah Common Voice hi Mozilla nih a tinhmi rian asi ve?
 faq-mission-a = Mozilla cu mikip nih computer an hman khawhnak ding hi bialtak tein aa hmaithlak. Cu caah cun website a sertu pawl hi thazang pek a duhnak langhternak caah Common Voice hi a ser. Computer nih holh thiamnak a theih ning hi a sang tuk hringhren cang, cu caah cun mikip nih an holh in ngah ve hna seh ti kan duh. Aw-lei thiamnak hi miphun kip talh in holh in siseh, aw-cawi in siseh, miphun in siseh, talh chih dih kan duh. Mizilla nih cun a ngandammi le aa tlerh ngai mi internet hi hmuh a duh. Cucu website a sertu nih an website sunglawi taktak in a ser khawh hna hnga Aw-data ti bantuk hi serpiak asi. Common Voice cu Mozilla, kan mah, le website a sertu vawlei cung um vialte caah mipi nih ngeih mi thilri sunglawi pakhat asi lai. 
 faq-native-q = { $lang } holh ah kokek ka si lo i Aw-cawi ka ngei, ka holh nan duh ko maw?
@@ -226,16 +229,17 @@ notfound-content = Na kawl mi hi ka thei lo.
 
 ## Data
 
-data-download-button = Common Voice data hi tleng
+data-download-button = Thuntlen Common Voice Data
 data-download-yes = Asi
 data-download-deny = Asi lo
 data-download-license = Laisen:<licenseLink>CC-0</licenseLink>
-data-download-modal = Atu dawnlok na timh mi hi <size>{ $size }GB</size> asi, tuah ko?
+data-download-modal = Atu thuntlen na timh mi hi <size>{ $size }GB</size> asi, tuah ko?
 data-subtitle = Holh thiamnak he pehtlaih in mipi caah a a sunglawi mi Aw phunkip lak in mipi caah data lianpi kan ser.
 data-explanatory-text = Mipi caah sunglawi ngai le lianngai in Aw lei datasets nih hin a ngandam mi sipuaizi tuahnak le computer chimh cawnpiaknak duhnak hi a chuah pi tiah kan zumh. Hihi miphun kip le ramkip fonh in rak i tal ve uh ti hi kan in sawm hna.  Kan vawlei pi ah Aw sunglawi in holh phun kip a um mi hi i tal dih hna sih ti hi kan i tinh mi asi.
 data-get-started = <speechBlogLink> Aw chingchiah nak thok</speechBlogLink>
 data-other-title = Adang Aw datasets
 data-other-goto = { $name } hin kal
+data-other-download = Thuntlen Data
 data-other-librispeech-description = LIbriSpeech cu suimilam thongkhat (1000) chung 16Khz tluk in cauk relmi LibriVox ah lak mi chiahnak a si. 
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = TED-LIUM cu TED website i chiah mi holh le biatlang le catlang pawl hman in sermi a si.
@@ -243,6 +247,7 @@ data-other-voxforge-description = VoxForge cu mikip  nih zalong te le tling tein
 data-other-tatoeba-description =
     Tatoeba cu holh chimh nak ding ah biatlang, bialeh, le holh tuun mi chiahnak lian pi a si.
     Hi dawnlok michung ah hin mikip nih mirang holh an tuun mi aa tal. 
+data-bundle-button = Thuntlen Dataset Vialte
 data-bundle-description = Common Voice data le Aw dang data vialte a cunglei ah. 
 license = Laisen:<licenseLink>{ $license }</licenseLink>
 license-mixed = Fawnh
@@ -250,8 +255,8 @@ license-mixed = Fawnh
 ## Record Page
 
 record-platform-not-supported = Kan ngai thiam, na tuahnak hi a ngah lo.
-record-platform-not-supported-desktop = Athar cem chuahmi inn computer in dawnlok khawh asi:
-record-platform-not-supported-ios = <bold>iOS</bold> manlo in dawnlok khawh asi:
+record-platform-not-supported-desktop = Athar cem chuahmi, inn computer in, thuntlen khawh asi:
+record-platform-not-supported-ios = <bold>iOS</bold> manlo in thuntlen khawh asi:
 record-must-allow-microphone = Aw tunak na ngahter a hau
 record-retry = Tuah tthan
 record-no-mic-found = Aw tunnak kan hmu lo
@@ -275,7 +280,7 @@ review-delete-recordings = Tuun mi hlonh
 
 ## Download Modal
 
-download-title = Na dawnlok aa thok cang.
+download-title = Na thuntlen aa thok cang.
 download-helpus = Holhphun kip in computer a ngah khawh nak ding kan bawm, email in kan pehtlaih peng.
 download-form-email =
     .label = Na email ttial
