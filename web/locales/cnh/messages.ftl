@@ -153,7 +153,7 @@ request-language-button = Holh kan hal
 ## ProjectStatus
 
 status-title = Kan tuah mi dihlak: kan tuah mi zoh ve!
-status-contribute = Na Aw rak chia
+status-contribute = Na Aw rak tuun
 status-hours =
     { $hours ->
        *[other] Tuun cang mi suimilam zat { $hours }
