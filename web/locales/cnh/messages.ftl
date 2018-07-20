@@ -311,6 +311,7 @@ language-total-progress = Dihlak
 language-search-input =
     .placeholder = Kawl
 language-speakers = Chimtu 
+localized = nunphung cawn
 sentences = Catlang
 total-hours = Suimilam Dihlak
 
