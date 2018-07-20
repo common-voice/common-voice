@@ -88,3 +88,4 @@ status-goal = Venonta celo: { $goal }
 ## New Contribution
 
 skip = Ignori
+record-button-label = Registri vian voĉon
