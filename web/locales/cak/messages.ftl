@@ -200,6 +200,7 @@ faq-title = Jutaqil taq K'utunïk
 faq-what-q = ¿Achike ri Common Voice?
 faq-what-a = Ri ch'ab'äl etamanem na'ob'äl nitikïr nuk'ëx rub'anikil yojk'exb'an kik'in ri taq ch'ich'b'äl, xa xe chi yalan e paqäl chuqa' e'ichinan ri taq q'inoj e k'o wakami. Common Voice jun nimasamaj ri nub'än chi man k'ayew ta chuqa' konojel tiqokisaj ri ch'ab'äl etamanel na'ob'äl. Ja ri winaqi' nikisipaj kich'ab'äl chi re jun nïm cholxe'el tzij, ri nuya' q'ij chi ke konojel aninäq chuqa' man k'ayew ta yekitijoj ri taq kichokoy k'o ketamab'al pa ruwi' ri ch'ab'äl-etamanel. Ronojel ri taq kitzij ch'ab'äl xtik'ut chi kiwäch ri b'anonela'.
 faq-important-q = ¿Achike ruma k'o rejqalem?
+faq-important-a = Choj ri ch'ab'äl, ruch'ab'äl ri winäq. Ja ri' man k'ayew ta chuqa' choj rub'anikil yojch'o. Niqajo' chi ri b'anonela' yetikïr yekinük' jeb'ël taq wachinäq achi'el taq tzalq'omanib'äl pa ri ramaj chi kiwäch nuk'samajilal to'onela' achoq kik'in yatikïr yatzijon. Xa xe chi wakami man k'ïy ta tzij e k'o chi kiwäch ri winaqi' richin yenuk' re ruwäch taq chokoy re'. Niqoyob'ej chi ri Common Voice nuya' ri nikajo' ri b'anonela' richin yetz'ukun.
 
 ## Profile
 
