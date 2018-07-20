@@ -202,6 +202,7 @@ faq-what-a = Ri ch'ab'äl etamanem na'ob'äl nitikïr nuk'ëx rub'anikil yojk'ex
 faq-important-q = ¿Achike ruma k'o rejqalem?
 faq-important-a = Choj ri ch'ab'äl, ruch'ab'äl ri winäq. Ja ri' man k'ayew ta chuqa' choj rub'anikil yojch'o. Niqajo' chi ri b'anonela' yetikïr yekinük' jeb'ël taq wachinäq achi'el taq tzalq'omanib'äl pa ri ramaj chi kiwäch nuk'samajilal to'onela' achoq kik'in yatikïr yatzijon. Xa xe chi wakami man k'ïy ta tzij e k'o chi kiwäch ri winaqi' richin yenuk' re ruwäch taq chokoy re'. Niqoyob'ej chi ri Common Voice nuya' ri nikajo' ri b'anonela' richin yetz'ukun.
 faq-get-q = ¿Achike rub'anikil nink'ül ri taq rutzij Common Voice?
+faq-get-a = Ri ruyakb'al qatzij wakami k'o pa <downloadLink>ruxaq richin niqasäx</downloadLink> rik'in ri <licenseLink>CC-0</licenseLink> ya'oj q'ij.
 
 ## Profile
 
