@@ -49,9 +49,9 @@ is = Islandés
 it = Italianu
 ja = Xaponés
 ka = Xeorxanu
+kab = Cabilu
 ko = Coreanu
 kw = Córnicu
-ky = Kirguistanín
 mk = Macedoniu
 myv = Erzya
 nb-NO = Bokmål noruegu
@@ -207,6 +207,7 @@ data-other-goto = Dir a { $name }
 data-other-download = Baxar datos
 data-other-ted-name = Corpus de TED-LIUM
 license = Llicencia: <licenseLink>{ $license }</licenseLink>
+license-mixed = Mesta
 
 ## Record Page
 
@@ -216,6 +217,7 @@ record-retry = Retentar
 record-no-mic-found = Nun s'alcontró'l micrófonu.
 record-error-too-short = La grabación foi percurtia.
 record-error-too-long = La grabación foi perllarga.
+review-terms = Usando Common Voice aceutes los nuesos <termsLink>términos</termsLink> y la nuesa <privacyLink>noticia de privacidá</privacyLink>
 terms-agree = Aceuto
 terms-disagree = Nun aceuto
 review-submit-title = Revisión y unviu
@@ -258,6 +260,7 @@ language-speakers = Falantes
 skip = Saltar
 shortcuts = Atayos
 record-cta = Aniciar grabación
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> cuando termines
 record-three-more-instruction = ¡Tres p'acabar!
 unable-speak = ¿Nun pues falar agora?
 record-abort-text = Si coles agora, vas perder el to progresu
