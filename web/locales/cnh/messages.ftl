@@ -303,6 +303,9 @@ request-language-success-content = Na holh zei tiin dah Common Voice ah na chiah
 ## Languages Overview
 
 language-section-in-progress = Tuah lio
+language-section-in-progress-description = Tuah lio cuahmah mi holh phun cu kan mibu le miphun nih bawmhnak in ser a si; An thanchonak cu website an mah holh in an lehnak le catlang an pumhkhomh nak ah a lang.
+language-section-launched = Kuat
+language-section-launched-description = Hi holhphun kan thlah mi chung ah cun catlang tling tein le an mah le holh cio in ca kan tial cang, aw tuun <italic>{ speak }</italic> le <italic>{ listen }</italic> ngaih nak kan chiah. 
 languages-show-more = Tam deuh zoh 
 languages-show-less = Tawm deuh zoh
 language-speakers = Chimtu 
