@@ -114,6 +114,7 @@ home-title = Ri Common Voice nimasamaj jun rusamaj Mozilla richin nito'on yeruti
 home-cta = Kach'o, ¡kato'on wawe'!
 wall-of-text-start = Choj ri ch'ab'äl, ruch'ab'äl winäq, Ruma ri' yalan yojkikot richin niqanük' runa'ob'al kich'ab'äl qach'ich'b'al. Richin ninuk' jun runuk'ulem ch'ab'äl, najowäx nïm kitz'etb'al ch'ab'äl.
 wall-of-text-more-mobile = Ronojel ri taq tzij nikokisaj ri taq nimamolojri'ïl, man wachel ta chi kiwa ri winaqi'. Röj niqana'ojij chi nuq'üt ri tz'ukuj. Ruma ri' xqelesaj ri Nimasamaj Common Voice, jun nimasamaj nito'on chi ri etamanem ch'ab'äl wachel chi qawa qonojel.
+wall-of-text-more-desktop = Wakami yatikïr nasipaj ri ach'ab'äl chi qe richin yojato' richin niqanük' jun rucholxe'el rutzij ch'ab'äl rik'in jaqäl b'itz'ib', ri xab'achike nitikïr nrokisaj richin yerub'än k'ak'a' taq chokoy kichin taq okisab'äl chuqa' ajk'amaya'l.<lineBreak></lineBreak>Tasik'ij jun b'ab' richin yato'on chi kitijoxik ri ch'ich'b'äl rik'in ri rub'anikil yech'o ri winaqi'. Tanik'oj kisamaj ch'aqa' chik to'onela' richin nachojmirisaj. ¡Choj ke ri' pan aninäq!
 show-wall-of-text = Tisik'ïx Ch'aqa' Chik
 help-us-title = ¡Kojato' richin yenik'öx taq b'ab'!
 help-us-explain = Tipitz'a' titzij, tawak'a& tatzijoj chi qe: ¿La pa rub'eyal xkisik'ij ri b'ab'?
@@ -203,6 +204,7 @@ faq-important-q = ¿Achike ruma k'o rejqalem?
 faq-important-a = Choj ri ch'ab'äl, ruch'ab'äl ri winäq. Ja ri' man k'ayew ta chuqa' choj rub'anikil yojch'o. Niqajo' chi ri b'anonela' yetikïr yekinük' jeb'ël taq wachinäq achi'el taq tzalq'omanib'äl pa ri ramaj chi kiwäch nuk'samajilal to'onela' achoq kik'in yatikïr yatzijon. Xa xe chi wakami man k'ïy ta tzij e k'o chi kiwäch ri winaqi' richin yenuk' re ruwäch taq chokoy re'. Niqoyob'ej chi ri Common Voice nuya' ri nikajo' ri b'anonela' richin yetz'ukun.
 faq-get-q = ¿Achike rub'anikil nink'ül ri taq rutzij Common Voice?
 faq-get-a = Ri ruyakb'al qatzij wakami k'o pa <downloadLink>ruxaq richin niqasäx</downloadLink> rik'in ri <licenseLink>CC-0</licenseLink> ya'oj q'ij.
+faq-mission-q = ¿Achike ruma k'o pa taqel rutaqanem Mozilla ri Common Voice?
 
 ## Profile
 
