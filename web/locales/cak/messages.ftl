@@ -212,6 +212,9 @@ faq-firefox-q = ¿La xtik'ulwachitäj chi ri runa'ob'al ch'ab'äl pa tz'ib'anem,
 faq-firefox-a = Man q'iq'el ta ri ruchuq'a' ri Common Voice ruma ri', tajin yeqakanoj kik'amal taq ch'ab'äl pa jalajöj rutiko'n Mozilla, achi'el ri Firefox.
 faq-quality-q = ¿Achike rutzil rub'anikil k'oxom najowäx richin chi ütz nokisäx?
 faq-quality-a = Niqajo' chi ri rutzil rub'anikil k'oxom tiwachin pa ri rutzil rub'anikil k'oxom xtuk'ül pa ri k'ojlib'äl ri ruk'wab'al ch'ab'äl-pa-tzij. Ruma ri', niqajo' jalajöj ruwäch. Re re' nuk'üt chi re ri ruk'wab'al ch'ab'äl-pa-tzij nrokisaj jalajöj taq k'ulwachinem —tzijonem pa ruka'n b'ey, kik'oxom ch'ich', taq b'anöy kaq'ïq'—richin man tisach.
+faq-hours-q = ¿Achike ruma jun rayib'äl nimol ruchi' 10,000 ramaj k'oxom?
+faq-hours-a = Ja b'a' ramaj ri' najowäx richin nitijöx jun STT q'inoj richin niwachin.
+faq-source-q = ¿Akuchi' k'amon pe ri ruxe'el tz'ib'anem?
 
 ## Profile
 
