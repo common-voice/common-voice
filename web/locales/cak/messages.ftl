@@ -209,6 +209,9 @@ faq-mission-a = Mozilla nisamäj chi rij chi jantape' jaqäl chuqa' okel ri ajk'
 faq-native-q = Man walaxib'en ta pe ruch'ab'exik ri { $lang } chuqa' yich'o rik'in k'oxomal, ¿la niwajo' chuqa' ri nuch'ab'äl?
 faq-native-a = Ja', ¡yalan nik'atzin ri ach'ab'äl chi qe! Jun peraj chi re ri rurayib'al ri Common Voice ja ri yerumöl ronojel ri k'oxomal, richin chi ri kematz'ib' ütz tino' pa kiwi' <bold>ronojel</bold> toq yech'o.
 faq-firefox-q = ¿La xtik'ulwachitäj chi ri runa'ob'al ch'ab'äl pa tz'ib'anem, rik'in ri Common Voice, ruch'akulal ri Firefox?
+faq-firefox-a = Man q'iq'el ta ri ruchuq'a' ri Common Voice ruma ri', tajin yeqakanoj kik'amal taq ch'ab'äl pa jalajöj rutiko'n Mozilla, achi'el ri Firefox.
+faq-quality-q = ¿Achike rutzil rub'anikil k'oxom najowäx richin chi ütz nokisäx?
+faq-quality-a = Niqajo' chi ri rutzil rub'anikil k'oxom tiwachin pa ri rutzil rub'anikil k'oxom xtuk'ül pa ri k'ojlib'äl ri ruk'wab'al ch'ab'äl-pa-tzij. Ruma ri', niqajo' jalajöj ruwäch. Re re' nuk'üt chi re ri ruk'wab'al ch'ab'äl-pa-tzij nrokisaj jalajöj taq k'ulwachinem —tzijonem pa ruka'n b'ey, kik'oxom ch'ich', taq b'anöy kaq'ïq'—richin man tisach.
 
 ## Profile
 
