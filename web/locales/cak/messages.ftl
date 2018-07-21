@@ -205,6 +205,10 @@ faq-important-a = Choj ri ch'ab'äl, ruch'ab'äl ri winäq. Ja ri' man k'ayew ta
 faq-get-q = ¿Achike rub'anikil nink'ül ri taq rutzij Common Voice?
 faq-get-a = Ri ruyakb'al qatzij wakami k'o pa <downloadLink>ruxaq richin niqasäx</downloadLink> rik'in ri <licenseLink>CC-0</licenseLink> ya'oj q'ij.
 faq-mission-q = ¿Achike ruma k'o pa taqel rutaqanem Mozilla ri Common Voice?
+faq-mission-a = Mozilla nisamäj chi rij chi jantape' jaqäl chuqa' okel ri ajk'amaya'l chi qawa qonojel. Richin niqab'än ri' k'atzinel niqaya' uchuq'a' pan kiq'a' ri ajk'amaya'l nuk'unela' rik'in taq nimasamaj achi'el Common Voice. Richin yek'iyïr ri kina'ob'äl ch'ab'äl rik'in nikik'owisaj kij ri relik taq chokoy, röj niqanimaj chi ütz chuqa' yekito' ri okisanela'. Niqatz'ët chi k'atzinel yeqatz'aqatisaj ch'aqa' chik ch'ab'äl, kik'oxomal chuqa' winaqirel taq tzij toq yekitz'ük chuqa' yekitojtob'ej kina'ob'al ch'ab'äl. Ri Mozilla nrajo' nutz'ët jun raxinäq chuqa' k'oxonel k'amaya'l. Re re' nuq'ajuj chi tiya' q'ij ye'ok k'ak'a' tz'ukunela' pa kitzij ch'ab'äl, ke ri' yetikïr yekinük' k'ak'a' chuqa' jeb'ël taq nimasamaj. Common Voice xtok jun tob'äl kichin winaqi', ri xkeruto' ri Mozilla taq molaj chuqa' b'anonela' chijun ri ruwach'ulew.
+faq-native-q = Man walaxib'en ta pe ruch'ab'exik ri { $lang } chuqa' yich'o rik'in k'oxomal, ¿la niwajo' chuqa' ri nuch'ab'äl?
+faq-native-a = Ja', ¡yalan nik'atzin ri ach'ab'äl chi qe! Jun peraj chi re ri rurayib'al ri Common Voice ja ri yerumöl ronojel ri k'oxomal, richin chi ri kematz'ib' ütz tino' pa kiwi' <bold>ronojel</bold> toq yech'o.
+faq-firefox-q = ¿La xtik'ulwachitäj chi ri runa'ob'al ch'ab'äl pa tz'ib'anem, rik'in ri Common Voice, ruch'akulal ri Firefox?
 
 ## Profile
 
