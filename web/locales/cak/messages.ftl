@@ -253,6 +253,15 @@ license-mixed = Tunuj
 
 ## Record Page
 
+record-platform-not-supported = Niqamäy, xa xe chi man koch'el ta ri anuk'uche'el wakami.
+record-platform-not-supported-desktop = Pa kematz'ib' yatikïr naqasaj ri ruk'isib'äl ruwäch:
+record-platform-not-supported-ios = <bold>iOS</bold> okisanela' yetikïr nikiqasaj ri sipan qachokoy:
+record-must-allow-microphone = K'o chi naya' q'ij nokisäx ri q'asäy ch'ab'äl.
+record-retry = Titojtob'ëx chik
+record-no-mic-found = Majun q'asäy ch'ab'äl xilitäj.
+record-error-too-short = Yalan ko'öl xub'än ri yakoj.
+record-error-too-long = Yalan nïm raqän xub'än ri yakoj.
+record-error-too-quiet = Yalan tz'iran xub'än ri yakoj.
 
 ## Download Modal
 
