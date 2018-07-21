@@ -1,0 +1,43 @@
+# voyelles
+[i] nid	jeep	abbaye	Annie
+[e] dé	écolé	pied
+[ɛ] mais	frais	être	parfait
+[a] laver	ami	tuba
+[ɑ] âme	âtre	pâte
+[ɔ] dehors	bol	Victor	Paul
+[o] hôte	osé	beau	tôt	pot
+[u] où	vous		coût	loup
+[y] jus	sur	Ursule
+[ø] jeu	feu	veux	Denis	
+[œ] œil	fleur	beurre	seul
+[ə] venin	monsieur
+[ɛ̃] vin	train	pain
+[œ̃] brun	humble	parfum	lundi
+[ɑ̃] an	ampoule	encre
+[ɔ̃] on	ombre	tronc	maison
+# semi-consonnes
+[j] yaourth	crayon	sommeil
+[w] oie	oui	moi	whisky
+[ɥ] aujourd'hui	huit	huile
+# consonnes
+[p] pipe	cap	appel
+[t] tarte	patte	théorie
+[k] casse	sac	paquet
+[b] bal	bébé	abbé
+[d] monde	raid	midi
+[g] gaffe	tag	bague
+[f] vif	photo	fou
+[s] si	casse	nation
+[ʃ] chat	tache	achat
+[v] va	cave	avril
+[z] zèbre	base	dixième
+[ʒ] jeu	tige	âgé
+[l] lit	halle	allé
+[ʀ] rat	car	carré
+[m] Mamie	âme	homme
+[n] nous	âne	tonne
+[ɲ] gagner	peigne	vigne
+# non-natives
+[h] hop!	hue!
+[ŋ] camping	viking	swing
+[x] (jota)	arthrose	
