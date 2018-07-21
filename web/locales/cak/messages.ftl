@@ -242,6 +242,14 @@ data-other-title = Juley chik ruyakb'al kitzij ch'ab'äl...
 data-other-goto = Tib'an b'enam pa { $name }
 data-other-download = Keqasäx taq Tzij
 data-other-librispeech-description = Jun korpus ri LibriSpeech, ri rumolon jub'ama 1000 ramaj Q'anchi ch'ab'en pa 16Khz, ri elesan pe pa taq wuj k'o kich'ab'äl richin ri Librivox nimasamaj.
+data-other-ted-name = TED-LIUM Korpus
+data-other-ted-description = Ri TED-LIUM korpus xnuk' kik'in kik'oxom tzijonem chuqa' ri taq kitz'ib'anik k'o pa ri TED ajk'amaya'l ruxaq.
+data-other-voxforge-description = VoxForge xb'an richin yerumöl ri taq pajtzij etz'ib'an richin yekokisaj ri taq Kik'wab'al Etamanel Ch'ab'äl richin Jaqäl B'itz'ib'.
+data-other-tatoeba-description = Tatoeba jun nïm kicholxe'el taq b'ab', taq tzalq'omanem chuqa' taq k'oxom richin ye'okisäx pa kitijoxik ri taq ch'ich'b'äl. Re qasanem re' ruk'wan ronojel ri q'anchi' yakon ruma ri rutinamit.
+data-bundle-button = Tiqasäx Pisaj Kiyakb'al Tzij 
+data-bundle-description = Kitzij Common Voice rik'in ronojel ri taq kiyakb'al kitzij ch'ab'äl xe'ik'o.
+license = Ya'öl Q'ij: <licenseLink>{ $license }</licenseLink>
+license-mixed = Tunuj
 
 ## Record Page
 
