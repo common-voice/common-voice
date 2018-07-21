@@ -215,15 +215,26 @@ faq-quality-a = Niqajo' chi ri rutzil rub'anikil k'oxom tiwachin pa ri rutzil ru
 faq-hours-q = ¿Achike ruma jun rayib'äl nimol ruchi' 10,000 ramaj k'oxom?
 faq-hours-a = Ja b'a' ramaj ri' najowäx richin nitijöx jun STT q'inoj richin niwachin.
 faq-source-q = ¿Akuchi' k'amon pe ri ruxe'el tz'ib'anem?
+faq-source-a1 = Ri taq b'ab' e k'o wakami ekisipan ri  to'onela', achi'el chuqa' tz'ib'anem kitzij silowäch ya'on q'ij chi kiwa winaqi' achi'el <italic>¡Jeb'ël ri k'aslem!</italic> 
+faq-source-a2 = Yatikïr natz'ët ri kixe'el qab'ab' pa <dataLink>re ruyakwuj GitHub re'</dataLink>
 
 ## Profile
 
+profile-why-title = ¿Achike ruma jun ruwäch b'i'aj?
+profile-why-content = Toq naya' jub'a' awetamab'al chawij chi qe, ri taq rutzij k'oxom xtatäq pa Common Voice yalan xkek'atzin chi ke ri kik'wab'al etamanel ch'ab'äl ye'okisan kichin richin nikutzilaj ki'.
 
 ## NotFound
 
+notfound-title = Man xilitäj ta
+notfound-content = Kinakuyu', man wetaman ta achike nakanoj.
 
 ## Data
 
+data-download-button = Tiqasäx Ta Rutzij Common Voice
+data-download-yes = Ja'
+data-download-deny = Manäq
+data-download-license = Ya'öl q'ij: <licenseLink>CC-0</licenseLink>
+data-download-modal = Naqasaj yan qa <size>{ $size }GB</size> rupam, ¿la nawajo'?
 
 ## Record Page
 
