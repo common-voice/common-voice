@@ -318,6 +318,9 @@ language-total-progress = Toplam
 language-search-input =
     .placeholder = Ara
 language-speakers = Konuşmacı
+localized = Yerelleştirilmiş
+sentences = Cümleler
+total-hours = Toplam saat
 
 ## New Contribution
 
@@ -346,6 +349,7 @@ review-tooltip = İlerledikçe bu kayıtları gözden geçirip yeniden kaydedin
 unable-speak = Şu anda konuşamıyor musunuz?
 review-instruction = Kayıtları gözden geçirip gerekirse yeniden kaydedin
 record-submit-tooltip = { $actionType } hazır olduğunuzda gönderin
+clips-uploaded = Yüklenen kayıt
 record-abort-title = Önce kayıt bitirilsin mi?
 record-abort-text = Şimdi çıkarsanız yaptıklarınız kaydedilmeyecek
 record-abort-submit = Klipleri gönder
