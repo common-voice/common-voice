@@ -262,6 +262,15 @@ record-no-mic-found = Majun q'asäy ch'ab'äl xilitäj.
 record-error-too-short = Yalan ko'öl xub'än ri yakoj.
 record-error-too-long = Yalan nïm raqän xub'än ri yakoj.
 record-error-too-quiet = Yalan tz'iran xub'än ri yakoj.
+record-submit-success = ¡Ütz xtaq! ¿La nawajo' chik yayakon?
+record-help = Tapitz'a' ri rupitz'b'al richin nayäk, k'a ri' köw tasik'ij ri b'ab'. 
+record-cancel = Tiq'a' Ruyakik-chik
+review-terms = Toq nokisäx ri Common Voice, nanimaj ri <termsLink>Qojqanem</termsLink> chuqa' <privacyLink>Ichinan Qatzijol</privacyLink>
+terms-agree = Ütz k'a
+terms-disagree = Man ütz ta nintz'ët
+review-aborted = Xq'at ri xjotob'äx. ¿La nawajo' ye'ayüj el ri taq ayakoj?
+review-submit-title = Tinik'öx & Titaq
+review-submit-msg = ¡Niqak'awomaj ruma yayakon!<lineBreak></lineBreak>Wakami ke'anik'oj chuqa' ke'ataqa' re taq ayakoj.
 
 ## Download Modal
 
