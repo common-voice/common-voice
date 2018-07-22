@@ -301,9 +301,27 @@ contact-required = *k'atzinel
 request-language-title = Ruk'utuxik Ch'ab'äl
 request-language-form-language =
     .label = Ch'ab'äl
+request-language-success-title = Ütz xtaq ri ruk'utuxik ch'ab'äl, niqak'awomaj chawe.
+request-language-success-content = Xtiqatzijoj chawe ch'aqa' chik etamab'äl pa ruwi' rub'eyal natz'aqatisaj ri ach'ab'äl pa Common Voice.
 
 ## Languages Overview
 
+language-section-in-progress = Nik'ïy
+language-section-in-progress-description = Ja ri qatinamit yetz'ukun richin yek'iyïr ri taq ch'ab'äl; achi'el achike peraj k'o wi chi rij ri ruk'iyirisanem ajk'amaya'l rutzalq'omanem chuqa' ri kimolik taq q'aptzij.
+language-section-launched = E'elesan
+language-section-launched-description = Pa re taq ch'ab'äl re', ütz xtzalq'omïx ri ajk'amaya'l ruxaq chuqa' k'ïy taq b'ab' emolon, ri nuya' q'ij richin jutaqil <italic>{ speak }</italic> chuqa' <italic>{ listen }</italic> nikito'.
+languages-show-more = Titz'et Ch'aqa' Chik
+languages-show-less = Titz'et Jub'a'
+language-speakers = Ch'ab'anela'
+language-meter-in-progress = Ruk'iyinem
+language-total-progress = Ronojel
+language-search-input =
+    .placeholder = Tikanöx
+language-speakers = Ch'ab'anela'
+localized = Xilitäj
+sentences = Taq b'ab'
+total-hours = Ronojel Ramaj
 
 ## New Contribution
 
+action-click = Tipitz'
