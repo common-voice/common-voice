@@ -325,3 +325,18 @@ total-hours = Ronojel Ramaj
 ## New Contribution
 
 action-click = Tipitz'
+action-tap = Ticha'
+contribute = Kato'on
+listen = Tak'axäx
+skip = Tik'o'
+shortcuts = Chojmin Okem
+clips = Taq yakoj
+goal-help-recording = ¡Matyox ruma yato'on ri Common Voice ruq'i'on <goalPercentage></goalPercentage> chi re ri qarayib'al { $goalValue } q'ij q'ij!
+goal-help-validation = ¡Matyox ruma yato'on ri Common Voice ruq'i'on <goalPercentage></goalPercentage> chi re ri qarayib'al richin rujunamanem { $goalValue } q'ij q'ij!
+contribute-more =
+    { $count ->
+        [one] ¿Xab'än rutzil richin nab'än jun chik?
+       *[other] ¿Xab'än rutzil richin nab'än { $count } chik?
+    }
+record-cta = Titikirisäx ruyakik
+record-instruction = { $actionType }<recordIcon></recordIcon> k'a ri' köw tasik'ij ri b'ab'
