@@ -360,3 +360,5 @@ listen-again-instruction = ¡Jeb'ël asamaj! <playIcon></playIcon> Tawak'axaj ch
 listen-3rd-time-instruction = Qajinäq 2, <playIcon></playIcon> ¡ke ri' tab'ana'!
 listen-last-time-instruction = <playIcon></playIcon>¡Ri ruk'isib'äl!
 nothing-to-validate = Majun qatob'al richin niqajunamaj re ch'ab'äl re', ¡kojato'!
+record-button-label = Tayaka' ach'ab'äl
+share-title-new = <bold>Kojato'</bold> richin yeqïl ch'aqa' chik ch'ab'äl
