@@ -271,15 +271,36 @@ terms-disagree = Man ütz ta nintz'ët
 review-aborted = Xq'at ri xjotob'äx. ¿La nawajo' ye'ayüj el ri taq ayakoj?
 review-submit-title = Tinik'öx & Titaq
 review-submit-msg = ¡Niqak'awomaj ruma yayakon!<lineBreak></lineBreak>Wakami ke'anik'oj chuqa' ke'ataqa' re taq ayakoj.
+review-recording = Tinik'öx
+review-rerecord = Tiyak-chik
+review-cancel = Tiq'at Rutaqik
+review-keep-recordings = Kechap ri taq yakoj
+review-delete-recordings = Keyuj ri taq nuyakoj
 
 ## Download Modal
 
+download-title = Xtikirisäx ri aqasanem.
+download-helpus = Kojato' richin niqanük' jun tinamït pa ruwi' ri runa'ob'al ch'ab'äl, katzijon pe pa taqoya'l.
+download-form-email =
+    .label = Tatz'ib'aj ri ataqoya'l
+    .value = Niqak'awomaj chawe, xtiqach'ab'ej qi'.
+download-back = Katzolin pa ri taq Kiyakb'al Rutzij Common Voice
+download-no = Mani' Matyox
 
 ## Contact Modal
 
+contact-title = Runojwuj Ch'ab'enïk
+contact-form-name =
+    .label = B'i'aj
+contact-form-message =
+    .label = Rutzijol
+contact-required = *k'atzinel
 
 ## Request Language Modal
 
+request-language-title = Ruk'utuxik Ch'ab'äl
+request-language-form-language =
+    .label = Ch'ab'äl
 
 ## Languages Overview
 
