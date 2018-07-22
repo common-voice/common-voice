@@ -6,6 +6,7 @@ import { Clips } from '../../../../stores/clips';
 import { Locale } from '../../../../stores/locale';
 import StateTree from '../../../../stores/tree';
 import URLS from '../../../../urls';
+import NormalizedPlayer from '../../../normalized-player';
 import {
   CheckIcon,
   CrossIcon,
@@ -70,7 +71,7 @@ const initialState: State = {
 };
 
 class ListenPage extends React.Component<Props, State> {
-  audioRef = React.createRef<HTMLAudioElement>();
+  audioPlayer = new NormalizedPlayer();
   playedSomeInterval: any;
 
   state: State = initialState;
@@ -103,7 +104,8 @@ class ListenPage extends React.Component<Props, State> {
       return;
     }
 
-    this.audioRef.current.play();
+    this.audioPlayer.onended = this.hasPlayed;
+    this.audioPlayer.play(this.state.clips[this.getClipIndex()]);
     this.setState({ isPlaying: true });
     clearInterval(this.playedSomeInterval);
     this.playedSomeInterval = setInterval(
@@ -113,9 +115,7 @@ class ListenPage extends React.Component<Props, State> {
   };
 
   private stop = () => {
-    const audio = this.audioRef.current;
-    audio.pause();
-    audio.currentTime = 0;
+    this.audioPlayer.stop();
     clearInterval(this.playedSomeInterval);
     this.setState({ isPlaying: false });
   };
@@ -188,12 +188,6 @@ class ListenPage extends React.Component<Props, State> {
     const activeClip = clips[clipIndex];
     return (
       <React.Fragment>
-        <audio
-          {...activeClip && { src: activeClip.audioSrc }}
-          preload="auto"
-          onEnded={this.hasPlayed}
-          ref={this.audioRef}
-        />
         <ContributionPage
           activeIndex={clipIndex}
           errorContent={
