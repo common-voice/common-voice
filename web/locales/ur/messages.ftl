@@ -12,8 +12,11 @@ loading = لوڈ ہو رہا ہے…
 ## Languages
 
 ar = عربى
+bn = بنگالی
 de = جرمن
+el = يونانى
 en = انگریزی
+es = اسپینش
 he = عبرانى
 is = آئس لينڈى
 it = اطالوی
@@ -40,9 +43,11 @@ speak-now = ابھی بولیں
 languages = زبانیں
 profile = پروفائل
 help = مدد
+contact = رابطہ
 privacy = رازداری
 terms = شرائط
 cookies = کوکیاں
+link-copied = نقل شدہ ربط
 contribution-banner-button = ایک نظر ڈالیں
 
 ## Home Page
@@ -61,6 +66,7 @@ shortcut-skip = s
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
+shortcut-play-toggle-label = چلائیں/ روکیں
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
@@ -84,6 +90,7 @@ english = انگريزى
 ## ProfileForm
 
 profile-form-cancel = فوم سے اخراج
+profile-form-delete = پروفائل حزف کریں
 profile-form-username =
     .label = صارف کا نام
 profile-form-language =
@@ -150,6 +157,7 @@ contact-required = *درکار ہے
 
 ## Request Language Modal
 
+request-language-title = ربان کی درخواست
 request-language-form-language =
     .label = زبان
 request-language-success-title = زبان کی درخواست کامیابی سے جمع ہو گئی ہے، شکیہ۔
