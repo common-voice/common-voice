@@ -23,7 +23,7 @@ export default class NormalizedPlayer implements NormalizedPlayerInterface {
     this.gainNode.connect(this.audioCtx.destination);
   }
   async play(clip: Clips.Clip) {
-    const res = await fetch(clip.audioSrc + '.mp3');
+    const res = await fetch(clip.audioSrc);
     const encodedBuf = await res.arrayBuffer();
     const decodedData = await this.audioCtx.decodeAudioData(encodedBuf);
     // The decoded audio samples live in decodedBuffer
