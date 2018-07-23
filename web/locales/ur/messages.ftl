@@ -81,6 +81,8 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
+shortcut-record-toggle-label = ریکارڈ/روکیں
+request-language-button = ایک زبان کی درخواست کریں
 
 ## ProjectStatus
 
@@ -118,6 +120,9 @@ profile-close = بند کریں
 
 ## FAQ
 
+faq-what-q = Common Voice کیا ہے؟
+faq-important-q = یہ کیوں اہم ہے؟
+faq-mission-q = Mozilla کی مہم کا Common Voice حصۃ کیوں ہے؟
 
 ## Profile
 
@@ -129,6 +134,7 @@ notfound-title = نہیں ملا
 
 ## Data
 
+data-download-button = Common Voice کے کوائف ڈائونلوڈ کریں
 data-download-yes = ہاں
 data-download-deny = نہیں
 data-other-download = ڈائونلوڈ شدہ کوائف
