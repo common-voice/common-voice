@@ -133,6 +133,7 @@ faq-what-q = Common Voice کیا ہے؟
 faq-important-q = یہ کیوں اہم ہے؟
 faq-get-q = میں Common Voice کے کوائف کیست حاصل کر سکتا ہوں؟
 faq-mission-q = Mozilla کی مہم کا Common Voice حصۃ کیوں ہے؟
+faq-source-q = یہ ماخز متن کہاں سے آیا ہے؟
 
 ## Profile
 
@@ -141,6 +142,7 @@ profile-why-title = ایک پروفائل کیوں؟
 ## NotFound
 
 notfound-title = نہیں ملا
+notfound-content = مجھے ڈر ہے کہ میں نہیں جانتا کہ آپ کیا تلاش کررہے ہیں۔
 
 ## Data
 
@@ -196,9 +198,12 @@ request-language-success-title = زبان کی درخواست کامیابی س�
 ## Languages Overview
 
 languages-show-more = مزید دیکھیں
+languages-show-less = کم دیکھیں
+language-speakers = خطیب
 language-total-progress = کل
 language-search-input =
     .placeholder = تلاش
+language-speakers = خطیب
 sentences = جملے
 total-hours = کل گھنٹے
 
@@ -208,6 +213,8 @@ action-click = کلک
 action-tap = تھپتپانا
 contribute = حصہ دارانہ
 listen = سنیں
+skip = اچٹیں
+shortcuts = تیز راہ 
 clips = تراشے
 record-cta = رکارڈنگ شروع کریں
 record-instruction = { $actionType }<recordIcon></recordIcon> بھر باآواز بلند جملہ پڑھیں
