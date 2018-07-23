@@ -98,14 +98,14 @@ class ListenPage extends React.Component<Props, State> {
     return this.state.clips.findIndex(clip => clip.isValid === null);
   }
 
-  private play = () => {
+  private play = async () => {
     if (this.state.isPlaying) {
       this.stop();
       return;
     }
 
     this.audioPlayer.onended = this.hasPlayed;
-    this.audioPlayer.play(this.state.clips[this.getClipIndex()]);
+    await this.audioPlayer.play(this.state.clips[this.getClipIndex()]);
     this.setState({ isPlaying: true });
     clearInterval(this.playedSomeInterval);
     this.playedSomeInterval = setInterval(

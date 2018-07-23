@@ -22,55 +22,49 @@ export default class NormalizedPlayer implements NormalizedPlayerInterface {
     this.gainNode.gain.value = 1.0;
     this.gainNode.connect(this.audioCtx.destination);
   }
-  play(clip: Clips.Clip): Promise<void> {
-    return fetch(clip.audioSrc + '.mp3')
-      .then(res => {
-        return res.arrayBuffer();
-      })
-      .then((buf: ArrayBuffer) => {
-        return this.audioCtx.decodeAudioData(buf);
-      })
-      .then((decodedData: AudioBuffer) => {
-        // The decoded audio samples live in decodedBuffer
-        var decodedBuffer = decodedData.getChannelData(0);
+  async play(clip: Clips.Clip) {
+    const res = await fetch(clip.audioSrc + '.mp3');
+    const encodedBuf = await res.arrayBuffer();
+    const decodedData = await this.audioCtx.decodeAudioData(encodedBuf);
+    // The decoded audio samples live in decodedBuffer
+    const decodedBuffer = decodedData.getChannelData(0);
 
-        // Obtain one Root Mean Square (RMS) value for
-        // each slice of 50ms length
-        var sliceLen = Math.floor(decodedData.sampleRate * 0.05);
-        var averages = [];
-        var sum = 0.0;
-        for (var i = 0; i < decodedBuffer.length; i++) {
-          sum += decodedBuffer[i] ** 2;
-          if (i % sliceLen === 0) {
-            sum = Math.sqrt(sum / sliceLen);
-            averages.push(sum);
-            sum = 0;
-          }
-        }
+    // Obtain one Root Mean Square (RMS) value for
+    // each slice of 50ms length
+    var sliceLen = Math.floor(decodedData.sampleRate * 0.05);
+    var averages = [];
+    var sum = 0.0;
+    for (var i = 0; i < decodedBuffer.length; i++) {
+      sum += decodedBuffer[i] ** 2;
+      if (i % sliceLen === 0) {
+        sum = Math.sqrt(sum / sliceLen);
+        averages.push(sum);
+        sum = 0;
+      }
+    }
 
-        // Ascending sort of the averages array
-        averages.sort(function(a, b) {
-          return a - b;
-        });
+    // Ascending sort of the averages array
+    averages.sort(function(a, b) {
+      return a - b;
+    });
 
-        // Take the average at the 95th percentile
-        var a = averages[Math.floor(averages.length * 0.95)];
+    // Take the average at the 95th percentile
+    var a = averages[Math.floor(averages.length * 0.95)];
 
-        var gain = 1.0 / a;
+    var gain = 1.0 / a;
 
-        // Perform some clamping
-        // gain = Math.max(gain, 0.02);
-        // gain = Math.min(gain, 100.0);
+    // Perform some clamping
+    // gain = Math.max(gain, 0.02);
+    // gain = Math.min(gain, 100.0);
 
-        // ReplayGain uses pink noise for this one one but we just take
-        // some arbitrary value... we're no standard
-        // Important is only that we don't output on levels
-        // too different from other websites
-        gain = gain / 10.0;
+    // ReplayGain uses pink noise for this one one but we just take
+    // some arbitrary value... we're no standard
+    // Important is only that we don't output on levels
+    // too different from other websites
+    gain = gain / 10.0;
 
-        this.gainNode.gain.value = gain;
-        this.playBuf(decodedData);
-      });
+    this.gainNode.gain.value = gain;
+    this.playBuf(decodedData);
   }
   private playBuf(buf: AudioBuffer) {
     if (this.bufSource) {
