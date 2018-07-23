@@ -55,6 +55,7 @@ contribution-banner-button = ایک نظر ڈالیں
 ## Home Page
 
 show-wall-of-text = مزید پڑھیں
+help-us-title = جملوں کی توثیق کرنے میں ہماری مدد کریں
 vote-yes = ہاں
 vote-no = نہیں
 
@@ -137,6 +138,7 @@ notfound-title = نہیں ملا
 data-download-button = Common Voice کے کوائف ڈائونلوڈ کریں
 data-download-yes = ہاں
 data-download-deny = نہیں
+data-download-license = لائسنس: <licenseLink>CC-0</licenseLink>
 data-other-download = ڈائونلوڈ شدہ کوائف
 license-mixed = ملا جلا
 
@@ -144,12 +146,17 @@ license-mixed = ملا جلا
 
 record-retry = پھر کوشش کریں
 record-no-mic-found = کوئی ماِکروفون نہیں ملا
+terms-agree = میں متفق ہوں
+terms-disagree = میں متفق نہیں ہوں
+review-submit-title = جائزہ لیں اور جمع کروائیں
+review-submit-msg = ریکارڈنگ کے لئے آپ کا شکریہ! <lineBreak> </lineBreak>اب مندرجہ ذیل  تراشوں کا جائزہ لیں اورجمع کروائیں۔
 review-recording = جائزہ لیں
 review-keep-recordings = ریکارڈنگ رکھیں
 review-delete-recordings = میری رکارڈنگ حزف کریں
 
 ## Download Modal
 
+download-title = آُپ کی ڈائونلوڈ کا آغاز ہو گیا ہے۔
 download-form-email =
     .label = اپنا ای میل داخل کریں
     .value = شکریہ ہم آُپ سے رانطہ کریں گے۔
