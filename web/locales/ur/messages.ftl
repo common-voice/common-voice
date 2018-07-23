@@ -96,6 +96,7 @@ request-language-button = ایک زبان کی درخواست کریں
 
 ## ProjectStatus
 
+status-contribute = اپنی آواز عطیہ کریں
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = اگلا حدف: { $goal }
@@ -129,6 +130,7 @@ edit-profile = پروفائل کی تدوین کریں
 profile-create = ایک پروفائل بنائیں
 profile-create-success = کامیابی، پروفائل کی تخلیق ہوگئی!
 profile-close = بند کریں
+profile-clear-modal = اپنی پروفائل کے کوائف صاف کرنے کا مطلب ہے یہ آپکی آبادیات کے متعلق معلومات آئندہ آپ کی Common Voice تراشہ ریکارڈنگ کے ساتھ جمع نہیں ہوں گی۔
 
 ## FAQ
 
@@ -137,6 +139,7 @@ faq-what-q = Common Voice کیا ہے؟
 faq-important-q = یہ کیوں اہم ہے؟
 faq-get-q = میں Common Voice کے کوائف کیست حاصل کر سکتا ہوں؟
 faq-mission-q = Mozilla کی مہم کا Common Voice حصۃ کیوں ہے؟
+faq-hours-q = ۱۰،۰۰۰ گھنٹے کی صوت پر قبظہ کرنا ہمارا مقصد کیوں ہے؟
 faq-source-q = یہ ماخز متن کہاں سے آیا ہے؟
 
 ## Profile
