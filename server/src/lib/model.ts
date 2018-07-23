@@ -164,11 +164,10 @@ export default class Model {
     }
   }
 
-  getValidatedHours = memoize(
-    async () =>
-      clipCountToHours((await this.db.getValidClipCount(['en']))[0].count),
-    1000 * 60 * 60 * 24
-  );
+  getValidatedHours = memoize(async () => {
+    const english = (await this.db.getValidClipCount(['en']))[0];
+    return clipCountToHours(english ? english.count : 0);
+  }, 1000 * 60 * 60 * 24);
 
   getLanguageStats = memoize(async (): Promise<LanguageStats> => {
     const inProgressLocales = Object.keys(allLocales).filter(
