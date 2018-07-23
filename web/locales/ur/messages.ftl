@@ -120,6 +120,7 @@ female = زنانہ
 # Gender
 other = دیگر
 why-profile-title = ایک پروفائل کیوں؟
+why-profile-text = اپنے بارے میں کچھ معلومات فراہم کرنے سے۔، صوتی کوائف جو آُپ Common Voice میں جمع کرائیں گے وہ گویاِی کے لیئے مزید فائدہ مند ہوں گے توثیق کار انجن اس کوائف کو استعمال کرکے اپنی درستکی کریں گے۔
 edit-profile = پروفائل کی تدوین کریں
 profile-create = ایک پروفائل بنائیں
 profile-create-success = کامیابی، پروفائل کی تخلیق ہوگئی!
@@ -211,6 +212,7 @@ clips = تراشے
 record-cta = رکارڈنگ شروع کریں
 record-instruction = { $actionType }<recordIcon></recordIcon> بھر باآواز بلند جملہ پڑھیں
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> جب مکمل ہو جائے
+record-again-instruction2 = کوشش جاری رکھیں، دوبارہ رکارڈ کریں <recordIcon></recordIcon>
 review-tooltip = یہاں چلتے ہوئے تراشوں کو دوبارہ ریکارڈ کریں اور جائزہ لیں
 review-instruction = جائرہ لیں اور تراشے دوبارہ ریکارڈ کریں اگر ظرورت ہو
 clips-uploaded = اپ لوڈ شدہ تراشے
