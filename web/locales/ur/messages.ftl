@@ -52,6 +52,7 @@ cookies = کوکیاں
 share-title = ہمیں دوسروں کو اپنی آواز عطیہ کی تلاش میں مدد کریں!
 link-copied = نقل شدہ ربط
 contribution-banner-button = ایک نظر ڈالیں
+report-bugs-link = ایک گڑبڑ رپورٹ کرنے میں مدد کریں
 
 ## Home Page
 
