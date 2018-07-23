@@ -29,7 +29,11 @@ export default class NormalizedPlayer implements NormalizedPlayerInterface {
         return this.audioCtx.decodeAudioData(buf);
       })
       .then((decodedData: AudioBuffer) => {
+        // The decoded audio samples live in decodedBuffer
         var decodedBuffer = decodedData.getChannelData(0);
+
+        // Obtain one Root Mean Square (RMS) value for
+        // each slice of 50ms length
         var sliceLen = Math.floor(decodedData.sampleRate * 0.05);
         var averages = [];
         var sum = 0.0;
@@ -41,14 +45,17 @@ export default class NormalizedPlayer implements NormalizedPlayerInterface {
             sum = 0;
           }
         }
+
         // Ascending sort of the averages array
         averages.sort(function(a, b) {
           return a - b;
         });
+
         // Take the average at the 95th percentile
         var a = averages[Math.floor(averages.length * 0.95)];
 
         var gain = 1.0 / a;
+
         // Perform some clamping
         // gain = Math.max(gain, 0.02);
         // gain = Math.min(gain, 100.0);
