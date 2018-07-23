@@ -11,11 +11,13 @@ export interface NormalizedPlayerInterface {
   onended?: (event: Event) => void;
 }
 export default class NormalizedPlayer implements NormalizedPlayerInterface {
-  private audioCtx = new AudioContext();
+  private audioCtx: AudioContext;
   private gainNode: GainNode;
   private bufSource?: AudioBufferSourceNode;
   onended?: (event: Event) => void;
   constructor() {
+    const AudioContext = window.AudioContext || window.webkitAudioContext;
+    this.audioCtx = new AudioContext();
     this.gainNode = this.audioCtx.createGain();
     this.gainNode.gain.value = 1.0;
     this.gainNode.connect(this.audioCtx.destination);
