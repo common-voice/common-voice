@@ -12,6 +12,7 @@ loading = لوڈ ہو رہا ہے…
 ## Languages
 
 ar = عربى
+az = آذر بائیجان
 bn = بنگالی
 de = جرمن
 el = يونانى
@@ -47,6 +48,7 @@ contact = رابطہ
 privacy = رازداری
 terms = شرائط
 cookies = کوکیاں
+share-title = ہمیں دوسروں کو اپنی آواز عطیہ کی تلاش میں مدد کریں!
 link-copied = نقل شدہ ربط
 contribution-banner-button = ایک نظر ڈالیں
 
