@@ -1,5 +1,6 @@
 ## General
 
+yes-receive-emails = جی ہاں، مجھے ای میل ارسال کریں ۔ میں اس Common Voice منصوبے کے بارے میں باخبر رہنا چاہوں گا.
 email-input =
     .label = ای میل
 submit-form-action = ‏‏جمع کریں
@@ -54,6 +55,7 @@ contribution-banner-button = ایک نظر ڈالیں
 
 ## Home Page
 
+home-cta = بولیں، یہاں تعاون کریں!
 show-wall-of-text = مزید پڑھیں
 help-us-title = جملوں کی توثیق کرنے میں ہماری مدد کریں
 vote-yes = ہاں
@@ -123,6 +125,7 @@ profile-close = بند کریں
 
 faq-what-q = Common Voice کیا ہے؟
 faq-important-q = یہ کیوں اہم ہے؟
+faq-get-q = میں Common Voice کے کوائف کیست حاصل کر سکتا ہوں؟
 faq-mission-q = Mozilla کی مہم کا Common Voice حصۃ کیوں ہے؟
 
 ## Profile
@@ -140,10 +143,12 @@ data-download-yes = ہاں
 data-download-deny = نہیں
 data-download-license = لائسنس: <licenseLink>CC-0</licenseLink>
 data-other-download = ڈائونلوڈ شدہ کوائف
+license = لائیسنس: <licenseLink>{ $license }</licenseLink>
 license-mixed = ملا جلا
 
 ## Record Page
 
+record-platform-not-supported-desktop = ڈیسکٹاپ کمپیوٹر پر آُپ تازہ ترین ڈائونلوڈ کر سکتے ہیں:
 record-retry = پھر کوشش کریں
 record-no-mic-found = کوئی ماِکروفون نہیں ملا
 terms-agree = میں متفق ہوں
@@ -151,6 +156,7 @@ terms-disagree = میں متفق نہیں ہوں
 review-submit-title = جائزہ لیں اور جمع کروائیں
 review-submit-msg = ریکارڈنگ کے لئے آپ کا شکریہ! <lineBreak> </lineBreak>اب مندرجہ ذیل  تراشوں کا جائزہ لیں اورجمع کروائیں۔
 review-recording = جائزہ لیں
+review-rerecord = دوبارہ ریکارڈ کریں
 review-keep-recordings = ریکارڈنگ رکھیں
 review-delete-recordings = میری رکارڈنگ حزف کریں
 
@@ -183,12 +189,22 @@ languages-show-more = مزید دیکھیں
 language-total-progress = کل
 language-search-input =
     .placeholder = تلاش
+sentences = جملے
+total-hours = کل گھنٹے
 
 ## New Contribution
 
 action-click = کلک
+action-tap = تھپتپانا
 contribute = حصہ دارانہ
 listen = سنیں
+clips = تراشے
+record-cta = رکارڈنگ شروع کریں
 record-instruction = { $actionType }<recordIcon></recordIcon> بھر باآواز بلند جملہ پڑھیں
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> جب مکمل ہو جائے
+clips-uploaded = اپ لوڈ شدہ تراشے
+record-abort-title = پہلے ریکارڈنگ ختم کریں؟
+record-abort-submit = تراشے جمع کرائیں
+record-abort-delete = خارج ہوں اور تراشے حزف کریں
 record-button-label = اپنی آواز رکارڈ کرائیں
+share-title-new = <bold> ہماری مدد کریں</bold> مزید آوازیں ڈھونڈنے میں
