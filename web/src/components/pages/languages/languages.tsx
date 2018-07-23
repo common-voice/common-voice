@@ -8,7 +8,6 @@ import {
 } from '../../../../../common/language-stats';
 import { getNativeNameWithFallback } from '../../../services/localization';
 import StateTree from '../../../stores/tree';
-import { isProduction } from '../../../utility';
 import RequestLanguageModal from '../../request-language-modal/request-language-modal';
 import { CloseIcon, SearchIcon } from '../../ui/icons';
 import { Button, Hr, TextButton } from '../../ui/ui';
@@ -219,7 +218,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
             </h2>
           </div>
 
-          {!isProduction() && this.renderSearch(this.smallSearchInputRef)}
+          {this.renderSearch(this.smallSearchInputRef)}
         </div>
 
         <div className="language-sections">
@@ -229,7 +228,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
                 {getString('language-section-launched')}
                 {launchedCountLabel}
               </h1>
-              {!isProduction() && this.renderSearch(this.largeSearchInputRef)}
+              {this.renderSearch(this.largeSearchInputRef)}
               <Hr />
             </div>
 
