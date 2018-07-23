@@ -24,6 +24,7 @@ is = آئس لينڈى
 it = اطالوی
 ja = جاپانى
 ka = جارجيائى
+kw = کورناش
 ne-NP = نیپالی
 ru = روسی
 sl = سلاوینائی
@@ -34,6 +35,7 @@ th = تھائى
 tr = ترک
 tt = ‏‏طاطاری
 uz = ازبک
+zh-TW = چینی (تائیوان)
 
 # [/]
 
@@ -158,11 +160,13 @@ license-mixed = ملا جلا
 ## Record Page
 
 record-platform-not-supported-desktop = ڈیسکٹاپ کمپیوٹر پر آُپ تازہ ترین ڈائونلوڈ کر سکتے ہیں:
+record-platform-not-supported-ios = <bold>iOS</bold>صارفین ہماری ایپلیکیشن مفت ڈائونلوڈ کر سکتے ہیں:
 record-retry = پھر کوشش کریں
 record-no-mic-found = کوئی ماِکروفون نہیں ملا
 record-error-too-short = یہ ریکارڈنگ بہت چھوٹی تھی۔
 record-error-too-long = یہ ریکارڈنگ بہت طویل تھی۔
 record-error-too-quiet = یہ ریکارڈنگ بھی خاموش تھی۔
+record-cancel = دوبارہ رکارڈنگ منسوخ کریں
 terms-agree = میں متفق ہوں
 terms-disagree = میں متفق نہیں ہوں
 review-submit-title = جائزہ لیں اور جمع کروائیں
@@ -221,6 +225,7 @@ record-instruction = { $actionType }<recordIcon></recordIcon> بھر باآوا�
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> جب مکمل ہو جائے
 record-again-instruction2 = کوشش جاری رکھیں، دوبارہ رکارڈ کریں <recordIcon></recordIcon>
 review-tooltip = یہاں چلتے ہوئے تراشوں کو دوبارہ ریکارڈ کریں اور جائزہ لیں
+unable-speak = ابھی بول نہیں سکتے؟
 review-instruction = جائرہ لیں اور تراشے دوبارہ ریکارڈ کریں اگر ظرورت ہو
 clips-uploaded = اپ لوڈ شدہ تراشے
 record-abort-title = پہلے ریکارڈنگ ختم کریں؟
