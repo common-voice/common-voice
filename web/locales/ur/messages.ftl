@@ -1,6 +1,7 @@
 ## General
 
 yes-receive-emails = جی ہاں، مجھے ای میل ارسال کریں ۔ میں اس Common Voice منصوبے کے بارے میں باخبر رہنا چاہوں گا.
+return-to-cv = Common Voice پر واپس جائیں
 email-input =
     .label = ای میل
 submit-form-action = ‏‏جمع کریں
@@ -35,6 +36,7 @@ th = تھائى
 tr = ترک
 tt = ‏‏طاطاری
 uz = ازبک
+zh-CN = چینی (چین)
 zh-TW = چینی (تائیوان)
 
 # [/]
@@ -161,6 +163,7 @@ license-mixed = ملا جلا
 
 record-platform-not-supported-desktop = ڈیسکٹاپ کمپیوٹر پر آُپ تازہ ترین ڈائونلوڈ کر سکتے ہیں:
 record-platform-not-supported-ios = <bold>iOS</bold>صارفین ہماری ایپلیکیشن مفت ڈائونلوڈ کر سکتے ہیں:
+record-must-allow-microphone = آپ کے مائیکرو فون تک رسائی کی اجازت ضروری ہے۔
 record-retry = پھر کوشش کریں
 record-no-mic-found = کوئی ماِکروفون نہیں ملا
 record-error-too-short = یہ ریکارڈنگ بہت چھوٹی تھی۔
