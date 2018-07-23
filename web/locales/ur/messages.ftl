@@ -85,6 +85,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = ریکارڈ/روکیں
+request-language-text = اب تک Common Voice پر اپنی زبان نہیں دیکھ رہے ہیں؟
 request-language-button = ایک زبان کی درخواست کریں
 
 ## ProjectStatus
@@ -119,10 +120,12 @@ other = دیگر
 why-profile-title = ایک پروفائل کیوں؟
 edit-profile = پروفائل کی تدوین کریں
 profile-create = ایک پروفائل بنائیں
+profile-create-success = کامیابی، پروفائل کی تخلیق ہوگئی!
 profile-close = بند کریں
 
 ## FAQ
 
+faq-title = اکثر پوچھے گئے سوالات
 faq-what-q = Common Voice کیا ہے؟
 faq-important-q = یہ کیوں اہم ہے؟
 faq-get-q = میں Common Voice کے کوائف کیست حاصل کر سکتا ہوں؟
@@ -202,9 +205,14 @@ clips = تراشے
 record-cta = رکارڈنگ شروع کریں
 record-instruction = { $actionType }<recordIcon></recordIcon> بھر باآواز بلند جملہ پڑھیں
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> جب مکمل ہو جائے
+review-tooltip = یہاں چلتے ہوئے تراشوں کو دوبارہ ریکارڈ کریں اور جائزہ لیں
+review-instruction = جائرہ لیں اور تراشے دوبارہ ریکارڈ کریں اگر ظرورت ہو
 clips-uploaded = اپ لوڈ شدہ تراشے
 record-abort-title = پہلے ریکارڈنگ ختم کریں؟
 record-abort-submit = تراشے جمع کرائیں
+record-abort-continue = ریکارڈنگ مکمل کریں
 record-abort-delete = خارج ہوں اور تراشے حزف کریں
+listen-instruction = { $actionType }<playIcon></playIcon> کیا انہوں نے جملہ درستگی سے بولا؟
+listen-last-time-instruction = <playIcon></playIcon>آخری ایک!
 record-button-label = اپنی آواز رکارڈ کرائیں
 share-title-new = <bold> ہماری مدد کریں</bold> مزید آوازیں ڈھونڈنے میں
