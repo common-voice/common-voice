@@ -96,6 +96,7 @@ cookies = Cookies
 faq = FAQ
 content-license-text = Conteníu disponible so una <licenseLink>llicencia Creative Commons</licenseLink>
 share-title = ¡Ayúdanos a alcontrar a xente que nos empreste la so voz!
+share-text = Enséña-yos a les máquines cómo falen los humanos. Empresta la to voz en { $link }
 link-copied = Copióse l'enllaz
 back-top = Volver a arriba
 contribution-banner-text = Tamos acabante de llanzar una esperiencia nueva de collaboración
@@ -104,7 +105,13 @@ report-bugs-link = Ayuda a informar de fallos
 
 ## Home Page
 
+home-title = El proyeutu Common Voice ye  la iniciativa de Mozilla pa enseña-yos a les máquines cmo falen los humanos.
 wall-of-text-more-mobile = La mayoría de datos usaos por compañes grandes nun tán disponibles pa la mayoría de xente. Cuidamos qu'eso torga la innovación polo que llanzamos Common Voice. Un proyeutu p'ayudar a facer que la reconocencia de voz tea abierta al tol mundu.
+wall-of-text-more-desktop =
+    Agora pues emprestar la to voz p'ayudanos a construyir una base de datos abierta que tol mundu
+    pue usar pa facer aplicaciones innovadores pa preseos y web.<lineBreak></lineBreak>
+    Llei una fras pa enseña-yos a les máquines cómo falen los humanos. Comprueba'l trabayu d'otros
+    collaboradores p'ameyorar la calidá. ¡Ye mui cenciello!
 show-wall-of-text = Llei más
 help-us-title = ¡Ayúdanos a validar les frases!
 vote-yes = Sí
@@ -182,6 +189,7 @@ profile-close = Zarrar
 faq-title = Entrugues frecuentes
 faq-what-q = ¿Qué ye Common Voice?
 faq-important-q = ¿Por qué ye importante?
+faq-important-a = La voz ye natural, la voz ye humana. Ye'l mou más cencielu y natural de comunicase. Queremos que los desendolcadores seyan a creen proyeutos ablucantes: dende  traductores en tiempu real hasta asistentes per voz. Pero pel momentu nun hai abondos datos disponibles públicamente pa crear esa triba d'aplicaciones. Esperamos que Common Voice forna a los desendolcadores lo que precisen pa innovar.
 faq-get-q = ¿Cómo pueo consiguir los datos de Common Voice?
 faq-mission-q = ¿Por que Common Voice ye parte de la misión de Mozilla?
 faq-source-q = ¿D'ónde vien el testu fonte?
@@ -202,10 +210,12 @@ data-download-yes = Sí
 data-download-deny = Non
 data-download-license = Llicencia: <licenseLink>CC-0</licenseLink>
 data-download-modal = Tas a piques d'aniciar la descarga de <size>{ $size }GB</size>, ¿siguir?
+data-subtitle = Tamos construyendo un conxuntu de datos de voz públicu y disponible que tol mundu pue usar pa entrenar a les aplicaciones qu'usen la voz.
 data-other-title = Otros conxuntos de datos de voz...
 data-other-goto = Dir a { $name }
 data-other-download = Baxar datos
 data-other-ted-name = Corpus de TED-LIUM
+data-other-tatoeba-description = Tatoeba ye una base de datos grande de frases, traducciones y audios pal usu nel deprendimientu de llingües. Esta descarga contién grabaciones n'inglés faláu pola so comunidá.
 license = Llicencia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mesta
 
@@ -243,6 +253,7 @@ contact-required = *ríquese
 request-language-title = Solicitú de llingua
 request-language-form-language =
     .label = Llingua
+request-language-success-content = Mui pronto vamos ponenos en contautu con más información tocante a cómo amestar la to llingua a Common Voice.
 
 ## Languages Overview
 
