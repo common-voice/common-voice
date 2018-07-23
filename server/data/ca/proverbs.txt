@@ -26,7 +26,6 @@ A bones ganes de ballar, poc so és menester.
 A Bonrepòs, qui no pot menjar carn es menja l'os.
 A bons ocis, mals negocis.
 A bord del veler, després del patró ve el cuiner.
-A bord una dona, cosa poc bona.
 A Borriol, nap i col, i a Montserrat, col i nap.
 A bou flac tot són mosques.
 A bou vell, esquella nova.
@@ -113,8 +112,6 @@ A despit del gener florix l'ametler.
 A dies llargs, llargs treballs.
 A diners pagats, braços cansats.
 A diners pagats, braços trencats.
-A dona ben casada, el marit li basta.
-A dona casta, poc fre basta.
 A Déu prega el qui treballa.
 A ell, que és mesell!
 A ell, que és mesell; a ella, que és femella.
@@ -207,7 +204,6 @@ A l'estiu, la filosa no diu.
 A l'estiu, tavernera; a l'hivern, fornera.
 A l'estiu, tot el món viu.
 A l'hivern boirina i la neu per veïna.
-A l'hivern fornera, a l'estiu tavernera.
 A l'hivern, el millor amic és un bon abric.
 A l'home desgraciat, el pa se li floreix al forn.
 A l'home que de tu fia, fia d'ell que és cortesia.
@@ -227,9 +223,6 @@ A l'olor del dot, acudix el borinot.
 A l'olor del dot, apareix el borinot.
 A l'olor del dot, se li acosta el ninot.
 A l'ombra del nas, la boca fresca.
-A la barca i a l'esposa, sempre els falta alguna cosa.
-A la barca i a la dona, sempre els falta alguna cosa.
-A la ben casada, només el seu marit li agrada.
 A la boca que no parla, Déu no la sent.
 A la boda del fillol, qui no t'hi convida no t'hi vol.
 A la boda el convidat mai no vaja desganat.
@@ -300,7 +293,6 @@ A la vellesa, bonys i berrugues.
 A la vellesa, casar-se és el mateix que enterrar-se.
 A la vellesa, cascavells.
 A la vinya del desert, qui més hi posa més hi perd.
-A la viuda, tot li piula.
 A la vora de convents i de rius, les orenetes no hi fan nius.
 A la vora del riu no faces niu, ni a l'hivern ni a l'estiu.
 A la vora del riu no faces niu.
@@ -804,7 +796,6 @@ Al juliol, la cistelleta i el mallol.
 Al juliol, la falç al coll.
 Al juliol, la forca al coll.
 Al juliol, la garrofa porta dol.
-Al juliol, ni dona ni caragol.
 Al juliol, sega amb bon sol.
 Al juliol, tota la roba al vol.
 Al juliol, trau les garbes al sol.
@@ -5806,7 +5797,6 @@ Per la Candelera, ous a la carrera.
 Per la Candelera, ous a la pollera.
 Per la Candelera, una hora sencera.
 Per la corda es troba el ruc.
-Per la dona casada, els fills i la casa.
 Per la gent de marina, sopes amb vi és medecina.
 Per la lluna plena de maig, a pescar llagostins me'n vaig.
 Per la maleta no donen res, donen pel sac.
