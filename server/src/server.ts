@@ -189,7 +189,7 @@ export default class Server {
     try {
       await this.model.performMaintenance();
       if (doImport) {
-        // await importSentences(await this.model.db.mysql.createPool());
+        await importSentences(await this.model.db.mysql.createPool());
       }
       await this.model.db.fillCacheColumns();
       this.print('Maintenance complete');
