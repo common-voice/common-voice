@@ -82,6 +82,7 @@ interface LocalizedPagesProps
 }
 
 interface LocalizedPagesState {
+  hasScrolled: boolean;
   messagesGenerator: any;
   showSurvey: boolean;
   uploadPercentage?: number;
@@ -99,6 +100,7 @@ const LocalizedLayout: any = withRouter(
     )(
       class extends React.Component<LocalizedPagesProps, LocalizedPagesState> {
         state: LocalizedPagesState = {
+          hasScrolled: false,
           messagesGenerator: null,
           showSurvey: JSON.parse(localStorage.getItem(SURVEY_KEY)) !== false,
           uploadPercentage: null,
@@ -108,6 +110,8 @@ const LocalizedLayout: any = withRouter(
 
         async componentDidMount() {
           await this.prepareMessagesGenerator(this.props);
+          window.addEventListener('scroll', this.handleScroll);
+          setTimeout(() => this.setState({ hasScrolled: true }), 5000);
         }
 
         async componentWillReceiveProps(nextProps: LocalizedPagesProps) {
@@ -129,6 +133,10 @@ const LocalizedLayout: any = withRouter(
           ) {
             await this.prepareMessagesGenerator(nextProps);
           }
+        }
+
+        componentWillUnmount() {
+          window.removeEventListener('scroll', this.handleScroll);
         }
 
         async runUploads(uploads: Uploads.State) {
@@ -182,6 +190,10 @@ const LocalizedLayout: any = withRouter(
           });
         }
 
+        handleScroll = () => {
+          this.setState({ hasScrolled: true });
+        };
+
         hideSurvey = (options?: { immediately: boolean }) => {
           const { immediately } = { immediately: true, ...options };
           if (immediately) this.setState({ showSurvey: false });
@@ -191,6 +203,7 @@ const LocalizedLayout: any = withRouter(
         render() {
           const { locale, notifications, toLocaleRoute } = this.props;
           const {
+            hasScrolled,
             messagesGenerator,
             showSurvey,
             uploadPercentage,
@@ -229,29 +242,30 @@ const LocalizedLayout: any = withRouter(
                         ))}
                     </div>
 
-                    {showSurvey && (
-                      <div className="survey">
-                        <button onClick={() => this.hideSurvey()}>
-                          <CloseIcon black />
-                        </button>
-                        <h1>Penny for your thoughts?</h1>
-                        <p>
-                          We would love to know more about how you use Common
-                          Voice, what you like and don’t like about it. Could
-                          you spare 5 min to give us some quick feedback through
-                          our survey?
-                        </p>
-                        <a
-                          href="https://www.surveygizmo.com/s3/4446677/3a21d4a69b6b"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          onClick={() =>
-                            this.hideSurvey({ immediately: false })
-                          }>
-                          Go to survey
-                        </a>
-                      </div>
-                    )}
+                    {showSurvey &&
+                      hasScrolled && (
+                        <div className="survey">
+                          <button onClick={() => this.hideSurvey()}>
+                            <CloseIcon black />
+                          </button>
+                          <h1>Penny for your thoughts?</h1>
+                          <p>
+                            We would love to know more about how you use Common
+                            Voice, what you like and don’t like about it. Could
+                            you spare 5 min to give us some quick feedback
+                            through our survey?
+                          </p>
+                          <a
+                            href="https://www.surveygizmo.com/s3/4446677/3a21d4a69b6b"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            onClick={() =>
+                              this.hideSurvey({ immediately: false })
+                            }>
+                            Go to survey
+                          </a>
+                        </div>
+                      )}
 
                     <Switch>
                       <Route
