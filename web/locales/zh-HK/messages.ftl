@@ -209,6 +209,7 @@ faq-firefox-q = 語音識別技術會不會透過 Common Voice 成爲火狐瀏�
 faq-hours-q = 為何目標是取得一萬小時的錄音？
 faq-hours-a = 這是用來訓練 STT 系統所需的大約時數。
 faq-source-q = 原文的文字來自哪裏？
+faq-source-a1 = 目前是透過貢獻者捐贈語料給我們，還有公開領域的電影腳本台詞（例如 <italic>It’s a Wonderful Life.</italic>）。
 faq-source-a2 = 您可在<dataLink>這個 GitHub 資料夾</dataLink>參考我們的原始語句。
 
 ## Profile
