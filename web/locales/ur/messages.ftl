@@ -61,6 +61,7 @@ terms = شرائط
 cookies = کوکیاں
 share-title = ہمیں دوسروں کو اپنی آواز عطیہ کی تلاش میں مدد کریں!
 link-copied = نقل شدہ ربط
+back-top = واپس اوپر کی جانب
 contribution-banner-button = ایک نظر ڈالیں
 report-bugs-link = ایک گڑبڑ رپورٹ کرنے میں مدد کریں
 
@@ -179,6 +180,7 @@ record-error-too-short = یہ ریکارڈنگ بہت چھوٹی تھی۔
 record-error-too-long = یہ ریکارڈنگ بہت طویل تھی۔
 record-error-too-quiet = یہ ریکارڈنگ بھی خاموش تھی۔
 record-cancel = دوبارہ رکارڈنگ منسوخ کریں
+review-terms = Common Voice کے استعمال کے ساتھ آُپ ہماری <termsLink>شرائط</termsLink> اور <privacyLink>رازداری نوٹس</privacyLink> سے متفق ہیں
 terms-agree = میں متفق ہوں
 terms-disagree = میں متفق نہیں ہوں
 review-submit-title = جائزہ لیں اور جمع کروائیں
