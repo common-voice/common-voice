@@ -192,6 +192,8 @@ faq-important-q = ¿Por qué ye importante?
 faq-important-a = La voz ye natural, la voz ye humana. Ye'l mou más cencielu y natural de comunicase. Queremos que los desendolcadores seyan a creen proyeutos ablucantes: dende  traductores en tiempu real hasta asistentes per voz. Pero pel momentu nun hai abondos datos disponibles públicamente pa crear esa triba d'aplicaciones. Esperamos que Common Voice forna a los desendolcadores lo que precisen pa innovar.
 faq-get-q = ¿Cómo pueo consiguir los datos de Common Voice?
 faq-mission-q = ¿Por que Common Voice ye parte de la misión de Mozilla?
+faq-native-q = Nun soi un falante nativu de { $lang } y falo con acentu, ¿entá quedríeis la mio voz?
+faq-hours-a = Ye'l númberu aproximáu d'hores riquíes pa entrenar a un sistema STT en producción.
 faq-source-q = ¿D'ónde vien el testu fonte?
 
 ## Profile
@@ -216,6 +218,8 @@ data-other-goto = Dir a { $name }
 data-other-download = Baxar datos
 data-other-ted-name = Corpus de TED-LIUM
 data-other-tatoeba-description = Tatoeba ye una base de datos grande de frases, traducciones y audios pal usu nel deprendimientu de llingües. Esta descarga contién grabaciones n'inglés faláu pola so comunidá.
+data-bundle-button = Baxar el paquete del conxuntu de datos
+data-bundle-description = Los datos de Common Voice amás de tolos conxuntos de datos d'enriba.
 license = Llicencia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mesta
 
@@ -265,6 +269,7 @@ language-speakers = Falantes
 language-meter-in-progress = Progresu
 language-total-progress = Total
 language-speakers = Falantes
+total-hours = Hores totales
 
 ## New Contribution
 
