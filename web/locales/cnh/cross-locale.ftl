@@ -3,7 +3,7 @@
 contribute = Pekchanh
 get-involved-button = I Talve
 get-involved-title = { $lang } ah pekchanh
-get-involved-text = { $lang } Caah pehchanh na duh ve caah kan i lawm.  Zei holh paoh tlamtling tein a um khawhnak hnga caah faakpiin rian kan ttuan i, in theihter peng kan i zuam. Pekchanh na duh ah cun, a tanglei ah na email ttial.
+get-involved-text = { $lang } Caah pekchanh na duh ve caah kan i lawm.  Zei holh paoh tlamtling tein a um khawhnak hnga caah faakpiin rian kan ttuan i, in theihter peng kan i zuam. Pekchanh na duh ah cun, a tanglei ah na email ttial.
 get-involved-form-title = { $lang } thawngthanhnak caah minkhumh.
 get-involved-email =
     .label = Email

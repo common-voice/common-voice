@@ -92,11 +92,11 @@ speak = Chim
 speak-now = Chim cang
 datasets = Datasets
 languages = Holh phun
-profile = Sining
-help = Bawmh
+profile = Sinak
+help = Bawmhnak
 contact = Pehtlaihnak
 privacy = Kilvennak
-terms = Bia kamnak
+terms = Theihternak
 cookies = khuk-ki
 faq = FAQ
 content-license-text = Laisen theihternak <licenseLink> Creative Commons lisense</licenseLink>
@@ -113,8 +113,8 @@ report-bugs-link = A ttha lo mi kan chim
 home-title = Common Voice timi cu Mozilla nih tuahmi, zei tiin dah minung an holh ti computer chimh nak asi.
 home-cta = Na aw hi ka hin tuun!
 wall-of-text-start = Aw cu kokek asi, Aw cu minung asi. Cucaah cun computer ah hman khawh dingmi Laiholh ser lai hi kan i ngaih tuk. Hi kan tuah khawh nak ding caah cun Aw hi tamtuk hringhren kan herh.
-wall-of-text-more-mobile = Kampani lian ngan tampi nih an tuah tawn mi hi mitam deuh caah cun hmankhawh asi lo. Cucu tthanchonak caah hin thawphit tu asi ti ka ruah. Cucaah, Project Common Voice timi hi mi vialte nih an holh cio in computer an hman khawh nak ding caah kan tuah mi asi.  
-wall-of-text-more-desktop = Mikip nih an hman khawh ding mim Aw rak kan hrawm ve. <lineBreak></lineBreak> Minung an holh nih computer chimh din gah biatlang hi rel. Midang nih an chimcia zong chek tthan. A fawi te!
+wall-of-text-more-mobile = Kampani lian ngan tampi nih an tuah tawn mi hi mitam deuh caah cun hmankhawh asi lo. Cucu tthanchonak caah hin thawphit tu asi ti kan ruah. Cucaah, Project Common Voice timi hi mi vialte nih an holh cio in computer an hman khawh nak ding caah kan tuah mi asi.  
+wall-of-text-more-desktop = Mikip nih an hman khawh ding mi Aw rak kan tuun piak ve. <lineBreak></lineBreak> Minung an holh nih computer chimh ding ah biatlang hi rel. Midang nih an chimcia zong chek tthan. A fawi te!
 show-wall-of-text = Rel Chap
 help-us-title = Bia-tlang hman ser kan bawm!
 help-us-explain = Play hmet, ngai, cun kan chim: A tanglei biatlang kha hman tein an rel maw?
@@ -219,7 +219,7 @@ faq-source-a2 = Hi ka<dataLink> hin biatlang kan lak nak na zoh khawh.  </dataLi
 
 ## Profile
 
-profile-why-title = Zei tuah ah keimah sining cu a herh?
+profile-why-title = Zei ruang ah keimah sining cu a herh?
 profile-why-content = Nangmah kong kan theih deuh ah hin Common Voice nih na Aw hi ttha deuh le hmann deuh in computer a chimh khawh lai.
 
 ## NotFound
@@ -229,7 +229,7 @@ notfound-content = Na kawl mi hi ka thei lo.
 
 ## Data
 
-data-download-button = Thuntlen Common Voice Data
+data-download-button = Common Voice Data Thuntlen
 data-download-yes = Asi
 data-download-deny = Asi lo
 data-download-license = Laisen:<licenseLink>CC-0</licenseLink>
