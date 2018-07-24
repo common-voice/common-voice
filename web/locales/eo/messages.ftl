@@ -16,6 +16,7 @@ loading = Ŝargado…
 ## Languages
 
 an = Aragona
+ar = Araba
 
 # [/]
 
