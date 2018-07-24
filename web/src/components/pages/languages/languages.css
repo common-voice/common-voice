@@ -375,6 +375,7 @@
                 }
 
                 & .value {
+                    text-align: right;
                     font-style: normal;
                     letter-spacing: normal;
                 }
