@@ -13,7 +13,7 @@ import {
   Split,
 } from './model/split';
 import { getConfig } from '../config-helper';
-import memoize from './memoize';
+import lazyCache from './lazy-cache';
 
 const AVG_CLIP_SECONDS = 4.7; // I queried 40 recordings from prod and avg'd them
 
@@ -164,12 +164,12 @@ export default class Model {
     }
   }
 
-  getValidatedHours = memoize(async () => {
+  getValidatedHours = lazyCache(async () => {
     const english = (await this.db.getValidClipCount(['en']))[0];
     return clipCountToHours(english ? english.count : 0);
   }, 1000 * 60 * 60 * 24);
 
-  getLanguageStats = memoize(async (): Promise<LanguageStats> => {
+  getLanguageStats = lazyCache(async (): Promise<LanguageStats> => {
     const inProgressLocales = Object.keys(allLocales).filter(
       locale => !contributableLocales.includes(locale)
     );

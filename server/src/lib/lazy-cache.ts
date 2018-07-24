@@ -1,4 +1,4 @@
-export default function<T>(
+export default function lazyCache<T>(
   f: () => Promise<T>,
   timeMs: number
 ): () => Promise<T> {
@@ -10,13 +10,15 @@ export default function<T>(
       return cache;
     }
 
-    if (cachePromise) return cachePromise;
+    if (cachePromise) return cache || cachePromise;
 
     return (cachePromise = new Promise(async resolve => {
+      const hasOldCache = Boolean(cache);
+      if (hasOldCache) resolve(cache);
       cache = await f();
       cachedAt = Date.now();
       cachePromise = null;
-      resolve(cache);
+      if (!hasOldCache) resolve(cache);
     }));
   };
 }
