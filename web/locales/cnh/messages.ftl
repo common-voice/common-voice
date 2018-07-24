@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = Asi, ca ka kua ko. Common Voice Project kong theih ka duh.
-stayintouch = Holh phun kip in computer a ngahnak ding hi kan nih Mozilla compani nih kan i tinh mi cu asi. Zei tiin dah hihi na hman timi le  thilthar pawl kan ngeih tik ah in chimh ve kan duh. 
+stayintouch = Holh phun kip in computer a ngahnak ding hi kan nih Mozilla kampani nih kan i tinh mi cu asi. Zei tiin dah hihi na hman timi le  thilthar pawl kan ngeih tik ah in chimh ve kan duh. 
 privacy-info = Nangmah kong midang kan theih ter hna lai lo. <privacyLink>Privacy Notice</privacyLink> ah hin rel chap.
 return-to-cv = Common Voice ah kir
 email-input =
@@ -103,7 +103,7 @@ privacy = Kilvennak
 terms = Theihternak
 cookies = khuk-ki
 faq = FAQ
-content-license-text = Laisen theihternak <licenseLink> Creative Commons lisense</licenseLink>
+content-license-text = Laisen theihternak <licenseLink> Creative Commons Laisen</licenseLink>
 share-title = Na hawi le dang nih an aw an rak tun ve ding ah kan bawm!
 share-text = Minung an holh ning computer chim ve, na Aw van khum { $link }
 link-copied = Link aa khawpi cang
@@ -116,9 +116,9 @@ report-bugs-link = A ttha lo mi kan chim
 
 home-title = Common Voice timi cu Mozilla nih tuahmi, zei tiin dah minung an holh ti computer chimh nak asi.
 home-cta = Na aw hi ka hin tuun!
-wall-of-text-start = Aw cu kokek asi, Aw cu minung asi. Cucaah cun computer ah hman khawh dingmi Laiholh ser lai hi kan i ngaih tuk. Hi kan tuah khawh nak ding caah cun Aw hi tamtuk hringhren kan herh.
-wall-of-text-more-mobile = Kampani lian ngan tampi nih an tuah tawn mi hi mitam deuh caah cun hmankhawh asi lo. Cucu tthanchonak caah hin thawphit tu asi ti kan ruah. Cucaah, Project Common Voice timi hi mi vialte nih an holh cio in computer an hman khawh nak ding caah kan tuah mi asi.  
-wall-of-text-more-desktop = Mikip nih an hman khawh ding mi Aw rak kan tuun piak ve. <lineBreak></lineBreak> Minung an holh nih computer chimh ding ah biatlang hi rel. Midang nih an chimcia zong chek tthan. A fawi te!
+wall-of-text-start = Aw cu kokek asi, Aw cu minung asi. Cucaah cun computer ah hman khawh dingmi Laiholh ser lai hi kan i ngaih tuk. Hi kan tuah khawh nak ding caah cun, Aw hi tamtuk hringhren kan herh.
+wall-of-text-more-mobile = Kampani lianngan tampi nih an tuah tawn mi hi mitam deuh caah cun hmankhawh asi lo. Cucu tthanchonak caah hin thawphit tu asi ti kan ruah. Cucaah, Project Common Voice timi hi mi vialte nih an holh cio in computer an hman khawh nak ding caah kan tuah mi asi.  
+wall-of-text-more-desktop = Mikip nih an hman khawh ding mi Aw rak kan tuun piak ve. <lineBreak></lineBreak> Minung an holh ning computer chimh ding ah biatlang hi rel. Midang nih an chimcia zong chek tthan. A fawi te!
 show-wall-of-text = Rel Chap
 help-us-title = Biatlang an chimmi a hman le hman lo chek kan bawm!
 help-us-explain = Play hmet, ngai, cun kan chim: A tanglei biatlang kha hman tein an rel maw?
@@ -203,8 +203,8 @@ profile-explanation = Sining ah na tuahcia vialte zoh law, Aw kan lak mi vialte 
 faq-title = Hal Tawnmi Bia
 faq-what-q = Common Voice cu zei dah asi?
 faq-what-a = Computer hna holh in chawnh khawh cu thil lianngan tuk asi, asi nain cheukhat cu an man faktuk tawn. Common Voice i kan i tinhmi cu a mikip caah fawi tein hmanter khawh hi asi. Mi tampi nih an Aw khumh in khulrang tele fawi tein tuah asi. Kan tuahmi vialte hi mipi nih hman khawh dih asi lai.
-faq-important-q = Zei ruang ah dah a bia pi?
-faq-important-a = Aw cu kokek asi, Aw cu minung asi. I chawnh khanh nak caah a a fawi cemmi le hmancem mi asi. Computer thiam nih hi thil chung in hman awktlak thil ttha, holh leh/ ca leh le a dang dang bawntuk ah an ser khawh nak ding hi kan duh. Asinain atu ah cun mipi nih hamn khawh ding mi hi a um lo. Common Voice nih hin computer thiam pawl thil ttha ttha an sernak cung ah a bawmh hna lai hi kan duh.
+faq-important-q = Zei ruang ah dah a bia pit?
+faq-important-a = Aw cu kokek asi, Aw cu minung asi. I chawnh khanh nak caah a fawi cemmi le hmancem mi asi. Computer thiam nih hi thil chung in hman awktlak thil ttha, holh leh/ca leh le a dang dang bawmtu ah an ser khawh nak ding hi kan duh. Asinain atu ah cun mipi nih hman khawh ding mi hi a um lo. Common Voice nih hin computer thiam pawl thil ttha ttha an sernak cung ah a bawmh hna lai hi kan duh.
 faq-get-q = Common Voice data hi zei tin dah ka lak khawh lai?
 faq-get-a = Dataset cu thuntlen a ngah <downloadLink> thuntlen nak</downloadLink> i a tang<licenseLink>CC-0</licenseLink> laisen.
 faq-mission-q = Zei ruang ah dah Common Voice hi Mozilla nih a tinhmi rian asi ve?
@@ -224,7 +224,7 @@ faq-source-a2 = Hi ka<dataLink> hin biatlang kan lak nak na zoh khawh.  </dataLi
 ## Profile
 
 profile-why-title = Zei ruang ah keimah sining cu a herh?
-profile-why-content = Nangmah kong kan theih deuh ah hin Common Voice nih na Aw hi ttha deuh le hmann deuh in computer a chimh khawh lai.
+profile-why-content = Nangmah kong kan theih deuh ah hin Common Voice nih na Aw hi ttha deuh le hman deuh in computer a chimh khawh lai.
 
 ## NotFound
 
