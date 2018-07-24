@@ -16,6 +16,8 @@ loading = لوڈ ہو رہا ہے…
 ar = عربى
 az = آذر بائیجان
 bn = بنگالی
+cnh = ہک چن
+cs = چيک
 de = جرمن
 el = يونانى
 en = انگریزی
@@ -26,9 +28,12 @@ is = آئس لينڈى
 it = اطالوی
 ja = جاپانى
 ka = جارجيائى
+kk = کازخ
 ko = کوریائِی
 kw = کورناش
 ne-NP = نیپالی
+pl = پولش
+pt-BR = پرتگالی (برازیل)
 ro = پیش قدمی
 ru = روسی
 sk = سلافی
@@ -60,6 +65,7 @@ privacy = رازداری
 terms = شرائط
 cookies = کوکیاں
 share-title = ہمیں دوسروں کو اپنی آواز عطیہ کی تلاش میں مدد کریں!
+share-text = مشین کو سیکھنے میں مدد کریں حقیقی لوگ کس طرج بوللتے ہیں٫ { $link } پر اپنی آواز عطیہ کریں
 link-copied = نقل شدہ ربط
 back-top = واپس اوپر کی جانب
 contribution-banner-button = ایک نظر ڈالیں
@@ -103,6 +109,7 @@ request-language-button = ایک زبان کی درخواست کریں
 
 ## ProjectStatus
 
+status-title = مجموعی طور پر منصوبہ کی صورتحال: دیکھیں ہم کس حد تک آچکے ہیں!
 status-contribute = اپنی آواز عطیہ کریں
 # Variables:
 # $goal - number of hours representing the next goal
@@ -183,6 +190,7 @@ record-cancel = دوبارہ رکارڈنگ منسوخ کریں
 review-terms = Common Voice کے استعمال کے ساتھ آُپ ہماری <termsLink>شرائط</termsLink> اور <privacyLink>رازداری نوٹس</privacyLink> سے متفق ہیں
 terms-agree = میں متفق ہوں
 terms-disagree = میں متفق نہیں ہوں
+review-aborted = اپ لوڈ منسوخ کر دی گئی۔ کیا آپ اپنی ریکارڈنگ حذف کرنا چاہتے ہیں؟
 review-submit-title = جائزہ لیں اور جمع کروائیں
 review-submit-msg = ریکارڈنگ کے لئے آپ کا شکریہ! <lineBreak> </lineBreak>اب مندرجہ ذیل  تراشوں کا جائزہ لیں اورجمع کروائیں۔
 review-recording = جائزہ لیں
@@ -218,6 +226,7 @@ request-language-success-title = زبان کی درخواست کامیابی س�
 languages-show-more = مزید دیکھیں
 languages-show-less = کم دیکھیں
 language-speakers = خطیب
+language-meter-in-progress = پیش رفت
 language-total-progress = کل
 language-search-input =
     .placeholder = تلاش
@@ -234,6 +243,11 @@ listen = سنیں
 skip = اچٹیں
 shortcuts = تیز راہ 
 clips = تراشے
+contribute-more =
+    { $count ->
+        [one] مزید { $count } کرنے کے لیئے تیار ہیں؟
+       *[other] مزید { $count } کرنے کے لیئے تیار ہیں؟
+    }
 record-cta = رکارڈنگ شروع کریں
 record-instruction = { $actionType }<recordIcon></recordIcon> بھر باآواز بلند جملہ پڑھیں
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> جب مکمل ہو جائے
