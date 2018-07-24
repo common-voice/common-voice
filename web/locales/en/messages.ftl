@@ -319,7 +319,7 @@ language-search-input =
 language-speakers = Speakers
 localized = Localized
 sentences = Sentences
-total-hours = Total Hrs
+total-hours = Validated Hrs
 
 ## New Contribution
 action-click = Click
