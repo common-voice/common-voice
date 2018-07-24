@@ -202,7 +202,7 @@ profile-explanation = Sining ah na tuahcia vialte zoh law, Aw kan lak mi vialte 
 
 faq-title = Hal Tawnmi Bia
 faq-what-q = Common Voice cu zei dah asi?
-faq-what-a = Computer pawl holh in chawnh khawh cu thil lianngan tuk asi, asi nain cheukhat cu an man faktuk tawn. Common Voice i kan i tinhmi cu a mikip caah fawi tein hmanter khawh hi asi. Mi tampi nih an Aw khumh in khulrang tele fawi tein tuah asi. Kan tuahmi vialte hi mipi nih hman khawh dih asi lai.
+faq-what-a = Computer hna holh in chawnh khawh cu thil lianngan tuk asi, asi nain cheukhat cu an man faktuk tawn. Common Voice i kan i tinhmi cu a mikip caah fawi tein hmanter khawh hi asi. Mi tampi nih an Aw khumh in khulrang tele fawi tein tuah asi. Kan tuahmi vialte hi mipi nih hman khawh dih asi lai.
 faq-important-q = Zei ruang ah dah a bia pi?
 faq-important-a = Aw cu kokek asi, Aw cu minung asi. I chawnh khanh nak caah a a fawi cemmi le hmancem mi asi. Computer thiam nih hi thil chung in hman awktlak thil ttha, holh leh/ ca leh le a dang dang bawntuk ah an ser khawh nak ding hi kan duh. Asinain atu ah cun mipi nih hamn khawh ding mi hi a um lo. Common Voice nih hin computer thiam pawl thil ttha ttha an sernak cung ah a bawmh hna lai hi kan duh.
 faq-get-q = Common Voice data hi zei tin dah ka lak khawh lai?
