@@ -49,6 +49,7 @@ tt = ‏‏طاطاری
 uk = یوکرینی
 uz = ازبک
 zh-CN = چینی (چین)
+zh-HK = چینی (ہانگ کانگ)
 zh-TW = چینی (تائیوان)
 
 # [/]
@@ -65,6 +66,7 @@ contact = رابطہ
 privacy = رازداری
 terms = شرائط
 cookies = کوکیاں
+content-license-text = <licenseLink>تخلیقی العام لائسنس</licenseLink> کے تحت  مواد دستیاب ہے
 share-title = ہمیں دوسروں کو اپنی آواز عطیہ کی تلاش میں مدد کریں!
 share-text = مشین کو سیکھنے میں مدد کریں حقیقی لوگ کس طرج بوللتے ہیں٫ { $link } پر اپنی آواز عطیہ کریں
 link-copied = نقل شدہ ربط
@@ -146,6 +148,7 @@ profile-create = ایک پروفائل بنائیں
 profile-create-success = کامیابی، پروفائل کی تخلیق ہوگئی!
 profile-close = بند کریں
 profile-clear-modal = اپنی پروفائل کے کوائف صاف کرنے کا مطلب ہے یہ آپکی آبادیات کے متعلق معلومات آئندہ آپ کی Common Voice تراشہ ریکارڈنگ کے ساتھ جمع نہیں ہوں گی۔
+profile-explanation = ایک پروفائل کے ساتھ اپنی پیش رفت پر سراغ رکھیں اور ہماری صوتی کوائف کی مزید درستگی  میں مدد کریں
 
 ## FAQ
 
@@ -209,6 +212,7 @@ download-no = نہیں شکریہ
 
 ## Contact Modal
 
+contact-title = رابطے کا فارم
 contact-form-name =
     .label = نام
 contact-form-message =
@@ -262,6 +266,7 @@ record-abort-submit = تراشے جمع کرائیں
 record-abort-continue = ریکارڈنگ مکمل کریں
 record-abort-delete = خارج ہوں اور تراشے حزف کریں
 listen-instruction = { $actionType }<playIcon></playIcon> کیا انہوں نے جملہ درستگی سے بولا؟
+listen-again-instruction = بہت اچھے<playIcon></playIcon> دوبارہ سنیں جب آپ تیار ہوں
 listen-last-time-instruction = <playIcon></playIcon>آخری ایک!
 record-button-label = اپنی آواز رکارڈ کرائیں
 share-title-new = <bold> ہماری مدد کریں</bold> مزید آوازیں ڈھونڈنے میں
