@@ -32,6 +32,7 @@ de = nemščina
 dsb = dolnja lužiška srbščina
 el = grščina
 en = angleščina
+eo = esperanto
 es = španščina
 et = estonščina
 fi = finščina
@@ -63,6 +64,7 @@ nn-NO = norveščina (nynorsk)
 or = odijščina
 pl = poljščina
 pt-BR = portugalščina (Brazilija)
+rm = retoromanščina
 ro = romunščina
 ru = ruščina
 sah = jakutščina
@@ -77,6 +79,7 @@ th = tajščina
 tr = turščina
 tt = tatarščina
 uk = ukrajinščina
+ur = urdujščina
 uz = uzbeščina
 zh-CN = kitajščina (Kitajska)
 zh-HK = kitajščina (Hong Kong)
@@ -320,6 +323,8 @@ language-meter-in-progress = Napredek
 language-total-progress = Skupaj
 language-search-input =
     .placeholder = Iskanje
+language-speakers = Govorcev
+total-hours = Skupaj ur
 
 ## New Contribution
 
