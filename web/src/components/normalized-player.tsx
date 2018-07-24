@@ -1,12 +1,10 @@
-import { Clips } from '../stores/clips';
-
 // Audio normalization. Based on ReplayGain.
 // http://wiki.hydrogenaud.io/index.php?title=ReplayGain_specification
 
 // TODO: human perception based loudness filtering (IIR filters)
 
 export interface NormalizedPlayerInterface {
-  play(clip: Clips.Clip): Promise<void>;
+  play(clipUrl: string): Promise<void>;
   stop(): void;
   onended?: (event: Event) => void;
 }
@@ -22,8 +20,8 @@ export default class NormalizedPlayer implements NormalizedPlayerInterface {
     this.gainNode.gain.value = 1.0;
     this.gainNode.connect(this.audioCtx.destination);
   }
-  async play(clip: Clips.Clip) {
-    const res = await fetch(clip.audioSrc);
+  async play(clipUrl: string) {
+    const res = await fetch(clipUrl);
     const encodedBuf = await res.arrayBuffer();
     const decodedData = await this.audioCtx.decodeAudioData(encodedBuf);
     // The decoded audio samples live in decodedBuffer

@@ -105,7 +105,7 @@ class ListenPage extends React.Component<Props, State> {
     }
 
     this.audioPlayer.onended = this.hasPlayed;
-    await this.audioPlayer.play(this.state.clips[this.getClipIndex()]);
+    await this.audioPlayer.play(this.state.clips[this.getClipIndex()].audioSrc);
     this.setState({ isPlaying: true });
     clearInterval(this.playedSomeInterval);
     this.playedSomeInterval = setInterval(
