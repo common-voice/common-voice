@@ -100,16 +100,32 @@ faq = ХАА
 
 vote-yes = Тии
 vote-no = Үгы
+toggle-play-tooltip = Тоглуулхын түлөө { shortcut-play-toggle } тобшо дарана гүт
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = з
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = т
 shortcut-play-toggle-label = Тоглуула/Зогсо
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = и
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = ү
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = б
+shortcut-record-toggle-label = Бэшэ/Зогсо
 request-language-text = Танай хэлэн Ниитын дуу хоолой соо үгы байна гү?
 request-language-button = Шэнэ хэлэ үүсхэхэ
 
@@ -172,9 +188,12 @@ data-download-button = Ниитын дуу хоолойн үгэгдэл тат�
 data-download-yes = Тии
 data-download-deny = Үгы
 data-download-license = Лицензи: <licenseLink>CC-0</licenseLink>
+data-other-goto = { $name } руу
+data-other-download = Татажа абаха
 
 ## Record Page
 
+record-must-allow-microphone = Микрофон хэрэглэхые зүбшөөрнэ гүт.
 record-retry = Дахин үзэхэ
 record-no-mic-found = Микрофон олдоногүй
 record-error-too-short = Бэшэлгэ дэн богони байна
@@ -244,11 +263,7 @@ review-tooltip = Эндэхэнэ клипнүүды хянаад, шэнээр 
 unable-speak = Мүнөө дуугархаар бэшэ гүт?
 review-instruction = Клипнүүды хянаад, хэрэгтэй һаань шэнээр бэшэнэ гүт
 record-submit-tooltip = { $actionType } бэлэн һаань эльгээнэ гүт
-clips-submitted =
-    { $count ->
-        [one] клип
-       *[other] клип
-    }
+clips-uploaded = Клипнүүд ашаалагдаба
 record-abort-title = Түрүүн бэшэлгэеэ дүүргэхэмнай гү
 record-abort-text = Мүнөө гарашоо һаа, бэшэһэн юумэе алдахат
 record-abort-submit = Клипнүүдые эльгээхэ
@@ -258,4 +273,5 @@ listen-instruction = { $actionType }<playIcon></playIcon> үгүүлбэриие
 listen-again-instruction = Бэрхэт даа!<playIcon></playIcon> Бэлэн болоходоо дахин шагнажа үзэгты
 listen-3rd-time-instruction = 2 үлэбэ, бү зогсогты!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Һүүлшынхи!
+record-button-label = Дуугарһанаа бэшэхэ
 share-title-new = Шэнэ дуу хоолой олоходомнай <bold>туһална гүт</bold>
