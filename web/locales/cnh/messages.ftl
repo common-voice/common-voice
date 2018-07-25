@@ -208,17 +208,17 @@ faq-important-a = Aw cu kokek asi, Aw cu minung asi. I chawnh khanh nak caah a f
 faq-get-q = Common Voice data hi zei tin dah ka lak khawh lai?
 faq-get-a = Dataset cu thuntlen a ngah <downloadLink> thuntlen nak</downloadLink> i a tang<licenseLink>CC-0</licenseLink> laisen.
 faq-mission-q = Zei ruang ah dah Common Voice hi Mozilla nih aa tinhmi rian asi ve?
-faq-mission-a = Mozilla cu mikip nih computer an hman khawhnak ding hi bialtak tein aa hmaithlak. Cu caah cun website a sertu pawl hi thazang pek a duhnak langhternak caah Common Voice hi a ser. Computer nih holh thiamnak a theih ning hi a sang tuk hringhren cang, cu caah cun mikip nih an holh in ngah ve hna seh ti kan duh. Aw-lei thiamnak hi miphun kip talh in holh in siseh, aw-cawi in siseh, miphun in siseh, talh chih dih kan duh. Mizilla nih cun a ngandammi le aa tlerh ngai mi internet hi hmuh a duh. Cucu website a sertu nih an website sunglawi taktak in a ser khawh hna hnga Aw-data ti bantuk hi serpiak asi. Common Voice cu Mozilla, kan mah, le website a sertu vawlei cung um vialte caah mipi nih ngeih mi thilri sunglawi pakhat asi lai. 
-faq-native-q = { $lang } holh ah kokek ka si lo i Aw-cawi ka ngei, ka holh nan duh ko maw?
+faq-mission-a = Mozilla cu mikip nih computer an hman khawhnak ding hi biatak tein aa hmaithlak. Cu caah cun website a sertu pawl hi thazang pek a duhnak langhternak caah Common Voice hi a ser. Computer nih holh thiamnak a theih ning hi a sang tuk hringhren cang, cu caah cun mikip nih an holh in ngah ve hna seh ti kan duh. Aw-lei thiamnak hi miphun kip talh in holh in siseh, aw-cawi in siseh, miphun in siseh, talh chih dih kan duh. Mozilla nih cun a ngandammi le aa tlerh ngai mi internet hi hmuh a duh. Cucu website a sertu nih an website sunglawi taktak in an ser khawh hna hnga Aw-data ti bantuk hi serpiak asi. Common Voice cu Mozilla, kan mah, le website a sertu vawlei cung um vialte caah mipi nih ngeih mi thilri sunglawi pakhat asi lai. 
+faq-native-q = Lai holh ah kokek ka si lo i Aw-cawi ka ngei, ka holh nan duh ko maw?
 faq-native-a = Asi, kan duh tthiam ko! Common Voice i kan i tinh mi cu computer nih Aw a theih khawh cem nak hnga zei Aw-cawi paoh lak chih dih kan duh.
 faq-firefox-q = Common Voice i bia-in-ca lehnak hi Firefox ah chiah chih a si lai maw?
 faq-firefox-a = Mozilla nih chuahmi thil, Firefox, ti bantuk ah hin Common Voice hi hman khawhnak ding thil tampi a um.
 faq-quality-q = Zei tluk in dah ka Aw hi a fiang a herh?
-faq-quality-a = Na Aw cu computer nih a theih khawh ding hi a biapi. Na mawtor chung na um lio, pangka a awn lio, le na hnulei in midang an rak i chawnh lio tibantuk zong a ttha tthiam tthiam ko. 
+faq-quality-a = Na Aw cu computer nih a theih khawh ding hi a biapi. Na mawtaw chung na um lio, pangka a awn lio, le na hnulei in midang an rak i chawn lio tibantuk zong a ttha tthiam tthiam ko. 
 faq-hours-q = Zei ruang ah dah nazi 10,000 renglo hi kan aw tun a herh?
 faq-hours-a = Hihi STT timi computer nih Laiholh cawnnak ding ah a herh mi suimilam zat asi. 
 faq-source-q = Khoi ka in dah biafang hi an rat?
-faq-source-a1 = Hi biatlang hna nih bawmchan tu in siseh, mipi holhnak in, cun video holh mi,<italic> It's a Wonderful Life.</italic> ti bantuk in kan lak mi asi. 
+faq-source-a1 = Hi biatlang hna nih bawmchantu in siseh, mipi holhnak in, cun video holh mi,<italic> Ram King </italic> ti bantuk in kan lak mi asi. 
 faq-source-a2 = Hi ka<dataLink> hin biatlang kan lak nak na zoh khawh.  </dataLink> GitHub ah kan chiah.
 
 ## Profile
@@ -244,13 +244,13 @@ data-get-started = <speechBlogLink> Speech Recognition thoknak</speechBlogLink>
 data-other-title = Adang Aw datasets
 data-other-goto = { $name } hin kal
 data-other-download = Thuntlen Data
-data-other-librispeech-description = LIbriSpeech cu suimilam thongkhat (1000) chung 16Khz tluk in cauk relmi LibriVox ah lak mi chiahnak a si. 
+data-other-librispeech-description = LIbriSpeech cu suimilam thongkhat (1000) chung 16Khz tluk in cauk relmi LibriVox in lak mi chiahnak a si. 
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = TED-LIUM cu TED website i chiah mi holh le biatlang le catlang pawl hman in sermi a si.
 data-other-voxforge-description = VoxForge cu mikip  nih zalong te le tling tein computer Aw phun an hman khawh nak caah holh phun pumhnak ah hman mi a si.
 data-other-tatoeba-description =
     Tatoeba cu holh chimh nak ding ah biatlang, bialeh, le holh tuun mi chiahnak lian pi a si.
-    Hi dawnlok michung ah hin mikip nih mirang holh an tuun mi aa tal. 
+    Hi thuntlen michung ah hin mikip nih mirang holh an tuun mi aa tal. 
 data-bundle-button = Thuntlen Dataset Vialte
 data-bundle-description = Common Voice data le Aw dang data vialte a cunglei ah. 
 license = Laisen:<licenseLink>{ $license }</licenseLink>
@@ -294,7 +294,7 @@ download-no = Tuah hlah
 
 ## Contact Modal
 
-contact-title = Pehtlaihnak Ca
+contact-title = Pehtlaihnak Cakuat
 contact-form-name =
     .label = Min
 contact-form-message =
@@ -323,7 +323,7 @@ language-total-progress = Dihlak
 language-search-input =
     .placeholder = Kawlnak
 language-speakers = Chimtu 
-localized = nunphung cawn
+localized = Holh leh mi
 sentences = Catlang
 total-hours = Suimilam Dihlak
 
