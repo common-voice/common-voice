@@ -6,11 +6,11 @@ import StateTree from './tree';
 
 export const ACCENTS: any = {
   ca: {
-    balearic: 'català balear',
-    central: 'català central',
-    northwestern: 'català nord-occidental',
-    northern: 'català septentrional',
-    valencian: 'català valencià',
+    balearic: 'balear',
+    central: 'central',
+    northwestern: 'nord-occidental',
+    northern: 'septentrional',
+    valencian: 'valencià',
   },
   cy: {
     united_kingdom: 'Y Deyrnas Unedig Cymraeg',
