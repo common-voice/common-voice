@@ -129,7 +129,7 @@ IBM ha demostrat que està al costat del programari lliure en defensar Linux dav
 Integritat del codi font original.
 Internet ha creat els seus propis mecanismes per evitar aquesta mena de situacions.
 L'administració ha de donar un servei universal i, per tant, respectar i impulsar els estàndards oberts en adreçar-se als seus ciutadans.
-L'any mil nou-cents noranta-vui va ser un any especialment important per al programari lliure.
+L'any mil nou-cents noranta-vuit va ser un any especialment important per al programari lliure.
 L'aposta principal d'IBM, però, ha estat amb Linux.
 L'empresa fou fundada l'any dos mil per dos suïssos i un finlandès, i ha estat rendible des de bon començament.
 L'empresa va gastar aproximadament tretze milions de dòlars i va arribar a tenir setanta empleats en plantilla.
