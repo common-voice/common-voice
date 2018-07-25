@@ -103,6 +103,8 @@ faq = ХАА
 
 ## Home Page
 
+show-wall-of-text = Дэлгэрүүлэн уншаха
+help-us-title = Үгүүлбэри баталалсажа үгыт!
 vote-yes = Тии
 vote-no = Үгы
 toggle-play-tooltip = Тоглуулхын түлөө { shortcut-play-toggle } тобшо дарана гүт
@@ -278,5 +280,6 @@ listen-instruction = { $actionType }<playIcon></playIcon> үгүүлбэриие
 listen-again-instruction = Бэрхэт даа!<playIcon></playIcon> Бэлэн болоходоо дахин шагнажа үзэгты
 listen-3rd-time-instruction = 2 үлэбэ, бү зогсогты!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Һүүлшынхи!
+nothing-to-validate = Тус хэлэндэ баталха зүйл үгы байна. Баталха юумэ бии болголсоно гүт.
 record-button-label = Дуугарһанаа бэшэхэ
 share-title-new = Шэнэ дуу хоолой олоходомнай <bold>туһална гүт</bold>
