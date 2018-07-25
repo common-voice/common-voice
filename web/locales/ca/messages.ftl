@@ -251,7 +251,7 @@ data-other-ted-description = El corpus de TED-LIUM es va crear a partir d'enregi
 data-other-voxforge-description = VoxForge es va crear per recollir transcripcions de diàlegs que es puguin utilitzar en motors de reconeixement de la veu de codi obert.
 data-other-tatoeba-description = Tatoeba és una gran base de dades de frases, traduccions i enregistraments d'àudio per a l'ús en l'aprenentatge de llengües. Aquesta baixada conté tots els enregistraments d'anglès parlat fets per la comunitat.
 data-bundle-button = Baixa el paquet del conjunt de dades
-data-bundle-description = Dades del Common Voice més tot els conjunts de dades de veu anteriors.
+data-bundle-description = Dades del Common Voice més tots els conjunts de dades de veu anteriors.
 license = Llicència: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixta
 
