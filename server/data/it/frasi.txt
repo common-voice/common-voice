@@ -235,7 +235,7 @@ La prima operazione da fare per poter utilizzare ANPR è la “compilazione dell
 La compilazione di tale scheda consente al Ministero dell’Interno di predisporre la richiesta.
 “Piano di subentro” e assegnare a ogni Comune la data a partire dalla quale potrà iniziare a svolgere i passi propedeutici all’utilizzo effettivo di ANPR illustrati di seguito.
 Durante la fase di test , si dovrà inviare una parte dei dati registrati nella base dati comunale: tali dati popoleranno l’ANPR, facilitando in questo modo le successive fasi di apprendimento e test delle restanti funzionalità.
-L’ambiente di test è destinato prevalentemente ai fornitori dei SW anagrafici comunali prima del rilascio della nuova versione al comune per l’avvio dei test di pre-subentro. 
+L’ambiente di test è destinato prevalentemente ai fornitori dei SW anagrafici comunali prima del rilascio della nuova versione al comune per l’avvio dei test di pre-subentro.
 Per l’accesso all’ambiente di test si utilizza un certificato di postazione e una user-id e password che saranno trasmesse via PEC ai Comuni successivamente alla compilazione della scheda di monitoraggio, con almeno due mesi di anticipo rispetto alla data indicata dal comune per l’avvio dei test.
 È la fase immediatamente successiva a quella di test, che viene utilizzata per rilevare, preliminarmente al subentro, la presenza di eventuali criticità nella base dati.
 Per poter eseguire questa fase è necessario aver predisposto il file di subentro.
@@ -540,13 +540,13 @@ Il viaggiatore vuotò il suo bicchiere, quindi ordinò a Menicuccio di dare il r
 Da parte di questo signore che ha trovato buono il vostro vino.
 Mille grazie!
 Esclamò l’oste inchinandosi fino a terra, mentre la carrozza partiva di buon trotto.
-Maledizione! 
+Maledizione!
 Hanno anticipato di tre ore.
 Un bel colpo fallito.
 Nulla di perduto, rispose l’altro.
 Fra mezz’ora io li avrò sorpassati.
 La salita per la strada maestra è lunga, per i giri che fa la strada ed erta in modo che i cavalli non possono che andare al passo.
-E i compagni? 
+E i compagni?
 Non ci pensare, li troverò io.
 Non ci pensare.
 Il buio si era fatto intanto profondo e Menicuccio lieto della sua giornata, aveva chiuso l’albergo, ben certo che a quell’ora nessun altro avventore sarebbe capitato.
@@ -737,7 +737,7 @@ La tecnologia d'oggi è segnata più dal software che dalla macchina ma ormai no
 L'hardware, ovvero i componenti fisici dell'apparecchio, ha si nuove funzioni importanti ma senza l'informatica ovvero il software non sarebbe niente.
 L'informatica è quello strumento che adatta la tecnologia a noi.
 Infatti come diceva Solly Zuckerman “la tecnologia è sempre stata con noi.
-Non è qualcosa al di fuori della società, qualche forza esterna dal quale veniamo sospinti. 
+Non è qualcosa al di fuori della società, qualche forza esterna dal quale veniamo sospinti.
 La società è la tecnologia sono riflessi l'una dell'altra”.
 In poche parole la tecnologia si adatta ai nostri bisogni.
 Siccome l'uomo inventa per dare benessere agli uomini perché dobbiamo rimanere indietro?
@@ -1526,7 +1526,7 @@ In attesa di buone notizie.
 21 giorni all'evento
 Spero solo di non avere dolore.
 Spero che non mi dia dolore.
-Fa male. 
+Fa male.
 Fa male quando rilascio
 Dopo averlo tenuto in questa posizione.
 Quando ha battuto il record mondiale.
@@ -2126,7 +2126,7 @@ Sono gli strumenti cartolari.
 Possono essere ordinari(bancari, circolari) o speciali.
 Hanno in comune: pagabili a vista, sono titoli di credito all’ordine(trasferibili per girata) , emessi perché esiste un fondo.
 Vaglia cambiario della Banca d’Italia, del Banco di Napoli e del Banco di Sicilia è un assegno circolare rilasciato solo contro versamento di denaro contante, ha però nome diverso per ragioni di prestigio degli enti emittenti.
-Viene emesso da banche autorizzate dalla Banca d’Italia nelle località in cui non esiste una filiale della Banca d’Italia. 
+Viene emesso da banche autorizzate dalla Banca d’Italia nelle località in cui non esiste una filiale della Banca d’Italia.
 È un titolo all’ordine emesso dal Banco di Napoli e dal Banco di Sicilia pagabile a vista presso qualunque loro filiale sul quale può essere indicata la causale del pagamento che può essere sottoposta all’accertamento della condizione che ha causato il pagamento.
 La legge 109/96 costituisce lo strumento più avanzato di contrasto  alla criminalità organizzata nel campo culturale, sociale ed economico, prevedendo la  restituzione alla collettività di grandi patrimoni accumulati illecitamente e colpendo le mafie in uno degli ambiti più importanti: la creazione del consenso sociale.
 Se l’azione repressiva della magistratura punta ad indebolire le mafie attraverso la sottrazione delle ricchezze, mettendone in crisi il potere economico, l’azione costruttiva delle istituzioni e delle forze sociali punta ad indebolirne il consenso e dunque il potere politico.
@@ -2345,7 +2345,7 @@ La spedizione lungo la strada rientrò quattro giorni dopo.
 Era il giorno 11 di Ilraset, e l’atmosfera festiva in cui la città li aveva accolti si stava affievolendo, e pian piano la vita stava tornando alla normalità.
 Dalmor, il Re e il Governatore di Zorqun andarono alle porte della città ad attendere il ritorno della compagnia.
 Approfittarono dell’occasione per discutere di una questione spinosa.
-Si trovavano appena fuori dalla Porta del Regno, sull’immenso spiazzale lastricato da cui si dipartivano le strade che uscivano dai Monti. 
+Si trovavano appena fuori dalla Porta del Regno, sull’immenso spiazzale lastricato da cui si dipartivano le strade che uscivano dai Monti.
 A sera inoltrata si diresse verso l’ala del Palazzo in cui viveva la famiglia dello zio.
 La Luna era salita già oltre le cime dei monti circondanti, l’aria era fresca, e per il palazzo non vi era troppa gente.
 Raggiunse una piccola porta di legno chiaro, spinse la maniglia.
@@ -3577,17 +3577,28 @@ Risalivamo sempre, seguendo diagonalmente la splendida superficie che scintillav
 I borgognoni si abbassavano al disotto e al di sopra come lunghe gradinate e si assottigliavano.
 Finalmente, alle sei del mattino, di quel memorabile 19 marzo, si aprì la porta della sala e apparve il capitano Nemo.
 Il mare libero!
-Si può dunque aprire una botola e attraverso questa si possono immergere alla profondità che si vuole i nostri preziosi strumenti.
-La nostra gru idrografica sarà messa in questa camera e qui potremo lavorare col sommergibile fermo, sia in superficie sia sotto i ghiacci.
+Si può dunque aprire una botola e attraverso questa si possono immergere
+alla profondità che si vuole i nostri preziosi strumenti.
+La nostra gru idrografica sarà messa in questa camera
+e qui potremo lavorare col sommergibile fermo
+sia in superficie sia sotto i ghiacci.
 Ma oltre che alle condizioni fisiche del mare volgeremo la nostra attenzione alle condizioni della vita marina.
 Problema interessante per opinioni divergenti.
-Alcuni esploratori affermano che la vita è ugualmente abbondante in tutto il mare polare, altri sostengono che condizioni favorevoli alla vita esistono solo in vicinanza delle coste.
-Potremo raccogliere esemplari di piccole piante e di organismi animali che costituiscono il nutrimento degli organismi maggiori.
-Esamineremo anche le qualità dei così detti fertilizzatori del mare, sostanze essenziali allo sviluppo anche dei più piccoli organismi.
+Alcuni esploratori affermano che la vita è ugualmente abbondante in tutto il mare polare
+altri sostengono che condizioni favorevoli alla vita esistono solo in vicinanza delle coste.
+Potremo raccogliere esemplari di piccole piante e di organismi animali
+costituiscono il nutrimento degli organismi maggiori.
+Esamineremo anche le qualità dei così detti fertilizzatori del mare
+sostanze essenziali allo sviluppo anche dei più piccoli organismi.
 Ci sono motivi per credere che le acque dell’Artico siano assai ricche di queste sostanze.
-Anche lo studio dei depositi sul fondo dell’Oceano Artico dovrebbe darci informazioni importanti su la recente storia tellurica.
+Anche lo studio dei depositi sul fondo dell’Oceano Artico dovrebbe darci informazioni importanti
+su la recente storia tellurica.
 Finalmente, potremo dare un resoconto sintetico del carattere dei ghiacci artici durante l’estate.
-Otterremo delle vedute del ghiaccio lungo un tratto di 2200 miglia e, per mezzo della speciale asta di guida a puleggia, costruita per tener contatto con il ghiaccio, avremo modo di registrare lo spessore e le irregolarità di questo, lungo tutto quel percorso.
+Otterremo delle vedute del ghiaccio lungo un tratto di 2200 miglia
+e avremo modo di registrare lo spessore e le irregolarità di questo
+lungo tutto quel percorso.
+costruita per tener contatto con il ghiaccio
+per mezzo della speciale asta di guida a puleggia
 Che caro uomo, quel prof.
 E quanta fede in lui!
 Il Nautilus riapparve a fior d’acqua, fece qualche rapido giro su se stesso, poi tornò ad immergersi.
@@ -3597,9 +3608,15 @@ Tra gli spettatori cominciarono i mormorii.
 Povero americano!
 Il tentativo era così bello .
 Mezz’ora dopo, la torretta del Nautilus scaturì
-Dalle onde, a grande distanza dai moli: subito l’albero coricato su la coperta si rialzò, venne spiegata 1a piccola vela e poichè spirava vento favorevole, in breve tempo il curioso battello, navigando alla superficie, ritornò presso lo scalo.
+Dalle onde, a grande distanza dai moli
+subito l’albero coricato su la coperta si rialzò
+venne spiegata 1a piccola vela e poichè spirava vento favorevole
+in breve tempo il curioso battello
+navigando alla superficie
+ritornò presso lo scalo.
 Roberto Fulton venne ammesso alla presenza del Primo Console.
-Era, in quel tempo, un bell’uomo su i trentacinque anni, robusto, con la faccia aperta e intelligente e nella espressione della fisonomia il grande inventore spirava una gioiosa sicurezza.
+Era, in quel tempo, un bell’uomo su i trentacinque anni, robusto, con la faccia aperta e intelligente
+nella espressione della fisonomia il grande inventore spirava una gioiosa sicurezza.
 Ma l’accoglienza di Napoleone non fu tale, in realtà, da infondere nuovo coraggio a Roberto Fulton.
 Vedo che avete messo a profitto il premio di incoraggiamento che io vi accordai per le insistenze dei miei ministri… .
 Ma infine, che cosa vi proponete di fare?
@@ -3608,12 +3625,24 @@ L’inventore americano guardò maravigliato il più grand’uomo della Francia.
 A che cosa deve servire, cittadino Primo Console?
 A collocare macchine esplosive sotto la carena delle navi nemiche.
 Diversi anni dopo, nel 1800, ritentai la prova.
-E Napoleone… .
-Sapete il grande Napoleone, l’Imperatore che ora gl’inglesi tengono a Sant’Elena, ebbe la curiosità di vedere attuato il mio disegno.
+Sapete il grande Napoleone
+l’Imperatore che ora gl’inglesi tengono a Sant’Elena
+ebbe la curiosità di vedere attuato il mio disegno.
 Mi vennero concessi allora diecimila franchi;
-Ed una commissione di esperti, ricordo bene i loro nomi: La Place, Mouge e Volney, fu nominata per studiare il mio progetto, esaminare il battello che avrei costruito, assistere agli esperimenti.
-Ed io lo costruii, il mio bel sottomarino – il Nautilus – e l’anno dopo, nel 1801, dal maggio al luglio mi immersi prima nella Senna, poi in mare, a Brest, scendendo a ben 23 piedi di profondità e restando diverso tempo sott’acqua… .
-Dick, amico mio, con quale e quanta gioia, dopo aver sofferto mille tormenti risalii alla superficie, vincitore della più ardua prova che potesse proporsi un uomo!
+Ed una commissione di esperti
+ricordo bene i loro nomi
+La Place, Mouge e Volney
+fu nominata per studiare il mio progetto
+esaminare il battello che avrei costruito, assistere agli esperimenti.
+Ed io lo costruii, il mio bel sottomarino
+il Nautilus
+e l’anno dopo, nel 1801, dal maggio al luglio
+mi immersi prima nella Senna
+poi in mare, a Brest
+scendendo a ben 23 piedi di profondità e restando diverso tempo sott’acqua… .
+Dick, amico mio, con quale e quanta gioia!
+dopo aver sofferto mille tormenti risalii alla superficie
+vincitore della più ardua prova che potesse proporsi un uomo!
 Ero raggiante e ne avevo ben ragione!
 Voi mi capite
 Ma non lo credereste: dopo che il successo migliore ebbe coronato i miei ripetuti esperimenti, la burocrazia marittima
@@ -3635,54 +3664,114 @@ Alla presenza di Napoleone Primo Console
 Circa diciotto anni prima.
 Un guardiano dei docks è la guida dei contrabbandieri;
 Non parlerà perché ha avuto un discreto gruzzolo di monete.
-D’altra parte egli concorre ad un’opera buona: quei due americani sono mossi dal pio desiderio di riconquistare la prima nave sottomarina del loro compatriota Fulton, per portarla in America e collocarla in un museo dedicato al grandissimo inventore… .
-Ha concesso anche l’uso di un robusto canotto, col quale il sottomarino verrà rimorchiato fino a un battello francese che aspetta, nel mezzo del Tamigi… .
+D’altra parte egli concorre ad un’opera buona
+quei due americani sono mossi dal pio desiderio di riconquistare la prima nave sottomarina
+del loro compatriota Fulton
+per portarla in America e collocarla in un museo dedicato al grandissimo inventore… .
+Ha concesso anche l’uso di un robusto canotto
+col quale il sottomarino verrà rimorchiato fino a un battello francese che aspetta, nel mezzo del Tamigi… .
 Ecco i tre uomini al piccolo bacino.
-Facile è sciogliere il sottomarino dagli ormeggi, attaccarlo solidamente al canotto: meno facile la navigazione tra il groviglio dei cordami, tra gli ostacoli di ogni genere opposti nel mezzo dei canali e degli incroci: ma gli uomini che conducono il canotto sono abili e risoluti.
+Facile è sciogliere il sottomarino dagli ormeggi
+attaccarlo solidamente al canotto
+meno facile la navigazione tra il groviglio dei cordami
+tra gli ostacoli di ogni genere opposti nel mezzo dei canali e degli incroci
+ma gli uomini che conducono il canotto sono abili e risoluti.
 Prima dell’alba, arrivano all’estremo limite del porto: il guardiano inglese balza a terra, saluta, augura buona fortuna.
 E adesso i due americani continuano a vogare con lena raddoppiata, trascinandosi dietro il carico prezioso.
 La sfera subacquea sarà in continua comunicazione telefonica con il personale della nave.
 Su quest’ultima, poi, verrà disposto uno speciale servizio di stenodattilografia, che non
 Appena ricevute le notizie le trasmetterà a mezzo radio a tutto il mondo.
-Fino a tutt’oggi non si conoscono ancora i nomi degli esploratori che prenderanno parte alla spedizione, ma a quanto si dice il numero dei nuovi Argonauti sarà limitato a tre.
+Fino a tutt’oggi non si conoscono ancora i nomi degli esploratori che prenderanno parte alla spedizione
+ma a quanto si dice il numero dei nuovi Argonauti sarà limitato a tre.
 Questa sfera, che chiameremo danese, potrà discendere a 860 metri sotto il livello del mare.
-Ma sembra che anche nel Belgio si vada preparando una spedizione simile con un’altra sfera metallica che potrà scendere fino a mille metri.
+Ma sembra che anche nel Belgio si vada preparando una spedizione simile con un’altra sfera metallica
+che potrà scendere fino a mille metri.
 E l’America avrebbe quasi pronta una terza spedizione sottomarina
 Con una terza sfera
-Se sarebbero già stati scelti per la grande prova gli esploratori e scienziati Killiam Beebe ed Otis Bartom, detentori, per passati tentativi, del primato di cinquecento metri di profondità.
+Se sarebbero già stati scelti per la grande prova gli esploratori e scienziati Killiam Beebe ed Otis Bartom
+detentori, per passati tentativi, del primato di cinquecento metri di profondità.
 Naturalmente gli americani vorranno battere tutti i records e scendere almeno almeno a milleduecento metri.
 Sarà possibile?
 Certamente.
 Tutto è ormai possibile, oggi.
 Qual è l’ostacolo maggiore da superare in una discesa negli abissi oceanici?
 Che cosa ha il vecchio e saggio scrittore, esule in Francia, trovato intorno alla leggenda atlantica?
-Egli si sforza, su la scorta di Platone, di squarciare le tenebre del mito e dalle tombe dell’Oceano evoca l’Atlantide, la culla di una civiltà originaria, di cui si irraggiano i riflessi sul Messico e su l’Egitto, sparsi di piramidi quasi identiche.
-In uno studio su la nuova opera del Merezkowski, un attento e appassionato bibliofilo, Rinaldo Kufferle, scrive questi chiarimenti.
-Si può dire che il Merezkowski non abbia tralasciato nè un indizio, nè un’ipotesi, nè una allusione, nè un dato benchè minimo, sia scientifico, sia poetico, sia teologico, sia mitico, al fine di ristabilire l’immagine di quel terrestre paradiso che s’inabissa con la prima umanità, e che ora più che mai par degno di meditazione.
+Egli si sforza di squarciare le tenebre del mito
+e dalle tombe dell’Oceano evoca l’Atlantide
+la culla di una civiltà originaria
+di cui si irraggiano i riflessi sul Messico e su l’Egitto
+sparsi di piramidi quasi identiche.
+su la scorta di Platone
+In uno studio su la nuova opera del Merezkowski
+un attento e appassionato bibliofilo, Rinaldo Kufferle, scrive questi chiarimenti.
+Si può dire che il Merezkowski non abbia tralasciato nulla
+nè un indizio
+nè un’ipotesi
+nè una allusione
+nè un dato benchè minimo
+sia scientifico
+sia poetico
+sia teologico
+sia mitico
+al fine di ristabilire l’immagine di quel terrestre paradiso
+che s’inabissa con la prima umanità
+e che ora più che mai par degno di meditazione.
 Chi l’ha creata, l’ha anche distrutta sentenzia lo scettico Aristotile a proposito dell’Atlantide.
-Ma stormi di uccelli migratori si radunano ogni anno là, dov’era l’Atlantide, roteano su l’acqua, cercano la terra, non la trovano, e parte di essi cade giù, esausta, mentre gli altri tornano indietro.
-Ciò che noi chiamiamo istinto la profetica conoscenza-risonanza, l’anamnesia di Platone, è più forte negli animali che negli uomini: diecimila anni non sono per l’istinto che un minuto.
-L’antica patria, l’isola dei Beati, gli uccelli migratori la ricordano, come se fosse ieri, anche se gli uomini l’hanno già dimenticata.
-Infine – aggiunge il prof.
-Rizzatti – le praterie del mare non sono un fenomeno esclusivo dell’Atlantico centrale.
-Naturalisti e pescatori costieri conoscono bene il plamkton, questa polvere vivente del mare, fatta di microrganismi vegetali e animali, dei quali sono grande parte ammassi enormi di diatomee, le alghe verdi microscopiche a guscio siliceo che servono di nutrimento principale ai pesci pelagici.
+Ma stormi di uccelli migratori si radunano ogni anno là
+dov’era l’Atlantide
+roteano su l’acqua
+cercano la terra
+non la trovano
+e parte di essi cade giù, esausta
+mentre gli altri tornano indietro.
+Ciò che noi chiamiamo istinto
+la profetica conoscenza-risonanza
+l’anamnesia di Platone
+è più forte negli animali che negli uomini
+diecimila anni non sono per l’istinto che un minuto.
+L’antica patria
+l’isola dei Beati
+gli uccelli migratori la ricordano
+come se fosse ieri
+anche se gli uomini l’hanno già dimenticata.
+Infine aggiunge il prof.
+Rizzatti, le praterie del mare non sono un fenomeno esclusivo dell’Atlantico centrale.
+Naturalisti e pescatori costieri conoscono bene il plamkton
+questa polvere vivente del mare
+fatta di microrganismi vegetali e animali
+dei quali sono grande parte ammassi enormi di diatomee
+le alghe verdi microscopiche a guscio siliceo che servono di nutrimento principale ai pesci pelagici.
 Ed è pur noto che le migrazioni dei pesci commestibili sono spesso funzione della deriva dei banchi di plamkton.
-Certo è pure che i sargassi rinserrano quantità enormi di sostanze chimiche preziose non utilizzate: clorati, solfati, iodio, bromo, ecc.
+Certo è pure che i sargassi rinserrano quantità enormi di sostanze chimiche preziose non utilizzate
+clorati, solfati, iodio, bromo, ecc.
 L’Arcturus era una nave maravigliosamente adatta allo scopo.
-Una specie di piattaforma quasi a fior di acqua sporgeva dalla sua prora e permetteva, quando il tempo era calmo, il dragaggio.
+Una specie di piattaforma quasi a fior di acqua sporgeva dalla sua prora e permetteva
+quando il tempo era calmo, il dragaggio.
 Una passerella lungo i fianchi della nave consentiva osservazioni dirette e fotografie.
 Un magnifico laboratorio a grandi vetrate sul ponte, acquari spaziosi a scompartimenti
 Camere oscure per lo studio degli animali luminosi, canotti a fondo
 Piatto formato da una grande e resistente lastra di vetro di trasparenza perfetta
-Quanto di migliore e di più perfetto si sa costruire in fatto di reti, di nasse elettriche, e d’altri arnesi da pesca, scafandri perfezionatissimi
+Quanto di migliore e di più perfetto si sa
+costruire in fatto di reti
+di nasse elettriche
+e d’altri arnesi da pesca
+scafandri perfezionatissimi
 Facevano della grande e bella nave, lunga ottanta metri, una vera meraviglia del genere.
-Della spedizione facevano parte alcune signore, quasi tutte mogli degli oceanografi imbarcati sull’Arcturus, oceanografe distinte esse stesse.
+Della spedizione facevano parte alcune signore
+quasi tutte mogli degli oceanografi imbarcati sull’Arcturus
+oceanografe distinte esse stesse.
 Oliveira, il cui volto si era rischiarato, come si rischiara il cielo
 Dopo un burrascoso passaggio di nubi.
 Sieno rinnovate le operazioni di scandaglio  ordinò il capitano del Condor.
 Intanto il professore era disceso nella sua cabina, dove i marinai avevano collocato il sasso, dritto contro una parete.
-Ora il poveromo, tutto curvo, col capo proteso, tenendo in una mano uno scalpello e nell’altra una lente d’ingrandimento, cercava di riconoscer la natura di quell’oggetto misterioso.
-Egli aveva tolto al masso i vegetali che lo rivestivano, e aveva fatto saltar via in molti punti l’intonaco di conchiglie, di detriti foraminiferi, di sedimenti calcarei;
+Ora il poveromo
+tutto curvo, col capo proteso
+tenendo in una mano uno scalpello e nell’altra una lente d’ingrandimento
+cercava di riconoscer la natura di quell’oggetto misterioso.
+Egli aveva tolto al masso i vegetali che lo rivestivano
+e aveva fatto saltar via in molti punti l’intonaco di conchiglie
+di detriti foraminiferi
+di sedimenti calcarei;
 Ma non aveva scoperto nulla.
 La sua zucca lucida s’imperlava di gocce di sudore, su le quali il sole metteva piccoli riflessi iridati.
 Brontolava lo scienziato, cominciando a stizzirsi.
@@ -3701,13 +3790,22 @@ Questo non è neanche un pezzo di cavo sottomarino.
 Ma allora, che cos’è?
 Questo spigolo, per esempio, sembra scalpellato dalle mani dell’uomo!
 Io sarò il padrone di un cinematografo inesauribile, dal quale trarrò vedute orridamente magnifiche.
-E la tragedia sublime si presenterà in tutto il suo magico orrore: noi sapremo finalmente per qual modo l’immensa terra dei figli di Atlante disparve dalla superficie del mondo!
+E la tragedia sublime si presenterà in tutto il suo magico orrore
+noi sapremo finalmente!
+per qual modo l’immensa terra dei figli di Atlante
+disparve dalla superficie del mondo
 Io disegnerò tutti i quadri della grande epopea.
-I panorami della Città dalle porte d’oro, i porti, i monumenti, i templi, le torri colossali, degne dei Titani, i palazzi risplendenti… .
+I panorami della Città dalle porte d’oro
+i porti, i monumenti, i templi, le torri colossali
+degne dei Titani
+i palazzi risplendenti… .
 Io vedrò approdare ai lidi dell’Atlantide le barche dei vincitori degli Ateniesi.
 Io vedrò gli sponsali di uno di quegli imperatori con la figliuola di un semidio.
 Io assisterò ai loro giuochi, alle loro feste, alle loro glorie.
-Per ultimo, ammirerò, compreso di spavento sublime, la gran scena della distruzione, il cui orrore fu soltanto superato dal primo cataclisma del diluvio universale: vedrò inabissarsi un intero continente nei flutti impetuosi dell’Atlantico… .
+Per ultimo, ammirerò la gran scena della distruzione
+il cui orrore fu soltanto superato dal primo cataclisma del diluvio universale
+vedrò inabissarsi un intero continente nei flutti impetuosi dell’Atlantico… .
+compreso di spavento sublime
 Quei templi…
 Quei palazzi…
 Quelle torri altissime…
@@ -3717,74 +3815,141 @@ Tutto vedrò crollare…
 Ruinare tra le ondate immense, livide di schiuma!
 E l’agonia della terra sarà l’agonia di un gran popolo, condannato dalla inesorabile fatalità a perire in una notte!
 Amici, l’Atlantide muore!
-Del resto egli era arrischiato, si gettava a fronte alta nelle pazze imprese, e, pronto a fiaccarsi le reni ad ogni momento, finiva, invariabilmente, col ricadere diritto come quei piccoli fantocci fatti di midolla di sambuco con cui giuocano i fanciulli.
+Del resto egli era arrischiato
+si gettava a fronte alta nelle pazze imprese
+e, pronto a fiaccarsi le reni ad ogni momento, finiva, invariabilmente, col ricadere diritto
+come quei piccoli fantocci fatti di midolla di sambuco con cui giuocano i fanciulli.
 Sua impresa era ad ogni costo e sua passione dominante l’amore dell’impossibile.
 Codesto avventato intraprendente aveva per altro i difetti corrispondenti ai suoi pregi.
 Chi non risica non rosica dice il proverbio.
 Ardan aveva rischiato spesso, ma non aveva mai guadagnato troppo;
 Era un divoratore di danaro, un vero vaglio delle Danaidi.
 Del tutto disinteressato, egli cedeva del resto con la stessa frequenza al cuore e alla testa;
-Caritatevole e cavalleresco, non avrebbe segnato la condanna del suo più crudele nemico, e si sarebbe venduto come uno schiavo per riscattare un negro… .
+Caritatevole e cavalleresco
+non avrebbe segnato la condanna del suo più crudele nemico
+e si sarebbe venduto come uno schiavo per riscattare un negro… .
 Michele Ardan è il vero eroe dell’avventura interplanetare.
-Per la sua volontà la palla si trasforma in una specie di battello navigante nello spazio: per la sua ispirazione il tentativo audace ma freddo degli yankees diventa un’impresa piena di commozione, di spirito, di grandezza umana.
-Egli riesce a far riconciliare il capitano Nicholl, grande costruttore di corazze, con l’impassibile Barbicane, grande costruttore
+Per la sua volontà la palla si trasforma in una specie di battello navigante nello spazio
+per la sua ispirazione il tentativo audace ma freddo degli yankees diventa un’impresa piena di commozione
+di spirito, di grandezza umana.
+Egli riesce a far riconciliare il capitano Nicholl con l’impassibile Barbicane, grande costruttore
+grande costruttore di corazze
 Di proietti, fino a quel punto nemici mortali.
-Solo tali occhi erano protetti contro l’urto della partenza da lastre solidamente incastrate ch’era facile gettare al di fuori svitando le madreviti interne: in questa maniera l’aria contenuta nel proiettile non poteva sfuggire e le osservazioni divenivano possibili.
-Tutti questi congegni, meravigliosamente posti in opera, funzionavano con la massima facilità: e gli ingegneri non si erano mostrati meno intelligenti nell’ammobiliare il vagone-proiettile.
-Recipienti solidamente fissati erano destinati a contenere l’acqua e i viveri necessari ai viaggiatori, i quali potevano procurarsi anche il fuoco e la luce per mezzo del gas, raccolto in un recipiente speciale sotto una pressione di molte atmosfere;
+Solo tali occhi erano protetti contro l’urto della partenza
+da lastre solidamente incastrate ch’era facile gettare al di fuori svitando le madreviti interne
+in questa maniera l’aria contenuta nel proiettile non poteva sfuggire e le osservazioni divenivano possibili.
+Tutti questi congegni
+meravigliosamente posti in opera
+funzionavano con la massima facilità
+e gli ingegneri non si erano mostrati meno intelligenti nell’ammobiliare il vagone-proiettile.
+Recipienti solidamente fissati erano destinati a contenere l’acqua
+i viveri necessari ai viaggiatori
+i quali potevano procurarsi anche il fuoco e la luce per mezzo del gas
+raccolto in un recipiente speciale sotto una pressione di molte atmosfere;
 Bastava girare un rubinetto, e durante sei giorni consecutivi il gas avrebbe illuminato e riscaldato l’astronave.
 Come si vede non mancava nessuna delle cose essenziali alla vita e al benessere.
 Risolta la questione dei viveri e dell’illuminazione, rimaneva quella dell’aria;
 Era evidente che l’aria chiusa nel proiettile non sarebbe bastata per quattro giorni alla respirazione dei viaggiatori.
 Un uomo infatti consuma in un’ora all’incirca tutto l’ossigeno contenuto in cento litri d’aria.
-Barbicane, i suoi due compagni e due cani che avrebbero fatto parte della spedizione, dovevano consumare in ventiquattr’ore duemilaquattrocento litri d’ossigeno.
-Il mio apparecchio è costruito in acciaio al berillo, il metallo più leggero: misura una lunghezza di quattro metri e pesa 150 kg.
+Barbicane e due cani che avrebbero fatto parte della spedizione
+dovevano consumare in ventiquattr’ore duemilaquattrocento litri d’ossigeno.
+i suoi due compagni
+Il mio apparecchio è costruito in acciaio al berillo, il metallo più leggero
+misura una lunghezza di quattro metri e pesa 150 kg.
 È diviso in tre sezioni, di cui l’ultima termina quasi a punta ed è munita di paracadute per la lenta discesa.
 Avvenuta la partenza secondo un procedimento di messa in moto da me escogitato
-Si verifica la esplosione della miscela che non si manifesta con uno scoppio violento che rovinerebbe gli strumenti, ma con una serie continua di piccoli scoppi succedentisi con straordinaria rapidità
+Si verifica la esplosione della miscela che non si manifesta con uno scoppio violento
+che rovinerebbe gli strumenti
+ma con una serie continua di piccoli scoppi succedentisi con straordinaria rapidità
 Un vero e proprio motore che provoca l’acceleramento continuo, in ragione di trenta metri il secondo, della marcia del razzo.
 I gas delle esplosioni evadono posteriormente mediante disposizioni particolari.
-Esaurito l’esplosivo della prima sezione questa si stacca e cade mentre l’accensione si comunica alla seconda e da questa infine alla terza.
-La prima, dopo la partenza che avviene con una velocità iniziale di 30 metri il secondo, dovrebbe far giungere il razzo fino all’altezza di dieci km.
+Esaurito l’esplosivo della prima sezione questa si stacca e cade
+mentre l’accensione si comunica alla seconda
+e da questa infine alla terza.
+La prima dovrebbe far giungere il razzo fino all’altezza di dieci km.
+dopo la partenza che avviene con una velocità iniziale di 30 metri il secondo
 La seconda dai dieci ai cinquanta chilometri e la terza oltre, fino all’esaurimento dell’esplosivo.
-Giunto il razzo al termine della sua possibilità ascensionale, si stacca l’ultima sezione e non rimane che la testa del razzo, dove sono racchiusi gli strumenti, la quale, aprendosi il paracadute scenderebbe con dolcezza fino a terra.
-Eminenti studiosi esaminano con interesse il problema, e, senza compromettersi troppo con un ottimismo eccessivo, non lo giudicano più una chimera.
-L’idea scientifica delle comunicazioni interplanetari è già nel dominio delle possibilità e sta mettendo a prova la ingegnosità degli inventori.
+Giunto il razzo al termine della sua possibilità ascensionale
+si stacca l’ultima sezione e non rimane che la testa del razzo
+dove sono racchiusi gli strumenti
+la quale, aprendosi il paracadute scenderebbe con dolcezza fino a terra.
+Eminenti studiosi esaminano con interesse il problema
+senza compromettersi troppo con un ottimismo eccessivo
+non lo giudicano più una chimera.
+L’idea scientifica delle comunicazioni interplanetari è già nel dominio delle possibilità
+sta mettendo a prova la ingegnosità degli inventori.
 Ora, per arrivare a Venere, bisogna percorrere nove milioni e cinquecentomila leghe;
 Ottanta milioni di chilometri per andare su Marte, novanta per Mercurio: più di seicento per Giove… .
-Ora accade – e i giornali ne han parlato più volte – che un chimico ed un inventore di Miami (Stati Uniti), Roberto Condit, si dichiara pronto… .
+Ora accade che un chimico ed un inventore di Miami (Stati Uniti), Roberto Condit, si dichiara pronto… .
+e i giornali ne han parlato più volte
 A partire per Venere.
 La sua nave aerea, naturalmente, è sorta di proietto-razzo mosso dall’elettricità attinta dal Sole!
-L’esploratore dello spazio si chiuderebbe in maniera ermetica nell’obice-razzo cui la parete posteriore sarebbe armata di una batteria di tubi per la espulsione dei gas.
+L’esploratore dello spazio si chiuderebbe in maniera ermetica nell’obice-razzo
+la parete posteriore sarebbe armata di una batteria di tubi per la espulsione dei gas.
 La direzione di questo congegno verrebbe regolata con un sistema di comandi elettrici.
 Il combustibile impiegato per l’alimentazione sarebbe un esplosivo lento… .
-Hanno imbarcato vettovaglie per quaranta giorni, medicinali, fucili e cannoncini con palle esplosive, coltelli da caccia, armi da pesca, bussole, sestanti, istrumenti vari, vesti, impermeabili, fili non conduttori, barometri
+Hanno imbarcato vettovaglie per quaranta giorni
+medicinali, fucili
+cannoncini con palle esplosive
+coltelli da caccia
+armi da pesca
+bussole, sestanti, istrumenti vari, vesti
+impermeabili, fili non conduttori, barometri
 Precipitano nello spazio con la velocità di un milione di miglia all’ora;
 Poco più, poco meno.
 I viaggiatori approfittano, per effetto dell’apergy, della forza repulsiva di varie stelle, che fanno il girotondo lassù… .
 E via via per dodici giorni ed altrettante notti via, giù, giù verso Giove, il pianeta 1300 volte più grande della Terra… .
 Toccano finalmente Giove a circa un grado mezzo a nord dell’equatore.
-La composizione chimica dell’aria del grande pianeta conviene perfettamente alla respirazione dei nostri viaggiatori la pressione essendo circa la stessa di quella sostenuta da un palombaro terrestre a 14 piedi sott’acqua.
+La composizione chimica dell’aria del grande pianeta
+conviene perfettamente alla respirazione dei nostri viaggiatori
+la pressione, essendo circa la stessa di quella sostenuta da un palombaro terrestre a 14 piedi sott’acqua.
 Giove si trova – nel 2000, non lo dimentichiamo!
-In quel periodo della sua vita, che può corrispondere al periodo giurasico o mesozoico della Terra, ed i suoi abitanti sono per la maggior parte dinosauri, mososauri, sauriani, pterodattili e serpenti.
+In quel periodo della sua vita
+che può corrispondere al periodo giurasico o mesozoico della Terra
+ed i suoi abitanti sono per la maggior parte dinosauri, mososauri, sauriani, pterodattili e serpenti.
 Strani animali volano nell’aria, e prendono il loro nutrimento da grandi gigli od eliotropi, giganteschi come alberi.
-Ma questi sembra abbia fatto qualche cosa di meglio: è riuscito a fotografare questi animaliculi in tutte le fasi intermedie della loro costituzione.
-L’esame di questa serie di microfotografie che fissano i vari aspetti della vita proplasmica rinascente ha sbalordito e commosso il visitatore del signor Martin.
-Egli non può giurare su la realtà di quel che lo scienziato inglese gli ha messo sott’occhio ma non può escludere che si possa trattare davvero di una scoperta straordinaria.
+Ma questi sembra abbia fatto qualche cosa di meglio:
+è riuscito a fotografare questi animaliculi in tutte le fasi intermedie della loro costituzione.
+L’esame di questa serie di microfotografie
+fissano i vari aspetti della vita proplasmica rinascente ha sbalordito e commosso
+il visitatore del signor Martin.
+Egli non può giurare su la realtà di quel che lo scienziato inglese gli ha messo sott’occhio
+ma non può escludere che si possa trattare davvero di una scoperta straordinaria.
 Come tutti i precursori, il Martin ha i suoi detrattori e i suoi avversari.
 Egli è combattuto dai principi della scienza perché le sue teorie contrastano con quelle ammesse e valorizzate fin qui.
-Ma il tenace chimico non si abbatte per la guerra che gli muovono: è sicuro del fatto suo e procede nelle sue esperienze per riuscire a produrre un animale più caratteristico di quelli fabbricati fino adesso perché, egli dice, sola la evidenza potrà chiudere la bocca degli increduli o dei maligni.
-Avrete visto –ha detto a questo proposito il Martin al suo interlocutore parigino – in quel vetrino un animaletto somigliante, all’ingrosso, a un animale preistorico di cui la specie è spenta.
-Avrete anche notato in quel nuovo organismo, seguendo le micro-fotografie, in che modo si è potuto formare gradualmente lo scheletro.
+Ma il tenace chimico non si abbatte per la guerra che gli muovono
+è sicuro del fatto suo e procede nelle sue esperienze per riuscire a produrre un animale più caratteristico
+di quelli fabbricati fino adesso
+perché, egli dice, sola la evidenza potrà chiudere la bocca degli increduli o dei maligni.
+Avrete visto in quel vetrino un animaletto somigliante a un animale preistorico di cui la specie è spenta.
+all’ingrosso
+ha detto a questo proposito il Martin al suo interlocutore parigino
+Avrete anche notato in quel nuovo organismo in che modo si è potuto formare gradualmente lo scheletro.
+seguendo le micro-fotografie
 Io stesso, pensate, seguivo queste trasformazioni con commozione e stupore.
-Avanti di partire per l’azzurro il Piccard aveva dichiarato alla stampa il suo fermo proposito di studiare i raggi della luce, i raggi cosmici e le riflessioni mandate dalla Terra agli strati dell’atmosfera.
+Avanti di partire per l’azzurro
+il Piccard aveva dichiarato alla stampa il suo fermo proposito di studiare i raggi della luce
+i raggi cosmici
+le riflessioni mandate dalla Terra agli strati dell’atmosfera.
 Che cosa sono i raggi cosmici?
-Oggi gli studiosi affermano e spesso dimostrano sperimentalmente che dagli spazi cosmici e particolarmente da alcuni astri vaganti in essi, ci giungono vere e proprie radiazioni, e quindi su onde e con relative lunghezze di onde.
+Oggi gli studiosi affermano e spesso dimostrano sperimentalmente
+dagli spazi cosmici
+e particolarmente da alcuni astri vaganti in essi
+ci giungono vere e proprie radiazioni
+e quindi su onde e con relative lunghezze di onde.
 L’origine e gli effetti di queste onde trovano per il sole importantissime conferme da parte dei biologi e dei fisici.
-Gli esperimenti che furono fatti fino ad oggi, salendo su i più alti ghiacciai, hanno provato che queste radiazioni o vibrazioni dell’etere possono attraversare spessori di materia fino a 10 metri
-Esiste una variazione diurna di queste onde che sono più intense quando alcune regioni del cielo sono allo zenith piuttosto che quando sono in vicinanza o al di sotto dell’orizzonte.
-E la scoperta e lo studio di queste onde cosmiche costituisce una conquista nuova ben degna di ammirazione perché apre nuovi orizzonti ai collegamenti che i fenomeni vitali potrebbero avere con esse.
-E immaginiamoci inoltre, che sopra alla nostra atmosfera composta di ossigeno, di azoto e di vapore acqueo si trovi una atmosfera assai leggera, naturalmente composta dei gas più tenui formatisi nei tempi primitivi dell’ordinamento terrestre.
+Gli esperimenti che furono fatti fino ad oggi
+hanno provato che queste radiazioni o vibrazioni dell’etere possono attraversare spessori di materia fino a 10 metri
+salendo su i più alti ghiacciai
+Esiste una variazione diurna
+queste onde che sono più intense quando alcune regioni del cielo sono allo zenith
+piuttosto che quando sono in vicinanza o al di sotto dell’orizzonte.
+E la scoperta e lo studio di queste onde cosmiche costituisce una conquista nuova
+ben degna di ammirazione
+perché apre nuovi orizzonti ai collegamenti che i fenomeni vitali potrebbero avere con esse.
+E immaginiamoci inoltre di azoto e di vapore acqueo si trovi una atmosfera assai leggera
+naturalmente composta dei gas più tenui formatisi nei tempi primitivi dell’ordinamento terrestre.
+che sopra alla nostra atmosfera composta di ossigeno
 Questa seconda atmosfera, forse costituita in principal modo dall’idrogeno, potrebbe arrivare a distanze grandissime.
 E di là?
 Si domanda ancora il profano intelligente.
@@ -3792,7 +3957,12 @@ Che cosa c’è oltre questa seconda atmosfera?
 L’elio?
 L’etere?
 Il vuoto assoluto?
-La scienza, a questo proposito avrebbe da dire molte cose, ma tutte difficili e oscure: meglio contentarsi dell’ipotesi più semplice: che oltre i limiti dell’atmosfera si stenda il vuoto interplanetario, lo spazio agghiacciato nel quale ruotano i mondi e i soli, le stelle e le nebulose tutto il meraviglioso fuoco d’artificio dell’universo.
+La scienza, a questo proposito avrebbe da dire molte cose
+ma tutte difficili e oscure
+meglio contentarsi dell’ipotesi più semplice
+che oltre i limiti dell’atmosfera si stenda il vuoto interplanetario
+lo spazio agghiacciato nel quale ruotano i mondi e i soli
+le stelle e le nebulose tutto il meraviglioso fuoco d’artificio dell’universo.
 Abbaiare alla luna.
 Abbassare le ali.
 Abboccare all'amo.
@@ -4187,66 +4357,105 @@ Essere un impiastro.
 Essere un ladro in guanti gialli.
 Essere un mandrillo.
 Essere un marcantonio.
-Il testo di questa canzone mette il dito nella piaga: per capirsi non bastano le parole, occorrono i fatti.
-E quando si passa dal dialogo parlato al dialogo scritto, le cose si complicano ulteriormente: che succede, infatti, quando le parole si esprimono nero su bianco?
+Il testo di questa canzone mette il dito nella piaga
+per capirsi non bastano le parole, occorrono i fatti.
+E quando si passa dal dialogo parlato al dialogo scritto
+le cose si complicano ulteriormente
+che succede, infatti, quando le parole si esprimono nero su bianco?
 Cosa cambia rispetto all’ambito dell’oralità?
 Come far parlare i personaggi perché il loro modo di dialogare risulti spontaneo e credibile?
-Per scoprirlo, ci siamo immersi nelle parole di Hemingway, Fenoglio, Roth mantenendo un’attenzione particolare nei confronti del sottotesto alla base dei loro dialoghi-icona.
-Grazie Francesca per esserti prestata a questa iniziativa e per averci indicato una serie di buone pratiche utili ad affrontare questo delicatissimo passaggio della scrittura.
+Per scoprirlo, ci siamo immersi nelle parole di Hemingway, Fenoglio, Roth
+mantenendo un’attenzione particolare nei confronti del sottotesto alla base dei loro dialoghi-icona.
+Grazie Francesca per esserti prestata a questa iniziativa
+e per averci indicato una serie di buone pratiche utili ad affrontare questo delicatissimo passaggio della scrittura.
 Oltre a leggere tanto e generi diversi, quali esercizi pratici è possibile fare per imparare a scrivere dialoghi?
-Una conversazione nella quale i personaggi cerchino di far dire all’altro un aspetto di sé che non vuole rivelare, di scoprire un segreto.
+Una conversazione nella quale i personaggi cerchino di far dire all’altro un aspetto di sé che non vuole rivelare
+di scoprire un segreto.
 Bisogna fare esercizio, rileggersi, anche a voce alta, per far sì che il dialogo risulti naturale, il ritmo efficace.
 Quanto può essere indispensabile un dialogo?
 Una battuta ha più dignità delle altre?
 E se sì, quanta importanza deve avere rispetto a quelle meno "a impatto"?
 Quanto è importante invece per te, al fine del successo di un libro, la proporzione racconto e dialogo?
-Certo, la forma indiretta può essere d’aiuto per spezzare il ritmo, oppure per evitare di dire qualche battuta, sottraendosi in un momento delicato, evitando di aggiungere enfasi o retorica.
-La capacità di un narratore sta anche nell’utilizzare e nell’alternarsi tra i mezzi a disposizione che la scrittura offre, selezionando quello più adeguato fra le alternative.
+Certo, la forma indiretta può essere d’aiuto per spezzare il ritmo
+oppure per evitare di dire qualche battuta
+sottraendosi in un momento delicato
+evitando di aggiungere enfasi o retorica.
+La capacità di un narratore sta anche nell’utilizzare e nell’alternarsi tra i mezzi a disposizione che la scrittura offre
+selezionando quello più adeguato fra le alternative.
 Senza spaventarci troppo, addentriamoci in questo luogo!
 Scopriamone le funzioni.
 Esaminiamo una serie di dialoghi particolarmente riusciti per capire perché sono tali.
 Ma non fermiamoci qui.
 Il nostro intento, infatti, è quello di affrontare la questione-dialogo da un punto di vista inconsueto
-Oltre a prendere in considerazione quello che i personaggi si dicono, ci soffermeremo sul non detto, ovvero su ciò che, pur restando fuori dallo scambio esplicito di battute, rappresenta una delle cifre di un buon dialogo scritto nella forma di sottotesto.
-Anzi, a dirla tutta, perché un dialogo scritto funzioni e risulti verosimile, bisogna che sia studiato e costruito nei minimi dettagli.
-In sostanza, il dialogo appare come una strana creatura letteraria: il luogo narrativo del paradosso, dove la spontaneità risulta per effetto del suo contrario.
-Di sicuro, lo scambio di battute fra personaggi ha un ruolo informativo ma attenzione, queste informazioni dovranno essere funzionali non solo al tipo di personaggio che ne sarà portavoce ma anche e soprattutto allo sviluppo della vicenda narrata.
-Un passaggio di informazioni fine a se stesso, infatti, rischia di sortire un effetto banalizzante e del tutto innaturale di certe telenovelas.
-Ogni personaggio ha il suo punto di vista, il suo sguardo, le sue caratteristiche dettate da età, sesso, contesto storico, sociale, culturale.
-Quando andrà ad aprire bocca all’interno di un racconto o di un romanzo, le sue parole dovranno risultare coerenti con tutto ciò che è e contribuire a renderlo ancor più riconoscibile.
+Oltre a prendere in considerazione quello che i personaggi si dicono
+ci soffermeremo sul non detto
+ovvero su ciò che rappresenta una delle cifre di un buon dialogo scritto nella forma di sottotesto.
+Anzi, a dirla tutta
+pur restando fuori dallo scambio esplicito di battute
+perché un dialogo scritto funzioni e risulti verosimile, bisogna che sia studiato e costruito nei minimi dettagli.
+In sostanza, il dialogo appare come una strana creatura letteraria
+il luogo narrativo del paradosso, dove la spontaneità risulta per effetto del suo contrario.
+Di sicuro, lo scambio di battute fra personaggi ha un ruolo informativo
+ma attenzione, queste informazioni dovranno essere funzionali
+non solo al tipo di personaggio che ne sarà portavoce
+ma anche e soprattutto allo sviluppo della vicenda narrata.
+Un passaggio di informazioni fine a se stesso
+infatti, rischia di sortire un effetto banalizzante e del tutto innaturale di certe telenovelas.
+Ogni personaggio ha il suo punto di vista
+il suo sguardo
+le sue caratteristiche dettate da età, sesso, contesto storico, sociale, culturale.
+Quando andrà ad aprire bocca all’interno di un racconto o di un romanzo
+le sue parole dovranno risultare coerenti con tutto ciò che è e contribuire a renderlo ancor più riconoscibile.
 Detto altrimenti, la sua voce dovrà essere solo e soltanto sua, non quella di un un altro personaggio né quella dell’autore.
 Frasi scarne.
 Essenziali.
 Eppure quanta tensione trapela in poche battute!
-C’è ben altro in ballo che un povero micio rimasto sotto la pioggia e lo si intuisce proprio dal non-detto dei due personaggi.
+C’è ben altro in ballo che un povero micio rimasto sotto la pioggia
+e lo si intuisce proprio dal non-detto dei due personaggi.
 C’è una difficoltà di comunicazione, una distanza, una diffidenza strisciante, un senso di claustrofobia.
-In realtà potevi farlo anche prima, ma ora, con la categoria Recensioni, c’è uno spazio dove troverai consigli, opinioni, recensioni tutti insieme.
+In realtà potevi farlo anche prima
+ma ora c’è uno spazio dove troverai consigli, opinioni, recensioni tutti insieme.
+con la categoria Recensioni
 Ora tocca a te!
 Rispetto alle scelta di un punto di vista o di un altro, non esiste il giusto o lo sbagliato.
 Le domande a monte sono altre, ossia, perché faccio questa scelta o quest’altra?
 Che cosa comporta per il lettore?
-Che cosa viene a sapere il lettore, che cosa prova e che influenza ha sul plot se un fatto lo racconto con un punto di vista di un personaggio o di un altro?
+Che cosa viene a sapere il lettore?
+che cosa prova?
+che influenza ha sul plot se un fatto lo racconto con un punto di vista di un personaggio o di un altro?
 Chi è davvero il protagonista della mia storia?
 E in ultimo: sono tecnicamente abbastanza bravo per fare quello che voglio fare?
 Tutte le soluzioni sono state ormai sperimentate (o quasi tutte) in film, romanzi e altre narrazioni.
 Questa che mi propone non fa eccezione.
-Anche in questo caso il fatto che sia un artificio narrativo o una scelta riuscita lo può decidere soltanto il peso che ha nella storia tale scelta tecnica.
-Una serie di complessi fenomeni storici, politici e sociali hanno influito sul modo di raccontare le storie tanto quanto sul modo di rappresentarle.
-Così, nella letteratura come nella pittura e nel cinema, la prospettiva si è fatta sempre più frammentaria, inquieta, distorta.
-Senza tracciare l’evoluzione del pdv dall’800 ai giorni nostri, oggi ci soffermeremo su alcune delle sue caratteristiche e variazioni per capire come la posizione assunta da chi narra determini un certo tipo di punto di vista sulle storie.
+Anche in questo caso il fatto che sia un artificio narrativo
+o una scelta riuscita lo può decidere soltanto il peso che ha nella storia tale scelta tecnica.
+Una serie di complessi fenomeni storici, politici e sociali hanno influito sul modo di raccontare le storie
+tanto quanto sul modo di rappresentarle.
+Così la prospettiva si è fatta sempre più frammentaria, inquieta, distorta.
+nella letteratura come nella pittura e nel cinema
+Senza tracciare l’evoluzione del pdv dall’800 ai giorni nostri
+oggi ci soffermeremo su alcune delle sue caratteristiche e variazioni
+per capire come la posizione assunta da chi narra determini un certo tipo di punto di vista sulle storie.
 Chi passeggiando non immagina mille storie che si intrecciano tra di loro?
 Sei pronto ad accogliere la primavera e lasciarti ispirare?
 Raccontaci con una nuova storia la tua uscita dall’inverno.
 Conosciamo i piani nello specifico.
 Potresti, ad esempio, voler realizzare l’Audiolibro della tua storia.
-Non si tratterà di un audio realizzato da un motore di sintesi vocale come si trovano spesso online, bensì sarà un audiolibro registrato in studio da uno o più attori professionisti.
+Non si tratterà di un audio realizzato da un motore di sintesi vocale
+come si trovano spesso online
+bensì sarà un audiolibro registrato in studio da uno o più attori professionisti.
 Un audio che verrà integrato nella tua storia e consegnato in formato MP3.
-Con i nostri servizi personalizzati potrai crescere dal punto di vista autoriale, migliorando il tuo stile, e potrai farti conoscere da un pubblico più vasto, aumentando la tua visibilità.
+Con i nostri servizi personalizzati potrai crescere dal punto di vista autoriale
+migliorando il tuo stile
+e potrai farti conoscere da un pubblico più vasto
+aumentando la tua visibilità.
 Fai crescere la tua passione, dai uno sguardo ai nostri piani.
 Perché siamo risaliti a una visione tanto lontana?
 Perché è una prima rappresentazione dell’amore come tensione e come desiderio di completamento.
-Anche in seguito, Platone precisa il concetto per bocca di Socrate, secondo il quale il desiderio si innesta su un senso di mancanza radicato nella stessa natura di Eros.
-Tensione, desiderio, mancanza: concetti fondamentali per far sì che il sentimento in questione funzioni da propulsore per una storia.
+Anche in seguito, Platone precisa il concetto per bocca di Socrate
+secondo il quale il desiderio si innesta su un senso di mancanza radicato nella stessa natura di Eros.
+Tensione, desiderio, mancanza
+concetti fondamentali per far sì che il sentimento in questione funzioni da propulsore per una storia.
 Ma, alla ricerca dell’amore, si possono anche trovare interlocutori strani e innamorarsi di qualcosa, invece che di qualcuno.
 Inizia tutto dall’ispirazione.
 Ma è proprio così?
@@ -4254,54 +4463,105 @@ E soprattutto, cosa s’intende davvero per ispirazione?
 È solo una questione di fantasia o c’è dell’altro?
 Halloween è la notte in cui regnano mistero e paura.
 È la serata delle streghe a cavallo, dei fantasmi, dei maghi, degli zombie e dei vampiri.
-È la notte in cui una zucca stranamente si illumina e ride, ma è anche l’occasione giusta per raccontare quella storia che non ricordavi più e che la luce fioca di una candela tremolante ti ha riportato alla mente.
+È la notte in cui una zucca stranamente si illumina e ride
+ma è anche l’occasione giusta per raccontare quella storia che non ricordavi più
+e che la luce fioca di una candela tremolante ti ha riportato alla mente.
 Respira a fondo, fatti coraggio e lanciati in una Nuova Storia.
-L'estate è magica non solo perché puoi uscire, andare al mare e viaggiare, ma anche perché hai più tempo da dedicare alle tue passioni: puoi guardare film e serie tv, leggere libri e fumetti, ma anche scrivere quella storia che hai in mente da tanto, oppure quella che hai appena pensato.
+L'estate è magica non solo perché puoi uscire, andare al mare e viaggiare
+ma anche perché hai più tempo da dedicare alle tue passioni
+puoi guardare film e serie tv
+leggere libri e fumetti
+ma anche scrivere quella storia che hai in mente da tanto
+oppure quella che hai appena pensato.
 Ecco un link dove puoi trovare tante immagini per la tua storia.
 Da sempre l’uomo ha costruito il rapporto con i propri simili e dato senso al mondo, attraverso il dialogo e la narrazione.
-Oggi, con lo sviluppo delle nuove tecnologie e delle nuove forme di comunicazione, si aprono nuovi scenari e possibilità: Internet infatti permette un dialogo su scala planetaria che altera il rapporto comunicazione/comunità in quanto per la comunità viene meno quel radicamento al territorio, che spesso dava identità a un gruppo.
-È anche normale, perché le competenze aumentano e certi argomenti appassionano più di altri, ma molto probabilmente la traccia che scegliereste ora non sarebbe quella che avreste scelto a 18 anni.
+Oggi si aprono nuovi scenari e possibilità
+Internet infatti permette un dialogo su scala planetaria che altera il rapporto comunicazione/comunità
+in quanto per la comunità viene meno quel radicamento al territorio, che spesso dava identità a un gruppo.
+con lo sviluppo delle nuove tecnologie e delle nuove forme di comunicazione
+È anche normale, perché le competenze aumentano e certi argomenti appassionano più di altri
+ma molto probabilmente la traccia che scegliereste ora non sarebbe quella che avreste scelto a 18 anni.
 E' questo l’obiettivo di questa giornata.
-Nella prima edizione era stata usata la chiave della grammatica, nella seconda la punteggiatura e questa volta, un argomento senz’altro più divertente: l’italiano delle canzoni.
-Sensibilizzare sull’uso corretto della lingua è necessario in quest’epoca in cui, ad esempio, si usa sempre più spesso “kk” invece che “cch”, si scrivono tante parole sbagliate, oppure non si esprime a pieno ciò che era nelle intenzioni, anche a causa dello T9 del cellulare, che se ne va spesso per conto suo.
+Nella prima edizione era stata usata la chiave della grammatica
+nella seconda la punteggiatura
+questa volta, un argomento senz’altro più divertente: l’italiano delle canzoni.
+Sensibilizzare sull’uso corretto della lingua
+è necessario in quest’epoca in cui, ad esempio, si usa sempre più spesso “kk” invece che “cch”
+si scrivono tante parole sbagliate
+oppure non si esprime a pieno ciò che era nelle intenzioni
+anche a causa della modalità T9 del cellulare
+che se ne va spesso per conto suo.
 Sensibilizzare e appassionare i ragazzi all’uso corretto dell’italiano, attraverso argomenti che possano interessare.
 Qui vi spieghiamo che cosa è e come si realizza una storia collaborativa.
 A salvaguardia del principio di autorialità.
-Colui che lancia l’incipit di una storia, infatti, può selezionare il contributo che ritiene più valido per farla proseguire, e solo dopo averne scelto uno, la storia può continuare.
+Colui che lancia l’incipit di una storia, infatti, può selezionare il contributo che ritiene più valido
+per farla proseguire
+e solo dopo averne scelto uno
+la storia può continuare.
 In questo modo non viene fuori una storia a caso, con contributi che non rispondono alle esigenze dell’autore iniziale.
 L'incipit è l'inizio della storia e può essere sia un testo, che un'immagine.
 Sono 140 caratteri, lo spazio di un tweet.
-Tutti i contributi che non vengono scelti dall'autore che ha lanciato l'incipit, restano comunque visibili nel profilo dell'utente, quindi non vanno perduti e possono essere riutilizzati nelle altre storie.
+Tutti i contributi che non vengono scelti dall'autore che ha lanciato l'incipit
+restano comunque visibili nel profilo dell'utente
+quindi non vanno perduti e possono essere riutilizzati nelle altre storie.
 Una volta scelto il contenuto, bisogna decidere se pubblicare la storia o farla continuare.
-L'autore che ha lanciato l'Incipit può scegliere in ogni momento di pubblicare la storia, anche prima della scadenza del termine prefissato.
+L'autore che ha lanciato l'Incipit può scegliere in ogni momento di pubblicare la storia
+anche prima della scadenza del termine prefissato.
 Si tratta di una scelta che riguarda soltanto lui, se ritiene che la storia è completa, può pubblicarla quando vuole.
-Come abbiamo già detto: colui che lancia l’incipit di una storia, infatti, può selezionare il contributo che ritiene più valido per farla proseguire, e solo dopo averne scelto uno, la storia può continuare.
-Gli scritti o dottrine segnalate, comunque divulgate, sono fatti oggetto di attenzione da parte dell'Ufficio competente, il quale li sottopone all'esame del Congresso.
-Dopo una prima valutazione della gravità della questione il Congresso decide se si debba intraprendere o meno uno studio d'Ufficio.
-Siamo stati troppo poco insieme, e quel poco ancora l'abbiamo rubato al caso: la nostra felicità era un contrabbando del giorno per giorno, goduto in una misteriosa capanna della foresta.
-Ciò ha lasciato troppo rimpianto in tutto il nostro essere, troppe vibrazioni che continuavano e continuano ad agitarci insoddisfatte.
+Come abbiamo già detto
+Gli scritti o dottrine segnalate
+comunque divulgate
+sono fatti oggetto di attenzione da parte dell'Ufficio competente
+il quale li sottopone all'esame del Congresso.
+Dopo una prima valutazione della gravità della questione
+il Congresso decide se si debba intraprendere o meno uno studio d'Ufficio.
+Siamo stati troppo poco insieme
+e quel poco ancora l'abbiamo rubato al caso
+la nostra felicità era un contrabbando del giorno per giorno
+goduto in una misteriosa capanna della foresta.
+Ciò ha lasciato troppo rimpianto in tutto il nostro essere
+troppe vibrazioni che continuavano e continuano ad agitarci insoddisfatte.
 Ecco la causa del nostro passeggero malessere.
-Sento con molto pungente rammarico l’essere stato privato della partecipazione allo sviluppo della personalità e della vita dei due bambini;
+Sento con molto pungente rammarico l’essere stato privato della partecipazione
+allo sviluppo della personalità
+e della vita dei due bambini;
 Eppure io diventavo subito amico dei bambini e riuscivo a interessarli.
-Il padre non la volle ascoltare, prese il mortaio, lo portò al re e disse che l'aveva trovato nella landa, e che glielo offriva come atto di omaggio.
+Il padre non la volle ascoltare
+prese il mortaio
+lo portò al re e disse che l'aveva trovato nella landa
+e che glielo offriva come atto di omaggio.
 Iniziamo!
 Il re prese il mortaio e domandò se non avesse trovato altro.
 Il litigio fu portato dinanzi al re che sentenziò che il polledrino doveva rimanere là dove era stato trovato;
 E così se lo portò via il padrone dei buoi, al quale invece non apparteneva.
-Ma lo sdraiarono su un mucchio di paglia e lo bastonarono e lo torturarono a lungo, finché egli confessò che la risposta gliela aveva suggerita la regina.
+Ma lo sdraiarono su un mucchio di paglia e lo bastonarono
+lo torturarono a lungo, finché egli confessò che la risposta gliela aveva suggerita la regina.
 Esse si fermarono dinanzi alla finestra, guardarono in su e domandarono alla fanciulla che cosa avesse.
 Ella si lagnò delle sue difficoltà;
 Allora le tre donne le offrirono il loro aiuto e le dissero.
-Se tu ci inviterai alle tue nozze, non avrai vergogna di noi e ci chiamerai tue zie, facendoci sedere alla tua mensa, noi ti fileremo il lino e in brevissimo tempo.
+Se tu ci inviterai alle tue nozze, non avrai vergogna di noi e ci chiamerai tue zie
+facendoci sedere alla tua mensa, noi ti fileremo il lino e in brevissimo tempo.
 A presenza di sposi novelli commuove particolarmente, perché la famiglia è una grande cosa.
-Io una volta ho scritto un articolo sul giornale e mi sono permesso di scherzare, citando Montaigne, uno scrittore francese, il quale diceva:  Il matrimonio è come una gabbia: quelli che son fuori, fanno di tutto per entrare, quelli che son dentro fan di tutto per uscire .
-Però, però alcuni giorni dopo mi è capitata una lettera di un vecchio Provveditore agli studi, che aveva scritto libri e mi ha rimproverato dicendo:  Eccellenza, ha fatto male a citare Montaigne, io e mia moglie ci siamo uniti da 60 anni ed ogni giorno è come il primo giorno .
-Anzi, mi ha citato un altro poeta francese, in francese, ma io lo dico in italiano: ti amo ogni giorno di più: oggi molto più di ieri, ma molto meno di domani.
+Io una volta ho scritto un articolo sul giornale
+e mi sono permesso di scherzare, citando Montaigne, uno scrittore francese
+il quale diceva: Il matrimonio è come una gabbia
+quelli che son fuori, fanno di tutto per entrare
+quelli che son dentro, fan di tutto per uscire .
+Però, però alcuni giorni dopo mi è capitata una lettera di un vecchio Provveditore agli studi
+aveva scritto libri e mi ha rimproverato dicendo: Eccellenza, ha fatto male a citare Montaigne
+io e mia moglie ci siamo uniti da 60 anni ed ogni giorno è come il primo giorno .
+Anzi, mi ha citato un altro poeta francese, in francese
+ma io lo dico in italiano
+ti amo ogni giorno di più
+oggi molto più di ieri
+ma molto meno di domani.
 E faccio l'augurio che, a voi, succeda la stessa cosa.
 Questo non è vero.
 Ci sono tanti buoni ancora, tanti onesti.
 Piuttosto, che cosa fare per migliorare la società?
-Io direi: ciascuno di noi cerchi lui di essere buono e di contagiare gli altri con una bontà tutta intrisa della mansuetudine e dell'amore insegnato da Cristo.
+Io direi: ciascuno di noi cerchi lui di essere buono
+di contagiare gli altri con una bontà tutta intrisa della mansuetudine
+dell'amore insegnato da Cristo.
 La regola d'oro di Cristo è stata:  non fare agli altri quello che non vuoi fatto a te.
 Fare agli altri quello che vuoi fatto a te.
 Impara da me che sono mite e umile di cuore .
@@ -4309,98 +4569,229 @@ E lui ha dato sempre.
 Messo in croce, non solo ha perdonato ai suoi crocefissori, ma li ha scusati.
 Ha detto:  Padre perdona loro perché non sanno quello che fanno .
 Questo è cristianesimo, questi sarebbero sentimenti che messi in pratica aiuterebbero tanto la società.
-Er finire, vorrei accennare ad una speranza, che da alcuni è proclamata cristiana, ed invece è cristiana solo fino ad un certo punto.
+Er finire che da alcuni è proclamata cristiana
+ed invece è cristiana solo fino ad un certo punto.
+vorrei accennare ad una speranza
 Mi spiego: al Concilio ho votato anch'io il Messaggio al Mondo  dei Padri Conciliari.
 Dicevamo in esso: il compito principale del divinizzare non esime la Chiesa dal compito dell'umanizzare.
 Ho votato la Gaudium et Spes , mi sono commosso ed entusiasmato quando è uscita la Populorum Progressio.
-Penso che il Magistero della Chiesa non insisterà mai abbastanza nel presentare e raccomandare la soluzione dei grandi problemi della libertà, della giustizia, della pace, dello sviluppo;
+Penso che il Magistero della Chiesa non insisterà mai abbastanza
+presentare e raccomandare la soluzione dei grandi problemi della libertà
+della giustizia
+della pace
+dello sviluppo;
 Ed i laici cattolici mai abbastanza si batteranno per risolvere questi problemi.
-È, invece, errato affermare che la liberazione politica, economica e sociale coincide con la salvezza in Gesù Cristo, che il Regnum Dei si identifica con il Regnum hominis, che Ubi Lenin ibi Ierusalem.
+È, invece, errato affermare che la liberazione politica, economica e sociale coincide con la salvezza in Gesù Cristo
+che il Regnum Dei si identifica con il Regnum hominis
 Qualcuno dirà: ma se io sono povero peccatore?
 Gli rispondo come risposi a una signora sconosciuta, che s'era confessata da me molti anni fa.
 Essa era scoraggiata, perché aveva avuta una vita moralmente burrascosa.
 Posso chiederle quanti anni ha?
 Trentacinque!
 Ma lei può viverne altri quaranta o cinquanta e fare ancora un mucchio di bene.
-Allora, pentita com'è, invece che pensare al passato, si proietti verso l'avvenire e rinnovi, con l'aiuto di Dio, la sua vita.
+Allora, pentita com'è, invece che pensare al passato, si proietti verso l'avvenire e rinnovi
+con l'aiuto di Dio, la sua vita.
 Citai in quell'occasione S.
 Francesco di Sales, che parla delle nostre care imperfezioni.
 Spiegai: Dio detesta le mancanze, perché sono mancanze.
-D'altra parte, però, in un certo senso, ama le mancanze in quanto danno occasione a Lui di mostrare la sua misericordia e a noi di restare umili e di capire e compatire le mancanze del prossimo.
-Dall'oriente, poi, la disciplina monastica penetrò in tutta la Chiesa e alimentò il salutare proposito di altri che, conservando le forme della vita religiosa, imitavano il Salvatore, che annunciava alle turbe il regno di Dio e convertiva a vita migliore i peccatori.
-In un momento in cui, a causa di questo spirituale fermento, la Chiesa cresceva, e intanto la civiltà romana, ormai decrepita, decadeva poco prima infatti era crollato l'impero d'occidente, verso l'anno 480 nasceva a Norcia san Benedetto.
-Quando egli moriva nell'anno 547, già erano state gettate le solide fondamenta della disciplina monastica, la quale, specialmente dopo i sinodi dell'epoca carolingia, divenne il monachesimo occidentale.
-Questo, poi, attraverso le abazie e le altre case benedettine, diffuse per ogni dove, costituì la struura della nuova Europa, dell'Europa, diciamo, alle cui popolazioni sparse dal Mediterraneo alla Scandinavia, dall'Irlanda alle pianure della Polonia, egli principalmente e i suoi figli portarono con la croce, con il libro e con l'aratro, la civiltà cristiana.
-Orbene, una considerazione limitata all'aspetto esteriore della vita monastica può ingenerare l'opinione che il genere di vita benedettina favorisca soltanto l'utilità propria del monaco che la professa e lo induca a facile noncuranza degli altri, alienando perciò il suo animo dal senso sociale e dai problemi reali dell'umanità.
-Purtroppo, la vita condotta nella clausura monastica con la consuetudine dell'orazione, nella solitudine e nel silenzio, viene valutata in tal modo anche da taluni che appartengono alla comunità ecclesiale.
+D'altra parte, però
+in un certo senso
+ama le mancanze in quanto danno occasione a Lui di mostrare la sua misericordia
+a noi di restare umili e di capire e compatire le mancanze del prossimo.
+Dall'oriente, poi, la disciplina monastica penetrò in tutta la Chiesa
+alimentò il salutare proposito di altri che imitavano il Salvatore
+che annunciava alle turbe il regno di Dio
+e convertiva a vita migliore i peccatori.
+conservando le forme della vita religiosa
+In un momento in cui la Chiesa cresceva
+e intanto la civiltà romana, ormai decrepita, decadeva
+poco prima infatti era crollato l'impero d'occidente
+verso l'anno 480 nasceva a Norcia san Benedetto.
+a causa di questo spirituale fermento
+Quando egli moriva nell'anno 547
+già erano state gettate le solide fondamenta della disciplina monastica
+la quale divenne il monachesimo occidentale.
+specialmente dopo i sinodi dell'epoca carolingia
+Questo, poi, attraverso le abazie e le altre case benedettine
+diffuse per ogni dove
+costituì la struttura della nuova Europa
+dell'Europa, diciamo
+alle cui popolazioni sparse dal Mediterraneo alla Scandinavia
+dall'Irlanda alle pianure della Polonia
+egli principalmente e i suoi figli portarono con la croce
+con il libro e con l'aratro
+la civiltà cristiana.
+Orbene, una considerazione limitata all'aspetto esteriore della vita monastica
+può ingenerare l'opinione che il genere di vita benedettina favorisca soltanto l'utilità propria del monaco che la professa
+lo induca a facile noncuranza degli altri
+alienando perciò il suo animo dal senso sociale e dai problemi reali dell'umanità.
+Purtroppo viene valutata in tal modo anche da taluni che appartengono alla comunità ecclesiale.
+la vita condotta nella clausura monastica con la consuetudine dell'orazione
+nella solitudine e nel silenzio
 San Benedetto percorre questa via maestra attraverso la quale, nell'ambito della famiglia monastica, si va a Dio.
-Ora, la convivenza monastica chiamata dallo stesso santo ambito singolare nel quale i cuori di coloro che vi fanno parte si dilatano nell'esercizio della reciproca obbedienza è mossa e stimolata da veemente amore del prossimo, per il quale ciascuno è spinto a dedicarsi al bene del fratello trascurando il proprio vantaggio.
-Intanto nell'ambito della Chiesa era in atto un'ardua e diuturna controversia per la quale uomini ardenti, investigavano, in modo piuttosto animoso i misteri di Dio, specialmente l'imperscrutabile verità della divinità del Figlio e della sua genuina umanità.
-Tutte queste cose risuonavano come un'eco nelle parole degne di eterna memoria di Leone Magno, successore del beato Pietro e Vescovo di Roma.
+Ora, la convivenza monastica chiamata dallo stesso santo
+ambito singolare nel quale i cuori di coloro che vi fanno parte si dilatano
+nell'esercizio della reciproca obbedienza è mossa e stimolata da veemente amore del prossimo
+per il quale ciascuno è spinto a dedicarsi al bene del fratello trascurando il proprio vantaggio.
+Intanto nell'ambito della Chiesa era in atto un'ardua e diuturna controversia
+per la quale uomini ardenti, investigavano, in modo piuttosto animoso i misteri di Dio
+specialmente l'imperscrutabile verità della divinità del Figlio e della sua genuina umanità.
+Tutte queste cose risuonavano come un'eco nelle parole degne di eterna memoria di Leone Magno
+Leone Magno, successore del beato Pietro e Vescovo di Roma.
 Negli uomini infatti e nelle realtà terrene vi è una forza ed una importanza in quanto sono connessi con Cristo;
 In questa luce devono essere considerati e stimati.
-Tutti coloro che si trovano nel monastero dal superiore (che è il padre, l'abate) all'ospite ignoto e povero, dall'infermo al più piccolo dei fratelli
+Tutti coloro che si trovano nel monastero dal superiore
+che è il padre, l'abate
+all'ospite ignoto e povero
+dall'infermo al più piccolo dei fratelli
 Significano la viva presenza di Cristo.
 Anche i beni del monastero sono segni dell'amore di Dio verso le creature, o dell'amore che conduce l'uomo verso Dio;
 Addirittura, gli strumenti e le attrezzature per il lavoro vengono considerati come vasi sacri dell'altare.
-San Benedetto, amante della parola di Dio, la legge non solo nelle sacre scritture, ma anche in quel grande libro che è la natura.
-L'uomo, contemplando la bellezza del creato, si commuove nel più intimo del suo animo, ed è portato ad elevare la sua mente a colui che ne è la fonte e l'origine;
-E allo stesso tempo è condotto a comportarsi quasi con riverenza verso la natura, a porne in luce le bellezze, rispettandone la verità.
-In questi ultimi mesi, profondamente scosso dal degrado della situazione e dalla recrudescenza dei combattimenti omicidi, ho voluto sottolineare con molteplici appelli il dovere che noi tutti abbiamo di non dimenticare il Libano e di non assuefarci alle tribolazioni crudeli, che esso sopporta da sin troppo tempo.
-Non ho esitato nel continuare a bussare a tutte le porte affinché sia posto termine a ciò che è ben doveroso chiamare il massacro di un popolo.
+San Benedetto la legge non solo nelle sacre scritture
+ma anche in quel grande libro che è la natura.
+amante della parola di Dio
+L'uomo si commuove nel più intimo del suo animo
+è portato ad elevare la sua mente a colui che ne è la fonte e l'origine;
+contemplando la bellezza del creato
+E allo stesso tempo è condotto a comportarsi quasi con riverenza verso la natura
+a porne in luce le bellezze
+rispettandone la verità.
+In questi ultimi mesi ho voluto sottolineare con molteplici appelli il dovere che noi tutti abbiamo
+di non dimenticare il Libano
+profondamente scosso dal degrado della situazione e dalla recrudescenza dei combattimenti omicidi
+e di non assuefarci alle tribolazioni crudeli, che esso sopporta da sin troppo tempo.
+Non ho esitato nel continuare a bussare a tutte le porte
+affinché sia posto termine a ciò che è ben doveroso chiamare il massacro di un popolo.
 È cosa buona che tutta la Chiesa conosca gli sforzi intrapresi per il salvataggio di uni popolo in pericolo.
-Ma ho soprattutto parlato, come Pastore della Chiesa universale, in favore dei cristiani e, naturalmente, dei cattolici in particolare, i quali, a fianco dei fratelli musulmani, vivono e testimoniano in Libano la loro fede.
-Non possiamo dimenticare, cari fratelli nell'Episcopato, i legami che ci uniscono a quei fratelli i quali, nella storia lontana e recente, hanno dovuto affermare il loro essere cristiani al prezzo, sovente, di sacrifici eroici.
+Ma ho soprattutto parlato in favore dei cristiani e, naturalmente, dei cattolici
+in particolare a fianco dei fratelli musulmani
+vivono e testimoniano in Libano la loro fede.
+come Pastore della Chiesa universale
+Non possiamo dimenticare i legami che ci uniscono a quei fratelli
+loro, nella storia lontana e recente, hanno dovuto affermare il loro essere cristiani
+al prezzo, sovente, di sacrifici eroici.
 Per loro, oggi assediati dalla violenza delle armi e della parola.
 La Chiesa tutta intera ha il dovere di mobilitarsi.
 In primo luogo per parlare.
-Di fronte a un'informazione spesso parziale o superficiale, dobbiamo far conoscere le ricche e secolari tradizioni di collaborazione tra cristiani e musulmani in questo Paese.
+Di fronte a un'informazione spesso parziale o superficiale
+dobbiamo far conoscere le ricche e secolari tradizioni di collaborazione tra cristiani e musulmani in questo Paese.
 Si tratta di uno dei fattori caratteristici della società libanese che, fino a poco tempo fa, costituiva un esempio.
-Una migliore conoscenza reciproca e l'esercizio di un mutuo dialogo per il servizio dell'uomo sono condizioni indispensabili della libertà, della pace e del rispetto per la dignità della persona.
+Una migliore conoscenza reciproca
+l'esercizio di un mutuo dialogo
+per il servizio dell'uomo
+sono condizioni indispensabili della libertà, della pace e del rispetto per la dignità della persona.
 Questo pluralismo accettato e vissuto è un valore fondamentale che ha presieduto alla lunga storia del Libano.
 Per tale motivo, se questo Paese venisse a mancare, la causa stessa della libertà subirebbe uno scacco drammatico.
-Tutti i cattolici condividano la mia preghiera, per domandare al Signore di ispirare pensieri di pace alle diverse parti di questo conflitto!
-Cari fratelli nell'Episcopato, affido alla vostra sollecitudine pastorale la preparazione e l'organizzazione di questa grande giornata di preghiera per il Libano.
-La Chiesa così non sarà stata in silenzio: il Papa e i fedeli avranno pregato, parlato e agito perché non siano recise le radici della vita sociale e della cooperazione tra i diversi gruppi del Libano.
+Tutti i cattolici condividano la mia preghiera
+per domandare al Signore di ispirare pensieri di pace alle diverse parti di questo conflitto!
+Cari fratelli nell'Episcopato
+affido alla vostra sollecitudine pastorale la preparazione
+l'organizzazione di questa grande giornata di preghiera per il Libano.
+La Chiesa così non sarà stata in silenzio: il Papa e i fedeli avranno pregato, parlato e agito
+perché non siano recise le radici
+della vita sociale e della cooperazione tra i diversi gruppi del Libano.
 Letterariamente santa Caterina è un caso singolare.
 Non è mai andata a scuola, né sapeva leggere e scrivere, se non forse molto tardi e imperfettamente.
-Eppure ha dettato un complesso di scritti, che ne fanno un classico di notevole rilievo nella letteratura trecentesca italiana e tra gli scrittori mistici, tanto da meritarle il titolo di dottore della Chiesa, conferitole da sua santità Paolo VI il 4 ottobre 1970.
+Eppure ha dettato un complesso di scritti
+che ne fanno un classico di notevole rilievo nella letteratura trecentesca italiana
+tra gli scrittori mistici
+tanto da meritarle il titolo di dottore della Chiesa
+conferitole da sua santità Paolo VI il 4 ottobre 1970.
 Sono rimaste di lei 381 Lettere, dirette ad ogni genere di persone, umili e grandi.
-È un epistolario di ricca spiritualità, specchio di un'anima che vive intensamente ciò che esprime, e trova accenti schietti e toni di toccante eloquenza, spesso anche poetici.
-Vi arde una costante passione per l'uomo immagine di Dio e peccatore, per Cristo redentore, per la Chiesa che è il campo in cui il salvatore fa fruttificare il tesoro del suo sangue nella salvezza dell'uomo.
-Vive in esse uno spirito sensibile a tutti i travagli dell'umanità, un'immaginazione fervida, una fede che arroventa la parola nel denunziare i vizi, ma l'addolcisce fino alla tenerezza nell'ammonire i tiepidi e nel sollevare i deboli.
+È un epistolario di ricca spiritualità
+specchio di un'anima che vive intensamente ciò che esprime
+trova accenti schietti e toni di toccante eloquenza
+spesso anche poetici.
+Vi arde una costante passione per l'uomo immagine di Dio e peccatore
+per Cristo redentore
+per la Chiesa
+che è il campo in cui il salvatore fa fruttificare il tesoro del suo sangue nella salvezza dell'uomo.
+Vive in esse uno spirito sensibile a tutti i travagli dell'umanità
+un'immaginazione fervida
+una fede che arroventa la parola nel denunziare i vizi
+ma l'addolcisce fino alla tenerezza nell'ammonire i tiepidi e nel sollevare i deboli.
 Non c'è niente di falso e di convenzionale, ma schietto vigore anche nella pietà.
-Infine ci sono le Orazioni, raccolte dalle sue labbra negli ultimi anni di vita, quando la santa effondeva la sua anima e la sua ansia, nel parlare con immediatezza al Signore.
-Sono autentiche improvvisazioni, che salgono spontanee dalla mente immersa nella luce divina e dal cuore dolente per le miserie degli uomini, senza banalità di concetti o di petizioni, ma con tono passionale e confidente, e con espressioni spesso ardite ma di assoluta ortodossia.
-L'immagine più espressiva e ampia di questa maestra di verità e d'amore è quella del ponte, una costruzione simbolica che anticipa in qualche modo la Salita del monte Carmelo di san Giovanni della Croce.
-L'allegoria descrive, in succinta e fine analisi psicologica, il cammino dell'uomo che sale dal peccato al vertice della perfezione.
+Infine ci sono le Orazioni
+raccolte dalle sue labbra negli ultimi anni di vita
+quando la santa effondeva la sua anima e la sua ansia
+nel parlare con immediatezza al Signore.
+Sono autentiche improvvisazioni
+salgono spontanee dalla mente immersa nella luce divina e dal cuore dolente per le miserie degli uomini
+senza banalità di concetti o di petizioni
+ma con tono passionale e confidente
+e con espressioni spesso ardite ma di assoluta ortodossia.
+L'immagine più espressiva e ampia di questa maestra di verità e d'amore è quella del ponte
+una costruzione simbolica
+anticipa in qualche modo la Salita del monte Carmelo di san Giovanni della Croce.
+L'allegoria descrive il cammino dell'uomo che sale dal peccato al vertice della perfezione.
+in succinta e fine analisi psicologica
 La caratterizza un'accentuazione cristologica.
 Su cui s'appoggia tutta la struttura.
-Infatti il ponte è Gesù Cristo, sia con la figura del suo corpo innalzata sulla croce, sia con la sua dottrina, sia con la sua grazia.
-Stefano accettò la corona non come onore, ma come servizio: pertanto in tutte le circostanze cercò sempre il bene della comunità a lui affidata, sia organizzando e difendendo il Regno, sia promulgando nuovi decreti come anche curando lo sviluppo delle due culture, quella umana e quella divina.
-Il re Stefano per nulla contaminato dal fascino di vantaggi e successi propri, dopo aver superate le lusinghe del suo tempo, trovò una viva sorgente attingendo alla quale rinforzò l'animo per guidare il suo popolo con un fedele servizio.
-Tale sorgente spirituale con indovinata concisione così viene sintetizzata da uno scrittore: Presentandosi sempre come se si trovasse davanti al tribunale di Cristo, la cui presenza contemplava con gli occhi interiori e un volto tale da incutere rispetto, dimostrò di avere Cristo sulle labbra, di portarlo nel cuore ed in tutte le azioni.
-La protezione della Beatissima Vergine Maria, Grande Signora degli Ungheresi, che il vostro Popolo tante volte ha esperimentato nella sua storia, guidi i vostri Governanti ecclesiastici e civili e la Patria vostra in questo millennio lungo la via dello sviluppo, del progresso, delle virtù cristiane, della solidarietà e della pace!
+Infatti il ponte è Gesù Cristo
+sia con la figura del suo corpo innalzata sulla croce
+sia con la sua dottrina
+sia con la sua grazia.
+Stefano accettò la corona non come onore, ma come servizio
+pertanto in tutte le circostanze cercò sempre il bene della comunità a lui affidata
+sia organizzando e difendendo il Regno
+sia promulgando nuovi decreti come anche curando lo sviluppo delle due culture, quella umana e quella divina.
+Il re Stefano trovò una viva sorgente attingendo alla quale rinforzò l'animo per guidare il suo popolo con un fedele servizio.
+dopo aver superate le lusinghe del suo tempo
+per nulla contaminato dal fascino di vantaggi e successi propri
+Tale sorgente spirituale con indovinata concisione così viene sintetizzata da uno scrittore
+Presentandosi sempre come se si trovasse davanti al tribunale di Cristo
+la cui presenza contemplava con gli occhi interiori e un volto tale da incutere rispetto
+dimostrò di avere Cristo sulle labbra
+di portarlo nel cuore ed in tutte le azioni.
+La protezione della Beatissima Vergine Maria che il vostro Popolo tante volte ha esperimentato nella sua storia
+Grande Signora degli Ungheresi
+guidi i vostri Governanti ecclesiastici e civili
+la Patria vostra in questo millennio
+lungo la via dello sviluppo, del progresso, delle virtù cristiane, della solidarietà e della pace!
 A voi tutti poi, in questa insigne festa del Popolo vostro, imparto volentieri la Benedizione Apostolica.
 Essa crea un nuovo legame dell'uomo con Dio uno e trino, in Gesù Cristo.
 Questo legame cresce sul fondamento di quel vincolo originale che è contenuto nel sacramento del battesimo.
-La professione religiosa ha le sue profonde radici nella consacrazione battesimale, e ne è un'espressione più perfetta (Perfectae Caritatis, 5).
-In tal modo essa diventa, nel suo contenuto costitutivo, una nuova consacrazione: la consacrazione e la donazione della persona umana a Dio, amato sopra ogni cosa.
-L'impegno, assunto mediante i voti, di attuare i consigli evangelici di castità, povertà e obbedienza secondo le disposizioni proprie delle vostre famiglie religiose, quali sono determinate nelle rispettive costituzioni, rappresenta l'espressione di una totale consacrazione a Dio e, insieme, il mezzo che porta alla sua pratica attuazione.
+La professione religiosa ha le sue profonde radici nella consacrazione battesimale
+e ne è un'espressione più perfetta (Perfectae Caritatis, 5).
+In tal modo essa diventa una nuova consacrazione: la consacrazione e la donazione della persona umana a Dio
+amato sopra ogni cosa.
+nel suo contenuto costitutivo
+L'impegno, assunto mediante i voti, di attuare i consigli evangelici di castità, povertà e obbedienza
+secondo le disposizioni proprie delle vostre famiglie religiose
+quali sono determinate nelle rispettive costituzioni
+rappresenta l'espressione di una totale consacrazione a Dio e, insieme, il mezzo che porta alla sua pratica attuazione.
 Di qui prendono anche forma la testimonianza e l'apostolato proprio delle persone consacrate.
-Tuttavia, bisogna cercare la radice di questa consacrazione consapevole e libera, e della conseguente donazione di sé come proprietà a Dio, nel battesimo, sacramento che ci conduce al mistero pasquale come vertice e centro della redenzione compiuta da Cristo.
-A tale proposito, desidero ricordare quanto ho scritto nel Messaggio per la Giornata Mondiale della Pace del 1998, che cioè la piaga della corruzione va denunciata e combattuta con forza da coloro che detengono l'autorità e con il sostegno generoso di tutti i cittadini, sorretti da una forte coscienza morale.
-63 Gli adeguati organismi di controllo e la trasparenza delle transazioni economiche e finanziarie prevengono ulteriormente ed evitano in molti casi il dilagare della corruzione, le cui nefaste conseguenze ricadono principalmente sui più poveri e derelitti.
-Sono ancora i poveri a soffrire per primi i ritardi, l'inefficienza, l'assenza di una difesa adeguata e le carenze strutturali, quando ad essere corrotta è l'amministrazione della giustizia.
+Tuttavia, bisogna cercare la radice di questa consacrazione consapevole e libera
+e della conseguente donazione di sé come proprietà a Dio
+nel battesimo, sacramento che ci conduce al mistero pasquale come vertice e centro della redenzione compiuta da Cristo.
+A tale proposito, desidero ricordare quanto ho scritto nel Messaggio per la Giornata Mondiale della Pace del 1998
+che cioè la piaga della corruzione va denunciata e combattuta con forza da coloro che detengono l'autorità
+con il sostegno generoso di tutti i cittadini, sorretti da una forte coscienza morale.
+63, gli adeguati organismi di controllo e la trasparenza delle transazioni economiche e finanziarie
+prevengono ulteriormente ed evitano in molti casi il dilagare della corruzione
+le cui nefaste conseguenze ricadono principalmente sui più poveri e derelitti.
+Sono ancora i poveri a soffrire per primi i ritardi, l'inefficienza, l'assenza di una difesa adeguata
+le carenze strutturali
+quando ad essere corrotta è l'amministrazione della giustizia.
 Sono, queste, soltanto alcune delle linee emergenti dall'esperienza giubilare.
 Essa lascia impressi in noi tanti ricordi.
-Ma se volessimo ricondurre al nucleo essenziale la grande eredità che essa ci consegna, non esiterei ad individuarlo nella contemplazione del volto di Cristo: lui considerato nei suoi lineamenti storici e nel suo mistero, accolto nella sua molteplice presenza nella Chiesa e nel mondo, confessato come senso della storia e luce del nostro cammino.
+Ma se volessimo ricondurre al nucleo essenziale la grande eredità che essa ci consegna
+non esiterei ad individuarlo nella contemplazione del volto di Cristo
+lui considerato nei suoi lineamenti storici e nel suo mistero
+accolto nella sua molteplice presenza nella Chiesa e nel mondo
+confessato come senso della storia e luce del nostro cammino.
 In questa abiezione è rivelato non soltanto l'amore di Dio, ma il senso stesso dell'uomo.
-Ecce homo: chi vuol conoscere l'uomo, deve saperne riconoscere il senso, la radice e il compimento in Cristo, Dio che si abbassa per amore  fino alla morte, e alla morte di croce .
-I misteri del dolore portano il credente a rivivere la morte di Gesù ponendosi sotto la croce accanto a Maria, per penetrare con Lei nell'abisso dell'amore di Dio per l'uomo e sentirne tutta la forza rigeneratrice.
-Soltanto gravissime e urgenti ragioni, accertate dalla Congregazione particolare dei Cardinali, di cui al n.
-7, potranno consentire simili colloqui.
-Dovranno quindi i Cardinali elettori provvedere, prima che sia dato inizio agli atti dell'elezione, a predisporre quanto attiene alle rispettive esigenze d'ufficio o personali e non differibili, in modo tale che non sia necessario ricorrere a simili colloqui.
+Ecce homo: chi vuol conoscere l'uomo, deve saperne riconoscere il senso, la radice e il compimento in Cristo
+Dio che si abbassa per amore fino alla morte, e alla morte di croce.
+I misteri del dolore portano il credente a rivivere la morte di Gesù
+ponendosi sotto la croce accanto a Maria
+per penetrare con Lei nell'abisso dell'amore di Dio per l'uomo e sentirne tutta la forza rigeneratrice.
+Soltanto gravissime e urgenti ragioni potranno consentire simili colloqui.
+accertate dalla Congregazione particolare dei Cardinali, di cui al n.7
+Dovranno quindi i Cardinali elettori provvedere a predisporre quanto attiene alle rispettive esigenze d'ufficio
+personali e non differibili
+in modo tale che non sia necessario ricorrere a simili colloqui.
+prima che sia dato inizio agli atti dell'elezione
 Durante gli esercizi spirituali ho riletto il testamento del Santo Padre Paolo VI.
 Questa lettura mi ha spinto a scrivere il presente testamento.
 Non lascio dietro di me alcuna proprietà di cui sia necessario disporre.
@@ -6378,7 +6769,7 @@ Cruni la considerava come una qualsiasi accusata da tradursi a San Vittore.
 Ma erano i mobili di quella stanza
 Il sottile e pur penetrante profumo
 Che alitava lì dentro
-Aveva la sensazione di un caso insolito 
+Aveva la sensazione di un caso insolito
 Un caso che gli era capitato addosso di traverso
 La cosa non rientrava nel compito delle sue mansioni e dei suoi doveri.
 La porta si aprì ed entrò De Vincenzi.
@@ -7980,7 +8371,7 @@ Venne approvato come stile ufficiale e regolamentato nel 1896.
 La bracciata si compone di 4 fasi.
 Presa: è la fase in cui la mano effettua una “presa” sull’acqua.
 La mano entra in acqua ed effettua una mini rotazione per poi iniziare la fase di trazione.
-Importante sottolineare che il primo dito ad entrare in acqua, nel dorso, è il mignolo 
+Importante sottolineare che il primo dito ad entrare in acqua, nel dorso, è il mignolo
 Trazione: è la fase in cui la mano (e il braccio) dalla posizione di presa
 Spinge creando un “appoggio”
 Arrivando fino alla posizione del petto circa.
