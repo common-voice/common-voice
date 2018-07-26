@@ -38,7 +38,7 @@ export function getNativeNameWithFallback(locale: string) {
       : nativeName + ' ' + (locales[locale].split(' ')[1] || '');
   }
 
-  return locale;
+  return ({ cak: 'Kaqchikel' } as any)[locale] || locale;
 }
 
 export function negotiateLocales(locales: ReadonlyArray<string>) {
