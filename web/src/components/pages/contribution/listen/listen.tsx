@@ -200,15 +200,20 @@ class ListenPage extends React.Component<Props, State> {
             !this.props.isLoading &&
             clips.length === 0 && (
               <div className="empty-container">
-                <Localized id="nothing-to-validate">
-                  <div className="error-card card-dimensions" />
-                </Localized>
-                <LinkButton rounded to={URLS.SPEAK} className="record-instead">
-                  <MicIcon />{' '}
-                  <Localized id="record-button-label">
+                <div className="error-card card-dimensions">
+                  <Localized id="nothing-to-validate">
                     <span />
                   </Localized>
-                </LinkButton>
+                  <LinkButton
+                    rounded
+                    to={URLS.SPEAK}
+                    className="record-instead">
+                    <MicIcon />{' '}
+                    <Localized id="record-button-label">
+                      <span />
+                    </Localized>
+                  </LinkButton>
+                </div>
               </div>
             )
           }

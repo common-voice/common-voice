@@ -525,18 +525,39 @@
 
     & .error-card {
         margin: 75px auto;
+        padding: 30px 25px;
         max-width: 700px;
-        height: 223px;
         width: 100%;
+        box-sizing: border-box;
 
         display: flex;
+        flex-direction: column;
         align-items: center;
+        justify-content: center;
 
-        background: #f4f4f4;
+        background: var(--white);
+        box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.05);
 
         @media (--md-up) {
-            max-height: 430px;
-            height: 43vh;
+            padding: 120px 105px;
+        }
+
+        & a {
+            margin-top: 30px;
+            background: #ff4e5e;
+            border: none;
+            box-shadow: 0 5px 10px color(#ff4e5e alpha(50%));
+
+            &:hover {
+                color: var(--white);
+                background: #ff4e5e;
+                opacity: 1;
+                box-shadow: 0 5px 10px #ff4e5e;
+
+                & path {
+                    fill: var(--white);
+                }
+            }
         }
     }
 
