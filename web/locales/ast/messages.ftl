@@ -109,6 +109,7 @@ report-bugs-link = Ayuda a informar de fallos
 ## Home Page
 
 home-title = El proyeutu Common Voice ye la iniciativa de Mozilla pa enseña-yos a les máquines cómo falen los humanos.
+home-cta = ¡Collabora equí!
 wall-of-text-more-mobile = La mayoría de datos usaos por compañes grandes nun tán disponibles pa la mayoría de xente. Cuidamos qu'eso torga la innovación polo que llanzamos Common Voice. Un proyeutu p'ayudar a facer que la reconocencia de voz tea abierta al tol mundu.
 wall-of-text-more-desktop =
     Agora pues emprestar la to voz p'ayudanos a construyir una base de datos abierta que tol mundu
@@ -285,7 +286,7 @@ total-hours = Hores totales
 
 action-click = Fai clic
 action-tap = Calca
-contribute = Collabora
+contribute = Collaborar
 listen = Sienti
 skip = Saltar
 shortcuts = Atayos
