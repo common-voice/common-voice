@@ -8,7 +8,6 @@ email-input =
     .label = דוא״ל
 submit-form-action = שליחה
 loading = בטעינה…
-audio-loading-error = אנו מעבדים את קובצי השמע שלך, נא לנסות שוב בהקדם. עמך הסליחה!
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -96,17 +95,23 @@ vote-yes = כן
 vote-no = לא
 toggle-play-tooltip = יש ללחוץ על { shortcut-play-toggle } כדי להיכנס או לצאת ממצב השמעה
 
-## Shortcuts
+## Speak & Listen Shortcuts
 
-# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
-# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = נ
 # Must be one letter that appears in the { vote-yes } string.
-# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = כ
 # Must be one letter that appears in the { vote-no } string.
-# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = ל
+
+## Speak Shortcuts
+
 request-language-text = השפה שלך עדיין לא מופיעה ב־Common Voice?
 request-language-button = בקשת שפה
 
@@ -133,7 +138,6 @@ profile-form-username =
     .label = שם משתמש
 profile-form-language =
     .label = שפה
-profile-form-more-languages = שפות נוספות מגיעות בקרוב!
 profile-form-accent =
     .label = מבטא
 profile-form-age =
@@ -250,7 +254,6 @@ download-no = לא תודה
 ## Contact Modal
 
 contact-title = טופס יצירת קשר
-contact-cancel = ביטול
 contact-form-name =
     .label = שם
 contact-form-message =
@@ -260,11 +263,10 @@ contact-required = *נדרש
 ## Request Language Modal
 
 request-language-title = בקשת שפה
-request-language-cancel = יציאה מהטופס
 request-language-form-language =
     .label = שפה
 request-language-success-title = בקשת השפה הוגשה בהצלחה, תודה רבה.
-request-language-success-content = נהיה בקשר כשיהיו פרטים נוספים כיצד להוסיף השפה שלך ל־Common Voice בקרוב.
+request-language-success-content = נהיה בקשר כשיהיו פרטים נוספים כיצד להוסיף את השפה שלך ל־Common Voice בקרוב.
 
 ## Languages Overview
 
@@ -284,9 +286,6 @@ listen = האזנה
 skip = דילוג
 shortcuts = קיצורים
 clips = מקטעים
-goal-type-record = הקלטה
-goal-type-validation = אימות
-toward-goal = זה <goalPercentage></goalPercentage> לכיוון המטרה היומית { $goalType } של Common Voice. תודה
 contribute-more = להגיש לך { $count } נוספים?
 record-cta = התחלת ההקלטה
 record-instruction = { $actionType } <recordIcon></recordIcon> ולאחר מכן להקריא את המשפט בקול
@@ -295,7 +294,6 @@ record-three-more-instruction = עוד שלושה!
 record-again-instruction = מושלם! <recordIcon></recordIcon> הקלטת המקטע הבא שלך
 record-last-instruction = <recordIcon></recordIcon> אחרון חביב!
 unable-speak = לא ניתן לדבר כרגע
-clips-submitted = { $count } מקטעים נשלחו!
 record-abort-title = לסיים את ההקלטה קודם לכן?
 record-abort-text = יציאה כעת תגרום לאובדן ההתקדמות שצברת
 record-abort-submit = הגשת מקטעים
