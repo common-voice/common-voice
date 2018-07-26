@@ -92,6 +92,17 @@ zh-TW = Ĉina (Tajvano)
 
 ## Layout
 
+speak = Paroli
+speak-now = Paroli nun
+datasets = Datumaroj
+languages = Lingvoj
+profile = Profilo
+help = Helpo
+contact = Kontakto
+privacy = Privateco
+terms = Kondiĉoj
+cookies = Kuketoj
+faq = Oftaj demandoj
 
 ## Home Page
 
@@ -124,9 +135,35 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Venonta celo: { $goal }
+english = Angla
 
 ## ProfileForm
 
+profile-form-cancel = Eliri el la formularo
+profile-form-delete = Forigi profilon
+profile-form-username =
+    .label = Nomo de uzanto
+profile-form-language =
+    .label = Lingvo
+profile-form-accent =
+    .label = Elparolmaniero
+profile-form-age =
+    .label = Aĝo
+profile-form-gender =
+    .label = Sekso
+profile-form-submit-save = Konservi
+profile-form-submit-saved = Konservita
+profile-keep-data = Gardi datumojn
+profile-delete-data = Forigi datumojn
+male = Vira
+female = Ina
+# Gender
+other = Alia
+why-profile-title = Kial krei profilon?
+edit-profile = Modifi profilon
+profile-create = Krei profilon
+profile-create-success = Sukceso, profilo kreita!
+profile-close = Fermi
 
 ## FAQ
 
@@ -139,21 +176,37 @@ status-goal = Venonta celo: { $goal }
 
 ## Data
 
+data-download-yes = Jes
+data-download-deny = Ne
+data-download-license = Permesilo: <licenseLink>CC-0</licenseLink>
 
 ## Record Page
 
 
 ## Download Modal
 
+download-no = Ne, dankon
 
 ## Contact Modal
 
+contact-form-name =
+    .label = Nomo
+contact-form-message =
+    .label = Mesaĝo
 
 ## Request Language Modal
 
+request-language-title = Propono de lingvo
+request-language-form-language =
+    .label = Lingvo
+request-language-success-title = La propono de lingvo estis sukcese sendita, dankon.
 
 ## Languages Overview
 
+language-section-launched = Lanĉita
+languages-show-more = Vidi pli
+languages-show-less = Vidi malpli
+language-meter-in-progress = Progreso
 
 ## New Contribution
 
