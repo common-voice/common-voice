@@ -188,6 +188,9 @@ female = Femenín
 # Gender
 other = Otru
 why-profile-title = ¿Por qué un perfil?
+why-profile-text =
+    Apurriendo dellos datos tocante a ti, los datos d'audiu qu'unvies a Common Voice van ser más útiles pa los motores de
+    reconocencia de voz qu'usen estos datos p'ameyorar la so precisión.
 edit-profile = Editar perfil
 profile-create = Creación d'un perfil
 profile-close = Zarrar
@@ -204,10 +207,13 @@ faq-mission-q = ¿Por que Common Voice ye parte de la misión de Mozilla?
 faq-native-q = Nun soi un falante nativu de { $lang } y falo con acentu, ¿entá quedríeis la mio voz?
 faq-hours-a = Ye'l númberu aproximáu d'hores riquíes pa entrenar a un sistema STT en producción.
 faq-source-q = ¿D'ónde vien el testu fonte?
+faq-source-a1 = Les frases actuales vienen de donaciones de collaboradores, tamién de guiones de películes de dominiu públicu como <italic>It’s a Wonderful Life.</italic>
+faq-source-a2 = Pues ver l'orixe de les nueses frases <dataLink>nesta carpeta de GitHub</dataLink>.
 
 ## Profile
 
 profile-why-title = ¿Por qué un perfil?
+profile-why-content = Apurriendo dellos datos tocante a ti, los datos d'audiu qu'unvies a Common Voice van ser más útiles pa los motores de reconocencia de voz qu'usen estos datos p'ameyorar la so precisión.
 
 ## NotFound
 
@@ -306,7 +312,9 @@ record-stop-instruction = { $actionType }<stopIcon></stopIcon> cuando termines
 record-three-more-instruction = ¡Tres p'acabar!
 record-again-instruction2 = ¡Sigui asina! Fai otra grabación <recordIcon></recordIcon>
 unable-speak = ¿Nun pues falar agora?
+record-submit-tooltip = { $actionType } unviar cuando termines
 record-abort-text = Si coles agora, vas perder el to progresu
 listen-3rd-time-instruction = 2 menos, ¡sigui asina!<playIcon></playIcon>
 nothing-to-validate = Nun tenemos nada pa revisar nesta llingua, ayúdanos a rellenar la cola.
+record-button-label = Graba la to voz
 share-title-new = <bold>Ayúdanos</bold> a alcontrar más voces
