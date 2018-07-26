@@ -2,7 +2,7 @@
 
 yes-receive-emails = Sí, unviáime correos. Prestaríame tar informáu tocante al proyeutu Common Voice.
 stayintouch = En Mozilla tamos construyendo una comunidá alredor de la teunoloxía per voz. Prestaríanos siguir en contautu con anovamientos, fontes de datos nueves y oyer más tocante a cómo uses estos datos.
-privacy-info = Prometémoste que vamos remanar la to información con curiáu. Llei más  na nuesa <privacyLink>Noticia de privacidá</privacyLink>
+privacy-info = Prometémoste que vamos remanar la to información con curiáu. Llei más na nuesa <privacyLink>Noticia de privacidá</privacyLink>
 return-to-cv = Volver a Common Voice
 email-input =
     .label = Corréu
@@ -187,6 +187,7 @@ other = Otru
 why-profile-title = ¿Por qué un perfil?
 profile-create = Creación d'un perfil
 profile-close = Zarrar
+profile-explanation = Sigui'l to progresu con un perfil y ayuda a que los nuesos datos de voz seyan más precisos.
 
 ## FAQ
 
@@ -235,6 +236,9 @@ record-retry = Retentar
 record-no-mic-found = Nun s'alcontró'l micrófonu.
 record-error-too-short = La grabación foi percurtia.
 record-error-too-long = La grabación foi perllarga.
+record-error-too-quiet = La grabación foi persilenciosa.
+record-submit-success = ¡L'unviu tuvo ésitu! ¿Quies grabar de nueves?
+record-help = Calca pa grabar, darréu llei n'alto la fras d'enriba
 review-terms = Usando Common Voice aceutes los nuesos <termsLink>términos</termsLink> y la nuesa <privacyLink>noticia de privacidá</privacyLink>
 terms-agree = Aceuto
 terms-disagree = Nun aceuto
@@ -285,7 +289,15 @@ contribute = Collabora
 listen = Sienti
 skip = Saltar
 shortcuts = Atayos
+goal-help-recording = ¡Ayudesti a Common Voive a algamar un <goalPercentage></goalPercentage> de la nuesa meta diaria de { $goalValue } grabaciones!
+goal-help-validation = ¡Ayudesti a Common Voive a algamar un <goalPercentage></goalPercentage> de la nuesa meta diaria de { $goalValue } validaciones!
+contribute-more =
+    { $count ->
+        [one] ¿Quies facer { $count } más?
+       *[other] ¿Quies facer { $count } más?
+    }
 record-cta = Aniciar grabación
+record-instruction = { $actionType }<recordIcon></recordIcon> y llei la fras n'alto
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> cuando termines
 record-three-more-instruction = ¡Tres p'acabar!
 unable-speak = ¿Nun pues falar agora?
