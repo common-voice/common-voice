@@ -98,6 +98,7 @@ contribution-banner-button = Варштамс
 
 home-cta = Кортак седе, лездак тесэ!
 show-wall-of-text = Ловномс седе тов
+help-us-explain = Лепштика «кунсоловтомс» повненть, кунсолок ды ёвтак миненек: ало рисьмесь видестэ ёвтазь?
 vote-yes = Истя
 vote-no = Арась
 
@@ -115,6 +116,7 @@ request-language-button = Вешемс кель
 
 ## ProjectStatus
 
+status-contribute = Лездамс эсеть вайгельсэ
 english = Англакс
 
 ## ProfileForm
