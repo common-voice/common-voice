@@ -22,13 +22,14 @@ const FULL_CLIENT_PATH = path.join(__dirname, '../web');
 
 const CSP_HEADER = [
   `default-src 'none'`,
-  `style-src 'self' 'unsafe-inline' https://fonts.googleapis.com`,
-  `img-src 'self' www.google-analytics.com`,
+  `style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://optimize.google.com https://fonts.googleapis.com 'unsafe-inline'`,
+  `img-src 'self' www.google-analytics.com www.gstatic.com https://optimize.google.com`,
   `media-src data: blob: https://*.amazonaws.com https://*.amazon.com`,
   // Note: we allow unsafe-eval locally for certain webpack functionality.
-  `script-src 'self' 'unsafe-eval' 'sha256-it/hVbE0ffRQjkt+hTb6/JM7wKrTSMEK4CHF4s42Zu8=' https://www.google-analytics.com/analytics.js https://pontoon.mozilla.org/pontoon.js`,
+  `script-src 'self' 'unsafe-eval' 'sha256-raTkqNkt3u7rtZQFdlnGGFBzN/QBchCZW4veKfc49gA=' 'sha256-MXoc19ZxFf9nV/UiCnD1pabWYCAF1Ek0chBa5ysXoqE=' 'sha256-KkfRSrCB8bso9HIC5wm/5cCYUmNSRWNQqyPbvopRCz4=' https://www.google-analytics.com/analytics.js https://pontoon.mozilla.org/pontoon.js https://optimize.google.com`,
   `font-src 'self' https://fonts.gstatic.com`,
-  `connect-src 'self' https://pontoon.mozilla.org/graphql`,
+  `connect-src 'self' https://pontoon.mozilla.org/graphql https://*.amazonaws.com https://*.amazon.com`,
+  `frame-src https://optimize.google.com`,
 ].join(';');
 
 export default class Server {
