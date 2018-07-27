@@ -15,16 +15,20 @@ loading = لوڈ ہو رہا ہے…
 ## Languages
 
 ar = عربى
+as = آسامی
 az = آذر بائیجان
 bn = بنگالی
+br = بریٹن
 bxr = بریات
 cnh = ہک چن
 cs = چيک
+cy = ویلش
 de = جرمن
 el = يونانى
 en = انگریزی
 es = اسپینش
 et = ایسٹونئن
+fi = فنیش
 fr = فرانسیسی
 he = عبرانى
 id = ‏‏انڈونیشین
@@ -187,6 +191,7 @@ data-download-deny = نہیں
 data-download-license = لائسنس: <licenseLink>CC-0</licenseLink>
 data-other-goto = { $name } پر جائیں
 data-other-download = ڈائونلوڈ شدہ کوائف
+data-other-ted-name = TED-LIUM Corpus
 license = لائیسنس: <licenseLink>{ $license }</licenseLink>
 license-mixed = ملا جلا
 
@@ -200,6 +205,8 @@ record-no-mic-found = کوئی ماِکروفون نہیں ملا
 record-error-too-short = یہ ریکارڈنگ بہت چھوٹی تھی۔
 record-error-too-long = یہ ریکارڈنگ بہت طویل تھی۔
 record-error-too-quiet = یہ ریکارڈنگ بھی خاموش تھی۔
+record-submit-success = کامیابی سے جمع ہو گیا! دوبارہ ریکارڈ کرکرنا چاہیں گے؟
+record-help = براہ مہربانی رکارڈ کو تھپتپائیں پھر مندرجہ بالا جملہ پا آواز بلند پڑھیں۔
 record-cancel = دوبارہ رکارڈنگ منسوخ کریں
 review-terms = Common Voice کے استعمال کے ساتھ آُپ ہماری <termsLink>شرائط</termsLink> اور <privacyLink>رازداری نوٹس</privacyLink> سے متفق ہیں
 terms-agree = میں متفق ہوں
@@ -238,6 +245,7 @@ request-language-success-title = زبان کی درخواست کامیابی س�
 
 ## Languages Overview
 
+language-section-in-progress = پیش رفت جاری ہے
 languages-show-more = مزید دیکھیں
 languages-show-less = کم دیکھیں
 language-speakers = خطیب
@@ -266,12 +274,15 @@ contribute-more =
 record-cta = رکارڈنگ شروع کریں
 record-instruction = { $actionType }<recordIcon></recordIcon> بھر باآواز بلند جملہ پڑھیں
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> جب مکمل ہو جائے
+record-again-instruction = بہت اچھے! <recordIcon></recordIcon> اپنا اگلا تراشہ ریکارڈ کرائیں
 record-again-instruction2 = کوشش جاری رکھیں، دوبارہ رکارڈ کریں <recordIcon></recordIcon>
 review-tooltip = یہاں چلتے ہوئے تراشوں کو دوبارہ ریکارڈ کریں اور جائزہ لیں
 unable-speak = ابھی بول نہیں سکتے؟
 review-instruction = جائرہ لیں اور تراشے دوبارہ ریکارڈ کریں اگر ظرورت ہو
+record-submit-tooltip = { $actionType } جمع کرائیں جب تیار ہوں
 clips-uploaded = اپ لوڈ شدہ تراشے
 record-abort-title = پہلے ریکارڈنگ ختم کریں؟
+record-abort-text = اب چھوٰڑنے کا مطلب ہے اب آپ اپنی پیش رفت کھو دیں گے
 record-abort-submit = تراشے جمع کرائیں
 record-abort-continue = ریکارڈنگ مکمل کریں
 record-abort-delete = خارج ہوں اور تراشے حزف کریں
