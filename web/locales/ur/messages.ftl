@@ -23,6 +23,7 @@ bxr = بریات
 cnh = ہک چن
 cs = چيک
 cy = ویلش
+da = ‏‏ڈینیش
 de = جرمن
 el = يونانى
 en = انگریزی
@@ -30,7 +31,9 @@ es = اسپینش
 et = ایسٹونئن
 fi = فنیش
 fr = فرانسیسی
+ga-IE = آئرش
 he = عبرانى
+hu = ‏‏ہنگارین
 id = ‏‏انڈونیشین
 is = آئس لينڈى
 it = اطالوی
@@ -276,6 +279,7 @@ record-instruction = { $actionType }<recordIcon></recordIcon> بھر باآوا�
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> جب مکمل ہو جائے
 record-again-instruction = بہت اچھے! <recordIcon></recordIcon> اپنا اگلا تراشہ ریکارڈ کرائیں
 record-again-instruction2 = کوشش جاری رکھیں، دوبارہ رکارڈ کریں <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon>آخری! 
 review-tooltip = یہاں چلتے ہوئے تراشوں کو دوبارہ ریکارڈ کریں اور جائزہ لیں
 unable-speak = ابھی بول نہیں سکتے؟
 review-instruction = جائرہ لیں اور تراشے دوبارہ ریکارڈ کریں اگر ظرورت ہو
