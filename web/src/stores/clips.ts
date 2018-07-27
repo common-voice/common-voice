@@ -72,12 +72,24 @@ export namespace Clips {
         const clips = await state.api.fetchRandomClips(MIN_CACHE_SIZE);
         dispatch({
           type: ActionType.REFILL_CACHE,
-          clips: clips.map(clip => ({
-            id: clip.id,
-            glob: clip.glob,
-            sentence: decodeURIComponent(clip.text),
-            audioSrc: clip.sound,
-          })),
+          clips: clips.map(clip => {
+            let sentence;
+            try {
+              sentence = decodeURIComponent(clip.text);
+            } catch (e) {
+              if (e.name !== 'URIError') {
+                throw e;
+              }
+              sentence = clip.text;
+            }
+
+            return {
+              id: clip.id,
+              glob: clip.glob,
+              sentence,
+              audioSrc: clip.sound,
+            };
+          }),
         });
         await Promise.all(clips.map(preloadClip));
       } catch (err) {
