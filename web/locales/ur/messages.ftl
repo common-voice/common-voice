@@ -16,10 +16,12 @@ loading = لوڈ ہو رہا ہے…
 
 ar = عربى
 as = آسامی
+ast = اسٹورین
 az = آذر بائیجان
 bn = بنگالی
 br = بریٹن
 bxr = بریات
+ca = کیٹلان
 cnh = ہک چن
 cs = چيک
 cy = ویلش
@@ -27,9 +29,11 @@ da = ‏‏ڈینیش
 de = جرمن
 el = يونانى
 en = انگریزی
+eo = اسپيرانتو
 es = اسپینش
 et = ایسٹونئن
 fi = فنیش
+fo = فیروسیہ
 fr = فرانسیسی
 ga-IE = آئرش
 he = عبرانى
@@ -182,6 +186,7 @@ faq-source-q = یہ ماخز متن کہاں سے آیا ہے؟
 ## Profile
 
 profile-why-title = ایک پروفائل کیوں؟
+profile-why-content = اپنے متعملق مولومات فراہم کر کہ صوتی کوائف جو آپ Common Voice میں جمع کرائیں گے وہ اسپیچ ریوکگنیشن  انجن کے لِئے مزید فائدہ مند ہوں گے حو اس کوائگف کا استعمال کرتے ہوئے اپنی مزید درستگی کریں گے۔
 
 ## NotFound
 
@@ -279,6 +284,7 @@ contribute-more =
 record-cta = رکارڈنگ شروع کریں
 record-instruction = { $actionType }<recordIcon></recordIcon> بھر باآواز بلند جملہ پڑھیں
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> جب مکمل ہو جائے
+record-three-more-instruction = تین رہ گئے!
 record-again-instruction = بہت اچھے! <recordIcon></recordIcon> اپنا اگلا تراشہ ریکارڈ کرائیں
 record-again-instruction2 = کوشش جاری رکھیں، دوبارہ رکارڈ کریں <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon>آخری! 
@@ -294,6 +300,7 @@ record-abort-continue = ریکارڈنگ مکمل کریں
 record-abort-delete = خارج ہوں اور تراشے حزف کریں
 listen-instruction = { $actionType }<playIcon></playIcon> کیا انہوں نے جملہ درستگی سے بولا؟
 listen-again-instruction = بہت اچھے<playIcon></playIcon> دوبارہ سنیں جب آپ تیار ہوں
+listen-3rd-time-instruction = ۲  ہو گئے۔  شاباش جاری رکھیں!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>آخری ایک!
 record-button-label = اپنی آواز رکارڈ کرائیں
 share-title-new = <bold> ہماری مدد کریں</bold> مزید آوازیں ڈھونڈنے میں
