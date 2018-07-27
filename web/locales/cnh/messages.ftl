@@ -114,7 +114,7 @@ report-bugs-link = A ttha lo mi kan chim
 
 ## Home Page
 
-home-title = Common Voice timi cu Mozilla nih tuahmi, zei tiin dah minung an holh ti computer chimh nak asi.
+home-title = Common Voice rian cu Mozilla nih tuahmi, zei ti in dah minung an holh ti computer chimhnak asi.
 home-cta = Na aw hi ka hin tuun!
 wall-of-text-start = Aw cu kokek asi, Aw cu minung asi. Cucaah cun computer ah hman khawh dingmi Laiholh ser lai hi kan i ngaih tuk. Hi kan tuah khawh nak ding caah cun, Aw hi tamtuk hringhren kan herh.
 wall-of-text-more-mobile = Kampani lianngan tampi nih an tuah tawn mi hi mitam deuh caah cun hmankhawh asi lo. Cucu tthanchonak caah hin thawphit tu asi ti kan ruah. Cucaah, Project Common Voice timi hi mi vialte nih an holh cio in computer an hman khawh nak ding caah kan tuah mi asi.  
@@ -160,11 +160,11 @@ status-title = Kan tuah mi dihlak: kan tuah mi zoh ve!
 status-contribute = Na Aw rak tuun
 status-hours =
     { $hours ->
-       *[other] Tuun cang mi suimilam zat { $hours }
+       *[other] Tuun cang mi suimilam zat: { $hours }
     }
 # Variables:
 # $goal - number of hours representing the next goal
-status-goal = Tinh mi:{ $goal }
+status-goal = Tinhmi:{ $goal }
 english = Mirang
 
 ## ProfileForm
@@ -224,7 +224,7 @@ faq-source-a2 = Hi ka<dataLink> hin biatlang kan lak nak na zoh khawh.  </dataLi
 ## Profile
 
 profile-why-title = Zei ruang ah keimah sining cu a herh?
-profile-why-content = Nangmah kong kan theih deuh ah hin Common Voice nih na Aw hi ttha deuh le hman deuh in computer a chimh khawh lai.
+profile-why-content = Nangmah kong kan theih deuhnak thawngin Common Voice nih na Aw hi ttha deuh le hman deuh in computer a chimh khawh lai.
 
 ## NotFound
 
@@ -317,12 +317,12 @@ language-section-launched = Tuah cang mi
 language-section-launched-description = Hi holhphun kan thlah mi chung ah cun catlang tling tein le an mah le holh cio in ca kan tial cang, aw tuun <italic>{ speak }</italic> le <italic>{ listen }</italic> ngaih nak kan chiah. 
 languages-show-more = Tam deuh zoh 
 languages-show-less = Tawm deuh zoh
-language-speakers = Chimtu 
+language-speakers = Biachimtu 
 language-meter-in-progress = tthanchonak
 language-total-progress = Dihlak
 language-search-input =
     .placeholder = Kawlnak
-language-speakers = Chimtu 
+language-speakers = Biachimtu 
 localized = Holh leh mi
 sentences = Catlang
 total-hours = Suimilam Dihlak
