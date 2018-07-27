@@ -14,6 +14,7 @@ loading = لوڈ ہو رہا ہے…
 
 ## Languages
 
+an = ایراگونیز
 ar = عربى
 as = آسامی
 ast = اسٹورین
@@ -136,6 +137,11 @@ request-language-button = ایک زبان کی درخواست کریں
 
 status-title = مجموعی طور پر منصوبہ کی صورتحال: دیکھیں ہم کس حد تک آچکے ہیں!
 status-contribute = اپنی آواز عطیہ کریں
+status-hours =
+    { $hours ->
+        [one] اب تک ایک گھنٹے کی توژیق کاری ہوئی
+       *[other] اب تک { $hours } کی توژیق کاری ہوئی
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = اگلا حدف: { $goal }
@@ -226,6 +232,7 @@ review-submit-title = جائزہ لیں اور جمع کروائیں
 review-submit-msg = ریکارڈنگ کے لئے آپ کا شکریہ! <lineBreak> </lineBreak>اب مندرجہ ذیل  تراشوں کا جائزہ لیں اورجمع کروائیں۔
 review-recording = جائزہ لیں
 review-rerecord = دوبارہ ریکارڈ کریں
+review-cancel = جمع منسوخ کریں
 review-keep-recordings = ریکارڈنگ رکھیں
 review-delete-recordings = میری رکارڈنگ حزف کریں
 
