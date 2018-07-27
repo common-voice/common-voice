@@ -270,6 +270,7 @@ request-language-success-title = زبان کی درخواست کامیابی س�
 ## Languages Overview
 
 language-section-in-progress = پیش رفت جاری ہے
+language-section-launched-description = ان جاری شدہ زبانوں کی ویب سائٹس کا میابی سے ترجمہ کر دیا گیا ہے اور کافی جملے جمع کیئے جا چکے ہیں، جو کہ جاری شدہ <italic>{ speak }</italic> اور <italic>{ listen }</italic> حصہ داری کی اجازت دیتے ہیں
 languages-show-more = مزید دیکھیں
 languages-show-less = کم دیکھیں
 language-speakers = خطیب
