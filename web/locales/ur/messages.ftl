@@ -25,6 +25,7 @@ bxr = بریات
 ca = کیٹلان
 cnh = ہک چن
 cs = چيک
+cv = كوئیش
 cy = ویلش
 da = ‏‏ڈینیش
 de = جرمن
@@ -39,6 +40,7 @@ fr = فرانسیسی
 ga-IE = آئرش
 he = عبرانى
 hu = ‏‏ہنگارین
+ia = انٹرلنگوا
 id = ‏‏انڈونیشین
 is = آئس لينڈى
 it = اطالوی
@@ -49,6 +51,7 @@ ko = کوریائِی
 kw = کورناش
 ky = کرغز
 mk = مقدونیائی
+myv = ایرزیا
 ne-NP = نیپالی
 nl = ڈچ
 or = اوڈیا
@@ -192,7 +195,7 @@ faq-source-q = یہ ماخز متن کہاں سے آیا ہے؟
 ## Profile
 
 profile-why-title = ایک پروفائل کیوں؟
-profile-why-content = اپنے متعملق مولومات فراہم کر کہ صوتی کوائف جو آپ Common Voice میں جمع کرائیں گے وہ اسپیچ ریوکگنیشن  انجن کے لِئے مزید فائدہ مند ہوں گے حو اس کوائگف کا استعمال کرتے ہوئے اپنی مزید درستگی کریں گے۔
+profile-why-content = اپنے متعملق مولومات فراہم کر کہ صوتی کوائف جو آپ Common Voice میں جمع کرائیں گے وہ کلام شناسی انجن کے لِئے مزید فائدہ مند ہوں گے حو اس کوائگف کا استعمال کرتے ہوئے اپنی مزید درستگی کریں گے۔
 
 ## NotFound
 
@@ -205,6 +208,7 @@ data-download-button = Common Voice کے کوائف ڈائونلوڈ کریں
 data-download-yes = ہاں
 data-download-deny = نہیں
 data-download-license = لائسنس: <licenseLink>CC-0</licenseLink>
+data-get-started = <speechBlogLink>کلام شناسی کے ساتھ شروع کریں</speechBlogLink>
 data-other-goto = { $name } پر جائیں
 data-other-download = ڈائونلوڈ شدہ کوائف
 data-other-ted-name = TED-LIUM Corpus
