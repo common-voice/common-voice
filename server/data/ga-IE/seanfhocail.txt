@@ -34,7 +34,7 @@ Is iomaí cor sa saol
 Is iomaí slí muc a mharú seachas a thachtadh le him
 Is leor don dreoilín a nead
 Is leor nod don eolach
-Is maith a scéalaí an aimsir
+Is maith an scéalaí an aimsir
 Is maith an rud é go dtéann na bóithre i gCiarraí as Ciarraí
 Is maith an scáthán súil charad
 Is maith an t-anlann an t-ocras
@@ -54,13 +54,13 @@ Nuair a bhíonn an t-ól istigh, bíonn an chiall amuigh
 Ní bhíonn airgead amadáin i bhfad ina phóca
 Ní bhíonn saoi gan locht
 Ní hé lá na báistí lá na bpáistí
-Ní hé lá na gaoithe lá na scoilb
+Ní hé lá na gaoithe lá na scolb
 Ní mar a shíltear a bhítear
 Ní neart go cur le chéile
 Ní thagann ciall roimh aois
 Ní thuigeann an sách an seang
 Níl aon tinteán mar do thinteán féin
-Níl aon tóin tinn mar do thóin tinn féin
+Níl aon tóin thinn mar do thóin thinn féin
 Níor bhris focal maith fiacail riamh
 Pós bean ón sliabh agus pósfaidh tú an sliabh
 Sí capall na hoibre an bia
