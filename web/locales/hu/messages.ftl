@@ -24,6 +24,7 @@ bn = Bengáli
 br = Breton
 bxr = Burját
 ca = Katalán
+cak = Kacsikel
 cnh = Hakha Chin
 cs = Cseh
 cv = Csuvas
