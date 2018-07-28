@@ -282,6 +282,7 @@ language-total-progress = کل
 language-search-input =
     .placeholder = تلاش
 language-speakers = خطیب
+localized = لوکلائز شدہ
 sentences = جملے
 total-hours = کل گھنٹے
 
