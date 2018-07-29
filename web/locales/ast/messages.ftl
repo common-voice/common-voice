@@ -200,6 +200,7 @@ profile-explanation = Sigui'l to progresu con un perfil y ayuda a que los nuesos
 
 faq-title = Entrugues frecuentes
 faq-what-q = ¿Qué ye Common Voice?
+faq-what-a = La teunoloxía de reconocencia de voz podría revolucionar el mou nel qu'interactuamos coles máquines, pero los sistemes disponibles anguaño son caros y privativos. Common Voice ye un proyeutu pa facer d'accesu fácil la teunoloxía de reconocencia de voz a tol mundu. La xente empresta la so voz a una base de datos masiva que va permitir entrenar aína a les aplicaciones qu'usen la voz. Tolos datos de voz van tar disponibles pa los desendolcadores.
 faq-important-q = ¿Por qué ye importante?
 faq-important-a = La voz ye natural, la voz ye humana. Ye'l mou más cencielu y natural de comunicase. Queremos que los desendolcadores seyan a creen proyeutos ablucantes: dende  traductores en tiempu real hasta asistentes per voz. Pero pel momentu nun hai abondos datos disponibles públicamente pa crear esa triba d'aplicaciones. Esperamos que Common Voice forna a los desendolcadores lo que precisen pa innovar.
 faq-get-q = ¿Cómo pueo consiguir los datos de Common Voice?
@@ -260,6 +261,11 @@ review-delete-recordings = Desaniciar les mios grabaciones
 
 ## Download Modal
 
+download-title = Anicióse la descarga.
+download-helpus = Ayúdanos a construyir una comunidá alredor de la teunoloxía per voz, sigui en contautu per corréu.
+download-form-email =
+    .label = Introduz el to corréu
+    .value = Gracies, vamos tar en contautu.
 download-no = Non, gracies
 
 ## Contact Modal
@@ -314,6 +320,7 @@ record-three-more-instruction = ¡Tres p'acabar!
 record-again-instruction2 = ¡Sigui asina! Fai otra grabación <recordIcon></recordIcon>
 unable-speak = ¿Nun pues falar agora?
 record-submit-tooltip = { $actionType } unviar cuando termines
+record-abort-title = ¿Finar primero la grabación?
 record-abort-text = Si coles agora, vas perder el to progresu
 listen-3rd-time-instruction = 2 menos, ¡sigui asina!<playIcon></playIcon>
 nothing-to-validate = Nun tenemos nada pa revisar nesta llingua, ayúdanos a rellenar la cola.
