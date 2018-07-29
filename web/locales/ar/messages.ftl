@@ -168,3 +168,4 @@ record-no-mic-found = لم يُعثر على أي ميكروفون.
 
 ## New Contribution
 
+record-abort-submit = أرسل المقاطع
