@@ -218,7 +218,7 @@ faq-quality-a = Na Aw cu computer nih a theih khawh ding hi a biapi. Na mawtaw c
 faq-hours-q = Zei ruang ah dah nazi 10,000 renglo hi kan aw tun a herh?
 faq-hours-a = Hihi STT timi computer nih Laiholh cawnnak ding ah a herh mi suimilam zat asi. 
 faq-source-q = Khoi ka in dah biafang hi an rat?
-faq-source-a1 = Hi biatlang hna nih bawmchantu in siseh, mipi holhnak in, cun video holh mi,<italic> Kenneth Van Bik Dictionary </italic> ti bantuk in kan lak mi asi. 
+faq-source-a1 = Hi biatlang hna hi bawmchantu in siseh, mipi holhnak in, cun catial mi,<italic> Kenneth Van Bik Dictionary </italic> ti bantuk in kan lak mi asi. 
 faq-source-a2 = Hi ka<dataLink> hin biatlang kan lak nak na zoh khawh.  </dataLink> GitHub ah kan chiah.
 
 ## Profile
