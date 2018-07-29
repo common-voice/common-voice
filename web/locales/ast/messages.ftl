@@ -209,6 +209,7 @@ faq-get-q = ¿Cómo pueo consiguir los datos de Common Voice?
 faq-mission-q = ¿Por que Common Voice ye parte de la misión de Mozilla?
 faq-native-q = Nun soi un falante nativu de { $lang } y falo con acentu, ¿entá quedríeis la mio voz?
 faq-native-a = Sí, ¡claro que queremos la to voz! Parte del oxetivu de Common Voice ye atropar tantos acentos estremaos como seya posible, pa qu'asina los ordenadores puean entender meyor <bold>a tol mundu</bold> cuando fala.
+faq-firefox-a = Common Voice tien un potencial infinitu y tamos, de fechu, esplorando l'usu les interfaces per voz en munchos productos de Mozilla, incluyendo Firefox.
 faq-hours-a = Ye'l númberu aproximáu d'hores riquíes pa entrenar a un sistema STT en producción.
 faq-source-q = ¿D'ónde vien el testu fonte?
 faq-source-a1 = Les frases actuales vienen de donaciones de collaboradores, tamién de guiones de películes de dominiu públicu como <italic>It’s a Wonderful Life.</italic>
