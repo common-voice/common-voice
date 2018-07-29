@@ -10,5 +10,5 @@ get-involved-email =
 get-involved-opt-in = نعم أرسِلوا إلي الرسائل عبر البريد. أود أن أبقى على اطلاع عن سير هذه اللغة في «الصوت للعموم».
 get-involved-submit = أرسِل
 get-involved-privacy-info = نعدكم بأن نتعامل مع معلوماتكم بحذر شديد. اطلع على المزيد في <privacyLink>تنويه الخصوصية</privacyLink>.
-get-involved-success-title = لقد نجح التسجيل للمساهمة في { $language }. شكرا لك.
-get-involved-return-to-languages = عُد إلى اللغات
+get-involved-success-title = لقد قمت بالتسجيل للمساهمة في { $language }. شكرا لك.
+get-involved-return-to-languages = عُد إلى قائمة اللغات

@@ -1,12 +1,13 @@
 ## General
 
 yes-receive-emails = نعم أرسِلوا إلي الرسائل عبر البريد. أود أن أبقى على اطلاع عن مشروع «الصوت للعموم».
+stayintouch = نحن في موزيلا نقوم ببناء مجتمع حول تكنولوجيا الصوتيات.  نود البقاء على إتصال لاعلامكم بالتحديثات، ومصادر البيانات الجديدة ولمعرفة المزيد منكم عن كيفية استخدامكم لهذه البيانات.
 privacy-info = نعدكم بأن نتعامل مع معلوماتكم بحذر شديد. اطلع على المزيد في <privacyLink>تنويه الخصوصية</privacyLink>.
-return-to-cv = عُد إلى «الصوت للعموم»
+return-to-cv = العودة إلى «الصوت للعموم»
 email-input =
     .label = البريد الإلكتروني
 submit-form-action = أرسِل
-loading = يُحمّل…
+loading = جاري التحميل…
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -18,7 +19,9 @@ as = الأسّاميّة
 az = الأذربيجانيّة
 bn = البنغاليّة
 br = البريطونيّة
+bxr = البورية
 ca = الكاتالانيّة
+cak = الكاتشكيلية
 cs = التّشيكيّة
 cv = التشوفاش
 cy = الويلزيّة
