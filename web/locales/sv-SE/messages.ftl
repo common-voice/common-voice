@@ -24,6 +24,7 @@ bn = Bengaliska
 br = Bretonska
 bxr = Buryat
 ca = Katalanska
+cak = Cakchiquel
 cnh = Burmesiska
 cs = Tjeckiska
 cv = Tjuvasjiska
@@ -65,6 +66,7 @@ nn-NO = Norska, nynorska
 or = Odia
 pl = Polska
 pt-BR = Portugisiska (Brasilien)
+rm = Rätoromanska
 ro = Rumänska
 ru = Ryska
 sah = Sakha
@@ -106,6 +108,7 @@ share-title = Hjälp oss att hitta andra som är redo att bidra med sin röst!
 share-text = Hjälp till att lära maskiner hur riktiga människor pratar, donera din röst på { $link }
 link-copied = Länk kopierad
 back-top = Tillbaka till toppen av sidan
+contribution-banner-text = Det finns nu ett nytt sätt att samarbeta
 contribution-banner-button = Ta en titt
 report-bugs-link = Hjälp oss att rapportera buggar
 
@@ -321,6 +324,7 @@ language-search-input =
 language-speakers = Talas av
 localized = Översatt
 sentences = Meningar
+total-hours = Bekräftade timmar
 
 ## New Contribution
 
@@ -331,6 +335,8 @@ listen = Lyssna
 skip = Hoppa över
 shortcuts = Genvägar
 clips = Klipp
+goal-help-recording = Du har hjälp Common Voice att nå <goalPercentage></goalPercentage> av vårt dagliga { $goalValue } inspelningsmål!
+goal-help-validation = Du har hjälp Common Voice att nå <goalPercentage></goalPercentage> av vårt dagliga { $goalValue } valideringsmål!
 contribute-more =
     { $count ->
         [one] Redo att göra { $count } till?
