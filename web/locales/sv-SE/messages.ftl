@@ -324,7 +324,7 @@ language-search-input =
 language-speakers = Talas av
 localized = Översatt
 sentences = Meningar
-total-hours = Bekräftade timmar
+total-hours = Validerade timmar
 
 ## New Contribution
 
@@ -363,5 +363,6 @@ listen-instruction = { $actionType }<playIcon></playIcon> var meningen uttalad k
 listen-again-instruction = Bra jobbat!<playIcon></playIcon> Lyssna igen när du är redo
 listen-3rd-time-instruction = Två färdiga, <playIcon></playIcon> bra jobbat!
 listen-last-time-instruction = <playIcon></playIcon> Sista!
+nothing-to-validate = Vi har inget att validera på det här språket, hjälp oss att fylla kön.
 record-button-label = Spela in din röst
 share-title-new = <bold>Hjälp oss</bold> hitta mer röster
