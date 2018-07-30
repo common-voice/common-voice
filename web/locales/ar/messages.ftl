@@ -203,12 +203,17 @@ profile-create = أنشئ ملفا شخصيا
 profile-create-success = تم إنشاء الملف الشخصي بنجاح
 profile-close = إغلاق
 profile-clear-modal = إلغاء البيانات الشخصية يعني ان هذه البيانات الجغرافية لن ترفق مع تسجيلاتك الصوتية إلي «الصوت للعموم».
+profile-explanation = تابع تقدمك عن طريق انشاء حساب وساعد في تحسين المقاطع الصوتية الموجودة لدينا
 
 ## FAQ
 
 faq-title = الأسئلة الشائعة
 faq-what-q = ما «الصوت للعموم»؟
+faq-what-a = تكنولوجيا التعرف الصوتي يمكنها عمل ثورة في الطريق التي نتفاعل بها مع اللآلات، لكن الأنظمة الموجودة حاليا غالية الثمن وغير مجانية. "الصوت للعموم" هو مشروع لجعل تكنولوجيا التعرف الصوتي متاحة للجميع بسهولة. يقوم بعض الناس بالتبرع بأصواتهم بالمشاركة في قاعدة بيانات ضخمة التي ستمكن الجميع من تطوير تطبيقات تعتمد علي الصوت بسرعة وبسهولة. كل البيانات الصوتية سوف تكون متاحة للمطورين.
 faq-important-q = ما أهمية ذلك؟
+faq-important-a = الصوت يكون طبيعي، وهو انساني. أسهل وأكثر الطرق طبيعية للتواصل. نريد أن يكون المطورين قادرين علي بناء تطبيقات مبهرة، من الترجمة الفورية الي المساعد الشخصي القادر علي الكلام!. لكن حاليا لا يوجد بيانات متاحة للعامة لبناء مثل هذه التطبيقات. نأمل أن يوفر "الصوت للعموم" للمطورين ما يجتاجون.
+faq-get-q = كيف يمكن الحصول علي بيانات "الصوت للعموم"
+faq-get-a = مجموعة البيانات متاحة الآن من خلال <downloadLink>صفحة التحميل</downloadLink> تحت رخصة <licenseLink>CC-0</licenseLink> .
 
 ## Profile
 
@@ -217,27 +222,84 @@ profile-why-title = لماذا أحتاج ملفا شخصيا؟
 ## NotFound
 
 notfound-title = غير موجود
+notfound-content = أخشى أنني لا أعرف ما الذي تبحث عنه.
 
 ## Data
 
+data-download-yes = نعم
+data-download-deny = لا
+data-other-goto = إذهب إلى { $name }
+data-other-download = تحميل البيانات
+license = الترخيص: <licenseLink>{ $license }</licenseLink>
+license-mixed = مختلط
 
 ## Record Page
 
 record-must-allow-microphone = عليك السماح باستخدام الميكروفون.
+record-retry = إعادة المحاولة
 record-no-mic-found = لم يُعثر على أي ميكروفون.
+record-error-too-short = التسجيل كان قصيراً جداً.
+record-error-too-long = التسجيل كان طويلاً جداً.
+record-error-too-quiet = التسجيل كان منخفض الصوت جداً.
+record-submit-success = تم الإرسال بنجاح! هل تريد التسجيل مرة أخرى؟
+terms-agree = أوافق
+terms-disagree = لا أوافق
+review-submit-title = مراجعة وإرسال
+review-recording = مراجعة
+review-rerecord = إعادة تسجيل
+review-cancel = إلغاء الإرسال
+review-keep-recordings = احفظ التسجيلات
+review-delete-recordings = حذف تسجيلاتي
 
 ## Download Modal
 
+download-form-email =
+    .label = أدخل بريدك الإلكتروني
+    .value = شكرا، سوف نبقى على تواصل.
+download-no = لا شكراً
 
 ## Contact Modal
 
+contact-title = نموذج الإتصال
+contact-form-name =
+    .label = الإسم
+contact-form-message =
+    .label = الرسالة
+contact-required = *مطلوب
 
 ## Request Language Modal
 
+request-language-title = طلب لغة
+request-language-form-language =
+    .label = لغة
 
 ## Languages Overview
 
+languages-show-more = أظهر المزيد
+languages-show-less = أظهر أقل
+language-speakers = المتحدثين
+language-meter-in-progress = التقدم
+language-total-progress = الإجمالي
+language-search-input =
+    .placeholder = بحث
+language-speakers = المتحدثين
 
 ## New Contribution
 
+action-click = إنقر
+contribute = ساهِم
+listen = إستمع
+skip = تخطِ
+shortcuts = اختصارات
+record-cta = إبدأ التسجيل
+record-instruction = { $actionType }<recordIcon></recordIcon> ثم اقرأ الجملة بصوتٍ عالٍ
+record-last-instruction = <recordIcon></recordIcon> الأخير!
+unable-speak = لا تستطيع التحدث الآن؟
+record-abort-title = أنهِ التسجيل أولاً؟
 record-abort-submit = أرسل المقاطع
+record-abort-continue = إنهاء التسجيل
+listen-instruction = { $actionType }<playIcon></playIcon> هل نطقوا الجُملة بِدقّة؟
+listen-again-instruction = عمل رائع!<playIcon></playIcon> إستمع مجدداً عندما تكون مُستَعِداً
+listen-last-time-instruction = <playIcon></playIcon>الأخير!
+record-button-label = سجّل صوتك
+share-title-new = <bold>ساعدنا</bold> في العثور على المزيد من المتحدثين
