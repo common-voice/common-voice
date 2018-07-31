@@ -115,6 +115,13 @@ report-bugs-link = Raporti erarojn
 ## Home Page
 
 home-title = La projekto Common Voice estas iniciato de Mozilla por helpi instrui al maŝinoj, kiel veraj homoj parolas.
+show-wall-of-text = Pli da informo
+help-us-title = Helpu nin revizii frazojn!
+help-us-explain = Premu "ludi", aŭskultu kaj diru al ni: ĉu ili bone diris la suban frazon?
+no-clips-to-validate = Ŝajne estas neniu aŭskultebla voĉregistro en tiu ĉi lingvo. Helpu nin aldoni kelkajn nun, per registro de via voĉo.
+vote-yes = Jes
+vote-no = Ne
+toggle-play-tooltip = Premu { shortcut-play-toggle } por ludi/haltigi
 
 ## Speak & Listen Shortcuts
 
@@ -176,6 +183,9 @@ profile-close = Fermi
 
 ## FAQ
 
+faq-title = Oftaj demandoj
+faq-what-q = Kio estas Common Voice?
+faq-important-q = Kial tio gravas?
 
 ## Profile
 
