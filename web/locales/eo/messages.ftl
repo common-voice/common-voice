@@ -197,22 +197,31 @@ faq-native-a = Jes, ni ja volas vian voĉon! Parto de la celo de Common Voice es
 faq-firefox-q = Ĉu iam estos sistemo por traduki voĉon al tekston, ene de Firefox?
 faq-firefox-a = Common Voice havas senlimajn kapablojn kaj ni fakte jam esploras voĉajn fasadojn en pluraj produktoj de Mozilla, inter kiuj troviĝas Firefox.
 faq-quality-q = Kiu estas la kvalita nivelo, kiuj bezonas la sono por esti utila?
-faq-quality-a = Ni volas ke la sonkvalito estu tiel varia kiel tiu, kiun voĉrekonilo renkontos en normala ĉiutaga vivo. Tial, ni volas diversecon. Tio permesos al la voĉrekonilo la akuratan pritrakton de malsamaj situacioj: fonaj interparoloj, veturilan bruon, ventumilojn.
+faq-quality-a = Ni volas ke la sonkvalito estu tiel varia kiel tiu, kiun voĉrekonilo renkontos en normala ĉiutaga vivo. Tial, ni volas diversecon. Tio permesos al la voĉrekonilo la precizan pritrakton de malsamaj situacioj: fonaj interparoloj, veturilan bruon, ventumilojn.
 faq-hours-q = Kial celi 10.000 horojn da sonregistroj?
 faq-hours-a = Tiu estas la proksimuma kvanto da horoj bezonata por trejni bonkvalitan voĉrekonan sistemon.
 faq-source-q = El kie venas la tekstoj?
+faq-source-a1 = La nunaj tekstoj venas el kontribuantoj, kaj ankaŭ el dialogoj de filmoj, kies vortoj estas publika havaĵo, ekzemple <italic>It’s a Wonderful Life.</italic>
+faq-source-a2 = Vi povas vidi niajn fontajn tekstojn en <dataLink>tiu ĉi deponejo de GitHub</dataLink>.
 
 ## Profile
 
+profile-why-title = Kial krei profilon?
+profile-why-content = Kune kun kelkaj informoj pri vi, la sonregistraj datumoj kiujn vi sendas al Common Voice, estos pli utilaj por voĉrekoniloj kiuj uzas tiujn ĉi datumojn. Tiuj informoj helpas plibonigi la precizecon.
 
 ## NotFound
 
+notfound-title = Ne trovita
+notfound-content = Bedaŭrinde mi ne trovas tion, kion vi serĉas.
 
 ## Data
 
+data-download-button = Elŝuti datumojn de Common Voice
 data-download-yes = Jes
 data-download-deny = Ne
 data-download-license = Permesilo: <licenseLink>CC-0</licenseLink>
+data-download-modal = Vi pretas komenci elŝuton de <size>{ $size }GO</size>, ĉu vi volas daŭrigi?
+data-subtitle = Ni konstruas malfermitan kaj publike disponebla datumaro de vocoj, kiujn iu ajn povas uzi por trajni voĉakceptajn programojn.
 
 ## Record Page
 
