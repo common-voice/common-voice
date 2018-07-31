@@ -267,14 +267,20 @@ review-delete-recordings = Forigi miajn registrojn
 
 download-title = Via elŝuto komenciĝis.
 download-helpus = Helpu nin konstrui komunumon ĉirkaŭ voĉa teknikologio, ni restu en kontakto per retpoŝto.
+download-form-email =
+    .label = Tajpu vian retpoŝtan adreson
+    .value = Dankon, ni restos en kontakto.
+download-back = Reiri al la datumaroj de Common Voice
 download-no = Ne, dankon
 
 ## Contact Modal
 
+contact-title = Formularo de kontakto
 contact-form-name =
     .label = Nomo
 contact-form-message =
     .label = Mesaĝo
+contact-required = *postulata
 
 ## Request Language Modal
 
