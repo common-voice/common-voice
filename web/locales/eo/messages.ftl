@@ -222,6 +222,11 @@ data-download-deny = Ne
 data-download-license = Permesilo: <licenseLink>CC-0</licenseLink>
 data-download-modal = Vi pretas komenci elŝuton de <size>{ $size }GO</size>, ĉu vi volas daŭrigi?
 data-subtitle = Ni konstruas malfermitan kaj publike disponebla datumaro de vocoj, kiujn iu ajn povas uzi por trajni voĉakceptajn programojn.
+data-explanatory-text = Ni kredas ke grandaj kaj publike disponeblaj voĉaj datumaroj favoras novaĵkreemon kaj sanan komercan konkuron en voĉaj teknikologioj bazitaj sur maŝininstruado. Tiu ĉi estas tutmonda strebo, kaj ni invitas ĉiujn partopreni. Nia celo estas helpi voĉajn teknikologiojn iĝi pli inkluzivemaj, spegulante la diversecon de voĉoj el la tuta mondo.
+data-get-started = <speechBlogLink>Unuaj paŝoj en la voĉa rekono</speechBlogLink>
+data-other-title = Aliaj voĉaj datumaroj…
+data-other-goto = Iri al { $name }
+data-other-download = Elŝuti datumojn
 
 ## Record Page
 
