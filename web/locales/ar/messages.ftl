@@ -289,6 +289,7 @@ review-delete-recordings = حذف تسجيلاتي
 
 ## Download Modal
 
+download-title = لقد بدأ التحميل
 download-form-email =
     .label = أدخل بريدك الإلكتروني
     .value = شكرا، سوف نبقى على تواصل.
