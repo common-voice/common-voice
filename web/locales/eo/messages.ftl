@@ -197,6 +197,10 @@ faq-native-a = Jes, ni ja volas vian voĉon! Parto de la celo de Common Voice es
 faq-firefox-q = Ĉu iam estos sistemo por traduki voĉon al tekston, ene de Firefox?
 faq-firefox-a = Common Voice havas senlimajn kapablojn kaj ni fakte jam esploras voĉajn fasadojn en pluraj produktoj de Mozilla, inter kiuj troviĝas Firefox.
 faq-quality-q = Kiu estas la kvalita nivelo, kiuj bezonas la sono por esti utila?
+faq-quality-a = Ni volas ke la sonkvalito estu tiel varia kiel tiu, kiun voĉrekonilo renkontos en normala ĉiutaga vivo. Tial, ni volas diversecon. Tio permesos al la voĉrekonilo la akuratan pritrakton de malsamaj situacioj: fonaj interparoloj, veturilan bruon, ventumilojn.
+faq-hours-q = Kial celi 10.000 horojn da sonregistroj?
+faq-hours-a = Tiu estas la proksimuma kvanto da horoj bezonata por trejni bonkvalitan voĉrekonan sistemon.
+faq-source-q = El kie venas la tekstoj?
 
 ## Profile
 
