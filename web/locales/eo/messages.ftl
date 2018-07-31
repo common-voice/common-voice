@@ -103,9 +103,18 @@ privacy = Privateco
 terms = Kondiĉoj
 cookies = Kuketoj
 faq = Oftaj demandoj
+content-license-text = Enhavo disponebla sub <licenseLink>permesilo Creative Commons</licenseLink>
+share-title = Helpu nin trovi aliajn, kiuj volos donaci siajn voĉojn!
+share-text = Helpu instrui al maŝinoj, kiel veraj homoj parolas, donacu vian voĉon ĉe { $link }
+link-copied = Ligilo kopiita
+back-top = Reen al la supro
+contribution-banner-text = Ni ĵus lanĉis novan kontribuan sperton
+contribution-banner-button = Provi
+report-bugs-link = Raporti erarojn
 
 ## Home Page
 
+home-title = La projekto Common Voice estas iniciato de Mozilla por helpi instrui al maŝinoj, kiel veraj homoj parolas.
 
 ## Speak & Listen Shortcuts
 
