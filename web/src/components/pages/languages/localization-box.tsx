@@ -16,7 +16,7 @@ import ProgressBar from '../../progress-bar/progress-bar';
 import { Hr } from '../../ui/ui';
 import GetInvolvedModal from './get-involved-modal';
 
-const SENTENCE_COUNT_TARGET = 500;
+const SENTENCE_COUNT_TARGET = 5000;
 const HOURS_TARGET = 1200;
 
 function Skeleton({
