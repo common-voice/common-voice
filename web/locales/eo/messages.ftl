@@ -191,6 +191,12 @@ faq-important-a = Voĉo estas natura, voĉo estas homa. Estas la plej facila kaj
 faq-get-q = Kiel mi povas ricevi la datumojn de Common Voice?
 faq-get-a = La datumaro disponeblas nun en nia <downloadLink>paĝo por elŝutoj</downloadLink>, sub la permesilo <licenseLink>CC-0</licenseLink>.
 faq-mission-q = Kial Common Voice estas parto de la misio de Mozilla?
+faq-mission-a = Mozilla dediĉas sin al la tasko, gardi la teksaĵon malfermita kaj alirebla de ĉiuj. Por fari tion ni bezonas doni povon al la teksaĵaj kreantoj, per projektoj kiel Common Voice. En la momento kiam voĉaj teknikologoj komencas eliri el la iamaj malvastaj aplikoj, ni sentas ke ni devas same apogi ĉiujn uzantojn. Ni sentas la urĝon aldoni pli da lingvoj, akĉentoj kaj aĝtavoloj al la kreado kaj testado de novaj voĉaj teknikologioj. Mozillas volas vidi sanan kaj vigan interreton, kaj por tio oni devas doni al novaj kreantoj aliron al voĉaj datumoj, tiel ke ili povas konstrui novajn, eksterordinarajn projektojn. Common Voice estos publika rimedo, kiu cetere helpos teamojn kaj programistoj de Mozilla ĉirkaŭ la mondo.
+faq-native-q = Mi estas nedenaskulo de la { $lang } kaj mi parolas akĉente, ĉu vi tamen volas mian voĉon?
+faq-native-a = Jes, ni ja volas vian voĉon! Parto de la celo de Common Voice estas kolekti kiom eble plej multe da akĉentoj, tiel ke komputiloj povos pli bone kompreni <bold>ĉiujn</bold> kiam ili parolas.
+faq-firefox-q = Ĉu iam estos sistemo por traduki voĉon al tekston, ene de Firefox?
+faq-firefox-a = Common Voice havas senlimajn kapablojn kaj ni fakte jam esploras voĉajn fasadojn en pluraj produktoj de Mozilla, inter kiuj troviĝas Firefox.
+faq-quality-q = Kiu estas la kvalita nivelo, kiuj bezonas la sono por esti utila?
 
 ## Profile
 
