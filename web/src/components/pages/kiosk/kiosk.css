@@ -1,0 +1,46 @@
+@import url('../../vars.css');
+
+@media (--md-down) {
+    #common-voice-kiosk {
+        top: 5.5rem;
+        width: 100%;
+        text-align: center;
+
+        & h1 {
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            width: auto;
+        }
+    }
+}
+
+@media (--md-up) {
+    #common-voice-kiosk {
+        top: 10rem;
+        text-align: end;
+    }
+}
+
+#kiosk-container {
+    & .kiosk a {
+        font-size: var(--font-size-small);
+        font-weight: 600;
+        text-decoration: underline;
+    }
+}
+
+#common-voice-kiosk {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+
+    & h1 {
+        color: white;
+        font-size: 2.4rem;
+    }
+}

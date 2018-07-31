@@ -392,4 +392,17 @@ nothing-to-validate = We don't have anything to validate in this language, help 
 record-button-label = Record your voice
 share-title-new = <bold>Help us</bold> find more voices
 
-
+## Kiosk
+kiosk-wizard-welcome = Welcome to the Kiosk Experience for Common Voice.
+kiosk-wizard-start = The goal is to introduce you to the objectives pursued by Common Voice and help us collect and validate data. We will ask you some informations to get in touch with you later.
+kiosk-wizard-continue = Thanks for experimeting our Kiosk Experience, you will be able to record yourself and then validate others' sentences
+kiosk-wizard-intro = Common Voice aims at collecting speech-related data to empower people to produce their own speech recognition and synthesis systems. The data is being collected under a Public Domain-compatible licence, CC-0. This allows for any re-use. When participating in this collection of data, you can record yourself being presented a small sentence of text and/or listen to others' recording to verify them. You can contribute as low as 5 sentences in both cases. It would be awesome if you can help us spread the word and come back on a regular basis: we will ensure to augment the set of sentences to speak so you don't get bored.
+kiosk-wizard-email = We want to be able to get in touch with you later, that is why we ask you to share us your email. This will never be sold and only be used by us to contact you after your Kiosk Experiment.
+kiosk-email-submit = Continue
+kiosk-wizard-submit = Start contributing
+kiosk-record-submit = Continue
+kiosk-record-ok = Thanks for recording sentences with us! We will now continue with validation of a few existing sentences.
+kiosk-listen-submit = Finish
+kiosk-listen-ok = Thanks for validating sentences! Those few minutes helped a lot of the Common Voice folks!
+kiosk-wizard-congrats = We have now been able to record your contribution, and we are ready to take someone else's!
+kiosk-wizard-finish = Finish

@@ -7,6 +7,7 @@ import {
   LocalePropsFromState,
 } from '../locale-helpers';
 import DataPage from '../pages/data/data';
+import KioskPage from '../pages/kiosk/kiosk';
 import FAQPage from '../pages/faq';
 import HomePage from '../pages/home/home';
 import LanguagesPages from '../pages/languages/languages';
@@ -52,6 +53,7 @@ export default localeConnector(
           component={LanguagesPages}
         />
         <Route exact path={toLocaleRoute(URLS.DATA)} component={DataPage} />
+        <Route exact path={toLocaleRoute(URLS.KIOSK)} component={KioskPage} />
         <Route
           exact
           path={toLocaleRoute(URLS.PROFILE)}

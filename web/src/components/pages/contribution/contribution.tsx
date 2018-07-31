@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 const { Tooltip } = require('react-tippy');
 import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';
+import { KioskProgress } from '../../../stores/kioskProgress';
 import { trackListening, trackRecording } from '../../../services/tracker';
 import URLS from '../../../urls';
 import { LocaleLink, LocaleNavLink } from '../../locale-helpers';
@@ -36,6 +37,7 @@ export interface ContributionPillProps {
 
 interface PropsFromState {
   locale: Locale.State;
+  kioskProgress: KioskProgress.State;
 }
 
 interface Props extends LocalizationProps, PropsFromState {
@@ -180,6 +182,7 @@ class ContributionPage extends React.Component<Props, State> {
   render() {
     const { errorContent, getString, isSubmitted, type } = this.props;
     const { showShareModal, showShortcutsModal } = this.state;
+    const { wizardFinished } = this.props.kioskProgress;
 
     return (
       <div
@@ -212,18 +215,22 @@ class ContributionPage extends React.Component<Props, State> {
             this.isDone ? 'submittable' : '',
           ].join(' ')}>
           <div className="top">
-            <LocaleLink to={URLS.ROOT} className="back">
-              <ArrowLeft />
-            </LocaleLink>
+            {!wizardFinished && (
+              <div>
+                <LocaleLink to={URLS.ROOT} className="back">
+                  <ArrowLeft />
+                </LocaleLink>
 
-            <div className="links">
-              <Localized id="speak">
-                <LocaleNavLink to={URLS.SPEAK} />
-              </Localized>
-              <Localized id="listen">
-                <LocaleNavLink to={URLS.LISTEN} />
-              </Localized>
-            </div>
+                <div className="links">
+                  <Localized id="speak">
+                    <LocaleNavLink to={URLS.SPEAK} />
+                  </Localized>
+                  <Localized id="listen">
+                    <LocaleNavLink to={URLS.LISTEN} />
+                  </Localized>
+                </div>
+              </div>
+            )}
 
             {this.isLoaded && !errorContent ? (
               <div className={'counter ' + (isSubmitted ? 'done' : '')}>
@@ -424,6 +431,9 @@ class ContributionPage extends React.Component<Props, State> {
   }
 }
 
-export default connect<PropsFromState>(({ locale }: StateTree) => ({ locale }))(
-  withLocalization(ContributionPage)
-);
+export default connect<PropsFromState>(
+  ({ locale, kioskProgress }: StateTree) => ({
+    locale,
+    kioskProgress,
+  })
+)(withLocalization(ContributionPage));

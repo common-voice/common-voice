@@ -9,6 +9,7 @@ import { Sentences } from '../../../../stores/sentences';
 import StateTree from '../../../../stores/tree';
 import { Uploads } from '../../../../stores/uploads';
 import { User } from '../../../../stores/user';
+import { KioskProgress } from '../../../../stores/kioskProgress';
 import API from '../../../../services/api';
 import { trackRecording } from '../../../../services/tracker';
 import URLS from '../../../../urls';
@@ -78,6 +79,7 @@ interface PropsFromState {
   locale: Locale.State;
   sentences: Sentences.Sentence[];
   user: User.State;
+  kioskProgress: KioskProgress.State;
 }
 
 interface PropsFromDispatch {
@@ -86,6 +88,7 @@ interface PropsFromDispatch {
   removeSentences: typeof Sentences.actions.remove;
   tallyRecording: typeof User.actions.tallyRecording;
   updateUser: typeof User.actions.update;
+  updateKiosk: typeof KioskProgress.actions.update;
 }
 
 interface Props
@@ -310,6 +313,7 @@ class SpeakPage extends React.Component<Props, State> {
       removeSentences,
       tallyRecording,
       user,
+      updateKiosk,
     } = this.props;
 
     if (!hasAgreed && !user.privacyAgreed) {
@@ -343,6 +347,7 @@ class SpeakPage extends React.Component<Props, State> {
         }
       }),
       async () => {
+        updateKiosk({ recordFinished: true });
         await api.syncDemographics();
         trackRecording('submit', locale);
         addNotification(
@@ -547,6 +552,7 @@ const mapStateToProps = (state: StateTree) => {
     locale: state.locale,
     sentences: Sentences.selectors.localeSentences(state),
     user: state.user,
+    kioskProgress: state.kioskProgress,
   };
 };
 
@@ -556,6 +562,7 @@ const mapDispatchToProps = {
   removeSentences: Sentences.actions.remove,
   tallyRecording: User.actions.tallyRecording,
   updateUser: User.actions.update,
+  updateKiosk: KioskProgress.actions.update,
 };
 
 export default withRouter(
