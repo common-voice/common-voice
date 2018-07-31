@@ -5,7 +5,9 @@ import { trackListening } from '../../../../services/tracker';
 import { Clips } from '../../../../stores/clips';
 import { Locale } from '../../../../stores/locale';
 import StateTree from '../../../../stores/tree';
+import { KioskProgress } from '../../../../stores/kioskProgress';
 import URLS from '../../../../urls';
+import { RouteComponentProps, withRouter } from 'react-router';
 import NormalizedPlayer from '../../../normalized-player';
 import {
   CheckIcon,
@@ -16,7 +18,7 @@ import {
   ThumbsUpIcon,
   VolumeIcon,
 } from '../../../ui/icons';
-import { LinkButton } from '../../../ui/ui';
+import { LinkButton, Button } from '../../../ui/ui';
 import ContributionPage, {
   ContributionPillProps,
   SET_COUNT,
@@ -45,14 +47,20 @@ interface PropsFromState {
   clips: Clips.Clip[];
   isLoading: boolean;
   locale: Locale.State;
+  kioskProgress: KioskProgress.State;
 }
 
 interface PropsFromDispatch {
   removeClip: typeof Clips.actions.remove;
   vote: typeof Clips.actions.vote;
+  startKiosk: typeof KioskProgress.actions.start;
+  nextKiosk: typeof KioskProgress.actions.next;
 }
 
-interface Props extends PropsFromState, PropsFromDispatch {}
+interface Props
+  extends PropsFromState,
+    PropsFromDispatch,
+    RouteComponentProps<any> {}
 
 interface State {
   clips: (Clips.Clip & { isValid?: boolean })[];
@@ -126,6 +134,7 @@ class ListenPage extends React.Component<Props, State> {
   };
 
   private vote = (isValid: boolean) => {
+    const { nextKiosk } = this.props;
     const { clips } = this.state;
     const clipIndex = this.getClipIndex();
 
@@ -140,6 +149,8 @@ class ListenPage extends React.Component<Props, State> {
         (clip, i) => (i === clipIndex ? { ...clip, isValid } : clip)
       ),
     });
+
+    nextKiosk(KioskProgress.Status.listeningCompleted);
   };
 
   private voteYes = () => {
@@ -174,6 +185,14 @@ class ListenPage extends React.Component<Props, State> {
     });
   };
 
+  private listenFinish = (event: React.FormEvent<HTMLFormElement>) => {
+    const { nextKiosk } = this.props;
+
+    event.preventDefault();
+    nextKiosk(KioskProgress.Status.listeningCompleted);
+    this.props.history.push(URLS.KIOSK);
+  };
+
   private reset = () => this.setState(initialState);
 
   render() {
@@ -184,6 +203,9 @@ class ListenPage extends React.Component<Props, State> {
       isPlaying,
       isSubmitted,
     } = this.state;
+
+    const { kioskState } = this.props.kioskProgress;
+
     const clipIndex = this.getClipIndex();
     const activeClip = clips[clipIndex];
     return (
@@ -207,6 +229,13 @@ class ListenPage extends React.Component<Props, State> {
                       <span />
                     </Localized>
                   </LinkButton>
+                  {kioskState == KioskProgress.Status.recordingCompleted && (
+                    <form onSubmit={this.listenFinish}>
+                      <Localized id="kiosk-listen-submit">
+                        <Button type="submit" rounded />
+                      </Localized>
+                    </form>
+                  )}
                 </div>
               </div>
             )
@@ -304,12 +333,15 @@ const mapStateToProps = (state: StateTree) => {
     clips,
     isLoading,
     locale: state.locale,
+    kioskProgress: state.kioskProgress,
   };
 };
 
 const mapDispatchToProps = {
   removeClip: Clips.actions.remove,
   vote: Clips.actions.vote,
+  startKiosk: KioskProgress.actions.start,
+  nextKiosk: KioskProgress.actions.next,
 };
 
 export default connect<PropsFromState, PropsFromDispatch>(

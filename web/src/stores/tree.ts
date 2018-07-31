@@ -5,6 +5,7 @@ import { Notifications } from './notifications';
 import { Sentences } from './sentences';
 import { RequestedLanguages } from './requested-languages';
 import { Uploads } from './uploads';
+import { KioskProgress } from './kioskProgress';
 import { User } from './user';
 
 export default interface StateTree {
@@ -17,4 +18,5 @@ export default interface StateTree {
   sentences: Sentences.State;
   uploads: Uploads.State;
   user: User.State;
+  kioskProgress: KioskProgress.State;
 };
