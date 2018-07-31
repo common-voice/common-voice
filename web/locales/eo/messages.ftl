@@ -227,12 +227,46 @@ data-get-started = <speechBlogLink>Unuaj paŝoj en la voĉa rekono</speechBlogLi
 data-other-title = Aliaj voĉaj datumaroj…
 data-other-goto = Iri al { $name }
 data-other-download = Elŝuti datumojn
+data-other-librispeech-description = LibriSpeech estas kolekto de proksimume 1000 horoj de legado en la angla, registrita je 16Khz, kiu venas el aŭdlibroj de la projekto LibriVox.
+data-other-ted-name = Kolekto TED-LIUM
+data-other-ted-description = La kolekto TED-LIUM estis farita el prelegoj kaj ĝiaj transskriboj, disponeblaj en la retejo de TED.
+data-other-voxforge-description = VoxForge estis kreita kun la celo kolekti transskribitaj paroladoj, tiel ke ili estos uzeblaj de liberaj kaj malfermitkodaj voĉrekoniloj.
+data-other-tatoeba-description = Tatoeba estas granda datumbazo de frazoj, tradukoj kaj voĉaj registroj, por esti uzata dum lernado de lingvoj. Tiu ĉi elŝuto enhavas parolatan anglan, kiun registris ilia komunumo.
+data-bundle-button = Elŝuti kolekto da datumaroj
+data-bundle-description = Datumoj de Common Voice kaj ĉiuj aliaj supraj voĉaj datumaroj.
+license = Permesilo: <licenseLink>{ $license }</licenseLink>
+license-mixed = Miksita
 
 ## Record Page
 
+record-platform-not-supported = Bedaŭrinde via sistemo ne estas subtenata.
+record-platform-not-supported-desktop = En komputiloj sribotablaj, vi povas elŝuti la lastajn:
+record-platform-not-supported-ios = Uzantoj de <bold>iOS</bold> povas elŝuti nian senpagan programon:
+record-must-allow-microphone = Vi devas permesi aliron al la mikrofono.
+record-retry = Reprovi
+record-no-mic-found = Neniu mikrofono trovita.
+record-error-too-short = La registro estis tro mallonga.
+record-error-too-long = La registro estis tro longa.
+record-error-too-quiet = La registro estis tro silenta.
+record-submit-success = Sendo sukcesa! Ĉu vi volas fari alian registron?
+record-help = Bonvolu tuŝeti por registri, kaj poste legu laŭte la supran frazon.
+record-cancel = Nuligi reregistron
+review-terms = Per la uzo de Common Voice vi akceptas niajn <termsLink>kondiĉojn</termsLink> kaj <privacyLink>privatecan rimarkon</privacyLink>
+terms-agree = Mi akceptas
+terms-disagree = Mi ne akceptas
+review-aborted = Alŝuto nuligita. Ĉu vi volas forigi viajn registrojn?
+review-submit-title = Revizii kaj sendi
+review-submit-msg = Dankon pro via registro!<lineBreak></lineBreak>Vi povas nun revizii kaj sendi viajn subajn registrojn.
+review-recording = Revizii
+review-rerecord = Registri denove
+review-cancel = Nuligi sendon
+review-keep-recordings = Gardi la registrojn
+review-delete-recordings = Forigi miajn registrojn
 
 ## Download Modal
 
+download-title = Via elŝuto komenciĝis.
+download-helpus = Helpu nin konstrui komunumon ĉirkaŭ voĉa teknikologio, ni restu en kontakto per retpoŝto.
 download-no = Ne, dankon
 
 ## Contact Modal
