@@ -185,7 +185,12 @@ profile-close = Fermi
 
 faq-title = Oftaj demandoj
 faq-what-q = Kio estas Common Voice?
+faq-what-a = Teknikologio por rekoni voĉon povus tute ŝanĝi la manieron, kiel ni interagas kun maŝinoj. Sed la nune disponeblaj sistemas estas kaj multekostaj kaj nelibera. Common Voice estas projekto kiu celas igi la voĉrekonan teknikologion facile alirebla de ĉiuj. Personoj donacas siajn voĉojn al grandega datumbazo, kiu permesos al ĉiuj rapide kaj facile trejni programojn, kiuj kapablas uzi voĉon. Ĉiuj datumoj estos disponeblaj por la programistoj.
 faq-important-q = Kial tio gravas?
+faq-important-a = Voĉo estas natura, voĉo estas homa. Estas la plej facila kaj plej natura maniero komunikiĝi. Ni volas ke programistoj povu krei ravajn projektojn, ĉu samtempajn tradukistojn, ĉu administrajn helpantojn kapablaj uzi voĉon. Sed nuntempe ne ekzistas sufiĉe publike disponeblaj datumoj por krei tiajn projektojn. Ni esperas ke Common Voice donos al programistoj tion, kion ili bezonas por krei novajn aferojn.
+faq-get-q = Kiel mi povas ricevi la datumojn de Common Voice?
+faq-get-a = La datumaro disponeblas nun en nia <downloadLink>paĝo por elŝutoj</downloadLink>, sub la permesilo <licenseLink>CC-0</licenseLink>.
+faq-mission-q = Kial Common Voice estas parto de la misio de Mozilla?
 
 ## Profile
 
