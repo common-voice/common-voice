@@ -1,10 +1,10 @@
 Tá an leabhar ar an mbord.
 Thosaigh an cruinniú ar a deich a chlog.
 Ní hamháin.
-I dtús a shaol.
+I dtús a shaoil.
 Ba dhúthrachtach an múinteoir í.
 Cosc ar thobac.
-Is mar gheall ar sin.
+Is mar gheall air sin.
 Ceithre bliana.
 Ar feadh scaithimh.
 Ag scríobh na litreach.
@@ -25,7 +25,7 @@ Tá sé ina sheasamh ag bun na sráide.
 Tá sí ag imirt i lár na páirce.
 Ní chaitheann siad drugaí.
 Tá sé ag cur báistí.
-Bheadh an Rialtas reidh leis an bhfreagra.
+Bheadh an Rialtas réidh leis an bhfreagra.
 Ní dóigh liom go dtabharfaí post dó.
 Tabhair don bhean sin é.
 Ná habair faic faoi.
@@ -33,7 +33,7 @@ Dún do chlab.
 Dún do bhéal.
 Tá an fhuinneog ar oscailt.
 An réamhrá leis an gcéad eagrán.
-An treoir le haghaidh scríbhneoireacht.
+An treoir le haghaidh scríbhneoireachta.
 Acmhainn de shaghas a bhí ann.
 Is don phobal atá sé.
 Le haghaidh na scríbhneoireachta oifigiúla.
@@ -43,7 +43,7 @@ Céad bliain ó foilsíodh an leabhar.
 Rinne sé é gan aon mhoill.
 Chuaigh siad i gcomhairle a chéile.
 Thug sí an dá leabhar dom.
-Lorgadh aighneachtaí ar an bpobal.
+Lorgaíodh aighneachtaí ar an bpobal.
 Na daoine dá dtagraítear san alt.
 D'iarr sí go gcuirfí leaba ar fáil.
 Gach duine, tusa go háirithe.
