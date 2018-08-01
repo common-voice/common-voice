@@ -66,6 +66,7 @@ nn-NO = norvegiano nynorsk
 or = odia
 pl = polonese
 pt-BR = portugese (Brasil)
+rm = Romancio
 ro = romaniano
 ru = russo
 sah = sacha
