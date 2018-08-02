@@ -115,6 +115,8 @@ report-bugs-link = Raporti erarojn
 ## Home Page
 
 home-title = La projekto Common Voice estas iniciato de Mozilla por helpi instrui al maŝinoj, kiel veraj homoj parolas.
+home-cta = Donacu vian voĉon, kontribuu ĉi tie!
+wall-of-text-start = Voĉo estas natura, voĉo estas homa. Tial ni volegas krei uzeblajn voĉajn teknikologiojn por niaj maŝinoj. Sed por krei voĉajn sistemojn, tre granda kvanto da voĉaj registroj estas postulata.
 show-wall-of-text = Pli da informo
 help-us-title = Helpu nin revizii frazojn!
 help-us-explain = Premu "ludi", aŭskultu kaj diru al ni: ĉu ili bone diris la suban frazon?
