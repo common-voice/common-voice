@@ -134,13 +134,22 @@ shortcut-skip = I
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = l
 shortcut-play-toggle-label = Ludi / Haltigi
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = i
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
 shortcut-record-toggle-label = Registri / Haltigi
 request-language-text = Ĉu vi ne vidas vian lingvon en Common Voice?
 request-language-button = Peti lingvon
@@ -168,7 +177,7 @@ profile-form-username =
 profile-form-language =
     .label = Lingvo
 profile-form-accent =
-    .label = Elparolmaniero
+    .label = Akĉento
 profile-form-age =
     .label = Aĝo
 profile-form-gender =
@@ -230,7 +239,7 @@ data-download-yes = Jes
 data-download-deny = Ne
 data-download-license = Permesilo: <licenseLink>CC-0</licenseLink>
 data-download-modal = Vi pretas komenci elŝuton de <size>{ $size }GO</size>, ĉu vi volas daŭrigi?
-data-subtitle = Ni konstruas malfermitan kaj publike disponeblan datumaron de vocoj, kiujn iu ajn povas uzi por trajni voĉakceptajn programojn.
+data-subtitle = Ni konstruas malfermitan kaj publike disponeblan datumaron de vocoj, kiujn iu ajn povas uzi por trejni voĉakceptajn programojn.
 data-explanatory-text = Ni kredas ke grandaj kaj publike disponeblaj voĉaj datumaroj favoras novaĵkreemon kaj sanan komercan konkuron en voĉaj teknikologioj bazitaj sur maŝininstruado. Tiu ĉi estas tutmonda strebo, kaj ni invitas ĉiujn partopreni. Nia celo estas helpi voĉajn teknikologiojn iĝi pli inkluzivemaj, spegulante la diversecon de voĉoj el la tuta mondo.
 data-get-started = <speechBlogLink>Unuaj paŝoj en voĉa rekono</speechBlogLink>
 data-other-title = Aliaj voĉaj datumaroj…
