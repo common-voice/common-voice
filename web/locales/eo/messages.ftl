@@ -118,6 +118,7 @@ home-title = La projekto Common Voice estas iniciato de Mozilla por helpi instru
 home-cta = Donacu vian voĉon, kontribuu ĉi tie!
 wall-of-text-start = Voĉo estas natura, voĉo estas homa. Tial ni volegas krei uzeblajn voĉajn teknikologiojn por niaj maŝinoj. Sed por krei voĉajn sistemojn, tre granda kvanto da voĉaj registroj estas postulata.
 wall-of-text-more-mobile = La plimulto de la datumoj uzataj de grandaj kompanioj ne estas estas uzeblaj de iu ajn. Ni pensas ke tio sufokas novaĵkreemon. Tial ni lanĉis la projekton Common Voice, kiu helpas malfermi la pordojn de voĉrekono al ĉiuj.
+wall-of-text-more-desktop = Nun vi povas donaci vian voĉon por helpi nin konstrui malfermitkodan voĉan datumbazo, kiun iuj ajn rajtas uzi por krei novajn programojn por aparatoj kaj por la reto.<lineBreak></lineBreak>Legu frazon por helpi maŝinojn kompreni kiel parolas veraj personoj. Kontrolu la laboron de aliaj kontribuantoj por plibonigi la kvaliton. Estas tiel simple!
 show-wall-of-text = Pli da informo
 help-us-title = Helpu nin revizii frazojn!
 help-us-explain = Premu "ludi", aŭskultu kaj diru al ni: ĉu ili bone diris la suban frazon?
@@ -128,6 +129,8 @@ toggle-play-tooltip = Premu { shortcut-play-toggle } por ludi/haltigi
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = I
 
 ## Listen Shortcuts
 
@@ -179,6 +182,7 @@ female = Ina
 # Gender
 other = Alia
 why-profile-title = Kial krei profilon?
+why-profile-text = Se vi donas al ni kelkajn informojn pri vi, viaj sonregistraĵoj en Common Voice, estos pli utilaj por voĉrekoniloj kiuj uzas tiujn informojn por plibonigi la precizecon.
 edit-profile = Modifi profilon
 profile-create = Krei profilon
 profile-create-success = Sukceso, profilo kreita!
@@ -210,7 +214,7 @@ faq-source-a2 = Vi povas vidi niajn fontajn tekstojn en <dataLink>tiu ĉi depone
 ## Profile
 
 profile-why-title = Kial krei profilon?
-profile-why-content = Kune kun kelkaj informoj pri vi, la sonregistraj datumoj kiujn vi sendas al Common Voice, estos pli utilaj por voĉrekoniloj kiuj uzas tiujn ĉi datumojn. Tiuj informoj helpas plibonigi la precizecon.
+profile-why-content = Se vi donas al ni kelkajn informojn pri vi, viaj sonregistraĵoj en Common Voice, estos pli utilaj por voĉrekoniloj kiuj uzas tiujn informojn por plibonigi la precizecon.
 
 ## NotFound
 
@@ -291,15 +295,60 @@ request-language-title = Propono de lingvo
 request-language-form-language =
     .label = Lingvo
 request-language-success-title = La propono de lingvo estis sukcese sendita, dankon.
+request-language-success-content = Ni baldaŭ skribos al vi kun pli da informo pri la aldono de via lingvo al Common Voice.
 
 ## Languages Overview
 
 language-section-launched = Lanĉita
 languages-show-more = Vidi pli
 languages-show-less = Vidi malpli
+language-speakers = Parolantoj
 language-meter-in-progress = Progreso
+language-total-progress = Entute
+language-search-input =
+    .placeholder = Serĉi
+language-speakers = Parolantoj
+localized = Tradukita
+sentences = Frazoj
+total-hours = Reviziitaj horoj
 
 ## New Contribution
 
+action-click = Alklaku
+action-tap = Tuŝetu
+contribute = Kontribui
+listen = Aŭskulti
 skip = Ignori
+shortcuts = Ŝparvojoj
+clips = Voĉregistroj
+goal-help-recording = Vi helpis Common Voice atingi <goalPercentage></goalPercentage> de nia ĉiutaga { $goalValue } registra celo!
+goal-help-validation = Vi helpis Common Voice atingi <goalPercentage></goalPercentage> de nia ĉiutaga { $goalValue } revizia celo!
+contribute-more =
+    { $count ->
+        [one] Ĉu vi pretas fari unu plian?
+       *[other] Ĉu vi pretas fari { $count }  pli?
+    }
+record-cta = Komenci registron
+record-instruction = { $actionType }<recordIcon></recordIcon> kaj poste legu la frazon laŭte
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> kiam vi finos
+record-three-more-instruction = Restas nur tri!
+record-again-instruction = Bonege!<recordIcon></recordIcon>Faru vian venontan voĉregistron
+record-again-instruction2 = Daŭrigu tiel, registru denove <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Lasta!
+review-tooltip = Dume, revizii kaj refari voĉregistrojn
+unable-speak = Ĉu vi ne povas paroli nun?
+review-instruction = Revizii kaj refari voĉregistrojn se bezonatas
+record-submit-tooltip = { $actionType } sendi kiam vi pretas
+clips-uploaded = Alŝutitaj voĉregistroj
+record-abort-title = Ĉu unue fini la registron?
+record-abort-text = Se vi foriras nun, vi perdos vian progreson
+record-abort-submit = Sendi voĉregistrojn
+record-abort-continue = Fini registron
+record-abort-delete = Eliri kaj forigi voĉregistrojn
+listen-instruction = { $actionType }<playIcon></playIcon> ĉu ili ĝuste diris la frazon?
+listen-again-instruction = Bonega laboro!<playIcon></playIcon> Aŭskultu denove kiam vi pretos
+listen-3rd-time-instruction = Restas nur du, daŭrigu tiel!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Lasta!
+nothing-to-validate = Ni ne havas ion ajn por validigi en tiu ĉi lingvo, helpu nin aldoni kelkajn registrojn al la atendovico.
 record-button-label = Registri vian voĉon
+share-title-new = <bold>Helpu nin</bold> trovi pli da voĉoj
