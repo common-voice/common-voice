@@ -1,6 +1,6 @@
 Mein Hund bellt gerne.
 Jeden Abend heulen die Hunde in unserer Nachbarschaft.
-Die Besuche des Fuchses haben seitdem ich einen Hund habe aufgehört.
+Die Besuche des Fuchses haben, seitdem ich einen Hund habe, aufgehört.
 Unsere Hündin hat letzte Woche Welpen geworfen.
 Unser Planet ist geologisch aktiv.
 Die Bewegung der Erdplatten erzeugt Gebirge.
@@ -23,7 +23,7 @@ Es verbirgt eine Botschaft des Künstlers.
 Die Höhle gilt als schwer erreichbar.
 Diese Erfindung könnte das Ende aller Krankheiten bedeuten.
 Im vierzehnten Jahrhundert hatte niemand Handys.
-Tut mir leid aber wir haben eine private Veranstaltung.
+Tut mir leid, aber wir haben eine private Veranstaltung.
 Wir können leider keine Reservierungen mehr annehmen.
 Es gibt nur wenige sichere Wege durch den Sumpf.
 Ich weiß nicht, welcher Weg sicher ist.
@@ -33,19 +33,19 @@ Könnten wir den Tunnel verlegen, damit wir keinen Einsturz riskieren?
 Es ist unhöflich, einen Baum nach seiner Geschichte zu fragen.
 Nach achtzehn Monaten fand das Haustier endlich nach Hause.
 Viele Wissenschaftler haben sich hieran schon die Zähne ausgebissen.
-Du hast dies in einem einzigen Nachmittag gelöst?
+Du hast dies an einem einzigen Nachmittag gelöst?
 Könnte ich bitte ein Stück Brot haben?
 Dies ist das einzige vom Feuer verschonte Gebäude.
 Es ist ein Wunder, dass dies noch geheim ist.
-Wieso warst Du nicht auf meiner Beerdigung?
-Bitte Katze streicheln.
+Wieso warst du nicht auf meiner Beerdigung?
+Bitte die Katze streicheln.
 Der Hund ließ sich streicheln.
 Die Baustelle wurde geräumt.
 Die Herrschaft war eine der längsten und glorreichsten Perioden.
 Den gesamten Abend lang hast du die Bedienung angestarrt!
 Ich habe diesen Ansatz noch nie gesehen.
 Dieser Ansatz blieb ohne Erfolg.
-Dieser Ansatz wird Erfolglos bleiben.
+Dieser Ansatz wird erfolglos bleiben.
 Das Geräusch kam aus dem Keller.
 Der Kern des Planeten ist pures Gold.
 Es ist schwer, den Kern des Planeten zu erreichen.
@@ -53,16 +53,16 @@ Niemand, der es versucht hat, hat den Kern des Planeten erreicht.
 Was steht in den Büchern zu diesem Abschnitt?
 Die zoologische Einordnung der Spezies ist seit Jahrzehnten umstritten.
 Wir vermuten, dass es nachtaktiv ist.
-Am besten wir nehmen den Zug.
+Am besten nehmen wir den Zug.
 Ich bin etwas skeptisch.
 Wieso sollten sich die Teilchen so stark anziehen?
-Die Weinsammlung des Restaurants ist eine der größten Weltweit.
+Die Weinsammlung des Restaurants ist eine der größten weltweit.
 Es war sicherlich aufwendig, eine solche Weinsammlung zusammenzustellen.
 Die meiste Zeit ist der Tisch im Keller.
 Ich war hier seit Jahren nicht mehr.
-Dieses zwanzig millionen Euro teure Projekt ist nun abgeschlossen.
+Dieses zwanzig Millionen Euro teure Projekt ist nun abgeschlossen.
 Nach acht Wochen war das Projekt abgeschlossen.
-Vielleicht ist dies wichtiger, als wir Denken.
+Vielleicht ist dies wichtiger, als wir denken.
 Ich habe keines ihrer Bücher gelesen.
 Etwa zehn Prozent.
 Ich war in den letzten paar Wochen sehr beschäftigt.
@@ -75,11 +75,11 @@ Die Kobaltmine ist vor Jahrzehnten aufgegeben worden.
 Ich hätte niemals gedacht, dass dies passieren würde.
 Die Schale von Eiern ist hart, während das Innere klebrig ist.
 Gegenüber des Hauptgebäudes ist das Gästehaus.
-Statt den Lügen der Anderen glauben zu schenken erfinde doch deine eigenen.
+Statt den Lügen der Anderen Glauben zu schenken erfinde doch deine eigenen.
 Diese Investition wird sich nicht auszahlen.
 Das letzte Level ist einfach.
 Füller ohne Tinte schreiben nicht.
-Zudem werde die nächsten zwei Tage nicht benötigt.
+Zudem werden die nächsten zwei Tage nicht benötigt.
 Der Schaden am Stoff kann zügig repariert werden.
 Kurz, nachdem die Räuber die Bank verlassen haben, wurde die Polizei verständigt.
 Zuerst Lecks stopfen, danach Wasser auspumpen.
@@ -88,7 +88,7 @@ Seit der Reparatur des Autos tritt das Problem nicht mehr auf.
 Ich denke nicht, dass die Wand so bemalt werden sollte.
 Der Teppich ist voller Läuse.
 Sind Sie auf der Gästeliste?
-Willkommen bei mir Zuhause.
+Willkommen bei mir zu Hause.
 Der Garten ist älter als das Haus.
 Hoffentlich ist diese Lösung von langfristiger Wirkung.
 Wir verwenden einen Pseudozufallsgenerator.
@@ -99,7 +99,7 @@ Nach vierzigjähriger Herrschaft des Diktators gibt es nun einen Wechsel.
 Ich habe etwas über das Problem nachgedacht und denke, dass es schwer ist.
 Das Bewässerungssystem darf maximal eine Woche lang ausfallen.
 Die Pflaumenernte beginnt nächsten Monat.
-Ich weiß, dass Dir Käse sehr gefällt.
+Ich weiß, dass dir Käse sehr gefällt.
 Ich habe etwas Käse mitgebracht.
 Vor tausend Jahren war dies das Zentrum einer uralten Zivilisation.
 Manche Wissenschaftler glauben, dass der Ursprung dieses Signals ein Neutronenstern ist.
@@ -115,11 +115,11 @@ Das Problem kann ganz vermieden werden.
 Dies ist keine gute Alternative.
 Der Laden ist offen zwischen acht Uhr morgens und acht Uhr abends.
 Montag ist Ruhetag.
-Ich möchte Dir das Projekt zeigen, an dem ich gearbeitet habe.
-Es ist zu früh um vorherzusagen, ob die Strategie von Erfolg sein wird.
-Die Geschichte der Stadt beginnt vor ein paar Tausend Jahren.
-Zunächst stand hier ein Außenposten um gegenüber Angriffen aus dem Osten sicher zu sein.
-Die kleine Stadt entwickelte sich schnell zu einem Handelszentrum zwischen ost und west.
+Ich möchte dir das Projekt zeigen, an dem ich gearbeitet habe.
+Es ist zu früh, um vorherzusagen, ob die Strategie von Erfolg sein wird.
+Die Geschichte der Stadt beginnt vor ein paar tausend Jahren.
+Zunächst stand hier ein Außenposten, um gegenüber Angriffen aus dem Osten sicher zu sein.
+Die kleine Stadt entwickelte sich schnell zu einem Handelszentrum zwischen Ost und West.
 Die Stadt befindet sich an einer seichten Querung des Flusses.
 Der Fluss markiert die Grenze.
 An den meisten Stellen war der Fluss zu tief.
@@ -149,14 +149,14 @@ Die zweite Brücke wurde von der Stadt finanziert, um Steuern zu erheben.
 Heutzutage lassen sich beide Brücken kostenlos überqueren.
 Eine der beiden Brücken ist nur für Fußgänger.
 Sechshundert Jahre nach Gründung war die Zahl der Baustellen in der Stadt am größten.
-Die Stadt erkannte eine Militärische Bedrohung aus dem Osten.
+Die Stadt erkannte eine militärische Bedrohung aus dem Osten.
 Sie umringten die Stadt mit dicken Steinmauern.
-Als die Stadtmauern errichtet wurden, hieß es dass sie unbezwingbar seien.
+Als die Stadtmauern errichtet wurden, hieß es, dass sie unbezwingbar seien.
 Später erwies sich das Gegenteil.
 Die Stadt wurde zum zweiten Mal eingenommen.
 Oftmals ist diese Ansicht noch in alten Büchern vertreten.
 Neuerdings ist sie durch eine bessere Erklärung ersetzt worden.
-Der Landbasierte Handel zwischen Ost und West verlor an Relevanz.
+Der landbasierte Handel zwischen Ost und West verlor an Relevanz.
 Die Nordpassage ist eisfrei.
 Die Alternative ist günstiger.
 Schiffstechnologie hat sich seit der Titanic verbessert.
@@ -167,7 +167,7 @@ Zweitens mussten die Minen aufgegeben werden.
 Dies ist schlecht für die örtliche Wirtschaft.
 Die Münzprägung musste ebenfalls aufgegeben werden.
 Der militärische Fokus liegt nun im Westen.
-Dies führt zu Truppenabzügen von aus der Stadt.
+Dies führt zu Truppenabzügen aus der Stadt.
 Viele der alten Gebäude existieren noch heute.
 Dies ist sehr gut für den örtlichen Tourismus.
 In nur wenigen Städten sind so viele alte Gebäude erhalten geblieben.
@@ -179,7 +179,7 @@ Die Erde zieht den Mond an.
 Die Anziehung des Mondes erzeugt Tiden.
 Aufgrund von Gezeiten ändert sich der Meeresspiegel regelmäßig.
 Dieses Problem kann gelöst werden.
-Diese Problem kann mit einer Steuer auf Öl gelöst werden.
+Diese Probleme können mit einer Steuer auf Öl gelöst werden.
 Kohle und Öl haben versteckte Kosten, unter denen Dritte leiden.
 Der Markt kann diese Externalitäten momentan nicht repräsentieren.
 Fusionsenergie liegt immer ein paar Jahrzehnte in der Zukunft.
@@ -196,6 +196,6 @@ Jedoch besitzt die Farbladung auch eine Außenwirkung.
 Protonen und Neutronen bestehen aus Quarks.
 Diese Außenwirkung hält Atomkerne zusammen.
 Die Valenzschale eines Atoms beeinflusst dessen chemische Eigenschaften.
-Chemisch gesehen sind Atome mit der selben Valenzschale sehr ähnlich.
+Chemisch gesehen sind Atome mit derselben Valenzschale sehr ähnlich.
 Atome können Moleküle bilden.
 Chemische Interaktion von Atomen geschieht meist über die Valenzelektronen.
