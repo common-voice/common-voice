@@ -187,6 +187,8 @@ edit-profile = Modifi profilon
 profile-create = Krei profilon
 profile-create-success = Sukceso, profilo kreita!
 profile-close = Fermi
+profile-clear-modal = Se vi viŝas vian profilon, viaj demografiaj datumoj ne plu estos senditaj al Common Voice kun viaj sonregistraĵoj.
+profile-explanation = Sekvu vian progreson per profilo, kaj helpu niajn voĉajn datumojn iĝi pli precizaj.
 
 ## FAQ
 
@@ -228,9 +230,9 @@ data-download-yes = Jes
 data-download-deny = Ne
 data-download-license = Permesilo: <licenseLink>CC-0</licenseLink>
 data-download-modal = Vi pretas komenci elŝuton de <size>{ $size }GO</size>, ĉu vi volas daŭrigi?
-data-subtitle = Ni konstruas malfermitan kaj publike disponebla datumaro de vocoj, kiujn iu ajn povas uzi por trajni voĉakceptajn programojn.
+data-subtitle = Ni konstruas malfermitan kaj publike disponeblan datumaron de vocoj, kiujn iu ajn povas uzi por trajni voĉakceptajn programojn.
 data-explanatory-text = Ni kredas ke grandaj kaj publike disponeblaj voĉaj datumaroj favoras novaĵkreemon kaj sanan komercan konkuron en voĉaj teknikologioj bazitaj sur maŝininstruado. Tiu ĉi estas tutmonda strebo, kaj ni invitas ĉiujn partopreni. Nia celo estas helpi voĉajn teknikologiojn iĝi pli inkluzivemaj, spegulante la diversecon de voĉoj el la tuta mondo.
-data-get-started = <speechBlogLink>Unuaj paŝoj en la voĉa rekono</speechBlogLink>
+data-get-started = <speechBlogLink>Unuaj paŝoj en voĉa rekono</speechBlogLink>
 data-other-title = Aliaj voĉaj datumaroj…
 data-other-goto = Iri al { $name }
 data-other-download = Elŝuti datumojn
@@ -299,7 +301,10 @@ request-language-success-content = Ni baldaŭ skribos al vi kun pli da informo p
 
 ## Languages Overview
 
+language-section-in-progress = Progresanta
+language-section-in-progress-description = Progresantaj lingvoj estas tiuj, kiujn niaj komunumoj nuntempe konstruas. Ilia progreso montras la nunan staton de tradukado de la retejo kaj la fazon de kolekto de frazoj.
 language-section-launched = Lanĉita
+language-section-launched-description = Por tiuj ĉi lanĉitaj lingvoj, la retejo estis sukcese tradukita, kaj ĝi havas sufiĉe da frazoj kolektitaj, por permesi daŭran kontribuon, per <italic>{ speak }</italic> kaj <italic>{ listen }</italic>.
 languages-show-more = Vidi pli
 languages-show-less = Vidi malpli
 language-speakers = Parolantoj
