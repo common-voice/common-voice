@@ -1,0 +1,111 @@
+@import url('../../vars.css');
+
+.hero-box {
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    @media (--md-up) {
+        width: 50%;
+    }
+
+    & .column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    & h1 {
+        margin-bottom: 10px;
+        font-size: 48px;
+        font-weight: normal;
+    }
+
+    & h3 {
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    & p {
+        margin-top: 10px;
+        max-width: 280px;
+        font-size: 14px;
+        color: var(--warm-grey);
+    }
+
+    & .primary-button {
+        & .background {
+            width: 100px;
+            height: 100px;
+        }
+
+        & button {
+            background: white;
+            transition: background var(--transition-duration-slow) linear;
+
+            & path {
+                transition: fill var(--transition-duration-slow) linear;
+            }
+        }
+    }
+
+    & .progress-count {
+        display: inline-flex;
+        align-items: flex-start;
+
+        & .current {
+            font-size: 24px;
+        }
+
+        & .total {
+            font-size: 16px;
+            white-space: pre;
+        }
+    }
+
+    & .toggleable {
+        transform: translateY(50px);
+        opacity: 0;
+        transition: width var(--transition-duration-slow) linear var(--transition-duration-slow),
+                    height var(--transition-duration-slow) linear var(--transition-duration-slow),
+                    opacity var(--transition-duration),
+                    transform var(--transition-duration-slow) var(--easing);
+    }
+
+
+    &.active {
+        & .toggleable {
+            transform: translateY(0);
+            opacity: 1;
+            transition: width var(--transition-duration-slow),
+                        height var(--transition-duration-slow),
+                        opacity var(--transition-duration-slow) linear var(--transition-duration-slow),
+                        transform var(--transition-duration) var(--easing) var(--transition-duration-slow);
+
+        }
+
+        & .primary-button {
+            &.stop button {
+                background: var(--red);
+
+                & path {
+                    fill: var(--white);
+                }
+            }
+
+            &.play button {
+                background: var(--valid-green);
+
+                & path {
+                    fill: var(--white);
+                }
+            }
+
+            & .background {
+                opacity: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,62 @@
+@import url('../../vars.css');
+
+.new #content {
+    padding: 0;
+
+    & > div {
+        max-width: none;
+    }
+}
+
+.home {
+    & .heroes {
+        display: flex;
+        flex-direction: column;
+
+        @media (--md-up) {
+            flex-direction: row;
+        }
+    }
+
+    & .text {
+        padding-top: 95px;
+        padding-bottom: 225px;
+        background: #f9f9f8;
+
+        & .inner {
+            max-width: var(--desktop-width);
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+        }
+
+        & .title {
+            width: 50%;
+
+            & h1 {
+                max-width: 475px;
+                font-size: 36px;
+                font-weight: normal;
+            }
+        }
+
+        & .description {
+            width: 50%;
+
+            & p {
+                max-width: 475px;
+                color: var(--near-black);
+                line-height: 1.5;
+            }
+        }
+
+        & .show-more {
+            border: none;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 0.4px;
+            text-transform: uppercase;
+            color: var(--blue);
+        }
+    }
+}

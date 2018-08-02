@@ -1,6 +1,7 @@
 import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
 import * as React from 'react';
 import { connect } from 'react-redux';
+import { DAILY_GOAL } from '../../../constants';
 import API from '../../../services/api';
 import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
@@ -13,7 +14,6 @@ import { SET_COUNT } from './contribution';
 import './success.css';
 
 const COUNT_UP_MS = 500; // should be kept in sync with .contribution-success .done transition duration
-const DAILY_GOAL = Object.freeze({ speak: 1200, listen: 2400 });
 
 const GoalPercentage = ({
   current,

@@ -16,7 +16,7 @@ import {
   SkipIcon,
 } from '../../ui/icons';
 import { Button } from '../../ui/ui';
-import { PrimaryButton } from './primary-buttons';
+import { PrimaryButton } from '../../primary-buttons/primary-buttons';
 import ShareModal from './share-modal';
 import Success from './success';
 import Wave from './wave';

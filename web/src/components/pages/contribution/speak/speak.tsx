@@ -27,7 +27,10 @@ import ContributionPage, {
   ContributionPillProps,
   SET_COUNT,
 } from '../contribution';
-import { RecordButton, RecordingStatus } from '../primary-buttons';
+import {
+  RecordButton,
+  RecordingStatus,
+} from '../../../primary-buttons/primary-buttons';
 import RecordingPill from './recording-pill';
 
 import './speak.css';

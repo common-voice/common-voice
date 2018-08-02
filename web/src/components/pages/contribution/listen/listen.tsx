@@ -20,7 +20,7 @@ import ContributionPage, {
   ContributionPillProps,
   SET_COUNT,
 } from '../contribution';
-import { PlayButton } from '../primary-buttons';
+import { PlayButton } from '../../../primary-buttons/primary-buttons';
 import Pill from '../pill';
 
 import './listen.css';
