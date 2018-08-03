@@ -4,23 +4,45 @@
     width: 100%;
     min-height: 500px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
     @media (--md-up) {
         width: 50%;
+        flex-direction: row;
     }
 
     & .column {
         display: flex;
         flex-direction: column;
+
+        @media (--sm-down) {
+            text-align: center;
+
+            &.title {
+                order: 0;
+            }
+
+            &.cta {
+                margin-top: 20px;
+                order: 2;
+                flex-direction: column-reverse;
+            }
+
+            &.progress {
+                order: 1;
+            }
+        }
     }
 
     & h1 {
-        margin-bottom: 10px;
         font-size: 48px;
         font-weight: normal;
+
+        @media (--md-up) {
+            margin-bottom: 10px;
+        }
     }
 
     & h3 {
@@ -29,16 +51,39 @@
     }
 
     & p {
-        margin-top: 10px;
         max-width: 280px;
         font-size: 14px;
         color: var(--warm-grey);
     }
 
+    & .description {
+        @media (--sm-down) {
+            margin: 20px 0;
+        }
+
+        @media (--md-up) {
+            margin-top: 10px;
+        }
+    }
+
+    & .cta-message {
+        @media (--sm-down) {
+            margin-top: 16px;
+            font-size: 12px;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+    }
+
     & .primary-button {
         & .background {
-            width: 100px;
-            height: 100px;
+            width: 75px;
+            height: 75px;
+
+            @media (--md-up) {
+                width: 100px;
+                height: 100px;
+            }
         }
 
         & button {
@@ -54,6 +99,11 @@
     & .progress-count {
         display: inline-flex;
         align-items: flex-start;
+        font-weight: 600;
+
+        @media (--sm-down) {
+            justify-content: center;
+        }
 
         & .current {
             font-size: 24px;

@@ -56,12 +56,12 @@ export default class Hero extends React.Component<
     });
   }
 
-  getToggleableProps(i: number) {
+  getToggleableProps(i: number, className = '') {
     const { isActive } = this.props;
     const { dimensions, showToMeasure } = this.state;
     return {
       ref: this.toggleableRefs[i],
-      className: 'toggleable',
+      className: 'toggleable ' + className,
       style: showToMeasure
         ? { width: 'auto', height: 'auto' }
         : isActive ? dimensions[i] : { width: 0, height: 0 },
@@ -77,7 +77,7 @@ export default class Hero extends React.Component<
         onClick={onShow}
         onMouseEnter={onShow}
         onMouseLeave={onHide}>
-        <div className="column">
+        <div className="column title">
           <Localized id={type}>
             <h1 />
           </Localized>
@@ -85,21 +85,22 @@ export default class Hero extends React.Component<
             <Localized id={type + '-subtitle-line-1'}>
               <span />
             </Localized>
-            <br />
+            <br className="md-block" />
+            <span> </span>
             <Localized id={type + '-subtitle-line-2'}>
               <span />
             </Localized>
           </h3>
           <div {...this.getToggleableProps(0)}>
             <Localized id={type + '-paragraph'}>
-              <p />
+              <p className="description" />
             </Localized>
           </div>
         </div>
-        <div className="column">
+        <div className="column cta">
           <div {...this.getToggleableProps(1)}>
             <Localized id="help-reach-goal" $goal={DAILY_GOAL[type]}>
-              <span />
+              <div className="cta-message" />
             </Localized>
           </div>
           {isSpeak ? (
@@ -108,22 +109,20 @@ export default class Hero extends React.Component<
             <PlayButton isPlaying={false} />
           )}
         </div>
-        <div {...this.getToggleableProps(2)}>
-          <div className="progress column">
-            <Localized id="todays-progress">
-              <h3 />
-            </Localized>
-            <span className="progress-count">
-              <span className="current">{count}</span>
-              <span className="total">
-                {' / '}
-                {DAILY_GOAL[type]}
-              </span>
+        <div {...this.getToggleableProps(2, 'progress column')}>
+          <Localized id="todays-progress">
+            <h3 />
+          </Localized>
+          <span className="progress-count">
+            <span className="current">{count}</span>
+            <span className="total">
+              {' / '}
+              {DAILY_GOAL[type]}
             </span>
-            <Localized id={type + '-goal-text'}>
-              <p />
-            </Localized>
-          </div>
+          </span>
+          <Localized id={type + '-goal-text'}>
+            <p />
+          </Localized>
         </div>
       </div>
     );
