@@ -111,9 +111,11 @@ vote-no = Суох
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = Оонньот/Тохтот
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = Суруттар/Тохтот
 
 ## ProjectStatus
 
@@ -124,6 +126,10 @@ profile-form-language =
     .label = Тыл
 profile-form-age =
     .label = Сааһын
+male = Эр киһи
+female = Дьахтар
+# Gender
+other = Атын
 profile-close = Сап
 
 ## FAQ
@@ -169,8 +175,18 @@ request-language-form-language =
 
 ## Languages Overview
 
+language-speakers = Саҥарааччылар
+language-total-progress = Уопсайа
+language-search-input =
+    .placeholder = Көрдөөһүн
+language-speakers = Саҥарааччылар
+sentences = Этиилэр
 
 ## New Contribution
 
+action-click = Баттаа
+action-tap = Таарый
+contribute = Кытын
 listen = Иһит
 skip = Көтүт
+clips = Клиптар
