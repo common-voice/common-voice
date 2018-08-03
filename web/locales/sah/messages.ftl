@@ -97,6 +97,7 @@ privacy = Конфиденциальность
 terms = Усулуобуйалар
 cookies = Кукилар
 faq = Субу-субу биэриллэр ыйытыылар
+link-copied = Сигэ куопуйаланна
 back-top = Үөһээ төнүн
 
 ## Home Page
@@ -121,9 +122,15 @@ vote-no = Суох
 
 profile-form-language =
     .label = Тыл
+profile-form-age =
+    .label = Сааһын
+profile-close = Сап
 
 ## FAQ
 
+faq-title = Субу-субу биэриллэр ыйытыылар
+faq-what-q = Common Voice диэн тугуй?
+faq-important-q = Тоҕо ол суолталааҕый?
 
 ## Profile
 
@@ -133,6 +140,9 @@ profile-form-language =
 
 ## Data
 
+data-download-yes = Сөп
+data-download-deny = Суох
+data-download-license = Лицензия: <licenseLink>CC-0</licenseLink>
 
 ## Record Page
 
