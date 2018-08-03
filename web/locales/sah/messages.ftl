@@ -172,3 +172,5 @@ request-language-form-language =
 
 ## New Contribution
 
+listen = Иһит
+skip = Көтүт
