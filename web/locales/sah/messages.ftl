@@ -190,3 +190,7 @@ contribute = Кытын
 listen = Иһит
 skip = Көтүт
 clips = Клиптар
+record-three-more-instruction = Үс хаалла!
+listen-last-time-instruction = <playIcon></playIcon>Бүтэһик!
+record-button-label = Куоласкын суруттар
+share-title-new = Өссө куоластары буларга <bold>биһиэхэ көмөлөс</bold>
