@@ -111,6 +111,7 @@ report-bugs-link = Ayuda a informar de fallos
 
 home-title = El proyeutu Common Voice ye la iniciativa de Mozilla pa enseña-yos a les máquines cómo falen los humanos.
 home-cta = ¡Collabora equí!
+wall-of-text-start = La voz ye natural, tamién humana. Poro, tamos ablucando cola creación d'una teunoloxía per voz de calidá pa les máquines de nueso. Pero pa crear sistemes per voz, ríquese una cantidá escomanada de datos de voz.
 wall-of-text-more-mobile = La mayoría de datos usaos por compañes grandes nun tán disponibles pa la mayoría de xente. Cuidamos qu'eso torga la innovación polo que llanzamos Common Voice. Un proyeutu p'ayudar a facer que la reconocencia de voz tea abierta al tol mundu.
 wall-of-text-more-desktop =
     Agora pues emprestar la to voz p'ayudanos a construyir una base de datos abierta que tol mundu
@@ -194,6 +195,7 @@ why-profile-text =
     reconocencia de voz qu'usen estos datos p'ameyorar la so precisión.
 edit-profile = Editar perfil
 profile-create = Creación d'un perfil
+profile-create-success = ¡Creóse'l perfil con ésitu!
 profile-close = Zarrar
 profile-clear-modal = Llimpiar el perfil significa qu'esta información demográfica yá nun va unviase a Common Voice xunto coles tos grabaciones.
 profile-explanation = Sigui'l to progresu con un perfil y ayuda a que los nuesos datos de voz seyan más precisos.
@@ -210,6 +212,7 @@ faq-mission-q = ¿Por que Common Voice ye parte de la misión de Mozilla?
 faq-native-q = Nun soi un falante nativu de { $lang } y falo con acentu, ¿entá quedríeis la mio voz?
 faq-native-a = Sí, ¡claro que queremos la to voz! Parte del oxetivu de Common Voice ye atropar tantos acentos estremaos como seya posible, pa qu'asina los ordenadores puean entender meyor <bold>a tol mundu</bold> cuando fala.
 faq-firefox-a = Common Voice tien un potencial infinitu y tamos, de fechu, esplorando l'usu les interfaces per voz en munchos productos de Mozilla, incluyendo Firefox.
+faq-quality-q = ¿Cuálu ye'l nivel de calidá precisu pa que puean usase los audios?
 faq-hours-a = Ye'l númberu aproximáu d'hores riquíes pa entrenar a un sistema STT en producción.
 faq-source-q = ¿D'ónde vien el testu fonte?
 faq-source-a1 = Les frases actuales vienen de donaciones de collaboradores, tamién de guiones de películes de dominiu públicu como <italic>It’s a Wonderful Life.</italic>
@@ -257,6 +260,7 @@ record-help = Calca pa grabar, darréu llei n'alto la fras d'enriba
 review-terms = Usando Common Voice aceutes los nuesos <termsLink>términos</termsLink> y la nuesa <privacyLink>noticia de privacidá</privacyLink>
 terms-agree = Aceuto
 terms-disagree = Nun aceuto
+review-aborted = Albortóse la xuba. ¿Quies desaniciar toles tos grabaciones?
 review-submit-title = Revisión y unviu
 review-submit-msg = ¡Gracies pola grabación!<lineBreak></lineBreak>Agora revisa y unvia los tos clips d'embaxo.
 review-cancel = Encaboxar xuba
@@ -270,6 +274,7 @@ download-helpus = Ayúdanos a construyir una comunidá alredor de la teunoloxía
 download-form-email =
     .label = Introduz el to corréu
     .value = Gracies, vamos tar en contautu.
+download-back = Volver a los conxuntos de datos de Common Voice
 download-no = Non, gracies
 
 ## Contact Modal
@@ -297,6 +302,8 @@ languages-show-less = Ver menos
 language-speakers = Falantes
 language-meter-in-progress = Progresu
 language-total-progress = Total
+language-search-input =
+    .placeholder = Guetar
 language-speakers = Falantes
 localized = Tradúxose
 sentences = Frases
@@ -330,6 +337,7 @@ clips-uploaded = Clips xubíos
 record-abort-title = ¿Finar primero la grabación?
 record-abort-text = Si coles agora, vas perder el to progresu
 record-abort-submit = Unviar clips
+record-abort-continue = Finar grabación
 record-abort-delete = Colar y desaniciar clips
 listen-3rd-time-instruction = 2 menos, ¡sigui asina!<playIcon></playIcon>
 nothing-to-validate = Nun tenemos nada pa revisar nesta llingua, ayúdanos a rellenar la cola.
