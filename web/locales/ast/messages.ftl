@@ -52,6 +52,7 @@ it = Italianu
 ja = Xaponés
 ka = Xeorxanu
 kab = Cabilu
+kk = Kazaxu
 ko = Coreanu
 kw = Córnicu
 mk = Macedoniu
@@ -213,6 +214,8 @@ faq-native-q = Nun soi un falante nativu de { $lang } y falo con acentu, ¿entá
 faq-native-a = Sí, ¡claro que queremos la to voz! Parte del oxetivu de Common Voice ye atropar tantos acentos estremaos como seya posible, pa qu'asina los ordenadores puean entender meyor <bold>a tol mundu</bold> cuando fala.
 faq-firefox-a = Common Voice tien un potencial infinitu y tamos, de fechu, esplorando l'usu les interfaces per voz en munchos productos de Mozilla, incluyendo Firefox.
 faq-quality-q = ¿Cuálu ye'l nivel de calidá precisu pa que puean usase los audios?
+faq-quality-a = Queremos que la calidá d'audiu reflexe la calidá qu'un motor testu a voz va tener na vida real, poro, queremos variedá. Esto va enseñar al motor de testu a voz a remanar situaciones variaes (charres de fondu, ruiu de coches o d'aventadores) ensin fallos
+faq-hours-q = ¿Por qué l'oxetivu son 10000 hores en grabaciones?
 faq-hours-a = Ye'l númberu aproximáu d'hores riquíes pa entrenar a un sistema STT en producción.
 faq-source-q = ¿D'ónde vien el testu fonte?
 faq-source-a1 = Les frases actuales vienen de donaciones de collaboradores, tamién de guiones de películes de dominiu públicu como <italic>It’s a Wonderful Life.</italic>
@@ -296,7 +299,9 @@ request-language-success-content = Mui pronto vamos ponenos en contautu con más
 ## Languages Overview
 
 language-section-in-progress = En cursu
+language-section-in-progress-description = Les llingües en cursu son traducciones feches pola comunidá, el so progresu reflexa en que fas s'alcuentren la traducción del sitiu web y la recoyida de frases.
 language-section-launched = Llanzáronse
+language-section-launched-description = Les llingües llanzaes traduxeron el sitiu web dafechu y tien abondes frases recoyíes como pa permitir la collaboración de contino en <italic>{ speak }</italic> y <italic>{ listen }</italic>.
 languages-show-more = Ver más
 languages-show-less = Ver menos
 language-speakers = Falantes
