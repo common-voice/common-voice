@@ -61,7 +61,7 @@ Abans d'entrar, cal esperar que hagin sortit totes les persones usuàries que ba
 Abans de banyar-se a la piscina caldrà utilitzar les dutxes.
 Abonar puntualment la quota que estableixi l'Assemblea General.
 Accepta i compleix les normes i les ordres directes.
-Acceptar donacions, subvencions o ajuts, tant si provenen d'entitats públiques i com de persones privades.
+Acceptar donacions, subvencions o ajuts, tant si provenen d'entitats públiques com de persones privades.
 Acceptar obsequis o regals de valor ostensiblement superior al que estableix l'article vint-i-dos.
 Accions adreçades a valorar les necessitats mínimes d'adaptació del lloc de treball que ocupi.
 Acompanya la sol·licitud l'informe de sostenibilitat ambiental preliminar del Pla.
@@ -348,7 +348,7 @@ Aquesta Ordre entra en vigor el dia de la seva publicació en el Diari Oficial d
 Aquesta plaça forma part de l'Oferta pública d'ocupació corresponent a l'exercici dos mil setze.
 Aquesta prestació requereix un elevat coneixement de la millor i més recent evidència científica en aquest àmbit.
 Aquesta prohibició s'aplica també a la resta del personal de l'entitat que tingui o pugui tenir accés a les dades.
-Aquesta proposta serà notificada al sol·licitant qui tindrà un termini de deu dies per presentar-hi al·legacions.
+Aquesta proposta serà notificada al sol·licitant, el qual tindrà un termini de deu dies per a presentar-hi al·legacions.
 Aquesta prova es puntuarà d'apte o no apte.
 Aquesta prova no tindrà caràcter eliminatori i es realitzarà si l'òrgan de selecció així ho acorda.
 Aquesta prova pràctica pot consistir en un sol cas o en diversos casos relacionats.
@@ -1198,7 +1198,7 @@ El secret professional persisteix després d'haver cessat la relació contractua
 El secretari certificarà la relació de documents que figurin en cadascun d'ells.
 El secretari d'Economia o la persona en qui delegui.
 El secretari de la corporació o persona en qui delegui d'igual o superior categoria.
-El Secretari del Consorci de L'Auditori i l'orquestra o persona que delegui.
+El Secretari del Consorci de L'Auditori i l'orquestra o persona en qui delegui.
 El secretari, sigui o no conseller, tindrà la facultat de certificar i elevar a públics els acords socials.
 El sector industrial consumeix el setanta per cent del total del consum municipal.
 El sector té una superfície de cinc coma dos hectàrees i un potencial residencial de quaranta-tres habitatges.
@@ -1429,8 +1429,8 @@ Els grups de treball poden convidar persones expertes vinculades a l'objecte de 
 Els grups també hauran d'adaptar-se al material tècnic de què disposi el teatre.
 Els guanyadors d'aquesta modalitat passaran a la fase estatal com a representants de Catalunya.
 Els horaris són fixos i no hi ha rotació entre matí, tarda i nit.
-Els i les aspirants admesos, un cop siguin nomenats iniciaran un període de prova de quatre mesos.
-Els i les aspirants disposaran d'un termini màxim de quaranta-cinc minuts per contestar les preguntes formulades.
+Els aspirants admesos, un cop siguin nomenats iniciaran un període de prova de quatre mesos.
+Els aspirants disposaran d'un termini màxim de quaranta-cinc minuts per contestar les preguntes formulades.
 Els imports actualitzats consten en l'annex d'aquesta Ordre.
 Els informes que puguin emetre les persones consultades es tindran en compte a l'hora de valorar el projecte.
 Els instruments de descripció fonamentals són guies, inventaris, catàlegs, registres, índexs, etcètera.
@@ -1694,7 +1694,7 @@ En el cas que l'últim dia fos dissabte, diumenge o festiu, aquest es desplaçar
 En el cas que no es tracti d'una errada material, caldrà descriure què indica aquesta trama.
 En el cas que no hi consti, es pot acreditar l'antiguitat per altres mitjans admesos en dret.
 En el cas que no sigui factible es presentarà una mostra representativa del producte.
-En el cas que quedi vacant el càrrec de degà, l'assumirà interinament el vicedegà o la vicedegana.
+En el cas que quedi vacant el càrrec de degà, l'assumirà interinament el vicedegà.
 En el cas que s'informi que la persona és idònia es farà constar a l'expedient.
 En el cas que una entitat tramiti més d'una sol·licitud, aquestes no s'acumulen.
 En el dret vigent hi ha quatre regulacions potencialment aplicables al contracte de compravenda.
@@ -1957,7 +1957,7 @@ Funció: accessori que permet modificar la posició de l'esquena per mantenir in
 Funció: amplia el so, sense perjudicar persones properes.
 Funció: augmenta l'alçària de l'inodor per facilitar la transferència i facilita aixecar-se i asseure's.
 Funció: avisa amb senyals visuals, com llampecs de llum en cas d'incendi.
-Funció: base amb prolongadors de pedals per a usuaris i usuàries que no arriben als pedals.
+Funció: base amb prolongadors de pedals per a usuaris que no arriben als pedals.
 Funció: descriu el contingut de la pantalla mitjançant la síntesi de veu.
 Funció: despertador que avisa amb senyals lluminosos o vibratoris.
 Funció: disminueix l'esforç de l'assistent en empènyer la cadira de rodes.
@@ -2167,7 +2167,7 @@ Investigar i resoldre les queixes que se li presentin i les actuacions que trami
 Isabel Campos González, responsable de Coordinació de Gestió i Despatx, que actuarà com a vocal.
 Ja gaudeixi d'una beca atorgada per institucions públiques o privades pel mateix concepte.
 Jordi Gil i Pujol, subdirector general d'Afers Interdepartamentals, que actuarà com a president.
-Jornada adaptada a l'horari d'obertura de les instal·lacions, el que pot suposar treballar en jornada partida.
+Jornada adaptada a l'horari d'obertura de les instal·lacions, cosa que pot suposar treballar en jornada partida.
 Justifica les raons de l'home per vestir-se analitzant-ne les motivacions.
 Justifica les raons de l'ésser humà per vestir-se analitzant les seves motivacions.
 Justificant de qualsevol altre tipus d'ingrés que rebi qualsevol dels membres de la unitat familiar.
@@ -3382,7 +3382,7 @@ Promou l'elaboració de recursos lingüístics per potenciar l'autonomia lingü�
 Promou la col·laboració amb altres institucions del món bibliotecari d'àmbit nacional, estatal i internacional.
 Promou la transformació en regadiu d'una gran superfície de terres de la província de Lleida.
 Promou reunions amb els ens locals per tal de fer un bon seguiment i control de les actuacions.
-Promoure que la ciutadania utilitzi l'estadística oficial.
+Promoure que els ciutadans utilitzin l'estadística oficial.
 Promourà polítiques per fomentar el civisme i farà complir l'ordenança de convivència ciutadana.
 Propietaris que dirigeixen la seva empresa.
 Proporciona l'atenció sociosanitària als pacients o usuaris.
@@ -3578,7 +3578,7 @@ Rep, revisa i incorpora a l'expedient la documentació aportada per les persones
 Repeteixen curs.
 Representarà l'ajuntament en les relacions amb les entitats culturals.
 Requereix per tant, un espai físic de privacitat en un ambient tranquil i distès.
-Requisits específics del contractista: veieu el plec de clàusules administratives.
+Requisits específics del contractista: vegeu el plec de clàusules administratives.
 Res d'això trobem en el precepte qüestionat.
 Rescatar la concessió abans del seu venciment si ho justifiquen circumstàncies d'interès públic.
 Resol els recursos de reposició plantejats en via d'inspecció.

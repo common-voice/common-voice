@@ -26,6 +26,7 @@ A bones ganes de ballar, poc so és menester.
 A Bonrepòs, qui no pot menjar carn es menja l'os.
 A bons ocis, mals negocis.
 A bord del veler, després del patró ve el cuiner.
+A bord una dona, cosa poc bona.
 A Borriol, nap i col, i a Montserrat, col i nap.
 A bou flac tot són mosques.
 A bou vell, esquella nova.
@@ -112,6 +113,8 @@ A despit del gener florix l'ametler.
 A dies llargs, llargs treballs.
 A diners pagats, braços cansats.
 A diners pagats, braços trencats.
+A dona ben casada, el marit li basta.
+A dona casta, poc fre basta.
 A Déu prega el qui treballa.
 A ell, que és mesell!
 A ell, que és mesell; a ella, que és femella.
@@ -204,6 +207,7 @@ A l'estiu, la filosa no diu.
 A l'estiu, tavernera; a l'hivern, fornera.
 A l'estiu, tot el món viu.
 A l'hivern boirina i la neu per veïna.
+A l'hivern fornera, a l'estiu tavernera.
 A l'hivern, el millor amic és un bon abric.
 A l'home desgraciat, el pa se li floreix al forn.
 A l'home que de tu fia, fia d'ell que és cortesia.
@@ -223,6 +227,9 @@ A l'olor del dot, acudix el borinot.
 A l'olor del dot, apareix el borinot.
 A l'olor del dot, se li acosta el ninot.
 A l'ombra del nas, la boca fresca.
+A la barca i a l'esposa, sempre els falta alguna cosa.
+A la barca i a la dona, sempre els falta alguna cosa.
+A la ben casada, només el seu marit li agrada.
 A la boca que no parla, Déu no la sent.
 A la boda del fillol, qui no t'hi convida no t'hi vol.
 A la boda el convidat mai no vaja desganat.
@@ -293,6 +300,7 @@ A la vellesa, bonys i berrugues.
 A la vellesa, casar-se és el mateix que enterrar-se.
 A la vellesa, cascavells.
 A la vinya del desert, qui més hi posa més hi perd.
+A la viuda, tot li piula.
 A la vora de convents i de rius, les orenetes no hi fan nius.
 A la vora del riu no faces niu, ni a l'hivern ni a l'estiu.
 A la vora del riu no faces niu.
@@ -796,6 +804,7 @@ Al juliol, la cistelleta i el mallol.
 Al juliol, la falç al coll.
 Al juliol, la forca al coll.
 Al juliol, la garrofa porta dol.
+Al juliol, ni dona ni caragol.
 Al juliol, sega amb bon sol.
 Al juliol, tota la roba al vol.
 Al juliol, trau les garbes al sol.
@@ -975,7 +984,6 @@ Amb diners, encara que ximplet, que bona persona el noiet!
 Amb diners, pertot arreu fien.
 Amb diners, torrons, i amb pessetes, casquetes.
 Amb diners, torrons.
-Amb dones i amb bèsties no vages a festes.
 Amb dones, armes i focs, no hi vulguis jocs.
 Amb el cor en la mà, pocs negocis faràs.
 Amb el cuc es pesca l'anguila.
@@ -1075,7 +1083,7 @@ Anar contra corrent no és cosa prudent.
 Anells en el dit, honra sense profit.
 Anem anant, els uns darrere i els altres davant.
 Anem anant, que es fa tard i ve plovent.
-Animal de pic no fa a l'amo ric.
+Animal de pic no fa l'amo ric.
 Animal llogat, sempre està menjat.
 Animal moí, fuit o fi.
 Animal que no conegues, no li vages per darrere.
@@ -1604,13 +1612,6 @@ Carnestoltes, quinze voltes.
 Carrer banyat, calaix eixut.
 Carrers banyats, calaixos eixuts.
 Cartes són ales pesades.
-Cartes, daus, dones i vi fan tornar al ric mesquí.
-Cartes, daus, dones i vi, al ric fan tornar mesquí.
-Cartes, daus, dones i vi, fan tornar al ric, mesquí.
-Cartes, dones i vi trauen l'home de si.
-Cartes, dones i vi; mal camí.
-Cartes, dones, daus i vi fan tornar el ric mesquí.
-Casa arreglada i vinya criada, dona casada.
 Casa bona no farà qui molts fills tindrà.
 Casa d'altri sol criticar qui la seva no sap arreglar.
 Casa d'oronetes, casa de donetes.
@@ -1650,7 +1651,7 @@ Cases i mules, les menys que pugues.
 Castanya sencera, al foc peta.
 Castellans a la gerra, i qui no càpia, embotit, o en una barra.
 Castellans, a la gerra.
-Castiga al bo, i millorarà.
+Castiga el bo, i millorarà.
 Castiga fort ton fill quan és poc.
 Cau sutja; és que sent pluja.
 Cavador de marges, no et fies gens d'ell.
@@ -1840,7 +1841,7 @@ D'amics, pocs i bons.
 D'amors el primer; de llunes, la de gener.
 D'anar de bon matí, ningú s'ha de penedir.
 D'aquella pols, vénen aquests fangs.
-D'aquí a cents, anys tots calbs.
+D'aquí a cent anys tots calbs.
 D'home ric no hi ha revenja.
 D'il·lusions també es viu.
 D'obra de maig, ma casa faig.
@@ -2114,7 +2115,6 @@ Del coquí, pren el bocí.
 Del cor naixen els sentiments, del cul els excrements.
 Del cor neixen sentiments, del cul els excrements.
 Del dit al fet, hi ha gran tret.
-Del foc, de la dona i de la mar, t'has de guardar.
 Del joc, en ve el foc.
 Del joc, poc, i millor ni gota.
 Del juny enllà, el dia comença a baixar.
@@ -3402,7 +3402,6 @@ Entre Tots Sants i la Nativitat, entra l'hivern de veritat.
 Entre Tots Sants i Nadal, ni boires ni mestral.
 Enviar el servei a l'hospital no fa bon amo.
 Erro de comptes no fa pagament.
-Es diu de la dona que prefereix casar-se.
 Es diu el pecat, però no el pecador.
 Es trau més amb mel que amb fel.
 Es ven a pes, quelcom és.
@@ -4024,7 +4023,6 @@ L'herba, si no es mulla, és or; si es mulla una vegada, és argent, i si es mul
 L'hivern dóna les cartes i la primavera fa el joc.
 L'hivern és bo per fer foc i cendra.
 L'home ben casat ha de tenir deu anys més que la dona.
-L'home es casa quan vol, i la dona quan pot.
 L'home es prova amb sa paraula, així com l'or amb el foc.
 L'home neix per sofrir, com l'ocell per volar.
 L'home neix per treballar i l'ocell per cantar.
@@ -4137,15 +4135,11 @@ La diligència és la mare de la bona ventura.
 La diligència és mare de la bona ventura.
 La dona amb qui et casaràs, fes que sigui de ton braç.
 La dona ben composta trau l'home d'una porta.
-La dona bona no ha de tenir ni ulls ni orelles.
 La dona casada no ha de viure descuidada.
 La dona del cèsar no només ha de ser honesta sinó també aparentar-ho.
 La dona honesta, les mans a la filosa i els ulls a la finestra.
-La dona honrada, a casa amb la cama trencada.
-La dona i l'hort, un sol amo.
 La dona i la sardina, com més menuda, més fina.
 La dona llesta i callada, de tots sempre és estimada.
-La dona lletja, l'or la fa bonica.
 La dona maca no canta gaire, però quan canta, encanta.
 La dona pregada i l'olla reposada.
 La dona que a l'home li dóna col, poc el vol.
@@ -4237,7 +4231,6 @@ La mar ensenya a resar.
 La mar fa forat i tapa.
 La mar i el jugador, ara sí, ara no.
 La mar i el vi ho treuen tot a la vora.
-La mar i les dones mirades de lluny són bones.
 La mar mai diu prou.
 La mar manté a tothom que la tracta.
 La mar no es mou sense vent.
@@ -4608,6 +4601,7 @@ Lluna morta poc peix porta.
 Lluna morta, aigua a la porta.
 Lluna morta, llevant a la porta.
 Lluna naixent vermellosa, ventada grossa.
+Lluna nova amb torbonada, trenta dies mullada.
 Lluna nova de febrer, primer diumenge de quaresma.
 Lluna nova de gener molta pluja duu al darrer.
 Lluna nova en dijous no val tres sous.
@@ -4641,7 +4635,6 @@ Lluna rogent, pluja o vent.
 Lluna roja d'abril porta gran perill.
 Lluna roja de novembre s'enduu tota la sembra.
 Lluna roja el vent remou.
-Lluna roja, el vent remou Lluna nova amb torbonada, trenta dies mullada.
 Lluna roja, gelada forta.
 Lluna roja, molts vents porta.
 Lluna roja, ventada boja.
@@ -5043,7 +5036,6 @@ Ni a l'hivern deixes la capa, ni a l'estiu la carabassa.
 Ni al desembre navegar, ni a l'agost caminar.
 Ni al vespre ni al matí.
 Ni amb llevant ni amb llebeig, mariner, segur no et veig.
-Ni casa cantonera ni dona balconera.
 Ni cavall sense esperó ni barca sense timó.
 Ni dona desvergonyida ni planta al maig florida.
 Ni dona desvergonyida ni planta pel maig florida.
@@ -5175,7 +5167,6 @@ No hi ha cap geperut que es conega la gepa.
 No hi ha cap llaurador que no faça algun solc tort.
 No hi ha casament pobre ni mort rica.
 No hi ha cosa més barata que el que es compra.
-No hi ha càrrega més pesada que una dona lleugera.
 No hi ha desgràcia sense ventura.
 No hi ha dissabte sense sol ni romaní sense flor.
 No hi ha dissabte sense sol ni viuda sense dol.
@@ -7037,7 +7028,7 @@ Qui té mal veí, té mal matí.
 Qui té mal, el té venal.
 Qui té mare té consol.
 Qui té mossos i no els veu, es fa pobre i no s'ho creu.
-Qui té més que callar més parla.
+Qui té més a callar més parla.
 Qui té pa, fa sopes.
 Qui té padrins es bateja.
 Qui té padrins, es bateja.
@@ -7812,7 +7803,6 @@ Tramuntana, ni bona ni sana.
 Tramuntana, vent de gana.
 Tranquil·litat i bons aliments tenen sanes a les gents.
 Tranquil·litat i bons aliments.
-Trauràs de les dones poques coses bones.
 Treball dóna llibertat; sempre que puguis ser amo, no vulguis mai ser criat.
 Treballa i no menjaràs palla.
 Treballar i no guanyar? Més val, llavors, descansar.
@@ -7827,13 +7817,10 @@ Tres capes té Joan, dos que li n'han de fer i una que li'n faran.
 Tres coses fan la dona graciosa: bell parlar, bells ulls i bells pits.
 Tres coses fan la dona lletja: el nas tort, els ulls torts i la boca torta.
 Tres coses no es poden negar: l'aigua, el foc i saludar.
-Tres coses són insaciables: el foc, la terra i la dona.
-Tres coses trauen l'home de casa: el fum, la gotera i la dona baladrera.
 Tres dies de gelada, aigua assegurada.
 Tres dones amb tres fills, una olla de grills.
 Tres filles i una mare, pobre pare.
 Tres filles i una mare, quatre dimonis per a un pare.
-Tres mals grans hi ha: dona, foc i mar.
 Tres mitges figues fan figa i mitja.
 Tres són curtes i quatre són llargues.
 Tres topins en un foc assenyalen festa i tres dones en una casa engendren pesta.
