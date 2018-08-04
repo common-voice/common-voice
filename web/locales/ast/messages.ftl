@@ -246,6 +246,7 @@ data-other-title = Otros conxuntos de datos de voz...
 data-other-goto = Dir a { $name }
 data-other-download = Baxar datos
 data-other-ted-name = Corpus de TED-LIUM
+data-other-voxforge-description = VoxForge creóse pa recoyer charres trescrites y usales dempués nos motores de reconocencia gratuítos y de códigu abiertu.
 data-other-tatoeba-description = Tatoeba ye una base de datos grande de frases, traducciones y audios pal usu nel deprendimientu de llingües. Esta descarga contién grabaciones n'inglés faláu pola so comunidá.
 data-bundle-button = Baxar el paquete del conxuntu de datos
 data-bundle-description = Los datos de Common Voice amás de tolos conxuntos de datos d'enriba.
@@ -297,6 +298,7 @@ contact-required = *ríquese
 request-language-title = Solicitú de llingua
 request-language-form-language =
     .label = Llingua
+request-language-success-title = Unvióse con ésitu la solicitú de la llingua, gracies.
 request-language-success-content = Mui pronto vamos ponenos en contautu con más información tocante a cómo amestar la to llingua a Common Voice.
 
 ## Languages Overview
