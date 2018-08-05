@@ -220,7 +220,7 @@ faq-hours-q = Perque es 10,000 horas le scopo pro capturar audio?
 faq-hours-a = Isto es circa le numero del horas requirite pro maestrar un systema de conversion vocal.
 faq-source-q = De ubi veni le texto fonte?
 faq-source-a1 = Le phrases actual veni ab le donationes de collaboratores, tam ben como dialogos ex scriptos de pelliculas de dominio public como <italic>It’s a Wonderful Life.</italic>
-faq-source-a2 = Tu pote vider nostre phrases fonte in <dataLink>iste plica de GitHub</dataLink>.
+faq-source-a2 = Tu pote vider nostre phrases fonte in <dataLink>iste dossier GitHub</dataLink>.
 
 ## Profile
 
