@@ -41,7 +41,8 @@ export default class Clip {
 
     router.get('/validated_hours', this.serveValidatedHoursCount);
     router.get('/daily_count', this.serveDailyCount);
-    router.get('/stats', this.serveStats);
+    router.get('/stats', this.serveClipsStats);
+    router.get('/voices', this.serveVoicesStats);
     router.get('/votes/daily_count', this.serveDailyVotesCount);
     router.get('*', this.serveRandomClips);
 
@@ -186,7 +187,14 @@ export default class Clip {
     response.json(await this.model.db.getDailyVotesCount());
   };
 
-  private serveStats = async ({ params }: Request, response: Response) => {
+  private serveClipsStats = async ({ params }: Request, response: Response) => {
     response.json(await this.model.getClipsStats(params.locale));
+  };
+
+  private serveVoicesStats = async (
+    { params }: Request,
+    response: Response
+  ) => {
+    response.json(await this.model.getVoicesStats(params.locale));
   };
 }

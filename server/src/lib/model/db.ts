@@ -450,11 +450,22 @@ export default class DB {
     return rows;
   }
 
-  async insertSentence(id: string, sentence: string, bucket = 'train') {
-    await this.mysql.query(
-      'INSERT INTO sentences (id, text, bucket) VALUES (?, ?, ?) ON DUPLICATE KEY UPDATE id = id',
-      [id, sentence, bucket]
-    );
+  async getVoicesStats(
+    locale: string
+  ): Promise<{ date: string; value: number }[]> {
+    const hours = Array.from({ length: 10 }).map((_, i) => i);
+
+    const [rows] = await this.mysql.query(`
+      SELECT date, COUNT(DISTINCT client_id) AS voices
+      FROM (
+        SELECT (TIMESTAMP(DATE_FORMAT(NOW(), '%Y-%m-%d %H:00')) - INTERVAL hour HOUR) AS date
+        FROM (${hours.map(i => `SELECT ${i} AS hour`).join(' UNION ')}) hours
+      ) date_alias
+      LEFT JOIN clips ON created_at BETWEEN date AND (date + INTERVAL 1 HOUR)
+      GROUP BY date
+    `);
+
+    return rows;
   }
 
   async empty() {
