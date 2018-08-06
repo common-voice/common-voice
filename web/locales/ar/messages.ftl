@@ -132,33 +132,32 @@ toggle-play-tooltip = انقر { shortcut-play-toggle } للتشغيل أو ال
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
-shortcut-skip = س
+shortcut-skip = ت
 
 ## Listen Shortcuts
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-play-toggle = ص
-shortcut-play-toggle-label = تشغيل/إيقاف
+shortcut-play-toggle = ش
+shortcut-play-toggle-label = شغّل/أوقِف
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
-shortcut-vote-yes = ي
+shortcut-vote-yes = ن
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
-shortcut-vote-no = ن
+shortcut-vote-no = ل
 
 ## Speak Shortcuts
 
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-record-toggle = ر
-shortcut-record-toggle-label = تسجيل/إيقاف
+shortcut-record-toggle = س
+shortcut-record-toggle-label = سجِّل/أوقِف
 request-language-text = ألم ترى لغتك في «الصوت للعموم» بعد؟
 request-language-button = اطلب لغةً
 
 ## ProjectStatus
 
-status-title = إجمالي حالة المشروع: تابع أين وصلنا!
 status-contribute = ساهِم بصوتك
 status-hours =
     { $hours ->
@@ -176,7 +175,6 @@ english = الإنجليزية
 
 ## ProfileForm
 
-profile-form-cancel = خروج
 profile-form-delete = احذف الملف الشخصي
 profile-form-username =
     .label = اسم المستخدم
@@ -189,21 +187,21 @@ profile-form-age =
 profile-form-gender =
     .label = الجنس
 profile-form-submit-save = احفظ
-profile-form-submit-saved = تم الحفظ
+profile-form-submit-saved = حُفظت
 profile-keep-data = حافظ على البيانات
-profile-delete-data = حذف البيانات
+profile-delete-data = احذف البيانات
 male = ذكر
 female = أنثى
 # Gender
 other = أخرى
 why-profile-title = لماذا أحتاج ملفا شخصيا؟
-why-profile-text = تقديمك بعض المعلومات عنك، سيجعل ذلك من البيانات الصوتية التي تُرسلها إلى «الصوت للعموم» أكثر فائدة لمحركات التعرف على النطق والتي ستستخدم هذه البيانات لتحسين دقة التعرف.
-edit-profile = تعديل الملف الشخصي
+why-profile-text = بتقديمك بعض المعلومات الخاصة عنك تكون البيانات الصوتية التي تُرسلها إلى «الصوت للعموم» أكثر فائدة لمحركات التعرف على النطق والتي ستستخدم هذه البيانات لتحسين دقة التعرف.
+edit-profile = حرِّر الملف الشخصي
 profile-create = أنشئ ملفا شخصيا
-profile-create-success = تم إنشاء الملف الشخصي بنجاح
-profile-close = إغلاق
-profile-clear-modal = إلغاء البيانات الشخصية يعني ان هذه البيانات الجغرافية لن ترفق مع تسجيلاتك الصوتية إلي «الصوت للعموم».
-profile-explanation = تابع تقدمك عن طريق انشاء حساب وساعد في تحسين المقاطع الصوتية الموجودة لدينا
+profile-create-success = نجحنا، أُنشئ الملف الشخصي!
+profile-close = أغلِق
+profile-clear-modal = يعني مسح بيانات الملف الشخصي بأن هذه البيانات لن تُرسل إلى «الصوت للعموم» مع التسجيلات المرسلة.
+profile-explanation = تابِع عملك بإنشاء ملف شخصي وساعِدنا لتكون البيانات الصوتية أكثر دقة.
 
 ## FAQ
 
@@ -326,7 +324,7 @@ language-speakers = المتحدثين
 action-click = إنقر
 contribute = ساهِم
 listen = إستمع
-skip = تخطِ
+skip = تخطَّ
 shortcuts = اختصارات
 record-cta = إبدأ التسجيل
 record-instruction = { $actionType }<recordIcon></recordIcon> ثم اقرأ الجملة بصوتٍ عالٍ
