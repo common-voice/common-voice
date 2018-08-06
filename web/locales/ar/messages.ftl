@@ -317,7 +317,7 @@ request-language-success-content = سنبقى على اتصال معكم عن ط
 language-section-in-progress = يجري العمل عليها
 language-section-in-progress-description = تجهّز مجتمعات كل لغة أدناه لغتها للمساهمة. يعكس سير اللغة حالتها أكانت في مرحلة ترجمة الموقع أو في جمع الجمل.
 language-section-launched = الجاهزة
-language-section-launched-description = أصبحت ترجمة الموقع لهذه اللغات جاهزة، وقد جمعت ما يكفي من جمل لتسمح ببدء المساهمات في { speak } و{ listen }.
+language-section-launched-description = أصبحت ترجمة الموقع لهذه اللغات جاهزة، وقد جمعت ما يكفي من جمل تسمح ببدء المساهمات في { speak } و{ listen }.
 languages-show-more = اعرض المزيد
 languages-show-less = اعرض أقل
 language-speakers = المتحدّثون
@@ -326,6 +326,9 @@ language-total-progress = الإجمالي
 language-search-input =
     .placeholder = ابحث
 language-speakers = المتحدّثون
+localized = ترجمة الموقع
+sentences = الجمل
+total-hours = الساعات التي دُقّقت
 
 ## New Contribution
 
@@ -334,14 +337,32 @@ contribute = ساهِم
 listen = استمع
 skip = تخطَّ
 shortcuts = الاختصارات
+clips = مقاطع
+contribute-more =
+    { $count ->
+        [zero] أمستعد للمساهمة بِ‍ { $count } غيرها؟
+        [one] أمستعد للمساهمة بواحدة أخرى؟
+        [two] أمستعد للمساهمة باثنتين أخريتان؟
+        [few] أمستعد للمساهمة بِ‍ { $count } أخرى؟
+        [many] أمستعد للمساهمة بِ‍ { $count } أخرى؟
+       *[other] أمستعد للمساهمة بِ‍ { $count } أخرى؟
+    }
 record-cta = ابدأ التسجيل
 record-instruction = { $actionType }<recordIcon></recordIcon> ثم اقرأ الجملة بصوتٍ عالٍ
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> ما إن تنتهي
+record-three-more-instruction = ثلاثة جمل فتنتهي!
+record-again-instruction = ممتاز!<recordIcon></recordIcon> سجّل المقطع التالي
+record-again-instruction2 = تابِع هكذا، سجّل ثانيةً <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> آخر جملة!
+review-tooltip = راجِع وأعِد تسجيل المقاطع وأنت تساهم
 unable-speak = ألا تقدر الآن على التحدث؟
+review-instruction = راجِع وأعِد تسجيل المقاطع إن لزم الأمر
 record-abort-submit = أرسِل المقاطع
 record-abort-continue = أنهِ التسجيل
 listen-instruction = { $actionType }<playIcon></playIcon> هل كان نطق الجملة دقيقًا؟
 listen-again-instruction = عمل رائع!<playIcon></playIcon> استمع إليها ثانيةً ما إن تستعد
+listen-3rd-time-instruction = أنهيتَ جملتين، تابِع هكذا!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> آخر جملة!
+nothing-to-validate = ليس ثمة ما يمكن التحقق منه لهذه اللغة، ساعِدنا بتسجيل بعض المقاطع.
 record-button-label = سجّل صوتك
 share-title-new = <bold>ساعِدنا</bold> لنجد مساهمين آخرين
