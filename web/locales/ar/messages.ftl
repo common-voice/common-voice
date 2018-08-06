@@ -92,8 +92,8 @@ zh-TW = الصينية (تايوان)
 
 ## Layout
 
-speak = تَحَدّث
-speak-now = تَحَدّث الآن
+speak = الاستماع
+speak-now = تحدّث الآن
 datasets = مجموعات البيانات
 languages = اللغات
 profile = الملف الشخصي
@@ -172,9 +172,11 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = الهدف التالي: { $goal }
+english = الإنجليزيّة
 
 ## ProfileForm
 
+profile-form-cancel = اخرج من الاستمارة
 profile-form-delete = احذف الملف الشخصي
 profile-form-username =
     .label = اسم المستخدم
@@ -256,7 +258,7 @@ data-other-voxforge-description = جرى إعداد VoxForge لجمع الكلا
 data-other-tatoeba-description = تُعتبر تتويبا قاعدة بيانات ضخمة من الجمل والترجمات والصوت المقروء حيث تُستخدم في تعلم اللغات. يحتوي هذا الملف تسجيلات إنجليزية سجّلها مجتمع تتويبا.
 data-bundle-button = نزّل حزمة مجموعات البيانات
 data-bundle-description = بيانات «الصوت للعموم» مع كل مجموعات البيانات أعلاه.
-license = الترخيص: <licenseLink>{ $license }</licenseLink>
+license = الرخصة: <licenseLink>{ $license }</licenseLink>
 license-mixed = مختلطة
 
 ## Record Page
@@ -333,11 +335,14 @@ total-hours = الساعات التي دُقّقت
 ## New Contribution
 
 action-click = انقر
+action-tap = انقر
 contribute = ساهِم
 listen = استمع
 skip = تخطَّ
 shortcuts = الاختصارات
 clips = مقاطع
+goal-help-recording = لقد ساعدت «الصوت للعموم» في الوصول إلى <goalPercentage></goalPercentage> من هدفنا لتسجيل { $goalValue } يوميًا!
+goal-help-validation = لقد ساعدت «الصوت للعموم» في الوصول إلى <goalPercentage></goalPercentage> من هدفنا للتحقق من { $goalValue } يوميًا!
 contribute-more =
     { $count ->
         [zero] أمستعد للمساهمة بِ‍ { $count } غيرها؟
@@ -357,8 +362,13 @@ record-last-instruction = <recordIcon></recordIcon> آخر جملة!
 review-tooltip = راجِع وأعِد تسجيل المقاطع وأنت تساهم
 unable-speak = ألا تقدر الآن على التحدث؟
 review-instruction = راجِع وأعِد تسجيل المقاطع إن لزم الأمر
+record-submit-tooltip = { $actionType } ”أرسِل“ ما إن تنتهي
+clips-uploaded = رُفعت المقاطع
+record-abort-title = ألن تُنهي التسجيل أولًا؟
+record-abort-text = إن غادرت الآن فستفقد ما ساهمت به
 record-abort-submit = أرسِل المقاطع
-record-abort-continue = أنهِ التسجيل
+record-abort-continue = سأتابع التسجيل
+record-abort-delete = اخرج واحذف المقاطع
 listen-instruction = { $actionType }<playIcon></playIcon> هل كان نطق الجملة دقيقًا؟
 listen-again-instruction = عمل رائع!<playIcon></playIcon> استمع إليها ثانيةً ما إن تستعد
 listen-3rd-time-instruction = أنهيتَ جملتين، تابِع هكذا!<playIcon></playIcon>
