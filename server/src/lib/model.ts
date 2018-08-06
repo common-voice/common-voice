@@ -219,4 +219,9 @@ export default class Model {
       })),
     };
   }, 1000 * 60 * 20);
+
+  getClipsStats = lazyCache(
+    (locale: string) => this.db.getClipsStats(locale),
+    1000 * 60 * 60 * 24
+  );
 }

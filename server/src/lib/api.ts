@@ -51,7 +51,7 @@ export default class API {
     router.post('/skipped_sentences/:id', this.createSkippedSentence);
 
     router.use(
-      '/:locale/clips',
+      '/:locale?/clips',
       (request: Request, response: Response, next: NextFunction) => {
         this.metrics.countClipRequest(request);
         next();
