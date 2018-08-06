@@ -92,7 +92,7 @@ zh-TW = الصينية (تايوان)
 
 ## Layout
 
-speak = الاستماع
+speak = التحدّث
 speak-now = تحدّث الآن
 datasets = مجموعات البيانات
 languages = اللغات
@@ -337,7 +337,7 @@ total-hours = الساعات التي دُقّقت
 action-click = انقر
 action-tap = انقر
 contribute = ساهِم
-listen = استمع
+listen = الاستماع
 skip = تخطَّ
 shortcuts = الاختصارات
 clips = مقاطع
