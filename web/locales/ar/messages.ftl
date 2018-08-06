@@ -106,7 +106,7 @@ faq = الأسئلة الشائعة
 content-license-text = هذا المحتوى متوفر طبق إحدى <licenseLink>رخص المشاع الإبداعي</licenseLink>
 share-title = ساعِدنا في البحث عن آخرين يساهمون بأصواتهم!
 share-text = ساعِدنا بتعليم الآلة الكيفية التي ينطق بها بني البشر، ساهِم بصوتك هنا { $link }
-link-copied = تم نسخ الرابط
+link-copied = نُسخ الرابط
 back-top = عُد إلى الأعلى
 contribution-banner-text = لقد أطلقنا لتونا تجربة مساهمة جديدة
 contribution-banner-button = ألقِ نظرة عليها
@@ -158,6 +158,7 @@ request-language-button = اطلب لغةً
 
 ## ProjectStatus
 
+status-title = حالة المشروع العامة: اعرف كم قطعنا من الطريق!
 status-contribute = ساهِم بصوتك
 status-hours =
     { $hours ->
@@ -171,7 +172,6 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = الهدف التالي: { $goal }
-english = الإنجليزية
 
 ## ProfileForm
 
@@ -188,7 +188,7 @@ profile-form-gender =
     .label = الجنس
 profile-form-submit-save = احفظ
 profile-form-submit-saved = حُفظت
-profile-keep-data = حافظ على البيانات
+profile-keep-data = أبقِ البيانات
 profile-delete-data = احذف البيانات
 male = ذكر
 female = أنثى
@@ -234,7 +234,7 @@ profile-why-content = بتقديمك بعض المعلومات الخاصة عن
 ## NotFound
 
 notfound-title = غير موجود
-notfound-content = أخشى أنني لا أعرف ما الذي تبحث عنه.
+notfound-content = أخشى أنني لا أعرف عمّا تبحث.
 
 ## Data
 
@@ -247,8 +247,8 @@ data-subtitle = نعمل على بناء مجموعات بيانات مفتوح�
 data-explanatory-text = نؤمن بأن مجموعات البيانات الصوتية الكبيرة والمتاحة للعموم تُشجّع على الابتكار والمنافسة التجارية الصحيحة في تقنيات تعليم الآلات التعرفَ الصوتي. إن هذا المجهود عالمي وندعو الجميع للمشاركة. هدفنا هو مساعدة تقنيات التعرف الصوتي لتكون شاملة أكثر وتعكس اختلاف الأصوات وتنوعها حول العالم.
 data-get-started = <speechBlogLink>ابدأ مع تقنية التعرف الصوتي</speechBlogLink>
 data-other-title = مجموعات البيانات الأخرى…
-data-other-goto = إذهب إلى { $name }
-data-other-download = تحميل البيانات
+data-other-goto = انتقل إلى { $name }
+data-other-download = نزّل البيانات
 data-other-librispeech-description = تُعتبر LibriSpeech ذخيرة نصوص تحتوي على ١٬٠٠٠ ساعة من الأصوات الإنجليزية المسجّلة من الكتب الصوتية لمشروع LibriVox بتردد ١٦ ك.هرتز.
 data-other-ted-name = ذخيرة النصوص TED-LIUM
 data-other-ted-description = صُنعت ذخيرة النصوص TED-LIUM من المحادثات الصوتية ونسخها المكتوبة المتاحة في موقع تِد/TED.
@@ -257,7 +257,7 @@ data-other-tatoeba-description = تُعتبر تتويبا قاعدة بيانا
 data-bundle-button = نزّل حزمة مجموعات البيانات
 data-bundle-description = بيانات «الصوت للعموم» مع كل مجموعات البيانات أعلاه.
 license = الترخيص: <licenseLink>{ $license }</licenseLink>
-license-mixed = مختلط
+license-mixed = مختلطة
 
 ## Record Page
 
@@ -265,10 +265,10 @@ record-platform-not-supported = نأسف إلا أن المنصة لديك غي�
 record-platform-not-supported-desktop = يمكنك (على الحواسيب المكتبية) تنزيل أحدث:
 record-platform-not-supported-ios = يمكن لمستخدمي <bold>آي أو إس</bold> تنزيل تطبيقنا المجاني:
 record-must-allow-microphone = عليك السماح باستخدام الميكروفون.
-record-retry = إعادة المحاولة
+record-retry = أعِد المحاولة
 record-no-mic-found = لم يُعثر على أي ميكروفون.
-record-error-too-short = التسجيل كان قصيراً جداً.
-record-error-too-long = التسجيل كان طويلاً جداً.
+record-error-too-short = الصوت في التسجيل قصير للغاية.
+record-error-too-long = الصوت في التسجيل طويل للغاية.
 record-error-too-quiet = الصوت في التسجيل منخفض للغاية.
 record-submit-success = نجح الإرسال. أتريد التسجيل ثانيةً؟
 record-help = من فضلك انقر للتسجيل وثم اقرأ الجملة بالأعلى بصوتٍ عالٍ.
@@ -277,64 +277,71 @@ review-terms = باستخدامك «الصوت للعموم» أنت توافق 
 terms-agree = أوافق
 terms-disagree = لا أوافق
 review-aborted = أُجهض الرفع. أتريد حذف تسجيلاتك؟
-review-submit-title = مراجعة وإرسال
+review-submit-title = راجِع وأرسِل
 review-submit-msg = نشكرك على التسجيل!<lineBreak></lineBreak>راجِع الآن المقاطع وأرسِلها.
-review-recording = مراجعة
-review-rerecord = إعادة تسجيل
-review-cancel = إلغاء الإرسال
+review-recording = راجِع
+review-rerecord = أعِد التسجيل
+review-cancel = ألغِ الإرسال
 review-keep-recordings = أبقِ التسجيلات
-review-delete-recordings = حذف تسجيلاتي
+review-delete-recordings = احذف تسجيلاتي
 
 ## Download Modal
 
 download-title = بدأ التنزيل.
+download-helpus = ساعِدنا في بناء مجتمعًا يهتم بتقنية الأصوات، ابقَ على اتصال عبر البريد الإلكتروني.
 download-form-email =
     .label = أدخل بريدك الإلكتروني
     .value = شكرا، سوف نبقى على تواصل.
-download-no = لا شكراً
+download-back = عُد إلى قواعد بيانات «الصوت للعموم»
+download-no = لا شكرًا
 
 ## Contact Modal
 
-contact-title = نموذج الإتصال
+contact-title = استمارة التواصل
 contact-form-name =
-    .label = الإسم
+    .label = الاسم
 contact-form-message =
     .label = الرسالة
 contact-required = *مطلوب
 
 ## Request Language Modal
 
-request-language-title = طلب لغة
+request-language-title = طلب اللغة
 request-language-form-language =
     .label = اللغة
+request-language-success-title = نجح إرسال طلب اللغة، شكرًا لك.
+request-language-success-content = سنبقى على اتصال معكم عن طريقة إضافة اللغة التي تريدونها إلى «الصوت للعموم» في القريب العاجل.
 
 ## Languages Overview
 
-languages-show-more = أظهر المزيد
-languages-show-less = أظهر أقل
-language-speakers = المتحدثين
+language-section-in-progress = يجري العمل عليها
+language-section-in-progress-description = تجهّز مجتمعات كل لغة أدناه لغتها للمساهمة. يعكس سير اللغة حالتها أكانت في مرحلة ترجمة الموقع أو في جمع الجمل.
+language-section-launched = الجاهزة
+language-section-launched-description = أصبحت ترجمة الموقع لهذه اللغات جاهزة، وقد جمعت ما يكفي من جمل لتسمح ببدء المساهمات في { speak } و{ listen }.
+languages-show-more = اعرض المزيد
+languages-show-less = اعرض أقل
+language-speakers = المتحدّثون
 language-meter-in-progress = التقدم
 language-total-progress = الإجمالي
 language-search-input =
-    .placeholder = بحث
-language-speakers = المتحدثين
+    .placeholder = ابحث
+language-speakers = المتحدّثون
 
 ## New Contribution
 
-action-click = إنقر
+action-click = انقر
 contribute = ساهِم
-listen = إستمع
+listen = استمع
 skip = تخطَّ
-shortcuts = اختصارات
-record-cta = إبدأ التسجيل
+shortcuts = الاختصارات
+record-cta = ابدأ التسجيل
 record-instruction = { $actionType }<recordIcon></recordIcon> ثم اقرأ الجملة بصوتٍ عالٍ
-record-last-instruction = <recordIcon></recordIcon> الأخير!
-unable-speak = لا تستطيع التحدث الآن؟
-record-abort-title = أنهِ التسجيل أولاً؟
+record-last-instruction = <recordIcon></recordIcon> آخر جملة!
+unable-speak = ألا تقدر الآن على التحدث؟
 record-abort-submit = أرسِل المقاطع
-record-abort-continue = إنهاء التسجيل
-listen-instruction = { $actionType }<playIcon></playIcon> هل نطقوا الجُملة بِدقّة؟
-listen-again-instruction = عمل رائع!<playIcon></playIcon> إستمع مجدداً عندما تكون مُستَعِداً
-listen-last-time-instruction = <playIcon></playIcon>الأخير!
+record-abort-continue = أنهِ التسجيل
+listen-instruction = { $actionType }<playIcon></playIcon> هل كان نطق الجملة دقيقًا؟
+listen-again-instruction = عمل رائع!<playIcon></playIcon> استمع إليها ثانيةً ما إن تستعد
+listen-last-time-instruction = <playIcon></playIcon> آخر جملة!
 record-button-label = سجّل صوتك
-share-title-new = <bold>ساعدنا</bold> في العثور على المزيد من المتحدثين
+share-title-new = <bold>ساعِدنا</bold> لنجد مساهمين آخرين
