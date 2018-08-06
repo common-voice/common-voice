@@ -324,7 +324,7 @@ language-search-input =
 language-speakers = Sprecher
 localized = Übersetzt
 sentences = Sätze
-total-hours = Bestätigte Stdn.
+total-hours = Stdn. bestätigt
 
 ## New Contribution
 
