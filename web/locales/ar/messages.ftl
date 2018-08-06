@@ -244,50 +244,50 @@ data-download-deny = لا
 data-download-license = الرخصة: <licenseLink>CC-0</licenseLink>
 data-download-modal = أنت على وشك بدء تنزيل بحجم <size>{ $size } ج.بايت</size>، أتريد المتابعة؟
 data-subtitle = نعمل على بناء مجموعات بيانات مفتوحة ومتاحة للعموم يمكن استخدامها في تدريب التطبيقات التي تعمل بالتعرف الصوتي.
-data-explanatory-text = نحن نعتقد ان مجموعة بيانات كبيرة ومتاحة للجميع يعزز الإبداع والمنافسة التجارية في مجال تطبيقات التعرف الصوتي المعتمدة علي تكنولوجيا التعرف الصوتي. ان هذا هو جهد عالمي ونحن ندعو الجميع للمشاركة. هدفنا هو مساعدة تكنولوجيا التعرف الصوتي ان تحتوي المزيد، أن تعكس التنوع في الأصوات حول العالم.
-data-get-started = <speechBlogLink>إبدأ مع تكنولوجيا التعرف الصوتي</speechBlogLink>
-data-other-title = مجموعات بيانات أخري..
+data-explanatory-text = نؤمن بأن مجموعات البيانات الصوتية الكبيرة والمتاحة للعموم تُشجّع على الابتكار والمنافسة التجارية الصحيحة في تقنيات تعليم الآلات التعرفَ الصوتي. إن هذا المجهود عالمي وندعو الجميع للمشاركة. هدفنا هو مساعدة تقنيات التعرف الصوتي لتكون شاملة أكثر وتعكس اختلاف الأصوات وتنوعها حول العالم.
+data-get-started = <speechBlogLink>ابدأ مع تقنية التعرف الصوتي</speechBlogLink>
+data-other-title = مجموعات البيانات الأخرى…
 data-other-goto = إذهب إلى { $name }
 data-other-download = تحميل البيانات
-data-other-librispeech-description = LibriSpeech هي مجسم من حوالي 1000 ساعة بترد 16 كيلوهرتز من قراءة باللغة الانجليزية لمجموعة كتب صوتية من مشروع LibriVox 
-data-other-ted-name = TED-LIUM مجسم
-data-other-ted-description = مجسم TED-LIUM تم تطويره من احاديث صوتية والنص الخاص بها والمتاحة علي موقع تيد.
-data-other-voxforge-description = VoxForge تم إعداده لتجميع صوتيات مع النص الخاص بها ليتم استخدامها مع محركات تعرف صوتي مجانية ومفتوحة المصدر.
-data-other-tatoeba-description = Tatoeba هي مجموعة بيانات ضخمة من الجمل، الترجمة وأصوات التحدث للإستخدام في تعليم اللغات. هذا التحميل يحتوي علي أحاديث انجليزية تم تسجيلها عن طريق المجتمع الخاص بها.
-data-bundle-button = تحميل حزمة مجموعات البيانات
-data-bundle-description = بيانات "الصوت للعموم" بالإضافة إلي كل مجموعات البيانات الأخري بالأعلي.
+data-other-librispeech-description = تُعتبر LibriSpeech ذخيرة نصوص تحتوي على ١٬٠٠٠ ساعة من الأصوات الإنجليزية المسجّلة من الكتب الصوتية لمشروع LibriVox بتردد ١٦ ك.هرتز.
+data-other-ted-name = ذخيرة النصوص TED-LIUM
+data-other-ted-description = صُنعت ذخيرة النصوص TED-LIUM من المحادثات الصوتية ونسخها المكتوبة المتاحة في موقع تِد/TED.
+data-other-voxforge-description = جرى إعداد VoxForge لجمع الكلام (مع النسخة المكتوبة) لاستخدامها مع محرّكات التعرف الصوتي الحرة ومفتوحة المصدر.
+data-other-tatoeba-description = تُعتبر تتويبا قاعدة بيانات ضخمة من الجمل والترجمات والصوت المقروء حيث تُستخدم في تعلم اللغات. يحتوي هذا الملف تسجيلات إنجليزية سجّلها مجتمع تتويبا.
+data-bundle-button = نزّل حزمة مجموعات البيانات
+data-bundle-description = بيانات «الصوت للعموم» مع كل مجموعات البيانات أعلاه.
 license = الترخيص: <licenseLink>{ $license }</licenseLink>
 license-mixed = مختلط
 
 ## Record Page
 
-record-platform-not-supported = نأسف، لكن المنصة الخاصة بك غير مدعومة حاليا.
-record-platform-not-supported-desktop = علي الأجهزة المكتبية يمكنك تحميل آخر: 
-record-platform-not-supported-ios = مستخدمي<bold> أي أو إس</bold> يمكنهم تحميل التطبيق المجاني الخاص بنا.
+record-platform-not-supported = نأسف إلا أن المنصة لديك غير مدعومة حاليًا.
+record-platform-not-supported-desktop = يمكنك (على الحواسيب المكتبية) تنزيل أحدث:
+record-platform-not-supported-ios = يمكن لمستخدمي <bold>آي أو إس</bold> تنزيل تطبيقنا المجاني:
 record-must-allow-microphone = عليك السماح باستخدام الميكروفون.
 record-retry = إعادة المحاولة
 record-no-mic-found = لم يُعثر على أي ميكروفون.
 record-error-too-short = التسجيل كان قصيراً جداً.
 record-error-too-long = التسجيل كان طويلاً جداً.
-record-error-too-quiet = التسجيل كان منخفض الصوت جداً.
-record-submit-success = تم الإرسال بنجاح! هل تريد التسجيل مرة أخرى؟
-record-help = برجاء الضغط للتسجيل، ثم إقرأ الجملة بالأعلي بصوت عالي.
-record-cancel = إلغاء إعادة التسجيل
-review-terms = عن طريق استخدام "الصوت للعموم", انت توافق علي <termsLink>الشروط الخاصة بنا</termsLink> و<privacyLink>سياسة الخصوصية</privacyLink>
+record-error-too-quiet = الصوت في التسجيل منخفض للغاية.
+record-submit-success = نجح الإرسال. أتريد التسجيل ثانيةً؟
+record-help = من فضلك انقر للتسجيل وثم اقرأ الجملة بالأعلى بصوتٍ عالٍ.
+record-cancel = ألغِ إعادة التسجيل
+review-terms = باستخدامك «الصوت للعموم» أنت توافق على <termsLink>الشروط</termsLink> و<privacyLink>تنويه الخصوصية</privacyLink>
 terms-agree = أوافق
 terms-disagree = لا أوافق
-review-aborted = تم إلغاء التحميل. هل تريد مسح التسجيلات الخاصة بك؟
+review-aborted = أُجهض الرفع. أتريد حذف تسجيلاتك؟
 review-submit-title = مراجعة وإرسال
-review-submit-msg = شكرا علي التسجيل!<lineBreak></lineBreak>يمكنك اللآن مراجعة وإرسال التسجيلات الخاصة بك بالأسفل.
+review-submit-msg = نشكرك على التسجيل!<lineBreak></lineBreak>راجِع الآن المقاطع وأرسِلها.
 review-recording = مراجعة
 review-rerecord = إعادة تسجيل
 review-cancel = إلغاء الإرسال
-review-keep-recordings = احفظ التسجيلات
+review-keep-recordings = أبقِ التسجيلات
 review-delete-recordings = حذف تسجيلاتي
 
 ## Download Modal
 
-download-title = لقد بدأ التحميل
+download-title = بدأ التنزيل.
 download-form-email =
     .label = أدخل بريدك الإلكتروني
     .value = شكرا، سوف نبقى على تواصل.
@@ -306,7 +306,7 @@ contact-required = *مطلوب
 
 request-language-title = طلب لغة
 request-language-form-language =
-    .label = لغة
+    .label = اللغة
 
 ## Languages Overview
 
@@ -331,7 +331,7 @@ record-instruction = { $actionType }<recordIcon></recordIcon> ثم اقرأ ال
 record-last-instruction = <recordIcon></recordIcon> الأخير!
 unable-speak = لا تستطيع التحدث الآن؟
 record-abort-title = أنهِ التسجيل أولاً؟
-record-abort-submit = أرسل المقاطع
+record-abort-submit = أرسِل المقاطع
 record-abort-continue = إنهاء التسجيل
 listen-instruction = { $actionType }<playIcon></playIcon> هل نطقوا الجُملة بِدقّة؟
 listen-again-instruction = عمل رائع!<playIcon></playIcon> إستمع مجدداً عندما تكون مُستَعِداً
