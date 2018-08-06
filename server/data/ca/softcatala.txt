@@ -136,7 +136,7 @@ Al cap d'uns anys, tots dos països tenen un edifici.
 Al capdavall, es va veure que era més efectiu començar la feina des de zero.
 Al capdavall, les idees, immaterials com són, no tenien amo, i tampoc en el sentit que hom li ha donat després.
 Al final de l'acte s'obrirà un torn de precs i preguntes.
-Al llarg del dos mil quinze s'han baixat quatre-centes vint-i-nou cent vuitantat-tres còpies de programes en català des del nostre lloc web.
+Al llarg del dos mil quinze s'han baixat quatre-centes vint-i-nou cent vuitanta-tres còpies de programes en català des del nostre lloc web.
 Al lloc web de Fedora hi ha la llista completa dels canvis.
 Al mateix temps, també es corregeixen alguns errors de seguretat que s'han detectat des de la versió u punt punt tres.
 Al món hi ha unes set mil llengües aproximadament.
@@ -619,7 +619,7 @@ El moviment del software lliure està contra qualsevol ampliació del copyright.
 El MS Windows, per exemple, no en mostra cap.
 El màxim ja se'l marcarà cadascú.
 El més significatiu és la incapacitat de declarar la llengua pròpia.
-El mòdul Calc s'ha ampliat per a funcionar amb fins a seixanta cinc mil cinc-centes trenta-sis files de dades.
+El mòdul Calc s'ha ampliat per a funcionar amb fins a seixanta-cinc mil cinc-centes trenta-sis files de dades.
 El món del programari lliure ofereix múltiples opcions per a totes les necessitats.
 El món universitari ha tingut un paper molt destacat en el desenvolupament d'Internet i del programari lliure.
 El navegador de Mozilla, en una aplicació independent.
