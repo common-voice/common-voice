@@ -13,7 +13,7 @@ import { SET_COUNT } from './contribution';
 import './success.css';
 
 const COUNT_UP_MS = 500; // should be kept in sync with .contribution-success .done transition duration
-const DAILY_GOAL = Object.freeze({ speak: 600, listen: 1200 });
+const DAILY_GOAL = Object.freeze({ speak: 1200, listen: 2400 });
 
 const GoalPercentage = ({
   current,
@@ -69,13 +69,15 @@ class Success extends React.Component<Props, State> {
   private countUp = (time: number) => {
     if (this.killAnimation) return;
     if (!this.startedAt) this.startedAt = time;
-    const newCount = Math.ceil(
-      this.state.contributionCount * (time - this.startedAt) / COUNT_UP_MS
+    const { contributionCount } = this.state;
+    const newCount = Math.min(
+      Math.ceil(contributionCount * (time - this.startedAt) / COUNT_UP_MS),
+      contributionCount
     );
     this.setState({
       currentCount: newCount,
     });
-    if (newCount < this.state.contributionCount) {
+    if (newCount < contributionCount) {
       requestAnimationFrame(this.countUp);
     }
   };
@@ -114,7 +116,7 @@ class Success extends React.Component<Props, State> {
         </div>
 
         <Localized
-          id="goal-help"
+          id={type === 'speak' ? 'goal-help-recording' : 'goal-help-validation'}
           goalPercentage={
             <GoalPercentage
               current={Math.ceil(
@@ -125,9 +127,7 @@ class Success extends React.Component<Props, State> {
               final={finalPercentage}
             />
           }
-          $goalType={getString(
-            'goal-type-' + (type === 'speak' ? 'record' : 'validation')
-          )}>
+          $goalValue={DAILY_GOAL[type]}>
           <h1 />
         </Localized>
 

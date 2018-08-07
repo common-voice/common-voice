@@ -15,33 +15,48 @@ loading = Yükleniyor…
 
 ## Languages
 
+an = Aragonca
+ar = Arapça
 as = Assamca
+ast = Asturyanca
 az = Azerice
 bn = Bengalce
 br = Bretonca
+bxr = Buryatça
 ca = Katalanca
+cnh = Hakha Chin
 cs = Çekçe
 cv = Çuvaşça
 cy = Galce
 da = Danca
 de = Almanca
+dsb = Aşağı Sorbca
 el = Yunanca
 en = İngilizce
 es = İspanyolca
 et = Estonca
+fi = Fince
+fo = Faroece
 fr = Fransızca
 fy-NL = Frizce
 ga-IE = İrlandaca
 he = İbranice
+hsb = Yukarı Sorbca
 hu = Macarca
+ia = Interlingua
 id = Endonezce
+is = İzlandaca
 it = İtalyanca
+ja = Japonca
 ka = Gürcüce
 kab = Berberice
 kk = Kazakça
 ko = Korece
+kpv = Komi Zıryan
 kw = Kernevekçe
+ky = Kırgızca
 mk = Makedonca
+myv = Erzyanca
 nb-NO = Norveç Bokmål
 ne-NP = Nepalce
 nl = Felemenkçe
@@ -65,6 +80,7 @@ tt = Tatarca
 uk = Ukraynaca
 uz = Özbekçe
 zh-CN = Çince (Çin)
+zh-HK = Çince (Hong Kong)
 zh-TW = Çince (Tayvan)
 
 # [/]
@@ -86,7 +102,11 @@ faq = SSS
 content-license-text = İçerikler <licenseLink>Creative Commons lisansı</licenseLink> ile sunulmaktadır
 share-title = Sesini bağışlayacak birilerini bulmamıza yardım edin!
 share-text = Makinelere gerçek insanların nasıl konuştuğunu öğretin: { $link } ile sesinizi bağışlayın 
+link-copied = Bağlantı kopyalandı
 back-top = Başa dön
+contribution-banner-text = Katkıda bulunabileceğiniz yeni bir arayüz deniyoruz
+contribution-banner-button = Bir göz atın
+report-bugs-link = Hataları rapor edin
 
 ## Home Page
 
@@ -297,6 +317,10 @@ language-meter-in-progress = İlerleme
 language-total-progress = Toplam
 language-search-input =
     .placeholder = Ara
+language-speakers = Konuşmacı
+localized = Yerelleştirilmiş
+sentences = Cümleler
+total-hours = Toplam saat
 
 ## New Contribution
 
@@ -307,17 +331,15 @@ listen = Dinle
 skip = Atla
 shortcuts = Kısayollar
 clips = Klipler
-goal-type-record = kaydediyor
-goal-type-validation = doğrulama
-toward-goal = Common Voice’un bugünkü { $goalType } hedefinin <goalPercentage></goalPercentage> kadarına ulaştık. Teşekkürler
-goal-help = Common Voice’un günlük { $goalType } hedefinin <goalPercentage></goalPercentage> kadarına ulaşmasına yardım ettiniz!
+goal-help-recording = Common Voice'un günlük { $goalValue } kayıt hedefinin <goalPercentage></goalPercentage> kadarına ulaşmasına katkıda bulundunuz!
+goal-help-validation = Common Voice'un günlük { $goalValue } doğrulama hedefinin <goalPercentage></goalPercentage> kadarına ulaşmasına katkıda bulundunuz!
 contribute-more =
     { $count ->
         [one] { $count } tane daha yapmaya hazır mısın?
        *[other] { $count } tane daha yapmaya hazır mısın?
     }
 record-cta = Kaydetmeye başla
-record-instruction = { $actionType } <recordIcon></recordIcon>sonra cümleyi net bir şekilde okuyun
+record-instruction = <recordIcon></recordIcon> düğmesine { $actionType }, sonra cümleyi net bir şekilde okuyun
 record-stop-instruction = Bitirince { $actionType } <stopIcon></stopIcon>
 record-three-more-instruction = Üç tane kaldı!
 record-again-instruction = Harika! <recordIcon></recordIcon> Sonraki klibinizi kaydedin
@@ -327,18 +349,16 @@ review-tooltip = İlerledikçe bu kayıtları gözden geçirip yeniden kaydedin
 unable-speak = Şu anda konuşamıyor musunuz?
 review-instruction = Kayıtları gözden geçirip gerekirse yeniden kaydedin
 record-submit-tooltip = { $actionType } hazır olduğunuzda gönderin
-clips-submitted =
-    { $count ->
-        [one] { $count } klip gönderildi!
-       *[other] { $count } klip gönderildi!
-    }
+clips-uploaded = Yüklenen kayıt
 record-abort-title = Önce kayıt bitirilsin mi?
 record-abort-text = Şimdi çıkarsanız yaptıklarınız kaydedilmeyecek
 record-abort-submit = Klipleri gönder
 record-abort-continue = Kaydı bitir
 record-abort-delete = Klipleri sil ve çık
-listen-instruction = { $actionType }<playIcon></playIcon> cümle doğru okunmuş mu?
+listen-instruction = <playIcon></playIcon> düğmesine { $actionType }. Cümle doğru okunmuş mu?
 listen-again-instruction = Çok iyi iş! <playIcon></playIcon> Hazır olduğunuzda yeniden dinleyin.
 listen-3rd-time-instruction = İkisi gitti, çalışmaya devam! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Son bir tane!
+nothing-to-validate = Bu dilde doğrulanacak bir şey kalmamış. Kuyruğu doldurmamıza yardımcı olun.
+record-button-label = Sesinizi kaydedin
 share-title-new = Daha fazla ses bulmamıza <bold>yardım edin</bold>

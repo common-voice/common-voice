@@ -48,6 +48,7 @@ export default class API {
     router.put('/users/:id', this.saveUser);
 
     router.get('/:locale/sentences', this.getRandomSentences);
+    router.post('/skipped_sentences/:id', this.createSkippedSentence);
 
     router.use(
       '/:locale/clips',
@@ -60,6 +61,8 @@ export default class API {
 
     router.get('/requested_languages', this.getRequestedLanguages);
     router.post('/requested_languages', this.createLanguageRequest);
+
+    router.get('/language_stats', this.getLanguageStats);
 
     router.use('*', (request: Request, response: Response) => {
       response.sendStatus(404);
@@ -94,7 +97,11 @@ export default class API {
   };
 
   saveUser = async (request: Request, response: Response) => {
-    await this.model.syncUser(request.params.id, request.body);
+    await this.model.syncUser(
+      request.params.id,
+      request.body,
+      request.header('Referer')
+    );
     response.json('user synced');
   };
 
@@ -117,5 +124,15 @@ export default class API {
     await this.model.db.createLanguageRequest(request.body.language, request
       .headers.uid as string);
     response.json({});
+  };
+
+  createSkippedSentence = async (request: Request, response: Response) => {
+    const { headers: { uid }, params: { id } } = request;
+    await this.model.db.createSkippedSentence(id, uid as string);
+    response.json({});
+  };
+
+  getLanguageStats = async (request: Request, response: Response) => {
+    response.json(await this.model.getLanguageStats());
   };
 }

@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import { RouteComponentProps, withRouter } from 'react-router';
 const NavigationPrompt = require('react-router-navigation-prompt').default;
 import { Locale } from '../../../../stores/locale';
+import { Notifications } from '../../../../stores/notifications';
 import { Recordings } from '../../../../stores/recordings';
 import StateTree from '../../../../stores/tree';
 import { Uploads } from '../../../../stores/uploads';
@@ -76,7 +77,8 @@ interface PropsFromState {
 }
 
 interface PropsFromDispatch {
-  addUpload: typeof Uploads.actions.add;
+  addUploads: typeof Uploads.actions.add;
+  addNotification: typeof Notifications.actions.add;
   removeSentences: typeof Recordings.actions.removeSentences;
   tallyRecording: typeof User.actions.tallyRecording;
   updateUser: typeof User.actions.update;
@@ -278,10 +280,11 @@ class SpeakPage extends React.Component<Props, State> {
   };
 
   private handleSkip = async () => {
-    const { removeSentences, sentences } = this.props;
+    const { api, removeSentences, sentences } = this.props;
     const { clips } = this.state;
     await this.discardRecording();
-    removeSentences([clips[this.getRecordingIndex()].sentence.id]);
+    const { id } = clips[this.getRecordingIndex()].sentence;
+    removeSentences([id]);
     this.setState({
       clips: clips.map(
         (clip, i) =>
@@ -289,12 +292,15 @@ class SpeakPage extends React.Component<Props, State> {
             ? { recording: null, sentence: sentences.slice(SET_COUNT)[0] }
             : clip
       ),
+      error: null,
     });
+    await api.skipSentence(id);
   };
 
-  private upload = async (hasAgreed: boolean = false) => {
+  private upload = (hasAgreed: boolean = false) => {
     const {
-      addUpload,
+      addNotification,
+      addUploads,
       api,
       locale,
       removeSentences,
@@ -304,26 +310,51 @@ class SpeakPage extends React.Component<Props, State> {
 
     if (!hasAgreed && !user.privacyAgreed) {
       this.setState({ showPrivacyModal: true });
-      return;
+      return false;
     }
 
     const clips = this.state.clips.filter(clip => clip.recording);
 
     this.setState({ clips: [], isSubmitted: true });
 
-    for (const { sentence, recording } of clips) {
-      addUpload(async () => {
-        await api.uploadClip(recording.blob, sentence.id, sentence.text);
-        tallyRecording();
-      });
-    }
+    addUploads([
+      ...clips.map(({ sentence, recording }) => async () => {
+        let retries = 3;
+        while (retries) {
+          try {
+            await api.uploadClip(recording.blob, sentence.id, sentence.text);
+            tallyRecording();
+            retries = 0;
+          } catch (e) {
+            console.error(e);
+            retries--;
+            await new Promise(resolve => setTimeout(resolve, 1000));
+            if (
+              retries == 0 &&
+              confirm('Upload of this clip keeps failing, keep retrying?')
+            ) {
+              retries = 3;
+            }
+          }
+        }
+      }),
+      async () => {
+        await api.syncDemographics();
+        trackRecording('submit', locale);
+        addNotification(
+          <React.Fragment>
+            <CheckIcon />{' '}
+            <Localized id="clips-uploaded">
+              <span />
+            </Localized>
+          </React.Fragment>
+        );
+      },
+    ]);
 
     removeSentences(clips.map(c => c.sentence.id));
 
-    addUpload(async () => {
-      await api.syncDemographics();
-      trackRecording('submit', locale);
-    });
+    return true;
   };
 
   private resetState = (callback?: any) =>
@@ -332,7 +363,7 @@ class SpeakPage extends React.Component<Props, State> {
   private agreeToTerms = async () => {
     this.setState({ showPrivacyModal: false });
     this.props.updateUser({ privacyAgreed: true });
-    await this.upload(true);
+    this.upload(true);
   };
 
   private toggleDiscardModal = () => {
@@ -383,8 +414,7 @@ class SpeakPage extends React.Component<Props, State> {
                     outline
                     rounded
                     onClick={() => {
-                      this.upload().catch(e => console.error(e));
-                      onConfirm();
+                      if (this.upload()) onConfirm();
                     }}
                   />
                 </Localized>
@@ -517,7 +547,8 @@ const mapStateToProps = (state: StateTree) => {
 };
 
 const mapDispatchToProps = {
-  addUpload: Uploads.actions.add,
+  addNotification: Notifications.actions.add,
+  addUploads: Uploads.actions.add,
   removeSentences: Recordings.actions.removeSentences,
   tallyRecording: User.actions.tallyRecording,
   updateUser: User.actions.update,

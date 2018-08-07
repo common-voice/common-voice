@@ -127,9 +127,11 @@
         }
 
         & .labels {
+            border-bottom: 1px solid var(--grey);
+            margin-bottom: 20px;
             display: flex;
             flex-direction: row;
-            border-bottom: 1px solid var(--grey);
+            flex-wrap: wrap;
             overflow-x: auto;
         }
 
@@ -137,6 +139,11 @@
             white-space: nowrap;
             padding: 1rem;
             cursor: pointer;
+            font-size: 18px;
+
+            @media (--xs-up) {
+                font-size: 24px;
+            }
         }
 
         & button {
@@ -168,27 +175,52 @@
 
     & .selected-in-progress .language-sections section {
         margin-left: calc(-100vw);
+
+        @media (--md-up) {
+            margin-left: 0;
+        }
+    }
+
+    & .title-and-search {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        @media (--sm-down) {
+            display: none;
+        }
     }
 
     & .search {
-        margin-top: 2.5rem;
+        border: solid 1px var(--grey);
+        border-radius: 22px;
+        margin-left: auto;
+        padding: 0 10px;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
         align-items: center;
+        background: var(--lighter-grey);
 
-        & input {
-            border: none;
-            font-size: 1.8rem;
-            font-family: var(--strong-font-family);
+        @media (--sm-down) {
+            margin: 10px 0;
+            padding: 10px;
+            width: 100%;
+            box-sizing: border-box;
         }
 
-        & button {
-            margin-right: 2rem;
-            
-            & img {
-                width: 14px;
-            }
+        & input {
+            outline: none;
+            border: none;
+            margin: 0 10px;
+            width: 100%;
+            background: transparent;
+            color: var(--near-black);
+            font-family: var(--base-font-family);
+        }
+
+        & img {
+            padding-top: 2px;
+            width: 16px;
         }
     }
 
@@ -317,7 +349,7 @@
 
                 @media (--xs-up) {
                     margin-bottom: 0;
-                    padding: var(--standard-margin);
+                    padding: 1rem;
                 }
             }
 
@@ -340,6 +372,12 @@
                     font-style: italic;
                     color: var(--warm-grey);
                     letter-spacing: 0.8px;
+                }
+
+                & .value {
+                    text-align: right;
+                    font-style: normal;
+                    letter-spacing: normal;
                 }
 
                 & b {
@@ -368,6 +406,19 @@
             &:hover {
                 background: var(--light-grey);
             }
+        }
+    }
+
+    & h1, & h2 {
+        display: flex;
+        align-items: center;
+
+        & .count {
+            &:before {
+                content: '\00a0 ';
+            }
+
+            font-size: 70%;
         }
     }
 }

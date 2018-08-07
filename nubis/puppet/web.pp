@@ -89,7 +89,7 @@ apache::vhost { $project_name:
       'set X-Frame-Options "DENY"',
       'set Strict-Transport-Security "max-age=31536000"',
       # media-src blob: is required for recording audio.
-      'set Content-Security-Policy "default-src \'none\'; style-src \'self\' \'unsafe-inline\' https://fonts.googleapis.com; img-src \'self\' www.google-analytics.com; media-src data: blob: https://*.amazonaws.com https://*.amazon.com; script-src \'self\' \'sha256-it/hVbE0ffRQjkt+hTb6/JM7wKrTSMEK4CHF4s42Zu8=\' https://www.google-analytics.com/analytics.js https://pontoon.mozilla.org/pontoon.js; font-src \'self\' https://fonts.gstatic.com; connect-src \'self\' https://pontoon.mozilla.org/graphql;"'
+      'set Content-Security-Policy "default-src \'none\'; style-src \'self\' \'unsafe-inline\' https://fonts.googleapis.com https://optimize.google.com; img-src \'self\' www.google-analytics.com www.gstatic.com https://optimize.google.com https://www.gstatic.com; media-src data: blob: https://*.amazonaws.com https://*.amazon.com; script-src \'self\' \'sha256-a3JWJigb4heryKXgeCs/ZhQEaNkHypiyApGw7hQMdTA=\' \'sha256-CwRubg9crsF8jHlnzlIggcJhxGbh5OW22+liQqQNE18=\' \'sha256-KkfRSrCB8bso9HIC5wm/5cCYUmNSRWNQqyPbvopRCz4=\' https://www.google-analytics.com https://pontoon.mozilla.org https://optimize.google.com; font-src \'self\' https://fonts.gstatic.com; connect-src \'self\' https://pontoon.mozilla.org/graphql https://www.gstatic.com https://www.google-analytics.com; frame-src https://optimize.google.com;"'
     ],
     rewrites           => [
       {

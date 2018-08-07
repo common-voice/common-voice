@@ -15,33 +15,50 @@ loading = Načítava sa…
 
 ## Languages
 
+an = aragónčina
+ar = arabčina
 as = asámčina
+ast = astúrčina
 az = azerbajdžančina
 bn = bengálčina
 br = bretónčina
+bxr = buriatčina
 ca = katalánčina
+cak = kaqchikel
+cnh = hakha chin
 cs = čeština
 cv = čuvaština
 cy = waleština
 da = dánčina
 de = nemčina
+dsb = dolnolužická srbčina
 el = gréčtina
 en = angličtina
+eo = esperanto
 es = španielčina
 et = estónčina
+fi = fínčina
+fo = faerčina
 fr = francúzština
 fy-NL = frízština
 ga-IE = írčina
 he = hebrejčina
+hsb = hornolužická srbčina
 hu = maďarčina
+ia = interlingua
 id = indonézština
+is = islandčina
 it = taliančina
+ja = japončina
 ka = gruzínčina
 kab = kabylčina
 kk = kazaština
 ko = kórejčina
+kpv = komi-zyriančina
 kw = kornčina
+ky = kirgizština
 mk = macedónčina
+myv = erzya
 nb-NO = nórčina (bokmål)
 ne-NP = nepálčina
 nl = holandčina
@@ -49,6 +66,7 @@ nn-NO = nórčina (nynorsk)
 or = urijčina
 pl = poľština
 pt-BR = portugalčina (Brazília)
+rm = rétorománčina
 ro = rumunčina
 ru = ruština
 sah = jakutčina
@@ -63,8 +81,10 @@ th = thajčina
 tr = turečtina
 tt = tatárčina
 uk = ukrajinčina
+ur = urdčina
 uz = uzbečtina
 zh-CN = čínština (Čína)
+zh-HK = čínština (Hongkong)
 zh-TW = čínština (Taiwan)
 
 # [/]
@@ -86,7 +106,11 @@ faq = Často kladené otázky
 content-license-text = Obsah je dostupný v rámci licencie <licenseLink>Creative Commons</licenseLink>
 share-title = Pomôžte nám nájsť ďalších, ktorí prispejú svojím hlasom!
 share-text = Pomôžte strojom pochopiť ľudskú reč. Prispejte svojím hlasom na { $link }
+link-copied = Odkaz bol skopírovaný
 back-top = Návrat hore
+contribution-banner-text = Práve sme spustili nové prostredie pre prispievateľov
+contribution-banner-button = Pozrite sa naň
+report-bugs-link = Nahláste nám chyby
 
 ## Home Page
 
@@ -297,6 +321,7 @@ request-language-success-content = Čoskoro vám dáme vedieť, ako môžete pri
 language-section-in-progress = Jazyky, ktoré sa pripravujú
 language-section-in-progress-description = Tieto jazyky momentálne naše komunity pripravujú na prispievanie. Ich pokrok zobrazuje, ako ďaleko sú s prekladom stránky a so zberom viet.
 language-section-launched = Spustené
+language-section-launched-description = Pre tieto jazyky bola preložená webová stránka a zozbierali sme dostatok viet. To umožní našim prispievateľom efektívne sa zapojiť.
 languages-show-more = Zobraziť viac
 languages-show-less = Zobraziť menej
 language-speakers = Počet hovoriacich
@@ -304,6 +329,10 @@ language-meter-in-progress = Pokrok
 language-total-progress = Celkovo
 language-search-input =
     .placeholder = Hľadať
+language-speakers = Počet hovoriacich
+localized = Preklad stránky
+sentences = Počet viet
+total-hours = Počet overených hodín
 
 ## New Contribution
 
@@ -314,17 +343,35 @@ listen = Počúvajte
 skip = Preskočiť
 shortcuts = Skratky
 clips = Klipy
-goal-type-record = nahrávka
-goal-type-validation = overenie
-toward-goal = To je <goalPercentage></goalPercentage> z dnešného Common Voice cieľa { $goalType }. Ďakujeme
+goal-help-recording = Pomohli ste projektu Common Voice dosiahnuť <goalPercentage></goalPercentage> z nášho denného cieľa { $goalValue } nahrávok!
+goal-help-validation = Pomohli ste projektu Common Voice dosiahnuť <goalPercentage></goalPercentage> z nášho denného cieľa { $goalValue } kontrol!
+contribute-more =
+    { $count ->
+        [one] Ste pripravení urobiť ešte { $count } ďalšiu?
+        [few] Ste pripravení urobiť ešte { $count } ďalšie?
+       *[other] Ste pripravení urobiť ešte { $count } ďalších?
+    }
+record-cta = Začnite s nahrávaním
+record-instruction = { $actionType } na <recordIcon></recordIcon> a prečítajte vetu nahlas
+record-stop-instruction = { $actionType } na <stopIcon></stopIcon> keď budete hotoví
+record-three-more-instruction = Ešte tri!
 record-again-instruction = Skvelé! <recordIcon></recordIcon>Nahrajte váš ďalší klip
 record-again-instruction2 = Vynikajúce, pokračujte v nahrávaní <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Ešte naposledy!
+review-tooltip = Skontrolujte nahrávky a v prípade potreby ich opätovne nahrajte tu
 unable-speak = Nemôžete práve teraz hovoriť?
 review-instruction = Skontrolujte nahrávky a v prípade potreby ich nahrajte znova
+record-submit-tooltip = { $actionType } na odoslať keď budete hotoví
+clips-uploaded = Nahrávky boli nahrané
+record-abort-title = Nechcete najprv dokončiť nahrávanie?
 record-abort-text = Ak teraz odídete, stratíte svoj pokrok
 record-abort-submit = Odoslať nahrávky
 record-abort-continue = Dokončiť nahrávanie
 record-abort-delete = Zavrieť a odstrániť nahrávky
+listen-instruction = { $actionType } na <playIcon></playIcon>. Bola veta v poriadku?
+listen-again-instruction = Skvelá práca! <playIcon></playIcon> Keď budete pripravení, spustite ďalšiu nahrávku
+listen-3rd-time-instruction = 2 už sú za vami, pokračujte v dobrej práci!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Posledná nahrávka!
+nothing-to-validate = Pre váš jazyk nemáme čo overiť. Pomôžte nám to zmeniť.
+record-button-label = Nahrajte svoj hlas
 share-title-new = <bold>Pomôžte nám</bold> nájsť ďalšie hlasy

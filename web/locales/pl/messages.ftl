@@ -15,33 +15,50 @@ loading = Wczytywanie…
 
 ## Languages
 
+an = aragoński
+ar = arabski
 as = asamski
+ast = asturyjski
 az = azerski
 bn = bengalski
 br = bretoński
+bxr = buriacki
 ca = kataloński
+cak = kakczikel
+cnh = haka czin
 cs = czeski
 cv = czuwaski
 cy = walijski
 da = duński
 de = niemiecki
+dsb = dolnołużycki
 el = grecki
 en = angielski
+eo = esperanto
 es = hiszpański
 et = estoński
+fi = fiński
+fo = farerski
 fr = francuski
 fy-NL = fryzyjski
 ga-IE = irlandzki
 he = hebrajski
+hsb = górnołużycki
 hu = węgierski
+ia = interlingua
 id = indonezyjski
+is = islandzki
 it = włoski
+ja = japoński
 ka = gruziński
 kab = kabylski
 kk = kazachski
 ko = koreański
+kpv = komi (zyriański)
 kw = kornijski
+ky = kirgiski
 mk = macedoński
+myv = erzja
 nb-NO = norweski (bokmål)
 ne-NP = nepalski
 nl = holenderski
@@ -49,6 +66,7 @@ nn-NO = norweski (nynorsk)
 or = orija
 pl = polski
 pt-BR = portugalski (Brazylia)
+rm = retoromański
 ro = rumuński
 ru = rosyjski
 sah = jakucki
@@ -63,8 +81,10 @@ th = tajski
 tr = turecki
 tt = tatarski
 uk = ukraiński
+ur = urdu
 uz = uzbecki
 zh-CN = chiński (Chiny)
+zh-HK = chiński (Hongkong)
 zh-TW = chiński (Tajwan)
 
 # [/]
@@ -86,7 +106,11 @@ faq = Często zadawane pytania
 content-license-text = Treść dostępna na warunkach <licenseLink>licencji Creative Commons</licenseLink>
 share-title = Zachęć innych do nagrania swojego głosu!
 share-text = Pomóż nauczyć komputery, jak mówią prawdziwi ludzie — wspomóż swoim głosem na { $link }
+link-copied = Skopiowano odnośnik
 back-top = Powrót na górę
+contribution-banner-text = Właśnie włączyliśmy interfejs nowego uczestnika
+contribution-banner-button = Wypróbuj
+report-bugs-link = Pomóż zgłaszać błędy
 
 ## Home Page
 
@@ -298,6 +322,10 @@ language-meter-in-progress = Postęp
 language-total-progress = Razem
 language-search-input =
     .placeholder = Szukaj
+language-speakers = Osoby mówiące
+localized = Przetłumaczone
+sentences = Zdania
+total-hours = Razem godzin
 
 ## New Contribution
 
@@ -308,10 +336,8 @@ listen = Posłuchaj
 skip = Pomiń
 shortcuts = Skróty
 clips = Nagrania
-goal-type-record = nagrywania
-goal-type-validation = weryfikowania
-toward-goal = To <goalPercentage></goalPercentage> w kierunku dzisiejszego celu { $goalType } projektu Common Voice. Dziękujemy
-goal-help = Twój udział pomógł projektowi Common Voice osiągnąć <goalPercentage></goalPercentage> dziennego celu { $goalType }!
+goal-help-recording = Twój udział pomógł projektowi Common Voice osiągnąć <goalPercentage></goalPercentage> dziennego celu nagrywania ({ $goalValue })!
+goal-help-validation = Twój udział pomógł projektowi Common Voice osiągnąć <goalPercentage></goalPercentage> dziennego celu weryfikowania ({ $goalValue })!
 contribute-more = Zrobimy jeszcze { $count }?
 record-cta = Zacznij nagrywanie
 record-instruction = { $actionType } <recordIcon></recordIcon>, a następnie przeczytaj to zdanie
@@ -324,12 +350,7 @@ review-tooltip = Weryfikuj i ponownie nagrywaj w czasie pracy
 unable-speak = Nie można teraz wymówić zdania
 review-instruction = Weryfikuj i ponownie nagrywaj w razie potrzeby
 record-submit-tooltip = { $actionType } „Wyślij” po ukończeniu
-clips-submitted =
-    { $count ->
-        [one] Wysłano { $count } nagranie!
-        [few] Wysłano { $count } nagrania!
-       *[other] Wysłano { $count } nagrań!
-    }
+clips-uploaded = Wysłano nagrania
 record-abort-title = Najpierw dokończyć nagrywanie?
 record-abort-text = Wyjście teraz oznacza utratę postępów
 record-abort-submit = Wyślij nagrania
@@ -339,4 +360,6 @@ listen-instruction = { $actionType } <playIcon></playIcon> czy poprawnie wymówi
 listen-again-instruction = Świetna robota! <playIcon></playIcon> Posłuchaj ponownie
 listen-3rd-time-instruction = Dwa zrobione <playIcon></playIcon>, tak trzymaj!
 listen-last-time-instruction = <playIcon></playIcon> Ostatnie!
+nothing-to-validate = Nie mamy nic do zweryfikowania w tym języku, pomóż nam wypełnić kolejkę.
+record-button-label = Nagraj swój głos
 share-title-new = <bold>Pomóż nam</bold> znaleźć więcej głosów

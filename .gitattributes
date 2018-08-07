@@ -1,1 +1,1 @@
-locales/* linguist-vendored
+*.ftl linguist-detectable=false

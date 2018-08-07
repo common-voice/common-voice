@@ -11,33 +11,50 @@ loading = Loading…
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
 ## Languages
+an = Aragonese
+ar = Arabic
 as = Assamese
+ast = Asturian
 az = Azerbaijani
 bn = Bengali
 br = Breton
+bxr = Buryat
 ca = Catalan
+cak = Kaqchikel
+cnh = Hakha Chin
 cs = Czech
 cv = Chuvash
 cy = Welsh
 da = Danish
 de = German
+dsb = Sorbian, Lower
 el = Greek
 en = English
+eo = Esperanto
 es = Spanish
 et = Estonian
+fi = Finnish
+fo = Faroese
 fr = French
 fy-NL = Frisian
 ga-IE = Irish
 he = Hebrew
+hsb = Sorbian, Upper
 hu = Hungarian
+ia = Interlingua
 id = Indonesian
+is = Icelandic
 it = Italian
+ja = Japanese
 ka = Georgian
 kab = Kabyle
 kk = Kazakh
 ko = Korean
+kpv = Komi-Zyrian
 kw = Cornish
+ky = Kyrgyz
 mk = Macedonian
+myv = Erzya
 nb-NO = Norwegian Bokmål
 ne-NP = Nepali
 nl = Dutch
@@ -45,6 +62,7 @@ nn-NO = Norwegian Nynorsk
 or = Odia
 pl = Polish
 pt-BR = Portuguese (Brazil)
+rm = Romansh
 ro = Romanian
 ru = Russian
 sah = Sakha
@@ -59,8 +77,10 @@ th = Thai
 tr = Turkish
 tt = Tatar
 uk = Ukrainian
+ur = Urdu
 uz = Uzbek
 zh-CN = Chinese (China)
+zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
 # [/]
 
@@ -79,7 +99,11 @@ faq = FAQ
 content-license-text = Content available under a <licenseLink>Creative Commons license</licenseLink>
 share-title = Help us find others to donate their voice!
 share-text = Help teach machines how real people speak, donate your voice at { $link }
+link-copied = Link Copied
 back-top = Back to Top
+contribution-banner-text = We've just launched a new contribution experience
+contribution-banner-button = Take a look
+report-bugs-link = Help report bugs
 
 ## Home Page
 home-title =
@@ -292,6 +316,10 @@ language-meter-in-progress = Progress
 language-total-progress = Total
 language-search-input =
     .placeholder = Search
+language-speakers = Speakers
+localized = Localized
+sentences = Sentences
+total-hours = Validated Hrs
 
 ## New Contribution
 action-click = Click
@@ -301,38 +329,35 @@ listen = Listen
 skip = Skip
 shortcuts = Shortcuts
 clips = Clips
-goal-type-record = recording
-goal-type-validation = validation
-toward-goal = That's <goalPercentage></goalPercentage> toward today's Common Voice { $goalType } goal. Thank you
-goal-help = You've helped Common Voice reach <goalPercentage></goalPercentage> of its daily { $goalType } goal!
+goal-help-recording = You've helped Common Voice reach <goalPercentage></goalPercentage> of our daily { $goalValue } recording goal!
+goal-help-validation = You've helped Common Voice reach <goalPercentage></goalPercentage> of our daily { $goalValue } validation goal!
 contribute-more =
     { $count ->
        *[other] Ready to do { $count } more?
     }
 record-cta = Start recording
-record-instruction = { $actionType } <recordIcon></recordIcon>then read the sentence aloud
-record-stop-instruction = { $actionType } <stopIcon></stopIcon> when done
+record-instruction = { $actionType }<recordIcon></recordIcon> then read the sentence aloud
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> when done
 record-three-more-instruction = Three to go!
-record-again-instruction = Great! <recordIcon></recordIcon> Record your next clip
+record-again-instruction = Great!<recordIcon></recordIcon> Record your next clip
 record-again-instruction2 = Keep it up, record again <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Last one!
 review-tooltip = Review & re-record clips here as you go
 unable-speak = Unable to speak right now?
 review-instruction = Review & re-record clips if needed
 record-submit-tooltip = { $actionType } submit when ready
-clips-submitted =
-    { $count ->
-       *[other] { $count } Clips Submitted
-    }
+clips-uploaded = Clips Uploaded
 record-abort-title = Finish recording first?
 record-abort-text = Leaving now means you'll lose your progress
 record-abort-submit = Submit clips
 record-abort-continue = Finish recording
 record-abort-delete = Exit & Delete clips
-listen-instruction = { $actionType } <playIcon></playIcon> did they accurately speak the sentence?
-listen-again-instruction = Great work! <playIcon></playIcon> Listen again when you're ready
-listen-3rd-time-instruction = 2 down, keep it up! <playIcon></playIcon>
-listen-last-time-instruction = <playIcon></playIcon> Last one!
+listen-instruction = { $actionType }<playIcon></playIcon> did they accurately speak the sentence?
+listen-again-instruction = Great work!<playIcon></playIcon> Listen again when you're ready
+listen-3rd-time-instruction = 2 down, keep it up!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Last one!
+nothing-to-validate = We don't have anything to validate in this language, help us fill the queue.
+record-button-label = Record your voice
 share-title-new = <bold>Help us</bold> find more voices
 
 

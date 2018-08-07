@@ -1,7 +1,7 @@
 ## Languages
 
+contribute = תרומה
 get-involved-button = הצטרפות
-get-involved-cancel = יציאה
 get-involved-title = תרומה ל{ $lang }
 get-involved-text = תודה לך על הבעת העניין לתרום ל{ $lang }. אנו עובדים קשה כדי להכין את כל השפות להשקה ולעדכן את הצוותים בדוא״ל. אם מעניין אותך לתרום, נא לציין את כתובת הדוא״ל שלך להלן.
 get-involved-form-title = הרשמה לקבלת עדכונים עבור { $lang }:

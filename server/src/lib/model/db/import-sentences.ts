@@ -151,7 +151,11 @@ async function importLocaleSentences(pool: any, locale: string) {
 
 export async function importSentences(pool: any) {
   await pool.query(
-    'DELETE FROM sentences WHERE id NOT IN (SELECT original_sentence_id FROM clips)'
+    `
+      DELETE FROM sentences
+      WHERE id NOT IN (SELECT original_sentence_id FROM clips) AND
+            id NOT IN (SELECT sentence_id FROM skipped_sentences) 
+    `
   );
 
   await pool.query('UPDATE sentences SET is_used = FALSE');

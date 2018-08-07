@@ -4,16 +4,18 @@ import { connect } from 'react-redux';
 import { trackListening } from '../../../../services/tracker';
 import { Clips } from '../../../../stores/clips';
 import { Locale } from '../../../../stores/locale';
-import { User } from '../../../../stores/user';
 import StateTree from '../../../../stores/tree';
+import URLS from '../../../../urls';
 import {
   CheckIcon,
   CrossIcon,
+  MicIcon,
   OldPlayIcon,
   ThumbsDownIcon,
   ThumbsUpIcon,
   VolumeIcon,
 } from '../../../ui/icons';
+import { LinkButton } from '../../../ui/ui';
 import ContributionPage, {
   ContributionPillProps,
   SET_COUNT,
@@ -40,12 +42,12 @@ const VoteButton = ({
 
 interface PropsFromState {
   clips: Clips.Clip[];
+  isLoading: boolean;
   locale: Locale.State;
 }
 
 interface PropsFromDispatch {
   removeClip: typeof Clips.actions.remove;
-  tallyVerification: typeof User.actions.tallyVerification;
   vote: typeof Clips.actions.vote;
 }
 
@@ -96,22 +98,26 @@ class ListenPage extends React.Component<Props, State> {
   }
 
   private play = () => {
-    const audio = this.audioRef.current;
     if (this.state.isPlaying) {
-      audio.pause();
-      audio.currentTime = 0;
-      clearInterval(this.playedSomeInterval);
-      this.setState({ isPlaying: false });
+      this.stop();
       return;
     }
 
-    audio.play();
+    this.audioRef.current.play();
     this.setState({ isPlaying: true });
     clearInterval(this.playedSomeInterval);
     this.playedSomeInterval = setInterval(
       () => this.setState({ hasPlayedSome: true }),
       VOTE_NO_PLAY_MS
     );
+  };
+
+  private stop = () => {
+    const audio = this.audioRef.current;
+    audio.pause();
+    audio.currentTime = 0;
+    clearInterval(this.playedSomeInterval);
+    this.setState({ isPlaying: false });
   };
 
   private hasPlayed = () => {
@@ -124,6 +130,7 @@ class ListenPage extends React.Component<Props, State> {
     const clipIndex = this.getClipIndex();
 
     clearInterval(this.playedSomeInterval);
+    this.props.vote(isValid, this.state.clips[this.getClipIndex()].id);
     this.setState({
       hasPlayed: false,
       hasPlayedSome: false,
@@ -133,8 +140,6 @@ class ListenPage extends React.Component<Props, State> {
         (clip, i) => (i === clipIndex ? { ...clip, isValid } : clip)
       ),
     });
-
-    this.props.vote(isValid, this.state.clips[this.getClipIndex()].id);
   };
 
   private voteYes = () => {
@@ -157,6 +162,7 @@ class ListenPage extends React.Component<Props, State> {
   private handleSkip = () => {
     const { removeClip } = this.props;
     const { clips } = this.state;
+    this.stop();
     removeClip(clips[this.getClipIndex()].id);
     this.setState({
       clips: clips.map(
@@ -190,6 +196,27 @@ class ListenPage extends React.Component<Props, State> {
         />
         <ContributionPage
           activeIndex={clipIndex}
+          errorContent={
+            !this.props.isLoading &&
+            clips.length === 0 && (
+              <div className="empty-container">
+                <div className="error-card card-dimensions">
+                  <Localized id="nothing-to-validate">
+                    <span />
+                  </Localized>
+                  <LinkButton
+                    rounded
+                    to={URLS.SPEAK}
+                    className="record-instead">
+                    <MicIcon />{' '}
+                    <Localized id="record-button-label">
+                      <span />
+                    </Localized>
+                  </LinkButton>
+                </div>
+              </div>
+            )
+          }
           instruction={props =>
             activeClip &&
             !isPlaying &&
@@ -216,17 +243,17 @@ class ListenPage extends React.Component<Props, State> {
           onSkip={this.handleSkip}
           primaryButtons={
             <React.Fragment>
-              {hasPlayed ? (
-                <VoteButton type="yes" onClick={this.voteYes} />
-              ) : (
-                <div className="vote-button-placeholder" />
-              )}
+              <VoteButton
+                type="yes"
+                onClick={this.voteYes}
+                disabled={!hasPlayed}
+              />
               <PlayButton isPlaying={isPlaying} onClick={this.play} />
-              {hasPlayed || hasPlayedSome ? (
-                <VoteButton type="no" onClick={this.voteNo} />
-              ) : (
-                <div className="vote-button-placeholder" />
-              )}
+              <VoteButton
+                type="no"
+                onClick={this.voteNo}
+                disabled={!hasPlayed && !hasPlayedSome}
+              />
             </React.Fragment>
           }
           pills={clips.map(
@@ -278,15 +305,16 @@ class ListenPage extends React.Component<Props, State> {
 }
 
 const mapStateToProps = (state: StateTree) => {
+  const { clips, isLoading } = Clips.selectors.localeClips(state);
   return {
-    clips: Clips.selectors.localeClips(state).clips,
+    clips,
+    isLoading,
     locale: state.locale,
   };
 };
 
 const mapDispatchToProps = {
   removeClip: Clips.actions.remove,
-  tallyVerification: User.actions.tallyVerification,
   vote: Clips.actions.vote,
 };
 

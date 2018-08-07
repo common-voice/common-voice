@@ -3,7 +3,7 @@ import Mysql from './mysql';
 /**
  * Base object for dealing with data in MySQL table.
  */
-export default class Table<T> {
+export default class Table {
   private name: string;
   mysql: Mysql;
 
@@ -26,7 +26,7 @@ export default class Table<T> {
     return rows ? rows[0].count : 0;
   }
 
-  async update(fields: T): Promise<void> {
+  async update(fields: any): Promise<void> {
     const [columns, values] = Object.entries(fields).reduce(
       ([columns, values], [column, value]) => [
         columns.concat(column),

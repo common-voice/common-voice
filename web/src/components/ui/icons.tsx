@@ -18,9 +18,27 @@ export const CheckIcon = (props: any) => (
       <mask id="check-mask" fill="#fff">
         <use xlinkHref="#check-path" />
       </mask>
-      <use fill="#000" fillRule="nonzero" xlinkHref="#check-path" />
       <g fill="#4A4A4A" mask="url(#check-mask)">
         <path d="M-3-6h24v24H-3z" />
+      </g>
+    </g>
+  </svg>
+);
+
+export const ChevronRight = (props: any) => (
+  <svg width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+      <path
+        id="a"
+        d="M15.7 12.7l-6 6c-.2.2-.4.3-.7.3-.3 0-.5-.1-.7-.3-.4-.4-.4-1 0-1.4l5.3-5.3-5.3-5.3c-.4-.4-.4-1 0-1.4.4-.4 1-.4 1.4 0l6 6c.4.4.4 1 0 1.4z"
+      />
+    </defs>
+    <g fill="none" fillRule="evenodd">
+      <mask id="b" fill="#fff">
+        <use xlinkHref="#a" />
+      </mask>
+      <g fill="#4A4A4A" mask="url(#b)">
+        <path d="M0 0h24v24H0z" />
       </g>
     </g>
   </svg>
@@ -45,7 +63,6 @@ export const CrossIcon = (props: any) => (
       <mask id="cross-mask" fill="#fff">
         <use xlinkHref="#cross-path" />
       </mask>
-      <use fill="#000" fillRule="nonzero" xlinkHref="#cross-path" />
       <g fill="#4A4A4A" mask="url(#cross-mask)">
         <path d="M-5-5h24v24H-5z" />
       </g>
@@ -94,7 +111,6 @@ export const MicIcon = (props: any) => {
         <mask id={'mic-mask' + id} fill="#fff">
           <use xlinkHref={'#mic-path' + id} />
         </mask>
-        <use fill="#000" fillRule="nonzero" xlinkHref={'#mic-path' + id} />
         <g fill="#FF4F5E" mask={`url(#mic-mask${id})`}>
           <path d="M-5 0h28v28H-5z" />
         </g>
@@ -141,11 +157,6 @@ export const PlayOutlineIcon = (props: any) => {
         <mask id={'play-outline-mask' + id} fill="#fff">
           <use xlinkHref={'#play-outline-path' + id} />
         </mask>
-        <use
-          fill="#000"
-          fillRule="nonzero"
-          xlinkHref={'#play-outline-path' + id}
-        />
         <g fill="#4A4A4A" mask={`url(#play-outline-mask${id})`}>
           <path d="M-4-1h24v24H-4z" />
         </g>
@@ -171,7 +182,6 @@ export const RedoIcon = (props: any) => {
         <mask id={'redo-mask' + id} fill="#fff">
           <use xlinkHref={'#redo-path' + id} />
         </mask>
-        <use fill="#000" fillRule="nonzero" xlinkHref={'#redo-path' + id} />
         <g fill="#4A4A4A" mask={`url(#redo-mask${id})`}>
           <path d="M-1-2h24v24H-1z" />
         </g>
@@ -199,7 +209,6 @@ export const ShareIcon = (props: any) => {
         <mask id={'share-mask' + id} fill="#fff">
           <use xlinkHref={'#share-path' + id} />
         </mask>
-        <use fill="#000" fillRule="nonzero" xlinkHref={'#share-path' + id} />
         <g fill="#4A4A4A" mask={`url(#share-mask${id})`}>
           <path d="M-3-1h24v24H-3z" />
         </g>
@@ -208,25 +217,29 @@ export const ShareIcon = (props: any) => {
   );
 };
 
-export const SkipIcon = (props: any) => (
-  <svg width="22" height="22" viewBox="0 0 22 22">
-    <defs>
-      <path
-        id="skip-path"
-        d="M12.558 6.142l-4.583 4.583a.832.832 0 0 1-.642.275.832.832 0 0 1-.641-.275.886.886 0 0 1 0-1.283L10.633 5.5 6.692 1.558a.886.886 0 0 1 0-1.283.886.886 0 0 1 1.283 0l4.583 4.583a.886.886 0 0 1 0 1.284zM6.142 4.858L1.558.275a.886.886 0 0 0-1.283 0 .886.886 0 0 0 0 1.283L4.217 5.5.275 9.442a.886.886 0 0 0 0 1.283.832.832 0 0 0 .642.275.832.832 0 0 0 .641-.275l4.584-4.583a.886.886 0 0 0 0-1.284z"
-      />
-    </defs>
-    <g fill="none" fillRule="evenodd" transform="translate(4.583 5.5)">
-      <mask id="skip-mask" fill="#fff">
-        <use xlinkHref="#skip-path" />
-      </mask>
-      <use fill="#000" fillRule="nonzero" xlinkHref="#skip-path" />
-      <g fill="#000" mask="url(#skip-mask)">
-        <path d="M-4.583-5.5h22v22h-22z" />
+let skipId = 0;
+export const SkipIcon = (props: any) => {
+  const id = skipId++;
+  return (
+    <svg width="22" height="22" viewBox="0 0 22 22">
+      <defs>
+        <path
+          id={'skip-path' + id}
+          d="M12.558 6.142l-4.583 4.583a.832.832 0 0 1-.642.275.832.832 0 0 1-.641-.275.886.886 0 0 1 0-1.283L10.633 5.5 6.692 1.558a.886.886 0 0 1 0-1.283.886.886 0 0 1 1.283 0l4.583 4.583a.886.886 0 0 1 0 1.284zM6.142 4.858L1.558.275a.886.886 0 0 0-1.283 0 .886.886 0 0 0 0 1.283L4.217 5.5.275 9.442a.886.886 0 0 0 0 1.283.832.832 0 0 0 .642.275.832.832 0 0 0 .641-.275l4.584-4.583a.886.886 0 0 0 0-1.284z"
+        />
+      </defs>
+      <g fill="none" fillRule="evenodd" transform="translate(4.583 5.5)">
+        <mask id={'skip-mask' + id} fill="#fff">
+          <use xlinkHref={'#skip-path' + id} />
+        </mask>
+        <use fill="#000" fillRule="nonzero" xlinkHref={'#skip-path' + id} />
+        <g fill="#000" mask={`url(#skip-mask${id})`}>
+          <path d="M-4.583-5.5h22v22h-22z" />
+        </g>
       </g>
-    </g>
-  </svg>
-);
+    </svg>
+  );
+};
 
 let stopId = 0;
 export const StopIcon = (props: any) => {
@@ -243,7 +256,6 @@ export const StopIcon = (props: any) => {
         <mask id={'stop-mask' + id} fill="#fff">
           <use xlinkHref={'#stop-path' + id} />
         </mask>
-        <use fill="#000" fillRule="nonzero" xlinkHref={'#stop-path' + id} />
         <g fill="#FF4F5E" mask={`url(#stop-mask${id})`}>
           <path d="M-2.333-2.333h28v28h-28z" />
         </g>
@@ -268,7 +280,6 @@ export const ThumbsDownIcon = (props: any) => (
       <mask id="thumbs-down-mask" fill="#fff">
         <use xlinkHref="#thumbs-down-path" />
       </mask>
-      <use fill="#000" fillRule="nonzero" xlinkHref="#thumbs-down-path" />
       <g fill="#4A4A4A" mask="url(#thumbs-down-mask)">
         <path d="M-1-1h24v24H-1z" />
       </g>
@@ -288,7 +299,6 @@ export const ThumbsUpIcon = (props: any) => (
       <mask id="thumbs-up" fill="#fff">
         <use xlinkHref="#thumbs-up-path" />
       </mask>
-      <use fill="#000" fillRule="nonzero" xlinkHref="#thumbs-up-path" />
       <g fill="#4A4A4A" mask="url(#thumbs-up)">
         <path d="M-1-1h24v24H-1z" />
       </g>
@@ -308,7 +318,6 @@ export const VolumeIcon = (props: any) => (
       <mask id="volume-mask" fill="#fff">
         <use xlinkHref="#volume-path" />
       </mask>
-      <use fill="#000" fillRule="nonzero" xlinkHref="#volume-path" />
       <g fill="#4A4A4A" mask="url(#volume-mask)">
         <path d="M-1-4h24v24H-1z" />
       </g>

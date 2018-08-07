@@ -64,11 +64,26 @@
 
 
 
-.play-box svg,
-.delete-box svg {
-    width: 30px;
-    height: 30px;
-    vertical-align: middle;
+.play-box,
+.delete-box {
+    min-width: var(--listen-box-height);
+    line-height: var(--listen-box-height);
+    text-align: center;
+    cursor: pointer;
+    transition: var(--transition-duration);
+    font-size: 23px;
+
+    & svg {
+        width: 30px;
+        height: 30px;
+        vertical-align: middle;
+    }
+
+    &:hover, &:focus.focus-visible {
+        & svg {
+            transform: scale(1.1);
+        }
+    }
 }
 
 .play-box {
@@ -79,19 +94,12 @@ body:not(.mobile-safari) .play-box:hover,
 body:not(.mobile-safari) .play-box:hover path,
 body.mobile-safari .play-box:active,
 body.mobile-safari .play-box:active path,
-.is-keyboard-focus .play-box:focus,
-.is-keyboard-focus .play-box:focus path {
+.play-box:focus.focus-visible,
+.play-box:focus.focus-visible path {
     outline: none;
     background-color: var(--green);
     color: var(--white);
     fill: var(--white);
-}
-
-.play-box:hover svg,
-.delete-box:hover svg,
-.is-keyboard-focus .play-box:focus svg,
-.is-keyboard-focus .delete-box:focus svg {
-    transform: scale(1.1);
 }
 
 .sentence-box {
@@ -114,33 +122,23 @@ body.mobile-safari .play-box:active path,
     }
 }
 
-.delete-box,
-.play-box {
-    min-width: var(--listen-box-height);
-    line-height: var(--listen-box-height);
-    text-align: center;
-    cursor: pointer;
-    transition: var(--transition-duration);
-    font-size: 23px;
-}
-
 .delete-box {
     background-color: var(--white);
     margin-left: var(--standard-margin);
     font-weight: bold;
-}
 
-.delete-box span {
-    display: block;
-    font-size: 1.2rem;
+    & span {
+        display: block;
+        font-size: 1.2rem;
+    }
 }
 
 body:not(.mobile-safari) .delete-box:hover,
 body:not(.mobile-safari) .delete-box:hover path,
 body.mobile-safari .delete-box:active,
 body.mobile-safari .delete-box:active path,
-.is-keyboard-focus .delete-box:focus,
-.is-keyboard-focus .delete-box:focus path {
+.delete-box:focus.focus-visible,
+.delete-box:focus.focus-visible path {
     background-color: var(--black);
     color: var(--white);
     fill: var(--white);
@@ -151,6 +149,32 @@ body.mobile-safari .delete-box:active path,
     flex-direction: row;
     align-items: center;
     margin-left: var(--standard-margin);
+
+    & > button {
+        border: 1px solid var(--darker-grey);
+        border-radius: 1.5rem;
+        padding: .5rem 1.5rem;
+        display: flex;
+        align-items: flex-end;
+        flex: 1;
+        justify-content: center;
+        color: var(--warm-grey);
+        font-size: .9rem;
+        text-transform: uppercase;
+        cursor: pointer;
+        font-family: var(--base-font-family);
+        font-weight: bold;
+        user-select: none;
+
+        &:first-child {
+            margin-right: var(--standard-margin);
+        }
+
+        &:disabled {
+            opacity: 0.3;
+            pointer-events: none;
+        }
+    }
 }
 
 @media (--mobile) {
@@ -160,34 +184,8 @@ body.mobile-safari .delete-box:active path,
     }
 }
 
-.vote-box > button {
-    border: 1px solid var(--darker-grey);
-    border-radius: 1.5rem;
-    padding: .5rem 1.5rem;
-    display: flex;
-    align-items: flex-end;
-    flex: 1;
-    justify-content: center;
-    color: var(--warm-grey);
-    font-size: .9rem;
-    text-transform: uppercase;
-    cursor: pointer;
-    font-family: var(--base-font-family);
-    font-weight: bold;
-    user-select: none;
-}
-
-.vote-box > button:first-child {
-    margin-right: var(--standard-margin);
-}
-
 body:not(.mobile-safari) .vote-box > button:hover {
     background-color: var(--black);
     border-color: transparent;
     color: var(--white);
-}
-
-.vote-box > button:disabled {
-    opacity: 0.3;
-    pointer-events: none;
 }

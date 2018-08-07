@@ -8,7 +8,6 @@ email-input =
     .label = Elektron pochta
 submit-form-action = Yuborish
 loading = Yuklanmoqda...
-audio-loading-error = Uzr, biz audio fayllar bilan ishlayapmiz. Keyinroq urinib ko‘ring.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -17,7 +16,10 @@ audio-loading-error = Uzr, biz audio fayllar bilan ishlayapmiz. Keyinroq urinib 
 ## Languages
 
 bn = Bengal
+br = Breton
+bxr = Buryat
 ca = Katalan
+cak = Kaqchikel
 cs = Chex
 cv = Chuvash
 cy = Uels
@@ -25,6 +27,7 @@ da = Daniya
 de = Nemis
 el = Grek
 en = Ingliz
+eo = Esperanto
 es = Ispan
 fr = Fransuz
 fy-NL = Friz
@@ -112,7 +115,6 @@ profile-form-username =
     .label = Foydalanuvchi nomi
 profile-form-language =
     .label = Til
-profile-form-more-languages = Tezda yangi tillar qo‘shiladi!
 profile-form-accent =
     .label = Aksent
 profile-form-age =
@@ -173,6 +175,7 @@ languages-show-more = Ko‘proq
 languages-show-less = Kamroq
 language-speakers = So‘zlovchilar
 language-total-progress = Jami
+language-speakers = So‘zlovchilar
 
 ## New Contribution
 

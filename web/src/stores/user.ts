@@ -5,6 +5,13 @@ import { generateGUID } from '../utility';
 import StateTree from './tree';
 
 export const ACCENTS: any = {
+  ca: {
+    balearic: 'català balear',
+    central: 'català central',
+    northwestern: 'català nord-occidental',
+    northern: 'català septentrional',
+    valencian: 'català valencià',
+  },
   cy: {
     united_kingdom: 'Y Deyrnas Unedig Cymraeg',
   },
@@ -117,6 +124,11 @@ export const ACCENTS: any = {
     andorra: 'Français d’Andorre',
     st_pierre_et_miquelon: 'Français de Saint-Pierre-et-Miquelon',
     rwanda: 'Français du Rwanda',
+  },
+  'ga-IE': {
+    mumhain: 'Gaeilge na Mumhan',
+    connachta: 'Gaeilge Chonnacht',
+    ulaidh: 'Gaeilge Uladh',
   },
 };
 

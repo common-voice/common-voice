@@ -15,33 +15,50 @@ loading = Laddar…
 
 ## Languages
 
+an = Aragonesiska
+ar = Arabiska
 as = Assamesiska
+ast = Asturiska
 az = Azerbajdzjanska
 bn = Bengaliska
 br = Bretonska
+bxr = Buryat
 ca = Katalanska
+cak = Cakchiquel
+cnh = Burmesiska
 cs = Tjeckiska
 cv = Tjuvasjiska
 cy = Walesiska
 da = Danska
 de = Tyska
+dsb = Lågsorbiska
 el = Grekiska
 en = Engelska
+eo = Esperanto
 es = Spanska
 et = Estländska
+fi = Finska
+fo = Färöiska
 fr = Franska
 fy-NL = Frisiska
 ga-IE = Irländska
 he = Hebreiska
+hsb = Högsorbiska
 hu = Ungerska
+ia = Interlingua
 id = Indonesiska
+is = Isländska
 it = Italienska
+ja = Japanska
 ka = Georgiska
 kab = Kabyliska
 kk = Kazakstanska
 ko = Koreanska
+kpv = Komi-syrjänska
 kw = Korniska
+ky = Kirgiziska
 mk = Makedonska
+myv = Erzya
 nb-NO = Norska Bokmål
 ne-NP = Nepali
 nl = Nederländska
@@ -49,6 +66,7 @@ nn-NO = Norska, nynorska
 or = Odia
 pl = Polska
 pt-BR = Portugisiska (Brasilien)
+rm = Rätoromanska
 ro = Rumänska
 ru = Ryska
 sah = Sakha
@@ -63,8 +81,10 @@ th = Thailändska
 tr = Turkiska
 tt = Tatariska
 uk = Ukrainska
+ur = Urdu
 uz = Uzbekistanska
 zh-CN = Kinesiska (Kina)
+zh-HK = Kinesiska (Hong Kong)
 zh-TW = Kinesiska (Taiwan)
 
 # [/]
@@ -86,7 +106,11 @@ faq = FAQ
 content-license-text = Innehåll tillgängligt under en <licenseLink>Creative Commons licens</licenseLink>
 share-title = Hjälp oss att hitta andra som är redo att bidra med sin röst!
 share-text = Hjälp till att lära maskiner hur riktiga människor pratar, donera din röst på { $link }
+link-copied = Länk kopierad
 back-top = Tillbaka till toppen av sidan
+contribution-banner-text = Det finns nu ett nytt sätt att samarbeta
+contribution-banner-button = Ta en titt
+report-bugs-link = Hjälp oss att rapportera buggar
 
 ## Home Page
 
@@ -196,7 +220,7 @@ faq-hours-q = Varför är 10 000 timmar målet för inspelningen av ljud?
 faq-hours-a = Det är ungefär det antal timmar som krävs för att träna ett röst-till-tal system.
 faq-source-q = Var kommer källtexten ifrån?
 faq-source-a1 = De nuvarande meningarna kommer från bidragsgivare samt från dialoger från filmer som är "public domain" som till exempel filmen <italic>It’s a Wonderful Life.</italic>
-faq-source-a2 = Du kan se våra källmeningar i <dataLink>denna GitHub mapp</dataLink>
+faq-source-a2 = Du kan se våra källmeningar i <dataLink>denna GitHub-mapp</dataLink>
 
 ## Profile
 
@@ -297,6 +321,10 @@ language-meter-in-progress = Förlopp
 language-total-progress = Totalt
 language-search-input =
     .placeholder = Sök
+language-speakers = Talas av
+localized = Översatt
+sentences = Meningar
+total-hours = Validerade timmar
 
 ## New Contribution
 
@@ -307,10 +335,8 @@ listen = Lyssna
 skip = Hoppa över
 shortcuts = Genvägar
 clips = Klipp
-goal-type-record = inspelning
-goal-type-validation = validering
-toward-goal = Det är <goalPercentage></goalPercentage> närmare dagens Common Voice { $goalType } mål. Tack
-goal-help = Du har hjälpt till att nå Common Voice <goalPercentage></goalPercentage> av det dagliga målet { $goalType }!
+goal-help-recording = Du har hjälp Common Voice att nå <goalPercentage></goalPercentage> av vårt dagliga { $goalValue } inspelningsmål!
+goal-help-validation = Du har hjälp Common Voice att nå <goalPercentage></goalPercentage> av vårt dagliga { $goalValue } valideringsmål!
 contribute-more =
     { $count ->
         [one] Redo att göra { $count } till?
@@ -327,11 +353,7 @@ review-tooltip = Här kan du kontrollera och återuppta inspelningar
 unable-speak = Kan inte prata just nu?
 review-instruction = Om det behövs kan du granska och återuppta inspelningar
 record-submit-tooltip = { $actionType } skicka in när du är redo
-clips-submitted =
-    { $count ->
-        [one] { $count } klipp lämnades
-       *[other] { $count } klipp lämnades
-    }
+clips-uploaded = Klipp uppladdade
 record-abort-title = Avsluta inspelningen först?
 record-abort-text = Om du slutar nu kommer dina framsteg att gå förlorade
 record-abort-submit = Skicka in klipp
@@ -341,4 +363,6 @@ listen-instruction = { $actionType }<playIcon></playIcon> var meningen uttalad k
 listen-again-instruction = Bra jobbat!<playIcon></playIcon> Lyssna igen när du är redo
 listen-3rd-time-instruction = Två färdiga, <playIcon></playIcon> bra jobbat!
 listen-last-time-instruction = <playIcon></playIcon> Sista!
+nothing-to-validate = Vi har inget att validera på det här språket, hjälp oss att fylla kön.
+record-button-label = Spela in din röst
 share-title-new = <bold>Hjälp oss</bold> hitta mer röster

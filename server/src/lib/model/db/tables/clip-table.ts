@@ -14,7 +14,7 @@ export interface DBClipWithVoters extends DBClip {
   voters: string[];
 }
 
-export default class ClipsTable extends Table<{}> {
+export default class ClipsTable extends Table {
   constructor(mysql: Mysql) {
     super('clips', mysql);
   }

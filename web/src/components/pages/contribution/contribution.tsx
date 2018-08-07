@@ -225,18 +225,17 @@ class ContributionPage extends React.Component<Props, State> {
               </Localized>
             </div>
 
-            {this.isLoaded &&
-              !errorContent && (
-                <div className={'counter ' + (isSubmitted ? 'done' : '')}>
-                  {isSubmitted && <CheckIcon />}
-                  {this.renderCounter()}
-                  <Localized
-                    id={isSubmitted ? 'clips-submitted' : 'clips'}
-                    $count={''}>
-                    <span className="text" />
-                  </Localized>
-                </div>
-              )}
+            {this.isLoaded && !errorContent ? (
+              <div className={'counter ' + (isSubmitted ? 'done' : '')}>
+                {isSubmitted && <CheckIcon />}
+                {this.renderCounter()}
+                <Localized id="clips" $count={''}>
+                  <span className="text" />
+                </Localized>
+              </div>
+            ) : (
+              <div />
+            )}
             {isSubmitted && (
               <button className="open-share" onClick={this.toggleShareModal}>
                 <ShareIcon />
@@ -300,11 +299,13 @@ class ContributionPage extends React.Component<Props, State> {
                     return (
                       <div
                         key={sentence}
-                        className={'card ' + (isActive ? '' : 'inactive')}
+                        className={
+                          'card card-dimensions ' + (isActive ? '' : 'inactive')
+                        }
                         style={{
                           transform: [
                             `scale(${isActive ? 1 : 0.9})`,
-                            `translateX(${(i - activeSentenceIndex) * -120}%)`,
+                            `translateX(${(i - activeSentenceIndex) * -130}%)`,
                           ].join(' '),
                           opacity: i < activeSentenceIndex ? 0 : 1,
                         }}>
@@ -360,7 +361,7 @@ class ContributionPage extends React.Component<Props, State> {
             {instruction({
               $actionType: getString('action-tap'),
               children: <div className="instruction hidden-md-up" />,
-            })}
+            }) || <div className="instruction hidden-md-up" />}
 
             <div className="primary-buttons">
               <canvas ref={this.canvasRef} />

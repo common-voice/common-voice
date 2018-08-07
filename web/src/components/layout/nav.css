@@ -150,7 +150,7 @@ header {
     }
 }
 
-.language-select:hover, .is-keyboard-focus .language-select:focus-within {
+.language-select:hover, .language-select.focus-visible:focus-within {
     &::before {
         background-image: url("/img/globe_black.svg");
     }
@@ -184,20 +184,20 @@ header {
     display: flex;
     justify-content: space-evenly;
     font-family: var(--strong-font-family);
-}
 
-.nav-list a {
-    padding: 0 1rem;
-    display: block;
-    font-family: var(--base-font-family);
-    font-size: var(--font-size-small);
-    text-transform: uppercase;
-    font-weight: 600;
-    text-align: center;
-}
+    & a {
+        padding: 0 1rem;
+        display: block;
+        font-family: var(--base-font-family);
+        font-size: var(--font-size-small);
+        text-transform: uppercase;
+        font-weight: 600;
+        text-align: center;
 
-.nav-list a.active {
-    color: var(--dark-red);
+        &.active {
+            color: var(--dark-red);
+        }
+    }
 }
 
 .tallies {

@@ -15,33 +15,50 @@ loading = Llwytho…
 
 ## Languages
 
+an = Aragoneg
+ar = Arabeg
 as = Asameg
+ast = Asturieg
 az = Aserbaijaneg
 bn = Bengaleg
 br = Llydaweg
+bxr = Buryat
 ca = Catalaneg
+cak = Kaqchikel
+cnh = Hakha Chin
 cs = Tsiec
 cv = Chuvash
 cy = Cymraeg
 da = Daneg
 de = Almaeneg
+dsb = Sorbeg Is
 el = Groeg
 en = Saesneg
+eo = Esperanto
 es = Sbaeneg
 et = Estoneg
+fi = Ffinneg
+fo = Ffaroeg
 fr = Ffrangeg
 fy-NL = Ffriseg
 ga-IE = Gwyddeleg
 he = Hebraeg
+hsb = Sorbeg Uwch
 hu = Hwngareg
+ia = Interlingua
 id = Indoneseg
+is = Eislandeg
 it = Eidaleg
+ja = Japanëeg
 ka = Georgeg
 kab = Kabyle
 kk = Casac
 ko = Corëeg
+kpv = Komi-Zyrian
 kw = Cernyweg
+ky = Kyrgyz
 mk = Macedoneg
+myv = Erzya
 nb-NO = Bokmål Norwyeg
 ne-NP = Nepaleg
 nl = Iseldireg
@@ -49,6 +66,7 @@ nn-NO = Norwyeg Nynorsk
 or = Odia
 pl = Pwyleg
 pt-BR = Portiwgaleg (Brasil)
+rm = Romansh
 ro = Rwmaneg
 ru = Rwsieg
 sah = Sakha
@@ -63,8 +81,10 @@ th = Thai
 tr = Twrceg
 tt = Tartareg
 uk = Wcraneg
+ur = Urdu
 uz = Wsbeceg
 zh-CN = Tsieinëeg (Tsiena)
+zh-HK = Tsieinëeg (Hong Kong)
 zh-TW = Tsieinëeg (Taiwan)
 
 # [/]
@@ -86,7 +106,11 @@ faq = Cwestiynau Cyffredin
 content-license-text = Mae'r cynnwys ar gael o dan <licenseLink>drwydded Creative Commons</licenseLink>
 share-title = Helpwch ni i gael rhagor o bobl i gyfrannu eu lleisiau!
 share-text = Helpwch beiriannau i ddysgu sut mae pobl go iawn yn siarad, cyfrannwch eich llais yn { $link }
+link-copied = Dolen wedi'i chopïo
 back-top = Nôl i'r Brig
+contribution-banner-text = Rydym newydd lansio profiad cyfrannwr newydd
+contribution-banner-button = Cymrwch olwg
+report-bugs-link = Adrodd ar wallau
 
 ## Home Page
 
@@ -108,7 +132,7 @@ toggle-play-tooltip = Cliciwch { shortcut-play-toggle } i newid y modd chwarae
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
-shortcut-skip = s
+shortcut-skip = H
 
 ## Listen Shortcuts
 
@@ -292,8 +316,8 @@ request-language-success-content = Byddwn mewn cysylltiad gyda rhagor o wybodaet
 
 ## Languages Overview
 
-language-section-in-progress = Ar Gynnydd
-language-section-in-progress-description = Mae ieithoedd ar gynnydd yn cael eu hadeiladu ar hyn o bryd ar gyfer cyfraniadau gan ein cymunedau; mae eu cynnydd yn adlewyrchu lle maen nhw arni ar draws cyfnodau lleolieddio'r wefan a'r casglu brawddegau.
+language-section-in-progress = Yn Cael eu Datblygu
+language-section-in-progress-description = Mae ieithoedd sy'n cael eu datblygu yn cael eu hadeiladu ar hyn o bryd ar gyfer cyfraniadau gan ein cymunedau; mae eu cynnydd yn adlewyrchu lle maen nhw arni ar draws cyfnodau lleolieddio'r wefan a'r casglu brawddegau.
 language-section-launched = Wedi Cychwyn
 language-section-launched-description = Ar gyfer ieithoedd sydd wedi eu cyflwyno mae'r wefan wedi ei leoleiddio'n llwyddiannus ac mae digon o frawddegau wedi eu casglu i ganiatáu cyfraniadau <italic>{ speak }</italic> a <italic>{ listen }</italic> parhaus.
 languages-show-more = Gweld Mwy
@@ -303,20 +327,22 @@ language-meter-in-progress = Cynnydd
 language-total-progress = Cyfanswm
 language-search-input =
     .placeholder = Chwilio
+language-speakers = Siaradwyr
+localized = Wedi ei leoleiddio
+sentences = Brawddegau
+total-hours = Cyfanswm Oriau
 
 ## New Contribution
 
 action-click = Cliciwch
 action-tap = Tapiwch
 contribute = Cyfrannwch
-listen = Gwrandewch
+listen = Gwrando
 skip = Hepgor
 shortcuts = Llwybrau Byr
-clips = Clipiau
-goal-type-record = recordio
-goal-type-validation = dilysu
-toward-goal = Mae hynny'n <goalPercentage></goalPercentage> tuag at nod { $goalType } Common Voice. Diolch
-goal-help = Rydych wedi helpu Common Voice i gyrraedd <goalPercentage></goalPercentage> o'i nod { $goalType } dyddiol!
+clips = Clip
+goal-help-recording = Rydych wedi cynorthwyo Common Voice i gyrraedd <goalPercentage></goalPercentage> o { $goalValue }, ein nod recordio dyddiol!
+goal-help-validation = Rydych wedi cynorthwyo Common Voice i gyrraedd <goalPercentage></goalPercentage> o { $goalValue }, ein nod dilysu dyddiol!
 contribute-more = Barod i wneud { $count } yn rhagor?
 record-cta = Cychwyn recordio
 record-instruction = { $actionType }<recordIcon></recordIcon> ac yna darllen y frawddeg yn uchel
@@ -329,14 +355,16 @@ review-tooltip = Adolygu ac ail recordio clipiau yma wrth fynd
 unable-speak = Methu siarad nawr
 review-instruction = Adolygu ac ail recordio clipiau os oes angen
 record-submit-tooltip = { $actionType } cyflwyno pan yn barod
-clips-submitted = { $count } Clip wedi eu cyflwyno!
+clips-uploaded = Clipiau Wedi'u Llwytho
 record-abort-title = Gorffen recordio yn gyntaf?
 record-abort-text = Bydd gadael nawr yn golygu eich bod yn colli eich cyfraniad
 record-abort-submit = Cyflwyno clipiau
 record-abort-continue = Gorffen recordio
 record-abort-delete = Gadael a Dileu clipiau
-listen-instruction = { $actionType } <playIcon> </playIcon> ydyn nhw wedi ynganu'r brawddegau'n gywir?
-listen-again-instruction = Gwaith gwych! <playIcon> </playIcon> Gwrandewch eto pan fyddwch yn barod
+listen-instruction = { $actionType } <playIcon> </playIcon> os ydyn nhw wedi ynganu'r brawddegau'n gywir
+listen-again-instruction = Da iawn! <playIcon> </playIcon> Gwrandewch eto pan fyddwch yn barod
 listen-3rd-time-instruction = 2 i lawr <playIcon> </playIcon> , daliwch ati!
 listen-last-time-instruction = <playIcon> </playIcon> Yr un olaf!
+nothing-to-validate = Nid oes gennym unrhyw beth i ddilysu'r iaith hon, helpwch ni i lanw'r ciw
+record-button-label = Recordio eich llais
 share-title-new = <bold>Helpwch ni</bold> i ganfod rhagor o leisiau
