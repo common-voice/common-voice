@@ -165,7 +165,7 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = 下个目标：{ $goal }
-english = 汉语（中国）
+english = 英语
 
 ## ProfileForm
 
