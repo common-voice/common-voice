@@ -1382,7 +1382,7 @@ Poskrbite, da boste dobili zdravniško spričevalo!
 Nekaj kostanja bom spekel na veselici.
 Lisic ni, kjer jaz živim.
 Center mesta je strašen kraj za življenje.
-Moje potovanje v Belgijo je bila katastrofa.
+Moje potovanje v Belgijo je bilo katastrofalno.
 Ljudje so se morali umiriti.
 Pozabi, take stvari ni.
 Američani imajo radi žar.
@@ -1480,7 +1480,7 @@ Preverite vsebino spletnega mesta.
 Čudovit ponedeljek imamo danes v Londonu.
 V darilu je presenečenje.
 Ali mi lahko pomagate s tem vprašanjem?
-Vozil je na ladji z imenom Bibavica.
+Vozil se je na ladji z imenom Bibavica.
 Java ni enako kot JavaScript.
 Nostalgija ni tisto, kar bi radi, da bi bilo.
 Nato je ponudil otrokom velik sladoled.
@@ -1563,7 +1563,7 @@ Lahko to načrtujemo v torek?
 Kje si bil popoldne?
 V novembru sem jedel pito.
 Cena je zrasla za dvaindvajset odstotkov.
-Kje je Cilka zapustila ključe?
+Kje je Cilka pustila ključe?
 Prijatelj v stiski je pravi prijatelj.
 Odsotnost povzroči, da srce raste.
 Naročnik je tako slab kot tat.
@@ -1963,7 +1963,7 @@ Eden izmed teh dni ni planiran za ekskurzijo.
 Povejte mi več o svojih simptomih.
 Zakaj nisi prišla na zabavo?
 Bila je naravnost preveč smešna.
-Kako to misliš, s kakšno besedo bi to najbolj opisal?
+Kako to misliš, s katero besedo bi to najbolje opisal?
 Pogum je zmožnost premagovanja strahu.
 Komunizem je nasprotje kapitalizma.
 Otroci so radi poslušali njene zgodbe.
@@ -2080,7 +2080,7 @@ Spustite mlado tele, da pije mleko iz vedra.
 Šole za ženske ne učijo samo čara in miline.
 Svetilka je sijala s stalnim zelenim plamenom.
 Stari kovanec je bil precej dolgočasen in obrabljen.
-Papirja je malo, zato pišite z veliko pozornosti.
+Papirja je malo, zato pišite zelo pozorno.
 Hitra lisica je skočila na mačko.
 Plaža je suha in peščena.
 Grad, zgrajen iz peska, ne trpi vode.
