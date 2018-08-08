@@ -16,8 +16,8 @@ type State = {
 export default class Hero extends React.Component<
   {
     type: 'speak' | 'listen';
+    status: 'active' | 'compressed' | null;
     count: number;
-    isActive: boolean;
     onShow: () => any;
     onHide: () => any;
   },
@@ -25,7 +25,7 @@ export default class Hero extends React.Component<
 > {
   state: State = { dimensions: [], showToMeasure: true };
 
-  toggleableRefs: any = Array.from({ length: 3 }).map(() => React.createRef());
+  toggleableRefs: any = Array.from({ length: 4 }).map(() => React.createRef());
 
   componentDidMount() {
     window.addEventListener('resize', this.showToMeasure);
@@ -57,23 +57,23 @@ export default class Hero extends React.Component<
   }
 
   getToggleableProps(i: number, className = '') {
-    const { isActive } = this.props;
+    const { status } = this.props;
     const { dimensions, showToMeasure } = this.state;
     return {
       ref: this.toggleableRefs[i],
       className: 'toggleable ' + className,
       style: showToMeasure
-        ? { width: 'auto', height: 'auto' }
-        : isActive ? dimensions[i] : { width: 0, height: 0 },
+        ? {}
+        : status === 'active' ? dimensions[i] : { width: 0, height: 0 },
     };
   }
 
   render() {
-    const { type, count, isActive, onShow, onHide } = this.props;
+    const { type, status, count, onShow, onHide } = this.props;
     const isSpeak = type == 'speak';
     return (
       <div
-        className={'hero-box ' + (isActive ? 'active' : '')}
+        className={'hero-box ' + status}
         onClick={onShow}
         onMouseEnter={onShow}
         onMouseLeave={onHide}>
@@ -103,13 +103,14 @@ export default class Hero extends React.Component<
               <div className="cta-message" />
             </Localized>
           </div>
+          <div {...this.getToggleableProps(2, 'line ' + type)} />
           {isSpeak ? (
             <RecordButton status={null} />
           ) : (
             <PlayButton isPlaying={false} />
           )}
         </div>
-        <div {...this.getToggleableProps(2, 'progress column')}>
+        <div {...this.getToggleableProps(3, 'progress column')}>
           <Localized id="todays-progress">
             <h3 />
           </Localized>

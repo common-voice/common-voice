@@ -8,6 +8,8 @@
     justify-content: center;
     align-items: center;
 
+    transition: width var(--transition-duration-slow) var(--easing);
+
     @media (--md-up) {
         width: 50%;
         flex-direction: row;
@@ -67,11 +69,39 @@
     }
 
     & .cta-message {
+        margin: 0 auto;
+        text-align: center;
+        color: var(--near-black);
+
         @media (--sm-down) {
             margin-top: 16px;
             font-size: 12px;
             font-weight: 600;
             white-space: nowrap;
+        }
+
+        @media (--md-up) {
+            margin-bottom: 5px;
+            max-width: 85px;
+            line-height: 1.5;
+        }
+    }
+
+    & .line {
+        margin: 0 auto;
+        width: 1px;
+        height: 16px;
+
+        @media (--md-up) {
+            height: 26px;
+        }
+
+        &.speak {
+            background: var(--red);
+        }
+
+        &.listen {
+            background: var(--valid-green);
         }
     }
 
@@ -154,8 +184,17 @@
             }
 
             & .background {
-                opacity: 0;
+                //opacity: 0;
             }
+        }
+    }
+
+    @media (--md-up) {
+        &.active {
+            width: 65%;
+        }
+        &.compressed {
+            width: 35%;
         }
     }
 }

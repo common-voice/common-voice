@@ -10,7 +10,7 @@ type HeroType = 'speak' | 'listen';
 type State = { activeHero: null | HeroType; showWallOfText: boolean };
 
 export default class HomePage extends React.Component<{}, State> {
-  state: State = { activeHero: null, showWallOfText: false };
+  state: State = { activeHero: 'speak', showWallOfText: false };
 
   showHandlerFor = (hero: HeroType) => () =>
     this.setState({ activeHero: hero });
@@ -30,7 +30,7 @@ export default class HomePage extends React.Component<{}, State> {
                 key={type}
                 type={type}
                 count={count}
-                isActive={activeHero === type}
+                status={activeHero === type ? 'active' : activeHero ? 'compressed' : null}
                 onShow={this.showHandlerFor(type)}
                 onHide={this.hideHandlerFor(type)}
               />
@@ -77,7 +77,7 @@ export default class HomePage extends React.Component<{}, State> {
         </div>
 
         <div className="stats">
-          <ClipsStats/>
+          <ClipsStats />
         </div>
       </div>
     );
