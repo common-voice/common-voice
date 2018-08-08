@@ -76,6 +76,7 @@ th = Téalainnis
 tr = Tuircis
 tt = Tatairis
 uk = Úcráinis
+ur = Urdúis
 uz = Úisbéicis
 zh-CN = Sínis (An tSín)
 zh-HK = Sínis (Hong Cong)
@@ -312,6 +313,7 @@ language-meter-in-progress = Dul Chun Cinn
 language-total-progress = Iomlán
 language-search-input =
     .placeholder = Cuardaigh
+language-speakers = Cainteoirí
 
 ## New Contribution
 
@@ -341,14 +343,6 @@ review-tooltip = Athbhreithnigh agus ataifead gearrthóga anseo
 unable-speak = Níl tú in ann labhairt anois?
 review-instruction = Athbhreithnigh agus ataifead más gá
 record-submit-tooltip = { $actionType } Seol nuair a bheidh tú réidh
-clips-submitted =
-    { $count ->
-        [one] Gearrthóg amháin seolta
-        [two] { $count } ghearrthóg seolta
-        [few] { $count } ghearrthóg seolta
-        [many] { $count } ngearrthóg seolta
-       *[other] { $count } gearrthóg seolta
-    }
 record-abort-title = An bhfuil fonn ort na taifeadtaí a chríochnú ar dtús?
 record-abort-text = Má fhágann tú anois, caillfidh tú aon dul chun cinn a rinne tú
 record-abort-submit = Seol gearrthóga
