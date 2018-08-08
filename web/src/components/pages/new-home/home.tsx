@@ -1,5 +1,6 @@
 import { Localized } from 'fluent-react';
 import * as React from 'react';
+import ClipsStats from './clips-stats';
 import Hero from './hero';
 
 import './home.css';
@@ -36,6 +37,7 @@ export default class HomePage extends React.Component<{}, State> {
             )
           )}
         </div>
+
         <div className="text">
           <div className="inner">
             <div className="title">
@@ -72,6 +74,10 @@ export default class HomePage extends React.Component<{}, State> {
               )}
             </div>
           </div>
+        </div>
+
+        <div className="stats">
+          <ClipsStats/>
         </div>
       </div>
     );

@@ -79,4 +79,15 @@
             color: var(--blue);
         }
     }
+
+    & .stats {
+        display: flex;
+        flex-direction: row;
+        transform: translateY(-40%);
+        align-items: center;
+
+        @media (--md-up) {
+            flex-direction: column;
+        }
+    }
 }
