@@ -24,22 +24,19 @@ export default class HomePage extends React.Component<{}, State> {
     return (
       <div className="home">
         <div className="heroes">
-          {[['speak', 5], ['listen', 10]].map(
-            ([type, count]: [HeroType, number]) => (
-              <Hero
-                key={type}
-                type={type}
-                count={count}
-                status={
-                  activeHero === type
-                    ? 'active'
-                    : activeHero ? 'compressed' : null
-                }
-                onShow={this.showHandlerFor(type)}
-                onHide={this.hideHandlerFor(type)}
-              />
-            )
-          )}
+          {['speak', 'listen'].map((type: HeroType) => (
+            <Hero
+              key={type}
+              type={type}
+              status={
+                activeHero === type
+                  ? 'active'
+                  : activeHero ? 'compressed' : null
+              }
+              onShow={this.showHandlerFor(type)}
+              onHide={this.hideHandlerFor(type)}
+            />
+          ))}
         </div>
 
         <div className="text">

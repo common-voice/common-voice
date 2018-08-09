@@ -1,6 +1,9 @@
 import { Localized } from 'fluent-react';
 import * as React from 'react';
+import { connect } from 'react-redux';
 import { DAILY_GOAL } from '../../../constants';
+import API from '../../../services/api';
+import StateTree from '../../../stores/tree';
 import {
   PlayButton,
   RecordButton,
@@ -8,28 +11,39 @@ import {
 
 import './hero.css';
 
+interface PropsFromState {
+  api: API;
+}
+
 type State = {
+  count: number;
   dimensions: { width: number; height: number }[];
   showToMeasure: boolean;
 };
 
-export default class Hero extends React.Component<
+class Hero extends React.Component<
   {
     type: 'speak' | 'listen';
     status: 'active' | 'compressed' | null;
-    count: number;
     onShow: () => any;
     onHide: () => any;
-  },
+  } & PropsFromState,
   State
 > {
-  state: State = { dimensions: [], showToMeasure: true };
+  state: State = { count: null, dimensions: [], showToMeasure: true };
 
   toggleableRefs: any = Array.from({ length: 4 }).map(() => React.createRef());
 
-  componentDidMount() {
+  async componentDidMount() {
     window.addEventListener('resize', this.showToMeasure);
     this.measure();
+
+    const { api, type } = this.props;
+    this.setState({
+      count: await (type === 'speak'
+        ? api.fetchDailyClipsCount()
+        : api.fetchDailyVotesCount()),
+    });
   }
 
   componentWillUnmount() {
@@ -69,7 +83,8 @@ export default class Hero extends React.Component<
   }
 
   render() {
-    const { type, status, count, onShow, onHide } = this.props;
+    const { type, status, onShow, onHide } = this.props;
+    const { count } = this.state;
     const isSpeak = type == 'speak';
     return (
       <div
@@ -115,7 +130,7 @@ export default class Hero extends React.Component<
             <h3 />
           </Localized>
           <span className="progress-count">
-            <span className="current">{count}</span>
+            <span className="current">{count === null ? '?' : count}</span>
             <span className="total">
               {' / '}
               {DAILY_GOAL[type]}
@@ -131,3 +146,9 @@ export default class Hero extends React.Component<
     );
   }
 }
+
+const mapStateToProps = ({ api }: StateTree) => ({
+  api,
+});
+
+export default connect<PropsFromState>(mapStateToProps)(Hero);
