@@ -97,7 +97,7 @@ Així, es pot reduir la mida de les baixades entre un seixanta per cent i un vui
 Així, ja no cal tornar a obrir les pestanyes o sessions que havíem iniciat prèviament.
 Així, no es pot patentar la literatura, els negocis, les formes d'interacció social, etc.
 Així, per exemple, amb un correu electrònic es pot enviar un document adjunt amb gran quantitat de text o imatges.
-Així, s'ha reduït en varis segons el temps d'entrada a la sessió.
+Així, s'ha reduït en diversos segons el temps d'entrada a la sessió.
 Així, una consulta rebuda per la ràdio pot ser resposta per la Xarxa i a l'inrevés.
 Així, és força habitual trobar menús o documentació on la Senyera representa la llengua catalana.
 Això denota la poca importància que es dóna al desenvolupament d'un mercat propi.
@@ -136,7 +136,7 @@ Al cap d'uns anys, tots dos països tenen un edifici.
 Al capdavall, es va veure que era més efectiu començar la feina des de zero.
 Al capdavall, les idees, immaterials com són, no tenien amo, i tampoc en el sentit que hom li ha donat després.
 Al final de l'acte s'obrirà un torn de precs i preguntes.
-Al llarg del dos mil quinze s'han baixat quatre-centes vint-i-nou cent vuitantat-tres còpies de programes en català des del nostre lloc web.
+Al llarg del dos mil quinze s'han baixat quatre-centes vint-i-nou cent vuitanta-tres còpies de programes en català des del nostre lloc web.
 Al lloc web de Fedora hi ha la llista completa dels canvis.
 Al mateix temps, també es corregeixen alguns errors de seguretat que s'han detectat des de la versió u punt punt tres.
 Al món hi ha unes set mil llengües aproximadament.
@@ -619,7 +619,7 @@ El moviment del software lliure està contra qualsevol ampliació del copyright.
 El MS Windows, per exemple, no en mostra cap.
 El màxim ja se'l marcarà cadascú.
 El més significatiu és la incapacitat de declarar la llengua pròpia.
-El mòdul Calc s'ha ampliat per a funcionar amb fins a seixanta cinc mil cinc-centes trenta-sis files de dades.
+El mòdul Calc s'ha ampliat per a funcionar amb fins a seixanta-cinc mil cinc-centes trenta-sis files de dades.
 El món del programari lliure ofereix múltiples opcions per a totes les necessitats.
 El món universitari ha tingut un paper molt destacat en el desenvolupament d'Internet i del programari lliure.
 El navegador de Mozilla, en una aplicació independent.
@@ -995,7 +995,7 @@ Google està vivint un moment molt dolç.
 Google és un bon exemple a seguir.
 Google, Microsoft i Yahoo en són els principals contrincants.
 Gràcies a l'opció d'exportació, és possible compartir la llista de canals subscrits amb altres usuaris.
-Gràcies al procés continuat de millora en què està sempre, ja disposa de dos mil dues-cents regles de revisió.
+Gràcies al procés continuat de millora en què està sempre, ja disposa de dos mil dues-centes regles de revisió.
 Gràcies per aquesta gran aportació.
 Gràcies per la bona feina.
 Ha fet documents i ha creat associacions civils i òrgans de govern.
@@ -1696,7 +1696,7 @@ Per tant, la màgia discursiva de la política troba aviat el seu límit: en la 
 Per tant, la nostra versió és diferent de l'altra, encara que perfectament compatible.
 Per tant, la Tafanera es podria definir com una pàgina de promoció participativa de notícies.
 Per tant, només cal que es voti positivament aquelles que més interessin.
-Per tant, vam demanar a Google que durant la Diada mostrés un logotip específic per commemorar l'conze de setembre.
+Per tant, vam demanar a Google que durant la Diada mostrés un logotip específic per commemorar l'onze de setembre.
 Permet fer instal·lacions desateses i des de xarxa.
 Permet l'edició ràpida per a usuaris amb teclats portàtils.
 Permet l'ús de fins a deu mil fulls en cada document.

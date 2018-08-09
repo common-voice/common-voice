@@ -193,7 +193,7 @@ Protegim així la inversió realitzada per crear i donar a conèixer el nostre p
 Qualsevol empresa o professional, amb els coneixements adequats, pot seguir oferint desenvolupament o serveis per a la nostra aplicació.
 Qualsevol empresa té les mateixes oportunitats de competir que qualsevol altra persona o empresa de la resta del món.
 Qualsevol usuari sap, per experiència pròpia, que els programes no són perfectes.
-Quant a llur ubicació geogràfica, el quaranta-vuit per cent vivien als Estats Units i el quaranta dos coma dos per cent a Europa.
+Quant a llur ubicació geogràfica, el quaranta-vuit per cent vivien als Estats Units i el quaranta-dos coma dos per cent a Europa.
 Quant al cost, qualsevol programari lliure es pot vendre, sempre que es respectin les llibertats originals que el defineixen.
 Que el resultat sigui lliure no significa que no hi hagi una remuneració per la feina.
 Què passa amb els usuaris d'altres navegadors?
