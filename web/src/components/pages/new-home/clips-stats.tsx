@@ -1,6 +1,8 @@
+import { Localized } from 'fluent-react';
 import * as React from 'react';
+import pointsToBezier from './points-to-bezier';
 
-import './clip-stats.css';
+import './clips-stats.css';
 
 const TICK_COUNT = 7;
 const Y_SCALE = 1.25;
@@ -9,9 +11,10 @@ const LINE_MARGIN = 22;
 const TEXT_OFFSET = 25;
 const LINE_OFFSET = TEXT_OFFSET + 5;
 const PLOT_PADDING = 13;
-const PLOT_SMOOTHING = 0.2;
 const PLOT_STROKE_WIDTH = 2;
 const CIRCLE_RADIUS = 8;
+
+type Attribute = 'total' | 'valid' | 'unverified';
 
 const data = [
   { date: '2018-07-24T20:00:00.000Z', total: 0, valid: 0, unverified: 0 },
@@ -24,57 +27,23 @@ const max =
   Y_SCALE *
   data.reduce((max, d) => Math.max(max, d.total, d.valid, d.unverified), 0);
 
-type Point = [number, number];
-
-const line = (pointA: Point, pointB: Point) => {
-  const lengthX = pointB[0] - pointA[0];
-  const lengthY = pointB[1] - pointA[1];
-  return {
-    length: Math.sqrt(Math.pow(lengthX, 2) + Math.pow(lengthY, 2)),
-    angle: Math.atan2(lengthY, lengthX),
-  };
-};
-
-const controlPoint = (
-  current: Point,
-  previous: Point,
-  next: Point,
-  reverse = false
-): Point => {
-  // When 'current' is the first or last point of the array
-  // 'previous' or 'next' don't exist.
-  // Replace with 'current'
-  const p = previous || current;
-  const n = next || current;
-
-  // Properties of the opposed-line
-  const o = line(p, n);
-
-  // If is end-control-point, add PI to the angle to go backward
-  const angle = o.angle + (reverse ? Math.PI : 0);
-  const length = o.length * PLOT_SMOOTHING;
-
-  const x = current[0] + Math.cos(angle) * length;
-  const y = current[1] + Math.sin(angle) * length;
-  return [x, y];
-};
-
-const bezierCommand = (point: Point, i: number, a: Point[]) => {
-  const start = controlPoint(a[i - 1], a[i - 2], point);
-  const end = controlPoint(point, a[i - 1], a[i + 1], true);
-  return `C ${start[0]},${start[1]} ${end[0]},${end[1]} ${point[0]},${
-    point[1]
-  }`;
-};
-
-const svgPath = (points: Point[]) =>
-  points.reduce(
-    (acc, point, i, a) =>
-      i === 0
-        ? `M ${point[0]},${point[1]}`
-        : `${acc} ${bezierCommand(point, i, a)}`,
-    ''
-  );
+const Metric = ({
+  labelId,
+  attribute,
+}: {
+  labelId: string;
+  attribute: Attribute;
+}) => (
+  <div className={'metric ' + attribute}>
+    <Localized id={labelId}>
+      <div className="label" />
+    </Localized>
+    <div className="value">
+      <div className="point">●</div>
+      {data[data.length - 1][attribute]}
+    </div>
+  </div>
+);
 
 const pointFromDatum = (x: number, y: number, width: number) =>
   [
@@ -92,7 +61,7 @@ const Path = ({
   attribute,
   width,
 }: {
-  attribute: 'total' | 'valid' | 'unverified';
+  attribute: Attribute;
   width: number;
 }) => {
   const lastIndex = data.length - 1;
@@ -100,7 +69,7 @@ const Path = ({
   return (
     <React.Fragment>
       <path
-        d={svgPath(
+        d={pointsToBezier(
           data.map((datum, i) => pointFromDatum(i, datum[attribute], width))
         )}
         className={attribute}
@@ -144,16 +113,15 @@ export default class ClipsStats extends React.Component<{}, { width: number }> {
 
   render() {
     const { width } = this.state;
+    const lastDatum = data[data.length - 1];
 
-    const points = data.map(
-      ({ total }, i) =>
-        [
-          LINE_OFFSET + i * width / data.length,
-          total / max * data.length * LINE_MARGIN + Y_OFFSET,
-        ] as [number, number]
-    );
     return (
       <div className="home-card">
+        <div className="metrics">
+          <Metric labelId="speak-goal-text" attribute="total" />
+          <Metric labelId="listen-goal-text" attribute="valid" />
+          <Metric labelId="total-hours" attribute="unverified" />
+        </div>
         <svg width="100%" height="100%" ref={this.svgRef}>
           {Array.from({ length: TICK_COUNT }).map((_, i) => {
             const y = i * LINE_MARGIN + Y_OFFSET;
