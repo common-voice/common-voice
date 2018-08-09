@@ -1,18 +1,32 @@
 @import url('../../vars.css');
 
 .hero-box {
+    position: relative;
     width: 100%;
     min-height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 100%;
 
     transition: width var(--transition-duration-slow) var(--easing);
 
     @media (--md-up) {
+        padding-top: 110px;
         width: 50%;
+        box-sizing: border-box;
         flex-direction: row;
+    }
+
+    &.listen {
+        background-image: url('/img/home-waves/listen.svg');
+    }
+
+    &.speak {
+        background-image: url('/img/home-waves/speak.svg');
     }
 
     & .column {
@@ -189,12 +203,29 @@
         }
     }
 
+    & .gradient {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 150px;
+
+        &.left {
+            background: linear-gradient(to left, transparent, #f9f9f9);
+            left: 0;
+        }
+
+        &.right {
+            background: linear-gradient(to right, transparent, #f9f9f9);
+            right: 0;
+        }
+    }
+
     @media (--md-up) {
         &.active {
-            width: 65%;
+            width: 60%;
         }
         &.compressed {
-            width: 35%;
+            width: 40%;
         }
     }
 }

@@ -73,7 +73,7 @@ export default class Hero extends React.Component<
     const isSpeak = type == 'speak';
     return (
       <div
-        className={'hero-box ' + status}
+        className={['hero-box', type, status].join(' ')}
         onClick={onShow}
         onMouseEnter={onShow}
         onMouseLeave={onHide}>
@@ -125,6 +125,8 @@ export default class Hero extends React.Component<
             <p />
           </Localized>
         </div>
+        <div className="gradient left" />
+        <div className="gradient right" />
       </div>
     );
   }

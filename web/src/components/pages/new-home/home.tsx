@@ -30,7 +30,11 @@ export default class HomePage extends React.Component<{}, State> {
                 key={type}
                 type={type}
                 count={count}
-                status={activeHero === type ? 'active' : activeHero ? 'compressed' : null}
+                status={
+                  activeHero === type
+                    ? 'active'
+                    : activeHero ? 'compressed' : null
+                }
                 onShow={this.showHandlerFor(type)}
                 onHide={this.hideHandlerFor(type)}
               />
