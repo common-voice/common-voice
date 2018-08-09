@@ -124,7 +124,7 @@ Resnica ima razbito glavo.
 Sosedstvo je vzajemna reč.
 Vrag vedno pride po svoje.
 Pamet je boljša kot žamet.
-Veliko besedi malo naredi.
+Veliko besed malo naredi.
 Čas setve še ni čas žetve.
 Vsak je svoje sreče kovač.
 Za srečo sta potrebna dva.
@@ -257,7 +257,7 @@ Nikomur koristen, nikomur drag.
 Kdor ljubi, se težko pretvarja.
 Dobra vojna ustvarja dober mir.
 Ples je prvi zaveznik ljubezni.
-Ob vrnitvi v domovini ni sramu.
+Ob vrnitvi v domovino ni sramu.
 Neumen jezik - sovražnik glave.
 V ljubezni je celo devet deset.
 Domače perilo naj se doma pere.
@@ -503,7 +503,7 @@ Pokrij se samo toliko, kolikor si dolg.
 Kdor goni dva zajca, nobenega ne ujame.
 Lepe krčme ne zida krčmar, ampak pivci.
 Kdor ne izmeri sebe, ga izmerijo drugi.
-Može gradijo hiše, žene ustvarjajo dom.
+Možje gradijo hiše, žene ustvarjajo dom.
 Kdor zjutraj dolgo leži, žgance zamudi.
 Bolezen pridirja na konju in odide peš.
 Bolje stare modrosti, kot nove norosti.
@@ -525,7 +525,7 @@ V svojem gradu se ima vsak ptič za orla.
 Besede so lahke, prijateljstvo je težko.
 Starost rojeva bolezni kot zemlja travo.
 Iz zapora je izhod, iz smrti ni vrnitve.
-Bolje prvi na vasi kakor zadnji v mestu.
+Bolje prvi na vasi, kakor zadnji v mestu.
 Molčati ni nobena umetnost, je pa težko.
 Lahko je s polnim trebuhom post hvaliti.
 Na domačem gnojišču je še petelin junak.
@@ -583,7 +583,7 @@ Prva ljubezen je slajša od čebeljega medu.
 Med ljudmi bodi človek, med psi bodi volk.
 Zamolčati resnico se pravi skrivati zlato.
 Razumnemu poslušalcu je dovolj malo besed.
-Hudič tja, kamor ne more sem, pošlje vino.
+Hudič tja, kamor ne more sam, pošlje vino.
 Kdor išče resnico, jo mora znati prenesti.
 Človeško srce ni iz kamna, ampak iz smole.
 V nesrečnih dneh se zdi celo mleko grenko.
@@ -627,7 +627,7 @@ Resnici, moči in navadi se je težko upreti.
 Besede brez dejanj so strelivo brez krogel.
 Kdor bi se rad kopal, mora odložiti obleko.
 Vojna med lovcem in volkom ne pelje k miru.
-V vodi je lahko utoniti, še laže pa v vinu.
+V vodi je lahko utoniti, še lažje pa v vinu.
 Ne preklinjaj vina, preklinjaj slo po vinu.
 Bolje je malo lastnega, kakor mnogo tujega.
 Modra ušesa se ne zmenijo za neumne besede.
@@ -684,7 +684,7 @@ Besede brez dejanj so kot grmenje brez dežja.
 Strupen jezik je nevarnejši od strupene kače.
 Kdor se na druge zanaša, v situ vodo prenaša.
 Če kdo koga s tinto privije, se težko izvije.
-Sreča se utrudi, če koga nosi dolgo na ramah.
+Sreča se utrudi, če koga nosi dolgo na ramenih.
 Sreča je kakor sonce; ko je najlepša, zatone.
 Ljubezen ima četvero oči, pa je vseeno slepa.
 Ljubezen brez poljubov je kot kruh brez soli.
@@ -786,7 +786,7 @@ Stara zmota ima več prijateljev kot nova resnica.
 Zakrpano prijateljstvo le redkokdaj postane celo.
 Če je komu vode škoda, tudi kaše ne more skuhati.
 Kdor veliko govori, veliko ve ali pa veliko laže.
-Naj slišijo tvoja ušesa, kaj govorijo tvoja usta.
+Naj slišijo tvoja ušesa, kar govorijo tvoja usta.
 Bolje je dvakrat vprašati, kot enkrat preslišati.
 Ogenj in voda dobro služita, a slabo gospodarita.
 Ko ti začne slaba presti, se te vsi žele otresti.
@@ -827,7 +827,7 @@ Laž je debela, a kratka; resnica je tanka, a dolga.
 Dokler sreča pomaga, se da tudi proti toku plavati.
 Tam, kjer vlada ljubezen, ni ne velikih ne majhnih.
 Človek se mora ostriti ob človeku kot nož ob kamnu.
-Besede so kot jajca: brž ko se odpro, dobijo krila.
+Besede so kot jajca: brž, ko se odpro, dobijo krila.
 Graja je podobna vetru: če je ne vidimo, jo čutimo.
 Skrb je kot velik zaklad: zaupamo jo le najbližjim.
 Kdor ni za nič sposoben, se vedno drugim posmehuje.

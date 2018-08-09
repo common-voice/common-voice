@@ -217,7 +217,7 @@ Misliš tako ali tako?
 Ne bodi norec!
 Pojdi ven!
 Pogledal me je.
-Tukaj to je moja kartica.
+To tukaj je moja kartica.
 Kako je to mogoče?
 Kako je izgledal?
 Kako veš?
@@ -353,7 +353,7 @@ On je tvoj prijatelj?
 Ali si vredu?
 Toda vedel sem bolje, kot mu zaupati.
 Ampak kaj lahko storim?
-Ali ste vedeli, da bil je papež nekoč varnostnik?
+Ali ste vedeli, da je bil papež nekoč varnostnik?
 Hočeš, da to storim?
 Ali vam ni všeč?
 Ne bodi tako neumen!
@@ -530,7 +530,7 @@ Ne morem verjeti.
 Nisem mogel verjeti.
 Ne verjamem ti!
 Upam, da si dobro!
-Mislim, da je vse to.
+Mislim, da je to vse.
 To je razumljivo.
 Bilo bi neuporabno.
 Niti ena beseda ni bila povedana.
@@ -767,7 +767,7 @@ Znanstveno delo je težko.
 Bil je samomorilski akt.
 Prav tako je, kot pravijo.
 Gospod Lincoln je moj mentor.
-Moja kosilnica je pokvarjena 
+Moja kosilnica je pokvarjena.
 Liza igra saksofon.
 Vino ni dobro za želodec.
 Zdravko je dirkač.
@@ -900,7 +900,7 @@ Ne skrbite.
 Ne, toda videl sem darilo.
 Moj stric je bil sadjar.
 Postavka je pet evrov.
-Morem govoriti z mojim odvetnikom.
+Moram govoriti z mojim odvetnikom.
 Obožujem sirup in palačinke.
 V četrtek sem jih izgubil.
 Dojenček bo naslednji teden imel rojstni dan.
@@ -1060,7 +1060,7 @@ Pritrdite dve zatiča na vsaki strani.
 Radi bi videli, da bo jasno vreme.
 Lepi načrti ne uspejo brez sreče.
 Ne prečkajte rumene črte.
-Gaja je odličen šahist.
+Gaj je odličen šahist.
 Tomaž je odpotoval v Kanado.
 Na papir sem zlil vročo kavo.
 Hm, to se mi zdi težko.
@@ -1135,7 +1135,7 @@ Nevihta lahko pride tudi mirno.
 Iskra lahko začne velik požar.
 Majhni udarci so podrli velik hrast.
 Izgubljeni čas se nikoli več ne najde.
-Izkušnje so najboljši učitelji.
+Izkušnje so najboljši učitelj.
 Te diagnoze ne sprejemam.
 Ali mi lahko poveste, kje vas boli?
 No, potem mi dovolite, da se vrnem.
@@ -1150,12 +1150,12 @@ Videl ji je solze v očeh.
 Motocikel je zelo glasen.
 Moramo evakuirati dvorišče.
 Žal je testno obdobje poteklo.
-Dekle je nosila elegantno obleko.
+Dekle je nosilo elegantno obleko.
 Odložiti moramo to potovanje.
 Draga, imam darilo zate.
 Kristjan je skomignil z rameni.
 Lahko to spravim v garažo.
-Dekle je nosila sijajne hlačne nogavice.
+Dekle je nosilo sijajne hlačne nogavice.
 Na voljo je posodobitev programske opreme.
 Moj sin ima svoj sončnik.
 Dve modri ribi sta plavali v rezervoarju.
@@ -1325,7 +1325,7 @@ Skok čez ograjo, doskok v travo.
 Skodelica sladkorja naredi kavo sladko.
 Sramežljiva veverica naredi lepega hišnega ljubljenčka.
 Vedno zaprite vrata hlevov.
-Cev je začela rjaviti, ko je bila še praktično nova.
+Cev je začela rjaveti, ko je bila še praktično nova.
 Tisti dan si je zlomil novo ravnilo.
 Staro umetnino je zdaj težko kupiti.
 Krapi so plavali v vodi.
@@ -1367,7 +1367,7 @@ Razdelite si torto, a ne pozabite na otroke.
 Prazna posoda ima najboljši zvok.
 Prazni sodi so najbolj hrupni.
 Najtežje delo je včasih storiti nič.
-Jate ptic vedno leti skupaj.
+Jate ptic vedno letijo skupaj.
 Ubijte lahko dve ptici z enim kamnom. 
 Denar težko naredi luknjo v žepu.
 Če karkoli lahko gre narobe, tudi bo.
@@ -1382,7 +1382,7 @@ Poskrbite, da boste dobili zdravniško spričevalo!
 Nekaj kostanja bom spekel na veselici.
 Lisic ni, kjer jaz živim.
 Center mesta je strašen kraj za življenje.
-Moje potovanje v Belgijo je bila katastrofa.
+Moje potovanje v Belgijo je bilo katastrofalno.
 Ljudje so se morali umiriti.
 Pozabi, take stvari ni.
 Američani imajo radi žar.
@@ -1442,7 +1442,7 @@ Kako pogosto je vlak zamujal?
 Prijatelj je lažje izgubljen, kot je najden.
 Spomin je zaklad uma.
 Človek je glava, ampak ženska jo obrača.
-Jeza in sovraštvo ovirajo dobro svetovanje.
+Jeza in sovraštvo ovirata dobro svetovanje.
 Napad je najboljša oblika obrambe.
 Vest naredi strahopetce iz vseh nas.
 Težki pacienti se zelo radi pritožijo.
@@ -1457,7 +1457,7 @@ Lakota naredi hleb še večji.
 Njegove oči so večje od njegovega trebuha.
 Jezne besede poganjajo ogenj kot veter.
 Jasno govorite, če že govorite.
-Knjiga ne morete soditi po njenem naslovu.
+Knjige ne morete soditi po njenem naslovu.
 Modro je razumeti celotno situacijo.
 Dober ugled je poštena lastnina.
 Ne poskušaj pihati proti vetru.
@@ -1480,7 +1480,7 @@ Preverite vsebino spletnega mesta.
 Čudovit ponedeljek imamo danes v Londonu.
 V darilu je presenečenje.
 Ali mi lahko pomagate s tem vprašanjem?
-Vozil je na ladji z imenom Bibavica.
+Vozil se je na ladji z imenom Bibavica.
 Java ni enako kot JavaScript.
 Nostalgija ni tisto, kar bi radi, da bi bilo.
 Nato je ponudil otrokom velik sladoled.
@@ -1563,7 +1563,7 @@ Lahko to načrtujemo v torek?
 Kje si bil popoldne?
 V novembru sem jedel pito.
 Cena je zrasla za dvaindvajset odstotkov.
-Kje je Cilka zapustila ključe?
+Kje je Cilka pustila ključe?
 Prijatelj v stiski je pravi prijatelj.
 Odsotnost povzroči, da srce raste.
 Naročnik je tako slab kot tat.
@@ -1722,7 +1722,7 @@ Te tablete naredijo manj dobrega kot slabega.
 Grozni smeh je zapolnil prazno sobo.
 Rdeči trak je obdajal tihotapsko hrano.
 Zadnjega stikala ni mogoče izklopiti.
-Moški razmišljajo, načrtujejo in včasih delujejo.
+Moški razmišljajo, načrtujejo in včasih delajo.
 Umestite računalnik v čudovito tanko ohišje.
 Klan se je zbral na vsako dolgočasno noč.
 Jezero je rdeče od vročega sonca.
@@ -1739,7 +1739,7 @@ Pokrivajte kozarec z medeninastim pokrovom.
 Okrogla preproga pokriva madež.
 Svetloba je izdala črno mačko.
 Paket porabi manj prostora kot prtljaga.
-Veliko rdečo jabolko je padlo na tla.
+Veliko rdeče jabolko je padlo na tla.
 Zavesa se je razprla, predstava se je začela.
 Ko zaslišiš zvon, hitro pridi.
 Daj no, samo nehaj razmišljati o tem.
@@ -1803,7 +1803,7 @@ Uporabite svinčnik, da napišete prvi osnutek.
 Pokupil je prodajalno strojno opremo.
 Srečala sta se pod peskom.
 Pol kg sladkorja stane več kot deset jajc. 
-Izkoristite čoln, da če se želite rešiti pred potopom.
+Izkoristite čoln, če se želite rešiti pred potopom.
 Termin se je končal konec junija istega leta.
 Občutite lahko vročino šibkega plamena.
 Lopove prinesite pametnemu načelniku.
@@ -1934,7 +1934,7 @@ Trava in grmovje sta bila mokra.
 Ne moremo verjeti, da smo izgubili.
 Mogoče bi lahko plačal samo napravo in ne dela?
 Natančno jo bo morala replicirati.
-Našel sem pet stvari, ki si jih tudi ti mi opisal.
+Našel sem pet stvari, ki si mi jih tudi ti opisal.
 Zelo so impresivni, priznam.
 Na žalost je izbira trajna.
 Zelo pomembno je, da se spomnite.
@@ -1963,7 +1963,7 @@ Eden izmed teh dni ni planiran za ekskurzijo.
 Povejte mi več o svojih simptomih.
 Zakaj nisi prišla na zabavo?
 Bila je naravnost preveč smešna.
-Kako to misliš, s kakšno besedo bi to najbolj opisal?
+Kako to misliš, s katero besedo bi to najbolje opisal?
 Pogum je zmožnost premagovanja strahu.
 Komunizem je nasprotje kapitalizma.
 Otroci so radi poslušali njene zgodbe.
@@ -2000,10 +2000,10 @@ Plišasti stolček se je naslanjal ob steno.
 Večino novic je enostavno slišati.
 Stroj se je uporabil za izdelavo medeninastih predmetov.
 Seme je potrebno za pridelovanje spomladanske koruze.
-Oblačila so posušena na tankem lesenem stojalu.
+Oblačila so bila posušena na tankem lesenem stojalu.
 Da, bolje je počakati in upati.
 Razpustite se na takšen dan.
-Debela očala so mu pomagale prebrati droben tisk.
+Debela očala so mu pomagala prebrati droben tisk.
 Nimamo veliko denarja, vendar se zabavamo.
 Moški v modrem puloverju je počasi sedel za mizo.
 Prašna klop je stala ob kamnitem zidu.
@@ -2080,7 +2080,7 @@ Spustite mlado tele, da pije mleko iz vedra.
 Šole za ženske ne učijo samo čara in miline.
 Svetilka je sijala s stalnim zelenim plamenom.
 Stari kovanec je bil precej dolgočasen in obrabljen.
-Papirja je malo, zato pišite z veliko pozornosti.
+Papirja je malo, zato pišite zelo pozorno.
 Hitra lisica je skočila na mačko.
 Plaža je suha in peščena.
 Grad, zgrajen iz peska, ne trpi vode.
@@ -2145,7 +2145,7 @@ Plesala je kot labod, skoki so bili visoki in elegantni.
 Vsi se bomo pridružili, ko bomo posneli zadnjo pesem.
 Maček je lovil psa po ulici.
 Miza in oba stola sta stala v kotu.
-Ugasnite luči, ki nam daje svetlobo.
+Ugasnite luči, ki nam dajejo svetlobo.
 Grozdje je bilo stisnjeno v vino.
 Oblačimo se tako, da ustreza vremenu.
 Prevelika ponudba lahko prestraši kupca.
