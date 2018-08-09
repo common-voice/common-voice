@@ -30,6 +30,7 @@ export const ACCENTS: any = {
     czechia: 'Tschechisch Deutsch',
     united_states: 'Amerikanisches Deutsch',
     slovakia: 'Slowakisch Deutsch',
+    russia: 'Russisch Deutsch',
     kazakhstan: 'Kasachisch Deutsch',
     italy: 'Italienisch Deutsch',
     finland: 'Finnisch Deutsch',
