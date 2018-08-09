@@ -40,7 +40,7 @@ const bezierCommand = (point: Point, i: number, a: Point[]) => {
   const end = controlPoint(point, a[i - 1], a[i + 1], true);
   return `C ${start[0]},${start[1]} ${end[0]},${end[1]} ${point[0]},${
     point[1]
-    }`;
+  }`;
 };
 
 export default function pointsToBezier(points: Point[]) {

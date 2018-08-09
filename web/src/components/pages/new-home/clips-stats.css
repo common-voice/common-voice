@@ -1,5 +1,14 @@
 @import url('../../vars.css');
 
+@keyframes dash {
+    from {
+        stroke-dashoffset: 1000;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
 .home-card {
     width: 100%;
     max-width: 570px;
@@ -72,11 +81,15 @@
     }
 
     & path {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: dash 1s linear forwards;
+
         &.total {
-            stroke: var(--valid-green);
+            stroke: var(--red);
         }
         &.valid {
-            stroke: var(--red);
+            stroke: var(--valid-green);
         }
         &.unverified {
             stroke: var(--blue);
@@ -84,6 +97,9 @@
     }
 
     & circle {
+        opacity: 0;
+        animation: fade-in var(--transition-duration) linear 1s forwards;
+
         &.inner {
             &.total {
                 fill: var(--red);
@@ -98,7 +114,7 @@
 
         &.outer {
             &.total {
-                filter: drope7e5e2-shadow(0 3px 3px var(--red));
+                filter: drop-shadow(0 3px 3px var(--red));
             }
             &.valid {
                 filter: drop-shadow(0 3px 3px var(--valid-green));

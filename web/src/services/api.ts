@@ -175,4 +175,10 @@ export default class API {
       method: 'POST',
     });
   }
+
+  fetchClipsStats(): Promise<
+    { date: string; total: number; valid: number; unverified: number }[]
+  > {
+    return this.fetch(API_PATH + '/clips/stats');
+  }
 }
