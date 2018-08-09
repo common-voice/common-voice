@@ -10,7 +10,7 @@ type HeroType = 'speak' | 'listen';
 type State = { activeHero: null | HeroType; showWallOfText: boolean };
 
 export default class HomePage extends React.Component<{}, State> {
-  state: State = { activeHero: 'speak', showWallOfText: false };
+  state: State = { activeHero: null, showWallOfText: false };
 
   showHandlerFor = (hero: HeroType) => () =>
     this.setState({ activeHero: hero });

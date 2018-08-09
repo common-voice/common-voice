@@ -9,7 +9,11 @@
 }
 
 .home {
+    background: #f9f9f8;
+
     & .heroes {
+        margin: 0 auto;
+        max-width: 1440px;
         display: flex;
         flex-direction: column;
 
@@ -20,7 +24,6 @@
 
     & .text {
         padding-top: 30px;
-        background: #f9f9f8;
 
         @media (--md-up) {
             padding-top: 95px;
@@ -83,11 +86,15 @@
     & .stats {
         display: flex;
         flex-direction: row;
-        transform: translateY(-40%);
         align-items: center;
+        background: var(--white);
 
         @media (--md-up) {
             flex-direction: column;
+        }
+
+        & > * {
+            transform: translateY(-40%);
         }
     }
 }
