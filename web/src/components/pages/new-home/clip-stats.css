@@ -1,6 +1,7 @@
 @import url('../../vars.css');
 
 .home-card {
+    width: 100%;
     max-width: 570px;
     padding: 30px;
     box-sizing: border-box;
