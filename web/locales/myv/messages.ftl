@@ -240,6 +240,7 @@ language-total-progress = Весемезе
 language-search-input =
     .placeholder = Вешнемс
 language-speakers = Кортыцятнеде
+sentences = Валрисьметь
 
 ## New Contribution
 
@@ -253,7 +254,9 @@ contribute-more =
        *[other] Анокат седе тов { $count } теемс?
     }
 record-cta = Ушодомс сёрмадоманть
-record-three-more-instruction = Лиядсть колмо! 
+record-instruction = { $actionType }<recordIcon></recordIcon> мейле ловнык валрисьменть марямга
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> зярдо прядозь
+record-three-more-instruction = Лиядсть колмо!
 record-again-instruction = Пек паро! <recordIcon></recordIcon> Сёрмадт седе тов вейке клип
 record-again-instruction2 = Вадрясто теят, одов сёрмадт <recordIcon></recordIcon>
 record-last-instruction = Меельце!
@@ -261,6 +264,7 @@ review-tooltip = Кунсоломс & сёрмадомс лентас одов �
 unable-speak = Арась шкат кортамс ней?
 review-instruction = Одов кунсоломс & лентас сёрмадомс кува эряви
 record-submit-tooltip = { $actionType } совавтомс зярдо анокат
+clips-uploaded = Зяро клипть тонгозь
 record-abort-title = Васня сёрмадоманть прядомс?
 record-abort-text = Лисиндерят нейке, поладома теветь ёми
 record-abort-submit = Совавтомс клипст
@@ -270,4 +274,5 @@ listen-instruction = { $actionType } <playIcon></playIcon> истя кода э�
 listen-again-instruction = Пек паро! <playIcon></playIcon> Кунсолок одов, зярдо кенерят
 listen-3rd-time-instruction = 2 теезь, ней седе тов! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Меельцесь!
+record-button-label = Сёрмадомс вайгелеть
 share-title-new = <bold>Лездак миненек</bold> муемс лия вайгельть
