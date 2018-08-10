@@ -360,16 +360,4 @@ nothing-to-validate = We don't have anything to validate in this language, help 
 record-button-label = Record your voice
 share-title-new = <bold>Help us</bold> find more voices
 
-## New Homepage
-help-reach-goal = Help us get to { $goal }
-todays-progress = Today's Progress
-speak-subtitle-line-1 = Donate
-speak-subtitle-line-2 = your voice
-speak-paragraph = Recording voice clips is an integral part of building our open dataset; some would say it's the fun part too.
-speak-goal-text = Clips recorded
-listen-subtitle-line-1 = Help us
-listen-subtitle-line-2 = validate voices
-listen-paragraph = Validating donated clips is equally as important to the Common Voice mission. Take a listen and help us create quality, open source voice data.
-listen-goal-text = Clips validated
-
 

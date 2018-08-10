@@ -72,8 +72,8 @@ class ClipsStats extends React.Component<PropsFromState, State> {
     return (
       <div className="home-card">
         <div className="metrics">
-          {this.renderMetric('speak-goal-text', 'total')}
-          {this.renderMetric('listen-goal-text', 'valid')}
+          {this.renderMetric('total-hours', 'total')}
+          {this.renderMetric('total-hours', 'valid')}
           {this.renderMetric('total-hours', 'unverified')}
         </div>
         <svg width="100%" height="100%" ref={this.svgRef}>
