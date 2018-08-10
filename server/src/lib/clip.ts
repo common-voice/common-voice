@@ -41,15 +41,13 @@ export default class Clip {
 
     router.get('/validated_hours', this.serveValidatedHoursCount);
     router.get('/daily_count', this.serveDailyCount);
+    router.get('/stats', this.serveClipsStats);
+    router.get('/voices', this.serveVoicesStats);
     router.get('/votes/daily_count', this.serveDailyVotesCount);
     router.get('*', this.serveRandomClips);
 
     return router;
   }
-
-  saveSentence = async (sentence: string) => {
-    await this.model.db.insertSentence(hash(sentence), sentence);
-  };
 
   saveClipVote = async (request: Request, response: Response) => {
     const id = request.params.clipId as string;
@@ -187,5 +185,16 @@ export default class Clip {
     response: Response
   ) => {
     response.json(await this.model.db.getDailyVotesCount());
+  };
+
+  private serveClipsStats = async ({ params }: Request, response: Response) => {
+    response.json(await this.model.getClipsStats(params.locale));
+  };
+
+  private serveVoicesStats = async (
+    { params }: Request,
+    response: Response
+  ) => {
+    response.json(await this.model.getVoicesStats(params.locale));
   };
 }

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { MicIcon, PlayIcon, StopIcon } from '../../ui/icons';
+import { MicIcon, OldPlayIcon, PlayIcon, StopIcon } from '../ui/icons';
 
 import './primary-buttons.css';
 
@@ -38,6 +38,6 @@ export const PlayButton = ({
   ...props
 }: { isPlaying: boolean } & React.ButtonHTMLAttributes<any>) => (
   <PrimaryButton className={isPlaying ? 'stop' : 'play'} {...props}>
-    {isPlaying ? <StopIcon /> : <PlayIcon />}
+    {isPlaying ? <StopIcon /> : <OldPlayIcon />}
   </PrimaryButton>
 );

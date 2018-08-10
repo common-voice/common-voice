@@ -53,6 +53,8 @@ function clipCountToHours(count: number) {
   return Math.round(count * AVG_CLIP_SECONDS / 3600);
 }
 
+const MINUTE = 1000 * 60;
+const DAY = MINUTE * 60 * 24;
 /**
  * The Model loads all clip and user data into memory for quick access.
  */
@@ -167,7 +169,7 @@ export default class Model {
   getValidatedHours = lazyCache(async () => {
     const english = (await this.db.getValidClipCount(['en']))[0];
     return clipCountToHours(english ? english.count : 0);
-  }, 1000 * 60 * 60 * 24);
+  }, DAY);
 
   getLanguageStats = lazyCache(async (): Promise<LanguageStats> => {
     const inProgressLocales = Object.keys(allLocales).filter(
@@ -218,5 +220,15 @@ export default class Model {
         speakers: speakerCounts[locale] || 0,
       })),
     };
-  }, 1000 * 60 * 20);
+  }, 20 * MINUTE);
+
+  getClipsStats = lazyCache(
+    (locale: string) => this.db.getClipsStats(locale),
+    DAY
+  );
+
+  getVoicesStats = lazyCache(
+    (locale: string) => this.db.getVoicesStats(locale),
+    20 * MINUTE
+  );
 }

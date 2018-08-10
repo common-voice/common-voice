@@ -5,7 +5,7 @@ import Mysql from './db/mysql';
 import Schema from './db/schema';
 import { UserTable } from './db/tables/user-table';
 import UserClientTable from './db/tables/user-client-table';
-import ClipTable, { DBClip, DBClipWithVoters } from './db/tables/clip-table';
+import ClipTable, { DBClipWithVoters } from './db/tables/clip-table';
 import VoteTable from './db/tables/vote-table';
 
 // When getting new sentences/clips we need to fetch a larger pool and shuffle it to make it less
@@ -410,11 +410,62 @@ export default class DB {
     return rows;
   }
 
-  async insertSentence(id: string, sentence: string, bucket = 'train') {
-    await this.mysql.query(
-      'INSERT INTO sentences (id, text, bucket) VALUES (?, ?, ?) ON DUPLICATE KEY UPDATE id = id',
-      [id, sentence, bucket]
+  async getClipsStats(
+    locale: string
+  ): Promise<
+    { date: string; total: number; valid: number; unverified: number }[]
+  > {
+    const [[row]] = await this.mysql.query(
+      `
+        SELECT
+          COALESCE(DATE(MIN(created_at)), CURDATE()) AS oldest,
+          COALESCE(DATE(MAX(created_at)), CURDATE()) AS newest
+        FROM clips
+      `
     );
+    const oldest = new Date(row.oldest);
+    const diff = (new Date(row.newest) as any) - (oldest as any);
+    const days = Array.from({ length: 5 }).map(
+      (_, i, days) => new Date(oldest.getTime() + i * diff / days.length)
+    );
+
+    const [rows] = await this.mysql.query(`
+      SELECT date,
+        COUNT(DISTINCT id)                                                                        AS total,
+        CAST(COALESCE(SUM(upvotes_count >= 2 AND upvotes_count > downvotes_count), 0) AS INTEGER) AS valid,
+        CAST(COALESCE(SUM(upvotes_count = 0 AND downvotes_count = 0), 0) AS INTEGER)              AS unverified
+      FROM (
+        SELECT dates.date, clips.id, SUM(votes.is_valid) AS upvotes_count, SUM(NOT votes.is_valid) AS downvotes_count
+        FROM (${days
+          .map(day => 'SELECT TIMESTAMP("' + day.toISOString() + '") AS date')
+          .join(' UNION ')}) dates
+        LEFT JOIN clips ON clips.created_at < dates.date
+        LEFT JOIN votes ON clips.id = votes.clip_id AND votes.created_at < dates.date
+        LEFT JOIN locales ON clips.locale_id = locales.id
+        GROUP BY date, clips.id
+      ) AS clips
+      GROUP BY date;
+    `);
+
+    return rows;
+  }
+
+  async getVoicesStats(
+    locale: string
+  ): Promise<{ date: string; value: number }[]> {
+    const hours = Array.from({ length: 10 }).map((_, i) => i);
+
+    const [rows] = await this.mysql.query(`
+      SELECT date, COUNT(DISTINCT client_id) AS voices
+      FROM (
+        SELECT (TIMESTAMP(DATE_FORMAT(NOW(), '%Y-%m-%d %H:00')) - INTERVAL hour HOUR) AS date
+        FROM (${hours.map(i => `SELECT ${i} AS hour`).join(' UNION ')}) hours
+      ) date_alias
+      LEFT JOIN clips ON created_at BETWEEN date AND (date + INTERVAL 1 HOUR)
+      GROUP BY date
+    `);
+
+    return rows;
   }
 
   async empty() {

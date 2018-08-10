@@ -1,0 +1,231 @@
+@import url('../../vars.css');
+
+.hero-box {
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 100%;
+
+    transition: width var(--transition-duration-slow) var(--easing);
+
+    @media (--md-up) {
+        padding-top: 110px;
+        width: 50%;
+        box-sizing: border-box;
+        flex-direction: row;
+    }
+
+    &.listen {
+        background-image: url('/img/home-waves/listen.svg');
+    }
+
+    &.speak {
+        background-image: url('/img/home-waves/speak.svg');
+    }
+
+    & .column {
+        display: flex;
+        flex-direction: column;
+
+        @media (--sm-down) {
+            text-align: center;
+
+            &.title {
+                order: 0;
+            }
+
+            &.cta {
+                margin-top: 20px;
+                order: 2;
+                flex-direction: column-reverse;
+            }
+
+            &.progress {
+                order: 1;
+            }
+        }
+    }
+
+    & h1 {
+        font-size: 48px;
+        font-weight: normal;
+
+        @media (--md-up) {
+            margin-bottom: 10px;
+        }
+    }
+
+    & h3 {
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    & p {
+        max-width: 280px;
+        font-size: 14px;
+        color: var(--warm-grey);
+    }
+
+    & .description {
+        @media (--sm-down) {
+            margin: 20px 0;
+        }
+
+        @media (--md-up) {
+            margin-top: 10px;
+        }
+    }
+
+    & .cta-message {
+        margin: 0 auto;
+        text-align: center;
+        color: var(--near-black);
+
+        @media (--sm-down) {
+            margin-top: 16px;
+            font-size: 12px;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        @media (--md-up) {
+            margin-bottom: 5px;
+            max-width: 85px;
+            line-height: 1.5;
+        }
+    }
+
+    & .line {
+        margin: 0 auto;
+        width: 1px;
+        height: 16px;
+
+        @media (--md-up) {
+            height: 26px;
+        }
+
+        &.speak {
+            background: var(--red);
+        }
+
+        &.listen {
+            background: var(--valid-green);
+        }
+    }
+
+    & .primary-button {
+        & .background {
+            width: 75px;
+            height: 75px;
+
+            @media (--md-up) {
+                width: 100px;
+                height: 100px;
+            }
+        }
+
+        & button {
+            background: white;
+            transition: background var(--transition-duration-slow) linear;
+
+            & path {
+                transition: fill var(--transition-duration-slow) linear;
+            }
+        }
+    }
+
+    & .progress-count {
+        display: inline-flex;
+        align-items: flex-start;
+        font-weight: 600;
+
+        @media (--sm-down) {
+            justify-content: center;
+        }
+
+        & .current {
+            font-size: 24px;
+        }
+
+        & .total {
+            font-size: 16px;
+            white-space: pre;
+        }
+    }
+
+    & .toggleable {
+        transform: translateY(50px);
+        opacity: 0;
+        transition: width var(--transition-duration-slow) linear var(--transition-duration-slow),
+                    height var(--transition-duration-slow) linear var(--transition-duration-slow),
+                    opacity var(--transition-duration),
+                    transform var(--transition-duration-slow) var(--easing);
+    }
+
+
+    &.active {
+        & .toggleable {
+            transform: translateY(0);
+            opacity: 1;
+            transition: width var(--transition-duration-slow),
+                        height var(--transition-duration-slow),
+                        opacity var(--transition-duration-slow) linear var(--transition-duration-slow),
+                        transform var(--transition-duration) var(--easing) var(--transition-duration-slow);
+
+        }
+
+        & .primary-button {
+            &.stop button {
+                background: var(--red);
+
+                & path {
+                    fill: var(--white);
+                }
+            }
+
+            &.play button {
+                background: var(--valid-green);
+
+                & path {
+                    fill: var(--white);
+                }
+            }
+
+            & .background {
+                //opacity: 0;
+            }
+        }
+    }
+
+    & .gradient {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 150px;
+
+        &.left {
+            background: linear-gradient(to left, transparent, #f9f9f9);
+            left: 0;
+        }
+
+        &.right {
+            background: linear-gradient(to right, transparent, #f9f9f9);
+            right: 0;
+        }
+    }
+
+    @media (--md-up) {
+        &.active {
+            width: 60%;
+        }
+        &.compressed {
+            width: 40%;
+        }
+    }
+}

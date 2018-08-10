@@ -1,4 +1,4 @@
-@import url('../../vars.css');
+@import url('../vars.css');
 
 .primary-button {
     position: relative;
@@ -50,6 +50,14 @@
             @media (--md-up) {
                 height: 28px;
             }
+        }
+    }
+
+    &.play svg {
+        height: 22px;
+
+        & path {
+            fill: var(--valid-green);
         }
     }
 
