@@ -217,9 +217,9 @@ Von achtzehn-hundert-fünfundsechzig bis achtzehn-hundert-einundsiebzig war Flor
 Das Königreich Neapel existierte von dreizehn-hundert-zwei bis achtzehn-hundert-sechtzehn.
 Istanbul war schon die Hauptstadt des Osmanischen Reiches.
 Auch Posen und Krakau waren mal Hauptstädte von Polen.
-Bratislava war die Hauptstadt des Königreich Ungarn.
+Bratislava war die Hauptstadt des Königreichs Ungarn.
 Belgrad war die Hauptstadt von Jugoslawien.
-Von siebzehn-hundert-zwölf bis neunzehn-hundert-achtzenh war Sankt Petersburg die Hauptstadt des Russischen Reichs.
+Von siebzehn-hundert-zwölf bis neunzehn-hundert-achtzehn war Sankt Petersburg die Hauptstadt des Russischen Reichs.
 Moskau war die Hauptstadt der Sowjetunion.
 Rio de Janeiro war kurze Zeit sogar die Hauptstadt von Portugal.
 Konstantinopel war die Hauptstadt des Byzantinischen Reichs.
@@ -294,7 +294,7 @@ Der Pazifische Ozean grenzt an alle anderen Weltmeere.
 Das Südpolarmeer umschließt den Kontinent Antarktika.
 Ein Flug zwischen Amerika und Europa ist ein Transatlantikflug.
 In Hongkong wird nicht Mandarin sondern Kantonesisch gesprochen.
-Neben englisch ist Hindi die Amtssprache in Indien.
+Neben Englisch ist Hindi die Amtssprache in Indien.
 Urdu ist in Pakistan und einigen indischen Bundesstaaten Amtssprache.
 In vielen afrikanischen Staaten ist französisch Amtssprache.
 Auch in vielen nordafrikanischen Ländern wird arabisch gesprochen.

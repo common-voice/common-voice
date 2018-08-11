@@ -172,7 +172,7 @@ Stell dir vor es geht, aber keiner kriegt's hin.
 Das ist doch kein Problem.
 Gern geschehen!
 Es war mir eine Freude.
-Schön Sie kennen zu lernen, Herr Professor.
+Schön Sie kennenzulernen, Herr Professor.
 Du kannst mich duzen.
 Für dich immer noch Sie!
 Dürfte ich um Ihre Aufmerksamkeit bitten?
@@ -3791,7 +3791,7 @@ Teil der Ausstellung ist ein mittelalterliches Katapult.
 Auch sonst ist die Vorstellung sehr eindrucksvoll gewesen.
 Verzeiht mir meine Obszönitäten.
 Womit hast du die Ravioli gefüllt?
-Mit Rinderfleisch!
+Mit Rindfleisch!
 Egal, es ist echt lecker.
 Jetzt wirst du aber unsachlich.
 Frau Hoppe fühlt sich ausgelaugt und lässt sich daher eine Massage geben.

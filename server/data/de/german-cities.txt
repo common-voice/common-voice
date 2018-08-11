@@ -70,7 +70,7 @@ Von Flensburg bis nach Delmenhorst ist es eine lange Strecke
 Zu Fuß ist man von Gera bis Fürth lange unterwegs
 Man kann mit dem Fahrrad bis Oldenburg fahren
 Der Zug hält heute nicht in Waiblingen
-Muss ich in Bochum Umsteigen?
+Muss ich in Bochum umsteigen?
 Der Bus fährt nach Heidelberg
 Du kannst mit dem Bus nach Frankfurt an der Oder fahren.
 Ist es weit bis Nordhorn?
@@ -199,7 +199,7 @@ Von Weimar bis nach Neustadt an der Weinstraße ist es eine lange Strecke
 Zu Fuß ist man von Offenburg bis Leipzig lange unterwegs
 Man kann mit dem Fahrrad bis Wilhelmshaven fahren
 Der Zug hält heute nicht in Schweinfurt
-Muss ich in Gelsenkirchen Umsteigen?
+Muss ich in Gelsenkirchen umsteigen?
 Der Bus fährt nach Heilbronn
 Du kannst mit dem Bus nach Würzburg fahren
 Ist es weit bis Wolfsburg?
