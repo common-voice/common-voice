@@ -8,7 +8,6 @@ email-input =
     .label = E-mail
 submit-form-action = Odeslat
 loading = Načítání…
-audio-loading-error = Omlouváme se, ale zrovna zpracováváme další nahrávky. Zkuste to později.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -16,7 +15,14 @@ audio-loading-error = Omlouváme se, ale zrovna zpracováváme další nahrávky
 
 ## Languages
 
+an = Aragonština
+ar = Arabština
+as = Azamština
+ast = Asturština
+az = Ázerbájdžánština
 bn = Bengálština
+br = Bretonština
+bxr = Burjatština
 ca = Katalánština
 cs = Čeština
 cv = Čuvaština
@@ -25,7 +31,9 @@ da = Dánština
 de = Němčina
 el = Řečtina
 en = Angličtina
+eo = Esperanto
 es = Španělština
+et = Estonština
 fr = Francouzština
 fy-NL = Fríština
 ga-IE = Irština
@@ -135,7 +143,6 @@ profile-form-username =
     .label = Uživatelské jméno
 profile-form-language =
     .label = Jazyk
-profile-form-more-languages = Další jazyky již brzy!
 profile-form-accent =
     .label = Přízvuk
 profile-form-age =
@@ -274,6 +281,7 @@ languages-show-more = Zobrazit více
 languages-show-less = Zobrazit méně
 language-speakers = Mluvčí
 language-total-progress = Celkem
+language-speakers = Mluvčí
 
 ## New Contribution
 
@@ -283,9 +291,6 @@ listen = Poslouchejte
 skip = Přeskočit
 shortcuts = Zkratky
 clips = Klipy
-goal-type-record = nahrávka
-goal-type-validation = ověření
-toward-goal = To je <goalPercentage></goalPercentage> z dnešního Common Voice cíle { $goalType }. Děkujeme
 contribute-more =
     { $count ->
         [one] Jste připraveni udělat ještě { $count }?
