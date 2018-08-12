@@ -34,15 +34,22 @@ en = Angličtina
 eo = Esperanto
 es = Španělština
 et = Estonština
+fi = Finština
+fo = Faerština
 fr = Francouzština
 fy-NL = Fríština
 ga-IE = Irština
 he = Hebrejština
+hsb = Hornosrbština
 hu = Maďarština
+ia = Interlingua
 id = Indonéština
+is = Islandština
 it = Italština
+ja = Japonština
 ka = Gruzínština
 kab = Kabylština
+kk = Kazaština
 ko = Korejština
 kw = Kornština
 mk = Makedonština
@@ -68,6 +75,7 @@ tt = Tatarština
 uk = Ukrajinština
 uz = Uzbečtina
 zh-CN = Čínština (Čína)
+zh-HK = Čínština (Hong Kong)
 zh-TW = Čínština (Taiwan)
 
 # [/]
@@ -76,6 +84,7 @@ zh-TW = Čínština (Taiwan)
 ## Layout
 
 speak = Mluvte
+speak-now = Nyní mluvte
 datasets = Datasety
 languages = Jazyky
 profile = Profil
@@ -88,7 +97,9 @@ faq = FAQ
 content-license-text = Obsah je dostupný pod <licenseLink>licencí Creative Commons</licenseLink>
 share-title = Pomozte nám najít další, kteří darují svůj hlas!
 share-text = Pomozte strojům pochopit, jak mluví lidé, darujte svůj hlas na { $link }
+link-copied = Odkaz byl zkopírován
 back-top = Zpět nahoru
+contribution-banner-button = Podívejte se
 
 ## Home Page
 
@@ -100,8 +111,10 @@ wall-of-text-more-desktop = Teď můžete darovat svůj hlas a pomoct nám vytvo
 show-wall-of-text = Přečíst si více
 help-us-title = Pomozte nám ověřovat věty!
 help-us-explain = Stiskněte přehrát, poslouchejte a řekněte nám: přečetli správně větu níže?
+no-clips-to-validate = Vypadá to, že v tomto jazyce nejsou k poslechu žádné nahrávky. Pomozte nám nějakou nahrát.
 vote-yes = Ano
 vote-no = Ne
+toggle-play-tooltip = Stisknutím { shortcut-play-toggle } přepnete do režimu přehrávání.
 
 ## Speak & Listen Shortcuts
 
@@ -111,12 +124,17 @@ vote-no = Ne
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
+shortcut-play-toggle-label = Přehrát/Zastavit
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = Nahrát/Zastavit
 request-language-text = Nevidíte svůj jazyk na Common Voice?
 request-language-button = Požádat o jazyk
 
@@ -164,6 +182,7 @@ profile-create = Vytvořit profil
 profile-create-success = Profil byl úspěšně vytvořen!
 profile-close = Zavřít
 profile-clear-modal = Po smazání dat z vašeho profilu už nebudou tyto demografické údaje odesílány do databáze Common Voice společně s vašimi nahrávkami.
+profile-explanation = Sledujte svůj pokrok díky profilu a pomozte zpřesnit naše hlasová data.
 
 ## FAQ
 
@@ -228,6 +247,7 @@ record-platform-not-supported-desktop = Na počítačích si můžete stáhnout 
 record-platform-not-supported-ios = Uživatelé <bold>iOS</bold> si mohou zdarma stáhnout naši aplikaci:
 record-must-allow-microphone = Musíte povolit přístup k mikrofonu.
 record-retry = Opakovat
+record-no-mic-found = Mikrofon nebyl nalezen.
 record-error-too-short = Nahrávka byla příliš krátká.
 record-error-too-long = Nahrávka byla příliš dlouhá.
 record-error-too-quiet = Nahrávka byla příliš tichá.
