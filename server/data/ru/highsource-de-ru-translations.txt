@@ -98,3 +98,53 @@ Da die Stelle öffentlich ausgeschrieben werden musste, hat man die Anforderunge
 Maskat ist die Hauptstadt von Oman.
 Im Gewerbegebiet wurde jetzt eine Kartbahn neu eröffnet.
 Какая сейчас температура в Пскове?;Wie sind die Temperaturen gerade in Potsdam?
+Может быть, это было бы лучше для всех.;Vielleicht wäre es für alle das Beste.
+Открыть программу.;Programm öffnen.
+А ну-ка соберись!;Reiß dich am Riemen!
+С рывком кабина начала двигаться.;Mit einem Ruck setzte sich die Kabine in Bewegung.
+Там узкий мост ведет через ручей.;Dort führt eine schmale Brücke über den Bach.
+Я хочу жаловаться на плохое обслуживание в мастерской.;Ich möchte mich über den schlechten Service in der Werkstatt beschweren.
+И куда девать всю эту мелочь?;Wohin mit all dem Kleingeld?
+Разжигай уже, наверное, гриль.;Schmeiß schon mal den Grill an.
+Король, все еще подшофе, немедленно придумал выход.;Dem König, noch beschwipst vom Wein, fiel direkt ein Ausweg ein.
+Откройте браузер.;Browser öffnen.
+Внезапно чей-то пистолет упёрся в мой висок.;Plötzlich hielt mir jemand eine Pistole an die Schläfe.
+К сожалению, два спутника не находятся на намеченной орбите.;Zwei der Satelliten sind leider nicht auf der vorgesehenen Umlaufbahn.
+Что здесь вообще происходит?;Was geht hier vor?
+Пожалуйста, не говорите "калории", если вы имеете в виду "килокалории", разница между ними в тысячу раз.;Bitte sage nicht Kalorien, wenn du Kilokalorien meinst, das ist ein Unterschied um den Faktor Tausend.
+Ягоды еще не созрели.;Die Beeren sind noch nicht reif.
+Официант, счёт, пожалуйста.;Herr Ober, wir möchten zahlen.
+Я в общем-то не особо хотел ехать в Саратов.;Ich wollte eigentlich nicht nach Saarbrücken fahren
+"Всё не так уж плохо", пыталась успокоить его Ольга.;Ist nicht so schlimm, versucht Helga zu trösten.
+Такого подхода я ещё никогда не видел.;Ich habe diesen Ansatz noch nie gesehen.
+Некоторые вещи также можно сделать в консульстве.;Einige Dinge können auch in einem Konsulat erledigt werden.
+Буэнос-Айрес - столица Аргентины.;Buenos Aires ist die Hauptstadt von Argentinien.
+Что-то у меня здесь вообще нет приема.;Irgendwie habe ich hier überhaupt keinen Empfang.
+Кирилл посчитал свою честь оскорблённой.;Christopher sieht sich in seiner Ehre verletzt.
+Лед такой холодный, что от него идёт пар.;Das Eis ist so kalt, dass es dampft.
+Вы уже заказывали билет в Геленджик?;Hast du dein Ticket nach Görlitz schon gebucht?
+Чего тут смешного?;Was gibt es da zu lachen?
+Ладно, это просто ошибка по неосторожности.;Okay, das ist nur ein Flüchtigkeitsfehler.
+Начиная с определённой суммы, ввозимые товары должны быть растаможены.;Ab einem bestimmten Wert müssen eingeführte Waren verzollt werden.
+В этом музее выставлялась настоящая средневековая катапульта;Teil der Ausstellung ist ein mittelalterliches Katapult.
+Госпожа Кузнецова сильно ушибла нос.;Frau Schmidt hat sich die Nase gestoßen.
+Как это переводится на финский?;Was heißt das auf Finnisch?
+Показать список.;Liste anzeigen.
+Из-за стройки был организован объезд.;Eine Umleitung ist eingerichtet.
+Lecker, es gibt Weintrauben!
+Der Zug nach Frankfurt am Main ist schon um Dreiviertel drei abgefahren
+Haben wir es eher mit isotroper oder mit anisotroper Diffusion zu tun?
+Zudem gab es insgesamt weniger Handel zwischen Ost und West.
+Берите виноград, очень вкусный!;Lecker, es gibt Weintrauben!
+Поезд на Казань ушёл уже в без четверти три.;Der Zug nach Frankfurt am Main ist schon um Dreiviertel drei abgefahren
+С какой диффузией мы имеем дело - с изотропной или анизотропной?;Haben wir es eher mit isotroper oder mit anisotroper Diffusion zu tun?
+Кроме того, между Востоком и Западом было в общем меньше торговли.;Zudem gab es insgesamt weniger Handel zwischen Ost und West.
+Лев никак не мог этого вспомнить.;Lou konnte sich gar nicht wieder einkriegen.
+Где мне нужно съезжать с трассы, чтобы попасть в Магнитогорск?;An welcher Autobahnabfahrt muss ich die Autobahn verlassen, wenn ich nach Baden-Baden möchte?
+Преступницу, видимо, что-то остановило.;Die Täterin wurde offenbar unterbrochen.
+Испанский язык также является международным языком.;Auch Spanisch ist eine Weltsprache.
+В школе мы программировали на Паскале.;In der Schule haben wir mit Delphi programmiert.
+Неужели люди состоят только из плоти и костей?;Bestehen Menschen aus mehr, als aus Fleisch und Knochen?
+У нас тут что-то на радаре.;Wir haben da was auf dem Radar.
+Все тело должно быть напряжено.;Der ganze Körper muss unter Spannung stehen.
+Я провожу вас на пути к равнинам.;Ich nehme Sie mit auf meine Reise ins Flächenland.
