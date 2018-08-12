@@ -22,6 +22,7 @@ ast = asturijščina
 az = azerbajdžanščina
 bn = bengalščina
 br = bretonščina
+bxr = burijatščina
 ca = katalonščina
 cnh = Hakha Chin
 cs = češčina
@@ -198,7 +199,7 @@ edit-profile = Uredi profil
 profile-create = Ustvari profil
 profile-create-success = Uspelo je, profil je ustvarjen!
 profile-close = Zapri
-profile-clear-modal = Izbris vaših profilnih podatkov pomeni, da vaši demografski podatki ne bodo dostopni ob vaših posnetkih v projektu Common Voice. 
+profile-clear-modal = Izbris vaših profilnih podatkov pomeni, da vaši demografski podatki ne bodo dostopni ob vaših posnetkih v projektu Common Voice.
 profile-explanation = Sledite svojemu napredku s pomočjo profila in nam pomagajte narediti naše zvočne podatke natančnejše.
 
 ## FAQ
@@ -250,7 +251,7 @@ data-other-download = Prenesi podatke
 data-other-librispeech-description = LibriSpeech je korpus, sestavljen iz približno 1000 ur branih angleških besedil (pri 16 kHz), pridobljen iz zvočnih knjig projekta LibriVox.
 data-other-ted-name = Korpus TED-LIUM
 data-other-ted-description = TED-LIUM je korpus, ki ga sestavljajo zvočni posnetki predstavitev in njihovi prepisi, dostopni na spletni strani TED.com.
-data-other-voxforge-description = VoxForge je bil ustanovljen za zbiranje prepisov govorov za uporabo v odprtokodnih in prosto dostopnih sistemih za prepoznavanje govora. 
+data-other-voxforge-description = VoxForge je bil ustanovljen za zbiranje prepisov govorov za uporabo v odprtokodnih in prosto dostopnih sistemih za prepoznavanje govora.
 data-other-tatoeba-description = Tatoeba je velika baza stavkov, prevodov in govorjenih zvočnih datotek za uporabo pri učenju jezikov. Tukaj lahko prenesete pogovorno angleščino, posneto v njihovi skupnosti.
 data-bundle-button = Prenesi nabor podatkov
 data-bundle-description = Podatki Common Voice in vsi zgornji govorni nabori podatkov.
@@ -276,7 +277,7 @@ terms-agree = Strinjam se
 terms-disagree = Ne strinjam se
 review-aborted = Pošiljanje je preklicano. Želite svoje posnetke izbrisati?
 review-submit-title = Poslušajte in pošljite
-review-submit-msg = Hvala za posnetek!<lineBreak></lineBreak>Zdaj svoje spodnje posnetke še enkrat poslušajte in nam jih pošljite. 
+review-submit-msg = Hvala za posnetek!<lineBreak></lineBreak>Zdaj svoje spodnje posnetke še enkrat poslušajte in nam jih pošljite.
 review-recording = Poslušajte
 review-rerecord = Posnemite ponovno
 review-cancel = Prekliči pošiljanje
@@ -286,10 +287,10 @@ review-delete-recordings = Izbriši moje posnetke
 ## Download Modal
 
 download-title = Vaš prenos se je pričel.
-download-helpus = Pomagajte nam zgraditi skupnost okoli govorne tehnologije. Ostanimo v stiku preko e-pošte. 
+download-helpus = Pomagajte nam zgraditi skupnost okoli govorne tehnologije. Ostanimo v stiku preko e-pošte.
 download-form-email =
     .label = Vpišite svoj e-poštni naslov
-    .value = Hvala, ostali bomo v stiku. 
+    .value = Hvala, ostali bomo v stiku.
 download-back = Nazaj na nabore podatkov Common Voice
 download-no = Ne, hvala
 
@@ -308,7 +309,7 @@ request-language-title = Predlagaj jezik
 request-language-form-language =
     .label = Jezik
 request-language-success-title = Predlog za jezik je bil uspešno poslan, hvala.
-request-language-success-content = V kratkem se vam bomo oglasili z več informacijami o tem kako dodati vaš jezik v Common Voice. 
+request-language-success-content = V kratkem se vam bomo oglasili z več informacijami o tem kako dodati vaš jezik v Common Voice.
 
 ## Languages Overview
 
@@ -324,6 +325,8 @@ language-total-progress = Skupaj
 language-search-input =
     .placeholder = Iskanje
 language-speakers = Govorcev
+localized = Lokalizirano
+sentences = Stavki
 total-hours = Skupaj ur
 
 ## New Contribution
