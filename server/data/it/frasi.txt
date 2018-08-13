@@ -86,14 +86,15 @@ Tornando alla domanda iniziale, effettivamente quanto costa un software open sou
 Partiamo dal presupposto che un software open source non è detto che debba essere gratuito.
 Infatti la GPL specifica che il software deve essere rilasciato e che segua le 4 regole per il riuso e per la modifica.
 Ma non se debba essere a pagamento.
-La stessa licenza GPL ci permetterebbe di decidere di rilasciare il codice sorgente dietro richiesta protocollata o anche in cambio di una email.
+La stessa licenza GPL ci permetterebbe di decidere di rilasciare il codice sorgente.
+Il codice può essere richiesto dietro domanda protocollata o anche in cambio di una email.
 Premettendo che far funzionare del software richiede conoscenze tecniche.
 Dall'installazione, al capire come usare il software e come farlo funzionare per i propri bisogni.
 A queste si aggiungono le conoscenze per estenderlo.
 Programmando le cose che non sono incluse o disattivando e rimuovendo le funzionalità non necessarie.
 Bisogna pensare anche al costo di funzionamento.
 Ad esempio il server, la suite di software o servizi da abbinare, ed eventualmente anche i domini.
-Non dimentichiamoci inoltre del marketing per promuovere il software presso i nostri clienti o anche all’interno della nostra azienda.
+Non dimentichiamoci inoltre del marketing per promuovere il software presso i nostri clienti o la nostra azienda.
 Perché andrà spiegato come usarlo e perché si sta utilizzando.
 Non dimentichiamoci del supporto.
 In caso di problemi, dobbiamo poter risolvere il problema e quindi poter intervenire in modo avanzato o veloce a seconda delle necessità.
@@ -2638,23 +2639,26 @@ Per essere definita di qualità adeguata, una traduzione tecnica deve corrispond
 I traducenti scelti devono essere conformi all’uso comune nella lingua d’arrivo.
 La localizzazione prevede un passaggio in più della semplice traduzione: invece di limitarsi a trasporre un contenuto così com’è in una lingua diversa, lo adatta agli usi e alle convenzioni di uno specifico Paese o regione.
 Nel caso di gergo tecnico, è necessario svolgere un’accurata ricerca terminologica su fonti ufficiali o autorevoli, invece bisogna evitare di rimpiazzare i termini tecnici con equivalenti approssimativi o troppo  generici.
-Nel migliore dei casi, usare un formato diverso da quello della regione di destinazione può apparire come una trascuratezza stilistica, ma in alcuni casi, specialmente quando si esprime la data in cifre, può dare adito a gravi fraintendimenti.
-Durante una traduzione è importante essere consapevoli delle sottili differenze nell’uso della punteggiatura tra una lingua e l’altra.
+Nel migliore dei casi, usare un formato diverso da quello della regione di destinazione può apparire come una trascuratezza 
+Durante una traduzione è importante essere consapevoli delle sottili differenze nell’uso della punteggiatura tra le lingue
 Questo è il caso della virgola.
 Il punto va omesso alla fine dei titoli.
 Eccezione va fatta naturalmente per il discorso degli incisi.
-Viene utilizzato spesso (a volte abusato) nello stile informatico anglofono, specialmente nei messaggi di sistema che notificano un errore.
+Viene utilizzato spesso (a volte abusato) nello stile informatico anglofono
+specialmente nei messaggi di sistema che notificano un errore.
 In realtà il simbolo dell’ellissi ha la sua combinazione di tasti dedicata.
 Le regole della maiuscola sono diverse in italiano e in inglese.
 Di solito è l’uso comune a determinare il genere di un vocabolo straniero.
 Questa assegnazione avviene secondo un rapporto di tipo associativo con il più vicino corrispondente italiano.
 Per giunta possono esserci diverse interpretazioni a seconda del corrispondente italiano che ciascun individuo ha in mente.
-Non esiste un metodo intrinsecamente più giusto dell’altro, ma è opportuno che ogni organizzazione stabilisca delle convenzioni allo scopo di mantenere la coerenza terminologica interna.
+Non esiste un metodo più giusto dell’altro, ma è opportuno che ogni organizzazione stabilisca delle convenzioni
+si stabiliscano delle convenzioni allo scopo di mantenere la coerenza terminologica interna.
 Quando esiste un traducente italiano ufficiale di un prodotto, va usato quello, altrimenti si lascia la versione originale.
 L’altra opzione è conferire al termine un traducente italiano.
-Prima c’è tutto un lavoro di ricerca della terminologia non solo corretta, ma anche coerente con lo stile Mozilla e con i prodotti localizzati in precedenza.
-Le traduzioni in italiano trasparenti e riconoscibili dei termini inglesi hanno il vantaggio “didattico” di portare a una consapevolezza più pragmatica e profonda dei termini
-Per evitare questo effetto può essere utile unire due periodi brevi in uno più lungo, quando possibile evidenziandone il nesso logico con una proposizione subordinata.
+Prima c’è tutto un lavoro di ricerca della terminologia non solo corretta, ma anche coerente con lo stile Mozilla
+Le traduzioni in italiano dei termini inglesi hanno il vantaggio di portare a una consapevolezza più profonda dei termini
+Per evitare questo effetto può essere utile unire due periodi brevi in uno più lungo
+quando possibile evidenziandone il nesso logico con una proposizione subordinata.
 Questo darà al discorso un senso di continuità e renderà più facile seguirne il filo logico.
 Il campo dell’informatica ha senza dubbio adottato come lingua franca l’inglese.
 La prima opzione è lasciare il termine invariato.
@@ -2665,134 +2669,176 @@ Inserisce la traduzione nell’apposito campo.
 Il corpo dell’articolo, tecnicamente la traduzione vera e propria.
 Ciascuno ha le sue preferenze per gestire questa parte della traduzione.
 Naviga fino all’articolo da tradurre.
-Per gli studenti di marketing può essere un interessante sbocco per studiare applicazioni reali per la comunicazione, il brand, la gestione di community.
-Chi studia per una carriera manageriale può gestire un progetto, interfacciarsi con situazioni complesse e di problem solving.
+Per gli studenti di marketing può essere un interessante sbocco per studiare applicazioni reali per la comunicazione
+Chi studia per una carriera manageriale può gestire un progetto, interfacciarsi con situazioni complesse e di problem solving
 Studenti di economia possono scoprire modelli di business basati sul software libero e studiarli.
-L'ambito dei progetti open spazia notevolmente nel campo legislativo, la protezione delle proprietà intellettuali tramite GPL o forme di protezione che permettano la diffusione sono casi di studio molto particolari.
+L'ambito dei progetti open spazia notevolmente nel campo legislativo
+la protezione delle proprietà intellettuali tramite GPL
+forme di protezione che permettano la diffusione libera sono casi di studio molto particolari.
 Adattare dei termini legali alle varie legislazioni internazionali.
 Creare un portfolio su casi di studi in ambiti molto variegati.
-Un corso di scienze dell'Educazione e della Formazione ha come obbiettivo formatico l'acquisizione si una solida preparazione culturale, che fornisca competenze di carattere teorico e tecnico-metodologico.
+Un corso di scienze dell'Educazione e della Formazione ha come obbiettivo l'acquisizione di una solida preparazione culturale
+La preparazione culturale fornisca competenze di carattere teorico e tecnico-metodologico.
 Queste competenze risultano indispensabili per l'attività di educatore che operi nell'ambito di un sistema formativo.
-Uno studente di Lettere può invece ritenere interessante redare e revisionare testi riguardanti aree totalmente diverse dalla sua, come ad ad esempio testi scientifici o tecnici.
-Per quanto riguarda uno studente di Beni Culturali potrebbe essere interessato a sviluppare un sistema di audioguide per un museo e potrebbe farlo insieme a un ingegnere e un informatico.
-Che vantaggi ha tutto ciò?Inoltre quiz e feedback offrono un'apprendimento e una partecipazione attiva dove studenti e insegnanti possono interagire.
-La progettazione collaborativa, inoltre, permette di poter realizzare de progetti dove chiunque può offrire le proprie specifiche competenze o il proprio pensiero al fine di perseguire gli obbiettivi per il quale lo stesso progetto è nato.
-Si pongono come obiettivo finale la professionalizzazione di una figura che collabora con un team di lavoro alla creazione di un progetto.
-Un esempio di progetto potrebbe essere inerente all'impiego dell'energia nucleare, dai reattori, all'uso del combustibile, fino alla creazione di software utilizzati dall'ipotetica centrale nucleare.
+Uno studente di Lettere può ritenere interessante redare e revisionare testi riguardanti aree totalmente diverse dalla sua
+uno studente di Beni Culturali potrebbe essere interessato a sviluppare un sistema di audioguide per un museo
+Che vantaggi ha tutto ciò?
+Inoltre quiz e feedback offrono un'apprendimento e una partecipazione attiva dove studenti e insegnanti possono interagire.
+La progettazione collaborativa permette di poter realizzare dei progetti dove chiunque può offrire le proprie competenze
+collaborare con il proprio pensiero al fine di perseguire gli obbiettivi per il quale lo stesso progetto è nato.
+Si pongono come obiettivo finale la professionalizzazione di una figura che collabora con un team di lavoro alla creazione
+Un esempio di progetto potrebbe essere inerente all'impiego dell'energia nucleare, dai reattori, all'uso del combustibile
+la creazione di software utilizzati dall'ipotetica centrale nucleare.
 Le Scienze classiche sono tutte le scienze in cui troviamo quelle definite fondamentali come Fisica, Chimica o Matematica.
-Il loro approccio scientifico si basa sullo studio teorico di un fenomeno al fine di poterlo interpretare e poterlo spiegare.
+Il loro approccio scientifico si basa sullo studio teorico di un fenomeno al fine di poterlo interpretare e poterlo spiegare
 Le guide sono tematiche suddivise per cartelle.
-A seconda del soggetto possono essere in un unico file diviso per paragrafi oppure piu file sempre dentro la cartella dedicata.
+A seconda del soggetto possono essere in un unico file diviso per paragrafi o piu file sempre dentro la cartella dedicata.
 Se pensi che il tuo messaggio possa in qualche modo offendere qualcuno, probabilmente lo farà.
 La bacheca ti permette di essere aggiornato riguardo i nuovi commenti e il loro stato.
-Inoltre ti informa del numero di articoli e molto altro!Passando con il mouse sul link nella barra laterale Articoli si apre un piccolo menù, clicca su Aggiungi nuovo.
+Inoltre ti informa del numero di articoli e molto altro! 
+Passando con il mouse sul link nella barra laterale Articoli si apre un piccolo menù, clicca su Aggiungi nuovo.
 I Commenti sono uno dei modi per vedere quanto il sito ha successo.
 Vanno moderati cioè cancellati o approvati per l’apparizione nel sito.
 Imposta il gruppo o più gruppi in cui quel banner deve apparire sul sito.
-Parleremo anche delle nuove uscite, ed anche delle vecchie, posteremo recensioni, e soprattutto resteremo in contatto con voi che ci seguite e con chi (speriamo) ci seguirà.
-Il tutto sempre con la nostra simpatia e cordialità di sempre!Ciò renderebbe il tutto molto più allettante, ma non è assolutamente necessario giocare insieme allo stesso gioco.
-L’iniziativa dura una settimana, e al termine di essa, a seconda di quanti trofei sono stati acquisiti, o anche se non si possiede nessun trofeo.
+Parleremo anche delle nuove uscite, ed anche delle vecchie, posteremo recensioni,
+soprattutto resteremo in contatto con voi che ci seguite e con chi (speriamo) ci seguirà.
+Il tutto sempre con la nostra simpatia e cordialità di sempre!
+Ciò renderebbe il tutto molto più allettante
+non è assolutamente necessario giocare insieme allo stesso gioco.
+L’iniziativa dura una settimana
+a seconda di quanti trofei sono stati acquisiti, o anche se non si possiede nessun trofeo.
 Una associazione, una piccola associazione, con grandi progetti.
 E’ scegliere di avere libertà di modificare il programma per cui hai
-E’ scegliere di mantenere alta la competenza ed il mercato, devo essere sempre più bravo dei miei competitor per avere la tua fiducia.
+E’ scegliere di mantenere alta la competenza ed il mercato, devo essere sempre più bravo dei miei competitor.
 Durante il periodo di formazione si verrà affiancati da Mentor che hanno già completato i progetti l’anno precedente.
 Semplice no? E tu cosa hai fatto questo fine settimana?
 Siamo giunti ad Ancona in tempo per l’attività conclusiva della giornata del 19: La Cena al Buio.
 La libertà non va solo voluta, ma ci si deve impegnare per averla!
 E la libertà ha un costo!
 Diventare grandi vuol dire liberarsi di tutti quei blocchi che hanno tormentato la tua giovinezza.
-Diventare grandi vuol dire anche aumentare lo spazio fisico, del corpo e dell’anima per fare posto alla vita e accogliere blocchi e paranoie nuovi di zecca.
+Diventare grandi vuol dire anche aumentare lo spazio fisico, del corpo e dell’anima per fare posto alla vita
 Diventare grandi fa schifo, è inevitabile e non servono a nulla le creme antirughe e i risvoltini ai pantaloni.
 L’adultità ci renderà sempre più tormentati, fuori e dentro.
-È con questo incipit motivato e grintoso che inizia il racconto della mia adultità, iniziata oggi con la presa di coscienza di un blocco nuovo, grande e scintillante: il blocco del lettore.
+È con questo incipit motivato e grintoso che inizia il racconto della mia adultità
+iniziata oggi con la presa di coscienza di un blocco nuovo, grande e scintillante: il blocco del lettore.
 Ho paura di leggere.
 Non mi era mai successo prima.
 Avevo sempre dato per scontato che se ti piace fare una cosa non potrai mai averne paura, eppure ora è così.
 Ho paura di fare la cosa che mi piace di più.
 Da giovane leggevo ininterrottamente, leggevo di tutto e non mi importava di nient’altro.
 Qualsiasi autore, qualsiasi genere, qualsiasi storia purché fosse bella.
-Ero in grado di riconoscere i libri belli ed ero in grado di abbandonare le storie che non mi interessavano senza troppi paranoie.
-Da giovane entravo nelle librerie e mi sentivo al centro del mondo, mi muovevo con disinvoltura e venivo divorata dalla curiosità.
+Ero in grado di riconoscere i libri belli ed ero in grado di abbandonare le storie che non mi interessavano
+Da giovane entravo nelle librerie e mi sentivo al centro del mondo, mi muovevo con disinvoltura
 Diventare grandi fa schifo perché si smette di crescere.
 Non potendo più leggere, bloccata da una paura che chissà da dove viene, io ho smesso di crescere.
 È come se mi avessero tagliato le radici e tolto il sole.
 Mi sento vecchia, rinsecchita, inutile.
-Non riesco a uscire da questo labirinto mentale, fatto di pile di libri impolverati sul comodino e ossessioni impossibili da controllare.
-Dicono che prendere coscienza di un problema sia il primo passo verso la guarigione, ma io ho bisogno di correre verso la guarigione perciò chiedo il vostro aiuto.
+Non riesco a uscire da questo labirinto mentale, fatto di pile di libri impolverati sul comodino
+Dicono che prendere coscienza di un problema sia il primo passo verso la guarigione
+io ho bisogno di correre verso la guarigione perciò chiedo il vostro aiuto.
 Aiutatemi a superare il blocco del lettore.
 Adottate un libro della mia pila infinita e leggetelo con me.
-Siamo tutti abituati all’effetto che Netflix causa al nostro corpo: paralisi degli arti, dilatazione delle pupille, felicità che bombarda i neuroni.
-È una sorta di sindrome di Stendhal che colpisce la parte più nascosta del nostro essere, quella che brama la bellezza, che vuole che le cose abbiano un senso.
+Siamo tutti abituati all’effetto che Netflix causa al nostro corpo: paralisi degli arti, dilatazione delle pupille
+felicità che bombarda i neuroni.
+È una sorta di sindrome di Stendhal che colpisce la parte più nascosta del nostro essere, quella che brama la bellezza
+vuole che le cose abbiano un senso.
 Dopo anni di distretti di polizia antimafia con la uno bianca e cento venti passioni sotto al sole della toscana
 I nostri occhi hanno la possibilità di posarsi su immagini elaborate per catturare
 Per stupire e non solo per fare da sottofondo allo sparecchiamento della tavola.
 Le belle storie non le ha inventate Netflix, ma di certo ha saputo venderle.
-Una serie di sfortunati eventi ne è la prova: ciclo di romanzi di grande successo, già film di grande successo, nelle mani di Netflix diventa una serie tv di grande successo.
+Una serie di sfortunati eventi ne è la prova: ciclo di romanzi di grande successo, già film di grande successo
+nelle mani di Netflix diventa una serie tv di grande successo.
 Una serie di sfortunati eventi inizia con un monito: non guardate!
 E proprio per questo non si può più smettere di guardarla.
 Lemony Snicket, l’autore della storia, fin dall’inizio, avvisa lo spettatore che quello che vedrà non sarà piacevole.
 Dal momento in cui perdono i genitori in un incendio, la sfiga si abbatte sugli orfani Baudelaire in maniera incontenibile.
-Perennemente tormentati dal malvagio conte Olaf, che vuole impadronirsi della loro eredità, i tre ragazzi Baudelaire sono costretti a lottare contro un mondo di adulti idioti e ottusi, incapaci di osservare la realtà e di dar loro fiducia.
-Temi importanti, come l’affrontare un lutto o lottare contro paure inutili, affiorano sulla superficie dell’
-Le atmosfere sono quasi fiabesche, a metà tra l’immaginario di Tim Burton e quello di Wes Anderson, i mondi creati da Lemony Snicket pseudinimo di Daniel Handler, sono tutto quello che avremmo voluto vivere da bambini.
+Perennemente tormentati dal malvagio conte Olaf, che vuole impadronirsi della loro eredità
+i tre ragazzi Baudelaire sono costretti a lottare contro un mondo di adulti idioti e ottusi
+incapaci di osservare la realtà e di dar loro fiducia.
+Temi importanti, come l’affrontare un lutto o lottare contro paure inutili, affiorano sulla superficie
+Le atmosfere sono quasi fiabesche, a metà tra l’immaginario di Tim Burton e quello di Wes Anderson
+i mondi creati da Lemony Snicket pseudinimo di Daniel Handler, sono tutto quello che avremmo voluto vivere da bambini.
 Presenza costante e quasi personaggio fondamentale delle storie sono i libri.
-In ogni avventura i tre ragazzi si confrontano con la necessità di reperire informazioni e in modo del tutto naturale si rivolgono ai libri.
+In ogni avventura i tre ragazzi si confrontano con la necessità di reperire informazioni
+in modo del tutto naturale si rivolgono ai libri.
 Splendide librerie, specchio delle personalità dei loro padroni
 Popolano ogni luogo in cui i tre orfani si trovano
-Grazie alla consultazione dei libri, i Baudelaire riescono ogni volta a vincere sul conte Olaf e ad aggiungere piccoli indizi per risolvere l’enigma della morte dei genitori.
+Grazie alla consultazione dei libri, i Baudelaire riescono ogni volta a vincere sul conte Olaf 
+aggiungere piccoli indizi per risolvere l’enigma della morte dei genitori.
 Una serie di sfortunati eventi è molto bella e il 30 marzo esce la seconda stagione.
 Non guardatela!
 Nella seconda metà del 1600 nessuno veniva con la mimosa in mano a dirti come essere più donna.
 All’epoca le donne non si facevano troppi problemi su quali fossero i loro desideri, li realizzavano e basta.
 Certo l’aspettativa di vita era più bassa, gli uomini più puzzolenti e le spade più affilate.
 C’era un sacco da divertirsi.
-Era un epoca in cui se ti venivano a dire che non potevi essere una fuorilegge, tu te ne fregavi e continuavi a fare la fuorilegge.
-Anne Dieut-le-Veut nasce nel 1661 in Francia e il suo desiderio profondo di essere una criminale la porta presto ad essere deportata sull’isola di Tortuga, in compagnia di tanti bei talenti della criminalità.
+Era un epoca in cui se ti venivano a dire che non potevi essere una fuorilegge, tu te ne fregavi e continuavi
+Anne Dieut-le-Veut nasce nel 1661 in Francia
+il suo desiderio profondo di essere una criminale la porta presto ad essere deportata sull’isola di Tortuga
+in compagnia di tanti bei talenti della criminalità.
 Una volta lì decide di mettere la testa a posto e di fare le cose per bene.
-Cede al corteggiamento di Pierre Lelong, il primo bucaniere che passava di lì, e con lui vive sei anni di romantici saccheggi e razzie nel mar dei caraibi.
-Nel 1690 Pierre muore inaspettatamente in una rissa e Anne, presa dalla paura che abbiamo noi donne di restare sole, sposa il secondo bucaniere che passava di lì: Joseph Cherel.
+Cede al corteggiamento di Pierre Lelong, il primo bucaniere che passava di lì
+con lui vive sei anni di romantici saccheggi e razzie nel mar dei caraibi.
+Nel 1690 Pierre muore inaspettatamente in una rissa e Anne, presa dalla paura che abbiamo noi donne di restare sole
+sposa il secondo bucaniere che passava di lì: Joseph Cherel.
 Il tempo di distribuire i confetti e razziare qualche villaggio che anche il povero Joseph viene coinvolto in una rissa e muore.
-Un po’ seccata dal fatto che le uccidano tutti i mariti Anne, senza mimosa alcuna, sfida a duello l’assassino del consorte, il pirata Laurens De Graffe.
+Un po’ seccata dal fatto che le uccidano tutti i mariti Anne, senza mimosa alcuna, sfida a duello l’assassino del consorte
 Alto, biondo, olandese.
-Se non bastassero queste caratteristiche a renderlo seducente c’è anche il fatto che è conosciuto come il flagello d’occidente, il diavolo in persona.
-La leggenda narra che Anne a Laurens si guardarono a lungo e nel momento di affrontarsi, Laurens cacciò la spada, mentre Anne sfoderò la pistola.
-Preso alla sprovvista, ammirato da tanta scaltrezza e seriamente preoccupato per la sua vita, Laurens si inginocchiò e chiese ad Anne di sposarlo.
+Se non bastassero queste caratteristiche a renderlo seducente c’è anche il fatto che è conosciuto come il flagello d’occidente
+La leggenda narra che Anne a Laurens si guardarono a lungo e nel momento di affrontarsi, Laurens cacciò la spada
+Preso alla sprovvista, ammirato da tanta scaltrezza e seriamente preoccupato per la sua vita
+Laurens si inginocchiò e chiese ad Anne di sposarlo.
 Vissero felici a lungo, depredando e razziando, tra un colpo di cannone e una bottiglia di rum.
 Spargendo terrore  mano nella mano e scrivendo, a colpi di pistola, la storia della pirateria.
-La morale di questa storia non è che prima o poi arriva il pirata azzurro che vuole ucciderti e poi ti sposa. La morale di questa storia è: quando tutti si aspettano una spada, tu caccia la pistola.
+La morale di questa storia non è che prima o poi arriva il pirata azzurro che vuole ucciderti e poi ti sposa. 
+La morale di questa storia è: quando tutti si aspettano una spada, tu caccia la pistola.
 Tieni bene in testa che non puoi combattere per i tuoi sogni se non hai le armi giuste.
 Le mimose fanno starnutire, la determinazione colpisce al cuore.
 Certe volte il futuro succede all’improvviso.
 Ti alzi un giorno convinto di essere nel presente e invece bam!
 Fuori è già futuro, baby!
-Ti affacci alla finestra, guardi il cielo sconfinato e ti sembra proprio di vederla quella Tesla rossa, che viaggia verso Marte con la scritta Don’t panic!
+Ti affacci alla finestra, guardi il cielo sconfinato e ti sembra proprio di vederla quella Tesla rossa
+la Tesla rossa viaggia verso Marte con la scritta Don’t panic!
 In bella vista e un asciugamano nel cruscotto.
 Non si può più fermare, il futuro comincia a entrare da tutte le parti.
-Apri la porta e spunta uno che progetta e vende macchine elettriche che si guidano da sole, apri la credenza ed esce fuori quello che progetta treni superveloci, da sotto il tappeto spunta quello che sta scavando tunnel sotto Los Angeles perché si annoiava a stare nel traffico, infine ti atterra un booster sul balcone e non ci capisci
+Apri la porta e spunta uno che progetta e vende macchine elettriche che si guidano da sole
+apri la credenza ed esce fuori quello che progetta treni superveloci
+da sotto il tappeto spunta quello che sta scavando tunnel sotto Los Angeles perché si annoiava a stare nel traffico
+infine ti atterra un booster sul balcone e non capisci
 In tv ci sono i pooh che cantano a Sanremo e attorno a me c’è Elon Musk che spunta da tutte le parti.
 Elon Musk è l’uomo del futuro.
-È colui che ha la soluzione a ogni problema. Le emissioni di gas serra stanno distruggendo il pianeta e compromettendo la vita su di esso?
-La soluzione è Tesla Motors, la ditta che produce macchine elettriche super tecnologiche che si guidano da sole, non emettono CO2 e hanno prezzi abbordabili. Il traffico a Los Angeles fa impazzire tutti?
-La soluzione è The Boring Company, la compagnia che scava tunnel sotterranei nei quali scorrono dei carrelli che permettono alla tua automobile di viaggiare velocissima ed evitare spiacevoli code.
+È colui che ha la soluzione a ogni problema. 
+Le emissioni di gas serra stanno distruggendo il pianeta e compromettendo la vita su di esso?
+La soluzione è Tesla Motors, la ditta che produce macchine elettriche super tecnologiche che si guidano da sole,
+le tesla non emettono CO2 e hanno prezzi abbordabili. Il traffico a Los Angeles fa impazzire tutti?
+La soluzione è The Boring Company, la compagnia che scava tunnel sotterranei
+nei tunnel scorrono dei carrelli che permettono alla tua automobile di viaggiare velocissima ed evitare spiacevoli code.
 L’esplorazione spaziale è in stallo per via degli elevati costi di produzione dei razzi?
-La soluzione è SpaceX, la compagnia che produce “razzi riciclabili”, i cui booster sono in grado di tornare indietro e atterrare senza nemmeno un graffio, così da poter essere riutilizzati.
+La soluzione è SpaceX, la compagnia che produce “razzi riciclabili"
+i booster sono in grado di tornare indietro e atterrare senza nemmeno un graffio, così da poter essere riutilizzati.
 Certe volte il futuro succede solo se ti rimbocchi le maniche e lo fai succedere.
-Il 6 febbraio 2018 in tanti si sono rimboccati le maniche e hanno spedito il Falcon Heavy, (un razzo grande, molto grande, davvero tanto grande) verso Marte e oltre la cintura degli asteroidi.
+Il 6 febbraio 2018 in tanti si sono rimboccati le maniche e hanno spedito il Falcon Heavy verso Marte e oltre la cintura degli asteroidi.
 Su quel razzo c’è una Tesla rossa e una tuta spaziale che ascolta Starman di David Bowie.
-Il 6 febbraio 2018 sarà ricordato come il giorno in cui i sogni si avverano, come il giorno in cui la tecnologia ha accorciato le distanze, il giorno in cui l’uomo è finalmente riuscito nell’impossibile.
-Avrei voluto essere lì e invece, il 6 febbraio 2018, sono stata testimone di un altro evento più piccolo, ma altrettanto straordinario, irripetibile e indimenticabile
-Il treno delle 14:06 partito dalla stazione centrale di Benevento è arrivato alla stazione di Napoli centrale in perfetto orario, senza nessun blocco, malfunzionamento o ripensamento.
-Io ero lì, io l’ho vissuto quel momento, quella sensazione di normalità, di sollievo per qualcosa che finalmente funziona, quella sensazione di futuro che può arrivare.
+Il 6 febbraio 2018 sarà ricordato come il giorno in cui i sogni si avverano
+il giorno in cui la tecnologia ha accorciato le distanze, il giorno in cui l’uomo è finalmente riuscito nell’impossibile.
+Avrei voluto essere lì e invece, il 6 febbraio 2018, sono stata testimone di un altro evento più piccolo
+Il treno delle 14:06 partito dalla stazione centrale di Benevento è arrivato alla stazione di Napoli centrale
+Io ero lì, io l’ho vissuto quel momento, quella sensazione di normalità, di sollievo per qualcosa che finalmente funziona
+quella sensazione di futuro che può arrivare.
 Sensazione che non rivivrò mai più, perché certe volte il futuro succede solo se sei lontano da qui.
 È necessario.
-Non saprei trovare altre parole per spiegare perché sono piena di lividi, o perché torno a casa ricoperta di rossetto, o perché bastano poche ore di lavoro per sfinirmi. È necessario smuoversi, agitarsi, andare a pescare le emozioni più dense che erano sedimentate sul fondo.
+Non saprei trovare altre parole per spiegare perché sono piena di lividi, o perché torno a casa ricoperta di rossetto
+perché bastano poche ore di lavoro per sfinirmi. 
+È necessario smuoversi, agitarsi, andare a pescare le emozioni più dense che erano sedimentate sul fondo.
 Ritornare nel punto in cui ti faceva più male e capire le ragioni di quel dolore.
 Tornare lì nel punto in cui faceva più bene e capire le ragioni di quel piacere.
 Stare nel mezzo tra dolore e piacere e non sapere assolutamente dove andare.
 Ricercare sempre, ricercare tutto, non assecondare mai quel morire naturale, mantenersi vivi.
 Fare teatro, è necessario. Affermare di fare teatro è insieme una trappola ed una scappatoia.
-Il teatro è per natura, architettonica e ideologica, contenitore di tante cose e con l’affermazione “Io faccio teatro!” si sfugge facilmente alla necessità di dichiarare con onestà cosa diavolo si fa in teatro.
-Un po’ di esperienza l’ho maturata nel tempo, e proprio questa esperienza mi ha consentito di elaborare una mia personalissima definizione del “fare teatro” che comprende tante sensazioni, pensieri ed emozioni che è difficile tradurre in parole.
+Il teatro è per natura, architettonica e ideologica, contenitore di tante cose
+con l’affermazione “Io faccio teatro!” si sfugge facilmente alla necessità di dichiarare con onestà cosa si fa in teatro.
+Un po’ di esperienza l’ho maturata nel tempo
+questa esperienza mi ha consentito di elaborare una mia personalissima definizione del “fare teatro”
+comprende tante sensazioni, pensieri ed emozioni che è difficile tradurre in parole.
 Fare teatro è per me:Muoversi su un pavimento impolverato.
 Non importa quante volte sarà stato pulito, lo strato di polvere ci sarà sempre.
 Avere troppo caldo in estate e troppo freddo in inverno.
@@ -2805,7 +2851,8 @@ Tornare a casa con lividi invisibili.
 Sbattere contro le emozioni fa male.
 Abbattere ogni tipo di barriera relativa al contatto fisico.
 Resistere è inutile.
-Quando faccio teatro non riesco a camminare per colpa dell’acido lattico nei muscoli, non riesco a pensare per colpa dell’affollamento di pensieri nella testa, ma riesco a vedere benissimo dove andare.
+Quando faccio teatro non riesco a camminare per colpa dell’acido lattico nei muscoli
+non riesco a pensare per colpa dell’affollamento di pensieri nella testa, ma riesco a vedere benissimo dove andare.
 Lo fa a tutti, lo fa sempre.
 Non sai dove andare?
 Prova a fare teatro troverai la tua strada!
@@ -2814,28 +2861,35 @@ Mai vista in vita mia una fila ordinata per entrare ad un concerto al teatro rom
 Tutti in fila per due, schierati come soldatini.
 Tutti tranquilli, ben consapevoli di dover rispettare la fila, persino i consiglieri comunali.
 Abbiamo scomodato i pezzi grossi, quando c’è Giuseppe Verdi in ballo non si scherza.
-Fa caldo ma non caldissimo, il teatro è pieno ma non pienissimo, possiamo stare larghi, la fila si smaltisce veloce, tutti con il biglietto pronto in mano, sembra di essere altrove.
+Fa caldo ma non caldissimo, il teatro è pieno ma non pienissimo, possiamo stare larghi, la fila si smaltisce veloce
+tutti con il biglietto pronto in mano, sembra di essere altrove.
 Il pubblico dei grandi eventi culturali è ben schierato, Il Rigoletto ha un forte richiamo, c’è speranza quindi.
-Chiacchieriamo allegri prima dell’inizio, siamo felici, la lirica è tornata dicono, ogni due tre anni torna sempre, eh ma stavolta promettono una rassegna vera!Tutti promettono di far tornare la lirica me nessuno promette di farla restare.
-Lo spettacolo che dovrebbe inaugurare una promettente rassegna di opera lirica non ha un manifesto, né una locandina, né un programma di sala, né nient’altro
-All’ingresso si limitano a staccarti il biglietto con grandi sorrisoni e il libretto devi leggertelo sullo smartphone, benedetta tecnologia.
-Il biglietto costa 15 euro + 2 di prevendita e se non hai letto il comunicato stampa inviato ai giornali online non puoi nemmeno sapere i nomi dei cantanti, né chi è il regista o il direttore d’orchestra.
+Chiacchieriamo allegri prima dell’inizio, siamo felici, la lirica è tornata dicono, ogni due tre anni torna sempre
+ma stavolta promettono una rassegna vera! Tutti promettono di far tornare la lirica me nessuno promette di farla restare.
+Lo spettacolo che dovrebbe inaugurare una promettente rassegna di opera lirica non ha un manifesto, né una locandina
+All’ingresso si limitano a staccarti il biglietto con grandi sorrisoni e il libretto devi leggertelo sullo smartphone
+Il biglietto costa 15 euro + 2 di prevendita
+se non hai letto il comunicato stampa inviato ai giornali online non puoi nemmeno sapere i nomi dei cantanti
 Non c’è testimonianza cartacea o digitale che lo spettacolo inaugurale della promettente stagione lirica sia mai accaduto.
-È un numero zero e si sprecano le promesse, si parla di qualità, di forte qualità, di intrattenimento di qualità, come quando devi fare la colonscopia e ti dicono che non sentirai niente.
-Il caldo ora si comincia a sentire e il nervosismo mette in luce tutti i dettagli non curati: l’orchestra trasandata, la scenografia brutta, le luci oscene.
+È un numero zero e si sprecano le promesse, si parla di qualità, di forte qualità, di intrattenimento di qualità
+Il caldo ora si comincia a sentire e il nervosismo mette in luce tutti i dettagli non curati
+l’orchestra trasandata, la scenografia brutta, le luci oscene.
 La confusione, il disordine e l’approssimazione diventano rumorosi e si fanno notare troppo.
-Il pubblico è distratto, si chiacchiera amabilmente come se si fosse davanti al bar e i telefoni squillano più che a wall street.
-Gli applausi migliori vengono conservati per i temerari tecnici di palcoscenico che, evidentemente alle prime armi o alle ultime, riescono a smontare e montare due pannelli in un quarto d’ora.
-Stare seduti sui gradini duri del teatro romano, a guardare per la maggior parte del tempo lo smontaggio delle scene diventa un calvario.
-Finito il terzo atto il pubblico fugge via, provato dalle tante difficoltà, con il sedere a dolorante proprio come dopo una colonscopia.
-L’approssimazione è la chiave di lettura di questo spettacolo, e forse di tutte le promesse iniziali, e forse della nostra intera esistenza.
+Il pubblico è distratto, si chiacchiera amabilmente come se si fosse davanti al bar
+i telefoni squillano più che a wall street.
+Gli applausi migliori vengono conservati per i temerari tecnici di palcoscenico
+riescono a smontare e montare due pannelli in un quarto d’ora.
+Stare seduti sui gradini duri del teatro romano, a guardare per la maggior parte del tempo lo smontaggio delle scene
+Finito il terzo atto il pubblico fugge via, provato dalle tante difficoltà, con il sedere dolorante proprio
+L’approssimazione è la chiave di lettura di questo spettacolo, e di tutte le promesse iniziali, e della nostra esistenza
 L’affanno a voler fare di più, a mostrare sempre il profilo migliore, a non voler mai sbagliare, a non guardarsi intorno.
-L’ossessione continua di dover fare le cose come si facevano un tempo, quando c’erano i vecchi fasti, quando qua era tutta campagna.
+L’ossessione continua di dover fare le cose come si facevano un tempo, quando c’erano i vecchi fasti
 La cecità insensata verso quello che si crea di nuovo.
 La grettezza esasperante che accompagna ogni aspetto di vita sociale.
 Ma non facciamone una tragedia.
 Era una splendida serata estiva, la temperatura era mite, si potevano addirittura indossare i sandali.
-Le lucciole sbrilluccicavano qua e là, la gente aveva già preso posto e riempito le misere quattro file di sedie pieghevoli allestite nel cortile del convento.
+Le lucciole sbrilluccicavano qua e là, la gente aveva già preso posto e riempito le misere quattro file di sedie pieghevoli 
+sedie pieghevoli allestite nel cortile del convento.
 Lo spettacolo stava per cominciare.
 Eh si, per vedere uno spettacolo decente bisogna aspettare il Napoli Teatro Festival
 Ma non solo, bisogna anche sperare che qualche spettacolo venga replicato nella remota provincia Beneventana e così è stato.
@@ -2851,36 +2905,46 @@ Non c’è curiosità.
 C’è solo che a Morcone hanno una specie di mini rassegna teatrale estiva.
 Ma che vuoi farci lì non hanno Savastano.
 Lo spettacolo è strano.
-È decisamente un musical, la presenza e le musiche de “I posteggiatori tristi” lo rendono piuttosto chiaro, però è anche una specie di fiaba.
-La scenografia, magnifica, fatta come un libro pop-up rende chiaro il messaggio che si vuole raccontare di personaggi frutto della fantasia
+È decisamente un musical, la presenza e le musiche de “I posteggiatori tristi” lo rendono piuttosto chiaro
+La scenografia, fatta come un libro pop-up rende chiaro il messaggio che si vuole raccontare di personaggi della fantasia
 Ma come in ogni fiaba che si rispetti questi personaggi dopo un po’ escono fuori dal libro e diventano la realtà.
-La storia della signorina Sciarappa e del suo sogno di creare un operaio perfetto che non accusi  mai stanchezza è surreale ma anche molto reale.
+La storia della signorina Sciarappa e del suo sogno di creare un operaio perfetto che non accusi mai stanchezza è surreale
 E molto reali sono anche i lampi che ogni tanto illuminano a giorno il cielo, sereno fino a due minuti prima.
-E proprio nel momento in cui Viktor Frankenstein sta per far rivivere il suo mostro un lampo squarcia il cielo seguito dal tuono abbinato, e fu subito pioggia.
-Il pubblico scappa terrorizzato, i tecnici si arrampicano per salvare le attrezzature, gli attori mettono al riparo la delicatissima scenografia.
-E noi tre, riparati sotto un arco, a guardare tutto questo, in compagnia di un indigeno del luogo, che ci consola dicendo che per fortuna il Benevento è in serie B.
+E proprio nel momento in cui Viktor Frankenstein sta per far rivivere il suo mostro un lampo squarcia il cielo
+seguito dal tuono, e fu subito pioggia.
+Il pubblico scappa terrorizzato, i tecnici si arrampicano per salvare le attrezzature
+gli attori mettono al riparo la delicatissima scenografia.
+E noi tre, riparati sotto un arco, a guardare tutto questo, in compagnia di un indigeno del luogo
+ci consola dicendo che per fortuna il Benevento è in serie B.
 Tutto sommato poteva andare peggio.
 Lavorare per i bambini è difficile.
-Ideare, preparare e mettere in scena uno spettacolo per bambini può diventare un’impresa  estenuante.
+Ideare, preparare e mettere in scena uno spettacolo per bambini può diventare un’impresa estenuante.
 Si ha sempre la sensazione che non sia abbastanza.
 Non è abbastanza divertente, non è abbastanza ritmato, non è abbastanza colorato.
 Non ci possono essere mezze misure : o sarà un successo totale o sarà una umiliazione.
 E lavorare per raggiungere il successo è la cosa più divertente del mondo.
 Mettere in piedi lo spettacolo “ Che Barba Lunga Che Hai!” è stato davvero divertente.
-In una settimana (scarsa) di prove abbiamo deciso di giocare e sperimentare, di solito siamo bravissimi a complicarci la vita e ad andare in ansia per i dettagli più insignificanti, ma questa volta andavamo incontro ad una situazione totalmente nuova per noi: uno spettacolo itinerante, all’aperto, sulle origini mitiche dei longobardi.
+In una settimana (scarsa) di prove abbiamo deciso di giocare e sperimentare
+di solito siamo bravissimi a complicarci la vita e ad andare in ansia per i dettagli più insignificanti, 
+ma questa volta andavamo incontro ad una situazione totalmente nuova per noi: uno spettacolo itinerante, all’aperto
+sulle origini mitiche dei longobardi.
 Una robetta, insomma.
 Non si poteva andare nel panico.
-È divertente tornare ad essere longobardi per una manciata di giorni,  guardarsi intorno e vedere spade, cavalli, tuniche e mantelli è emozionante , un bel colpo d’occhio.
-Considerato che il tutto avviene in una città che si prende talmente sul serio da eleggere Mastella sindaco, capite bene che una rievocazione medievale è un grande passo avanti.
+È divertente tornare ad essere longobardi per una manciata di giorni, guardarsi intorno e vedere spade, cavalli
+una rievocazione medievale è un grande passo avanti.
 Benevento Longobarda è un evento che mi ha fatto sentire parte di un qualcosa.
 Lotto ogni giorno perché il mio lavoro possa avere una dignità.
-Sono un’attrice e vivo sospesa in un mondo dove chi lo fa per hobby riempie i teatri e chi lo fa di mestiere non arriva a fine mese.
-Un mondo dove far pagare un biglietto è come un’offesa, la cultura e l’intrattenimento devono essere gratis, altrimenti è meglio guardare la tv, no?
-Ecco, la conferma che non è meglio la tv mi è arrivata durante Benevento Longobarda, quando i bambini tornavano a vedere il nostro spettacolo la seconda, la terza ed alcuni anche la quarta volta, e ridevano sempre di più e applaudivano sempre di più.
+Sono un’attrice e vivo in un mondo dove chi lo fa per hobby riempie i teatri e chi lo fa di mestiere non arriva a fine mese.
+Un mondo dove far pagare un biglietto è come un’offesa, la cultura e l’intrattenimento devono essere gratis,
+altrimenti è meglio guardare la tv, no?
+Ecco, la conferma che non è meglio la tv mi è arrivata durante Benevento Longobarda,
+quando i bambini tornavano a vedere il nostro spettacolo la seconda, la terza ed alcuni anche la quarta volta,
+ridevano sempre di più e applaudivano sempre di più.
 E non volevano che finisse.
 E noi volevamo solo fare meglio, nonostante tutto.
-Nonostante il caldo afoso e la pioggia fastidiosa, nonostante le tuniche pesanti e le secchiate d’acqua dai balconi, nonostante i sandali che fanno male ai piedi e le pozzanghere profonde abitate da creature sconosciute.
-Bisogna sempre cercare di migliorarsi, perché non importa cosa fai,  ci sarà sempre un gruppo di longobardi che riconoscerà il tuo sforzo.
+Nonostante il caldo afoso e la pioggia fastidiosa, nonostante le tuniche pesanti e le secchiate d’acqua dai balconi
+nonostante i sandali che fanno male ai piedi e le pozzanghere profonde abitate da creature sconosciute.
+Bisogna sempre cercare di migliorarsi, perché, ci sarà sempre un gruppo di longobardi che riconoscerà il tuo sforzo.
 Ora che tutto è finito non voglio lasciarmi andare alla malinconia ma.
 Che faccio stasera?
 E soprattutto come mi vesto?
@@ -2889,8 +2953,8 @@ Continua a leggere Oltre ogni limite.
 Io vivo per l’attimo di silenzio che c’è prima dell’inizio di uno spettacolo o di un concerto o di una gara.
 È un momento di concentrazione massima.
 Non sfugge nulla, né al pubblico né agli attori/atleti/performers.
-Condivido con pochi il brivido che corre sottopelle in quel momento e so esattamente da dove si origina: dalla voglia di essere stupita.
-Non è l’aspettarsi che succeda qualcosa,  lo sappiamo che la luce si accenderà, che uno strumento suonerà , che qualcuno vincerà.
+Condivido con pochi il brivido che corre sottopelle in quel momento e so da dove si origina: dalla voglia di essere stupita.
+Non è l’aspettarsi che succeda qualcosa, lo sappiamo che la luce si accenderà, che uno strumento suonerà, che qualcuno vincerà.
 È qualcosa più simile all’affidarsi.
 Mi fido che mi stupirai, non vedo l’ora ed ho la pelle d’oca.
 Questo è il momento.
@@ -3283,158 +3347,191 @@ Siamo pronti ad accettare un Internet realmente globale?
 Chi è benvenuto “online”?
 Siamo abituati e circondati da slogan che dichiarano che il web sia un rete globale.
 Purtroppo questo non sempre è vero!
-Non basta contare quante siano le persone che hanno accesso alla rete, bisogna considerare anche per quanti di noi l’accesso sia sicuro e significativo.
-Allo stato attuale circa metà della popolazione mondiale è già online e giorno dopo giorno, grazie ai dispositivi mobili e i Social Network, il numero è destinato a crescere in modo spropositato.
-Questa crescita però non può sminuire il problema del “Digital divide” che purtroppo persiste e si sposta da un aspetto tecnologico ad un problema di conoscenze e abilità necessarie per poter navigare in modo consapevole.
-L’Inclusione Digitale dunque è un problema che rimane costante malgrado gli utenti della rete siano destinati a crescere, perché, per creare una vera inclusione non basta dare il libero accesso.
+Non basta contare quante siano le persone che hanno accesso alla rete
+bisogna considerare anche per quanti di noi l’accesso sia sicuro e significativo.
+Allo stato attuale circa metà della popolazione mondiale è già online e giorno dopo giorno il numero è destinato a crescere
+Questa crescita però non può sminuire il problema del “Digital divide” che purtroppo persiste 
+Il “Digital divide” si sposta da un aspetto tecnologico ad un problema di conoscenze e abilità necessarie per poter navigare
+L’Inclusione Digitale dunque è un problema che rimane costante malgrado gli utenti della rete siano destinati a crescere
+per creare una vera inclusione digitale non basta dare il libero accesso.
 Quanti sono i contenuti a cui possiamo avere accesso dalla nostra nazione?
 Quali di questi sono tradotti in un linguaggio che possiamo comprendere facilmente?
 Ringrazio tutti coloro che hanno reso possibile questo evento e tutti coloro che attivamente hanno partecipato alla discussione.
 Ma soprattutto, quali sono i rischi a cui veniamo incontro utilizzando la rete?
 Una inclusione digitale non può esistere senza una reale volontà di inclusione sociale verso il prossimo uguale ma diverso da noi stessi.
 Per questa ragione è stato importante coinvolgere le persone in un ampio e inclusivo dibattito su argomenti come la neutralità della rete e la resilienza di Internet.
-Ogni volta che partecipo ad inziative o eventi di questo genere sono sempre curioso di conoscere come gli altri concepiscono e trasmettono il loro modo di fare Comunità.
+Ogni volta che partecipo ad eventi di questo genere sono curioso di conoscere come gli altri concepiscono il fare Comunità
 Quest’anno la capitale del ritrovo è stata la città di Eindhoven in Olanda.
 Eindhoven, con i suoi circa 220.
 000 abitanti è attualmente uno dei centri più importanti di innovazione nei Paesi Bassi.
 Storicamente ha ricoperto un importante ruolo di innovazione, basti pensare che la Philips ha avuto nascita proprio qui!
-L’invenzione del Compact Disc è uno degli esempi più importanti che permette di cogliere quanto questa città sia un centro importante di innovazione, che si perpetua ancora oggi non soltanto in ambito tecnologico.
+L’invenzione del Compact Disc è uno degli esempi che permette di cogliere quanto questa città sia un centro di innovazione
 Durante l’evento hanno partecipato circa 25-30 persone.
-Personalmente, poter contribuire attivamente al Festival è qualcosa di veramente speciale, se poi si aggiunge la possibilità di poterlo fare in un contesto multi-etnico sociale e inclusivo, questa esperienza diventa unica e irripetibile.
-Nei giorni scorsi mi sono sentito un privilegiato nel poter ascoltare le esperienze di persone provenienti da tutti i continenti del Mondo e prender parte al MozRetreat.
-L’evento di Cagliari è stato rimodulato più e più volte da noi tutti del team di sviluppo della Campagna per far fronte alle forti limitazioni e gli ostacoli che per il forte caldo si sono presentati quest’anno nel capoluogo Sardo.
-Ovviamente, non sono mancati i tanti gadget che abbiamo voluto offrire a tutti i curiosi che sono accorsi per sapere qualcosa in più su tutti noi.
+Personalmente, poter contribuire attivamente al Festival è qualcosa di veramente speciale
+se si aggiunge la possibilità di poterlo fare in un contesto multi-etnico, questa esperienza diventa unica e irripetibile
+mi sono sentito un privilegiato nel poter ascoltare le esperienze di persone provenienti da tutti i continenti del Mondo
+L’evento di Cagliari è stato rimodulato più e più volte da noi tutti del team di sviluppo della Campagna
+far fronte alle forti limitazioni e gli ostacoli che per il forte caldo si sono presentati quest’anno nel capoluogo Sardo
+Ovviamente, non sono mancati i tanti gadget che abbiamo voluto offrire ai curiosi che sono accorsi
 Prima di scrivere questo articolo, mi sono posto due domande che ho voluto condividere con voi.
-Personalmente non credo esista una sola definizione di cosa significhi comunità e le ragioni per le quali decidiamo di farne parte.
-L’unica cosa che ritengo importante è che ci sia una reale connessione e volontà di condividere se stessi e delle esperienze tutti assieme.
-Per me è comunità sia Mozilla che il MozRetreat e tutti i momenti nei quali ci si connette come umani gli uni con gli altri.
+non credo esista una sola definizione di cosa significhi comunità e le ragioni per le quali decidiamo di farne parte
+L’unica cosa che ritengo importante è che ci sia una reale connessione e volontà di condividere se stessi e delle esperienze
+Per me è comunità sia Mozilla che il MozRetreat e tutti i momenti nei quali ci si connette come umani gli uni con gli altri
 Grazie a tutti coloro che in un modo o in un’altro hanno voluto condividere con me loro stessi!
-Tra il pubblico oltre i curiosi erano presenti artisti, professionisti, nonché rappresentati di spicco del Collegio dei Periti Industriali e Periti Industriali Laureati di Cagliari.
-Al termine di questa breve parentesi, abbiamo voluto realizzare una tavola rotonda inclusiva tra tutti gli spettatori e i relatori.
-I temi principali sono stati le implicazioni che questa normativa ha nel quotidiano per i relatori coinvolti, le prospettive future derivate da quelle che sono le proposte in dibattimento a Bruxelles e i “side effect”
+Tra il pubblico erano presenti artisti, professionisti, nonché rappresentati del Collegio dei Periti Industriali
+Al termine di questa parentesi, abbiamo voluto realizzare una tavola rotonda inclusiva tra tutti gli spettatori e i relatori
+I temi principali sono stati le implicazioni che questa normativa ha nel quotidiano per i relatori coinvolti
+le prospettive future derivate da quelle che sono le proposte in dibattimento a Bruxelles e i “side effect”
 Derivano da una normativa inadeguata come quella attuale.
-Durante l’incontro si è parlato anche delle Fake News e di quelli che sono i fattori Sociali che influenzano sia il mercato che come viene recepita e applicata dalla cittadinanza una normativa come quella del diritto di autore.
-In ultimo ma non ultimo, il Venerdì ho avuto l’occasione di poter prender parte all’incontro con il team di trasformazione digitale voluto fortemente dal Governo Italiano per avvicinare la pubblica amministrazione al mondo digitale.
+Durante l’incontro si è parlato anche delle Fake News e di quelli che sono i fattori Sociali 
+i fattori sociali influenzano sia il mercato che come viene recepita e applicata dalla cittadinanza una normativa
+In ultimo ma non ultimo, il Venerdì ho avuto l’occasione di poter prender parte all’incontro con il team
+il team di trasformazione digitale voluto dal Governo Italiano per avvicinare la pubblica amministrazione al mondo digitale.
 Oggi volevo condividere con voi la grandiosa esperienza che ho potuto vivere la settimana scorsa a Tallinn in Estonia.
-Il primo giorno, dopo un giro di presentazioni generali da parte di tutti, è stata fatta una introduzione su quali argomenti tratterà il Mozilla Festival.
-Successivamente, ci siamo divisi in piccoli gruppi e ognuno di noi ha dato una sua vision del festival e ha disegnato come i vari argomenti possano essere collegati tra di loro.
+Il primo giorno, dopo un giro di presentazioni generali da parte di tutti, è stata fatta una introduzione 
+Successivamente, ci siamo divisi in piccoli gruppi e ognuno di noi ha dato una sua vision del festival 
+ha disegnato come i vari argomenti possano essere collegati tra di loro.
 Sono state più o meno una cinquantina le persone presenti e che sono intervenute durante la manifestazione.
-Avrei voluto poter creare tanti cloni di me stesso per poter seguire da vicino tutte le attività, ma dovendo fare una scelta, ho cercato di fare quella che fosse più vicina alle mie esperienze come volontario.
+Avrei voluto poter creare tanti cloni di me stesso per poter seguire da vicino tutte le attività
+ma dovendo fare una scelta, ho cercato di fare quella che fosse più vicina alle mie esperienze come volontario.
 L’ultimo giorno è iniziato con un tour della città.
-Ognuno di noi poteva scegliere tra un tour storico nella vecchia città medievale, oppure, un tour improntato sull’anima artistica di Tallinn.
+Si poteva scegliere tra un tour storico nella vecchia città medievale, oppure, uno sull’anima artistica di Tallinn.
 Personalmente ho scelto il tour storico medievale.
 Personalmente è stata una esperienza grandiosa accompagnata da persone fantastiche.
-Conoscere questa città, la sua storia e contribuire al prossimo Mozilla Festival per me non solo è fantastico, ma è una grande opportunità per aiutare la Fondazione Mozilla a perseguire gli ideali di libertà, uguaglianza e inclusività nel web.
-Nei prossimi giorni verranno pubblicati sul sito ufficiale del summit le registrazione dei talk e le note delle varie sessioni presentate durante la unconference.
+contribuire al prossimo Mozilla Festival per me non solo è fantastico, ma è una grande opportunità per aiutare la Fondazione
+auitare Mozilla a perseguire gli ideali di libertà, uguaglianza e inclusività nel web.
+Nei prossimi giorni verranno pubblicati sul sito ufficiale del summit le registrazione dei talk e le note delle sessioni
 Sono estremamente contento di questa esperienza.
-Conoscere altre persone che hanno passioni simili alle mie, che portano avanti degli obiettivi attraverso delle community e sono pronte a condividere le loro esperienze con gli altri in maniera spontanea, inclusiva, libera e aperta è per me veramente fantastico.
-Ultimo elemento ma non ultimo, che ha caratterizzato questo weekend Milanese è stato l’incontro con alcuni volontari di Mozilla Italia che risiedono nel Nord Italia.
-Poterci incontrare di persona, scambiarci nostre opinioni, punti di vista e idee per la nostra community ha coronato e ha reso ancora più speciale questo weekend.
-L’evento permetterà a tutti partecipanti di conoscere e collaborare ad oltre quaranta progetti opensource da tutto il mondo che hanno l’obbiettivo di proteggere e migliorare Internet, come risorsa libera, inclusiva e aperta.
-Diverse reti di scienziati, educatori, artisti, ingegneri e altri si incontreranno tutti assieme dal vivo e online per innovare in maniera libera.
+Conoscere altre persone che hanno passioni simili alle mie, che portano avanti degli obiettivi attraverso delle community 
+sono pronte a condividere le loro esperienze con gli altri in maniera spontanea, inclusiva, libera e aperta è fantastico.
+Ultimo elemento ma non ultimo, che ha caratterizzato questo weekend Milanese è stato l’incontro con alcuni volontari
+Poterci incontrare di persona, scambiare opinioni e punti di vista per la nostra community ha reso speciale questo weekend
+L’evento permetterà a tutti partecipanti di conoscere e collaborare ad oltre quaranta progetti opensource da tutto il mondo
+Progetti che hanno l’obbiettivo di proteggere e migliorare Internet, come risorsa libera, inclusiva e aperta.
+Diverse reti di scienziati, educatori, artisti, ingegneri e altri si incontreranno per innovare in maniera libera.
 E’ possibile ordinare gratuitamente il proprio biglietto per poter partecipare sia dal vivo che online.
 In Italia saranno due le Università che quest’anno hanno deciso di ospitare l’evento.
 L’Università di Catania e L’Università Bicocca di Milano.
 Le sessioni Demo sono state organizzate in tre differenti orari per ogni giornata.
 Una per le Americhe, Una per Europa, Asia e Africa e Una per l’estremo Oriente e l’Australia.
-Le demo live hanno permesso a tutte le persone Online e Offline di poter conoscere meglio i progetti coinvolti e poter prendere parte alla loro realizzazione.
+Le demo live hanno permesso a tutte le persone Online e Offline di poter conoscere meglio i progetti coinvolti
 O stato di salute di un giardino condivide molti attributi con lo stato di salute di Internet.
 Entrambi gli ecosistemi ci “nutrono” e ci danno l’opportunità di contribuire.
 Per questa ragione speriamo che ti unirai a noi dal 27 al 29 Ottobre
 Al Ravensbourne di Londra, per condividere con noi il divertimento!
-Un Giardino in salute ha la necessità di esser vario tanto quanto ha la necessità di difendersi dagli insetti e dalle malattie.
-Il web non è differente e non è differente anche il modo con il quale esprimiamo rapidamente noi stessi in tutte le possibili forme online.
-E’ stato dunque interessante raccogliere le esperienze e i pareri di tutti i presenti per costruire un dialogo volto a sensibilizzare tutte le persone sul fatto che, mal grado sino ad oggi, non ci siano state queste ripercussioni
-È importante chiedere a gran voce che l’Unione Europea faccia chiarezza con una legge che possa esser scritta per esser vicina alle persone e ai propri bisogni.
-In conclusione abbiamo discusso su degli esempi pratici di quello che potrebbe esser inteso come violazione del Copyright in Italia e su quelle che sono le normative ufficiali Italiane che trattano questi temi.
+Un Giardino in salute ha la necessità di esser vario tanto quanto ha la necessità di difendersi da insetti e malattie.
+Il web non è differente e non è differente anche il modo con il quale esprimiamo rapidamente noi stessi online.
+E’ stato dunque interessante raccogliere le esperienze e i pareri di tutti i presenti per costruire un dialogo 
+È importante chiedere a gran voce che l’Unione Europea faccia chiarezza con una legge
+una legge che possa esser scritta per esser vicina alle persone e ai propri bisogni.
+In conclusione abbiamo discusso su degli esempi pratici di quello che potrebbe esser inteso come violazione del Copyright
+abbiamo discusso su quelle che sono le normative ufficiali Italiane che trattano questi temi
 A fine giornata gli organizzatori hanno assegnato dei premi ai relatori più meritevoli.
-E’ stato per me un vero piacere poter collaborare con il Gruppo Utenti di Linux di Cagliari e aver preso parte a questa manifestazione che oramai a Cagliari viene realizzata da oramai 15 Anni.
+E’ stato vero piacere poter collaborare con il Gruppo Utenti di Linux di Cagliari e aver preso parte a questa manifestazione
 E’ stato interessante cogliere come le persone percepiscano differentemente questo problema.
-Mal grado tutte le persone presenti ai due incontri abbiano mostrato della preoccupazione circa questa tematica, alcune, non sentono una reale implicazione dalla violazione di questa legge, perché sino ad oggi non sono stati rilevanti i casi di ripercussioni pesanti sugli utenti.
-A livello locale noi tutti volontari Mozilla di Cagliari, abbiamo deciso di realizzare dei laboratori che non hanno soltanto l’obbiettivo di informare, ma principalmente di realizzare una esperienza che possa cercare realmente di creare una maggiore consapevolezza su tutte queste tecnologie.
+Mal grado tutte le persone presenti ai due incontri abbiano mostrato della preoccupazione circa questa tematica
+non sentono una reale implicazione dalla violazione di questa legge
+perché sino ad oggi non sono stati rilevanti i casi di ripercussioni pesanti sugli utenti.
+A livello locale noi tutti volontari Mozilla di Cagliari, abbiamo deciso di realizzare dei laboratori 
+non hanno soltanto l’obbiettivo di informare, ma principalmente di realizzare una esperienza 
+una esperienza che possa cercare realmente di creare una maggiore consapevolezza su tutte queste tecnologie.
 Vogliamo creare momenti di confronto su come leggere, scrivere e partecipare nel Web.
-Per noi è importante che le persone sappiano come interpretare il web, che possano sviluppare i loro contenuti e che riescano a partecipare in tutta sicurezza alla vita nei Social Network.
-Oggi giorno, sopratutto in Italia, l’università non propone a tutti i propri studenti delle realtà e delle occasioni che permettano di confrontarsi su queste tematiche o sviluppare nuove idee e innovazioni in modo collaborativo e inclusivo.
+Per noi è importante che le persone sappiano come interpretare il web, che possano sviluppare i loro contenuti
+riescano a partecipare in tutta sicurezza alla vita nei Social Network.
+Oggi giorno l’università non propone a tutti i propri studenti delle occasioni che permettano di confrontarsi
+occasioni che permettano di confrontarsi su queste tematiche o sviluppare nuove idee e innovazioni in modo collaborativo
 Per questa ragione credo che questa sia una occasione a cui nessuno studente Universitario può rinunciare.
-Una occasione che permette a chiunque di mettersi in gioco, di sviluppare nuove idee e proteggere la libertà che sempre meno diventa importante nel web.
+Una occasione che permette a chiunque di mettersi in gioco, di sviluppare nuove idee e proteggere la libertà
+la libertà è sempre meno importante nel web.
 Vogliamo che gli utenti abbiano modo di poter avere una vita virtuale consapevole e sicura e per questo ci battiamo.
 Sono contento di poter ufficialmente annunciare l’arrivo tra noi del nuovo programma Universitario di Mozilla.
-Un programma che definitivamente abbraccia globalmente tutte le tematiche e gli obbiettivi della Fondazione, permettendo agli studenti di poter affrontare queste tematiche in prima persona e realizzando laboratori che possano incentivare l’innovazione e la collaborazione tra tutti gli studenti del nostro globo.
+Un programma che definitivamente abbraccia globalmente tutte le tematiche e gli obbiettivi della Fondazione,
+permettendo agli studenti di poter affrontare queste tematiche in prima persona e realizzando laboratori 
+si cerca di incentivare l’innovazione e la collaborazione tra tutti gli studenti del nostro globo.
 Oggi giorno tutti noi abbiamo la necessità di interagire con il web.
-Insegnare il web significa aiutare le persone ad avere le abilità necessarie a poter leggere, scrivere e partecipare alle attività quotidiane online, ossia, creare un mondo di cittadini digitali.
+Insegnare il web significa aiutare le persone ad avere le abilità necessarie a poter leggere, scrivere e partecipare online
+partecipare alle attività quotidiane online, significa creare un mondo di cittadini digitali.
 Nei Campus Club significa promuovere l’alfabetizzazione delle tecnologie Web all’interno della propria Università.
-Il Web ha la necessità sempre più crescente di community di makers e innovatori che costruiscano e supportino le tecnologie al fine mantenerle aperte e accessibili a tutti.
+Il Web ha la necessità sempre più crescente di community di makers e innovatori che costruiscano e supportino le tecnologie
 I Campus Club sono una opportunità per creare assieme una community tecnologica nella tua Università.
-Al fine di mantenere il Web aperto e accessibile a tutti, le persone hanno bisogno di sentirsi al sicuro online e devono sapere come combattere e difendersi davanti alle grandi sfide e opportunità che quotidianamente il Web presenta.
+Al fine di mantenere il Web aperto e accessibile a tutti, le persone hanno bisogno di sentirsi al sicuro online
+le persone devono sapere come combattere e difendersi davanti alle grandi sfide e opportunità
 I Campus Club sono una opportunità per confrontarsi circa le questioni che contano di più.
 E’ stata una esperienza fantastica per mettersi in gioco in modo cooperativo con tutta la community Europea di Mozilla.
-Un momento nel quale abbiamo avuto modo di lavorare tutti assieme e di imparare l’uno dall’altro, di conoscerci e di rimanere aggiornati sugli obbiettivi della Fondazione Mozilla.
-La potenza di questo Gathering è stata l’energia e la voglia di mettersi in gioco tutti assieme, sempre con il massimo rispetto e la vera voglia di conoscersi.
-Sono particolarmente contento di aver lavorato, durante il weekend, con tante altre persone che come me perseguono principalmente l’obbiettivo di lottare per mantere il Web una risorsa libera, accessibile e inclusiva.
+Un momento nel quale abbiamo avuto modo di lavorare tutti assieme e di imparare l’uno dall’altro, 
+per poterci conoscere e rimanere aggiornati sugli obbiettivi della Fondazione Mozilla.
+La potenza di questo Gathering è stata l’energia e la voglia di mettersi in gioco tutti assieme 
+sempre con il massimo rispetto e la vera voglia di conoscersi.
+Sono particolarmente contento di aver lavorato, durante il weekend, con tante altre persone
+queste persone come me perseguono principalmente l’obbiettivo di lottare per mantere il Web una risorsa libera e accessibile
 Vi voglio bene!
 Dal prossimo autunno dunque, ci saranno delle bellissime novità e prossimamente saranno annunciate ufficialmente.
-Quello che vi posso anticipare è che localmente qui a Cagliari, stiamo lavorando per offrire a tutta la popolazione degli incontri per poter scrivere, leggere e partecipare attivamente nel web
-Inoltre, a livello Europeo, stiamo lavorando a delle attività volte a evidenziare il grave gap che in Europa abbiamo tra le leggi sul Copyright e le tecnologie.
+Quello che vi posso anticipare è che localmente qui a Cagliari, stiamo lavorando per offrire degli incontri 
+in questi incontri si potrà scrivere, leggere e partecipare attivamente nel web
+stiamo lavorando ad attività volte a evidenziare il gap che in Europa abbiamo tra le leggi sul Copyright e le tecnologie
 Un po’ di storia.
 Introduzione.
 Floppy disk.
 Alla ricerca di Lala.
-Spesso mi capita di immaginare quali possano essere le motivazioni, alternative a quelle che si conoscono, al degrado che incontro camminando per le strade di Roma, la mia città.
-L’ultima spiegazione che mi sono dato è che tutto dipenda da una storia di hacker, sabotaggi dei servizi urbani e intelligenze artificiali milanesi.
+Spesso mi capita di immaginare quali possano essere le motivazioni al degrado che incontro camminando per le strade di Roma
+L’ultima spiegazione è che tutto dipenda da una storia di hacker, sabotaggi dei servizi urbani e intelligenze artificiali
 Potrebbero esserci dei problemi di consecutio temporum, ma comunque buona lettura.
 Dopo questa piccola digressione passiamo al tema principale.
-Romolo, dopo aver fondato Roma, chiese agli abitanti dei luoghi vicini alcune donne per procreare e accrescere in questo modo la popolazione della città appena nata.
+Romolo, dopo aver fondato Roma, chiese agli abitanti dei luoghi vicini alcune donne per accrescere la città appena nata.
 A suo tempo quello era un paese a crescita zero (come il nostro attualmente).
-Come risposta Romolo ottenne un rifiuto, così per raggiungere lo stesso il suo obiettivo, aggirando l’ostacolo, ebbe l'idea di organizzare un grande spettacolo per avvicinare più gente possibile.
+Come risposta Romolo ottenne un rifiuto, così ebbe l'idea di organizzare un grande spettacolo per avvicinare più gente.
 Una volta raccolte tutte le genti della regione nella sua terra, fece rapire le donne.
 Questa è una storia narrata sui libri di scuola, ma c'è un seguito che non viene mai raccontato.
-Segnalo, a scanso di equivoci, che ciò che sto per raccontare non è realmente accaduto e di conseguenza non è mai stato riportato da nessuno storiografo.
-Potrei inventarmi che ne abbia scritto qualcosa Erodoto, perché mi ricordo di lui come storiografo, ma so di certo che è antecedente alla fondazione di Roma.
-In questo modo, oltre a raccontare un fatto non vero, citerei anche fonti che non avrebbero potuto proprio tramandare quanto segue.
+Segnalo, che ciò che sto per raccontare non è realmente accaduto e non è mai stato riportato da nessuno storiografo.
+Potrei inventarmi che ne abbia scritto qualcosa Erodoto, ma so di certo che è antecedente alla fondazione di Roma.
+In questo modo, citerei anche fonti che non avrebbero potuto proprio tramandare quanto segue.
 Sapete perché a Roma si dice "tu sorella!"
-Si tratta di un modo di dire che risale proprio a quel periodo quando alcune donne della regione si organizzarono in una setta segreta volta a sabotare la città e vendicarsi di quanto fatto dai Romani alle Sabine.
+Si tratta di un modo di dire che risale proprio a quel periodo quando alcune donne si organizzarono in una setta segreta
+la setta era volta a sabotare la città e vendicarsi di quanto fatto dai Romani alle Sabine.
 Era difficilissimo scovare delle appartenenti a questo primordiale movimento antagonista.
 Potevi incontrare ovunque un membro che ne faceva parte e non riconoscerlo.
 Una di quelle donne della setta, poteva anche essere in casa tua, poteva essere persino tua sorella senza che tu lo sapessi.
 È qui che nasce il modo di dire "se, tu sorella…".
-Quando in quel periodo storico accadeva qualche problema e non si conosceva la causa, i Romani ipotizzavano di avere una sovversiva all’interno delle mura domestiche.
+Quando accadeva qualche problema e non si conosceva la causa, ipotizzavano di avere una sovversiva in casa.
 L'arcaico "tu sorella", o sorellam tua (sì, non è il termine latino esatto, ma “sorellam” fa più ridere di soror)
 Veniva spesso anche usato come malaugurio per auspicare a qualcuno di avere in casa una militante.
-La stessa accezione negativa può essere estesa anche a “tu zia”, ovviamente in questo caso il malaugurio è di avere una zia sovversiva.
-Dal ratto delle Sabine in poi, tutti i peggiori avvenimenti della città di Roma si dice che furono progettati da questa setta segreta, la setta delle Toga Nigra (come nome mi sembra davvero molto potente).
+La stessa accezione negativa può essere estesa anche a “tu zia”, in questo caso il malaugurio è di avere una zia sovversiva.
+tutti i peggiori avvenimenti di Roma si dice che furono progettati da questa setta segreta, la setta delle Toga Nigra.
 Dall'incendio di Roma del 64 a.C.
 Sotto Nerone, alla crisi idrica estiva del 2017 (riaccendete i nasoni per favore);
 Molti degli eventi più devastanti per la città di Roma furono causati da questo gruppo di Sabine arrabbiate.
-Si considerarono loro, della Toga Nigra, le responsabili di tutti gli eventi negativi poiché, durante molti avvenimenti critici, venivano viste fuggire delle figure femminili vestite di nero.
+Si considerarono loro, le responsabili di tutti gli eventi negativi poiché.
+durante gli avvenimenti critici, venivano viste fuggire delle figure femminili vestite di nero.
 Che per intenderci somigliava al tipo cattivo di Scream, ma senza la maschera paurosa.
 La toga indossata dalle sovversive serviva per nascondere armi come bastoni, veleni, pugnali e pozioni magiche.
-Poi, con l'avvento della cristianità e degli ordini religiosi, molte combattenti iniziarono a tramandare storia e principi del movimento all'interno dei conventi.
+con l'avvento della cristianità e degli ordini religiosi, iniziarono a tramandare storia e principi all'interno dei conventi
 Allora erano delle specie di fortezze.
 Mascherate da gentili e buone sorelle, all’interno di quei luoghi vivevano delle tostissime combattenti.
 Avevano ragione comunque, poiché i Romani la combinarono grossa.
 Le combattenti della Toga Nigra a conti fatti sono le attuali suore.
-Come dicevo, la loro reazione fu una conseguenza giusta a ciò che molte donne dovettero subire, rivendicando così i diritti di quelle vittime ingiustamente rapite.
+la loro reazione fu una conseguenza giusta a ciò che molte donne dovettero subire, rivendicando così i diritti di quelle vittime
 Da centinaia di anni le sovversive compiono atti di sabotaggio su Roma per vendicarsi del sopruso subito.
-Anche se sto utilizzando la loro figura per il mio racconto e devo rappresentarle come le cattive della situazione, sono dalla loro parte e sono d’accordo con la loro causa.
+Anche se devo rappresentarle come le cattive della situazione, sono dalla loro parte e sono d’accordo con la loro causa.
 Inoltre, mi piacciono anche le suore!
-Probabilmente le donne di cui sto parlando continuano questa lotta perché nessuno finora ha chiesto scusa per il ratto delle Sabine.
+Probabilmente le donne continuano questa lotta perché nessuno finora ha chiesto scusa per il ratto delle Sabine.
 Basterebbe semplicemente affrontare la tematica a un tavolo.
 Parlarne al posto di ignorare l’argomento.
-Quando saremo pronti, un giorno, potremmo anche affrontare lo spinoso tema (descritto così in una puntata di Boris) delle guerre puniche.
+Quando saremo pronti, un giorno, potremmo anche affrontare lo spinoso tema delle guerre puniche.
 Le sorelle della Toga Nigra oggi si confondono in mezzo a delle comunissime suore dall'aspetto ingenuo.
 In realtà sono delle astutissime e bravissime hacker.
 Negli anni, le combattenti di questa setta si sono dovute aggiornare e modernizzare.
 Un tempo le loro armi erano analogiche, ora possiedono arsenali digitali e hanno molti computer.
 Però, non quelli da fighetto hipster.
-Sono computer old school tipo l’IBM Thinkpad x60 e naturalmente usano solo ethical distro Linux come fa Richard Stallman (sistemi operativi che contengono solo codice free al loro interno.
-Free non come “free beer”).
-Nell'era digitale uno dei mezzi più utili per mettere in ginocchio il sistema è proprio il cyber-terrorismo e le ragazze della Toga Nigra, queste cyber-sorelle, sono ovunque e sanno fare bene il loro mestiere.
+Sono computer old school tipo l’IBM Thinkpad x60 e naturalmente usano solo ethical distro Linux come fa Richard Stallman 
+sistemi operativi che contengono solo codice free al loro interno. Free non come “free beer”.
+Nell'era digitale uno dei mezzi più utili per mettere in ginocchio il sistema è proprio il cyber-terrorismo
+le ragazze della Toga Nigra, queste cyber-sorelle, sono ovunque e sanno fare bene il loro mestiere.
 Non scrivono comunicati come Anonymous, non twittano #tangodown quando tirano giù qualche sito.
 Agiscono e basta.
 Hanno vari meeting point (i conventi) sparsi per la città, che alla fine sono tipo dei coworking di suore.
 Bevono il tè, fanno battute nerd e a volte guardano le serie tv.
 Dentro ci sono delle workstation da dove scrivono centinaia di righe di codice al giorno.
-Contribuiscono persino a importantissimi progetti comunitari, come il Kernel Linux e supportano attivamente la comunità hacker.
+Contribuiscono a importantissimi progetti comunitari, come il Kernel Linux e supportano attivamente la comunità hacker.
 Le sorelle provano ogni
 Giorni svariati tipi di attacchi informatici e spesso riescono nel loro intento.
 La metro non passa da quasi 15 minuti?
@@ -3443,7 +3540,7 @@ Spesso collegandosi al main-frame che gestisce gli scambi dei binari della metro
 Accedono a qualsiasi sorta di device collegato in rete.
 Il distributore dei biglietti della metro non funziona?
 È sotto attacco.
-Il negoziante non ti fa lo scontrino, il tassista ha il pos rotto, il tecnico della caldaia ti vuole vendere di straforo un pezzo che non ti serve?
+Il negoziante non ti fa lo scontrino, il tecnico della caldaia ti vuole vendere di straforo un pezzo che non ti serve?
 Sono tutti sotto attacco.
 Quando sudi come un bestia in fila alle poste, stai assistendo a un hackeraggio.
 Arrestano il tuo pusher?
@@ -3463,7 +3560,7 @@ L’altro giorno mi trovavo in un ufficio pubblico ed era tutto sporco e malanda
 Ho pensato: “È probabile siano stati sabotati gli addetti alle pulizie.
 Poco dopo la fondazione di Roma nel 753
 Avvenne uno dei fatti più leggendari che riguarda la mia città: il ratto delle Sabine.
-Da piccolo ero troppo impegnato a focalizzare la mia attenzione sulla parola “ratto”, per cui solamente oggi gli do la giusta importanza.
+Da piccolo ero troppo impegnato a focalizzare la mia attenzione sulla parola “ratto”.
 Ho pensato quindi di utilizzare questo evento per iniziare il mio racconto.
 È un po’ come quando studiai Anacreonte e la professoressa mi raccontò del suo giovane amico.
 Il giovinetto Smerdi.
@@ -3491,7 +3588,8 @@ Sbirri in arrivo?
 Un kebab a domicilio?
 No, troppo presto, Space Cowboy stava ancora facendo colazione.
 Dal punto di vista dell’educazione alimentare, il giovane era una fogna, ma il kebab così al mattino proprio no.
-Quell’oggetto non identificato era sempre più vicino, la musica di sottofondo si faceva più tenebrosa e Space Cowboy sorseggiava impazientemente il suo tazzone di caffè.
+Quell’oggetto non identificato era sempre più vicino, la musica di sottofondo si faceva più tenebrosa
+Space Cowboy sorseggiava impazientemente il suo tazzone di caffè.
 Niente più dubbi, il segnale era sotto casa sua.
 “Preparati giovane Space, adesso tutte le tue malefatte verranno a galla.
 Per pigrizia non hai lanciato gli hard disk dalla finestra eh?
@@ -3503,19 +3601,20 @@ Erano veramente gli sbirri?
 Sarebbe stato poi contattato da un tizio tipo Morpheus?
 Orecchio poggiato sulla porta, un mozzicone sulle labbra e un mezzo sorriso, mentre i passi si facevano sempre più vicini.
 Ciao, amore!
-Odore di caffè e cornetti industriali scaldati al forno era quello che si sentiva nella cucina in perfetto ordine dello Space Cowboy in versione cittadino normale e anonimo.
+Odore di caffè e cornetti industriali scaldati al forno era quello che si sentiva nella cucina
 Era sulla buona strada quando fuori dal call center vide Cinnamon Girl abbastanza incazzata.
 Pareva avesse un aspetto robotico.
-Evidentemente Skynet aveva preso il controllo di Cinnamon, oppure lei era già da prima un cyborg, un terminator per la precisione.
-La ragazza entrò nell’internet point e iniziò a lanciare tutti i monitor, a tubo catodico old-school, verso Space Cowboy per cercare di ucciderlo.
-Probabilmente lei vedeva tutto rosso (come le unità terminator vedono il mondo), ed è possibile che leggesse il messaggio “target” che compariva sopra la faccia di Space Cowboy.
+Evidentemente Skynet aveva preso il controllo di Cinnamon, oppure lei era già da prima un cyborg.
+La ragazza entrò nell’internet point e iniziò a lanciare tutti i monitor, verso Space Cowboy per cercare di ucciderlo.
+Probabilmente lei vedeva tutto rosso, ed è possibile che leggesse il messaggio “target” sopra la faccia di Space Cowboy.
 I due ingaggiarono una lotta all’ultimo sangue.
-Il problema è che Space Cowboy, in quanto nerd flaccido, non avrebbe mai potuto contrastare una forza così potente come quella della ragazza robot.
-Quando il giovane volò in strada, lanciato da Cinnamon Girl, pensò fosse arrivata la sua fine e forse anche quella della capitale.
+Il problema è che Space Cowboy, in quanto nerd flaccido, non avrebbe mai potuto contrastare una forza così potente.
+Quando il giovane volò in strada, lanciato da Cinnamon Girl, pensò fosse arrivata la sua fine.
 Roma sarebbe stata spazzata via da un’intelligenza artificiale Milanese?
 Che disastro.
-Space Cowboy doveva arrivare a quel router e riavviarlo.
-Purtroppo, solo il sistemista della città è autorizzato a farlo, per cui lui per riuscirci non aveva altra scelta che sovraccaricarlo da remoto.
+Space Cowboy doveva arrivare a quel router e riavviarlo. 
+Purtroppo, solo il sistemista della città è autorizzato a farlo.
+per riuscirci non aveva altra scelta che sovraccaricare il sistema da remoto.
 Il traffico indotto da Skynet lo aveva logorato e sfiancato.
 Improvvisamente Mongoose vide una moto balzare e atterrare davanti al suo veicolo.
 Era una sorella della Toga Nigra che prese un piede di porco, forzò lo sportello dell’auto di Mongoose e lo liberò.
@@ -3535,29 +3634,31 @@ La città era in un limbo.
 Né libera, né sotto il controllo di Skynet Milanese.
 Era tutto immobile, fermo.
 Come in una fotografia.
-Un timido sole iniziò a farsi spazio tra le nuvole e sul raccordo Mongoose ormai delirava quasi privo di sensi nella sua macchina.
+Un timido sole iniziò a farsi spazio tra le nuvole mentre Mongoose ormai delirava quasi privo di sensi nella sua macchina.
 L’unico modo che trovarono per accedervi era di sostituire la signora delle pulizie, Giovanna, con Lala.
 Ora il problema principale è: dove si trova il router cittadino e come bisogna riavviarlo?
 L’apparato si trova a Forte Antenne, Municipio II, all’interno di Villa Ada.
 Nei sotterranei del forte, che è tuttora zona militare.
 Introdursi lì è quasi impossibile, quel luogo è inespugnabile.
-Poi Lala diede una passata di scopa molto forte sui fili e inavvertitamente (dettaglio importantissimo) riavviò il “routerone” cittadino.
+Poi Lala diede una passata di scopa molto forte sui fili e inavvertitamente riavviò il “routerone” cittadino.
 Cinnamon si bloccò e cadde a terra.
 E Skynet Milanese smise di funzionare del tutto, per sempre.
 Era stata sconfitta.
-Il cielo sopra la capitale si schiarì e la città uscì da quello stato di congelamento in cui era finita per colpa di una diabolica intelligenza artificiale nata dal caos.
+Il cielo sopra la capitale si schiarì e la città uscì da quello stato di congelamento in cui era finita
 Ora dovrebbe funzionare tutto.
 Anzi… ora dovrebbe funzionare tutto?
 Lala si girò diventando improvvisamente seria.
-Saltò sferrando un calcio potentissimo al cyborg che arretrò colpito violentemente, ma si rialzò subito per colpire la ragazza con un pugno fortissimo.
+Saltò sferrando un calcio potentissimo al cyborg che arretrò colpito violentemente.
+Il cyborg ma si rialzò subito per colpire la ragazza con un pugno fortissimo.
 Lala la guardò negli occhi ed esclamò: <<Hasta la vista, baby>>.
-Una scossa mi indicò che il Nautilus aveva urtato nella superficie inferiore dei borgognoni, ancora spessa, a giudicare dalla sordità del rumore.
+Una scossa mi indicò che il Nautilus aveva urtato nella superficie inferiore dei borgognoni
 Infatti, avevamo toccato, per servirci dell’espressione marina, ma in senso inverso e a duemila piedi di profondità.
 Il che dava tremila piedi di ghiacci sopra di noi, mille dei quali emergevano.
 I borgognomi erano allora più alti che non fossero nei loro orli e questo fatto era poco rassicurante.
-Durante quella giornata, il Nautilus ricominciò più volte la stessa esperienza e sempre venne ad urtare contro la muraglia che faceva vòlta sopra di esso.
-In certi punti la incontrò a novecento metri, il che dava milleduecento metri di grossezza, trecento dei quali si elevavano sopra la superficie dell’Oceano.
-Notai con gran cura le diverse profondità, ed ottenni in quel modo il profilo sottomarino di quella catena che si svolgeva sopra le acque.
+Durante quella giornata, il Nautilus ricominciò più volte la stessa esperienza urtando contro la muraglia sopra di esso.
+In certi punti la incontrò a novecento metri, il che dava milleduecento metri di grossezza.
+trecento dei milleduecento metri di grossezza, si elevavano sopra la superficie dell’Oceano.
+Notai con gran cura le diverse profondità, ed ottenni in quel modo il profilo sottomarino di quella catena montuosa.
 Alla sera non era avvenuto nessun mutamento alle nostre condizioni.
 Ghiaccio sempre, tra i quattrocento e i cinquecento metri di profondità.
 La diminuzione era evidente, ma qual muraglia ancora fra noi e la superficie dell’Oceano!
