@@ -17,7 +17,7 @@ const PLOT_PADDING = 13;
 const PLOT_STROKE_WIDTH = 2;
 const CIRCLE_RADIUS = 8;
 
-type Attribute = 'total' | 'valid' | 'unverified';
+type Attribute = 'total' | 'valid';
 
 interface PropsFromState {
   api: API;
@@ -47,10 +47,7 @@ class ClipsStats extends React.Component<PropsFromState, State> {
 
   getMax = () =>
     Y_SCALE *
-    this.state.data.reduce(
-      (max, d) => Math.max(max, d.total, d.valid, d.unverified),
-      0
-    );
+    this.state.data.reduce((max, d) => Math.max(max, d.total, d.valid), 0);
 
   pointFromDatum = (x: number, y: number) => {
     const { data, width } = this.state;
@@ -74,7 +71,6 @@ class ClipsStats extends React.Component<PropsFromState, State> {
         <div className="metrics">
           {this.renderMetric('total-hours', 'total')}
           {this.renderMetric('total-hours', 'valid')}
-          {this.renderMetric('total-hours', 'unverified')}
         </div>
         <svg width="100%" height="100%" ref={this.svgRef}>
           {Array.from({ length: TICK_COUNT }).map((_, i) => {
@@ -110,7 +106,7 @@ class ClipsStats extends React.Component<PropsFromState, State> {
               {new Date(date).toLocaleDateString()}
             </text>
           ))}
-          {this.renderPath('unverified')}
+          {this.renderPath('valid')}
           {this.renderPath('valid')}
           {this.renderPath('total')}
         </svg>

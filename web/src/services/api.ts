@@ -176,9 +176,7 @@ export default class API {
     });
   }
 
-  fetchClipsStats(): Promise<
-    { date: string; total: number; valid: number; unverified: number }[]
-  > {
+  fetchClipsStats(): Promise<{ date: string; total: number; valid: number }[]> {
     return this.fetch(API_PATH + '/clips/stats');
   }
 }

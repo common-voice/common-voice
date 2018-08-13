@@ -412,42 +412,67 @@ export default class DB {
 
   async getClipsStats(
     locale: string
-  ): Promise<
-    { date: string; total: number; valid: number; unverified: number }[]
-  > {
+  ): Promise<{ date: string; total: number; valid: number }[]> {
     const [[row]] = await this.mysql.query(
       `
         SELECT
-          COALESCE(DATE(MIN(created_at)), CURDATE()) AS oldest,
-          COALESCE(DATE(MAX(created_at)), CURDATE()) AS newest
+          COALESCE(MIN(created_at), NOW()) AS oldest,
+          COALESCE(MAX(created_at), NOW()) AS newest
         FROM clips
       `
     );
     const oldest = new Date(row.oldest);
     const diff = (new Date(row.newest) as any) - (oldest as any);
-    const days = Array.from({ length: 5 }).map(
-      (_, i, days) => new Date(oldest.getTime() + i * diff / days.length)
+
+    const DAYS_COUNT = 4;
+
+    var tzOffset = new Date().getTimezoneOffset() * 60000; //offset in milliseconds
+    const getDate = (n: number, withOffset = true) => {
+      const isoString = new Date(
+        oldest.getTime() + n * diff / DAYS_COUNT - (withOffset ? tzOffset : 0)
+      ).toISOString();
+      return withOffset ? isoString.slice(0, -1) : isoString;
+    };
+    const dayRanges = Array.from({ length: DAYS_COUNT }).map((_, i) => [
+      getDate(i),
+      getDate(i + 1),
+    ]);
+
+    const results = await Promise.all(
+      dayRanges.map(d =>
+        this.mysql.query(
+          `
+            SELECT
+              COUNT(clip_id)                                              AS total,
+              SUM(upvotes_count >= 2 AND upvotes_count > downvotes_count) AS valid
+            FROM (
+              SELECT
+                clips.id                AS clip_id,
+                SUM(votes.is_valid)     AS upvotes_count,
+                SUM(NOT votes.is_valid) AS downvotes_count
+              FROM clips
+              LEFT JOIN votes ON clips.id = votes.clip_id AND votes.created_at BETWEEN ? AND ?
+              LEFT JOIN locales ON clips.locale_id = locales.id
+              WHERE clips.created_at BETWEEN ? AND ?
+              GROUP BY clips.id
+            ) AS clips;
+          `,
+          [...d, ...d]
+        )
+      )
     );
 
-    const [rows] = await this.mysql.query(`
-      SELECT date,
-        COUNT(DISTINCT id)                                                                        AS total,
-        CAST(COALESCE(SUM(upvotes_count >= 2 AND upvotes_count > downvotes_count), 0) AS INTEGER) AS valid,
-        CAST(COALESCE(SUM(upvotes_count = 0 AND downvotes_count = 0), 0) AS INTEGER)              AS unverified
-      FROM (
-        SELECT dates.date, clips.id, SUM(votes.is_valid) AS upvotes_count, SUM(NOT votes.is_valid) AS downvotes_count
-        FROM (${days
-          .map(day => 'SELECT TIMESTAMP("' + day.toISOString() + '") AS date')
-          .join(' UNION ')}) dates
-        LEFT JOIN clips ON clips.created_at < dates.date
-        LEFT JOIN votes ON clips.id = votes.clip_id AND votes.created_at < dates.date
-        LEFT JOIN locales ON clips.locale_id = locales.id
-        GROUP BY date, clips.id
-      ) AS clips
-      GROUP BY date;
-    `);
-
-    return rows;
+    return results.reduce(
+      (totals, [[row]], i) => {
+        const last = totals[totals.length - 1];
+        return totals.concat({
+          date: getDate(i + 1, false),
+          total: last.total + (Number(row.total) || 0),
+          valid: last.valid + (Number(row.valid) || 0),
+        });
+      },
+      [{ date: getDate(0, false), total: 0, valid: 0 }]
+    );
   }
 
   async getVoicesStats(
