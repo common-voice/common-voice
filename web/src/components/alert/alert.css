@@ -2,19 +2,19 @@
     color: #fff;
     padding: 8px;
     font-size: var(--font-size-small);
-}
 
-.alert.success {
-    background-color: var(--green);
-}
+    &.success {
+        background-color: var(--green);
+    }
 
-.alert.error {
-    background-color: var(--red);
-}
+    &.error {
+        background-color: var(--red);
+    }
 
-.alert > .icon {
-    font-size: 0.3rem;
-    margin: 5px;
-    float: right;
-    cursor: pointer;
+    & > .icon {
+        font-size: 0.3rem;
+        margin: 5px;
+        float: right;
+        cursor: pointer;
+    }
 }

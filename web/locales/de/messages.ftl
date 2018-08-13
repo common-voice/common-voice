@@ -15,33 +15,50 @@ loading = Wird geladen…
 
 ## Languages
 
+an = Aragonesisch
+ar = Arabisch
 as = Assamesisch
+ast = Asturisch
 az = Aserbaidschanisch
 bn = Bengali
 br = Bretonisch
+bxr = Burjatisch
 ca = Katalanisch
+cak = Kaqchikel
+cnh = Hakha Chin
 cs = Tschechisch
 cv = Tschuwaschisch
 cy = Walisisch
 da = Dänisch
 de = Deutsch
+dsb = Niedersorbisch
 el = Griechisch
 en = Englisch
+eo = Esperanto
 es = Spanisch
 et = Estnisch
+fi = Finnisch
+fo = Färöisch
 fr = Französisch
 fy-NL = Friesisch
 ga-IE = Irisch
 he = Hebräisch
+hsb = Obersorbisch
 hu = Ungarisch
+ia = Interlingua
 id = Indonesisch
+is = Isländisch
 it = Italienisch
+ja = Japanisch
 ka = Georgisch
 kab = Kabylisch
 kk = Kasachisch
 ko = Koreanisch
+kpv = Komi-Syrjänisch
 kw = Cornish
+ky = Kirgisisch
 mk = Mazedonisch
+myv = Ersjanisch
 nb-NO = Norwegisches Bokmål
 ne-NP = Nepali
 nl = Niederländisch
@@ -49,8 +66,10 @@ nn-NO = Nynorsk
 or = Odia
 pl = Polnisch
 pt-BR = Portugiesisch (Brasilianisch)
+rm = Rätoromanisch
 ro = Rumänisch
 ru = Russisch
+sah = Sacha
 sk = Slowakisch
 sl = Slowenisch
 sq = Albanisch
@@ -62,8 +81,10 @@ th = Thailändisch
 tr = Türkisch
 tt = Tatarisch
 uk = Ukrainisch
+ur = Urdu
 uz = Usbekisch
 zh-CN = Chinesisch (China)
+zh-HK = Chinesisch (Hong Kong)
 zh-TW = Chinesisch (Taiwan)
 
 # [/]
@@ -85,7 +106,11 @@ faq = FAQ
 content-license-text = Inhalte stehen unter einer <licenseLink>Creative-Commons-Lizenz</licenseLink>
 share-title = Überzeugen Sie auch andere, ihre Stimme zu spenden!
 share-text = Zeigt Maschinen, wie echte Menschen sprechen und spendet eure Stimme auf { $link }!
+link-copied = Link kopiert
 back-top = Zum Seitenanfang
+contribution-banner-text = Es gibt jetzt eine neue Möglichkeit, mitzuarbeiten
+contribution-banner-button = Ausprobieren
+report-bugs-link = Fehler melden
 
 ## Home Page
 
@@ -135,8 +160,8 @@ status-title = Projektstatus-Übersicht: so weit haben wir es schon geschafft!
 status-contribute = Spenden Sie Ihre Stimme
 status-hours =
     { $hours ->
-        [one] Bereits eine validierte Stunde!
-       *[other] Bereits { $hours } validierte Stunden!
+        [one] Bereits eine bestätigte Stunde!
+       *[other] Bereits { $hours } bestätigte Stunden!
     }
 # Variables:
 # $goal - number of hours representing the next goal
@@ -296,6 +321,10 @@ language-meter-in-progress = Fortschritt
 language-total-progress = Gesamt
 language-search-input =
     .placeholder = Suchen
+language-speakers = Sprecher
+localized = Übersetzt
+sentences = Sätze
+total-hours = Stdn. bestätigt
 
 ## New Contribution
 
@@ -306,10 +335,8 @@ listen = Anhören
 skip = Überspringen
 shortcuts = Tastenkürzel
 clips = Aufzeichnungen
-goal-type-record = Aufnahme
-goal-type-validation = Überprüfung
-toward-goal = Das sind <goalPercentage></goalPercentage> näher am heutigen Common-Voice-Ziel »{ $goalType }« Vielen Dank
-goal-help = Sie haben Common Voice geholfen, <goalPercentage></goalPercentage> des heutigen Ziels »{ $goalType }« zu erreichen!
+goal-help-recording = Sie haben Common Voice geholfen, <goalPercentage></goalPercentage> des heutigen Aufzeichnungsziels »{ $goalValue }« zu erreichen!
+goal-help-validation = Sie haben Common Voice geholfen, <goalPercentage></goalPercentage> des heutigen Bestätigungsziels »{ $goalValue }« zu erreichen!
 contribute-more = Bereit { $count } weitere zu machen?
 record-cta = Aufnehmen
 record-instruction = <recordIcon></recordIcon>{ $actionType } - Lesen Sie den Satz laut vor
@@ -320,9 +347,9 @@ record-again-instruction2 = Weiter so, <recordIcon></recordIcon> erneut aufnehme
 record-last-instruction = <recordIcon></recordIcon> Einmal noch!
 review-tooltip = Hier können Sie Aufzeichnungen überprüfen und erneut aufnehmen
 unable-speak = Ich kann gerade nicht reden
-review-instruction = Falls nötig, können Sie Aufzeichnungen überprüfen und erneut aufnehmen
+review-instruction = Falls nötig, prüfen & neu aufnehmen
 record-submit-tooltip = Senden { $actionType }, wenn Sie fertig sind
-clips-submitted = { $count } Aufzeichnungen übertragen!
+clips-uploaded = Aufzeichnungen hochgeladen
 record-abort-title = Sie sind noch nicht fertig.
 record-abort-text = Wenn Sie jetzt abbrechen, geht Ihr Fortschritt verloren
 record-abort-submit = Aufzeichnungen übertragen
@@ -332,4 +359,6 @@ listen-instruction = <playIcon></playIcon>{ $actionType } - Wurde der Satz korre
 listen-again-instruction = Gut so! <playIcon></playIcon> Machen Sie einfach weiter, wenn Ihnen danach ist
 listen-3rd-time-instruction = Zwei erledigt, <playIcon></playIcon> weiter so!
 listen-last-time-instruction = <playIcon></playIcon> Einmal noch!
-share-title-new = <bold>Helfen Sie uns</bold> dabei mehr Stimmen zu finden
+nothing-to-validate = Es gibt momentan nichts mehr in dieser Sprache, was Sie bestätigen könnten, bitte helfen Sie uns, indem Sie die Warteschlange wieder auffüllen.
+record-button-label = Nehmen Sie Ihre Stimme auf
+share-title-new = <bold>Helfen Sie uns dabei</bold> mehr Stimmen zu finden

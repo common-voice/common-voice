@@ -15,30 +15,48 @@ loading = Lastar…
 
 ## Languages
 
+an = Aragonesisk
+ar = Arabisk
+as = Assamesisk
+ast = Asturiansk
+az = Aserbajdsjansk
 bn = Bengali
 br = Bretonsk
+bxr = Burjatisk
 ca = Katalansk
+cnh = Hakha Chin
 cs = Tsjekkisk
 cv = Tsjuvasjisk
 cy = Walisisk
 da = Dansk
 de = Tysk
+dsb = Nedersorbisk
 el = Gresk
 en = Engelsk
 es = Spansk
 et = Estisk
+fi = Finsk
+fo = Færøysk
 fr = Fransk
 fy-NL = frisisk
 ga-IE = Irsk
 he = Hebraisk
+hsb = Oversorbisk
 hu = Ungarsk
+ia = Interlingua
 id = Indonesisk
+is = Islandsk
 it = Italiensk
+ja = Japansk
 ka = Georgisk
 kab = Kabylsk
+kk = Kasakhisk
 ko = Koreansk
+kpv = Komi (syriansk)
 kw = Kornisk
+ky = Kirgisk
 mk = Makedonsk
+myv = Erziamordvinsk
 nb-NO = Norsk bokmål
 ne-NP = Nepalsk
 nl = Nederlandsk
@@ -48,6 +66,7 @@ pl = Polsk
 pt-BR = Portugisisk (Brazil)
 ro = Rumensk
 ru = Russisk
+sah = Sakha
 sk = Slovakisk
 sl = Slovensk
 sq = Albansk
@@ -61,6 +80,7 @@ tt = Tatarisk
 uk = Ukrainsk
 uz = Usbekisk
 zh-CN = Kinesisk (Kina)
+zh-HK = Kinesisk (Hong Kong)
 zh-TW = Kinesisk (Taiwan)
 
 # [/]
@@ -82,7 +102,10 @@ faq = FAQ
 content-license-text = Innhald tilgjengeleg under ein <licenseLink>Creative Commons-lisens</licenseLink>
 share-title = Hjelp oss med å finne andre som vil donere stemma si!
 share-text = Hjelp til med å lære maskiner korleis folk snakkar, doner stemma di på { $link }
+link-copied = Lenke kopiert
 back-top = Tilbake til toppen av sida
+contribution-banner-button = Ta ein titt
+report-bugs-link = Hjelp oss med å rapportere feil
 
 ## Home Page
 
@@ -94,12 +117,15 @@ wall-of-text-more-desktop = No kan du bidra med stemma di og hjelpe til med å b
 show-wall-of-text = Les meir
 help-us-title = Hjelp oss med å validere setningar!
 help-us-explain = Trykk på Spel av, lytt, og fortel os om den innspelte setninga var korrekt.
+no-clips-to-validate = Det verkar ikkje som om det finst klipp å høyre på for dette språket. Hjelp oss fylle inn køen ved å spele inn nokre no.
 vote-yes = Ja
 vote-no = Nei
 toggle-play-tooltip = Trykk på { shortcut-play-toggle } for å starte eller stoppe innspelinga
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = h
 
 ## Listen Shortcuts
 
@@ -107,9 +133,18 @@ toggle-play-tooltip = Trykk på { shortcut-play-toggle } for å starte eller sto
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
 shortcut-play-toggle-label = Spel av/Stopp
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = j
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = e
 shortcut-record-toggle-label = Spel inn/Stopp
 request-language-text = Ser du ikkje språket ditt på Common Voice enno?
 request-language-button = Send ein førespurnad om eit nytt språk
@@ -157,6 +192,7 @@ profile-create = Opprett ein profil
 profile-create-success = Profil oppretta
 profile-close = Lat att
 profile-clear-modal = Sletting av dine profildata tyder at denne demografiske informasjonen ikkje lenger vil sendast til Common Voice saman med innspelingane dine.
+profile-explanation = Hald auge med framdrifta di med ein profil som òg gjer stemmedataa våre meir korrekte.
 
 ## FAQ
 
@@ -270,7 +306,9 @@ request-language-success-content = Vi kontaktar deg snart med meir informasjon o
 ## Languages Overview
 
 language-section-in-progress = Under arbeid
+language-section-in-progress-description = Pågåande språk vert laga frå bidrag av fellesskapen vår. Framdrifta speglar kvar dei er i omsettinga av netsida og innhenting av setningar.
 language-section-launched = Lansert
+language-section-launched-description = For desse lanserte språka er nettsida fullstendig omsett i tillegg til at dei har nok setningar for pågåande samarbeid gjennom <italic>{ speak }</italic> og <italic>{ listen }</italic>.
 languages-show-more = Vis meir
 languages-show-less = Vis mindre
 language-speakers = Talt av
@@ -278,6 +316,8 @@ language-meter-in-progress = Framdrift
 language-total-progress = Totalt
 language-search-input =
     .placeholder = Søk
+language-speakers = Talt av
+sentences = Setningar
 
 ## New Contribution
 
@@ -288,29 +328,32 @@ listen = Lytt
 skip = Hopp over
 shortcuts = Snarvegar
 clips = Klipp
-goal-type-record = innspeling
-goal-type-validation = validering
 contribute-more =
     { $count ->
         [one] Klar for { $count } til?
        *[other] Klar for { $count } til?
     }
 record-cta = Start innspeling
+record-instruction = { $actionType } <recordIcon></recordIcon> og so les setninga høgt
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> når du er ferdig
 record-three-more-instruction = Tre att!
 record-again-instruction = Bra!<recordIcon></recordIcon> Spel inn det neste klippet ditt
 record-again-instruction2 = Fortset slik og spel inn ein gong til <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Den siste!
-review-tooltip = Ver kan du vurdera og spela inn klipp på nytt
+review-tooltip = Her kan du vurdere og spele inn klipp på nytt
 unable-speak = Kan du ikkje snakke inn no?
 review-instruction = Vurder og spel inn klipp på nytt om det trengst
 record-submit-tooltip = { $actionType } send inn når du er klar
-clips-submitted = { $count } klipp sendt inn
+clips-uploaded = Klipp opplasta
 record-abort-title = Avslutte opptaket først?
+record-abort-text = Forlet du no, mistar du framdrifta di
 record-abort-submit = Send inn klipp
 record-abort-continue = Avslutt innspeling
 record-abort-delete = Avslutt og slett klippa
+listen-instruction = { $actionType } <playIcon></playIcon> var setninga sagt rett?
 listen-again-instruction = Bra jobba!<playIcon></playIcon> Lytt på det ein gong tilnår du er klar for det
 listen-3rd-time-instruction = Ferdig med to <playIcon></playIcon>, fortset slik!
 listen-last-time-instruction = <playIcon></playIcon>Det siste!
+nothing-to-validate = Vi har ikkje noko å validere på dette språket. Hjelp oss med å fylle opp køen.
+record-button-label = Spel inn stemma di
 share-title-new = <bold>Hjelp oss</bold> med å finne fleire stemmer

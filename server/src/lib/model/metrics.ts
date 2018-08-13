@@ -39,7 +39,9 @@ async function fetchUserClientsMetrics() {
   return {
     total,
     listeners: asPercentageString((await db.getListenerCount()) / total),
-    submitters: asPercentageString((await db.getSubmitterCount()) / total),
+    submitters: asPercentageString(
+      (await db.getSpeakerCount(['en']))[0].count / total
+    ),
   };
 }
 
@@ -56,7 +58,7 @@ async function fetchUsersMetrics() {
 
 async function fetchClipsMetrics() {
   const total = await db.getClipCount();
-  const unverified = total - (await db.getValidatedClipsCount());
+  const unverified = total - (await db.getValidClipCount(['en']))[0].count;
 
   return {
     total,
@@ -86,7 +88,7 @@ export default async function fetchMetrics(): Promise<Metrics> {
     user_clients: await fetchUserClientsMetrics(),
     users: await fetchUsersMetrics(),
     sentences: {
-      total: await db.getSentencesCount(),
+      total: await db.getTotalSentencesCount(),
       with_no_clips: await db.getSentencesWithNoClipsCount(),
     },
     clips: await fetchClipsMetrics(),

@@ -15,30 +15,50 @@ loading = Загрузка…
 
 ## Languages
 
+an = Арагонский
+ar = Арабский
+as = Ассамский
+ast = Астурийский
+az = Азербайджанский
 bn = Бенгальский
 br = Бретонский
+bxr = Бурятский
 ca = Каталанский
+cak = Какчикельский
+cnh = Чинский
 cs = Чешский
 cv = Чувашский
 cy = Валлийский
 da = Датский
 de = Немецкий
+dsb = Нижнелужицкий
 el = Греческий
 en = Английский
+eo = Эсперанто
 es = Испанский
 et = Эстонский
+fi = Финский
+fo = Фарерский
 fr = Французский
 fy-NL = Фризский
 ga-IE = Ирландский
 he = Иврит
+hsb = Верхнелужицкий
 hu = Венгерский
+ia = Интерлингва
 id = Индонезийский
+is = Исландский
 it = Итальянский
+ja = Японский
 ka = Грузинский
 kab = Кабильский
+kk = Казахский
 ko = Корейский
+kpv = Коми-зырянский
 kw = Корнский
+ky = Киргизский
 mk = Македонский
+myv = Эрзянский
 nb-NO = Норвежский Букмол
 ne-NP = Непальский
 nl = Голландский
@@ -46,8 +66,10 @@ nn-NO = Норвежский Нюнорск
 or = Ория
 pl = Польский
 pt-BR = Португальский (Бразилия)
+rm = Романшский
 ro = Румынский
 ru = Русский
+sah = Якутский
 sk = Словацкий
 sl = Словенский
 sq = Албанский
@@ -59,8 +81,10 @@ th = Тайский
 tr = Турецкий
 tt = Татарский
 uk = Украинский
+ur = Урду
 uz = Узбекский
 zh-CN = Китайский (Китай)
+zh-HK = Китайский (Гонконг)
 zh-TW = Китайский (Тайвань)
 
 # [/]
@@ -82,7 +106,11 @@ faq = ЧЗВ
 content-license-text = Содержимое доступно под <licenseLink>лицензией Creative Commons</licenseLink>
 share-title = Помогите нам, найдя других желающих записать свой голос!
 share-text = Помогите машинам научиться понимать реальных людей, пожертвуйте свой голос на { $link }
+link-copied = Ссылка скопирована
 back-top = Наверх
+contribution-banner-text = Мы улучшили процесс работы для наших помощников
+contribution-banner-button = Посмотрите
+report-bugs-link = Помогите, сообщив об ошибках
 
 ## Home Page
 
@@ -94,6 +122,7 @@ wall-of-text-more-desktop = Теперь вы можете отправить н
 show-wall-of-text = Подробнее
 help-us-title = Помогите нам, проверяя записанное!
 help-us-explain = Включите запись, послушайте и расскажите нам: хорошо ли озвучена фраза, расположенная ниже?
+no-clips-to-validate = Кажется, нет никаких записей для прослушивания на этом языке. Помогите нам создать новые, сделав несколько своих.
 vote-yes = Да
 vote-no = Нет
 toggle-play-tooltip = Нажмите { shortcut-play-toggle } для переключения режима воспроизведения
@@ -169,6 +198,7 @@ profile-create = Создать профиль
 profile-create-success = Отлично, профиль создан!
 profile-close = Закрыть
 profile-clear-modal = Очистка данных вашего профиля означает, что демографическая информация больше не будет отправляться в Common Voice вместе с вашими записями.
+profile-explanation = Наблюдайте за прогрессом, пользуясь профилем, и помогайте улучшать точность наших голосовых данных.
 
 ## FAQ
 
@@ -212,7 +242,7 @@ data-download-license = Лицензия: <licenseLink>CC-0</licenseLink>
 data-download-modal = Вы собираетесь совершить загрузку <size>{ $size } ГБ</size>, продолжить?
 data-subtitle = Мы создаём открытый и общедоступный набор голосовых данных, чтобы любой человек мог использовать его для обучения программ с распознаванием речи.
 data-explanatory-text = Мы верим, что большой общедоступный набор голосовых данных стимулирует инновации и нормальную коммерческую конкуренцию в машинно-обучаемой технологии распознавания голоса. Это глобальная инициатива, и мы приглашаем всех принять участие. Наша цель - помочь голосовым технологиям быть более всесторонними и распознавать разнообразные голоса со всего мира.
-data-get-started = <speechBlogLink>Начало работы с распознаванием речи</speechBlogLink>
+data-get-started = <speechBlogLink>Начать работу с распознаванием речи</speechBlogLink>
 data-other-title = Другие голосовые наборы данных...
 data-other-goto = Перейти на { $name }
 data-other-download = Загрузить данные
@@ -282,7 +312,9 @@ request-language-success-content = Мы максимально быстро св
 ## Languages Overview
 
 language-section-in-progress = Выполняется
+language-section-in-progress-description = Данные для языков, находящихся в процессе, готовятся для включения нашими сообществами; их прогресс отражает их состояние по локализации сайта и этапам обработки предложений.
 language-section-launched = Запущено
+language-section-launched-description = Для этих запущенных языков был успешно переведен сайт и имеется достаточное число собранных предложений, что позволит помощникам <italic>{ speak }</italic> и <italic>{ listen }</italic>.
 languages-show-more = Больше языков
 languages-show-less = Меньше языков
 language-speakers = Носителей
@@ -290,6 +322,10 @@ language-meter-in-progress = Ход выполнения
 language-total-progress = Всего
 language-search-input =
     .placeholder = Поиск
+language-speakers = Носителей
+localized = Локализовано
+sentences = Предложения
+total-hours = Всего часов
 
 ## New Contribution
 
@@ -300,8 +336,8 @@ listen = Прослушать
 skip = Пропустить
 shortcuts = Сочетания клавиш
 clips = Клипы
-goal-type-record = запись
-goal-type-validation = проверка
+goal-help-recording = Вы помогли Common Voice достичь <goalPercentage></goalPercentage> из нашей ежедневной цели по записи в { $goalValue }!
+goal-help-validation = Вы помогли Common Voice достичь <goalPercentage></goalPercentage> из нашей ежедневной цели по проверке в { $goalValue }!
 contribute-more =
     { $count ->
         [one] Готовы сделать ещё { $count }?
@@ -311,21 +347,24 @@ contribute-more =
 record-cta = Начните запись
 record-instruction = { $actionType } <recordIcon></recordIcon>, затем зачитайте предложение вслух
 record-stop-instruction = { $actionType } <stopIcon></stopIcon>, когда закончите
+record-three-more-instruction = Осталось три!
 record-again-instruction = Отлично! <recordIcon></recordIcon> Запишите свой следующий клип
 record-again-instruction2 = Продолжайте, запишите ещё <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon>Последний!
+review-tooltip = Проверьте и перезапишите клипы здесь
 unable-speak = Не в состоянии говорить прямо сейчас
-clips-submitted =
-    { $count ->
-        [one] { $count } клип отправлен!
-        [few] { $count } клипа отправлено!
-       *[other] { $count } клипов отправлено!
-    }
+review-instruction = Проверьте и перезапишите клипы при необходимости
+record-submit-tooltip = { $actionType } отправьте, когда будет готово
+clips-uploaded = Записей загружено
 record-abort-title = Сначала закончите запись?
+record-abort-text = Уход сейчас означает, что вы потеряете свой прогресс
 record-abort-submit = Отправить клипы
 record-abort-continue = Закончите запись
 record-abort-delete = Выйти и удалить клипы
+listen-instruction = { $actionType }<playIcon></playIcon> точно ли произнесено предложение?
 listen-again-instruction = Отличная работа! <playIcon></playIcon> Прослушайте снова, когда будете готовы
 listen-3rd-time-instruction = Два готовы <playIcon></playIcon> , продолжайте!
 listen-last-time-instruction = <playIcon></playIcon> Последний!
+nothing-to-validate = У нас нет ничего для проверки на этом языке, помогите нам заполнить очередь.
+record-button-label = Запишите свой голос
 share-title-new = <bold>Помогите нам</bold> найти больше голосов

@@ -15,6 +15,11 @@ loading = Á lódáil...
 
 ## Languages
 
+an = Aragóinis
+ar = Araibis
+as = Asaimis
+ast = Astúiris
+az = Asarbaiseáinis
 bn = Beangáilis
 br = Briotáinis
 ca = Catalóinis
@@ -23,22 +28,33 @@ cv = Suvaisis
 cy = Breatnais
 da = Danmhairgis
 de = Gearmáinis
+dsb = Sorbais Íochtarach
 el = Gréigis
 en = Béarla
 es = Spáinnis
 et = Eastóinis
+fi = Fionlainnis
+fo = Faróis
 fr = Fraincis
 fy-NL = Freaslannais
 ga-IE = Gaeilge
 he = Eabhrais
+hsb = Sorbais Uachtarach
 hu = Ungáiris
+ia = Interlingua
 id = Indinéisis
+is = Íoslainnis
 it = Iodáilis
+ja = Seapáinis
 ka = Seoirsis
 kab = Ceabáilis
+kk = Casaicis
 ko = Cóiréis
+kpv = Coimis
 kw = Coirnis
+ky = Cirgisis
 mk = Macadóinis
+myv = Éarsais
 nb-NO = Ioruais Bokmål
 ne-NP = Neipeailis
 nl = Ollainnis
@@ -48,6 +64,7 @@ pl = Polainnis
 pt-BR = Portaingéilis (An Bhrasaíl)
 ro = Rómáinis
 ru = Rúisis
+sah = Sachais
 sk = Slóvaicis
 sl = Slóivéinis
 sq = Albáinis
@@ -59,8 +76,10 @@ th = Téalainnis
 tr = Tuircis
 tt = Tatairis
 uk = Úcráinis
+ur = Urdúis
 uz = Úisbéicis
 zh-CN = Sínis (An tSín)
+zh-HK = Sínis (Hong Cong)
 zh-TW = Sínis (An Téaváin)
 
 # [/]
@@ -294,6 +313,7 @@ language-meter-in-progress = Dul Chun Cinn
 language-total-progress = Iomlán
 language-search-input =
     .placeholder = Cuardaigh
+language-speakers = Cainteoirí
 
 ## New Contribution
 
@@ -304,10 +324,6 @@ listen = Éist
 skip = Ar Aghaidh
 shortcuts = Aicearraí
 clips = Gearrthóga
-goal-type-record = taifeadtaí
-goal-type-validation = deimhnithe
-toward-goal = Sin <goalPercentage></goalPercentage> den sprioc laethúil Common Voice i gcomhair { $goalType }. Go raibh maith agat
-goal-help = Chabhraigh tú le Common Voice <goalPercentage></goalPercentage> dá sprioc laethúil i gcomhair { $goalType } a bhaint amach!
 contribute-more =
     { $count ->
         [one] An bhfuil tú réidh ceann amháin eile a dhéanamh?
@@ -327,14 +343,6 @@ review-tooltip = Athbhreithnigh agus ataifead gearrthóga anseo
 unable-speak = Níl tú in ann labhairt anois?
 review-instruction = Athbhreithnigh agus ataifead más gá
 record-submit-tooltip = { $actionType } Seol nuair a bheidh tú réidh
-clips-submitted =
-    { $count ->
-        [one] Gearrthóg amháin seolta
-        [two] { $count } ghearrthóg seolta
-        [few] { $count } ghearrthóg seolta
-        [many] { $count } ngearrthóg seolta
-       *[other] { $count } gearrthóg seolta
-    }
 record-abort-title = An bhfuil fonn ort na taifeadtaí a chríochnú ar dtús?
 record-abort-text = Má fhágann tú anois, caillfidh tú aon dul chun cinn a rinne tú
 record-abort-submit = Seol gearrthóga

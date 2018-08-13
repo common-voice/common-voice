@@ -7,20 +7,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
 
-.contact-modal .actions > * {
-    flex: 1;
-}
+    & > * {
+        flex: 1;
+    }
 
-.contact-modal .actions button {
-    width: 100%;
-    min-width: unset;
-    max-width: 12rem;
-    font-weight: normal;
-}
+    & button {
+        width: 100%;
+        min-width: unset;
+        max-width: 12rem;
+        font-weight: normal;
+    }
 
-.contact-modal .actions div {
-    font-size: var(--font-size-small);
-    font-style: italic;
+    & div {
+        font-size: var(--font-size-small);
+        font-style: italic;
+    }
 }

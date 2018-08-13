@@ -12,31 +12,31 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
 
-.confirm-modal label {
-    display: block;
-    margin-bottom: 1rem;
-    font-size: larger;
-}
+    & label {
+        display: block;
+        margin-bottom: 1rem;
+        font-size: larger;
+    }
 
-.confirm-modal button {
-    padding: 0.5rem 1rem;
-    margin: 0.5rem;
-    min-width: 10rem;
-}
+    & button {
+        padding: 0.5rem 1rem;
+        margin: 0.5rem;
+        min-width: 10rem;
+    }
 
-.confirm-modal.visible {
-    pointer-events: all;
-    opacity: 1;
-}
+    &.visible {
+        pointer-events: all;
+        opacity: 1;
+    }
 
-.confirm-modal .main-section {
-    display: flex;
-    flex-direction: column;
-    margin: 1rem;
-    padding: 1rem;
-    background: var(--white);
-    width: 100%;
-    max-width: 30rem;
+    & .main-section {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        padding: 1rem;
+        background: var(--white);
+        width: 100%;
+        max-width: 30rem;
+    }
 }

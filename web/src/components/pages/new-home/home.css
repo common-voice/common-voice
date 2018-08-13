@@ -1,0 +1,101 @@
+@import url('../../vars.css');
+
+.new #content {
+    padding: 0;
+
+    & > div {
+        max-width: none;
+    }
+}
+
+.home {
+    background: #f9f9f8;
+
+    & .heroes {
+        margin: 0 auto;
+        max-width: 1440px;
+        display: flex;
+        flex-direction: column;
+
+        @media (--md-up) {
+            flex-direction: row;
+        }
+    }
+
+    & .text {
+        padding-top: 30px;
+
+        @media (--md-up) {
+            padding-top: 95px;
+            padding-bottom: 225px;
+        }
+
+        & .inner {
+            max-width: var(--desktop-width);
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+
+            @media (--md-up) {
+                flex-direction: row;
+            }
+        }
+
+        & .title {
+            @media (--md-up) {
+                width: 50%;
+            }
+
+            & h1 {
+                font-size: 24px;
+                font-weight: normal;
+
+                @media (--sm-down) {
+                    margin-bottom: 20px;
+                }
+
+                @media (--md-up) {
+                    max-width: 475px;
+                    font-size: 36px;
+                }
+            }
+        }
+
+        & .description {
+            @media (--md-up) {
+                width: 50%;
+            }
+
+            & p {
+                max-width: 475px;
+                color: var(--near-black);
+                line-height: 1.5;
+            }
+        }
+
+        & .show-more {
+            border: none;
+            padding: 0;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 0.4px;
+            text-transform: uppercase;
+            color: var(--blue);
+        }
+    }
+
+    & .stats {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background: var(--white);
+
+        @media (--md-up) {
+            flex-direction: column;
+        }
+
+        & > * {
+            transform: translateY(-40%);
+        }
+    }
+}

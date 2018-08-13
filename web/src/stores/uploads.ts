@@ -10,7 +10,7 @@ export namespace Uploads {
 
   interface AddAction {
     type: ActionType.ADD;
-    upload: Upload;
+    uploads: Upload[];
   }
 
   interface RemoveAction {
@@ -21,9 +21,9 @@ export namespace Uploads {
   export type Action = AddAction | RemoveAction;
 
   export const actions = {
-    add: (upload: Upload) => ({
+    add: (uploads: Upload[]) => ({
       type: ActionType.ADD,
-      upload,
+      uploads,
     }),
     remove: (upload: Upload) => ({
       type: ActionType.REMOVE,
@@ -34,7 +34,7 @@ export namespace Uploads {
   export function reducer(state: State = [], action: Action): State {
     switch (action.type) {
       case ActionType.ADD:
-        return [...state, action.upload];
+        return [...state, ...action.uploads];
 
       case ActionType.REMOVE:
         return state.filter(u => u !== action.upload);

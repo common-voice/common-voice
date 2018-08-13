@@ -15,6 +15,8 @@ loading = ஏற்றுகிறது…
 
 ## Languages
 
+as = அஸ்ஸாமி
+az = அஸர்பைஜானி
 bn = வங்காளம்
 br = பிரெடான்
 ca = கேடலான்
@@ -27,6 +29,8 @@ el = கிரேக்கம்
 en = ஆங்கிலம்
 es = ஸ்பானிஷ்
 et = எஸ்டோனியன்
+fi = பின்னிஷ்
+fo = பெரோஸே
 fr = பிரெஞ்சு
 fy-NL = ஃப்ரிஷியன்
 ga-IE = ஐரிஷ்
@@ -34,8 +38,10 @@ he = ஹீப்ரு
 hu = ஹங்கேரியன்
 id = இந்தோனேஷியன்
 it = இத்தாலியன்
+ja = ஜப்பானிய
 ka = ஜார்ஜியன்
 kab = காபைலே
+kk = கஜாக்
 ko = கொரியன்
 kw = கோர்னிஷ்
 mk = மாசிடோனியன்
@@ -300,8 +306,6 @@ listen = கவனி
 skip = தவிர்க்க
 shortcuts = குறுக்குவழிகள்
 clips = துண்டுகள்
-goal-type-record = பதிவிடுகிறது
-goal-type-validation = செல்லுபடியாக்கம்
 record-cta = பதிவிட துவங்கு
 record-instruction = { $actionType } <recordIcon></recordIcon>பின்னர் சொற்றொடரைச் சத்தமாக வாசியுங்கள்
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> சிறப்பான செயல்

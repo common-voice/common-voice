@@ -1,3 +1,4 @@
+import { Localized } from 'fluent-react';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, withRouter } from 'react-router';
@@ -9,6 +10,7 @@ import { Recordings } from '../../stores/recordings';
 import StateTree from '../../stores/tree';
 import { User } from '../../stores/user';
 import { Locale } from '../../stores/locale';
+import URLS from '../../urls';
 import {
   getItunesURL,
   isNativeIOS,
@@ -16,16 +18,21 @@ import {
   isSafari,
   replacePathLocale,
 } from '../../utility';
-import { MenuIcon, RecordIcon, OldPlayIcon } from '../ui/icons';
-import { LabeledSelect } from '../ui/ui';
+import {
+  MenuIcon,
+  RecordIcon,
+  OldPlayIcon,
+  ChevronRight,
+  CrossIcon,
+} from '../ui/icons';
+import { LabeledSelect, LinkButton } from '../ui/ui';
+import { ContributableLocaleLock } from '../locale-helpers';
 import Content from './content';
 import Footer from './footer';
 import LanguageSelect from './language-select';
 import Logo from './logo';
 import Nav from './nav';
 import Robot from './robot';
-
-const KEYBOARD_FOCUS_CLASS_NAME = 'is-keyboard-focus';
 
 const LOW_FPS = 20;
 const DISABLE_ANIMATION_LOW_FPS_THRESHOLD = 3;
@@ -56,8 +63,11 @@ interface LayoutState {
   hasScrolledDown: boolean;
   transitioning: boolean;
   isRecording: boolean;
+  showContributionBanner: boolean;
   showStagingBanner: boolean;
 }
+
+const CONTRIBUTION_BANNER_KEY = 'showContributionBanner';
 
 class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   private header: HTMLElement;
@@ -81,6 +91,9 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     hasScrolledDown: false,
     transitioning: false,
     isRecording: false,
+    showContributionBanner: false,
+    // While showing the survey we're not showing the contribution banner
+    // JSON.parse(localStorage.getItem(CONTRIBUTION_BANNER_KEY)) !== false,
     showStagingBanner: true,
   };
 
@@ -205,20 +218,15 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     this.setState({ isMenuVisible: !this.state.isMenuVisible });
   };
 
-  private showKeyboardFocus = (event: any) => {
-    if (event.key == 'Tab') {
-      document.body.classList.add(KEYBOARD_FOCUS_CLASS_NAME);
-    }
-  };
-
-  private hideKeyboardFocus = () => {
-    document.body.classList.remove(KEYBOARD_FOCUS_CLASS_NAME);
-  };
-
   private selectLocale = async (locale: string) => {
     const { setLocale, history } = this.props;
     setLocale(locale);
     history.push(replacePathLocale(history.location.pathname, locale));
+  };
+
+  private closeContributionBanner = () => {
+    this.setState({ showContributionBanner: false });
+    localStorage.setItem(CONTRIBUTION_BANNER_KEY, JSON.stringify(false));
   };
 
   render() {
@@ -227,6 +235,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
       hasScrolled,
       hasScrolledDown,
       isMenuVisible,
+      showContributionBanner,
       showStagingBanner,
     } = this.state;
 
@@ -237,11 +246,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     }
 
     return (
-      <div
-        id="main"
-        className={className}
-        onKeyDown={this.showKeyboardFocus}
-        onClick={this.hideKeyboardFocus}>
+      <div id="main" className={className}>
         {isIOS() &&
           !isNativeIOS() &&
           !isSafari() && (
@@ -304,6 +309,35 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             </button>
           </div>
         </header>
+        {showContributionBanner && (
+          <ContributableLocaleLock>
+            <div className="contribution-banner">
+              <div className="inner">
+                <Localized id="contribution-banner-text">
+                  <h1 />
+                </Localized>
+                <Localized id="contribution-banner-button">
+                  <LinkButton className="open" rounded to={URLS.SPEAK} />
+                </Localized>
+                <a
+                  className="bugs-link"
+                  href="https://github.com/mozilla/voice-web/issues/new"
+                  target="_blank">
+                  <Localized id="report-bugs-link">
+                    <span />
+                  </Localized>
+                  <ChevronRight />
+                </a>
+                <button
+                  type="button"
+                  className="close"
+                  onClick={this.closeContributionBanner}>
+                  <CrossIcon />
+                </button>
+              </div>
+            </div>
+          </ContributableLocaleLock>
+        )}
         <div
           id="scroller"
           ref={div => {

@@ -13,8 +13,6 @@ const Transcoder = require('stream-transcoder');
 
 const SALT = '8hd3e8sddFSdfj';
 
-const AVG_CLIP_SECONDS = 4.7; // I queried 40 recordings from prod and avg'd them
-
 export const hash = (str: string) =>
   crypto
     .createHmac('sha256', SALT)
@@ -43,15 +41,13 @@ export default class Clip {
 
     router.get('/validated_hours', this.serveValidatedHoursCount);
     router.get('/daily_count', this.serveDailyCount);
-    router.get('/votes/daily_count', this.serveDailyCount);
+    router.get('/stats', this.serveClipsStats);
+    router.get('/voices', this.serveVoicesStats);
+    router.get('/votes/daily_count', this.serveDailyVotesCount);
     router.get('*', this.serveRandomClips);
 
     return router;
   }
-
-  saveSentence = async (sentence: string) => {
-    await this.model.db.insertSentence(hash(sentence), sentence);
-  };
 
   saveClipVote = async (request: Request, response: Response) => {
     const id = request.params.clipId as string;
@@ -176,21 +172,8 @@ export default class Clip {
     response.json(clips);
   };
 
-  private validatedHours: number;
-  private lastValidatedHoursCheck: Date;
   serveValidatedHoursCount = async (request: Request, response: Response) => {
-    const yesterday = new Date();
-    yesterday.setDate(yesterday.getDate() - 1);
-    if (
-      !this.lastValidatedHoursCheck ||
-      this.lastValidatedHoursCheck < yesterday
-    ) {
-      this.validatedHours = Math.round(
-        (await this.model.db.getValidatedClipsCount()) * AVG_CLIP_SECONDS / 3600
-      );
-      this.lastValidatedHoursCheck = new Date();
-    }
-    response.json(this.validatedHours);
+    response.json(await this.model.getValidatedHours());
   };
 
   private serveDailyCount = async (request: Request, response: Response) => {
@@ -202,5 +185,16 @@ export default class Clip {
     response: Response
   ) => {
     response.json(await this.model.db.getDailyVotesCount());
+  };
+
+  private serveClipsStats = async ({ params }: Request, response: Response) => {
+    response.json(await this.model.getClipsStats(params.locale));
+  };
+
+  private serveVoicesStats = async (
+    { params }: Request,
+    response: Response
+  ) => {
+    response.json(await this.model.getVoicesStats(params.locale));
   };
 }

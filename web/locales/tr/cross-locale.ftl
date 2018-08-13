@@ -1,7 +1,7 @@
 ## Languages
 
+contribute = Katkıda bulunun
 get-involved-button = Katkıda bulunun
-get-involved-cancel = Kapat
 get-involved-title = { $lang } katkıda bulunun
 get-involved-text = Common Voice’a { $lang } katkıda bulunma isteğiniz için teşekkür ederiz. Tüm dilleri desteklemek ve ekiplerimizi e-posta yoluyla bilgilendirmek için çalışmalarımızı sürdürüyoruz. Katkıda bulunmak isterseniz e-posta adresinizi bizimle paylaşabilirsiniz.
 get-involved-form-title = { $lang } güncellemelerine kaydolun:

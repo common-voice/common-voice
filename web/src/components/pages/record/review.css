@@ -15,10 +15,10 @@
 #voice-submit-review {
     text-align: start;
     padding-top: 1rem;
-}
 
-#voice-submit-review p {
-    color: var(--near-black);
+    & p {
+        color: var(--near-black);
+    }
 }
 
 #box-headers {
@@ -26,16 +26,16 @@
     font-size: var(--font-size-small);
     padding: 1.5rem 0 0.3rem;
     color: var(--near-black);
-}
 
-#box-headers > span {
-    display: inline-block;
-    width: var(--listen-box-height);
-    text-align: center;
-}
+    & > span {
+        display: inline-block;
+        width: var(--listen-box-height);
+        text-align: center;
 
-#box-headers > span:last-child {
-    margin-left: 0.3rem;
+        &:last-child {
+            margin-left: 0.3rem;
+        }
+    }
 }
 
 @media (--mobile) {
@@ -47,22 +47,22 @@
 #voice-submit .actions {
     display: flex;
     align-items: center;
-}
 
-#voice-submit .actions .text-button {
-    font-size: var(--font-size-small);
-    font-weight: 600;
-    text-decoration: underline;
-    cursor: pointer;
+    & .text-button {
+        font-size: var(--font-size-small);
+        font-weight: 600;
+        text-decoration: underline;
+        cursor: pointer;
+    }
 }
 
 @media (--mobile) {
     #voice-submit .actions {
         flex-direction: column-reverse;
-    }
 
-    #voice-submit .actions .progress-button {
-        margin-bottom: var(--standard-margin);
+        & .progress-button {
+            margin-bottom: var(--standard-margin);
+        }
     }
 }
 
@@ -70,11 +70,11 @@
     #voice-submit .actions {
         flex-direction: row;
         height: 5rem;
-    }
 
-    #voice-submit .actions .progress-button {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
+        & .progress-button {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
     }
 }

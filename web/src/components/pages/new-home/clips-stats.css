@@ -1,0 +1,128 @@
+@import url('../../vars.css');
+
+@keyframes dash {
+    from {
+        stroke-dashoffset: 1000;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.home-card {
+    width: 100%;
+    max-width: 570px;
+    padding: 30px;
+    box-sizing: border-box;
+    background: var(--white);
+    box-shadow: var(--card-shadow);
+
+    & .metrics {
+        margin-bottom: 28px;
+        display: flex;
+        flex-direction: row;
+
+        & > * {
+            margin-left: 15px;
+            border-right: 1px solid var(--grey);
+
+            &:first-child {
+                margin-left: 0;
+            }
+
+            &:last-child {
+                border-right: none;
+            }
+        }
+    }
+
+    & .metric {
+        max-width: 85px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &.total {
+            color: var(--red);
+        }
+        &.valid {
+            color: var(--valid-green);
+        }
+        &.unverified {
+            color: var(--blue);
+        }
+
+        & .label {
+            font-size: 12px;
+            letter-spacing: 0.5px;
+            color: var(--warm-grey);
+        }
+
+        & .value {
+            display: flex;
+            align-items: center;
+            line-height: 1.5;
+            font-weight: 600;
+
+            & .point {
+                margin-right: 6px;
+                font-size: 20px;
+            }
+        }
+    }
+
+    & svg {
+        height: 165px;
+    }
+
+    & .tick-label {
+        font-size: 12px;
+        fill: var(--warm-grey);
+    }
+
+    & path {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: dash 1s linear forwards;
+
+        &.total {
+            stroke: var(--red);
+        }
+        &.valid {
+            stroke: var(--valid-green);
+        }
+        &.unverified {
+            stroke: var(--blue);
+        }
+    }
+
+    & circle {
+        opacity: 0;
+        animation: fade-in var(--transition-duration) linear 1s forwards;
+
+        &.inner {
+            &.total {
+                fill: var(--red);
+            }
+            &.valid {
+                fill: var(--valid-green);
+            }
+            &.unverified {
+                fill: var(--blue);
+            }
+        }
+
+        &.outer {
+            &.total {
+                filter: drop-shadow(0 3px 3px var(--red));
+            }
+            &.valid {
+                filter: drop-shadow(0 3px 3px var(--valid-green));
+            }
+            &.unverified {
+                filter: drop-shadow(0 3px 3px var(--blue));
+            }
+        }
+    }
+
+}

@@ -5,6 +5,13 @@ import { generateGUID } from '../utility';
 import StateTree from './tree';
 
 export const ACCENTS: any = {
+  ca: {
+    balearic: 'balear',
+    central: 'central',
+    northwestern: 'nord-occidental',
+    northern: 'septentrional',
+    valencian: 'valencià',
+  },
   cy: {
     united_kingdom: 'Y Deyrnas Unedig Cymraeg',
   },
@@ -23,6 +30,7 @@ export const ACCENTS: any = {
     czechia: 'Tschechisch Deutsch',
     united_states: 'Amerikanisches Deutsch',
     slovakia: 'Slowakisch Deutsch',
+    russia: 'Russisch Deutsch',
     kazakhstan: 'Kasachisch Deutsch',
     italy: 'Italienisch Deutsch',
     finland: 'Finnisch Deutsch',
@@ -130,6 +138,11 @@ export const ACCENTS: any = {
     south_africa: 'Zuid-Afrikaans Nederlands',
     namibia: 'Namibisch Nederlands',
     indonesia: 'Indonesisch Nederlands',
+  },
+  'ga-IE': {
+    mumhain: 'Gaeilge na Mumhan',
+    connachta: 'Gaeilge Chonnacht',
+    ulaidh: 'Gaeilge Uladh',
   },
 };
 

@@ -10,6 +10,7 @@ import DataPage from '../pages/data/data';
 import FAQPage from '../pages/faq';
 import HomePage from '../pages/home/home';
 import LanguagesPages from '../pages/languages/languages';
+import NewHomePage from '../pages/new-home/home';
 import NotFoundPage from '../pages/not-found';
 import DocumentPage from '../pages/document-page';
 import ProfilePage from '../pages/profile';
@@ -34,6 +35,7 @@ export default localeConnector(
     <div id="content">
       <Switch>
         <Route exact path={toLocaleRoute(URLS.ROOT)} component={HomePage} />
+        <Route exact path={toLocaleRoute('/new')} component={NewHomePage} />
         <Route
           exact
           path={toLocaleRoute(URLS.RECORD)}

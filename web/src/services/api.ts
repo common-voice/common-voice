@@ -1,3 +1,4 @@
+import { LanguageStats } from '../../../common/language-stats';
 import { Locale } from '../stores/locale';
 import { User } from '../stores/user';
 import { Recordings } from '../stores/recordings';
@@ -33,40 +34,27 @@ export default class API {
       { isJSON: true },
       options
     );
-    return new Promise(
-      (resolve: (r: any) => void, reject: (r: XMLHttpRequest) => void) => {
-        const request = new XMLHttpRequest();
-        request.open(method || 'GET', path);
 
-        const finalHeaders = Object.assign(
-          {
-            'Content-type': isJSON
-              ? 'application/json; charset=utf-8'
-              : 'text/plain',
-          },
-          headers
-        );
-
-        if (path.startsWith(location.origin)) {
-          finalHeaders.uid = this.user.userId;
-        }
-
-        for (const header of Object.keys(finalHeaders)) {
-          request.setRequestHeader(header, finalHeaders[header]);
-        }
-
-        request.addEventListener('load', () => {
-          if (request.status === 200) {
-            resolve(
-              isJSON ? JSON.parse(request.response) : request.responseText
-            );
-          } else {
-            reject(request);
+    const finalHeaders = Object.assign(
+      isJSON
+        ? {
+            'Content-Type': 'application/json; charset=utf-8',
           }
-        });
-        request.send(body instanceof Blob ? body : JSON.stringify(body));
-      }
+        : {},
+      headers
     );
+
+    if (path.startsWith(location.origin)) {
+      finalHeaders.uid = this.user.userId;
+    }
+
+    return fetch(path, {
+      method: method || 'GET',
+      headers: finalHeaders,
+      body: body
+        ? body instanceof Blob ? body : JSON.stringify(body)
+        : undefined,
+    }).then(response => (isJSON ? response.json() : response.text()));
   }
 
   getLocalePath() {
@@ -172,32 +160,23 @@ export default class API {
     });
   }
 
-  fetchPontoonLanguages() {
-    return this.fetch('https://pontoon.mozilla.org/graphql', {
-      method: 'POST',
-      body: {
-        query: `{
-          project(slug: "common-voice") {
-            slug
-            localizations {
-              totalStrings
-              approvedStrings
-              locale {
-                code
-                name
-                population
-              }
-            }
-          }
-        }`,
-        variables: null,
-      },
-    });
+  async fetchLanguageStats(): Promise<LanguageStats> {
+    return this.fetch(`${API_PATH}/language_stats`);
   }
 
   fetchDocument(name: 'privacy' | 'terms'): Promise<string> {
     return this.fetch(`/${name}/${this.locale}.html`, {
       isJSON: false,
     });
+  }
+
+  skipSentence(id: string) {
+    return this.fetch(`${API_PATH}/skipped_sentences/` + id, {
+      method: 'POST',
+    });
+  }
+
+  fetchClipsStats(): Promise<{ date: string; total: number; valid: number }[]> {
+    return this.fetch(API_PATH + '/clips/stats');
   }
 }

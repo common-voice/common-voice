@@ -1,10 +1,8 @@
 import * as fs from 'fs';
 import * as http from 'http';
 import * as path from 'path';
-import * as commonmark from 'commonmark';
 import * as express from 'express';
 import { NextFunction, Request, Response } from 'express';
-import * as request from 'request-promise-native';
 import Model from './lib/model';
 import API from './lib/api';
 import Logger from './lib/logger';
@@ -18,18 +16,20 @@ import { importSentences } from './lib/model/db/import-sentences';
 import { getConfig } from './config-helper';
 import authRouter from './auth-router';
 import { router as adminRouter } from './admin';
+import fetchLegalDocument from './fetch-legal-document';
 
 const FULL_CLIENT_PATH = path.join(__dirname, '../web');
 
 const CSP_HEADER = [
   `default-src 'none'`,
-  `style-src 'self' 'unsafe-inline' https://fonts.googleapis.com`,
-  `img-src 'self' www.google-analytics.com`,
+  `style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://optimize.google.com https://fonts.googleapis.com 'unsafe-inline' https://optimize.google.com`,
+  `img-src 'self' www.google-analytics.com www.gstatic.com https://optimize.google.com https://www.gstatic.com`,
   `media-src data: blob: https://*.amazonaws.com https://*.amazon.com`,
   // Note: we allow unsafe-eval locally for certain webpack functionality.
-  `script-src 'self' 'unsafe-eval' 'sha256-it/hVbE0ffRQjkt+hTb6/JM7wKrTSMEK4CHF4s42Zu8=' https://www.google-analytics.com/analytics.js https://pontoon.mozilla.org/pontoon.js`,
+  `script-src 'self' 'unsafe-eval' 'sha256-a3JWJigb4heryKXgeCs/ZhQEaNkHypiyApGw7hQMdTA=' 'sha256-CwRubg9crsF8jHlnzlIggcJhxGbh5OW22+liQqQNE18=' 'sha256-KkfRSrCB8bso9HIC5wm/5cCYUmNSRWNQqyPbvopRCz4=' https://www.google-analytics.com https://pontoon.mozilla.org https://optimize.google.com`,
   `font-src 'self' https://fonts.gstatic.com`,
-  `connect-src 'self' https://pontoon.mozilla.org/graphql`,
+  `connect-src 'self' https://pontoon.mozilla.org/graphql https://*.amazonaws.com https://*.amazon.com https://www.gstatic.com https://www.google-analytics.com`,
+  `frame-src https://optimize.google.com`,
 ].join(';');
 
 export default class Server {
@@ -131,52 +131,17 @@ export default class Server {
     });
   }
 
-  // cache it for a day
-  documentCache: { [name: string]: { [locale: string]: string } } = {};
-  private async fetchDocument(name: string, locale: string) {
-    if (!this.documentCache[name]) this.documentCache[name] = {};
-
-    let textHTML = this.documentCache[name][locale];
-
-    if (!textHTML) {
-      const [status, text] = await request({
-        uri: `https://raw.githubusercontent.com/mozilla/legal-docs/master/Common_Voice_${name}/${locale}.md`,
-        resolveWithFullResponse: true,
-      })
-        .then((response: any) => [response.statusCode, response.body])
-        .catch(response => [response.statusCode, null]);
-      if (status >= 400 && status < 500) {
-        textHTML = (await Promise.all(
-          ['en', 'es-CL', 'fr', 'pt-BR', 'zh-TW'].map(locale =>
-            this.fetchDocument(name, locale)
-          )
-        )).join('<br>');
-      } else if (status < 300) {
-        textHTML = new commonmark.HtmlRenderer().render(
-          new commonmark.Parser().parse(
-            // There's a parseable datetime string in the legal documents, which we don't need to show
-            (text as string).replace(/{:\sdatetime=".*" }/, '')
-          )
-        );
-      }
-    }
-
-    this.documentCache[name][locale] = textHTML;
-
-    return textHTML;
-  }
-
   private setupPrivacyAndTermsRoutes() {
     this.app.get(
       '/privacy/:locale.html',
       async ({ params: { locale } }, response) => {
-        response.send(await this.fetchDocument('Privacy_Notice', locale));
+        response.send(await fetchLegalDocument('Privacy_Notice', locale));
       }
     );
     this.app.get(
       '/terms/:locale.html',
       async ({ params: { locale } }, response) => {
-        response.send(await this.fetchDocument('Terms', locale));
+        response.send(await fetchLegalDocument('Terms', locale));
       }
     );
   }

@@ -24,6 +24,7 @@ export type CommonVoiceConfig = {
     CLIENT_ID: string;
     CLIENT_SECRET: string;
   };
+  BASKET_API_KEY?: string;
 };
 
 const DEFAULTS: CommonVoiceConfig = {

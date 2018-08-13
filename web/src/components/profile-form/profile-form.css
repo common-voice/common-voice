@@ -3,51 +3,55 @@
     border-top: 5px solid black;
     padding: 2rem;
     box-shadow: var(--card-shadow);
-}
 
-#profile-card form {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
+    & form {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
 
-@media (max-width: 449px) {
-    #profile-card .half-width {
+    & hr {
+        margin: 2.3rem 0;
         width: 100%;
     }
 
-    #profile-card .title-and-action {
-        flex-direction: column;
-        text-align: center;
+    & .buttons {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    & button[type=submit] {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 449px) {
+    #profile-card {
+        & .half-width {
+            width: 100%;
+        }
+            
+        & .title-and-action {
+            flex-direction: column;
+            text-align: center;
+        }
     }
 }
 
 @media (min-width: 450px) {
-    #profile-card .half-width {
-        width: 50%;
+    #profile-card {
+        & .half-width {
+            width: 50%;
+
+            &:nth-child(odd) {
+                padding-right: .5rem;
+            }
+
+            &:nth-child(even) {
+                padding-left: .5rem;
+                page-break-after: always;
+            }
+        }
     }
-
-    #profile-card .half-width:nth-child(odd) {
-        padding-right: .5rem;
-    }
-
-    #profile-card .half-width:nth-child(even) {
-        padding-left: .5rem;
-        page-break-after: always;
-    }
-}
-
-#profile-card hr {
-    margin: 2.3rem 0;
-    width: 100%;
-}
-
-#profile-card .buttons {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-#profile-card button[type=submit] {
-    margin-top: 1rem;
 }

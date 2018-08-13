@@ -55,6 +55,7 @@
     "fluent-intl-polyfill": "^0.1.0",
     "fluent-langneg": "^0.1.0",
     "fluent-react": "^0.7.0",
+    "focus-visible": "^4.1.4",
     "glob": "7.1.2 ",
     "html-webpack-plugin": "^3.2.0",
     "iso-639-1": "^2.0.3",
@@ -129,7 +130,7 @@
     "prettier": "yarn lint --fix",
     "start": "node scripts/dev-server.js",
     "start:prod": "node server/js/server.js",
-    "test": "concurrently --kill-others-on-fail \"yarn build && bundlesize -f \"web/dist/*.js\" -s 145kb\" \"jest --forceExit\""
+    "test": "concurrently --kill-others-on-fail \"yarn build && bundlesize -f \"web/dist/*.js\" -s 150kb\" \"jest --forceExit\""
   },
   "pre-commit": [
     "prettier"

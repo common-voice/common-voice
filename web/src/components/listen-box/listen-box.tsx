@@ -96,7 +96,7 @@ class ListenBox extends React.Component<Props, State> {
 
   private onPlayEnded() {
     this.setState({ playing: false, played: true });
-    trackListening('listen', this.props.locale);
+    trackListening('listen-home', this.props.locale);
   }
 
   private onPlay() {
@@ -215,7 +215,7 @@ class ListenBox extends React.Component<Props, State> {
         )}
         {showSpeakButton ? (
           <Localized id="speak-now">
-            <LinkButton className="speak" outline rounded to={URLS.RECORD} />
+            <LinkButton className="speak" outline rounded to={URLS.SPEAK} />
           </Localized>
         ) : vote ? (
           <div className="vote-box">

@@ -15,33 +15,50 @@ loading = Carregando…
 
 ## Languages
 
+an = Aragonês
+ar = Árabe
 as = Assamês
+ast = Asturiano
 az = Azerbaidjano
 bn = Bengalês
 br = Bretão
+bxr = Buriato
 ca = Catalão
+cak = Caqchiquel
+cnh = Hakha Chin
 cs = Tcheco
 cv = Tchuvache
 cy = Galês
 da = Dinamarquês
 de = Alemão
+dsb = Baixo Sorábio
 el = Grego
 en = Inglês
+eo = Esperanto
 es = Espanhol
 et = Estoniano
+fi = Finlandês
+fo = Feroês
 fr = Francês
 fy-NL = Frisão
 ga-IE = Irlandês
 he = Hebraico
+hsb = Alto Sorábio
 hu = Húngaro
+ia = Interlíngua
 id = Indonésio
+is = Islandês
 it = Italiano
+ja = Japonês
 ka = Georgiano
 kab = Kabyle
 kk = Cazaque
 ko = Coreano
+kpv = Komi-Zyrian
 kw = Córnico
+ky = Quirguiz
 mk = Macedônio
+myv = Erzya
 nb-NO = Norueguês (Bokmål)
 ne-NP = Nepalês
 nl = Holandês
@@ -49,8 +66,10 @@ nn-NO = Novo norueguês
 or = Odia
 pl = Polonês
 pt-BR = Português (Brasil)
+rm = Romanche
 ro = Romeno
 ru = Russo
+sah = Sakha
 sk = Eslovaco
 sl = Esloveno
 sq = Albanês
@@ -62,8 +81,10 @@ th = Tailandês
 tr = Turco
 tt = Tártaro
 uk = Ucraniano
+ur = Urdu
 uz = Usbeque
 zh-CN = Chinês (China)
+zh-HK = Chinês (Hong Kong)
 zh-TW = Chinês (Taiwan)
 
 # [/]
@@ -85,7 +106,11 @@ faq = Perguntas frequentes
 content-license-text = Conteúdo disponível sob licença <licenseLink>Creative Commons</licenseLink>
 share-title = Ajude-nos a encontrar outros doadores de voz!
 share-text = Ajude a ensinar às máquinas como uma pessoal fala, doando sua voz em { $link }
+link-copied = Link copiado
 back-top = Voltar para o início
+contribution-banner-text = Lançamos uma nova experiência para contribuição
+contribution-banner-button = Dê uma olhada
+report-bugs-link = Ajude reportando problemas
 
 ## Home Page
 
@@ -296,6 +321,10 @@ language-meter-in-progress = Progresso
 language-total-progress = Total
 language-search-input =
     .placeholder = Pesquisar
+language-speakers = Falantes
+localized = Localizado
+sentences = Frases
+total-hours = Total de horas
 
 ## New Contribution
 
@@ -306,10 +335,8 @@ listen = Ouvir
 skip = Pular
 shortcuts = Atalhos
 clips = Frases
-goal-type-record = gravando
-goal-type-validation = validação
-toward-goal = Essa é a <goalPercentage></goalPercentage> em relação à meta de { $goalType } do Common Voice hoje. Obrigado
-goal-help = Você ajudou o Common Voice a atingir <goalPercentage></goalPercentage> de sua meta diária de { $goalType }!
+goal-help-recording = Você ajudou o Common Voice a atingir <goalPercentage></goalPercentage> da nossa meta diária de { $goalValue } de gravações!
+goal-help-validation = Você ajudou o Common Voice a atingir <goalPercentage></goalPercentage> da nossa meta diária de { $goalValue } de validações!
 contribute-more = Pronto para fazer mais { $count }?
 record-cta = Iniciar gravação
 record-instruction = { $actionType }<recordIcon></recordIcon>e então leia a sentença em voz alta
@@ -322,11 +349,7 @@ review-tooltip = Revise e grave as frases enquanto prossegue
 unable-speak = Incapaz de falar agora
 review-instruction = Enquanto revisa, grave as frases novamente se precisar
 record-submit-tooltip = { $actionType } enviar quando estiver pronto
-clips-submitted =
-    { $count ->
-        [one] { $count } frase enviada!
-       *[other] { $count } frases enviadas!
-    }
+clips-uploaded = Gravações carregadas
 record-abort-title = Terminar a gravação primeiro?
 record-abort-text = Se parar agora vai perder todo o seu progresso
 record-abort-submit = Enviar frases
@@ -336,4 +359,6 @@ listen-instruction = { $actionType } <playIcon></playIcon> as sentenças foram p
 listen-again-instruction = Bom trabalho! <playIcon></playIcon> Ouça novamente quando estiver pronto
 listen-3rd-time-instruction = 2 prontas <playIcon></playIcon> , continue assim!
 listen-last-time-instruction = <playIcon></playIcon> Última!
+nothing-to-validate = Não temos nada para validar neste idioma, ajude-nos a preencher a fila.
+record-button-label = Grave sua voz
 share-title-new = <bold>Ajude-nos</bold> a encontrar mais vozes

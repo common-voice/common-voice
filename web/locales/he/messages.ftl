@@ -8,7 +8,6 @@ email-input =
     .label = דוא״ל
 submit-form-action = שליחה
 loading = בטעינה…
-audio-loading-error = אנו מעבדים את קובצי השמע שלך, נא לנסות שוב בהקדם. עמך הסליחה!
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -16,28 +15,50 @@ audio-loading-error = אנו מעבדים את קובצי השמע שלך, נא 
 
 ## Languages
 
+an = אראגונית
+ar = ערבית
+as = אסאמית
+ast = אסטורית
+az = אזרית
 bn = בנגלית
+br = ברטון
+bxr = בוריאטית
 ca = קטלאנית
+cak = קאקצ׳יקל
+cnh = הק׳הא צ׳ין
 cs = צ׳כית
 cv = צ׳ובשית
 cy = ולשית
 da = דנית
 de = גרמנית
+dsb = סורבית תחתית
 el = יוונית
 en = אנגלית
+eo = אספרנטו
 es = ספרדית
+et = אסטונית
+fi = פינית
+fo = פארואית
 fr = צרפתית
 fy-NL = פריזית
 ga-IE = אירית
 he = עברית
+hsb = סורבית עילית
 hu = הונגרית
+ia = אינטרלינגואה
 id = אינדונזית
+is = איסלנדית
 it = איטלקית
+ja = יפנית
 ka = גאורגית
 kab = קבילית
+kk = קזחית
 ko = קוריאנית
+kpv = קומי־זיר
 kw = קורנית
+ky = קירגיזית
 mk = מקדונית
+myv = ארזיה
 nb-NO = נורווגית ספרותית
 ne-NP = נפאלית
 nl = הולנדית
@@ -45,8 +66,10 @@ nn-NO = נורווגית חדשה
 or = אורייה
 pl = פולנית
 pt-BR = פורטוגלית (ברזיל)
+rm = רומאנש
 ro = רומנית
 ru = רוסית
+sah = סאחה
 sk = סלובקית
 sl = סלובנית
 sq = אלבנית
@@ -58,8 +81,10 @@ th = תאילנדית
 tr = טורקית
 tt = טטארית
 uk = אוקראינית
+ur = אורדו
 uz = אוזבקית
 zh-CN = סינית (סין)
+zh-HK = סינית (הונג קונג)
 zh-TW = סינית (טאיוואן)
 
 # [/]
@@ -68,6 +93,7 @@ zh-TW = סינית (טאיוואן)
 ## Layout
 
 speak = דברו
+speak-now = נא לדבר כעת
 datasets = סדרות נתונים
 languages = שפות
 profile = פרופיל
@@ -80,7 +106,11 @@ faq = תשובות לשאלות נפוצות
 content-license-text = התוכן זמין תחת <licenseLink>רישיון Creative Commons</licenseLink>
 share-title = עזרו לנו למצוא אחרים שיתרמו את קולם!
 share-text = מזמינים אותך לסייע ללמד מכונות איך אנשים אמתיים מדברים, באפשרותך לתרום את קולך דרך { $link }
+link-copied = קישור הועתק
 back-top = חזרה למעלה
+contribution-banner-text = השקנו חוויית תרומה חדשה
+contribution-banner-button = הצצה
+report-bugs-link = סיוע בדיווח על תקלות
 
 ## Home Page
 
@@ -92,21 +122,35 @@ wall-of-text-more-desktop = כעת מוענקת לך האפשרות לסייע �
 show-wall-of-text = מידע נוסף
 help-us-title = עזרו לנו לאמת משפטים!
 help-us-explain = עליך ללחוץ על נגינה ולהאזין: האם המשפט שמופיע להלן הוקרא כראוי?
+no-clips-to-validate = נראה שאין מקטעים להאזין להם בשפה זו. נשמח לקבל סיוע למלא את המחסנית על ידי הקלטת מקטעים כעת.
 vote-yes = כן
 vote-no = לא
 toggle-play-tooltip = יש ללחוץ על { shortcut-play-toggle } כדי להיכנס או לצאת ממצב השמעה
 
-## Shortcuts
+## Speak & Listen Shortcuts
 
-# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
-# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = נ
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = נ
+shortcut-play-toggle-label = ניגון/עצירה
 # Must be one letter that appears in the { vote-yes } string.
-# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = כ
 # Must be one letter that appears in the { vote-no } string.
-# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = ל
+
+## Speak Shortcuts
+
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = ק
+shortcut-record-toggle-label = הקלטה/עצירה
 request-language-text = השפה שלך עדיין לא מופיעה ב־Common Voice?
 request-language-button = בקשת שפה
 
@@ -133,7 +177,6 @@ profile-form-username =
     .label = שם משתמש
 profile-form-language =
     .label = שפה
-profile-form-more-languages = שפות נוספות מגיעות בקרוב!
 profile-form-accent =
     .label = מבטא
 profile-form-age =
@@ -155,6 +198,7 @@ profile-create = יצירת פרופיל
 profile-create-success = הצלחנו, הפרופיל נוצר!
 profile-close = סגירה
 profile-clear-modal = המשמעות שמאחורי מחיקת נתוני הפרופיל שלך היא שהנתונים הדמוגרפיים שלך לא יישלחו ל־Common Voice בצירוף להקלטות שלך.
+profile-explanation = ניתן לעקוב אחר התהליך שעברת בעזרת פרופיל ולסייע לנתוני הקול שלנו להיות מדויקים יותר
 
 ## FAQ
 
@@ -219,6 +263,7 @@ record-platform-not-supported-desktop = במחשבים שולחניים, נית�
 record-platform-not-supported-ios = משתמשי <bold>iOS</bold> יכולים להוריד את היישומון החינמי שלנו:
 record-must-allow-microphone = עליך לאפשר גישה למיקרופון.
 record-retry = ניסיון חוזר
+record-no-mic-found = לא אותר מיקרופון.
 record-error-too-short = ההקלטה הייתה קצרה מדי.
 record-error-too-long = ההקלטה הייתה ארוכה מדי.
 record-error-too-quiet = ההקלטה הייתה שקטה מדי.
@@ -250,7 +295,6 @@ download-no = לא תודה
 ## Contact Modal
 
 contact-title = טופס יצירת קשר
-contact-cancel = ביטול
 contact-form-name =
     .label = שם
 contact-form-message =
@@ -260,42 +304,53 @@ contact-required = *נדרש
 ## Request Language Modal
 
 request-language-title = בקשת שפה
-request-language-cancel = יציאה מהטופס
 request-language-form-language =
     .label = שפה
 request-language-success-title = בקשת השפה הוגשה בהצלחה, תודה רבה.
-request-language-success-content = נהיה בקשר כשיהיו פרטים נוספים כיצד להוסיף השפה שלך ל־Common Voice בקרוב.
+request-language-success-content = נהיה בקשר כשיהיו פרטים נוספים כיצד להוסיף את השפה שלך ל־Common Voice בקרוב.
 
 ## Languages Overview
 
 language-section-in-progress = בתהליך
+language-section-in-progress-description = שפות שנמצאות כעת בתהליך נבנות לצורכי תרומה על ידי הקהילות שלנו, ההתקדמות שלהן משקפת את המצב מבחינת תרגום האתר ושלבי איסוף המשפטים.
 language-section-launched = הושקה
+language-section-launched-description = האתרים של השפות שהושקו תורגמו במלואם ונאספו בעזרתם מספיק משפטים כדי לאפשר תרומה של <italic>{ speak }</italic> ושל <italic>{ listen }</italic>.
 languages-show-more = להציג עוד
 languages-show-less = להציג פחות
+language-speakers = דוברים
+language-meter-in-progress = התקדמות
 language-total-progress = סה״כ
 language-search-input =
     .placeholder = חיפוש
+language-speakers = דוברים
+localized = תורגמו
+sentences = משפטים
+total-hours = שעות שאומתו
 
 ## New Contribution
 
 action-click = לחיצה
 action-tap = נגיעה
+contribute = תרומה
 listen = האזנה
 skip = דילוג
 shortcuts = קיצורים
 clips = מקטעים
-goal-type-record = הקלטה
-goal-type-validation = אימות
-toward-goal = זה <goalPercentage></goalPercentage> לכיוון המטרה היומית { $goalType } של Common Voice. תודה
+goal-help-recording = עזרת ל־Common Voice להגיע ל־<goalPercentage></goalPercentage> מיעד ההקלטות היומי { $goalValue }!
+goal-help-validation = עזרת ל־Common Voice להגיע ל־<goalPercentage></goalPercentage> מיעד האימות היומי { $goalValue }!
 contribute-more = להגיש לך { $count } נוספים?
 record-cta = התחלת ההקלטה
 record-instruction = { $actionType } <recordIcon></recordIcon> ולאחר מכן להקריא את המשפט בקול
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> כשסיימת
 record-three-more-instruction = עוד שלושה!
 record-again-instruction = מושלם! <recordIcon></recordIcon> הקלטת המקטע הבא שלך
+record-again-instruction2 = עבודה יפה, עכשיו להקליט שוב <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> אחרון חביב!
+review-tooltip = ניתן לסקור ולהקליט מקטעים מחדש דרך כאן תוך כדי תנועה
 unable-speak = לא ניתן לדבר כרגע
-clips-submitted = { $count } מקטעים נשלחו!
+review-instruction = ניתן לסקור ולהקליט מקטעים מחדש במקרה הצורך
+record-submit-tooltip = { $actionType } ניתן להגיש כשהמקטע מוכן
+clips-uploaded = מקטעים הועלו
 record-abort-title = לסיים את ההקלטה קודם לכן?
 record-abort-text = יציאה כעת תגרום לאובדן ההתקדמות שצברת
 record-abort-submit = הגשת מקטעים
@@ -305,3 +360,6 @@ listen-instruction = { $actionType } <playIcon></playIcon> האם המשפט ב�
 listen-again-instruction = עבודה טובה! <playIcon></playIcon> נא להאזין שוב בזמנך החופשי
 listen-3rd-time-instruction = עברנו 2 <playIcon></playIcon>, קצב טוב!
 listen-last-time-instruction = <playIcon></playIcon> אחרון חביב!
+nothing-to-validate = אין לנו שום דבר לאמת בשפה הזאת, נשמח לעזרתך למלא את התור.
+record-button-label = הקלטת הקול שלך
+share-title-new = נשמח <bold>לסיוע</bold> למצוא קולות נוספים

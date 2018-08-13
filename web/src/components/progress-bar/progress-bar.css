@@ -3,17 +3,21 @@
     height: 2rem;
     width: 100%;
     background: var(--grey);
-}
 
-.progress-bar .progress {
-    height: 100%;
-    box-sizing: border-box;
-    padding-right: var(--standard-margin);
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    color: var(--white);
-    font-weight: bold;
-    background: var(--green);
-    transition: width var(--transition-duration-slow) var(--easing);
+    & .progress {
+        height: 100%;
+        box-sizing: border-box;
+        padding-right: var(--standard-margin);
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: var(--white);
+        font-weight: bold;
+        background: var(--valid-green);
+        transition: width var(--transition-duration-slow) var(--easing);
+
+        &.blue {
+            background: var(--blue);
+        }
+    }
 }

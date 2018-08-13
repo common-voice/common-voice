@@ -104,7 +104,7 @@ class HomePage extends React.Component<Props, State> {
             render={({ isContributable }: any) => (
               <div className="home-cta-container">
                 {isContributable ? (
-                  <CardAction className="home-cta" to={URLS.RECORD}>
+                  <CardAction className="home-cta" to={URLS.SPEAK}>
                     <div>
                       <RecordIcon />
                     </div>
