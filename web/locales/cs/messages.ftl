@@ -8,7 +8,6 @@ email-input =
     .label = E-mail
 submit-form-action = Odeslat
 loading = Načítání…
-audio-loading-error = Omlouváme se, ale zrovna zpracováváme další nahrávky. Zkuste to později.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -16,7 +15,14 @@ audio-loading-error = Omlouváme se, ale zrovna zpracováváme další nahrávky
 
 ## Languages
 
+an = Aragonština
+ar = Arabština
+as = Azamština
+ast = Asturština
+az = Ázerbájdžánština
 bn = Bengálština
+br = Bretonština
+bxr = Burjatština
 ca = Katalánština
 cs = Čeština
 cv = Čuvaština
@@ -25,16 +31,25 @@ da = Dánština
 de = Němčina
 el = Řečtina
 en = Angličtina
+eo = Esperanto
 es = Španělština
+et = Estonština
+fi = Finština
+fo = Faerština
 fr = Francouzština
 fy-NL = Fríština
 ga-IE = Irština
 he = Hebrejština
+hsb = Hornosrbština
 hu = Maďarština
+ia = Interlingua
 id = Indonéština
+is = Islandština
 it = Italština
+ja = Japonština
 ka = Gruzínština
 kab = Kabylština
+kk = Kazaština
 ko = Korejština
 kw = Kornština
 mk = Makedonština
@@ -60,6 +75,7 @@ tt = Tatarština
 uk = Ukrajinština
 uz = Uzbečtina
 zh-CN = Čínština (Čína)
+zh-HK = Čínština (Hong Kong)
 zh-TW = Čínština (Taiwan)
 
 # [/]
@@ -68,6 +84,7 @@ zh-TW = Čínština (Taiwan)
 ## Layout
 
 speak = Mluvte
+speak-now = Nyní mluvte
 datasets = Datasety
 languages = Jazyky
 profile = Profil
@@ -80,7 +97,9 @@ faq = FAQ
 content-license-text = Obsah je dostupný pod <licenseLink>licencí Creative Commons</licenseLink>
 share-title = Pomozte nám najít další, kteří darují svůj hlas!
 share-text = Pomozte strojům pochopit, jak mluví lidé, darujte svůj hlas na { $link }
+link-copied = Odkaz byl zkopírován
 back-top = Zpět nahoru
+contribution-banner-button = Podívejte se
 
 ## Home Page
 
@@ -92,8 +111,10 @@ wall-of-text-more-desktop = Teď můžete darovat svůj hlas a pomoct nám vytvo
 show-wall-of-text = Přečíst si více
 help-us-title = Pomozte nám ověřovat věty!
 help-us-explain = Stiskněte přehrát, poslouchejte a řekněte nám: přečetli správně větu níže?
+no-clips-to-validate = Vypadá to, že v tomto jazyce nejsou k poslechu žádné nahrávky. Pomozte nám nějakou nahrát.
 vote-yes = Ano
 vote-no = Ne
+toggle-play-tooltip = Stisknutím { shortcut-play-toggle } přepnete do režimu přehrávání.
 
 ## Speak & Listen Shortcuts
 
@@ -103,12 +124,17 @@ vote-no = Ne
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
+shortcut-play-toggle-label = Přehrát/Zastavit
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = Nahrát/Zastavit
 request-language-text = Nevidíte svůj jazyk na Common Voice?
 request-language-button = Požádat o jazyk
 
@@ -135,7 +161,6 @@ profile-form-username =
     .label = Uživatelské jméno
 profile-form-language =
     .label = Jazyk
-profile-form-more-languages = Další jazyky již brzy!
 profile-form-accent =
     .label = Přízvuk
 profile-form-age =
@@ -157,6 +182,7 @@ profile-create = Vytvořit profil
 profile-create-success = Profil byl úspěšně vytvořen!
 profile-close = Zavřít
 profile-clear-modal = Po smazání dat z vašeho profilu už nebudou tyto demografické údaje odesílány do databáze Common Voice společně s vašimi nahrávkami.
+profile-explanation = Sledujte svůj pokrok díky profilu a pomozte zpřesnit naše hlasová data.
 
 ## FAQ
 
@@ -221,6 +247,7 @@ record-platform-not-supported-desktop = Na počítačích si můžete stáhnout 
 record-platform-not-supported-ios = Uživatelé <bold>iOS</bold> si mohou zdarma stáhnout naši aplikaci:
 record-must-allow-microphone = Musíte povolit přístup k mikrofonu.
 record-retry = Opakovat
+record-no-mic-found = Mikrofon nebyl nalezen.
 record-error-too-short = Nahrávka byla příliš krátká.
 record-error-too-long = Nahrávka byla příliš dlouhá.
 record-error-too-quiet = Nahrávka byla příliš tichá.
@@ -274,6 +301,7 @@ languages-show-more = Zobrazit více
 languages-show-less = Zobrazit méně
 language-speakers = Mluvčí
 language-total-progress = Celkem
+language-speakers = Mluvčí
 
 ## New Contribution
 
@@ -283,9 +311,6 @@ listen = Poslouchejte
 skip = Přeskočit
 shortcuts = Zkratky
 clips = Klipy
-goal-type-record = nahrávka
-goal-type-validation = ověření
-toward-goal = To je <goalPercentage></goalPercentage> z dnešního Common Voice cíle { $goalType }. Děkujeme
 contribute-more =
     { $count ->
         [one] Jste připraveni udělat ještě { $count }?
