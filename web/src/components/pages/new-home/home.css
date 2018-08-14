@@ -86,12 +86,17 @@
 
     & .stats {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
+        justify-content: center;
         background: var(--white);
 
         @media (--md-up) {
-            flex-direction: column;
+            flex-direction: row;
+
+            & > :first-child {
+                margin-right: 30px;
+            }
         }
 
         & > * {

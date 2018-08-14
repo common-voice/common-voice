@@ -12,13 +12,12 @@
 .home-card {
     width: 100%;
     max-width: 570px;
-    padding: 30px;
+    padding: 25px 30px;
     box-sizing: border-box;
     background: var(--white);
     box-shadow: var(--card-shadow);
 
     & .metrics {
-        margin-bottom: 28px;
         display: flex;
         flex-direction: row;
 
@@ -53,6 +52,7 @@
         }
 
         & .label {
+            min-height: 32px;
             font-size: 12px;
             letter-spacing: 0.5px;
             color: var(--warm-grey);
@@ -72,6 +72,7 @@
     }
 
     & svg {
+        margin-top: 28px;
         height: 165px;
     }
 
@@ -125,4 +126,26 @@
         }
     }
 
+
+    & h3 {
+        font-size: 20px;
+        line-height: 1.5;
+        font-weight: normal;
+    }
+
+    & .online-voices {
+        font-size: 24px;
+        font-weight: 600;
+        color: var(--valid-green);
+    }
+
+    & rect {
+        &.bg {
+            fill: var(--grey);
+        }
+
+        &.current {
+            fill: var(--valid-green);
+        }
+    }
 }

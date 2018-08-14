@@ -179,4 +179,8 @@ export default class API {
   fetchClipsStats(): Promise<{ date: string; total: number; valid: number }[]> {
     return this.fetch(API_PATH + '/clips/stats');
   }
+
+  fetchClipVoices(): Promise<{ date: string; voices: number }[]> {
+    return this.fetch(API_PATH + '/clips/voices');
+  }
 }
