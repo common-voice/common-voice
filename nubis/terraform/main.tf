@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "${var.region}"
+  region  = "${var.region}"
   version = "~> 1"
 }
 
@@ -72,7 +72,7 @@ module "database" {
   service_name           = "${var.service_name}"
   client_security_groups = "${module.worker.security_group}"
   parameter_group_name   = "${aws_db_parameter_group.slow_query_enabled.id}"
-  instance_class         = "db.t2.small"
+  instance_class         = "${var.environment == "prod" ? "db.t2.medium" : "db.t2.small"}"
 }
 
 module "clips" {
