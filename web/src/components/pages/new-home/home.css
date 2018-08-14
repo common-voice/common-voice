@@ -91,7 +91,7 @@
         justify-content: center;
         background: var(--white);
 
-        @media (--md-up) {
+        @media (--lg-up) {
             flex-direction: row;
 
             & > :first-child {

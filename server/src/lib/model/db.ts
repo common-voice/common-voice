@@ -411,7 +411,7 @@ export default class DB {
   }
 
   async getClipsStats(
-    locale: string
+    locale?: string
   ): Promise<{ date: string; total: number; valid: number }[]> {
     const [[row]] = await this.mysql.query(
       `
@@ -439,7 +439,7 @@ export default class DB {
     ]);
 
     const results = await Promise.all(
-      dayRanges.map(d =>
+      dayRanges.map(async d =>
         this.mysql.query(
           `
             SELECT
@@ -453,11 +453,13 @@ export default class DB {
               FROM clips
               LEFT JOIN votes ON clips.id = votes.clip_id AND votes.created_at BETWEEN ? AND ?
               LEFT JOIN locales ON clips.locale_id = locales.id
-              WHERE clips.created_at BETWEEN ? AND ?
+              WHERE clips.created_at BETWEEN ? AND ? ${
+                locale ? 'AND clips.locale_id = ?' : ''
+              }
               GROUP BY clips.id
             ) AS clips;
           `,
-          [...d, ...d]
+          [...d, ...d, locale ? await this.getLocaleId(locale) : '']
         )
       )
     );
@@ -476,19 +478,24 @@ export default class DB {
   }
 
   async getVoicesStats(
-    locale: string
+    locale?: string
   ): Promise<{ date: string; value: number }[]> {
     const hours = Array.from({ length: 10 }).map((_, i) => i);
 
-    const [rows] = await this.mysql.query(`
-      SELECT date, COUNT(DISTINCT client_id) AS voices
-      FROM (
-        SELECT (TIMESTAMP(DATE_FORMAT(NOW(), '%Y-%m-%d %H:00')) - INTERVAL hour HOUR) AS date
-        FROM (${hours.map(i => `SELECT ${i} AS hour`).join(' UNION ')}) hours
-      ) date_alias
-      LEFT JOIN clips ON created_at BETWEEN date AND (date + INTERVAL 1 HOUR)
-      GROUP BY date
-    `);
+    const [rows] = await this.mysql.query(
+      `
+        SELECT date, COUNT(DISTINCT client_id) AS voices
+        FROM (
+          SELECT (TIMESTAMP(DATE_FORMAT(NOW(), '%Y-%m-%d %H:00')) - INTERVAL hour HOUR) AS date
+          FROM (${hours.map(i => `SELECT ${i} AS hour`).join(' UNION ')}) hours
+        ) date_alias
+        LEFT JOIN clips ON created_at BETWEEN date AND (date + INTERVAL 1 HOUR) ${
+          locale ? 'AND clips.locale_id = ?' : ''
+        }
+        GROUP BY date
+    `,
+      [locale ? await this.getLocaleId(locale) : '']
+    );
 
     return rows;
   }

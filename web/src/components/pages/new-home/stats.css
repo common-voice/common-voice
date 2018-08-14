@@ -17,6 +17,16 @@
     background: var(--white);
     box-shadow: var(--card-shadow);
 
+    & .head {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        @media (--md-up) {
+            flex-direction: row;
+        }
+    }
+
     & .metrics {
         display: flex;
         flex-direction: row;

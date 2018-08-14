@@ -1,11 +1,13 @@
 import { Localized } from 'fluent-react';
 import * as React from 'react';
 import { connect } from 'react-redux';
+const contributableLocales = require('../../../../../locales/contributable.json') as string[];
 import API from '../../../services/api';
 import StateTree from '../../../stores/tree';
 import pointsToBezier from './points-to-bezier';
 
 import './stats.css';
+import { FormEvent } from 'react';
 
 const Y_SCALE = 1.25;
 const Y_OFFSET = 10;
@@ -25,25 +27,27 @@ interface PropsFromState {
   api: API;
 }
 
-type State = { data: any[]; max: number; width: number };
+type State = { data: any[]; locale: string; max: number; width: number };
 
 const mapStateToProps = ({ api }: StateTree) => ({
   api,
 });
+
+const ALL_LOCALES = 'all';
 
 const StatsCard = connect<PropsFromState>(mapStateToProps)(
   class extends React.Component<
     {
       children: (state: State) => React.ReactNode;
       getMax: (data: any[]) => number;
-      fetchData: (api: API) => Promise<any[]>;
+      fetchData: (api: API, locale?: string) => Promise<any[]>;
       renderHeader: (state: State) => React.ReactNode;
       renderXTickLabel: (datum: any) => React.ReactNode;
       tickCount: number;
     } & PropsFromState,
     State
   > {
-    state: State = { data: [], max: 0, width: 0 };
+    state: State = { data: [], locale: ALL_LOCALES, max: 0, width: 0 };
 
     svgRef = React.createRef<SVGSVGElement>();
 
@@ -51,14 +55,23 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
       window.addEventListener('resize', this.updateSize);
       this.updateSize();
 
-      const { api, fetchData, getMax } = this.props;
-      const data = await fetchData(api);
-      this.setState({ data: data, max: Y_SCALE * getMax(data) });
+      await this.updateData();
     }
 
     componentWillUnmount() {
       window.removeEventListener('resize', this.updateSize);
     }
+
+    updateData = async () => {
+      const { api, fetchData, getMax } = this.props;
+      const { locale } = this.state;
+      const data = await fetchData(api, locale === ALL_LOCALES ? null : locale);
+      this.setState({ data: data, max: Y_SCALE * getMax(data) });
+    };
+
+    changeLocale = (event: any) => {
+      this.setState({ data: [], locale: event.target.value }, this.updateData);
+    };
 
     updateSize = () => {
       this.setState({
@@ -74,11 +87,21 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
         tickCount,
       } = this.props;
       const { state } = this;
-      const { data, max, width } = state;
+      const { data, locale, max, width } = state;
 
       return (
         <div className="home-card">
-          {renderHeader(state)}
+          <div className="head">
+            {renderHeader(state)}
+            <select value={locale} onChange={this.changeLocale}>
+              <option value={ALL_LOCALES}>All Languages</option>
+              {contributableLocales.map(locale => (
+                <Localized key={locale} id={locale}>
+                  <option value={locale} />
+                </Localized>
+              ))}
+            </select>
+          </div>
           <svg width="100%" height="100%" ref={this.svgRef}>
             {Array.from({ length: tickCount }).map((_, i) => {
               const y = i * TOTAL_LINE_MARGIN / tickCount + Y_OFFSET;
@@ -198,7 +221,7 @@ export namespace ClipsStats {
 
   export const Root = () => (
     <StatsCard
-      fetchData={api => api.fetchClipsStats()}
+      fetchData={(api, locale) => api.fetchClipsStats(locale)}
       getMax={data =>
         data.reduce((max, d) => Math.max(max, d.total, d.valid), 0)
       }
@@ -277,7 +300,7 @@ export namespace VoiceStats {
               </linearGradient>
             </defs>
             {data.map(({ voices }, i) => {
-              const height = voices * BAR_HEIGHT / max;
+              const height = voices * BAR_HEIGHT / max || 0;
               return (
                 <rect
                   key={i}
