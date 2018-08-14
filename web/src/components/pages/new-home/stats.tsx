@@ -15,6 +15,10 @@ const LINE_OFFSET = TEXT_OFFSET + 5;
 const PLOT_PADDING = 13;
 const PLOT_STROKE_WIDTH = 2;
 
+function formatNumber(n: number) {
+  return n > 1000 ? Math.round(n / 1000) + 'k' : n;
+}
+
 type Attribute = 'total' | 'valid';
 
 interface PropsFromState {
@@ -86,7 +90,9 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
                     y={y}
                     dominantBaseline="middle"
                     textAnchor="end">
-                    {Math.round((tickCount - 1 - i) * max / (tickCount - 1))}
+                    {formatNumber(
+                      Math.round((tickCount - 1 - i) * max / (tickCount - 1))
+                    )}
                   </text>
                   <line
                     x1={LINE_OFFSET}
@@ -134,7 +140,7 @@ export namespace ClipsStats {
       </Localized>
       <div className="value">
         <div className="point">●</div>
-        {data.length > 0 ? data[data.length - 1][attribute] : '?'}
+        {data.length > 0 ? formatNumber(data[data.length - 1][attribute]) : '?'}
       </div>
     </div>
   );
@@ -228,7 +234,9 @@ export namespace VoiceStats {
         <div>
           <h3>Voices Online Now</h3>
           <div className="online-voices">
-            {data.length > 0 ? data[data.length - 1].voices : '?'}
+            {data.length > 0
+              ? data[data.length - 1].voices.toLocaleString()
+              : '?'}
           </div>
         </div>
       )}
