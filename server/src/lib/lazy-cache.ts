@@ -2,23 +2,33 @@ export default function lazyCache<T, S>(
   f: (...args: S[]) => Promise<T>,
   timeMs: number
 ): (...args: S[]) => Promise<T> {
-  let cache: T;
-  let cachedAt: number;
-  let cachePromise: Promise<T>;
+  const caches: {
+    [key: string]: { at?: number; promise?: Promise<T>; value?: T };
+  } = {};
   return async (...args) => {
-    if (cache && Date.now() - cachedAt < timeMs) {
-      return cache;
+    const key = JSON.stringify(args);
+
+    let cached = caches[key];
+    if (cached) {
+      const { at, promise, value } = cached;
+      if (Date.now() - at < timeMs) {
+        return value;
+      }
+
+      if (promise) return value || promise;
+    } else {
+      caches[key] = cached = {};
     }
 
-    if (cachePromise) return cache || cachePromise;
-
-    return (cachePromise = new Promise(async resolve => {
-      const hasOldCache = Boolean(cache);
-      if (hasOldCache) resolve(cache);
-      cache = await f(...args);
-      cachedAt = Date.now();
-      cachePromise = null;
-      if (!hasOldCache) resolve(cache);
+    return (cached.promise = new Promise(async resolve => {
+      const hasOldCache = cached && cached.value;
+      if (hasOldCache) resolve(cached.value);
+      Object.assign(cached, {
+        at: Date.now(),
+        value: await f(...args),
+        promise: null,
+      });
+      if (!hasOldCache) resolve(cached.value);
     }));
   };
 }

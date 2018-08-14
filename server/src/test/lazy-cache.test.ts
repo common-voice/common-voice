@@ -32,4 +32,20 @@ describe('lazyCache', () => {
     expect(await cachedF()).toBe(23);
     expect(await cachedF()).toBe(42);
   });
+
+  test('same parameters hit the same cache', async () => {
+    const f = jest.fn().mockReturnValue(23);
+    const cachedF = lazyCache(f, 1000);
+    await cachedF(234);
+    await cachedF(234);
+    expect(f).toHaveBeenCalledTimes(1);
+  });
+
+  test('different parameters dont hit the same cache', async () => {
+    const f = jest.fn().mockReturnValue(23);
+    const cachedF = lazyCache(f, 1000);
+    await cachedF(234);
+    await cachedF(567);
+    expect(f).toHaveBeenCalledTimes(2);
+  });
 });
