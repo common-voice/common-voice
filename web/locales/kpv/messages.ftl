@@ -69,6 +69,7 @@ th = Таи кыв
 tr = Турок кыв
 tt = Тотара кыв
 uk = Украин кыв
+ur = Урду кыв
 uz = Узбек кыв
 zh-CN = Китай кыв (Китай)
 zh-TW = Китай кыв (Тайвань)
@@ -115,6 +116,10 @@ profile-form-language =
     .label = Кыв
 profile-form-age =
     .label = Арлыд
+profile-form-gender =
+    .label = Пӧв
+male = ай
+female = энь
 # Gender
 other = Мӧд
 
