@@ -223,7 +223,12 @@ export default class Model {
   }, 20 * MINUTE);
 
   getClipsStats = lazyCache(
-    (locale: string) => this.db.getClipsStats(locale),
+    async (locale: string) =>
+      (await this.db.getClipsStats(locale)).map(stat => ({
+        ...stat,
+        total: stat.total * AVG_CLIP_SECONDS,
+        valid: stat.valid * AVG_CLIP_SECONDS,
+      })),
     DAY
   );
 
