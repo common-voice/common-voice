@@ -413,13 +413,16 @@ export default class DB {
   async getClipsStats(
     locale?: string
   ): Promise<{ date: string; total: number; valid: number }[]> {
+    const localeId = locale ? await this.getLocaleId(locale) : null;
     const [[row]] = await this.mysql.query(
       `
         SELECT
           COALESCE(MIN(created_at), NOW()) AS oldest,
           COALESCE(MAX(created_at), NOW()) AS newest
         FROM clips
-      `
+        ${locale ? 'WHERE locale_id = ?' : ''}
+      `,
+      [localeId]
     );
     const oldest = new Date(row.oldest);
     const diff = (new Date(row.newest) as any) - (oldest as any);
@@ -459,7 +462,7 @@ export default class DB {
               GROUP BY clips.id
             ) AS clips;
           `,
-          [...d, ...d, locale ? await this.getLocaleId(locale) : '']
+          [...d, ...d, localeId]
         )
       )
     );
