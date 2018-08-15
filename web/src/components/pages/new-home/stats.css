@@ -25,6 +25,25 @@
         @media (--md-up) {
             flex-direction: row;
         }
+
+        & select {
+            border: 1px solid color(var(--black) alpha(10%));
+            border-radius: 1000px;
+            max-height: 50px;
+            padding: 13px 22px;
+            box-sizing: border-box;
+            appearance: none;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            font-weight: 600;
+            font-size: 14px;
+            background: url('/img/down-arrow.svg') no-repeat 90% center;
+            background-size: 10px;
+
+            &:focus {
+                outline: none;
+            }
+        }
     }
 
     & .metrics {
