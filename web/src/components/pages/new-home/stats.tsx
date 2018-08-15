@@ -35,6 +35,8 @@ const mapStateToProps = ({ api }: StateTree) => ({
 
 const ALL_LOCALES = 'all';
 
+const PLOT_STATE = Object.freeze({ data: [], max: 10000 });
+
 const StatsCard = connect<PropsFromState>(mapStateToProps)(
   class extends React.Component<
     {
@@ -47,7 +49,7 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
     } & PropsFromState,
     State
   > {
-    state: State = { data: [], locale: ALL_LOCALES, max: 0, width: 0 };
+    state: State = { ...PLOT_STATE, locale: ALL_LOCALES, width: 0 };
 
     svgRef = React.createRef<SVGSVGElement>();
 
@@ -70,7 +72,10 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
     };
 
     changeLocale = (event: any) => {
-      this.setState({ data: [], locale: event.target.value }, this.updateData);
+      this.setState(
+        { ...PLOT_STATE, locale: event.target.value },
+        this.updateData
+      );
     };
 
     updateSize = () => {

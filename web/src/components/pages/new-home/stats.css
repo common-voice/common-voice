@@ -32,11 +32,11 @@
         flex-direction: row;
 
         & > * {
-            margin-left: 15px;
+            padding: 0 15px;
             border-right: 1px solid var(--grey);
 
             &:first-child {
-                margin-left: 0;
+                padding-left: 0;
             }
 
             &:last-child {
@@ -47,6 +47,7 @@
 
     & .metric {
         max-width: 85px;
+        box-sizing: border-box;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
