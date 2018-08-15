@@ -40,6 +40,10 @@
             background: url('/img/down-arrow.svg') no-repeat 90% center;
             background-size: 10px;
 
+            @media (--md-down) {
+                margin-top: 15px;
+            }
+
             &:focus {
                 outline: none;
             }

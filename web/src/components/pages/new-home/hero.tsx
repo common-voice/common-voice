@@ -147,7 +147,7 @@ class Hero extends React.Component<
         </div>
         <div {...this.getToggleableProps(3, 'progress column')}>
           <Localized id="todays-progress">
-            <h3>Today's Progress</h3>
+            <h3 className="progress-title">Today's Progress</h3>
           </Localized>
           <span className="progress-count">
             <span className="current">{count === null ? '?' : count}</span>

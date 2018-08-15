@@ -3,7 +3,6 @@
 .hero-box {
     position: relative;
     width: 100%;
-    min-height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,7 +13,13 @@
 
     transition: width var(--transition-duration-slow) var(--easing);
 
+    @media (--sm-down) {
+        padding: 40px 0 90px;
+        background-size: 100%;
+    }
+
     @media (--md-up) {
+        min-height: 500px;
         padding-top: 110px;
         width: 50%;
         box-sizing: border-box;
@@ -64,17 +69,32 @@
     & h3 {
         font-size: 20px;
         font-weight: normal;
+
+        & .progress-title {
+            @media (--sm-down) {
+                font-size: 12px;
+                letter-spacing: 0.5px;
+            }
+        }
     }
 
     & p {
-        max-width: 280px;
         font-size: 14px;
         color: var(--warm-grey);
+
+        @media (--sm-down) {
+            margin: 0 auto;
+            max-width: 268px;
+        }
+
+        @media (--md-up) {
+            max-width: 280px;
+        }
     }
 
     & .description {
         @media (--sm-down) {
-            margin: 20px 0;
+            margin: 20px auto;
         }
 
         @media (--md-up) {

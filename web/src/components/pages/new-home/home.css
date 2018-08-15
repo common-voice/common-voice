@@ -86,10 +86,18 @@
 
     & .stats {
         display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
         background: var(--white);
+
+        @media (--md-down) {
+            flex-direction: column;
+            margin-top: 15px;
+
+            & > :first-child {
+                margin-bottom: 10px;
+            }
+        }
 
         @media (--lg-up) {
             flex-direction: row;
@@ -97,10 +105,10 @@
             & > :first-child {
                 margin-right: 30px;
             }
-        }
 
-        & > * {
-            transform: translateY(-40%);
+            & > * {
+                transform: translateY(-40%);
+            }
         }
     }
 }
