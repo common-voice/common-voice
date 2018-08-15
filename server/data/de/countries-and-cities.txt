@@ -200,7 +200,7 @@ Washington, D.C. ist die Hauptstadt der Vereinigten Staaten von Amerika.
 Hanoi ist die Hauptstadt von Vietnam.
 Minsk ist die Hauptstadt von Weißrussland.
 Bangui ist die Hauptstadt der Zentralafrikanischen Republik.
-Nikosia ist die Hauptstadt von Republik Zypern.
+Nikosia ist die Hauptstadt der Republik Zypern.
 Pristina ist die Hauptstadt vom Kosovo.
 Ramallah ist die Hauptstadt von Palästina.
 Hargeysa ist die Hauptstadt von Somaliland.
@@ -262,7 +262,7 @@ Der Nil gilt traditionell als der längste Fluss der Welt.
 Die Donau durchfließt zehn Länder.
 Die Wolga ist der längste Fluss Europas.
 Der Rhein ist eine der verkehrsreichsten Wasserstraßen der Welt.
-Der Amazonas ist der Wasserreichste Fluss der Erde.
+Der Amazonas ist der wasserreichste Fluss der Erde.
 Australien ist keine Insel sondern ein Kontinent.
 Die Sahara ist die größte Wüste der Welt.
 Antarktika ist der südlichste Kontinent der Erde.
