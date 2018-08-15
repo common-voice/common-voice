@@ -5,6 +5,10 @@
 
     & > div {
         max-width: none;
+
+        @media (--lg-down) {
+            padding: 0;
+        }
     }
 }
 
@@ -23,7 +27,11 @@
     }
 
     & .text {
-        padding-top: 30px;
+        @media (--sm-down) {
+            padding-top: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
 
         @media (--md-up) {
             padding-top: 95px;
