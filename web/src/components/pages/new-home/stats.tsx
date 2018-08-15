@@ -256,7 +256,7 @@ export namespace VoiceStats {
 
   export const Root = () => (
     <StatsCard
-      fetchData={api => api.fetchClipVoices()}
+      fetchData={(api, locale) => api.fetchClipVoices(locale)}
       getMax={data => data.reduce((max, d) => Math.max(max, d.voices), 0)}
       renderHeader={({ data }) => (
         <div>
