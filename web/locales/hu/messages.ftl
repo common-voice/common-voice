@@ -114,11 +114,11 @@ report-bugs-link = Segítsen a hibák jelentésében
 
 ## Home Page
 
-home-title = A Common Voice projekt egy Mozilla kezdeményezés arra, hogy segítsük a gépeket megtanítani, hogyan beszélnek az emberek. 
+home-title = A Common Voice projekt egy Mozilla kezdeményezés arra, hogy segítsük a gépeket megtanítani, hogyan beszélnek az emberek.
 home-cta = Szólaljon meg, működjön közre.
 wall-of-text-start = A beszéd természetes, a beszéd emberi. Ezért lelkesedünk egy gépeink számára használható beszédtechnológia létrehozásáért. Azonban ehhez hatalmas mennyiségű beszédmintára van szükség.
 wall-of-text-more-mobile = A nagyvállalatok által használt hangminták a legtöbb ember számára nem érhetőek el. Szerintünk ez elfojtja az innovációt. Ezért létrehoztuk a Common Voice projektet, hogy segítsük a hangfelismerési technológiát mindenki számára hozzáférhetővé tenni.
-wall-of-text-more-desktop = Most adhatja a hangját, hogy segítsen nekünk egy nyílt forrású hang adatbázist építeni, amit bárki szabadon használhat arra, hogy innovatív alkalmazásokat készítsen eszközökre és a webre.<lineBreak></lineBreak>Olvasson fel egy mondatot, hogy segítse a gépeket megtanulni, hogyan beszélnek az emberek. Ellenőrizze mások hozzájárulásait, javítva a minőséget. Ilyen egyszerű! 
+wall-of-text-more-desktop = Most adhatja a hangját, hogy segítsen nekünk egy nyílt forrású hang adatbázist építeni, amit bárki szabadon használhat arra, hogy innovatív alkalmazásokat készítsen eszközökre és a webre.<lineBreak></lineBreak>Olvasson fel egy mondatot, hogy segítse a gépeket megtanulni, hogyan beszélnek az emberek. Ellenőrizze mások hozzájárulásait, javítva a minőséget. Ilyen egyszerű!
 show-wall-of-text = Bővebben
 help-us-title = Segítsen jóváhagyni a mondatokat.
 help-us-explain = Nyomja meg a lejátszás gombot, hallgassa meg a mondatot és mondja el: helyesen hangzik el az alábbi mondat?
@@ -151,7 +151,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Rözgzítés/leállítás
-request-language-text = Nem látja az anyanyelvét a Common Voice-on? 
+request-language-text = Nem látja az anyanyelvét a Common Voice-on?
 request-language-button = Nyelv kérése
 
 ## ProjectStatus
@@ -203,9 +203,9 @@ profile-explanation = Kövesse az előrehaladását egy profillal, és segítsen
 
 faq-title = Gyakran Ismételt Kérdések
 faq-what-q = Mi az a Common Voice?
-faq-what-a = A beszédfelismerési technológia forradalmasíthatja azt, ahogyan a gépekkel kommunikálunk, de a jelenleg elérhető rendszerek drágák és zártak. A Common Voice projekt célja, hogy a hangfelismerő technológia mindenki számára könnyen hozzáférhető legyen. Emberek a hangjukat adják egy hatalmas adatbázishoz, ami bárki számára lehetővé fogja tenni, hogy könnyen és gyorsan betaníthassa beszéd-kompatibilis alkalmazását. Minden hangadat szabadon elérhető lesz a fejlesztők számára. 
+faq-what-a = A beszédfelismerési technológia forradalmasíthatja azt, ahogyan a gépekkel kommunikálunk, de a jelenleg elérhető rendszerek drágák és zártak. A Common Voice projekt célja, hogy a hangfelismerő technológia mindenki számára könnyen hozzáférhető legyen. Emberek a hangjukat adják egy hatalmas adatbázishoz, ami bárki számára lehetővé fogja tenni, hogy könnyen és gyorsan betaníthassa beszéd-kompatibilis alkalmazását. Minden hangadat szabadon elérhető lesz a fejlesztők számára.
 faq-important-q = Miért fontos ez?
-faq-important-a = A beszéd természetes, a beszéd emberi. Ez a legkönnyebb és legtermészetesebb módja a kommunikációnak. Azt szeretnénk, ha a fejlesztők elképesztő dolgokat készíthetnének a valósidejű fordítóktól kezdve a beszéd-kompatibilis adminisztrációs asszisztensekig. Azonban jelenleg nincs elég szabadon hozzáférhető adat ezeknek az alkalmazásoknak elkészítéséhez. Azt reméljük, hogy Common Voice megadja majd a fejlesztőknek, amire szűkségük van az innovációhoz.  
+faq-important-a = A beszéd természetes, a beszéd emberi. Ez a legkönnyebb és legtermészetesebb módja a kommunikációnak. Azt szeretnénk, ha a fejlesztők elképesztő dolgokat készíthetnének a valósidejű fordítóktól kezdve a beszéd-kompatibilis adminisztrációs asszisztensekig. Azonban jelenleg nincs elég szabadon hozzáférhető adat ezeknek az alkalmazásoknak elkészítéséhez. Azt reméljük, hogy Common Voice megadja majd a fejlesztőknek, amire szűkségük van az innovációhoz.
 faq-get-q = Hogyan férhetek hozzá a Common Voice adatokhoz?
 faq-get-a = Az adatkészlet <licenseLink>CC-0</licenseLink> licenc alatt érhető el a <downloadLink>letöltési oldalunkról</downloadLink>.
 faq-mission-q = Miért része a Common Voice a Mozilla küldetésének?
@@ -240,7 +240,7 @@ data-download-deny = Nem
 data-download-license = Licenc: <licenseLink>CC-0</licenseLink>
 data-download-modal = <size>{ $size } GB</size> adat letöltését kezdeményezi, folytatja?
 data-subtitle = Egy nyílt és nyilvánosan hozzáférhető hangadatkészletet építünk, amit bárki szabadon használhat arra, hogy betanítsa beszéd-kompatibilis alkalmazását.
-data-explanatory-text = Hiszünk abban, hogy egy nagy és nyilvánosan elérhető hangadatkészlet elősegíti az innovációt és az egészséges szabad versenyt a gépi-tanuláson alapuló technológiák területén. Ez egy globális erőfeszítés, mindenkit bátorítunk a részvételre. Célunk, hogy segítsük a beszédtechnológia minél teljeskörűbb legyen, ami tükrözi a hangok változatosságát a világ minden tájáról. 
+data-explanatory-text = Hiszünk abban, hogy egy nagy és nyilvánosan elérhető hangadatkészlet elősegíti az innovációt és az egészséges szabad versenyt a gépi-tanuláson alapuló technológiák területén. Ez egy globális erőfeszítés, mindenkit bátorítunk a részvételre. Célunk, hogy segítsük a beszédtechnológia minél teljeskörűbb legyen, ami tükrözi a hangok változatosságát a világ minden tájáról.
 data-get-started = <speechBlogLink>Vágjon bele a Beszédfelismerésbe</speechBlogLink>
 data-other-title = További hangadatkészletek…
 data-other-goto = Ugrás ide: { $name }
@@ -266,7 +266,7 @@ record-no-mic-found = Nem található mikrofon.
 record-error-too-short = A felvétel túl rövid volt.
 record-error-too-long = A felvétel túl hosszú volt.
 record-error-too-quiet = A felvétel túl halk volt.
-record-submit-success = Sikeres beküldés. Akar még egyet rögzíteni? 
+record-submit-success = Sikeres beküldés. Akar még egyet rögzíteni?
 record-help = Kattintson az felvétel gombra majd olvassa fel hangosan az alábbi mondatot.
 record-cancel = Újrarögzítés megszakítása
 review-terms = A Common Voice használatával elfogadja a <termsLink>Jogi feltételeket</termsLink> és az <privacyLink>Adatvédelmi nyilatkozatot</privacyLink>
@@ -335,6 +335,7 @@ listen = Figyeljen
 skip = Kihagyás
 shortcuts = Gyorsbillentyűk
 clips = Klipek
+clips-with-count = <bold>{ $count }</bold> kllip
 goal-help-recording = Segítettél a Common Voice-nak elérni a napi rögzítési céljának ({ $goalValue }) <goalPercentage></goalPercentage>-át!
 goal-help-validation = Segítettél a Common Voice-nak elérni a napi ellenőrzési céljának ({ $goalValue }) <goalPercentage></goalPercentage>-át!
 contribute-more = Készen áll még { $count } felvételre?
