@@ -3,7 +3,6 @@
 .hero-box {
     position: relative;
     width: 100%;
-    min-height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,11 +13,21 @@
 
     transition: width var(--transition-duration-slow) var(--easing);
 
+    @media (--sm-down) {
+        padding: 40px 0 90px;
+        background-size: 100%;
+    }
+
     @media (--md-up) {
-        padding-top: 110px;
-        width: 50%;
+        padding: 110px 100px 0;
+        width: 100%;
+        min-height: 500px;
         box-sizing: border-box;
         flex-direction: row;
+    }
+
+    @media (--lg-up) {
+        width: 50%;
     }
 
     &.listen {
@@ -43,7 +52,6 @@
             &.cta {
                 margin-top: 20px;
                 order: 2;
-                flex-direction: column-reverse;
             }
 
             &.progress {
@@ -64,17 +72,34 @@
     & h3 {
         font-size: 20px;
         font-weight: normal;
+
+        &.progress-title {
+            white-space: nowrap;
+
+            @media (--sm-down) {
+                font-size: 12px;
+                letter-spacing: 0.5px;
+            }
+        }
     }
 
     & p {
-        max-width: 280px;
         font-size: 14px;
         color: var(--warm-grey);
+
+        @media (--sm-down) {
+            margin: 0 auto;
+            max-width: 268px;
+        }
+
+        @media (--md-up) {
+            max-width: 280px;
+        }
     }
 
     & .description {
         @media (--sm-down) {
-            margin: 20px 0;
+            margin: 20px auto;
         }
 
         @media (--md-up) {
@@ -162,8 +187,8 @@
     & .toggleable {
         transform: translateY(50px);
         opacity: 0;
-        transition: width var(--transition-duration-slow) linear var(--transition-duration-slow),
-                    height var(--transition-duration-slow) linear var(--transition-duration-slow),
+        transition: width var(--transition-duration-slow) linear,
+                    height var(--transition-duration-slow) linear,
                     opacity var(--transition-duration),
                     transform var(--transition-duration-slow) var(--easing);
     }
@@ -207,7 +232,14 @@
         position: absolute;
         top: 0;
         bottom: 0;
-        width: 150px;
+
+        @media (--sm-down) {
+            width: 50px;
+        }
+
+        @media (--md-up) {
+            width: 150px;
+        }
 
         &.left {
             background: linear-gradient(to left, transparent, #f9f9f9);
@@ -220,7 +252,7 @@
         }
     }
 
-    @media (--md-up) {
+    @media (--lg-up) {
         &.active {
             width: 60%;
         }

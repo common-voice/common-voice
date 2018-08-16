@@ -63,6 +63,9 @@ export const ACCENTS: any = {
     wales: 'Welsh English',
     bermuda: 'West Indies and Bermuda (Bahamas, Bermuda, Jamaica, Trinidad)',
   },
+  eo: {
+    internacia: 'Internacia',
+  },
   fr: {
     france: 'Français de France',
     madagascar: 'Français de Madagascar',
@@ -125,6 +128,19 @@ export const ACCENTS: any = {
     andorra: 'Français d’Andorre',
     st_pierre_et_miquelon: 'Français de Saint-Pierre-et-Miquelon',
     rwanda: 'Français du Rwanda',
+  },
+  nl: {
+    netherlands: 'Nederlands Nederlands',
+    belgium: 'Belgisch Nederlands',
+    suriname: 'Surinaams Nederlands',
+    france: 'Frans Nederlands',
+    germany: 'Duits Nederlands',
+    curacao: 'Nederlands van Curaçao',
+    aruba: 'Nederlands van Aruba',
+    sint_maarten: 'Nederlands van Sint-Maarten',
+    south_africa: 'Zuid-Afrikaans Nederlands',
+    namibia: 'Namibisch Nederlands',
+    indonesia: 'Indonesisch Nederlands',
   },
   'ga-IE': {
     mumhain: 'Gaeilge na Mumhan',

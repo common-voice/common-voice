@@ -326,7 +326,7 @@ language-search-input =
 language-speakers = Locuteurs
 localized = Traduction
 sentences = Phrases
-total-hours = Nombre total d’heures
+total-hours = Total d’heures
 
 ## New Contribution
 

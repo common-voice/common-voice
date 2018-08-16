@@ -118,7 +118,6 @@ class Hero extends React.Component<
             <Localized id={type + '-subtitle-line-1'}>
               <span>{s['subtitle-line-1']}</span>
             </Localized>
-            <br className="md-block" />
             <span> </span>
             <Localized id={type + '-subtitle-line-2'}>
               <span>{s['subtitle-line-2']}</span>
@@ -131,23 +130,23 @@ class Hero extends React.Component<
           </div>
         </div>
         <div className="column cta">
-          <div {...this.getToggleableProps(1)}>
+          {isSpeak ? (
+            <RecordButton status={null} />
+          ) : (
+            <PlayButton isPlaying={false} />
+          )}
+          <div {...this.getToggleableProps(1, 'line ' + type)} />
+          <div {...this.getToggleableProps(2)}>
             <Localized id="help-reach-goal" $goal={DAILY_GOAL[type]}>
               <div className="cta-message">
                 Help us get to {DAILY_GOAL[type]}
               </div>
             </Localized>
           </div>
-          <div {...this.getToggleableProps(2, 'line ' + type)} />
-          {isSpeak ? (
-            <RecordButton status={null} />
-          ) : (
-            <PlayButton isPlaying={false} />
-          )}
         </div>
         <div {...this.getToggleableProps(3, 'progress column')}>
           <Localized id="todays-progress">
-            <h3>Today's Progress</h3>
+            <h3 className="progress-title">Today's Progress</h3>
           </Localized>
           <span className="progress-count">
             <span className="current">{count === null ? '?' : count}</span>

@@ -9,11 +9,16 @@ submit-form-action = Ысты
 
 ## Languages
 
+an = Арагон кыв
+ar = Араб кыв
 as = Ассам кыв
+ast = Астур кыв
 az = Азербайджан кыв
 bn = Бенгал кыв
 br = Брезон кыв
+bxr = Бурят кыв
 ca = Каталан кыв
+cak = Какчикель кыв
 cs = Чех кыв
 cv = Чуваш кыв
 cy = Кӧмри кыв
@@ -21,6 +26,7 @@ da = Дан кыв
 de = Немеч кыв
 el = Грек кыв
 en = Англи кыв
+eo = эсперанто кыв
 es = Испан кыв
 et = Эст кыв
 fi = Суоми кыв
@@ -63,6 +69,7 @@ th = Таи кыв
 tr = Турок кыв
 tt = Тотара кыв
 uk = Украин кыв
+ur = Урду кыв
 uz = Узбек кыв
 zh-CN = Китай кыв (Китай)
 zh-TW = Китай кыв (Тайвань)
@@ -103,10 +110,16 @@ request-language-text = Он на аддзыв ас кывтӧ Common Voice вы
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Ним
 profile-form-language =
     .label = Кыв
 profile-form-age =
     .label = Арлыд
+profile-form-gender =
+    .label = Пӧв
+male = ай
+female = энь
 # Gender
 other = Мӧд
 
@@ -137,6 +150,8 @@ record-error-too-long = Гижӧд вывті кузь.
 
 contact-form-name =
     .label = Ним
+contact-form-message =
+    .label = Гижӧд
 contact-required = *колӧ
 
 ## Request Language Modal
@@ -152,6 +167,8 @@ language-speakers = Сёрнитысьяс
 language-total-progress = Ставнас
 language-search-input =
     .placeholder = Корсьны
+language-speakers = Сёрнитысьяс
+sentences = Сёрникузяяс
 
 ## New Contribution
 

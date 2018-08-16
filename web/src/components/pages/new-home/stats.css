@@ -12,22 +12,57 @@
 .home-card {
     width: 100%;
     max-width: 570px;
-    padding: 30px;
+    padding: 25px 30px;
     box-sizing: border-box;
     background: var(--white);
     box-shadow: var(--card-shadow);
 
+    & .head {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        @media (--md-up) {
+            flex-direction: row;
+        }
+
+        & select {
+            border: 1px solid color(var(--black) alpha(10%));
+            border-radius: 1000px;
+            max-height: 50px;
+            padding: 13px 22px;
+            box-sizing: border-box;
+            appearance: none;
+
+            font-family: var(--base-font-family);
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            font-weight: 600;
+            font-size: 14px;
+
+            background: url('/img/down-arrow.svg') no-repeat 90% center;
+            background-size: 10px;
+
+            @media (--md-down) {
+                margin-top: 15px;
+            }
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
     & .metrics {
-        margin-bottom: 28px;
         display: flex;
         flex-direction: row;
 
         & > * {
-            margin-left: 15px;
+            padding: 0 15px;
             border-right: 1px solid var(--grey);
 
             &:first-child {
-                margin-left: 0;
+                padding-left: 0;
             }
 
             &:last-child {
@@ -38,6 +73,7 @@
 
     & .metric {
         max-width: 85px;
+        box-sizing: border-box;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -53,6 +89,7 @@
         }
 
         & .label {
+            min-height: 32px;
             font-size: 12px;
             letter-spacing: 0.5px;
             color: var(--warm-grey);
@@ -72,6 +109,7 @@
     }
 
     & svg {
+        margin-top: 28px;
         height: 165px;
     }
 
@@ -98,7 +136,7 @@
 
     & circle {
         opacity: 0;
-        animation: fade-in var(--transition-duration) linear 1s forwards;
+        animation: fade-in var(--transition-duration) linear .5s forwards;
 
         &.inner {
             &.total {
@@ -125,4 +163,26 @@
         }
     }
 
+
+    & h3 {
+        font-size: 20px;
+        line-height: 1.5;
+        font-weight: normal;
+    }
+
+    & .online-voices {
+        font-size: 24px;
+        font-weight: 600;
+        color: var(--valid-green);
+    }
+
+    & rect {
+        &.bg {
+            fill: var(--grey);
+        }
+
+        &.current {
+            fill: var(--valid-green);
+        }
+    }
 }

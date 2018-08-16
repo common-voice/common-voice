@@ -63,7 +63,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
       (l1, l2) => (l1.localizedPercentage < l2.localizedPercentage ? 1 : -1)
     );
     launched.sort(
-      (l1, l2) => (l1.locale.code === 'en' || l1.hours < l2.hours ? 1 : -1)
+      (l1, l2) => (l1.locale.code === 'en' || l1.seconds < l2.seconds ? 1 : -1)
     );
 
     this.setState({

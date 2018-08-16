@@ -216,14 +216,19 @@ export default class Model {
           code: locale,
           name: allLocales[locale],
         },
-        hours: clipCountToHours(validClipsCounts[locale] || 0),
+        seconds: Math.floor((validClipsCounts[locale] || 0) * AVG_CLIP_SECONDS),
         speakers: speakerCounts[locale] || 0,
       })),
     };
   }, 20 * MINUTE);
 
   getClipsStats = lazyCache(
-    (locale: string) => this.db.getClipsStats(locale),
+    async (locale: string) =>
+      (await this.db.getClipsStats(locale)).map(stat => ({
+        ...stat,
+        total: Math.round(stat.total * AVG_CLIP_SECONDS),
+        valid: Math.round(stat.valid * AVG_CLIP_SECONDS),
+      })),
     DAY
   );
 
