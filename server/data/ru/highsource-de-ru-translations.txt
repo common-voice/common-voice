@@ -328,3 +328,73 @@ Zudem gab es insgesamt weniger Handel zwischen Ost und West.
 Поскольку ни одна из функций не имела побочных эффектов, их можно легко распараллелить.;Weil keine Funktion Seiteneffekte hat, lassen sie sich problemlos parallelisieren.
 На побережье всегда есть веет сильный бриз.;An der Küste weht immer eine steife Brise.
 Это я могу подтвердить.;Das kann ich bestätigen.
+Этот автобус едет в Нижний Новгород.;Der Bus fährt nach Heidelberg
+А есть прямой поезд из Кирова в Вологду?;Gibt es eine direkte Bahnverbindung zwischen Krefeld und Nordhorn?
+Мне скучно.;Mir ist langweilig.
+Южная Тарава - столица Республики Кирибати.;South Tarawa ist die Hauptstadt von Kiribati.
+Где в Перьми можно хорошо поесть?;Wo kann man in Bonn gut essen gehen?
+С тысяча девятьсот сорок седьмого по тысяча девятьсот пятьдесят девятый год город Карачи был столицей Пакистана
+При слишком высоких оборотах мотор может разрушиться воздействием центробежной силы.;Es ist die Fliehkraft, die den Motor bei zu hoher Drehzahl zerstört.
+Я не люблю овощи.;Ich mag kein Gemüse.
+В бассейне пахнет хлором.;Im Schwimmbad riecht es nach Chlor.
+Несколько подростков опрокинули мобильный туалет.;Ein paar Jugendliche haben das Dixi-Klo umgeworfen.
+Если хотите ещё потренироваться, спортплощадка в вашем расоряжении.;Falls Sie noch etwas Training brauchen, steht Ihnen der Übungsplatz zur Verfügung.
+Артёму не особо нравится этот ремикс.;Dieser Remix gefällt Gerald nicht so gut.
+Ты действительно хочешь ехать до самого Омска?;Willst du wirklich bis nach Nürnberg fahren?
+Концепция неплохая, но над реализацией придётся ещё потрудиться.;Das Konzept ist gut, an der Umsetzung müssen wir noch feilen.
+Сеть ресторанов быстрого питания подозревается в шпионаже за своими сотрудниками.;Die Schnellrestaurant-Kette wird verdächtigt, ihre Mitarbeiter zu bespitzeln.
+Дядя Дима притащил свой сварочний аппарат и принялся за работу.;Onkel Dieter holte sein Schweißgerät heraus und machte sich ans Werk.
+У нас есть контейнер для скорлупок грецкого ореха?;Haben wir einen Behälter für die Walnussschale?
+В перекрёстном огне погибло одно гражданское лицо.;Eine Zivilperson wurde im Kreuzfeuer getötet.
+А как это будет на романшском языке?;Was heißt das auf Bündnerromanisch?
+Шампиньоны, базилик и оливковое масло ещё остались.;Champignons, Basilikum und Olivenöl sind noch über.
+Юлия чувствовала себя невостребованной.;Julia fühlte sich unterfordert.
+Есть ли воздушное сообщение между Ростовом-на-Дону и Барнаулом?;Gibt es eine Flugverbindung zwischen Mainz und Lübeck?
+Пришло время закатать рукава.;Jetzt ist Ärmel hochkrempeln angesagt.
+"Дядя Вова привествует своего племянника" стояло в невинно выглядевшем объявлении.
+Дили - столица Восточного Тимора.
+Теперь поводья были в руках Зои.;Jetzt hat Jessica die Zügel in der Hand.
+Галина Геннадьевна, пожалуйста, пройдите в отделение неотложной помощи.;Schwester Jutta bitte zur Notaufnahme, Schwester Jutta bitte.
+Позаботьтесь о том, чтобы "маленькая проблемка", как вы ее называете, не переросла в серьёзный кризис.;Passen Sie auf, dass sich aus dem Problemchen, wie Sie es nennen, kein Flächenbrand entwickelt.
+Как это переводится с венгерского?;Was heißt das auf Ungarisch?
+Тхимпху - столица Бутана.;Thimphu ist die Hauptstadt von Bhutan.
+Перед тем, как выбрасывать пластиковые стаканчики из-под йогурта, следует отрывать крышечки из фольги.;Aludeckel von Plastikverpackungen sollte man abziehen, bevor man sie in den gelben Sack schmeißt.
+Именно так и решила комиссия.;Das hat die Kommission so entschieden.
+Нуакшот является столицей Мавритании.;Nouakchott ist die Hauptstadt von Mauretanien.
+Предводитель подул в рог, подавая сигнал к наступлению.;Der Führer bläst zum Angriff ins Horn.
+Мне ещё нужно забежать в мясную лавку.;Ich muss noch schnell zum Metzger.
+Как тепло будет завтра?;Wie warm wird es morgen?
+Дети должны знать границы своих родителей.;Kinder sollten die Grenzen ihrer Eltern kennen.
+Попробуй обращаться с животным ласково.;Probier's mal mit Gemütlichkeit!
+База данных обновлена.;Die Datenbank wurde aktualisiert.
+В настоящий момент наши руки связаны.;Derzeit sind uns noch die Hände gebunden.
+Северный Ледовитый Океан называют также Арктическим Океаном или Северным Полярным Морем.;Der Arktische Ozean, wird auch als Nordpolarmeer oder nördliches Eismeer bezeichnet.
+Никаких возражений, это долно быть сделано немедленно.;Keine Widerrede, das wird sofort erledigt!
+И с этого момента у меня еще один пробел в памяти.;Und ab dieser Stelle habe ich wieder eine Erinnerungslücke.
+Он врёт так, что уши в трубочку сворачиваются.;Er lügt, dass sich die Balken biegen.
+И это был полный успех.Und dies war von Erfolg.
+В качестве меры предосторожности в Смоленске уже раздают йодные таблетки.;Die Stadt Aachen verteilt bereits vorsorglich Jodtabletten.
+Задача школы - обучение, а не воспитание, напомнил директор родителям.;Aufgabe der Schule ist Bildung, nicht Ausbildung, erinnert der Direktor die Eltern.
+Быстро осознав дилемму, правитель согласился с предложением.;Der Herrscher stimmte diesem zu, denn er erkannte das Dilemma im Nu.
+Завтра Даша вернется из своего лыжного отпуска в Зёльдене.;Morgen kommt Dora aus ihrem Skiurlaub in Sölden wieder.
+Сырая пища не подходит для грудных детей.;Rohkost ist für Säuglinge nicht geeignet.
+Ну конечно, тебе бы этого хотелось.;Das hättest du wohl gerne.
+Ну и в конце - последний вопрос с просьбой дать короткий и четкий ответ.;Zum Schluss noch eine Frage mit der Bitte um eine kurze und knackige Antwort.
+София является столицей Болгарии.;Sofia ist die Hauptstadt von Bulgarien.
+Что они снова от меня хотят?;Was wollen die schon wieder von mir?
+Атлантический океан покрывает в общей сложности около одной пятой поверхности земли.;Der Atlantische Ozean bedeckt insgesamt etwa ein Fünftel der Erdoberfläche.
+Познань и Краков тоже были в своё время столицами Польши.;Auch Posen und Krakau waren mal Hauptstädte von Polen.
+Ты все еще живешь с родителями?;Wohnst du etwa noch bei deinen Eltern?
+Программное обеспечение для обработки речи должно учитывать эту особенность.;Sprachverarbeitende Software muss diesen Umstand erkennen.
+Мой коллега Сергей уже занимается этой проблемой.;Kollege Schulz kümmert sich bereits darum.
+Зачем люди вообще покупают негазированную воду в бутылках?;Warum kauft man überhaupt stilles Wasser in Flaschen?
+Абу-даби это столица Объединённых Арабских Эмиратов.;Abu Dhabi ist die Hauptstadt der Vereinigten Arabischen Emirate.
+С дороги!;Weg da!
+Сливы созреют уже в следующем месяце.;Die Pflaumenernte beginnt nächsten Monat.
+Пожалуйста прочитайте вслух.;Bitte vorlesen.
+Кассир не может найти штрих-код.;Die Kassiererin kann den Barcode nicht finden.
+Это здесь с давних времён.;Die stammen noch von früher.
+Ты решил это всё за один вечер?;Du hast dies an einem einzigen Nachmittag gelöst?
+С башни просматривается весь бассейн.;Vom Turm aus kann man das gesamte Schwimmbecken überblicken.
+По этой реке проходит граница.;Der Fluss markiert die Grenze.
+Закруглённые углы это никакая не инновация.;Abgerundete Ecken sind keine Innovation.
