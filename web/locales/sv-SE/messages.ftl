@@ -257,7 +257,7 @@ license-mixed = Blandat
 
 ## Record Page
 
-record-platform-not-supported = Vi är ledsna, min din plattform stöds inte för tillfället. 
+record-platform-not-supported = Vi är ledsna, min din plattform stöds inte för tillfället.
 record-platform-not-supported-desktop = På datorer, kan du ladda ner senaste:
 record-platform-not-supported-ios = Användare av <bold>iOS</bold> kan ladda ner våran gratisapp:
 record-must-allow-microphone = Du måste tillåta mikrofon åtkomst.
@@ -273,7 +273,7 @@ review-terms = Genom att använda Common Voice godkänner du våra <termsLink>vi
 terms-agree = Jag håller med
 terms-disagree = Jag håller inte med
 review-aborted = Uppladdningen avbröts. Vill du radera dina inspelningar?
-review-submit-title = Granska och skicka in 
+review-submit-title = Granska och skicka in
 review-submit-msg = Tack för inspelningen! <lineBreak></lineBreak>Granska och skicka in dina klipp nedan.
 review-recording = Granska
 review-rerecord = Spela in igen
@@ -314,6 +314,7 @@ language-section-in-progress = Pågående
 language-section-in-progress-description = Pågående språk byggs nu för bidrag från våra gemenskaper. Deras framsteg återspeglar var de står i översättning av webbplatsen och insamling av meningar.
 language-section-launched = Lanserad
 language-section-launched-description = För dessa lanserade språk har webbplatsen översatts fullständigt och tillräckligt med meningar har samlats in för att möjliggöra ett pågående samarbete genom <italic>{ speak }</italic> och <italic>{ listen }</italic>.
+language-section-launched-new-description = För dessa lanserade språk har webbplatsen översatts fullständigt och tillräckligt med meningar har samlats in för att möjliggöra ett pågående samarbete genom <italic>Tala</italic> och <italic>Lyssna</italic>.
 languages-show-more = Läs mer
 languages-show-less = Visa mindre
 language-speakers = Talas av
@@ -335,6 +336,7 @@ listen = Lyssna
 skip = Hoppa över
 shortcuts = Genvägar
 clips = Klipp
+clips-with-count = <bold>{ $count }</bold> klipp
 goal-help-recording = Du har hjälp Common Voice att nå <goalPercentage></goalPercentage> av vårt dagliga { $goalValue } inspelningsmål!
 goal-help-validation = Du har hjälp Common Voice att nå <goalPercentage></goalPercentage> av vårt dagliga { $goalValue } valideringsmål!
 contribute-more =
