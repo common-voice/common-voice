@@ -156,7 +156,7 @@ export namespace ClipsStats {
   function formatSeconds(totalSeconds: number) {
     const seconds = totalSeconds % 60;
     const minutes = Math.floor(totalSeconds / 60) % 60;
-    const hours = Math.floor(minutes / 60);
+    const hours = Math.floor(totalSeconds / 3600);
     if (hours >= 1000) {
       return Math.floor(hours / 1000) + 'k';
     }

@@ -216,7 +216,7 @@ export default class Model {
           code: locale,
           name: allLocales[locale],
         },
-        hours: clipCountToHours(validClipsCounts[locale] || 0),
+        seconds: Math.floor((validClipsCounts[locale] || 0) * AVG_CLIP_SECONDS),
         speakers: speakerCounts[locale] || 0,
       })),
     };

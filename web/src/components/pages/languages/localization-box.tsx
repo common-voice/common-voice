@@ -19,6 +19,32 @@ import GetInvolvedModal from './get-involved-modal';
 const SENTENCE_COUNT_TARGET = 5000;
 const HOURS_TARGET = 1200;
 
+function formatSeconds(totalSeconds: number) {
+  const seconds = totalSeconds % 60;
+  const minutes = Math.floor(totalSeconds / 60) % 60;
+  const hours = Math.floor(totalSeconds / 3600);
+
+  if (hours >= 1000) {
+    return (hours / 1000).toPrecision(2) + 'k';
+  }
+
+  const timeParts = [];
+
+  if (hours > 0) {
+    timeParts.push(hours + 'h');
+  }
+
+  if (hours < 10 && minutes > 0) {
+    timeParts.push(minutes + 'm');
+  }
+
+  if (hours == 0 && minutes < 10 && seconds > 0) {
+    timeParts.push(seconds + 's');
+  }
+
+  return timeParts.join(' ') || '0';
+}
+
 function Skeleton({
   loading,
   title,
@@ -28,6 +54,7 @@ function Skeleton({
   progress,
   progressTotal,
   progressSecondary,
+  formatProgress = n => n.toString(),
   children,
   onClick,
 }: {
@@ -39,6 +66,7 @@ function Skeleton({
   progress?: number;
   progressTotal?: number;
   progressSecondary?: boolean;
+  formatProgress?: (n: number) => string;
   children?: React.ReactNode;
   onClick?: any;
 }) {
@@ -65,7 +93,8 @@ function Skeleton({
               <React.Fragment>
                 {progressLabel}
                 <span className="value">
-                  <b>{progress}</b> / {progressTotal}
+                  <b>{formatProgress(progress)}</b> /{' '}
+                  {formatProgress(progressTotal)}
                 </span>
               </React.Fragment>
             )}
@@ -188,8 +217,9 @@ class LocalizationBox extends React.PureComponent<Props, State> {
                 <span />
               </Localized>
             }
-            progress={this.props.hours}
-            progressTotal={HOURS_TARGET}
+            progress={this.props.seconds}
+            progressTotal={HOURS_TARGET * 3600}
+            formatProgress={formatSeconds}
             progressSecondary
             onClick={this.goToContribute}>
             <LocalizationProvider messages={this.buildMessagesGenerator()}>

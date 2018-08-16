@@ -11,7 +11,7 @@ export type InProgressLanguage = BaseLanguage & {
 };
 
 export type LaunchedLanguage = BaseLanguage & {
-  hours: number;
+  seconds: number;
   speakers: number;
 };
 
