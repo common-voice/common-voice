@@ -60,19 +60,27 @@ export default class HomePage extends React.Component<{}, State> {
 
               <br />
 
-              {showWallOfText ? (
-                <Localized id="wall-of-text-more-desktop" lineBreak={<br />}>
-                  <p />
-                </Localized>
-              ) : (
-                <Localized id="show-wall-of-text">
-                  <button
-                    className="show-more"
-                    type="button"
-                    onClick={() => this.setState({ showWallOfText: true })}
-                  />
-                </Localized>
+              {showWallOfText && (
+                <React.Fragment>
+                  <Localized id="wall-of-text-more-desktop" lineBreak={<br />}>
+                    <p />
+                  </Localized>
+                  <br />
+                </React.Fragment>
               )}
+
+              <Localized
+                id={
+                  showWallOfText ? 'languages-show-less' : 'show-wall-of-text'
+                }>
+                <button
+                  className="show-more"
+                  type="button"
+                  onClick={() =>
+                    this.setState({ showWallOfText: !showWallOfText })
+                  }
+                />
+              </Localized>
             </div>
           </div>
         </div>
