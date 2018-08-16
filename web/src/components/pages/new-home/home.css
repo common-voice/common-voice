@@ -16,6 +16,7 @@
     background: #f9f9f8;
 
     & .heroes {
+        border-top: 1px solid var(--light-grey);
         margin: 0 auto;
         max-width: 1440px;
         display: flex;
@@ -23,9 +24,11 @@
 
         @media (--lg-up) {
             flex-direction: row;
+
+            & > :first-child {
+                border-right: 1px solid var(--light-grey);
+            }
         }
-
-
     }
 
     & .text {
