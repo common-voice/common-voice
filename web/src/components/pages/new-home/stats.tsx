@@ -7,19 +7,14 @@ import StateTree from '../../../stores/tree';
 import pointsToBezier from './points-to-bezier';
 
 import './stats.css';
-import { FormEvent } from 'react';
 
 const Y_SCALE = 1.25;
 const Y_OFFSET = 10;
 const TOTAL_LINE_MARGIN = 154;
-const TEXT_OFFSET = 25;
+const TEXT_OFFSET = 45;
 const LINE_OFFSET = TEXT_OFFSET + 5;
 const PLOT_PADDING = 13;
 const PLOT_STROKE_WIDTH = 2;
-
-function formatNumber(n: number) {
-  return n > 1000 ? Math.round(n / 1000) + 'k' : n;
-}
 
 type Attribute = 'total' | 'valid';
 
@@ -43,6 +38,7 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
       children: (state: State) => React.ReactNode;
       getMax: (data: any[]) => number;
       fetchData: (api: API, locale?: string) => Promise<any[]>;
+      formatNumber: (n: number) => string;
       renderHeader: (state: State) => React.ReactNode;
       renderXTickLabel: (datum: any) => React.ReactNode;
       tickCount: number;
@@ -87,6 +83,7 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
     render() {
       const {
         children,
+        formatNumber,
         renderHeader,
         renderXTickLabel,
         tickCount,
@@ -153,6 +150,31 @@ export namespace ClipsStats {
   const TICK_COUNT = 7;
   const CIRCLE_RADIUS = 8;
 
+  function formatSeconds(totalSeconds: number) {
+    const seconds = totalSeconds % 60;
+    const minutes = Math.floor(totalSeconds / 60) % 60;
+    const hours = Math.floor(minutes / 60);
+    if (hours >= 1000) {
+      return Math.floor(hours / 1000) + 'k';
+    }
+
+    const timeString = [];
+
+    if (hours > 0) {
+      timeString.push(hours + 'h');
+    }
+
+    if (hours < 10 && minutes > 0) {
+      timeString.push(minutes + 'm');
+    }
+
+    if (hours == 0 && minutes < 10 && seconds > 0) {
+      timeString.push(seconds + 's');
+    }
+
+    return timeString.join(' ');
+  }
+
   const Metric = ({
     data,
     labelId,
@@ -168,7 +190,9 @@ export namespace ClipsStats {
       </Localized>
       <div className="value">
         <div className="point">●</div>
-        {data.length > 0 ? formatNumber(data[data.length - 1][attribute]) : '?'}
+        {data.length > 0
+          ? formatSeconds(data[data.length - 1][attribute])
+          : '?'}
       </div>
     </div>
   );
@@ -227,6 +251,7 @@ export namespace ClipsStats {
   export const Root = () => (
     <StatsCard
       fetchData={(api, locale) => api.fetchClipsStats(locale)}
+      formatNumber={formatSeconds}
       getMax={data =>
         data.reduce((max, d) => Math.max(max, d.total, d.valid), 0)
       }
@@ -254,9 +279,14 @@ export namespace VoiceStats {
   const BAR_WIDTH = 15;
   const BAR_HEIGHT = TOTAL_LINE_MARGIN * ((TICK_COUNT - 1) / TICK_COUNT);
 
+  function formatNumber(n: number) {
+    return n > 1000 ? Math.round(n / 1000) + 'k' : n.toString();
+  }
+
   export const Root = () => (
     <StatsCard
       fetchData={(api, locale) => api.fetchClipVoices(locale)}
+      formatNumber={formatNumber}
       getMax={data => data.reduce((max, d) => Math.max(max, d.voices), 0)}
       renderHeader={({ data }) => (
         <div>

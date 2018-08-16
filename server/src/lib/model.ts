@@ -226,8 +226,8 @@ export default class Model {
     async (locale: string) =>
       (await this.db.getClipsStats(locale)).map(stat => ({
         ...stat,
-        total: stat.total * AVG_CLIP_SECONDS,
-        valid: stat.valid * AVG_CLIP_SECONDS,
+        total: Math.round(stat.total * AVG_CLIP_SECONDS),
+        valid: Math.round(stat.valid * AVG_CLIP_SECONDS),
       })),
     DAY
   );
