@@ -33,10 +33,13 @@
             padding: 13px 22px;
             box-sizing: border-box;
             appearance: none;
+
+            font-family: var(--base-font-family);
             text-transform: uppercase;
             letter-spacing: 0.8px;
             font-weight: 600;
             font-size: 14px;
+
             background: url('/img/down-arrow.svg') no-repeat 90% center;
             background-size: 10px;
 
