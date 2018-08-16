@@ -314,6 +314,7 @@ language-section-in-progress = Folyamatban
 language-section-in-progress-description = A folyamatban lévő nyelveket a közösség közreműködésére építjük; az előrehaladás a weboldal honosítását, és a mondatgyűjtési fázist tükrözi.
 language-section-launched = Elindítva
 language-section-launched-description = Ezen elindított nyelvek esetén a weboldal sikeresen honosítva lett, és elég mondat lett összegyűjtve ahhoz, hogy lehetővé tegye a <italic>{ speak }</italic> és <italic>{ listen }</italic> típusú közreműködést.
+language-section-launched-new-description = Ezen elindított nyelvek esetén a weboldal sikeresen honosítva lett, és elég mondat gyűjt össze ahhoz, hogy elinduljanak a <italic>Beszéd</italic> és <italic>Hallgatás</italic> közreműködések.
 languages-show-more = Több
 languages-show-less = Kevesebb
 language-speakers = Beszélők
