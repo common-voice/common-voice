@@ -11,7 +11,7 @@ import './stats.css';
 const Y_SCALE = 1.25;
 const Y_OFFSET = 10;
 const TOTAL_LINE_MARGIN = 154;
-const TEXT_OFFSET = 45;
+const TEXT_OFFSET = 30;
 const LINE_OFFSET = TEXT_OFFSET + 5;
 const PLOT_PADDING = 13;
 const PLOT_STROKE_WIDTH = 2;
@@ -122,7 +122,7 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
                   <line
                     x1={LINE_OFFSET}
                     y1={y}
-                    x2={width}
+                    x2={width + PLOT_PADDING - TEXT_OFFSET}
                     y2={y}
                     stroke="rgba(0,0,0,0.2)"
                   />
@@ -133,7 +133,10 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
               <text
                 key={i}
                 className="tick-label"
-                x={LINE_OFFSET + i * ((width - PLOT_PADDING) / data.length)}
+                x={
+                  LINE_OFFSET +
+                  i * ((width - PLOT_PADDING - TEXT_OFFSET) / data.length)
+                }
                 y={Y_OFFSET + TOTAL_LINE_MARGIN}>
                 {renderXTickLabel(datum)}
               </text>
@@ -158,21 +161,15 @@ export namespace ClipsStats {
       return Math.floor(hours / 1000) + 'k';
     }
 
-    const timeString = [];
-
     if (hours > 0) {
-      timeString.push(hours + 'h');
+      return hours + 'h';
     }
 
-    if (hours < 10 && minutes > 0) {
-      timeString.push(minutes + 'm');
+    if (minutes > 0) {
+      return minutes + 'm';
     }
 
-    if (hours == 0 && minutes < 10 && seconds > 0) {
-      timeString.push(seconds + 's');
-    }
-
-    return timeString.join(' ');
+    return seconds + 's';
   }
 
   const Metric = ({
@@ -313,7 +310,7 @@ export namespace VoiceStats {
           LINE_OFFSET +
           PLOT_PADDING -
           BAR_WIDTH / 2 +
-          i * (width - PLOT_PADDING) / BAR_COUNT;
+          i * (width - PLOT_PADDING - TEXT_OFFSET) / BAR_COUNT;
 
         return (
           <React.Fragment>
