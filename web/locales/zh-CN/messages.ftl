@@ -190,7 +190,7 @@ female = 女
 # Gender
 other = 其他
 why-profile-title = 为什么要创建用户资料？
-why-profile-text = 凭借您提供一些有关本人的信息，您提交给 Common Voice 的音频数据能更有助于使用这些数据来提高其语音识别引擎的准确性。 
+why-profile-text = 凭借您提供一些有关本人的信息，您提交给 Common Voice 的音频数据能更有助于使用这些数据来提高其语音识别引擎的准确性。
 edit-profile = 编辑用户资料
 profile-create = 创建用户资料
 profile-create-success = 成功，用户资料已创建！
@@ -224,7 +224,7 @@ faq-source-a2 = 您可以在<dataLink>这个 GitHub 文件夹</dataLink>参考�
 ## Profile
 
 profile-why-title = 为什么要创建用户资料？
-profile-why-content = 凭借您提供一些有关本人的信息，您提交给 Common Voice 的音频数据能更有助于使用这些数据来提高其语音识别引擎的准确性。 
+profile-why-content = 凭借您提供一些有关本人的信息，您提交给 Common Voice 的音频数据能更有助于使用这些数据来提高其语音识别引擎的准确性。
 
 ## NotFound
 
@@ -305,7 +305,7 @@ request-language-title = 语言请求
 request-language-form-language =
     .label = 语言
 request-language-success-title = 非常感谢，您的语言请求已成功提交。
-request-language-success-content = 我们将尽快披露更多有关如何将您的语言添加到 Common Voice 的信息。 
+request-language-success-content = 我们将尽快披露更多有关如何将您的语言添加到 Common Voice 的信息。
 
 ## Languages Overview
 
@@ -334,6 +334,7 @@ listen = 聆听
 skip = 跳过
 shortcuts = 快捷方式
 clips = 片段
+clips-with-count = <bold>{ $count }</bold> 个片段
 goal-help-recording = 您已帮助 Common Voice 达成 <goalPercentage></goalPercentage> 的每日 { $goalValue } 录音目标！
 goal-help-validation = 您已帮助 Common Voice 达成 <goalPercentage></goalPercentage> 的每日 { $goalValue } 验证目标！
 contribute-more = 准备好再录 { $count } 条了吗？
@@ -345,7 +346,7 @@ record-again-instruction = 太棒了！<recordIcon></recordIcon> 来录制下一
 record-again-instruction2 = 继续加油，再录一次 <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> 最后一个！
 review-tooltip = 在此确认或重新录制片段
-unable-speak = 现在无法朗读 
+unable-speak = 现在无法朗读
 review-instruction = 确认录音内容，有需要的话可以重录
 record-submit-tooltip = { $actionType } 确认无误即可提交
 clips-uploaded = 片段已上传
