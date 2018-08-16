@@ -19,6 +19,7 @@
         border-top: 1px solid var(--light-grey);
         margin: 0 auto;
         max-width: 1440px;
+        overflow: hidden;
         display: flex;
         flex-direction: column;
 
