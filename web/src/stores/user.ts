@@ -63,6 +63,9 @@ export const ACCENTS: any = {
     wales: 'Welsh English',
     bermuda: 'West Indies and Bermuda (Bahamas, Bermuda, Jamaica, Trinidad)',
   },
+  eo: {
+    internacia: 'Internacia',
+  },
   fr: {
     france: 'Français de France',
     madagascar: 'Français de Madagascar',
