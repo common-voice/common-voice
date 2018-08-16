@@ -3,7 +3,7 @@ const path = require('path');
 const request = require('request-promise-native');
 
 const TRANSLATED_MIN_PROGRESS = 0.95;
-const CONTRIBUTABLE_MIN_SENTENCES = 1000;
+const CONTRIBUTABLE_MIN_SENTENCES = 5000;
 
 const dataPath = path.join(__dirname, '..', 'locales');
 
