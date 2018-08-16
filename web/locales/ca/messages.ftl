@@ -335,6 +335,7 @@ listen = Escolta
 skip = Omet
 shortcuts = Dreceres
 clips = talls
+clips-with-count = <bold>{ $count }</bold> talls
 goal-help-recording = Heu ajudat el Common Voice a assolir el <goalPercentage></goalPercentage> de l'objectiu diari de { $goalValue } enregistraments!
 goal-help-validation = Heu ajudat el Common Voice a assolir el <goalPercentage></goalPercentage> de l'objectiu diari de { $goalValue } validacions!
 contribute-more =
