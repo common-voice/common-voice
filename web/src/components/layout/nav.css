@@ -16,7 +16,7 @@ header {
     padding: var(--page-margin);
     background: var(--white);
 
-    @media (--md-up) {
+    @media (--lg-up) {
         position: relative;
         margin: 0 auto;
         background: none;
@@ -32,7 +32,7 @@ header {
         box-shadow: var(--nav-shadow-overhang);
         background-color: var(--white);
 
-        @media (--md-up) {
+        @media (--lg-up) {
             box-shadow: none;
             background-color: initial;
         }
@@ -56,7 +56,7 @@ header {
     & .language-select {
         display: none;
 
-        @media (--md-up) {
+        @media (--lg-up) {
             display: initial;
         }
     }
@@ -66,7 +66,7 @@ header {
     position: relative;
     margin: 0 1rem;
 
-    @media (--md-up) {
+    @media (--lg-up) {
         margin: 0 0 0 1.5rem;
     }
 
@@ -172,7 +172,7 @@ header {
 }
 
 
-@media (--desktop) {
+@media (--lg-up) {
     header > * {
         pointer-events: auto;
     }
@@ -204,7 +204,7 @@ header {
     flex-direction: column;
     margin-right: 2rem;
 
-    @media (--md-up) {
+    @media (--lg-up) {
         flex-direction: row;
         margin-left: 1rem;
         margin-right: 0;
@@ -224,7 +224,7 @@ header {
         border-top: 1px solid var(--darker-grey);
         width: 100%;
 
-        @media (--md-up) {
+        @media (--lg-up) {
             margin: 0 .5rem;
             height: 1rem;
             width: auto;
@@ -255,7 +255,7 @@ header {
     border: none;
     padding: 0;
 
-    @media (--md-up) {
+    @media (--lg-up) {
         display: none;
     }
 
@@ -267,7 +267,7 @@ header {
 #main-nav {
     display: none;
 
-    @media (--md-up) {
+    @media (--lg-up) {
         display: flex;
         align-items: center;
     }
