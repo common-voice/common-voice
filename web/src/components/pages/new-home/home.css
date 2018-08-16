@@ -21,9 +21,11 @@
         display: flex;
         flex-direction: column;
 
-        @media (--md-up) {
+        @media (--lg-up) {
             flex-direction: row;
         }
+
+
     }
 
     & .text {
