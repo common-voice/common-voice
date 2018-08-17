@@ -336,6 +336,7 @@ listen = 聆聽
 skip = 略過
 shortcuts = 捷徑
 clips = 片段
+clips-with-count = <bold>{ $count }</bold> 段
 goal-help-recording = 您已幫助 Common Voice 完成 <goalPercentage></goalPercentage> 的每日 { $goalValue } 錄音目標！
 goal-help-validation = 您已幫助 Common Voice 完成 <goalPercentage></goalPercentage> 的每日 { $goalValue } 驗證目標！
 contribute-more = 準備好再作 { $count } 筆了嗎？
