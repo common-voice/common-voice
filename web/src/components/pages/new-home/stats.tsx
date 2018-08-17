@@ -1,14 +1,14 @@
 import { Localized } from 'fluent-react';
 import * as React from 'react';
 import { connect } from 'react-redux';
-const contributableLocales = require('../../../../../locales/contributable.json') as string[];
 import API from '../../../services/api';
 import StateTree from '../../../stores/tree';
 import pointsToBezier from './points-to-bezier';
 
 import './stats.css';
 
-const Y_SCALE = 1.25;
+const contributableLocales = require('../../../../../locales/contributable.json') as string[];
+
 const Y_OFFSET = 10;
 const TOTAL_LINE_MARGIN = 154;
 const TEXT_OFFSET = 30;
@@ -30,8 +30,6 @@ const mapStateToProps = ({ api }: StateTree) => ({
 
 const ALL_LOCALES = 'all';
 
-const PLOT_STATE = Object.freeze({ data: [], max: 10000 });
-
 const StatsCard = connect<PropsFromState>(mapStateToProps)(
   class extends React.Component<
     {
@@ -45,7 +43,12 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
     } & PropsFromState,
     State
   > {
-    state: State = { ...PLOT_STATE, locale: ALL_LOCALES, width: 0 };
+    state: State = {
+      data: [],
+      max: this.props.tickCount - 1,
+      locale: ALL_LOCALES,
+      width: 0,
+    };
 
     svgRef = React.createRef<SVGSVGElement>();
 
@@ -61,15 +64,20 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
     }
 
     updateData = async () => {
-      const { api, fetchData, getMax } = this.props;
+      const { api, fetchData, getMax, tickCount } = this.props;
       const { locale } = this.state;
       const data = await fetchData(api, locale === ALL_LOCALES ? null : locale);
-      this.setState({ data: data, max: Y_SCALE * getMax(data) });
+      const max = getMax(data);
+      const ticks = tickCount - 1;
+      this.setState({
+        data,
+        max: max + (ticks - max % ticks),
+      });
     };
 
     changeLocale = (event: any) => {
       this.setState(
-        { ...PLOT_STATE, locale: event.target.value },
+        { data: [], max: this.props.tickCount - 1, locale: event.target.value },
         this.updateData
       );
     };
@@ -122,7 +130,7 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
                   <line
                     x1={LINE_OFFSET}
                     y1={y}
-                    x2={width + PLOT_PADDING - TEXT_OFFSET}
+                    x2={width + PLOT_PADDING}
                     y2={y}
                     stroke="rgba(0,0,0,0.2)"
                   />
