@@ -313,27 +313,43 @@ request-language-success-content = Common Voice এ আপনার ভাষা
 ## Languages Overview
 
 language-section-in-progress = কাজ চলছে
+language-section-in-progress-description = বর্তমানে বিভিন্ন ভাষায় আমাদের সম্প্রদায়ের অবদান জমা হচ্ছে; তাদের অগ্রগতি ওয়েবসাইট লোকালাইজেশন এবং বাক্য সংগ্রহের পর্যায়ে রয়েছে।
 language-section-launched = চালু হয়েছে
+language-section-launched-description = এই ভাষা সমূহের জন্য, ওয়েবসাইট সফলভাবে লোকালাইজ করা হয়েছে এবং যথেষ্ট বাক্য সংগ্রহ করা হয়েছে, একটানা অবদান রাখা অনুমোদন করতে<italic>{ speak }</italic> এবং <italic>{ listen }</italic>।
+language-section-launched-new-description = এই ভাষা সমূহের জন্য, ওয়েবসাইট সফলভাবে লোকালাইজ করা হয়েছে এবং যথেষ্ট বাক্য সংগ্রহ করা হয়েছে, একটানা অবদান রাখা অনুমোদন করতে <italic>বলুন</italic> এবং<italic>শুনুন</italic>।
 languages-show-more = আরও দেখুন
 languages-show-less = কম দেখুন
 language-speakers = বক্তা
+language-meter-in-progress = অগ্রগতি
 language-total-progress = মোট
 language-search-input =
     .placeholder = অনুসন্ধান
 language-speakers = বক্তা
+localized = লোকালাইজ্ড
+sentences = বাক্যসমূহ
+total-hours = যাচাইকৃত ঘন্টাসমূহ
 
 ## New Contribution
 
 action-click = ক্লিক করুন
 action-tap = টোকা দিন
+contribute = অবদান রাখুন
 listen = শুনুন
 skip = এড়িয়ে যান
 shortcuts = শর্টকাট
 clips = ক্লিপ
+clips-with-count = <bold>{ $count }</bold> ক্লিপ
+goal-help-recording = আপনি কমন ভয়েস প্রকল্পে <goalPercentage></goalPercentage> আমাদের দৈনিক { $goalValue } রেকর্ডিং লক্ষ্যে পৌঁছাতে সহায়তা করেছেন!
+goal-help-validation = আপনি কমন ভয়েস প্রকল্পে <goalPercentage></goalPercentage> আমাদের দৈনিক { $goalValue } যাচাইকরণ লক্ষ্যে পৌঁছাতে সহায়তা করেছেন!
 contribute-more = আরও { $count } করার জন্য প্রস্তুত?
 record-cta = রেকডিং শুরু করুন
+record-instruction = { $actionType } <recordIcon> </recordIcon> এবং তারপর বাক্যটি জোড়ে পড়ুন
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> যখন সম্পন্ন হবে
 record-three-more-instruction = তিনটি বাকি আছে!
+record-again-instruction = চমৎকার!<recordIcon></recordIcon> আপনার পরবর্তী ক্লিপ রেকর্ড করুন
+record-again-instruction2 = চালিয়ে যান, আবার রেকর্ড করুন <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> সর্বশেষ!
+review-tooltip = ক্লিপ পর্যালোচনা এবং পুনরায়-রেকর্ড করুন এখানে
 unable-speak = এখন কথা বলতে পারবেন না?
 record-abort-submit = ক্লিপ জমা দিন
 record-abort-continue = রেকডিং শেষ
