@@ -11,7 +11,7 @@ const contributableLocales = require('../../../../../locales/contributable.json'
 
 const Y_OFFSET = 10;
 const TOTAL_LINE_MARGIN = 154;
-const TEXT_OFFSET = 30;
+const TEXT_OFFSET = 40;
 const LINE_OFFSET = TEXT_OFFSET + 5;
 const PLOT_PADDING = 13;
 const PLOT_STROKE_WIDTH = 2;
@@ -165,19 +165,26 @@ export namespace ClipsStats {
     const seconds = totalSeconds % 60;
     const minutes = Math.floor(totalSeconds / 60) % 60;
     const hours = Math.floor(totalSeconds / 3600);
+
     if (hours >= 1000) {
-      return Math.floor(hours / 1000) + 'k';
+      return (hours / 1000).toPrecision(2) + 'k';
     }
+
+    const timeParts = [];
 
     if (hours > 0) {
-      return hours + 'h';
+      timeParts.push(hours + 'h');
     }
 
-    if (minutes > 0) {
-      return minutes + 'm';
+    if (hours < 10 && minutes > 0) {
+      timeParts.push(minutes + 'm');
     }
 
-    return seconds + 's';
+    if (hours == 0 && minutes < 10 && seconds > 0) {
+      timeParts.push(seconds + 's');
+    }
+
+    return timeParts.join(' ') || '0';
   }
 
   const Metric = ({
