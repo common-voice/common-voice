@@ -313,6 +313,7 @@ language-section-in-progress = 准备中
 language-section-in-progress-description = 处理中的语言，代表我们的该语言社区正在进行贡献，当中的进度反映了网站的本地化翻译进度，以及语句收集进度。
 language-section-launched = 已上线
 language-section-launched-description = 若是已上线的语言，代表网站的本地化已完成，也收集了足够的语句，足以支持<italic>{ speak }</italic>及<italic>{ listen }</italic>的贡献。
+language-section-launched-new-description = 推出的语言代表网站已成功本地化，也收集了足够的语句，足以支持<italic>说话</italic>及<italic>聆听</italic>的贡献。
 languages-show-more = 显示更多
 languages-show-less = 显示更少
 language-speakers = 使用人数
