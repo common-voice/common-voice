@@ -315,6 +315,7 @@ language-section-in-progress = 準備中
 language-section-in-progress-description = 處理中的語言，代表我們的該語言社群正在進行貢獻，當中的進度反映了網站的在地化翻譯進度，以及語句收集進度。
 language-section-launched = 已上線
 language-section-launched-description = 若是已上線的語言，代表網站已經完整的翻譯完成，也收集了足夠的語句，足以提供<italic>{ speak }</italic>及<italic>{ listen }</italic>的貢獻。
+language-section-launched-new-description = 針對已完成網站在地化並收集足夠語料的語言，我們就會盡快上線，接受<italic>聽</italic>與<italic>說</italic>貢獻。
 languages-show-more = 檢視更多
 languages-show-less = 檢視更少
 language-speakers = 使用者數
