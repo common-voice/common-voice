@@ -176,7 +176,7 @@ english = Saesneg
 
 ## ProfileForm
 
-profile-form-cancel = Gadael y Ffurflen 
+profile-form-cancel = Gadael y Ffurflen
 profile-form-delete = Dileu Proffil
 profile-form-username =
     .label = Enw Defnyddiwr
@@ -318,8 +318,9 @@ request-language-success-content = Byddwn mewn cysylltiad gyda rhagor o wybodaet
 
 language-section-in-progress = Yn Cael eu Datblygu
 language-section-in-progress-description = Mae ieithoedd sy'n cael eu datblygu yn cael eu hadeiladu ar hyn o bryd ar gyfer cyfraniadau gan ein cymunedau; mae eu cynnydd yn adlewyrchu lle maen nhw arni ar draws cyfnodau lleolieddio'r wefan a'r casglu brawddegau.
-language-section-launched = Wedi Cychwyn
+language-section-launched = Ar Gael
 language-section-launched-description = Ar gyfer ieithoedd sydd wedi eu cyflwyno mae'r wefan wedi ei leoleiddio'n llwyddiannus ac mae digon o frawddegau wedi eu casglu i ganiatáu cyfraniadau <italic>{ speak }</italic> a <italic>{ listen }</italic> parhaus.
+language-section-launched-new-description = Ar gyfer yr ieithoedd hyn sydd ar gael mae'r wefan wedi ei leoleiddio'n llwyddiannus ac mae ganddo ddigon o frawddegau wedi eu casglu i ganiatáu ar gyfer cyfraniadau <italic>Siarad</italic> a <italic>Gwrando</italic>.
 languages-show-more = Gweld Mwy
 languages-show-less = Gweld Llai
 language-speakers = Siaradwyr
@@ -341,6 +342,7 @@ listen = Gwrando
 skip = Hepgor
 shortcuts = Llwybrau Byr
 clips = Clip
+clips-with-count = <bold>{ $count }</bold>Clipiau
 goal-help-recording = Rydych wedi cynorthwyo Common Voice i gyrraedd <goalPercentage></goalPercentage> o { $goalValue }, ein nod recordio dyddiol!
 goal-help-validation = Rydych wedi cynorthwyo Common Voice i gyrraedd <goalPercentage></goalPercentage> o { $goalValue }, ein nod dilysu dyddiol!
 contribute-more = Barod i wneud { $count } yn rhagor?
