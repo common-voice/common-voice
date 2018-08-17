@@ -235,7 +235,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
             </div>
 
             <Localized
-              id="language-section-launched-description"
+              id="language-section-launched-new-description"
               italic={<i />}>
               <p />
             </Localized>

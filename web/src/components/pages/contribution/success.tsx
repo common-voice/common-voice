@@ -109,8 +109,10 @@ class Success extends React.Component<Props, State> {
       <div className="contribution-success">
         <div className="counter done">
           <CheckIcon />
-          {SET_COUNT}/{SET_COUNT}
-          <Localized id="clips">
+          <Localized
+            id="clips-with-count"
+            bold={<b />}
+            $count={SET_COUNT + '/' + SET_COUNT}>
             <span className="text" />
           </Localized>
         </div>

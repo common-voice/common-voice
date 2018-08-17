@@ -51,6 +51,9 @@
         align-items: center;
         font-weight: 600;
 
+        & b {
+            font-style: normal;
+        }
 
         & svg {
             margin-right: 10px;
