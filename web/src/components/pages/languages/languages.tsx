@@ -6,7 +6,7 @@ import {
   InProgressLanguage,
   LaunchedLanguage,
 } from '../../../../../common/language-stats';
-import { getNativeNameWithFallback } from '../../../services/localization';
+import { NATIVE_NAMES } from '../../../services/localization';
 import StateTree from '../../../stores/tree';
 import RequestLanguageModal from '../../request-language-modal/request-language-modal';
 import { CloseIcon, SearchIcon } from '../../ui/icons';
@@ -60,10 +60,14 @@ class LanguagesPage extends React.PureComponent<Props, State> {
     ]);
 
     inProgress.sort(
-      (l1, l2) => (l1.localizedPercentage < l2.localizedPercentage ? 1 : -1)
+      (l1, l2) =>
+        l1.sentencesCount < l2.sentencesCount ||
+        l1.localizedPercentage < l2.localizedPercentage
+          ? 1
+          : -1
     );
     launched.sort(
-      (l1, l2) => (l1.locale.code === 'en' || l1.seconds < l2.seconds ? 1 : -1)
+      (l1, l2) => (l1.locale === 'en' || l1.seconds < l2.seconds ? 1 : -1)
     );
 
     this.setState({
@@ -106,9 +110,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
             const q = query.toLowerCase();
             return (
               name.toLowerCase().includes(q) ||
-              getNativeNameWithFallback(code)
-                .toLowerCase()
-                .includes(q)
+              NATIVE_NAMES[code].toLowerCase().includes(q)
             );
           })
         : languages;

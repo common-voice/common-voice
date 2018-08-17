@@ -1,8 +1,5 @@
 export type BaseLanguage = {
-  locale: {
-    code: string;
-    name: string;
-  };
+  locale: string;
 };
 
 export type InProgressLanguage = BaseLanguage & {

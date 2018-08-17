@@ -15,7 +15,7 @@ import GetInvolvedModal from '../languages/get-involved-modal';
 import ProjectStatus from './project-status';
 import {
   createCrossLocaleMessagesGenerator,
-  getNativeNameWithFallback,
+  NATIVE_NAMES,
 } from '../../../services/localization';
 import { connect } from 'react-redux';
 import StateTree from '../../../stores/tree';
@@ -124,10 +124,7 @@ class HomePage extends React.Component<Props, State> {
                         </Localized>
                         {showGetInvolvedModal && (
                           <GetInvolvedModal
-                            locale={{
-                              code: locale,
-                              name: getNativeNameWithFallback(locale),
-                            }}
+                            locale={locale}
                             onRequestClose={this.toggleGetInvolvedModal}
                           />
                         )}

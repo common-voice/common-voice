@@ -1,8 +1,10 @@
 require('fluent-intl-polyfill');
 const { MessageContext } = require('fluent');
 const { negotiateLanguages } = require('fluent-langneg');
-import ISO6391 from 'iso-639-1';
-const locales = require('../../../locales/all.json');
+const locales = require('../../../locales/all.json') as string[];
+export const NATIVE_NAMES = require('../../../locales/native-names.json') as {
+  [key: string]: string;
+};
 const translatedLocales = require('../../../locales/translated.json');
 import { isProduction } from '../utility';
 import API from './api';
@@ -10,36 +12,7 @@ import API from './api';
 export const DEFAULT_LOCALE = 'en';
 export const LOCALES = isProduction()
   ? (translatedLocales as string[])
-  : Object.keys(locales);
-
-const localeNations: any = {
-  'pt-BR': 'Brasil',
-  'sv-SE': 'Sverige',
-  'zh-CN': '简体',
-  'zh-TW': '繁體',
-};
-
-export function getNativeNameWithFallback(locale: string) {
-  let nativeName = ISO6391.getNativeName(locale);
-
-  if (nativeName) {
-    return nativeName;
-  }
-
-  const [localePart, nationPart] = locale.split('-');
-  nativeName = ISO6391.getNativeName(localePart);
-  if (nativeName) {
-    // Norwegian locales are identifiable by their first part alone
-    if (nationPart == 'NO') return nativeName;
-
-    const nation = localeNations[locale];
-    return nation
-      ? `${nativeName} (${nation})`
-      : nativeName + ' ' + (locales[locale].split(' ')[1] || '');
-  }
-
-  return ({ cak: 'Kaqchikel' } as any)[locale] || locale;
-}
+  : locales;
 
 export function negotiateLocales(locales: ReadonlyArray<string>) {
   return negotiateLanguages(locales, LOCALES, {

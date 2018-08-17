@@ -1,6 +1,6 @@
 import Downshift from 'downshift';
 import * as React from 'react';
-import { getNativeNameWithFallback } from '../../services/localization';
+import { NATIVE_NAMES } from '../../services/localization';
 
 interface Props {
   locale: string;
@@ -16,7 +16,7 @@ export default ({ locale, locales, onChange }: Props) => (
     render={({ getInputProps, getItemProps, highlightedIndex }) => (
       <div className="language-select with-down-arrow">
         <div className="selection" tabIndex={0} {...getInputProps()}>
-          {getNativeNameWithFallback(locale)}
+          {NATIVE_NAMES[locale]}
         </div>
         <div className="list-wrapper">
           <div className="triangle" />

@@ -2,10 +2,7 @@ import { Localized } from 'fluent-react';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, withRouter } from 'react-router';
-import {
-  getNativeNameWithFallback,
-  LOCALES,
-} from '../../services/localization';
+import { LOCALES, NATIVE_NAMES } from '../../services/localization';
 import { Recordings } from '../../stores/recordings';
 import StateTree from '../../stores/tree';
 import { User } from '../../stores/user';
@@ -39,7 +36,7 @@ const DISABLE_ANIMATION_LOW_FPS_THRESHOLD = 3;
 
 const LOCALES_WITH_NAMES = LOCALES.map(code => [
   code,
-  getNativeNameWithFallback(code),
+  NATIVE_NAMES[code] || code,
 ]).sort((l1, l2) => l1[1].localeCompare(l2[1]));
 
 interface PropsFromState {
