@@ -315,6 +315,7 @@ request-language-success-content = Nous vous contacterons très bientôt avec de
 language-section-in-progress = En cours
 language-section-in-progress-description = Les langues « en cours » sont celles sur lesquelles nos communautés travaillent ; leur progrès correspond à l’avancement de la traduction du site web et à l’avancement de la collecte de phrases.
 language-section-launched = Lancées
+language-section-launched-new-description = Pour ces langues activées, le site web a été complètement traduit et assez de phrases ont été collectées pour permettre des contributions de <italic>voix</italic> et d’<italic>écoute</italic>.
 languages-show-more = Afficher davantage de langues
 languages-show-less = Afficher moins de langues
 language-speakers = Locuteurs
