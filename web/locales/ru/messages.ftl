@@ -314,6 +314,7 @@ request-language-success-content = Мы максимально быстро св
 language-section-in-progress = Выполняется
 language-section-in-progress-description = Данные для языков, находящихся в процессе, готовятся для включения нашими сообществами; их прогресс отражает их состояние по локализации сайта и этапам обработки предложений.
 language-section-launched = Запущено
+language-section-launched-new-description = Для этих языков веб-сайт был успешно локализован и имеет достаточное количество предложений, чтобы начать работать с ними путём <italic>Проговаривания</italic> и <italic>Прослушивания</italic>.
 languages-show-more = Больше языков
 languages-show-less = Меньше языков
 language-speakers = Носителей
