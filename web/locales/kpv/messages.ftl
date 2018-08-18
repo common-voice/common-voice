@@ -1,6 +1,8 @@
 ## General
 
 return-to-cv = Бӧр Common Voice вылӧ
+email-input =
+    .label = Электроннӧй пӧшта
 submit-form-action = Ысты
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -140,6 +142,7 @@ data-download-yes = Да
 
 ## Record Page
 
+record-retry = Видлы выльысь
 record-error-too-short = Гижӧд вывти дзеньыд.
 record-error-too-long = Гижӧд вывті кузь.
 
