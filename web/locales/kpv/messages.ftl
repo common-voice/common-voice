@@ -32,11 +32,14 @@ eo = эсперанто кыв
 es = Испан кыв
 et = Эст кыв
 fi = Суоми кыв
+fo = Фарер кыв
 fr = Франсуз кыв
 fy-NL = Фриз кыв
 ga-IE = Ирландса кыв
 he = Иврит кыв
+hsb = Сорб кыв
 hu = Маддяр кыв
+ia = Интерлингуа кыв
 id = Индонезия кыв
 is = Исландса кыв
 it = Итальян кыв
@@ -57,6 +60,7 @@ nn-NO = Норвег кыв (нюношк)
 or = Одиа кыв
 pl = Поляк кыв
 pt-BR = Португал кыв (Бразилия)
+rm = Романш кыв
 ro = Румын кыв
 ru = Роч кыв
 sah = Саха кыв
@@ -88,11 +92,14 @@ profile = Профиль
 help = Отсӧг
 contact = Йитӧд
 privacy = Арабӧн
+link-copied = Ыстӧд копируйтӧма
+back-top = Косны
 contribution-banner-button = Видзӧдышт
 
 ## Home Page
 
 show-wall-of-text = Лыддьы унджык
+help-us-title = Отсав миянӧс видлавны сёрникузяяс.
 vote-yes = Да
 vote-no = Абу
 
@@ -101,6 +108,7 @@ vote-no = Абу
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = Ворсӧм/Дугдӧм
 
 ## Speak Shortcuts
 
@@ -120,10 +128,13 @@ profile-form-age =
     .label = Арлыд
 profile-form-gender =
     .label = Пӧв
+profile-form-submit-save = Видз
+profile-form-submit-saved = Видзӧма
 male = ай
 female = энь
 # Gender
 other = Мӧд
+why-profile-title = Мыйла ас листбок?
 
 ## FAQ
 
