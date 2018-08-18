@@ -1,5 +1,6 @@
 ## General
 
+yes-receive-emails = Да, ысты меным электроннӧй поштаяс. Ме кӧсъя тӧдны водзлань Common Voice проект йылысь.
 return-to-cv = Бӧр Common Voice вылӧ
 email-input =
     .label = Электроннӧй пӧшта
@@ -92,12 +93,14 @@ profile = Профиль
 help = Отсӧг
 contact = Йитӧд
 privacy = Арабӧн
+terms = Удж тэчан ног
 link-copied = Ыстӧд копируйтӧма
 back-top = Косны
 contribution-banner-button = Видзӧдышт
 
 ## Home Page
 
+home-cta = Сёрнит, пукты пай тані!
 show-wall-of-text = Лыддьы унджык
 help-us-title = Отсав миянӧс видлавны сёрникузяяс.
 vote-yes = Да
@@ -114,16 +117,21 @@ shortcut-play-toggle-label = Ворсӧм/Дугдӧм
 
 shortcut-record-toggle-label = Гиж/помась
 request-language-text = Он на аддзыв ас кывтӧ Common Voice вылын?
+request-language-button = Сет корӧм кыв вылӧ
 
 ## ProjectStatus
 
+english = Англискӧйӧн
 
 ## ProfileForm
 
+profile-form-delete = Чышкы ас листбок
 profile-form-username =
     .label = Ним
 profile-form-language =
     .label = Кыв
+profile-form-accent =
+    .label = Сёрнитанног
 profile-form-age =
     .label = Арлыд
 profile-form-gender =
@@ -145,6 +153,7 @@ profile-close = Пӧдлав
 faq-title = Унаысь сетана юалӧм
 faq-what-q = Мый сійӧ Common Voice?
 faq-important-q = Мыйля сійӧ колана?
+faq-get-q = Кыдз ме верма пай пуктыны Common Voice вылӧ?
 
 ## Profile
 
@@ -157,16 +166,25 @@ notfound-title = Эз аддзы
 ## Data
 
 data-download-yes = Да
+data-other-goto = Мун { $name } вылӧ
+data-other-ted-name = TED-LIUM корпус
 
 ## Record Page
 
 record-retry = Видлы выльысь
+record-no-mic-found = Микрофон абу аддзӧма.
 record-error-too-short = Гижӧд вывти дзеньыд.
 record-error-too-long = Гижӧд вывті кузь.
+record-error-too-quiet = Гижӧд вывті ньӧж.
+record-help = Личкы гижны, сы бӧрын лыддьы вылыса сёрникузя.
+terms-agree = Сӧглас.
+terms-disagree = Абу сӧглас.
+review-recording = Видзӧдлӧм
 
 ## Download Modal
 
 download-title = Файл заводитіс пырны
+download-no = Оз ков
 
 ## Contact Modal
 
