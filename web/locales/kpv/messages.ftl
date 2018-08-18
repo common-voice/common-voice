@@ -135,17 +135,24 @@ female = энь
 # Gender
 other = Мӧд
 why-profile-title = Мыйла ас листбок?
+edit-profile = Пырт вежсьӧмъяс ас листбокӧ
+profile-create = Вӧч ас листбок
+profile-create-success = Артмис вӧчны ас листбок!
+profile-close = Пӧдлав
 
 ## FAQ
 
+faq-title = Унаысь сетана юалӧм
 faq-what-q = Мый сійӧ Common Voice?
 faq-important-q = Мыйля сійӧ колана?
 
 ## Profile
 
+profile-why-title = Мыйла ас листбок?
 
 ## NotFound
 
+notfound-title = Эз аддзы
 
 ## Data
 
@@ -159,6 +166,7 @@ record-error-too-long = Гижӧд вывті кузь.
 
 ## Download Modal
 
+download-title = Файл заводитіс пырны
 
 ## Contact Modal
 
@@ -186,6 +194,12 @@ sentences = Сёрникузяяс
 
 ## New Contribution
 
+action-click = Личкыны
 listen = Кывзы
+skip = Вуджӧм
+shortcuts = Дзеньдӧдӧмъяс
+record-cta = Заводит гижны
 record-last-instruction = Медбӧръя!
+record-abort-continue = Дугды гижны
 listen-last-time-instruction = Медбӧръя!
+record-button-label = Гиж тэнад гор
