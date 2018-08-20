@@ -133,6 +133,7 @@ toggle-play-tooltip = Oxutma modunu keçirtmək üçün { shortcut-play-toggle }
 speak-subtitle = Səsinizi iadə edin
 speak-paragraph = Səs klipləri açıq məlumat bazasını qurmağımızın ən əsas hissəsidir; bəziləri üçün bu həm də ən əyləncəli hissədir.
 speak-goal-text = Qeyd edilmiş kliplər
+listen-subtitle = Səsləri təsdiqləməyimizə kömək edin
 listen-paragraph = İanə edilmiş klikləri təsdiqləmək Common Voice missiyası üçün eyni səviyyədə əhəmiyyətlidir. Qulaq asın və keyfiyyətli açıq səs məlumatları yaratmağımıza kömək edin.
 listen-goal-text = Təsdiqlənmiş kliplər
 
