@@ -126,6 +126,10 @@ no-clips-to-validate = Yettban d akken ulac yakan ikalasen ara tesleḍ deg tutl
 vote-yes = Ih
 vote-no = Ala
 toggle-play-tooltip = Tekki ɣef { shortcut-play-toggle } i wakken ad yuɣal ɣer uskar n tɣuri.
+speak-subtitle = Mmud taɣect-ik
+speak-goal-text = Tukkisin ittwaskelsen
+listen-subtitle = Fket-aɣ afus n tallelt akken ad nsentem tuɣac
+listen-goal-text = Tukkisin yettwasentmen
 
 ## Speak & Listen Shortcuts
 
