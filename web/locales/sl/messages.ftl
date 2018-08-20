@@ -127,6 +127,8 @@ no-clips-to-validate = Videti je, da trenutno ni posnetkov, ki bi jih lahko posl
 vote-yes = Da
 vote-no = Ne
 toggle-play-tooltip = Pritisnite { shortcut-play-toggle } za preklop načina predavjanja
+speak-subtitle = Prispevajte svoj glas
+speak-goal-text = Posnetki posneti
 
 ## Speak & Listen Shortcuts
 
