@@ -128,6 +128,7 @@ no-clips-to-validate = Φαίνεται ότι δεν υπάρχει κανέν�
 vote-yes = Ναι
 vote-no = Όχι
 toggle-play-tooltip = Πατήστε το πλήκτρο { shortcut-play-toggle } για εναλλαγή της κατάστασης αναπαραγωγής
+speak-subtitle = Δωρίστε τη φωνή σας
 
 ## Speak & Listen Shortcuts
 
@@ -315,7 +316,6 @@ request-language-success-content = Θα σας ενημερώσουμε πώς �
 language-section-in-progress = Σε εξέλιξη
 language-section-in-progress-description = Οι γλώσσες υπό κατασκευή δημιουργούνται με τη συνεισφορά των κοινοτήτων μας. Η πρόοδός τους αντανακλά την πορεία της μετάφρασης της ιστοσελίδας και της συλλογής προτάσεων.
 language-section-launched = Σε λειτουργία
-language-section-launched-description = Για αυτές τις εν λειτουργία γλώσσες, η ιστοσελίδα έχει μεταφραστεί επιτυχώς και έχουν συλλεχθεί αρκετές προτάσεις, ώστε να επιτρέπεται η συνεχής συνεισφορά για <italic>{ speak }</italic> και <italic>{ listen }</italic>.
 language-section-launched-new-description = Για αυτές τις ενεργές γλώσσες, η ιστοσελίδα έχει μεταφραστεί επιτυχώς και έχουν συλλεχθεί αρκετές προτάσεις έτσι, ώστε να επιτρέπεται συνεχής συνεισφορά <italic>ομιλίας</italic> και <italic>ακρόασης</italic>.
 languages-show-more = Δείτε περισσότερα
 languages-show-less = Λιγότερα
@@ -337,7 +337,6 @@ contribute = Συνεισφορά
 listen = ακρόαση
 skip = Παράλειψη
 shortcuts = Συντομεύσεις
-clips = Κλιπς
 clips-with-count = <bold>{ $count }</bold> κλιπ
 goal-help-recording = Έχετε βοηθήσει το Common Voice να φτάσει το <goalPercentage></goalPercentage> του ημερήσιου { $goalValue } στόχου ηχογραφήσεών μας!
 goal-help-validation = Έχετε βοηθήσει το Common Voice να φτάσει το <goalPercentage></goalPercentage> του ημερήσιου { $goalValue } στόχου επαληθεύσεών μας!
