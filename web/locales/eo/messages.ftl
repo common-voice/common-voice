@@ -120,6 +120,7 @@ wall-of-text-start = Voĉo estas natura, voĉo estas homa. Tial ni volegas krei 
 wall-of-text-more-mobile = La plimulto de la datumoj uzataj de grandaj kompanioj ne estas estas uzeblaj de iu ajn. Ni pensas ke tio sufokas novaĵkreemon. Tial ni lanĉis la projekton Common Voice, kiu helpas malfermi la pordojn de voĉrekono al ĉiuj.
 wall-of-text-more-desktop = Nun vi povas donaci vian voĉon por helpi nin konstrui malfermitkodan voĉan datumbazo, kiun iuj ajn rajtas uzi por krei novajn programojn por aparatoj kaj por la reto.<lineBreak></lineBreak>Legu frazon por helpi maŝinojn kompreni kiel parolas veraj personoj. Kontrolu la laboron de aliaj kontribuantoj por plibonigi la kvaliton. Estas tiel simple!
 wall-of-text-first = Voĉo estas natura, voĉo estas homa. Tial ni volegas krei uzeblajn voĉajn teknologiojn por niaj maŝinoj. Sed por krei voĉajn sistemojn, programistoj bezonas tre grandan kvanton da voĉaj datumoj.
+wall-of-text-second = La plimulto de la datumoj uzataj de grandaj kompanioj ne estas estas uzeblaj de iu ajn. Ni pensas ke tio sufokas novaĵkreemon. Tial ni lanĉis la projekton Common Voice, kiu helpas igi voĉrekonon malfermita kaj alirebla por ĉiuj.
 show-wall-of-text = Pli da informo
 help-us-title = Helpu nin revizii frazojn!
 help-us-explain = Premu "ludi", aŭskultu kaj diru al ni: ĉu ili bone diris la suban frazon?
@@ -127,7 +128,11 @@ no-clips-to-validate = Ŝajne estas neniu aŭskultebla voĉregistro en tiu ĉi l
 vote-yes = Jes
 vote-no = Ne
 toggle-play-tooltip = Premu { shortcut-play-toggle } por ludi/haltigi
-speak-goal-text = Registritaj voĉregistroj
+speak-subtitle = Donacu vian voĉon
+speak-paragraph = Fari voĉregistroj estas kerna parto de la konstruo de nia malfermita datumaro; kelkaj dirus ke ĝi ankaŭ estas la amuza parto.
+speak-goal-text = Nombro de voĉregistroj
+listen-subtitle = Helpu nin validigi voĉojn
+listen-paragraph = Validigi voĉregistrojn estas same grava por la misio de Common Voice. Aŭskultu do, kaj helpu nin krei altkvalitan malfermitkodan voĉan datumaron.
 listen-goal-text = Validigitaj voĉregistrojn
 
 ## Speak & Listen Shortcuts
