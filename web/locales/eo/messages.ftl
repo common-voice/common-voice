@@ -127,6 +127,8 @@ no-clips-to-validate = Ŝajne estas neniu aŭskultebla voĉregistro en tiu ĉi l
 vote-yes = Jes
 vote-no = Ne
 toggle-play-tooltip = Premu { shortcut-play-toggle } por ludi/haltigi
+speak-goal-text = Registritaj voĉregistroj
+listen-goal-text = Validigitaj voĉregistrojn
 
 ## Speak & Listen Shortcuts
 
