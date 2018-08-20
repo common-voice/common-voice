@@ -129,6 +129,7 @@ vote-no = Ne
 toggle-play-tooltip = Pritisnite { shortcut-play-toggle } za preklop načina predavjanja
 speak-subtitle = Prispevajte svoj glas
 speak-goal-text = Posnetki posneti
+listen-subtitle = Pomagajte nam potrditi glasove
 
 ## Speak & Listen Shortcuts
 
