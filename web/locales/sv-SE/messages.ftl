@@ -119,6 +119,11 @@ home-cta = Öppna din mun, stöd projekt och gör ett bidrag!
 wall-of-text-start = Språk är naturligt, språk är mänskligt. Därför fascineras vi av att skapa användbara taligenkänningsteknologier för våra enheter. Att utveckla röstbaserade system kräver emellertid en mycket stor mängd inspelningar i talat språk.
 wall-of-text-more-mobile = En större del av den data som används av stora företag är emellertid otillgänglig för de flesta människor. Vi tror att detta kommer att förhindra innovation. Därför lanserade vi projektet Common Voice, ett projekt som hjälper till att göra taligenkänning tillgänglig för alla.
 wall-of-text-more-desktop = Nu kan du donera din röst för att hjälpa oss att bygga en röstdatabas med öppen källkod som alla kan använda för att skapa innovativa appar för enheter och webben.<lineBreak></lineBreak>Läs en mening för att hjälpa maskiner att lära sig hur riktiga människor pratar. Kontrollera andra bidragsgivares arbete för att förbättra kvaliteten. Det är så enkelt!
+wall-of-text-first = Språk är naturligt, språk är mänskligt. Därför är vi glada att skapa användbar röstteknik för våra maskiner. Men för att skapa röstsystem behöver utvecklare en extremt stor mängd röstdata.
+wall-of-text-second =
+    De flesta av de data som används av stora företag är inte tillgängliga för de flesta människor. Vi tror det
+    kväver innovation. Så vi har lanserat Common Voice, ett projekt som gör att röstigenkänning öppnas upp
+    och blir tillgänglig för alla.
 show-wall-of-text = Läs mer
 help-us-title = Hjälp oss validera meningar!
 help-us-explain = Tryck på Play, lyssna och berätta: Var följande mening inspelad korrekt?
@@ -128,6 +133,10 @@ vote-no = Nej
 toggle-play-tooltip = Tryck på { shortcut-play-toggle } för att växla uppspelningsläge
 speak-subtitle = Donera din röst
 speak-paragraph = Inspelning av röstklipp är en integrerad del av att bygga upp vår öppna datamängd; vissa skulle säga att det är den roliga delen också.
+speak-goal-text = Inspelade klipp
+listen-subtitle = Hjälp oss att validera röster
+listen-paragraph = Validera donerade klipp är lika viktigt för Common Voice. Lyssna och hjälp oss att skapa kvalitetsdata för öppen källkod.
+listen-goal-text = Klipp validerade
 
 ## Speak & Listen Shortcuts
 
