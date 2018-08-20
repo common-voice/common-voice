@@ -11,23 +11,6 @@ import {
 
 import './hero.css';
 
-const strings = {
-  speak: {
-    'subtitle-line-1': 'Donate',
-    'subtitle-line-2': 'your voice',
-    paragraph:
-      "Recording voice clips is an integral part of building our open dataset; some would say it's the fun part too.",
-    'goal-text': 'Clips recorded',
-  },
-  listen: {
-    'subtitle-line-1': 'Help us',
-    'subtitle-line-2': 'validate voices',
-    paragraph:
-      'Validating donated clips is equally as important to the Common Voice mission. Take a listen and help us create quality, open source voice data.',
-    'goal-text': 'Clips validated',
-  },
-};
-
 interface PropsFromState {
   api: API;
 }
@@ -103,7 +86,6 @@ class Hero extends React.Component<
     const { type, status, onShow, onHide } = this.props;
     const { count } = this.state;
     const isSpeak = type == 'speak';
-    const s = strings[type];
     return (
       <div
         className={['hero-box', type, status].join(' ')}
@@ -115,17 +97,13 @@ class Hero extends React.Component<
             <h1 />
           </Localized>
           <h3>
-            <Localized id={type + '-subtitle-line-1'}>
-              <span>{s['subtitle-line-1']}</span>
-            </Localized>
-            <span> </span>
-            <Localized id={type + '-subtitle-line-2'}>
-              <span>{s['subtitle-line-2']}</span>
+            <Localized id={type + '-subtitle'}>
+              <span />
             </Localized>
           </h3>
           <div {...this.getToggleableProps(0)}>
             <Localized id={type + '-paragraph'}>
-              <p className="description">{s['paragraph']}</p>
+              <p className="description" />
             </Localized>
           </div>
         </div>
@@ -156,7 +134,7 @@ class Hero extends React.Component<
             </span>
           </span>
           <Localized id={type + '-goal-text'}>
-            <p>{s['goal-text']}</p>
+            <p />
           </Localized>
         </div>
         <div className="gradient left" />

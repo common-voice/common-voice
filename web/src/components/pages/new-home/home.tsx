@@ -48,13 +48,13 @@ export default class HomePage extends React.Component<{}, State> {
             </div>
 
             <div className="description">
-              <Localized id="wall-of-text-start">
+              <Localized id="wall-of-text-first">
                 <p />
               </Localized>
 
               <br />
 
-              <Localized id="wall-of-text-more-mobile">
+              <Localized id="wall-of-text-second">
                 <p />
               </Localized>
 

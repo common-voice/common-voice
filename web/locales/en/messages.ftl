@@ -122,6 +122,14 @@ wall-of-text-more-desktop =
   to make innovative apps for devices and the web.<lineBreak></lineBreak>
   Read a sentence to help machines learn how real people speak. Check the work of other
   contributors to improve the quality. It’s that simple!
+wall-of-text-first =
+  Voice is natural, voice is human. That’s why we’re excited about creating usable voice technology
+  for our machines. But to create voice systems, developers need an extremely large amount of voice
+  data.
+wall-of-text-second =
+  Most of the data used by large companies isn’t available to the majority of people. We think that
+  stifles innovation. So we’ve launched Common Voice, a project to help make voice recognition open
+  and accessible to everyone.
 show-wall-of-text = Read More
 help-us-title = Help us validate sentences!
 help-us-explain = Press play, listen & tell us: did they accurately speak the sentence below?
@@ -129,6 +137,12 @@ no-clips-to-validate = Looks like there aren't any clips to listen to in this la
 vote-yes = Yes
 vote-no = No
 toggle-play-tooltip = Press { shortcut-play-toggle } to toggle play mode
+speak-subtitle = Donate your voice
+speak-paragraph = Recording voice clips is an integral part of building our open dataset; some would say it's the fun part too.
+speak-goal-text = Clips recorded
+listen-subtitle = Help us validate voices
+listen-paragraph = Validating donated clips is equally important to the Common Voice mission. Take a listen and help us create quality open source voice data.
+listen-goal-text = Clips validated
 
 ## Speak & Listen Shortcuts
 # Must be one letter that appears in the translated { skip } string.
