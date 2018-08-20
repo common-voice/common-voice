@@ -161,6 +161,7 @@ export default class DB {
         FROM sentences
         LEFT JOIN locales ON sentences.locale_id = locales.id
         WHERE locales.name IN (?) AND sentences.is_used
+        GROUP BY locale
       `,
       [locales]
     );
