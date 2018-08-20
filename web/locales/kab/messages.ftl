@@ -132,6 +132,7 @@ speak-subtitle = Mmud taɣect-ik
 speak-paragraph = Asekles n tukkisin n taɣect yekcem di lebni n tagrumma n yisefka yeldin; llan wid ara d-yinin yelha i zhu.
 speak-goal-text = Tukkisin ittwaskelsen
 listen-subtitle = Fket-aɣ afus n tallelt akken ad nsentem tuɣac
+listen-paragraph = Asentem n tukkisin yesɛa azal meqqren i tuɣdaṭ n Common Voice. Sell akken aɣ-d-tefkeḍ tallalt ad nesnulfu isefka n taɣect n aɣbalu yeldin s tɣara.
 listen-goal-text = Tukkisin yettwasentmen
 
 ## Speak & Listen Shortcuts
