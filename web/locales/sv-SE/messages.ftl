@@ -126,6 +126,8 @@ no-clips-to-validate = Det verkar som om det inte finns några klipp att lyssna 
 vote-yes = Ja
 vote-no = Nej
 toggle-play-tooltip = Tryck på { shortcut-play-toggle } för att växla uppspelningsläge
+speak-subtitle = Donera din röst
+speak-paragraph = Inspelning av röstklipp är en integrerad del av att bygga upp vår öppna datamängd; vissa skulle säga att det är den roliga delen också.
 
 ## Speak & Listen Shortcuts
 
@@ -313,7 +315,6 @@ request-language-success-content = Vi hör av oss med mer information om hur du 
 language-section-in-progress = Pågående
 language-section-in-progress-description = Pågående språk byggs nu för bidrag från våra gemenskaper. Deras framsteg återspeglar var de står i översättning av webbplatsen och insamling av meningar.
 language-section-launched = Lanserad
-language-section-launched-description = För dessa lanserade språk har webbplatsen översatts fullständigt och tillräckligt med meningar har samlats in för att möjliggöra ett pågående samarbete genom <italic>{ speak }</italic> och <italic>{ listen }</italic>.
 language-section-launched-new-description = För dessa lanserade språk har webbplatsen översatts fullständigt och tillräckligt med meningar har samlats in för att möjliggöra ett pågående samarbete genom <italic>Tala</italic> och <italic>Lyssna</italic>.
 languages-show-more = Läs mer
 languages-show-less = Visa mindre
@@ -335,7 +336,6 @@ contribute = Bidra
 listen = Lyssna
 skip = Hoppa över
 shortcuts = Genvägar
-clips = Klipp
 clips-with-count = <bold>{ $count }</bold> klipp
 goal-help-recording = Du har hjälp Common Voice att nå <goalPercentage></goalPercentage> av vårt dagliga { $goalValue } inspelningsmål!
 goal-help-validation = Du har hjälp Common Voice att nå <goalPercentage></goalPercentage> av vårt dagliga { $goalValue } valideringsmål!
