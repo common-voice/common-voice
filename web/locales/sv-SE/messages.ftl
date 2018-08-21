@@ -139,6 +139,8 @@ listen-paragraph = Validera donerade klipp är lika viktigt för Common Voice. L
 listen-goal-text = Klipp validerade
 hours-recorded = Timmar inspelade
 hours-validated = Timmar validerade
+read-terms-q = Har du läst våra villkor?
+ready-to-record = Är du redo att donera din röst?
 
 ## Speak & Listen Shortcuts
 
