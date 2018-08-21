@@ -104,11 +104,11 @@ non è trasparente come quanto pagare una licenza.
 Effettivamente con un software proprietario avremo gli stessi costi.
 Non è detto che il software proprietario sia estendibile, modificabile e che venga messo a disposizione il codice sorgente.
 Oltre che, in caso di necessità di supporto, è necessario appoggiarsi a terzi.
-Ad ogni evento miglioriamo sempre di più il tiro per offrire argomenti che non siano solo migrazioni, temi da sysadmin o di sviluppo.
-Ma, invece, più pensati al mondo business riguardo l’open source.
+Ad ogni evento miglioriamo sempre di più per offrire argomenti che non siano solo migrazioni, temi da sysadmin o di sviluppo.
 Ad oggi di conferenze, presentazioni e incontri su quelle tematiche se ne trovano di tutti i tipi.
-Il nostro scopo non è parlare ai tecnici ma parlare ai manager o a chi si occupa di offrire soluzioni ai clienti e quindi, meno tecnicismi ci sono e meglio è.
-In questo incontro abbiamo quindi fatto una scelta ragionata, essendo stato il percorso con più proposte su tematiche per questo target di persone.
+Il nostro scopo non è parlare ai tecnici ma parlare ai manager o a chi si occupa di offrire soluzioni ai clienti
+meno tecnicismi ci sono e meglio è.
+In questo incontro abbiamo fatto una scelta ragionata
 L’evento per noi come associazione, viste le varie coincidenze, è un punto di non ritorno per puntare a crescere.
 Sì, lo scopo dei prossimi due anni è crescere come numeri di iscritti e come attività che ci vedono coinvolti.
 Il momento assemblea aperto a tutti ci è servito per avere pareri e suggerimenti su diversi aspetti.
@@ -126,18 +126,21 @@ Riprendendo il titolo dalla minaccia fantasma di un altro film lodato da pochi e
 Oggi ci troviamo in una situazione veramente da film.
 Dalle fughe di notizie con Snowden sappiamo tutti che siamo spiati quando siamo su Internet oppure quando usiamo il computer.
 Una frase che gira nella cultura hacker è che, l’unico computer sicuro, non è quello sconnesso da internet ma quello spento.
-Per questo motivo i computer che si occupano di contenere archivi di dati molto sensibili sono scollegati dalla rete ma oggi non basta neanche quello.
+i computer che si occupano di contenere archivi di dati molto sensibili sono scollegati dalla rete.
 In poche parole hanno ragione gli hacker e adesso vi spiego perché!
-In elettronica, anzi in fisica, esistono le onde radio che il nostro connazionale Marconi riuscì ad utilizzare inventando la radio che ha rivoluzionato il mondo.
+In elettronica, anzi in fisica, esistono le onde radio
+il nostro connazionale Marconi riuscì ad utilizzare le onde radio inventando la radio che ha rivoluzionato il mondo.
 Allo stesso tempo, qualunque segnale ha diverse frequenze.
-Un esempio casalingo sono i vecchi televisori e i moderni che supportano le prese SCART che sono di tipo analogico, mentre quelle HDMI sono digitali.
 Ogni pin di questa presa forniva differenti informazioni.
 Ad esempio dal sonoro per un canale o un range di colori.
 Quindi se si rompeva un pin, il risultato era pessimo.
 In poche parole si buttava il cavo e se ne comprava uno nuovo.
-Quindi ci trovavamo in una situazione in cui si poteva continuare ad utilizzare il cavo anche se il risultato non era soddisfacente.
+Quindi ci trovavamo in una situazione in cui si poteva continuare ad utilizzare il cavo
+il risultato non era soddisfacente.
 Nel digitale invece o c’è segnale o… niente, altrimenti non si ottiene nulla.
-Il digitale è un unico flusso, per questo motivo si usano ora i cavi HDMI, per avere il miglior segnale come qualità ma che se si rompono sono da buttare.
+Il digitale è un unico flusso
+per avere il miglior segnale come qualità
+se si rompono sono da buttare.
 Il libro, in quanto tale, appartiene all'autore, ma in quanto pensiero appartiene, senza voler esagerare, al genere umano.
 Tutti gli intelletti ne hanno diritto.
 Se uno dei due diritti, quello dello scrittore e quello dello spirito umano, dovesse essere sacrificato, sarebbe certo quello dello scrittore.
@@ -207,8 +210,8 @@ Si ritiene necessaria per poter eseguire un censimento della community, offrire 
 Tali attività dovranno essere supervisionate da membri del council o da coach specifici che dovranno offrire il loro supporto per l’organizzazione e la realizzazione delle stesse.
 Per ogni tipologia di attività verranno nominati dei coach specifici e in numero sufficiente.
 Poter gestire tutti i membri senza che il monte orario settimanale per questa attività superi un tetto massimo di due ore.
-In ogni caso, si rende fondamentale che tutti i volontari riescano ad esser formati e abbiano le capacità per poter diventare membri di programmi o attività ufficiali riconosciute dalla community internazionale di Mozilla.
-L'obiettivo di Mozilla Italia è quello di promuovere le attività, i programmi, le campagne e le finalità della Mozilla Foundation a livello locale.
+tutti i volontari devono esser formati
+L'obiettivo di Mozilla Italia è quello di promuovere le attività, i programmi, le campagne a livello locale.
 Pertanto è necessario che i nuovi volontari vengano, in prima analisi, orientati verso tutte le iniziative ufficiali della fondazione.
 Nel caso in cui non possano prenderne parte, offrirgli la possibilità di realizzare attività promosse dal participation team nazionale.
 Inoltre, hanno l’opportunità di portare avanti progetti Open Source, collaborare con altre realtà locali che perseguono i nostri stessi obiettivi.
@@ -760,106 +763,141 @@ Gli altri paesi dell'unione europea stanno guardando questa campagna con occhi i
 Il ministro sta valutando anche altre possibili campagne in altri campi tra cui le fonti di energie rinnovabili e altro ancora non reso pubblico.
 Le grandi industrie automobilistiche, presenti nel nostro paese, hanno chiesto di fare una cosa simile anche per i loro prodotti ma la risposta da parte del Ministro è stata negativa.
 Il ministro ha detto “abbiamo dato alle industrie automobilistiche, come alle banche, per uscire dalla crisi molti soldi e adesso devono farli fruttare.
-Noi aiuteremo, adesso, quegli altri settori più piccoli ma altrettanto importanti presenti nel nostro paese.”
-Il presidente della repubblica ha voluto commentare questo avvenimento dicendo “noi italiani dobbiamo dimostrare di essere tecnologici e di stare allo stesso livello tecnologico degli altri paesi europei quindi approfittatene italiani.
-Anch'io ne approfitterò per prendere un televisore nuovo.” afferma ridendo.
+Noi aiuteremo, adesso, quegli altri settori più piccoli ma altrettanto importanti presenti nel nostro paese.
+Il presidente della repubblica ha voluto commentare questo avvenimento
+noi italiani dobbiamo dimostrare di essere tecnologici e di stare allo stesso livello tecnologico degli altri paesi europei.
+Anch'io ne approfitterò per prendere un televisore nuovo.
 La borsa a quest'annuncio ha avuto subito dei rialzi, a dimostrazione che l'Italia ha sempre proposte nuove per aiutare i suoi italiani.
-Le grandi catene e i vari negozi stanno facendo moltissime richieste ai loro produttori per avere il prima possibile nuovi prodotti da aggiungere al loro magazzino, perché a quanto si vede dai pareri dei sondaggi ci sarà  un grande afflusso di acquirenti.
-La catena che ha avuto l'idea ha affermato che l'idea di partenza l'ha ricevuta proprio da un email di un cittadino italiano anonimo, a dimostrazione che l'informatica non serve solo per simulare ma anche per sconvolgere pareri.
-Infatti affermava G.O.Longo “la nostra capacità di agire ha superato di molto la nostra capacità di prevedere [grazie alla tecnologia informatica e scientifica].
-La tecnologia è importante per ciò che ci consente di fare, non di capire.”
-“Noi sentiamo che, anche una volta che tutte le possibili domande scientifiche hanno avuto risposta, i nostri problemi vitali non sono ancora neppur toccati.” Questo affermava Wittgenstein.
-La scienza studia tutti i fenomeni apparenti come funzionano ma non riuscirà mai a capire perché quella cellula esiste o perché i pianeti girano in questo modo.
+Le grandi catene e i vari negozi stanno facendo moltissime richieste ai loro produttori per avere il prima possibile nuovi prodotti
+a quanto si vede dai pareri dei sondaggi ci sarà un grande afflusso di acquirenti.
+l'idea di partenza l'ha ricevuta proprio da un email di un cittadino italiano anonimo
+a dimostrazione che l'informatica non serve solo per simulare ma anche per sconvolgere pareri.
+la nostra capacità di agire ha superato di molto la nostra capacità di prevedere grazie alla tecnologia informatica e scientifica
+La tecnologia è importante per ciò che ci consente di fare, non di capire.
+La scienza studia tutti i fenomeni apparenti ma non riuscirà mai a capire perché quella cellula esiste
+perché i pianeti girano in questo modo?
 Come diceva anche Spencer la scienza studia il fenomeno in sé ma la religione permette di conoscere l'essenza del fenomeno.
-Tutto questo grande affidamento alla scienza non darà mai risposte alla fatidica domanda a cui nessun filosofo a trovato una risposta certa: perché noi esistiamo?
-Uno scienziato potrebbe dire che esistiamo perché nell'atto di fecondazione nella vita ci siamo formati e poi cresciuti sotto la forma che abbiamo adesso.
+questo grande affidamento alla scienza non darà mai risposte alla  domanda a cui nessun filosofo a trovato una risposta
+perché noi esistiamo?
+Uno scienziato potrebbe dire che esistiamo perché nell'atto di fecondazione nella vita ci siamo formati.
 Ad un bambino diremmo che ci ha portati la cicogna o che l'hanno trovato sotto un cavolfiore.
-La vita non è solo l'atto di fecondazione è un atto di amore di cui i genitori, si spera consapevolmente, decidono che l'unico modo per poter vedere un frutto dal loro amore sia quello di avere una prole.
+La vita non è solo l'atto di fecondazione è un atto di amore
+l'unico modo per poter vedere un frutto dal loro amore sia quello di avere una prole.
 Lì la scienza dovrebbe dirci che cos'è l'amore.
 Direbbe è un desiderio sessuale che hanno tutti gli essere viventi.
 Mai fu fatto un così grande errore.
 L'amore non ha una definizione scientifica e forse anche filosofica.
-Oggi giorno la scienza è l'unico faro presente nel mondo che dà risposte mentre la secolarizzazione ormai sta raggiungendo il suo scopo e la fede religiosa è vista come insulsa da chi non la segue.
+la scienza è l'unico faro presente nel mondo che dà risposte mentre la secolarizzazione ormai sta raggiungendo il suo scopo
+la fede religiosa è vista come insulsa da chi non la segue.
 La scienza potrà darci le soluzioni a tutte le malattie ma non potrà mai spiegare perché ci sono i miracoli.
 Per certa gente queste cose è meglio ignorarle.
-Ecco ignorare la presenza divina o le sue manifestazioni significa mettersi i paraocchi come ai cavalli che non devono distrarsi o potrebbero creare problemi al cocchiere.
+ignorare la presenza divina o le sue manifestazioni significa mettersi i paraocchi come ai cavalli.
 La scienza è il progresso ovvero una ricerca per migliorare la condizione di vita terrena ma non spiegherà mai cos'è l'amore.
 Per poter spiegare il concetto bastano questo estratto di un discorso di Schoenbern.
 I progressi della scienza sono un capitolo tra i più affascinanti nella storia del nostro tempo.
 I suoi enormi successi sono stati raggiunti, peraltro, attraverso una delimitazione metodica.
 Ci si è limitati strettamente e del tutto consapevolmente a ricercare soltanto ciò che poteva essere misurato e contato.
-Ma ogni delimitazione comporta anche dei confini e dunque sono “rimaste fuori” tutte le questioni che riguardano il perché dell’esistenza, da dove veniamo, dove andiamo.
+ogni delimitazione comporta anche dei confini
+sono “rimaste fuori” tutte le questioni che riguardano il perché dell’esistenza, da dove veniamo, dove andiamo.
 In Italia è uscita da poco la famosa rivista americana Wired.
 Questa rivista è l'anello di congiunzione per la tecnologia scienza e informatica per chi non né un esperto.
-Adesso è al terzo numero e chissà cosa potrebbe diventare per l'Italia che è famosa per la sua arretratezza tecnologica.
-Gli italiani di tecnologico come innovazione prima di tutti  stata quella del digitale terrestre e subito si è pensato che è stata fatta per la Confederation Cup in arrivo
-Comunque Wired a quanto pare sta avendo un buon successo in Italia, ha incominciato la sua storia con Rita Levi Montalcini che parla dell'Italia e del futuro dove l'uomo è coinvolto dalla sua parte del cervello emotiva.
-Quindi noi ci facciamo coinvolgere più dall'emozioni che secondo lei hanno prevalso sulla cognitiva creando le guerre, la shoa ecc.
-Secondo me ha ragione perché una persona ha 100 ne abbia viste di tutte i colori ma non solo per quello ma anche perché l'uomo spesso pensa poco.
-La scienza è nata perché l'uomo deve pensare e sempre penserà ma non si può permettere di dare una spiegazione scientifica a tutto altrimenti si sterilisce l'essenza umana ovvero che non è portato all'amore ma ad una definizione scientifica e da studio godendo di ciò che fa.
+chissà cosa potrebbe diventare per l'Italia che è famosa per la sua arretratezza tecnologica.
+l' innovazione è quella del digitale terrestre e si è pensato che è stata fatta per la Confederation Cup in arrivo
+Wired a quanto pare sta avendo un buon successo in Italia
+ha cominciato la sua storia con Rita Levi Montalcini che parla dell'Italia e del futuro
+l'uomo spesso pensa poco.
+La scienza è nata perché l'uomo deve pensare e sempre penserà
+non si può permettere di dare una spiegazione scientifica a tutto altrimenti si sterilisce l'essenza umana
 La scienza ci ha permesso di scoprire la cura alla penicillina e tanto altro.
-È molto importante continuare a diffonderla ma bisogna diffondere anche l'idea che non è l'unica soluzione ai nostri problemi.
-George Orwell è lo pseudonimo di Eric Arthur Blair, nato il 25 giugno 1903 in India da genitori inglesi e morto il 21 gennaio 1950.
+non è l'unica soluzione ai nostri problemi.
+George Orwell è lo pseudonimo di Eric Arthur Blair
 Fu uno scrittore, saggista, giornalista e glottoteta.
-Questo personaggio è uno degli autori inglesi del XX secolo più apprezzati principalmente per i suoi due ultimi romanzi: La fattoria degli animali e 1984.
-Nato in india da padre funzionario del Servizio Civile Indiano, visse in una famiglia che cercava di salvaguardare le apparenze perché lo status che aveva in India era molto diverso da quello in patria, per questo Blair lo definì poi “nobiltà senza terra” il suo stile di vita in Inghilterra.
+Questo personaggio è uno degli autori inglesi del XX secolo più apprezzati
+Nato in india da padre funzionario del Servizio Civile Indiano
+visse in una famiglia che cercava di salvaguardare le apparenze
+lo status che aveva in India era molto diverso da quello in patria
 Nel 1907 va in Madre Patria con la madre e le due sorelle: dove viene iscritto ad un collegio.
-Ne esce con una borsa di studio, ma anche con un grosso complesso di inferiorità dovuto allo snobismo e alle umiliazioni della società inglese.
-Nel 1917 fu ammesso ad un altro college dove avrà per insegnante un grande esponente della letteratura dispotica [2] Aldous Huxley, a cui si ispirerà per alcuni suoi romanzi.
-Nel 1922 decide di seguire il lavoro del padre e va in Birmania ed entra nella Polizia Imperiale ma nel 1928 si dimette perché disgustato dell'arroganza imperialistica inglese.
-Da questa esperienza scrive nel 1934 Giorni in Birmania, quindi va a Parigi per conoscere le grandi metropoli europee, per guadagnarsi da vivere fa lavori molto umili come sguattero in locali e ristoranti e sopravvive solo con l'aiuto dell'Esercito della Salvezza.
+Ne esce con una borsa di studio
+un grosso complesso di inferiorità dovuto allo snobismo e alle umiliazioni della società inglese.
+fu ammesso ad un altro college
+decide di seguire il lavoro del padre e va in Birmania ed entra nella Polizia Imperiale
+nel 1928 si dimette perché disgustato dell'arroganza imperialistica inglese.
+va a Parigi per conoscere le grandi metropoli europee
+per guadagnarsi da vivere fa lavori molto umili come sguattero in locali e ristoranti
+sopravvive solo con l'aiuto dell'Esercito della Salvezza.
 Tornato in patria, visse allo stesso modo a Londra.
 Pubblica Senza un soldo a Parigi e Londra con lo pseudonimo di George Orwell, opera che segna l'inizio della sua carriera.
-Dal 1928 al 1936 svolge contemporaneamente diversi lavori come recensore di libri per alcuni giornali,  insegnante, commesso in una libreria.
-Nel 1935 pubblica La figlia del reverendo ispirato dal lavoro di insegnante e l'anno successivo Fiorirà l'aspidistra nato dalla sua esperienza di commercio.
-Nel 1936 si sposa e su commissione fa un'indagine sulle zone inglesi più colpite dalla depressione, da tale esperienza nasce La strada di Wigan Pier pubblicato nel 1937.
+svolge contemporaneamente diversi lavori come recensore di libri per alcuni giornali, insegnante, commesso in una libreria.
+Nel 1935 pubblica La figlia del reverendo ispirato dal lavoro di insegnante
+Nel 1936 si sposa
+su commissione fa un'indagine sulle zone inglesi più colpite dalla depressione
 Trasferitosi in campagna adibisce una stanza della sua casa a negozio dove vende i suoi prodotti agricoli.
 Da quest'attività prenderà l'ispirazione per La fattoria degli animali.
-Lo stesso anno va in Spagna e si unisce al Partito Operaio di Unificazione Marxista per combattere contro Francisco Franco, ma il clima politico cambia quando il partito comunista prende il potere, rimane ferito alla gola e torna in patria clandestinamente.
-Nel 1938 scrive Omaggio alla Catalogna, un reportage contro i comunisti spagnoli controllati dai sovietici accusati di aver tradito i lealisti e gli anarchici durante la rivoluzione.
+il clima politico cambia quando il partito comunista prende il potere
+rimane ferito alla gola e torna in patria clandestinamente.
+Nel 1938 scrive Omaggio alla Catalogna
+un reportage contro i comunisti spagnoli controllati dai sovietici
 Pubblica questa opera contro i dissensi nati all'interno della sinistra spagnola.
-La sua richiesta di partecipazione come volontario nella seconda guerra mondiale viene respinta ritenuto invalido e si arruola nella Home Guard (corpo di volontari che avrebbe respinto, in caso di necessità, l'invasione nazista in Inghilterra).
+La sua richiesta di partecipazione come volontario nella seconda guerra mondiale viene respinta
 Durante la guerra lavora per la BBC curando dei documentari propagandistici per l'India.
 Nel 1942 abbandona l'Home Guard e collabora a diverse riviste e diventa direttore del Tribune.
-Nel 1944 finisce di scrivere La fattoria degli animali che non viene pubblicata subito per via di espliciti riferimenti a Stalin che all'epoca era alleato inglese contro i nazifascisti.
-Lo stesso anno adotta un bambino, si dimette da direttore del Tribune e diventa corrispondente di guerra per un altro giornale.
+Nel 1944 finisce di scrivere La fattoria degli animali
+non viene pubblicata subito per via di espliciti riferimenti a Stalin
+all'epoca era alleato inglese contro i nazifascisti.
+Lo stesso anno adotta un bambino
+si dimette da direttore del Tribune e diventa corrispondente di guerra per un altro giornale.
 Nel 1945 la moglie lo abbandona e viene pubblicata La fattoria degli animali.
-Nel 1946 dirà una frase che permetterà di capire il suo orientamento politico : “Ogni riga di lavoro serio che ho scritto dal 1936 a questa parte è stata scritta, direttamente o indirettamente, contro il totalitarismo” e si trasferisce insieme al figlio alle isole Ebridi (Scozia).
-Lo stesso anno si ammala di tisi vivendo periodi molto spesso al sanatorio, nel 1948 si risposa e scrive “1984”.
+dirà una frase che permetterà di capire il suo orientamento politico
 Nel 1950 muore di tubercolosi polmonare a Londra a soli 47 anni.
-La fattoria degli animali, libro tra i più conosciuti di Blair, racconta la storia di alcuni animali che vivono in una fattoria dove soffrono la fame per cui si ribellano al loro fattore.
-La ribellione scoppierà quando un maiale molto anziano, grazie alla sua saggezza ed esperienza darà i suoi i dieci comandamenti per vivere bene in fattoria senza uomini.
-Gli animali quindi decidono di ribellarsi al fattore, lo cacciano e fondano un nuovo ordine sociale secondo cui tutti dovranno contribuire lavorando ma emergerà una razza di animali, il maiale, che non essendo adatto a nessun lavoro diventerà un burocrate.
-Tra i maiali hanno il predominio Napoleon e Palla di Neve, ma mentre il primo vuole conquistare le altre fattorie con la forza, l'altro propone di dare soltanto il buon esempio.
+La fattoria degli animali, racconta la storia di alcuni animali che vivono in una fattoria
+la sua saggezza ed esperienza darà i suoi i dieci comandamenti per vivere bene in fattoria senza uomini.
+Gli animali decidono di ribellarsi al fattore, lo cacciano e fondano un nuovo ordine sociale
+tutti dovranno contribuire lavorando ma emergerà una razza di animali
+non essendo adatto a nessun lavoro diventerà un burocrate.
+Tra i maiali hanno il predominio Napoleon e Palla di Neve
+il primo vuole conquistare le altre fattorie con la forza
+l'altro propone di dare soltanto il buon esempio.
 Napoleon riuscirà con la forza a prendersi la fattoria uccidendo il suo avversario.
-Con il passare del tempo la fattoria subirà dei cambiamenti, gli abitanti saranno ancora più vessati, anche se riescono a raddoppiare la produzione, mentre tutti i maiali si trasferiscono nella casa del fattore aumentando il potere sugli altri.
-Napoleon disporrà per tutta la fattoria cartelli con la sua effigie e uccide chi gli è contrario mettendosi d'accordo con un affarista umano per vendergli i prodotti a discapito dei lavoratori.
+la fattoria subirà dei cambiamenti
+gli abitanti saranno ancora più vessati
+riescono a raddoppiare la produzione
+Napoleon disporrà per tutta la fattoria cartelli con la sua effigie e uccide chi gli è contrario
 Quando uno degli animali, diventato un esempio di libertà per loro, si ferisce Napoleon lo venderà al macello.
-Tutti si rendono conto di aver commesso gli stessi errori degli uomini, tranne i maiali che vestendosi e comportandosi come gli uomini scateneranno la rabbia omicida degli abitanti.
-Con la metafora della vita degli animali della fattoria, Orwell vuole esprimere il suo No al totalitarismo e per farlo racconta questa favola.
+Tutti si rendono conto di aver commesso gli stessi errori degli uomini, tranne i maiali
+Orwell vuole esprimere il suo No al totalitarismo e per farlo racconta questa favola.
 È un modo per far capire  come la ribellione da un despota ha creato un altro potere e quindi non c'è soluzione.
-Gli animali non accettano che i maiali siano diventati come gli uomini, il loro nemico, quindi qualunque rivoluzione dettata da un'utopia fallirà e si trasformerà in tragedia.
-A differenza del libro successivo, 1984, questo è più semplice e immediato tanto che ne è stato tratto un cartone, a dimostrazione che la morale di questa favola pur se profonda è di facile comprensione.
-1984 è l'opera in cui si può riconoscere tutta la cultura  e il pensiero dell'autore perché vi analizza i moltissimi aspetti dell'uomo creando una storia tanto utopica quanto reale.
-Il titolo 1984 deriva dall'anno 1948, anno della prima stesura dell'opera, ma l'autore cambia l'ordine delle cifre poiché la storia si ambienta in un periodo più vicino al lettore rispetto a tutti gli altri romanzi di fantascienza dell'epoca e odierni.
+Gli animali non accettano che i maiali siano diventati come gli uomini, il loro nemico
+qualunque rivoluzione dettata da un'utopia fallirà e si trasformerà in tragedia.
+A differenza del libro successivo, 1984, questo è più semplice e immediato
+la morale di questa favola pur se profonda è di facile comprensione.
+1984 è l'opera in cui si può riconoscere tutta la cultura  e il pensiero dell'autore
+analizza i moltissimi aspetti dell'uomo creando una storia tanto utopica quanto reale.
+Il titolo 1984 deriva dall'anno 1948
+l'autore cambia l'ordine delle cifre poiché la storia si ambienta in un periodo più vicino al lettore
+tutti gli altri romanzi di fantascienza dell'epoca e odierni.
 La terrà è divisa in 3 grandi stati totalitari che sono perennemente in guerra tra loro, Oceania, Eurasia ed Estasia.
-Con questa guerra lo stato può controllare il popolo perché c'è scarsità di mezzi e di cibarie, questo concetto non è espresso chiaramente nell'opera ma soltanto il lettore attento riesce a capire questo dato importante.
+Con questa guerra lo stato può controllare il popolo perché c'è scarsità di mezzi e di cibarie
+il lettore attento riesce a capire questo dato importante.
 Ci troviamo in Oceania e la sede del governo è a Londra.
 In questo stato la società è amministrata secondo i principi del Socing.
 L'ignoranza è forza.
 La guerra è pace.
 La libertà è schiavitù.
-La nazione è governata da un partito unico con a capo Il Grande Fratello, un personaggio che non appare mai, ma la sua effige appare in tutto lo stato.
-Il Partito Interno è quello che ha il potere e controlla il Partito Esterno con televisori-videocamere che per legge si trovano in ogni casa dei membri del Partito e che possono essere spenti soltanto  dai membri del Partito Interno.
+La nazione è governata da un partito unico con a capo Il Grande Fratello, un personaggio che non appare mai
+la sua effige appare in tutto lo stato.
+per legge si trovano in ogni casa dei membri del Partito
+possono essere spenti soltanto dai membri del Partito.
 Questi televisori oltre a controllare la vita dei membri fanno propaganda 24 ore su 24.
 Il Ministero dell'amore, in Neolingua MinAmor, si occupa di convertire i dissidenti e di controllare i membri del partito.
-Il suo mezzo di controllo è la Psicopolizia (Neolingua) che cattura chi commette reati e li porta al MinAmor.
-Con quest'opera Orwell vuole indicare come sia possibile controllare l'uomo eliminando tutti i suoi bisogni, piaceri e pensieri solamente con gli slogan, con la lingua e la violenza occulta.
-Il personaggio si rende conto del potere che subisce, non l'accetta, cerca di ribellarsi, ma il Socing ormai è troppo potente, si è addentrato nella mente di tutti e non c'è via di scampo.
+Il suo mezzo di controllo è la Psicopolizia (Neolingua) che cattura chi commette reati.
+è possibile controllare l'uomo eliminando tutti i suoi bisogni, piaceri e pensieri solamente con gli slogan
+Il personaggio si rende conto del potere che subisce, non l'accetta, cerca di ribellarsi
+non c'è via di scampo.
 Per questo motivo 1984 è definito un romanzo Distopico, che si ambienta in un posto dove non è preferibile vivere.
 L'identità dell'uomo viene schiacciata e resa uguale a quella di tutti, l'unica cosa da fare è seguire il partito.
 È una realtà portata all'estremo dell'irrealtà  ma realistica allo stesso tempo.
-Per quest'opera Orwell si basa molto sulle idee staliniste: Stalin affermava di aver inventato il trattore e il carro armato quando non era vero, l'appellativo il Grande Fratello deriva da Piccolo Padre, appellativo di Stalin, gli slogan tipo “il partito è la saggezza del popolo” è leninista.
+Stalin affermava di aver inventato il trattore e il carro armato quando non era vero
+l'appellativo il Grande Fratello deriva da Piccolo Padre, appellativo di Stalin
 L'alterazione della realtà è un fatto visto più volte non solo nello stalinismo ma anche nel nazismo
 per esempio delle foto in cui c'erano i fondatori del partito venivano cancellati quando essi li tradivano.
 in Russia aveva contribuito al soviet ma che venne poi espulso
