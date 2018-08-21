@@ -106,11 +106,11 @@ class LanguagesPage extends React.PureComponent<Props, State> {
 
     function filterLanguages<T>(languages: T[]): T[] {
       return query
-        ? languages.filter(({ locale: { code, name } }: any) => {
+        ? languages.filter(({ locale }: any) => {
             const q = query.toLowerCase();
             return (
-              name.toLowerCase().includes(q) ||
-              NATIVE_NAMES[code].toLowerCase().includes(q)
+              locale.toLowerCase().includes(q) ||
+              (NATIVE_NAMES[locale] || '').toLowerCase().includes(q)
             );
           })
         : languages;
