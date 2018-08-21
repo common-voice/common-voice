@@ -138,6 +138,8 @@ listen-paragraph = ჩანაწერების გადამოწმე
 listen-goal-text = ჩანაწერები გადამოწმებულია
 hours-recorded = სთ ჩაწერილია
 hours-validated = სთ დამოწმებულია
+read-terms-q = გაეცანით ჩვენს პირობებს?
+ready-to-record = მზად ხართ, მოგვაწოდოთ თქვენი ხმის ჩანაწერი?
 
 ## Speak & Listen Shortcuts
 
