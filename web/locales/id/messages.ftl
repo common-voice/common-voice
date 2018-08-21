@@ -131,6 +131,7 @@ toggle-play-tooltip = Tekan { shortcut-play-toggle } untuk mengaktifkan mode put
 speak-subtitle = Sumbangkan suara Anda
 hours-recorded = Jam Terekam
 hours-validated = Jam Tervalidasi
+read-terms-q = Sudahkah Anda membaca Ketentuan kami?
 
 ## Speak & Listen Shortcuts
 
