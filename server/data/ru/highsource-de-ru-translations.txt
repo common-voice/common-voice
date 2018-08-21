@@ -447,4 +447,57 @@ Zudem gab es insgesamt weniger Handel zwischen Ost und West.
 Принимая во внимание инфляцию, процентные ставки можно даже считать отрицательными.;Wenn man die Inflation berücksichtigt, sind die Zinsen sogar negativ.
 Возможно, при следующем обновлении программного обеспечения.;Vielleicht ja beim nächsten Softwareupdate.
 Мой сын скучает по своей мягкой игрушке.;Mein Sohn vermisst sein Kuscheltier.
+<<<<<<< Upstream, based on branch 'issue-1332' of https://github.com/highsource/voice-web.git
 Пожалуйста говорите громче.;Bitte lauter sprechen.
+=======
+Пожалуйста говорите громче.;Bitte lauter sprechen.
+Тут нужно быть очень осторожным.;Da muss man höllisch aufpassen.
+Среди вещей было любовное письмо, датированное тысяча девятьсот двадцать первым годом.;Darunter war auch ein Liebesbrief aus dem Jahr neunzehnhunderteinundzwanzig.
+В некоторых странах можное купить визу непосредственно при въезде.;In einigen Ländern kann man das Visum direkt bei der Einreise erwerben.
+У тебя повязка сползла.;Dir sind deine Sachen verrutscht.
+Вы хотели бы зарегистрироваться?;Möchten Sie einchecken?
+Когда вы поступили в университет?;Wann haben Sie sich an der Universität eingeschrieben?
+И в этом барахле мы должны увидеть скульптуру?;In dem Gerümpel sollen wir die Skulptur finden?
+Татьяна получила высокую дозу облучения.;Tatjana ist total verstrahlt.
+Есть новые сообщения?;Gibt es neue Meldungen?
+Это плохо для местной экономики.;Dies ist schlecht für die örtliche Wirtschaft.
+А как вы узнали об этом плане?;Woher wussten Sie von dem Plan?
+Только хозяин имеет право приглашать новых гостей.;Nur der Gastgeber hat das Recht, weitere Leute einzuladen.
+Радуйтесь ещё.;Seien Sie froh.
+Нет, это было спонтанное решение.;Nein, das war eine spontane Entscheidung.
+Конец пробки находится за поворотом.;Das Stauende liegt hinter einer Kurve.
+Париж является столицей Франции.;Paris ist die Hauptstadt von Frankreich.
+Что это значит на голландском?;Was heißt das auf Niederländisch?
+Мне кажется, втайне София уже и сама так думала.;Ich denke, insgeheim hat Stefanie sich schon so etwas gedacht.
+Мы это исправим позже.;Wir regeln das später.
+В твоей малолитражке есть всё что нужно, разве что немного слабоват мотор.;Dein Kleinwagen bietet im Prinzip alles, was man braucht, ist aber etwas schwach auf der Brust.
+Валерия живет в старом панельном доме советской постройки.;Valerie wohnt in einem alten Plattenbau aus DDR-Zeiten.
+Когда кочевники перешли к осёдлому образу жизни?;Wann wurden die Nomaden sesshaft?
+Когда вам нужно идти к психиатру?;Ab wann muss man zum Idiotentest?
+Я забыл свои очки.;Ich habe meine Brille vergessen.
+Несомненно, Байкал - самое глубокое озеро в мире.;Die Müritz ist der größte See, der komplett innerhalb der Bundesrepublik liegt.
+Семён может печатать быстрее, чем говорить.;Thorsten kann schneller tippen als sprechen.
+Выйти из Mozilla Firefox.;Mozilla Firefox beenden.
+В рамках мер жесткой экономии треть рабочей силы была уволена.;Im Zuge von Sparmaßnahmen wurde ein Drittel der Belegschaft entlassen.
+Продолжайте!;Weitermachen!
+Удивительно, что дождевые черви и морские звезды могут легко отращивать оторванные части тела.;Es ist schon faszinierend, dass Regenwürmer und Seesterne abgetrennte Körperteile einfach regenerieren können.
+Нашли его при помощи фоторобота.;Mittels Rasterfahndung sind sie ihm auf die Schliche gekommen.
+Оскар предался воспоминаниям.;Oskar schwelgte in Erinnerungen.
+Для одних - героический поступок, для других - смертный грех.;Für die einen eine Heldentat, für die anderen eine Todsünde.
+Да ты уже просто с катушек съехал!;Du bist wohl nicht mehr ganz dicht!
+Да, и какой же форум я имею в виду?;Ja, welches Forum meine ich wohl?
+Никто из пытавшихся не смог достичь ядра планеты.;Niemand, der es versucht hat, hat den Kern des Planeten erreicht.
+Это страшно.;Das ist unheimlich.
+Пожалуйста, говорите тише.;Bitte leiser sprechen.
+Ты выбрал самый неподходящий момент.;Dein Timing ist denkbar schlecht.
+Анкара - столица Турции.;Ankara ist die Hauptstadt der Türkei.
+Я хочу поехать в Тюмень.;Ich möchte nach Trier.
+Томск не чета Омску.;Flensburg ist kein Vergleich zu Stuttgart
+Кто может назвать мне известного художника постмодерна?;Wer kann mir einen berühmten Maler der Postmoderne nennen?
+А наша передача уже подошла к концу, отрезал ведущий.;Und damit sind wir auch schon am Ende der Sendung, leitete der Moderator zum nächsten Thema über.
+Это единственный универмаг города, в котором ещё осталсялифт с открытыми кабинами.;Dies ist das einzige Kaufhaus der Stadt, in dem es noch einen Paternosteraufzug gibt.
+Маша, наконец, может открыто говорить о том, что ей пришлось пережить.;Michaela kann endlich offen über das Erlebte sprechen.
+Какой фарш возьмём - свиной, говяжий, или смешанный?;Nehmen wir Schwein, Rind oder gemischtes Hackfleisch?
+Если накрывать вентиляционные отверстия электрических приборов, они могут перегреться.;Wenn man Gegenstände auf die Lüftungsschlitze von elektrischen Geräten stellt, kann es passieren, dass diese überhitzen.
+Она порылась в сумке.;Sie kramte in ihrer Tasche.
+Либревиль - столица Габона.;Libreville ist die Hauptstadt von Gabun.
