@@ -129,26 +129,45 @@
 
     & .mars {
         margin-bottom: -2rem;
-        padding-left: 50%;
         display: flex;
-        flex-direction: column;
-        background: url("/img/mars-with-bg.svg") no-repeat center bottom;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
 
-        @media (--md-down) {
+        @media (--sm-down) {
             justify-content: center;
-            min-height: 300px;
-            background-size: cover;
-            background-position: 38% center;
+            background: url("/img/light-waves.svg");
         }
 
-        @media (--lg-up) {
-            flex-direction: row;
-            align-items: center;
+        @media (--md-up) {
             min-height: 408px;
+            background: url("/img/mars-with-bg.svg") no-repeat center bottom;
+
+        }
+
+        & .cta {
+            display: flex;
+            flex-direction: column;
+
+            @media (--md-up) {
+                padding-left: 50%;
+                flex-direction: row;
+                align-items: center;
+            }
+        }
+
+        & img {
+            @media (--sm-down) {
+                margin-bottom: 15px;
+                margin-right: 28px;
+            }
+            @media (--md-up) {
+                display: none;
+            }
         }
 
         & .primary-button {
-            @media (--md-down) {
+            @media (--sm-down) {
                 margin: 0;
                 justify-content: flex-start;
 
@@ -159,16 +178,17 @@
         }
 
         & h1 {
-            max-width: 300px;
             font-weight: normal;
 
-            @media (--md-down) {
+            @media (--sm-down) {
                 margin-top: 26px;
                 margin-right: 18px;
+                max-width: 140px;
                 font-size: 24px;
             }
 
-            @media (--lg-up) {
+            @media (--md-up) {
+                max-width: 300px;
                 font-size: 36px;
             }
         }

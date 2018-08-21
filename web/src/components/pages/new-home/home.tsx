@@ -92,10 +92,13 @@ export default class HomePage extends React.Component<{}, State> {
         </div>
 
         <div className="mars">
-          <RecordButton status={null} />
-          <Localized id="ready-to-record">
-            <h1 />
-          </Localized>
+          <img src="/img/mars.svg" alt="Mars"/>
+          <div className="cta">
+            <RecordButton status={null} />
+            <Localized id="ready-to-record">
+              <h1 />
+            </Localized>
+          </div>
         </div>
       </div>
     );
