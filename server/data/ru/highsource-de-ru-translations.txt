@@ -447,9 +447,6 @@ Zudem gab es insgesamt weniger Handel zwischen Ost und West.
 Принимая во внимание инфляцию, процентные ставки можно даже считать отрицательными.;Wenn man die Inflation berücksichtigt, sind die Zinsen sogar negativ.
 Возможно, при следующем обновлении программного обеспечения.;Vielleicht ja beim nächsten Softwareupdate.
 Мой сын скучает по своей мягкой игрушке.;Mein Sohn vermisst sein Kuscheltier.
-<<<<<<< Upstream, based on branch 'issue-1332' of https://github.com/highsource/voice-web.git
-Пожалуйста говорите громче.;Bitte lauter sprechen.
-=======
 Пожалуйста говорите громче.;Bitte lauter sprechen.
 Тут нужно быть очень осторожным.;Da muss man höllisch aufpassen.
 Среди вещей было любовное письмо, датированное тысяча девятьсот двадцать первым годом.;Darunter war auch ein Liebesbrief aus dem Jahr neunzehnhunderteinundzwanzig.
