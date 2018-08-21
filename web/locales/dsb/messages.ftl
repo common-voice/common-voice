@@ -128,6 +128,7 @@ no-clips-to-validate = Zda se, ako njeby dali žedne nagraśa, na kótarež mó�
 vote-yes = Jo
 vote-no = Ně
 toggle-play-tooltip = Tłocćo na { shortcut-play-toggle }, aby wótgrawański modus pśešaltował
+speak-subtitle = Pósććo swój głos
 
 ## Speak & Listen Shortcuts
 
