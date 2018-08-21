@@ -129,6 +129,15 @@ vote-yes = Jo
 vote-no = Ně
 toggle-play-tooltip = Tłocćo na { shortcut-play-toggle }, aby wótgrawański modus pśešaltował
 speak-subtitle = Pósććo swój głos
+speak-paragraph = Nagraśa głosow su bytostny wobstatk pśi napóranju našeje datoweje sajźby; někotare by gronili, jo teke źěl, kótaryž wjasele gótujo.
+speak-goal-text = Nagrate klipy
+listen-subtitle = Pomagajśo nam, głose wobwěsćiś
+listen-paragraph = Wobwěsćowanje pósććonych klipow jo rowno tak wažne za misiju Common Voice. Słuchajśo a pomagajśo nam głosowe daty wótwórjonego žrědła w dobrej kwaliśe napóraś.
+listen-goal-text = Wobwěsćone klipy
+hours-recorded = Nagraśowe góźiny
+hours-validated = Wobwěsćone góźiny
+read-terms-q = Sćo pśecytali naše wužywańske wuměnjenja?
+ready-to-record = Sćo gótowy, swój głos pósćiś?
 
 ## Speak & Listen Shortcuts
 
