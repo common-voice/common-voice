@@ -120,7 +120,7 @@ wall-of-text-start = Głos jp pśirodny, głos je cłowjeski. Togodla smy fascin
 wall-of-text-more-mobile = Nejwěcej datow wužywane wót wjelikich pśedewześow njejo pśitupne za wětšynu luźi. Myslimy, až to inowaciju znjemóžnja. Togodla smy startowali projekt Common Voice, projekt, kótaryž kuždemu spóznawanje głosow pśistupni.
 wall-of-text-more-desktop = Něnto móžośo swój głos daś, aby nam pomagał, datowu banku głosow wótwórjonego žrědła natwariś, kótaruž kuždy móžo wužywaś, aby inowatiwne nałoženja za rědy a web napórak.<lineBreak></lineBreak>Cytajśo sadu, aby mašinam pomagał, wuknuś, kak napšawdne luźe powědaju. Kontrolěrujśo źěło drugich sobustatkujucych, aby kwalitu pólěpšył. Jo tak lažko!
 wall-of-text-first = Głos jo pśirodny, głos jo cłowjeski. Togodla górjejomy se za napóranje wužywajobneje głosoweje technologije za naše mašiny. Ale, aby głosowe systemy napórali, trjebaju wuwijarje wjelgin wjeliku tšochu głosowych datow.
-wall-of-text-second = Nejwěcej datow, kótarež se wót wjelikich pśedewześow wužywa, wětšynje luźi k dispoziciji njestoj. Myslimy, až to inowaciji zajźujo. Togodla smy startowali Common Voice , projekt, kótaraž dej głosowe spóznaśe wótwórjone a pśistupne za kuždego cyniś.
+wall-of-text-second = Nejwěcej datow, kótarež se wót wjelikich pśedewześow wužywa, wětšynje luźi k dispoziciji njestoj. Myslimy, až to inowaciji zajźujo. Togodla smy startowali Common Voice , projekt, kótaryž dej głosowe spóznaśe wótwórjone a pśistupne za kuždego cyniś.
 show-wall-of-text = Dalšne informacije
 help-us-title = Pomagajśo nam, sady wobkšuśiś!
 help-us-explain = Tłocćo na Wótgraś, słuchajśo a dajśo nam k wěsći: jo se slědujuca sada korektnje wugroniła?
@@ -136,7 +136,7 @@ listen-paragraph = Wobwěsćowanje pósććonych klipow jo rowno tak wažne za m
 listen-goal-text = Wobwěsćone klipy
 hours-recorded = Nagraśowe góźiny
 hours-validated = Wobwěsćone góźiny
-read-terms-q = Sćo pśecytali naše wužywańske wuměnjenja?
+read-terms-q = Sćo pśecytał naše wužywańske wuměnjenja?
 ready-to-record = Sćo gótowy, swój głos pósćiś?
 
 ## Speak & Listen Shortcuts
