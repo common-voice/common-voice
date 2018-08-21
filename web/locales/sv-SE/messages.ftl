@@ -137,6 +137,8 @@ speak-goal-text = Inspelade klipp
 listen-subtitle = Hjälp oss att validera röster
 listen-paragraph = Validera donerade klipp är lika viktigt för Common Voice. Lyssna och hjälp oss att skapa kvalitetsdata för öppen källkod.
 listen-goal-text = Klipp validerade
+hours-recorded = Timmar inspelade
+hours-validated = Timmar validerade
 
 ## Speak & Listen Shortcuts
 
