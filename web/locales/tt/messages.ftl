@@ -138,6 +138,8 @@ listen-paragraph = Иганә ителгән клипларны тикшерү C
 listen-goal-text = Клип тикшерелде
 hours-recorded = Сәгать яздырылды
 hours-validated = Сәгать тикшерелде
+read-terms-q = Безнең Куллану Шартларын укыдыгызмы?
+ready-to-record = Тавышыгызны иганә итәргә әзерсезме?
 
 ## Speak & Listen Shortcuts
 
