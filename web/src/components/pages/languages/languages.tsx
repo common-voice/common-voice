@@ -7,6 +7,7 @@ import {
   LaunchedLanguage,
 } from '../../../../../common/language-stats';
 import { NATIVE_NAMES } from '../../../services/localization';
+import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';
 import RequestLanguageModal from '../../request-language-modal/request-language-modal';
 import { CloseIcon, SearchIcon } from '../../ui/icons';
@@ -15,6 +16,7 @@ import LocalizationBox, { LoadingLocalizationBox } from './localization-box';
 
 interface PropsFromState {
   api: API;
+  locale: Locale.State;
 }
 
 interface Props extends PropsFromState, LocalizationProps {}
@@ -59,25 +61,65 @@ class LanguagesPage extends React.PureComponent<Props, State> {
       api.fetchLanguageStats(),
     ]);
 
-    inProgress.sort(
-      (l1, l2) =>
-        l1.sentencesCount < l2.sentencesCount ||
+    this.setState(
+      {
+        inProgress,
+        filteredInProgress: inProgress,
+        launched,
+        filteredLaunched: launched,
+        localeMessages,
+      },
+      this.sortLocales
+    );
+  }
+
+  componentDidUpdate({ locale }: Props) {
+    if (this.props.locale !== locale) {
+      this.sortLocales();
+    }
+  }
+
+  sortLocales = () => {
+    const { locale } = this.props;
+    const inProgress = this.state.inProgress.slice();
+    const launched = this.state.launched.slice();
+
+    inProgress.sort((l1, l2) => {
+      if (l1.locale === locale) {
+        return -1;
+      }
+
+      if (l2.locale === locale) {
+        return 1;
+      }
+      return l1.sentencesCount < l2.sentencesCount ||
         l1.localizedPercentage < l2.localizedPercentage
-          ? 1
-          : -1
-    );
-    launched.sort(
-      (l1, l2) => (l1.locale === 'en' || l1.seconds < l2.seconds ? 1 : -1)
-    );
+        ? 1
+        : -1;
+    });
+    launched.sort((l1, l2) => {
+      if (l1.locale === locale) {
+        return -1;
+      }
+      if (l2.locale === locale) {
+        return 1;
+      }
+      if (l1.locale === 'en') {
+        return 1;
+      }
+      if (l2.locale === 'en') {
+        return -1;
+      }
+      return l1.seconds < l2.seconds ? 1 : -1;
+    });
 
     this.setState({
       inProgress,
       filteredInProgress: inProgress,
       launched,
       filteredLaunched: launched,
-      localeMessages,
     });
-  }
+  };
 
   toggleShowAllInProgress = () =>
     this.setState(state => ({ showAllInProgress: !state.showAllInProgress }));
@@ -350,8 +392,9 @@ class LanguagesPage extends React.PureComponent<Props, State> {
   }
 }
 
-const mapStateToProps = ({ api }: StateTree) => ({
+const mapStateToProps = ({ api, locale }: StateTree) => ({
   api,
+  locale,
 });
 
 export default connect<PropsFromState>(mapStateToProps)(
