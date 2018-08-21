@@ -10,6 +10,8 @@ import {
 } from '../../primary-buttons/primary-buttons';
 
 import './hero.css';
+import URLS from '../../../urls';
+import { LocaleLink } from '../../locale-helpers';
 
 interface PropsFromState {
   api: API;
@@ -104,6 +106,9 @@ class Hero extends React.Component<
           <div {...this.getToggleableProps(0)}>
             <Localized id={type + '-paragraph'}>
               <p className="description" />
+            </Localized>
+            <Localized id="read-terms-q">
+              <LocaleLink to={URLS.TERMS} className="terms" />
             </Localized>
           </div>
         </div>
