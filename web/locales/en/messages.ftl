@@ -146,6 +146,7 @@ listen-goal-text = Clips validated
 hours-recorded = Hours Recorded
 hours-validated = Hours Validated
 read-terms-q = Have vou read our Terms?
+ready-to-record = Ready to donate your voice?
 
 ## Speak & Listen Shortcuts
 # Must be one letter that appears in the translated { skip } string.

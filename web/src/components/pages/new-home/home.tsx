@@ -1,5 +1,6 @@
 import { Localized } from 'fluent-react';
 import * as React from 'react';
+import { RecordButton } from '../../primary-buttons/primary-buttons';
 import Hero from './hero';
 import { ClipsStats, VoiceStats } from './stats';
 
@@ -88,6 +89,13 @@ export default class HomePage extends React.Component<{}, State> {
         <div className="stats">
           <ClipsStats.Root />
           <VoiceStats.Root />
+        </div>
+
+        <div className="mars">
+          <RecordButton status={null} />
+          <Localized id="ready-to-record">
+            <h1 />
+          </Localized>
         </div>
       </div>
     );

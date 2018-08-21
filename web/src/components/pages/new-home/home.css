@@ -104,8 +104,9 @@
         background: var(--white);
 
         @media (--md-down) {
-            flex-direction: column;
+            margin-bottom: 33px;
             margin-top: 15px;
+            flex-direction: column;
 
             & > :first-child {
                 margin-bottom: 10px;
@@ -113,6 +114,7 @@
         }
 
         @media (--lg-up) {
+            margin-bottom: -70px; // Compensate for translateY
             flex-direction: row;
 
             & > :first-child {
@@ -121,6 +123,53 @@
 
             & > * {
                 transform: translateY(-40%);
+            }
+        }
+    }
+
+    & .mars {
+        margin-bottom: -2rem;
+        padding-left: 50%;
+        display: flex;
+        flex-direction: column;
+        background: url("/img/mars-with-bg.svg") no-repeat center bottom;
+
+        @media (--md-down) {
+            justify-content: center;
+            min-height: 300px;
+            background-size: cover;
+            background-position: 38% center;
+        }
+
+        @media (--lg-up) {
+            flex-direction: row;
+            align-items: center;
+            min-height: 408px;
+        }
+
+        & .primary-button {
+            @media (--md-down) {
+                margin: 0;
+                justify-content: flex-start;
+
+                & .background {
+                    left: -5px
+                }
+            }
+        }
+
+        & h1 {
+            max-width: 300px;
+            font-weight: normal;
+
+            @media (--md-down) {
+                margin-top: 26px;
+                margin-right: 18px;
+                font-size: 24px;
+            }
+
+            @media (--lg-up) {
+                font-size: 36px;
             }
         }
     }
