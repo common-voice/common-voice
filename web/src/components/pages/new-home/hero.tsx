@@ -137,8 +137,7 @@ class Hero extends React.Component<
             <p />
           </Localized>
         </div>
-        <div className="gradient left" />
-        <div className="gradient right" />
+        <div className="fading" />
       </div>
     );
   }
