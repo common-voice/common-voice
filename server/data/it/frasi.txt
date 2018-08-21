@@ -66,10 +66,11 @@ Attraverso donazioni dirette.
 Mettendo a disposizione i propri dipendenti per lavorare al progetto Open Source.
 In questo modo ottengono le feature di cui hanno bisogno.
 Le condividono con gli altri in modo che i benefici possano ricadere su aziende e utenti.
-Il punto in comune con tutte è che i volontari contribuiscono per passione, divertimento e perché credono negli ideali del progetto.
+i volontari contribuiscono per passione, divertimento e perché credono negli ideali del progetto.
 Molte attività in community si possono fare senza avere specifiche competenze informatiche.
-Il contribuire consente ai volontari una buona visibilità anche in ambito professionale oltre che una crescita personale e culturale.
-Ad esempio frequentando le comunità è possibile migliorare l’inglese e venire in contatto con persone di culture e Paesi diversi.
+Il contribuire consente una buona visibilità anche in ambito professionale
+frequentando le comunità è possibile migliorare l’inglese
+frequentando le comunità è possibile venire in contatto con persone di culture e Paesi diversi.
 La community rappresenta il training perfetto per il mondo aziendale.
 Basato non su corsi o webinar ma sull’esperienza diretta di lavoro in team.
 I volontari sono sicuramente il patrimonio più grande sul quale le comunità di software libero possono contare.
@@ -97,8 +98,9 @@ Ad esempio il server, la suite di software o servizi da abbinare, ed eventualmen
 Non dimentichiamoci inoltre del marketing per promuovere il software presso i nostri clienti o la nostra azienda.
 Perché andrà spiegato come usarlo e perché si sta utilizzando.
 Non dimentichiamoci del supporto.
-In caso di problemi, dobbiamo poter risolvere il problema e quindi poter intervenire in modo avanzato o veloce a seconda delle necessità.
-Oramai avremo capito che il costo di un software open source esiste, solo che non è trasparente come quanto pagare una licenza.
+In caso di problemi, dobbiamo poter risolvere e intervenire in modo avanzato o veloce a seconda delle necessità.
+Oramai avremo capito che il costo di un software open source esiste
+non è trasparente come quanto pagare una licenza.
 Effettivamente con un software proprietario avremo gli stessi costi.
 Non è detto che il software proprietario sia estendibile, modificabile e che venga messo a disposizione il codice sorgente.
 Oltre che, in caso di necessità di supporto, è necessario appoggiarsi a terzi.
@@ -858,169 +860,216 @@ Per questo motivo 1984 è definito un romanzo Distopico, che si ambienta in un p
 L'identità dell'uomo viene schiacciata e resa uguale a quella di tutti, l'unica cosa da fare è seguire il partito.
 È una realtà portata all'estremo dell'irrealtà  ma realistica allo stesso tempo.
 Per quest'opera Orwell si basa molto sulle idee staliniste: Stalin affermava di aver inventato il trattore e il carro armato quando non era vero, l'appellativo il Grande Fratello deriva da Piccolo Padre, appellativo di Stalin, gli slogan tipo “il partito è la saggezza del popolo” è leninista.
-L'alterazione della realtà è un fatto visto più volte non solo nello stalinismo ma nache nel nazismo dove per esempio delle foto in cui c'erano i fondatori del partito venivano cancellati quando essi li tradivano.
-Si ritiene che per il fondatore della Confraternita , Emmanuel Goldstein, Orwell si sia basato su Trotskij che in Russia aveva contribuito al soviet ma che venne poi espulso perché si era differito alla linea militarista di Stalin e ucciso tempo dopo dai sovietici.
+L'alterazione della realtà è un fatto visto più volte non solo nello stalinismo ma anche nel nazismo
+per esempio delle foto in cui c'erano i fondatori del partito venivano cancellati quando essi li tradivano.
+in Russia aveva contribuito al soviet ma che venne poi espulso
+si era differito alla linea militarista di Stalin e ucciso tempo dopo dai sovietici.
 Questo personaggio si può identificare in 1984 con Goldstein e nella Fattoria degli animali con Palla di neve.
-Questo romanzo è molto più complesso della Fattoria degli animali e molto più articolato perché esamina tutti gli aspetti dell'uomo: affetti, bisogni, pensieri, piaceri, lingua mentre nell'altro si parla solo della classe al potere.
-Con questo romanzo anche senza l'uso della Neolingua, Orwell avrebbe raggiunto il suo scopo ma non si accontenta, cerca di dimostrare come l'uomo è facilmente soggiogabile.
-Questa idea della Neolingua è presa anche essa dallo Stalinismo precisamente dal materialismo dialettico leninista che non permetteva altre vie di pensiero.
-Orwell è una persona di grandi ideali e da ogni sua esperienza scaturisce un romanzo o un saggio che lo porteranno a criticare o a commentare i fatti.
-I romanzi 1984 e Fattoria degli animali sono gli unici che non raccontano una sua esperienza diretta: qui esprime tutti i lati oscuri e di soggiogazione del totalitarismo che lo aveva disgustato come l'imperialismo.
+Questo romanzo è molto più complesso della Fattoria degli animali e molto più articolato
+esamina tutti gli aspetti dell'uomo
+affetti, bisogni, pensieri, piaceri, lingua mentre nell'altro si parla solo della classe al potere.
+senza l'uso della Neolingua, Orwell avrebbe raggiunto il suo scopo ma non si accontenta
+cerca di dimostrare come l'uomo è facilmente soggiogabile.
+Questa idea della Neolingua è presa dallo Stalinismo precisamente dal materialismo dialettico leninista
+non permetteva altre vie di pensiero.
+Orwell è una persona di grandi ideali e da ogni sua esperienza scaturisce un romanzo o un saggio.
+I romanzi 1984 e Fattoria degli animali sono gli unici che non raccontano una sua esperienza diretta
+esprime tutti i lati oscuri e di soggiogazione del totalitarismo che lo aveva disgustato come l'imperialismo.
 Cerca di raccontare i fatti con metafore, perché il suo scopo è quello di far ragionare le persone.
 Un uomo non si deve inchinare di fronte ad un superiore e accettare le sue condizione, ma reagire.
 Non deve permettersi di arrivare alla condizione utopica espressa in 1984.
-Blair è un uomo che ha sempre agito, non si è mai fermato, ha dimostrato di essere reattivo e di saper spiegare i fatti in modo critico.
-Ci dovrebbe essere un Orwell in ognuno di noi per infonderci la forza ed il desiderio di capire e approfondire tutto ciò che avviene intorno a noi.
-In tal modo si sviluppa lo spirito critico, una serie infinita di perché ai quali, anche attraverso il confronto con gli altri, si possa trovare la risposta che ritiene più idonea.
+Blair è un uomo che ha sempre agito
+non si è mai fermato
+ha dimostrato di essere reattivo e di saper spiegare i fatti in modo critico.
+Ci dovrebbe essere un Orwell in ognuno di noi per infonderci la forza ed il desiderio di capire.
+si sviluppa lo spirito critico
+una serie infinita di perché ai quali
+attraverso il confronto con gli altri, si può trovare la risposta che si ritiene più idonea.
 1984 è un romanzo modernissimo anche se scritto più di 50 anni fa.
-Io mi sono avvicinato a quest'opera perché in ambito informatico il Grande Fratello sta diventando un'entità reale e non virtuale.
-Il termine informatico Trusted Computing, in italiano Informatica Fidata, indica l'inserimento di chip e/o software obbligatori che limiterebbero le libertà dell'utente per l'uso di altri software e/o di modifiche all'apparecchio.
-Alla base del TC c'è un sistema di criptazione dei dati che non è negativa come implementazione, ma presenta anche un blocco degli elementi sia hardware o software.
+mi sono avvicinato a quest'opera perché il Grande Fratello sta diventando un'entità reale e non virtuale.
+indica l'inserimento di chip e/o software obbligatori che limiterebbero le libertà dell'utente.
 Se eventualmente volessimo sostituire un pezzo ed usare questo elemento in un altro pc non funzionerebbe e viceversa.
-Ci sono poi molte limitazioni perché l'utente normale nella maggior parte , non è abbastanza esperto nella configurazione del proprio computer e quindi diventa, molto più facile cadere in qualche virus o truffa.
-In questo modo però ci sarebbe un controllo totale a partire dai programmi che in caso volessimo usarne un altro (concorrente) non funzionerebbe.
-Si potrebbe esercitare un controllo maggiore sui DRM, diritti digitali sui marchi, ma non esisterebbe più la privacy dei propri file.
+l'utente normale nella maggior parte non è abbastanza esperto nella configurazione del proprio computer
+diventa molto più facile cadere in qualche virus o truffa.
+ci sarebbe un controllo totale a partire dai programmi che in caso volessimo usarne un altro (concorrente) non funzionerebbe.
+Si potrebbe esercitare un controllo maggiore sui diritti digitali sui marchi.
 Non esisterebbe più l'anonimato perché il TC permette di identificare la persona con moltissima precisione.
-C'è un ulteriore problema essendo tutto criptato ed essendo i valori contenuti in chip, se si dovesse rompere tutti i dati andrebbero perduti.
-La preoccupazione maggiore sorge se i risultati di questo controllo venissero comunicati a terzi per i prorpi fini provocando seri problemi di privacy, senza avvertimento provocando un infrazione della suddetta  diventando legale (come già succede).
-Il TC è nato da una società Trusted Computing Group composta da diverse case informatiche come IBM, HP, Intel, Microsoft, Sun Microsystem che producono già alcuni chip di questo tipo.
-Questo sviluppo informatico provocò diverse teorie filosofiche sviluppate da matematici agli albori dell'informatica (proprio il periodo in cui viene scritto 1984) principalmente da Turing.
-Questo matematico fu l'ideatore della terminologia e dei test sull'Intelligenza Artificiale che all'epoca era soltanto teoria, mentre oggi vengono usati sui modernissimi computer per verificare la loro “umanità”.
+essendo tutto criptato ed essendo i valori contenuti in chip, se si dovesse rompere tutti i dati andrebbero perduti.
+La preoccupazione maggiore sorge se i risultati di questo controllo venissero comunicati a terzi per i propri fini
+Questo sviluppo informatico provocò diverse teorie filosofiche sviluppate da matematici agli albori dell'informatica.
+Questo matematico fu l'ideatore della terminologia e dei test sull'Intelligenza Artificiale
+all'epoca era soltanto teoria
+oggi questi test vengono usati sui modernissimi computer per verificare la loro “umanità”.
 Infatti questo test permetterebbe di capire come i computer riescono a concatenare idee ed esprimerle.
-Attualmente nessun computer è riuscito a passare questo test per dimostrare che la fantascienza robotica è ancora molto lontana, mentre la fantascienza informatica profetizzata da Turing è appena iniziata.
-La fantascienza utopica, di invasione della privacy, della libertà, del controllo sulle proprie azioni è reale in alcuni paesi con dittatura mentre in altri è occulta.
-Non dimenticate che “Il Grande Fratello vi guarda” (1984).
+Attualmente nessun computer è riuscito a passare questo test
+la fantascienza robotica è ancora molto lontana
+la fantascienza informatica profetizzata da Turing è appena iniziata.
+La fantascienza utopica, di invasione della privacy, della libertà, del controllo sulle proprie azioni è reale.
+Non dimenticate che “Il Grande Fratello vi guarda”.
 Che cosa sono le aree cicloniche e le aree anticic1oniche?
-Sono le aree in cui i cicloni possono formarsi facilmente grazie alla bassa pressione mentre i cicloni non si formano dove c'è alta pressione.
-Ciò è dovuto al vento che spostandosi segue le curve isobariche ma dall'area anticiclonica a quella ciclonica e la vicinanza tra le isobare con valori di pressione molto diversi può provocare cicloni.
+Sono le aree in cui i cicloni possono formarsi facilmente grazie alla bassa pressione
+i cicloni non si formano dove c'è alta pressione.
+il vento spostandosi segue le curve isobariche ma dall'area anticiclonica a quella ciclonica
+la vicinanza tra le isobare con valori di pressione molto diversi può provocare cicloni.
 Perché il tempo in Italia e condizionato dall’Anticiclone delle Azzorre?
-Le perturbazioni presenti nella zone dell'anticiclone si spostano per via del vento in Italia anche perché questa zona si espande fino in Europa.
-Questo anticiclone provoca un abbassamento temporaneo delle temperature nei periodi estivi in questo modo non si provocano periodi estivi con siccità.
+Le perturbazioni presenti nella zone dell'anticiclone si spostano per via del vento in Italia
+questa zona si espande fino in Europa.
+Questo anticiclone provoca un abbassamento temporaneo delle temperature nei periodi estivi.
 Perché nella troposfera la temperatura dell‘aria diminuisce andando verso l’alto?
 Qual e il valore medio di questa diminuzione che indichiamo come gradiente termico verticale?
-Il gradiente termico verticale è di 0,6 C° ogni 100 metri e la sua temperatura diminuisce verso l'alto secondo questo gradiente.
-Nella troposfera la temperatura subisce innalzamenti e abbassamenti a causa delle perturbazioni presenti e dalle masse d'aria che subiscono la rotazione terrestre raggiungono elevate velocità permettendo un mescolamento dell'aria a diverse temperature.
+la sua temperatura diminuisce verso l'alto secondo questo gradiente.
+Nella troposfera la temperatura subisce innalzamenti e abbassamenti a causa delle perturbazioni presenti
+le masse d'aria che subiscono la rotazione terrestre raggiungono elevate velocità
 Dove e come si verificano i cicloni extratropicali?
 I cicloni tropicali si formano in zone poste alla medie latitudini e sono meno violenti ma più estesi.
 Si formano quando masse d'aria calda e fredda a bassa quota si scontrano.
 Quali sono i principali responsabili della disgregazione fisica delle rocce?
 Sono le oscillazioni di temperatura, il gelo e il disgelo, dagli organismi viventi, dalla pressione e dal vento.
-Il gelo-disgelo continuo provoca spaccature nelle rocce, la pressione provoca increspature nella roccia, gli organismi viventi come i muschi si attaccano alle rocce formando un ambiente umido ciò intensifica la disgregazione.
-Con stalinismo è definito il periodo storico in cui Stalin prese il potere in Russia tra il 1924 e il 1953 dopo la morte di Lenin.
-Quest'ultimo nel proprio testamento aveva scritto però che Stalin doveva essere allontanato perché aveva acquisito troppo potere e che ciò avrebbe minato la politica comunista avviata con la rivoluzione.
-Le premesse per una dittatura comunista però erano già state preparate da Lenin quando, a seguito delle elezioni per l'assemblea costituente nel 1917, non ne accettò i risultati sciogliendola.
+Il gelo-disgelo continuo provoca spaccature nelle rocce
+la pressione provoca increspature nella roccia
+gli organismi viventi come i muschi si attaccano alle rocce formando un ambiente umido ciò intensifica la disgregazione.
+Con stalinismo è definito il periodo storico in cui Stalin prese il potere in Russia.
+Quest'ultimo nel proprio testamento aveva scritto  che Stalin doveva essere allontanato
+aveva acquisito troppo potere
+ciò avrebbe minato la politica comunista avviata con la rivoluzione.
+Le premesse per una dittatura comunista però erano già state preparate da Lenin
+a seguito delle elezioni per l'assemblea costituente nel 1917, non ne accettò i risultati sciogliendola.
 I bolscevichi ottennero meno di un terzo dei voti ma Lenin non voleva accettare che i Soviet fossero sconfitti.
 Alla morte di Lenin il potere rimase incentrato su un gruppo di quattro persone, tra cui Stalin, definito troika.
 Con il passare degli anni emergerà in modo sempre più assoluto Stalin che caccerà o fucilerà i suoi avversari politici.
 La troika inizialmente aveva allontanato Trozkij perché aveva un pensiero differente riguardo allo sviluppo del comunismo.
-Poiché egli avrebbe voluto diffondere l'idea del socialismo in tutto il mondo per sconfiggere il capitalismo che altrimenti avrebbe avuto il sopravvento.
-Lentamente Trozkij fu limitato nella sua autorità fino ad essere costretto all'esilio in Messico dove verrà ucciso da un sicario di Stalin nel 1940.
-Il paese accettava l'idea del socialismo in un solo paese perché era stremato dalla rivoluzione e dalla prima guerra mondiale e non si preoccupava della politica.
+diffondere l'idea del socialismo in tutto il mondo per sconfiggere il capitalismo
+Lentamente Trozkij fu limitato nella sua autorità fino ad essere costretto all'esilio in Messico
+Il paese accettava l'idea del socialismo in un solo paese perché era stremato dalla rivoluzione
 Questo permise a Stalin di ottenere sempre più consensi.
-L'evoluzione industriale precedente la seconda guerra mondiale, ebbe uno slancio grazie alla Germania Nazista che metteva a disposizione dell'URSS la sua tecnologia.
 Quest'ultima in cambio avrebbe ospitato fabbriche tedesche per la produzione di armi.
 In tal modo la Germania superava l'ostacolo del diktat post-bellico che vietava il riarmamento.
 L'intesa russo-tedesca trovò piena attuazione nel trattato di Rapallo del 1922.
-Di fatto con esso la Germania si preparava nuovamente alla guerra pattuendo segretamente con la Russia la spartizione della Polonia che poi avvenne nel 1939.
+la Germania si preparava alla guerra pattuendo segretamente con la Russia la spartizione della Polonia.
 Era iniziata la seconda guerra mondiale.
-Hitler attutò la strategia militare definita blitzkrieg, ovvero guerra lampo, che consisteva nell'attaccare con una massiccia e rapida penetrazione in territorio nemico con l'uso di carri armati appoggiati dall'aviazione.
-I carri armati non si fermavano anche dopo aver sfondato la linea di difesa consentendo all'esercito di avanzare velocemente e di ottenere facili conquiste.
-Dopo la presa da parte della Germania e della Russia della Polonia nel 1939, l'URSS decise di proteggere i suoi confini.
-Chiese, nello stesso anno, alla Finlandia di aumentare i propri domini vicino alla città di Leningrado ma essa respinse la richiesta.
-La risposta russa fu un attacco militare lampo alla Finlandia che dovette accettare richieste ancor più vantaggiose per la Russia.
-Contemporaneamente Hitler, nel suo orgoglio ariano, non accettava la presenza degli slavi, che secondo la sua linea guida, dovevano essere sterminati o resi schiavi dalla Germania.
-Ma dovette desistere dai suoi intendimenti data la scelta dell'Italia di occupare l'area balcanica allo scopo di bilanciare lo strapotere della Germania in Europa.
-Il dittatore tedesco aveva infatti predisposto nel 1941 l'Operazione Barbarossa che consisteva nel blitzkrieg contro la Russia.
-Questa operazione però si inceppò perché Mussolini, che era alleato di Hitler, aveva attaccato la Grecia ma con insuccesso.
-Il suo forte alleato tedesco stornò allora una parte dell'esercito che sarebbe dovuto andare in Russia per sconfiggere la resistenza greca.
+Hitler attuò la strategia militare definita blitzkrieg
+una massiccia e rapida penetrazione in territorio nemico con l'uso di carri armati appoggiati dall'aviazione.
+I carri armati non si fermavano anche dopo aver sfondato la linea di difesa
+Dopo la presa da parte della Germania e della Russia della Polonia nel 1939
+l'URSS decise di proteggere i suoi confini.
+La risposta russa fu un attacco militare lampo alla Finlandia
+dovette accettare richieste ancor più vantaggiose per la Russia.
+Hitler non accettava la presenza degli slavi
+dovevano essere sterminati o resi schiavi dalla Germania.
+la scelta dell'Italia di occupare l'area balcanica.
+Il dittatore tedesco aveva infatti predisposto nel 1941 l'Operazione Barbarossa.
+Mussolini aveva attaccato la Grecia ma con insuccesso.
+Il suo forte alleato tedesco stornò  una parte dell'esercito che sarebbe dovuto andare in Russia.
 Nell'arrivare a destinazione la Germania conquistò la Iugoslavia e la Croazia.
-Ciò provocò un rinvio dell'Operazione Barbarossa perché venne posticipata di un mese quando l'inverno russo, famoso per la sua rigidità, si stava avvicinando.
-L'operazione Barbarossa quindi partì nel giugno del 1941 avanzando molto velocemente inglobando completamente la Polonia e l'Ucraina.
-Detti eventi sancirono la fine dell'alleanza russo- tedesca così Stalin permise ai tedeschi d'avanzare velocemente, negli sconfinati territori russi, fiaccando gli uomini e allungando le linee di rifornimento ma lasciando anche terra bruciata prima del loro arrivo.
-All'entrata nella Carta Atlantica di Stalin, nel 1942, gli anglo-americani si preparano ad una offensiva di massa che avrebbe tenuto occupato i membri dell'asse e tutti i loro fronti.
-Hitler nello stesso anno decise di sferrare un altro attacco contro i russi avanzando verso i monti caucasici che erano le fonti di rifornimento russe e il collegamento con il resto dell'Europa rimasta libera.
-Il Fuhrer, a seguito di queste gloriose vittorie, decise di abbandonare la tecnica del concentramento delle forze spostando appunto un contingente per occupare il Caucaso.
-E' la battaglia di Stalingrado che provocò un indebolimento delle truppe tedesche le quali avanzarono con difficoltà fino al Volga.
-Stalin decise di abbandonare la tecnica della difesa elastica facendo combattere i nazisti casa per casa nelle città controllate dai suoi soldati russi.
+venne posticipata di un mese quando l'inverno russo, famoso per la sua rigidità, si stava avvicinando.
+L'operazione Barbarossa partì nel giugno del 1941 avanzando molto velocemente.
+la fine dell'alleanza russo- tedesca così Stalin permise ai tedeschi d'avanzare velocemente
+lasciando terra bruciata prima del loro arrivo.
+All'entrata nella Carta Atlantica di Stalin, gli anglo-americani si preparano ad una offensiva di massa
+Hitler nello stesso anno decise di sferrare un altro attacco contro i russi
+La battaglia di Stalingrado che provocò un indebolimento delle truppe tedesche.
+Stalin decise di combattere i nazisti casa per casa nelle città controllate dai suoi soldati russi.
 Per due mesi i tedeschi rimasero bloccati davanti al Volga venendo definitivamente sbaragliati dai sovietici.
-Dopo questo secondo tentativo nazista, i sovietici proseguirono l'avanzata respingendo i tedeschi fino a raggiungere Varsavia nel 1944.
+i sovietici proseguirono l'avanzata respingendo i tedeschi fino a raggiungere Varsavia nel 1944.
 Qui vennero fermati per un mese dai nazisti.
 Nel 1945 i sovietici riuscirono ad avanzare su Vienna e finalmente su Berlino.
-Al termine del conflitto la Russia ebbe dei paesi satelliti che controllava imponendogli sia con le buone o con le cattive un governo di stampo comunista, tutto questo grazie ai diversi tratta di pace.
+Al termine del conflitto la Russia ebbe dei paesi satelliti che controllava
+tutto questo grazie ai diversi tratta di pace.
 Il dittatore controllò la Russia fino alla sua morte nel 1953 di cui è ancora incerta la causa.
 Ci sono moltissimi punti di contatto con la politica idolatrica e di repressione di Stalin e in 1984.
-Infatti quando Orwell volle pubblicare quest'opera, nella libera e democratica Inghilterra nel 1948, gli venne impedito perché Stalin era alleato degli Inglesi e ciò avrebbe provocato problemi diplomatici.
-Ciò conferma che quanto fantasiosamente narrato in 1984 non è tutto finzione ma realtà visto che la sovrascrizione della storia non è soltanto di tipo stalinista ma anche nazista, insomma una chiara allusione e condanna di tutti i regimi dittatoriali.
-E' evidente perciò che l'adulazione dell'icona del Piccolo Padre, appellativo di Stalin, è l'origine, il modello del Grande Fratello onnipresente nel suo sguardo vacuo profetizzato da Orwell.
+Orwell volle pubblicare quest'opera, nella libera e democratica Inghilterra nel 1948
+gli venne impedito perché Stalin era alleato degli Inglesi e ciò avrebbe provocato problemi diplomatici.
+quanto fantasiosamente narrato in 1984 non è tutto finzione ma realtà
+la sovrascrizione della storia non è soltanto di tipo stalinista ma anche nazista
+una chiara allusione e condanna di tutti i regimi dittatoriali.
 Ungaretti è definito il maestro e fondatore della poesia Ermetica in Italia.
-Come la letteratura simbolista e decadentista crede che la poesia debba essere uno strumento di conoscenza della realtà, così l'unico modo per conoscere il mondo esterno sono delle folgorazioni e illuminazioni avute dal poeta attraverso la sua esperienza di vita.
-Infatti la raccolta di tutte le poesie italiane di Ungaretti è chiamata Vita di un uomo, perché solo in questo modo la Poesia può essere autentica ed essenziale  come le sensazioni umane.
+la letteratura simbolista e decadentista crede che la poesia debba essere uno strumento di conoscenza della realtà
+per conoscere il mondo esterno sono delle folgorazioni e illuminazioniattraverso la sua esperienza di vita.
+la raccolta di tutte le poesie italiane di Ungaretti è chiamata Vita di un uomo
 È la prima raccolta di Ungaretti che contiene tutte le poesie scritte sul fronte del Carso.
 Tra esse spiccano Veglia, Fratelli, San Martino del Carso e Soldati.
-Ognuna di queste poesie rispecchia le sensazioni del soldato Ungaretti, della sua solitudine, della distruzione, della paura e della fragilità della vita.
-A differenza della poetica D'annunziana e nazionalistica, il poeta sente la guerra non come un occasione di eroismo ma come una fatalità sul popolo italiano da subire con rassegnazione.
-Ungaretti vuole esprimere questa condizione umana attraverso poesie brevissime utilizzando anche versi liberi, l'abolizione della punteggiatura e l'uso dell'analogia e sinestesia.
+Ognuna di queste poesie rispecchia le sensazioni del soldato Ungaretti
+il poeta sente la guerra come una fatalità sul popolo italiano da subire con rassegnazione.
+Ungaretti vuole esprimere questa condizione umana attraverso poesie brevissime utilizzando anche versi liberi
 In questa poesia è evidente la solitudine e la visione tragica della guerra dal punto di vista del poeta.
-Per Ungaretti la guerra non è un modo per esprimere il proprio patriottismo ma per evidenziare la proprio fragilità di fronte alla vita.
+Per Ungaretti la guerra non esprime il patriottismo ma  evidenzia la fragilità di fronte alla vita.
 Non vengono seguite regole metriche precise per i versi per far riflettere di più il lettore sul verso espresso.
-Questa brevissima poesia ma densissima di significato paragona i compagni caduti così velocemente quanto le foglie di un albero durante l'autunno.
+Questa brevissima poesia paragona i compagni caduti così velocemente quanto le foglie di un albero durante l'autunno.
 Questa brevità riesce a sconvolgere il lettore anche grazie alla facile analogia presente.
-La fragilità dell'uomo, dovuta alla perdita dei propri cari, alla devastazione, alla precarietà, alla presenza della morte inducono Ungaretti ad una depressione evocativa presente anche in 1984 di Orwell.
 La riflessione di Sartre scaturisce dall'analisi della coscienza intesa come intenzione e libertà.
-La coscienza è soltanto dell'uomo perché egli sa della sua esistenza, quindi non è posta tra le cose che sono definite da Sartre “essere in se”, mentre l'uomo è definito “essere per se”.
+La coscienza è soltanto dell'uomo perché egli sa della sua esistenza
 L'essere in se è un oggetto immodificabile che riceve forma soltanto grazie alla razza umana.
 L'essere per se invece è trasparente e conferisce il significato alle cose.
-La capacità principale della coscienza quindi è quella di saper trascendere la situazione in cui si trova negando ogni sua limitazione.
+La capacità principale della coscienza è quella di saper trascendere la situazione
 Di conseguenza la coscienza è libertà perché tende a rifiutare ogni limite e ciò che rappresenta il mondo.
 Essa è sempre innovativa.
-Riprendendo la terminologia metaforica di Heidegger, che contribuisce a rendere più difficili le sue riflessioni, Sartre afferma che “la coscienza è il nulla” perché può nullificare i dati di fatto e progettarli in nuovi modi.
-Da questa riflessione il filosofo afferma che se Dio esistesse l'uomo non sarebbe libero mentre lo è quindi Dio non esiste.
-Questa libertà però provoca soltanto dolore e angoscia perché l'uomo non sceglie la sua esistenza e non decide la propria libertà e siccome la libertà porta a essere liberi si trova con un peso difficile dovuto a quest'ampia possibilità di scelta.
-A differenza di Heidegger Sartre affermerà che il suo esistenzialismo è umanesimo perché tutta la sua riflessione fa riferimento all'uomo a differenza della filosofia tradizionale.
+Sartre afferma che “la coscienza è il nulla” perché può nullificare i dati di fatto e progettarli in nuovi modi.
+il filosofo afferma che se Dio esistesse l'uomo non sarebbe libero mentre lo è quindi Dio non esiste.
+Questa libertà però provoca soltanto dolore e angoscia perché l'uomo non sceglie la sua esistenza
+non decide la propria libertà e siccome la libertà porta a essere liberi
+A differenza di Heidegger Sartre affermerà che il suo esistenzialismo è umanesimo
+tutta la sua riflessione fa riferimento all'uomo a differenza della filosofia tradizionale.
 Di conseguenza è l'uomo che deve creare i propri valori e dargli un senso perché altrimenti essi non ne hanno.
-La giustificazione dei valori non è intesa come invenzione dei valori stessi, ma che la vita non ha senso a priori e l'avrà soltanto quando la vivremo.
-L'uomo quindi deve prendersi la responsabilità dei propri valori, filosoficamente “l'esistenza procede l'essenza”.
+La giustificazione dei valori non è intesa come invenzione dei valori stessi
+la vita non ha senso a priori e l'avrà soltanto quando la vivremo.
+L'uomo quindi deve prendersi la responsabilità dei propri valori
 Ovvero l'uomo non è altro che ciò che sceglie di essere.
-Però quest'altra grande decisione provoca un altro grande peso che crea angoscia per questa ampia gamma di scelte possibili.
+Però quest'altra grande decisione provoca un altro grande peso
+crea angoscia per questa ampia gamma di scelte possibili.
 L'uomo è condannato a esistere e esistere significa scegliere.
-L'uomo è sempre responsabile perché causa delle proprie azioni anche se gli sono imposte da terzi o dagli eventi esterni a lui.
-Parafrasando Sartre l'uomo dice: ”io non partecipo ad azioni belliche in vario modo, io non faccio la guerra ma faccio la mia guerra perché io ho deciso di farla”.
-“Gli altri nella mia vita non sono altro che oggetti che influiscono nelle mie azioni e quindi li posso utilizzare, ma sono esseri con coscienza e quindi per loro io sono un altro oggetto che possono utilizzare”.
-Questo conflitto porta ad un confronto tra me e gli altri infinito che non mi permette di nullificare e quindi riprogettare ciò che mi è intorno.
-Per capire questa limitazione si può pensare allo sguardo altrui che su di me provoca vergogna quindi prende il sopravvento su di me limitando la mia libertà.
+L'uomo è sempre responsabile perché causa delle proprie azioni
+Gli altri nella mia vita non sono altro che oggetti che influiscono nelle mie azioni
+li posso utilizzare, ma sono esseri con coscienza e quindi per loro io sono un altro oggetto
+Questo conflitto porta ad un confronto tra me e gli altri infinito che non mi permette di nullificare
+Per capire questa limitazione si può pensare allo sguardo altrui che su di me provoca vergogna
+prende il sopravvento su di me limitando la mia libertà.
 Per riaffermare la mia libertà devo giudicare a mia volta l'altro proseguendo questo ciclo infinito.
 Sartre dirà “l'inferno sono gli altri” perché sono il mezzo che permette di conoscersi mettendosi contro se stessi.
-Tali sostanze (acqua o gas) sono spinti a seconda del caso ed aumenteranno la pressione interna alla sacca, di conseguenza spingeranno il petrolio verso la torre di trivellazione.
+Tali sostanze (acqua o gas) sono spinti a seconda del caso ed aumenteranno la pressione interna alla sacca
+spingeranno il petrolio verso la torre di trivellazione.
 Dal petrolio greggio si possono ottenere attraverso la distillazione cherosene, benzene, benzina, pece, asfalto e bitumi.
 Questa estrazione avviene tagliando la catena molecolare del petrolio che è molto lunga, portandolo a diverse temperature.
-Questa distillazione viene effettuata in colonne alte più di trenta metri dove il liquido viene scaldato ad una temperatura oltre i 340 °C in un forno.
+Questa distillazione viene effettuata in colonne alte più di trenta metri
+il liquido viene scaldato ad una temperatura oltre i 340 °C in un forno.
 I vapori che si formano vengono mandati verso il basso nella colonna di distillazione.
 Questi vapori si condensano a diverse altezze per via delle temperature.
-Oltre ai processi di estrazione sono stati inventati diversi metodi per poter modificare la catena molecolare dei composti estratti per rendere più commerciale il prodotto, le tecniche principali sono cracking e reforming.
-Con il cracking si intende una frammentazione della catena del carbonio per poter ottenere diverse derivati del petrolio con un processo definito alchilazione.
+Sono stati inventati diversi metodi per poter modificare la catena molecolare dei composti estratti
+Con il cracking si intende una frammentazione della catena del carbonio
+ laalchilazione permette di ottenere diverse derivati del petrolio con un processo definito.
 Dei catalizzatori e /o repressori permettono di ottenere altri derivati del benzene tra cui l'esano e l'ottano.
 Questa frammentazione può avvenire attraverso catalizzatori o per via termica.
 Con reforming invece si tratta di modifiche alla catena per poter rendere i derivati antidetonanti.
-Con antidetonante si intende la capacità di resistere ad alte pressioni senza esplodere, questa caratteristica è indicata dal numero di ottani.
+Con antidetonante si intende la capacità di resistere ad alte pressioni senza esplodere
+questa caratteristica è indicata dal numero di ottani.
 Questa tecnica viene attuata ad  alta temperatura, 750 - 800 °C, o a bassa, 400 - 450°C.
-Un esempio di benzina che ha subito il reforming è la benzina con piombo tetraetile, ormai non usata perché cancerogena.
-Per poter trasportare l'oro nero sono utilizzati dei tubi che percorrono sia il mare che la terra e sono chiamati oleodotti o vengono usati automezzi.
-Il petrolio acquisisce importanza fin dall'inizio del secolo scorso perché veniva usato per illuminare grazie a lampade apposite, successivamente venne abbandonato il carbone perché era più caro nell'estrazione e meno maneggevole rispetto al petrolio e quindi venne usato anche per il riscaldamento e per i mezzi meccanici.
-Durante la seconda guerra mondiale, il petrolio permise agli Alleati di vincere la guerra perché dotati di navi e altri automezzi con motori a scoppio che usavano l'oro nero mentre la forza dell'Asse utilizzava grosse quantità di carbone più difficile da reperire.
-Alla fine della guerra il petrolio permise l'espansione industriale e scientifica della società permettendo un recupero della normalità dopo quell'avvenimento.
-Il petrolio assunse così grande importanza nell'economia mondiale tanto che le due crisi economiche del 73 e 79 furono dovute al prezzo del greggio che subiva oscillazioni.
+Un esempio di benzina che ha subito il reforming è la benzina con piombo tetraetile
+non usata perché cancerogena.
+Per poter trasportare l'oro nero sono utilizzati dei tubi che percorrono sia il mare che la terra
+Il petrolio acquisisce importanza fin dall'inizio del secolo scorso perché veniva usato per illuminare
+successivamente venne abbandonato il carbone perché era più caro nell'estrazione e meno maneggevole
+venne usato anche per il riscaldamento e per i mezzi meccanici.
+il petrolio permise agli Alleati di vincere la guerra perché dotati di navi e altri automezzi con motori a scoppio
+la forza dell'Asse utilizzava grosse quantità di carbone più difficile da reperire.
+Alla fine della guerra il petrolio permise l'espansione industriale e scientifica della società
+Il petrolio assunse così grande importanza nell'economia mondiale
+le due crisi economiche del 73 e 79 furono dovute al prezzo del greggio che subiva oscillazioni.
 La ricerca di pozzi petroliferi scatenò delle guerre come la guerra del Golfo in Arabia saudita.
-I vantaggi del petrolio gli permisero di ottenere una popolarità immediata e di essere l'ago della bilancia nell'economia mondiale sia ieri che oggi, però ha contribuito all'inquinamento mondiale in modo massiccio.
-Il petrolio è una fonte energetica fondamentale tant'è che è causa di conflitti ed interessi economici da parte di tutte le nazioni.
-Attraverso di esso sono ricattati popoli ricchi e poveri, sviluppati e sottosviluppati e lo spauracchio della fine dei giacimenti di petrolio scatena ulteriori speculazioni a livello planetario.
-George Orwell, nel romanzo 1984, non parla del petrolio ma chiarisce come le risorse che influiscono sull'economia, possono essere ancora una volta uno strumento di pacificazione per il bene dei popoli oppure, leva di forza e potere per soggiogare l'umanità.
-Noi essere umani apparteniamo all'ordine dei primati, che secondo alcuni studi si sono evoluti partendo da piccoli mammiferi simili ai topiragno che incominciarono a vivere sugli alberi.
-Questi primati, a differenza degli altri mammiferi, hanno delle caratteristiche sia comportamentali che fisiche simili alle nostre.
-Innanzitutto noi esseri umani abbiamo delle mani che sono molto simili a quelle dei primati perché sono gli unici essere viventi ad avere il pollice opponibile e cinque dita contemporaneamente.
-I primati rispetto agli altri animali hanno una maggiore acutezza visiva perché vivono sugli alberi mentre gli altri animali, vivendo al contatto con il suolo, non ne necessitano.
-Le cure parentali, che hanno tutti i mammiferi, e la postura eretta che permette alla testa un orientazione migliore permettendo all'uomo di guardare davanti a sé in posizione eretta.
+I vantaggi del petrolio gli permisero di ottenere una popolarità immediata
+ha contribuito all'inquinamento mondiale in modo massiccio.
+Il petrolio è una fonte energetica fondamentale che è causa di conflitti ed interessi economici da parte di tutte le nazioni.
+Attraverso di esso sono ricattati popoli ricchi e poveri
+lo spauracchio della fine dei giacimenti di petrolio scatena ulteriori speculazioni a livello planetario.
+George Orwell, nel romanzo 1984, non parla del petrolio ma chiarisce come le risorse che influiscono sull'economia
+uno strumento di pacificazione per il bene dei popoli oppure, leva di forza e potere per soggiogare l'umanità.
+Noi essere umani apparteniamo all'ordine dei primati
+Si sono evoluti partendo da piccoli mammiferi simili ai topiragno che incominciarono a vivere sugli alberi.
+Questi primati hanno delle caratteristiche sia comportamentali che fisiche simili alle nostre.
+Noi esseri umani abbiamo delle mani che sono molto simili a quelle dei primati
+sono gli unici essere viventi ad avere il pollice opponibile e cinque dita contemporaneamente.
+I primati rispetto agli altri animali hanno una maggiore acutezza visiva perché vivono sugli alberi
+La postura eretta permette alla testa un orientazione migliore così si può guardare davanti a sé in posizione eretta.
 Gli ominidi discendono dalle scimmie catarrine che hanno la peculiarità di avere il naso rivolto verso il basso.
-Il primo ominide, a dispetto del nome Australopithecus Africanus, chiamato anche bambino di Tuang, che significa scimmia dell'emisfero australe, aveva un cranio molto simile a quello di un bambino e fu scoperto in Sud Africa.
+Il primo ominide aveva un cranio molto simile a quello di un bambino e fu scoperto in Sud Africa.
 Le altre caratteristiche erano la postura eretta dovuta all'attacco della colonna vertebrale
 diverso dalle scimmie e una rotondità del cranio più “umana”.
 La scoperta del cranio di Tuang, venne ignorata dagli scienziati
@@ -1220,7 +1269,7 @@ Prendono il soprannome di “orsetto lavatore” perché puliscono il loro cibo 
 Mangiano di tutto da uova a pesci, da uccelli ad insetti, scoiattoli e frutta.
 Giocano con il cibo prima di mangiarlo e non perdono tempo a divertirsi con ramoscelli o con ciuffi d’erba
 naturalmente lavano tutto.
-I piccoli poi sono ancora più vivaci e curiosi dei genitori 
+I piccoli poi sono ancora più vivaci e curiosi dei genitori
 e sono impossibili da tener fermi
 infatti la più grande occupazione della madre è quella di controllarli.
 Sono simili a lunghi gattoni dalla lunga coda e dal naso molto sviluppato, i coati vivono a piccoli branchi nei boschi.
@@ -3249,7 +3298,7 @@ lo adatta agli usi e alle convenzioni di uno specifico Paese o regione.
 Nel caso di gergo tecnico
 è necessario svolgere un’accurata ricerca terminologica su fonti ufficiali o autorevoli
 invece bisogna evitare di rimpiazzare i termini tecnici con equivalenti approssimativi o troppo  generici.
-Nel migliore dei casi, usare un formato diverso da quello della regione di destinazione può apparire come una trascuratezza 
+Nel migliore dei casi, usare un formato diverso da quello della regione di destinazione può apparire come una trascuratezza
 Durante una traduzione è importante essere consapevoli delle sottili differenze nell’uso della punteggiatura tra le lingue
 Questo è il caso della virgola.
 Il punto va omesso alla fine dei titoli.
@@ -3305,7 +3354,7 @@ Le guide sono tematiche suddivise per cartelle.
 A seconda del soggetto possono essere in un unico file diviso per paragrafi o piu file sempre dentro la cartella dedicata.
 Se pensi che il tuo messaggio possa in qualche modo offendere qualcuno, probabilmente lo farà.
 La bacheca ti permette di essere aggiornato riguardo i nuovi commenti e il loro stato.
-Inoltre ti informa del numero di articoli e molto altro! 
+Inoltre ti informa del numero di articoli e molto altro!
 Passando con il mouse sul link nella barra laterale Articoli si apre un piccolo menù, clicca su Aggiungi nuovo.
 I Commenti sono uno dei modi per vedere quanto il sito ha successo.
 Vanno moderati cioè cancellati o approvati per l’apparizione nel sito.
@@ -3373,7 +3422,7 @@ In ogni avventura i tre ragazzi si confrontano con la necessità di reperire inf
 in modo del tutto naturale si rivolgono ai libri.
 Splendide librerie, specchio delle personalità dei loro padroni
 Popolano ogni luogo in cui i tre orfani si trovano
-Grazie alla consultazione dei libri, i Baudelaire riescono ogni volta a vincere sul conte Olaf 
+Grazie alla consultazione dei libri, i Baudelaire riescono ogni volta a vincere sul conte Olaf
 aggiungere piccoli indizi per risolvere l’enigma della morte dei genitori.
 Una serie di sfortunati eventi è molto bella e il 30 marzo esce la seconda stagione.
 Non guardatela!
@@ -3401,7 +3450,7 @@ Preso alla sprovvista, ammirato da tanta scaltrezza e seriamente preoccupato per
 Laurens si inginocchiò e chiese ad Anne di sposarlo.
 Vissero felici a lungo, depredando e razziando, tra un colpo di cannone e una bottiglia di rum.
 Spargendo terrore  mano nella mano e scrivendo, a colpi di pistola, la storia della pirateria.
-La morale di questa storia non è che prima o poi arriva il pirata azzurro che vuole ucciderti e poi ti sposa. 
+La morale di questa storia non è che prima o poi arriva il pirata azzurro che vuole ucciderti e poi ti sposa.
 La morale di questa storia è: quando tutti si aspettano una spada, tu caccia la pistola.
 Tieni bene in testa che non puoi combattere per i tuoi sogni se non hai le armi giuste.
 Le mimose fanno starnutire, la determinazione colpisce al cuore.
@@ -3418,7 +3467,7 @@ da sotto il tappeto spunta quello che sta scavando tunnel sotto Los Angeles perc
 infine ti atterra un booster sul balcone e non capisci
 In tv ci sono i pooh che cantano a Sanremo e attorno a me c’è Elon Musk che spunta da tutte le parti.
 Elon Musk è l’uomo del futuro.
-È colui che ha la soluzione a ogni problema. 
+È colui che ha la soluzione a ogni problema.
 Le emissioni di gas serra stanno distruggendo il pianeta e compromettendo la vita su di esso?
 La soluzione è Tesla Motors, la ditta che produce macchine elettriche super tecnologiche che si guidano da sole,
 le tesla non emettono CO2 e hanno prezzi abbordabili. Il traffico a Los Angeles fa impazzire tutti?
@@ -3440,7 +3489,7 @@ quella sensazione di futuro che può arrivare.
 Sensazione che non rivivrò mai più, perché certe volte il futuro succede solo se sei lontano da qui.
 È necessario.
 Non saprei trovare altre parole per spiegare perché sono piena di lividi, o perché torno a casa ricoperta di rossetto
-perché bastano poche ore di lavoro per sfinirmi. 
+perché bastano poche ore di lavoro per sfinirmi.
 È necessario smuoversi, agitarsi, andare a pescare le emozioni più dense che erano sedimentate sul fondo.
 Ritornare nel punto in cui ti faceva più male e capire le ragioni di quel dolore.
 Tornare lì nel punto in cui faceva più bene e capire le ragioni di quel piacere.
@@ -3514,7 +3563,7 @@ La cecità insensata verso quello che si crea di nuovo.
 La grettezza esasperante che accompagna ogni aspetto di vita sociale.
 Ma non facciamone una tragedia.
 Era una splendida serata estiva, la temperatura era mite, si potevano addirittura indossare i sandali.
-la gente aveva già preso posto e riempito le misere quattro file di sedie pieghevoli 
+la gente aveva già preso posto e riempito le misere quattro file di sedie pieghevoli
 sedie pieghevoli allestite nel cortile del convento.
 Lo spettacolo stava per cominciare.
 Eh si
@@ -3552,7 +3601,7 @@ Non ci possono essere mezze misure : o sarà un successo totale o sarà una umil
 E lavorare per raggiungere il successo è la cosa più divertente del mondo.
 Mettere in piedi lo spettacolo “ Che Barba Lunga Che Hai!” è stato davvero divertente.
 In una settimana (scarsa) di prove abbiamo deciso di giocare e sperimentare
-di solito siamo bravissimi a complicarci la vita e ad andare in ansia per i dettagli più insignificanti, 
+di solito siamo bravissimi a complicarci la vita e ad andare in ansia per i dettagli più insignificanti,
 questa volta andavamo incontro ad una situazione totalmente nuova per noi
 uno spettacolo itinerante all’aperto
 sulle origini mitiche dei longobardi.
@@ -3983,7 +4032,7 @@ Purtroppo questo non sempre è vero!
 Non basta contare quante siano le persone che hanno accesso alla rete
 bisogna considerare anche per quanti di noi l’accesso sia sicuro e significativo.
 Allo stato attuale circa metà della popolazione mondiale è già online e giorno dopo giorno il numero è destinato a crescere
-Questa crescita però non può sminuire il problema del “Digital divide” che purtroppo persiste 
+Questa crescita però non può sminuire il problema del “Digital divide” che purtroppo persiste
 Il “Digital divide” si sposta da un aspetto tecnologico ad un problema di conoscenze e abilità necessarie per poter navigare
 L’Inclusione Digitale dunque è un problema che rimane costante malgrado gli utenti della rete siano destinati a crescere
 per creare una vera inclusione digitale non basta dare il libero accesso.
@@ -4019,13 +4068,13 @@ Al termine di questa parentesi, abbiamo voluto realizzare una tavola rotonda inc
 I temi principali sono stati le implicazioni che questa normativa ha nel quotidiano per i relatori coinvolti
 le prospettive future derivate da quelle che sono le proposte in dibattimento a Bruxelles e i “side effect”
 Derivano da una normativa inadeguata come quella attuale.
-Durante l’incontro si è parlato anche delle Fake News e di quelli che sono i fattori Sociali 
+Durante l’incontro si è parlato anche delle Fake News e di quelli che sono i fattori Sociali
 i fattori sociali influenzano sia il mercato che come viene recepita e applicata dalla cittadinanza una normativa
 In ultimo ma non ultimo, il Venerdì ho avuto l’occasione di poter prender parte all’incontro con il team
 il team di trasformazione digitale voluto dal Governo Italiano per avvicinare la pubblica amministrazione al mondo digitale.
 Oggi volevo condividere con voi la grandiosa esperienza che ho potuto vivere la settimana scorsa a Tallinn in Estonia.
-Il primo giorno, dopo un giro di presentazioni generali da parte di tutti, è stata fatta una introduzione 
-Successivamente, ci siamo divisi in piccoli gruppi e ognuno di noi ha dato una sua vision del festival 
+Il primo giorno, dopo un giro di presentazioni generali da parte di tutti, è stata fatta una introduzione
+Successivamente, ci siamo divisi in piccoli gruppi e ognuno di noi ha dato una sua vision del festival
 ha disegnato come i vari argomenti possano essere collegati tra di loro.
 Sono state più o meno una cinquantina le persone presenti e che sono intervenute durante la manifestazione.
 Avrei voluto poter creare tanti cloni di me stesso per poter seguire da vicino tutte le attività
@@ -4038,7 +4087,7 @@ contribuire al prossimo Mozilla Festival per me non solo è fantastico, ma è un
 auitare Mozilla a perseguire gli ideali di libertà, uguaglianza e inclusività nel web.
 Nei prossimi giorni verranno pubblicati sul sito ufficiale del summit le registrazione dei talk e le note delle sessioni
 Sono estremamente contento di questa esperienza.
-Conoscere altre persone che hanno passioni simili alle mie, che portano avanti degli obiettivi attraverso delle community 
+Conoscere altre persone che hanno passioni simili alle mie, che portano avanti degli obiettivi attraverso delle community
 sono pronte a condividere le loro esperienze con gli altri in maniera spontanea, inclusiva, libera e aperta è fantastico.
 Ultimo elemento ma non ultimo, che ha caratterizzato questo weekend Milanese è stato l’incontro con alcuni volontari
 Poterci incontrare di persona, scambiare opinioni e punti di vista per la nostra community ha reso speciale questo weekend
@@ -4057,7 +4106,7 @@ Per questa ragione speriamo che ti unirai a noi dal 27 al 29 Ottobre
 Al Ravensbourne di Londra, per condividere con noi il divertimento!
 Un Giardino in salute ha la necessità di esser vario tanto quanto ha la necessità di difendersi da insetti e malattie.
 Il web non è differente e non è differente anche il modo con il quale esprimiamo rapidamente noi stessi online.
-E’ stato dunque interessante raccogliere le esperienze e i pareri di tutti i presenti per costruire un dialogo 
+E’ stato dunque interessante raccogliere le esperienze e i pareri di tutti i presenti per costruire un dialogo
 È importante chiedere a gran voce che l’Unione Europea faccia chiarezza con una legge
 una legge che possa esser scritta per esser vicina alle persone e ai propri bisogni.
 In conclusione abbiamo discusso su degli esempi pratici di quello che potrebbe esser inteso come violazione del Copyright
@@ -4068,8 +4117,8 @@ E’ stato interessante cogliere come le persone percepiscano differentemente qu
 Mal grado tutte le persone presenti ai due incontri abbiano mostrato della preoccupazione circa questa tematica
 non sentono una reale implicazione dalla violazione di questa legge
 perché sino ad oggi non sono stati rilevanti i casi di ripercussioni pesanti sugli utenti.
-A livello locale noi tutti volontari Mozilla di Cagliari, abbiamo deciso di realizzare dei laboratori 
-non hanno soltanto l’obbiettivo di informare, ma principalmente di realizzare una esperienza 
+A livello locale noi tutti volontari Mozilla di Cagliari, abbiamo deciso di realizzare dei laboratori
+non hanno soltanto l’obbiettivo di informare, ma principalmente di realizzare una esperienza
 una esperienza che possa cercare realmente di creare una maggiore consapevolezza su tutte queste tecnologie.
 Vogliamo creare momenti di confronto su come leggere, scrivere e partecipare nel Web.
 Per noi è importante che le persone sappiano come interpretare il web, che possano sviluppare i loro contenuti
@@ -4082,7 +4131,7 @@ la libertà è sempre meno importante nel web.
 Vogliamo che gli utenti abbiano modo di poter avere una vita virtuale consapevole e sicura e per questo ci battiamo.
 Sono contento di poter ufficialmente annunciare l’arrivo tra noi del nuovo programma Universitario di Mozilla.
 Un programma che definitivamente abbraccia globalmente tutte le tematiche e gli obbiettivi della Fondazione,
-permettendo agli studenti di poter affrontare queste tematiche in prima persona e realizzando laboratori 
+permettendo agli studenti di poter affrontare queste tematiche in prima persona e realizzando laboratori
 si cerca di incentivare l’innovazione e la collaborazione tra tutti gli studenti del nostro globo.
 Oggi giorno tutti noi abbiamo la necessità di interagire con il web.
 Insegnare il web significa aiutare le persone ad avere le abilità necessarie a poter leggere, scrivere e partecipare online
@@ -4094,15 +4143,15 @@ Al fine di mantenere il Web aperto e accessibile a tutti, le persone hanno bisog
 le persone devono sapere come combattere e difendersi davanti alle grandi sfide e opportunità
 I Campus Club sono una opportunità per confrontarsi circa le questioni che contano di più.
 E’ stata una esperienza fantastica per mettersi in gioco in modo cooperativo con tutta la community Europea di Mozilla.
-Un momento nel quale abbiamo avuto modo di lavorare tutti assieme e di imparare l’uno dall’altro, 
+Un momento nel quale abbiamo avuto modo di lavorare tutti assieme e di imparare l’uno dall’altro,
 per poterci conoscere e rimanere aggiornati sugli obbiettivi della Fondazione Mozilla.
-La potenza di questo Gathering è stata l’energia e la voglia di mettersi in gioco tutti assieme 
+La potenza di questo Gathering è stata l’energia e la voglia di mettersi in gioco tutti assieme
 sempre con il massimo rispetto e la vera voglia di conoscersi.
 Sono particolarmente contento di aver lavorato, durante il weekend, con tante altre persone
 queste persone perseguono  l’obbiettivo di lottare per mantere il Web una risorsa libera e accessibile
 Vi voglio bene!
 Dal prossimo autunno ci saranno delle bellissime novità e prossimamente saranno annunciate ufficialmente.
-Vi posso anticipare è che localmente qui a Cagliari, stiamo lavorando per offrire degli incontri 
+Vi posso anticipare è che localmente qui a Cagliari, stiamo lavorando per offrire degli incontri
 in questi incontri si potrà scrivere, leggere e partecipare attivamente nel web
 stiamo lavorando ad attività riguardo il gap che in Europa abbiamo tra le leggi sul Copyright e le tecnologie
 Un po’ di storia.
@@ -4160,7 +4209,7 @@ In realtà sono delle astutissime e bravissime hacker.
 Negli anni, le combattenti di questa setta si sono dovute aggiornare e modernizzare.
 Un tempo le loro armi erano analogiche, ora possiedono arsenali digitali e hanno molti computer.
 Però, non quelli da fighetto hipster.
-Sono computer old school tipo l’IBM Thinkpad x60 e naturalmente usano solo ethical distro Linux come fa Richard Stallman 
+Sono computer old school tipo l’IBM Thinkpad x60 e naturalmente usano solo ethical distro Linux come fa Richard Stallman
 sistemi operativi che contengono solo codice free al loro interno. Free non come “free beer”.
 Nell'era digitale uno dei mezzi più utili per mettere in ginocchio il sistema è proprio il cyber-terrorismo
 le ragazze della Toga Nigra, queste cyber-sorelle, sono ovunque e sanno fare bene il loro mestiere.
@@ -4250,7 +4299,7 @@ Il problema è che Space Cowboy, in quanto nerd flaccido, non avrebbe mai potuto
 Quando il giovane volò in strada, lanciato da Cinnamon Girl, pensò fosse arrivata la sua fine.
 Roma sarebbe stata spazzata via da un’intelligenza artificiale Milanese?
 Che disastro.
-Space Cowboy doveva arrivare a quel router e riavviarlo. 
+Space Cowboy doveva arrivare a quel router e riavviarlo.
 Purtroppo, solo il sistemista della città è autorizzato a farlo.
 per riuscirci non aveva altra scelta che sovraccaricare il sistema da remoto.
 Il traffico indotto da Skynet lo aveva logorato e sfiancato.
@@ -7673,7 +7722,6 @@ Adesso, si sarebbe tenuti tutti per se i sette milioni che gli avrebbe portati S
 Appena lasciato il commerciante, sarebbe saltato in un treno e chi s'era visto s'era visto.
 Gli inviati di suo zio avrebbero trovato la casa vuota.
 Lui si vedeva di già in Italia o in Egitto o addirittura in Oriente, se gli fosse piaciuto.
-Manfredo Vatel?
 Chiese finalmente.
 Al suono di quella, voce metallica priva di inflessioni, Carlo si scosse.
 Fissò lo sconosciuto negli occhi e disse con disinvoltura.
@@ -7776,7 +7824,8 @@ Era così sconvolto ancora che non ebbe la forza di salutare
 Preceduto dal silenzioso cameriere
 Evidentemente gli era destinata.
 Rifece il lungo corridoio e penetrò in una piccola stanza
-La camera era abbondantemente illuminata e ammobiliata con gusto e Bonard vide in mezzo di essa la valigia di Manfredo Vatel.
+La camera era abbondantemente illuminata e ammobiliata con gusto
+Bonard vide in mezzo di essa la valigia di Manfredo Vatel.
 Che era la sua!
 Magda, perché non ci canti una delle tue vecchie canzoni polacche?
 La giovane rifiutò.
@@ -8782,7 +8831,8 @@ A quest'ora il questore in questura non c'è!
 Sopra la panca la capra campa sotto la panca la capra crepa.
 Chi tocca di zucca la zucca di Checca fa zucca barucca e la zucca si ammacca.
 Che pacca che schiocca!
-Apelle, figlio di Apollo fece una palla di pelle di pollo, tutti i pesci vennero a galla per vedere quella bella palla di pelle di pollo fatta da Apelle, figlio di Apollo.
+Apelle, figlio di Apollo fece una palla di pelle di pollo
+tutti i pesci vennero a galla per vedere quella bella palla di pelle di pollo fatta da Apelle, figlio di Apollo.
 Trentatré trentini entrarono a Trento, tutti e trentatré trotterellando.
 Supercalifragilistichespiralidoso.
 Se la serva non ti serve, a che serve che ti serva di una serva che non serve?
@@ -9198,7 +9248,7 @@ Trazione: le braccia formano una specie di cerchio, o di cuore, quindi arrivando
 È in questa fase che avviene la respirazione.
 Le mani sono aperte e le braccia si muovono sul piano sagittale (e relativamente su quello trasverso).
 Per effettuare la respirazione la forza della trazione deve essere sufficiente a fare emergere la testa.
-Qui, più che mai, si nota la respirazione ispirazione dalla bocca ed espirazione dalla bocca e dal naso (contemporaneamente).
+Si nota la respirazione ispirazione dalla bocca ed espirazione dalla bocca e dal naso (contemporaneamente).
 Recupero: le braccia, dalla posizione del petto, vengono riportate in assetto in avanti.
 Notare che si effettua una specie di tuffo e i gomiti non possono uscire dall’acqua, pena la squalifica.
 La rana, più di tutti gli altri stili, utilizza lo scivolamento
