@@ -129,6 +129,12 @@ vote-yes = Ναι
 vote-no = Όχι
 toggle-play-tooltip = Πατήστε το πλήκτρο { shortcut-play-toggle } για εναλλαγή της κατάστασης αναπαραγωγής
 speak-subtitle = Δωρίστε τη φωνή σας
+speak-goal-text = Ηχογραφημένα κλιπς
+listen-subtitle = Βοηθήστε μας να επαληθεύσουμε φωνές
+listen-goal-text = Επαληθευμένα κλιπς
+hours-recorded = Ώρες ηχογράφησης
+hours-validated = Ώρες επαλήθευσης
+read-terms-q = Έχετε διαβάσει τους όρους;
 
 ## Speak & Listen Shortcuts
 
