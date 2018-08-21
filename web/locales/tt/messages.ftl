@@ -128,6 +128,9 @@ no-clips-to-validate = Бу телдә тыңлар өчен әлегә берн
 vote-yes = Әйе
 vote-no = Юк
 toggle-play-tooltip = Туктату/дәвам итү өчен { shortcut-play-toggle } төймәсенә басыгыз
+speak-subtitle = Тавышыгызны иганә итегез
+speak-goal-text = Клип яздырылды
+listen-goal-text = Клип тикшерелде
 
 ## Speak & Listen Shortcuts
 
