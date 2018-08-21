@@ -1,6 +1,10 @@
 .ReactModal__Content .inner.contact-modal {
     max-width: 35rem;
     text-align: start;
+
+    & textarea {
+        resize: none;
+    }
 }
 
 .contact-modal .actions {
