@@ -119,6 +119,8 @@ home-cta = Rěčće runjewon, dźěłajće tu sobu!
 wall-of-text-start = Hłós je přirodny, hłós je čłowjeski. Tohodla smy fascinowani, wužitnu hłosowu technologiju za naše mašiny wutworić. Ale, za wutworjenje hłosowych systemow je jara wulke mnóstwo hłosowych datow trěbne.
 wall-of-text-more-mobile = Najwjace datow wužiwane wot wulkich předewzaćow za wjetšinu ludźi přistupne njeje. Myslimy, zo to inowaciju znjemóžnja. Tohodla smy projekt Common Voice startowali, projekt, kotryž kóždemu spóznawanje hłosow spřistupnja.
 wall-of-text-more-desktop = Nětko móžeće swój hłós dać, zo byšće nam pomhał, datowu banku hłosow wotewrjeneho žórła natwarić, kotruž kóždy móže wužiwać, zo by inowatiwne nałoženja za graty a web wutworił.<lineBreak></lineBreak>Čitajće sadu, zo byšće mašinam pomhał, wuknyć, kak woprawdźići ludźo rěča. Kontrolujće dźěło druhich sobuskutkowarjow, zo byšće kwalitu polěpšił. Je tak lochko!
+wall-of-text-first = Hłós jr přirodny, hłós je čłowjeski. Tohodla zahorjamy so za wutworjenje wužiwajomneje hłosoweje technologije za naše mašiny. Ale, zo bychu hłosowe systemy wutworili, trjebaja wuwiwarjo jara wulke mnóstwo hłosowych datow.
+wall-of-text-second = Najwjace datow, kotrež so wot wulkich předewzaćow wužiwa, wjetšinje ludźi k dispoziciji njesteji. Myslimy, zo to inowaciji zadźěwa. Tohodla smy startowali Common Voice , projekt, kotryž ma hłosowe spóznaće wotewrjene a přistupne za kóždeho činić.
 show-wall-of-text = Dalše informacije
 help-us-title = Pomhajće nam, sady wobkrućić!
 help-us-explain = Tłóčće na Wothrać, słuchajće a zdźělće nam: je so slědowaca sada korektnje wurjekowała?
@@ -126,6 +128,15 @@ no-clips-to-validate = Zda so, kaž njebychu žane natočenja byli, na kotrež m
 vote-yes = Haj
 vote-no = Ně
 toggle-play-tooltip = Tłóčće na { shortcut-play-toggle }, zo byšće wothrawanski modus přepinał
+speak-subtitle = Darće swój hłós
+speak-paragraph = Natočenja hłosow su bytostny wobstatk při wutworjenju našeje datoweje sadźby; někotři bychu prajili, je tež dźěl, kotryž zabawja.
+speak-goal-text = Natočene klipy
+listen-subtitle = Pomhajće nam, hłosy wobkrućić
+listen-paragraph = Wobkrućenje darjenych klipow jr runje tak wažne za misiju Common Voice. Słuchajće a pomhajće nam hłosowe daty wotewrjeneho žórła w dobrej kwaliće wutworić.
+listen-goal-text = Wobkrućene klipy
+hours-recorded = Natočenske hodźiny
+hours-validated = Wobkrućene hodźiny
+read-terms-q = Sće naše wužiwanske wuměnjenja přečitał?
 
 ## Speak & Listen Shortcuts
 
