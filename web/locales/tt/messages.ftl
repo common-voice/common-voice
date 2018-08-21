@@ -116,12 +116,12 @@ report-bugs-link = Хаталар турында хәбәр итү
 
 home-title = «Common Voice» проекты — Mozilla компаниясенең компьютерларга кешеләрнең чынлыкта ничек сөйләшүен өйрәтүгә юнәлдерелгән инициативасы.
 home-cta = Рәхәтләнеп сөйләгез, бу проектка ярдәм итегез!
-wall-of-text-start = Тавыш — табигый, кешеләргә хас күренеш. Шуңа күрә безнең компьютерларны да кешеләр белән сөйләшә алырлык дәрәҗәгә җиткерәсебез килә. Әмма тавыш технологияләрен ясау өчен ифрат күп аудиоязмаларның булуы кирәк.
+wall-of-text-start = Тавыш — табигый, кешеләргә хас күренеш. Шул сәбәпле без компьютерларыбыз өчен уңайлы тавыш технологияләрен ясарга телибез. Әмма тавыш системаларын ясау өчен ифрат күп аудиоязмаларның булуы кирәк.
 wall-of-text-more-mobile = Зур ширкәтләр ия булган аудиомәгълүматны күпчелек кеше куллана алмый. Безнең уйлавыбызча, мондый хәл инновацияләрне тоткарлый. Нәкъ менә шул сәбәпле без Common Voice («Халык тавышы») проектын башлап җибәрдек. Әлеге проектның максаты — сөйләм тануны һәркем өчен дә ачык итү.
 wall-of-text-more-desktop =
     Хәзер Сез, безгә үзегезнең тавышыгызны «иганә итеп», ачык чыганаклы тавышлар/аудиоязмалар базасын төзергә ярдәм итә аласыз. Ул базаны — төрле җиһазлар һәм Интернет өчен инноватив кушымталар ясау өчен — һәркем дә куллана алачак.
     Машиналарга чын кешеләрнең ничек сөйләшүен өйрәтү өчен җөмләләр укыгыз. Сыйфатны күтәрү нияте белән, проектка ярдәм итүче башка кешеләрнең эшен дә тикшерегез. Бу бик гади!
-wall-of-text-first = Тавыш — табигый, кешеләргә хас күренеш. Шуңа күрә безнең компьютерларны да кешеләр белән сөйләшә алырлык дәрәҗәгә җиткерәсебез килә. Әмма тавыш технологияләрен ясау өчен ифрат күп аудиоязмаларның булуы кирәк.
+wall-of-text-first = Тавыш — табигый, кешеләргә хас күренеш. Шул сәбәпле без компьютерларыбыз өчен уңайлы тавыш технологияләрен ясарга телибез. Әмма, тавыш технологияләрен ясау өчен, программистларга ифрат күп аудиоязмалар кирәк.
 wall-of-text-second = Зур ширкәтләр ия булган аудиомәгълүматны күпчелек кеше куллана алмый диярлек. Безнең уйлавыбызча, мондый хәл инновацияләрне тоткарлый. Нәкъ менә шул сәбәпле без Common Voice («Халык тавышы») проектын башлап җибәрдек. Әлеге проектның максаты — сөйләм тануны һәркем өчен дә ачык итү.
 show-wall-of-text = Дәвамын укы
 help-us-title = Җөмләләрнең сыйфатын тикшерергә ярдәм итегез!
@@ -131,32 +131,35 @@ vote-yes = Әйе
 vote-no = Юк
 toggle-play-tooltip = Туктату/дәвам итү өчен { shortcut-play-toggle } төймәсенә басыгыз
 speak-subtitle = Тавышыгызны иганә итегез
+speak-paragraph = Тавыш клипларын яздыру — безнең ачык бирелгәннәр базасын төзүдә эшләнәсе иң төп эш; күп кеше өчен иң кызык та эштер.
 speak-goal-text = Клип яздырылды
+listen-subtitle = Аудиоязмаларны тикшерергә ярдәм итегез
+listen-paragraph = Иганә ителгән клипларны тикшерү Common Voice миссиясе өчен бертигез дәрәҗәдә әһәмиятле. Аларны тыңлагыз һәм безгә ачык чыганаклы тавыш бирелгәннәре базасын төзергә ярдәм итегез.
 listen-goal-text = Клип тикшерелде
 
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
-shortcut-skip = s
+shortcut-skip = т
 
 ## Listen Shortcuts
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-play-toggle = p
+shortcut-play-toggle = у
 shortcut-play-toggle-label = Уйнату/Туктату
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
-shortcut-vote-yes = y
+shortcut-vote-yes = ә
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
-shortcut-vote-no = n
+shortcut-vote-no = ю
 
 ## Speak Shortcuts
 
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-record-toggle = r
+shortcut-record-toggle = я
 shortcut-record-toggle-label = Яздыру/Туктату
 request-language-text = Common Voice'ка Сезнең телегез өстәлмәгәнме әле?
 request-language-button = Телнең өстәлүен сорау
