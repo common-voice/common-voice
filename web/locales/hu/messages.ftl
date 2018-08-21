@@ -126,6 +126,8 @@ no-clips-to-validate = Úgy néz ki egyetlen meghallgató klip sincs ezen a nyel
 vote-yes = Igen
 vote-no = Nem
 toggle-play-tooltip = Nyomja meg az { shortcut-play-toggle } gombot a lejátszási módba váltáshoz
+speak-goal-text = Rögzített klipek
+listen-subtitle = Segítsen ellenőrizni a hangokat
 
 ## Speak & Listen Shortcuts
 
@@ -245,7 +247,7 @@ data-get-started = <speechBlogLink>Vágjon bele a Beszédfelismerésbe</speechBl
 data-other-title = További hangadatkészletek…
 data-other-goto = Ugrás ide: { $name }
 data-other-download = Adatok letöltése
-data-other-librispeech-description = A LibriSpeech egy közel 1000 órás 16Khz-es korpusz, ami a LibriVox projekt hangoskönyveinek felolvasott angol szövegéből áll.
+data-other-librispeech-description = A LibriSpeech egy közel 1000 órás 16 KHz-es korpusz, ami a LibriVox projekt hangoskönyveinek felolvasott angol szövegéből áll.
 data-other-ted-name = TED-LIUM korpusz
 data-other-ted-description = A TED-LIUM korpusz a TED weboldalon elérhető előadások hanganyagából és a hozzájuk tartozó feliratokból készült.
 data-other-voxforge-description = A VoxForge a szabad és nyílt forráskódú beszédfelismerő rendszerekkel készült felvételek összegyűjtésére lett létrehozva.
@@ -313,7 +315,6 @@ request-language-success-content = Hamarosan jelenkezünk további információk
 language-section-in-progress = Folyamatban
 language-section-in-progress-description = A folyamatban lévő nyelveket a közösség közreműködésére építjük; az előrehaladás a weboldal honosítását, és a mondatgyűjtési fázist tükrözi.
 language-section-launched = Elindítva
-language-section-launched-description = Ezen elindított nyelvek esetén a weboldal sikeresen honosítva lett, és elég mondat lett összegyűjtve ahhoz, hogy lehetővé tegye a <italic>{ speak }</italic> és <italic>{ listen }</italic> típusú közreműködést.
 language-section-launched-new-description = Ezen elindított nyelvek esetén a weboldal sikeresen honosítva lett, és elég mondat gyűjt össze ahhoz, hogy elinduljanak a <italic>Beszéd</italic> és <italic>Hallgatás</italic> közreműködések.
 languages-show-more = Több
 languages-show-less = Kevesebb
@@ -323,7 +324,7 @@ language-total-progress = Összesen
 language-search-input =
     .placeholder = Keresés
 language-speakers = Beszélők
-localized = Honosított
+localized = Honosítva
 sentences = Mondatok
 total-hours = Órák összesen
 
@@ -335,7 +336,6 @@ contribute = Közreműködés
 listen = Figyeljen
 skip = Kihagyás
 shortcuts = Gyorsbillentyűk
-clips = Klipek
 clips-with-count = <bold>{ $count }</bold> kllip
 goal-help-recording = Segítettél a Common Voice-nak elérni a napi rögzítési céljának ({ $goalValue }) <goalPercentage></goalPercentage>-át!
 goal-help-validation = Segítettél a Common Voice-nak elérni a napi ellenőrzési céljának ({ $goalValue }) <goalPercentage></goalPercentage>-át!
