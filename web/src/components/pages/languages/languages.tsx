@@ -306,7 +306,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
                     : filteredLaunched.slice(0, 3)
                   ).map((localization, i) => (
                     <LocalizationBox
-                      key={i}
+                      key={localization.locale}
                       localeMessages={localeMessages}
                       type="launched"
                       {...localization}
@@ -348,7 +348,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
                     : filteredInProgress.slice(0, 3)
                   ).map((localization, i) => (
                     <LocalizationBox
-                      key={i}
+                      key={localization.locale}
                       localeMessages={localeMessages}
                       type="in-progress"
                       {...localization}
