@@ -137,6 +137,7 @@ listen-goal-text = Wobkrućene klipy
 hours-recorded = Natočenske hodźiny
 hours-validated = Wobkrućene hodźiny
 read-terms-q = Sće naše wužiwanske wuměnjenja přečitał?
+ready-to-record = Sće hotowy, swój hłós darić?
 
 ## Speak & Listen Shortcuts
 
