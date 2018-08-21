@@ -3,6 +3,7 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import API from '../../../services/api';
 import {
+  BaseLanguage,
   InProgressLanguage,
   LaunchedLanguage,
 } from '../../../../../common/language-stats';
@@ -84,34 +85,49 @@ class LanguagesPage extends React.PureComponent<Props, State> {
     const inProgress = this.state.inProgress.slice();
     const launched = this.state.launched.slice();
 
-    inProgress.sort((l1, l2) => {
-      if (l1.locale === locale) {
-        return -1;
-      }
+    function presortLanguages<T extends BaseLanguage>(
+      sortFn: (l1: T, l2: T) => number
+    ): (l1: T, l2: T) => number {
+      return (l1, l2) => {
+        // Selected locale comes first
+        if (l1.locale === locale) {
+          return -1;
+        }
+        if (l2.locale === locale) {
+          return 1;
+        }
 
-      if (l2.locale === locale) {
-        return 1;
-      }
-      return l1.sentencesCount < l2.sentencesCount ||
-        l1.localizedPercentage < l2.localizedPercentage
-        ? 1
-        : -1;
-    });
-    launched.sort((l1, l2) => {
-      if (l1.locale === locale) {
-        return -1;
-      }
-      if (l2.locale === locale) {
-        return 1;
-      }
-      if (l1.locale === 'en') {
-        return 1;
-      }
-      if (l2.locale === 'en') {
-        return -1;
-      }
-      return l1.seconds < l2.seconds ? 1 : -1;
-    });
+        // English comes last
+        if (l1.locale === 'en') {
+          return 1;
+        }
+        if (l2.locale === 'en') {
+          return -1;
+        }
+
+        // Browser locales are prioritized as well
+        if (navigator.languages.includes(l1.locale)) {
+          return -1;
+        }
+        if (navigator.languages.includes(l2.locale)) {
+          return 1;
+        }
+        return sortFn(l1, l2);
+      };
+    }
+
+    inProgress.sort(
+      presortLanguages(
+        (l1, l2) =>
+          l1.sentencesCount < l2.sentencesCount ||
+          l1.localizedPercentage < l2.localizedPercentage
+            ? 1
+            : -1
+      )
+    );
+    launched.sort(
+      presortLanguages((l1, l2) => (l1.seconds < l2.seconds ? 1 : -1))
+    );
 
     this.setState({
       inProgress,
