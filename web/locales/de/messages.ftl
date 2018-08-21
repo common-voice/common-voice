@@ -134,6 +134,10 @@ speak-goal-text = Aufgenommene Clips
 listen-subtitle = Helfen Sie uns, stimmen zu bestätigen
 listen-paragraph = Gespendete Clips zu bestätigen ist für die Mission von Common Voice ebenso wichtig. Hören Sie hin und helfen Sie uns, quelloffene Stimmdaten in guter Qualität bereitzustellen.
 listen-goal-text = Bestätigte Clips
+hours-recorded = Aufgenommene Stunden
+hours-validated = Bestätigte Stunden
+read-terms-q = Haben Sie unsere Nutzungsbedingungen gelesen?
+ready-to-record = Sind Sie bereit, Ihre Stimme zu spenden?
 
 ## Speak & Listen Shortcuts
 
