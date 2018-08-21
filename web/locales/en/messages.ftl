@@ -143,6 +143,8 @@ speak-goal-text = Clips recorded
 listen-subtitle = Help us validate voices
 listen-paragraph = Validating donated clips is equally important to the Common Voice mission. Take a listen and help us create quality open source voice data.
 listen-goal-text = Clips validated
+hours-recorded = Hours Recorded
+hours-validated = Hours Validated
 
 ## Speak & Listen Shortcuts
 # Must be one letter that appears in the translated { skip } string.

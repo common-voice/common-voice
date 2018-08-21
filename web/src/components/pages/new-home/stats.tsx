@@ -269,8 +269,8 @@ export namespace ClipsStats {
       }
       renderHeader={({ data }) => (
         <div className="metrics">
-          <Metric data={data} labelId="total-hours" attribute="total" />
-          <Metric data={data} labelId="total-hours" attribute="valid" />
+          <Metric data={data} labelId="hours-recorded" attribute="total" />
+          <Metric data={data} labelId="hours-validated" attribute="valid" />
         </div>
       )}
       renderXTickLabel={({ date }) => new Date(date).toLocaleDateString()}
