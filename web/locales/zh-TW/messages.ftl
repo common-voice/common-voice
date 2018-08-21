@@ -131,8 +131,10 @@ vote-yes = 是
 vote-no = 否
 toggle-play-tooltip = 按下 { shortcut-play-toggle } 即可切換播放模式
 speak-subtitle = 捐出您的聲音
+speak-paragraph = 錄下語音片段是打造我們的開放資料集當中很重要的部分，有的人說這很好玩。
 speak-goal-text = 已錄片段
 listen-subtitle = 請幫助我們驗證其他人的錄音
+listen-paragraph = 驗證別人錄下的語音片段，對 Common Voice 的使命也很重要。請聆聽片段，並幫助我們打造高品質的開源語音資料。
 listen-goal-text = 已驗證片段
 
 ## Speak & Listen Shortcuts
