@@ -134,6 +134,7 @@ speak-goal-text = Tukkisin ittwaskelsen
 listen-subtitle = Fket-aɣ afus n tallelt akken ad nsentem tuɣac
 listen-paragraph = Asentem n tukkisin yesɛa azal meqqren i tuɣdaṭ n Common Voice. Sell akken aɣ-d-tefkeḍ tallalt ad nesnulfu isefka n taɣect n aɣbalu yeldin s tɣara.
 listen-goal-text = Tukkisin yettwasentmen
+read-terms-q = Teɣriḍ tiwtilin-nneɣ?
 
 ## Speak & Listen Shortcuts
 
