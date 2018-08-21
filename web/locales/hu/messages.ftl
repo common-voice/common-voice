@@ -138,6 +138,11 @@ speak-subtitle = Adja a hangját
 speak-paragraph = A hangklipek rögzítése a nyílt adatkészletünk összeállításának szerves része; egyesek azt mondanák, hogy ez a szórakoztató része.
 speak-goal-text = Rögzített klipek
 listen-subtitle = Segítsen ellenőrizni a hangokat
+listen-paragraph = A közzétett klipek ellenőrzése hasonlóan fontos a Common Voice küldetéséhez. Hallgasson bele, és segítsen nekünk a minőségi nyílt forráskódú beszédadatok létrehozásában.
+listen-goal-text = Ellenőrzött klipek
+hours-recorded = Rögzített órák
+hours-validated = Ellenőrzött órák
+read-terms-q = Elolvasta a feltételeinket?
 
 ## Speak & Listen Shortcuts
 
