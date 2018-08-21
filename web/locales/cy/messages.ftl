@@ -121,6 +121,8 @@ wall-of-text-more-mobile = Nid yw'r data sy'n cael ei ddefnyddio gan gwmnïau ma
 wall-of-text-more-desktop =
     Nawr gallwch gyfrannu eich llais i'n helpu i adeiladu cronfa ddata lleisiau fydd pawb yn gallu ei defnyddio i greu apiau arloesol ar gyfer dyfeisiau a'r we.<lineBreak></lineBreak>
     Darllenwch frawddeg fel bod y peiriant yn gallu dysgu sut mae pobl go-iawn yn siarad. Adolygwch waith cyfranwyr eraill er mwyn gwella ei ansawdd. Mae mor syml â hynny!
+wall-of-text-first = Mae llais yn naturiol ac yn ddynol. Dyna pam rydym yn awyddus i greu technoleg llais defnyddiol ar gyfer ein peiriannau. Ond i greu systemau llais, mae datblygwyr angen swm sylweddol iawn o ddata llais.
+wall-of-text-second = Nid yw'r rhan fwyaf o ddata sy'n cael ei ddefnyddio gan y cwmnïau mawr ar gael i'r rhan fwyaf o bobl. Rydym ni'n credu fod hynny'n cyfyngu ar arloesedd. Felly rydym wedi lawnsio Common Voice, project i roi adnabod llais yn agored ac ar gael i bawb.
 show-wall-of-text = Darllen Rhagor
 help-us-title = Helpwch ni i ddilysu brawddegau!
 help-us-explain = Pwyswch chwarae, gwrando a dweud: ydyn nhw wedi dweud y frawddeg isod yn iawn?
@@ -128,6 +130,12 @@ no-clips-to-validate = Mae'n ymddangos nad oes unrhyw glipiau i wrando arnynt yn
 vote-yes = Iawn
 vote-no = Na
 toggle-play-tooltip = Cliciwch { shortcut-play-toggle } i newid y modd chwarae
+speak-subtitle = Cyfrannwch eich llais
+speak-paragraph = Mae recordio clipiau'n rhan annatod o adeiladu ein set data gored; byddai rhai'n dweud mae hwn yw'r rhan sy'n fwyaf o hwyl, hefyd.
+speak-goal-text = Clipiau wedi eu recordio
+listen-subtitle = Helpwch ni i ddilysu lleisiau
+listen-paragraph = Mae dilysu clipiau sydd wedi eu cyfrannu yr un mor bwysig i ymgyrch Common Voice. Gwrandewch arnyn nhw a'n helpu i greu data llais cod agored o ansawdd.
+listen-goal-text = Clipiau wedi eu dilysu
 
 ## Speak & Listen Shortcuts
 
@@ -319,7 +327,6 @@ request-language-success-content = Byddwn mewn cysylltiad gyda rhagor o wybodaet
 language-section-in-progress = Yn Cael eu Datblygu
 language-section-in-progress-description = Mae ieithoedd sy'n cael eu datblygu yn cael eu hadeiladu ar hyn o bryd ar gyfer cyfraniadau gan ein cymunedau; mae eu cynnydd yn adlewyrchu lle maen nhw arni ar draws cyfnodau lleolieddio'r wefan a'r casglu brawddegau.
 language-section-launched = Ar Gael
-language-section-launched-description = Ar gyfer ieithoedd sydd wedi eu cyflwyno mae'r wefan wedi ei leoleiddio'n llwyddiannus ac mae digon o frawddegau wedi eu casglu i ganiatáu cyfraniadau <italic>{ speak }</italic> a <italic>{ listen }</italic> parhaus.
 language-section-launched-new-description = Ar gyfer yr ieithoedd hyn sydd ar gael mae'r wefan wedi ei leoleiddio'n llwyddiannus ac mae ganddo ddigon o frawddegau wedi eu casglu i ganiatáu ar gyfer cyfraniadau <italic>Siarad</italic> a <italic>Gwrando</italic>.
 languages-show-more = Gweld Mwy
 languages-show-less = Gweld Llai
@@ -341,7 +348,6 @@ contribute = Cyfrannwch
 listen = Gwrando
 skip = Hepgor
 shortcuts = Llwybrau Byr
-clips = Clip
 clips-with-count = <bold>{ $count }</bold>Clipiau
 goal-help-recording = Rydych wedi cynorthwyo Common Voice i gyrraedd <goalPercentage></goalPercentage> o { $goalValue }, ein nod recordio dyddiol!
 goal-help-validation = Rydych wedi cynorthwyo Common Voice i gyrraedd <goalPercentage></goalPercentage> o { $goalValue }, ein nod dilysu dyddiol!
