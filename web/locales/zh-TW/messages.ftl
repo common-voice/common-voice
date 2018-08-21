@@ -138,6 +138,7 @@ listen-paragraph = 驗證別人錄下的語音片段，對 Common Voice 的使�
 listen-goal-text = 片段已驗證
 hours-recorded = 小時已記錄
 hours-validated = 小時已驗證
+read-terms-q = 您閱讀過我們的使用條款了嗎？
 
 ## Speak & Listen Shortcuts
 
