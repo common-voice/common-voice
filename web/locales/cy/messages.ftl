@@ -132,10 +132,13 @@ vote-no = Na
 toggle-play-tooltip = Cliciwch { shortcut-play-toggle } i newid y modd chwarae
 speak-subtitle = Cyfrannwch eich llais
 speak-paragraph = Mae recordio clipiau'n rhan annatod o adeiladu ein set data gored; byddai rhai'n dweud mae hwn yw'r rhan sy'n fwyaf o hwyl, hefyd.
-speak-goal-text = Clipiau wedi eu recordio
+speak-goal-text = Clipiau wedi'u recordio
 listen-subtitle = Helpwch ni i ddilysu lleisiau
 listen-paragraph = Mae dilysu clipiau sydd wedi eu cyfrannu yr un mor bwysig i ymgyrch Common Voice. Gwrandewch arnyn nhw a'n helpu i greu data llais cod agored o ansawdd.
-listen-goal-text = Clipiau wedi eu dilysu
+listen-goal-text = Clipiau wedi'u dilysu
+hours-recorded = Oriau wedi'u Recordio
+hours-validated = Oriau wedi'u Dilysu
+read-terms-q = Ydych chi wedi darllen ein Amodau?
 
 ## Speak & Listen Shortcuts
 
@@ -170,12 +173,12 @@ status-title = Statws cyffredinol y project: gweld pa mor bell rydym wedi cyrrae
 status-contribute = Cyfrannu eich Llais
 status-hours =
     { $hours ->
-        [zero] { $hours } awr wedi eu dilysu hyd yma!
-        [one] Un awr wedi ei dilysu hyd yma!
-        [two] { $hours } awr wedi eu dilysu hyd yma!
-        [few] { $hours } awr wedi eu dilysu hyd yma!
-        [many] { $hours } awr wedi eu dilysu hyd yma!
-       *[other] { $hours } awr wedi eu dilysu hyd yma!
+        [zero] { $hours } awr wedi'u dilysu hyd yma!
+        [one] Un awr wedi'u dilysu hyd yma!
+        [two] { $hours } awr wedi'u dilysu hyd yma!
+        [few] { $hours } awr wedi'u dilysu hyd yma!
+        [many] { $hours } awr wedi'u dilysu hyd yma!
+       *[other] { $hours } awr wedi'u dilysu hyd yma!
     }
 # Variables:
 # $goal - number of hours representing the next goal
@@ -327,7 +330,7 @@ request-language-success-content = Byddwn mewn cysylltiad gyda rhagor o wybodaet
 language-section-in-progress = Yn Cael eu Datblygu
 language-section-in-progress-description = Mae ieithoedd sy'n cael eu datblygu yn cael eu hadeiladu ar hyn o bryd ar gyfer cyfraniadau gan ein cymunedau; mae eu cynnydd yn adlewyrchu lle maen nhw arni ar draws cyfnodau lleolieddio'r wefan a'r casglu brawddegau.
 language-section-launched = Ar Gael
-language-section-launched-new-description = Ar gyfer yr ieithoedd hyn sydd ar gael mae'r wefan wedi ei leoleiddio'n llwyddiannus ac mae ganddo ddigon o frawddegau wedi eu casglu i ganiatáu ar gyfer cyfraniadau <italic>Siarad</italic> a <italic>Gwrando</italic>.
+language-section-launched-new-description = Ar gyfer yr ieithoedd hyn sydd ar gael mae'r wefan wedi ei leoleiddio'n llwyddiannus ac mae ganddo ddigon o frawddegau wedi'u casglu i ganiatáu ar gyfer cyfraniadau <italic>Siarad</italic> a <italic>Gwrando</italic>.
 languages-show-more = Gweld Mwy
 languages-show-less = Gweld Llai
 language-speakers = Siaradwyr
