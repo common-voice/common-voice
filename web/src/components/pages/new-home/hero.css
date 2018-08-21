@@ -7,8 +7,7 @@
     flex-direction: column;
     justify-content: center;
 
-    background-color: var(--white);
-    background-repeat: no-repeat;
+    background: var(--white) no-repeat;
     background-position-x: center;
     background-position-y: 100%;
 
@@ -25,6 +24,7 @@
         min-height: 500px;
         box-sizing: border-box;
         flex-direction: row;
+        background-size: contain;
     }
 
     @media (--lg-up) {
