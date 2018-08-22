@@ -128,6 +128,8 @@ no-clips-to-validate = يبدو أنه ليس ثمة أي مقاطع في هذه
 vote-yes = نعم
 vote-no = لا
 toggle-play-tooltip = انقر { shortcut-play-toggle } للتشغيل أو الإيقاف
+speak-subtitle = ساهِم بصوتك
+listen-subtitle = ساعِدنا في التحقق من الأصوات
 
 ## Speak & Listen Shortcuts
 
