@@ -122,6 +122,7 @@ wall-of-text-more-desktop =
     Kini Anda dapat menyumbangkan suara guna membantu kami membangun basis data suara sumber terbuka yang dapat digunakan oleh siapa saja untuk membuat aplikasi yang inovatif untuk peranti dan web.<lineBreak></lineBreak>
     Baca satu kalimat untuk membantu mesin mempelajari bagaimana manusia sesungguhnya berbicara. Periksa hasil kerja kontributor lainnya untuk memperbaiki mutu. Sesederhana itu!
 wall-of-text-first = Suara itu alami, suara itu manusiawi. Itulah mengapa kami bersemangat dalam menciptakan teknologi suara yang berguna bagi mesin kami. Namun, untuk membangun sistem suara, para pengembang butuh data suara yang sangat besar jumlahnya.
+wall-of-text-second = Mayoritas data yang digunakan oleh perusahaan-perusahaan besar nyatanya tidak tersedia untuk mayoritas orang. Kami rasa hal itu dapat menghambat inovasi sehingga kami meluncurkan Proyek Common Voice, sebuah proyek yang membantu menjadikan pengenalan suara agar terbuka dan dapat diakses oleh siapa saja.
 show-wall-of-text = Baca Lebih Lanjut
 help-us-title = Bantu kami memvalidasi kalimat!
 help-us-explain = Tekan mulai, dengarkan, dan beri tahu kami: apakah mereka sudah mengucapkan kalimat di bawah ini dengan akurat?
@@ -130,6 +131,8 @@ vote-yes = Ya
 vote-no = Tidak
 toggle-play-tooltip = Tekan { shortcut-play-toggle } untuk mengaktifkan mode putar
 speak-subtitle = Sumbangkan suara Anda
+speak-paragraph = Merekam klip suara merupakan bagian yang tak terpisahkan dalam membangun himpunan data terbuka kami; sebagian orang juga berkata bahwa inilah bagian menyenangkannya.
+listen-subtitle = Bantu kami memvalidasi suara
 listen-paragraph = Memvalidasi klip donasi sama pentingnya bagi misi Common Voice. Dengarkan klip dan bantu kami mewujudkan data suara sumber terbuka yang bermutu.
 hours-recorded = Jam Terekam
 hours-validated = Jam Tervalidasi
