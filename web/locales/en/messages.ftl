@@ -145,7 +145,7 @@ listen-paragraph = Validating donated clips is equally important to the Common V
 listen-goal-text = Clips validated
 hours-recorded = Hours Recorded
 hours-validated = Hours Validated
-read-terms-q = Have vou read our Terms?
+read-terms-q = Have you read our Terms?
 ready-to-record = Ready to donate your voice?
 
 ## Speak & Listen Shortcuts
