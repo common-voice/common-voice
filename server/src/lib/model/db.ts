@@ -464,7 +464,7 @@ export default class DB {
               HAVING COUNT(CASE WHEN votes.created_at BETWEEN ? AND ? THEN 1 END) > 0
             ) AS clips;
           `,
-          [d[1], ...d, ...d, localeId]
+          [d[1], ...d, localeId, ...d]
         )
       )
     );
