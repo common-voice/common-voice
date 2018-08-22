@@ -455,15 +455,16 @@ export default class DB {
                 SUM(votes.is_valid)     AS upvotes_count,
                 SUM(NOT votes.is_valid) AS downvotes_count
               FROM clips
-              LEFT JOIN votes ON clips.id = votes.clip_id AND votes.created_at BETWEEN ? AND ?
+              LEFT JOIN votes ON clips.id = votes.clip_id AND votes.created_at < ?
               LEFT JOIN locales ON clips.locale_id = locales.id
               WHERE clips.created_at BETWEEN ? AND ? ${
                 locale ? 'AND clips.locale_id = ?' : ''
               }
               GROUP BY clips.id
+              HAVING COUNT(CASE WHEN votes.created_at BETWEEN ? AND ? THEN 1 END) > 0
             ) AS clips;
           `,
-          [...d, ...d, localeId]
+          [d[1], ...d, ...d, localeId]
         )
       )
     );
