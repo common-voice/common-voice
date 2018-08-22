@@ -143,7 +143,9 @@ per avere il miglior segnale come qualità
 se si rompono sono da buttare.
 Il libro, in quanto tale, appartiene all'autore, ma in quanto pensiero appartiene, senza voler esagerare, al genere umano.
 Tutti gli intelletti ne hanno diritto.
-Se uno dei due diritti, quello dello scrittore e quello dello spirito umano, dovesse essere sacrificato, sarebbe certo quello dello scrittore.
+Se uno dei due diritti dovesse essere sacrificato, sarebbe certo una catastrofe.
+sarebbe quello dello scrittore.
+quello dello scrittore e quello dello spirito umano.
 Dal momento che la nostra unica preoccupazione è l'interesse pubblico e tutti, lo dichiaro, vengono prima di noi.
 I nostri mercati, la nostra democrazia, la nostra scienza, le tradizioni della libertà di parola, e l'arte.
 Tutto dipende in maniera cruciale da un pubblico dominio di materiale liberamente accessibile.
@@ -151,18 +153,23 @@ Molto più di quanto non lo sia dal materiale informativo coperto da diritti di 
 Il pubblico dominio non è quanto rimane dopo che tutte le cose migliori siano state coperte dalle norme sulla proprietà.
 Il pubblico dominio è l'ambito da cui estraiamo i mattoni con cui costruire la nostra cultura.
 Rappresenta, di fatto, la maggior parte della nostra cultura.
-Per problemi di compatibilità intendiamo comportamenti diversi che i siti hanno in base al dispositivo e al browser che li visita.
-Contribuire è semplicissimo, in primo luogo a questo link trovi la discussione sul forum di Mozilla Italia che usiamo per coordinarci e segnalare i nuovi ticket aperti.
-Prima di segnalare un bug controlla che non ci sia già un issue aperto, sulla destra subito sotto il nome del sito trovi l'elenco coi link.
+Per problemi di compatibilità intendiamo comportamenti diversi che i siti hanno in base al dispositivo e al browser usato
+Contribuire è semplicissimo
+in primo luogo a questo link trovi la discussione sul forum di Mozilla Italia
+lo usiamo per coordinarci e segnalare i nuovi ticket aperti.
+Prima di segnalare un bug controlla che non ci sia già un issue aperto
+sulla destra, subito sotto il nome del sito, trovi l'elenco coi link.
 Sotto trovi i campi in parte pre-compilati per aprire il ticket.
-L'unico da compilare riguarda “altri commenti” in cui è consigliato l’inserimento di una spiegazione più dettagliata del problema.
+L'unico da compilare riguarda “altri commenti” in cui è consigliato l’inserimento di una spiegazione più dettagliata5.
 Dovete avere il profilo su mozillians e aver dimostrato interesse nelle nostre attività.
 Ogni stanza ha delle regole specifiche per le notifiche che possono essere diverse dal client desktop/mobile e browser.
-Cliccando sulla destra, sull’icona della campana, è possibile attivare le notifiche push in modo da essere aggiornati in tempo reale.
+Cliccando sulla destra, sull’icona della campana, è possibile attivare le notifiche push
+in modo da essere aggiornati in tempo reale.
 Partendo da questo punto, sviluppa in una frase o due qual è il problema che vuoi affrontare.
 Dopodiché bisogna analizzare in 4 punti: Attori, Ambiente, Interazione e Oggetti/Strumenti.
 Da questi 4 punti si realizza una storyboard con le cose fondamentali e più importanti del processo.
-Come possiamo coinvolgere i nostri volontari ad essere più attivi e promotori delle nostre attività in modo indipendente dal loro mentor?
+Come possiamo coinvolgere i nostri volontari ad essere più attivi e promotori delle nostre attività?
+in modo indipendente dal loro mentor?
 Il mentor ha un ruolo che ricopre, rispetto la sua community e rispetto a quella internazionale.
 Deve coinvolgere i suoi “allievi” nelle sue attività ed aiutarli nelle loro rendendoli liberi di sperimentare.
 Il mentor deve essere disponibile alle richieste, mai scorbutico e sempre gentile.
@@ -171,54 +178,76 @@ Inoltre le attività di un allievo come quelle di un mentor devono seguire gli i
 Tenerla aggiornata sulla situazione per una questione di trasparenza.
 Lo status delle attività deve essere tracciato per rendersi conto se la collaborazione funziona ed è produttiva.
 Per poter correggere il tiro e avere uno storico da riutilizzare in futuro.
-Un volontario esperto vuole organizzare un evento ma non ha ben chiaro come fare per coinvolgere i partecipanti al post evento.
+Un volontario esperto vuole organizzare un evento
+ma non ha ben chiaro come fare per coinvolgere i partecipanti al post evento.
 Abbiamo definito i primi punti chiave riguardo il problema ignorando l’organizzazione e l'evento in sé.
 Focalizzandoci sulla partecipazione della community nella organizzazione e valutazione della proposta.
-Organizzare un evento senza contare le necessità ed i feedback della community può anche permettere di fare un bell’evento ma senza nessun risultato utile.
+Organizzare un evento senza contare le necessità ed i feedback della community
+può anche permettere di fare un bell’evento ma senza nessun risultato utile.
 Quindi é importante l’intervento della community o del mentor per la creazione dell’incontro stesso.
 Alla fine della traduzione il documento sarà condiviso nella community per la revisione.
 Questo documento mira a fornire consigli concreti su come dovrebbe apparire attiva una community Mozilla.
-Il contenuto è frutto di vari studi e ricerche da esperienze passate di diverse community Mozilla, così come di altri progetti Open Source.
+Il contenuto è frutto di vari studi e ricerche da esperienze passate di diverse community Mozilla
+così come di altri progetti Open Source.
 Il primo passo per tutte le community è avere delle basi solide.
 Quella che segue è un’ottima documentazione per un modello governativo ideale e della sua organizzazione.
-Una volta raccolte queste informazioni, raggruppa i collaboratori per aree di interesse e fai scegliere loro almeno due persone a cui fare supervisionare i lavori.
+Una volta raccolte queste informazioni, raggruppa i collaboratori per aree di interesse
+e fai scegliere loro almeno due persone a cui fare supervisionare i lavori.
 Così da evitare e prevenire eventuali rallentamenti.
 È importante avere almeno una persona che faccia da coordinatore.
-I coordinatori dei progetti devono mantenersi in contatto con i team di coordinamento di Mozilla per scambiarsi feedback sugli obiettivi e sulle attività.
-Almeno una persona deve essere capace di esprimersi correttamente in lingua inglese per poter fare da tramite con i rispettivi collaboratori.
+I coordinatori dei progetti devono mantenersi in contatto con i team di coordinamento di Mozilla
+per scambiarsi feedback sugli obiettivi e sulle attività.
+Almeno una persona deve essere capace di esprimersi correttamente in lingua inglese
+per poter fare da tramite con i rispettivi collaboratori.
 Questo sarebbe il gruppo che prenderà le decisioni definitive sui temi della community.
 Deve essere aperto a chiunque abbia lavorato attivamente almeno per tre mesi all’interno della community.
 Avere già  molta esperienza da nuovo arrivato è la chiave per il successo e la crescita.
 Avere una chiara documentazione collegata alla vostra homepage potrebbe essere il primo passo.
 In un progetto, tutti devono tenere d’occhio le domande dei nuovi arrivati.
 I coordinatori del progetto non devono essere gli unici a fornire nozioni ed abilità ai nuovi arrivati.
-Tieni a mente quello che hai appreso su come le persone nella tua community vorrebbero essere riconosciute sulla base dei propri meriti.
-Mozilla Italia di base promuove e continua a promuovere ufficialmente tutte le attività, programmi e progetti promossi dalla Community Internazionale di Mozilla.
-Al fine di incrementare l'attrattiva della nostra community si è deciso di realizzare delle attività finalizzate a coinvolgere tutti i volontari generici che, non facendo parte di nessun programma nello specifico, vogliono collaborare alle attività promosse localmente da tutta la community Mozilla Italia.
-Al fine di organizzare e mantenere costantemente attiva la community locale è necessario determinare dei ruoli e delle responsabilità locali o decisionali.
+Tieni a mente quello che hai appreso su come le persone nella tua community vorrebbero essere riconosciute
+sulla base dei propri meriti.
+Mozilla Italia di base promuove e continua a promuovere ufficialmente tutte le attività, programmi e progetti Mozilla
+promossi dalla Community Internazionale di Mozilla.
+Al fine di incrementare l'attrattiva della nostra community
+si è deciso di realizzare delle attività finalizzate a coinvolgere tutti i volontari generici
+pur non facendo parte di nessun programma nello specifico
+vogliono collaborare alle attività promosse localmente da tutta la community Mozilla Italia.
+Al fine di organizzare e mantenere costantemente attiva la community locale
+è necessario determinare dei ruoli e delle responsabilità locali o decisionali.
 Esse non sono da intendersi di tipo verticale o gerarchiche ma funzionali.
-Volontari non facenti parte di programmi ufficiali Mozilla che hanno contribuito in modo significativo alle attività Locali e hanno ottenuto un “vouch” su mozillians.org
-I volontari, facenti parte di programmi specifici, devono prioritariamente svolgere le attività e sottostare alle regole generali definite dal programma stesso.
+Volontari non facenti parte di programmi ufficiali Mozilla
+che hanno contribuito in modo significativo alle attività Locali e hanno ottenuto un “vouch” su mozillians.org
+I volontari, facenti parte di programmi specifici, devono prioritariamente svolgere le attività
+devono sottostare alle regole generali definite dal programma stesso.
 Rispettare le norme comportamentali definite dalla community Internazionale e locale Italiana.
 Vedere paragrafo: Norme comportamentali.
-I volontari che non sono coinvolti in nessun programma specifico avranno, invece, la possibilità, attraverso il participation team locale, di esser coinvolti alle attività sopra menzionate.
+I volontari che non sono coinvolti in nessun programma specifico
+avranno, invece, la possibilità, attraverso il participation team locale, di esser coinvolti alle attività sopra menzionate.
 Con il supporto dei volontari che hanno ruoli attivi in programmi specifici, ove necessario.
-Le persone che vogliono far parte della community Italiana di Mozilla e non fanno parte di programmi promossi a livello internazionale.
+Le persone che vogliono far parte della community Italiana di Mozilla
+e non fanno parte di programmi promossi a livello internazionale.
 Attività già consolidate possono fare richiesta di iscrizione.
 Tale richiesta non è vincolante e selettiva.
-Si ritiene necessaria per poter eseguire un censimento della community, offrire la formazione e determinare quali attività i volontari sono più orientati a seguire.
-Tali attività dovranno essere supervisionate da membri del council o da coach specifici che dovranno offrire il loro supporto per l’organizzazione e la realizzazione delle stesse.
+Si ritiene necessaria per poter eseguire un censimento della community
+offrire la formazione e determinare quali attività i volontari sono più orientati a seguire.
+Tali attività dovranno essere supervisionate da membri del council o da coach specifici
+essi dovranno offrire il proprio supporto per l’organizzazione e la realizzazione delle stesse.
 Per ogni tipologia di attività verranno nominati dei coach specifici e in numero sufficiente.
 Poter gestire tutti i membri senza che il monte orario settimanale per questa attività superi un tetto massimo di due ore.
 tutti i volontari devono esser formati
 L'obiettivo di Mozilla Italia è quello di promuovere le attività, i programmi, le campagne a livello locale.
-Pertanto è necessario che i nuovi volontari vengano, in prima analisi, orientati verso tutte le iniziative ufficiali della fondazione.
-Nel caso in cui non possano prenderne parte, offrirgli la possibilità di realizzare attività promosse dal participation team nazionale.
-Inoltre, hanno l’opportunità di portare avanti progetti Open Source, collaborare con altre realtà locali che perseguono i nostri stessi obiettivi.
+Pertanto è necessario che i nuovi volontari vengano orientati verso tutte le iniziative ufficiali della fondazione.
+Nel caso in cui non possano prenderne parte
+offrirgli la possibilità di realizzare attività promosse dal participation team nazionale.
+Inoltre, hanno l’opportunità di portare avanti progetti Open Source
+collaborare con altre realtà locali che perseguono i nostri stessi obiettivi.
 Attività generiche proposte periodicamente da tutti i membri stessi della community oppure da campagne specifiche di Mozilla.
 Anche collaborazioni con altre community locali ma tali attività devono essere approvate dal council.
-Queste regole sono dei suggerimenti da seguire quando si parla con persone al di fuori del gruppo in modo da evitare discordanze e creare confusione con gli altri membri.
-Su profili social gestiti da più persone vige la regola di uniformare il testo in modo che non si capisca il tocco di persone diverse.
+Queste regole sono dei suggerimenti da seguire quando si parla con persone al di fuori del gruppo
+in modo da evitare discordanze e creare confusione con gli altri membri.
+Su profili social gestiti da più persone vige la regola di uniformare il testo
+in modo che non si capisca il tocco di persone diverse.
 Gli hashtag sono molto importanti ed è bene non abusarne ma si inseriscono alla fine della frase.
 Non va utilizzato gergo dialettale se non a scopi promozionali che segua sempre il codice di condotta.
 Non ci devono essere guerre di opinione nei messaggi se non a scopo promozionale ma allo stesso tempo equilibrati.
@@ -226,122 +255,248 @@ Evitare i flame che portano solo rumore e non benefico nella promozione.
 Sul profilo personale si può scrivere di essere un volontario Mozilla o Mozillian ma non che si lavori per Mozilla.
 Questo riguarda qualunque nomina si ricopre nella community nazionale e non.
 In caso di partecipazione in specifici programmi di Mozilla è possibile scrivere la qualifica.
-La comunicazione deve essere sempre di base formale e niente speculazioni anche se in alcuni tratti può non esserlo per cercare il coinvolgimento.
-In conclusione ricordati che il responsabile delle tue parole sei tu e che puoi mettere nei problemi tutta la community nazionale e non.
+La comunicazione deve essere sempre di base formale e niente speculazioni
+anche se in alcuni tratti può non esserlo per cercare il coinvolgimento.
+In conclusione ricordati che il responsabile delle tue parole sei tu
+e che puoi mettere nei problemi tutta la community nazionale e non.
 Ignorare queste regole non è tollerato essendo membro della community e può comportare l’allontanamento dalla stessa.
-Il progetto è nato per ampliare il team di traduttori di Mozilla Italia, cercando anche di capire i motivi che portano i nuovi volontari ad allontanarsi
-Ciascuno tramite il proprio profilo potrà tenere traccia dei compiti fatti e da fare, un team di volontari si occupa dei compiti eseguiti!
+Il progetto è nato per ampliare il team di traduttori di Mozilla Italia
+cercando anche di capire i motivi che portano i nuovi volontari ad allontanarsi
+Ciascuno tramite il proprio profilo potrà tenere traccia dei compiti fatti e da fare
+un team di volontari si occupa dei compiti eseguiti!
 Avendo a disposizione il codice è possibile cambiarlo, salvarlo od usarlo in altri progetti non legati all'originale
-La prima modalità, che permette al Comune di svolgere le funzioni anagrafiche utilizzando il sito web dell’ANPR, è completamente gratuita e consente comunque al Comune, di mantenere allineata una banca dati locale per l’espletamento di altre funzionalità
+La prima modalità
+permette al Comune di svolgere le funzioni anagrafiche utilizzando il sito web dell’ANPR
+è completamente gratuita e consente comunque al Comune, di mantenere allineata una banca dati locale
+per l’espletamento di altre funzionalità
 A carico del Comune è la predisposizione del file di subentro che contiene i dati delle proprie anagrafi.
-Qualora il Comune abbia esigenza di aggiornare automaticamente le proprie basi dati locali, necessarie per lo svolgimento dei propri compiti istituzionali diversi da quelli di natura propriamente anagrafica, utilizzerà i servizi che ANPR rende disponibili a questo scopo.
+Qualora il Comune abbia esigenza di aggiornare automaticamente le proprie basi dati locali
+necessarie per lo svolgimento dei propri compiti istituzionali diversi da quelli di natura propriamente anagrafica
+utilizzerà i servizi che ANPR rende disponibili a questo scopo.
 Per utilizzare questa modalità è dunque necessario che il Comune modifichi il software anagrafico per integrarlo con ANPR.
 Il Comune in tal caso opera attraverso il proprio sistema gestionale modificato.
 La prima operazione da fare per poter utilizzare ANPR è la “compilazione della scheda di monitoraggio”.
 La compilazione di tale scheda consente al Ministero dell’Interno di predisporre la richiesta.
-“Piano di subentro” e assegnare a ogni Comune la data a partire dalla quale potrà iniziare a svolgere i passi propedeutici all’utilizzo effettivo di ANPR illustrati di seguito.
-Durante la fase di test , si dovrà inviare una parte dei dati registrati nella base dati comunale: tali dati popoleranno l’ANPR, facilitando in questo modo le successive fasi di apprendimento e test delle restanti funzionalità.
-L’ambiente di test è destinato prevalentemente ai fornitori dei SW anagrafici comunali prima del rilascio della nuova versione al comune per l’avvio dei test di pre-subentro.
-Per l’accesso all’ambiente di test si utilizza un certificato di postazione e una user-id e password che saranno trasmesse via PEC ai Comuni successivamente alla compilazione della scheda di monitoraggio, con almeno due mesi di anticipo rispetto alla data indicata dal comune per l’avvio dei test.
-È la fase immediatamente successiva a quella di test, che viene utilizzata per rilevare, preliminarmente al subentro, la presenza di eventuali criticità nella base dati.
+“Piano di subentro” e assegnare a ogni Comune la data
+a partire dalla quale potrà iniziare a svolgere i passi propedeutici all’utilizzo effettivo di ANPR illustrati di seguito.
+Durante la fase di test, si dovrà inviare una parte dei dati registrati nella base dati comunale
+tali dati popoleranno l’ANPR
+facilitando in questo modo le successive fasi di apprendimento e test delle restanti funzionalità.
+L’ambiente di test è destinato prevalentemente ai fornitori dei SW anagrafici comunali
+prima del rilascio della nuova versione al comune per l’avvio dei test di pre-subentro.
+Per l’accesso all’ambiente di test si utilizza un certificato di postazione e una user-id e password
+che saranno trasmesse via PEC ai Comuni successivamente alla compilazione della scheda di monitoraggio
+con almeno due mesi di anticipo rispetto alla data indicata dal comune per l’avvio dei test.
+È la fase immediatamente successiva a quella di test
+viene utilizzata per rilevare, preliminarmente al subentro, la presenza di eventuali criticità nella base dati.
 Per poter eseguire questa fase è necessario aver predisposto il file di subentro.
-Si utilizza in questa fase un ambiente diverso da quello di test, che consente di simulare il subentro e la successiva fase di esercizio.
-In particolare, la validazione del codice fiscale consiste nel verificare se il codice fiscale e i dati che concorrono alla sua formazione, coincidono con quelli registrati dall’Agenzia delle Entrate.
-Durante il pre-subentro, i Comuni che riceveranno le segnalazioni di eventuali anomalie dovranno verificarle con attenzione, rimuoverle utilizzando le proprie applicazioni quando dipendono da cause imputabili al comune e, successivamente, effettuare un nuovo invio dei dati.
+Si utilizza in questa fase un ambiente diverso da quello di test
+consente di simulare il subentro e la successiva fase di esercizio.
+In particolare, la validazione del codice fiscale consiste nel verificare se il codice fiscale
+e i dati che concorrono alla sua formazione
+coincidono con quelli registrati dall’Agenzia delle Entrate.
+Durante il pre-subentro, i Comuni che riceveranno le segnalazioni di eventuali anomalie dovranno verificarle con attenzione
+rimuoverle utilizzando le proprie applicazioni quando dipendono da cause imputabili al comune
+e, successivamente, effettuare un nuovo invio dei dati.
 Le anomalie che non dipendono dal comune saranno gestite a livello centrale.
-Per l’accesso all’ambiente di pre-subentro si utilizzano al momento le stesse credenziali già distribuite per l’accesso all’ambiente di test e lo stesso certificato di postazione.
+Per l’accesso all’ambiente di pre-subentro si utilizzano al momento le stesse credenziali già distribuite per l’accesso
+accesso all’ambiente di test e lo stesso certificato di postazione.
 In quanto segue sono sintetizzati i controlli che il sistema ANPR assicura nella fase di emissione dei certificati.
-Per tutti i certificati anagrafici producibili dagli ufficiali di anagrafe attraverso il sistema ANPR, sono riportati i controlli e le condizioni sui dati che ne inibiscono l’emissione.
-L’applicazione 18app permette di gestire il beneficio nominale di 500 euro ai cittadini residenti nel territorio nazionale che compiono i diciotto anni di età nell’anno 2017.
+Per tutti i certificati anagrafici producibili dagli ufficiali di anagrafe attraverso il sistema ANPR
+sono riportati i controlli e le condizioni sui dati che ne inibiscono l’emissione.
+L’applicazione 18app permette di gestire il beneficio nominale di 500 euro ai cittadini residenti nel territorio nazionale
+che compiono i diciotto anni di età nell’anno 2017.
 In possesso, ove previsto, di permesso di soggiorno in corso di validità
-Sì, è necessario verificare l’identità del beneficiario tramite il confronto del nome e cognome presenti nel buono d’acquisto ed i riferimenti del documento d’identità esibito dal diciottenne.
+Sì, è necessario verificare l’identità del beneficiario tramite il confronto del nome e cognome presenti nel buono
+buono d’acquisto
+ed i riferimenti del documento d’identità esibito dal diciottenne.
 Questi ruoli possono richiedere specializzazioni verticali su temi specifici (es. visual design).
-Trasversali in grado di coprire diversi aspetti all’interno del processo progettuale (dalla ricerca alla prototipazione).
-Le competenze manageriali includono la capacità di lavorare in team in modo collaborativo, gestire le relazioni con tutti gli attori coinvolti nel percorso di innovazione, avere un forte orientamento al raggiungimento degli obiettivi e misurare costantemente l’andamento dei progetti.
-Competenze essenziali riguardano aspetti come l’empatia e la comunicazione, la capacità di inquadrare i problemi e gestire l’incertezza, quella di passare rapidamente dalla teoria alla pratica e saper risolvere i problemi.
-Le mappature del sistema sono delle rappresentazioni sintetiche di tutti gli attori coinvolti nell’erogazione del servizio, e dei flussi di motivazioni e valori che scambiano.
-Le mappe di sistema hanno il vantaggio di descrivere in modo visivo e sintetico una serie di contenuti che diversamente andrebbero descritti in modo testuale o verbale.
-Il vantaggio della rappresentazione visiva è quello di semplificare la complessità, portando alla luce i tratti salienti del sistema.
-Le mappe di sistema aiutano a chiarire le idee all’interno di gruppi di lavoro estesi, allineando il punto di vista su come è strutturato il sistema e quali sono gli scambi di valori in corso.
-Le mappature aiutano a focalizzare la discussione, ragionando in modo partecipato rispetto agli elementi che funzionano o non funzionano di un sistema e come potrebbero essere migliorati.
-Avere un’idea chiara delle necessità delle persone che utilizzano i servizi che progettiamo, e conoscere nel dettaglio la loro esperienza di interazione con i canali digitali o fisici che rappresentano il servizio, è fondamentale per costruire una base solida su cui strutturare il progetto o da cui partire per migliorarlo.
-Questi strumenti possono essere utilizzati dal gruppo di lavoro per ragionare sui vari aspetti che compongono il servizio e individuare funzionalità e flussi di interazione, oppure possono essere utilizzati per coinvolgere gli utenti all’interno del percorso di progettazione tramite delle sessioni di lavoro partecipato.
-In generale, si alimentano dei risultati di attività di ricerca quantitativa e qualitativa volta a comprendere i bisogni degli utenti.
-L’architettura dell’informazione consiste nell’organizzazione semantica e logica di ambienti informativi, sia fisici sia digitali, e serve a rendere i servizi pubblici più facili da trovare, da capire e da usare.
-Una buona architettura dell’informazione aiuta le persone a comprendere ciò che le circonda e a trovare ciò che cercano, sia online che offline.
+Trasversali in grado di coprire diversi aspetti all’interno del processo progettuale
+dalla ricerca alla prototipazione.
+Le competenze manageriali includono la capacità di lavorare in team in modo collaborativo
+gestire le relazioni con tutti gli attori coinvolti nel percorso di innovazione
+avere un forte orientamento al raggiungimento degli obiettivi
+e misurare costantemente l’andamento dei progetti.
+Competenze essenziali riguardano aspetti come l’empatia e la comunicazione
+la capacità di inquadrare i problemi e gestire l’incertezza
+la capacità di passare rapidamente dalla teoria alla pratica e saper risolvere i problemi.
+Le mappature del sistema sono delle rappresentazioni sintetiche di tutti gli attori coinvolti nell’erogazione del servizio
+e dei flussi di motivazioni e valori che scambiano.
+Le mappe di sistema hanno il vantaggio di descrivere in modo visivo e sintetico una serie di contenuti
+diversamente andrebbero descritti in modo testuale o verbale.
+Il vantaggio della rappresentazione visiva è quello di semplificare la complessità
+portando alla luce i tratti salienti del sistema.
+Le mappe di sistema aiutano a chiarire le idee all’interno di gruppi di lavoro estesi
+allineando il punto di vista su come è strutturato il sistema e quali sono gli scambi di valori in corso.
+Le mappature aiutano a focalizzare la discussione
+ragionando in modo partecipato rispetto agli elementi che funzionano o non funzionano di un sistema
+e come potrebbero essere migliorati.
+Avere un’idea chiara delle necessità delle persone che utilizzano i servizi che progettiamo
+e conoscere nel dettaglio la loro esperienza di interazione con i canali digitali o fisici che rappresentano il servizio
+è fondamentale per costruire una base solida su cui strutturare il progetto o da cui partire per migliorarlo.
+Questi strumenti possono essere utilizzati dal gruppo di lavoro per ragionare sui vari aspetti che compongono il servizio
+e individuare funzionalità e flussi di interazione
+oppure possono essere utilizzati per coinvolgere gli utenti all’interno del percorso di progettazione
+tramite delle sessioni di lavoro partecipato.
+In generale, si alimentano dei risultati di attività di ricerca quantitativa e qualitativa
+tale ricerca è volta a comprendere i bisogni degli utenti.
+L’architettura dell’informazione consiste nell’organizzazione semantica e logica di ambienti informativi
+sia fisici sia digitali
+e serve a rendere i servizi pubblici più facili da trovare, da capire e da usare.
+Una buona architettura dell’informazione aiuta le persone a comprendere ciò che le circonda
+e a trovare ciò che cercano, sia online che offline.
 Lavorare su questo ambito implica una seria riflessione sulla struttura dell’informazione e sul linguaggio.
-Il processo di progettazione dell’architettura dell’informazione di un sito web parte dall’analisi degli utenti, del contenuto del sito e del contesto nel quale si opera.
+Il processo di progettazione dell’architettura dell’informazione di un sito web parte dall’analisi degli utenti
+del contenuto del sito
+e del contesto nel quale si opera.
 Questo processo porta all’individuazione dei contenuti imprescindibili del progetto web.
-Progettare l’architettura dell’informazione significa soddisfare i bisogni degli utenti, creando contenuti utili e rilevanti che possano adattarsi al contesto di fruizione.
-Grazie alla ricerca sugli utenti e all’analisi del contesto, è possibile definire le funzioni principali del sito e di ogni sua pagina.
+Progettare l’architettura dell’informazione significa soddisfare i bisogni degli utenti
+creando contenuti utili e rilevanti che possano adattarsi al contesto di fruizione.
+Grazie alla ricerca sugli utenti e all’analisi del contesto
+è possibile definire le funzioni principali del sito e di ogni sua pagina.
 I contenuti diventano quindi parte integrante del servizio all’utente.
-È bene prendere decisioni sulla base dell’analisi dei dati riferiti all’utente in particolare i dati statistici di navigazione sul sito per comprendere il comportamento dell’utente la realizzazione di interviste.
-Lo scopo primario dell’interfaccia di un servizio web è quello di aiutare l’utente a raggiungere ciò che cerca in modo naturale e immediato, in modo quasi trasparente.
-Per questo, la coerenza dei vari elementi che la compongono, anche su diversi dispositivi, è un elemento fondante per la creazione di prodotti funzionali e semplici da usare.
-La fatturazione di buoni di spesa accettati relativi all’acquisto di tutti i beni e servizi previsti dalla normativa può avvenire in qualsiasi momento.
-In sede di registrazione al servizio 18app puoi inserire i tuoi punti negozio con i relativi dati di riferimento (provincia, comune ed indirizzo) corredati di recapiti telefonici, sito internet ed indirizzo di posta elettronica.
-I musei che fanno riferimento al Ministero dei beni e delle attività culturali e del turismo sono censiti direttamente dalla Direzione Generale Musei e saranno geo-localizzabili dai diciottenni nell’applicazione a loro dedicata.
-I monumenti, parchi naturali e le aree archeologiche che fanno riferimento al Ministero dei beni e delle attività culturali e del turismo sono censiti direttamente dalla Direzione Generale archeologia, belle arti e paesaggio.
+È bene prendere decisioni sulla base dell’analisi dei dati riferiti all’utente
+in particolare i dati statistici di navigazione sul sito
+per comprendere il comportamento dell’utente la realizzazione di interviste.
+Lo scopo primario dell’interfaccia di un servizio web è quello di aiutare l’utente a raggiungere ciò che cerca
+in modo naturale e immediato
+in modo quasi trasparente.
+Per questo, la coerenza dei vari elementi che la compongono, anche su diversi dispositivi, è un elemento fondante
+per la creazione di prodotti funzionali e semplici da usare.
+La fatturazione di buoni di spesa accettati relativi all’acquisto di tutti i beni e servizi previsti dalla normativa
+può avvenire in qualsiasi momento.
+In sede di registrazione al servizio 18app puoi inserire i tuoi punti negozio con i relativi dati di riferimento
+provincia, comune ed indirizzo
+corredati di recapiti telefonici, sito internet ed indirizzo di posta elettronica.
+I musei che fanno riferimento al Ministero dei beni e delle attività culturali e del turismo
+sono censiti direttamente dalla Direzione Generale Musei
+e saranno geo-localizzabili dai diciottenni nell’applicazione a loro dedicata.
+I monumenti, parchi naturali e le aree archeologiche che fanno riferimento al Ministero dedicato
+Ministero dei beni e delle attività culturali e del turismo
+sono censiti direttamente dalla Direzione Generale archeologia, belle arti e paesaggio.
 Saranno geo-localizzabili dai diciottenni nell’applicazione a loro dedicata.
-Per la geo-localizzazione di tutti i miei punti vendita occorre inserire nell’applicazione i dati dei singoli esercizi commerciali.
+Per la geo-localizzazione di tutti i miei punti vendita
+occorre inserire nell’applicazione i dati dei singoli esercizi commerciali.
 Attraverso bonifico bancario sul c/c il cui IBAN è indicato in fattura.
-A tal proposito si evidenzia la necessità di verificare sempre con estrema attenzione il corretto inserimento del codice IBAN.
-A pagamento effettuato verrà inviata una e-mail automatica di notifica di avvenuto accredito all’indirizzo mail indicato nella sezione Contatti all’interno della fattura elettronica.
-Si ritiene che la fattura, pur se diretta a documentare un’operazione esclusa da IVA, in quanto (fra l’altro) caratterizzata da numerazione progressiva apposta in continuità rispetto alle fatture precedenti e successive, debba essere registrata contabilmente
+A tal proposito
+si evidenzia la necessità di verificare sempre con estrema attenzione il corretto inserimento del codice IBAN.
+A pagamento effettuato verrà inviata una e-mail automatica di notifica di avvenuto accredito all’indirizzo mail indicato
+nella sezione Contatti
+all’interno della fattura elettronica.
+Si ritiene che la fattura, pur se diretta a documentare un’operazione esclusa da IVA
+in quanto (fra l’altro) caratterizzata da numerazione progressiva apposta in continuità
+rispetto alle fatture precedenti e successive
+debba essere registrata contabilmente
 Rimane ovviamente ferma la sua irrilevanza agli effetti delle imposte sui redditi e del volume d’affari.
-La fattura emessa genera solo un credito nei confronti della pubblica amministrazione e attiene esclusivamente al profilo finanziario.
-Per l’esercente il ricavo è generato dall’operazione posta in essere con il cliente, documentato dal biglietto, scontrino o ricevuta messi dall’esercente medesimo secondo le consuete modalità e tempistica.
-In questo tema rientra tutto ciò che concerne lo sviluppo della società, le condizioni della società, la cittadinanza, la demografia, il welfare.
-In questo tema rientra tutto ciò che riguarda la ricerca, l’innovazione, la tecnologia, la banda larga e ultralarga, la psicologia, le scienze umane, lo spazio.
+La fattura emessa genera solo un credito nei confronti della pubblica amministrazione
+e attiene esclusivamente al profilo finanziario.
+Per l’esercente il ricavo è generato dall’operazione posta in essere con il cliente
+documentato dal biglietto, scontrino o ricevuta messi dall’esercente medesimo secondo le consuete modalità e tempistica.
+In questo tema rientra tutto ciò che concerne lo sviluppo della società
+le condizioni della società
+la cittadinanza, la demografia, il welfare.
+In questo tema rientra tutto ciò che riguarda la ricerca
+l’innovazione, la tecnologia, la banda larga e ultralarga
+la psicologia, le scienze umane, lo spazio.
 In questo tema rientra tutto ciò che riguarda i trasporti e le relative infrastrutture, la mobilità.
 E un’applicazione Web integrata nel catalogo per l’acquisizione e l’aggiornamento guidato dei metadati.
-L’editor, acceduto tipicamente previa autenticazione, alimenta automaticamente il catalogo in modo da garantire la conformità al profilo di metadatazione nazionale.
-Solo adottando un’ottica di miglioramento continuo possiamo sperare di renderle efficaci e utili per tutte le Pubbliche Amministrazioni.
-Poiché le linee guida evolvono continuamente (diciamo con frequenza mensile) diventa fondamentale introdurre il versionamento che consente di tenere traccia delle diverse release nel tempo.
-Grazie al versionamento, chi realizza siti aderenti alle linee guida può fare riferimento ad una precisa versione (da citare, ad esempio, quando si partecipa ad un bando di gara).
-Le competenze funzionali vanno dalla conduzione di attività di ricerca con gli utenti alla prototipazione, fino alla capacità di progettazione e realizzazione di interfacce e contenuti.
-Queste competenze generano dei ruoli che possono variare in funzione delle caratteristiche del progetto e dell’assetto di un team.
+L’editor, acceduto tipicamente previa autenticazione, alimenta automaticamente il catalogo
+in modo da garantire la conformità al profilo di metadatazione nazionale.
+Solo adottando un’ottica di miglioramento continuo
+possiamo sperare di renderle efficaci e utili per tutte le Pubbliche Amministrazioni.
+Poiché le linee guida evolvono continuamente
+diciamo con frequenza mensile
+diventa fondamentale introdurre il versionamento che consente di tenere traccia delle diverse release nel tempo.
+Grazie al versionamento, chi realizza siti aderenti alle linee guida può fare riferimento ad una precisa versione
+da citare, ad esempio, quando si partecipa ad un bando di gara.
+Le competenze funzionali vanno dalla conduzione di attività di ricerca con gli utenti alla prototipazione
+fino alla capacità di progettazione e realizzazione di interfacce e contenuti.
+Queste competenze generano dei ruoli che possono variare in funzione delle caratteristiche del progetto
+e dell’assetto di un team.
 Negli ultimi anni le soluzioni tecnologiche volte a supportare il processo di apertura dei dati sono diventate molteplici.
 Questo ha portato all’introduzione di vari modelli di classificazione e di descrizione dei dati pubblicati
-Alcuni dei quali dipendenti dalla piattaforma scelta per l’implementazione e alla proliferazione di portali pubblici di open data
+Alcuni dei quali dipendenti dalla piattaforma scelta per l’implementazione
+e alla proliferazione di portali pubblici di open data
 In molti casi non interoperabili né dal punto di vista semantico né da quello tecnologico.
-La situazione delineata evidenzia, quindi, ancora di più la necessità di standardizzare un profilo condiviso delle descrizioni dei dati anche a livello nazionale, in conformità anche alle regole e agli standard di interoperabilità definiti a livello internazionale.
-In questo tema rientra tutto ciò che riguarda la cultura, il turismo, l’istruzione e le attività sportive, eventi culturali e locali.
-In questo tema rientra tutto ciò che riguarda le politiche di governo, gli affari istituzionali, la trasparenza del settore pubblico (dati relativi ad amministrazione trasparente).
+La situazione delineata evidenzia, quindi, ancora di più la necessità di standardizzare un profilo
+descrizioni dei dati anche a livello nazionale
+in conformità anche alle regole e agli standard di interoperabilità definiti a livello internazionale.
+In questo tema rientra tutto ciò che riguarda la cultura, il turismo, l’istruzione e le attività sportive
+eventi culturali e locali.
+In questo tema rientra tutto ciò che riguarda le politiche di governo
+gli affari istituzionali
+la trasparenza del settore pubblico
+dati relativi ad amministrazione trasparente.
 In questo tema rientra tutto ciò che concerne le attività sulla salute e tutto ciò che riguarda gli animali.
-In questo tema rientra tutto ciò che concerne le relazioni internazionali, la cooperazione internazionale, i diritti umanitari, le organizzazioni internazionali e gli affari esteri.
-Parallelamente, il Team Digitale, in stretta collaborazione con le istituzioni competenti, lavorerà per l’individuazione di una PA che prenderà in carico il progetto.
-Il Team Digitale e la PA selezionata lavoreranno in sinergia durante la fase di messa in produzione del DAF, durante la quale si effettueranno i passaggi di consegna e training.
+In questo tema rientra tutto ciò che concerne le relazioni internazionali
+la cooperazione internazionale
+i diritti umanitari
+le organizzazioni internazionali e gli affari esteri.
+Parallelamente in stretta collaborazione con le istituzioni competenti
+il Team Digitale lavorerà per l’individuazione di una PA che prenderà in carico il progetto.
+Il Team Digitale e la PA selezionata lavoreranno in sinergia durante la fase di messa in produzione del DAF
+durante la quale si effettueranno i passaggi di consegna e training.
 Il mondo della ricerca e dell’innovazione.
-Grazie al DAF sarà, infatti, possibile promuovere iniziative atte a coinvolgere il mondo della ricerca e dell’innovazione su tematiche di interesse pubblico.
-Le presenti linee guida forniscono indicazioni sui temi dei dati, sui vocabolari controllati da utilizzare nonché una descrizione degli elementi principali del profilo di metadazione con le relative proprietà.
-Nell’ambito delle attività istituzionali relative alla promozione delle politiche di valorizzazione del patrimonio informativo pubblico nazionale, l’Agenzia per l’Italia Digitale è da tempo impegnata a favorire l’interoperabilità semantica di dati e servizi.
-Il presente servizio è volto a consentire agli esercenti commerciali, di incassare i buoni connessi all’utilizzo del bonus del valore di 500€.
-L’esercente prende atto ed accetta che il servizio lo identificherà, riconoscendogli accesso alle funzionalità di verifica, incasso e richiesta di liquidazione dei buono attraverso le citate credenziali.
-Pertanto chiunque entrasse fraudolentemente in possesso delle stesse potrà essere abilitato all’utilizzo del servizio medesimo al suo posto.
-Al riguardo l’utente prende atto di essere stato informato dell’obbligo di tempestiva denuncia in ogni ipotesi di perdita di possesso delle citate credenziali al fine di consentirne il blocco immediato.
+Grazie al DAF sarà, infatti, possibile promuovere iniziative atte a coinvolgere il mondo della ricerca e dell’innovazione
+su tematiche di interesse pubblico.
+Le presenti linee guida forniscono indicazioni sui temi dei dati, sui vocabolari controllati da utilizzare
+nonché una descrizione degli elementi principali del profilo di metadazione con le relative proprietà.
+Nell’ambito delle attività istituzionali relative alla promozione delle politiche di valorizzazione del patrimonio
+patrimonio informativo pubblico nazionale
+l’Agenzia per l’Italia Digitale è da tempo impegnata a favorire l’interoperabilità semantica di dati e servizi.
+Il presente servizio è volto a consentire agli esercenti commerciali di incassare i buoni
+connessi all’utilizzo del bonus del valore di 500€.
+L’esercente prende atto ed accetta che il servizio lo identificherà
+riconoscendogli accesso alle funzionalità di verifica, incasso e richiesta di liquidazione del buono
+attraverso le citate credenziali.
+Pertanto chiunque entrasse fraudolentemente in possesso delle stesse potrà essere abilitato all’utilizzo del servizio
+medesimo al suo posto.
+Al riguardo l’utente prende atto di essere stato informato dell’obbligo di tempestiva denuncia in ogni ipotesi
+di perdita di possesso delle citate credenziali al fine di consentirne il blocco immediato.
 Il DAF mette a disposizione la sua capacità di calcolo, la presenza (al suo interno) di basi di dati autoritative.
-Il DAF offre un supporto alle PA per la costruzione di modelli di interconnessione delle diverse sorgenti dati e l’analisi dei dati su tematiche di interesse per la PA.
+Il DAF offre un supporto alle PA per la costruzione di modelli di interconnessione delle diverse sorgenti dati
+e l’analisi dei dati su tematiche di interesse per la PA.
 Durante la fase sperimentale la governance del DAF è in carico al Team Digitale.
 Ha il compito di gestire attivamente la fase di sviluppo concettuale e implementativo dell’infrastruttura.
 Insieme a tutte le fasi del ciclo di vita del dato, dall’ingestione all’analisi e sviluppo di applicazioni.
-Il Team Digitale si farà anche carico di ingaggiare i rapporti con le PA coinvolte nella fase di sperimentazione e lavorerà insieme a loro per lo sviluppo di casi d’uso indicati nella roadmap.
-L’esercente prende altresì atto che ai fini della liquidazione dei buoni incassati dovrà disporre o dotarsi di un sistema di fatturazione elettronica conforme alla disciplina vigente.
+Il Team Digitale si farà anche carico di ingaggiare i rapporti con le PA coinvolte nella fase di sperimentazione
+e lavorerà insieme a loro per lo sviluppo di casi d’uso indicati nella roadmap.
+L’esercente prende altresì atto che dovrà disporre o dotarsi di un sistema di fatturazione elettronica
+conforme alla disciplina vigente.
+ai fini della liquidazione dei buoni incassati
 In assenza, non potrà, in alcun modo, vedersi liquidare il valore dei buoni eventualmente incassati.
-È, pertanto, vietato incassare i buoni generati attraverso il servizio da un soggetto diverso rispetto al titolare del buono il cui nome è riportato sullo stesso e/o a fronte della vendita di beni o servizi diversi rispetto a quelli di cui alle lettere da a) a c) che precedono.
-Il Ministero dei beni e delle attività culturali e del turismo vigila sulla corretta applicazione da parte dell’esercente delle regole che precedono nonché di quelle dettate nella disciplina vigente e, in caso di eventuali violazioni.
-Rendere facilmente disponibili e interoperabili una serie di dataset Open Data ritenuti strategici sotto il profilo dei fenomeni in essi descritti.
-Per questi dataset, si vogliono minimizzare i costi transattivi di utilizzo, prevedendo standard e regole di esposizione più stringenti rispetto a quelle normalmente previste per gli Open Data.
-Ricorda che tu non puoi rinunciare a diritti su una tua opera se non li possiedi, salvo che tu ne ottenga il permesso da parte del detentore.
-Per evitare di violare i diritti di terze parti, dovresti consultarti col tuo avvocato se non sei certo di possedere tutti i diritti necessari per distribuire l'opera.
-Sebbene molte biblioteche tedesche avessero familiarizzato con il tema del libero accesso già da tempo, poche di esse avevano poi in concreto utilizzato una simile forma di pubblicazione per i propri contenuti.
-L'iniziativa di Colonia rappresenta dunque un'interessante novità per la Germania, in tema di libera circolazione e condivisione dei dati.
-I dati pubblicati ricadono infatti in pubblico dominio ed è pertanto consentito a chiunque scaricarli, modificarli e riutilizzarli a piacere, secondo le proprie esigenze, senza alcuna restrizione.
-Vademecum, dal latino vade mecum, significato letterario vieni con me e figurativo ti do una mano è un progetto Mozilla Italia.
-Consiste nella realizzazione di un volantino (digitale e stampato) che permetta di capire in un foglio A4 (suddiviso in sezioni) cos'è Mozilla, Firefox e tutti i progetti correlati.
+È, pertanto, vietato incassare i buoni generati attraverso il servizio da un soggetto diverso rispetto al titolare del buono
+il cui nome è riportato sullo stesso e/o a fronte della vendita di beni o servizi diversi
+rispetto a quelli di cui alle lettere da a) a c) che precedono.
+Il Ministero dei beni e delle attività culturali e del turismo vigila sulla corretta applicazione da parte dell’esercente
+delle regole che precedono
+nonché di quelle dettate nella disciplina vigente
+e, in caso di eventuali violazioni.
+Rendere facilmente disponibili e interoperabili una serie di dataset Open Data ritenuti strategici
+sotto il profilo dei fenomeni in essi descritti.
+Per questi dataset, si vogliono minimizzare i costi transattivi di utilizzo
+prevedendo standard e regole di esposizione più stringenti rispetto a quelle normalmente previste per gli Open Data.
+Ricorda che tu non puoi rinunciare a diritti su una tua opera se non li possiedi
+salvo che tu ne ottenga il permesso da parte del detentore.
+Per evitare di violare i diritti di terze parti
+dovresti consultarti col tuo avvocato se non sei certo di possedere tutti i diritti necessari per distribuire l'opera.
+Sebbene molte biblioteche tedesche avessero familiarizzato con il tema del libero accesso già da tempo
+poche di esse avevano poi in concreto utilizzato una simile forma di pubblicazione per i propri contenuti.
+L'iniziativa di Colonia rappresenta dunque un'interessante novità per la Germania
+in tema di libera circolazione e condivisione dei dati.
+I dati pubblicati ricadono infatti in pubblico dominio
+ed è pertanto consentito a chiunque scaricarli, modificarli e riutilizzarli a piacere
+secondo le proprie esigenze, senza alcuna restrizione.
+Vademecum, dal latino vade mecum, significato letterario vieni con me e figurativo ti do una mano
+è un progetto Mozilla Italia.
+Consiste nella realizzazione di un volantino (digitale e stampato)
+che permetta di capire in un foglio A4 (suddiviso in sezioni) cos'è Mozilla, Firefox e tutti i progetti correlati.
 L'importanza sta nel fatto che tutti questi concetti vengano espressi in pochissimo spazio e debbano essere soddisfacenti.
 Innanzitutto è doveroso spiegare che cos'è Firefox.
-È un browser web unico che mette al primo posto gli utenti, ha il codice sorgente libero, è disponibile per tutti i principali sistemi operativi, è personalizzabile, è versatile, è veloce e, molto importante, è sicuro.
+È un browser web unico che mette al primo posto gli utenti
+ha il codice sorgente libero
+è disponibile per tutti i principali sistemi operativi
+è personalizzabile, è versatile, è veloce e, molto importante, è sicuro.
 Quindi tutti possono analizzarlo e modificarlo.
 Mozilla Foundation è l'organizzazione senza fini di lucro che, da oltre 15 anni, supporta Firefox e altri numerosi progetti.
 Questa organizzazione ha più di 10.000 volontari, provenienti da ogni parte del globo.
@@ -353,90 +508,161 @@ Firefox è creato dagli utenti per gli utenti.
 Non è realizzato per guadagnare (Mozilla è una fondazione no profit), ma per offrire un'esperienza di navigazione unica.
 Scegli il browser libero, sicuro, affidabile e indipendente.
 Firefox è il browser davvero “personale”.
-Grazie alle migliaia di estensioni disponibili è possibile aggiungere nuove funzionalità e, se non trovi l'estensione adatta alle tue esigenze, puoi svilupparla tu stesso.
-Inoltre, la moltitudine di temi disponibili consente di personalizzare anche l'interfaccia grafica e, se non dovessi trovare un tema che ti piace, puoi crearne uno tutto tuo!
-La sicurezza sul Web è fondamentale: Firefox integra moltissime funzioni in grado di migliorare la sicurezza della navigazione sul Web.
-La protezione anti-phishing, la gestione avanzata delle password, il controllo dei cookie e le impostazioni di sicurezza personalizzate.
+Grazie alle migliaia di estensioni disponibili è possibile aggiungere nuove funzionalità
+e, se non trovi l'estensione adatta alle tue esigenze, puoi svilupparla tu stesso.
+Inoltre, la moltitudine di temi disponibili consente di personalizzare anche l'interfaccia grafica
+e, se non dovessi trovare un tema che ti piace, puoi crearne uno tutto tuo!
+La sicurezza sul Web è fondamentale
+Firefox integra moltissime funzioni in grado di migliorare la sicurezza della navigazione sul Web.
+La protezione anti-phishing
+la gestione avanzata delle password
+il controllo dei cookie
+e le impostazioni di sicurezza personalizzate.
 Il sistema di aggiornamento automatico consente di mantenere il browser sempre aggiornato all’ultima versione disponibile.
 Il concetto di “comunità” è alla base della filosofia di Mozilla.
-Centinaia di persone in tutto il mondo collaborano alla pubblicazione di articoli di supporto e offrono assistenza agli utenti nelle principali lingue mondiali.
-In Italia questo compito è affidato a Mozilla Italia che offre supporto attraverso il suo forum o sui canali Telegram ufficiali.
+Centinaia di persone in tutto il mondo collaborano alla pubblicazione di articoli di supporto
+e offrono assistenza agli utenti nelle principali lingue mondiali.
+In Italia questo compito è affidato a Mozilla Italia che offre supporto
+attraverso il suo forum o sui canali Telegram ufficiali.
 Gli aggiornamenti di Firefox mirano a migliorare l'esperienza utente, quindi aggiungendo funzionalità utili e richieste.
 Alcune di queste funzionalità sono: la Modalità lettura, il Pulsante dimentica, la Barra degli indirizzi intelligente.
-Firefox offre diverse versioni, oltre alla stabile, la Dev Edition, rivolta agli sviluppatori, e la Nightly, rivolta a chi vuole collaborare segnalando eventuali problemi.
+Firefox offre diverse versioni oltre alla stabile
+la Dev Edition, rivolta agli sviluppatori
+e la Nightly, rivolta a chi vuole collaborare segnalando eventuali problemi.
 La realtà virtuale oggi permette di sperimentare nuove possibilità, anche unita alla realtà aumentata.
-Pocket è un servizio integrato in Firefox che permette di salvare, in un unico posto, con un semplice clic, tutte le pagine di proprio interesse per poterle leggere, condividere o rimuovere successivamente.
+Pocket è un servizio integrato in Firefox che permette di salvare tutte le pagine di proprio interesse
+per poterle leggere, condividere o rimuovere successivamente.
+in un unico posto
+con un semplice clic
 Un punto di forza di Firefox sono le estensioni.
-La libertà e la personalizzazione del browser sono le caratteristiche di Firefox, a dimostrazione del fatto che gli utenti sono di massima importanza per Mozilla.
+La libertà e la personalizzazione del browser sono le caratteristiche di Firefox
+a dimostrazione del fatto che gli utenti sono di massima importanza per Mozilla.
 Firefox, inoltre, è il solo browser web che dispone di estensioni anche nella versione mobile.
 Qui di seguito alcune delle migliori estensioni disponibili.
 Una versione alleggerita di AdBlock, impedisce il caricamento delle pubblicità e velocizza la navigazione.
 Mostra le statistiche sia delle risorse bloccate sia delle pubblicità bloccate della pagina che si sta visitando.
-Privacy Badger blocca i tentativi di tracciamento sul Web attraverso filtri specifici che riconoscono le pagine traccianti o malevole e ne impediscono il caricamento.
+Privacy Badger blocca i tentativi di tracciamento sul Web attraverso filtri specifici
+essi riconoscono le pagine traccianti o malevole e ne impediscono il caricamento.
 Come i pulsanti di condivisione dei social network.
-Consente di disattivare gli avvisi dei siti, resi obbligatori da una direttiva emanata della UE, sull'utilizzo di cookie di terze parti.
-Grazie a questa estensione è possibile pulire la cronologia di navigazione periodicamente secondo i propri gusti in maniera automatica e programmata.
+Consente di disattivare gli avvisi dei siti sull'utilizzo di cookie di terze parti.
+resi obbligatori da una direttiva emanata della UE
+Grazie a questa estensione è possibile pulire la cronologia di navigazione periodicamente
+secondo i propri gusti, in maniera automatica e programmata.
 Firefox Focus è un nuovo progetto della Mozilla Foundation che porta la navigazione privata a un livello più alto.
-Fornisce un browser dedicato alla privacy, attraverso un evoluto sistema di protezione antitracciamento e di blocco dei contenuti.
-Le avanzate funzionalità per la protezione della privacy sono sempre attive e la cronologia di navigazione, come anche i dati raccolti, vengono eliminati automaticamente al termine di ogni sessione di navigazione.
+Fornisce un browser dedicato alla privacy
+attraverso un evoluto sistema di protezione antitracciamento e di blocco dei contenuti.
+Le avanzate funzionalità per la protezione della privacy sono sempre attive
+e la cronologia di navigazione, come anche i dati raccolti, vengono eliminati automaticamente al termine di ogni sessione
+sessione di navigazione.
 Tutte queste caratteristiche avanzate sono disponibili in soli 5 MB, sia per Android sia per iOS.
 Il tuo aiuto è fondamentale per mantenere il Web una risorsa libera, accessibile e pubblica.
 I nostri volontari quotidianamente lavorano affinché questo sia possibile.
 Non è necessario che tu abbia delle abilità specifiche.
 Tra di noi potrai confrontarti con grafici, ingegneri, informatici, linguisti, studenti e insegnanti.
 Il nostro fattore comune è la volontà e la consapevolezza che l’unione fa la forza.
-Essere più sintetici possibile, quindi essere diretti: dal momento che verrà anche stampato potrebbe non entrare negli spazi prevesti ed, inoltre, un testo troppo lungo annoia, di conseguenza non viene letto.
+Essere più sintetici possibile, quindi essere diretti
+dal momento che verrà anche stampato potrebbe non entrare negli spazi prevesti
+e, inoltre, un testo troppo lungo annoia
+e di conseguenza non viene letto.
 Utilizzare un lessico non molto "aulico".
-Questo non perché gli utenti Mozilla siano "analfabetizzati" o "non istruiti", ma bensì per dare quel tocco di "amicizia" e "confidenzialità" che Mozilla Italia vuole dare.
-Utilizzare il lessico giusto, in base al luogo e alle persone con cui si sta parlando, in questo caso in base a ciò che si vuole comunicare.
-Non utilizzare molto tecnicismo: preferire all'hard tecnicismo un tecnicismo di base o per niente tecnicismo.
-Gli utenti potrebbero essere sia esperti nel settore informatico/tecnologico, sia utenti normali che si affacciano per le prime volte in questo grande mondo.
-Cercare di non inserire sigle o roba del genere se poi non la si spiega, ciò crea più confusione che informazione per un utente generico.
+Questo non perché gli utenti Mozilla siano "analfabeti" o "non istruiti"
+ma bensì per dare quel tocco di "amicizia" e "confidenzialità" che Mozilla Italia preferisce.
+Utilizzare il lessico giusto, in base al luogo e alle persone con cui si sta parlando
+in questo caso in base a ciò che si vuole comunicare.
+Non utilizzare molto tecnicismo
+preferire all'hard tecnicismo un tecnicismo di base o per niente tecnicismo.
+Gli utenti potrebbero essere sia esperti nel settore informatico/tecnologico, sia utenti normali
+che si affacciano per le prime volte in questo grande mondo.
+Cercare di non inserire sigle o roba del genere se poi non la si spiega
+ciò crea più confusione che informazione per un utente generico.
 Hai voglia di aiutare ma non sai da dove cominciare?
-Abbiamo rilasciato il codice e le credenziali per poter accedere all’ambiente di test dell’Anagrafe nazionale della popolazione residente
-Si tratta di un passaggio molto importante per lo sviluppo dell’anagrafe nazionale, perché permette a qualsiasi sviluppatore di lavorare più liberamente all’integrazione con ANPR, anche senza disporre delle credenziali di un comune.
-Una vera e propria apertura, che potrà accelerare il processo di diffusione dell’anagrafe e di servizi che si integrano con essa su tutto il territorio nazionale.
+Abbiamo rilasciato il codice e le credenziali per poter accedere all’ambiente di test dell’Anagrafe nazionale
+della popolazione residente
+Si tratta di un passaggio molto importante per lo sviluppo dell’anagrafe nazionale
+perché permette a qualsiasi sviluppatore di lavorare più liberamente all’integrazione con ANPR
+anche senza disporre delle credenziali di un comune.
+Una vera e propria apertura, che potrà accelerare il processo di diffusione dell’anagrafe
+e di servizi che si integrano con essa su tutto il territorio nazionale.
 Conferma della presenza sul luogo di lavoro.
-Tutto ciò verrà reso possibile grazie alle funzionalità di identificazione e sicurezza contenute nel microprocessore, le cui specifiche sono aperte e disponibili sia sul portale ufficiale del Ministero degli Interni, sia in questa pagina.
-Su Developers Italia, infatti, troverai tutte le informazioni tecniche e le librerie software per iniziare subito a sviluppare nuovi servizi.
+Tutto ciò verrà reso possibile grazie alle funzionalità di identificazione e sicurezza contenute nel microprocessore
+le cui specifiche sono aperte e disponibili sia sul portale ufficiale del Ministero degli Interni, sia in questa pagina.
+Su Developers Italia, infatti, troverai tutte le informazioni tecniche
+troverai le librerie software per iniziare subito a sviluppare nuovi servizi.
 Sul forum, avrai anche accesso diretto ai progettisti della CIE per avere tutti i chiarimenti tecnici necessari.
-Utilizziamo il nostro forum per discutere delle tematiche tecniche, per la progettazione di nuovi servizi, e per riportare problemi.
+Utilizziamo il nostro forum per discutere delle tematiche tecniche
+per la progettazione di nuovi servizi, e per riportare problemi.
 Contattaci pure nel canale dedicato alla CIE.
 L’integrazione di SPID è consentita sia per i siti Pubblica Amministrazione, sia per i siti e servizi online dei privati.
-I vantaggi nell’adottare SPID sono quindi molteplici: le banche e le assicurazioni, per esempio, potrebbero riconoscere il cittadino che vuole creare un conto o stipulare una polizza semplicemente facendogli fare login.
-Abbiamo aperto un’area di discussione nel nostro forum, per risolvere le problematiche tecniche di integrazione, e a breve sarà disponibile anche un issue tracker pubblico.
+I vantaggi nell’adottare SPID sono quindi molteplici
+le banche e le assicurazioni, per esempio, potrebbero riconoscere il cittadino che vuole creare un conto
+stipulare una polizza
+semplicemente facendogli fare login.
+Abbiamo aperto un’area di discussione nel nostro forum
+per risolvere le problematiche tecniche di integrazione
+e a breve sarà disponibile anche un issue tracker pubblico.
 PagoPA è il nodo di pagamenti della Pubblica Amministrazione.
-È una piattaforma che connette tra loro cittadini, Pubblica Amministrazione e i Prestatori di Servizi di Pagamento (PSP) per effettuare pagamenti verso la Pubblica Amministrazione in sicurezza e con semplicità.
-Integrare PagoPA rappresenta un grosso vantaggio per le Pubbliche Amministrazioni perché i pagamenti vengono accreditati in tempo reale, vengono correttamente rendicontati e di conseguenza può immediatamente essere rilasciato al cittadino la quietanza con valore legale.
-Per un cittadino, PagoPA permette di scegliere il metodo di pagamento tra i diversi a disposizione, a seconda delle comodità e del livello di digitalizzazione.
-Stiamo facendo evolvere il sistema in una ottica di mercato integrando canali di pagamento innovativi ed evolvendo l’interfaccia utente e le funzionalità del sistema verso gli standard consolidati sul mercato.
+È una piattaforma che connette tra loro cittadini, Pubblica Amministrazione e i Prestatori di Servizi di Pagamento (PSP)
+per effettuare pagamenti verso la Pubblica Amministrazione in sicurezza e con semplicità.
+Integrare PagoPA rappresenta un grosso vantaggio per le Pubbliche Amministrazioni
+perché i pagamenti vengono accreditati in tempo reale
+vengono correttamente rendicontati
+e di conseguenza può immediatamente essere rilasciato al cittadino la quietanza con valore legale.
+Per un cittadino, PagoPA permette di scegliere il metodo di pagamento tra i diversi a disposizione
+a seconda delle comodità e del livello di digitalizzazione.
+Stiamo facendo evolvere il sistema in una ottica di mercato integrando canali di pagamento innovativi
+ed evolvendo l’interfaccia utente e le funzionalità del sistema
+verso gli standard consolidati sul mercato.
 La trasformazione digitale è una priorità del Governo.
 Il Piano Triennale richiede un gioco di squadra per semplificare la Pubblica Amministrazione e la vita dei cittadini
-È il documento di indirizzo strategico ed economico destinato a tutta la Pubblica Amministrazione che accompagna la trasformazione digitale del Paese.
-Con il Piano Triennale prosegue la trasformazione digitale che permetterà alle pubbliche amministrazioni di diventare più efficienti e mettere il cittadino al centro delle loro azioni.
-L’aggiornamento del Codice dell’Amministrazione Digitale sarà un ulteriore passo per liberare l’innovazione dai troppi regolamenti e rafforzare i diritti di cittadinanza digitale
-Stiamo introducendo una modalità di partecipazione completamente nuova, certi che per raggiungere l’obiettivo della trasformazione digitale dei servizi della Pubblica Amministrazione si debba agire in maniera collaborativa.
+È il documento di indirizzo strategico ed economico destinato a tutta la Pubblica Amministrazione
+che accompagna la trasformazione digitale del Paese.
+Con il Piano Triennale prosegue la trasformazione digitale
+permetterà alle pubbliche amministrazioni di diventare più efficienti e mettere il cittadino al centro delle loro azioni.
+L’aggiornamento del Codice dell’Amministrazione Digitale sarà un ulteriore passo per liberare l’innovazione
+liberare dai troppi regolamenti e rafforzare i diritti di cittadinanza digitale
+Stiamo introducendo una modalità di partecipazione completamente nuova
+certi che per raggiungere l’obiettivo della trasformazione digitale sia necessario procedere in questa maniera
+dei servizi della Pubblica Amministrazione
+per fare ciò si debba agire in maniera collaborativa.
 Nelle pagine di questo sito vengono riassunti i contenuti del Piano Triennale, suddivisi per capitoli e azioni.
 Il documento completo è disponibile online in versione navigabile ottimizzata per dispositivi mobili o in PDF.
-Un elenco di parole della Pubblica Amministrazione, che in forma di glossario spiega (senza pretese di esaustività) in che modo scrivere alcuni termini ricorrenti nei servizi pubblici.
-Dei suggerimenti di scrittura, dove puoi trovare indicazioni per scrivere, strutturare, impaginare e gestire i tuoi contenuti, in modo da renderli efficaci e di facile utilizzo per gli utenti.
-Una guida sul tono di voce da utilizzare sui siti internet della Pubblica Amministrazione, a seconda delle attività e dei bisogni del cittadino.
+Un elenco di parole della Pubblica Amministrazione
+che in forma di glossario spiega tutto
+senza pretese di esaustività
+in che modo scrivere alcuni termini ricorrenti nei servizi pubblici.
+Suggerimenti di scrittura dove puoi trovare indicazioni per scrivere, strutturare, impaginare e gestire i tuoi contenuti
+in modo da renderli efficaci e di facile utilizzo per gli utenti.
+Una guida sul tono di voce da utilizzare sui siti internet della Pubblica Amministrazione
+a seconda delle attività e dei bisogni del cittadino.
 Per le finalità di queste linee guida è utile definire e distinguere le attività di misurazione da quelle di valutazione.
-Per misurazione si intende l'attività di quantificazione del livello di raggiungimento dei risultati e degli impatti da questi prodotti su utenti e stakeholder, attraverso il ricorso a indicatori.
-Per valutazione si intende l'attività di analisi e interpretazione dei valori misurati, che tiene conto dei fattori di contesto che possono avere determinato l'allineamento o lo scostamento rispetto ad un valore di riferimento.
-Misurazione e valutazione della performance sono attività distinte ma complementari, in quanto fasi del più ampio Ciclo della Performance.
+Per misurazione si intende l'attività di quantificazione del livello di raggiungimento dei risultati
+e degli impatti da questi prodotti su utenti e stakeholder
+attraverso il ricorso a indicatori.
+Per valutazione si intende l'attività di analisi e interpretazione dei valori misurati
+che tiene conto dei fattori di contesto che possono avere determinato l'allineamento o lo scostamento
+rispetto ad un valore di riferimento.
+Misurazione e valutazione della performance sono attività distinte ma complementari
+in quanto fasi del più ampio Ciclo della Performance.
 La figura seguente illustra il ciclo complessivo.
-La fase di misurazione serve a quantificare i risultati raggiunti dall'amministrazione nel suo complesso, i contributi delle articolazioni organizzative e dei gruppi (performance organizzativa).
+La fase di misurazione serve a quantificare i risultati raggiunti dall'amministrazione nel suo complesso
+i contributi delle articolazioni organizzative e dei gruppi (performance organizzativa).
 I contributi individuali (performance individuali).
 La misurazione può essere realizzata in momenti differenti in relazione alle esigenze dei diversi decisori.
-Tipicamente, infatti, i sistemi prevedono delle misurazioni intermedie (monitoraggio) ed una misurazione finale alla conclusione del periodo (anno) di riferimento.
+Tipicamente, infatti, i sistemi prevedono delle misurazioni intermedie (monitoraggio)
+ed una misurazione finale alla conclusione del periodo (anno) di riferimento.
 La frequenza del monitoraggio può variare a seconda delle caratteristiche dei fenomeni oggetto di osservazione.
 In tutti i casi le attività di monitoraggio devono essere documentate mediante un efficace sistema di reportistica.
-Nell'ultima fase, sulla base del livello misurato di raggiungimento degli obiettivi rispetto ai target prefissati, si effettua la valutazione.
-Ovvero si formula un “giudizio” complessivo sulla performance, cercando di comprendere i fattori (interni ed esterni) che possono aver influito positivamente o negativamente sul grado di raggiungimento degli obiettivi medesimi.
+Nell'ultima fase, sulla base del livello misurato di raggiungimento degli obiettivi rispetto ai target prefissati
+si effettua la valutazione.
+Ovvero si formula un “giudizio” complessivo sulla performance
+cercando di comprendere i fattori (interni ed esterni) che possono aver influito positivamente o negativamente
+valutazione sul grado di raggiungimento degli obiettivi medesimi.
 Anche al fine di apprendere per migliorare nell'anno successivo.
-In questa guida trovi una selezione di termini associati alla Pubblica Amministrazione che generano spesso dubbi di ortografia.
-Abbiamo elencato anche diversi esempi di termini tipici del contesto burocratico della Pubblica Amministrazione (cosiddetto “burocratese”) che possono essere sostituiti con parole più semplici senza perdere significato.
+In questa guida trovi una selezione di termini associati alla Pubblica Amministrazione
+generano spesso dubbi di ortografia.
+Abbiamo elencato anche diversi esempi di termini tipici del contesto burocratico della Pubblica Amministrazione
+il cosiddetto “burocratese”
+possono essere sostituiti con parole più semplici senza perdere significato.
 In alcuni casi esistono più alternative corrette relative alla grafia di un singolo termine.
 Abbiamo preferito fare una scelta, per favorire la diffusione di uno standard.
 Limita l’uso di questo termine ai contesti normativi.
@@ -444,105 +670,192 @@ Il nucleo centrale della performance organizzativa è costituito dalle dimension
 La dimensione dell'efficienza esprime la capacità di utilizzare le risorse (input) in modo sostenibile e tempestivo.
 Nel processo di produzione ed erogazione del servizio (output).
 In altri termini, la capacità di produrre beni e servizi minimizzando il tempo e/o le risorse impiegati.
-La dimensione dell'efficacia, esprime l'adeguatezza dell'output erogato rispetto alle aspettative e alle necessità degli utenti (interni ed esterni).
-Per misurare l'efficacia dell'azione di una amministrazione, è quindi fondamentale individuare quali dimensioni siano rilevanti per gli utenti.
-L'insieme di queste dimensioni dipende dalla tipologia di amministrazione e dai suoi obiettivi, e proprio la loro definizione permette di specificare meglio il risultato atteso nei confronti dell'utenza.
+La dimensione dell'efficacia, esprime l'adeguatezza dell'output erogato rispetto alle aspettative
+e alle necessità degli utenti (interni ed esterni).
+Per misurare l'efficacia dell'azione di una amministrazione
+è quindi fondamentale individuare quali dimensioni siano rilevanti per gli utenti.
+L'insieme di queste dimensioni dipende dalla tipologia di amministrazione e dai suoi obiettivi
+e proprio la loro definizione permette di specificare meglio il risultato atteso nei confronti dell'utenza.
 Ad esempio, per misurare l'efficacia di un servizio rivolto al pubblico è possibile prendere varie dimensioni.
 Accessibilità, estetica, disponibilità, pulizia, comunicazione, affidabilità, tempestività di risposta.
-La definizione degli indicatori che l'amministrazione utilizza per programmare, misurare e poi valutare la performance è un'attività di importanza critica.
-Spesso obiettivi sfidanti vengono misurati in modo non adeguato, fornendo informazioni incomplete o addirittura fuorvianti ai decisori.
-L'incompletezza e la scarsa precisione hanno implicazioni sia sulla fase di pianificazione che su quella di misurazione e valutazione.
-In fase di pianificazione, infatti, esse possono portare ad una scelta errata delle modalità operative più efficaci da adottare per raggiungere l'obiettivo.
-In fase di misurazione e valutazione possono, invece, comportare una valutazione non corretta del grado di raggiungimento degli obiettivi e la mancata corretta identificazione dei motivi di uno scostamento tra valori target previsti e risultati effettivi.
-Questo indicatore oltre ad essere incompleto e impreciso (vedi sopra), è spesso misurato direttamente dalle strutture che lo gestiscono, non condividendo procedure e database con gli uffici di supporto alla programmazione.
-Più in generale l'affidabilità delle fonti interne (quindi legate a sistemi informativi strutturati) o esterne (fonti ufficiali) è centrale.
-Occorre che la differenziazione diventi espressione di un orientamento organizzativo da condividere, in primo luogo, tra i soggetti valutatori e, in un momento successivo, con tutti gli altri attori presenti nel processo.
-Quando siamo venuti a scuola per salutare tutti i vecchi professori non l'abbiamo trovata e abbiamo deciso di scriverle quello che volevamo dirle.
+La definizione degli indicatori che l'amministrazione utilizza per programmare
+misurare e poi valutare la performance è un'attività di importanza critica.
+Spesso obiettivi sfidanti vengono misurati in modo non adeguato
+fornendo informazioni incomplete o addirittura fuorvianti ai decisori.
+L'incompletezza e la scarsa precisione hanno implicazioni gravi
+sia sulla fase di pianificazione sia su quella di misurazione e valutazione.
+In fase di pianificazione, infatti, esse possono portare ad una scelta errata delle modalità operative
+modalità operative più efficaci da adottare per raggiungere l'obiettivo.
+In fase di misurazione e valutazione possono, invece, comportare una valutazione non corretta
+del grado di raggiungimento degli obiettivi
+e la mancata corretta identificazione dei motivi di uno scostamento tra valori target previsti e risultati effettivi.
+Questo indicatore oltre ad essere incompleto e impreciso è spesso misurato direttamente dalle strutture che lo gestiscono
+non condividendo procedure e database con gli uffici di supporto alla programmazione.
+Più in generale l'affidabilità delle fonti interne
+quindi legate a sistemi informativi strutturati
+o esterne (fonti ufficiali) è centrale.
+Occorre che la differenziazione diventi espressione di un orientamento organizzativo da condividere
+in primo luogo, tra i soggetti valutatori e, in un momento successivo, con tutti gli altri attori presenti nel processo.
+Quando siamo venuti a scuola per salutare tutti i vecchi professori non l'abbiamo trovata
+e abbiamo deciso di scriverle quello che volevamo dirle.
 Luigi invece ha deciso di mettersi alla prova partendo come volontario per un anno nell'Esercito.
-Io invece quest'anno non ho trovato niente nell'ambito universitario di mio gradimento e quindi ho deciso di fare un anno sabbatico-lavorativo.
-Questo articolo nasce da esperienze dirette di clienti che mi hanno contattato per sistemare il loro sito perché il precedente autore non aveva fatto un buon lavoro.
-Perché i file obsoleti non vengono rimossi, per una questione di tempo, di corruzione dei file e di aggiornamenti automatici del database.
-Come abbiamo visto negli episodi precedenti una community non è altro che una grande azienda con un fine specifico più nobile dove l’obiettivo non sono il profitto ma il progetto stesso.
-In questo modo la soluzione è offerta da chi ha il problema, quindi il diretto interessato puó fornire una delle migliori soluzioni e si interviene successivamente.
+Io invece quest'anno non ho trovato niente nell'ambito universitario di mio gradimento
+e quindi ho deciso di fare un anno sabbatico-lavorativo.
+Questo articolo nasce da esperienze dirette di clienti che mi hanno contattato per sistemare il loro sito
+perché il precedente autore non aveva fatto un buon lavoro.
+Perché i file obsoleti non vengono rimossi
+per una questione di tempo
+di corruzione dei file
+e di aggiornamenti automatici del database.
+Come abbiamo visto negli episodi precedenti
+una community non è altro che una grande azienda con un fine specifico più nobile
+dove l’obiettivo non sono il profitto ma il progetto stesso.
+In questo modo la soluzione è offerta da chi ha il problema
+quindi il diretto interessato puó fornire una delle migliori soluzioni e si interviene successivamente.
 Tutto questo per portare i volontari a pensare in modo costruttivo e non solo “lamentoso”.
 In ambito open source il metodo più semplice è quello di scrivere.
-Scrivere guide, processi, regole, analisi su documenti pubblicamente accessibili e revisionarli insieme agli altri volontari.
+Scrivere guide, processi, regole, analisi su documenti pubblicamente accessibili e revisionarli insieme agli altri volontari
 Tutto questo però lo deve fare il primo interessato.
-In questo modo si ha un esempio di soluzione, utile nel tempo ed aggiornabile dove tutti possono partecipare per migliorarlo e diventa parte del materiale della comunità oltre che della sua filosofia di trasparenza.
-Una cosa piccola come una guida, ad esempio, su come fare una campagna promozionale online basata sulla propria esperienza, con l’aiuto degli altri e di altre campagne realizzate precedentemente.
+In questo modo si ha un esempio di soluzione
+utile nel tempo ed aggiornabile
+dove tutti possono partecipare per migliorarlo
+e diventa parte del materiale della comunità oltre che della sua filosofia di trasparenza.
+Una cosa piccola come una guida
+ad esempio, su come fare una campagna promozionale online basata sulla propria esperienza
+con l’aiuto degli altri e di altre campagne realizzate precedentemente.
 Nelle community il reclutamento è importante perché una community che non cresce, stagna ed è destinata a morire.
-Consideriamo poi che questo è il mio approccio, personale, da italiano verso altri italiani, altre culture potrebbero trovarlo troppo da contatto ma da noi si è dimostrato funzionante.
-In Italia puoi parlare con una persona quanto vuoi via email o chat ma una volta che la incontri dal vivo sarete amiconi per sempre.
-Specifica che la chiacchierata è per cercare di capire quali sono i progetti più interessanti per lui e delle persone ma anche perché vuoi migliorare la comunicazione in quella zona (intesa come territorio)
+Consideriamo poi che questo è il mio approccio, personale, da italiano verso altri italiani
+altre culture potrebbero trovarlo troppo da contatto ma da noi si è dimostrato funzionante.
+In Italia puoi parlare con una persona quanto vuoi via email o chat
+ma una volta che la incontri dal vivo sarete amiconi per sempre.
+Specifica che la chiacchierata è per cercare di capire quali sono i progetti più interessanti per lui
+e delle persone
+ma anche perché vuoi migliorare la comunicazione in quella zona
+intesa come territorio
 Racconta la tua esperienza come volontario, alle persone piace sentire le storie da parte dei “rappresentanti”.
 Una introduzione di due righe che spiega il progetto e il perché è nato senza un discorso di un'ora.
 Chiaro, conciso e facile da ricordare oltre che convincere le persone della bontà del progetto.
-In questo modo si forniscono molte informazioni senza entrare nei dettagli permettendo di offrire una varietà di argomenti con cui continuare la discussione e convincere la persona.
-Evitare i concetti filosofici all’inizio aiuta a rendere la discussione più leggera ed interessante perché sarà l’ascoltatore a volerti chiedere di più.
+In questo modo si forniscono molte informazioni senza entrare nei dettagli
+permettendo di offrire una varietà di argomenti con cui continuare la discussione e convincere la persona.
+Evitare i concetti filosofici all’inizio aiuta a rendere la discussione più leggera ed interessante
+perché sarà l’ascoltatore a volerti chiedere di più.
 Ad esempio un amante di grafica può essere di aiuto per la promozione del progetto nelle sue varie forme.
-Una persona brava con conoscenze sull’argomento può aiutare nella sensibilizzazione organizzando campagne online sfruttando le conoscenze di qualcuno che è bravo nella comunicazione online.
-Quando si parla a persone che vengono dal mondo tecnologico bisogna fornire motivazioni più forti per convincerli a mettere a disposizione le loro abilità per il progetto.
-Solitamente spiegare che si fornisce aiuto con corsi o vengono seguiti da altri più dentro al progetto li può convincere perché verranno aiutati ad imparare.
-Il mondo tecnologico è avido di nuove conoscenze sul tema quindi indirizzare la discussione su questi argomenti può risultare utile.
-Elencare anche i nuovi progetti o altri a cui l’interessato è adatto a seconda del suo profilo di conoscenze aiuta a dargli subito qualcosa su cui curiosare ed approfondire.
-Con gli studenti è leggermente simile, soltanto che loro hanno molto tempo libero e suggerire che possono avere dei riconoscimenti come gadget o citazioni li stimola.
+Una persona brava con conoscenze sull’argomento può aiutare nella sensibilizzazione
+organizzando campagne online
+sfruttando le conoscenze di qualcuno che è bravo nella comunicazione online.
+Quando si parla a persone che vengono dal mondo tecnologico bisogna fornire motivazioni più forti
+per convincerli a mettere a disposizione le loro abilità per il progetto.
+Solitamente spiegare che si fornisce aiuto con corsi
+o vengono seguiti da altri più dentro al progetto
+li può convincere perché verranno aiutati ad imparare.
+Il mondo tecnologico è avido di nuove conoscenze sul tema
+quindi indirizzare la discussione su questi argomenti può risultare utile.
+Elencare anche i nuovi progetti o altri a cui l’interessato è adatto
+a seconda del suo profilo di conoscenze
+aiuta a dargli subito qualcosa su cui curiosare ed approfondire.
+Con gli studenti è leggermente simile
+soltanto che loro hanno molto tempo libero
+suggerire che possono avere dei riconoscimenti come gadget o citazioni li stimola.
 Lavorare in gruppo nella propria scuola o università si dimostra sempre un modo semplice per prendere la loro attenzione.
-Focalizzarsi anche sulle cose che si imparano e che possono essere utili al mondo del lavoro (es: lavorare in gruppo) è un argomento che li interessa.
-Nel caso di studenti delle scuole superiori la situazione richiede più aiuto perché spesso non hanno una grande conoscenza dell’inglese e conoscenze tecniche ma non per questo vanno ignorati.
-Anzi vanno seguiti in modo più stretto ma permette di avere dei volontari più a lungo termine come presenza in comunità, quindi con più esperienza e conoscenza.
-Il discorso lingua inglese spesso per alcuni è un problema ma come abbiamo visto all’inizio è facilmente scavalcabile offrendo altre tipologie di attività oltre al fatto che potranno imparare l’inglese.
+Focalizzarsi anche sulle cose che si imparano e che possono essere utili al mondo del lavoro
+esempio: lavorare in gruppo
+è un argomento che li interessa.
+Nel caso di studenti delle scuole superiori la situazione richiede più aiuto
+perché spesso non hanno una grande conoscenza dell’inglese e conoscenze tecniche ma non per questo vanno ignorati.
+Anzi vanno seguiti in modo più stretto
+ma permette di avere dei volontari più a lungo termine come presenza in comunità
+quindi con più esperienza e conoscenza.
+Il discorso lingua inglese spesso per alcuni è un problema
+ma come abbiamo visto all’inizio è facilmente scavalcabile offrendo altre tipologie di attività
+oltre al fatto che potranno imparare l’inglese.
 Bisogna parlare per reclutare e essere preparati con del materiale mentale per non risultare “presi alla sprovvista”.
-Non dimenticare di lasciare un tuo recapito, non vorrai mica sprecare tutto il tempo di questa chiacchierata tralasciando questo dettaglio.
-Come ultima spiaggia se la persona non ha conoscenze specifiche la promozione, comunicazione e sensibilizzazione sul territorio è sempre necessaria quindi menziona le pagine social della tua comunità.
+Non dimenticare di lasciare un tuo recapito
+non vorrai mica sprecare tutto il tempo di questa chiacchierata tralasciando questo dettaglio.
+Come ultima spiaggia se la persona non ha conoscenze specifiche
+la promozione, comunicazione e sensibilizzazione sul territorio è sempre necessaria
+quindi menziona le pagine social della tua comunità.
 Le attività vanno proposte solo quando hai fatto le chiacchierate precedenti.
 Così hai educato l’ascoltatore sugli argomenti e ha preso confidenza oltre che interesse.
-La chiacchierata è importante perché i nuovi volontari possono lasciar perdere molto facilmente se non hanno capito le finalità del progetto oltre che come funziona ma questi dettagli devono essere spiegati in modo semplice e diluito nel discorso complessivo.
+La chiacchierata è importante
+perché i nuovi volontari possono lasciar perdere molto facilmente se non hanno capito le finalità del progetto
+oltre che come funziona
+ma questi dettagli devono essere spiegati in modo semplice e diluito nel discorso complessivo.
 Pensaci, ogni progetto ha del materiale scritto che richiede una occhiata, specialmente da un nuovo volontario!
 Potrebbe far rilevare delle parti mancanti o spiegate in modo frettoloso.
-Si tratta di suggerimenti che messi insieme aiutano a migliorare il progetto e possono permettere di lavorare senza un gruppo o di crearne uno nuovo che prima non esisteva.
+Si tratta di suggerimenti che messi insieme aiutano a migliorare il progetto
+e possono permettere di lavorare senza un gruppo o di crearne uno nuovo che prima non esisteva.
 Ovviamente non indirizzare l’ascoltatore sul wiki di getto.
 In questo modo è come far salire un neopatentato su un camion.
-Ogni progetto ha questa necessità ma come per le revisioni dargli un sito direttamente può risultare faticoso oltre che noioso.
-Fornire un progetto sperimentale o che non ha regole precise di stile, come una guida interna, aiuta a formarlo e di esprimersi senza grandi restrizioni.
-In questo modo si appassiona e vuole scoprire altro ed anche più di più importante quindi accetterà anche delle regole per migliorare la sua qualità del lavoro.
+Ogni progetto ha questa necessità
+come per le revisioni
+dargli un sito direttamente può risultare faticoso oltre che noioso.
+Fornire un progetto sperimentale o che non ha regole precise di stile
+come una guida interna
+aiuta a formarlo e di esprimersi senza grandi restrizioni.
+In questo modo si appassiona e vuole scoprire altro ed anche più di più importante
+quindi accetterà anche delle regole per migliorare la sua qualità del lavoro.
 Aiuta anche per imparare il glossario tecnico del progetto senza doversi leggere un elenco.
-Dare supporto tecnico richiede una conoscenza tecnica del progetto ma per gli appassionati di tecnologia può risultare una tipologia di attività facile.
+Dare supporto tecnico richiede una conoscenza tecnica del progetto
+per gli appassionati di tecnologia può risultare una tipologia di attività facile.
 Inoltre è di aiuto alla comunità avere dei referenti su questa tipologia di argomenti.
-Tutti quanti noi abbiamo trovato dei problemi in un progetto software ma senza segnalarli non permetterà mai di far crescere il progetto stesso.
-Con questa tipologia di attività si forma il volontario alle meccaniche di segnalazione del progetto e si aiuta la qualità del progetto stesso.
+Tutti quanti noi abbiamo trovato dei problemi in un progetto software
+ma senza segnalarli non permetterà mai di far crescere il progetto stesso.
+Con questa tipologia di attività si forma il volontario alle meccaniche di segnalazione del progetto
+e si aiuta la qualità del progetto stesso.
 Nessuno di noi vuole un software scadente!
-Anche un’opera d’arte come il classico dipinto del paesaggio, essendo un’opera derivata, ricade sotto questa casistica e quindi non si possono nemmeno effettuare riproduzioni.
+Anche un’opera d’arte come il classico dipinto del paesaggio
+essendo un’opera derivata
+ricade sotto questa casistica e quindi non si possono nemmeno effettuare riproduzioni.
 Definire questa legge limitante è riduttivo, ma questa è soltanto la punta dell’iceberg.
-Anche per questo motivo, Wikimedia Italia da anni si batte per ottenere una legislazione più favorevole al riutilizzo senza limiti (e quindi anche a scopo commerciale) delle foto dei beni culturali in Italia.
-Un esempio del perché “riutilizzare senza limiti è bene” è dato dal concorso fotografico Wiki Love Monuments, il cui scopo è raccogliere immagini del patrimonio culturale mondiale affinché possano essere caricate su Wikipedia.
-Nato nel 2010 nei Paesi Bassi, è il concorso fotografico più grande del mondo con oltre 10.000 partecipanti da 43 Paesi nel mondo.
-Anche l’Italia vi partecipa dal 2012, ma a causa del Codice Urbani solo una ristretta lista di monumenti è fotografabile – e la lista cambia di anno in anno, a seconda delle autorizzazioni ricevute.
-Wikipedia Italia Lo scorso anno ha avviato una campagna per la Libertá di Panorama dopo aver ricevuto una diffida da parte degli Uffizi di Firenze per l’uso di fotografie delle opere ospitate presso il museo.
-A livello globale ha realizzato una campagna per sensibilizzare riguardo i problemi di copyright che l’Enciclopedia Libera incontra ogni giorno nella sua opera di divulgazione.
+Anche per questo motivo, Wikimedia Italia da anni si batte
+per ottenere una legislazione più favorevole al riutilizzo senza limiti
+e quindi anche a scopo commerciale
+delle foto dei beni culturali in Italia.
+Un esempio del perché “riutilizzare senza limiti è bene” è dato dal concorso fotografico Wiki Love Monuments
+il cui scopo è raccogliere immagini del patrimonio culturale mondiale affinché possano essere caricate su Wikipedia.
+Nato nel 2010 nei Paesi Bassi
+è il concorso fotografico più grande del mondo con oltre 10.000 partecipanti da 43 Paesi nel mondo.
+Anche l’Italia vi partecipa dal 2012
+ma a causa del Codice Urbani solo una ristretta lista di monumenti è fotografabile
+e la lista cambia di anno in anno
+a seconda delle autorizzazioni ricevute.
+Wikipedia Italia, lo scorso anno, ha avviato una campagna per la Libertá di Panorama dopo aver ricevuto una diffida
+da parte degli Uffizi di Firenze per l’uso di fotografie delle opere ospitate presso il museo.
+A livello globale ha realizzato una campagna per sensibilizzare riguardo i problemi di copyright
+l’Enciclopedia Libera incontra ogni giorno nella sua opera di divulgazione.
 Non dimentichiamo la loro interrogazione parlamentare del 2008 sul tema.
 E questa è solo la punta dell’iceberg.
-Consideriamo ad esempio i meme: spesso queste immagini, oramai diventate un tormentone di Internet, contengono un fotogramma di un film o di una serie TV protetti da copyright.
-Quello che molti non sanno è che modificare questi fotogrammi, anche solo aggiungendo del testo, e poi condividerle in rete significa infrangere la legge.
+Consideriamo ad esempio i meme
+spesso queste immagini contengono un fotogramma di un film o di una serie TV protetti da copyright.
+oramai diventate un tormentone di Internet
+Quello che molti non sanno è che modificare questi fotogrammi e poi condividerle in rete significa infrangere la legge.
+anche solo aggiungendo del testo
 Il nuovo processo ci spinge a considerare le idee fin dal primo stadio alla stregua di progetti di una start-up tecnologica.
-Il team che propone l’idea è tenuto a presentare una chiara proposta di valore per il consumatore a ogni stadio del ciclo di sviluppo.
+Il team che propone l’idea è tenuto a presentare una chiara proposta di valore per il consumatore
+a ogni stadio del ciclo di sviluppo.
 Validazione: esiste un problema da risolvere?
 Analisi del prodotto: esiste un mercato per questo prodotto?
 Se vogliamo raggiungere gli obiettivi indicati nella missione di Mozilla, non possiamo pensare di lottare da soli.
-Per compiere le straordinarie imprese che ci siamo prefissati, abbiamo bisogno che ciascuno delle migliaia di Mozilliani sparsi in tutto il mondo si schieri al nostro fianco.
+Per compiere le straordinarie imprese che ci siamo prefissati
+abbiamo bisogno che ciascuno delle migliaia di Mozilliani sparsi in tutto il mondo si schieri al nostro fianco.
 Per avanzare più rapidamente tutti uniti e far udire la nostra voce come mai prima d’ora.
 Mozilla supporta e sostiene l’utente nella sua vita online.
-Sosteniamo sia le esigenze dell’utente nella sua attività web quotidiana sia i suoi interessi nel contesto più ampio della salvaguardia di Internet come risorsa globale comune.
+Sosteniamo sia le esigenze dell’utente nella sua attività web quotidiana sia i suoi interessi nel contesto più ampio
+della salvaguardia di Internet come risorsa globale comune.
 Un Internet in cui le persone vengano realmente al primo posto.
 Un Internet in cui l’individuo possa plasmare la propria personale esperienza sul Web.
 Un Internet in cui gli utenti siano in controllo, al sicuro e indipendenti.
 La lentezza è particolarmente evidente quando si cerca di accedere al forum di supporto.
-Sull’imbrunire si fermava alla porta dell’Albergo del Caval Marino una sedia di posta, tirata da due buoni cavalli romani, nella quale si trovavano due persone.
+Sull’imbrunire si fermava alla porta dell’Albergo del Caval Marino una sedia di posta
+tirata da due buoni cavalli romani
+nella quale si trovavano due persone.
 Il cocchiere fece schioccar la frusta e tosto accorse Menicuccio, col berretto in mano.
 Uno dei due viaggiatori sporse il capo e gli ordinò.
 Recaci da bere una bottiglia.
 Il viaggiatore che l’aveva ordinata passò il vassoio all’altro con rispettosa deferenza.
 Quegli bevve, quindi mormorò.
-Il viaggiatore vuotò il suo bicchiere, quindi ordinò a Menicuccio di dare il rimanente al cocchiere, e gli porse uno scudo, dicendogli.
+Il viaggiatore vuotò il suo bicchiere, quindi ordinò a Menicuccio di dare il rimanente al cocchiere
+e gli porse uno scudo, dicendogli.
 Da parte di questo signore che ha trovato buono il vostro vino.
 Mille grazie!
 Esclamò l’oste inchinandosi fino a terra, mentre la carrozza partiva di buon trotto.
@@ -556,8 +869,12 @@ i giri che fa la strada sono erti in modo che i cavalli vanno al passo.
 E i compagni?
 Non ci pensare, li troverò io.
 Non ci pensare.
-Il buio si era fatto intanto profondo e Menicuccio lieto della sua giornata, aveva chiuso l’albergo, ben certo che a quell’ora nessun altro avventore sarebbe capitato.
-Il cacciatore, fatto sicuro di non essere veduto, aperse la finestra, che distava pochi metri dal suolo e colla lestezza e agilità del dardo, discese nella via, tenendo il suo fucile ad armacollo.
+Il buio si era fatto intanto profondo e Menicuccio lieto della sua giornata, aveva chiuso l’albergo
+ben certo che a quell’ora nessun altro avventore sarebbe capitato.
+Il cacciatore, fatto sicuro di non essere veduto, aperse la finestra
+che distava pochi metri dal suolo
+e colla lestezza e agilità del dardo, discese nella via
+tenendo il suo fucile ad armacollo.
 Dio lo salvi e il diavolo lo protegga.
 La notte era buia, senza luna e senza stelle.
 I fanali della sedia di posta proiettavano dai due lati della strada la loro luce rossiccia.
@@ -565,159 +882,303 @@ Gli alberi parevano gigantesche figure umane tendenti le braccia.
 Nel legno i due personaggi sonnecchiavano.
 Ma non erano pienamente tranquilli.
 Un’inquietudine vaga, indefinibile li agitava.
-Quando s’addormentavano sognavano malandrini, aggressioni e morti e si destavano di soprassalto e portavano le mani alle armi, che tenevano nelle tasche de’ pastrani.
-La strada fra Porto Recanati e Macerata, dopo aver percorso un tratto nel piano, incomincia a salire ed a serpeggiare lungo la montagna, cingendole i fianchi, come un largo nastro bianco.
-Il cacciatore aveva tenuto la promessa fatta al suo amico campagnolo, che lo attendeva a Caval Marino: inerpicandosi per scoscesi sentieri, attraverso le macchie, e marciando sempre di buon passo, aveva da lungo tratto sorpassata la sedia di posta e l’attendeva al varco, dietro un burrone, in uno dei punti più difficili della strada.
+Quando s’addormentavano sognavano malandrini, aggressioni e morti
+e si destavano di soprassalto e portavano le mani alle armi, che tenevano nelle tasche de’ pastrani.
+La strada fra Porto Recanati e Macerata, dopo aver percorso un tratto nel piano
+incomincia a salire ed a serpeggiare lungo la montagna
+cingendole i fianchi, come un largo nastro bianco.
+Il cacciatore aveva tenuto la promessa fatta al suo amico campagnolo
+che lo attendeva a Caval Marino
+inerpicandosi per scoscesi sentieri, attraverso le macchie
+e marciando sempre di buon passo, aveva da lungo tratto sorpassata la sedia di posta e l’attendeva al varco
+dietro un burrone, in uno dei punti più difficili della strada.
 Di quando in quando si buttava a terra e accostava l’orecchio al suolo, per distinguere i rumori lontani.
 Eccoli  disse ad un tratto  fra dieci minuti saranno qui.
 E si rizzò tosto per prendere posizione.
-Non appena i cavalli della vettura giunsero innanzi al burrone, ove stava celato, il cacciatore uscì fuori, tenendo nella destra il pistone e ingiungendo colla manca protesa al cocchiere di fermarsi.
-E il vetturino cedendo alla paura che gli ispirava la persona atletica del masnadiero, la sua estrema sicurezza, il suo sangue freddo, ubbidì.
-Frusta i cavalli, codardo  tonò una voce dall’interno della carrozza e contemporaneamente un colpo d’arma da fuoco rintronò nell’aria.
+Non appena i cavalli della vettura giunsero innanzi al burrone
+ove stava celato
+il cacciatore uscì fuori
+tenendo nella destra il pistone e ingiungendo colla manca protesa al cocchiere di fermarsi.
+E il vetturino cedendo alla paura che gli ispirava la persona atletica del masnadiero
+la sua estrema sicurezza
+il suo sangue freddo, ubbidì.
+Frusta i cavalli, codardo
+tonò una voce dall’interno della carrozza
+e contemporaneamente un colpo d’arma da fuoco rintronò nell’aria.
 Era diretto contro l’assalitore e colpì invece alla testa uno dei cavalli, il quale stramazzò.
 Mal diretto! Esclamò forte il malandrino.
-Se sciupate così la vostra polvere, non ve ne resterà per farvi saltare le cervella, se per avventura sdegnassimo noi di farlo.
+Se sciupate così la vostra polvere
+non ve ne resterà per farvi saltare le cervella
+se per avventura sdegnassimo noi di farlo.
 Due altri colpi da fuoco scoppiarono contemporaneamente.
 L’uno forò il cappello del vetturino, l’altro sfiorò una spalla del brigante, senza che questi mostrasse avvedersene.
 Scendi disgraziato  gli disse l’aggressore  se no quei signori finiranno coll’ammazzarti.
 Il cocchiere, non se lo fece dire due volte, scese in un salto da cassetta, tenendo ravvolte in mano le guide.
-Il vetturino si presentò allo sportello di sinistra e il viaggiatore che si trovava dalla sua parte, gli consegnò tosto le sue armi.
-Contemporaneamente s’apriva lo sportello di destra e un signore su trentacinque balzò fuori, dirigendosi coraggiosamente verso il brigante colle pistole spianate.
+Il vetturino si presentò allo sportello di sinistra e il viaggiatore che si trovava dalla sua parte
+gli consegnò tosto le sue armi.
+Contemporaneamente s’apriva lo sportello di destra e un signore su trentacinque balzò fuori
+dirigendosi coraggiosamente verso il brigante colle pistole spianate.
 Signor conte di Lavello disse questi non facciamo ragazzate.
-E contemporaneamente col calcio del pistone gli faceva saltar di mano una delle due pistole, che descritto un semicerchio in aria, cadde al suolo, lasciando uscire il colpo.
-L’altra è scarica  riprese a dire beffardamente il bandito  farete bene a seguire l’esempio del Corriere di Sua Santità e consegnarmela.
+E contemporaneamente col calcio del pistone gli faceva saltar di mano una delle due pistole
+che descritto un semicerchio in aria, cadde al suolo, lasciando uscire il colpo.
+L’altra è scarica e riprese a dire beffardamente il bandito
+farete bene a seguire l’esempio del Corriere di Sua Santità e consegnarmela.
 Ma il conte di Lavello non pareva punto disposto ad imitarlo.
-Si lanciò puntando contro il masnadiero, facendo atto di afferrargli l’arma: ma un improvviso, fulmineo scarto di fianco dell’avversario, lo fece cadere supino al suolo.
+Si lanciò puntando contro il masnadiero
+facendo atto di afferrargli l’arma
+ma un improvviso, fulmineo scarto di fianco dell’avversario, lo fece cadere supino al suolo.
 E per il dolore cagionatogli dallo aver battuto il petto ed il volto nei ciottoli, svenne.
 Finalmente dopo tante bastonature, sorse spontaneamente un uomo di genio a perorar la mia causa.
-Il professor Paolo Mantegazza, con quell’intuito pronto e sicuro che lo distingueva, conobbe subito che quel mio lavoro qualche merito lo aveva, potendo esser utile alle famiglie.
+Il professor Paolo Mantegazza, con quell’intuito pronto e sicuro che lo distingueva
+conobbe subito che quel mio lavoro qualche merito lo aveva, potendo esser utile alle famiglie.
 Col darci questo libro voi avete fatto un’opera buona e perciò vi auguro cento edizioni.
 Il tempo a disposizione non ci consente di esplorare tutte e cinque le vie che ci indica questo passo.
 Ma vorrei soffermarmi sulla quarta via.
-Ci dice qualcosa che forse può suonare antica alle orecchie del nostro mondo, spesso  abituato a considerare l’elemosina come un gesto d’altri, tempi “assistenziale” si direbbe.
-Eppure, Giovanni Crisostomo ci invita a non disprezzare questa via per riconciliarci con Dio: recuperare il senso del rapporto personale con i poveri passa attraverso l'elemosina, l'amicizia.
+Ci dice qualcosa che forse può suonare antica alle orecchie del nostro mondo
+spesso abituato a considerare l’elemosina come un gesto d’altri tempi
+“assistenziale” si direbbe.
+Eppure, Giovanni Crisostomo ci invita a non disprezzare questa via per riconciliarci con Dio
+recuperare il senso del rapporto personale con i poveri passa attraverso l'elemosina, l'amicizia.
 Nell’esperienza di Sant’Egidio ognuno, giovane o anziano,  impara che il primo gesto è fermarsi.
 Non lasciare che sia qualcun altro a farlo.
-Non lasciare che sia un’istituzione, o perfino la nostra propria istituzione, ad assumersi il carico del “problema” dei poveri.
+Non lasciare che sia un’istituzione, o perfino la nostra propria istituzione, ad assumersi il carico del problema dei poveri
 Il primo passo è questo rapporto personale insostituibile con l’uomo o la donna poveri che incontriamo.
 Sgomento, ma non del tutto convinto della sua opinione, mi pungeva il desiderio di appellarmi al giudizio del pubblico.
-Quindi pensai di rivolgermi per la stampa a una ben nota casa editrice di Firenze, nella speranza che, essendo coi proprietari in relazione quasi d’amicizia per avere anni addietro spesovi una somma rilevante per diverse mie pubblicazioni, avrei trovato in loro una qualche condiscendenza.
-Anzi, per dar loro coraggio, proposi a questi Signori di far l’operazione in conto sociale e perché fosse fatta a ragion veduta.
+Quindi pensai di rivolgermi per la stampa a una ben nota casa editrice di Firenze
+nella speranza che avrei trovato in loro una qualche condiscendenza.
+essendo coi proprietari in relazione quasi d’amicizia
+per avere anni addietro spesovi una somma rilevante per diverse mie pubblicazioni
+Anzi, per dar loro coraggio, proposi a questi Signori di far l’operazione in conto sociale
+e perché fosse fatta a ragion veduta.
 Dopo aver loro mostrato il manoscritto.
 Volli che avessero un saggio pratico della mia cucina invitandoli un giorno a pranzo.
 Il quale parve soddisfacente tanto ad essi quanto agli altri commensali invitati a tener loro buona compagnia.
 Incominciò quindi la perquisizione della carrozza, che durò parecchio tempo.
 Terminata questa, passò il bandito alle persone de’ viaggiatori.
 I quali non poterono salvare nulla di nulla dalle sue mani rapaci.
-Avevo intenzione  disse di liberarvi io stesso e di porvi in condizione di continuare il vostro viaggio, ma pare che stiano per giungere de’ vostri amici e non voglio toglier loro questo piacere.
-Avevo data l’ultima mano al mio libro La scienza in cucina e l’Arte di mangiar bene, quando capitò in Firenze il mio dotto amico Francesco Trevisan, professore di belle lettere al liceo Scipione Maffei di Verona.
-Appassionato cultore degli studi foscoliani, fu egli eletto a far parte del Comitato per erigere un monumento in Santa Croce al Cantor dei Sepolcri.
-In quella occasione avendo avuto il piacere di ospitarlo in casa mia, mi parve opportuno chiedergli il suo savio parere intorno a quel mio culinario lavoro.
-Dopo averlo esaminato, alle mie povere fatiche di tanti anni pronunziò la brutta sentenza: Questo è un libro che avrà poco esito.
-Mi siete testimoni, che avrei potuto ammazzarlo e che gli faccio grazia, per rispetto alla Santità di Nostro Signore, che ne affidò i preziosi giorni al suo Corriere
+Avevo intenzione, disse, di liberarvi io stesso e di porvi in condizione di continuare il vostro viaggio
+ma pare che stiano per giungere de’ vostri amici e non voglio toglier loro questo piacere.
+Avevo data l’ultima mano al mio libro La scienza in cucina e l’Arte di mangiar bene
+quando capitò in Firenze il mio dotto amico Francesco Trevisan
+professore di belle lettere al liceo Scipione Maffei di Verona.
+Appassionato cultore degli studi foscoliani
+fu egli eletto a far parte del Comitato per erigere un monumento in Santa Croce al Cantor dei Sepolcri.
+In quella occasione avendo avuto il piacere di ospitarlo in casa mia
+mi parve opportuno chiedergli il suo savio parere intorno a quel mio culinario lavoro.
+Dopo averlo esaminato, alle mie povere fatiche di tanti anni pronunziò la brutta sentenza
+Questo è un libro che avrà poco esito.
+Mi siete testimoni, che avrei potuto ammazzarlo e che gli faccio grazia
+per rispetto alla Santità di Nostro Signore, che ne affidò i preziosi giorni al suo Corriere
 Compiuta l’operazione, tornò alla sedia di posta e intimò al Corriere del Papa di scendere.
 Questi non si fece pregare, e fu legato pur lui.
 L’ultimo a subire siffatta operazione fu il cocchiere.
-È una formalità, sai,  gli diceva intanto il bandito, una semplice formalità.
-Per il buon funzionamento della scuola e la miglior riuscita del comune progetto educativo si propone alle sue componenti fondamentali un “patto”, cioè un insieme di principi, regole, comportamenti che ciascuno si impegna a rispettare.
+È una formalità, sai, gli diceva intanto il bandito, una semplice formalità.
+Per il buon funzionamento della scuola e la miglior riuscita del comune progetto educativo
+si propone alle sue componenti fondamentali un “patto”
+cioè un insieme di principi, regole, comportamenti che ciascuno si impegna a rispettare.
 Questo patto va letto e sottoscritto dalla scuola, dalla famiglia, dallo studente all’atto di iscrizione.
-L’assunzione di questo impegno ha validità per l’intero periodo di permanenza di ciascun alunno nella nostra istituzione scolastica.
+L’assunzione di questo impegno ha validità per l’intero periodo di permanenza
+di ciascun alunno nella nostra istituzione scolastica.
 Signor conte di Lavello  disse questi  non facciamo ragazzate.
-Arrivati a Tor Vergata piazza di Giovanni Paolo II, verso le 10:30 entrati nel grandioso teatro tenda creato appositamente per l’evento, abbiamo potuto assistere allo spettacolo teatrale “La Divina Commedia – L’opera”.
-Dopo esserci accomodati nei posti assegnateci siamo calati in un buio profondo che all’improvviso è infranto da una luce che colpiva direttamente l’attore che personificava Dante, recitante i primi versi della Divina Commedia.
-Sul palco, su cui erano posizionati dei teloni semi-trasparenti, venivano proiettate scenografie realizzate al computer ispiratesi alle stampe ottocentesche dell’opera.
-Così Dante incominciava il suo viaggio passando tra tre belve e Virgilio, per la porta dell’inferno, incontrando Caronte.
+Arrivati a Tor Vergata piazza di Giovanni Paolo II
+verso le 10:30 entrati nel grandioso teatro tenda creato appositamente per l’evento
+abbiamo potuto assistere allo spettacolo teatrale “La Divina Commedia – L’opera”.
+Dopo esserci accomodati nei posti assegnatici siamo calati in un buio profondo
+all’improvviso è infranto da una luce che colpiva direttamente l’attore che personificava Dante
+recitante i primi versi della Divina Commedia.
+Sul palco, su cui erano posizionati dei teloni semi-trasparenti, venivano proiettate scenografie realizzate al computer
+ispiratesi alle stampe ottocentesche dell’opera.
+Così Dante incominciava il suo viaggio passando tra tre belve
+e incontra Virgilio
+per la porta dell’inferno
+incontrando anche Caronte, il traghettatore infernale.
 Paolo e Francesca presi dal vortice della loro passione.
 Ulisse travolto dalla fiamma della conoscenza al di fuori delle colonne d’Ercole.
-Piero fedele sempre a Federico II e che si suicidò ingiustamente per esserne stato cacciato ed è trasformato in un albero.
-Infine il conte Ugolino che infieriva, mordendo, la testa dell’arcivescovo che lo aveva imprigionato insieme ai suoi figli, in una torre.
+Piero fedele sempre a Federico II
+si suicidò ingiustamente per esserne stato cacciato ed è trasformato in un albero.
+Infine il conte Ugolino che infieriva, mordendo, la testa dell’arcivescovo
+colui che lo aveva imprigionato insieme ai suoi figli e nipoti, in una torre.
 Si conclude il primo atto e dopo una pausa di 15 minuti inizia il secondo.
-Dante e Virgilio oltrepassano la porta del Purgatorio dopo aver chiesto umilmente di poter entrare ad un arcangelo con una spada scintillante.
-Dopo essere passati, la piattaforma circolare sul palco comincia a muoversi dando così la sensazione di ricerca dell’entrata del monte.
+Dante e Virgilio oltrepassano la porta del Purgatorio dopo aver chiesto umilmente di poter entrare ad un arcangelo
+con una spada scintillante.
+Dopo essere passati, la piattaforma circolare sul palco comincia a muoversi
+dando così la sensazione di ricerca dell’entrata del monte.
 Fermatosi poi davanti ad un gruppo di anime che chiedevano a Dante di non dimenticarli e di pregare per loro.
-Ad ogni incontro con queste anime, durante tutto il tragitto inferno-purgatorio, che Dante ha potuto “intervistare” rimane sconvolto ed ha pietà di loro, ma Virgilio gli dice di avere pietà solo per se stesso.
+Ad ogni incontro con queste anime
+durante tutto il tragitto inferno-purgatorio
+Dante ha potuto “intervistare” rimane sconvolto ed ha pietà di loro
+ma Virgilio gli dice di avere pietà solo per se stesso.
 Dante arriva al girone dei poeti e degli artisti trovando così dei suoi amici.
-Dante durante il peregrinare chiede spesso di Beatrice, ma Virgilio gli ricorda che devono arrivare in Paradiso per incontrarla e così sarà.
-Arrivato in Paradiso viene accolto da una donna che gli racconta ciò che aveva voluto Beatrice per lui e nella corsia principale del teatro passò un corteo di angeli ed un grifone che portavano la sua amata al suo cospetto.
+Dante durante il peregrinare chiede spesso di Beatrice
+ma Virgilio gli ricorda che devono arrivare in Paradiso per incontrarla e così sarà.
+Arrivato in Paradiso viene accolto da una donna che gli racconta ciò che aveva voluto Beatrice per lui
+e nella corsia principale del teatro passò un corteo di angeli ed un grifone che portavano la sua amata al suo cospetto.
 Dante e Beatrice si ritrovano facendo un canto di lode a Dio.
 Così si conclude lo spettacolo con il passaggio singolare di ogni attore sul palco per ricevere gli applausi.
 In tutto lo spettacolo Dante è attorniato da ballerini mascherati a seconda della scena: da demoni anime o angeli.
-Gli attori principali cantano molto spesso, anche se in alcuni casi non erano adatti, seguendo senza problemi la musica di sottofondo molto adatta all’opera.
+Gli attori principali cantano molto spesso
+anche se in alcuni casi non erano adatti
+seguendo senza problemi la musica di sottofondo molto adatta all’opera.
 La scenografia digitale riesce a dare la sensazione di presenza dello spettatore all’interno dell’opera.
 Molto bella la prima parte con i suoi colpi di scena e cambiamenti del ritmo musicale fino all’arrivo del paradiso.
-Il paradiso invece è stato molto statico sia sulla musica che nell’azione dei personaggi sul palco, ma la sceneggiatura dantesca non permetteva altro.
+Il paradiso invece è stato molto statico sia sulla musica che nell’azione dei personaggi sul palco
+ma la sceneggiatura dantesca non permetteva altro.
 Nel complesso una rappresentazione non letteraria, ma quasi musical con un buon coinvolgimento dello spettatore.
 Ma richiede una ripassatina alle parti più importanti dell’opera per capire al meglio ciò che accade.
-Sperimentare è nella natura dell’uomo, infatti, sono stati sviluppati metodi di sperimentazione fin dall’epoca dei filosofi greci.
-Qualunque persona, per capire il funzionamento di qualcosa, sperimenta ma ciò comporta l’uso di materiale e anche dispendio di energie e denaro.
-Oggi, in alcuni campi, per risparmiare e ottimizzare sul lavoro si usa la simulazione virtuale che permette di ottenere risultati in tempi brevi.
-Purtroppo questa tecnica di sperimentazione funziona solo in alcuni settori come nell’edilizia o nell’investigazione ed è un aiuto per la comprensione di un determinato fenomeno.
-In campo sanitario, invece, non è ancora possibile fare delle sperimentazioni certe perché non si conosce pienamente il funzionamento del corpo umano ma è stato rilasciato un nuovo sistema di simulazione virtuale.
-Questo sistema contiene un motore grafico ancora più reale e si basa su un sistema open source usato per i videogiochi.
+Sperimentare è nella natura dell’uomo
+infatti, sono stati sviluppati metodi di sperimentazione fin dall’epoca dei filosofi greci.
+Qualunque persona, per capire il funzionamento di qualcosa, sperimenta
+ma ciò comporta l’uso di materiale e anche dispendio di energie e denaro.
+Oggi, in alcuni campi, per risparmiare e ottimizzare sul lavoro si usa la simulazione virtuale
+che permette di ottenere risultati in tempi brevi.
+Purtroppo questa tecnica di sperimentazione funziona solo in alcuni settori
+come nell’edilizia o nell’investigazione
+ed è un aiuto per la comprensione di un determinato fenomeno.
+In campo sanitario, invece, non è ancora possibile fare delle sperimentazioni certe
+perché non si conosce pienamente il funzionamento del corpo umano
+ma è stato rilasciato un nuovo sistema di simulazione virtuale.
+Questo sistema contiene un motore grafico ancora più reale
+e si basa su un sistema open source usato per i videogiochi.
 Sviluppato in Finlandia, da parte di alcuni ricercatori universitari, permetterà di avere movimenti più fluidi.
-La conferenza stampa, che ha rivelato la presenza di questo sistema, ha mostrato un video che raccontava il percorso compiuto da un globulo rosso attraverso il sangue con una simulazione creata con questo sistema della durata di 5 minuti.
+La conferenza stampa, che ha rivelato la presenza di questo sistema, ha mostrato un video
+raccontava il percorso compiuto da un globulo rosso attraverso il sangue
+con una simulazione, creata con questo sistema, della durata di 5 minuti.
 Questo strumento apre nuovi orizzonti per il benessere dell’uomo.
-Anche se la tecnologia è entrata nella nostra vita quotidiana noi non dobbiamo dimenticare che siamo la tecnologia migliore.
+Anche se la tecnologia è entrata nella nostra vita quotidiana
+noi non dobbiamo dimenticare che siamo la tecnologia migliore.
 Anche se con qualche difetto, perché siamo stati capaci di creare queste cose da soli.
-Riassunto: Una famiglia composta da tre persone, madre vedova e i due figli hanno il problema del pagamento di alcune nuove tasse e decidono di vendere una parte del loro giardino per farci costruire un palazzo, in modo da poterle pagare.
-Passa un mese e non si trova un compratore per il terreno ma arriva un certo Caisotti, un imprenditore edilizio di quella zona, che vuole costruirci un palazzo.
+Riassunto: Una famiglia composta da tre persone
+madre vedova e i due figli hanno il problema del pagamento di alcune nuove tasse
+e decidono di vendere una parte del loro giardino per farci costruire un palazzo
+in modo da poterle pagare.
+Passa un mese e non si trova un compratore per il terreno ma arriva un certo Caisotti
+un imprenditore edilizio di quella zona, che vuole costruirci un palazzo.
 Quinto il fratello più grande che ha molti amici va dal suo amico avvocato Canal e si informa di Caisotti da lui.
-Gli dice che è l’imprenditore meno affidabile di quella zona e che se doveva comprare casa da lui gliela avrebbe sconsigliato ma se deve vendere…Quinto rimane d’accordo con Canal che gli scrive il contratto a prova di sgarro gratuitamente, poiché lui voleva mettere nel sacco Caisotti.
+Gli dice che è l’imprenditore meno affidabile di quella zona
+se doveva comprare casa da lui gliela avrebbe sconsigliato
+ma se deve vendere…
+Quinto rimane d’accordo con Canal che gli scrive il contratto a prova di sgarro gratuitamente
+poiché lui voleva mettere nel sacco Caisotti.
 Dopo questa visita va dall’amico Travaglia che è ingegnere e gli fa vedere il progetto di Caisotti per il palazzo.
-Dopo essersi messi d’accordo entrambe le parti, il contratto viene firmato e già ci sono i primi problemi riguardo ad un errore nel contratto per la consegna degli appartamenti e Quinto già si preoccupa…
-Inizia il lavoro alle fondamenta e Caisotti non può pagare la prima cambiale che viene rinviata ma dopo un altro mese di mancato arrivo del pagamento la famiglia Anfossi e Caisotti decidono che per il pagamento gli verranno dati altri appartamenti.
-Nascono nuovi problemi nella costruzione mancanza di cemento, mancati pagamenti, ipoteca sul nuovo palazzo ancora in costruzione…
-La famiglia Anfossi cerca già di vendere i futuri appartamenti fissando come data di consegna quella scritta nel contratto ma le agenzie dicono che ci vorrà ancora un anno per il completamento e quindi di aspettare per venderli.
-La storia si conclude che la famiglia Anfossi studia il contratto e altri modi per poter pagare le tasse rimpiangendo di aver venduto il terreno a Caisotti.
-Commenti: L’autore in alcuni momenti di riflessione del personaggio principale (Quinto) disperde il pensiero del personaggio e incomincia a parlare di fatti che non riguardano la trama della storia.
+Dopo essersi messi d’accordo entrambe le parti
+il contratto viene firmato e già ci sono i primi problemi
+riguardo un errore nel contratto per la consegna degli appartamenti
+e Quinto già si preoccupa…
+Inizia il lavoro alle fondamenta e Caisotti non può pagare la prima cambiale che viene rinviata
+ma dopo un altro mese di mancato arrivo del pagamento
+la famiglia Anfossi e Caisotti decidono che per il pagamento gli verranno dati altri appartamenti.
+Nascono nuovi problemi nella costruzione
+mancanza di cemento
+mancati pagamenti
+ipoteca sul nuovo palazzo ancora in costruzione…
+La famiglia Anfossi cerca già di vendere i futuri appartamenti
+fissando come data di consegna quella scritta nel contratto
+ma le agenzie dicono che ci vorrà ancora un anno per il completamento e quindi di aspettare per venderli.
+La storia si conclude che la famiglia Anfossi studia il contratto e altri modi per poter pagare le tasse
+rimpiangendo di aver venduto il terreno a Caisotti.
+Commenti: L’autore in alcuni momenti di riflessione del personaggio principale (Quinto) disperde il pensiero del personaggio
+e incomincia a parlare di fatti che non riguardano la trama della storia.
 In alcuni momenti si disperde nelle descrizioni dei personaggi e del paesaggio rendendolo noioso.
-Vengono fatti molti riferimenti politici visto che Quinto nello storia è di parte comunista si parla molto spesso di compagni e di problemi politici che annoiano il lettore neutrale politicamente.
-Questo racconto è ambientato nel dopoguerra nel meridione italiano dove si parla dei problemi del rispetto della legge e questa è la morale del libro nascosta molto bene nella trama.
-Un bambino di nome Pin passava il tempo in una bettola, con molti ex-galeotti, a cantare canzoni di donne e di prigione come passatempo.
+Vengono fatti molti riferimenti politici visto che Quinto nello storia è di parte comunista
+si parla molto spesso di compagni e di problemi politici che annoiano il lettore neutrale politicamente.
+Questo racconto è ambientato nel dopoguerra
+nel meridione italiano dove si parla dei problemi del rispetto della legge
+e questa è la morale del libro nascosta molto bene nella trama.
+Un bambino di nome Pin passava il tempo in una bettola
+con molti ex-galeotti
+a cantare canzoni di donne e di prigione come passatempo.
 E si credeva adulto poiché parlava e pensava da adulto ma veniva snobbato dagli ex-galeotti che riteneva amici.
 Un giorno gli adulti gli dicono di rubare la pistola ad un marinaio tedesco e di portargliela e lui la ruba.
-Arriva alla bettola trionfante ma vedono che già si erano dimenticati di lui e che la pistola l’avrebbero tenuta loro, e capisce di essere stato usato e scappa via e la nasconde in un posto che conosceva solo lui, il sentiero dei nidi di ragno.
+Arriva alla bettola trionfante ma vide che già si erano dimenticati di lui e che la pistola l’avrebbero tenuta loro
+e capisce di essere stato usato e scappa via
+e la nasconde in un posto che conosceva solo lui
+il sentiero dei nidi di ragno.
 Scappa e torna in città  dove viene trovato dai tedeschi che lo portano in prigione per il furto dell’arma.
-Pin però riesce a scappare con l’aiuto di un partigiano catturato e si divide con il partigiano ma viene trovato da un altro partigiano.
-Pin insieme a queste persone rudi parla della sua famosa pistola, ma durante un momento di chiacchiere tra i membri del gruppo il fuoco accesso per scaldarsi incendia la capanna del gruppo e sono costretti ad allontanarsi.
-Dopo questo incidente il gruppo di partigiani viene diviso e Pin per non essere trovato scappa e cerca la sua pistola ma non la trova nel suo nascondiglio e vede che il posto conosciuto solo a lui è stato distrutto e i ragni non hanno più i loro nidi, quel posto così nascosto conosciuto solo a lui era stato trafugato e piange.
-La pistola la trova in città dalla sorella che dice che gliel’aveva data un partigiano che aveva tradito i suoi compagni.
-Pin scappa ancora e si imbatte nel primo partigiano che lo aiuto e la storia si conclude con la ricerca conclusa di un amico che Pin cercava perché si sentiva solo perché aveva capito che era un bambino e non adulto e che era meglio aspettare per comportarsi da adulto.
-Commenti: Questo libro si dilunga con descrizioni e chiacchierate dei personaggi annoiando il lettore ma ah una vena poetica di questo bambino abbandonato a se stesso che è alla ricerca di un amico che lo capisca per quello che è non per quello che fa.
-Procedimento: è stato preso un rene di un vitello diviso a metà da cui è stato preso un pezzo molto piccolo per poterlo vedere al microscopio.
-Questo pezzo di rene, che è stato asportato con un bisturi e molto sottile per poter essere analizzato meglio al microscopio, contiene la capsula di Bowman e glomeruli, però per poterli vedere è necessario usare i coloranti sopra citati.
-Questa sezione viene messa contatto con un colorante alla volta per 15 secondi e poi sciacquato e si procede al secondo trattamento nello stesso modo.
-La necessità di usare 2 coloranti diversi è dovuta alla presenza di diversi elementi che per poter essere analizzati meglio è necessario che siamo colorati diversamente.
-Tramite il programma utilizzato (LabVIEW) è stato ricostruito il circuito elettrico sul foglio di lavoro utilizzando la funzione For Loop (come visibile da figura 1).
+Pin però riesce a scappare con l’aiuto di un partigiano catturato
+e si divide con il partigiano ma viene trovato da un altro partigiano.
+Pin insieme a queste persone rudi parla della sua famosa pistola
+ma durante un momento di chiacchiere tra i membri del gruppo
+il fuoco accesso per scaldarsi incendia la capanna del gruppo e sono costretti ad allontanarsi.
+Dopo questo incidente il gruppo di partigiani viene diviso
+Pin per non essere trovato scappa e cerca la sua pistola
+ma non la trova nel suo nascondiglio e vede che il posto conosciuto solo a lui è stato distrutto
+e i ragni non hanno più i loro nidi
+quel posto così nascosto, conosciuto solo a lui, era stato trafugato e, così, si mette a piangere.
+La pistola la trova in città dalla sorella
+gli dice che gliel’aveva data un partigiano il quale aveva tradito i suoi compagni.
+Pin scappa ancora e si imbatte nel primo partigiano che lo aiuta
+la storia si conclude con la ricerca di un amico che Pin cercava perché si sentiva solo
+perché aveva capito che era un bambino e non adulto
+e che era meglio aspettare per comportarsi da adulto.
+Commenti: Questo libro si dilunga con descrizioni e chiacchierate dei personaggi annoiando il lettore
+ma ha una vena poetica di questo bambino abbandonato a sè stesso
+è alla ricerca di un amico che lo capisca per quello che è, non per quello che fa.
+Procedimento: è stato preso un rene di un vitello diviso a metà
+da cui è stato preso un pezzo molto piccolo per poterlo vedere al microscopio.
+Questo pezzo di rene, che è stato asportato con un bisturi
+e molto sottile per poter essere analizzato meglio al microscopio
+contiene la capsula di Bowman e glomeruli
+però per poterli vedere è necessario usare i coloranti sopra citati.
+Questa sezione viene messa contatto con un colorante alla volta per 15 secondi
+e poi sciacquato
+e si procede al secondo trattamento nello stesso modo.
+La necessità di usare 2 coloranti diversi è dovuta alla presenza di diversi elementi
+per poter essere analizzati meglio è necessario che siano colorati diversamente.
+Tramite il programma utilizzato (LabVIEW) è stato ricostruito il circuito elettrico sul foglio di lavoro
+utilizzando la funzione For Loop
+come visibile da figura 1.
 I pulsanti inviano come output un valore booleano che viene elaborato dal Select.
 Se il valore uscente è pari a 1 esso manda il valore al Compositore numerico.
-Il valore di partenza per il calcolo è 10, questo viene diviso iniziando da 2 e a seguire con il risultato delle divisioni precedenti.
+Il valore di partenza per il calcolo è 10
+questo viene diviso iniziando da 2 e a seguire con il risultato delle divisioni precedenti.
 Questi valori vengono passati al Select che verifica una condizione booleana.
 Tutto questo circuito è contenuto in un For Loop per avere un aggiornamento in tempo reale del grafico.
-Abbiamo sviluppato un progetto che ci permette di conoscere attraverso un grafico la resistenza sviluppata in 100 millisecondi (ms) alla temperatura di 100°C.
-Cambiando i valori delle frequenze modulanti invece vediamo che le linee dell’asse x si spostano verso il centro del grafico lungo l’asse principale graficato.
-Sono stati utilizzati 3 For Loop, uno che racchiude tutto il circuito, il secondo che si occupa della elaborazione della sinusoide grafica e infine il terzo per la realizzazione dell’array dei pulsanti.
-La parte più articolata è quella che comprende la realizzazione degli array dei pulsanti infatti qui sono stati utilizzate diverse funzioni.
+Abbiamo sviluppato un progetto
+ci permette di conoscere attraverso un grafico la resistenza sviluppata in 100 millisecondi (ms) alla temperatura di 100°C.
+Cambiando i valori delle frequenze modulanti
+invece vediamo che le linee dell’asse x si spostano verso il centro del grafico
+lungo l’asse principale graficato.
+Sono stati utilizzati 3 For Loop
+uno che racchiude tutto il circuito
+il secondo che si occupa della elaborazione della sinusoide grafica
+e infine il terzo per la realizzazione dell’array dei pulsanti.
+La parte più articolata è quella che comprende la realizzazione degli array dei pulsanti
+infatti qui sono stati utilizzate diverse funzioni.
 Per la sinusoide il procedimento di realizzazione è stato più rapido grazie all’utilizzo della sub-routine apposita.
-Infine il circuito si chiude con la combinazione dei due array iniziali su grafico che viene rappresentato sul pannello di controllo sottoforma di due grafici distinti.
+Infine il circuito si chiude con la combinazione dei due array iniziali su grafico
+che viene rappresentato sul pannello di controllo sottoforma di due grafici distinti.
 Il segnale che viene visualizzato nel grafico rosso è un onda quadra che permette solo valori di tipo booleano.
 L'esempio pratico per ottenere questi grafici è un pendolo a cui è attaccata una penna che scrive su un foglio.
 In questo modo possiamo ottenere i grafici ma di una sola frequenza.
 Per ottenere un grafico con 2 frequenze diverse basta utilizzare un piano oscillante su cui “scrive” il pendolo.
 In questo modo otterremo un grafico contenente due frequenze.
-Nel nostro progetto è stato possibile realizzare anche una terza frequenza che mostrasse nel grafico anche una terza ascissa z.
+Nel nostro progetto è stato possibile realizzare anche una terza frequenza
+che mostrasse nel grafico anche una terza ascissa z.
 Per poter visualizzare l'asse z è stata usata la stessa formula dell'asse x ottenendo un secondo grafico in 3D.
-Durante i test del progetto ci si è accorti che in alcuni casi si possono ottenere diverse figure geometriche definite, cerchio, ellisse, parabola e segmento.
-La figura sottostante rappresenta il rapporto con cui si presentano delle ellissi interconnesse tra di loro quando il rapporto non è uguale altrimenti si ottengono delle circonferenze.
-Questo accorpamento ha causato notevole disomogeneità nel gruppo classe (soprattutto nel periodo iniziale), difficoltà degli interventi didattici in quanto non tutti gli insegnanti conoscevano la classe nella sua globalità.
-I libri di italiano, in particolare, erano diversi, i programmi svolti nell’anno precedente avevano raggiunto obiettivi differenti.
-Il numero elevato di alunni ha ostacolato le modalità di valutazione nonché lo svolgimento dei programmi nelle singole discipline, non consentendo in alcuni casi di conseguire gli obiettivi prefissati.
+Durante i test del progetto ci si è accorti che in alcuni casi si possono ottenere diverse figure geometriche definite
+cerchio, ellisse, parabola e segmento.
+La figura sottostante rappresenta il rapporto con cui si presentano delle ellissi interconnesse tra di loro
+quando il rapporto non è uguale altrimenti si ottengono delle circonferenze.
+Questo accorpamento ha causato notevole disomogeneità nel gruppo classe
+soprattutto nel periodo iniziale
+difficoltà degli interventi didattici in quanto non tutti gli insegnanti conoscevano la classe nella sua globalità.
+I libri di italiano, in particolare, erano diversi
+i programmi svolti nell’anno precedente avevano raggiunto obiettivi differenti.
+Il numero elevato di alunni ha ostacolato le modalità di valutazione nonché lo svolgimento dei programmi
+nelle singole discipline
+non consentendo in alcuni casi di conseguire gli obiettivi prefissati.
 Nei laboratori soprattutto il numero elevato di alunni ha reso difficoltoso la normale attività.
 Un ulteriore ostacolo al normale svolgimento delle lezioni sono state le numerose assenze sia singole che collettive.
-Un esiguo gruppo di alunni ha sempre partecipato e dimostrato impegno sia in classe che nella rielaborazione a casa, conseguendo ottimi risultati.
-Un secondo gruppo, pur avendo seguito in modo discontinuo, ha comunque conseguito risultati discreti in quasi tutte le discipline.
-Un terzo gruppo ha dimostrato scarso impegno e frequenza molto discontinua, tuttavia alcuni di loro si stanno maggiormente impegnando in quest’ultima fase dell’anno scolastico.
-Nella fase iniziale i Docenti hanno dedicato le prime lezioni al ripasso degli argomenti fondamentali e propedeutici svolti nell’anno precedente e successivamente hanno proceduto, ciascuno nella propria disciplina, ad una valutazione delle conoscenze e delle competenze acquisite attraverso  verifiche di diversa tipologia.
+Un esiguo gruppo di alunni ha sempre partecipato e dimostrato impegno sia in classe che nella rielaborazione a casa
+conseguendo ottimi risultati.
+Un secondo gruppo ha comunque conseguito risultati discreti in quasi tutte le discipline.
+pur avendo seguito in modo discontinuo
+Un terzo gruppo ha dimostrato scarso impegno e frequenza molto discontinua
+tuttavia alcuni di loro si stanno maggiormente impegnando in quest’ultima fase dell’anno scolastico.
+Nella fase iniziale i Docenti hanno dedicato le prime lezioni al ripasso
+argomenti fondamentali e propedeutici svolti nell’anno precedente
+successivamente hanno proceduto, ciascuno nella propria disciplina, ad una valutazione delle conoscenze
+competenze acquisite attraverso verifiche di diversa tipologia.
 Durante il corso dell’anno, si è controllato l’andamento didattico e disciplinare
 Le verifiche generalmente sono state effettuate a conclusione di ogni modulo didattico in forma orale
 Per la valutazione è stata utilizzata l’intera gamma dei voti in decimi.
