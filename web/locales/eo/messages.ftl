@@ -134,6 +134,10 @@ speak-goal-text = Nombro de voĉregistroj
 listen-subtitle = Helpu nin validigi voĉojn
 listen-paragraph = Validigi voĉregistrojn estas same grava por la misio de Common Voice. Aŭskultu do, kaj helpu nin krei altkvalitan malfermitkodan voĉan datumaron.
 listen-goal-text = Validigitaj voĉregistrojn
+hours-recorded = Horoj registritaj
+hours-validated = Horoj validigitaj
+read-terms-q = Ĉu vi legis niajn kondiĉojn?
+ready-to-record = Ĉu vi pretas donaci vian voĉon?
 
 ## Speak & Listen Shortcuts
 
