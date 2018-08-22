@@ -143,6 +143,7 @@ listen-goal-text = Ellenőrzött klipek
 hours-recorded = Rögzített órák
 hours-validated = Ellenőrzött órák
 read-terms-q = Elolvasta a feltételeinket?
+ready-to-record = Készen áll, hogy a hangját adja?
 
 ## Speak & Listen Shortcuts
 
