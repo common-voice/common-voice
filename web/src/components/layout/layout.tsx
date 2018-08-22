@@ -17,10 +17,9 @@ import {
 } from '../../utility';
 import {
   MenuIcon,
-  RecordIcon,
   OldPlayIcon,
   ChevronRight,
-  CrossIcon,
+  CrossIcon, MicIcon,
 } from '../ui/icons';
 import { LabeledSelect, LinkButton } from '../ui/ui';
 import { ContributableLocaleLock } from '../locale-helpers';
@@ -396,7 +395,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     return (
       <div className="tallies">
         <div className="record-tally">
-          <RecordIcon className="icon" />
+          <MicIcon className="icon" />
           <div>{user.recordTally}</div>
         </div>
         <div className="divider" />
