@@ -121,6 +121,7 @@ wall-of-text-more-mobile = Mayoritas data yang digunakan oleh perusahaan-perusah
 wall-of-text-more-desktop =
     Kini Anda dapat menyumbangkan suara guna membantu kami membangun basis data suara sumber terbuka yang dapat digunakan oleh siapa saja untuk membuat aplikasi yang inovatif untuk peranti dan web.<lineBreak></lineBreak>
     Baca satu kalimat untuk membantu mesin mempelajari bagaimana manusia sesungguhnya berbicara. Periksa hasil kerja kontributor lainnya untuk memperbaiki mutu. Sesederhana itu!
+wall-of-text-first = Suara itu alami, suara itu manusiawi. Itulah mengapa kami bersemangat dalam menciptakan teknologi suara yang berguna bagi mesin kami. Namun, untuk membangun sistem suara, para pengembang butuh data suara yang sangat besar jumlahnya.
 show-wall-of-text = Baca Lebih Lanjut
 help-us-title = Bantu kami memvalidasi kalimat!
 help-us-explain = Tekan mulai, dengarkan, dan beri tahu kami: apakah mereka sudah mengucapkan kalimat di bawah ini dengan akurat?
