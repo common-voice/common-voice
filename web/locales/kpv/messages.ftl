@@ -1,6 +1,9 @@
 ## General
 
+yes-receive-emails = Да, ысты меным электроннӧй поштаяс. Ме кӧсъя тӧдны водзлань Common Voice проект йылысь.
 return-to-cv = Бӧр Common Voice вылӧ
+email-input =
+    .label = Электроннӧй пӧшта
 submit-form-action = Ысты
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -30,11 +33,14 @@ eo = эсперанто кыв
 es = Испан кыв
 et = Эст кыв
 fi = Суоми кыв
+fo = Фарер кыв
 fr = Франсуз кыв
 fy-NL = Фриз кыв
 ga-IE = Ирландса кыв
 he = Иврит кыв
+hsb = Сорб кыв
 hu = Маддяр кыв
+ia = Интерлингуа кыв
 id = Индонезия кыв
 is = Исландса кыв
 it = Итальян кыв
@@ -55,6 +61,7 @@ nn-NO = Норвег кыв (нюношк)
 or = Одиа кыв
 pl = Поляк кыв
 pt-BR = Португал кыв (Бразилия)
+rm = Романш кыв
 ro = Румын кыв
 ru = Роч кыв
 sah = Саха кыв
@@ -86,11 +93,16 @@ profile = Профиль
 help = Отсӧг
 contact = Йитӧд
 privacy = Арабӧн
+terms = Удж тэчан ног
+link-copied = Ыстӧд копируйтӧма
+back-top = Косны
 contribution-banner-button = Видзӧдышт
 
 ## Home Page
 
+home-cta = Сёрнит, пукты пай тані!
 show-wall-of-text = Лыддьы унджык
+help-us-title = Отсав миянӧс видлавны сёрникузяяс.
 vote-yes = Да
 vote-no = Абу
 
@@ -99,52 +111,80 @@ vote-no = Абу
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = Ворсӧм/Дугдӧм
 
 ## Speak Shortcuts
 
 shortcut-record-toggle-label = Гиж/помась
 request-language-text = Он на аддзыв ас кывтӧ Common Voice вылын?
+request-language-button = Сет корӧм кыв вылӧ
 
 ## ProjectStatus
 
+english = Англискӧйӧн
 
 ## ProfileForm
 
+profile-form-delete = Чышкы ас листбок
 profile-form-username =
     .label = Ним
 profile-form-language =
     .label = Кыв
+profile-form-accent =
+    .label = Сёрнитанног
 profile-form-age =
     .label = Арлыд
 profile-form-gender =
     .label = Пӧв
+profile-form-submit-save = Видз
+profile-form-submit-saved = Видзӧма
 male = ай
 female = энь
 # Gender
 other = Мӧд
+why-profile-title = Мыйла ас листбок?
+edit-profile = Пырт вежсьӧмъяс ас листбокӧ
+profile-create = Вӧч ас листбок
+profile-create-success = Артмис вӧчны ас листбок!
+profile-close = Пӧдлав
 
 ## FAQ
 
+faq-title = Унаысь сетана юалӧм
 faq-what-q = Мый сійӧ Common Voice?
 faq-important-q = Мыйля сійӧ колана?
+faq-get-q = Кыдз ме верма пай пуктыны Common Voice вылӧ?
 
 ## Profile
 
+profile-why-title = Мыйла ас листбок?
 
 ## NotFound
 
+notfound-title = Эз аддзы
 
 ## Data
 
 data-download-yes = Да
+data-other-goto = Мун { $name } вылӧ
+data-other-ted-name = TED-LIUM корпус
 
 ## Record Page
 
+record-retry = Видлы выльысь
+record-no-mic-found = Микрофон абу аддзӧма.
 record-error-too-short = Гижӧд вывти дзеньыд.
 record-error-too-long = Гижӧд вывті кузь.
+record-error-too-quiet = Гижӧд вывті ньӧж.
+record-help = Личкы гижны, сы бӧрын лыддьы вылыса сёрникузя.
+terms-agree = Сӧглас.
+terms-disagree = Абу сӧглас.
+review-recording = Видзӧдлӧм
 
 ## Download Modal
 
+download-title = Файл заводитіс пырны
+download-no = Оз ков
 
 ## Contact Modal
 
@@ -172,6 +212,12 @@ sentences = Сёрникузяяс
 
 ## New Contribution
 
+action-click = Личкыны
 listen = Кывзы
+skip = Вуджӧм
+shortcuts = Дзеньдӧдӧмъяс
+record-cta = Заводит гижны
 record-last-instruction = Медбӧръя!
+record-abort-continue = Дугды гижны
 listen-last-time-instruction = Медбӧръя!
+record-button-label = Гиж тэнад гор

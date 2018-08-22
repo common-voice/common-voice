@@ -3076,6 +3076,10 @@ fluent-react@^0.7.0:
     fluent "^0.4.0 || ^0.6.0"
     prop-types "^15.6.0"
 
+fluent-syntax@^0.8.1:
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/fluent-syntax/-/fluent-syntax-0.8.1.tgz#02eddd4861b453e614e071016dea3d4395b27f6e"
+
 fluent@0.4.3, "fluent@^0.4.0 || ^0.6.0", fluent@^0.4.3:
   version "0.4.3"
   resolved "https://registry.yarnpkg.com/fluent/-/fluent-0.4.3.tgz#a9c55994c96faecdbdd05698e07c8f2c06e72df2"
@@ -4120,10 +4124,6 @@ isexe@^2.0.0:
 isnumeric@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/isnumeric/-/isnumeric-0.2.0.tgz#a2347ba360de19e33d0ffd590fddf7755cbf2e64"
-
-iso-639-1@^2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/iso-639-1/-/iso-639-1-2.0.3.tgz#72dd3448ac5629c271628c5ac566369428d6ccd0"
 
 isobject@^2.0.0:
   version "2.1.0"

@@ -2,8 +2,8 @@
 
 contribute = Bijdragen
 get-involved-button = Meewerken
-get-involved-title = Bijdragen aan { $lang }
-get-involved-text = Bedankt voor uw interesse in het bijdragen aan het { $lang }. Er wordt hard aan gewerkt om alle talen voor de lancering gereed te krijgen en de teams op de hoogte te houden via e-mail. Als u wilt bijdragen, geef dan hieronder uw e-mailadres op.
+get-involved-title = Bijdragen aan het { $lang }
+get-involved-text = Bedankt voor uw interesse om bij te dragen aan het { $lang }. Er wordt hard aan gewerkt om alle talen voor de lancering gereed te krijgen en de teams op de hoogte te houden via e-mail. Als u wilt bijdragen, geef dan hieronder uw e-mailadres op.
 get-involved-form-title = Inschrijven voor updates in het { $lang }:
 get-involved-email =
     .label = E-mailadres

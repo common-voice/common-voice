@@ -127,6 +127,9 @@ no-clips-to-validate = Videti je, da trenutno ni posnetkov, ki bi jih lahko posl
 vote-yes = Da
 vote-no = Ne
 toggle-play-tooltip = Pritisnite { shortcut-play-toggle } za preklop načina predavjanja
+speak-subtitle = Prispevajte svoj glas
+speak-goal-text = Posnetki posneti
+listen-subtitle = Pomagajte nam potrditi glasove
 
 ## Speak & Listen Shortcuts
 
@@ -316,7 +319,6 @@ request-language-success-content = V kratkem se vam bomo oglasili z več informa
 language-section-in-progress = V nastajanju
 language-section-in-progress-description = Jezike, ki so trenutno v fazi nastajanja, naše skupnosti še pripravljajo za nadaljnje faze projekta Common Voice; napredek jezika tako odraža napredek pri prevajanju spletne strani in količino zbranih stavkov.
 language-section-launched = V teku
-language-section-launched-description = Za te objavljene jezike je bila spletna stran popolnoma prevedena in je zbrala dovolj stavkov za omogočanje nadaljnjega delo preko <italic>{ speak }</italic> in <italic>{ listen }</italic> .
 languages-show-more = Več
 languages-show-less = Manj
 language-speakers = Govorcev
@@ -337,7 +339,7 @@ contribute = Prispevaj
 listen = Poslušaj
 skip = Preskoči
 shortcuts = Bližnjice
-clips = Posnetki
+clips-with-count = <bold>{ $count }</bold> posnetkov
 goal-help-recording = Projektu Common Voice ste pomagali doseči <goalPercentage></goalPercentage> od našega dnevnega cilja, ki znaša { $goalValue } posnetkov.
 goal-help-validation = Projektu Common Voice ste pomagali doseči <goalPercentage></goalPercentage> od našega dnevnega cilja, ki znaša { $goalValue } preverjenih posnetkov.
 contribute-more =

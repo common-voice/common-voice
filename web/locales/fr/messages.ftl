@@ -121,6 +121,8 @@ wall-of-text-more-mobile = La plupart des données utilisées par les grandes so
 wall-of-text-more-desktop =
     Vous pouvez donner un peu de votre voix pour nous aider à créer une base de données libre, utilisable par n’importe qui pour réaliser des applications innovantes, y compris sur le Web.<lineBreak></lineBreak>
     Lisez une phrase pour aider les machines à apprendre la façon de parler des êtres humains. Écoutez les enregistrements que d’autres ont réalisés pour les valider et ainsi améliorer la qualité des données. C’est aussi simple que ça !
+wall-of-text-first = La voix est naturelle, elle est humaine. C’est pourquoi nous sommes impatients de créer une technologie vocale pour nos appareils. Mais pour élaborer de tels systèmes vocaux, les développeurs ont besoin de vastes échantillons de données vocales.
+wall-of-text-second = La plupart des données utilisées par les grandes entreprises ne sont pas disponibles pour le grand public. Nous estimons que cela entrave l’innovation. C’est pourquoi nous avons lancé le projet Common Voice, destiné à rendre la reconnaissance vocale ouverte et accessible à tout le monde.
 show-wall-of-text = En savoir plus
 help-us-title = Aidez-nous à valider des phrases !
 help-us-explain = Appuyez sur lecture, écoutez et dites-nous : la phrase ci-dessous est-elle prononcée correctement ?
@@ -128,6 +130,11 @@ no-clips-to-validate = Il semblerait qu’il n’y ait aucun enregistrement à �
 vote-yes = Oui
 vote-no = Non
 toggle-play-tooltip = Appuyez sur { shortcut-play-toggle } pour lancer ou arrêter la lecture
+speak-subtitle = Donnez un peu de votre voix
+speak-paragraph = L’enregistrement d’échantillons de voix fait partie intégrante de notre collecte de données ouvertes ; certains diront même que c’est la partie la plus amusante.
+hours-recorded = Heures d’enregistrement
+hours-validated = Heures validées
+read-terms-q = Avez-vous lu les conditions d’utilisation ?
 
 ## Speak & Listen Shortcuts
 
@@ -315,7 +322,7 @@ request-language-success-content = Nous vous contacterons très bientôt avec de
 language-section-in-progress = En cours
 language-section-in-progress-description = Les langues « en cours » sont celles sur lesquelles nos communautés travaillent ; leur progrès correspond à l’avancement de la traduction du site web et à l’avancement de la collecte de phrases.
 language-section-launched = Lancées
-language-section-launched-description = Pour les langues en production, le site web a été complètement traduit et un nombre suffisant de phrases à lire a été collecté, pour permettre les contributions tant en <italic>parlant</italic> qu’en <italic>écoutant</italic>.
+language-section-launched-new-description = Pour ces langues activées, le site web a été complètement traduit et assez de phrases ont été collectées pour permettre des contributions de <italic>voix</italic> et d’<italic>écoute</italic>.
 languages-show-more = Afficher davantage de langues
 languages-show-less = Afficher moins de langues
 language-speakers = Locuteurs
@@ -336,7 +343,7 @@ contribute = Contribuer
 listen = Écouter
 skip = Passer
 shortcuts = Raccourcis
-clips = extraits
+clips-with-count = <bold>{ $count }</bold> extraits
 goal-help-recording = Grâce à vous, Common Voice a atteint <goalPercentage></goalPercentage> de son objectif quotidien de { $goalValue } enregistrements !
 goal-help-validation = Grâce à vous, Common Voice a atteint <goalPercentage></goalPercentage> de son objectif quotidien de { $goalValue } validations !
 contribute-more = Prêt à en faire { $count } de plus ?

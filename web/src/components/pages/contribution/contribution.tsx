@@ -228,8 +228,10 @@ class ContributionPage extends React.Component<Props, State> {
             {this.isLoaded && !errorContent ? (
               <div className={'counter ' + (isSubmitted ? 'done' : '')}>
                 {isSubmitted && <CheckIcon />}
-                {this.renderCounter()}
-                <Localized id="clips" $count={''}>
+                <Localized
+                  id="clips-with-count"
+                  bold={<b />}
+                  $count={this.renderClipCount()}>
                   <span className="text" />
                 </Localized>
               </div>
@@ -249,7 +251,7 @@ class ContributionPage extends React.Component<Props, State> {
     );
   }
 
-  renderCounter() {
+  renderClipCount() {
     const { activeIndex, isSubmitted } = this.props;
     return (
       (isSubmitted ? SET_COUNT : activeIndex + 1 || SET_COUNT) + '/' + SET_COUNT
@@ -322,8 +324,10 @@ class ContributionPage extends React.Component<Props, State> {
                 <div className="inner">
                   {!errorContent && (
                     <div className="counter">
-                      {this.renderCounter()}
-                      <Localized id="clips">
+                      <Localized
+                        id="clips-with-count"
+                        bold={<b />}
+                        $count={this.renderClipCount()}>
                         <span className="text" />
                       </Localized>
                     </div>

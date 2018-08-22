@@ -1,4 +1,4 @@
-const PLOT_SMOOTHING = 0.2;
+const PLOT_SMOOTHING = 0.05;
 
 type Point = [number, number];
 

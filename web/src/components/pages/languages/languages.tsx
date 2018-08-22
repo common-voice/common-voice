@@ -3,10 +3,12 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import API from '../../../services/api';
 import {
+  BaseLanguage,
   InProgressLanguage,
   LaunchedLanguage,
 } from '../../../../../common/language-stats';
-import { getNativeNameWithFallback } from '../../../services/localization';
+import { NATIVE_NAMES } from '../../../services/localization';
+import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';
 import RequestLanguageModal from '../../request-language-modal/request-language-modal';
 import { CloseIcon, SearchIcon } from '../../ui/icons';
@@ -15,6 +17,7 @@ import LocalizationBox, { LoadingLocalizationBox } from './localization-box';
 
 interface PropsFromState {
   api: API;
+  locale: Locale.State;
 }
 
 interface Props extends PropsFromState, LocalizationProps {}
@@ -59,11 +62,71 @@ class LanguagesPage extends React.PureComponent<Props, State> {
       api.fetchLanguageStats(),
     ]);
 
+    this.setState(
+      {
+        inProgress,
+        filteredInProgress: inProgress,
+        launched,
+        filteredLaunched: launched,
+        localeMessages,
+      },
+      this.sortLocales
+    );
+  }
+
+  componentDidUpdate({ locale }: Props) {
+    if (this.props.locale !== locale) {
+      this.sortLocales();
+    }
+  }
+
+  sortLocales = () => {
+    const { locale } = this.props;
+    const inProgress = this.state.inProgress.slice();
+    const launched = this.state.launched.slice();
+
+    function presortLanguages<T extends BaseLanguage>(
+      sortFn: (l1: T, l2: T) => number
+    ): (l1: T, l2: T) => number {
+      return (l1, l2) => {
+        // Selected locale comes first
+        if (l1.locale === locale) {
+          return -1;
+        }
+        if (l2.locale === locale) {
+          return 1;
+        }
+
+        // English comes last
+        if (l1.locale === 'en') {
+          return 1;
+        }
+        if (l2.locale === 'en') {
+          return -1;
+        }
+
+        // Browser locales are prioritized as well
+        if (navigator.languages.includes(l1.locale)) {
+          return -1;
+        }
+        if (navigator.languages.includes(l2.locale)) {
+          return 1;
+        }
+        return sortFn(l1, l2);
+      };
+    }
+
     inProgress.sort(
-      (l1, l2) => (l1.localizedPercentage < l2.localizedPercentage ? 1 : -1)
+      presortLanguages(
+        (l1, l2) =>
+          l1.sentencesCount < l2.sentencesCount ||
+          l1.localizedPercentage < l2.localizedPercentage
+            ? 1
+            : -1
+      )
     );
     launched.sort(
-      (l1, l2) => (l1.locale.code === 'en' || l1.seconds < l2.seconds ? 1 : -1)
+      presortLanguages((l1, l2) => (l1.seconds < l2.seconds ? 1 : -1))
     );
 
     this.setState({
@@ -71,9 +134,8 @@ class LanguagesPage extends React.PureComponent<Props, State> {
       filteredInProgress: inProgress,
       launched,
       filteredLaunched: launched,
-      localeMessages,
     });
-  }
+  };
 
   toggleShowAllInProgress = () =>
     this.setState(state => ({ showAllInProgress: !state.showAllInProgress }));
@@ -102,13 +164,11 @@ class LanguagesPage extends React.PureComponent<Props, State> {
 
     function filterLanguages<T>(languages: T[]): T[] {
       return query
-        ? languages.filter(({ locale: { code, name } }: any) => {
+        ? languages.filter(({ locale }: any) => {
             const q = query.toLowerCase();
             return (
-              name.toLowerCase().includes(q) ||
-              getNativeNameWithFallback(code)
-                .toLowerCase()
-                .includes(q)
+              locale.toLowerCase().includes(q) ||
+              (NATIVE_NAMES[locale] || '').toLowerCase().includes(q)
             );
           })
         : languages;
@@ -235,7 +295,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
             </div>
 
             <Localized
-              id="language-section-launched-description"
+              id="language-section-launched-new-description"
               italic={<i />}>
               <p />
             </Localized>
@@ -246,7 +306,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
                     : filteredLaunched.slice(0, 3)
                   ).map((localization, i) => (
                     <LocalizationBox
-                      key={i}
+                      key={localization.locale}
                       localeMessages={localeMessages}
                       type="launched"
                       {...localization}
@@ -288,7 +348,7 @@ class LanguagesPage extends React.PureComponent<Props, State> {
                     : filteredInProgress.slice(0, 3)
                   ).map((localization, i) => (
                     <LocalizationBox
-                      key={i}
+                      key={localization.locale}
                       localeMessages={localeMessages}
                       type="in-progress"
                       {...localization}
@@ -348,8 +408,9 @@ class LanguagesPage extends React.PureComponent<Props, State> {
   }
 }
 
-const mapStateToProps = ({ api }: StateTree) => ({
+const mapStateToProps = ({ api, locale }: StateTree) => ({
   api,
+  locale,
 });
 
 export default connect<PropsFromState>(mapStateToProps)(

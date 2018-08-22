@@ -24,6 +24,7 @@ bn = Bengali
 br = Bretonsk
 bxr = Burjatisk
 ca = Katalansk
+cak = Kakchikel
 cnh = Hakha Chin
 cs = Tsjekkisk
 cv = Tsjuvasjisk
@@ -33,6 +34,7 @@ de = Tysk
 dsb = Nedersorbisk
 el = Gresk
 en = Engelsk
+eo = Esperanto
 es = Spansk
 et = Estisk
 fi = Finsk
@@ -64,6 +66,7 @@ nn-NO = Norsk nynorsk
 or = Oriya
 pl = Polsk
 pt-BR = Portugisisk (Brazil)
+rm = Retoromansk
 ro = Rumensk
 ru = Russisk
 sah = Sakha
@@ -78,6 +81,7 @@ th = Thai
 tr = Tyrkisk
 tt = Tatarisk
 uk = Ukrainsk
+ur = Urdu
 uz = Usbekisk
 zh-CN = Kinesisk (Kina)
 zh-HK = Kinesisk (Hong Kong)
@@ -121,6 +125,9 @@ no-clips-to-validate = Det verkar ikkje som om det finst klipp å høyre på for
 vote-yes = Ja
 vote-no = Nei
 toggle-play-tooltip = Trykk på { shortcut-play-toggle } for å starte eller stoppe innspelinga
+speak-subtitle = Doner stemma di
+speak-goal-text = Innspelte klipp
+listen-goal-text = Validerte klipp
 
 ## Speak & Listen Shortcuts
 
@@ -267,9 +274,9 @@ record-cancel = Avbryt nyinnspelinga
 review-terms = Ved å bruke Common Voice, godkjenner du <termsLink>vilkåra</termsLink> og <privacyLink>personvernpraksisen</privacyLink> vår
 terms-agree = Eg er samd
 terms-disagree = Eg er ikkje samd
-review-aborted = Opplasting avbroten. Vil du slette innspelingane dine? 
+review-aborted = Opplasting avbroten. Vil du slette innspelingane dine?
 review-submit-title = Vurder og send inn
-review-submit-msg = Takk for innspelinga! <lineBreak></lineBreak>Vurder og send inn klippa dine nedanfor. 
+review-submit-msg = Takk for innspelinga! <lineBreak></lineBreak>Vurder og send inn klippa dine nedanfor.
 review-recording = Vurder
 review-rerecord = Spel inn på nytt
 review-cancel = Avbryt innsending
@@ -308,7 +315,6 @@ request-language-success-content = Vi kontaktar deg snart med meir informasjon o
 language-section-in-progress = Under arbeid
 language-section-in-progress-description = Pågåande språk vert laga frå bidrag av fellesskapen vår. Framdrifta speglar kvar dei er i omsettinga av netsida og innhenting av setningar.
 language-section-launched = Lansert
-language-section-launched-description = For desse lanserte språka er nettsida fullstendig omsett i tillegg til at dei har nok setningar for pågåande samarbeid gjennom <italic>{ speak }</italic> og <italic>{ listen }</italic>.
 languages-show-more = Vis meir
 languages-show-less = Vis mindre
 language-speakers = Talt av
@@ -317,7 +323,9 @@ language-total-progress = Totalt
 language-search-input =
     .placeholder = Søk
 language-speakers = Talt av
+localized = Omsett
 sentences = Setningar
+total-hours = Validerte timar
 
 ## New Contribution
 
@@ -327,7 +335,7 @@ contribute = Bidra
 listen = Lytt
 skip = Hopp over
 shortcuts = Snarvegar
-clips = Klipp
+clips-with-count = <bold>{ $count }</bold> klipp
 contribute-more =
     { $count ->
         [one] Klar for { $count } til?

@@ -147,10 +147,7 @@ class LocalizationBox extends React.PureComponent<Props, State> {
 
     return (
       localeMessages &&
-      createCrossLocaleMessagesGenerator(localeMessages, [
-        locale.code,
-        globalLocale,
-      ])
+      createCrossLocaleMessagesGenerator(localeMessages, [locale, globalLocale])
     );
   }
 
@@ -158,14 +155,14 @@ class LocalizationBox extends React.PureComponent<Props, State> {
 
   goToContribute = () => {
     const { history, locale } = this.props;
-    history.push(toLocaleRouteBuilder(locale.code)(URLS.SPEAK));
+    history.push(toLocaleRouteBuilder(locale)(URLS.SPEAK));
   };
 
   render() {
     const { locale } = this.props;
 
     const title = (
-      <Localized id={locale.code}>
+      <Localized id={locale}>
         <span />
       </Localized>
     );

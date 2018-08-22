@@ -1,11 +1,13 @@
 const fs = require('fs');
 const path = require('path');
+const { parse } = require('fluent-syntax');
 const request = require('request-promise-native');
 
 const TRANSLATED_MIN_PROGRESS = 0.95;
 const CONTRIBUTABLE_MIN_SENTENCES = 5000;
 
 const dataPath = path.join(__dirname, '..', 'locales');
+const localeMessagesPath = path.join(__dirname, '..', 'web', 'locales');
 
 function saveDataJSON(name, data) {
   fs.writeFileSync(
@@ -46,14 +48,7 @@ async function fetchPontoonLanguages() {
 }
 
 async function saveToMessages(languages) {
-  const messagesPath = path.join(
-    __dirname,
-    '..',
-    'web',
-    'locales',
-    'en',
-    'messages.ftl'
-  );
+  const messagesPath = path.join(localeMessagesPath, 'en', 'messages.ftl');
   const messages = fs.readFileSync(messagesPath, 'utf-8');
   const newMessages = messages.replace(
     /#\s\[Languages]([\s\S]*?)#\s\[\/]/gm,
@@ -95,20 +90,20 @@ async function importPontoonLocales() {
   const languages = await fetchPontoonLanguages();
   await Promise.all([
     saveToMessages(languages),
-    saveDataJSON(
-      'all',
-      languages.reduce((obj, [k, v]) => {
-        obj[k] = v;
-        return obj;
-      }, {})
-    ),
+    saveDataJSON('all', languages.map(([key]) => key)),
     saveCompletedLocalesJSON(languages),
   ]);
 }
 
 async function importContributableLocales() {
   const sentencesPath = path.join(__dirname, '..', 'server', 'data');
+  const oldContributable = JSON.parse(
+    fs.readFileSync(path.join(dataPath, 'contributable.json'), 'utf-8')
+  );
   const names = fs.readdirSync(sentencesPath).filter(name => {
+    if (oldContributable.includes(name)) {
+      return true;
+    }
     if (name === 'LICENSE') {
       return false;
     }
@@ -130,11 +125,34 @@ async function importContributableLocales() {
       );
     return count > CONTRIBUTABLE_MIN_SENTENCES;
   });
-  saveDataJSON('contributable', names.sort(), null, 2);
+  saveDataJSON('contributable', names.sort());
+}
+
+async function buildLocaleNativeNameMapping() {
+  const locales = fs.readdirSync(localeMessagesPath);
+  const nativeNames = {};
+  for (const locale of locales) {
+    const messages = parse(
+      fs.readFileSync(
+        path.join(localeMessagesPath, locale, 'messages.ftl'),
+        'utf-8'
+      )
+    );
+    const message = messages.body.find(
+      message => message.id && message.id.name === locale
+    );
+
+    nativeNames[locale] = message ? message.value.elements[0].value : locale;
+  }
+  saveDataJSON('native-names', nativeNames);
 }
 
 async function importLocales() {
-  await Promise.all([importPontoonLocales(), importContributableLocales()]);
+  await Promise.all([
+    importPontoonLocales(),
+    importContributableLocales(),
+    buildLocaleNativeNameMapping(),
+  ]);
 }
 
 importLocales().catch(e => console.error(e));

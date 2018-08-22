@@ -126,6 +126,7 @@ no-clips-to-validate = Xa ke xa majun yakoj richin nak'axäx pa re ch'ab'äl re'
 vote-yes = Ja'
 vote-no = Manäq
 toggle-play-tooltip = Tapitz'a' { shortcut-play-toggle } richin pa rub'eyal natzïj
+speak-subtitle = Tasipaj ri ach'ab'äl
 
 ## Speak & Listen Shortcuts
 
@@ -196,7 +197,7 @@ edit-profile = Tinuk' Ruwäch B'i'aj
 profile-create = Titz'uk jun ruwäch b'i'aj
 profile-create-success = Xb'anatäj, ¡xtz'uk ruwäch b'i'aj!
 profile-close = Titz'apïx
-profile-clear-modal = Toq nijosq'ïx taq rutzij ruwäch b'i'aj nub'än chi man xtitunub'äx ta chik ri winaqirel awetamab'al rik'in ri ayakoj xtitaq chi re ri Common Voice.  
+profile-clear-modal = Toq nijosq'ïx taq rutzij ruwäch b'i'aj nub'än chi man xtitunub'äx ta chik ri winaqirel awetamab'al rik'in ri ayakoj xtitaq chi re ri Common Voice.
 profile-explanation = Tatz'eta' ri asamaj pa jun ruwäch b'i'aj richin yato'on chi e ütz ri taq rutzij qach'ab'äl.
 
 ## FAQ
@@ -219,7 +220,7 @@ faq-quality-a = Niqajo' chi ri rutzil rub'anikil k'oxom tiwachin pa ri rutzil ru
 faq-hours-q = ¿Achike ruma jun rayib'äl nimol ruchi' 10,000 ramaj k'oxom?
 faq-hours-a = Ja b'a' ramaj ri' najowäx richin nitijöx jun STT q'inoj richin niwachin.
 faq-source-q = ¿Akuchi' k'amon pe ri ruxe'el tz'ib'anem?
-faq-source-a1 = Ri taq b'ab' e k'o wakami ekisipan ri  to'onela', achi'el chuqa' tz'ib'anem kitzij silowäch ya'on q'ij chi kiwa winaqi' achi'el <italic>¡Jeb'ël ri k'aslem!</italic> 
+faq-source-a1 = Ri taq b'ab' e k'o wakami ekisipan ri  to'onela', achi'el chuqa' tz'ib'anem kitzij silowäch ya'on q'ij chi kiwa winaqi' achi'el <italic>¡Jeb'ël ri k'aslem!</italic>
 faq-source-a2 = Yatikïr natz'ët ri kixe'el qab'ab' pa <dataLink>re ruyakwuj GitHub re'</dataLink>
 
 ## Profile
@@ -250,7 +251,7 @@ data-other-ted-name = TED-LIUM Korpus
 data-other-ted-description = Ri TED-LIUM korpus xnuk' kik'in kik'oxom tzijonem chuqa' ri taq kitz'ib'anik k'o pa ri TED ajk'amaya'l ruxaq.
 data-other-voxforge-description = VoxForge xb'an richin yerumöl ri taq pajtzij etz'ib'an richin yekokisaj ri taq Kik'wab'al Etamanel Ch'ab'äl richin Jaqäl B'itz'ib'.
 data-other-tatoeba-description = Tatoeba jun nïm kicholxe'el taq b'ab', taq tzalq'omanem chuqa' taq k'oxom richin ye'okisäx pa kitijoxik ri taq ch'ich'b'äl. Re qasanem re' ruk'wan ronojel ri q'anchi' yakon ruma ri rutinamit.
-data-bundle-button = Tiqasäx Pisaj Kiyakb'al Tzij 
+data-bundle-button = Tiqasäx Pisaj Kiyakb'al Tzij
 data-bundle-description = Kitzij Common Voice rik'in ronojel ri taq kiyakb'al kitzij ch'ab'äl xe'ik'o.
 license = Ya'öl Q'ij: <licenseLink>{ $license }</licenseLink>
 license-mixed = Tunuj
@@ -267,7 +268,7 @@ record-error-too-short = Yalan ko'öl xub'än ri yakoj.
 record-error-too-long = Yalan nïm raqän xub'än ri yakoj.
 record-error-too-quiet = Yalan tz'iran xub'än ri yakoj.
 record-submit-success = ¡Ütz xtaq! ¿La nawajo' chik yayakon?
-record-help = Tapitz'a' ri rupitz'b'al richin nayäk, k'a ri' köw tasik'ij ri b'ab'. 
+record-help = Tapitz'a' ri rupitz'b'al richin nayäk, k'a ri' köw tasik'ij ri b'ab'.
 record-cancel = Tiq'a' Ruyakik-chik
 review-terms = Toq nokisäx ri Common Voice, nanimaj ri <termsLink>Qojqanem</termsLink> chuqa' <privacyLink>Ichinan Qatzijol</privacyLink>
 terms-agree = Ütz k'a
@@ -313,7 +314,6 @@ request-language-success-content = Xtiqatzijoj chawe ch'aqa' chik etamab'äl pa 
 language-section-in-progress = Nik'ïy
 language-section-in-progress-description = Ja ri qatinamit yetz'ukun richin yek'iyïr ri taq ch'ab'äl; achi'el achike peraj k'o wi chi rij ri ruk'iyirisanem ajk'amaya'l rutzalq'omanem chuqa' ri kimolik taq q'aptzij.
 language-section-launched = E'elesan
-language-section-launched-description = Pa re taq ch'ab'äl re', ütz xtzalq'omïx ri ajk'amaya'l ruxaq chuqa' k'ïy taq b'ab' emolon, ri nuya' q'ij richin jutaqil <italic>{ speak }</italic> chuqa' <italic>{ listen }</italic> nikito'.
 languages-show-more = Titz'et Ch'aqa' Chik
 languages-show-less = Titz'et Jub'a'
 language-speakers = Ch'ab'anela'
@@ -334,7 +334,6 @@ contribute = Kato'on
 listen = Tak'axäx
 skip = Tik'o'
 shortcuts = Chojmin Okem
-clips = Taq yakoj
 goal-help-recording = ¡Matyox ruma yato'on ri Common Voice ruq'i'on <goalPercentage></goalPercentage> chi re ri qarayib'al { $goalValue } q'ij q'ij!
 goal-help-validation = ¡Matyox ruma yato'on ri Common Voice ruq'i'on <goalPercentage></goalPercentage> chi re ri qarayib'al richin rujunamanem { $goalValue } q'ij q'ij!
 contribute-more =

@@ -1,10 +1,10 @@
 const { Localized } = require('fluent-react');
-import ISO6391 from 'iso-639-1';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import Modal from '../../modal/modal';
 import { SuccessIcon } from '../../ui/icons';
-import { Button, Hr, LabeledInput, TextButton } from '../../ui/ui';
+import { Button, Hr, LabeledInput } from '../../ui/ui';
+import { NATIVE_NAMES } from '../../../services/localization';
 import { RequestedLanguages } from '../../../stores/requested-languages';
 import StateTree from '../../../stores/tree';
 import { User } from '../../../stores/user';
@@ -20,10 +20,7 @@ interface PropsFromDispatch {
 }
 
 interface Props extends PropsFromState, PropsFromDispatch {
-  locale: {
-    code?: string;
-    name: string;
-  };
+  locale: string;
   onRequestClose: () => void;
 }
 
@@ -49,7 +46,7 @@ class GetInvolvedModal extends React.Component<Props, State> {
   private save = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const { email } = this.state;
-    this.props.createLanguageRequest(this.props.locale.name);
+    this.props.createLanguageRequest(NATIVE_NAMES[this.props.locale]);
     this.props.updateUser({ email });
     this.setState({ isSubmitted: true });
   };
@@ -58,7 +55,7 @@ class GetInvolvedModal extends React.Component<Props, State> {
     const { locale, onRequestClose } = this.props;
     const { email, isSubmitted, sendEmails } = this.state;
 
-    const nativeName = ISO6391.getNativeName(locale.code) || locale.name;
+    const nativeName = NATIVE_NAMES[locale] || locale;
 
     return (
       <Modal

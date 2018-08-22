@@ -7,19 +7,16 @@
     flex-direction: column;
     justify-content: center;
 
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: 100%;
+    background: var(--white);
 
     transition: width var(--transition-duration-slow) var(--easing);
 
     @media (--sm-down) {
         padding: 40px 0 90px;
-        background-size: 100%;
     }
 
     @media (--md-up) {
-        padding: 110px 100px 0;
+        padding: 150px 100px 0;
         width: 100%;
         min-height: 500px;
         box-sizing: border-box;
@@ -30,11 +27,34 @@
         width: 50%;
     }
 
-    &.listen {
+    &::before {
+        content : "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity : 0.5;
+        transition: opacity linear var(--transition-duration);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: 100%;
+
+        @media (--sm-down) {
+            background-size: 100%;
+        }
+
+        @media (--md-up) {
+            background-size: contain;
+        }
+    }
+
+    &.listen::before {
         background-image: url('/img/home-waves/listen.svg');
     }
 
-    &.speak {
+    &.speak::before {
         background-image: url('/img/home-waves/speak.svg');
     }
 
@@ -195,6 +215,10 @@
 
 
     &.active {
+        &::before {
+            opacity: 1;
+        }
+
         & .toggleable {
             transform: translateY(0);
             opacity: 1;
@@ -228,28 +252,24 @@
         }
     }
 
-    & .gradient {
+    & .fading {
         position: absolute;
         top: 0;
-        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url("/img/fading.svg");
+        background-size: 100%;
+        pointer-events: none;
+    }
 
-        @media (--sm-down) {
-            width: 50px;
-        }
-
-        @media (--md-up) {
-            width: 150px;
-        }
-
-        &.left {
-            background: linear-gradient(to left, transparent, #f9f9f9);
-            left: 0;
-        }
-
-        &.right {
-            background: linear-gradient(to right, transparent, #f9f9f9);
-            right: 0;
-        }
+    & a.terms {
+        margin-top: 20px;
+        display: block;
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--blue);
+        text-decoration: underline;
     }
 
     @media (--lg-up) {

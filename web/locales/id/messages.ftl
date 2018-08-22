@@ -121,6 +121,8 @@ wall-of-text-more-mobile = Mayoritas data yang digunakan oleh perusahaan-perusah
 wall-of-text-more-desktop =
     Kini Anda dapat menyumbangkan suara guna membantu kami membangun basis data suara sumber terbuka yang dapat digunakan oleh siapa saja untuk membuat aplikasi yang inovatif untuk peranti dan web.<lineBreak></lineBreak>
     Baca satu kalimat untuk membantu mesin mempelajari bagaimana manusia sesungguhnya berbicara. Periksa hasil kerja kontributor lainnya untuk memperbaiki mutu. Sesederhana itu!
+wall-of-text-first = Suara itu alami, suara itu manusiawi. Itulah mengapa kami bersemangat dalam menciptakan teknologi suara yang berguna bagi mesin kami. Namun, untuk membangun sistem suara, para pengembang butuh data suara yang sangat besar jumlahnya.
+wall-of-text-second = Mayoritas data yang digunakan oleh perusahaan-perusahaan besar nyatanya tidak tersedia untuk mayoritas orang. Kami rasa hal itu dapat menghambat inovasi sehingga kami meluncurkan Proyek Common Voice, sebuah proyek yang membantu menjadikan pengenalan suara agar terbuka dan dapat diakses oleh siapa saja.
 show-wall-of-text = Baca Lebih Lanjut
 help-us-title = Bantu kami memvalidasi kalimat!
 help-us-explain = Tekan mulai, dengarkan, dan beri tahu kami: apakah mereka sudah mengucapkan kalimat di bawah ini dengan akurat?
@@ -128,6 +130,16 @@ no-clips-to-validate = Nampaknya tidak ada klip untuk didengar dalam bahasa ini.
 vote-yes = Ya
 vote-no = Tidak
 toggle-play-tooltip = Tekan { shortcut-play-toggle } untuk mengaktifkan mode putar
+speak-subtitle = Sumbangkan suara Anda
+speak-paragraph = Merekam klip suara merupakan bagian yang tak terpisahkan dalam membangun himpunan data terbuka kami; sebagian orang juga berkata bahwa inilah bagian menyenangkannya.
+speak-goal-text = Klip direkam
+listen-subtitle = Bantu kami memvalidasi suara
+listen-paragraph = Memvalidasi klip donasi sama pentingnya bagi misi Common Voice. Dengarkan klip dan bantu kami mewujudkan data suara sumber terbuka yang bermutu.
+listen-goal-text = Klip divalidasi
+hours-recorded = Jam Terekam
+hours-validated = Jam Tervalidasi
+read-terms-q = Sudahkah Anda membaca Ketentuan kami?
+ready-to-record = Siap menyumbangkan suara Anda?
 
 ## Speak & Listen Shortcuts
 
@@ -314,7 +326,7 @@ request-language-success-content = Kami akan tetap terhubung dengan lebih banyak
 language-section-in-progress = Sedang Diproses
 language-section-in-progress-description = Saat ini, bahasa-bahasa dalam pengembangan sedang dibangun untuk kontribusi oleh komunitas kami; kemajuan mereka mencerminkan kemajuan keseluruhan pelokalan situs web dan fase pengumpulan kalimat.
 language-section-launched = Telah Diluncurkan
-language-section-launched-description = Untuk bahasa-bahasa yang telah diluncurkan, situs web telah berhasil dilokalkan dan memiliki kalimat terkoleksi yang cukup, memungkinkan untuk berlangsungnya kontribusi <italic>{ speak }</italic> dan <italic>{ listen }</italic>.
+language-section-launched-new-description = Situs web telah selesai dilokalkan untuk bahasa-bahasa berikut dan memiliki cukup kalimat yang dikumpulkan untuk memungkinkan kontribusi <italic>Bicara</italic> dan <italic>Dengarkan</italic> yang berkelanjutan.
 languages-show-more = Lebih Banyak
 languages-show-less = Lebih Sedikit
 language-speakers = Penutur
@@ -335,7 +347,7 @@ contribute = Berkontribusi
 listen = Dengarkan
 skip = Lewati
 shortcuts = Pintasan
-clips = Klip
+clips-with-count = <bold>{ $count }</bold> Klip
 goal-help-recording = Anda telah membantu Common Voice mencapai <goalPercentage></goalPercentage> dari target rekaman harian kami { $goalValue }!
 goal-help-validation = Anda telah membantu Common Voice mencapai <goalPercentage></goalPercentage> dari target validasi harian kami { $goalValue }!
 contribute-more = Siap melanjutkan { $count } sisanya?

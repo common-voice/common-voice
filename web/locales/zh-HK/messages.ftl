@@ -33,6 +33,7 @@ de = 德文
 dsb = 下索布文
 el = 希臘文
 en = 英文
+eo = 世界語
 es = 西班牙文
 et = 愛沙尼亞文
 fi = 芬蘭文
@@ -78,6 +79,7 @@ th = 泰文
 tr = 土耳其文
 tt = 韃靼文
 uk = 烏克蘭文
+ur = 烏都文
 uz = 烏茲別克文
 zh-CN = 中文 (大陸)
 zh-HK = 中文 (香港)
@@ -286,13 +288,13 @@ contact-required = *必填欄位
 request-language-title = 要求新語言
 request-language-form-language =
     .label = 語言
+request-language-success-title = 已收到新語言請求，感謝您。
 
 ## Languages Overview
 
 language-section-in-progress = 準備中
 language-section-in-progress-description = 準備中嘅語言，代表該語言社群正在貢獻中。當中嘅進度反映了網站本地化的翻譯進度，以及語句收集的進度。
 language-section-launched = 已上線
-language-section-launched-description = 已上線嘅語言，代表網站已經完成翻譯，亦已收集足夠嘅語句，足以讓大眾作出<italic>{ speak }</italic>及<italic>{ listen }</italic>的貢獻。
 languages-show-more = 檢視更多
 languages-show-less = 檢視更少
 language-speakers = 使用者數
@@ -313,7 +315,7 @@ contribute = 參與貢獻
 listen = 聆聽
 skip = 略過
 shortcuts = 捷徑
-clips = 錄音片段
+clips-with-count = <bold>{ $count }</bold> 段錄音
 goal-help-recording = 您已幫助 Common Voice 完成每日 { $goalValue } 錄音目標的<goalPercentage></goalPercentage>！
 contribute-more =
     { $count ->
@@ -340,5 +342,6 @@ listen-instruction = { $actionType }<playIcon></playIcon> 佢哋將句子讀得�
 listen-again-instruction = 做得好！<playIcon></playIcon> 準備好就可以再聽更多
 listen-3rd-time-instruction = 完成兩筆了 <playIcon></playIcon>，繼續加油！
 listen-last-time-instruction = <playIcon></playIcon> 最後一個！
+nothing-to-validate = 我們沒有這個語言可供驗證的錄音，請幫助我們多錄一些。
 record-button-label = 錄下您的聲音
 share-title-new = <bold>請幫助我們</bold>去找更多人的聲音

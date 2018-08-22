@@ -119,6 +119,11 @@ home-cta = Öppna din mun, stöd projekt och gör ett bidrag!
 wall-of-text-start = Språk är naturligt, språk är mänskligt. Därför fascineras vi av att skapa användbara taligenkänningsteknologier för våra enheter. Att utveckla röstbaserade system kräver emellertid en mycket stor mängd inspelningar i talat språk.
 wall-of-text-more-mobile = En större del av den data som används av stora företag är emellertid otillgänglig för de flesta människor. Vi tror att detta kommer att förhindra innovation. Därför lanserade vi projektet Common Voice, ett projekt som hjälper till att göra taligenkänning tillgänglig för alla.
 wall-of-text-more-desktop = Nu kan du donera din röst för att hjälpa oss att bygga en röstdatabas med öppen källkod som alla kan använda för att skapa innovativa appar för enheter och webben.<lineBreak></lineBreak>Läs en mening för att hjälpa maskiner att lära sig hur riktiga människor pratar. Kontrollera andra bidragsgivares arbete för att förbättra kvaliteten. Det är så enkelt!
+wall-of-text-first = Språk är naturligt, språk är mänskligt. Därför är vi glada att skapa användbar röstteknik för våra maskiner. Men för att skapa röstsystem behöver utvecklare en extremt stor mängd röstdata.
+wall-of-text-second =
+    De flesta av de data som används av stora företag är inte tillgängliga för de flesta människor. Vi tror det
+    kväver innovation. Så vi har lanserat Common Voice, ett projekt som gör att röstigenkänning öppnas upp
+    och blir tillgänglig för alla.
 show-wall-of-text = Läs mer
 help-us-title = Hjälp oss validera meningar!
 help-us-explain = Tryck på Play, lyssna och berätta: Var följande mening inspelad korrekt?
@@ -126,6 +131,16 @@ no-clips-to-validate = Det verkar som om det inte finns några klipp att lyssna 
 vote-yes = Ja
 vote-no = Nej
 toggle-play-tooltip = Tryck på { shortcut-play-toggle } för att växla uppspelningsläge
+speak-subtitle = Donera din röst
+speak-paragraph = Inspelning av röstklipp är en integrerad del av att bygga upp vår öppna datamängd; vissa skulle säga att det är den roliga delen också.
+speak-goal-text = Inspelade klipp
+listen-subtitle = Hjälp oss att validera röster
+listen-paragraph = Validera donerade klipp är lika viktigt för Common Voice. Lyssna och hjälp oss att skapa kvalitetsdata för öppen källkod.
+listen-goal-text = Klipp validerade
+hours-recorded = Timmar inspelade
+hours-validated = Timmar validerade
+read-terms-q = Har du läst våra villkor?
+ready-to-record = Är du redo att donera din röst?
 
 ## Speak & Listen Shortcuts
 
@@ -257,7 +272,7 @@ license-mixed = Blandat
 
 ## Record Page
 
-record-platform-not-supported = Vi är ledsna, min din plattform stöds inte för tillfället. 
+record-platform-not-supported = Vi är ledsna, min din plattform stöds inte för tillfället.
 record-platform-not-supported-desktop = På datorer, kan du ladda ner senaste:
 record-platform-not-supported-ios = Användare av <bold>iOS</bold> kan ladda ner våran gratisapp:
 record-must-allow-microphone = Du måste tillåta mikrofon åtkomst.
@@ -273,7 +288,7 @@ review-terms = Genom att använda Common Voice godkänner du våra <termsLink>vi
 terms-agree = Jag håller med
 terms-disagree = Jag håller inte med
 review-aborted = Uppladdningen avbröts. Vill du radera dina inspelningar?
-review-submit-title = Granska och skicka in 
+review-submit-title = Granska och skicka in
 review-submit-msg = Tack för inspelningen! <lineBreak></lineBreak>Granska och skicka in dina klipp nedan.
 review-recording = Granska
 review-rerecord = Spela in igen
@@ -313,7 +328,7 @@ request-language-success-content = Vi hör av oss med mer information om hur du 
 language-section-in-progress = Pågående
 language-section-in-progress-description = Pågående språk byggs nu för bidrag från våra gemenskaper. Deras framsteg återspeglar var de står i översättning av webbplatsen och insamling av meningar.
 language-section-launched = Lanserad
-language-section-launched-description = För dessa lanserade språk har webbplatsen översatts fullständigt och tillräckligt med meningar har samlats in för att möjliggöra ett pågående samarbete genom <italic>{ speak }</italic> och <italic>{ listen }</italic>.
+language-section-launched-new-description = För dessa lanserade språk har webbplatsen översatts fullständigt och tillräckligt med meningar har samlats in för att möjliggöra ett pågående samarbete genom <italic>Tala</italic> och <italic>Lyssna</italic>.
 languages-show-more = Läs mer
 languages-show-less = Visa mindre
 language-speakers = Talas av
@@ -334,7 +349,7 @@ contribute = Bidra
 listen = Lyssna
 skip = Hoppa över
 shortcuts = Genvägar
-clips = Klipp
+clips-with-count = <bold>{ $count }</bold> klipp
 goal-help-recording = Du har hjälp Common Voice att nå <goalPercentage></goalPercentage> av vårt dagliga { $goalValue } inspelningsmål!
 goal-help-validation = Du har hjälp Common Voice att nå <goalPercentage></goalPercentage> av vårt dagliga { $goalValue } valideringsmål!
 contribute-more =

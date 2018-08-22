@@ -121,6 +121,8 @@ wall-of-text-more-mobile = 大部分由大公司使用的資料，並未開放�
 wall-of-text-more-desktop =
     現在起，您可以將自己的聲音捐給我們，以幫助我們打造開放原始碼的語音資料庫，讓任何人都得以為裝置與網際網路打造創新的應用程式。<lineBreak></lineBreak>
     只要朗讀一段文字，即可幫助機器了解人們如何說話，也可看看其他貢獻者的心血結晶來協助改善品質，就是這麼簡單！
+wall-of-text-first = 語音是自然、是有人性的。這也是為什麼我們非常希望為電腦建立可用的語音技術。但若要建立語音系統，需要有相當大量的語音數據。
+wall-of-text-second = 大部分各大公司使用的資料，並未開放給大多數人使用。我們覺得這樣會阻礙創新，所以創立了想讓每個人都可以自由來進行語音識別的 Common Voice 專案。
 show-wall-of-text = 了解更多
 help-us-title = 請幫助我們驗證句子！
 help-us-explain = 按下播放按鈕，聽一聽，然後告訴我們: 他們正確說出下面的句子了嗎？
@@ -128,6 +130,16 @@ no-clips-to-validate = 看來這個語言沒有任何片段可聽。請幫助我
 vote-yes = 是
 vote-no = 否
 toggle-play-tooltip = 按下 { shortcut-play-toggle } 即可切換播放模式
+speak-subtitle = 捐出您的聲音
+speak-paragraph = 錄下語音片段是打造我們的開放資料集當中很重要的部分，有的人說這很好玩。
+speak-goal-text = 已錄片段
+listen-subtitle = 請幫助我們驗證其他人的錄音
+listen-paragraph = 驗證別人錄下的語音片段，對 Common Voice 的使命也很重要。請聆聽片段，並幫助我們打造高品質的開源語音資料。
+listen-goal-text = 片段已驗證
+hours-recorded = 小時已記錄
+hours-validated = 小時已驗證
+read-terms-q = 您閱讀過我們的使用條款了嗎？
+ready-to-record = 準備好捐出您的聲音了嗎？
 
 ## Speak & Listen Shortcuts
 
@@ -314,7 +326,7 @@ request-language-success-content = 我們將很快在您的語言於 Common Voic
 language-section-in-progress = 準備中
 language-section-in-progress-description = 處理中的語言，代表我們的該語言社群正在進行貢獻，當中的進度反映了網站的在地化翻譯進度，以及語句收集進度。
 language-section-launched = 已上線
-language-section-launched-description = 若是已上線的語言，代表網站已經完整的翻譯完成，也收集了足夠的語句，足以提供<italic>{ speak }</italic>及<italic>{ listen }</italic>的貢獻。
+language-section-launched-new-description = 針對已完成網站在地化並收集足夠語料的語言，我們就會盡快上線，接受<italic>聽</italic>與<italic>說</italic>貢獻。
 languages-show-more = 檢視更多
 languages-show-less = 檢視更少
 language-speakers = 使用者數
@@ -325,7 +337,7 @@ language-search-input =
 language-speakers = 使用者數
 localized = 已翻譯
 sentences = 句子
-total-hours = 總時數
+total-hours = 已驗證時數
 
 ## New Contribution
 
@@ -335,7 +347,7 @@ contribute = 參與貢獻
 listen = 聆聽
 skip = 略過
 shortcuts = 捷徑
-clips = 片段
+clips-with-count = <bold>{ $count }</bold> 段
 goal-help-recording = 您已幫助 Common Voice 完成 <goalPercentage></goalPercentage> 的每日 { $goalValue } 錄音目標！
 goal-help-validation = 您已幫助 Common Voice 完成 <goalPercentage></goalPercentage> 的每日 { $goalValue } 驗證目標！
 contribute-more = 準備好再作 { $count } 筆了嗎？

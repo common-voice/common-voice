@@ -122,6 +122,14 @@ wall-of-text-more-desktop =
   to make innovative apps for devices and the web.<lineBreak></lineBreak>
   Read a sentence to help machines learn how real people speak. Check the work of other
   contributors to improve the quality. It’s that simple!
+wall-of-text-first =
+  Voice is natural, voice is human. That’s why we’re excited about creating usable voice technology
+  for our machines. But to create voice systems, developers need an extremely large amount of voice
+  data.
+wall-of-text-second =
+  Most of the data used by large companies isn’t available to the majority of people. We think that
+  stifles innovation. So we’ve launched Common Voice, a project to help make voice recognition open
+  and accessible to everyone.
 show-wall-of-text = Read More
 help-us-title = Help us validate sentences!
 help-us-explain = Press play, listen & tell us: did they accurately speak the sentence below?
@@ -129,6 +137,16 @@ no-clips-to-validate = Looks like there aren't any clips to listen to in this la
 vote-yes = Yes
 vote-no = No
 toggle-play-tooltip = Press { shortcut-play-toggle } to toggle play mode
+speak-subtitle = Donate your voice
+speak-paragraph = Recording voice clips is an integral part of building our open dataset; some would say it's the fun part too.
+speak-goal-text = Clips recorded
+listen-subtitle = Help us validate voices
+listen-paragraph = Validating donated clips is equally important to the Common Voice mission. Take a listen and help us create quality open source voice data.
+listen-goal-text = Clips validated
+hours-recorded = Hours Recorded
+hours-validated = Hours Validated
+read-terms-q = Have you read our Terms?
+ready-to-record = Ready to donate your voice?
 
 ## Speak & Listen Shortcuts
 # Must be one letter that appears in the translated { skip } string.
@@ -308,7 +326,6 @@ request-language-success-content = We will be in touch with more information abo
 language-section-in-progress = In Progress
 language-section-in-progress-description = In progress languages are currently being built for contribution by our communities; their progress reflects where they are across the website localization and sentence collection phases.
 language-section-launched = Launched
-language-section-launched-description = For these launched languages the website has been successfully localized, and has enough sentences collected, to allow for ongoing <italic>{ speak }</italic> and <italic>{ listen }</italic> contribution.
 language-section-launched-new-description = For these launched languages the website has been successfully localized, and has enough sentences collected, to allow for ongoing <italic>Speak</italic> and <italic>Listen</italic> contribution.
 languages-show-more = See More
 languages-show-less = See Less
@@ -329,7 +346,6 @@ contribute = Contribute
 listen = Listen
 skip = Skip
 shortcuts = Shortcuts
-clips = Clips
 clips-with-count = <bold>{ $count }</bold> Clips
 goal-help-recording = You've helped Common Voice reach <goalPercentage></goalPercentage> of our daily { $goalValue } recording goal!
 goal-help-validation = You've helped Common Voice reach <goalPercentage></goalPercentage> of our daily { $goalValue } validation goal!

@@ -51,6 +51,9 @@
         align-items: center;
         font-weight: 600;
 
+        & b {
+            font-style: normal;
+        }
 
         & svg {
             margin-right: 10px;
@@ -182,6 +185,10 @@
         align-items: center;
         font-style: italic;
         color: var(--near-black);
+
+        @media (--sm-down) {
+            text-align: center;
+        }
 
         @media (--md-up) {
             margin-top: 4vh;

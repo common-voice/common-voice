@@ -1,8 +1,6 @@
 import * as request from 'request-promise-native';
 import { LanguageStats } from '../../../common/language-stats';
-const allLocales = require('../../../locales/all.json') as {
-  [locale: string]: string;
-};
+const locales = require('../../../locales/all.json') as string[];
 const contributableLocales = require('../../../locales/contributable.json') as string[];
 import DB, { Sentence } from './model/db';
 import { DBClipWithVoters } from './model/db/tables/clip-table';
@@ -172,7 +170,7 @@ export default class Model {
   }, DAY);
 
   getLanguageStats = lazyCache(async (): Promise<LanguageStats> => {
-    const inProgressLocales = Object.keys(allLocales).filter(
+    const inProgressLocales = locales.filter(
       locale => !contributableLocales.includes(locale)
     );
 
@@ -204,18 +202,12 @@ export default class Model {
 
     return {
       inProgress: inProgressLocales.map(locale => ({
-        locale: {
-          code: locale,
-          name: allLocales[locale],
-        },
+        locale,
         localizedPercentage: localizedPercentages[locale] || 0,
         sentencesCount: sentenceCounts[locale] || 0,
       })),
       launched: contributableLocales.map(locale => ({
-        locale: {
-          code: locale,
-          name: allLocales[locale],
-        },
+        locale,
         seconds: Math.floor((validClipsCounts[locale] || 0) * AVG_CLIP_SECONDS),
         speakers: speakerCounts[locale] || 0,
       })),

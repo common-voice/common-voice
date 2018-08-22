@@ -13,12 +13,13 @@
 }
 
 .home {
-    background: #f9f9f8;
+    & .primary-button button {
+        z-index: var(--middle-z-index);
+    }
 
     & .heroes {
         border-top: 1px solid var(--light-grey);
         margin: 0 auto;
-        max-width: 1440px;
         overflow: hidden;
         display: flex;
         flex-direction: column;
@@ -33,6 +34,8 @@
     }
 
     & .text {
+        background: #f9f9f8;
+
         @media (--sm-down) {
             padding-top: 30px;
             padding-left: 20px;
@@ -105,8 +108,9 @@
         background: var(--white);
 
         @media (--md-down) {
-            flex-direction: column;
+            margin-bottom: 33px;
             margin-top: 15px;
+            flex-direction: column;
 
             & > :first-child {
                 margin-bottom: 10px;
@@ -114,6 +118,7 @@
         }
 
         @media (--lg-up) {
+            margin-bottom: -70px; // Compensate for translateY
             flex-direction: row;
 
             & > :first-child {
@@ -122,6 +127,73 @@
 
             & > * {
                 transform: translateY(-40%);
+            }
+        }
+    }
+
+    & .mars {
+        margin-bottom: -2rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        @media (--sm-down) {
+            justify-content: center;
+            background: url("/img/light-waves.svg");
+        }
+
+        @media (--md-up) {
+            min-height: 408px;
+            background: url("/img/mars-with-bg.svg") no-repeat center bottom;
+
+        }
+
+        & .cta {
+            display: flex;
+            flex-direction: column;
+
+            @media (--md-up) {
+                padding-left: 50%;
+                flex-direction: row;
+                align-items: center;
+            }
+        }
+
+        & img {
+            @media (--sm-down) {
+                margin-bottom: 15px;
+                margin-right: 28px;
+            }
+            @media (--md-up) {
+                display: none;
+            }
+        }
+
+        & .primary-button {
+            @media (--sm-down) {
+                margin: 0;
+                justify-content: flex-start;
+
+                & .background {
+                    left: -5px
+                }
+            }
+        }
+
+        & h1 {
+            font-weight: normal;
+
+            @media (--sm-down) {
+                margin-top: 26px;
+                margin-right: 18px;
+                max-width: 140px;
+                font-size: 24px;
+            }
+
+            @media (--md-up) {
+                max-width: 300px;
+                font-size: 36px;
             }
         }
     }

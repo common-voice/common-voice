@@ -121,6 +121,8 @@ wall-of-text-more-mobile = Böyük şirkətlər tərəfindən işlədilən məlu
 wall-of-text-more-desktop =
     Artıq siz də səsinizi paylaşaraq hamının cihaz və web üçün innovativ tətbiqlər üçün işlədə biləcəkləri açıq mənbəəli səs sistemləri inşa etməyimizə kömək edə bilərsiz.<lineBreak></lineBreak>
     Cümlələri səsləndirərək maşınlara real insanların necə danışdıqlarını öyrədin. Digər dəstəkçilərin işlərini yoxlayaraq keyfiyyəti artırın. Bu qədər asanlıqla!
+wall-of-text-first = Səs naturaldır, insancadır. Bu səbəbdən maşınlarımız üçün işlək səs texnologiyalarını yaratmaq istəyirik. Amma səs sistemlərini yaratmaq üçün tərtibatçılara kalan səs qeydləri lazımdır.
+wall-of-text-second = Böyük şirkətlər tərəfindən işlədilən məlumatlar insanların çoxu üçün əlçatmazdır. Bunun yenilikləri əngəllədiyini düşünürük. Bu səbəbdən səs tanıma sistemlərini hamıya açıq hala gətirəcək Common Voice Proyektini başlatdıq.
 show-wall-of-text = Ətraflı Oxu
 help-us-title = Cümlələri təsdiqləməyə kömək et!
 help-us-explain = Oxut, dinlə və xəbər ver: aşağıdakı cümləni düz səsləndirdilər?
@@ -128,6 +130,16 @@ no-clips-to-validate = Görünür bu dildə dinləyəsi kliplər yoxdur. Siyahı
 vote-yes = Bəli
 vote-no = Xeyr
 toggle-play-tooltip = Oxutma modunu keçirtmək üçün { shortcut-play-toggle } basın
+speak-subtitle = Səsinizi iadə edin
+speak-paragraph = Səs klipləri açıq məlumat bazasını qurmağımızın ən əsas hissəsidir; bəziləri üçün bu həm də ən əyləncəli hissədir.
+speak-goal-text = Qeyd edilmiş kliplər
+listen-subtitle = Səsləri təsdiqləməyimizə kömək edin
+listen-paragraph = İanə edilmiş klipləri təsdiqləmək Common Voice missiyası üçün eyni səviyyədə əhəmiyyətlidir. Qulaq asın və keyfiyyətli açıq səs məlumatları yaratmağımıza kömək edin.
+listen-goal-text = Təsdiqlənmiş kliplər
+hours-recorded = Qeyd etmə saatları
+hours-validated = Təsdiqləmə saatları
+read-terms-q = Şərtlərimizi oxumusunuz?
+ready-to-record = Səsinizi verməyə hazırsınız?
 
 ## Speak & Listen Shortcuts
 
@@ -315,7 +327,7 @@ request-language-success-content = Dilinizi Common Voice-ə necə əlavə edə b
 language-section-in-progress = Hazırlanır
 language-section-in-progress-description = Hazırlanmada olan dillər dəstəkləriniz üçün icmalarımız tərəfindən hazırlanır; onların irəliləyişi hazırda sayt tərcüməsi və cümlə yığmada nə vəziyyətdə olduqlarını göstərir.
 language-section-launched = Buraxılıb
-language-section-launched-description = Bu buraxılmış dillərdə sayt tərcüməsi tam hazırdır və davam edən <italic>{ speak }</italic> və <italic>{ listen }</italic> dəstəkləri üçün kifayət qədər cümlə yığılıb.
+language-section-launched-new-description = Bu buraxılmış dillərdə davamlı <italic>Danışıq</italic> və <italic>Dinləmə</italic> dəstəklərinə icazə vermək üçün sayt tam lokallaşdırılıb və lazım olan qədər cümlə yığılıb.
 languages-show-more = Daha çox göstər
 languages-show-less = Daha az göstər
 language-speakers = Danışan
@@ -336,7 +348,7 @@ contribute = Dəstək ol
 listen = Qulaq as
 skip = Keç
 shortcuts = Qısa yollar
-clips = Kliplər
+clips-with-count = <bold>{ $count }</bold> Klip
 goal-help-recording = Common Voice-in günlük { $goalValue } qeyd hədəfinin <goalPercentage></goalPercentage> qədərinə çatmağına dəstək oldunuz!
 goal-help-validation = Common Voice-in günlük { $goalValue } təsdiqləmə hədəfinin <goalPercentage></goalPercentage> qədərinə çatmağına dəstək oldunuz!
 contribute-more =

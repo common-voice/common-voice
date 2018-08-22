@@ -119,6 +119,8 @@ home-cta = 大胆发声，为此献声！
 wall-of-text-start = 语音应该是自然、人性的。我们因此着迷于为我们的机器创造实用的语音技术。但要创造一个语音系统，需要大量的语音数据。
 wall-of-text-more-mobile = 大公司使用的大部分数据对大多数人来说都无法取得。我们认为这会扼杀创新，因而推出了 Common Voice 项目。这个项目旨在促进语音识别对所有人的开放。
 wall-of-text-more-desktop = 现在，您可以贡献出您的声音，帮助我们建立一个开源的语音数据库，任何人都可以使用它来为设备和网络制作创新的应用程序。<lineBreak></lineBreak> 朗读一个句子以帮助计算机学习真人说话。复查其他贡献者的工作以提高质量。就这么简单!
+wall-of-text-first = 语音应该是自然、人性的。我们因此着迷于为我们的机器创造实用的语音技术。但要创造一个语音系统，需要大量的语音数据。
+wall-of-text-second = 大公司使用的大部分数据对大多数人来说都无法取得。我们认为这会扼杀创新，因而推出了 Common Voice 项目。这个项目旨在促进语音识别对所有人的开放。
 show-wall-of-text = 了解更多
 help-us-title = 帮助我们验证语句！
 help-us-explain = 请点击播放，仔细聆听并告诉我们：他们是否准确地说出了下面的句子？
@@ -126,6 +128,12 @@ no-clips-to-validate = 看来这个语言没有任何片段可听。请帮助我
 vote-yes = 是
 vote-no = 否
 toggle-play-tooltip = 按下 { shortcut-play-toggle } 即可切换播放模式
+speak-subtitle = 贡献出您的声音
+speak-paragraph = 录制语音片段是构建我们的开放数据集不可缺少的组成部分；有些人表示这还很有趣。
+speak-goal-text = 已录制片段
+listen-subtitle = 帮助我们验证语音
+listen-paragraph = 验证贡献的片段对于 Common Voice 任务同样重要。聆听并帮助我们创建高质量的开源语音数据。
+listen-goal-text = 已验证片段
 
 ## Speak & Listen Shortcuts
 
@@ -190,7 +198,7 @@ female = 女
 # Gender
 other = 其他
 why-profile-title = 为什么要创建用户资料？
-why-profile-text = 凭借您提供一些有关本人的信息，您提交给 Common Voice 的音频数据能更有助于使用这些数据来提高其语音识别引擎的准确性。 
+why-profile-text = 凭借您提供一些有关本人的信息，您提交给 Common Voice 的音频数据能更有助于使用这些数据来提高其语音识别引擎的准确性。
 edit-profile = 编辑用户资料
 profile-create = 创建用户资料
 profile-create-success = 成功，用户资料已创建！
@@ -224,7 +232,7 @@ faq-source-a2 = 您可以在<dataLink>这个 GitHub 文件夹</dataLink>参考�
 ## Profile
 
 profile-why-title = 为什么要创建用户资料？
-profile-why-content = 凭借您提供一些有关本人的信息，您提交给 Common Voice 的音频数据能更有助于使用这些数据来提高其语音识别引擎的准确性。 
+profile-why-content = 凭借您提供一些有关本人的信息，您提交给 Common Voice 的音频数据能更有助于使用这些数据来提高其语音识别引擎的准确性。
 
 ## NotFound
 
@@ -305,14 +313,14 @@ request-language-title = 语言请求
 request-language-form-language =
     .label = 语言
 request-language-success-title = 非常感谢，您的语言请求已成功提交。
-request-language-success-content = 我们将尽快披露更多有关如何将您的语言添加到 Common Voice 的信息。 
+request-language-success-content = 我们将尽快披露更多有关如何将您的语言添加到 Common Voice 的信息。
 
 ## Languages Overview
 
 language-section-in-progress = 准备中
 language-section-in-progress-description = 处理中的语言，代表我们的该语言社区正在进行贡献，当中的进度反映了网站的本地化翻译进度，以及语句收集进度。
 language-section-launched = 已上线
-language-section-launched-description = 若是已上线的语言，代表网站的本地化已完成，也收集了足够的语句，足以支持<italic>{ speak }</italic>及<italic>{ listen }</italic>的贡献。
+language-section-launched-new-description = 推出的语言代表网站已成功本地化，也收集了足够的语句，足以支持<italic>说话</italic>及<italic>聆听</italic>的贡献。
 languages-show-more = 显示更多
 languages-show-less = 显示更少
 language-speakers = 使用人数
@@ -333,7 +341,7 @@ contribute = 参与贡献
 listen = 聆听
 skip = 跳过
 shortcuts = 快捷方式
-clips = 片段
+clips-with-count = <bold>{ $count }</bold> 个片段
 goal-help-recording = 您已帮助 Common Voice 达成 <goalPercentage></goalPercentage> 的每日 { $goalValue } 录音目标！
 goal-help-validation = 您已帮助 Common Voice 达成 <goalPercentage></goalPercentage> 的每日 { $goalValue } 验证目标！
 contribute-more = 准备好再录 { $count } 条了吗？
@@ -345,7 +353,7 @@ record-again-instruction = 太棒了！<recordIcon></recordIcon> 来录制下一
 record-again-instruction2 = 继续加油，再录一次 <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> 最后一个！
 review-tooltip = 在此确认或重新录制片段
-unable-speak = 现在无法朗读 
+unable-speak = 现在无法朗读
 review-instruction = 确认录音内容，有需要的话可以重录
 record-submit-tooltip = { $actionType } 确认无误即可提交
 clips-uploaded = 片段已上传

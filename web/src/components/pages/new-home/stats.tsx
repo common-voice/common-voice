@@ -1,17 +1,17 @@
 import { Localized } from 'fluent-react';
 import * as React from 'react';
 import { connect } from 'react-redux';
-const contributableLocales = require('../../../../../locales/contributable.json') as string[];
 import API from '../../../services/api';
 import StateTree from '../../../stores/tree';
 import pointsToBezier from './points-to-bezier';
 
 import './stats.css';
 
-const Y_SCALE = 1.25;
+const contributableLocales = require('../../../../../locales/contributable.json') as string[];
+
 const Y_OFFSET = 10;
 const TOTAL_LINE_MARGIN = 154;
-const TEXT_OFFSET = 30;
+const TEXT_OFFSET = 40;
 const LINE_OFFSET = TEXT_OFFSET + 5;
 const PLOT_PADDING = 13;
 const PLOT_STROKE_WIDTH = 2;
@@ -30,8 +30,6 @@ const mapStateToProps = ({ api }: StateTree) => ({
 
 const ALL_LOCALES = 'all';
 
-const PLOT_STATE = Object.freeze({ data: [], max: 10000 });
-
 const StatsCard = connect<PropsFromState>(mapStateToProps)(
   class extends React.Component<
     {
@@ -45,7 +43,12 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
     } & PropsFromState,
     State
   > {
-    state: State = { ...PLOT_STATE, locale: ALL_LOCALES, width: 0 };
+    state: State = {
+      data: [],
+      max: this.props.tickCount - 1,
+      locale: ALL_LOCALES,
+      width: 0,
+    };
 
     svgRef = React.createRef<SVGSVGElement>();
 
@@ -61,15 +64,21 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
     }
 
     updateData = async () => {
-      const { api, fetchData, getMax } = this.props;
+      const { api, fetchData, getMax, tickCount } = this.props;
       const { locale } = this.state;
       const data = await fetchData(api, locale === ALL_LOCALES ? null : locale);
-      this.setState({ data: data, max: Y_SCALE * getMax(data) });
+      if (locale !== this.state.locale) return;
+      const max = getMax(data);
+      const ticks = tickCount - 1;
+      this.setState({
+        data,
+        max: max + (ticks - max % ticks),
+      });
     };
 
     changeLocale = (event: any) => {
       this.setState(
-        { ...PLOT_STATE, locale: event.target.value },
+        { data: [], max: this.props.tickCount - 1, locale: event.target.value },
         this.updateData
       );
     };
@@ -122,7 +131,7 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
                   <line
                     x1={LINE_OFFSET}
                     y1={y}
-                    x2={width + PLOT_PADDING - TEXT_OFFSET}
+                    x2={width + PLOT_PADDING}
                     y2={y}
                     stroke="rgba(0,0,0,0.2)"
                   />
@@ -157,19 +166,26 @@ export namespace ClipsStats {
     const seconds = totalSeconds % 60;
     const minutes = Math.floor(totalSeconds / 60) % 60;
     const hours = Math.floor(totalSeconds / 3600);
+
     if (hours >= 1000) {
-      return Math.floor(hours / 1000) + 'k';
+      return (hours / 1000).toPrecision(2) + 'k';
     }
+
+    const timeParts = [];
 
     if (hours > 0) {
-      return hours + 'h';
+      timeParts.push(hours + 'h');
     }
 
-    if (minutes > 0) {
-      return minutes + 'm';
+    if (hours < 10 && minutes > 0) {
+      timeParts.push(minutes + 'm');
     }
 
-    return seconds + 's';
+    if (hours == 0 && minutes < 10 && seconds > 0) {
+      timeParts.push(seconds + 's');
+    }
+
+    return timeParts.join(' ') || '0';
   }
 
   const Metric = ({
@@ -254,8 +270,8 @@ export namespace ClipsStats {
       }
       renderHeader={({ data }) => (
         <div className="metrics">
-          <Metric data={data} labelId="total-hours" attribute="total" />
-          <Metric data={data} labelId="total-hours" attribute="valid" />
+          <Metric data={data} labelId="hours-recorded" attribute="total" />
+          <Metric data={data} labelId="hours-validated" attribute="valid" />
         </div>
       )}
       renderXTickLabel={({ date }) => new Date(date).toLocaleDateString()}
