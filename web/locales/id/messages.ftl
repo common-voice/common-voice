@@ -129,9 +129,11 @@ vote-yes = Ya
 vote-no = Tidak
 toggle-play-tooltip = Tekan { shortcut-play-toggle } untuk mengaktifkan mode putar
 speak-subtitle = Sumbangkan suara Anda
+listen-paragraph = Memvalidasi klip donasi sama pentingnya bagi misi Common Voice. Dengarkan klip dan bantu kami mewujudkan data suara sumber terbuka yang bermutu.
 hours-recorded = Jam Terekam
 hours-validated = Jam Tervalidasi
 read-terms-q = Sudahkah Anda membaca Ketentuan kami?
+ready-to-record = Siap menyumbangkan suara Anda?
 
 ## Speak & Listen Shortcuts
 
