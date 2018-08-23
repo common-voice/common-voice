@@ -271,6 +271,7 @@ export namespace ClipsStats {
       renderHeader={({ data }) => (
         <div className="metrics">
           <Metric data={data} labelId="hours-recorded" attribute="total" />
+          <div className="line"/>
           <Metric data={data} labelId="hours-validated" attribute="valid" />
         </div>
       )}

@@ -33,6 +33,7 @@
             padding: 13px 22px;
             box-sizing: border-box;
             appearance: none;
+            flex-shrink: 0;
 
             font-family: var(--base-font-family);
             text-transform: uppercase;
@@ -54,20 +55,15 @@
     }
 
     & .metrics {
+        width: 100%;
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
 
-        & > * {
-            padding: 0 15px;
-            border-right: 1px solid var(--grey);
-
-            &:first-child {
-                padding-left: 0;
-            }
-
-            &:last-child {
-                border-right: none;
-            }
+        & .line {
+            width: 1px;
+            height: 100%;
+            background-color: var(--grey);
         }
     }
 
