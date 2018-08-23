@@ -428,7 +428,7 @@ export default class DB {
     const oldest = new Date(row.oldest);
     const diff = (new Date(row.newest) as any) - (oldest as any);
 
-    const DAYS_COUNT = 4;
+    const DAYS_COUNT = 9;
 
     var tzOffset = new Date().getTimezoneOffset() * 60000; //offset in milliseconds
     const getDate = (n: number, withOffset = true) => {

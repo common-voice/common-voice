@@ -38,7 +38,7 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
       fetchData: (api: API, locale?: string) => Promise<any[]>;
       formatNumber: (n: number) => string;
       renderHeader: (state: State) => React.ReactNode;
-      renderXTickLabel: (datum: any) => React.ReactNode;
+      renderXTickLabel: (datum: any, i: number) => React.ReactNode;
       tickCount: number;
     } & PropsFromState,
     State
@@ -147,7 +147,7 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
                   i * ((width - PLOT_PADDING - TEXT_OFFSET) / data.length)
                 }
                 y={Y_OFFSET + TOTAL_LINE_MARGIN}>
-                {renderXTickLabel(datum)}
+                {renderXTickLabel(datum, i)}
               </text>
             ))}
             {children(state)}
@@ -271,11 +271,13 @@ export namespace ClipsStats {
       renderHeader={({ data }) => (
         <div className="metrics">
           <Metric data={data} labelId="hours-recorded" attribute="total" />
-          <div className="line"/>
+          <div className="line" />
           <Metric data={data} labelId="hours-validated" attribute="valid" />
         </div>
       )}
-      renderXTickLabel={({ date }) => new Date(date).toLocaleDateString()}
+      renderXTickLabel={({ date }, i) =>
+        i % 2 === 0 && new Date(date).toLocaleDateString()
+      }
       tickCount={TICK_COUNT}>
       {state => (
         <React.Fragment>
