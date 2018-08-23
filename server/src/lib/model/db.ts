@@ -443,39 +443,50 @@ export default class DB {
     ]);
 
     const results = await Promise.all(
-      dayRanges.map(async d =>
-        this.mysql.query(
-          `
-            SELECT
-              COUNT(clip_id)                                              AS total,
-              SUM(upvotes_count >= 2 AND upvotes_count > downvotes_count) AS valid
-            FROM (
-              SELECT
-                clips.id                AS clip_id,
-                SUM(votes.is_valid)     AS upvotes_count,
-                SUM(NOT votes.is_valid) AS downvotes_count
+      dayRanges.map(dayRange =>
+        Promise.all([
+          this.mysql.query(
+            `
+              SELECT COUNT(*) AS total
               FROM clips
-              LEFT JOIN votes ON clips.id = votes.clip_id AND votes.created_at < ?
-              LEFT JOIN locales ON clips.locale_id = locales.id
-              WHERE clips.created_at BETWEEN ? AND ? ${
-                locale ? 'AND clips.locale_id = ?' : ''
+              WHERE created_at BETWEEN ? AND ? ${
+                locale ? 'AND locale_id = ?' : ''
               }
-              GROUP BY clips.id
-              HAVING COUNT(CASE WHEN votes.created_at BETWEEN ? AND ? THEN 1 END) > 0
-            ) AS clips;
-          `,
-          [d[1], ...d, ...(locale ? [localeId] : d), ...d]
-        )
+              `,
+            [...dayRange, localeId]
+          ),
+          this.mysql.query(
+            `
+              SELECT SUM(upvotes_count >= 2 AND upvotes_count > downvotes_count) AS valid
+              FROM (
+                SELECT
+                  SUM(votes.is_valid) AS upvotes_count,
+                  SUM(NOT votes.is_valid) AS downvotes_count
+                FROM clips
+                LEFT JOIN votes ON clips.id = votes.clip_id
+                WHERE NOT clips.needs_votes AND (
+                  SELECT created_at
+                  FROM votes
+                  WHERE votes.clip_id = clips.id
+                  ORDER BY created_at DESC
+                  LIMIT 1
+                ) BETWEEN ? AND ? ${locale ? 'AND locale_id = ?' : ''}
+                GROUP BY clips.id
+              ) t;
+              `,
+            [...dayRange, localeId]
+          ),
+        ])
       )
     );
 
     return results.reduce(
-      (totals, [[row]], i) => {
+      (totals, [[[{ total }]], [[{ valid }]]], i) => {
         const last = totals[totals.length - 1];
         return totals.concat({
           date: getDate(i + 1, false),
-          total: last.total + (Number(row.total) || 0),
-          valid: last.valid + (Number(row.valid) || 0),
+          total: last.total + (Number(total) || 0),
+          valid: last.valid + (Number(valid) || 0),
         });
       },
       [{ date: getDate(0, false), total: 0, valid: 0 }]
