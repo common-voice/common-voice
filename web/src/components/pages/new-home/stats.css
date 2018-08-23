@@ -74,33 +74,11 @@
         flex-direction: column;
         justify-content: space-between;
 
-        &.total {
-            color: var(--red);
-        }
-        &.valid {
-            color: var(--valid-green);
-        }
-        &.unverified {
-            color: var(--blue);
-        }
-
         & .label {
             min-height: 32px;
             font-size: 12px;
             letter-spacing: 0.5px;
             color: var(--warm-grey);
-        }
-
-        & .value {
-            display: flex;
-            align-items: center;
-            line-height: 1.5;
-            font-weight: 600;
-
-            & .point {
-                margin-right: 6px;
-                font-size: 20px;
-            }
         }
     }
 
@@ -179,6 +157,53 @@
 
         &.current {
             fill: var(--valid-green);
+        }
+    }
+}
+
+.metric-value {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+
+    &.total {
+        color: var(--red);
+    }
+    &.valid {
+        color: var(--valid-green);
+    }
+    &.unverified {
+        color: var(--blue);
+    }
+
+    & .point {
+        margin-top: -3px;
+        margin-right: 6px;
+        font-size: 20px;
+    }
+}
+
+.tippy-tooltip.white-theme {
+    border-radius: 80px;
+    background: var(--white);
+    box-shadow: 0 8px 17px 0 rgba(149, 149, 149, 0.43);
+    color: var(--black);
+
+    & .arrow-regular {
+        bottom: -6px;
+        border-top-color: var(--white) !important;
+    }
+
+    & .metrics {
+        display: flex;
+        flex-direction: row;
+
+        & > * {
+            margin-right: 30px;
+
+            &:last-child {
+                margin-right: 0;
+            }
         }
     }
 }
