@@ -252,6 +252,9 @@ faq-firefox-q = Verður raddskráningarvél, í gegnum Sameiginlega rödd, einhv
 faq-firefox-a = Sameiginleg rödd hefur ómælda möguleika og sannarlega könnum við raddviðmót í mörgum Mozilla vörum, þar á meðal Firefox.
 faq-quality-q = Hvaða hljóðgæða er krafist til þess að hljóðgögn séu notuð?
 faq-quality-a = Við viljum að hljóðgæðin endurspegli þau hljóðgæði sem raddskráningarvélin mun fást við úr hinu óþekkta. Fyrir vikið, þá viljum við fjölbreytni. Þetta kennir raddskráningarvélinni að bregðast við ákveðnum tilfellum—tali í bakgrunni, bíhljóðum, viftuhljóðum—án villna.
+faq-hours-q = Hvers vegna eru 10.000 klukkustundir áætluð þörf hljóðritunar?
+faq-hours-a = Þetta er áætlaður fjöldi klst. til þess að þjálfa STT-framleiðslukerfi.
+faq-source-q = Hver er uppruni textans?
 
 ## Profile
 
