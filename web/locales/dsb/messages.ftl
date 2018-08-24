@@ -138,6 +138,7 @@ hours-recorded = Nagraśowe góźiny
 hours-validated = Wobwěsćone góźiny
 read-terms-q = Sćo pśecytał naše wužywańske wuměnjenja?
 ready-to-record = Sćo gótowy, swój głos pósćiś?
+all-languages = Wšykne rěcy
 today = Źinsa
 x-weeks-short =
     { $count ->
