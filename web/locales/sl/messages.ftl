@@ -130,6 +130,8 @@ toggle-play-tooltip = Pritisnite { shortcut-play-toggle } za preklop načina pre
 speak-subtitle = Prispevajte svoj glas
 speak-goal-text = Posnetki posneti
 listen-subtitle = Pomagajte nam potrditi glasove
+read-terms-q = Ste prebrali naše pogoje?
+today = Danes
 
 ## Speak & Listen Shortcuts
 
