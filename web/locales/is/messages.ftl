@@ -137,6 +137,31 @@ vote-no = Nei
 toggle-play-tooltip = Veldu { shortcut-play-toggle } til þess að skipta um afspilunarham
 speak-subtitle = Gefðu raddsýnishorn
 speak-paragraph = Hljóðritun raddgagna er órofa partur af þróun gagnapakkans okkar; sumir myndu líka segja að það væri skemmtilegi parturinn.
+speak-goal-text = Raddupptökur
+listen-subtitle = Hjálpið okkur að staðfesta raddir
+listen-paragraph = Að staðfesta aðsendar raddupptökur er jafn mikilvægt Sameiginlega raddverkefninu. Hlustið og hjálpið til við að þróa hágæða opinn raddbúnað.
+listen-goal-text = Staðfestar raddupptökur
+hours-recorded = Klukkustundir hljóðritaðar
+hours-validated = Klukkustundir staðfestar
+read-terms-q = Hefurðu lesið skilmálana?
+ready-to-record = Tilbúinn að leggja fram raddsýni?
+all-languages = Öll tungumál
+today = Í dag
+x-weeks-short =
+    { $count ->
+        [one] vika
+       *[other] { $count }v
+    }
+x-months-short =
+    { $count ->
+        [one] mánuður
+       *[other] { $count }m
+    }
+x-years-short =
+    { $count ->
+        [one] ár
+       *[other] { $count }ár
+    }
 
 ## Speak & Listen Shortcuts
 
