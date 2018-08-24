@@ -138,6 +138,26 @@ hours-recorded = Nagrane godziny
 hours-validated = Sprawdzone godziny
 read-terms-q = Nie zapomnij przeczytać warunków korzystania z serwisu.
 ready-to-record = Chcesz nagrać swój głos?
+all-languages = Wszystkie języki
+today = Dzisiaj
+x-weeks-short =
+    { $count ->
+        [one] Tydzień
+        [few] { $count } tygodnie
+       *[other] { $count } tygodni
+    }
+x-months-short =
+    { $count ->
+        [one] Miesiąc
+        [few] { $count } miesiące
+       *[other] { $count } miesięcy
+    }
+x-years-short =
+    { $count ->
+        [one] Rok
+        [few] { $count } lata
+       *[other] { $count } lat
+    }
 
 ## Speak & Listen Shortcuts
 
