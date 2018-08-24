@@ -140,6 +140,22 @@ hours-recorded = Ώρες ηχογράφησης
 hours-validated = Ώρες επαλήθευσης
 read-terms-q = Έχετε διαβάσει τους όρους;
 ready-to-record = Έτοιμοι να δωρίσετε τη φωνή σας;
+today = Σήμερα
+x-weeks-short =
+    { $count ->
+        [one] Εβδομάδα
+       *[other] { $count } εβδ.
+    }
+x-months-short =
+    { $count ->
+        [one] { $count } μήνας
+       *[other] { $count } μήνες
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } έτος
+       *[other] { $count } έτη
+    }
 
 ## Speak & Listen Shortcuts
 
