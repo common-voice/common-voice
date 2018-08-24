@@ -131,6 +131,7 @@ speak-subtitle = Prispevajte svoj glas
 speak-goal-text = Posnetki posneti
 listen-subtitle = Pomagajte nam potrditi glasove
 read-terms-q = Ste prebrali naše pogoje?
+all-languages = Vsi jeziki
 today = Danes
 
 ## Speak & Listen Shortcuts
