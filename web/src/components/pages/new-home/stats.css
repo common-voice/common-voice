@@ -72,7 +72,6 @@
     }
 
     & .metric {
-        max-width: 85px;
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
