@@ -245,6 +245,13 @@ faq-important-a = Rödd er náttúruleg, rödd er mannleg. Hún er einfaldasta o
 faq-get-q = Hvernig fæ ég Sameiginleg raddgögn?
 faq-get-a = Gagnapakkinn er nú fáanlegur á <downloadLink>niðuhalsvefnum</downloadLink> okkar undir leyfinu <licenseLnk>CC-0</licenseLink>.
 faq-mission-q = Því er Sameiginlega röddin hluti Mozilla-verkefnisins?
+faq-mission-a = Mozilla hefur tileinkað sér að tryggja það að vefurinn sé öllum opinn og aðgengilegur. Til þess þarf að virkja vefsmiði með verkefnum á borð við Sameiginlega raddverkefnið. Líkt og raddbúnaðartæknin er þróuð umfram forrit sem eru dýr fyrir endanotendur, þá trúum við að hún verði að þjóna öllu fólki jafnt. Við finnum þörf til þess að fjölga tungumálum, framburðarsýnum og lýðfræðilegum upplýsingum þegar raddbúnaðurinn er þróaður og prófaður. Mozilla vill sjá heilbrigt, lifandi internet. Það þýðir að nýjum þróendum um allan heim er gefinn aðgangur að raddgögnum, svo að þeim sé kleift að stofna ný, framúrskarandi verkefni. Sameiginlega röddin verður opinn grunnur sem mun gagnast Mozilla teymum og þróendum úti um heim.
+faq-native-q = { $lang } er ekki móðurmál mitt og ég tala með hreim, viljið þið enn raddsýnið mitt?
+faq-native-a = Já, sannarlega viljum við röddina þína! Hluti markmiða Sameiginlega raddverkefnisins er að safna eins mörgum mismunandi framburðardæmum og hægt er, svo tölvur geti skilið betur <bold>alla</bold> þegar þeir tala.
+faq-firefox-q = Verður raddskráningarvél, í gegnum Sameiginlega rödd, einhvern tíma partur af Firefox?
+faq-firefox-a = Sameiginleg rödd hefur ómælda möguleika og sannarlega könnum við raddviðmót í mörgum Mozilla vörum, þar á meðal Firefox.
+faq-quality-q = Hvaða hljóðgæða er krafist til þess að hljóðgögn séu notuð?
+faq-quality-a = Við viljum að hljóðgæðin endurspegli þau hljóðgæði sem raddskráningarvélin mun fást við úr hinu óþekkta. Fyrir vikið, þá viljum við fjölbreytni. Þetta kennir raddskráningarvélinni að bregðast við ákveðnum tilfellum—tali í bakgrunni, bíhljóðum, viftuhljóðum—án villna.
 
 ## Profile
 
