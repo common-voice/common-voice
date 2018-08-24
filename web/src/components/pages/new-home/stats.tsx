@@ -307,7 +307,11 @@ export namespace ClipsStats {
     pathRef: any = React.createRef();
 
     handleMouseMove = (event: any) => {
-      const { left, top, width } = this.pathRef.current.getBoundingClientRect();
+      const path = this.pathRef.current;
+      if (!path) {
+        this.setState({ hoveredIndex: null });
+      }
+      const { left, width } = path.getBoundingClientRect();
       const hoveredIndex =
         Math.round(DATA_LENGTH * (event.clientX - left) / width) - 1;
       this.setState({
