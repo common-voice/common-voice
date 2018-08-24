@@ -1,10 +1,10 @@
+const spline = require('@yr/monotone-cubic-spline');
 import { Localized } from 'fluent-react';
 import * as React from 'react';
 import { Component, SVGProps } from 'react';
 import { connect } from 'react-redux';
 import API from '../../../services/api';
 import StateTree from '../../../stores/tree';
-import pointsToBezier from './points-to-bezier';
 
 import './stats.css';
 
@@ -182,7 +182,7 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
 );
 
 export namespace ClipsStats {
-  const DATA_LENGTH = 10;
+  const DATA_LENGTH = 5;
   const TICK_COUNT = 7;
   const CIRCLE_RADIUS = 8;
 
@@ -271,8 +271,10 @@ export namespace ClipsStats {
       return (
         <React.Fragment>
           <path
-            d={pointsToBezier(
-              data.map((datum, i) => pointFromDatum(i, datum[attribute]))
+            d={spline.svgPath(
+              spline.points(
+                data.map((datum, i) => pointFromDatum(i, datum[attribute]))
+              )
             )}
             className={attribute}
             fill="none"
