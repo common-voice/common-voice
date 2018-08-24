@@ -141,6 +141,7 @@ hours-recorded = Timmar inspelade
 hours-validated = Timmar validerade
 read-terms-q = Har du läst våra villkor?
 ready-to-record = Är du redo att donera din röst?
+all-languages = Alla språk
 today = Idag
 x-weeks-short =
     { $count ->
