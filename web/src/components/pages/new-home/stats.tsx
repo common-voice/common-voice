@@ -1,5 +1,5 @@
 const spline = require('@yr/monotone-cubic-spline');
-import { Localized } from 'fluent-react';
+import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
 import * as React from 'react';
 import { Component, SVGProps } from 'react';
 import { connect } from 'react-redux';
@@ -301,81 +301,115 @@ export namespace ClipsStats {
 
   type ClipsStatsState = { hoveredIndex: number };
 
-  export class Root extends Component<{}, ClipsStatsState> {
-    state: ClipsStatsState = { hoveredIndex: null };
+  export const Root = withLocalization(
+    class Root extends Component<LocalizationProps, ClipsStatsState> {
+      state: ClipsStatsState = { hoveredIndex: null };
 
-    pathRef: any = React.createRef();
+      pathRef: any = React.createRef();
 
-    handleMouseMove = (event: any) => {
-      const path = this.pathRef.current;
-      if (!path) {
-        this.setState({ hoveredIndex: null });
-      }
-      const { left, width } = path.getBoundingClientRect();
-      const hoveredIndex =
-        Math.round(DATA_LENGTH * (event.clientX - left) / width) - 1;
-      this.setState({
-        hoveredIndex:
-          hoveredIndex >= 0 && hoveredIndex < DATA_LENGTH ? hoveredIndex : null,
-      });
-    };
+      handleMouseMove = (event: any) => {
+        const path = this.pathRef.current;
+        if (!path) {
+          this.setState({ hoveredIndex: null });
+        }
+        const { left, width } = path.getBoundingClientRect();
+        const hoveredIndex =
+          Math.round(DATA_LENGTH * (event.clientX - left) / width) - 1;
+        this.setState({
+          hoveredIndex:
+            hoveredIndex >= 0 && hoveredIndex < DATA_LENGTH
+              ? hoveredIndex
+              : null,
+        });
+      };
 
-    handleMouseOut = () => this.setState({ hoveredIndex: null });
+      handleMouseOut = () => this.setState({ hoveredIndex: null });
 
-    render() {
-      const { hoveredIndex } = this.state;
-      return (
-        <StatsCard
-          fetchData={(api, locale) => api.fetchClipsStats(locale)}
-          formatNumber={formatSeconds}
-          getMax={data =>
-            data.reduce((max, d) => Math.max(max, d.total, d.valid), 0)
-          }
-          onMouseMove={this.handleMouseMove}
-          onMouseOut={this.handleMouseOut}
-          renderHeader={({ data }) => (
-            <div className="metrics">
-              <Metric data={data} labelId="hours-recorded" attribute="total" />
-              <Metric data={data} labelId="hours-validated" attribute="valid" />
-            </div>
-          )}
-          renderTooltipContents={({ data }) => {
-            const datum = data[hoveredIndex];
-            if (!datum) return null;
+      render() {
+        const { getString } = this.props;
+        const { hoveredIndex } = this.state;
+        return (
+          <StatsCard
+            fetchData={(api, locale) => api.fetchClipsStats(locale)}
+            formatNumber={formatSeconds}
+            getMax={data =>
+              data.reduce((max, d) => Math.max(max, d.total, d.valid), 0)
+            }
+            onMouseMove={this.handleMouseMove}
+            onMouseOut={this.handleMouseOut}
+            renderHeader={({ data }) => (
+              <div className="metrics">
+                <Metric
+                  data={data}
+                  labelId="hours-recorded"
+                  attribute="total"
+                />
+                <Metric
+                  data={data}
+                  labelId="hours-validated"
+                  attribute="valid"
+                />
+              </div>
+            )}
+            renderTooltipContents={({ data }) => {
+              const datum = data[hoveredIndex];
+              if (!datum) return null;
 
-            const { date, total, valid } = datum;
-            return (
+              const { date, total, valid } = datum;
+              return (
+                <React.Fragment>
+                  <b>
+                    {new Date(date).toLocaleDateString([], {
+                      day: 'numeric',
+                      month: 'long',
+                      year: 'numeric',
+                    })}
+                  </b>
+                  <div className="metrics">
+                    <MetricValue attribute="total">
+                      {formatSeconds(total)}
+                    </MetricValue>
+                    <MetricValue attribute="valid">
+                      {formatSeconds(valid)}
+                    </MetricValue>
+                  </div>
+                </React.Fragment>
+              );
+            }}
+            renderXTickLabel={({ date }) => {
+              const dateObj = new Date(date);
+              const dayDiff = Math.ceil(
+                Math.abs(dateObj.getTime() - new Date().getTime()) /
+                  (1000 * 3600 * 24)
+              );
+              if (dayDiff <= 1) return getString('today');
+              if (dayDiff < 30) {
+                return getString('x-weeks-short', {
+                  count: Math.floor(dayDiff / 7),
+                });
+              }
+              if (dayDiff < 365) {
+                return getString('x-months-short', {
+                  count: Math.floor(dayDiff / 30),
+                });
+              }
+
+              return getString('x-years-short', {
+                count: Math.floor(dayDiff / 365),
+              });
+            }}
+            tickCount={TICK_COUNT}>
+            {state => (
               <React.Fragment>
-                <b>
-                  {new Date(date).toLocaleDateString([], {
-                    day: 'numeric',
-                    month: 'long',
-                    year: 'numeric',
-                  })}
-                </b>
-                <div className="metrics">
-                  <MetricValue attribute="total">
-                    {formatSeconds(total)}
-                  </MetricValue>
-                  <MetricValue attribute="valid">
-                    {formatSeconds(valid)}
-                  </MetricValue>
-                </div>
+                <Path state={state} attribute="valid" />
+                <Path state={state} attribute="total" ref={this.pathRef} />
               </React.Fragment>
-            );
-          }}
-          renderXTickLabel={({ date }) => new Date(date).toLocaleDateString()}
-          tickCount={TICK_COUNT}>
-          {state => (
-            <React.Fragment>
-              <Path state={state} attribute="valid" />
-              <Path state={state} attribute="total" ref={this.pathRef} />
-            </React.Fragment>
-          )}
-        </StatsCard>
-      );
+            )}
+          </StatsCard>
+        );
+      }
     }
-  }
+  );
 }
 
 export namespace VoiceStats {

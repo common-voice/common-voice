@@ -415,45 +415,37 @@ export default class DB {
     locale?: string
   ): Promise<{ date: string; total: number; valid: number }[]> {
     const localeId = locale ? await this.getLocaleId(locale) : null;
-    const [[row]] = await this.mysql.query(
-      `
-        SELECT
-          COALESCE(MIN(created_at), NOW()) AS oldest,
-          COALESCE(MAX(created_at), NOW()) AS newest
-        FROM clips
-        ${locale ? 'WHERE locale_id = ?' : ''}
-      `,
-      [localeId]
-    );
-    const oldest = new Date(row.oldest);
-    const diff = (new Date(row.newest) as any) - (oldest as any);
 
-    const DAYS_COUNT = 4;
-
-    var tzOffset = new Date().getTimezoneOffset() * 60000; //offset in milliseconds
-    const getDate = (n: number, withOffset = true) => {
-      const isoString = new Date(
-        oldest.getTime() + n * diff / DAYS_COUNT - (withOffset ? tzOffset : 0)
-      ).toISOString();
-      return withOffset ? isoString.slice(0, -1) : isoString;
-    };
-    const dayRanges = Array.from({ length: DAYS_COUNT }).map((_, i) => [
-      getDate(i),
-      getDate(i + 1),
-    ]);
+    const intervals = [
+      '100 YEAR',
+      '1 YEAR',
+      '6 MONTH',
+      '1 MONTH',
+      '1 WEEK',
+      '0 HOUR',
+    ];
+    const ranges = intervals
+      .map(interval => 'NOW() - INTERVAL ' + interval)
+      .reduce(
+        (ranges, interval, i, intervals) =>
+          i + 1 === intervals.length
+            ? ranges
+            : [...ranges, [interval, intervals[i + 1]]],
+        []
+      );
 
     const results = await Promise.all(
-      dayRanges.map(dayRange =>
+      ranges.map(([from, to]) =>
         Promise.all([
           this.mysql.query(
             `
-              SELECT COUNT(*) AS total
+              SELECT COUNT(*) AS total, ${to} AS date
               FROM clips
-              WHERE created_at BETWEEN ? AND ? ${
-                locale ? 'AND locale_id = ?' : ''
-              }
-              `,
-            [...dayRange, localeId]
+              WHERE created_at BETWEEN ${from} AND ${to} ${
+              locale ? 'AND locale_id = ?' : ''
+            }
+            `,
+            [localeId]
           ),
           this.mysql.query(
             `
@@ -470,27 +462,24 @@ export default class DB {
                   WHERE votes.clip_id = clips.id
                   ORDER BY created_at DESC
                   LIMIT 1
-                ) BETWEEN ? AND ? ${locale ? 'AND locale_id = ?' : ''}
+                ) BETWEEN ${from} AND ${to} ${locale ? 'AND locale_id = ?' : ''}
                 GROUP BY clips.id
               ) t;
-              `,
-            [...dayRange, localeId]
+            `,
+            [localeId]
           ),
         ])
       )
     );
 
-    return results.reduce(
-      (totals, [[[{ total }]], [[{ valid }]]], i) => {
-        const last = totals[totals.length - 1];
-        return totals.concat({
-          date: getDate(i + 1, false),
-          total: last.total + (Number(total) || 0),
-          valid: last.valid + (Number(valid) || 0),
-        });
-      },
-      [{ date: getDate(0, false), total: 0, valid: 0 }]
-    );
+    return results.reduce((totals, [[[{ date, total }]], [[{ valid }]]], i) => {
+      const last = totals[totals.length - 1];
+      return totals.concat({
+        date,
+        total: (last ? last.total : 0) + (Number(total) || 0),
+        valid: (last ? last.valid : 0) + (Number(valid) || 0),
+      });
+    }, []);
   }
 
   async getVoicesStats(

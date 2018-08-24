@@ -147,6 +147,20 @@ hours-recorded = Hours Recorded
 hours-validated = Hours Validated
 read-terms-q = Have you read our Terms?
 ready-to-record = Ready to donate your voice?
+today = Today
+x-weeks-short =
+  { $count ->
+    [one] Week
+    *[other] { $count }wk
+  }
+x-months-short =
+  { $count ->
+    *[other] { $count }mo
+  }
+x-years-short =
+  { $count ->
+    *[other] { $count }y
+  }
 
 ## Speak & Listen Shortcuts
 # Must be one letter that appears in the translated { skip } string.
