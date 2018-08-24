@@ -121,6 +121,13 @@ wall-of-text-more-mobile = Flest gögn sem stórfyrirtæki nota eru ekki aðgeng
 wall-of-text-more-desktop =
     Nú geturðu deilt raddprufum til þess að hjálpa okkur að byggja upp úr frjálsum hugbúnaði raddgagnagrunn sem er aðgengilegur hverjum sem er til að nota í nýjungar fyrir tæki og vefinn.<lineBreak></lineBreak>
     Lesið setningu til að hjálpa vélum að læra hvernig fólk talar í alvörunni. Skoðið verk annarra til þess að taka út gæðin. Svo einfalt er það!
+wall-of-text-first =
+    Raddir eru náttúrulegar og mannlegar. Því gleður það okkur að þróa nothæfa raddtækni fyrir vélarnar okkar.
+    En til að þróa raddkerfi þurfa þróendur að hafa fyrir hendi gríðarlegt magn raddgagna.
+wall-of-text-second =
+    Megnið af gögnunum sem stórfyrirtæki nota er ekki fáanlegt miklum meirihluta fólks. Að okkar mati hindrar það framþróun.
+    Fyrir vikið höfum við stofnað til Sameiginlega raddverkefnisins, en verkefnið á að gera raddgreiningartækni 
+    opna og aðgengilega öllum.
 show-wall-of-text = Lesa meira
 help-us-title = Hjálpaðu okkur að meta setningar!
 help-us-explain = Veldu afspilun, hlustaðu og svaraðu: var setningin að neðan nákvæmlega sögð?
