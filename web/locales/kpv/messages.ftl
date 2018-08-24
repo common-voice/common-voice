@@ -166,6 +166,7 @@ notfound-title = Эз аддзы
 ## Data
 
 data-download-yes = Да
+data-download-deny = Ог
 data-other-goto = Мун { $name } вылӧ
 data-other-ted-name = TED-LIUM корпус
 

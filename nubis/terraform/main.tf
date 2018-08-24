@@ -76,11 +76,20 @@ module "database" {
 }
 
 module "clips" {
-  source       = "github.com/nubisproject/nubis-terraform//bucket?ref=v2.3.0"
+  #XXX: cors_rules will be added in Nubis v2.4.0
+  source       = "github.com/gozer/nubis-terraform//bucket?ref=issue%2F249%2Fcors"
   region       = "${var.region}"
   environment  = "${var.environment}"
   account      = "${var.account}"
   service_name = "${var.service_name}"
   purpose      = "clips"
   role         = "${module.worker.role}"
+
+  cors_rules = [
+    {
+      allowed_headers = ["Authorization"]
+      allowed_methods = ["GET"]
+      allowed_origins = ["*"]
+    },
+  ]
 }

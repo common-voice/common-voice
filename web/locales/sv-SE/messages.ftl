@@ -141,6 +141,22 @@ hours-recorded = Timmar inspelade
 hours-validated = Timmar validerade
 read-terms-q = Har du läst våra villkor?
 ready-to-record = Är du redo att donera din röst?
+today = Idag
+x-weeks-short =
+    { $count ->
+        [one] Vecka
+       *[other] { $count }wk
+    }
+x-months-short =
+    { $count ->
+        [one] Månad
+       *[other] { $count }mo
+    }
+x-years-short =
+    { $count ->
+        [one] År
+       *[other] { $count }y
+    }
 
 ## Speak & Listen Shortcuts
 

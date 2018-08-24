@@ -126,6 +126,9 @@ no-clips-to-validate = Bu dilde dinlenecek kayıt kalmadı. Yeni konuşmalar kay
 vote-yes = Evet
 vote-no = Hayır
 toggle-play-tooltip = Oynatma modunu açıp kapatmak için { shortcut-play-toggle } tuşuna basın
+ready-to-record = Sesinizi bağışlamaya hazır mısınız?
+all-languages = Tüm diller
+today = Bugün
 
 ## Speak & Listen Shortcuts
 
@@ -313,7 +316,6 @@ request-language-success-content = Dilinizi Common Voice’a nasıl ekleyeceğin
 language-section-in-progress = Devam ediyor
 language-section-in-progress-description = Devam eden diller, gönüllülerimiz tarafından katkıya açılmaya hazırlanmaktadır. İlerleme durumları, web sitesi çevirisinde ve cümle derlemede ne durumda olduklarını göstermektedir.
 language-section-launched = Yayımlandı
-language-section-launched-description = Bu dillerde web sitesinin çevirisi tamamlanmış ve sürmekte olan <italic>{ listen }</italic> ve <italic>{ speak }</italic> katkıları için yeterli sayıda cümle derlenmiştir.
 languages-show-more = Daha fazlasını göster
 languages-show-less = Daha az göster
 language-speakers = Konuşmacı
@@ -334,7 +336,6 @@ contribute = Katkıda bulun
 listen = Dinle
 skip = Atla
 shortcuts = Kısayollar
-clips = Klipler
 goal-help-recording = Common Voice'un günlük { $goalValue } kayıt hedefinin <goalPercentage></goalPercentage> kadarına ulaşmasına katkıda bulundunuz!
 goal-help-validation = Common Voice'un günlük { $goalValue } doğrulama hedefinin <goalPercentage></goalPercentage> kadarına ulaşmasına katkıda bulundunuz!
 contribute-more =

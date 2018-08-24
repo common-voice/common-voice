@@ -16,7 +16,7 @@
     }
 
     @media (--md-up) {
-        padding: 150px 100px 0;
+        padding: 130px 100px 0;
         width: 100%;
         min-height: 500px;
         box-sizing: border-box;
@@ -261,6 +261,10 @@
         background: url("/img/fading.svg");
         background-size: 100%;
         pointer-events: none;
+    }
+
+    &.listen .fading {
+        transform: scaleX(-1);
     }
 
     & a.terms {

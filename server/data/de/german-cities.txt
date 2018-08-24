@@ -70,7 +70,7 @@ Von Flensburg bis nach Delmenhorst ist es eine lange Strecke
 Zu Fuß ist man von Gera bis Fürth lange unterwegs
 Man kann mit dem Fahrrad bis Oldenburg fahren
 Der Zug hält heute nicht in Waiblingen
-Muss ich in Bochum Umsteigen?
+Muss ich in Bochum umsteigen?
 Der Bus fährt nach Heidelberg
 Du kannst mit dem Bus nach Frankfurt an der Oder fahren.
 Ist es weit bis Nordhorn?
@@ -121,7 +121,7 @@ Ich bin gerade erst in Aachen angekommen
 Möchte heute noch jemand nach Bergheim fahren?
 Ich könnte eine Mitfahrgelegenheit nach München anbieten
 Der nächste Zug nach Neustadt an der Weinstraße geht um zwölf Uhr dreißig
-Der Zug nach Wolfsburg ist schon um Dreiviertel drei abgefahren
+Der Zug nach Wolfsburg ist schon um dreiviertel drei abgefahren.
 Wenn du dich beeilst bekommst du noch den Zug um viertel nach fünf nach Mainz
 Der nächste Zug nach Frankfurt geht in einer Stunde und dreißig Minuten
 Können wir stattdessen mit dem Fernbus nach Berlin fahren?
@@ -199,7 +199,7 @@ Von Weimar bis nach Neustadt an der Weinstraße ist es eine lange Strecke
 Zu Fuß ist man von Offenburg bis Leipzig lange unterwegs
 Man kann mit dem Fahrrad bis Wilhelmshaven fahren
 Der Zug hält heute nicht in Schweinfurt
-Muss ich in Gelsenkirchen Umsteigen?
+Muss ich in Gelsenkirchen umsteigen?
 Der Bus fährt nach Heilbronn
 Du kannst mit dem Bus nach Würzburg fahren
 Ist es weit bis Wolfsburg?
@@ -250,7 +250,7 @@ Ich bin gerade erst in Göttingen angekommen
 Möchte heute noch jemand nach Neumünster fahren?
 Ich könnte eine Mitfahrgelegenheit nach Schweinfurt anbieten
 Der nächste Zug nach Görlitz geht um zwölf Uhr dreißig
-Der Zug nach Frankfurt am Main ist schon um Dreiviertel drei abgefahren
+Der Zug nach Frankfurt am Main ist schon um dreiviertel drei abgefahren.
 Wenn du dich beeilst bekommst du noch den Zug um viertel nach fünf nach München
 Der nächste Zug nach Wetzlar geht in einer Stunde und dreißig Minuten
 Können wir stattdessen mit dem Fernbus nach Nürnberg fahren?

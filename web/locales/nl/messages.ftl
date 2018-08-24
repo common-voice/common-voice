@@ -137,6 +137,7 @@ listen-goal-text = Gevalideerde fragmenten
 hours-recorded = Opgenomen uren
 hours-validated = Gevalideerde uren
 read-terms-q = Hebt u onze Voorwaarden gelezen?
+ready-to-record = Klaar om uw stem te doneren?
 
 ## Speak & Listen Shortcuts
 

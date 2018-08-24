@@ -38,6 +38,10 @@ header {
         }
     }
 
+    & .main-logo {
+        margin-bottom: -3px;
+    }
+
     & > * {
         display: flex;
         width: 100%;
@@ -238,14 +242,26 @@ header {
 
     & .record-tally {
         color: var(--red);
+
+        & svg {
+            height: 19px;
+        }
+
+        & path {
+            fill: var(--red);
+        }
     }
 
     & .validate-tally {
-        color: var(--green);
+        color: var(--valid-green);
 
         & .icon {
             display: block;
             font-size: .6rem;
+        }
+
+        & path {
+            fill: var(--valid-green);
         }
     }
 }

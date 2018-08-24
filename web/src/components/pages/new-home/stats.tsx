@@ -1,11 +1,15 @@
-import { Localized } from 'fluent-react';
+const spline = require('@yr/monotone-cubic-spline');
+import Downshift from 'downshift';
+import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
 import * as React from 'react';
+import { Component, SVGProps } from 'react';
 import { connect } from 'react-redux';
 import API from '../../../services/api';
 import StateTree from '../../../stores/tree';
-import pointsToBezier from './points-to-bezier';
 
 import './stats.css';
+
+const { Tooltip } = require('react-tippy');
 
 const contributableLocales = require('../../../../../locales/contributable.json') as string[];
 
@@ -28,7 +32,7 @@ const mapStateToProps = ({ api }: StateTree) => ({
   api,
 });
 
-const ALL_LOCALES = 'all';
+const ALL_LOCALES = 'all-languages';
 
 const StatsCard = connect<PropsFromState>(mapStateToProps)(
   class extends React.Component<
@@ -38,9 +42,11 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
       fetchData: (api: API, locale?: string) => Promise<any[]>;
       formatNumber: (n: number) => string;
       renderHeader: (state: State) => React.ReactNode;
-      renderXTickLabel: (datum: any) => React.ReactNode;
+      renderTooltipContents?: (state: State) => React.ReactNode;
+      renderXTickLabel: (datum: any, i: number) => React.ReactNode;
       tickCount: number;
-    } & PropsFromState,
+    } & PropsFromState &
+      SVGProps<SVGElement>,
     State
   > {
     state: State = {
@@ -76,9 +82,9 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
       });
     };
 
-    changeLocale = (event: any) => {
+    changeLocale = (locale: string) => {
       this.setState(
-        { data: [], max: this.props.tickCount - 1, locale: event.target.value },
+        { data: [], max: this.props.tickCount - 1, locale },
         this.updateData
       );
     };
@@ -93,65 +99,113 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
       const {
         children,
         formatNumber,
+        onMouseMove,
+        onMouseOut,
         renderHeader,
+        renderTooltipContents,
         renderXTickLabel,
         tickCount,
       } = this.props;
       const { state } = this;
       const { data, locale, max, width } = state;
 
+      const tooltipContents =
+        renderTooltipContents && renderTooltipContents(state);
+
       return (
         <div className="home-card">
           <div className="head">
             {renderHeader(state)}
-            <select value={locale} onChange={this.changeLocale}>
-              <option value={ALL_LOCALES}>All Languages</option>
-              {contributableLocales.map(locale => (
-                <Localized key={locale} id={locale}>
-                  <option value={locale} />
-                </Localized>
-              ))}
-            </select>
+            <Downshift defaultInputValue={locale} onChange={this.changeLocale}>
+              {({
+                closeMenu,
+                getItemProps,
+                highlightedIndex,
+                isOpen,
+                openMenu,
+                toggleMenu,
+              }) => (
+                <div
+                  className="select"
+                  onClick={() => toggleMenu()}
+                  onMouseEnter={() => openMenu()}
+                  onMouseLeave={() => closeMenu()}>
+                  <Localized id={locale}>
+                    <div className="current" />
+                  </Localized>
+                  {isOpen && (
+                    <ul>
+                      {[ALL_LOCALES]
+                        .concat(contributableLocales)
+                        .map((l, i) => (
+                          <Localized key={l} id={l}>
+                            <li
+                              className={[
+                                l === locale ? 'selected' : '',
+                                highlightedIndex === i ? 'highlighted' : '',
+                              ].join(' ')}
+                              {...getItemProps({ item: l })}
+                              value={l}
+                            />
+                          </Localized>
+                        ))}
+                    </ul>
+                  )}
+                </div>
+              )}
+            </Downshift>
           </div>
-          <svg width="100%" height="100%" ref={this.svgRef}>
-            {Array.from({ length: tickCount }).map((_, i) => {
-              const y = i * TOTAL_LINE_MARGIN / tickCount + Y_OFFSET;
-              return (
-                <React.Fragment key={i}>
-                  <text
-                    className="tick-label"
-                    x={TEXT_OFFSET}
-                    y={y}
-                    dominantBaseline="middle"
-                    textAnchor="end">
-                    {formatNumber(
-                      Math.round((tickCount - 1 - i) * max / (tickCount - 1))
-                    )}
-                  </text>
-                  <line
-                    x1={LINE_OFFSET}
-                    y1={y}
-                    x2={width + PLOT_PADDING}
-                    y2={y}
-                    stroke="rgba(0,0,0,0.2)"
-                  />
-                </React.Fragment>
-              );
-            })}
-            {data.map((datum, i) => (
-              <text
-                key={i}
-                className="tick-label"
-                x={
-                  LINE_OFFSET +
-                  i * ((width - PLOT_PADDING - TEXT_OFFSET) / data.length)
-                }
-                y={Y_OFFSET + TOTAL_LINE_MARGIN}>
-                {renderXTickLabel(datum)}
-              </text>
-            ))}
-            {children(state)}
-          </svg>
+          <Tooltip
+            arrow={true}
+            duration={0}
+            html={tooltipContents}
+            open={Boolean(tooltipContents)}
+            theme="white"
+            followCursor>
+            <svg
+              width="100%"
+              height="100%"
+              ref={this.svgRef}
+              {...{ onMouseMove, onMouseOut }}>
+              {Array.from({ length: tickCount }).map((_, i) => {
+                const y = i * TOTAL_LINE_MARGIN / tickCount + Y_OFFSET;
+                return (
+                  <React.Fragment key={i}>
+                    <text
+                      className="tick-label"
+                      x={TEXT_OFFSET}
+                      y={y}
+                      dominantBaseline="middle"
+                      textAnchor="end">
+                      {formatNumber(
+                        Math.round((tickCount - 1 - i) * max / (tickCount - 1))
+                      )}
+                    </text>
+                    <line
+                      x1={LINE_OFFSET}
+                      y1={y}
+                      x2={width + PLOT_PADDING}
+                      y2={y}
+                      stroke="rgba(0,0,0,0.2)"
+                    />
+                  </React.Fragment>
+                );
+              })}
+              {data.map((datum, i) => (
+                <text
+                  key={i}
+                  className="tick-label"
+                  x={
+                    LINE_OFFSET +
+                    i * ((width - PLOT_PADDING - TEXT_OFFSET) / data.length)
+                  }
+                  y={Y_OFFSET + TOTAL_LINE_MARGIN}>
+                  {renderXTickLabel(datum, i)}
+                </text>
+              ))}
+              {children(state)}
+            </svg>
+          </Tooltip>
         </div>
       );
     }
@@ -159,6 +213,7 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
 );
 
 export namespace ClipsStats {
+  const DATA_LENGTH = 5;
   const TICK_COUNT = 7;
   const CIRCLE_RADIUS = 8;
 
@@ -188,6 +243,13 @@ export namespace ClipsStats {
     return timeParts.join(' ') || '0';
   }
 
+  const MetricValue = ({ attribute, children }: any) => (
+    <div className={'metric-value ' + attribute}>
+      <div className="point">●</div>
+      {children}
+    </div>
+  );
+
   const Metric = ({
     data,
     labelId,
@@ -197,93 +259,178 @@ export namespace ClipsStats {
     labelId: string;
     attribute: Attribute;
   }) => (
-    <div className={'metric ' + attribute}>
+    <div className="metric">
       <Localized id={labelId}>
         <div className="label" />
       </Localized>
-      <div className="value">
-        <div className="point">●</div>
+      <MetricValue attribute={attribute}>
         {data.length > 0
           ? formatSeconds(data[data.length - 1][attribute])
           : '?'}
-      </div>
+      </MetricValue>
     </div>
   );
 
-  const Path = ({
-    state,
-    attribute,
-  }: {
-    state: State;
-    attribute: Attribute;
-  }) => {
-    const { data, max, width } = state;
-    if (data.length === 0) return null;
+  const Path = React.forwardRef(
+    (
+      {
+        state,
+        attribute,
+      }: {
+        state: State;
+        attribute: Attribute;
+      },
+      ref: any
+    ) => {
+      const { data, max, width } = state;
+      if (data.length === 0) return null;
 
-    const pointFromDatum = (x: number, y: number): [number, number] => [
-      LINE_OFFSET +
-        PLOT_PADDING +
-        x *
-          (width - LINE_OFFSET - 2 * PLOT_PADDING - CIRCLE_RADIUS) /
-          (data.length - 1),
-      Y_OFFSET -
-        PLOT_STROKE_WIDTH / 2 +
-        (1 - y / max) * (data.length + 1) * TOTAL_LINE_MARGIN / TICK_COUNT,
-    ];
+      const pointFromDatum = (x: number, y: number): [number, number] => [
+        LINE_OFFSET +
+          PLOT_PADDING +
+          x *
+            (width - LINE_OFFSET - 2 * PLOT_PADDING - CIRCLE_RADIUS) /
+            (data.length - 1),
+        Y_OFFSET -
+          PLOT_STROKE_WIDTH / 2 +
+          (1 - y / max) * (data.length + 1) * TOTAL_LINE_MARGIN / TICK_COUNT,
+      ];
 
-    const lastIndex = data.length - 1;
-    const [x, y] = pointFromDatum(lastIndex, data[lastIndex][attribute]);
+      const lastIndex = data.length - 1;
+      const [x, y] = pointFromDatum(lastIndex, data[lastIndex][attribute]);
 
-    return (
-      <React.Fragment>
-        <path
-          d={pointsToBezier(
-            data.map((datum, i) => pointFromDatum(i, datum[attribute]))
-          )}
-          className={attribute}
-          fill="none"
-          strokeWidth={PLOT_STROKE_WIDTH}
-        />
-        <circle
-          cx={x}
-          cy={y}
-          r={CIRCLE_RADIUS}
-          fill="white"
-          className={'outer ' + attribute}
-        />
-        <circle
-          cx={x}
-          cy={y}
-          r={CIRCLE_RADIUS - 2}
-          className={'inner ' + attribute}
-        />
-      </React.Fragment>
-    );
-  };
-
-  export const Root = () => (
-    <StatsCard
-      fetchData={(api, locale) => api.fetchClipsStats(locale)}
-      formatNumber={formatSeconds}
-      getMax={data =>
-        data.reduce((max, d) => Math.max(max, d.total, d.valid), 0)
-      }
-      renderHeader={({ data }) => (
-        <div className="metrics">
-          <Metric data={data} labelId="hours-recorded" attribute="total" />
-          <Metric data={data} labelId="hours-validated" attribute="valid" />
-        </div>
-      )}
-      renderXTickLabel={({ date }) => new Date(date).toLocaleDateString()}
-      tickCount={TICK_COUNT}>
-      {state => (
+      return (
         <React.Fragment>
-          <Path state={state} attribute="valid" />
-          <Path state={state} attribute="total" />
+          <path
+            d={spline.svgPath(
+              spline.points(
+                data.map((datum, i) => pointFromDatum(i, datum[attribute]))
+              )
+            )}
+            className={attribute}
+            fill="none"
+            ref={ref}
+            strokeWidth={PLOT_STROKE_WIDTH}
+          />
+          <circle
+            cx={x}
+            cy={y}
+            r={CIRCLE_RADIUS}
+            fill="white"
+            className={'outer ' + attribute}
+          />
+          <circle
+            cx={x}
+            cy={y}
+            r={CIRCLE_RADIUS - 2}
+            className={'inner ' + attribute}
+          />
         </React.Fragment>
-      )}
-    </StatsCard>
+      );
+    }
   );
+
+  type ClipsStatsState = { hoveredIndex: number };
+
+  class BareRoot extends Component<LocalizationProps, ClipsStatsState> {
+    state: ClipsStatsState = { hoveredIndex: null };
+
+    pathRef: any = React.createRef();
+
+    handleMouseMove = (event: any) => {
+      const path = this.pathRef.current;
+      if (!path) {
+        this.setState({ hoveredIndex: null });
+      }
+      const { left, width } = path.getBoundingClientRect();
+      const hoveredIndex =
+        Math.round(DATA_LENGTH * (event.clientX - left) / width) - 1;
+      this.setState({
+        hoveredIndex:
+          hoveredIndex >= 0 && hoveredIndex < DATA_LENGTH ? hoveredIndex : null,
+      });
+    };
+
+    handleMouseOut = () => this.setState({ hoveredIndex: null });
+
+    render() {
+      const { getString } = this.props;
+      const { hoveredIndex } = this.state;
+      return (
+        <StatsCard
+          fetchData={(api, locale) => api.fetchClipsStats(locale)}
+          formatNumber={formatSeconds}
+          getMax={data =>
+            data.reduce((max, d) => Math.max(max, d.total, d.valid), 0)
+          }
+          onMouseMove={this.handleMouseMove}
+          onMouseOut={this.handleMouseOut}
+          renderHeader={({ data }) => (
+            <div className="metrics">
+              <Metric data={data} labelId="hours-recorded" attribute="total" />
+              <Metric data={data} labelId="hours-validated" attribute="valid" />
+            </div>
+          )}
+          renderTooltipContents={({ data }) => {
+            const datum = data[hoveredIndex];
+            if (!datum) return null;
+
+            const { date, total, valid } = datum;
+            return (
+              <React.Fragment>
+                <b>
+                  {new Date(date).toLocaleDateString([], {
+                    day: 'numeric',
+                    month: 'long',
+                    year: 'numeric',
+                  })}
+                </b>
+                <div className="metrics">
+                  <MetricValue attribute="total">
+                    {formatSeconds(total)}
+                  </MetricValue>
+                  <MetricValue attribute="valid">
+                    {formatSeconds(valid)}
+                  </MetricValue>
+                </div>
+              </React.Fragment>
+            );
+          }}
+          renderXTickLabel={({ date }) => {
+            const dateObj = new Date(date);
+            const dayDiff = Math.ceil(
+              Math.abs(dateObj.getTime() - new Date().getTime()) /
+                (1000 * 3600 * 24)
+            );
+            if (dayDiff <= 1) return getString('today');
+            if (dayDiff < 30) {
+              return getString('x-weeks-short', {
+                count: Math.floor(dayDiff / 7),
+              });
+            }
+            if (dayDiff < 365) {
+              return getString('x-months-short', {
+                count: Math.floor(dayDiff / 30),
+              });
+            }
+
+            return getString('x-years-short', {
+              count: Math.floor(dayDiff / 365),
+            });
+          }}
+          tickCount={TICK_COUNT}>
+          {state => (
+            <React.Fragment>
+              <Path state={state} attribute="valid" />
+              <Path state={state} attribute="total" ref={this.pathRef} />
+            </React.Fragment>
+          )}
+        </StatsCard>
+      );
+    }
+  }
+
+  export const Root = withLocalization(BareRoot);
 }
 
 export namespace VoiceStats {

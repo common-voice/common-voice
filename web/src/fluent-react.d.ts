@@ -11,7 +11,7 @@ declare module 'fluent-react' {
   export interface LocalizationProps {
     getString(
       id: string,
-      args?: { [key: string]: string },
+      args?: { [key: string]: string | number },
       fallback?: string
     ): string;
   }
