@@ -107,7 +107,7 @@ report-bugs-link = Help report bugs
 
 ## Home Page
 home-title =
-  The Common Voice project is Mozilla’s initiative to help teach machines how real people speak.
+  Common Voice is Mozilla's initiative to help teach machines how real people speak.
 home-cta = Speak up, contribute here!
 wall-of-text-start =
   Voice is natural, voice is human. That’s why we’re fascinated with creating usable voice
