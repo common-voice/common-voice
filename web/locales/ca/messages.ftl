@@ -138,6 +138,21 @@ hours-recorded = Hores enregistrades
 hours-validated = Hores validades
 read-terms-q = Heu llegit les condicions d'ús?
 ready-to-record = Esteu a punt per donar la veu?
+today = Avui
+x-weeks-short =
+    { $count ->
+        [one] Setmana
+       *[other] { $count } setm.
+    }
+x-months-short =
+    { $count ->
+       *[other] { $count } mesos
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } any
+       *[other] { $count } anys
+    }
 
 ## Speak & Listen Shortcuts
 
