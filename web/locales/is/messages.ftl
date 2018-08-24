@@ -243,7 +243,7 @@ faq-what-a = Raddgreiningartækni gæti gjörbylt samskiptum okkar við vélar, 
 faq-important-q = Því er það mikilvægt?
 faq-important-a = Rödd er náttúruleg, rödd er mannleg. Hún er einfaldasta og eðlilegasta leiðin til að eiga samskipti. Við viljum að þróendum sé kleift að smíða mögnuð fyrirbæri úr þýðendum í rauntíma yfir í raddstýrð hjálpartól til stjórnunar. En eins og er eru ekki nægjanleg gögn fáanleg almenningi til að smíða slík tól. Við vonum að Sameiginlega röddin færi þróendum þau verkfæri sem þróun nýjunga krefst.
 faq-get-q = Hvernig fæ ég Sameiginleg raddgögn?
-faq-get-a = Gagnapakkinn er nú fáanlegur á <downloadLink>niðuhalsvefnum</downloadLink> okkar undir leyfinu <licenseLnk>CC-0</licenseLink>.
+faq-get-a = Gagnasafnið er nú fáanlegt á <downloadLink>niðuhalsvefnum</downloadLink> okkar undir leyfinu <licenseLnk>CC-0</licenseLink>.
 faq-mission-q = Því er Sameiginlega röddin hluti Mozilla-verkefnisins?
 faq-mission-a = Mozilla hefur tileinkað sér að tryggja það að vefurinn sé öllum opinn og aðgengilegur. Til þess þarf að virkja vefsmiði með verkefnum á borð við Sameiginlega raddverkefnið. Líkt og raddbúnaðartæknin er þróuð umfram forrit sem eru dýr fyrir endanotendur, þá trúum við að hún verði að þjóna öllu fólki jafnt. Við finnum þörf til þess að fjölga tungumálum, framburðarsýnum og lýðfræðilegum upplýsingum þegar raddbúnaðurinn er þróaður og prófaður. Mozilla vill sjá heilbrigt, lifandi internet. Það þýðir að nýjum þróendum um allan heim er gefinn aðgangur að raddgögnum, svo að þeim sé kleift að stofna ný, framúrskarandi verkefni. Sameiginlega röddin verður opinn grunnur sem mun gagnast Mozilla teymum og þróendum úti um heim.
 faq-native-q = { $lang } er ekki móðurmál mitt og ég tala með hreim, viljið þið enn raddsýnið mitt?
@@ -255,15 +255,27 @@ faq-quality-a = Við viljum að hljóðgæðin endurspegli þau hljóðgæði se
 faq-hours-q = Hvers vegna eru 10.000 klukkustundir áætluð þörf hljóðritunar?
 faq-hours-a = Þetta er áætlaður fjöldi klst. til þess að þjálfa STT-framleiðslukerfi.
 faq-source-q = Hver er uppruni textans?
+faq-source-a1 = Setningar í notkun eru framlög frá notendum, auk þess sem notuð eru gögn úr almenningssöfnum á borð við samtöl úr kvikmyndum eins og <italic>Lífið er yndislegt.</italic>
+faq-source-a2 = Þú getur skoðað upprunalegu setningarnar í <dataLink>þessari GitHub möppu</dataLink>.
 
 ## Profile
 
+profile-why-title = Til hvers er aðgangur?
+profile-why-content = Með því að veita ákveðnar upplýsingar um sjálfan þig, þá eykur þú á notagildi aðsendra gagna fyrir raddgreiningarvélarnar sem nýta sér þessi gögn til að bæta nákvæmni sína.
 
 ## NotFound
 
+notfound-title = Ekki fundið
+notfound-content = Ég hræðist að ég viti ekki að hverju þú leitar.
 
 ## Data
 
+data-download-button = Niðurhala Sameiginlegum raddgögnum.
+data-download-yes = Já
+data-download-deny = Nei
+data-download-license = Leyfi: <licenseLink>CC-0</licenseLink>
+data-download-modal = Þú ert í þann mund að niðurhala <size>{ $size }GB</size>, halda áfram?
+data-subtitle = Við erum að þróa opið gagnasafn fyrir almenning úr raddgögnum sem allir geta notað til að þjálfa raddstýrð forrit.
 
 ## Record Page
 
