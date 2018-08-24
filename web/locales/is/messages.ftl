@@ -276,6 +276,14 @@ data-download-deny = Nei
 data-download-license = Leyfi: <licenseLink>CC-0</licenseLink>
 data-download-modal = Þú ert í þann mund að niðurhala <size>{ $size }GB</size>, halda áfram?
 data-subtitle = Við erum að þróa opið gagnasafn fyrir almenning úr raddgögnum sem allir geta notað til að þjálfa raddstýrð forrit.
+data-explanatory-text = Við trúum að stór raddgagnasöfn sem eru aðgengileg almenningi hvetji til nýsköpunar og heilbrigðrar samkeppni í raddbúnaði sem byggir á vélagreind. Þetta er alþjóðlegt átak og öllum er boðið að taka þátt. Okkar markmið er að stuðla að alhliða raddtækni, sem endurspeglar fjölbreytileika raddsýnanna sem eru fengin alls staðar úr heiminum.
+data-get-started = <speechBlogLink>Byrja á Raddgreiningu</speechBlogLink>
+data-other-title = Önnur raddgagnasöfn...
+data-other-goto = Fara í { $name }
+data-other-download = Niðurhala gögnum
+data-other-librispeech-description = LibriSpeech textasafnið geymir u.þ.b. 100 klst af 16Khz hljóðrituðu tali á ensku sem er fengið úr upplesnum bókum af LibriVox verkefninu.
+data-other-ted-name = TED-LIUM textasafn
+data-other-ted-description = TED-LIUM textasafnið var þróað úr talsetningum og afritunum þeirra sem eru fáanlegar á TED vefnum.
 
 ## Record Page
 
