@@ -415,70 +415,71 @@ export default class DB {
     locale?: string
   ): Promise<{ date: string; total: number; valid: number }[]> {
     const localeId = locale ? await this.getLocaleId(locale) : null;
-    const [[row]] = await this.mysql.query(
-      `
-        SELECT
-          COALESCE(MIN(created_at), NOW()) AS oldest,
-          COALESCE(MAX(created_at), NOW()) AS newest
-        FROM clips
-        ${locale ? 'WHERE locale_id = ?' : ''}
-      `,
-      [localeId]
-    );
-    const oldest = new Date(row.oldest);
-    const diff = (new Date(row.newest) as any) - (oldest as any);
 
-    const DAYS_COUNT = 4;
-
-    var tzOffset = new Date().getTimezoneOffset() * 60000; //offset in milliseconds
-    const getDate = (n: number, withOffset = true) => {
-      const isoString = new Date(
-        oldest.getTime() + n * diff / DAYS_COUNT - (withOffset ? tzOffset : 0)
-      ).toISOString();
-      return withOffset ? isoString.slice(0, -1) : isoString;
-    };
-    const dayRanges = Array.from({ length: DAYS_COUNT }).map((_, i) => [
-      getDate(i),
-      getDate(i + 1),
-    ]);
+    const intervals = [
+      '100 YEAR',
+      '1 YEAR',
+      '6 MONTH',
+      '1 MONTH',
+      '1 WEEK',
+      '0 HOUR',
+    ];
+    const ranges = intervals
+      .map(interval => 'NOW() - INTERVAL ' + interval)
+      .reduce(
+        (ranges, interval, i, intervals) =>
+          i + 1 === intervals.length
+            ? ranges
+            : [...ranges, [interval, intervals[i + 1]]],
+        []
+      );
 
     const results = await Promise.all(
-      dayRanges.map(async d =>
-        this.mysql.query(
-          `
-            SELECT
-              COUNT(clip_id)                                              AS total,
-              SUM(upvotes_count >= 2 AND upvotes_count > downvotes_count) AS valid
-            FROM (
-              SELECT
-                clips.id                AS clip_id,
-                SUM(votes.is_valid)     AS upvotes_count,
-                SUM(NOT votes.is_valid) AS downvotes_count
+      ranges.map(([from, to]) =>
+        Promise.all([
+          this.mysql.query(
+            `
+              SELECT COUNT(*) AS total, ${to} AS date
               FROM clips
-              LEFT JOIN votes ON clips.id = votes.clip_id AND votes.created_at BETWEEN ? AND ?
-              LEFT JOIN locales ON clips.locale_id = locales.id
-              WHERE clips.created_at BETWEEN ? AND ? ${
-                locale ? 'AND clips.locale_id = ?' : ''
-              }
-              GROUP BY clips.id
-            ) AS clips;
-          `,
-          [...d, ...d, localeId]
-        )
+              WHERE created_at BETWEEN ${from} AND ${to} ${
+              locale ? 'AND locale_id = ?' : ''
+            }
+            `,
+            [localeId]
+          ),
+          this.mysql.query(
+            `
+              SELECT SUM(upvotes_count >= 2 AND upvotes_count > downvotes_count) AS valid
+              FROM (
+                SELECT
+                  SUM(votes.is_valid) AS upvotes_count,
+                  SUM(NOT votes.is_valid) AS downvotes_count
+                FROM clips
+                LEFT JOIN votes ON clips.id = votes.clip_id
+                WHERE NOT clips.needs_votes AND (
+                  SELECT created_at
+                  FROM votes
+                  WHERE votes.clip_id = clips.id
+                  ORDER BY created_at DESC
+                  LIMIT 1
+                ) BETWEEN ${from} AND ${to} ${locale ? 'AND locale_id = ?' : ''}
+                GROUP BY clips.id
+              ) t;
+            `,
+            [localeId]
+          ),
+        ])
       )
     );
 
-    return results.reduce(
-      (totals, [[row]], i) => {
-        const last = totals[totals.length - 1];
-        return totals.concat({
-          date: getDate(i + 1, false),
-          total: last.total + (Number(row.total) || 0),
-          valid: last.valid + (Number(row.valid) || 0),
-        });
-      },
-      [{ date: getDate(0, false), total: 0, valid: 0 }]
-    );
+    return results.reduce((totals, [[[{ date, total }]], [[{ valid }]]], i) => {
+      const last = totals[totals.length - 1];
+      return totals.concat({
+        date,
+        total: (last ? last.total : 0) + (Number(total) || 0),
+        valid: (last ? last.valid : 0) + (Number(valid) || 0),
+      });
+    }, []);
   }
 
   async getVoicesStats(

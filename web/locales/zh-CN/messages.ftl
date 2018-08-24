@@ -134,6 +134,10 @@ speak-goal-text = 已录制片段
 listen-subtitle = 帮助我们验证语音
 listen-paragraph = 验证贡献的片段对于 Common Voice 任务同样重要。聆听并帮助我们创建高质量的开源语音数据。
 listen-goal-text = 已验证片段
+hours-recorded = 已录制小时数
+hours-validated = 已验证小时数
+read-terms-q = 您阅读过我们的使用条款了吗？
+ready-to-record = 准备好贡献您的声音了吗？
 
 ## Speak & Listen Shortcuts
 

@@ -119,6 +119,8 @@ home-cta = Alceu la veu i col·laboreu-hi!
 wall-of-text-start = La veu és natural, la veu és humana. És per això que volem crear tecnologies de veu de qualitat per a les màquines. Però el desenvolupament d'aquests sistemes requereix un gran volum de dades de veu.
 wall-of-text-more-mobile = La majoria de les dades usades per grans companyies no estan disponibles per a tothom. Considerem que això frena la innovació. Per això, hem iniciat el projecte Common Voice, per tal de fer que la tecnologia de reconeixement de la veu estigui oberta a tothom.
 wall-of-text-more-desktop = Ara podeu donar la vostra veu per ajudar-nos a construir una base de dades de veu amb llicència oberta que qualsevol pot usar per a desenvolupar aplicacions innovadores per als aparells i el web.<lineBreak></lineBreak>Llegiu una frase per ajudar les màquines a aprendre com parlem les persones de debò. Reviseu la feina d'altres col·laboradors per a millorar la qualitat. Així de fàcil!
+wall-of-text-first = La veu és natural, la veu és humana. És per això que volem crear tecnologies de veu de qualitat per a les màquines. Però per crear aquests sistemes de veu, els desenvolupadors necessiten un gran volum de dades de veu.
+wall-of-text-second = La majoria de les dades usades per grans companyies no estan disponibles per a tothom. Considerem que això frena la innovació. Per això, hem iniciat el projecte Common Voice, per tal de fer que el reconeixement de la veu sigui obert i accessible a tothom.
 show-wall-of-text = Més informació
 help-us-title = Ajudeu-nos a validar frases!
 help-us-explain = Premeu el botó de reproducció, escolteu i digueu-nos si l'àudio correspon exactament a la frase de sota:
@@ -126,6 +128,31 @@ no-clips-to-validate = Sembla que no hi ha cap tall de veu per revisar en aquest
 vote-yes = Sí
 vote-no = No
 toggle-play-tooltip = Premeu { shortcut-play-toggle } per iniciar i aturar la reproducció
+speak-subtitle = Doneu la veu
+speak-paragraph = L'enregistrament de talls de veu és una part essencial per crear el nostre conjunt de dades obertes. També és la part més divertida.
+speak-goal-text = talls enregistrats
+listen-subtitle = Ajudeu-nos a validar veus
+listen-paragraph = La validació dels talls de veu també és important per a la missió del Common Voice. Escolteu els talls i ajudeu-nos a crear dades de veu de qualitat amb llicència lliure.
+listen-goal-text = talls validats
+hours-recorded = Hores enregistrades
+hours-validated = Hores validades
+read-terms-q = Heu llegit les condicions d'ús?
+ready-to-record = Esteu a punt per donar la veu?
+today = Avui
+x-weeks-short =
+    { $count ->
+        [one] Setmana
+       *[other] { $count } setm.
+    }
+x-months-short =
+    { $count ->
+       *[other] { $count } mesos
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } any
+       *[other] { $count } anys
+    }
 
 ## Speak & Listen Shortcuts
 
@@ -313,7 +340,6 @@ request-language-success-content = Aviat ens posarem en contacte amb més inform
 language-section-in-progress = En curs
 language-section-in-progress-description = Les llengües en curs s'estan preparant per rebre contribucions de la comunitat. El seu progrés reflecteix l'estat en què es troben pel que fa a la traducció del lloc web i a la recol·lecció de frases.
 language-section-launched = En producció
-language-section-launched-description = Les llengües en producció tenen el lloc web totalment traduït i s'han reunit prou frases per permetre les col·laboracions (<italic>{ speak }</italic> i <italic>{ listen }</italic>).
 language-section-launched-new-description = Les llengües en producció tenen el lloc web totalment traduït i s'han reunit prou frases per permetre les col·laboracions (<italic>Parla</italic> i <italic>Escolta</italic>).
 languages-show-more = Mostra'n més
 languages-show-less = Mostra'n menys
@@ -335,7 +361,6 @@ contribute = Col·laboreu‑hi
 listen = Escolta
 skip = Omet
 shortcuts = Dreceres
-clips = talls
 clips-with-count = <bold>{ $count }</bold> talls
 goal-help-recording = Heu ajudat el Common Voice a assolir el <goalPercentage></goalPercentage> de l'objectiu diari de { $goalValue } enregistraments!
 goal-help-validation = Heu ajudat el Common Voice a assolir el <goalPercentage></goalPercentage> de l'objectiu diari de { $goalValue } validacions!

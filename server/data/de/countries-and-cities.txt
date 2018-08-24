@@ -200,7 +200,7 @@ Washington, D.C. ist die Hauptstadt der Vereinigten Staaten von Amerika.
 Hanoi ist die Hauptstadt von Vietnam.
 Minsk ist die Hauptstadt von Weißrussland.
 Bangui ist die Hauptstadt der Zentralafrikanischen Republik.
-Nikosia ist die Hauptstadt von Republik Zypern.
+Nikosia ist die Hauptstadt der Republik Zypern.
 Pristina ist die Hauptstadt vom Kosovo.
 Ramallah ist die Hauptstadt von Palästina.
 Hargeysa ist die Hauptstadt von Somaliland.
@@ -208,18 +208,18 @@ Die Hauptstadt von Taiwan ist Taipeh.
 El Aaiún ist die Hauptstadt der Westsahara.
 Nord-Nikosia ist die Hauptstadt der Türkischen Republik Nord-Zypern.
 Die Hauptstadt der Cookinseln ist Avarua.
-Von neunzehn-hundert-zweiundzwanzig bis neunzehn-hundert-vierzig war Kaunas die Hauptstadt von Litauen.
+Von neunzehnhundertzweiundzwanzig bis neunzehnhundertvierzig war Kaunas die Hauptstadt von Litauen.
 Kalkutta war die Hauptstadt von Britisch-Indien.
 Mehrfach in der Geschichte Chinas war Nanjing die Hauptstadt des Landes.
-Von neunzehn-hundert-siebundvierzig bis neunzehn-hundert-neunundfünfzig war Karatschi die Hauptstadt von Pakistan.
+Von neunzehnhundertsiebenundvierzig bis neunzehnhundertneunundfünfzig war Karatschi die Hauptstadt von Pakistan.
 Vor der Wiedervereinigung des Landes war Saigon die Hauptstadt von Südvietnam.
-Von achtzehn-hundert-fünfundsechzig bis achtzehn-hundert-einundsiebzig war Florenz die Hauptstadt von Italien.
-Das Königreich Neapel existierte von dreizehn-hundert-zwei bis achtzehn-hundert-sechtzehn.
+Von achtzehnhundertfünfundsechzig bis achtzehnhunderteinundsiebzig war Florenz die Hauptstadt von Italien.
+Das Königreich Neapel existierte von dreizehnhundertzwei bis achtzehnhundertsechtzehn.
 Istanbul war schon die Hauptstadt des Osmanischen Reiches.
 Auch Posen und Krakau waren mal Hauptstädte von Polen.
-Bratislava war die Hauptstadt des Königreich Ungarn.
+Bratislava war die Hauptstadt des Königreichs Ungarn.
 Belgrad war die Hauptstadt von Jugoslawien.
-Von siebzehn-hundert-zwölf bis neunzehn-hundert-achtzenh war Sankt Petersburg die Hauptstadt des Russischen Reichs.
+Von siebzehnhundertzwölf bis neunzehnhundertachtzehn war Sankt Petersburg die Hauptstadt des Russischen Reichs.
 Moskau war die Hauptstadt der Sowjetunion.
 Rio de Janeiro war kurze Zeit sogar die Hauptstadt von Portugal.
 Konstantinopel war die Hauptstadt des Byzantinischen Reichs.
@@ -262,7 +262,7 @@ Der Nil gilt traditionell als der längste Fluss der Welt.
 Die Donau durchfließt zehn Länder.
 Die Wolga ist der längste Fluss Europas.
 Der Rhein ist eine der verkehrsreichsten Wasserstraßen der Welt.
-Der Amazonas ist der Wasserreichste Fluss der Erde.
+Der Amazonas ist der wasserreichste Fluss der Erde.
 Australien ist keine Insel sondern ein Kontinent.
 Die Sahara ist die größte Wüste der Welt.
 Antarktika ist der südlichste Kontinent der Erde.
@@ -294,13 +294,13 @@ Der Pazifische Ozean grenzt an alle anderen Weltmeere.
 Das Südpolarmeer umschließt den Kontinent Antarktika.
 Ein Flug zwischen Amerika und Europa ist ein Transatlantikflug.
 In Hongkong wird nicht Mandarin sondern Kantonesisch gesprochen.
-Neben englisch ist Hindi die Amtssprache in Indien.
+Neben Englisch ist Hindi die Amtssprache in Indien.
 Urdu ist in Pakistan und einigen indischen Bundesstaaten Amtssprache.
 In vielen afrikanischen Staaten ist französisch Amtssprache.
 Auch in vielen nordafrikanischen Ländern wird arabisch gesprochen.
 Auch Spanisch ist eine Weltsprache.
 Russisch schreibt man mit dem kyrillischen Alphabet.
-Für zweihundert-fünfzehn Millionen Sprecher ist Bengalisch die Muttersprache.
+Für zweihundertfünfzehn Millionen Sprecher ist Bengalisch die Muttersprache.
 Die Amtssprache im Iran ist Persisch.
 Das koreanische Alphabet wurde erst im fünfzehnten Jahrhundert erfunden.
 Alaska ist die größte Exklave der Erde.

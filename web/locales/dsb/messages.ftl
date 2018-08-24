@@ -30,7 +30,7 @@ cs = Češćina
 cv = Čuwašćina
 cy = Kymrišćina
 da = Dańšćina
-de = Nimčina
+de = Nimšćina
 dsb = Dolnoserbšćina
 el = Grichišćina
 en = Engelšćina
@@ -39,7 +39,7 @@ es = Špańšćina
 et = Estnišćina
 fi = Finšćina
 fo = Ferejšćina
-fr = Francojsćina
+fr = Francojšćina
 fy-NL = Frizišćina
 ga-IE = Iršćina
 he = Hebrejšćina
@@ -138,6 +138,29 @@ hours-recorded = Nagraśowe góźiny
 hours-validated = Wobwěsćone góźiny
 read-terms-q = Sćo pśecytał naše wužywańske wuměnjenja?
 ready-to-record = Sćo gótowy, swój głos pósćiś?
+all-languages = Wšykne rěcy
+today = Źinsa
+x-weeks-short =
+    { $count ->
+        [one] { $count } tyźeń
+        [two] { $count } tyźenja
+        [few] { $count } tyźenje
+       *[other] { $count } tyźenje
+    }
+x-months-short =
+    { $count ->
+        [one] { $count } mjasec
+        [two] { $count } mjaseca
+        [few] { $count } mjasece
+       *[other] { $count } mjasece
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } lěto
+        [two] { $count } lěśe
+        [few] { $count } lěta
+       *[other] { $count } lět
+    }
 
 ## Speak & Listen Shortcuts
 

@@ -107,7 +107,7 @@ report-bugs-link = Help report bugs
 
 ## Home Page
 home-title =
-  The Common Voice project is Mozilla’s initiative to help teach machines how real people speak.
+  Common Voice is Mozilla's initiative to help teach machines how real people speak.
 home-cta = Speak up, contribute here!
 wall-of-text-start =
   Voice is natural, voice is human. That’s why we’re fascinated with creating usable voice
@@ -147,6 +147,21 @@ hours-recorded = Hours Recorded
 hours-validated = Hours Validated
 read-terms-q = Have you read our Terms?
 ready-to-record = Ready to donate your voice?
+all-languages = All Languages
+today = Today
+x-weeks-short =
+  { $count ->
+    [one] Week
+    *[other] { $count }wk
+  }
+x-months-short =
+  { $count ->
+    *[other] { $count }mo
+  }
+x-years-short =
+  { $count ->
+    *[other] { $count }y
+  }
 
 ## Speak & Listen Shortcuts
 # Must be one letter that appears in the translated { skip } string.

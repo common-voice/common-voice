@@ -1,6 +1,6 @@
 {
     "name": "Common Voice",
-    "description": "The Common Voice project is Mozilla’s initiative to help teach machines how real people speak by receiving and validating voice donations.",
+    "description": "Common Voice is Mozilla's initiative to help teach machines how real people speak.",
     "repository": {
         "url": "https://github.com/mozilla/voice-web",
         "license": "MPL2",
