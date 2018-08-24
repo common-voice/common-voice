@@ -49,6 +49,25 @@ passport.deserializeUser((sessionUser: any, done: Function) =>
 );
 
 if (DOMAIN) {
+  Auth0Strategy.prototype.authorizationParams = function(options: any) {
+    var options = options || {};
+
+    var params: any = {};
+    if (options.connection && typeof options.connection === 'string') {
+      params.connection = options.connection;
+    }
+    if (options.audience && typeof options.audience === 'string') {
+      params.audience = options.audience;
+    }
+    if (options.prompt && typeof options.prompt === 'string') {
+      params.prompt = options.prompt;
+    }
+
+    params.action = 'signup';
+
+    return params;
+  };
+
   const strategy = new Auth0Strategy(
     {
       domain: DOMAIN,
