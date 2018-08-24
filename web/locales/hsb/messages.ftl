@@ -138,6 +138,7 @@ hours-recorded = Natočenske hodźiny
 hours-validated = Wobkrućene hodźiny
 read-terms-q = Sće naše wužiwanske wuměnjenja přečitał?
 ready-to-record = Sće hotowy, swój hłós darić?
+today = Dźensa
 
 ## Speak & Listen Shortcuts
 
