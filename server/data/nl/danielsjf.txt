@@ -921,7 +921,7 @@ Er zat helemaal geen structuur in zijn presentatie.
 De scheidsrechter had een grove fout gemaakt.
 Je kan dat per definitie niet op die manier uitwerken.
 Zij heeft een kat in een zak gekocht.
-Wol wordt gemaakt van de vacht van schapen.
+Er zijn vannacht enkele lammetjes geboren bij mijn opa.
 Een vlinder wordt geboren als een rups.
 Een kalf is het jong van een rund.
 Een mannelijk rund is een stier terwijl een vrouwelijk rund een koe is.
@@ -1135,7 +1135,7 @@ Dat is slechts een klein akkefietje.
 Is het glas halfvol of halfleeg?
 Zij is wel een pientere dame.
 Zei ze dat?
-Haar leven hing aan een zijden draadje.
+Ze zouden eens wat meer liedjes moeten draaien op de radio in plaats van altijd die commentaar.
 De vlieg vliegt.
 Ik hou niet van dat soort puberaal gedrag.
 Kunnen we hier even stoppen voor een kort toiletbezoek?
@@ -1675,7 +1675,7 @@ Het is een chihuahua, genoemd naar de gelijknamige Mexicaanse provincie Chihuahu
 Ken jij alle landen van Zuid-Amerika?
 Argentinië, Brazilië, Columbia en Venezuela zijn allemaal landen in Zuid-Amerika.
 De Verenigde Naties, afgekort als VN, is een internationaal orgaan.
-Hoe laat is het?
+Ik moet mijn dochter de borst gaan geven.
 Hoe laat gaan we vertrekken?
 Het is tijd om naar bed te gaan?
 Over een uurtje gaan we doorgaan.
@@ -1821,7 +1821,7 @@ De fiscus ziet erop toe dat de belastingen juist betaald worden.
 Ze is verdwaalt in het doolhof.
 Bij Cluedo is het de bedoeling om de moordenaar, het juiste moordwapen en de locatie van het misdrijf te achterhalen.
 De vacht van de kat is zacht.
-De kat krabt de krollen van de trap.
+De onderkant van haar jurk was vuil van over de grond te slepen.
 De Transsiberië Express is een treinverbinding die Moskou met Beijing verbindt.
 In negentienhonderdnegenenzestig is de eerste mens op de maan geland.
 Allemaal lachen voor de groepsfoto!
@@ -2348,7 +2348,7 @@ Ik heb oogdruppels nodig.
 Ik ben al lang niet meer naar een museum geweest.
 Ik moet mijn nagels nog eens knippen.
 Waar heb ik mijn loopschoenen gelegd?
-Gele ogen zijn een symptoom van leverfalen.
+Geel is mijn lievelingskleur.
 Je kan je kleren laten drogen op de wasrek.
 De sirene van het brandalarm maakt veel lawaai!
 Voor mij een ijsje op een hoorntje met twee bolletjes vanille.
@@ -3204,7 +3204,7 @@ Ik eet al meer groenten en fruit tegenwoordig.
 Dat is al een goed begin.
 De Beatles waren van Liverpool.
 Dat ligt dicht bij Manchester.
-Het gras is altijd groener aan de overkant.
+Mijn oma slaapt altijd met een haarnetje.
 Ze zijn momenteel bezig met de fundering van het gebouw.
 Hij onderging het allemaal zonder te morren.
 Ze heeft over de twee meter gesprongen bij het hoogspringen.
@@ -3284,7 +3284,7 @@ De stoel heeft krassen gemaakt op de vloer.
 Ik kan het dekbedovertrek niet vinden.
 Die term ken ik niet.
 Hij maakt alles te complex.
-Zij heeft een uitgebreide woordenschat.
+Hij heeft zijn thesis geschreven over kastelen in Europa, gebouwd tussen twaalfhonderd en dertienhonderd.
 Is dat de juiste terminologie?
 Is de elektricien al lang geweest?
 Die soort is geëvolueerd.
@@ -3407,7 +3407,7 @@ Ik ben mijn MacBook kwijt.
 Het scherm blijft zwart.
 Mijn computer start niet meer op.
 Ik denk dat mijn harde schijf om zeep is.
-Kan het dat mijn grafische kaart het begeven heeft?
+Kan het zijn dat mijn grafische kaart het begeven heeft?
 Ik heb een processor van Intel.
 Mijn grafische kaart is van Nvidia.
 Heb jij bitcoins?
@@ -3431,7 +3431,7 @@ Ik kan de slaap niet vatten.
 De Nokia drieëndertig tien was onverwoestbaar.
 Dat is een lopend onderzoek.
 Naar waar gaan jullie op reis?
-Op een appartement mag je geen barbecue met kolen gebruiken.
+Op het terras van een appartement mag je geen barbecue met kolen gebruiken.
 Ik barbecue graag in de zomer.
 Wij barbecueën graag 's avonds.
 De strijd is zinloos.
@@ -3477,13 +3477,13 @@ Heb je de Leeuwenkoning gezien?
 Het was een chaotisch begin van de week.
 Er zat een barst in de dam van het stuwmeer.
 Het was een grote chaos.
-Ze droeg een oude, versleten jeans.
+Ze droeg oude, versleten jeans.
 De huid was duidelijk geïrriteerd.
 Geïrriteerd liep hij naar huis.
 Aan de kassa vertelden ze haar dat gebruikte goederen niet gewisseld kunnen worden.
 De opbouw van het nummer kan beter.
 Door een probleem met het internet ben ik technisch werkloos.
-Het kind was verloren gelopen in de catacomben.
+Het kind was verdwaalt in de catacomben.
 Ik had het gezien in de catalogus.
 Ken jij de naam van de hoogste berg van Mars?
 Door een ongeval is de E19 volledig versperd.
@@ -3511,7 +3511,7 @@ Gelukkig kon hij het vuur doven met een brandblusser.
 Ik heb mijn curriculum vitae opgestuurd per post.
 We hebben verschillende musea bezocht.
 Ik ga nog even wat water halen.
-Één halen twee betalen.
+Één halen, twee betalen.
 Kan je werken met Word of PowerPoint?
 Ik heb er een litteken aan overgehouden.
 Ken je de hoofdwetten van de thermodynamica?
@@ -3535,7 +3535,7 @@ Als je over je limiet gaat verzuren je spieren.
 De beul liep naar de galg. 
 De pakkans is te laag.
 We gaan het debiet verhogen.
-De groeicijfers gaan in stijgende lijn.
+De groeicijfers gaan in een stijgende lijn.
 Kan je nog wat maandverband kopen? 
 De tampons zijn op.
 Mijn vrouw werkt bij een uitzendbureau.
@@ -3591,13 +3591,13 @@ In de bakkerij rook het naar vers gebakken brood.
 De slager gaf het kind een stukje worst.
 Ze kochten hun melk altijd rechtstreeks van de boer. 
 Iedere ochtend stond de boerin op om de koeien te melken.
-Ze had dat pikant detail nooit verteld.
+Ze had dat pikante detail nooit verteld.
 De saus was te pikant.
 Er mogen nog wat kruiden in de puree. 
 Het aantal politieagenten was buiten proportie. 
 Banken moeten zich melden bij de nationale bank.
 Ik heb een nieuwe keuken gekocht op krediet.
-Hoeveel kredietkaart heb jij?
+Hoeveel kredietkaarten heb jij?
 Ik heb een mastercard, een visa en een maestro kaart.
 In het buitenland kan je gemakkelijk betalen met een kredietkaart.
 Let op voor de hoge kosten op een visakaart.
@@ -3633,12 +3633,12 @@ Een kompas duidt steeds het noorden aan.
 Mijn gsm heeft een gyroscoop.
 Urenlang wist hij het zweefvliegtuig met thermiek in de lucht te houden.
 Ik zou nooit een kantoorbaan kunnen doen.
-Het team had op een half jaar het project voltooid.
+Het team had in een half jaar het project voltooid.
 Zij is een echte teamspeler. 
 De frisse lucht doet mij deugd.
 Haar ouders hebben de geldkraan dichtgedraaid.
 De temperatuur is terug gezakt.
-Ik heb monster onder de microscoop gelegd.
+Ik heb het monster onder de microscoop gelegd.
 Mijn baas stond op mijn vingers te kijken.
 Uiteindelijk is het gelukt om de verhuislift tegen het balkon te zetten.
 Het sportvliegtuigje scheerde over onze hoofden voor het begon aan een acrobatisch schouwspel.
@@ -3656,7 +3656,7 @@ Tijdens mijn studententijd heb ik leren jongleren met vijf balletjes tegelijk.
 Zonder de atmosfeer op aarde zouden we niet kunnen ademen.
 Honderden toeschouwers moeten het gezien hebben.
 Ze dachten allemaal dat het een vallende ster was.
-We moeten allemaal zelfzeker overkomen.
+We moeten allemaal zelfverzekerd overkomen.
 Een vrouw in een rode jurk zingt op het podium, tezamen met drie mannen die instrumenten bespelen.
 Bedankt om dit luidop te zeggen.
 Je hebt een mooie stem.
@@ -3676,7 +3676,7 @@ Heb jij als eens een escape game gedaan?
 De bedoeling is om uit de kamer te ontsnappen door gaandeweg puzzels op te lossen.
 Meestal duurt het ongeveer een uur.
 Als je er langer over doet komen ze je wel verlossen.
-Om hoe laat gingen ze je bellen?
+Hoe laat gingen ze je bellen?
 Leveren ze nog zo laat?
 Als je voor twaalf uur besteld brengen ze het de volgende dag.
 In Berlijn heb je zelfs een service met een levertijd van twee uur.
@@ -3699,7 +3699,7 @@ Waar ligt de Rode Zee?
 Nog twee dagen in Europa en dan steken we terug de Atlantische Oceaan over.
 De leerkracht maande hen aan om stil te zijn.
 Zijn jullie alweer aan het bekvechten?
-Nu stop toch eens met kibbelen. 
+Stop nu toch eens met kibbelen! 
 We moeten nog ruwweg vier kilometer wandelen.
 Ik kan het niet meer aan.
 Je mag geen dubbele ontkenning gebruiken.
@@ -3708,28 +3708,28 @@ Toch moet je een gevarieerde woordenschat in je testdata stoppen.
 Welke data zouden jullie kunnen?
 We moeten haar snel opereren.
 Ze heeft een blindedarmontsteking. 
-Het is belangrijk dat we er nu snel bijzijn.
-Aan het kruispunt moet je naar rechts afslaan.
-De auto was in panne gevallen op de oprit van de autostrade.
-Er is een tunnel voor fietsers.
-Neem de eerste afslag na de brug.
-Vanaf hier is het altijd rechtdoor.
-Het is de tweede afslag op het rond punt.
-Je moet de hoofdweg volgen.
-Het kasteel ligt aan het einde van de dreef.
-Ik vind het dopje niet.
-Niet alle zinnen worden gebruikt om het model te trainen.
-Sommige zinnen worden apart gehouden om het model te testen.
-Dit is een bekende statistische methode.
-Ik heb een vierkant getekend.
-Een vierkant heeft vier gelijke zijden en vier rechte hoeken.
-Een cirkel heeft geen hoeken.
-Je kan een passer gebruiken om een cirkel te tekenen.
-Dat brengt ons dichter bij elkaar.
-Met een geodriehoek kan je hoeken meten.
-Trek een lijn met je lat.
-De stelling van Pythagoras beschrijft de relatie tussen zijden in een driehoek.
-Eureka is bekend door het verhaal van Archimedes.
+Het is belangrijk dat we er nu snel bij zijn.
+De laptop lag op mijn schoot.
+Verveeld bladerde ik door het boek. 
+Zijn blik dwaalde af naar het afgebrande huis.
+Dat had ik je toch al gezegd.
+In mijn vrije tijd knutselde ik in de garage.
+Ik heb je diploma gevonden in een doos op de zolder.
+Geloof je hem nu echt?
+In tegenstelling tot hem ben ik wel betrouwbaar. 
+Ik kon niet veel herkennen in het schilderij.
+Dat is weer zo'n geval van artistieke vrijheid.
+Ik ga de dorre bladeren van de boom knippen.
+Je moet de aloë vera wekelijks water geven.
+Er staat een palmboom in de tuin. 
+Pak je even een sponsje voor mij?
+Wat peterselie erop zou het nog beter maken.
+Er mist nog een detail.
+Ze haalde diep adem, concentreerde zich volledig op het doelwit en haalde op een bijna mechanische manier de trekker over.
+Servië en Kosovo komen niet al te best overeen.
+Welke landen behoren tot de Balkan?
+Tirana is de hoofdstad van Albanië.
+Ik kan toch een vijftigtal keer pompen.
 Ze ergert zich aan de trage computer.
 Mijn oude tablet creëert enkel ergernissen.
 De bloempot is gebarsten nadat hij op de grond viel. 
@@ -3809,10 +3809,14 @@ Ik zou hier die tabel invoegen.
 Naarstig werkte hij verder alsof er niets was gebeurd.
 Ik heb daar een app voor op mijn telefoon. 
 Mijn speekselklieren zijn gezwollen.
-Een ronde kamer heeft geen hoeken.
+Iedere week ga ik naar de fitness.
 Dit is de steilste afdaling die ik ooit gezien heb.
 Welk beleg heb je op je boterhammen gedaan?
 Ik heb boterhammen met boter en kaas meegenomen.
 Wat heeft u van speciaalbieren?
 Ik kan je een Leffe of een Grimbergen aanbieden.
 Heb je ook een Heineken?
+Ik train altijd mijn buikspieren.
+Met gewichten oefen ik mijn armspieren.
+'s avonds lig ik een vijftal minuten in een plankhouding om mijn spieren te versterken.
+Ze had een krachtige handdruk.
