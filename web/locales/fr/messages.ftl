@@ -135,6 +135,8 @@ speak-paragraph = L’enregistrement d’échantillons de voix fait partie inté
 hours-recorded = Heures d’enregistrement
 hours-validated = Heures validées
 read-terms-q = Avez-vous lu les conditions d’utilisation ?
+all-languages = Toutes les langues
+today = Aujourd’hui
 
 ## Speak & Listen Shortcuts
 
