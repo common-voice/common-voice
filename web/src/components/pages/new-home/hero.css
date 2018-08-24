@@ -263,6 +263,10 @@
         pointer-events: none;
     }
 
+    &.listen .fading {
+        transform: scaleX(-1);
+    }
+
     & a.terms {
         margin-top: 20px;
         display: block;
