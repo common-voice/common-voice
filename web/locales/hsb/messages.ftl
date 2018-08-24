@@ -139,6 +139,27 @@ hours-validated = Wobkrućene hodźiny
 read-terms-q = Sće naše wužiwanske wuměnjenja přečitał?
 ready-to-record = Sće hotowy, swój hłós darić?
 today = Dźensa
+x-weeks-short =
+    { $count ->
+        [one] { $count } tydźeń
+        [two] { $count } njedźeli
+        [few] { $count } njedźele
+       *[other] { $count } njedźel
+    }
+x-months-short =
+    { $count ->
+        [one] { $count } měsac
+        [two] { $count } měsacaj
+        [few] { $count } měsacy
+       *[other] { $count } měsacow
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } lěto
+        [two] { $count } lěće
+        [few] { $count } lěta
+       *[other] { $count } lět
+    }
 
 ## Speak & Listen Shortcuts
 
