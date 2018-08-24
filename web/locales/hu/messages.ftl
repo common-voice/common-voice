@@ -144,6 +144,23 @@ hours-recorded = Rögzített órák
 hours-validated = Ellenőrzött órák
 read-terms-q = Elolvasta a feltételeinket?
 ready-to-record = Készen áll, hogy a hangját adja?
+all-languages = Összes nyelv
+today = Ma
+x-weeks-short =
+    { $count ->
+        [one] Hét
+       *[other] { $count } hét
+    }
+x-months-short =
+    { $count ->
+        [one] { $count } hó
+       *[other] { $count } hó
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } év
+       *[other] { $count } év
+    }
 
 ## Speak & Listen Shortcuts
 
