@@ -133,6 +133,10 @@ no-clips-to-validate = Vyzerá to tak, že vo vašom jazyku nie sú k dispozíci
 vote-yes = Áno
 vote-no = Nie
 toggle-play-tooltip = Stlačením { shortcut-play-toggle } spustíte režim prehrávania
+speak-subtitle = Prispejte svojim hlasom
+read-terms-q = Čítali ste naše podmienky používania?
+all-languages = Všetky jazyky
+today = Dnes
 
 ## Speak & Listen Shortcuts
 
@@ -321,7 +325,6 @@ request-language-success-content = Čoskoro vám dáme vedieť, ako môžete pri
 language-section-in-progress = Jazyky, ktoré sa pripravujú
 language-section-in-progress-description = Tieto jazyky momentálne naše komunity pripravujú na prispievanie. Ich pokrok zobrazuje, ako ďaleko sú s prekladom stránky a so zberom viet.
 language-section-launched = Spustené
-language-section-launched-description = Pre tieto jazyky bola preložená webová stránka a zozbierali sme dostatok viet. To umožní našim prispievateľom efektívne sa zapojiť.
 languages-show-more = Zobraziť viac
 languages-show-less = Zobraziť menej
 language-speakers = Počet hovoriacich
@@ -342,7 +345,6 @@ contribute = Zapojte sa
 listen = Počúvajte
 skip = Preskočiť
 shortcuts = Skratky
-clips = Klipy
 goal-help-recording = Pomohli ste projektu Common Voice dosiahnuť <goalPercentage></goalPercentage> z nášho denného cieľa { $goalValue } nahrávok!
 goal-help-validation = Pomohli ste projektu Common Voice dosiahnuť <goalPercentage></goalPercentage> z nášho denného cieľa { $goalValue } kontrol!
 contribute-more =
