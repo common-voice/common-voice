@@ -26,29 +26,53 @@
             flex-direction: row;
         }
 
-        & select {
-            border: 1px solid color(var(--black) alpha(10%));
-            border-radius: 1000px;
-            max-height: 50px;
-            padding: 13px 22px;
-            box-sizing: border-box;
-            appearance: none;
+        & .select {
+            position: relative;
 
-            font-family: var(--base-font-family);
-            text-transform: uppercase;
-            letter-spacing: 0.8px;
-            font-weight: 600;
-            font-size: 14px;
+            & .current {
+                border: 1px solid color(var(--black) alpha(10%));
+                border-radius: 1000px;
+                max-height: 50px;
+                min-width: 220px;
+                padding: 13px 22px;
+                box-sizing: border-box;
 
-            background: url('/img/down-arrow.svg') no-repeat 90% center;
-            background-size: 10px;
+                font-family: var(--base-font-family);
+                text-transform: uppercase;
+                letter-spacing: 0.8px;
+                font-weight: 600;
+                font-size: 14px;
 
-            @media (--md-down) {
-                margin-top: 15px;
+                background: url('/img/down-arrow.svg') no-repeat 90% center;
+                background-size: 10px;
+
+                @media (--md-down) {
+                    margin-top: 15px;
+                }
             }
 
-            &:focus {
-                outline: none;
+            & ul {
+                margin: 0;
+                padding: 0;
+                max-height: 400px;
+                width: 100%;
+                position: absolute;
+                background: var(--white);
+                list-style: none;
+                overflow: auto;
+
+                & li {
+                    cursor: pointer;
+                    padding: 13px 22px;
+
+                    &.selected {
+                        font-weight: 600;
+                    }
+
+                    &.highlighted {
+                        background: var(--light-grey);
+                    }
+                }
             }
         }
     }

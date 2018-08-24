@@ -147,6 +147,7 @@ hours-recorded = Hours Recorded
 hours-validated = Hours Validated
 read-terms-q = Have you read our Terms?
 ready-to-record = Ready to donate your voice?
+all-languages = All Languages
 today = Today
 x-weeks-short =
   { $count ->
