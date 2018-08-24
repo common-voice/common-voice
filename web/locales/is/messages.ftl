@@ -135,6 +135,8 @@ no-clips-to-validate = Svo virðist sem engar hljóðskrár séu til staðar á 
 vote-yes = Já
 vote-no = Nei
 toggle-play-tooltip = Veldu { shortcut-play-toggle } til þess að skipta um afspilunarham
+speak-subtitle = Gefðu raddsýnishorn
+speak-paragraph = Hljóðritun raddgagna er órofa partur af þróun gagnapakkans okkar; sumir myndu líka segja að það væri skemmtilegi parturinn.
 
 ## Speak & Listen Shortcuts
 
