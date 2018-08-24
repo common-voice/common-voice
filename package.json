@@ -52,10 +52,10 @@
     "express-promise-router": "^3.0.1",
     "express-session": "^1.15.6",
     "ff": "0.2.2",
-    "fluent": "^0.4.3",
+    "fluent": "^0.8.0",
     "fluent-intl-polyfill": "^0.1.0",
     "fluent-langneg": "^0.1.0",
-    "fluent-react": "^0.7.0",
+    "fluent-react": "^0.8.1",
     "fluent-syntax": "^0.8.1",
     "focus-visible": "^4.1.4",
     "glob": "7.1.2 ",
@@ -116,9 +116,6 @@
     "pre-commit": "^1.2.2",
     "react-dev-utils": "^5.0.1",
     "webpack-bundle-analyzer": "^2.13.1"
-  },
-  "resolutions": {
-    "fluent": "0.4.3"
   },
   "engines": {
     "node": ">=8.9.0"

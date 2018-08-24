@@ -1282,6 +1282,10 @@ cache-base@^1.0.1:
     union-value "^1.0.0"
     unset-value "^1.0.0"
 
+cached-iterable@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/cached-iterable/-/cached-iterable-0.2.1.tgz#723958f5e7adc74c96bedb10b426bdfd95f2fe6d"
+
 caller-path@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/caller-path/-/caller-path-0.1.0.tgz#94085ef63581ecd3daa92444a8fe94e82577751f"
@@ -3073,20 +3077,25 @@ fluent-langneg@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/fluent-langneg/-/fluent-langneg-0.1.0.tgz#aa12054fbfa4b728daec38331efc12f01faae93a"
 
-fluent-react@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/fluent-react/-/fluent-react-0.7.0.tgz#52b499fca4c5163ccaf4b5155bd5486feed0e4c1"
+fluent-react@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/fluent-react/-/fluent-react-0.8.0.tgz#9b13588791b010c04a55e8b85114625f400fd969"
   dependencies:
-    fluent "^0.4.0 || ^0.6.0"
+    cached-iterable "^0.2.1"
+    fluent-sequence "^0.2.0"
     prop-types "^15.6.0"
+
+fluent-sequence@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/fluent-sequence/-/fluent-sequence-0.2.0.tgz#f351d93e0194182de60c6d5dfbdb3c96772813f8"
 
 fluent-syntax@^0.8.1:
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/fluent-syntax/-/fluent-syntax-0.8.1.tgz#02eddd4861b453e614e071016dea3d4395b27f6e"
 
-fluent@0.4.3, "fluent@^0.4.0 || ^0.6.0", fluent@^0.4.3:
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/fluent/-/fluent-0.4.3.tgz#a9c55994c96faecdbdd05698e07c8f2c06e72df2"
+fluent@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/fluent/-/fluent-0.8.0.tgz#2a0909e5910313581f5c0d108ed2163d9e080111"
 
 flush-write-stream@^1.0.0:
   version "1.0.2"

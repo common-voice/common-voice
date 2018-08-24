@@ -114,7 +114,7 @@ class HomePage extends React.Component<Props, State> {
                   </CardAction>
                 ) : (
                   messagesGenerator && (
-                    <LocalizationProvider messages={messagesGenerator}>
+                    <LocalizationProvider bundles={messagesGenerator}>
                       <React.Fragment>
                         <Localized id="get-involved-button">
                           <CardAction

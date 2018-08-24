@@ -170,7 +170,7 @@ class LocalizationBox extends React.PureComponent<Props, State> {
     return (
       <React.Fragment>
         {this.state.showModal && (
-          <LocalizationProvider messages={this.buildMessagesGenerator()}>
+          <LocalizationProvider bundles={this.buildMessagesGenerator()}>
             <GetInvolvedModal
               locale={locale}
               onRequestClose={this.toggleModal}
@@ -194,7 +194,7 @@ class LocalizationBox extends React.PureComponent<Props, State> {
             progress={this.props.sentencesCount}
             progressTotal={SENTENCE_COUNT_TARGET}
             onClick={this.toggleModal}>
-            <LocalizationProvider messages={this.buildMessagesGenerator()}>
+            <LocalizationProvider bundles={this.buildMessagesGenerator()}>
               <Localized id="get-involved-button">
                 <span />
               </Localized>
@@ -219,7 +219,7 @@ class LocalizationBox extends React.PureComponent<Props, State> {
             formatProgress={formatSeconds}
             progressSecondary
             onClick={this.goToContribute}>
-            <LocalizationProvider messages={this.buildMessagesGenerator()}>
+            <LocalizationProvider bundles={this.buildMessagesGenerator()}>
               <Localized id="contribute">
                 <span />
               </Localized>

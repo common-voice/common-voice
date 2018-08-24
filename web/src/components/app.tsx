@@ -228,7 +228,7 @@ const LocalizedLayout: any = withRouter(
                         }
                   }
                 />
-                <LocalizationProvider messages={messagesGenerator}>
+                <LocalizationProvider bundles={messagesGenerator}>
                   <div>
                     <div className="notifications">
                       {notifications
