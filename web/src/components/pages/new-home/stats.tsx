@@ -358,9 +358,7 @@ export namespace ClipsStats {
               </React.Fragment>
             );
           }}
-          renderXTickLabel={({ date }, i) =>
-            i % 2 === 0 && new Date(date).toLocaleDateString()
-          }
+          renderXTickLabel={({ date }) => new Date(date).toLocaleDateString()}
           tickCount={TICK_COUNT}>
           {state => (
             <React.Fragment>
