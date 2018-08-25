@@ -539,9 +539,9 @@ Je moet in elk geval even langskomen om mijn nieuwe badkamer te zien.
 Mijn verontschuldiging, ik dacht dat jullie al open waren.
 Plaatselijk valt er flink wat regen.
 De buren waren aan het klagen over de stank.
-De nieuwe partij had onverwacht de meerderheid gekregen in de tweede kamer.
+De nieuwe partij had onverwacht de meerderheid gekregen in de Tweede Kamer.
 Ik moet je nog wat vertellen over dit gedeelte van het huis.
-Welterusten zei de moeder tegen haar kinderen.
+"Welterusten" zei de moeder tegen haar kinderen.
 Is het wel slim om de koffie onder de wasbak te bewaren?
 De kat sprong in het gordijn.
 Dat is eigenaardig, mijn computer doet nooit zoiets geks.
@@ -619,7 +619,7 @@ Je kan van me aannemen dat de vakantie erg geslaagd was.
 Het verlies van het bedrijf was zo ver opgelopen dat ze failliet gingen.
 De agent sprak de bestuurder aan op het roekeloze gedrag.
 Eventjes dachten we een regenboog te zien.
-Na het aftreden van de CEO kwam de CFO meer naar de voorgrond.
+Na het aftreden van de directeur kwam de manager meer naar de voorgrond.
 Ben je volkomen zeker van je zaak?
 Ik zal de laptop even je voor je instellen.
 Zal ik die afspraak even verzetten?
@@ -671,7 +671,7 @@ De persoonlijkheid van de buurman lag niet in één lijn met die van mij.
 De kinderen voerden de opdracht uit die ze op school hadden gekregen.
 Nader onderzoek was nodig om de moord op te lossen.
 Wat kan het mij schelen?
-Feitelijk was er niet aan de hand.
+Feitelijk was er niets aan de hand.
 Het was een stoere meid, ze hield niet van de kleur roze.
 Wat voor schade kan een orkaan veroorzaken?
 We kunnen uitzien naar een leuke wintersport.
@@ -691,7 +691,7 @@ De vangrail had voorkomen dat de motor in het ravijn viel.
 De kentekenplaat lag na het ongeluk op het asfalt.
 De regering denkt de belasting volgend jaar te moeten verhogen.
 Heb je een eigen onderneming of ben je in loondienst?
-Het hoogste doel van de verenigde naties is vrede.
+Het hoogste doel van de Verenigde Naties is vrede.
 Een kans op zo'n mooie baan moet je grijpen!
 Door haar spullen te verhuren had ze nog wat inkomen.
 Ze had wat saus op haar blouse gemorst.
@@ -715,7 +715,7 @@ De grafische kaart komt volgende maand in de winkel.
 De browser was vastgelopen en moest opnieuw opgestart worden.
 Wil je nog een drankje doen vanavond?
 De bodemverontreiniging bij het benzinestation moest opgeruimd worden.
-De bom uit de tweede wereld oorlog werd op het strand tot ontploffing gebracht.
+De bom uit de Tweede Wereldoorlog werd op het strand tot ontploffing gebracht.
 Ga je ook naar het feest dit weekend?
 De inlichtingendienst onderschepte de telefoontjes van een crimineel.
 Er ging tijdens de uitverkoop veel geld over de toonbank.
@@ -757,7 +757,7 @@ De soap werd door miljoenen mensen bekeken.
 Kan je een nieuw account voor me aanmaken?
 De architect maakte de ontwerpen eerst met potlood.
 De regering van sommige landen is corrupt.
-Het accent van de man verraad dat hij uit het noorden komt.
+Het accent van de man verraadt dat hij uit het noorden komt.
 Schilderen kan je leren door een cursus te nemen.
 De manager ondersteund het proces.
 Een Amerikaans paspoort is wat veel mensen willen.
@@ -898,13 +898,13 @@ Ze schildert alleen met felle kleuren.
 De lucht is helder; de sterren fonkelen.
 Wij zijn nog nooit in Azië geweest.
 Hoeveel groente eet jij per dag?
-Het geweld in sommige landen kennelijk een groot probleem.
+Het geweld is in sommige landen kennelijk een groot probleem.
 Landbouw was een grote factor in het ontstaan van de huidige wereld.
 De leerling was het niet eens met de leraar.
 Het jacht lag in de haven, het was wel twintig meter lang.
 De kermis was een week in het dorp.
 Ik wil je bedanken voor het bedrag dat je me gaf.
-De benzine is absoluut een stuk duurder geworden.
+De benzine is een stuk duurder geworden.
 Als je die specifieke arts wil zien moet je dat aanvragen.
 De vader moest het scherpe object afpakken van zijn zoontje.
 De typemachine werd eigenlijk nooit meer gebruikt.
@@ -917,8 +917,8 @@ Het slachtoffer kreeg hulp van een psychiater.
 Tijdens Kerstmis zijn er gewoonlijk minder winkels open.
 De paashaas wordt steeds populairder tijdens Pasen.
 De dromen waren heel vreemd.
-Het meisje moest huilen, ze dacht dat haar vader weg was.
-De werkzaamheden zorgden voor een ontstopping in het verkeer.
+Het meisje moest huilen want ze dacht dat haar vader weg was.
+De werkzaamheden zorgden voor een opstopping in het verkeer.
 De voorstelling begint om acht uur.
 De offerte was gemaakt door een junior verkoper.
 De vacature was voor een medior developer.
@@ -926,7 +926,7 @@ Eigenlijk hebben we voor deze uitdaging een senior nodig.
 Kan je de offertes doorsturen?
 Maak me wakker om zeven uur morgen.
 Zet een timer voor tien seconden.
-Hoeveel tijd is er nog resterend op mijn timer?
+Hoeveel tijd resteert er nog op mijn timer?
 Wat is de datum?
 Hoe laat is mijn wekker gezet?
 Verwijder mijn wekker.
@@ -936,7 +936,7 @@ Gaat het regenen maandag?
 Wat is het weer in Arnhem?
 Het tijdschrift wordt op bijna alle locaties verkocht.
 De doodskist was uitgebreid versiert.
-Door de dichte sluisdeuren kon het vrachtschip niet verder.
+Door de gesloten sluisdeuren kon het vrachtschip niet verder.
 Het binnenvaartschip lag vol met kolen.
 De processor heeft een kloksnelheid van twee komma acht gigahertz.
 Je kan best ver inzoomen op de kaart.
@@ -945,7 +945,7 @@ Het kladblok stond vol met aantekeningen.
 Zet je ideeën maar op het whiteboard in de gang.
 Het systeemplafond was ingezakt door de waterschade.
 De schilder plakte het plafond af voordat hij verder ging met schilderen.
-De producer van de hit had al meer top tien muziek gemaakt.
+De producer van de hit had al meer top-tien muziek gemaakt.
 Die donuts zijn de grootste vijand van mijn dieet.
 De man typte op een mechanisch toetsenbord.
 De verpleegster hechtte de wond.
@@ -956,7 +956,7 @@ Het stoute jongetje werd door zijn oma gestraft.
 Het regelen van het afscheidsfeest kost veel tijd.
 De klinkers van de straat werden vervangen door asfalt.
 Wil je aspergesoep of tomatensoep?
-De toets werd goed gemaakt door de leerlingen.
+Alle leerlingen scoorden goed op de toets.
 De juf van groep drie heet Eva.
 De meester van groep acht werkt tweeëndertig uur per week.
 De stroom was in heel de stad was voor een uur uitgevallen.
@@ -981,18 +981,18 @@ De slaapkamer was bezaaid met kleding.
 We gaan morgen vliegen naar Marokko.
 Het plan was nogal politiek controversieel.
 Peter is een universitair docent aan de Universiteit Leiden.
-Het heeft mij verbaasd dat het gebruik van die zware pijnstiller zo snel is gestegen.
-We hebben in dit land afgesproken dat de arts over het voorschrijven van medicijnen gaat en dat wil ik dat graag zo houden.
+Het verbaasd mij dat het gebruik van die zware pijnstiller zo snel is gestegen.
+We hebben in dit land afgesproken dat de arts over het voorschrijven van medicijnen beslist en dat wil ik dat graag zo houden.
 In de digitale industrie is je laptop je gereedschap.
 Het beschermen van de bij is de laatste jaren een prioriteit geworden.
 Hij heeft zich flink verbrand in de zon.
 De ruzie was ontstaan door een simpel misverstand.
 Hij gaat het morgen uitmaken met zijn vriendin.
-Ik zal geen traan laten bij het verkopen van mijn auto, hij ging elke keer kapot.
+Ik zal geen traan laten bij het verkopen van mijn auto.
 De pers had zich in Den Haag verzameld voor een persconferentie.
 We wekken hotelgasten als ze dat vragen.
 Het gebouw zag er modern uit.
-Hij kwam de kamer binnen, zogenaamd  om een praatje te maken.
+Hij kwam de kamer binnen, zogenaamd om een praatje te maken.
 Ik hoop dat de wetenschap de komende jaren een medicijn tegen kanker vindt.
 Ik ben mijn motor aan het poetsen, hij gaat mooi glimmen!
 Het modaal inkomen per huishouden is bijna veertig duizend euro.
@@ -1005,7 +1005,7 @@ De trap van de Domtoren heeft vierhonderdvijfenzestig treden.
 Kan je morgen wat eten meebrengen naar de borrel?
 Op het balkon stond een pot met bloemen.
 Met zijn pijl en boog mikte hij op de roos.
-Het schot van de pistool was zeer luid.
+Het schot van het pistool was zeer luid.
 Waar gaat de bruiloft plaatsvinden?
 De toestand van Syrië is zeer slecht.
 Er zat een dun laagje paneermeel op de schnitzel.
@@ -1058,7 +1058,7 @@ Kan je nog wel op tijd opstaan met dat nieuwe matras?
 Het overlijden van zijn grootmoeder was een treurig moment.
 Ik moet nog even opmerken dat we genoten hebben van het concert.
 Woedeaanvallen zitten nu eenmaal in zijn karakter.
-Ik zou maar uitkijken als op safari gaat.
+Ik zou maar uitkijken als je op safari gaat.
 Hij was door het backpacken erg mager geworden.
 Zullen we vanavond voetballen?
 Als we dit dal door zijn komen we op de camping aan.
@@ -1068,10 +1068,10 @@ Die trouwerij is een belangrijke gebeurtenis.
 Intussen was het hele huis verwoest door de bosbrand.
 In dat studentenhuis is bijna alles gemeenschappelijk.
 Wacht even, ik kom dadelijk wel.
-Het pak suiker is duizend gram.
+Het pak suiker weegt duizend gram.
 De wijkverpleegster deed de kous aan bij de mevrouw.
-We hebben moeten constateren dat er veel geld verspild worden.
-Je moet de sinaasappelsap eerst even schudden.
+We hebben moeten constateren dat er veel geld verspild wordt.
+Je moet de fles sinaasappelsap eerst even schudden.
 Is het wel verstandig om in je eentje te gaan liften?
 Het is met de lage rentestand erg gunstig om een huis te kopen.
 Martin komt ons salesteam versterken.
@@ -1083,10 +1083,10 @@ Hoe goed kan je schieten met pijl en boog?
 De mensen achter de dijk hoeven niet te vrezen voor overstromingen.
 We willen onze eigen nieuwbouw project realiseren.
 Om een eigen computer te bouwen moet je het een en ander uitzoeken.
-De dokter vroeg hem even uit te kleden.
+De dokter vroeg hem om zich even uit te kleden.
 Het uitzicht bovenop de toren was schitterend.
-Hij is vandaag uit zijn huis gezet, hij betaalde de huur namelijk niet.
-Mag ik een grote portie frites van u?
+De bank is dicht, het is namelijk na zes uur.
+Mag ik een grote portie patat van u?
 Ik ben erg nieuwsgierig naar de nieuwste uitgave.
 Mijn maat is door mijn dieet kleiner geworden.
 Ze verkopen daar hoofdzakelijk duurzame producten.
@@ -1105,7 +1105,7 @@ Sla is een belangrijk onderdeel van salade.
 Met Pinksteren is bijna iedereen vrij.
 De stal stond vol met scharrelkippen.
 Wegens omstandigheden zijn we gesloten.
-Onze kinderen zijn nog verschillend van elkaar.
+Onze kinderen zijn nogal verschillend van elkaar.
 Ik kan je niet eens meer aankijken!
 Het bord was haastig voor de deur gehangen.
 Hier moeten we uitstappen.
@@ -1162,7 +1162,7 @@ Ik registreerde me gisteren voor dat nieuwbouwproject.
 Aan de kassa hoorde ik hoeveel ik kwijt was.
 De criticus kon zelf niet goed met kritiek omgaan.
 De bende zorgde voor veel gestolen portemonnees.
-Tussen kunst en kitch vindt ik erg leuk om te kijken.
+"Tussen kunst en kitch" vind ik erg leuk om te kijken.
 Er moeten nog elk jaar bommen onschadelijk worden gemaakt.
 Kaften wordt op de meeste middelbare scholen verplicht.
 Als archeoloog doe je diepgravend onderzoek.
@@ -1179,7 +1179,7 @@ Ik woon liever op het platteland dan in stedelijk gebied.
 In Hilversum worden veel televisieprogramma's gemaakt.
 De vliegende schotel werd door iedereen gezien.
 Op het scorebord kan je zien dat de teams gelijk staan.
-Op de elfde verdieping zit ons bedrijf.
+Ons bedrijf zit op de elfde verdieping.
 Hij verloor zichzelf in de virtuele wereld.
 Kan ik een prijsopgave krijgen?
 Ik zit nog steeds opgezadeld met een overschot aan appels.
@@ -1187,9 +1187,9 @@ Het gasfornuis heeft een knopje om de vlam te ontsteken.
 Uit de koelkast kwam een vreemde geur.
 Het was mijn jongensdroom om een reis om de wereld te maken.
 Hoeveel gaat het kosten om die pakketten te versturen?
-Het milieubeleid richt zich op CO2 verlaging.
+Het milieubeleid richt zich op koolstofdioxide verlaging.
 Deze melk is maar kort houdbaar.
-De databases hadden elk een eigen backup.
+De databases hadden elk een eigen back-up.
 Ze sliepen de hele reis op de achterbank.
 Mijn concentratie is meestal erg laag rond vier uur.
 De handboeien zaten erg strak om zijn handen heen.
