@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = A si, ca ka kua ko. Common Voice Project kong theih ka duh.
-stayintouch = Holh phun kip in computer a ngahnak ding hi kan nih Mozilla kampani nih kan i tinh mi cu asi. Zei ti in dah hihi na hman timi le thilthar pawl kan ngeih tik ah in chimh ve kan duh. 
+stayintouch = Holh phun kip in computer a ngahnak ding hi kan nih Mozilla kampani nih kan i tinh mi cu asi. Zei ti in dah hihi na hman timi le thilthar pawl kan ngeih tik ah in chimh ve kan duh.
 privacy-info = Nangmah kong midang kan theih ter hna lai lo. <privacyLink>Privacy Notice</privacyLink> ah hin rel chap.
 return-to-cv = Common Voice ah kir
 email-input =
@@ -16,7 +16,7 @@ loading = Thunlio...
 ## Languages
 
 an = Aragon holh (Spain)
-ar = Arabic holh 
+ar = Arabic holh
 as = Assam holh
 ast = Asturia holh (Spain)
 az = Azerbaijan holh
@@ -69,7 +69,7 @@ pt-BR = Portugal holh (Brazil)
 rm = Canton of Graubünden khua holh
 ro = Romania holh
 ru = Russia holh
-sah = Sakha holh (Yakut) 
+sah = Sakha holh (Yakut)
 sk = Slovakia holh
 sl = Slovenia holh
 sq = Albania holh
@@ -79,11 +79,11 @@ ta = Tamil holh (India)
 te = Telugu holh (India)
 th = Thailand holh
 tr = Turkey holh
-tt = Tatar holh (Russia) 
+tt = Tatar holh (Russia)
 uk = Ukraine holh
 ur = Urdu holh
 uz = Uzbekistan holh
-zh-CN = Tiluk holh 
+zh-CN = Tiluk holh
 zh-HK = China holh (Hong Kong)
 zh-TW = China holh (Taiwan)
 
@@ -109,7 +109,7 @@ share-text = Minung an holh ning computer chim ve, na Aw van khum { $link }
 link-copied = Link aa khawpi cang
 back-top = A cung ah kir
 contribution-banner-text = Thil thar kan van thlah ṭhan.
-contribution-banner-button = Van zoh 
+contribution-banner-button = Van zoh
 report-bugs-link = A  ṭha lo mi kan chim
 
 ## Home Page
@@ -117,7 +117,7 @@ report-bugs-link = A  ṭha lo mi kan chim
 home-title = Common Voice rian cu Mozilla nih tuahmi, zei ti in dah minung an holh ti computer chimhnak asi.
 home-cta = Na aw hi ka hin tuun!
 wall-of-text-start = Aw cu kokek a si, Aw cu minung a si. Cucaah cun computer ah hman khawh dingmi Laiholh ser lai hi kan i ngaih tuk. Hi kan tuah khawhnak ding caah cun, Aw hi tamtuk hringhren kan herh.
-wall-of-text-more-mobile = Kampani lianngan tampi nih an tuah tawn mi hi mitam deuh caah cun hmankhawh an si lo. Cucu ṭhanchonak caah hin thawphit tu a si ti kan ruah. Cucaah, Project Common Voice timi hi mi vialte nih an holh cio in computer an hman khawh nak ding caah kan tuah mi a si.  
+wall-of-text-more-mobile = Kampani lianngan tampi nih an tuah tawn mi hi mitam deuh caah cun hmankhawh an si lo. Cucu ṭhanchonak caah hin thawphit tu a si ti kan ruah. Cucaah, Project Common Voice timi hi mi vialte nih an holh cio in computer an hman khawh nak ding caah kan tuah mi a si.
 wall-of-text-more-desktop = Mikip nih an hman khawh ding mi Aw rak kan tuun piak ve. <lineBreak></lineBreak> Minung an holh ning computer chimh ding ah biatlang hi rel. Midang nih an chimcia zong chek ṭhan. A fawi te!
 show-wall-of-text = Rel Chap
 help-us-title = Biatlang an chimmi a hman le hman lo chek kan bawm!
@@ -126,6 +126,23 @@ no-clips-to-validate = Hi holh in cun ngaih ding mi hi zei hmanh a um lo. Ngaih 
 vote-yes = A si
 vote-no = A si lo
 toggle-play-tooltip = lentecalh nakah  { shortcut-play-toggle } hmet.
+all-languages = Holh phun dih lak
+today = Nihin
+x-weeks-short =
+    { $count ->
+        [one] Zarh
+       *[other] { $count }zarh
+    }
+x-months-short =
+    { $count ->
+        [one] thla
+       *[other] { $count }thla
+    }
+x-years-short =
+    { $count ->
+        [one] kum
+       *[other] { $count }kum
+    }
 
 ## Speak & Listen Shortcuts
 
@@ -190,13 +207,13 @@ female = Nu
 # Gender
 other = Adang
 why-profile-title = Zeiruang ah keimah kong cu a herh?
-why-profile-text = Nangmah konglam kan theihnak thawngin Common Voice nih AW ttha deuh le hman deuh in a theih khawh lai. 
+why-profile-text = Nangmah konglam kan theihnak thawngin Common Voice nih AW ttha deuh le hman deuh in a theih khawh lai.
 edit-profile = Nangmah kong remhnak
 profile-create = Nangmah kong chimhnak
 profile-create-success = A tlamtling, nangmah kong na ser khawh!
 profile-close = Phit
-profile-clear-modal = Nangmah kong na hlonh ah cun Commmon Voice ah nangmah konglam le na tuun cia vialte aa hlonh dih lai. 
-profile-explanation = Nangmah kong ah na tuahcia vialte zoh law, Aw kan lak mi vialte a hman deuhnak ding in kan bawm. 
+profile-clear-modal = Nangmah kong na hlonh ah cun Commmon Voice ah nangmah konglam le na tuun cia vialte aa hlonh dih lai.
+profile-explanation = Nangmah kong ah na tuahcia vialte zoh law, Aw kan lak mi vialte a hman deuhnak ding in kan bawm.
 
 ## FAQ
 
@@ -208,17 +225,17 @@ faq-important-a = Aw cu kokek a si, Aw cu minung a si. I chawnh khanh nak caah a
 faq-get-q = Common Voice data hi zei tin dah ka lak khawh lai?
 faq-get-a = Dataset cu thuntlen a ngah <downloadLink> thuntlen nak</downloadLink> i a tang<licenseLink>CC-0</licenseLink> laisen.
 faq-mission-q = Zei ruang ah dah Common Voice hi Mozilla nih aa tinhmi rian asi ve?
-faq-mission-a = Mozilla cu mikip nih computer an hman khawhnak ding hi biatak tein aa hmaithlak. Cu caah cun website a sertu pawl hi thazang pek a duhnak langhternak caah Common Voice hi a ser. Computer nih holh thiamnak a theih ning hi a sang tuk hringhren cang, cu caah cun mikip nih an holh in ngah ve hna seh ti kan duh. Aw-lei thiamnak hi miphun kip talh in holh in siseh, aw-cawi in siseh, miphun in siseh, talh chih dih kan duh. Mozilla nih cun a ngandammi le aa tlerh ngai mi internet hi hmuh a duh. Cucu website a sertu nih an website sunglawi taktak in an ser khawh hna hnga Aw-data ti bantuk hi serpiak asi. Common Voice cu Mozilla, kan mah, le website a sertu vawlei cung um vialte caah mipi nih ngeih mi thilri sunglawi pakhat asi lai. 
+faq-mission-a = Mozilla cu mikip nih computer an hman khawhnak ding hi biatak tein aa hmaithlak. Cu caah cun website a sertu pawl hi thazang pek a duhnak langhternak caah Common Voice hi a ser. Computer nih holh thiamnak a theih ning hi a sang tuk hringhren cang, cu caah cun mikip nih an holh in ngah ve hna seh ti kan duh. Aw-lei thiamnak hi miphun kip talh in holh in siseh, aw-cawi in siseh, miphun in siseh, talh chih dih kan duh. Mozilla nih cun a ngandammi le aa tlerh ngai mi internet hi hmuh a duh. Cucu website a sertu nih an website sunglawi taktak in an ser khawh hna hnga Aw-data ti bantuk hi serpiak asi. Common Voice cu Mozilla, kan mah, le website a sertu vawlei cung um vialte caah mipi nih ngeih mi thilri sunglawi pakhat asi lai.
 faq-native-q = Lai holh ah kokek ka si lo i Aw-cawi ka ngei, ka holh nan duh ko maw?
 faq-native-a = A si, kan duh ṭhiam ko! Common Voice i kan i tinh mi cu computer nih Aw a theih khawh cem nak hnga zei Aw-cawi paoh lak chih dih kan duh.
 faq-firefox-q = Common Voice i bia-in-ca lehnak hi Firefox ah chiah chih a si lai maw?
 faq-firefox-a = Mozilla nih chuahmi thil, Firefox, ti bantuk ah hin Common Voice hi hman khawhnak ding thil tampi a um.
 faq-quality-q = Zei tluk in dah ka Aw hi a fiang a herh?
-faq-quality-a = Na Aw cu computer nih a theih khawh ding hi a biapi. Na mawtaw chung na um lio, pangka a awn lio, le na hnulei in midang an rak i chawn lio tibantuk zong an ṭha ṭhiam ṭhiam ko. 
+faq-quality-a = Na Aw cu computer nih a theih khawh ding hi a biapi. Na mawtaw chung na um lio, pangka a awn lio, le na hnulei in midang an rak i chawn lio tibantuk zong an ṭha ṭhiam ṭhiam ko.
 faq-hours-q = Zei ruang ah dah nazi 10,000 renglo hi kan aw tun a herh?
-faq-hours-a = Hihi STT timi computer nih Laiholh cawnnak ding ah a herh mi suimilam zat asi. 
+faq-hours-a = Hihi STT timi computer nih Laiholh cawnnak ding ah a herh mi suimilam zat asi.
 faq-source-q = Khoi ka in dah biafang hi an rat?
-faq-source-a1 = Hi biatlang hna hi bawmchantu in siseh, mipi holhnak in, cun catial mi,<italic> Kenneth Van Bik Dictionary </italic> ti bantuk in kan lak mi asi. 
+faq-source-a1 = Hi biatlang hna hi bawmchantu in siseh, mipi holhnak in, cun catial mi,<italic> Kenneth Van Bik Dictionary </italic> ti bantuk in kan lak mi asi.
 faq-source-a2 = Hi ka<dataLink> hin biatlang kan lak nak na zoh khawh.  </dataLink> GitHub ah kan chiah.
 
 ## Profile
@@ -228,8 +245,8 @@ profile-why-content = Nangmah kong kan theih deuhnak thawngin Common Voice nih n
 
 ## NotFound
 
-notfound-title = Hmu lo 
-notfound-content = Na kawl mi hi ka thei lo. 
+notfound-title = Hmu lo
+notfound-content = Na kawl mi hi ka thei lo.
 
 ## Data
 
@@ -244,15 +261,15 @@ data-get-started = <speechBlogLink> Speech Recognition thoknak</speechBlogLink>
 data-other-title = Adang Aw datasets
 data-other-goto = { $name } hin kal
 data-other-download = Thuntlen Data
-data-other-librispeech-description = LIbriSpeech cu suimilam thongkhat (1000) chung 16Khz tluk in cauk relmi LibriVox in lak mi chiahnak a si. 
+data-other-librispeech-description = LIbriSpeech cu suimilam thongkhat (1000) chung 16Khz tluk in cauk relmi LibriVox in lak mi chiahnak a si.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = TED-LIUM cu TED website i chiah mi holh le biatlang le catlang pawl hman in sermi a si.
 data-other-voxforge-description = VoxForge cu mikip  nih zalong te le tling tein computer Aw phun an hman khawh nak caah holh phun pumhnak ah hman mi a si.
 data-other-tatoeba-description =
     Tatoeba cu holh chimh nak ding ah biatlang, bialeh, le holh tuun mi chiahnak lian pi a si.
-    Hi thuntlen michung ah hin mikip nih mirang holh an tuun mi aa tal. 
+    Hi thuntlen michung ah hin mikip nih mirang holh an tuun mi aa tal.
 data-bundle-button = Thuntlen Dataset Vialte
-data-bundle-description = Common Voice data le Aw dang data vialte a cunglei ah. 
+data-bundle-description = Common Voice data le Aw dang data vialte a cunglei ah.
 license = Laisen:<licenseLink>{ $license }</licenseLink>
 license-mixed = Fawnh
 
@@ -272,11 +289,11 @@ record-help = Tun kha hmet, cun biatlang kha thang piin rel.
 record-cancel = Tuunthar mi leet
 review-terms = Common Voice hman ah cun , kan <termsLink> Biakam </termsLink> le <privacyLink> Kilvennak Hngalhternak</privacyLink> hi na lung a tling.
 terms-agree = Ka lungtling
-terms-disagree = Ka lungtling lo 
+terms-disagree = Ka lungtling lo
 review-aborted = Thun ṭhan hlah. Na tuun mi hlonh na duh maw?
 review-submit-title = Chek & Kuat
 review-submit-msg = Na tuun caah kan i lawm!<lineBreak></lineBreak> Zohtthan law a tanglei hin kan kua.
-review-recording = Zohṭhan 
+review-recording = Zohṭhan
 review-rerecord = tuunṭhan
 review-cancel = Kuatmi letṭhan
 review-keep-recordings = Tuun mi i chiah
@@ -307,22 +324,21 @@ request-language-title = Holh phun halnak
 request-language-form-language =
     .label = Holh-phun
 request-language-success-title = Holh phun halnak a kuat cang, ka lawm.
-request-language-success-content = Na holh zei tiin dah Common Voice ah na chiah ve lai ti kan in chimh tthan te lai. 
+request-language-success-content = Na holh zei tiin dah Common Voice ah na chiah ve lai ti kan in chimh tthan te lai.
 
 ## Languages Overview
 
 language-section-in-progress = Tuah lio
 language-section-in-progress-description = Tuah lio cuahmah mi holh phun cu kan mibu le miphun nih bawmhnak in ser a si; An thanchonak cu website an mah holh in an lehnak le catlang an pumhkhomh nak ah a lang.
 language-section-launched = Tuah cang mi
-language-section-launched-description = Hi holhphun kan thlah mi chung ah cun catlang tling tein le an mah le holh cio in ca kan tial cang, aw tuun <italic>{ speak }</italic> le <italic>{ listen }</italic> ngaih nak kan chiah. 
-languages-show-more = Tam deuh zoh 
+languages-show-more = Tam deuh zoh
 languages-show-less = Tawm deuh zoh
-language-speakers = Biachimtu 
+language-speakers = Biachimtu
 language-meter-in-progress = ṭhanchonak
 language-total-progress = Dihlak
 language-search-input =
     .placeholder = Kawlnak
-language-speakers = Biachimtu 
+language-speakers = Biachimtu
 localized = Holh leh mi
 sentences = Catlang
 total-hours = Suimilam Dihlak
@@ -335,7 +351,6 @@ contribute = Pek
 listen = Ngai
 skip = Lawnh
 shortcuts = tawitan
-clips = Aw-tawi
 goal-help-recording = Common Voice kan i tinhmi <goalPercentage></goalPercentage>chungah { $goalValue } na kan phak ter.
 goal-help-validation = Common Voice nih kan i tinhmi <goalPercentage></goalPercentage> chung ah { $goalValue } na chek pi .
 contribute-more =
