@@ -140,6 +140,23 @@ hours-recorded = Сәгать яздырылды
 hours-validated = Сәгать тикшерелде
 read-terms-q = Безнең Куллану Шартларын укыдыгызмы?
 ready-to-record = Тавышыгызны иганә итәргә әзерсезме?
+all-languages = Бөтен телләр
+today = Бүген
+x-weeks-short =
+    { $count ->
+        [one] атна
+       *[other] { $count } атна
+    }
+x-months-short =
+    { $count ->
+        [one] ай
+       *[other] ай
+    }
+x-years-short =
+    { $count ->
+        [one] ел
+       *[other] ел
+    }
 
 ## Speak & Listen Shortcuts
 
