@@ -140,6 +140,20 @@ hours-recorded = Jam Terekam
 hours-validated = Jam Tervalidasi
 read-terms-q = Sudahkah Anda membaca Ketentuan kami?
 ready-to-record = Siap menyumbangkan suara Anda?
+all-languages = Semua Bahasa
+today = Hari Ini
+x-weeks-short =
+    { $count ->
+       *[other] { $count }mgu
+    }
+x-months-short =
+    { $count ->
+       *[other] { $count }bln
+    }
+x-years-short =
+    { $count ->
+       *[other] { $count }thn
+    }
 
 ## Speak & Listen Shortcuts
 
