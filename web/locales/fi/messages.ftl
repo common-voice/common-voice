@@ -119,6 +119,8 @@ home-cta = Puhu, ota osaa täällä.
 wall-of-text-start = Ääni on luonnollinen, ääni on inhimillinen. Siksi olemme kiinnostuneita luomaan käyttökelpoista puheteknologiaa koneille. Puheteknologiaa varten tarvitaan kuitenkin paljon puheaineistoja.
 wall-of-text-more-mobile = Suurin osa aineistosta jota suuryritykset käyttävät ei ole saatavilla suurimmalle osalle ihmisiä. Meistä se haittaa innovaatiota. Siitä syystä aloitimme Common Voice -projektin, joka auttaa tekemään puheentunnistusta saataville kaikille.
 wall-of-text-more-desktop = Voit lahjoittaa ääntäsi auttaaksesi meitä rakentamaan avoimen lähdekoodin äänitietokantaa, jota kuka tahansa voi hyödyntää innovatiivisissa sovelluksissa ja internetissä. <lineBreak></lineBreak> Lue virke ja auta koneita oppimaan kuinka ihmiset puhuvat. Tarkista muiden puhujien työtä laadun parantamiseksi. Niin helppoa se on.
+wall-of-text-first = Ääni on luonnollinen, ääni on inhimillinen. Siksi olemme kiinnostuneita luomaan käyttökelpoista puheteknologiaa koneille. Puheteknologiaa varten tarvitaan kuitenkin paljon puheaineistoa.
+wall-of-text-second = Suurin osa suuryritysten käyttämästä aineistosta ei ole saatavilla suurimmalle osalle ihmisiä. Meistä se haittaa innovaatiota. Siitä syystä aloitimme Common Voice -projektin; se auttaa tekemään puheentunnistuksen saataville kaikille.
 show-wall-of-text = Lue lisää
 help-us-title = Auta lauseiden varmentamisessa.
 help-us-explain = Paina toistonappia, kuuntele ja kerro: vastaako puhuttu täsmällisesti alla olevaa virkettä?
@@ -126,6 +128,11 @@ no-clips-to-validate = Tällä kielellä ei ole yhtään ääninäytteitä. Auta
 vote-yes = Kyllä
 vote-no = Ei
 toggle-play-tooltip = Paina nappia { shortcut-play-toggle } vaihtaaksesi soittotilaa päälle/pois
+speak-subtitle = Lahjoita äänesi
+read-terms-q = Oletko lukenut käyttöehdot?
+ready-to-record = Valmiina lahjoittamaan äänesi?
+all-languages = Kaikki kielet
+today = Tänään
 
 ## Speak & Listen Shortcuts
 
