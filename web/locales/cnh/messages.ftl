@@ -25,7 +25,7 @@ br = Brittany holh
 bxr = Buryat holh (Russia)
 ca = Catalan holh
 cak = Kaqchikel holh
-cnh = Hakha Chin/Laiholh
+cnh = Laiholh (Hakha)
 cs = Czech Republic holh
 cv = Chuvash holh
 cy = Wales holh
@@ -283,7 +283,7 @@ data-other-tatoeba-description =
 data-bundle-button = Thuntlen Dataset Vialte
 data-bundle-description = Common Voice data le Aw dang data vialte a cunglei ah.
 license = Laisen:<licenseLink>{ $license }</licenseLink>
-license-mixed = Fawnh
+license-mixed = Fonh
 
 ## Record Page
 
@@ -342,8 +342,8 @@ request-language-success-content = Na holh zei tiin dah Common Voice ah na chiah
 
 language-section-in-progress = Tuah lio
 language-section-in-progress-description = Tuah lio cuahmah mi holh phun cu kan mibu le miphun nih bawmhnak in ser a si; An thanchonak cu website an mah holh in an lehnak le catlang an pumhkhomh nak ah a lang.
-language-section-launched = Tuah cang mi
-language-section-launched-new-description = Hi thlah cangmi holhphun hi cu website ah an mah holh tein leh dih an si cang i biatlang zong a zatawk an khomh cang. Aw <italic> Tun </italic> le <italic> Ngaih</italic> nak caah a tlamtling cang.
+language-section-launched = Thlah cang mi
+language-section-launched-new-description = Hi thlah cangmi holhphun hna caah cun tlamtling tein website hi an mah le holh cio in leh piak dih an si cang, cun biatlang zong a zatawk tein <italic> Chim</italic> le <italic> Ngaih</italic> khawhnak caah an khomh khawh cang.
 languages-show-more = Tam deuh zoh
 languages-show-less = Tawm deuh zoh
 language-speakers = Biachimtu
