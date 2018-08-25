@@ -138,6 +138,8 @@ hours-recorded = الساعات المسجّلة
 hours-validated = الساعات المتحقّق منها
 read-terms-q = هل قرأت الشروط؟
 ready-to-record = أمستعّد للمساهمة بصوتك؟
+all-languages = كل اللغات
+today = اليوم
 
 ## Speak & Listen Shortcuts
 
