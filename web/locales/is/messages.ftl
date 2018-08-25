@@ -121,6 +121,13 @@ wall-of-text-more-mobile = Flest gögn sem stórfyrirtæki nota eru ekki aðgeng
 wall-of-text-more-desktop =
     Nú geturðu deilt raddprufum til þess að hjálpa okkur að byggja upp úr frjálsum hugbúnaði raddgagnagrunn sem er aðgengilegur hverjum sem er til að nota í nýjungar fyrir tæki og vefinn.<lineBreak></lineBreak>
     Lesið setningu til að hjálpa vélum að læra hvernig fólk talar í alvörunni. Skoðið verk annarra til þess að taka út gæðin. Svo einfalt er það!
+wall-of-text-first =
+    Raddir eru náttúrulegar og mannlegar. Því gleður það okkur að þróa nothæfa raddtækni fyrir vélarnar okkar.
+    En til að þróa raddkerfi þurfa þróendur að hafa fyrir hendi gríðarlegt magn raddgagna.
+wall-of-text-second =
+    Megnið af gögnunum sem stórfyrirtæki nota er ekki fáanlegt miklum meirihluta fólks. Að okkar mati hindrar það framþróun.
+    Fyrir vikið höfum við stofnað til Sameiginlega raddverkefnisins, en verkefnið á að gera raddgreiningartækni 
+    opna og aðgengilega öllum.
 show-wall-of-text = Lesa meira
 help-us-title = Hjálpaðu okkur að meta setningar!
 help-us-explain = Veldu afspilun, hlustaðu og svaraðu: var setningin að neðan nákvæmlega sögð?
@@ -128,6 +135,33 @@ no-clips-to-validate = Svo virðist sem engar hljóðskrár séu til staðar á 
 vote-yes = Já
 vote-no = Nei
 toggle-play-tooltip = Veldu { shortcut-play-toggle } til þess að skipta um afspilunarham
+speak-subtitle = Gefðu raddsýnishorn
+speak-paragraph = Hljóðritun raddgagna er órofa partur af þróun gagnapakkans okkar; sumir myndu líka segja að það væri skemmtilegi parturinn.
+speak-goal-text = Raddupptökur
+listen-subtitle = Hjálpið okkur að staðfesta raddir
+listen-paragraph = Að staðfesta aðsendar raddupptökur er jafn mikilvægt Sameiginlega raddverkefninu. Hlustið og hjálpið til við að þróa hágæða opinn raddbúnað.
+listen-goal-text = Staðfestar raddupptökur
+hours-recorded = Klukkustundir hljóðritaðar
+hours-validated = Klukkustundir staðfestar
+read-terms-q = Hefurðu lesið skilmálana?
+ready-to-record = Tilbúinn að leggja fram raddsýni?
+all-languages = Öll tungumál
+today = Í dag
+x-weeks-short =
+    { $count ->
+        [one] vika
+       *[other] { $count }v
+    }
+x-months-short =
+    { $count ->
+        [one] mánuður
+       *[other] { $count }m
+    }
+x-years-short =
+    { $count ->
+        [one] ár
+       *[other] { $count }ár
+    }
 
 ## Speak & Listen Shortcuts
 
@@ -209,17 +243,47 @@ faq-what-a = Raddgreiningartækni gæti gjörbylt samskiptum okkar við vélar, 
 faq-important-q = Því er það mikilvægt?
 faq-important-a = Rödd er náttúruleg, rödd er mannleg. Hún er einfaldasta og eðlilegasta leiðin til að eiga samskipti. Við viljum að þróendum sé kleift að smíða mögnuð fyrirbæri úr þýðendum í rauntíma yfir í raddstýrð hjálpartól til stjórnunar. En eins og er eru ekki nægjanleg gögn fáanleg almenningi til að smíða slík tól. Við vonum að Sameiginlega röddin færi þróendum þau verkfæri sem þróun nýjunga krefst.
 faq-get-q = Hvernig fæ ég Sameiginleg raddgögn?
-faq-get-a = Gagnapakkinn er nú fáanlegur á <downloadLink>niðuhalsvefnum</downloadLink> okkar undir leyfinu <licenseLnk>CC-0</licenseLink>.
+faq-get-a = Gagnasafnið er nú fáanlegt á <downloadLink>niðuhalsvefnum</downloadLink> okkar undir leyfinu <licenseLnk>CC-0</licenseLink>.
 faq-mission-q = Því er Sameiginlega röddin hluti Mozilla-verkefnisins?
+faq-mission-a = Mozilla hefur tileinkað sér að tryggja það að vefurinn sé öllum opinn og aðgengilegur. Til þess þarf að virkja vefsmiði með verkefnum á borð við Sameiginlega raddverkefnið. Líkt og raddbúnaðartæknin er þróuð umfram forrit sem eru dýr fyrir endanotendur, þá trúum við að hún verði að þjóna öllu fólki jafnt. Við finnum þörf til þess að fjölga tungumálum, framburðarsýnum og lýðfræðilegum upplýsingum þegar raddbúnaðurinn er þróaður og prófaður. Mozilla vill sjá heilbrigt, lifandi internet. Það þýðir að nýjum þróendum um allan heim er gefinn aðgangur að raddgögnum, svo að þeim sé kleift að stofna ný, framúrskarandi verkefni. Sameiginlega röddin verður opinn grunnur sem mun gagnast Mozilla teymum og þróendum úti um heim.
+faq-native-q = { $lang } er ekki móðurmál mitt og ég tala með hreim, viljið þið enn raddsýnið mitt?
+faq-native-a = Já, sannarlega viljum við röddina þína! Hluti markmiða Sameiginlega raddverkefnisins er að safna eins mörgum mismunandi framburðardæmum og hægt er, svo tölvur geti skilið betur <bold>alla</bold> þegar þeir tala.
+faq-firefox-q = Verður raddskráningarvél, í gegnum Sameiginlega rödd, einhvern tíma partur af Firefox?
+faq-firefox-a = Sameiginleg rödd hefur ómælda möguleika og sannarlega könnum við raddviðmót í mörgum Mozilla vörum, þar á meðal Firefox.
+faq-quality-q = Hvaða hljóðgæða er krafist til þess að hljóðgögn séu notuð?
+faq-quality-a = Við viljum að hljóðgæðin endurspegli þau hljóðgæði sem raddskráningarvélin mun fást við úr hinu óþekkta. Fyrir vikið, þá viljum við fjölbreytni. Þetta kennir raddskráningarvélinni að bregðast við ákveðnum tilfellum—tali í bakgrunni, bíhljóðum, viftuhljóðum—án villna.
+faq-hours-q = Hvers vegna eru 10.000 klukkustundir áætluð þörf hljóðritunar?
+faq-hours-a = Þetta er áætlaður fjöldi klst. til þess að þjálfa STT-framleiðslukerfi.
+faq-source-q = Hver er uppruni textans?
+faq-source-a1 = Setningar í notkun eru framlög frá notendum, auk þess sem notuð eru gögn úr almenningssöfnum á borð við samtöl úr kvikmyndum eins og <italic>Lífið er yndislegt.</italic>
+faq-source-a2 = Þú getur skoðað upprunalegu setningarnar í <dataLink>þessari GitHub möppu</dataLink>.
 
 ## Profile
 
+profile-why-title = Til hvers er aðgangur?
+profile-why-content = Með því að veita ákveðnar upplýsingar um sjálfan þig, þá eykur þú á notagildi aðsendra gagna fyrir raddgreiningarvélarnar sem nýta sér þessi gögn til að bæta nákvæmni sína.
 
 ## NotFound
 
+notfound-title = Ekki fundið
+notfound-content = Ég hræðist að ég viti ekki að hverju þú leitar.
 
 ## Data
 
+data-download-button = Niðurhala Sameiginlegum raddgögnum.
+data-download-yes = Já
+data-download-deny = Nei
+data-download-license = Leyfi: <licenseLink>CC-0</licenseLink>
+data-download-modal = Þú ert í þann mund að niðurhala <size>{ $size }GB</size>, halda áfram?
+data-subtitle = Við erum að þróa opið gagnasafn fyrir almenning úr raddgögnum sem allir geta notað til að þjálfa raddstýrð forrit.
+data-explanatory-text = Við trúum að stór raddgagnasöfn sem eru aðgengileg almenningi hvetji til nýsköpunar og heilbrigðrar samkeppni í raddbúnaði sem byggir á vélagreind. Þetta er alþjóðlegt átak og öllum er boðið að taka þátt. Okkar markmið er að stuðla að alhliða raddtækni, sem endurspeglar fjölbreytileika raddsýnanna sem eru fengin alls staðar úr heiminum.
+data-get-started = <speechBlogLink>Byrja á Raddgreiningu</speechBlogLink>
+data-other-title = Önnur raddgagnasöfn...
+data-other-goto = Fara í { $name }
+data-other-download = Niðurhala gögnum
+data-other-librispeech-description = LibriSpeech textasafnið geymir u.þ.b. 100 klst af 16Khz hljóðrituðu tali á ensku sem er fengið úr upplesnum bókum af LibriVox verkefninu.
+data-other-ted-name = TED-LIUM textasafn
+data-other-ted-description = TED-LIUM textasafnið var þróað úr talsetningum og afritunum þeirra sem eru fáanlegar á TED vefnum.
 
 ## Record Page
 

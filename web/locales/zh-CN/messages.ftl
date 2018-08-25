@@ -138,6 +138,20 @@ hours-recorded = 已录制小时数
 hours-validated = 已验证小时数
 read-terms-q = 您阅读过我们的使用条款了吗？
 ready-to-record = 准备好贡献您的声音了吗？
+all-languages = 所有语言
+today = 今天
+x-weeks-short =
+    { $count ->
+       *[other] { $count } 周
+    }
+x-months-short =
+    { $count ->
+       *[other] { $count } 个月
+    }
+x-years-short =
+    { $count ->
+       *[other] { $count } 年
+    }
 
 ## Speak & Listen Shortcuts
 

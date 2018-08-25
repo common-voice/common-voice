@@ -119,13 +119,40 @@ home-cta = Di’ qualcosa, fai clic qui per iniziare!
 wall-of-text-start = La voce è naturale, la voce è umanità. Per questo l’idea di creare una tecnologia vocale utilizzabile dalle nostre macchine ci affascina così tanto. Per creare sistemi basati sulla tecnologia vocale, però, è necessaria una altissima quantità di campioni.
 wall-of-text-more-mobile = Buona parte dei dati usati dalle grandi aziende non è accessibile alla maggioranza delle persone. Secondo noi questo soffoca l’innovazione. Per questa ragione abbiamo sviluppato Common Voice, un progetto di riconoscimento vocale aperto a tutti.
 wall-of-text-more-desktop = Ora puoi donare la tua voce per aiutarci a costruire un database vocale open source a disposizione di tutti gli sviluppatori di applicazioni per dispositivi o per il Web. <lineBreak></lineBreak> Contribuire è semplicissimo! Leggi una frase per insegnare alle macchine come le persone parlano nella vita reale. Verifica le registrazioni audio degli altri collaboratori per migliorare la qualità del database.
+wall-of-text-first = La voce è naturale, la voce è umanità. Per questo l’idea di creare una tecnologia vocale utilizzabile dalle nostre macchine ci affascina così tanto. Per creare sistemi basati sulla tecnologia vocale, però, è necessaria un’altissima quantità di campioni.
+wall-of-text-second = Buona parte dei dati usati dalle grandi aziende non è accessibile alla maggioranza delle persone. Secondo noi questo soffoca l’innovazione. Per questa ragione abbiamo sviluppato Common Voice, un progetto di riconoscimento vocale aperto a tutti.
 show-wall-of-text = Ulteriori informazioni
-help-us-title = Aiutaci a confermare le frasi!
+help-us-title = Aiutaci a convalidare le frasi!
 help-us-explain = Premi Avvia, ascolta e indica se l’audio corrisponde alla frase qui sotto.
 no-clips-to-validate = Sembra non ci siano registrazioni in questa lingua. Contribuisci registrando qualcosa.
 vote-yes = Sì
 vote-no = No
 toggle-play-tooltip = Premere { shortcut-play-toggle } per passare alla modalità di riproduzione
+speak-subtitle = Dona la tua voce
+speak-paragraph = La registrazione vocale delle frasi è una parte fondamentale nella costruzione del nostra dataset aperto (secondo alcuni anche la più divertente).
+speak-goal-text = Registrazioni
+listen-subtitle = Aiutaci a convalidare le registrazioni
+listen-paragraph = Convalidare le registrazioni effettuate da altri è altrettanto importante per la missione di Common Voice. Ascoltale e aiutaci a creare un dataset aperto e di qualità.
+listen-goal-text = Registrazioni convalidate
+hours-recorded = Ore registrate
+hours-validated = Ore convalidate
+read-terms-q = Hai letto le condizioni di utilizzo del servizio?
+ready-to-record = Sei pronto per donare la tua voce?
+all-languages = Tutte le lingue
+today = Oggi
+x-weeks-short =
+    { $count ->
+        [one] Sett.
+       *[other] { $count } sett.
+    }
+x-months-short =
+    { $count ->
+       *[other] { $count } mesi
+    }
+x-years-short =
+    { $count ->
+       *[other] { $count } anni
+    }
 
 ## Speak & Listen Shortcuts
 
@@ -160,8 +187,8 @@ status-title = Stato generale del progetto: guarda quanta strada abbiamo fatto!
 status-contribute = Dona la tua voce
 status-hours =
     { $hours ->
-        [one] un'ora confermata sinora!
-       *[other] { $hours } confermate sinora!
+        [one] un’ora convalidata sinora!
+       *[other] { $hours } convalidate sinora!
     }
 # Variables:
 # $goal - number of hours representing the next goal
@@ -205,7 +232,7 @@ faq-title = Domande più frequenti
 faq-what-q = Che cosa è Common Voice?
 faq-what-a = La tecnologia di riconoscimento vocale può rivoluzionare il modo in cui interagiamo con le macchine, ma i sistemi attualmente disponibili sono tutti costosi e proprietari. Common Voice è un progetto nato per realizzare una tecnologia di riconoscimento vocale accessibile a chiunque. Le persone donano la loro voce a un grande database che chiunque potrà sfruttare per addestrare applicativi basati sul controllo vocale in modo semplice e veloce. Tutti i dati vocali raccolti saranno messi a disposizione degli sviluppatori.
 faq-important-q = Perché è così importante?
-faq-important-a = La voce è naturale, la voce è umanità. È il modo più immediato e spontaneo che conosciamo per comunicare. Tutti gli sviluppatori dovrebbero avere la possibilità di realizzare applicazioni innovative, dai traduttori automatici in tempo reale fino agli assistenti digitali parlanti. Finora questo tipo di applicazioni è rimasto fuori dalla portata dei piccoli sviluppatori a causa della mancanza di dati vocali liberamente accessibili. Con il progetto Common Voice desideriamo offrire a tutti le potenzialità per realizzare qualcosa di innovativo. 
+faq-important-a = La voce è naturale, la voce è umanità. È il modo più immediato e spontaneo che conosciamo per comunicare. Tutti gli sviluppatori dovrebbero avere la possibilità di realizzare applicazioni innovative, dai traduttori automatici in tempo reale fino agli assistenti digitali parlanti. Finora questo tipo di applicazioni è rimasto fuori dalla portata dei piccoli sviluppatori a causa della mancanza di dati vocali liberamente accessibili. Con il progetto Common Voice desideriamo offrire a tutti le potenzialità per realizzare qualcosa di innovativo.
 faq-get-q = Come posso ottenere i dati di Common Voice?
 faq-get-a = Puoi scaricare il dataset dalla <downloadLink>pagina di download</downloadLink> sotto licenza <licenseLink>CC-0</licenseLink>.
 faq-mission-q = Perché il progetto Common Voice rientra nella missione di Mozilla?
@@ -215,7 +242,7 @@ faq-native-a = Sì, la tua voce ci sarà di grande aiuto! Uno degli obiettivi di
 faq-firefox-q = Common Voice verrà utilizzato in futuro per integrare il riconoscimento vocale in Firefox?
 faq-firefox-a = Common Voice ha un potenziale illimitato, infatti stiamo studiando come implementare interfacce vocali in diversi prodotti Mozilla, incluso Firefox.
 faq-quality-q = Quale è il livello di qualità audio richiesto per la registrazione?
-faq-quality-a = Vogliamo che le registrazioni rispecchino la qualità audio che un sistema di conversione vocale potrebbe dover elaborare nella vita di tutti i giorni. In altre parole, ci serve varietà. Più varietà di qualità audio raccoglieremo, meglio il motore di conversione vocale sarà in grado di gestire senza errori diverse situazioni (voci di sottofondo, rumori del traffico, sistemi di ventilazione ecc.). 
+faq-quality-a = Vogliamo che le registrazioni rispecchino la qualità audio che un sistema di conversione vocale potrebbe dover elaborare nella vita di tutti i giorni. In altre parole, ci serve varietà. Più varietà di qualità audio raccoglieremo, meglio il motore di conversione vocale sarà in grado di gestire senza errori diverse situazioni (voci di sottofondo, rumori del traffico, sistemi di ventilazione ecc.).
 faq-hours-q = Perché il traguardo è proprio 10.000 ore di registrazioni audio?
 faq-hours-a = Perché questo è approssimativamente il numero di ore necessario per addestrare un software di conversione vocale.
 faq-source-q = Da dove provengono i testi?
@@ -258,7 +285,7 @@ license-mixed = Mista
 ## Record Page
 
 record-platform-not-supported = La piattaforma in uso non è attualmente supportata.
-record-platform-not-supported-desktop = Su computer desktop puoi scaricare l'ultima versione:
+record-platform-not-supported-desktop = Su computer desktop puoi scaricare l’ultima versione:
 record-platform-not-supported-ios = Gli utenti <bold>iOS</bold> possono scaricare la nostra applicazione gratuita:
 record-must-allow-microphone = È necessario consentire l’accesso al microfono del dispositivo.
 record-retry = Riprova
@@ -312,8 +339,8 @@ request-language-success-content = Presto riceverai istruzioni su come aggiunger
 
 language-section-in-progress = In corso
 language-section-in-progress-description = Le lingue “in corso” non sono ancora pronte per ricevere i contributi della comunità. La barra del progresso indica a che punto sono nelle fasi di localizzazione del sito e di raccolta frasi.
-language-section-launched = Avviato
-language-section-launched-description = Se una lingua è “avviata” significa che il suo sito è stato completamente tradotto e sono state raccolte frasi a sufficienza per consentire ai volontari di contribuire continuativamente in <italic>{ speak }</italic> e { listen }</italic>.
+language-section-launched = Ufficiali
+language-section-launched-new-description = Per queste lingue il sito web è stato tradotto completamente ed è stato raccolto un numero sufficiente di frasi per garantire ampie possibilità di collaborazione, sia per <italic>parlare</italic> che <italic>ascoltare</italic>.
 languages-show-more = Visualizza più elementi
 languages-show-less = Visualizza meno elementi
 language-speakers = Parlato da
@@ -324,7 +351,7 @@ language-search-input =
 language-speakers = Parlato da
 localized = Localizzate
 sentences = Frasi
-total-hours = Ore totali
+total-hours = Ore convalidate
 
 ## New Contribution
 
@@ -334,7 +361,7 @@ contribute = Contribuisci
 listen = Ascolta
 skip = Salta
 shortcuts = Scorciatoie
-clips = Registrazioni
+clips-with-count = <bold>{ $count }</bold> registrazioni
 goal-help-recording = Hai aiutato Common Voice a raggiungere <goalPercentage></goalPercentage> del traguardo giornaliero { $goalValue } per le registrazioni.
 goal-help-validation = Hai aiutato Common Voice a raggiungere <goalPercentage></goalPercentage> del traguardo giornaliero { $goalValue } per le conferme.
 contribute-more = Sei pronto a farne ancora { $count }?
@@ -344,7 +371,7 @@ record-stop-instruction = { $actionType }<stopIcon></stopIcon> quando hai finito
 record-three-more-instruction = Ancora tre!
 record-again-instruction = Ottimo! <recordIcon></recordIcon> Registra la successiva
 record-again-instruction2 = Continua così, registra di nuovo <recordIcon></recordIcon>
-record-last-instruction = <recordIcon></recordIcon> L'ultima!
+record-last-instruction = <recordIcon></recordIcon> L’ultima!
 review-tooltip = Riascolta e, se necessario, ripeti le registrazioni prima di proseguire
 unable-speak = Non posso parlare in questo momento
 review-instruction = Riascolta le registrazioni e, se necessario, ripetile
@@ -357,8 +384,8 @@ record-abort-continue = Porta a termine la registrazione
 record-abort-delete = Esci ed elimina le registrazioni
 listen-instruction = { $actionType } <playIcon></playIcon> La frase è stata letta correttamente?
 listen-again-instruction = Ottimo lavoro! <playIcon></playIcon> Riascolta la registrazione quando sei pronto
-listen-3rd-time-instruction = 2 andate <playIcon></playIcon>, avanti un'altra!
-listen-last-time-instruction = <playIcon></playIcon> L'ultima!
-nothing-to-validate = Non sono presenti registrazioni da confermare in questa lingua, aiutaci registrando qualche frase.
+listen-3rd-time-instruction = 2 andate <playIcon></playIcon>, avanti un’altra!
+listen-last-time-instruction = <playIcon></playIcon> L’ultima!
+nothing-to-validate = Non sono presenti registrazioni da convalidare in questa lingua, aiutaci registrando qualche frase.
 record-button-label = Registra la tua voce
 share-title-new = <bold>Aiutaci</bold> a trovare altre voci

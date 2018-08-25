@@ -140,6 +140,23 @@ hours-recorded = სთ ჩაწერილია
 hours-validated = სთ დამოწმებულია
 read-terms-q = გაეცანით ჩვენს პირობებს?
 ready-to-record = მზად ხართ, მოგვაწოდოთ თქვენი ხმის ჩანაწერი?
+all-languages = ყველა ენა
+today = დღეს
+x-weeks-short =
+    { $count ->
+        [one] კვირა
+       *[other] { $count } კვირა
+    }
+x-months-short =
+    { $count ->
+        [one] თვე
+       *[other] { $count } თვე
+    }
+x-years-short =
+    { $count ->
+        [one] წელი
+       *[other] { $count } წელი
+    }
 
 ## Speak & Listen Shortcuts
 
