@@ -138,6 +138,23 @@ hours-recorded = Isragen yettwaskelsen
 hours-validated = Isragen yettwaqeblen
 read-terms-q = Teɣriḍ tiwtilin-nneɣ?
 ready-to-record = Theggaḍ ad tmuddeḍ taɣect-ik/im ?
+all-languages = Akk tutlayin
+today = Ass-a
+x-weeks-short =
+    { $count ->
+        [one] Amalas
+       *[other] { $count } mls
+    }
+x-months-short =
+    { $count ->
+        [one] Aggur
+       *[other] { $count } gr
+    }
+x-years-short =
+    { $count ->
+        [one] Aseggas
+       *[other] { $count } sgs
+    }
 
 ## Speak & Listen Shortcuts
 
