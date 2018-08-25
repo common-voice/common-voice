@@ -140,6 +140,23 @@ hours-recorded = Qeyd etmə saatları
 hours-validated = Təsdiqləmə saatları
 read-terms-q = Şərtlərimizi oxumusunuz?
 ready-to-record = Səsinizi verməyə hazırsınız?
+all-languages = Bütün Dillər
+today = Bu gün
+x-weeks-short =
+    { $count ->
+        [one] Həftə
+       *[other] { $count }həftə
+    }
+x-months-short =
+    { $count ->
+        [one] { $count }ay
+       *[other] { $count }ay
+    }
+x-years-short =
+    { $count ->
+        [one] { $count }il
+       *[other] { $count }il
+    }
 
 ## Speak & Listen Shortcuts
 
