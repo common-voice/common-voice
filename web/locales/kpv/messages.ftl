@@ -94,6 +94,7 @@ help = Отсӧг
 contact = Йитӧд
 privacy = Арабӧн
 terms = Удж тэчан ног
+content-license-text = Материал восьтӧма <licenseLink>Creative Commons</licenseLink> лицензия подув вылын.
 link-copied = Ыстӧд копируйтӧма
 back-top = Косны
 contribution-banner-button = Видзӧдышт
@@ -103,8 +104,17 @@ contribution-banner-button = Видзӧдышт
 home-cta = Сёрнит, пукты пай тані!
 show-wall-of-text = Лыддьы унджык
 help-us-title = Отсав миянӧс видлавны сёрникузяяс.
+help-us-explain = Личкы мед заводитчас, кывзы и висьтав миянлы: бура-ӧ висьталӧны сёрникузясӧ.
 vote-yes = Да
 vote-no = Абу
+speak-goal-text = Аудио юкӧнъяс гижӧма
+listen-subtitle = Отсав миянлы видлавны шыяс.
+listen-goal-text = Аудио юкӧнъяс видлалӧма.
+hours-recorded = Часъяс гижӧма
+hours-validated = Часъяс видлалӧма.
+ready-to-record = Дась сетны ас гор?
+all-languages = Став кывъяс
+today = Талун
 
 ## Speak & Listen Shortcuts
 
@@ -154,6 +164,8 @@ faq-title = Унаысь сетана юалӧм
 faq-what-q = Мый сійӧ Common Voice?
 faq-important-q = Мыйля сійӧ колана?
 faq-get-q = Кыдз ме верма пай пуктыны Common Voice вылӧ?
+faq-mission-q = Муйла Common Voice пырӧ Mozillaлӧн уджӧ?
+faq-quality-q = Кутшӧм тшупӧд вылын аудиолы колӧ лоны медым сійӧс позьӧ вӧдитчыны?
 
 ## Profile
 
