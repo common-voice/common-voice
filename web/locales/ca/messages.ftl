@@ -138,6 +138,7 @@ hours-recorded = Hores enregistrades
 hours-validated = Hores validades
 read-terms-q = Heu llegit les condicions d'ús?
 ready-to-record = Esteu a punt per donar la veu?
+all-languages = Totes les llengües
 today = Avui
 x-weeks-short =
     { $count ->
