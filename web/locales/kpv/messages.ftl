@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = Да, ысты меным электроннӧй поштаяс. Ме кӧсъя тӧдны водзлань Common Voice проект йылысь.
-return-to-cv = Бӧр Common Voice вылӧ
+return-to-cv = Бергӧдчы Common Voice вылӧ
 email-input =
     .label = Электроннӧй пӧшта
 submit-form-action = Ысты
