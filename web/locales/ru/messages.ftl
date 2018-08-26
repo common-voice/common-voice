@@ -126,6 +126,26 @@ no-clips-to-validate = Кажется, нет никаких записей дл
 vote-yes = Да
 vote-no = Нет
 toggle-play-tooltip = Нажмите { shortcut-play-toggle } для переключения режима воспроизведения
+all-languages = Все языки
+today = Сегодня
+x-weeks-short =
+    { $count ->
+        [one] { $count }неделя
+        [few] { $count }недели
+       *[other] { $count }недель
+    }
+x-months-short =
+    { $count ->
+        [one] { $count }месяц
+        [few] { $count }месяца
+       *[other] { $count }месяцев
+    }
+x-years-short =
+    { $count ->
+        [one] { $count }год
+        [few] { $count }года
+       *[other] { $count }лет
+    }
 
 ## Speak & Listen Shortcuts
 
