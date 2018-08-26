@@ -126,6 +126,31 @@ no-clips-to-validate = Il pare que il non ha ulle retalios video a ascoltar in i
 vote-yes = Si
 vote-no = No
 toggle-play-tooltip = Pulsa { shortcut-play-toggle } pro mutar modo de reproduction
+speak-subtitle = Dona tu voce
+speak-goal-text = Clips registrate
+listen-subtitle = Adjuta nos a validar le voces
+listen-goal-text = Clips validate
+hours-recorded = Horas registrate
+hours-validated = Horas validate
+read-terms-q = Ha tu legite nostre terminos de uso?
+ready-to-record = Es tu preste a donar tu voce?
+all-languages = Tote le linguas
+today = Hodie
+x-weeks-short =
+    { $count ->
+        [one] Sept.
+       *[other] { $count } sept.
+    }
+x-months-short =
+    { $count ->
+        [one] mense
+       *[other] menses
+    }
+x-years-short =
+    { $count ->
+        [one] anno
+       *[other] annos
+    }
 
 ## Speak & Listen Shortcuts
 
@@ -225,7 +250,7 @@ faq-source-a2 = Tu pote vider nostre phrases fonte in <dataLink>iste dossier Git
 ## Profile
 
 profile-why-title = Perque un profilo?
-profile-why-content = Per fornir alcun informationes circa te mesme, le datos de audio que tu invia pro Common Voice essera plus utile pro motores de recognition de voce que usa iste datos pro meliorar lor precision. 
+profile-why-content = Per fornir alcun informationes circa te mesme, le datos de audio que tu invia pro Common Voice essera plus utile pro motores de recognition de voce que usa iste datos pro meliorar lor precision.
 
 ## NotFound
 
@@ -313,7 +338,6 @@ request-language-success-content = Nos essera in contacto con altere information
 language-section-in-progress = In corso
 language-section-in-progress-description = Le linguas in corso es actualmente construite per contribution de nostre communitates; lor progresso reflecte ubi illos es trans le phases de localisation del sito web e collection de phrases.
 language-section-launched = Lanceate
-language-section-launched-description = Pro iste linguas lanceate le sito web ha essite localisate con bon successo, e ha colligite bastante phrases, pro consentir al contribution in corso de <italic>{ speak }</italic> e <italic>{ listen }</italic>
 languages-show-more = Vider plus
 languages-show-less = Vider minus
 language-speakers = Locutores
@@ -334,7 +358,7 @@ contribute = Collabora
 listen = Ascolta
 skip = Saltar
 shortcuts = Vias breve
-clips = Retalios
+clips-with-count = <bold>{ $count }</bold> Clips
 goal-help-recording = Tu ha adjutate Common Voice a attinger <goalPercentage></goalPercentage> de nostre objectivo quotidian { $goalValue } de registration!
 goal-help-validation = Tu ha adjutate Common Voice a attinger <goalPercentage></goalPercentage> nostre objectivo { $goalValue } quotidian de validation!
 contribute-more =
