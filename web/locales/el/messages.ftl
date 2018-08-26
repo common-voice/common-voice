@@ -140,6 +140,7 @@ hours-recorded = Ώρες ηχογράφησης
 hours-validated = Ώρες επαλήθευσης
 read-terms-q = Έχετε διαβάσει τους όρους;
 ready-to-record = Έτοιμοι να δωρίσετε τη φωνή σας;
+all-languages = Όλες οι γλώσσες
 today = Σήμερα
 x-weeks-short =
     { $count ->
