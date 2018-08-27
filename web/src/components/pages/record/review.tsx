@@ -1,7 +1,11 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, withRouter } from 'react-router';
-import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
+import {
+  LocalizationProps,
+  Localized,
+  withLocalization,
+} from 'fluent-react/compat';
 import API from '../../../services/api';
 import { trackRecording } from '../../../services/tracker';
 import { Locale } from '../../../stores/locale';

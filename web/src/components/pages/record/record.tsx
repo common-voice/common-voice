@@ -1,7 +1,11 @@
 import debounce = require('lodash.debounce');
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
+import {
+  LocalizationProps,
+  Localized,
+  withLocalization,
+} from 'fluent-react/compat';
 import ERROR_MSG from '../../../error-msg';
 import API from '../../../services/api';
 import { Locale } from '../../../stores/locale';

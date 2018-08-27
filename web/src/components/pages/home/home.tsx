@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { withRouter, RouteComponentProps } from 'react-router';
-const { LocalizationProvider, Localized } = require('fluent-react');
+const { LocalizationProvider, Localized } = require('fluent-react/compat');
 import URLS from '../../../urls';
 import {
   ContributableLocaleLock,

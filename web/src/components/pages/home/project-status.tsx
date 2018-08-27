@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { Localized } from 'fluent-react';
+import { Localized } from 'fluent-react/compat';
 import { trackNavigation } from '../../../services/tracker';
 import URLS from '../../../urls';
 import ProgressBar from '../../progress-bar/progress-bar';

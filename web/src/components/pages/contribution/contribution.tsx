@@ -1,4 +1,8 @@
-import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
+import {
+  LocalizationProps,
+  Localized,
+  withLocalization,
+} from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
 const { Tooltip } = require('react-tippy');
