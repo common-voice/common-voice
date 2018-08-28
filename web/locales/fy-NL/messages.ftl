@@ -142,6 +142,29 @@ speak-subtitle = Donearje jo stim
 speak-paragraph = It opnimmen fan stimfragminten is in yntegraal part fan it bouwen fan ús iepen gegevensset; neffens guon is it ek it aardige diel.
 speak-goal-text = Opnommen fragminten
 listen-subtitle = Help ús stimmen te falidearjen
+listen-paragraph = Falidaasje fan donearre fragminten is krekt sa wichtich as de missy fan Common Voice. Lústerje ris en help ús kwalitatyf heechweardige opensource-stimgegevens te metsjen.
+listen-goal-text = Falidearre fragminten
+hours-recorded = Opnommen oeren
+hours-validated = Falidearre oeren
+read-terms-q = Hawwe jo ús Betingsten lêzen?
+ready-to-record = Klear om jo stim te donearjen?
+all-languages = Alle talen
+today = Hjoed
+x-weeks-short =
+    { $count ->
+        [one] wike
+       *[other] { $count } wkn
+    }
+x-months-short =
+    { $count ->
+        [one] moanne
+       *[other] { $count } mo
+    }
+x-years-short =
+    { $count ->
+        [one] jier
+       *[other] { $count } jr
+    }
 
 ## Speak & Listen Shortcuts
 
@@ -329,6 +352,7 @@ request-language-success-content = Wy nimme ynkoarten kontakt op mei mear ynform
 language-section-in-progress = Yn útfiering
 language-section-in-progress-description = Talen yn útfiering wurde op dit stuit ree makke foar meiwurking troch ús mienskippen; harren foarútgong lit sjen hoefier't se binne mei it oersetten fan de website en it sammeljen fan sinnen.
 language-section-launched = Lansearre
+language-section-launched-new-description = Foar dizze lansearre talen is de website mei sukses oerset, en binne der genôch sinnen sammele foar trochrinnende bydragen oan it <italic>sprekken</italic> en <italic>lústerjen</italic>.
 languages-show-more = Mear besjen
 languages-show-less = Minder besjen
 language-speakers = Sprekkers
@@ -349,6 +373,7 @@ contribute = Meiwurkje
 listen = Lústerje
 skip = Oerslaan
 shortcuts = Fluchkeppelingen
+clips-with-count = <bold>{ $count }</bold> fragminten
 goal-help-recording = Jo hawwe Common Voice holpen om <goalPercentage></goalPercentage> fan harren deistige { $goalValue } doel te beheljen!
 goal-help-validation = Jo hawwe Common Voice holpen om <goalPercentage></goalPercentage> fan harren deistige { $goalValue } falidaasje te beheljen!
 contribute-more = Klear om der noch { $count } te dwaan?
