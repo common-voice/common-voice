@@ -126,6 +126,24 @@ vote-no = Nu
 speak-subtitle = Donează-ți vocea
 all-languages = Toate limbile
 today = Astăzi
+x-weeks-short =
+    { $count ->
+        [one] { $count } săpt.
+        [few] { $count } săpt.
+       *[other] { $count } de săpt.
+    }
+x-months-short =
+    { $count ->
+        [one] { $count } lună
+        [few] { $count } luni
+       *[other] { $count } de luni
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } an
+        [few] { $count } ani
+       *[other] { $count } de ani
+    }
 
 ## Speak & Listen Shortcuts
 
@@ -147,6 +165,10 @@ shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Înregistrează/Oprește
 request-language-text = Nu îți vezi limba pe Common Voice încă?
 request-language-button = Solicită o limbă
 
@@ -314,10 +336,19 @@ language-section-launched = Lansate
 languages-show-more = Vezi mai multe
 languages-show-less = Vezi mai puține
 language-speakers = Vorbitori
+language-meter-in-progress = Progreso
 language-total-progress = Total
 language-search-input =
     .placeholder = Căutare
 language-speakers = Vorbitori
+localized = Localizat
+sentences = Propoziții
+total-hours = Ore validate
 
 ## New Contribution
 
+action-click = Clic
+action-tap = Atinge
+contribute = Contribuie
+listen = Ascultă
+record-button-label = Înregistrează-ți vocea
