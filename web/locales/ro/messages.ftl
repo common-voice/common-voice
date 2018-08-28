@@ -45,12 +45,20 @@ ga-IE = Irlandeză
 he = Ebraică
 hsb = Sorbenă de sus
 hu = Maghiară
+ia = Interlingua
 id = Indoneziană
+is = Islandeză
 it = Italiană
+ja = Japoneză
 ka = Georgiană
+kab = Kabilă
+kk = Kazahă
 ko = Coreeană
+kpv = Komi-ziriană
 kw = Cornică
+ky = Kirghiză
 mk = Macedoneană
+myv = Erzya
 nb-NO = Norvegiană (Bokmål)
 ne-NP = Nepaleză
 nl = Olandeză
@@ -58,9 +66,12 @@ nn-NO = Norvegiană Nynorsk
 or = Odia
 pl = Poloneză
 pt-BR = Portugheză (Brazilia)
+rm = Retoromană
 ro = Română
 ru = Rusă
+sah = Sakha
 sk = Slovacă
+sl = Slovenă
 sq = Albaneză
 sr = Sârbă
 sv-SE = Suedeză
@@ -70,8 +81,10 @@ th = Thailandeză
 tr = Turcă
 tt = Tătară
 uk = Ucraineană
+ur = Urdu
 uz = Uzbecă
 zh-CN = Chineză (China)
+zh-HK = Chineză (Hong Kong)
 zh-TW = Chineză (Taiwan)
 
 # [/]
@@ -80,6 +93,7 @@ zh-TW = Chineză (Taiwan)
 ## Layout
 
 speak = Vorbește
+speak-now = Vorbește acum
 datasets = Seturi de date
 languages = Limbi
 profile = Profil
@@ -92,7 +106,10 @@ faq = Întrebări frecvente
 content-license-text = Conţinut disponibil sub o <licenseLink>licență Creative Commons</licenseLink>
 share-title = Ajută-ne să găsim alte persoane care să-și doneze vocea!
 share-text = Ajută mașinile să învețe despre cum vorbesc oamenii, donează vocea ta la { $link }
+link-copied = Link copiat
 back-top = Înapoi în partea superioară
+contribution-banner-button = Aruncă o privire
+report-bugs-link = Ajută la raportarea de probleme
 
 ## Home Page
 
@@ -106,15 +123,21 @@ help-us-title = Ajută-ne să validăm propozițiile!
 help-us-explain = Apasă pe redare, ascultă și spune-ne: a pronunțat corect propoziția de mai jos?
 vote-yes = Da
 vote-no = Nu
+speak-subtitle = Donează-ți vocea
+all-languages = Toate limbile
+today = Astăzi
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
+shortcut-play-toggle-label = Redă/Oprește
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
