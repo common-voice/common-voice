@@ -126,9 +126,31 @@ no-clips-to-validate = Bu dilde dinlenecek kayıt kalmadı. Yeni konuşmalar kay
 vote-yes = Evet
 vote-no = Hayır
 toggle-play-tooltip = Oynatma modunu açıp kapatmak için { shortcut-play-toggle } tuşuna basın
+speak-subtitle = Sesinizi bağışlayın
+speak-goal-text = Kaydedilen ses
+listen-subtitle = Sesleri doğrulamamıza yardım edin
+listen-goal-text = Doğrulanan ses
+hours-recorded = Kaydedilen saat
+hours-validated = Doğrulanan saat
+read-terms-q = Koşullarımızı okudunuz mu?
 ready-to-record = Sesinizi bağışlamaya hazır mısınız?
 all-languages = Tüm diller
 today = Bugün
+x-weeks-short =
+    { $count ->
+        [one] Hafta
+       *[other] { $count } hafta
+    }
+x-months-short =
+    { $count ->
+        [one] { $count } ay
+       *[other] { $count } ay
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } yıl
+       *[other] { $count } yıl
+    }
 
 ## Speak & Listen Shortcuts
 
@@ -336,6 +358,7 @@ contribute = Katkıda bulun
 listen = Dinle
 skip = Atla
 shortcuts = Kısayollar
+clips-with-count = <bold>{ $count }</bold> ses kaydı
 goal-help-recording = Common Voice'un günlük { $goalValue } kayıt hedefinin <goalPercentage></goalPercentage> kadarına ulaşmasına katkıda bulundunuz!
 goal-help-validation = Common Voice'un günlük { $goalValue } doğrulama hedefinin <goalPercentage></goalPercentage> kadarına ulaşmasına katkıda bulundunuz!
 contribute-more =
