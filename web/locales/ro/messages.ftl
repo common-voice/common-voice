@@ -8,7 +8,6 @@ email-input =
     .label = E-mail
 submit-form-action = Trimite
 loading = Se încarcă…
-audio-loading-error = Ne pare rău! Procesăm fișierele noastre audio, te rugăm să încerci din nou în scurt timp.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -16,22 +15,35 @@ audio-loading-error = Ne pare rău! Procesăm fișierele noastre audio, te rugă
 
 ## Languages
 
+an = Aragoneză
+ar = Arabă
+as = Assameză
+ast = Asturiană
+az = Azerbaidjană
 bn = Bengali
+br = Bretonă
+bxr = Buriată
 ca = Catalană
+cak = Kaqchikel
+cnh = Hakha Chin
 cs = Cehă
 cv = Ciuvașă
 cy = Galeză
 da = Daneză
 de = Germană
+dsb = Sorbenă de jos
 el = Greacă
 en = Engleză
+eo = Esperanto
 es = Spaniolă
-es-AR = Spaniolă (Argentina)
-es-CL = Spaniolă (Chile)
+et = Estonă
+fi = Finlandeză
+fo = Feroeză
 fr = Franceză
 fy-NL = Friziană
 ga-IE = Irlandeză
 he = Ebraică
+hsb = Sorbenă de sus
 hu = Maghiară
 id = Indoneziană
 it = Italiană
@@ -95,17 +107,23 @@ help-us-explain = Apasă pe redare, ascultă și spune-ne: a pronunțat corect p
 vote-yes = Da
 vote-no = Nu
 
-## Shortcuts
+## Speak & Listen Shortcuts
 
-# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
-# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
 # Must be one letter that appears in the { vote-yes } string.
-# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
-# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Speak Shortcuts
+
 request-language-text = Nu îți vezi limba pe Common Voice încă?
 request-language-button = Solicită o limbă
 
@@ -132,7 +150,6 @@ profile-form-username =
     .label = Nume de utilizator
 profile-form-language =
     .label = Limbă
-profile-form-more-languages = Mai multe limbi vin în curând!
 profile-form-accent =
     .label = Accent
 profile-form-age =
@@ -253,7 +270,6 @@ download-no = Nu, mersi
 ## Contact Modal
 
 contact-title = Formular de contact
-contact-cancel = Renunță
 contact-form-name =
     .label = Nume
 contact-form-message =
@@ -263,7 +279,6 @@ contact-required = *necesar
 ## Request Language Modal
 
 request-language-title = Solicitare de limbă
-request-language-cancel = Ieși din formular
 request-language-form-language =
     .label = Limbă
 request-language-success-title = Cererea de limbă a fost trimisă cu succes, îți mulțumim.
@@ -279,3 +294,7 @@ language-speakers = Vorbitori
 language-total-progress = Total
 language-search-input =
     .placeholder = Căutare
+language-speakers = Vorbitori
+
+## New Contribution
+
