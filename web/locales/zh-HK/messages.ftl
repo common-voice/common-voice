@@ -128,6 +128,27 @@ no-clips-to-validate = 睇嚟而家無任何錄音可聽。請幫我哋錄下一
 vote-yes = Yes
 vote-no = No
 toggle-play-tooltip = 按下 { shortcut-play-toggle } 即可切換播放模式
+speak-subtitle = 貢獻您的聲音
+speak-goal-text = 段新錄音
+listen-goal-text = 段錄音成功被認證
+hours-recorded = 個小時的錄音
+hours-validated = 個小時已被認證的錄音
+read-terms-q = 睇咗我哋嘅條款未？
+ready-to-record = 準備好去獻聲未？
+all-languages = 所有語言
+today = 今日
+x-weeks-short =
+    { $count ->
+       *[other] 週
+    }
+x-months-short =
+    { $count ->
+       *[other] 月
+    }
+x-years-short =
+    { $count ->
+       *[other] 年
+    }
 
 ## Speak & Listen Shortcuts
 
@@ -205,11 +226,14 @@ profile-explanation = 使用您的個人帳戶可以保留您的進展，並幫�
 faq-title = 常見問題
 faq-what-q = Common Voice 是什麼？
 faq-important-q = 點解咁重要？
+faq-important-a = 語音是自然、有人性的，也是最簡單、最自然的溝通方式。我們希望所有開發者都能打造超酷的東西，例如即時翻譯軟體，或語音行政助理等等。可惜現在目前還沒有足夠的公開資料去開發這些應用程式。我們希望 Common Voice 計劃能夠提供這個必要條件，讓開發者能大膽創新。
 faq-get-q = 我怎樣索取 Common Voice 的數據？
 faq-get-a = 這個數據集現可在我們的<downloadLink>下載分頁</downloadLink>依照 <licenseLink>CC-0</licenseLink>授權條款取得。
 faq-mission-q = 點解 Common Voice 係 Mozilla 的使命的一部分？
 faq-native-q = { $lang } 唔係我的母語，所以我讀起來有口音，你哋仲想要我把聲？
+faq-native-a = 我們當然想要您的聲音！Common Voice 的其中一個目標就是去收集越來越多的不同腔調，讓電腦更能夠聽得懂<bold>每一個人</bold>所說的話。
 faq-firefox-q = 語音識別技術會不會透過 Common Voice 成爲火狐瀏覽器的一部分？
+faq-firefox-a = Common Voice 有無限的潛能，我們也正在 Firefox 等眾多 Mozilla 產品中探索語音介面的可能性。
 faq-quality-q = 錄音的質素要有幾好才可以使用？
 faq-hours-q = 為何目標是取得一萬小時的錄音？
 faq-hours-a = 這是用來訓練 STT 系統所需的大約時數。
@@ -323,6 +347,7 @@ skip = 略過
 shortcuts = 捷徑
 clips-with-count = <bold>{ $count }</bold> 段錄音
 goal-help-recording = 您已幫助 Common Voice 完成每日 { $goalValue } 錄音目標的<goalPercentage></goalPercentage>！
+goal-help-validation = 您已幫助 Common Voice 達到我們每日 { $goalValue } 驗證目標的 <goalPercentage></goalPercentage>！
 contribute-more =
     { $count ->
        *[other] 準備好再做{ $count }個？
