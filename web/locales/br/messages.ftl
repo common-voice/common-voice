@@ -126,6 +126,7 @@ no-clips-to-validate = War a seblant n'eus klip ebet da selaou evit ar yezh-mañ
 vote-yes = Ya
 vote-no = Ket
 toggle-play-tooltip = Pouezit war { shortcut-play-toggle } evit gwintañ war-du ar mod lenn
+today = Hiziv
 
 ## Speak & Listen Shortcuts
 

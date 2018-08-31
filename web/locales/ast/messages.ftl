@@ -127,6 +127,24 @@ no-clips-to-validate = Paez que nesta llingua nun hai dengún clip pa sentir. Ay
 vote-yes = Sí
 vote-no = Non
 toggle-play-tooltip = Primi { shortcut-play-toggle } p'alternar el mou de reproducción
+listen-subtitle = Ayúdanos a validar voces
+listen-goal-text = Clips validaos
+hours-recorded = Hores grabaes
+hours-validated = Hores validaes
+read-terms-q = ¿Lleesti los nuesos términos?
+all-languages = Toles llingües
+today = Güei
+x-weeks-short = VoxForge creóse pa recoyer charres trescrites y usales dempués nos motores de reconocencia gratuítos y de códigu abiertu.
+x-months-short =
+    { $count ->
+        [one] { $count } mes
+       *[other] { $count } meses
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } añu
+       *[other] { $count } años
+    }
 
 ## Speak & Listen Shortcuts
 
@@ -248,6 +266,7 @@ data-other-goto = Dir a { $name }
 data-other-download = Baxar datos
 data-other-librispeech-description = LibriSpeech ye un corpus de 1000 hores aproximadamente a 16Khz de llectura d'audiollibros n'inglés del proyeutu LibriVox.
 data-other-ted-name = Corpus de TED-LIUM
+data-other-ted-description = El corpus de TED-LIUM fízose de magar d'audios de charres y les sos trescripciones disponibles nel sitiu web TED.
 data-other-voxforge-description = VoxForge creóse pa recoyer charres trescrites y usales dempués nos motores de reconocencia gratuítos y de códigu abiertu.
 data-other-tatoeba-description = Tatoeba ye una base de datos grande de frases, traducciones y audios pal usu nel deprendimientu de llingües. Esta descarga contién grabaciones n'inglés faláu pola so comunidá.
 data-bundle-button = Baxar el paquete del conxuntu de datos

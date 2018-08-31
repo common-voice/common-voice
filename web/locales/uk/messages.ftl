@@ -148,6 +148,26 @@ hours-recorded = Записано годин
 hours-validated = Перевірено годин
 read-terms-q = Ви ознайомилися з нашими умовами?
 ready-to-record = Готові допомогти із записом свого голосу?
+all-languages = Усі мови
+today = Сьогодні
+x-weeks-short =
+    { $count ->
+        [one] Тиждень
+        [few] { $count } тижні
+       *[other] { $count } тижнів
+    }
+x-months-short =
+    { $count ->
+        [one] Місяць
+        [few] { $count } місяці
+       *[other] { $count } місяців
+    }
+x-years-short =
+    { $count ->
+        [one] Рік
+        [few] { $count } роки
+       *[other] { $count } років
+    }
 
 ## Speak & Listen Shortcuts
 

@@ -8,7 +8,6 @@ email-input =
     .label = E-mail
 submit-form-action = Trimite
 loading = Se încarcă…
-audio-loading-error = Ne pare rău! Procesăm fișierele noastre audio, te rugăm să încerci din nou în scurt timp.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -16,29 +15,50 @@ audio-loading-error = Ne pare rău! Procesăm fișierele noastre audio, te rugă
 
 ## Languages
 
+an = Aragoneză
+ar = Arabă
+as = Assameză
+ast = Asturiană
+az = Azerbaidjană
 bn = Bengali
+br = Bretonă
+bxr = Buriată
 ca = Catalană
+cak = Kaqchikel
+cnh = Hakha Chin
 cs = Cehă
 cv = Ciuvașă
 cy = Galeză
 da = Daneză
 de = Germană
+dsb = Sorbenă de jos
 el = Greacă
 en = Engleză
+eo = Esperanto
 es = Spaniolă
-es-AR = Spaniolă (Argentina)
-es-CL = Spaniolă (Chile)
+et = Estonă
+fi = Finlandeză
+fo = Feroeză
 fr = Franceză
 fy-NL = Friziană
 ga-IE = Irlandeză
 he = Ebraică
+hsb = Sorbenă de sus
 hu = Maghiară
+ia = Interlingua
 id = Indoneziană
+is = Islandeză
 it = Italiană
+ja = Japoneză
 ka = Georgiană
+kab = Kabilă
+kk = Kazahă
 ko = Coreeană
+kpv = Komi-ziriană
 kw = Cornică
+ky = Kirghiză
 mk = Macedoneană
+myv = Erzya
 nb-NO = Norvegiană (Bokmål)
 ne-NP = Nepaleză
 nl = Olandeză
@@ -46,9 +66,12 @@ nn-NO = Norvegiană Nynorsk
 or = Odia
 pl = Poloneză
 pt-BR = Portugheză (Brazilia)
+rm = Retoromană
 ro = Română
 ru = Rusă
+sah = Sakha
 sk = Slovacă
+sl = Slovenă
 sq = Albaneză
 sr = Sârbă
 sv-SE = Suedeză
@@ -58,8 +81,10 @@ th = Thailandeză
 tr = Turcă
 tt = Tătară
 uk = Ucraineană
+ur = Urdu
 uz = Uzbecă
 zh-CN = Chineză (China)
+zh-HK = Chineză (Hong Kong)
 zh-TW = Chineză (Taiwan)
 
 # [/]
@@ -68,6 +93,7 @@ zh-TW = Chineză (Taiwan)
 ## Layout
 
 speak = Vorbește
+speak-now = Vorbește acum
 datasets = Seturi de date
 languages = Limbi
 profile = Profil
@@ -80,7 +106,10 @@ faq = Întrebări frecvente
 content-license-text = Conţinut disponibil sub o <licenseLink>licență Creative Commons</licenseLink>
 share-title = Ajută-ne să găsim alte persoane care să-și doneze vocea!
 share-text = Ajută mașinile să învețe despre cum vorbesc oamenii, donează vocea ta la { $link }
+link-copied = Link copiat
 back-top = Înapoi în partea superioară
+contribution-banner-button = Aruncă o privire
+report-bugs-link = Ajută la raportarea de probleme
 
 ## Home Page
 
@@ -94,18 +123,52 @@ help-us-title = Ajută-ne să validăm propozițiile!
 help-us-explain = Apasă pe redare, ascultă și spune-ne: a pronunțat corect propoziția de mai jos?
 vote-yes = Da
 vote-no = Nu
+speak-subtitle = Donează-ți vocea
+all-languages = Toate limbile
+today = Astăzi
+x-weeks-short =
+    { $count ->
+        [one] { $count } săpt.
+        [few] { $count } săpt.
+       *[other] { $count } de săpt.
+    }
+x-months-short =
+    { $count ->
+        [one] { $count } lună
+        [few] { $count } luni
+       *[other] { $count } de luni
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } an
+        [few] { $count } ani
+       *[other] { $count } de ani
+    }
 
-## Shortcuts
+## Speak & Listen Shortcuts
 
-# Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
-# Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
+shortcut-play-toggle-label = Redă/Oprește
 # Must be one letter that appears in the { vote-yes } string.
-# Must be different from { shortcut-vote-no } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
-# Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Speak Shortcuts
+
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Înregistrează/Oprește
 request-language-text = Nu îți vezi limba pe Common Voice încă?
 request-language-button = Solicită o limbă
 
@@ -132,7 +195,6 @@ profile-form-username =
     .label = Nume de utilizator
 profile-form-language =
     .label = Limbă
-profile-form-more-languages = Mai multe limbi vin în curând!
 profile-form-accent =
     .label = Accent
 profile-form-age =
@@ -253,7 +315,6 @@ download-no = Nu, mersi
 ## Contact Modal
 
 contact-title = Formular de contact
-contact-cancel = Renunță
 contact-form-name =
     .label = Nume
 contact-form-message =
@@ -263,7 +324,6 @@ contact-required = *necesar
 ## Request Language Modal
 
 request-language-title = Solicitare de limbă
-request-language-cancel = Ieși din formular
 request-language-form-language =
     .label = Limbă
 request-language-success-title = Cererea de limbă a fost trimisă cu succes, îți mulțumim.
@@ -276,6 +336,19 @@ language-section-launched = Lansate
 languages-show-more = Vezi mai multe
 languages-show-less = Vezi mai puține
 language-speakers = Vorbitori
+language-meter-in-progress = Progreso
 language-total-progress = Total
 language-search-input =
     .placeholder = Căutare
+language-speakers = Vorbitori
+localized = Localizat
+sentences = Propoziții
+total-hours = Ore validate
+
+## New Contribution
+
+action-click = Clic
+action-tap = Atinge
+contribute = Contribuie
+listen = Ascultă
+record-button-label = Înregistrează-ți vocea

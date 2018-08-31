@@ -139,6 +139,36 @@ listen-goal-text = Clipiau wedi'u dilysu
 hours-recorded = Oriau wedi'u Recordio
 hours-validated = Oriau wedi'u Dilysu
 read-terms-q = Ydych chi wedi darllen ein Amodau?
+ready-to-record = Barod i gyfrannu eich llais?
+all-languages = Pob Iaith
+today = Heddiw
+x-weeks-short =
+    { $count ->
+        [zero] Wythnos
+        [one] Wythnos
+        [two] Wythnos
+        [few] Wythnos
+        [many] Wythnos
+       *[other] Wythnos
+    }
+x-months-short =
+    { $count ->
+        [zero] mis
+        [one] mis
+        [two] mis
+        [few] mis
+        [many] mis
+       *[other] mis
+    }
+x-years-short =
+    { $count ->
+        [zero] b
+        [one] b
+        [two] b
+        [few] b
+        [many] b
+       *[other] b
+    }
 
 ## Speak & Listen Shortcuts
 
@@ -347,7 +377,7 @@ total-hours = Cyfanswm Oriau
 
 action-click = Cliciwch
 action-tap = Tapiwch
-contribute = Cyfrannwch
+contribute = Cyfrannu
 listen = Gwrando
 skip = Hepgor
 shortcuts = Llwybrau Byr

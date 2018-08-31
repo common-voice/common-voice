@@ -179,6 +179,7 @@ notfound-title = Эз аддзы
 
 data-download-yes = Да
 data-download-deny = Ог
+data-download-license = Лисенция: <licenseLink>CC-0</licenseLink>
 data-other-goto = Мун { $name } вылӧ
 data-other-ted-name = TED-LIUM корпус
 
@@ -193,6 +194,7 @@ record-help = Личкы гижны, сы бӧрын лыддьы вылыса �
 terms-agree = Сӧглас.
 terms-disagree = Абу сӧглас.
 review-recording = Видзӧдлӧм
+review-rerecord = Гиж вылысь
 
 ## Download Modal
 
@@ -234,3 +236,4 @@ record-last-instruction = Медбӧръя!
 record-abort-continue = Дугды гижны
 listen-last-time-instruction = Медбӧръя!
 record-button-label = Гиж тэнад гор
+share-title-new = <bold>Отсав миянӧс</bold> аддзыны унджык горъяс

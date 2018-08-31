@@ -121,6 +121,7 @@ wall-of-text-more-mobile = 大部分現成的數據由大公司擁有，並未�
 wall-of-text-more-desktop =
     現在您可以將自己的聲音捐畀我哋，以幫助打造開放原始碼的語音資料庫，讓任何人都可以為裝置和互聯網打造嶄新的應用程式。<lineBreak></lineBreak>
     只要朗讀一段文字，您就可以幫助機器了解我哋點樣講嘢。您亦可以驗證其他貢獻者的聲音，以協助改善品質。就係咁簡單！
+wall-of-text-first = 語音係自然、有人性的，所以我哋好興奮能為機器創立可用的語音技術。但建立語音系統，需要非常大量的語音數據。
 show-wall-of-text = 瞭解更多
 help-us-title = 請幫我哋驗證句子！
 help-us-explain = 按下播放按鈕，聽一聽，然後回覆：佢哋正確地讀出以下的句子嗎？
@@ -128,6 +129,29 @@ no-clips-to-validate = 睇嚟而家無任何錄音可聽。請幫我哋錄下一
 vote-yes = Yes
 vote-no = No
 toggle-play-tooltip = 按下 { shortcut-play-toggle } 即可切換播放模式
+speak-subtitle = 貢獻您的聲音
+speak-paragraph = 錄音係我哋建立開放數據集時不可否缺的一部分，亦係好多人覺得最好玩的一部分！
+speak-goal-text = 段新錄音
+listen-subtitle = 幫我哋驗證錄音
+listen-goal-text = 段錄音成功被驗證
+hours-recorded = 個小時的錄音
+hours-validated = 個小時已被驗證的錄音
+read-terms-q = 睇咗我哋嘅條款未？
+ready-to-record = 準備好去獻聲未？
+all-languages = 所有語言
+today = 今日
+x-weeks-short =
+    { $count ->
+       *[other] 週
+    }
+x-months-short =
+    { $count ->
+       *[other] 月
+    }
+x-years-short =
+    { $count ->
+       *[other] 年
+    }
 
 ## Speak & Listen Shortcuts
 
@@ -205,11 +229,14 @@ profile-explanation = 使用您的個人帳戶可以保留您的進展，並幫�
 faq-title = 常見問題
 faq-what-q = Common Voice 是什麼？
 faq-important-q = 點解咁重要？
+faq-important-a = 語音是自然、有人性的，也是最簡單、最自然的溝通方式。我們希望所有開發者都能打造超酷的東西，例如即時翻譯軟體，或語音行政助理等等。可惜現在目前還沒有足夠的公開資料去開發這些應用程式。我們希望 Common Voice 計劃能夠提供這個必要條件，讓開發者能大膽創新。
 faq-get-q = 我怎樣索取 Common Voice 的數據？
 faq-get-a = 這個數據集現可在我們的<downloadLink>下載分頁</downloadLink>依照 <licenseLink>CC-0</licenseLink>授權條款取得。
 faq-mission-q = 點解 Common Voice 係 Mozilla 的使命的一部分？
 faq-native-q = { $lang } 唔係我的母語，所以我讀起來有口音，你哋仲想要我把聲？
+faq-native-a = 我們當然想要您的聲音！Common Voice 的其中一個目標就是去收集越來越多的不同腔調，讓電腦更能夠聽得懂<bold>每一個人</bold>所說的話。
 faq-firefox-q = 語音識別技術會不會透過 Common Voice 成爲火狐瀏覽器的一部分？
+faq-firefox-a = Common Voice 有無限的潛能，我們也正在 Firefox 等眾多 Mozilla 產品中探索語音介面的可能性。
 faq-quality-q = 錄音的質素要有幾好才可以使用？
 faq-hours-q = 為何目標是取得一萬小時的錄音？
 faq-hours-a = 這是用來訓練 STT 系統所需的大約時數。
@@ -235,12 +262,18 @@ data-download-deny = 不好
 data-download-license = 授權條款: <licenseLink>CC-0</licenseLink>
 data-download-modal = 您將會下載 <size>{ $size } GB</size> 的檔案，要繼續嗎？
 data-subtitle = 我們正在打造一套開放、可公開使用的語音數據集，讓每個人都可用來訓練有語音功能的應用程式。
+data-explanatory-text = 我們相信，大型而公開可用的語音數據集能夠促進語音機器學習科技的創新，以及健康的商業競爭。這是一項全球性的運動，我們邀請任何人士參與。我們的目標是令語音技術能夠更具包容性，反映出世界各地語音的多樣性。
 data-get-started = <speechBlogLink>語音辨識新手上路</speechBlogLink>
 data-other-title = 其他語音數據集…
 data-other-goto = 前往 { $name }
 data-other-download = 下載數據
+data-other-librispeech-description = LibriSpeech 語料庫來自 LibriVox 計劃，共有約一千小時的 16Khz 英語有聲書錄音。
 data-other-ted-name = TED-LIUM 語料庫
+data-other-ted-description = TED-LIUM 語料庫是從 TED 網站上的講座對話，及其被抄寫下來的演講稿一起製作而成的語料庫。
+data-other-voxforge-description = VoxForge 的成立，是爲自由與開放原始碼的語音辨識引擎收集被抄寫的對話內容。
+data-other-tatoeba-description = Tatoeba 是一套用於語言學習的大型數據庫，當中包含了各種句子、翻譯、以及錄音。這個下載項目包含了其社群所錄下的英語語音。
 data-bundle-button = 下載數據組合
+data-bundle-description = Common Voice 數據，以及上面列出的所有其他語音數據集。
 license = 授權條款：<licenseLink>{ $license }</licenseLink>
 license-mixed = 混合
 
@@ -256,7 +289,9 @@ record-error-too-short = 這個錄音太短了。
 record-error-too-long = 這個錄音太長了。
 record-error-too-quiet = 這個錄音太靜了。
 record-submit-success = 成功提交了！想再錄更多嗎？
+record-help = 點擊開始錄音，然後大聲朗讀上面的句子。
 record-cancel = 取消重新錄音
+review-terms = 使用 Common Voice，即代表您同意我們的<termsLink>條款</termsLink>和<privacyLink>私隱聲明</privacyLink>
 terms-agree = 我同意
 terms-disagree = 我不同意
 review-aborted = 上載中斷了，你想刪除你的錄音嗎？
@@ -271,6 +306,7 @@ review-delete-recordings = 刪除我的錄音
 ## Download Modal
 
 download-title = 您的下載開始了。
+download-helpus = 請幫助我們打造一個使用語音技術的社群，並透過電郵保持聯繫。
 download-form-email =
     .label = 留下您的電郵
     .value = 多謝，我們會保持聯繫。
@@ -298,6 +334,7 @@ request-language-success-title = 已收到新語言請求，感謝您。
 language-section-in-progress = 準備中
 language-section-in-progress-description = 準備中嘅語言，代表該語言社群正在貢獻中。當中嘅進度反映了網站本地化的翻譯進度，以及語句收集的進度。
 language-section-launched = 已上線
+language-section-launched-new-description = 已上線的語言代表該網站的本地化經已完成，並已收集足夠的語料，可接受<italic>聽話</italic>與<italic>說話</italic>的貢獻。
 languages-show-more = 檢視更多
 languages-show-less = 檢視更少
 language-speakers = 使用者數
@@ -320,6 +357,7 @@ skip = 略過
 shortcuts = 捷徑
 clips-with-count = <bold>{ $count }</bold> 段錄音
 goal-help-recording = 您已幫助 Common Voice 完成每日 { $goalValue } 錄音目標的<goalPercentage></goalPercentage>！
+goal-help-validation = 您已幫助 Common Voice 達到我們每日 { $goalValue } 驗證目標的 <goalPercentage></goalPercentage>！
 contribute-more =
     { $count ->
        *[other] 準備好再做{ $count }個？

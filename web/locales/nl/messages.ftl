@@ -138,6 +138,23 @@ hours-recorded = Opgenomen uren
 hours-validated = Gevalideerde uren
 read-terms-q = Hebt u onze Voorwaarden gelezen?
 ready-to-record = Klaar om uw stem te doneren?
+all-languages = Alle talen
+today = Vandaag
+x-weeks-short =
+    { $count ->
+        [one] week
+       *[other] { $count } wkn
+    }
+x-months-short =
+    { $count ->
+        [one] maand
+       *[other] { $count } mndn
+    }
+x-years-short =
+    { $count ->
+        [one] jaar
+       *[other] { $count } jr
+    }
 
 ## Speak & Listen Shortcuts
 
