@@ -132,6 +132,7 @@ vote-no = Non
 toggle-play-tooltip = Appuyez sur { shortcut-play-toggle } pour lancer ou arrêter la lecture
 speak-subtitle = Donnez un peu de votre voix
 speak-paragraph = L’enregistrement d’échantillons de voix fait partie intégrante de notre collecte de données ouvertes ; certains diront même que c’est la partie la plus amusante.
+speak-goal-text = Échantillons enregistrés
 listen-subtitle = Aidez-nous à valider les échantillons vocaux
 hours-recorded = Heures d’enregistrement
 hours-validated = Heures validées
