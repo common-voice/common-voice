@@ -134,11 +134,24 @@ speak-subtitle = Donnez un peu de votre voix
 speak-paragraph = L’enregistrement d’échantillons de voix fait partie intégrante de notre collecte de données ouvertes ; certains diront même que c’est la partie la plus amusante.
 speak-goal-text = Échantillons enregistrés
 listen-subtitle = Aidez-nous à valider les échantillons vocaux
+listen-paragraph = La validation des échantillons vocaux donnés est également importante pour la mission Common Voice. Prenez l’écoute et aidez-nous à créer des données vocales libres de qualité.
+listen-goal-text = Extraits validés
 hours-recorded = Heures d’enregistrement
 hours-validated = Heures validées
 read-terms-q = Avez-vous lu les conditions d’utilisation ?
+ready-to-record = Êtes-vous prêt⋅e à donner de votre voix ?
 all-languages = Toutes les langues
 today = Aujourd’hui
+x-months-short =
+    { $count ->
+        [one] mois
+       *[other] { $count } mois
+    }
+x-years-short =
+    { $count ->
+        [one] an
+       *[other] { $count } ans
+    }
 
 ## Speak & Listen Shortcuts
 
