@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Ih, ceyyeɛ-iyi-d imaylen. bɣiɣ ad yi-d-ttawḍen yisallen ɣef usenfaṛ n Commen Voice.
+yes-receive-emails = Ih, ceyyeɛ-iyi-d imaylen. Bɣiɣ ad yi-d-ttawḍen yisallen ɣef usenfaṛ n Commen Voice.
 stayintouch = Nekkni di Mozilla, nbennu tarbaɛt itezzin ɣef tetiknulujit. Nebɣa ad neqqim akked umaynut d yileqman, isefka imaynuten akken ad nsel ugar ɣef wamek ara ttwasqedcen isefka-agi.
 privacy-info = Ad neḍmen d akken ad neḥrez isefka-nwen. Ɣeṛ ugar ɣef <privacyLink>tsertit tabaḍnit</privacyLink>.
 return-to-cv = Uɣal ar Common Voice
