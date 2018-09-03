@@ -921,7 +921,7 @@ Er zat helemaal geen structuur in zijn presentatie.
 De scheidsrechter had een grove fout gemaakt.
 Je kan dat per definitie niet op die manier uitwerken.
 Zij heeft een kat in een zak gekocht.
-Wol wordt gemaakt van de vacht van schapen.
+Er zijn vannacht enkele lammetjes geboren bij mijn opa.
 Een vlinder wordt geboren als een rups.
 Een kalf is het jong van een rund.
 Een mannelijk rund is een stier terwijl een vrouwelijk rund een koe is.
@@ -1135,7 +1135,7 @@ Dat is slechts een klein akkefietje.
 Is het glas halfvol of halfleeg?
 Zij is wel een pientere dame.
 Zei ze dat?
-Haar leven hing aan een zijden draadje.
+Ze zouden eens wat meer liedjes moeten draaien op de radio in plaats van altijd die commentaar.
 De vlieg vliegt.
 Ik hou niet van dat soort puberaal gedrag.
 Kunnen we hier even stoppen voor een kort toiletbezoek?
@@ -1675,7 +1675,7 @@ Het is een chihuahua, genoemd naar de gelijknamige Mexicaanse provincie Chihuahu
 Ken jij alle landen van Zuid-Amerika?
 Argentinië, Brazilië, Columbia en Venezuela zijn allemaal landen in Zuid-Amerika.
 De Verenigde Naties, afgekort als VN, is een internationaal orgaan.
-Hoe laat is het?
+Ik moet mijn dochter de borst gaan geven.
 Hoe laat gaan we vertrekken?
 Het is tijd om naar bed te gaan?
 Over een uurtje gaan we doorgaan.
@@ -1821,7 +1821,7 @@ De fiscus ziet erop toe dat de belastingen juist betaald worden.
 Ze is verdwaalt in het doolhof.
 Bij Cluedo is het de bedoeling om de moordenaar, het juiste moordwapen en de locatie van het misdrijf te achterhalen.
 De vacht van de kat is zacht.
-De kat krabt de krollen van de trap.
+De onderkant van haar jurk was vuil van het over de grond slepen.
 De Transsiberië Express is een treinverbinding die Moskou met Beijing verbindt.
 In negentienhonderdnegenenzestig is de eerste mens op de maan geland.
 Allemaal lachen voor de groepsfoto!
@@ -2348,7 +2348,7 @@ Ik heb oogdruppels nodig.
 Ik ben al lang niet meer naar een museum geweest.
 Ik moet mijn nagels nog eens knippen.
 Waar heb ik mijn loopschoenen gelegd?
-Gele ogen zijn een symptoom van leverfalen.
+Geel is mijn lievelingskleur.
 Je kan je kleren laten drogen op de wasrek.
 De sirene van het brandalarm maakt veel lawaai!
 Voor mij een ijsje op een hoorntje met twee bolletjes vanille.
@@ -3203,7 +3203,7 @@ Ik eet al meer groenten en fruit tegenwoordig.
 Dat is al een goed begin.
 De Beatles waren van Liverpool.
 Dat ligt dicht bij Manchester.
-Het gras is altijd groener aan de overkant.
+Mijn oma slaapt altijd met een haarnetje.
 Ze zijn momenteel bezig met de fundering van het gebouw.
 Hij onderging het allemaal zonder te morren.
 Ze heeft over de twee meter gesprongen bij het hoogspringen.
@@ -3283,7 +3283,7 @@ De stoel heeft krassen gemaakt op de vloer.
 Ik kan het dekbedovertrek niet vinden.
 Die term ken ik niet.
 Hij maakt alles te complex.
-Zij heeft een uitgebreide woordenschat.
+Hij heeft zijn thesis geschreven over kastelen in Europa, gebouwd tussen twaalfhonderd en dertienhonderd.
 Is dat de juiste terminologie?
 Is de elektricien al lang geweest?
 Die soort is geëvolueerd.
@@ -3378,3 +3378,446 @@ De stelling van Pythagoras beschrijft de relatie tussen zijden in een driehoek.
 Eureka is bekend door het verhaal van Archimedes.
 De stroomstoring duurde bijna twee uur.
 Heb je een gum zodat ik de potloodstreep kan uitgummen?
+Zij is verantwoordelijk voor het onderhoud van de vaten.
+De boer is gespecialiseerd in veeteelt.
+Je moet binnen de lijntjes kleuren.
+Ik heb mijn handen vol aan hem.
+Nadat we de kerstboom hadden gehaald zijn we de hele middag bezig geweest met het ophangen van de kerstballen en de kerstverlichting.
+Malta is een eiland.
+Hoort Gibraltar bij het Verenigd Koninkrijk?
+Marokko ligt aan de andere kant.
+Dat is maar het topje van de ijsberg. 
+IJsberen hebben het almaar moeilijker om voedsel te vinden.
+Er zijn nu al verschillende schepen die de tocht rond Canada succesvol hebben gemaakt.
+Op volle kracht voer de ijsbreker verder.
+Liggen er ijsblokjes in de diepvries?
+Er staat een karton melk in de koelkast.
+Vanavond eten we diepvriespizza.
+Kan je mij de Nutella even aangeven? 
+Er mag nog wat nootmuskaat bij.
+Onze gedachten zijn bij de familie.
+De begrafenisondernemer maande ons aan om door te gaan.
+Budapest en Bucharest zijn twee verschillende hoofdsteden.
+Ken jij alle hoofdsteden van Europa?
+Ankara is de hoofdstad van Turkije.
+Hij bengelde aan het touw.
+Het lokaal stond vol computerapparatuur.
+Ik ben mijn MacBook kwijt. 
+Het scherm blijft zwart.
+Mijn computer start niet meer op.
+Ik denk dat mijn harde schijf om zeep is.
+Kan het zijn dat mijn grafische kaart het begeven heeft?
+Ik heb een processor van Intel.
+Mijn grafische kaart is van Nvidia.
+Heb jij bitcoins?
+Ik heb haar geklopt in de spurt.
+De spits was te snel voor mij.
+Voor haar katten was dit een waar paradijs. 
+Max keek mij recht in de ogen.
+Heeft Eva gelogen?
+Esther is vorige week begonnen op ons kantoor.
+Pieter speelt ook tennis.
+Ine speelt beter dan ik.
+Kobe kan een vliegtuig besturen.
+Ken jij Jonas? 
+Zou ik mijn bestelling nog kunnen aanpassen?
+Ik ga eerst je maten nemen.
+Dat stuk grond moet nog opgemeten worden.
+Wanneer komt de landmeter?
+De sneeuwman is gesmolten.
+Valt Kerstmis altijd op de vijfentwintigste?
+Ik kan de slaap niet vatten.
+De Nokia drieëndertig tien was onverwoestbaar.
+Dat is een lopend onderzoek.
+Naar waar gaan jullie op reis?
+Op het terras van een appartement mag je geen barbecue met kolen gebruiken.
+Ik barbecue graag in de zomer.
+Wij barbecueën graag 's avonds.
+De strijd is zinloos.
+Na de wedstrijd was ik uitgeput.
+Ze hebben het boek verfilmd.
+Ik zie liever animatiefilms dan tekenfilms.
+Mijn peter en meter waren aanwezig bij mijn doopsel.
+Ik heb mijn visumaanvraag ingediend.
+Dat is de beste chocolaterie van België.
+Er zijn nu meer Nederlandstalige series op Netflix.
+Hoeveel automerken kan jij opnoemen?
+Het is de A van Alfa Romeo.
+Het is de B van Bugatti.
+Het is de C van Chevrolet.
+Het is de D van Daimler, Dacia of Dodge.
+Het is de E van Eagle. 
+Het is de F van Ferrari, Ford of Fiat.
+Het is de G van Gazelle.
+Het is de H van Honda of Hyundai.
+Het is de I van Imperia.
+Het is de J van Jaguar of Jeep.
+Het is de K van Kia.
+Het is de L van Lada of Lamborghini.
+Het is de L van Land Rover, Lexus of Lotus.
+Het is de M van Mazda, McLaren of Mercedes.
+Het is de M van Minerva of Mitsubishi.
+Het is de N van Nissan.
+Het is de O van Opel.
+Het is de P van Peugeot of Porsche.
+Het is de Q van Quinten.
+Het is de R van Renault of Rolls-Royce.
+Het is de S van Saab, Seat of Skoda.
+Het is de S van Spyker.
+Het is de T van Tesla of Toyota.
+Het is de U van Uranus.
+Het is de V van Volkswagen of Volvo.
+Het is de W van Waaijenberg.
+Het is de X van Xavier.
+Het is de Y van Yamaha.
+Het is de Z van Zoë.
+Suiker zit in Coca Cola om het zoeter te maken.
+Heb je de Leeuwenkoning gezien?
+Het was een chaotisch begin van de week.
+Er zat een barst in de dam van het stuwmeer.
+Het was een grote chaos.
+Ze droeg oude, versleten jeans.
+De huid was duidelijk geïrriteerd.
+Geïrriteerd liep hij naar huis.
+Aan de kassa vertelden ze haar dat gebruikte goederen niet gewisseld kunnen worden.
+De opbouw van het nummer kan beter.
+Door een probleem met het internet ben ik technisch werkloos.
+Het kind was verdwaalt in de catacomben.
+Ik had het gezien in de catalogus.
+Ken jij de naam van de hoogste berg van Mars?
+Door een ongeval is de E19 volledig versperd.
+Neem je de E40 naar het werk?
+De E313 en de E314 kruisen in Lummen.
+De A12 loopt parallel aan de E19.
+De A2 loopt parallel aan de Maas in Limburg.
+Volg de A1 richting Amsterdam.
+Via de A4 kan je naar Schiphol. 
+Dit tafereel is onbeschrijfbaar.
+Met behulp van een teletijdmachine kon hij terugkeren naar de middeleeuwen.
+Aarzel niet om mij te bellen als er iets is.
+Ik ga de tafel afschuren.
+Je mag de bon uit het boekje scheuren.
+Mijn plant heeft nieuwe scheuten.
+Je hebt mij doen verschieten.
+Een aardbeving kan het gevolg zijn van een verschuiving van tektonische platen.
+Die aardbeving had een sterkte van vijf op de schaal van Richter.
+Langzaamaan duwde ik mijzelf door de massa mensen.
+Het publiek juichte uitbundig.
+De kermis is wel een bezoekje waard.
+Er staat een draaimolen op de markt.
+Je kan ook ritjes maken met de botsauto's.
+Gelukkig kon hij het vuur doven met een brandblusser.
+Ik heb mijn curriculum vitae opgestuurd per post.
+We hebben verschillende musea bezocht.
+Ik ga nog even wat water halen.
+Één halen, twee betalen.
+Kan je werken met Word of PowerPoint?
+Ik heb er een litteken aan overgehouden.
+Ken je de hoofdwetten van de thermodynamica?
+Dat kan niet volgens de wet van behoud van energie.
+Kracht is massa maal versnelling volgens Newton.
+Hij voelde zich niet op zijn gemak in het donker.
+Zij is heel sociaal.
+Hij is een introvert persoon.
+Zij is een extravert persoon. 
+Als je goed je best doet krijg je een extraatje. 
+Kan je mij horen?
+Volgens mij werkt Skype niet meer.
+Je kan het werk hervatten.
+Er zit ruis op de lijn.
+Je moet de knop omdraaien.
+Kan je het volume hoger zetten?
+Het volume staat te laag. 
+De versterker heeft de geest gegeven.
+Een cel slaat energie op in de mitochondriën.
+Als je over je limiet gaat verzuren je spieren.
+De beul liep naar de galg. 
+De pakkans is te laag.
+We gaan het debiet verhogen.
+De groeicijfers gaan in een stijgende lijn.
+Kan je nog wat maandverband kopen? 
+De tampons zijn op.
+Mijn vrouw werkt bij een uitzendbureau.
+Mijn man werkt in een bouwbedrijf.
+Ik zal een uitzondering aanvragen.
+Neem jij een officiële taxi of een Uber?
+In de Verenigde Staten zit de taxidienst Lyft in de lift.
+Elektrische fietsen winnen aan populariteit.
+Hun succes blijft maar duren.
+Er gaat een tijd komen waarin er geen poolijs meer is in de zomer.
+Groenland heeft maar een vijftigduizend inwoners.
+Je moet soms gewoon pragmatisch zijn. 
+Hij is een felle aanhanger van die ideologie.
+Eindelijk terug naar de beschaving.
+Speel je soms squash?
+Zij kan niet tegen haar verlies.
+Hij wint altijd bij Monopolie.
+Ik heb mijn enkel verstuikt.
+Hoe lang kan jij je adem inhouden?
+Ik kan twee lengtes duiken in een zwembad.
+Ik zwem twee keer per week.
+Ik warm op met twee lengtes schoolslag.
+Als ik opgewarmd ben ga ik verder met crawl of vlinderslag.
+Ik neem mijn kinderen mee naar Disneyland Parijs.
+Ben je al eens naar de Waddeneilanden geweest?
+Ik heb het antwoord gevonden op een forum.
+Ik heb een fiets gekregen voor mijn communie.
+Ken je haar achternaam?
+Zijn voornaam is Matthias.
+Is dat zijn bijnaam?
+Vroeger hadden we bijnamen voor iedereen in de klas.
+Toen ik jong was waren de computerlessen relatief simpel.
+Nu leren veel kinderen hoe ze moeten programmeren op school.
+Ik ben nooit veel naar de kerk geweest.
+Ga je soms naar de moskee?
+Bezoek je iedere week de synagoge?
+Hij citeert een stuk uit de Bijbel.
+Zij kent dat stuk uit de Koran vanbuiten.
+Hij leest uit de Thora.
+Het Christendom is een monotheïstische godsdienst.
+Is Frans een Romaanse taal?
+Het Romeinse Rijk strekte zich uit van Noord-Afrika tot West-Europa.
+Monaco is een stadstaat.
+Zijn vader had een mooie jacht. 
+Wat voor een lens heb je gekocht?
+Crème brûlé is mijn favoriete dessert.
+Mijn mama maakt altijd heerlijke tiramisu. 
+Ik lust wel een dame blanche.
+Met dit winterweer heb ik zin in een warme appeltaart.
+De bakker had verse kersentaart gemaakt.
+Kan je me twee sneden brood geven?
+In de bakkerij rook het naar vers gebakken brood. 
+De slager gaf het kind een stukje worst.
+Ze kochten hun melk altijd rechtstreeks van de boer. 
+Iedere ochtend stond de boerin op om de koeien te melken.
+Ze had dat pikante detail nooit verteld.
+De saus was te pikant.
+Er mogen nog wat kruiden in de puree. 
+Het aantal politieagenten was buiten proportie. 
+Banken moeten zich melden bij de nationale bank.
+Ik heb een nieuwe keuken gekocht op krediet.
+Hoeveel kredietkaarten heb jij?
+Ik heb een mastercard, een visa en een maestro kaart.
+In het buitenland kan je gemakkelijk betalen met een kredietkaart.
+Let op voor de hoge kosten op een visakaart.
+Wat is de huidige wisselkoers tussen de Turkse lira en de euro?
+De Europese Centrale Bank, kortweg de ECB, bepaalt de monetaire koers in Europa.
+Een nationale bank wordt geacht onafhankelijk te zijn.
+De inflatie schommelt rond de twee procent.
+Hoeveel rente moet je betalen?
+De vissersboot had zich vastgevaren in het ondiepe water.
+Het kanaal was dichtgeslibd.
+Er bevindt zich teveel slib in de rivierbedding.
+Er is een ferry die je naar de overkant kan brengen.
+Er is een veerpont om fietsers te vervoeren.
+Zij sliep als een roosje.
+Samen zongen ze het volkslied.
+Ik heb een klavertje vier gevonden.
+Naar het schijnt brengt een klavertje vier geluk.
+Ze hield zich vast aan de steunpilaar.
+Ze kon het zware gewicht niet meer dragen.
+Ze struikelde maar kon zich nog net overeind houden. 
+Hij was moe van de lange tocht.
+De dief kon vluchten via het dak.
+Ze heeft de kleur veranderd met een natuurlijk pigment.
+Het biggetje huppelde door het lange gras.
+De verliefdheid geeft mij vlinders in mijn buik.
+Er werd een gevecht georganiseerd in de arena.
+Er zat een arend in de toren van de kerk.
+De uitdaging was aartsmoeilijk.
+Door de stress kon ik mij niet concentreren.
+De politie vergroot het zoekgebied stelselmatig.
+De figuur bestond uit een reeks concentrische cirkels. 
+Een kompas duidt steeds het noorden aan.
+Mijn gsm heeft een gyroscoop.
+Urenlang wist hij het zweefvliegtuig met thermiek in de lucht te houden.
+Ik zou nooit een kantoorbaan kunnen doen.
+Het team had in een half jaar het project voltooid.
+Zij is een echte teamspeler. 
+De frisse lucht doet mij deugd.
+Haar ouders hebben de geldkraan dichtgedraaid.
+De temperatuur is terug gezakt.
+Ik heb het monster onder de microscoop gelegd.
+Mijn baas stond op mijn vingers te kijken.
+Uiteindelijk is het gelukt om de verhuislift tegen het balkon te zetten.
+Het sportvliegtuigje scheerde over onze hoofden voor het begon aan een acrobatisch schouwspel.
+De acrobaten van Cirque du Soleil zijn vaak begonnen met gymnastiek.
+Ze slingerde aan de trapeze boven onze hoofden.
+Met veel kracht duwde hij zich vooruit over de schaatsbaan.
+Hij was evenzeer behendig in de bochten.
+Pff, jongens en hun haantjesgedrag.
+Er stak een nagel uit aan de stoel en nu zat er een groot gapend gat in mijn broek.
+Het doet me plezier te zien dat hij zo enthousiast is over zijn nieuwe functie. 
+Ik had heimwee naar de schoonheid van een lang vervlogen tijd.
+Hoeveel dingen kan je tegelijkertijd in je geheugen houden?
+Ik heb het boodschappenlijstje in mijn hoofd geprent.
+Tijdens mijn studententijd heb ik leren jongleren met vijf balletjes tegelijk.
+Zonder de atmosfeer op aarde zouden we niet kunnen ademen.
+Honderden toeschouwers moeten het gezien hebben.
+Ze dachten allemaal dat het een vallende ster was.
+We moeten allemaal zelfverzekerd overkomen.
+Een vrouw in een rode jurk zingt op het podium, tezamen met drie mannen die instrumenten bespelen.
+Bedankt om dit luidop te zeggen.
+Je hebt een mooie stem.
+Zou je nog een paar zinnen kunnen lezen voor mij? 
+Alle wegen leiden naar Rome.
+Volg het jaagpad dat naast het kanaal ligt.
+Na een elegante sprong landde hij zacht aan de andere kant van de greppel.
+Er stroomt helder water in de beek en je kan de vissen zien zwemmen.
+Hoeveel geduld heb je?
+U heeft geen toestemming om hier te komen. 
+Maar in plaats van droevig te zijn besloot hij zijn gedachten op iets anders te richten.
+Een mooie armband heb je daar.
+Ze beet in het gouden muntstuk.
+Wacht eens even!
+Ze moest het raadsel oplossen voor ze de cilinder kon openen.
+Heb jij als eens een escape game gedaan?
+De bedoeling is om uit de kamer te ontsnappen door gaandeweg puzzels op te lossen.
+Meestal duurt het ongeveer een uur.
+Als je er langer over doet komen ze je wel verlossen.
+Hoe laat gingen ze je bellen?
+Leveren ze nog zo laat?
+Als je voor twaalf uur besteld brengen ze het de volgende dag.
+In Berlijn heb je zelfs een service met een levertijd van twee uur.
+Ideaal als je op het laatste moment nog een cadeau wilt kopen.
+Er zat een duif op het hoofd van het standbeeld.
+De tent was nochtans goed verankerd.
+De stormkoorden braken alsof het spaghettislierten waren.
+In sommige landen mag je geen kraantjeswater drinken.
+Er kunnen bacteriën in het water zitten. 
+Virussen kunnen je ziek maken.
+Antibiotica werkt niet tegen virussen.
+Wormen en Trojaanse paarden zijn voorbeelden van virussen.
+Op de werf heb ik altijd een rolmeter bij me.
+Ik heb geen inspiratie meer.
+De maan zorgt voor de getijden op aarde.
+De getijden zijn veel sterker in de Noordzee dan in de Middellandse Zee.
+Hawaï ligt in de Stille Oceaan.
+Je drijft beter in de Dode Zee.
+Waar ligt de Rode Zee?
+Nog twee dagen in Europa en dan steken we terug de Atlantische Oceaan over.
+De leerkracht maande hen aan om stil te zijn.
+Zijn jullie alweer aan het bekvechten?
+Stop nu toch eens met kibbelen! 
+We moeten nog ruwweg vier kilometer wandelen.
+Ik kan het niet meer aan.
+Je mag geen dubbele ontkenning gebruiken.
+Door altijd dezelfde zinnen en woorden te gebruiken kan je kunstmatig de precisie verbeteren.
+Toch moet je een gevarieerde woordenschat in je testdata stoppen.
+Welke data zouden jullie kunnen?
+We moeten haar snel opereren.
+Ze heeft een blindedarmontsteking. 
+Het is belangrijk dat we er nu snel bij zijn.
+De laptop lag op mijn schoot.
+Verveeld bladerde ik door het boek. 
+Zijn blik dwaalde af naar het afgebrande huis.
+Dat had ik je toch al gezegd.
+In mijn vrije tijd knutselde ik in de garage.
+Ik heb je diploma gevonden in een doos op de zolder.
+Geloof je hem nu echt?
+In tegenstelling tot hem ben ik wel betrouwbaar. 
+Ik kon niet veel herkennen in het schilderij.
+Dat is weer zo'n geval van artistieke vrijheid.
+Ik ga de dorre bladeren van de boom knippen.
+Je moet de aloë vera wekelijks water geven.
+Er staat een palmboom in de tuin. 
+Pak je even een sponsje voor mij?
+Wat peterselie erop zou het nog beter maken.
+Er mist nog een detail.
+Ze haalde diep adem, concentreerde zich volledig op het doelwit en haalde op een bijna mechanische manier de trekker over.
+Servië en Kosovo komen niet al te best overeen.
+Welke landen behoren tot de Balkan?
+Tirana is de hoofdstad van Albanië.
+Ik kan vijftig keer pompen.
+Ze ergert zich aan de trage computer.
+Mijn oude tablet creëert enkel ergernissen.
+De bloempot is gebarsten nadat hij op de grond viel. 
+Voor een cappuccino gebruik je enkel volle melk.
+Is dat zelfgemaakte chocoladesaus?
+Er staan wieltjes onder alle meubels.
+Hij had geknoeid op het tapijt.
+Is dat echte parket of laminaat?
+Ik heb nog wat rum staan in de kast.
+Er mag nog een lepeltje suiker bij.
+Ik heb zelf een cake gebakken.
+Doe mij maar een ijsje op een hoorntje.
+Één bol vanille en één bol stracciatella.
+Apen eten pindanootjes en bananen.
+Dat was een harde noot om te kraken.
+Mag ik nog een stuk pizza?
+Iedere zondag maken we een boswandeling.
+Dat was een fikse regenbui.
+Pas op voor die naaktslak.
+Ik vind de koffie van Nespresso wel lekker eigenlijk.
+Thuis hebben we een Senseo staan.
+Ik had hem niet herkent want hij was niet goed zichtbaar in de schaduw. 
+Steek het brood maar in de broodtrommel.
+De plint zat vastgenageld in de muur.
+De schutter kon ongezien wegkomen.
+Kijk je soms Flikken op de televisie?
+Heb je het nieuwe seizoen van Thuis gezien?
+De seizoensfinale van Familie komt binnenkort op de televisie.
+Kaat heeft nog meegedaan aan die quiz.
+Met een groepje vrienden gaan we vrijdag quizzen.
+Ik heb een boek geleend in de bibliotheek.
+Ik schaakte altijd met mijn opa.
+Hij is erg met haar begaan.
+Joost had zich verbrand aan het wafelijzer.
+Dennis heeft zelf de elektriciteit gelegd.
+Heeft Laurens eindelijk zijn rijbewijs gehaald?
+Zouden er al zinnen tweemaal instaan?
+Het aantal combinaties van woorden is praktisch oneindig.
+Een goed wachtwoord hoeft niet per se veel vreemde tekens te bevatten maar moet gewoon lang zijn.
+Kan je de oven even voorverwarmen?
+In de namiddag volgen er opklaringen.
+Er hangt mist in de vallei.
+Het is maar een griezelig huis.
+Ik krijg er kippenvel van. 
+Ik leun tegen de balustrade.
+De rook van mijn buurman waaide in mijn gezicht.
+Er zit een draaiknop aan de linkerkant.
+Ik zoek een krik om mijn wiel te vervangen.
+Gelukkig hadden ze vierwielaandrijving.
+Kan je deze zin fluisteren?
+Kan je deze zin roepen?
+Kan je deze zin heel langzaam uitspreken?
+Kan je deze zin heel snel uitspreken?
+Je mag flink wat variatie brengen in hoe je de zinnen uitspreekt.
+Toch is er best geen achtergrondlawaai zodat dit achteraf toegevoegd kan worden.
+Sommige mensen hebben een diepe stem die ver draagt.
+Andere mensen hebben een hoge stem die minder ver draagt.
+De tuinman onderhoudt onze tuin.
+De tuinvrouw maait het gras.
+De winkelier scant mijn inkopen.
+De winkelierster heeft mij geholpen bij het vinden van het wasproduct.
+In welke gang moet ik zijn voor de potten en pannen?
+We eten met mes en vork.
+Een kapitein verlaat als laatste zijn schip.
+De matrozen mogen eerder van boord.
+In het ruim staan de machines die de boot voortstuwen.
+De verkoper heeft mij toch kunnen overtuigen om een nieuwe stereo-installatie te kopen.
+Je moet je rug rechter houden.
+De machinist bestuurt de trein.
+Via stoom kan je warmte in mechanische energie omzetten.
+Energie kan niet vernietigd worden volgens de wet van behoud van energie.
+De rechter heeft hem schuldig verklaard.
+Het slachtoffer zat ook in de zaal.
+De beschuldigde heeft schuldig gepleit.
+Ik zou die opsomming laten inspringen.
+Ik zou hier die tabel invoegen.
+Naarstig werkte hij verder alsof er niets was gebeurd.
+Ik heb daar een app voor op mijn telefoon. 
+Mijn speekselklieren zijn gezwollen.
+Iedere week ga ik naar de fitness.
+Dit is de steilste afdaling die ik ooit gezien heb.
+Welk beleg heb je op je boterhammen gedaan?
+Ik heb boterhammen met boter en kaas meegenomen.
+Wat heeft u van speciaalbieren?
+Ik kan je een Leffe of een Grimbergen aanbieden.
+Heb je ook een Heineken?
+Ik train altijd mijn buikspieren.
+Met gewichten oefen ik mijn armspieren.
+'s avonds lig ik een vijftal minuten in een plankhouding om mijn spieren te versterken.
+Ze had een krachtige handdruk.
+Hij heeft een mooi figuur.
+Ze zouden eens wat meer liedjes moeten draaien op de radio in plaats van altijd dat commentaar.
