@@ -19,7 +19,8 @@ import {
   MenuIcon,
   OldPlayIcon,
   ChevronRight,
-  CrossIcon, MicIcon,
+  CrossIcon,
+  MicIcon,
 } from '../ui/icons';
 import { LabeledSelect, LinkButton } from '../ui/ui';
 import { ContributableLocaleLock } from '../locale-helpers';

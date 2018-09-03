@@ -1,6 +1,6 @@
 import * as React from 'react';
 import URLS from '../../urls';
-import {LocaleLink} from "../locale-helpers";
+import { LocaleLink } from '../locale-helpers';
 import { MicIcon, OldPlayIcon, StopIcon } from '../ui/icons';
 
 import './primary-buttons.css';
@@ -9,14 +9,18 @@ export const PrimaryButton = ({
   className,
   to,
   ...props
-}: {to?: string} & React.ButtonHTMLAttributes<any>) => (
+}: { to?: string } & React.ButtonHTMLAttributes<any>) => (
   <div
     className={[
       'primary-button',
       className,
       props.disabled ? 'disabled' : '',
     ].join(' ')}>
-    {to ? <LocaleLink to={to} {...props} /> : <button type="button" {...props} />}
+    {to ? (
+      <LocaleLink to={to} {...props} />
+    ) : (
+      <button type="button" {...props} />
+    )}
     <div className="background" />
   </div>
 );
@@ -37,7 +41,9 @@ export const RecordButton = ({
 );
 
 export const RecordLink = () => (
-  <PrimaryButton className="stop" to={URLS.SPEAK}><MicIcon /></PrimaryButton>
+  <PrimaryButton className="stop" to={URLS.SPEAK}>
+    <MicIcon />
+  </PrimaryButton>
 );
 
 export const PlayButton = ({
@@ -50,5 +56,7 @@ export const PlayButton = ({
 );
 
 export const PlayLink = () => (
-  <PrimaryButton className="play" to={URLS.LISTEN}><OldPlayIcon /></PrimaryButton>
-)
+  <PrimaryButton className="play" to={URLS.LISTEN}>
+    <OldPlayIcon />
+  </PrimaryButton>
+);
