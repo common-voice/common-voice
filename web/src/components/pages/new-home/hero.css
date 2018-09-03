@@ -175,7 +175,7 @@
             }
         }
 
-        & button {
+        & a {
             background: white;
             transition: background var(--transition-duration-slow) linear;
 
@@ -230,7 +230,7 @@
         }
 
         & .primary-button {
-            &.stop button {
+            &.stop a {
                 background: var(--red);
 
                 & path {
@@ -238,7 +238,7 @@
                 }
             }
 
-            &.play button {
+            &.play a {
                 background: var(--valid-green);
 
                 & path {
