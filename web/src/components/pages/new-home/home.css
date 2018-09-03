@@ -13,7 +13,7 @@
 }
 
 .home {
-    & .primary-button button {
+    & .primary-button a {
         z-index: var(--middle-z-index);
     }
 
