@@ -137,16 +137,11 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-
-        @media (--sm-down) {
-            justify-content: center;
-            background: url("/img/light-waves.svg");
-        }
+        background: url("/img/light-waves.svg") repeat-x center bottom;
+        overflow: hidden;
 
         @media (--md-up) {
             min-height: 408px;
-            background: url("/img/mars-with-bg.svg") no-repeat center bottom;
-
         }
 
         & .cta {
@@ -154,9 +149,11 @@
             flex-direction: column;
 
             @media (--md-up) {
-                padding-left: 50%;
                 flex-direction: row;
                 align-items: center;
+            }
+            @media (--lg-up) {
+                padding-left: 200px;
             }
         }
 
@@ -166,7 +163,7 @@
                 margin-right: 28px;
             }
             @media (--md-up) {
-                display: none;
+                transform: scale(1.2) translateY(30px);
             }
         }
 
