@@ -52,18 +52,25 @@
             }
 
             & ul {
-                margin: 0;
+                margin: 1px 0 0;
                 padding: 0;
-                max-height: 400px;
+                max-height: 190px;
                 width: 100%;
                 position: absolute;
                 background: var(--white);
                 list-style: none;
                 overflow: auto;
+                color: var(--near-black);
+                box-shadow: 0 2px 5px 0 var(--light-grey);
 
                 & li {
+                    border-bottom: 1px solid var(--light-grey);;
                     cursor: pointer;
                     padding: 13px 22px;
+
+                    &:last-child .line {
+                        border-bottom: 0;
+                    }
 
                     &.selected {
                         font-weight: 600;
