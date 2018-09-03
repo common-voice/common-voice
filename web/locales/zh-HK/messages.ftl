@@ -233,6 +233,7 @@ faq-important-a = 語音是自然、有人性的，也是最簡單、最自然�
 faq-get-q = 我怎樣索取 Common Voice 的數據？
 faq-get-a = 這個數據集現可在我們的<downloadLink>下載分頁</downloadLink>依照 <licenseLink>CC-0</licenseLink>授權條款取得。
 faq-mission-q = 點解 Common Voice 係 Mozilla 的使命的一部分？
+faq-mission-a = Mozilla 致力保衛我們公開的互聯網，讓每一個人都可以使用。為了達到這個目標，我們透過 Common Voice 這樣的計劃來協助互聯網創作者。隨著採用語音技術的程式激增，我們相信語音技術應該平等地服務所有使用者。在打造與測試語音科技時，我們需要滿足更多語言、腔調、社群的需求。Mozilla 想看到一個健康、生氣勃勃的互聯網。我們需要令新一代的創作者能夠使用語音數據，寫出嶄新、非凡的專案。Common Voice 將會成為一套能夠幫助 Mozilla 與全球開發者們的公共資源。
 faq-native-q = { $lang } 唔係我的母語，所以我讀起來有口音，你哋仲想要我把聲？
 faq-native-a = 我們當然想要您的聲音！Common Voice 的其中一個目標就是去收集越來越多的不同腔調，讓電腦更能夠聽得懂<bold>每一個人</bold>所說的話。
 faq-firefox-q = 語音識別技術會不會透過 Common Voice 成爲火狐瀏覽器的一部分？
