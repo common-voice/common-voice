@@ -37,7 +37,7 @@ export default class Robot extends React.PureComponent<Props> {
       this.remainingCode = touchCode.slice();
     }
     if (this.remainingCode.length == 0) {
-      location.href = prompt('URL') || 'https://voice.allizom.org/';
+      location.href = prompt('URL') || 'https://voice.allizom.org/en/new';
     }
   };
 
