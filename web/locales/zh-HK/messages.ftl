@@ -329,6 +329,7 @@ request-language-title = 要求新語言
 request-language-form-language =
     .label = 語言
 request-language-success-title = 已收到新語言請求，感謝您。
+request-language-success-content = 我們會很快將如何在 Common Voice 新增語言的資訊寄給您。
 
 ## Languages Overview
 
