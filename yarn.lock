@@ -823,14 +823,6 @@ babel-jest@^22.4.4:
     babel-plugin-istanbul "^4.1.5"
     babel-preset-jest "^22.4.4"
 
-babel-loader@^7.1.2:
-  version "7.1.4"
-  resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-7.1.4.tgz#e3463938bd4e6d55d1c174c5485d406a188ed015"
-  dependencies:
-    find-cache-dir "^1.0.0"
-    loader-utils "^1.0.2"
-    mkdirp "^0.5.1"
-
 babel-messages@^6.23.0:
   version "6.23.0"
   resolved "https://registry.yarnpkg.com/babel-messages/-/babel-messages-6.23.0.tgz#f3cdf4703858035b2a2951c6ec5edf6c62f2630e"
@@ -854,7 +846,7 @@ babel-plugin-jest-hoist@^22.4.4:
   version "22.4.4"
   resolved "https://registry.yarnpkg.com/babel-plugin-jest-hoist/-/babel-plugin-jest-hoist-22.4.4.tgz#b9851906eab34c7bf6f8c895a2b08bea1a844c0b"
 
-babel-plugin-syntax-object-rest-spread@^6.13.0, babel-plugin-syntax-object-rest-spread@^6.8.0:
+babel-plugin-syntax-object-rest-spread@^6.13.0:
   version "6.13.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-syntax-object-rest-spread/-/babel-plugin-syntax-object-rest-spread-6.13.0.tgz#fd6536f2bce13836ffa3a5458c4903a597bb3bf5"
 
@@ -866,13 +858,6 @@ babel-plugin-transform-es2015-modules-commonjs@^6.26.2:
     babel-runtime "^6.26.0"
     babel-template "^6.26.0"
     babel-types "^6.26.0"
-
-babel-plugin-transform-object-rest-spread@^6.26.0:
-  version "6.26.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-transform-object-rest-spread/-/babel-plugin-transform-object-rest-spread-6.26.0.tgz#0f36692d50fef6b7e2d4b3ac1478137a963b7b06"
-  dependencies:
-    babel-plugin-syntax-object-rest-spread "^6.8.0"
-    babel-runtime "^6.26.0"
 
 babel-plugin-transform-strict-mode@^6.24.1:
   version "6.24.1"
@@ -3077,9 +3062,9 @@ fluent-langneg@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/fluent-langneg/-/fluent-langneg-0.1.0.tgz#aa12054fbfa4b728daec38331efc12f01faae93a"
 
-fluent-react@^0.8.0:
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/fluent-react/-/fluent-react-0.8.0.tgz#9b13588791b010c04a55e8b85114625f400fd969"
+fluent-react@^0.8.1:
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/fluent-react/-/fluent-react-0.8.1.tgz#37f698be27e7160fb64e2dc93428b676cf5fcb55"
   dependencies:
     cached-iterable "^0.2.1"
     fluent-sequence "^0.2.0"
