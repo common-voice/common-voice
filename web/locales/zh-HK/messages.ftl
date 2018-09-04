@@ -104,7 +104,7 @@ terms = 使用條款
 cookies = Cookies
 faq = 常見問題
 content-license-text = 內容依照 <licenseLink>Creative Commons 授權條款</licenseLink>授權大眾使用
-share-title = 幫我哋找其他人一齊獻聲！
+share-title = 幫我哋搵其他人一齊獻聲！
 share-text = 請到 { $link } 獻聲，協助我們教導機器了解人們是如何說話的。
 link-copied = 超連結已被複製
 back-top = 回到頁頂
@@ -351,7 +351,7 @@ language-search-input =
 language-speakers = 錄音人數
 localized = 本地化進度
 sentences = 句子
-total-hours = 總時數
+total-hours = 已驗證時數
 
 ## New Contribution
 
