@@ -120,6 +120,14 @@ wall-of-text-more-desktop =
     pue usar pa facer aplicaciones innovadores pa preseos y web.<lineBreak></lineBreak>
     Llei una fras pa enseña-yos a les máquines cómo falen los humanos. Comprueba'l trabayu d'otros
     collaboradores p'ameyorar la calidá. ¡Ye mui cenciello!
+wall-of-text-first =
+    La voz ye natural, tamién humana. Poro, queremos crear teunoloxíes per voz que puean usar les
+    nueses máquines. Pero pa facelo, los desendolcadores precisen una cantidá escomanada de datos
+    de voz.
+wall-of-text-second =
+    La mayoría de datos usaos poles compañes grandes nun tán disponibles pa la xente. Cuidamos
+    qu'eso para la innovación. Poro llanzamos Common Voice, un proyeutu p'ayudar a facer que la
+    reconocencia de voz seya abierta y accesible pa tol mundu.
 show-wall-of-text = Llei más
 help-us-title = ¡Ayúdanos a validar les frases!
 help-us-explain = Primi'l botón de reproducción, sienti y dinos: ¿la grabación correspuende cola fras d'embaxo?
@@ -127,6 +135,7 @@ no-clips-to-validate = Paez que nesta llingua nun hai dengún clip pa sentir. Ay
 vote-yes = Sí
 vote-no = Non
 toggle-play-tooltip = Primi { shortcut-play-toggle } p'alternar el mou de reproducción
+speak-paragraph = La grabación de clips de voz ye una parte esencial de la fechura del nuesu conxuntu abiertu de datos. Tamién ye la parte más divertida.
 listen-subtitle = Ayúdanos a validar voces
 listen-goal-text = Clips validaos
 hours-recorded = Hores grabaes
