@@ -349,6 +349,7 @@ request-language-success-content = Við munum vera í sambandi fljótlega til a�
 language-section-in-progress = Í vinnslu
 language-section-in-progress-description = Tungumál sem eru merkt með "í vinnslu" eru í undirbúningi hjá sjálfboðaliðum í samfélaginu fyrir að taka við upptökum og yfirferð almennings. Framvindustikan sýnir hversu langt á leið síðan er komin í þýðingu og að safna í dæmisetningasarpinn.
 language-section-launched = Gangsett
+language-section-launched-new-description = Vefsíðan hefur verið að fullu þýdd og dæmisetningasarpurinn orðinn nógu stór fyrir þessi gangsettu tungumál að taka við <italic>raddupptökum</italic> og <italic>yfirferð</italic> almennings.
 languages-show-more = Sjá meira
 languages-show-less = Sjá minna
 language-speakers = Talendur
@@ -370,6 +371,7 @@ listen = Hlusta
 skip = Fara í næstu
 shortcuts = Flýtileiðir
 clips-with-count = <bold>{ $count }</bold> upptökur
+goal-help-recording = Þú hefur hjálpað Sameiginlegri rödd að ná <goalPercentage></goalPercentage> af daglegu { $goalValue } upptöku markmiði!
 contribute-more =
     { $count ->
         [one] Til í að gera { $count } í viðbót?
