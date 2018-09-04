@@ -113,8 +113,14 @@ report-bugs-link = Ayuda a informar de fallos
 
 home-title = El proyeutu Common Voice ye la iniciativa de Mozilla pa enseña-yos a les máquines cómo falen los humanos.
 home-cta = ¡Collabora equí!
-wall-of-text-start = La voz ye natural, tamién humana. Poro, tamos ablucando cola creación d'una teunoloxía per voz de calidá pa les máquines de nueso. Pero pa crear sistemes per voz, ríquese una cantidá escomanada de datos de voz.
-wall-of-text-more-mobile = La mayoría de datos usaos por compañes grandes nun tán disponibles pa la mayoría de xente. Cuidamos qu'eso torga la innovación polo que llanzamos Common Voice. Un proyeutu p'ayudar a facer que la reconocencia de voz tea abierta al tol mundu.
+wall-of-text-start =
+    La voz ye natural, tamién humana. Poro, tamos ablucando cola creación d'una teunoloxía per
+    voz de calidá pa les máquines de nueso. Pero pa crear sistemes per voz, ríquese una cantidá
+    escomanada de datos de voz.
+wall-of-text-more-mobile =
+    La mayoría de datos usaos por compañes grandes nun tán disponibles pa la mayoría de xente.
+    Cuidamos qu'eso torga la innovación polo que llanzamos Common Voice. Un proyeutu p'ayudar
+    a facer que la reconocencia de voz tea abierta al tol mundu.
 wall-of-text-more-desktop =
     Agora pues emprestar la to voz p'ayudanos a construyir una base de datos abierta que tol mundu
     pue usar pa facer aplicaciones innovadores pa preseos y web.<lineBreak></lineBreak>
@@ -125,9 +131,9 @@ wall-of-text-first =
     nueses máquines. Pero pa facelo, los desendolcadores precisen una cantidá escomanada de datos
     de voz.
 wall-of-text-second =
-    La mayoría de datos usaos poles compañes grandes nun tán disponibles pa la xente. Cuidamos
-    qu'eso para la innovación. Poro llanzamos Common Voice, un proyeutu p'ayudar a facer que la
-    reconocencia de voz seya abierta y accesible pa tol mundu.
+    La mayoría de datos usaos por compañes grandes nun tán disponibles pa la mayoría de xente.
+    Cuidamos qu'eso torga la innovación polo que llanzamos Common Voice. Un proyeutu p'ayudar a
+    facer que la reconocencia de voz seya abierta y accesible pa tol mundu.
 show-wall-of-text = Llei más
 help-us-title = ¡Ayúdanos a validar les frases!
 help-us-explain = Primi'l botón de reproducción, sienti y dinos: ¿la grabación correspuende cola fras d'embaxo?
@@ -235,10 +241,11 @@ faq-title = Entrugues frecuentes
 faq-what-q = ¿Qué ye Common Voice?
 faq-what-a = La teunoloxía de reconocencia de voz podría revolucionar el mou nel qu'interactuamos coles máquines, pero los sistemes disponibles anguaño son caros y privativos. Common Voice ye un proyeutu pa facer d'accesu fácil la teunoloxía de reconocencia de voz a tol mundu. La xente empresta la so voz a una base de datos masiva que va permitir entrenar aína a les aplicaciones qu'usen la voz. Tolos datos de voz van tar disponibles pa los desendolcadores.
 faq-important-q = ¿Por qué ye importante?
-faq-important-a = La voz ye natural, la voz ye humana. Ye'l mou más cencielu y natural de comunicase. Queremos que los desendolcadores seyan a creen proyeutos ablucantes: dende  traductores en tiempu real hasta asistentes per voz. Pero pel momentu nun hai abondos datos disponibles públicamente pa crear esa triba d'aplicaciones. Esperamos que Common Voice forna a los desendolcadores lo que precisen pa innovar.
+faq-important-a = La voz ye natural, tamién humana. Ye'l mou más cencielu y natural de comunicase. Queremos que los desendolcadores seyan a creen proyeutos ablucantes: dende  traductores en tiempu real hasta asistentes per voz. Pero pel momentu nun hai abondos datos disponibles públicamente pa crear esa triba d'aplicaciones. Esperamos que Common Voice forna a los desendolcadores lo que precisen pa innovar.
 faq-get-q = ¿Cómo pueo consiguir los datos de Common Voice?
 faq-get-a = Agora'l conxuntu de datos ta disponible na nuesa <downloadLink>páxina de descargues</downloadLink> so la llicencia <licenseLink>CC-0</licenseLink>.
 faq-mission-q = ¿Por que Common Voice ye parte de la misión de Mozilla?
+faq-mission-a = Mozilla ta dedicada a caltener la web abierta y accesible pa tol mundu. Pa facelo, precisamos ufrir ferramientes a los creadores de la web pente proyeutos como Common Voice. Darréu que les teunoloxíes per voz tán proliferando acullá de les aplicaciones más especializaes, creyemos qu'hemos servir a tolos usuarios n'igualdá de condiciones. Vemos una necesidá d'incluyir más llingües, acentos y datos demográficos al crear y probar eses teunoloxíes. Mozilla quier ver un internet sanu y vivu. Esto significa apurrir a los creadores nuevos accesu a los datos de voz pa que puean construyir proyeutos nuevos y estraordinarios. Common Voice va ser un recursu públicu que va ayudar a los equipos y desendolcadores de Mozilla de tol mundu.
 faq-native-q = Nun soi un falante nativu de { $lang } y falo con acentu, ¿entá quedríeis la mio voz?
 faq-native-a = Sí, ¡claro que queremos la to voz! Parte del oxetivu de Common Voice ye atropar tantos acentos estremaos como seya posible, pa qu'asina los ordenadores puean entender meyor <bold>a tol mundu</bold> cuando fala.
 faq-firefox-q = ¿La voz a testu, pente Common Voice, va ser dalcuando parte de Firefox?
