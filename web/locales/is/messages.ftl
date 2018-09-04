@@ -295,21 +295,107 @@ license-mixed = Blandað
 
 record-platform-not-supported = Því miður er ekki stuðningur við tölvukerfið þitt að svo stöddu.
 record-platform-not-supported-desktop = Á borðtölvum er hægt að niðurhala nýjasta:
+record-platform-not-supported-ios = <bold>iOS</bold> notendur geta niðurhalað fría smáforritinu okkar:
+record-must-allow-microphone = Þú þarft að leyfa aðgang að hljóðnemanum.
+record-retry = Reyna aftur
+record-no-mic-found = Hljóðnemi fannst ekki.
+record-error-too-short = Upptakan var of stutt.
+record-error-too-long = Upptakan var of löng.
+record-error-too-quiet = Ekki heyrðist nógu vel í upptökunni.
+record-submit-success = Upptaka send inn! Viltu taka upp aftur?
+record-help = Smelltu hér til að setja upptöku í gang og lestu svo setninguna að ofan upphátt.
+record-cancel = Hætta við að endurtaka upptöku
+review-terms = Með notkun Sameiginlegrar raddar samþykkir þú <termsLink>skilmála</termsLink> og <privacyLink>persónuverndarstefnu</privacyLink> verkefnisins
+terms-agree = Ég samþykki
+terms-disagree = Ég samþykki ekki
+review-aborted = Hætt var við að senda inn. Viltu eyða því sem þú tókst upp?
+review-submit-title = Fara yfir & senda inn
+review-submit-msg = Takk fyrir upptökuna!<lineBreak></lineBreak>Vinsamlegast farðu yfir og sendu svo upptökuna inn hér fyrir neðan.
+review-recording = Yfirferð
+review-rerecord = Endurtaka upptöku
+review-cancel = Hætta við að senda inn
+review-keep-recordings = Geyma upptökur
+review-delete-recordings = Eyða upptökum
 
 ## Download Modal
 
+download-title = Niðurhalið þitt er farið í gang.
+download-helpus = Hjálpaðu okkur að byggja upp samfélag kringum raddstýringartækni með því að vera í tölvupóstssambandi.
+download-form-email =
+    .label = Skrá tölvupóst
+    .value = Þakka þér fyrir, við verðum í bandi.
+download-back = Aftur í gagnasöfn Sameiginlegrar raddar
+download-no = Nei takk
 
 ## Contact Modal
 
+contact-title = Hafðu samband
+contact-form-name =
+    .label = Nafn
+contact-form-message =
+    .label = Skilaboð
+contact-required = *nauðsynlegt
 
 ## Request Language Modal
 
+request-language-title = Beiðni um tungumál
+request-language-form-language =
+    .label = Tungumál
+request-language-success-title = Tungumálabeiðni tókst að senda inn. Takk fyrir.
+request-language-success-content = Við munum vera í sambandi fljótlega til að útskýra betur hvernig hægt er að bæta þínu tungumáli við Sameiginlega rödd.
 
 ## Languages Overview
 
+language-section-in-progress = Í vinnslu
+language-section-in-progress-description = Tungumál sem eru merkt með "í vinnslu" eru í undirbúningi hjá sjálfboðaliðum í samfélaginu fyrir að taka við upptökum og yfirferð almennings. Framvindustikan sýnir hversu langt á leið síðan er komin í þýðingu og að safna í dæmisetningasarpinn.
+language-section-launched = Gangsett
+languages-show-more = Sjá meira
+languages-show-less = Sjá minna
+language-speakers = Talendur
+language-meter-in-progress = Framvinda
+language-total-progress = Samtals
+language-search-input =
+    .placeholder = Leit
+language-speakers = Talendur
+localized = Þýtt
+sentences = Setningar
+total-hours = Staðfestar klst
 
 ## New Contribution
 
+action-click = Smella
+action-tap = Snerta
+contribute = Leggðu lið
+listen = Hlusta
+skip = Fara í næstu
+shortcuts = Flýtileiðir
+clips-with-count = <bold>{ $count }</bold> upptökur
+contribute-more =
+    { $count ->
+        [one] Til í að gera { $count } í viðbót?
+       *[other] Til í að gera { $count } í viðbót?
+    }
+record-cta = Hefja upptöku
+record-instruction = { $actionType }<recordIcon></recordIcon> og lestu svo setninguna upphátt
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> stöðva upptöku
+record-three-more-instruction = Þrjár eftir!
+record-again-instruction = Snilld! <recordIcon></recordIcon> Taktu upp næstu
+record-again-instruction2 = Þetta gengur vel, taktu upp aftur <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Síðasta!
+review-tooltip = Yfirfara og endurtaka upptökur hér jafnóðum
+unable-speak = Ómögulegt að lesa upphátt að svo stöddu?
+review-instruction = Yfirfara og endurtaka upptöku ef þörf krefur
+record-submit-tooltip = { $actionType } senda inn þegar hægt er
+clips-uploaded = Upptökur sendar inn
+record-abort-title = Stöðva upptöku fyrst?
+record-abort-text = Ef þú hættir núna glatast það sem komið er
+record-abort-submit = Senda inn upptökur
+record-abort-continue = Stöðva upptöku
+record-abort-delete = Hætta og eyða upptökum
+listen-instruction = { $actionType }<playIcon></playIcon> var setningin rétt lesin upp?
+listen-again-instruction = Vel gert! <playIcon></playIcon> Hlustaðu aftur þegar þú ert til
+listen-3rd-time-instruction = Tvær búnar, haltu þínu striki! <playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon> Síðasta!
 nothing-to-validate = Ekkert er fyrir hendi um þetta tungumál, hjálpaðu okkur að fylla í röðina.
 record-button-label = Raddupptaka
 share-title-new = <bold>Leggið lið</bold> við að leita upp fleiri raddir
