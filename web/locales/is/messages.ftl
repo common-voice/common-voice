@@ -284,9 +284,17 @@ data-other-download = Niðurhala gögnum
 data-other-librispeech-description = LibriSpeech textasafnið geymir u.þ.b. 100 klst af 16Khz hljóðrituðu tali á ensku sem er fengið úr upplesnum bókum af LibriVox verkefninu.
 data-other-ted-name = TED-LIUM textasafn
 data-other-ted-description = TED-LIUM textasafnið var þróað úr talsetningum og afritunum þeirra sem eru fáanlegar á TED vefnum.
+data-other-voxforge-description = VoxForge var sett upp til að safna umrituðum hljóðupptökum sem nota má í opnum og frjálsum raddgreiningarhugbúnaði.
+data-other-tatoeba-description = Tatoeba er stór gagnagrunnur af setningum, þýðingum og raddupptökum tilætlað í tungumálanám. Þetta niðurhal inniheldur raddupptökur á ensku gerðar af samfélaginu kringum verkefnið.
+data-bundle-button = Niðurhala gagnasafnapakka
+data-bundle-description = Gögn Sameiginlegrar raddar og öll gagnasöfnin að ofan.
+license = Leyfi: <licenseLink>{ $license }</licenseLink>
+license-mixed = Blandað
 
 ## Record Page
 
+record-platform-not-supported = Því miður er ekki stuðningur við tölvukerfið þitt að svo stöddu.
+record-platform-not-supported-desktop = Á borðtölvum er hægt að niðurhala nýjasta:
 
 ## Download Modal
 
