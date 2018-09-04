@@ -343,13 +343,13 @@ language-section-launched = 已上線
 language-section-launched-new-description = 已上線的語言代表該網站的本地化經已完成，並已收集足夠的語料，可接受<italic>聽話</italic>與<italic>說話</italic>的貢獻。
 languages-show-more = 檢視更多
 languages-show-less = 檢視更少
-language-speakers = 使用者數
+language-speakers = 錄音人數
 language-meter-in-progress = 進度
 language-total-progress = 總計
 language-search-input =
     .placeholder = 搜尋
-language-speakers = 使用者數
-localized = 已被本地化
+language-speakers = 錄音人數
+localized = 本地化進度
 sentences = 句子
 total-hours = 總時數
 
