@@ -75,7 +75,7 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
       const data = await fetchData(api, locale === ALL_LOCALES ? null : locale);
       if (locale !== this.state.locale) return;
       const max = getMax(data);
-      const ticks = tickCount - 1;
+      const ticks = (tickCount - 1) * (max > 10 ? 10 : 1);
       this.setState({
         data,
         max: max + (ticks - max % ticks),
