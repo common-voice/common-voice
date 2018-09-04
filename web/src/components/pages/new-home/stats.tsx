@@ -45,6 +45,7 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
       renderTooltipContents?: (state: State) => React.ReactNode;
       renderXTickLabel: (datum: any, i: number) => React.ReactNode;
       tickCount: number;
+      tickMultipliers: number[];
     } & PropsFromState &
       SVGProps<SVGElement>,
     State
@@ -70,12 +71,19 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
     }
 
     updateData = async () => {
-      const { api, fetchData, getMax, tickCount } = this.props;
+      const { api, fetchData } = this.props;
       const { locale } = this.state;
       const data = await fetchData(api, locale === ALL_LOCALES ? null : locale);
       if (locale !== this.state.locale) return;
+
+      const { getMax, tickCount, tickMultipliers } = this.props;
       const max = getMax(data);
-      const ticks = (tickCount - 1) * (max > 10 ? 10 : 1);
+      const tickMultiplier =
+        tickMultipliers
+          .slice()
+          .reverse()
+          .find(m => max > m) || 1;
+      const ticks = (tickCount - 1) * tickMultiplier;
       this.setState({
         data,
         max: max + (ticks - max % ticks),
@@ -418,7 +426,8 @@ export namespace ClipsStats {
               count: Math.floor(dayDiff / 365),
             });
           }}
-          tickCount={TICK_COUNT}>
+          tickCount={TICK_COUNT}
+          tickMultipliers={[10, 60, 600, 3600, 36000, 360000]}>
           {state => (
             <React.Fragment>
               <Path state={state} attribute="valid" />
@@ -467,7 +476,8 @@ export namespace VoiceStats {
           .replace(' AM', '')
           .replace(' PM', '')
       }
-      tickCount={TICK_COUNT}>
+      tickCount={TICK_COUNT}
+      tickMultipliers={[5, 10, 100, 1000]}>
       {({ data, max, width }) => {
         const getBarX = (i: number) =>
           LINE_OFFSET +
