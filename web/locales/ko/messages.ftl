@@ -32,6 +32,7 @@ de = 독일어
 dsb = 저지 소르브어
 el = 그리스어
 en = 영어
+eo = 에스페란토어
 es = 스페인어
 et = 에스토니아어
 fi = 핀란드어
@@ -63,6 +64,7 @@ nn-NO = 노르웨이어 뉘노르스크
 or = 오리야어
 pl = 폴란드어
 pt-BR = 포르투갈어(브라질)
+rm = 로만슈어
 ro = 루마니아어
 ru = 러시아어
 sah = 사하어
@@ -77,6 +79,7 @@ th = 태국어
 tr = 터키어
 tt = 타타르어
 uk = 우크라이나어
+ur = 우르두어
 uz = 우즈베키스탄어
 zh-CN = 중국어(중국)
 zh-HK = 중국어(홍콩)
@@ -122,6 +125,27 @@ no-clips-to-validate = 이 언어로 된 클립이 하나도 없는 것 같네�
 vote-yes = 네
 vote-no = 아니요
 toggle-play-tooltip = { shortcut-play-toggle } 버튼을 눌러 재생 모드 전환
+speak-subtitle = 목소리를 기부해주세요
+speak-goal-text = 클립 기록완료
+listen-goal-text = 클립 검증완료
+hours-recorded = 시간 기록완료
+hours-validated = 시간 검증완료
+read-terms-q = 약관을 읽어보셨나요?
+ready-to-record = 목소리를 기부할 준비가 되셨나요?
+all-languages = 모든 언어
+today = 오늘
+x-weeks-short =
+    { $count ->
+       *[other] { $count }주
+    }
+x-months-short =
+    { $count ->
+       *[other] { $count }달
+    }
+x-years-short =
+    { $count ->
+       *[other] { $count }년
+    }
 
 ## Speak & Listen Shortcuts
 
@@ -308,7 +332,6 @@ request-language-success-content = 곧 언어를 Common Voice에 추가하는 �
 language-section-in-progress = 진행중
 language-section-in-progress-description = 진행 중인 언어는 현재 우리 커뮤니티의 기여로 만들어지고 있습니다. 진행 상태는 웹 사이트의 지역화와 문장 수집을 종합하여 반영합니다.
 language-section-launched = 출시됨
-language-section-launched-description = 이러한 출시된 언어의 경우 웹 사이트가 성공적으로 지역화되었으며 지속적인 <italic>{ speak }</italic> 와 <italic>{ listen }</italic> 기여를 허용하기 위해 충분한 문장을 수집했습니다.
 languages-show-more = 더 보기
 languages-show-less = 접기
 language-speakers = 말한 사람
@@ -329,7 +352,6 @@ contribute = 기여하기
 listen = 듣기
 skip = 건너뛰기
 shortcuts = 바로 가기
-clips = 클립
 goal-help-recording = 방금 오늘 Common Voice 일간 녹음 목표 { $goalValue }의 <goalPercentage></goalPercentage>를 달성하였습니다!
 goal-help-validation = 방금 오늘 Common Voice 일간 검증 목표 { $goalValue }의 <goalPercentage></goalPercentage>를 달성하였습니다!
 contribute-more =
