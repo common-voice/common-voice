@@ -114,7 +114,7 @@ report-bugs-link = 幫手報告程式錯誤
 
 ## Home Page
 
-home-title = Common Voice 係 Mozilla 畀機器學識真人說話方式的計劃。
+home-title = Common Voice 係 Mozilla 發起嘅計劃，用來訓練機器學識真人說話嘅方式。
 home-cta = 在此貢獻您的聲音！
 wall-of-text-start = 語音係自然、有人性的。所以我們非常希望為機器建立可用的語音技術，但建立語音系統需要非常大量的語音數據。
 wall-of-text-more-mobile = 大部分現成的數據由大公司擁有，並未開放畀大眾使用。我哋覺得咁樣會阻礙創新，所以創立了讓每個人都可以自由來建立語音識別的 Common Voice 計劃。
@@ -218,7 +218,7 @@ female = 女性
 # Gender
 other = 其他
 why-profile-title = 點解需要帳戶？
-why-profile-text = 提供一些關於您的資訊可以讓你的 Common Voice 語音資料更有用，令語音識別引擎更加準確。
+why-profile-text = 提供一些關於您的資訊，可讓您的 Common Voice 語音資料更有用，令語音識別引擎更加準確。
 edit-profile = 編輯個人帳戶
 profile-create = 註冊帳戶
 profile-create-success = 成功建立帳戶！
@@ -251,8 +251,8 @@ faq-source-a2 = 您可在<dataLink>這個 GitHub 資料夾</dataLink>參考我�
 
 ## Profile
 
-profile-why-title = 為什麼需要註冊帳戶？
-profile-why-content = 提供一些關於您的資訊可以讓你的 Common Voice 語音資料更有用，令語音識別引擎更加準確。
+profile-why-title = 點解我要註冊帳戶？
+profile-why-content = 提供一些關於您的資訊，可讓您的 Common Voice 語音資料更有用，令語音識別引擎更加準確。
 
 ## NotFound
 
@@ -340,7 +340,7 @@ request-language-success-content = 我們會很快將如何在 Common Voice 新�
 language-section-in-progress = 準備中
 language-section-in-progress-description = 準備中嘅語言，代表該語言社群正在貢獻中。當中嘅進度反映了網站本地化的翻譯進度，以及語句收集的進度。
 language-section-launched = 已上線
-language-section-launched-new-description = 已上線的語言代表該網站的本地化經已完成，並已收集足夠的語料，可接受<italic>聽話</italic>與<italic>說話</italic>的貢獻。
+language-section-launched-new-description = 已上線的語言代表該網站的本地化經已完成，並已收集足夠的語句，可接受<italic>聽話</italic>與<italic>說話</italic>的貢獻。
 languages-show-more = 檢視更多
 languages-show-less = 檢視更少
 language-speakers = 錄音人數
