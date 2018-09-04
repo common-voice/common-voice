@@ -18,6 +18,7 @@
     box-shadow: var(--card-shadow);
 
     & .head {
+        min-height: 63px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
