@@ -13,16 +13,14 @@ import { RecordIcon } from '../../ui/icons';
 import { CardAction, Hr } from '../../ui/ui';
 import GetInvolvedModal from '../languages/get-involved-modal';
 import ProjectStatus from './project-status';
-import {
-  createCrossLocaleMessagesGenerator,
-  NATIVE_NAMES,
-} from '../../../services/localization';
+import { createCrossLocaleMessagesGenerator } from '../../../services/localization';
 import { connect } from 'react-redux';
 import StateTree from '../../../stores/tree';
 import API from '../../../services/api';
 
 interface PropsFromState {
   api: API;
+  showNewHome: boolean;
 }
 
 interface Props
@@ -50,11 +48,19 @@ class HomePage extends React.Component<Props, State> {
   };
 
   async componentDidMount() {
+    this.handleNewHomeRedirect(this.props);
     await this.updateMessagesGenerator(this.props);
   }
 
   async componentWillReceiveProps(nextProps: Props) {
+    this.handleNewHomeRedirect(nextProps);
     await this.updateMessagesGenerator(nextProps);
+  }
+
+  handleNewHomeRedirect({ locale, history, showNewHome }: Props) {
+    if (showNewHome) {
+      history.replace('/' + locale + '/new');
+    }
   }
 
   private isFetching = false;
@@ -188,6 +194,9 @@ class HomePage extends React.Component<Props, State> {
     );
   }
 }
-export default withRouter(connect<PropsFromState>(({ api }: StateTree) => ({
-  api,
-}))(localeConnector(HomePage)) as any);
+export default withRouter(connect<PropsFromState>(
+  ({ api, flags }: StateTree) => ({
+    api,
+    showNewHome: flags.showNewHome,
+  })
+)(localeConnector(HomePage)) as any);

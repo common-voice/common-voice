@@ -2,14 +2,15 @@ import { applyMiddleware, compose, createStore } from 'redux';
 import thunk from 'redux-thunk';
 import API from '../services/api';
 import { trackProfile } from '../services/tracker';
-import { Sentences } from './sentences';
-import StateTree from './tree';
-import { User } from './user';
+import { Flags } from './flags';
 import { Clips } from './clips';
-import { RequestedLanguages } from './requested-languages';
 import { Locale } from './locale';
 import { Notifications } from './notifications';
+import { RequestedLanguages } from './requested-languages';
+import { Sentences } from './sentences';
+import StateTree from './tree';
 import { Uploads } from './uploads';
+import { User } from './user';
 
 const USER_KEY = 'userdata';
 
@@ -31,43 +32,47 @@ const store = createStore(
       sentences,
       user,
       clips,
+      flags,
       requestedLanguages,
       locale,
       notifications,
       uploads,
     }: StateTree = {
       api: undefined,
-      sentences: undefined,
-      user: undefined,
       clips: undefined,
-      requestedLanguages: undefined,
+      flags: undefined,
       locale: undefined,
       notifications: undefined,
+      requestedLanguages: undefined,
+      sentences: undefined,
       uploads: undefined,
+      user: undefined,
     },
     action:
-      | Sentences.Action
-      | User.Action
       | Clips.Action
-      | RequestedLanguages.Action
+      | Flags.Action
       | Locale.Action
+      | RequestedLanguages.Action
+      | Sentences.Action
       | Uploads.Action
+      | User.Action
   ): StateTree {
     const newState = {
+      clips: Clips.reducer(locale, clips, action as Clips.Action),
+      flags: Flags.reducer(flags, action as Flags.Action),
+      locale: Locale.reducer(locale, action as Locale.Action),
+      requestedLanguages: RequestedLanguages.reducer(
+        requestedLanguages,
+        action as RequestedLanguages.Action
+      ),
       sentences: Sentences.reducer(
         locale,
         sentences,
         action as Sentences.Action
       ),
-      user: User.reducer(user, action as User.Action),
-      clips: Clips.reducer(locale, clips, action as Clips.Action),
-      requestedLanguages: RequestedLanguages.reducer(
-        requestedLanguages,
-        action as RequestedLanguages.Action
-      ),
-      locale: Locale.reducer(locale, action as Locale.Action),
       notifications: Notifications.reducer(notifications, action as any),
       uploads: Uploads.reducer(uploads, action as Uploads.Action),
+      user: User.reducer(user, action as User.Action),
     };
 
     return { api: new API(newState.locale, newState.user), ...newState };
@@ -77,6 +82,11 @@ const store = createStore(
 );
 
 store.dispatch(User.actions.update({}) as any);
+
+// Make flag actions accessible globally so we can fire them from Google Optimize
+for (const [key, value] of Object.entries(Flags.actions)) {
+  (window as any)[key] = () => store.dispatch(value());
+}
 
 const fieldTrackers: any = {
   email: () => trackProfile('give-email'),
