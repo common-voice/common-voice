@@ -3,7 +3,6 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, withRouter } from 'react-router';
 import { LOCALES, NATIVE_NAMES } from '../../services/localization';
-import { Recordings } from '../../stores/recordings';
 import StateTree from '../../stores/tree';
 import { User } from '../../stores/user';
 import { Locale } from '../../stores/locale';
@@ -41,7 +40,6 @@ const LOCALES_WITH_NAMES = LOCALES.map(code => [
 
 interface PropsFromState {
   locale: Locale.State;
-  isSetFull: boolean;
   user: User.State;
 }
 
@@ -227,7 +225,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   };
 
   render() {
-    const { isSetFull, locale, location } = this.props;
+    const { locale, location } = this.props;
     const {
       hasScrolled,
       hasScrolledDown,
@@ -349,13 +347,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
               {this.iOSBackground}
             </div>
             <div className="hero">
-              <Robot
-                position={
-                  pageName === 'record'
-                    ? isSetFull ? 'thanks' : 'record'
-                    : null
-                }
-              />
+              <Robot />
             </div>
             <div className="hero-space" />
             <Content
@@ -411,7 +403,6 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
 
 const mapStateToProps = (state: StateTree) => ({
   locale: state.locale,
-  isSetFull: Recordings.selectors.isSetFull(state),
   user: state.user,
 });
 

@@ -2,7 +2,7 @@ import { applyMiddleware, compose, createStore } from 'redux';
 import thunk from 'redux-thunk';
 import API from '../services/api';
 import { trackProfile } from '../services/tracker';
-import { Recordings } from './recordings';
+import { Sentences } from './sentences';
 import StateTree from './tree';
 import { User } from './user';
 import { Clips } from './clips';
@@ -28,7 +28,7 @@ const composeEnhancers =
 const store = createStore(
   function root(
     {
-      recordings,
+      sentences,
       user,
       clips,
       requestedLanguages,
@@ -37,7 +37,7 @@ const store = createStore(
       uploads,
     }: StateTree = {
       api: undefined,
-      recordings: undefined,
+      sentences: undefined,
       user: undefined,
       clips: undefined,
       requestedLanguages: undefined,
@@ -46,7 +46,7 @@ const store = createStore(
       uploads: undefined,
     },
     action:
-      | Recordings.Action
+      | Sentences.Action
       | User.Action
       | Clips.Action
       | RequestedLanguages.Action
@@ -54,10 +54,10 @@ const store = createStore(
       | Uploads.Action
   ): StateTree {
     const newState = {
-      recordings: Recordings.reducer(
+      sentences: Sentences.reducer(
         locale,
-        recordings,
-        action as Recordings.Action
+        sentences,
+        action as Sentences.Action
       ),
       user: User.reducer(user, action as User.Action),
       clips: Clips.reducer(locale, clips, action as Clips.Action),

@@ -1,6 +1,6 @@
-import { isNativeIOS } from '../../../utility';
+import { isNativeIOS } from '../../../../utility';
 import { AudioInfo } from './audio-web';
-import confirm from '../../../confirm/confirm';
+import confirm from '../../../../confirm/confirm';
 
 const LEVELS_THROTTLE = 50;
 

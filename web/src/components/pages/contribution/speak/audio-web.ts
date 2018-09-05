@@ -1,4 +1,4 @@
-import { isNativeIOS } from '../../../utility';
+import { isNativeIOS } from '../../../../utility';
 
 const AUDIO_TYPE = 'audio/ogg; codecs=opus';
 

@@ -5,7 +5,7 @@ import { RouteComponentProps, withRouter } from 'react-router';
 const NavigationPrompt = require('react-router-navigation-prompt').default;
 import { Locale } from '../../../../stores/locale';
 import { Notifications } from '../../../../stores/notifications';
-import { Recordings } from '../../../../stores/recordings';
+import { Sentences } from '../../../../stores/sentences';
 import StateTree from '../../../../stores/tree';
 import { Uploads } from '../../../../stores/uploads';
 import { User } from '../../../../stores/user';
@@ -21,8 +21,6 @@ import Modal, { ModalButtons } from '../../../modal/modal';
 import { CheckIcon, FontIcon, MicIcon, StopIcon } from '../../../ui/icons';
 import { Button, TextButton } from '../../../ui/ui';
 import { getItunesURL, isFirefoxFocus, isNativeIOS } from '../../../../utility';
-import AudioIOS from '../../record/audio-ios';
-import AudioWeb, { AudioError, AudioInfo } from '../../record/audio-web';
 import ContributionPage, {
   ContributionPillProps,
   SET_COUNT,
@@ -31,7 +29,10 @@ import {
   RecordButton,
   RecordingStatus,
 } from '../../../primary-buttons/primary-buttons';
+import AudioIOS from './audio-ios';
+import AudioWeb, { AudioError, AudioInfo } from './audio-web';
 import RecordingPill from './recording-pill';
+import { SentenceRecording } from './sentence-recording';
 
 import './speak.css';
 
@@ -75,14 +76,14 @@ const UnsupportedInfo = () => (
 interface PropsFromState {
   api: API;
   locale: Locale.State;
-  sentences: Recordings.Sentence[];
+  sentences: Sentences.Sentence[];
   user: User.State;
 }
 
 interface PropsFromDispatch {
   addUploads: typeof Uploads.actions.add;
   addNotification: typeof Notifications.actions.add;
-  removeSentences: typeof Recordings.actions.removeSentences;
+  removeSentences: typeof Sentences.actions.remove;
   tallyRecording: typeof User.actions.tallyRecording;
   updateUser: typeof User.actions.update;
 }
@@ -95,7 +96,7 @@ interface Props
     RouteComponentProps<any> {}
 
 interface State {
-  clips: (Recordings.SentenceRecording)[];
+  clips: SentenceRecording[];
   isSubmitted: boolean;
   error?: RecordingError | AudioError;
   recordingStatus: RecordingStatus;
@@ -544,7 +545,7 @@ const mapStateToProps = (state: StateTree) => {
   return {
     api: state.api,
     locale: state.locale,
-    sentences: Recordings.selectors.localeRecordings(state).sentences,
+    sentences: Sentences.selectors.localeSentences(state),
     user: state.user,
   };
 };
@@ -552,7 +553,7 @@ const mapStateToProps = (state: StateTree) => {
 const mapDispatchToProps = {
   addNotification: Notifications.actions.add,
   addUploads: Uploads.actions.add,
-  removeSentences: Recordings.actions.removeSentences,
+  removeSentences: Sentences.actions.remove,
   tallyRecording: User.actions.tallyRecording,
   updateUser: User.actions.update,
 };
