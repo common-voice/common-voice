@@ -17,7 +17,7 @@ export namespace Flags {
   export const actions = {
     set: (state: State) => ({
       type: ActionType.SET,
-      state
+      state,
     }),
   };
 

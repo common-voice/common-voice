@@ -84,9 +84,19 @@ const store = createStore(
 store.dispatch(User.actions.update({}) as any);
 
 const flags = document.querySelector('#flags');
-console.log(flags);
+
 try {
   flags && store.dispatch(Flags.actions.set(JSON.parse(flags.textContent)));
+  const observer = new MutationObserver(mutations => {
+    for (const mutation of mutations) {
+      for (const node of Array.from(mutation.addedNodes)) {
+        if ((node as any).id === 'flags') {
+          store.dispatch(Flags.actions.set(JSON.parse(node.textContent)));
+        }
+      }
+    }
+  });
+  observer.observe(document.body, { childList: true });
 } catch (e) {
   console.error('error settings flags', e);
 }
