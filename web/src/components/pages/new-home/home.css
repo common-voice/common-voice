@@ -59,9 +59,7 @@
         background: #f9f9f8;
 
         @media (--sm-down) {
-            padding-top: 30px;
-            padding-left: 20px;
-            padding-right: 20px;
+            padding: 30px 20px 15px;
         }
 
         @media (--md-up) {
@@ -131,7 +129,6 @@
 
         @media (--md-down) {
             margin-bottom: 33px;
-            margin-top: 15px;
             flex-direction: column;
 
             & > :first-child {

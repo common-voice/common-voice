@@ -131,9 +131,11 @@ class Hero extends React.Component<
               {DAILY_GOAL[type]}
             </span>
           </span>
-          <Localized id={type + '-goal-text'}>
-            <p />
-          </Localized>
+          <p>
+            <Localized id={type + '-goal-text'}>
+              <i />
+            </Localized>
+          </p>
         </div>
         <div className="fading" />
       </div>

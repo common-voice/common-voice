@@ -67,15 +67,16 @@
 
             &.title {
                 order: 0;
+                margin-bottom: 20px;
             }
 
             &.cta {
-                margin-top: 20px;
                 order: 2;
             }
 
             &.progress {
                 order: 1;
+                margin-bottom: 20px;
             }
         }
     }
@@ -97,6 +98,8 @@
             white-space: nowrap;
 
             @media (--sm-down) {
+                font-family: var(--base-font-family);
+                font-weight: 600;
                 font-size: 12px;
                 letter-spacing: 0.5px;
             }
