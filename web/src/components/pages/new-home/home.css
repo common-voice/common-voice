@@ -94,7 +94,7 @@
                 }
 
                 @media (--md-up) {
-                    max-width: 475px;
+                    max-width: 520px;
                     font-size: 36px;
                 }
             }

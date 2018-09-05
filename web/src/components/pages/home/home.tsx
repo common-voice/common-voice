@@ -144,7 +144,7 @@ class HomePage extends React.Component<Props, State> {
             <p className="more-text-mobile" />
           </Localized>
 
-          <Localized id="wall-of-text-more-desktop" lineBreak={<br />}>
+          <Localized id="wall-of-text-more-desktop">
             <p className="more-text-desktop" />
           </Localized>
 

@@ -119,8 +119,7 @@ wall-of-text-more-mobile =
   recognition open to everyone.
 wall-of-text-more-desktop =
   Now you can donate your voice to help us build an open-source voice database that anyone can use
-  to make innovative apps for devices and the web.<lineBreak></lineBreak>
-  Read a sentence to help machines learn how real people speak. Check the work of other
+  to make innovative apps for devices and the web. Read a sentence to help machines learn how real people speak. Check the work of other
   contributors to improve the quality. It’s that simple!
 wall-of-text-first =
   Voice is natural, voice is human. That’s why we’re excited about creating usable voice technology
