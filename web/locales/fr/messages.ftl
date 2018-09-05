@@ -142,6 +142,11 @@ read-terms-q = Avez-vous lu les conditions d’utilisation ?
 ready-to-record = Êtes-vous prêt⋅e à donner de votre voix ?
 all-languages = Toutes les langues
 today = Aujourd’hui
+x-weeks-short =
+    { $count ->
+        [one] semaine
+       *[other] { $count } smn
+    }
 x-months-short =
     { $count ->
         [one] mois
