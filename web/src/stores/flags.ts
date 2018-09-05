@@ -4,18 +4,20 @@ export namespace Flags {
   }
 
   enum ActionType {
-    SHOW_NEW_HOME = 'SHOW_NEW_HOME',
+    SET = 'SET_FLAGS',
   }
 
-  interface ShowNewHomeAction {
-    type: ActionType.SHOW_NEW_HOME;
+  interface SetFlags {
+    type: ActionType.SET;
+    state: State;
   }
 
-  export type Action = ShowNewHomeAction;
+  export type Action = SetFlags;
 
   export const actions = {
-    showNewHome: () => ({
-      type: ActionType.SHOW_NEW_HOME,
+    set: (state: State) => ({
+      type: ActionType.SET,
+      state
     }),
   };
 
@@ -26,8 +28,8 @@ export namespace Flags {
     action: Action
   ): State {
     switch (action.type) {
-      case ActionType.SHOW_NEW_HOME:
-        return { ...state, showNewHome: true };
+      case ActionType.SET:
+        return { ...state, ...action.state };
 
       default:
         return state;

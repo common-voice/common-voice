@@ -83,9 +83,12 @@ const store = createStore(
 
 store.dispatch(User.actions.update({}) as any);
 
-// Make flag actions accessible globally so we can fire them from Google Optimize
-for (const [key, value] of Object.entries(Flags.actions)) {
-  (window as any)[key] = () => store.dispatch(value());
+const flags = document.querySelector('#flags');
+console.log(flags);
+try {
+  flags && store.dispatch(Flags.actions.set(JSON.parse(flags.textContent)));
+} catch (e) {
+  console.error('error settings flags', e);
 }
 
 const fieldTrackers: any = {
