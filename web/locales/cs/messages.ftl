@@ -24,6 +24,7 @@ bn = Bengálština
 br = Bretonština
 bxr = Burjatština
 ca = Katalánština
+cak = Kaqchikel
 cs = Čeština
 cv = Čuvaština
 cy = Velština
@@ -122,6 +123,8 @@ toggle-play-tooltip = Stisknutím { shortcut-play-toggle } přepnete do režimu 
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
@@ -138,6 +141,9 @@ shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
 shortcut-record-toggle-label = Nahrát/Zastavit
 request-language-text = Nevidíte svůj jazyk na Common Voice?
 request-language-button = Požádat o jazyk
@@ -337,3 +343,7 @@ unable-speak = Nemůžete teď mluvit?
 clips-uploaded = Nahraných klipů
 record-abort-text = Když nyní odejdete, přijdete o dosavadní postup
 record-abort-submit = Odeslat nahrávky
+record-abort-delete = Odejít a smazat nahrávky
+listen-instruction = { $actionType } <playIcon></playIcon> byla věta nahrána přesně?
+listen-last-time-instruction = <playIcon></playIcon>Poslední!
+share-title-new = <bold>Pomozte nám</bold> najít další hlasy
