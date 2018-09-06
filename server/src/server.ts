@@ -243,6 +243,27 @@ export default class Server {
 
     this.listen();
 
+    const lock = require('consul')().lock({ key: 'test' });
+    lock.on('acquire', () => {
+      this.print('consul lock acquired');
+
+      lock.release();
+    });
+
+    lock.on('release', () => {
+      this.print('consul lock released');
+    });
+
+    lock.on('error', (err: any) => {
+      this.print('consul lock error:' + err);
+    });
+
+    lock.on('end', () => {
+      this.print('consul lock released or there was a permanent failure');
+    });
+
+    lock.acquire();
+
     const isLeader = await this.checkLeader();
 
     if (isLeader) {

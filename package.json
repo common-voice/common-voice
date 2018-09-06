@@ -36,6 +36,7 @@
     "body-parser": "^1.18.2",
     "commonmark": "^0.28.1",
     "concurrently": "^3.5.0",
+    "consul": "^0.34.0",
     "cookie-parser": "^1.4.3",
     "css-loader": "^0.28.7",
     "cssnano": "^3.10.0",
