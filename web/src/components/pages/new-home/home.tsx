@@ -88,7 +88,7 @@ export default class HomePage extends React.Component<{}, State> {
 
               {showWallOfText && (
                 <React.Fragment>
-                  <Localized id="wall-of-text-more-desktop" lineBreak={<br />}>
+                  <Localized id="wall-of-text-more-desktop">
                     <p />
                   </Localized>
                   <br />
@@ -117,7 +117,9 @@ export default class HomePage extends React.Component<{}, State> {
         </div>
 
         <div className="mars">
-          <img src="/img/mars.svg" alt="Mars" />
+          <div className="mars-container">
+            <img src="/img/mars.svg" alt="Mars" />
+          </div>
           <div className="cta">
             <ContributableLocaleLock
               render={({ isContributable }: any) =>

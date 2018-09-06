@@ -65,6 +65,11 @@
         @media (--md-up) {
             padding-top: 95px;
             padding-bottom: 225px;
+
+            & .title, & .description {
+                width: 50%;
+                max-width: 570px;
+            }
         }
 
         & .inner {
@@ -75,12 +80,13 @@
 
             @media (--md-up) {
                 flex-direction: row;
+                justify-content: center;
             }
         }
 
         & .title {
             @media (--md-up) {
-                width: 50%;
+                margin-right: 30px;
             }
 
             & h1 {
@@ -161,6 +167,17 @@
 
         @media (--md-up) {
             min-height: 408px;
+
+            & .mars-container, & .cta {
+                width: 50%;
+                max-width: 570px;
+            }
+
+            & .mars-container {
+                margin-right: 30px;
+                display: flex;
+                justify-content: flex-end;
+            }
         }
 
         & .cta {
@@ -172,45 +189,15 @@
                 flex-direction: row;
                 align-items: center;
             }
-            @media (--lg-up) {
-                padding-left: 200px;
-            }
-
-            & .request-language {
-                outline: none;
-                border: 1px solid transparent;
-                border-radius: 50px;
-                font-size: 16px;
-                color: var(--white);
-                background: var(--blue);
-                transition: background var(--transition-duration),
-                            border var(--transition-duration),
-                            color var(--transition-duration);
-
-                &:hover {
-                    border: 1px solid var(--blue);
-                    color: var(--black);
-                    background: var(--white);
-                }
-
-                @media (--sm-down) {
-                    margin-top: 10px;
-                    padding: 10px 20px;
-                }
-
-                @media (--md-up) {
-                    margin-top: 20px;
-                    padding: 15px 40px;
-                }
-            }
         }
 
-        & img {
+        & .mars-container img {
             @media (--sm-down) {
                 margin-bottom: 15px;
                 margin-right: 28px;
             }
             @media (--md-up) {
+                margin-right: 100px;
                 transform: scale(1.2) translateY(30px);
             }
         }
@@ -223,6 +210,10 @@
                 & .background {
                     left: -5px
                 }
+            }
+
+            @media (--md-up) {
+                margin-left: 10px;
             }
         }
 
@@ -239,6 +230,34 @@
             @media (--md-up) {
                 max-width: 300px;
                 font-size: 36px;
+            }
+        }
+
+        & .request-language {
+            outline: none;
+            border: 1px solid transparent;
+            border-radius: 50px;
+            font-size: 16px;
+            color: var(--white);
+            background: var(--blue);
+            transition: background var(--transition-duration),
+                        border var(--transition-duration),
+                        color var(--transition-duration);
+
+            &:hover {
+                border: 1px solid var(--blue);
+                color: var(--black);
+                background: var(--white);
+            }
+
+            @media (--sm-down) {
+                margin-top: 10px;
+                padding: 10px 20px;
+            }
+
+            @media (--md-up) {
+                margin-top: 20px;
+                padding: 15px 40px;
             }
         }
     }
