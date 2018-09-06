@@ -52,6 +52,7 @@ kab = Kabylština
 kk = Kazaština
 ko = Korejština
 kw = Kornština
+ky = Kyrgyzština
 mk = Makedonština
 nb-NO = Norština (Bokmål)
 ne-NP = Nepálština
@@ -73,6 +74,7 @@ th = Thajština
 tr = Turečtina
 tt = Tatarština
 uk = Ukrajinština
+ur = Urdština
 uz = Uzbečtina
 zh-CN = Čínština (Čína)
 zh-HK = Čínština (Hong Kong)
@@ -99,7 +101,9 @@ share-title = Pomozte nám najít další, kteří darují svůj hlas!
 share-text = Pomozte strojům pochopit, jak mluví lidé, darujte svůj hlas na { $link }
 link-copied = Odkaz byl zkopírován
 back-top = Zpět nahoru
+contribution-banner-text = Právě jsme spustili nový způsob přispívání
 contribution-banner-button = Podívejte se
+report-bugs-link = Pomozte hledat chyby
 
 ## Home Page
 
@@ -300,17 +304,23 @@ language-section-launched = Spuštěno
 languages-show-more = Zobrazit více
 languages-show-less = Zobrazit méně
 language-speakers = Mluvčí
+language-meter-in-progress = Postup
 language-total-progress = Celkem
+language-search-input =
+    .placeholder = Hledat
 language-speakers = Mluvčí
+localized = Přeloženo
+sentences = Věty
+total-hours = Ověřené hodiny
 
 ## New Contribution
 
 action-click = Klikněte
 action-tap = Klepněte
+contribute = Přispět
 listen = Poslouchejte
 skip = Přeskočit
 shortcuts = Zkratky
-clips = Klipy
 contribute-more =
     { $count ->
         [one] Jste připraveni udělat ještě { $count }?
@@ -322,3 +332,8 @@ record-instruction = { $actionType } <recordIcon></recordIcon> a přečtěte nah
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> až budete hotovi
 record-three-more-instruction = Ještě tři!
 record-again-instruction = Skvělé! <recordIcon></recordIcon> Nahrajte váš další klip
+record-last-instruction = <recordIcon></recordIcon> Poslední!
+unable-speak = Nemůžete teď mluvit?
+clips-uploaded = Nahraných klipů
+record-abort-text = Když nyní odejdete, přijdete o dosavadní postup
+record-abort-submit = Odeslat nahrávky
