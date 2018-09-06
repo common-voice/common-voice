@@ -118,7 +118,7 @@ home-title = El proyeutu Common Voice ye la iniciativa de Mozilla pa enseña-yos
 home-cta = ¡Collabora equí!
 wall-of-text-start =
     La voz ye natural, tamién humana. Poro, tamos ablucando cola creación d'una teunoloxía per
-    voz de calidá pa les máquines de nueso. Pero pa crear sistemes per voz, ríquese una cantidá
+    voz calidable pa les máquines de nueso. Pero pa crear sistemes per voz, ríquese una cantidá
     escomanada de datos de voz.
 wall-of-text-more-mobile =
     La mayoría de datos usaos por compañes grandes nun tán disponibles pa la mayoría de xente.
@@ -148,7 +148,7 @@ speak-subtitle = Empresta la to voz
 speak-paragraph = La grabación de clips de voz ye una parte esencial de la fechura del nuesu conxuntu abiertu de datos. Tamién ye la parte más divertida.
 speak-goal-text = Clips grabaos
 listen-subtitle = Ayúdanos a validar voces
-listen-paragraph = Validar los clips ye tamién importante pa la misión de Common Voice. Sienti y ayúdanos a crear datos de voz llibres y de calidá.
+listen-paragraph = Validar los clips ye tamién importante pa la misión de Common Voice. Sienti y ayúdanos a crear datos de voz llibres y calidables.
 listen-goal-text = Clips validaos
 hours-recorded = Hores grabaes
 hours-validated = Hores validaes
@@ -156,7 +156,11 @@ read-terms-q = ¿Lleesti los nuesos términos?
 ready-to-record = ¿Preparáu pa emprestar la to voz?
 all-languages = Toles llingües
 today = Güei
-x-weeks-short = VoxForge creóse pa recoyer charres trescrites y usales dempués nos motores de reconocencia gratuítos y de códigu abiertu.
+x-weeks-short =
+    { $count ->
+        [one] Selmana
+       *[other] { $count } selmanes
+    }
 x-months-short =
     { $count ->
         [one] { $count } mes
@@ -290,7 +294,7 @@ data-other-download = Baxar datos
 data-other-librispeech-description = LibriSpeech ye un corpus de 1000 hores aproximadamente a 16Khz de llectura d'audiollibros n'inglés del proyeutu LibriVox.
 data-other-ted-name = Corpus de TED-LIUM
 data-other-ted-description = El corpus de TED-LIUM fízose de magar audios de charres y les sos trescripciones disponibles nel sitiu web TED.
-data-other-voxforge-description = VoxForge creóse pa recoyer charres trescrites y usales dempués nos motores de reconocencia gratuítos y de códigu abiertu.
+data-other-voxforge-description = VoxForge creóse pa recoyer charres trescrites y usales dempués nos motores de reconocencia gratuitos y de códigu abiertu.
 data-other-tatoeba-description = Tatoeba ye una base de datos grande de frases, traducciones y audios pal usu nel deprendimientu de llingües. Esta descarga contién grabaciones n'inglés faláu pola so comunidá.
 data-bundle-button = Baxar el paquete del conxuntu de datos
 data-bundle-description = Los datos de Common Voice amás de tolos conxuntos de datos d'enriba.
