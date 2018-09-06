@@ -181,10 +181,6 @@
         & a {
             background: white;
             transition: background var(--transition-duration-slow) linear;
-
-            & path {
-                transition: fill var(--transition-duration-slow) linear;
-            }
         }
     }
 
