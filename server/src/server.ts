@@ -7,17 +7,14 @@ const contributableLocales = require('../../locales/contributable.json');
 import Model from './lib/model';
 import API from './lib/api';
 import Logger from './lib/logger';
-import {
-  isLeaderServer,
-  getElapsedSeconds,
-  ClientError,
-  APIError,
-} from './lib/utility';
+import { getElapsedSeconds, ClientError, APIError } from './lib/utility';
 import { importSentences } from './lib/model/db/import-sentences';
 import { getConfig } from './config-helper';
 import authRouter from './auth-router';
 import { router as adminRouter } from './admin';
 import fetchLegalDocument from './fetch-legal-document';
+
+const consul = require('consul')({ promisify: true });
 
 const FULL_CLIENT_PATH = path.join(__dirname, '../web');
 
@@ -156,29 +153,6 @@ export default class Server {
   }
 
   /**
-   * Check if we are the chosen leader server (for performance maintenance).
-   */
-  private async checkLeader(): Promise<boolean> {
-    if (this.isLeader !== null) {
-      return this.isLeader;
-    }
-
-    try {
-      const config = getConfig();
-      this.isLeader = await isLeaderServer(
-        config.ENVIRONMENT,
-        config.RELEASE_VERSION
-      );
-      this.print('leader', this.isLeader);
-    } catch (err) {
-      console.error('error checking for leader', err.message);
-      this.isLeader = false;
-    }
-
-    return this.isLeader;
-  }
-
-  /**
    * Perform any scheduled maintenance on the data model.
    */
   async performMaintenance(doImport: boolean): Promise<void> {
@@ -243,32 +217,28 @@ export default class Server {
 
     this.listen();
 
-    const lock = require('consul')().lock({ key: 'test' });
-    lock.on('acquire', () => {
-      this.print('consul lock acquired');
+    const { ENVIRONMENT, RELEASE_VERSION } = getConfig();
+
+    if (!ENVIRONMENT || ENVIRONMENT === 'default') {
+      await this.performMaintenance(options.doImport);
+      return;
+    }
+
+    const key = ENVIRONMENT + RELEASE_VERSION;
+    const lock = consul.lock({ key });
+
+    lock.on('acquire', async () => {
+      const hasMigrated = JSON.parse((await consul.kv.get(key)).Value);
+
+      if (!hasMigrated) {
+        await this.performMaintenance(options.doImport);
+        await consul.kv.set(key, JSON.stringify(true));
+      }
 
       lock.release();
     });
 
-    lock.on('release', () => {
-      this.print('consul lock released');
-    });
-
-    lock.on('error', (err: any) => {
-      this.print('consul lock error:' + err);
-    });
-
-    lock.on('end', () => {
-      this.print('consul lock released or there was a permanent failure');
-    });
-
     lock.acquire();
-
-    const isLeader = await this.checkLeader();
-
-    if (isLeader) {
-      await this.performMaintenance(options.doImport);
-    }
 
     await this.warmUpCaches();
   }
