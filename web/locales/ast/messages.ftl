@@ -109,7 +109,7 @@ share-text = Enséña-yos a les máquines cómo falen los humanos. Empresta la t
 link-copied = Copióse l'enllaz
 back-top = Volver a arriba
 contribution-banner-text = Tamos acabante de llanzar una esperiencia nueva de collaboración
-contribution-banner-button = Écha-y un gueyu
+contribution-banner-button = Écha-y un güeyu
 report-bugs-link = Ayuda a informar de fallos
 
 ## Home Page
