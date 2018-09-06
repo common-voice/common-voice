@@ -3,6 +3,7 @@ import * as http from 'http';
 import * as path from 'path';
 import * as express from 'express';
 import { NextFunction, Request, Response } from 'express';
+const contributableLocales = require('../../locales/contributable.json');
 import Model from './lib/model';
 import API from './lib/api';
 import Logger from './lib/logger';
@@ -247,6 +248,18 @@ export default class Server {
     if (isLeader) {
       await this.performMaintenance(options.doImport);
     }
+
+    await this.warmUpCaches();
+  }
+
+  async warmUpCaches() {
+    this.print('warming up caches');
+    const start = Date.now();
+    for (const locale of contributableLocales) {
+      await this.model.getClipsStats(locale);
+      await this.model.getVoicesStats(locale);
+    }
+    this.print(`took ${getElapsedSeconds(start)}s to warm up caches`);
   }
 
   /**
