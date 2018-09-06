@@ -228,7 +228,9 @@ export default class Server {
     const lock = consul.lock({ key });
 
     lock.on('acquire', async () => {
-      const hasMigrated = JSON.parse((await consul.kv.get(key)).Value);
+      const result = await consul.kv.get(key);
+      this.print('consul key value:', JSON.stringify(result, null, 2));
+      const hasMigrated = JSON.parse(result.Value);
 
       if (!hasMigrated) {
         await this.performMaintenance(options.doImport);
