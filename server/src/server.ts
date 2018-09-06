@@ -255,7 +255,7 @@ export default class Server {
   async warmUpCaches() {
     this.print('warming up caches');
     const start = Date.now();
-    for (const locale of contributableLocales) {
+    for (const locale of [null].concat(contributableLocales)) {
       await this.model.getClipsStats(locale);
       await this.model.getVoicesStats(locale);
     }
