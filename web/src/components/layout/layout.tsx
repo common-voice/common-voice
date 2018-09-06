@@ -87,7 +87,6 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     transitioning: false,
     isRecording: false,
     showContributionBanner: false,
-    // While showing the survey we're not showing the contribution banner
     // JSON.parse(localStorage.getItem(CONTRIBUTION_BANNER_KEY)) !== false,
     showStagingBanner: true,
   };
