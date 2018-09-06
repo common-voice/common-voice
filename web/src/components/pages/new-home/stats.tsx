@@ -133,16 +133,12 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
                 openMenu,
                 toggleMenu,
               }) => (
-                <div
-                  className="select"
-                  onClick={() => toggleMenu()}
-                  onMouseEnter={() => openMenu()}
-                  onMouseLeave={() => closeMenu()}>
+                <div className="select" onClick={() => toggleMenu()}>
                   <Localized id={locale}>
                     <div className="current" />
                   </Localized>
                   {isOpen && (
-                    <ul>
+                    <ul onClick={() => toggleMenu()}>
                       {[ALL_LOCALES]
                         .concat(contributableLocales)
                         .map((l, i) => (
