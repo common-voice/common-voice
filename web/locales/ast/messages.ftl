@@ -287,6 +287,7 @@ data-download-deny = Non
 data-download-license = Llicencia: <licenseLink>CC-0</licenseLink>
 data-download-modal = Tas a piques d'aniciar la descarga de <size>{ $size }GB</size>, ¿siguir?
 data-subtitle = Tamos construyendo un conxuntu de datos de voz públicu y disponible que tol mundu pue usar pa entrenar a les aplicaciones qu'usen la voz.
+data-explanatory-text = Creyemos qu'unos conxuntos de datos de voz grandes y disponibles públicamente dan puxu a la innovación y competencia comercial sana nel campu de la teunoloxía de la voz basada nel deprendizaxe automáticu. Esto ye un esfuerciu global y convidamos a tol mundu a que participe. L'oxetivu de nueso ye ayudar a que la teunoloxía de voz seya más inclusiva reflexando la diversidá de voces nel mundu.
 data-get-started = <speechBlogLink>Entamar cola reconocencia de voz</speechBlogLink>
 data-other-title = Otros conxuntos de datos de voz...
 data-other-goto = Dir a { $name }
