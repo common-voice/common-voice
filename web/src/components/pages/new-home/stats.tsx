@@ -198,7 +198,7 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
               {data.map((datum, i) => (
                 <text
                   key={i}
-                  className="tick-label"
+                  className="x tick-label"
                   x={
                     LINE_OFFSET +
                     i * ((width - PLOT_PADDING - TEXT_OFFSET) / data.length)

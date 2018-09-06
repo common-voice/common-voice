@@ -74,6 +74,7 @@
 @custom-media --lg-up (width >= 992px);
 @custom-media --xl-up (width >= 1200px);
 
+@custom-media --xxs-down (width <= 470px);
 @custom-media --xs-down (width <= 576px);
 @custom-media --sm-down (width <= 768px);
 @custom-media --md-down (width <= 992px);

@@ -130,6 +130,12 @@
     & .tick-label {
         font-size: 12px;
         fill: var(--warm-grey);
+
+        @media (--xxs-down) {
+            &.x:nth-child(2n) {
+                display: none;
+            }
+        }
     }
 
     & path {
@@ -191,6 +197,12 @@
     }
 
     & rect {
+        @media (--xxs-down) {
+            &:nth-child(2n) {
+                display: none;
+            }
+        }
+
         &.bg {
             fill: var(--grey);
         }
