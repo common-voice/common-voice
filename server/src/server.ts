@@ -219,10 +219,10 @@ export default class Server {
 
     const { ENVIRONMENT, RELEASE_VERSION } = getConfig();
 
-    // if (!ENVIRONMENT || ENVIRONMENT === 'default') {
-    //   await this.performMaintenance(options.doImport);
-    //   return;
-    // }
+    if (!ENVIRONMENT || ENVIRONMENT === 'default') {
+      await this.performMaintenance(options.doImport);
+      return;
+    }
 
     const lock = consul.lock({ key: 'migration-lock' });
 
@@ -231,12 +231,7 @@ export default class Server {
 
       try {
         const result = await consul.kv.get(key);
-        this.print(
-          'consul value',
-          JSON.parse(result.Value) ? 1 : 0,
-          JSON.stringify(result, null, 2)
-        );
-        const hasMigrated = JSON.parse(result.Value);
+        const hasMigrated = result && JSON.parse(result.Value);
 
         if (!hasMigrated) {
           await this.performMaintenance(options.doImport);
