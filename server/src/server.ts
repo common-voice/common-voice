@@ -162,7 +162,7 @@ export default class Server {
     try {
       await this.model.performMaintenance();
       if (doImport) {
-        await importSentences(await this.model.db.mysql.createPool());
+        // await importSentences(await this.model.db.mysql.createPool());
       }
       await this.model.db.fillCacheColumns();
       this.print('Maintenance complete');
@@ -224,13 +224,13 @@ export default class Server {
       return;
     }
 
-    const key = ENVIRONMENT + RELEASE_VERSION;
-    const lock = consul.lock({ key });
+    const lock = consul.lock({ key: 'migration-lock' });
 
     lock.on('acquire', async () => {
+      const key = ENVIRONMENT + RELEASE_VERSION;
+
       try {
         const result = await consul.kv.get(key);
-        this.print('consul key value:', JSON.stringify(result, null, 2));
         const hasMigrated = JSON.parse(result.Value);
 
         if (!hasMigrated) {
