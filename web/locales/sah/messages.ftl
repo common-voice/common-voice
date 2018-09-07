@@ -99,6 +99,7 @@ cookies = Кукилар
 faq = Субу-субу биэриллэр ыйытыылар
 link-copied = Сигэ куопуйаланна
 back-top = Үөһээ төнүн
+contribution-banner-button = Көрөн ыл
 
 ## Home Page
 
@@ -189,7 +190,6 @@ action-tap = Таарый
 contribute = Кытын
 listen = Иһит
 skip = Көтүт
-clips = Клиптар
 record-three-more-instruction = Үс хаалла!
 listen-last-time-instruction = <playIcon></playIcon>Бүтэһик!
 record-button-label = Куоласкын суруттар
