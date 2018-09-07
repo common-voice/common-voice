@@ -494,8 +494,8 @@ export default class DB {
           SELECT (TIMESTAMP(DATE_FORMAT(NOW(), '%Y-%m-%d %H:00')) - INTERVAL hour HOUR) AS date
           FROM (${hours.map(i => `SELECT ${i} AS hour`).join(' UNION ')}) hours
         ) date_alias
-        LEFT JOIN clips ON created_at BETWEEN date AND (date + INTERVAL 1 HOUR) ${
-          locale ? 'AND clips.locale_id = ?' : ''
+        LEFT JOIN user_client_activities ON created_at BETWEEN date AND (date + INTERVAL 1 HOUR) ${
+          locale ? 'AND locale_id = ?' : ''
         }
         GROUP BY date
     `,
@@ -655,5 +655,14 @@ export default class DB {
       `,
       [email]
     ))[0][0];
+  }
+
+  async saveActivity(client_id: string, locale: string) {
+    await this.mysql.query(
+      `
+        INSERT INTO user_client_activities (client_id, locale_id) VALUES (?, ?)
+      `,
+      [client_id, await this.getLocaleId(locale)]
+    );
   }
 }

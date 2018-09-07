@@ -1,7 +1,7 @@
 import * as crypto from 'crypto';
 import { PassThrough } from 'stream';
 import { S3 } from 'aws-sdk';
-import { Request, Response } from 'express';
+import { NextFunction, Request, Response } from 'express';
 const PromiseRouter = require('express-promise-router');
 import { getConfig } from '../config-helper';
 import { AWS } from './aws';
@@ -35,6 +35,25 @@ export default class Clip {
 
   getRouter() {
     const router = PromiseRouter({ mergeParams: true });
+
+    router.use(
+      (
+        { headers, params }: Request,
+        response: Response,
+        next: NextFunction
+      ) => {
+        const uid = headers.uid as string;
+        const { locale } = params;
+
+        if (uid && locale) {
+          this.model.db
+            .saveActivity(uid, locale)
+            .catch((error: any) => console.error(error));
+        }
+
+        next();
+      }
+    );
 
     router.post('/:clipId/votes', this.saveClipVote);
     router.post('*', this.saveClip);
