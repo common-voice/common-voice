@@ -51,7 +51,7 @@ Atap genting itu menghilang.
 Kucing itu tertidur pulas.
 Tong sampah itu sudah diangkut.
 Sampah-sampah di halaman rumah itu telah dibersihkan.
-Sabana adalah padang rumput yang dipenuhi oleh semak dan diselingi oleh beberapa jenis pohon yang tumbuh menyebar.
+sepuluh unit komputer telah dibeli
 gagang sapu itu patah.
 Kandang Ayam itu sedang diperbaiki.
 Truk itu sedang dalam perawatan.
@@ -98,9 +98,3 @@ apa ada berita terhangat hari ini?
 Kapan penerbangan selanjutnya?
 apa saja agenda kita hari ini?
 Tolong cari resep untuk sup ayam di internet.
-
-
-
-
-
-
