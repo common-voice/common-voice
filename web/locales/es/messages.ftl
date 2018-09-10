@@ -124,6 +124,11 @@ no-clips-to-validate = Parece que no hay grabaciones para escuchar en este idiom
 vote-yes = Sí
 vote-no = No
 toggle-play-tooltip = Presiona { shortcut-play-toggle } para activar el modo de reproducción
+speak-subtitle = Dona tu voz
+listen-subtitle = Ayúdanos a validar voces
+ready-to-record = ¿Listo para donar tu voz?
+all-languages = Todos los idiomas
+today = Hoy
 
 ## Speak & Listen Shortcuts
 
