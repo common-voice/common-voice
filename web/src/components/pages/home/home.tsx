@@ -20,7 +20,7 @@ import API from '../../../services/api';
 
 interface PropsFromState {
   api: API;
-  showNewHome: boolean;
+  showOldHome: boolean;
 }
 
 interface Props
@@ -57,8 +57,8 @@ class HomePage extends React.Component<Props, State> {
     await this.updateMessagesGenerator(nextProps);
   }
 
-  handleNewHomeRedirect({ locale, history, showNewHome }: Props) {
-    if (showNewHome) {
+  handleNewHomeRedirect({ locale, history, showOldHome }: Props) {
+    if (!showOldHome) {
       history.replace('/' + locale + '/new');
     }
   }
@@ -197,6 +197,6 @@ class HomePage extends React.Component<Props, State> {
 export default withRouter(connect<PropsFromState>(
   ({ api, flags }: StateTree) => ({
     api,
-    showNewHome: flags.showNewHome,
+    showOldHome: flags.showOldHome,
   })
 )(localeConnector(HomePage)) as any);
