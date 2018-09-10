@@ -224,16 +224,18 @@ export default class Server {
       return;
     }
 
-    const lock = consul.lock({ key: 'migration-lock' });
+    const lock = consul.lock({ key: 'maintenance-lock' });
 
     lock.on('acquire', async () => {
       const key = ENVIRONMENT + RELEASE_VERSION;
 
       try {
         const result = await consul.kv.get(key);
-        const hasMigrated = result && JSON.parse(result.Value);
+        const hasPerformedMaintenance = result && JSON.parse(result.Value);
 
-        if (!hasMigrated) {
+        if (hasPerformedMaintenance) {
+          this.print('maintenance already performed');
+        } else {
           await this.performMaintenance(options.doImport);
           await consul.kv.set(key, JSON.stringify(true));
         }
