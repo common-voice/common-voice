@@ -132,28 +132,6 @@ export default class DB {
     }
   }
 
-  async getUserCount(): Promise<number> {
-    return this.user.getCount();
-  }
-
-  async getDownloadingUserCount(): Promise<number> {
-    const [[{ count }]] = await this.mysql.query(
-      `SELECT COUNT(*) AS count FROM users WHERE has_downloaded`
-    );
-    return count;
-  }
-
-  async getEmailsCount(): Promise<number> {
-    const [[{ count }]] = await this.mysql.query(
-      `SELECT COUNT(email) AS count FROM users WHERE email IS NOT NULL AND TRIM(email) <> ''`
-    );
-    return count;
-  }
-
-  async getUserClientCount(): Promise<number> {
-    return this.userClient.getCount();
-  }
-
   async getSentenceCountByLocale(locales: string[]): Promise<any> {
     const [rows] = await this.mysql.query(
       `
@@ -168,48 +146,9 @@ export default class DB {
     return rows;
   }
 
-  async getTotalSentencesCount(locales?: string[]): Promise<number> {
-    const [[{ count }]] = await this.mysql.query(
-      `SELECT COUNT(*) AS count FROM sentences`
-    );
-    return count;
-  }
-
-  async getSentencesWithNoClipsCount(): Promise<number> {
-    const [[{ count }]] = await this.mysql.query(
-      `
-        SELECT COUNT(*) AS count
-        FROM (
-          SELECT sentences.*
-          FROM sentences
-            LEFT JOIN clips ON sentences.id = clips.original_sentence_id
-          WHERE sentences.is_used
-          GROUP BY sentences.id
-          HAVING COUNT(clips.id) = 0
-        ) t
-      `
-    );
-    return count;
-  }
-
   async getClipCount(): Promise<number> {
     return this.clip.getCount();
   }
-
-  async getVoteCount(): Promise<number> {
-    return this.vote.getCount();
-  }
-
-  async getListenerCount(): Promise<number> {
-    return (await this.mysql.query(
-      `
-        SELECT COUNT(DISTINCT user_clients.client_id) AS count
-        FROM user_clients
-        INNER JOIN votes ON user_clients.client_id = votes.client_id
-      `
-    ))[0][0].count;
-  }
-
   async getSpeakerCount(
     locales: string[]
   ): Promise<{ locale: string; count: number }[]> {

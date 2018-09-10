@@ -1,6 +1,5 @@
 import { Request, Response } from 'express';
 const PromiseRouter = require('express-promise-router');
-import fetchMetrics from './lib/model/metrics';
 import { getConfig } from './config-helper';
 
 const adminEmails = JSON.parse(getConfig().ADMIN_EMAILS);
@@ -16,7 +15,7 @@ router.get('/admin', async ({ user }: Request, response: Response) => {
     response.sendStatus(401);
     return;
   }
-  response.json(await fetchMetrics());
+  response.json({});
 });
 
 export { router };
