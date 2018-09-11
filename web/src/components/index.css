@@ -197,7 +197,11 @@ body:not(.focus) #scroller {
     position: relative;
 }
 
-.home #content, .record #content, .profile #content, .data #content {
+.home #content,
+.record #content,
+.profile #content,
+.data #content,
+.kiosk #content {
     margin: 0 auto;
     max-width: var(--old-desktop-width);
 }
@@ -258,6 +262,10 @@ body:not(.focus) #scroller {
     }
 
     .data #background-container {
+        transform: translateY(1rem);
+    }
+
+    .kiosk #background-container {
         transform: translateY(1rem);
     }
 
@@ -361,6 +369,18 @@ body:not(.ios) .recording #background-container {
 
 @media (--desktop) {
     .data #background-container {
+        background-image: var(--record-background-image);
+    }
+}
+
+@media (--mobile) {
+    .kiosk #background-container {
+        background-image: var(--record-background-image-mobile);
+    }
+}
+
+@media (--desktop) {
+    .kiosk #background-container {
         background-image: var(--record-background-image);
     }
 }
@@ -477,7 +497,7 @@ body:not(.ios) .recording #background-container {
     }
 }
 
-.home, .record, .data {
+.home, .record, .data, .kiosk {
     & #background-container {
         opacity: 1;
     }

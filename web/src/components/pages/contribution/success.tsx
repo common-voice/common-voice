@@ -10,6 +10,7 @@ import { LocaleLink } from '../../locale-helpers';
 import { CheckIcon, MicIcon, PlayOutlineIcon } from '../../ui/icons';
 import { Button, LinkButton, TextButton } from '../../ui/ui';
 import { SET_COUNT } from './contribution';
+import { KioskProgress } from '../../../stores/kioskProgress';
 
 import './success.css';
 
@@ -31,6 +32,7 @@ const GoalPercentage = ({
 interface PropsFromState {
   api: API;
   hasEnteredInfo: boolean;
+  kioskProgress: KioskProgress.State;
 }
 
 interface Props extends LocalizationProps, PropsFromState {
@@ -84,6 +86,12 @@ class Success extends React.Component<Props, State> {
 
   render() {
     const { getString, hasEnteredInfo, onReset, type } = this.props;
+    const {
+      isSubmitted,
+      wizardFinished,
+      recordFinished,
+      listenFinished,
+    } = this.props.kioskProgress;
     const { contributionCount, currentCount } = this.state;
     const finalPercentage = Math.ceil(
       100 * (contributionCount || 0) / DAILY_GOAL[type]
@@ -153,6 +161,34 @@ class Success extends React.Component<Props, State> {
           </div>
         )}
 
+        {wizardFinished &&
+          recordFinished &&
+          !listenFinished && (
+            <div className="kiosk-card">
+              <Localized id="kiosk-record-ok">
+                <h3 />
+              </Localized>
+
+              <Localized id="kiosk-record-submit">
+                <LinkButton rounded to={URLS.LISTEN} />
+              </Localized>
+            </div>
+          )}
+
+        {wizardFinished &&
+          recordFinished &&
+          listenFinished && (
+            <div className="kiosk-card">
+              <Localized id="kiosk-listen-ok">
+                <h3 />
+              </Localized>
+
+              <Localized id="kiosk-listen-submit">
+                <LinkButton rounded to={URLS.KIOSK} />
+              </Localized>
+            </div>
+          )}
+
         <ContributeMoreButton>
           {type === 'speak' ? <MicIcon /> : <PlayOutlineIcon />}
           <Localized id="contribute-more" $count={SET_COUNT}>
@@ -171,8 +207,9 @@ class Success extends React.Component<Props, State> {
 }
 
 export default withLocalization(
-  connect<PropsFromState>(({ api, user }: StateTree) => ({
+  connect<PropsFromState>(({ api, user, kioskProgress }: StateTree) => ({
     api,
     hasEnteredInfo: User.selectors.hasEnteredInfo(user),
+    kioskProgress,
   }))(Success)
 );

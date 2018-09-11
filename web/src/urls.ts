@@ -10,4 +10,5 @@ export default Object.freeze({
   TERMS: '/terms',
   NOTFOUND: '/not-found',
   LANGUAGES: '/languages',
+  KIOSK: '/kiosk',
 });
