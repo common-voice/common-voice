@@ -393,3 +393,18 @@ listen-last-time-instruction = <playIcon></playIcon> C’est le dernier !
 nothing-to-validate = Nous n’avons rien à valider dans cette langue, aidez-nous à ajouter quelques enregistrements dans la file d’attente.
 record-button-label = Enregistrer votre voix
 share-title-new = <bold>Aidez-nous</bold> à trouver de nouvelles voix
+
+## Kiosk
+kiosk-wizard-welcome = Bienvenue à l'Expérience Kiosk de Common Voice.
+kiosk-wizard-start = L'objectif est de vous présenter les buts que Common Voice cherche à atteindre, et de nous aider à collecter et valider des données. Nous allons vous demander quelques informations comme votre email pour pouvoir vous contacter par la suite.
+kiosk-wizard-continue = Merci d'utiliser notre Expérience Kiosk, vous allez maintenant pouvoir vous enregistrer en lisant du texte, et valider les enregistrements effectués par d'autres.
+kiosk-wizard-intro = Common Voice vise à collecter des données liées à la parole pour permettre à tous de créer leur propre moteur de reconnaissance vocale ou de synthèse vocale, par exemple. Les données sont collectées sous une licence qui est compatible avec le Domaine Public, la CC-0. Cela permet à quiconque de pouvoir les réutiliser pour tout usage. En participant à cette collecte de données, vous pouvez vous enregistrer en lisant des petites phrases de texte, et vous pouvez également valider les enregistrements effectués par d'autres utilisateurs pour vérifier qu'ils soient corrects (le son correspond à ce qui est écrit, le son est humainement audible, cela correspond à une manière attendue pour un être humain de dire cette phrase). Vous pouvez vous limitez à 5 phrases à enregistrer et à valider, mais si vous voulez en faire encore plus, vous êtes bienvenus. L'idéal est que vous puissiez revenir sur notre site web régulièrement, après l'évènement : de notre côté, nous travaillons constamment à augmenter et à changer le texte de sorte que vous évitiez de vous ennuyer.
+kiosk-wizard-email = Nous voulons vraiment pouvoir vous recontacter après cet évènement. Jamais nous ne vendons ces données, et elles resteront uniquement utilisés par nous afin de vous contacter au sujet de Common Voice et de votre participation à cette Expérience Kiosk.
+kiosk-email-submit = Continuer
+kiosk-wizard-submit = Commencer la contribution
+kiosk-record-submit = Continuer
+kiosk-record-ok = Merci d'avoir enregistré ces quelques phrases pour nous ! Nous allons maintenant vous présenter des phrases à écouter pour les valider.
+kiosk-listen-submit = Finir
+kiosk-listen-ok = Merci d'avoir validé ces quelques phrases ! Ces quelques instants nous sont très utiles pour le projet Common Voice folks !
+kiosk-wizard-congrats = Nous avons pu enregistrer votre contribution, et nous sommes prêts à passer à quelqu'un d'autre, merci !
+kiosk-wizard-finish = Finir
