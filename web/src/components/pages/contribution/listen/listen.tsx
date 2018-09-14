@@ -140,17 +140,18 @@ class ListenPage extends React.Component<Props, State> {
 
     clearInterval(this.playedSomeInterval);
     this.props.vote(isValid, this.state.clips[this.getClipIndex()].id);
+    const isSubmitted = clipIndex === SET_COUNT - 1;
     this.setState({
       hasPlayed: false,
       hasPlayedSome: false,
       isPlaying: false,
-      isSubmitted: clipIndex === SET_COUNT - 1,
+      isSubmitted,
       clips: clips.map(
         (clip, i) => (i === clipIndex ? { ...clip, isValid } : clip)
       ),
     });
 
-    nextKiosk(KioskProgress.Status.listeningCompleted);
+    isSubmitted && nextKiosk(KioskProgress.Status.listeningCompleted);
   };
 
   private voteYes = () => {
