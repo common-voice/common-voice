@@ -25,9 +25,6 @@ services:
       - SERVER_CONFIG_PATH=/code/docker/local-docker-config.json
     networks:
       - voice-web
-    # links:
-    #   - db
-    #   - s3proxy
     ports:
       - 9000:9000
     command: bash -c "/code/docker/prepare_s3.sh && yarn && yarn start"
