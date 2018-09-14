@@ -1,6 +1,7 @@
 ## General
 
 yes-receive-emails = Миэхэ электроннай сурукта ыытын. Мин Common Voice проект туһунан сонуну истиэхпин баҕарабын.
+stayintouch = Биһиги Mozilla-ҕа саҥа технологиятын тула холбоһугу тутабыт. Биһиги саҥатытыы, саҥа даннайдар источниктарын туһунан биллэриэхпитин баҕарабыт уонна бу даннайдары хайдах туттаргытын туһунан истиэхпитин баҕарабыт.
 privacy-info = Эһиги информацияҕытын сэрэнэн туттуохпут диэн тылбытын биэрэбит. Салгыы биһиги <privacyLink>конфиденциальность биллэриибитигэр</privacyLink> аах.
 return-to-cv = Common Voice-ка төҥүн
 email-input =
@@ -107,6 +108,8 @@ contribution-banner-button = Көрөн ыл
 show-wall-of-text = Өссө аах
 vote-yes = Сөп
 vote-no = Суох
+all-languages = Тыллар барыта
+today = Бүгүн
 
 ## Speak & Listen Shortcuts
 
