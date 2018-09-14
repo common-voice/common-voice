@@ -5,6 +5,7 @@ privacy-info = Эһиги информацияҕытын сэрэнэн тутт
 return-to-cv = Common Voice-ка төҥүн
 email-input =
     .label = Электроннай почта
+submit-form-action = Ыыт
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
