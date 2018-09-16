@@ -120,6 +120,7 @@ wall-of-text-start = Vocea este naturală și umană. De aceea suntem fascinați
 wall-of-text-more-mobile = Cea mai mare parte a datelor utilizate de marile companii nu sunt disponibile majorității oamenilor. Credem că aceasta este o piedică în calea inovației. De aceea am lansat proiectul Common Voice pentru a deschide aceste tehnologii pentru toată lumea.
 wall-of-text-more-desktop = Acum îți poți dona vocea pentru a ne ajuta să construim o bază de date deschisă și utilizabilă de toată lumea pentru a crea aplicații inovative pentru dispozitive și web.<lineBreak></lineBreak>Citește o propoziție pentru a ajuta mașinile să învețe despre cum vorbesc oamenii reali. Verifică munca altor contribuitori pentru a îmbunătăți calitatea. Este foarte simplu!
 wall-of-text-first = Vocea este naturală și umană. De aceea suntem fascinați de ideea creerii unei tehnologii vocale utilă pentru dispozitivele noastre. Dar pentru a crea sisteme vocale sunt necesare cantități mari de date vocale.
+wall-of-text-second = Cea mai mare parte a datelor folosite de marile companii nu este disponibilă majorității oamenilor. Credem că asta frânează inovația. Așa că am lansat Common Voice, un proiect care să ajute ca recunoașterea vocală să fie disponibilă tuturor.
 show-wall-of-text = Citește mai multe
 help-us-title = Ajută-ne să validăm propozițiile!
 help-us-explain = Apasă pe redare, ascultă și spune-ne: a pronunțat corect propoziția de mai jos?
