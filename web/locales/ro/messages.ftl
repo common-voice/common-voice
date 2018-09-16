@@ -108,6 +108,7 @@ share-title = Ajută-ne să găsim alte persoane care să-și doneze vocea!
 share-text = Ajută mașinile să învețe despre cum vorbesc oamenii, donează vocea ta la { $link }
 link-copied = Link copiat
 back-top = Înapoi în partea superioară
+contribution-banner-text = Am lansat o nouă experiență pentru a contribui
 contribution-banner-button = Aruncă o privire
 report-bugs-link = Ajută la raportarea de probleme
 
@@ -118,12 +119,21 @@ home-cta = Donează-ți vocea, contribuie aici!
 wall-of-text-start = Vocea este naturală și umană. De aceea suntem fascinați de ideea creerii unei tehnologii vocale utilă pentru dispozitivele noastre. Dar pentru a crea sisteme vocale sunt necesare cantități mari de date vocale.
 wall-of-text-more-mobile = Cea mai mare parte a datelor utilizate de marile companii nu sunt disponibile majorității oamenilor. Credem că aceasta este o piedică în calea inovației. De aceea am lansat proiectul Common Voice pentru a deschide aceste tehnologii pentru toată lumea.
 wall-of-text-more-desktop = Acum îți poți dona vocea pentru a ne ajuta să construim o bază de date deschisă și utilizabilă de toată lumea pentru a crea aplicații inovative pentru dispozitive și web.<lineBreak></lineBreak>Citește o propoziție pentru a ajuta mașinile să învețe despre cum vorbesc oamenii reali. Verifică munca altor contribuitori pentru a îmbunătăți calitatea. Este foarte simplu!
+wall-of-text-first = Vocea este naturală și umană. De aceea suntem fascinați de ideea creerii unei tehnologii vocale utilă pentru dispozitivele noastre. Dar pentru a crea sisteme vocale sunt necesare cantități mari de date vocale.
 show-wall-of-text = Citește mai multe
 help-us-title = Ajută-ne să validăm propozițiile!
 help-us-explain = Apasă pe redare, ascultă și spune-ne: a pronunțat corect propoziția de mai jos?
 vote-yes = Da
 vote-no = Nu
 speak-subtitle = Donează-ți vocea
+speak-goal-text = Clipuri înregistrate
+listen-subtitle = Ajută-ne să validăm vocile
+listen-paragraph = Validarea clipurilor donate este la fel de importantă pentru misiunea Common Voice. Ascultă și ajută-ne să creem date vocale de calitate și cu sursă deschisă.
+listen-goal-text = Clipuri validate
+hours-recorded = Ore înregistrate
+hours-validated = Ore validate
+read-terms-q = Ai citit termenii noștri de folosire?
+ready-to-record = Ești gata să-ți donezi vocea?
 all-languages = Toate limbile
 today = Astăzi
 x-weeks-short =
@@ -220,6 +230,7 @@ profile-close = Închide
 profile-clear-modal =
     Ștergerea datelor tale de profil înseamnă că aceste informații demografice nu vor mai fi trimise la Common Voice cu
     înregistrările tale.
+profile-explanation = Urmărește progresul tău cu un profil și ajută ca datele noastre vocale să fie mai precise.
 
 ## FAQ
 
@@ -284,6 +295,7 @@ record-platform-not-supported-desktop = Pe calculatoare desktop poți descărca 
 record-platform-not-supported-ios = Utilizatorii <bold>iOS</bold> pot descărca aplicația noastră gratuită:
 record-must-allow-microphone = Trebuie să permiți accesul la microfon.
 record-retry = Reîncearcă
+record-no-mic-found = Nu am găsit un microfon.
 record-error-too-short = Înregistrarea a fost prea scurtă.
 record-error-too-long = Înregistrarea a fost prea lungă.
 record-error-too-quiet = Volumul înregistrării este prea scăzut.
@@ -351,4 +363,6 @@ action-click = Clic
 action-tap = Atinge
 contribute = Contribuie
 listen = Ascultă
+shortcuts = Scurtături
+clips-with-count = <bold><bold>{ $count }</bold> clipuri
 record-button-label = Înregistrează-ți vocea
