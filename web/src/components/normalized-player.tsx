@@ -52,8 +52,8 @@ export default class NormalizedPlayer implements NormalizedPlayerInterface {
     var gain = 1.0 / a;
 
     // Perform some clamping
-    // gain = Math.max(gain, 0.02);
-    // gain = Math.min(gain, 100.0);
+    gain = Math.max(gain, 0.02);
+    gain = Math.min(gain, 100.0);
 
     // ReplayGain uses pink noise for this one one but we just take
     // some arbitrary value... we're no standard
