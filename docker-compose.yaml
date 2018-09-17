@@ -2,6 +2,8 @@ version: '3'
 services:
   db:
     image: mysql:5.6.39
+    networks:
+      - voice-web
     environment:
       - MYSQL_DATABASE=voiceweb
       - MYSQL_USER=voicecommons
@@ -9,6 +11,8 @@ services:
       - MYSQL_ROOT_PASSWORD=voicewebroot
   s3proxy:
     image: andrewgaul/s3proxy
+    networks:
+      - voice-web
     environment:
       - S3PROXY_AUTHORIZATION=none
   web:
@@ -19,9 +23,11 @@ services:
       - .:/code
     environment:
       - SERVER_CONFIG_PATH=/code/docker/local-docker-config.json
-    links:
-      - db
-      - s3proxy
+    networks:
+      - voice-web
     ports:
       - 9000:9000
     command: bash -c "/code/docker/prepare_s3.sh && yarn && yarn start"
+
+networks:
+  voice-web:
