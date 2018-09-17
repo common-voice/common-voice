@@ -6,7 +6,7 @@ privacy-info = Nangmah kong midang kan theih ter hna lai lo. <privacyLink>Privac
 return-to-cv = Common Voice ah kir
 email-input =
     .label = Email
-submit-form-action = Kuat
+submit-form-action = Kua
 loading = Thunlio...
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -235,15 +235,15 @@ faq-what-a = Common Voice i kan i tinhmi cu a mikip caah fawi tein mah le holh c
 faq-important-q = Zei ruang ah dah a bia pit?
 faq-important-a = Aw cu kokek a si, Aw cu minung a si. I chawnh khanh nak caah a fawi cemmi le hmancem mi a si. Computer thiam nih hi thil chung in hman awktlak thil ṭha, holh leh/ca leh le a dang dang bawmtu ah an ser khawh nak ding hi kan duh. Asinain atu ah cun mipi nih hman khawh ding mi hi a um lo.  Laimi computer thiam pawl nih thil ṭha ṭha an sernak ah Common Voice nih hin a bawmh khawh hna lai hi kan duh.
 faq-get-q = Common Voice data hi zei tin dah ka lak khawh lai?
-faq-get-a = Dataset cu thuntlen a ngah <downloadLink> thuntlen nak</downloadLink> i a tang<licenseLink>CC-0</licenseLink> laisen.
+faq-get-a = Dataset cu thuntlen a ngah <downloadLink> thuntlen nak</downloadLink> i a tang <licenseLink>CC-0</licenseLink> laisen.
 faq-mission-q = Zei ruang ah dah Common Voice hi Mozilla nih aa tinhmi rian asi ve?
-faq-mission-a = Mozilla cu mikip nih computer an hman khawhnak ding hi biatak tein aa hmaithlak. Cu caah cun website a sertu pawl hi thazang pek a duhnak langhternak caah Common Voice hi a ser. Computer nih holh thiamnak a theih ning hi a sang tuk hringhren cang, cu caah cun mikip nih an holh in ngah ve hna seh ti kan duh. Aw-lei thiamnak hi miphun kip talh in holh in siseh, aw-cawi in siseh, miphun in siseh, talh chih dih kan duh. Mozilla nih cun a ngandammi le aa tlerh ngai mi internet hi hmuh a duh. Cucu website a sertu nih an website sunglawi taktak in an ser khawh hna hnga Aw-data ti bantuk hi serpiak asi. Common Voice cu Mozilla, kan mah, le website a sertu vawlei cung um vialte caah mipi nih ngeih mi thilri sunglawi pakhat asi lai.
+faq-mission-a = Mozilla cu mikip nih computer an hman khawhnak ding hi biatak tein aa hmaithlak. Cu caah cun website a sertu pawl hi thazang pek a duhnak langhternak caah Common Voice hi a ser. Computer nih holh thiamnak a theih ning hi a sang tuk hringhren cang, cucaah cun mikip nih computer hi an holh cio in hmang kho ve hna seh ti kan duh. Aw-lei thiamnak hi miphun kip talh in holh in siseh, aw-cawi in siseh, miphun kip in siseh, talh chih dih kan duh. Mozilla nih cun a ngandammi le aa tlerh ngai mi internet hi hmuh a duh. Cucu website a sertu nih an website sunglawi taktak in an ser khawh hna hnga Aw-data ti bantuk hi serpiak asi. Common Voice cu Mozilla, kan mah, le website a sertu vawlei cung um vialte caah mipi nih ngeih mi thilri sunglawi pakhat asi lai.
 faq-native-q = Lai holh ah kokek ka si lo i Aw-cawi ka ngei, ka holh nan duh ko maw?
 faq-native-a = A si, kan duh ṭhiam ko! Common Voice i kan i tinh mi cu computer nih Aw a theih khawh cem nak hnga zei Aw-cawi paoh lak chih dih kan duh.
 faq-firefox-q = Common Voice i bia-in-ca lehnak hi Firefox ah chiah chih a si lai maw?
 faq-firefox-a = Mozilla nih chuahmi thil, Firefox, ti bantuk ah hin Common Voice hi hman khawhnak ding thil tampi a um.
 faq-quality-q = Zei tluk in dah ka Aw hi a fiang a herh?
-faq-quality-a = Na Aw cu computer nih a theih khawh ding hi a biapi. Na mawtaw chung na um lio, pangka a awn lio, le na hnulei in midang an rak i chawn lio tibantuk zong an ṭha ṭhiam ṭhiam ko.
+faq-quality-a = Na Aw cu computer nih a theih khawh ding hi a biapi. Na mawtaw chung na um lio, pangka a awn lio, le na hnulei in midang an rak i chawn lio tibantuk zong an ṭha ṭhiamṭhiam ko.
 faq-hours-q = Zei ruang ah dah nazi 10,000 renglo hi kan aw tun a herh?
 faq-hours-a = Hihi STT timi computer nih Laiholh cawnnak ding ah a herh mi suimilam zat asi.
 faq-source-q = Khoi ka in dah biafang hi an rat?
