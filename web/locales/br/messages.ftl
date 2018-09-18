@@ -126,7 +126,42 @@ no-clips-to-validate = War a seblant n'eus klip ebet da selaou evit ar yezh-mañ
 vote-yes = Ya
 vote-no = Ket
 toggle-play-tooltip = Pouezit war { shortcut-play-toggle } evit gwintañ war-du ar mod lenn
+speak-subtitle = Roit ho mouezh
+speak-paragraph = Enrollañ ar vouezh a zo ul lodenn bouezus evit sevel hon hollad roadennoù digor; lod a lavar eo al lodenn blijus ivez.
+speak-goal-text = Klipoù enrollet
+listen-subtitle = Skoazellit ac'hanomp da wiriañ mouezhioù
+listen-paragraph = Gwiriañ klipoù roet a zo ken pouezus all evit kefridi Common Voice. Selaouit ha skoazellit ac'hanomp da grouiñ roadennoù mouezh digor a galite.
+listen-goal-text = Klipoù gwiriet
+hours-recorded = Eurvezhioù enrollet
+hours-validated = Eurvezhioù gwiriet
+read-terms-q = Ha lennet hoc'h eus on Termenoù?
+ready-to-record = Prest oc'h da reiñ ho mouezh?
+all-languages = An holl yezhoù
 today = Hiziv
+x-weeks-short =
+    { $count ->
+        [one] sizhun
+        [two] sizhun
+        [few] sizhun
+        [many] a sizhunvezhioù
+       *[other] sizhun
+    }
+x-months-short =
+    { $count ->
+        [one] miz
+        [two] viz
+        [few] miz
+        [many] a vizioù
+       *[other] miz
+    }
+x-years-short =
+    { $count ->
+        [one] bloaz
+        [two] vloaz
+        [few] bloaz
+        [many] a vloazioù
+       *[other] bloaz
+    }
 
 ## Speak & Listen Shortcuts
 
