@@ -28,7 +28,7 @@ function* asBundleGenerator(localeMessages: string[][]) {
   }
 }
 
-export function createCrossLocaleMessagesGenerator(
+export function createCrossLocaleBundleGenerator(
   localeMessages: string[][],
   locales: string[]
 ) {
@@ -46,7 +46,7 @@ export function createCrossLocaleMessagesGenerator(
   return asBundleGenerator(localeMessages);
 }
 
-export async function createMessagesGenerator(api: API, userLocales: string[]) {
+export async function createBundleGenerator(api: API, userLocales: string[]) {
   const currentLocales = negotiateLocales(userLocales);
 
   const localeMessages: any = await Promise.all(

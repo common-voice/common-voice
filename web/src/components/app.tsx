@@ -21,7 +21,7 @@ import {
   replacePathLocale,
 } from '../utility';
 import {
-  createMessagesGenerator,
+  createBundleGenerator,
   DEFAULT_LOCALE,
   LOCALES,
   negotiateLocales,
@@ -82,7 +82,7 @@ interface LocalizedPagesProps
 
 interface LocalizedPagesState {
   hasScrolled: boolean;
-  messagesGenerator: any;
+  bundleGenerator: any;
   uploadPercentage?: number;
 }
 
@@ -99,14 +99,14 @@ const LocalizedLayout: any = withRouter(
       class extends React.Component<LocalizedPagesProps, LocalizedPagesState> {
         state: LocalizedPagesState = {
           hasScrolled: false,
-          messagesGenerator: null,
+          bundleGenerator: null,
           uploadPercentage: null,
         };
 
         isUploading = false;
 
         async componentDidMount() {
-          await this.prepareMessagesGenerator(this.props);
+          await this.prepareBundleGenerator(this.props);
           window.addEventListener('scroll', this.handleScroll);
           setTimeout(() => this.setState({ hasScrolled: true }), 5000);
         }
@@ -128,7 +128,7 @@ const LocalizedLayout: any = withRouter(
               (locale, i) => locale !== this.props.userLocales[i]
             )
           ) {
-            await this.prepareMessagesGenerator(nextProps);
+            await this.prepareBundleGenerator(nextProps);
           }
         }
 
@@ -158,7 +158,7 @@ const LocalizedLayout: any = withRouter(
           }
         }
 
-        async prepareMessagesGenerator({
+        async prepareBundleGenerator({
           api,
           history,
           userLocales,
@@ -183,7 +183,7 @@ const LocalizedLayout: any = withRouter(
           document.documentElement.setAttribute('lang', mainLocale);
 
           this.setState({
-            messagesGenerator: await createMessagesGenerator(api, userLocales),
+            bundleGenerator: await createBundleGenerator(api, userLocales),
           });
         }
 
@@ -193,13 +193,9 @@ const LocalizedLayout: any = withRouter(
 
         render() {
           const { locale, notifications, toLocaleRoute } = this.props;
-          const {
-            hasScrolled,
-            messagesGenerator,
-            uploadPercentage,
-          } = this.state;
+          const { hasScrolled, bundleGenerator, uploadPercentage } = this.state;
           return (
-            messagesGenerator && (
+            bundleGenerator && (
               <div>
                 <div
                   className="upload-progress"
@@ -218,7 +214,7 @@ const LocalizedLayout: any = withRouter(
                         }
                   }
                 />
-                <LocalizationProvider bundles={messagesGenerator}>
+                <LocalizationProvider bundles={bundleGenerator}>
                   <div>
                     <div className="notifications">
                       {notifications

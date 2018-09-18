@@ -13,7 +13,7 @@ import { RecordIcon } from '../../ui/icons';
 import { CardAction, Hr } from '../../ui/ui';
 import GetInvolvedModal from '../languages/get-involved-modal';
 import ProjectStatus from './project-status';
-import { createCrossLocaleMessagesGenerator } from '../../../services/localization';
+import { createCrossLocaleBundleGenerator } from '../../../services/localization';
 import { connect } from 'react-redux';
 import StateTree from '../../../stores/tree';
 import API from '../../../services/api';
@@ -29,7 +29,7 @@ interface Props
     PropsFromState {}
 
 interface State {
-  messagesGenerator: any;
+  bundleGenerator: any;
   showGetInvolvedModal: boolean;
   showLanguageRequestModal: boolean;
   showWallOfText: boolean;
@@ -37,7 +37,7 @@ interface State {
 
 class HomePage extends React.Component<Props, State> {
   state: State = {
-    messagesGenerator: null,
+    bundleGenerator: null,
     showGetInvolvedModal: false,
     showLanguageRequestModal: false,
     showWallOfText: false,
@@ -49,12 +49,12 @@ class HomePage extends React.Component<Props, State> {
 
   async componentDidMount() {
     this.handleNewHomeRedirect(this.props);
-    await this.updateMessagesGenerator(this.props);
+    await this.updateBundleGenerator(this.props);
   }
 
   async componentWillReceiveProps(nextProps: Props) {
     this.handleNewHomeRedirect(nextProps);
-    await this.updateMessagesGenerator(nextProps);
+    await this.updateBundleGenerator(nextProps);
   }
 
   handleNewHomeRedirect({ locale, history, showOldHome }: Props) {
@@ -64,16 +64,16 @@ class HomePage extends React.Component<Props, State> {
   }
 
   private isFetching = false;
-  async updateMessagesGenerator({ api, locale }: Props) {
+  async updateBundleGenerator({ api, locale }: Props) {
     if (
       this.isFetching ||
-      (this.state.messagesGenerator && locale === this.props.locale)
+      (this.state.bundleGenerator && locale === this.props.locale)
     )
       return;
     this.isFetching = true;
     this.setState(
       {
-        messagesGenerator: createCrossLocaleMessagesGenerator(
+        bundleGenerator: createCrossLocaleBundleGenerator(
           await api.fetchCrossLocaleMessages(),
           [locale]
         ),
@@ -87,7 +87,7 @@ class HomePage extends React.Component<Props, State> {
   render() {
     const { locale } = this.props;
     const {
-      messagesGenerator,
+      bundleGenerator,
       showGetInvolvedModal,
       showWallOfText,
     } = this.state;
@@ -119,8 +119,8 @@ class HomePage extends React.Component<Props, State> {
                     </Localized>
                   </CardAction>
                 ) : (
-                  messagesGenerator && (
-                    <LocalizationProvider bundles={messagesGenerator}>
+                  bundleGenerator && (
+                    <LocalizationProvider bundles={bundleGenerator}>
                       <React.Fragment>
                         <Localized id="get-involved-button">
                           <CardAction

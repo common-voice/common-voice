@@ -3,7 +3,7 @@ import Downshift from 'downshift';
 import {
   LocalizationProps,
   Localized,
-  withLocalization
+  withLocalization,
 } from 'fluent-react/compat';
 import * as React from 'react';
 import { Component, SVGProps } from 'react';

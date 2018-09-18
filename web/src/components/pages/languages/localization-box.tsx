@@ -8,7 +8,7 @@ import {
   LaunchedLanguage,
 } from '../../../../../common/language-stats';
 import URLS from '../../../urls';
-import { createCrossLocaleMessagesGenerator } from '../../../services/localization';
+import { createCrossLocaleBundleGenerator } from '../../../services/localization';
 import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';
 import { toLocaleRouteBuilder } from '../../locale-helpers';
@@ -142,12 +142,12 @@ class LocalizationBox extends React.PureComponent<Props, State> {
     showModal: false,
   };
 
-  buildMessagesGenerator() {
+  buildBundleGenerator() {
     const { globalLocale, locale, localeMessages } = this.props;
 
     return (
       localeMessages &&
-      createCrossLocaleMessagesGenerator(localeMessages, [locale, globalLocale])
+      createCrossLocaleBundleGenerator(localeMessages, [locale, globalLocale])
     );
   }
 
@@ -170,7 +170,7 @@ class LocalizationBox extends React.PureComponent<Props, State> {
     return (
       <React.Fragment>
         {this.state.showModal && (
-          <LocalizationProvider bundles={this.buildMessagesGenerator()}>
+          <LocalizationProvider bundles={this.buildBundleGenerator()}>
             <GetInvolvedModal
               locale={locale}
               onRequestClose={this.toggleModal}
@@ -194,7 +194,7 @@ class LocalizationBox extends React.PureComponent<Props, State> {
             progress={this.props.sentencesCount}
             progressTotal={SENTENCE_COUNT_TARGET}
             onClick={this.toggleModal}>
-            <LocalizationProvider bundles={this.buildMessagesGenerator()}>
+            <LocalizationProvider bundles={this.buildBundleGenerator()}>
               <Localized id="get-involved-button">
                 <span />
               </Localized>
@@ -219,7 +219,7 @@ class LocalizationBox extends React.PureComponent<Props, State> {
             formatProgress={formatSeconds}
             progressSecondary
             onClick={this.goToContribute}>
-            <LocalizationProvider bundles={this.buildMessagesGenerator()}>
+            <LocalizationProvider bundles={this.buildBundleGenerator()}>
               <Localized id="contribute">
                 <span />
               </Localized>
