@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { withRouter, RouteComponentProps } from 'react-router';
-const { LocalizationProvider, Localized } = require('fluent-react');
+const { LocalizationProvider, Localized } = require('fluent-react/compat');
 import URLS from '../../../urls';
 import {
   ContributableLocaleLock,
@@ -120,7 +120,7 @@ class HomePage extends React.Component<Props, State> {
                   </CardAction>
                 ) : (
                   messagesGenerator && (
-                    <LocalizationProvider messages={messagesGenerator}>
+                    <LocalizationProvider bundles={messagesGenerator}>
                       <React.Fragment>
                         <Localized id="get-involved-button">
                           <CardAction

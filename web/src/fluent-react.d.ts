@@ -1,4 +1,4 @@
-declare module 'fluent-react' {
+declare module 'fluent-react/compat' {
   import * as React from 'react';
   import { Omit } from 'react-router';
   export function Localized(

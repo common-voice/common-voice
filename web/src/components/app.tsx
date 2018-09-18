@@ -8,7 +8,7 @@ import {
   withRouter,
 } from 'react-router';
 import { Router } from 'react-router-dom';
-const { LocalizationProvider } = require('fluent-react');
+const { LocalizationProvider } = require('fluent-react/compat');
 import { createBrowserHistory } from 'history';
 import store from '../stores/root';
 import URLS from '../urls';
@@ -218,7 +218,7 @@ const LocalizedLayout: any = withRouter(
                         }
                   }
                 />
-                <LocalizationProvider messages={messagesGenerator}>
+                <LocalizationProvider bundles={messagesGenerator}>
                   <div>
                     <div className="notifications">
                       {notifications

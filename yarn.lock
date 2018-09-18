@@ -817,14 +817,6 @@ babel-jest@^22.4.4:
     babel-plugin-istanbul "^4.1.5"
     babel-preset-jest "^22.4.4"
 
-babel-loader@^7.1.2:
-  version "7.1.4"
-  resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-7.1.4.tgz#e3463938bd4e6d55d1c174c5485d406a188ed015"
-  dependencies:
-    find-cache-dir "^1.0.0"
-    loader-utils "^1.0.2"
-    mkdirp "^0.5.1"
-
 babel-messages@^6.23.0:
   version "6.23.0"
   resolved "https://registry.yarnpkg.com/babel-messages/-/babel-messages-6.23.0.tgz#f3cdf4703858035b2a2951c6ec5edf6c62f2630e"
@@ -848,7 +840,7 @@ babel-plugin-jest-hoist@^22.4.4:
   version "22.4.4"
   resolved "https://registry.yarnpkg.com/babel-plugin-jest-hoist/-/babel-plugin-jest-hoist-22.4.4.tgz#b9851906eab34c7bf6f8c895a2b08bea1a844c0b"
 
-babel-plugin-syntax-object-rest-spread@^6.13.0, babel-plugin-syntax-object-rest-spread@^6.8.0:
+babel-plugin-syntax-object-rest-spread@^6.13.0:
   version "6.13.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-syntax-object-rest-spread/-/babel-plugin-syntax-object-rest-spread-6.13.0.tgz#fd6536f2bce13836ffa3a5458c4903a597bb3bf5"
 
@@ -860,13 +852,6 @@ babel-plugin-transform-es2015-modules-commonjs@^6.26.2:
     babel-runtime "^6.26.0"
     babel-template "^6.26.0"
     babel-types "^6.26.0"
-
-babel-plugin-transform-object-rest-spread@^6.26.0:
-  version "6.26.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-transform-object-rest-spread/-/babel-plugin-transform-object-rest-spread-6.26.0.tgz#0f36692d50fef6b7e2d4b3ac1478137a963b7b06"
-  dependencies:
-    babel-plugin-syntax-object-rest-spread "^6.8.0"
-    babel-runtime "^6.26.0"
 
 babel-plugin-transform-strict-mode@^6.24.1:
   version "6.24.1"
@@ -1275,6 +1260,10 @@ cache-base@^1.0.1:
     to-object-path "^0.3.0"
     union-value "^1.0.0"
     unset-value "^1.0.0"
+
+cached-iterable@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/cached-iterable/-/cached-iterable-0.2.1.tgz#723958f5e7adc74c96bedb10b426bdfd95f2fe6d"
 
 caller-path@^0.1.0:
   version "0.1.0"
@@ -3073,20 +3062,25 @@ fluent-langneg@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/fluent-langneg/-/fluent-langneg-0.1.0.tgz#aa12054fbfa4b728daec38331efc12f01faae93a"
 
-fluent-react@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/fluent-react/-/fluent-react-0.7.0.tgz#52b499fca4c5163ccaf4b5155bd5486feed0e4c1"
+fluent-react@^0.8.1:
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/fluent-react/-/fluent-react-0.8.1.tgz#37f698be27e7160fb64e2dc93428b676cf5fcb55"
   dependencies:
-    fluent "^0.4.0 || ^0.6.0"
+    cached-iterable "^0.2.1"
+    fluent-sequence "^0.2.0"
     prop-types "^15.6.0"
+
+fluent-sequence@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/fluent-sequence/-/fluent-sequence-0.2.0.tgz#f351d93e0194182de60c6d5dfbdb3c96772813f8"
 
 fluent-syntax@^0.8.1:
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/fluent-syntax/-/fluent-syntax-0.8.1.tgz#02eddd4861b453e614e071016dea3d4395b27f6e"
 
-fluent@0.4.3, "fluent@^0.4.0 || ^0.6.0", fluent@^0.4.3:
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/fluent/-/fluent-0.4.3.tgz#a9c55994c96faecdbdd05698e07c8f2c06e72df2"
+fluent@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/fluent/-/fluent-0.8.0.tgz#2a0909e5910313581f5c0d108ed2163d9e080111"
 
 flush-write-stream@^1.0.0:
   version "1.0.2"
