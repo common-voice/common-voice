@@ -84,8 +84,8 @@ uk = Ukraine holh
 ur = Urdu holh
 uz = Uzbekistan holh
 zh-CN = Tuluk holh
-zh-HK = China holh (Hong Kong)
-zh-TW = China holh (Taiwan)
+zh-HK = Tuluk holh (Hong Kong)
+zh-TW = Tuluk holh (Taiwan)
 
 # [/]
 
