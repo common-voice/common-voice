@@ -116,10 +116,10 @@ report-bugs-link = A  ṭha lo mi kan chim
 
 home-title = Common Voice rian cu Mozilla nih tuahmi, zei ti in dah minung an holh ti computer chimhnak asi.
 home-cta = Na aw hi ka hin tuun!
-wall-of-text-start = Aw cu kokek a si, Aw cu minung a si. Cucaah cun computer ah hman khawh dingmi Laiholh ser lai hi kan i ngaih tuk. Hi kan tuah khawhnak ding caah cun, Aw hi tamtuk hringhren kan herh.
+wall-of-text-start = Aw cu kokek a si, Aw cu minung a si. Cucaah, computer ah hman khawh dingmi Laiholh ser lai hi kan i ngaih tuk. Hi kan tuah khawhnak ding caah cun, Aw hi tamtuk hringhren kan herh.
 wall-of-text-more-mobile = Kampani lian tampi nih an tuah mi, computer holh theihnak, hi Laiholh in cun hmankhawh an si lo. Cucu ṭhanchonak caah thawphit tu a si ti kan ruah. Cucaah, Project Common Voice timi hi mi vialte nih an holh cio in computer an hman khawh nak ding caah kan tuah mi a si.
-wall-of-text-more-desktop = Mikip nih an hman khawh ding mi Aw rak kan tuun piak ve. <lineBreak></lineBreak> Minung an holh ning computer chimh ding ah biatlang hi rel. Midang nih an chimcia zong chek ṭhan. A fawi te!
-wall-of-text-first = Aw cu kokek a si, Aw cu minung a si. Cucaah cun computer ah hman khawh dingmi Laiholh ser lai hi kan i ngaih tuk. Hi kan tuah khawhnak ding caah cun, Aw hi tamtuk hringhren kan herh.
+wall-of-text-more-desktop = Mikip nih an hman khawh ding mi Aw rak kan tuun piak ve. <lineBreak></lineBreak> Minung an holh ning computer chimh ding ah biatlang rel hna. Midang nih an chimcia zong chek ṭhan. A fawi te!
+wall-of-text-first = Aw cu kokek a si, Aw cu minung a si. Cucaah, computer ah hman khawh dingmi Laiholh ser lai hi kan i ngaih tuk. Hi kan tuah khawhnak ding caah cun, Aw hi tamtuk hringhren kan herh.
 wall-of-text-second = Kampani lian tampi nih an tuah mi, computer holh theihnak, hi Laiholh in cun hmankhawh an si lo. Cucu ṭhanchonak caah thawphit tu a si ti kan ruah. Cucaah, Project Common Voice timi hi mi vialte nih an holh cio in computer an hman khawh nak ding caah kan tuah mi a si.
 show-wall-of-text = Rel Chap
 help-us-title = Biatlang an chimmi a hman le hman lo chek kan bawm!
@@ -134,7 +134,7 @@ speak-goal-text = Aw a khumh cang
 listen-subtitle = Aw rak kan chek pi
 listen-paragraph = Tun cia mi aw chek hi Common Voice caah a biapi tuk ve mi rian a si. An aw ngai hna law a tha le tha lo rak chek rak kan bawm ve.
 listen-goal-text = Chek cang mi Aw
-hours-recorded = Suimilam khumh mi
+hours-recorded = Suimilam khumh cang mi
 hours-validated = Suimilam chek cang mi
 read-terms-q = Kan zulhphung na rel cang maw?
 ready-to-record = Na aw tun ding naa ciam cang maw?
@@ -212,8 +212,8 @@ profile-form-gender =
     .label = Nupa thleidannak
 profile-form-submit-save = Khumh
 profile-form-submit-saved = Khumh
-profile-keep-data = Data i chiah
-profile-delete-data = Data hlonh
+profile-keep-data = Hlonh hlah
+profile-delete-data = Hlonh ko
 male = Pa
 female = Nu
 # Gender
@@ -340,7 +340,7 @@ request-language-success-content = Na holh zei tiin dah Common Voice ah na chiah
 
 ## Languages Overview
 
-language-section-in-progress = Tuah lio
+language-section-in-progress = Tuah lio mi
 language-section-in-progress-description = Tuah lio cuahmah mi holh phun cu kan mibu le miphun nih bawmhnak in ser a si; An ṭhanchonak cu website an mah holh in an lehnak le catlang an pumhkhomh nak ah a lang.
 language-section-launched = Thlah cang mi
 language-section-launched-new-description = Hi thlah cangmi holhphun hna caah cun tlamtling tein website hi an mah le holh cio in leh piak dih an si cang, cun biatlang zong a zatawk tein <italic> Chim</italic> le <italic> Ngaih</italic> khawhnak caah an khomh khawh cang.
