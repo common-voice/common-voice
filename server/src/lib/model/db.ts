@@ -1,7 +1,7 @@
 import { pick } from 'lodash';
 import { getConfig } from '../../config-helper';
 import { hash } from '../utility';
-import Mysql from './db/mysql';
+import Mysql, { getMySQLInstance } from './db/mysql';
 import Schema from './db/schema';
 import { UserTable } from './db/tables/user-table';
 import UserClientTable from './db/tables/user-client-table';
@@ -26,7 +26,7 @@ export default class DB {
   vote: VoteTable;
 
   constructor() {
-    this.mysql = new Mysql();
+    this.mysql = getMySQLInstance();
 
     this.clip = new ClipTable(this.mysql);
     this.user = new UserTable(this.mysql);

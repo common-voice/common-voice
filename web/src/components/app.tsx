@@ -33,6 +33,7 @@ import StateTree from '../stores/tree';
 import { Uploads } from '../stores/uploads';
 import Layout from './layout/layout';
 import NotificationPill from './notification-pill/notification-pill';
+import { LoginFailure, LoginSuccess } from './pages/login';
 import ListenPage from './pages/contribution/listen/listen';
 import SpeakPage from './pages/contribution/speak/speak';
 import {
@@ -40,7 +41,6 @@ import {
   localeConnector,
   LocalePropsFromState,
 } from './locale-helpers';
-import { CloseIcon } from './ui/icons';
 
 const LOAD_TIMEOUT = 5000; // we can only wait so long.
 
@@ -345,6 +345,8 @@ class App extends React.Component<void, State> {
       <Provider store={store}>
         <Router history={history}>
           <Switch>
+            <Route exact path="/login-failure" component={LoginFailure} />
+            <Route exact path="/login-success" component={LoginSuccess} />
             {Object.values(URLS).map(url => (
               <Route
                 key={url}

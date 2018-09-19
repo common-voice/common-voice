@@ -1,6 +1,6 @@
-import { hash, getFirstDefined } from '../../utility';
 import { IConnection } from 'mysql2Types';
 import { getConfig } from '../../../config-helper';
+import { hash, getFirstDefined } from '../../utility';
 
 const SALT = 'hoads8fh49hgfls';
 
@@ -32,9 +32,12 @@ const DEFAULTS: MysqlOptions = {
 };
 
 export default class Mysql {
-  options: MysqlOptions;
   rootConn: IConnection;
   pool: any;
+
+  constructor() {
+    this.rootConn = null;
+  }
 
   /**
    * Get options from params first, then config, and falling back to defaults.
@@ -42,7 +45,7 @@ export default class Mysql {
    *     1. options in config.json
    *     2. hard coded DEFAULTS
    */
-  private getMysqlOptions(): MysqlOptions {
+  getMysqlOptions(): MysqlOptions {
     const config = getConfig();
     return {
       user: getFirstDefined(config.MYSQLUSER, DEFAULTS.user),
@@ -56,17 +59,12 @@ export default class Mysql {
     };
   }
 
-  constructor() {
-    this.options = this.getMysqlOptions();
-    this.rootConn = null;
-  }
-
   async getConnection(options: MysqlOptions): Promise<IConnection> {
     return mysql2.createConnection(options);
   }
 
   async createPool(): Promise<any> {
-    return mysql2.createPool(this.options);
+    return mysql2.createPool(this.getMysqlOptions());
   }
 
   poolPromise: Promise<any>;
@@ -92,7 +90,7 @@ export default class Mysql {
     }
 
     // Copy our pre-installed configuration.
-    const opts: MysqlOptions = Object.assign({}, this.options);
+    const opts: MysqlOptions = Object.assign({}, this.getMysqlOptions());
 
     // Do not specify the database name when connecting.
     delete opts.database;
@@ -221,4 +219,10 @@ export default class Mysql {
       this.rootConn = null;
     }
   }
+}
+
+let instance: Mysql;
+
+export function getMySQLInstance() {
+  return instance || (instance = new Mysql());
 }

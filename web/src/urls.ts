@@ -1,9 +1,13 @@
+const PROFILE_ROOT = '/profile';
 export default Object.freeze({
   ROOT: '',
   RECORD: '/record',
   SPEAK: '/speak',
   LISTEN: '/listen',
-  PROFILE: '/profile',
+  PROFILE: PROFILE_ROOT,
+  PROFILE_INFO: PROFILE_ROOT + '/info',
+  PROFILE_AVATAR: PROFILE_ROOT + '/avatar',
+  PROFILE_PREFERENCES: PROFILE_ROOT + '/preferences',
   DATA: '/data',
   FAQ: '/faq',
   PRIVACY: '/privacy',

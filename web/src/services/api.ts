@@ -73,16 +73,7 @@ export default class API {
     return this.fetch(`${this.getClipPath()}?count=${count}`);
   }
 
-  syncDemographics(): Promise<Event> {
-    // Note: Do not add more properties of this.user w/o legal review
-    const { userId, accents, age, gender } = this.user;
-    return this.fetch(API_PATH + '/user_clients/' + userId, {
-      method: 'PUT',
-      body: { accents, age, gender },
-    });
-  }
-
-  syncUser(): Promise<any> {
+  async syncUser(): Promise<void> {
     const {
       age,
       accents,
@@ -93,17 +84,23 @@ export default class API {
       userId,
     } = this.user;
 
-    return this.fetch(`${API_PATH}/users/${userId}`, {
-      method: 'PUT',
-      body: {
-        age,
-        accents,
-        email,
-        gender,
-        has_downloaded: hasDownloaded,
-        send_emails: sendEmails,
-      },
-    });
+    await Promise.all([
+      this.fetch(API_PATH + '/user_clients/' + userId, {
+        method: 'PUT',
+        body: { accents, age, gender },
+      }),
+      this.fetch(`${API_PATH}/users/${userId}`, {
+        method: 'PUT',
+        body: {
+          age,
+          accents,
+          email,
+          gender,
+          has_downloaded: hasDownloaded,
+          send_emails: sendEmails,
+        },
+      }),
+    ]);
   }
 
   uploadClip(blob: Blob, sentenceId: string, sentence: string): Promise<void> {
@@ -188,5 +185,9 @@ export default class API {
     return this.fetch(
       API_PATH + (locale ? '/' + locale : '') + '/clips/voices'
     );
+  }
+
+  fetchUserClients(): Promise<any[]> {
+    return this.fetch(API_PATH + '/user_clients');
   }
 }
