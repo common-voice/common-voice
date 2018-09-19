@@ -1,12 +1,14 @@
 import * as bodyParser from 'body-parser';
 import { NextFunction, Request, Response, Router } from 'express';
 const PromiseRouter = require('express-promise-router');
+import pick = require('lodash.pick');
 import { getConfig } from '../config-helper';
+import UserClient from './model/user_client';
 import Model from './model';
 import Clip from './clip';
 import Prometheus from './prometheus';
 import { AWS } from './aws';
-import { ClientParameterError, ServerError } from './utility';
+import { ClientParameterError } from './utility';
 
 export default class API {
   model: Model;
@@ -45,6 +47,7 @@ export default class API {
     });
 
     router.put('/user_clients/:id', this.saveUserClient);
+    router.get('/user_clients', this.getUserClients);
     router.put('/users/:id', this.saveUser);
 
     router.get('/:locale/sentences', this.getRandomSentences);
@@ -134,5 +137,16 @@ export default class API {
 
   getLanguageStats = async (request: Request, response: Response) => {
     response.json(await this.model.getLanguageStats());
+  };
+
+  getUserClients = async ({ headers, user }: Request, response: Response) => {
+    response.json(
+      user
+        ? (await UserClient.findAll({
+            email: user.email,
+            client_id: headers.uid as string,
+          })).map((c: any) => pick(c, 'accent', 'age', 'gender'))
+        : null
+    );
   };
 }

@@ -347,7 +347,6 @@ class SpeakPage extends React.Component<Props, State> {
         }
       }),
       async () => {
-        await api.syncDemographics();
         trackRecording('submit', locale);
         addNotification(
           <React.Fragment>

@@ -98,19 +98,10 @@ router.get(
   CALLBACK_URL,
   passport.authenticate('auth0', { failureRedirect: '/login' }),
   ({ user }: Request, response: Response) => {
-    if (!user) {
-      throw new Error('user null');
-    }
-    response.redirect('/admin');
+    response.redirect('/login-' + (user ? 'success' : 'failure'));
   }
 );
 
-router.get(
-  '/login',
-  passport.authenticate('auth0', {}),
-  (request: Request, response: Response) => {
-    response.redirect('/admin');
-  }
-);
+router.get('/login', passport.authenticate('auth0', {}));
 
 export default router;

@@ -11,7 +11,6 @@ import { getElapsedSeconds, ClientError, APIError } from './lib/utility';
 import { importSentences } from './lib/model/db/import-sentences';
 import { getConfig } from './config-helper';
 import authRouter from './auth-router';
-import { router as adminRouter } from './admin';
 import fetchLegalDocument from './fetch-legal-document';
 
 const consul = require('consul')({ promisify: true });
@@ -64,7 +63,6 @@ export default class Server {
 
     app.use(authRouter);
     app.use('/api/v1', this.api.getRouter());
-    app.use(adminRouter);
 
     const staticOptions = {
       setHeaders: (response: express.Response) => {
@@ -162,7 +160,7 @@ export default class Server {
     try {
       await this.model.performMaintenance();
       if (doImport) {
-        await importSentences(await this.model.db.mysql.createPool());
+        // await importSentences(await this.model.db.mysql.createPool());
       }
       await this.model.db.fillCacheColumns();
       this.print('Maintenance complete');

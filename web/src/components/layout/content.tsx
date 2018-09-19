@@ -13,6 +13,7 @@ import LanguagesPages from '../pages/languages/languages';
 import NewHomePage from '../pages/new-home/home';
 import NotFoundPage from '../pages/not-found';
 import DocumentPage from '../pages/document-page';
+import ProfileLayoutPage from '../pages/profile/layout';
 import ProfilePage from '../pages/profile';
 
 interface Props {
@@ -56,6 +57,10 @@ export default localeConnector(
           exact
           path={toLocaleRoute(URLS.PROFILE)}
           component={ProfilePage}
+        />
+        <Route
+          path={toLocaleRoute(URLS.PROFILE + '/')}
+          component={ProfileLayoutPage}
         />
         <Route exact path={toLocaleRoute(URLS.FAQ)} component={FAQPage} />
         <Route
