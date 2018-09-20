@@ -219,6 +219,10 @@ profile-form-age =
     .label = Starstwo
 profile-form-gender =
     .label = Rod
+leaderboard-visibility =
+    .label = Wiźobnosć lisćiny nejlěpšych
+native-language =
+    .label = Mamina rěc
 profile-form-submit-save = Składowaś
 profile-form-submit-saved = Skłaźony
 profile-keep-data = Daty wobchowaś
@@ -235,6 +239,7 @@ profile-create-success = Profil jo se wuspěšnje załožył!
 profile-close = Zacyniś
 profile-clear-modal = Gaž swóje profilowe daty wulašujośo, se toś te demografiske informacije na Common Voice gromaźe z nagraśami wěcej njepósćelu.
 profile-explanation = Z profilom móžośo swój póstup we wócyma wobchowaś a pomagaś, naše głosowe daty dokradnjejše cyniś.
+thanks-for-account = Źěkujomy se, až sćo wobkšuśił swójo konto, comy něnto waš profil zarědowaś.
 
 ## FAQ
 
