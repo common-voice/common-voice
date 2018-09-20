@@ -238,29 +238,29 @@ profile-explanation = Urmărește-ți progresul cu ajutorul unui profil și ajut
 
 faq-title = Întrebări frecvente
 faq-what-q = Ce este Common Voice?
-faq-what-a = Recunoașterea vocală este o tehnologie care poate revoluționa interacțiunea oamenilor cu dispozitivele, dar sistemele disponibile momentan sunt scumpe și proprietare. Common Voice este un proiect pentru a permite tuturor accesul la această tehnologie. Oamenii își donează vocile lor pentru a construi o mare bază de date care va permite oricui să antreneze modele pentru a construi aplicații acționate vocal. Toate datele vocale vor fi disponibile dezvoltatorilor.
+faq-what-a = Recunoașterea vocală este o tehnologie care poate revoluționa interacțiunea oamenilor cu dispozitivele, dar sistemele disponibile momentan sunt scumpe și proprietare. Common Voice este un proiect pentru a permite tuturor accesul la această tehnologie. Oamenii își donează vocile lor pentru a construi o mare bază de date care va permite oricui să antreneze modele pentru a construi aplicații acționate vocal. Toate datele vocale vor fi puse la dispoziția dezvoltatorilor.
 faq-important-q = De ce este important?
-faq-important-a = Vocea este naturală și umană. Este cel mai ușor și natural mod de a comunica. Dorim ca dezvoltatorii să poată construi lucruri incredibile de la sisteme de traducere în timp real la asistenți administrativi cu comandă vocală. Dar acum nu sunt destule date vocale disponibile pentru a construi acest tip de aplicații. Sperăm ca proiectul Common Voice să ofere dezvoltatorilor uneltele de care au nevoie pentru a inova.
+faq-important-a = Vocea este naturală și umană. E cel mai ușor și natural mod de comunicare. Vrem ca dezvoltatorii să poată construi lucruri incredibile - de la sisteme de traducere în timp real până la asistenți administrativi cu comandă vocală. Dar acum nu sunt destule date disponibile în domeniul public pentru a construi astfel de aplicații. Sperăm ca proiectul Common Voice să le ofere dezvoltatorilor tot ceea ce le trebuie pentru a putea inova.
 faq-get-q = Cum pot obține datele Common Voice?
 faq-get-a = Setul de date este acum disponibil pe <downloadLink>pagina de descărcări</downloadLink> sub o licență <licenseLink>CC-0</licenseLink>.
-faq-mission-q = De ce este Common Voice parte a misiunii Mozilla?
-faq-mission-a = Mozilla este dedicată păstrării webului deschis și accesibil tuturor. Pentru a face acest lucru, trebuie să-i împuternicim pe creatorii web prin proiecte precum Common Voice. Din moment ce tehnologiile vocale proliferă dincolo de aplicațiile de nișă, credem că acestea trebuie să servească toți utilizatorii în egală măsură. Considerăm necesitatea includerii mai multor limbi, accente și elemente demografice în construirea și testarea tehnologiilor vocale. Mozilla dorește să vadă un internet sănătos și vibrant. Acest lucru înseamnă oferirea accesului la datele vocale pentru noii creatori, astfel încât să poată crea proiecte noi și extraordinare. Common Voice va fi o resursă publică care va ajuta echipele și dezvoltatorii Mozilla din întreaga lume.
-faq-native-q = Sunt vorbitor nativ de { $lang } și vorbesc cu accent, doriți vocea mea?
-faq-native-a = Da, sigur dorim vocea ta! Ca parte a proiectului Common Voice dorim să adunăm cât mai multe accente posibile pentru a permite calculatoarelor să înțeleagă pe <bold>toată lumea</bold> atunci când vorbesc.
-faq-firefox-q = Va fi recunoașterea vocală prin Common Voice disponibilă vreodată în Firefox?
-faq-firefox-a = Common Voice are potențial neliminat și explorăm astfel de interfețe pentru multe produse Mozilla, inclusiv Firefox.
-faq-quality-q = Ce nivel de calitate este necesar pentru ca vocea să fie utilizabilă?
-faq-quality-a = Dorim nivelul de calitate care să reflecte cea a unui motor voce-text realist. De aceea dorim varietate. Aceasta va învăța motorul nostru voce-text să se descurce în situații diferite, de la voce cu fundal, zgomote auto, ventilatoare etc. fără erori.
-faq-hours-q = De ce scopul de a aduna 10.000 de ore de captură audio?
-faq-hours-a = Acesta este aproximativ numărul de ore necesar pentru a antrena un sistem de producție STT (voce-text).
-faq-source-q = De unde provine textul sursă?
-faq-source-a1 = Propozițiile actuale provin de la contribuitori, dar și dialoguri din scenarii de filme din domeniul public, precum <italic>La vita è bella (Viața e frumoasă)</italic>.
-faq-source-a2 = Poți vedea propozițiile sursă în <dataLink>acest dosar GitHub</dataLink>.
+faq-mission-q = De ce face parte Common Voice din misiunea Mozilla?
+faq-mission-a = Mozilla este dedicată păstrării webului deschis și accesibil tuturor. În acest sens, trebuie să împuternicim creatorii web prin proiecte așa cum este Common Voice. Deoarece tehnologiile vocale se extind rapid dincolo de aplicațiile de nișă, credem că trebuie să deservească toți utilizatorii în egală măsură. Considerăm  că există o necesitate de includere a mai multor limbi, accente și elemente demografice în construirea  și testarea tehnologiilor vocale. Mozilla își dorește un Internet sănătos și vibrant, ceea ce presupune accesul noilor creatori la datele vocale ca să poată crea proiecte noi și extraordinare. Common Voice va fi o resursă publică, care va ajuta echipele și dezvoltatorii Mozilla din întreaga lume.
+faq-native-q = Sunt vorbitor ne-nativ de { $lang } și vorbesc cu accent, doriți vocea mea?
+faq-native-a = Da, sigur că vrem vocea ta! O parte din scopul proiectului Common Voice este de a aduna cât mai multe accente diferite posibile astfel încât calculatoarele să înțeleagă mai bine pe <bold>oricine</bold> le vorbește.
+faq-firefox-q = Va fi recunoașterea vocală, prin Common Voice, disponibilă vreodată în Firefox?
+faq-firefox-a = Common Voice dispune de un potențial nelimitat și chiar explorăm interfețe vocale de inclus în mai multe produse Mozilla, inclusiv Firefox.
+faq-quality-q = Ce nivel de calitate trebuie să aibă secvențele audio ca să fie utilizate?
+faq-quality-a = Calitatea audio trebuie să o reflecte pe cea la care va fi utilizat un motor voce-text în realitate. Deci, vrem varietate. Cu ajutorul acestei varietăți, motorul nostru voce-text va învăța să gestioneze diverse situații reale — voci în fundal, zgomote auto, zgomote de la ventilatoare — fără erori.
+faq-hours-q = De ce obiectivul de 10.000 de ore de captură audio?
+faq-hours-a = Este aproximativ numărul de ore necesar pentru a antrena un sistem STT (voce-text) de producție.
+faq-source-q = De unde provine textul-sursă?
+faq-source-a1 = Propozițiile actuale sunt donații de la colaboratori, precum și dialoguri din scenarii de filme din domeniul public, cum ar fi <italic>La vita è bella (Viața e frumoasă)</italic>.
+faq-source-a2 = Poți vedea propozițiile-sursă în <dataLink>acest dosar GitHub</dataLink>.
 
 ## Profile
 
 profile-why-title = De ce un profil?
-profile-why-content = Furnizând câteva informații despre tine, datele audio pe care le trimiți la Common Voice vor fi mai utile pentru motoarele de recunoaștere a vorbirii care folosesc aceste date pentru a le îmbunătăți precizia.
+profile-why-content = Furnizând câteva informații despre tine, datele audio pe care le trimiți la Common Voice vor fi mult mai utile în motoarele de recunoaștere a vorbirii, care le folosesc pentru a-și îmbunătăți acuratețea.
 
 ## NotFound
 
@@ -274,9 +274,9 @@ data-download-yes = Da
 data-download-deny = Nu
 data-download-license = Licență: <licenseLink>CC-0</licenseLink>
 data-download-modal = Ești pe cale să inițiezi o descărcare de <size>{ $size }GB</size>. Continui?
-data-subtitle = Construim un set de date de voci, deschis și disponibil public, care poate fi folosit de oricine pentru a antrena aplicațiile acționate vocal.
-data-explanatory-text = Credem că disponibilitatea publică a unor corpuri mari de date vocale generează inovație și competiție comercială sănătoasă în tehnologia vocală bazată pe învățarea automată. Acesta este un efort global în care invităm pe toată lumea să participe. Scopul nostru este să ajutăm tehnologia vocală să devină mai inclusivă și să reflecte diversitatea vocilor din lumea întreagă.
-data-get-started = <speechBlogLink>Începe cu recunoașterea vocală</speechBlogLink>
+data-subtitle = Construim un set de date de voci, deschis și disponibil în domeniul public, pe care îl poate folosi oricine ca să antreneze aplicații acționate vocal.
+data-explanatory-text = Considerăm că seturile mari de date vocale puse la dispoziția publicului generează inovație și o competiție comercială sănătoasă în domeniul tehnologiei vocale pe bază de învățare automată. Este un efort global și lansăm tuturor o invitație să participe. Scopul nostru este să ne aducem contribuția în a face tehnologia vocală mai inclusivă, reflectând diversitatea vocilor din lumea întreagă.
+data-get-started = <speechBlogLink>Experimentează cu recunoașterea vocală</speechBlogLink>
 data-other-title = Alte seturi de date vocale…
 data-other-goto = Du-te la { $name }
 data-other-download = Descarcă datele
