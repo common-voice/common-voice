@@ -1,0 +1,56 @@
+@import url('../../../vars.css');
+
+.pill.recording {
+    &.done .contents  > * {
+        height: 100%;
+    }
+
+    & .text {
+        margin: 0 12px;
+        width: 133px;
+
+        font-size: var(--font-size-small);
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.4px;
+
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        color: var(--warm-grey);
+    }
+
+    & .padder {
+        display: inline-block;
+        border-left: 1px solid var(--desert-storm);
+        padding: 0 16px;
+    }
+
+    & .play .padder {
+        border-left: none;
+    }
+
+    & button {
+        border: none;
+        padding: 0;
+        height: 100%;
+
+        &.play:hover path {
+            fill: var(--valid-green);
+        }
+
+        &.redo:hover path {
+            fill: var(--red);
+        }
+
+        &.share:hover path {
+            fill: var(--blue);
+        }
+    }
+
+    & .placeholder {
+        width: 110px;
+    }
+}
+

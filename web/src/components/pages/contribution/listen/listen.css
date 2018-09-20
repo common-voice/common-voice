@@ -1,0 +1,117 @@
+@import url('../../../vars.css');
+
+:root {
+    --vote-button-box-shadow: 0 5px 10px;
+}
+
+.contribution.listen {
+    & .instruction svg {
+        max-height: 20px;
+
+        & path {
+            fill: var(--valid-green);
+        }
+    }
+
+    & .pill {
+        @media (--sm-down) {
+            &.valid .num {
+                color: var(--valid-green);
+            }
+
+            &.invalid .num {
+                color: var(--red);
+            }
+        }
+
+        & svg {
+            margin: 0 23px;
+
+            & path {
+                fill: var(--warm-grey);
+            }
+        }
+
+        &.valid path {
+            fill: var(--valid-green);
+        }
+
+        &.invalid path {
+            fill: var(--red);
+        }
+    }
+
+    & .vote-button {
+        width: 100px;
+        height: 46px;
+
+        @media (--md-up) {
+            width: 130px;
+            height: 57px;
+        }
+    }
+
+    & .vote-button {
+        border: none;
+        border-radius: 30px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 1px;
+        z-index: var(--top-z-index);
+        background: var(--white);
+
+        &, & path {
+            transition: all var(--transition-duration) linear;
+        }
+
+        &.yes {
+            box-shadow: var(--vote-button-box-shadow) color(var(--valid-green) alpha(30%));
+
+            &:hover, &:active {
+                background: var(--valid-green);
+                box-shadow: var(--vote-button-box-shadow) color(var(--valid-green) alpha(70%));
+            }
+        }
+
+        &.no {
+            box-shadow: var(--vote-button-box-shadow) color(var(--red) alpha(20%));
+
+            &:hover, &:active {
+                background: var(--red);
+                box-shadow: var(--vote-button-box-shadow) color(var(--red) alpha(60%));
+            }
+        }
+
+        &:hover, &:active {
+            color: var(--white);
+
+            & path {
+                fill: var(--white);
+            }
+        }
+
+        &.yes:disabled, &.no:disabled {
+            color: var(--near-black);
+            background: var(--white);
+            box-shadow: var(--vote-button-box-shadow) color(var(--grey) alpha(80%));
+
+            & path {
+                fill: var(--near-black);
+            }
+        }
+
+        & svg {
+            margin-right: 10px;
+
+            @media (--md-up) {
+                margin-right: 23px;
+            }
+        }
+    }
+}

@@ -4,8 +4,4 @@ forge "https://forgeapi.puppetlabs.com"
 # All modules *must* be pinned to a specific version/tag #
 ##########################################################
 
-mod 'puppetlabs/apt','2.4.0'
-
-mod 'spantree/upstart','0.0.3'
-
-mod 'puppet/nodejs', '2.3.0'
+mod 'puppet/nodejs', '5.0.0'

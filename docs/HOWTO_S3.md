@@ -17,7 +17,7 @@ in which to store voice clips.
 3. Click "Create bucket"
 4. Choose a bucket name. For this example guide we'll choose "voice-web".
 5. Choose a region.
-6. Make note of the region's associated endpoint and region from the list at http://docs.aws.amazon.com/general/latest/gr/rande.html
+6. Make note of the region's associated endpoint and region from the list at https://docs.aws.amazon.com/general/latest/gr/rande.html
 7. Click next twice to skip over "Set properties".
 8. Give yourself full permissions.
 9. Verify that public read access is disabled.
@@ -33,7 +33,7 @@ in which to store voice clips.
 4. Filter for and select "AmazonS3FullAccess"
 5. Click "Next Step" and then "Create Group"
 6. Under "Users" select "Add user"
-7. Name the user "voice-web" and select "Programatic Access"
+7. Name the user "voice-web" and select "Programmatic Access"
 8. Click "Next: Permissions"
 9. Select the group "S3FullAccess" we created earlier.
 10. Click "Next: Review"
@@ -44,9 +44,10 @@ in which to store voice clips.
 
 1. Install the AWS command line UI. https://aws.amazon.com/cli/
 2. Run `aws configure` to configure credentials via the aws command line ui.
+3. Set the default signature version to be version 4: `aws configure set default.s3.signature_version s3v4`
 
 #### Add options to local `config.json`
 
 1. Create a file in your repository folder called `config.json`
 2. Add a key `BUCKET_NAME`, and enter a value of the bucket we chose earlier "voice-web"
-3. Add a key `BUCKET_LOCATION` with Region corresponding to your region name listed here: http://docs.aws.amazon.com/general/latest/gr/rande.html
+3. Add a key `BUCKET_LOCATION` with Region corresponding to your region name listed here: https://docs.aws.amazon.com/general/latest/gr/rande.html

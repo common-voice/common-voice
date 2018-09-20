@@ -1,33 +1,15 @@
+import * as path from 'path';
+const DBMigrate = require('db-migrate');
+import { getConfig } from '../../../config-helper';
 import Mysql from './mysql';
-import Table from './table';
-import Version from './version-table';
-import { Tables } from '../db';
 
-const CURRENT_VERSION = 1;
-
-/**
- * Handles Overall DB Schema and Migrations, usually using root connection.
- * We try to run each upgrade through a transaction in a stored procedure.
- */
 export default class Schema {
-  mysql: Mysql;
-  name: string;
-  tables: Tables;
-  version: Version;
+  private mysql: Mysql;
+  private name: string;
 
-  constructor(mysql: Mysql, tables: Tables, version: Version) {
+  constructor(mysql: Mysql) {
     this.mysql = mysql;
-    this.name = mysql.options.database;
-    this.tables = tables;
-    this.version = version;
-  }
-
-  /**
-   * Log corpus level messages in a common format.
-   */
-  private print(...args: any[]) {
-    args.unshift('SCHEMA --');
-    console.log.apply(console, args);
+    this.name = mysql.getMysqlOptions().database;
   }
 
   /**
@@ -41,17 +23,26 @@ export default class Schema {
   }
 
   /**
+   * Drop the current database.
+   */
+  async dropDatabase(): Promise<void> {
+    await this.mysql.rootQuery(`DROP DATABASE IF EXISTS ${this.name}`);
+  }
+
+  /**
    * Make sure we have the user privs set up.
    */
   private async ensureDatabaseUser() {
     // Fetch the default username and password.
-    const opts = this.mysql.options;
+    const opts = this.mysql.getMysqlOptions();
     const username = opts.user;
     const password = opts.password;
     const host = opts.host;
     const database = opts.database;
     await this.mysql.rootTransaction(
-      `GRANT SELECT, INSERT ON ${database}.* TO '${username}'@'${host}' IDENTIFIED BY '${password}'; FLUSH PRIVILEGES;`
+      `GRANT SELECT, INSERT, UPDATE, DELETE
+       ON ${database}.* TO '${username}'@'${host}'
+       IDENTIFIED BY '${password}'; FLUSH PRIVILEGES;`
     );
 
     // Have the new user use the database.
@@ -66,36 +57,34 @@ export default class Schema {
     await this.ensureDatabaseUser();
   }
 
-  /**
-   * Upgrades all tables to current version.
-   */
-  async upgradeToVersion(version: number): Promise<void> {
-    // Generate all the sql queries for the upgrade.
-    let sql = '';
-    for (var i = 0; i < this.tables.length; i++) {
-      sql += this.tables[i].getUpgradeSql(version) + '\n';
-    }
-
-    sql += '\n' + this.version.getInsertUpgradeSql(version);
-    await this.mysql.rootTransaction(sql);
-  }
-
-  /**
-   * Upgrade to CURRENT_VERSION of database.
-   */
-  async upgrade(oldVersion: number): Promise<void> {
-    if (oldVersion === CURRENT_VERSION) {
-      this.print('schema up to date');
-      return;
-    }
-
-    this.print(`upgrading from ${oldVersion} to ${CURRENT_VERSION}`);
-    for (let i = oldVersion; i < CURRENT_VERSION; i++) {
-      const upgradeVersion = oldVersion + 1;
-      await this.upgradeToVersion(upgradeVersion);
-    }
-
-    const newVersion = await this.version.getCurrentVersion();
-    this.print(`upgraded to ${newVersion}, target ${CURRENT_VERSION}`);
+  async upgrade() {
+    const {
+      MYSQLDBNAME,
+      MYSQLHOST,
+      DB_ROOT_PASS,
+      DB_ROOT_USER,
+      VERSION,
+    } = getConfig();
+    const dbMigrate = DBMigrate.getInstance(true, {
+      config: {
+        dev: {
+          driver: 'mysql',
+          database: MYSQLDBNAME,
+          host: MYSQLHOST,
+          password: DB_ROOT_PASS,
+          user: DB_ROOT_USER,
+          multipleStatements: true,
+        },
+      },
+      cwd: path.isAbsolute(__dirname)
+        ? __dirname
+        : path.resolve(path.join('server', __dirname)),
+    });
+    console.log(
+      VERSION
+        ? 'Running migrations for version ' + VERSION
+        : 'Running migrations'
+    );
+    await (VERSION ? dbMigrate.sync(VERSION) : dbMigrate.up());
   }
 }

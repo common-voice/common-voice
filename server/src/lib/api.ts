@@ -1,101 +1,152 @@
-import * as http from 'http';
-import * as path from 'path';
-
-import { CommonVoiceConfig } from '../config-helper';
+import * as bodyParser from 'body-parser';
+import { NextFunction, Request, Response, Router } from 'express';
+const PromiseRouter = require('express-promise-router');
+import pick = require('lodash.pick');
+import { getConfig } from '../config-helper';
+import UserClient from './model/user_client';
 import Model from './model';
 import Clip from './clip';
-import Corpus from './corpus';
 import Prometheus from './prometheus';
-import WebHook from './webhook';
-import respond from './responder';
+import { AWS } from './aws';
+import { ClientParameterError } from './utility';
 
 export default class API {
-  config: CommonVoiceConfig;
   model: Model;
   clip: Clip;
-  corpus: Corpus;
   metrics: Prometheus;
-  webhook: WebHook;
 
-  constructor(config: CommonVoiceConfig, model: Model) {
-    this.config = config;
+  constructor(model: Model) {
     this.model = model;
-    this.clip = new Clip(this.config, this.model);
-    this.corpus = new Corpus();
+    this.clip = new Clip(this.model);
     this.metrics = new Prometheus();
-    this.webhook = new WebHook();
   }
 
-  /**
-   * Loads cache. API will still be responsive to requests while loading cache.
-   */
-  async loadCache(): Promise<void> {
-    await Promise.all([this.clip.loadCache(), this.corpus.loadCache()]);
-  }
+  getRouter(): Router {
+    const router = PromiseRouter();
 
-  /**
-   * Is this request directed at the api?
-   */
-  isApiRequest(request: http.IncomingMessage) {
-    return (
-      request.url.includes('/api/') ||
-      this.clip.isClipRequest(request) ||
-      this.metrics.isPrometheusRequest(request)
-    );
-  }
+    router.use(bodyParser.json());
 
-  /**
-   * Give api response.
-   */
-  handleRequest(request: http.IncomingMessage, response: http.ServerResponse) {
-    this.metrics.countRequest(request);
+    router.use((request: Request, response: Response, next: NextFunction) => {
+      this.metrics.countRequest(request);
+      next();
+    });
 
-    // Handle all clip related requests first.
-    if (this.clip.isClipRequest(request)) {
-      this.metrics.countClipRequest(request);
-      this.clip.handleRequest(request, response);
-      return;
-    }
-
-    // Check for Prometheus metrics request.
-    if (this.metrics.isPrometheusRequest(request)) {
+    router.get('/metrics', (request: Request, response: Response) => {
       this.metrics.countPrometheusRequest(request);
-      this.metrics.handleRequest(request, response);
-      return;
-    }
 
-    // If we get here, we are at an API request.
-    this.metrics.countApiRequest(request);
+      const { registry } = this.metrics;
+      response
+        .type(registry.contentType)
+        .status(200)
+        .end(registry.metrics());
+    });
 
-    // Most often this will be a sentence request.
-    if (request.url.includes('/sentence')) {
-      let parts = request.url.split('/');
-      let index = parts.indexOf('sentence');
-      let count = parts[index + 1] && parseInt(parts[index + 1], 10);
-      this.returnRandomSentence(response, count);
-      // Webhooks from github.
-    } else if (this.webhook.isHookRequest(request)) {
-      this.webhook.handleWebhookRequest(request, response);
+    router.use((request: Request, response: Response, next: NextFunction) => {
+      this.metrics.countApiRequest(request);
+      next();
+    });
 
-      // Unrecognized requests get here.
-    } else {
-      console.error('unrecongized api url', request.url);
-      respond(response, "I'm not sure what you want.", 404);
-    }
+    router.put('/user_clients/:id', this.saveUserClient);
+    router.get('/user_clients', this.getUserClients);
+    router.put('/users/:id', this.saveUser);
+
+    router.get('/:locale/sentences', this.getRandomSentences);
+    router.post('/skipped_sentences/:id', this.createSkippedSentence);
+
+    router.use(
+      '/:locale?/clips',
+      (request: Request, response: Response, next: NextFunction) => {
+        this.metrics.countClipRequest(request);
+        next();
+      },
+      this.clip.getRouter()
+    );
+
+    router.get('/requested_languages', this.getRequestedLanguages);
+    router.post('/requested_languages', this.createLanguageRequest);
+
+    router.get('/language_stats', this.getLanguageStats);
+
+    router.use('*', (request: Request, response: Response) => {
+      response.sendStatus(404);
+    });
+
+    return router;
   }
 
-  /**
-   * Load sentence file (if necessary), pick random sentence.
-   */
-  async returnRandomSentence(response: http.ServerResponse, count: number) {
-    count = count || 1;
-    let randoms = this.corpus.getMultipleRandom(count);
+  saveUserClient = async (request: Request, response: Response) => {
+    const uid = request.params.id as string;
+    const demographic = request.body;
 
-    // Make sure we were able to feature the right amount of random sentences.
-    if (!randoms || randoms.length < count) {
-      respond(response, 'No sentences right now', 500);
-      return;
+    if (!uid || !demographic) {
+      throw new ClientParameterError();
     }
-    respond(response, randoms.join('\n'));
-  }
+
+    // Where is the clip demographic going to be located?
+    const demographicFile = uid + '/demographic.json';
+
+    await this.model.db.updateUser(uid, demographic);
+
+    await AWS.getS3()
+      .putObject({
+        Bucket: getConfig().BUCKET_NAME,
+        Key: demographicFile,
+        Body: JSON.stringify(demographic),
+      })
+      .promise();
+
+    console.log('clip demographic written to s3', demographicFile);
+    response.json(uid);
+  };
+
+  saveUser = async (request: Request, response: Response) => {
+    await this.model.syncUser(
+      request.params.id,
+      request.body,
+      request.header('Referer')
+    );
+    response.json('user synced');
+  };
+
+  getRandomSentences = async (request: Request, response: Response) => {
+    const { headers, params } = request;
+    const sentences = await this.model.findEligibleSentences(
+      headers.uid as string,
+      params.locale,
+      parseInt(request.query.count, 10) || 1
+    );
+
+    response.json(sentences);
+  };
+
+  getRequestedLanguages = async (request: Request, response: Response) => {
+    response.json(await this.model.db.getRequestedLanguages());
+  };
+
+  createLanguageRequest = async (request: Request, response: Response) => {
+    await this.model.db.createLanguageRequest(request.body.language, request
+      .headers.uid as string);
+    response.json({});
+  };
+
+  createSkippedSentence = async (request: Request, response: Response) => {
+    const { headers: { uid }, params: { id } } = request;
+    await this.model.db.createSkippedSentence(id, uid as string);
+    response.json({});
+  };
+
+  getLanguageStats = async (request: Request, response: Response) => {
+    response.json(await this.model.getLanguageStats());
+  };
+
+  getUserClients = async ({ headers, user }: Request, response: Response) => {
+    response.json(
+      user
+        ? (await UserClient.findAll({
+            email: user.email,
+            client_id: headers.uid as string,
+          })).map((c: any) => pick(c, 'accent', 'age', 'gender'))
+        : null
+    );
+  };
 }

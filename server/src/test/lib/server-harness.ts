@@ -1,13 +1,31 @@
+import { getConfig, injectConfig } from '../../config-helper';
 import RealServer from '../../server';
+import Mysql from '../../lib/model/db/mysql';
+
+const DB_PREFIX = 'test_';
 
 /**
  * Server testing harness.
  */
-export default class Server {
+export default class ServerHarness {
   server: RealServer;
 
   constructor() {
-    this.server = new RealServer();
+    const config = getConfig();
+    // Use a different database name then default for tests.
+    config.MYSQLDBNAME =
+      DB_PREFIX +
+      config.MYSQLDBNAME +
+      '_' +
+      Math.random()
+        .toString(36)
+        .substring(7);
+    injectConfig(config);
+    this.server = new RealServer({ bundleCrossLocaleMessages: false });
+  }
+
+  get mysql(): Mysql {
+    return this.server.model.db.mysql;
   }
 
   /**
@@ -18,23 +36,31 @@ export default class Server {
   }
 
   /**
+   * Start the web server.
+   */
+  run(): Promise<void> {
+    return this.server.run({ doImport: false });
+  }
+
+  /**
    * Make sure we are able to connect to the database.
    */
   async connectToDatabase(): Promise<void> {
-    return this.server.ensureDatabaseConnection();
+    return this.mysql.ensureRootConnection();
   }
 
   /**
-   * Make sure we can create the basic db setup, like users.
+   * Reset the database to initial factory settings.
    */
-  async createDatabaseUser(): Promise<void> {
-    return this.server.ensureDatabaseSetup();
+  async resetDatabase(): Promise<void> {
+    return this.server.resetDatabase();
   }
 
-  /**
-   * Get the database version from the server.
-   */
-  async getDatabaseVersion(): Promise<number> {
-    return this.server.getDatabaseVersion();
+  emptyDatabase() {
+    return this.server.emptyDatabase();
+  }
+
+  async getClipCount(): Promise<number> {
+    return this.server.model.db.getClipCount();
   }
 }

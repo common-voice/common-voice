@@ -1,0 +1,142 @@
+@import url('../../vars.css');
+
+.contribution-success {
+    margin: auto;
+    max-width: 677px;
+    display: flex;
+    flex-direction: column;
+
+    @media (--md-up) {
+        margin-top: 100px;
+    }
+
+    & .counter {
+        margin: 0 auto 20px;
+
+        @media (--md-up) {
+            display: none !important;
+        }
+    }
+
+    & h1 {
+        font-size: 24px;
+        font-weight: normal;
+        text-align: center;
+
+        @media (--md-up) {
+            font-size: 36px;
+        }
+    }
+
+    & .goal-percentage {
+        display: inline-block;
+        position: relative;
+        text-align: right;
+        color: var(--valid-green);
+
+        & .final {
+            visibility: hidden;
+        }
+
+        & .current {
+            position: absolute;
+            right: 0;
+        }
+    }
+
+    & .progress {
+        border: 3px solid var(--valid-green);
+        border-radius: 20px;
+        margin: 20px auto 0;
+        width: 100%;
+        max-width: 460px;
+        height: 27px;
+
+        display: flex;
+        flex-direction: row;
+
+        overflow: hidden;
+
+        @media (--md-up) {
+            margin-top: 60px;
+        }
+
+        & .total {
+            height: 100px;
+            background: var(--blue);
+        }
+
+        & .done {
+            height: 100px;
+            background: var(--valid-green);
+            transition: width var(--transition-duration-slow) var(--easing);
+        }
+    }
+
+    & .profile-card {
+        margin-top: 60px;
+        margin-bottom: 30px;
+        padding: 26px 26px 0;
+        display: flex;
+        flex-direction: column;
+        background: var(--white);
+        box-shadow: 0 6px 12px 0 rgba(0,0,0,.05);
+
+        @media (--md-up) {
+            padding: 38px 65px 0;
+        }
+
+        & p {
+            font-style: italic;
+            color: var(--near-black);
+            text-align: center;
+        }
+
+        & .button {
+            position: relative;
+            top: 28px;
+            margin-top: 0;
+        }
+    }
+
+    & .button {
+        margin: 60px auto 0;
+    }
+
+    & .contribute-more-button {
+        &.secondary {
+            & path {
+                fill: var(--black);
+            }
+
+            &:hover path {
+                fill: var(--blue);
+            }
+        }
+
+        & svg {
+            margin-right: 10px;
+        }
+
+        & path {
+            fill: var(--white);
+        }
+    }
+
+    & .secondary {
+        margin: 60px auto 0;
+        display: flex;
+        align-items: center;
+        font-size: var(--font-size-small);
+        font-weight: 600 !important;
+        text-decoration: none !important;
+
+        &:hover {
+            color: var(--blue);
+
+            & a {
+                color: var(--blue);
+            }
+        }
+    }
+}

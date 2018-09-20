@@ -1,166 +1,139 @@
-import DB from './model/db';
-import Users from './model/users';
-import { default as Clips, Clip } from './model/clips';
-import { CommonVoiceConfig } from '../config-helper';
+import * as request from 'request-promise-native';
+import { LanguageStats } from '../../../common/language-stats';
+const locales = require('../../../locales/all.json') as string[];
+const contributableLocales = require('../../../locales/contributable.json') as string[];
+import DB, { Sentence } from './model/db';
+import { DBClipWithVoters } from './model/db/tables/clip-table';
+import {
+  IDEAL_SPLIT,
+  randomBucketFromDistribution,
+  rowsToDistribution,
+  Split,
+} from './model/split';
+import { getConfig } from '../config-helper';
+import lazyCache from './lazy-cache';
 
-const MP3_EXT = '.mp3';
-const TEXT_EXT = '.txt';
-const VOTE_EXT = '.vote';
-const JSON_EXT = '.json';
+const AVG_CLIP_SECONDS = 4.7; // I queried 40 recordings from prod and avg'd them
 
+function fetchLocalizedPercentagesByLocale() {
+  return request({
+    uri: 'https://pontoon.mozilla.org/graphql',
+    method: 'POST',
+    json: true,
+    body: {
+      query: `{
+            project(slug: "common-voice") {
+              localizations {
+                totalStrings
+                approvedStrings
+                locale {
+                  code
+                }
+              }
+            }
+          }`,
+      variables: null,
+    },
+  }).then(({ data }: any) =>
+    data.project.localizations.reduce(
+      (obj: { [locale: string]: number }, l: any) => {
+        obj[l.locale.code] = Math.round(
+          100 * l.approvedStrings / l.totalStrings
+        );
+        return obj;
+      },
+      {}
+    )
+  );
+}
+
+function clipCountToHours(count: number) {
+  return Math.round(count * AVG_CLIP_SECONDS / 3600);
+}
+
+const MINUTE = 1000 * 60;
+const DAY = MINUTE * 60 * 24;
 /**
  * The Model loads all clip and user data into memory for quick access.
  */
 export default class Model {
-  config: CommonVoiceConfig;
-  db: DB;
-  users: Users;
-  clips: Clips;
-  loaded: boolean;
+  db = new DB();
+  clipDistribution: Split = IDEAL_SPLIT;
 
-  constructor(config: CommonVoiceConfig) {
-    this.config = config;
-    this.db = new DB(this.config);
-    this.users = new Users();
-    this.clips = new Clips();
-    this.loaded = false;
+  constructor() {
+    this.cacheClipDistribution().catch((e: any) => {
+      console.error(e);
+    });
   }
 
-  private addClip(userid: string, sentenceid: string, path: string) {
-    this.users.addClip(userid, path);
-    this.clips.addClip(userid, sentenceid, path);
-  }
-
-  private addVote(
-    userid: string,
-    sentenceid: string,
-    voterid: string,
-    path: string
-  ) {
-    this.users.addListen(voterid);
-    this.clips.addVote(userid, sentenceid, path);
-  }
-
-  private addSentence(userid: string, sentenceid: string, path: string) {
-    this.clips.addSentence(userid, sentenceid, path);
-  }
-
-  addSentenceContent(userid: string, sentenceid: string, text: string) {
-    this.clips.addSentenceContent(userid, sentenceid, text);
-  }
-
-  private addDemographics(userid: string, path: string) {
-    this.users.addDemographics(userid, path);
-  }
-
-  private print(...args: any[]) {
-    args.unshift('MODEL --');
-    console.log.apply(console, args);
-  }
-
-  printMetrics() {
-    const userMetrics = this.users.getCurrentMetrics();
-    let totalUsers = userMetrics.users;
-    let listeners = userMetrics.listeners;
-    let submitters = userMetrics.submitters;
-
-    const clipMetrics = this.clips.getCurrentMetrics();
-    let totalClips = clipMetrics.clips;
-    let unverified = clipMetrics.unverified;
-    let clipSubmitters = clipMetrics.submitters;
-    let votes = clipMetrics.votes;
-
-    this.print(totalUsers, ' total users');
-    this.print((listeners / totalUsers).toFixed(2), '% users who listen');
-    this.print((submitters / totalUsers).toFixed(2), '% users who submit\n');
-    this.print(totalClips, ' total clips');
-    this.print(votes, ' total votes');
-    this.print(unverified, ' unverified clips');
-    this.print(clipSubmitters, ' users with clips (', submitters, ')\n');
-  }
-
-  /**
-   * This function extracts the metadata (userid, file type, etc)
-   * from filePath, and updates appropriate sub models.
-   */
-  processFilePath(filePath: string) {
-    const dotIndex = filePath.indexOf('.');
-
-    // Filter out any directories.
-    if (dotIndex === -1) {
-      return;
-    }
-
-    // Glob is a path in the form $userid/$sentenceid.
-    const glob = filePath.substr(0, dotIndex);
-    const ext = filePath.substr(dotIndex);
-
-    let userid, sentenceid;
-    [userid, sentenceid] = glob.split('/');
-
-    switch (ext) {
-      case TEXT_EXT:
-        this.addSentence(userid, sentenceid, filePath);
-        break;
-
-      case MP3_EXT:
-        this.addClip(userid, sentenceid, filePath);
-        break;
-
-      case VOTE_EXT:
-        let voterid;
-        [sentenceid, voterid] = sentenceid.split('-by-');
-        this.addVote(userid, sentenceid, voterid, filePath);
-        break;
-
-      case JSON_EXT:
-        if (sentenceid !== 'demographic') {
-          console.error('unknown json file found', filePath);
-          return;
-        }
-        this.addDemographics(userid, filePath);
-        break;
-
-      default:
-        console.error('unrecognized file', filePath, ext, dotIndex);
-        break;
-    }
-  }
-
-  processFilePaths(filePaths: string[]) {
-    filePaths.forEach(this.processFilePath.bind(this));
-  }
+  cacheClipDistribution = async () => {
+    this.clipDistribution = rowsToDistribution(
+      await this.db.getClipBucketCounts()
+    );
+    console.log('clip distribution', JSON.stringify(this.clipDistribution));
+  };
 
   /**
    * Fetch a random clip but make sure it's not the user's.
    */
-  getEllibleClip(userid: string): Clip {
-    return this.clips.getEllibleClip(userid);
+  async findEligibleClips(
+    client_id: string,
+    locale: string,
+    count: number
+  ): Promise<DBClipWithVoters[]> {
+    return this.db.findClipsWithFewVotes(
+      client_id,
+      locale,
+      Math.min(count, 50)
+    );
+  }
+
+  async findEligibleSentences(
+    client_id: string,
+    locale: string,
+    count: number
+  ): Promise<Sentence[]> {
+    const bucket = await this.db.getOrSetUserBucket(
+      client_id,
+      locale,
+      randomBucketFromDistribution(this.clipDistribution)
+    );
+    return this.db.findSentencesWithFewClips(
+      client_id,
+      bucket,
+      locale,
+      Math.min(count, 50)
+    );
   }
 
   /**
-   * Signals that all the files have been added.
+   * Update current user
    */
-  setLoaded() {
-    this.users.setLoaded();
-    this.clips.setLoaded();
+  async syncUser(uid: string, data: any, sourceURL = ''): Promise<void> {
+    const user = await this.db.updateUser(uid, data);
 
-    // Print Model status.
-    const userMetrics = this.users.getCurrentMetrics();
-    let users = userMetrics.users;
-    const clipMetrics = this.clips.getCurrentMetrics();
-    let clips = clipMetrics.clips;
-    let votes = clipMetrics.votes;
-    this.print(`${clips} clips, ${users} users, ${votes} votes`);
-
-    this.loaded = true;
-  }
-
-  /**
-   * Make sure we can connect to the database.
-   */
-  async ensureDatabaseConnection(): Promise<void> {
-    return this.db.ensureConnection();
+    const { BASKET_API_KEY, PROD } = getConfig();
+    if (BASKET_API_KEY && user.send_emails && !user.basket_token) {
+      const response = await request({
+        uri: `https://basket.${
+          PROD ? 'mozilla' : 'allizom'
+        }.org/news/subscribe/`,
+        method: 'POST',
+        form: {
+          'api-key': BASKET_API_KEY,
+          newsletters: 'common-voice',
+          format: 'H',
+          lang: 'en',
+          email: user.email,
+          source_url: sourceURL,
+          sync: 'Y',
+        },
+      });
+      this.db.updateUser(uid, {
+        ...data,
+        basket_token: JSON.parse(response).token,
+      });
+    }
   }
 
   /**
@@ -174,7 +147,7 @@ export default class Model {
    * Upgrade to the latest version of the db.
    */
   async performMaintenance(): Promise<void> {
-    return this.db.ensureLatest();
+    await this.db.ensureLatest();
   }
 
   /**
@@ -183,4 +156,76 @@ export default class Model {
   cleanUp(): void {
     this.db.endConnection();
   }
+
+  async saveClip(clipData: any) {
+    const bucket = await this.db.saveClip(clipData);
+    if (bucket) {
+      (this.clipDistribution as any)[bucket]++;
+    }
+  }
+
+  getValidatedHours = lazyCache(async () => {
+    const english = (await this.db.getValidClipCount(['en']))[0];
+    return clipCountToHours(english ? english.count : 0);
+  }, DAY);
+
+  getLanguageStats = lazyCache(async (): Promise<LanguageStats> => {
+    const inProgressLocales = locales.filter(
+      locale => !contributableLocales.includes(locale)
+    );
+
+    function indexCountByLocale(
+      rows: { locale: string; count: number }[]
+    ): { [locale: string]: number } {
+      return rows.reduce(
+        (obj: { [locale: string]: number }, { count, locale }: any) => {
+          obj[locale] = count;
+          return obj;
+        },
+        {}
+      );
+    }
+
+    const [
+      localizedPercentages,
+      sentenceCounts,
+      validClipsCounts,
+      speakerCounts,
+    ] = await Promise.all([
+      fetchLocalizedPercentagesByLocale(),
+      this.db
+        .getSentenceCountByLocale(inProgressLocales)
+        .then(indexCountByLocale),
+      this.db.getValidClipCount(contributableLocales).then(indexCountByLocale),
+      this.db.getSpeakerCount(contributableLocales).then(indexCountByLocale),
+    ]);
+
+    return {
+      inProgress: inProgressLocales.map(locale => ({
+        locale,
+        localizedPercentage: localizedPercentages[locale] || 0,
+        sentencesCount: sentenceCounts[locale] || 0,
+      })),
+      launched: contributableLocales.map(locale => ({
+        locale,
+        seconds: Math.floor((validClipsCounts[locale] || 0) * AVG_CLIP_SECONDS),
+        speakers: speakerCounts[locale] || 0,
+      })),
+    };
+  }, 20 * MINUTE);
+
+  getClipsStats = lazyCache(
+    async (locale: string) =>
+      (await this.db.getClipsStats(locale)).map(stat => ({
+        ...stat,
+        total: Math.round(stat.total * AVG_CLIP_SECONDS),
+        valid: Math.round(stat.valid * AVG_CLIP_SECONDS),
+      })),
+    DAY
+  );
+
+  getVoicesStats = lazyCache(
+    (locale: string) => this.db.getVoicesStats(locale),
+    20 * MINUTE
+  );
 }
