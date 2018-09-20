@@ -1,5 +1,6 @@
 import * as bodyParser from 'body-parser';
 import { NextFunction, Request, Response, Router } from 'express';
+import {UserClients} from "../../../common/user_clients";
 import { getConfig } from '../config-helper';
 import UserClient from './model/user_client';
 import Model from './model';
@@ -140,19 +141,19 @@ export default class API {
   };
 
   getUserClients = async ({ headers, user }: Request, response: Response) => {
+    if (!user) {
+      response.json([]);
+      return;
+    }
+
     const email = user.emails[0].value;
-    response.json(
-      user
-        ? ([{ email, sso: true }] as {
-            email?: string;
-            sso?: boolean;
-          }[]).concat(
-            await UserClient.findAllWithLocales({
-              email,
-              client_id: headers.uid as string,
-            })
-          )
-        : []
-    );
+    const userClients: UserClients = [
+      { email, sso: true },
+      ...(await UserClient.findAllWithLocales({
+        email,
+        client_id: headers.uid as string,
+      })),
+    ];
+    response.json(userClients);
   };
 }
