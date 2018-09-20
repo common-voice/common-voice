@@ -227,6 +227,10 @@ profile-form-age =
     .label = Edá
 profile-form-gender =
     .label = Xéneru
+leaderboard-visibility =
+    .label = Visibilidá de la tabla de líderes
+native-language =
+    .label = Llingua nativa
 profile-form-submit-save = Guardar
 profile-form-submit-saved = Guardóse
 profile-keep-data = Caltener datos
@@ -245,6 +249,7 @@ profile-create-success = ¡Creóse'l perfil con ésitu!
 profile-close = Zarrar
 profile-clear-modal = Llimpiar el perfil significa qu'esta información demográfica yá nun va unviase a Common Voice xunto coles tos grabaciones.
 profile-explanation = Sigui'l to progresu con un perfil y ayuda a que los nuesos datos de voz seyan más precisos.
+thanks-for-account = Gracies por confirmar la cuenta, agora vamos facer el to perfil.
 
 ## FAQ
 
