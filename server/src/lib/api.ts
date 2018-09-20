@@ -1,7 +1,5 @@
 import * as bodyParser from 'body-parser';
 import { NextFunction, Request, Response, Router } from 'express';
-const PromiseRouter = require('express-promise-router');
-import pick = require('lodash.pick');
 import { getConfig } from '../config-helper';
 import UserClient from './model/user_client';
 import Model from './model';
@@ -9,6 +7,8 @@ import Clip from './clip';
 import Prometheus from './prometheus';
 import { AWS } from './aws';
 import { ClientParameterError } from './utility';
+
+const PromiseRouter = require('express-promise-router');
 
 export default class API {
   model: Model;
@@ -140,13 +140,19 @@ export default class API {
   };
 
   getUserClients = async ({ headers, user }: Request, response: Response) => {
+    const email = user.emails[0].value;
     response.json(
       user
-        ? (await UserClient.findAll({
-            email: user.email,
-            client_id: headers.uid as string,
-          })).map((c: any) => pick(c, 'accent', 'age', 'gender'))
-        : null
+        ? ([{ email, sso: true }] as {
+            email?: string;
+            sso?: boolean;
+          }[]).concat(
+            await UserClient.findAllWithLocales({
+              email,
+              client_id: headers.uid as string,
+            })
+          )
+        : []
     );
   };
 }
