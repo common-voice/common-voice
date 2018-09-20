@@ -215,6 +215,10 @@ profile-form-age =
     .label = Wiek
 profile-form-gender =
     .label = Płeć
+leaderboard-visibility =
+    .label = Widoczność rankingu
+native-language =
+    .label = Język ojczysty
 profile-form-submit-save = Zapisz
 profile-form-submit-saved = Zapisane
 profile-keep-data = Zachowaj dane
@@ -231,6 +235,7 @@ profile-create-success = Pomyślnie utworzono profil.
 profile-close = Zamknij
 profile-clear-modal = Wyczyszczenie danych profilu oznacza, że te informacje demograficzne nie będą już wysyłane do projektu Common Voice razem z nagraniami.
 profile-explanation = Kontroluj swój postęp za pomocą profilu i pomóż zwiększyć dokładność naszych danych.
+thanks-for-account = Dziękujemy za potwierdzenie konta. Zbudujmy teraz Twój profil.
 
 ## FAQ
 
