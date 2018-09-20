@@ -2,7 +2,7 @@
 
 yes-receive-emails = Da, trimite-mi e-mailuri. Aș dori să fiu la curent cu proiectul Common Voice.
 stayintouch = La Mozilla construim o comunitate în jurul tehnologiei vocale. Dorim să te ținem la curent cu știri, noi surse de date și să auzim mai multe despre cum folosești aceste date.
-privacy-info = Promitem să tratăm cu grijă informațiile tale. Citește mai multe în <privacyLink>Politica de confidențialitate</privacyLink>.
+privacy-info = Promitem că vom gestiona cu atenție datele tale personale. Află mai multe pe această temă în<privacyLink>Politica de confidențialitate</privacyLink>.
 return-to-cv = Întoarce-te la Common Voice
 email-input =
     .label = E-mail
@@ -107,29 +107,32 @@ content-license-text = Conţinut disponibil sub o <licenseLink>licență Creativ
 share-title = Ajută-ne să găsim alte persoane care să-și doneze vocea!
 share-text = Ajută mașinile să învețe despre cum vorbesc oamenii, donează vocea ta la { $link }
 link-copied = Link copiat
-back-top = Înapoi în partea superioară
-contribution-banner-text = Am lansat o nouă experiență pentru a contribui
+back-top = Sus
+contribution-banner-text = Tocmai am lansat o nouă experiență pentru colaboratori
 contribution-banner-button = Aruncă o privire
 report-bugs-link = Ajută la raportarea de probleme
 
 ## Home Page
 
-home-title = Proiectul Common Voice este inițiativa Mozillei de a ajuta mașinăriile să învețe cum vorbesc oamenii reali.
+home-title = Proiectul Common Voice este inițiativa Mozilla pentru a ajuta mașinile să învețe cum vorbesc oamenii reali.
 home-cta = Donează-ți vocea, contribuie aici!
-wall-of-text-start = Vocea este naturală și umană. De aceea suntem fascinați de ideea creerii unei tehnologii vocale utilă pentru dispozitivele noastre. Dar pentru a crea sisteme vocale sunt necesare cantități mari de date vocale.
-wall-of-text-more-mobile = Cea mai mare parte a datelor utilizate de marile companii nu sunt disponibile majorității oamenilor. Credem că aceasta este o piedică în calea inovației. De aceea am lansat proiectul Common Voice pentru a deschide aceste tehnologii pentru toată lumea.
-wall-of-text-more-desktop = Acum îți poți dona vocea pentru a ne ajuta să construim o bază de date deschisă și utilizabilă de toată lumea pentru a crea aplicații inovative pentru dispozitive și web.<lineBreak></lineBreak>Citește o propoziție pentru a ajuta mașinile să învețe despre cum vorbesc oamenii reali. Verifică munca altor contribuitori pentru a îmbunătăți calitatea. Este foarte simplu!
-wall-of-text-first = Vocea este naturală și umană. De aceea suntem fascinați de ideea creerii unei tehnologii vocale utilă pentru dispozitivele noastre. Dar pentru a crea sisteme vocale sunt necesare cantități mari de date vocale.
-wall-of-text-second = Cea mai mare parte a datelor folosite de marile companii nu este disponibilă majorității oamenilor. Credem că asta frânează inovația. Așa că am lansat Common Voice, un proiect care să ajute ca recunoașterea vocală să fie disponibilă tuturor.
+wall-of-text-start = Vocea este naturală și umană. De aceea suntem fascinați de ideea creării unei tehnologii vocale utile pentru dispozitivele noastre. Dar pentru a crea sisteme vocale este necesar un volum mare de date vocale.
+wall-of-text-more-mobile = Cele mai multe dintre datele folosite de marile companii nu sunt disponibile pentru majoritatea oamenilor. Credem că este o piedică în calea inovației. De aceea am lansat proiectul Common Voice - ca să facem recunoașterea vocală o tehnologie deschisă pentru toți.
+wall-of-text-more-desktop = Acum îți poți dona vocea ajutându-ne să construim o bază de date vocală cu sursă deschisă, care poate fi utilizată de toți, ca să creăm aplicații inovatoare pentru dispozitive și web.<lineBreak></lineBreak>Citește o propoziție ca să ajuți mașinile să învețe cum vorbesc oamenii reali. Verifică ce au lucrat alți colaboratori pentru a îmbunătăți calitatea. E chiar atât de simplu!
+wall-of-text-first = Vocea este naturală și umană. De aceea suntem fascinați de ideea creării unei tehnologii vocale utile pentru dispozitivele noastre. Dar pentru a crea sisteme vocale este necesar un volum mare de date vocale.
+wall-of-text-second = Cele mai multe dintre datele folosite de marile companii nu sunt disponibile pentru majoritatea oamenilor. Credem că este o piedică în calea inovației. De aceea am lansat proiectul Common Voice - ca să facem recunoașterea vocală o tehnologie deschisă pentru toți.
 show-wall-of-text = Citește mai multe
 help-us-title = Ajută-ne să validăm propozițiile!
 help-us-explain = Apasă pe redare, ascultă și spune-ne: a pronunțat corect propoziția de mai jos?
+no-clips-to-validate = Se pare că nu există materiale audio în această limbă. Ajută-ne să umplem acest gol și înregistrează câteva acum.
 vote-yes = Da
 vote-no = Nu
+toggle-play-tooltip = Apasă { shortcut-play-toggle } pentru a comuta modul de redare
 speak-subtitle = Donează-ți vocea
+speak-paragraph = Înregistrarea de materiale vocale este o parte integrantă a construcției setului nostru de date deschise; unii ar spune chiar că e partea distractivă.
 speak-goal-text = Clipuri înregistrate
 listen-subtitle = Ajută-ne să validăm vocile
-listen-paragraph = Validarea clipurilor donate este la fel de importantă pentru misiunea Common Voice. Ascultă și ajută-ne să creem date vocale de calitate și cu sursă deschisă.
+listen-paragraph = Validarea secvențelor audio donate este la fel de importantă pentru misiunea Common Voice. Ascultă-le și ajută-ne să creăm date vocale cu sursă deschisă de calitate.
 listen-goal-text = Clipuri validate
 hours-recorded = Ore înregistrate
 hours-validated = Ore validate
@@ -180,7 +183,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Înregistrează/Oprește
-request-language-text = Nu îți vezi limba pe Common Voice încă?
+request-language-text = Încă nu îți vezi limba pe Common Voice?
 request-language-button = Solicită o limbă
 
 ## ProjectStatus
@@ -195,7 +198,7 @@ status-hours =
     }
 # Variables:
 # $goal - number of hours representing the next goal
-status-goal = Următorul obiectiv: { $goal }
+status-goal = Obiectivul următor: { $goal }
 english = Engleză
 
 ## ProfileForm
@@ -221,9 +224,7 @@ female = Femeie
 # Gender
 other = Altul
 why-profile-title = De ce un profil?
-why-profile-text =
-    Furnizând câteva informații despre tine, datele audio pe care le trimiți la Common Voice vor fi mai utile pentru motoarele 
-    de recunoaștere a vorbirii care folosesc aceste date pentru a le îmbunătăți precizia.
+why-profile-text = Furnizând câteva informații despre tine, datele audio pe care le trimiți la Common Voice vor fi mai utile pentru motoarele de recunoaștere a vorbirii care folosesc aceste date ca să le îmbunătățim acuratețea.
 edit-profile = Editează profilul
 profile-create = Creează un profil
 profile-create-success = Succes, profil creat!
@@ -231,7 +232,7 @@ profile-close = Închide
 profile-clear-modal =
     Ștergerea datelor tale de profil înseamnă că aceste informații demografice nu vor mai fi trimise la Common Voice cu
     înregistrările tale.
-profile-explanation = Urmărește progresul tău cu un profil și ajută ca datele noastre vocale să fie mai precise.
+profile-explanation = Urmărește-ți progresul cu ajutorul unui profil și ajută-ne să sporim acuratețea datelor noastre vocale.
 
 ## FAQ
 
@@ -241,7 +242,7 @@ faq-what-a = Recunoașterea vocală este o tehnologie care poate revoluționa in
 faq-important-q = De ce este important?
 faq-important-a = Vocea este naturală și umană. Este cel mai ușor și natural mod de a comunica. Dorim ca dezvoltatorii să poată construi lucruri incredibile de la sisteme de traducere în timp real la asistenți administrativi cu comandă vocală. Dar acum nu sunt destule date vocale disponibile pentru a construi acest tip de aplicații. Sperăm ca proiectul Common Voice să ofere dezvoltatorilor uneltele de care au nevoie pentru a inova.
 faq-get-q = Cum pot obține datele Common Voice?
-faq-get-a = Baza de date este acum disponibilă pe <downloadLink>pagina de descărcări</downloadLink> și sub o licență <licenseLink>CC-0</licenseLink>.
+faq-get-a = Setul de date este acum disponibil pe <downloadLink>pagina de descărcări</downloadLink> sub o licență <licenseLink>CC-0</licenseLink>.
 faq-mission-q = De ce este Common Voice parte a misiunii Mozilla?
 faq-mission-a = Mozilla este dedicată păstrării webului deschis și accesibil tuturor. Pentru a face acest lucru, trebuie să-i împuternicim pe creatorii web prin proiecte precum Common Voice. Din moment ce tehnologiile vocale proliferă dincolo de aplicațiile de nișă, credem că acestea trebuie să servească toți utilizatorii în egală măsură. Considerăm necesitatea includerii mai multor limbi, accente și elemente demografice în construirea și testarea tehnologiilor vocale. Mozilla dorește să vadă un internet sănătos și vibrant. Acest lucru înseamnă oferirea accesului la datele vocale pentru noii creatori, astfel încât să poată crea proiecte noi și extraordinare. Common Voice va fi o resursă publică care va ajuta echipele și dezvoltatorii Mozilla din întreaga lume.
 faq-native-q = Sunt vorbitor nativ de { $lang } și vorbesc cu accent, doriți vocea mea?
