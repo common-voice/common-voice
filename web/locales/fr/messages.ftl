@@ -213,6 +213,10 @@ profile-form-age =
     .label = Âge
 profile-form-gender =
     .label = Sexe
+leaderboard-visibility =
+    .label = Affichage public
+native-language =
+    .label = Langue maternelle
 profile-form-submit-save = Enregistrer
 profile-form-submit-saved = Enregistrer
 profile-keep-data = Conserver les données
@@ -229,6 +233,7 @@ profile-create-success = Bravo, votre profil est créé !
 profile-close = Fermer
 profile-clear-modal = Si vous effacez les données de votre profil, ces informations démographiques ne seront plus transmises à Common Voice avec vos enregistrements sonores.
 profile-explanation = Gardez un œil sur votre progression en créant un profil et aidez-nous à rendre nos données vocales plus précises.
+thanks-for-account = Merci d’avoir confirmé votre compte, maintenant créons votre profil.
 
 ## FAQ
 
