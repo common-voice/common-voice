@@ -239,6 +239,7 @@ profile-create-success = Profil je so wuspěšnje załožił!
 profile-close = Začinić
 profile-clear-modal = Hdyž swoje profilowe daty zhašeće, so tute demografiske informacije hižo na Common Voice hromadźe z natočenjemi njepósćelu.
 profile-explanation = Z profilom móžeće swój pokrok we wóčku wobchować a pomhać, naše hłosowe daty dokładniše činić.
+thanks-for-account = Dźakujemy so, zo sće swoje konto wobkrućił, chcemy nětko waš profil zarjadować.
 
 ## FAQ
 
