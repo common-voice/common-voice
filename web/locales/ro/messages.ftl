@@ -351,11 +351,13 @@ request-language-success-content = Vom reveni în curând cu mai multe informaț
 ## Languages Overview
 
 language-section-in-progress = În lucru
+language-section-in-progress-description = Limbile în lucru sunt momentan construite pentru contribuții din partea comunităților noastre; avansul lor reflectă stadiul la care au ajuns în cadrul fazelor de localizare a site-urilor web și de colectare de propoziții.
 language-section-launched = Lansate
+language-section-launched-new-description = Site-ul web a fost localizat cu succes pentru aceste limbi lansate și deține suficiente propoziții colectate pentru a permite contribuții curente tip <italic>voribre</italic> și <italic>ascultare</italic>.
 languages-show-more = Vezi mai multe
 languages-show-less = Vezi mai puține
 language-speakers = Vorbitori
-language-meter-in-progress = Progreso
+language-meter-in-progress = Progres
 language-total-progress = Total
 language-search-input =
     .placeholder = Căutare
@@ -370,14 +372,38 @@ action-click = Clic
 action-tap = Atinge
 contribute = Contribuie
 listen = Ascultă
+skip = Sari peste
 shortcuts = Scurtături
 clips-with-count = <bold><bold>{ $count }</bold> clipuri
-goal-help-recording = Ai ajutat Common Voice să ajungă la <goalPercentage></goalPercentage> din obiectivul zilnic de { $goalValue } înregistrări!
+goal-help-recording = Ai ajutat Common Voice să atingă <goalPercentage></goalPercentage> din obiectivul zilnic de { $goalValue } înregistrări!
+goal-help-validation = Ai ajutat Common Voice să atingă <goalPercentage></goalPercentage> din obiectivul zilnic de { $goalValue } validări!
+contribute-more =
+    { $count ->
+        [one] Gata pentru încă { $count }?
+        [few] Gata pentru încă { $count }?
+       *[other] Gata pentru încă { $count }?
+    }
 record-cta = Începe înregistrarea
+record-instruction = { $actionType }<recordIcon></recordIcon> apoi citește propoziția cu voce tare
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> când ai terminat
 record-three-more-instruction = Au mai rămas trei!
+record-again-instruction = Perfect!<recordIcon></recordIcon> Înregistrează următoarea secvență audio
+record-again-instruction2 = Ține-o tot așa! Înregistrează din nou <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Ultima!
 review-tooltip = Aici revezi și reînregistrezi clipuri din mers
+unable-speak = Nu poți vorbi acum?
 review-instruction = Revede și re-înregistrează clipuri audio dacă este nevoie
+record-submit-tooltip = { $actionType } trimite când ești gata
 clips-uploaded = Clipuri încărcate
+record-abort-title = Finalizezi înregistrarea mai întâi?
+record-abort-text = Dacă ieși acum vei pierde tot ce ai lucrat
 record-abort-submit = Trimite clipurile
+record-abort-continue = Finalizează înregistrarea
 record-abort-delete = Ieși și șterge clipurile
+listen-instruction = { $actionType }<playIcon></playIcon> a pronunțat corect propoziția?
+listen-again-instruction = Bine lucrat!<playIcon></playIcon> Ascultă din nou când ești gata
+listen-3rd-time-instruction = Ai terminat 2. Ține-o tot așa!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Ultima!
+nothing-to-validate = Nu avem nimic de validat în această limbă. Ajută-ne să umplem acest gol.
 record-button-label = Înregistrează-ți vocea
+share-title-new = <bold>Ajută-ne</bold> să găsim mai multe voci
