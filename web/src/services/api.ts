@@ -1,4 +1,5 @@
 import { LanguageStats } from '../../../common/language-stats';
+import { UserClients } from '../../../common/user_clients';
 import { Locale } from '../stores/locale';
 import { User } from '../stores/user';
 import { Sentences } from '../stores/sentences';
@@ -187,7 +188,14 @@ export default class API {
     );
   }
 
-  fetchUserClients(): Promise<any[]> {
+  fetchUserClients(): Promise<UserClients> {
     return this.fetch(API_PATH + '/user_clients');
+  }
+
+  createAccount(data: any): Promise<void> {
+    return this.fetch(API_PATH + '/user_client', {
+      method: 'POST',
+      body: data,
+    });
   }
 }

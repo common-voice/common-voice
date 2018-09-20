@@ -53,8 +53,8 @@ const LabeledFormControl = ({
   );
 };
 
-export const LabeledInput = (props: any) => (
-  <LabeledFormControl component="input" {...props} />
+export const LabeledInput = ({ type, ...props }: any) => (
+  <LabeledFormControl component="input" type={type || 'text'} {...props} />
 );
 
 export const LabeledSelect = (props: any) => (

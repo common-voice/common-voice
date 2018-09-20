@@ -212,7 +212,11 @@ profile-form-accent =
 profile-form-age =
     .label = Age
 profile-form-gender =
-    .label = Gender
+    .label = Sex
+leaderboard-visibility =
+    .label = Leaderboard Visibility
+native-language =
+    .label = Native Language
 profile-form-submit-save = Save
 profile-form-submit-saved = Saved
 profile-keep-data = Keep Data
@@ -233,6 +237,7 @@ profile-clear-modal =
   Clearing your profile data means this demographic information will no longer be submitted to Common Voice with your
   clip recordings.
 profile-explanation = Keep track of your progress with a profile and help our voice data be more accurate.
+thanks-for-account = Thanks for confirming your account, now let's build your profile.
 
 ## FAQ
 faq-title = Frequently Asked Questions

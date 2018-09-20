@@ -7,7 +7,7 @@ import pick = require('lodash.pick');
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { DEFAULT_LOCALE } from '../../services/localization';
-import { ACCENTS, AGES, GENDERS } from '../../stores/demographics';
+import { ACCENTS, AGES, SEXES } from '../../stores/demographics';
 import { Locale } from '../../stores/locale';
 import StateTree from '../../stores/tree';
 import { User } from '../../stores/user';
@@ -234,7 +234,7 @@ class ProfileForm extends React.Component<Props, State> {
               name="gender"
               onChange={this.update}
               value={gender}>
-              {this.renderOptionsFor(GENDERS)}
+              {this.renderOptionsFor(SEXES)}
             </LabeledSelect>
           </Localized>
 

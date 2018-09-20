@@ -1,10 +1,11 @@
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, withRouter } from 'react-router';
+import { UserClients } from '../../../../common/user_clients';
 import URLS from '../../urls';
-import API from '../../services/api';
 import { Notifications } from '../../stores/notifications';
 import StateTree from '../../stores/tree';
+import { User } from '../../stores/user';
 
 interface NotificationProps {
   addNotification: typeof Notifications.actions.add;
@@ -31,18 +32,27 @@ export const LoginFailure = connect<void, NotificationProps>(null, {
 );
 
 interface PropsFromState {
-  api: API;
+  userClients: UserClients;
 }
 
-export const LoginSuccess = connect<PropsFromState, void>(
-  ({ api }: StateTree) => ({ api })
+interface PropsFromDispatch {
+  refreshUserClients: typeof User.actions.refreshUserClients;
+}
+
+type Props = PropsFromState & PropsFromDispatch & RouteComponentProps<any>;
+
+export const LoginSuccess = connect<PropsFromState, PropsFromDispatch>(
+  ({ user }: StateTree) => ({ userClients: user.userClients }),
+  { refreshUserClients: User.actions.refreshUserClients }
 )(
   withRouter(
-    class extends React.Component<PropsFromState & RouteComponentProps<any>> {
-      async componentDidMount() {
-        const { api, history } = this.props;
-        const userClients = await api.fetchUserClients();
-        const hasAccount = userClients.find(u => u.sso_id);
+    class extends React.Component<Props> {
+      componentDidMount() {
+        this.props.refreshUserClients();
+      }
+
+      componentDidUpdate({ history, userClients }: Props) {
+        const hasAccount = Boolean(userClients.find((u: any) => u.sso && u.id));
         history.replace(hasAccount ? URLS.ROOT : URLS.PROFILE_INFO);
       }
 

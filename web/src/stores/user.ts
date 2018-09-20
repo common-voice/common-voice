@@ -1,12 +1,14 @@
 import pick = require('lodash.pick');
+import { Dispatch } from 'redux';
 import { createSelector } from 'reselect';
+import { UserClients } from '../../../common/user_clients';
 import { DEFAULT_LOCALE } from '../services/localization';
 import { generateGUID } from '../utility';
-import { AGES, GENDERS } from './demographics';
+import { AGES, SEXES } from './demographics';
 import StateTree from './tree';
 
 type Age = keyof typeof AGES;
-type Gender = keyof typeof GENDERS;
+type Sex = keyof typeof SEXES;
 
 export namespace User {
   export interface State {
@@ -19,13 +21,15 @@ export namespace User {
       [locale: string]: string;
     };
     age: Age;
-    gender: Gender;
+    gender: Sex;
     clips: number;
     privacyAgreed: boolean;
     hasDownloaded: boolean;
 
     recordTally: number;
     validateTally: number;
+
+    userClients: UserClients;
   }
 
   export interface UpdatableState {
@@ -34,9 +38,10 @@ export namespace User {
     sendEmails?: boolean;
     accents?: { [locale: string]: string };
     age?: Age;
-    gender?: Gender;
+    gender?: Sex;
     privacyAgreed?: boolean;
     hasDownloaded?: boolean;
+    userClients?: UserClients;
   }
 
   function getDefaultState(): State {
@@ -54,6 +59,7 @@ export namespace User {
       hasDownloaded: false,
       recordTally: 0,
       validateTally: 0,
+      userClients: [],
     };
   }
 
@@ -83,7 +89,7 @@ export namespace User {
 
   export const actions = {
     update: (state: UpdatableState) => (
-      dispatch: any,
+      dispatch: Dispatch<UpdateAction>,
       getState: () => StateTree
     ) => {
       dispatch({
@@ -106,6 +112,16 @@ export namespace User {
       type: ActionType.UPDATE,
       state: getDefaultState(),
     }),
+
+    refreshUserClients: () => async (
+      dispatch: Dispatch<UpdateAction>,
+      getState: () => StateTree
+    ) => {
+      dispatch({
+        type: ActionType.UPDATE,
+        state: { userClients: await getState().api.fetchUserClients() },
+      });
+    },
   };
 
   export function reducer(state = getDefaultState(), action: Action): State {

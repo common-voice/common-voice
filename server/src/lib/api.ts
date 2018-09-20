@@ -1,6 +1,6 @@
 import * as bodyParser from 'body-parser';
 import { NextFunction, Request, Response, Router } from 'express';
-import {UserClients} from "../../../common/user_clients";
+import { UserClients } from '../../../common/user_clients';
 import { getConfig } from '../config-helper';
 import UserClient from './model/user_client';
 import Model from './model';
