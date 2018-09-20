@@ -19,7 +19,7 @@ export default ({ onRequestClose }: Props) => (
       <br />
 
       <Localized id="email-input" attrs={{ label: true }}>
-        <LabeledInput label="Email" name="email" required type="text" />
+        <LabeledInput label="Email" name="email" required type="email" />
       </Localized>
 
       <Localized id="contact-form-name" attrs={{ label: true }}>
