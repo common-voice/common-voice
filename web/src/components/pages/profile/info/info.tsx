@@ -72,6 +72,37 @@ class ProfilePage extends React.Component<PropsFromState, State> {
     this.setState({ [field]: event.target.value } as any);
   };
 
+  addLocale = () => {
+    const { locales } = this.state;
+    if (!locales[locales.length - 1].locale) {
+      return;
+    }
+    this.setState({
+      locales: locales.concat({ locale: '', accent: '' }),
+    });
+  };
+
+  handleLocaleChangeFor = (i: number) => ({
+    target: { value },
+  }: React.ChangeEvent<HTMLSelectElement>) => {
+    const locales = this.state.locales.slice();
+    locales[i] = { locale: value, accent: '' };
+    if (!value) {
+      locales.splice(i, 1);
+    }
+    this.setState({
+      locales: locales.filter(({ locale }, i2) => i2 === i || locale !== value),
+    });
+  };
+
+  handleAccentChangeFor = (i: number) => ({
+    target: { value },
+  }: React.ChangeEvent<HTMLSelectElement>) => {
+    const locales = this.state.locales.slice();
+    locales[i].accent = value;
+    this.setState({ locales });
+  };
+
   submit = async () => {
     const { api, user } = this.props;
     await api.saveAccount({
@@ -115,20 +146,34 @@ class ProfilePage extends React.Component<PropsFromState, State> {
             <Options>{SEXES}</Options>
           </LabeledSelect>
         </Localized>
-        {locales.map(({ locale, accent }) => (
+
+        {locales.map(({ locale, accent }, i) => (
           <React.Fragment key={locale}>
             <Localized id="profile-form-language" attrs={{ label: true }}>
-              <LabeledSelect value={locale} onChange={() => true}>
-                <option value={locale}>{NATIVE_NAMES[locale]}</option>
+              <LabeledSelect
+                value={locale}
+                onChange={this.handleLocaleChangeFor(i)}>
+                <option value="" />
+                {Object.entries(NATIVE_NAMES).map(([locale, name]) => (
+                  <option key={locale} value={locale}>
+                    {name}
+                  </option>
+                ))}
               </LabeledSelect>
             </Localized>
-            <Localized id="profile-form-accent" attrs={{ label: true }}>
+            <Localized
+              id="profile-form-accent"
+              attrs={this.handleAccentChangeFor(i)}>
               <LabeledSelect value={accent} onChange={() => true}>
-                <Options>{ACCENTS[locale] || {}}</Options>
+                <option value="" />
+                {ACCENTS[locale] && <Options>{ACCENTS[locale]}</Options>}
               </LabeledSelect>
             </Localized>
           </React.Fragment>
         ))}
+        <Button outline onClick={this.addLocale}>
+          Add Language
+        </Button>
 
         <Localized id="profile-form-submit-save">
           <Button rounded onClick={this.submit} />
