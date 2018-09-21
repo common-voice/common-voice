@@ -217,6 +217,10 @@ profile-form-age =
     .label = Életkor
 profile-form-gender =
     .label = Nem
+leaderboard-visibility =
+    .label = Ranglista láthatósága
+native-language =
+    .label = Anyanyelv
 profile-form-submit-save = Mentés
 profile-form-submit-saved = Mentve
 profile-keep-data = Adat megtartása
@@ -233,6 +237,7 @@ profile-create-success = Profil sikeresen létrehozva!
 profile-close = Bezárás
 profile-clear-modal = A profiladatok törlése azt jelenti, hogy ezek a demográfiai információk többé már nem lesznek beküldve a Common Voice-ba a hangrögzítéseivel.
 profile-explanation = Kövesse az előrehaladását egy profillal, és segítsen pontosabbá tenni az adatainkat.
+thanks-for-account = Köszönjük, hogy megerősítette a fiókját, most állítsuk össze a profilját.
 
 ## FAQ
 
