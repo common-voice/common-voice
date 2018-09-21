@@ -49,7 +49,7 @@ export default class API {
 
     router.put('/user_clients/:id', this.saveUserClient);
     router.get('/user_clients', this.getUserClients);
-    router.patch('/user_client', this.saveUserClient);
+    router.patch('/user_client', this.saveAccount);
     router.put('/users/:id', this.saveUser);
 
     router.get('/:locale/sentences', this.getRandomSentences);
@@ -76,17 +76,7 @@ export default class API {
     return router;
   }
 
-  saveUserClient = async (
-    { body, params, user }: Request,
-    response: Response
-  ) => {
-    // The new way of saving users, the else case is deprecated and should be removed later on
-    // (with its route)
-    if (user) {
-      return response.json(
-        await UserClient.save(user.id, { ...body, email: user.emails[0].value })
-      );
-    }
+  saveUserClient = async ({ body, params }: Request, response: Response) => {
     const uid = params.id as string;
     const demographic = body;
 
@@ -159,12 +149,18 @@ export default class API {
 
     const email = user.emails[0].value;
     const userClients: UserClientType[] = [
-      { email, sso: true },
+      { email },
       ...(await UserClient.findAllWithLocales({
         email,
         client_id: headers.uid as string,
       })),
     ];
     response.json(userClients);
+  };
+
+  saveAccount = async ({ body, user }: Request, response: Response) => {
+    response.json(
+      await UserClient.save(user.id, { ...body, email: user.emails[0].value })
+    );
   };
 }
