@@ -213,6 +213,10 @@ profile-form-age =
     .label = Yaş
 profile-form-gender =
     .label = Cins
+leaderboard-visibility =
+    .label = Öndərlər Siyahısı Görünüşü
+native-language =
+    .label = Ana Dili
 profile-form-submit-save = Saxla
 profile-form-submit-saved = Saxlandı
 profile-keep-data = Məlumatı saxla
@@ -229,6 +233,7 @@ profile-create-success = Profil uğurla yaradıldı!
 profile-close = Qapat
 profile-clear-modal = Profil məlumatlarınızı təmizlədiyinizdə bu demoqrafik məlumat və səs qeydləriniz Common Voice-ə göndərilməyəcək.
 profile-explanation = Profil yaradaraq müvəffəqiyyətlərinizi izləyə və səs məlumatlarımızı daha dəqiq hala gətirə bilərsiz.
+thanks-for-account = Hesabınızı təsdiqlədiyiniz üçün təşəkkürlər, indi də profilinizi düzəldək.
 
 ## FAQ
 
