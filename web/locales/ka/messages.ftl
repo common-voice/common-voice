@@ -213,6 +213,8 @@ profile-form-age =
     .label = ასაკი
 profile-form-gender =
     .label = სქესი
+native-language =
+    .label = მშობლიური ენა
 profile-form-submit-save = შენახვა
 profile-form-submit-saved = შენახულია
 profile-keep-data = მონაცემების დატოვება
@@ -229,6 +231,7 @@ profile-create-success = პროფილი წარმატებით �
 profile-close = დახურვა
 profile-clear-modal = პროფილის მონაცემების გასუფთავების შედეგად, თქვენი შესახებ მითითებული მონაცემები აღარ გადაიგზავნება Common Voice-ში, თქვენს ხმოვან ჩანაწერთან ერთად.
 profile-explanation = თვალი ადევნეთ თქვენ მიერ შეტანილ წვლილსა და დაგვეხმარეთ ხმოვანი მონაცემების სიზუსტის გაუმჯობესებაში, პროფილის შექმნით.
+thanks-for-account = გმადლობთ ანგარიშის დამოწმებისთვის, ახლა კი შეგიძლიათ დაიწყოთ პროფილის შედგენა.
 
 ## FAQ
 
