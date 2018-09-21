@@ -4,9 +4,9 @@ import { hash } from '../utility';
 import Mysql, { getMySQLInstance } from './db/mysql';
 import Schema from './db/schema';
 import { UserTable } from './db/tables/user-table';
-import UserClientTable from './db/tables/user-client-table';
 import ClipTable, { DBClipWithVoters } from './db/tables/clip-table';
 import VoteTable from './db/tables/vote-table';
+import UserClient from "./user-client";
 
 // When getting new sentences/clips we need to fetch a larger pool and shuffle it to make it less
 // likely that different users requesting at the same time get the same data
@@ -22,7 +22,6 @@ export default class DB {
   mysql: Mysql;
   schema: Schema;
   user: UserTable;
-  userClient: UserClientTable;
   vote: VoteTable;
 
   constructor() {
@@ -30,7 +29,6 @@ export default class DB {
 
     this.clip = new ClipTable(this.mysql);
     this.user = new UserTable(this.mysql);
-    this.userClient = new UserClientTable(this.mysql);
     this.vote = new VoteTable(this.mysql);
 
     this.schema = new Schema(this.mysql);
@@ -74,7 +72,7 @@ export default class DB {
           email,
           ...pick(fields, 'send_emails', 'has_downloaded', 'basket_token'),
         }),
-      this.userClient.update({ client_id, email, age, gender }),
+      UserClient.save({ client_id, email, age, gender }),
     ]);
     accents && (await this.saveAccents(client_id, accents));
     return this.getUser(email);

@@ -2,7 +2,7 @@ import * as bodyParser from 'body-parser';
 import { NextFunction, Request, Response, Router } from 'express';
 import { UserClient as UserClientType } from '../../../common/user-clients';
 import { getConfig } from '../config-helper';
-import UserClient from './model/user_client';
+import UserClient from './model/user-client';
 import Model from './model';
 import Clip from './clip';
 import Prometheus from './prometheus';
@@ -49,6 +49,7 @@ export default class API {
 
     router.put('/user_clients/:id', this.saveUserClient);
     router.get('/user_clients', this.getUserClients);
+    router.get('/user_client', this.getAccount);
     router.patch('/user_client', this.saveAccount);
     router.put('/users/:id', this.saveUser);
 
@@ -160,7 +161,11 @@ export default class API {
 
   saveAccount = async ({ body, user }: Request, response: Response) => {
     response.json(
-      await UserClient.save(user.id, { ...body, email: user.emails[0].value })
+      await UserClient.saveAccount(user.id, { ...body, email: user.emails[0].value })
     );
   };
+
+  getAccount = async ({ user }: Request, response: Response) => {
+    response.json(user ? await UserClient.findAccount(user.id) : null)
+  }
 }

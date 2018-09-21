@@ -47,17 +47,22 @@ class ProfilePage extends React.Component<PropsFromState, State> {
   constructor(props: PropsFromState, context: any) {
     super(props, context);
 
-    const { username, userClients } = props.user;
+    const { account, userClients } = props.user;
 
     this.state = {
-      username,
       visible: false,
-      age: userClients.reduce((init, u) => u.age || init, ''),
-      gender: userClients.reduce((init, u) => u.gender || init, ''),
-      locales: userClients.reduce(
-        (locales, u) => locales.concat(u.locales || []),
-        []
-      ),
+      locales: [],
+      ...pick(props.user, 'age', 'username', 'gender'),
+      ...(account
+        ? pick(account, 'age', 'username', 'gender', 'locales', 'visible')
+        : {
+            age: userClients.reduce((init, u) => u.age || init, ''),
+            gender: userClients.reduce((init, u) => u.gender || init, ''),
+            locales: userClients.reduce(
+              (locales, u) => locales.concat(u.locales || []),
+              []
+            ),
+          }),
     };
   }
 
@@ -68,30 +73,26 @@ class ProfilePage extends React.Component<PropsFromState, State> {
   };
 
   submit = async () => {
-    const {api, user} = this.props;
-    await api.saveAccount(
-      {
-        ...pick(this.state, 'username', 'visible', 'age', 'gender', 'locales'),
-        client_id: user.userId,
-      }
-    );
+    const { api, user } = this.props;
+    await api.saveAccount({
+      ...pick(this.state, 'username', 'visible', 'age', 'gender', 'locales'),
+      client_id: user.userId,
+    });
   };
 
   render() {
+    const { user } = this.props;
     const { username, visible, age, gender, locales } = this.state;
     return (
       <div>
-        <Localized id="thanks-for-account">
-          <h2 />
-        </Localized>
-        <p>
-          <Localized id="why-profile-title">
-            <span />
-          </Localized>{' '}
-          <Localized id="why-profile-text">
-            <span />
+        {!user.account && (
+          <Localized id="thanks-for-account">
+            <h2 />
           </Localized>
-        </p>
+        )}
+        <Localized id="why-profile-text">
+          <p />
+        </Localized>
 
         <Localized id="profile-form-username" attrs={{ label: true }}>
           <LabeledInput

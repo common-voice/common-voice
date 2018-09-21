@@ -1,6 +1,5 @@
 export type UserClient = {
   email?: string;
-  sso?: true;
   username?: string;
   client_id?: string;
   age?: string;

@@ -30,6 +30,7 @@ export namespace User {
     validateTally: number;
 
     userClients: UserClient[];
+    account: UserClient;
   }
 
   export interface UpdatableState {
@@ -42,6 +43,7 @@ export namespace User {
     privacyAgreed?: boolean;
     hasDownloaded?: boolean;
     userClients?: UserClient[];
+    account?: UserClient;
   }
 
   function getDefaultState(): State {
@@ -60,6 +62,7 @@ export namespace User {
       recordTally: 0,
       validateTally: 0,
       userClients: [],
+      account: null,
     };
   }
 
@@ -113,13 +116,18 @@ export namespace User {
       state: getDefaultState(),
     }),
 
-    refreshUserClients: () => async (
+    refresh: () => async (
       dispatch: Dispatch<UpdateAction>,
       getState: () => StateTree
     ) => {
+      const { api } = getState();
+      const [account, userClients] = await Promise.all([
+        api.fetchAccount(),
+        api.fetchUserClients(),
+      ]);
       dispatch({
         type: ActionType.UPDATE,
-        state: { userClients: await getState().api.fetchUserClients() },
+        state: { account, userClients },
       });
     },
   };

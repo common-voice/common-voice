@@ -192,6 +192,10 @@ export default class API {
     return this.fetch(API_PATH + '/user_clients');
   }
 
+  fetchAccount(): Promise<UserClient> {
+    return this.fetch(API_PATH + '/user_client');
+  }
+
   saveAccount(data: UserClient): Promise<void> {
     return this.fetch(API_PATH + '/user_client', {
       method: 'PATCH',

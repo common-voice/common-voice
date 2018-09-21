@@ -5,7 +5,6 @@ import { UserClient } from '../../../../common/user-clients';
 import URLS from '../../urls';
 import { Notifications } from '../../stores/notifications';
 import StateTree from '../../stores/tree';
-import { User } from '../../stores/user';
 
 interface NotificationProps {
   addNotification: typeof Notifications.actions.add;
@@ -32,28 +31,26 @@ export const LoginFailure = connect<void, NotificationProps>(null, {
 );
 
 interface PropsFromState {
-  userClients: UserClient[];
+  account: UserClient;
 }
 
-interface PropsFromDispatch {
-  refreshUserClients: typeof User.actions.refreshUserClients;
-}
+type Props = PropsFromState & RouteComponentProps<any>;
 
-type Props = PropsFromState & PropsFromDispatch & RouteComponentProps<any>;
-
-export const LoginSuccess = connect<PropsFromState, PropsFromDispatch>(
-  ({ user }: StateTree) => ({ userClients: user.userClients }),
-  { refreshUserClients: User.actions.refreshUserClients }
-)(
+export const LoginSuccess = connect<PropsFromState>(({ user }: StateTree) => ({
+  account: user.account,
+}))(
   withRouter(
     class extends React.Component<Props> {
       componentDidMount() {
-        this.props.refreshUserClients();
+        this.redirect(this.props);
       }
 
-      componentDidUpdate({ history, userClients }: Props) {
-        const hasAccount = Boolean(userClients.find((u: any) => u.sso && u.id));
-        history.replace(hasAccount ? URLS.ROOT : URLS.PROFILE_INFO);
+      componentDidUpdate(props: Props) {
+        this.redirect(props);
+      }
+
+      redirect({ account, history }: Props) {
+        history.replace(account ? URLS.ROOT : URLS.PROFILE_INFO);
       }
 
       render(): React.ReactNode {
