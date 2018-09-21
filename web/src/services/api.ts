@@ -1,5 +1,5 @@
 import { LanguageStats } from '../../../common/language-stats';
-import { UserClients } from '../../../common/user_clients';
+import { UserClient } from '../../../common/user-clients';
 import { Locale } from '../stores/locale';
 import { User } from '../stores/user';
 import { Sentences } from '../stores/sentences';
@@ -12,7 +12,7 @@ export interface Clip {
 }
 
 interface FetchOptions {
-  method?: 'GET' | 'POST' | 'PUT' | 'DELETE';
+  method?: 'GET' | 'POST' | 'PUT' | 'DELETE' | 'PATCH';
   isJSON?: boolean;
   headers?: {
     [headerName: string]: string;
@@ -188,13 +188,13 @@ export default class API {
     );
   }
 
-  fetchUserClients(): Promise<UserClients> {
+  fetchUserClients(): Promise<UserClient[]> {
     return this.fetch(API_PATH + '/user_clients');
   }
 
-  createAccount(data: any): Promise<void> {
+  saveAccount(data: UserClient): Promise<void> {
     return this.fetch(API_PATH + '/user_client', {
-      method: 'POST',
+      method: 'PATCH',
       body: data,
     });
   }

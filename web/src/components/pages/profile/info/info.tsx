@@ -67,8 +67,14 @@ class ProfilePage extends React.Component<PropsFromState, State> {
     this.setState({ [field]: event.target.value } as any);
   };
 
-  submit = () => {
-    this.props.api.createAccount(pick(this.state, 'username', 'visible', 'age', 'gender', 'locales'));
+  submit = async () => {
+    const {api, user} = this.props;
+    await api.saveAccount(
+      {
+        ...pick(this.state, 'username', 'visible', 'age', 'gender', 'locales'),
+        client_id: user.userId,
+      }
+    );
   };
 
   render() {
@@ -123,14 +129,15 @@ class ProfilePage extends React.Component<PropsFromState, State> {
           </React.Fragment>
         ))}
 
-        <Button rounded onClick={this.submit}>
-          Create
-        </Button>
+        <Localized id="profile-form-submit-save">
+          <Button rounded onClick={this.submit} />
+        </Localized>
       </div>
     );
   }
 }
 
-export default connect<PropsFromState>(({ api, user }: StateTree) => ({ api, user }))(
-  ProfilePage
-);
+export default connect<PropsFromState>(({ api, user }: StateTree) => ({
+  api,
+  user,
+}))(ProfilePage);

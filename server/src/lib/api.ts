@@ -1,6 +1,6 @@
 import * as bodyParser from 'body-parser';
 import { NextFunction, Request, Response, Router } from 'express';
-import { UserClients } from '../../../common/user_clients';
+import { UserClient as UserClientType } from '../../../common/user-clients';
 import { getConfig } from '../config-helper';
 import UserClient from './model/user_client';
 import Model from './model';
@@ -49,6 +49,7 @@ export default class API {
 
     router.put('/user_clients/:id', this.saveUserClient);
     router.get('/user_clients', this.getUserClients);
+    router.patch('/user_client', this.saveUserClient);
     router.put('/users/:id', this.saveUser);
 
     router.get('/:locale/sentences', this.getRandomSentences);
@@ -75,9 +76,19 @@ export default class API {
     return router;
   }
 
-  saveUserClient = async (request: Request, response: Response) => {
-    const uid = request.params.id as string;
-    const demographic = request.body;
+  saveUserClient = async (
+    { body, params, user }: Request,
+    response: Response
+  ) => {
+    // The new way of saving users, the else case is deprecated and should be removed later on
+    // (with its route)
+    if (user) {
+      return response.json(
+        await UserClient.save(user.id, { ...body, email: user.emails[0].value })
+      );
+    }
+    const uid = params.id as string;
+    const demographic = body;
 
     if (!uid || !demographic) {
       throw new ClientParameterError();
@@ -147,7 +158,7 @@ export default class API {
     }
 
     const email = user.emails[0].value;
-    const userClients: UserClients = [
+    const userClients: UserClientType[] = [
       { email, sso: true },
       ...(await UserClient.findAllWithLocales({
         email,

@@ -1,7 +1,7 @@
 import pick = require('lodash.pick');
 import { Dispatch } from 'redux';
 import { createSelector } from 'reselect';
-import { UserClients } from '../../../common/user_clients';
+import { UserClient } from '../../../common/user-clients';
 import { DEFAULT_LOCALE } from '../services/localization';
 import { generateGUID } from '../utility';
 import { AGES, SEXES } from './demographics';
@@ -29,7 +29,7 @@ export namespace User {
     recordTally: number;
     validateTally: number;
 
-    userClients: UserClients;
+    userClients: UserClient[];
   }
 
   export interface UpdatableState {
@@ -41,7 +41,7 @@ export namespace User {
     gender?: Sex;
     privacyAgreed?: boolean;
     hasDownloaded?: boolean;
-    userClients?: UserClients;
+    userClients?: UserClient[];
   }
 
   function getDefaultState(): State {

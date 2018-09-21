@@ -17,6 +17,7 @@ export type MysqlOptions = {
   max: number;
   idleTimeoutMillis: number;
   multipleStatements: boolean;
+  namedPlaceholders: boolean;
 };
 
 // Default configuration values, notice we dont have password.
@@ -29,6 +30,7 @@ const DEFAULTS: MysqlOptions = {
   max: 10,
   idleTimeoutMillis: 30000,
   multipleStatements: false,
+  namedPlaceholders: true,
 };
 
 export default class Mysql {
@@ -56,6 +58,7 @@ export default class Mysql {
       max: DEFAULTS.max,
       idleTimeoutMillis: DEFAULTS.idleTimeoutMillis,
       multipleStatements: false,
+      namedPlaceholders: true,
     };
   }
 
