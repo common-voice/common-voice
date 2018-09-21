@@ -213,6 +213,10 @@ profile-form-age =
     .label = Яшь
 profile-form-gender =
     .label = Җенес
+leaderboard-visibility =
+    .label = Лидерлар исемлегенең күренеше
+native-language =
+    .label = Ана теле
 profile-form-submit-save = Саклау
 profile-form-submit-saved = Сакланды
 profile-keep-data = Мәгълүматны саклау
@@ -229,6 +233,7 @@ profile-create-success = Булды, профиль ясалды!
 profile-close = Ябу
 profile-clear-modal = Сезнең профиль мәгълүматын бетерү аудиоязмаларыгыз белән бергә Common Voice'ка демографик мәгълүмат җибәрелмәячәк дигәнне аңлата.
 profile-explanation = Үзегезнең прогрессыгызны профиль аша карап барыгыз һәм безнең тавыш мәгълүматыбызны төгәлрәк итүдә ярдәм итегез.
+thanks-for-account = Хисабыгызны раславыгыз өчен рәхмәт, әйдәгез хәзер профиль булдырыйк.
 
 ## FAQ
 
