@@ -213,6 +213,10 @@ profile-form-age =
     .label = Ηλικία
 profile-form-gender =
     .label = Φύλο
+leaderboard-visibility =
+    .label = Ορατότητα πίνακα αρχηγών
+native-language =
+    .label = Μητρική γλώσσα
 profile-form-submit-save = Αποθήκευση
 profile-form-submit-saved = Αποθήκευση
 profile-keep-data = Διατήρηση δεδομένων
@@ -229,6 +233,7 @@ profile-create-success = Το προφίλ δημιουργήθηκε επιτυ
 profile-close = Κλείσιμο
 profile-clear-modal = Εάν διαγράψετε τα δεδομένα του προφίλ σας, αυτές οι δημογραφικές πληροφορίες δεν θα υποβάλλονται πλέον στο Common Voice μαζί με τις ηχογραφήσεις σας.
 profile-explanation = Παρακολουθήστε την πρόοδό σας με ένα προφίλ και βοηθήστε τα δεδομένα φωνής μας να γίνουν πιο ακριβή.
+thanks-for-account = Ευχαριστούμε που επιβεβαιώσατε το λογαριασμό σας, ας δημιουργήσουμε τώρα το προφίλ σας.
 
 ## FAQ
 
