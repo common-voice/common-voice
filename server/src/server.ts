@@ -160,7 +160,7 @@ export default class Server {
     try {
       await this.model.performMaintenance();
       if (doImport) {
-        // await importSentences(await this.model.db.mysql.createPool());
+        await importSentences(await this.model.db.mysql.createPool());
       }
       await this.model.db.fillCacheColumns();
       this.print('Maintenance complete');
@@ -287,5 +287,7 @@ process.on('uncaughtException', function(err: any) {
 // If this file is run directly, boot up a new server instance.
 if (require.main === module) {
   let server = new Server();
-  server.run().catch(e => console.error(e));
+  server
+    .run({ doImport: getConfig().IMPORT_SENTENCES })
+    .catch(e => console.error(e));
 }
