@@ -207,6 +207,10 @@ profile-form-age =
     .label = 年龄
 profile-form-gender =
     .label = 性别
+leaderboard-visibility =
+    .label = 是否显示于排行榜
+native-language =
+    .label = 母语
 profile-form-submit-save = 保存
 profile-form-submit-saved = 已保存
 profile-keep-data = 保留数据
@@ -223,6 +227,7 @@ profile-create-success = 成功，用户资料已创建！
 profile-close = 关闭
 profile-clear-modal = 清除您的用户资料后，您提交给 Common Voice 的录音将不再标注上人口统计学特征。
 profile-explanation = 通过使用个人资料跟踪您的进度，以帮助我们的语音数据更准确。
+thanks-for-account = 感谢您确认账户信息，接下来请提供您的个人资料。
 
 ## FAQ
 
