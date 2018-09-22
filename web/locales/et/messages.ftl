@@ -16,6 +16,7 @@ loading = Laadimine…
 ## Languages
 
 as = assami
+az = aserbaidžaani
 bn = bengali
 br = bretooni
 ca = katalaani
@@ -79,6 +80,7 @@ privacy = Privaatsus
 terms = Tingimused
 cookies = Küpsised
 faq = KKK
+share-title = Aidake meil leida teisigi, kes meid oma häälega aitaks!
 back-top = Tagasi üles
 
 ## Home Page
