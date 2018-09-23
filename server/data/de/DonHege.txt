@@ -3,7 +3,7 @@ Ist das Garagentor geöffnet?
 Zeige mir die kürzeste Route nach Hause.
 Gibt es einen Stau auf dem Weg zur Arbeit?
 Wie ist die derzeitige Verkehrssituation?
-Eine Wandladestation dient dem schnellen Aufladen von Elektrofahrzeugen.
+Eine Wallbox dient dem schnellen Aufladen von Elektrofahrzeugen.
 Bei niedrigen Geschwindigkeiten sind Elektroautos nahezu unhörbar.
 Beim Autofahren sollte man stets mit den Fehlern anderer rechnen.
 Wahrscheinlich ist der Anlasser kaputt.
