@@ -211,6 +211,10 @@ profile-form-age =
     .label = Awtay
 profile-form-gender =
     .label = Tuzuft
+leaderboard-visibility =
+    .label = Tillin n tebdart n igeṛṛa
+native-language =
+    .label = Tutlayt tayemat
 profile-form-submit-save = Sekles
 profile-form-submit-saved = Yettwasekles
 profile-keep-data = Eǧǧ Isefka
@@ -227,6 +231,7 @@ profile-create-success = Yedda, amaɣnu yettwarna!
 profile-close = Mdel
 profile-clear-modal = Ma tsefḍeḍ isefka n umaɣnu-ik, talɣut-agi ɣeg isefka n tdimugrafit ur ttwaznen ara ar Common Voice s yikalasen-ik n taɣect.
 profile-explanation = Sers allen-ik ɣef usfari s tmerna n umaɣnu sakin muddaɣ-d afus ad nerr isefka n taɣect d usdiden.
+thanks-for-account = Tanemmirt ɣimi tsentmeḍ amiḍan-ik, tura rnu kra n talɣut ɣer umaɣnu-inek.
 
 ## FAQ
 
