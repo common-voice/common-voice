@@ -231,6 +231,7 @@ profile-create-success = Profilo create con successo
 profile-close = Clauder
 profile-clear-modal = Clarar tu datos de profilo significa que iste informationes demographic non sera plus inviate a Common Voice con le registrationes de tu clip.
 profile-explanation = Mantene tracia de tu progresso con un profilo e adjuta nostre datos de voce a ser plus accurate.
+thanks-for-account = Gratias pro le confirma de tu conto, ora que nos crea tu profilo.
 
 ## FAQ
 
