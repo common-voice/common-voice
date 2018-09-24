@@ -9,7 +9,10 @@ interface Props {
 
 export default ({ onRequestClose }: Props) => (
   <Modal innerClassName="contact-modal" onRequestClose={onRequestClose}>
-    <form action="mailto:mikey@mozilla.com" method="post" encType="text/plain">
+    <form
+      action="mailto:commonvoice@mozilla.com"
+      method="post"
+      encType="text/plain">
       <div className="title-and-action">
         <Localized id="contact-title">
           <h1 />
