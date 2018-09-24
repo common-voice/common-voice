@@ -234,6 +234,8 @@ profile-close = Qapat
 profile-clear-modal = Profil məlumatlarınızı təmizlədiyinizdə bu demoqrafik məlumat və səs qeydləriniz Common Voice-ə göndərilməyəcək.
 profile-explanation = Profil yaradaraq müvəffəqiyyətlərinizi izləyə və səs məlumatlarımızı daha dəqiq hala gətirə bilərsiz.
 thanks-for-account = Hesabınızı təsdiqlədiyiniz üçün təşəkkürlər, indi də profilinizi düzəldək.
+why-demographic = Bu nəyə lazımdır?
+why-demographic-explanation = Anonimləşdirilmiş yaş, cinsiyyət və ləhcə kimi məlumatlar səs tanıma mühərriklərini öyrətmədə dəqiqliyi artırmaq üçün kömək edir. İstifadəçi adınız göndərdiyiniz məlumatlarla heç vaxt əlaqələndirilməyəcək və həmçinin istifadəçi adınızı ictimai edib-etməməyi seçə bilərsiz.
 
 ## FAQ
 
