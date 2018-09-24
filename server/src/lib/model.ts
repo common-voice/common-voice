@@ -96,7 +96,7 @@ export default class Model {
     const bucket = await this.db.getOrSetUserBucket(
       client_id,
       locale,
-      randomBucketFromDistribution(this.clipDistribution)
+      randomBucketFromDistribution(IDEAL_SPLIT)
     );
     return this.db.findSentencesWithFewClips(
       client_id,

@@ -6,7 +6,8 @@ import Schema from './db/schema';
 import { UserTable } from './db/tables/user-table';
 import ClipTable, { DBClipWithVoters } from './db/tables/clip-table';
 import VoteTable from './db/tables/vote-table';
-import UserClient from "./user-client";
+import { IDEAL_SPLIT, randomBucketFromDistribution } from './split';
+import UserClient from './user-client';
 
 // When getting new sentences/clips we need to fetch a larger pool and shuffle it to make it less
 // likely that different users requesting at the same time get the same data
@@ -301,7 +302,11 @@ export default class DB {
         this.getLocaleId(locale),
         this.saveUserClient(client_id),
       ]);
-      const bucket = await this.getOrSetUserBucket(client_id, locale, 'train');
+      const bucket = await this.getOrSetUserBucket(
+        client_id,
+        locale,
+        randomBucketFromDistribution(IDEAL_SPLIT)
+      );
 
       await this.mysql.query(
         `
