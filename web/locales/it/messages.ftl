@@ -209,6 +209,8 @@ profile-form-age =
     .label = Età
 profile-form-gender =
     .label = Sesso
+leaderboard-visibility =
+    .label = Visibilità nella classifica
 native-language =
     .label = Lingua madre
 profile-form-submit-save = Salva
@@ -227,6 +229,7 @@ profile-create-success = Profilo creato con successo
 profile-close = Chiudi
 profile-clear-modal = Cancellare i dati del tuo profilo significa che le informazioni demografiche non saranno più inviate a Common Voice con le tue registrazioni.
 profile-explanation = Registra un profilo per tenere traccia dei tuoi progressi e aiutarci a migliorare la precisione dei dati vocali.
+thanks-for-account = Grazie per aver confermato il tuo account, ora iniziamo a completare il tuo profilo.
 
 ## FAQ
 
