@@ -11,8 +11,16 @@ import { NATIVE_NAMES } from '../../../../services/localization';
 import { ACCENTS, AGES, SEXES } from '../../../../stores/demographics';
 import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
+import URLS from '../../../../urls';
+import { LocaleLink } from '../../../locale-helpers';
 import { DownIcon } from '../../../ui/icons';
-import { Button, LabeledInput, LabeledSelect } from '../../../ui/ui';
+import {
+  Button,
+  Hr,
+  LabeledCheckbox,
+  LabeledInput,
+  LabeledSelect,
+} from '../../../ui/ui';
 
 import './info.css';
 
@@ -212,6 +220,39 @@ class ProfilePage extends React.Component<PropsFromState, State> {
         <Button outline onClick={this.addLocale}>
           Add Language
         </Button>
+
+        <Hr />
+
+        {!user.account && (
+          <React.Fragment>
+            <div className="signup-section">
+              <Localized id="email-input" attrs={{ label: true }}>
+                <LabeledInput value={user.userClients[0].email} disabled />
+              </Localized>
+
+              <div className="checkboxes">
+                <Localized id="keep-me-posted" attrs={{ label: true }}>
+                  <LabeledCheckbox defaultValue={true} />
+                </Localized>
+                <LabeledCheckbox
+                  label={
+                    <Localized
+                      id="accept-privacy"
+                      privacyLink={<LocaleLink to={URLS.PRIVACY} blank />}>
+                      <span />
+                    </Localized>
+                  }
+                />
+
+                <Localized id="read-terms-q">
+                  <LocaleLink to={URLS.TERMS} className="terms" blank />
+                </Localized>
+              </div>
+            </div>
+
+            <Hr />
+          </React.Fragment>
+        )}
 
         <Localized id="profile-form-submit-save">
           <Button rounded onClick={this.submit} />

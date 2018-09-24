@@ -28,6 +28,13 @@ export const CardAction = ({ className, ...props }: any) =>
 
 export const Hr = (props: any) => <hr className="hr" {...props} />;
 
+export const LabeledCheckbox = ({ label, ...props }: any) => (
+  <label className="labeled-checkbox">
+    <input type="checkbox" {...props} />
+    <span className="label">{label}</span>
+  </label>
+);
+
 const LabeledFormControl = ({
   className = '',
   component: Component,
@@ -38,11 +45,17 @@ const LabeledFormControl = ({
   const child = <Component {...{ required, ...props }} />;
   return (
     <label
-      className={['labeled-form-control', 'for-' + Component, className].join(
-        ' '
-      )}
+      className={[
+        'labeled-form-control',
+        'for-' + Component,
+        className,
+        props.disabled ? 'disabled' : '',
+      ].join(' ')}
       {...props}>
-      <span className="label">{required && '*'}{label}</span>
+      <span className="label">
+        {required && '*'}
+        {label}
+      </span>
       {Component == 'select' ? (
         <div className="wrapper with-down-arrow">{child}</div>
       ) : (

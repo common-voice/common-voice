@@ -108,12 +108,25 @@ button.card-action:focus.focus-visible path {
     background-color: rgba(230, 229, 227, 0.6);
 }
 
+.labeled-checkbox {
+    display: flex;
+    flex-direction: row;
+
+    & input {
+        margin: 7px 10px 0 0;
+    }
+}
+
 .labeled-form-control {
     margin-bottom: 1rem;
     position: relative;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+
+    &.disabled .label {
+        background: linear-gradient(to bottom, var(--white) 43%, var(--white) 43%, var(--light-grey) 43%);
+    }
 
     & :required, & :valid {
         box-shadow: none;
@@ -139,6 +152,10 @@ button.card-action:focus.focus-visible path {
         font-family: var(--base-font-family);
         color: var(--black);
         background-color: var(--white);
+
+        &:disabled {
+            background-color: var(--light-grey);
+        }
     }
 
     &.for-select {

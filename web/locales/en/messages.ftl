@@ -240,6 +240,9 @@ profile-explanation = Keep track of your progress with a profile and help our vo
 thanks-for-account = Thanks for confirming your account, now let's build your profile.
 why-demographic = Why does this matter?
 why-demographic-explanation = Anonymized user data like age, sex, and accent helps improve the audio data used to train the accuracy of speech recognition engines. Your username and email will never be associated with your submitted data, and you can choose whether to make your username public or anonymous.
+keep-me-posted =
+    .label = I'd like updates and to keep current with what's happening with Common Voice.
+accept-privacy = I'm okay with you handling this info as you explain in Mozilla's <privacyLink>Privacy Policy</privacyLink>
 
 ## FAQ
 faq-title = Frequently Asked Questions
