@@ -232,6 +232,9 @@ profile-explanation = 保留您的專案紀錄，並幫助增加我們的語音�
 thanks-for-account = 感謝您確認帳號資訊，接下來請提供您的基本資料。
 why-demographic = 這有什麼重要的？
 why-demographic-explanation = 匿名化的使用者資料，如年齡、性別、腔調等，可幫助我們改善用來訓練語音識別引擎的語音資料。您的帳號與 E-Mail 不會與送出的資料相關聯，您也可以決定是否要公開您的帳號名稱或保持匿名。
+keep-me-posted =
+    .label = 我想收到 Common Voice 最近發生什麼事情的最新情報。
+accept-privacy = 我同意你依照 Mozilla 的<privacyLink>隱私權保護政策</privacyLink>當中描述的方式處理這些資訊
 
 ## FAQ
 
