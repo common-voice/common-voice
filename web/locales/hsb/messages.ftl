@@ -241,6 +241,7 @@ profile-clear-modal = Hdyž swoje profilowe daty zhašeće, so tute demografiske
 profile-explanation = Z profilom móžeće swój pokrok we wóčku wobchować a pomhać, naše hłosowe daty dokładniše činić.
 thanks-for-account = Dźakujemy so, zo sće swoje konto wobkrućił, chcemy nětko waš profil zarjadować.
 why-demographic = Čehodla je to wažne?
+why-demographic-explanation = Anonymizowane wužiwarske daty kaž staroba, splah a akcent pomhaja awdiodaty polěpšić, kotrež so wužiwaja, zo bychu dokładnosć softwary rěčenskeho spóznaća trenowali. Waše wužiwarske mjeno a e-mejlowa adresa so ženje z wašimi pósłanymi datami njezwjazujetej, a móžeće wubrać, hač ma waše wužiwarske mjeno zjawne abo anonymne być.
 keep-me-posted =
     .label = Bych rady aktualizacije měł a informujće mje běžnje, hdyž je něšto nowe wo Common Voice.
 accept-privacy = Sym přezjedny, zo so tute informacije wužiwaja, kak so w <privacyLink>prawidłach priwatnosće</privacyLink> Mozilla wujasnja.
