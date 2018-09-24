@@ -233,6 +233,10 @@ profile-clear-modal = Clarar tu datos de profilo significa que iste informatione
 profile-explanation = Mantene tracia de tu progresso con un profilo e adjuta nostre datos de voce a ser plus accurate.
 thanks-for-account = Gratias pro le confirma de tu conto, ora que nos crea tu profilo.
 why-demographic = Perque isto es relevante?
+why-demographic-explanation = Le datos anonyme del usator como su etate, sexo, e accento adjuta a meliorar le datos audio usate pro maestrar le precision del motores de recognition de voce. Tu nomine de usator e email jammais essera associate con tu datos submittite, e tu pote eliger si render tu nomine de usator public o anonyme.
+keep-me-posted =
+    .label = Io amarea saper le actualisationes e mantener me al currente con lo que eveni a Common Voice.
+accept-privacy = Io concorda que vos tracta iste informationes como vos explica in le <privacyLink>Politica de confidentialitate</privacyLink> de Mozilla
 
 ## FAQ
 
