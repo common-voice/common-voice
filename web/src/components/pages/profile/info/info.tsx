@@ -255,7 +255,7 @@ class ProfilePage extends React.Component<PropsFromState, State> {
         )}
 
         <Localized id="profile-form-submit-save">
-          <Button rounded onClick={this.submit} />
+          <Button className="save" rounded onClick={this.submit} />
         </Localized>
       </div>
     );
