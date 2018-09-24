@@ -232,6 +232,7 @@ profile-close = Schließen
 profile-clear-modal = Wenn Sie Ihre Profildaten löschen, werden Ihre demografischen Informationen nicht mehr zusammen mit Ihren Aufzeichnungen an Common Voice übertragen.
 profile-explanation = Mit einem Profil können Sie Ihren Fortschritt im Auge behalten und unsere Sprachdaten noch genauer machen.
 thanks-for-account = Danke für die Bestätigung Ihres Kontos, jetzt erstellen wir Ihr Profil.
+why-demographic = Warum ist das relevant?
 
 ## FAQ
 
