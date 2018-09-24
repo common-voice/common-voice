@@ -102,7 +102,7 @@ Antananarivo ist die Hauptstadt von Madagaskar.
 Lilongwe ist die Hauptstadt von Malawi.
 Kuala Lumpur ist die Hauptstadt von Malaysia.
 Putrajaya ist der Regierungssitz von Malaysia.
-Malé ist die Hauptstadt von Malediven.
+Malé ist die Hauptstadt der Malediven.
 Bamako ist die Hauptstadt von Mali.
 Valletta ist die Hauptstadt von Malta.
 Rabat ist die Hauptstadt von Marokko.
@@ -254,7 +254,7 @@ Die Sonderwirtschaftszone Shenzhen grenzt direkt an Hongkong.
 Bei den Olympischen Spielen tritt Taiwan unter dem Namen „Chinesisch Taipeh“ an.
 Die Metropolregion São Paulo ist das größte Ballungsgebiet Brasiliens.
 Hanoi ist nach Ho-Chi-Minh-Stadt die zweitgrößte Stadt Vietnams.
-Die Kanarische Inseln gehören zu Spanien.
+Die Kanarischen Inseln gehören zu Spanien.
 Bei den olympischen Winterspielen traten Nordkorea und Südkorea beim Eishockey als gemeinsame Mannschaft an.
 Der Mont Blanc ist der höchste Gipfel der Alpen.
 Der Mount Everest ist der höchste Berg im Himalaya, und damit auch der höchste der Welt.
