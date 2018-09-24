@@ -110,30 +110,35 @@ button.card-action:focus.focus-visible path {
 
 .labeled-form-control {
     margin-bottom: 1rem;
+    position: relative;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    font-style: italic;
-    font-size: var(--font-size-small);
-    color: #4A4A4A;
 
     & :required, & :valid {
         box-shadow: none;
     }
 
-    & input, & select, & textarea {
-        box-sizing: border-box;
-        border: none;
-        margin-top: .2rem;
-        padding: .5rem;
-        font-size: var(--font-size);
-        font-family: var(--base-font-family);
+    & .label {
+        margin-left: 9px;
+        padding: 0 5px;
+        position: absolute;
+        top: -4px;
+        z-index: var(--middle-z-index);
+        background: var(--white);
+        font-size: var(--font-size-small);
         color: var(--warm-grey);
-        background-color: var(--light-grey);
     }
 
-    & input, & select {
-        height: var(--input-height);
+    & input, & select, & textarea {
+        box-sizing: border-box;
+        border: 1.5px solid var(--light-grey);
+        margin-top: .2rem;
+        padding: 13px;
+        font-size: var(--font-size);
+        font-family: var(--base-font-family);
+        color: var(--black);
+        background-color: var(--white);
     }
 
     &.for-select {

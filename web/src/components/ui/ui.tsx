@@ -42,8 +42,7 @@ const LabeledFormControl = ({
         ' '
       )}
       {...props}>
-      {label}
-      {required && '*'}
+      <span className="label">{required && '*'}{label}</span>
       {Component == 'select' ? (
         <div className="wrapper with-down-arrow">{child}</div>
       ) : (
