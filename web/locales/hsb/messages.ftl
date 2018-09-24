@@ -240,6 +240,10 @@ profile-close = Začinić
 profile-clear-modal = Hdyž swoje profilowe daty zhašeće, so tute demografiske informacije hižo na Common Voice hromadźe z natočenjemi njepósćelu.
 profile-explanation = Z profilom móžeće swój pokrok we wóčku wobchować a pomhać, naše hłosowe daty dokładniše činić.
 thanks-for-account = Dźakujemy so, zo sće swoje konto wobkrućił, chcemy nětko waš profil zarjadować.
+why-demographic = Čehodla je to wažne?
+keep-me-posted =
+    .label = Bych rady aktualizacije měł a informujće mje běžnje, hdyž je něšto nowe wo Common Voice.
+accept-privacy = Sym přezjedny, zo so tute informacije wužiwaja, kak so w <privacyLink>prawidłach priwatnosće</privacyLink> Mozilla wujasnja.
 
 ## FAQ
 
