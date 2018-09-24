@@ -11,7 +11,10 @@ import { NATIVE_NAMES } from '../../../../services/localization';
 import { ACCENTS, AGES, SEXES } from '../../../../stores/demographics';
 import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
+import { DownIcon } from '../../../ui/icons';
 import { Button, LabeledInput, LabeledSelect } from '../../../ui/ui';
+
+import './info.css';
 
 const Options = withLocalization(
   ({
@@ -41,6 +44,8 @@ interface State {
   age: string;
   gender: string;
   locales: { locale: string; accent: string }[];
+
+  showDemographicInfo: boolean;
 }
 
 class ProfilePage extends React.Component<PropsFromState, State> {
@@ -63,8 +68,15 @@ class ProfilePage extends React.Component<PropsFromState, State> {
               []
             ),
           }),
+      showDemographicInfo: false,
     };
   }
+
+  toggleDemographicInfo = () => {
+    return this.setState({
+      showDemographicInfo: !this.state.showDemographicInfo,
+    });
+  };
 
   handleChangeFor = (field: keyof State) => (
     event: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
@@ -113,9 +125,16 @@ class ProfilePage extends React.Component<PropsFromState, State> {
 
   render() {
     const { user } = this.props;
-    const { username, visible, age, gender, locales } = this.state;
+    const {
+      username,
+      visible,
+      age,
+      gender,
+      locales,
+      showDemographicInfo,
+    } = this.state;
     return (
-      <div>
+      <div className="profile-info">
         {!user.account && (
           <Localized id="thanks-for-account">
             <h2 />
@@ -125,52 +144,71 @@ class ProfilePage extends React.Component<PropsFromState, State> {
           <p />
         </Localized>
 
-        <Localized id="profile-form-username" attrs={{ label: true }}>
-          <LabeledInput
-            value={username}
-            onChange={this.handleChangeFor('username')}
-          />
-        </Localized>
-        <Localized id="leaderboard-visibility" attrs={{ label: true }}>
-          <LabeledInput />
-        </Localized>
-        <Localized id="profile-form-age" attrs={{ label: true }}>
-          <LabeledSelect value={age} onChange={this.handleChangeFor('age')}>
-            <Options>{AGES}</Options>
-          </LabeledSelect>
-        </Localized>
-        <Localized id="profile-form-gender" attrs={{ label: true }}>
-          <LabeledSelect
-            value={gender}
-            onChange={this.handleChangeFor('gender')}>
-            <Options>{SEXES}</Options>
-          </LabeledSelect>
-        </Localized>
+        <div
+          className={
+            'demographic-info ' + (showDemographicInfo ? 'expanded' : '')
+          }>
+          <button type="button" onClick={this.toggleDemographicInfo}>
+            <Localized id="why-demographic">
+              <span />
+            </Localized>
 
-        {locales.map(({ locale, accent }, i) => (
-          <React.Fragment key={locale}>
-            <Localized id="profile-form-language" attrs={{ label: true }}>
-              <LabeledSelect
-                value={locale}
-                onChange={this.handleLocaleChangeFor(i)}>
-                <option value="" />
-                {Object.entries(NATIVE_NAMES).map(([locale, name]) => (
-                  <option key={locale} value={locale}>
-                    {name}
-                  </option>
-                ))}
-              </LabeledSelect>
-            </Localized>
-            <Localized
-              id="profile-form-accent"
-              attrs={this.handleAccentChangeFor(i)}>
-              <LabeledSelect value={accent} onChange={() => true}>
-                <option value="" />
-                {ACCENTS[locale] && <Options>{ACCENTS[locale]}</Options>}
-              </LabeledSelect>
-            </Localized>
-          </React.Fragment>
-        ))}
+            <DownIcon />
+          </button>
+          <Localized id="why-demographic-explanation">
+            <div className="explanation" />
+          </Localized>
+        </div>
+
+        <div className="form-fields">
+          <Localized id="profile-form-username" attrs={{ label: true }}>
+            <LabeledInput
+              value={username}
+              onChange={this.handleChangeFor('username')}
+            />
+          </Localized>
+          <Localized id="leaderboard-visibility" attrs={{ label: true }}>
+            <LabeledInput />
+          </Localized>
+          <Localized id="profile-form-age" attrs={{ label: true }}>
+            <LabeledSelect value={age} onChange={this.handleChangeFor('age')}>
+              <Options>{AGES}</Options>
+            </LabeledSelect>
+          </Localized>
+          <Localized id="profile-form-gender" attrs={{ label: true }}>
+            <LabeledSelect
+              value={gender}
+              onChange={this.handleChangeFor('gender')}>
+              <Options>{SEXES}</Options>
+            </LabeledSelect>
+          </Localized>
+
+          {locales.map(({ locale, accent }, i) => (
+            <React.Fragment key={locale}>
+              <Localized id="profile-form-language" attrs={{ label: true }}>
+                <LabeledSelect
+                  value={locale}
+                  onChange={this.handleLocaleChangeFor(i)}>
+                  <option value="" />
+                  {Object.entries(NATIVE_NAMES).map(([locale, name]) => (
+                    <option key={locale} value={locale}>
+                      {name}
+                    </option>
+                  ))}
+                </LabeledSelect>
+              </Localized>
+              <Localized id="profile-form-accent" attrs={{ label: true }}>
+                <LabeledSelect
+                  value={accent}
+                  onChange={this.handleAccentChangeFor(i)}>
+                  <option value="" />
+                  {ACCENTS[locale] && <Options>{ACCENTS[locale]}</Options>}
+                </LabeledSelect>
+              </Localized>
+            </React.Fragment>
+          ))}
+        </div>
+
         <Button outline onClick={this.addLocale}>
           Add Language
         </Button>

@@ -92,6 +92,24 @@ export const CrossIcon = (props: any) => (
 
 export const DiscourseIcon = Icon('/img/discourse.svg');
 
+export const DownIcon = () => (
+  <svg width="13px" height="9px" viewBox="0 0 13 9" version="1.1">
+    <g
+      id="Symbols"
+      stroke="none"
+      strokeWidth="1"
+      fill="none"
+      fillRule="evenodd">
+      <g id="icon-/-down-arrow-black" fill="#000000">
+        <polygon
+          id="down-arrow-black"
+          points="11.7578125 0.75 12.5 1.5703125 6.25 8.25 0 1.5703125 0.7421875 0.75 6.25 6.609375"
+        />
+      </g>
+    </g>
+  </svg>
+);
+
 export const DownloadIcon = (props: any) => (
   <svg width="15px" height="16px" viewBox="0 0 15 16">
     <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">

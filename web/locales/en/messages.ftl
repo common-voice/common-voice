@@ -238,6 +238,8 @@ profile-clear-modal =
   clip recordings.
 profile-explanation = Keep track of your progress with a profile and help our voice data be more accurate.
 thanks-for-account = Thanks for confirming your account, now let's build your profile.
+why-demographic = Why does this matter?
+why-demographic-explanation = Anonymized user data like age, sex, and accent helps improve the audio data used to train the accuracy of speech recognition engines. Your username and email will never be associated with your submitted data, and you can choose whether to make your username public or anonymous.
 
 ## FAQ
 faq-title = Frequently Asked Questions

@@ -1,0 +1,68 @@
+@import url('../../../vars.css');
+
+.profile-info {
+    color: var(--near-black);
+
+    & .demographic-info {
+        border-left: 2px solid var(--blue);
+        margin: 30px 0;
+        padding-left: 12px;
+
+        & button {
+            outline: none;
+            border: none;
+            padding: 0;
+            font-family: var(--base-font-family);
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--blue);
+            background: none;
+
+            & svg {
+                margin-left: 10px;
+                transition: transform var(--easing) var(--transition-duration);
+
+                & polygon {
+                    fill: var(--blue);
+                }
+            }
+        }
+
+        & .explanation {
+            margin-top: 10px;
+            display: none;
+        }
+
+        &.expanded {
+            & svg {
+                transform: rotate(180deg);
+            }
+
+            & .explanation {
+                display: block;
+            }
+        }
+    }
+
+    & .form-fields {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        & > * {
+            box-sizing: border-box;
+
+            @media (--sm-down) {
+                width: 100%;
+            }
+
+            @media (--md-up) {
+                width: calc(50% - 30px);
+
+                &:nth-child(2n + 1) {
+                    margin-right: 30px;
+                }
+            }
+        }
+    }
+}
