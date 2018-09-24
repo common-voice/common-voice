@@ -232,8 +232,6 @@ profile-close = Schließen
 profile-clear-modal = Wenn Sie Ihre Profildaten löschen, werden Ihre demografischen Informationen nicht mehr zusammen mit Ihren Aufzeichnungen an Common Voice übertragen.
 profile-explanation = Mit einem Profil können Sie Ihren Fortschritt im Auge behalten und unsere Sprachdaten noch genauer machen.
 thanks-for-account = Danke für die Bestätigung Ihres Kontos, jetzt erstellen wir Ihr Profil.
-why-demographic = Warum ist das relevant?
-why-demographic-explanation = Anonymisierte Nutzerangaben wie Alter, Geschlecht und Akzent mit den Tonaufnahmen zu verknüpfen, hilft Entwicklern dabei, die Genauigkeit von Spracherkennungssoftware besser zu trainieren. Ihr Benutzername und Ihre E-Mail-Adresse werden natürlich nicht mit diesen Daten verknüpft. Außerdem können Sie wählen, ob Sie Ihren Benutzernamen öffentlich machen oder lieber anonym bleiben möchten.
 
 ## FAQ
 
