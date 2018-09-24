@@ -6,6 +6,26 @@ const Icon = (path: string, title = '') => ({ children, ...props }: any) => (
 
 export const ArrowLeft = Icon('/img/arrow-left.svg');
 
+export const CameraIcon = () => (
+  <svg width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+      <path
+        id="camera-a"
+        d="M21 5h-3.5l-1.7-2.6c-.2-.2-.5-.4-.8-.4H9c-.3 0-.6.2-.8.4L6.5 5H3C1.3 5 0 6.3 0 8v11c0 1.7 1.3 3 3 3h18c1.7 0 3-1.3 3-3V8c0-1.7-1.3-3-3-3zm1 14c0 .6-.4 1-1 1H3c-.6 0-1-.4-1-1V8c0-.6.4-1 1-1h4c.3 0 .6-.2.8-.4L9.5 4h4.9l1.7 2.6c.3.2.6.4.9.4h4c.6 0 1 .4 1 1v11zM12 8c-2.8 0-5 2.2-5 5s2.2 5 5 5 5-2.2 5-5-2.2-5-5-5zm0 8c-1.7 0-3-1.3-3-3s1.3-3 3-3 3 1.3 3 3-1.3 3-3 3z"
+      />
+    </defs>
+    <g fill="none" fillRule="evenodd">
+      <mask id="camera-b" fill="#fff">
+        <use xlinkHref="#a" />
+      </mask>
+      <use fill="#000" fillRule="nonzero" xlinkHref="#camera-a" />
+      <g fill="#4A4A4A" mask="url(#camera-b)">
+        <path d="M0 0h24v24H0z" />
+      </g>
+    </g>
+  </svg>
+);
+
 export const CheckIcon = (props: any) => (
   <svg width="24" height="24" viewBox="0 0 24 24">
     <defs>
@@ -306,6 +326,26 @@ export const ThumbsUpIcon = (props: any) => (
   </svg>
 );
 
+export const ToggleIcon = () => (
+  <svg width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+      <path
+        id="toggle-a"
+        d="M16 4H8c-4.4 0-8 3.6-8 8s3.6 8 8 8h8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 14H8c-3.3 0-6-2.7-6-6s2.7-6 6-6h8c3.3 0 6 2.7 6 6s-2.7 6-6 6zM8 8c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4-1.8-4-4-4zm0 6c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"
+      />
+    </defs>
+    <g fill="none" fillRule="evenodd">
+      <mask id="toggle-b" fill="#fff">
+        <use xlinkHref="#a" />
+      </mask>
+      <use fill="#000" fillRule="nonzero" xlinkHref="#toggle-a" />
+      <g fill="#4A4A4A" mask="url(#toggle-b)">
+        <path d="M0 0h24v24H0z" />
+      </g>
+    </g>
+  </svg>
+);
+
 export const VolumeIcon = (props: any) => (
   <svg width="24" height="24" viewBox="0 0 24 24">
     <defs>
@@ -320,6 +360,26 @@ export const VolumeIcon = (props: any) => (
       </mask>
       <g fill="#4A4A4A" mask="url(#volume-mask)">
         <path d="M-1-4h24v24H-1z" />
+      </g>
+    </g>
+  </svg>
+);
+
+export const UserIcon = () => (
+  <svg width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+      <path
+        id="user-a"
+        d="M17 19v2c0 .6-.4 1-1 1s-1-.4-1-1v-2c0-1.7-1.3-3-3-3H5c-1.7 0-3 1.3-3 3v2c0 .6-.4 1-1 1s-1-.4-1-1v-2c0-2.8 2.2-5 5-5h7c2.8 0 5 2.2 5 5zM3.5 7c0-2.8 2.2-5 5-5s5 2.2 5 5-2.2 5-5 5-5-2.2-5-5zm2 0c0 1.7 1.3 3 3 3s3-1.3 3-3-1.3-3-3-3-3 1.3-3 3zM23 10h-2V8c0-.6-.4-1-1-1s-1 .4-1 1v2h-2c-.6 0-1 .4-1 1s.4 1 1 1h2v2c0 .6.4 1 1 1s1-.4 1-1v-2h2c.6 0 1-.4 1-1s-.4-1-1-1z"
+      />
+    </defs>
+    <g fill="none" fillRule="evenodd">
+      <mask id="user-b" fill="#fff">
+        <use xlinkHref="#user-a" />
+      </mask>
+      <use fill="#000" fillRule="nonzero" xlinkHref="#user-a" />
+      <g fill="#4A4A4A" mask="url(#user-b)">
+        <path d="M0 0h24v24H0z" />
       </g>
     </g>
   </svg>

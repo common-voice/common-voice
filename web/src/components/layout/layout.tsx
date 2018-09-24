@@ -9,17 +9,17 @@ import { Locale } from '../../stores/locale';
 import URLS from '../../urls';
 import {
   getItunesURL,
-  isNativeIOS,
   isIOS,
+  isNativeIOS,
   isSafari,
   replacePathLocale,
 } from '../../utility';
 import {
-  MenuIcon,
-  OldPlayIcon,
   ChevronRight,
   CrossIcon,
+  MenuIcon,
   MicIcon,
+  OldPlayIcon,
 } from '../ui/icons';
 import { LabeledSelect, LinkButton } from '../ui/ui';
 import { ContributableLocaleLock } from '../locale-helpers';
@@ -233,8 +233,8 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
       showStagingBanner,
     } = this.state;
 
-    const pageName = location.pathname.split('/')[2] || 'home';
-    let className = pageName;
+    const pathParts = location.pathname.split('/');
+    let className = pathParts[2] ? pathParts.slice(2).join(' ') : 'home';
     if (this.state.isRecording) {
       className += ' recording';
     }
