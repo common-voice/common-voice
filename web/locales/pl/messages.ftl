@@ -240,6 +240,7 @@ why-demographic = Dlaczego to ważne?
 why-demographic-explanation = Anonimowe dane o użytkowniku, takie jak wiek, płeć i akcent zwiększają jakość danych dźwiękowych używanych do trenowania dokładności mechanizmów rozpoznawania mowy. Twoja nazwa użytkownika i adres e-mail nigdy nie będą powiązane z przesyłanymi danymi, a także możesz ustawić, czy nazwa użytkownika ma być publiczna lub anonimowa.
 keep-me-posted =
     .label = Chcę otrzymywać aktualizacje i informacje o tym, co dzieje się w projekcie Common Voice.
+accept-privacy = Pozwalam wykorzystywać te dane w sposób opisany w <privacyLink>zasadach ochrony prywatności</privacyLink> Mozilli
 
 ## FAQ
 
