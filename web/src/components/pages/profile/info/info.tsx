@@ -192,7 +192,7 @@ class ProfilePage extends React.Component<PropsFromState, State> {
           </Localized>
 
           {locales.map(({ locale, accent }, i) => (
-            <React.Fragment key={locale}>
+            <React.Fragment key={i}>
               <Localized id="profile-form-language" attrs={{ label: true }}>
                 <LabeledSelect
                   value={locale}

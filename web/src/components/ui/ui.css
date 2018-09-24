@@ -153,6 +153,10 @@ button.card-action:focus.focus-visible path {
         color: var(--black);
         background-color: var(--white);
 
+        &:focus {
+            border-color: var(--black);
+        }
+
         &:disabled {
             background-color: var(--light-grey);
         }
