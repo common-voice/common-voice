@@ -214,6 +214,10 @@ profile-form-age =
     .label = Ålder
 profile-form-gender =
     .label = Kön
+leaderboard-visibility =
+    .label = Synlighet på topplista
+native-language =
+    .label = Modersmål
 profile-form-submit-save = Spara
 profile-form-submit-saved = Sparad
 profile-keep-data = Behåll data
@@ -230,6 +234,12 @@ profile-create-success = Profil skapad!
 profile-close = Stäng
 profile-clear-modal = Att rensa din profildata innebär att din demografiska information inte längre kommer att skickas till Common Voice med dina inspelningar.
 profile-explanation = Håll reda på dina framsteg med en profil och hjälp vår röstdata att bli mer exakt.
+thanks-for-account = Tack för att du har bekräftat ditt konto, nu bygger vi din profil.
+why-demographic = Vad innebär det?
+why-demographic-explanation = Anonymiserade användardata som ålder, kön och accent hjälper till att förbättra ljuddata som används för att träna noggrannheten för taligenkänningsmotorer. Ditt användarnamn och e-post kommer aldrig att kopplas till dina inlämnade data, och du kan välja om du vill göra ditt användarnamn offentligt eller anonymt.
+keep-me-posted =
+    .label = Jag skulle vilja ha uppdateringar och hålla mig uppdaterad med vad som händer med Common Voice.
+accept-privacy = Jag är okej med att du hanterar denna information som du förklarar i Mozillas <privacyLink>sekretesspolicy</privacyLink>
 
 ## FAQ
 
