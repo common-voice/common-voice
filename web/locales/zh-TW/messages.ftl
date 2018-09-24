@@ -230,6 +230,8 @@ profile-close = 關閉
 profile-clear-modal = 清除您的帳號資料後，就代表您錄音時，不會再一同傳送人口統計資料給 Common Voice。
 profile-explanation = 保留您的專案紀錄，並幫助增加我們的語音資料準確度。
 thanks-for-account = 感謝您確認帳號資訊，接下來請提供您的基本資料。
+why-demographic = 這有什麼重要的？
+why-demographic-explanation = 匿名化的使用者資料，如年齡、性別、腔調等，可幫助我們改善用來訓練語音識別引擎的語音資料。您的帳號與 E-Mail 不會與送出的資料相關聯，您也可以決定是否要公開您的帳號名稱或保持匿名。
 
 ## FAQ
 
