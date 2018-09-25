@@ -221,6 +221,8 @@ profile-form-age =
     .label = Leeftiid
 profile-form-gender =
     .label = Geslacht
+native-language =
+    .label = Memmetaal
 profile-form-submit-save = Bewarje
 profile-form-submit-saved = Bewarre
 profile-keep-data = Gegevens bewarje
@@ -237,6 +239,8 @@ profile-create-success = Profyl mei sukses oanmakke!
 profile-close = Slute
 profile-clear-modal = It wiskjen fan jo profylgegevens betsjut dat dizze demografyske gegevens net mear tegearre mei jo opnamen by Common Voice yntsjinne wurde.
 profile-explanation = Hâld jo foarútgong yn 'e gaten mei in profyl en help om ús stimgegevens sekuerder te wêzen.
+thanks-for-account = Tank foar de befêstiging fan jo account, no meitsje wy jo profyl.
+why-demographic = Wêrom is dit wichtich?
 
 ## FAQ
 
