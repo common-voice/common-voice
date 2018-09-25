@@ -186,9 +186,7 @@ export default class API {
     }
 
     await sendRequest({
-      uri: `https://basket.${
-        true || PROD ? 'mozilla' : 'allizom'
-        }.org/news/subscribe/`,
+      uri: `https://basket.${PROD ? 'mozilla' : 'allizom'}.org/news/subscribe/`,
       method: 'POST',
       form: {
         'api-key': BASKET_API_KEY,
@@ -200,5 +198,5 @@ export default class API {
       },
     });
     response.json({});
-  }
+  };
 }

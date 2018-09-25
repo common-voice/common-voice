@@ -205,7 +205,7 @@ export default class API {
 
   subscribeToNewsletter(email: string): Promise<void> {
     return this.fetch(API_PATH + '/newsletter/' + email, {
-      method: 'POST'
+      method: 'POST',
     });
   }
 }
