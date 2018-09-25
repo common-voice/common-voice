@@ -229,6 +229,8 @@ profile-form-age =
     .label = Oed
 profile-form-gender =
     .label = Rhyw
+leaderboard-visibility =
+    .label = Gwelededd y Sgorfwrdd
 native-language =
     .label = Mamiaith
 profile-form-submit-save = Cadw
@@ -247,6 +249,12 @@ profile-create-success = Llwyddiant, wedi creu proffil!
 profile-close = Cau
 profile-clear-modal = Bydd clirio data eich proffil yn golygu na fydd y wybodaeth ddemograffig yma'n cael ei chyflwyno i Common Voice gyda'ch clipiau recordio.
 profile-explanation = Cadw golwg o'ch cynnydd gyda phroffil a helpu'n data llais i fod yn fwy cywir.
+thanks-for-account = Diolch m gadarnhau eich cyfrif, nawr ymlaen i greu eich proffil.
+why-demographic = Pam fod hyn o bwys?
+why-demographic-explanation = Mae data defnyddwyr dienw fel oed, rhyw ac acen yn helpu i wella'r data sain sy'n cael ei ddefnyddio i hyfforddi cywirdeb peiriannau adnabod llais. Ni fydd eich enw defnyddiwr ac e-bost yn cael ei gysylltu â'r data rydych wedi ei gyflwyno a gallwch ddewis os ydych am wneud eich enw defnyddiwr yn hysbys neu beidio.
+keep-me-posted =
+    .label = Hoffwn dderbyn diweddariadau i gadw'n gyfredol â'r hyn y'n digwydd i Common Voice.
+accept-privacy = Rwy'n hapus gyd chi'n defnyddio'r wybodaeth yma fel rydych yn ei esbonio ym <privacyLink>Mholisi Preifatrwydd Mozilla</privacyLink>
 
 ## FAQ
 
