@@ -236,6 +236,9 @@ profile-explanation = Profil yaradaraq müvəffəqiyyətlərinizi izləyə və s
 thanks-for-account = Hesabınızı təsdiqlədiyiniz üçün təşəkkürlər, indi də profilinizi düzəldək.
 why-demographic = Bu nəyə lazımdır?
 why-demographic-explanation = Anonimləşdirilmiş yaş, cinsiyyət və ləhcə kimi məlumatlar səs tanıma mühərriklərini öyrətmədə dəqiqliyi artırmaq üçün kömək edir. İstifadəçi adınız göndərdiyiniz məlumatlarla heç vaxt əlaqələndirilməyəcək və həmçinin istifadəçi adınızı ictimai edib-etməməyi seçə bilərsiz.
+keep-me-posted =
+    .label = Yeniliklərdən və Common Voice proyektindəki dəyişikliklərdən xəbərdar olmaq istəyirəm.
+accept-privacy = Bu məlumatı Mozillanın <privacyLink>Məxfilik Siyasəti</privacyLink>nə əsasən işləməyinizə razıyam
 
 ## FAQ
 
