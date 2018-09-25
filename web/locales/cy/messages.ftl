@@ -229,6 +229,8 @@ profile-form-age =
     .label = Oed
 profile-form-gender =
     .label = Rhyw
+native-language =
+    .label = Mamiaith
 profile-form-submit-save = Cadw
 profile-form-submit-saved = Wedi'u Cadw
 profile-keep-data = Cadw Data
@@ -357,7 +359,7 @@ request-language-success-content = Byddwn mewn cysylltiad gyda rhagor o wybodaet
 
 ## Languages Overview
 
-language-section-in-progress = Yn Cael eu Datblygu
+language-section-in-progress = Ar y Ffordd
 language-section-in-progress-description = Mae ieithoedd sy'n cael eu datblygu yn cael eu hadeiladu ar hyn o bryd ar gyfer cyfraniadau gan ein cymunedau; mae eu cynnydd yn adlewyrchu lle maen nhw arni ar draws cyfnodau lleolieddio'r wefan a'r casglu brawddegau.
 language-section-launched = Ar Gael
 language-section-launched-new-description = Ar gyfer yr ieithoedd hyn sydd ar gael mae'r wefan wedi ei leoleiddio'n llwyddiannus ac mae ganddo ddigon o frawddegau wedi'u casglu i ganiatáu ar gyfer cyfraniadau <italic>Siarad</italic> a <italic>Gwrando</italic>.
