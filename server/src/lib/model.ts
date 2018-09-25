@@ -113,7 +113,7 @@ export default class Model {
     const user = await this.db.updateUser(uid, data);
 
     const { BASKET_API_KEY, PROD } = getConfig();
-    if (BASKET_API_KEY && user.send_emails && !user.basket_token) {
+    if (BASKET_API_KEY && user && user.send_emails && !user.basket_token) {
       const response = await request({
         uri: `https://basket.${
           PROD ? 'mozilla' : 'allizom'

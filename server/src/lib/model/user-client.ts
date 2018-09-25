@@ -18,7 +18,7 @@ const UserClient = {
         FROM user_clients u
         LEFT JOIN user_client_accents accents on u.client_id = accents.client_id
         LEFT JOIN locales on accents.locale_id = locales.id
-        WHERE u.client_id = ? OR email = ?
+        WHERE (u.client_id = ? OR email = ?) AND sso_id IS NULL
       `,
       [client_id || null, email || null]
     );

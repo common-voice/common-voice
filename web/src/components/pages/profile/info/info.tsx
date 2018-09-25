@@ -9,6 +9,7 @@ import { connect } from 'react-redux';
 import API from '../../../../services/api';
 import { NATIVE_NAMES } from '../../../../services/localization';
 import { ACCENTS, AGES, SEXES } from '../../../../stores/demographics';
+import { Notifications } from '../../../../stores/notifications';
 import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
 import URLS from '../../../../urls';
@@ -46,23 +47,34 @@ interface PropsFromState {
   user: User.State;
 }
 
+interface PropsFromDispatch {
+  addNotification: typeof Notifications.actions.add;
+}
+
+interface Props extends LocalizationProps, PropsFromState, PropsFromDispatch {}
+
 interface State {
   username: string;
   visible: boolean;
   age: string;
   gender: string;
   locales: { locale: string; accent: string }[];
+  sendEmails: boolean;
 
+  isSaving: boolean;
+  isSubmitted: boolean;
+  privacyAgreed: boolean;
   showDemographicInfo: boolean;
 }
 
-class ProfilePage extends React.Component<PropsFromState, State> {
-  constructor(props: PropsFromState, context: any) {
+class ProfilePage extends React.Component<Props, State> {
+  constructor(props: Props, context: any) {
     super(props, context);
 
     const { account, userClients } = props.user;
 
     this.state = {
+      sendEmails: true,
       visible: false,
       locales: [],
       ...pick(props.user, 'age', 'username', 'gender'),
@@ -76,6 +88,10 @@ class ProfilePage extends React.Component<PropsFromState, State> {
               []
             ),
           }),
+
+      isSaving: false,
+      isSubmitted: false,
+      privacyAgreed: Boolean(account) || props.user.privacyAgreed,
       showDemographicInfo: false,
     };
   }
@@ -86,15 +102,17 @@ class ProfilePage extends React.Component<PropsFromState, State> {
     });
   };
 
-  handleChangeFor = (field: keyof State) => (
-    event: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
-  ) => {
-    this.setState({ [field]: event.target.value } as any);
+  handleChangeFor = (field: keyof State) => ({
+    target,
+  }: React.ChangeEvent<any>) => {
+    this.setState({
+      [field]: target.type == 'checkbox' ? target.checked : target.value,
+    } as any);
   };
 
   addLocale = () => {
     const { locales } = this.state;
-    if (!locales[locales.length - 1].locale) {
+    if (locales.length && !locales[locales.length - 1].locale) {
       return;
     }
     this.setState({
@@ -123,11 +141,27 @@ class ProfilePage extends React.Component<PropsFromState, State> {
     this.setState({ locales });
   };
 
-  submit = async () => {
-    const { api, user } = this.props;
-    await api.saveAccount({
-      ...pick(this.state, 'username', 'visible', 'age', 'gender', 'locales'),
-      client_id: user.userId,
+  submit = () => {
+    const { addNotification, api, getString, user } = this.props;
+    this.setState({ isSaving: true, isSubmitted: true }, async () => {
+      await Promise.all([
+        api.saveAccount({
+          ...pick(
+            this.state,
+            'username',
+            'visible',
+            'age',
+            'gender',
+            'locales'
+          ),
+          client_id: user.userId,
+        }),
+        !user.account &&
+          this.state.sendEmails &&
+          api.subscribeToNewsletter(user.userClients[0].email),
+      ]);
+      this.setState({ isSaving: false });
+      addNotification(getString('profile-form-submit-saved'));
     });
   };
 
@@ -135,12 +169,22 @@ class ProfilePage extends React.Component<PropsFromState, State> {
     const { user } = this.props;
     const {
       username,
+      sendEmails,
       visible,
       age,
       gender,
       locales,
+
+      isSaving,
+      isSubmitted,
+      privacyAgreed,
       showDemographicInfo,
     } = this.state;
+
+    if (!user.account && user.userClients.length == 0) {
+      return null;
+    }
+
     return (
       <div className="profile-info">
         {!user.account && (
@@ -223,46 +267,60 @@ class ProfilePage extends React.Component<PropsFromState, State> {
 
         <Hr />
 
-        {!user.account && (
-          <React.Fragment>
-            <div className="signup-section">
-              <Localized id="email-input" attrs={{ label: true }}>
-                <LabeledInput value={user.userClients[0].email} disabled />
-              </Localized>
-
-              <div className="checkboxes">
-                <Localized id="keep-me-posted" attrs={{ label: true }}>
-                  <LabeledCheckbox defaultValue={true} />
+        {!user.account &&
+          !isSubmitted && (
+            <React.Fragment>
+              <div className="signup-section">
+                <Localized id="email-input" attrs={{ label: true }}>
+                  <LabeledInput value={user.userClients[0].email} disabled />
                 </Localized>
-                <LabeledCheckbox
-                  label={
-                    <Localized
-                      id="accept-privacy"
-                      privacyLink={<LocaleLink to={URLS.PRIVACY} blank />}>
-                      <span />
-                    </Localized>
-                  }
-                />
 
-                <Localized id="read-terms-q">
-                  <LocaleLink to={URLS.TERMS} className="terms" blank />
-                </Localized>
+                <div className="checkboxes">
+                  <Localized id="keep-me-posted" attrs={{ label: true }}>
+                    <LabeledCheckbox
+                      onChange={this.handleChangeFor('sendEmails')}
+                      checked={sendEmails}
+                    />
+                  </Localized>
+                  <LabeledCheckbox
+                    label={
+                      <Localized
+                        id="accept-privacy"
+                        privacyLink={<LocaleLink to={URLS.PRIVACY} blank />}>
+                        <span />
+                      </Localized>
+                    }
+                    checked={privacyAgreed}
+                    onChange={this.handleChangeFor('privacyAgreed')}
+                  />
+
+                  <Localized id="read-terms-q">
+                    <LocaleLink to={URLS.TERMS} className="terms" blank />
+                  </Localized>
+                </div>
               </div>
-            </div>
 
-            <Hr />
-          </React.Fragment>
-        )}
+              <Hr />
+            </React.Fragment>
+          )}
 
         <Localized id="profile-form-submit-save">
-          <Button className="save" rounded onClick={this.submit} />
+          <Button
+            className="save"
+            rounded
+            disabled={isSaving || !privacyAgreed}
+            onClick={this.submit}
+          />
         </Localized>
       </div>
     );
   }
 }
 
-export default connect<PropsFromState>(({ api, user }: StateTree) => ({
-  api,
-  user,
-}))(ProfilePage);
+export default connect<PropsFromState, PropsFromDispatch>(
+  ({ api, user }: StateTree) => ({
+    api,
+    user,
+  }),
+  { addNotification: Notifications.actions.add }
+)(withLocalization(ProfilePage));

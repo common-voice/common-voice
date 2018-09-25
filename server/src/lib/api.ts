@@ -1,5 +1,6 @@
 import * as bodyParser from 'body-parser';
 import { NextFunction, Request, Response, Router } from 'express';
+import * as sendRequest from 'request-promise-native';
 import { UserClient as UserClientType } from '../../../common/user-clients';
 import { getConfig } from '../config-helper';
 import UserClient from './model/user-client';
@@ -69,6 +70,8 @@ export default class API {
     router.post('/requested_languages', this.createLanguageRequest);
 
     router.get('/language_stats', this.getLanguageStats);
+
+    router.post('/newsletter/:email', this.subscribeToNewsletter);
 
     router.use('*', (request: Request, response: Response) => {
       response.sendStatus(404);
@@ -160,12 +163,42 @@ export default class API {
   };
 
   saveAccount = async ({ body, user }: Request, response: Response) => {
+    if (!user) {
+      throw new ClientParameterError();
+    }
     response.json(
-      await UserClient.saveAccount(user.id, { ...body, email: user.emails[0].value })
+      await UserClient.saveAccount(user.id, {
+        ...body,
+        email: user.emails[0].value,
+      })
     );
   };
 
   getAccount = async ({ user }: Request, response: Response) => {
-    response.json(user ? await UserClient.findAccount(user.id) : null)
+    response.json(user ? await UserClient.findAccount(user.id) : null);
+  };
+
+  subscribeToNewsletter = async (request: Request, response: Response) => {
+    const { BASKET_API_KEY, PROD } = getConfig();
+    if (!BASKET_API_KEY) {
+      response.json({});
+      return;
+    }
+
+    await sendRequest({
+      uri: `https://basket.${
+        true || PROD ? 'mozilla' : 'allizom'
+        }.org/news/subscribe/`,
+      method: 'POST',
+      form: {
+        'api-key': BASKET_API_KEY,
+        newsletters: 'common-voice',
+        format: 'H',
+        lang: 'en',
+        email: request.params.email,
+        source_url: request.header('Referer'),
+      },
+    });
+    response.json({});
   }
 }

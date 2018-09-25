@@ -202,4 +202,10 @@ export default class API {
       body: data,
     });
   }
+
+  subscribeToNewsletter(email: string): Promise<void> {
+    return this.fetch(API_PATH + '/newsletter/' + email, {
+      method: 'POST'
+    });
+  }
 }
