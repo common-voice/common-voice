@@ -238,6 +238,7 @@ profile-close = Bezárás
 profile-clear-modal = A profiladatok törlése azt jelenti, hogy ezek a demográfiai információk többé már nem lesznek beküldve a Common Voice-ba a hangrögzítéseivel.
 profile-explanation = Kövesse az előrehaladását egy profillal, és segítsen pontosabbá tenni az adatainkat.
 thanks-for-account = Köszönjük, hogy megerősítette a fiókját, most állítsuk össze a profilját.
+why-demographic = Miért számít ez?
 
 ## FAQ
 
