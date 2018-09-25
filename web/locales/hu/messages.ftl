@@ -239,6 +239,10 @@ profile-clear-modal = A profiladatok törlése azt jelenti, hogy ezek a demográ
 profile-explanation = Kövesse az előrehaladását egy profillal, és segítsen pontosabbá tenni az adatainkat.
 thanks-for-account = Köszönjük, hogy megerősítette a fiókját, most állítsuk össze a profilját.
 why-demographic = Miért számít ez?
+why-demographic-explanation = Az anonimizált felhasználói adatok, mint az életkor, nem és akcentus segít jobbá tenni a hangadatokat, melyek a hangfelismerő motorok pontosságának tanítására használhatóak. A felhasználónév és a jelszó sosem lesz hozzákapcsolva a beküldött adatokhoz, és megadhatja azt is, hogy a felhasználóneve nyilvános vagy anonim legyen.
+keep-me-posted =
+    .label = Szeretnék frissítéseket kapni, és naprakész lenni, hogy mi történik a Common Voice-szal.
+accept-privacy = Beleegyezem, hogy a Mozilla <privacyLink>Adatvédelmi irányelveiben</privacyLink> leírtak szerint kezeljék az adataimat
 
 ## FAQ
 
