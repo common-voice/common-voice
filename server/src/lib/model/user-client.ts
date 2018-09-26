@@ -105,7 +105,7 @@ const UserClient = {
       ? null
       : rows.reduce(
           (client: UserClient, row: any) => ({
-            ...pick(row, 'accent', 'age', 'gender', 'username'),
+            ...pick(row, 'accent', 'age', 'gender', 'username', 'basket_token'),
             locales: client.locales.concat(
               typeof row.accent == 'string'
                 ? { accent: row.accent, locale: row.locale }
@@ -122,7 +122,11 @@ const UserClient = {
   ): Promise<UserClient> {
     const [[[account]], [clients]] = await Promise.all([
       db.query('SELECT client_id FROM user_clients WHERE sso_id = ?', [sso_id]),
-      db.query('SELECT client_id FROM user_clients WHERE email = ?', [email]),
+      email
+        ? db.query('SELECT client_id FROM user_clients WHERE email = ?', [
+            email,
+          ])
+        : [],
     ]);
 
     const accountClientId = account ? account.client_id : client_id;
@@ -180,6 +184,13 @@ const UserClient = {
         [client_id, email, age, gender]
       );
     }
+  },
+
+  async updateBasketToken(email: string, basketToken: string) {
+    await db.query('UPDATE user_clients SET basket_token = ? WHERE email = ?', [
+      basketToken,
+      email,
+    ]);
   },
 };
 

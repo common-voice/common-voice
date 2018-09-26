@@ -185,18 +185,22 @@ export default class API {
       return;
     }
 
-    await sendRequest({
-      uri: `https://basket.${PROD ? 'mozilla' : 'allizom'}.org/news/subscribe/`,
+    const { email } = request.params;
+    const basketResponse = await sendRequest({
+      uri: `https://basket.${PROD ? 'mozilla' : 'allizom'
+      }.org/news/subscribe/`,
       method: 'POST',
       form: {
         'api-key': BASKET_API_KEY,
         newsletters: 'common-voice',
         format: 'H',
         lang: 'en',
-        email: request.params.email,
+        email,
         source_url: request.header('Referer'),
+        sync: 'Y',
       },
     });
+    await UserClient.updateBasketToken(email, JSON.parse(basketResponse).token);
     response.json({});
   };
 }
