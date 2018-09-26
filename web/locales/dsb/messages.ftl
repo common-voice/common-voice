@@ -58,11 +58,13 @@ kpv = Komi-syrjeńšćina
 kw = Kornišćina
 ky = Kirgišćina
 mk = Makedońšćina
+mn = Mongolšćina
 myv = Erzya
 nb-NO = Norwegski Bokmål
 ne-NP = Nepalšćina
 nl = Nižozemšćina
 nn-NO = Norwegski Nynorsk
+oc = Okcitańšćina
 or = Odiašćina
 pl = Pólšćina
 pt-BR = Portugišćina (Brazilska)
@@ -83,6 +85,7 @@ tt = Tataršćina
 uk = Ukrainšćina
 ur = Urdu
 uz = Uzbekišćina
+vi = Vietnamšćina
 zh-CN = Chinšćina (China)
 zh-HK = Chinšćina (Hong Kong)
 zh-TW = Chinšćina (Taiwan)
@@ -240,6 +243,13 @@ profile-close = Zacyniś
 profile-clear-modal = Gaž swóje profilowe daty wulašujośo, se toś te demografiske informacije na Common Voice gromaźe z nagraśami wěcej njepósćelu.
 profile-explanation = Z profilom móžośo swój póstup we wócyma wobchowaś a pomagaś, naše głosowe daty dokradnjejše cyniś.
 thanks-for-account = Źěkujomy se, až sćo wobkšuśił swójo konto, comy něnto waš profil zarědowaś.
+why-demographic = Cogodla jo to wažne?
+keep-me-posted =
+    .label = Ja by rady aktualizacije měł a informěrujśo mě běžnje, gaž jo něco nowe wó Common Voice.
+accept-privacy = Som wobjadny, až se toś te informacije wužywaju, kak se w <privacyLink>pšawidłach priwatnosći</privacyLink> Mozilla wujasnjujo.
+login-identity = Pśizjawjeńska identita
+edit = Wobźěłaś
+email-subscriptions = E-mailowe abonementy
 
 ## FAQ
 
