@@ -29,10 +29,12 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
             <UserIcon />
             <span className="text">Build Profile</span>
           </NavLink>
-          <NavLink to={avatarRoute}>
-            <CameraIcon />
-            <span className="text">Avatar</span>
-          </NavLink>
+          {false && (
+            <NavLink to={avatarRoute}>
+              <CameraIcon />
+              <span className="text">Avatar</span>
+            </NavLink>
+          )}
           <NavLink to={prefRoute}>
             <ToggleIcon />
             <span className="text">Preferences</span>
@@ -42,13 +44,15 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
       <div className="content">
         <Switch>
           <Route exact path={infoRoute} component={InfoPage} />
-          <Route
-            exact
-            path={avatarRoute}
-            render={props =>
-              user.account ? null : <Redirect to={infoRoute} />
-            }
-          />
+          {false && (
+            <Route
+              exact
+              path={avatarRoute}
+              render={props =>
+                user.account ? null : <Redirect to={infoRoute} />
+              }
+            />
+          )}
           <Route
             exact
             path={prefRoute}
