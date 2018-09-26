@@ -1,8 +1,60 @@
 import pick = require('lodash.pick');
 import { UserClient } from '../../../../common/user-clients';
+import { getLocaleId } from './db';
 import { getMySQLInstance } from './db/mysql';
 
 const db = getMySQLInstance();
+
+async function updateLocales(
+  clientId: string,
+  locales: { locale: string; accent: string }[]
+) {
+  const [savedLocales]: [
+    { id: number; locale: string; accent: string }[]
+  ] = await db.query(
+    `
+      SELECT id, (SELECT name FROM locales WHERE id = locale_id) AS locale, accent
+      FROM user_client_accents
+      WHERE client_id = ?
+      ORDER BY id
+    `,
+    [clientId]
+  );
+
+  let startAt = savedLocales.findIndex((savedLocale, i) => {
+    const locale = locales[i];
+    return (
+      !locale ||
+      savedLocale.locale !== locale.locale ||
+      savedLocale.accent !== locale.accent
+    );
+  });
+  if (startAt == -1) {
+    if (locales.length <= savedLocales.length) {
+      return;
+    }
+    startAt = savedLocales.length;
+  }
+
+  const deleteIds = savedLocales.slice(startAt).map(s => s.id);
+  if (deleteIds.length > 0) {
+    await db.query('DELETE FROM user_client_accents WHERE id IN (?)', [
+      deleteIds,
+    ]);
+  }
+
+  const newAccents = await Promise.all(
+    locales
+      .slice(startAt)
+      .map(async l => [clientId, await getLocaleId(l.locale), l.accent])
+  );
+  if (newAccents.length > 0) {
+    await db.query(
+      'INSERT INTO user_client_accents (client_id, locale_id, accent) VALUES ?',
+      [newAccents]
+    );
+  }
+}
 
 const UserClient = {
   async findAllWithLocales({
@@ -39,11 +91,12 @@ const UserClient = {
   async findAccount(sso_id: string): Promise<UserClient> {
     const [rows] = await db.query(
       `
-        SELECT u.*, accents.accent, locales.name AS locale
+        SELECT DISTINCT u.*, accents.accent, locales.name AS locale
         FROM user_clients u
         LEFT JOIN user_client_accents accents on u.client_id = accents.client_id
         LEFT JOIN locales on accents.locale_id = locales.id
         WHERE u.sso_id = ?
+        ORDER BY accents.id ASC
       `,
       [sso_id]
     );
@@ -54,7 +107,9 @@ const UserClient = {
           (client: UserClient, row: any) => ({
             ...pick(row, 'accent', 'age', 'gender', 'username'),
             locales: client.locales.concat(
-              row.accent ? { accent: row.accent, locale: row.locale } : []
+              typeof row.accent == 'string'
+                ? { accent: row.accent, locale: row.locale }
+                : []
             ),
           }),
           { locales: [] }
@@ -63,7 +118,7 @@ const UserClient = {
 
   async saveAccount(
     sso_id: string,
-    { client_id, email, ...data }: UserClient
+    { client_id, email, locales, ...data }: UserClient
   ): Promise<UserClient> {
     const [[[account]], [clients]] = await Promise.all([
       db.query('SELECT client_id FROM user_clients WHERE sso_id = ?', [sso_id]),
@@ -86,14 +141,18 @@ const UserClient = {
         ...pick(data, 'age', 'gender', 'username'),
       }
     );
-    await db.query(
-      'UPDATE IGNORE clips SET client_id = ? WHERE client_id IN (?)',
-      [accountClientId, clientIds]
-    );
-    await db.query(
-      'UPDATE IGNORE votes SET client_id = ? WHERE client_id IN (?)',
-      [accountClientId, clientIds]
-    );
+
+    await Promise.all([
+      db.query('UPDATE IGNORE clips SET client_id = ? WHERE client_id IN (?)', [
+        accountClientId,
+        clientIds,
+      ]),
+      db.query('UPDATE IGNORE votes SET client_id = ? WHERE client_id IN (?)', [
+        accountClientId,
+        clientIds,
+      ]),
+      updateLocales(accountClientId, locales),
+    ]);
 
     return UserClient.findAccount(sso_id);
   },
