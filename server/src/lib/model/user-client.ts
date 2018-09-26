@@ -105,7 +105,15 @@ const UserClient = {
       ? null
       : rows.reduce(
           (client: UserClient, row: any) => ({
-            ...pick(row, 'accent', 'age', 'gender', 'username', 'basket_token'),
+            ...pick(
+              row,
+              'accent',
+              'age',
+              'email',
+              'gender',
+              'username',
+              'basket_token'
+            ),
             locales: client.locales.concat(
               typeof row.accent == 'string'
                 ? { accent: row.accent, locale: row.locale }
