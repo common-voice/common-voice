@@ -58,11 +58,13 @@ kpv = Komi-syrjenšćina
 kw = Kornišćina
 ky = Kirgišćina
 mk = Makedonšćina
+mn = Mongolšćina
 myv = Erzya
 nb-NO = Norwegski Bokmål
 ne-NP = Nepalšćina
 nl = Nižozemšćina
 nn-NO = Norwegski Nynorsk
+oc = Okcitanšćina
 or = Odiašćina
 pl = Pólšćina
 pt-BR = Portugalšćina (Brazilska)
@@ -83,6 +85,7 @@ tt = Tataršćina
 uk = Ukrainšćina
 ur = Urdu
 uz = Uzbekšćina
+vi = Vietnamšćina
 zh-CN = Chinšćina (China)
 zh-HK = Chinšćina (Hong Kong)
 zh-TW = Chinšćina (Taiwan)
@@ -245,6 +248,9 @@ why-demographic-explanation = Anonymizowane wužiwarske daty kaž staroba, splah
 keep-me-posted =
     .label = Bych rady aktualizacije měł a informujće mje běžnje, hdyž je něšto nowe wo Common Voice.
 accept-privacy = Sym přezjedny, zo so tute informacije wužiwaja, kak so w <privacyLink>prawidłach priwatnosće</privacyLink> Mozilla wujasnja.
+login-identity = Přizjewjenska identita
+edit = Wobdźěłać
+email-subscriptions = E-mejlowe abonementy
 
 ## FAQ
 
