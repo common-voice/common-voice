@@ -4,6 +4,7 @@ import * as path from 'path';
 import * as express from 'express';
 import { NextFunction, Request, Response } from 'express';
 const contributableLocales = require('../../locales/contributable.json');
+import { importLocales } from './lib/model/db/import-locales';
 import Model from './lib/model';
 import API from './lib/api';
 import Logger from './lib/logger';
@@ -159,6 +160,7 @@ export default class Server {
 
     try {
       await this.model.performMaintenance();
+      await importLocales();
       if (doImport) {
         await importSentences(await this.model.db.mysql.createPool());
       }
