@@ -111,6 +111,7 @@
 
     & .content {
         max-width: 785px;
+        width: 100%;
 
         @media (--sm-down) {
             padding: 20px 20px 0;

@@ -1,0 +1,48 @@
+@import url('../../../vars.css');
+
+.user-preference {
+    margin-top: 40px;
+
+    &:first-child {
+        margin-top: 0;
+    }
+
+    &.two-columns .section-body {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        & > * {
+            box-sizing: border-box;
+            width: 100%;
+
+            @media (--md-up) {
+                width: calc(50% - var(--profile-column-margin) / 2);
+
+                &:nth-child(2n) {
+                    margin-left: var(--profile-column-margin);
+                }
+            }
+        }
+    }
+
+    & h2 {
+        margin-bottom: 10px;
+        font-family: var(--strong-font-family);
+        font-size: var(--font-size-lg);
+        font-weight: 600;
+    }
+
+    & .section-body {
+        border-top: 2px solid var(--light-grey);
+        padding-top: 32px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    & .edit-button {
+        @media (--md-up) {
+            flex: 0;
+            min-width: 134px;
+        }
+    }
+}

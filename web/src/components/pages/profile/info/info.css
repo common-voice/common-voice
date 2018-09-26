@@ -1,9 +1,5 @@
 @import url('../../../vars.css');
 
-:root {
-    --profile-input-margin: 30px;
-}
-
 .profile-info {
     color: var(--near-black);
 
@@ -62,10 +58,10 @@
             }
 
             @media (--md-up) {
-                width: calc(50% - (var(--profile-input-margin) / 2));
+                width: calc(50% - (var(--profile-column-margin) / 2));
 
                 &:nth-child(2n + 1) {
-                    margin-right: var(--profile-input-margin);
+                    margin-right: var(--profile-column-margin);
                 }
             }
         }

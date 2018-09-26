@@ -246,6 +246,9 @@ why-demographic-explanation = Anonymized user data like age, sex, and accent hel
 keep-me-posted =
     .label = I'd like updates and to keep current with what's happening with Common Voice.
 accept-privacy = I'm okay with you handling this info as you explain in Mozilla's <privacyLink>Privacy Policy</privacyLink>
+login-identity = Login Identity
+edit = Edit
+email-subscriptions = Email Subscriptions
 
 ## FAQ
 faq-title = Frequently Asked Questions

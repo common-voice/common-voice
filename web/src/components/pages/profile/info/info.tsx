@@ -6,6 +6,7 @@ import {
 import pick = require('lodash.pick');
 import * as React from 'react';
 import { connect } from 'react-redux';
+import { RouteComponentProps, withRouter } from 'react-router';
 import API from '../../../../services/api';
 import { NATIVE_NAMES } from '../../../../services/localization';
 import { ACCENTS, AGES, SEXES } from '../../../../stores/demographics';
@@ -49,9 +50,14 @@ interface PropsFromState {
 
 interface PropsFromDispatch {
   addNotification: typeof Notifications.actions.add;
+  refreshUser: typeof User.actions.refresh;
 }
 
-interface Props extends LocalizationProps, PropsFromState, PropsFromDispatch {}
+interface Props
+  extends LocalizationProps,
+    PropsFromState,
+    PropsFromDispatch,
+    RouteComponentProps<any> {}
 
 interface State {
   username: string;
@@ -72,6 +78,10 @@ class ProfilePage extends React.Component<Props, State> {
     super(props, context);
 
     const { account, userClients } = props.user;
+
+    if (!account && userClients.length == 0) {
+      props.history.push('/');
+    }
 
     this.state = {
       sendEmails: true,
@@ -142,7 +152,7 @@ class ProfilePage extends React.Component<Props, State> {
   };
 
   submit = () => {
-    const { addNotification, api, getString, user } = this.props;
+    const { addNotification, api, getString, refreshUser, user } = this.props;
     this.setState({ isSaving: true, isSubmitted: true }, async () => {
       await Promise.all([
         api.saveAccount({
@@ -156,10 +166,11 @@ class ProfilePage extends React.Component<Props, State> {
           ),
           client_id: user.userId,
         }),
-        !user.account &&
+        !(user.account && user.account.basket_token) &&
           this.state.sendEmails &&
           api.subscribeToNewsletter(user.userClients[0].email),
       ]);
+      refreshUser();
       this.setState({ isSaving: false });
       addNotification(getString('profile-form-submit-saved'));
     });
@@ -267,42 +278,49 @@ class ProfilePage extends React.Component<Props, State> {
 
         <Hr />
 
-        {!user.account &&
-          !isSubmitted && (
-            <React.Fragment>
-              <div className="signup-section">
-                <Localized id="email-input" attrs={{ label: true }}>
-                  <LabeledInput value={user.userClients[0].email} disabled />
+        {!(user.account && user.account.basket_token) && (
+          <React.Fragment>
+            <div className="signup-section">
+              <Localized id="email-input" attrs={{ label: true }}>
+                <LabeledInput value={user.userClients[0].email} disabled />
+              </Localized>
+
+              <div className="checkboxes">
+                <Localized id="keep-me-posted" attrs={{ label: true }}>
+                  <LabeledCheckbox
+                    onChange={this.handleChangeFor('sendEmails')}
+                    checked={sendEmails}
+                  />
                 </Localized>
 
-                <div className="checkboxes">
-                  <Localized id="keep-me-posted" attrs={{ label: true }}>
-                    <LabeledCheckbox
-                      onChange={this.handleChangeFor('sendEmails')}
-                      checked={sendEmails}
-                    />
-                  </Localized>
-                  <LabeledCheckbox
-                    label={
-                      <Localized
-                        id="accept-privacy"
-                        privacyLink={<LocaleLink to={URLS.PRIVACY} blank />}>
-                        <span />
+                {!user.account &&
+                  !isSubmitted && (
+                    <React.Fragment>
+                      <LabeledCheckbox
+                        label={
+                          <Localized
+                            id="accept-privacy"
+                            privacyLink={
+                              <LocaleLink to={URLS.PRIVACY} blank />
+                            }>
+                            <span />
+                          </Localized>
+                        }
+                        checked={privacyAgreed}
+                        onChange={this.handleChangeFor('privacyAgreed')}
+                      />
+
+                      <Localized id="read-terms-q">
+                        <LocaleLink to={URLS.TERMS} className="terms" blank />
                       </Localized>
-                    }
-                    checked={privacyAgreed}
-                    onChange={this.handleChangeFor('privacyAgreed')}
-                  />
-
-                  <Localized id="read-terms-q">
-                    <LocaleLink to={URLS.TERMS} className="terms" blank />
-                  </Localized>
-                </div>
+                    </React.Fragment>
+                  )}
               </div>
+            </div>
 
-              <Hr />
-            </React.Fragment>
-          )}
+            <Hr />
+          </React.Fragment>
+        )}
 
         <Localized id="profile-form-submit-save">
           <Button
@@ -322,5 +340,8 @@ export default connect<PropsFromState, PropsFromDispatch>(
     api,
     user,
   }),
-  { addNotification: Notifications.actions.add }
-)(withLocalization(ProfilePage));
+  {
+    addNotification: Notifications.actions.add,
+    refreshUser: User.actions.refresh,
+  }
+)(withLocalization(withRouter(ProfilePage)));

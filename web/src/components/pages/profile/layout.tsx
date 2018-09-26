@@ -8,6 +8,7 @@ import URLS from '../../../urls';
 import { localeConnector, LocalePropsFromState } from '../../locale-helpers';
 import { CameraIcon, ToggleIcon, UserIcon } from '../../ui/icons';
 import InfoPage from './info/info';
+import Preferences from './preferences/preferences';
 
 import './layout.css';
 
@@ -57,7 +58,7 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
             exact
             path={prefRoute}
             render={props =>
-              user.account ? null : <Redirect to={infoRoute} />
+              user.account ? <Preferences /> : <Redirect to={infoRoute} />
             }
           />
         </Switch>

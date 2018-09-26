@@ -63,6 +63,8 @@
     --record-background-image-mobile: url("/img/wave-red-mobile.png");
 
     --dataset-item-margin: .7rem;
+
+    --profile-column-margin: 30px;
 }
 
 /* [Deprecated] */
