@@ -234,6 +234,9 @@ profile-close = Fermer
 profile-clear-modal = Si vous effacez les données de votre profil, ces informations démographiques ne seront plus transmises à Common Voice avec vos enregistrements sonores.
 profile-explanation = Gardez un œil sur votre progression en créant un profil et aidez-nous à rendre nos données vocales plus précises.
 thanks-for-account = Merci d’avoir confirmé votre compte, maintenant créons votre profil.
+why-demographic = Pourquoi est-ce important ?
+keep-me-posted =
+    .label = Je voudrais profiter des mises à jour et être tenu au courant des avancées du projet Common Voice.
 
 ## FAQ
 
