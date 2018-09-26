@@ -142,7 +142,7 @@
             font-size: 18px;
 
             @media (--xs-up) {
-                font-size: 24px;
+                font-size: var(--font-size-lg);
             }
         }
 
@@ -333,7 +333,7 @@
             padding: 1.5rem 2rem;
             display: flex;
             flex-direction: column;
-            font-size: var(--font-size-small);
+            font-size: var(--font-size-xs);
 
             @media (--xs-up) {
                 flex-direction: row;

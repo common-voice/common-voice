@@ -10,7 +10,7 @@
     & .title {
         margin-top: 58px;
         margin-bottom: 10px;
-        font-size: 36px;
+        font-size: var(--font-size-xxl);
         font-weight: normal;
     }
 
@@ -28,7 +28,7 @@
     }
 
     & .text-button {
-        font-size: var(--font-size-small);
+        font-size: var(--font-size-xs);
         font-weight: 600;
         text-decoration: underline;
 

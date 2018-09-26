@@ -19,12 +19,12 @@
     }
 
     & h1 {
-        font-size: 24px;
+        font-size: var(--font-size-lg);
         font-weight: normal;
         text-align: center;
 
         @media (--md-up) {
-            font-size: 36px;
+            font-size: var(--font-size-xxl);
         }
     }
 
@@ -127,7 +127,7 @@
         margin: 60px auto 0;
         display: flex;
         align-items: center;
-        font-size: var(--font-size-small);
+        font-size: var(--font-size-xs);
         font-weight: 600 !important;
         text-decoration: none !important;
 

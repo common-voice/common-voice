@@ -100,7 +100,7 @@
             @media (--sm-down) {
                 font-family: var(--base-font-family);
                 font-weight: 600;
-                font-size: 12px;
+                font-size: var(--font-size-xs);
                 letter-spacing: 0.5px;
             }
         }
@@ -137,7 +137,7 @@
 
         @media (--sm-down) {
             margin-top: 16px;
-            font-size: 12px;
+            font-size: var(--font-size-xs);
             font-weight: 600;
             white-space: nowrap;
         }
@@ -194,11 +194,11 @@
         }
 
         & .current {
-            font-size: 24px;
+            font-size: var(--font-size-lg);
         }
 
         & .total {
-            font-size: 16px;
+            font-size: var(--font-size);;
             white-space: pre;
         }
     }

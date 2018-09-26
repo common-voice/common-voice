@@ -116,7 +116,7 @@ body.mobile-safari .play-box:active path,
 
 @media (--mobile) {
     .sentence-box {
-        font-size: var(--font-size-small);
+        font-size: var(--font-size-xs);
         line-height: 1.2rem;
         flex: 1;
     }

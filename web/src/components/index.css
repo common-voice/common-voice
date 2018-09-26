@@ -644,7 +644,7 @@ body:not(.ios) .recording #background-container {
     align-items: center;
 
     & a, & button {
-        font-size: var(--font-size-small);
+        font-size: var(--font-size-xs);
         font-weight: 600;
         text-decoration: underline;
     }
@@ -652,7 +652,7 @@ body:not(.ios) .recording #background-container {
 
 .opt-in {
     display: flex;
-    font-size: var(--font-size-small);
+    font-size: var(--font-size-xs);
 
     & input {
         margin: .1rem .3rem .1rem .1rem;
@@ -668,7 +668,7 @@ body:not(.ios) .recording #background-container {
 }
 
 .small {
-    font-size: var(--font-size-small);
+    font-size: var(--font-size-xs);
     color: var(--near-black);
 }
 
@@ -704,7 +704,7 @@ a.small, .small a, .text-button.small {
         padding: 9px 25px;
         max-width: 140px;
         line-height: 1.5;
-        font-size: 12px;
+        font-size: var(--font-size-xs);
         font-style: italic;
         letter-spacing: 0.8px;
         background: var(--near-black);

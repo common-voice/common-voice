@@ -139,7 +139,7 @@ button.card-action:focus.focus-visible path {
         top: -4px;
         z-index: var(--middle-z-index);
         background: var(--white);
-        font-size: var(--font-size-small);
+        font-size: var(--font-size-xs);
         color: var(--warm-grey);
     }
 

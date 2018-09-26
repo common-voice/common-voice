@@ -40,7 +40,7 @@
 
 #data-container {
     & .license a {
-        font-size: var(--font-size-small);
+        font-size: var(--font-size-xs);
         font-weight: 600;
         text-decoration: underline;
     }
@@ -81,7 +81,7 @@
         margin-top: .5rem;
         width: 100%;
         color: var(--white);
-        font-size: var(--font-size-small);
+        font-size: var(--font-size-xs);
     }
 
     & a {
@@ -96,7 +96,7 @@
 
 #speech-blog-link {
     text-decoration: underline;
-    font-size: var(--font-size-small);
+    font-size: var(--font-size-xs);
     font-weight: 600;
 }
 
@@ -134,7 +134,7 @@
     & .license {
         color: var(--near-black);
         padding: 1rem 1.5rem;
-        font-size: var(--font-size-small);
+        font-size: var(--font-size-xs);
 
         & a {
             color: var(--near-black);
@@ -183,7 +183,7 @@ body:not(.mobile-safari) .dataset .button.card-action:hover path,
 #bundle-info {
     margin-top: 1rem;
     color: var(--near-black);
-    font-size: var(--font-size-small);
+    font-size: var(--font-size-xs);
     font-style: italic;
 }
 
@@ -249,7 +249,7 @@ body:not(.mobile-safari) .dataset .button.card-action:hover path,
         display: block;
         cursor: pointer;
         text-align: center;
-        font-size: var(--font-size-small);
+        font-size: var(--font-size-xs);
         font-weight: 600;
     }
 }

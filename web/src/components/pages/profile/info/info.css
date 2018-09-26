@@ -17,7 +17,7 @@
             border: none;
             padding: 0;
             font-family: var(--base-font-family);
-            font-size: 16px;
+            font-size: var(--font-size);;
             font-weight: 600;
             color: var(--blue);
             background: none;

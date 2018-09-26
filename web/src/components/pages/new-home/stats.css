@@ -116,7 +116,7 @@
 
         & .label {
             min-height: 32px;
-            font-size: 12px;
+            font-size: var(--font-size-xs);
             letter-spacing: 0.5px;
             color: var(--warm-grey);
         }
@@ -128,7 +128,7 @@
     }
 
     & .tick-label {
-        font-size: 12px;
+        font-size: var(--font-size-xs);
         fill: var(--warm-grey);
 
         @media (--xxs-down) {
@@ -191,7 +191,7 @@
     }
 
     & .online-voices {
-        font-size: 24px;
+        font-size: var(--font-size-lg);
         font-weight: 600;
         color: var(--valid-green);
     }

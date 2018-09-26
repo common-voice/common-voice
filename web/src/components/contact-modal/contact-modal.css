@@ -24,7 +24,7 @@
     }
 
     & div {
-        font-size: var(--font-size-small);
+        font-size: var(--font-size-xs);
         font-style: italic;
     }
 }
