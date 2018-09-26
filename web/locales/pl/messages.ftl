@@ -58,11 +58,13 @@ kpv = komi (zyriański)
 kw = kornijski
 ky = kirgiski
 mk = macedoński
+mn = mongolski
 myv = erzja
 nb-NO = norweski (bokmål)
 ne-NP = nepalski
 nl = holenderski
 nn-NO = norweski (nynorsk)
+oc = oksytański
 or = orija
 pl = polski
 pt-BR = portugalski (Brazylia)
@@ -83,6 +85,7 @@ tt = tatarski
 uk = ukraiński
 ur = urdu
 uz = uzbecki
+vi = wietnamski
 zh-CN = chiński (Chiny)
 zh-HK = chiński (Hongkong)
 zh-TW = chiński (Tajwan)
@@ -241,6 +244,9 @@ why-demographic-explanation = Anonimowe dane o użytkowniku, takie jak wiek, p�
 keep-me-posted =
     .label = Chcę otrzymywać aktualizacje i informacje o tym, co dzieje się w projekcie Common Voice.
 accept-privacy = Pozwalam wykorzystywać te dane w sposób opisany w <privacyLink>zasadach ochrony prywatności</privacyLink> Mozilli
+login-identity = Tożsamość logowania
+edit = Edytuj
+email-subscriptions = Subskrypcje e-mail
 
 ## FAQ
 
