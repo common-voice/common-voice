@@ -58,11 +58,13 @@ kpv = Komi-Zyrian holh
 kw = Cornwall holh (England)
 ky = Kyrgyzstan holh
 mk = Macedonia holh
+mn = Mongolia Holh
 myv = Erzia holh (Russia)
 nb-NO = Norway holh (Bokmal)
 ne-NP = Nepal holh
 nl = Netherlands holh
 nn-NO = Norway holh (Nynorsk)
+oc = Occitan Holh
 or = Odia holh (India)
 pl = Poland holh
 pt-BR = Portugal holh (Brazil)
@@ -83,6 +85,7 @@ tt = Tatar holh (Russia)
 uk = Ukraine holh
 ur = Urdu holh
 uz = Uzbekistan holh
+vi = Vietnam Holh
 zh-CN = Tuluk holh
 zh-HK = Tuluk holh (Hong Kong)
 zh-TW = Tuluk holh (Taiwan)
@@ -228,6 +231,7 @@ profile-create-success = A tlamtling, nangmah kong na ser khawh!
 profile-close = Phit
 profile-clear-modal = Nangmah kong na hlonh ah cun Commmon Voice ah nangmah konglam le na tuun cia vialte aa hlonh dih lai.
 profile-explanation = Nangmah kong ah na tuahcia vialte zoh law, Aw kan lak mi vialte a hman deuhnak ding in kan bawm.
+edit = Remh
 
 ## FAQ
 
