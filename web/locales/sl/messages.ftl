@@ -191,6 +191,8 @@ profile-form-age =
     .label = Starost
 profile-form-gender =
     .label = Spol
+native-language =
+    .label = Materni jezik
 profile-form-submit-save = Shrani
 profile-form-submit-saved = Shranjeno
 profile-keep-data = Ohrani podatke
@@ -207,6 +209,7 @@ profile-create-success = Uspelo je, profil je ustvarjen!
 profile-close = Zapri
 profile-clear-modal = Izbris vaših profilnih podatkov pomeni, da vaši demografski podatki ne bodo dostopni ob vaših posnetkih v projektu Common Voice.
 profile-explanation = Sledite svojemu napredku s pomočjo profila in nam pomagajte narediti naše zvočne podatke natančnejše.
+why-demographic = Zakaj je to pomembno?
 
 ## FAQ
 
