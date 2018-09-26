@@ -13,6 +13,24 @@ import UserClient from './user-client';
 // likely that different users requesting at the same time get the same data
 const SHUFFLE_SIZE = 1000;
 
+let localeIds: { [name: string]: number };
+export async function getLocaleId(locale: string): Promise<number> {
+  if (!localeIds) {
+    const [rows] = await getMySQLInstance().query(
+      'SELECT id, name FROM locales'
+    );
+    localeIds = rows.reduce(
+      (obj: any, { id, name }: any) => ({
+        ...obj,
+        [name]: id,
+      }),
+      {}
+    );
+  }
+
+  return localeIds[locale];
+}
+
 export interface Sentence {
   id: string;
   text: string;
@@ -45,22 +63,6 @@ export default class DB {
     return email.toLowerCase();
   }
 
-  private localeIds: { [name: string]: number };
-  private async getLocaleId(locale: string): Promise<number> {
-    if (!this.localeIds) {
-      const [rows] = await this.mysql.query('SELECT id, name FROM locales');
-      this.localeIds = rows.reduce(
-        (obj: any, { id, name }: any) => ({
-          ...obj,
-          [name]: id,
-        }),
-        {}
-      );
-    }
-
-    return this.localeIds[locale];
-  }
-
   /**
    * Insert or update user client row.
    */
@@ -80,7 +82,7 @@ export default class DB {
   }
 
   async getOrSetUserBucket(client_id: string, locale: string, bucket: string) {
-    const localeId = await this.getLocaleId(locale);
+    const localeId = await getLocaleId(locale);
 
     let userBucket = await this.getUserBucket(client_id, localeId);
     if (userBucket) return userBucket;
@@ -200,7 +202,7 @@ export default class DB {
         ORDER BY RAND()
         LIMIT ?
       `,
-      [bucket, await this.getLocaleId(locale), client_id, SHUFFLE_SIZE, count]
+      [bucket, await getLocaleId(locale), client_id, SHUFFLE_SIZE, count]
     );
     return (rows || []).map(({ id, text }: any) => ({ id, text }));
   }
@@ -226,13 +228,7 @@ export default class DB {
       ORDER BY RAND()
       LIMIT ?
     `,
-      [
-        await this.getLocaleId(locale),
-        client_id,
-        client_id,
-        SHUFFLE_SIZE,
-        count,
-      ]
+      [await getLocaleId(locale), client_id, client_id, SHUFFLE_SIZE, count]
     );
     for (const clip of clips) {
       clip.voters = clip.voters ? clip.voters.split(',') : [];
@@ -299,7 +295,7 @@ export default class DB {
     try {
       sentenceId = sentenceId || hash(sentence);
       const [localeId] = await Promise.all([
-        this.getLocaleId(locale),
+        getLocaleId(locale),
         this.saveUserClient(client_id),
       ]);
       const bucket = await this.getOrSetUserBucket(
@@ -356,7 +352,7 @@ export default class DB {
   async getClipsStats(
     locale?: string
   ): Promise<{ date: string; total: number; valid: number }[]> {
-    const localeId = locale ? await this.getLocaleId(locale) : null;
+    const localeId = locale ? await getLocaleId(locale) : null;
 
     const intervals = [
       '100 YEAR',
@@ -441,7 +437,7 @@ export default class DB {
         }
         GROUP BY date
     `,
-      [locale ? await this.getLocaleId(locale) : '']
+      [locale ? await getLocaleId(locale) : '']
     );
 
     return rows;
@@ -543,7 +539,7 @@ export default class DB {
         INSERT INTO user_client_accents (client_id, locale_id, accent) VALUES (?, ?, ?)
           ON DUPLICATE KEY UPDATE accent = VALUES(accent)
       `,
-          [client_id, await this.getLocaleId(locale), accent]
+          [client_id, await getLocaleId(locale), accent]
         )
       )
     );
@@ -604,7 +600,7 @@ export default class DB {
       `
         INSERT INTO user_client_activities (client_id, locale_id) VALUES (?, ?)
       `,
-      [client_id, await this.getLocaleId(locale)]
+      [client_id, await getLocaleId(locale)]
     );
   }
 }
