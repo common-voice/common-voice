@@ -58,11 +58,13 @@ kpv = Komi-zıryan dili
 kw = Korniş dili
 ky = Qırğızca
 mk = Makedon dili
+mn = Monqolca
 myv = Erzyan dili
 nb-NO = Norveç Bukmolu
 ne-NP = Nepal dili
 nl = Hollandca
 nn-NO = Norveç Nyunorsku
+oc = Oksitanca
 or = Odia dili
 pl = Polyakca
 pt-BR = Portuqalca (Braziliya)
@@ -83,6 +85,7 @@ tt = Tatarca
 uk = Ukrayna dili
 ur = Urdu dili
 uz = Özbəkcə
+vi = Vyetnamca
 zh-CN = Çincə (Çin)
 zh-HK = Çincə (Honq Konq)
 zh-TW = Çincə (Tayvan)
@@ -239,6 +242,9 @@ why-demographic-explanation = Anonimləşdirilmiş yaş, cinsiyyət və ləhcə 
 keep-me-posted =
     .label = Yeniliklərdən və Common Voice proyektindəki dəyişikliklərdən xəbərdar olmaq istəyirəm.
 accept-privacy = Bu məlumatı Mozillanın <privacyLink>Məxfilik Siyasəti</privacyLink>nə əsasən işləməyinizə razıyam
+login-identity = Giriş İdentikliyi
+edit = Redaktə et
+email-subscriptions = E-poçt Abunəlikləri
 
 ## FAQ
 
