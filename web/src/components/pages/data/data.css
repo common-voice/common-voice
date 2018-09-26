@@ -252,4 +252,8 @@ body:not(.mobile-safari) .dataset .button.card-action:hover path,
         font-size: var(--font-size-xs);
         font-weight: 600;
     }
+
+    & .labeled-form-control {
+        margin-bottom: 1rem;
+    }
 }

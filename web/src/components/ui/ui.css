@@ -26,7 +26,8 @@
     }
 
     &.outline {
-        border: solid 1px color(var(--black) alpha(20%));
+        border-radius: 4px;
+        border: solid 1px color(var(--black) alpha(10%));
         background-color: var(--white);
         color: var(--black);
     }
@@ -118,14 +119,13 @@ button.card-action:focus.focus-visible path {
 }
 
 .labeled-form-control {
-    margin-bottom: 1rem;
     position: relative;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
 
     &.disabled .label {
-        background: linear-gradient(to bottom, var(--white) 43%, var(--white) 43%, var(--light-grey) 43%);
+        background: linear-gradient(to bottom, var(--white) 50%, var(--white) 50%, var(--light-grey) 50%);
     }
 
     & :required, & :valid {
@@ -136,7 +136,7 @@ button.card-action:focus.focus-visible path {
         margin-left: 9px;
         padding: 0 5px;
         position: absolute;
-        top: -4px;
+        top: -8px;
         z-index: var(--middle-z-index);
         background: var(--white);
         font-size: var(--font-size-xs);
@@ -146,7 +146,6 @@ button.card-action:focus.focus-visible path {
     & input, & select, & textarea {
         box-sizing: border-box;
         border: 1.5px solid var(--light-grey);
-        margin-top: .2rem;
         padding: 13px;
         font-size: var(--font-size);
         font-family: var(--base-font-family);

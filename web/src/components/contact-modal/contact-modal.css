@@ -5,6 +5,10 @@
     & textarea {
         resize: none;
     }
+
+    & .labeled-form-control {
+        margin-bottom: 1rem;
+    }
 }
 
 .contact-modal .actions {
