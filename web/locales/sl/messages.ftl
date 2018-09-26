@@ -130,7 +130,10 @@ toggle-play-tooltip = Pritisnite { shortcut-play-toggle } za preklop načina pre
 speak-subtitle = Prispevajte svoj glas
 speak-goal-text = Posnetki posneti
 listen-subtitle = Pomagajte nam potrditi glasove
+hours-recorded = Posnetih ur
+hours-validated = Potrjenih ur
 read-terms-q = Ste prebrali naše pogoje?
+ready-to-record = Ste pripravljeni prispevati svoj glas?
 all-languages = Vsi jeziki
 today = Danes
 
