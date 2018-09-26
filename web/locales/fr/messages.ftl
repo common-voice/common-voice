@@ -235,8 +235,10 @@ profile-clear-modal = Si vous effacez les données de votre profil, ces informat
 profile-explanation = Gardez un œil sur votre progression en créant un profil et aidez-nous à rendre nos données vocales plus précises.
 thanks-for-account = Merci d’avoir confirmé votre compte, maintenant créons votre profil.
 why-demographic = Pourquoi est-ce important ?
+why-demographic-explanation = Les données utilisateur anonymes comme l’âge, le sexe, et l’accent particulier contribuent à améliorer les données audio utilisées pour entraîner et rendre plus pertinents les moteurs de reconnaissance vocale. Votre nom d’utilisateur et votre adresse courriel ne seront jamais associés aux données que vous communiquez, et vous pouvez choisir entre rendre public votre nom d’utilisateur et garder l’anonymat.
 keep-me-posted =
     .label = Je voudrais profiter des mises à jour et être tenu au courant des avancées du projet Common Voice.
+accept-privacy = J’accepte que vous utilisiez ces informations conformément à la <privacyLink>Politique de confidentialité</privacyLink> de Mozilla
 
 ## FAQ
 
