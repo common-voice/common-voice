@@ -68,6 +68,21 @@ class Preferences extends React.Component<Props> {
             <React.Fragment />
           )}
         </Section>
+
+        <Section title={getString('contribution-experience')} className="box">
+          <Localized id="skip-submission-feedback">
+            <h3 className="feedback-toggle-title" />
+          </Localized>
+          <div className="feedback-toggle">
+            <input type="checkbox" />
+            <Localized id="off">
+              <div />
+            </Localized>
+            <Localized id="on">
+              <div />
+            </Localized>
+          </div>
+        </Section>
       </div>
     );
   }

@@ -250,6 +250,10 @@ login-identity = Login Identity
 edit = Edit
 email-subscriptions = Email Subscriptions
 download-profile = Download my data
+contribution-experience = Contribution Experience
+skip-submission-feedback = Skip Submission Feedback
+off = Off
+on = On
 
 ## FAQ
 faq-title = Frequently Asked Questions
