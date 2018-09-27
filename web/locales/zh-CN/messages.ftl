@@ -228,6 +228,7 @@ profile-close = 关闭
 profile-clear-modal = 清除您的用户资料后，您提交给 Common Voice 的录音将不再标注上人口统计学特征。
 profile-explanation = 通过使用个人资料跟踪您的进度，以帮助我们的语音数据更准确。
 thanks-for-account = 感谢您确认账户信息，接下来请提供您的个人资料。
+why-demographic = 为什么这很重要？
 
 ## FAQ
 
