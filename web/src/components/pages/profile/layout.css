@@ -110,6 +110,7 @@
     }
 
     & .content {
+        box-sizing: border-box;
         max-width: 785px;
         width: 100%;
 

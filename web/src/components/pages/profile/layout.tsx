@@ -28,7 +28,7 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
         <div className="links">
           <NavLink to={infoRoute}>
             <UserIcon />
-            <span className="text">Build Profile</span>
+            <span className="text">{user.account ? '' : 'Build '}Profile</span>
           </NavLink>
           {false && (
             <NavLink to={avatarRoute}>

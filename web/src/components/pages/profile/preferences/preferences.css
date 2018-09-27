@@ -15,6 +15,10 @@
             box-sizing: border-box;
             width: 100%;
 
+            @media (--sm-down) {
+                margin-bottom: 10px;
+            }
+
             @media (--md-up) {
                 width: calc(50% - var(--profile-column-margin) / 2);
 
