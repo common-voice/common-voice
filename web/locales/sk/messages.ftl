@@ -58,11 +58,13 @@ kpv = komi-zyriančina
 kw = kornčina
 ky = kirgizština
 mk = macedónčina
+mn = mongolčina
 myv = erzya
 nb-NO = nórčina (bokmål)
 ne-NP = nepálčina
 nl = holandčina
 nn-NO = nórčina (nynorsk)
+oc = okcitánčina
 or = urijčina
 pl = poľština
 pt-BR = portugalčina (Brazília)
@@ -83,6 +85,7 @@ tt = tatárčina
 uk = ukrajinčina
 ur = urdčina
 uz = uzbečtina
+vi = vietnamčina
 zh-CN = čínština (Čína)
 zh-HK = čínština (Hongkong)
 zh-TW = čínština (Taiwan)
@@ -226,6 +229,10 @@ profile-form-age =
     .label = Vek
 profile-form-gender =
     .label = Pohlavie
+leaderboard-visibility =
+    .label = Viditeľnosť v rebríčku
+native-language =
+    .label = Materinský jazyk
 profile-form-submit-save = Uložiť
 profile-form-submit-saved = Uložený
 profile-keep-data = Ponechať údaje
@@ -242,6 +249,20 @@ profile-create-success = Profil bol úspešne vytvorený!
 profile-close = Zavrieť
 profile-clear-modal = Odstránenie údajov profilu znamená, že tieto demografické údaje už nebudú naďalej odosielané s vašimi nahrávkami.
 profile-explanation = Sledujte svoj pokrok pomocou profilu a pomôžte nám spresniť naše hlasové údaje.
+thanks-for-account = Ďakujeme za potvrdenie vášho účtu, poďme vytvoriť váš profil.
+why-demographic = Prečo na tom záleží?
+why-demographic-explanation = Anonymizované údaje, ako vek, pohlavie a prízvuk pomáhajú vylepšovať naše údaje, ktoré budú použité na trénovanie systémov rozpoznávania reči. Vaše používateľské meno a e-mailová adresa nebudú nikdy spojené s odoslanými údajmi a môžete si vybrať, či chcete svoje používateľské meno zverejniť alebo nie.
+keep-me-posted =
+    .label = Chcem dostávať novinky o projekte Common Voice.
+accept-privacy = Súhlasím so spracovaním týchto údajov tak, ako je to popísané v <privacyLink>zásadách ochrany súkromia</privacyLink>
+login-identity = Identita pre prihlásenie
+edit = Upraviť
+email-subscriptions = Odbery pomocou e-mailu
+download-profile = Prevziať moje údaje
+contribution-experience = Používateľský zážitok
+skip-submission-feedback = Preskočiť spätnú väzbu
+off = Vypnutá
+on = Zapnutá
 
 ## FAQ
 
@@ -342,7 +363,7 @@ contact-form-name =
     .label = Meno
 contact-form-message =
     .label = Správa
-contact-required = *vyžadované
+contact-required = * vyžadované pole
 
 ## Request Language Modal
 
