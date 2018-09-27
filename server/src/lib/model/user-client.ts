@@ -112,7 +112,9 @@ const UserClient = {
               'email',
               'gender',
               'username',
-              'basket_token'
+              'basket_token',
+              'skip_submission_feedback',
+              'visible'
             ),
             locales: client.locales.concat(
               typeof row.accent == 'string'
@@ -140,18 +142,27 @@ const UserClient = {
     const accountClientId = account ? account.client_id : client_id;
     const clientIds = clients.map((c: any) => c.client_id).concat(client_id);
 
+    const userData = await Promise.all(
+      Object.entries({
+        sso_id,
+        email,
+        ...pick(
+          data,
+          'age',
+          'gender',
+          'username',
+          'skip_submission_feedback',
+          'visible'
+        ),
+      }).map(async ([key, value]) => key + ' = ' + (await db.escape(value)))
+    );
     await db.query(
       `
         UPDATE user_clients
-        SET age = :age, gender = :gender, username = :username, sso_id = :sso_id, email = :email
-        WHERE client_id = :client_id
+        SET ${userData.join(', ')}
+        WHERE client_id = ?
       `,
-      {
-        client_id: accountClientId,
-        sso_id,
-        email,
-        ...pick(data, 'age', 'gender', 'username'),
-      }
+      [accountClientId]
     );
 
     await Promise.all([
@@ -163,7 +174,7 @@ const UserClient = {
         accountClientId,
         clientIds,
       ]),
-      updateLocales(accountClientId, locales),
+      locales && updateLocales(accountClientId, locales),
     ]);
 
     return UserClient.findAccount(sso_id);

@@ -86,6 +86,10 @@ export default class Mysql {
     return (await this.getPool()).query(...args);
   }
 
+  async escape(...args: any[]) {
+    return (await this.getPool()).escape(...args);
+  }
+
   async ensureRootConnection(): Promise<void> {
     // Check if we already have the connection we want.
     if (this.rootConn) {

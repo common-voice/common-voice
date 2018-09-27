@@ -7,4 +7,5 @@ export type UserClient = {
   locales?: { locale: string; accent: string }[];
   visible?: boolean;
   basket_token?: string;
+  skip_submission_feedback?: boolean;
 };

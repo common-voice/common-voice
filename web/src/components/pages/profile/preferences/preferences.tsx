@@ -41,6 +41,12 @@ interface PropsFromDispatch {
 interface Props extends LocalizationProps, PropsFromState, PropsFromDispatch {}
 
 class Preferences extends React.Component<Props> {
+  syncSkipSubmissionFeedback = (event: React.ChangeEvent<HTMLInputElement>) => {
+    this.props.api.saveAccount({
+      skip_submission_feedback: event.target.checked,
+    });
+  };
+
   render() {
     const { account, getString } = this.props;
     const firstLanguage = account.locales[0];
@@ -74,7 +80,11 @@ class Preferences extends React.Component<Props> {
             <h3 className="feedback-toggle-title" />
           </Localized>
           <div className="feedback-toggle">
-            <input type="checkbox" />
+            <input
+              type="checkbox"
+              onChange={this.syncSkipSubmissionFeedback}
+              defaultChecked={account.skip_submission_feedback}
+            />
             <Localized id="off">
               <div />
             </Localized>

@@ -12,6 +12,7 @@ import { NATIVE_NAMES } from '../../../../services/localization';
 import { ACCENTS, AGES, SEXES } from '../../../../stores/demographics';
 import { Notifications } from '../../../../stores/notifications';
 import StateTree from '../../../../stores/tree';
+import { Uploads } from '../../../../stores/uploads';
 import { User } from '../../../../stores/user';
 import URLS from '../../../../urls';
 import { LocaleLink } from '../../../locale-helpers';
@@ -50,6 +51,7 @@ interface PropsFromState {
 
 interface PropsFromDispatch {
   addNotification: typeof Notifications.actions.add;
+  addUploads: typeof Uploads.actions.add;
   refreshUser: typeof User.actions.refresh;
 }
 
@@ -152,27 +154,38 @@ class ProfilePage extends React.Component<Props, State> {
   };
 
   submit = () => {
-    const { addNotification, api, getString, refreshUser, user } = this.props;
-    this.setState({ isSaving: true, isSubmitted: true }, async () => {
-      await Promise.all([
-        api.saveAccount({
-          ...pick(
-            this.state,
-            'username',
-            'visible',
-            'age',
-            'gender',
-            'locales'
-          ),
-          client_id: user.userId,
-        }),
-        !(user.account && user.account.basket_token) &&
-          this.state.sendEmails &&
-          api.subscribeToNewsletter(user.userClients[0].email),
+    const {
+      addNotification,
+      addUploads,
+      api,
+      getString,
+      refreshUser,
+      user,
+    } = this.props;
+    this.setState({ isSaving: true, isSubmitted: true }, () => {
+      addUploads([
+        async () => {
+          await Promise.all([
+            api.saveAccount({
+              ...pick(
+                this.state,
+                'username',
+                'visible',
+                'age',
+                'gender',
+                'locales'
+              ),
+              client_id: user.userId,
+            }),
+            !(user.account && user.account.basket_token) &&
+              this.state.sendEmails &&
+              api.subscribeToNewsletter(user.userClients[0].email),
+          ]);
+          refreshUser();
+          this.setState({ isSaving: false });
+          addNotification(getString('profile-form-submit-saved'));
+        },
       ]);
-      refreshUser();
-      this.setState({ isSaving: false });
-      addNotification(getString('profile-form-submit-saved'));
     });
   };
 
@@ -341,6 +354,7 @@ export default connect<PropsFromState, PropsFromDispatch>(
     user,
   }),
   {
+    addUploads: Uploads.actions.add,
     addNotification: Notifications.actions.add,
     refreshUser: User.actions.refresh,
   }
