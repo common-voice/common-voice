@@ -58,11 +58,13 @@ kpv = Komi-zürjén
 kw = Cornwalli
 ky = Kirgiz
 mk = Macedón
+mn = Mongol
 myv = Erza
 nb-NO = Norvég bokmål
 ne-NP = Nepáli
 nl = Holland
 nn-NO = Norvég nynorsk
+oc = Okcitán
 or = Orija
 pl = Lengyel
 pt-BR = Portugál (Brazília)
@@ -83,6 +85,7 @@ tt = Tatár
 uk = Ukrán
 ur = Urdu
 uz = Üzbég
+vi = Vietnámi
 zh-CN = Kínai (Kína)
 zh-HK = Kínai (Hong Kong)
 zh-TW = Kínai (Tajvan)
@@ -243,6 +246,9 @@ why-demographic-explanation = Az anonimizált felhasználói adatok, mint az él
 keep-me-posted =
     .label = Szeretnék frissítéseket kapni, és naprakész lenni, hogy mi történik a Common Voice-szal.
 accept-privacy = Beleegyezem, hogy a Mozilla <privacyLink>Adatvédelmi irányelveiben</privacyLink> leírtak szerint kezeljék az adataimat
+login-identity = Bejelentkezési azonosító
+edit = Szerkesztés
+email-subscriptions = E-mail feliratkozások
 
 ## FAQ
 
