@@ -243,6 +243,11 @@ accept-privacy = Ik ga akkoord met hoe u met deze gegevens omgaat, zoals uitgele
 login-identity = Aanmeldingsidentiteit
 edit = Bewerken
 email-subscriptions = E-mailinschrijvingen
+download-profile = Mijn gegevens downloaden
+contribution-experience = Ervaring met bijdragen
+skip-submission-feedback = Feedback over inzending overslaan
+off = Uit
+on = Aan
 
 ## FAQ
 
