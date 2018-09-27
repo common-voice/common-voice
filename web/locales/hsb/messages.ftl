@@ -251,6 +251,11 @@ accept-privacy = Sym přezjedny, zo so tute informacije wužiwaja, kak so w <pri
 login-identity = Přizjewjenska identita
 edit = Wobdźěłać
 email-subscriptions = E-mejlowe abonementy
+download-profile = Moje daty sćahnyć
+contribution-experience = Nazhonjenje při sobuskutkowanju
+skip-submission-feedback = Komentar wotpósłanja přeskočić
+off = Wupinjeny
+on = Zapinjeny
 
 ## FAQ
 
