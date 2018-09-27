@@ -243,6 +243,11 @@ accept-privacy = Ich bin einverstanden, dass diese Daten wie in der <privacyLink
 login-identity = Anmeldeidentität
 edit = Bearbeiten
 email-subscriptions = E-Mail-Abonnements
+download-profile = Meine Daten herunterladen
+contribution-experience = Erfahrung beim Mitmachen
+skip-submission-feedback = Feedback zur Übermittlung überspringen
+off = Aus
+on = An
 
 ## FAQ
 
