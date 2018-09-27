@@ -243,6 +243,9 @@ accept-privacy = Io concorda que vos tracta iste informationes como vos explica 
 login-identity = Identitate de connexion
 edit = Editar
 email-subscriptions = Subscriptiones de email
+download-profile = Discargar mi datos
+off = Inactive
+on = Activar
 
 ## FAQ
 
