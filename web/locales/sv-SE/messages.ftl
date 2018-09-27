@@ -58,11 +58,13 @@ kpv = Komi-syrjänska
 kw = Korniska
 ky = Kirgiziska
 mk = Makedonska
+mn = Mongoliska
 myv = Erzya
 nb-NO = Norska Bokmål
 ne-NP = Nepali
 nl = Nederländska
 nn-NO = Norska, nynorska
+oc = Occitanska
 or = Odia
 pl = Polska
 pt-BR = Portugisiska (Brasilien)
@@ -83,6 +85,7 @@ tt = Tatariska
 uk = Ukrainska
 ur = Urdu
 uz = Uzbekistanska
+vi = Vietnamesiska
 zh-CN = Kinesiska (Kina)
 zh-HK = Kinesiska (Hong Kong)
 zh-TW = Kinesiska (Taiwan)
@@ -240,6 +243,7 @@ why-demographic-explanation = Anonymiserade användardata som ålder, kön och a
 keep-me-posted =
     .label = Jag skulle vilja ha uppdateringar och hålla mig uppdaterad med vad som händer med Common Voice.
 accept-privacy = Jag är okej med att du hanterar denna information som du förklarar i Mozillas <privacyLink>sekretesspolicy</privacyLink>
+edit = Redigera
 
 ## FAQ
 
