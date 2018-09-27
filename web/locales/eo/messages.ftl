@@ -86,7 +86,7 @@ uk = Ukraina
 ur = Urdua
 uz = Uzbeka
 vi = Vjetnama
-zh-CN = Ĉina (Ĉinujo)
+zh-CN = Ĉina (Ĉinio)
 zh-HK = Ĉina (Honkongo)
 zh-TW = Ĉina (Tajvano)
 
@@ -234,6 +234,20 @@ profile-create-success = Sukceso, profilo kreita!
 profile-close = Fermi
 profile-clear-modal = Se vi viŝas vian profilon, viaj demografiaj datumoj ne plu estos senditaj al Common Voice kun viaj sonregistraĵoj.
 profile-explanation = Sekvu vian progreson per profilo, kaj helpu niajn voĉajn datumojn iĝi pli precizaj.
+thanks-for-account = Dankon pro la konfirmo de via konto, nun kreu ni vian profilon.
+why-demographic = Kial tio ĉi gravas?
+why-demographic-explanation = Anonimigitaj datumoj de uzanto kiel aĝo, sekso kaj akĉento helpas plibonigi la voĉajn datumojn, kiujn oni uzas por trejni la akuratecon de la voĉrekoniloj. Vi nomo de uzanto kaj via retpoŝto neniam estos asociitaj kun la datumoj, kiujn vi sendas, kaj vi povas elekti ĉu igi vian nomon de uzanto publika aŭ anonima.
+keep-me-posted =
+    .label = Mi ŝatus ricevi ĝisdatigojn kaj novaĵojn pri Common Voice.
+accept-privacy = Mi konsentas kun via pritrakto de tiu ĉi informo, laŭ via priskribo en la <privacyLink>privateca politiko</privacyLink> de Mozilla
+login-identity = Idento de seanco
+edit = Redakti
+email-subscriptions = Retpoŝtaj abonoj
+download-profile = Elŝuti miajn datumojn
+contribution-experience = Kontribua sperto
+skip-submission-feedback = Ignori la sendon de opinio
+off = Malŝaltita
+on = Ŝaltita
 
 ## FAQ
 
