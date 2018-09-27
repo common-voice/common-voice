@@ -251,6 +251,11 @@ accept-privacy = Som wobjadny, až se toś te informacije wužywaju, kak se w <p
 login-identity = Pśizjawjeńska identita
 edit = Wobźěłaś
 email-subscriptions = E-mailowe abonementy
+download-profile = Móje daty ześěgnuś
+contribution-experience = Nazgónjenje pśi sobustatkowanju
+skip-submission-feedback = Komentar wótpósłanja pśeskócyś
+off = Wušaltowany
+on = Zašaltowany
 
 ## FAQ
 
