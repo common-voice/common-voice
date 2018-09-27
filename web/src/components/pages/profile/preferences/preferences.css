@@ -94,6 +94,7 @@
             height: 100%;
             position: absolute;
             appearance: none;
+            cursor: pointer;
 
             &::before {
                 content: '';
@@ -116,5 +117,15 @@
             z-index: var(--middle-z-index);
             pointer-events: none;
         }
+    }
+
+    & .skip-submission-description {
+        margin-top: 40px;
+        line-height: 1.5;
+    }
+
+    & .skip-submission-note {
+        margin-top: 10px;
+        color: var(--near-black);
     }
 }

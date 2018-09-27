@@ -92,6 +92,12 @@ class Preferences extends React.Component<Props> {
               <div />
             </Localized>
           </div>
+          <Localized id="skip-submission-description">
+            <p className="skip-submission-description" />
+          </Localized>
+          <Localized id="skip-submission-note">
+            <p className="skip-submission-note" />
+          </Localized>
         </Section>
       </div>
     );
