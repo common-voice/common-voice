@@ -58,11 +58,13 @@ kpv = Komi
 kw = Córnicu
 ky = Kirguís
 mk = Macedoniu
+mn = Mongol
 myv = Erzya
 nb-NO = Bokmål noruegu
 ne-NP = Nepalí
 nl = Neerlandés
 nn-NO = Nynorsk noruegu
+oc = Occitanu
 or = Oriya
 pl = Polacu
 pt-BR = Portugués (Brasil)
@@ -83,6 +85,7 @@ tt = Tatar
 uk = Ucraín
 ur = Urdu
 uz = Uzbecu
+vi = Vietnamita
 zh-CN = Chinu (China)
 zh-HK = Chinu (Ḥong Kong)
 zh-TW = Chinu (Taiwán)
@@ -252,6 +255,13 @@ profile-explanation = Sigui'l to progresu con un perfil y ayuda a que los nuesos
 thanks-for-account = Gracies por confirmar la cuenta, agora vamos facer el to perfil.
 why-demographic = ¿Por qué importa esto?
 accept-privacy = Toi d'alcuerdu con que remanéis esta información como desplicáis na <privacyLink>política de privacidá</privacyLink> de Mozilla
+login-identity = Identidá del aniciu de sesión
+edit = Editar
+download-profile = Baxar los mios datos
+contribution-experience = Esperiencia de la collaboración
+skip-submission-feedback = Saltar l'unviu de los comentarios
+off = NON
+on = SÍ
 
 ## FAQ
 
