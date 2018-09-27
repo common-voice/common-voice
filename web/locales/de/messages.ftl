@@ -58,11 +58,13 @@ kpv = Komi-Syrjänisch
 kw = Cornish
 ky = Kirgisisch
 mk = Mazedonisch
+mn = Mongolisch
 myv = Ersjanisch
 nb-NO = Norwegisches Bokmål
 ne-NP = Nepali
 nl = Niederländisch
 nn-NO = Nynorsk
+oc = Okzitanisch
 or = Odia
 pl = Polnisch
 pt-BR = Portugiesisch (Brasilianisch)
@@ -83,6 +85,7 @@ tt = Tatarisch
 uk = Ukrainisch
 ur = Urdu
 uz = Usbekisch
+vi = Vietnamesisch
 zh-CN = Chinesisch (China)
 zh-HK = Chinesisch (Hong Kong)
 zh-TW = Chinesisch (Taiwan)
@@ -237,6 +240,9 @@ why-demographic-explanation = Anonymisierte Nutzerangaben wie Alter, Geschlecht 
 keep-me-posted =
     .label = Haltet mich auf dem Laufenden, wenn es was neues bzgl. Common Voice gibt.
 accept-privacy = Ich bin einverstanden, dass diese Daten wie in der <privacyLink>Datenschutzerklärung</privacyLink> beschrieben verwendet werden.
+login-identity = Anmeldeidentität
+edit = Bearbeiten
+email-subscriptions = E-Mail-Abonnements
 
 ## FAQ
 
