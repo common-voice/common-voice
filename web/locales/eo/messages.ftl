@@ -58,11 +58,13 @@ kpv = Komiziriana
 kw = Korniŝa
 ky = Kirgiza
 mk = Makedona
+mn = Mongola
 myv = Erzja
 nb-NO = Norvega Bokmål
 ne-NP = Nepala
 nl = Nederlanda
 nn-NO = Norvega ninorsk
+oc = Okcitana
 or = Odia
 pl = Pola
 pt-BR = Portugala (Brazilo)
@@ -83,6 +85,7 @@ tt = Tatara
 uk = Ukraina
 ur = Urdua
 uz = Uzbeka
+vi = Vjetnama
 zh-CN = Ĉina (Ĉinujo)
 zh-HK = Ĉina (Honkongo)
 zh-TW = Ĉina (Tajvano)
@@ -138,6 +141,23 @@ hours-recorded = Horoj registritaj
 hours-validated = Horoj validigitaj
 read-terms-q = Ĉu vi legis niajn kondiĉojn?
 ready-to-record = Ĉu vi pretas donaci vian voĉon?
+all-languages = Ĉiuj lingvoj
+today = Hodiaŭ
+x-weeks-short =
+    { $count ->
+        [one] Semajno
+       *[other] { $count } semajnoj
+    }
+x-months-short =
+    { $count ->
+        [one] Monato
+       *[other] { $count } monatoj
+    }
+x-years-short =
+    { $count ->
+        [one] Jaro
+       *[other] { $count } jaroj
+    }
 
 ## Speak & Listen Shortcuts
 
@@ -194,6 +214,10 @@ profile-form-age =
     .label = Aĝo
 profile-form-gender =
     .label = Sekso
+leaderboard-visibility =
+    .label = Publika montro
+native-language =
+    .label = Denaska lingvo
 profile-form-submit-save = Konservi
 profile-form-submit-saved = Konservita
 profile-keep-data = Gardi datumojn
