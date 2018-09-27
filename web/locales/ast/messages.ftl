@@ -125,7 +125,7 @@ wall-of-text-start =
     escomanada de datos de voz.
 wall-of-text-more-mobile =
     La mayoría de datos usaos por compañes grandes nun tán disponibles pa la mayoría de xente.
-    Cuidamos qu'eso torga la innovación polo que llanzamos Common Voice. Un proyeutu p'ayudar
+    Cuidamos qu'eso torga la innovación polo que llanzamos Common Voice, un proyeutu p'ayudar
     a facer que la reconocencia de voz tea abierta al tol mundu.
 wall-of-text-more-desktop =
     Agora pues emprestar la to voz p'ayudanos a construyir una base de datos abierta que tol mundu
@@ -255,6 +255,8 @@ profile-explanation = Sigui'l to progresu con un perfil y ayuda a que los nuesos
 thanks-for-account = Gracies por confirmar la cuenta, agora vamos facer el to perfil.
 why-demographic = ¿Por qué importa esto?
 why-demographic-explanation = Los datos anonimizaos como edá, sexu y acentu ayuden a ameyorar los datos d'audiu usaos pa entrenar la precisión de los motores de reconocencia de voz. El to nome d'usuariu y corréu enxamás nun va asociase colos datos unviaos, y vas poder escoyer si facelos públicos o anónimos.
+keep-me-posted =
+    .label = Prestaríame tar al día, con anovamientos, pa saber lo último de Common Voice.
 accept-privacy = Toi d'alcuerdu con que remanéis esta información como desplicáis na <privacyLink>política de privacidá</privacyLink> de Mozilla
 login-identity = Identidá del aniciu de sesión
 edit = Editar
@@ -397,7 +399,7 @@ total-hours = Hores totales
 action-click = Fai clic
 action-tap = Calca
 contribute = Collaborar
-listen = Sienti
+listen = Sentir
 skip = Saltar
 shortcuts = Atayos
 clips-with-count = <bold>{ $count }</bold> clips
@@ -429,6 +431,6 @@ listen-instruction = { $actionType }<playIcon></playIcon>, ¿pronunció correuta
 listen-again-instruction = ¡Bon trabayu!<playIcon></playIcon> Volvi sentir cuando teas preparáu
 listen-3rd-time-instruction = 2 menos, ¡sigui asina!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>¡La última!
-nothing-to-validate = Nun tenemos nada pa revisar nesta llingua, ayúdanos a rellenar la cola.
+nothing-to-validate = Nun tenemos nada pa revisar nesta llingua, ayúdanos a enllenar la cola.
 record-button-label = Graba la to voz
 share-title-new = <bold>Ayúdanos</bold> a alcontrar más voces
