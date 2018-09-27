@@ -58,11 +58,13 @@ kpv = 科米-齊良語
 kw = 康瓦爾語
 ky = 吉爾吉斯語
 mk = 馬其頓語
+mn = 蒙古語
 myv = 厄茲亞語
 nb-NO = 挪威語（Bokmål）
 ne-NP = 尼泊爾語
 nl = 荷蘭語
 nn-NO = 挪威語（Nynorsk）
+oc = 奧西坦語
 or = 奧里亞語
 pl = 波蘭語
 pt-BR = 葡萄牙語（巴西）
@@ -83,6 +85,7 @@ tt = 韃靼語
 uk = 烏克蘭語
 ur = 烏爾都語
 uz = 烏茲別克語
+vi = 越南語
 zh-CN = 華語（中國）
 zh-HK = 華語（香港）
 zh-TW = 華語（台灣）
@@ -235,6 +238,9 @@ why-demographic-explanation = 匿名化的使用者資料，如年齡、性別�
 keep-me-posted =
     .label = 我想收到 Common Voice 最近發生什麼事情的最新情報。
 accept-privacy = 我同意你依照 Mozilla 的<privacyLink>隱私權保護政策</privacyLink>當中描述的方式處理這些資訊
+login-identity = 登入身分
+edit = 編輯
+email-subscriptions = 電子郵件訂閱
 
 ## FAQ
 
