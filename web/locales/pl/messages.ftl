@@ -219,7 +219,7 @@ profile-form-age =
 profile-form-gender =
     .label = Płeć
 leaderboard-visibility =
-    .label = Widoczność rankingu
+    .label = Widoczność na rankingu
 native-language =
     .label = Język ojczysty
 profile-form-submit-save = Zapisz
@@ -247,6 +247,11 @@ accept-privacy = Pozwalam wykorzystywać te dane w sposób opisany w <privacyL
 login-identity = Tożsamość logowania
 edit = Edytuj
 email-subscriptions = Subskrypcje e-mail
+download-profile = Pobierz moje dane
+contribution-experience = Przeszłe doświadczenie
+skip-submission-feedback = Pomiń przekazanie opinii o wysyłaniu
+off = Wyłączone
+on = Włączone
 
 ## FAQ
 
