@@ -249,6 +249,7 @@ accept-privacy = I'm okay with you handling this info as you explain in Mozilla'
 login-identity = Login Identity
 edit = Edit
 email-subscriptions = Email Subscriptions
+download-profile = Download my data
 
 ## FAQ
 faq-title = Frequently Asked Questions

@@ -1,16 +1,50 @@
+import { Localized } from 'fluent-react/compat';
+import pick = require('lodash.pick');
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { Redirect, Route, Switch } from 'react-router';
+import { UserClient } from '../../../../../common/user-clients';
 import { NavLink } from 'react-router-dom';
 import { User } from '../../../stores/user';
 import StateTree from '../../../stores/tree';
 import URLS from '../../../urls';
 import { localeConnector, LocalePropsFromState } from '../../locale-helpers';
 import { CameraIcon, ToggleIcon, UserIcon } from '../../ui/icons';
+import { Button } from '../../ui/ui';
 import InfoPage from './info/info';
 import Preferences from './preferences/preferences';
 
 import './layout.css';
+
+function downloadData(account: UserClient) {
+  const text = [
+    ...Object.entries(pick(account, 'email', 'username', 'age', 'gender')),
+    ...account.locales.reduce((all, l, i) => {
+      const localeLabel = 'language ' + (i + 1);
+      return [
+        ...all,
+        [localeLabel, l.locale],
+        [localeLabel + ' accent', l.accent],
+      ];
+    }, []),
+  ]
+    .map(([key, value]) => key + ': ' + value)
+    .join('\n');
+
+  const element = document.createElement('a');
+  element.setAttribute(
+    'href',
+    'data:text/plain;charset=utf-8,' + encodeURIComponent(text)
+  );
+  element.setAttribute('download', 'profile.txt');
+
+  element.style.display = 'none';
+  document.body.appendChild(element);
+
+  element.click();
+
+  document.body.removeChild(element);
+}
 
 interface PropsFromState {
   user: User.State;
@@ -41,6 +75,18 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
             <span className="text">Preferences</span>
           </NavLink>
         </div>
+
+        {user.account && (
+          <div className="buttons">
+            <Localized id="download-profile">
+              <Button
+                rounded
+                outline
+                onClick={() => downloadData(user.account)}
+              />
+            </Localized>
+          </div>
+        )}
       </div>
       <div className="content">
         <Switch>

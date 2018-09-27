@@ -29,11 +29,14 @@
     & .profile-nav {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         background: #f6f6f5;
 
         @media (--md-up) {
             margin-right: 50px;
             padding-top: 50px;
+            padding-right: 30px;
+            padding-bottom: 30px;
             width: 100%;
             max-width: 35%;
 
@@ -60,7 +63,6 @@
             }
 
             @media (--md-up) {
-                margin-right: 30px;
                 flex-direction: column;
             }
 
@@ -105,6 +107,14 @@
                         display: none;
                     }
                 }
+            }
+        }
+
+        & .buttons {
+            display: none;
+
+            @media (--md-up) {
+                display: block;
             }
         }
     }
