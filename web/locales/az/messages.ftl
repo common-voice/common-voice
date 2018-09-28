@@ -245,6 +245,9 @@ accept-privacy = Bu məlumatı Mozillanın <privacyLink>Məxfilik Siyasəti</pri
 login-identity = Giriş İdentikliyi
 edit = Redaktə et
 email-subscriptions = E-poçt Abunəlikləri
+download-profile = Məlumatlarımı endir
+contribution-experience = Kömək Təcrübəsi
+skip-submission-feedback = Əks-əlaqə göndərməyi keç
 
 ## FAQ
 
