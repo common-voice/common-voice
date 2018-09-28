@@ -58,6 +58,7 @@ kpv = Bahasa Komi-Zyrian
 kw = Bahasa Kornish
 ky = Bahasa Kirgiz
 mk = Bahasa Makedonia
+mn = Mongolia
 myv = Bahasa Erzya
 nb-NO = Bahasa Bokmal (Norwegia)
 ne-NP = Bahasa Nepali
@@ -83,6 +84,7 @@ tt = Bahasa Tatar
 uk = Bahasa Ukraina
 ur = Bahasa Urdu
 uz = Bahasa Uzbek
+vi = Vietnam
 zh-CN = Bahasa Tionghoa (Tiongkok)
 zh-HK = Bahasa Tiongkok (Hong Kong)
 zh-TW = Bahasa Tionghoa (Taiwan)
@@ -225,6 +227,14 @@ profile-create-success = Berhasil, profil telah dibuat!
 profile-close = Tutup
 profile-clear-modal = Data demografis ini tidak akan dikumpulkan bersama dengan rekaman berikutnya jika Anda menghapus data profil Anda dari Common Voice.
 profile-explanation = Pantau progres Anda dengan sebuah profil dan bantu data suara kami semakin akurat.
+why-demographic = Mengapa ini berpengaruh?
+login-identity = Identitas Masuk
+edit = Ubah
+email-subscriptions = Langganan Surel
+download-profile = Unduh data saya
+contribution-experience = Pengalaman Kontribusi
+off = Nonaktif
+on = Aktif
 
 ## FAQ
 
