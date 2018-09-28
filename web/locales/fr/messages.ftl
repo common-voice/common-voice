@@ -242,6 +242,8 @@ why-demographic-explanation = Les données utilisateur anonymes comme l’âge, 
 keep-me-posted =
     .label = Je voudrais profiter des mises à jour et être tenu au courant des avancées du projet Common Voice.
 accept-privacy = J’accepte que vous utilisiez ces informations conformément à la <privacyLink>Politique de confidentialité</privacyLink> de Mozilla
+edit = Modifier
+download-profile = Télécharger mes données
 
 ## FAQ
 
