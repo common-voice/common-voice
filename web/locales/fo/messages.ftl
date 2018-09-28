@@ -10,7 +10,7 @@ loading = Hugsar...
 
 ## Languages
 
-ar = Arábiskt
+ar = Arabiskt
 az = Aserbadjanskt
 bn = Bengalskt
 br = Bretonskt
@@ -23,6 +23,28 @@ el = Grikskt
 en = Enskt
 eo = Esperanto
 es = Spanskt
+et = Estiskt
+fi = Finskt
+fo = Føroyskt
+fr = Franskt
+fy-NL = Frísiskt
+ga-IE = Írskt
+he = Hebraiskt
+hu = Ungarskt
+ia = Interlingua
+id = Indonesiskt
+is = Íslendskt
+it = Italskt
+ja = Japanskt
+ka = Georgiskt
+kk = Kasakiskt
+ko = Koreiskt
+kw = Korniskt
+mk = Makedónskt
+mn = Mongolskt
+nb-NO = Norskt (Bókmál)
+ne-NP = Nepalskt
+nn-NO = Norskt (Nýnorskt)
 
 # [/]
 
@@ -95,4 +117,3 @@ profile-why-title = Hví ein profil?
 ## New Contribution
 
 record-button-label = Tak upp tína rødd
-share-title-new = Hjálp okkum at finna meira røddir
