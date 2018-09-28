@@ -243,7 +243,14 @@ why-demographic-explanation = Anonymiserade användardata som ålder, kön och a
 keep-me-posted =
     .label = Jag skulle vilja ha uppdateringar och hålla mig uppdaterad med vad som händer med Common Voice.
 accept-privacy = Jag är okej med att du hanterar denna information som du förklarar i Mozillas <privacyLink>sekretesspolicy</privacyLink>
+login-identity = Inloggningsidentitet
 edit = Redigera
+email-subscriptions = E-prenumerationer
+download-profile = Hämta min data
+contribution-experience = Erfarenhet
+skip-submission-feedback = Hoppa över återkoppling
+off = Av
+on = På
 
 ## FAQ
 
