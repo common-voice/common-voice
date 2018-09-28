@@ -10,6 +10,19 @@ loading = Hugsar...
 
 ## Languages
 
+ar = Arábiskt
+az = Aserbadjanskt
+bn = Bengalskt
+br = Bretonskt
+ca = Katalanskt
+cs = Kekkiskt
+cy = Walisiskt
+da = Danskt
+de = Týskt
+el = Grikskt
+en = Enskt
+eo = Esperanto
+es = Spanskt
 
 # [/]
 
@@ -81,3 +94,5 @@ profile-why-title = Hví ein profil?
 
 ## New Contribution
 
+record-button-label = Tak upp tína rødd
+share-title-new = Hjálp okkum at finna meira røddir
