@@ -57,6 +57,7 @@ kpv = komijščina
 kw = kornijščina
 ky = kirgiščina
 mk = makedonščina
+mn = mongolščina
 myv = erzjanščina
 nb-NO = norveščina (bokmål)
 ne-NP = nepalščina
@@ -82,6 +83,7 @@ tt = tatarščina
 uk = ukrajinščina
 ur = urdujščina
 uz = uzbeščina
+vi = vietnamščina
 zh-CN = kitajščina (Kitajska)
 zh-HK = kitajščina (Hong Kong)
 zh-TW = kitajščina (Tajvan)
@@ -217,6 +219,7 @@ profile-close = Zapri
 profile-clear-modal = Izbris vaših profilnih podatkov pomeni, da vaši demografski podatki ne bodo dostopni ob vaših posnetkih v projektu Common Voice.
 profile-explanation = Sledite svojemu napredku s pomočjo profila in nam pomagajte narediti naše zvočne podatke natančnejše.
 why-demographic = Zakaj je to pomembno?
+edit = Uredi
 
 ## FAQ
 
