@@ -109,9 +109,10 @@
   "devDependencies": {
     "bundlesize": "^0.15.3",
     "chalk": "^2.3.0",
+    "husky": "^1.0.1",
     "jest-matcher-utils": "^22.4.0",
     "nodemon": "^1.12.1",
-    "pre-commit": "^1.2.2",
+    "pretty-quick": "^1.7.0",
     "react-dev-utils": "^5.0.1",
     "webpack-bundle-analyzer": "^2.13.1"
   },
@@ -119,16 +120,20 @@
     "node": ">=8.9.0"
   },
   "scripts": {
-    "build": "concurrently \"node scripts/build-server.js\" \"cd web/ && webpack --mode=production\"",
+    "build":
+      "concurrently \"node scripts/build-server.js\" \"cd web/ && webpack --mode=production\"",
     "import-locales": "node scripts/import-locales",
     "lint": "eslint **/*.ts **/*.tsx",
     "migrate": "cd server/src/lib/model/db && db-migrate",
     "prettier": "yarn lint --fix",
     "start": "node scripts/dev-server.js",
     "start:prod": "node server/js/server.js",
-    "test": "concurrently --kill-others-on-fail \"yarn build && bundlesize -f \"web/dist/*.js\" -s 150kb\" \"jest --forceExit\""
+    "test":
+      "concurrently --kill-others-on-fail \"yarn build && bundlesize -f \"web/dist/*.js\" -s 150kb\" \"jest --forceExit\""
   },
-  "pre-commit": [
-    "prettier"
-  ]
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
 }
