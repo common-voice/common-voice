@@ -248,8 +248,10 @@ login-identity = Tożsamość logowania
 edit = Edytuj
 email-subscriptions = Subskrypcje e-mail
 download-profile = Pobierz moje dane
-contribution-experience = Przeszłe doświadczenie
-skip-submission-feedback = Pomiń przekazanie opinii o wysyłaniu
+contribution-experience = Interfejs nagrywania
+skip-submission-feedback = Pomiń informacje zwrotne przy wysyłaniu
+skip-submission-description = Informacje zwrotne będą pomijane po kliknięciu „Wyślij”. Praca będzie od razu kontynuowana z następnym zestawem 5 nagrań lub nagrań do zweryfikowania.
+skip-submission-note = Uwaga: nadal będzie trzeba wybrać między nagrywaniem a słuchaniem, aby zmienić rodzaj pracy.
 off = Wyłączone
 on = Włączone
 
