@@ -244,6 +244,8 @@ email-subscriptions = 電子郵件訂閱
 download-profile = 下載我的資料
 contribution-experience = 貢獻機會
 skip-submission-feedback = 跳過送出意見回饋
+skip-submission-description = 貢獻過程中，在點擊「送出」後將忽略意見回饋，直接進到下一組的五筆錄音或驗證。
+skip-submission-note = 註: 您仍須要選擇「聽」或「說」來切換貢獻類型。
 off = 關
 on = 開
 
