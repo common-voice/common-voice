@@ -249,6 +249,11 @@ accept-privacy = Beleegyezem, hogy a Mozilla <privacyLink>Adatvédelmi irányelv
 login-identity = Bejelentkezési azonosító
 edit = Szerkesztés
 email-subscriptions = E-mail feliratkozások
+download-profile = Saját adatok letöltése
+contribution-experience = Közreműködési élmény
+skip-submission-feedback = Beküldési visszajelzés kihagyása
+off = Ki
+on = Be
 
 ## FAQ
 
