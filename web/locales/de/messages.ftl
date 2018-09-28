@@ -246,6 +246,8 @@ email-subscriptions = E-Mail-Abonnements
 download-profile = Meine Daten herunterladen
 contribution-experience = Erfahrung beim Mitmachen
 skip-submission-feedback = Feedback zur Übermittlung überspringen
+skip-submission-description = Beim Mitarbeiten wird das Feedback zu Übermittlung nach dem Klick auf „Übermitteln“ übersprungen. Die Mitarbeit geht direkt mit den nächsten fünf Aufzeichnungen oder Überprüfungen weiter.
+skip-submission-note = Hinweis: Sie müssen trotzdem „Sprechen“ oder „Zuhören“ auswählen, um die Art der Mitwirkung zu ändern.
 off = Aus
 on = An
 
