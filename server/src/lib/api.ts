@@ -187,7 +187,9 @@ export default class API {
 
     const { email } = request.params;
     const basketResponse = await sendRequest({
-      uri: `https://basket.${PROD ? 'mozilla' : 'allizom'}.org/news/subscribe/`,
+      uri: `https://${
+        PROD ? 'basket.mozilla' : 'basket-dev.allizom'
+      }.org/news/subscribe/`,
       method: 'POST',
       form: {
         'api-key': BASKET_API_KEY,
