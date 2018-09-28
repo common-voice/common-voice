@@ -241,6 +241,11 @@ accept-privacy = 我同意你依照 Mozilla 的<privacyLink>隱私權保護政�
 login-identity = 登入身分
 edit = 編輯
 email-subscriptions = 電子郵件訂閱
+download-profile = 下載我的資料
+contribution-experience = 貢獻機會
+skip-submission-feedback = 跳過送出意見回饋
+off = 關
+on = 開
 
 ## FAQ
 
