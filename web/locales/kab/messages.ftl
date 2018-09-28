@@ -58,11 +58,13 @@ kpv = Takumt Zyrian
 kw = Takuṛnikt
 ky = Takirgizt
 mk = Tamasidunit
+mn = Tamungult
 myv = Erzya
 nb-NO = Tanuṛvijt Bokmål
 ne-NP = Tanipalit
 nl = Tahulandit
 nn-NO = Tanuṛvijt ninuṛsk
+oc = Tuksitant
 or = Odia
 pl = Tapulunit
 pt-BR = Tapuṛtugit (Brizil)
@@ -83,6 +85,7 @@ tt = Taṭaṭarit
 uk = Takrinit
 ur = Urdu
 uz = Tazbikit
+vi = Tavyiṭnamit
 zh-CN = Tacinwat (Cin)
 zh-HK = Tacinit 5Hung Kung)
 zh-TW = Tacinwat (Taywan)
@@ -237,6 +240,12 @@ why-demographic-explanation = Talɣut tusligt am laεmer, tuzuft, akked tmeslayt
 keep-me-posted =
     .label = Bɣiɣ ad leqmeɣ wa ad iliɣ seg imezwura ad iḥsun amaynut n Common Voice.
 accept-privacy = Qebleɣ akken ad tesqedcem talɣut inu am akken yella deg <privacyLink>tsertit n tbaḍnit</privacyLink> n Mozilla.
+login-identity = Tinekkit n tuqna
+edit = Ẓreg
+email-subscriptions = Ajerred ɣer Imayl
+download-profile = Sider isefka-inu
+off = Sens
+on = Rmed
 
 ## FAQ
 
