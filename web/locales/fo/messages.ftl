@@ -51,6 +51,11 @@ nn-NO = Norskt (Nýnorskt)
 
 ## Layout
 
+languages = Mál
+profile = Profilur
+help = Hjálp
+contact = Samband
+terms = Treytir
 report-bugs-link = Hjálp við at boða frá feilum
 
 ## Home Page
@@ -59,16 +64,18 @@ show-wall-of-text = Les meira
 help-us-title = Hjálp okkum at góðkenna setningar!
 vote-yes = Ja
 vote-no = Nei
+speak-subtitle = Gev tína rødd
 listen-subtitle = Hjálp okkum at góðkenna røddir
 hours-recorded = Tímar upptiknir
 hours-validated = Tímar góðkendir
 read-terms-q = Hevur tú lisið okkara Treytir?
+ready-to-record = Til reiðar at geva tína rødd?
 all-languages = Øll mál
 today = Í dag
 x-weeks-short =
     { $count ->
         [one] Vika
-       *[other] Vikur
+       *[other] v
     }
 
 ## Speak & Listen Shortcuts
@@ -85,6 +92,23 @@ x-weeks-short =
 
 ## ProfileForm
 
+profile-form-language =
+    .label = Mál
+profile-form-age =
+    .label = Aldur
+profile-form-gender =
+    .label = Kyn
+native-language =
+    .label = Móðurmál
+profile-form-submit-save = Goym
+male = Mannfólk
+female = Konufólk
+# Gender
+other = Annað
+why-profile-title = Hví ein profil?
+edit-profile = Broyt profil
+profile-create = Stovna ein profil
+edit = Broyt
 
 ## FAQ
 
