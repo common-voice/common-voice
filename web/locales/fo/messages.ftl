@@ -61,6 +61,7 @@ profile = Profilur
 help = Hjálp
 contact = Samband
 terms = Treytir
+cookies = Cookies
 faq = Ofta spurdir spurningar
 report-bugs-link = Hjálp við at boða frá feilum
 
@@ -81,7 +82,7 @@ today = Í dag
 x-weeks-short =
     { $count ->
         [one] Vika
-       *[other] v
+       *[other] { $count }v
     }
 
 ## Speak & Listen Shortcuts
