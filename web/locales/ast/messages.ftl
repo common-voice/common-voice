@@ -264,6 +264,7 @@ email-subscriptions = Soscripciones per corréu
 download-profile = Baxar los mios datos
 contribution-experience = Esperiencia de la collaboración
 skip-submission-feedback = Saltar l'unviu de los comentarios
+skip-submission-note = Nota: Entá vas precisar esbillar ente Falar o Sentir pa camudar la triba de collaboración.
 off = NON
 on = SÍ
 
