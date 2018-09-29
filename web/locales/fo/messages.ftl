@@ -48,6 +48,17 @@ mn = Mongolskt
 nb-NO = Norskt (Bókmál)
 ne-NP = Nepalskt
 nn-NO = Norskt (Nýnorskt)
+pl = Pólskt
+pt-BR = Portugisiskt (Brasilia)
+rm = Retoromanskt
+ro = Rumenskt
+ru = Russiskt
+sk = Slovakiskt
+sl = Slovenskt
+sq = Albanskt
+sr = Serbiskt
+sv-SE = Svenskt
+ta = Tamilskt
 
 # [/]
 
@@ -168,18 +179,38 @@ review-recording = Kanna
 
 ## Download Modal
 
+download-form-email =
+    .label = Tøppa inn tín teldupost
+    .value = Takk fyri, vit venda aftur.
+download-no = Nei takk
 
 ## Contact Modal
 
+contact-form-name =
+    .label = Navn
+contact-form-message =
+    .label = Boð
+contact-required = *kravt
 
 ## Request Language Modal
 
+request-language-title = Umbøn um eitt nýtt mál
+request-language-form-language =
+    .label = Mál
 
 ## Languages Overview
 
+language-section-launched = Sett í verk
+language-meter-in-progress = Støða
+language-total-progress = Til samans
+language-search-input =
+    .placeholder = Leita
+sentences = Setningar
 
 ## New Contribution
 
+listen = Lurta
+skip = Leyp um
 listen-again-instruction = Flott! Lurta aftur tá ið tú ert til reiðar
 record-button-label = Tak upp tína rødd
 share-title-new = <bold>Hjálp okkum</bold> at finna meira røddir
