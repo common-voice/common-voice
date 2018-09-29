@@ -87,9 +87,11 @@ languages = Mál
 profile = Profilur
 help = Hjálp
 contact = Samband
+privacy = Privatlív
 terms = Treytir
 cookies = Cookies
 faq = Ofta spurdir spurningar
+link-copied = Leinkið kopiera
 report-bugs-link = Hjálp við at boða frá feilum
 
 ## Home Page
