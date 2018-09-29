@@ -232,6 +232,7 @@ profile-close = Phit
 profile-clear-modal = Nangmah kong na hlonh ah cun Commmon Voice ah nangmah konglam le na tuun cia vialte aa hlonh dih lai.
 profile-explanation = Nangmah kong ah na tuahcia vialte zoh law, Aw kan lak mi vialte a hman deuhnak ding in kan bawm.
 edit = Remh
+download-profile = Ka data thuntlen
 
 ## FAQ
 
