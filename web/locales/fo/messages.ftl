@@ -13,7 +13,9 @@ loading = Hugsar...
 
 ## Languages
 
+an = Aragonskt
 ar = Arabiskt
+as = Assamesiskt
 az = Aserbadjanskt
 bn = Bengalskt
 br = Bretonskt
@@ -43,11 +45,14 @@ ka = Georgiskt
 kk = Kasakiskt
 ko = Koreiskt
 kw = Korniskt
+ky = Kirgisiskt
 mk = Makedónskt
 mn = Mongolskt
 nb-NO = Norskt (Bókmál)
 ne-NP = Nepalskt
 nn-NO = Norskt (Nýnorskt)
+oc = Oksitanskt
+or = Orija
 pl = Pólskt
 pt-BR = Portugisiskt (Brasilia)
 rm = Retoromanskt
@@ -59,6 +64,17 @@ sq = Albanskt
 sr = Serbiskt
 sv-SE = Svenskt
 ta = Tamilskt
+te = Telugu
+th = Tai
+tr = Turkiskt
+tt = Tatariskt
+uk = Ukrainskt
+ur = Urdu
+uz = Usbekiskt
+vi = Vjetnamesiskt
+zh-CN = Kinesiskt (Kina)
+zh-HK = Kinesiskt (Hong Kong)
+zh-TW = Kinesiskt (Taivan)
 
 # [/]
 
