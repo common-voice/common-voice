@@ -91,17 +91,22 @@ privacy = Privatlív
 terms = Treytir
 cookies = Cookies
 faq = Ofta spurdir spurningar
+share-title = Hjálp okkum at finna onnur at geva sína rødd!
 link-copied = Leinkið kopiera
+contribution-banner-button = Hygg
 report-bugs-link = Hjálp við at boða frá feilum
 
 ## Home Page
 
+wall-of-text-start = Røddin er natúrlig, røddin er menniskjulig. Tí eru vit hugtikin av at menna brúkiliga raddartøkni til okkara maskinur. Men fyri at menna skipanir til at skilja talu, krevst ein ógvuliga stór nøgd av raddartilfari.
 show-wall-of-text = Les meira
 help-us-title = Hjálp okkum at góðkenna setningar!
 vote-yes = Ja
 vote-no = Nei
 speak-subtitle = Gev tína rødd
+speak-goal-text = Klipp upptikin
 listen-subtitle = Hjálp okkum at góðkenna røddir
+listen-goal-text = Klipp góðkend
 hours-recorded = Tímar upptiknir
 hours-validated = Tímar góðkendir
 read-terms-q = Hevur tú lisið okkara Treytir?
@@ -132,6 +137,8 @@ x-years-short =
 
 ## Speak Shortcuts
 
+request-language-text = Finnur tú ikki títt mál á Common Voice?
+request-language-button = Ger eina umbøn um eitt nýtt mál
 
 ## ProjectStatus
 
@@ -215,6 +222,8 @@ contact-required = *kravt
 request-language-title = Umbøn um eitt nýtt mál
 request-language-form-language =
     .label = Mál
+request-language-success-title = Umbønin um eitt nýtt mál er móttikin. Takk fyri!
+request-language-success-content = Vit seta okkum skjótt í samband við teg um hvussu tú kanst fáa títt mál í Common Voice.
 
 ## Languages Overview
 
