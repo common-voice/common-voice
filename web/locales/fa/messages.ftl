@@ -1,5 +1,8 @@
 ## General
 
+yes-receive-emails = بله، برام ایمیل بفرست. علاقه‌مندم از پروژه صدای مشترک اطلاع کسب کنم.
+email-input =
+    .label = ایمیل
 submit-form-action = ارسال
 loading = در حال بارگیری...
 
@@ -53,6 +56,8 @@ faq = سوالات متداول
 
 edit = ویرایش
 email-subscriptions = اشتراک ایمیلی
+download-profile = دریافت داده‌های من
+contribution-experience = تجربه مشارکت
 on = روشن
 
 ## FAQ
@@ -92,3 +97,4 @@ contact-form-message =
 ## New Contribution
 
 action-click = کلیک
+share-title-new = برای یافتن صداهای بیشتر <bold>به ما کمک کنید</bold>
