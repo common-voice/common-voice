@@ -82,7 +82,17 @@ today = Í dag
 x-weeks-short =
     { $count ->
         [one] Vika
-       *[other] { $count }v
+       *[other] { $count } vikur
+    }
+x-months-short =
+    { $count ->
+        [one] mánaður
+       *[other] mðr
+    }
+x-years-short =
+    { $count ->
+        [one] ár
+       *[other] ár
     }
 
 ## Speak & Listen Shortcuts
@@ -99,6 +109,9 @@ x-weeks-short =
 
 ## ProfileForm
 
+profile-form-delete = Strika profil
+profile-form-username =
+    .label = Brúkaranavn
 profile-form-language =
     .label = Mál
 profile-form-age =
@@ -108,6 +121,7 @@ profile-form-gender =
 native-language =
     .label = Móðurmál
 profile-form-submit-save = Goym
+profile-form-submit-saved = Goymt
 male = Mannfólk
 female = Konufólk
 # Gender
@@ -115,10 +129,13 @@ other = Annað
 why-profile-title = Hví ein profil?
 edit-profile = Broyt profil
 profile-create = Stovna ein profil
+profile-close = Lat aftur
 edit = Broyt
 
 ## FAQ
 
+faq-important-q = Hví hevur tað týdning?
+faq-firefox-q = Fer talu-til-tekst úr Common Voice nakrantíð at verða partur av Firefox?
 
 ## Profile
 
