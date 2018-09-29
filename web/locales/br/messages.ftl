@@ -246,6 +246,7 @@ profile-clear-modal = Ma skarzhit roadennoù ho profil, ne vo ket kaset an titou
 profile-explanation = Dalc'hit ur roud diouzh hoc'h araokadurioù gant ur profil ha sikourit hor roadennoù mouezh da vezañ resisoc'h.
 thanks-for-account = Trugarez vras da vezañ kadarnaet ho kont, krouomp ho profil bremañ.
 why-demographic = Perak e vez pouezus?
+why-demographic-explanation = Roadennoù an implijerien dizanv evel da skouer an oad, ar jener, hag ar pouez-mouezh dibar a sikour da wellaat ar roadennoù aodio implijet evit gourdoniñ ha kas war-raok ar c'heluskerioù anaoaudur mouezh. Morse ne vo liammet hoc'h anv-implijer hag ho chomlec'h postel d'ar roadennoù a vez kaset ganeoc'h, ha gellout a rit dibab etre lakaat publik hoc'h anv-implijer pe chom dizanv.
 edit = Aozañ
 email-subscriptions = Koumanantoù d'ar roll-bosteloù
 download-profile = Pellgargañ ma roadennoù
