@@ -254,6 +254,8 @@ email-subscriptions = E-mailowe abonementy
 download-profile = Móje daty ześěgnuś
 contribution-experience = Nazgónjenje pśi sobustatkowanju
 skip-submission-feedback = Komentar wótpósłanja pśeskócyś
+skip-submission-description = Pśi sobustatkowanju se zapódawański komentar pó kliknjenju na 'Wótpósłaś' pśeskócyjo. Sobuźěło se direktnje z pśiducymi 5 nagraśami abo pśeglědanjamii pśekšacujo.
+skip-submission-note = glědajśo: Musyśo hyšći mjazy Powědaś abo Słuchaś wubraś, aby typ sobustatkowanja změnił.
 off = Wušaltowany
 on = Zašaltowany
 
