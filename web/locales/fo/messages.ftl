@@ -4,6 +4,7 @@ yes-receive-emails = Ja, send mær teldupost. Eg vil gjarna verða kunnaður um 
 return-to-cv = Aftur til Common Voice
 email-input =
     .label = Teldupostur
+submit-form-action = Send inn
 loading = Hugsar...
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -53,6 +54,8 @@ nn-NO = Norskt (Nýnorskt)
 
 ## Layout
 
+speak = Tosa
+speak-now = Tosa nú
 languages = Mál
 profile = Profilur
 help = Hjálp
