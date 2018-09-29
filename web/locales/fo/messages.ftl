@@ -1,5 +1,7 @@
 ## General
 
+yes-receive-emails = Ja, send mær teldupost. Eg vil gjarna verða kunnaður um Common Voice verkætlanina.
+return-to-cv = Aftur til Common Voice
 email-input =
     .label = Teldupostur
 loading = Hugsar...
@@ -56,6 +58,7 @@ profile = Profilur
 help = Hjálp
 contact = Samband
 terms = Treytir
+faq = Ofta spurdir spurningar
 report-bugs-link = Hjálp við at boða frá feilum
 
 ## Home Page
@@ -140,4 +143,6 @@ profile-why-title = Hví ein profil?
 
 ## New Contribution
 
+listen-again-instruction = Flott! Lurta aftur tá ið tú ert til reiðar
 record-button-label = Tak upp tína rødd
+share-title-new = <bold>Hjálp okkum</bold> at finna meira røddir
