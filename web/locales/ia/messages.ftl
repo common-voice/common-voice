@@ -244,6 +244,8 @@ login-identity = Identitate de connexion
 edit = Editar
 email-subscriptions = Subscriptiones de email
 download-profile = Discargar mi datos
+contribution-experience = Experientia de la collaboration
+skip-submission-feedback = Ignorar le invio de commentario
 off = Inactive
 on = Activar
 
