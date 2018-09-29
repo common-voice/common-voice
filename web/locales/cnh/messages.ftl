@@ -231,8 +231,16 @@ profile-create-success = A tlamtling, nangmah kong na ser khawh!
 profile-close = Phit
 profile-clear-modal = Nangmah kong na hlonh ah cun Commmon Voice ah nangmah konglam le na tuun cia vialte aa hlonh dih lai.
 profile-explanation = Nangmah kong ah na tuahcia vialte zoh law, Aw kan lak mi vialte a hman deuhnak ding in kan bawm.
+why-demographic = Zei ruangah dah biapi a si?
+keep-me-posted =
+    .label = Common Voice konghi chimh peng le theih peng ka duh ko.
 edit = Remh
 download-profile = Ka data thuntlen
+contribution-experience = Bawmhnak Petu Hmuh Ning
+skip-submission-feedback = Hmuhning Kuatnak Lanhtak
+skip-submission-note = Theihternak: Na aw pekchanhnak thlen na duh ahcun Chim silo le Ngaih nak na thim a hau.
+off = Phih
+on = Nunh
 
 ## FAQ
 
@@ -369,7 +377,7 @@ action-click = Hmet
 action-tap = Hmet
 contribute = Pek
 listen = Ngai
-skip = Lawnh
+skip = Lanhtak
 shortcuts = tawitan
 clips-with-count = <bold>{ $count }</bold>Aw-tawi
 goal-help-recording = Common Voice kan i tinhmi <goalPercentage></goalPercentage>chungah { $goalValue } na kan phak ter.
