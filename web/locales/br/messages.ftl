@@ -58,11 +58,13 @@ kpv = Komi-Zyrian
 kw = Kerneveureg
 ky = Kirgizeg
 mk = Makedoneg
+mn = Mongoleg
 myv = Erzya
 nb-NO = Norvegeg bokmål
 ne-NP = Nepaleg
 nl = Nederlandeg
 nn-NO = Norvegeg nynorsk
+oc = Okitaneg
 or = Oriya
 pl = Poloneg
 pt-BR = Portugaleg (Brazil)
@@ -83,6 +85,7 @@ tt = Tatareg
 uk = Ukraineg
 ur = Ourdou
 uz = Ouzbekeg
+vi = Vietnameg
 zh-CN = Sinaeg (Sina)
 zh-HK = Sinaeg (Hong Kong)
 zh-TW = Sinaeg (Taiwan)
@@ -241,6 +244,11 @@ profile-create-success = Berzh, profil krouet!
 profile-close = Serriñ
 profile-clear-modal = Ma skarzhit roadennoù ho profil, ne vo ket kaset an titouroù poblañs ken da gCommon Voice gant hoc'h enrolladennoù son.
 profile-explanation = Dalc'hit ur roud diouzh hoc'h araokadurioù gant ur profil ha sikourit hor roadennoù mouezh da vezañ resisoc'h.
+thanks-for-account = Trugarez vras da vezañ kadarnaet ho kont, krouomp ho profil bremañ.
+why-demographic = Perak e vez pouezus?
+edit = Aozañ
+email-subscriptions = Koumanantoù d'ar roll-bosteloù
+download-profile = Pellgargañ ma roadennoù
 
 ## FAQ
 
