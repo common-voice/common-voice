@@ -135,6 +135,7 @@ edit = Broyt
 ## FAQ
 
 faq-important-q = Hví hevur tað týdning?
+faq-native-q = Um { $lang } ikki er mítt móðurmál og eg tosi við einari accent, vilja tit kortini hava røddina hjá mær?
 faq-firefox-q = Fer talu-til-tekst úr Common Voice nakrantíð at verða partur av Firefox?
 
 ## Profile
@@ -146,9 +147,24 @@ profile-why-title = Hví ein profil?
 
 ## Data
 
+data-download-yes = Ja
+data-download-deny = Nei
+data-download-license = Loyvi: <licenseLink>CC-0</licenseLink>
+data-other-goto = Far til { $name }
+data-other-ted-name = TED-LIUM tekstasavn
+license = Loyvi: <licenseLink>{ $license }</licenseLink>
+license-mixed = Blandað
 
 ## Record Page
 
+record-no-mic-found = Eingin mikrofon funnin.
+record-error-too-short = Upptøkan var ov stutt.
+record-error-too-long = Upptøkan var ov lang.
+record-error-too-quiet = Upptøkan var ov spakulig.
+terms-agree = Eg góðtaki
+terms-disagree = Eg góðtaki ikki
+review-submit-title = Kanna og send inn
+review-recording = Kanna
 
 ## Download Modal
 
