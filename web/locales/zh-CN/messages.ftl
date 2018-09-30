@@ -242,6 +242,7 @@ email-subscriptions = 电子邮件订阅
 download-profile = 下载我的数据
 contribution-experience = 贡献经验
 skip-submission-feedback = 跳过提交反馈
+skip-submission-description = 贡献期间，点击“提交”将跳过反馈，直接进入下一组的 5 条录音或验证。
 skip-submission-note = 注：您仍需选择“听”或“说”来切换贡献类型。
 off = 关
 on = 开
