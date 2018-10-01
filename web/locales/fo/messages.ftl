@@ -247,12 +247,15 @@ language-meter-in-progress = Støða
 language-total-progress = Til samans
 language-search-input =
     .placeholder = Leita
+localized = Umsett
 sentences = Setningar
 
 ## New Contribution
 
+contribute = Stuðla
 listen = Lurta
 skip = Leyp um
+shortcuts = Snarvegir
 listen-again-instruction = Flott! Lurta aftur tá ið tú ert til reiðar
 record-button-label = Tak upp tína rødd
 share-title-new = <bold>Hjálp okkum</bold> at finna meira røddir
