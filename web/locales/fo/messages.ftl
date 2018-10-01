@@ -193,6 +193,7 @@ profile-why-title = Hví ein profil?
 
 ## NotFound
 
+notfound-title = Ikki funnið
 
 ## Data
 
@@ -214,6 +215,7 @@ terms-agree = Eg góðtaki
 terms-disagree = Eg góðtaki ikki
 review-submit-title = Kanna og send inn
 review-recording = Kanna
+review-delete-recordings = Strika mínar upptøkur
 
 ## Download Modal
 
