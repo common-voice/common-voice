@@ -246,6 +246,8 @@ email-subscriptions = E-mailinschrijvingen
 download-profile = Mijn gegevens downloaden
 contribution-experience = Ervaring met bijdragen
 skip-submission-feedback = Feedback over inzending overslaan
+skip-submission-description = Tijdens het bijdragen wordt feedback over inzendingen na het klikken op ‘Indienen’ overgeslagen. Het bijdragen wordt direct met de volgende groep van 5 opnamen of validaties voortgezet.
+skip-submission-note = Noot: u dient nog steeds een keuze tussen Spreken en Luisteren te maken om het type bijdragen te wijzigen.
 off = Uit
 on = Aan
 
