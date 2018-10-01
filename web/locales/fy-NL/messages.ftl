@@ -256,6 +256,8 @@ email-subscriptions = E-mailynskriuwingen
 download-profile = Myn gegevens downloade
 contribution-experience = Underfining mei bydragen
 skip-submission-feedback = Kommentaar oer ynstjoering oerslaan
+skip-submission-description = Wylst it bydragen wurdt kommentaar oer ynstjoeringen nei it klikken op ‘Yntsjinje’ oerslagen. It bydragen wurdt daliks mei de folgjende groep fan 5 opnamen of falidaasjes trochset.
+skip-submission-note = Noat: jo moatte noch hieltyd in kar tusken Sprekke en Lústerje meitsje om it type bydragen te wizigjen.
 off = Ut
 on = Oan
 
