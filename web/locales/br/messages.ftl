@@ -250,6 +250,8 @@ why-demographic-explanation = Roadennoù implij dizanv evel an oad, ar jener, ha
 edit = Aozañ
 email-subscriptions = Koumanantoù d'ar roll-bosteloù
 download-profile = Pellgargañ ma roadennoù
+off = Lazhet
+on = Enaouet
 
 ## FAQ
 
