@@ -90,8 +90,10 @@ contact = Samband
 privacy = Privatlív
 terms = Treytir
 cookies = Cookies
-faq = Ofta spurdir spurningar
+faq = Ofta settir spurningar
+content-license-text = Tilfar er tøkt undir einum <licenseLink>Creative Commons loyvi</licenseLink>
 share-title = Hjálp okkum at finna onnur at geva sína rødd!
+share-text = Hjálp okkum at læra maskinur, hvussu verulig fólk tosa. Hjálp við at geva tína rødd á { $link }
 link-copied = Leinkið kopiera
 contribution-banner-button = Hygg
 report-bugs-link = Hjálp við at boða frá feilum
@@ -99,6 +101,7 @@ report-bugs-link = Hjálp við at boða frá feilum
 ## Home Page
 
 wall-of-text-start = Røddin er natúrlig, røddin er menniskjulig. Tí eru vit hugtikin av at menna brúkiliga raddartøkni til okkara maskinur. Men fyri at menna skipanir til at skilja talu, krevst ein ógvuliga stór nøgd av raddartilfari.
+wall-of-text-first = Røddin er natúrlig, røddin er menniskjulig. Tí eru vit hugtikin av at menna brúkiliga raddartøkni til okkara maskinur. Men fyri at menna skipanir til at skilja talu, krevst ein ógvuliga stór nøgd av raddartilfari.
 show-wall-of-text = Les meira
 help-us-title = Hjálp okkum at góðkenna setningar!
 vote-yes = Ja
@@ -142,6 +145,11 @@ request-language-button = Ger eina umbøn um eitt nýtt mál
 
 ## ProjectStatus
 
+status-contribute = Stuðla við tínari rødd
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Næsta mál: { $goal }
+english = Enskt
 
 ## ProfileForm
 
