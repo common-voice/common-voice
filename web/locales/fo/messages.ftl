@@ -178,9 +178,14 @@ edit = Broyt
 
 ## FAQ
 
+faq-title = Ofta settir spurningar
+faq-what-q = Hvat er Common Voice?
 faq-important-q = Hví hevur tað týdning?
+faq-mission-q = Hví er Common Voice ein partur av arbeiðssetninginum hjá Mozilla?
 faq-native-q = Um { $lang } ikki er mítt móðurmál og eg tosi við einari accent, vilja tit kortini hava røddina hjá mær?
 faq-firefox-q = Fer talu-til-tekst úr Common Voice nakrantíð at verða partur av Firefox?
+faq-hours-q = Hví er málið 10.000 tímar av ljóðupptøku?
+faq-hours-a = Tað er umleið talið av tímum neyðugir fyri at trena eina væl fungerandi talu-til-tekst skipan.
 
 ## Profile
 
