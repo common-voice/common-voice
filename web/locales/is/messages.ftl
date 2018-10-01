@@ -63,6 +63,7 @@ nb-NO = Norska (bokmål)
 ne-NP = Nepalska
 nl = Hollenska
 nn-NO = Norska (nynorsk)
+oc = Oksítanska
 or = Oríja
 pl = Pólska
 pt-BR = Portúgalska (brasilísk)
@@ -83,6 +84,7 @@ tt = Tatarska
 uk = Úkraínska
 ur = Úrdú
 uz = Úsbeska
+vi = Víetnamska
 zh-CN = Kínverska (Kína)
 zh-HK = Kínverska (Hong Kong)
 zh-TW = Kínverska (Taívan)
@@ -234,6 +236,12 @@ profile-create-success = Gerð prófíls tókst!
 profile-close = Loka
 profile-clear-modal = Að hreinsa prófílgögnin merkir að samfélagsfræðilegum upplýsingum úr þeim verður ekki framar beitt í þágu Sameiginlegu raddarinnar með hljóðdæmunum þínum.
 profile-explanation = Fylgstu með árangrinum á prófílnum þínum og hjálpaðu okkur að auka á heilindi raddgagnanna.
+thanks-for-account = Takk fyrir að staðfesta aðgang þinn, nú skaltu skapa þér prófíl.
+why-demographic = Hvers vegna skiptir þetta máli?
+login-identity = Innskráningarauðkenni
+edit = Breyta
+off = Af
+on = Ǻ
 
 ## FAQ
 
