@@ -33,6 +33,7 @@ en = English
 eo = Esperanto
 es = Spanish
 et = Estonian
+fa = Persian
 fi = Finnish
 fo = Faroese
 fr = French
