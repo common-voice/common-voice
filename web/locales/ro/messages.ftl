@@ -58,11 +58,13 @@ kpv = Komi-ziriană
 kw = Cornică
 ky = Kirghiză
 mk = Macedoneană
+mn = Mongolă
 myv = Erzya
 nb-NO = Norvegiană (Bokmål)
 ne-NP = Nepaleză
 nl = Olandeză
 nn-NO = Norvegiană Nynorsk
+oc = Occitană
 or = Odia
 pl = Poloneză
 pt-BR = Portugheză (Brazilia)
@@ -83,6 +85,7 @@ tt = Tătară
 uk = Ucraineană
 ur = Urdu
 uz = Uzbecă
+vi = Vietnameză
 zh-CN = Chineză (China)
 zh-HK = Chineză (Hong Kong)
 zh-TW = Chineză (Taiwan)
@@ -238,6 +241,21 @@ profile-clear-modal =
     înregistrările tale.
 profile-explanation = Urmărește-ți progresul cu ajutorul unui profil și ajută-ne să sporim acuratețea datelor noastre vocale.
 thanks-for-account = Îți mulțumim pentru confirmarea contului. Acum, să îți construim profilul.
+why-demographic = De ce contează?
+why-demographic-explanation = Datele de utilizator anonimizate, precum vârsta, sexul și accentul, ajută la îmbunătățirea datelor audio folosite la antrenarea și ridicarea gradului de acuratețe al motoarelor de recunoaștere vocală. Numele de utilizator și parola nu vor fi niciodată asociate cu datele trimise și poți opta dacă numele tău de utilizator să fie public sau anonim.
+keep-me-posted =
+    .label = Aș dori actualizări și să fiu la curent cu ce se întâmplă pe Common Voice.
+accept-privacy = Sunt de acord să gestionați aceste informații conform explicațiilor din <privacyLink>Politica de confidențialitate</privacyLink> Mozilla
+login-identity = Identitate de autentificare
+edit = Editează
+email-subscriptions = Abonamente e-mail
+download-profile = Descarcă-mi datele
+contribution-experience = Experiența colaborării
+skip-submission-feedback = Sari peste feedbackul la trimitere
+skip-submission-description = În timpul colaborării, se va sări peste feedbackul de după apăsarea pe Trimite. Colaborarea va continua direct cu următorul set de 5 înregistrări sau validări.
+skip-submission-note = Obs: Tot va trebui să selectezi Vorbește sau Ascultă pentru a modifica tipul de colaborare.
+off = Dezactivat
+on = Activat
 
 ## FAQ
 
