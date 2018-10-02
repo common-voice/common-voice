@@ -178,6 +178,7 @@ other = Annað
 why-profile-title = Hví ein profil?
 edit-profile = Broyt profil
 profile-create = Stovna ein profil
+profile-create-success = Profilur stovnaður!
 profile-close = Lat aftur
 edit = Broyt
 
@@ -212,6 +213,7 @@ license-mixed = Blandað
 
 ## Record Page
 
+record-platform-not-supported-ios = <bold>iOS</bold> brúkarir kunnu heinta okkara ókeypis app:
 record-no-mic-found = Eingin mikrofon funnin.
 record-error-too-short = Upptøkan var ov stutt.
 record-error-too-long = Upptøkan var ov lang.
