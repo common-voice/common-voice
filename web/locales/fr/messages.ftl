@@ -245,7 +245,11 @@ accept-privacy = J’accepte que vous utilisiez ces informations conformément �
 login-identity = Identité de connexion
 edit = Modifier
 download-profile = Télécharger mes données
+skip-submission-feedback = Passer l’envoi de commentaires
+skip-submission-description = L’envoi de commentaires sera désactivé après avoir choisi « Envoyer ». La contribution reprendra directement avec le jeu de 5 enregistrements ou validations suivant.
 skip-submission-note = Remarque : vous devez encore choisir entre Parler et Écouter pour modifier votre type de contribution.
+off = Désactivé
+on = Activé
 
 ## FAQ
 
