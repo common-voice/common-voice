@@ -91,17 +91,24 @@ zh-TW = Мандринэкс (Тайванень)
 
 speak = Кортамс
 speak-now = Кортамс ней
+datasets = Датапурнавкст
 languages = Кельть
 profile = Профиль
 help = Лезкс
 contact = Контакт
 terms = Терминт
 cookies = Нумолонь кшить
+faq = Сеедьстэ максозь кевкстемат
+share-title = Лездак миненек муемс ломанть, конат лездыть ловномс марямга текстт.
+share-text = Лездак тонавтомс машинатненень, кода ломанть алкукс кортыть, ловнок марямга текстт.
+link-copied = Ссылканть лангсто саезь копия
 back-top = Верьксэс мекев
 contribution-banner-button = Варштамс
+report-bugs-link = Лездак яволявтомс ильведевкстнэде
 
 ## Home Page
 
+home-title = Common Voice -- те Мозиллань инициятива, кона лезды тонавтомс машинатненень ломанень алкукс кортамос.
 home-cta = Кортак седе, лездак тесэ!
 show-wall-of-text = Ловномс седе тов
 help-us-title = Лездак миненек кочкамс вадря валрисьметь!
@@ -109,6 +116,8 @@ help-us-explain = Лепштика «кунсоловтомс» повненть
 vote-yes = Истя
 vote-no = Арась
 speak-subtitle = Лездак эсеть вайгельсэ
+speak-goal-text = Сёрмадозь клипть
+listen-subtitle = Лездак миненек кочкамс вайгельть
 listen-goal-text = Кочказь клипть
 hours-recorded = Сёрмадозь част
 hours-validated = Кочказь част
@@ -148,6 +157,11 @@ request-language-button = Вешемс кель
 ## ProjectStatus
 
 status-contribute = Лездамс эсеть вайгельсэ
+status-hours =
+    { $hours ->
+        [one] час кочказь те видьс!
+       *[other] част кочказь те видьс!
+    }
 english = Англакс
 
 ## ProfileForm
@@ -164,6 +178,8 @@ profile-form-age =
     .label = Иеть
 profile-form-gender =
     .label = Сыме
+native-language =
+    .label = Тиринь кель
 profile-form-submit-save = Ванстомс
 profile-form-submit-saved = Ванстозь
 profile-keep-data = Ванстомс дата
@@ -177,6 +193,10 @@ edit-profile = Витнемс-петнемс профиленть
 profile-create = Шкамс профиль
 profile-create-success = Теветь лиссь, профилеть шкавсь!
 profile-close = Пекстамс
+why-demographic = Мезекс те эряви?
+edit = Витнемс-петнемс
+email-subscriptions = Кучомс ёндол сёрмасо сёрмадстомат
+download-profile = Таргамс алтымасто монь датан
 
 ## FAQ
 
