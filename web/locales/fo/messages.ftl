@@ -251,6 +251,7 @@ request-language-success-content = Vit seta okkum skjótt í samband við teg um
 
 ## Languages Overview
 
+language-section-in-progress = Í gongd
 language-section-launched = Sett í verk
 language-meter-in-progress = Støða
 language-total-progress = Til samans
