@@ -246,6 +246,8 @@ email-subscriptions = Ajerred ɣer Imayl
 download-profile = Sider isefka-inu
 contribution-experience = Tarmit n imttekiyen
 skip-submission-feedback = Suref i tuzna n tmuɣli
+skip-submission-description = Di lawan n utteki, tuzna n tmuɣli-inek ad tettwasuref seld n usenned ɣef 'Azen'. Atteki ad ikemmel srid s uḥric n 5 n usekles neɣ asentem.
+skip-submission-note = Tazmilt: akken ad tbedleḍ tamahilt n utteki ilaq ad ferneḍ gar Mmeslay akked Timesliwt.
 off = Sens
 on = Rmed
 
