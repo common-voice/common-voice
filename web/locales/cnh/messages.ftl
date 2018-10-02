@@ -231,7 +231,19 @@ profile-create-success = A tlamtling, nangmah kong na ser khawh!
 profile-close = Phit
 profile-clear-modal = Nangmah kong na hlonh ah cun Commmon Voice ah nangmah konglam le na tuun cia vialte aa hlonh dih lai.
 profile-explanation = Nangmah kong ah na tuahcia vialte zoh law, Aw kan lak mi vialte a hman deuhnak ding in kan bawm.
+thanks-for-account = Na account na fehter caah kan i lawm, atucu nangmah kong sersiam cang sih.
+why-demographic = Zei ruangah dah biapi a si?
+keep-me-posted =
+    .label = Common Voice konghi chimh peng le theih peng ka duh ko.
+accept-privacy = Keimah kong hi Mozilla <privacyLink> Kilvennak Pawlisi </privacyLink> i nan ṭial bantuk in hmang ko uh.
 edit = Remh
+email-subscriptions = Email Pehtlaihnak
+download-profile = Ka data thuntlen
+contribution-experience = Bawmhnak Petu Hmuh Ning
+skip-submission-feedback = Hmuhning Kuatnak Lanhtak
+skip-submission-note = Theihternak: Na aw pekchanhnak thlen na duh ahcun Chim silo le Ngaih nak na thim a hau.
+off = Phih
+on = Nunh
 
 ## FAQ
 
@@ -269,10 +281,10 @@ notfound-content = Na kawl mi hi ka thei lo.
 ## Data
 
 data-download-button = Common Voice Data Thuntlen
-data-download-yes = Thuntlen
-data-download-deny = Thunthlen Hlah
+data-download-yes = Thuntlen Ko
+data-download-deny = Thuntlen Hlah
 data-download-license = Laisen:<licenseLink>CC-0</licenseLink>
-data-download-modal = A tu thuntlen na timh mi hi <size>{ $size }GB</size> asi, thuntlen lai ko?
+data-download-modal = A tu thuntlen na timh mi hi <size>{ $size }GB</size> a si, na thuntlen lai maw?
 data-subtitle = Holh thiamnak he pehtlai in mipi caah a sunglawi mi Aw phunkip lak in mipi caah data lianpi kan ser.
 data-explanatory-text = Mipi caah sunglawi ngai le lianngai in Aw lei datasets nih hin a ngandam mi chaw lehthal nak le computer chimh cawnpiaknak duhnak hi a chuah pi tiah kan zumh. Hihi miphun kip le ramkip fonh in rak i tal ve uh ti hi kan in sawm hna.  Kan vawlei pi ah Aw sunglawi in holh phun kip a um mi hi i tal dih hna sih ti hi kan i tinh mi asi.
 data-get-started = <speechBlogLink> Speech Recognition thoknak</speechBlogLink>
@@ -368,7 +380,7 @@ action-click = Hmet
 action-tap = Hmet
 contribute = Pek
 listen = Ngai
-skip = Lawnh
+skip = Lanhtak
 shortcuts = tawitan
 clips-with-count = <bold>{ $count }</bold>Aw-tawi
 goal-help-recording = Common Voice kan i tinhmi <goalPercentage></goalPercentage>chungah { $goalValue } na kan phak ter.

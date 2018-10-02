@@ -15,52 +15,88 @@ loading = Yuklanmoqda...
 
 ## Languages
 
+an = Aragon
+ar = Arab
+as = Assam
+ast = Astur
+az = Ozarbayjon
 bn = Bengal
 br = Breton
 bxr = Buryat
 ca = Katalan
 cak = Kaqchikel
+cnh = Xaka Chin
 cs = Chex
 cv = Chuvash
 cy = Uels
 da = Daniya
 de = Nemis
+dsb = Sorb, quyi
 el = Grek
 en = Ingliz
 eo = Esperanto
 es = Ispan
+et = Eston
+fi = Fin
+fo = Farer
 fr = Fransuz
 fy-NL = Friz
 ga-IE = Irland
 he = Yahudiy
+hsb = Sorb, Yuqori
 hu = Vengriya
+ia = Interlingua
 id = Indonez
+is = Island
 it = Italiyan
+ja = Yapon
 ka = Gruzin
 kab = Kabili
+kk = Qozoq
 ko = Koreyscha
+kpv = Komi-zıryan
+kw = Kornish
+ky = Qirg‘iz
 mk = Makedon
+mn = Mongol
+myv = Erzyan
+nb-NO = Norvegiya Bokmål
+ne-NP = Nepal
 nl = Golland
 nn-NO = Norvegiya Ninorsk
+oc = Oksitan
+or = Odia
 pl = Polyak
 pt-BR = Portugal (Braziliya)
+rm = Romansh
+ro = Rumin
 ru = Rus
+sah = Saxa
 sk = Slovak
+sl = Sloven
 sq = Alban
+sr = Serb
 sv-SE = Shved
+ta = Tamil
+te = Telugu
 th = Tay
 tr = Turk
 tt = Tatar
+uk = Ukrain
+ur = Urdu
 uz = O‘zbek
-zh-CN = Xitoy
-zh-TW = Xitoy (Tayvan)
+vi = Vetnam
+zh-CN = Xitoycha (Xitoy)
+zh-HK = Xitoycha (Gongkong)
+zh-TW = Xitoycha (Tayvan)
 
 # [/]
 
 
 ## Layout
 
-speak = Gapiring
+speak = Yozib olish
+speak-now = Yozib olishni boshlash
 datasets = Ma’lumotlar to‘plamlari
 languages = Tillar
 profile = Profile
@@ -134,10 +170,12 @@ edit-profile = Profilni tahrirlash
 profile-create = Profil yaratish
 profile-create-success = Profil yaratildi!
 profile-close = Yopish
+off = O‘chiq
+on = Yoniq
 
 ## FAQ
 
-faq-title = Tez-tez so‘raladigan savollar
+faq-title = Savol-javob
 faq-what-q = Common Voice nima?
 faq-important-q = Nega u bunchalik muhim?
 

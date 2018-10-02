@@ -33,6 +33,7 @@ en = English
 eo = Esperanto
 es = Spanish
 et = Estonian
+fa = Persian
 fi = Finnish
 fo = Faroese
 fr = French
@@ -252,6 +253,8 @@ email-subscriptions = Email Subscriptions
 download-profile = Download my data
 contribution-experience = Contribution Experience
 skip-submission-feedback = Skip Submission Feedback
+skip-submission-description = During contribution submission feedback will be skipped after clicking 'Submit. Contribution will continue directly with the next set of 5 recordings or validations.
+skip-submission-note = Note: You will still need to select between Speak or Listen to change contribution type.
 off = Off
 on = On
 

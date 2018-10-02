@@ -7,6 +7,7 @@
   "main": "server/server.js",
   "dependencies": {
     "@types/commonmark": "^0.27.0",
+    "@types/crypto-js": "^3.1.43",
     "@types/express": "^4.11.1",
     "@types/express-session": "^1.15.8",
     "@types/jest": "^22.0.1",
@@ -35,6 +36,7 @@
     "concurrently": "^3.5.0",
     "consul": "^0.34.0",
     "cookie-parser": "^1.4.3",
+    "crypto-js": "^3.1.9-1",
     "css-loader": "^0.28.7",
     "cssnano": "^3.10.0",
     "db-migrate": "^0.10.2",
@@ -107,9 +109,10 @@
   "devDependencies": {
     "bundlesize": "^0.15.3",
     "chalk": "^2.3.0",
+    "husky": "^1.0.1",
     "jest-matcher-utils": "^22.4.0",
     "nodemon": "^1.12.1",
-    "pre-commit": "^1.2.2",
+    "pretty-quick": "^1.7.0",
     "react-dev-utils": "^5.0.1",
     "webpack-bundle-analyzer": "^2.13.1"
   },
@@ -117,16 +120,20 @@
     "node": ">=8.9.0"
   },
   "scripts": {
-    "build": "concurrently \"node scripts/build-server.js\" \"cd web/ && webpack --mode=production\"",
+    "build":
+      "concurrently \"node scripts/build-server.js\" \"cd web/ && webpack --mode=production\"",
     "import-locales": "node scripts/import-locales",
     "lint": "eslint **/*.ts **/*.tsx",
     "migrate": "cd server/src/lib/model/db && db-migrate",
     "prettier": "yarn lint --fix",
     "start": "node scripts/dev-server.js",
     "start:prod": "node server/js/server.js",
-    "test": "concurrently --kill-others-on-fail \"yarn build && bundlesize -f \"web/dist/*.js\" -s 150kb\" \"jest --forceExit\""
+    "test":
+      "concurrently --kill-others-on-fail \"yarn build && bundlesize -f \"web/dist/*.js\" -s 150kb\" \"jest --forceExit\""
   },
-  "pre-commit": [
-    "prettier"
-  ]
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
 }

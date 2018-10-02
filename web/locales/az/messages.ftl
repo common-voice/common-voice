@@ -245,6 +245,13 @@ accept-privacy = Bu məlumatı Mozillanın <privacyLink>Məxfilik Siyasəti</pri
 login-identity = Giriş İdentikliyi
 edit = Redaktə et
 email-subscriptions = E-poçt Abunəlikləri
+download-profile = Məlumatlarımı endir
+contribution-experience = Kömək Təcrübəsi
+skip-submission-feedback = Əks-əlaqə göndərməyi keç
+skip-submission-description = Kömək vaxtı "Göndər" düyməsinə kliklədikdən sonra əks-əlaqə göndərmə keçiləcək. Kömək birbaşa bir sonrakı 5 qeydiyyat və ya təsdiqləmə ilə davam edəcək.
+skip-submission-note = Qeyd: Siz yenə də kömək növünü dəyişmək üçün Danış və ya Qulaq as seçməli olacaqsız.
+off = Sönülü
+on = Açıq
 
 ## FAQ
 

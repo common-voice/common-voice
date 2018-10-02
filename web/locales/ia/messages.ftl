@@ -244,6 +244,10 @@ login-identity = Identitate de connexion
 edit = Editar
 email-subscriptions = Subscriptiones de email
 download-profile = Discargar mi datos
+contribution-experience = Experientia de la contribution
+skip-submission-feedback = Ignorar le invio de commentario
+skip-submission-description = Durante le invio del contribution essera ignorate le commentario post haber cliccate "Inviar". Le contribution continuara directemente con le successive collection de 5 registrationes o validationes.
+skip-submission-note = Nota: tu debera ancora seliger inter parlar o ascoltar pro cambiar typo de contribution.
 off = Inactive
 on = Activar
 

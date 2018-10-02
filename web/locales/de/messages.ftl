@@ -246,6 +246,8 @@ email-subscriptions = E-Mail-Abonnements
 download-profile = Meine Daten herunterladen
 contribution-experience = Erfahrung beim Mitmachen
 skip-submission-feedback = Feedback zur Übermittlung überspringen
+skip-submission-description = Beim Mitarbeiten wird das Feedback zu Übermittlung nach dem Klick auf „Übermitteln“ übersprungen. Die Mitarbeit geht direkt mit den nächsten fünf Aufzeichnungen oder Überprüfungen weiter.
+skip-submission-note = Hinweis: Sie müssen trotzdem „Sprechen“ oder „Zuhören“ auswählen, um die Art der Mitwirkung zu ändern.
 off = Aus
 on = An
 
@@ -363,7 +365,7 @@ request-language-success-content = Wir melden uns bald mit weiteren Informatione
 language-section-in-progress = Vorbereitungsphase
 language-section-in-progress-description = Sprachen in der Vorbereitungsphase werden aktuell für die Mitarbeit durch unsere Gemeinschaften vorbereitet, dieser Fortschritt zeigt, wie weit sie bei Übersetzung der Website und Sammlung der Sätze gekommen sind.
 language-section-launched = Aufnahmephase
-language-section-launched-new-description = Für diese aktiven Sprachen wurde die Website erfolgreich übersetzt und verfügt über ausreichend gesammelte Sätze, damit weiterhin durch <italic>Sprechen</italic> und <italic>Hören</italic> mitgearbeitet werden kann.
+language-section-launched-new-description = Für diese aktiven Sprachen wurde die Website erfolgreich übersetzt und verfügt über ausreichend gesammelte Sätze, dass laufend über <italic>Sprechen</italic> und <italic>Anhören</italic> mitgearbeitet werden kann.
 languages-show-more = Mehr anzeigen
 languages-show-less = Weniger anzeigen
 language-speakers = Sprecher

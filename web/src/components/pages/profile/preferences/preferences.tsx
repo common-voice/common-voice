@@ -9,7 +9,7 @@ import { UserClient } from '../../../../../../common/user-clients';
 import API from '../../../../services/api';
 import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
-import { Button, Hr, LabeledInput } from '../../../ui/ui';
+import { Hr, LinkButton, LabeledInput } from '../../../ui/ui';
 
 import './preferences.css';
 
@@ -58,7 +58,11 @@ class Preferences extends React.Component<Props> {
           </Localized>
 
           <Localized id="edit">
-            <Button outline className="edit-button" />
+            <LinkButton
+              outline
+              className="edit-button"
+              href={location.origin + '/login?change_email'}
+            />
           </Localized>
         </Section>
 
@@ -92,6 +96,12 @@ class Preferences extends React.Component<Props> {
               <div />
             </Localized>
           </div>
+          <Localized id="skip-submission-description">
+            <p className="skip-submission-description" />
+          </Localized>
+          <Localized id="skip-submission-note">
+            <p className="skip-submission-note" />
+          </Localized>
         </Section>
       </div>
     );

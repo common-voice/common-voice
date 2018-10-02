@@ -82,17 +82,20 @@ export const LinkButton = ({
   outline = false,
   rounded = false,
   ...props
-}: any) => (
-  <LocaleLink
-    className={[
-      'button',
-      outline ? 'outline' : '',
-      rounded ? 'rounded' : '',
-      className,
-    ].join(' ')}
-    {...props}
-  />
-);
+}: any) => {
+  const Component = props.to ? LocaleLink : 'a';
+  return (
+    <Component
+      className={[
+        'button',
+        outline ? 'outline' : '',
+        rounded ? 'rounded' : '',
+        className,
+      ].join(' ')}
+      {...props}
+    />
+  );
+};
 
 export const TextButton = ({ className = '', ...props }: any) => (
   <button type="button" className={'text-button ' + className} {...props} />

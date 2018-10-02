@@ -249,6 +249,13 @@ accept-privacy = Beleegyezem, hogy a Mozilla <privacyLink>Adatvédelmi irányelv
 login-identity = Bejelentkezési azonosító
 edit = Szerkesztés
 email-subscriptions = E-mail feliratkozások
+download-profile = Saját adatok letöltése
+contribution-experience = Közreműködési élmény
+skip-submission-feedback = Beküldési visszajelzés kihagyása
+skip-submission-description = A közreműködések beküldésekor a visszajelzés mellőzve lesz a „Beküldés” megnyomásra után. A közreműködések közvetlenül fognak folytatódni a következő 5 felvétellel vagy ellenőrzéssel.
+skip-submission-note = Megjegyzés: Továbbra is ki kell választania a Beszéljen vagy Figyeljen lehetőséget a közreműködés típusának módosításához.
+off = Ki
+on = Be
 
 ## FAQ
 

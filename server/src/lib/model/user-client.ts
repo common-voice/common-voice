@@ -211,6 +211,13 @@ const UserClient = {
       email,
     ]);
   },
+
+  async updateSSO(old_sso_id: string, new_sso_id: string, email: string) {
+    await db.query(
+      'UPDATE user_clients SET sso_id = ?, email = ? WHERE sso_id = ?',
+      [new_sso_id, email, old_sso_id]
+    );
+  },
 };
 
 export default UserClient;

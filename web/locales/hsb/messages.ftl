@@ -253,7 +253,9 @@ edit = Wobdźěłać
 email-subscriptions = E-mejlowe abonementy
 download-profile = Moje daty sćahnyć
 contribution-experience = Nazhonjenje při sobuskutkowanju
-skip-submission-feedback = Komentar wotpósłanja přeskočić
+skip-submission-feedback = Zapodawanski komentar přeskočić
+skip-submission-description = Při sobuskutkowanju so zapodawanski komentar po kliknjenju na 'Wotpósłać' přeskoči. Sobudźěło so direktnje z přichodnymi 5 natočenjemi abo přepruwowanjemi překročuje.
+skip-submission-note = Kedźbu: Dyrbiće hišće mjez Rěčeć abo Słuchać wubrać, zo byšće typ sobuskutkowanja změnił.
 off = Wupinjeny
 on = Zapinjeny
 
