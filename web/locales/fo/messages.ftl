@@ -213,7 +213,9 @@ license-mixed = Blandað
 
 ## Record Page
 
+record-platform-not-supported-desktop = Á teldum kanst tú heinta seinastu útgávu:
 record-platform-not-supported-ios = <bold>iOS</bold> brúkarir kunnu heinta okkara ókeypis app:
+record-must-allow-microphone = Tú mást loyva mikrofon atgongd.
 record-no-mic-found = Eingin mikrofon funnin.
 record-error-too-short = Upptøkan var ov stutt.
 record-error-too-long = Upptøkan var ov lang.
