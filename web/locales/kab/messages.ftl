@@ -244,6 +244,8 @@ login-identity = Tinekkit n tuqna
 edit = Ẓreg
 email-subscriptions = Ajerred ɣer Imayl
 download-profile = Sider isefka-inu
+contribution-experience = Tarmit n imttekiyen
+skip-submission-feedback = Suref i tuzna n tmuɣli
 off = Sens
 on = Rmed
 
