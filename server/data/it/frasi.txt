@@ -10229,3 +10229,51 @@ Perché leggendo il tempo vola
 Dove leggere è un piacere irrinunciabile, dove la scrittura è arte
 Ancora una volta a sostegno della cultura.
 Aggiungi un posto a tavola che c'é un amico in più!
+Nuoto, allenarsi per superare i propri limiti
+Concetto di limite matematico
+Limiti archivi fisici e database
+Regno Unito vittorioso, ma limitato
+La battaglia d’Inghilterra
+Limiti della crittografia nelle reti wireless
+Limiti delle app Android
+Ciclo di vita di un prodotto
+Modello a spirale
+Dopo aver pratico numerosi anni la disciplina sportiva nuoto
+A livello agonistico
+Ho potuto constatare e verificare che, per poter superare i propri limiti è necessario porsi degli obiettivi
+Molto spesso imposti dalla natura
+Allenarsi costantemente per poterli raggiungere e, magari, superarli.
+Un altro concetto di limite importante è probabilmente quello matematico.
+Esso permette di studiare il comportamente e l’andamento di una qualsiasi funzione.
+Un limite può presentarsi come finito, infinito o come forma indeterminata, che è riconducibile a forma finita o infinita.
+Allora è possibile utilizzare la regola di Bernoulli.
+Meglio conosciuta come Teorema di de l’Hôpital
+Durante la seconda guerra mondiale Hitler era riuscito a conquistare e sottomettere quasi tutta l’Europa occidentale.
+Ad esclusione del Regno Unito.
+Ciò non fu una scelta del dittatore, ma una conseguenza.
+Infatti il Regno Unito resistette con tutte le forze alla Germania.
+In quella che è soprannominata “La Battaglia d’Inghilterra” o, dagli inglesi, “The Blitz”
+Essa ha inizio dopo il 14 giugno 1940 (esattamente il 10 luglio 1940)
+Quando Parigi fu presa dalle forze tedesche
+E termina solo il 15 settembre del 1940 (formalmente 31 ottobre 1940)
+Quando Hitler rinunciò a conquistare le isole britanniche.
+Effettivamente, comunque, Hitler non si schierò solamente contro il Regno Unito ma, bensì, contro l’impero britannico.
+Formato da Regno Unito, Australia, Nuova Zelanda e India (dichiararono guerra il 3 settembre 1939).
+Il 6 si aggiunge anche il Sudafrica e il 10 anche il Canada.
+Le ragioni per il quale il Regno Unito resistette furono le nuove tecnologie: radar per l’aviazione e sonar per la marina.
+Oltre al forte patriottismo inglese
+La RAF, il 15 settembre 1940, annientò completamente l’attacco della Luftwaffe
+Fu questo l’evento decisivo affinché la Germania decidesse di non voler continuare suddetta battaglia.
+Un limite molto importante è, probabilmente, il limite tecnologico.
+Si ebbe la necessità di portare gli archivi fisici in versione digitale
+Poiché spesso e volentieri i dati andavano persi, rubati o distrutti.
+Per modificare un dato bisogna modificare ogni elemento che contiene quel determinato dato.
+Se si ha la necessità di eliminare un dato, allora esso non sarà più disponibile.
+Finché un dato non viene inserito, non si ha accesso ad esso.
+Un determinato dato non viene ripetuto, con tutti i dettagli, ogni volta
+Ma è sufficiente la PK (primary key) che identifica univocamente quel dato.
+Grazie ai database, più propriamente DBMS – Database Management System)
+Si risolvono tutte queste criticità.
+Il più utilizzato correntemente
+Tecnica più meccanica e quasi priva di ragionamento logico.
+Esistono anche altre 2 forme normalizzate, ma utilizzate raramente e in casi specifici.
