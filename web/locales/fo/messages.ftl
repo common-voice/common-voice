@@ -146,6 +146,11 @@ request-language-button = Ger eina umbøn um eitt nýtt mál
 ## ProjectStatus
 
 status-contribute = Stuðla við tínari rødd
+status-hours =
+    { $hours ->
+        [one] Ein tími góðkendur higartil!
+       *[other] { $hours } tímar góðkendir higartil!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Næsta mál: { $goal }
