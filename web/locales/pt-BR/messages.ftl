@@ -126,6 +126,11 @@ no-clips-to-validate = Parece que não há nenhuma frase para ouvir nesse idioma
 vote-yes = Sim
 vote-no = Não
 toggle-play-tooltip = Pressione { shortcut-play-toggle } para alternar para o modo de reprodução
+hours-recorded = Horas gravadas
+hours-validated = Horas validadas
+read-terms-q = Você leu nossos Termos?
+ready-to-record = Pronto para doar sua voz?
+all-languages = Todos os idiomas
 
 ## Speak & Listen Shortcuts
 
@@ -220,7 +225,7 @@ faq-hours-q = Por que o objetivo é capturar 10,000 horas de áudio?
 faq-hours-a = Esse é o número aproximado de horas necessário para treinar um sistema de voz-para-texto.
 faq-source-q = De onde vem o texto fonte?
 faq-source-a1 = As frases atualmente vêm de doações de contribuidores, assim como diálogos de roteiros de filmes em domínio público como <italic>It’s a Wonderful Life.</italic>
-faq-source-a2 = Você pode ver nossas frases <dataLink>nessa pasta no GItHub</dataLink>. 
+faq-source-a2 = Você pode ver nossas frases <dataLink>nessa pasta no GItHub</dataLink>.
 
 ## Profile
 
@@ -313,7 +318,6 @@ request-language-success-content = Nós entraremos em contato com mais informaç
 language-section-in-progress = Em andamento
 language-section-in-progress-description = O idioma "em curso" estão em desenvolvimento através de contribuições das nossas comunidades; o seu progresso reflete onde estão em relação a localização do site e coleta de frases.
 language-section-launched = Iniciada
-language-section-launched-description = Para os idiomas lançados o site foi completamente localizado, e tem frases suficientes para permitir contribuição através da <italic>{ speak }</italic> e <italic>{ listen }</italic> .
 languages-show-more = Veja mais
 languages-show-less = Ver menos
 language-speakers = Falantes
@@ -334,7 +338,6 @@ contribute = Contribua
 listen = Ouvir
 skip = Pular
 shortcuts = Atalhos
-clips = Frases
 goal-help-recording = Você ajudou o Common Voice a atingir <goalPercentage></goalPercentage> da nossa meta diária de { $goalValue } de gravações!
 goal-help-validation = Você ajudou o Common Voice a atingir <goalPercentage></goalPercentage> da nossa meta diária de { $goalValue } de validações!
 contribute-more = Pronto para fazer mais { $count }?
