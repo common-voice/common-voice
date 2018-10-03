@@ -258,6 +258,8 @@ email-subscriptions = Koumanantoù d'ar roll-bosteloù
 download-profile = Pellgargañ ma roadennoù
 contribution-experience = Skiant-prenet kendaolañ
 skip-submission-feedback = Tremen e-biou ar gasadenn menoioù
+skip-submission-description = E-pad ar gasadenn gendaolañ, graet e vo fae ouzh an evezhiadennoù ur wech kliket war «Kas». Kenderc'hel a raio ar c'hendaolañ war-eeun gant un heuliadenn a 5 enrolladenn pe kadarnadenn.
+skip-submission-note = Notennit eta: Ezhomm ho po c'hoazh da ziuzañ etre Komz pe selaou evit cheñch ho toare kendeurel.
 off = Lazhet
 on = Enaouet
 
