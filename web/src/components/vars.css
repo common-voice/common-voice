@@ -25,7 +25,10 @@
     --base-font-family: 'Open Sans', sans-serif;
     --strong-font-family: 'Zilla Slab', Georgia, Utopia, Charter, serif;
     --font-size: 16px;
-    --font-size-small: 12px;
+    --font-size-xs: 12px;
+    --font-size-lg: 24px;
+    --font-size-xl: 32px;
+    --font-size-xxl: 34px;
 
     --standard-margin: 0.3rem;
 
@@ -60,6 +63,8 @@
     --record-background-image-mobile: url("/img/wave-red-mobile.png");
 
     --dataset-item-margin: .7rem;
+
+    --profile-column-margin: 30px;
 }
 
 /* [Deprecated] */

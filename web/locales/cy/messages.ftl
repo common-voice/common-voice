@@ -58,11 +58,13 @@ kpv = Komi-Zyrian
 kw = Cernyweg
 ky = Kyrgyz
 mk = Macedoneg
+mn = Mongolieg
 myv = Erzya
 nb-NO = Bokmål Norwyeg
 ne-NP = Nepaleg
 nl = Iseldireg
 nn-NO = Norwyeg Nynorsk
+oc = Occitaneg
 or = Odia
 pl = Pwyleg
 pt-BR = Portiwgaleg (Brasil)
@@ -83,6 +85,7 @@ tt = Tartareg
 uk = Wcraneg
 ur = Urdu
 uz = Wsbeceg
+vi = Fietnameg
 zh-CN = Tsieinëeg (Tsiena)
 zh-HK = Tsieinëeg (Hong Kong)
 zh-TW = Tsieinëeg (Taiwan)
@@ -229,6 +232,10 @@ profile-form-age =
     .label = Oed
 profile-form-gender =
     .label = Rhyw
+leaderboard-visibility =
+    .label = Gwelededd y Sgorfwrdd
+native-language =
+    .label = Mamiaith
 profile-form-submit-save = Cadw
 profile-form-submit-saved = Wedi'u Cadw
 profile-keep-data = Cadw Data
@@ -245,6 +252,22 @@ profile-create-success = Llwyddiant, wedi creu proffil!
 profile-close = Cau
 profile-clear-modal = Bydd clirio data eich proffil yn golygu na fydd y wybodaeth ddemograffig yma'n cael ei chyflwyno i Common Voice gyda'ch clipiau recordio.
 profile-explanation = Cadw golwg o'ch cynnydd gyda phroffil a helpu'n data llais i fod yn fwy cywir.
+thanks-for-account = Diolch m gadarnhau eich cyfrif, nawr ymlaen i greu eich proffil.
+why-demographic = Pam fod hyn o bwys?
+why-demographic-explanation = Mae data defnyddwyr dienw fel oed, rhyw ac acen yn helpu i wella'r data sain sy'n cael ei ddefnyddio i hyfforddi cywirdeb peiriannau adnabod llais. Ni fydd eich enw defnyddiwr ac e-bost yn cael ei gysylltu â'r data rydych wedi ei gyflwyno a gallwch ddewis os ydych am wneud eich enw defnyddiwr yn hysbys neu beidio.
+keep-me-posted =
+    .label = Hoffwn dderbyn diweddariadau i gadw'n gyfredol â'r hyn y'n digwydd i Common Voice.
+accept-privacy = Rwy'n hapus gyd chi'n defnyddio'r wybodaeth yma fel rydych yn ei esbonio ym <privacyLink>Mholisi Preifatrwydd Mozilla</privacyLink>
+login-identity = Enw Mewngofnodi
+edit = Golygu
+email-subscriptions = Tanysgrifiadau E-bost
+download-profile = Llwytho fy nata i lawr
+contribution-experience = Profiad Cyfrannu
+skip-submission-feedback = Hepgor Adborth Cyfrannu
+skip-submission-description = Yn ystod cyflwyno cyfrannu bydd adborth y cael ei hepgor ar ôl clicio 'Cyflwyno'. Bydd cyfraniadau yn parhau gyda'r set nesaf o 5 recordiad neu ddilysiad.
+skip-submission-note = Sylw: Bydd dal rhaid i chi ddewis rhwng Siarad neu Gwrando i newid y math o gyfraniad.
+off = Diffodd
+on = Ymlaen
 
 ## FAQ
 
@@ -357,7 +380,7 @@ request-language-success-content = Byddwn mewn cysylltiad gyda rhagor o wybodaet
 
 ## Languages Overview
 
-language-section-in-progress = Yn Cael eu Datblygu
+language-section-in-progress = Ar y Ffordd
 language-section-in-progress-description = Mae ieithoedd sy'n cael eu datblygu yn cael eu hadeiladu ar hyn o bryd ar gyfer cyfraniadau gan ein cymunedau; mae eu cynnydd yn adlewyrchu lle maen nhw arni ar draws cyfnodau lleolieddio'r wefan a'r casglu brawddegau.
 language-section-launched = Ar Gael
 language-section-launched-new-description = Ar gyfer yr ieithoedd hyn sydd ar gael mae'r wefan wedi ei leoleiddio'n llwyddiannus ac mae ganddo ddigon o frawddegau wedi'u casglu i ganiatáu ar gyfer cyfraniadau <italic>Siarad</italic> a <italic>Gwrando</italic>.

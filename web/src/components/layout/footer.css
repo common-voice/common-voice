@@ -21,7 +21,7 @@ footer {
         box-sizing: border-box;
         text-align: center;
         width: 10rem;
-        font-size: var(--font-size-small);
+        font-size: var(--font-size-xs);
         cursor: pointer;
 
         @media (--md-up) {

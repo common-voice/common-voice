@@ -58,11 +58,13 @@ kpv = Komiziriana
 kw = Korniŝa
 ky = Kirgiza
 mk = Makedona
+mn = Mongola
 myv = Erzja
 nb-NO = Norvega Bokmål
 ne-NP = Nepala
 nl = Nederlanda
 nn-NO = Norvega ninorsk
+oc = Okcitana
 or = Odia
 pl = Pola
 pt-BR = Portugala (Brazilo)
@@ -83,7 +85,8 @@ tt = Tatara
 uk = Ukraina
 ur = Urdua
 uz = Uzbeka
-zh-CN = Ĉina (Ĉinujo)
+vi = Vjetnama
+zh-CN = Ĉina (Ĉinio)
 zh-HK = Ĉina (Honkongo)
 zh-TW = Ĉina (Tajvano)
 
@@ -138,6 +141,23 @@ hours-recorded = Horoj registritaj
 hours-validated = Horoj validigitaj
 read-terms-q = Ĉu vi legis niajn kondiĉojn?
 ready-to-record = Ĉu vi pretas donaci vian voĉon?
+all-languages = Ĉiuj lingvoj
+today = Hodiaŭ
+x-weeks-short =
+    { $count ->
+        [one] Semajno
+       *[other] { $count } semajnoj
+    }
+x-months-short =
+    { $count ->
+        [one] Monato
+       *[other] { $count } monatoj
+    }
+x-years-short =
+    { $count ->
+        [one] Jaro
+       *[other] { $count } jaroj
+    }
 
 ## Speak & Listen Shortcuts
 
@@ -194,6 +214,10 @@ profile-form-age =
     .label = Aĝo
 profile-form-gender =
     .label = Sekso
+leaderboard-visibility =
+    .label = Publika montro
+native-language =
+    .label = Denaska lingvo
 profile-form-submit-save = Konservi
 profile-form-submit-saved = Konservita
 profile-keep-data = Gardi datumojn
@@ -210,6 +234,20 @@ profile-create-success = Sukceso, profilo kreita!
 profile-close = Fermi
 profile-clear-modal = Se vi viŝas vian profilon, viaj demografiaj datumoj ne plu estos senditaj al Common Voice kun viaj sonregistraĵoj.
 profile-explanation = Sekvu vian progreson per profilo, kaj helpu niajn voĉajn datumojn iĝi pli precizaj.
+thanks-for-account = Dankon pro la konfirmo de via konto, nun kreu ni vian profilon.
+why-demographic = Kial tio ĉi gravas?
+why-demographic-explanation = Anonimigitaj datumoj de uzanto kiel aĝo, sekso kaj akĉento helpas plibonigi la voĉajn datumojn, kiujn oni uzas por trejni la akuratecon de la voĉrekoniloj. Vi nomo de uzanto kaj via retpoŝto neniam estos asociitaj kun la datumoj, kiujn vi sendas, kaj vi povas elekti ĉu igi vian nomon de uzanto publika aŭ anonima.
+keep-me-posted =
+    .label = Mi ŝatus ricevi ĝisdatigojn kaj novaĵojn pri Common Voice.
+accept-privacy = Mi konsentas kun via pritrakto de tiu ĉi informo, laŭ via priskribo en la <privacyLink>privateca politiko</privacyLink> de Mozilla
+login-identity = Idento de seanco
+edit = Redakti
+email-subscriptions = Retpoŝtaj abonoj
+download-profile = Elŝuti miajn datumojn
+contribution-experience = Kontribua sperto
+skip-submission-feedback = Ignori la sendon de opinio
+off = Malŝaltita
+on = Ŝaltita
 
 ## FAQ
 

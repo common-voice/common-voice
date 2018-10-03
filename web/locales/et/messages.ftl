@@ -15,7 +15,9 @@ loading = Laadimine…
 
 ## Languages
 
+ar = araabia
 as = assami
+az = aserbaidžaani
 bn = bengali
 br = bretooni
 ca = katalaani
@@ -26,21 +28,28 @@ da = taani
 de = saksa
 el = kreeka
 en = inglise
+eo = esperanto
 es = hispaania
 et = eesti
+fi = soome
+fo = fääri
 fr = prantsuse
 fy-NL = friisi
 ga-IE = iiri
 he = heebrea
 hu = ungari
 id = indoneesia
+is = islandi
 it = itaalia
+ja = jaapani
 ka = gruusia
 kab = kabiili
 kk = kasahhi
 ko = korea
 kw = korni
+ky = kirgiisi
 mk = makedoonia
+mn = mongoolia
 nb-NO = norra (bokmåli)
 ne-NP = nepaali
 nl = hollandi
@@ -61,7 +70,9 @@ tr = türgi
 tt = tatari
 uk = ukraina
 uz = usbeki
+vi = vietnami
 zh-CN = hiina (Hiina)
+zh-HK = hiina (Hong Kong)
 
 # [/]
 
@@ -79,6 +90,8 @@ privacy = Privaatsus
 terms = Tingimused
 cookies = Küpsised
 faq = KKK
+share-title = Aidake meil leida teisigi, kes meid oma häälega aitaks!
+link-copied = Link kopeeriti
 back-top = Tagasi üles
 
 ## Home Page

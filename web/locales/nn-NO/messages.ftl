@@ -200,6 +200,9 @@ profile-create-success = Profil oppretta
 profile-close = Lat att
 profile-clear-modal = Sletting av dine profildata tyder at denne demografiske informasjonen ikkje lenger vil sendast til Common Voice saman med innspelingane dine.
 profile-explanation = Hald auge med framdrifta di med ein profil som òg gjer stemmedataa våre meir korrekte.
+edit = Rediger
+off = Av
+on = På
 
 ## FAQ
 

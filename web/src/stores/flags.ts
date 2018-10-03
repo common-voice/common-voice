@@ -1,6 +1,6 @@
 export namespace Flags {
   export interface State {
-    showNewHome: boolean;
+    showOldHome: boolean;
   }
 
   enum ActionType {
@@ -23,7 +23,7 @@ export namespace Flags {
 
   export function reducer(
     state: State = {
-      showNewHome: localStorage.getItem('showNewHome') === 'true',
+      showOldHome: localStorage.getItem('showNewHome') === 'true',
     },
     action: Action
   ): State {

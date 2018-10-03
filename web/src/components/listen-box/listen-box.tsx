@@ -1,4 +1,8 @@
-import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
+import {
+  LocalizationProps,
+  Localized,
+  withLocalization,
+} from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { trackListening } from '../../services/tracker';
@@ -7,7 +11,6 @@ import StateTree from '../../stores/tree';
 import { FontIcon, OldPlayIcon, OldRedoIcon } from '../ui/icons';
 import URLS from '../../urls';
 import { LinkButton } from '../ui/ui';
-import NormalizedPlayer from '../normalized-player';
 
 const VOTE_NO_PLAY_MS = 3000; // Threshold when to allow voting no
 
@@ -37,13 +40,15 @@ interface State {
  * Widget for listening to a recording.
  */
 class ListenBox extends React.Component<Props, State> {
-  audioPlayer = new NormalizedPlayer();
+  el: HTMLAudioElement;
   playedSomeInterval: any;
 
   constructor(props: Props) {
     super(props);
 
     // Pre-bind some handlers to avoid memory leaks later.
+    this.onLoadStart = this.onLoadStart.bind(this);
+    this.onCanPlayThrough = this.onCanPlayThrough.bind(this);
     this.onPlayEnded = this.onPlayEnded.bind(this);
     this.onPlay = this.onPlay.bind(this);
     this.onDelete = this.onDelete.bind(this);
@@ -81,20 +86,32 @@ class ListenBox extends React.Component<Props, State> {
     clearInterval(this.playedSomeInterval);
   }
 
+  private onLoadStart() {
+    this.setState({
+      loaded: false,
+    });
+  }
+
+  private onCanPlayThrough() {
+    this.setState({
+      loaded: true,
+    });
+  }
+
   private onPlayEnded() {
     this.setState({ playing: false, played: true });
     trackListening('listen-home', this.props.locale);
   }
 
-  private async onPlay() {
+  private onPlay() {
     if (this.state.playing) {
-      this.audioPlayer.stop();
+      this.el.pause();
+      this.el.currentTime = 0;
       this.setState({ playing: false });
       return;
     }
 
-    this.audioPlayer.onended = this.onPlayEnded;
-    await this.audioPlayer.play(this.props.src);
+    this.el.play();
     this.setState({ playing: true });
     clearInterval(this.playedSomeInterval);
     this.playedSomeInterval = setInterval(
@@ -105,7 +122,7 @@ class ListenBox extends React.Component<Props, State> {
 
   private onDelete() {
     if (this.state.playing) {
-      this.audioPlayer.stop();
+      this.el.pause();
       this.setState({ playing: false });
     }
 
@@ -113,7 +130,12 @@ class ListenBox extends React.Component<Props, State> {
   }
 
   private vote(votedYes: boolean): void {
+    if (!this.state.loaded) {
+      return;
+    }
+
     this.setState({
+      loaded: false,
       playing: false,
       played: false,
       playedSome: false,
@@ -168,14 +190,22 @@ class ListenBox extends React.Component<Props, State> {
 
   render() {
     const { getString, sentence, showSpeakButton, vote } = this.props;
-    const { playing, played, playedSome, shortcutsEnabled } = this.state;
+    const {
+      loaded,
+      playing,
+      played,
+      playedSome,
+      shortcutsEnabled,
+    } = this.state;
     return (
       <div
         tabIndex={-1}
         onFocus={this.enableShortcuts}
         onBlur={this.disableShortcuts}
         onKeyDown={this.handleKeyDown}
-        className={'listen-box loaded' + (playing ? ' playing' : '')}>
+        className={
+          'listen-box' + (loaded ? ' loaded' : '') + (playing ? ' playing' : '')
+        }>
         <div className={'sentence-box ' + (showSpeakButton ? 'disabled' : '')}>
           {sentence}
         </div>
@@ -211,6 +241,18 @@ class ListenBox extends React.Component<Props, State> {
             <OldRedoIcon />
           </button>
         )}
+        <audio
+          // Only include the src attribute if the source is defined
+          // (empty src attributes are invalid)
+          {...this.props.src && { src: this.props.src }}
+          preload="auto"
+          onLoadStart={this.onLoadStart}
+          onLoadedData={this.onCanPlayThrough}
+          onCanPlayThrough={this.onCanPlayThrough}
+          onDurationChange={this.onCanPlayThrough}
+          onEnded={this.onPlayEnded}
+          ref={el => (this.el = el as HTMLAudioElement)}
+        />
       </div>
     );
   }

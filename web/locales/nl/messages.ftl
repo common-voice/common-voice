@@ -58,11 +58,13 @@ kpv = Zurjeens
 kw = Cornish
 ky = Kirgizisch
 mk = Macedonisch
+mn = Mongools
 myv = Erzja
 nb-NO = Noors Bokmål
 ne-NP = Nepalees
 nl = Nederlands
 nn-NO = Noors Nynorsk
+oc = Occitaans
 or = Odia
 pl = Pools
 pt-BR = Portugees (Brazilië)
@@ -83,6 +85,7 @@ tt = Tataars
 uk = Oekraïens
 ur = Urdu
 uz = Oezbeeks
+vi = Vietnamees
 zh-CN = Chinees (China)
 zh-HK = Chinees (Hongkong)
 zh-TW = Chinees (Taiwan)
@@ -211,6 +214,10 @@ profile-form-age =
     .label = Leeftijd
 profile-form-gender =
     .label = Geslacht
+leaderboard-visibility =
+    .label = Zichtbaarheid in ranglijst
+native-language =
+    .label = Moedertaal
 profile-form-submit-save = Opslaan
 profile-form-submit-saved = Opgeslagen
 profile-keep-data = Gegevens behouden
@@ -227,6 +234,22 @@ profile-create-success = Gelukt, profiel aangemaakt!
 profile-close = Sluiten
 profile-clear-modal = Het wissen van uw profielgegevens betekent dat deze demografische gegevens niet meer samen met uw fragmentopnamen bij Common Voice worden ingediend.
 profile-explanation = Houd uw voortgang bij met een profiel en help onze stemgegevens nauwkeuriger te zijn.
+thanks-for-account = Bedankt voor het bevestigen van uw account, nu gaan we uw profiel opbouwen.
+why-demographic = Waarom is dit belangrijk?
+why-demographic-explanation = Anonieme gebruikersgegevens zoals leeftijd, geslacht en accent helpen de audiogegevens die voor het trainen van de nauwkeurigheid van spraakherkenningsengines worden gebruikt te verbeteren. Uw gebruikersnaam en e-mailadres zullen nooit met uw ingediende gegevens worden gekoppeld, en u kunt ervoor kiezen uw gebruikersnaam openbaar of anoniem te maken.
+keep-me-posted =
+    .label = Ik ontvang graag updates en wil op de hoogte blijven van wat er met Common Voice gebeurt.
+accept-privacy = Ik ga akkoord met hoe u met deze gegevens omgaat, zoals uitgelegd in Mozilla’s <privacyLink>Privacybeleid</privacyLink>
+login-identity = Aanmeldingsidentiteit
+edit = Bewerken
+email-subscriptions = E-mailinschrijvingen
+download-profile = Mijn gegevens downloaden
+contribution-experience = Ervaring met bijdragen
+skip-submission-feedback = Feedback over inzending overslaan
+skip-submission-description = Tijdens het bijdragen wordt feedback over inzendingen na het klikken op ‘Indienen’ overgeslagen. Het bijdragen wordt direct met de volgende groep van 5 opnamen of validaties voortgezet.
+skip-submission-note = Noot: u dient nog steeds een keuze tussen Spreken en Luisteren te maken om het type bijdragen te wijzigen.
+off = Uit
+on = Aan
 
 ## FAQ
 
@@ -254,7 +277,7 @@ faq-source-a2 = U kunt onze bronzinnen bekijken in <dataLink>deze GitHub-map</da
 ## Profile
 
 profile-why-title = Waarom een profiel?
-profile-why-content = Door wat informatie over uzelf te geven, zijn de door u bij Common Voice ingediende geluidsgegevens nuttiger voor spraakherkenningsengines die deze gegevens gebruiken om hun nauwkeurigheid te verbeteren.
+profile-why-content = Door wat informatie over uzelf te geven, zijn de door u bij Common Voice ingediende audiogegevens nuttiger voor spraakherkenningsengines die deze gegevens gebruiken om hun nauwkeurigheid te verbeteren.
 
 ## NotFound
 

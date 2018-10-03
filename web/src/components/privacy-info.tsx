@@ -1,4 +1,4 @@
-import { Localized } from 'fluent-react';
+import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 
 export default ({ localizedPrefix }: { localizedPrefix?: string }) => {

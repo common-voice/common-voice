@@ -1,4 +1,8 @@
-import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
+import {
+  LocalizationProps,
+  Localized,
+  withLocalization,
+} from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, withRouter } from 'react-router';
@@ -343,7 +347,6 @@ class SpeakPage extends React.Component<Props, State> {
         }
       }),
       async () => {
-        await api.syncDemographics();
         trackRecording('submit', locale);
         addNotification(
           <React.Fragment>

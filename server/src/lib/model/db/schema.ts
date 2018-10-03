@@ -9,7 +9,7 @@ export default class Schema {
 
   constructor(mysql: Mysql) {
     this.mysql = mysql;
-    this.name = mysql.options.database;
+    this.name = mysql.getMysqlOptions().database;
   }
 
   /**
@@ -34,7 +34,7 @@ export default class Schema {
    */
   private async ensureDatabaseUser() {
     // Fetch the default username and password.
-    const opts = this.mysql.options;
+    const opts = this.mysql.getMysqlOptions();
     const username = opts.user;
     const password = opts.password;
     const host = opts.host;

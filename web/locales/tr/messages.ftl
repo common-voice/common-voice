@@ -58,6 +58,7 @@ kpv = Komi Zıryan
 kw = Kernevekçe
 ky = Kırgızca
 mk = Makedonca
+mn = Moğolca
 myv = Erzyanca
 nb-NO = Norveç Bokmål
 ne-NP = Nepalce
@@ -83,6 +84,7 @@ tt = Tatarca
 uk = Ukraynaca
 ur = Urduca
 uz = Özbekçe
+vi = Vietnamca
 zh-CN = Çince (Çin)
 zh-HK = Çince (Hong Kong)
 zh-TW = Çince (Tayvan)
@@ -211,6 +213,8 @@ profile-form-age =
     .label = Yaş
 profile-form-gender =
     .label = Cinsiyet
+native-language =
+    .label = Anadili
 profile-form-submit-save = Kaydet
 profile-form-submit-saved = Kaydedildi
 profile-keep-data = Verileri tut
@@ -227,6 +231,8 @@ profile-create-success = Profil başarıyla oluşturuldu!
 profile-close = Kapat
 profile-clear-modal = Profil verilerinizi silerseniz bu demografik bilgiler artık ses kayıtlarınızla birlikte Common Voice'a gönderilmeyecektir.
 profile-explanation = Profil oluşturarak hem ilerlemenizi takip edebilir hem de ses verilerimizin daha verimli olmasını sağlayabilirsiniz.
+edit = Düzenle
+email-subscriptions = E-posta abonelikleri
 
 ## FAQ
 

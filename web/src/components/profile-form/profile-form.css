@@ -24,6 +24,10 @@
     & button[type=submit] {
         margin-top: 1rem;
     }
+
+    & .labeled-form-control {
+        margin-bottom: 1rem;
+    }
 }
 
 @media (max-width: 449px) {

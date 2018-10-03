@@ -58,11 +58,13 @@ kpv = Komi
 kw = Córnicu
 ky = Kirguís
 mk = Macedoniu
+mn = Mongol
 myv = Erzya
 nb-NO = Bokmål noruegu
 ne-NP = Nepalí
 nl = Neerlandés
 nn-NO = Nynorsk noruegu
+oc = Occitanu
 or = Oriya
 pl = Polacu
 pt-BR = Portugués (Brasil)
@@ -83,6 +85,7 @@ tt = Tatar
 uk = Ucraín
 ur = Urdu
 uz = Uzbecu
+vi = Vietnamita
 zh-CN = Chinu (China)
 zh-HK = Chinu (Ḥong Kong)
 zh-TW = Chinu (Taiwán)
@@ -122,7 +125,7 @@ wall-of-text-start =
     escomanada de datos de voz.
 wall-of-text-more-mobile =
     La mayoría de datos usaos por compañes grandes nun tán disponibles pa la mayoría de xente.
-    Cuidamos qu'eso torga la innovación polo que llanzamos Common Voice. Un proyeutu p'ayudar
+    Cuidamos qu'eso torga la innovación polo que llanzamos Common Voice, un proyeutu p'ayudar
     a facer que la reconocencia de voz tea abierta al tol mundu.
 wall-of-text-more-desktop =
     Agora pues emprestar la to voz p'ayudanos a construyir una base de datos abierta que tol mundu
@@ -227,6 +230,10 @@ profile-form-age =
     .label = Edá
 profile-form-gender =
     .label = Xéneru
+leaderboard-visibility =
+    .label = Visibilidá de la tabla de líderes
+native-language =
+    .label = Llingua nativa
 profile-form-submit-save = Guardar
 profile-form-submit-saved = Guardóse
 profile-keep-data = Caltener datos
@@ -245,6 +252,21 @@ profile-create-success = ¡Creóse'l perfil con ésitu!
 profile-close = Zarrar
 profile-clear-modal = Llimpiar el perfil significa qu'esta información demográfica yá nun va unviase a Common Voice xunto coles tos grabaciones.
 profile-explanation = Sigui'l to progresu con un perfil y ayuda a que los nuesos datos de voz seyan más precisos.
+thanks-for-account = Gracies por confirmar la cuenta, agora vamos facer el to perfil.
+why-demographic = ¿Por qué importa esto?
+why-demographic-explanation = Los datos anonimizaos como edá, sexu y acentu ayuden a ameyorar los datos d'audiu usaos pa entrenar la precisión de los motores de reconocencia de voz. El to nome d'usuariu y corréu enxamás nun va asociase colos datos unviaos, y vas poder escoyer si facelos públicos o anónimos.
+keep-me-posted =
+    .label = Prestaríame tar al día, con anovamientos, pa saber lo último de Common Voice.
+accept-privacy = Toi d'alcuerdu con que remanéis esta información como desplicáis na <privacyLink>política de privacidá</privacyLink> de Mozilla
+login-identity = Identidá del aniciu de sesión
+edit = Editar
+email-subscriptions = Soscripciones per corréu
+download-profile = Baxar los mios datos
+contribution-experience = Esperiencia de la collaboración
+skip-submission-feedback = Saltar l'unviu de los comentarios
+skip-submission-note = Nota: Entá vas precisar esbillar ente Falar o Sentir pa camudar la triba de collaboración.
+off = NON
+on = SÍ
 
 ## FAQ
 
@@ -252,7 +274,7 @@ faq-title = Entrugues frecuentes
 faq-what-q = ¿Qué ye Common Voice?
 faq-what-a = La teunoloxía de reconocencia de voz podría revolucionar el mou nel qu'interactuamos coles máquines, pero los sistemes disponibles anguaño son caros y privativos. Common Voice ye un proyeutu pa facer d'accesu fácil la teunoloxía de reconocencia de voz a tol mundu. La xente empresta la so voz a una base de datos masiva que va permitir entrenar aína a les aplicaciones qu'usen la voz. Tolos datos de voz van tar disponibles pa los desendolcadores.
 faq-important-q = ¿Por qué ye importante?
-faq-important-a = La voz ye natural, tamién humana. Ye'l mou más cencielu y natural de comunicase. Queremos que los desendolcadores seyan a creen proyeutos ablucantes: dende  traductores en tiempu real hasta asistentes per voz. Pero pel momentu nun hai abondos datos disponibles públicamente pa crear esa triba d'aplicaciones. Esperamos que Common Voice forna a los desendolcadores lo que precisen pa innovar.
+faq-important-a = La voz ye natural, tamién humana. Ye'l mou más cencielu y natural de comunicase. Queremos que los desendolcadores seyan a crear proyeutos ablucantes: dende  traductores en tiempu real hasta asistentes per voz. Pero pel momentu nun hai abondos datos disponibles públicamente pa crear esa triba d'aplicaciones. Esperamos que Common Voice forna a los desendolcadores lo que precisen pa innovar.
 faq-get-q = ¿Cómo pueo consiguir los datos de Common Voice?
 faq-get-a = Agora'l conxuntu de datos ta disponible na nuesa <downloadLink>páxina de descargues</downloadLink> so la llicencia <licenseLink>CC-0</licenseLink>.
 faq-mission-q = ¿Por que Common Voice ye parte de la misión de Mozilla?
@@ -378,7 +400,7 @@ total-hours = Hores totales
 action-click = Fai clic
 action-tap = Calca
 contribute = Collaborar
-listen = Sienti
+listen = Sentir
 skip = Saltar
 shortcuts = Atayos
 clips-with-count = <bold>{ $count }</bold> clips
@@ -410,6 +432,6 @@ listen-instruction = { $actionType }<playIcon></playIcon>, ¿pronunció correuta
 listen-again-instruction = ¡Bon trabayu!<playIcon></playIcon> Volvi sentir cuando teas preparáu
 listen-3rd-time-instruction = 2 menos, ¡sigui asina!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>¡La última!
-nothing-to-validate = Nun tenemos nada pa revisar nesta llingua, ayúdanos a rellenar la cola.
+nothing-to-validate = Nun tenemos nada pa revisar nesta llingua, ayúdanos a enllenar la cola.
 record-button-label = Graba la to voz
 share-title-new = <bold>Ayúdanos</bold> a alcontrar más voces

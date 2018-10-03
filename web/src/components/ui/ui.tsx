@@ -28,6 +28,13 @@ export const CardAction = ({ className, ...props }: any) =>
 
 export const Hr = (props: any) => <hr className="hr" {...props} />;
 
+export const LabeledCheckbox = ({ label, ...props }: any) => (
+  <label className="labeled-checkbox">
+    <input type="checkbox" {...props} />
+    <span className="label">{label}</span>
+  </label>
+);
+
 const LabeledFormControl = ({
   className = '',
   component: Component,
@@ -38,12 +45,17 @@ const LabeledFormControl = ({
   const child = <Component {...{ required, ...props }} />;
   return (
     <label
-      className={['labeled-form-control', 'for-' + Component, className].join(
-        ' '
-      )}
+      className={[
+        'labeled-form-control',
+        'for-' + Component,
+        className,
+        props.disabled ? 'disabled' : '',
+      ].join(' ')}
       {...props}>
-      {label}
-      {required && '*'}
+      <span className="label">
+        {required && '*'}
+        {label}
+      </span>
       {Component == 'select' ? (
         <div className="wrapper with-down-arrow">{child}</div>
       ) : (
@@ -53,8 +65,8 @@ const LabeledFormControl = ({
   );
 };
 
-export const LabeledInput = (props: any) => (
-  <LabeledFormControl component="input" {...props} />
+export const LabeledInput = ({ type, ...props }: any) => (
+  <LabeledFormControl component="input" type={type || 'text'} {...props} />
 );
 
 export const LabeledSelect = (props: any) => (
@@ -70,17 +82,20 @@ export const LinkButton = ({
   outline = false,
   rounded = false,
   ...props
-}: any) => (
-  <LocaleLink
-    className={[
-      'button',
-      outline ? 'outline' : '',
-      rounded ? 'rounded' : '',
-      className,
-    ].join(' ')}
-    {...props}
-  />
-);
+}: any) => {
+  const Component = props.to ? LocaleLink : 'a';
+  return (
+    <Component
+      className={[
+        'button',
+        outline ? 'outline' : '',
+        rounded ? 'rounded' : '',
+        className,
+      ].join(' ')}
+      {...props}
+    />
+  );
+};
 
 export const TextButton = ({ className = '', ...props }: any) => (
   <button type="button" className={'text-button ' + className} {...props} />

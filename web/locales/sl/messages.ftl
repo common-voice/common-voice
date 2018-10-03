@@ -57,6 +57,7 @@ kpv = komijščina
 kw = kornijščina
 ky = kirgiščina
 mk = makedonščina
+mn = mongolščina
 myv = erzjanščina
 nb-NO = norveščina (bokmål)
 ne-NP = nepalščina
@@ -82,6 +83,7 @@ tt = tatarščina
 uk = ukrajinščina
 ur = urdujščina
 uz = uzbeščina
+vi = vietnamščina
 zh-CN = kitajščina (Kitajska)
 zh-HK = kitajščina (Hong Kong)
 zh-TW = kitajščina (Tajvan)
@@ -120,6 +122,10 @@ wall-of-text-more-mobile = Večina podatkov, ki jih uporabljajo velika podjetja,
 wall-of-text-more-desktop =
     Zdaj lahko prispevate svoj glas in nam pomagate zgraditi odprtokodno govorno bazo, ki jo bo lahko kdorkoli uporabil za izdelavo inovativnih aplikacij za naprave in splet.<lineBreak></lineBreak>
     Preberite stavek in pomagajte strojem pri učenju človeškega govora. Preglejte delo ostalih sodelavcev in izboljšajte kakovost. Tako enostavno je!
+wall-of-text-first =
+    Glas je naraven, glas je človeški. Zato smo navdušeni nad ustvarjanjem uporabne govorne tehnologije
+    za naše stroje. Da pa bi bilo mogoče ustvariti govorne sisteme, razvijalci potrebujejo zelo veliko količino glasovnih
+    podatkov.
 show-wall-of-text = Več
 help-us-title = Pomagaj nam potrditi stavke!
 help-us-explain = Pritisni predvajaj in poslušaj. Ali je spodnji stavek pravilno izgovorjen?
@@ -130,7 +136,10 @@ toggle-play-tooltip = Pritisnite { shortcut-play-toggle } za preklop načina pre
 speak-subtitle = Prispevajte svoj glas
 speak-goal-text = Posnetki posneti
 listen-subtitle = Pomagajte nam potrditi glasove
+hours-recorded = Posnetih ur
+hours-validated = Potrjenih ur
 read-terms-q = Ste prebrali naše pogoje?
+ready-to-record = Ste pripravljeni prispevati svoj glas?
 all-languages = Vsi jeziki
 today = Danes
 
@@ -191,6 +200,8 @@ profile-form-age =
     .label = Starost
 profile-form-gender =
     .label = Spol
+native-language =
+    .label = Materni jezik
 profile-form-submit-save = Shrani
 profile-form-submit-saved = Shranjeno
 profile-keep-data = Ohrani podatke
@@ -207,6 +218,8 @@ profile-create-success = Uspelo je, profil je ustvarjen!
 profile-close = Zapri
 profile-clear-modal = Izbris vaših profilnih podatkov pomeni, da vaši demografski podatki ne bodo dostopni ob vaših posnetkih v projektu Common Voice.
 profile-explanation = Sledite svojemu napredku s pomočjo profila in nam pomagajte narediti naše zvočne podatke natančnejše.
+why-demographic = Zakaj je to pomembno?
+edit = Uredi
 
 ## FAQ
 
@@ -373,5 +386,6 @@ listen-instruction = { $actionType } <playIcon></playIcon> ali je bil stavek pra
 listen-again-instruction = Odlično opravljeno!<playIcon></playIcon> Poslušajte znova, ko boste pripravljeni.
 listen-3rd-time-instruction = Samo še 2, kar tako naprej! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Še zadnji!
+nothing-to-validate = Trenutno ni ničesar za preveriti v tem jeziku. Pomagaj nam zapolniti čakalno vrsto.
 record-button-label = Posnemite svoj glas
 share-title-new = <bold>Pomagajte nam</bold> najti več glasov

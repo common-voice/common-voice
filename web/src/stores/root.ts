@@ -82,6 +82,7 @@ const store = createStore(
 );
 
 store.dispatch(User.actions.update({}) as any);
+store.dispatch(User.actions.refresh() as any);
 
 const flags = document.querySelector('#flags');
 

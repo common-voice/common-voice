@@ -1,5 +1,5 @@
 require('fluent-intl-polyfill');
-const { MessageContext } = require('fluent');
+const { FluentBundle } = require('fluent');
 const { negotiateLanguages } = require('fluent-langneg');
 const locales = require('../../../locales/all.json') as string[];
 export const NATIVE_NAMES = require('../../../locales/native-names.json') as {
@@ -20,15 +20,15 @@ export function negotiateLocales(locales: ReadonlyArray<string>) {
   });
 }
 
-function* asMessageContextGenerator(localeMessages: string[][]) {
+function* asBundleGenerator(localeMessages: string[][]) {
   for (const [locale, messages] of localeMessages) {
-    const cx = new MessageContext(locale, { useIsolating: false });
-    cx.addMessages(messages);
-    yield cx;
+    const bundle = new FluentBundle(locale, { useIsolating: false });
+    bundle.addMessages(messages);
+    yield bundle;
   }
 }
 
-export function createCrossLocaleMessagesGenerator(
+export function createCrossLocaleBundleGenerator(
   localeMessages: string[][],
   locales: string[]
 ) {
@@ -43,10 +43,10 @@ export function createCrossLocaleMessagesGenerator(
           : -1
     );
 
-  return asMessageContextGenerator(localeMessages);
+  return asBundleGenerator(localeMessages);
 }
 
-export async function createMessagesGenerator(api: API, userLocales: string[]) {
+export async function createBundleGenerator(api: API, userLocales: string[]) {
   const currentLocales = negotiateLocales(userLocales);
 
   const localeMessages: any = await Promise.all(
@@ -56,5 +56,5 @@ export async function createMessagesGenerator(api: API, userLocales: string[]) {
     ])
   );
 
-  return asMessageContextGenerator(localeMessages);
+  return asBundleGenerator(localeMessages);
 }

@@ -26,7 +26,8 @@
     }
 
     &.outline {
-        border: solid 1px color(var(--black) alpha(20%));
+        border-radius: 4px;
+        border: solid 1px color(var(--black) alpha(10%));
         background-color: var(--white);
         color: var(--black);
     }
@@ -108,32 +109,56 @@ button.card-action:focus.focus-visible path {
     background-color: rgba(230, 229, 227, 0.6);
 }
 
+.labeled-checkbox {
+    display: flex;
+    flex-direction: row;
+
+    & input {
+        margin: 7px 10px 0 0;
+    }
+}
+
 .labeled-form-control {
-    margin-bottom: 1rem;
+    position: relative;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    font-style: italic;
-    font-size: var(--font-size-small);
-    color: #4A4A4A;
+
+    &.disabled .label {
+        background: linear-gradient(to bottom, var(--white) 50%, var(--white) 50%, var(--light-grey) 50%);
+    }
 
     & :required, & :valid {
         box-shadow: none;
     }
 
-    & input, & select, & textarea {
-        box-sizing: border-box;
-        border: none;
-        margin-top: .2rem;
-        padding: .5rem;
-        font-size: var(--font-size);
-        font-family: var(--base-font-family);
+    & .label {
+        margin-left: 9px;
+        padding: 0 5px;
+        position: absolute;
+        top: -8px;
+        z-index: var(--middle-z-index);
+        background: var(--white);
+        font-size: var(--font-size-xs);
         color: var(--warm-grey);
-        background-color: var(--light-grey);
     }
 
-    & input, & select {
-        height: var(--input-height);
+    & input, & select, & textarea {
+        box-sizing: border-box;
+        border: 1.5px solid var(--light-grey);
+        padding: 13px;
+        font-size: var(--font-size);
+        font-family: var(--base-font-family);
+        color: var(--black);
+        background-color: var(--white);
+
+        &:focus {
+            border-color: var(--black);
+        }
+
+        &:disabled {
+            background-color: var(--light-grey);
+        }
     }
 
     &.for-select {

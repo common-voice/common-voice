@@ -1,16 +1,35 @@
 import { pick } from 'lodash';
 import { getConfig } from '../../config-helper';
 import { hash } from '../utility';
-import Mysql from './db/mysql';
+import Mysql, { getMySQLInstance } from './db/mysql';
 import Schema from './db/schema';
 import { UserTable } from './db/tables/user-table';
-import UserClientTable from './db/tables/user-client-table';
 import ClipTable, { DBClipWithVoters } from './db/tables/clip-table';
 import VoteTable from './db/tables/vote-table';
+import { IDEAL_SPLIT, randomBucketFromDistribution } from './split';
+import UserClient from './user-client';
 
 // When getting new sentences/clips we need to fetch a larger pool and shuffle it to make it less
 // likely that different users requesting at the same time get the same data
 const SHUFFLE_SIZE = 1000;
+
+let localeIds: { [name: string]: number };
+export async function getLocaleId(locale: string): Promise<number> {
+  if (!localeIds) {
+    const [rows] = await getMySQLInstance().query(
+      'SELECT id, name FROM locales'
+    );
+    localeIds = rows.reduce(
+      (obj: any, { id, name }: any) => ({
+        ...obj,
+        [name]: id,
+      }),
+      {}
+    );
+  }
+
+  return localeIds[locale];
+}
 
 export interface Sentence {
   id: string;
@@ -22,15 +41,13 @@ export default class DB {
   mysql: Mysql;
   schema: Schema;
   user: UserTable;
-  userClient: UserClientTable;
   vote: VoteTable;
 
   constructor() {
-    this.mysql = new Mysql();
+    this.mysql = getMySQLInstance();
 
     this.clip = new ClipTable(this.mysql);
     this.user = new UserTable(this.mysql);
-    this.userClient = new UserClientTable(this.mysql);
     this.vote = new VoteTable(this.mysql);
 
     this.schema = new Schema(this.mysql);
@@ -46,22 +63,6 @@ export default class DB {
     return email.toLowerCase();
   }
 
-  private localeIds: { [name: string]: number };
-  private async getLocaleId(locale: string): Promise<number> {
-    if (!this.localeIds) {
-      const [rows] = await this.mysql.query('SELECT id, name FROM locales');
-      this.localeIds = rows.reduce(
-        (obj: any, { id, name }: any) => ({
-          ...obj,
-          [name]: id,
-        }),
-        {}
-      );
-    }
-
-    return this.localeIds[locale];
-  }
-
   /**
    * Insert or update user client row.
    */
@@ -74,14 +75,14 @@ export default class DB {
           email,
           ...pick(fields, 'send_emails', 'has_downloaded', 'basket_token'),
         }),
-      this.userClient.update({ client_id, email, age, gender }),
+      UserClient.save({ client_id, email, age, gender }),
     ]);
     accents && (await this.saveAccents(client_id, accents));
     return this.getUser(email);
   }
 
   async getOrSetUserBucket(client_id: string, locale: string, bucket: string) {
-    const localeId = await this.getLocaleId(locale);
+    const localeId = await getLocaleId(locale);
 
     let userBucket = await this.getUserBucket(client_id, localeId);
     if (userBucket) return userBucket;
@@ -132,28 +133,6 @@ export default class DB {
     }
   }
 
-  async getUserCount(): Promise<number> {
-    return this.user.getCount();
-  }
-
-  async getDownloadingUserCount(): Promise<number> {
-    const [[{ count }]] = await this.mysql.query(
-      `SELECT COUNT(*) AS count FROM users WHERE has_downloaded`
-    );
-    return count;
-  }
-
-  async getEmailsCount(): Promise<number> {
-    const [[{ count }]] = await this.mysql.query(
-      `SELECT COUNT(email) AS count FROM users WHERE email IS NOT NULL AND TRIM(email) <> ''`
-    );
-    return count;
-  }
-
-  async getUserClientCount(): Promise<number> {
-    return this.userClient.getCount();
-  }
-
   async getSentenceCountByLocale(locales: string[]): Promise<any> {
     const [rows] = await this.mysql.query(
       `
@@ -168,48 +147,9 @@ export default class DB {
     return rows;
   }
 
-  async getTotalSentencesCount(locales?: string[]): Promise<number> {
-    const [[{ count }]] = await this.mysql.query(
-      `SELECT COUNT(*) AS count FROM sentences`
-    );
-    return count;
-  }
-
-  async getSentencesWithNoClipsCount(): Promise<number> {
-    const [[{ count }]] = await this.mysql.query(
-      `
-        SELECT COUNT(*) AS count
-        FROM (
-          SELECT sentences.*
-          FROM sentences
-            LEFT JOIN clips ON sentences.id = clips.original_sentence_id
-          WHERE sentences.is_used
-          GROUP BY sentences.id
-          HAVING COUNT(clips.id) = 0
-        ) t
-      `
-    );
-    return count;
-  }
-
   async getClipCount(): Promise<number> {
     return this.clip.getCount();
   }
-
-  async getVoteCount(): Promise<number> {
-    return this.vote.getCount();
-  }
-
-  async getListenerCount(): Promise<number> {
-    return (await this.mysql.query(
-      `
-        SELECT COUNT(DISTINCT user_clients.client_id) AS count
-        FROM user_clients
-        INNER JOIN votes ON user_clients.client_id = votes.client_id
-      `
-    ))[0][0].count;
-  }
-
   async getSpeakerCount(
     locales: string[]
   ): Promise<{ locale: string; count: number }[]> {
@@ -262,7 +202,7 @@ export default class DB {
         ORDER BY RAND()
         LIMIT ?
       `,
-      [bucket, await this.getLocaleId(locale), client_id, SHUFFLE_SIZE, count]
+      [bucket, await getLocaleId(locale), client_id, SHUFFLE_SIZE, count]
     );
     return (rows || []).map(({ id, text }: any) => ({ id, text }));
   }
@@ -288,13 +228,7 @@ export default class DB {
       ORDER BY RAND()
       LIMIT ?
     `,
-      [
-        await this.getLocaleId(locale),
-        client_id,
-        client_id,
-        SHUFFLE_SIZE,
-        count,
-      ]
+      [await getLocaleId(locale), client_id, client_id, SHUFFLE_SIZE, count]
     );
     for (const clip of clips) {
       clip.voters = clip.voters ? clip.voters.split(',') : [];
@@ -361,10 +295,14 @@ export default class DB {
     try {
       sentenceId = sentenceId || hash(sentence);
       const [localeId] = await Promise.all([
-        this.getLocaleId(locale),
+        getLocaleId(locale),
         this.saveUserClient(client_id),
       ]);
-      const bucket = await this.getOrSetUserBucket(client_id, locale, 'train');
+      const bucket = await this.getOrSetUserBucket(
+        client_id,
+        locale,
+        randomBucketFromDistribution(IDEAL_SPLIT)
+      );
 
       await this.mysql.query(
         `
@@ -414,7 +352,7 @@ export default class DB {
   async getClipsStats(
     locale?: string
   ): Promise<{ date: string; total: number; valid: number }[]> {
-    const localeId = locale ? await this.getLocaleId(locale) : null;
+    const localeId = locale ? await getLocaleId(locale) : null;
 
     const intervals = [
       '100 YEAR',
@@ -499,7 +437,7 @@ export default class DB {
         }
         GROUP BY date
     `,
-      [locale ? await this.getLocaleId(locale) : '']
+      [locale ? await getLocaleId(locale) : '']
     );
 
     return rows;
@@ -601,7 +539,7 @@ export default class DB {
         INSERT INTO user_client_accents (client_id, locale_id, accent) VALUES (?, ?, ?)
           ON DUPLICATE KEY UPDATE accent = VALUES(accent)
       `,
-          [client_id, await this.getLocaleId(locale), accent]
+          [client_id, await getLocaleId(locale), accent]
         )
       )
     );
@@ -662,7 +600,7 @@ export default class DB {
       `
         INSERT INTO user_client_activities (client_id, locale_id) VALUES (?, ?)
       `,
-      [client_id, await this.getLocaleId(locale)]
+      [client_id, await getLocaleId(locale)]
     );
   }
 }

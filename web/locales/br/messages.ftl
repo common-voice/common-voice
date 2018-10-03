@@ -58,11 +58,13 @@ kpv = Komi-Zyrian
 kw = Kerneveureg
 ky = Kirgizeg
 mk = Makedoneg
+mn = Mongoleg
 myv = Erzya
 nb-NO = Norvegeg bokmål
 ne-NP = Nepaleg
 nl = Nederlandeg
 nn-NO = Norvegeg nynorsk
+oc = Okitaneg
 or = Oriya
 pl = Poloneg
 pt-BR = Portugaleg (Brazil)
@@ -83,6 +85,7 @@ tt = Tatareg
 uk = Ukraineg
 ur = Ourdou
 uz = Ouzbekeg
+vi = Vietnameg
 zh-CN = Sinaeg (Sina)
 zh-HK = Sinaeg (Hong Kong)
 zh-TW = Sinaeg (Taiwan)
@@ -119,6 +122,8 @@ home-cta = Komzit, kemerit perzh amañ!
 wall-of-text-start = Naturel eo ar vouezh, denel eo ar vouezh. Setu aze perak e chomomp bamet pa grouomp un deknologiezh vouezh a c'hall bezañ implijet gant hor mekanikoù. Evit krouiñ reizhiadoù mouezh e ranker kaout ur pezh sammad a roadennoù mouezh avat.
 wall-of-text-more-mobile = Ar pep brasañ eus ar roadennoù a ra ar c'hompagnunezhioù bras ganto ne c'hallont ket bezañ implijet gant lodenn vrasañ an dud. Soñjal a ra deomp e voug ar grouüsted. Setu perak hon eus lañset ar raktres Common Voice, ur raktres a laka anaoudegezh ar vouezh da vezañ digor d'an holl.
 wall-of-text-more-desktop = Gellout a rit reiñ ho mouezh evit reiñ an dorn deomp da sevel un diaz-roadennoù mouezh open-source hag a c'hall bezañ implijet gant forzh piv evit sevel arloadoù evit trevnadoù hag ar web. <lineBreak></lineBreak> Lennit ur frazenn evit sikour ar mekanikoù da zeskiñ komz evel ma ra an dud wirion. Gwirit labour kendaolerien all evit gwellaat ar perzhded. Ken aes ha tra!
+wall-of-text-first = Naturel eo ar vouezh, denel eo ivez. Abalamour da-se eo ez eus pres warnomp krouiñ un deknologiezh mouezh evit hor mekanikoù. Met evit krouiñ reizhiadoù mouezh o devez ezhomm an diorroerien da gaout kalz a roadennoù mouezh.
+wall-of-text-second = Ar pep brasañ eus ar roadennoù hegerz gant ar c’hompagnunezhioù na vezont ket hegerz evit darn vuiañ an dud. Setu aze evit petra hon eus loc'het Common Voice, ur raktres hag a sikour ac'hanomp da lakaat an anaoudadur mouezh digor hag hegerz d'an holl.
 show-wall-of-text = Lenn muioc'h
 help-us-title = Skoazellit ac'hanomp da gadarnaat frazennoù!
 help-us-explain = Pouezit war lenn, selaou & lavarit deomp: distripet en/he deus mat ar frazenn dindan?
@@ -126,7 +131,42 @@ no-clips-to-validate = War a seblant n'eus klip ebet da selaou evit ar yezh-mañ
 vote-yes = Ya
 vote-no = Ket
 toggle-play-tooltip = Pouezit war { shortcut-play-toggle } evit gwintañ war-du ar mod lenn
+speak-subtitle = Roit ho mouezh
+speak-paragraph = Enrollañ ar vouezh a zo ul lodenn bouezus evit sevel hon hollad roadennoù digor; lod a lavar eo al lodenn blijus ivez.
+speak-goal-text = Klipoù enrollet
+listen-subtitle = Skoazellit ac'hanomp da wiriañ mouezhioù
+listen-paragraph = Gwiriañ klipoù roet a zo ken pouezus all evit kefridi Common Voice. Selaouit ha skoazellit ac'hanomp da grouiñ roadennoù mouezh digor a galite.
+listen-goal-text = Klipoù gwiriet
+hours-recorded = Eurvezhioù enrollet
+hours-validated = Eurvezhioù gwiriet
+read-terms-q = Ha lennet hoc'h eus on Termenoù?
+ready-to-record = Prest oc'h da reiñ ho mouezh?
+all-languages = An holl yezhoù
 today = Hiziv
+x-weeks-short =
+    { $count ->
+        [one] sizhun
+        [two] sizhun
+        [few] sizhun
+        [many] a sizhunvezhioù
+       *[other] sizhun
+    }
+x-months-short =
+    { $count ->
+        [one] miz
+        [two] viz
+        [few] miz
+        [many] a vizioù
+       *[other] miz
+    }
+x-years-short =
+    { $count ->
+        [one] bloaz
+        [two] vloaz
+        [few] bloaz
+        [many] a vloazioù
+       *[other] bloaz
+    }
 
 ## Speak & Listen Shortcuts
 
@@ -186,6 +226,8 @@ profile-form-age =
     .label = Oad
 profile-form-gender =
     .label = Jener
+native-language =
+    .label = Yezh c'henidik
 profile-form-submit-save = Enrollañ
 profile-form-submit-saved = Enrollet
 profile-keep-data = Mirout ar roadennoù
@@ -202,6 +244,14 @@ profile-create-success = Berzh, profil krouet!
 profile-close = Serriñ
 profile-clear-modal = Ma skarzhit roadennoù ho profil, ne vo ket kaset an titouroù poblañs ken da gCommon Voice gant hoc'h enrolladennoù son.
 profile-explanation = Dalc'hit ur roud diouzh hoc'h araokadurioù gant ur profil ha sikourit hor roadennoù mouezh da vezañ resisoc'h.
+thanks-for-account = Trugarez vras da vezañ kadarnaet ho kont, krouomp ho profil bremañ.
+why-demographic = Perak e vez pouezus?
+why-demographic-explanation = Roadennoù implij dizanv evel an oad, ar jener, hag ar pouez-mouezh a sikour da wellaat ar roadennoù aodio implijet evit gourdoniñ ha kas war-raok al luskerioù anaoudegezh ar vouezh. Morse ne vo liammet hoc'h anv-implijer hag ho chomlec'h postel d'ar roadennoù a vez kaset ganeoc'h, ha gellout a rit dibab etre lakaat publik hoc'h anv-implijer pe chom dizanv.
+edit = Aozañ
+email-subscriptions = Koumanantoù d'ar roll-bosteloù
+download-profile = Pellgargañ ma roadennoù
+off = Lazhet
+on = Enaouet
 
 ## FAQ
 
@@ -317,6 +367,7 @@ request-language-success-content = Mont a raimp e darempred ganeoc'h a-barzh nem
 language-section-in-progress = War ober
 language-section-in-progress-description = Ar yezhoù war ober a zo war sevel evit ar mare gant hor c'humuniezhioù evit gallout kemer-perzh da c'houde; o araokadenn a ziskouez pelec'h emaint en em gavet ganti war droidigezh al lec'hienn hag an dastum frazennoù.
 language-section-launched = Loc'het
+language-section-launched-new-description = Evit ar yezhoù loc'het da-heul eo bet troet al lec'hienn gant berzh ha trawalc'h a frazennoù a zo bet dastumet evit bezañ gouest da gemer perzh el lodennoù <italic>Komz</italic> ha <italic>Selaou</italic>.
 languages-show-more = Gouzout hiroc'h
 languages-show-less = Gwelet nebeutoc'h
 language-speakers = Komzerien

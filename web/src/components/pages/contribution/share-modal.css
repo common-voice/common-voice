@@ -7,7 +7,7 @@
 
     & h1 {
         font-weight: normal;
-        font-size: 36px;
+        font-size: var(--font-size-xxl);
     }
 
     & .share-image {

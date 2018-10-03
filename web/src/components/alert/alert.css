@@ -1,7 +1,7 @@
 .alert {
     color: #fff;
     padding: 8px;
-    font-size: var(--font-size-small);
+    font-size: var(--font-size-xs);
 
     &.success {
         background-color: var(--green);

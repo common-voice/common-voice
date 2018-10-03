@@ -1,176 +1,14 @@
 import pick = require('lodash.pick');
+import { Dispatch } from 'redux';
 import { createSelector } from 'reselect';
+import { UserClient } from '../../../common/user-clients';
 import { DEFAULT_LOCALE } from '../services/localization';
 import { generateGUID } from '../utility';
+import { AGES, SEXES } from './demographics';
 import StateTree from './tree';
 
-export const ACCENTS: any = {
-  ca: {
-    balearic: 'balear',
-    central: 'central',
-    northwestern: 'nord-occidental',
-    northern: 'septentrional',
-    valencian: 'valencià',
-  },
-  cy: {
-    united_kingdom: 'Y Deyrnas Unedig Cymraeg',
-  },
-  de: {
-    germany: 'Deutschland Deutsch',
-    netherlands: 'Niederländisch Deutsch',
-    austria: 'Österreichisches Deutsch',
-    poland: 'Polnisch Deutsch',
-    switzerland: 'Schweizerdeutsch',
-    united_kingdom: 'Britisches Deutsch',
-    france: 'Französisch Deutsch',
-    denmark: 'Dänisch Deutsch',
-    belgium: 'Belgisches Deutsch',
-    hungary: 'Ungarisch Deutsch',
-    brazil: 'Brasilianisches Deutsch',
-    czechia: 'Tschechisch Deutsch',
-    united_states: 'Amerikanisches Deutsch',
-    slovakia: 'Slowakisch Deutsch',
-    russia: 'Russisch Deutsch',
-    kazakhstan: 'Kasachisch Deutsch',
-    italy: 'Italienisch Deutsch',
-    finland: 'Finnisch Deutsch',
-    slovenia: 'Slowenisch Deutsch',
-    canada: 'Kanadisches Deutsch',
-    bulgaria: 'Bulgarisch Deutsch',
-    greece: 'Griechisch Deutsch',
-    lithuania: 'Litauisch Deutsch',
-    luxembourg: 'Luxemburgisches Deutsch',
-    paraguay: 'Paraguayisch Deutsch',
-    romania: 'Rumänisch Deutsch',
-    liechtenstein: 'liechtensteinisches Deutscher',
-    namibia: 'Namibisch Deutsch',
-  },
-  en: {
-    us: 'United States English',
-    australia: 'Australian English',
-    england: 'England English',
-    canada: 'Canadian English',
-    philippines: 'Filipino',
-    hongkong: 'Hong Kong English',
-    indian: 'India and South Asia (India, Pakistan, Sri Lanka)',
-    ireland: 'Irish English',
-    malaysia: 'Malaysian English',
-    newzealand: 'New Zealand English',
-    scotland: 'Scottish English',
-    singapore: 'Singaporean English',
-    southatlandtic: 'South Atlantic (Falkland Islands, Saint Helena)',
-    african: 'Southern African (South Africa, Zimbabwe, Namibia)',
-    wales: 'Welsh English',
-    bermuda: 'West Indies and Bermuda (Bahamas, Bermuda, Jamaica, Trinidad)',
-  },
-  eo: {
-    internacia: 'Internacia',
-  },
-  fr: {
-    france: 'Français de France',
-    madagascar: 'Français de Madagascar',
-    cameroon: 'Français du Cameroun',
-    germany: 'Français d’Allemagne',
-    united_kingdom: 'Français du Royaume-Uni',
-    cote_d_ivoire: 'Français de Côte d’Ivoire',
-    tunisia: 'Français de Tunisie',
-    mali: 'Français du Mali',
-    algeria: 'Français d’Algérie',
-    canada: 'Français du Canada',
-    morocco: 'Français du Maroc',
-    burundi: 'Français du Burundi',
-    senegal: 'Français du Sénégal',
-    niger: 'Français du Niger',
-    netherlands: 'Français des Pays-Bas',
-    togo: 'Français de la République du Togo',
-    burkina_faso: 'Français du Burkina-Faso',
-    belgium: 'Français de Belgique',
-    congo_brazzaville: 'Français du Congo (Brazzaville)',
-    congo_kinshasa: 'Français du Congo (Kinshasa)',
-    italy: 'Français d’Italie',
-    benin: 'Français du Bénin',
-    romania: 'Français de Roumanie',
-    guinea: 'Français de Guinée',
-    chad: 'Français du Tchad',
-    central_african_republic: 'Français de République centrafricaine',
-    united_states: 'Français des États-Unis',
-    switzerland: 'Français de Suisse',
-    portugal: 'Français du Portugal',
-    gabon: 'Français du Gabon',
-    syria: 'Français de Syrie',
-    greece: 'Français de Grèce',
-    austria: 'Français d’Autriche',
-    ireland: 'Français d’Irlande',
-    reunion: 'Français de La Réunion',
-    mauritania: 'Français de Mauritanie',
-    luxembourg: 'Français du Luxembourg',
-    haiti: 'Français d’Haïti',
-    comoros: 'Français des Comores',
-    martinique: 'Français de Martinique',
-    guadeloupe: 'Français de Guadeloupe',
-    hungary: 'Français d’Hongrie',
-    new_caledonia: 'Français de Nouvelle-Calédonie',
-    french_polynesia: 'Français de Polynésie française',
-    french_guiana: 'Français de Guyane',
-    vanuatu: 'Français du Vanuatu',
-    mayotte: 'Français de Mayotte',
-    cyprus: 'Français de Chypre',
-    equatorial_guinea: 'Français de Guinée équatoriale',
-    seychelles: 'Français des Seychelles',
-    malta: 'Français de Malte',
-    mauritius: 'Français de l’Île Maurice',
-    st_martin: 'Français de Saint-Martin',
-    monaco: 'Français de Monaco',
-    lebanon: 'Français du Liban',
-    djibouti: 'Français de Djibouti',
-    wallis_et_futuna: 'Français de Wallis et Futuna',
-    st_barthelemy: 'Français de Saint-Barthélemy',
-    andorra: 'Français d’Andorre',
-    st_pierre_et_miquelon: 'Français de Saint-Pierre-et-Miquelon',
-    rwanda: 'Français du Rwanda',
-  },
-  nl: {
-    netherlands: 'Nederlands Nederlands',
-    belgium: 'Belgisch Nederlands',
-    suriname: 'Surinaams Nederlands',
-    france: 'Frans Nederlands',
-    germany: 'Duits Nederlands',
-    curacao: 'Nederlands van Curaçao',
-    aruba: 'Nederlands van Aruba',
-    sint_maarten: 'Nederlands van Sint-Maarten',
-    south_africa: 'Zuid-Afrikaans Nederlands',
-    namibia: 'Namibisch Nederlands',
-    indonesia: 'Indonesisch Nederlands',
-  },
-  'ga-IE': {
-    mumhain: 'Gaeilge na Mumhan',
-    connachta: 'Gaeilge Chonnacht',
-    ulaidh: 'Gaeilge Uladh',
-  },
-};
-
-export const AGES = {
-  '': '',
-  teens: '< 19',
-  twenties: '19 - 29',
-  thirties: '30 - 39',
-  fourties: '40 - 49',
-  fifties: '50 - 59',
-  sixties: '60 - 69',
-  seventies: '70 - 79',
-  eighties: '80 - 89',
-  nineties: '> 89',
-};
-
-export const GENDERS = {
-  '': '',
-  male: 'Male',
-  female: 'Female',
-  other: 'Other',
-};
-
 type Age = keyof typeof AGES;
-type Gender = keyof typeof GENDERS;
+type Sex = keyof typeof SEXES;
 
 export namespace User {
   export interface State {
@@ -183,13 +21,16 @@ export namespace User {
       [locale: string]: string;
     };
     age: Age;
-    gender: Gender;
+    gender: Sex;
     clips: number;
     privacyAgreed: boolean;
     hasDownloaded: boolean;
 
     recordTally: number;
     validateTally: number;
+
+    userClients: UserClient[];
+    account: UserClient;
   }
 
   export interface UpdatableState {
@@ -198,9 +39,11 @@ export namespace User {
     sendEmails?: boolean;
     accents?: { [locale: string]: string };
     age?: Age;
-    gender?: Gender;
+    gender?: Sex;
     privacyAgreed?: boolean;
     hasDownloaded?: boolean;
+    userClients?: UserClient[];
+    account?: UserClient;
   }
 
   function getDefaultState(): State {
@@ -218,6 +61,8 @@ export namespace User {
       hasDownloaded: false,
       recordTally: 0,
       validateTally: 0,
+      userClients: [],
+      account: null,
     };
   }
 
@@ -247,7 +92,7 @@ export namespace User {
 
   export const actions = {
     update: (state: UpdatableState) => (
-      dispatch: any,
+      dispatch: Dispatch<UpdateAction>,
       getState: () => StateTree
     ) => {
       dispatch({
@@ -270,6 +115,21 @@ export namespace User {
       type: ActionType.UPDATE,
       state: getDefaultState(),
     }),
+
+    refresh: () => async (
+      dispatch: Dispatch<UpdateAction>,
+      getState: () => StateTree
+    ) => {
+      const { api } = getState();
+      const [account, userClients] = await Promise.all([
+        api.fetchAccount(),
+        api.fetchUserClients(),
+      ]);
+      dispatch({
+        type: ActionType.UPDATE,
+        state: { account, userClients },
+      });
+    },
   };
 
   export function reducer(state = getDefaultState(), action: Action): State {

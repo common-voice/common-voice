@@ -4,6 +4,7 @@ import * as path from 'path';
 import * as express from 'express';
 import { NextFunction, Request, Response } from 'express';
 const contributableLocales = require('../../locales/contributable.json');
+import { importLocales } from './lib/model/db/import-locales';
 import Model from './lib/model';
 import API from './lib/api';
 import Logger from './lib/logger';
@@ -11,7 +12,6 @@ import { getElapsedSeconds, ClientError, APIError } from './lib/utility';
 import { importSentences } from './lib/model/db/import-sentences';
 import { getConfig } from './config-helper';
 import authRouter from './auth-router';
-import { router as adminRouter } from './admin';
 import fetchLegalDocument from './fetch-legal-document';
 
 const consul = require('consul')({ promisify: true });
@@ -64,7 +64,6 @@ export default class Server {
 
     app.use(authRouter);
     app.use('/api/v1', this.api.getRouter());
-    app.use(adminRouter);
 
     const staticOptions = {
       setHeaders: (response: express.Response) => {
@@ -161,6 +160,7 @@ export default class Server {
 
     try {
       await this.model.performMaintenance();
+      await importLocales();
       if (doImport) {
         await importSentences(await this.model.db.mysql.createPool());
       }
@@ -224,16 +224,18 @@ export default class Server {
       return;
     }
 
-    const lock = consul.lock({ key: 'migration-lock' });
+    const lock = consul.lock({ key: 'maintenance-lock' });
 
     lock.on('acquire', async () => {
       const key = ENVIRONMENT + RELEASE_VERSION;
 
       try {
         const result = await consul.kv.get(key);
-        const hasMigrated = result && JSON.parse(result.Value);
+        const hasPerformedMaintenance = result && JSON.parse(result.Value);
 
-        if (!hasMigrated) {
+        if (hasPerformedMaintenance) {
+          this.print('maintenance already performed');
+        } else {
           await this.performMaintenance(options.doImport);
           await consul.kv.set(key, JSON.stringify(true));
         }
@@ -287,5 +289,7 @@ process.on('uncaughtException', function(err: any) {
 // If this file is run directly, boot up a new server instance.
 if (require.main === module) {
   let server = new Server();
-  server.run().catch(e => console.error(e));
+  server
+    .run({ doImport: getConfig().IMPORT_SENTENCES })
+    .catch(e => console.error(e));
 }

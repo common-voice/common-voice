@@ -64,7 +64,7 @@ Ze dronken de melk en vielen in slaap.
 Rozijnen zijn echt heel lekker.
 Bij het ontbijt werden ook croissants geserveerd.
 Hij nam een slok van zijn koffie en schudde zijn hoofd.
-Kijk, ze hebben net een Sushi restaurant geopend.
+Kijk, ze hebben net een sushirestaurant geopend.
 Het avondeten bestond uit pannenkoeken met stroop.
 Stamppot is een gerecht voor liefhebbers.
 Met het vlees werd een roerbak gerecht gemaakt.
@@ -530,7 +530,7 @@ Het vertonen van het toneelstuk viel in het water door te weinig publiek.
 De groenteman, slager en bakker hebben het moeilijk sinds de supermarkt er is gekomen.
 Ik vindt dat we nog iets meer geld moeten uittrekken voor de promotie.
 Weigeren kan, maar mijn waardering daalt er wel door.
-Het technologie bedrijf toonde weinig begrip voor de protesten.
+Het technologiebedrijf toonde weinig begrip voor de protesten.
 De bas in de koptelefoon was erg luid in vergelijking met andere modellen.
 Na drie weken vakantie moest de familie weer terugkeren naar Nederland.
 De uitdrukking werd verkeerd gebruikt door de persoon.
@@ -623,7 +623,7 @@ Na het aftreden van de directeur kwam de manager meer naar de voorgrond.
 Ben je volkomen zeker van je zaak?
 Ik zal de laptop even je voor je instellen.
 Zal ik die afspraak even verzetten?
-De baby was inmiddels 5 maanden oud.
+De baby was inmiddels vijf maanden oud.
 De tegenstander bij een potje schaken was haar vader.
 Het was even schrikken, maar dat is natuurlijk het doel van een spookhuis.
 De getuige kon de verdachte aanwijzen.
@@ -1193,3 +1193,4 @@ De databases hadden elk een eigen back-up.
 Ze sliepen de hele reis op de achterbank.
 Mijn concentratie is meestal erg laag rond vier uur.
 De handboeien zaten erg strak om zijn handen heen.
+Het nieuwste gadget was niet voor iedereen weggelegd.

@@ -386,7 +386,7 @@ A predator drone equipped with multiple cruise missiles lifted off.
 The implementation is not compliant with the specification.
 Affirmative, a breaching charge is available.
 My initial assumption about the phase displaced pulse was wrong.
-Even with night-vision googles, no target was in sight.
+Even with night-vision goggles, no target was in sight.
 Neither the radar nor the other instruments detected the stealth bomber.
 Flash grenades explode with a loud bang and cause disorientation.
 Two victims immediately need medical attention.
