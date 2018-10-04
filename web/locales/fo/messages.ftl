@@ -104,6 +104,7 @@ wall-of-text-start = Røddin er natúrlig, røddin er menniskjulig. Tí eru vit 
 wall-of-text-first = Røddin er natúrlig, røddin er menniskjulig. Tí eru vit hugtikin av at menna brúkiliga raddartøkni til okkara maskinur. Men fyri at menna skipanir til at skilja talu, krevst ein ógvuliga stór nøgd av raddartilfari.
 show-wall-of-text = Les meira
 help-us-title = Hjálp okkum at góðkenna setningar!
+help-us-explain = Trýst á spæl, lurta, og fortel okkum um setningurin var tosaður rætt.
 vote-yes = Ja
 vote-no = Nei
 speak-subtitle = Gev tína rødd
@@ -137,6 +138,7 @@ x-years-short =
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = Spæl/Steðga
 
 ## Speak Shortcuts
 
@@ -266,6 +268,6 @@ contribute = Stuðla
 listen = Lurta
 skip = Leyp um
 shortcuts = Snarvegir
-listen-again-instruction = Flott! Lurta aftur tá ið tú ert til reiðar
+listen-again-instruction = Flott!<playIcon></playIcon> Lurta aftur tá ið tú ert til reiðar
 record-button-label = Tak upp tína rødd
 share-title-new = <bold>Hjálp okkum</bold> at finna meira røddir
