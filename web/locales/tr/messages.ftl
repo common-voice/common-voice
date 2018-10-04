@@ -64,6 +64,7 @@ nb-NO = Norveç Bokmål
 ne-NP = Nepalce
 nl = Felemenkçe
 nn-NO = Norveççe (Nynorsk)
+oc = Oksitanca
 or = Odia
 pl = Lehçe
 pt-BR = Portekizce (Brezilya)
@@ -231,8 +232,20 @@ profile-create-success = Profil başarıyla oluşturuldu!
 profile-close = Kapat
 profile-clear-modal = Profil verilerinizi silerseniz bu demografik bilgiler artık ses kayıtlarınızla birlikte Common Voice'a gönderilmeyecektir.
 profile-explanation = Profil oluşturarak hem ilerlemenizi takip edebilir hem de ses verilerimizin daha verimli olmasını sağlayabilirsiniz.
+thanks-for-account = Hesabınızı onayladığınız için teşekkür ederiz. Şimdi profilinizi oluşturalım.
+why-demographic = Bu neden önemli?
+why-demographic-explanation = Yaş, cinsiyet ve aksan gibi anonim kullanıcı verileri, konuşma tanıma motorlarının doğruluğunu eğitmek için kullanılan ses verilerini geliştirmeye yardımcı olur. Kullanıcı adınız ve e-postanız gönderilen verilerinizle asla ilişkilendirilmez. Kullanıcı adınızın başkaları tarafından görünüp görünmeyeceğini de seçebilirsiniz.
+accept-privacy = Bu bilgilerin Mozilla’nın <privacyLink>Gizlilik Politikası</privacyLink>’nda açıklandığı şekilde kullanılmasını kabul ediyorum
+login-identity = Giriş kimliği
 edit = Düzenle
 email-subscriptions = E-posta abonelikleri
+download-profile = Verilerimi indir
+contribution-experience = Katkı deneyimi
+skip-submission-feedback = Gönderim geri bildirimini atla
+skip-submission-description = Katkı gönderimi sırasında Gönder'e tıkladıktan sonra geri bildirim atlanır. Katkı, bir sonraki 5 kayıt veya doğrulama setiyle doğrudan devam edecektir.
+skip-submission-note = Not: Katkı türünü değiştirmek için Konuşma veya Dinleme arasında seçim yapmanız gerekecektir.
+off = Kapalı
+on = Açık
 
 ## FAQ
 
