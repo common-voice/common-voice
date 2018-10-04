@@ -58,11 +58,13 @@ kpv = Komi-Zyrian
 kw = Cornico
 ky = Kirghiso
 mk = Macedone
+mn = Mongolo
 myv = Erza
 nb-NO = Bokmål (Norvegia)
 ne-NP = Nepalese
 nl = Olandese
 nn-NO = Norvegese Nynorsk
+oc = Occitano
 or = Oriya
 pl = Polacco
 pt-BR = Portoghese (Brasile)
@@ -83,6 +85,7 @@ tt = Tataro
 uk = Ucraino
 ur = Urdu
 uz = Uzbeco
+vi = Vietnamita
 zh-CN = Cinese (Cina)
 zh-HK = Cinese (Hong Kong)
 zh-TW = Cinese (Taiwan)
@@ -230,6 +233,7 @@ profile-close = Chiudi
 profile-clear-modal = Cancellare i dati del tuo profilo significa che le informazioni demografiche non saranno più inviate a Common Voice con le tue registrazioni.
 profile-explanation = Registra un profilo per tenere traccia dei tuoi progressi e aiutarci a migliorare la precisione dei dati vocali.
 thanks-for-account = Grazie per aver confermato il tuo account, ora iniziamo a completare il tuo profilo.
+why-demographic = Perché è importante?
 
 ## FAQ
 
