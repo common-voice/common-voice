@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = A si, ca ka kua ko. Common Voice Project kong theih ka duh.
-stayintouch = Holh phun kip in computer a ngahnak ding hi kan nih Mozilla kampani nih kan i tinh mi cu asi. Zei ti in dah hihi na hman timi le thilthar pawl kan ngeih tik ah in chimh ve kan duh.
+stayintouch = Holh phunkip in computer a ngahnak ding hi kan nih Mozilla kampani nih kan i tinh mi cu a si. Zei ti in dah hihi na hman timi le thilthar pawl kan ngeih tik ah in chimh ve kan duh.
 privacy-info = Nangmah kong midang kan theih ter hna lai lo. <privacyLink>Privacy Notice</privacyLink> ah hin rel chap.
 return-to-cv = Common Voice ah kir
 email-input =
@@ -117,7 +117,7 @@ report-bugs-link = A  ṭha lo mi kan chim
 
 ## Home Page
 
-home-title = Common Voice rian cu Mozilla nih tuahmi, zei ti in dah minung an holh ti computer chimhnak asi.
+home-title = Common Voice cu Mozilla kampani nih a tuah mi, zei tiin dah Laiholh in computer chawnh khawh a si lai ti, computer cawnpiaknak a si.
 home-cta = Na aw hi ka hin tuun!
 wall-of-text-start = Aw cu kokek a si, Aw cu minung a si. Cucaah, computer ah hman khawh dingmi Laiholh ser lai hi kan i ngaih tuk. Hi kan tuah khawhnak ding caah cun, Aw hi tamtuk hringhren kan herh.
 wall-of-text-more-mobile = Kampani lian tampi nih an tuah mi, computer holh theihnak, hi Laiholh in cun hmankhawh an si lo. Cucu ṭhanchonak caah thawphit tu a si ti kan ruah. Cucaah, Project Common Voice timi hi mi vialte nih an holh cio in computer an hman khawh nak ding caah kan tuah mi a si.
@@ -130,7 +130,7 @@ help-us-explain = Play hmet, ngai, cun kan chim: A tanglei biatlang hi hman tein
 no-clips-to-validate = Hi holh in cun ngaih ding mi hi zei hmanh a um lo. Ngaih ding chiah na duh cun nangmah na aw tun law chia.
 vote-yes = A si
 vote-no = A si lo
-toggle-play-tooltip = lentecalh nakah  { shortcut-play-toggle } hmet.
+toggle-play-tooltip = Lentecalh nakah  { shortcut-play-toggle } hmet.
 speak-subtitle = Na aw rak tun
 speak-paragraph = Aw i tun hi a biapi tak tak mi kan rian a si; mi cheukhat nih cun a nuam zong a nuam tiah an ruah.
 speak-goal-text = Aw a khumh cang
@@ -236,6 +236,7 @@ why-demographic = Zei ruangah dah biapi a si?
 keep-me-posted =
     .label = Common Voice konghi chimh peng le theih peng ka duh ko.
 accept-privacy = Keimah kong hi Mozilla <privacyLink> Kilvennak Pawlisi </privacyLink> i nan ṭial bantuk in hmang ko uh.
+login-identity = Lutnak
 edit = Remh
 email-subscriptions = Email Pehtlaihnak
 download-profile = Ka data thuntlen
@@ -285,7 +286,7 @@ data-download-yes = Thuntlen Ko
 data-download-deny = Thuntlen Hlah
 data-download-license = Laisen:<licenseLink>CC-0</licenseLink>
 data-download-modal = A tu thuntlen na timh mi hi <size>{ $size }GB</size> a si, na thuntlen lai maw?
-data-subtitle = Holh thiamnak he pehtlai in mipi caah a sunglawi mi Aw phunkip lak in mipi caah data lianpi kan ser.
+data-subtitle = Holh thiamnak he pehtlaih in mipi caah a sunglawi mi Aw phunkip laak in mipi caah data lianpi kan ser.
 data-explanatory-text = Mipi caah sunglawi ngai le lianngai in Aw lei datasets nih hin a ngandam mi chaw lehthal nak le computer chimh cawnpiaknak duhnak hi a chuah pi tiah kan zumh. Hihi miphun kip le ramkip fonh in rak i tal ve uh ti hi kan in sawm hna.  Kan vawlei pi ah Aw sunglawi in holh phun kip a um mi hi i tal dih hna sih ti hi kan i tinh mi asi.
 data-get-started = <speechBlogLink> Speech Recognition thoknak</speechBlogLink>
 data-other-title = Adang Aw datasets
