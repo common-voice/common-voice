@@ -381,7 +381,7 @@ Beter één vogel in de hand dan tien in de lucht.
 Wie niet waagt, die niet wint.
 Water loopt altijd naar de zee.
 Goede wijn behoeft geen krans.
-Spreken is zilver, zwijgen is oud.
+Spreken is zilver, zwijgen is goud.
 Zuinigheid met vlijt bouwt huizen als kastelen.
 Na regen komt zonneschijn.
 Het stond op mijn todo lijst.
@@ -399,7 +399,7 @@ Hij plaatste een DVD in de speler.
 Deze website kan wel wat meer interactie gebruiken.
 Het kon staal, zilver of platina zijn.
 De zuurstof was ontsnapt uit de buis.
-De python was geen slang maar een programmeer taal.
+De python was geen slang maar een programmeertaal.
 Het was een mega monster gemaakt van metaal.
 Hij verwijderde vijf regels uit de database.
 Er stond een kilometer lange file van zuid naar noord.
@@ -601,7 +601,7 @@ Je moet wat geduld hebben met deze computer.
 Is er nog de mogelijkheid om meer opties te krijgen?
 Gisteravond is op deze straat een ongeluk gebeurt.
 Merkwaardig genoeg staan de bloemen nu al in bloei.
-Meneer Jansen kwam elke naar buiten om wat boodschapjes te doen.
+Meneer Jansen ging elke dag naar buiten om wat boodschapjes te doen.
 Luisteren kinderen nog wel naar de radio?
 De artiest wilde bekendmaken dat hij een nieuw album ging uitbrengen.
 De productie van olie is al jaren aan het dalen.
@@ -859,7 +859,7 @@ Mijn collega heeft te maken met burn-out klachten.
 Ben je wel eens gehackt?
 De hacker was het computersysteem binnengedrongen.
 De spits van het team scoorde twee keer in de wedstrijd.
-Het verhullen van de fout was gebeurt om gezichtsverlies te vermijden.
+Het verhullen van de fout was gebeurd om gezichtsverlies te vermijden.
 Het monster onder zijn bed bleek een kussen te zijn.
 De crimineel was in een liquidatie vermoord.
 Als je die spullen niet meer wil kan je ze beter weggeven.
