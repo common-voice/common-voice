@@ -249,6 +249,7 @@ email-subscriptions = E-prenumerationer
 download-profile = Hämta min data
 contribution-experience = Erfarenhet
 skip-submission-feedback = Hoppa över återkoppling
+skip-submission-note = Notera: Du behöver fortfarande välja mellan att prata och lyssna för att ändra bidragstyp.
 off = Av
 on = På
 
