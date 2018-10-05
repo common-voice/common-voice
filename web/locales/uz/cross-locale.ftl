@@ -1,7 +1,7 @@
 ## Languages
 
+contribute = Hissa qo‘shish
 get-involved-button = Hissa qo‘shish
-get-involved-cancel = Chiqish
 get-involved-title = { $lang }ga hissa qo‘shish
 get-involved-text =
     { $lang }ga hissa qo‘shishga qiziqqaningiz uchun rahmat. Ona tilingizda ushbu loyiha ishga tushishi uchun tayyor bo‘lishida biz qattiq ishlaymiz 
