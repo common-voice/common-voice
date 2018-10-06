@@ -4,6 +4,20 @@ yes-receive-emails = Po, dërgomëni email-e. Do të doja të jem në dijeni rre
 stayintouch = Ne në Mozilla po ndërtojmë një bashkësi rreth teknologjish që lidhen me zërin. Do të donin të ruanim lidhjet me ju, përmes përditësimesh, burimesh të reja zëri dhe të mësojmë se si po i përdorni këto të dhëna.
 privacy-info = Premtojmë t’i trajtojmë me kujdes të dhënat tuaja. Lexoni më tepër te <privacyLink>Shënimi ynë mbi Privatësinë</privacyLink>.
 return-to-cv = Kthehuni te Common Voice
+email-input =
+    .label = Email
+submit-form-action = Parashtroje
+loading = Po ngarkohet…
+
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
+
+
+## Languages
+
+
+# [/]
+
 
 ## Layout
 
@@ -31,6 +45,15 @@ wall-of-text-more-desktop =
 show-wall-of-text = Lexoni Më Tepër
 help-us-title = Ndihmonani të vleftësojmë fjali!
 help-us-explain = Shtypni Play, dëgjoni & na thoni: a e shqiptuan saktë fjalinë më poshtë?
+
+## Speak & Listen Shortcuts
+
+
+## Listen Shortcuts
+
+
+## Speak Shortcuts
+
 request-language-text = S’e ende shihni gjuhën tuaj te Common Voice?
 request-language-button = Kërkoni një Gjuhë
 
@@ -38,26 +61,21 @@ request-language-button = Kërkoni një Gjuhë
 
 status-title = Gjendje e projektit në përgjithësi: shihni deri ku kemi mbërritur!
 status-contribute = Kontribuoni Me Zërin Tuaj
-loading = Po ngarkohet…
 status-hours =
     { $hours ->
         [one] Një orë e vlerësuar deri këtu!
-       *[other] { hours } orë të vlerësuara deri këtu!
+       *[other] { $hours } orë të vlerësuara deri këtu!
     }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Objektivi i Ardhshëm: { $goal }
-status-more-soon = Më tepër gjuhë së shpejti!
 
 ## ProfileForm
 
-email-input =
-    .label = Email
 profile-form-username =
     .label = Emër Përdoruesi
 profile-form-language =
     .label = Gjuhë
-profile-form-more-languages = Më tepër gjuhë së shpejti!
 profile-form-accent =
     .label = Theksim
 profile-form-age =
@@ -97,32 +115,6 @@ profile-why-content = Duke furnizuar disa të dhëna mbi veten, të dhënat audi
 
 notfound-title = S’u gjet
 notfound-content = Kam frikë s’e nuk di se ç’po kërkoni.
-
-## Privacy
-
-privacy-title = Shënim Privatësie për Common Voice
-privacy-policy = Kur Mozilla (domethënë ne), merr të dhëna nga ju, <policy>Rregullat e Privatësisë në Mozilla</policy> përshkruajnë se si i trajtojmë ato të dhëna.
-privacy-data-demographic = <name>Të dhëna demografike.</name> Mundet, nëse doni, të na dërgoni të dhëna të tilla si theksi juaj, mosha, dhe gjinia. Këto na ndihmojnë ne dhe kërkues të tjerë të krijojmë dhe përmirësojmë teknologji dhe mjete për shndërrim të të folurës në tekst.
-privacy-data-account = <name>Të dhëna llogarie.</name> Nëse doni, mund të krijoni një llogari, dhe kjo na dërgon email-in tuaj. Kjo përshoqërohet me të dhënat tuaja demografike dhe ato të ndërveprimit me ne, por ajo nuk i jepet publikut.
-privacy-data-recordings = <name>Incizime Zanore.</name> Incizimet Zanore, tok me çfarëdo të dhënash demografike përshoqëruar atyre, mund të jepen te baza e të dhënave Common Voice për përdorim dhe konsum publik.
-privacy-data-interaction = <name>Të dhëna ndërveprimi.</name> Për të kuptuar më mirë se si ndërveproni me aplikacioni ose sajtin Common Voice, ne përdorim Google Analytics. Për shembull, këtu përfshihen numri i incizimeve që bëni ose dëgjoni, ndërveprimet me butona dhe menu, kohëzgjatje sesionesh.
-privacy-data-technical = <name>Të dhëna teknike.</name> Duke përdorur Google Analytics, grumbullojmë URL dhe tituj faqesh Common Voice që vizitoni. Grumbullojmë shfletuesin tuaj, madhësinë e skenës ku e mbani hapur, dhe qartësi ekrani. Grumbullojmë gjithashtu vendndodhjen tuaj, dhe rregullime gjuhe në shfletuesin tuaj.
-privacy-more = <more>Mësoni më tepër</more>
-
-## Terms
-
-terms-title = Terma Ligjore mbi Common Voice
-terms-eligibility-content = Duhet të jeni mbi 13 vjeç ose të keni miratimin dhe mbikëqyrjen e një prindi ose kujdestari të pjesëmarrjes tuaj në projektin tonë.
-terms-privacy-title = Privatësi
-terms-privacy-content = <privacyLink>Shënimi ynë mbi Privatësinë</privacyLink> shpjegon se si i grumbullojmë dhe trajtojmë të dhënat tuaja.
-terms-contributions-title = Kontributet Tuaja dhe Heqja Dorë Nga të Drejtat
-terms-contributions-content = Duke parashtruar incizimet tuaj, hiqni dorë nga krejt të drejtat e kopjimit dhe të drejta të tjera që mund të keni mbi to, dhe pajtoheni me hedhjen në qarkullim publik të tyre sipas kushteve të licencës <licenseLink>CC-0</licenseLink>. Kjo do të thotë se jeni dakord të hiqni dorë nga krejt të drejtat mbi incizimet kudo në botë sipas ligjesh të drejtash kopjimi dhe bazash të dhënash, përfshi të drejta morale dhe publiciteti dhe nga krejt të dhënat e afërta dhe fqinje me to.
-terms-communications-title = Komunikime
-terms-communications-content = Nëse pajtoheni te buletinet tanë ose regjistroni një llogari për te Common Voice, mund të merrni prej nesh email-e lidhur me llogarinë tuaj (për shembull, njoftime lidhur me privatësinë, anë ligjore dhe sigurinë).
-terms-general-title = Të përgjithshme
-terms-general-updates = Përditësime: Mozilla mund t’i përditësojë herë pas here këto Kushte, për trajtimin e një veçorie të re të Shërbimit ose për të qartësuar ndonjë hollësi. Kushtet e përditësuara do të botohen në internet. Nëse ndryshimet janë thelbësore, përditësimin do ta bëjmë të ditur përmes kanaleve të zakonshëm të Mozilla-s -për njoftime të tilla, si postime blogjesh dhe forumesh. Vazhdimi i përdorimit të Shërbimeve pas hyrjes në fuqi të ndryshimeve përbën pranimin tuaj të ndryshimeve të tilla. Për ta bërë më të volitshëm shqyrtimin tuaj të tyre, do të postojmë një datë hyrjeje në fuqi në krye të kësaj faqeje.
-terms-general-termination = Përfundim: Mund ta pezullojmë ose përfundojmë hyrjen tuaj në Shërbimet në çfarëdo kohe, për çfarëdo arsyeje, do të bëjmë përpjekje të arsyeshme t’ju njoftojmë përmes adresës email përshoqëruar llogarisë tuaj ose herës tjetër që provoni të hyni te Shërbimet. Pavarësisht nga çfarëdo përfundimi, krejt incizimet që parashtroni te Mozilla do të vazhdojnë të jenë të përdorshme publikisht.
-terms-general-law = Kuadër Ligjor i Zbatueshëm: Këto Kushte Ligjore përbëjnë marrëveshjen e plotë mes jush dhe Mozilla-s lidhur me Common Voice dhe u nënshtrohen ligjeve të shtetit të Kalifornisë, ShBA.
 
 ## Data
 
@@ -177,19 +169,21 @@ download-no = Jo, Faleminderit
 ## Contact Modal
 
 contact-title = Formular Kontaktesh
-contact-cancel = Anuloje
 contact-form-name =
     .label = Emër
 contact-form-message =
     .label = Mesazh
 contact-required = *e domosdoshme
-submit-form-action = Parashtroje
 
 ## Request Language Modal
 
 request-language-title = Kërkesë Gjuhe
-request-language-cancel = Dilni Nga Formulari
 request-language-form-language =
     .label = Gjuhë
 request-language-success-title = Kërkesa për gjuhë u parashtrua me sukses, ju faleminderit.
-request-language-success-text = Do të lidhemi me ju me më tepër të dhëna rreth gjuhës tuaj kur kjo të jetë e mundshme.
+
+## Languages Overview
+
+
+## New Contribution
+
