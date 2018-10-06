@@ -372,6 +372,7 @@ total-hours = Ore convalidate
 
 ## New Contribution
 
+action-click = Fai clic su
 action-tap = Tocca
 contribute = Contribuisci
 listen = Ascolta
@@ -391,7 +392,7 @@ record-last-instruction = <recordIcon></recordIcon> L’ultima!
 review-tooltip = Riascolta e, se necessario, ripeti le registrazioni prima di proseguire
 unable-speak = Non posso parlare in questo momento
 review-instruction = Riascolta le registrazioni e, se necessario, ripetile
-record-submit-tooltip = { $actionType } carica il tuo contributo quando è pronto
+record-submit-tooltip = { $actionType } Invia quando sei pronto
 clips-uploaded = Registrazioni caricate
 record-abort-title = Non vuoi finire la registrazione prima?
 record-abort-text = Se esci adesso perderai i progressi fatti
