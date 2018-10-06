@@ -110,6 +110,7 @@ vote-no = Nei
 speak-subtitle = Gev tína rødd
 speak-goal-text = Klipp upptikin
 listen-subtitle = Hjálp okkum at góðkenna røddir
+listen-paragraph = At góðkenna innsendar ljóðupptøkur er líka týdningarmikið fyri Common Voice. Lurta og hjálp okkum at skapa dygdargott open source dáta.
 listen-goal-text = Klipp góðkend
 hours-recorded = Tímar upptiknir
 hours-validated = Tímar góðkendir
@@ -142,6 +143,7 @@ shortcut-play-toggle-label = Spæl/Steðga
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = Tak upp/Steðga
 request-language-text = Finnur tú ikki títt mál á Common Voice?
 request-language-button = Ger eina umbøn um eitt nýtt mál
 
@@ -165,6 +167,8 @@ profile-form-username =
     .label = Brúkaranavn
 profile-form-language =
     .label = Mál
+profile-form-accent =
+    .label = Accent
 profile-form-age =
     .label = Aldur
 profile-form-gender =
@@ -173,6 +177,7 @@ native-language =
     .label = Móðurmál
 profile-form-submit-save = Goym
 profile-form-submit-saved = Goymt
+profile-delete-data = Strika dáta
 male = Mannfólk
 female = Konufólk
 # Gender
