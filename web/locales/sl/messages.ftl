@@ -63,6 +63,7 @@ nb-NO = norveščina (bokmål)
 ne-NP = nepalščina
 nl = nizozemščina
 nn-NO = norveščina (nynorsk)
+oc = okcitanščina
 or = odijščina
 pl = poljščina
 pt-BR = portugalščina (Brazilija)
@@ -142,6 +143,27 @@ read-terms-q = Ste prebrali naše pogoje?
 ready-to-record = Ste pripravljeni prispevati svoj glas?
 all-languages = Vsi jeziki
 today = Danes
+x-weeks-short =
+    { $count ->
+        [one] Teden
+        [two] { $count } tedna
+        [few] { $count } tedni
+       *[other] { $count } tednov
+    }
+x-months-short =
+    { $count ->
+        [one] { $count } mesec
+        [two] { $count } meseca
+        [few] { $count } meseci
+       *[other] { $count } mesecev
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } leto
+        [two] { $count } leti
+        [few] { $count } leta
+       *[other] { $count } let
+    }
 
 ## Speak & Listen Shortcuts
 
@@ -218,8 +240,11 @@ profile-create-success = Uspelo je, profil je ustvarjen!
 profile-close = Zapri
 profile-clear-modal = Izbris vaših profilnih podatkov pomeni, da vaši demografski podatki ne bodo dostopni ob vaših posnetkih v projektu Common Voice.
 profile-explanation = Sledite svojemu napredku s pomočjo profila in nam pomagajte narediti naše zvočne podatke natančnejše.
+thanks-for-account = Hvala za potrditev računa, zdaj pa se lotimo ustvarjanja vašega profila.
 why-demographic = Zakaj je to pomembno?
 edit = Uredi
+off = Izklopljeno
+on = Vklopljeno
 
 ## FAQ
 
