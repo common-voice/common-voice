@@ -249,6 +249,7 @@ email-subscriptions = E-prenumerationer
 download-profile = Hämta min data
 contribution-experience = Erfarenhet
 skip-submission-feedback = Hoppa över återkoppling
+skip-submission-description = Under inlämning av bidrag ignoreras återkoppling efter att du har klickat på "Skicka in". Bidrag fortsätter direkt med nästa uppsättning av 5 inspelningar eller valideringar.
 skip-submission-note = Notera: Du behöver fortfarande välja mellan att prata och lyssna för att ändra bidragstyp.
 off = Av
 on = På
