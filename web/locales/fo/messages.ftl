@@ -83,6 +83,7 @@ zh-TW = Kinesiskt (Taivan)
 
 speak = Tosa
 speak-now = Tosa nú
+datasets = Dátasett
 languages = Mál
 profile = Profilur
 help = Hjálp
@@ -95,6 +96,8 @@ content-license-text = Tilfar er tøkt undir einum <licenseLink>Creative Commons
 share-title = Hjálp okkum at finna onnur at geva sína rødd!
 share-text = Hjálp okkum at læra maskinur, hvussu verulig fólk tosa. Hjálp við at geva tína rødd á { $link }
 link-copied = Leinkið kopiera
+back-top = Far ovast
+contribution-banner-text = Vit hava júst gjørt broytingar til hvussu ein hjálpur til
 contribution-banner-button = Hygg
 report-bugs-link = Hjálp við at boða frá feilum
 
@@ -182,11 +185,13 @@ male = Mannfólk
 female = Konufólk
 # Gender
 other = Annað
-why-profile-title = Hví ein profil?
+why-profile-title = Hví hava ein profil?
 edit-profile = Broyt profil
 profile-create = Stovna ein profil
 profile-create-success = Profilur stovnaður!
 profile-close = Lat aftur
+profile-explanation = Við einum profili kanst tú fylgja við tínari framgongd og samstundis gera okkara raddar dáta meira neyvt.
+thanks-for-account = Takk fyri at tú váttaði tína kontu. Lat okkum nú gera tín profil.
 edit = Broyt
 
 ## FAQ
@@ -202,7 +207,7 @@ faq-hours-a = Tað er umleið talið av tímum neyðugir fyri at trena eina væl
 
 ## Profile
 
-profile-why-title = Hví ein profil?
+profile-why-title = Hví hava ein profil?
 
 ## NotFound
 
