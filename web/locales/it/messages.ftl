@@ -234,6 +234,14 @@ profile-clear-modal = Cancellare i dati del tuo profilo significa che le informa
 profile-explanation = Registra un profilo per tenere traccia dei tuoi progressi e aiutarci a migliorare la precisione dei dati vocali.
 thanks-for-account = Grazie per aver confermato il tuo account, ora iniziamo a completare il tuo profilo.
 why-demographic = Perché è importante?
+keep-me-posted =
+    .label = Mi piacerebbe ricevere aggiornamenti su Common Voice.
+login-identity = Identità di accesso
+edit = Modifica
+email-subscriptions = Sottoscrizioni a email
+download-profile = Scarica i miei dati
+off = Disattiva
+on = Attiva
 
 ## FAQ
 
@@ -364,7 +372,6 @@ total-hours = Ore convalidate
 
 ## New Contribution
 
-action-click = Clic
 action-tap = Tocca
 contribute = Contribuisci
 listen = Ascolta
