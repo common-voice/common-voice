@@ -111,6 +111,7 @@ wall-of-text-second = Meginparturin av dátunum sum stór virki brúka eru ikki 
 show-wall-of-text = Les meira
 help-us-title = Hjálp okkum at góðkenna setningar!
 help-us-explain = Trýst á spæl, lurta, og fortel okkum um setningurin var tosaður rætt.
+no-clips-to-validate = Tað sær ikki út til at vera nakrar upptøkur at lurta eftir fyri hetta málið. Hjálp okkum at fylla bíðirøðina við at taka nakrar upp nú.
 vote-yes = Ja
 vote-no = Nei
 speak-subtitle = Gev tína rødd
