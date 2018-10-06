@@ -103,8 +103,11 @@ report-bugs-link = Hjálp við at boða frá feilum
 
 ## Home Page
 
+home-cta = Opna munnin og hjálp til her!
 wall-of-text-start = Røddin er natúrlig, røddin er menniskjulig. Tí eru vit hugtikin av at menna brúkiliga raddartøkni til okkara maskinur. Men fyri at menna skipanir til at skilja talu, krevst ein ógvuliga stór nøgd av raddartilfari.
+wall-of-text-more-mobile = Meginparturin av dátunum sum stór virki brúka eru ikki tøkar hjá almenninginum. Vit halda at hetta køvur nýskapan. Tí eru vit farin undir Common Voice verkætlanina, ein verkætlan sum skal gera raddarkenning tøka fyri øll.
 wall-of-text-first = Røddin er natúrlig, røddin er menniskjulig. Tí eru vit hugtikin av at menna brúkiliga raddartøkni til okkara maskinur. Men fyri at menna skipanir til at skilja talu, krevst ein ógvuliga stór nøgd av raddartilfari.
+wall-of-text-second = Meginparturin av dátunum sum stór virki brúka eru ikki tøkar hjá almenninginum. Vit halda at hetta køvur nýskapan. Tí eru vit farin undir Common Voice verkætlanina, ein verkætlan sum skal gera raddarkenning tøka fyri øll.
 show-wall-of-text = Les meira
 help-us-title = Hjálp okkum at góðkenna setningar!
 help-us-explain = Trýst á spæl, lurta, og fortel okkum um setningurin var tosaður rætt.
