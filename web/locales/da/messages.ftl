@@ -338,6 +338,7 @@ contribute = Bidrag
 listen = Lyt
 skip = Spring over
 shortcuts = Genveje
+clips-with-count = <bold>{ $count }</bold> optagelser
 goal-help-recording = Du har hjulpet Common Voice med at nå <goalPercentage></goalPercentage> af vores daglige { $goalValue } mål for indspilninger!
 goal-help-validation = Du har hjulpet Common Voice med at nå <goalPercentage></goalPercentage> af vores daglige { $goalValue } mål for validering!
 contribute-more = Klar til at lave { $count } mere?
