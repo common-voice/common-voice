@@ -2,7 +2,7 @@
 
 yes-receive-emails = Sí, envieu-me correus. Vull estar informat del projecte Common Voice.
 stayintouch = A Mozilla estem construint una comunitat al voltant de les tecnologies de la veu. Voldríem estar al dia de les novetats, de noves fonts de dades i saber com useu aquestes dades.
-privacy-info = Ens comprometem a gestionar la vostra informació amb cura. Per a més informació, vegeu la <privacyLink>política de privadesa</privacyLink>.
+privacy-info = Ens comprometem a gestionar la vostra informació amb cura. Per a més informació, vegeu l'<privacyLink>avís de privadesa</privacyLink>.
 return-to-cv = Torna al Common Voice
 email-input =
     .label = Adreça electrònica
