@@ -235,14 +235,17 @@ profile-clear-modal = Si esborreu les vostres dades del perfil, es deixarà d'en
 profile-explanation = Un perfil permet fer el seguiment del vostre progrés i ajuda a fer que les dades de veu siguin més precises.
 thanks-for-account = Gràcies per confirmar el compte. Ara crearem el vostre perfil.
 why-demographic = Per què és important?
+why-demographic-explanation = Les dades d'usuari anònimes com l'edat, el sexe i l'accent ajuden a millorar les dades d'àudio utilitzades per entrenar la precisió dels motors de reconeixement de veu. Les dades que envieu no estaran mai associades amb cap nom d'usuari ni adreça electrònica, i podeu triar si voleu que el vostre nom d'usuari sigui públic o anònim.
 keep-me-posted =
     .label = Vull rebre actualitzacions i estar al dia de les novetats del Common Voice.
+accept-privacy = Accepto que gestioneu aquesta informació en els termes descrits en la <privacyLink>política de privadesa</privacyLink> de Mozilla
 login-identity = Identitat d'inici de sessió
 edit = Edita
 email-subscriptions = Subscripcions per correu electrónic
 download-profile = Baixa les meves dades
 contribution-experience = Experiència de la col·laboració
 skip-submission-feedback = Omet l'enviament de comentaris
+skip-submission-note = Nota: Igualment haureu de seleccionar entre Parla o Escola per canviar el tipus de col·laboració.
 off = Desactivat
 on = Activat
 
