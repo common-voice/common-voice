@@ -30,6 +30,7 @@ da = Bahsa Denmark
 de = Bahsa Jeureuman
 dsb = Bahsa Sorbia Yup
 el = Bahsa Yunani
+en = Bahsa Inggréh
 
 # [/]
 
