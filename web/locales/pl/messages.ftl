@@ -15,6 +15,7 @@ loading = Wczytywanie…
 
 ## Languages
 
+ace = aceh
 an = aragoński
 ar = arabski
 as = asamski
@@ -37,6 +38,7 @@ en = angielski
 eo = esperanto
 es = hiszpański
 et = estoński
+fa = perski
 fi = fiński
 fo = farerski
 fr = francuski
@@ -57,6 +59,7 @@ ko = koreański
 kpv = komi (zyriański)
 kw = kornijski
 ky = kirgiski
+mdf = moksza
 mk = macedoński
 mn = mongolski
 myv = erzja
@@ -68,7 +71,7 @@ oc = oksytański
 or = orija
 pl = polski
 pt-BR = portugalski (Brazylia)
-rm = retoromański
+rm-sursilv = retoromański (sursilvan)
 ro = rumuński
 ru = rosyjski
 sah = jakucki
