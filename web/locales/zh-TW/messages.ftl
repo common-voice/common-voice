@@ -119,12 +119,12 @@ report-bugs-link = 協助回報問題
 
 home-title = Common Voice 是 Mozilla 想讓機器學會真人說話方式的專案。
 home-cta = 有話大聲說，在此獻聲！
-wall-of-text-start = 語音是自然、是有人性的。這也是為什麼我們非常希望為電腦建立可用的語音技術。但若要建立語音系統，需要有相當大量的語音數據。
+wall-of-text-start = 語音是自然、是有人性的。這也是為什麼我們非常希望為電腦建立可用的語音技術。但若要建立語音系統，需要有大量的語音數據。
 wall-of-text-more-mobile = 大部分由大公司使用的資料，並未開放給大多數人使用。我們覺得這樣會阻礙創新，所以創立了想讓每個人都可以自由來進行語音識別的 Common Voice 專案。
 wall-of-text-more-desktop =
     現在起，您可以將自己的聲音捐給我們，以幫助我們打造開放原始碼的語音資料庫，讓任何人都得以為裝置與網際網路打造創新的應用程式。<lineBreak></lineBreak>
     只要朗讀一段文字，即可幫助機器了解人們如何說話，也可看看其他貢獻者的心血結晶來協助改善品質，就是這麼簡單！
-wall-of-text-first = 語音是自然、是有人性的。這也是為什麼我們非常希望為電腦建立可用的語音技術。但若要建立語音系統，需要有相當大量的語音數據。
+wall-of-text-first = 語音是自然、是有人性的。這也是為什麼我們非常希望為電腦建立可用的語音技術。但若要建立語音系統，需要有大量的語音數據。
 wall-of-text-second = 大部分各大公司使用的資料，並未開放給大多數人使用。我們覺得這樣會阻礙創新，所以創立了想讓每個人都可以自由來進行語音識別的 Common Voice 專案。
 show-wall-of-text = 了解更多
 help-us-title = 請幫助我們驗證句子！
@@ -135,12 +135,12 @@ vote-no = 否
 toggle-play-tooltip = 按下 { shortcut-play-toggle } 即可切換播放模式
 speak-subtitle = 捐出您的聲音
 speak-paragraph = 錄下語音片段是打造我們的開放資料集當中很重要的部分，有的人說這很好玩。
-speak-goal-text = 已錄片段
+speak-goal-text = 已錄音片段數
 listen-subtitle = 請幫助我們驗證其他人的錄音
 listen-paragraph = 驗證別人錄下的語音片段，對 Common Voice 的使命也很重要。請聆聽片段，並幫助我們打造高品質的開源語音資料。
-listen-goal-text = 片段已驗證
-hours-recorded = 小時已記錄
-hours-validated = 小時已驗證
+listen-goal-text = 已驗證片段數
+hours-recorded = 已記錄時數
+hours-validated = 已驗證時數
 read-terms-q = 您閱讀過我們的使用條款了嗎？
 ready-to-record = 準備好捐出您的聲音了嗎？
 all-languages = 所有語言
