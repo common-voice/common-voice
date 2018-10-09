@@ -117,7 +117,7 @@ report-bugs-link = A  ṭha lo mi kan chim
 
 ## Home Page
 
-home-title = Common Voice cu Mozilla kampani nih a tuah mi, zei tiin dah Laiholh in computer chawnh khawh a si lai ti, computer cawnpiaknak a si.
+home-title = Common Voice cu Mozilla kampani nih a tuah mi, zeitiin dah Laiholh in computer chawnh khawh a si lai, ti computer cawnpiaknak a si.
 home-cta = Na aw hi ka hin tuun!
 wall-of-text-start = Aw cu kokek a si, Aw cu minung a si. Cucaah, computer ah hman khawh dingmi Laiholh ser lai hi kan i ngaih tuk. Hi kan tuah khawhnak ding caah cun, Aw hi tamtuk hringhren kan herh.
 wall-of-text-more-mobile = Kampani lian tampi nih an tuah mi, computer holh theihnak, hi Laiholh in cun hmankhawh an si lo. Cucu ṭhanchonak caah thawphit tu a si ti kan ruah. Cucaah, Project Common Voice timi hi mi vialte nih an holh cio in computer an hman khawh nak ding caah kan tuah mi a si.
