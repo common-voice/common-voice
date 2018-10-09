@@ -252,8 +252,8 @@ on = Nunh
 
 faq-title = Hal Tawnmi Bia
 faq-what-q = Common Voice cu zei dah a si?
-faq-what-a = Common Voice i kan i tinhmi cu a mikip caah fawi tein mah le holh cio in computer hmanter khawh hi asi.  Cucu, mi tampi nih an Aw khumh cio in khulrang te le fawi tein holhphun kip holh a thiam mi seh thilri ser khawhnak asi. Kan tuahmi vialte hi mipi nih man loin hman khawh dih asi lai.
-faq-important-q = Zei ruang ah dah a bia pit?
+faq-what-a = Common Voice nih kan i tinhmi cu a mikip caah fawi tein mah le holh cio in computer hmanter khawh hi a si.  Cucu, mi tampi nih an Aw khumh cio in khulrang te le fawi tein holhphun kip holh a thiam mi computer thilri ser khawhnak a si. Kan tuahmi vialte hi mipi nih man loin hman khawh dih a si lai.
+faq-important-q = Zei ruangah dah a bia pit?
 faq-important-a = Aw cu kokek a si, Aw cu minung a si. I chawnh khanh nak caah a fawi cemmi le hmancem mi a si. Computer thiam nih hi thil chung in hman awktlak thil ṭha, holh leh/ca leh le a dang dang bawmtu ah an ser khawh nak ding hi kan duh. Asinain atu ah cun mipi nih hman khawh ding mi hi a um lo.  Laimi computer thiam pawl nih thil ṭha ṭha an sernak ah Common Voice nih hin a bawmh khawh hna lai hi kan duh.
 faq-get-q = Common Voice data hi zei tin dah ka lak khawh lai?
 faq-get-a = Dataset cu thuntlen a ngah <downloadLink> thuntlen nak</downloadLink> i a tang <licenseLink>CC-0</licenseLink> laisen.
