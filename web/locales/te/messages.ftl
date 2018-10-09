@@ -122,6 +122,8 @@ vote-yes = అవును
 vote-no = కాదు
 toggle-play-tooltip = ప్లే మోడుని ఆన్ లేదా ఆఫ్ చెయ్యడానికి { shortcut-play-toggle } నొక్కండి
 read-terms-q = మీరు మా నిబంధనలను చదివారా?
+all-languages = అన్ని భాషలు
+today = ఈరోజు
 
 ## Speak & Listen Shortcuts
 
