@@ -15,6 +15,7 @@ loading = Chargement…
 
 ## Languages
 
+ace = Aceh
 an = Aragonais
 ar = Arabe
 as = Assamais
@@ -37,6 +38,7 @@ en = Anglais
 eo = Espéranto
 es = Espagnol
 et = Estonien
+fa = Persan
 fi = Finnois
 fo = Féroïen
 fr = Français
@@ -57,6 +59,7 @@ ko = Coréen
 kpv = Komi-zyriène
 kw = Cornique
 ky = Kirghize
+mdf = Moksha
 mk = Macédonien
 mn = Mongol
 myv = Erzya
@@ -68,7 +71,7 @@ oc = Occitan
 or = Odia
 pl = Polonais
 pt-BR = Portugais (Brésil)
-rm = Romanche
+rm-sursilv = Romanche sursilvan
 ro = Roumain
 ru = Russe
 sah = Iakoute
