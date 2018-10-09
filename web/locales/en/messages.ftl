@@ -11,6 +11,7 @@ loading = Loading…
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
 ## Languages
+ace = Acehnese
 an = Aragonese
 ar = Arabic
 as = Assamese
@@ -54,6 +55,7 @@ ko = Korean
 kpv = Komi-Zyrian
 kw = Cornish
 ky = Kyrgyz
+mdf = Moksha
 mk = Macedonian
 mn = Mongolian
 myv = Erzya
@@ -65,7 +67,7 @@ oc = Occitan
 or = Odia
 pl = Polish
 pt-BR = Portuguese (Brazil)
-rm = Romansh
+rm-sursilv = Romansh Sursilvan
 ro = Romanian
 ru = Russian
 sah = Sakha
