@@ -15,6 +15,7 @@ loading = Se încarcă…
 
 ## Languages
 
+ace = Acehneză
 an = Aragoneză
 ar = Arabă
 as = Assameză
@@ -37,6 +38,7 @@ en = Engleză
 eo = Esperanto
 es = Spaniolă
 et = Estonă
+fa = Persană
 fi = Finlandeză
 fo = Feroeză
 fr = Franceză
@@ -68,7 +70,6 @@ oc = Occitană
 or = Odia
 pl = Poloneză
 pt-BR = Portugheză (Brazilia)
-rm = Retoromană
 ro = Română
 ru = Rusă
 sah = Sakha
