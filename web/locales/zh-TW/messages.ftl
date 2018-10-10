@@ -15,6 +15,7 @@ loading = 載入中…
 
 ## Languages
 
+ace = 亞齊語
 an = 亞拉岡語
 ar = 阿拉伯語
 as = 阿薩姆語
@@ -37,6 +38,7 @@ en = 英語
 eo = 世界語（Esperanto）
 es = 西班牙語
 et = 愛沙尼亞語
+fa = 波斯語
 fi = 芬蘭語
 fo = 法羅語
 fr = 法語
@@ -57,6 +59,7 @@ ko = 韓語
 kpv = 科米-齊良語
 kw = 康瓦爾語
 ky = 吉爾吉斯語
+mdf = 莫克沙語
 mk = 馬其頓語
 mn = 蒙古語
 myv = 厄茲亞語
@@ -68,7 +71,7 @@ oc = 奧西坦語
 or = 奧里亞語
 pl = 波蘭語
 pt-BR = 葡萄牙語（巴西）
-rm = 羅曼什語
+rm-sursilv = 羅曼蘇塞瓦語
 ro = 羅馬尼亞語
 ru = 俄語
 sah = 薩哈語
