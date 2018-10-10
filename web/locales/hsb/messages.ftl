@@ -15,6 +15,7 @@ loading = Čita so…
 
 ## Languages
 
+ace = Ačehšćina
 an = Aragonšćina
 ar = Arabšćina
 as = Asamšćina
@@ -70,6 +71,7 @@ oc = Okcitanšćina
 or = Odiašćina
 pl = Pólšćina
 pt-BR = Portugalšćina (Brazilska)
+rm-sursilv = Retoromanšćina (Sursilvan)
 ro = Rumunšćina
 ru = Rušćina
 sah = Sachašćina
