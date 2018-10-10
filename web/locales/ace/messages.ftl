@@ -48,6 +48,10 @@ is = Bahsa Islandia
 it = Bahsa Itali
 ja = Bahsa Jeupun
 ko = Bahsa Korèa
+ky = Bahsa Kirgiz
+mdf = Bahsa Moksha
+mk = Bahsa Makèdonia
+mn = Bahsa Mongol
 
 # [/]
 
