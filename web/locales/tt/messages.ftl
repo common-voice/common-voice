@@ -15,6 +15,7 @@ loading = Йөкләнелә...
 
 ## Languages
 
+ace = Ачехча
 an = Арагонча
 ar = Гарәпчә
 as = Ассамча
@@ -244,6 +245,9 @@ edit = Үзгәртү
 email-subscriptions = Email аша язылулар
 download-profile = Минем мәгълүматны йөкләп алу
 contribution-experience = Катнашу тәрҗибәсе
+skip-submission-feedback = Кире элемтәдән баш тарту
+skip-submission-description = 'Җибәрү'гә баскач,  мәгълүматны тапшыру кире элемтәсез генә башкарылачак. Ярдәм итү алдагы 5 язмага күчү белән дәвам итәчәк.
+skip-submission-note = Искәрмә: Ярдәм итү төрен үзгәртү өчен сезгә Сөйләү яки Тыңлауны сайларга кирәк булачак.
 
 ## FAQ
 
