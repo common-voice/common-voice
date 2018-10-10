@@ -243,6 +243,7 @@ thanks-for-account = Hvala za potrditev računa, zdaj pa se lotimo ustvarjanja v
 why-demographic = Zakaj je to pomembno?
 login-identity = Identiteta prijave
 edit = Uredi
+email-subscriptions = Naročnine na e-pošto
 download-profile = Prenesi moje podatke
 off = Izklopljeno
 on = Vklopljeno
