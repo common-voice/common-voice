@@ -15,6 +15,7 @@ loading = Cyta se…
 
 ## Languages
 
+ace = Ačehšćina
 an = Aragońšćina
 ar = Arabšćina
 as = Asamšćina
@@ -37,6 +38,7 @@ en = Engelšćina
 eo = Esperanto
 es = Špańšćina
 et = Estnišćina
+fa = Persišćina
 fi = Finšćina
 fo = Ferejšćina
 fr = Francojšćina
@@ -57,6 +59,7 @@ ko = Korejańšćina
 kpv = Komi-syrjeńšćina
 kw = Kornišćina
 ky = Kirgišćina
+mdf = Mokša
 mk = Makedońšćina
 mn = Mongolšćina
 myv = Erzya
@@ -68,7 +71,7 @@ oc = Okcitańšćina
 or = Odiašćina
 pl = Pólšćina
 pt-BR = Portugišćina (Brazilska)
-rm = retoromaniščina
+rm-sursilv = Retoromanišćina (Sursilvan)
 ro = Rumunšćina
 ru = Rušćina
 sah = Sachašćina
