@@ -398,7 +398,7 @@ contribute-more =
        *[other] Тагын { $count }'не башкарырга әзерме?
     }
 record-cta = Яздыра башлау
-record-instruction = { $actionType }<recordIcon></recordIcon>, шуннан соң җөмләне кычкырып укыгыз
+record-instruction = <recordIcon></recordIcon> { $actionType }, шуннан соң җөмләне кычкырып укыгыз
 record-stop-instruction = Укып бетергәч, { $actionType }<stopIcon></stopIcon>
 record-three-more-instruction = Өчәү калды!
 record-again-instruction = Шәп! <recordIcon></recordIcon> Киләсе клибыгызны яздырыгыз
@@ -414,7 +414,7 @@ record-abort-text = Хәзер эшне туктату сезнең эшләгә
 record-abort-submit = Клип тапшыру
 record-abort-continue = Яздыруны тәмамлау
 record-abort-delete = Чыгу һәм клипларны бетерү
-listen-instruction = { $actionType }<playIcon></playIcon> алар җөмләләрне төгәл укыдымы?
+listen-instruction = <playIcon></playIcon> { $actionType }, алар җөмләләрне төгәл укыдымы?
 listen-again-instruction = Шәп эш! <playIcon></playIcon> Әзер булгач, яңадан тыңлагыз
 listen-3rd-time-instruction = Икесе әзер, <playIcon></playIcon> дәвам итегез!
 listen-last-time-instruction = <playIcon></playIcon> Соңгысы!
