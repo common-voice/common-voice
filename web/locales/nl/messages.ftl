@@ -15,6 +15,7 @@ loading = Laden…
 
 ## Languages
 
+ace = Atjehs
 an = Aragonees
 ar = Arabisch
 as = Assamees
@@ -37,6 +38,7 @@ en = Engels
 eo = Esperanto
 es = Spaans
 et = Estisch
+fa = Perzisch
 fi = Fins
 fo = Faeröers
 fr = Frans
@@ -57,6 +59,7 @@ ko = Koreaans
 kpv = Zurjeens
 kw = Cornish
 ky = Kirgizisch
+mdf = Moksja
 mk = Macedonisch
 mn = Mongools
 myv = Erzja
@@ -68,7 +71,7 @@ oc = Occitaans
 or = Odia
 pl = Pools
 pt-BR = Portugees (Brazilië)
-rm = Romaans
+rm-sursilv = Reto-Romaans Surselvisch
 ro = Roemeens
 ru = Russisch
 sah = Jakoets
