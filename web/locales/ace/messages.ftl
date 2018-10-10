@@ -97,6 +97,10 @@ english = Bahsa Inggrèh
 
 ## ProfileForm
 
+profile-form-delete = Sampôh Profil
+profile-form-language =
+    .label = Bahsa
+profile-close = Tôp
 
 ## FAQ
 
