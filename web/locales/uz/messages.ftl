@@ -132,15 +132,52 @@ vote-no = Yo‘q
 speak-goal-text = Yozilgan kliplar
 listen-subtitle = Ovozlarni tekshirishda yordam bering
 listen-goal-text = Kliplar tekshirildi
+hours-recorded = Yozib olingan soat
+hours-validated = Soat tekshirildi
+read-terms-q = Shartlarimiz bilan tanishdingizmi?
+ready-to-record = Ovozingiz bilan yordam qilishga tayyormisiz?
+all-languages = Barcha tillar
+today = Bugun
+x-weeks-short =
+    { $count ->
+        [one] Hafta
+       *[other] { $count }hafta
+    }
+x-months-short =
+    { $count ->
+        [one] oy
+       *[other] { $count }oy
+    }
+x-years-short =
+    { $count ->
+        [one] 1 yil
+       *[other] { $count } yil
+    }
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = Boshlash/To‘xtatish
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Yozib olish/To‘xtatish
 request-language-text = Common Voice loyihasida ona tilingizni ko‘rmayapsizmi?
 request-language-button = Til qo‘shishni so‘rang
 
@@ -172,6 +209,8 @@ profile-form-age =
     .label = Yosh
 profile-form-gender =
     .label = Jins
+native-language =
+    .label = Ona tili
 profile-form-submit-save = Saqlash
 profile-form-submit-saved = Saqlandi
 profile-keep-data = Ma’lumotlarni saqlab qo‘yish
@@ -232,3 +271,5 @@ language-speakers = So‘zlovchilar
 
 ## New Contribution
 
+record-button-label = Ovozingizni yozing
+share-title-new = Yana ovoz yig‘ishimizda <bold>yordam bering</bold>
