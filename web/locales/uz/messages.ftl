@@ -224,6 +224,11 @@ edit-profile = Profilni tahrirlash
 profile-create = Profil yaratish
 profile-create-success = Profil yaratildi!
 profile-close = Yopish
+edit = Tahrirlash
+email-subscriptions = E-pochta orqali obuna
+download-profile = Ma’lumotlarni yuklab olish
+contribution-experience = Hissangizga baho bering
+skip-submission-feedback = Ishga baho berishni tashlab ketish
 off = O‘chiq
 on = Yoniq
 
