@@ -52,6 +52,17 @@ ky = Bahsa Kirgiz
 mdf = Bahsa Moksha
 mk = Bahsa Makèdonia
 mn = Bahsa Mongol
+nl = Bahsa Beulanda
+pl = Bahsa Polandia
+ro = Bahsa Rumania
+ru = Bahsa Rusia
+sk = Bahsa Slovakia
+sl = Bahsa Slovènia
+sq = Bahsa Albania
+sr = Bahsa Sèrbia
+sv-SE = Bahsa Swèdia
+uk = Bahsa Ukraina
+uz = Bahsa Uzbèk
 
 # [/]
 
@@ -61,9 +72,15 @@ mn = Bahsa Mongol
 speak = Marit
 speak-now = Marit jinoe
 datasets = Seunapat Data
+languages = Bahsa
+profile = Profil
+help = Beunantu
+privacy = Privasi
+cookies = Kuki
 
 ## Home Page
 
+today = Uroë Nyoë
 
 ## Speak & Listen Shortcuts
 
@@ -76,6 +93,7 @@ datasets = Seunapat Data
 
 ## ProjectStatus
 
+english = Bahsa Inggrèh
 
 ## ProfileForm
 
