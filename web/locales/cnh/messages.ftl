@@ -1,7 +1,7 @@
 ## General
 
 yes-receive-emails = A si, ca ka kua ko. Common Voice Project kong theih ka duh.
-stayintouch = Holh phunkip in computer a ngahnak ding hi kan nih Mozilla kampani nih kan i tinh mi cu a si. Zei ti in dah hihi na hman timi le thilthar pawl kan ngeih tik ah in chimh ve kan duh.
+stayintouch = Holh phunkip in computer a ngahnak ding hi kan nih Mozilla kampani nih kan i tinh mi cu a si. Zei tiin dah hihi na hman timi le thilthar pawl kan ngeih tik ah in chimh ve kan duh.
 privacy-info = Nangmah kong midang kan theih ter hna lai lo. <privacyLink>Privacy Notice</privacyLink> ah hin rel chap.
 return-to-cv = Common Voice ah kir
 email-input =
@@ -68,7 +68,6 @@ oc = Occitan Holh
 or = Odia holh (India)
 pl = Poland holh
 pt-BR = Portugal holh (Brazil)
-rm = Canton of Graubünden khua holh
 ro = Romania holh
 ru = Russia holh
 sah = Sakha holh (Yakut)
@@ -183,7 +182,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Tun/Dinhter
-request-language-text = Common Voice ah na holh na hmu maw?
+request-language-text = Common Voice ah na holhphun na hmu maw?
 request-language-button = Holhphun kan hal
 
 ## ProjectStatus
@@ -254,10 +253,10 @@ faq-title = Hal Tawnmi Bia
 faq-what-q = Common Voice cu zei dah a si?
 faq-what-a = Common Voice nih kan i tinhmi cu a mikip caah fawi tein mah le holh cio in computer hmanter khawh hi a si.  Cucu, mi tampi nih an Aw khumh cio in khulrang te le fawi tein holhphun kip holh a thiam mi computer thilri ser khawhnak a si. Kan tuahmi vialte hi mipi nih man loin hman khawh dih a si lai.
 faq-important-q = Zei ruangah dah a bia pit?
-faq-important-a = Aw cu kokek a si, Aw cu minung a si. I chawnh khanh nak caah a fawi cemmi le hmancem mi a si. Computer thiam nih hi thil chung in hman awktlak thil ṭha, holh leh/ca leh le a dang dang bawmtu ah an ser khawh nak ding hi kan duh. Asinain atu ah cun mipi nih hman khawh ding mi hi a um lo.  Laimi computer thiam pawl nih thil ṭha ṭha an sernak ah Common Voice nih hin a bawmh khawh hna lai hi kan duh.
+faq-important-a = Aw cu kokek a si, Aw cu minung a si. I chawnh khenh nak caah a fawi cemmi le hmancem mi a si. Computer thiam nih hi thil chung in hman awktlak thil ṭha, holh leh/ca leh le a dangdang bawmtu ah an ser khawh nak ding hi kan duh. Asinain, a tu ahcun mipi nih hman khawh ding mi hi a um lo.  Laimi computer thiam pawl nih thil ṭhaṭha an sernak ah Common Voice nih hin a bawmh khawh hna lai tihi kan i ruahchan.
 faq-get-q = Common Voice data hi zei tin dah ka lak khawh lai?
 faq-get-a = Dataset cu thuntlen a ngah <downloadLink> thuntlen nak</downloadLink> i a tang <licenseLink>CC-0</licenseLink> laisen.
-faq-mission-q = Zei ruang ah dah Common Voice hi Mozilla nih aa tinhmi rian asi ve?
+faq-mission-q = Zei ruangah dah Common Voice hi Mozilla nih aa tinhmi rian a si ve?
 faq-mission-a = Mozilla cu mikip nih computer an hman khawhnak ding hi biatak tein aa hmaithlak. Cu caah cun website a sertu pawl hi thazang pek a duhnak langhternak caah Common Voice hi a ser. Computer nih holh thiamnak a theih ning hi a sang tuk hringhren cang, cucaah cun mikip nih computer hi an holh cio in hmang kho ve hna seh ti kan duh. Aw-lei thiamnak hi miphun kip talh in holh in siseh, aw-cawi in siseh, miphun kip in siseh, talh chih dih kan duh. Mozilla nih cun a ngandammi le aa tlerh ngai mi internet hi hmuh a duh. Cucu website a sertu nih an website sunglawi taktak in an ser khawh hna hnga Aw-data ti bantuk hi serpiak asi. Common Voice cu Mozilla, kan mah, le website a sertu vawlei cung um vialte caah mipi nih ngeih mi thilri sunglawi pakhat asi lai.
 faq-native-q = Lai holh ah kokek ka si lo i Aw-cawi ka ngei, ka holh nan duh ko maw?
 faq-native-a = A si, kan duh ṭhiam ko! Common Voice i kan i tinh mi cu computer nih Aw a theih khawh cem nak hnga zei Aw-cawi paoh lak chih dih kan duh.
