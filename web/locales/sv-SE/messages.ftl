@@ -15,6 +15,7 @@ loading = Laddar…
 
 ## Languages
 
+ace = Acehnesiska
 an = Aragonesiska
 ar = Arabiska
 as = Assamesiska
@@ -70,6 +71,7 @@ oc = Occitanska
 or = Odia
 pl = Polska
 pt-BR = Portugisiska (Brasilien)
+rm-sursilv = Rätoromanska
 ro = Rumänska
 ru = Ryska
 sah = Sakha
