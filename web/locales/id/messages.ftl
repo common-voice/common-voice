@@ -15,6 +15,7 @@ loading = Memuat…
 
 ## Languages
 
+ace = Bahasa Aceh
 an = Bahasa Aragon
 ar = Bahasa Arab
 as = Bahasa Assam
@@ -37,6 +38,7 @@ en = Bahasa Inggris
 eo = Bahasa Esperanto
 es = Bahasa Spanyol
 et = Bahasa Estonia
+fa = Bahasa Farsi
 fi = Bahasa Finlandia
 fo = Bahasa Faroe
 fr = Bahasa Perancis
@@ -57,6 +59,7 @@ ko = Bahasa Korea
 kpv = Bahasa Komi-Zyrian
 kw = Bahasa Kornish
 ky = Bahasa Kirgiz
+mdf = Bahasa Moksha
 mk = Bahasa Makedonia
 mn = Mongolia
 myv = Bahasa Erzya
@@ -68,7 +71,7 @@ oc = Bahasa Oksitan
 or = Bahasa Oriya
 pl = Bahasa Polandia
 pt-BR = Bahasa Portugis (Brasil)
-rm = Bahasa Romansh
+rm-sursilv = Bahasa Romansh Sursilvan
 ro = Bahasa Rumania
 ru = Bahasa Rusia
 sah = Bahasa Sakha
