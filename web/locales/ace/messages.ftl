@@ -139,21 +139,28 @@ profile-close = Tôp
 data-download-yes = Nyo
 data-download-license = Lisènsi: <licenseLink>CC-0</licenseLink>
 data-other-ted-name = Korpus TED-LIUM
+license = Lisènsi: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
 
+record-retry = Ci Lom
 
 ## Download Modal
 
 
 ## Contact Modal
 
+contact-form-name =
+    .label = Nan
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = Bahsa
 
 ## Languages Overview
 
 
 ## New Contribution
 
+clips-with-count = <bold>{ $count }</bold> Klip
