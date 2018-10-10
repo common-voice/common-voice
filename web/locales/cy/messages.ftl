@@ -15,6 +15,7 @@ loading = Llwytho…
 
 ## Languages
 
+ace = Acehnese
 an = Aragoneg
 ar = Arabeg
 as = Asameg
@@ -37,6 +38,7 @@ en = Saesneg
 eo = Esperanto
 es = Sbaeneg
 et = Estoneg
+fa = Persieg
 fi = Ffinneg
 fo = Ffaroeg
 fr = Ffrangeg
@@ -57,6 +59,7 @@ ko = Corëeg
 kpv = Komi-Zyrian
 kw = Cernyweg
 ky = Kyrgyz
+mdf = Moksha
 mk = Macedoneg
 mn = Mongolieg
 myv = Erzya
@@ -68,7 +71,7 @@ oc = Occitaneg
 or = Odia
 pl = Pwyleg
 pt-BR = Portiwgaleg (Brasil)
-rm = Romansh
+rm-sursilv = Romansh Sursilvan
 ro = Rwmaneg
 ru = Rwsieg
 sah = Sakha
