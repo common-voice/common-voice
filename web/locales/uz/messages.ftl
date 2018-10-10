@@ -15,6 +15,7 @@ loading = Yuklanmoqda...
 
 ## Languages
 
+ace = Aceh
 an = Aragon
 ar = Arab
 as = Assam
@@ -37,6 +38,7 @@ en = Ingliz
 eo = Esperanto
 es = Ispan
 et = Eston
+fa = Fors
 fi = Fin
 fo = Farer
 fr = Fransuz
@@ -57,6 +59,7 @@ ko = Koreyscha
 kpv = Komi-zıryan
 kw = Kornish
 ky = Qirg‘iz
+mdf = Moksha
 mk = Makedon
 mn = Mongol
 myv = Erzyan
@@ -68,7 +71,7 @@ oc = Oksitan
 or = Odia
 pl = Polyak
 pt-BR = Portugal (Braziliya)
-rm = Romansh
+rm-sursilv = Romansh Sursilvan
 ro = Rumin
 ru = Rus
 sah = Saxa
@@ -106,17 +109,29 @@ privacy = Maxfiylik
 terms = Shartlar
 cookies = Kukilar
 faq = Savol-javob
+content-license-text = Kontent <licenseLink>Creative Commons litsenziyasi</licenseLink> ostida mavjud
+share-title = Ovozi bilan yordam qiladigan insonlarni topishda yordam bering!
+share-text = { $link } havolasi orqali ovozingiz bilan yordam qilib, mashinalarga haqiqiy insonlar qanday gapirishini o‘rgating
+link-copied = Havoladan nusxa olindi
 back-top = Yuqoriga qaytish
+contribution-banner-text = Yordamchilar uchun ish jarayonini yaxshiladik
+contribution-banner-button = Tanishing
+report-bugs-link = Nosozliklar haqida xabar bering
 
 ## Home Page
 
+home-title = Common Voice – Mozillaga tegishli loyiha bo‘lib, mashinalarga odam kabi gapirishni o‘rgatadi.
 home-cta = Bu yerga gapirib hissa qo‘shing
 wall-of-text-start = Ovoz - bu tabiiy, inson ovozi, shuning uchun ham biz kompyuterlarimiz uchun ovozli texnologiyani yaratmoqchimiz. Ovoz tizimini yaratish uchun juda ko‘p ovoz kerak bo‘ladi.
+wall-of-text-more-mobile = Katta korporatsiyalar foydalanadigan ma’lumotlardan ko‘pchilik odamlar foydalana olishmaydi. Bizning fikrimizcha, bu innovatsion taraqqiyotni sekinlashtiradi. Shuning uchun biz Common Voice loyihasini ishga tushirdik.  Bu loyiha ovozni tanish xizmatini hamma uchun ochiq bo‘lishini ta’minlaydi.
 show-wall-of-text = Batafsil
 help-us-title = Gaplarni tasdiqlashda yordam bering!
 help-us-explain = Ijro tugmasini bosing, tinglang va gaplar to‘g‘ri talaffuz qilinganligi haqida bizga xabar bering.
 vote-yes = Ha
 vote-no = Yo‘q
+speak-goal-text = Yozilgan kliplar
+listen-subtitle = Ovozlarni tekshirishda yordam bering
+listen-goal-text = Kliplar tekshirildi
 
 ## Speak & Listen Shortcuts
 
