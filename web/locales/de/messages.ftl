@@ -15,6 +15,7 @@ loading = Wird geladen…
 
 ## Languages
 
+ace = Acehnesisch
 an = Aragonesisch
 ar = Arabisch
 as = Assamesisch
@@ -37,6 +38,7 @@ en = Englisch
 eo = Esperanto
 es = Spanisch
 et = Estnisch
+fa = Persisch
 fi = Finnisch
 fo = Färöisch
 fr = Französisch
@@ -57,6 +59,7 @@ ko = Koreanisch
 kpv = Komi-Syrjänisch
 kw = Cornish
 ky = Kirgisisch
+mdf = Mokschanisch
 mk = Mazedonisch
 mn = Mongolisch
 myv = Ersjanisch
@@ -68,7 +71,7 @@ oc = Okzitanisch
 or = Odia
 pl = Polnisch
 pt-BR = Portugiesisch (Brasilianisch)
-rm = Rätoromanisch
+rm-sursilv = Surselvisch
 ro = Rumänisch
 ru = Russisch
 sah = Sacha
