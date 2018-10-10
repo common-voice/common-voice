@@ -15,6 +15,7 @@ loading = Yükleniyor…
 
 ## Languages
 
+ace = Açece
 an = Aragonca
 ar = Arapça
 as = Assamca
@@ -37,6 +38,7 @@ en = İngilizce
 eo = Esperanto
 es = İspanyolca
 et = Estonca
+fa = Farsça
 fi = Fince
 fo = Faroece
 fr = Fransızca
@@ -57,6 +59,7 @@ ko = Korece
 kpv = Komi Zıryan
 kw = Kernevekçe
 ky = Kırgızca
+mdf = Mokşa
 mk = Makedonca
 mn = Moğolca
 myv = Erzyanca
@@ -68,7 +71,7 @@ oc = Oksitanca
 or = Odia
 pl = Lehçe
 pt-BR = Portekizce (Brezilya)
-rm = Romanşça
+rm-sursilv = Romanşça Sursilvan
 ro = Rumence
 ru = Rusça
 sah = Yakutça
