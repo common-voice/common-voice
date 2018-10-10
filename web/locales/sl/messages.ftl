@@ -67,7 +67,6 @@ oc = okcitanščina
 or = odijščina
 pl = poljščina
 pt-BR = portugalščina (Brazilija)
-rm = retoromanščina
 ro = romunščina
 ru = ruščina
 sah = jakutščina
@@ -242,7 +241,9 @@ profile-clear-modal = Izbris vaših profilnih podatkov pomeni, da vaši demograf
 profile-explanation = Sledite svojemu napredku s pomočjo profila in nam pomagajte narediti naše zvočne podatke natančnejše.
 thanks-for-account = Hvala za potrditev računa, zdaj pa se lotimo ustvarjanja vašega profila.
 why-demographic = Zakaj je to pomembno?
+login-identity = Identiteta prijave
 edit = Uredi
+download-profile = Prenesi moje podatke
 off = Izklopljeno
 on = Vklopljeno
 
