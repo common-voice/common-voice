@@ -12,6 +12,7 @@ loading = Pumeuhah...
 
 ## Languages
 
+ace = Bahsa Acèh
 an = Bahsa Aragon
 ar = Bahsa Arab
 as = Bahsa Assam
@@ -31,6 +32,22 @@ de = Bahsa Jeureuman
 dsb = Bahsa Sorbia Yup
 el = Bahsa Yunani
 en = Bahsa Inggréh
+eo = Bahsa Èspèranto
+es = Bahsa Seupanyo
+et = Bahsa Èstonia
+fa = Bahsa Parisi
+fi = Bahsa Finlandia
+fo = Bahsa Faroe
+fr = Bahsa Peurancih
+fy-NL = Bahsa Frisia
+ga-IE = Bahsa Irlandia
+he = Bahsa Ibrani
+hu = Bahsa Hongaria
+id = Bahsa Indônèsia
+is = Bahsa Islandia
+it = Bahsa Itali
+ja = Bahsa Jeupun
+ko = Bahsa Korèa
 
 # [/]
 
