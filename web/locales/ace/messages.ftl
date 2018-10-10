@@ -43,26 +43,46 @@ fy-NL = Bahsa Frisia
 ga-IE = Bahsa Irlandia
 he = Bahsa Ibrani
 hu = Bahsa Hongaria
+ia = Bahsa Intèrlingua
 id = Bahsa Indônèsia
 is = Bahsa Islandia
 it = Bahsa Itali
 ja = Bahsa Jeupun
+ka = Bahsa Gèorgia
+kab = Bahsa Kabail
+kk = Bahsa Kazakh
 ko = Bahsa Korèa
 ky = Bahsa Kirgiz
 mdf = Bahsa Moksha
 mk = Bahsa Makèdonia
 mn = Bahsa Mongol
+myv = Bahsa Èrzya
+nb-NO = Bahsa Bokmal (Norwègia)
+ne-NP = Bahsa Nèpali
 nl = Bahsa Beulanda
+nn-NO = Bahsa Nynorsk (Norwègia)
 pl = Bahsa Polandia
+rm-sursilv = Bahsa Romansh (Sursilvan)
 ro = Bahsa Rumania
 ru = Bahsa Rusia
+sah = Bahsa Sakha
 sk = Bahsa Slovakia
 sl = Bahsa Slovènia
 sq = Bahsa Albania
 sr = Bahsa Sèrbia
 sv-SE = Bahsa Swèdia
+ta = Bahsa Tamil
+te = Bahsa Tèlugu
+th = Bahsa Thai
+tr = Bahsa Turuki
+tt = Bahsa Tatar
 uk = Bahsa Ukraina
+ur = Bahsa Urdu
 uz = Bahsa Uzbèk
+vi = Bahsa Viètnam
+zh-CN = Bahsa Cina (Cina)
+zh-HK = Bahsa Cina (Hong Kong)
+zh-TW = Bahsa Cina (Taiwan)
 
 # [/]
 
@@ -80,6 +100,7 @@ cookies = Kuki
 
 ## Home Page
 
+vote-yes = Nyo
 today = Uroë Nyoë
 
 ## Speak & Listen Shortcuts
@@ -100,6 +121,8 @@ english = Bahsa Inggrèh
 profile-form-delete = Sampôh Profil
 profile-form-language =
     .label = Bahsa
+profile-form-submit-save = Keubah
+profile-form-submit-saved = Teukeubah
 profile-close = Tôp
 
 ## FAQ
@@ -113,6 +136,9 @@ profile-close = Tôp
 
 ## Data
 
+data-download-yes = Nyo
+data-download-license = Lisènsi: <licenseLink>CC-0</licenseLink>
+data-other-ted-name = Korpus TED-LIUM
 
 ## Record Page
 
