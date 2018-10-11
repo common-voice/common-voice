@@ -100,7 +100,7 @@ zh-TW = Tuluk holh (Taiwan)
 
 speak = Chim
 speak-now = Chim cang
-datasets = Datasets
+datasets = Pumhmi Data
 languages = Holhphun
 profile = Nangmah Kong
 help = Bawmhnak
@@ -135,10 +135,10 @@ vote-yes = A si
 vote-no = A si lo
 toggle-play-tooltip = Lentecalh nakah  { shortcut-play-toggle } hmet.
 speak-subtitle = Na aw rak tun
-speak-paragraph = Aw i tun hi a biapi tak tak mi kan rian a si; mi cheukhat nih cun a nuam zong a nuam tiah an ruah.
+speak-paragraph = Aw i tun hi a biapi taktak mi kan rian a si; mi cheukhat nih cun a nuam zong a nuam tiah an ruah.
 speak-goal-text = Aw a khumh cang
 listen-subtitle = Aw rak kan chek pi
-listen-paragraph = Tun cia mi aw chek hi Common Voice caah a biapi tuk ve mi rian a si. An aw ngai hna law a tha le tha lo rak chek rak kan bawm ve.
+listen-paragraph = Tuncia mi aw chek hi Common Voice caah a biapi tuk ve mi rian a si. An aw ngai hna law a ṭha le ṭha lo chek rak kan bawm ve.
 listen-goal-text = Chek cang mi Aw
 hours-recorded = Suimilam khumh cang mi
 hours-validated = Suimilam chek cang mi
@@ -261,7 +261,7 @@ faq-what-a = Common Voice nih kan i tinhmi cu a mikip caah fawi tein mah le holh
 faq-important-q = Zei ruangah dah a bia pit?
 faq-important-a = Aw cu kokek a si, Aw cu minung a si. I chawnh khenh nak caah a fawi cemmi le hmancem mi a si. Computer thiam nih hi thil chung in hman awktlak thil ṭha, holh leh/ca leh le a dangdang bawmtu ah an ser khawh nak ding hi kan duh. Asinain, a tu ahcun mipi nih hman khawh ding mi hi a um lo.  Laimi computer thiam pawl nih thil ṭhaṭha an sernak ah Common Voice nih hin a bawmh khawh hna lai tihi kan i ruahchan.
 faq-get-q = Common Voice data hi zei tin dah ka lak khawh lai?
-faq-get-a = Dataset cu thuntlen a ngah <downloadLink> thuntlen nak</downloadLink> i a tang <licenseLink>CC-0</licenseLink> laisen.
+faq-get-a = Pumhmi Data cu thuntlen a ngah <downloadLink> thuntlen nak</downloadLink> i a tang <licenseLink>CC-0</licenseLink> laisen.
 faq-mission-q = Zei ruangah dah Common Voice hi Mozilla nih aa tinhmi rian a si ve?
 faq-mission-a = Mozilla cu mikip nih computer an hman khawhnak ding hi biatak tein aa hmaithlak. Cucaah cun website a sertu pawl hi thazang pek a duhnak langhternak caah Common Voice hi a ser. Computer nih holh thiamnak a theih ning hi a sang tuk hringhren cang, cucaah cun mikip nih computer hi an holh cio in hmang kho ve hna seh ti kan duh. Aw-lei thiamnak hi miphun kip talh in holh in siseh, aw-cawi in siseh, miphun kip in siseh, talh chih dih kan duh. Mozilla nih cun a ngandammi le aa tlerh ngai mi internet hi hmuh a duh. Cucu website a sertu nih an website sunglawi taktak in an ser khawh hna hnga Aw-data ti bantuk hi serpiak a si. Common Voice cu kan mah, Mozilla, le website a sertu vawlei cung um vialte caah mipi nih ngeih mi thilri sunglawi pakhat a si lai.
 faq-native-q = Lai holh ah kokek ka si lo i Aw-cawi ka ngei, ka holh nan duh ko maw?
@@ -294,9 +294,9 @@ data-download-deny = Thuntlen Hlah
 data-download-license = Laisen:<licenseLink>CC-0</licenseLink>
 data-download-modal = A tu thuntlen na timh mi hi <size>{ $size }GB</size> a si, na thuntlen lai maw?
 data-subtitle = Holh thiamnak he pehtlaih in mipi caah a sunglawi mi Aw phunkip laak in mipi caah data lianpi kan ser.
-data-explanatory-text = Mipi caah sunglawi ngai le lianngai in Aw lei datasets nih hin a ngandam mi chawleh thalnak le computer chimh cawnpiaknak duhnak hi a chuah pi tiah kan zumh. Hihi miphun kip le ramkip fonh in rak i tal ve uh ti hi kan in sawm hna.  Kan vawlei pi ah Aw sunglawi in holh phunkip a um mi hi i tal dih hna sih ti hi kan i tinh mi a si.
+data-explanatory-text = Mipi caah sunglawi ṭha ngai le sunglawi ngai in Aw lei pumhmi data nih hin a ngandam mi chawleh thalnak le computer chimh cawnpiaknak duhnak hi a chuah pi tiah kan zumh. Hihi miphun kip le ramkip fonh in rak i tal ve uh ti hi kan in sawm hna.  Kan vawlei pi ah Aw sunglawi in holh phunkip a um mi hi i tal dih hna sih ti hi kan i tinh mi a si.
 data-get-started = <speechBlogLink> Speech Recognition thoknak</speechBlogLink>
-data-other-title = Adang Aw datasets
+data-other-title = Awdang Pumhmi Data
 data-other-goto = { $name } hin kal
 data-other-download = Thuntlen Data
 data-other-librispeech-description = LIbriSpeech cu suimilam thongkhat (1000) chung 16Khz tluk in cauk relmi LibriVox in lak mi chiahnak a si.
@@ -306,8 +306,8 @@ data-other-voxforge-description = VoxForge cu mikip  nih zalong tele tling tein 
 data-other-tatoeba-description =
     Tatoeba cu holh cawnpiaknak ding ah biatlang, bialeh, le holh tuun mi chiahnak a si.
     Hi thuntlen mi chungah hin mikip nih mirang holh an tuun mi aa tal.
-data-bundle-button = Thuntlen Dataset Vialte
-data-bundle-description = Common Voice data le Aw dang data vialte a cunglei ah.
+data-bundle-button = Pumhmi Data Vialte Thuntlen
+data-bundle-description = Common Voice data le a dang aw data vialte a cunglei ah.
 license = Laisen:<licenseLink>{ $license }</licenseLink>
 license-mixed = Fonh
 
@@ -344,7 +344,7 @@ download-helpus = Holhphun kip in computer a ngah khawh nak ding kan bawm, email
 download-form-email =
     .label = Na email ṭial
     .value = Kan i lawm, kan in hngalhter lai.
-download-back = Common Voice Datasets ah kir
+download-back = Common Voice Pumhmi Data ah Kir
 download-no = Tuah hlah
 
 ## Contact Modal
