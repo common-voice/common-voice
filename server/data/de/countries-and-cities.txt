@@ -164,7 +164,7 @@ Madrid ist die Hauptstadt von Spanien.
 Sri Jayewardenepura ist die Hauptstadt von Sri Lanka.
 Basseterre ist die Hauptstadt von St. Kitts und Nevis.
 Castries ist die Hauptstadt von St. Lucia.
-Kingstown ist die Hauptstadt von St. Vincent und die Grenadinen.
+Kingstown ist die Hauptstadt von St. Vincent und den Grenadinen.
 Pretoria ist die Hauptstadt von Südafrika.
 Kapstadt ist der Parlamentssitz von Südafrika.
 Juba ist die Hauptstadt vom Südsudan.
