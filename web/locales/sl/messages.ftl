@@ -245,6 +245,7 @@ login-identity = Identiteta prijave
 edit = Uredi
 email-subscriptions = Naročnine na e-pošto
 download-profile = Prenesi moje podatke
+skip-submission-feedback = Preskoči pošiljanje povratnih informacij
 off = Izklopljeno
 on = Vklopljeno
 
