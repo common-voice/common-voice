@@ -50,7 +50,7 @@ hu = Vengriya
 ia = Interlingua
 id = Indonez
 is = Island
-it = Italiyan
+it = Italyan
 ja = Yapon
 ka = Gruzin
 kab = Kabili
@@ -125,7 +125,7 @@ home-cta = Bu yerga gapirib hissa qo‘shing
 wall-of-text-start = Ovoz - bu tabiiy, inson ovozi, shuning uchun ham biz kompyuterlarimiz uchun ovozli texnologiyani yaratmoqchimiz. Ovoz tizimini yaratish uchun juda ko‘p ovoz kerak bo‘ladi.
 wall-of-text-more-mobile = Katta korporatsiyalar foydalanadigan ma’lumotlardan ko‘pchilik odamlar foydalana olishmaydi. Bizning fikrimizcha, bu innovatsion taraqqiyotni sekinlashtiradi. Shuning uchun biz Common Voice loyihasini ishga tushirdik.  Bu loyiha ovozni tanish xizmatini hamma uchun ochiq bo‘lishini ta’minlaydi.
 wall-of-text-more-desktop = Endi ochiq manbali ovoz ma’lumotlar bazasi uchun ovozingiz bilan yordam qilishingiz mumkin. Bu bazadan har qanday kishi qurilmalar va internet uchun inovatsion dasturlar yaratish maqsadida foydalanishi mumkin. Mashina haqiqiy odamlarning gaplarini o‘rganishi uchun so‘zlarni o‘qib bering. Sifatini oshirish uchun boshqalarning ishlarini tekshiring. Bu juda oson!
-wall-of-text-first = Ovoz – tabiiy, ovoz – insonga tegishli. Shuning uchun biz mashinalar uchun foydalaniladigan ovoz texnologiyasini yaratyapmiz, lekin ovoz tizimlarini yaratish uchun dasturchilarga juda katta miqdoridagi ovoz ma’lumotlari kerak bo‘ladi.
+wall-of-text-first = Ovoz – tabiatga xos, ovoz – insonga xos, shuning uchun biz mashinalar uchun foydalaniladigan ovoz texnologiyasini yaratyapmiz, lekin ovoz tizimlarini yaratish uchun dasturchilarga juda katta miqdoridagi ovoz ma’lumotlari kerak bo‘ladi.
 wall-of-text-second = Katta kompaniyalar foydalanadigan ma’lumotlardan ko‘pchilik odamlar foydalana olishmaydi. Bizning fikrimizcha, bu innovatsiyalarni so‘ndiradi. Shuning uchun biz hamma foydalana oladigan ovozni tanish – Common Voice loyihasini ishga tushirdik.
 show-wall-of-text = Batafsil
 help-us-title = Gaplarni tasdiqlashda yordam bering!
@@ -135,8 +135,10 @@ vote-yes = Ha
 vote-no = Yo‘q
 toggle-play-tooltip = Ijro rejimiga o‘tish uchun { shortcut-play-toggle } ustiga bosing
 speak-subtitle = Ovozingiz bilan yordam qiling
+speak-paragraph = Ovoz yozish bizning ma’lumot jamlanmalarimizning ajralmas qismidir. Hato ba’zilar bu jarayonni juda qiziq ham deyishadi.
 speak-goal-text = Yozilgan kliplar
 listen-subtitle = Ovozlarni tekshirishda yordam bering
+listen-paragraph = Qo‘shilgan ovozlarni tekshirish – Common Voice loyihasi uchun juda muhim. Ovozlarni tinglang va sifatli ochiq manbali ovoz ma’lumotlarini yaratishda yordam bering.
 listen-goal-text = Kliplar tekshirildi
 hours-recorded = Yozib olingan soat
 hours-validated = Soat tekshirildi
@@ -235,6 +237,7 @@ email-subscriptions = E-pochta orqali obuna
 download-profile = Ma’lumotlarni yuklab olish
 contribution-experience = Hissangizga baho bering
 skip-submission-feedback = Ishga baho berishni tashlab ketish
+skip-submission-note = Diqqat: hissa qo‘shish turini o‘zgartirish uchun "Gapirish" yoki "Tinglash"dan birini tanlashingiz lozim.
 off = O‘chiq
 on = Yoniq
 
@@ -246,12 +249,16 @@ faq-important-q = Nega u bunchalik muhim?
 
 ## Profile
 
+profile-why-title = Nega profil kerak?
 
 ## NotFound
 
+notfound-title = Topilmadi
+notfound-content = Nima izlayotganlingizni bilmaslikdan qo‘rqaman.
 
 ## Data
 
+data-download-button = Common Voice ma’lumotlarini yuklab olish
 data-download-yes = Ha
 data-download-deny = Yo‘q
 data-download-license = Litsenziya: <licenseLink>CC-0</licenseLink>
