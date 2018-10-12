@@ -257,6 +257,9 @@ data-download-deny = Yo‘q
 data-download-license = Litsenziya: <licenseLink>CC-0</licenseLink>
 data-download-modal = Siz <size>{ $size }GB</size> ma’lumotni yuklab olish arafasidasiz.  Davom etasizmi?
 data-subtitle = Biz ochiq va hammaga ruxsat berilgan ovoz ma’lumotlari jamlanmalarini tuzdik.  Xohlagan kishi ovozli o‘qish ruxsat berilgan dasturlarga o‘rgatish uchun undan foydalanishi mumkin.
+data-other-title = Boshqa ovoz ma’lumotlari to‘plamlari
+data-other-goto = { $name }ga o‘tish
+data-other-download = Ma’lumotlarni yuklab olish
 
 ## Record Page
 
