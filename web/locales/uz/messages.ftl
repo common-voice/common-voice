@@ -284,6 +284,7 @@ record-no-mic-found = Hech qanday mikrofon topilmadi.
 record-error-too-short = Bu yozuv juda qisqa.
 record-error-too-long = Bu yozuv juda uzun.
 record-error-too-quiet = Yozuv juda sokin.
+record-submit-success = Yozuv yuborildi! Yana yozishni xohlaysizmi?
 
 ## Download Modal
 
@@ -297,14 +298,28 @@ record-error-too-quiet = Yozuv juda sokin.
 ## Languages Overview
 
 language-section-in-progress = Ishlanmoqda
-language-section-launched = Ishga tushirildi
+language-section-launched = Ishga tushirilgan tillar
+language-section-launched-new-description = Ushbu ishga tushirilgan tillar uchun sayt to‘liq tarjima qilingan va yetarlicha so‘z birikmalari to‘plangan. Ular bilan ishlashni xohlasangiz,  <italic>gapirib</italic> va <italic>tinglab</italic> yordam qilishingiz mumkin.
 languages-show-more = Ko‘proq
 languages-show-less = Kamroq
 language-speakers = So‘zlovchilar
+language-meter-in-progress = Jarayon
 language-total-progress = Jami
+language-search-input =
+    .placeholder = Izlash
 language-speakers = So‘zlovchilar
+localized = Tarjima qilingan
+sentences = Jumlalar
+total-hours = Jami soat
 
 ## New Contribution
 
+action-click = Bosish
+action-tap = Bosish
+contribute = Hissa qo‘shish
+listen = Tinglash
+skip = Tashlab ketish
+shortcuts = Tugmalar birliklari
+clips-with-count = <bold>{ $count }</bold> ta klip
 record-button-label = Ovozingizni yozing
 share-title-new = Yana ovoz yig‘ishimizda <bold>yordam bering</bold>
