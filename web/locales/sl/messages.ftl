@@ -127,6 +127,7 @@ wall-of-text-first =
     Glas je naraven, glas je človeški. Zato smo navdušeni nad ustvarjanjem uporabne govorne tehnologije
     za naše stroje. Da pa bi bilo mogoče ustvariti govorne sisteme, razvijalci potrebujejo zelo veliko količino glasovnih
     podatkov.
+wall-of-text-second = Večina podatkov, ki jih uporabljajo velika podjetja, ni na voljo za večino ljudi. Menimo, da to ovira inovacije. Zato smo zagnali projekt Common Voice, ki bo naredil glasovno prepoznavanje odprto in dostopno vsem.
 show-wall-of-text = Več
 help-us-title = Pomagaj nam potrditi stavke!
 help-us-explain = Pritisni predvajaj in poslušaj. Ali je spodnji stavek pravilno izgovorjen?
@@ -135,8 +136,10 @@ vote-yes = Da
 vote-no = Ne
 toggle-play-tooltip = Pritisnite { shortcut-play-toggle } za preklop načina predavjanja
 speak-subtitle = Prispevajte svoj glas
+speak-paragraph = Snemanje glasovnih posnetkov je sestavni del gradnje našega odprtega nabora podatkov, nekateri bi celo rekli, najbolj zabaven del.
 speak-goal-text = posnetih posnetkov
 listen-subtitle = Pomagajte nam potrditi glasove
+listen-paragraph = Potrjevanje prejetih posnetkov je enako pomembno za uspeh misije Common Voice. Poslušajte in nam pomagajte ustvariti kakovostne odprtokodne glasovne podatke.
 listen-goal-text = potrjenih posnetkov
 hours-recorded = Posnetih ur
 hours-validated = Potrjenih ur
@@ -247,6 +250,7 @@ thanks-for-account = Hvala za potrditev računa, zdaj pa se lotimo ustvarjanja v
 why-demographic = Zakaj je to pomembno?
 keep-me-posted =
     .label = Želim prejemati posodobitve in novosti o poteku projekta Common Voice.
+accept-privacy = Strinjam se z ravnanjem s temi podatki, kot je razloženo v Mozillini <privacyLink>politiki zasebnosti</privacyLink>
 login-identity = Identiteta prijave
 edit = Uredi
 email-subscriptions = Naročnine na e-pošto
