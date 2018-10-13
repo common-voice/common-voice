@@ -228,10 +228,13 @@ female = Ayol
 # Gender
 other = Boshqa
 why-profile-title = Nega profil?
+why-profile-text = O‘zingiz haqingizda ma’lumot kiritib, Common Voice loyihasiga audio ma’lumotlarni yuborsangiz, nutqni tanish tizimiga yordamlashgan bo‘lasiz. Bu ovozli yozuvlar ovozni tanish aniqligi va sifatini oshirishda yordam beradi.
 edit-profile = Profilni tahrirlash
 profile-create = Profil yaratish
 profile-create-success = Profil yaratildi!
 profile-close = Yopish
+why-demographic = Bu nega kerak?
+login-identity = Kirish uchun identifikator
 edit = Tahrirlash
 email-subscriptions = E-pochta orqali obuna
 download-profile = Ma’lumotlarni yuklab olish
@@ -267,9 +270,20 @@ data-subtitle = Biz ochiq va hammaga ruxsat berilgan ovoz ma’lumotlari jamlanm
 data-other-title = Boshqa ovoz ma’lumotlari to‘plamlari
 data-other-goto = { $name }ga o‘tish
 data-other-download = Ma’lumotlarni yuklab olish
+license = Litsenziya: <licenseLink>{ $license }</licenseLink>
+license-mixed = Aralash
 
 ## Record Page
 
+record-platform-not-supported = Uzr, platformangiz hozirda ishlamaydi.
+record-platform-not-supported-desktop = Kompyuterlaringizga eng oxirgisini yuklab olishingiz mumkin:
+record-platform-not-supported-ios = <bold>iOS</bold> foydalanuvchilari bizning bepul ilovamizni yuklab olishi mumkin:
+record-must-allow-microphone = Mikrofonga ruxsat berishingiz kerak.
+record-retry = Qayta yozish
+record-no-mic-found = Hech qanday mikrofon topilmadi.
+record-error-too-short = Bu yozuv juda qisqa.
+record-error-too-long = Bu yozuv juda uzun.
+record-error-too-quiet = Yozuv juda sokin.
 
 ## Download Modal
 
