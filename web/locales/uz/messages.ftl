@@ -270,6 +270,8 @@ data-subtitle = Biz ochiq va hammaga ruxsat berilgan ovoz ma’lumotlari jamlanm
 data-other-title = Boshqa ovoz ma’lumotlari to‘plamlari
 data-other-goto = { $name }ga o‘tish
 data-other-download = Ma’lumotlarni yuklab olish
+data-bundle-button = Ma’lumotlar bazasi paketini yuklab olish
+data-bundle-description = Common Voice ma’lumotlari va yuqoridagi boshqa ovoz ma’lumotlar bazasi.
 license = Litsenziya: <licenseLink>{ $license }</licenseLink>
 license-mixed = Aralash
 
@@ -285,19 +287,51 @@ record-error-too-short = Bu yozuv juda qisqa.
 record-error-too-long = Bu yozuv juda uzun.
 record-error-too-quiet = Yozuv juda sokin.
 record-submit-success = Yozuv yuborildi! Yana yozishni xohlaysizmi?
+record-help = Yozish uchun ustiga bosing, keyin esa jumlalarni ovoz chiqarib baland ovozda o‘qing.
+record-cancel = Qayta yozishni bekor qilish
+review-terms = Common Voice loyihasidan foydalanish bilan siz bizning <termsLink>Shartlar</termsLink>imiz va <privacyLink>Maxfiylik siyosati</privacyLink>mizga rozilik bildirgan hisoblanasiz.
+terms-agree = Roziman
+terms-disagree = Noroziman
+review-aborted = Yuklab qo‘yish to‘xtatildi. Yozuvlarni o‘chirishni xohlaysizmi?
+review-submit-title = Tekshirish va yuborish
+review-submit-msg = Yozuv uchun rahmat!<lineBreak></lineBreak>Endi pastdagi yozuvlaringizni tekshiring va yuboring .
+review-recording = Tekshirish
+review-rerecord = Qayta yozish
+review-cancel = Yuborishni bekor qilish
+review-keep-recordings = Yozuvlarni saqlash
+review-delete-recordings = Yozuvlarni o‘chirish
 
 ## Download Modal
 
+download-title = Yuklash jarayoni boshlandi.
+download-helpus = Ovoz texnologiyasi bo‘yicha jamoa tuzishimizda yordam bering. Biz bilan e-pochta orqali aloqada bo‘ling.
+download-form-email =
+    .label = Pochtangizni kiriting
+    .value = Rahmat, tezda siz bilan bog‘lanamiz.
+download-back = Common Voice ma’lumot bazasiga qaytish
+download-no = Kerak emas
 
 ## Contact Modal
 
+contact-title = Bog‘lanish shakli
+contact-form-name =
+    .label = Nomi
+contact-form-message =
+    .label = Xabar
+contact-required = *majburiy
 
 ## Request Language Modal
 
+request-language-title = Tilni so‘rovi
+request-language-form-language =
+    .label = Til
+request-language-success-title = Til so‘rovi amalga oshirildi. Rahmat.
+request-language-success-content = Ona tilingizni Common Voice loyihasiga qo‘shish haqida ma’lumotlarni tezda yuboramiz.
 
 ## Languages Overview
 
-language-section-in-progress = Ishlanmoqda
+language-section-in-progress = Tayyor bo‘lmagan tillar
+language-section-in-progress-description = Tayyor bo‘lmagan tillar hozirda jamoamiz tomonidan ishga tushirish uchun tayyorlanmoqda. Jarayon sayt tarjimasi va  jumlalarni qayta ishlash bosqichini ko‘rsatadi.
 language-section-launched = Ishga tushirilgan tillar
 language-section-launched-new-description = Ushbu ishga tushirilgan tillar uchun sayt to‘liq tarjima qilingan va yetarlicha so‘z birikmalari to‘plangan. Ular bilan ishlashni xohlasangiz,  <italic>gapirib</italic> va <italic>tinglab</italic> yordam qilishingiz mumkin.
 languages-show-more = Ko‘proq
