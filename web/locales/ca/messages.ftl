@@ -68,7 +68,6 @@ oc = Occità
 or = oriya
 pl = polonès
 pt-BR = portuguès (Brasil)
-rm = romanx
 ro = romanès
 ru = rus
 sah = iacut
@@ -145,11 +144,12 @@ all-languages = Totes les llengües
 today = Avui
 x-weeks-short =
     { $count ->
-        [one] Setmana
+        [one] { $count } setm.
        *[other] { $count } setm.
     }
 x-months-short =
     { $count ->
+        [one] { $count } mes
        *[other] { $count } mesos
     }
 x-years-short =
