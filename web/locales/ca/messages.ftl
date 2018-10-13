@@ -15,6 +15,7 @@ loading = S'està carregant…
 
 ## Languages
 
+ace = Atjeh
 an = aragonès
 ar = àrab
 as = assamès
@@ -37,6 +38,7 @@ en = anglès
 eo = esperanto
 es = espanyol
 et = estonià
+fa = Persa
 fi = finès
 fo = feroès
 fr = francès
