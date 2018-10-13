@@ -321,5 +321,26 @@ listen = Tinglash
 skip = Tashlab ketish
 shortcuts = Tugmalar birliklari
 clips-with-count = <bold>{ $count }</bold> ta klip
+goal-help-recording = Siz Common Voice loyihasini { $goalValue }dagi kunlik rejamizdan <goalPercentage></goalPercentage> natijaga erishishiga yordam berdingiz!
+goal-help-validation = Siz Common Voice loyihasini { $goalValue }dagi kunlik tekshiruv rejamizdan <goalPercentage></goalPercentage> tekshilishiga yordam berdingiz!
+contribute-more =
+    { $count ->
+        [one] Yana { $count } ta bajarishga tayyormisiz?
+       *[other] Yana { $count } ta bajarishga tayyormisiz?
+    }
+record-cta = Yozishni boshlash
+record-instruction = { $actionType }<recordIcon></recordIcon> keyin jumlalarni ovoz chiqarib o‘qing
+record-stop-instruction = { $actionType }<stopIcon></stopIcon>, tayyor bo‘lganda
+record-three-more-instruction = Uchta qoldi!
+record-again-instruction = Yashang!<recordIcon></recordIcon> Keyingi klipni yozing
+record-again-instruction2 = Shunday davom eting, yana yozing: <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Oxirgisi!
+review-tooltip = Tekshiring va kliplarni bu yerga qayta yozing
+unable-speak = Hozir gapira olmaysizmi?
+review-instruction = Kerak bo‘lganda, cliplarni ko‘rib chiqing va qayta yozing
+record-submit-tooltip = { $actionType } tayyor bo‘lsa, yuboring
+clips-uploaded = Yuklangan kliplar
+record-abort-title = Aval yozishni tugating?
+record-abort-text = Hozir chiqsangiz, hech narsa saqlanmaydi
 record-button-label = Ovozingizni yozing
 share-title-new = Yana ovoz yig‘ishimizda <bold>yordam bering</bold>
