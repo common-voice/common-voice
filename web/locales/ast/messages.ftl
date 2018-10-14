@@ -15,6 +15,7 @@ loading = Cargando...
 
 ## Languages
 
+ace = Achenés
 an = Aragonés
 ar = Árabe
 as = Asamés
@@ -37,6 +38,7 @@ en = Inglés
 eo = Esperantu
 es = Español
 et = Estoniu
+fa = Persa
 fi = Finlandés
 fo = Feroés
 fr = Francés
@@ -57,6 +59,7 @@ ko = Coreanu
 kpv = Komi
 kw = Córnicu
 ky = Kirguís
+mdf = Moksha
 mk = Macedoniu
 mn = Mongol
 myv = Erzya
@@ -68,7 +71,7 @@ oc = Occitanu
 or = Oriya
 pl = Polacu
 pt-BR = Portugués (Brasil)
-rm = Romanche
+rm-sursilv = Romanche surselvu
 ro = Rumanu
 ru = Rusu
 sah = Sakha
