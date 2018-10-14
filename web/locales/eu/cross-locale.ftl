@@ -1,6 +1,6 @@
 ## Languages
 
 get-involved-email =
-    .label = Helbide elektronikoa
+    .label = E-posta
 get-involved-submit = Bidali
 get-involved-return-to-languages = Itzuli hizkuntzetara

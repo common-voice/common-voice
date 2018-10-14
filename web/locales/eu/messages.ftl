@@ -1,7 +1,8 @@
 ## General
 
+return-to-cv = Itzuli Common Voicera
 email-input =
-    .label = Helbide elektronikoa
+    .label = E-posta
 submit-form-action = Bidali
 loading = Kargatzen…
 
@@ -26,6 +27,7 @@ de = Alemana
 el = Grekoa
 en = Ingelesa
 eo = Esperantoa
+es = Gaztelania
 et = Estoniera
 fa = Pertsiera
 fi = Suomiera
@@ -73,6 +75,7 @@ vi = Vietnamera
 
 speak = Hitz egin
 speak-now = Hitz egin orain
+datasets = Datu-sortak
 languages = Hizkuntzak
 profile = Profila
 help = Laguntza
@@ -88,6 +91,21 @@ vote-yes = Bai
 vote-no = Ez
 all-languages = Hizkuntza guztiak
 today = Gaur
+x-weeks-short =
+    { $count ->
+        [one] 1 aste
+       *[other] { $count } aste
+    }
+x-months-short =
+    { $count ->
+        [one] { $count } hilabete
+       *[other] { $count } hilabete
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } urte
+       *[other] { $count } urte
+    }
 
 ## Speak & Listen Shortcuts
 
@@ -99,6 +117,8 @@ shortcut-play-toggle-label = Erreproduzitu/Gelditu
 ## Speak Shortcuts
 
 shortcut-record-toggle-label = Grabatu/Gelditu
+request-language-text = Ez duzu zure hizkuntza Common Voicen ikusten oraindik?
+request-language-button = Eskatu hizkuntza bat
 
 ## ProjectStatus
 
@@ -129,7 +149,7 @@ profile-create = Sortu profila
 profile-create-success = Profila ondo sortu da!
 profile-close = Itxi
 edit = Editatu
-email-subscriptions = Posta-harpidetzak
+email-subscriptions = E-posta harpidetzak
 download-profile = Deskargatu nire datuak
 
 ## FAQ
@@ -137,6 +157,9 @@ download-profile = Deskargatu nire datuak
 faq-title = Ohiko galderak
 faq-what-q = Zer da Common Voice?
 faq-important-q = Zergatik da garrantzitsua?
+faq-get-q = Nola lor ditzaket Common Voiceko datuak?
+faq-mission-q = Zergatik da Common Voice Mozillaren misioaren parte?
+faq-firefox-q = Ahotsetik-testura, Common Voicen bitartez, izango al da inoiz Firefoxen parte?
 
 ## Profile
 
@@ -149,7 +172,7 @@ notfound-content = Sentitzen dut baina ez dakit zeren bila zabiltzan.
 
 ## Data
 
-data-download-button = Deskargatu Common Voice-ko datuak
+data-download-button = Deskargatu Common Voiceko datuak
 data-download-yes = Bai
 data-download-deny = Ez
 data-download-license = Lizentzia: <licenseLink>CC-0</licenseLink>
@@ -170,12 +193,14 @@ review-delete-recordings = Ezabatu nire grabazioak
 
 download-title = Zure deskarga hasi da.
 download-form-email =
-    .label = Idatzi zure helbide elektronikoa
+    .label = Idatzi zure e-posta
     .value = Eskerrik asko, elkarren berri izango dugu.
+download-back = Itzuli Common Voice datu-sortetara
 download-no = Ez, eskerrik asko
 
 ## Contact Modal
 
+contact-title = Kontaktu inprimakia
 contact-form-name =
     .label = Izena
 contact-form-message =
@@ -210,6 +235,12 @@ action-tap = Sakatu
 listen = Entzun
 skip = Saltatu
 shortcuts = Lasterbideak
+contribute-more =
+    { $count ->
+        [one] { $count } gehiago egiteko prest?
+       *[other] { $count } gehiago egiteko prest?
+    }
 record-cta = Hasi grabazioa
+record-three-more-instruction = Bagoaz!
 record-abort-continue = Bukatu grabazioa
 record-button-label = Grabatu zure ahotsa
