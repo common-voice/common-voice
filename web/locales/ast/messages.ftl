@@ -267,6 +267,7 @@ email-subscriptions = Soscripciones per corréu
 download-profile = Baxar los mios datos
 contribution-experience = Esperiencia de la collaboración
 skip-submission-feedback = Saltar l'unviu de los comentarios
+skip-submission-description = Nel unviu de les collaboraciones van saltase los comentarios tres facer clic n'«Unviar». La collaboración va siguir direutamente col conxuntu siguiente de 5 grabaciones o validaciones.
 skip-submission-note = Nota: Entá vas precisar esbillar ente Falar o Sentir pa camudar la triba de collaboración.
 off = NON
 on = SÍ
