@@ -15,6 +15,7 @@ loading = Kargatzen…
 an = Aragoiera
 ar = Arabiera
 as = Assamera
+ast = Asturiera
 az = Azerbaijanera
 bn = Bengaliera
 br = Bretoiera
@@ -33,6 +34,7 @@ fa = Pertsiera
 fi = Suomiera
 fo = Faroera
 fr = Frantsesa
+fy-NL = Frisiera
 ga-IE = Irlandako gaelikoa
 he = Hebreera
 hu = Hungariera
@@ -61,12 +63,16 @@ sq = Albaniera
 sr = Serbiera
 sv-SE = Suediera
 ta = Tamilera
+te = Telugua
 th = Thailandiera
 tr = Turkiera
 uk = Ukrainera
 ur = Urdua
 uz = Uzbekera
 vi = Vietnamera
+zh-CN = Txinera (Txina)
+zh-HK = Txinera (Hong Kong)
+zh-TW = Txinera (Taiwan)
 
 # [/]
 
@@ -84,6 +90,8 @@ privacy = Pribatutasuna
 terms = Baldintzak
 cookies = Cookieak
 faq = Ohiko galderak
+back-top = Itzuli gora
+contribution-banner-button = Bota begirada bat
 
 ## Home Page
 
@@ -176,7 +184,10 @@ data-download-button = Deskargatu Common Voiceko datuak
 data-download-yes = Bai
 data-download-deny = Ez
 data-download-license = Lizentzia: <licenseLink>CC-0</licenseLink>
+data-other-title = Beste ahots datu-sortak...
 data-other-download = Deskargatu datuak
+data-bundle-button = Deskargatu datu-sorta multzoa
+data-bundle-description = Common Voice datuak gehi ondoko ahots datu-sorta guztiak.
 
 ## Record Page
 
