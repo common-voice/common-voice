@@ -278,7 +278,7 @@ faq-source-a2 = Hi ka hin <dataLink>biatlang kan laknak na zoh khawh.  </dataLin
 
 ## Profile
 
-profile-why-title = Zei ruangah keimah kong cu a herh?
+profile-why-title = Zei ruangah dah keimah kong cu a herh?
 profile-why-content = Nangmah kong kan theih deuhnak thawngin Common Voice nih na Aw hi ṭha deuh le hman deuh in computer a chimh khawh lai.
 
 ## NotFound
