@@ -1,5 +1,6 @@
 ## General
 
+yes-receive-emails = Bai, bidali e-postak niri. Common Voice proiektuari buruz informatuta egon nahi nuke.
 return-to-cv = Itzuli Common Voicera
 email-input =
     .label = E-posta
@@ -113,6 +114,7 @@ contribution-banner-button = Bota begirada bat
 
 ## Home Page
 
+home-cta = Mintzatu, lagundu hemen!
 show-wall-of-text = Irakurri gehiago
 help-us-title = Lagun gaitzazu esaldiak balioztatzen!
 vote-yes = Bai
@@ -156,17 +158,25 @@ request-language-button = Eskatu hizkuntza bat
 
 ## ProjectStatus
 
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Hurrengo helburua: { $goal }
 english = Ingelesa
 
 ## ProfileForm
 
+profile-form-cancel = Irten inprimakitik
 profile-form-delete = Ezabatu profila
 profile-form-username =
     .label = Erabiltzaile-izena
 profile-form-language =
     .label = Hizkuntza
+profile-form-accent =
+    .label = Azentua
 profile-form-age =
     .label = Adina
+profile-form-gender =
+    .label = Sexua
 native-language =
     .label = Ama-hizkuntza
 profile-form-submit-save = Gorde
@@ -185,6 +195,8 @@ profile-close = Itxi
 edit = Editatu
 email-subscriptions = E-posta harpidetzak
 download-profile = Deskargatu nire datuak
+off = Itzalita
+on = Piztuta
 
 ## FAQ
 
@@ -194,6 +206,8 @@ faq-important-q = Zergatik da garrantzitsua?
 faq-get-q = Nola lor ditzaket Common Voiceko datuak?
 faq-mission-q = Zergatik da Common Voice Mozillaren misioaren parte?
 faq-firefox-q = Ahotsetik-testura, Common Voicen bitartez, izango al da inoiz Firefoxen parte?
+faq-quality-q = Audioetan zein kalitate-maila behar da erabili ahal izateko?
+faq-source-q = Testu-iturria nondik dator?
 
 ## Profile
 
