@@ -15,6 +15,7 @@ loading = Betöltés…
 
 ## Languages
 
+ace = Acehi
 an = Aragóniai
 ar = Arab
 as = Asszámi
