@@ -109,8 +109,10 @@ cookies = Cookieak
 faq = Ohiko galderak
 share-title = Lagun gaitzazu beraien ahotsak utziko dituzten boluntario gehiago aurkitzen!
 share-text = Lagundu makinei irakasten benetako pertsonek nola hitz egiten duten, utzi zure ahotsa hemen: { $link }
+link-copied = Lotura kopiatuta
 back-top = Itzuli gora
 contribution-banner-button = Bota begirada bat
+report-bugs-link = Lagun iezaguzu arazoen berri ematen
 
 ## Home Page
 
