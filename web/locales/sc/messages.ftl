@@ -255,12 +255,28 @@ review-delete-recordings = Cantzella is registratziones mias
 
 ## Download Modal
 
+download-helpus = Agiuda·si a costrùere una comunidade a inghìriu is tecnologias de sa boghe, abarra in cuntatu tràmite posta eletrònica.
+download-form-email =
+    .label = Inserta s'indiritzu de posta eletrònica
+    .value = Gràtzias, abarramus in cuntatu.
+download-back = Torra a is pachetes de datos de Common Voice
+download-no = No, gràtzias
 
 ## Contact Modal
 
+contact-title = Formulàriu de cuntatu
+contact-form-name =
+    .label = Nùmene
+contact-form-message =
+    .label = Messàgiu
+contact-required = *rechèdidu
 
 ## Request Language Modal
 
+request-language-title = Rechesta de limba
+request-language-form-language =
+    .label = Limba
+request-language-success-title = As imbiadu sa rechesta de limba; gràtzias.
 
 ## Languages Overview
 
