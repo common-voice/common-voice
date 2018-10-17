@@ -242,6 +242,16 @@ record-error-too-short = Sa registratzione est tropu curtza.
 record-error-too-long = Sa registratzione est tropu longa.
 record-error-too-quiet = Su volùmene de sa registratzione est tropu bàsciu.
 record-submit-success = Imbiadu! Boles torrare a registrare?
+record-help = Toca pro registrare, e a pustis leghe cun boghe arta custa frase.
+review-terms = Impreende Common Voice, atzetas is <termsLink>Cunditziones</termsLink> nostras e a s'<privacyLink>Avisu de riservadesa</privacyLink>
+terms-agree = So de acordu
+terms-disagree = Non so de acordu
+review-aborted = Càrriga annullada
+review-submit-title = Revisiona e imbia
+review-recording = Revisiona
+review-cancel = Annulla s'imbiu
+review-keep-recordings = Mantene is registratziones
+review-delete-recordings = Cantzella is registratziones mias
 
 ## Download Modal
 
