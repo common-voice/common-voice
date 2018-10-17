@@ -79,36 +79,143 @@ privacy = Riservadesa
 terms = Cunditziones
 cookies = Cookies
 faq = PF
+content-license-text = Cuntenutu a disponimentu a suta de sa <licenseLink>lissèntzia Creative Commons</licenseLink>
+share-title = Agiuda·si a agatare àtera gente chi podet donare sa boghe sua!
+share-text = Agiuda a imparare a is màchinas comente chistiona sa gente reale: dona sa boghe tua a { $link }
+link-copied = Ligàmene copiadu
+back-top = Torra in artu
+contribution-banner-text = Presentamus immoe un'esperièntzia de cuntributu noa
+contribution-banner-button = Abbàida
+report-bugs-link = Agiuda a sinnalare faddinas
 
 ## Home Page
 
+home-title = Common Voice est s'initziativa de Mozilla pro agiudare a imparare a is màchinas comente chistionat sa gente reale.
+home-cta = Chistiona, contribui inoghe!
+show-wall-of-text = Leghe àteru
+help-us-title = Agiuda·si a validare frases!
+vote-yes = Emmo
+vote-no = Nono
+speak-subtitle = Dona sa boghe tua
+listen-subtitle = Agiuda·si a validare boghes
+listen-paragraph = .
+read-terms-q = As lèghidu is Cunditziones nostras?
+ready-to-record = Ses prontu pro donare sa boghe tua?
+all-languages = Totu is limbas
+today = Oe
+x-weeks-short =
+    { $count ->
+        [one] Chida
+       *[other] { $count }ch
+    }
+x-months-short =
+    { $count ->
+        [one] { $count }me
+       *[other] { $count }me
+    }
+x-years-short =
+    { $count ->
+        [one] { $count }a
+       *[other] { $count }a
+    }
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = b
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = r
+shortcut-play-toggle-label = Reprodue/Firma
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = e
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Registra/Firma
 
 ## ProjectStatus
 
+status-contribute = Contribui cun sa boghe tua
+status-hours =
+    { $hours ->
+        [one] Un'ora validada fintzas a immoe!
+       *[other] { $hours } validadas fintzas a immoe!
+    }
+english = Inglesu
 
 ## ProfileForm
 
+profile-form-cancel = Essi de su formulàriu
+profile-form-delete = Cantzella su profilu
+profile-form-username =
+    .label = Nùmene usuàriu
+profile-form-language =
+    .label = Limba
+profile-form-accent =
+    .label = Atzentu
+profile-form-age =
+    .label = Edade
+profile-form-submit-save = Sarva
+profile-form-submit-saved = Sarvadu
+profile-keep-data = Mantene is datos
+profile-delete-data = Cantzella is datos
+male = Mascru
+female = Fèmina
+# Gender
+other = Àteru
+why-profile-title = Pro ite depo fàghere unu profile?
+edit-profile = Modìfica su profilu
+profile-create = Crea unu profilu
+profile-create-success = As creadu su profilu.
+profile-close = Serra
+why-demographic = Pro ite est importante?
+login-identity = Identidade de intrada
+edit = Modìfica
+email-subscriptions = Sutiscritziones tràmite posta eletrònica
+download-profile = Iscàrriga is datos mios
+contribution-experience = Esperièntzia de cuntributu
+off = Disativadu
+on = Ativu
 
 ## FAQ
 
+faq-title = Preguntas Fitianas
+faq-what-q = Ite est Common Voice?
+faq-important-q = Pro ite est importante?
+faq-get-q = Comente potzo otènnere is datos de Common Voice?
+faq-get-a = Su pachete de datos est a disponimentu dae sa nostra <downloadLink>pàgina de iscarrigamentu</downloadLink> cun lissèntzia <licenseLink>CC-O</licenseLink>.
+faq-mission-q = Pro ite Common Voice faghet parte de sa missione de Mozilla?
+faq-native-q = So unu faeddadore no nativu de { $lang } e ddu chistionu cun s'atzentu meu. Bolides sa boghe mia su pròpiu?
+faq-quality-q = Cale est su livellu de calidade mìnimu de s'àudio?
+faq-source-q = Dae ue arribat su testu originale?
+faq-source-a2 = Podes bìdere is frases originales chi impreamus in <dataLink>custa cartella de Github</dataLink>.
 
 ## Profile
 
+profile-why-title = Pro ite depo creare unu profilu?
 
 ## NotFound
 
+notfound-title = No agatadu
+notfound-content = No ischimus ite ses chirchende.
 
 ## Data
 
+data-download-button = Iscàrriga datos de Common Voice
+data-download-yes = Emmo
+data-download-deny = Nono
+data-download-license = Lissèntzia: <licenseLink>CC-0</licenseLink>
 
 ## Record Page
 
