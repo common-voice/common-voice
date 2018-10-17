@@ -954,6 +954,10 @@ balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
 
+base-audio-context@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/base-audio-context/-/base-audio-context-1.1.1.tgz#d75a5b6cbbfda6728722b8590095b5136d8b8d28"
+
 base64-js@^1.0.2:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.2.3.tgz#fb13668233d9614cf5fb4bce95a9ba4096cdf801"
@@ -6771,6 +6775,12 @@ prom-client@^10.1.1:
   resolved "https://registry.yarnpkg.com/prom-client/-/prom-client-10.2.2.tgz#76b39720710ec10796d7ce60135b5d5dafbff615"
   dependencies:
     tdigest "^0.1.1"
+
+promise-decode-audio-data@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/promise-decode-audio-data/-/promise-decode-audio-data-0.4.1.tgz#d29b0e716197c71543ad696c1f730ee6a30c25a2"
+  dependencies:
+    base-audio-context "^1.1.1"
 
 promise-inflight@^1.0.1:
   version "1.0.1"

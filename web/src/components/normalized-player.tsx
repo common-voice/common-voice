@@ -3,6 +3,8 @@
 
 // TODO: human perception based loudness filtering (IIR filters)
 
+require('promise-decode-audio-data');
+
 export interface NormalizedPlayerInterface {
   play(clipUrl: string): Promise<void>;
   stop(): void;
