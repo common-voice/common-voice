@@ -216,9 +216,32 @@ data-download-button = Iscàrriga datos de Common Voice
 data-download-yes = Emmo
 data-download-deny = Nono
 data-download-license = Lissèntzia: <licenseLink>CC-0</licenseLink>
+data-download-modal = As a iscarrigare <size>{ $size }GB</size>, boles sighire?
+data-subtitle = Semus costruende unu pachete de boghes abertu e de atzessu pùblicu in manera chi cale si siat persone potzat allenare aplicatziones cun suportu de boghe.
+data-get-started = <speechBlogLink>Cumintza a traballare cun su reconnoschimentu de boghe</speechBlogLink>
+data-other-title = Àteros pachetes de boghes...
+data-other-goto = Bae a { $name }
+data-other-download = Iscàrriga datos
+data-other-ted-name = Corpus TED-LIUM
+data-other-ted-description = Su corpus TED-LIUM est istadu costrùidu dae tzarradas de àudio e is trascritziones a disponimentu in su situ web de TED.
+data-other-voxforge-description = VoxForge est istadu creadu pro colletzionare discursos trascritos de impreare cun motores de reconnoschimentu de boghe lìberos e de còdighe abertu.
+data-other-tatoeba-description = Tatoeba est una base de datos manna chi includet frases, tradutziones e àudio faeddadu ùtile pro s'aprendimentu de limbas. Custu iscarrigamentu includet inglesu faeddadu chi est istadu registradu dae sa comunidade.
+data-bundle-button = Iscàrriga pachete de datos
+data-bundle-description = Datos de Common Voice impares cun totu is pachetes de boghes de a suba.
+license = Lissèntzia: <licenseLink>{ $license }</licenseLink>
 
 ## Record Page
 
+record-platform-not-supported = Sa prataforma tua no est galu cumpatìbile.
+record-platform-not-supported-desktop = In elaboradores de iscrivania, podes iscarrigare sa prus reghente:
+record-platform-not-supported-ios = Is usuàrios de <bold>iOS</bold> podent iscarrigare sa nostra aplicatzione gratùita:
+record-must-allow-microphone = Depes permitere s'atzessu a su micròfonu.
+record-retry = Torra·bi a proare
+record-no-mic-found = Perunu micròfonu agatadu.
+record-error-too-short = Sa registratzione est tropu curtza.
+record-error-too-long = Sa registratzione est tropu longa.
+record-error-too-quiet = Su volùmene de sa registratzione est tropu bàsciu.
+record-submit-success = Imbiadu! Boles torrare a registrare?
 
 ## Download Modal
 
