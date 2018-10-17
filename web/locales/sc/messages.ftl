@@ -97,8 +97,11 @@ help-us-title = Agiuda·si a validare frases!
 vote-yes = Emmo
 vote-no = Nono
 speak-subtitle = Dona sa boghe tua
+speak-paragraph = Registrare boghes est una parte integrale de su protzessu de costrutzione de su nostru pachete de datos abertu; e est fintzas sa parte ispassiosa.
+speak-goal-text = Registratziones
 listen-subtitle = Agiuda·si a validare boghes
 listen-paragraph = .
+listen-goal-text = Registratziones validadas
 read-terms-q = As lèghidu is Cunditziones nostras?
 ready-to-record = Ses prontu pro donare sa boghe tua?
 all-languages = Totu is limbas
@@ -248,6 +251,7 @@ terms-agree = So de acordu
 terms-disagree = Non so de acordu
 review-aborted = Càrriga annullada
 review-submit-title = Revisiona e imbia
+review-submit-msg = Gràtzias de sa registratzione!<lineBreak></lineBreak>Immoe revisiona e imbia is registratziones tuas in bàsciu.
 review-recording = Revisiona
 review-cancel = Annulla s'imbiu
 review-keep-recordings = Mantene is registratziones
@@ -277,9 +281,58 @@ request-language-title = Rechesta de limba
 request-language-form-language =
     .label = Limba
 request-language-success-title = As imbiadu sa rechesta de limba; gràtzias.
+request-language-success-content = T'amus a cuntatare luegu cun àteras informatziones a subra de comente agiùnghere sa limba tua a Common Voice.
 
 ## Languages Overview
 
+language-section-in-progress = In progressu
+languages-show-more = Bide·nde de prus
+languages-show-less = Bide·nde prus pagu
+language-speakers = Faeddadores
+language-meter-in-progress = Progressu
+language-total-progress = Totale
+language-search-input =
+    .placeholder = Chirca
+language-speakers = Faeddadores
+localized = Localizadu
+sentences = Frases
+total-hours = Oras validadas
 
 ## New Contribution
 
+action-click = Clica
+action-tap = Toca
+contribute = Contribui
+listen = Ascurta
+skip = Brinca
+shortcuts = Incurtzaduras
+clips-with-count = <bold>{ $count }</bold> registratziones
+contribute-more =
+    { $count ->
+        [one] Ses prontu a nde fàghere un'àteru?
+       *[other] Ses prontu a nde fàghere àteros { $count }?
+    }
+record-cta = Cumintza a registrare
+record-instruction = { $actionType }<recordIcon></recordIcon> a pustis leghe cun boghe arta sa frase
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> cando as a àere acabbadu
+record-three-more-instruction = Àteras tres!
+record-again-instruction = Bene meda!<recordIcon></recordIcon> Registra s'imbeniente
+record-again-instruction2 = Sighi aici! Registra·nde un'àtera <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Ùrtima!
+review-tooltip = Revisiona e torra a registrare inoghe
+unable-speak = Non podes chistionare, immoe?
+review-instruction = Revisiona e torra a registrare si ti serbit
+record-submit-tooltip = { $actionType } imbia cando ses prontu
+clips-uploaded = Registratziones carrigadas
+record-abort-title = Boles acabbare sa registratzione in antis?
+record-abort-text = Si essis immoe as a pèrdere su progressu chi as fatu
+record-abort-submit = Imbia registratziones
+record-abort-continue = Acabba sa registratzione
+record-abort-delete = Essi e cantzella is registratziones
+listen-instruction = { $actionType }<playIcon></playIcon> ant lèghidu in manera curreta sa frase?
+listen-again-instruction = Bonu traballu!<playIcon></playIcon> Torra a ascurtare cando ses prontu
+listen-3rd-time-instruction = 2 giai fatas, sighi aici!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Ùrtima!
+nothing-to-validate = No tenimus nudda pro validare in custa limba, agiuda·si a prenare sa lista de registratziones.
+record-button-label = Registra sa boghe tua
+share-title-new = <bold>Agiuda·si</bold> a agatare prus boghes
