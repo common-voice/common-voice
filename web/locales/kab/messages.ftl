@@ -15,6 +15,7 @@ loading = Asali…
 
 ## Languages
 
+ace = Acehnese
 an = Taṛagunit
 ar = Taεrabt
 as = Tasamizt
@@ -58,6 +59,7 @@ ko = Takurit
 kpv = Takumt Zyrian
 kw = Takuṛnikt
 ky = Takirgizt
+mdf = Mukca
 mk = Tamasidunit
 mn = Tamungult
 myv = Erzya
@@ -69,6 +71,7 @@ oc = Tuksitant
 or = Odia
 pl = Tapulunit
 pt-BR = Tapuṛtugit (Brizil)
+rm-sursilv = Rumanc Sursilvan
 ro = Taṛumanit
 ru = Tarusit
 sah = Tasaxit
