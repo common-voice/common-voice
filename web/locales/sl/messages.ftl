@@ -248,6 +248,7 @@ profile-clear-modal = Izbris vaših profilnih podatkov pomeni, da vaši demograf
 profile-explanation = Sledite svojemu napredku s pomočjo profila in nam pomagajte narediti naše zvočne podatke natančnejše.
 thanks-for-account = Hvala za potrditev računa, zdaj pa se lotimo ustvarjanja vašega profila.
 why-demographic = Zakaj je to pomembno?
+why-demographic-explanation = Anonimni uporabniški podatki, kot so starost, spol in naglas, izboljšajo glasovne podatke, ki se uporabljajo za zagotavljanje natančnosti sistemov za prepoznavanje govora. Vaše uporabniško ime in e-pošta ne bosta nikoli povezana z vašimi posredovanimi podatki, zato lahko izberete, ali bo vaše uporabniško ime javno ali anonimno.
 keep-me-posted =
     .label = Želim prejemati posodobitve in novosti o poteku projekta Common Voice.
 accept-privacy = Strinjam se z ravnanjem s temi podatki, kot je razloženo v Mozillini <privacyLink>politiki zasebnosti</privacyLink>
@@ -257,6 +258,7 @@ email-subscriptions = Naročnine na e-pošto
 download-profile = Prenesi moje podatke
 contribution-experience = Izkušnja prispevanja
 skip-submission-feedback = Preskoči pošiljanje povratnih informacij
+skip-submission-note = Opomba: za spremembo vrste prispevka boste še vedno morali izbrati med Govori in Poslušaj.
 off = Izklopljeno
 on = Vklopljeno
 
