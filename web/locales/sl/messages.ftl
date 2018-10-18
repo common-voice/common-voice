@@ -94,7 +94,7 @@ zh-TW = kitajščina (Tajvan)
 
 ## Layout
 
-speak = Govorite
+speak = Govori
 speak-now = Začnite govoriti
 datasets = Nabori podatkov
 languages = Jeziki
