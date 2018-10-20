@@ -71,6 +71,7 @@ oc = Oksítanska
 or = Oríja
 pl = Pólska
 pt-BR = Portúgalska (brasilísk)
+rm-sursilv = Surilsvanrómanska
 ro = Rúmverska
 ru = Rússneska
 sah = Jakútíska
