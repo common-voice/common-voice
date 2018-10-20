@@ -15,6 +15,7 @@ loading = Nalaganje …
 
 ## Languages
 
+ace = ačinščina
 an = aragonščina
 ar = arabščina
 as = asamščina
@@ -24,7 +25,8 @@ bn = bengalščina
 br = bretonščina
 bxr = burijatščina
 ca = katalonščina
-cnh = Hakha Chin
+cak = kaqchikel
+cnh = hakha chin
 cs = češčina
 cv = čuvaščina
 cy = valižanščina
@@ -57,6 +59,7 @@ ko = korejščina
 kpv = komijščina
 kw = kornijščina
 ky = kirgiščina
+mdf = mokša
 mk = makedonščina
 mn = mongolščina
 myv = erzjanščina
@@ -68,6 +71,7 @@ oc = okcitanščina
 or = odijščina
 pl = poljščina
 pt-BR = portugalščina (Brazilija)
+rm-sursilv = retoromanščina (sursilvan)
 ro = romunščina
 ru = ruščina
 sah = jakutščina
