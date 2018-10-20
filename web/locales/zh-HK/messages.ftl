@@ -181,8 +181,8 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = 錄音/停止
-request-language-text = 沒在 Common Voice 看到您的語言嗎？
-request-language-button = 要求一個新語言
+request-language-text = 沒在 Common Voice 見到您的語言嗎？
+request-language-button = 申請增加一款語言
 
 ## ProjectStatus
 
@@ -234,10 +234,13 @@ profile-explanation = 使用您的個人帳戶可以保留您的進展，並幫�
 why-demographic = 點解咁重要？
 keep-me-posted =
     .label = 我想收到 Common Voice 的最新消息。
+accept-privacy = 我同意你依照 Mozilla 的<privacyLink>私隱保護政策</privacyLink>中描述的方式處理這些資料
+login-identity = 登入身分
 edit = 編輯
 email-subscriptions = 電郵訂閱
 download-profile = 下載我的數據
 contribution-experience = 貢獻體驗
+skip-submission-feedback = 略過提供意見
 skip-submission-note = 註: 您仍須要選擇「聽」或「說」來切換貢獻類型。
 off = 關
 on = 開
