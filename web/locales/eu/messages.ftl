@@ -194,9 +194,12 @@ edit-profile = Editatu profila
 profile-create = Sortu profila
 profile-create-success = Profila ondo sortu da!
 profile-close = Itxi
+why-demographic = Zergatik da garrantzitsua?
+login-identity = Saioa hasteko identitatea
 edit = Editatu
 email-subscriptions = E-posta harpidetzak
 download-profile = Deskargatu nire datuak
+contribution-experience = Eskarmentua laguntzen
 off = Itzalita
 on = Piztuta
 
@@ -209,6 +212,8 @@ faq-get-q = Nola lor ditzaket Common Voiceko datuak?
 faq-mission-q = Zergatik da Common Voice Mozillaren misioaren parte?
 faq-firefox-q = Ahotsetik-testura, Common Voicen bitartez, izango al da inoiz Firefoxen parte?
 faq-quality-q = Audioetan zein kalitate-maila behar da erabili ahal izateko?
+faq-hours-q = Zergatik da helburua 10.000 orduko audio grabaketak lortzea?
+faq-hours-a = Ekoizpeneko STT sistema bat entrenatzeko, gutxi gora behera, ordu kopuru hori behar da.
 faq-source-q = Testu-iturria nondik dator?
 
 ## Profile
@@ -227,7 +232,9 @@ data-download-yes = Bai
 data-download-deny = Ez
 data-download-license = Lizentzia: <licenseLink>CC-0</licenseLink>
 data-other-title = Beste ahots datu-sortak...
+data-other-goto = Joan { $name }-(e)ra
 data-other-download = Deskargatu datuak
+data-other-ted-name = TED-LIUM corpusa
 data-bundle-button = Deskargatu datu-sorta multzoa
 data-bundle-description = Common Voice datuak gehi ondoko ahots datu-sorta guztiak.
 
