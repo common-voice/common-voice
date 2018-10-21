@@ -111,6 +111,7 @@ share-title = Lagun gaitzazu beraien ahotsak utziko dituzten boluntario gehiago 
 share-text = Lagundu makinei irakasten benetako pertsonek nola hitz egiten duten, utzi zure ahotsa hemen: { $link }
 link-copied = Lotura kopiatuta
 back-top = Itzuli gora
+contribution-banner-text = Laguntzeko esperientzia berri bat martxan jarri berri dugu
 contribution-banner-button = Bota begirada bat
 report-bugs-link = Lagun iezaguzu arazoen berri ematen
 
@@ -125,6 +126,7 @@ vote-no = Ez
 speak-subtitle = Utzi zure ahotsa
 speak-goal-text = Grabatutako klipak
 listen-subtitle = Lagun gaitzazu ahotsak balioztatzen
+listen-paragraph = Grabatutako klipak balioztatzea ahotsa uztea bezain garrantzitsua da Common Voicen helbururako. Mesedez, hartu denbora bat entzuteko eta kalitatezko ahots-datu libreak sortzeko.
 listen-goal-text = Balioztatutako klikap
 hours-recorded = Grabatutako orduak
 hours-validated = Balioztatutako orduak
@@ -247,6 +249,7 @@ data-other-download = Deskargatu datuak
 data-other-ted-name = TED-LIUM corpusa
 data-bundle-button = Deskargatu datu-sorta multzoa
 data-bundle-description = Common Voice datuak gehi ondoko ahots datu-sorta guztiak.
+license = Lizentzia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mistoa
 
 ## Record Page
@@ -297,6 +300,10 @@ request-language-success-title = Hizkuntza-eskaera ondo bidali da, eskerrik asko
 
 ## Languages Overview
 
+language-section-in-progress = Aurrerabidean
+language-section-in-progress-description = Aurrerabidean dauden hizkuntzak, gure komunitateak prestatzen ari direnak dira; beraien aurrerabide-mailak webgunea zenbat lokalizatu duten eta esaldi bilketan nola doakien adierazten du.
+language-section-launched = Martxan
+language-section-launched-new-description = Martxan dauden hizkuntza hauetan, webgunea ondo lokalizatu da eta behar beste esaldi bildu dira <italic>Mintzatu</italic> eta <italic>Entzun</italic> ekarpenekin hasteko.
 languages-show-more = Ikusi gehiago
 languages-show-less = Ikusi gutxiago
 language-speakers = Hiztunak
@@ -317,6 +324,7 @@ contribute = Lagundu
 listen = Entzun
 skip = Saltatu
 shortcuts = Lasterbideak
+clips-with-count = <bold>{ $count }</bold> klip
 goal-help-validation = Common Voice lagundu duzu egunero { $goalValue } balidatzeko dugun helburuaren <goalPercentage></goalPercentage> lortzen!
 contribute-more =
     { $count ->
@@ -327,6 +335,7 @@ record-cta = Hasi grabazioa
 record-three-more-instruction = Bagoaz!
 review-tooltip = Berrikusi eta berriz grabatu klipak hemen egin ahala
 review-instruction = Berrikusi eta berriz grabatu klipak beharrezkoa bada
+clips-uploaded = Igotako klipak
 record-abort-submit = Bidali klipak
 record-abort-continue = Bukatu grabazioa
 record-abort-delete = Irten eta ezabatu klipak
