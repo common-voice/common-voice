@@ -119,10 +119,13 @@ report-bugs-link = Lagun iezaguzu arazoen berri ematen
 home-cta = Mintzatu, lagundu hemen!
 show-wall-of-text = Irakurri gehiago
 help-us-title = Lagun gaitzazu esaldiak balioztatzen!
+no-clips-to-validate = Badirudi ez dagoela klip gehiagorik entzuteko hizkuntza honetan. Lagun gaitzazu ilara betetzen grabaketa batzuk orain eginez.
 vote-yes = Bai
 vote-no = Ez
 speak-subtitle = Utzi zure ahotsa
+speak-goal-text = Grabatutako klipak
 listen-subtitle = Lagun gaitzazu ahotsak balioztatzen
+listen-goal-text = Balioztatutako klikap
 hours-recorded = Grabatutako orduak
 hours-validated = Balioztatutako orduak
 read-terms-q = Gure Baldintzak irakurri dituzu?
@@ -160,6 +163,11 @@ request-language-button = Eskatu hizkuntza bat
 
 ## ProjectStatus
 
+status-hours =
+    { $hours ->
+        [one] Ordu bat balioztatu da orain arte!
+       *[other] { $hours } ordu balioztatu dira orain arte!
+    }
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Hurrengo helburua: { $goal }
@@ -200,6 +208,8 @@ edit = Editatu
 email-subscriptions = E-posta harpidetzak
 download-profile = Deskargatu nire datuak
 contribution-experience = Eskarmentua laguntzen
+skip-submission-feedback = Saltatu feedback bidalketa
+skip-submission-note = Oharra: oraindik hautatu beharra duzu Mintzatu eta Entzun artean zure laguntza-mota aldatzeko.
 off = Itzalita
 on = Piztuta
 
@@ -237,15 +247,26 @@ data-other-download = Deskargatu datuak
 data-other-ted-name = TED-LIUM corpusa
 data-bundle-button = Deskargatu datu-sorta multzoa
 data-bundle-description = Common Voice datuak gehi ondoko ahots datu-sorta guztiak.
+license-mixed = Mistoa
 
 ## Record Page
 
+record-must-allow-microphone = Mikrofonoa erabiltzeko baimena eman behar duzu.
 record-retry = Saiatu berriro
 record-no-mic-found = Ez da mikrofonorik aurkitu.
+record-error-too-short = Grabaketa laburregia izan da.
+record-error-too-long = Grabaketa luzeegia izan da.
+record-error-too-quiet = Grabaketa baxuegi entzuten da.
+record-submit-success = Ondo bidali da! Berriro grabatu nahi duzu?
+record-cancel = Ezeztatu berriro grabatzea
 terms-agree = Onartzen dut
 terms-disagree = Ez dut onartzen
+review-aborted = Igotzea bertan behera geratu da. Zure grabaketak ezabatu nahi al dituzu?
+review-submit-title = Berrikusi eta bidali
+review-submit-msg = Eskerrik asko grabatzeagatik!<lineBreak></lineBreak>Orain zure ondoko klipak berrikusi eta bidali.
 review-recording = Berrikusi
 review-rerecord = Grabatu berriro
+review-cancel = Ezeztatu bidalketa
 review-keep-recordings = Mantendu grabazioak
 review-delete-recordings = Ezabatu nire grabazioak
 
@@ -292,9 +313,11 @@ total-hours = Balioztatutako orduak
 
 action-click = Egin klik
 action-tap = Sakatu
+contribute = Lagundu
 listen = Entzun
 skip = Saltatu
 shortcuts = Lasterbideak
+goal-help-validation = Common Voice lagundu duzu egunero { $goalValue } balidatzeko dugun helburuaren <goalPercentage></goalPercentage> lortzen!
 contribute-more =
     { $count ->
         [one] { $count } gehiago egiteko prest?
@@ -302,5 +325,10 @@ contribute-more =
     }
 record-cta = Hasi grabazioa
 record-three-more-instruction = Bagoaz!
+review-tooltip = Berrikusi eta berriz grabatu klipak hemen egin ahala
+review-instruction = Berrikusi eta berriz grabatu klipak beharrezkoa bada
+record-abort-submit = Bidali klipak
 record-abort-continue = Bukatu grabazioa
+record-abort-delete = Irten eta ezabatu klipak
+nothing-to-validate = Ez daukagu ezer balioztatzeko hizkuntza honetan, lagun gaitzazu ilara betetzen.
 record-button-label = Grabatu zure ahotsa
