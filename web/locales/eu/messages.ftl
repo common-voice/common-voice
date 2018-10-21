@@ -351,6 +351,7 @@ record-abort-text = Orain ateratzen bazara egin berri dituzunak galduko dira
 record-abort-submit = Bidali klipak
 record-abort-continue = Bukatu grabazioa
 record-abort-delete = Irten eta ezabatu klipak
+listen-3rd-time-instruction = 2 gutxiago, segi horrela!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Azkena!
 nothing-to-validate = Ez daukagu ezer balioztatzeko hizkuntza honetan, lagun gaitzazu ilara betetzen.
 record-button-label = Grabatu zure ahotsa
