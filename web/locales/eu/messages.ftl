@@ -165,6 +165,8 @@ request-language-button = Eskatu hizkuntza bat
 
 ## ProjectStatus
 
+status-title = Proiektuaren egoera osoa: ikusi zein urrun heldu garen!
+status-contribute = Lagundu zure ahotsarekin
 status-hours =
     { $hours ->
         [one] Ordu bat balioztatu da orain arte!
@@ -254,6 +256,8 @@ license-mixed = Mistoa
 
 ## Record Page
 
+record-platform-not-supported-desktop = Mahaigaineko ordenagailuetan, azkena deskarga dezakezu:
+record-platform-not-supported-ios = <bold>iOS</bold> erabiltzaileek gure app librea deskarga dezakete:
 record-must-allow-microphone = Mikrofonoa erabiltzeko baimena eman behar duzu.
 record-retry = Saiatu berriro
 record-no-mic-found = Ez da mikrofonorik aurkitu.
@@ -332,12 +336,21 @@ contribute-more =
        *[other] { $count } gehiago egiteko prest?
     }
 record-cta = Hasi grabazioa
+record-instruction = { $actionType }<recordIcon></recordIcon> esaldia altuan irakurtzeko
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> egindakoan
 record-three-more-instruction = Bagoaz!
+record-again-instruction = Bikain!<recordIcon></recordIcon> Grabatu zure hurrengo klipa
+record-again-instruction2 = Segi horrela! grabatu berriro <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Azkena!
 review-tooltip = Berrikusi eta berriz grabatu klipak hemen egin ahala
+unable-speak = Ezin duzu mintzatu orain?
 review-instruction = Berrikusi eta berriz grabatu klipak beharrezkoa bada
+record-submit-tooltip = { $actionType } bidali prest egotean
 clips-uploaded = Igotako klipak
+record-abort-text = Orain ateratzen bazara egin berri dituzunak galduko dira
 record-abort-submit = Bidali klipak
 record-abort-continue = Bukatu grabazioa
 record-abort-delete = Irten eta ezabatu klipak
+listen-last-time-instruction = <playIcon></playIcon> Azkena!
 nothing-to-validate = Ez daukagu ezer balioztatzeko hizkuntza honetan, lagun gaitzazu ilara betetzen.
 record-button-label = Grabatu zure ahotsa
