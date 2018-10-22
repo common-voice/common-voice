@@ -1,10 +1,10 @@
 ## Languages
 
-contribute = Bri
+contribute = Tulông
 get-involved-button = Peurôh Droe
-get-involved-title = Bri keu { $lang }
-get-involved-text = Teurimong gaséh ka neumeuripè keu { $lang }. Kamoe bit-bit meuôseuha mangat tiep bahsa jeuet geupeuteubiet ngön mubri haba sabé keu tim röt surat-e. Meunyo Droeneuh meuh'eut neumeuripè, neutuléh surat-e neuh di yup nyoe.
-get-involved-form-title = Dapeuta keu pubarô { $lang }
+get-involved-title = Tulông keu { $lang }
+get-involved-text = Teurimong gaséh ka tém neutulông keu { $lang }. Kamoe bit-bit meuôseuha mangat tiep bahsa jeuet geupeuteubiet ngön meubri haba sabé keu tim röt surat-e. Meunyo droeneuh meuh'eut neumeutulông, neutuléh surat-e droen di yup nyoe.
+get-involved-form-title = Dapeuta keu peubarô { $lang }
 get-involved-email =
     .label = Surat-e
 get-involved-submit = Peuét
