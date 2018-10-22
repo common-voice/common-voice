@@ -56,7 +56,7 @@ Hij had pijn aan zijn arm na de operatie.
 Na die regenbui was hij nat van kop tot teen.
 Zijn paraplu had geen effect in de storm aangezien hij na een paar minuten al stuk was.
 Zelfrijdende auto's kunnen binnenkort dronken passagiers veilig thuis brengen.
-Na het lezen van vele beoordelingen had ze eindelijk haar oog laten vallen op een laptop met een qwerty toetsenbord.
+Na het lezen van vele beoordelingen had ze eindelijk haar oog laten vallen op een laptop met een qwertytoetsenbord.
 Ons moderne alfabet bevat zesentwintig letters in tegenstelling tot het Griekse dat er maar vierentwintig bevat.
 Na zijn wereldreis van een jaar werd het eindelijk tijd om nog eens de kapper te bezoeken zodat zijn familie hem zou herkennen.
 De opluchting was immens toen ze eindelijk haar gouden medaille in de wacht sleepte.
@@ -856,7 +856,7 @@ Er staat een ticketautomaat in het treinstation.
 Er hangt reclame aan de bushalte.
 Het is normaal dat je schrik hebt als je voor de eerste keer een beer in de ogen kijkt.
 Toen ik klein was heb ik leren zwemmen in het zwembad.
-'s zomers ging ik zwemmen in de vijver van mijn buurjongen.
+'s Zomers ging ik zwemmen in de vijver van mijn buurjongen.
 Zaventem en Schiphol zijn twee grote luchthavens.
 In een grootstad moeten verschillende culturen samenleven.
 Het is ver na middernacht en hij liep door de verlaten straten.
@@ -1315,7 +1315,7 @@ Het atoomnummer wordt bepaald door het aantal protonen in de kern.
 In negen etappes van twintig à dertig kilometer trekken ze door het natuurgebied.
 Het traject dat je gekozen hebt is toch niet te onderschatten.
 Hoeveel kilometer per dag moeten we dan wandelen?
-'s ochtends is het altijd warm in mijn tent.
+'s Ochtends is het altijd warm in mijn tent.
 We zijn vorig weekend naar die tentoonstelling geweest.
 Komend weekend gaan we het autosalon bezoeken.
 Ben je zeker dat de lading goed vastgegespt is?
@@ -1375,8 +1375,8 @@ Hij klom omhoog richting de cabine van de kraan.
 Ga je daarna nog verder studeren?
 Zij blaast wel erg hoog van de toren.
 Nu is het hek van de dam.
-'s middags lunchen we in de eetzaal.
-'s zondags brunchen we altijd met onze ouders.
+'s Middags lunchen we in de eetzaal.
+'s Zondags brunchen we altijd met onze ouders.
 Zij is actief bij een studentenvereniging.
 Hij zit bij een studentenclub.
 Zijn repertoire is slechts beperkt.
@@ -1623,7 +1623,7 @@ De wieken van de molen stonden stil.
 Nu komt de aap uit de mouw.
 De lucht ziet helemaal blauw.
 Je blijft hier toch niet staan in de kou?
-'s ochtends zit het gras vol dauw.
+'s Ochtends zit het gras vol dauw.
 Ze trekken beiden aan het touw.
 Het water is nog lauw.
 Ze is zo trots als een pauw.
@@ -2108,7 +2108,7 @@ Een haan en een hen zijn respectievelijk een mannelijke en een vrouwelijke kip.
 Ze speelde viool op een bankje in het stadspark.
 Hij liet zijn plateau op de grond vallen.
 Na een lange reis waarbij je verschillende tijdzones kruist kan je last hebben van een jetlag.
-Één van de vier straalmotoren van het vliegtuig was uitgevallen.
+Eén van de vier straalmotoren van het vliegtuig was uitgevallen.
 Als je bang bent in het donker moet je fluiten.
 Na de kortsluiting viel het licht uit.
 In welk jaar is Steve Jobs gestorven?
@@ -2400,7 +2400,7 @@ Hoeveel megawatt stroom kan die gascentrale produceren?
 Hoeveel terawattuur is er afgelopen jaar geconsumeerd in België?
 Het gemiddelde Belgisch gezin gebruikt jaarlijks drie duizend vijfhonderd kilowattuur aan elektrische energie.
 Er zitten honderd centimeters in een meter.
-Één kubieke meter bevat duizend liter.
+Eén kubieke meter bevat duizend liter.
 Juwelen en sieraden worden vaak gestolen door dieven.
 Je hebt je winkelkar goed volgeladen!
 Vanaf welke leeftijd had je die rimpels?
@@ -2414,7 +2414,7 @@ Ik heb een nieuw moederbord gekocht voor in mijn computer.
 Het wereldrecord op de honderd meter bedraagt minder dan tien seconden.
 Over een paar minuten komt de trein al.
 Tijd op computers wordt vaak uitgedrukt in milliseconden sinds één januari negentienhonderdzeventig.
-Een frequentie wordt gemeten in hertz, oftewel keren per second.
+Een frequentie wordt gemeten in hertz, oftewel keren per seconde.
 Een darmonderzoek wordt vaak uitgevoerd via een sonde die anaal wordt ingebracht.
 Dat zijn parels voor de zwijnen.
 Vanavond speelt Anderlecht tegen Club Brugge.
@@ -2871,8 +2871,8 @@ Bij de rode lichten ga je rechtdoor.
 Geen zorgen, ik heb een vouwfiets bij me.
 Je mag niet zomaar binnen in de milieuzone.
 Ik kon er de ironie wel van inzien.
-De straaljager had nog net voldoende brandstof om  veilig op het vliegdekschip te landen. 
-De medicijnen maakten haar paranoïde. 
+De straaljager had nog net voldoende brandstof om veilig op het vliegdekschip te landen.
+De medicijnen maakten haar paranoïde.
 Hij was een echte vakman.
 Zij werkt met veel liefde voor haar vak.
 De juffrouw en de meester bereidden altijd samen hun lessen voor.
@@ -2881,12 +2881,12 @@ De directrice was streng maar rechtvaardig.
 Hij moest nu beslissen hoe hij verder wou met zijn leven.
 Alleen de waarheid telt.
 Zij heeft een stevige ruggengraat.
-Hij had veel haar op zijn tanden. 
+Hij had veel haar op zijn tanden.
 Vroeger was alles beter.
 Ik verdoe mijn tijd met het beantwoorden van zijn vragen.
 Hij huilde als een klein kind bij het zien van die film.
 De hond zocht tevergeefs naar zijn baasje.
-In de dierentuin hebben we een koala gezien. 
+In de dierentuin hebben we een koala gezien.
 Ze hadden haar verdoofd met een paardenmiddel.
 De bokser lag knock-out op de mat.
 Haar opmerking was de genadeslag.
@@ -2897,7 +2897,7 @@ Ze was in de wolken.
 Het cadeau was te groot om alleen te dragen.
 Het gevolg was dat we het met vier man moesten binnendragen.
 De koerier moest lopen om er nog op tijd te geraken.
-Tot driemaal toe had hij aangebeld. 
+Tot driemaal toe had hij aangebeld.
 Haar repliek kwam als een donderslag bij heldere hemel.
 In het graf hadden ze ook enkele relieken gevonden.
 Met juwelen probeerde hij haar te paaien.
@@ -2951,7 +2951,7 @@ Zeven plus vier is elf.
 Zes keer twee is twaalf.
 Acht min vijf is drie.
 Ik ga beginnen met een aperitiefje.
-De paarden waren op hol geslagen. 
+De paarden waren op hol geslagen.
 Behoedzaam toetste hij de correcte code in.
 Het grind knarste onder zijn voeten en het leek alsof iedere stap een hels kabaal maakte.
 De vlag wapperde in de wind.
@@ -3006,12 +3006,12 @@ Pesticiden kunnen giftig zijn.
 Kan jij figuren zien in de wolken?
 Ik heb mijn vettige handen met zijn zeep gewassen.
 Hij teelde al jarenlang dezelfde gewassen.
-De butler serveerde het eten. 
+De butler serveerde het eten.
 Hun bedrijf bevindt zich in een grijze zone.
 Niemand weet goed wat ze gaan doen met de weeskinderen.
 Er is over een wet gestemd vanmorgen.
 Zij zetelt in het parlement.
-De regering is met spoed samengekomen. 
+De regering is met spoed samengekomen.
 Hij had argwaan en besloot om het contract niet te ondertekenen.
 Mag ik je handtekening?
 Voor hun huis zijn ze een lening van twintig jaar aangegaan.
@@ -3019,7 +3019,7 @@ Het boek was vlot geschreven.
 Zij kon altijd goede verhalen vertellen.
 Het was een spannende achtervolging.
 Ik ben tegen de doodstraf.
-Zij is haar land ontvlucht omdat ze vervolgd werd voor politieke misdaden. 
+Zij is haar land ontvlucht omdat ze vervolgd werd voor politieke misdaden.
 We naderen het einde.
 Er was bijna geen volk in het pretpark dus mochten we tweemaal na elkaar de rit doen.
 Met Pinksteren hebben we een dag vrijaf.
@@ -3041,7 +3041,7 @@ Ik heb iemands leven gered door hem te reanimeren.
 De papieren waren vergeeld door de jaren.
 Een slechte verbranding kan koolstofmonoxide creëren.
 De brandstofpomp was stuk.
-Ze was onoverwinnelijk. 
+Ze was onoverwinnelijk.
 Eenmaal bezig is ze niet meer te stoppen.
 Soms voelde hij zich een vreemde in zijn eigen land.
 Hij had het stopbord niet gezien en reed zonder te kijken het kruispunt op.
@@ -3078,28 +3078,28 @@ Er is een groot verschil tussen hockey en ijshockey.
 De resultaten waren niet goed.
 Hij at de pizza beleefd met mes en vork.
 Is een pizza hawaï een echte pizza?
-In het oerwoud ben je enkel op jezelf aangewezen. 
+In het oerwoud ben je enkel op jezelf aangewezen.
 Ze zeggen dat een duizendtal woorden voldoende is om je in een vreemde taal te behelpen.
 De grens wordt goed bewaakt.
 De veldslag was een smet op het blazoen van de generaal.
 De Titanic is gezonken in negentienhonderdentwaalf.
 Ik heb haar leren kennen op het internaat.
-Ik ging niet zo graag naar de kostschool. 
+Ik ging niet zo graag naar de kostschool.
 De akkers lagen er verlaten bij.
 Door de lange droogte was een groot deel van de oogst mislukt.
 De graanschuren zitten volledig vol.
 Bij het herlezen heb ik nog een aantal dubbele spaties ontdekt.
 Ze is gevallen op de schaatsbaan.
-Mijn buurvrouw is aan het klagen. 
-Mijn buurman maait altijd het gras op zondag. 
-De honden blaffen in de verte. 
+Mijn buurvrouw is aan het klagen.
+Mijn buurman maait altijd het gras op zondag.
+De honden blaffen in de verte.
 De weerwolf is enkel actief als het volle maan is.
 Ik krijg betaald op het einde van de maand.
 Het was een moeilijke periode, maar hij is veerkrachtig.
 Hij is altijd gelukkig.
 Zij is altijd goedgehumeurd 's ochtends.
 Hij is altijd positief.
-Zij zegt nooit iets negatief over anderen. 
+Zij zegt nooit iets negatief over anderen.
 Complimenten geven is zijn specialiteit.
 Zij heeft hem opgebeurd.
 De vleermuis vloog door de donkere grot.
@@ -3114,7 +3114,7 @@ Ik heb mijn ziel aan de duivel verkocht.
 Ik zocht een lucifer om het vuur aan te steken.
 De glas in lood ramen lieten niet veel licht binnen.
 Ben je van Charleroi afkomstig?
-Kortrijk is te ver. 
+Kortrijk is te ver.
 Kunnen we niet ergens anders afspreken?
 Sint-Niklaas ligt ten westen van Antwerpen.
 Waar ligt Doornik?
@@ -3131,7 +3131,7 @@ Wie is de burgemeester van Tilburg?
 Almere ligt in Flevoland.
 Groningen de gemeente of Groningen de provincie?
 Breda ligt in Noord-Brabant.
-Nijmegen en Apeldoorn liggen beide in Gelderland. 
+Nijmegen en Apeldoorn liggen beide in Gelderland.
 Haarlem is net groter dan Enschede.
 Rond Arnhem is veel gevochten in de Tweede Wereldoorlog.
 Wie heeft de verkiezingen gewonnen in Amersfoort?
@@ -3155,7 +3155,7 @@ Kan dat met Uber Eats of heb je liever Deliveroo?
 Voor mij een burger of Chinees.
 We kunnen ook voor Thais gaan.
 Nee, doe toch maar Italiaans.
-Ok, in dat geval neem ik de spaghetti carbonara. 
+Ok, in dat geval neem ik de spaghetti carbonara.
 Ik neem een lasagne.
 De tent ligt klaar in de garage.
 Past onze luchtmatras erin?
@@ -3171,7 +3171,7 @@ Prima, dan zal ik ze daar gaan zoeken.
 Neem je ook meteen wat koekjes mee?
 Ik heb nog ergens kampeermaaltijden en een kampingvuurtje liggen.
 Ik zal die meenemen.
-Je hebt toch nog relatief snel extra informatie gevonden. 
+Je hebt toch nog relatief snel extra informatie gevonden.
 Ja ik heb het gevonden op Google.
 Je hebt ook zoekmachines die beter zijn voor je privacy zoals DuckDuckGo.
 Misschien moet je die eens overwegen.
@@ -3197,7 +3197,7 @@ In onze badkamer hebben we handzeep van Sunlight staan.
 Samen zetten we zijn levenswerk voort.
 Kan je de serie even op pauze zetten?
 Ik heb het gepauzeerd.
-Je bent niet zo gezond bezig. 
+Je bent niet zo gezond bezig.
 Je moet wat meer gaan sporten.
 Ik eet al meer groenten en fruit tegenwoordig.
 Dat is al een goed begin.
@@ -3213,7 +3213,7 @@ Ik ben even naar buiten gelopen om wat frisse lucht in te ademen.
 Na een paar dagen zoeken hadden de duikers het wrak gevonden.
 Het schip was gezonken na een zware storm.
 Het is kwart over vier.
-Het is kwart voor drie. 
+Het is kwart voor drie.
 Om half negen heb ik een afspraak bij de dokter.
 Ik vertrek om twintig over twaalf.
 Begint het al om vijf voor elf?
@@ -3221,7 +3221,7 @@ Om twee over twee geven ze het startschot.
 Over drie minuten begint het.
 Nog twee uur te gaan.
 Het is vijf voor half acht.
-Het is tien over acht. 
+Het is tien over acht.
 Nu is het achttien uur dertig.
 We hebben onze vlucht om tien over zeven 's ochtends.
 De bus vertrekt stip om zestien over drie.
@@ -3231,13 +3231,13 @@ Er is een trein om het kwartier.
 Het is belangrijk om op tijd te komen.
 Je wilt toch geen slechte indruk maken.
 Er lag een laag stof op de meubels.
-Het was duidelijk een oud huis. 
+Het was duidelijk een oud huis.
 De motten hadden gaten gemaakt in de gordijnen.
 De vloer kraakte als je erover liep.
-Als kind hadden zijn ouders hem leren schaatsen. 
+Als kind hadden zijn ouders hem leren schaatsen.
 Hoeveel sprekers zou je nodig hebben om met artificiële intelligentie een goede spraakassistent te kunnen bouwen?
 Je hebt in ieder geval minstens tienduizend uur aan gesproken tekst nodig.
-Maar je kunt het dan ook gebruiken om bijvoorbeeld ondertitels aan films toe te voegen. 
+Maar je kunt het dan ook gebruiken om bijvoorbeeld ondertitels aan films toe te voegen.
 Het is wel zo dat woorden die in de data zitten beter herkent worden.
 Daarom is het noodzakelijk om zo veel mogelijk verschillende woorden toe te voegen.
 Ook vervoegingen zijn belangrijk want ik loop is een ander woord dan ik liep.
@@ -3266,7 +3266,7 @@ Jazz is zijn favoriete genre.
 Ga je dit jaar naar Pukkelpop?
 Nee ik ga naar Werchter.
 Ja, Tomorrowland is twee weekends.
-Na de aanvaring was hun sloep brandhout. 
+Na de aanvaring was hun sloep brandhout.
 Het regent pijpenstelen.
 Waar zijn de toiletten?
 Wat is een totempaal?
@@ -3386,14 +3386,14 @@ Nadat we de kerstboom hadden gehaald zijn we de hele middag bezig geweest met he
 Malta is een eiland.
 Hoort Gibraltar bij het Verenigd Koninkrijk?
 Marokko ligt aan de andere kant.
-Dat is maar het topje van de ijsberg. 
+Dat is maar het topje van de ijsberg.
 IJsberen hebben het almaar moeilijker om voedsel te vinden.
 Er zijn nu al verschillende schepen die de tocht rond Canada succesvol hebben gemaakt.
 Op volle kracht voer de ijsbreker verder.
 Liggen er ijsblokjes in de diepvries?
 Er staat een karton melk in de koelkast.
 Vanavond eten we diepvriespizza.
-Kan je mij de Nutella even aangeven? 
+Kan je mij de Nutella even aangeven?
 Er mag nog wat nootmuskaat bij.
 Onze gedachten zijn bij de familie.
 De begrafenisondernemer maande ons aan om door te gaan.
@@ -3402,7 +3402,7 @@ Ken jij alle hoofdsteden van Europa?
 Ankara is de hoofdstad van Turkije.
 Hij bengelde aan het touw.
 Het lokaal stond vol computerapparatuur.
-Ik ben mijn MacBook kwijt. 
+Ik ben mijn MacBook kwijt.
 Het scherm blijft zwart.
 Mijn computer start niet meer op.
 Ik denk dat mijn harde schijf om zeep is.
@@ -3412,14 +3412,14 @@ Mijn grafische kaart is van Nvidia.
 Heb jij bitcoins?
 Ik heb haar geklopt in de spurt.
 De spits was te snel voor mij.
-Voor haar katten was dit een waar paradijs. 
+Voor haar katten was dit een waar paradijs.
 Max keek mij recht in de ogen.
 Heeft Eva gelogen?
 Esther is vorige week begonnen op ons kantoor.
 Pieter speelt ook tennis.
 Ine speelt beter dan ik.
 Kobe kan een vliegtuig besturen.
-Ken jij Jonas? 
+Ken jij Jonas?
 Zou ik mijn bestelling nog kunnen aanpassen?
 Ik ga eerst je maten nemen.
 Dat stuk grond moet nog opgemeten worden.
@@ -3446,7 +3446,7 @@ Het is de A van Alfa Romeo.
 Het is de B van Bugatti.
 Het is de C van Chevrolet.
 Het is de D van Daimler, Dacia of Dodge.
-Het is de E van Eagle. 
+Het is de E van Eagle.
 Het is de F van Ferrari, Ford of Fiat.
 Het is de G van Gazelle.
 Het is de H van Honda of Hyundai.
@@ -3491,7 +3491,7 @@ De E313 en de E314 kruisen in Lummen.
 De A12 loopt parallel aan de E19.
 De A2 loopt parallel aan de Maas in Limburg.
 Volg de A1 richting Amsterdam.
-Via de A4 kan je naar Schiphol. 
+Via de A4 kan je naar Schiphol.
 Dit tafereel is onbeschrijfbaar.
 Met behulp van een teletijdmachine kon hij terugkeren naar de middeleeuwen.
 Aarzel niet om mij te bellen als er iets is.
@@ -3510,7 +3510,7 @@ Gelukkig kon hij het vuur doven met een brandblusser.
 Ik heb mijn curriculum vitae opgestuurd per post.
 We hebben verschillende musea bezocht.
 Ik ga nog even wat water halen.
-Één halen, twee betalen.
+Eén halen, twee betalen.
 Kan je werken met Word of PowerPoint?
 Ik heb er een litteken aan overgehouden.
 Ken je de hoofdwetten van de thermodynamica?
@@ -3519,23 +3519,23 @@ Kracht is massa maal versnelling volgens Newton.
 Hij voelde zich niet op zijn gemak in het donker.
 Zij is heel sociaal.
 Hij is een introvert persoon.
-Zij is een extravert persoon. 
-Als je goed je best doet krijg je een extraatje. 
+Zij is een extravert persoon.
+Als je goed je best doet krijg je een extraatje.
 Kan je mij horen?
 Volgens mij werkt Skype niet meer.
 Je kan het werk hervatten.
 Er zit ruis op de lijn.
 Je moet de knop omdraaien.
 Kan je het volume hoger zetten?
-Het volume staat te laag. 
+Het volume staat te laag.
 De versterker heeft de geest gegeven.
 Een cel slaat energie op in de mitochondriën.
 Als je over je limiet gaat verzuren je spieren.
-De beul liep naar de galg. 
+De beul liep naar de galg.
 De pakkans is te laag.
 We gaan het debiet verhogen.
 De groeicijfers gaan in een stijgende lijn.
-Kan je nog wat maandverband kopen? 
+Kan je nog wat maandverband kopen?
 De tampons zijn op.
 Mijn vrouw werkt bij een uitzendbureau.
 Mijn man werkt in een bouwbedrijf.
@@ -3546,7 +3546,7 @@ Elektrische fietsen winnen aan populariteit.
 Hun succes blijft maar duren.
 Er gaat een tijd komen waarin er geen poolijs meer is in de zomer.
 Groenland heeft maar een vijftigduizend inwoners.
-Je moet soms gewoon pragmatisch zijn. 
+Je moet soms gewoon pragmatisch zijn.
 Hij is een felle aanhanger van die ideologie.
 Eindelijk terug naar de beschaving.
 Speel je soms squash?
@@ -3578,22 +3578,22 @@ Het Christendom is een monotheïstische godsdienst.
 Is Frans een Romaanse taal?
 Het Romeinse Rijk strekte zich uit van Noord-Afrika tot West-Europa.
 Monaco is een stadstaat.
-Zijn vader had een mooie jacht. 
+Zijn vader had een mooie jacht.
 Wat voor een lens heb je gekocht?
 Crème brûlé is mijn favoriete dessert.
-Mijn mama maakt altijd heerlijke tiramisu. 
+Mijn mama maakt altijd heerlijke tiramisu.
 Ik lust wel een dame blanche.
 Met dit winterweer heb ik zin in een warme appeltaart.
 De bakker had verse kersentaart gemaakt.
 Kan je me twee sneden brood geven?
-In de bakkerij rook het naar vers gebakken brood. 
+In de bakkerij rook het naar vers gebakken brood.
 De slager gaf het kind een stukje worst.
-Ze kochten hun melk altijd rechtstreeks van de boer. 
+Ze kochten hun melk altijd rechtstreeks van de boer.
 Iedere ochtend stond de boerin op om de koeien te melken.
 Ze had dat pikante detail nooit verteld.
 De saus was te pikant.
-Er mogen nog wat kruiden in de puree. 
-Het aantal politieagenten was buiten proportie. 
+Er mogen nog wat kruiden in de puree.
+Het aantal politieagenten was buiten proportie.
 Banken moeten zich melden bij de nationale bank.
 Ik heb een nieuwe keuken gekocht op krediet.
 Hoeveel kredietkaarten heb jij?
@@ -3616,7 +3616,7 @@ Ik heb een klavertje vier gevonden.
 Naar het schijnt brengt een klavertje vier geluk.
 Ze hield zich vast aan de steunpilaar.
 Ze kon het zware gewicht niet meer dragen.
-Ze struikelde maar kon zich nog net overeind houden. 
+Ze struikelde maar kon zich nog net overeind houden.
 Hij was moe van de lange tocht.
 De dief kon vluchten via het dak.
 Ze heeft de kleur veranderd met een natuurlijk pigment.
@@ -3627,13 +3627,13 @@ Er zat een arend in de toren van de kerk.
 De uitdaging was aartsmoeilijk.
 Door de stress kon ik mij niet concentreren.
 De politie vergroot het zoekgebied stelselmatig.
-De figuur bestond uit een reeks concentrische cirkels. 
+De figuur bestond uit een reeks concentrische cirkels.
 Een kompas duidt steeds het noorden aan.
 Mijn gsm heeft een gyroscoop.
 Urenlang wist hij het zweefvliegtuig met thermiek in de lucht te houden.
 Ik zou nooit een kantoorbaan kunnen doen.
 Het team had in een half jaar het project voltooid.
-Zij is een echte teamspeler. 
+Zij is een echte teamspeler.
 De frisse lucht doet mij deugd.
 Haar ouders hebben de geldkraan dichtgedraaid.
 De temperatuur is terug gezakt.
@@ -3647,7 +3647,7 @@ Met veel kracht duwde hij zich vooruit over de schaatsbaan.
 Hij was evenzeer behendig in de bochten.
 Pff, jongens en hun haantjesgedrag.
 Er stak een nagel uit aan de stoel en nu zat er een groot gapend gat in mijn broek.
-Het doet me plezier te zien dat hij zo enthousiast is over zijn nieuwe functie. 
+Het doet me plezier te zien dat hij zo enthousiast is over zijn nieuwe functie.
 Ik had heimwee naar de schoonheid van een lang vervlogen tijd.
 Hoeveel dingen kan je tegelijkertijd in je geheugen houden?
 Ik heb het boodschappenlijstje in mijn hoofd geprent.
@@ -3659,13 +3659,13 @@ We moeten allemaal zelfverzekerd overkomen.
 Een vrouw in een rode jurk zingt op het podium, tezamen met drie mannen die instrumenten bespelen.
 Bedankt om dit luidop te zeggen.
 Je hebt een mooie stem.
-Zou je nog een paar zinnen kunnen lezen voor mij? 
+Zou je nog een paar zinnen kunnen lezen voor mij?
 Alle wegen leiden naar Rome.
 Volg het jaagpad dat naast het kanaal ligt.
 Na een elegante sprong landde hij zacht aan de andere kant van de greppel.
 Er stroomt helder water in de beek en je kan de vissen zien zwemmen.
 Hoeveel geduld heb je?
-U heeft geen toestemming om hier te komen. 
+U heeft geen toestemming om hier te komen.
 Maar in plaats van droevig te zijn besloot hij zijn gedachten op iets anders te richten.
 Een mooie armband heb je daar.
 Ze beet in het gouden muntstuk.
@@ -3684,7 +3684,7 @@ Er zat een duif op het hoofd van het standbeeld.
 De tent was nochtans goed verankerd.
 De stormkoorden braken alsof het spaghettislierten waren.
 In sommige landen mag je geen kraantjeswater drinken.
-Er kunnen bacteriën in het water zitten. 
+Er kunnen bacteriën in het water zitten.
 Virussen kunnen je ziek maken.
 Antibiotica werkt niet tegen virussen.
 Wormen en Trojaanse paarden zijn voorbeelden van virussen.
@@ -3698,7 +3698,7 @@ Waar ligt de Rode Zee?
 Nog twee dagen in Europa en dan steken we terug de Atlantische Oceaan over.
 De leerkracht maande hen aan om stil te zijn.
 Zijn jullie alweer aan het bekvechten?
-Stop nu toch eens met kibbelen! 
+Stop nu toch eens met kibbelen!
 We moeten nog ruwweg vier kilometer wandelen.
 Ik kan het niet meer aan.
 Je mag geen dubbele ontkenning gebruiken.
@@ -3706,21 +3706,21 @@ Door altijd dezelfde zinnen en woorden te gebruiken kan je kunstmatig de precisi
 Toch moet je een gevarieerde woordenschat in je testdata stoppen.
 Welke data zouden jullie kunnen?
 We moeten haar snel opereren.
-Ze heeft een blindedarmontsteking. 
+Ze heeft een blindedarmontsteking.
 Het is belangrijk dat we er nu snel bij zijn.
 De laptop lag op mijn schoot.
-Verveeld bladerde ik door het boek. 
+Verveeld bladerde ik door het boek.
 Zijn blik dwaalde af naar het afgebrande huis.
 Dat had ik je toch al gezegd.
 In mijn vrije tijd knutselde ik in de garage.
 Ik heb je diploma gevonden in een doos op de zolder.
 Geloof je hem nu echt?
-In tegenstelling tot hem ben ik wel betrouwbaar. 
+In tegenstelling tot hem ben ik wel betrouwbaar.
 Ik kon niet veel herkennen in het schilderij.
 Dat is weer zo'n geval van artistieke vrijheid.
 Ik ga de dorre bladeren van de boom knippen.
 Je moet de aloë vera wekelijks water geven.
-Er staat een palmboom in de tuin. 
+Er staat een palmboom in de tuin.
 Pak je even een sponsje voor mij?
 Wat peterselie erop zou het nog beter maken.
 Er mist nog een detail.
@@ -3731,7 +3731,7 @@ Tirana is de hoofdstad van Albanië.
 Ik kan vijftig keer pompen.
 Ze ergert zich aan de trage computer.
 Mijn oude tablet creëert enkel ergernissen.
-De bloempot is gebarsten nadat hij op de grond viel. 
+De bloempot is gebarsten nadat hij op de grond viel.
 Voor een cappuccino gebruik je enkel volle melk.
 Is dat zelfgemaakte chocoladesaus?
 Er staan wieltjes onder alle meubels.
@@ -3741,7 +3741,7 @@ Ik heb nog wat rum staan in de kast.
 Er mag nog een lepeltje suiker bij.
 Ik heb zelf een cake gebakken.
 Doe mij maar een ijsje op een hoorntje.
-Één bol vanille en één bol stracciatella.
+Eén bol vanille en één bol stracciatella.
 Apen eten pindanootjes en bananen.
 Dat was een harde noot om te kraken.
 Mag ik nog een stuk pizza?
@@ -3750,7 +3750,7 @@ Dat was een fikse regenbui.
 Pas op voor die naaktslak.
 Ik vind de koffie van Nespresso wel lekker eigenlijk.
 Thuis hebben we een Senseo staan.
-Ik had hem niet herkent want hij was niet goed zichtbaar in de schaduw. 
+Ik had hem niet herkent want hij was niet goed zichtbaar in de schaduw.
 Steek het brood maar in de broodtrommel.
 De plint zat vastgenageld in de muur.
 De schutter kon ongezien wegkomen.
@@ -3772,7 +3772,7 @@ Kan je de oven even voorverwarmen?
 In de namiddag volgen er opklaringen.
 Er hangt mist in de vallei.
 Het is maar een griezelig huis.
-Ik krijg er kippenvel van. 
+Ik krijg er kippenvel van.
 Ik leun tegen de balustrade.
 De rook van mijn buurman waaide in mijn gezicht.
 Er zit een draaiknop aan de linkerkant.
@@ -3806,7 +3806,7 @@ De beschuldigde heeft schuldig gepleit.
 Ik zou die opsomming laten inspringen.
 Ik zou hier die tabel invoegen.
 Naarstig werkte hij verder alsof er niets was gebeurd.
-Ik heb daar een app voor op mijn telefoon. 
+Ik heb daar een app voor op mijn telefoon.
 Mijn speekselklieren zijn gezwollen.
 Iedere week ga ik naar de fitness.
 Dit is de steilste afdaling die ik ooit gezien heb.
@@ -3817,7 +3817,7 @@ Ik kan je een Leffe of een Grimbergen aanbieden.
 Heb je ook een Heineken?
 Ik train altijd mijn buikspieren.
 Met gewichten oefen ik mijn armspieren.
-'s avonds lig ik een vijftal minuten in een plankhouding om mijn spieren te versterken.
+'s Avonds lig ik een vijftal minuten in een plankhouding om mijn spieren te versterken.
 Ze had een krachtige handdruk.
 Hij heeft een mooi figuur.
 Ze zouden eens wat meer liedjes moeten draaien op de radio in plaats van altijd dat commentaar.
