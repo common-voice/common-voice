@@ -139,6 +139,8 @@ profile-form-accent =
     .label = Accent
 profile-form-age =
     .label = Atge
+native-language =
+    .label = Lenga mairala
 profile-form-submit-save = Enregistrar
 # Gender
 other = Autre
