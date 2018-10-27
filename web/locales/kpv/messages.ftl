@@ -148,17 +148,23 @@ profile-form-age =
     .label = Арлыд
 profile-form-gender =
     .label = Пӧв
+native-language =
+    .label = Чужан кыв
 profile-form-submit-save = Видз
 profile-form-submit-saved = Видзӧма
+profile-delete-data = Чышкы даннӧйяс
 male = ай
 female = энь
 # Gender
-other = Мӧд
+other = Мукӧд
 why-profile-title = Мыйла ас листбок?
 edit-profile = Пырт вежсьӧмъяс ас листбокӧ
 profile-create = Вӧч ас листбок
 profile-create-success = Артмис вӧчны ас листбок!
 profile-close = Пӧдлав
+edit = Веж
+download-profile = Босьт датаӧй
+off = Кусӧдны
 
 ## FAQ
 
