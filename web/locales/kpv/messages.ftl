@@ -78,6 +78,7 @@ tt = Тотара кыв
 uk = Украин кыв
 ur = Урду кыв
 uz = Узбек кыв
+vi = Виет кыв
 zh-CN = Китай кыв (Китай)
 zh-TW = Китай кыв (Тайвань)
 
@@ -114,6 +115,7 @@ listen-subtitle = Отсав миянлы видлавны шыяс.
 listen-goal-text = Аудио юкӧнъяс видлалӧма.
 hours-recorded = Часъяс гижӧма
 hours-validated = Часъяс видлалӧма.
+read-terms-q = Ті лыддинныд нин миян Сёрнитчӧмнымӧс?
 ready-to-record = Дась сетны ас гор?
 all-languages = Став кывъяс
 today = Талун
@@ -133,6 +135,8 @@ request-language-button = Сет корӧм кыв вылӧ
 
 ## ProjectStatus
 
+status-title = Видзӧдлы проектлысь статус: кымын вӧчӧма нин!
+status-contribute = Пырт ассьыд гор
 english = Англискӧйӧн
 
 ## ProfileForm
@@ -152,19 +156,24 @@ native-language =
     .label = Чужан кыв
 profile-form-submit-save = Видз
 profile-form-submit-saved = Видзӧма
+profile-keep-data = Коль даннӧйяс
 profile-delete-data = Чышкы даннӧйяс
 male = ай
 female = энь
 # Gender
 other = Мукӧд
 why-profile-title = Мыйла ас листбок?
+why-profile-text = Сетан кӧ ас йывсьыд информация, аудио юӧръяс, кодӧс сетан Common Voice вылӧ, ёнджыка отсалӧ Сёрни Гӧгӧрвоан системаяслы, кодъяс вӧдитчыны тайӧ юӧръясӧн медым бурмӧдны налысь стӧчлунсӧ.
 edit-profile = Пырт вежсьӧмъяс ас листбокӧ
 profile-create = Вӧч ас листбок
 profile-create-success = Артмис вӧчны ас листбок!
 profile-close = Пӧдлав
+why-demographic = Мыйла тайӧ колӧ?
 edit = Веж
+email-subscriptions = Email гижӧдчӧм
 download-profile = Босьт датаӧй
 off = Кусӧдны
+on = Ӧзтыны
 
 ## FAQ
 
@@ -174,6 +183,7 @@ faq-important-q = Мыйля сійӧ колана?
 faq-get-q = Кыдз ме верма пай пуктыны Common Voice вылӧ?
 faq-mission-q = Муйла Common Voice пырӧ Mozillaлӧн уджӧ?
 faq-quality-q = Кутшӧм тшупӧд вылын аудиолы колӧ лоны медым сійӧс позьӧ вӧдитчыны?
+faq-hours-q = Мыйла колӧ чукӧртны 10 000 час аудио юӧръяс?
 
 ## Profile
 
