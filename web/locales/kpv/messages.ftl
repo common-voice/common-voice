@@ -80,6 +80,7 @@ ur = Урду кыв
 uz = Узбек кыв
 vi = Виет кыв
 zh-CN = Китай кыв (Китай)
+zh-HK = Китай кыв (Гонконг)
 zh-TW = Китай кыв (Тайвань)
 
 # [/]
@@ -98,9 +99,11 @@ privacy = Арабӧн
 terms = Удж тэчан ног
 cookies = Кукияс
 content-license-text = Материал восьтӧма <licenseLink>Creative Commons</licenseLink> лицензия подув вылын.
+share-title = Отсав миянӧс аддзыны мӧдъяс медым сетны аслысь гор.
 link-copied = Ыстӧд копируйтӧма
 back-top = Косны
 contribution-banner-button = Видзӧдышт
+report-bugs-link = Отсав репортируйтны бугъяс
 
 ## Home Page
 
@@ -184,6 +187,8 @@ faq-get-q = Кыдз ме верма пай пуктыны Common Voice вылӧ
 faq-mission-q = Муйла Common Voice пырӧ Mozillaлӧн уджӧ?
 faq-quality-q = Кутшӧм тшупӧд вылын аудиолы колӧ лоны медым сійӧс позьӧ вӧдитчыны?
 faq-hours-q = Мыйла колӧ чукӧртны 10 000 час аудио юӧръяс?
+faq-hours-a = Та мында кымын час колӧ медым велӧдны бура уджавны Сёрни Гӧгӧрвоан система.
+faq-source-q = Кытысь босьтӧма гижӧдъяс?
 
 ## Profile
 
@@ -192,17 +197,25 @@ profile-why-title = Мыйла ас листбок?
 ## NotFound
 
 notfound-title = Эз аддзы
+notfound-content = Ме пола мый ог гӧгӧрво мый ті корсянныд.
 
 ## Data
 
+data-download-button = Босьтны Common Voice юӧр.
 data-download-yes = Да
 data-download-deny = Ог
 data-download-license = Лисенция: <licenseLink>CC-0</licenseLink>
+data-get-started = Пондыны уджавны Сёрни Гӧгӧрвоан системаӧн.
+data-other-title = Мукӧд аудио юӧръяс.
 data-other-goto = Мун { $name } вылӧ
+data-other-download = Босьт дата
 data-other-ted-name = TED-LIUM корпус
+license = Сёрнитчӧм: <licenseLink>{ $license }</licenseLink>
+license-mixed = Гудралӧм
 
 ## Record Page
 
+record-platform-not-supported = Тэнад платформ оз на лӧсяв.
 record-retry = Видлы выльысь
 record-no-mic-found = Микрофон абу аддзӧма.
 record-error-too-short = Гижӧд вывти дзеньыд.
