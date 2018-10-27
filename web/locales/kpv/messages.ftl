@@ -12,6 +12,7 @@ submit-form-action = Ысты
 
 ## Languages
 
+ace = Ачех кыв
 an = Арагон кыв
 ar = Араб кыв
 as = Ассам кыв
@@ -22,6 +23,7 @@ br = Брезон кыв
 bxr = Бурят кыв
 ca = Каталан кыв
 cak = Какчикель кыв
+cnh = Хака чин кыв
 cs = Чех кыв
 cv = Чуваш кыв
 cy = Кӧмри кыв
@@ -53,15 +55,19 @@ ko = Корея кыв
 kpv = Коми кыв
 kw = Керновса кыв
 ky = Кыргыз кыв
+mdf = Мокша кыв
 mk = Македон кыв
+mn = Монгол кыв
 myv = Эрзя кыв
 nb-NO = Норвег кыв (букмол)
 ne-NP = Непал кыв
 nl = Нидерланд кыв
 nn-NO = Норвег кыв (нюношк)
+oc = Окситан кыв
 or = Одиа кыв
 pl = Поляк кыв
 pt-BR = Португал кыв (Бразилия)
+rm-sursilv = Сурселваса Романш
 ro = Румын кыв
 ru = Роч кыв
 sah = Саха кыв
@@ -140,6 +146,11 @@ request-language-button = Сет корӧм кыв вылӧ
 
 status-title = Видзӧдлы проектлысь статус: кымын вӧчӧма нин!
 status-contribute = Пырт ассьыд гор
+status-hours =
+    { $hours ->
+        [one] Ӧтик час нин видлӧма!
+       *[other] { $hours } час нин видлӧма!
+    }
 english = Англискӧйӧн
 
 ## ProfileForm
@@ -263,7 +274,10 @@ listen = Кывзы
 skip = Вуджӧм
 shortcuts = Дзеньдӧдӧмъяс
 record-cta = Заводит гижны
+record-three-more-instruction = Нӧшта куим!
 record-last-instruction = Медбӧръя!
+unable-speak = Он вермы ӧні сёрнитны?
+clips-uploaded = Аудио клипъяс ыстӧма
 record-abort-continue = Дугды гижны
 listen-last-time-instruction = Медбӧръя!
 record-button-label = Гиж тэнад гор
