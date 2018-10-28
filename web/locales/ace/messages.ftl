@@ -105,6 +105,10 @@ contact = Kontak
 privacy = Privasi
 terms = Syarat
 cookies = Kuki
+faq = Tanyöng Seuôt
+share-text = Bantu peurunoe meusén pakriban ureueng geumarit, neujôk su droeneuh bak { $link }
+link-copied = Peunawôt Geusalén
+back-top = Gisa u Ateueh
 
 ## Home Page
 
