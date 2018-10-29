@@ -15,6 +15,40 @@ loading = Po ngarkohet…
 
 ## Languages
 
+ar = Arabisht
+el = Greqisht
+en = Anglisht
+eo = Esperanto
+es = Spanjisht
+et = Estonisht
+fa = Persisht
+fi = Finlandisht
+fo = Faroeze
+fr = Frëngjisht
+ga-IE = Irlandisht
+he = Hebraisht
+hu = Hungarisht
+ia = Interlingua
+id = Indonezisht
+is = Islandisht
+it = Italisht
+ja = Japonisht
+mk = Maqedonisht
+mn = Mongolisht
+nb-NO = Norvegjisht Bokmål
+nl = Holandisht
+nn-NO = Norvegjisht Nynorsk
+pl = Polonisht
+pt-BR = Portugalisht (Brazil)
+ro = Rumanisht
+ru = Rusisht
+sk = Sllovakisht
+sl = Sllovenisht
+sq = Shqip
+sr = Serbisht
+sv-SE = Suedisht
+tr = Turqisht
+vi = Vietnamisht
 
 # [/]
 
@@ -22,7 +56,9 @@ loading = Po ngarkohet…
 ## Layout
 
 speak = Flisni
+speak-now = Flisni tani
 datasets = Grupe të dhënash
+languages = Gjuhë
 profile = Profil
 help = Ndihmë
 contact = Kontakt
@@ -32,6 +68,9 @@ cookies = Cookies
 faq = FAQ
 content-license-text = Lëndë e përdorshme sipas një <licenseLink>licence Creative Commons</licenseLink>
 share-title = Nidhmonani të gjejmë të tjerë dhurues të zërit të tyre!
+link-copied = Lidhja u Kopjua
+back-top = Mbrapsht te Kreu
+contribution-banner-button = Hidhini një sy
 
 ## Home Page
 
@@ -45,6 +84,30 @@ wall-of-text-more-desktop =
 show-wall-of-text = Lexoni Më Tepër
 help-us-title = Ndihmonani të vleftësojmë fjali!
 help-us-explain = Shtypni Play, dëgjoni & na thoni: a e shqiptuan saktë fjalinë më poshtë?
+vote-yes = Po
+vote-no = Jo
+speak-subtitle = Dhuroni zërin tuaj
+hours-recorded = Orë Incizim
+hours-validated = Orë të Vleftësuara
+read-terms-q = I keni lexuar Kushtet tona?
+ready-to-record = Gati të dhuroni zërin tuaj?
+all-languages = Krejt Gjuhët
+today = Sot
+x-weeks-short =
+    { $count ->
+        [one] Javë
+       *[other] { $count } javë
+    }
+x-months-short =
+    { $count ->
+        [one] { $count }m
+       *[other] { $count }m
+    }
+x-years-short =
+    { $count ->
+        [one] { $count }v
+       *[other] { $count }v
+    }
 
 ## Speak & Listen Shortcuts
 
@@ -69,9 +132,11 @@ status-hours =
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Objektivi i Ardhshëm: { $goal }
+english = Anglisht
 
 ## ProfileForm
 
+profile-form-delete = Fshini Profil
 profile-form-username =
     .label = Emër Përdoruesi
 profile-form-language =
@@ -82,6 +147,23 @@ profile-form-age =
     .label = Moshë
 profile-form-gender =
     .label = Gjini
+native-language =
+    .label = Gjuhë Amtare
+profile-form-submit-save = Ruaje
+profile-form-submit-saved = U ruajt
+male = Mashkull
+female = Femër
+# Gender
+other = Tjetër
+why-profile-title = Ç’duhet profili?
+edit-profile = Përpunoni Profil
+profile-create = Krijoni profil
+profile-create-success = Sukses, profili u krijua!
+profile-close = Mbylle
+edit = Përpunoni
+email-subscriptions = Pajtime Me Email
+off = Off
+on = On
 
 ## FAQ
 
@@ -119,6 +201,8 @@ notfound-content = Kam frikë s’e nuk di se ç’po kërkoni.
 ## Data
 
 data-download-button = Shkarkoni të Dhëna Common Voice
+data-download-yes = Po
+data-download-deny = Jo
 data-download-license = Licencë: <licenseLink>CC-0</licenseLink>
 data-download-modal = Ju ndan një hap nga fillimi i shkarkimit të <size>{ $size }GB</size>, të vazhdohet?
 data-subtitle = Po krijojmë një grup të dhënash zanore me burim të hapur dhe publike të cilat mund t’i përdorë gjithkush për stërvitje aplikacionesh që funksionojnë përmes të folurës.
@@ -142,6 +226,8 @@ record-platform-not-supported = Na ndjeni, por platforma juaj nuk mbulohet ende.
 record-platform-not-supported-desktop = Në kompjuter dekstop mund të shkarkoni versionin më të ri:
 record-platform-not-supported-ios = Përdorues të <bold>iOS</bold> mund të shkarkojnë aplikacionin tonë falas:
 record-must-allow-microphone = Duhet të lejoni përdorimin e mikrofonit.
+record-retry = Riprovoni
+record-no-mic-found = S’u gjet mikrofon.
 record-error-too-short = Incizimi qe shumë i shkurtër.
 record-error-too-long = Incizimi qe shumë i gjatë.
 record-error-too-quiet = Volumi i zërit në incizim qe shumë i ulët.
@@ -149,6 +235,8 @@ record-submit-success = Parashtrim i suksesshëm! Doni të incizoni sërish?
 record-help = Ju lutemi,prekeni që të incizoni, mandej lexojeni me zë fjalinë e mësipërme.
 record-cancel = Anuloje Ri-incizimin
 review-terms = Duke përdorur Common Voice, pajtoheni me <termsLink>Kushtet</termsLink> tona dhe <privacyLink>Shënimin tonë mbi Privatësinë</privacyLink>
+terms-agree = Pajtohem
+terms-disagree = Nuk pajtohem
 review-aborted = Ngarkimi dështoi. Doni të fshihen incizimet?
 review-submit-title = Shqyrtojini & Parashtrojini
 review-submit-msg = Faleminderit për incizimin!<lineBreak></lineBreak>Tani shqyrtoni dhe parashtroni copëzat tuaja më poshtë.
@@ -184,6 +272,20 @@ request-language-success-title = Kërkesa për gjuhë u parashtrua me sukses, ju
 
 ## Languages Overview
 
+languages-show-more = Shihni Më Tepër
+languages-show-less = Shihni Më Pak
+language-speakers = Folës
+language-meter-in-progress = Ecuri
+language-total-progress = Gjithsej
+language-speakers = Folës
+sentences = Fjali
 
 ## New Contribution
 
+contribute = Jepni Ndihmesë
+listen = Dëgjoni
+skip = Anashkaloje
+shortcuts = Shkurtore
+nothing-to-validate = S’kemi ndonjë gjë për vleftësim në këtë gjuhë, ndihmonani të plotësojmë radhën.
+record-button-label = Incizoni zërin tuaj
+share-title-new = <bold>Ndihmonani</bold> të gjejmë më tepër zëra
