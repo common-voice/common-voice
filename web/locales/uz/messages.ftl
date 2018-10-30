@@ -237,6 +237,10 @@ profile-clear-modal = Profilingizni tozalab tashlasangiz, Common Voice loyihasig
 profile-explanation = Profilingiz yordamida jarayonni kuzatib boring va ovoz ma’lumotlarining aniqligiga yordam bering.
 thanks-for-account = Hisobingizni tasdiqlaganingiz uchun rahmat. Endi profil yarating.
 why-demographic = Bu nega kerak?
+why-demographic-explanation = Foydalanuvchilarning yoshi, jinsi va talaffuzi  kabi anonim maʼlumotlari nutqni tanish tizimlariga oʻrgatishda foydalaniladigan audio maʼlumotlari sifatini oshirishda yordam beradi. Taxallus va e-pochta manzilingiz siz yuborgan maʼlumotlariga qoʻshilmaydi va taxallusingizni hamma koʻradigan yoki maxfiy qilishni tanlashingiz mumkin.
+keep-me-posted =
+    .label = Common Voice loyihasidagi yangilanishlardan xabardor boʻlish uchun xat olib turishga roziman.
+accept-privacy = Mozillaning <privacyLink>Maxfiylik siyosati</privacyLink>da koʻrsatilganidek maʼlumotlarimdan foydalanishlariga roziman.
 login-identity = Kirish uchun identifikator
 edit = Tahrirlash
 email-subscriptions = E-pochta orqali obuna
@@ -252,10 +256,15 @@ on = Yoniq
 faq-title = Savol-javob
 faq-what-q = Common Voice nima?
 faq-important-q = Nega u bunchalik muhim?
+faq-get-q = Common Voice maʼlumotlarini qanday yuklab olsam boʻladi?
+faq-source-q = Manba matni qayerdan olingan?
+faq-source-a1 = Joriy jumlalar yordamchilarning gaplaridan, shuningdek, <italic>Itʻs Wonderful Life</italic> kabi ochiq turdagi kinolardagi dialoglardan olingan.
+faq-source-a2 = Siz bizning manba jumlalarimizni <dataLink>ushbu GitHub jildi</dataLink>da koʻrishingiz mumkin.
 
 ## Profile
 
 profile-why-title = Nega profil kerak?
+profile-why-content = Common Voice loyihasiga yuborilgan audio maʼlumotlaringizga oʻzingiz haqingizda biroz maʼlumot qoʻshsangiz, ovozni tanish tizimlarida bu maʼlumotlardan foydalanish sifatini oshirishda yordam bergan boʻlasiz.
 
 ## NotFound
 
