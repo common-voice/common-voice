@@ -73,6 +73,7 @@ uk = Ukrainase
 ur = Urdu
 uz = Uzbeke
 vi = Vietnamisht
+zh-CN = Kineze (Kinë)
 
 # [/]
 
