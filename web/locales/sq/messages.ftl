@@ -108,6 +108,7 @@ wall-of-text-more-desktop =
     Tani mund të dhuroni zërin tuaj për të na ndihmuar të krijojmë një bazë të dhënash me burim të hapur që mund ta përdorë kushdo për të sjellë aplikacione risore për pajisje dhe web.<lineBreak></lineBreak>
     Lexoni një sentencë për të ndihmuar makinat të mësojnë se si flasin në të vërtetë njerëzit. Kontrolloni punën e kontribuesve të tjerë për të përmirësuar cilësinë. Ja, kaq e thjeshtë është!
 wall-of-text-first = Zëri është natyror, zëri është njerëzor. Kjo është arsyeja pse jemi të ngazëllyer nga krijimi teknologjish të zërit të përdorshme për makinat tona. Por për të krijuar sisteme zëri, zhvilluesve u duhen sasi zëri tejet të mëdha.
+wall-of-text-second = Shumica e të dhënave të përdorura nga kompani të mëdha nuk jepen për shumicën e njerëzve. Mendojmë që kjo e mbyt novacionin. Ndaj filluam Common Voice, një projekt për të ndihmuar që njohja e zërit të bëhet e hapur dhe e përdorshme nga kushdo.
 show-wall-of-text = Lexoni Më Tepër
 help-us-title = Ndihmonani të vleftësojmë fjali!
 help-us-explain = Shtypni Play, dëgjoni & na thoni: a e shqiptuan saktë fjalinë më poshtë?
