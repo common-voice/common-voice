@@ -115,6 +115,9 @@ help-us-explain = Shtypni Play, dëgjoni & na thoni: a e shqiptuan saktë fjalin
 vote-yes = Po
 vote-no = Jo
 speak-subtitle = Dhuroni zërin tuaj
+speak-goal-text = Copëza të incizuara
+listen-subtitle = Ndihmonani të vleftësojmë zëra
+listen-goal-text = Copëza të vleftësuara
 hours-recorded = Orë Incizim
 hours-validated = Orë të Vleftësuara
 read-terms-q = I keni lexuar Kushtet tona?
@@ -142,9 +145,11 @@ x-years-short =
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = Luaje/Ndale
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = Incizo/Ndale
 request-language-text = S’e ende shihni gjuhën tuaj te Common Voice?
 request-language-button = Kërkoni një Gjuhë
 
@@ -188,6 +193,7 @@ edit-profile = Përpunoni Profil
 profile-create = Krijoni profil
 profile-create-success = Sukses, profili u krijua!
 profile-close = Mbylle
+why-demographic = Pse ka rëndësi kjo?
 edit = Përpunoni
 email-subscriptions = Pajtime Me Email
 off = Off
