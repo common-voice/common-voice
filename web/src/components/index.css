@@ -18,7 +18,7 @@
 /* Define our icon font. */
 @font-face {
     font-family: Icons;
-    src: url("/font/icomoon.ttf");
+    src: url('/font/icomoon.ttf');
 }
 
 html {
@@ -35,7 +35,9 @@ html {
     }
 }
 
-html, body, #main {
+html,
+body,
+#main {
     padding: 0;
     margin: 0;
     min-height: 100vh;
@@ -45,7 +47,10 @@ html, body, #main {
 body {
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: var(--strong-font-family);
 }
 
@@ -65,11 +70,15 @@ a {
 }
 
 a:hover {
-    opacity: .8;
+    opacity: 0.8;
     text-decoration: none !important;
 }
 
-p, h1, h2, h3, h4 {
+p,
+h1,
+h2,
+h3,
+h4 {
     margin: 0;
     padding: 0;
 }
@@ -86,7 +95,7 @@ button {
 .staging-banner {
     position: sticky;
     top: var(--header-height);
-    padding: .5rem;
+    padding: 0.5rem;
     color: var(--white);
     background: var(--red);
     text-align: center;
@@ -107,7 +116,8 @@ button {
     }
 }
 
-.js-focus-visible :focus:not(.focus-visible), .js-focus-visible :focus-within:not(.focus-visible) {
+.js-focus-visible :focus:not(.focus-visible),
+.js-focus-visible :focus-within:not(.focus-visible) {
     outline: none;
 }
 
@@ -197,19 +207,23 @@ body:not(.focus) #scroller {
     position: relative;
 }
 
-.home #content, .record #content, .profile #content, .data #content {
+.home #content,
+.record #content,
+.profile #content,
+.data #content {
     margin: 0 auto;
     max-width: var(--old-desktop-width);
 }
 
-.privacy #content, .terms #content {
+.privacy #content,
+.terms #content {
     & h1 {
         margin: 1rem 0;
         text-decoration: underline;
     }
 
     & h2 {
-        margin: 1.5rem 0 .5rem;
+        margin: 1.5rem 0 0.5rem;
     }
 
     & a {
@@ -227,14 +241,13 @@ body:not(.focus) #scroller {
     background-position: center;
     background-size: 100% 100%;
     z-index: var(--bottom-z-index);
-    transition:
-        opacity var(--transition-duration-slow) var(--easing),
+    transition: opacity var(--transition-duration-slow) var(--easing),
         transform var(--transition-duration) var(--easing);
     pointer-events: none;
     opacity: 0;
 
     &:after {
-        content: "";
+        content: '';
         display: block;
         position: absolute;
         top: 0;
@@ -317,7 +330,7 @@ body:not(.ios) .recording #background-container {
 @media (--mobile) {
     #background-container {
         height: 12.5rem;
-        background-image: url("/img/wave-blue-mobile.png");
+        background-image: url('/img/wave-blue-mobile.png');
     }
 
     #background-container:after {
@@ -329,7 +342,7 @@ body:not(.ios) .recording #background-container {
 @media (--desktop) {
     #background-container {
         height: 20rem;
-        background-image: url("/img/wave-blue-large.png");
+        background-image: url('/img/wave-blue-large.png');
     }
 
     #background-container:after {
@@ -414,7 +427,9 @@ body:not(.ios) .recording #background-container {
     }
 }
 
-#profile-container, #record-container, #faq-container {
+#profile-container,
+#record-container,
+#faq-container {
     animation: slide-fade-in var(--transition-duration) var(--easing);
 }
 
@@ -451,7 +466,8 @@ body:not(.ios) .recording #background-container {
         margin-right: 4rem;
     }
 
-    &, & .main-mozilla-logo {
+    &,
+    & .main-mozilla-logo {
         height: 100%;
     }
 }
@@ -477,16 +493,18 @@ body:not(.ios) .recording #background-container {
     }
 }
 
-.home, .record, .data {
+.home,
+.record,
+.data {
     & #background-container {
         opacity: 1;
     }
 
-    & .hero, & .hero-space {
+    & .hero,
+    & .hero-space {
         display: block;
     }
 }
-
 
 .robot {
     position: relative;
@@ -504,7 +522,7 @@ body:not(.ios) .recording #background-container {
 }
 
 .robot > img {
-    height: 100%
+    height: 100%;
 }
 
 @media (--mobile) {
@@ -529,7 +547,8 @@ body:not(.ios) .recording #background-container {
 
 .home .robot {
     opacity: 1;
-    transform: translate(-13rem, calc(var(--home-background-offset) + 10.5rem)) scale(1.1);
+    transform: translate(-13rem, calc(var(--home-background-offset) + 10.5rem))
+        scale(1.1);
 }
 
 @media (--mobile) {
@@ -557,18 +576,18 @@ body:not(.ios) .recording #background-container {
 
 .loading {
     animation: loading 2.5s ease infinite;
-    background-size: 600% 600%
+    background-size: 600% 600%;
 }
 
 @keyframes loading {
     0% {
-        background-position: 0% 50%
+        background-position: 0% 50%;
     }
     50% {
-        background-position: 100% 50%
+        background-position: 100% 50%;
     }
     100% {
-        background-position: 0% 50%
+        background-position: 0% 50%;
     }
 }
 
@@ -643,7 +662,8 @@ body:not(.ios) .recording #background-container {
     justify-content: space-between;
     align-items: center;
 
-    & a, & button {
+    & a,
+    & button {
         font-size: var(--font-size-xs);
         font-weight: 600;
         text-decoration: underline;
@@ -655,11 +675,11 @@ body:not(.ios) .recording #background-container {
     font-size: var(--font-size-xs);
 
     & input {
-        margin: .1rem .3rem .1rem .1rem;
+        margin: 0.1rem 0.3rem 0.1rem 0.1rem;
         // mobile Safari needs this
         width: 100%;
-        max-width: .8rem;
-        height: .8rem;
+        max-width: 0.8rem;
+        height: 0.8rem;
     }
 }
 
@@ -672,7 +692,9 @@ body:not(.ios) .recording #background-container {
     color: var(--near-black);
 }
 
-a.small, .small a, .text-button.small {
+a.small,
+.small a,
+.text-button.small {
     text-decoration: underline;
 }
 
@@ -718,13 +740,13 @@ a.small, .small a, .text-button.small {
 
 @keyframes move-background {
     0% {
-        background-position: 0 50%
+        background-position: 0 50%;
     }
     50% {
-        background-position: 100% 50%
+        background-position: 100% 50%;
     }
     100% {
-        background-position: 0 50%
+        background-position: 0 50%;
     }
 }
 
@@ -739,93 +761,9 @@ a.small, .small a, .text-button.small {
     background-size: 400% 400%;
     animation: move-background 2s ease infinite;
     transition: width var(--transition-duration-slow) var(--easing),
-                opacity var(--transition-duration-slow) linear var(--transition-duration-slow),
-                background var(--transition-duration) linear;
-}
-
-.contribution-banner {
-    position: sticky;
-    top: 0;
-    z-index: var(--middle-z-index);
-    background: var(--black);
-    padding: 20px 0;
-
-    @media (--sm-down) {
-        position: absolute;
-        top: var(--header-height);
-    }
-
-    & .inner {
-        margin: 0 auto;
-        padding: 0 16px;
-        max-width: var(--desktop-width);
-        width: 100%;
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: row;
-
-        @media (--md-down) {
-            flex-wrap: wrap;
-        }
-    }
-
-    & h1 {
-        background-image: linear-gradient(to right, #f89096, #b1b4e5);
-        color:transparent;
-        font-size: 1.71rem;
-        background-clip: text;
-        -webkit-background-clip: text;
-
-        @media (--md-down) {
-            order: 1;
-            margin-bottom: 10px;
-            max-width: calc(100% - 40px);
-        }
-    }
-
-    & .open {
-        margin-right: auto;
-        min-width: 150px;
-        width: auto;
-        background-color: transparent;
-        border: 1px solid color(var(--white) alpha(50%));
-
-        @media (--md-down) {
-            order: 3;
-        }
-
-        @media (--lg-up) {
-            margin: 0 auto;
-        }
-    }
-
-    & .bugs-link {
-        display: flex;
-        align-items: center;
-        white-space: nowrap;
-        color: var(--white);
-
-        @media (--md-down) {
-            order: 4;
-        }
-
-        & path {
-            fill: var(--white);
-        }
-    }
-
-    & .close {
-        border: none;
-
-        @media (--md-down) {
-            order: 2;
-            margin-left: auto;
-        }
-
-        & path {
-            fill: var(--white);
-        }
-    }
+        opacity var(--transition-duration-slow) linear
+            var(--transition-duration-slow),
+        background var(--transition-duration) linear;
 }
 
 .notifications {
