@@ -164,13 +164,27 @@ x-years-short =
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = v
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = s
 shortcut-play-toggle-label = Esita/Peata
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = J
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = E
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = a
 shortcut-record-toggle-label = Salvesta/Peata
 request-language-text = Kas sa ei leia veel oma keelt Common Voice projektis?
 request-language-button = Esita soov keele lisamiseks
@@ -357,7 +371,53 @@ language-section-launched = Käivitatud
 language-section-launched-new-description = Selliste käivitatud keelte jaoks on veebisait edukalt lokaliseeritud ja sellele on kogutud piisavalt lauseid, et võimaldada <italic>rääkimise</ italic> ja <italic>kuulamise</ italic> panused.
 languages-show-more = Vaata rohkem
 languages-show-less = Vaata vähem
+language-speakers = Kõnelejaid
 language-meter-in-progress = Edenemine
+language-total-progress = Kokku
+language-search-input =
+    .placeholder = Otsi
+language-speakers = Kõnelejaid
+localized = Lokaliseeritud
+sentences = Lauseid
+total-hours = Kontrollitud tunde
 
 ## New Contribution
 
+action-click = Klõpsa
+action-tap = Puuduta
+contribute = Panusta
+listen = Kuula
+skip = Jäta vahele
+shortcuts = Otseteed
+clips-with-count = <bold>{ $count }</bold> salvestist
+goal-help-recording = Oled aidanud Common Voice'il saavutada <goalPercentage></ goalPercentage> meie igapäevasest salvestamise eesmärgist ({ $goalValue })!
+goal-help-validation = Oled aidanud Common Voice'il saavutada <goalPercentage></ goalPercentage> meie igapäevasest valideerimise eesmärgist ({ $goalValue })!
+contribute-more =
+    { $count ->
+        [one] Valmis tegema { $count } veel?
+       *[other] Valmis tegema { $count } veel?
+    }
+record-cta = Alusta salvestamist
+record-instruction = { $actionType }<recordIcon></recordIcon>, seejärel loe lauset valjusti
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> kui valmis
+record-three-more-instruction = Kolm veel!
+record-again-instruction = Suurepärane! <recordIcon></recordIcon> Salvesta järgmine
+record-again-instruction2 = Jätka samas vaimus, salvesta uuesti <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> viimane!
+review-tooltip = Kontrolli ja salvesta üle asja käigus.
+unable-speak = Ei saa hetkel rääkida?
+review-instruction = Kontrolli ja vajadusel salvesta üle
+record-submit-tooltip = { $actionType } saada, kui valmis
+clips-uploaded = Üles laaditud salvestised
+record-abort-title = Kas kõigepealt lõpetada salvestamine?
+record-abort-text = Lahkumine nüüd tähendab salvestamata töö kaotamist
+record-abort-submit = Saada salvestised
+record-abort-continue = Lõpeta salvestamine
+record-abort-delete = Välju ja kustuta salvestised
+listen-instruction = { $actionType }<playIcon></playIcon> kas nad hääldasid lauset korrektselt?
+listen-again-instruction = Hea töö! <playIcon></playIcon> kuula uuesti, kui oled valmis
+listen-3rd-time-instruction = 2 tehtud, jätka samas vaimus! <playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon> Viimane!
+nothing-to-validate = Meil pole midagi kontrollida selles keeles, aita meil järjekorda täita.
+record-button-label = Salvesta oma hääl
+share-title-new = <bold>Aita meil</bold> leida rohkem hääli
