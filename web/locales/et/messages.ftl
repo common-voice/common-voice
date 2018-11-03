@@ -114,11 +114,17 @@ share-title = Aidake meil leida teisigi, kes meid oma häälega aitaks!
 share-text = Aidake meil õpetada masinatele inimeste moodi rääkimist, anneta meile oma hääl järgneval aadressil: { $link }
 link-copied = Link kopeeriti
 back-top = Tagasi üles
+contribution-banner-text = Oleme just käivitanud uue panustamise kogemuse
+contribution-banner-button = Vaata
+report-bugs-link = Aita raporteerida vigu
 
 ## Home Page
 
 home-title = Projekt Common Voice on Mozilla algatus, mille eesmärk on õpetada masinatele inimese moodi rääkimist.
 home-cta = Tõsta häält, panusta siin!
+wall-of-text-start = Hääl on loomulik, hääl on inimlik. Just sellepärast tahame me luua kasutatava hääletehnoloogia oma masinate jaoks. Kuid häälesüsteemide loomiseks on vaja väga suurt hulka hääleandmeid.
+wall-of-text-more-mobile = Suurem osa suurettevõtete poolt kasutatavatest andmetest ei ole enamikule inimestest kättesaadav. Me arvame, et see lämmatab innovatsiooni. Seega me algatasime projekti Common Voice, mis aitab hääletuvastuse muuta igaühele kättesaadavaks.
+wall-of-text-more-desktop = Nüüd saab anda oma hääle selleks, et aidata ehitada avatud lähtekoodiga hääleadmebaasi, mille abil igaüks saab luua uusi äppe nutiseadmete ja veebi jaoks. Loe sisse lause, et aidata masinatel õppida, kuidas päris inimesed räägivad. Kontrolli teiste abiliste panust, et parandada kvaliteeti. Nii lihtne see ongi!
 
 ## Speak & Listen Shortcuts
 
