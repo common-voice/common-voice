@@ -225,9 +225,32 @@ profile-clear-modal = Kui sa tühjendad oma profiili, siis ei edastata neid demo
 profile-explanation = Jälgi profiili abil oma edenemist ja ühtlasi aita ka meil saada täpsemaid hääleandmeid.
 thanks-for-account = Täname, et kinnitasid oma kasutajakonto, loome nüüd sulle profiili.
 why-demographic = Miks see oluline on?
+why-demographic-explanation = Anonümsed kasutajate andmed (nt vanus, sugu, aktsent) aitavad täiustada neid hääleandmeid, mida kasutatakse kõnetuvastussüsteemide paremaks treenimiseks. Sinu kasutajanime ega e-posti aadressi ei ühendata kunagi sinu andmetega ja sa võid ise valida, kas sinu kasutajanimi on avalik või anonüümne.
+keep-me-posted =
+    .label = Saadetakse teavitusi ja infot Common Voice projektiga toimuvast.
+accept-privacy = Olen nõus selle info käsitsemiseks Mozilla <privacyLink>privaatsusreeglitest</privacyLink> lähtuvalt
+login-identity = Kasutajatunnus
+edit = Muuda
+email-subscriptions = E-kirjade tellimused
+download-profile = Laadi oma andmed alla
+contribution-experience = Panustamise kogemus
+skip-submission-feedback = Jäta töö tagasiside vahele
+skip-submission-description = Panuse ära saatmisel jäetakse tagasiside andmine pärast "Saada" nupu vajutamist vahele. Panustamine jätkub otse järgmise 5 salvestise või kontrollimisega.
+skip-submission-note = Märkus: panustaise tüübi muutmiseks tuleb valida "räägi" või "kuula".
+off = Väljas
+on = Sees
 
 ## FAQ
 
+faq-title = Korduma kippuvad küsimused
+faq-what-q = Mis on Common Voice?
+faq-what-a = Kõnetuvastuse tehnoloogia võib drastiliselt muuta viisi, kuidas me masinatega suhtleme, kuid praegused süsteemid on kallid ja sageli eraomandis. Common Voice on projekt, mille abil saab kõnetuvastuse tehnoloogia kergesti kõigile kättesaadavaks teha. Inimesed annetavad oma hääled massiivsele andmebaasile, mis võimaldab kõigil kiiresti ja hõlpsasti häälkäsklusega rakendusi treenida. Kõik hääleandmed on arendajatele saadaval.
+faq-important-q = Miks on see oluline?
+faq-important-a = Hääl on loomulik, hääl on inimlik. See on kõige lihtsam ja kõige loomulikum viis suhtlemiseks. Soovime, et arendajad saaksid luua hämmastavaid asju, reaalajas toimivatest tõlkijatest kõnepõhiste administratiivabilisteni. Kuid just praegu pole selliste rakenduste ehitamiseks piisavalt avalikult kättesaadavaid andmeid. Loodame, et Common Voice annab arendajatele, mida nad innovatsiooni jaoks vajavad.
+faq-get-q = Kuidas saab ligi Common Voice andmetele?
+faq-get-a = Andmestik on saadaval <downloadLink>allalaadimislehel</downloadLink> <licenseLink>CC-0</licenseLink> litsentsiga.
+faq-mission-q = Miks on Common Voice osa Mozilla missioonist?
+faq-mission-a = Mozilla on pühendunud sellele, et hoida veebi avatuna ja kõigile kättesaadavana. Selleks peame toetama veebiloojaid selliste projektide kaudu nagu Common Voice. Kuna hääletehnoloogiad levivad niššrakendustest kaugemale, usume, et need peavad teenima kõiki kasutajaid võrdselt hästi. Me näeme hääle tehnoloogiate ehitamisel ja katsetamisel vajadust lisada rohkem keeli, aktsente ja demograafilisi andmeid. Mozilla soovib näha tervet ja elavat internetti. See tähendab uutele loojatele juurdepääsu andmist kõneandmetele, et nad saaksid luua uusi erakorralisi projekte. Common Voice on avalik ressurss, mis aitab Mozilla meeskondi ja arendajaid kogu maailmas.
 
 ## Profile
 
