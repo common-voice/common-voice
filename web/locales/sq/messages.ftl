@@ -210,8 +210,17 @@ profile-clear-modal = Pastrimi i të dhënave të profilit tuaj do të thotë q�
 profile-explanation = Ndiqni ecurinë tuaj, përmes një profili, dhe ndihmoni që të dhënat tona zanore të jenë më të sakta.
 thanks-for-account = Faleminderit që ripohuat llogarinë tuaj, tani le të krijojmë profilin tuaj.
 why-demographic = Pse ka rëndësi kjo?
+why-demographic-explanation = Të dhëna të anonimizuara përdoruesish, të tilla si mosha, gjinia dhe theksi ndihmojnë të përmirësohen të dhënat audio e përdorura për të stërvitur mekanizmat e kuptimit të të folurës në pikëpamje të saktësisë. Emri juaj i përdoruesit dhe email nuk do të përshoqërohen kurrë me të dhënat e parashtruara prej jush, dhe mund të zgjidhni bërjen publik të emrit tuaj të përdoruesit ose anonimitetin.
+keep-me-posted =
+    .label = Do të doja përditësime dhe të jem në dijeni se ç’po ndodh me Common Voice.
+accept-privacy = Pajtohem me trajtimin që u bëni këtyre të dhënave ashtu siç e shpjegoni <privacyLink>Rregulla Privatësie</privacyLink> të Mozilla-s
+login-identity = Identitet Hyrjesh
 edit = Përpunoni
 email-subscriptions = Pajtime Me Email
+download-profile = Shkarkoji të dhënat e mia
+skip-submission-feedback = Anashkalo Përshtypje mbi Parashtrimet
+skip-submission-description = Gjatë parashtrimit të kontributeve, dhënia e përshtypjeve do të anashkalohet, pas klikimit të 'Parashtroje. Kontributi do të vazhdojë drejtpërsëdrejti me grupin pasues të 5 incizimeve apo vleftësimeve.
+skip-submission-note = Shënim: Prapë do të duhet të përzgjidhni mes Flisni ose Dëgjoni, për të ndryshuar llojin e kontributit.
 off = Off
 on = On
 
@@ -269,6 +278,7 @@ data-other-tatoeba-description = Tatoeba është një bazë e madhe të dhënash
 data-bundle-button = Shkarkoni Paketë Bazash të Dhënash
 data-bundle-description = Të dhëna Common Voice plus krejt grupet e tjera të të dhënave zanore më sipër.
 license = Licencë: <licenseLink>{ $license }</licenseLink>
+license-mixed = Të përziera
 
 ## Record Page
 
