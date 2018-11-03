@@ -15,8 +15,10 @@ loading = Po ngarkohet…
 
 ## Languages
 
+an = Aragoneze
 ar = Arabisht
 as = Asameze
+ast = Asturiase
 az = Azerbajxhane
 bn = Bengaleze
 br = Bretone
@@ -74,6 +76,8 @@ ur = Urdu
 uz = Uzbeke
 vi = Vietnamisht
 zh-CN = Kineze (Kinë)
+zh-HK = Kineze (Hong Kong)
+zh-TW = Kineze (Tajvan)
 
 # [/]
 
@@ -93,8 +97,10 @@ cookies = Cookies
 faq = FAQ
 content-license-text = Lëndë e përdorshme sipas një <licenseLink>licence Creative Commons</licenseLink>
 share-title = Nidhmonani të gjejmë të tjerë dhurues të zërit të tyre!
+share-text = Ndihmoni t’u mësohet makinave se si flasin njerëzit e njëmendtë, dhuroni zërin tuaj te { $link }
 link-copied = Lidhja u Kopjua
 back-top = Mbrapsht te Kreu
+contribution-banner-text = Sapo kemi hedhur në qarkullim një rrugë të re dhënieje ndihmese
 contribution-banner-button = Hidhini një sy
 report-bugs-link = Ndihmoni të raportohen të metat
 
@@ -112,11 +118,14 @@ wall-of-text-second = Shumica e të dhënave të përdorura nga kompani të mëd
 show-wall-of-text = Lexoni Më Tepër
 help-us-title = Ndihmonani të vleftësojmë fjali!
 help-us-explain = Shtypni Play, dëgjoni & na thoni: a e shqiptuan saktë fjalinë më poshtë?
+no-clips-to-validate = Duket se nuk ka copëza për dëgjuar për këtë gjuhë. Ndihmonani duke incizuar disa të tilla që tani.
 vote-yes = Po
 vote-no = Jo
 speak-subtitle = Dhuroni zërin tuaj
+speak-paragraph = Incizimi i copëzave zanore është pjesë integrale e krijimit të grupit tonë të hapur të të dhënave; ndokush mund të thosh se është edhe pjesa zbavitëse.
 speak-goal-text = Copëza të incizuara
 listen-subtitle = Ndihmonani të vleftësojmë zëra
+listen-paragraph = Vleftësimi i copëzave të dhuruara është po aq e rëndësishme për misionin e Common Voice-it. Bëni një dëgjim dhe ndihmonani të krijojmë të dhëna zanore cilësore me burim të hapur.
 listen-goal-text = Copëza të vleftësuara
 hours-recorded = Orë Incizim
 hours-validated = Orë të Vleftësuara
@@ -150,7 +159,7 @@ shortcut-play-toggle-label = Luaje/Ndale
 ## Speak Shortcuts
 
 shortcut-record-toggle-label = Incizo/Ndale
-request-language-text = S’e ende shihni gjuhën tuaj te Common Voice?
+request-language-text = S’e shihni ende gjuhën tuaj te Common Voice?
 request-language-button = Kërkoni një Gjuhë
 
 ## ProjectStatus
@@ -169,6 +178,7 @@ english = Anglisht
 
 ## ProfileForm
 
+profile-form-cancel = Dil Nga Formulari
 profile-form-delete = Fshini Profil
 profile-form-username =
     .label = Emër Përdoruesi
@@ -184,15 +194,21 @@ native-language =
     .label = Gjuhë Amtare
 profile-form-submit-save = Ruaje
 profile-form-submit-saved = U ruajt
+profile-keep-data = Mbaji të Dhënat
+profile-delete-data = Fshiji të Dhënat
 male = Mashkull
 female = Femër
 # Gender
 other = Tjetër
 why-profile-title = Ç’duhet profili?
+why-profile-text = Duke dhënë ca të dhëna rreth vetes, të dhënat audio që parashtroni te Common Voice do të jenë më të dobishme për mekanizma Kuptimi të Folure që i përdorin këto të dhëna për përmirësimin e saktësisë së tyre.
 edit-profile = Përpunoni Profil
 profile-create = Krijoni profil
 profile-create-success = Sukses, profili u krijua!
 profile-close = Mbylle
+profile-clear-modal = Pastrimi i të dhënave të profilit tuaj do të thotë që të dhënat demografike nuk do t’i parashtrohet më Common Voice-it me copëzat e incizuara prej jush.
+profile-explanation = Ndiqni ecurinë tuaj, përmes një profili, dhe ndihmoni që të dhënat tona zanore të jenë më të sakta.
+thanks-for-account = Faleminderit që ripohuat llogarinë tuaj, tani le të krijojmë profilin tuaj.
 why-demographic = Pse ka rëndësi kjo?
 edit = Përpunoni
 email-subscriptions = Pajtime Me Email
