@@ -319,18 +319,45 @@ review-submit-msg = Täname teid salvestamise eest! <lineBreak></lineBreak>Nüü
 review-recording = Kontrolli
 review-rerecord = Salvesta uuesti
 review-cancel = Tühista saatmine
+review-keep-recordings = Jäta salvestised alles
+review-delete-recordings = Kustuta mu salvestised
 
 ## Download Modal
 
+download-title = Allalaadimine on alanud.
+download-helpus = Aidake meil luua kõntehnoloogiaga seotud kogukond, jääge meiega ühendusse e-posti teel.
+download-form-email =
+    .label = Sisesta oma e-posti aadress
+    .value = Aitäh, me võtame sinuga ühendust.
+download-back = Tagasi Common Voice'i andmekogumite juurde
+download-no = Ei soovi
 
 ## Contact Modal
 
+contact-title = Kontaktivorm
+contact-form-name =
+    .label = Nimi
+contact-form-message =
+    .label = Sõnum
+contact-required = *nõutud
 
 ## Request Language Modal
 
+request-language-title = Taotle keele lisamist
+request-language-form-language =
+    .label = Keel
+request-language-success-title = Keele lisamise taotlus on edukalt saadetud, täname.
+request-language-success-content = Me võtame varsti ühendust lisainfoga sellest, kuidas lisada oma keel Common Voice'i.
 
 ## Languages Overview
 
+language-section-in-progress = Pooleli
+language-section-in-progress-description = Pooleliolevad keeli hetkel valmistatakse meie kogukonna panuste jaoks; nende edenemine kajastab seda, kui kaugel on nende veebisaitide lokaliseerimise ja lausete kogumise etapid.
+language-section-launched = Käivitatud
+language-section-launched-new-description = Selliste käivitatud keelte jaoks on veebisait edukalt lokaliseeritud ja sellele on kogutud piisavalt lauseid, et võimaldada <italic>rääkimise</ italic> ja <italic>kuulamise</ italic> panused.
+languages-show-more = Vaata rohkem
+languages-show-less = Vaata vähem
+language-meter-in-progress = Edenemine
 
 ## New Contribution
 
