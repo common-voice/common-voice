@@ -303,6 +303,8 @@ review-submit-msg = Faleminderit për incizimin!<lineBreak></lineBreak>Tani shqy
 review-recording = Shqyrtojeni
 review-rerecord = Ri-incizojeni
 review-cancel = Anuloje Parashtrimin
+review-keep-recordings = Mbaji incizimet
+review-delete-recordings = Fshiji incizimet e mia
 
 ## Download Modal
 
@@ -329,23 +331,63 @@ request-language-title = Kërkesë Gjuhe
 request-language-form-language =
     .label = Gjuhë
 request-language-success-title = Kërkesa për gjuhë u parashtrua me sukses, ju faleminderit.
+request-language-success-content = Shumë shpejt do të lidhemi me ju me më tepër të dhëna rreth se si të shtoni gjuhën tuaj te Common Voice.
 
 ## Languages Overview
 
+language-section-in-progress = Në Ecuri
+language-section-in-progress-description = Gjuhët e karakterizuara si Në Ecuri janë duke u përgatitur për kontribut nga bashkësitë tona; ecuria për to pasqyron fazën ku gjenden me përkthimin e sajtit dhe të grumbullimit të fjalive.
+language-section-launched = E filluar
+language-section-launched-new-description = Për gjuhët e filluara, sajti është përkthyer me sukses, dhe janë grumbulluar një numër i mjaftueshëm fjalish, për të lejuar  kontribute të vazhdueshëm të llojit <italic>Flisni</italic> dhe <italic>Dëgjoni</italic>.
 languages-show-more = Shihni Më Tepër
 languages-show-less = Shihni Më Pak
 language-speakers = Folës
 language-meter-in-progress = Ecuri
 language-total-progress = Gjithsej
+language-search-input =
+    .placeholder = Kërko
 language-speakers = Folës
+localized = E përkthyer
 sentences = Fjali
+total-hours = Orë të vleftësuara
 
 ## New Contribution
 
+action-click = Klikoni
+action-tap = Prekeni
 contribute = Jepni Ndihmesë
 listen = Dëgjoni
 skip = Anashkaloje
 shortcuts = Shkurtore
+clips-with-count = <bold>{ $count }</bold> Copëza
+goal-help-recording = E ndihmuat projektin Common Voice të mbërrijë në <goalPercentage></goalPercentage> të pikësynimit tonë ditor të incizimit të { $goalValue } fjalive!
+goal-help-validation = E ndihmuat projektin Common Voice të mbërrijë në <goalPercentage></goalPercentage> të pikësynimit tonë ditor të vleftësimit të { $goalValue } fjalive!
+contribute-more =
+    { $count ->
+        [one] Gati për të bërë edhe { $count } tjetër?
+       *[other] Gati për të bërë edhe { $count } të tjera?
+    }
+record-cta = Filloni incizimin
+record-instruction = { $actionType }<recordIcon></recordIcon> mandej lexojeni me zë fjalinë
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> kur të keni përfunduar
+record-three-more-instruction = Edhe tre!
+record-again-instruction = Bukur!<recordIcon></recordIcon> Incizoni copëzën tuaj pasuese
+record-again-instruction2 = Vazhdoni kështu, incizoni sërish <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> I fundit!
+review-tooltip = Shqyrtoni & ri-incizoni këtu copëza, dora-dorës
+unable-speak = S’jeni në gjendje të flitni tani?
+review-instruction = Shqyrtoni & ri-incizoni copëza, në u dashtë
+record-submit-tooltip = { $actionType } parashtrojeni, kur të jeni gati
+clips-uploaded = Copëzat U Ngarkuan
+record-abort-title = Të përfundohet incizimi së pari?
+record-abort-text = Braktisja në këtë çast do të thotë se do të keni humbje në ecuri
+record-abort-submit = Parashtroni copëza
+record-abort-continue = Përfundo incizimin
+record-abort-delete = Dil & Fshiji copëzat
+listen-instruction = { $actionType }<playIcon></playIcon> e shqiptuan saktë fjalinë?
+listen-again-instruction = Punë e paqme!<playIcon></playIcon> Ridëgjojeni, kur të jeni gati
+listen-3rd-time-instruction = 2 më pak, vazhdoni kështu!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>E fundit!
 nothing-to-validate = S’kemi ndonjë gjë për vleftësim në këtë gjuhë, ndihmonani të plotësojmë radhën.
 record-button-label = Incizoni zërin tuaj
 share-title-new = <bold>Ndihmonani</bold> të gjejmë më tepër zëra
