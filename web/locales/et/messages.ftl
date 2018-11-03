@@ -251,15 +251,41 @@ faq-get-q = Kuidas saab ligi Common Voice andmetele?
 faq-get-a = Andmestik on saadaval <downloadLink>allalaadimislehel</downloadLink> <licenseLink>CC-0</licenseLink> litsentsiga.
 faq-mission-q = Miks on Common Voice osa Mozilla missioonist?
 faq-mission-a = Mozilla on pühendunud sellele, et hoida veebi avatuna ja kõigile kättesaadavana. Selleks peame toetama veebiloojaid selliste projektide kaudu nagu Common Voice. Kuna hääletehnoloogiad levivad niššrakendustest kaugemale, usume, et need peavad teenima kõiki kasutajaid võrdselt hästi. Me näeme hääle tehnoloogiate ehitamisel ja katsetamisel vajadust lisada rohkem keeli, aktsente ja demograafilisi andmeid. Mozilla soovib näha tervet ja elavat internetti. See tähendab uutele loojatele juurdepääsu andmist kõneandmetele, et nad saaksid luua uusi erakorralisi projekte. Common Voice on avalik ressurss, mis aitab Mozilla meeskondi ja arendajaid kogu maailmas.
+faq-native-q = Minu emakeel pole { $lang } keel ja ma räägin aktsendiga, kas te ikka tahate minu häält?
+faq-native-a = Jah, me kindlasti tahame sinu häält! Common Voice'i eesmärk on koguda nii palju erinevaid aktsente kui võimalik, et arvutid saaksid paremini <bold>kõigi</bold> kõnest aru.
+faq-firefox-q = Kas Common Voice'i kõnetuvastus saab kunagi Firefoxi osaks?
+faq-firefox-a = Common Voice'il on piiramatu potentsiaal ja me tõepoolest uurime kõneliideste võimalust paljudes Mozilla toodetes, sealhulgas Firefoxis.
+faq-quality-q = Mis on vajalik helikvaliteedi tase, et see heli kasutatav oleks?
+faq-quality-a = Me tahame, et helisalvestused sarnaneksid kvaliteedi poolest sellega, millega kõnetuvastus (süsteem, mis teeb kõnest teksti) peab "päris maailmas" hakkama saama. Seepärast tahame saada erineva kvaliteediga salvestisi, mille põhjal kõnetuvastussüsteem saaks õppida veatult toime tulema erineva segava taustamüraga nagu kõrvaliste inimeste kõne, liiklusmüra jms.
+faq-hours-q = Miks on eesmärgiks saada 10 000 tundi helisalvestisi?
+faq-hours-a = Umbes nii palju tunde läheb vaja kõnetuvastussüsteemi treenimiseks.
+faq-source-q = Kust on need etteloetavad tekstid võetud?
+faq-source-a1 = Need laused tulevad nii vabatahtlike annetustena kui ka filmidialoogidest, nt filmist <italic>It’s a Wonderful Life.</italic>
+faq-source-a2 = Etteloetavaid lauseid on võimalik vaadata <dataLink>sellest GitHubi kaustast</dataLink>.
 
 ## Profile
 
+profile-why-title = Milleks profiil?
+profile-why-content = Teades andmeid sinu kohta, saab sinu poolt Common Voice projekti lisatud helifaile paremini kasutada kõnetuvastusprogrammide arendamiseks.
 
 ## NotFound
 
+notfound-title = Ei leitud
+notfound-content = Kahjuks me ei tea, mida sa otsid.
 
 ## Data
 
+data-download-button = Laadi alla Common Voice'i andmed
+data-download-yes = Jah
+data-download-deny = Ei
+data-download-license = Litsents: <licenseLink>CC-0</licenseLink>
+data-download-modal = Hakkad alla laadima <size>{ $size }GB</size> suurust faili, kas oled kindel, et soovid jätkata?
+data-subtitle = Me loome avatud lähtekoodiga ja avalikult kasutatavat hääleandmete kogu, mida igaüks saaks kasutada kõnepõhiste rakenduste treenimiseks.
+data-explanatory-text = Usume, et suured ja vabalt kättesaadavad hääleandmebaasid edendavad innovatsiooni ja tervet ärilist konkurentsi masinõppepõhise kõnetehnoloogia vallas. Tegemist on ülemaailmse ettevõtmisega ja me kutsume kõiki osalema. Meie eesmärgiks on aidata kõnetehnoloogial paremini toime tulla inimkõne suure mitmekesisusega.
+data-get-started = <speechBlogLink>Tutvu kõnetuvastusega</speechBlogLink>
+data-other-title = Teised hääleandmekogud…
+data-other-goto = Mine andmekogusse { $name }
+data-other-download = Laadi andmed alla
 
 ## Record Page
 
