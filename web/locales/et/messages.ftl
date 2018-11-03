@@ -109,7 +109,9 @@ privacy = Privaatsus
 terms = Tingimused
 cookies = Küpsised
 faq = KKK
+content-license-text = Andmed on saadaval <licenseLink>Creative Commons litsentsi all</licenseLink>
 share-title = Aidake meil leida teisigi, kes meid oma häälega aitaks!
+share-text = Aidake meil õpetada masinatele inimeste moodi rääkimist, anneta meile oma hääl järgneval aadressil: { $link }
 link-copied = Link kopeeriti
 back-top = Tagasi üles
 
