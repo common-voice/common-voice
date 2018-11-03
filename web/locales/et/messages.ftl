@@ -173,13 +173,34 @@ shortcut-play-toggle-label = Esita/Peata
 
 shortcut-record-toggle-label = Salvesta/Peata
 request-language-text = Kas sa ei leia veel oma keelt Common Voice projektis?
+request-language-button = Esita soov keele lisamiseks
 
 ## ProjectStatus
 
+status-title = Projekti üldine seis: vaata, kui kaugel me oleme!
+status-contribute = Anneta oma hääl
+status-hours =
+    { $hours ->
+        [one] Üks kõneandmete tund nüüdseks kontrollitud!
+       *[other] { $hours } kõneandmete tundi nüüdseks kontrollitud!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Järgmine eesmärk: { $goal }
 english = inglise
 
 ## ProfileForm
 
+profile-form-cancel = Lahku ankeedilt
+profile-form-delete = Kustuta profiil
+profile-form-username =
+    .label = Kasutajanimi
+profile-form-language =
+    .label = Keel
+profile-form-accent =
+    .label = Aktsent
+profile-form-age =
+    .label = Vanus
 
 ## FAQ
 
