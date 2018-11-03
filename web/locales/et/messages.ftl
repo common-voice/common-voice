@@ -201,6 +201,30 @@ profile-form-accent =
     .label = Aktsent
 profile-form-age =
     .label = Vanus
+profile-form-gender =
+    .label = Sugu
+leaderboard-visibility =
+    .label = Nähtavus pingereas
+native-language =
+    .label = Emakeel
+profile-form-submit-save = Salvesta
+profile-form-submit-saved = Salvestatud
+profile-keep-data = Andmed säilitatakse
+profile-delete-data = Kustuta andmed
+male = mees
+female = naine
+# Gender
+other = muu
+why-profile-title = Milleks profiil?
+why-profile-text = Teades andmeid sinu kohta, saab sinu poolt Common Voice projekti lisatud helifaile paremini kasutada kõnetuvastusprogrammide arendamiseks.
+edit-profile = Muuda profiili
+profile-create = Profiili loomine
+profile-create-success = Suurepärane, profiil on loodud!
+profile-close = Sulge
+profile-clear-modal = Kui sa tühjendad oma profiili, siis ei edastata neid demograafilisi andmeid enam Common Voice projektile koos sinu salvestistega.
+profile-explanation = Jälgi profiili abil oma edenemist ja ühtlasi aita ka meil saada täpsemaid hääleandmeid.
+thanks-for-account = Täname, et kinnitasid oma kasutajakonto, loome nüüd sulle profiili.
+why-demographic = Miks see oluline on?
 
 ## FAQ
 
