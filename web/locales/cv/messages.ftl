@@ -93,16 +93,18 @@ terms = Шывӗ-йӗрки
 cookies = Кукисем
 faq = Ыйту-хурав
 content-license-text = Кунти материалсене <licenseLink>Creative Commons licence</licenseLink> лицензипе усӑ курма пулать
-share-title = Сассине парнелекен, ҫырса илекен ҫынсене тупма пулӑш! 
+share-title = Сассине парнелекен, ҫырса илекен ҫынсене тупма пулӑш!
 share-text = Машинсене чӑн ҫынсен сассисене ӑнлайнма пулӑшар, хӑвӑран сассӑра парнелӗр { $link }
+link-copied = Каҫҫине копиленӗ
 back-top = Ҫӳлелле хӑпар
+contribution-banner-button = Пӑхса ил
 
 ## Home Page
 
 home-title = «Common Voice» проекчӗ - машинасене чӑн çынсен сассипе калаçма вӗрентес тӗллевпе шухӑшласа кӑларнӑ «Mozilla» пуçарӑвӗ.
 home-cta = Кунта хутшӑн, кала-ха!
 wall-of-text-start = Сас натураллӑ, сас харпӑр. Ҫавӑнпа та эпир пирӗн машинсем валли аван чӗлхе технологине тума тӑрӑшатпӑр. Анчах сас технологийӗсем ярмашӑн, питӗ нумай ҫырӑвсем кирлӗ.
-wall-of-text-more-mobile = Корпорацисем уса куракан нумайӑшӗ даннӑйсем чылайӑш ҫын валли уҫӑ мар. Эпир ку инновацисен аталӑвне пусарать тесе шутлатпӑр. Ҫавӑнпа та эпир Common Voice проекта хута ятӑмӑр, вӑл сасӑ уйӑраспа кашнине пулӑшӗ. 
+wall-of-text-more-mobile = Корпорацисем уса куракан нумайӑшӗ даннӑйсем чылайӑш ҫын валли уҫӑ мар. Эпир ку инновацисен аталӑвне пусарать тесе шутлатпӑр. Ҫавӑнпа та эпир Common Voice проекта хута ятӑмӑр, вӑл сасӑ уйӑраспа кашнине пулӑшӗ.
 wall-of-text-more-desktop =
     Сассуна парнелесе пурне те уҫӑ сасӑ пуххине пуҫтарма пулӑш. Ҫак сасӑ пуххи мобиллӗ хатӗрӗсемпе тӗнче тетелӗ валли инновациллӗ программӑсем тума май парӗ.
     <lineBreak></lineBreak>
@@ -114,6 +116,11 @@ no-clips-to-validate = Ҫак чӗлхен нимле клипта ҫук икк
 vote-yes = Ҫапла
 vote-no = Ҫук
 toggle-play-tooltip = Янӑраттару режимне ылмаштарас тесен { shortcut-play-toggle } пусӑр
+x-years-short =
+    { $count ->
+        [one] { $count }ҫ
+       *[other] { $count }ҫ
+    }
 
 ## Speak & Listen Shortcuts
 
@@ -171,6 +178,7 @@ profile-create-success = Анӑслӑ, профиль тӑвӑннӑ!
 profile-close = Хуп
 profile-clear-modal = Профиль катертни демографи инофрмацийӗ урӑх Common Voice сирӗн ҫырӑвсемпе каймасть тенине пӗлтереть.
 profile-explanation = Профильте хӑвӑрӑн аталанӑвӑра йӗрлӗр тата пирӗн сассӑмӑра лайӑхрах тума пулӑшӑр.
+why-demographic = Мӗн тума кирлӗ ку?
 
 ## FAQ
 
@@ -213,7 +221,7 @@ data-download-deny = Ҫук
 data-download-license = Лицензи: <licenseLink>CC-0</licenseLink>
 data-download-modal = Эсир <size>{ $size } ГБ</size> уҫласа илесшӗн, малалла?
 data-subtitle = Эпир уҫӑ та кашни валли усӑ курма юрӑхлӑ сасӑ даннӑйӗсен пуххине кашни ҫын хайӗн программине вӗрентес тӗллевпе усӑ курма пултартӑр тесе тӑватпӑр.
-data-explanatory-text = Эпир пысӑк та пурин валли те уҫӑ сасӑ даннӑйӗсен пуххи машина-вӗрентес саса уйӑрасси технологинче инновацисемпе сывӑ коммерци конкуренцине стимулласине ӗненетпӗр. Ҫакӑ вӑл глбалла инициативӑ, эпир пӗтӗммине кунта хутшӑнма чӗнетпӗр. Пирӗн тӗллев - сасӑ технологисене пӗтӗм енлӗ усӑ курма юрӑхлӑ тата тӗнчери тӗрлӗрен сасӑсене уйӑрассине тӑвасси. 
+data-explanatory-text = Эпир пысӑк та пурин валли те уҫӑ сасӑ даннӑйӗсен пуххи машина-вӗрентес саса уйӑрасси технологинче инновацисемпе сывӑ коммерци конкуренцине стимулласине ӗненетпӗр. Ҫакӑ вӑл глбалла инициативӑ, эпир пӗтӗммине кунта хутшӑнма чӗнетпӗр. Пирӗн тӗллев - сасӑ технологисене пӗтӗм енлӗ усӑ курма юрӑхлӑ тата тӗнчери тӗрлӗрен сасӑсене уйӑрассине тӑвасси.
 data-get-started = <speechBlogLink>Калаҫӑва уянипе ӗҫлеме пуҫла</speechBlogLink>
 data-other-title = Ытти сасӑ пухмӑшӗсем
 data-other-goto = { $name } ҫине куҫ
@@ -256,7 +264,7 @@ review-delete-recordings = Манӑн ҫырусене картла
 
 ## Download Modal
 
-download-title = «Common Voice» пӗлем пуххисем 
+download-title = «Common Voice» пӗлем пуххисем
 download-helpus = Пире чӗлхе технологисмепе  ушкӑн тума пулӑшӑр, пирӗнпе электронлӑ пуштӑпа ҫыхӑнма пултаратӑр.
 download-form-email =
     .label = Эл. пуштӑ
@@ -286,7 +294,6 @@ request-language-success-content = Эпир сирӗнпе ҫывӑх вӑхӑт
 language-section-in-progress = Тӑвӑнать
 language-section-in-progress-description = Ҫак вӑхӑтра чӗлхесем пирӗн ушкӑнсем валли тӑвӑнаҫӗ; вӗсен прогрессӗ локализаци этапӗпе вебсайт суйлӑвӗнче курӑнать.
 language-section-launched = Ярӑннӑ
-language-section-launched-description = Ҫак янӑ чӗлхесем валли вебсайт ӑнӑҫлӑ локализациленнӗ та кирлӗ чӳхле предложенисем пухӑннӑ <italic>{ speak }</italic> тата <italic>{ listen }</italic> хушас юрӑхлине.
 languages-show-more = Нумайрах кур
 languages-show-less = Сахалрах кур
 language-speakers = Калаҫакансем
@@ -294,6 +301,7 @@ language-meter-in-progress = Прогресс
 language-total-progress = Пӗтӗмӗшле
 language-search-input =
     .placeholder = Шырав
+language-speakers = Калаҫакансем
 
 ## New Contribution
 
@@ -303,7 +311,6 @@ contribute = Хуш
 listen = Итле
 skip = Сиктер
 shortcuts = Клавиша пӗрлешӗвӗсем
-clips = Клипсем
 contribute-more =
     { $count ->
         [one] Тата { $count } тума хатӗр-и?
@@ -320,11 +327,6 @@ review-tooltip = Тӗрӗслӗр & ҫӗнӗрен ҫырӑр клипсене
 unable-speak = Хальлӗхе калаҫма хатӗр-и?
 review-instruction = Тӗрӗслӗр & ҫӗнӗрен ҫырӑр клипсене кирлӗ тӗк
 record-submit-tooltip = { $actionType } пусӑр пӗтерсессӗн
-clips-submitted =
-    { $count ->
-        [one] { $count } клип ярӑннӑ!
-       *[other] { $count } клип ярӑннӑ!
-    }
 record-abort-title = Малтан ҫырӑва пӗтеретре?
 record-abort-text = Халӗ чарӑнсассӑн эсир пӗтӗм прогреса ҫухататӑр
 record-abort-submit = Клипсене яр
