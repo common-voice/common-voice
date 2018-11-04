@@ -248,6 +248,7 @@ login-identity = Кӗмелли идентификатор
 edit = Тӳрлет
 email-subscriptions = Эл. пуштӑ ҫырӑнни
 download-profile = Ман пӗлӗме тиесе антар.
+skip-submission-feedback = Ӗҫне хакланине сиктер
 skip-submission-note = Асӑрха: "Кала" е "Итле" режима суйламалла.
 off = Сӳнтернӗ
 on = Ҫутнӑ
@@ -363,10 +364,11 @@ request-language-success-content = Эпир сирӗнпе ҫывӑх вӑхӑт
 
 ## Languages Overview
 
-language-section-in-progress = Тӑвӑнать
+language-section-in-progress = Хатӗрленекен
 language-section-in-progress-description = Ҫак вӑхӑтра чӗлхесем пирӗн ушкӑнсем валли тӑвӑнаҫӗ; вӗсен прогрессӗ локализаци этапӗпе вебсайт суйлӑвӗнче курӑнать.
-language-section-launched = Ярӑннӑ
-languages-show-more = Нумайрах кур
+language-section-launched = Тапратнӑ
+language-section-launched-new-description = Ҫакӑ тапратнӑ чӗлхесем валли сайта куҫарса тухнӑ. Пуплерӗшсене ҫителӗклӗн пуҫтарнӑ. Вӗсене <italic>Кала</italic> тата <italic>Итле</italic> ӗҫлеме пулать.
+languages-show-more = Ыттисем
 languages-show-less = Сахалрах кур
 language-speakers = Калаҫакансем
 language-meter-in-progress = Прогресс
@@ -417,4 +419,4 @@ listen-3rd-time-instruction = Иккӗ хатӗр, малалла! <playIcon></p
 listen-last-time-instruction = <playIcon></playIcon>Юлашки!
 nothing-to-validate = Ку чӗлхере ҫирӗплетмелли юлман, пире черете тултарма пулӑш.
 record-button-label = Санӑн сасуна ҫырӑв
-share-title-new = <bold>Пулӑшӑр пире</bold> нумайрах сасӑ тупма
+share-title-new = Ытти сас тупма <bold>пире пулӑш</bold>
