@@ -1,6 +1,7 @@
 ## General
 
 yes-receive-emails = Bai, bidali e-postak niri. Common Voice proiektuari buruz informatuta egon nahi nuke.
+stayintouch = Mozillan hizkuntza teknologiaren inguruan komunitate bat eraikitzen ari gara. Zurekin harremanetan jarri nahiko genuke eguneraketen berri emateko, datu-iturri berriak eta datu hauek nola erabiltzen ari zaren.
 return-to-cv = Itzuli Common Voicera
 email-input =
     .label = E-posta
@@ -286,6 +287,7 @@ review-delete-recordings = Ezabatu nire grabazioak
 ## Download Modal
 
 download-title = Zure deskarga hasi da.
+download-helpus = Lagun gaitzazu hizkuntza teknologiaren inguruan komunitate bat eraikitzen, egon gaitezen harremanetan e-posta bidez.
 download-form-email =
     .label = Idatzi zure e-posta
     .value = Eskerrik asko, elkarren berri izango dugu.
