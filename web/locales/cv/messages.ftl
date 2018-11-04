@@ -22,7 +22,7 @@ ast = Астурла
 az = Азербайджанла
 bn = Бенгалла
 br = Бретонла
-bxr = Буратла
+bxr = Бурятла
 ca = Каталанла
 cnh = Гаха Чинла
 cs = Чехла
@@ -30,8 +30,10 @@ cv = Чӑвашла
 cy = Валлий
 da = Датчан
 de = Нимӗҫле
+dsb = Сорбла
 el = Грекла
 en = Акӑлчанла
+eo = Эсперантолла
 es = Испанла
 et = Эстонла
 fi = Финнла
@@ -47,13 +49,20 @@ it = Итальянла
 ja = Японла
 ka = Грузинла
 kab = Кабил
+kk = казахла
 ko = Корейла
+kpv = Коми-зырянла
 kw = Корнла
+ky = Кӑркӑсла
+mdf = Мӑкшӑлла
 mk = Македонла
+mn = Монголла
+myv = Ирҫелле
 nb-NO = Норвеги Букмол
 ne-NP = Непалла
 nl = Голландла
 nn-NO = Норвеги Нюнорск
+oc = Окситанла
 or = Ория
 pl = Полякла
 pt-BR = Португалла (Бразили)
@@ -71,7 +80,9 @@ th = Тайла
 tr = Турккӑлла
 tt = Тутарла
 uk = Украинла
+ur = Урдулла
 uz = Узбекла
+vi = Вьетнамла
 zh-CN = Китайла (Китай)
 zh-HK = Китайла (Гонг Конг)
 zh-TW = Китайла (Тайвань)
@@ -97,7 +108,9 @@ share-title = Сассине парнелекен, ҫырса илекен ҫы�
 share-text = Машинсене чӑн ҫынсен сассисене ӑнлайнма пулӑшар, хӑвӑран сассӑра парнелӗр { $link }
 link-copied = Каҫҫине копиленӗ
 back-top = Ҫӳлелле хӑпар
+contribution-banner-text = Ҫӗнӗ интерфейс хатӗрлерӗмӗр
 contribution-banner-button = Пӑхса ил
+report-bugs-link = Багсене пӗлтер
 
 ## Home Page
 
@@ -116,21 +129,55 @@ no-clips-to-validate = Ҫак чӗлхен нимле клипта ҫук икк
 vote-yes = Ҫапла
 vote-no = Ҫук
 toggle-play-tooltip = Янӑраттару режимне ылмаштарас тесен { shortcut-play-toggle } пусӑр
+speak-subtitle = Сассуна парнеле
+speak-goal-text = Ҫырса хунӑ сыпӑк
+listen-subtitle = Сассене ҫирӗплетме пулӑш-ха
+listen-goal-text = Ҫирӗплетнӗ сыпӑк
+hours-recorded = Ҫырса хунӑ сехет
+hours-validated = Ҫирӗплетнӗ сехет
+read-terms-q = Условисене вуласа тухрӑн-и?
+ready-to-record = Сассуна парнелетӗн-и?
+all-languages = Пур чӗлхе
+today = Паян
+x-weeks-short =
+    { $count ->
+        [one] { $count } эрне
+       *[other] { $count } эрне
+    }
+x-months-short =
+    { $count ->
+        [one] { $count } уйӑх
+       *[other] { $count } уйӑх
+    }
 x-years-short =
     { $count ->
-        [one] { $count }ҫ
-       *[other] { $count }ҫ
+        [one] { $count } ҫул
+       *[other] { $count } ҫул
     }
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
 shortcut-play-toggle-label = Янраттар/Чар
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
 shortcut-record-toggle-label = Ҫыр/Чарӑн
 request-language-text = Хальлӗхе хӑвӑрӑн чӗлхӗре Common Voice хушшинче курмастӑр?
 request-language-button = Чӗлхене ярса пама ыйт
@@ -163,7 +210,12 @@ profile-form-age =
     .label = Миҫе ҫулта
 profile-form-gender =
     .label = Арлӑх
+leaderboard-visibility =
+    .label = Рейтинг курӑнӑвӗ
+native-language =
+    .label = Тӑван чӗлхе
 profile-form-submit-save = Çырса хур
+profile-form-submit-saved = Ҫырса хунӑ
 profile-keep-data = Упра даннӑйсене
 profile-delete-data = Даннӑйсене катерт
 male = Арҫынла
@@ -178,7 +230,15 @@ profile-create-success = Анӑслӑ, профиль тӑвӑннӑ!
 profile-close = Хуп
 profile-clear-modal = Профиль катертни демографи инофрмацийӗ урӑх Common Voice сирӗн ҫырӑвсемпе каймасть тенине пӗлтереть.
 profile-explanation = Профильте хӑвӑрӑн аталанӑвӑра йӗрлӗр тата пирӗн сассӑмӑра лайӑхрах тума пулӑшӑр.
+thanks-for-account = Аккаунта ҫиреплетнӗшӗн тав, халь вара санӑн профиле хывар.
 why-demographic = Мӗн тума кирлӗ ку?
+accept-privacy = Ҫак пӗлӗмпе <privacyLink>харпӑрлӑх политикине</privacyLink> тӑрӑх усӑ курнипе килӗшетӗп.
+login-identity = Кӗмелли идентификатор
+edit = Тӳрлет
+email-subscriptions = Эл. пуштӑ ҫырӑнни
+download-profile = Ман пӗлӗме тиесе антар.
+off = Сӳнтернӗ
+on = Ҫутнӑ
 
 ## FAQ
 
@@ -327,6 +387,7 @@ review-tooltip = Тӗрӗслӗр & ҫӗнӗрен ҫырӑр клипсене
 unable-speak = Хальлӗхе калаҫма хатӗр-и?
 review-instruction = Тӗрӗслӗр & ҫӗнӗрен ҫырӑр клипсене кирлӗ тӗк
 record-submit-tooltip = { $actionType } пусӑр пӗтерсессӗн
+clips-uploaded = Сыпӑксем тиенӗ
 record-abort-title = Малтан ҫырӑва пӗтеретре?
 record-abort-text = Халӗ чарӑнсассӑн эсир пӗтӗм прогреса ҫухататӑр
 record-abort-submit = Клипсене яр
@@ -336,5 +397,6 @@ listen-instruction = { $actionType }<playIcon></playIcon> тӗрӗс предл�
 listen-again-instruction = Питӗ лайӑх!<playIcon></playIcon> Тепре итлӗр хатӗр пулсассӑн
 listen-3rd-time-instruction = Иккӗ хатӗр, малалла! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Юлашки!
+nothing-to-validate = Ку чӗлхере ҫирӗплетмелли юлман, пире черете тултарма пулӑш.
 record-button-label = Санӑн сасуна ҫырӑв
 share-title-new = <bold>Пулӑшӑр пире</bold> нумайрах сасӑ тупма
