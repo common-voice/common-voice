@@ -124,6 +124,7 @@ wall-of-text-more-desktop =
     Сассуна парнелесе пурне те уҫӑ сасӑ пуххине пуҫтарма пулӑш. Ҫак сасӑ пуххи мобиллӗ хатӗрӗсемпе тӗнче тетелӗ валли инновациллӗ программӑсем тума май парӗ.
     <lineBreak></lineBreak>
     Пуплерӗшсене /предложенисене/ вуласа ҫырса илни машинӑсене чӗрӗ ҫынсем мӗнле пупленине вӗрентет. Ытти ҫын ӗҫне тӗрӗслени вара пахалӑхне ӳсӗмлетет. Ҫӑмӑлтан ҫӑмӑл!
+wall-of-text-first = Сас — кулленхи пурнӑҫ тӗлӗнтермӗшӗ. Ҫавӑнпа машинсем валли сас технологине тума вӗҫӗмсӗр хавас. Ҫапах та сас системисене тӑвас тесен, шутсӑр нумай сас пӗлӗмӗ кирлӗ.
 show-wall-of-text = Туллин
 help-us-title = Пуплерӗшсене /предложенисене/ тӗрӗслеме пулӑш-ха!
 help-us-explain = Пусса калаттар, аялти пуплерӗш (предложени) калани тӗрӗс-и е тӗрӗс мар?
@@ -181,7 +182,7 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Ҫыр/Чарӑн
-request-language-text = Хальлӗхе хӑвӑрӑн чӗлхӗре Common Voice хушшинче курмастӑр?
+request-language-text = Хальлӗхе хӑвӑн чӗлхӳ Common Voice-ра ҫук-ши?
 request-language-button = Чӗлхене ярса пама ыйт
 
 ## ProjectStatus
@@ -262,7 +263,7 @@ faq-native-a = Паллах, санӑн сассу та кирлӗ! "Халӑх 
 faq-firefox-q = «Халӑх сасси» (Common Voice) урлӑ пуплеве уяни Firefox-ӑн пайӗ пулӗ-и?
 faq-firefox-a = Common Voice вӗҫсӗр потенциаллӑ, эпир чӑнах та хамӑр продуктсенче сасӑ интферфейсӗсене усӑ курассине сӑнатпӑр, вӗсем хушшинче Firefox та.
 faq-quality-q = Ҫыру валли менле сас пахалӑхӗ кирле?
-faq-quality-a = Сасӑ пахалӑхе пире чӑн пахалӑхӗпе кирле, ҫак сасса сасран текста куҫаракан механизм илтӗ. Ҫавӑнпа та пире терлӗ йышши кирлӗ. Ҫакӑ калаҫӑва урӑхлаттаракан механизма ҫын сассине тӗрлӗ сассем кушшинче - урӑх калаҫусем, машинсен , вентиляторсен сассисен хушшинче тӗрӗс ӑнланма пулӑшӗ.
+faq-quality-a = Сасӑ пахалӑхе пире чӑн пурнӑҫри пултӑр, ҫак сасса сасран текста куҫаракан механизм илтӗ. Ҫавӑнпа та пире терлӗ йышши кирлӗ. Ҫакӑ калаҫӑва урӑхлаттаракан механизма ҫын сассине тӗрлӗ сассем кушшинче - урӑх калаҫусем, машинсен , вентиляторсен сассисен хушшинче тӗрӗс ӑнланма пулӑшӗ.
 faq-hours-q = 10.000 сехет мӗншӗн кирлӗ?
 faq-hours-a = Ку STT системине вӗренме кирли примерла сехет хисепӗ.
 faq-source-q = Ҫырса илни текст ӑҫтан килет?
@@ -306,7 +307,7 @@ license-mixed = Хутӑш
 
 record-platform-not-supported = Шел, санӑн платформа ҫинче пирӗн система хальлӗхе ӗҫлемест
 record-platform-not-supported-desktop = Компьютер валли ҫӗннине тиеме май пур:
-record-platform-not-supported-ios = <bold>iOS</bold> усӑҫӗсем пирӗн тӳлевсĕр хушӑм тиейеҫҫӗ:
+record-platform-not-supported-ios = <bold>iOS</bold> усӑҫӗсем валли акӑ пирӗн тӳлевсĕр хушӑм:
 record-must-allow-microphone = Санӑн микрофонпа усӑ курма ирӗк пар-ха.
 record-retry = Тепре
 record-no-mic-found = Микрофон тупӑнман.
@@ -352,8 +353,8 @@ contact-required = * кирлӗ
 request-language-title = Чӗлхене ярса пама ыйт
 request-language-form-language =
     .label = Чӗлхе
-request-language-success-title = Чӗлхе хушасси ыйтӑвӗ ӑнӑҫӳллӑ ярӑннӑ, тавтапуҫ.
-request-language-success-content = Эпир сирӗнпе ҫывӑх вӑхӑтра ҫыхӑнӑпӑр, мӗнле Common Voice хушшине ҫӗнӗ чӗлхе хушассине пӗлтерме.
+request-language-success-title = Пулчӗ! Чӗлхе хушас ыйтӑва йышӑнтӑмӑр. Тав!
+request-language-success-content = Эпир сирӗнпе ҫывӑх вӑхӑтра ҫыхӑнӑпӑр, мӗнле Common Voice хушшине ҫӗнӗ чӗлхе хушассине кӑтартӑпӑр.
 
 ## Languages Overview
 
@@ -376,10 +377,10 @@ total-hours = Ҫирӗплетнӗ сехет
 
 action-click = Пус
 action-tap = Лекӗн
-contribute = Хуш
+contribute = Атя, хутшӑн
 listen = Итле
 skip = Сиктер
-shortcuts = Клавиша пӗрлешӗвӗсем
+shortcuts = «хӑвӑрт» пускӑчсем
 clips-with-count = <bold>{ $count }</bold> сыпӑк
 goal-help-recording = Common Voice-а кулленхи { $goalValue } ҫырса хума тӗллӗвӗн <goalPercentage></goalPercentage> ҫитертӗн!
 goal-help-validation = Common Voice-а кулленхи { $goalValue } ҫирӗплетме тӗллӗвӗн <goalPercentage></goalPercentage> ҫитертӗн!
