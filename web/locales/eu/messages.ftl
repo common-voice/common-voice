@@ -119,6 +119,8 @@ report-bugs-link = Lagun iezaguzu arazoen berri ematen
 ## Home Page
 
 home-cta = Mintzatu, lagundu hemen!
+wall-of-text-start = Ahotsa naturala da, ahotsa gizatiarra da. Horregatik hain zuzen gure gailuetarako ahots teknologia erabilgarria sortzearen ideiak sorginduta gauzka.  Baina ahots sistemak sortzeko benetan ahots grabaketa asko behar dira.
+wall-of-text-first = Ahotsa naturala da, ahotsa gizatiarra da. Horregatik hain zuzen gure gailuetarako ahots teknologia erabilgarria sortzearen ideiak sorginduta gauzka.  Baina ahots sistemak sortzeko, garatzailek benetan ahots grabaketa asko behar dituzte.
 show-wall-of-text = Irakurri gehiago
 help-us-title = Lagun gaitzazu esaldiak balioztatzen!
 no-clips-to-validate = Badirudi ez dagoela klip gehiagorik entzuteko hizkuntza honetan. Lagun gaitzazu ilara betetzen grabaketa batzuk orain eginez.
