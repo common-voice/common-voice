@@ -242,6 +242,7 @@ login-identity = Кӗмелли идентификатор
 edit = Тӳрлет
 email-subscriptions = Эл. пуштӑ ҫырӑнни
 download-profile = Ман пӗлӗме тиесе антар.
+skip-submission-note = Асӑрха: "Кала" е "Итле" режима суйламалла.
 off = Сӳнтернӗ
 on = Ҫутнӑ
 
