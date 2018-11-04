@@ -353,6 +353,7 @@ unable-speak = Ezin duzu mintzatu orain?
 review-instruction = Berrikusi eta berriz grabatu klipak beharrezkoa bada
 record-submit-tooltip = { $actionType } bidali prest egotean
 clips-uploaded = Igotako klipak
+record-abort-title = Aurretik grabazioa bukatu?
 record-abort-text = Orain ateratzen bazara egin berri dituzunak galduko dira
 record-abort-submit = Bidali klipak
 record-abort-continue = Bukatu grabazioa
