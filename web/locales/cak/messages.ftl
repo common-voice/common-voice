@@ -15,6 +15,7 @@ loading = Nisamajib'ëx...
 
 ## Languages
 
+ace = Achenes
 an = Aragones
 ar = Arabe
 as = Assames
@@ -58,6 +59,7 @@ ko = Coreano
 kpv = Komi-Zyrian
 kw = Cornico
 ky = Kirguis
+mdf = Moksha
 mk = Macedonio
 mn = aj Mongolia
 myv = Erzya
@@ -69,6 +71,7 @@ oc = aj Occitania
 or = Odia
 pl = Polaco
 pt-BR = Portugues (Brasil)
+rm-sursilv = Romanche Sursilvan
 ro = Rumano
 ru = Ruso
 sah = Yakuto
@@ -236,6 +239,7 @@ profile-clear-modal = Toq nijosq'ïx taq rutzij ruwäch b'i'aj nub'än chi man x
 profile-explanation = Tatz'eta' ri asamaj pa jun ruwäch b'i'aj richin yato'on chi e ütz ri taq rutzij qach'ab'äl.
 thanks-for-account = Matyox xajikib'a' ri rub'i' ataqoya'l, wakami niqatz'ük qa ri ruwäch ab'i'.
 why-demographic = ¿Achike ruma k'atzinel re'?
+why-demographic-explanation = Ewäl rutzij okisanel achi'el rujuna', rub'anikil chuqa' ruk'oxom yeto'on richin ye'utziläx ri taq rutzij k'oxom e'okisan richin jeb'ël yetojtob'ëx ri taq rukanob'al ketamaxik taq ch'ab'äl. Ri rub'i' awokisanel chuqa' ataqoya'l majub'ey xkexim kik'in ri taq tzij xke'atäq chuqa' yatikïr nacha' we ri rub'i' awokisanel ewäl o nikitz'ët winaqi'.
 keep-me-posted =
     .label = Ninwajo' yek'ul taq k'exoj richin ninwetamaj ri ruk'iyirisaxik Common Voice.
 accept-privacy = Ütz ninwak'axaj rub'eyal nokisäx re etamab'äl re' achi'el nitzijöx pa <privacyLink>Richinanem Na'ojil</privacyLink> richin Mozilla
