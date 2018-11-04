@@ -233,6 +233,7 @@ faq-quality-q = Audioetan zein kalitate-maila behar da erabili ahal izateko?
 faq-hours-q = Zergatik da helburua 10.000 orduko audio grabaketak lortzea?
 faq-hours-a = Ekoizpeneko STT sistema bat entrenatzeko, gutxi gora behera, ordu kopuru hori behar da.
 faq-source-q = Testu-iturria nondik dator?
+faq-source-a2 = Gure jatorrizko esaldiak <dataLink>GitHub karpeta honetan</dataLink> ikus ditzakezu.
 
 ## Profile
 
@@ -249,6 +250,7 @@ data-download-button = Deskargatu Common Voiceko datuak
 data-download-yes = Bai
 data-download-deny = Ez
 data-download-license = Lizentzia: <licenseLink>CC-0</licenseLink>
+data-subtitle = Ahots datu-sorta ireki eta publiko bat sortzen ari gara, edonork erabil dezakeena ahots teknologia duten aplikazioak trebatzeko.
 data-other-title = Beste ahots datu-sortak...
 data-other-goto = Joan { $name }-(e)ra
 data-other-download = Deskargatu datuak
