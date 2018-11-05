@@ -251,6 +251,10 @@ skip-submission-description = 貢獻過程中，在點擊「送出」後將忽�
 skip-submission-note = 註: 您仍須要選擇「聽」或「說」來切換貢獻類型。
 off = 關
 on = 開
+browse-file = 拖曳至此處，或<browseWrap>瀏覽</browseWrap>
+connect-gravatar = 連結 Gravatar
+gravatar_not_found = 找不到您電子郵件信箱的 Gravatar
+file_too_large = 選擇的檔案太大
 
 ## FAQ
 
@@ -307,21 +311,6 @@ data-bundle-button = 下載資料集總組合
 data-bundle-description = Common Voice 資料，以及上面列出的所有其他語音資料集。
 license = 授權條款: <licenseLink>{ $license }</licenseLink>
 license-mixed = 混合
-
-## Record Page
-
-record-platform-not-supported = 很抱歉，目前暫不支援您的平台。
-record-platform-not-supported-desktop = 在桌上型電腦，您可以下載最新版的:
-record-platform-not-supported-ios = <bold>iOS</bold> 使用者可下載我們的免費程式:
-record-must-allow-microphone = 您必須允許使用麥克風。
-record-retry = 重試
-record-no-mic-found = 找不到麥克風
-record-error-too-short = 錄音太短了。
-record-error-too-long = 錄音太長了。
-record-error-too-quiet = 錄音太小聲了。
-record-submit-success = 成功送出，要再錄一次嗎？
-record-help = 點擊後開始錄音，然後大聲朗讀上面的句子。
-record-cancel = 取消重新錄音
 review-terms = 使用 Common Voice，就代表您同意我們的<termsLink>使用條款</termsLink>與<privacyLink>隱私權公告</privacyLink>
 terms-agree = 我同意
 terms-disagree = 我不同意
@@ -392,6 +381,15 @@ goal-help-recording = 您已幫助 Common Voice 完成 <goalPercentage></goalPer
 goal-help-validation = 您已幫助 Common Voice 完成 <goalPercentage></goalPercentage> 的每日 { $goalValue } 驗證目標！
 contribute-more = 準備好再作 { $count } 筆了嗎？
 record-cta = 開始錄音
+record-platform-not-supported = 很抱歉，目前暫不支援您的平台。
+record-platform-not-supported-desktop = 在桌上型電腦，您可以下載最新版的:
+record-platform-not-supported-ios = <bold>iOS</bold> 使用者可下載我們的免費程式:
+record-must-allow-microphone = 您必須允許使用麥克風。
+record-no-mic-found = 找不到麥克風
+record-error-too-short = 錄音太短了。
+record-error-too-long = 錄音太長了。
+record-error-too-quiet = 錄音太小聲了。
+record-cancel = 取消重新錄音
 record-instruction = { $actionType } 按下 <recordIcon></recordIcon> 然後大聲說出句子
 record-stop-instruction = { $actionType } 完成後按下 <stopIcon></stopIcon>
 record-three-more-instruction = 還有三筆！
