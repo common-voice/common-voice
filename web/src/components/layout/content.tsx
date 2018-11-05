@@ -52,7 +52,12 @@ export default localeConnector(
           path={toLocaleRoute(URLS.LANGUAGES)}
           component={LanguagesPages}
         />
-        <Route exact path={toLocaleRoute(URLS.DATA)} component={DataPage} />
+        <Route
+          exact
+          path={toLocaleRoute(URLS.DATA)}
+          render={() => <Redirect to={toLocaleRoute(URLS.DATASETS)} />}
+        />
+        <Route exact path={toLocaleRoute(URLS.DATASETS)} component={DataPage} />
         <Route
           exact
           path={toLocaleRoute(URLS.PROFILE)}

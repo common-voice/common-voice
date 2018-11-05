@@ -210,7 +210,7 @@ body:not(.focus) #scroller {
 .home #content,
 .record #content,
 .profile #content,
-.data #content {
+.datasets #content {
     margin: 0 auto;
     max-width: var(--old-desktop-width);
 }
@@ -270,7 +270,7 @@ body:not(.focus) #scroller {
         top: 3.5rem;
     }
 
-    .data #background-container {
+    .datasets #background-container {
         transform: translateY(1rem);
     }
 
@@ -367,13 +367,13 @@ body:not(.ios) .recording #background-container {
 }
 
 @media (--mobile) {
-    .data #background-container {
+    .datasets #background-container {
         background-image: var(--record-background-image-mobile);
     }
 }
 
 @media (--desktop) {
-    .data #background-container {
+    .datasets #background-container {
         background-image: var(--record-background-image);
     }
 }
@@ -495,7 +495,7 @@ body:not(.ios) .recording #background-container {
 
 .home,
 .record,
-.data {
+.datasets {
     & #background-container {
         opacity: 1;
     }

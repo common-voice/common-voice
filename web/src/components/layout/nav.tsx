@@ -14,7 +14,7 @@ export default ({ children, ...props }: { [key: string]: any }) => (
       </Localized>
     </ContributableLocaleLock>
     <Localized id="datasets">
-      <LocaleNavLink to={URLS.DATA} exact />
+      <LocaleNavLink to={URLS.DATASETS} exact />
     </Localized>
     <Localized id="languages">
       <LocaleNavLink to={URLS.LANGUAGES} exact />
