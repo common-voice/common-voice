@@ -1,25 +1,25 @@
-import { Localized } from 'fluent-react';
+import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, withRouter } from 'react-router';
 import { LOCALES, NATIVE_NAMES } from '../../services/localization';
-import { Recordings } from '../../stores/recordings';
 import StateTree from '../../stores/tree';
 import { User } from '../../stores/user';
 import { Locale } from '../../stores/locale';
 import URLS from '../../urls';
 import {
   getItunesURL,
-  isNativeIOS,
   isIOS,
+  isNativeIOS,
   isSafari,
   replacePathLocale,
 } from '../../utility';
 import {
-  MenuIcon,
-  OldPlayIcon,
   ChevronRight,
-  CrossIcon, MicIcon,
+  CrossIcon,
+  MenuIcon,
+  MicIcon,
+  OldPlayIcon,
 } from '../ui/icons';
 import { LabeledSelect, LinkButton } from '../ui/ui';
 import { ContributableLocaleLock } from '../locale-helpers';
@@ -40,7 +40,6 @@ const LOCALES_WITH_NAMES = LOCALES.map(code => [
 
 interface PropsFromState {
   locale: Locale.State;
-  isSetFull: boolean;
   user: User.State;
 }
 
@@ -88,7 +87,6 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     transitioning: false,
     isRecording: false,
     showContributionBanner: false,
-    // While showing the survey we're not showing the contribution banner
     // JSON.parse(localStorage.getItem(CONTRIBUTION_BANNER_KEY)) !== false,
     showStagingBanner: true,
   };
@@ -226,7 +224,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   };
 
   render() {
-    const { isSetFull, locale, location } = this.props;
+    const { locale, location } = this.props;
     const {
       hasScrolled,
       hasScrolledDown,
@@ -235,8 +233,8 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
       showStagingBanner,
     } = this.state;
 
-    const pageName = location.pathname.split('/')[2] || 'home';
-    let className = pageName;
+    const pathParts = location.pathname.split('/');
+    let className = pathParts[2] ? pathParts.slice(2).join(' ') : 'home';
     if (this.state.isRecording) {
       className += ' recording';
     }
@@ -348,13 +346,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
               {this.iOSBackground}
             </div>
             <div className="hero">
-              <Robot
-                position={
-                  pageName === 'record'
-                    ? isSetFull ? 'thanks' : 'record'
-                    : null
-                }
-              />
+              <Robot />
             </div>
             <div className="hero-space" />
             <Content
@@ -410,7 +402,6 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
 
 const mapStateToProps = (state: StateTree) => ({
   locale: state.locale,
-  isSetFull: Recordings.selectors.isSetFull(state),
   user: state.user,
 });
 

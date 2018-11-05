@@ -1,9 +1,11 @@
+import { AES, enc } from 'crypto-js';
 const Auth0Strategy = require('passport-auth0');
 import { Request, Response } from 'express';
 const PromiseRouter = require('express-promise-router');
 import * as session from 'express-session';
 const MySQLStore = require('express-mysql-session')(session);
 import * as passport from 'passport';
+import UserClient from './lib/model/user-client';
 import { getConfig } from './config-helper';
 
 const {
@@ -52,7 +54,7 @@ if (DOMAIN) {
   Auth0Strategy.prototype.authorizationParams = function(options: any) {
     var options = options || {};
 
-    var params: any = {};
+    const params: any = {};
     if (options.connection && typeof options.connection === 'string') {
       params.connection = options.connection;
     }
@@ -97,20 +99,32 @@ if (DOMAIN) {
 router.get(
   CALLBACK_URL,
   passport.authenticate('auth0', { failureRedirect: '/login' }),
-  ({ user }: Request, response: Response) => {
+  async ({ user, query }: Request, response: Response) => {
     if (!user) {
-      throw new Error('user null');
+      response.redirect('/login-failure');
+    } else if (query.state) {
+      const { old_sso_id } = JSON.parse(
+        AES.decrypt(query.state, SECRET).toString(enc.Utf8)
+      );
+      await UserClient.updateSSO(old_sso_id, user.id, user.emails[0].value);
+      response.redirect('/profile/preferences');
+    } else {
+      response.redirect('/login-success');
     }
-    response.redirect('/admin');
   }
 );
 
-router.get(
-  '/login',
-  passport.authenticate('auth0', {}),
-  (request: Request, response: Response) => {
-    response.redirect('/admin');
-  }
-);
+router.get('/login', (request: Request, response: Response) => {
+  const { user, query } = request;
+  passport.authenticate('auth0', {
+    state:
+      user && query.change_email !== undefined
+        ? AES.encrypt(
+            JSON.stringify({ old_sso_id: user.id }),
+            SECRET
+          ).toString()
+        : '',
+  } as any)(request, response);
+});
 
 export default router;

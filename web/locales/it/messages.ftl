@@ -15,6 +15,7 @@ loading = Caricamento in corso…
 
 ## Languages
 
+ace = Aceh
 an = Aragonese
 ar = Arabo
 as = Assamese
@@ -37,6 +38,7 @@ en = Inglese
 eo = Esperanto
 es = Spagnolo
 et = Estone
+fa = Persiano
 fi = Finlandese
 fo = Faroese
 fr = Francese
@@ -57,16 +59,19 @@ ko = Coreano
 kpv = Komi-Zyrian
 kw = Cornico
 ky = Kirghiso
+mdf = Mokša
 mk = Macedone
+mn = Mongolo
 myv = Erza
 nb-NO = Bokmål (Norvegia)
 ne-NP = Nepalese
 nl = Olandese
 nn-NO = Norvegese Nynorsk
+oc = Occitano
 or = Oriya
 pl = Polacco
 pt-BR = Portoghese (Brasile)
-rm = Romancio
+rm-sursilv = Romancio sottosilvano
 ro = Rumeno
 ru = Russo
 sah = Sacha
@@ -83,6 +88,7 @@ tt = Tataro
 uk = Ucraino
 ur = Urdu
 uz = Uzbeco
+vi = Vietnamita
 zh-CN = Cinese (Cina)
 zh-HK = Cinese (Hong Kong)
 zh-TW = Cinese (Taiwan)
@@ -209,6 +215,10 @@ profile-form-age =
     .label = Età
 profile-form-gender =
     .label = Sesso
+leaderboard-visibility =
+    .label = Visibilità nella classifica
+native-language =
+    .label = Lingua madre
 profile-form-submit-save = Salva
 profile-form-submit-saved = Salva
 profile-keep-data = Mantieni i dati
@@ -225,6 +235,22 @@ profile-create-success = Profilo creato con successo
 profile-close = Chiudi
 profile-clear-modal = Cancellare i dati del tuo profilo significa che le informazioni demografiche non saranno più inviate a Common Voice con le tue registrazioni.
 profile-explanation = Registra un profilo per tenere traccia dei tuoi progressi e aiutarci a migliorare la precisione dei dati vocali.
+thanks-for-account = Grazie per aver confermato il tuo account, ora iniziamo a completare il tuo profilo.
+why-demographic = Perché è importante?
+why-demographic-explanation = Dati utente anonimi come età, sesso e accento aiutano a migliorare i dati audio utilizzati per addestrare l’accuratezza dei motori di riconoscimento vocale. Il tuo nome utente ed email non saranno mai associati ai dati inviati e potrai scegliere se rendere il tuo nome utente pubblico o privato.
+keep-me-posted =
+    .label = Mi piacerebbe ricevere aggiornamenti su Common Voice.
+accept-privacy = Acconsento al trattamento dei dati come indicato nell’<privacyLink>informativa sulla privacy</privacyLink> di Mozilla
+login-identity = Identità di accesso
+edit = Modifica
+email-subscriptions = Sottoscrizioni a email
+download-profile = Scarica i miei dati
+contribution-experience = Esperienza di contributi
+skip-submission-feedback = Salta l’invio dei commenti
+skip-submission-description = Dopo aver premuto Invia durante l’invio del contributo, passerai direttamente al successivo set di 5 registrazioni o convalide, saltando la richiesta di fornire commenti.
+skip-submission-note = Nota: sarà comunque necessario selezionare Parla o Ascolta per modificare il tipo di contributo.
+off = Disattiva
+on = Attiva
 
 ## FAQ
 
@@ -355,7 +381,7 @@ total-hours = Ore convalidate
 
 ## New Contribution
 
-action-click = Clic
+action-click = Fai clic su
 action-tap = Tocca
 contribute = Contribuisci
 listen = Ascolta
@@ -375,7 +401,7 @@ record-last-instruction = <recordIcon></recordIcon> L’ultima!
 review-tooltip = Riascolta e, se necessario, ripeti le registrazioni prima di proseguire
 unable-speak = Non posso parlare in questo momento
 review-instruction = Riascolta le registrazioni e, se necessario, ripetile
-record-submit-tooltip = { $actionType } carica il tuo contributo quando è pronto
+record-submit-tooltip = { $actionType } Invia quando sei pronto
 clips-uploaded = Registrazioni caricate
 record-abort-title = Non vuoi finire la registrazione prima?
 record-abort-text = Se esci adesso perderai i progressi fatti

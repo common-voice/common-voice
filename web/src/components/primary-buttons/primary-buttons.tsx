@@ -1,19 +1,26 @@
 import * as React from 'react';
-import { MicIcon, OldPlayIcon, PlayIcon, StopIcon } from '../ui/icons';
+import URLS from '../../urls';
+import { LocaleLink } from '../locale-helpers';
+import { MicIcon, OldPlayIcon, StopIcon } from '../ui/icons';
 
 import './primary-buttons.css';
 
 export const PrimaryButton = ({
   className,
+  to,
   ...props
-}: React.ButtonHTMLAttributes<any>) => (
+}: { to?: string } & React.ButtonHTMLAttributes<any>) => (
   <div
     className={[
       'primary-button',
       className,
       props.disabled ? 'disabled' : '',
     ].join(' ')}>
-    <button type="button" {...props} />
+    {to ? (
+      <LocaleLink to={to} {...props} />
+    ) : (
+      <button type="button" {...props} />
+    )}
     <div className="background" />
   </div>
 );
@@ -33,11 +40,23 @@ export const RecordButton = ({
   </PrimaryButton>
 );
 
+export const RecordLink = () => (
+  <PrimaryButton className="stop" to={URLS.SPEAK}>
+    <MicIcon />
+  </PrimaryButton>
+);
+
 export const PlayButton = ({
   isPlaying,
   ...props
 }: { isPlaying: boolean } & React.ButtonHTMLAttributes<any>) => (
   <PrimaryButton className={isPlaying ? 'stop' : 'play'} {...props}>
     {isPlaying ? <StopIcon /> : <OldPlayIcon />}
+  </PrimaryButton>
+);
+
+export const PlayLink = () => (
+  <PrimaryButton className="play" to={URLS.LISTEN}>
+    <OldPlayIcon />
   </PrimaryButton>
 );

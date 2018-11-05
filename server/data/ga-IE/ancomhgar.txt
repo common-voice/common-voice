@@ -168,7 +168,7 @@ Bhí tae ag Síle
 Bhí, ach níl sé ar scoil inniu agus ní bheidh sé ar scoil amárach
 Bhí, go deimhin
 Bhíodar go deimhin
-Bhíodar go leir ag caint
+Bhíodar go léir ag caint
 Bhíodar, agus bhíomar féin ag obair anseo
 Bosca mór, an ea
 Cad a bhí agat
@@ -180,7 +180,7 @@ Cad eile a bhí agat
 Cad tá ar an mbinse anois
 Cad é an dath atá air
 Cad é an dath atá ar an mballa sin
-Cad é an dhath atá ar an leabhar atá agat
+Cad é an dath atá ar an leabhar atá agat
 Cad é an rud é sin
 Cailín deas donn
 Cathain a bheidh sé anseo
@@ -241,7 +241,7 @@ Feicim fear ar an mbóthar
 Feicim, a bhean uasal
 Feicim, a dhuine uasail
 I gCill Airne
-Is ar, a dhuine uasail
+Sin é, a dhuine uasail
 Is bosca é seo
 Is le Mícheál Ó Tuama é
 Is liom, a bhean uasal

@@ -27,7 +27,7 @@
         }
     }
 
-    & button {
+    & button, & a {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -42,6 +42,10 @@
         @media (--md-up) {
             width: 88px;
             height: 88px;
+        }
+
+        &:hover {
+            opacity: 1;
         }
 
         & svg {

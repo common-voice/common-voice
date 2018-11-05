@@ -1,10 +1,12 @@
 ## General
 
 yes-receive-emails = Миэхэ электроннай сурукта ыытын. Мин Common Voice проект туһунан сонуну истиэхпин баҕарабын.
+stayintouch = Биһиги Mozilla-ҕа саҥа технологиятын тула холбоһугу тутабыт. Биһиги саҥатытыы, саҥа даннайдар источниктарын туһунан биллэриэхпитин баҕарабыт уонна бу даннайдары хайдах туттаргытын туһунан истиэхпитин баҕарабыт.
 privacy-info = Эһиги информацияҕытын сэрэнэн туттуохпут диэн тылбытын биэрэбит. Салгыы биһиги <privacyLink>конфиденциальность биллэриибитигэр</privacyLink> аах.
 return-to-cv = Common Voice-ка төҥүн
 email-input =
     .label = Электроннай почта
+submit-form-action = Ыыт
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -99,12 +101,15 @@ cookies = Кукилар
 faq = Субу-субу биэриллэр ыйытыылар
 link-copied = Сигэ куопуйаланна
 back-top = Үөһээ төнүн
+contribution-banner-button = Көрөн ыл
 
 ## Home Page
 
 show-wall-of-text = Өссө аах
 vote-yes = Сөп
 vote-no = Суох
+all-languages = Тыллар барыта
+today = Бүгүн
 
 ## Speak & Listen Shortcuts
 
@@ -189,7 +194,6 @@ action-tap = Таарый
 contribute = Кытын
 listen = Иһит
 skip = Көтүт
-clips = Клиптар
 record-three-more-instruction = Үс хаалла!
 listen-last-time-instruction = <playIcon></playIcon>Бүтэһик!
 record-button-label = Куоласкын суруттар

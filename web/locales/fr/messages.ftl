@@ -15,6 +15,7 @@ loading = Chargement…
 
 ## Languages
 
+ace = Aceh
 an = Aragonais
 ar = Arabe
 as = Assamais
@@ -37,6 +38,7 @@ en = Anglais
 eo = Espéranto
 es = Espagnol
 et = Estonien
+fa = Persan
 fi = Finnois
 fo = Féroïen
 fr = Français
@@ -57,16 +59,19 @@ ko = Coréen
 kpv = Komi-zyriène
 kw = Cornique
 ky = Kirghize
+mdf = Mokcha
 mk = Macédonien
+mn = Mongol
 myv = Erzya
 nb-NO = Norvégien bokmål
 ne-NP = Népalais
 nl = Néerlandais
 nn-NO = Norvégien nynorsk
+oc = Occitan
 or = Odia
 pl = Polonais
 pt-BR = Portugais (Brésil)
-rm = Romanche
+rm-sursilv = Romanche sursilvan
 ro = Roumain
 ru = Russe
 sah = Iakoute
@@ -83,6 +88,7 @@ tt = Tatar
 uk = Ukrainien
 ur = Ourdou
 uz = Ouzbek
+vi = Vietnamien
 zh-CN = Chinois (Chine)
 zh-HK = Chinois (Hong-Kong)
 zh-TW = Chinois (Taïwan)
@@ -132,12 +138,31 @@ vote-no = Non
 toggle-play-tooltip = Appuyez sur { shortcut-play-toggle } pour lancer ou arrêter la lecture
 speak-subtitle = Donnez un peu de votre voix
 speak-paragraph = L’enregistrement d’échantillons de voix fait partie intégrante de notre collecte de données ouvertes ; certains diront même que c’est la partie la plus amusante.
+speak-goal-text = Échantillons enregistrés
 listen-subtitle = Aidez-nous à valider les échantillons vocaux
+listen-paragraph = La validation des échantillons vocaux donnés est également importante pour la mission Common Voice. Prenez l’écoute et aidez-nous à créer des données vocales libres de qualité.
+listen-goal-text = Extraits validés
 hours-recorded = Heures d’enregistrement
 hours-validated = Heures validées
 read-terms-q = Avez-vous lu les conditions d’utilisation ?
+ready-to-record = Êtes-vous prêt⋅e à donner de votre voix ?
 all-languages = Toutes les langues
 today = Aujourd’hui
+x-weeks-short =
+    { $count ->
+        [one] semaine
+       *[other] { $count } smn
+    }
+x-months-short =
+    { $count ->
+        [one] mois
+       *[other] { $count } mois
+    }
+x-years-short =
+    { $count ->
+        [one] an
+       *[other] { $count } ans
+    }
 
 ## Speak & Listen Shortcuts
 
@@ -194,6 +219,10 @@ profile-form-age =
     .label = Âge
 profile-form-gender =
     .label = Sexe
+leaderboard-visibility =
+    .label = Affichage public
+native-language =
+    .label = Langue maternelle
 profile-form-submit-save = Enregistrer
 profile-form-submit-saved = Enregistrer
 profile-keep-data = Conserver les données
@@ -210,6 +239,22 @@ profile-create-success = Bravo, votre profil est créé !
 profile-close = Fermer
 profile-clear-modal = Si vous effacez les données de votre profil, ces informations démographiques ne seront plus transmises à Common Voice avec vos enregistrements sonores.
 profile-explanation = Gardez un œil sur votre progression en créant un profil et aidez-nous à rendre nos données vocales plus précises.
+thanks-for-account = Merci d’avoir confirmé votre compte, maintenant créons votre profil.
+why-demographic = Pourquoi est-ce important ?
+why-demographic-explanation = Les données utilisateur anonymes comme l’âge, le sexe, et l’accent particulier contribuent à améliorer les données audio utilisées pour entraîner et rendre plus pertinents les moteurs de reconnaissance vocale. Votre nom d’utilisateur et votre adresse courriel ne seront jamais associés aux données que vous communiquez, et vous pouvez choisir entre rendre public votre nom d’utilisateur et garder l’anonymat.
+keep-me-posted =
+    .label = Je voudrais profiter des mises à jour et être tenu au courant des avancées du projet Common Voice.
+accept-privacy = J’accepte que vous utilisiez ces informations conformément à la <privacyLink>Politique de confidentialité</privacyLink> de Mozilla
+login-identity = Identité de connexion
+edit = Modifier
+email-subscriptions = Abonnements par courriel
+download-profile = Télécharger mes données
+contribution-experience = Expérience de contribution
+skip-submission-feedback = Passer l’envoi de commentaires
+skip-submission-description = L’envoi de commentaires sera désactivé après avoir choisi « Envoyer ». La contribution reprendra directement avec le jeu de 5 enregistrements ou validations suivant.
+skip-submission-note = Remarque : vous devez encore choisir entre Parler et Écouter pour modifier votre type de contribution.
+off = Désactivé
+on = Activé
 
 ## FAQ
 

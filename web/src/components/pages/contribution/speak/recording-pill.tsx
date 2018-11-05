@@ -1,7 +1,10 @@
-import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
+import {
+  LocalizationProps,
+  Localized,
+  withLocalization,
+} from 'fluent-react/compat';
 import * as React from 'react';
 const { Tooltip } = require('react-tippy');
-import { Recordings } from '../../../../stores/recordings';
 import {
   PlayOutlineIcon,
   RedoIcon,
@@ -10,12 +13,13 @@ import {
 } from '../../../ui/icons';
 import { ContributionPillProps } from '../contribution';
 import Pill, { PillStatus } from '../pill';
+import { SentenceRecording } from './sentence-recording';
 
 import './recording-pill.css';
 
 interface Props extends ContributionPillProps, LocalizationProps {
   children?: React.ReactNode;
-  clip: Recordings.SentenceRecording;
+  clip: SentenceRecording;
   onRerecord: () => any;
   status: PillStatus;
 }

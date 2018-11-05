@@ -1,6 +1,10 @@
 const spline = require('@yr/monotone-cubic-spline');
 import Downshift from 'downshift';
-import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
+import {
+  LocalizationProps,
+  Localized,
+  withLocalization,
+} from 'fluent-react/compat';
 import * as React from 'react';
 import { Component, SVGProps } from 'react';
 import { connect } from 'react-redux';
@@ -45,6 +49,7 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
       renderTooltipContents?: (state: State) => React.ReactNode;
       renderXTickLabel: (datum: any, i: number) => React.ReactNode;
       tickCount: number;
+      tickMultipliers: number[];
     } & PropsFromState &
       SVGProps<SVGElement>,
     State
@@ -70,12 +75,19 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
     }
 
     updateData = async () => {
-      const { api, fetchData, getMax, tickCount } = this.props;
+      const { api, fetchData } = this.props;
       const { locale } = this.state;
       const data = await fetchData(api, locale === ALL_LOCALES ? null : locale);
       if (locale !== this.state.locale) return;
+
+      const { getMax, tickCount, tickMultipliers } = this.props;
       const max = getMax(data);
-      const ticks = tickCount - 1;
+      const tickMultiplier =
+        tickMultipliers
+          .slice()
+          .reverse()
+          .find(m => max > m) || 1;
+      const ticks = (tickCount - 1) * tickMultiplier;
       this.setState({
         data,
         max: max + (ticks - max % ticks),
@@ -125,16 +137,12 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
                 openMenu,
                 toggleMenu,
               }) => (
-                <div
-                  className="select"
-                  onClick={() => toggleMenu()}
-                  onMouseEnter={() => openMenu()}
-                  onMouseLeave={() => closeMenu()}>
+                <div className="select" onClick={() => toggleMenu()}>
                   <Localized id={locale}>
                     <div className="current" />
                   </Localized>
                   {isOpen && (
-                    <ul>
+                    <ul onClick={() => toggleMenu()}>
                       {[ALL_LOCALES]
                         .concat(contributableLocales)
                         .map((l, i) => (
@@ -194,7 +202,7 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
               {data.map((datum, i) => (
                 <text
                   key={i}
-                  className="tick-label"
+                  className="x tick-label"
                   x={
                     LINE_OFFSET +
                     i * ((width - PLOT_PADDING - TEXT_OFFSET) / data.length)
@@ -418,7 +426,8 @@ export namespace ClipsStats {
               count: Math.floor(dayDiff / 365),
             });
           }}
-          tickCount={TICK_COUNT}>
+          tickCount={TICK_COUNT}
+          tickMultipliers={[10, 60, 600, 3600, 36000, 360000]}>
           {state => (
             <React.Fragment>
               <Path state={state} attribute="valid" />
@@ -467,7 +476,8 @@ export namespace VoiceStats {
           .replace(' AM', '')
           .replace(' PM', '')
       }
-      tickCount={TICK_COUNT}>
+      tickCount={TICK_COUNT}
+      tickMultipliers={[5, 10, 100, 1000]}>
       {({ data, max, width }) => {
         const getBarX = (i: number) =>
           LINE_OFFSET +

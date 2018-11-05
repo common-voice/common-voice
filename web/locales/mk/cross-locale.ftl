@@ -1,7 +1,7 @@
 ## Languages
 
+contribute = Придонеси
 get-involved-button = Вклучете се
-get-involved-cancel = Излези
 get-involved-title = Придонесете на { $lang }
 get-involved-text =
     Ви благодариме за интересот за придонес кон { $lang }. Работиме напорно за да ги подготвиме сите јазици пред лансирањето

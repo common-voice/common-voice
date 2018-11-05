@@ -2780,7 +2780,7 @@ Das musst du aushalten.
 Nach zwei Wochen ist es vorbei, versprach Christoph.
 Alexandra hört das Lied seit zwei Stunden in Dauerschleife.
 Hast du schon dein Seepferdchen gemacht, Alex?
-Wenn auf Bilderkennung trainierte, neuronale Netze träumen, erzeugen sie kunstvolle Bilder.
+Wenn auf Bilderkennung trainierte neuronale Netze träumen, erzeugen sie kunstvolle Bilder.
 Ich frage mich, ob neuronale Netze zur Spracherkennung beim Träumen anfangen zu sprechen.
 Wahrscheinlich wäre es eher unverständliches Gebrabbel.
 Aber man könnte wohl noch erkennen, um welche Sprache es sich handelt.
@@ -3365,7 +3365,7 @@ Ich denke, insgeheim hat Stefanie sich schon so etwas gedacht.
 Durch vernünftige Planung kann man effektiv verhindern, dass man Lebensmittel wegschmeißen muss.
 Für Singles ist es besonders einfach.
 Ach, das sind alles Ausreden!, widersprach Veronika energisch.
-Ich leih mir ein Fahrrad beim Hotel, meinte sie.
+Ich leihe mir ein Fahrrad beim Hotel, meinte sie.
 Wenn Computer von Menschen lernen, dann lernen sie oft auch Vorurteile.
 Dreimal im Jahr gibt es unangekündigte Kontrollen.
 Beachten Sie die Regeln der guten Küchenhygiene.

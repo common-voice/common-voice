@@ -1,6 +1,6 @@
 A Ard-Leifteanaint, A Chathaoirligh, A Chairde Gael,
 Go raibh míle maith agaibh as ucht na fíorchaoin fáilte a d’fhear sibh romham
-Comhgháirdeachas mór le Cnocán an Éin Fhinn
+Comhghairdeachas mór le Cnocán an Éin Fhinn
 Beir beannacht
 Go raibh míle maith agaibh go léir
 A Ardmhéara agus a Mhéara,
@@ -15,12 +15,12 @@ A dhaoine uaisle, a mhúinteoirí, a thuismitheoirí, agus a pháistí ach go h�
 Míle buíochas daoibh as an gcuireadh
 Ní haon ualach í an dátheangachas ar pháiste ná ar dhuine fásta
 Is ábhar mórtais agus bróid daoibh an méid sin
-Ní hé sin an taon chúis le Gaeilge a fhoghlaim dár n’doigh
+Ní hé sin an t-aon chúis le Gaeilge a fhoghlaim dar ndóigh
 Mar a dúirt an file Seamus Heaney
-Tá an saol mór amach rómhaibh a pháistí
+Tá an saol mór amach romhaibh a pháistí
 Agus mar a deir siad, tús maith, leath na hoibre
 Is iontach an obair atá ar siúl agaibh
-Óráid an Uachtaráin Uí Uigínn ag Féile Beo
+Óráid an Uachtaráin Uí Uiginn ag Féile Beo
 A Chairde Gael
 Go raibh míle maith agaibh as bhur bhfíorchaoin fáilte
 An Ghaeilge, teanga dhúchais an oileáin seo
@@ -39,7 +39,7 @@ Tá an Ghaeilge beo le cúig míle bliain ar a laghad
 Beo agus muid á labhairt lena chéile
 Beo agus muid ag bunú agus ag tógáil Gaelscoileanna nua
 Beo agus muid ag bunú agus ag forbairt Gaelphobal nua
-Beo agus muid ag freastail ar pop-up Gaeltachtaí ar fud an domhain
+Beo agus muid ag freastal ar pop-up Gaeltachtaí ar fud an domhain
 Bíodh an fhís sin beo
 Bíodh an Ghaeilge beo
 Bímis Gaelach, bródúil agus inár bpobal bheo
@@ -48,141 +48,141 @@ Go raibh míle maith agaibh go léir, agus bainigí sult as an lá
 Fearaim fíorchaoin fáilte romhaibh go léir chuig Áras an Uachtaráin ar an ócáid fíorstairiúil seo
 Tá seanchleachtadh ag formhór mór agaibh ar an scéal truamhéalach seo
 Dúnmharuithe uafásacha de chúigear clainne
-Coir déistineach a chur uafás ar an tír uile
-Bhí an méad a tharla i ndiaidh na dúnmharuithe chomh tubaisteach céanna
+Coir dhéistineach a chuir uafás ar an tír uile
+Bhí an méid a tharla i ndiaidh na ndúnmharuithe chomh tubaisteach céanna
 Ar deireadh, chinn sí gur droch-chiontú a bhí i gceist
 Ar dheis Dé go raibh a anam
 Go raibh maith agaibh
 A Airí, a Theachtaí Dála, a Sheanadóirí, a dhaoine uaisle, a chairde gael
 Gabhaim buíochas leat as do chuid focal cineálta anocht a Uachtaráin
 Thar ceann Saidhbhín, an tAire Doherty agus ár dToscaireacht ar fad, táimid an-bhuíoch díot
-Ar dheis Dé go raibh a h-anam
+Ar dheis Dé go raibh a hanam
 Gabhaim buíochas leo agus molaim iad
 Maidir leis an obair féin, Dearcán na nDaoine – The People’s Acorn
 Ní féidir liom a rá ach go bhfuil muid thar a bheith sásta leis
-Gabhaim buíochas libh a chairde táimid ag tsnúth le tuilleadh uaibh ar ball
+Gabhaim buíochas libh a chairde táimid ag tnúth le tuilleadh uaibh ar ball
 Tá fáilte romhaibh go léir chuig Áras an Uachtaráin tráthnóna
-Tá súil agam go bhfuil sibh ag baint taitnimh as an lá
+Tá súil agam go bhfuil sibh ag baint taitneamh as an lá
 Nollaig faoi shéan agus faoi mhaise oraibh go léir
-Tréaslaím sibh as bhúr carthanachas agus as bhúr saoránacht
-Tá searmanais den sort seo tábhachtach
+Tréaslaím sibh as bhur gcarthanachas agus as bhur saoránacht
+Tá searmanais den sórt seo tábhachtach
 Tá áthas orm fáilte a fhearadh romhaibh chuig Áras an Uachtaráin
 A thánaiste a airí chomhaltaí na Comhairle Stáit agus a chairde
-Óráid an Uachtaráin Uí Uigínn agus dealbh Phadraic Uí Chonaire á nochtadh aige
+Óráid an Uachtaráin Uí Uiginn agus dealbh Phádraic Uí Chonaire á nochtadh aige
 A Aíonna Oirirce, agus a Chairde
-Ba é Padraic Ó Conaire a leag síos caighdeán na scríbhneoireachta sa Nua-Ghaeilge
+Ba é Pádraic Ó Conaire a leag síos caighdeán na scríbhneoireachta sa Nua-Ghaeilge
 Bhain sé leas as an nGaeilge san iriseoireacht chomh maith, céim cheannródaíoch eile
-Is féidir an rud céanna a rá faoi chúrsaí pholaitíochta agus aitheantas an phobail
+Is féidir an rud céanna a rá faoi chúrsaí polaitíochta agus aitheantas an phobail
 Ní raibh a thuairimí radacacha inghlactha ag muintir na cathrach ag an am sin
 Ar aghaidh linn mar sin go dtí an phríomhchúis a bhfuilimid anseo inniu
-I ndiaidh cúpla iarracht gan rath, ceadaíodh coimisiúnú an phíosa  bhreá seo ar deireadh
+I ndiaidh cúpla iarracht gan rath, ceadaíodh coimisiúnú an phíosa bhreá seo ar deireadh
 Agus nach breá an píosa den scoth atá cruthaithe acu
 Tá buíochas ar leith ag dul do Jane Conroy agus do mhuintir Uí Chonaire
-Pádraic Ó Conaire, Fíor Ghaedheal agus Sár ughdar Gaedhilge
-Rugadh an t-ochtú lá is fiche de mhí feabhra míle ocht gcéad ochtó a dó
-fuair bás an séú lá de mhí dheireadh fómhair míle naoi gcéad fiche a hocht
+Pádraic Ó Conaire, Fíor-Ghael agus Sárúdar Gaeilge
+Rugadh an t-ochtú lá is fiche de mhí Feabhra míle ocht gcéad ochtó a dó
+Fuair bás an séú lá de mhí Dheireadh Fómhair míle naoi gcéad fiche a hocht
 Paradacsúil, teibí, ach i gcónaí ábhartha
-Nach bhfuil sé sin go híontach
-a sheansailéir, a leas-sheansailéir, a mhic léinn, a dhaoine uaisle
+Nach bhfuil sé sin go hiontach
+A sheansailéir, a leas-sheansailéir, a mhic léinn, a dhaoine uaisle
 Go raibh míle maith agaibh as bhur bhfoighne
 Go dté sibh slán
 A Leas-Sheansailéir, a mhic léinn agus a chairde Gael
 A Dhaoine Uaisle, a Chairde Gael
-Is mian liom mo bhuíochas a ghabháil leatsa, a Seansailéir, as do chuid focail lámhaca
+Is mian liom mo bhuíochas a ghabháil leatsa, a Seansailéir, as do chuid focail lácha
 Go raibh míle maith agaibh go léir, agus go dté sibh slán
 Táim thar a bheith buíoch daoibh uile as ucht a bheith ag éisteacht liom
-Is mór an pléisiúir dom an t-ochtó séú Comórtas Náisiúnta Treabhdóireachta a oscailt
-Muna bhfuil timpeallacht sláintiúil ann, ní bheidh geilleagar sláintiúil ná sochaí sláintiúil ann ach oiread
-Bígí ar bhur shuaimhneas
+Is mór an pléisiúr dom an t-ochtó séú Comórtas Náisiúnta Treabhdóireachta a oscailt
+Muna bhfuil timpeallacht shláintiúil ann, ní bheidh geilleagar sláintiúil ná sochaí shláintiúil ann ach oiread
+Bígí ar bhur suaimhneas
 Dia daoibh a chairde
-Tá an-áthas orm bheith i bhur láthair ar an ocáid seo
-Tá mé buíoch dibh as an cuireadh agus an fáilte forchaoin a chur sibh romham
-A dhaoine cóir, a cairde dílis,
+Tá an-áthas orm a bheith in bhur láthair ar an ócáid seo
+Tá mé buíoch díobh as an gcuireadh agus as an bhfáilte fhíorchaoin a chur sibh romham
+A dhaoine córa, a chairde dílse,
 Beir Beannacht don todhchaí 
-Tá áthas orm féin agus ar Saidhbhín fáilte a fhearadh romhaibh go hÁras an Uachtaráin
+Tá áthas orm féin agus ar Shaidhbhín fáilte a fhearadh romhaibh go hÁras an Uachtaráin
 Bainigí sult as an lá, agus bígí ar bhur suaimhneas
 Dia dhaoibh a chairde, céad míle fáilte roimh gach duine atá anseo  
-Tá áthas orm féin agus ar Saidhbhín fáilte a fhearadh romhaibh go hÁras an Uachtaráin
+Tá áthas orm féin agus ar Shaidhbhín fáilte a fhearadh romhaibh go hÁras an Uachtaráin
 Mar sin, tá áthas orm an deis seo a bheith agam bualadh libh
 Caithfimid comhoibriú seachas scoilteadh
 Is comhartha suntasach é sin de ról bunúsach Dhún Laoghaire san aonú haois is fiche
-Tá áthas orm fáilte a fhearadh romhaibh go dtí Áras an Uachtaráin agus go hÉireann
+Tá áthas orm fáilte a fhearadh romhaibh go dtí Áras an Uachtaráin agus go hÉirinn
 Go raibh maith agaibh ar fad as ucht éisteacht liom
 Beir bua agus beannacht
-Go raibh maith agaibh as ucht an fáilte chineálta
+Go raibh maith agaibh as ucht na fáilte cineálta
 Óráid ag Searmanas Bronnadh Náisiúnta Duaiseanna Ghlór na nGael
 D'fhoghlaim óige na tíre faoi thábhacht staire agus oidhreacht na tíre
 D'oibrigh daoine as lámha a chéile
-Níl mé sásta go hiomlán gur glacadh le mo h-iarratas ar ghach leibhéal
+Níl mé sásta go hiomlán gur glacadh le m’iarratas ar gach leibhéal
 Ach caithfimid léirmheas a dhéanamh ar na modhanna
-Ach tá áthas orm aithinteas a thabhairt d’iarrachtaí atá á dhéanamh ag Glór na nGael
+Ach tá áthas orm aitheantas a thabhairt d’iarrachtaí atá á ndéanamh ag Glór na nGael
 Go ndéana Dia grásta ar a anam dílis
 Craoltóir cumasach, ildánach a bhí ann
-Gael a raibh cliú agus cáil air i measc an phobail mar sár-thráchtaire spóirt
+Gael a raibh clú agus cáil air i measc an phobail mar shár-thráchtaire spóirt
 Is cúis áthais dom go bhfuil Gradam le bronnadh anocht ar Mhuintir Shéamuis Mhic Géidigh
 Ar dheis Dé go raibh a anam dílis 
-Is íontach an rud é an líon cumainn atá linn anocht ó na hOllscoileanna éagsúla
+Is iontach an rud é an líon cumann atá linn anocht ó na hOllscoileanna éagsúla
 Guím gach rath oraibh don todhchaí
 Tá fíorchaoin fáilte romhaibh ar fad chuig Áras an Uachtaráin
-Tá áthas orm féin agus ar Saidhbhín go bhfuil sibh inár gcomhluadar
-Is lá é seo chun céiliúradh a dhéanamh
+Tá áthas orm féin agus ar Shaidhbhín go bhfuil sibh inár gcomhluadar
+Is lá é seo chun ceiliúradh a dhéanamh
 A Oirircis, A Dhéin an Chóir Thaidhleoireachta,
 A Oirirceasa
-A Aire Stáit Mhic an tSaoí,
+A Aire Stáit Mhic an tSaoi,
 A Aíonna Uile, agus a Dhaoine Óga ach go háirithe
-Is mian liom a rá arís chomh mór is atáim as an duais seo fháil
+Is mian liom a rá arís chomh mór is atáim as an duais seo a fháil
 Sé bhur mbeatha uile
 Nollaig faoi shéan agus faoi mhaise daoibh go léir
 Go raibh míle maith agaibh
-A Árd Mhéara
+A Ard-Mhéara
 a Thánaiste
 a Airí
-a Aoianna oirirce agus a Cháirde
-Gan aibhreas ar bith, tá ard-mheas na tíre agus an domhain tuilte agaibh dá bharr
+a Aíonna oirirce agus a Chairde
+Gan amhras ar bith, tá ard-mheas na tíre agus an domhain tuillte agaibh dá bharr
 Óráid an Uachtaráin ag Féasta Ceiliúradh Athbheochan na Gaeilge
 A dhaoine uaisle, a chairde gael
 Bhí nádúr agus scála an chomórtha thar cuimse
-Nach íontach an ocáid a bhí againn Oíche Shamhna chun fiche bliain TG4 a chéiliúradh
+Nach iontach an ócáid a bhí againn Oíche Shamhna chun fiche bliain TG4 a chéiliúradh
 Tá stádas aici mar theanga oifigiúil agus oibre san Aontas Eorpach
 Tá léirithe i dtaighde go bhfuil pobal na hÉireann báúil don Ghaeilge
-Cé hiad na taibhsí ionann a spreagann muid chun troda
-Ionann nó mór thimpeall orainn, lenár linn nó ó na glúine atá imithe i léig
+Cé hiad na taibhsí ionainn a spreagann muid chun troda
+Ionainn nó mórthimpeall orainn, lenár linn nó ó na glúine atá imithe i léig
 Mianta mistéireacha ár ndaonnachta, fáiscthe go dlúth i snaidhm
 Tír, Pobal agus Teanga
 Murach an obair sin bheadh rudaí níos faide siar go suntasach gan amhras
-Impím oraibh gan na maidí a ligin le sruth
+Impím oraibh gan na maidí a ligean le sruth
 Leanaimis orainn mar phobal ag saothrú na Poblachta agus ag saothrú na Gaeilge
 Guím gach beannacht oraibh san obair sin
 Go raibh míle maith agaibh go léir
-Is mór an pléisiúir dom a bheith anseo ar maidin
+Is mór an pléisiúr dom a bheith anseo ar maidin
 Tá fíorchaoin fáilte romhaibh ar fad chuig Áras an Uachtaráin
-Tá áthas orm féin agus ar Saidhbhín fáilte a fhearadh romhaibh chuig Áras an Uachtaráin
-Aitheasc ag Céiliúradh fiche Bliain TG4
+Tá áthas orm féin agus ar Shaidhbhín fáilte a fhearadh romhaibh chuig Áras an Uachtaráin
+Aitheasc ag Ceiliúradh fiche Bliain TG4
 Scór bliain ó shin ar Oíche Shamhna, déanadh éacht i stair na tíre
 Ní go héasca a tharla sé
 Rugadh Teilifís na Gaeilge de thoradh dian-iarrachtaí iliomad daoine
 Thugadar faoi fheachtas fada chun a bhfís a shaolú
 Am cinniúnach a bhí sna nóchaidí i stair an chraolacháin
-Cinntíonn clársceideal TG4 go bhfuil an tsúil eile  beo agus ar oscailt
-Tugann sé deis do scéalaithe na nua-fhíse a gcéird a fhoghlaim agus a mhaisiú
-Is comhartha suntasach í d'ár bhféin-mheas mar náisiún
+Cinntíonn clársceideal TG4 go bhfuil an tsúil eile beo agus ar oscailt
+Tugann sé deis do scéalaithe na nua-fhíse a gceird a fhoghlaim agus a mhaisiú
+Is comhartha suntasach í dár bhféin-mheas mar náisiún
 Tá go leor dúshlán fós romhainn maidir le caomhnú agus neartú na Gaeilge
 Go leanfaidh TG4 a bheith ina lóchrann dúinne agus go mairfidh sí an céad
 Beir beannacht TG4 don todhchaí agus go raibh maith agaibh uile
 Oíche mhaith
-Is mór an pléisiúir dom a bheith anseo libh ar fad inniu
+Is mór an pléisiúr dom a bheith anseo libh ar fad inniu
 Comhghairdeas libh go léir arís
-Tá fíorchaoin fáilte romhaibh ar fad go Bhaile Átha Cliath agus go hÉireann
-Is mór an pléisiúir dom é an t-ochtó cúigiú Comórtas Náisiúnta Treabhdóireachta a oscailt
-Gan phobail tuaithe bheoga ní bheidh sochaí beo fuinniúil ann
-Agus ní bheidh pobail tuaithe bheoga ann gan feirmeacha theaghlaigh
+Tá fíorchaoin fáilte romhaibh ar fad go Bhaile Átha Cliath agus go hÉirinn
+Is mór an pléisiúr dom é an t-ochtó cúigiú Comórtas Náisiúnta Treabhdóireachta a oscailt
+Gan phobail tuaithe bheoga ní bheidh sochaí bheo fhuinniúil ann
+Agus ní bheidh pobail tuaithe bheoga ann gan feirmeacha teaghlach
 Ar dheis Dé go raibh siad
 Óráid an Uachtaráin ag Comórtas Peile na nOileán dhá mhíle a sé déag
 A dhaoine córa,
-Mar sin, munar mhiste libh, tá mé chun beagán den dá theanga a labhairt inniu
+Mar sin, munar miste libh, tá mé chun beagán den dá theanga a labhairt inniu
 Tá fáilte agus fiche romhaibh ar fad anseo chuig Áras an Uachtaráin
 Le linn an ama seo nochtaíodh a shuim i gcúrsaí ealaíona
-Ach ní h-aon íontas an méid sin
+Ach ní haon iontas an méid sin
 Cuireann sí lena cuid cainte, áfach, leis an méid seo
 Mar náisiún, is iomaí cúis bhróid atá againn
 Ar ndóigh, cuireann na hamharc-ealaíona iontas orainn i gcónaí
@@ -199,62 +199,62 @@ Ní gan dua ná gan díograis a tháinig na gnéithe sin slán chugainn
 Tháinig borradh as cuimse ar Chonradh na Gaeilge ag tús an chéid seo caite
 Mar a dúirt sé féin
 an chuid a thugann brí agus comhleanúnachas don iomlán
-Is críoch íontach í an ceolchoirm seo ar lá íontach i gCathair Ghlaschú
-Óráid an Uachtaráin, Micheál D Ó hUigínn ag Cóisir Ghaeilge sa Ghairdín
+Is críoch iontach í an cheolchoirm seo ar lá iontach i gCathair Ghlaschú
+Óráid an Uachtaráin, Micheál D Ó hUiginn ag Cóisir Ghaeilge sa Ghairdín
 A Theachtaí Dála
 A Chomhairleoirí
 Agus a Chairde Gael
 Tá fáilte romhaibh abhaile
-Tá sibh bailithe ón earnáíl phríobháideach, an earnáil dheonach agus an státchóras
+Tá sibh bailithe ón earnáil phríobháideach, an earnáil dheonach agus an státchóras
 Tá roinnt agaibh tagtha ón nGaeltacht agus cuid eile agaibh ón nGalltacht
 Tá cuid agaibh ar bheagán Gaeilge agus cuid eile líofa ar fad
-Níos luaithe inniú bhí roinnt searmanas againn chun an Craoibhín Aoibhinn a chomóradh
+Níos luaithe inniu bhí roinnt searmanas againn chun an Craoibhín Aoibhinn a chomóradh
 Labhróidh mé i mBéarla ar feadh tamaillín ar fáthanna a thuigfidh sibh ar ball
-Táidbeirt linn inniu agus cuirim fáilte rompu
+Táid beirt linn inniu agus cuirim fáilte rompu
 Tugaim cuairt go minic ar ghaelscoileanna fud fad na tíre
 Bhí athbheochan na Gaeilge ina príomhaidhm ag ceannairí an Éirí Amach
-Tá dúshlán romhainn anois daoine a mhealladh chuig an Gaeilge
-Bhí Tara Viscardi agus Meadhbh O'Rourke ag seinnt i ngáirdín na mbláth
+Tá dúshlán romhainn anois daoine a mhealladh chuig an nGaeilge
+Bhí Tara Viscardi agus Meadhbh O'Rourke ag seinnt i ngairdín na mbláth
 Mo bhuíochas leis
-Is mór an pléisiúir dom é an chomhdháil tábhachtach seo a sheoladh
+Is mór an pléisiúr dom é an chomhdháil thábhachtach seo a sheoladh
 samhail a sholáthróidh obair fhiúntach do chách
-samhail a thabhairfidh deis d'ár bpobail, idir uirbeach agus tuaithe, rath a bhaint amach
+samhail a thabharfaidh deis dár bpobail, idir uirbeach agus thuaithe, rath a bhaint amach
 Guím gach rath ar bhur gcaint agus ar bhur gcomhrá inniu
-Is mór an pléisiúir dom é cuairt a thabhairt ar an taobh seo den tír
-Mar fhocal scoir, is mian liom mo bhuíochas a ghabháil libh arís as bhúr bhflaithiúlacht
+Is mór an pléisiúr dom é cuairt a thabhairt ar an taobh seo den tír
+Mar fhocal scoir, is mian liom mo bhuíochas a ghabháil libh arís as bhur bhflaithiúlacht
 Cá bhfios céard a thiocfaidh chun cinn sa todhchaí
-Is mór an pléisiúir dom a bheith anseo libh i bPríosún Mhuinseo
+Is mór an pléisiúr dom a bheith anseo libh i bPríosún Mhuinseó
 Tá fás agus forbairt tagtha ar Bloom arís i mbliana
 Tá na smaointe agus na tionscnaimh nua atá ós ár gcomhair inniu suntasach
-Tá áthas orm a bheith anseo inniú chun ‘Ollamh Éireann le Filíocht’ nua a fhógairt
-Is mór an pléisiúir dom é MayFest dhá mhíle a sé déag a oscailt
+Tá áthas orm a bheith anseo inniu chun ‘Ollamh Éireann le Filíocht’ nua a fhógairt
+Is mór an pléisiúr dom é MayFest dhá mhíle a sé déag a oscailt
 Guím gach rath oraibh don deireadh seachtaine agus i gcomhair na mblianta amach romhainn
 Óráid an Uachtaráin ag bronnadh Gradaim Chumarsáide an Oireachtais dhá mhíle a sé déag
 don Chathaoirleach Máirín de Brún; don Stiúrthóir Liam Ó Maolaodha
 Tá mé an-sásta go raibh sé ar mo chumas a bheith libh i mbliana
 Tá ríméad orm bheith i láthair anocht ar dhá chúis ar leith
 Is féidir leis na meáin chumarsáide ról dearfach a ghlacadh i gcúrsaí teanga
-Is í sin an obair atá á gceiliúradh againn anocht
+Is í sin an obair atá á ceiliúradh againn anocht
 Comhghairdeas ó chroí libh
 I mbliana tá fiche bliain de chraoltóireacht chruthaitheach, samhlaíoch, nua-aoiseach déanta ag TG4
 Comhghairdeachas libh go léir agus go maire sibh, ar a laghad, an céad
-Is mór an pléisiúir dom é an chomhdháil tábhachtach seo a oscailt
+Is mór an pléisiúr dom é an chomhdháil thábhachtach seo a oscailt
 Chreid Leonardo féin go láidir i gcumhacht an phictiúir mar uirlis eolais
 Is ceisteanna tábhachtacha iad seo a chaithfimid a phlé go hiomlán
 A Ardmhéara Uí Dhálaigh
-Ar an drochuair, níor éirigh leis an phlean a bhí acú, agus gabhadh Mac Easmainn
+Ar an drochuair, níor éirigh leis an phlean a bhí acu, agus gabhadh Mac Easmainn
 Is láidir an bunús í sin don todhchaí
 Tá áthas orm a bheith anseo i Leabharlann Chester Beatty anocht
 A Choimisinéirí Oifig na nOibreacha Poiblí
 A Phríomh Bhreitheamh
 Fearaim fíorchaoin fáilte romhaibh go léir go dtí an ócáid stairiúil seo
-A chúin an cothéacs as a thagann ár bhféidireachtaí d’inniu agus don todhchaí
-Náisiúnaithe, poblachtaigh, sóisialaithe, feiminigh agus idirnáisiúnaíthe ab ea iad fir agus mná an ré sin
+An comhthéacs as a dtagann féidearthachtaí d’inniu agus don todhchaí
+Náisiúnaithe, poblachtaigh, sóisialaithe, feiminigh agus idirnáisiúnaithe ab ea iad fir agus mná na ré sin
 Tá fíorchaoin fáilte romhaibh ar fad chuig Áras an Uachtaráin
 Óráid ag Comhdháil Chumann Idirnáisiúnta na gCoimisinéirí Teanga
 A Chathaoirligh agus a dhaoine uaisle go léir
-Bhí sé ar dhuine de hintinní dlíthúla móra ár linne
-Is mór an chailliúint é don dlí agus d'Éire i gcoitinne
+Bhí sé ar dhuine d’intinní dlíthúla móra ár linne
+Is mór an chailliúint é don dlí agus d'Éirinn i gcoitinne
 Ar dheis lámh Dé go raibh a anam dílis
 Ba é aidhm na físe nua ná áit na bréagshochaí coilíní a líonadh
 Is comharthaí dearfacha iad seo agus is féidir tógáil orthu
@@ -268,65 +268,65 @@ Is acmhainn í nach féidir a chloí
 Nuálaí struchtúrach agus nuálaí oideachasúil ab ea í Naomh Bríde
 A Aíonna Uile, agus  a Dhaoine Óga ach go háirithe
 Molaim sibh
-Go raibh maith agaibh agus bainigí taithneamh as an bhfilíocht agus as an gceol.
+Go raibh maith agaibh agus bainigí taitneamh as an bhfilíocht agus as an gceol.
 A chomhaltaí na Comhairle Stáit
 Go raibh míle maith agaibh go léir agus nár laga Dia sibh
-Go raibh maith agaibh as an fíorchaoin fáilte sin
+Go raibh maith agaibh as an bhfíorchaoin fáilte sin
 Ar dheis Dé go raibh a n-anamacha
-Tá áthas orm bheith anseo i bhur measc tráthnóna chun an tIonad seo a sheoladh
-Tá áthas orm an deis a beith agam freastail ar an siompóisiam tábhachtach seo
-Is mór an pléisiúir dom bheith anseo inniu
+Tá áthas orm a bheith anseo i bhur measc tráthnóna chun an tIonad seo a sheoladh
+Tá áthas orm an deis a bheith agam freastal ar an siompóisiam tábhachtach seo
+Is mór an pléisiúr dom a bheith anseo inniu
 Gura fada buan sibh agus go raibh míle maith agaibh go léir
-Is mór an onóir dom bheith anseo libh inniu
-Is mór an pléisiúir dom a bheith ar ais anseo i San Francisco.
+Is mór an onóir dom a bheith anseo libh inniu
+Is mór an pléisiúr dom a bheith ar ais anseo i San Francisco.
 A Bhalla Dáimhe
 A dhaoine uaisle agus a chairde
-Tá an-áthas orm bheith anseo libh inniu
+Tá an-áthas orm a bheith anseo libh inniu
 Go raibh míle maith agaibh agus beirigí libh mo bheannacht ó chroí
 A dhaoine uaisle agus a chairde
-Tá an-áthas orm bheith anseo libh inniu.
-Go raibh céad míle maith agaibh as an fíorchaoin fáilte sin a d’fhear sibh romhainn
-Tá an-áthas orm bheith anseo libh
+Tá an-áthas orm a bheith anseo libh inniu.
+Go raibh céad míle maith agaibh as an bhfíorchaoin fáilte sin a d’fhear sibh romhainn
+Tá an-áthas orm a bheith anseo libh
 Dia dhaoibh tráthnóna
-Is mór an pléisiúir dom a bheith anseo libh inniu
+Is mór an pléisiúr dom a bheith anseo libh inniu
 A dhaoine uaisle agus a scoláirí
-is mór an phléisiúr dúinn a bheith anseo arís inniu
+is mór an pléisiúr dúinn a bheith anseo arís inniu
 Go raibh míle maith agaibh uile as ucht a bheith linn tráthnóna.
-Bainigí sult as an chuid eile den lá.
+Bainigí sult as an gcuid eile den lá.
 Óráid an Uachtaráin ag Gaelscoil Uí Choileáin
 A bhuachaillí, a chailíní agus a chairde go léir
 Tuigim go ndearna sibh go leor réamh-oibre chun an siombal ceart a roghnú.
-Treaslaím libh agus déanaim comhghairdeas libh as an sár-obair seo atá curtha i gcrích agaibh.
+Treaslaím libh agus déanaim comhghairdeas libh as an tsár-obair seo atá curtha i gcrích agaibh.
 Is ábhar mórtais agus bróid daoibh an méid sin.
 Tuigimid go léir a thábhachtaí agus atá ról na dtuismitheoirí in oideachas a bpáistí.
 Bhuaigh sibh Craobh na hÉireann ag an bhféile Scoldramaíochta go mion minic.
 Maith sibh go léir.
 Guím gach rath ar obair na scoile anois agus sa todhchaí.
 Go raibh míle maith agaibh go léir.
-Óráid an Uachtaráin Le linn a chuairt ar Chléire
+Óráid an Uachtaráin le linn a chuairte ar Chléire
 Contae Chorcaí, an deichiú lá de mhí an Mheitheamh dhá mhíle a cúig déag
 Tá an-áthas orm a bheith anseo i bhur measc tráthnóna.
 Go mairfidh sé sin.
-Is cuid luachmhar dár n-oidhreacht iad na hoileáin amach ó cósta na tíre seo.
+Is cuid luachmhar dár n-oidhreacht iad na hoileáin amach ó chósta na tíre seo.
 Ar ndóigh, tá cúrsaí rochtana an-tábhachtach sa chomhthéacs sin.
 Guím gach rath ar Chomhdháil Oileán na hÉireann.
-Tá an-áthas orm a bheith anseo libh inniú in Ionad Dóchas
+Tá an-áthas orm a bheith anseo libh inniu in Ionad Dóchas
 Ní chuirfidh mé tuileadh moille oraibh.
 A Cheardchumannaithe
 Go raibh míle maith agaibh as ucht na fíorchaoin fáilte a d’fhear sibh romham.
 Guím gach rath ar bhur n-iarrachtaí.
-Guím gach rath ar bhur gcomhdháil tábhachtach.
-Tréaslaím leat a Aire as an foilseachán nua.
+Guím gach rath ar bhur gcomhdháil thábhachtach.
+Tréaslaím leat a Aire as an bhfoilseachán nua.
 A aíonna oirirce, a mhisinéirí, a dhaoine uaisle, agus a dhaoine córa ar fad,
 A shaoránaigh Dhroichead Átha,
-Tá áthas orm fáilte a fhearradh romhaibh chuig Áras an Uachtaráin tráthnóna.
+Tá áthas orm fáilte a fhearadh romhaibh chuig Áras an Uachtaráin tráthnóna.
 Bhí áthas orm gur ghlac an Wheel páirt i dTionscnamh Eitice Uachtarán na hÉireann.
 Séard a theastaigh ó na saoránaigh lenar labhair sibh ná:
 Dr Risteard de Hindeberg
-Tá mé an-bhuíoch díbhse go léir freisin as an fíorchaoin fáilte a d’fhear sibh romham.
-Tá an tír seo faoi chomaoin mhóir ag an bpobal beag Gaeltachta seo.
-Tá an chuma ar an scéal go raibh mí-thuiscint ar dhaoine áirithe ina thaobh.
-Ach ní dúirt de Hindeberg aon ní dá short.
+Tá mé an-bhuíoch díbhse go léir freisin as an bhfíorchaoin fáilte a d’fhear sibh romham.
+Tá an tír seo faoi chomaoin mhór ag an bpobal beag Gaeltachta seo.
+Tá an chuma ar an scéal go raibh míthuiscint ar dhaoine áirithe ina thaobh.
+Ach ní dúirt de Hindeberg aon ní dá shórt.
 Fáiltítear roimh léitheoirí agus lucht taighde anseo.
 Timpeall dhá chéad leabhar atá i gcnuasach de Hindeberg féin.
 Tá roinnt irisí sa chnuasach agus beagán cóipleabhar chomh maith.
@@ -339,42 +339,42 @@ A Cheann Foirne agus a Óglacha na hÉireann
 Dia dhaoibh go léir.
 Táim thar a bheith sásta a bheith anseo libh inniu.
 A Óglacha na hÉireann
-Faraoir, ní raibh sé ar mo chumas glacadh le cuireadh Richard anuraidh.
+Faraor, ní raibh sé ar mo chumas glacadh le cuireadh Richard anuraidh.
 Guím gach rath agus beannacht don todhchaí ar gach scoláire atá anseo inniu.
-Gura fada buan sibh i mbun cheoil bhinn na hÉireann.
+Gura fada buan sibh i mbun cheol bhinn na hÉireann.
 Go raibh míle maith agaibh go léir.
 Comhghairdeas libh as ucht na n-éachtaí sin a bhaint amach
-Tá an-áthas orm bheith anseo in bhur measc chun páirt a ghlacadh i bhur gceiliúradh.
-Míle buíochas daoibh as an gcuireadh agus as an fáilte a chuir sibh romham.
+Tá an-áthas orm a bheith anseo in bhur measc chun páirt a ghlacadh i bhur gceiliúradh.
+Míle buíochas daoibh as an gcuireadh agus as an bhfáilte a chuir sibh romham.
 Is iontach an obair atá ar siúl agaibh.
 Go raibh maith agaibh go léir.
 Óráid an Uachtaráin ag Dinnéar Ceiliúrtha Sheachtain na Gaeilge
-Titanic, Béal Feirste, an seachtú lá de mhí an Mhárta dhá mhíle a cúig déag
-A Ard Mhéara agus a Dhaoine Uaisle,
+Titanic, Béal Feirste, an seachtú lá de mhí an Mhárta dhá mhíle a cúig déag
+A Ard-Mhéara agus a Dhaoine Uaisle,
 Mar a deir an seanfhocal "Beatha Teanga í a Labhairt".
 Tugann sé ár ndúshlán chomh maith an tacaíocht sin a thiontú ina ghníomh.
 Tréaslaím le Seachtain na Gaeilge as a mana tarraingteach "Croí na Teanga: It's you".
 I mbliana, tá Seachtain na Gaeilge agus Conradh na Gaeilge mar phríomh-chomhpháirtithe ar an ócáid.
 Tá áthas orm a bheith anseo i Russborough tráthnóna.
-Ba mhór an onóir dom fresin cuireadh a fháil chun crann a chur anseo.
-Tá an-áthas orm bheith anseo in bhur measc chun páirt a ghlacadh i bhur gceiliúradh.
-Míle buíochas daoibh as an gcuireadh agus as an fáilte a chuir sibh romham.
+Ba mhór an onóir dom freisin cuireadh a fháil chun crann a chur anseo.
+Tá an-áthas orm a bheith anseo in bhur measc chun páirt a ghlacadh i bhur gceiliúradh.
+Míle buíochas daoibh as an gcuireadh agus as an bhfáilte a chuir sibh romham.
 Tá áthas orm, mar éarlamh ar Chnuasach Bhéaloideas Éireann, labhairt libh inniu.
-Tá an-áthas orm bheith anseo in bhur measc chun páirt a ghlacadh i bhur gceiliúradh.
-Míle buíochas daoibh as an gcuireadh agus as an fáilte a chuir sibh romham.
+Tá an-áthas orm a bheith anseo in bhur measc chun páirt a ghlacadh i bhur gceiliúradh.
+Míle buíochas daoibh as an gcuireadh agus as an bhfáilte a chuir sibh romham.
 Is iontach an obair atá ar siúl agaibh.
 Go raibh míle maith agaibh go léir.
-Tá an-áthas orm bheith i bhur láthair ar an ocáid speisialta seo.
-guím gach rath agus beannacht oraibh don todhchaí
-Tá áthas orm bheith libh ar fad anseo inniú.
+Tá an-áthas orm a bheith i bhur láthair ar an ócáid speisialta seo.
+Guím gach rath agus beannacht oraibh don todhchaí
+Tá áthas orm a bheith libh ar fad anseo inniu.
 Go raibh míle maith agaibh go léir agus guím gach rath agus beannacht oraibh.
-Gúim rath agus sonas oraibh go léir.
+Guím rath agus sonas oraibh go léir.
 A Chomhaltaí den Tionól Parlaiminteach
 Tá an-áthas orm a bheith anseo inniu.
 Ba phribhléid mhór domsa a bheith rannpháirteach san imeacht ríthábhachtach seo.
 A dhaoine uaisle, a shoilsí
 A chairde na hÉireann agus na Síne, 
-Míle buíochas daoibh as an gcuireadh agus as an fáilte a chuir sibh romham.
+Míle buíochas daoibh as an gcuireadh agus as an bhfáilte a chuir sibh romham.
 Ba mhaith liom gach rath a ghuí oraibh, a pháistí sna laethanta scoile atá romhaibh.
 Go raibh maith agaibh as ucht bhur n-airde.
 A chairde na hÉireann agus na hAfraice Theas
@@ -382,19 +382,19 @@ A chairde na hÉireann agus na hAetóipe
 A chairde daora na hÉireann agus na Breataine Bige
 A mhaca léinn, a fhoirne acadúil, a chairde,
 Guím gach rath oraibh agus sibh ag leanúint le bhur n-obair thábhachtach.
-Tá áthas orm a fhógairt go bhfuil tús leis an t-ochtó tríú Comórtas Náisiúnta Treabhdóireachta!
+Tá áthas orm a fhógairt go bhfuil tús leis an ochtó tríú Comórtas Náisiúnta Treabhdóireachta!
 Go raibh maith agaibh as ucht na fíorchaoin fáilte a d’fhear sibh romham.
 Is lá fíor-speisialta an lá seo domsa mar Uachtarán ar Éirinn agus mar Luimníoch.
 Dia dhaoibh go léir tráthnóna.
-Comhghairdeas libh go léir agus guím gach rath oraibh sa todhchoí.
-Tá áthas orm bheith libh ar fad anseo.
-Cur chuige den sort sin atá ag teastáil ónar dteanga.
-Go raibh maith agaibh as ucht bhur gcuid flaithiúlachta agus bhur fíorchaoin fáilte.
-A Cheann Foirne agus a Óglacha na hÉirean
-A bhalla de hIontaobhas Ghlas Naíon
-Tá an-áthas orm bheith anseo libh inniu
-fearaim fíorchaoin fáilte roimh gach duine atá linn tráthnóna
-Tá an-áthas orm bheith anseo inniu chun Féile Lár-Shamhraidh Phort Láirge a oscailt.
+Comhghairdeas libh go léir agus guím gach rath oraibh sa todhchaí.
+Tá áthas orm a bheith libh ar fad anseo.
+Cur chuige den sórt sin atá ag teastáil ónar dteanga.
+Go raibh maith agaibh as ucht bhur gcuid flaithiúlachta agus bhur bhfíorchaoin fáilte.
+A Cheann Foirne agus a Óglacha na hÉireann
+A bhalla d’Iontaobhas Ghlas Naíon
+Tá an-áthas orm a bheith anseo libh inniu
+Fearaim fíorchaoin fáilte roimh gach duine atá linn tráthnóna
+Tá an-áthas orm a bheith anseo inniu chun Féile Lár-Shamhraidh Phort Láirge a oscailt.
 Táim buíoch díbh go léir, freisin, as an bhfáilte an-fhlaithiúil sin.
 Go raibh míle maith agaibh as ucht na fíorchaoin fáilte a d’fhear sibh romham.
 Tá seasmhacht ag baint le saothar agus oidhreacht Edward Delaney
@@ -407,14 +407,14 @@ i bPort Laoise, i mBaile an Chollaigh, Corcaigh
 i mBaile Átha Cliath a cúig déag, i gCill Dara Thuaidh
 i gConamara; i Sligeach agus i dTuaisceart Chathair Chorcaí
 Is é Bloom príomhthaispeántas Bhord Bia do thomhaltóirí
-tá sé ar cheann de na buaicphointí ar fhéilire sóisialta na hÉireann.
+Tá sé ar cheann de na buaicphointí ar fhéilire sóisialta na hÉireann.
 Tá an-áthas orm a bheith anseo i gCnocán an Éin Fhinn inniu
-chun comhghairdeas a dhéanamh libh as ucht Comórtas na mBailte a bhuachan
+Chun comhghairdeas a dhéanamh libh as ucht Comórtas na mBailte a bhuachan
 Comórtas na mBailte Slachtmhara SuperValu dhá mhíle a seacht déag
 Go raibh míle maith agaibh go léir, guím gach rath ar bhur gcuid oibre
 agus comhghairdeas libh arís
 Gabhaim buíochas le Kitty Gallagher, Uachtarán Chraobh na hÉireann an WAFA
-gabhaim buíochas libhse ar fad as ucht na fíorchaoin fáilte.
+Gabhaim buíochas libhse ar fad as ucht na bhfíorchaoin fáilte.
 Tá áthas orm a bheith libh ar fad tráthnóna ag an ócáid cheiliúrtha seo
-Oscailt Mór an t-aonú Seó Bláthanna Domhanda déag ag Cumann Cóiritheoirí Bláthanna na Cruinne.
+Oscailt Mór an aonú Seó Bláthanna Domhanda déag ag Cumann Cóiritheoirí Bláthanna na Cruinne.
 Ba mhaith liom mo bhuíochas a ghabháil le John Cummins, Iarmhéara na cathrach seo

@@ -58,11 +58,13 @@ kpv = Komi
 kw = Cornisk
 ky = Kirgisisk
 mk = Makedonsk
+mn = Mongolsk
 myv = Erzya
 nb-NO = Bokmål
 ne-NP = Nepalesisk
 nl = Nederlandsk
 nn-NO = Nynorsk
+oc = Occitansk
 or = Oriya
 pl = Polsk
 pt-BR = Portugisisk (Brasilien)
@@ -83,6 +85,7 @@ tt = Tatarisk
 uk = Ukrainsk
 ur = Urdu
 uz = Usbekisk
+vi = Vietnamesisk
 zh-CN = Kinesisk (Kina)
 zh-HK = Kinesisk (Hong Kong)
 zh-TW = Kinesisk (Taiwan)
@@ -126,6 +129,8 @@ no-clips-to-validate = Det ser ud til, at der ikke er nogen klip at lytte til p�
 vote-yes = Ja
 vote-no = Nej
 toggle-play-tooltip = Tryk på { shortcut-play-toggle } for at starte eller stoppe afspilningen
+all-languages = Alle sprog
+today = I dag
 
 ## Speak & Listen Shortcuts
 
@@ -234,7 +239,7 @@ notfound-content = Jeg er bange for, at jeg ikke ved, hvad du leder efter.
 
 ## Data
 
-data-download-button = Hent data fra Common Voice 
+data-download-button = Hent data fra Common Voice
 data-download-yes = Ja
 data-download-deny = Nej
 data-download-license = Licens: <licenseLink>CC-0</licenseLink>
@@ -284,7 +289,7 @@ review-delete-recordings = Slet mine optagelser
 ## Download Modal
 
 download-title = Din filhentning er startet.
-download-helpus = Hold kontakten via mail og hjælp os med at skabe et fællesskab omkring stemmeteknologi. 
+download-helpus = Hold kontakten via mail og hjælp os med at skabe et fællesskab omkring stemmeteknologi.
 download-form-email =
     .label = Indtast din mail
     .value = Tak, vi vender tilbage
@@ -313,7 +318,6 @@ request-language-success-content = Vi kontakter dig snart med oplysninger om, hv
 language-section-in-progress = I gang
 language-section-in-progress-description = Kommende sprog er ved at blive gjort klar til at fællesskabet kan bidrage. Deres fremgang viser, hvor langt bidragsydere er med at oversætte hjemmesiden og indsamle sætninger.
 language-section-launched = Startet
-language-section-launched-description = For følgende sprog er hjemmesiden blevet oversat, og der er indsamlet sætninger nok. <italic>{ speak }</italic> eller <italic>{ listen }</italic> for at bidrage.
 languages-show-more = Se flere
 languages-show-less = Se færre
 language-speakers = Talere
@@ -334,7 +338,7 @@ contribute = Bidrag
 listen = Lyt
 skip = Spring over
 shortcuts = Genveje
-clips = Klip
+clips-with-count = <bold>{ $count }</bold> optagelser
 goal-help-recording = Du har hjulpet Common Voice med at nå <goalPercentage></goalPercentage> af vores daglige { $goalValue } mål for indspilninger!
 goal-help-validation = Du har hjulpet Common Voice med at nå <goalPercentage></goalPercentage> af vores daglige { $goalValue } mål for validering!
 contribute-more = Klar til at lave { $count } mere?
@@ -350,7 +354,7 @@ unable-speak = Ikke mulighed for at tale lige nu
 review-instruction = Godkend og optag klip igen hvis nødvendigt
 record-submit-tooltip = { $actionType } indsend når du er klar
 clips-uploaded = Optagelser uploaded
-record-abort-title = Færdiggør optagelsen først? 
+record-abort-title = Færdiggør optagelsen først?
 record-abort-text = Hvis du stopper nu, så mister du din fremgang
 record-abort-submit = Indsend klip
 record-abort-continue = Afslut optagelse

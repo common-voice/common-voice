@@ -15,6 +15,7 @@ loading = Nisamajib'ëx...
 
 ## Languages
 
+ace = Achenes
 an = Aragones
 ar = Arabe
 as = Assames
@@ -37,6 +38,7 @@ en = Q'anchi'
 eo = Esperanto
 es = Kaxlan tzij
 et = Estonio
+fa = aj Persia
 fi = Finlandes
 fo = Feroes
 fr = Frances
@@ -57,16 +59,19 @@ ko = Coreano
 kpv = Komi-Zyrian
 kw = Cornico
 ky = Kirguis
+mdf = Moksha
 mk = Macedonio
+mn = aj Mongolia
 myv = Erzya
 nb-NO = Noruego (Bokmål)
 ne-NP = Nepali
 nl = Nerlandes
 nn-NO = Noruego Nynorsk
+oc = aj Occitania
 or = Odia
 pl = Polaco
 pt-BR = Portugues (Brasil)
-rm = Rumano
+rm-sursilv = Romanche Sursilvan
 ro = Rumano
 ru = Ruso
 sah = Yakuto
@@ -83,6 +88,7 @@ tt = Tartaro
 uk = Ucraniano
 ur = Urdu
 uz = Uzbeko
+vi = aj Byetnam
 zh-CN = Chino (China)
 zh-HK = Chino (Hong Kong)
 zh-TW = Chino (Taiwan)
@@ -119,6 +125,8 @@ home-cta = Kach'o, ¡kato'on wawe'!
 wall-of-text-start = Choj ri ch'ab'äl, ruch'ab'äl winäq, Ruma ri' yalan yojkikot richin niqanük' runa'ob'al kich'ab'äl qach'ich'b'al. Richin ninuk' jun runuk'ulem ch'ab'äl, najowäx nïm kitz'etb'al ch'ab'äl.
 wall-of-text-more-mobile = Ronojel ri taq tzij nikokisaj ri taq nimamolojri'ïl, man wachel ta chi kiwa ri winaqi'. Röj niqana'ojij chi nuq'üt ri tz'ukuj. Ruma ri' xqelesaj ri Nimasamaj Common Voice, jun nimasamaj nito'on chi ri etamanem ch'ab'äl wachel chi qawa qonojel.
 wall-of-text-more-desktop = Wakami yatikïr nasipaj ri ach'ab'äl chi qe richin yojato' richin niqanük' jun rucholxe'el rutzij ch'ab'äl rik'in jaqäl b'itz'ib', ri xab'achike nitikïr nrokisaj richin yerub'än k'ak'a' taq chokoy kichin taq okisab'äl chuqa' ajk'amaya'l.<lineBreak></lineBreak>Tasik'ij jun b'ab' richin yato'on chi kitijoxik ri ch'ich'b'äl rik'in ri rub'anikil yech'o ri winaqi'. Tanik'oj kisamaj ch'aqa' chik to'onela' richin nachojmirisaj. ¡Choj ke ri' pan aninäq!
+wall-of-text-first = Relik ri ch'ab'äl, ruch'ab'äl winäq. Ruma ri' yojkikot niqatz'ük runa'ob'al ch'ab'äl okel pa taq qasamajib'al. Richin yetz'uk kiq'inoj ch'ab'äl, k'atzinel k'ïy taq kitzij ch'ab'äl chi ke ri b'anonela'
+wall-of-text-second = K'ïy chi ke ri taq tzij kokisan ri nima'q taq nimamoloj man okel ta chi kiwäch konojel ri winaqi'. Niqana'ojij chi re nuch'utinisaj ri tz'ukunem. Ruma ri' toq xqelesaj ri Common Voice, jun nimasamaj nuto' ri retamaxik ch'ab'äl tok jaqäl chuqa' okel chi kiwäch konojel.
 show-wall-of-text = Tisik'ïx Ch'aqa' Chik
 help-us-title = ¡Kojato' richin yenik'öx taq b'ab'!
 help-us-explain = Tipitz'a' titzij, tawak'a& tatzijoj chi qe: ¿La pa rub'eyal xkisik'ij ri b'ab'?
@@ -127,6 +135,32 @@ vote-yes = Ja'
 vote-no = Manäq
 toggle-play-tooltip = Tapitz'a' { shortcut-play-toggle } richin pa rub'eyal natzïj
 speak-subtitle = Tasipaj ri ach'ab'äl
+speak-paragraph = Ruyakik peraj taq ch'ab'äl jun runun peraj richin niqatz'ük ri molaj jaqäl qatzij; juley chik chuqa' nikib'ij chi ja peraj re' ri yalan tik'asäs.
+speak-goal-text = Peraj eyakon
+listen-subtitle = Kojato' chi kijikib'axik ch'ab'äl
+listen-paragraph = Yejikib'äx sipan taq peraj chuqa' yalan k'o kejqalem pa ri ruk'u'x rusamaj ri Common voice. Tawak'axaj chuqa' kojato' richin yeqatz'ük taq kitzij jaqäl chuqa' ütz taq ch'ab'äl.
+listen-goal-text = Jikib'an taq peraj
+hours-recorded = Ramaj eyakon
+hours-validated = Ramaj Ejikib'an
+read-terms-q = ¿La xasik'ij ri Erojqan richin nokisäx ri samaj?
+ready-to-record = ¿La ütz richin nasipaj ach'ab'äl chi qe?
+all-languages = Ronojel Ch'ab'äl
+today = Wakami
+x-weeks-short =
+    { $count ->
+        [one] Wuqq'ij
+       *[other] { $count }wj
+    }
+x-months-short =
+    { $count ->
+        [one] ik'
+       *[other] { $count }ik
+    }
+x-years-short =
+    { $count ->
+        [one] juna'
+       *[other] { $count }j
+    }
 
 ## Speak & Listen Shortcuts
 
@@ -183,6 +217,10 @@ profile-form-age =
     .label = Ajuna'
 profile-form-gender =
     .label = Ixöq/achi
+leaderboard-visibility =
+    .label = Ruq'alajixik pa ri Kikajtz'ik Cha'onem
+native-language =
+    .label = Nab'ey Ch'ab'äl
 profile-form-submit-save = Tiyak
 profile-form-submit-saved = Xyak
 profile-keep-data = Tiyak Tzij
@@ -199,6 +237,19 @@ profile-create-success = Xb'anatäj, ¡xtz'uk ruwäch b'i'aj!
 profile-close = Titz'apïx
 profile-clear-modal = Toq nijosq'ïx taq rutzij ruwäch b'i'aj nub'än chi man xtitunub'äx ta chik ri winaqirel awetamab'al rik'in ri ayakoj xtitaq chi re ri Common Voice.
 profile-explanation = Tatz'eta' ri asamaj pa jun ruwäch b'i'aj richin yato'on chi e ütz ri taq rutzij qach'ab'äl.
+thanks-for-account = Matyox xajikib'a' ri rub'i' ataqoya'l, wakami niqatz'ük qa ri ruwäch ab'i'.
+why-demographic = ¿Achike ruma k'atzinel re'?
+why-demographic-explanation = Ewäl rutzij okisanel achi'el rujuna', rub'anikil chuqa' ruk'oxom yeto'on richin ye'utziläx ri taq rutzij k'oxom e'okisan richin jeb'ël yetojtob'ëx ri taq rukanob'al ketamaxik taq ch'ab'äl. Ri rub'i' awokisanel chuqa' ataqoya'l majub'ey xkexim kik'in ri taq tzij xke'atäq chuqa' yatikïr nacha' we ri rub'i' awokisanel ewäl o nikitz'ët winaqi'.
+keep-me-posted =
+    .label = Ninwajo' yek'ul taq k'exoj richin ninwetamaj ri ruk'iyirisaxik Common Voice.
+accept-privacy = Ütz ninwak'axaj rub'eyal nokisäx re etamab'äl re' achi'el nitzijöx pa <privacyLink>Richinanem Na'ojil</privacyLink> richin Mozilla
+login-identity = Rub'anikil Rutikirisaxik Molojri'ïl
+edit = Tinuk'
+email-subscriptions = Tz'ib'axïk B'i'aj pa Taqoya'l
+download-profile = Keqasäx taq nutzij
+contribution-experience = Retamab'al to'ïk
+off = Tichup
+on = Titzij
 
 ## FAQ
 
@@ -314,6 +365,7 @@ request-language-success-content = Xtiqatzijoj chawe ch'aqa' chik etamab'äl pa 
 language-section-in-progress = Nik'ïy
 language-section-in-progress-description = Ja ri qatinamit yetz'ukun richin yek'iyïr ri taq ch'ab'äl; achi'el achike peraj k'o wi chi rij ri ruk'iyirisanem ajk'amaya'l rutzalq'omanem chuqa' ri kimolik taq q'aptzij.
 language-section-launched = E'elesan
+language-section-launched-new-description = Pa re taq ch'ab'äl re' ri ajk'amaya'l ruxaq tzalq'omin chik ronojel chuqa' k'ïy taq q'aptzij emolon richin nitikïr yeruk'ül taq to'ïk <italic>Nich'ab'ëx</italic> chuqa' <italic>Nak'axäx</italic>.
 languages-show-more = Titz'et Ch'aqa' Chik
 languages-show-less = Titz'et Jub'a'
 language-speakers = Ch'ab'anela'
@@ -334,6 +386,7 @@ contribute = Kato'on
 listen = Tak'axäx
 skip = Tik'o'
 shortcuts = Chojmin Okem
+clips-with-count = <bold>{ $count }</bold> Perb'ab'
 goal-help-recording = ¡Matyox ruma yato'on ri Common Voice ruq'i'on <goalPercentage></goalPercentage> chi re ri qarayib'al { $goalValue } q'ij q'ij!
 goal-help-validation = ¡Matyox ruma yato'on ri Common Voice ruq'i'on <goalPercentage></goalPercentage> chi re ri qarayib'al richin rujunamanem { $goalValue } q'ij q'ij!
 contribute-more =

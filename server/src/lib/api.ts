@@ -1,12 +1,16 @@
 import * as bodyParser from 'body-parser';
 import { NextFunction, Request, Response, Router } from 'express';
-const PromiseRouter = require('express-promise-router');
+import * as sendRequest from 'request-promise-native';
+import { UserClient as UserClientType } from '../../../common/user-clients';
 import { getConfig } from '../config-helper';
+import UserClient from './model/user-client';
 import Model from './model';
 import Clip from './clip';
 import Prometheus from './prometheus';
 import { AWS } from './aws';
-import { ClientParameterError, ServerError } from './utility';
+import { ClientParameterError } from './utility';
+
+const PromiseRouter = require('express-promise-router');
 
 export default class API {
   model: Model;
@@ -45,6 +49,9 @@ export default class API {
     });
 
     router.put('/user_clients/:id', this.saveUserClient);
+    router.get('/user_clients', this.getUserClients);
+    router.get('/user_client', this.getAccount);
+    router.patch('/user_client', this.saveAccount);
     router.put('/users/:id', this.saveUser);
 
     router.get('/:locale/sentences', this.getRandomSentences);
@@ -64,6 +71,8 @@ export default class API {
 
     router.get('/language_stats', this.getLanguageStats);
 
+    router.post('/newsletter/:email', this.subscribeToNewsletter);
+
     router.use('*', (request: Request, response: Response) => {
       response.sendStatus(404);
     });
@@ -71,9 +80,9 @@ export default class API {
     return router;
   }
 
-  saveUserClient = async (request: Request, response: Response) => {
-    const uid = request.params.id as string;
-    const demographic = request.body;
+  saveUserClient = async ({ body, params }: Request, response: Response) => {
+    const uid = params.id as string;
+    const demographic = body;
 
     if (!uid || !demographic) {
       throw new ClientParameterError();
@@ -134,5 +143,65 @@ export default class API {
 
   getLanguageStats = async (request: Request, response: Response) => {
     response.json(await this.model.getLanguageStats());
+  };
+
+  getUserClients = async ({ headers, user }: Request, response: Response) => {
+    if (!user) {
+      response.json([]);
+      return;
+    }
+
+    const email = user.emails[0].value;
+    const userClients: UserClientType[] = [
+      { email },
+      ...(await UserClient.findAllWithLocales({
+        email,
+        client_id: headers.uid as string,
+      })),
+    ];
+    response.json(userClients);
+  };
+
+  saveAccount = async ({ body, user }: Request, response: Response) => {
+    if (!user) {
+      throw new ClientParameterError();
+    }
+    response.json(
+      await UserClient.saveAccount(user.id, {
+        ...body,
+        email: user.emails[0].value,
+      })
+    );
+  };
+
+  getAccount = async ({ user }: Request, response: Response) => {
+    response.json(user ? await UserClient.findAccount(user.id) : null);
+  };
+
+  subscribeToNewsletter = async (request: Request, response: Response) => {
+    const { BASKET_API_KEY, PROD } = getConfig();
+    if (!BASKET_API_KEY) {
+      response.json({});
+      return;
+    }
+
+    const { email } = request.params;
+    const basketResponse = await sendRequest({
+      uri: `https://${
+        PROD ? 'basket.mozilla' : 'basket-dev.allizom'
+      }.org/news/subscribe/`,
+      method: 'POST',
+      form: {
+        'api-key': BASKET_API_KEY,
+        newsletters: 'common-voice',
+        format: 'H',
+        lang: 'en',
+        email,
+        source_url: request.header('Referer'),
+        sync: 'Y',
+      },
+    });
+    await UserClient.updateBasketToken(email, JSON.parse(basketResponse).token);
+    response.json({});
   };
 }

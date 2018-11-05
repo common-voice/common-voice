@@ -96,7 +96,7 @@ export default class Model {
     const bucket = await this.db.getOrSetUserBucket(
       client_id,
       locale,
-      randomBucketFromDistribution(this.clipDistribution)
+      randomBucketFromDistribution(IDEAL_SPLIT)
     );
     return this.db.findSentencesWithFewClips(
       client_id,
@@ -113,10 +113,10 @@ export default class Model {
     const user = await this.db.updateUser(uid, data);
 
     const { BASKET_API_KEY, PROD } = getConfig();
-    if (BASKET_API_KEY && user.send_emails && !user.basket_token) {
+    if (BASKET_API_KEY && user && user.send_emails && !user.basket_token) {
       const response = await request({
-        uri: `https://basket.${
-          PROD ? 'mozilla' : 'allizom'
+        uri: `https://${
+          PROD ? 'basket.mozilla' : 'basket-dev.allizom'
         }.org/news/subscribe/`,
         method: 'POST',
         form: {

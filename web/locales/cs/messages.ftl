@@ -24,16 +24,19 @@ bn = Bengálština
 br = Bretonština
 bxr = Burjatština
 ca = Katalánština
+cak = Kaqchikel
 cs = Čeština
 cv = Čuvaština
 cy = Velština
 da = Dánština
 de = Němčina
+dsb = Dolnolužická srbština
 el = Řečtina
 en = Angličtina
 eo = Esperanto
 es = Španělština
 et = Estonština
+fa = Perština
 fi = Finština
 fo = Faerština
 fr = Francouzština
@@ -52,6 +55,7 @@ kab = Kabylština
 kk = Kazaština
 ko = Korejština
 kw = Kornština
+ky = Kyrgyzština
 mk = Makedonština
 nb-NO = Norština (Bokmål)
 ne-NP = Nepálština
@@ -62,6 +66,7 @@ pl = Polština
 pt-BR = Portugalština (Brazílie)
 ro = Rumunština
 ru = Ruština
+sah = Jakutština
 sk = Slovenština
 sl = Slovinština
 sq = Albánština
@@ -73,6 +78,7 @@ th = Thajština
 tr = Turečtina
 tt = Tatarština
 uk = Ukrajinština
+ur = Urdština
 uz = Uzbečtina
 zh-CN = Čínština (Čína)
 zh-HK = Čínština (Hong Kong)
@@ -99,7 +105,9 @@ share-title = Pomozte nám najít další, kteří darují svůj hlas!
 share-text = Pomozte strojům pochopit, jak mluví lidé, darujte svůj hlas na { $link }
 link-copied = Odkaz byl zkopírován
 back-top = Zpět nahoru
+contribution-banner-text = Právě jsme spustili nový způsob přispívání
 contribution-banner-button = Podívejte se
+report-bugs-link = Pomozte hledat chyby
 
 ## Home Page
 
@@ -118,6 +126,8 @@ toggle-play-tooltip = Stisknutím { shortcut-play-toggle } přepnete do režimu 
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
@@ -134,6 +144,9 @@ shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
 shortcut-record-toggle-label = Nahrát/Zastavit
 request-language-text = Nevidíte svůj jazyk na Common Voice?
 request-language-button = Požádat o jazyk
@@ -300,17 +313,23 @@ language-section-launched = Spuštěno
 languages-show-more = Zobrazit více
 languages-show-less = Zobrazit méně
 language-speakers = Mluvčí
+language-meter-in-progress = Postup
 language-total-progress = Celkem
+language-search-input =
+    .placeholder = Hledat
 language-speakers = Mluvčí
+localized = Přeloženo
+sentences = Věty
+total-hours = Ověřené hodiny
 
 ## New Contribution
 
 action-click = Klikněte
 action-tap = Klepněte
+contribute = Přispět
 listen = Poslouchejte
 skip = Přeskočit
 shortcuts = Zkratky
-clips = Klipy
 contribute-more =
     { $count ->
         [one] Jste připraveni udělat ještě { $count }?
@@ -322,3 +341,14 @@ record-instruction = { $actionType } <recordIcon></recordIcon> a přečtěte nah
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> až budete hotovi
 record-three-more-instruction = Ještě tři!
 record-again-instruction = Skvělé! <recordIcon></recordIcon> Nahrajte váš další klip
+record-again-instruction2 = Jen tak dál, pokračujte v nahrávání <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Poslední!
+unable-speak = Nemůžete teď mluvit?
+clips-uploaded = Nahraných klipů
+record-abort-text = Když nyní odejdete, přijdete o dosavadní postup
+record-abort-submit = Odeslat nahrávky
+record-abort-continue = Dokončit nahrávání
+record-abort-delete = Odejít a smazat nahrávky
+listen-instruction = { $actionType } <playIcon></playIcon> byla věta nahrána přesně?
+listen-last-time-instruction = <playIcon></playIcon>Poslední!
+share-title-new = <bold>Pomozte nám</bold> najít další hlasy

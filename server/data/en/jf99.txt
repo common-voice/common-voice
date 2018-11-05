@@ -386,7 +386,7 @@ A predator drone equipped with multiple cruise missiles lifted off.
 The implementation is not compliant with the specification.
 Affirmative, a breaching charge is available.
 My initial assumption about the phase displaced pulse was wrong.
-Even with night-vision googles, no target was in sight.
+Even with night-vision goggles, no target was in sight.
 Neither the radar nor the other instruments detected the stealth bomber.
 Flash grenades explode with a loud bang and cause disorientation.
 Two victims immediately need medical attention.
@@ -949,7 +949,7 @@ Let's deploy chirp modulation.
 The train conductor nabbed a woman who had dodged the fare.
 Apparently, most of the sentences have been written by nerds and scientists.
 The more you read, the better you will be understood.
-I can reassure you, that we won't retreat until the oil until the peace is secured.
+I can reassure you, that we won't retreat until the peace is secured.
 Nobody's intending to build a wall.
 The toll bridges scan all license plates.
 The C++ framework Qt is pronounced like "cute".

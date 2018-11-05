@@ -12,7 +12,11 @@ loading = กำลังโหลด…
 
 ## Languages
 
+an = อารากอน
+ar = อาหรับ
 as = อัสสัม
+ast = อัสตูเรีย
+az = อาเซอร์ไบจาน
 bn = เบงกาลี
 br = เบรตัน
 ca = คาตาลัน
@@ -30,22 +34,30 @@ ga-IE = ไอริช
 he = ฮิบรู
 hu = ฮังการี
 id = อินโดนีเซีย
+is = ไอซ์แลนด์
 it = อิตาลี
+ja = ญี่ปุ่น
 ka = จอร์เจีย
 kab = คาบาล์ย
+kk = คาซัค
 ko = เกาหลี
 kw = คอร์นิช
 mk = มาซิโดเนีย
+myv = เอิร์สยา
 ne-NP = เนปาล
 nl = ดัตช์
 nn-NO = นอร์เวย์ไนนอสก์
 or = โอเดีย
 pl = โปแลนด์
 pt-BR = โปรตุเกส (บราซิล)
+rm = โรมานช์
 ro = โรมาเนีย
 ru = รัสเซีย
+sah = ซาฮา
 sk = สโลวัก
+sl = สโลวีเนีย
 sq = แอลเบเนีย
+sr = เซอร์เบีย
 sv-SE = สวีเดน
 ta = ทมิฬ
 te = เตลูกู
@@ -53,6 +65,7 @@ th = ไทย
 tr = ตุรกี
 tt = ตาตาร์
 uk = ยูเครน
+ur = อูรดู
 uz = อุซเบกิสถาน
 zh-CN = จีน (จีน)
 zh-TW = จีน (ไต้หวัน)
@@ -74,7 +87,9 @@ terms = ข้อกำหนด
 cookies = คุกกี้
 faq = คำถามที่พบบ่อย
 content-license-text = เนื้อหาอยู่ภายใต้<licenseLink>สัญญาอนุญาต Creative Commons</licenseLink>
+link-copied = คัดลอกลิงก์แล้ว
 back-top = กลับขึ้นด้านบน
+report-bugs-link = ช่วยรายงานข้อบกพร่อง
 
 ## Home Page
 
@@ -84,6 +99,8 @@ help-us-title = ช่วยเราตรวจสอบประโยค!
 help-us-explain = กดปุ่ม เล่น ฟัง และบอกเรา: พวกเขาพูดประโยคด้านล่างนี้ถูกต้องหรือไม่?
 vote-yes = ใช่
 vote-no = ไม่
+all-languages = ภาษาทั้งหมด
+today = วันนี้
 
 ## Speak & Listen Shortcuts
 
@@ -163,6 +180,7 @@ license-mixed = ผสม
 
 record-must-allow-microphone = คุณต้องอนุญาตให้ใช้ไมโครโฟนได้
 record-retry = ลองใหม่
+record-no-mic-found = ไม่พบไมโครโฟน
 record-error-too-short = การอัดเสียงสั้นเกินไป
 record-error-too-long = การอัดเสียงยาวเกินไป
 record-error-too-quiet = การอัดเสียงนั้นเบาเกินไป
@@ -204,6 +222,7 @@ language-section-launched = เปิดตัวแล้ว
 languages-show-more = ดูเพิ่มเติม
 languages-show-less = ดูน้อยลง
 language-speakers = ผู้พูด
+language-meter-in-progress = ความคืบหน้า
 language-total-progress = รวมทั้งหมด
 language-search-input =
     .placeholder = ค้นหา
@@ -214,4 +233,10 @@ sentences = ประโยค
 ## New Contribution
 
 action-click = คลิก
+action-tap = แตะ
+listen = ฟัง
+skip = ข้าม
+shortcuts = ทางลัด
+clips-uploaded = อัปโหลดคลิปแล้ว
+record-abort-submit = ส่งคลิป
 record-button-label = อัดเสียงของคุณ

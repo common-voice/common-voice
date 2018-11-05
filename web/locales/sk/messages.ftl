@@ -37,6 +37,7 @@ en = angličtina
 eo = esperanto
 es = španielčina
 et = estónčina
+fa = perzština
 fi = fínčina
 fo = faerčina
 fr = francúzština
@@ -57,16 +58,18 @@ ko = kórejčina
 kpv = komi-zyriančina
 kw = kornčina
 ky = kirgizština
+mdf = mokša
 mk = macedónčina
+mn = mongolčina
 myv = erzya
 nb-NO = nórčina (bokmål)
 ne-NP = nepálčina
 nl = holandčina
 nn-NO = nórčina (nynorsk)
+oc = okcitánčina
 or = urijčina
 pl = poľština
 pt-BR = portugalčina (Brazília)
-rm = rétorománčina
 ro = rumunčina
 ru = ruština
 sah = jakutčina
@@ -83,6 +86,7 @@ tt = tatárčina
 uk = ukrajinčina
 ur = urdčina
 uz = uzbečtina
+vi = vietnamčina
 zh-CN = čínština (Čína)
 zh-HK = čínština (Hongkong)
 zh-TW = čínština (Taiwan)
@@ -126,6 +130,12 @@ wall-of-text-more-desktop =
     použiť ktokoľvek na tvorbu inovatívnych aplikácií pre zariadenia a pre web.<lineBreak></lineBreak>
     Čítajte vety a pomôžte strojom naučiť sa, ako hovoria skutoční ľudia. Skontrolujte prácu ďalších
     dobrovoľníkov a vylepšite jej kvalitu. Je to také jednoduché!
+wall-of-text-first =
+    Reč je prirodzená a ľudská. Preto chceme vytvoriť použiteľnú technológiu rozpoznávania reči 
+    pre naše stroje. by sme ju však mohli vytvoriť, potrebujeme veľké množstvo hlasových údajov.
+wall-of-text-second =
+    Väčšina údajov, ktoré používajú veľké spoločnosti nie je dostupná pre väčšinu ľudí. Myslíme si, že to zdržuje inovácie.
+    Preto sme spustili Common Voice, projekt, ktorý sprístupní rozpoznávanie reči pre všetkých.
 show-wall-of-text = Prečítajte si viac
 help-us-title = Pomôžte nám overovať vety!
 help-us-explain = Kliknite na prehrať, počúvajte a povedzte nám, či sa nahrávka zhoduje s vetou nižšie.
@@ -134,9 +144,35 @@ vote-yes = Áno
 vote-no = Nie
 toggle-play-tooltip = Stlačením { shortcut-play-toggle } spustíte režim prehrávania
 speak-subtitle = Prispejte svojim hlasom
+speak-paragraph = Nahrávanie klipov je neoddeliteľnou súčasťou budovania našich otvorených datasetov. Podľa niektorých je to práve tá zábavnejšia časť.
+speak-goal-text = Počet nahrávok
+listen-subtitle = Pomôžte nám s overením
+listen-paragraph = Overovanie nahrávok je rovnako dôležitou súčasťou misie Common Voice. Vypočujte si ich a pomôžte nám vytvoriť kvalitnú databázu.
+listen-goal-text = Počet overených nahrávok
+hours-recorded = Počet nahraných hodín
+hours-validated = Počet overených hodín
 read-terms-q = Čítali ste naše podmienky používania?
+ready-to-record = Ste pripravení darovať svoj hlas?
 all-languages = Všetky jazyky
 today = Dnes
+x-weeks-short =
+    { $count ->
+        [one] Týždeň
+        [few] { $count } týž.
+       *[other] { $count } týž.
+    }
+x-months-short =
+    { $count ->
+        [one] { $count } mes.
+        [few] { $count } mes.
+       *[other] { $count } mes.
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } rok
+        [few] { $count } roky
+       *[other] { $count } rokov
+    }
 
 ## Speak & Listen Shortcuts
 
@@ -194,6 +230,10 @@ profile-form-age =
     .label = Vek
 profile-form-gender =
     .label = Pohlavie
+leaderboard-visibility =
+    .label = Viditeľnosť v rebríčku
+native-language =
+    .label = Materinský jazyk
 profile-form-submit-save = Uložiť
 profile-form-submit-saved = Uložený
 profile-keep-data = Ponechať údaje
@@ -210,6 +250,20 @@ profile-create-success = Profil bol úspešne vytvorený!
 profile-close = Zavrieť
 profile-clear-modal = Odstránenie údajov profilu znamená, že tieto demografické údaje už nebudú naďalej odosielané s vašimi nahrávkami.
 profile-explanation = Sledujte svoj pokrok pomocou profilu a pomôžte nám spresniť naše hlasové údaje.
+thanks-for-account = Ďakujeme za potvrdenie vášho účtu, poďme vytvoriť váš profil.
+why-demographic = Prečo na tom záleží?
+why-demographic-explanation = Anonymizované údaje, ako vek, pohlavie a prízvuk pomáhajú vylepšovať naše údaje, ktoré budú použité na trénovanie systémov rozpoznávania reči. Vaše používateľské meno a e-mailová adresa nebudú nikdy spojené s odoslanými údajmi a môžete si vybrať, či chcete svoje používateľské meno zverejniť alebo nie.
+keep-me-posted =
+    .label = Chcem dostávať novinky o projekte Common Voice.
+accept-privacy = Súhlasím so spracovaním týchto údajov tak, ako je to popísané v <privacyLink>zásadách ochrany súkromia</privacyLink>
+login-identity = Identita pre prihlásenie
+edit = Upraviť
+email-subscriptions = Odbery pomocou e-mailu
+download-profile = Prevziať moje údaje
+contribution-experience = Používateľský zážitok
+skip-submission-feedback = Preskočiť spätnú väzbu
+off = Vypnutá
+on = Zapnutá
 
 ## FAQ
 
@@ -310,7 +364,7 @@ contact-form-name =
     .label = Meno
 contact-form-message =
     .label = Správa
-contact-required = *vyžadované
+contact-required = * vyžadované pole
 
 ## Request Language Modal
 
@@ -324,15 +378,16 @@ request-language-success-content = Čoskoro vám dáme vedieť, ako môžete pri
 
 language-section-in-progress = Jazyky, ktoré sa pripravujú
 language-section-in-progress-description = Tieto jazyky momentálne naše komunity pripravujú na prispievanie. Ich pokrok zobrazuje, ako ďaleko sú s prekladom stránky a so zberom viet.
-language-section-launched = Spustené
+language-section-launched = Spustené jazyky
+language-section-launched-new-description = V týchto jazykoch je webová stránka dostupná a zároveň máme pre našich prispievateľov dostatočné množstvo viet.
 languages-show-more = Zobraziť viac
 languages-show-less = Zobraziť menej
-language-speakers = Počet hovoriacich
+language-speakers = Počet prispievateľov
 language-meter-in-progress = Pokrok
 language-total-progress = Celkovo
 language-search-input =
     .placeholder = Hľadať
-language-speakers = Počet hovoriacich
+language-speakers = Počet prispievateľov
 localized = Preklad stránky
 sentences = Počet viet
 total-hours = Počet overených hodín
@@ -345,6 +400,7 @@ contribute = Zapojte sa
 listen = Počúvajte
 skip = Preskočiť
 shortcuts = Skratky
+clips-with-count = <bold>{ $count }</bold> nahrávok
 goal-help-recording = Pomohli ste projektu Common Voice dosiahnuť <goalPercentage></goalPercentage> z nášho denného cieľa { $goalValue } nahrávok!
 goal-help-validation = Pomohli ste projektu Common Voice dosiahnuť <goalPercentage></goalPercentage> z nášho denného cieľa { $goalValue } kontrol!
 contribute-more =

@@ -8,7 +8,7 @@ import {
   withRouter,
 } from 'react-router';
 import { Router } from 'react-router-dom';
-const { LocalizationProvider } = require('fluent-react');
+const { LocalizationProvider } = require('fluent-react/compat');
 import { createBrowserHistory } from 'history';
 import store from '../stores/root';
 import URLS from '../urls';
@@ -21,7 +21,7 @@ import {
   replacePathLocale,
 } from '../utility';
 import {
-  createMessagesGenerator,
+  createBundleGenerator,
   DEFAULT_LOCALE,
   LOCALES,
   negotiateLocales,
@@ -33,6 +33,7 @@ import StateTree from '../stores/tree';
 import { Uploads } from '../stores/uploads';
 import Layout from './layout/layout';
 import NotificationPill from './notification-pill/notification-pill';
+import { LoginFailure, LoginSuccess } from './pages/login';
 import ListenPage from './pages/contribution/listen/listen';
 import SpeakPage from './pages/contribution/speak/speak';
 import {
@@ -40,10 +41,8 @@ import {
   localeConnector,
   LocalePropsFromState,
 } from './locale-helpers';
-import { CloseIcon } from './ui/icons';
 
 const LOAD_TIMEOUT = 5000; // we can only wait so long.
-const SURVEY_KEY = 'showSurvey';
 
 /**
  * Preload these images before revealing contents.
@@ -83,8 +82,7 @@ interface LocalizedPagesProps
 
 interface LocalizedPagesState {
   hasScrolled: boolean;
-  messagesGenerator: any;
-  showSurvey: boolean;
+  bundleGenerator: any;
   uploadPercentage?: number;
 }
 
@@ -101,15 +99,14 @@ const LocalizedLayout: any = withRouter(
       class extends React.Component<LocalizedPagesProps, LocalizedPagesState> {
         state: LocalizedPagesState = {
           hasScrolled: false,
-          messagesGenerator: null,
-          showSurvey: JSON.parse(localStorage.getItem(SURVEY_KEY)) !== false,
+          bundleGenerator: null,
           uploadPercentage: null,
         };
 
         isUploading = false;
 
         async componentDidMount() {
-          await this.prepareMessagesGenerator(this.props);
+          await this.prepareBundleGenerator(this.props);
           window.addEventListener('scroll', this.handleScroll);
           setTimeout(() => this.setState({ hasScrolled: true }), 5000);
         }
@@ -131,7 +128,7 @@ const LocalizedLayout: any = withRouter(
               (locale, i) => locale !== this.props.userLocales[i]
             )
           ) {
-            await this.prepareMessagesGenerator(nextProps);
+            await this.prepareBundleGenerator(nextProps);
           }
         }
 
@@ -161,7 +158,7 @@ const LocalizedLayout: any = withRouter(
           }
         }
 
-        async prepareMessagesGenerator({
+        async prepareBundleGenerator({
           api,
           history,
           userLocales,
@@ -186,7 +183,7 @@ const LocalizedLayout: any = withRouter(
           document.documentElement.setAttribute('lang', mainLocale);
 
           this.setState({
-            messagesGenerator: await createMessagesGenerator(api, userLocales),
+            bundleGenerator: await createBundleGenerator(api, userLocales),
           });
         }
 
@@ -194,22 +191,11 @@ const LocalizedLayout: any = withRouter(
           this.setState({ hasScrolled: true });
         };
 
-        hideSurvey = (options?: { immediately: boolean }) => {
-          const { immediately } = { immediately: true, ...options };
-          if (immediately) this.setState({ showSurvey: false });
-          localStorage.setItem(SURVEY_KEY, JSON.stringify(false));
-        };
-
         render() {
           const { locale, notifications, toLocaleRoute } = this.props;
-          const {
-            hasScrolled,
-            messagesGenerator,
-            showSurvey,
-            uploadPercentage,
-          } = this.state;
+          const { hasScrolled, bundleGenerator, uploadPercentage } = this.state;
           return (
-            messagesGenerator && (
+            bundleGenerator && (
               <div>
                 <div
                   className="upload-progress"
@@ -228,7 +214,7 @@ const LocalizedLayout: any = withRouter(
                         }
                   }
                 />
-                <LocalizationProvider messages={messagesGenerator}>
+                <LocalizationProvider bundles={bundleGenerator}>
                   <div>
                     <div className="notifications">
                       {notifications
@@ -241,31 +227,6 @@ const LocalizedLayout: any = withRouter(
                           />
                         ))}
                     </div>
-
-                    {showSurvey &&
-                      hasScrolled && (
-                        <div className="survey">
-                          <button onClick={() => this.hideSurvey()}>
-                            <CloseIcon black />
-                          </button>
-                          <h1>Penny for your thoughts?</h1>
-                          <p>
-                            We would love to know more about how you use Common
-                            Voice, what you like and don’t like about it. Could
-                            you spare 5 min to give us some quick feedback
-                            through our survey?
-                          </p>
-                          <a
-                            href="https://www.surveygizmo.com/s3/4446677/3a21d4a69b6b"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            onClick={() =>
-                              this.hideSurvey({ immediately: false })
-                            }>
-                            Go to survey
-                          </a>
-                        </div>
-                      )}
 
                     <Switch>
                       <Route
@@ -384,6 +345,8 @@ class App extends React.Component<void, State> {
       <Provider store={store}>
         <Router history={history}>
           <Switch>
+            <Route exact path="/login-failure" component={LoginFailure} />
+            <Route exact path="/login-success" component={LoginSuccess} />
             {Object.values(URLS).map(url => (
               <Route
                 key={url}

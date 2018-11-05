@@ -23,17 +23,6 @@ module.exports = {
   module: {
     rules: [
       {
-        enforce: 'pre',
-        test: /\.js$/,
-        include: ['', '..'].map(p =>
-          path.resolve(p, 'node_modules', 'fluent-react')
-        ),
-        loader: 'babel-loader',
-        options: {
-          plugins: ['transform-object-rest-spread'],
-        },
-      },
-      {
         test: /\.(ts|tsx)$/,
         exclude: /node_modules/,
         use: [

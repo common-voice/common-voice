@@ -105,7 +105,7 @@ An India
 An Iodáil
 An Iordáin
 An Iorua
-An Iráic
+An Iaráic
 An Ísiltír
 An Iúgslaiv
 An Liobáin
@@ -117,7 +117,7 @@ An Méid Scaireanna
 An Naoú Bliain
 An Ostair
 An Phacastáin
-An Phoblacht Doiminiceach
+An Phoblacht Dhoiminiceach
 An Pinsean
 An Príomh-Acht a leasú tuilleadh.
 An Príomh-Acht a leasú.

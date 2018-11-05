@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Localized } from 'fluent-react';
+import { Localized } from 'fluent-react/compat';
 import URLS from '../../urls';
 import ContactModal from '../contact-modal/contact-modal';
 import ShareButtons from '../share-buttons/share-buttons';

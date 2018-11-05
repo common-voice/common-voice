@@ -94,7 +94,7 @@ header {
         padding-left: 2.5rem;
         background: white;
         text-transform: uppercase;
-        font-size: var(--font-size-small);
+        font-size: var(--font-size-xs);
         font-weight: 600;
         letter-spacing: 0.8px;
         color: var(--warm-grey);
@@ -193,7 +193,7 @@ header {
         padding: 0 1rem;
         display: block;
         font-family: var(--base-font-family);
-        font-size: var(--font-size-small);
+        font-size: var(--font-size-xs);
         text-transform: uppercase;
         font-weight: 600;
         text-align: center;

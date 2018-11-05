@@ -3,20 +3,18 @@ import * as http from 'http';
 import * as path from 'path';
 import * as express from 'express';
 import { NextFunction, Request, Response } from 'express';
+const contributableLocales = require('../../locales/contributable.json');
+import { importLocales } from './lib/model/db/import-locales';
 import Model from './lib/model';
 import API from './lib/api';
 import Logger from './lib/logger';
-import {
-  isLeaderServer,
-  getElapsedSeconds,
-  ClientError,
-  APIError,
-} from './lib/utility';
+import { getElapsedSeconds, ClientError, APIError } from './lib/utility';
 import { importSentences } from './lib/model/db/import-sentences';
 import { getConfig } from './config-helper';
 import authRouter from './auth-router';
-import { router as adminRouter } from './admin';
 import fetchLegalDocument from './fetch-legal-document';
+
+const consul = require('consul')({ promisify: true });
 
 const FULL_CLIENT_PATH = path.join(__dirname, '../web');
 
@@ -66,7 +64,6 @@ export default class Server {
 
     app.use(authRouter);
     app.use('/api/v1', this.api.getRouter());
-    app.use(adminRouter);
 
     const staticOptions = {
       setHeaders: (response: express.Response) => {
@@ -155,29 +152,6 @@ export default class Server {
   }
 
   /**
-   * Check if we are the chosen leader server (for performance maintenance).
-   */
-  private async checkLeader(): Promise<boolean> {
-    if (this.isLeader !== null) {
-      return this.isLeader;
-    }
-
-    try {
-      const config = getConfig();
-      this.isLeader = await isLeaderServer(
-        config.ENVIRONMENT,
-        config.RELEASE_VERSION
-      );
-      this.print('leader', this.isLeader);
-    } catch (err) {
-      console.error('error checking for leader', err.message);
-      this.isLeader = false;
-    }
-
-    return this.isLeader;
-  }
-
-  /**
    * Perform any scheduled maintenance on the data model.
    */
   async performMaintenance(doImport: boolean): Promise<void> {
@@ -186,6 +160,7 @@ export default class Server {
 
     try {
       await this.model.performMaintenance();
+      await importLocales();
       if (doImport) {
         await importSentences(await this.model.db.mysql.createPool());
       }
@@ -242,11 +217,48 @@ export default class Server {
 
     this.listen();
 
-    const isLeader = await this.checkLeader();
+    const { ENVIRONMENT, RELEASE_VERSION } = getConfig();
 
-    if (isLeader) {
+    if (!ENVIRONMENT || ENVIRONMENT === 'default') {
       await this.performMaintenance(options.doImport);
+      return;
     }
+
+    const lock = consul.lock({ key: 'maintenance-lock' });
+
+    lock.on('acquire', async () => {
+      const key = ENVIRONMENT + RELEASE_VERSION;
+
+      try {
+        const result = await consul.kv.get(key);
+        const hasPerformedMaintenance = result && JSON.parse(result.Value);
+
+        if (hasPerformedMaintenance) {
+          this.print('maintenance already performed');
+        } else {
+          await this.performMaintenance(options.doImport);
+          await consul.kv.set(key, JSON.stringify(true));
+        }
+      } catch (e) {
+        this.print('error during maintenance', e);
+      }
+
+      await lock.release();
+    });
+
+    lock.acquire();
+
+    await this.warmUpCaches();
+  }
+
+  async warmUpCaches() {
+    this.print('warming up caches');
+    const start = Date.now();
+    for (const locale of [null].concat(contributableLocales)) {
+      await this.model.getClipsStats(locale);
+      await this.model.getVoicesStats(locale);
+    }
+    this.print(`took ${getElapsedSeconds(start)}s to warm up caches`);
   }
 
   /**
@@ -277,5 +289,7 @@ process.on('uncaughtException', function(err: any) {
 // If this file is run directly, boot up a new server instance.
 if (require.main === module) {
   let server = new Server();
-  server.run().catch(e => console.error(e));
+  server
+    .run({ doImport: getConfig().IMPORT_SENTENCES })
+    .catch(e => console.error(e));
 }

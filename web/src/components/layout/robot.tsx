@@ -1,26 +1,11 @@
 import * as React from 'react';
 
-const MODE_GREETINGS = '/img/robot-greetings.png';
-const MODE_LISTENING = '/img/robot-listening.png';
-const MODE_THINKING = '/img/robot-thinking.png';
-const MODE_THUMBS_UP = '/img/robot-thumbs-up.png';
-
-const MODES: any = {
-  record: MODE_LISTENING,
-  listen: MODE_THINKING,
-  thanks: MODE_THUMBS_UP,
-};
-
-interface Props {
-  position?: keyof typeof MODES;
-}
-
 const head = [20, 0, 90, 35];
 const heart = [50, 45, 75, 55];
 
 const touchCode = [head, head, heart, head];
 
-export default class Robot extends React.PureComponent<Props> {
+export default class Robot extends React.PureComponent<{}> {
   private remainingCode = touchCode.slice();
   private secretDoorToStaging = ({
     currentTarget,
@@ -37,16 +22,15 @@ export default class Robot extends React.PureComponent<Props> {
       this.remainingCode = touchCode.slice();
     }
     if (this.remainingCode.length == 0) {
-      location.href = prompt('URL') || 'https://voice.allizom.org/';
+      location.href = prompt('URL') || 'https://voice.allizom.org/en/new';
     }
   };
 
   render() {
-    const { position } = this.props;
     return (
       <img
-        className={'robot ' + (position ? position.toString() : '')}
-        src={MODES[position] || MODE_GREETINGS}
+        className="robot"
+        src="/img/robot-greetings.png"
         onClick={this.secretDoorToStaging}
       />
     );

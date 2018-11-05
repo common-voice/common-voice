@@ -13,8 +13,8 @@ import LanguagesPages from '../pages/languages/languages';
 import NewHomePage from '../pages/new-home/home';
 import NotFoundPage from '../pages/not-found';
 import DocumentPage from '../pages/document-page';
+import ProfileLayoutPage from '../pages/profile/layout';
 import ProfilePage from '../pages/profile';
-import RecordPage from '../pages/record/record';
 
 interface Props {
   isRecording: boolean;
@@ -39,19 +39,13 @@ export default localeConnector(
         <Route
           exact
           path={toLocaleRoute(URLS.RECORD)}
-          render={props =>
-            isContributable(locale) ? (
-              <RecordPage
-                isRecording={isRecording}
-                onRecord={onRecord}
-                onRecordStop={onRecordStop}
-                onVolume={onVolume}
-                {...props}
-              />
-            ) : (
-              <Redirect to={toLocaleRoute(URLS.ROOT)} />
-            )
-          }
+          render={() => (
+            <Redirect
+              to={toLocaleRoute(
+                isContributable(locale) ? URLS.SPEAK : URLS.ROOT
+              )}
+            />
+          )}
         />
         <Route
           exact
@@ -63,6 +57,10 @@ export default localeConnector(
           exact
           path={toLocaleRoute(URLS.PROFILE)}
           component={ProfilePage}
+        />
+        <Route
+          path={toLocaleRoute(URLS.PROFILE + '/')}
+          component={ProfileLayoutPage}
         />
         <Route exact path={toLocaleRoute(URLS.FAQ)} component={FAQPage} />
         <Route

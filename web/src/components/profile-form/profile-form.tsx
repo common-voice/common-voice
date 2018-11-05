@@ -1,11 +1,16 @@
-import { LocalizationProps, Localized, withLocalization } from 'fluent-react';
+import {
+  LocalizationProps,
+  Localized,
+  withLocalization,
+} from 'fluent-react/compat';
 import pick = require('lodash.pick');
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { DEFAULT_LOCALE } from '../../services/localization';
+import { ACCENTS, AGES, SEXES } from '../../stores/demographics';
 import { Locale } from '../../stores/locale';
 import StateTree from '../../stores/tree';
-import { ACCENTS, AGES, GENDERS, User } from '../../stores/user';
+import { User } from '../../stores/user';
 import Modal from '../modal/modal';
 import { Button, Hr, LabeledInput, LabeledSelect, TextButton } from '../ui/ui';
 import { isContributable } from '../locale-helpers';
@@ -229,7 +234,7 @@ class ProfileForm extends React.Component<Props, State> {
               name="gender"
               onChange={this.update}
               value={gender}>
-              {this.renderOptionsFor(GENDERS)}
+              {this.renderOptionsFor(SEXES)}
             </LabeledSelect>
           </Localized>
 

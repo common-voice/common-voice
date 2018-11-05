@@ -1,13 +1,10 @@
-import { Localized } from 'fluent-react';
+import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { DAILY_GOAL } from '../../../constants';
 import API from '../../../services/api';
 import StateTree from '../../../stores/tree';
-import {
-  PlayButton,
-  RecordButton,
-} from '../../primary-buttons/primary-buttons';
+import { PlayLink, RecordLink } from '../../primary-buttons/primary-buttons';
 
 import './hero.css';
 import URLS from '../../../urls';
@@ -113,11 +110,7 @@ class Hero extends React.Component<
           </div>
         </div>
         <div className="column cta">
-          {isSpeak ? (
-            <RecordButton status={null} />
-          ) : (
-            <PlayButton isPlaying={false} />
-          )}
+          {isSpeak ? <RecordLink /> : <PlayLink />}
           <div {...this.getToggleableProps(1, 'line ' + type)} />
           <div {...this.getToggleableProps(2)}>
             <Localized id="help-reach-goal" $goal={DAILY_GOAL[type]}>
@@ -138,9 +131,11 @@ class Hero extends React.Component<
               {DAILY_GOAL[type]}
             </span>
           </span>
-          <Localized id={type + '-goal-text'}>
-            <p />
-          </Localized>
+          <p>
+            <Localized id={type + '-goal-text'}>
+              <i />
+            </Localized>
+          </p>
         </div>
         <div className="fading" />
       </div>

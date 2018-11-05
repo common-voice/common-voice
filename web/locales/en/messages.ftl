@@ -11,6 +11,7 @@ loading = Loading…
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
 ## Languages
+ace = Acehnese
 an = Aragonese
 ar = Arabic
 as = Assamese
@@ -33,6 +34,7 @@ en = English
 eo = Esperanto
 es = Spanish
 et = Estonian
+fa = Persian
 fi = Finnish
 fo = Faroese
 fr = French
@@ -53,16 +55,19 @@ ko = Korean
 kpv = Komi-Zyrian
 kw = Cornish
 ky = Kyrgyz
+mdf = Moksha
 mk = Macedonian
+mn = Mongolian
 myv = Erzya
 nb-NO = Norwegian Bokmål
 ne-NP = Nepali
 nl = Dutch
 nn-NO = Norwegian Nynorsk
+oc = Occitan
 or = Odia
 pl = Polish
 pt-BR = Portuguese (Brazil)
-rm = Romansh
+rm-sursilv = Romansh Sursilvan
 ro = Romanian
 ru = Russian
 sah = Sakha
@@ -79,6 +84,7 @@ tt = Tatar
 uk = Ukrainian
 ur = Urdu
 uz = Uzbek
+vi = Vietnamese
 zh-CN = Chinese (China)
 zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
@@ -119,8 +125,7 @@ wall-of-text-more-mobile =
   recognition open to everyone.
 wall-of-text-more-desktop =
   Now you can donate your voice to help us build an open-source voice database that anyone can use
-  to make innovative apps for devices and the web.<lineBreak></lineBreak>
-  Read a sentence to help machines learn how real people speak. Check the work of other
+  to make innovative apps for devices and the web. Read a sentence to help machines learn how real people speak. Check the work of other
   contributors to improve the quality. It’s that simple!
 wall-of-text-first =
   Voice is natural, voice is human. That’s why we’re excited about creating usable voice technology
@@ -213,7 +218,11 @@ profile-form-accent =
 profile-form-age =
     .label = Age
 profile-form-gender =
-    .label = Gender
+    .label = Sex
+leaderboard-visibility =
+    .label = Leaderboard Visibility
+native-language =
+    .label = Native Language
 profile-form-submit-save = Save
 profile-form-submit-saved = Saved
 profile-keep-data = Keep Data
@@ -234,6 +243,22 @@ profile-clear-modal =
   Clearing your profile data means this demographic information will no longer be submitted to Common Voice with your
   clip recordings.
 profile-explanation = Keep track of your progress with a profile and help our voice data be more accurate.
+thanks-for-account = Thanks for confirming your account, now let's build your profile.
+why-demographic = Why does this matter?
+why-demographic-explanation = Anonymized user data like age, sex, and accent helps improve the audio data used to train the accuracy of speech recognition engines. Your username and email will never be associated with your submitted data, and you can choose whether to make your username public or anonymous.
+keep-me-posted =
+    .label = I'd like updates and to keep current with what's happening with Common Voice.
+accept-privacy = I'm okay with you handling this info as you explain in Mozilla's <privacyLink>Privacy Policy</privacyLink>
+login-identity = Login Identity
+edit = Edit
+email-subscriptions = Email Subscriptions
+download-profile = Download my data
+contribution-experience = Contribution Experience
+skip-submission-feedback = Skip Submission Feedback
+skip-submission-description = During contribution submission feedback will be skipped after clicking 'Submit. Contribution will continue directly with the next set of 5 recordings or validations.
+skip-submission-note = Note: You will still need to select between Speak or Listen to change contribution type.
+off = Off
+on = On
 
 ## FAQ
 faq-title = Frequently Asked Questions

@@ -18,6 +18,7 @@
     box-shadow: var(--card-shadow);
 
     & .head {
+        min-height: 63px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -45,6 +46,11 @@
 
                 background: url('/img/down-arrow.svg') no-repeat 90% center;
                 background-size: 10px;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: var(--desert-storm);
+                }
 
                 @media (--md-down) {
                     margin-top: 15px;
@@ -52,18 +58,25 @@
             }
 
             & ul {
-                margin: 0;
+                margin: 1px 0 0;
                 padding: 0;
-                max-height: 400px;
+                max-height: 190px;
                 width: 100%;
                 position: absolute;
                 background: var(--white);
                 list-style: none;
                 overflow: auto;
+                color: var(--near-black);
+                box-shadow: 0 2px 5px 0 var(--light-grey);
 
                 & li {
+                    border-bottom: 1px solid var(--light-grey);;
                     cursor: pointer;
                     padding: 13px 22px;
+
+                    &:last-child .line {
+                        border-bottom: 0;
+                    }
 
                     &.selected {
                         font-weight: 600;
@@ -103,7 +116,7 @@
 
         & .label {
             min-height: 32px;
-            font-size: 12px;
+            font-size: var(--font-size-xs);
             letter-spacing: 0.5px;
             color: var(--warm-grey);
         }
@@ -115,8 +128,14 @@
     }
 
     & .tick-label {
-        font-size: 12px;
+        font-size: var(--font-size-xs);
         fill: var(--warm-grey);
+
+        @media (--xxs-down) {
+            &.x:nth-child(2n) {
+                display: none;
+            }
+        }
     }
 
     & path {
@@ -172,12 +191,18 @@
     }
 
     & .online-voices {
-        font-size: 24px;
+        font-size: var(--font-size-lg);
         font-weight: 600;
         color: var(--valid-green);
     }
 
     & rect {
+        @media (--xxs-down) {
+            &:nth-child(2n) {
+                display: none;
+            }
+        }
+
         &.bg {
             fill: var(--grey);
         }

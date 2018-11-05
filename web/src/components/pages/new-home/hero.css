@@ -67,15 +67,16 @@
 
             &.title {
                 order: 0;
+                margin-bottom: 20px;
             }
 
             &.cta {
-                margin-top: 20px;
                 order: 2;
             }
 
             &.progress {
                 order: 1;
+                margin-bottom: 20px;
             }
         }
     }
@@ -97,7 +98,9 @@
             white-space: nowrap;
 
             @media (--sm-down) {
-                font-size: 12px;
+                font-family: var(--base-font-family);
+                font-weight: 600;
+                font-size: var(--font-size-xs);
                 letter-spacing: 0.5px;
             }
         }
@@ -134,7 +137,7 @@
 
         @media (--sm-down) {
             margin-top: 16px;
-            font-size: 12px;
+            font-size: var(--font-size-xs);
             font-weight: 600;
             white-space: nowrap;
         }
@@ -175,13 +178,9 @@
             }
         }
 
-        & button {
+        & a {
             background: white;
             transition: background var(--transition-duration-slow) linear;
-
-            & path {
-                transition: fill var(--transition-duration-slow) linear;
-            }
         }
     }
 
@@ -195,11 +194,11 @@
         }
 
         & .current {
-            font-size: 24px;
+            font-size: var(--font-size-lg);
         }
 
         & .total {
-            font-size: 16px;
+            font-size: var(--font-size);;
             white-space: pre;
         }
     }
@@ -230,7 +229,7 @@
         }
 
         & .primary-button {
-            &.stop button {
+            &.stop a {
                 background: var(--red);
 
                 & path {
@@ -238,7 +237,7 @@
                 }
             }
 
-            &.play button {
+            &.play a {
                 background: var(--valid-green);
 
                 & path {

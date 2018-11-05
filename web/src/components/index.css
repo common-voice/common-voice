@@ -11,7 +11,6 @@
 @import url('pages/home/home.css');
 @import url('pages/languages/languages.css');
 @import url('pages/languages/get-involved-modal.css');
-@import url('pages/record/record.css');
 @import url('profile-form/profile-form.css');
 @import url('progress-bar/progress-bar.css');
 @import url('request-language-modal/request-language-modal.css');
@@ -645,7 +644,7 @@ body:not(.ios) .recording #background-container {
     align-items: center;
 
     & a, & button {
-        font-size: var(--font-size-small);
+        font-size: var(--font-size-xs);
         font-weight: 600;
         text-decoration: underline;
     }
@@ -653,7 +652,7 @@ body:not(.ios) .recording #background-container {
 
 .opt-in {
     display: flex;
-    font-size: var(--font-size-small);
+    font-size: var(--font-size-xs);
 
     & input {
         margin: .1rem .3rem .1rem .1rem;
@@ -669,7 +668,7 @@ body:not(.ios) .recording #background-container {
 }
 
 .small {
-    font-size: var(--font-size-small);
+    font-size: var(--font-size-xs);
     color: var(--near-black);
 }
 
@@ -705,7 +704,7 @@ a.small, .small a, .text-button.small {
         padding: 9px 25px;
         max-width: 140px;
         line-height: 1.5;
-        font-size: 12px;
+        font-size: var(--font-size-xs);
         font-style: italic;
         letter-spacing: 0.8px;
         background: var(--near-black);
@@ -837,66 +836,4 @@ a.small, .small a, .text-button.small {
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-
-.survey {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    padding: 25px 40px;
-    width: 100%;
-    max-width: 430px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: white;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
-    z-index: var(--override-z-index);
-    animation: fade-in var(--transition-duration) linear;
-
-    @media (--sm-down) {
-        right: 0;
-        left: 0;
-        bottom: 0;
-        margin: 0 auto;
-    }
-
-    & button {
-        outline: none;
-        border: none;
-        margin-bottom: 13px;
-        align-self: flex-end
-    }
-
-    & h1 {
-        margin-bottom: 20px;
-        width: 100%;
-    }
-
-    & p {
-        margin-bottom: 28px;
-        line-height: 1.5;
-        color: var(--near-black);
-    }
-
-    & a {
-        border-radius: 29px;
-        padding: 12px 40px;
-        font-size: 14px;
-        font-weight: 600;
-        letter-spacing: 0.8px;
-        text-transform: uppercase;
-        text-align: center;
-        background-color: #629ff4;
-        color: white;
-        box-shadow: none;
-        transition: box-shadow linear var(--transition-duration);
-
-        &:hover {
-            opacity: 1;
-            box-shadow: 0 5px 10px rgba(98, 159, 244, .8);
-        }
-    }
 }

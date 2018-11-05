@@ -2,7 +2,7 @@
 
 yes-receive-emails = Sí, envieu-me correus. Vull estar informat del projecte Common Voice.
 stayintouch = A Mozilla estem construint una comunitat al voltant de les tecnologies de la veu. Voldríem estar al dia de les novetats, de noves fonts de dades i saber com useu aquestes dades.
-privacy-info = Ens comprometem a gestionar la vostra informació amb cura. Per a més informació, vegeu la <privacyLink>política de privadesa</privacyLink>.
+privacy-info = Ens comprometem a gestionar la vostra informació amb cura. Per a més informació, vegeu l'<privacyLink>avís de privadesa</privacyLink>.
 return-to-cv = Torna al Common Voice
 email-input =
     .label = Adreça electrònica
@@ -15,6 +15,7 @@ loading = S'està carregant…
 
 ## Languages
 
+ace = Atjeh
 an = aragonès
 ar = àrab
 as = assamès
@@ -37,6 +38,7 @@ en = anglès
 eo = esperanto
 es = espanyol
 et = estonià
+fa = persa
 fi = finès
 fo = feroès
 fr = francès
@@ -57,16 +59,19 @@ ko = coreà
 kpv = komi
 kw = còrnic
 ky = kirguís
+mdf = Mokxa
 mk = macedònic
+mn = mongol
 myv = mordovià erza
 nb-NO = Bokmål noruec
 ne-NP = nepalès
 nl = neerlandès
 nn-NO = Nynorsk noruec
+oc = occità
 or = oriya
 pl = polonès
 pt-BR = portuguès (Brasil)
-rm = romanx
+rm-sursilv = romanx (sobreselvà)
 ro = romanès
 ru = rus
 sah = iacut
@@ -83,6 +88,7 @@ tt = tàtar
 uk = ucraïnès
 ur = urdú
 uz = uzbek
+vi = vietnamita
 zh-CN = xinès (Xina)
 zh-HK = xinès (Hong Kong)
 zh-TW = xinès (Taiwan)
@@ -142,11 +148,12 @@ all-languages = Totes les llengües
 today = Avui
 x-weeks-short =
     { $count ->
-        [one] Setmana
+        [one] { $count } setm.
        *[other] { $count } setm.
     }
 x-months-short =
     { $count ->
+        [one] { $count } mes
        *[other] { $count } mesos
     }
 x-years-short =
@@ -210,6 +217,10 @@ profile-form-age =
     .label = Edat
 profile-form-gender =
     .label = Sexe
+leaderboard-visibility =
+    .label = Visibilitat a la classificació
+native-language =
+    .label = Llengua materna
 profile-form-submit-save = Desa
 profile-form-submit-saved = S'ha desat
 profile-keep-data = Conserva les dades
@@ -226,6 +237,22 @@ profile-create-success = Fet. S'ha creat el perfil!
 profile-close = Tanca
 profile-clear-modal = Si esborreu les vostres dades del perfil, es deixarà d'enviar aquesta informació demogràfica al Common Voice amb els vostres enregistraments.
 profile-explanation = Un perfil permet fer el seguiment del vostre progrés i ajuda a fer que les dades de veu siguin més precises.
+thanks-for-account = Gràcies per confirmar el compte. Ara crearem el vostre perfil.
+why-demographic = Per què és important?
+why-demographic-explanation = Les dades d'usuari anònimes com l'edat, el sexe i l'accent ajuden a millorar les dades d'àudio utilitzades per entrenar la precisió dels motors de reconeixement de veu. Les dades que envieu no estaran mai associades amb cap nom d'usuari ni adreça electrònica, i podeu triar si voleu que el vostre nom d'usuari sigui públic o anònim.
+keep-me-posted =
+    .label = Vull rebre actualitzacions i estar al dia de les novetats del Common Voice.
+accept-privacy = Accepto que gestioneu aquesta informació en els termes descrits en la <privacyLink>política de privadesa</privacyLink> de Mozilla
+login-identity = Identitat d'inici de sessió
+edit = Edita
+email-subscriptions = Subscripcions per correu electrónic
+download-profile = Baixa les meves dades
+contribution-experience = Experiència de la col·laboració
+skip-submission-feedback = Omet l'enviament de comentaris
+skip-submission-description = L'enviament de comentaris es desactivarà en fer clic a «Envia». La col·laboració passarà directament al següent grup de 5 enregistraments o validacions.
+skip-submission-note = Nota: Igualment haureu de seleccionar entre Parla o Escola per canviar el tipus de col·laboració.
+off = Desactivat
+on = Activat
 
 ## FAQ
 

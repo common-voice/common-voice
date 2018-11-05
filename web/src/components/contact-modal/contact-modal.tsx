@@ -1,4 +1,4 @@
-import { Localized } from 'fluent-react';
+import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import Modal from '../modal/modal';
 import { Button, LabeledInput, LabeledTextArea, TextButton } from '../ui/ui';
@@ -9,7 +9,10 @@ interface Props {
 
 export default ({ onRequestClose }: Props) => (
   <Modal innerClassName="contact-modal" onRequestClose={onRequestClose}>
-    <form action="mailto:mikey@mozilla.com" method="post" encType="text/plain">
+    <form
+      action="mailto:commonvoice@mozilla.com"
+      method="post"
+      encType="text/plain">
       <div className="title-and-action">
         <Localized id="contact-title">
           <h1 />
@@ -19,7 +22,7 @@ export default ({ onRequestClose }: Props) => (
       <br />
 
       <Localized id="email-input" attrs={{ label: true }}>
-        <LabeledInput label="Email" name="email" required type="text" />
+        <LabeledInput label="Email" name="email" required type="email" />
       </Localized>
 
       <Localized id="contact-form-name" attrs={{ label: true }}>

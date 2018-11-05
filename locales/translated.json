@@ -1,5 +1,6 @@
 [
   "ar",
+  "ast",
   "az",
   "bn",
   "br",
@@ -25,6 +26,7 @@
   "hu",
   "ia",
   "id",
+  "is",
   "it",
   "ja",
   "ka",
@@ -34,6 +36,7 @@
   "kw",
   "ky",
   "mk",
+  "mn",
   "ne-NP",
   "nl",
   "nn-NO",
@@ -50,5 +53,6 @@
   "tt",
   "uk",
   "zh-CN",
+  "zh-HK",
   "zh-TW"
 ]

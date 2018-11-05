@@ -2,7 +2,7 @@
 
 .share-button [data-icon] {
     color: var(--white);
-    font-size: var(--font-size-small);
+    font-size: var(--font-size-xs);
 
     &:hover {
         color: var(--blue);

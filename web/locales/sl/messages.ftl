@@ -15,6 +15,7 @@ loading = Nalaganje …
 
 ## Languages
 
+ace = ačinščina
 an = aragonščina
 ar = arabščina
 as = asamščina
@@ -24,7 +25,8 @@ bn = bengalščina
 br = bretonščina
 bxr = burijatščina
 ca = katalonščina
-cnh = Hakha Chin
+cak = kaqchikel
+cnh = hakha chin
 cs = češčina
 cv = čuvaščina
 cy = valižanščina
@@ -36,6 +38,7 @@ en = angleščina
 eo = esperanto
 es = španščina
 et = estonščina
+fa = perzijščina
 fi = finščina
 fo = ferščina
 fr = francoščina
@@ -56,16 +59,19 @@ ko = korejščina
 kpv = komijščina
 kw = kornijščina
 ky = kirgiščina
+mdf = mokša
 mk = makedonščina
+mn = mongolščina
 myv = erzjanščina
 nb-NO = norveščina (bokmål)
 ne-NP = nepalščina
 nl = nizozemščina
 nn-NO = norveščina (nynorsk)
+oc = okcitanščina
 or = odijščina
 pl = poljščina
 pt-BR = portugalščina (Brazilija)
-rm = retoromanščina
+rm-sursilv = retoromanščina (sursilvan)
 ro = romunščina
 ru = ruščina
 sah = jakutščina
@@ -82,6 +88,7 @@ tt = tatarščina
 uk = ukrajinščina
 ur = urdujščina
 uz = uzbeščina
+vi = vietnamščina
 zh-CN = kitajščina (Kitajska)
 zh-HK = kitajščina (Hong Kong)
 zh-TW = kitajščina (Tajvan)
@@ -91,7 +98,7 @@ zh-TW = kitajščina (Tajvan)
 
 ## Layout
 
-speak = Govorite
+speak = Govori
 speak-now = Začnite govoriti
 datasets = Nabori podatkov
 languages = Jeziki
@@ -120,6 +127,11 @@ wall-of-text-more-mobile = Večina podatkov, ki jih uporabljajo velika podjetja,
 wall-of-text-more-desktop =
     Zdaj lahko prispevate svoj glas in nam pomagate zgraditi odprtokodno govorno bazo, ki jo bo lahko kdorkoli uporabil za izdelavo inovativnih aplikacij za naprave in splet.<lineBreak></lineBreak>
     Preberite stavek in pomagajte strojem pri učenju človeškega govora. Preglejte delo ostalih sodelavcev in izboljšajte kakovost. Tako enostavno je!
+wall-of-text-first =
+    Glas je naraven, glas je človeški. Zato smo navdušeni nad ustvarjanjem uporabne govorne tehnologije
+    za naše stroje. Da pa bi bilo mogoče ustvariti govorne sisteme, razvijalci potrebujejo zelo veliko količino glasovnih
+    podatkov.
+wall-of-text-second = Večina podatkov, ki jih uporabljajo velika podjetja, ni na voljo za večino ljudi. Menimo, da to ovira inovacije. Zato smo zagnali projekt Common Voice, ki bo naredil glasovno prepoznavanje odprto in dostopno vsem.
 show-wall-of-text = Več
 help-us-title = Pomagaj nam potrditi stavke!
 help-us-explain = Pritisni predvajaj in poslušaj. Ali je spodnji stavek pravilno izgovorjen?
@@ -128,11 +140,38 @@ vote-yes = Da
 vote-no = Ne
 toggle-play-tooltip = Pritisnite { shortcut-play-toggle } za preklop načina predavjanja
 speak-subtitle = Prispevajte svoj glas
-speak-goal-text = Posnetki posneti
+speak-paragraph = Snemanje glasovnih posnetkov je sestavni del gradnje našega odprtega nabora podatkov, nekateri bi celo rekli, najbolj zabaven del.
+speak-goal-text = posnetih posnetkov
 listen-subtitle = Pomagajte nam potrditi glasove
+listen-paragraph = Potrjevanje prejetih posnetkov je enako pomembno za uspeh misije Common Voice. Poslušajte in nam pomagajte ustvariti kakovostne odprtokodne glasovne podatke.
+listen-goal-text = potrjenih posnetkov
+hours-recorded = Posnetih ur
+hours-validated = Potrjenih ur
 read-terms-q = Ste prebrali naše pogoje?
+ready-to-record = Ste pripravljeni prispevati svoj glas?
 all-languages = Vsi jeziki
 today = Danes
+x-weeks-short =
+    { $count ->
+        [one] Teden
+        [two] { $count } tedna
+        [few] { $count } tedni
+       *[other] { $count } tednov
+    }
+x-months-short =
+    { $count ->
+        [one] { $count } mesec
+        [two] { $count } meseca
+        [few] { $count } meseci
+       *[other] { $count } mesecev
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } leto
+        [two] { $count } leti
+        [few] { $count } leta
+       *[other] { $count } let
+    }
 
 ## Speak & Listen Shortcuts
 
@@ -191,6 +230,10 @@ profile-form-age =
     .label = Starost
 profile-form-gender =
     .label = Spol
+leaderboard-visibility =
+    .label = Vidnost na lestvici
+native-language =
+    .label = Materni jezik
 profile-form-submit-save = Shrani
 profile-form-submit-saved = Shranjeno
 profile-keep-data = Ohrani podatke
@@ -207,6 +250,22 @@ profile-create-success = Uspelo je, profil je ustvarjen!
 profile-close = Zapri
 profile-clear-modal = Izbris vaših profilnih podatkov pomeni, da vaši demografski podatki ne bodo dostopni ob vaših posnetkih v projektu Common Voice.
 profile-explanation = Sledite svojemu napredku s pomočjo profila in nam pomagajte narediti naše zvočne podatke natančnejše.
+thanks-for-account = Hvala za potrditev računa, zdaj pa se lotimo ustvarjanja vašega profila.
+why-demographic = Zakaj je to pomembno?
+why-demographic-explanation = Anonimni uporabniški podatki, kot so starost, spol in naglas, izboljšajo glasovne podatke, ki se uporabljajo za zagotavljanje natančnosti sistemov za prepoznavanje govora. Vaše uporabniško ime in e-pošta ne bosta nikoli povezana z vašimi posredovanimi podatki, zato lahko izberete, ali bo vaše uporabniško ime javno ali anonimno.
+keep-me-posted =
+    .label = Želim prejemati posodobitve in novosti o poteku projekta Common Voice.
+accept-privacy = Strinjam se z ravnanjem s temi podatki, kot je razloženo v Mozillini <privacyLink>politiki zasebnosti</privacyLink>
+login-identity = Identiteta prijave
+edit = Uredi
+email-subscriptions = Naročnine na e-pošto
+download-profile = Prenesi moje podatke
+contribution-experience = Izkušnja prispevanja
+skip-submission-feedback = Preskoči pošiljanje povratnih informacij
+skip-submission-description = Med oddajo prispevka bodo povratne informacije preskočene ob kliku na gumb Pošlji. Prispevek se bo neposredno nadaljeval z naslednjim sklopom 5 posnetkov ali preverjanj.
+skip-submission-note = Opomba: za spremembo vrste prispevka boste še vedno morali izbrati med Govori in Poslušaj.
+off = Izklopljeno
+on = Vklopljeno
 
 ## FAQ
 
@@ -322,6 +381,7 @@ request-language-success-content = V kratkem se vam bomo oglasili z več informa
 language-section-in-progress = V nastajanju
 language-section-in-progress-description = Jezike, ki so trenutno v fazi nastajanja, naše skupnosti še pripravljajo za nadaljnje faze projekta Common Voice; napredek jezika tako odraža napredek pri prevajanju spletne strani in količino zbranih stavkov.
 language-section-launched = V teku
+language-section-launched-new-description = Spletna stran je bila uspešno prevedena v te jezike in ima dovolj zbranih stavkov, da omogoča nadaljevanje <italic>govornih</italic> in <italic>slušnih</italic> prispevkov.
 languages-show-more = Več
 languages-show-less = Manj
 language-speakers = Govorcev
@@ -373,5 +433,6 @@ listen-instruction = { $actionType } <playIcon></playIcon> ali je bil stavek pra
 listen-again-instruction = Odlično opravljeno!<playIcon></playIcon> Poslušajte znova, ko boste pripravljeni.
 listen-3rd-time-instruction = Samo še 2, kar tako naprej! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Še zadnji!
+nothing-to-validate = Trenutno ni ničesar za preveriti v tem jeziku. Pomagaj nam zapolniti čakalno vrsto.
 record-button-label = Posnemite svoj glas
 share-title-new = <bold>Pomagajte nam</bold> najti več glasov

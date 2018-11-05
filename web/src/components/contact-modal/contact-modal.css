@@ -5,6 +5,10 @@
     & textarea {
         resize: none;
     }
+
+    & .labeled-form-control {
+        margin-bottom: 1rem;
+    }
 }
 
 .contact-modal .actions {
@@ -24,7 +28,7 @@
     }
 
     & div {
-        font-size: var(--font-size-small);
+        font-size: var(--font-size-xs);
         font-style: italic;
     }
 }

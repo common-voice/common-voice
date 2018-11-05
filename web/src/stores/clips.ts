@@ -47,16 +47,6 @@ export namespace Clips {
 
   export type Action = LoadAction | RefillCacheAction | RemoveClipAction;
 
-  const preloadClip = (clip: any) =>
-    new Promise(resolve => {
-      const audioElement = document.createElement('audio');
-      audioElement.addEventListener('canplaythrough', () => {
-        audioElement.remove();
-        resolve();
-      });
-      audioElement.setAttribute('src', clip.sound);
-    });
-
   export const actions = {
     refillCache: () => async (
       dispatch: Dispatch<RefillCacheAction | LoadAction>,
@@ -91,7 +81,7 @@ export namespace Clips {
             };
           }),
         });
-        await Promise.all(clips.map(preloadClip));
+        await Promise.all(clips.map(({ sound }) => fetch(sound)));
       } catch (err) {
         if (err instanceof XMLHttpRequest) {
           dispatch({ type: ActionType.REFILL_CACHE });

@@ -22,6 +22,7 @@ ast = Astúiris
 az = Asarbaiseáinis
 bn = Beangáilis
 br = Briotáinis
+bxr = Buiriáitis
 ca = Catalóinis
 cs = Seicis
 cv = Suvaisis
@@ -31,6 +32,7 @@ de = Gearmáinis
 dsb = Sorbais Íochtarach
 el = Gréigis
 en = Béarla
+eo = Esperanto
 es = Spáinnis
 et = Eastóinis
 fi = Fionlainnis
@@ -62,6 +64,7 @@ nn-NO = Ioruais Nynorsk
 or = Oirísis
 pl = Polainnis
 pt-BR = Portaingéilis (An Bhrasaíl)
+rm = Rómainis
 ro = Rómáinis
 ru = Rúisis
 sah = Sachais
@@ -101,7 +104,11 @@ faq = Ceisteanna Coitianta
 content-license-text = Tá an t-ábhar seo ar fáil de réir téarmaí <licenseLink>Cheadúnas Creative Commons</licenseLink>
 share-title = Cabhraigh linn daoine nua a earcú! Scaip an focal!
 share-text = Cabhraigh linn múineadh do ríomhairí conas a labhraíonn daoine; bronn do ghuth ag { $link }
+link-copied = Cóipeáladh an Nasc
 back-top = Fill ar bharr an leathanaigh
+contribution-banner-text = Táimid go díreach tar éis eispéireas nua rannpháirtíochta a sheoladh
+contribution-banner-button = Bain triail as
+report-bugs-link = Déan tuairisc ar fhabhtanna
 
 ## Home Page
 
@@ -117,6 +124,40 @@ no-clips-to-validate = Is cosúil nach bhfuil aon taifeadtaí sa teanga seo fós
 vote-yes = Tá
 vote-no = Níl
 toggle-play-tooltip = Brúigh { shortcut-play-toggle } chun an mód seinnte a athrú
+speak-subtitle = Roinn do ghuth linn
+speak-goal-text = Gearrthóga taifeadta
+listen-subtitle = Cabhraigh linn guthanna a dheimhniú
+listen-goal-text = Gearrthóga deimhnithe
+hours-recorded = Uaireanta an chloig taifeadta
+hours-validated = Uaireanta an chloig deimhnithe
+read-terms-q = Ar léigh tú na Téarmaí Seirbhíse?
+ready-to-record = An bhfuil tú réidh do ghuth a roinnt linn?
+all-languages = Gach Teanga
+today = Inniu
+x-weeks-short =
+    { $count ->
+        [one] Seachtain
+        [two] { $count } 7n
+        [few] { $count } 7n
+        [many] { $count } 7n
+       *[other] { $count } 7n
+    }
+x-months-short =
+    { $count ->
+        [one] { $count } mhí
+        [two] { $count } mhí
+        [few] { $count } mhí
+        [many] { $count } mí
+       *[other] { $count } mí
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } bhl
+        [two] { $count } bhl
+        [few] { $count } bl
+        [many] { $count } mbl
+       *[other] { $count } bl
+    }
 
 ## Speak & Listen Shortcuts
 
@@ -314,6 +355,9 @@ language-total-progress = Iomlán
 language-search-input =
     .placeholder = Cuardaigh
 language-speakers = Cainteoirí
+localized = Aistrithe
+sentences = Abairtí
+total-hours = Uaireanta Deimhnithe
 
 ## New Contribution
 
@@ -323,7 +367,9 @@ contribute = Rannpháirtíocht
 listen = Éist
 skip = Ar Aghaidh
 shortcuts = Aicearraí
-clips = Gearrthóga
+clips-with-count = <bold>{ $count }</bold> Gearrthóg
+goal-help-recording = Chabhraigh tú le Common Voice <goalPercentage></goalPercentage> dár sprioc laethúil de { $goalValue } abairt taifeadta a bhaint amach!
+goal-help-validation = Chabhraigh tú le Common Voice <goalPercentage></goalPercentage> dár sprioc laethúil de { $goalValue } abairt deimhnithe a bhaint amach!
 contribute-more =
     { $count ->
         [one] An bhfuil tú réidh ceann amháin eile a dhéanamh?
@@ -343,6 +389,7 @@ review-tooltip = Athbhreithnigh agus ataifead gearrthóga anseo
 unable-speak = Níl tú in ann labhairt anois?
 review-instruction = Athbhreithnigh agus ataifead más gá
 record-submit-tooltip = { $actionType } Seol nuair a bheidh tú réidh
+clips-uploaded = Gearrthóga Uaslódáilte
 record-abort-title = An bhfuil fonn ort na taifeadtaí a chríochnú ar dtús?
 record-abort-text = Má fhágann tú anois, caillfidh tú aon dul chun cinn a rinne tú
 record-abort-submit = Seol gearrthóga
@@ -352,4 +399,6 @@ listen-instruction = { $actionType } <playIcon></playIcon> — an bhfuil an taif
 listen-again-instruction = Maith thú! <playIcon></playIcon> Éist le ceann eile nuair a bheidh tú réidh
 listen-3rd-time-instruction = Sin dhá cheann, lean ort! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> An ceann deireanach!
+nothing-to-validate = Níl aon ábhar le deimhniú sa teanga seo; cabhraigh linn an ciú a líonadh!
+record-button-label = Taifead do ghuth
 share-title-new = <bold>Cabhraigh linn</bold> tuilleadh guthanna a fháil

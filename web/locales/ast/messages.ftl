@@ -15,6 +15,7 @@ loading = Cargando...
 
 ## Languages
 
+ace = Achenés
 an = Aragonés
 ar = Árabe
 as = Asamés
@@ -37,6 +38,7 @@ en = Inglés
 eo = Esperantu
 es = Español
 et = Estoniu
+fa = Persa
 fi = Finlandés
 fo = Feroés
 fr = Francés
@@ -56,16 +58,20 @@ kk = Kazaxu
 ko = Coreanu
 kpv = Komi
 kw = Córnicu
+ky = Kirguís
+mdf = Moksha
 mk = Macedoniu
+mn = Mongol
 myv = Erzya
 nb-NO = Bokmål noruegu
 ne-NP = Nepalí
 nl = Neerlandés
 nn-NO = Nynorsk noruegu
+oc = Occitanu
 or = Oriya
 pl = Polacu
 pt-BR = Portugués (Brasil)
-rm = Romanche
+rm-sursilv = Romanche surselvu
 ro = Rumanu
 ru = Rusu
 sah = Sakha
@@ -82,6 +88,7 @@ tt = Tatar
 uk = Ucraín
 ur = Urdu
 uz = Uzbecu
+vi = Vietnamita
 zh-CN = Chinu (China)
 zh-HK = Chinu (Ḥong Kong)
 zh-TW = Chinu (Taiwán)
@@ -91,6 +98,8 @@ zh-TW = Chinu (Taiwán)
 
 ## Layout
 
+speak = Falar
+speak-now = Fala agora
 datasets = Conxuntos de datos
 languages = Llingües
 profile = Perfil
@@ -106,20 +115,34 @@ share-text = Enséña-yos a les máquines cómo falen los humanos. Empresta la t
 link-copied = Copióse l'enllaz
 back-top = Volver a arriba
 contribution-banner-text = Tamos acabante de llanzar una esperiencia nueva de collaboración
-contribution-banner-button = Écha-y un gueyu
+contribution-banner-button = Écha-y un güeyu
 report-bugs-link = Ayuda a informar de fallos
 
 ## Home Page
 
 home-title = El proyeutu Common Voice ye la iniciativa de Mozilla pa enseña-yos a les máquines cómo falen los humanos.
 home-cta = ¡Collabora equí!
-wall-of-text-start = La voz ye natural, tamién humana. Poro, tamos ablucando cola creación d'una teunoloxía per voz de calidá pa les máquines de nueso. Pero pa crear sistemes per voz, ríquese una cantidá escomanada de datos de voz.
-wall-of-text-more-mobile = La mayoría de datos usaos por compañes grandes nun tán disponibles pa la mayoría de xente. Cuidamos qu'eso torga la innovación polo que llanzamos Common Voice. Un proyeutu p'ayudar a facer que la reconocencia de voz tea abierta al tol mundu.
+wall-of-text-start =
+    La voz ye natural, tamién humana. Poro, tamos ablucando cola creación d'una teunoloxía per
+    voz calidable pa les máquines de nueso. Pero pa crear sistemes per voz, ríquese una cantidá
+    escomanada de datos de voz.
+wall-of-text-more-mobile =
+    La mayoría de datos usaos por compañes grandes nun tán disponibles pa la mayoría de xente.
+    Cuidamos qu'eso torga la innovación polo que llanzamos Common Voice, un proyeutu p'ayudar
+    a facer que la reconocencia de voz tea abierta al tol mundu.
 wall-of-text-more-desktop =
     Agora pues emprestar la to voz p'ayudanos a construyir una base de datos abierta que tol mundu
     pue usar pa facer aplicaciones innovadores pa preseos y web.<lineBreak></lineBreak>
     Llei una fras pa enseña-yos a les máquines cómo falen los humanos. Comprueba'l trabayu d'otros
     collaboradores p'ameyorar la calidá. ¡Ye mui cenciello!
+wall-of-text-first =
+    La voz ye natural, tamién humana. Poro, queremos crear teunoloxíes per voz que puean usar les
+    nueses máquines. Pero pa facelo, los desendolcadores precisen una cantidá escomanada de datos
+    de voz.
+wall-of-text-second =
+    La mayoría de datos usaos por compañes grandes nun tán disponibles pa la mayoría de xente.
+    Cuidamos qu'eso torga la innovación polo que llanzamos Common Voice. Un proyeutu p'ayudar a
+    facer que la reconocencia de voz seya abierta y accesible pa tol mundu.
 show-wall-of-text = Llei más
 help-us-title = ¡Ayúdanos a validar les frases!
 help-us-explain = Primi'l botón de reproducción, sienti y dinos: ¿la grabación correspuende cola fras d'embaxo?
@@ -127,14 +150,23 @@ no-clips-to-validate = Paez que nesta llingua nun hai dengún clip pa sentir. Ay
 vote-yes = Sí
 vote-no = Non
 toggle-play-tooltip = Primi { shortcut-play-toggle } p'alternar el mou de reproducción
+speak-subtitle = Empresta la to voz
+speak-paragraph = La grabación de clips de voz ye una parte esencial de la fechura del nuesu conxuntu abiertu de datos. Tamién ye la parte más divertida.
+speak-goal-text = Clips grabaos
 listen-subtitle = Ayúdanos a validar voces
+listen-paragraph = Validar los clips ye tamién importante pa la misión de Common Voice. Sienti y ayúdanos a crear datos de voz llibres y calidables.
 listen-goal-text = Clips validaos
 hours-recorded = Hores grabaes
 hours-validated = Hores validaes
 read-terms-q = ¿Lleesti los nuesos términos?
+ready-to-record = ¿Preparáu pa emprestar la to voz?
 all-languages = Toles llingües
 today = Güei
-x-weeks-short = VoxForge creóse pa recoyer charres trescrites y usales dempués nos motores de reconocencia gratuítos y de códigu abiertu.
+x-weeks-short =
+    { $count ->
+        [one] Selmana
+       *[other] { $count } selmanes
+    }
 x-months-short =
     { $count ->
         [one] { $count } mes
@@ -201,6 +233,10 @@ profile-form-age =
     .label = Edá
 profile-form-gender =
     .label = Xéneru
+leaderboard-visibility =
+    .label = Visibilidá de la tabla de líderes
+native-language =
+    .label = Llingua nativa
 profile-form-submit-save = Guardar
 profile-form-submit-saved = Guardóse
 profile-keep-data = Caltener datos
@@ -219,6 +255,22 @@ profile-create-success = ¡Creóse'l perfil con ésitu!
 profile-close = Zarrar
 profile-clear-modal = Llimpiar el perfil significa qu'esta información demográfica yá nun va unviase a Common Voice xunto coles tos grabaciones.
 profile-explanation = Sigui'l to progresu con un perfil y ayuda a que los nuesos datos de voz seyan más precisos.
+thanks-for-account = Gracies por confirmar la cuenta, agora vamos facer el to perfil.
+why-demographic = ¿Por qué importa esto?
+why-demographic-explanation = Los datos anonimizaos como edá, sexu y acentu ayuden a ameyorar los datos d'audiu usaos pa entrenar la precisión de los motores de reconocencia de voz. El to nome d'usuariu y corréu enxamás nun va asociase colos datos unviaos, y vas poder escoyer si facelos públicos o anónimos.
+keep-me-posted =
+    .label = Prestaríame tar al día, con anovamientos, pa saber lo último de Common Voice.
+accept-privacy = Toi d'alcuerdu con que remanéis esta información como desplicáis na <privacyLink>política de privacidá</privacyLink> de Mozilla
+login-identity = Identidá del aniciu de sesión
+edit = Editar
+email-subscriptions = Soscripciones per corréu
+download-profile = Baxar los mios datos
+contribution-experience = Esperiencia de la collaboración
+skip-submission-feedback = Saltar l'unviu de los comentarios
+skip-submission-description = Nel unviu de les collaboraciones van saltase los comentarios tres facer clic n'«Unviar». La collaboración va siguir direutamente col conxuntu siguiente de 5 grabaciones o validaciones.
+skip-submission-note = Nota: Entá vas precisar esbillar ente Falar o Sentir pa camudar la triba de collaboración.
+off = NON
+on = SÍ
 
 ## FAQ
 
@@ -226,10 +278,11 @@ faq-title = Entrugues frecuentes
 faq-what-q = ¿Qué ye Common Voice?
 faq-what-a = La teunoloxía de reconocencia de voz podría revolucionar el mou nel qu'interactuamos coles máquines, pero los sistemes disponibles anguaño son caros y privativos. Common Voice ye un proyeutu pa facer d'accesu fácil la teunoloxía de reconocencia de voz a tol mundu. La xente empresta la so voz a una base de datos masiva que va permitir entrenar aína a les aplicaciones qu'usen la voz. Tolos datos de voz van tar disponibles pa los desendolcadores.
 faq-important-q = ¿Por qué ye importante?
-faq-important-a = La voz ye natural, la voz ye humana. Ye'l mou más cencielu y natural de comunicase. Queremos que los desendolcadores seyan a creen proyeutos ablucantes: dende  traductores en tiempu real hasta asistentes per voz. Pero pel momentu nun hai abondos datos disponibles públicamente pa crear esa triba d'aplicaciones. Esperamos que Common Voice forna a los desendolcadores lo que precisen pa innovar.
+faq-important-a = La voz ye natural, tamién humana. Ye'l mou más cencielu y natural de comunicase. Queremos que los desendolcadores seyan a crear proyeutos ablucantes: dende  traductores en tiempu real hasta asistentes per voz. Pero pel momentu nun hai abondos datos disponibles públicamente pa crear esa triba d'aplicaciones. Esperamos que Common Voice forna a los desendolcadores lo que precisen pa innovar.
 faq-get-q = ¿Cómo pueo consiguir los datos de Common Voice?
 faq-get-a = Agora'l conxuntu de datos ta disponible na nuesa <downloadLink>páxina de descargues</downloadLink> so la llicencia <licenseLink>CC-0</licenseLink>.
 faq-mission-q = ¿Por que Common Voice ye parte de la misión de Mozilla?
+faq-mission-a = Mozilla ta dedicada a caltener la web abierta y accesible pa tol mundu. Pa facelo, precisamos ufrir ferramientes a los creadores de la web pente proyeutos como Common Voice. Darréu que les teunoloxíes per voz tán proliferando acullá de les aplicaciones más especializaes, creyemos qu'hemos servir a tolos usuarios n'igualdá de condiciones. Vemos una necesidá d'incluyir más llingües, acentos y datos demográficos al crear y probar eses teunoloxíes. Mozilla quier ver un internet sanu y vivu. Esto significa apurrir a los creadores nuevos accesu a los datos de voz pa que puean construyir proyeutos nuevos y estraordinarios. Common Voice va ser un recursu públicu que va ayudar a los equipos y desendolcadores de Mozilla de tol mundu.
 faq-native-q = Nun soi un falante nativu de { $lang } y falo con acentu, ¿entá quedríeis la mio voz?
 faq-native-a = Sí, ¡claro que queremos la to voz! Parte del oxetivu de Common Voice ye atropar tantos acentos estremaos como seya posible, pa qu'asina los ordenadores puean entender meyor <bold>a tol mundu</bold> cuando fala.
 faq-firefox-q = ¿La voz a testu, pente Common Voice, va ser dalcuando parte de Firefox?
@@ -260,14 +313,15 @@ data-download-deny = Non
 data-download-license = Llicencia: <licenseLink>CC-0</licenseLink>
 data-download-modal = Tas a piques d'aniciar la descarga de <size>{ $size }GB</size>, ¿siguir?
 data-subtitle = Tamos construyendo un conxuntu de datos de voz públicu y disponible que tol mundu pue usar pa entrenar a les aplicaciones qu'usen la voz.
+data-explanatory-text = Creyemos qu'unos conxuntos de datos de voz grandes y disponibles públicamente dan puxu a la innovación y competencia comercial sana nel campu de la teunoloxía de la voz basada nel deprendizaxe automáticu. Esto ye un esfuerciu global y convidamos a tol mundu a que participe. L'oxetivu de nueso ye ayudar a que la teunoloxía de voz seya más inclusiva reflexando la diversidá de voces nel mundu.
 data-get-started = <speechBlogLink>Entamar cola reconocencia de voz</speechBlogLink>
 data-other-title = Otros conxuntos de datos de voz...
 data-other-goto = Dir a { $name }
 data-other-download = Baxar datos
 data-other-librispeech-description = LibriSpeech ye un corpus de 1000 hores aproximadamente a 16Khz de llectura d'audiollibros n'inglés del proyeutu LibriVox.
 data-other-ted-name = Corpus de TED-LIUM
-data-other-ted-description = El corpus de TED-LIUM fízose de magar d'audios de charres y les sos trescripciones disponibles nel sitiu web TED.
-data-other-voxforge-description = VoxForge creóse pa recoyer charres trescrites y usales dempués nos motores de reconocencia gratuítos y de códigu abiertu.
+data-other-ted-description = El corpus de TED-LIUM fízose de magar audios de charres y les sos trescripciones disponibles nel sitiu web TED.
+data-other-voxforge-description = VoxForge creóse pa recoyer charres trescrites y usales dempués nos motores de reconocencia gratuitos y de códigu abiertu.
 data-other-tatoeba-description = Tatoeba ye una base de datos grande de frases, traducciones y audios pal usu nel deprendimientu de llingües. Esta descarga contién grabaciones n'inglés faláu pola so comunidá.
 data-bundle-button = Baxar el paquete del conxuntu de datos
 data-bundle-description = Los datos de Common Voice amás de tolos conxuntos de datos d'enriba.
@@ -287,12 +341,15 @@ record-error-too-long = La grabación foi perllarga.
 record-error-too-quiet = La grabación foi persilenciosa.
 record-submit-success = ¡L'unviu tuvo ésitu! ¿Quies grabar de nueves?
 record-help = Calca pa grabar, darréu llei n'alto la fras d'enriba
+record-cancel = Encaboxar grabación
 review-terms = Usando Common Voice aceutes los nuesos <termsLink>términos</termsLink> y la nuesa <privacyLink>noticia de privacidá</privacyLink>
 terms-agree = Aceuto
 terms-disagree = Nun aceuto
 review-aborted = Albortóse la xuba. ¿Quies desaniciar toles tos grabaciones?
 review-submit-title = Revisión y unviu
 review-submit-msg = ¡Gracies pola grabación!<lineBreak></lineBreak>Agora revisa y unvia los tos clips d'embaxo.
+review-recording = Revisar
+review-rerecord = Grabar de nueves
 review-cancel = Encaboxar xuba
 review-keep-recordings = Caltener grabaciones
 review-delete-recordings = Desaniciar les mios grabaciones
@@ -347,7 +404,7 @@ total-hours = Hores totales
 action-click = Fai clic
 action-tap = Calca
 contribute = Collaborar
-listen = Sienti
+listen = Sentir
 skip = Saltar
 shortcuts = Atayos
 clips-with-count = <bold>{ $count }</bold> clips
@@ -364,7 +421,10 @@ record-stop-instruction = { $actionType }<stopIcon></stopIcon> cuando termines
 record-three-more-instruction = ¡Tres p'acabar!
 record-again-instruction = ¡Perfeuto!<recordIcon></recordIcon> Graba'l clip siguiente
 record-again-instruction2 = ¡Sigui asina! Fai otra grabación <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> ¡La última!
+review-tooltip = Revisa y volvi grabar los clips a midida que sigues
 unable-speak = ¿Nun pues falar agora?
+review-instruction = Revisa y volvi grabar los clips si lo precises
 record-submit-tooltip = { $actionType } unviar cuando termines
 clips-uploaded = Clips xubíos
 record-abort-title = ¿Finar primero la grabación?
@@ -372,7 +432,10 @@ record-abort-text = Si coles agora, vas perder el to progresu
 record-abort-submit = Unviar clips
 record-abort-continue = Finar grabación
 record-abort-delete = Colar y desaniciar clips
+listen-instruction = { $actionType }<playIcon></playIcon>, ¿pronunció correutamente la fras?
+listen-again-instruction = ¡Bon trabayu!<playIcon></playIcon> Volvi sentir cuando teas preparáu
 listen-3rd-time-instruction = 2 menos, ¡sigui asina!<playIcon></playIcon>
-nothing-to-validate = Nun tenemos nada pa revisar nesta llingua, ayúdanos a rellenar la cola.
+listen-last-time-instruction = <playIcon></playIcon>¡La última!
+nothing-to-validate = Nun tenemos nada pa revisar nesta llingua, ayúdanos a enllenar la cola.
 record-button-label = Graba la to voz
 share-title-new = <bold>Ayúdanos</bold> a alcontrar más voces

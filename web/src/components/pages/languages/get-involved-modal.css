@@ -45,4 +45,8 @@
         display: flex;
         justify-content: center;
     }
+
+    & .labeled-form-control {
+        margin-bottom: 1rem;
+    }
 }
