@@ -312,20 +312,6 @@ data-bundle-description = Common Voice data plus all other voice datasets above.
 license = License: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixed
 
-## Record Page
-record-platform-not-supported = We’re sorry, but your platform is not currently supported.
-record-platform-not-supported-desktop = On desktop computers, you can download the latest:
-record-platform-not-supported-ios = <bold>iOS</bold> users can download our free app:
-record-must-allow-microphone = You must allow microphone access.
-record-retry = Retry
-record-no-mic-found = No microphone found.
-record-error-too-short = The recording was too short.
-record-error-too-long = The recording was too long.
-record-error-too-quiet = The recording was too quiet.
-record-submit-success = Submit success! Want to record again?
-record-help = Please tap to record, then read the above sentence aloud.
-record-cancel = Cancel Re-recording
-
 review-terms = By using Common Voice, you agree to our <termsLink>Terms</termsLink> and <privacyLink>Privacy Notice</privacyLink>
 terms-agree = I agree
 terms-disagree = I do not agree
@@ -394,6 +380,15 @@ contribute-more =
        *[other] Ready to do { $count } more?
     }
 record-cta = Start recording
+record-platform-not-supported = We’re sorry, but your platform is not currently supported.
+record-platform-not-supported-desktop = On desktop computers, you can download the latest:
+record-platform-not-supported-ios = <bold>iOS</bold> users can download our free app:
+record-must-allow-microphone = You must allow microphone access.
+record-no-mic-found = No microphone found.
+record-error-too-short = The recording was too short.
+record-error-too-long = The recording was too long.
+record-error-too-quiet = The recording was too quiet.
+record-cancel = Cancel Re-recording
 record-instruction = { $actionType }<recordIcon></recordIcon> then read the sentence aloud
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> when done
 record-three-more-instruction = Three to go!
