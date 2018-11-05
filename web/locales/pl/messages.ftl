@@ -257,6 +257,10 @@ skip-submission-description = Informacje zwrotne będą pomijane po kliknięciu 
 skip-submission-note = Uwaga: nadal będzie trzeba wybrać między nagrywaniem a słuchaniem, aby zmienić rodzaj pracy.
 off = Wyłączone
 on = Włączone
+browse-file = Przeciągnij tutaj lub <browseWrap>przeglądaj</browseWrap>
+connect-gravatar = Połącz z serwisem Gravatar
+gravatar_not_found = Nie odnaleziono awatara Gravatar dla tego adresu e-mail
+file_too_large = Wybrany plik jest za duży
 
 ## FAQ
 
@@ -313,21 +317,6 @@ data-bundle-button = Pobierz zestaw danych
 data-bundle-description = Dane Common Voice ze wszystkimi innymi zbiorami danych powyżej.
 license = Licencja: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mieszana
-
-## Record Page
-
-record-platform-not-supported = Przepraszamy, używana platforma nie jest obecnie obsługiwana.
-record-platform-not-supported-desktop = Na komputerze można pobrać najnowszą wersję:
-record-platform-not-supported-ios = Użytkownicy <bold>iOS</bold> mogą pobrać bezpłatną aplikację:
-record-must-allow-microphone = Musisz zezwolić na dostęp do mikrofonu.
-record-retry = Ponów
-record-no-mic-found = Nie odnaleziono mikrofonu.
-record-error-too-short = Nagranie jest za krótkie.
-record-error-too-long = Nagranie jest za długie.
-record-error-too-quiet = Nagranie jest za ciche.
-record-submit-success = Pomyślnie wysłano! Kontynuować nagrywanie?
-record-help = Naciśnij, aby rozpocząć, a następnie przeczytaj powyższe zdanie.
-record-cancel = Anuluj nagrywanie
 review-terms = Korzystając z Common Voice, zgadzasz się na <termsLink>warunki korzystania</termsLink> i <privacyLink>zasady ochrony prywatności</privacyLink>
 terms-agree = Zgadzam się
 terms-disagree = Nie zgadzam się
@@ -398,6 +387,15 @@ goal-help-recording = Twój udział pomógł projektowi Common Voice osiągnąć
 goal-help-validation = Twój udział pomógł projektowi Common Voice osiągnąć <goalPercentage></goalPercentage> dziennego celu weryfikowania ({ $goalValue })!
 contribute-more = Zrobimy jeszcze { $count }?
 record-cta = Zacznij nagrywanie
+record-platform-not-supported = Przepraszamy, używana platforma nie jest obecnie obsługiwana.
+record-platform-not-supported-desktop = Na komputerze można pobrać najnowszą wersję:
+record-platform-not-supported-ios = Użytkownicy <bold>iOS</bold> mogą pobrać bezpłatną aplikację:
+record-must-allow-microphone = Musisz zezwolić na dostęp do mikrofonu.
+record-no-mic-found = Nie odnaleziono mikrofonu.
+record-error-too-short = Nagranie jest za krótkie.
+record-error-too-long = Nagranie jest za długie.
+record-error-too-quiet = Nagranie jest za ciche.
+record-cancel = Anuluj nagrywanie
 record-instruction = { $actionType } <recordIcon></recordIcon>, a następnie przeczytaj to zdanie
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> po ukończeniu
 record-three-more-instruction = Zostały trzy!
