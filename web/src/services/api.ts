@@ -212,6 +212,8 @@ export default class API {
   saveAvatar(type: 'default' | 'file' | 'gravatar', file?: Blob) {
     return this.fetch(API_PATH + '/user_client/avatar/' + type, {
       method: 'POST',
-    });
+      isJSON: false,
+      ...(file ? { body: file } : {}),
+    }).then(body => JSON.parse(body));
   }
 }

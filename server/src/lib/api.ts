@@ -53,7 +53,11 @@ export default class API {
     router.get('/user_clients', this.getUserClients);
     router.get('/user_client', this.getAccount);
     router.patch('/user_client', this.saveAccount);
-    router.post('/user_client/avatar/:type', this.saveAvatar);
+    router.post(
+      '/user_client/avatar/:type',
+      bodyParser.raw({ type: 'image/*' }),
+      this.saveAvatar
+    );
     router.put('/users/:id', this.saveUser);
 
     router.get('/:locale/sentences', this.getRandomSentences);
@@ -207,7 +211,10 @@ export default class API {
     response.json({});
   };
 
-  saveAvatar = async ({ params, user }: Request, response: Response) => {
+  saveAvatar = async (
+    { body, headers, params, user }: Request,
+    response: Response
+  ) => {
     let avatarURL;
     let error;
     switch (params.type) {
@@ -231,6 +238,14 @@ export default class API {
         break;
 
       case 'file':
+        avatarURL =
+          'data:' +
+          headers['content-type'] +
+          ';base64,' +
+          body.toString('base64');
+        if (avatarURL.length > 2500) {
+          error = 'too_large';
+        }
         break;
 
       default:

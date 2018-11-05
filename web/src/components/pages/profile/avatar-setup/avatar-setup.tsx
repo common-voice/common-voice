@@ -12,6 +12,61 @@ import { User } from '../../../../stores/user';
 
 import './avatar-setup.css';
 
+function resizeImage(file: File, maxSize: number): Promise<Blob> {
+  const reader = new FileReader();
+  const image = new Image();
+  const canvas = document.createElement('canvas');
+  const dataURItoBlob = (dataURI: string) => {
+    const bytes =
+      dataURI.split(',')[0].indexOf('base64') >= 0
+        ? atob(dataURI.split(',')[1])
+        : unescape(dataURI.split(',')[1]);
+    const mime = dataURI
+      .split(',')[0]
+      .split(':')[1]
+      .split(';')[0];
+    const max = bytes.length;
+    const ia = new Uint8Array(max);
+    for (var i = 0; i < max; i++) ia[i] = bytes.charCodeAt(i);
+    return new Blob([ia], { type: mime });
+  };
+  const resize = () => {
+    let width = image.width;
+    let height = image.height;
+
+    if (width > height) {
+      if (width > maxSize) {
+        height *= maxSize / width;
+        width = maxSize;
+      }
+    } else {
+      if (height > maxSize) {
+        width *= maxSize / height;
+        height = maxSize;
+      }
+    }
+
+    canvas.width = width;
+    canvas.height = height;
+    canvas.getContext('2d').drawImage(image, 0, 0, width, height);
+    let dataUrl = canvas.toDataURL('image/jpeg');
+    return dataURItoBlob(dataUrl);
+  };
+
+  return new Promise((ok, no) => {
+    if (!file.type.match(/image.*/)) {
+      no(new Error('Not an image'));
+      return;
+    }
+
+    reader.onload = (readerEvent: any) => {
+      image.onload = () => ok(resize());
+      image.src = readerEvent.target.result;
+    };
+    reader.readAsDataURL(file);
+  });
+}
+
 interface PropsFromState {
   api: API;
   user: User.State;
@@ -24,50 +79,73 @@ interface PropsFromDispatch {
 
 interface Props extends LocalizationProps, PropsFromState, PropsFromDispatch {}
 
-const AvatarSetup = ({
-  addNotification,
-  api,
-  getString,
-  refreshUser,
-  user: { account },
-}: Props) => {
-  const avatarType =
-    account.avatar_url && account.avatar_url.startsWith('https://gravatar.com')
-      ? 'gravatar'
-      : null;
-  return (
-    <fieldset className="avatar-setup">
-      <div className="file-upload">
-        <label>
-          <Localized id="browse-file" browseWrap={<span className="browse" />}>
-            <span className="upload-label" />
-          </Localized>
-          <input type="file" />
-        </label>
-      </div>
+class AvatarSetup extends React.Component<Props> {
+  state = { isSaving: false };
 
-      <Localized id="connect-gravatar">
-        <button
-          className={'connect ' + (avatarType == 'gravatar' ? 'active' : '')}
-          type="button"
-          onClick={async () => {
-            const { error } = await api.saveAvatar(
-              avatarType == 'gravatar' ? 'default' : 'gravatar'
-            );
+  render() {
+    const {
+      addNotification,
+      api,
+      getString,
+      refreshUser,
+      user: { account },
+    } = this.props;
+    const avatarType =
+      account.avatar_url &&
+      account.avatar_url.startsWith('https://gravatar.com')
+        ? 'gravatar'
+        : null;
+    return (
+      <fieldset className="avatar-setup" disabled={this.state.isSaving}>
+        <div className="file-upload">
+          <label>
+            <Localized
+              id="browse-file"
+              browseWrap={<span className="browse" />}>
+              <span className="upload-label" />
+            </Localized>
+            <input
+              type="file"
+              accept="image/*"
+              onChange={async event => {
+                this.setState({ isSaving: true });
+                const image = await resizeImage(event.target.files.item(0), 24);
+                const { error } = await api.saveAvatar('file', image);
+                if (['too_large'].includes(error)) {
+                  addNotification(getString('file' + error));
+                }
+                refreshUser();
+                this.setState({ isSaving: false });
+              }}
+            />
+          </label>
+        </div>
 
-            if (['not_found'].includes(error)) {
-              addNotification(getString('gravatar_' + error));
-            }
+        <Localized id="connect-gravatar">
+          <button
+            className={'connect ' + (avatarType == 'gravatar' ? 'active' : '')}
+            type="button"
+            onClick={async () => {
+              this.setState({ isSaving: true });
+              const { error } = await api.saveAvatar(
+                avatarType == 'gravatar' ? 'default' : 'gravatar'
+              );
 
-            if (!error) {
-              refreshUser();
-            }
-          }}
-        />
-      </Localized>
-    </fieldset>
-  );
-};
+              if (['not_found'].includes(error)) {
+                addNotification(getString('gravatar_' + error));
+              }
+
+              if (!error) {
+                refreshUser();
+              }
+              this.setState({ isSaving: false });
+            }}
+          />
+        </Localized>
+      </fieldset>
+    );
+  }
+}
 
 export default connect<PropsFromState, PropsFromDispatch>(
   ({ api, user }: StateTree) => ({ api, user }),
