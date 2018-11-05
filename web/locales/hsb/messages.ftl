@@ -261,6 +261,10 @@ skip-submission-description = Při sobuskutkowanju so zapodawanski komentar po k
 skip-submission-note = Kedźbu: Dyrbiće hišće mjez Rěčeć abo Słuchać wubrać, zo byšće typ sobuskutkowanja změnił.
 off = Wupinjeny
 on = Zapinjeny
+browse-file = Čehńće a pušćće abo <browseWrap>přehladujće</browseWrap>
+connect-gravatar = Z gravatarom zwjazać
+gravatar_not_found = Njeje so žadyn gravatar za wašu e-mejl namakał
+file_too_large = Wubrana dataja je přewulka
 
 ## FAQ
 
@@ -317,21 +321,6 @@ data-bundle-button = Paket datowych sadźbow sćahnyć
 data-bundle-description = Daty Common Voice plus wšě druhe hłosowe datowe sadźby horjeka.
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Měšany
-
-## Record Page
-
-record-platform-not-supported = Je nam žel, ale waša platforma so tuchwilu njepodpěruje.
-record-platform-not-supported-desktop = Na desktopowych ličakach móžeće najnowšu wersiju sćahnyć:
-record-platform-not-supported-ios = Wužiwarjo <bold>iOS</bold> móža naše darmotne nałoženje sćahnyć:
-record-must-allow-microphone = Dyrbiće přistup na mikrofon dowolić.
-record-retry = Hišće raz spytać
-record-no-mic-found = Žadyn mikrofon namakany.
-record-error-too-short = Natočenje bě překrótke.
-record-error-too-long = Natočenje bě předołhe.
-record-error-too-quiet = Natočenje bě přećiche.
-record-submit-success = Wotpósłanje wuspěšne! Chceće znowa natočić?
-record-help = Prošu podótkńće so Natočić a předčitajće wótře hornju sadu.
-record-cancel = Zasonatočenje přetorhnyć
 review-terms = Hdyž Common Voice wužiwaće, zwoliće do našich <termsLink>wužiwarskich wuměnjenjow</termsLink> a <privacyLink>zdźělenki priwatnosće</privacyLink>
 terms-agree = Sym přezjedny
 terms-disagree = Njejsym přezjedny
@@ -408,6 +397,15 @@ contribute-more =
        *[other] Sće hotowy, hišće { $count } dalšich činić?
     }
 record-cta = Natočenje startować
+record-platform-not-supported = Je nam žel, ale waša platforma so tuchwilu njepodpěruje.
+record-platform-not-supported-desktop = Na desktopowych ličakach móžeće najnowšu wersiju sćahnyć:
+record-platform-not-supported-ios = Wužiwarjo <bold>iOS</bold> móža naše darmotne nałoženje sćahnyć:
+record-must-allow-microphone = Dyrbiće přistup na mikrofon dowolić.
+record-no-mic-found = Žadyn mikrofon namakany.
+record-error-too-short = Natočenje bě překrótke.
+record-error-too-long = Natočenje bě předołhe.
+record-error-too-quiet = Natočenje bě přećiche.
+record-cancel = Zasonatočenje přetorhnyć
 record-instruction = { $actionType } <recordIcon></recordIcon> a předčitajće sadu wótře
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> hdyž sće hotowy
 record-three-more-instruction = Hišće tři!
