@@ -266,6 +266,7 @@ skip-submission-description = Med oddajo prispevka bodo povratne informacije pre
 skip-submission-note = Opomba: za spremembo vrste prispevka boste še vedno morali izbrati med Govori in Poslušaj.
 off = Izklopljeno
 on = Vklopljeno
+file_too_large = Izbrana datoteka je prevelika
 
 ## FAQ
 
@@ -322,21 +323,6 @@ data-bundle-button = Prenesi nabor podatkov
 data-bundle-description = Podatki Common Voice in vsi zgornji govorni nabori podatkov.
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mešana
-
-## Record Page
-
-record-platform-not-supported = Žal nam je, vendar vaše platforme trenutno ne podpiramo.
-record-platform-not-supported-desktop = Na namiznih in prenosnih računalnikih lahko prenesete najnovejše:
-record-platform-not-supported-ios = Uporabniki <bold>iOS</bold> lahko prenesejo našo brezplačno aplikacijo:
-record-must-allow-microphone = Dovoliti morate dostop do mikrofona.
-record-retry = Poizkusi znova
-record-no-mic-found = Ni najdenega mikrofona.
-record-error-too-short = Posnetek je prekratek.
-record-error-too-long = Posnetek je predolg.
-record-error-too-quiet = Posnetek je pretih.
-record-submit-success = Uspešno posneto! Želite posneti znova?
-record-help = Začnite snemati in naglas preberite zgornji stavek.
-record-cancel = Prekliči ponovno snemanje
 review-terms = Z uporabo Common Voice se strinjate z našimi <termsLink>pogoji</termsLink> in z <privacyLink>obvestilom o zasebnosti</privacyLink>
 terms-agree = Strinjam se
 terms-disagree = Ne strinjam se
@@ -413,6 +399,15 @@ contribute-more =
        *[other] Ste pripravljeni narediti še kakšnega, npr. { $count }?
     }
 record-cta = Začni snemati
+record-platform-not-supported = Žal nam je, vendar vaše platforme trenutno ne podpiramo.
+record-platform-not-supported-desktop = Na namiznih in prenosnih računalnikih lahko prenesete najnovejše:
+record-platform-not-supported-ios = Uporabniki <bold>iOS</bold> lahko prenesejo našo brezplačno aplikacijo:
+record-must-allow-microphone = Dovoliti morate dostop do mikrofona.
+record-no-mic-found = Ni najdenega mikrofona.
+record-error-too-short = Posnetek je prekratek.
+record-error-too-long = Posnetek je predolg.
+record-error-too-quiet = Posnetek je pretih.
+record-cancel = Prekliči ponovno snemanje
 record-instruction = { $actionType } <recordIcon></recordIcon> in nato naglas preberite stavek
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ob zaključku
 record-three-more-instruction = Še tri!
