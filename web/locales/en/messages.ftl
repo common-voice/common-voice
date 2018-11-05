@@ -259,6 +259,9 @@ skip-submission-description = During contribution submission feedback will be sk
 skip-submission-note = Note: You will still need to select between Speak or Listen to change contribution type.
 off = Off
 on = On
+browse-file = Drag and drop or <browseWrap>Browse</browseWrap>
+connect-gravatar = Connect with Gravatar
+gravatar_not_found = No gravatar found for your email
 
 ## FAQ
 faq-title = Frequently Asked Questions

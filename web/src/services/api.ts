@@ -208,4 +208,10 @@ export default class API {
       method: 'POST',
     });
   }
+
+  saveAvatar(type: 'default' | 'file' | 'gravatar', file?: Blob) {
+    return this.fetch(API_PATH + '/user_client/avatar/' + type, {
+      method: 'POST',
+    });
+  }
 }

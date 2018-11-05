@@ -11,6 +11,7 @@ import URLS from '../../../urls';
 import { localeConnector, LocalePropsFromState } from '../../locale-helpers';
 import { CameraIcon, ToggleIcon, UserIcon } from '../../ui/icons';
 import { Button } from '../../ui/ui';
+import AvatarSetup from './avatar-setup/avatar-setup';
 import InfoPage from './info/info';
 import Preferences from './preferences/preferences';
 
@@ -89,15 +90,13 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
       <div className="content">
         <Switch>
           <Route exact path={infoRoute} component={InfoPage} />
-          {false && (
-            <Route
-              exact
-              path={avatarRoute}
-              render={props =>
-                user.account ? null : <Redirect to={infoRoute} />
-              }
-            />
-          )}
+          <Route
+            exact
+            path={avatarRoute}
+            render={props =>
+              user.account ? <AvatarSetup /> : <Redirect to={infoRoute} />
+            }
+          />
           <Route
             exact
             path={prefRoute}

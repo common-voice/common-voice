@@ -13,13 +13,6 @@ interface PropsFromState {
   user: User.State;
 }
 
-const DefaultAvatar = () => (
-  <div className="avatar-wrap">
-    <img src="/img/mars-avatar.svg" alt="Robot Avatar" />
-  </div>
-);
-
-//https://gravatar.com/avatar/asd.png?d=404
 class UserMenu extends React.Component<PropsFromState> {
   state = { showMenu: false };
 
@@ -35,7 +28,17 @@ class UserMenu extends React.Component<PropsFromState> {
         onMouseEnter={this.showMenu}
         onMouseLeave={this.hideMenu}>
         <button className="toggle" onClick={this.toggleMenu}>
-          <DefaultAvatar />
+          <span className="avatar-wrap">
+            {account.avatar_url ? (
+              <img src={account.avatar_url} />
+            ) : (
+              <img
+                className="mars"
+                src="/img/mars-avatar.svg"
+                alt="Robot Avatar"
+              />
+            )}
+          </span>
           <span className="name" title={account.username}>
             {account.username}
           </span>

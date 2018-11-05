@@ -1,0 +1,59 @@
+@import url('../../../vars.css');
+
+.avatar-setup {
+    border: none;
+
+    & .file-upload,
+    & .connect {
+        border-radius: 4px;
+        margin-bottom: 30px;
+        width: 100%;
+
+        @media (--lg-up) {
+            width: 50%;
+        }
+    }
+
+    & .file-upload {
+        position: relative;
+        border: 3px dotted var(--light-grey);
+        box-sizing: border-box;
+
+        & .upload-label {
+            padding: 20px 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+
+            & .browse {
+                margin-top: 20px;
+                font-size: var(--font-size-xs);
+                font-weight: 600;
+                text-transform: uppercase;
+                color: var(--blue);
+            }
+        }
+
+        & input {
+            position: absolute;
+            top: 0;
+            left: 0;
+            visibility: hidden;
+        }
+    }
+
+    & .connect {
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        padding: 16px 0;
+        font-family: var(--base-font-family);
+        font-size: var(--font-size);
+        font-weight: 600;
+
+        &.active {
+            background: var(--black);
+            color: var(--white);
+        }
+    }
+}

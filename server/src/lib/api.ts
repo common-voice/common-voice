@@ -1,4 +1,5 @@
 import * as bodyParser from 'body-parser';
+import { MD5 } from 'crypto-js';
 import { NextFunction, Request, Response, Router } from 'express';
 import * as sendRequest from 'request-promise-native';
 import { UserClient as UserClientType } from '../../../common/user-clients';
@@ -52,6 +53,7 @@ export default class API {
     router.get('/user_clients', this.getUserClients);
     router.get('/user_client', this.getAccount);
     router.patch('/user_client', this.saveAccount);
+    router.post('/user_client/avatar/:type', this.saveAvatar);
     router.put('/users/:id', this.saveUser);
 
     router.get('/:locale/sentences', this.getRandomSentences);
@@ -203,5 +205,43 @@ export default class API {
     });
     await UserClient.updateBasketToken(email, JSON.parse(basketResponse).token);
     response.json({});
+  };
+
+  saveAvatar = async ({ params, user }: Request, response: Response) => {
+    let avatarURL;
+    let error;
+    switch (params.type) {
+      case 'default':
+        avatarURL = null;
+        break;
+
+      case 'gravatar':
+        try {
+          avatarURL =
+            'https://gravatar.com/avatar/' +
+            MD5(user.emails[0].value).toString() +
+            '.png?s=24';
+          await sendRequest(avatarURL + '&d=404');
+        } catch (e) {
+          if (e.name != 'StatusCodeError') {
+            throw e;
+          }
+          error = 'not_found';
+        }
+        break;
+
+      case 'file':
+        break;
+
+      default:
+        response.sendStatus(404);
+        return;
+    }
+
+    if (!error) {
+      await UserClient.updateAvatarURL(user.id, avatarURL);
+    }
+
+    response.json(error ? { error } : {});
   };
 }

@@ -52,8 +52,12 @@
         background: #f89096;
 
         & > img {
+            max-width: 24px;
+            max-height: 24px;
+        }
+
+        & .mars {
             margin-top: 2px;
-            max-height: 22px;
         }
     }
 

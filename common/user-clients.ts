@@ -8,4 +8,5 @@ export type UserClient = {
   visible?: boolean;
   basket_token?: string;
   skip_submission_feedback?: boolean;
+  avatar_url?: string;
 };

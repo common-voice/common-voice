@@ -1,7 +1,9 @@
 @import url('../../vars.css');
 
 .profile {
-    &.info, &.avatar, &.preferences {
+    &.info,
+    &.avatar,
+    &.preferences {
         & #content {
             padding: 0;
             max-width: none;
@@ -123,6 +125,7 @@
         box-sizing: border-box;
         max-width: 785px;
         width: 100%;
+        min-height: 500px;
 
         @media (--sm-down) {
             padding: 20px 20px 0;

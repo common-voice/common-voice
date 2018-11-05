@@ -114,7 +114,8 @@ const UserClient = {
               'username',
               'basket_token',
               'skip_submission_feedback',
-              'visible'
+              'visible',
+              'avatar_url'
             ),
             locales: client.locales.concat(
               typeof row.accent == 'string'
@@ -217,6 +218,13 @@ const UserClient = {
       'UPDATE user_clients SET sso_id = ?, email = ? WHERE sso_id = ?',
       [new_sso_id, email, old_sso_id]
     );
+  },
+
+  async updateAvatarURL(sso_id: string, url: string) {
+    await db.query('UPDATE user_clients SET avatar_url = ? WHERE sso_id = ?', [
+      url,
+      sso_id,
+    ]);
   },
 };
 
