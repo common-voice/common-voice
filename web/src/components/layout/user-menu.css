@@ -3,7 +3,7 @@
 .user-menu {
     margin-left: 20px;
 
-    @media (--md-up) {
+    @media (--sm-up) {
         width: 200px;
     }
 
@@ -30,7 +30,7 @@
             overflow: hidden;
             text-overflow: ellipsis;
 
-            @media (--sm-down) {
+            @media (--xs-down) {
                 display: none;
             }
         }
@@ -68,11 +68,11 @@
         flex-direction: column;
         display: none;
 
-        @media (--sm-down) {
+        @media (--xs-down) {
             right: 0;
         }
 
-        @media (--md-up) {
+        @media (--sm-up) {
             width: 100%;
         }
 
