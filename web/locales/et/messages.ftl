@@ -253,6 +253,10 @@ skip-submission-description = Panuse ära saatmisel jäetakse tagasiside andmine
 skip-submission-note = Märkus: panustaise tüübi muutmiseks tuleb valida "räägi" või "kuula".
 off = Väljas
 on = Sees
+browse-file = Lohista siia või <browseWrap>sirvi faile</browseWrap>
+connect-gravatar = Ühenda Gravatariga
+gravatar_not_found = Selle e-posti aadressiga pole seotud ühtki gravatari
+file_too_large = Valitud fail on liiga suur
 
 ## FAQ
 
@@ -309,21 +313,6 @@ data-bundle-button = Laadi alla andmestike komplekt
 data-bundle-description = Common Voice'i andmed ja kõik ülalloetletud andmestikud.
 license = Litsents: <licenseLink>{ $license }</licenseLink>
 license-mixed = Segu erinevatest litsentsidest
-
-## Record Page
-
-record-platform-not-supported = Vabandust, kuid sinu platvormi hetkel ei toetata.
-record-platform-not-supported-desktop = Lauaarvutitel saad alla laadida uusimaid:
-record-platform-not-supported-ios = <bold>iOSi</bold> kasutajad saavad alla laadida meie tasuta rakenduse:
-record-must-allow-microphone = Pead lubama juurdepääsu mikrofonile.
-record-retry = Proovi uuesti
-record-no-mic-found = Mikrofoni ei leitud.
-record-error-too-short = Salvestus oli liiga lühike.
-record-error-too-long = Salvestus oli liiga pikk.
-record-error-too-quiet = Salvestus oli liiga vaikne.
-record-submit-success = Saatmine õnnestus! Kas soovid veel salvestada?
-record-help = Salvestamiseks vajuta, seejärel loe sisse ülaltoodud lause.
-record-cancel = Tühista uuesti salvestamine
 review-terms = Common Voice'i kasutamisel nõustud meie <termsLink>tingimuste</termsLink> ja <privacyLink>privaatsusreeglitega</privacyLink>
 terms-agree = Olen nõus
 terms-disagree = Ma ei ole nõus
@@ -398,6 +387,15 @@ contribute-more =
        *[other] Valmis tegema { $count } veel?
     }
 record-cta = Alusta salvestamist
+record-platform-not-supported = Vabandust, kuid sinu platvormi hetkel ei toetata.
+record-platform-not-supported-desktop = Lauaarvutitel saad alla laadida uusimaid:
+record-platform-not-supported-ios = <bold>iOSi</bold> kasutajad saavad alla laadida meie tasuta rakenduse:
+record-must-allow-microphone = Pead lubama juurdepääsu mikrofonile.
+record-no-mic-found = Mikrofoni ei leitud.
+record-error-too-short = Salvestus oli liiga lühike.
+record-error-too-long = Salvestus oli liiga pikk.
+record-error-too-quiet = Salvestus oli liiga vaikne.
+record-cancel = Tühista uuesti salvestamine
 record-instruction = { $actionType }<recordIcon></recordIcon>, seejärel loe lauset valjusti
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> kui valmis
 record-three-more-instruction = Kolm veel!
