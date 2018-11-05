@@ -253,6 +253,10 @@ skip-submission-description = Beim Mitarbeiten wird das Feedback zu Übermittlun
 skip-submission-note = Hinweis: Sie müssen trotzdem „Sprechen“ oder „Zuhören“ auswählen, um die Art der Mitwirkung zu ändern.
 off = Aus
 on = An
+browse-file = Ziehen und Ablegen oder <browseWrap>Durchsuchen</browseWrap>
+connect-gravatar = Mit Gravatar verbinden
+gravatar_not_found = Für Ihre E-Mail-Adresse wurde kein Gravatar gefunden
+file_too_large = Die ausgewählte Datei ist zu groß
 
 ## FAQ
 
@@ -309,21 +313,6 @@ data-bundle-button = Datensatz-Set herunterladen
 data-bundle-description = Common-Voice-Daten plus alle anderen, oben erwähnten Sprachdatensätze.
 license = Lizenz: <licenseLink>{ $license }</licenseLink>
 license-mixed = Gemischt
-
-## Record Page
-
-record-platform-not-supported = Es tut uns leid, Ihre Plattform wird derzeit nicht unterstützt.
-record-platform-not-supported-desktop = Auf Desktop-Computern können Sie die neueste Version herunterladen:
-record-platform-not-supported-ios = <bold>iOS</bold>-Nutzer können unsere App kostenlos herunterladen:
-record-must-allow-microphone = Sie müssen den Mikrofon-Zugriff zulassen.
-record-retry = Erneut versuchen
-record-no-mic-found = Kein Mikrofon gefunden.
-record-error-too-short = Die Aufnahme war zu kurz.
-record-error-too-long = Die Aufnahme war zu lang.
-record-error-too-quiet = Die Aufnahme war zu leise.
-record-submit-success = Übertragung erfolgreich! Aufnehmen wiederholen?
-record-help = Bitte drücken Sie auf Aufnehmen und lesen Sie dann den oberen Satz laut vor.
-record-cancel = Neuaufnahme abbrechen
 review-terms = Durch die Verwendung von Common Voice akzeptieren Sie unsere <termsLink>Nutzungsbedingungen</termsLink> und den <privacyLink>Datenschutzhinweis</privacyLink>.
 terms-agree = Ich stimme zu
 terms-disagree = Ich stimme nicht zu
@@ -394,6 +383,15 @@ goal-help-recording = Sie haben Common Voice geholfen, <goalPercentage></goalPer
 goal-help-validation = Sie haben Common Voice geholfen, <goalPercentage></goalPercentage> des heutigen Bestätigungsziels »{ $goalValue }« zu erreichen!
 contribute-more = Bereit { $count } weitere zu machen?
 record-cta = Aufnehmen
+record-platform-not-supported = Es tut uns leid, Ihre Plattform wird derzeit nicht unterstützt.
+record-platform-not-supported-desktop = Auf Desktop-Computern können Sie die neueste Version herunterladen:
+record-platform-not-supported-ios = <bold>iOS</bold>-Nutzer können unsere App kostenlos herunterladen:
+record-must-allow-microphone = Sie müssen den Mikrofon-Zugriff zulassen.
+record-no-mic-found = Kein Mikrofon gefunden.
+record-error-too-short = Die Aufnahme war zu kurz.
+record-error-too-long = Die Aufnahme war zu lang.
+record-error-too-quiet = Die Aufnahme war zu leise.
+record-cancel = Neuaufnahme abbrechen
 record-instruction = <recordIcon></recordIcon>{ $actionType } - Lesen Sie den Satz laut vor
 record-stop-instruction = <stopIcon></stopIcon>{ $actionType }, wenn Sie fertig sind
 record-three-more-instruction = Noch drei!
