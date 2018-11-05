@@ -15,6 +15,7 @@ loading = Carregando…
 
 ## Languages
 
+ace = Achinês
 an = Aragonês
 ar = Árabe
 as = Assamês
@@ -66,7 +67,6 @@ nn-NO = Novo norueguês
 or = Odia
 pl = Polonês
 pt-BR = Português (Brasil)
-rm = Romanche
 ro = Romeno
 ru = Russo
 sah = Sakha
