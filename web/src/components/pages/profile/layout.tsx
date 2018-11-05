@@ -64,12 +64,10 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
             <UserIcon />
             <span className="text">{user.account ? '' : 'Build '}Profile</span>
           </NavLink>
-          {false && (
-            <NavLink to={avatarRoute}>
-              <CameraIcon />
-              <span className="text">Avatar</span>
-            </NavLink>
-          )}
+          <NavLink to={avatarRoute}>
+            <CameraIcon />
+            <span className="text">Avatar</span>
+          </NavLink>
           <NavLink to={prefRoute}>
             <ToggleIcon />
             <span className="text">Preferences</span>

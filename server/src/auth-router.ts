@@ -127,4 +127,9 @@ router.get('/login', (request: Request, response: Response) => {
   } as any)(request, response);
 });
 
+router.get('/logout', (request: Request, response: Response) => {
+  response.clearCookie('connect.sid');
+  response.redirect('/');
+});
+
 export default router;

@@ -1,0 +1,125 @@
+@import url('../vars.css');
+
+.user-menu {
+    margin-left: 20px;
+
+    @media (--md-up) {
+        width: 200px;
+    }
+
+    & .toggle {
+        outline: none;
+        border: none;
+        padding: 0;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+
+        background: transparent;
+
+        & .name {
+            margin-right: 10px;
+            max-width: 100%;
+            font-family: var(--base-font-family);
+            font-weight: 600;
+            font-size: var(--font-size-xs);
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+            @media (--sm-down) {
+                display: none;
+            }
+        }
+
+        & svg {
+            margin-left: auto;
+            margin-right: 11px;
+            transition: transform var(--easing) var(--transition-duration);
+        }
+    }
+
+    & .avatar-wrap {
+        flex-shrink: 0;
+        border-radius: 100%;
+        margin-right: 10px;
+        width: 24px;
+        height: 24px;
+        overflow: hidden;
+        background: #f89096;
+
+        & > img {
+            margin-top: 2px;
+            max-height: 22px;
+        }
+    }
+
+    & .menu-wrap {
+        position: relative;
+    }
+
+    & .menu {
+        position: absolute;
+        top: 0;
+        box-sizing: border-box;
+        flex-direction: column;
+        display: none;
+
+        @media (--sm-down) {
+            right: 0;
+        }
+
+        @media (--md-up) {
+            width: 100%;
+        }
+
+        & .triangle {
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-bottom: 10px solid var(--white);
+            margin-left: auto;
+            margin-right: 10px;
+            padding-top: 15px;
+            display: inline-block;
+        }
+
+        & ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            background: var(--white);
+            box-shadow: 0 2px 5px 0 var(--light-grey);
+        }
+
+        & li:hover {
+            background: var(--desert-storm);
+
+            & hr {
+                visibility: hidden;
+            }
+        }
+
+        & a {
+            padding: 10px 20px;
+            display: block;
+        }
+
+        & hr {
+            margin: 0 auto;
+            width: calc(100% - 40px);
+        }
+    }
+
+    &.active {
+        & .toggle svg {
+            transform: rotateX(180deg);
+        }
+
+        & .menu {
+            display: flex;
+        }
+    }
+}

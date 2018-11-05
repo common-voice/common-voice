@@ -20,6 +20,7 @@ import LanguageSelect from './language-select';
 import Logo from './logo';
 import Nav from './nav';
 import Robot from './robot';
+import UserMenu from './user-menu';
 
 const LOW_FPS = 20;
 const DISABLE_ANIMATION_LOW_FPS_THRESHOLD = 3;
@@ -205,7 +206,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   };
 
   render() {
-    const { locale, location } = this.props;
+    const { locale, location, user } = this.props;
     const {
       hasScrolled,
       hasScrolledDown,
@@ -268,12 +269,16 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
           </div>
           <div>
             {this.renderTallies()}
-            {LOCALES.length > 1 && (
-              <LanguageSelect
-                locale={locale}
-                locales={LOCALES_WITH_NAMES}
-                onChange={this.selectLocale}
-              />
+            {user.account ? (
+              <UserMenu />
+            ) : (
+              LOCALES.length > 1 && (
+                <LanguageSelect
+                  locale={locale}
+                  locales={LOCALES_WITH_NAMES}
+                  onChange={this.selectLocale}
+                />
+              )
             )}
             <button
               id="hamburger-menu"
@@ -313,20 +318,21 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
           id="navigation-modal"
           className={this.state.isMenuVisible ? 'active' : ''}>
           <Nav>
-            {LOCALES.length > 1 && (
-              <LabeledSelect
-                className="language-select"
-                value={locale}
-                onChange={(event: any) =>
-                  this.selectLocale(event.target.value)
-                }>
-                {LOCALES_WITH_NAMES.map(([code, name]) => (
-                  <option key={code} value={code}>
-                    {name}
-                  </option>
-                ))}
-              </LabeledSelect>
-            )}
+            {!user.account &&
+              LOCALES.length > 1 && (
+                <LabeledSelect
+                  className="language-select"
+                  value={locale}
+                  onChange={(event: any) =>
+                    this.selectLocale(event.target.value)
+                  }>
+                  {LOCALES_WITH_NAMES.map(([code, name]) => (
+                    <option key={code} value={code}>
+                      {name}
+                    </option>
+                  ))}
+                </LabeledSelect>
+              )}
           </Nav>
         </div>
       </div>
