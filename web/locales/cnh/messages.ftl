@@ -245,13 +245,16 @@ accept-privacy = Keimah kong hi Mozilla <privacyLink> Kilvennak Pawlisi </privac
 login-identity = Lutnak
 edit = Remh
 email-subscriptions = Email Pehtlaihnak
-download-profile = Ka data thuntlen
+download-profile = Ka data dawnlok
 contribution-experience = Bawmhnak Petu Hmuh Ning
 skip-submission-feedback = Hmuhning Kuatnak Lanhtak
 skip-submission-description = Aw tunmi kuat lioah bia halnak cu 'Kuat' ti na hmeh hnu in lanh tak a si lai. Aw tunnak silole cheknak a ra colh lai.
 skip-submission-note = Theihternak: Na aw pekchanhnak thlen na duh ahcun Chim silo le Ngaih nak na thim a hau.
 off = Phih
 on = Nunh
+connect-gravatar = Gravatar he pehtonh
+gravatar_not_found = Na email ah hmanthlak kan hmu lo
+file_too_large = Na thimmi a lian tuk
 
 ## FAQ
 
@@ -261,7 +264,7 @@ faq-what-a = Common Voice nih kan i tinhmi cu a mikip caah fawi tein mah le holh
 faq-important-q = Zei ruangah dah a bia pit?
 faq-important-a = Aw cu kokek a si, Aw cu minung a si. I chawnh khenh nak caah a fawi cemmi le hmancem mi a si. Computer thiam nih hi thil chung in hman awktlak thil ṭha, holh leh/ca leh le a dangdang bawmtu ah an ser khawh nak ding hi kan duh. Asinain, a tu ahcun mipi nih hman khawh ding mi hi a um lo.  Laimi computer thiam pawl nih thil ṭhaṭha an sernak ah Common Voice nih hin a bawmh khawh hna lai tihi kan i ruahchan.
 faq-get-q = Common Voice data hi zei tin dah ka lak khawh lai?
-faq-get-a = Pumhmi Data cu thuntlen a ngah <downloadLink> thuntlen nak</downloadLink> i a tang <licenseLink>CC-0</licenseLink> laisen.
+faq-get-a = Pumhmi Data cu dawnlok a ngah <downloadLink> dawnlok nak</downloadLink> i a tang <licenseLink>CC-0</licenseLink> laisen.
 faq-mission-q = Zei ruangah dah Common Voice hi Mozilla nih aa tinhmi rian a si ve?
 faq-mission-a = Mozilla cu mikip nih computer an hman khawhnak ding hi biatak tein aa hmaithlak. Cucaah cun website a sertu pawl hi thazang pek a duhnak langhternak caah Common Voice hi a ser. Computer nih holh thiamnak a theih ning hi a sang tuk hringhren cang, cucaah cun mikip nih computer hi an holh cio in hmang kho ve hna seh ti kan duh. Aw-lei thiamnak hi miphun kip talh in holh in siseh, aw-cawi in siseh, miphun kip in siseh, talh chih dih kan duh. Mozilla nih cun a ngandammi le aa tlerh ngai mi internet hi hmuh a duh. Cucu website a sertu nih an website sunglawi taktak in an ser khawh hna hnga Aw-data ti bantuk hi serpiak a si. Common Voice cu kan mah, Mozilla, le website a sertu vawlei cung um vialte caah mipi nih ngeih mi thilri sunglawi pakhat a si lai.
 faq-native-q = Lai holh ah kokek ka si lo i Aw-cawi ka ngei, ka holh nan duh ko maw?
@@ -288,43 +291,28 @@ notfound-content = Na kawl mi hi ka thei lo.
 
 ## Data
 
-data-download-button = Common Voice Data Thuntlen
-data-download-yes = Thuntlen Ko
-data-download-deny = Thuntlen Hlah
+data-download-button = Common Voice Data Dawnlok
+data-download-yes = Dawnlok Ko
+data-download-deny = Dawnlok Hlah
 data-download-license = Laisen:<licenseLink>CC-0</licenseLink>
-data-download-modal = A tu thuntlen na timh mi hi <size>{ $size }GB</size> a si, na thuntlen lai maw?
+data-download-modal = A tu dawnlok na timh mi hi <size>{ $size }GB</size> a si, na dawnlok lai maw?
 data-subtitle = Holh thiamnak he pehtlaih in mipi caah a sunglawi mi Aw phunkip laak in mipi caah data lianpi kan ser.
 data-explanatory-text = Mipi caah sunglawi ṭha ngai le sunglawi ngai in Aw lei pumhmi data nih hin a ngandam mi chawleh thalnak le computer chimh cawnpiaknak duhnak hi a chuah pi tiah kan zumh. Hihi miphun kip le ramkip fonh in rak i tal ve uh ti hi kan in sawm hna.  Kan vawlei pi ah Aw sunglawi in holh phunkip a um mi hi i tal dih hna sih ti hi kan i tinh mi a si.
 data-get-started = <speechBlogLink> Speech Recognition thoknak</speechBlogLink>
 data-other-title = Awdang Pumhmi Data
 data-other-goto = { $name } hin kal
-data-other-download = Thuntlen Data
+data-other-download = Data Dawnlok
 data-other-librispeech-description = LIbriSpeech cu suimilam thongkhat (1000) chung 16Khz tluk in cauk relmi LibriVox in lak mi chiahnak a si.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = TED-LIUM cu TED website i chiah mi holh le biatlang le catlang pawl hman in sermi a si.
 data-other-voxforge-description = VoxForge cu mikip  nih zalong tele tling tein computer Aw phun an hman khawh nak caah holhphun pumhnak ah hman mi a si.
 data-other-tatoeba-description =
     Tatoeba cu holh cawnpiaknak ding ah biatlang, bialeh, le holh tuun mi chiahnak a si.
-    Hi thuntlen mi chungah hin mikip nih mirang holh an tuun mi aa tal.
-data-bundle-button = Pumhmi Data Vialte Thuntlen
+    Hi dawnlok mi chungah hin mikip nih mirang holh an tuun mi aa tal.
+data-bundle-button = Pumhmi Data Vialte Dawnlok
 data-bundle-description = Common Voice data le a dang aw data vialte a cunglei ah.
 license = Laisen:<licenseLink>{ $license }</licenseLink>
 license-mixed = Fonh
-
-## Record Page
-
-record-platform-not-supported = Kan ngai thiam, na tuahnak hi a ngah lo.
-record-platform-not-supported-desktop = Athar cem chuahmi, inn computer in, thuntlen khawh asi:
-record-platform-not-supported-ios = <bold>iOS</bold> manlo in thuntlen khawh a si:
-record-must-allow-microphone = Aw tunak na ngahter a hau
-record-retry = Tuah ṭhan
-record-no-mic-found = Aw tunnak kan hmu lo
-record-error-too-short = Na tunmi a tawi tuk.
-record-error-too-long = Na tunmi a sau tuk.
-record-error-too-quiet = Na tunmi a din tuk.
-record-submit-success = Na kuat mi a tha! Tun na duh ti maw?
-record-help = Tun kha hmet, cun biatlang kha thang piin rel.
-record-cancel = Tuunthar mi leet
 review-terms = Common Voice hman ah cun , kan <termsLink> Biakam </termsLink> le <privacyLink> Kilvennak Hngalhternak</privacyLink> hi na lung a tling.
 terms-agree = Ka lungtling
 terms-disagree = Ka lungtling lo
@@ -339,7 +327,7 @@ review-delete-recordings = Tuun mi hlonh
 
 ## Download Modal
 
-download-title = Na thuntlen aa thok cang.
+download-title = Na dawnlok aa thok cang.
 download-helpus = Holhphun kip in computer a ngah khawh nak ding kan bawm, email in kan pehtlaih peng.
 download-form-email =
     .label = Na email ṭial
@@ -399,6 +387,15 @@ contribute-more =
        *[other] Tam deuh in { $count } tuah ṭhan na duh maw?
     }
 record-cta = Tuun hramthok
+record-platform-not-supported = Kan ngai thiam, na tuahnak hi a ngah lo.
+record-platform-not-supported-desktop = Athar cem chuahmi, inn computer in, dawnlok khawh asi:
+record-platform-not-supported-ios = <bold>iOS</bold> manlo in dawnlok khawh a si:
+record-must-allow-microphone = Aw tunak na ngahter a hau
+record-no-mic-found = Aw tunnak kan hmu lo
+record-error-too-short = Na tunmi a tawi tuk.
+record-error-too-long = Na tunmi a sau tuk.
+record-error-too-quiet = Na tunmi a din tuk.
+record-cancel = Tuunthar mi leet
 record-instruction = { $actionType }<recordIcon></recordIcon> cun thang piin a biatlang hi rel
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> a ṭha tuk
 record-three-more-instruction = Pathum a tang!
