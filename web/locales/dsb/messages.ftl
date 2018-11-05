@@ -261,6 +261,10 @@ skip-submission-description = Pśi sobustatkowanju se zapódawański komentar p�
 skip-submission-note = glědajśo: Musyśo hyšći mjazy Powědaś abo Słuchaś wubraś, aby typ sobustatkowanja změnił.
 off = Wušaltowany
 on = Zašaltowany
+browse-file = Śěgniśo a pušććo abo <browseWrap>pśeglědujśo</browseWrap>
+connect-gravatar = Z gravatarom zwězaś
+gravatar_not_found = Njejo se namakał žeden gravatar za wašu e-mail
+file_too_large = Wubrana dataja jo pśewjelika
 
 ## FAQ
 
@@ -317,21 +321,6 @@ data-bundle-button = Paket datowych sajźbow ześěgnuś
 data-bundle-description = Daty Common Voice plus wšykne druge głosowe datowe sajźby górjejce.
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Měšany
-
-## Record Page
-
-record-platform-not-supported = Jo nam luto, ale waša platforma se tuchylu njepódpěra.
-record-platform-not-supported-desktop = Na desktopowych licadłach móžośo nejnowšu wersiju ześěgnuś:
-record-platform-not-supported-ios = Wužywarje <bold>iOS</bold> mógu naše dermotne nałoženje ześěgnuś:
-record-must-allow-microphone = Musyśo pśistup k mikrofonoju dowóliś.
-record-retry = Hyšći raz wopytaś
-record-no-mic-found = Žeden mikrofon namakany.
-record-error-too-short = Nagraśe jo było pśekrotke.
-record-error-too-long = Nagraśe jo było pśedłujke.
-record-error-too-quiet = Nagraśe jo było pśeśiche.
-record-submit-success = Wótpósłanje wuspěšne! Cośo znowego nagraś?
-record-help = Pšosym pótusniśo Nagraś a pśedcytajśo górjejcne sady głosnje.
-record-cancel = Zasejnagraśe pśetergnuś
 review-terms = Gaž Common Voice wužywaśo, zwolijośo do našych <termsLink>wužywarskich wuměnjenjow</termsLink> a <privacyLink>powěźeńki priwatnosći</privacyLink>
 terms-agree = Som wobjadny
 terms-disagree = Njejsom wobjadny
@@ -408,6 +397,15 @@ contribute-more =
        *[other] Sćo gótowy, hyšći { $count } dalšnych gótowaś?
     }
 record-cta = Nagraśe startowaś
+record-platform-not-supported = Jo nam luto, ale waša platforma se tuchylu njepódpěra.
+record-platform-not-supported-desktop = Na desktopowych licadłach móžośo nejnowšu wersiju ześěgnuś:
+record-platform-not-supported-ios = Wužywarje <bold>iOS</bold> mógu naše dermotne nałoženje ześěgnuś:
+record-must-allow-microphone = Musyśo pśistup k mikrofonoju dowóliś.
+record-no-mic-found = Žeden mikrofon namakany.
+record-error-too-short = Nagraśe jo było pśekrotke.
+record-error-too-long = Nagraśe jo było pśedłujke.
+record-error-too-quiet = Nagraśe jo było pśeśiche.
+record-cancel = Zasejnagraśe pśetergnuś
 record-instruction = { $actionType } <recordIcon></recordIcon> a pśedcytajśo sadu głosnje
 record-stop-instruction = { $actionType } <stopIcon></stopIcon>, gaž sćo gótowy
 record-three-more-instruction = Hyšći tśi!
