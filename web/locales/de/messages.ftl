@@ -117,6 +117,7 @@ back-top = Zum Seitenanfang
 contribution-banner-text = Es gibt jetzt eine neue Möglichkeit, mitzuarbeiten
 contribution-banner-button = Ausprobieren
 report-bugs-link = Fehler melden
+logout = Abmelden
 
 ## Home Page
 
@@ -142,6 +143,9 @@ listen-paragraph = Gespendete Clips zu bestätigen ist für die Mission von Comm
 listen-goal-text = Bestätigte Clips
 hours-recorded = Aufgenommene Stunden
 hours-validated = Bestätigte Stunden
+voices-online = Aktuelle Stimmen im Internet
+todays-progress = Heutiger Fortschritt
+help-reach-goal = Helfen Sie uns, { $goal } zu erreichen
 read-terms-q = Haben Sie unsere Nutzungsbedingungen gelesen?
 ready-to-record = Sind Sie bereit, Ihre Stimme zu spenden?
 all-languages = Alle Sprachen
@@ -231,6 +235,10 @@ female = Weiblich
 other = Sonstiges
 why-profile-title = Warum ein Profil?
 why-profile-text = Indem Sie uns einige Informationen über sich geben, können die von Ihnen an Common Voice übermittelten Audiodaten besser dazu verwendet werden, die Genauigkeit von Spracherkennungssystemen zu verbessern.
+build-profile = Profil aufbauen
+profile = Profil
+avatar = Profilbild
+preferences = Einstellungen
 edit-profile = Profil bearbeiten
 profile-create = Ein Profil erstellen
 profile-create-success = Geschafft, Profil erstellt!
