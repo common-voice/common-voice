@@ -271,6 +271,10 @@ skip-submission-description = Yn ystod cyflwyno cyfrannu bydd adborth y cael ei 
 skip-submission-note = Sylw: Bydd dal rhaid i chi ddewis rhwng Siarad neu Gwrando i newid y math o gyfraniad.
 off = Diffodd
 on = Ymlaen
+browse-file = Llusgo a gollwg neu <browseWrap>Bori</browseWrap>
+connect-gravatar = Cysylltu â Gravatar
+gravatar_not_found = Dim gravatar wedi ei ganfod o'ch e-bost
+file_too_large = Mae'r ffeil yma'n rhy fawr
 
 ## FAQ
 
@@ -327,21 +331,6 @@ data-bundle-button = Llwytho Pecyn Set Ddata i Lawr
 data-bundle-description = Common Voice ynghyd â'r holl setiau data llais uchod.
 license = Trwydded: <licenseLink>{ $license }</licenseLink>
 license-mixed = Cymysg
-
-## Record Page
-
-record-platform-not-supported = Ymddiheuriadau ond nid yw eich platfform yn cael ei gynnal ar hyn o bryd.
-record-platform-not-supported-desktop = Ar gyfrifiaduron bwrdd gwaith, gallwch lwytho i lawr y diweddaraf:
-record-platform-not-supported-ios = Gall defnyddwyr <bold>iOS</bold> lwytho i lawr ein ap am ddim:
-record-must-allow-microphone = Rhaid i chi ganiatáu mynediad i'r meicroffon.
-record-retry = Ceisio eto
-record-no-mic-found = Heb ganfod meicroffon.
-record-error-too-short = Roedd y recordiad yn rhy fyr.
-record-error-too-long = Roedd y recordiad yn rhy hir.
-record-error-too-quiet = Roedd y recordiad yn rhy dawel.
-record-submit-success = Llwyddiant wrth gyflwyno! Eisiau recordio eto?
-record-help = Tapiwch i recordio, yna darllenwch y frawddeg uchod allan.
-record-cancel = Diddymu Ail-recordio
 review-terms = Drwy ddefnyddio Common Vice rydych yn cytuno i'n <termsLink>Amodau</termsLink> a'n <privacyLink>Hysbysiadau Preifatrwydd</privacyLink>
 terms-agree = Rwy'n cytuno
 terms-disagree = Nid wyf yn cytuno
@@ -412,6 +401,15 @@ goal-help-recording = Rydych wedi cynorthwyo Common Voice i gyrraedd <goalPercen
 goal-help-validation = Rydych wedi cynorthwyo Common Voice i gyrraedd <goalPercentage></goalPercentage> o { $goalValue }, ein nod dilysu dyddiol!
 contribute-more = Barod i wneud { $count } yn rhagor?
 record-cta = Cychwyn recordio
+record-platform-not-supported = Ymddiheuriadau ond nid yw eich platfform yn cael ei gynnal ar hyn o bryd.
+record-platform-not-supported-desktop = Ar gyfrifiaduron bwrdd gwaith, gallwch lwytho i lawr y diweddaraf:
+record-platform-not-supported-ios = Gall defnyddwyr <bold>iOS</bold> lwytho i lawr ein ap am ddim:
+record-must-allow-microphone = Rhaid i chi ganiatáu mynediad i'r meicroffon.
+record-no-mic-found = Heb ganfod meicroffon.
+record-error-too-short = Roedd y recordiad yn rhy fyr.
+record-error-too-long = Roedd y recordiad yn rhy hir.
+record-error-too-quiet = Roedd y recordiad yn rhy dawel.
+record-cancel = Diddymu Ail-recordio
 record-instruction = { $actionType }<recordIcon></recordIcon> ac yna darllen y frawddeg yn uchel
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ar ôl gorffen
 record-three-more-instruction = Tair i fynd!
