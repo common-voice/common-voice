@@ -256,6 +256,7 @@ skip-submission-description = Under inlämning av bidrag ignoreras återkoppling
 skip-submission-note = Notera: Du behöver fortfarande välja mellan att prata och lyssna för att ändra bidragstyp.
 off = Av
 on = På
+file_too_large = Den valda filen är för stor
 
 ## FAQ
 
@@ -312,21 +313,6 @@ data-bundle-button = Ladda ner Dataset-paket
 data-bundle-description = Common Voice data plus alla andra röstdatamängder ovan.
 license = Licens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandat
-
-## Record Page
-
-record-platform-not-supported = Vi är ledsna, min din plattform stöds inte för tillfället.
-record-platform-not-supported-desktop = På datorer, kan du ladda ner senaste:
-record-platform-not-supported-ios = Användare av <bold>iOS</bold> kan ladda ner våran gratisapp:
-record-must-allow-microphone = Du måste tillåta mikrofon åtkomst.
-record-retry = Försök igen
-record-no-mic-found = Ingen mikrofon kunde hittas.
-record-error-too-short = Inspelningen var för kort.
-record-error-too-long = Inspelningen var för lång.
-record-error-too-quiet = Inspelningen var för tyst.
-record-submit-success = Inskickat! Vill du spela in igen?
-record-help = Vänligen klicka för att spela in, läs sedan ovanstående mening högt.
-record-cancel = Avbryt återinspelning
 review-terms = Genom att använda Common Voice godkänner du våra <termsLink>villkor</termsLink> och <privacyLink> sekretesspolicy</privacyLink>
 terms-agree = Jag håller med
 terms-disagree = Jag håller inte med
@@ -401,6 +387,15 @@ contribute-more =
        *[other] Redo att göra { $count } till?
     }
 record-cta = Starta inspelning
+record-platform-not-supported = Vi är ledsna, min din plattform stöds inte för tillfället.
+record-platform-not-supported-desktop = På datorer, kan du ladda ner senaste:
+record-platform-not-supported-ios = Användare av <bold>iOS</bold> kan ladda ner våran gratisapp:
+record-must-allow-microphone = Du måste tillåta mikrofon åtkomst.
+record-no-mic-found = Ingen mikrofon kunde hittas.
+record-error-too-short = Inspelningen var för kort.
+record-error-too-long = Inspelningen var för lång.
+record-error-too-quiet = Inspelningen var för tyst.
+record-cancel = Avbryt återinspelning
 record-instruction = { $actionType } <recordIcon></recordIcon> och läs sedan meningen högt
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> när du är klar
 record-three-more-instruction = Tre kvar!
