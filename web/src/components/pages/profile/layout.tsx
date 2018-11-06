@@ -8,7 +8,11 @@ import { NavLink } from 'react-router-dom';
 import { User } from '../../../stores/user';
 import StateTree from '../../../stores/tree';
 import URLS from '../../../urls';
-import { localeConnector, LocalePropsFromState } from '../../locale-helpers';
+import {
+  localeConnector,
+  LocaleLink,
+  LocalePropsFromState,
+} from '../../locale-helpers';
 import { CameraIcon, ToggleIcon, UserIcon } from '../../ui/icons';
 import { Button } from '../../ui/ui';
 import AvatarSetup from './avatar-setup/avatar-setup';
@@ -61,18 +65,22 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
     <div className="profile-layout">
       <div className="profile-nav">
         <div className="links">
-          <NavLink to={infoRoute}>
-            <UserIcon />
-            <span className="text">{user.account ? '' : 'Build '}Profile</span>
-          </NavLink>
-          <NavLink to={avatarRoute}>
-            <CameraIcon />
-            <span className="text">Avatar</span>
-          </NavLink>
-          <NavLink to={prefRoute}>
-            <ToggleIcon />
-            <span className="text">Preferences</span>
-          </NavLink>
+          {[
+            {
+              route: infoRoute,
+              icon: <UserIcon />,
+              id: user.account ? 'profile' : 'build-profile',
+            },
+            { route: avatarRoute, icon: <CameraIcon />, id: 'avatar' },
+            { route: prefRoute, icon: <ToggleIcon />, id: 'preferences' },
+          ].map(({ route, icon, id }) => (
+            <NavLink key={route} to={route}>
+              {icon}
+              <Localized id={id}>
+                <span className="text" />
+              </Localized>
+            </NavLink>
+          ))}
         </div>
 
         {user.account && (

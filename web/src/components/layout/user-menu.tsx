@@ -1,3 +1,4 @@
+import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import StateTree from '../../stores/tree';
@@ -50,11 +51,15 @@ class UserMenu extends React.Component<PropsFromState> {
 
             <ul>
               <li>
-                <LocaleLink to={URLS.PROFILE_PREFERENCES}>Settings</LocaleLink>
+                <Localized id="preferences">
+                  <LocaleLink to={URLS.PROFILE_PREFERENCES} />
+                </Localized>
                 <Hr />
               </li>
               <li>
-                <a href="/logout">Logout</a>
+                <Localized id="logout">
+                  <a href="/logout" />
+                </Localized>
               </li>
             </ul>
           </div>

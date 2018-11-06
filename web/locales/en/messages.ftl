@@ -110,6 +110,7 @@ back-top = Back to Top
 contribution-banner-text = We've just launched a new contribution experience
 contribution-banner-button = Take a look
 report-bugs-link = Help report bugs
+logout = Logout
 
 ## Home Page
 home-title =
@@ -235,6 +236,10 @@ why-profile-title = Why a profile?
 why-profile-text =
   By providing some information about yourself, the audio data you submit to Common Voice will be more useful to Speech
   Recognition engines that use this data to improve their accuracy.
+build-profile = Build Profile
+profile = Profile
+avatar = Avatar
+preferences = Preferences
 edit-profile = Edit Profile
 profile-create = Create a profile
 profile-create-success = Success, profile created!
