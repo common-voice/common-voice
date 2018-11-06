@@ -117,6 +117,7 @@ back-top = Wróćo horje
 contribution-banner-text = Smy runje nowu móžnosć za sobudźěło startowali
 contribution-banner-button = Rozhladajće so
 report-bugs-link = Zdźělće programowe zmylki
+logout = Wotzjewić
 
 ## Home Page
 
@@ -142,6 +143,9 @@ listen-paragraph = Wobkrućenje darjenych klipow jr runje tak wažne za misiju C
 listen-goal-text = Wobkrućene klipy
 hours-recorded = Natočenske hodźiny
 hours-validated = Wobkrućene hodźiny
+voices-online = Hłosy nětko online
+todays-progress = Dźensniši postup
+help-reach-goal = Pomhajće nam, { $goal } docpěć
 read-terms-q = Sće naše wužiwanske wuměnjenja přečitał?
 ready-to-record = Sće hotowy, swój hłós darić?
 all-languages = Wšě rěče
@@ -239,6 +243,10 @@ female = Źónski
 other = Druhe
 why-profile-title = Čehodla profil?
 why-profile-text = Dajće nam někotre informacije wo sebi, zo bychu awdiodaty, kotrež na Common Voice sćeleće, wužitniše byli, zo by so dokładnosć systemow rěčenskeho spóznaća polěpšiła.
+build-profile = Profil natwarić
+profile = Profil
+avatar = Awatar
+preferences = Nastajenja
 edit-profile = Profil wobdźěłać
 profile-create = Profil załožić
 profile-create-success = Profil je so wuspěšnje załožił!
