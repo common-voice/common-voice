@@ -148,6 +148,7 @@ listen-paragraph = Potrjevanje prejetih posnetkov je enako pomembno za uspeh mis
 listen-goal-text = potrjenih posnetkov
 hours-recorded = Posnetih ur
 hours-validated = Potrjenih ur
+todays-progress = Današnji napredek
 read-terms-q = Ste prebrali naše pogoje?
 ready-to-record = Ste pripravljeni prispevati svoj glas?
 all-languages = Vsi jeziki
