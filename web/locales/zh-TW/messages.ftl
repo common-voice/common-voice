@@ -117,6 +117,7 @@ back-top = 回到頁面頂端
 contribution-banner-text = 我們剛推出全新的貢獻方式
 contribution-banner-button = 體驗一下
 report-bugs-link = 協助回報問題
+logout = 登出
 
 ## Home Page
 
@@ -229,6 +230,10 @@ female = 女性
 other = 其他
 why-profile-title = 為什麼需要帳號？
 why-profile-text = 語音識別引擎將可使用您提供給我們的資訊，讓您送出給 Common Voice 的語音資料被更加善用，改善準確度。
+build-profile = 建立個人資料
+profile = 帳號資料
+avatar = 頭像
+preferences = 偏好設定
 edit-profile = 編輯帳號資料
 profile-create = 註冊帳號
 profile-create-success = 帳號建立成功！
