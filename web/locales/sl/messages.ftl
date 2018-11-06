@@ -117,6 +117,7 @@ back-top = Nazaj na vrh
 contribution-banner-text = Pravkar smo omogočili novo izkušnjo sodelovanja
 contribution-banner-button = Razglejte se
 report-bugs-link = Pomagajte prijaviti hrošče
+logout = Odjava
 
 ## Home Page
 
@@ -244,6 +245,9 @@ female = Ženski
 other = Drugo
 why-profile-title = Zakaj ustvariti profil?
 why-profile-text = S tem, da dodate nekaj podatkov o sebi, bodo glasovni podatki, ki jih pošljete projektu Common Voice, uporabnejši za razpoznavo govora, saj se lahko uporabijo za zagotavljanje večje natančnosti.
+profile = Profil
+avatar = Avatar
+preferences = Nastavitve
 edit-profile = Uredi profil
 profile-create = Ustvari profil
 profile-create-success = Uspelo je, profil je ustvarjen!
@@ -266,6 +270,9 @@ skip-submission-description = Med oddajo prispevka bodo povratne informacije pre
 skip-submission-note = Opomba: za spremembo vrste prispevka boste še vedno morali izbrati med Govori in Poslušaj.
 off = Izklopljeno
 on = Vklopljeno
+browse-file = Povlecite in spustite ali <browseWrap>prebrskajte</browseWrap>
+connect-gravatar = Poveži z Gravatarjem
+gravatar_not_found = Za vaš e-poštni naslov ne obstaja Gravatar
 file_too_large = Izbrana datoteka je prevelika
 
 ## FAQ
