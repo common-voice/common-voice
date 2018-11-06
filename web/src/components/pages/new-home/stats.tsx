@@ -459,7 +459,9 @@ export namespace VoiceStats {
       getMax={data => data.reduce((max, d) => Math.max(max, d.voices), 0)}
       renderHeader={({ data }) => (
         <div>
-          <h3>Voices Online Now</h3>
+          <Localized id="voices-online">
+            <h3 />
+          </Localized>
           <div className="online-voices">
             {data.length > 0
               ? data[data.length - 1].voices.toLocaleString()

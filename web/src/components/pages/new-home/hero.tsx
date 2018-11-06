@@ -114,15 +114,13 @@ class Hero extends React.Component<
           <div {...this.getToggleableProps(1, 'line ' + type)} />
           <div {...this.getToggleableProps(2)}>
             <Localized id="help-reach-goal" $goal={DAILY_GOAL[type]}>
-              <div className="cta-message">
-                Help us get to {DAILY_GOAL[type]}
-              </div>
+              <div className="cta-message" />
             </Localized>
           </div>
         </div>
         <div {...this.getToggleableProps(3, 'progress column')}>
           <Localized id="todays-progress">
-            <h3 className="progress-title">Today's Progress</h3>
+            <h3 className="progress-title" />
           </Localized>
           <span className="progress-count">
             <span className="current">{count === null ? '?' : count}</span>
