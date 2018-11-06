@@ -117,6 +117,7 @@ back-top = Sus
 contribution-banner-text = Tocmai am lansat o nouă experiență pentru colaboratori
 contribution-banner-button = Aruncă o privire
 report-bugs-link = Ajută-ne prin raportarea de probleme
+logout = Deconectare
 
 ## Home Page
 
@@ -142,6 +143,9 @@ listen-paragraph = Validarea secvențelor audio donate este la fel de important�
 listen-goal-text = Clipuri validate
 hours-recorded = Ore înregistrate
 hours-validated = Ore validate
+voices-online = Voci online acum
+todays-progress = Progresul de astăzi
+help-reach-goal = Ajută-ne să ajungem la { $goal }
 read-terms-q = Ai citit termenii noștri de utilizare?
 ready-to-record = Ești gata să-ți donezi vocea?
 all-languages = Toate limbile
@@ -235,6 +239,10 @@ female = Femeie
 other = Altul
 why-profile-title = De ce un profil?
 why-profile-text = Furnizând câteva informații despre tine, datele audio pe care le trimiți la Common Voice vor fi mai utile pentru motoarele de recunoaștere a vorbirii care folosesc aceste date ca să le îmbunătățim acuratețea.
+build-profile = Construiește profilul
+profile = Profil
+avatar = Avatar
+preferences = Preferințe
 edit-profile = Editează profilul
 profile-create = Creează un profil
 profile-create-success = Succes, profil creat!
