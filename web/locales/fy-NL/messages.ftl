@@ -263,6 +263,10 @@ skip-submission-description = Wylst it bydragen wurdt kommentaar oer ynstjoering
 skip-submission-note = Noat: jo moatte noch hieltyd in kar tusken Sprekke en Lústerje meitsje om it type bydragen te wizigjen.
 off = Ut
 on = Oan
+browse-file = Sleep en pleats of <browseWrap>Blêdzje</browseWrap>
+connect-gravatar = Mei Gravatar ferbine
+gravatar_not_found = Foar jo e-mailadres waard gjin Gravatar fûn
+file_too_large = It selektearre bestân is te grut
 
 ## FAQ
 
@@ -319,21 +323,6 @@ data-bundle-button = Bondel gegevensset downloade
 data-bundle-description = Common Voice-gegevens plus alle oare boppesteande stimgegevenssets.
 license = Lisinsje: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mikst
-
-## Record Page
-
-record-platform-not-supported = It spyt ús, mar jo platfoarm wurdt op dit stuit net stipe.
-record-platform-not-supported-desktop = Op desktopkompjûters, download de lêste:
-record-platform-not-supported-ios = <bold>iOS</bold>-brûkers kinne ús fergese app downloade:
-record-must-allow-microphone = Jo moatte tagong ta jo mikrofoan tastean.
-record-retry = Opnij probearje
-record-no-mic-found = Gjin mikrofoan fûn.
-record-error-too-short = De opname wie te koart.
-record-error-too-long = De opname wie te lang.
-record-error-too-quiet = De opname wie te súntsjes
-record-submit-success = Opname suksesfol! Wolle jo noch wat opnimme?
-record-help = Tik om op te nimmen, lês dêrnei de boppesteande sin lûd op.
-record-cancel = Opnij opnimmen annulearje
 review-terms = Troch it brûken fan Common Voice, gean jo akkoard mei ús <termsLink>Betingsten</termsLink> en <privacyLink>Privacybelied</privacyLink>
 terms-agree = Ik gean akkoard
 terms-disagree = Ik gean net akkoard
@@ -404,6 +393,15 @@ goal-help-recording = Jo hawwe Common Voice holpen om <goalPercentage></goalPerc
 goal-help-validation = Jo hawwe Common Voice holpen om <goalPercentage></goalPercentage> fan harren deistige { $goalValue } falidaasje te beheljen!
 contribute-more = Klear om der noch { $count } te dwaan?
 record-cta = Opname starte
+record-platform-not-supported = It spyt ús, mar jo platfoarm wurdt op dit stuit net stipe.
+record-platform-not-supported-desktop = Op desktopkompjûters, download de lêste:
+record-platform-not-supported-ios = <bold>iOS</bold>-brûkers kinne ús fergese app downloade:
+record-must-allow-microphone = Jo moatte tagong ta jo mikrofoan tastean.
+record-no-mic-found = Gjin mikrofoan fûn.
+record-error-too-short = De opname wie te koart.
+record-error-too-long = De opname wie te lang.
+record-error-too-quiet = De opname wie te súntsjes
+record-cancel = Opnij opnimmen annulearje
 record-instruction = { $actionType } <recordIcon></recordIcon> en lês de sin dêrnei hurdop
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> as jo klear binne
 record-three-more-instruction = Noch trije te gean!
