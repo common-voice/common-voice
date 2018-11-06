@@ -255,6 +255,10 @@ skip-submission-description = Kömək vaxtı "Göndər" düyməsinə kliklədikd
 skip-submission-note = Qeyd: Siz yenə də kömək növünü dəyişmək üçün Danış və ya Qulaq as seçməli olacaqsız.
 off = Sönülü
 on = Açıq
+browse-file = Daşı və burax və ya <browseWrap>Gəz</browseWrap>
+connect-gravatar = Gravatar ilə qoşul
+gravatar_not_found = E-poçtunuz üçün gravatar tapılmadı
+file_too_large = Seçilən fayl çox böyükdür
 
 ## FAQ
 
@@ -311,21 +315,6 @@ data-bundle-button = Məlumat bazası paketini endir
 data-bundle-description = Common Voice bazası və yuxarıdakı bütün digər səs bazaları.
 license = Lisenziya: <licenseLink>{ $license }</licenseLink>
 license-mixed = Qarışıq
-
-## Record Page
-
-record-platform-not-supported = Üzr istəyirik, amma platformanız hazırda dəstəklənmir.
-record-platform-not-supported-desktop = Masaüstü kompüterinizdə bu son səyyahları endirə bilərsiz:
-record-platform-not-supported-ios = <bold>iOS</bold> istifadəçiləri pulsuz tətbiqimizi endirə bilərlər:
-record-must-allow-microphone = Mikrofona icazə verməlisiniz.
-record-retry = Təkrar yoxla
-record-no-mic-found = Mikrofon tapılmadı.
-record-error-too-short = Qeyd çox qısa idi.
-record-error-too-long = Qeyd çox uzun idi.
-record-error-too-quiet = Qeyd çox sakit idi.
-record-submit-success = Uğurla göndərildi! Təkrar qeyd etmək istərdiniz?
-record-help = Lütfən qeyd-ə basın, sonra da üstdəki cümləni səsli oxuyun.
-record-cancel = Təkrar qeydi ləğv et
 review-terms = Common Voice işlətməklə <termsLink>Şərt</termsLink> və <privacyLink>Məxfilik Qeydləri</privacyLink>mizlə razılaşmış olursuz
 terms-agree = Razıyam
 terms-disagree = Razı deyiləm
@@ -400,6 +389,15 @@ contribute-more =
        *[other] Daha { $count } dənə etməyə hazırsınız?
     }
 record-cta = Qeydə başla
+record-platform-not-supported = Üzr istəyirik, amma platformanız hazırda dəstəklənmir.
+record-platform-not-supported-desktop = Masaüstü kompüterinizdə bu son səyyahları endirə bilərsiz:
+record-platform-not-supported-ios = <bold>iOS</bold> istifadəçiləri pulsuz tətbiqimizi endirə bilərlər:
+record-must-allow-microphone = Mikrofona icazə verməlisiniz.
+record-no-mic-found = Mikrofon tapılmadı.
+record-error-too-short = Qeyd çox qısa idi.
+record-error-too-long = Qeyd çox uzun idi.
+record-error-too-quiet = Qeyd çox sakit idi.
+record-cancel = Təkrar qeydi ləğv et
 record-instruction = <recordIcon></recordIcon> düyməsinə { $actionType } və cümləni səsli oxuyun
 record-stop-instruction = Bitirdikdə <stopIcon></stopIcon> düyməsinə { $actionType }
 record-three-more-instruction = Üç dənə qaldı!
