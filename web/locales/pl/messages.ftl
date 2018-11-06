@@ -117,6 +117,7 @@ back-top = Powrót na górę
 contribution-banner-text = Właśnie włączyliśmy interfejs nowego uczestnika
 contribution-banner-button = Wypróbuj
 report-bugs-link = Pomóż zgłaszać błędy
+logout = Wyloguj się
 
 ## Home Page
 
@@ -142,6 +143,8 @@ listen-paragraph = Sprawdzanie nagrań jest równie ważne dla misji projektu Co
 listen-goal-text = Sprawdzone nagrania
 hours-recorded = Nagrane godziny
 hours-validated = Sprawdzone godziny
+todays-progress = Dzisiejszy postęp
+help-reach-goal = Pomóż nam osiągnąć { $goal }
 read-terms-q = Nie zapomnij przeczytać warunków korzystania z serwisu.
 ready-to-record = Chcesz nagrać swój głos?
 all-languages = Wszystkie języki
@@ -235,6 +238,10 @@ female = Kobieta
 other = Inna
 why-profile-title = Po co profil?
 why-profile-text = Podając pewne informacje o sobie, dane dźwiękowe wysyłane do projektu Common Voice będą bardziej przydatne dla mechanizmów rozpoznawania mowy, które korzystają z tych danych do zwiększenia dokładności.
+build-profile = Zbuduj profil
+profile = Profil
+avatar = Awatar
+preferences = Preferencje
 edit-profile = Edytuj profil
 profile-create = Utwórz profil
 profile-create-success = Pomyślnie utworzono profil.
