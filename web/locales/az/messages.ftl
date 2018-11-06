@@ -117,6 +117,7 @@ back-top = Üstə Qayıt
 contribution-banner-text = Yeni dəstək interfeysini yayına aldıq
 contribution-banner-button = Göz gəzdir
 report-bugs-link = Xətaları bildirməyə kömək et
+logout = Çıx
 
 ## Home Page
 
@@ -144,6 +145,9 @@ listen-paragraph = İanə edilmiş klipləri təsdiqləmək Common Voice missiya
 listen-goal-text = Təsdiqlənmiş kliplər
 hours-recorded = Qeyd etmə saatları
 hours-validated = Təsdiqləmə saatları
+voices-online = İndi onlayn olan səslər
+todays-progress = Bu günün irəliləyişi
+help-reach-goal = { $goal } səviyyəsinə çatmağımıza kömək et
 read-terms-q = Şərtlərimizi oxumusunuz?
 ready-to-record = Səsinizi verməyə hazırsınız?
 all-languages = Bütün Dillər
@@ -233,6 +237,10 @@ female = Qadın
 other = Digər
 why-profile-title = Niyə profil?
 why-profile-text = Haqqınızda bəzi məlumatları verərək Common Voice üçün göndərdiyiniz səs məlumatlarını Səs Tanıma mühərriyi üçün daha mənalı hala gətirə bilərsiz.
+build-profile = Profil yarat
+profile = Profil
+avatar = Avatar
+preferences = Nizamlamalar
 edit-profile = Profili Düzəlt
 profile-create = Profil yarat
 profile-create-success = Profil uğurla yaradıldı!
