@@ -115,9 +115,7 @@ export default class Model {
     const { BASKET_API_KEY, PROD } = getConfig();
     if (BASKET_API_KEY && user && user.send_emails && !user.basket_token) {
       const response = await request({
-        uri: `https://${
-          PROD ? 'basket.mozilla' : 'basket-dev.allizom'
-        }.org/news/subscribe/`,
+        uri: 'https://basket.mozilla.org/news/subscribe/',
         method: 'POST',
         form: {
           'api-key': BASKET_API_KEY,
