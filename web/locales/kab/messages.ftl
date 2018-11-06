@@ -253,6 +253,9 @@ skip-submission-description = Di lawan n utteki, tuzna n tmuɣli-inek ad tettwas
 skip-submission-note = Tazmilt: akken ad tbedleḍ tamahilt n utteki ilaq ad ferneḍ gar Mmeslay akked Timesliwt.
 off = Sens
 on = Rmed
+browse-file = Zuɣer sakin sers neɣ <browseWrap>innig</browseWrap>
+connect-gravatar = Qqen s Gravatar
+gravatar_not_found = Ulac Gravatar ittwafen i imayl-inek
 
 ## FAQ
 
@@ -309,21 +312,6 @@ data-bundle-button = Sider-d aqettun n tagrumma n yisefka
 data-bundle-description = Isefka Common Voice akked tigrummiwin meṛṛa n yisefka-nniḍen ddaw-a.
 license = Turagt: <licenseLink>{ $license }</licenseLink>
 license-mixed = Uxliḍ
-
-## Record Page
-
-record-platform-not-supported = Suref-aɣ, anagraw-ik ur yettwasefrak ara akka tura.
-record-platform-not-supported-desktop = I yiselkimen n tnrait, tzemreḍ ad tessidreḍ imaynuten:
-record-platform-not-supported-ios = Iseqdsacen n <bold>iOS</bold> zemren ad sidren asnaɣ-nneɣ n baṭel :
-record-must-allow-microphone = Ilaq ad tsirgeḍ anekcum i usawaḍ.
-record-retry = Ɛreḍ i tikelt-nniḍen
-record-no-mic-found = Ulac asawaḍ.
-record-error-too-short = Meẓẓi mliḥ usekles-nni.
-record-error-too-long = Meqqeṛ mliḥ usekles-nni.
-record-error-too-quiet = Ixuṣṣ mliḥ ṣṣut n usekles-nni.
-record-submit-success = Yettwaceyyeɛ akken iwata. Tebɣiḍ ad talseḍ asekles?
-record-help = Ma ulac aɣilif, tekki i wakken ad yebdu usekles, sakin ɣer-d tafyirt-nni ukessar s lqedd n taɣect-ik /im!
-record-cancel = Sefsex asekles
 review-terms = S useqdec n Common Voice, ad tqebleḍ tiwtilin-nneγ <termsLink> akked <privacyLink>tasertit-nneγ n tbaḍnit </privacyLink>
 terms-agree = Qebleɣ
 terms-disagree = Ur qbileɣ ara
@@ -398,6 +386,15 @@ contribute-more =
        *[other] Theggaḍ i { $count } nniḍen?
     }
 record-cta = Bdu asekles
+record-platform-not-supported = Suref-aɣ, anagraw-ik ur yettwasefrak ara akka tura.
+record-platform-not-supported-desktop = I yiselkimen n tnrait, tzemreḍ ad tessidreḍ imaynuten:
+record-platform-not-supported-ios = Iseqdsacen n <bold>iOS</bold> zemren ad sidren asnaɣ-nneɣ n baṭel :
+record-must-allow-microphone = Ilaq ad tsirgeḍ anekcum i usawaḍ.
+record-no-mic-found = Ulac asawaḍ.
+record-error-too-short = Meẓẓi mliḥ usekles-nni.
+record-error-too-long = Meqqeṛ mliḥ usekles-nni.
+record-error-too-quiet = Ixuṣṣ mliḥ ṣṣut n usekles-nni.
+record-cancel = Sefsex asekles
 record-instruction = { $actionType } <recordIcon></recordIcon> sakin ɣer-d tafyirt s cwiṭ n leɛyaḍ
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> ticki yemmed.
 record-three-more-instruction = Rnu ugar n kraḍ!
