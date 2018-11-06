@@ -131,16 +131,16 @@ wall-of-text-second = Die meisten Daten, die von großen Unternehmen genutzt wer
 show-wall-of-text = Mehr erfahren
 help-us-title = Helfen Sie uns beim Bestätigen von Sätzen!
 help-us-explain = Drücken Sie Play, hören Sie zu & sagen Sie uns: Wurde der folgende Satz korrekt ausgesprochen?
-no-clips-to-validate = Sieht so aus, als gäbe es keine Aufnahmen mehr, die Sie bestätigen könnten. Helfen Sie uns dabei die Warteschlange wieder aufzufüllen, indem Sie jetzt selbst etwas aufnehmen.
+no-clips-to-validate = Sieht so aus, als gäbe es keine Aufzeichnungen mehr, die Sie bestätigen könnten. Helfen Sie uns dabei die Warteschlange wieder aufzufüllen, indem Sie jetzt selbst etwas aufnehmen.
 vote-yes = Ja
 vote-no = Nein
 toggle-play-tooltip = Drücken Sie für Play/Stop { shortcut-play-toggle }
 speak-subtitle = Spenden Sie Ihre Stimme
-speak-paragraph = Aufzeichnungen von Sprache sind ein wesentlicher Bestandteil beim Aufbau unseres Datensatzes – für manche sicherlich auch spaßig.
-speak-goal-text = Aufgenommene Clips
-listen-subtitle = Helfen Sie uns, stimmen zu bestätigen
-listen-paragraph = Gespendete Clips zu bestätigen ist für die Mission von Common Voice ebenso wichtig. Hören Sie hin und helfen Sie uns, quelloffene Stimmdaten in guter Qualität bereitzustellen.
-listen-goal-text = Bestätigte Clips
+speak-paragraph = Stimmen aufzunehmen ist ein wesentlicher Schritt beim Aufbau unseres Datensatzes – manche würden sogar sagen, es ist der, der am meisten Spaß macht.
+speak-goal-text = Aufgenommene Aufzeichnungen
+listen-subtitle = Helfen Sie uns, Stimmen zu bestätigen
+listen-paragraph = Das Bestätigen von Aufzeichnungen ist für die Mission von Common Voice ebenso wichtig. Hören Sie hin und helfen Sie uns, quelloffene Stimmdaten in guter Qualität bereitzustellen.
+listen-goal-text = Bestätigte Aufzeichnungen
 hours-recorded = Aufgenommene Stunden
 hours-validated = Bestätigte Stunden
 voices-online = Sprecher aktuell online
@@ -297,7 +297,7 @@ profile-why-content = Indem Sie einige Informationen über sich bereitstellen, w
 ## NotFound
 
 notfound-title = Nicht gefunden
-notfound-content = Es tut mir leid, ich weiß nicht, wonach Sie suchen.
+notfound-content = Ich fürchte, ich weiß nicht, wonach Sie suchen.
 
 ## Data
 
@@ -326,7 +326,7 @@ terms-agree = Ich stimme zu
 terms-disagree = Ich stimme nicht zu
 review-aborted = Hochladen abgebrochen. Möchten Sie Ihre Tonaufnahmen löschen?
 review-submit-title = Überprüfen & Übertragen
-review-submit-msg = Vielen Dank für die Aufnahme!<lineBreak></lineBreak>Sie können Ihre Mitschnitte nun noch einmal begutachten, bevor Sie sie absenden.
+review-submit-msg = Vielen Dank für die Aufnahme!<lineBreak></lineBreak>Sie können Ihre Aufzeichnungen nun noch einmal begutachten, bevor Sie sie absenden.
 review-recording = Überprüfen
 review-rerecord = Korrigieren
 review-cancel = Absenden abbrechen
