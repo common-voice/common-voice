@@ -1542,7 +1542,7 @@ I vapori che si formano vengono mandati verso il basso nella colonna di distilla
 Questi vapori si condensano a diverse altezze per via delle temperature.
 Sono stati inventati diversi metodi per poter modificare la catena molecolare dei composti estratti
 Con il cracking si intende una frammentazione della catena del carbonio
- laalchilazione permette di ottenere diverse derivati del petrolio con un processo definito.
+La alchilazione permette di ottenere diverse derivati del petrolio con un processo definito.
 Dei catalizzatori e /o repressori permettono di ottenere altri derivati del benzene tra cui l'esano e l'ottano.
 Questa frammentazione può avvenire attraverso catalizzatori o per via termica.
 Con reforming invece si tratta di modifiche alla catena per poter rendere i derivati antidetonanti.
@@ -5644,7 +5644,7 @@ Essere un Carneade.
 Essere un carro armato.
 Essere un Cerbero.
 Essere un cincinnato.
-Essere un figlio di papa.
+Essere un figlio di papà.
 Essere un furbo di tre cotte.
 Essere un fuscello.
 Essere un grillo parlante.
