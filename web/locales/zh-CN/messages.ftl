@@ -71,7 +71,7 @@ oc = 欧西坦语
 or = 奥里亚语
 pl = 波兰语
 pt-BR = 葡萄牙语（巴西）
-rm-sursilv = 苏斯勒万罗曼什语
+rm-sursilv = 罗曼什语（苏斯勒万）
 ro = 罗马尼亚语
 ru = 俄语
 sah = 萨哈语
@@ -249,6 +249,10 @@ skip-submission-description = 贡献期间，点击“提交”将跳过反馈�
 skip-submission-note = 注：您仍需选择“听”或“说”来切换贡献类型。
 off = 关
 on = 开
+browse-file = 拖放至此，或者<browseWrap>浏览</browseWrap>
+connect-gravatar = 连接 Gravatar
+gravatar_not_found = 通过您的电子邮件地址未找到 Gravatar
+file_too_large = 所选文件太大
 
 ## FAQ
 
@@ -305,21 +309,6 @@ data-bundle-button = 批量下载数据集
 data-bundle-description = Common Voice 数据加上所有其他的语音数据集。
 license = 许可协议：<licenseLink>{ $license }</licenseLink>
 license-mixed = 混合
-
-## Record Page
-
-record-platform-not-supported = 很抱歉，尚不支持您的平台。
-record-platform-not-supported-desktop = 您可以在桌面电脑上下载最新内容：
-record-platform-not-supported-ios = <bold>iOS</bold> 用户可以下载我们的免费应用程序：
-record-must-allow-microphone = 您必须允许访问麦克风。
-record-retry = 重试
-record-no-mic-found = 未找到麦克风
-record-error-too-short = 这份录音太短了。
-record-error-too-long = 这份录音太长了。
-record-error-too-quiet = 这份录音太安静了。
-record-submit-success = 提交成功！要再录一次吗？
-record-help = 请点按录音按钮，然后朗读上述句子。
-record-cancel = 取消重新录音
 review-terms = 使用 Common Voice 即代表您同意我们的<termsLink>条款</termsLink>和<privacyLink>隐私声明</privacyLink>
 terms-agree = 我同意
 terms-disagree = 我不同意
@@ -390,6 +379,15 @@ goal-help-recording = 您已帮助 Common Voice 达成 <goalPercentage></goalPer
 goal-help-validation = 您已帮助 Common Voice 达成 <goalPercentage></goalPercentage> 的每日 { $goalValue } 验证目标！
 contribute-more = 准备好再录 { $count } 条了吗？
 record-cta = 开始录音
+record-platform-not-supported = 很抱歉，尚不支持您的平台。
+record-platform-not-supported-desktop = 您可以在桌面电脑上下载最新内容：
+record-platform-not-supported-ios = <bold>iOS</bold> 用户可以下载我们的免费应用程序：
+record-must-allow-microphone = 您必须允许访问麦克风。
+record-no-mic-found = 未找到麦克风
+record-error-too-short = 这份录音太短了。
+record-error-too-long = 这份录音太长了。
+record-error-too-quiet = 这份录音太安静了。
+record-cancel = 取消重新录音
 record-instruction = { $actionType } 按下 <recordIcon></recordIcon> 然后大声朗读句子
 record-stop-instruction = { $actionType } 完成后按下 <stopIcon></stopIcon>
 record-three-more-instruction = 还有三条！
