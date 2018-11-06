@@ -259,6 +259,10 @@ skip-submission-description = În timpul colaborării, se va sări peste feedbac
 skip-submission-note = Obs: Tot va trebui să selectezi Vorbește sau Ascultă pentru a modifica tipul de colaborare.
 off = Dezactivat
 on = Activat
+browse-file = Trage și plasează sau <browseWrap>Navighează</browseWrap>
+connect-gravatar = Conectează-te cu Gravatar
+gravatar_not_found = Nu s-a găsit niciun gravatar pentru e-mailul tău
+file_too_large = Fișierul selectat este prea mare
 
 ## FAQ
 
@@ -315,21 +319,6 @@ data-bundle-button = Descarcă pachetul cu setul de date
 data-bundle-description = Datele Common Voice plus toate celelalte seturi de date de mai sus.
 license = Licență: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixtă
-
-## Record Page
-
-record-platform-not-supported = Ne pare rău, dar platforma ta nu este suportată momentan.
-record-platform-not-supported-desktop = Pe calculatoare tip desktop, poți descărca cele mai recente:
-record-platform-not-supported-ios = Utilizatorii <bold>iOS</bold> pot descărca aplicația noastră gratuită:
-record-must-allow-microphone = Trebuie să permiți accesul la microfon.
-record-retry = Reîncearcă
-record-no-mic-found = Nu a fost găsit niciun microfon.
-record-error-too-short = Înregistrarea a fost prea scurtă.
-record-error-too-long = Înregistrarea a fost prea lungă.
-record-error-too-quiet = Volumul înregistrării este prea mic.
-record-submit-success = Trimitere reușită! Vrei să înregistrezi din nou?
-record-help = Atinge pentru înregistrare, apoi citește cu voce tare propoziția de mai sus.
-record-cancel = Anulează reînregistrarea
 review-terms = Prin utilizarea Common Voice, agreezi <termsLink>Termenii</termsLink> și <privacyLink>Notificarea privind confidențialitatea</privacyLink>
 terms-agree = De acord
 terms-disagree = Nu sunt de acord
@@ -405,6 +394,15 @@ contribute-more =
        *[other] Gata pentru încă { $count }?
     }
 record-cta = Începe înregistrarea
+record-platform-not-supported = Ne pare rău, dar platforma ta nu este suportată momentan.
+record-platform-not-supported-desktop = Pe calculatoare tip desktop, poți descărca cele mai recente:
+record-platform-not-supported-ios = Utilizatorii <bold>iOS</bold> pot descărca aplicația noastră gratuită:
+record-must-allow-microphone = Trebuie să permiți accesul la microfon.
+record-no-mic-found = Nu a fost găsit niciun microfon.
+record-error-too-short = Înregistrarea a fost prea scurtă.
+record-error-too-long = Înregistrarea a fost prea lungă.
+record-error-too-quiet = Volumul înregistrării este prea mic.
+record-cancel = Anulează reînregistrarea
 record-instruction = { $actionType }<recordIcon></recordIcon> apoi citește propoziția cu voce tare
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> când ai terminat
 record-three-more-instruction = Au mai rămas trei!
