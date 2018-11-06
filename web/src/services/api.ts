@@ -2,6 +2,7 @@ import { LanguageStats } from '../../../common/language-stats';
 import { UserClient } from '../../../common/user-clients';
 import { Locale } from '../stores/locale';
 import { User } from '../stores/user';
+import { USER_KEY } from '../stores/root';
 import { Sentences } from '../stores/sentences';
 
 export interface Clip {
@@ -30,7 +31,7 @@ export default class API {
     this.user = user;
   }
 
-  private fetch(path: string, options: FetchOptions = {}): Promise<any> {
+  private async fetch(path: string, options: FetchOptions = {}): Promise<any> {
     const { method, headers, body, isJSON } = Object.assign(
       { isJSON: true },
       options
@@ -45,17 +46,23 @@ export default class API {
       headers
     );
 
-    if (path.startsWith(location.origin)) {
-      finalHeaders.uid = this.user.userId;
+    if (path.startsWith(location.origin) && !this.user.account) {
+      finalHeaders.client_id = this.user.userId;
     }
 
-    return fetch(path, {
+    const response = await fetch(path, {
       method: method || 'GET',
       headers: finalHeaders,
       body: body
         ? body instanceof Blob ? body : JSON.stringify(body)
         : undefined,
-    }).then(response => (isJSON ? response.json() : response.text()));
+    });
+    if (response.status == 401) {
+      localStorage.removeItem(USER_KEY);
+      location.reload();
+      return;
+    }
+    return isJSON ? response.json() : response.text();
   }
 
   getLocalePath() {

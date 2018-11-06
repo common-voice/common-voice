@@ -3,6 +3,12 @@ declare global {
     includes(val: string): boolean;
     startsWith(val: string): boolean;
   }
+
+  namespace Express {
+    export interface Request {
+      client_id?: string;
+    }
+  }
 }
 
 export {};

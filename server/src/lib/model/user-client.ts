@@ -91,10 +91,17 @@ const UserClient = {
   async findAccount(sso_id: string): Promise<UserClient> {
     const [rows] = await db.query(
       `
-        SELECT DISTINCT u.*, accents.accent, locales.name AS locale
+        SELECT DISTINCT
+          u.*,
+          accents.accent,
+          locales.name AS locale,
+          COUNT(DISTINCT clips.id) AS clips_count,
+          COUNT(DISTINCT votes.id) AS votes_count
         FROM user_clients u
         LEFT JOIN user_client_accents accents on u.client_id = accents.client_id
         LEFT JOIN locales on accents.locale_id = locales.id
+        LEFT JOIN clips on u.client_id = clips.client_id
+        LEFT JOIN votes on u.client_id = votes.client_id
         WHERE u.sso_id = ?
         ORDER BY accents.id ASC
       `,
@@ -115,7 +122,9 @@ const UserClient = {
               'basket_token',
               'skip_submission_feedback',
               'visible',
-              'avatar_url'
+              'avatar_url',
+              'clips_count',
+              'votes_count'
             ),
             locales: client.locales.concat(
               typeof row.accent == 'string'
@@ -225,6 +234,23 @@ const UserClient = {
       url,
       sso_id,
     ]);
+  },
+
+  async hasSSO(client_id: string): Promise<boolean> {
+    return Boolean(
+      (await db.query(
+        'SELECT 1 FROM user_clients WHERE client_id = ? AND sso_id IS NOT NULL',
+        [client_id]
+      ))[0][0]
+    );
+  },
+
+  async findClientId(sso_id: string): Promise<null | string> {
+    const [[row]] = await db.query(
+      'SELECT client_id FROM user_clients WHERE sso_id = ?',
+      [sso_id]
+    );
+    return row ? row.client_id : null;
   },
 };
 

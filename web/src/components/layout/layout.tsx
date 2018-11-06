@@ -345,12 +345,14 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
       <div className="tallies">
         <div className="record-tally">
           <MicIcon className="icon" />
-          <div>{user.recordTally}</div>
+          <div>
+            {user.account ? user.account.clips_count : user.recordTally}
+          </div>
         </div>
         <div className="divider" />
         <div className="validate-tally">
           <OldPlayIcon className="icon" />
-          {user.validateTally}
+          {user.account ? user.account.votes_count : user.validateTally}
         </div>
       </div>
     );

@@ -12,7 +12,7 @@ import StateTree from './tree';
 import { Uploads } from './uploads';
 import { User } from './user';
 
-const USER_KEY = 'userdata';
+export const USER_KEY = 'userdata';
 
 let preloadedState = null;
 try {

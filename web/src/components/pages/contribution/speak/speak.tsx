@@ -89,6 +89,7 @@ interface PropsFromDispatch {
   addNotification: typeof Notifications.actions.add;
   removeSentences: typeof Sentences.actions.remove;
   tallyRecording: typeof User.actions.tallyRecording;
+  refreshUser: typeof User.actions.refresh;
   updateUser: typeof User.actions.update;
 }
 
@@ -314,6 +315,7 @@ class SpeakPage extends React.Component<Props, State> {
       removeSentences,
       tallyRecording,
       user,
+      refreshUser,
     } = this.props;
 
     if (!hasAgreed && !user.privacyAgreed) {
@@ -348,6 +350,7 @@ class SpeakPage extends React.Component<Props, State> {
       }),
       async () => {
         trackRecording('submit', locale);
+        refreshUser();
         addNotification(
           <React.Fragment>
             <CheckIcon />{' '}
@@ -558,6 +561,7 @@ const mapDispatchToProps = {
   addUploads: Uploads.actions.add,
   removeSentences: Sentences.actions.remove,
   tallyRecording: User.actions.tallyRecording,
+  refreshUser: User.actions.refresh,
   updateUser: User.actions.update,
 };
 

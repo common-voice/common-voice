@@ -29,10 +29,30 @@ export default class API {
 
     router.use(bodyParser.json());
 
-    router.use((request: Request, response: Response, next: NextFunction) => {
-      this.metrics.countRequest(request);
-      next();
-    });
+    router.use(
+      async (request: Request, response: Response, next: NextFunction) => {
+        this.metrics.countRequest(request);
+
+        const client_id =
+          (request.headers.client_id as string) ||
+          // TODO: Remove next line after the headers.client_id has been up for
+          // a while (to stay compatible to old client)
+          (request.header.uid as string);
+        if (client_id) {
+          if (await UserClient.hasSSO(client_id)) {
+            response.sendStatus(401);
+            return;
+          }
+          request.client_id = client_id;
+        }
+
+        if (request.user) {
+          request.client_id = await UserClient.findClientId(request.user.id);
+        }
+
+        next();
+      }
+    );
 
     router.get('/metrics', (request: Request, response: Response) => {
       this.metrics.countPrometheusRequest(request);
@@ -86,18 +106,20 @@ export default class API {
     return router;
   }
 
-  saveUserClient = async ({ body, params }: Request, response: Response) => {
-    const uid = params.id as string;
+  saveUserClient = async (
+    { client_id, body, params }: Request,
+    response: Response
+  ) => {
     const demographic = body;
 
-    if (!uid || !demographic) {
+    if (!client_id || !demographic) {
       throw new ClientParameterError();
     }
 
     // Where is the clip demographic going to be located?
-    const demographicFile = uid + '/demographic.json';
+    const demographicFile = client_id + '/demographic.json';
 
-    await this.model.db.updateUser(uid, demographic);
+    await this.model.db.updateUser(client_id, demographic);
 
     await AWS.getS3()
       .putObject({
@@ -108,7 +130,7 @@ export default class API {
       .promise();
 
     console.log('clip demographic written to s3', demographicFile);
-    response.json(uid);
+    response.json(client_id);
   };
 
   saveUser = async (request: Request, response: Response) => {
@@ -121,9 +143,9 @@ export default class API {
   };
 
   getRandomSentences = async (request: Request, response: Response) => {
-    const { headers, params } = request;
+    const { client_id, headers, params } = request;
     const sentences = await this.model.findEligibleSentences(
-      headers.uid as string,
+      client_id,
       params.locale,
       parseInt(request.query.count, 10) || 1
     );
@@ -136,14 +158,16 @@ export default class API {
   };
 
   createLanguageRequest = async (request: Request, response: Response) => {
-    await this.model.db.createLanguageRequest(request.body.language, request
-      .headers.uid as string);
+    await this.model.db.createLanguageRequest(
+      request.body.language,
+      request.client_id
+    );
     response.json({});
   };
 
   createSkippedSentence = async (request: Request, response: Response) => {
-    const { headers: { uid }, params: { id } } = request;
-    await this.model.db.createSkippedSentence(id, uid as string);
+    const { client_id, params: { id } } = request;
+    await this.model.db.createSkippedSentence(id, client_id);
     response.json({});
   };
 
@@ -151,7 +175,7 @@ export default class API {
     response.json(await this.model.getLanguageStats());
   };
 
-  getUserClients = async ({ headers, user }: Request, response: Response) => {
+  getUserClients = async ({ client_id, user }: Request, response: Response) => {
     if (!user) {
       response.json([]);
       return;
@@ -162,7 +186,7 @@ export default class API {
       { email },
       ...(await UserClient.findAllWithLocales({
         email,
-        client_id: headers.uid as string,
+        client_id,
       })),
     ];
     response.json(userClients);

@@ -38,16 +38,15 @@ export default class Clip {
 
     router.use(
       (
-        { headers, params }: Request,
+        { client_id, params }: Request,
         response: Response,
         next: NextFunction
       ) => {
-        const uid = headers.uid as string;
         const { locale } = params;
 
-        if (uid && locale) {
+        if (client_id && locale) {
           this.model.db
-            .saveActivity(uid, locale)
+            .saveActivity(client_id, locale)
             .catch((error: any) => console.error(error));
         }
 
@@ -68,20 +67,22 @@ export default class Clip {
     return router;
   }
 
-  saveClipVote = async (request: Request, response: Response) => {
-    const id = request.params.clipId as string;
-    const uid = request.headers.uid as string;
-    const { isValid } = request.body;
+  saveClipVote = async (
+    { client_id, body, params }: Request,
+    response: Response
+  ) => {
+    const id = params.clipId as string;
+    const { isValid } = body;
 
     const clip = await this.model.db.findClip(id);
-    if (!clip || !uid) {
+    if (!clip || !client_id) {
       throw new ClientParameterError();
     }
 
-    await this.model.db.saveVote(id, uid, isValid);
+    await this.model.db.saveVote(id, client_id, isValid);
 
     const glob = clip.path.replace('.mp3', '');
-    const voteFile = glob + '-by-' + uid + '.vote';
+    const voteFile = glob + '-by-' + client_id + '.vote';
 
     await this.s3
       .putObject({
@@ -100,16 +101,15 @@ export default class Clip {
    * Save the request body as an audio file.
    */
   saveClip = async (request: Request, response: Response) => {
-    const { headers, params } = request;
-    const uid = headers.uid as string;
+    const { client_id, headers, params } = request;
     const sentence = decodeURIComponent(headers.sentence as string);
 
-    if (!uid || !sentence) {
+    if (!client_id || !sentence) {
       throw new ClientParameterError();
     }
 
     // Where is our audio clip going to be located?
-    const folder = uid + '/';
+    const folder = client_id + '/';
     const filePrefix = hash(sentence);
     const clipFileName = folder + filePrefix + '.mp3';
     const sentenceFileName = folder + filePrefix + '.txt';
@@ -163,7 +163,7 @@ export default class Clip {
     console.log('file written to s3', clipFileName);
 
     await this.model.saveClip({
-      client_id: uid,
+      client_id: client_id,
       locale: params.locale,
       original_sentence_id: filePrefix,
       path: clipFileName,
@@ -175,16 +175,15 @@ export default class Clip {
   };
 
   serveRandomClips = async (
-    { headers, params, query }: Request,
+    { client_id, params, query }: Request,
     response: Response
   ): Promise<void> => {
-    const uid = headers.uid as string;
-    if (!uid) {
+    if (!client_id) {
       throw new ClientParameterError();
     }
 
     const clips = await this.bucket.getRandomClips(
-      uid,
+      client_id,
       params.locale,
       parseInt(query.count, 10) || 1
     );

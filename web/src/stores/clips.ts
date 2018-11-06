@@ -99,6 +99,7 @@ export namespace Clips {
       const id = clipId || localeClips(state).next.id;
       await state.api.saveVote(id, isValid);
       dispatch(User.actions.tallyVerification());
+      User.actions.refresh()(dispatch, getState);
       dispatch({ type: ActionType.REMOVE_CLIP, clipId: id });
       actions.refillCache()(dispatch, getState);
     },

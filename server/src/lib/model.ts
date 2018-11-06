@@ -109,8 +109,8 @@ export default class Model {
   /**
    * Update current user
    */
-  async syncUser(uid: string, data: any, sourceURL = ''): Promise<void> {
-    const user = await this.db.updateUser(uid, data);
+  async syncUser(client_id: string, data: any, sourceURL = ''): Promise<void> {
+    const user = await this.db.updateUser(client_id, data);
 
     const { BASKET_API_KEY, PROD } = getConfig();
     if (BASKET_API_KEY && user && user.send_emails && !user.basket_token) {
@@ -127,7 +127,7 @@ export default class Model {
           sync: 'Y',
         },
       });
-      this.db.updateUser(uid, {
+      this.db.updateUser(client_id, {
         ...data,
         basket_token: JSON.parse(response).token,
       });

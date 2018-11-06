@@ -32,11 +32,11 @@ export default class Bucket {
    * Grab metadata to play clip on the front end.
    */
   async getRandomClips(
-    uid: string,
+    client_id: string,
     locale: string,
     count: number
   ): Promise<{ id: number; glob: string; text: string; sound: string }[]> {
-    const clips = await this.model.findEligibleClips(uid, locale, count);
+    const clips = await this.model.findEligibleClips(client_id, locale, count);
     try {
       return await Promise.all(
         clips.map(async ({ id, path, sentence }) => {
