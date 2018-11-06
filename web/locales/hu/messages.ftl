@@ -259,6 +259,10 @@ skip-submission-description = A közreműködések beküldésekor a visszajelzé
 skip-submission-note = Megjegyzés: Továbbra is ki kell választania a Beszéljen vagy Figyeljen lehetőséget a közreműködés típusának módosításához.
 off = Ki
 on = Be
+browse-file = Fogjon és vigyen elemet, vagy <browseWrap>Tallózzon</browseWrap>
+connect-gravatar = Kapcsolódás a Gravatarral
+gravatar_not_found = Nem található gravatar az e-mail címéhez
+file_too_large = A kiválasztott fájl túl nagy
 
 ## FAQ
 
@@ -315,21 +319,6 @@ data-bundle-button = Adatkészletcsomag letöltése
 data-bundle-description = Common Voice adatok plusz az összes fenti adatkészlet.
 license = Licenc: <licenseLink>{ $license }</licenseLink>
 license-mixed = Vegyes
-
-## Record Page
-
-record-platform-not-supported = Sajnáljuk, de a platformja jelenleg nem támogatott.
-record-platform-not-supported-desktop = Asztali számítógépekre, letöltheti a legfrissebbet:
-record-platform-not-supported-ios = Az <bold>iOS</bold> felhasználók letölthetik szabad szoftver alkalmazásunkat:
-record-must-allow-microphone = Engedélyezni kell a mikrofon hozzáférést.
-record-retry = Újra
-record-no-mic-found = Nem található mikrofon.
-record-error-too-short = A felvétel túl rövid volt.
-record-error-too-long = A felvétel túl hosszú volt.
-record-error-too-quiet = A felvétel túl halk volt.
-record-submit-success = Sikeres beküldés. Akar még egyet rögzíteni?
-record-help = Kattintson az felvétel gombra majd olvassa fel hangosan az alábbi mondatot.
-record-cancel = Újrarögzítés megszakítása
 review-terms = A Common Voice használatával elfogadja a <termsLink>Jogi feltételeket</termsLink> és az <privacyLink>Adatvédelmi nyilatkozatot</privacyLink>
 terms-agree = Elfogadom
 terms-disagree = Nem fogadom el
@@ -400,6 +389,15 @@ goal-help-recording = Segítettél a Common Voice-nak elérni a napi rögzítés
 goal-help-validation = Segítettél a Common Voice-nak elérni a napi ellenőrzési céljának ({ $goalValue }) <goalPercentage></goalPercentage>-át!
 contribute-more = Készen áll még { $count } felvételre?
 record-cta = Felvétel indítása
+record-platform-not-supported = Sajnáljuk, de a platformja jelenleg nem támogatott.
+record-platform-not-supported-desktop = Asztali számítógépekre, letöltheti a legfrissebbet:
+record-platform-not-supported-ios = Az <bold>iOS</bold> felhasználók letölthetik szabad szoftver alkalmazásunkat:
+record-must-allow-microphone = Engedélyezni kell a mikrofon hozzáférést.
+record-no-mic-found = Nem található mikrofon.
+record-error-too-short = A felvétel túl rövid volt.
+record-error-too-long = A felvétel túl hosszú volt.
+record-error-too-quiet = A felvétel túl halk volt.
+record-cancel = Újrarögzítés megszakítása
 record-instruction = { $actionType } a <recordIcon></recordIcon> ikonra, és olvassa fel hangosan a mondatot
 record-stop-instruction = { $actionType } a <stopIcon></stopIcon> ikonra ha kész
 record-three-more-instruction = Még három!
