@@ -37,7 +37,7 @@ export default class API {
           (request.headers.client_id as string) ||
           // TODO: Remove next line after the headers.client_id has been up for
           // a while (to stay compatible to old client)
-          (request.header.uid as string);
+          (request.headers.uid as string);
         if (client_id) {
           if (await UserClient.hasSSO(client_id)) {
             response.sendStatus(401);
