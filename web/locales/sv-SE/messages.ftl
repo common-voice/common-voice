@@ -117,6 +117,7 @@ back-top = Tillbaka till toppen av sidan
 contribution-banner-text = Det finns nu ett nytt sätt att samarbeta
 contribution-banner-button = Ta en titt
 report-bugs-link = Hjälp oss att rapportera buggar
+logout = Logga ut
 
 ## Home Page
 
@@ -145,6 +146,9 @@ listen-paragraph = Validera donerade klipp är lika viktigt för Common Voice. L
 listen-goal-text = Klipp validerade
 hours-recorded = Timmar inspelade
 hours-validated = Timmar validerade
+voices-online = Voice på Internet
+todays-progress = Dagens framsteg
+help-reach-goal = Hjälp oss att nå { $goal }
 read-terms-q = Har du läst våra villkor?
 ready-to-record = Är du redo att donera din röst?
 all-languages = Alla språk
@@ -234,6 +238,10 @@ female = Kvinna
 other = Annat
 why-profile-title = Varför behövs en profil?
 why-profile-text = Genom att ge lite information om dig själv kan det ljud du ger till Common Voice bli mer användbart för röstigenkänningsmotorer som använder denna data för att förbättra sin noggrannhet.
+build-profile = Bygg profil
+profile = Profil
+avatar = Avatar
+preferences = Inställningar
 edit-profile = Redigera profil
 profile-create = Skapa en profil
 profile-create-success = Profil skapad!
@@ -256,6 +264,9 @@ skip-submission-description = Under inlämning av bidrag ignoreras återkoppling
 skip-submission-note = Notera: Du behöver fortfarande välja mellan att prata och lyssna för att ändra bidragstyp.
 off = Av
 on = På
+browse-file = Dra och släpp eller <browseWrap>Bläddra</browseWrap>
+connect-gravatar = Anslut med Gravatar
+gravatar_not_found = Ingen gravatar hittades för din e-postadress
 file_too_large = Den valda filen är för stor
 
 ## FAQ
