@@ -281,6 +281,7 @@ review-delete-recordings = Изтриване на моите записи
 ## Languages Overview
 
 language-speakers = Говорители
+language-meter-in-progress = Напредък
 language-total-progress = Общо
 language-search-input =
     .placeholder = Търсене
@@ -290,6 +291,8 @@ total-hours = Проверени часове
 
 ## New Contribution
 
+action-click = Изберете
+action-tap = Докоснете
 contribute = Помогнете
 shortcuts = Бързи клавиши
 contribute-more =
