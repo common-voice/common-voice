@@ -143,6 +143,7 @@ listen-paragraph = Sprawdzanie nagrań jest równie ważne dla misji projektu Co
 listen-goal-text = Sprawdzone nagrania
 hours-recorded = Nagrane godziny
 hours-validated = Sprawdzone godziny
+voices-online = Głosy aktywne teraz
 todays-progress = Dzisiejszy postęp
 help-reach-goal = Pomóż nam osiągnąć { $goal }
 read-terms-q = Nie zapomnij przeczytać warunków korzystania z serwisu.
