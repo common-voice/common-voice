@@ -117,6 +117,7 @@ back-top = 回到顶端
 contribution-banner-text = 我们刚刚推出全新的贡献方式
 contribution-banner-button = 体验一下
 report-bugs-link = 帮助报告缺陷
+logout = 退出
 
 ## Home Page
 
@@ -142,6 +143,9 @@ listen-paragraph = 验证贡献的片段对于 Common Voice 任务同样重要�
 listen-goal-text = 已验证片段
 hours-recorded = 已录制小时数
 hours-validated = 已验证小时数
+voices-online = 目前上线的语音
+todays-progress = 本日进度
+help-reach-goal = 帮助我们达成 { $goal }
 read-terms-q = 您阅读过我们的使用条款了吗？
 ready-to-record = 准备好贡献您的声音了吗？
 all-languages = 所有语言
@@ -227,6 +231,10 @@ female = 女
 other = 其他
 why-profile-title = 为什么要创建用户资料？
 why-profile-text = 凭借您提供一些有关本人的信息，您提交给 Common Voice 的音频数据能更有助于使用这些数据来提高其语音识别引擎的准确性。
+build-profile = 创建个人资料
+profile = 用户资料
+avatar = 头像
+preferences = 偏好设置
 edit-profile = 编辑用户资料
 profile-create = 创建用户资料
 profile-create-success = 成功，用户资料已创建！
