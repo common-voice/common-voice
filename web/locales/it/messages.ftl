@@ -142,6 +142,8 @@ listen-paragraph = Convalidare le registrazioni effettuate da altri è altrettan
 listen-goal-text = Registrazioni convalidate
 hours-recorded = Ore registrate
 hours-validated = Ore convalidate
+todays-progress = Progressi di oggi
+help-reach-goal = Aiutaci a raggiungere { $goal }
 read-terms-q = Hai letto le condizioni di utilizzo del servizio?
 ready-to-record = Sei pronto per donare la tua voce?
 all-languages = Tutte le lingue
@@ -229,6 +231,10 @@ female = Femmina
 other = Altro
 why-profile-title = Perché registrare un profilo?
 why-profile-text = Se fornisci queste informazioni insieme alle tue registrazioni vocali, esse verranno usate per migliorare la precisione dei motori di riconoscimento vocali.
+build-profile = Crea il tuo profilo
+profile = Profilo
+avatar = Avatar
+preferences = Preferenze
 edit-profile = Modifica profilo
 profile-create = Crea un profilo
 profile-create-success = Profilo creato con successo
@@ -251,6 +257,8 @@ skip-submission-description = Dopo aver premuto Invia durante l’invio del cont
 skip-submission-note = Nota: sarà comunque necessario selezionare Parla o Ascolta per modificare il tipo di contributo.
 off = Disattiva
 on = Attiva
+browse-file = Trascina e rilascia oppure <browseWrap>sfoglia</ browseWrap>
+file_too_large = Il file selezionato è troppo grande
 
 ## FAQ
 
@@ -307,21 +315,6 @@ data-bundle-button = Scarica bundle di dataset
 data-bundle-description = Dati di Common Voice più tutti i dataset precedenti.
 license = Licenza: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mista
-
-## Record Page
-
-record-platform-not-supported = La piattaforma in uso non è attualmente supportata.
-record-platform-not-supported-desktop = Su computer desktop puoi scaricare l’ultima versione:
-record-platform-not-supported-ios = Gli utenti <bold>iOS</bold> possono scaricare la nostra applicazione gratuita:
-record-must-allow-microphone = È necessario consentire l’accesso al microfono del dispositivo.
-record-retry = Riprova
-record-no-mic-found = Impossibile trovare il microfono.
-record-error-too-short = La registrazione è troppo breve.
-record-error-too-long = La registrazione è troppo lunga.
-record-error-too-quiet = Il volume della registrazione è troppo basso.
-record-submit-success = Registrazione salvata. Vuoi registrare qualcos’altro?
-record-help = Tocca qui per iniziare la registrazione, poi leggi a voce alta la frase soprastante.
-record-cancel = Annulla la nuova registrazione
 review-terms = Utilizzando Common Voice, accetti le nostre <termsLink>condizioni</termsLink> e l’<privacyLink>informativa sulla privacy</privacyLink>
 terms-agree = Accetto
 terms-disagree = Non accetto
@@ -392,6 +385,15 @@ goal-help-recording = Hai aiutato Common Voice a raggiungere <goalPercentage></g
 goal-help-validation = Hai aiutato Common Voice a raggiungere <goalPercentage></goalPercentage> del traguardo giornaliero { $goalValue } per le conferme.
 contribute-more = Sei pronto a farne ancora { $count }?
 record-cta = Avvia la registrazione
+record-platform-not-supported = La piattaforma in uso non è attualmente supportata.
+record-platform-not-supported-desktop = Su computer desktop puoi scaricare l’ultima versione:
+record-platform-not-supported-ios = Gli utenti <bold>iOS</bold> possono scaricare la nostra applicazione gratuita:
+record-must-allow-microphone = È necessario consentire l’accesso al microfono del dispositivo.
+record-no-mic-found = Impossibile trovare il microfono.
+record-error-too-short = La registrazione è troppo breve.
+record-error-too-long = La registrazione è troppo lunga.
+record-error-too-quiet = Il volume della registrazione è troppo basso.
+record-cancel = Annulla la nuova registrazione
 record-instruction = { $actionType }<recordIcon></recordIcon>, quindi leggi la frase ad alta voce
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> quando hai finito
 record-three-more-instruction = Ancora tre!
