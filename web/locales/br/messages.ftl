@@ -15,6 +15,7 @@ loading = O kargañ...
 
 ## Languages
 
+ace = Aseneg
 an = Aragoneg
 ar = Arabeg
 as = Asameg
@@ -37,6 +38,7 @@ en = Saozneg
 eo = Esperanto
 es = Spagnoleg
 et = Estoneg
+fa = Perseg
 fi = Finneg
 fo = Faeroeg
 fr = Galleg
@@ -57,6 +59,7 @@ ko = Koreaneg
 kpv = Komi-Zyrian
 kw = Kerneveureg
 ky = Kirgizeg
+mdf = Moksha
 mk = Makedoneg
 mn = Mongoleg
 myv = Erzya
@@ -68,7 +71,7 @@ oc = Okitaneg
 or = Oriya
 pl = Poloneg
 pt-BR = Portugaleg (Brazil)
-rm = Romancheg
+rm-sursilv = Romanch sursilvan
 ro = Roumaneg
 ru = Rusianeg
 sah = Sakha
@@ -114,6 +117,7 @@ back-top = Distreiñ d'ar c'hrec'h
 contribution-banner-text = Emaomp o paouez ouzhpennañ un doare nevez da gemer-perzh
 contribution-banner-button = Esaeit 'ta
 report-bugs-link = Skoazellit da zanevelliñ beugoù
+logout = Digevreañ
 
 ## Home Page
 
@@ -139,6 +143,9 @@ listen-paragraph = Gwiriañ klipoù roet a zo ken pouezus all evit kefridi Commo
 listen-goal-text = Klipoù gwiriet
 hours-recorded = Eurvezhioù enrollet
 hours-validated = Eurvezhioù gwiriet
+voices-online = Mouezhioù enlinenn bremañ
+todays-progress = Araokadur an deiz
+help-reach-goal = Sikourit ac'hanomp mont betek { $goal }
 read-terms-q = Ha lennet hoc'h eus on Termenoù?
 ready-to-record = Prest oc'h da reiñ ho mouezh?
 all-languages = An holl yezhoù
@@ -240,6 +247,10 @@ female = Plac'h
 other = All
 why-profile-title = Perak ur profil?
 why-profile-text = Seul dalvoudusoc'h e vo ar roadennoù son a gasit da gCommon voice evit ar mekanikoù anaout ar vouezh ma vo bet pourvezet ganeoc'h un nebeud titouroù diwar ho penn. O skoazellañ a ray d'en em varrekaat.
+build-profile = Sevel ar profil
+profile = Profil
+avatar = Avatar
+preferences = Gwellvezioù
 edit-profile = Aozañ ar profil
 profile-create = Krouiñ ur profil
 profile-create-success = Berzh, profil krouet!
@@ -262,6 +273,10 @@ skip-submission-description = E-pad ar gasadenn gendaolañ, graet e vo fae ouzh 
 skip-submission-note = Notennit eta: Ezhomm ho po c'hoazh da ziuzañ etre Komz pe selaou evit cheñch ho toare kendeurel.
 off = Lazhet
 on = Enaouet
+browse-file = Rinklañ-leuskel pe <browseWrap>Verdeit</browseWrap>
+connect-gravatar = Kevreañ gant Gravatar
+gravatar_not_found = Gravatar ebet kavet evit ho postel
+file_too_large = Re vras emañ ar restr diuzet
 
 ## FAQ
 
@@ -318,21 +333,6 @@ data-bundle-button = Pellgargañ un hollad roadennoù
 data-bundle-description = Hollad roadennoù Common Voice mui an holl holladoù roadennoù mouezh all a-us.
 license = Lañvaz: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mesket
-
-## Record Page
-
-record-platform-not-supported = Kerse eo deomp met n'eo ket skoret ho savenn evit poent.
-record-platform-not-supported-desktop = War urzhiataerioù burev e c'hallit pellgargañ ar stumm diwezhañ:
-record-platform-not-supported-ios = Implijerien <bold>iOS</bold> a c'hall pellgargañ hon arload digoust:
-record-must-allow-microphone = Ret eo deoc'h aotren ar mikrofon.
-record-retry = Klask en-dro
-record-no-mic-found = Mikrofon ebet kavet.
-record-error-too-short = Re verr e oa an enrolladenn.
-record-error-too-long = Re hir e oa an enrolladenn.
-record-error-too-quiet = Re sioul e oa an enrolladenn.
-record-submit-success = Kaset gant berzh! C'hoant ho peus da enrollañ c'hoazh?
-record-help = Pouezit evit enrollañ ha lennit ar frazenn a vouezh uhel.
-record-cancel = Nullañ an adenrollañ
 review-terms = En ur implijout Common Voice e savit a-du gant hon <termsLink>zermenoù</termsLink> hag hon <privacyLink>evezhiadennoù a-fet buhez prevez</privacyLink>
 terms-agree = Sevel a ran a-du
 terms-disagree = Ne savan ket a-du
@@ -403,6 +403,15 @@ goal-help-recording = Sikouret ho peus Common Voice da dizhout <goalPercentage><
 goal-help-validation = Sikouret ho peus Common Voice da dizhout <goalPercentage></goalPercentage> war hon fal gwiriañ pemdeziek { $goalValue }!
 contribute-more = Prest d'ober { $count } ouzhpenn?
 record-cta = Kregiñ da enrollañ
+record-platform-not-supported = Kerse eo deomp met n'eo ket skoret ho savenn evit poent.
+record-platform-not-supported-desktop = War urzhiataerioù burev e c'hallit pellgargañ ar stumm diwezhañ:
+record-platform-not-supported-ios = Implijerien <bold>iOS</bold> a c'hall pellgargañ hon arload digoust:
+record-must-allow-microphone = Ret eo deoc'h aotren ar mikrofon.
+record-no-mic-found = Mikrofon ebet kavet.
+record-error-too-short = Re verr e oa an enrolladenn.
+record-error-too-long = Re hir e oa an enrolladenn.
+record-error-too-quiet = Re sioul e oa an enrolladenn.
+record-cancel = Nullañ an adenrollañ
 record-instruction = { $actionType }<recordIcon></recordIcon> da c'houde, lennit ar frazenn a vouezh uhel
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ur wech echu
 record-three-more-instruction = Tri c'hoazh!
