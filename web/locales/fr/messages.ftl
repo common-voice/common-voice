@@ -117,6 +117,7 @@ back-top = Haut de la page
 contribution-banner-text = Nous avons ajouté une toute nouvelle façon de contribuer
 contribution-banner-button = L’essayer
 report-bugs-link = Signaler des problèmes
+logout = Déconnexion
 
 ## Home Page
 
@@ -144,6 +145,8 @@ listen-paragraph = La validation des échantillons vocaux donnés est également
 listen-goal-text = Extraits validés
 hours-recorded = Heures d’enregistrement
 hours-validated = Heures validées
+voices-online = Échantillons de voix maintenant en ligne
+help-reach-goal = Aidez-nous à atteindre { $goal }
 read-terms-q = Avez-vous lu les conditions d’utilisation ?
 ready-to-record = Êtes-vous prêt⋅e à donner de votre voix ?
 all-languages = Toutes les langues
@@ -233,6 +236,10 @@ female = Féminin
 other = Autre
 why-profile-title = Pourquoi créer un profil ?
 why-profile-text = Les informations que vous fournissez à votre sujet rendent plus utiles les données audio que vous envoyez à Common Voice. Les moteurs de reconnaissance vocale utilisent ces données pour améliorer leur précision.
+build-profile = Créer un profil
+profile = Profil
+avatar = Avatar
+preferences = Préférences
 edit-profile = Modifier le profil
 profile-create = Créer un profil
 profile-create-success = Bravo, votre profil est créé !
@@ -255,6 +262,8 @@ skip-submission-description = L’envoi de commentaires sera désactivé après 
 skip-submission-note = Remarque : vous devez encore choisir entre Parler et Écouter pour modifier votre type de contribution.
 off = Désactivé
 on = Activé
+browse-file = Glissez-déposez ou bien <browseWrap>Parcourez</browseWrap>
+file_too_large = Le fichier sélectionné est trop volumineux
 
 ## FAQ
 
@@ -311,21 +320,6 @@ data-bundle-button = Télécharger un lot de jeux de données
 data-bundle-description = Données Common Voice ainsi que tous les autres jeux de données ci-dessus.
 license = Licence : <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixte
-
-## Record Page
-
-record-platform-not-supported = Nous sommes désolés, mais votre plateforme n’est pas encore prise en charge.
-record-platform-not-supported-desktop = Pour les ordinateurs de bureau, vous pouvez télécharger le plus récent :
-record-platform-not-supported-ios = Les utilisateurs <bold>iOS</bold> peuvent télécharger notre application gratuite :
-record-must-allow-microphone = Vous devez autoriser l’accès au microphone.
-record-retry = Réessayer
-record-no-mic-found = Aucun microphone trouvé.
-record-error-too-short = L’enregistrement est trop court.
-record-error-too-long = L’enregistrement est trop long.
-record-error-too-quiet = Le volume de l’enregistrement est trop faible.
-record-submit-success = Envoi réussi ! Voulez-vous effectuer un nouvel enregistrement ?
-record-help = Appuyez pour enregistrer, puis lisez la phrase ci-dessus à haute voix.
-record-cancel = Annuler le réenregistrement
 review-terms = En utilisant Common Voice, vous acceptez nos <termsLink>Conditions d’utilisation</termsLink> et notre <privacyLink>Politique de confidentialité</privacyLink>
 terms-agree = J’accepte
 terms-disagree = Je refuse
@@ -396,6 +390,15 @@ goal-help-recording = Grâce à vous, Common Voice a atteint <goalPercentage></g
 goal-help-validation = Grâce à vous, Common Voice a atteint <goalPercentage></goalPercentage> de son objectif quotidien de { $goalValue } validations !
 contribute-more = Prêt à en faire { $count } de plus ?
 record-cta = Commencer l’enregistrement
+record-platform-not-supported = Nous sommes désolés, mais votre plateforme n’est pas encore prise en charge.
+record-platform-not-supported-desktop = Pour les ordinateurs de bureau, vous pouvez télécharger le plus récent :
+record-platform-not-supported-ios = Les utilisateurs <bold>iOS</bold> peuvent télécharger notre application gratuite :
+record-must-allow-microphone = Vous devez autoriser l’accès au microphone.
+record-no-mic-found = Aucun microphone trouvé.
+record-error-too-short = L’enregistrement est trop court.
+record-error-too-long = L’enregistrement est trop long.
+record-error-too-quiet = Le volume de l’enregistrement est trop faible.
+record-cancel = Annuler le réenregistrement
 record-instruction = { $actionType } <recordIcon></recordIcon> puis lisez la phrase à haute voix.
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> une fois terminé.
 record-three-more-instruction = Plus que trois !
