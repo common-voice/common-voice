@@ -13,7 +13,7 @@ import {
   LocaleLink,
   LocalePropsFromState,
 } from '../../locale-helpers';
-import { CameraIcon, ToggleIcon, UserIcon } from '../../ui/icons';
+import { CameraIcon, ToggleIcon, UserIcon, UserPlusIcon } from '../../ui/icons';
 import { Button } from '../../ui/ui';
 import AvatarSetup from './avatar-setup/avatar-setup';
 import InfoPage from './info/info';
@@ -68,8 +68,9 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
           {[
             {
               route: infoRoute,
-              icon: <UserIcon />,
-              id: user.account ? 'profile' : 'build-profile',
+              ...(user.account
+                ? { icon: <UserIcon />, id: 'profile' }
+                : { icon: <UserPlusIcon />, id: 'build-profile' }),
             },
             { route: avatarRoute, icon: <CameraIcon />, id: 'avatar' },
             { route: prefRoute, icon: <ToggleIcon />, id: 'preferences' },

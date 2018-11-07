@@ -109,7 +109,14 @@
 
         & a {
             padding: 10px 20px;
-            display: block;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            & svg {
+                margin-right: 12px;
+                height: 16px;
+            }
         }
 
         & hr {

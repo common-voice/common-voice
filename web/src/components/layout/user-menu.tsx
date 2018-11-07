@@ -5,7 +5,7 @@ import StateTree from '../../stores/tree';
 import { User } from '../../stores/user';
 import URLS from '../../urls';
 import { LocaleLink } from '../locale-helpers';
-import { DownIcon } from '../ui/icons';
+import { DownIcon, LogoutIcon, ToggleIcon, UserIcon } from '../ui/icons';
 import { Hr } from '../ui/ui';
 
 import './user-menu.css';
@@ -50,16 +50,35 @@ class UserMenu extends React.Component<PropsFromState> {
             <span className="triangle" />
 
             <ul>
+              {[
+                {
+                  route: URLS.PROFILE_INFO,
+                  icon: <UserIcon />,
+                  id: 'profile',
+                },
+                {
+                  route: URLS.PROFILE_PREFERENCES,
+                  icon: <ToggleIcon />,
+                  id: 'preferences',
+                },
+              ].map(({ route, icon, id }) => (
+                <li key={route}>
+                  <LocaleLink to={route}>
+                    {icon}
+                    <Localized id={id}>
+                      <span />
+                    </Localized>
+                  </LocaleLink>
+                  <Hr />
+                </li>
+              ))}
               <li>
-                <Localized id="preferences">
-                  <LocaleLink to={URLS.PROFILE_PREFERENCES} />
-                </Localized>
-                <Hr />
-              </li>
-              <li>
-                <Localized id="logout">
-                  <a href="/logout" />
-                </Localized>
+                <a href="/logout">
+                  <LogoutIcon />
+                  <Localized id="logout">
+                    <span />
+                  </Localized>
+                </a>
               </li>
             </ul>
           </div>

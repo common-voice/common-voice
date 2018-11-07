@@ -124,6 +124,26 @@ export const GithubIcon = Icon('/img/github.svg');
 
 export const KeyboardIcon = Icon('/img/keyboard.svg');
 
+export const LogoutIcon = () => (
+  <svg width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+      <path
+        id="a"
+        d="M9.011 21c0 .6-.4 1-1.001 1H3.004C1.302 22 0 20.7 0 19V3c0-1.7 1.302-3 3.004-3H8.01c.6 0 1.001.4 1.001 1s-.4 1-1.001 1H3.004c-.601 0-1.001.4-1.001 1v16c0 .6.4 1 1 1H8.01c.6 0 1.001.4 1.001 1zm10.914-9.6c.1-.2.1-.5 0-.8-.1-.1-.1-.2-.2-.3l-4.005-4a.969.969 0 0 0-1.402 0c-.4.4-.4 1 0 1.4L16.62 10H7.009c-.601 0-1.001.4-1.001 1s.4 1 1 1h9.613l-2.303 2.3c-.4.4-.4 1 0 1.4.2.2.5.3.7.3.201 0 .501-.1.702-.3l4.005-4c.1-.1.2-.2.2-.3z"
+      />
+    </defs>
+    <g fill="none" fillRule="evenodd" transform="translate(2 1)">
+      <mask id="b" fill="#fff">
+        <use xlinkHref="#a" />
+      </mask>
+      <use fill="#000" fillRule="nonzero" xlinkHref="#a" />
+      <g fill="#4A4A4A" mask="url(#b)">
+        <path d="M-2-1h24v24H-2z" />
+      </g>
+    </g>
+  </svg>
+);
+
 export const MenuIcon = ({ className = '', ...props }: any) => (
   <svg className={'menu-icon ' + className} width="10" height="10" {...props}>
     <rect className="left" x="4" y="0" width="2" height="2" />
@@ -344,25 +364,29 @@ export const ThumbsUpIcon = (props: any) => (
   </svg>
 );
 
-export const ToggleIcon = () => (
-  <svg width="24" height="24" viewBox="0 0 24 24">
-    <defs>
-      <path
-        id="toggle-a"
-        d="M16 4H8c-4.4 0-8 3.6-8 8s3.6 8 8 8h8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 14H8c-3.3 0-6-2.7-6-6s2.7-6 6-6h8c3.3 0 6 2.7 6 6s-2.7 6-6 6zM8 8c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4-1.8-4-4-4zm0 6c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"
-      />
-    </defs>
-    <g fill="none" fillRule="evenodd">
-      <mask id="toggle-b" fill="#fff">
-        <use xlinkHref="#a" />
-      </mask>
-      <use fill="#000" fillRule="nonzero" xlinkHref="#toggle-a" />
-      <g fill="#4A4A4A" mask="url(#toggle-b)">
-        <path d="M0 0h24v24H0z" />
+let toggleId = 0;
+export const ToggleIcon = () => {
+  const id = toggleId++;
+  return (
+    <svg width="24" height="24" viewBox="0 0 24 24">
+      <defs>
+        <path
+          id={'toggle-a' + id}
+          d="M16 4H8c-4.4 0-8 3.6-8 8s3.6 8 8 8h8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 14H8c-3.3 0-6-2.7-6-6s2.7-6 6-6h8c3.3 0 6 2.7 6 6s-2.7 6-6 6zM8 8c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4-1.8-4-4-4zm0 6c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"
+        />
+      </defs>
+      <g fill="none" fillRule="evenodd">
+        <mask id={'toggle-b' + id} fill="#fff">
+          <use xlinkHref={'#a' + id} />
+        </mask>
+        <use fill="#000" fillRule="nonzero" xlinkHref={'#toggle-a' + id} />
+        <g fill="#4A4A4A" mask={'url(#toggle-b' + id + ')'}>
+          <path d="M0 0h24v24H0z" />
+        </g>
       </g>
-    </g>
-  </svg>
-);
+    </svg>
+  );
+};
 
 export const VolumeIcon = (props: any) => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -383,25 +407,53 @@ export const VolumeIcon = (props: any) => (
   </svg>
 );
 
-export const UserIcon = () => (
-  <svg width="24" height="24" viewBox="0 0 24 24">
-    <defs>
-      <path
-        id="user-a"
-        d="M17 19v2c0 .6-.4 1-1 1s-1-.4-1-1v-2c0-1.7-1.3-3-3-3H5c-1.7 0-3 1.3-3 3v2c0 .6-.4 1-1 1s-1-.4-1-1v-2c0-2.8 2.2-5 5-5h7c2.8 0 5 2.2 5 5zM3.5 7c0-2.8 2.2-5 5-5s5 2.2 5 5-2.2 5-5 5-5-2.2-5-5zm2 0c0 1.7 1.3 3 3 3s3-1.3 3-3-1.3-3-3-3-3 1.3-3 3zM23 10h-2V8c0-.6-.4-1-1-1s-1 .4-1 1v2h-2c-.6 0-1 .4-1 1s.4 1 1 1h2v2c0 .6.4 1 1 1s1-.4 1-1v-2h2c.6 0 1-.4 1-1s-.4-1-1-1z"
-      />
-    </defs>
-    <g fill="none" fillRule="evenodd">
-      <mask id="user-b" fill="#fff">
-        <use xlinkHref="#user-a" />
-      </mask>
-      <use fill="#000" fillRule="nonzero" xlinkHref="#user-a" />
-      <g fill="#4A4A4A" mask="url(#user-b)">
-        <path d="M0 0h24v24H0z" />
+let userId = 0;
+export const UserIcon = () => {
+  const id = userId++;
+  return (
+    <svg width="24" height="24" viewBox="0 0 24 24">
+      <defs>
+        <path
+          id={'user-a' + id}
+          d="M18 17v2c0 .6-.4 1-1 1s-1-.4-1-1v-2c0-1.7-1.3-3-3-3H5c-1.7 0-3 1.3-3 3v2c0 .6-.4 1-1 1s-1-.4-1-1v-2c0-2.8 2.2-5 5-5h8c2.8 0 5 2.2 5 5zM4 5c0-2.8 2.2-5 5-5s5 2.2 5 5-2.2 5-5 5-5-2.2-5-5zm2 0c0 1.7 1.3 3 3 3s3-1.3 3-3-1.3-3-3-3-3 1.3-3 3z"
+        />
+      </defs>
+      <g fill="none" fillRule="evenodd" transform="translate(3 2)">
+        <mask id={'user-b' + id} fill="#fff">
+          <use xlinkHref={'#user-a' + id} />
+        </mask>
+        <use fill="#000" fillRule="nonzero" xlinkHref={'#user-a' + id} />
+        <g fill="#4A4A4A" mask={'url(#user-b' + id + ')'}>
+          <path d="M-3-2h24v24H-3z" />
+        </g>
       </g>
-    </g>
-  </svg>
-);
+    </svg>
+  );
+};
+
+let userPlusId = 0;
+export const UserPlusIcon = () => {
+  const id = userPlusId++;
+  return (
+    <svg width="24" height="24" viewBox="0 0 24 24">
+      <defs>
+        <path
+          id={'user-p-a' + id}
+          d="M17 19v2c0 .6-.4 1-1 1s-1-.4-1-1v-2c0-1.7-1.3-3-3-3H5c-1.7 0-3 1.3-3 3v2c0 .6-.4 1-1 1s-1-.4-1-1v-2c0-2.8 2.2-5 5-5h7c2.8 0 5 2.2 5 5zM3.5 7c0-2.8 2.2-5 5-5s5 2.2 5 5-2.2 5-5 5-5-2.2-5-5zm2 0c0 1.7 1.3 3 3 3s3-1.3 3-3-1.3-3-3-3-3 1.3-3 3zM23 10h-2V8c0-.6-.4-1-1-1s-1 .4-1 1v2h-2c-.6 0-1 .4-1 1s.4 1 1 1h2v2c0 .6.4 1 1 1s1-.4 1-1v-2h2c.6 0 1-.4 1-1s-.4-1-1-1z"
+        />
+      </defs>
+      <g fill="none" fillRule="evenodd">
+        <mask id={'user-p-b' + id} fill="#fff">
+          <use xlinkHref={'#user-p-a' + id} />
+        </mask>
+        <use fill="#000" fillRule="nonzero" xlinkHref={'#user-p-a' + id} />
+        <g fill="#4A4A4A" mask={'url(#user-p-b' + id + ')'}>
+          <path d="M0 0h24v24H0z" />
+        </g>
+      </g>
+    </svg>
+  );
+};
 
 const FONT_ICONS = {
   chrome: '',
