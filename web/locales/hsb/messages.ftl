@@ -231,6 +231,8 @@ profile-form-gender =
     .label = Splah
 leaderboard-visibility =
     .label = Widźomnosć lisćiny najlěpšich
+hidden = Schowany
+visible = Widźomny
 native-language =
     .label = Maćeršćina
 profile-form-submit-save = Składować
@@ -273,6 +275,7 @@ browse-file = Čehńće a pušćće abo <browseWrap>přehladujće</browseWrap>
 connect-gravatar = Z gravatarom zwjazać
 gravatar_not_found = Njeje so žadyn gravatar za wašu e-mejl namakał
 file_too_large = Wubrana dataja je přewulka
+manage-subscriptions = Abonementy rjadować
 
 ## FAQ
 
