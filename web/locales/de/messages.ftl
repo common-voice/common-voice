@@ -223,6 +223,8 @@ profile-form-gender =
     .label = Geschlecht
 leaderboard-visibility =
     .label = Sichtbarkeit der Bestenliste
+hidden = Versteckt
+visible = Sichchtbar
 native-language =
     .label = Muttersprache
 profile-form-submit-save = Speichern
@@ -265,6 +267,7 @@ browse-file = Ziehen und Ablegen oder <browseWrap>Durchsuchen</browseWrap>
 connect-gravatar = Mit Gravatar verbinden
 gravatar_not_found = Für Ihre E-Mail-Adresse wurde kein Gravatar gefunden
 file_too_large = Die ausgewählte Datei ist zu groß
+manage-subscriptions = Abonnements verwalten
 
 ## FAQ
 
