@@ -261,6 +261,7 @@ browse-file = 拖放至此，或者<browseWrap>浏览</browseWrap>
 connect-gravatar = 连接 Gravatar
 gravatar_not_found = 通过您的电子邮件地址未找到 Gravatar
 file_too_large = 所选文件太大
+manage-subscriptions = 管理订阅
 
 ## FAQ
 
