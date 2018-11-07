@@ -46,14 +46,20 @@
 
     & .connect {
         border: 1px solid rgba(0, 0, 0, 0.05);
-        padding: 16px 0;
+        padding: 16px 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         font-family: var(--base-font-family);
         font-size: var(--font-size);
         font-weight: 600;
 
-        &.active {
-            background: var(--black);
-            color: var(--white);
+        & .link path {
+            fill: var(--blue);
+        }
+
+        & .check path {
+            fill: var(--valid-green);
         }
     }
 }

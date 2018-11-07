@@ -27,7 +27,7 @@ export const CameraIcon = () => (
 );
 
 export const CheckIcon = (props: any) => (
-  <svg width="24" height="24" viewBox="0 0 24 24">
+  <svg width="24" height="24" viewBox="0 0 24 24" {...props}>
     <defs>
       <path
         id="check-path"
@@ -123,6 +123,29 @@ export const DownloadIcon = (props: any) => (
 export const GithubIcon = Icon('/img/github.svg');
 
 export const KeyboardIcon = Icon('/img/keyboard.svg');
+
+let linkId = 0;
+export const LinkIcon = (props: any) => {
+  const id = linkId++;
+  return (
+    <svg width="24" height="24" viewBox="0 0 24 24" {...props}>
+      <defs>
+        <path
+          id={'a' + id}
+          d="M10 11c0 .6-.4 1-1 1H6c-3.3 0-6-2.7-6-6s2.7-6 6-6h3c.6 0 1 .4 1 1s-.4 1-1 1H6C3.8 2 2 3.8 2 6s1.8 4 4 4h3c.6 0 1 .4 1 1zm8-11h-3c-.6 0-1 .4-1 1s.4 1 1 1h3c2.2 0 4 1.8 4 4s-1.8 4-4 4h-3c-.6 0-1 .4-1 1s.4 1 1 1h3c3.3 0 6-2.7 6-6s-2.7-6-6-6zM7 6c0 .6.4 1 1 1h8c.6 0 1-.4 1-1s-.4-1-1-1H8c-.6 0-1 .4-1 1z"
+        />
+      </defs>
+      <g fill="none" fillRule="evenodd" transform="translate(0 6)">
+        <mask id={'b' + id} fill="#fff">
+          <use xlinkHref={'#a' + id} />
+        </mask>
+        <g fill="#4A4A4A" mask={'url(#b' + id + ')'}>
+          <path d="M0-6h24v24H0z" />
+        </g>
+      </g>
+    </svg>
+  );
+};
 
 export const LogoutIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">

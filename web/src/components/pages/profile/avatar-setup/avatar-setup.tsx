@@ -9,6 +9,7 @@ import API from '../../../../services/api';
 import { Notifications } from '../../../../stores/notifications';
 import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
+import { CheckIcon, LinkIcon } from '../../../ui/icons';
 
 import './avatar-setup.css';
 
@@ -121,27 +122,33 @@ class AvatarSetup extends React.Component<Props> {
           </label>
         </div>
 
-        <Localized id="connect-gravatar">
-          <button
-            className={'connect ' + (avatarType == 'gravatar' ? 'active' : '')}
-            type="button"
-            onClick={async () => {
-              this.setState({ isSaving: true });
-              const { error } = await api.saveAvatar(
-                avatarType == 'gravatar' ? 'default' : 'gravatar'
-              );
+        <button
+          className="connect"
+          type="button"
+          onClick={async () => {
+            this.setState({ isSaving: true });
+            const { error } = await api.saveAvatar(
+              avatarType == 'gravatar' ? 'default' : 'gravatar'
+            );
 
-              if (['not_found'].includes(error)) {
-                addNotification(getString('gravatar_' + error));
-              }
+            if (['not_found'].includes(error)) {
+              addNotification(getString('gravatar_' + error));
+            }
 
-              if (!error) {
-                refreshUser();
-              }
-              this.setState({ isSaving: false });
-            }}
-          />
-        </Localized>
+            if (!error) {
+              refreshUser();
+            }
+            this.setState({ isSaving: false });
+          }}>
+          <Localized id="connect-gravatar">
+            <span />
+          </Localized>{' '}
+          {avatarType == 'gravatar' ? (
+            <CheckIcon className="check" />
+          ) : (
+            <LinkIcon className="link" />
+          )}
+        </button>
       </fieldset>
     );
   }
