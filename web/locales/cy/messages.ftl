@@ -117,6 +117,7 @@ back-top = Nôl i'r Brig
 contribution-banner-text = Rydym newydd lansio profiad cyfrannwr newydd
 contribution-banner-button = Cymrwch olwg
 report-bugs-link = Adrodd ar wallau
+logout = Allgofnodi
 
 ## Home Page
 
@@ -144,6 +145,9 @@ listen-paragraph = Mae dilysu clipiau sydd wedi eu cyfrannu yr un mor bwysig i y
 listen-goal-text = Clipiau wedi'u dilysu
 hours-recorded = Oriau wedi'u Recordio
 hours-validated = Oriau wedi'u Dilysu
+voices-online = Lleisiau Ar-lein Nawr
+todays-progress = Cynnydd Heddiw
+help-reach-goal = Helpwch ni i gyrraedd { $goal }
 read-terms-q = Ydych chi wedi darllen ein Amodau?
 ready-to-record = Barod i gyfrannu eich llais?
 all-languages = Pob Iaith
@@ -249,6 +253,10 @@ female = Benyw
 other = Arall
 why-profile-title = Pam proffil?
 why-profile-text = Drwy ddarparu rhywfaint o wybodaeth amdanoch chi eich hun, bydd y data sain rydych yn ei gyflwyno i Common Voice yn fwy defnyddiol i beiriannau Adnabod Lleferydd sy'n defnyddio'r data hwn i fod yn fwy cywir.
+build-profile = Adeiladu Proffil
+profile = Proffil
+avatar = Afatar
+preferences = Dewisiadau
 edit-profile = Golygu Proffil
 profile-create = Creu proffil
 profile-create-success = Llwyddiant, wedi creu proffil!
