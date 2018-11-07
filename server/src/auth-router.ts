@@ -61,9 +61,7 @@ if (DOMAIN) {
     if (options.audience && typeof options.audience === 'string') {
       params.audience = options.audience;
     }
-    if (options.prompt && typeof options.prompt === 'string') {
-      params.prompt = options.prompt;
-    }
+    params.prompt = 'select_account';
 
     params.action = 'signup';
 
