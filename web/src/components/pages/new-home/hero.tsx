@@ -3,15 +3,18 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import { DAILY_GOAL } from '../../../constants';
 import API from '../../../services/api';
+import { trackHomeNew } from '../../../services/tracker';
+import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';
+import URLS from '../../../urls';
+import { LocaleLink } from '../../locale-helpers';
 import { PlayLink, RecordLink } from '../../primary-buttons/primary-buttons';
 
 import './hero.css';
-import URLS from '../../../urls';
-import { LocaleLink } from '../../locale-helpers';
 
 interface PropsFromState {
   api: API;
+  locale: Locale.State;
 }
 
 type State = {
@@ -82,9 +85,10 @@ class Hero extends React.Component<
   }
 
   render() {
-    const { type, status, onShow, onHide } = this.props;
+    const { locale, onHide, onShow, status, type } = this.props;
     const { count } = this.state;
     const isSpeak = type == 'speak';
+    const PrimaryLink = isSpeak ? RecordLink : PlayLink;
     return (
       <div
         className={['hero-box', type, status].join(' ')}
@@ -110,7 +114,7 @@ class Hero extends React.Component<
           </div>
         </div>
         <div className="column cta">
-          {isSpeak ? <RecordLink /> : <PlayLink />}
+          <PrimaryLink onClick={() => trackHomeNew(type, locale)} />
           <div {...this.getToggleableProps(1, 'line ' + type)} />
           <div {...this.getToggleableProps(2)}>
             <Localized id="help-reach-goal" $goal={DAILY_GOAL[type]}>
@@ -141,8 +145,9 @@ class Hero extends React.Component<
   }
 }
 
-const mapStateToProps = ({ api }: StateTree) => ({
+const mapStateToProps = ({ api, locale }: StateTree) => ({
   api,
+  locale,
 });
 
 export default connect<PropsFromState>(mapStateToProps)(Hero);

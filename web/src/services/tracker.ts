@@ -4,6 +4,8 @@ declare const ga: any;
 
 function track(
   category:
+    | 'Home'
+    | 'Home-New'
     | 'Navigation'
     | 'Recording'
     | 'Listening'
@@ -16,6 +18,20 @@ function track(
   if (isProduction() && typeof ga === 'function') {
     ga('send', 'event', category, action, locale);
   }
+}
+
+export function trackHome(
+  action: 'speak' | 'listen' | 'read-more',
+  locale: string
+) {
+  track('Home', action, locale);
+}
+
+export function trackHomeNew(
+  action: 'speak' | 'listen' | 'read-more' | 'metric-locale-change',
+  locale: string
+) {
+  track('Home-New', action, locale);
 }
 
 export function trackRecording(

@@ -1,5 +1,9 @@
 import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
+import { connect } from 'react-redux';
+import { trackHomeNew } from '../../../services/tracker';
+import { Locale } from '../../../stores/locale';
+import StateTree from '../../../stores/tree';
 import { ContributableLocaleLock } from '../../locale-helpers';
 import { RecordLink } from '../../primary-buttons/primary-buttons';
 import RequestLanguageModal from '../../request-language-modal/request-language-modal';
@@ -10,13 +14,17 @@ import './home.css';
 
 type HeroType = 'speak' | 'listen';
 
+interface PropsFromState {
+  locale: Locale.State;
+}
+
 type State = {
   activeHero: null | HeroType;
   showRequestLanguageModal: boolean;
   showWallOfText: boolean;
 };
 
-export default class HomePage extends React.Component<{}, State> {
+class HomePage extends React.Component<PropsFromState, State> {
   state: State = {
     activeHero: null,
     showRequestLanguageModal: false,
@@ -31,6 +39,7 @@ export default class HomePage extends React.Component<{}, State> {
     }));
 
   render() {
+    const { locale } = this.props;
     const { activeHero, showRequestLanguageModal, showWallOfText } = this.state;
     return (
       <div className="home">
@@ -102,9 +111,10 @@ export default class HomePage extends React.Component<{}, State> {
                 <button
                   className="show-more"
                   type="button"
-                  onClick={() =>
-                    this.setState({ showWallOfText: !showWallOfText })
-                  }
+                  onClick={() => {
+                    this.setState({ showWallOfText: !showWallOfText });
+                    trackHomeNew('read-more', locale);
+                  }}
                 />
               </Localized>
             </div>
@@ -125,7 +135,7 @@ export default class HomePage extends React.Component<{}, State> {
               render={({ isContributable }: any) =>
                 isContributable ? (
                   <React.Fragment>
-                    <RecordLink />
+                    <RecordLink onClick={() => trackHomeNew('speak', locale)} />
                     <Localized id="ready-to-record">
                       <h1 />
                     </Localized>
@@ -162,3 +172,7 @@ export default class HomePage extends React.Component<{}, State> {
     );
   }
 }
+
+export default connect<PropsFromState>(({ locale }: StateTree) => ({ locale }))(
+  HomePage
+);

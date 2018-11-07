@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { connect } from 'react-redux';
 import { withRouter, RouteComponentProps } from 'react-router';
 const { LocalizationProvider, Localized } = require('fluent-react/compat');
 import URLS from '../../../urls';
@@ -7,16 +8,16 @@ import {
   localeConnector,
   LocalePropsFromState,
 } from '../../locale-helpers';
+import API from '../../../services/api';
+import { trackHome } from '../../../services/tracker';
+import { createCrossLocaleBundleGenerator } from '../../../services/localization';
+import StateTree from '../../../stores/tree';
 import Validator from '../../validator';
 import RequestLanguageModal from '../../request-language-modal/request-language-modal';
 import { RecordIcon } from '../../ui/icons';
 import { CardAction, Hr } from '../../ui/ui';
 import GetInvolvedModal from '../languages/get-involved-modal';
 import ProjectStatus from './project-status';
-import { createCrossLocaleBundleGenerator } from '../../../services/localization';
-import { connect } from 'react-redux';
-import StateTree from '../../../stores/tree';
-import API from '../../../services/api';
 
 interface PropsFromState {
   api: API;
@@ -110,7 +111,12 @@ class HomePage extends React.Component<Props, State> {
             render={({ isContributable }: any) => (
               <div className="home-cta-container">
                 {isContributable ? (
-                  <CardAction className="home-cta" to={URLS.SPEAK}>
+                  <CardAction
+                    className="home-cta"
+                    to={URLS.SPEAK}
+                    onClick={() => {
+                      trackHome('speak', locale);
+                    }}>
                     <div>
                       <RecordIcon />
                     </div>
@@ -158,7 +164,10 @@ class HomePage extends React.Component<Props, State> {
             <Localized id="show-wall-of-text">
               <a
                 id="show-more-button"
-                onClick={() => this.setState({ showWallOfText: true })}
+                onClick={() => {
+                  this.setState({ showWallOfText: true });
+                  trackHome('read-more', locale);
+                }}
               />
             </Localized>
           )}

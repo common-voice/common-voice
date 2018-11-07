@@ -6,14 +6,13 @@ import {
   withLocalization,
 } from 'fluent-react/compat';
 import * as React from 'react';
-import { Component, SVGProps } from 'react';
 import { connect } from 'react-redux';
+const { Tooltip } = require('react-tippy');
 import API from '../../../services/api';
+import { trackHomeNew } from '../../../services/tracker';
 import StateTree from '../../../stores/tree';
 
 import './stats.css';
-
-const { Tooltip } = require('react-tippy');
 
 const contributableLocales = require('../../../../../locales/contributable.json') as string[];
 
@@ -51,7 +50,7 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
       tickCount: number;
       tickMultipliers: number[];
     } & PropsFromState &
-      SVGProps<SVGElement>,
+      React.SVGProps<SVGElement>,
     State
   > {
     state: State = {
@@ -95,6 +94,7 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
     };
 
     changeLocale = (locale: string) => {
+      trackHomeNew('metric-locale-change', locale);
       this.setState(
         { data: [], max: this.props.tickCount - 1, locale },
         this.updateData
@@ -340,7 +340,7 @@ export namespace ClipsStats {
 
   type ClipsStatsState = { hoveredIndex: number };
 
-  class BareRoot extends Component<LocalizationProps, ClipsStatsState> {
+  class BareRoot extends React.Component<LocalizationProps, ClipsStatsState> {
     state: ClipsStatsState = { hoveredIndex: null };
 
     pathRef: any = React.createRef();
