@@ -117,6 +117,7 @@ back-top = Slědk górjej
 contribution-banner-text = Smy rowno startowali nowu móžnosć za sobuźěło
 contribution-banner-button = Rozglědajśo se
 report-bugs-link = Dajśo programowe zmólki k wěsći
+logout = Wótzjawiś
 
 ## Home Page
 
@@ -142,6 +143,9 @@ listen-paragraph = Wobwěsćowanje pósććonych klipow jo rowno tak wažne za m
 listen-goal-text = Wobwěsćone klipy
 hours-recorded = Nagraśowe góźiny
 hours-validated = Wobwěsćone góźiny
+voices-online = Głose něnto online
+todays-progress = Źinsajšny póstup
+help-reach-goal = Pomagajśo nam, { $goal } dojśpiś
 read-terms-q = Sćo pśecytał naše wužywańske wuměnjenja?
 ready-to-record = Sćo gótowy, swój głos pósćiś?
 all-languages = Wšykne rěcy
@@ -227,6 +231,8 @@ profile-form-gender =
     .label = Rod
 leaderboard-visibility =
     .label = Wiźobnosć lisćiny nejlěpšych
+hidden = Schowany
+visible = Widobny
 native-language =
     .label = Mamina rěc
 profile-form-submit-save = Składowaś
@@ -239,6 +245,10 @@ female = Žeńscyny
 other = Druge
 why-profile-title = Cogodla profil?
 why-profile-text = Dajśo nam někotare informacije wó sebje, aby awdiodaty, kótarež na Common Voice sćelośo, wužytnjejše byli, aby se dokradnosć systemow spóznawanja rěcy pólěpšyła.
+build-profile = Profil natwariś
+profile = Profil
+avatar = Awatar
+preferences = Nastajenja
 edit-profile = Profil wobźěłaś
 profile-create = Profil załožyś
 profile-create-success = Profil jo se wuspěšnje załožył!
@@ -265,6 +275,7 @@ browse-file = Śěgniśo a pušććo abo <browseWrap>pśeglědujśo</browseWrap>
 connect-gravatar = Z gravatarom zwězaś
 gravatar_not_found = Njejo se namakał žeden gravatar za wašu e-mail
 file_too_large = Wubrana dataja jo pśewjelika
+manage-subscriptions = Abonementy zastojaś
 
 ## FAQ
 
