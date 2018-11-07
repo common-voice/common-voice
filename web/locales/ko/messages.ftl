@@ -59,6 +59,7 @@ ko = 한국어
 kpv = 코미지리안어
 kw = 콘월어
 ky = 키르기스스탄어
+mdf = 목샤어
 mk = 마케도니아어
 mn = 몽골어
 myv = 에르자어
@@ -70,6 +71,7 @@ oc = 오크어
 or = 오리야어
 pl = 폴란드어
 pt-BR = 포르투갈어(브라질)
+rm-sursilv = 로만슈 수르실반어
 ro = 루마니아어
 ru = 러시아어
 sah = 사하어
@@ -207,6 +209,8 @@ profile-form-age =
     .label = 나이
 profile-form-gender =
     .label = 성별
+native-language =
+    .label = 모국어
 profile-form-submit-save = 저장
 profile-form-submit-saved = 저장됨
 profile-keep-data = 데이터 보관
@@ -217,12 +221,23 @@ female = 여자
 other = 그외
 why-profile-title = 왜 사용자 정보가 필요한가요?
 why-profile-text = 사용자에 대한 정보를 제공함으로써 Common Voice에 제출하는 오디오 데이터는 이 데이터를 사용하여 정확성을 향상시키는 음성 인식 엔진에 더 유용하게 사용됩니다.
+profile = 프로필
 edit-profile = 프로필 고치기
 profile-create = 프로필 만들기
 profile-create-success = 성공, 프로필이 만들어졌습니다!
 profile-close = 닫기
 profile-clear-modal = 프로필 데이터를 지우면 사용자 인구 통계 정보가 녹음된 클립과 함께 더 이상 Common Voice에 보내지지 않습니다.
 profile-explanation = 프로필을 사용하여 진행 상황을 파악하고 음성 데이터의 정확성을 높일 수 있습니다.
+thanks-for-account = 계정을 확인해 주셔서 감사 드리며 이제 프로필을 작성하겠습니다.
+why-demographic = 왜 이 문제가 중요합니까?
+login-identity = 로그인 정보
+edit = 수정
+email-subscriptions = 이메일 구독
+download-profile = 내 데이타 다운로드
+contribution-experience = 기여 경험
+skip-submission-feedback = 제출 피드백 건너뛰기
+off = 꺼짐
+on = 켜짐
 
 ## FAQ
 
@@ -279,21 +294,6 @@ data-bundle-button = 데이터 세트 번들 다운로드
 data-bundle-description = Common Voice 데이터에는 위의 모든 다른 음성 데이타 세트가 포함됩니다.
 license = 라이센스: <licenseLink>{ $license }</licenseLink>
 license-mixed = 혼합됨
-
-## Record Page
-
-record-platform-not-supported = 죄송합니다. 현재 지원되지 않는 플랫폼입니다.
-record-platform-not-supported-desktop = 데스크 톱 컴퓨터에서 최신 버전을 다운로드할 수 있음:
-record-platform-not-supported-ios = <bold>iOS</bold> 사용자는 무료앱을 다운받을 수 있음:
-record-must-allow-microphone = 마이크 사용 접근을 허용해야 합니다.
-record-retry = 다시 시도
-record-no-mic-found = 마이크를 찾을 수 없습니다.
-record-error-too-short = 녹음이 너무 짧습니다.
-record-error-too-long = 녹음이 너무 깁니다.
-record-error-too-quiet = 녹음이 너무 조용합니다.
-record-submit-success = 제출에 성공했습니다! 다시 녹음하기를 원하시나요?
-record-help = 녹음을 탭하고 위의 문장을 소리 내어 읽어 주세요.
-record-cancel = 재 녹음 취소
 review-terms = Common Voice를 사용하면 <termsLink>이용약관</termsLink>과 <privacyLink>개인정보 보호 정책</privacyLink>에 동의한 것으로 간주합니다.
 terms-agree = 동의합니다
 terms-disagree = 동의하지 않습니다
@@ -365,6 +365,15 @@ contribute-more =
        *[other] { $count } 번 더 할 준비가 되셨습니까?
     }
 record-cta = 녹음 시작
+record-platform-not-supported = 죄송합니다. 현재 지원되지 않는 플랫폼입니다.
+record-platform-not-supported-desktop = 데스크 톱 컴퓨터에서 최신 버전을 다운로드할 수 있음:
+record-platform-not-supported-ios = <bold>iOS</bold> 사용자는 무료앱을 다운받을 수 있음:
+record-must-allow-microphone = 마이크 사용 접근을 허용해야 합니다.
+record-no-mic-found = 마이크를 찾을 수 없습니다.
+record-error-too-short = 녹음이 너무 짧습니다.
+record-error-too-long = 녹음이 너무 깁니다.
+record-error-too-quiet = 녹음이 너무 조용합니다.
+record-cancel = 재 녹음 취소
 record-instruction = { $actionType } <recordIcon></recordIcon> 후에 문장을 큰 소리로 읽어주세요
 record-stop-instruction = 끝나면 { $actionType } <stopIcon></stopIcon> 하세요
 record-three-more-instruction = 세번 남았어요!
