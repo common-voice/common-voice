@@ -63,7 +63,7 @@ interface Props
 
 interface State {
   username: string;
-  visible: boolean;
+  visible: number | string;
   age: string;
   gender: string;
   locales: { locale: string; accent: string }[];
@@ -87,7 +87,7 @@ class ProfilePage extends React.Component<Props, State> {
 
     this.state = {
       sendEmails: account ? Boolean(account.basket_token) : true,
-      visible: false,
+      visible: 0,
       locales: [],
       ...pick(props.user, 'age', 'username', 'gender'),
       ...(account
@@ -167,14 +167,8 @@ class ProfilePage extends React.Component<Props, State> {
         async () => {
           await Promise.all([
             api.saveAccount({
-              ...pick(
-                this.state,
-                'username',
-                'visible',
-                'age',
-                'gender',
-                'locales'
-              ),
+              ...pick(this.state, 'username', 'age', 'gender', 'locales'),
+              visible: JSON.parse(this.state.visible.toString()),
               client_id: user.userId,
             }),
             !(user.account && user.account.basket_token) &&
@@ -243,14 +237,26 @@ class ProfilePage extends React.Component<Props, State> {
               onChange={this.handleChangeFor('username')}
             />
           </Localized>
+
           <Localized id="leaderboard-visibility" attrs={{ label: true }}>
-            <LabeledInput />
+            <LabeledSelect
+              value={visible.toString()}
+              onChange={this.handleChangeFor('visible')}>
+              <Localized id="hidden">
+                <option value={0} />
+              </Localized>
+              <Localized id="visible">
+                <option value={1} />
+              </Localized>
+            </LabeledSelect>
           </Localized>
+
           <Localized id="profile-form-age" attrs={{ label: true }}>
             <LabeledSelect value={age} onChange={this.handleChangeFor('age')}>
               <Options>{AGES}</Options>
             </LabeledSelect>
           </Localized>
+
           <Localized id="profile-form-gender" attrs={{ label: true }}>
             <LabeledSelect
               value={gender}
