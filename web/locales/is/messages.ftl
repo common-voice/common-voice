@@ -117,6 +117,7 @@ back-top = Til baka
 contribution-banner-text = Við höfum nýlega sett nýja upplifun af stað
 contribution-banner-button = Skoða
 report-bugs-link = Tilkynna tæknivillur
+logout = Útskrá
 
 ## Home Page
 
@@ -149,6 +150,8 @@ listen-paragraph = Að staðfesta aðsendar raddupptökur er jafn mikilvægt fyr
 listen-goal-text = Staðfestar raddupptökur
 hours-recorded = Klukkustundir hljóðritaðar
 hours-validated = Klukkustundir staðfestar
+voices-online = Raddir í loftinu
+todays-progress = Árangur dagsins
 read-terms-q = Hefurðu lesið skilmálana?
 ready-to-record = Tilbúinn að leggja fram raddsýni?
 all-languages = Öll tungumál
@@ -238,6 +241,7 @@ female = Kvenkyns
 other = Annað
 why-profile-title = Hvers vegna prófíl?
 why-profile-text = Með því að útvega einhverjar upplýsingar um sjálfan þig, þá verða hljóðgögnin sem þú sendir inn í Samróm gagnlegri í talgreiningarvélar sem nota þessi gögn til þess að bæta á nákvæmni.
+profile = Prófíll
 edit-profile = Breyta prófíl
 profile-create = Búa til prófíl
 profile-create-success = Gerð prófíls tókst!
@@ -303,7 +307,7 @@ data-download-license = Leyfi: <licenseLink>CC-0</licenseLink>
 data-download-modal = Þú ert í þann mund að niðurhala <size>{ $size }GB</size>, halda áfram?
 data-subtitle = Við erum að þróa opið gagnasafn fyrir almenning úr raddgögnum sem allir geta notað til að þjálfa raddstýrð forrit.
 data-explanatory-text = Við trúum að stór raddgagnasöfn sem eru aðgengileg almenningi hvetji til nýsköpunar og heilbrigðrar samkeppni í raddbúnaði sem byggir á vélagreind. Þetta er alþjóðlegt átak og öllum er boðið að taka þátt. Okkar markmið er að stuðla að alhliða raddtækni, sem endurspeglar fjölbreytileika raddsýnanna sem eru fengin alls staðar úr heiminum.
-data-get-started = <speechBlogLink>Byrja á Raddgreiningu</speechBlogLink>
+data-get-started = <speechBlogLink>Byrjaðu að raddgreina</speechBlogLink>
 data-other-title = Önnur raddgagnasöfn...
 data-other-goto = Fara í { $name }
 data-other-download = Niðurhala gögnum
@@ -316,21 +320,6 @@ data-bundle-button = Niðurhala gagnasafnapakka
 data-bundle-description = Gögn Samróms og öll gagnasöfnin að ofan.
 license = Leyfi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandað
-
-## Record Page
-
-record-platform-not-supported = Því miður er ekki stuðningur við tölvukerfið þitt að svo stöddu.
-record-platform-not-supported-desktop = Á borðtölvum er hægt að niðurhala nýjasta:
-record-platform-not-supported-ios = <bold>iOS</bold> notendur geta niðurhalað fría smáforritinu okkar:
-record-must-allow-microphone = Þú þarft að leyfa aðgang að hljóðnemanum.
-record-retry = Reyna aftur
-record-no-mic-found = Hljóðnemi fannst ekki.
-record-error-too-short = Upptakan var of stutt.
-record-error-too-long = Upptakan var of löng.
-record-error-too-quiet = Ekki heyrðist nógu vel í upptökunni.
-record-submit-success = Upptaka send inn! Viltu taka upp aftur?
-record-help = Smelltu hér til að setja upptöku í gang og lestu svo setninguna að ofan upphátt.
-record-cancel = Hætta við að endurtaka upptöku
 review-terms = Með notkun Samróms samþykkir þú <termsLink>skilmála</termsLink> og <privacyLink>persónuverndarstefnu</privacyLink> verkefnisins
 terms-agree = Ég samþykki
 terms-disagree = Ég samþykki ekki
@@ -405,6 +394,15 @@ contribute-more =
        *[other] Til í að gera { $count } í viðbót?
     }
 record-cta = Hefja upptöku
+record-platform-not-supported = Því miður er ekki stuðningur við tölvukerfið þitt að svo stöddu.
+record-platform-not-supported-desktop = Á borðtölvum er hægt að niðurhala nýjasta:
+record-platform-not-supported-ios = <bold>iOS</bold> notendur geta niðurhalað fría smáforritinu okkar:
+record-must-allow-microphone = Þú þarft að leyfa aðgang að hljóðnemanum.
+record-no-mic-found = Hljóðnemi fannst ekki.
+record-error-too-short = Upptakan var of stutt.
+record-error-too-long = Upptakan var of löng.
+record-error-too-quiet = Ekki heyrðist nógu vel í upptökunni.
+record-cancel = Hætta við að endurtaka upptöku
 record-instruction = { $actionType }<recordIcon></recordIcon> og lestu svo setninguna upphátt
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> stöðva upptöku
 record-three-more-instruction = Þrjár eftir!
