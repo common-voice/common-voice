@@ -117,6 +117,7 @@ back-top = Nei boppe
 contribution-banner-text = Wy hawwe krekt in nije ûnderfining foar meiwurkers lansearre
 contribution-banner-button = Sjoch ris rûn
 report-bugs-link = Rapportearje bugs
+logout = Ofmelde
 
 ## Home Page
 
@@ -152,6 +153,8 @@ listen-paragraph = Falidaasje fan donearre fragminten is krekt sa wichtich as de
 listen-goal-text = Falidearre fragminten
 hours-recorded = Opnommen oeren
 hours-validated = Falidearre oeren
+voices-online = Stimmen no online
+todays-progress = Foarútgong fan hjoed
 read-terms-q = Hawwe jo ús Betingsten lêzen?
 ready-to-record = Klear om jo stim te donearjen?
 all-languages = Alle talen
@@ -241,6 +244,7 @@ female = Frau
 other = Oars
 why-profile-title = Wêrom in profyl?
 why-profile-text = Troch wat ynformaasje oer josels te jaan, sille de troch jo by Common Voice yntsjinne audiogegevens better brûkber wêze foar spraakwerkenningsmasinen dy't dizze gegevens brûke om de presizens te ferbetterjen.
+profile = Profyl
 edit-profile = Profyl bewurkje
 profile-create = Profyl oanmeitsje
 profile-create-success = Profyl mei sukses oanmakke!
