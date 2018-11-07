@@ -12,20 +12,26 @@ import { User } from '../../../../stores/user';
 import { Hr, LinkButton, LabeledInput } from '../../../ui/ui';
 
 import './preferences.css';
+import { SettingsIcon } from '../../../ui/icons';
 
 const Section = ({
   title,
+  titleAction,
   className = '',
   children,
   ...props
 }: {
   title: string;
+  titleAction?: React.ReactNode;
   className?: string;
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }) => (
   <section className={'user-preference ' + className} {...props}>
-    <h2>{title}</h2>
-    <div className="section-body">{children}</div>
+    <div className="section-title">
+      <h2>{title}</h2>
+      {titleAction}
+    </div>
+    {children && <div className="section-body">{children}</div>}
   </section>
 );
 
@@ -66,18 +72,25 @@ class Preferences extends React.Component<Props> {
           </Localized>
         </Section>
 
-        <Section title={getString('email-subscriptions')}>
-          {account.basket_token ? (
-            <a
-              href={`https://www.mozilla.org/${
-                firstLanguage ? firstLanguage.locale + '/' : ''
-              }newsletter/existing/${account.basket_token}`}>
-              Manage email settings
-            </a>
-          ) : (
-            <React.Fragment />
-          )}
-        </Section>
+        {account.basket_token && (
+          <Section
+            title={getString('email-subscriptions')}
+            titleAction={
+              <a
+                className="manage-subscriptions"
+                href={`https://www.mozilla.org/${
+                  firstLanguage ? firstLanguage.locale + '/' : ''
+                }newsletter/existing/${account.basket_token}`}
+                target="__blank"
+                rel="noopener noreferrer">
+                <Localized id="manage-subscriptions">
+                  <span />
+                </Localized>
+                <SettingsIcon />
+              </a>
+            }
+          />
+        )}
 
         <Section title={getString('contribution-experience')} className="box">
           <Localized id="skip-submission-feedback">

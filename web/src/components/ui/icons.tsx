@@ -270,6 +270,26 @@ export const RecordIcon = Icon('/img/record.svg', 'record');
 
 export const SearchIcon = Icon('/img/search.svg', 'search');
 
+export const SettingsIcon = () => (
+  <svg width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+      <path
+        id="settings-a"
+        d="M3 8V1c0-.6.4-1 1-1s1 .4 1 1v7c0 .6-.4 1-1 1s-1-.4-1-1zm9 1c-.6 0-1 .4-1 1v9c0 .6.4 1 1 1s1-.4 1-1v-9c0-.6-.4-1-1-1zm8 2c.6 0 1-.4 1-1V1c0-.6-.4-1-1-1s-1 .4-1 1v9c0 .6.4 1 1 1zM7 11H1c-.6 0-1 .4-1 1s.4 1 1 1h2v6c0 .6.4 1 1 1s1-.4 1-1v-6h2c.6 0 1-.4 1-1s-.4-1-1-1zm8-6h-2V1c0-.6-.4-1-1-1s-1 .4-1 1v4H9c-.6 0-1 .4-1 1s.4 1 1 1h6c.6 0 1-.4 1-1s-.4-1-1-1zm8 8h-6c-.6 0-1 .4-1 1s.4 1 1 1h2v4c0 .6.4 1 1 1s1-.4 1-1v-4h2c.6 0 1-.4 1-1s-.4-1-1-1z"
+      />
+    </defs>
+    <g fill="none" fillRule="evenodd" transform="translate(0 2)">
+      <mask id="settings-b" fill="#fff">
+        <use xlinkHref="#settings-a" />
+      </mask>
+      <use fill="#000" fillRule="nonzero" xlinkHref="#settings-a" />
+      <g fill="#4A4A4A" mask="url(#settings-b)">
+        <path d="M0-2h24v24H0z" />
+      </g>
+    </g>
+  </svg>
+);
+
 export const ShareIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
     <defs>

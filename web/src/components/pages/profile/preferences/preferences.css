@@ -45,6 +45,13 @@
         }
     }
 
+    & .section-title {
+        border-bottom: 2px solid #f3f2f0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
     & h2 {
         margin-bottom: 10px;
         font-family: var(--strong-font-family);
@@ -53,7 +60,6 @@
     }
 
     & .section-body {
-        border-top: 2px solid var(--light-grey);
         padding-top: 32px;
         display: flex;
         flex-direction: column;
@@ -63,6 +69,17 @@
         @media (--md-up) {
             flex: 0;
             min-width: 134px;
+        }
+    }
+
+    & .manage-subscriptions {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-weight: 600;
+
+        & svg {
+            margin-left: 5px;
         }
     }
 
