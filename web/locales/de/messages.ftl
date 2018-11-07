@@ -121,7 +121,7 @@ logout = Abmelden
 
 ## Home Page
 
-home-title = Das Common-Voice-Projekt ist eine Initiative von Mozilla, die dabei helfen soll Maschinen beizubringen, wie echte Menschen sprechen.
+home-title = Das Common-Voice-Projekt ist eine Initiative von Mozilla, die dabei helfen soll, Maschinen beizubringen, wie echte Menschen sprechen.
 home-cta = Mund aufmachen, Projekt unterstützen, mitarbeiten!
 wall-of-text-start = Sprache ist natürlich, Sprache ist menschlich. Deshalb sind wir davon fasziniert, brauchbare Technologien zur Spracherkennung für unsere Geräte zu erschaffen. Allerdings wird zur Entwicklung sprachbasierter Systeme eine sehr große Menge an Aufnahmen von gesprochener Sprache benötigt.
 wall-of-text-more-mobile = Der überwiegende Teil der von großen Unternehmen genutzten Daten ist für die Mehrheit der Menschen jedoch nicht zugänglich. Wir glauben, dass dadurch Innovation unterbunden wird. Aus diesem Grund haben wir das Projekt Common Voice ins Leben gerufen, ein Projekt, das dabei hilft, Spracherkennung für jeden zugänglich zu machen.
@@ -139,7 +139,7 @@ speak-subtitle = Spenden Sie Ihre Stimme
 speak-paragraph = Stimmen aufzunehmen ist ein wesentlicher Schritt beim Aufbau unseres Datensatzes – manche würden sogar sagen, es ist der, der am meisten Spaß macht.
 speak-goal-text = Aufgenommene Aufzeichnungen
 listen-subtitle = Helfen Sie uns, Stimmen zu bestätigen
-listen-paragraph = Das Bestätigen von Aufzeichnungen ist für die Mission von Common Voice ebenso wichtig. Hören Sie hin und helfen Sie uns, quelloffene Stimmdaten in guter Qualität bereitzustellen.
+listen-paragraph = Das Bestätigen von Aufzeichnungen ist für die Mission von Common Voice ebenso wichtig. Hören Sie hin und helfen Sie uns, gemeinfreie Sprachdaten in guter Qualität bereitzustellen.
 listen-goal-text = Bestätigte Aufzeichnungen
 hours-recorded = Aufgenommene Stunden
 hours-validated = Bestätigte Stunden
@@ -270,7 +270,7 @@ file_too_large = Die ausgewählte Datei ist zu groß
 
 faq-title = Häufig gestellte Fragen
 faq-what-q = Was ist Common Voice?
-faq-what-a = Technologien zur Spracherkennung könnten die Art und Weise, wie wir mit Maschinen kommunizieren, revolutionieren, allerdings sind die zur Zeit verfügbaren Systeme teuer und proprietär. Common Voice ist ein Projekt, das darauf abzielt, Technologien zur Spracherkennung für jeden leicht zugänglich zu machen. Menschen fügen ihre Sprachaufnahme einer umfangreichen Datenbank hinzu, die es zukünftig jedem erlaubt, einfach und schnell sprachunterstützte Anwendungen zu trainieren. Alle Sprachaufnahmen stehen Entwicklern vollständig zur Verfügung.
+faq-what-a = Technologien zur Spracherkennung könnten die Art und Weise, wie wir mit Maschinen kommunizieren, revolutionieren, allerdings sind die zur Zeit verfügbaren Systeme teuer und proprietär. Common Voice ist ein Projekt, das darauf abzielt, Technologien zur Spracherkennung für jeden leicht zugänglich zu machen. Menschen fügen ihre Sprachaufnahme einer umfangreichen Datenbank hinzu, die es zukünftig jedem erlaubt, einfach und schnell sprachunterstützte Anwendungen zu trainieren. Alle Sprachdaten stehen Entwicklern vollständig zur Verfügung.
 faq-important-q = Warum ist das wichtig?
 faq-important-a = Sprache ist natürlich, Sprache ist menschlich. Es ist die einfachste und natürlichste Art der Kommunikation. Wir möchten, dass Entwickler in der Lage sind, fantastische Dinge von Übersetzung in Echtzeit bis hin zu sprachgesteuerten Verwaltungsassistenten zu entwickeln. Im Moment stehen jedoch nicht genügend frei zugängliche Daten zur Verfügung, um derartige Anwendungen zu realisieren. Wir hoffen, dass Common Voice Entwicklern das gibt, was sie für derartige Innovationen benötigen.
 faq-get-q = Wie kann ich an die Common-Voice-Daten gelangen?
