@@ -117,6 +117,7 @@ back-top = Başa dön
 contribution-banner-text = Katkıda bulunabileceğiniz yeni bir arayüz deniyoruz
 contribution-banner-button = Bir göz atın
 report-bugs-link = Hataları rapor edin
+logout = Çıkış
 
 ## Home Page
 
@@ -142,6 +143,7 @@ listen-paragraph = Common Voice için bağışlanan ses kayıtlarını doğrulam
 listen-goal-text = Doğrulanan ses
 hours-recorded = Kaydedilen saat
 hours-validated = Doğrulanan saat
+todays-progress = Bugünkü ilerleme
 read-terms-q = Koşullarımızı okudunuz mu?
 ready-to-record = Sesinizi bağışlamaya hazır mısınız?
 all-languages = Tüm diller
@@ -219,6 +221,8 @@ profile-form-gender =
     .label = Cinsiyet
 leaderboard-visibility =
     .label = Liderlik görünürlüğü
+hidden = Gizli
+visible = Görünür
 native-language =
     .label = Anadili
 profile-form-submit-save = Kaydet
@@ -231,6 +235,9 @@ female = Kadın
 other = Diğer
 why-profile-title = Neden profil oluşturmalıyım?
 why-profile-text = kendiniz hakkında biraz bilgiler verirseniz, Common Voice’a gönderdiğiniz ses verilerini doğruluk artırma amacıyla kullanan konuşma tanıma motorları için bu veriler daha yararlı olacaktır.
+profile = Profil
+avatar = Avatar
+preferences = Tercihler
 edit-profile = Profili düzenle
 profile-create = Profil oluştur
 profile-create-success = Profil başarıyla oluşturuldu!
@@ -253,6 +260,7 @@ skip-submission-description = Katkı gönderimi sırasında Gönder'e tıkladık
 skip-submission-note = Not: Katkı türünü değiştirmek için Konuşma veya Dinleme arasında seçim yapmanız gerekecektir.
 off = Kapalı
 on = Açık
+manage-subscriptions = Abonelikleri yönet
 
 ## FAQ
 
@@ -309,21 +317,6 @@ data-bundle-button = Veri kümesi paketini indir
 data-bundle-description = Common Voice verileri ve yukarıdaki diğer tüm ses veri kümeleri.
 license = Lisans: <licenseLink>{ $license }</licenseLink>
 license-mixed = Karma
-
-## Record Page
-
-record-platform-not-supported = Maalesef kullandığınız platform şu an desteklenmemektedir.
-record-platform-not-supported-desktop = Bilgisayarınızda şu tarayıcıların son sürümlerini kullanabilirsiniz:
-record-platform-not-supported-ios = <bold>iOS</bold> kullanıcıları bedava uygulamamızı indirebilir:
-record-must-allow-microphone = Mikrofon erişimine izin vermeniz gerekiyor.
-record-retry = Yeniden dene
-record-no-mic-found = Mikrofon bulunamadı.
-record-error-too-short = Kayıt çok kısa.
-record-error-too-long = Kayıt çok uzun.
-record-error-too-quiet = Bu kayıt çok sessiz oldu.
-record-submit-success = Gönderi tamamlandı! Yeni bir kayıt yapmak ister misiniz?
-record-help = Lütfen kayıt düğmesine bastıktan sonra yukarıdaki cümleyi yüksek sesle okuyun.
-record-cancel = Yeniden kaydetmeyi iptal et
 review-terms = Common Voice’u kullandığınızda <termsLink>Koşullarımızı</termsLink> ve <privacyLink>Gizlilik İlkelerimizi</privacyLink> kabul etmiş olursunuz.
 terms-agree = Kabul ediyorum
 terms-disagree = Kabul etmiyorum
@@ -398,6 +391,15 @@ contribute-more =
        *[other] { $count } tane daha yapmaya hazır mısın?
     }
 record-cta = Kaydetmeye başla
+record-platform-not-supported = Maalesef kullandığınız platform şu an desteklenmemektedir.
+record-platform-not-supported-desktop = Bilgisayarınızda şu tarayıcıların son sürümlerini kullanabilirsiniz:
+record-platform-not-supported-ios = <bold>iOS</bold> kullanıcıları bedava uygulamamızı indirebilir:
+record-must-allow-microphone = Mikrofon erişimine izin vermeniz gerekiyor.
+record-no-mic-found = Mikrofon bulunamadı.
+record-error-too-short = Kayıt çok kısa.
+record-error-too-long = Kayıt çok uzun.
+record-error-too-quiet = Bu kayıt çok sessiz oldu.
+record-cancel = Yeniden kaydetmeyi iptal et
 record-instruction = <recordIcon></recordIcon> düğmesine { $actionType }, sonra cümleyi net bir şekilde okuyun
 record-stop-instruction = Bitirince { $actionType } <stopIcon></stopIcon>
 record-three-more-instruction = Üç tane kaldı!
