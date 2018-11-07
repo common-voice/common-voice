@@ -263,6 +263,7 @@ browse-file = 拖曳至此處，或<browseWrap>瀏覽</browseWrap>
 connect-gravatar = 連結 Gravatar
 gravatar_not_found = 找不到您電子郵件信箱的 Gravatar
 file_too_large = 選擇的檔案太大
+manage-subscriptions = 管理訂閱
 
 ## FAQ
 
