@@ -8,6 +8,7 @@ import { connect } from 'react-redux';
 const { Tooltip } = require('react-tippy');
 import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';
+import { User } from '../../../stores/user';
 import { trackListening, trackRecording } from '../../../services/tracker';
 import URLS from '../../../urls';
 import { LocaleLink, LocaleNavLink } from '../../locale-helpers';
@@ -40,6 +41,7 @@ export interface ContributionPillProps {
 
 interface PropsFromState {
   locale: Locale.State;
+  user: User.State;
 }
 
 interface Props extends LocalizationProps, PropsFromState {
@@ -94,8 +96,14 @@ class ContributionPage extends React.Component<Props, State> {
   componentDidUpdate() {
     this.startWaving();
 
+    const { isPlaying, isSubmitted, onReset, user } = this.props;
+
     if (this.wave) {
-      this.props.isPlaying ? this.wave.play() : this.wave.idle();
+      isPlaying ? this.wave.play() : this.wave.idle();
+    }
+
+    if (isSubmitted && user.account && user.account.skip_submission_feedback) {
+      onReset();
     }
   }
 
@@ -428,6 +436,7 @@ class ContributionPage extends React.Component<Props, State> {
   }
 }
 
-export default connect<PropsFromState>(({ locale }: StateTree) => ({ locale }))(
-  withLocalization(ContributionPage)
-);
+export default connect<PropsFromState>(({ locale, user }: StateTree) => ({
+  locale,
+  user,
+}))(withLocalization(ContributionPage));

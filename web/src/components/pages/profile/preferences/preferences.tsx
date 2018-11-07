@@ -47,10 +47,14 @@ interface PropsFromDispatch {
 interface Props extends LocalizationProps, PropsFromState, PropsFromDispatch {}
 
 class Preferences extends React.Component<Props> {
-  syncSkipSubmissionFeedback = (event: React.ChangeEvent<HTMLInputElement>) => {
-    this.props.api.saveAccount({
+  syncSkipSubmissionFeedback = async (
+    event: React.ChangeEvent<HTMLInputElement>
+  ) => {
+    const { api, refreshUser } = this.props;
+    await api.saveAccount({
       skip_submission_feedback: event.target.checked,
     });
+    refreshUser();
   };
 
   render() {
