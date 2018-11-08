@@ -1,4 +1,4 @@
-const locales = require('../../../../../locales/all.json') as string[];
+const locales = require('locales/all.json') as string[];
 import { getMySQLInstance } from './mysql';
 
 const db = getMySQLInstance();

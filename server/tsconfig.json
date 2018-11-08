@@ -1,15 +1,12 @@
 {
-  "compileOnSave": true,
   "compilerOptions": {
-    "target": "es5",
+    "target": "es2017",
     "module": "commonjs",
     "noImplicitAny": true,
     "noEmitOnError": true,
     "sourceMap": true,
-    "jsx": "react",
+    "outDir": "js",
     "lib": ["es2017", "dom", "esnext.asynciterable"]
   },
-  "include": [
-    "**/*.d.ts"
-  ]
+  "include": ["src/**/*"]
 }

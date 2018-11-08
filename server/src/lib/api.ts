@@ -2,7 +2,7 @@ import * as bodyParser from 'body-parser';
 import { MD5 } from 'crypto-js';
 import { NextFunction, Request, Response, Router } from 'express';
 import * as sendRequest from 'request-promise-native';
-import { UserClient as UserClientType } from '../../../common/user-clients';
+import { UserClient as UserClientType } from 'common/user-clients';
 import { getConfig } from '../config-helper';
 import UserClient from './model/user-client';
 import Model from './model';
@@ -166,7 +166,10 @@ export default class API {
   };
 
   createSkippedSentence = async (request: Request, response: Response) => {
-    const { client_id, params: { id } } = request;
+    const {
+      client_id,
+      params: { id },
+    } = request;
     await this.model.db.createSkippedSentence(id, client_id);
     response.json({});
   };

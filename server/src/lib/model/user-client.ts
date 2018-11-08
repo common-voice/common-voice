@@ -1,5 +1,5 @@
 import pick = require('lodash.pick');
-import { UserClient } from '../../../../common/user-clients';
+import { UserClient } from 'common/user-clients';
 import { getLocaleId } from './db';
 import { getMySQLInstance } from './db/mysql';
 

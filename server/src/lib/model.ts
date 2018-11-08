@@ -1,7 +1,7 @@
 import * as request from 'request-promise-native';
-import { LanguageStats } from '../../../common/language-stats';
-const locales = require('../../../locales/all.json') as string[];
-const contributableLocales = require('../../../locales/contributable.json') as string[];
+import { LanguageStats } from 'common/language-stats';
+const locales = require('locales/all.json') as string[];
+const contributableLocales = require('locales/contributable.json') as string[];
 import DB, { Sentence } from './model/db';
 import { DBClipWithVoters } from './model/db/tables/clip-table';
 import {
@@ -38,7 +38,7 @@ function fetchLocalizedPercentagesByLocale() {
     data.project.localizations.reduce(
       (obj: { [locale: string]: number }, l: any) => {
         obj[l.locale.code] = Math.round(
-          100 * l.approvedStrings / l.totalStrings
+          (100 * l.approvedStrings) / l.totalStrings
         );
         return obj;
       },
@@ -48,7 +48,7 @@ function fetchLocalizedPercentagesByLocale() {
 }
 
 function clipCountToHours(count: number) {
-  return Math.round(count * AVG_CLIP_SECONDS / 3600);
+  return Math.round((count * AVG_CLIP_SECONDS) / 3600);
 }
 
 const MINUTE = 1000 * 60;
