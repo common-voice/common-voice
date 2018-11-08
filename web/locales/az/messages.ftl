@@ -225,6 +225,8 @@ profile-form-gender =
     .label = Cins
 leaderboard-visibility =
     .label = Öndərlər Siyahısı Görünüşü
+hidden = Gizli
+visible = Görünən
 native-language =
     .label = Ana Dili
 profile-form-submit-save = Saxla
@@ -267,6 +269,7 @@ browse-file = Daşı və burax və ya <browseWrap>Gəz</browseWrap>
 connect-gravatar = Gravatar ilə qoşul
 gravatar_not_found = E-poçtunuz üçün gravatar tapılmadı
 file_too_large = Seçilən fayl çox böyükdür
+manage-subscriptions = Abunəlikləri idarə et
 
 ## FAQ
 
