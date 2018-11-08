@@ -233,6 +233,8 @@ profile-form-gender =
     .label = Geslacht
 leaderboard-visibility =
     .label = Sichtberheid yn ranglist
+hidden = Ferstoppe
+visible = Sichtber
 native-language =
     .label = Memmetaal
 profile-form-submit-save = Bewarje
@@ -275,6 +277,7 @@ browse-file = Sleep en pleats of <browseWrap>Blêdzje</browseWrap>
 connect-gravatar = Mei Gravatar ferbine
 gravatar_not_found = Foar jo e-mailadres waard gjin Gravatar fûn
 file_too_large = It selektearre bestân is te grut
+manage-subscriptions = Abonneminten beheare
 
 ## FAQ
 
