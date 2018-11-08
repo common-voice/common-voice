@@ -302,7 +302,7 @@ faq-source-a2 = Izvorne stavke si lahko ogledate v <dataLink>mapi na GitHubu</da
 
 ## Profile
 
-profile-why-title = Zakaj profil?
+profile-why-title = Zakaj ustvariti profil?
 profile-why-content = Objavljeni govorni podatki bodo s pomočjo vaših osebnih podatkov bolj uporabni pri projektu Common Voice, saj bodo uporabljeni za zagotavljanje večje natančnosti pri učenju razpoznave govora.
 
 ## NotFound
