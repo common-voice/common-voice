@@ -117,6 +117,7 @@ back-top = Kembali ke Atas
 contribution-banner-text = Kami baru saja meluncurkan pengalaman kontribusi yang baru
 contribution-banner-button = Lihatlah
 report-bugs-link = Bantu laporkan kutu
+logout = Keluar
 
 ## Home Page
 
@@ -145,6 +146,7 @@ listen-goal-text = Klip divalidasi
 hours-recorded = Jam Terekam
 hours-validated = Jam Tervalidasi
 todays-progress = Perkembangan Hari Ini
+help-reach-goal = Bantu kami mencapai { $goal }
 read-terms-q = Sudahkah Anda membaca Ketentuan kami?
 ready-to-record = Siap menyumbangkan suara Anda?
 all-languages = Semua Bahasa
@@ -218,6 +220,8 @@ profile-form-gender =
     .label = Jenis Kelamin
 leaderboard-visibility =
     .label = Visibilitas Papan Pimpinan
+hidden = Tersembunyi
+visible = Tampak
 native-language =
     .label = Bahasa Ibu
 profile-form-submit-save = Simpan
@@ -230,6 +234,7 @@ female = Perempuan
 other = Lainnya
 why-profile-title = Untuk apa profil?
 why-profile-text = Dengan menyediakan informasi mengenai diri Anda, data audio yang Anda kirimkan ke Common Voice akan lebih berguna bagi mesin Pengenal Ucapan yang memanfaatkan data ini untuk meningkatkan akurasinya.
+build-profile = Bangun Profil
 profile = Profil
 avatar = Avatar
 preferences = Preferensi
@@ -255,6 +260,11 @@ skip-submission-description = Selama pengajuan kontribusi, saran akan dilewati s
 skip-submission-note = Catatan: Anda tetap harus memilih antara Bicara atau Dengarkan untuk mengubah jenis kontribusi.
 off = Nonaktif
 on = Aktif
+browse-file = Seret dan lepas atau <browseWrap>Telusuri</browseWrap>
+connect-gravatar = Sambungkan ke Gravatar
+gravatar_not_found = Tidak ditemukan gravatar untuk surel Anda
+file_too_large = Berkas yang dipilih terlalu besar
+manage-subscriptions = Kelola Langganan
 
 ## FAQ
 
