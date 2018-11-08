@@ -237,6 +237,8 @@ profile-form-gender =
     .label = Стать
 leaderboard-visibility =
     .label = Видимість панелі рейтингу
+hidden = Приховано
+visible = Видимий
 native-language =
     .label = Рідна мова
 profile-form-submit-save = Зберегти
@@ -279,6 +281,7 @@ browse-file = Перетягніть або <browseWrap>Огляд</browseWrap>
 connect-gravatar = З'єднатися з Gravatar
 gravatar_not_found = Для вашої електронної пошти не знайдено gravatar
 file_too_large = Обраний файл надто великий
+manage-subscriptions = Керувати підписками
 
 ## FAQ
 
