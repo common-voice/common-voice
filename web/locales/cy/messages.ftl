@@ -241,6 +241,8 @@ profile-form-gender =
     .label = Rhyw
 leaderboard-visibility =
     .label = Gwelededd y Sgorfwrdd
+hidden = Cudd
+visible = Gweladwy
 native-language =
     .label = Mamiaith
 profile-form-submit-save = Cadw
@@ -283,6 +285,7 @@ browse-file = Llusgo a gollwg neu <browseWrap>Bori</browseWrap>
 connect-gravatar = Cysylltu â Gravatar
 gravatar_not_found = Dim gravatar wedi ei ganfod o'ch e-bost
 file_too_large = Mae'r ffeil yma'n rhy fawr
+manage-subscriptions = Rheoli Tanysgrifiadau
 
 ## FAQ
 
