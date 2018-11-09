@@ -10,10 +10,10 @@ interface Props {
 
 export default ({ locale, locales, onChange }: Props) => (
   <Downshift
-    defaultHighlightedIndex={locales.findIndex(([code]) => code == locale)}
+    initialHighlightedIndex={locales.findIndex(([code]) => code == locale)}
     isOpen={true}
-    onChange={onChange}
-    render={({ getInputProps, getItemProps, highlightedIndex }) => (
+    onChange={onChange}>
+    {({ getInputProps, getItemProps, highlightedIndex }) => (
       <div className="language-select with-down-arrow">
         <div className="selection" tabIndex={0} {...getInputProps()}>
           {NATIVE_NAMES[locale]}
@@ -36,5 +36,5 @@ export default ({ locale, locales, onChange }: Props) => (
         </div>
       </div>
     )}
-  />
+  </Downshift>
 );

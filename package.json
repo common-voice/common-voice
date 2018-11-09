@@ -5,15 +5,15 @@
   "repository": "mozilla/voice-web",
   "private": true,
   "dependencies": {
-    "concurrently": "^3.5.0",
-    "eslint": "^4.7.2",
-    "eslint-plugin-prettier": "^2.3.1",
+    "concurrently": "^4.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-prettier": "^3.0.0",
     "fluent-syntax": "^0.9.0",
     "prettier": "^1.7.0",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.5",
-    "typescript": "^2.5.2",
-    "typescript-eslint-parser": "17.0.1"
+    "typescript": "^3.1.6",
+    "typescript-eslint-parser": "20.1.1"
   },
   "devDependencies": {
     "husky": "^1.0.1",
@@ -25,7 +25,7 @@
     "web"
   ],
   "engines": {
-    "node": ">=8.9.0"
+    "node": ">=8.10.0"
   },
   "scripts": {
     "build": "concurrently \"cd server && yarn build\" \"cd web/ && yarn build\"",

@@ -127,7 +127,7 @@ interface PropsFromState {
 }
 
 type Props = PropsFromState &
-  RouteComponentProps<any> & {
+  RouteComponentProps<{}> & {
     localeMessages: string[][];
   } & (
     | (InProgressLanguage & { type: 'in-progress' })
@@ -231,8 +231,6 @@ class LocalizationBox extends React.PureComponent<Props, State> {
   }
 }
 
-export default withRouter(
-  connect<PropsFromState>(({ locale }: StateTree) => ({
-    globalLocale: locale,
-  }))(LocalizationBox)
-);
+export default connect<PropsFromState>(({ locale }: StateTree) => ({
+  globalLocale: locale,
+}))(withRouter(LocalizationBox));

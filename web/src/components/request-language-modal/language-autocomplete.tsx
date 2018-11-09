@@ -25,9 +25,8 @@ class LanguageAutocomplete extends React.Component<Props> {
 
   render() {
     return (
-      <Downshift
-        onChange={this.props.onChange}
-        render={({
+      <Downshift onChange={this.props.onChange}>
+        {({
           getInputProps,
           getItemProps,
           isOpen,
@@ -99,7 +98,7 @@ class LanguageAutocomplete extends React.Component<Props> {
             </div>
           );
         }}
-      />
+      </Downshift>
     );
   }
 }

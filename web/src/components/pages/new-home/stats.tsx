@@ -89,7 +89,7 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
       const ticks = (tickCount - 1) * tickMultiplier;
       this.setState({
         data,
-        max: max + (ticks - max % ticks),
+        max: max + (ticks - (max % ticks)),
       });
     };
 
@@ -128,7 +128,7 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
         <div className="home-card">
           <div className="head">
             {renderHeader(state)}
-            <Downshift defaultInputValue={locale} onChange={this.changeLocale}>
+            <Downshift initialInputValue={locale} onChange={this.changeLocale}>
               {({
                 closeMenu,
                 getItemProps,
@@ -176,7 +176,7 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
               ref={this.svgRef}
               {...{ onMouseMove, onMouseOut }}>
               {Array.from({ length: tickCount }).map((_, i) => {
-                const y = i * TOTAL_LINE_MARGIN / tickCount + Y_OFFSET;
+                const y = (i * TOTAL_LINE_MARGIN) / tickCount + Y_OFFSET;
                 return (
                   <React.Fragment key={i}>
                     <text
@@ -186,7 +186,9 @@ const StatsCard = connect<PropsFromState>(mapStateToProps)(
                       dominantBaseline="middle"
                       textAnchor="end">
                       {formatNumber(
-                        Math.round((tickCount - 1 - i) * max / (tickCount - 1))
+                        Math.round(
+                          ((tickCount - 1 - i) * max) / (tickCount - 1)
+                        )
                       )}
                     </text>
                     <line
@@ -296,12 +298,11 @@ export namespace ClipsStats {
       const pointFromDatum = (x: number, y: number): [number, number] => [
         LINE_OFFSET +
           PLOT_PADDING +
-          x *
-            (width - LINE_OFFSET - 2 * PLOT_PADDING - CIRCLE_RADIUS) /
+          (x * (width - LINE_OFFSET - 2 * PLOT_PADDING - CIRCLE_RADIUS)) /
             (data.length - 1),
         Y_OFFSET -
           PLOT_STROKE_WIDTH / 2 +
-          (1 - y / max) * (data.length + 1) * TOTAL_LINE_MARGIN / TICK_COUNT,
+          ((1 - y / max) * (data.length + 1) * TOTAL_LINE_MARGIN) / TICK_COUNT,
       ];
 
       const lastIndex = data.length - 1;
@@ -352,7 +353,7 @@ export namespace ClipsStats {
       }
       const { left, width } = path.getBoundingClientRect();
       const hoveredIndex =
-        Math.round(DATA_LENGTH * (event.clientX - left) / width) - 1;
+        Math.round((DATA_LENGTH * (event.clientX - left)) / width) - 1;
       this.setState({
         hoveredIndex:
           hoveredIndex >= 0 && hoveredIndex < DATA_LENGTH ? hoveredIndex : null,
@@ -485,7 +486,7 @@ export namespace VoiceStats {
           LINE_OFFSET +
           PLOT_PADDING -
           BAR_WIDTH / 2 +
-          i * (width - PLOT_PADDING - TEXT_OFFSET) / BAR_COUNT;
+          (i * (width - PLOT_PADDING - TEXT_OFFSET)) / BAR_COUNT;
 
         return (
           <React.Fragment>
@@ -507,7 +508,7 @@ export namespace VoiceStats {
               </linearGradient>
             </defs>
             {data.map(({ voices }, i) => {
-              const height = voices * BAR_HEIGHT / max || 0;
+              const height = (voices * BAR_HEIGHT) / max || 0;
               return (
                 <rect
                   key={i}

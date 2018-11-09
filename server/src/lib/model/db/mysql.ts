@@ -14,8 +14,7 @@ export type MysqlOptions = {
   password: string;
   host: string;
   port: number;
-  max: number;
-  idleTimeoutMillis: number;
+  connectTimeout: number;
   multipleStatements: boolean;
   namedPlaceholders: boolean;
 };
@@ -27,8 +26,7 @@ const DEFAULTS: MysqlOptions = {
   password: '',
   host: 'localhost',
   port: 3306,
-  max: 10,
-  idleTimeoutMillis: 30000,
+  connectTimeout: 30000,
   multipleStatements: false,
   namedPlaceholders: true,
 };
@@ -55,8 +53,7 @@ export default class Mysql {
       password: getFirstDefined(config.MYSQLPASS, DEFAULTS.password),
       host: getFirstDefined(config.MYSQLHOST, DEFAULTS.host),
       port: getFirstDefined(config.MYSQLPORT, DEFAULTS.port),
-      max: DEFAULTS.max,
-      idleTimeoutMillis: DEFAULTS.idleTimeoutMillis,
+      connectTimeout: DEFAULTS.connectTimeout,
       multipleStatements: false,
       namedPlaceholders: true,
     };
