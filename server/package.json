@@ -28,7 +28,7 @@
     "express-mysql-session": "^1.2.3",
     "express-promise-router": "^3.0.1",
     "express-session": "^1.15.6",
-    "jest": "^22.1.1",
+    "jest": "^23.6.0",
     "js-md5": "^0.6.1",
     "locales": "file:../locales",
     "lodash.pick": "^4.4.0",
@@ -57,6 +57,6 @@
     "migrate": "cd src/lib/model/db && db-migrate",
     "start": "tsc-watch --onSuccess \"yarn start:prod\"",
     "start:prod": "cd .. && node server/js/server.js",
-    "test": "jest --forceExit"
+    "test": "jest --forceExit --config=jest.config.js"
   }
 }
