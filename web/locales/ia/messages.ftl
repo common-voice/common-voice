@@ -140,6 +140,7 @@ listen-paragraph = Le validation del retalios vocal donate es equalmente importa
 listen-goal-text = Clips validate
 hours-recorded = Horas registrate
 hours-validated = Horas validate
+voices-online = Voces actualmente online
 todays-progress = Progressos hodierne
 help-reach-goal = Adjuta nos a obtener { $goal }
 read-terms-q = Ha tu legite nostre terminos de uso?
