@@ -141,6 +141,7 @@ listen-goal-text = Clips validate
 hours-recorded = Horas registrate
 hours-validated = Horas validate
 todays-progress = Progressos hodierne
+help-reach-goal = Adjuta nos a obtener { $goal }
 read-terms-q = Ha tu legite nostre terminos de uso?
 ready-to-record = Es tu preste a donar tu voce?
 all-languages = Tote le linguas
