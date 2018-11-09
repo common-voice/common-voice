@@ -115,6 +115,7 @@ back-top = Návrat hore
 contribution-banner-text = Práve sme spustili nové prostredie pre prispievateľov
 contribution-banner-button = Pozrite sa naň
 report-bugs-link = Nahláste nám chyby
+logout = Odhlásiť sa
 
 ## Home Page
 
@@ -151,6 +152,7 @@ listen-paragraph = Overovanie nahrávok je rovnako dôležitou súčasťou misie
 listen-goal-text = Počet overených nahrávok
 hours-recorded = Počet nahraných hodín
 hours-validated = Počet overených hodín
+todays-progress = Dnešný pokrok
 read-terms-q = Čítali ste naše podmienky používania?
 ready-to-record = Ste pripravení darovať svoj hlas?
 all-languages = Všetky jazyky
@@ -244,6 +246,9 @@ female = Žena
 other = Iné
 why-profile-title = Prečo chcete profil?
 why-profile-text = Tým, že nám o sebe poskytnete nejaké informácie, budú údaje, ktoré odošlete do Common Voice, užitočnejšie pre systémy rozpoznávania reči, ktoré tieto údaje využívajú na zvýšenie presnosti.
+profile = Profil
+avatar = Avatar
+preferences = Nastavenia
 edit-profile = Upraviť profil
 profile-create = Vytvorenie profilu
 profile-create-success = Profil bol úspešne vytvorený!
@@ -264,6 +269,8 @@ contribution-experience = Používateľský zážitok
 skip-submission-feedback = Preskočiť spätnú väzbu
 off = Vypnutá
 on = Zapnutá
+file_too_large = Vybraný súbor je príliš veľký
+manage-subscriptions = Spravovať odbery
 
 ## FAQ
 
@@ -320,21 +327,6 @@ data-bundle-button = Prevziať balík datasetov
 data-bundle-description = Common Voice a údaje všetkých ostatných hlasových datasetov vyššie.
 license = Licencia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Zmiešaná
-
-## Record Page
-
-record-platform-not-supported = Ospravedlňujeme sa, no vaša platforma zatiaľ nie je podporovaná.
-record-platform-not-supported-desktop = Na počítačoch si môžete prevziať najnovšie:
-record-platform-not-supported-ios = Používatelia <bold>iOS</bold> si môžu prevziať našu bezplatnú aplikáciu:
-record-must-allow-microphone = Musíte povoliť prístup ku mikrofónu.
-record-retry = Znova
-record-no-mic-found = Nenašiel sa žiadny mikrofón.
-record-error-too-short = Vaša nahrávka bola príliš krátka.
-record-error-too-long = Vaša nahrávka bola príliš dlhá.
-record-error-too-quiet = Vaša nahrávka bola príliš tichá.
-record-submit-success = Odoslanie bolo úspešné! Chcete nahrávať znova?
-record-help = Prosím, ťuknite na tlačidlo nahrávania a potom prečítajte vetu vyššie.
-record-cancel = Zrušiť opakovaný záznam
 review-terms = Používaním Common Voice súhlasíte s našimi <termsLink>podmienkami</termsLink> a <privacyLink>zásadami ochrany súkromia</privacyLink>
 terms-agree = Súhlasím
 terms-disagree = Nesúhlasím
@@ -410,6 +402,15 @@ contribute-more =
        *[other] Ste pripravení urobiť ešte { $count } ďalších?
     }
 record-cta = Začnite s nahrávaním
+record-platform-not-supported = Ospravedlňujeme sa, no vaša platforma zatiaľ nie je podporovaná.
+record-platform-not-supported-desktop = Na počítačoch si môžete prevziať najnovšie:
+record-platform-not-supported-ios = Používatelia <bold>iOS</bold> si môžu prevziať našu bezplatnú aplikáciu:
+record-must-allow-microphone = Musíte povoliť prístup ku mikrofónu.
+record-no-mic-found = Nenašiel sa žiadny mikrofón.
+record-error-too-short = Vaša nahrávka bola príliš krátka.
+record-error-too-long = Vaša nahrávka bola príliš dlhá.
+record-error-too-quiet = Vaša nahrávka bola príliš tichá.
+record-cancel = Zrušiť opakovaný záznam
 record-instruction = { $actionType } na <recordIcon></recordIcon> a prečítajte vetu nahlas
 record-stop-instruction = { $actionType } na <stopIcon></stopIcon> keď budete hotoví
 record-three-more-instruction = Ešte tri!
