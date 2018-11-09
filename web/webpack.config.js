@@ -1,7 +1,7 @@
 const path = require('path');
+const chalk = require('chalk');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 
 const OUTPUT_PATH = path.resolve(__dirname, 'dist');
 
@@ -59,6 +59,10 @@ module.exports = {
       filename: '../index.html',
       template: 'index_template.html',
     }),
-    // new BundleAnalyzerPlugin({ analyzerMode: 'static' }),
+    function() {
+      this.plugin('watchRun', () => console.log(chalk.yellow('Rebuilding...')));
+      this.plugin('done', () => console.log(chalk.green('Built!')));
+    },
+    // new require('webpack-bundle-analyzer').BundleAnalyzerPlugin({ analyzerMode: 'static' }),
   ],
 };
