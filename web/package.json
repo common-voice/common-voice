@@ -57,6 +57,6 @@
   "scripts": {
     "build": "webpack --mode=production",
     "dev": "webpack --mode=development --watch --display=errors-only",
-    "test": "yarn build && bundlesize -f \"web/dist/*.js\" -s 150kb"
+    "test": "yarn build && bundlesize -f \"dist/*.js\" -s 150kb"
   }
 }
