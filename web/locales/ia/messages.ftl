@@ -114,6 +114,7 @@ back-top = Receder al initio
 contribution-banner-text = Nos ha a pena lanceate un nove experientia de contribution
 contribution-banner-button = Da un reguardo
 report-bugs-link = Adjuta a reportar defectos
+logout = Disconnexion
 
 ## Home Page
 
@@ -139,6 +140,7 @@ listen-paragraph = Le validation del retalios vocal donate es equalmente importa
 listen-goal-text = Clips validate
 hours-recorded = Horas registrate
 hours-validated = Horas validate
+todays-progress = Progressos hodierne
 read-terms-q = Ha tu legite nostre terminos de uso?
 ready-to-record = Es tu preste a donar tu voce?
 all-languages = Tote le linguas
@@ -216,6 +218,8 @@ profile-form-gender =
     .label = Genere
 leaderboard-visibility =
     .label = Visibilitate in le tabula de classification
+hidden = Celate
+visible = Visibile
 native-language =
     .label = Lingua native
 profile-form-submit-save = Salvar
@@ -228,6 +232,10 @@ female = Femina
 other = Altero
 why-profile-title = Perque un profilo?
 why-profile-text = Per fornir alcun informationes circa te mesme, le datos audio que tu invia a Common Voice essera plus utile pro le motores de recognition de voce que usa iste datos pro meliorar lor precision.
+build-profile = Crear le profilo
+profile = Profilo
+avatar = Avatar
+preferences = Preferentias
 edit-profile = Rediger le profilo
 profile-create = Crear un profilo
 profile-create-success = Profilo create con successo
@@ -250,6 +258,11 @@ skip-submission-description = Durante le invio del contribution essera ignorate 
 skip-submission-note = Nota: tu debera ancora seliger inter parlar o ascoltar pro cambiar typo de contribution.
 off = Inactive
 on = Activar
+browse-file = Traher e deponer o <browseWrap>Navigar</browseWrap>
+connect-gravatar = Connecter con Gravatar
+gravatar_not_found = Nulle gravatar trovate pro tu email
+file_too_large = Le file seligite es troppo grande
+manage-subscriptions = Gerer le subscriptiones
 
 ## FAQ
 
@@ -306,21 +319,6 @@ data-bundle-button = Discargar le pacco del collection de datos
 data-bundle-description = Le datos de Common Voice plus tote le altere collectiones de datos vocal precedente.
 license = Licentia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixte
-
-## Record Page
-
-record-platform-not-supported = Nos lo regretta, ma tu platteforma non es actualmente supportate.
-record-platform-not-supported-desktop = Sur computatores de scriptorio tu pote discargar le ultime:
-record-platform-not-supported-ios = Le usatores de <bold>iOS</bold> pote discargar nostre application gratuite:
-record-must-allow-microphone = Tu debe permitter le accesso al microphono
-record-retry = Reproba
-record-no-mic-found = Nulle microphono trovate
-record-error-too-short = Le registration era troppo breve.
-record-error-too-long = Le registration era troppo longe.
-record-error-too-quiet = Le registration era troppo quiete.
-record-submit-success = Successo del invio! Vole tu registrar ancora?
-record-help = Per favor tocca pro registrar, pois lege in alte voce le phrase de supra.
-record-cancel = Cancellar le re-registration
 review-terms = Al usar Common Voice, tu accepta nostre <termsLink>Terminos de uso</termsLink> e le <privacyLink>Politica de confidentialitate</privacyLink>
 terms-agree = Io accepta
 terms-disagree = Io non accepta
@@ -395,6 +393,15 @@ contribute-more =
        *[other] Preste a facer { $count } plus?
     }
 record-cta = Initiar a registrar
+record-platform-not-supported = Nos lo regretta, ma tu platteforma non es actualmente supportate.
+record-platform-not-supported-desktop = Sur computatores de scriptorio tu pote discargar le ultime:
+record-platform-not-supported-ios = Le usatores de <bold>iOS</bold> pote discargar nostre application gratuite:
+record-must-allow-microphone = Tu debe permitter le accesso al microphono
+record-no-mic-found = Nulle microphono trovate
+record-error-too-short = Le registration era troppo breve.
+record-error-too-long = Le registration era troppo longe.
+record-error-too-quiet = Le registration era troppo quiete.
+record-cancel = Cancellar le re-registration
 record-instruction = { $actionType }<recordIcon></recordIcon> pois lege le phrase in alte voce
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> quando facite
 record-three-more-instruction = Ancora tres!
