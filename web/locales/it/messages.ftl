@@ -143,6 +143,7 @@ listen-paragraph = Convalidare le registrazioni effettuate da altri è altrettan
 listen-goal-text = Registrazioni convalidate
 hours-recorded = Ore registrate
 hours-validated = Ore convalidate
+voices-online = Voci attualmente online
 todays-progress = Progressi di oggi
 help-reach-goal = Aiutaci a raggiungere { $goal }
 read-terms-q = Hai letto le condizioni di utilizzo del servizio?
@@ -261,6 +262,7 @@ skip-submission-note = Nota: sarà comunque necessario selezionare Parla o Ascol
 off = Disattiva
 on = Attiva
 browse-file = Trascina e rilascia oppure <browseWrap>sfoglia</ browseWrap>
+gravatar_not_found = Nessun profilo Gravatar associato alla tua email
 file_too_large = Il file selezionato è troppo grande
 manage-subscriptions = Gestisci le sottoscrizioni
 
