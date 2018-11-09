@@ -3,7 +3,6 @@
     "target": "es2017",
     "module": "commonjs",
     "noImplicitAny": true,
-    "noEmitOnError": true,
     "sourceMap": true,
     "outDir": "js",
     "lib": ["es2017", "dom", "esnext.asynciterable"]
