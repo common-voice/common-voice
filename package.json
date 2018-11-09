@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "license": "MPL-2.0",
   "repository": "mozilla/voice-web",
+  "private": true,
   "dependencies": {
     "concurrently": "^3.5.0",
     "eslint": "^4.7.2",
@@ -18,6 +19,11 @@
     "husky": "^1.0.1",
     "pretty-quick": "^1.7.0"
   },
+  "workspaces": [
+    "common",
+    "server",
+    "web"
+  ],
   "engines": {
     "node": ">=8.9.0"
   },

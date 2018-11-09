@@ -1,4 +1,4 @@
-@import url('../../node_modules/react-tippy/dist/tippy.css');
+@import url('../../../node_modules/react-tippy/dist/tippy.css');
 
 @import url('vars.css');
 @import url('ui/ui.css');

@@ -1,7 +1,7 @@
 {
-  "name": "voice-web-server",
+  "name": "server",
+  "version": "1.0.0",
   "private": true,
-  "license": "MPL-2.0",
   "dependencies": {
     "@types/commonmark": "^0.27.0",
     "@types/crypto-js": "^3.1.43",
@@ -16,7 +16,7 @@
     "@types/request-promise-native": "^1.0.14",
     "aws-sdk": "^2.67.0",
     "body-parser": "^1.18.2",
-    "common": "file:../common",
+    "common": "*",
     "commonmark": "^0.28.1",
     "consul": "^0.34.0",
     "cookie-parser": "^1.4.3",
