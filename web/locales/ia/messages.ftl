@@ -15,6 +15,7 @@ loading = Cargamento…
 
 ## Languages
 
+ace = Acehnese
 an = Aragonese
 ar = Arabe
 as = Assamese
@@ -58,6 +59,7 @@ ko = Coreano
 kpv = Komi-Zyriano
 kw = Cornico
 ky = Kirghiso
+mdf = Moksha
 mk = Macedonio
 mn = Mongol
 myv = Erzya
@@ -69,6 +71,7 @@ oc = Occitano
 or = Odia
 pl = Polonese
 pt-BR = Portugese (Brasil)
+rm-sursilv = Romansh Sursilvan
 ro = Romaniano
 ru = Russo
 sah = Sakha
