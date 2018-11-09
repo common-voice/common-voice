@@ -117,6 +117,7 @@ back-top = Torna in alto
 contribution-banner-text = È disponibile una nuova esperienza di contribuzione
 contribution-banner-button = Dai un’occhiata
 report-bugs-link = Aiutaci segnalando bug
+logout = Disconnetti
 
 ## Home Page
 
@@ -219,6 +220,8 @@ profile-form-gender =
     .label = Sesso
 leaderboard-visibility =
     .label = Visibilità nella classifica
+hidden = Nascosto
+visible = Visibile
 native-language =
     .label = Lingua madre
 profile-form-submit-save = Salva
@@ -259,6 +262,7 @@ off = Disattiva
 on = Attiva
 browse-file = Trascina e rilascia oppure <browseWrap>sfoglia</ browseWrap>
 file_too_large = Il file selezionato è troppo grande
+manage-subscriptions = Gestisci le sottoscrizioni
 
 ## FAQ
 
