@@ -276,7 +276,7 @@ on = Enaouet
 browse-file = Rinklañ-leuskel pe <browseWrap>Verdeit</browseWrap>
 connect-gravatar = Kevreañ gant Gravatar
 gravatar_not_found = Gravatar ebet kavet evit ho postel
-file_too_large = Re vras emañ ar restr diuzet
+file_too_large = Re vras eo ar restr diuzet
 
 ## FAQ
 
