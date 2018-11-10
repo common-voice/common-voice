@@ -227,6 +227,7 @@ profile-form-gender =
 leaderboard-visibility =
     .label = Tillin n tebdart n igeṛṛa
 hidden = Uffir
+visible = Uman
 native-language =
     .label = Tutlayt tayemat
 profile-form-submit-save = Sekles
@@ -239,7 +240,10 @@ female = Unti
 other = Wiyaḍ
 why-profile-title = Acuɣer amaɣnu?
 why-profile-text = Ma terniḍ-d ugar n yisallen ɣef yiman-ik, isefka n ṣṣut i d-tceyyɛeḍ ar usenfaṛ n Common Voice ad lhun aṭas i yiselkimen n unadi deg uɛqal n taɣect i yessexdamen isefka-ya i wakken ad snernin leqdic-nsen.
+build-profile = Bnu amaɣnu
 profile = Amaɣnu
+avatar = Avataṛ
+preferences = Ismenyifen
 edit-profile = Ẓreg amaɣnu
 profile-create = Rnu amaɣnu
 profile-create-success = Yedda, amaɣnu yettwarna!
@@ -266,6 +270,7 @@ browse-file = Zuɣer sakin sers neɣ <browseWrap>innig</browseWrap>
 connect-gravatar = Qqen s Gravatar
 gravatar_not_found = Ulac Gravatar ittwafen i imayl-inek
 file_too_large = Afaylu ittwafernen meqqer aṭas
+manage-subscriptions = Sefrekajerred
 
 ## FAQ
 
