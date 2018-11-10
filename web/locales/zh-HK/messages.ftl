@@ -228,12 +228,14 @@ female = 女性
 other = 其他
 why-profile-title = 點解需要帳戶？
 why-profile-text = 提供一些關於您的資訊，可讓您的 Common Voice 語音資料更有用，令語音識別引擎更加準確。
+profile = 個人帳戶
 edit-profile = 編輯個人帳戶
 profile-create = 註冊帳戶
 profile-create-success = 成功建立帳戶！
 profile-close = 關閉
 profile-clear-modal = 清除您的帳戶資料後，您的錄音不會再和人口統計資料一起傳送給 Common Voice。
 profile-explanation = 使用您的個人帳戶可以保留您的進展，並幫助增加我們語音數據的準確度。
+thanks-for-account = 多謝您確認您的帳戶, 現在讓我們建立您的個人資料。
 why-demographic = 點解咁重要？
 why-demographic-explanation = 已匿名化的使用者資料，如年齡、性別、腔調等，可幫助我們改善用來訓練語音識別引擎的語音資料。您的帳號與電郵不會與您提交的數據相關，您也可以決定公開您的帳號或保持匿名。
 keep-me-posted =
@@ -305,21 +307,6 @@ data-bundle-button = 下載數據組合
 data-bundle-description = Common Voice 數據，以及上面列出的所有其他語音數據集。
 license = 授權條款：<licenseLink>{ $license }</licenseLink>
 license-mixed = 混合
-
-## Record Page
-
-record-platform-not-supported = 對不起，你的平台暫時不被支援。
-record-platform-not-supported-desktop = 在桌面電腦上，您可以下載最新的：
-record-platform-not-supported-ios = <bold>iOS</bold> 用戶可以下載我們免費的應用程式：
-record-must-allow-microphone = 你必需允許我們存取你的咪高峰。
-record-retry = 重新嘗試
-record-no-mic-found = 我們找不到你的咪高峰。
-record-error-too-short = 這個錄音太短了。
-record-error-too-long = 這個錄音太長了。
-record-error-too-quiet = 這個錄音太靜了。
-record-submit-success = 成功提交了！想再錄更多嗎？
-record-help = 點擊開始錄音，然後大聲朗讀上面的句子。
-record-cancel = 取消重新錄音
 review-terms = 使用 Common Voice，即代表您同意我們的<termsLink>條款</termsLink>和<privacyLink>私隱聲明</privacyLink>
 terms-agree = 我同意
 terms-disagree = 我不同意
@@ -393,6 +380,15 @@ contribute-more =
        *[other] 準備好再做{ $count }個？
     }
 record-cta = 開始錄音
+record-platform-not-supported = 對不起，你的平台暫時不被支援。
+record-platform-not-supported-desktop = 在桌面電腦上，您可以下載最新的：
+record-platform-not-supported-ios = <bold>iOS</bold> 用戶可以下載我們免費的應用程式：
+record-must-allow-microphone = 你必需允許我們存取你的咪高峰。
+record-no-mic-found = 我們找不到你的咪高峰。
+record-error-too-short = 這個錄音太短了。
+record-error-too-long = 這個錄音太長了。
+record-error-too-quiet = 這個錄音太靜了。
+record-cancel = 取消重新錄音
 record-instruction = { $actionType }<recordIcon></recordIcon>然後大聲朗讀句子
 record-stop-instruction = 完成後請{ $actionType }<stopIcon></stopIcon>
 record-three-more-instruction = 仲有三個！
