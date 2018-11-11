@@ -148,6 +148,7 @@ listen-paragraph = ჩანაწერების გადამოწმე
 listen-goal-text = ჩანაწერები გადამოწმებულია
 hours-recorded = სთ ჩაწერილია
 hours-validated = სთ დამოწმებულია
+voices-online = ხმები ამჟამად
 todays-progress = დღევანდელი წინსვლა
 help-reach-goal = დაგვეხმარეთ { $goal } მიზნის შესრულებაში
 read-terms-q = გაეცანით ჩვენს პირობებს?
