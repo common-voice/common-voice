@@ -99,6 +99,7 @@ back-top = Naut de la pagina
 contribution-banner-text = Avèm ajustat una nòva interfàcia de collaboracion
 contribution-banner-button = L’ensajar
 report-bugs-link = Senhalar de problèmas
+logout = Desconnexion
 
 ## Home Page
 
@@ -144,6 +145,7 @@ native-language =
 profile-form-submit-save = Enregistrar
 # Gender
 other = Autre
+profile = Perfil
 edit-profile = Modificar lo perfil
 profile-create = Crear un perfil
 profile-close = Tampar
@@ -171,11 +173,6 @@ data-download-modal = Sètz a man de telecargar un fichièr de <size>{ $size } 
 data-other-goto = Veire { $name }
 data-other-download = Telecargar las donadas
 license = Licéncia : <licenseLink>{ $license }</licenseLink>
-
-## Record Page
-
-record-retry = Tornar ensajar
-record-no-mic-found = Cap de microfòn pas trobat.
 terms-agree = Accepti
 terms-disagree = Accepti pas
 review-submit-title = Repassar e enviar
@@ -212,5 +209,6 @@ contribute = Contribuir
 listen = Escotar
 skip = Passar
 shortcuts = Acorchis
+record-no-mic-found = Cap de microfòn pas trobat.
 record-button-label = Enregistrar vòstra votz
 share-title-new = <bold>Ajudatz-nos</bold> a trobar mai de voses
