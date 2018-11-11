@@ -21,6 +21,7 @@ ar = Арабский
 as = Ассамский
 ast = Астурийский
 az = Азербайджанский
+bg = Болгарский
 bn = Бенгальский
 br = Бретонский
 bxr = Бурятский
@@ -38,6 +39,7 @@ en = Английский
 eo = Эсперанто
 es = Испанский
 et = Эстонский
+eu = Баскский
 fa = Персидский
 fi = Финский
 fo = Фарерский
@@ -75,6 +77,7 @@ rm-sursilv = Романшский Сурсельвский
 ro = Румынский
 ru = Русский
 sah = Якутский
+sc = Сардинский
 sk = Словацкий
 sl = Словенский
 sq = Албанский
@@ -117,6 +120,7 @@ back-top = Наверх
 contribution-banner-text = Мы улучшили процесс работы для наших помощников
 contribution-banner-button = Посмотрите
 report-bugs-link = Помогите, сообщив об ошибках
+logout = Выйти
 
 ## Home Page
 
@@ -142,6 +146,9 @@ listen-paragraph = Проверка добавленных записей оче
 listen-goal-text = Записей проверено
 hours-recorded = Часов записано
 hours-validated = Часов проверено
+voices-online = Голоса в онлайне прямо сейчас
+todays-progress = Сегодняшний прогресс
+help-reach-goal = Помогите нам достичь { $goal }
 read-terms-q = Вы прочитали наши условия использования?
 ready-to-record = Готовы пожертвовать свой голос?
 all-languages = Все языки
@@ -223,6 +230,8 @@ profile-form-gender =
     .label = Пол
 leaderboard-visibility =
     .label = Показывать меня в топе
+hidden = Скрытый
+visible = Видимый
 native-language =
     .label = Родной язык
 profile-form-submit-save = Сохранить
@@ -235,6 +244,10 @@ female = Женский
 other = Другой
 why-profile-title = Зачем нужен профиль?
 why-profile-text = Предоставив некоторые данные о себе, вы сделаете аудио данные, отправляемые в Common Voice, более полезными для движков распознавания речи, которые будут использовать эти данные для улучшения своей точности.
+build-profile = Построить профиль
+profile = Профиль
+avatar = Аватар
+preferences = Настройки
 edit-profile = Редактировать профиль
 profile-create = Создать профиль
 profile-create-success = Отлично, профиль создан!
@@ -257,6 +270,11 @@ skip-submission-description = Оценка работы с Common Voice буде
 skip-submission-note = Примечание: Вам по-прежнему нужно выбирать между записью и прослушиванием, чтобы изменить тип внесения вклада.
 off = Выкл.
 on = Вкл.
+browse-file = Перетащите или <browseWrap>выберите файл</browseWrap>
+connect-gravatar = Присоединить Gravatar
+gravatar_not_found = Данный адрес эл. почты не зарегистрирован в gravatar
+file_too_large = Выбранный файл имеет слишком большой размер
+manage-subscriptions = Управление подписками
 
 ## FAQ
 
@@ -313,21 +331,6 @@ data-bundle-button = Загрузить пакет наборов данных
 data-bundle-description = Данные Common Voice плюс данные всех голосовых наборов данных ниже.
 license = Лицензия: <licenseLink>{ $license }</licenseLink>
 license-mixed = Смешанная
-
-## Record Page
-
-record-platform-not-supported = Нам жаль, в настоящее время ваша платформа не поддерживается.
-record-platform-not-supported-desktop = На настольных компьютерах, вы можете загрузить последний:
-record-platform-not-supported-ios = Пользователи <bold>iOS</bold> могут загрузить наше бесплатное приложение:
-record-must-allow-microphone = Вы должны разрешить доступ к микрофону.
-record-retry = Перезаписать
-record-no-mic-found = Микрофон не найден.
-record-error-too-short = Запись слишком короткая.
-record-error-too-long = Запись слишком длинная.
-record-error-too-quiet = Запись слишком тихая.
-record-submit-success = Запись отправлена! Хотите записать ещё раз?
-record-help = Щёлкните для записи, затем громко произнесите фразу выше.
-record-cancel = Отменить перезапись
 review-terms = Используя Common Voice, вы соглашаетесь с нашими <termsLink>условиями использования</termsLink> и <privacyLink>политикой приватности</privacyLink>
 terms-agree = Я согласен(а)
 terms-disagree = Я не согласен(а)
@@ -403,6 +406,15 @@ contribute-more =
        *[other] Готовы сделать ещё { $count }?
     }
 record-cta = Начните запись
+record-platform-not-supported = Нам жаль, в настоящее время ваша платформа не поддерживается.
+record-platform-not-supported-desktop = На настольных компьютерах, вы можете загрузить последний:
+record-platform-not-supported-ios = Пользователи <bold>iOS</bold> могут загрузить наше бесплатное приложение:
+record-must-allow-microphone = Вы должны разрешить доступ к микрофону.
+record-no-mic-found = Микрофон не найден.
+record-error-too-short = Запись слишком короткая.
+record-error-too-long = Запись слишком длинная.
+record-error-too-quiet = Запись слишком тихая.
+record-cancel = Отменить перезапись
 record-instruction = { $actionType } <recordIcon></recordIcon>, затем зачитайте предложение вслух
 record-stop-instruction = { $actionType } <stopIcon></stopIcon>, когда закончите
 record-three-more-instruction = Осталось три!
