@@ -114,7 +114,7 @@ share-title = Ajută-ne să găsim alte persoane care să-și doneze vocea!
 share-text = Ajută mașinile să învețe despre cum vorbesc oamenii, donează vocea ta la { $link }
 link-copied = Link copiat
 back-top = Sus
-contribution-banner-text = Tocmai am lansat o nouă experiență pentru colaboratori
+contribution-banner-text = Am lansat o nouă experiență pentru a contribui
 contribution-banner-button = Aruncă o privire
 report-bugs-link = Ajută-ne prin raportarea de probleme
 logout = Deconectare
@@ -125,7 +125,7 @@ home-title = Proiectul Common Voice este inițiativa Mozilla pentru a ajuta maș
 home-cta = Donează-ți vocea, contribuie aici!
 wall-of-text-start = Vocea este naturală și umană. De aceea suntem fascinați de ideea creării unei tehnologii vocale utile pentru dispozitivele noastre. Dar pentru a crea sisteme vocale este necesar un volum mare de date vocale.
 wall-of-text-more-mobile = Cele mai multe dintre datele folosite de marile companii nu sunt disponibile pentru majoritatea oamenilor. Credem că este o piedică în calea inovației. De aceea am lansat proiectul Common Voice - ca să facem recunoașterea vocală o tehnologie deschisă pentru toți.
-wall-of-text-more-desktop = Acum îți poți dona vocea ajutându-ne să construim o bază de date vocală cu sursă deschisă, care poate fi utilizată de toți, ca să creăm aplicații inovatoare pentru dispozitive și web.<lineBreak></lineBreak>Citește o propoziție și ajută mașinile să învețe cum vorbesc oamenii reali. Verifică ce au lucrat alți colaboratori pentru a îmbunătăți calitatea. E chiar atât de simplu!
+wall-of-text-more-desktop = Acum îți poți dona vocea pentru a ne ajuta să construim o bază de date deschisă și utilizabilă de toată lumea pentru a crea aplicații inovative pentru dispozitive și web.<lineBreak></lineBreak>Citește o propoziție pentru a ajuta mașinile să învețe despre cum vorbesc oamenii reali. Verifică munca altor contribuitori pentru a îmbunătăți calitatea. Este foarte simplu!
 wall-of-text-first = Vocea este naturală și umană. De aceea suntem fascinați de ideea creării unei tehnologii vocale utile pentru dispozitivele noastre. Dar pentru a crea sisteme vocale este necesar un volum mare de date vocale.
 wall-of-text-second = Cele mai multe dintre datele folosite de marile companii nu sunt disponibile pentru majoritatea oamenilor. Credem că este o piedică în calea inovației. De aceea am lansat proiectul Common Voice - ca să facem recunoașterea vocală o tehnologie deschisă pentru toți.
 show-wall-of-text = Citește mai multe
@@ -295,7 +295,7 @@ faq-quality-a = Calitatea audio trebuie să o reflecte pe cea la care va fi util
 faq-hours-q = De ce obiectivul de 10.000 de ore de captură audio?
 faq-hours-a = Este aproximativ numărul de ore necesar pentru a antrena un sistem STT (voce-text) de producție.
 faq-source-q = De unde provine textul-sursă?
-faq-source-a1 = Propozițiile actuale sunt donații de la colaboratori, precum și dialoguri din scenarii de filme din domeniul public, cum ar fi <italic>La vita è bella (Viața e frumoasă)</italic>.
+faq-source-a1 = Propozițiile actuale provin de la contribuitori, dar și dialoguri din scenarii de filme din domeniul public, precum <italic>La vita è bella (Viața e frumoasă)</italic>.
 faq-source-a2 = Poți vedea propozițiile-sursă în <dataLink>acest dosar GitHub</dataLink>.
 
 ## Profile
