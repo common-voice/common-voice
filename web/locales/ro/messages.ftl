@@ -116,7 +116,7 @@ link-copied = Link copiat
 back-top = Sus
 contribution-banner-text = Am lansat o nouă experiență pentru a contribui
 contribution-banner-button = Aruncă o privire
-report-bugs-link = Ajută-ne prin raportarea de probleme
+report-bugs-link = Ajută la raportarea de probleme
 logout = Deconectare
 
 ## Home Page
@@ -240,7 +240,9 @@ female = Femeie
 # Gender
 other = Altul
 why-profile-title = De ce un profil?
-why-profile-text = Furnizând câteva informații despre tine, datele audio pe care le trimiți la Common Voice vor fi mai utile pentru motoarele de recunoaștere a vorbirii care folosesc aceste date ca să le îmbunătățim acuratețea.
+why-profile-text =
+    Furnizând câteva informații despre tine, datele audio pe care le trimiți la Common Voice vor fi mai utile pentru motoarele
+    de recunoaștere a vorbirii care folosesc aceste date pentru a le îmbunătăți precizia.
 build-profile = Construiește profilul
 profile = Profil
 avatar = Avatar
@@ -252,7 +254,7 @@ profile-close = Închide
 profile-clear-modal =
     Ștergerea datelor tale de profil înseamnă că aceste informații demografice nu vor mai fi trimise la Common Voice cu
     înregistrările tale.
-profile-explanation = Urmărește-ți progresul cu ajutorul unui profil și ajută-ne să sporim acuratețea datelor noastre vocale.
+profile-explanation = Urmărește progresul tău cu un profil și ajută ca datele noastre vocale să fie mai precise.
 thanks-for-account = Îți mulțumim pentru confirmarea contului. Acum, să îți construim profilul.
 why-demographic = De ce contează?
 why-demographic-explanation = Datele de utilizator anonimizate, precum vârsta, sexul și accentul, ajută la îmbunătățirea datelor audio folosite la antrenarea și ridicarea gradului de acuratețe al motoarelor de recunoaștere vocală. Numele de utilizator și parola nu vor fi niciodată asociate cu datele trimise și poți opta dacă numele tău de utilizator să fie public sau anonim.
@@ -279,34 +281,34 @@ manage-subscriptions = Gestionează abonamentele
 
 faq-title = Întrebări frecvente
 faq-what-q = Ce este Common Voice?
-faq-what-a = Recunoașterea vocală este o tehnologie care ar putea revoluționa modul în care interacționăm cu dispozitivele, dar sistemele disponibile acum sunt scumpe și proprietare. Common Voice este un proiect care să facă tehnologia de recunoaștere vocală ușor accesibilă tuturor. Oamenii își donează vocile pentru a construi o bază de date masivă care va permite oricui să antreneze rapid și ușor aplicații cu acționare vocală. Toate datele vocale vor fi puse la dispoziția dezvoltatorilor.
+faq-what-a = Recunoașterea vocală este o tehnologie care poate revoluționa interacțiunea oamenilor cu dispozitivele, dar sistemele disponibile momentan sunt scumpe și proprietare. Common Voice este un proiect pentru a permite tuturor accesul la această tehnologie. Oamenii își donează vocile lor pentru a construi o mare bază de date care va permite oricui să antreneze modele pentru a construi aplicații acționate vocal. Toate datele vocale vor fi puse la dispoziția dezvoltatorilor.
 faq-important-q = De ce este important?
-faq-important-a = Vocea este naturală și umană. E cel mai ușor și natural mod de comunicare. Vrem ca dezvoltatorii să poată construi lucruri incredibile - de la sisteme de traducere în timp real până la asistenți administrativi cu comandă vocală. Dar acum nu sunt destule date disponibile în domeniul public pentru a construi astfel de aplicații. Sperăm ca proiectul Common Voice să le ofere dezvoltatorilor tot ceea ce le trebuie pentru a putea inova.
+faq-important-a = Vocea este naturală și umană. Este cel mai ușor și natural mod de a comunica. Dorim ca dezvoltatorii să poată construi lucruri incredibile de la sisteme de traducere în timp real la asistenți administrativi cu comandă vocală. Dar acum nu sunt destule date vocale disponibile pentru a construi acest tip de aplicații. Sperăm ca proiectul Common Voice să ofere dezvoltatorilor uneltele de care au nevoie pentru a inova.
 faq-get-q = Cum pot obține datele Common Voice?
-faq-get-a = Setul de date este acum disponibil pe <downloadLink>pagina de descărcări</downloadLink> sub o licență <licenseLink>CC-0</licenseLink>.
-faq-mission-q = De ce face parte Common Voice din misiunea Mozilla?
-faq-mission-a = Mozilla este dedicată păstrării webului deschis și accesibil tuturor. În acest sens, trebuie să împuternicim creatorii web prin proiecte așa cum este Common Voice. Deoarece tehnologiile vocale se extind rapid dincolo de aplicațiile de nișă, credem că trebuie să deservească toți utilizatorii în egală măsură. Considerăm  că există o necesitate de includere a mai multor limbi, accente și elemente demografice în construirea  și testarea tehnologiilor vocale. Mozilla își dorește un Internet sănătos și vibrant, ceea ce presupune accesul noilor creatori la datele vocale ca să poată crea proiecte noi și extraordinare. Common Voice va fi o resursă publică, care va ajuta echipele și dezvoltatorii Mozilla din întreaga lume.
-faq-native-q = Sunt vorbitor ne-nativ de { $lang } și vorbesc cu accent, doriți vocea mea?
-faq-native-a = Da, sigur că vrem vocea ta! O parte din scopul proiectului Common Voice este de a aduna cât mai multe accente diferite posibile astfel încât calculatoarele să înțeleagă mai bine pe <bold>oricine</bold> le vorbește.
-faq-firefox-q = Va fi recunoașterea vocală, prin Common Voice, disponibilă vreodată în Firefox?
-faq-firefox-a = Common Voice dispune de un potențial nelimitat și chiar explorăm interfețe vocale de inclus în mai multe produse Mozilla, inclusiv Firefox.
-faq-quality-q = Ce nivel de calitate trebuie să aibă secvențele audio ca să fie utilizate?
-faq-quality-a = Calitatea audio trebuie să o reflecte pe cea la care va fi utilizat un motor voce-text în realitate. Deci, vrem varietate. Cu ajutorul acestei varietăți, motorul nostru voce-text va învăța să gestioneze diverse situații reale — voci în fundal, zgomote auto, zgomote de la ventilatoare — fără erori.
-faq-hours-q = De ce obiectivul de 10.000 de ore de captură audio?
-faq-hours-a = Este aproximativ numărul de ore necesar pentru a antrena un sistem STT (voce-text) de producție.
-faq-source-q = De unde provine textul-sursă?
+faq-get-a = Baza de date este acum disponibilă pe <downloadLink>pagina de descărcări</downloadLink> și sub o licență <licenseLink>CC-0</licenseLink>.
+faq-mission-q = De ce este Common Voice parte a misiunii Mozilla?
+faq-mission-a = Mozilla este dedicată păstrării webului deschis și accesibil tuturor. Pentru a face acest lucru, trebuie să-i împuternicim pe creatorii web prin proiecte precum Common Voice. Din moment ce tehnologiile vocale proliferă dincolo de aplicațiile de nișă, credem că acestea trebuie să servească toți utilizatorii în egală măsură. Considerăm necesitatea includerii mai multor limbi, accente și elemente demografice în construirea și testarea tehnologiilor vocale. Mozilla dorește să vadă un internet sănătos și vibrant. Acest lucru înseamnă oferirea accesului la datele vocale pentru noii creatori, astfel încât să poată crea proiecte noi și extraordinare. Common Voice va fi o resursă publică care va ajuta echipele și dezvoltatorii Mozilla din întreaga lume.
+faq-native-q = Sunt vorbitor nativ de { $lang } și vorbesc cu accent, doriți vocea mea?
+faq-native-a = Da, sigur dorim vocea ta! Ca parte a proiectului Common Voice dorim să adunăm cât mai multe accente posibile pentru a permite calculatoarelor să înțeleagă pe <bold>toată lumea</bold> atunci când vorbesc.
+faq-firefox-q = Va fi recunoașterea vocală prin Common Voice disponibilă vreodată în Firefox?
+faq-firefox-a = Common Voice are potențial neliminat și explorăm astfel de interfețe pentru multe produse Mozilla, inclusiv Firefox.
+faq-quality-q = Ce nivel de calitate este necesar pentru ca vocea să fie utilizabilă?
+faq-quality-a = Dorim nivelul de calitate care să reflecte cea a unui motor voce-text realist. De aceea dorim varietate. Aceasta va învăța motorul nostru voce-text să se descurce în situații diferite, de la voce cu fundal, zgomote auto, ventilatoare etc. fără erori.
+faq-hours-q = De ce scopul de a aduna 10.000 de ore de captură audio?
+faq-hours-a = Acesta este aproximativ numărul de ore necesar pentru a antrena un sistem de producție STT (voce-text).
+faq-source-q = De unde provine textul sursă?
 faq-source-a1 = Propozițiile actuale provin de la contribuitori, dar și dialoguri din scenarii de filme din domeniul public, precum <italic>La vita è bella (Viața e frumoasă)</italic>.
-faq-source-a2 = Poți vedea propozițiile-sursă în <dataLink>acest dosar GitHub</dataLink>.
+faq-source-a2 = Poți vedea propozițiile sursă în <dataLink>acest dosar GitHub</dataLink>.
 
 ## Profile
 
 profile-why-title = De ce un profil?
-profile-why-content = Furnizând câteva informații despre tine, datele audio pe care le trimiți la Common Voice vor fi mult mai utile în motoarele de recunoaștere a vorbirii, care le folosesc pentru a-și îmbunătăți acuratețea.
+profile-why-content = Furnizând câteva informații despre tine, datele audio pe care le trimiți la Common Voice vor fi mai utile pentru motoarele de recunoaștere a vorbirii care folosesc aceste date pentru a le îmbunătăți precizia.
 
 ## NotFound
 
 notfound-title = Nu a fost găsit
-notfound-content = Ne pare rău, dar nu știm ce cauți.
+notfound-content = Din nefericire nu știm ce cauți.
 
 ## Data
 
@@ -314,43 +316,43 @@ data-download-button = Descarcă datele Common Voice
 data-download-yes = Da
 data-download-deny = Nu
 data-download-license = Licență: <licenseLink>CC-0</licenseLink>
-data-download-modal = Ești pe punctul de a iniția o descărcare de <size>{ $size }GB</size>. Continui?
-data-subtitle = Construim un set de date de voci, deschis și disponibil în domeniul public, pe care îl poate folosi oricine ca să antreneze aplicații acționate vocal.
-data-explanatory-text = Considerăm că seturile mari de date vocale puse la dispoziția publicului generează inovație și o competiție comercială sănătoasă în domeniul tehnologiei vocale pe bază de învățare automată. Este un efort global și lansăm tuturor o invitație să participe. Scopul nostru este să ne aducem contribuția în a face tehnologia vocală mai inclusivă, reflectând diversitatea vocilor din lumea întreagă.
-data-get-started = <speechBlogLink>Experimentează recunoașterea vocală</speechBlogLink>
+data-download-modal = Ești pe cale să inițiezi o descărcare de <size>{ $size }GB</size>. Continui?
+data-subtitle = Construim un set de date de voci, deschis și disponibil public, care poate fi folosit de oricine pentru a antrena aplicațiile care folosesc comenzi vocale.
+data-explanatory-text = Credem că disponibilitatea publică a unor corpuri mari de date vocale generează inovație și competiție comercială sănătoasă în tehnologia vocală bazată pe învățarea automată. Acesta este un efort global în care invităm pe toată lumea să participe. Scopul nostru este să ajutăm tehnologia vocală să devină mai inclusivă și să reflecte diversitatea vocilor din lumea întreagă.
+data-get-started = <speechBlogLink>Începe cu recunoașterea vocală</speechBlogLink>
 data-other-title = Alte seturi de date vocale…
-data-other-goto = Mergi la { $name }
+data-other-goto = Du-te la { $name }
 data-other-download = Descarcă datele
-data-other-librispeech-description = LibriSpeech este un corp de date de aproximativ 1000 de ore de vorbire, codate la 16Khz, în limba engleză, derivate din cărți audio citite, preluate din proiectul LibriVox.
+data-other-librispeech-description = LibriSpeech este un corp de date de aproximativ 1000 de ore de limbă engleză citită și codată la o calitate de 16Khz obținută din cărți audio ale proiectului LibriVox.
 data-other-ted-name = Corpusul TED-LIUM
-data-other-ted-description = Corpusul de date TED-LIUM a fost realizat din prezentări audio și transcrierile aferente, disponibile pe site-ul TED.
-data-other-voxforge-description = VoxForge a fost configurat să colecteze transcrieri de vorbire pentru utilizarea în motoare de recunoaștere vocală gratuite și cu sursă deschisă.
-data-other-tatoeba-description = Tatoeba este o bază mare de date cu propoziții, traduceri și materiale audio de limbă vorbită, de folosit la învățarea limbilor. Această descărcare conține secvențe de limba engleză vorbită înregistrate de comunitatea lor.
+data-other-ted-description = Corpusul de date TED-LIUM a fost realizat din prezentări audio și transcrierile acestora disponibile pe site-ul TED.
+data-other-voxforge-description = VoxForge a fost realizat pentru a colecta vorbirea tradusă pentru a fi folosite de motoare de recunoaștere vocală cu sursă deschisă.
+data-other-tatoeba-description = Tatoeba este o bază de date mare de propoziții, traduceri și limbă vorbită pentru utilă în învățarea limbilor. Această descărcare conține engleză vorbită înregistrată de comunitatea lor.
 data-bundle-button = Descarcă pachetul cu setul de date
-data-bundle-description = Datele Common Voice plus toate celelalte seturi de date de mai sus.
+data-bundle-description = Datele Common Voice plus toate seturile de date de mai sus.
 license = Licență: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixtă
-review-terms = Prin utilizarea Common Voice, agreezi <termsLink>Termenii</termsLink> și <privacyLink>Notificarea privind confidențialitatea</privacyLink>
-terms-agree = De acord
+review-terms = Folosind Common Voice, ești de acord cu <termsLink>Termenii</termsLink> și <privacyLink>Politica de confidențialitate</privacyLink>
+terms-agree = Sunt de acord
 terms-disagree = Nu sunt de acord
 review-aborted = Încărcare abandonată. Vrei să-ți ștergi înregistrările?
-review-submit-title = Verifică și trimite
-review-submit-msg = Îți mulțumim pentru înregistrare!<lineBreak></lineBreak>Acum verifică înregistrările de mai jos și trimite-le.
-review-recording = Verifică
-review-rerecord = Înregistrează din nou
+review-submit-title = Analizează și trimite
+review-submit-msg = Îți mulțumim pentru înregistrare!<lineBreak></lineBreak>Acum analizează și trimite înregistrările de mai jos.
+review-recording = Analizează
+review-rerecord = Reînregistrează
 review-cancel = Anulează trimiterea
 review-keep-recordings = Păstrează înregistrările
 review-delete-recordings = Șterge înregistrările mele
 
 ## Download Modal
 
-download-title = Descărcarea a început.
-download-helpus = Ajută-ne să construim o comunitate în jurul tehnologiei vocale, rămâi la curent prin e-mail.
+download-title = Descărcarea ta a început.
+download-helpus = Ajută-ne să construim o comunitate în jurul tehnologiei vocale, rămâne la curent prin e-mail.
 download-form-email =
     .label = Introdu e-mailul
     .value = Îți mulțumim, vom ține legătura.
 download-back = Întoarce-te la seturile de date Common Voice
-download-no = Nu, mulțumesc
+download-no = Nu, mersi
 
 ## Contact Modal
 
@@ -366,12 +368,12 @@ contact-required = *necesar
 request-language-title = Solicitare de limbă
 request-language-form-language =
     .label = Limbă
-request-language-success-title = Solicitarea de limbă a fost trimisă cu succes, îți mulțumim.
-request-language-success-content = Vom reveni în curând cu mai multe informații despre cum să îți adaugi limba pe Common Voice.
+request-language-success-title = Cererea de limbă a fost trimisă cu succes, îți mulțumim.
+request-language-success-content = Vom reveni foarte curând cu mai multe informații despre cum să îți adaugi limba pe Common Voice.
 
 ## Languages Overview
 
-language-section-in-progress = În lucru
+language-section-in-progress = În curs
 language-section-in-progress-description = Limbile în lucru sunt momentan construite pentru contribuții din partea comunităților noastre; avansul lor reflectă stadiul la care au ajuns în cadrul fazelor de localizare a site-urilor web și de colectare de propoziții.
 language-section-launched = Lansate
 language-section-launched-new-description = Site-ul web a fost localizat cu succes pentru aceste limbi lansate și deține suficiente propoziții colectate pentru a permite contribuții curente tip <italic>voribre</italic> și <italic>ascultare</italic>.
@@ -396,7 +398,7 @@ listen = Ascultă
 skip = Sari peste
 shortcuts = Scurtături
 clips-with-count = <bold><bold>{ $count }</bold> clipuri
-goal-help-recording = Ai ajutat Common Voice să atingă <goalPercentage></goalPercentage> din obiectivul zilnic de { $goalValue } înregistrări!
+goal-help-recording = Ai ajutat Common Voice să ajungă la <goalPercentage></goalPercentage> din obiectivul zilnic de { $goalValue } înregistrări!
 goal-help-validation = Ai ajutat Common Voice să atingă <goalPercentage></goalPercentage> din obiectivul zilnic de { $goalValue } validări!
 contribute-more =
     { $count ->
@@ -405,14 +407,14 @@ contribute-more =
        *[other] Gata pentru încă { $count }?
     }
 record-cta = Începe înregistrarea
-record-platform-not-supported = Ne pare rău, dar platforma ta nu este suportată momentan.
-record-platform-not-supported-desktop = Pe calculatoare tip desktop, poți descărca cele mai recente:
+record-platform-not-supported = Ne pare rău, dar platforma ta nu este momentan suportată.
+record-platform-not-supported-desktop = Pe calculatoare desktop poți descărca cele mai recente:
 record-platform-not-supported-ios = Utilizatorii <bold>iOS</bold> pot descărca aplicația noastră gratuită:
 record-must-allow-microphone = Trebuie să permiți accesul la microfon.
-record-no-mic-found = Nu a fost găsit niciun microfon.
+record-no-mic-found = Nu am găsit un microfon.
 record-error-too-short = Înregistrarea a fost prea scurtă.
 record-error-too-long = Înregistrarea a fost prea lungă.
-record-error-too-quiet = Volumul înregistrării este prea mic.
+record-error-too-quiet = Volumul înregistrării este prea scăzut.
 record-cancel = Anulează reînregistrarea
 record-instruction = { $actionType }<recordIcon></recordIcon> apoi citește propoziția cu voce tare
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> când ai terminat
@@ -422,7 +424,7 @@ record-again-instruction2 = Ține-o tot așa! Înregistrează din nou <recordIco
 record-last-instruction = <recordIcon></recordIcon> Ultima!
 review-tooltip = Aici revezi și reînregistrezi clipuri din mers
 unable-speak = Nu poți vorbi acum?
-review-instruction = Revede și re-înregistrează clipuri audio dacă este nevoie
+review-instruction = Revezi și re-înregistrează clipuri audio dacă este nevoie
 record-submit-tooltip = { $actionType } trimite când ești gata
 clips-uploaded = Clipuri încărcate
 record-abort-title = Finalizezi înregistrarea mai întâi?
