@@ -2,6 +2,7 @@ import * as crypto from 'crypto';
 import { PassThrough } from 'stream';
 import { S3 } from 'aws-sdk';
 import { NextFunction, Request, Response } from 'express';
+
 const PromiseRouter = require('express-promise-router');
 import { getConfig } from '../config-helper';
 import { AWS } from './aws';
@@ -47,7 +48,7 @@ export default class Clip {
         if (client_id && locale) {
           this.model.db
             .saveActivity(client_id, locale)
-            .catch((error: any) => console.error(error));
+            .catch((error: any) => console.error('activity save error', error));
         }
 
         next();
