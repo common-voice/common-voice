@@ -9,7 +9,7 @@
     "eslint": "^5.8.0",
     "eslint-plugin-prettier": "^3.0.0",
     "fluent-syntax": "^0.9.0",
-    "prettier": "^1.7.0",
+    "prettier": "^1.15.2",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.5",
     "typescript": "^3.1.6",
