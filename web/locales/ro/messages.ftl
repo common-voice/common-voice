@@ -297,7 +297,7 @@ faq-quality-a = Dorim nivelul de calitate care să reflecte cea a unui motor voc
 faq-hours-q = De ce scopul de a aduna 10.000 de ore de captură audio?
 faq-hours-a = Acesta este aproximativ numărul de ore necesar pentru a antrena un sistem de producție STT (voce-text).
 faq-source-q = De unde provine textul sursă?
-faq-source-a1 = Propozițiile actuale provin de la contribuitori, dar și dialoguri din scenarii de filme din domeniul public, precum <italic>La vita è bella (Viața e frumoasă)</italic>.
+faq-source-a1 = Propozițiile actuale provin de la colaboratori, dar și dialoguri din scenarii de filme din domeniul public, precum <italic>La vita è bella (Viața e frumoasă)</italic>.
 faq-source-a2 = Poți vedea propozițiile sursă în <dataLink>acest dosar GitHub</dataLink>.
 
 ## Profile
