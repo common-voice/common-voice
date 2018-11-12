@@ -35,14 +35,28 @@ export function trackHomeNew(
 }
 
 export function trackRecording(
-  action: 'record' | 'submit' | 'rerecord' | 'shortcut',
+  action:
+    | 'record'
+    | 'submit'
+    | 'rerecord'
+    | 'view-shortcuts'
+    | 'shortcut'
+    | 'skip'
+    | 'listen',
   locale: string
 ) {
   track('Recording', action, locale);
 }
 
 export function trackListening(
-  action: 'listen' | 'listen-home' | 'vote-yes' | 'vote-no' | 'shortcut',
+  action:
+    | 'listen'
+    | 'listen-home'
+    | 'vote-yes'
+    | 'vote-no'
+    | 'view-shortcuts'
+    | 'shortcut'
+    | 'skip',
   locale: string
 ) {
   track('Listening', action, locale);

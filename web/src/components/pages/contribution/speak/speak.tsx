@@ -60,10 +60,12 @@ const UnsupportedInfo = () => (
         <span />
       </Localized>
       <a target="_blank" href="https://www.firefox.com/">
-        <FontIcon type="firefox" />Firefox
+        <FontIcon type="firefox" />
+        Firefox
       </a>{' '}
       <a target="_blank" href="https://www.google.com/chrome">
-        <FontIcon type="chrome" />Chrome
+        <FontIcon type="chrome" />
+        Chrome
       </a>
     </p>
     <p key="ios">
@@ -227,6 +229,7 @@ class SpeakPage extends React.Component<Props, State> {
   };
 
   private rerecord = async (i: number) => {
+    trackRecording('rerecord', this.props.locale);
     await this.discardRecording();
 
     this.setState({
@@ -295,11 +298,10 @@ class SpeakPage extends React.Component<Props, State> {
     const { id } = clips[this.getRecordingIndex()].sentence;
     removeSentences([id]);
     this.setState({
-      clips: clips.map(
-        (clip, i) =>
-          this.getRecordingIndex() === i
-            ? { recording: null, sentence: sentences.slice(SET_COUNT)[0] }
-            : clip
+      clips: clips.map((clip, i) =>
+        this.getRecordingIndex() === i
+          ? { recording: null, sentence: sentences.slice(SET_COUNT)[0] }
+          : clip
       ),
       error: null,
     });
@@ -492,10 +494,10 @@ class SpeakPage extends React.Component<Props, State> {
                   this.isRecording
                     ? 'record-stop-instruction'
                     : recordingIndex === SET_COUNT - 1
-                      ? 'record-last-instruction'
-                      : ['record-instruction', 'record-again-instruction'][
-                          recordingIndex
-                        ] || 'record-again-instruction2'
+                    ? 'record-last-instruction'
+                    : ['record-instruction', 'record-again-instruction'][
+                        recordingIndex
+                      ] || 'record-again-instruction2'
                 }
                 recordIcon={<MicIcon />}
                 stopIcon={<StopIcon />}
@@ -522,7 +524,9 @@ class SpeakPage extends React.Component<Props, State> {
               status={
                 recordingIndex === i
                   ? 'active'
-                  : clip.recording ? 'done' : 'pending'
+                  : clip.recording
+                  ? 'done'
+                  : 'pending'
               }
               onRerecord={() => this.rerecord(i)}>
               {rerecordIndex === i && (

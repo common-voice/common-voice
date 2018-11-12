@@ -152,8 +152,17 @@ class ContributionPage extends React.Component<Props, State> {
   private toggleShareModal = () =>
     this.setState({ showShareModal: !this.state.showShareModal });
 
-  private toggleShortcutsModal = () =>
-    this.setState({ showShortcutsModal: !this.state.showShortcutsModal });
+  private toggleShortcutsModal = () => {
+    const showShortcutsModal = !this.state.showShortcutsModal;
+    if (showShortcutsModal) {
+      const { locale, type } = this.props;
+      (type == 'listen' ? trackListening : (trackRecording as any))(
+        'view-shortcuts',
+        locale
+      );
+    }
+    return this.setState({ showShortcutsModal });
+  };
 
   private handleKeyDown = (event: any) => {
     const {
@@ -187,6 +196,15 @@ class ContributionPage extends React.Component<Props, State> {
       locale
     );
     event.preventDefault();
+  };
+
+  private handleSkip = () => {
+    const { locale, onSkip, type } = this.props;
+    ((type === 'listen' ? trackListening : trackRecording) as any)(
+      'skip',
+      locale
+    );
+    onSkip();
   };
 
   render() {
