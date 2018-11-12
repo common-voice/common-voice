@@ -357,7 +357,11 @@ class App extends React.Component<void, State> {
             ))}
             <Route
               path="/:locale"
-              render={({ match: { params: { locale } } }) => (
+              render={({
+                match: {
+                  params: { locale },
+                },
+              }) => (
                 <LocalizedLayout userLocales={[locale, ...this.userLocales]} />
               )}
             />

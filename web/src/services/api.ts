@@ -54,7 +54,9 @@ export default class API {
       method: method || 'GET',
       headers: finalHeaders,
       body: body
-        ? body instanceof Blob ? body : JSON.stringify(body)
+        ? body instanceof Blob
+          ? body
+          : JSON.stringify(body)
         : undefined,
     });
     if (response.status == 401) {

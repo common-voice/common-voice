@@ -17,4 +17,4 @@ export default interface StateTree {
   sentences: Sentences.State;
   uploads: Uploads.State;
   user: User.State;
-};
+}
