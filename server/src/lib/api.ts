@@ -39,10 +39,11 @@ export default class API {
           // a while (to stay compatible to old client)
           (request.headers.uid as string);
         if (client_id) {
-          if (await UserClient.hasSSO(client_id)) {
-            response.sendStatus(401);
-            return;
-          }
+          //TODO auth check back, without breaking registration
+          // if (await UserClient.hasSSO(client_id)) {
+          //   response.sendStatus(401);
+          //   return;
+          // }
           request.client_id = client_id;
         }
 
