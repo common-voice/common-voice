@@ -389,7 +389,7 @@ total-hours = Suimilam Dihlak
 
 action-click = Hmet
 action-tap = Hmet
-contribute = Pek
+contribute = Aw Tunnak
 listen = Ngai
 skip = Lanhtak
 shortcuts = tawitan
