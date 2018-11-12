@@ -146,6 +146,7 @@ listen-goal-text = Extraits validés
 hours-recorded = Heures d’enregistrement
 hours-validated = Heures validées
 voices-online = Échantillons de voix maintenant en ligne
+todays-progress = Progression d’aujourd’hui
 help-reach-goal = Aidez-nous à atteindre { $goal }
 read-terms-q = Avez-vous lu les conditions d’utilisation ?
 ready-to-record = Êtes-vous prêt⋅e à donner de votre voix ?
@@ -224,6 +225,8 @@ profile-form-gender =
     .label = Sexe
 leaderboard-visibility =
     .label = Affichage public
+hidden = Caché
+visible = Visible
 native-language =
     .label = Langue maternelle
 profile-form-submit-save = Enregistrer
@@ -263,7 +266,10 @@ skip-submission-note = Remarque : vous devez encore choisir entre Parler et Éc
 off = Désactivé
 on = Activé
 browse-file = Glissez-déposez ou bien <browseWrap>Parcourez</browseWrap>
+connect-gravatar = Connectez-vous avec Gravatar
+gravatar_not_found = Impossible de trouver un Gravatar associé à votre adresse électronique
 file_too_large = Le fichier sélectionné est trop volumineux
+manage-subscriptions = Gérer vos abonnements
 
 ## FAQ
 
