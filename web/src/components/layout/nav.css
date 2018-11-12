@@ -116,6 +116,14 @@ header {
         display: none;
         height: 100%;
 
+        & .filler {
+            position: absolute;
+            bottom: -16px;
+            left: 0;
+            height: 16px;
+            width: 100%;
+        }
+
         & .triangle {
             position: absolute;
             right: 13px;

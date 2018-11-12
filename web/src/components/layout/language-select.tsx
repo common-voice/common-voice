@@ -19,6 +19,7 @@ export default ({ locale, locales, onChange }: Props) => (
           {NATIVE_NAMES[locale]}
         </div>
         <div className="list-wrapper">
+          <div className="filler" />
           <div className="triangle" />
           <ul>
             {locales.map(([code, name], index) => (
