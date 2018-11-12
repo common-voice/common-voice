@@ -33,11 +33,7 @@ export default class API {
       async (request: Request, response: Response, next: NextFunction) => {
         this.metrics.countRequest(request);
 
-        const client_id =
-          (request.headers.client_id as string) ||
-          // TODO: Remove next line after the headers.client_id has been up for
-          // a while (to stay compatible to old client)
-          (request.headers.uid as string);
+        const client_id = request.headers.client_id as string;
         if (client_id) {
           //TODO auth check back, without breaking registration
           // if (await UserClient.hasSSO(client_id)) {
