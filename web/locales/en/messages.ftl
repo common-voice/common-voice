@@ -113,7 +113,7 @@ back-top = Back to Top
 contribution-banner-text = We've just launched a new contribution experience
 contribution-banner-button = Take a look
 report-bugs-link = Help report bugs
-logout = Logout
+logout = Log Out
 
 ## Home Page
 home-title =
