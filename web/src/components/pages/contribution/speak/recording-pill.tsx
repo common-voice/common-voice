@@ -128,4 +128,4 @@ class RecordingPill extends React.Component<Props, State> {
   }
 }
 
-export default withLocalization(localeConnector(RecordingPill));
+export default localeConnector(withLocalization(RecordingPill));
