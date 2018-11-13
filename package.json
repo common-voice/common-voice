@@ -6,14 +6,11 @@
   "private": true,
   "dependencies": {
     "concurrently": "^4.0.1",
-    "eslint": "^5.8.0",
-    "eslint-plugin-prettier": "^3.0.0",
     "fluent-syntax": "^0.9.0",
     "prettier": "^1.15.2",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.5",
-    "typescript": "^3.1.6",
-    "typescript-eslint-parser": "20.1.1"
+    "typescript": "^3.1.6"
   },
   "devDependencies": {
     "husky": "^1.0.1",
@@ -30,8 +27,8 @@
   "scripts": {
     "build": "concurrently \"cd server && yarn build\" \"cd web/ && yarn build\"",
     "import-locales": "node scripts/import-locales",
-    "lint": "eslint **/*.ts **/*.tsx",
-    "prettier": "yarn lint --fix",
+    "lint": "prettier **/*.ts **/*.tsx",
+    "prettier": "yarn lint --write",
     "start": "concurrently -p \"[{name}]\" -n \"BE,FE\" -c \"bgBlue.bold,bgMagenta.bold\" \"cd server && yarn start\" \"cd web && yarn dev\"",
     "start:prod": "node server/js/server.js",
     "test": "concurrently --kill-others-on-fail \"cd web && yarn test\" \"cd server && yarn test\""
