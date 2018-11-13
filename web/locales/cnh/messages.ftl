@@ -395,7 +395,7 @@ skip = Lanhtak
 shortcuts = tawitan
 clips-with-count = <bold>{ $count }</bold>Aw-tawi
 goal-help-recording = Kan i tinh mi { $goalValue } chungah <goalPercentage></goalPercentage> na kan phak ter. Kan i lawm tuk.
-goal-help-validation = Common Voice nih kan i tinhmi <goalPercentage></goalPercentage> chung ah { $goalValue } na chek pi .
+goal-help-validation = Common Voice nih kan i tinhmi { $goalValue } chungah <goalPercentage></goalPercentage> na kan chek bawmh .
 contribute-more =
     { $count ->
         [one] { $count }Tuah ṭhan na duh maw?
