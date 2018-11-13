@@ -8,6 +8,7 @@ export default Object.freeze({
   PROFILE_INFO: PROFILE_ROOT + '/info',
   PROFILE_AVATAR: PROFILE_ROOT + '/avatar',
   PROFILE_PREFERENCES: PROFILE_ROOT + '/preferences',
+  DASHBOARD: '/dashboard',
   DATA: '/data',
   DATASETS: '/datasets',
   FAQ: '/faq',

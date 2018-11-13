@@ -54,6 +54,11 @@ class UserMenu extends React.Component<PropsFromState> {
             <ul>
               {[
                 {
+                  route: URLS.DASHBOARD,
+                  icon: <UserIcon />,
+                  id: 'dashboard',
+                },
+                {
                   route: URLS.PROFILE_INFO,
                   icon: <UserIcon />,
                   id: 'profile',

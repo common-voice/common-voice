@@ -1,0 +1,77 @@
+@import url('../../vars.css');
+
+.dashboard {
+    & header {
+        @media (--lg-up) {
+            max-width: var(--wide-desktop-width);
+        }
+    }
+
+    & #scroller {
+        background-image: linear-gradient(
+            1deg,
+            var(--white),
+            var(--desert-storm)
+        );
+    }
+
+    & #content {
+        padding: 0;
+    }
+}
+
+.dashboard-page {
+    max-width: initial !important;
+    padding: 0 !important;
+
+    & .inner {
+        margin: 0 auto;
+        max-width: var(--wide-desktop-width);
+        box-sizing: border-box;
+
+        @media (--lg-down) {
+            padding: 20px;
+        }
+    }
+
+    & .title-bar {
+        display: flex;
+        flex-direction: row;
+
+        @media (--sm-down) {
+            padding-top: 19px;
+            margin-bottom: 28px;
+        }
+
+        @media (--md-up) {
+            padding-top: 30px;
+            margin-bottom: 20px;
+        }
+
+        & h1 {
+            font-family: var(--strong-font-family);
+            font-size: var(--font-size-xxl);
+            font-weight: normal;
+        }
+    }
+
+    & .progress-boxes {
+        display: flex;
+
+        @media (--sm-down) {
+            flex-direction: column;
+
+            & > :first-child {
+                margin-bottom: 20px;
+            }
+        }
+
+        @media (--md-up) {
+            flex-direction: row;
+
+            & > :first-child {
+                margin-right: 20px;
+            }
+        }
+    }
+}

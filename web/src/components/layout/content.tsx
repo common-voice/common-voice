@@ -12,6 +12,7 @@ import HomePage from '../pages/home/home';
 import LanguagesPages from '../pages/languages/languages';
 import NewHomePage from '../pages/new-home/home';
 import NotFoundPage from '../pages/not-found';
+import DashboardPage from '../pages/dashboard/dashboard';
 import DocumentPage from '../pages/document-page';
 import ProfileLayoutPage from '../pages/profile/layout';
 import ProfilePage from '../pages/profile';
@@ -67,6 +68,7 @@ export default localeConnector(
           path={toLocaleRoute(URLS.PROFILE + '/')}
           component={ProfileLayoutPage}
         />
+        <Route path={toLocaleRoute(URLS.DASHBOARD)} component={DashboardPage} />
         <Route exact path={toLocaleRoute(URLS.FAQ)} component={FAQPage} />
         <Route
           exact
