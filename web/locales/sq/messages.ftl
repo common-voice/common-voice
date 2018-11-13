@@ -211,6 +211,8 @@ profile-form-age =
     .label = Moshë
 profile-form-gender =
     .label = Gjini
+hidden = I fshehur
+visible = I dukshëm
 native-language =
     .label = Gjuhë Amtare
 profile-form-submit-save = Ruaje
@@ -223,7 +225,10 @@ female = Femër
 other = Tjetër
 why-profile-title = Ç’duhet profili?
 why-profile-text = Duke dhënë ca të dhëna rreth vetes, të dhënat audio që parashtroni te Common Voice do të jenë më të dobishme për mekanizma Kuptimi të Folure që i përdorin këto të dhëna për përmirësimin e saktësisë së tyre.
+build-profile = Krijoje Profilin
 profile = Profil
+avatar = Avatar
+preferences = Parapëlqime
 edit-profile = Përpunoni Profil
 profile-create = Krijoni profil
 profile-create-success = Sukses, profili u krijua!
@@ -245,6 +250,11 @@ skip-submission-description = Gjatë parashtrimit të kontributeve, dhënia e p�
 skip-submission-note = Shënim: Prapë do të duhet të përzgjidhni mes Flisni ose Dëgjoni, për të ndryshuar llojin e kontributit.
 off = Off
 on = On
+browse-file = Merreni dhe vëreni ose <browseWrap>Shfletoni</browseWrap>
+connect-gravatar = Lidhuni përmes Gravatari
+gravatar_not_found = S’u gjet gravatar për email-in tuaj
+file_too_large = Kartela e përzgjedhur është shumë e madhe
+manage-subscriptions = Administroni Pajtime
 
 ## FAQ
 
