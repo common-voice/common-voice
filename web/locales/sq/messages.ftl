@@ -20,6 +20,7 @@ ar = Arabisht
 as = Asameze
 ast = Asturiase
 az = Azerbajxhane
+bg = Bullgarisht
 bn = Bengaleze
 br = Bretone
 ca = Katalane
@@ -32,6 +33,7 @@ en = Anglisht
 eo = Esperanto
 es = Spanjisht
 et = Estonisht
+eu = Baske
 fa = Persisht
 fi = Finlandisht
 fo = Faroeze
@@ -61,6 +63,7 @@ pl = Polonisht
 pt-BR = Portugalisht (Brazil)
 ro = Rumanisht
 ru = Rusisht
+sc = Sardinisht
 sk = Sllovakisht
 sl = Sllovenisht
 sq = Shqip
@@ -103,6 +106,7 @@ back-top = Mbrapsht te Kreu
 contribution-banner-text = Sapo kemi hedhur në qarkullim një rrugë të re dhënieje ndihmese
 contribution-banner-button = Hidhini një sy
 report-bugs-link = Ndihmoni të raportohen të metat
+logout = Dilni
 
 ## Home Page
 
@@ -129,6 +133,9 @@ listen-paragraph = Vleftësimi i copëzave të dhuruara është po aq e rëndës
 listen-goal-text = Copëza të vleftësuara
 hours-recorded = Orë Incizim
 hours-validated = Orë të Vleftësuara
+voices-online = Zëra Në Linjë Tani
+todays-progress = Ecuria Sot
+help-reach-goal = Ndihmonani të arrijmë { $goal }
 read-terms-q = I keni lexuar Kushtet tona?
 ready-to-record = Gati të dhuroni zërin tuaj?
 all-languages = Krejt Gjuhët
@@ -151,13 +158,27 @@ x-years-short =
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = f
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = d
 shortcut-play-toggle-label = Luaje/Ndale
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = p
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = j
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = i
 shortcut-record-toggle-label = Incizo/Ndale
 request-language-text = S’e shihni ende gjuhën tuaj te Common Voice?
 request-language-button = Kërkoni një Gjuhë
@@ -202,6 +223,7 @@ female = Femër
 other = Tjetër
 why-profile-title = Ç’duhet profili?
 why-profile-text = Duke dhënë ca të dhëna rreth vetes, të dhënat audio që parashtroni te Common Voice do të jenë më të dobishme për mekanizma Kuptimi të Folure që i përdorin këto të dhëna për përmirësimin e saktësisë së tyre.
+profile = Profil
 edit-profile = Përpunoni Profil
 profile-create = Krijoni profil
 profile-create-success = Sukses, profili u krijua!
@@ -279,21 +301,6 @@ data-bundle-button = Shkarkoni Paketë Bazash të Dhënash
 data-bundle-description = Të dhëna Common Voice plus krejt grupet e tjera të të dhënave zanore më sipër.
 license = Licencë: <licenseLink>{ $license }</licenseLink>
 license-mixed = Të përziera
-
-## Record Page
-
-record-platform-not-supported = Na ndjeni, por platforma juaj nuk mbulohet ende.
-record-platform-not-supported-desktop = Në kompjuter dekstop mund të shkarkoni versionin më të ri:
-record-platform-not-supported-ios = Përdorues të <bold>iOS</bold> mund të shkarkojnë aplikacionin tonë falas:
-record-must-allow-microphone = Duhet të lejoni përdorimin e mikrofonit.
-record-retry = Riprovoni
-record-no-mic-found = S’u gjet mikrofon.
-record-error-too-short = Incizimi qe shumë i shkurtër.
-record-error-too-long = Incizimi qe shumë i gjatë.
-record-error-too-quiet = Volumi i zërit në incizim qe shumë i ulët.
-record-submit-success = Parashtrim i suksesshëm! Doni të incizoni sërish?
-record-help = Ju lutemi,prekeni që të incizoni, mandej lexojeni me zë fjalinë e mësipërme.
-record-cancel = Anuloje Ri-incizimin
 review-terms = Duke përdorur Common Voice, pajtoheni me <termsLink>Kushtet</termsLink> tona dhe <privacyLink>Shënimin tonë mbi Privatësinë</privacyLink>
 terms-agree = Pajtohem
 terms-disagree = Nuk pajtohem
@@ -368,6 +375,15 @@ contribute-more =
        *[other] Gati për të bërë edhe { $count } të tjera?
     }
 record-cta = Filloni incizimin
+record-platform-not-supported = Na ndjeni, por platforma juaj nuk mbulohet ende.
+record-platform-not-supported-desktop = Në kompjuter dekstop mund të shkarkoni versionin më të ri:
+record-platform-not-supported-ios = Përdorues të <bold>iOS</bold> mund të shkarkojnë aplikacionin tonë falas:
+record-must-allow-microphone = Duhet të lejoni përdorimin e mikrofonit.
+record-no-mic-found = S’u gjet mikrofon.
+record-error-too-short = Incizimi qe shumë i shkurtër.
+record-error-too-long = Incizimi qe shumë i gjatë.
+record-error-too-quiet = Volumi i zërit në incizim qe shumë i ulët.
+record-cancel = Anuloje Ri-incizimin
 record-instruction = { $actionType }<recordIcon></recordIcon> mandej lexojeni me zë fjalinë
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> kur të keni përfunduar
 record-three-more-instruction = Edhe tre!
