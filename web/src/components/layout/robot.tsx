@@ -13,8 +13,8 @@ export default class Robot extends React.PureComponent<{}> {
     clientY,
   }: React.MouseEvent<HTMLImageElement>) => {
     const { height, left, top, width } = currentTarget.getBoundingClientRect();
-    const x = 100 * (clientX - left) / width;
-    const y = 100 * (clientY - top) / height;
+    const x = (100 * (clientX - left)) / width;
+    const y = (100 * (clientY - top)) / height;
 
     const [x1, y1, x2, y2] = this.remainingCode.shift();
 

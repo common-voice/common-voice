@@ -38,6 +38,9 @@ class NotificationPill extends React.Component<
   }
 }
 
-export default connect<void, PropsFromDispatch>(null, {
-  removeNotification: Notifications.actions.remove,
-})(NotificationPill);
+export default connect<void, PropsFromDispatch>(
+  null,
+  {
+    removeNotification: Notifications.actions.remove,
+  }
+)(NotificationPill);

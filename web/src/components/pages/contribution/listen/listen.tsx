@@ -136,8 +136,8 @@ class ListenPage extends React.Component<Props, State> {
       hasPlayedSome: false,
       isPlaying: false,
       isSubmitted: clipIndex === SET_COUNT - 1,
-      clips: clips.map(
-        (clip, i) => (i === clipIndex ? { ...clip, isValid } : clip)
+      clips: clips.map((clip, i) =>
+        i === clipIndex ? { ...clip, isValid } : clip
       ),
     });
   };
@@ -165,11 +165,10 @@ class ListenPage extends React.Component<Props, State> {
     this.stop();
     removeClip(clips[this.getClipIndex()].id);
     this.setState({
-      clips: clips.map(
-        (clip, i) =>
-          this.getClipIndex() === i
-            ? { ...this.props.clips.slice(SET_COUNT)[0], isValid: null }
-            : clip
+      clips: clips.map((clip, i) =>
+        this.getClipIndex() === i
+          ? { ...this.props.clips.slice(SET_COUNT)[0], isValid: null }
+          : clip
       ),
     });
   };

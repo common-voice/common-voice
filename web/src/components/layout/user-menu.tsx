@@ -22,7 +22,9 @@ class UserMenu extends React.Component<PropsFromState> {
   hideMenu = () => this.setState({ showMenu: false });
 
   render() {
-    const { user: { account } } = this.props;
+    const {
+      user: { account },
+    } = this.props;
     return (
       <div
         className={'user-menu ' + (this.state.showMenu ? 'active' : '')}

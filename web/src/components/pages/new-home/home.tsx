@@ -54,7 +54,9 @@ class HomePage extends React.Component<PropsFromState, State> {
                     status={
                       activeHero === type
                         ? 'active'
-                        : activeHero ? 'compressed' : null
+                        : activeHero
+                        ? 'compressed'
+                        : null
                     }
                     onShow={this.showHandlerFor(type)}
                     onHide={this.hideHandlerFor(type)}

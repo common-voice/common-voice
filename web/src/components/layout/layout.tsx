@@ -123,7 +123,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
       this.bg.style.transform = `scaleY(1)`;
       return;
     }
-    const scale = Math.max(1.3 * (this.volume - 28) / 100, 0);
+    const scale = Math.max((1.3 * (this.volume - 28)) / 100, 0);
     this.bg.style.transform = `scaleY(${scale})`;
     requestAnimationFrame(this.renderBackground);
 
@@ -222,37 +222,33 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
 
     return (
       <div id="main" className={className}>
-        {isIOS() &&
-          !isNativeIOS() &&
-          !isSafari() && (
-            <div
-              id="install-app"
-              onClick={this.openInApp}
-              ref={div => {
-                this.installApp = div as HTMLElement;
-              }}>
-              Open in App
-              <a onClick={this.closeOpenInApp}>X</a>
-            </div>
-          )}
-        {window.location.hostname == 'voice.allizom.org' &&
-          showStagingBanner && (
-            <div className="staging-banner">
-              You're on the staging server. Voice data is not collected here.{' '}
-              <a href="https://voice.mozilla.org" target="_blank">
-                Don't waste your breath.
-              </a>{' '}
-              <a
-                href="https://github.com/mozilla/voice-web/issues/new"
-                target="_blank">
-                Feel free to report issues.
-              </a>{' '}
-              <button
-                onClick={() => this.setState({ showStagingBanner: false })}>
-                Close
-              </button>
-            </div>
-          )}
+        {isIOS() && !isNativeIOS() && !isSafari() && (
+          <div
+            id="install-app"
+            onClick={this.openInApp}
+            ref={div => {
+              this.installApp = div as HTMLElement;
+            }}>
+            Open in App
+            <a onClick={this.closeOpenInApp}>X</a>
+          </div>
+        )}
+        {window.location.hostname == 'voice.allizom.org' && showStagingBanner && (
+          <div className="staging-banner">
+            You're on the staging server. Voice data is not collected here.{' '}
+            <a href="https://voice.mozilla.org" target="_blank">
+              Don't waste your breath.
+            </a>{' '}
+            <a
+              href="https://github.com/mozilla/voice-web/issues/new"
+              target="_blank">
+              Feel free to report issues.
+            </a>{' '}
+            <button onClick={() => this.setState({ showStagingBanner: false })}>
+              Close
+            </button>
+          </div>
+        )}
         <header
           className={
             !isMenuVisible &&
@@ -318,21 +314,20 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
           id="navigation-modal"
           className={this.state.isMenuVisible ? 'active' : ''}>
           <Nav>
-            {!user.account &&
-              LOCALES.length > 1 && (
-                <LabeledSelect
-                  className="language-select"
-                  value={locale}
-                  onChange={(event: any) =>
-                    this.selectLocale(event.target.value)
-                  }>
-                  {LOCALES_WITH_NAMES.map(([code, name]) => (
-                    <option key={code} value={code}>
-                      {name}
-                    </option>
-                  ))}
-                </LabeledSelect>
-              )}
+            {!user.account && LOCALES.length > 1 && (
+              <LabeledSelect
+                className="language-select"
+                value={locale}
+                onChange={(event: any) =>
+                  this.selectLocale(event.target.value)
+                }>
+                {LOCALES_WITH_NAMES.map(([code, name]) => (
+                  <option key={code} value={code}>
+                    {name}
+                  </option>
+                ))}
+              </LabeledSelect>
+            )}
           </Nav>
         </div>
       </div>

@@ -80,7 +80,9 @@ class Hero extends React.Component<
       className: 'toggleable ' + className,
       style: showToMeasure
         ? {}
-        : status === 'active' ? dimensions[i] : { width: 0, height: 0 },
+        : status === 'active'
+        ? dimensions[i]
+        : { width: 0, height: 0 },
     };
   }
 

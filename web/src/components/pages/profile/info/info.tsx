@@ -312,28 +312,25 @@ class ProfilePage extends React.Component<Props, State> {
                   />
                 </Localized>
 
-                {!user.account &&
-                  !isSubmitted && (
-                    <React.Fragment>
-                      <LabeledCheckbox
-                        label={
-                          <Localized
-                            id="accept-privacy"
-                            privacyLink={
-                              <LocaleLink to={URLS.PRIVACY} blank />
-                            }>
-                            <span />
-                          </Localized>
-                        }
-                        checked={privacyAgreed}
-                        onChange={this.handleChangeFor('privacyAgreed')}
-                      />
+                {!user.account && !isSubmitted && (
+                  <React.Fragment>
+                    <LabeledCheckbox
+                      label={
+                        <Localized
+                          id="accept-privacy"
+                          privacyLink={<LocaleLink to={URLS.PRIVACY} blank />}>
+                          <span />
+                        </Localized>
+                      }
+                      checked={privacyAgreed}
+                      onChange={this.handleChangeFor('privacyAgreed')}
+                    />
 
-                      <Localized id="read-terms-q">
-                        <LocaleLink to={URLS.TERMS} className="terms" blank />
-                      </Localized>
-                    </React.Fragment>
-                  )}
+                    <Localized id="read-terms-q">
+                      <LocaleLink to={URLS.TERMS} className="terms" blank />
+                    </Localized>
+                  </React.Fragment>
+                )}
               </div>
             </div>
 

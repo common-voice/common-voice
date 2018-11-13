@@ -10,9 +10,12 @@ interface NotificationProps {
   addNotification: typeof Notifications.actions.add;
 }
 
-export const LoginFailure = connect<void, NotificationProps>(null, {
-  addNotification: Notifications.actions.add,
-})(
+export const LoginFailure = connect<void, NotificationProps>(
+  null,
+  {
+    addNotification: Notifications.actions.add,
+  }
+)(
   withRouter(
     class extends React.Component<
       NotificationProps & RouteComponentProps<any>

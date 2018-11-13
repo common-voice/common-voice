@@ -119,10 +119,12 @@ class ProfileForm extends React.Component<Props, State> {
 
     const isModified =
       accent !== user.accents[shownLocale] ||
-      userFormFields.filter(k => k !== 'accent').some(key => {
-        const typedKey = key as keyof EditableUser;
-        return this.state[typedKey] !== user[typedKey];
-      });
+      userFormFields
+        .filter(k => k !== 'accent')
+        .some(key => {
+          const typedKey = key as keyof EditableUser;
+          return this.state[typedKey] !== user[typedKey];
+        });
 
     return (
       <div id="profile-card">

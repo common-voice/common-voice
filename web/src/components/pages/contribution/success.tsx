@@ -75,7 +75,7 @@ class Success extends React.Component<Props, State> {
     if (!this.startedAt) this.startedAt = time;
     const { contributionCount } = this.state;
     const newCount = Math.min(
-      Math.ceil(contributionCount * (time - this.startedAt) / COUNT_UP_MS),
+      Math.ceil((contributionCount * (time - this.startedAt)) / COUNT_UP_MS),
       contributionCount
     );
     this.setState({
@@ -90,7 +90,7 @@ class Success extends React.Component<Props, State> {
     const { getString, hasEnteredInfo, onReset, type } = this.props;
     const { contributionCount, currentCount } = this.state;
     const finalPercentage = Math.ceil(
-      100 * (contributionCount || 0) / DAILY_GOAL[type]
+      (100 * (contributionCount || 0)) / DAILY_GOAL[type]
     );
 
     const ContributeMoreButton = (props: { children: React.ReactNode }) =>
@@ -126,8 +126,7 @@ class Success extends React.Component<Props, State> {
           goalPercentage={
             <GoalPercentage
               current={Math.ceil(
-                100 *
-                  (currentCount === null ? 0 : currentCount) /
+                (100 * (currentCount === null ? 0 : currentCount)) /
                   DAILY_GOAL[type]
               )}
               final={finalPercentage}
