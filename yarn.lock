@@ -199,9 +199,10 @@
     "@types/history" "*"
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^16.1.0":
-  version "16.7.1"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.7.1.tgz#ae76b653d1d7d26b32186bba33c39745316bcdc4"
+"@types/react@*", "@types/react@^16.7.3":
+  version "16.7.3"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.7.3.tgz#dd96b19b21c450fab7d136f71d48f4b8fc72777e"
+  integrity sha512-ve/2lnXuLNaTDR1SPvsEX25m+NoNW3PMJxL2jd372UR8oJPwR5+jgtcheUoN27O+qKLFmQy0y0YKRwZcwtny3w==
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
@@ -3705,9 +3706,10 @@ hoist-non-react-statics@^2.5.0:
   version "2.5.5"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-2.5.5.tgz#c5903cf409c0dfd908f388e619d86b9c1174cb47"
 
-hoist-non-react-statics@^3.0.0:
+hoist-non-react-statics@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.1.0.tgz#42414ccdfff019cd2168168be998c7b3bd5245c0"
+  integrity sha512-MYcYuROh7SBM69xHGqXEwQqDux34s9tz+sCnxJmN18kgWh6JFdTw/5YdZtqsOdZJXddE/wUpCzfEdDrJj8p0Iw==
   dependencies:
     react-is "^16.3.2"
 
@@ -7148,14 +7150,15 @@ react-dev-utils@^6.1.1:
     strip-ansi "4.0.0"
     text-table "0.2.0"
 
-react-dom@^16.3.0:
-  version "16.6.1"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.6.1.tgz#5476e08694ae504ae385a28b62ecc4fe3a29add9"
+react-dom@^16.6.3:
+  version "16.6.3"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.6.3.tgz#8fa7ba6883c85211b8da2d0efeffc9d3825cccc0"
+  integrity sha512-8ugJWRCWLGXy+7PmNh8WJz3g1TaTUt1XyoIcFN+x0Zbkoz+KKdUyx1AQLYJdbFXjuF41Nmjn5+j//rxvhFjgSQ==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "^0.11.0"
+    scheduler "^0.11.2"
 
 react-error-overlay@^5.1.0:
   version "5.1.0"
@@ -7178,12 +7181,13 @@ react-modal@^3.1.2:
     react-lifecycles-compat "^3.0.0"
     warning "^3.0.0"
 
-react-redux@^5.0.7:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-5.1.0.tgz#948b1e2686473d1999092bcfb32d0dc43d33f667"
+react-redux@^5.1.1:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-5.1.1.tgz#88e368682c7fa80e34e055cd7ac56f5936b0f52f"
+  integrity sha512-LE7Ned+cv5qe7tMV5BPYkGQ5Lpg8gzgItK07c67yHvJ8t0iaD9kPFPAli/mYkiyJYrs2pJgExR2ZgsGqlrOApg==
   dependencies:
     "@babel/runtime" "^7.1.2"
-    hoist-non-react-statics "^3.0.0"
+    hoist-non-react-statics "^3.1.0"
     invariant "^2.2.4"
     loose-envify "^1.1.0"
     prop-types "^15.6.1"
@@ -7223,14 +7227,15 @@ react-tippy@^1.2.2:
   dependencies:
     popper.js "^1.11.1"
 
-react@^16.3.0:
-  version "16.6.1"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.6.1.tgz#ee2aef4f0a09e494594882029821049772f915fe"
+react@^16.6.3:
+  version "16.6.3"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.6.3.tgz#25d77c91911d6bbdd23db41e70fb094cc1e0871c"
+  integrity sha512-zCvmH2vbEolgKxtqXL2wmGCUxUyNheYn/C+PD1YAjfxHC54+MhdruyhO7QieQrYsYeTxrn93PM2y0jRH1zEExw==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "^0.11.0"
+    scheduler "^0.11.2"
 
 read-cache@^1.0.0:
   version "1.0.0"
@@ -7743,9 +7748,10 @@ sax@>=0.6.0, sax@^1.2.4, sax@~1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
 
-scheduler@^0.11.0:
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.11.0.tgz#def1f1bfa6550cc57981a87106e65e8aea41a6b5"
+scheduler@^0.11.2:
+  version "0.11.2"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.11.2.tgz#a8db5399d06eba5abac51b705b7151d2319d33d3"
+  integrity sha512-+WCP3s3wOaW4S7C1tl3TEXp4l9lJn0ZK8G3W3WKRWmw77Z2cIFUW2MiNTMHn5sCjxN+t7N43HAOOgMjyAg5hlg==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
