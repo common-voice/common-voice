@@ -188,11 +188,14 @@ female = స్త్రీ
 other = ఇతర
 why-profile-title = ప్రొఫైల్ ఎందుకు?
 why-profile-text = మీ గురించి కొంత సమాచారాన్ని ఇవ్వడం వల్ల, కామన్ వాయిస్‌కు మీరు సమర్పించే ఆడియో డేటా, స్పీచ్ రికగ్నిషన్ ఇంజన్లు వాటి ఖచ్చితత్వాన్ని మెరుగుపరచుకోవడంలో బాగా ఉపయోగపడుతుంది.
+profile = ప్రొఫైలు
 edit-profile = ప్రొఫైల్‌ను సవరించు
 profile-create = ప్రొఫైలు సృష్టింపు
 profile-create-success = విజయవంతం, ప్రొఫైల్ సృష్టించబడింది!
 profile-close = మూసివేయి
 profile-clear-modal = మీ ప్రొఫైల్ డేటాను క్లియర్ చేస్తే, ఇకపై ఈ డెమోగ్రాఫిక్ సమాచారం మీ క్లిప్ రికార్డింగులతో కామన్ వాయిస్‌కు సమర్పించబడదు.
+off = ఆఫ్
+on = ఆన్
 
 ## FAQ
 
@@ -249,21 +252,6 @@ data-bundle-button = డేటాసెట్ బండిల్‌ను ది
 data-bundle-description = Common Voice డేటా, దానితోపాటు పైన ఉన్న అన్ని ఇతర వాయిస్ డేటాసెట్లు.
 license = లైసెన్సు: <licenseLink>{ $license }</licenseLink>
 license-mixed = మిశ్రమం
-
-## Record Page
-
-record-platform-not-supported = మమ్మల్ని క్షమించండి, కానీ మీ ప్లాట్ఫాంకి  ప్రస్తుతం మద్దతు లేదు.
-record-platform-not-supported-desktop = డెస్కుటాపు కంప్యూటర్లలో, మీరు తాజావి డౌన్లోడ్ చేసుకోవచ్చు:
-record-platform-not-supported-ios = <bold>ఐఓఎస్</bold> వాడుకరులు మా ఉచిత అనువర్తనాన్ని దింపుకోవచ్చు:
-record-must-allow-microphone = మీరు మైక్రోఫోన్ వినడానికి అనుమతించాలి.
-record-retry = తిరిగిప్రయత్నించు
-record-no-mic-found = మైక్రోఫోన్ కనుగొనబడలేదు.
-record-error-too-short = రికార్డింగ్ చాలా చిన్నగా ఉంది.
-record-error-too-long = రికార్డింగ్ చాలా పొడవుగా ఉంది.
-record-error-too-quiet = రికార్డింగ్ చాలా నిశ్శబ్దంగా ఉంది.
-record-submit-success = విజయవంతంగా సమర్పించబడింది! మళ్ళీ రికార్డ్ చెయ్యాలనుకుంటున్నారా?
-record-help = దయచేసి రికార్డు చేయడానికి తాకండి, తర్వాత పైన వాక్యాన్ని గట్టిగా చదవండి.
-record-cancel = రీ-రికార్డింగ్‌ను రద్దుచేయి
 review-terms = కామన్ వాయస్ వాడటం ద్వారా, మీరు మా <termsLink>నియమాలను</termsLink>, <privacyLink>గోప్యతా ప్రకటన</privacyLink>ను అంగీకరిస్తున్నారు
 terms-agree = నేను అంగీకరిస్తున్నాను
 terms-disagree = నేను అంగీకరించడం లేదు
@@ -315,6 +303,7 @@ language-total-progress = మొత్తం
 language-search-input =
     .placeholder = వెతుకు
 language-speakers = మాట్లాడేవారు
+localized = స్థానీకీకృతం
 sentences = వాక్యాలు
 total-hours = మొత్తం గంటలు
 
@@ -331,6 +320,15 @@ contribute-more =
         [one] ఇంకో { $count } చెయ్యడానికి తయారుగా ఉన్నారా?
        *[other] ఇంకో { $count } చెయ్యడానికి తయారుగా ఉన్నారా?
     }
+record-platform-not-supported = మమ్మల్ని క్షమించండి, కానీ మీ ప్లాట్ఫాంకి  ప్రస్తుతం మద్దతు లేదు.
+record-platform-not-supported-desktop = డెస్కుటాపు కంప్యూటర్లలో, మీరు తాజావి డౌన్లోడ్ చేసుకోవచ్చు:
+record-platform-not-supported-ios = <bold>ఐఓఎస్</bold> వాడుకరులు మా ఉచిత అనువర్తనాన్ని దింపుకోవచ్చు:
+record-must-allow-microphone = మీరు మైక్రోఫోన్ వినడానికి అనుమతించాలి.
+record-no-mic-found = మైక్రోఫోన్ కనుగొనబడలేదు.
+record-error-too-short = రికార్డింగ్ చాలా చిన్నగా ఉంది.
+record-error-too-long = రికార్డింగ్ చాలా పొడవుగా ఉంది.
+record-error-too-quiet = రికార్డింగ్ చాలా నిశ్శబ్దంగా ఉంది.
+record-cancel = రీ-రికార్డింగ్‌ను రద్దుచేయి
 record-three-more-instruction = ఇంకా మూడే ఉన్నాయి!
 record-last-instruction = <recordIcon></recordIcon> చివరిది!
 unable-speak = ఇప్పుడు మాట్లాడలేకపోతున్నారా?
