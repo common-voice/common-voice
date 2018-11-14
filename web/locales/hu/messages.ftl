@@ -225,6 +225,8 @@ profile-form-gender =
     .label = Nem
 leaderboard-visibility =
     .label = Ranglista láthatósága
+hidden = Rejtett
+visible = Látható
 native-language =
     .label = Anyanyelv
 profile-form-submit-save = Mentés
@@ -237,6 +239,8 @@ female = Nő
 other = Egyéb
 why-profile-title = Miért kell a profil?
 why-profile-text = Azáltal, hogy megad néhány adatot magáról, a hangminták, amiket a Common Voice részére beküld hasznosabbak lesznek a hangfelismerő rendszerek számára, melyek a pontosságuk javítására használják a hangmintákat.
+profile = Profil
+preferences = Beállítások
 edit-profile = Profil szerkesztése
 profile-create = Profil létrehozása
 profile-create-success = Profil sikeresen létrehozva!
@@ -263,6 +267,7 @@ browse-file = Fogjon és vigyen elemet, vagy <browseWrap>Tallózzon</browseWrap>
 connect-gravatar = Kapcsolódás a Gravatarral
 gravatar_not_found = Nem található gravatar az e-mail címéhez
 file_too_large = A kiválasztott fájl túl nagy
+manage-subscriptions = Feliratkozások kezelése
 
 ## FAQ
 
