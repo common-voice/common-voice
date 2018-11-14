@@ -83,5 +83,11 @@ export default () => (
       }>
       <p />
     </Localized>
+
+    <a
+      href="https://voice.allizom.org"
+      style={{ color: 'rgba(0, 0, 0, 0.05)' }}>
+      Go to staging
+    </a>
   </div>
 );
