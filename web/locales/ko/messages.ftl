@@ -119,6 +119,7 @@ link-copied = 링크 복사됨
 back-top = 처음으로 돌아가기
 contribution-banner-button = 살펴보기
 report-bugs-link = 버그 신고
+logout = 로그아웃
 
 ## Home Page
 
