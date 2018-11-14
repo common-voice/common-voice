@@ -511,23 +511,28 @@ export default class DB {
     return row;
   }
 
-  async getDailyClipsCount() {
+  async getDailyClipsCount(locale?: string) {
     return (await this.mysql.query(
       `
         SELECT COUNT(id) AS count
         FROM clips
         WHERE created_at >= CURDATE() AND created_at < CURDATE() + INTERVAL 1 DAY
-      `
+        ${locale ? 'AND locale_id = ?' : ''}
+      `,
+      locale ? [await getLocaleId(locale)] : []
     ))[0][0].count;
   }
 
-  async getDailyVotesCount() {
+  async getDailyVotesCount(locale?: string) {
     return (await this.mysql.query(
       `
-        SELECT COUNT(id) AS count
+        SELECT COUNT(votes.id) AS count
         FROM votes
-        WHERE created_at >= CURDATE() AND created_at < CURDATE() + INTERVAL 1 DAY
-      `
+        LEFT JOIN clips on votes.clip_id = clips.id
+        WHERE votes.created_at >= CURDATE() AND votes.created_at < CURDATE() + INTERVAL 1 DAY
+        ${locale ? 'AND locale_id = ?' : ''}
+      `,
+      locale ? [await getLocaleId(locale)] : []
     ))[0][0].count;
   }
 

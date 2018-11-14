@@ -49,9 +49,65 @@
         }
 
         & h1 {
+            margin-right: 18px;
             font-family: var(--strong-font-family);
             font-size: var(--font-size-xxl);
             font-weight: normal;
+        }
+
+        & .underlined {
+            border-bottom: 1px solid var(--darker-grey);
+            width: 100%;
+            height: 33px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+
+        & .languages {
+            & span,
+            & select {
+                margin-right: 33px;
+                padding-bottom: 13px;
+                font-size: 14px;
+                color: var(--warm-grey);
+
+                & :last-child {
+                    margin-right: 0;
+                }
+            }
+
+            & label span,
+            & select {
+                font-size: var(--font-size-xs);
+                text-transform: uppercase;
+                cursor: pointer;
+            }
+
+            & input {
+                display: none;
+            }
+
+            & input:checked + *,
+            & select.selected {
+                border-bottom: 1px solid var(--black);
+                color: var(--black);
+                font-weight: 600;
+            }
+
+            & select {
+                border: none;
+                padding-right: 25px;
+                appearance: none;
+                font-family: var(--base-font-family);
+                background-size: 10px;
+                background: url('/img/down-arrow.svg') no-repeat top 5px right
+                    5px;
+
+                & option[value='none'] {
+                    background: grey;
+                }
+            }
         }
     }
 

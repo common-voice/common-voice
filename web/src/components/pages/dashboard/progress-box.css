@@ -3,7 +3,7 @@
 .progress-box {
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
 
-    &.clips {
+    &.speak {
         & .personal .numbers {
             color: var(--red);
         }
@@ -23,7 +23,7 @@
         }
     }
 
-    &.votes {
+    &.listen {
         & .personal .numbers {
             color: var(--valid-green);
         }
@@ -45,7 +45,7 @@
 
     & .personal,
     & .overall {
-        padding: 41px 20px 41px 120px;
+        padding: 41px 20px 41px 123px;
 
         @media (--lg-down) {
             padding-left: 30px;
@@ -139,7 +139,7 @@
             color: var(--warm-grey);
         }
 
-        & button {
+        & .button {
             flex-grow: 100;
 
             @media (max-width: 1390px) {

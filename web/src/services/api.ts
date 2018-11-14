@@ -67,8 +67,12 @@ export default class API {
     return isJSON ? response.json() : response.text();
   }
 
+  forLocale(locale: string) {
+    return new API(locale, this.user);
+  }
+
   getLocalePath() {
-    return API_PATH + '/' + this.locale;
+    return this.locale ? API_PATH + '/' + this.locale : API_PATH;
   }
 
   getClipPath() {

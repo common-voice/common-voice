@@ -195,25 +195,23 @@ export default class Clip {
     response.json(await this.model.getValidatedHours());
   };
 
-  private serveDailyCount = async (request: Request, response: Response) => {
-    response.json(await this.model.db.getDailyClipsCount());
+  serveDailyCount = async (request: Request, response: Response) => {
+    response.json(
+      await this.model.db.getDailyClipsCount(request.params.locale)
+    );
   };
 
-  private serveDailyVotesCount = async (
-    request: Request,
-    response: Response
-  ) => {
-    response.json(await this.model.db.getDailyVotesCount());
+  serveDailyVotesCount = async (request: Request, response: Response) => {
+    response.json(
+      await this.model.db.getDailyVotesCount(request.params.locale)
+    );
   };
 
-  private serveClipsStats = async ({ params }: Request, response: Response) => {
+  serveClipsStats = async ({ params }: Request, response: Response) => {
     response.json(await this.model.getClipsStats(params.locale));
   };
 
-  private serveVoicesStats = async (
-    { params }: Request,
-    response: Response
-  ) => {
+  serveVoicesStats = async ({ params }: Request, response: Response) => {
     response.json(await this.model.getVoicesStats(params.locale));
   };
 }
