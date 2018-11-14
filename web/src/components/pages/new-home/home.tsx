@@ -31,6 +31,15 @@ class HomePage extends React.Component<PropsFromState, State> {
     showWallOfText: false,
   };
 
+  statsRef: React.RefObject<HTMLDivElement> = React.createRef();
+
+  componentDidMount() {
+    if (location.hash == '#stats') {
+      this.statsRef.current.scrollIntoView(true);
+      window.scrollBy(0, -130);
+    }
+  }
+
   showHandlerFor = (hero: HeroType) => () =>
     this.setState({ activeHero: hero });
   hideHandlerFor = (hero: HeroType) => () =>
@@ -123,7 +132,7 @@ class HomePage extends React.Component<PropsFromState, State> {
           </div>
         </div>
 
-        <div className="stats">
+        <div className="stats" ref={this.statsRef}>
           <ClipsStats.Root />
           <VoiceStats.Root />
         </div>
