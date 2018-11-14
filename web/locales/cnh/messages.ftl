@@ -156,17 +156,17 @@ today = Nihin
 x-weeks-short =
     { $count ->
         [one] Zarh
-       *[other] { $count }zarh
+       *[other] Zarh{ $count }
     }
 x-months-short =
     { $count ->
-        [one] thla
-       *[other] { $count }thla
+        [one] Thla
+       *[other] Thla{ $count }
     }
 x-years-short =
     { $count ->
-        [one] kum
-       *[other] { $count }kum
+        [one] Kum
+       *[other] Kum{ $count }
     }
 
 ## Speak & Listen Shortcuts
