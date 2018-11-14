@@ -10654,3 +10654,387 @@ Le principali tappe dell'evoluzione dell'azienda sono indubbiamente importanti.
 L'acquisizione della Ximian nell'autunno 2003.
 L'acquisizione di Suse a gennaio 2004.
 Hanno portato al perfezionamento dell'offerta dell'azienda.
+Lo slogan pubblicitario di allora recitava una bella frase.
+Windows ti darà immediatamente un presente più produttivo.
+Il costo della prima versione era di circa $99.
+Pochi mesi dopo viene presentato anche il foglio di calcolo Microsoft Excel per Macintosh.
+Windows che rende entusiasti i clienti.
+Forte del successo dei suoi prodotti la Microsoft alla fine del 1986 ha 1442 impiegati.
+Il 1987 è per la società un anno intenso.
+Viene rilasciata infatti la versione 2.0 di Microsoft Windows.
+La versione 2.0 di Microsoft Windows contiene una nutrita serie di miglioramenti.
+Viene annunciato OS/2, il nuovo sistema operativo disegnato e sviluppato espressamente per microprocessori.
+Intel 80286 e 80386 commercializzati da IBM.
+Il primo prodotto che nasce dall'accordo con IBM viene annunciato nell'agosto 1985.
+In base a tale accordo Bill Gates avrebbe dovuto mettere da parte il sistema operativo Windows per lo sviluppo di OS/2.
+In occasione del Comdex del 1989 a Las Vegas.
+Gates smentisce le affermazioni in proposito fatte dal manager dell'IBM.
+Il 22 maggio verrà presentata la versione 3.0 di Windows
+Con una teleconferenza mondiale da tre milioni di dollari.
+Mobiliterà seimila giornalisti con grandi schermi installati a Londra, Madrid, Milano, Parigi, Singapore e Stoccolma.
+La nuova versione di Windows è costata quasi 10 milioni di dollari.
+Spinta da una campagna pubblicitaria.
+Si venderanno più di 4 milioni di copie.
+Solo nel suo primo anno di vita conoscendo un successo senza precedenti.
+Il nuovo logo Microsoft Windows 3.0 diventerà il marchio identificativo della società da quel momento in avanti.
+Integrato in Windows 3.0.
+Sistema operativo che già si stava iniziando ad imporre come standard.
+Nel 1990 Gates annuncia il suo ritiro come presidente.
+Mentre lui continua a svolgere un ruolo di gestione dell'impresa.
+Sia come membro che come consulente per progetti strategici.
+Viene eletto presidente Michael R. Hallman.
+Gates si confermerà negli anni come il pilastro portante della società.
+Oltre che fondatore, ne è sempre stato il portavoce e il rappresentante.
+Senza Gates probabilmente la Microsoft non avrebbe mai potuto diventare la multinazionale che è attualmente.
+Nel novembre 1992 viene annunciata la versione di Windows per Workgoup 3.1.
+A livello mondiale.
+Funzioni di networking e gruppi di lavoro.
+Il prodotto consente attività in comune come spedire posta elettronica.
+Schedulare appuntamenti collettivi.
+Condividere files, gestire calendari e lavorare insieme a progetti.
+A breve viene annunciato anche il lancio di Microsoft Office.
+Nel ventesimo anniversario della società, nell'agosto 1995, viene rilasciato Windows 95.
+Il sistema presenta una rinnovata interfaccia grafica.
+È fortemente proiettato verso le reti sia Intranet che Internet.
+Nel primo anno ne vengono vendute più di 7 milioni di copie.
+La maggior parte degli utenti si dichiara molto soddisfatta.
+Il lancio è accompagnato da una campagna pubblicitaria.
+Culminata con l'apertura notturna dei negozi.
+Per permettere la vendita del prodotto allo scadere della mezzanotte.
+Nel 1998 esce quello che per anni sarà il più diffuso e più noto sistema operativo Microsoft, Windows 98.
+Viene rilasciata una seconda versione di Windows 98 seguita da una serie di patch.
+Entra in fase di maturità lo sviluppo di Windows NT, una versione del sistema pensata per i professionisti.
+Culminerà nel 2000 con il rilascio di Windows 2000 nelle due versioni Professional e Server.
+Nel 2000 esce anche Windows Millennium Edition.
+Una versione di Windows 98 migliorata nella grafica.
+La nuova versione della suite Office, Office 2000.
+Parallelamente, nel 1996, viene rilasciato Windows CE 1.0.
+Una versione del sistema operativo studiata per i palmari.
+Nel 2001 Microsoft rilascia la versione del sistema che ha destinato al mercato privato: Windows XP.
+Oltre ad un'interfaccia grafica ancora più accattivante il sistema presenta numerosi miglioramenti.
+Miglioramenti tutti volti a facilitare l'utilizzo del computer da parte degli utenti meno esperti.
+Enorme quantità di hardware supportata dal sistema.
+Decretando il successo insieme a Microsoft Office nella nuova versione XP, la posizione di monopolio della Microsoft.
+Le versioni Home e Professional di XP, lo rendono adatto alle diverse esigenze dell'utenza sia casalinga che professionale.
+Mentre per i sistemi server la Microsoft rilascia Windows Server 2003.
+Nella secondà metà del 2004 Microsoft propone al mercato una nuova visione del computer.
+Il pc "da salotto" pensato per realizzare la convergenza digitale nelle abitazioni.
+Windows Media Center 2005 commercializzato come sistema preinstallato su computer appositamente assemblati.
+Caratterizzati da un design che li renda simili a sistemi hi-fi o a videoregistratori.
+Ha come principale obiettivo rendere più facile la fruizione di contenuti multimediali.
+In realtà il sistema consiste in una particolare versione di Windows XP Professional.
+Una shell viene caricata all'avvio e presenta le varie opportunità disponibili.
+Video, immagini, televisione, musica, radio.
+Nonostante la varietà di modelli reperibili in commercio, il sistema non è riuscito ad affermarsi.
+Ora il Media Center di Microsoft è compreso in Windows Vista.
+Nella nuova versione del sistema operativo.
+Mercati di interesse.
+Microsoft nasce per la produzione di sistemi operativi ed ha sempre continuato il suo lavoro in questo campo.
+Con il passare degli anni ha differenziato sempre più la sua offerta.
+Il primo esperimento è stato fatto nel campo dell'automazione d'ufficio.
+Microsoft Office è riuscito ad affermarsi come uno dei prodotti di punta dell'azienda.
+Uno standard a livello mondiale.
+Contemporaneamente a questa espansione ne è stata tentata un'altra nel campo dell'intrattenimento.
+Produzione di videogiochi.
+A partire dal rilascio di Microsoft Flight Simulator nel 1983.
+In tempi più recenti l'azienda ha investito anche nello sviluppo di accessori hardware quali mouse, tastiere e joystick.
+Anche se questi prodotti non sono mai diventati fondamentali per la società.
+Ben maggiore successo Microsoft ha ottenuto con il suo ingresso nel mercato delle console per videogiochi.
+Avvenuto nel 2001 il lancio della console X-Box, che ha ottenuto un discreto successo nelle vendite.
+Non riuscendo mai ad insidiare la posizione di leader in questo campo di Sony con la console Playstation.
+Le nuove prospettive dell'azienda puntano al potenziamento dei sistemi operativi per tablet pc e palmari.
+Il ramo principale dei sistemi operativi non è mai stato abbandonato.
+È quello nel quale la società investe di più, soprattutto in ricerca e sviluppo.
+Le continue migliorie ai sistemi già in commercio.
+Le ultime novità sono state il rilascio di un programma antispyware e di un antivirus.
+Si integrano in Windows e il nuovo sistema di aggiornamento dei software.
+Oltre ad essere più efficiente.
+Permette di aggiornare solo i sistemi le cui licenze siano state regolarmente acquistate.
+Oltre ai rilasci di patch per la sicurezza.
+Sono affiancate dal continuo sviluppo di nuovi prodotti.
+È stata infatti rilasciata nel gennaio 2007 la nuova versione di Windows, Windows Vista.
+Nuova versione annunciata da Gates al Microsoft Global Briefing di Atlanta del luglio 2005.
+Sostenuta da un'imponente campagna pubblicitaria mondiale.
+Questa nuova versione del sistema operativo, destinata a sostituire Windows XP, è commercializzata in ben 7 edizioni.
+Diversificare ulteriormente l'offerta in base alle esigenze di singoli individui e aziende.
+Per evitare che il nuovo sistema operativo rilasciato dalla Apple aumenti la quota di mercato.
+Nel frattempo sono previsti il rilascio della nuova versione del sistema operativo destinata al mercato server.
+Per il 2008.
+Windows Server 2008 e il suo lancio.
+Per il 2010.
+Del successore di Vista, ovvero Windows 7.
+Microsoft sta inoltre cercando di allargare la sua quota di mercato per quanto riguarda le applicazioni internet.
+Da alcuni anni punta in questa prospettiva sul software di messaggistica istantanea MSN Live Messenger.
+Windows Live Messenger si appoggia al portale MSN.com e al servizio di posta gratuito di Hotmail.
+Microsoft, nonostante l'indiscusso successo dei suoi programmi, ha dovuto affrontare numerosi attacchi giudiziari.
+I risultati sono stati alterni, sia da parte dei concorrenti più vicini che da parte di diverse organizzazioni statali.
+Nel 1991 è la Commissione Federale per il Commercio americana che si interessa degli affari dell'azienda.
+Politiche monopoliste a favore del sistema operativo Windows.
+Il procedimento si concluderà dopo due anni, senza conseguenze, ma darà lo spunto a molte altre iniziative.
+Il cosiddetto "Content Decree", volto a ridurre la portata d'azione della Microsoft mediante lo smembramento della stessa.
+Nel 1995 un giudice federale invaliderà il decreto.
+Nel 1997 viene ricontestato a Microsoft l'accordo del 1994.
+la nuova accusa individua in Internet Explorer l'arma d'offesa monopolistica.
+Il browser sarebbe stato incluso in Windows allo scopo di scalzare il concorrente Netscape Navigator.
+Alla società viene imposto di consentire ai rivenditori la possibilità di non preinstallare Explorer.
+Dopo una serie di ricorsi Microsoft riuscirà ad evitare la sanzione.
+Nel frattempo molte aziende concorrenti, tra le quali spicca Sun Microsystem, intentano cause legali.
+Nel 1998 è l'indagine portata avanti dalla Commissione Antitrust europea a dare i primi frutti.
+Si pensa che la commercializzazione di Windows Media Player rischi di far pendere del tutto il mercato a favore di Microsoft.
+Potrebbe controllare i mercati connessi del settore dei media numerici, come quelli delle tecniche di codifica.
+Apparecchi di diffusione dei contenuti musicali su Internet.
+Gestione dei diritti numerici.
+La corte europea stabilisce una sanzione di quasi 500 milioni di euro per abuso di posizione dominante.
+La realizzazione di una versione ridotta di Windows, priva di Media Player.
+Obbligo di una maggiore informazione ai concorrenti per quanto riguarda i dettagli di programmazione.
+Integrazione dei programmi in Windows.
+Le sanzioni applicate sono state un primo passo per dare la possibilità ai concorrenti di far conoscere i propri prodotti.
+Starà ora all'azienda dimostrare che la sua quota di mercato è giustificata dalla reale qualità dei prodotti.
+Le polemiche sui brevetti.
+La panoramica sul mondo del software.
+La brevettabilità del software.
+Il brevetto è una forma di protezione per un'invenzione nata da esigenze prettamente industriali.
+La registrazione di un brevetto permette all'inventore di godere dello sfruttamento della propria invenzione per vent'anni.
+Rendendo la propria invenzione pubblica e replicabile in modo che possa portare un vantaggio alla collettività.
+Così recita una nota del commissario europeo Mario Monti.
+Windows XP N è disponibile in Europa dal 1° luglio 2005.
+Momentaneamente disponibile in cinque lingue della comunità.
+Microsoft ha specificato che, per scaricare i componenti rimossi, sarà sufficiente aggiornare il sistema.
+La disciplina dei brevetti limita il campo di applicazione degli stessi e fissa le norme per la validità delle registrazioni.
+Perché un brevetto sia valido questo deve presentare i requisiti di originalità, di industrialità e la riproducibilità.
+Descrivere accuratamente l'invenzione.
+Apportare vantaggi nella realizzazione di un prodotto materiale o nel processo produttivo.
+Per la tutela del software è sempre stata applicata la disciplina del diritto d'autore.
+il software non può essere considerato un'opera letteraria.
+La disciplina del diritto d'autore non permette la copia di parti di codice di un programma software.
+Permette di raggiungere lo stesso risultato di un software già in commercio applicando procedimenti diversi.
+Si pensi a quanti programmi esistano per l'elaborazione e la visualizzazione di testi e immagini digitali.
+Negli USA la registrazione di brevetti software è invece una pratica legale fin dagli anni '80.
+Le grandi aziende di informatica possiedono migliaia di brevetti che utilizzano per proteggere legalmente i propri prodotti.
+Non è rara la tolleranza da parte delle aziende di reciproche violazioni di brevetti.
+In Europa una norma specifica vieta i brevetti software.
+La non brevettabilità del software è stata messa in dubbio con la proposta della Commissione Europea di una direttiva.
+Nel febbraio 2002 proponeva la costituzione di un sistema di brevetti software simile a quello vigente negli USA.
+La proposta non ha mancato di scatenare aspri dibattiti sia tra i giuristi che tra gli esperti del settore informatico.
+La proposta è stata bocciata dal Parlamento Europeo nei suoi punti chiave il 24 settembre 2003.
+La Commissione Europea ha deciso di presentare la proposta al Consiglio dei Ministri dell'Unione Europea.
+Viene contestato sia in sede europea che all'interno delle commissioni dei singoli stati.
+Il complicato iter legislativo della direttiva viene nel febbraio del 2005 "azzerato".
+Richiesta della Commissione Giuridica del Parlamento Europeo di ridiscutere da capo la questione.
+A conclusione della vicenda il 6 luglio 2005 il Parlamento europeo respinge la proposta di direttiva.
+Indisponibili ad accettare le modifiche proposte dall'Europarlamento.
+Lo scontro tra i ministri europei e lo stesso Parlamento si è risolto con la bocciatura della direttiva.
+Per avere un'idea di quale sarebbe stato lo scenario europeo possiamo leggere la lettera scritta da Richard Stallman.
+Il pericolo di essere incriminati per le idee contenute nei software che essi sviluppano e usano.
+A differenza del copyright la brevettabilità del software consentirebbe un monopolio sull'uso di tecniche generiche.
+Un programma complesso è la combinazione di migliaia di queste tecniche.
+Un programma complesso può infrangere centinaia di brevetti in un colpo solo.
+Secondo uno studio svolto lo scorso anno il Kernel di Linux infrangerebbe 283 brevetti USA.
+La barra progressiva è stata brevettata all'Ufficio Europeo dei Brevetti.
+Le pressioni per la brevettabilità del software provengono principalmente dalle multinazionali dell'informatica.
+Esse vogliono la brevettabilità del software perché ognuna ne detiene migliaia negli USA e li vuole importare in Europa.
+I brevetti degli Stati Uniti riguardano soltanto ciò che è fatto negli Stati Uniti.
+Attualmente gli Americani non possono avere brevetti software Europei e quindi attaccare gli Europei.
+Come si evince anche dalla lettera, l'Ufficio Brevetti Europeo è andato concedendo più di 30000 brevetti.
+Finora questi brevetti non hanno avuto alcun effetto pratico poiché sono fuori legge.
+La maggior parte dei brevetti depositati appartiene a multinazionali statunitensi e giapponesi.
+Multinazionali statunitensi e giapponesi sperano di poterli sfruttare per acquisire una forte posizione nel mercato europeo.
+le royalties per un brevetto possono gravare di diversi punti percentuali sul costo totale del prodotto.
+Un'azienda che dovesse pagare la concorrente per un brevetto chiave partirebbe immediatamente svantaggiata.
+Inoltre solo aziende di gradi dimensioni hanno la possibilità di sostenere le spese per l'ottenimento di un brevetto.
+Il panorama europeo del settore software è composto da un'innumerevole quantità di piccole aziende.
+In caso di legalizzazione dei brevetti software le piccole aziende sarebbero destinate a scomparire.
+L'Europa è sempre vissuta nella dipendenza da software prodotto all'estero.
+Recentemente proprio lo sviluppo del software open source ha fatto intravedere nuove prospettive.
+Le società europee si stanno dimostrando all'altezza anche delle aspettative dei governi e degli enti pubblici.
+Favorendo lo sviluppo del settore e nello stesso tempo accentuando la concorrenza all'interno dello stesso.
+La decisione del Parlamento Europeo non abbia favorito solo gli addetti al settore, ma anche lo sviluppo di tutto il mercato.
+Il software, in quanto tale, riceve adeguata protezione dalle norme sul diritto d'autore.
+Una tutela brevettuale andrebbe a discapito dell'innovazione e dello sviluppo tecnologico.
+Negli ultimi anni numerose Pubbliche Amministrazioni sono migrate a sistemi operativi e ad applicazioni Open Source.
+La Comunità Europea ha creato una commissione di studio per la valutazione dell'adozione di software open source.
+Le motivazioni dell'adozione open source vanno oltre il fattore economico.
+Innanzitutto menzioniamo come vantaggio del software libero rispetto a quello proprietario la riduzione dei costi.
+Altri costi vengono in ogni caso sostenuti per la manutenzione, la personalizzazione o la scrittura del software.
+Un fattore importante è sicuramente la maggior sicurezza del software open source.
+La possibilità di accesso diretto al codice sorgente e dalla conseguente controllabilità dello stesso.
+Il singolo sviluppatore si occupa della revisione del programma.
+La revisione del programma può essere fatta anche da un tecnico che si accorga della presenza di un problema.
+Creazione e distribuzione più rapida delle patch di correzione rispetto ai tempi abituali.
+L'aggiornamento del sistema risulta spesso più rapido e semplificato, oltre che più conveniente dal punto di vista economico.
+Spesso gli aggiornamenti di versione non sono a pagamento perché considerati semplici miglioramenti del software esistente.
+La gestione della multiutenza, fondamentale per il lavoro di una Pubblica Amministrazione.
+Questi sistemi sono stati sviluppati inizialmente per essere utilizzati su macchine server.
+La Pubblica Amministrazione ha la possibilità di avvantaggiarsi molto anche grazie all'alta flessibilità di questi software.
+Potendo personalizzare i sistemi e i programmi è possibile utilizzare in modo ottimale le risorse.
+Eventualmente è possibile utilizzare vecchio hardware per le operazioni che non richiedono elevate potenzialità di calcolo.
+Un problema che rischia di affliggere la Pubblica Amministrazione è quello del cosiddetto "vendor tie-in".
+La modalità di salvataggio dei dati spesso risulta leggibile solamente attraverso l'applicazione che li ha generati.
+Si crea un duplice problema.
+Da una parte vengono meno la riservatezza dei dati e la proprietà dell'informazione.
+Da una parte l'ente si trova ad essere troppo dipendente dall'azienda produttrice del software in uso.
+Perdendo così buona parte del suo potere di contrattazione.
+Si pongono però, per una Pubblica Amministrazione come per realtà diverse, altre problematiche relative ad una migrazione.
+Il passaggio a software open source può essere troppo oneroso in termini di risorse, e quindi non conveniente.
+Si tratta soprattutto dei casi nei quali si ha un utilizzo diffuso di applicazioni proprietarie.
+Applicazioni che non siano sostituibili con corrispondenti open source.
+La spesa sostenuta potrebbe non essere stata ancora ammortizzata.
+La situazione di ogni singola realtà deve essere attentamente analizzata.
+Diventano di importanza cruciale le attività preliminari di indagine e di pianificazione.
+Valutare in primis la possibilità del cambiamento e i possibili problemi che potrebbero portare.
+Negli ultimi anni le Pubbliche Amministrazioni di tutto il mondo hanno cominciato ad interessarsi al software open-source.
+Cogliendo nel software open source la possibilità di aumentare la sicurezza e l'interoperabilità dei propri sistemi.
+Riducendo i costi totali di mantenimento delle strutture.
+Tra i paesi interessati esterni alla Comunità Europea troviamo gli Stati Uniti.
+Gli Stati Uniti hanno istituito gruppi di lavoro e centri che collaborano attivamente con le Pubbliche Amministrazioni.
+In Oriente, la Cina supporta distribuzioni GNU/Linux nazionali, in particolare Elx Linux.
+I maggiori istituti bancari ed altre agenzie statali hanno deciso di optare per soluzioni basate sull'open source.
+Visto l'interesse dei governi asiatici a staccarsi dalla dipendenza da Windows considerato troppo insicuro.
+Asianux56 è il sistema operativo Linux che si propone di sostituire le soluzioni Microsoft nell'estremo oriente.
+Nelle Filippine è stato adottato con successo software open source per la Pubblica Amministrazione e per le scuole.
+Un caso che ha suscitato molto interesse è quello del Brasile, che ha introdotto l'obbligo di adottare software open source.
+Lo stesso governo ha inoltre avviato il progetto "PC Conectado".
+L'alfabetizzazione informatica della popolazione attraverso l'acquisto di pc con preinstallato software open source.
+La creazione di laboratori informatici aperti al pubblico.
+Laboratori informazioni all'interno dei quali fornire la possibilità di frequentare corsi sull'utilizzo del computer.
+All'interno della Comunità Europea quasi tutti i paesi hanno implementato software open source nelle proprie infrastrutture.
+La Germania è il paese europeo con la politica più favorevole all'uso del software open source.
+L'agenzia di coordinazione e consulenza è impegnata nel progetto di promozione del software open source.
+Del Governo Federale Tedesco.
+Nell'Amministrazione Pubblica il Parlamento Federale Tedesco ha concluso un accordo in partnership con IBM e SuSe.
+Nell'Amministrazione Pubblica il Parlamento Federale Tedesco adotta solo sistemi Linux per le nuove installazioni.
+Utilizzano software open source sia le ferrovie nazionali che le poste.
+In Francia il software open source è diffuso fin dal 1999.
+Diversi Ministeri hanno ormai completato la migrazione dei propri server verso un'infrastruttura completamente open source.
+Nel 2005 su ben 80000 postazioni dell'Agenzia delle Entrate francese era stato installato OpenOffice.
+Il Parlamento francese ha effettuato la migrazione di un migliaio di postazioni alla distribuzione Linux Ubuntu.
+Il comune di Monaco di Baviera nel maggio 2003 ha effettuato la migrazione a Linux di 14000 sistemi desktop.
+In Francia il Ministero della Difesa ha adottato la soluzione FreeBSD sui suoi sistemi IT.
+Il Ministero della Giustizia e il "Casier Judiciaire National" usano applicazioni basate su soluzioni open source.
+il Ministero dell'Economia, Finanza e Industria, stanno migrando server e workstation su piattaforma Red Hat.
+La decisione è stata presa dal Parlamento solo dopo aver ascoltato il parere della società di consulenza Atos Origin.
+In Spagna il Ministero della Pubblica Amministrazione ha deciso di migrare verso un sistema operativo open source.
+la scelta è caduta sulla distribuzione Linux Debian, giudicata adatta per l'affidabilità e la sicurezza.
+Esistono numerosi progetti di implementazione di software open source.
+In Inghilterra il governo ha emanato nel 2002 linee guida che prevedono di considerare le soluzioni open source.
+In Olanda il governo ha stabilito il 2008 come anno di migrazione dei propri sistemi informatici verso software open source.
+L'iniziativa riguarda sia le strutture del governo che le attività di tutte le agenzie governative.
+In Olanda sarà possibile l'adozione di software proprietario solo per esigenze esplicitamente dichiarate e motivate.
+La finalità è quella di svincolare la Pubblica Amministrazione dalla dipendenza da software e sistemi operativi specifici.
+Il risparmio annuo stimato ammonta a 8,8 milioni di euro.
+Il software open source deve essere considerato alla pari del software proprietario.
+Tutto il software da adottare deve essere valutato sulla base del rapporto tra costi e benefici.
+In Italia il CNIPA rappresenta un punto di riferimento per le iniziative in materia di software libero a livello statale.
+in particolare il CNIPA si occupa di monitorare l'offerta di software open source sul mercato italiano.
+L'avvicinamento della Pubblica Amministrazione italiana al software libero inizia nel giugno 2002.
+Va fatta un'approfondita valutazione sulla strategia open source per la Pubblica Amministrazione.
+Caratteristiche intrinseche derivanti dalle stesse modalità di sviluppo e di evoluzione.
+I prodotti open source determinano vantaggi in termini di contenimento dei prezzi trasparenza, e quindi sicurezza.
+I prodotti open source determinano vantaggi in termini di non dipendenza da un singolo fornitore e elevata riusabilità.
+I prodotti open source determinano vantaggi in termini di accessibilità per le piccole realtà di sviluppo.
+Economie locali.
+la Pubblica Amministrazione può immediatamente rivolgersi al mercato dei prodotti open source.
+Prodotti open source per ridurre in modo consistente e rapido i costi di acquisizione e gestione di applicazioni software.
+Le piattaforme per servizi web.
+Ambienti operativi dai computer ai sistemi centrali, a molti strumenti di produttività individuale.
+Commissione per il Software a Codice Sorgente Aperto nella Pubblica Amministrazione.
+Il mantenimento del software attualmente in uso.
+Valutare l'adozione di alternative sulla base dell'analisi del rapporto tra costi e benefici.
+Dall'indagine è emersa una spesa per la Pubblica Amministrazione italiana di 675 milioni di euro.
+Il 61% della spesa totale è destinato al software realizzato specificatamente.
+Il 39% della spesa totale è destinato al software a licenza.
+Il 18 dicembre 2003 viene emanata la cosiddetta "Direttiva Stanca".
+Direttiva Stanca pubblicata poi sulla Gazzetta Ufficiale il 4 febbraio 2004.
+L'obiettivo di raggiungere vantaggi mediante la selezione dei programmi informatici che offrono più prestazioni.
+La direttiva porta l'Italia tra i primi Paesi al mondo a disporre di criteri in questo settore.
+Spiegava Stanca nel comunicato stampa.
+La direttiva prende in considerazione i significativi sviluppi delle tecnologie dell'informazione e della comunicazione.
+In particolare il processo di produzione si basa sulla disponibilità del codice sorgente aperto.
+Il processo di produzione ha come scopo quello di fornire un indirizzo univoco relativo alla scelta delle soluzioni.
+Predisposizione e acquisizione dei programmi informatici da parte delle Pubbliche Amministrazioni.
+Viene indicato come le Pubbliche Amministrazioni debbano tenere conto dell'offerta sul mercato.
+Nuova modalità di sviluppo e diffusione dei programmi informatici a codice sorgente aperto.
+Questa nuova tipologia d'offerta all'interno delle soluzioni tecniche contribuisce ad ampliare la gamma delle opportunità.
+Contribuisce ad ampliare le possibilità in un quadro di economicità, equilibrio, pluralismo e aperta competizione.
+Per chiarire il peso di questa iniziativa, Stanca spiegava che si tratta di favorire l'utilizzo di prodotti informatici.
+Promuovere il pluralismo del software nella Pubblica Amministrazione.
+La possibilità di scegliere soluzioni convenienti non solo in termini economici tra quelli disponibili sul mercato.
+Software proprietario e software aperto.
+Il software aperto consente di conformare i programmi alle nostre esigenze e di metterli anche a disposizione di altri.
+Nella "Direttiva Stanca per l'open source" erano presentate numerose proposte riguardanti l'acquisizione di software.
+Acquisizione di programmi informatici da parte delle Pubbliche Amministrazioni.
+Analisi comparativa delle diverse soluzioni disponibili sul mercato e i criteri tecnici.
+Veniva disposta, una valutazione comparativa tecnica ed economica tra le diverse soluzioni disponibili sul mercato.
+Le valutazioni in oggetto comprendevano il TCO delle singole soluzioni e il costo di uscita.
+Veniva tenuta in conto la possibilità di commissionare lo sviluppo di software ad hoc da riutilizzare in seguito.
+Acquisizione di software di tipo proprietario.
+Acquisizione effettuata quindi mediante l'acquisto di licenze di utilizzo.
+Il fornitore non fosse più in grado di fornire supporto.
+le Pubbliche Amministrazioni dovevano contrattualmente assicurarsi che il codice sorgente venisse reso disponibile.
+Dovevano essere privilegiate le soluzioni che assicurassero l'interoperabilità.
+Dovevano essere privilegiate le soluzioni che non rendessero i sistemi informatici dipendenti da un unico fornitore.
+Dovevano essere privilegiate le soluzioni che non rendessero i sistemi informatici dipendenti da un'unica tecnologia.
+Dovevano essere privilegiate le soluzioni che esportassero dati e documenti in più formati, di cui almeno uno di tipo aperto.
+La promozione dell'attuazione della "Direttiva Stanca" era affidata al "CNIPA", incaricato di fornire gli adeguati supporti.
+All'interno del CNIPA veniva inoltre costituito l'"Osservatorio Open Source" per la promozione di iniziative open source.
+Il maggior livello di penetrazione in Italia si ha nelle Pubbliche Amministrazioni locali.
+Iniziative ministeriali.
+Al febbraio 2008 risultano censite 65 esperienze significative di utilizzo di software open source.
+Il software Open Source nelle scuole.
+Le nuove tecnologie sono sempre più diffuse nella scuola.
+L'insegnamento dell'informatica già dalla scuola primaria.
+In seguito alla diffusione del software open source, in particolare modo nella Pubblica Amministrazione.
+Si sono registrati in molte scuole di diverso grado interessanti casi di migrazione al software libero.
+Migrazione al software libero dettata da motivazioni sia di ordine pratico che di ordine etico.
+La scelta del software è stata dettata infatti in passato da una molteplicità di motivazioni in parte tecniche.
+Per permettere l'avvicinamento delle scuole al mondo dell'ICT è nato l'"Osservatorio Tecnologico per la Scuola".
+Si propone di realizzare un collegamento stabile tra mondo accademico, ricerca, imprese della net-economy e scuola.
+L'Osservatorio Tecnologico, nasce in forma sperimentale nel 2000-2001 ad opera del MIUR.
+L'Osservatorio Tecnologico è un servizio disponibile agli utenti solo su Internet.
+È un portale che permette soprattutto la diffusione delle informazioni e delle esperienze maturate nelle singole scuole.
+Il servizio è realizzato mediante cooperazione a distanza da un gruppo di professionisti impegnati nell'ICT.
+Il servizio si rivolge non solo agli insegnanti ma anche ai dirigenti e ai direttori amministrativi delle scuole.
+Si ritiene che il software open source sia adatto al mondo della Pubblica Istruzione.
+Il software open source consente agli studenti di apprendere di più in quanto permette di "guardare dentro".
+Il software open source consente di capire meglio come funzionano i computer e i sistemi operativi.
+Il software open source permette di allargare le piattaforme di apprendimento degli studenti.
+Il software open source agevola il riutilizzo di sistemi hardware non recentissimi presenti nel mondo dell'istruzione.
+Il software open source aiuta ad abbassare i costi complessivi delle dotazioni hardware e software delle scuole.
+Il software open source è praticamente esente da virus.
+Realizzazione di un servizio a distanza per la documentazione sul software didattico.
+Costruzione di percorsi didattici basati sull'uso di software.
+La diffusione delle tecnologie informatiche in ambito scolastico ha portato una serie di riflessioni sulle scelte attuabili.
+In particolare possono essere evidenziati tre diversi ordini di motivazioni.
+Motivazioni economiche.
+L'adozione di software open source permette il totale abbattimento dei costi di licenza del software stesso.
+Nel caso di software proprietari i costi di licenza possono incidere notevolmente sulla spesa.
+Dato cheche non è necessario ottenere le licenze d'utilizzo, permette uno snellimento dei processi di adozione del software.
+Non è necessario approvare la spesa e quindi trovare eventuali finanziamenti.
+Il software open source non richieda macchine di ultima generazione.
+Diminuzione nel lungo periodo dei costi di rinnovo del parco macchine.
+Le spese di manutenzione delle macchine esistenti tendenzialmente diminuiscono.
+Sistemi ben configurati difficilmente possono essere attaccati da virus e malware.
+Nell'ambito scolastico è evidente la mancanza di figure specializzate che possano diventare di riferimento.
+Parte dei fondi risparmiati grazie all'adozione del software open source potrebbero essere spesi in formazione.
+Innescare un circolo virtuoso all'interno della scuola che porti al continuo miglioramento delle soluzioni adottate.
+Motivazioni tecnico formative.
+L'impatto della replicabilità delle soluzioni.
+Le soluzioni messe in pratica possono essere utilizzate da altre sedi o da altre realtà con un minimo sforzo.
+Non dvrà più essere studiata una soluzione, ma semplicemente ne verrà ricalcata una esistente dopo averne valutato la bontà.
+Dal punto di vista "formativo" risulta invece importante la verificabilità del software.
+Verificabilità del software permessa dalla possibilità di accesso al codice sorgente.
+La verificabilità permette di migliorare la sicurezza del software
+Procedure che permettono di far compiere determinate azioni al computer.
+Motivazioni culturali.
+Il modello di "condivisione del sapere".
+Il modello di software open source nasce in realtà dall'ideale di diffusione del sapere proprio della comunità scientifica.
+Istituzioni scolastiche.
+La libertà di copia, modifica e ridistribuzione non si applicano solamente al software.
+La libertà di copia, modifica e ridistribuzione possono essere utilizzate, ad esempio, anche per dei modelli didattici.
+Modelli didattici per diffonderli a beneficio di coloro che non ne hanno ancora creati di propri.
+Modelli didattici.
+Tutti possiamo fare affidamento sulla comunità scientifica che continuamente verifica le varie teorie per noi.
+La verificabilità della correttezza delle ipotesi e la ripetibilità degli esperimenti è il fondamento della scienza moderna.
+La verificabilità della correttezza delle ipotesi.
+Quindi il software libero funziona meglio perché è verificabile da una comunità di specialisti.
+Un altro punto che nelle scuole dovrebbe essere fondamentale è quello dell'educazione alla legalità.
