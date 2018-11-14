@@ -62,17 +62,35 @@
             display: flex;
             flex-direction: row;
             justify-content: flex-end;
+
+            @media (--xs-only) {
+                height: 100%;
+            }
         }
 
         & .languages {
-            & span,
-            & select {
+            @media (--xs-only) {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
+            & * {
                 margin-right: 33px;
                 padding-bottom: 13px;
                 font-size: 14px;
                 color: var(--warm-grey);
 
-                & :last-child {
+                @media (--xs-only) {
+                    font-size: var(--font-size-xs);
+                    margin-right: 0;
+
+                    &:first-child {
+                        padding-bottom: 3px;
+                    }
+                }
+
+                &:last-child {
                     margin-right: 0;
                 }
             }
@@ -93,16 +111,25 @@
                 border-bottom: 1px solid var(--black);
                 color: var(--black);
                 font-weight: 600;
+
+                @media (--xs-only) {
+                    border-bottom: 0;
+                }
             }
 
             & select {
                 border: none;
                 padding-right: 25px;
+                width: 0;
                 appearance: none;
                 font-family: var(--base-font-family);
                 background-size: 10px;
                 background: url('/img/down-arrow.svg') no-repeat top 5px right
                     5px;
+
+                @media (--md-down) {
+                    width: initial;
+                }
 
                 & option[value='none'] {
                     background: grey;
