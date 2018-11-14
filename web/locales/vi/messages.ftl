@@ -117,6 +117,7 @@ back-top = Trở về đầu trang
 contribution-banner-text = Chúng tôi vừa ra mắt một trải nghiệm đóng góp mới
 contribution-banner-button = Hãy xem qua
 report-bugs-link = Giúp báo cáo lỗi
+logout = Đăng Xuất
 
 ## Home Page
 
@@ -142,6 +143,8 @@ listen-paragraph = Việc xác thực các clip được đóng góp cũng quan 
 listen-goal-text = Clip đã xác thực
 hours-recorded = Số giờ đã ghi lại
 hours-validated = Số giờ đã xác thực
+todays-progress = Tiến độ của ngày hôm nay
+help-reach-goal = Giúp chúng tôi đạt được { $goal }
 read-terms-q = Bạn đã đọc Điều khoản của chúng tôi chưa?
 ready-to-record = Sẵn sàng đóng góp giọng nói của bạn?
 all-languages = Tất cả ngôn ngữ
@@ -215,6 +218,8 @@ profile-form-gender =
     .label = Giới tính
 leaderboard-visibility =
     .label = Hiển thị bảng thành tích
+hidden = Ẩn
+visible = Hiển thị
 native-language =
     .label = Tiếng mẹ đẻ
 profile-form-submit-save = Lưu
@@ -227,6 +232,9 @@ female = Nữ
 other = Khác
 why-profile-title = Tại sao phải tạo một hồ sơ?
 why-profile-text = Bằng cách cung cấp một số thông tin về bản thân bạn, dữ liệu âm thanh mà bạn gửi tới Common Voice sẽ hữu ích hơn đối với công cụ Nhận dạng giọng nói và cũng để cải thiện độ chính xác của chúng.
+profile = Hồ sơ
+avatar = Ảnh đại diện
+preferences = Tùy chỉnh
 edit-profile = Chỉnh sửa hồ sơ
 profile-create = Tạo hồ sơ
 profile-create-success = Thành công, hồ sơ đã được tạo!
@@ -249,6 +257,10 @@ skip-submission-description = Trong khi đóng góp, phản hồi của bài g�
 skip-submission-note = Lưu ý: Bạn vẫn cần chọn giữa Nói hoặc Nghe để thay đổi hình thức đóng góp.
 off = Tắt
 on = Bật
+browse-file = Kéo và thả hoặc <browseWrap>Duyệt</browseWrap>
+connect-gravatar = Kết nối với Gravatar
+gravatar_not_found = Không tìm thấy gravatar cho email của bạn
+file_too_large = Tệp đã chọn quá lớn
 
 ## FAQ
 
@@ -305,21 +317,6 @@ data-bundle-button = Tải Gói dữ liệu xuống
 data-bundle-description = Dữ liệu Common Voice cộng với tất cả các bộ dữ liệu giọng nói khác ở trên.
 license = Giấy phép: <licenseLink>{ $license }</licenseLink>
 license-mixed = Xáo trộn
-
-## Record Page
-
-record-platform-not-supported = Chúng tôi rất tiếc, nhưng thiết bị của bạn hiện không được hỗ trợ.
-record-platform-not-supported-desktop = Trên máy tính để bàn, bạn có thể tải xuống phiên bản mới nhất:
-record-platform-not-supported-ios = Người dùng <bold>iOS</bold> có thể tải xuống ứng dụng miễn phí của chúng tôi:
-record-must-allow-microphone = Bạn cần phải cho phép truy cập micrô.
-record-retry = Thử lại
-record-no-mic-found = Không tìm thấy micrô.
-record-error-too-short = Bản ghi âm quá ngắn
-record-error-too-long = Bản ghi âm quá dài
-record-error-too-quiet = Bản ghi âm không có tiếng
-record-submit-success = Gửi thành công! Bạn có muốn ghi lại không?
-record-help = Vui lòng nhấn để ghi lại, sau đó đọc to câu trên.
-record-cancel = Hủy ghi lại
 review-terms = Bằng việc sử dụng Common Voice, bạn đồng ý với <termsLink>Điều khoản</termsLink> và <privacyLink>Thông báo bảo mật</privacyLink> của chúng tôi
 terms-agree = Tôi đồng ý
 terms-disagree = Tôi không đồng ý
@@ -393,6 +390,15 @@ contribute-more =
        *[other] Sẵn sàng làm thêm { $count } cái nữa?
     }
 record-cta = Bắt đầu ghi âm
+record-platform-not-supported = Chúng tôi rất tiếc, nhưng thiết bị của bạn hiện không được hỗ trợ.
+record-platform-not-supported-desktop = Trên máy tính để bàn, bạn có thể tải xuống phiên bản mới nhất:
+record-platform-not-supported-ios = Người dùng <bold>iOS</bold> có thể tải xuống ứng dụng miễn phí của chúng tôi:
+record-must-allow-microphone = Bạn cần phải cho phép truy cập micrô.
+record-no-mic-found = Không tìm thấy micrô.
+record-error-too-short = Bản ghi âm quá ngắn
+record-error-too-long = Bản ghi âm quá dài
+record-error-too-quiet = Bản ghi âm không có tiếng
+record-cancel = Hủy ghi lại
 record-instruction = { $actionType }<recordIcon></recordIcon> sau đó đọc to câu
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> khi hoàn thành
 record-three-more-instruction = Còn lại ba câu!
