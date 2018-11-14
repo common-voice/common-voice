@@ -31,6 +31,7 @@
     "postcss-focus-within": "^3.0.0",
     "postcss-import": "^12.0.1",
     "postcss-loader": "^3.0.0",
+    "promise-decode-audio-data": "^0.4.1",
     "react": "^16.6.3",
     "react-content-loader": "^3.1.1",
     "react-dom": "^16.6.3",
