@@ -103,7 +103,7 @@ const UserClient = {
         LEFT JOIN clips on u.client_id = clips.client_id
         LEFT JOIN votes on u.client_id = votes.client_id
         WHERE u.sso_id = ?
-        GROUP BY u.client_id
+        GROUP BY u.client_id, accents.id
         ORDER BY accents.id ASC
       `,
       [sso_id]
