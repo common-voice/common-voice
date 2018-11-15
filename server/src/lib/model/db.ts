@@ -443,6 +443,40 @@ export default class DB {
     return rows;
   }
 
+  async getContributionStats(
+    locale?: string,
+    client_id?: string
+  ): Promise<{ date: string; value: number }[]> {
+    const hours = Array.from({ length: 10 }).map((_, i) => i);
+
+    const [rows] = await this.mysql.query(
+      `
+        SELECT date, COUNT(DISTINCT clips.id) + COUNT(DISTINCT votes.id) AS contributions
+        FROM (
+          SELECT (TIMESTAMP(DATE_FORMAT(NOW(), '%Y-%m-%d %H:00')) - INTERVAL hour HOUR) AS date
+          FROM (${hours.map(i => `SELECT ${i} AS hour`).join(' UNION ')}) hours
+        ) date_alias
+        LEFT JOIN clips ON clips.created_at BETWEEN date AND (date + INTERVAL 1 HOUR)
+          ${locale ? 'AND clips.locale_id = :locale_id' : ''}
+          ${client_id ? 'AND clips.client_id = :client_id' : ''}
+        LEFT JOIN (
+          SELECT votes.*, clips.locale_id
+          FROM votes
+          LEFT JOIN clips on clips.id = votes.clip_id 
+        ) votes ON votes.created_at BETWEEN date AND (date + INTERVAL 1 HOUR)
+          ${locale ? 'AND votes.locale_id = :locale_id' : ''}
+          ${client_id ? 'AND votes.client_id = :client_id' : ''}
+        GROUP BY date
+      `,
+      {
+        locale_id: locale ? await getLocaleId(locale) : null,
+        client_id,
+      }
+    );
+
+    return rows;
+  }
+
   async empty() {
     const [tables] = await this.mysql.rootExec('SHOW TABLES');
     const tableNames = tables

@@ -89,7 +89,8 @@ export default class API {
       this.clip.getRouter()
     );
 
-    router.get('/:locale/stats', this.getLanguageSpecificStats);
+    router.get('/contribution_activity', this.getContributionActivity);
+    router.get('/:locale/contribution_activity', this.getContributionActivity);
 
     router.get('/requested_languages', this.getRequestedLanguages);
     router.post('/requested_languages', this.createLanguageRequest);
@@ -284,19 +285,14 @@ export default class API {
     response.json(error ? { error } : {});
   };
 
-  getLanguageSpecificStats = (request: Request, response: Response) => {
-    response.json({
-      clips: {
-        you: 0,
-        all: 10,
-      },
-      votes: {
-        you: 0,
-        all: 10,
-      },
-      valid_clips_leaderboard: [
-        { avatar: '', username: '', total: 10, valid: 5, valid_share: 10.99 },
-      ],
-    });
+  getContributionActivity = async (
+    { client_id, params: { locale }, query }: Request,
+    response: Response
+  ) => {
+    response.json(
+      await (query.from == 'you'
+        ? this.model.db.getContributionStats(locale, client_id)
+        : this.model.getContributionStats(locale))
+    );
   };
 }

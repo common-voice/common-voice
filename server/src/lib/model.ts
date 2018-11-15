@@ -226,4 +226,9 @@ export default class Model {
     (locale: string) => this.db.getVoicesStats(locale),
     20 * MINUTE
   );
+
+  getContributionStats = lazyCache(
+    (locale?: string) => this.db.getContributionStats(locale),
+    20 * MINUTE
+  );
 }
