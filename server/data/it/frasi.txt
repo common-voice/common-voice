@@ -11038,3 +11038,139 @@ La verificabilità della correttezza delle ipotesi e la ripetibilità degli espe
 La verificabilità della correttezza delle ipotesi.
 Quindi il software libero funziona meglio perché è verificabile da una comunità di specialisti.
 Un altro punto che nelle scuole dovrebbe essere fondamentale è quello dell'educazione alla legalità.
+Le società distributrici propongono alle aziende diversi programmi di supporto in base alle diverse esigenze delle aziende.
+Dispongono della possibilità di assistenza anche per i privati.
+Anche in questo caso devono essere sottoscritti dei contratti a tempo.
+Anche queste soluzioni non sembrano le più adatte ai bisogni di un istituto scolastico.
+Le società indipendenti per la consulenza informatica sono in grado di fornire supporto a sistemi Windows, Linux o misti.
+La flessibilità di questa soluzione è superiore rispetto a quella che è possibile ottenere affidandosi alle aziende.
+Risulta quindi sicuramente la più adatta alle esigenze di un istituto scolastico.
+Le garanzie offerte da una soluzione di questo tipo sono minori rispetto a quelle dei produttori dei sistemi operativi.
+Dal momento che la professionalità di queste società non è garantita da altri se non dalle società stesse.
+È necessario quindi informarsi e prestare molta attenzione nella scelta.
+I costi di acquisto al pubblico delle diverse versioni dei due sistemi operativi sono riportati nella tabella sottostante.
+Per Linux sono elencati i prezzi delle distribuzioni commerciali più diffuse.
+Esistono, oltre ai prezzi ufficiali, listini e accordi particolari per la distribuzione dei sistemi ad enti pubblici.
+Imprese di grandi dimensioni che necessitino di dotare numerose piattaforme del medesimo sistema operativo.
+Esistono poi numerose distribuzioni Linux gratuite.
+Quelle sviluppate e testate con più regolarità sono adatte anche all'utilizzo professionale o a quello in un laboratorio.
+Le stesse Mandriva e Suse sono disponibili anche in una versione gratuita.
+Risulta quindi, all'acquisto, molto più conveniente Linux.
+Senza contare che per Windows viene venduta una licenza per ogni personal computer.
+Mentre tutte le versioni di Linux possono essere acquistate un'unica volta e poi installate anche su centinaia di macchine.
+Per quanto riguarda il TCO devono essere inoltre considerati i costi di acquisto delle macchine.
+I costi di acquisto delle macchine possono essere ridotti mediante il riutilizzo di hardware datato.
+Questo non è possibile con le vecchie versioni di Windows, non più supportate dal produttore.
+I costi di supporto e aggiornamento del sistema variano solitamente in base alle scelte del singolo utente.
+Sono difficilmente confrontabili, anche se più testimonianze riportano che risultino inferiori per i sistemi Linux.
+Per quanto riguarda i costi di migrazione dei dati, se presenti, questi variano in base alla quantità di dati.
+Al di là dei costi da sostenersi per l'eventuale assunzione di sistemisti specializzati.
+Si reputa comunque che questi costi siano i meno incisivi sulla decisione del sistema operativo da adottare.
+Per quanto riguarda la portabilità su diverse architetture la situazione risulta essere molto diversa nei due casi.
+Windows risulta essere disponibile in diverse versioni per i processori Intel e AMD.
+Ne esistono inoltre versioni specifiche per i palmari.
+Il kernel Linux è sviluppato per tutte le architetture di personal computer oltre che per dispositivi diversi.
+In genere è più facile assumere e mantenere personale tecnico con competenze nella gestione di Unix.
+Trovare personale con competenze su Microsoft NT Server.
+I sistemi operativi server della Microsoft richiedono generalmente una gestione più intensiva.
+Sono molto più difficili da gestire remotamente di una equivalente implementazione del sistema Linux.
+Con Linux gli aggiornamenti del sistema operativo sono esenti da spese.
+Con sistemi operativi server come Microsoft Windows NT Server, l'organizzazione è spesso legata al vendor.
+Situazioni nelle quali l'addestramento del personale debba essere così specialistico da rendere il costo fondamentale.
+Adattarsi a queste versioni del kernel.
+Oppure può essere il singolo utente a personalizzare il sistema operativo a seconda delle proprie esigenze hardware.
+All'interno di una scuola però, come nella maggior parte degli uffici, non sono presenti architetture particolari.
+I computer possono quindi essere ugualmente utilizzati con entrambi i sistemi operativi.
+Grazie al tentativo di produttori e distributori di migliorarsi continuamente per aumentare il numero dei propri utenti.
+Nel prossimo futuro ci saranno molti cambiamenti.
+Il rilascio di Windows Vista, supportato da una massiccia campagna pubblicitaria, ha portato molto movimento nel mercato.
+Pur non pubblicizzando molto il loro lavoro al di fuori della rete internet.
+Nello stesso tempo le società che distribuiscono Linux, continuano a migliorare il codice dei loro sistemi.
+Aggiungendo nella maggioranza dei casi anche nuove funzionalità.
+Ampliare le loro offerte commerciali.
+La quota di mercato di Windows è oggi insidiata da quella di Linux che sta crescendo a ritmi esponenziali.
+Soprattutto nel settore dei server, dove potrebbe riuscire a soppiantare il monopolio Microsoft entro pochi anni.
+Sebbene detenga ancora percentuali di mercato relativamente basse.
+Il mercato desktop invece resterà probabilmente dominato da Windows ancora per diversi anni.
+Nonostante sia da diversi anni in lenta crescita.
+La diffusione di Linux pare non sia destinata ad eguagliare quella di Windows.
+La maggiore competenza che Linux richiede scoraggia ancora l'utente desktop.
+Può continuare ad utilizzare quelle che già conosce continuando ad utilizzare Windows.
+Il vantaggio più concreto che per il momento è possibile riscontrare è la rinnovata vitalità di questo mercato.
+Questo nuovo stimolo al miglioramento andrà a sicuro vantaggio di tutti gli utenti, indipendentemente dal sistema operativo.
+Sono imprescindibili la sicurezza e il controllo dei sistemi informatici.
+In una realtà come quella scolastica, si rende necessario l'utilizzo di sistemi aggiornati e sempre efficienti.
+Entrambe le soluzioni possono soddisfare queste esigenze, a patto di investire delle risorse.
+Per avere sistemi Windows aggiornati e sicuri è necessario un investimento di fondi.
+Per avere sistemi Linux aggiornati e sicuri sarà necessario un investimento di fondi sicuramente più limitato.
+Non sono necessari o sono molto limitati i costi di licenza.
+I costi di aggiornamento dell'infrastruttura hardware saranno più contenuti.
+Nel complesso sembra più conveniente investire in formazione, e quindi preferire il sistema operativo Linux.
+Soprattutto all'inizio, possono essere riscontrati dei problemi.
+Può essere studiata una soluzione per questo problema cercando il modo di utilizzare il materiale all'interno del sistema.
+Nel mercato delle suite di produttività d'ufficio Microsoft Office è senza dubbio il programma più diffuso su scala globale.
+Capire cosa abbia determinato la vittoria di Office su pacchetti un tempo molto stimati è difficile.
+La semplicità delle interfacce e le grandi potenzialità della suite hanno concorso al successo di questo prodotto.
+Con il tempo la mancanza di concorrenti realmente competitivi lo ha reso uno standard.
+Negli anni '80 la situazione cambiò in seguito alla nascita di un nuovo concorrente.
+In breve tempo però l'azienda si rese conto di non riuscire ad essere sufficientemente competitiva.
+Possedere una copia di Microsoft Office era necessario per poter leggere i documenti presenti su internet.
+Oppure quelli che vengono inviati da partner professionali.
+Ultimamente questa situazione sta cambiando.
+Anche la pubblica amministrazione ha reso obbligatoria la distribuzione dei propri documenti in più formati.
+Per permetterne la lettura anche a coloro che utilizzano software diversi.
+Fino a pochi anni fa era universalmente accettata.
+La Star Division fu fondata ad Amburgo nel 1986 dal tedesco marco borris per distribuire StarOffice.
+Con l'obiettivo di intaccare il monopolio di Microsoft.
+Nel 1999 la Sun Microsystems acquistò per 73,5 milioni di dollari la Star Division.
+Fu concesso il codice sorgente di StarOffice 5.2 con, in aggiunta, la tecnologia che sun aveva sviluppato.
+Da quel momento si è creata una comunità internazionale che ha sviluppato, integrato e migliorato il codice iniziale.
+La suite non poteva essere ancora considerata pienamente competitiva a livello aziendale.
+Era già un prodotto di indubbia validità e per la prima volta presentava una valida alternativa alla suite Microsoft.
+Conta più di 30000 partecipanti nella sola community italiana.
+Dalla versione 1.0 in avanti lo sviluppo è proseguito molto rapidamente.
+La versione più recente della suite è al momento la 2.3.
+Non sono state introdotte nuove funzionalità rispetto alla versione 2.0 ma sono state migliorate quelle esistenti.
+In particolare è stata migliorata la qualità delle conversioni dei file in formati proprietari.
+Pionieri sono stati gli utenti domestici, presto seguiti dalle aziende.
+La migrazione ad una nuova suite di produttività può richiedere da 3 a 6 mesi ad un'azienda.
+In parallelo a questo progetto open source Sun ha continuato lo sviluppo del suo StarOffice.
+Sun garantisce il supporto per StarOffice, del quale è uscita la versione 8.0.
+Le aspettative della società di analisi non sono state disattese.
+I report degli analisti attribuivano alla suite libera per ufficio una quota di mercato del 10%.
+Forrester arriva addirittura al 15% nell'area degli enti pubblici.
+Ad oggi Microsoft Office resta leader del settore, con più dell'80% del mercato.
+Il suo primato è insidiato sempre più da vicino.
+Microsoft dovrà correre ai ripari al più presto se vorrà evitare di perdere la propria posizione.
+Per il confronto delle funzionalità delle suite vengono prese in esame le ultime due versioni di Microsoft Office.
+Presentano interfacce simili e molto intuitive.
+La maggioranza degli utenti di ha una percentuale di utilizzo che va dal 30% al 60% delle funzionalità.
+Anche gli utenti esperti raramente arrivano a sfruttare più dell'80% del potenziale della suite.
+Immaginando quindi di dividere gli utenti in almeno due macrocategorie.
+Si può affermare che i primi possono svolgere il loro lavoro abituale senza problemi con entrambe le suite.
+In caso di cambio di software possono adattarsi rapidamente alla nuova interfaccia.
+I secondi potrebbero trovare qualche difficoltà in più in base al tipo particolare di utilizzo che fanno della suite.
+Il loro adattamento in caso di cambio di software è meno immediato.
+L'interfaccia di Microsoft Office 2007 è invece completamente diversa da quella del suo predecessore.
+Il sistema dei menu è stato sostituito da un sistema di pannelli sensibili al contesto.
+Gli utenti finali risultano ancora spaesati e lamentano difficoltà nell'esecuzione delle normali procedure.
+Per l'utilizzo che viene fatto negli istituti scolastici entrambe le suite si rivelano adatte.
+Si consideri che si incontrano problemi di migrazione anche in caso di aggiornamento alla versione successiva.
+Gli utenti necessitano di un periodo di adattamento alle novità.
+Sembrano possedere fin troppe funzioni.
+Particolarmente apprezzata risulta essere la possibilità di avvalersi di modelli di documento e di presentazioni.
+È possibile aggiungere queste caratteristiche tramite l'installazione di una estensione liberamente scaricabile.
+Non esistono al momento dati pubblici significativi per quanto riguarda l'affidabilità delle suite di produttività.
+Si rintracciano soltanto considerazioni soggettive sulla affidabilità e stabilità percepita dall’utente.
+Non viene tuttavia mai spiegato nel dettaglio come questi parametri vengano misurati.
+Per questi motivi, tali considerazioni sono giudicate poco utili e non vengono riportate.
+I requisiti minimi di sistema per l'installazione delle suite in esame sono riportati dai manuali ufficiali.
+Dal punto di vista dell'integrazione con il resto del sistema non sono rilevabili significative differenze.
+Entrambe si integrano con i browser internet, con i programmi di gestione del sistema e con il sistema operativo stesso.
+È possibile effettuare da e verso gli altri applicativi operazioni di copia/incolla sia di testo che di immagini.
+La compatibilità dei documenti tra le diverse suite di produttività è argomento di grande importanza.
+In tabella si riepilogano le estensioni predefinite dei file prodotti dalle due suite.
+Le estensioni elencate indicano il formato di default in cui le suite di produttività salvano i documenti prodotti.
+Il formato di MS Office è un formato chiuso e proprietario di Microsoft.
+Lo evolve attraverso le varie versioni di Office in modo che supporti le nuove funzionalità offerte.
+È possibile che documenti creati con versioni precedenti a quella con la quale vengono letti presentino degli errori.
