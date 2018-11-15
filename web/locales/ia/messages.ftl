@@ -257,6 +257,7 @@ keep-me-posted =
     .label = Io amarea saper le actualisationes e mantener me al currente con lo que eveni a Common Voice.
 accept-privacy = Io concorda que vos tracta iste informationes como vos explica in le <privacyLink>Politica de confidentialitate</privacyLink> de Mozilla
 login-identity = Identitate de connexion
+login-signup = Connecter se / Registrar se
 edit = Editar
 email-subscriptions = Subscriptiones de email
 download-profile = Discargar mi datos
