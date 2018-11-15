@@ -244,6 +244,7 @@ female = Kobieta
 other = Inna
 why-profile-title = Po co profil?
 why-profile-text = Podając pewne informacje o sobie, dane dźwiękowe wysyłane do projektu Common Voice będą bardziej przydatne dla mechanizmów rozpoznawania mowy, które korzystają z tych danych do zwiększenia dokładności.
+dashboard = Panel
 build-profile = Zbuduj profil
 profile = Profil
 avatar = Awatar
