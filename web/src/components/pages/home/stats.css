@@ -70,7 +70,7 @@
                 box-shadow: 0 2px 5px 0 var(--light-grey);
 
                 & li {
-                    border-bottom: 1px solid var(--light-grey);;
+                    border-bottom: 1px solid var(--light-grey);
                     cursor: pointer;
                     padding: 13px 22px;
 
@@ -156,7 +156,7 @@
 
     & circle {
         opacity: 0;
-        animation: fade-in var(--transition-duration) linear .5s forwards;
+        animation: fade-in var(--transition-duration) linear 0.5s forwards;
 
         &.inner {
             &.total {
@@ -182,7 +182,6 @@
             }
         }
     }
-
 
     & h3 {
         font-size: 20px;

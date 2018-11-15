@@ -89,5 +89,8 @@ export default () => (
       style={{ color: 'rgba(0, 0, 0, 0.05)' }}>
       Go to staging
     </a>
+    <a href="https://localhost:9000" style={{ color: 'rgba(0, 0, 0, 0.05)' }}>
+      Go to localhost
+    </a>
   </div>
 );

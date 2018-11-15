@@ -5,10 +5,8 @@
 
 @import url('alert/alert.css');
 @import url('contact-modal/contact-modal.css');
-@import url('listen-box/listen-box.css');
 @import url('modal/modal.css');
 @import url('pages/data/data.css');
-@import url('pages/home/home.css');
 @import url('pages/languages/languages.css');
 @import url('pages/languages/get-involved-modal.css');
 @import url('profile-form/profile-form.css');
@@ -140,24 +138,6 @@ button {
     font-weight: bold;
 }
 
-.progress-button {
-    overflow: hidden;
-}
-
-.progress-button:disabled {
-    background: white;
-}
-
-.progress-button .progress {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: color(var(--black) alpha(60%));
-    transition: transform var(--transition-duration-slow) var(--easing);
-}
-
 @keyframes fadein {
     from {
         opacity: 0;
@@ -207,8 +187,6 @@ body:not(.focus) #scroller {
     position: relative;
 }
 
-.home #content,
-.record #content,
 .profile #content,
 .datasets #content {
     margin: 0 auto;
@@ -228,153 +206,6 @@ body:not(.focus) #scroller {
 
     & a {
         color: var(--link-color);
-    }
-}
-
-#background-container {
-    position: absolute;
-    top: 0.7rem;
-    left: 0;
-    right: 0;
-    height: 20rem;
-    background-repeat: repeat-x;
-    background-position: center;
-    background-size: 100% 100%;
-    z-index: var(--bottom-z-index);
-    transition: opacity var(--transition-duration-slow) var(--easing),
-        transform var(--transition-duration) var(--easing);
-    pointer-events: none;
-    opacity: 0;
-
-    &:after {
-        content: '';
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 20rem;
-        opacity: 0;
-        transition: opacity var(--transition-duration) linear;
-        background: repeat-x center;
-        background-size: 100% 100%;
-    }
-}
-
-.hiding #background-container {
-    transform: scaleY(0.4);
-}
-
-@media (--mobile) {
-    #home-title {
-        top: 3.5rem;
-    }
-
-    .datasets #background-container {
-        transform: translateY(1rem);
-    }
-
-    .home #background-container {
-        transform: translateY(11rem);
-    }
-
-    .home .hero-space {
-        height: 26rem;
-    }
-}
-
-@media (--desktop) {
-    .home #background-container {
-        transform: translateY(var(--home-background-offset));
-    }
-
-    .home .hero-space {
-        height: calc(var(--home-background-offset) + 7rem);
-    }
-}
-
-/* Don't use background transitions on desktop since
- * Normal scaling is already smooth enough */
-body:not(.ios) .recording #background-container {
-    transition: opacity var(--transition-duration-slow) var(--easing);
-}
-
-/* For native iOS css background image is not performance
- * so we use inline images instead */
-.ios #background-container {
-    background: none !important;
-}
-
-.ios #background-container:after {
-    display: none !important;
-}
-
-.ios #background-container img {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    transition: opacity var(--transition-duration) linear;
-}
-
-.ios .recording #background-container img:first-child,
-.ios #background-container img:last-child {
-    opacity: 0;
-}
-
-.ios .recording #background-container img:last-child {
-    opacity: 1;
-}
-
-@media (--mobile) {
-    #background-container {
-        height: 12.5rem;
-        background-image: url('/img/wave-blue-mobile.png');
-    }
-
-    #background-container:after {
-        height: 12.5rem;
-        background-image: var(--record-background-image-mobile);
-    }
-}
-
-@media (--desktop) {
-    #background-container {
-        height: 20rem;
-        background-image: url('/img/wave-blue-large.png');
-    }
-
-    #background-container:after {
-        background-image: var(--record-background-image);
-    }
-}
-
-@media (--desktop) {
-    .recording #background-container:after {
-        opacity: 1;
-    }
-}
-
-@media (--mobile) {
-    .recording #background-container {
-        background: none;
-    }
-
-    .recording #background-container:after {
-        opacity: 1;
-    }
-}
-
-@media (--mobile) {
-    .datasets #background-container {
-        background-image: var(--record-background-image-mobile);
-    }
-}
-
-@media (--desktop) {
-    .datasets #background-container {
-        background-image: var(--record-background-image);
     }
 }
 
@@ -435,7 +266,7 @@ body:not(.ios) .recording #background-container {
 
 #content {
     position: relative;
-    min-height: 50vh;
+    min-height: 80vh;
 
     @media (--md-up) {
         position: unset;
@@ -472,102 +303,6 @@ body:not(.ios) .recording #background-container {
     &,
     & .main-mozilla-logo {
         height: 100%;
-    }
-}
-
-.hero {
-    display: none;
-    text-align: center;
-    position: relative;
-    height: var(--hero-height-mobile);
-
-    @media (--md-up) {
-        height: var(--hero-height);
-    }
-}
-
-.hero-space {
-    display: none;
-    height: 3rem;
-    background: none;
-
-    @media (--md-up) {
-        height: 10rem;
-    }
-}
-
-.home,
-.record,
-.datasets {
-    & #background-container {
-        opacity: 1;
-    }
-
-    & .hero,
-    & .hero-space {
-        display: block;
-    }
-}
-
-.robot {
-    position: relative;
-    display: inline-block;
-    height: var(--robot-height);
-    transition: transform var(--transition-duration) var(--easing);
-    transform: translate(0, 15rem) scale(0);
-    opacity: 0;
-}
-
-@media (--mobile) {
-    .robot {
-        height: var(--robot-height-mobile);
-    }
-}
-
-.robot > img {
-    height: 100%;
-}
-
-@media (--mobile) {
-    .robot {
-        height: 12rem;
-        bottom: -3.5rem;
-        right: 3.5rem;
-    }
-}
-
-.record .robot.thanks {
-    opacity: 1;
-    transform: translate(13rem, 5rem) scale(1);
-    transition-delay: 0s;
-}
-
-@media (--mobile) {
-    .record .robot.thanks {
-        transform: translate(9rem, 2rem) scale(1);
-    }
-}
-
-.home .robot {
-    opacity: 1;
-    transform: translate(-13rem, calc(var(--home-background-offset) + 10.5rem))
-        scale(1.1);
-}
-
-@media (--mobile) {
-    .home .robot {
-        transform: translate(50%, 19rem) scale(1.3);
-    }
-}
-
-.record .robot {
-    opacity: 1;
-    transform: translate(1.3rem, 5.8rem) scale(1.1);
-}
-
-@media (--mobile) {
-    .record .robot {
-        transform: translate(4.5rem, 0.5rem);
     }
 }
 
@@ -614,36 +349,6 @@ body:not(.ios) .recording #background-container {
 
 #faq-container a {
     color: var(--link-color);
-}
-
-#spinner {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-}
-
-#spinner span {
-    border-radius: 50%;
-    display: inline-block;
-    position: absolute;
-    height: var(--spinner-height);
-    width: var(--spinner-height);
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    animation: spin 4s linear infinite;
-    background-color: var(--black);
-    opacity: 1;
-    transition: opacity var(--transition-duration) linear;
 }
 
 @keyframes spin {

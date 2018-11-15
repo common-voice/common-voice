@@ -14,13 +14,6 @@ export function generateGUID(): string {
 }
 
 /**
- * Capitalize first letter for nice display.
- */
-export function capitalizeFirstLetter(str: string) {
-  return str.charAt(0).toUpperCase() + str.slice(1);
-}
-
-/**
  * Count the syllables in a string. Completely stolen from:
  * https://codegolf.stackexchange.com/
  *   questions/47322/how-to-count-the-syllables-in-a-word
@@ -91,13 +84,6 @@ export function isProduction(): boolean {
 
 export function getItunesURL(): string {
   return 'https://itunes.apple.com/us/app/project-common-voice-by-mozilla/id1240588326';
-}
-
-/**
- * Returns a promise that resolves after ms.
- */
-export function sleep(ms: number): Promise<void> {
-  return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 /**

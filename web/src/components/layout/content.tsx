@@ -10,7 +10,6 @@ import FAQPage from '../pages/faq';
 import DocumentPage from '../pages/document-page';
 import NotFoundPage from '../pages/not-found';
 import { Spinner } from '../ui/ui';
-import NewHomePage from '../pages/new-home/home';
 const HomePage = React.lazy(() => import('../pages/home/home'));
 const DataPage = React.lazy(() => import('../pages/data/data'));
 const LanguagesPages = React.lazy(() => import('../pages/languages/languages'));
@@ -18,27 +17,17 @@ const DashboardPage = React.lazy(() => import('../pages/dashboard/dashboard'));
 const ProfileLayoutPage = React.lazy(() => import('../pages/profile/layout'));
 const ProfilePage = React.lazy(() => import('../pages/profile'));
 
-interface Props {
-  isRecording: boolean;
-  onRecord: Function;
-  onRecordStop: Function;
-  onVolume: (n: number) => any;
-}
-
 export default localeConnector(
-  ({
-    isRecording,
-    locale,
-    onRecord,
-    onRecordStop,
-    onVolume,
-    toLocaleRoute,
-  }: Props & LocalePropsFromState) => (
+  ({ locale, toLocaleRoute }: LocalePropsFromState) => (
     <div id="content">
       <React.Suspense fallback={<Spinner />}>
         <Switch>
           <Route exact path={toLocaleRoute(URLS.ROOT)} component={HomePage} />
-          <Route exact path={toLocaleRoute('/new')} component={NewHomePage} />
+          <Route
+            exact
+            path={toLocaleRoute('/new')}
+            render={() => <Redirect to={toLocaleRoute(URLS.ROOT)} />}
+          />
           <Route
             exact
             path={toLocaleRoute(URLS.RECORD)}

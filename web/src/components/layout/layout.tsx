@@ -21,11 +21,7 @@ import Footer from './footer';
 import LanguageSelect from './language-select';
 import Logo from './logo';
 import Nav from './nav';
-import Robot from './robot';
 import UserMenu from './user-menu';
-
-const LOW_FPS = 20;
-const DISABLE_ANIMATION_LOW_FPS_THRESHOLD = 3;
 
 const LOCALES_WITH_NAMES = LOCALES.map(code => [
   code,
@@ -50,8 +46,6 @@ interface LayoutState {
   isMenuVisible: boolean;
   hasScrolled: boolean;
   hasScrolledDown: boolean;
-  transitioning: boolean;
-  isRecording: boolean;
   showStagingBanner: boolean;
 }
 
@@ -62,21 +56,10 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   private installApp: HTMLElement;
   private stopBackgroundRender: boolean;
 
-  // On native iOS, we found some issues animating the css background
-  // image during recording, so we use this as a more performant alternative.
-  private iOSBackground = isNativeIOS()
-    ? [
-        <img src="/img/wave-blue-mobile.png" />,
-        <img src="/img/wave-red-mobile.png" />,
-      ]
-    : [];
-
   state: LayoutState = {
     isMenuVisible: false,
     hasScrolled: false,
     hasScrolledDown: false,
-    transitioning: false,
-    isRecording: false,
     showStagingBanner: true,
   };
 
@@ -85,16 +68,8 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   }
 
   componentDidUpdate(nextProps: LayoutProps, nextState: LayoutState) {
-    if (nextState.isRecording) {
-      this.stopBackgroundRender = false;
-      this.renderBackground();
-    } else if (!nextState.isRecording) {
-      this.stopBackgroundRender = true;
-      this.bg.style.transform = '';
-    }
-
     if (this.props.location !== nextProps.location) {
-      this.setState({ isMenuVisible: false, isRecording: false });
+      this.setState({ isMenuVisible: false });
 
       // Immediately scrolling up after page change has no effect.
       setTimeout(() => {
@@ -111,44 +86,6 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     this.scroller.removeEventListener('scroll', this.handleScroll);
   }
 
-  private volume = 0;
-  private handleVolumeChange = (volume: number) => {
-    this.volume = volume;
-  };
-
-  private lastFPSCheckAt = 0;
-  private lowFPSCount = 0;
-  private framesInLastSecond: number[] = [];
-  private renderBackground = () => {
-    if (this.stopBackgroundRender) return;
-    if (this.lowFPSCount >= DISABLE_ANIMATION_LOW_FPS_THRESHOLD) {
-      this.bg.style.transform = `scaleY(1)`;
-      return;
-    }
-    const scale = Math.max((1.3 * (this.volume - 28)) / 100, 0);
-    this.bg.style.transform = `scaleY(${scale})`;
-    requestAnimationFrame(this.renderBackground);
-
-    const now = Date.now();
-    this.framesInLastSecond.push(now);
-    if (now - this.lastFPSCheckAt < 1000) return;
-    this.lastFPSCheckAt = now;
-    const index = this.framesInLastSecond
-      .slice()
-      .reverse()
-      .findIndex(t => now - t > 1000);
-    if (index === -1) {
-      return;
-    }
-
-    this.framesInLastSecond = this.framesInLastSecond.slice(
-      this.framesInLastSecond.length - index - 1
-    );
-    if (this.framesInLastSecond.length < LOW_FPS) {
-      this.lowFPSCount++;
-    }
-  };
-
   /**
    * If the iOS app is installed, open it. Otherwise, open the App Store.
    */
@@ -163,28 +100,6 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     evt.stopPropagation();
     evt.preventDefault();
     this.installApp.classList.add('hide');
-  };
-
-  private onRecord = () => {
-    // Callback function for when we've hidden the normal background.
-    let cb = () => {
-      this.bg.removeEventListener('transitionend', cb);
-      this.setState({
-        transitioning: false,
-      });
-    };
-    this.bg.addEventListener('transitionend', cb);
-
-    this.setState({
-      isRecording: true,
-      transitioning: true,
-    });
-  };
-
-  private onRecordStop = () => {
-    this.setState({
-      isRecording: false,
-    });
   };
 
   lastScrollTop: number;
@@ -217,10 +132,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     } = this.state;
 
     const pathParts = location.pathname.split('/');
-    let className = pathParts[2] ? pathParts.slice(2).join(' ') : 'home';
-    if (this.state.isRecording) {
-      className += ' recording';
-    }
+    const className = pathParts[2] ? pathParts.slice(2).join(' ') : 'home';
 
     return (
       <div id="main" className={className}>
@@ -304,23 +216,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             this.scroller = div as HTMLElement;
           }}>
           <div id="scrollee">
-            <div
-              id="background-container"
-              ref={div => {
-                this.bg = div as HTMLElement;
-              }}>
-              {this.iOSBackground}
-            </div>
-            <div className="hero">
-              <Robot />
-            </div>
-            <div className="hero-space" />
-            <Content
-              isRecording={this.state.isRecording}
-              onRecord={this.onRecord}
-              onRecordStop={this.onRecordStop}
-              onVolume={this.handleVolumeChange}
-            />
+            <Content />
             <Footer />
           </div>
         </div>

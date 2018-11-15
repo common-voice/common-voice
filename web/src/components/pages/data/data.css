@@ -1,6 +1,5 @@
 @media (--mobile) {
     #common-voice-data {
-        top: 5.5rem;
         width: 100%;
 
         & button {
@@ -17,10 +16,6 @@
 }
 
 @media (--desktop) {
-    #common-voice-data {
-        top: 10rem;
-    }
-
     #common-voice-license {
         text-align: end;
     }
@@ -67,18 +62,17 @@
 }
 
 #common-voice-data {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: end;
+    align-items: center;
 }
 
 #common-voice-license {
-    &, & a {
-        margin-top: .5rem;
+    &,
+    & a {
+        margin-top: 0.5rem;
         width: 100%;
         color: var(--white);
         font-size: var(--font-size-xs);
@@ -169,7 +163,7 @@ body:not(.mobile-safari) .dataset .button.card-action:hover path,
 }
 
 #dataset-bundle {
-    border-top: .4rem solid var(--red);
+    border-top: 0.4rem solid var(--red);
     margin: 5rem 0;
     padding: 1.5rem;
     display: flex;
@@ -223,7 +217,7 @@ body:not(.mobile-safari) .dataset .button.card-action:hover path,
     }
 
     & label {
-        margin-bottom: .5rem;
+        margin-bottom: 0.5rem;
     }
 
     & input:disabled {

@@ -201,6 +201,36 @@ button.card-action:focus.focus-visible path {
     }
 }
 
+.spinner {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    & span {
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        height: var(--spinner-height);
+        width: var(--spinner-height);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        animation: spin 4s linear infinite;
+        background-color: var(--black);
+        opacity: 1;
+        transition: opacity var(--transition-duration) linear;
+    }
+}
+
 .text-button {
     border: none;
     background: none;

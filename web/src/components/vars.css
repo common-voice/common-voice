@@ -52,17 +52,6 @@
     --header-height: 4rem;
     --nav-shadow-overhang: 0px 2px 4px rgba(0, 0, 0, 0.03);
 
-    --robot-height: 22rem;
-    --robot-height-mobile: 16rem;
-    --hero-height: 15.3rem;
-    --hero-height-mobile: 12.5rem;
-
-    --home-background-offset: 12.5rem;
-
-    --listen-box-height: 6rem;
-    --record-background-image: url('/img/wave-red-large.png');
-    --record-background-image-mobile: url('/img/wave-red-mobile.png');
-
     --dataset-item-margin: 0.7rem;
 
     --profile-column-margin: 30px;

@@ -121,7 +121,7 @@ export class Spinner extends React.Component<
 
   render() {
     return this.state.showSpinner ? (
-      <div id="spinner">
+      <div className="spinner">
         <span />
       </div>
     ) : null;

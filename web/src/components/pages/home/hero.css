@@ -28,14 +28,14 @@
     }
 
     &::before {
-        content : "";
+        content: '';
         display: block;
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        opacity : 0.5;
+        opacity: 0.5;
         transition: opacity linear var(--transition-duration);
         background-repeat: no-repeat;
         background-position-x: center;
@@ -198,7 +198,7 @@
         }
 
         & .total {
-            font-size: var(--font-size);;
+            font-size: var(--font-size);
             white-space: pre;
         }
     }
@@ -207,11 +207,10 @@
         transform: translateY(50px);
         opacity: 0;
         transition: width var(--transition-duration-slow) linear,
-                    height var(--transition-duration-slow) linear,
-                    opacity var(--transition-duration),
-                    transform var(--transition-duration-slow) var(--easing);
+            height var(--transition-duration-slow) linear,
+            opacity var(--transition-duration),
+            transform var(--transition-duration-slow) var(--easing);
     }
-
 
     &.active {
         &::before {
@@ -222,10 +221,11 @@
             transform: translateY(0);
             opacity: 1;
             transition: width var(--transition-duration-slow),
-                        height var(--transition-duration-slow),
-                        opacity var(--transition-duration-slow) linear var(--transition-duration-slow),
-                        transform var(--transition-duration) var(--easing) var(--transition-duration-slow);
-
+                height var(--transition-duration-slow),
+                opacity var(--transition-duration-slow) linear
+                    var(--transition-duration-slow),
+                transform var(--transition-duration) var(--easing)
+                    var(--transition-duration-slow);
         }
 
         & .primary-button {
@@ -257,7 +257,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: url("/img/fading.svg");
+        background: url('/img/fading.svg');
         background-size: 100%;
         pointer-events: none;
     }
