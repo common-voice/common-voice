@@ -270,6 +270,7 @@ keep-me-posted =
     .label = Želim prejemati posodobitve in novosti o poteku projekta Common Voice.
 accept-privacy = Strinjam se z ravnanjem s temi podatki, kot je razloženo v Mozillini <privacyLink>politiki zasebnosti</privacyLink>
 login-identity = Identiteta prijave
+login-signup = Prijava / Registracija
 edit = Uredi
 email-subscriptions = Naročnine na e-pošto
 download-profile = Prenesi moje podatke
