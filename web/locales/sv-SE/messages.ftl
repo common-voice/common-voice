@@ -261,6 +261,7 @@ keep-me-posted =
     .label = Jag skulle vilja ha uppdateringar och hålla mig uppdaterad med vad som händer med Common Voice.
 accept-privacy = Jag är okej med att du hanterar denna information som du förklarar i Mozillas <privacyLink>sekretesspolicy</privacyLink>
 login-identity = Inloggningsidentitet
+login-signup = Logga in / Registrera dig
 edit = Redigera
 email-subscriptions = E-prenumerationer
 download-profile = Hämta min data
