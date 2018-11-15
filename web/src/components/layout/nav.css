@@ -238,6 +238,7 @@ header {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
     }
 
     & .divider {
@@ -254,7 +255,7 @@ header {
     }
 
     & .icon {
-        margin-right: var(--standard-margin);
+        margin-right: 15px;
         height: 15px;
     }
 
