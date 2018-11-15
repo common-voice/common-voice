@@ -262,6 +262,7 @@ keep-me-posted =
     .label = Chcę otrzymywać aktualizacje i informacje o tym, co dzieje się w projekcie Common Voice.
 accept-privacy = Pozwalam wykorzystywać te dane w sposób opisany w <privacyLink>zasadach ochrony prywatności</privacyLink> Mozilli
 login-identity = Tożsamość logowania
+login-signup = Zaloguj/zarejestruj się
 edit = Edytuj
 email-subscriptions = Subskrypcje e-mail
 download-profile = Pobierz moje dane
