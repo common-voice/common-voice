@@ -335,7 +335,9 @@ class SpeakPage extends React.Component<Props, State> {
         while (retries) {
           try {
             await api.uploadClip(recording.blob, sentence.id, sentence.text);
-            tallyRecording();
+            if (!user.account) {
+              tallyRecording();
+            }
             retries = 0;
           } catch (e) {
             console.error(e);
