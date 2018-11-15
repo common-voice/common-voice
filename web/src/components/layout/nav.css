@@ -216,6 +216,15 @@ header {
 .tallies {
     flex-direction: column;
     margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: bold;
+
+    @media (--md-down) {
+        margin-right: 0;
+    }
 
     @media (--lg-up) {
         flex-direction: row;
@@ -223,17 +232,16 @@ header {
         margin-right: 0;
     }
 
-    &,
     & > * {
+        padding: 0 3px;
+        width: 100%;
         display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: sans-serif;
-        font-weight: bold;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     & .divider {
-        margin: 0.1rem 0;
+        margin: 1.5px 0;
         border-right: 1px solid var(--darker-grey);
         border-top: 1px solid var(--darker-grey);
         width: 100%;
@@ -254,6 +262,8 @@ header {
         color: var(--red);
 
         & svg {
+            position: relative;
+            right: 8px;
             height: 19px;
         }
 
@@ -264,11 +274,6 @@ header {
 
     & .validate-tally {
         color: var(--valid-green);
-
-        & .icon {
-            display: block;
-            font-size: 0.6rem;
-        }
 
         & path {
             fill: var(--valid-green);
