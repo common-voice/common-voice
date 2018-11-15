@@ -118,6 +118,12 @@
             @media (--md-up) {
                 display: block;
             }
+
+            & .button {
+                min-height: 57px;
+                max-width: 207px;
+                min-width: auto;
+            }
         }
     }
 
