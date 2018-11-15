@@ -3,6 +3,11 @@
 .avatar-setup {
     border: none;
 
+    & h2 {
+        margin-bottom: 60px;
+        font-weight: 600;
+    }
+
     & .file-upload,
     & .connect {
         border-radius: 4px;

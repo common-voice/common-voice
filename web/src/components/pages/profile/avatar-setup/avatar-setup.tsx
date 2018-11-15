@@ -110,6 +110,8 @@ class AvatarSetup extends React.Component<Props> {
         : null;
     return (
       <fieldset className="avatar-setup" disabled={this.state.isSaving}>
+        <h2>Add an avatar to your profile and say “hello!”</h2>
+
         <div className="file-upload">
           <label
             onDragOver={event => {
