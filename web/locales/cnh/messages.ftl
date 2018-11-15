@@ -102,7 +102,7 @@ zh-TW = Tuluk holh (Taiwan)
 ## Layout
 
 speak = Chim
-speak-now = Chim cang
+speak-now = Chim Ve.
 datasets = Pumhmi Data
 languages = Holhphun
 profile = Nangmah Kong
@@ -125,27 +125,27 @@ logout = Chuahnak
 ## Home Page
 
 home-title = Common Voice cu Mozilla kampani nih a tuah mi, zeitiin dah Laiholh in computer chawnh khawh a si lai, ti computer cawnpiaknak a si.
-home-cta = Na aw hi ka hin tuun!
-wall-of-text-start = Aw cu kokek a si, Aw cu minung a si. Cucaah, computer ah hman khawh dingmi Laiholh ser lai hi kan i ngaih tuk. Hi kan tuah khawhnak ding caah cun, Aw hi tamtuk hringhren kan herh.
-wall-of-text-more-mobile = Kampani lian tampi nih an tuah mi, computer holh theihnak, hi Laiholh in cun hman khawh an si lo. Cucu ṭhanchonak caah thawphit tu a si ti kan ruah. Cucaah, Project Common Voice timi hi mi vialte nih an holh cio in computer an hman khawh nak ding caah kan tuah mi a si.
-wall-of-text-more-desktop = Mikip nih an hman khawh ding mi Aw rak kan tuun piak ve. <lineBreak></lineBreak> Minung an holh ning computer chimh ding ah biatlang rel hna. Midang nih an chimcia zong chek ṭhan. A fawi te!
-wall-of-text-first = Aw cu kokek a si, Aw cu minung a si. Cucaah, computer ah hman khawh dingmi Laiholh ser lai hi kan i ngaih tuk. Hi kan tuah khawhnak ding caah cun, Aw hi tamtuk hringhren kan herh.
-wall-of-text-second = Kampani lian tampi nih an tuah mi, computer holh theihnak, hi Laiholh in cun hmankhawh an si lo. Cucu ṭhanchonak caah thawphit tu a si ti kan ruah. Cucaah, Project Common Voice timi hi mi vialte nih an holh cio in computer an hman khawh nak ding caah kan tuah mi a si.
+home-cta = Na Aw Rak Tun Ve!
+wall-of-text-start = Aw le holh cu a sunglawi tuk. Cucaah, computer ah hman khawh dingmi Laiholh ser lai hi kan i ngaih tuk. Hi kan tuah khawhnak ding caah cun, Aw hi tamtuk hringhren tun kan herh.
+wall-of-text-more-mobile = Kampani lian tampi nih an tuah mi, computer holh theihnak, hi Laiholh in cun hman khawh an si lo. Cucu ṭhanchonak le chaw lehthalnak caah thawphit tu a si ti kan ruah. Cucaah, Project Common Voice timi hi mi vialte nih an holh cio in computer an hman khawhnak ding caah kan tuah mi a si.
+wall-of-text-more-desktop = Laiholh in computer a ngah khawhnak ding caah na aw rak tun ve. <lineBreak></lineBreak> Laiholh in computer a ngahkhawhnak ding caah biatlang pawl na rel hna lai. Midang nih an chimcia zong chek ṭhan hna. A fawi te!
+wall-of-text-first = Aw le holh cu a sunglawi tuk. Cucaah, computer ah hman khawh dingmi Laiholh ser lai hi kan i ngaih tuk. Hi kan tuah khawhnak ding caah cun, Aw hi tamtuk hringhren tun kan herh.
+wall-of-text-second = Kampani lian tampi nih an tuah mi, computer holh theihnak, hi Laiholh in cun hman khawh an si lo. Cucu ṭhanchonak le chaw lehthalnak caah thawphit tu a si ti kan ruah. Cucaah, Project Common Voice timi hi mi vialte nih an holh cio in computer an hman khawhnak ding caah kan tuah mi a si.
 show-wall-of-text = Rel Chap
 help-us-title = Biatlang an chimmi a hman le hman lo chek kan bawm!
 help-us-explain = Play hmet, ngai, cun kan chim: A tanglei biatlang hi hman tein an rel maw?
-no-clips-to-validate = Hi holh in cun ngaih ding mi hi zeihmanh a um lo. Ngaih ding chiah na duh cun nangmah na aw tun law chia.
+no-clips-to-validate = Ngaih dingmi hi zeihmanh kan ngei rih lo. Ngaih dingmi chiah na duh cun na aw rak tun.
 vote-yes = A si
 vote-no = A si lo
 toggle-play-tooltip = Lentecalh nakah  { shortcut-play-toggle } hmet.
 speak-subtitle = Na aw rak tun
 speak-paragraph = Aw i tun hi a biapi taktak mi kan rian a si; mi cheukhat nih cun a nuam zong a nuam tiah an ruah.
-speak-goal-text = Aw a khumh cang
+speak-goal-text = Khumh cangmi aw
 listen-subtitle = Aw rak kan chek pi
 listen-paragraph = Tuncia mi aw chek hi Common Voice caah a biapi tuk ve mi rian a si. An aw ngai hna law a ṭha le ṭha lo chek rak kan bawm ve.
-listen-goal-text = Chek cang mi Aw
-hours-recorded = Suimilam khumh cang mi
-hours-validated = Suimilam chek cang mi
+listen-goal-text = Chek cangmi Aw
+hours-recorded = Suimilam khumh cangmi
+hours-validated = Suimilam chek cangmi
 voices-online = Atulio A Zohtu
 todays-progress = Nihin tuahmi
 help-reach-goal = { $goal } tiang phanh kan bawm
@@ -156,17 +156,17 @@ today = Nihin
 x-weeks-short =
     { $count ->
         [one] Zarh
-       *[other] Zarh{ $count }
+       *[other] Zarh { $count }
     }
 x-months-short =
     { $count ->
         [one] Thla
-       *[other] Thla{ $count }
+       *[other] Thla { $count }
     }
 x-years-short =
     { $count ->
         [one] Kum
-       *[other] Kum{ $count }
+       *[other] Kum { $count }
     }
 
 ## Speak & Listen Shortcuts
@@ -214,7 +214,7 @@ english = Mirang
 profile-form-cancel = Chuaknak Catlap
 profile-form-delete = Nangmah kong hlonhnak
 profile-form-username =
-    .label = Min hman
+    .label = User Name
 profile-form-language =
     .label = Holhphun
 profile-form-accent =
@@ -239,7 +239,7 @@ female = Nu
 other = Adang
 why-profile-title = Zeiruang ah keimah kong cu a herh?
 why-profile-text = Nangmah konglam kan theihnak thawngin Common Voice nih AW ttha deuh le hman deuh in a theih khawh lai.
-build-profile = Nangmah Kong ser
+build-profile = Nangmah Kong Kan Chim
 profile = Nangmah Kong
 avatar = Hmanthlak
 preferences = Duh thimnak
@@ -247,7 +247,7 @@ edit-profile = Nangmah kong remhnak
 profile-create = Nangmah kong kan chim
 profile-create-success = A tlamtling, nangmah kong na ser khawh!
 profile-close = Phit
-profile-clear-modal = Nangmah kong na hlonh ah cun Commmon Voice ah nangmah konglam le na tuun cia vialte aa hlonh dih lai.
+profile-clear-modal = Nangmah kong na hlonh ahcun Commmon Voice ah nangmah konglam le na tuun cia vialte aa hlonh dih lai.
 profile-explanation = Na tuahcia mi vialte zoh ṭhan hna law, aw kan lak ciami vialte a ṭhat khawhnak chungin kan bawm.
 thanks-for-account = Na account na fehter caah kan i lawm, atucu nangmah kong sersiam cang sih.
 why-demographic = Zei ruangah dah biapi a si?
@@ -391,15 +391,14 @@ action-click = Hmet
 action-tap = Hmet
 contribute = Aw Tunnak
 listen = Ngai
-skip = Lanhtak
+skip = Lanh tak
 shortcuts = tawitan
-clips-with-count = <bold>{ $count }</bold>Aw-tawi
+clips-with-count = <bold>{ $count }</bold> Tuncia
 goal-help-recording = Kan i tinh mi { $goalValue } chungah <goalPercentage></goalPercentage> na kan phak ter. Kan i lawm tuk.
 goal-help-validation = Common Voice nih kan i tinhmi { $goalValue } chungah <goalPercentage></goalPercentage> na kan chek bawmh .
 contribute-more =
     { $count ->
-        [one] { $count }Tuah ṭhan na duh maw?
-       *[other] Tam deuh in { $count } tuah ṭhan na duh maw?
+       *[other] Biatlang { $count } tuah ṭhan na duh maw?
     }
 record-cta = Tuun hramthok
 record-platform-not-supported = Kan ngai thiam, na tuahnak hi a ngah lo.
@@ -417,9 +416,9 @@ record-three-more-instruction = Pathum a tang!
 record-again-instruction = A ṭha!<recordIcon></recordIcon> A dang tuun ṭhan
 record-again-instruction2 = Na thiam, tuun ṭhan <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Donghnak!
-review-tooltip = Hi ka hin awtawi Zoh-ṭhan & tuun-ṭhan
+review-tooltip = A herh cun ngaiṭhan law tunṭhan
 unable-speak = Holh kho lo?
-review-instruction = Na duh cun zohṭhan law tuun ṭhan
+review-instruction = A herh cun ngaiṭhan law tunṭhan
 record-submit-tooltip = Kua timi kha hmet
 clips-uploaded = Na aw aa khumh cang
 record-abort-title = Biatlang van rel hmasa dih ta?

@@ -1,6 +1,6 @@
 ## Languages
 
-contribute = Pekchanh
+contribute = Aw Tunnak
 get-involved-button = Rak I Tel Ve
 get-involved-title = { $lang } ah pekchanh
 get-involved-text = { $lang } caah bawmhchanh na duh ve caah kan i lawm.  Zei holh paoh tlamtling tein a um khawhnak hnga caah fakpiin rian kan ṭuan i, in theihter peng kan duh. Pehtlaih na duh ahcun, a tanglei ah na email ṭial.
