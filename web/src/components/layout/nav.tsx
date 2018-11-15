@@ -19,9 +19,11 @@ export default ({ children, ...props }: { [key: string]: any }) => (
     <Localized id="languages">
       <LocaleNavLink to={URLS.LANGUAGES} exact />
     </Localized>
-    <Localized id="profile">
-      <LocaleNavLink to={URLS.PROFILE} exact />
-    </Localized>
+    {isProduction() && (
+      <Localized id="profile">
+        <LocaleNavLink to={URLS.PROFILE} exact />
+      </Localized>
+    )}
     {children}
   </nav>
 );
