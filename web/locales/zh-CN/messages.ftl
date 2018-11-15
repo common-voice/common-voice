@@ -254,6 +254,7 @@ keep-me-posted =
     .label = 我想收到 Common Voice 相关的最新消息。
 accept-privacy = 我同意依照 Mozilla 的<privacyLink>隐私政策</privacyLink>所描述的方式处理这些信息
 login-identity = 登录身份
+login-signup = 登录 / 注册
 edit = 编辑
 email-subscriptions = 电子邮件订阅
 download-profile = 下载我的数据
