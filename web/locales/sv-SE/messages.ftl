@@ -243,6 +243,7 @@ female = Kvinna
 other = Annat
 why-profile-title = Varför behövs en profil?
 why-profile-text = Genom att ge lite information om dig själv kan det ljud du ger till Common Voice bli mer användbart för röstigenkänningsmotorer som använder denna data för att förbättra sin noggrannhet.
+dashboard = Översikt
 build-profile = Bygg profil
 profile = Profil
 avatar = Avatar
