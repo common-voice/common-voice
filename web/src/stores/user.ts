@@ -1,4 +1,4 @@
-import pick = require('lodash.pick');
+const pick = require('lodash.pick');
 import { Dispatch } from 'redux';
 import { createSelector } from 'reselect';
 import { UserClient } from '../../../common/user-clients';

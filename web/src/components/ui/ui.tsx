@@ -97,6 +97,37 @@ export const LinkButton = ({
   );
 };
 
+type SpinnerState = { showSpinner: boolean };
+
+export class Spinner extends React.Component<
+  { delayMs: number },
+  SpinnerState
+> {
+  static defaultProps = { delayMs: 300 };
+
+  state: SpinnerState = { showSpinner: false };
+
+  delayTimeout: number;
+
+  componentDidMount() {
+    this.delayTimeout = setTimeout(() => {
+      this.setState({ showSpinner: true });
+    }, this.props.delayMs);
+  }
+
+  componentWillUnmount() {
+    clearTimeout(this.delayTimeout);
+  }
+
+  render() {
+    return this.state.showSpinner ? (
+      <div id="spinner">
+        <span />
+      </div>
+    ) : null;
+  }
+}
+
 export const TextButton = ({ className = '', ...props }: any) => (
   <button type="button" className={'text-button ' + className} {...props} />
 );

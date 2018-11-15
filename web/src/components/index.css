@@ -434,6 +434,9 @@ body:not(.ios) .recording #background-container {
 }
 
 #content {
+    position: relative;
+    min-height: 50vh;
+
     @media (--md-up) {
         position: unset;
         flex: 1 1 100%;
@@ -614,7 +617,7 @@ body:not(.ios) .recording #background-container {
 }
 
 #spinner {
-    position: fixed;
+    position: absolute;
     left: 0;
     right: 0;
     top: 0;

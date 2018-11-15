@@ -3,7 +3,7 @@ import {
   Localized,
   withLocalization,
 } from 'fluent-react/compat';
-import pick = require('lodash.pick');
+const pick = require('lodash.pick');
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { DEFAULT_LOCALE } from '../../services/localization';

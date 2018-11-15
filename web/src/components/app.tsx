@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Suspense } from 'react';
 import { connect, Provider } from 'react-redux';
 import {
   Redirect,
@@ -34,32 +35,16 @@ import { Uploads } from '../stores/uploads';
 import Layout from './layout/layout';
 import NotificationPill from './notification-pill/notification-pill';
 import { LoginFailure, LoginSuccess } from './pages/login';
-import ListenPage from './pages/contribution/listen/listen';
-import SpeakPage from './pages/contribution/speak/speak';
+const ListenPage = React.lazy(() =>
+  import('./pages/contribution/listen/listen')
+);
+const SpeakPage = React.lazy(() => import('./pages/contribution/speak/speak'));
+import { Spinner } from './ui/ui';
 import {
   isContributable,
   localeConnector,
   LocalePropsFromState,
 } from './locale-helpers';
-
-const LOAD_TIMEOUT = 5000; // we can only wait so long.
-
-/**
- * Preload these images before revealing contents.
- * TODO: right now we load all images, which is unnecessary.
- */
-const PRELOAD = [
-  '/img/cv-logo-bw.svg',
-  '/img/cv-logo-one-color-white.svg',
-  '/img/robot-greetings.png',
-  '/img/wave-blue-large.png',
-  '/img/wave-blue-mobile.png',
-  '/img/waves/_1.svg',
-  '/img/waves/_2.svg',
-  '/img/waves/_3.svg',
-  '/img/waves/fading.svg',
-  '/img/waves/Eq.svg',
-];
 
 interface PropsFromState {
   api: API;
@@ -266,22 +251,14 @@ const LocalizedLayout: any = withRouter(
 
 const history = createBrowserHistory();
 
-interface State {
-  loaded: boolean;
-}
-
-class App extends React.Component<void, State> {
+class App extends React.Component {
   main: HTMLElement;
   userLocales: string[];
-
-  state: State = {
-    loaded: false,
-  };
 
   /**
    * App will handle routing to page controllers.
    */
-  constructor(props: void, context: any) {
+  constructor(props: any, context: any) {
     super(props, context);
 
     if (isNativeIOS()) {
@@ -300,26 +277,6 @@ class App extends React.Component<void, State> {
   }
 
   /**
-   * Pre-Load all images before first content render.
-   */
-  private preloadImages(): Promise<void> {
-    return new Promise<void>(resolve => {
-      let loadedSoFar = 0;
-      const onLoad = () => {
-        ++loadedSoFar;
-        if (loadedSoFar === PRELOAD.length) {
-          resolve();
-        }
-      };
-      PRELOAD.forEach(imageUrl => {
-        const image = new Image();
-        image.addEventListener('load', onLoad);
-        image.src = imageUrl;
-      });
-    });
-  }
-
-  /**
    * Perform any native iOS specific operations.
    */
   private bootstrapIOS() {
@@ -332,46 +289,42 @@ class App extends React.Component<void, State> {
       script.src = 'https://pontoon.mozilla.org/pontoon.js';
       document.head.appendChild(script);
     }
-
-    await Promise.all([
-      Promise.race([sleep(LOAD_TIMEOUT), this.preloadImages()]).then(() =>
-        this.setState({ loaded: true })
-      ),
-    ]);
   }
 
   render() {
-    return this.state.loaded ? (
-      <Provider store={store}>
-        <Router history={history}>
-          <Switch>
-            <Route exact path="/login-failure" component={LoginFailure} />
-            <Route exact path="/login-success" component={LoginSuccess} />
-            {Object.values(URLS).map(url => (
+    return (
+      <Suspense fallback={<Spinner />}>
+        <Provider store={store}>
+          <Router history={history}>
+            <Switch>
+              <Route exact path="/login-failure" component={LoginFailure} />
+              <Route exact path="/login-success" component={LoginSuccess} />
+              {Object.values(URLS).map(url => (
+                <Route
+                  key={url}
+                  exact
+                  path={url || '/'}
+                  render={() => (
+                    <Redirect to={'/' + this.userLocales[0] + url} />
+                  )}
+                />
+              ))}
               <Route
-                key={url}
-                exact
-                path={url || '/'}
-                render={() => <Redirect to={'/' + this.userLocales[0] + url} />}
+                path="/:locale"
+                render={({
+                  match: {
+                    params: { locale },
+                  },
+                }) => (
+                  <LocalizedLayout
+                    userLocales={[locale, ...this.userLocales]}
+                  />
+                )}
               />
-            ))}
-            <Route
-              path="/:locale"
-              render={({
-                match: {
-                  params: { locale },
-                },
-              }) => (
-                <LocalizedLayout userLocales={[locale, ...this.userLocales]} />
-              )}
-            />
-          </Switch>
-        </Router>
-      </Provider>
-    ) : (
-      <div id="spinner">
-        <span />
-      </div>
+            </Switch>
+          </Router>
+        </Provider>
+      </Suspense>
     );
   }
 }
