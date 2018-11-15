@@ -244,6 +244,7 @@ why-profile-title = Why a profile?
 why-profile-text =
   By providing some information about yourself, the audio data you submit to Common Voice will be more useful to Speech
   Recognition engines that use this data to improve their accuracy.
+dashboard = Dashboard
 build-profile = Build Profile
 profile = Profile
 avatar = Avatar

@@ -101,6 +101,25 @@ export const CrossIcon = (props: any) => (
   </svg>
 );
 
+export const DashboardIcon = () => (
+  <svg width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+      <path
+        id="dash-a"
+        d="M11.111 9.142c1.917.5 3.333 2.261 3.333 4.358 0 2.485-1.99 4.5-4.444 4.5-2.455 0-4.444-2.015-4.444-4.5 0-2.097 1.416-3.859 3.333-4.358V5.625c0-.621.497-1.125 1.111-1.125s1.111.504 1.111 1.125v3.517zM10 0c5.523 0 10 4.533 10 10.125 0 .621-.497 1.125-1.111 1.125a1.118 1.118 0 0 1-1.111-1.125c0-4.35-3.482-7.875-7.778-7.875-4.296 0-7.778 3.526-7.778 7.875 0 .621-.497 1.125-1.11 1.125A1.118 1.118 0 0 1 0 10.125C0 4.533 4.477 0 10 0zm0 11.25c-1.227 0-2.222 1.007-2.222 2.25s.995 2.25 2.222 2.25c1.227 0 2.222-1.007 2.222-2.25s-.995-2.25-2.222-2.25z"
+      />
+    </defs>
+    <g fill="none" fillRule="evenodd" transform="translate(2 3)">
+      <mask id="dash-b" fill="#fff">
+        <use xlinkHref="#dash-a" />
+      </mask>
+      <g fill="#4A4A4A" mask="url(#dash-b)">
+        <path d="M-2-3h24v24H-2z" />
+      </g>
+    </g>
+  </svg>
+);
+
 export const DiscourseIcon = Icon('/img/discourse.svg');
 
 export const DownIcon = () => (

@@ -5,7 +5,13 @@ import StateTree from '../../stores/tree';
 import { User } from '../../stores/user';
 import URLS from '../../urls';
 import { LocaleLink } from '../locale-helpers';
-import { DownIcon, LogoutIcon, ToggleIcon, UserIcon } from '../ui/icons';
+import {
+  DashboardIcon,
+  DownIcon,
+  LogoutIcon,
+  ToggleIcon,
+  UserIcon,
+} from '../ui/icons';
 import { Hr } from '../ui/ui';
 
 import './user-menu.css';
@@ -55,7 +61,7 @@ class UserMenu extends React.Component<PropsFromState> {
               {[
                 {
                   route: URLS.DASHBOARD,
-                  icon: <UserIcon />,
+                  icon: <DashboardIcon />,
                   id: 'dashboard',
                 },
                 {
