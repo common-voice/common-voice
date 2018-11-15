@@ -236,6 +236,7 @@ female = 女
 other = 其他
 why-profile-title = 为什么要创建用户资料？
 why-profile-text = 凭借您提供一些有关本人的信息，您提交给 Common Voice 的音频数据能更有助于使用这些数据来提高其语音识别引擎的准确性。
+dashboard = 面板
 build-profile = 创建个人资料
 profile = 用户资料
 avatar = 头像
