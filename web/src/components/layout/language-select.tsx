@@ -15,7 +15,11 @@ export default ({ locale, locales, onChange }: Props) => (
     onChange={onChange}>
     {({ getInputProps, getItemProps, highlightedIndex }) => (
       <div className="language-select with-down-arrow">
-        <div className="selection" tabIndex={0} {...getInputProps()}>
+        <div
+          className="selection"
+          tabIndex={0}
+          {...getInputProps()}
+          title={NATIVE_NAMES[locale]}>
           {locale}
         </div>
         <div className="list-wrapper">
