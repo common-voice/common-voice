@@ -1,10 +1,10 @@
 @import url('../vars.css');
 
 .user-menu {
-    margin-left: 20px;
+    margin: 0 20px;
 
     @media (--sm-up) {
-        width: 200px;
+        max-width: 200px;
     }
 
     & .toggle {
@@ -69,17 +69,10 @@
     & .menu {
         position: absolute;
         top: 0;
+        right: 0;
         box-sizing: border-box;
         flex-direction: column;
         display: none;
-
-        @media (--xs-down) {
-            right: 0;
-        }
-
-        @media (--sm-up) {
-            width: 100%;
-        }
 
         & .triangle {
             border-left: 8px solid transparent;

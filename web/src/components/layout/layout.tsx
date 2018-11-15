@@ -1,3 +1,4 @@
+import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { RouteComponentProps, withRouter } from 'react-router';
@@ -9,11 +10,12 @@ import {
   getItunesURL,
   isIOS,
   isNativeIOS,
+  isProduction,
   isSafari,
   replacePathLocale,
 } from '../../utility';
 import { MenuIcon, MicIcon, OldPlayIcon } from '../ui/icons';
-import { LabeledSelect } from '../ui/ui';
+import { LabeledSelect, LinkButton } from '../ui/ui';
 import Content from './content';
 import Footer from './footer';
 import LanguageSelect from './language-select';
@@ -265,16 +267,28 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
           </div>
           <div>
             {this.renderTallies()}
-            {user.account ? (
-              <UserMenu />
-            ) : (
-              LOCALES.length > 1 && (
-                <LanguageSelect
-                  locale={locale}
-                  locales={LOCALES_WITH_NAMES}
-                  onChange={this.selectLocale}
-                />
-              )
+            {!isProduction() && (
+              <React.Fragment>
+                {user.account ? (
+                  <UserMenu />
+                ) : (
+                  <Localized id="login-signup">
+                    <LinkButton
+                      className="login"
+                      href="/login"
+                      rounded
+                      outline
+                    />
+                  </Localized>
+                )}
+              </React.Fragment>
+            )}
+            {LOCALES.length > 1 && (
+              <LanguageSelect
+                locale={locale}
+                locales={LOCALES_WITH_NAMES}
+                onChange={this.selectLocale}
+              />
             )}
             <button
               id="hamburger-menu"
