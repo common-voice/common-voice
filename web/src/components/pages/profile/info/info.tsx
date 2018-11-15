@@ -109,7 +109,7 @@ class ProfilePage extends React.Component<Props, State> {
   }
 
   toggleDemographicInfo = () => {
-    return this.setState({
+    this.setState({
       showDemographicInfo: !this.state.showDemographicInfo,
     });
   };
@@ -291,8 +291,9 @@ class ProfilePage extends React.Component<Props, State> {
           ))}
         </div>
 
-        <Button outline onClick={this.addLocale}>
-          Add Language
+        <Button className="add-language" outline onClick={this.addLocale}>
+          <span>Add Language</span>
+          <span>+</span>
         </Button>
 
         <Hr />

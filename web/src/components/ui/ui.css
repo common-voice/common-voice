@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
-    font-size: .9rem;
+    font-size: 0.9rem;
     font-weight: 600;
     font-family: var(--base-font-family);
     text-align: center;
@@ -71,7 +71,7 @@ body:not(.mobile-safari) .button:hover path,
     align-items: center;
     font-family: var(--base-font-family);
     font-weight: 600;
-    box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 0 2px;;
+    box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 0 2px;
     background: white;
     white-space: nowrap;
     text-transform: none;
@@ -86,7 +86,7 @@ body:not(.mobile-safari) .button.card-action:hover,
     margin: 1px -1px -1px 1px;
     background: white;
     color: var(--black);
-    opacity: .8;
+    opacity: 0.8;
     box-shadow: none;
 }
 
@@ -125,10 +125,16 @@ button.card-action:focus.focus-visible path {
     box-sizing: border-box;
 
     &.disabled .label {
-        background: linear-gradient(to bottom, var(--white) 50%, var(--white) 50%, var(--light-grey) 50%);
+        background: linear-gradient(
+            to bottom,
+            var(--white) 50%,
+            var(--white) 50%,
+            var(--light-grey) 50%
+        );
     }
 
-    & :required, & :valid {
+    & :required,
+    & :valid {
         box-shadow: none;
     }
 
@@ -143,9 +149,11 @@ button.card-action:focus.focus-visible path {
         color: var(--warm-grey);
     }
 
-    & input, & select, & textarea {
+    & input,
+    & select,
+    & textarea {
         box-sizing: border-box;
-        border: 1.5px solid var(--light-grey);
+        border: 1.6px solid var(--light-grey);
         padding: 13px;
         font-size: var(--font-size);
         font-family: var(--base-font-family);
