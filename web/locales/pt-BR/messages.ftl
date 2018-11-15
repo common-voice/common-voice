@@ -21,6 +21,7 @@ ar = Árabe
 as = Assamês
 ast = Asturiano
 az = Azerbaidjano
+bg = Búlgaro
 bn = Bengalês
 br = Bretão
 bxr = Buriato
@@ -38,6 +39,8 @@ en = Inglês
 eo = Esperanto
 es = Espanhol
 et = Estoniano
+eu = Basco
+fa = Persa
 fi = Finlandês
 fo = Feroês
 fr = Francês
@@ -58,7 +61,9 @@ ko = Coreano
 kpv = Komi-Zyrian
 kw = Córnico
 ky = Quirguiz
+mdf = Moksha
 mk = Macedônio
+mn = Mongol
 myv = Erzya
 nb-NO = Norueguês (Bokmål)
 ne-NP = Nepalês
@@ -83,6 +88,7 @@ tt = Tártaro
 uk = Ucraniano
 ur = Urdu
 uz = Usbeque
+vi = Vietnamita
 zh-CN = Chinês (China)
 zh-HK = Chinês (Hong Kong)
 zh-TW = Chinês (Taiwan)
@@ -111,6 +117,7 @@ back-top = Voltar para o início
 contribution-banner-text = Lançamos uma nova experiência para contribuição
 contribution-banner-button = Dê uma olhada
 report-bugs-link = Ajude reportando problemas
+logout = Sair
 
 ## Home Page
 
@@ -135,6 +142,12 @@ hours-validated = Horas validadas
 read-terms-q = Você leu nossos Termos?
 ready-to-record = Pronto para doar sua voz?
 all-languages = Todos os idiomas
+today = Hoje
+x-years-short =
+    { $count ->
+        [one] { $count } ano
+       *[other] { $count } anos
+    }
 
 ## Speak & Listen Shortcuts
 
@@ -191,6 +204,8 @@ profile-form-age =
     .label = Idade
 profile-form-gender =
     .label = Gênero
+hidden = Oculto
+visible = Visível
 profile-form-submit-save = Salvar
 profile-form-submit-saved = Salvo
 profile-keep-data = Manter dados
@@ -201,12 +216,18 @@ female = Feminino
 other = Outro
 why-profile-title = Por que um perfil?
 why-profile-text = Ao fornecer algumas informações sobre você, os dados de áudio que você enviou ao Common Voice serão mais úteis aos mecanismos de reconhecimento de fala que usamos para aprimorar sua precisão.
+profile = Perfil
+avatar = Avatar
+preferences = Preferências
 edit-profile = Editar perfil
 profile-create = Criar um perfil
 profile-create-success = Perfil criado com sucesso!
 profile-close = Fechar
 profile-clear-modal = Limpar seus dados de perfil significa que esta informação demográfica não será mais enviada ao Common Voice com suas gravações.
 profile-explanation = Acompanhe o seu progresso com um perfil e ajude que as gravações sejam cada vez mais precisas.
+thanks-for-account = Obrigado por confirmar sua conta. Agora, vamos construir seu perfil.
+why-demographic = Por que isto é importante?
+edit = Editar
 
 ## FAQ
 
@@ -263,21 +284,6 @@ data-bundle-button = Baixar pacote do conjunto de dados
 data-bundle-description = Os dados do Common Voice mais todos os outros conjuntos de dados acima.
 license = Licença: <licenseLink>{ $license }</licenseLink>
 license-mixed = Misto
-
-## Record Page
-
-record-platform-not-supported = Nos desculpe, mas sua plataforma não é suportada.
-record-platform-not-supported-desktop = Em computadores, você pode baixar o mais recente:
-record-platform-not-supported-ios = Usuários de <bold>iOS</bold> podem baixar nosso aplicativo gratuito:
-record-must-allow-microphone = Você deve permitir o acesso ao microfone.
-record-retry = Tentar novamente
-record-no-mic-found = Não foi encontrado nenhum microfone.
-record-error-too-short = A gravação foi muito curta.
-record-error-too-long = A gravação foi muito longa
-record-error-too-quiet = A gravação ficou com volume muito baixa.
-record-submit-success = Enviada com sucesso! Deseja gravar novamente?
-record-help = Toque para gravar, depois leias as frases em voz alta.
-record-cancel = Cancelar regravação
 review-terms = Usando o Common Voice, você aceita nossos <termsLink>Termos</termsLink> e <privacyLink>Política de Privacidade</privacyLink>
 terms-agree = Estou de acordo
 terms-disagree = Não estou de acordo
@@ -346,6 +352,15 @@ goal-help-recording = Você ajudou o Common Voice a atingir <goalPercentage></go
 goal-help-validation = Você ajudou o Common Voice a atingir <goalPercentage></goalPercentage> da nossa meta diária de { $goalValue } de validações!
 contribute-more = Pronto para fazer mais { $count }?
 record-cta = Iniciar gravação
+record-platform-not-supported = Nos desculpe, mas sua plataforma não é suportada.
+record-platform-not-supported-desktop = Em computadores, você pode baixar o mais recente:
+record-platform-not-supported-ios = Usuários de <bold>iOS</bold> podem baixar nosso aplicativo gratuito:
+record-must-allow-microphone = Você deve permitir o acesso ao microfone.
+record-no-mic-found = Não foi encontrado nenhum microfone.
+record-error-too-short = A gravação foi muito curta.
+record-error-too-long = A gravação foi muito longa
+record-error-too-quiet = A gravação ficou com volume muito baixa.
+record-cancel = Cancelar regravação
 record-instruction = { $actionType }<recordIcon></recordIcon>e então leia a sentença em voz alta
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> quando terminar
 record-three-more-instruction = No três, vai!
