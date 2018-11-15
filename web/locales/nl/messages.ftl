@@ -240,6 +240,7 @@ female = Vrouwelijk
 other = Anders
 why-profile-title = Waarom een profiel?
 why-profile-text = Door wat informatie over uzelf te geven, zijn de door u bij Common Voice ingediende audiogegevens nuttiger voor spraakherkenningsengines die deze gegevens gebruiken om hun nauwkeurigheid te verbeteren.
+dashboard = Dashboard
 build-profile = Profiel opbouwen
 profile = Profiel
 avatar = Avatar
