@@ -61,7 +61,7 @@ if (DOMAIN) {
     if (options.audience && typeof options.audience === 'string') {
       params.audience = options.audience;
     }
-    params.prompt = 'select_account';
+    params.tried_autologin = true;
 
     params.action = 'signup';
 
