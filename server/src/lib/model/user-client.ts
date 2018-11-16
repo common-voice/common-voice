@@ -88,7 +88,7 @@ const UserClient = {
     );
   },
 
-  async findAccount(sso_id: string): Promise<UserClient> {
+  async findAccount(email: string): Promise<UserClient> {
     const [rows] = await db.query(
       `
         SELECT DISTINCT
@@ -102,11 +102,11 @@ const UserClient = {
         LEFT JOIN locales on accents.locale_id = locales.id
         LEFT JOIN clips on u.client_id = clips.client_id
         LEFT JOIN votes on u.client_id = votes.client_id
-        WHERE u.sso_id = ?
+        WHERE u.email = ? AND sso_id IS NOT NULL
         GROUP BY u.client_id, accents.id
         ORDER BY accents.id ASC
       `,
-      [sso_id]
+      [email]
     );
 
     return rows.length == 0
@@ -139,10 +139,14 @@ const UserClient = {
 
   async saveAccount(
     sso_id: string,
-    { client_id, email, locales, ...data }: UserClient
+    email: string,
+    { client_id, locales, ...data }: UserClient
   ): Promise<UserClient> {
     const [[[account]], [clients]] = await Promise.all([
-      db.query('SELECT client_id FROM user_clients WHERE sso_id = ?', [sso_id]),
+      db.query(
+        'SELECT client_id FROM user_clients WHERE email = ? AND sso_id IS NOT NULL',
+        [email]
+      ),
       email
         ? db.query('SELECT client_id FROM user_clients WHERE email = ?', [
             email,
@@ -188,7 +192,7 @@ const UserClient = {
       locales && updateLocales(accountClientId, locales),
     ]);
 
-    return UserClient.findAccount(sso_id);
+    return UserClient.findAccount(email);
   },
 
   async save({ client_id, email, age, gender }: any): Promise<boolean> {
@@ -235,15 +239,6 @@ const UserClient = {
       url,
       sso_id,
     ]);
-  },
-
-  async hasSSO(client_id: string): Promise<boolean> {
-    return Boolean(
-      (await db.query(
-        'SELECT 1 FROM user_clients WHERE client_id = ? AND sso_id IS NOT NULL',
-        [client_id]
-      ))[0][0]
-    );
   },
 
   async findClientId(sso_id: string): Promise<null | string> {

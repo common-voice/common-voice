@@ -200,15 +200,14 @@ export default class API {
       throw new ClientParameterError();
     }
     response.json(
-      await UserClient.saveAccount(user.id, {
-        ...body,
-        email: user.emails[0].value,
-      })
+      await UserClient.saveAccount(user.id, user.emails[0].value, body)
     );
   };
 
   getAccount = async ({ user }: Request, response: Response) => {
-    response.json(user ? await UserClient.findAccount(user.id) : null);
+    response.json(
+      user ? await UserClient.findAccount(user.emails[0].value) : null
+    );
   };
 
   subscribeToNewsletter = async (request: Request, response: Response) => {

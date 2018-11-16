@@ -30,6 +30,7 @@ export namespace User {
     validateTally: number;
 
     userClients: UserClient[];
+    isFetchingAccount: boolean;
     account: UserClient;
   }
 
@@ -43,6 +44,7 @@ export namespace User {
     privacyAgreed?: boolean;
     hasDownloaded?: boolean;
     userClients?: UserClient[];
+    isFetchingAccount?: boolean;
     account?: UserClient;
   }
 
@@ -62,6 +64,7 @@ export namespace User {
       recordTally: 0,
       validateTally: 0,
       userClients: [],
+      isFetchingAccount: true,
       account: null,
     };
   }
@@ -121,13 +124,17 @@ export namespace User {
       getState: () => StateTree
     ) => {
       const { api } = getState();
+      dispatch({
+        type: ActionType.UPDATE,
+        state: { isFetchingAccount: true },
+      });
       const [account, userClients] = await Promise.all([
         api.fetchAccount(),
         api.fetchUserClients(),
       ]);
       dispatch({
         type: ActionType.UPDATE,
-        state: { account, userClients },
+        state: { account, userClients, isFetchingAccount: false },
       });
     },
   };

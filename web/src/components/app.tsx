@@ -31,6 +31,7 @@ import { Locale } from '../stores/locale';
 import { Notifications } from '../stores/notifications';
 import StateTree from '../stores/tree';
 import { Uploads } from '../stores/uploads';
+import { User } from '../stores/user';
 import Layout from './layout/layout';
 import NotificationPill from './notification-pill/notification-pill';
 import { LoginFailure, LoginSuccess } from './pages/login';
@@ -54,6 +55,7 @@ interface PropsFromState {
 interface PropsFromDispatch {
   removeUpload: typeof Uploads.actions.remove;
   setLocale: typeof Locale.actions.set;
+  refreshUser: typeof User.actions.refresh;
 }
 
 interface LocalizedPagesProps
@@ -86,6 +88,7 @@ let LocalizedPage: any = class extends React.Component<
     await this.prepareBundleGenerator(this.props);
     window.addEventListener('scroll', this.handleScroll);
     setTimeout(() => this.setState({ hasScrolled: true }), 5000);
+    this.props.refreshUser();
   }
 
   async componentWillReceiveProps(nextProps: LocalizedPagesProps) {
@@ -235,7 +238,11 @@ LocalizedPage = withRouter(
         notifications,
         uploads,
       }),
-      { removeUpload: Uploads.actions.remove, setLocale: Locale.actions.set }
+      {
+        removeUpload: Uploads.actions.remove,
+        setLocale: Locale.actions.set,
+        refreshUser: User.actions.refresh,
+      }
     )(LocalizedPage)
   )
 );

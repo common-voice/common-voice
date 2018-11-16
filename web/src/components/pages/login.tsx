@@ -5,6 +5,7 @@ import { UserClient } from '../../../../common/user-clients';
 import URLS from '../../urls';
 import { Notifications } from '../../stores/notifications';
 import StateTree from '../../stores/tree';
+import { User } from '../../stores/user';
 
 interface NotificationProps {
   addNotification: typeof Notifications.actions.add;
@@ -34,13 +35,13 @@ export const LoginFailure = connect<void, NotificationProps>(
 );
 
 interface PropsFromState {
-  account: UserClient;
+  user: User.State;
 }
 
 type Props = PropsFromState & RouteComponentProps<any>;
 
 export const LoginSuccess = connect<PropsFromState>(({ user }: StateTree) => ({
-  account: user.account,
+  user,
 }))(
   withRouter(
     class extends React.Component<Props> {
@@ -48,11 +49,14 @@ export const LoginSuccess = connect<PropsFromState>(({ user }: StateTree) => ({
         this.redirect(this.props);
       }
 
-      componentDidUpdate(props: Props) {
+      componentWillReceiveProps(props: Props) {
         this.redirect(props);
       }
 
-      redirect({ account, history }: Props) {
+      redirect({ history, user }: Props) {
+        const { account, isFetchingAccount } = user;
+        console.log(user);
+        if (isFetchingAccount) return;
         history.replace(account ? URLS.ROOT : URLS.PROFILE_INFO);
       }
 
