@@ -116,10 +116,7 @@ content-license-text = Conţinut disponibil sub o <licenseLink>licență Creativ
 share-title = Ajută-ne să găsim alte persoane care să-și doneze vocea!
 share-text = Ajută mașinile să învețe despre cum vorbesc oamenii, donează vocea ta la { $link }
 link-copied = Link copiat
-back-top = Sus
-contribution-banner-text = Am lansat o nouă experiență pentru a contribui
-contribution-banner-button = Aruncă o privire
-report-bugs-link = Ajută la raportarea de probleme
+back-top = Înapoi la început
 logout = Deconectare
 
 ## Home Page
