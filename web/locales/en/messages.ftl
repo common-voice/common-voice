@@ -110,9 +110,6 @@ share-title = Help us find others to donate their voice!
 share-text = Help teach machines how real people speak, donate your voice at { $link }
 link-copied = Link Copied
 back-top = Back to Top
-contribution-banner-text = We've just launched a new contribution experience
-contribution-banner-button = Take a look
-report-bugs-link = Help report bugs
 logout = Log Out
 
 ## Home Page
@@ -274,6 +271,8 @@ skip-submission-description = During contribution submission feedback will be sk
 skip-submission-note = Note: You will still need to select between Speak or Listen to change contribution type.
 off = Off
 on = On
+add-avatar-title = Add an avatar to your profile
+browse-file-title = Upload an image file
 browse-file = Drag and drop or <browseWrap>Browse</browseWrap>
 connect-gravatar = Connect with Gravatar
 gravatar_not_found = No gravatar found for your email

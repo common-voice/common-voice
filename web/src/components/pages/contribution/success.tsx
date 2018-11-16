@@ -1,8 +1,4 @@
-import {
-  LocalizationProps,
-  Localized,
-  withLocalization,
-} from 'fluent-react/compat';
+import { Localized } from 'fluent-react/compat';
 import * as React from 'react';
 import { connect } from 'react-redux';
 import { DAILY_GOAL } from '../../../constants';
@@ -35,9 +31,10 @@ const GoalPercentage = ({
 interface PropsFromState {
   api: API;
   hasEnteredInfo: boolean;
+  user: User.State;
 }
 
-interface Props extends LocalizationProps, PropsFromState {
+interface Props extends PropsFromState {
   type: 'speak' | 'listen';
   onReset: () => any;
 }
@@ -87,14 +84,16 @@ class Success extends React.Component<Props, State> {
   };
 
   render() {
-    const { getString, hasEnteredInfo, onReset, type } = this.props;
+    const { hasEnteredInfo, onReset, type, user } = this.props;
     const { contributionCount, currentCount } = this.state;
     const finalPercentage = Math.ceil(
       (100 * (contributionCount || 0)) / DAILY_GOAL[type]
     );
 
+    const hasAccount = hasEnteredInfo || user.account;
+
     const ContributeMoreButton = (props: { children: React.ReactNode }) =>
-      hasEnteredInfo ? (
+      hasAccount ? (
         <Button
           className="contribute-more-button"
           rounded
@@ -145,7 +144,7 @@ class Success extends React.Component<Props, State> {
           />
         </div>
 
-        {!hasEnteredInfo && (
+        {!hasAccount && (
           <div className="profile-card">
             <Localized id="profile-explanation">
               <p />
@@ -163,7 +162,7 @@ class Success extends React.Component<Props, State> {
           </Localized>
         </ContributeMoreButton>
 
-        {hasEnteredInfo && (
+        {hasAccount && (
           <Localized id="edit-profile">
             <LocaleLink className="secondary" to={URLS.PROFILE} />
           </Localized>
@@ -173,9 +172,8 @@ class Success extends React.Component<Props, State> {
   }
 }
 
-export default withLocalization(
-  connect<PropsFromState>(({ api, user }: StateTree) => ({
-    api,
-    hasEnteredInfo: User.selectors.hasEnteredInfo(user),
-  }))(Success)
-);
+export default connect<PropsFromState>(({ api, user }: StateTree) => ({
+  api,
+  hasEnteredInfo: User.selectors.hasEnteredInfo(user),
+  user,
+}))(Success);
