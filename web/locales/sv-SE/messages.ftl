@@ -117,9 +117,6 @@ share-title = Hjälp oss att hitta andra som är redo att bidra med sin röst!
 share-text = Hjälp till att lära maskiner hur riktiga människor pratar, donera din röst på { $link }
 link-copied = Länk kopierad
 back-top = Tillbaka till toppen av sidan
-contribution-banner-text = Det finns nu ett nytt sätt att samarbeta
-contribution-banner-button = Ta en titt
-report-bugs-link = Hjälp oss att rapportera buggar
 logout = Logga ut
 
 ## Home Page
@@ -271,6 +268,8 @@ skip-submission-description = Under inlämning av bidrag ignoreras återkoppling
 skip-submission-note = Notera: Du behöver fortfarande välja mellan att prata och lyssna för att ändra bidragstyp.
 off = Av
 on = På
+add-avatar-title = Lägg till en avatar till din profil
+browse-file-title = Ladda upp en bild fil
 browse-file = Dra och släpp eller <browseWrap>Bläddra</browseWrap>
 connect-gravatar = Anslut med Gravatar
 gravatar_not_found = Ingen gravatar hittades för din e-postadress
