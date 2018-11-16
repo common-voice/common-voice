@@ -117,9 +117,6 @@ share-title = Zachęć innych do nagrania swojego głosu!
 share-text = Pomóż nauczyć komputery, jak mówią prawdziwi ludzie — wspomóż swoim głosem na { $link }
 link-copied = Skopiowano odnośnik
 back-top = Powrót na górę
-contribution-banner-text = Właśnie włączyliśmy interfejs nowego uczestnika
-contribution-banner-button = Wypróbuj
-report-bugs-link = Pomóż zgłaszać błędy
 logout = Wyloguj się
 
 ## Home Page
@@ -272,11 +269,14 @@ skip-submission-description = Informacje zwrotne będą pomijane po kliknięciu 
 skip-submission-note = Uwaga: nadal będzie trzeba wybrać między nagrywaniem a słuchaniem, aby zmienić rodzaj pracy.
 off = Wyłączone
 on = Włączone
+add-avatar-title = Dodaj awatar do profilu
+browse-file-title = Wyślij plik obrazu
 browse-file = Przeciągnij tutaj lub <browseWrap>przeglądaj</browseWrap>
 connect-gravatar = Połącz z serwisem Gravatar
 gravatar_not_found = Nie odnaleziono awatara Gravatar dla tego adresu e-mail
 file_too_large = Wybrany plik jest za duży
 manage-subscriptions = Zarządzaj subskrypcjami
+email-already-used = Adres e-mail jest już używany przez inne konto
 
 ## FAQ
 
