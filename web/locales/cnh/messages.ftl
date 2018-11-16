@@ -117,9 +117,6 @@ share-title = Na hawi le nih an Aw an rak tun ve dingin sawm kan bawm!
 share-text = Minung an holh ning computer chim ve, na Aw van khum { $link }
 link-copied = Link aa kawpi cang
 back-top = A cung ah kir
-contribution-banner-text = Thil thar kan van thlah ṭhan.
-contribution-banner-button = Van zoh
-report-bugs-link = A  ṭha lo mi kan chim
 logout = Chuahnak
 
 ## Home Page
@@ -239,6 +236,7 @@ female = Nu
 other = Adang
 why-profile-title = Zeiruang ah keimah kong cu a herh?
 why-profile-text = Nangmah konglam kan theihnak thawngin Common Voice nih AW ttha deuh le hman deuh in a theih khawh lai.
+dashboard = Innpi
 build-profile = Nangmah Kong Kan Chim
 profile = Nangmah Kong
 avatar = Hmanthlak
@@ -256,6 +254,7 @@ keep-me-posted =
     .label = Common Voice konghi chimh peng le theih peng ka duh ko.
 accept-privacy = Keimah kong hi Mozilla <privacyLink> Kilvennak Pawlisi </privacyLink> i nan ṭial bantuk in hmang ko uh.
 login-identity = Lutnak
+login-signup = Luhnak / Min Peknak
 edit = Remh
 email-subscriptions = Email Pehtlaihnak
 download-profile = Ka data dawnlok
@@ -265,11 +264,14 @@ skip-submission-description = Aw tunmi kuat lioah bia halnak cu 'Kuat' ti na hme
 skip-submission-note = Theihternak: Na aw pekchanhnak thlen na duh ahcun Chim silo le Ngaih nak na thim a hau.
 off = Phih
 on = Nunh
+add-avatar-title = Na hmanthlak chia
+browse-file-title = Hmanthlak van khumh
 browse-file = Ṭhial law thla silole <browseWrap> Zoh </browseWrap>
 connect-gravatar = Gravatar he pehtonh
 gravatar_not_found = Na email ah hmanthlak kan hmu lo
 file_too_large = Na thimmi a lian tuk
 manage-subscriptions = Cakuat Zohkhenhnak
+email-already-used = Na email cu midang nih an hman cang
 
 ## FAQ
 
