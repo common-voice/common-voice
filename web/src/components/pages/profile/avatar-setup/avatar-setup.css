@@ -24,6 +24,15 @@
         border: 3px dotted var(--light-grey);
         box-sizing: border-box;
 
+        & .title {
+            position: absolute;
+            left: 15px;
+            top: -11px;
+            font-size: var(--font-size-xs);
+            letter-spacing: 0.5px;
+            background: var(--white);
+        }
+
         & .upload-label {
             padding: 20px 10px;
             display: flex;
@@ -31,6 +40,7 @@
             justify-content: center;
             align-items: center;
             cursor: pointer;
+            color: var(--near-black);
 
             & .browse {
                 margin-top: 20px;

@@ -110,7 +110,9 @@ class AvatarSetup extends React.Component<Props> {
         : null;
     return (
       <fieldset className="avatar-setup" disabled={this.state.isSaving}>
-        <h2>Add an avatar to your profile and say “hello!”</h2>
+        <Localized id="add-avatar-title">
+          <h2 />
+        </Localized>
 
         <div className="file-upload">
           <label
@@ -121,6 +123,9 @@ class AvatarSetup extends React.Component<Props> {
               this.saveFileAvatar(event.dataTransfer.files);
               event.preventDefault();
             }}>
+            <Localized id="browse-file-title">
+              <span className="title" />
+            </Localized>
             <Localized
               id="browse-file"
               browseWrap={<span className="browse" />}>
