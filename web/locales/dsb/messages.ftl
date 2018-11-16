@@ -280,6 +280,7 @@ connect-gravatar = Z gravatarom zwězaś
 gravatar_not_found = Njejo se namakał žeden gravatar za wašu e-mail
 file_too_large = Wubrana dataja jo pśewjelika
 manage-subscriptions = Abonementy zastojaś
+email-already-used = E-mailowa adresa se južo za druge konto wužywa
 
 ## FAQ
 
