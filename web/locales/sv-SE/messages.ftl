@@ -269,12 +269,13 @@ skip-submission-note = Notera: Du behöver fortfarande välja mellan att prata o
 off = Av
 on = På
 add-avatar-title = Lägg till en avatar till din profil
-browse-file-title = Ladda upp en bild fil
+browse-file-title = Ladda upp en bildfil
 browse-file = Dra och släpp eller <browseWrap>Bläddra</browseWrap>
 connect-gravatar = Anslut med Gravatar
 gravatar_not_found = Ingen gravatar hittades för din e-postadress
 file_too_large = Den valda filen är för stor
 manage-subscriptions = Hantera prenumerationer
+email-already-used = E-postadress används redan för ett annat konto
 
 ## FAQ
 
