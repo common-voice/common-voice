@@ -117,9 +117,6 @@ share-title = Pomagajśo nam, dalšne namakaś, kótarež swój głos dawaju!
 share-text = Pomagajśo mašinam wucyś, kak luźe powědaju, dajśo swój głos na { $link }
 link-copied = Wótkaz kopěrowany
 back-top = Slědk górjej
-contribution-banner-text = Smy rowno startowali nowu móžnosć za sobuźěło
-contribution-banner-button = Rozglědajśo se
-report-bugs-link = Dajśo programowe zmólki k wěsći
 logout = Wótzjawiś
 
 ## Home Page
@@ -276,6 +273,8 @@ skip-submission-description = Pśi sobustatkowanju se zapódawański komentar p�
 skip-submission-note = glědajśo: Musyśo hyšći mjazy Powědaś abo Słuchaś wubraś, aby typ sobustatkowanja změnił.
 off = Wušaltowany
 on = Zašaltowany
+add-avatar-title = Pśidajśo wašomu profiloju awatar
+browse-file-title = Wobrazowu dataju nagraś
 browse-file = Śěgniśo a pušććo abo <browseWrap>pśeglědujśo</browseWrap>
 connect-gravatar = Z gravatarom zwězaś
 gravatar_not_found = Njejo se namakał žeden gravatar za wašu e-mail
