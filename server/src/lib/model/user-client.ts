@@ -241,10 +241,10 @@ const UserClient = {
     ]);
   },
 
-  async findClientId(sso_id: string): Promise<null | string> {
+  async findClientId(email: string): Promise<null | string> {
     const [[row]] = await db.query(
-      'SELECT client_id FROM user_clients WHERE sso_id = ?',
-      [sso_id]
+      'SELECT client_id FROM user_clients WHERE email = ? AND sso_id IS NOT NULL',
+      [email]
     );
     return row ? row.client_id : null;
   },

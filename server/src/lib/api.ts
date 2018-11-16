@@ -44,7 +44,9 @@ export default class API {
         }
 
         if (request.user) {
-          request.client_id = await UserClient.findClientId(request.user.id);
+          request.client_id = await UserClient.findClientId(
+            request.user.emails[0].value
+          );
         }
 
         next();
