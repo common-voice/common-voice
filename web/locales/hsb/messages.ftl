@@ -117,9 +117,6 @@ share-title = Pomhajće nam, dalšich namakać, kotřiž swój hłós daruja!
 share-text = Pomhajće mašinam wučić, kak ludźo rěča, darće swój hłós na { $link }
 link-copied = Wotkaz kopěrowany
 back-top = Wróćo horje
-contribution-banner-text = Smy runje nowu móžnosć za sobudźěło startowali
-contribution-banner-button = Rozhladajće so
-report-bugs-link = Zdźělće programowe zmylki
 logout = Wotzjewić
 
 ## Home Page
@@ -276,6 +273,8 @@ skip-submission-description = Při sobuskutkowanju so zapodawanski komentar po k
 skip-submission-note = Kedźbu: Dyrbiće hišće mjez Rěčeć abo Słuchać wubrać, zo byšće typ sobuskutkowanja změnił.
 off = Wupinjeny
 on = Zapinjeny
+add-avatar-title = Přidajće wašemu profilej awatar
+browse-file-title = Wobrazowu dataju nahrać
 browse-file = Čehńće a pušćće abo <browseWrap>přehladujće</browseWrap>
 connect-gravatar = Z gravatarom zwjazać
 gravatar_not_found = Njeje so žadyn gravatar za wašu e-mejl namakał
