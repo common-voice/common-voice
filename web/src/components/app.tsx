@@ -303,7 +303,9 @@ class App extends React.Component {
                   exact
                   path={url || '/'}
                   render={() => (
-                    <Redirect to={'/' + this.userLocales[0] + url} />
+                    <Redirect
+                      to={'/' + this.userLocales[0] + url + location.search}
+                    />
                   )}
                 />
               ))}

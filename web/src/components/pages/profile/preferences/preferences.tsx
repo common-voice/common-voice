@@ -7,12 +7,13 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import { UserClient } from '../../../../../../common/user-clients';
 import API from '../../../../services/api';
+import { Notifications } from '../../../../stores/notifications';
 import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
-import { Hr, LinkButton, LabeledInput } from '../../../ui/ui';
+import { SettingsIcon } from '../../../ui/icons';
+import { LinkButton, LabeledInput } from '../../../ui/ui';
 
 import './preferences.css';
-import { SettingsIcon } from '../../../ui/icons';
 
 const Section = ({
   title,
@@ -41,12 +42,33 @@ interface PropsFromState {
 }
 
 interface PropsFromDispatch {
+  addNotification: typeof Notifications.actions.add;
   refreshUser: typeof User.actions.refresh;
 }
 
 interface Props extends LocalizationProps, PropsFromState, PropsFromDispatch {}
 
 class Preferences extends React.Component<Props> {
+  componentDidMount() {
+    const { pathname, search } = location;
+    if (search.includes('success=false')) {
+      this.props.addNotification(
+        <Localized id="email-already-used">
+          <span />
+        </Localized>,
+        'error'
+      );
+      history.replaceState({}, null, pathname);
+    } else if (search.includes('success=true')) {
+      this.props.addNotification(
+        <Localized id="profile-form-submit-saved">
+          <span />
+        </Localized>
+      );
+      history.replaceState({}, null, pathname);
+    }
+  }
+
   syncSkipSubmissionFeedback = async (
     event: React.ChangeEvent<HTMLInputElement>
   ) => {
@@ -131,6 +153,7 @@ export default connect<PropsFromState, PropsFromDispatch>(
     api,
   }),
   {
+    addNotification: Notifications.actions.add,
     refreshUser: User.actions.refresh,
   }
 )(withLocalization(Preferences));

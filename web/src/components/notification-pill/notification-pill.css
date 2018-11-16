@@ -8,17 +8,25 @@
     display: flex;
     align-items: center;
 
-    background: var(--valid-green);
     color: var(--white);
     opacity: 1;
     transition: opacity linear var(--transition-duration);
     animation: fade-in var(--transition-duration-slow);
 
+    &.success {
+        background: var(--valid-green);
+    }
+
+    &.error {
+        background: var(--red);
+    }
+
     &:first-child {
         margin-top: 0;
     }
 
-    & .icon, & svg {
+    & .icon,
+    & svg {
         font-size: 9px;
         margin-right: 10px;
 

@@ -227,11 +227,25 @@ const UserClient = {
     ]);
   },
 
-  async updateSSO(old_sso_id: string, new_sso_id: string, email: string) {
-    await db.query(
-      'UPDATE user_clients SET sso_id = ?, email = ? WHERE sso_id = ?',
-      [new_sso_id, email, old_sso_id]
+  async updateSSO(
+    old_email: string,
+    new_sso_id: string,
+    email: string
+  ): Promise<boolean> {
+    const [[row]] = await db.query(
+      'SELECT 1 FROM user_clients WHERE email = ?',
+      [email]
     );
+
+    if (row) {
+      return false;
+    }
+
+    await db.query(
+      'UPDATE user_clients SET sso_id = ?, email = ? WHERE email = ? AND sso_id IS NOT NULL',
+      [new_sso_id, email, old_email]
+    );
+    return true;
   },
 
   async updateAvatarURL(sso_id: string, url: string) {

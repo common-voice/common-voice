@@ -101,11 +101,15 @@ router.get(
     if (!user) {
       response.redirect('/login-failure');
     } else if (query.state) {
-      const { old_sso_id } = JSON.parse(
+      const { old_email } = JSON.parse(
         AES.decrypt(query.state, SECRET).toString(enc.Utf8)
       );
-      await UserClient.updateSSO(old_sso_id, user.id, user.emails[0].value);
-      response.redirect('/profile/preferences');
+      const success = await UserClient.updateSSO(
+        old_email,
+        user.id,
+        user.emails[0].value
+      );
+      response.redirect('/profile/preferences?success=' + success.toString());
     } else {
       response.redirect('/login-success');
     }
@@ -118,7 +122,7 @@ router.get('/login', (request: Request, response: Response) => {
     state:
       user && query.change_email !== undefined
         ? AES.encrypt(
-            JSON.stringify({ old_sso_id: user.id }),
+            JSON.stringify({ old_email: user.emails[0].value }),
             SECRET
           ).toString()
         : '',
