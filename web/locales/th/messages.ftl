@@ -1,5 +1,7 @@
 ## General
 
+yes-receive-emails = ใช่ส่งอีเมลให้ฉัน ฉันต้องการรับทราบข้อมูลเกี่ยวกับโครงการ Common Voice
+stayintouch = Mozilla กำลังสร้างชุมชนเกี่ยวกับเทคโนโลยีด้านเสียง เราต้องการติดตามข้อมูลอัปเดตแหล่งข้อมูลใหม่และเพื่อทราบข้อมูลเพิ่มเติมเกี่ยวกับวิธีใช้ข้อมูลนี้
 return-to-cv = กลับไปยัง Common Voice
 email-input =
     .label = อีเมล
@@ -50,7 +52,6 @@ nn-NO = นอร์เวย์ไนนอสก์
 or = โอเดีย
 pl = โปแลนด์
 pt-BR = โปรตุเกส (บราซิล)
-rm = โรมานช์
 ro = โรมาเนีย
 ru = รัสเซีย
 sah = ซาฮา
@@ -89,7 +90,6 @@ faq = คำถามที่พบบ่อย
 content-license-text = เนื้อหาอยู่ภายใต้<licenseLink>สัญญาอนุญาต Creative Commons</licenseLink>
 link-copied = คัดลอกลิงก์แล้ว
 back-top = กลับขึ้นด้านบน
-report-bugs-link = ช่วยรายงานข้อบกพร่อง
 
 ## Home Page
 
@@ -147,6 +147,7 @@ female = หญิง
 # Gender
 other = อื่น ๆ
 why-profile-title = ทำไมถึงต้องมีโปรไฟล์?
+profile = โปรไฟล์
 edit-profile = แก้ไขโปรไฟล์
 profile-create = สร้างโปรไฟล์
 profile-create-success = สำเร็จ สร้างโปรไฟล์แล้ว!
@@ -175,16 +176,6 @@ data-other-goto = ไปยัง { $name }
 data-other-download = ดาวน์โหลดข้อมูล
 license = สัญญาอนุญาต: <licenseLink>{ $license }</licenseLink>
 license-mixed = ผสม
-
-## Record Page
-
-record-must-allow-microphone = คุณต้องอนุญาตให้ใช้ไมโครโฟนได้
-record-retry = ลองใหม่
-record-no-mic-found = ไม่พบไมโครโฟน
-record-error-too-short = การอัดเสียงสั้นเกินไป
-record-error-too-long = การอัดเสียงยาวเกินไป
-record-error-too-quiet = การอัดเสียงนั้นเบาเกินไป
-record-submit-success = ส่งสำเร็จ ต้องการบันทึกอีกหรือไม่
 terms-agree = ฉันยอมรับ
 terms-disagree = ฉันไม่ยอมรับ
 review-submit-title = ตรวจสอบ  & ส่ง
@@ -237,6 +228,11 @@ action-tap = แตะ
 listen = ฟัง
 skip = ข้าม
 shortcuts = ทางลัด
+record-must-allow-microphone = คุณต้องอนุญาตให้ใช้ไมโครโฟนได้
+record-no-mic-found = ไม่พบไมโครโฟน
+record-error-too-short = การอัดเสียงสั้นเกินไป
+record-error-too-long = การอัดเสียงยาวเกินไป
+record-error-too-quiet = การอัดเสียงนั้นเบาเกินไป
 clips-uploaded = อัปโหลดคลิปแล้ว
 record-abort-submit = ส่งคลิป
 record-button-label = อัดเสียงของคุณ
