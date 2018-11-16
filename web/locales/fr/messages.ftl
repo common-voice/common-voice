@@ -117,9 +117,6 @@ share-title = Aidez-nous à collecter davantage de voix !
 share-text = Aidez les machines à apprendre à parler comme de vraies personnes en donnant votre voix sur { $link }
 link-copied = Lien copié
 back-top = Haut de la page
-contribution-banner-text = Nous avons ajouté une toute nouvelle façon de contribuer
-contribution-banner-button = L’essayer
-report-bugs-link = Signaler des problèmes
 logout = Déconnexion
 
 ## Home Page
@@ -270,6 +267,8 @@ skip-submission-description = L’envoi de commentaires sera désactivé après 
 skip-submission-note = Remarque : vous devez encore choisir entre Parler et Écouter pour modifier votre type de contribution.
 off = Désactivé
 on = Activé
+add-avatar-title = Ajouter un avatar à votre profil
+browse-file-title = Envoyer une image
 browse-file = Glissez-déposez ou bien <browseWrap>Parcourez</browseWrap>
 connect-gravatar = Connectez-vous avec Gravatar
 gravatar_not_found = Impossible de trouver un Gravatar associé à votre adresse électronique
