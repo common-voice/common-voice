@@ -35,15 +35,12 @@ export default class API {
 
         const client_id = request.headers.client_id as string;
         if (client_id) {
-          //TODO auth check back, without breaking registration
-          // if (await UserClient.hasSSO(client_id)) {
-          //   response.sendStatus(401);
-          //   return;
-          // }
+          if (await UserClient.hasSSO(client_id)) {
+            response.sendStatus(401);
+            return;
+          }
           request.client_id = client_id;
-        }
-
-        if (request.user) {
+        } else if (request.user) {
           request.client_id = await UserClient.findClientId(
             request.user.emails[0].value
           );

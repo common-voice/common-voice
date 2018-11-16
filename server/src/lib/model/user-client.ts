@@ -262,6 +262,15 @@ const UserClient = {
     );
     return row ? row.client_id : null;
   },
+
+  async hasSSO(client_id: string): Promise<boolean> {
+    return Boolean(
+      (await db.query(
+        'SELECT 1 FROM user_clients WHERE client_id = ? AND sso_id IS NOT NULL',
+        [client_id]
+      ))[0][0]
+    );
+  },
 };
 
 export default UserClient;
