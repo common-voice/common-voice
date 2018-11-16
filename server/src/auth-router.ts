@@ -97,11 +97,11 @@ if (DOMAIN) {
 router.get(
   CALLBACK_URL,
   passport.authenticate('auth0', { failureRedirect: '/login' }),
-  async ({ user, query }: Request, response: Response) => {
+  async ({ user, query, session }: Request, response: Response) => {
     if (!user) {
       response.redirect('/login-failure');
     } else if (query.state) {
-      const { old_email } = JSON.parse(
+      const { old_user, old_email } = JSON.parse(
         AES.decrypt(query.state, SECRET).toString(enc.Utf8)
       );
       const success = await UserClient.updateSSO(
@@ -109,6 +109,9 @@ router.get(
         user.id,
         user.emails[0].value
       );
+      if (!success) {
+        session.passport.user = old_user;
+      }
       response.redirect('/profile/preferences?success=' + success.toString());
     } else {
       response.redirect('/login-success');
@@ -122,7 +125,10 @@ router.get('/login', (request: Request, response: Response) => {
     state:
       user && query.change_email !== undefined
         ? AES.encrypt(
-            JSON.stringify({ old_email: user.emails[0].value }),
+            JSON.stringify({
+              old_user: request.user,
+              old_email: user.emails[0].value,
+            }),
             SECRET
           ).toString()
         : '',

@@ -233,8 +233,8 @@ const UserClient = {
     email: string
   ): Promise<boolean> {
     const [[row]] = await db.query(
-      'SELECT 1 FROM user_clients WHERE email = ?',
-      [email]
+      'SELECT 1 FROM user_clients WHERE email = ? OR sso_id = ?',
+      [email, new_sso_id]
     );
 
     if (row) {
