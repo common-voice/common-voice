@@ -117,9 +117,6 @@ share-title = Ɛawen-aɣ i wakken ad d-naf imdanen-nniḍen ara d-yefken taɣect
 share-text = Ɛawen timacicin ad ttmeslayent am yimdanen, efk-d taɣect-ik { $link }
 link-copied = Aseɣwen yettwanɣel
 back-top = Uɣal d asawen
-contribution-banner-text = Tura kan i nesker yiwen umahil n uttekki amaynut
-contribution-banner-button = Walli ugar
-report-bugs-link = Ɛiwen s ucceger n ibugen
 logout = Ffeɣ
 
 ## Home Page
@@ -268,11 +265,14 @@ skip-submission-description = Di lawan n utteki, tuzna n tmuɣli-inek ad tettwas
 skip-submission-note = Tazmilt: akken ad tbedleḍ tamahilt n utteki ilaq ad ferneḍ gar Mmeslay akked Timesliwt.
 off = Sens
 on = Rmed
+add-avatar-title = Rnu avataṛ i umiḍan-ik/im
+browse-file-title = Sali afaylu n tugna
 browse-file = Zuɣer sakin sers neɣ <browseWrap>innig</browseWrap>
 connect-gravatar = Qqen s Gravatar
 gravatar_not_found = Ulac Gravatar ittwafen i imayl-inek
 file_too_large = Afaylu ittwafernen meqqer aṭas
 manage-subscriptions = Sefrekajerred
+email-already-used = Imayl ittuseqdec yakan i umiḍan nniḍen
 
 ## FAQ
 
