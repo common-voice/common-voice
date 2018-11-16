@@ -278,6 +278,7 @@ connect-gravatar = Connect with Gravatar
 gravatar_not_found = No gravatar found for your email
 file_too_large = The selected file is too large
 manage-subscriptions = Manage Subscriptions
+email-already-used = Email is already used for a different account
 
 ## FAQ
 faq-title = Frequently Asked Questions
