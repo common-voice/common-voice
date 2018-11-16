@@ -3,7 +3,7 @@
 contribute = Contribuie
 get-involved-button = Implică-te
 get-involved-title = Contribuie la { $lang }
-get-involved-text = Mulțumim pentru interesul tău de a contribui la { $lang }. Ne străduim să pregătim fiecare limbă pentru lansare și să ținem la curent echipele prin e-mail. Dacă dorești să contribui, te rugăm să ne furnizezi adresa ta de e-mail mai jos.
+get-involved-text = Îți mulțumim pentru interesul de a contribui la { $lang }. Ne străduim să pregătim fiecare limbă pentru lansare și să ne ținem la curent echipele prin e-mail. Dacă dorești să contribui, te rugăm să ne furnizezi adresa ta de e-mail mai jos.
 get-involved-form-title = Înscrie-te pentru actualizări cu privire la { $lang }:
 get-involved-email =
     .label = E-mail
