@@ -117,9 +117,6 @@ share-title = Səsini ianə edəcək başqa insanları tapmağa kömək et!
 share-text = Maşınlara real insanların necə danışdıqlarını öyrətməyə kömək et, səsinizi ianə edin: { $link }
 link-copied = Keçid Köçürüldü
 back-top = Üstə Qayıt
-contribution-banner-text = Yeni dəstək interfeysini yayına aldıq
-contribution-banner-button = Göz gəzdir
-report-bugs-link = Xətaları bildirməyə kömək et
 logout = Çıx
 
 ## Home Page
@@ -242,6 +239,7 @@ female = Qadın
 other = Digər
 why-profile-title = Niyə profil?
 why-profile-text = Haqqınızda bəzi məlumatları verərək Common Voice üçün göndərdiyiniz səs məlumatlarını Səs Tanıma mühərriyi üçün daha mənalı hala gətirə bilərsiz.
+dashboard = İdarə paneli
 build-profile = Profil yarat
 profile = Profil
 avatar = Avatar
@@ -259,6 +257,7 @@ keep-me-posted =
     .label = Yeniliklərdən və Common Voice proyektindəki dəyişikliklərdən xəbərdar olmaq istəyirəm.
 accept-privacy = Bu məlumatı Mozillanın <privacyLink>Məxfilik Siyasəti</privacyLink>nə əsasən işləməyinizə razıyam
 login-identity = Giriş İdentikliyi
+login-signup = Daxil ol / Qeydiyyatdan keç
 edit = Redaktə et
 email-subscriptions = E-poçt Abunəlikləri
 download-profile = Məlumatlarımı endir
@@ -268,11 +267,14 @@ skip-submission-description = Kömək vaxtı "Göndər" düyməsinə kliklədikd
 skip-submission-note = Qeyd: Siz yenə də kömək növünü dəyişmək üçün Danış və ya Qulaq as seçməli olacaqsız.
 off = Sönülü
 on = Açıq
+add-avatar-title = Profilinizə avatar əlavə edin
+browse-file-title = Şəkil faylı yüklə
 browse-file = Daşı və burax və ya <browseWrap>Gəz</browseWrap>
 connect-gravatar = Gravatar ilə qoşul
 gravatar_not_found = E-poçtunuz üçün gravatar tapılmadı
 file_too_large = Seçilən fayl çox böyükdür
 manage-subscriptions = Abunəlikləri idarə et
+email-already-used = E-poçt artıq digər bir hesab üçün işlədilir
 
 ## FAQ
 
