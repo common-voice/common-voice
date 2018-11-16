@@ -117,9 +117,6 @@ share-title = Helpwch ni i gael rhagor o bobl i gyfrannu eu lleisiau!
 share-text = Helpwch beiriannau i ddysgu sut mae pobl go iawn yn siarad, cyfrannwch eich llais yn { $link }
 link-copied = Dolen wedi'i chopïo
 back-top = Nôl i'r Brig
-contribution-banner-text = Rydym newydd lansio profiad cyfrannwr newydd
-contribution-banner-button = Cymrwch olwg
-report-bugs-link = Adrodd ar wallau
 logout = Allgofnodi
 
 ## Home Page
@@ -258,6 +255,7 @@ female = Benyw
 other = Arall
 why-profile-title = Pam proffil?
 why-profile-text = Drwy ddarparu rhywfaint o wybodaeth amdanoch chi eich hun, bydd y data sain rydych yn ei gyflwyno i Common Voice yn fwy defnyddiol i beiriannau Adnabod Lleferydd sy'n defnyddio'r data hwn i fod yn fwy cywir.
+dashboard = Bwrdd Gwaith
 build-profile = Adeiladu Proffil
 profile = Proffil
 avatar = Afatar
@@ -275,6 +273,7 @@ keep-me-posted =
     .label = Hoffwn dderbyn diweddariadau i gadw'n gyfredol â'r hyn y'n digwydd i Common Voice.
 accept-privacy = Rwy'n hapus gyd chi'n defnyddio'r wybodaeth yma fel rydych yn ei esbonio ym <privacyLink>Mholisi Preifatrwydd Mozilla</privacyLink>
 login-identity = Enw Mewngofnodi
+login-signup = Mewngofnodi / Cofrestru
 edit = Golygu
 email-subscriptions = Tanysgrifiadau E-bost
 download-profile = Llwytho fy nata i lawr
