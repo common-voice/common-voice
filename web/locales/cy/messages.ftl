@@ -283,11 +283,14 @@ skip-submission-description = Yn ystod cyflwyno cyfrannu bydd adborth y cael ei 
 skip-submission-note = Sylw: Bydd dal rhaid i chi ddewis rhwng Siarad neu Gwrando i newid y math o gyfraniad.
 off = Diffodd
 on = Ymlaen
+add-avatar-title = Ychwanegu afatar i'ch proffil
+browse-file-title = Llwytho ffeil delwedd
 browse-file = Llusgo a gollwg neu <browseWrap>Bori</browseWrap>
 connect-gravatar = Cysylltu â Gravatar
 gravatar_not_found = Dim gravatar wedi ei ganfod o'ch e-bost
 file_too_large = Mae'r ffeil yma'n rhy fawr
 manage-subscriptions = Rheoli Tanysgrifiadau
+email-already-used = Mae'r e-bost yn cael ei ddefnyddio yn barod ar gyfer cyfrif gwahanol
 
 ## FAQ
 
