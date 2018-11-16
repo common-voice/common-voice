@@ -52,9 +52,7 @@ interface LayoutState {
 class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   private header: HTMLElement;
   private scroller: HTMLElement;
-  private bg: HTMLElement;
   private installApp: HTMLElement;
-  private stopBackgroundRender: boolean;
 
   state: LayoutState = {
     isMenuVisible: false,
@@ -65,6 +63,10 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
 
   componentDidMount() {
     this.scroller.addEventListener('scroll', this.handleScroll);
+    setTimeout(() => {
+      import('../pages/contribution/speak/speak');
+      import('../pages/contribution/listen/listen');
+    }, 1000);
   }
 
   componentDidUpdate(nextProps: LayoutProps, nextState: LayoutState) {
