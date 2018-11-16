@@ -117,9 +117,6 @@ share-title = 幫助我們找人一起獻聲！
 share-text = 請到 { $link } 獻聲，協助我們教導機器了解人們是如何說話的。
 link-copied = 已複製鍊結
 back-top = 回到頁面頂端
-contribution-banner-text = 我們剛推出全新的貢獻方式
-contribution-banner-button = 體驗一下
-report-bugs-link = 協助回報問題
 logout = 登出
 
 ## Home Page
@@ -266,6 +263,8 @@ skip-submission-description = 貢獻過程中，在點擊「送出」後將忽�
 skip-submission-note = 註: 您仍須要選擇「聽」或「說」來切換貢獻類型。
 off = 關
 on = 開
+add-avatar-title = 在您的個人資料中加入大頭照
+browse-file-title = 上傳圖片
 browse-file = 拖曳至此處，或<browseWrap>瀏覽</browseWrap>
 connect-gravatar = 連結 Gravatar
 gravatar_not_found = 找不到您電子郵件信箱的 Gravatar
