@@ -117,9 +117,6 @@ share-title = 帮我们找到更多人来贡献声音！
 share-text = 帮助训练机器像真人一样说话，请在 { $link } 处贡献出您的声音
 link-copied = 链接已复制
 back-top = 回到顶端
-contribution-banner-text = 我们刚刚推出全新的贡献方式
-contribution-banner-button = 体验一下
-report-bugs-link = 帮助报告缺陷
 logout = 退出
 
 ## Home Page
@@ -264,6 +261,8 @@ skip-submission-description = 贡献期间，点击“提交”将跳过反馈�
 skip-submission-note = 注：您仍需选择“听”或“说”来切换贡献类型。
 off = 关
 on = 开
+add-avatar-title = 在您的个人资料中添加头像
+browse-file-title = 上传图片
 browse-file = 拖放至此，或者<browseWrap>浏览</browseWrap>
 connect-gravatar = 连接 Gravatar
 gravatar_not_found = 通过您的电子邮件地址未找到 Gravatar
