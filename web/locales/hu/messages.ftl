@@ -117,9 +117,6 @@ share-title = Segítsen olyanokat találni, akik a hangjukat adják.
 share-text = Segítsen megtanítani a gépeknek, hogyan beszélnek az emberek. Adja a hangját: { $link }
 link-copied = Hivatkozás másolva
 back-top = Vissza a tetejére
-contribution-banner-text = Elindítottuk az új közreműködési élményt
-contribution-banner-button = Nézze meg
-report-bugs-link = Segítsen a hibák jelentésében
 logout = Kijelentkezés
 
 ## Home Page
@@ -263,6 +260,7 @@ keep-me-posted =
     .label = Szeretnék frissítéseket kapni, és naprakész lenni, hogy mi történik a Common Voice-szal.
 accept-privacy = Beleegyezem, hogy a Mozilla <privacyLink>Adatvédelmi irányelveiben</privacyLink> leírtak szerint kezeljék az adataimat
 login-identity = Bejelentkezési azonosító
+login-signup = Bejelentkezés / Regisztráció
 edit = Szerkesztés
 email-subscriptions = E-mail feliratkozások
 download-profile = Saját adatok letöltése
