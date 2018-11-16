@@ -117,9 +117,6 @@ share-title = Überzeugen Sie auch andere, ihre Stimme zu spenden!
 share-text = Zeigt Maschinen, wie echte Menschen sprechen und spendet eure Stimme auf { $link }!
 link-copied = Link kopiert
 back-top = Zum Seitenanfang
-contribution-banner-text = Es gibt jetzt eine neue Möglichkeit, mitzuarbeiten
-contribution-banner-button = Ausprobieren
-report-bugs-link = Fehler melden
 logout = Abmelden
 
 ## Home Page
@@ -268,11 +265,14 @@ skip-submission-description = Beim Mitarbeiten wird das Feedback zu Übermittlun
 skip-submission-note = Hinweis: Sie müssen trotzdem „Sprechen“ oder „Zuhören“ auswählen, um die Art der Mitwirkung zu ändern.
 off = Aus
 on = An
+add-avatar-title = Fügen Sie Ihrem Profil ein Bild hinzu
+browse-file-title = Grafikdatei hochladen
 browse-file = Ziehen und Ablegen oder <browseWrap>Durchsuchen</browseWrap>
 connect-gravatar = Mit Gravatar verbinden
 gravatar_not_found = Für Ihre E-Mail-Adresse wurde kein Gravatar gefunden
 file_too_large = Die ausgewählte Datei ist zu groß
 manage-subscriptions = Abonnements verwalten
+email-already-used = E-Mail-Adresse wird bereits durch ein anderes Konto verwendet
 
 ## FAQ
 
