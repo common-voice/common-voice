@@ -33,15 +33,21 @@
         }
     }
 
-    &.box .section-body {
-        border: 2px solid var(--light-grey);
-
-        @media (--sm-down) {
-            padding: 30px 16px;
+    &.box {
+        & .section-title {
+            border-bottom: 0;
         }
 
-        @media (--md-up) {
-            padding: 60px 50px;
+        & .section-body {
+            border: 2px solid var(--light-grey);
+
+            @media (--sm-down) {
+                padding: 30px 16px;
+            }
+
+            @media (--md-up) {
+                padding: 60px 50px;
+            }
         }
     }
 
