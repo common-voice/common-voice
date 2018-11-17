@@ -270,6 +270,7 @@ connect-gravatar = 連結 Gravatar
 gravatar_not_found = 找不到您電子郵件信箱的 Gravatar
 file_too_large = 選擇的檔案太大
 manage-subscriptions = 管理訂閱
+email-already-used = 電子郵件地址已用於其他帳號
 
 ## FAQ
 
