@@ -117,9 +117,6 @@ share-title = Giúp chúng tôi tìm những người khác để cung cấp gi�
 share-text = Hãy giúp dạy cho các phần mềm cách nói chuyện của con người, đóng góp giọng nói của bạn tại { $link }
 link-copied = Đã sao chép liên kết
 back-top = Trở về đầu trang
-contribution-banner-text = Chúng tôi vừa ra mắt một trải nghiệm đóng góp mới
-contribution-banner-button = Hãy xem qua
-report-bugs-link = Giúp báo cáo lỗi
 logout = Đăng Xuất
 
 ## Home Page
@@ -236,6 +233,7 @@ female = Nữ
 other = Khác
 why-profile-title = Tại sao phải tạo một hồ sơ?
 why-profile-text = Bằng cách cung cấp một số thông tin về bản thân bạn, dữ liệu âm thanh mà bạn gửi tới Common Voice sẽ hữu ích hơn đối với công cụ Nhận dạng giọng nói và cũng để cải thiện độ chính xác của chúng.
+dashboard = Bảng điều khiển
 build-profile = Xây dựng hồ sơ
 profile = Hồ sơ
 avatar = Ảnh đại diện
@@ -253,6 +251,7 @@ keep-me-posted =
     .label = Tôi muốn được nhận thông tin và biết những gì diễn ra với dự án Common Voice.
 accept-privacy = Tôi đồng ý với việc các bạn xử lý thông tin này khi các bạn giải thích trong <privacyLink>Chính sách bảo mật</privacyLink> của Mozilla
 login-identity = Nhận dạng đăng nhập
+login-signup = Đăng nhập / Đăng ký
 edit = Chỉnh sửa
 email-subscriptions = Đăng ký email
 download-profile = Tải dữ liệu của tôi
@@ -262,11 +261,14 @@ skip-submission-description = Trong khi đóng góp, phản hồi của bài g�
 skip-submission-note = Lưu ý: Bạn vẫn cần chọn giữa Nói hoặc Nghe để thay đổi hình thức đóng góp.
 off = Tắt
 on = Bật
+add-avatar-title = Thêm ảnh đại diện cho hồ sơ của bạn
+browse-file-title = Tải lên hình ảnh
 browse-file = Kéo và thả hoặc <browseWrap>Duyệt</browseWrap>
 connect-gravatar = Kết nối với Gravatar
 gravatar_not_found = Không tìm thấy gravatar cho email của bạn
 file_too_large = Tệp đã chọn quá lớn
 manage-subscriptions = Quản lý các mục đăng kí
+email-already-used = Email đã được sử dụng cho tài khoản khác
 
 ## FAQ
 
