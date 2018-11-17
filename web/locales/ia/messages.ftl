@@ -117,9 +117,6 @@ share-title = Adjuta nos a trovar alteres pro donar lor voce!
 share-text = Adjuta a inseniar al machinas como parla le personas real, dona tu voce al { $link }
 link-copied = Ligamine copiate
 back-top = Receder al initio
-contribution-banner-text = Nos ha a pena lanceate un nove experientia de contribution
-contribution-banner-button = Da un reguardo
-report-bugs-link = Adjuta a reportar defectos
 logout = Disconnexion
 
 ## Home Page
@@ -267,11 +264,14 @@ skip-submission-description = Durante le invio del contribution essera ignorate 
 skip-submission-note = Nota: tu debera ancora seliger inter parlar o ascoltar pro cambiar typo de contribution.
 off = Inactive
 on = Activar
+add-avatar-title = Adde un avatar a tu profilo
+browse-file-title = Carga un file imagine
 browse-file = Traher e deponer o <browseWrap>Navigar</browseWrap>
 connect-gravatar = Connecter con Gravatar
 gravatar_not_found = Nulle gravatar trovate pro tu email
 file_too_large = Le file seligite es troppo grande
 manage-subscriptions = Gerer le subscriptiones
+email-already-used = Iste email es jam utilisate pro un conto differente
 
 ## FAQ
 
