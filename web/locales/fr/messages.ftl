@@ -274,6 +274,7 @@ connect-gravatar = Connectez-vous avec Gravatar
 gravatar_not_found = Impossible de trouver un Gravatar associé à votre adresse électronique
 file_too_large = Le fichier sélectionné est trop volumineux
 manage-subscriptions = Gérer vos abonnements
+email-already-used = Cette adresse électronique est déjà utilisée par un compte différent
 
 ## FAQ
 
