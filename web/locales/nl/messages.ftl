@@ -117,9 +117,6 @@ share-title = Help ons anderen te vinden die hun stem willen doneren!
 share-text = Help machines te leren hoe echte mensen spreken, doneer uw stem op { $link }
 link-copied = Koppeling gekopieerd
 back-top = Naar boven
-contribution-banner-text = We hebben onlangs een nieuwe manier om bij te dragen gelanceerd
-contribution-banner-button = Een kijkje nemen
-report-bugs-link = Help bij het melden van bugs
 logout = Afmelden
 
 ## Home Page
@@ -127,10 +124,10 @@ logout = Afmelden
 home-title = Het Common Voice-project is een initiatief van Mozilla om machines te helpen leren hoe echte mensen spreken.
 home-cta = Laat uw stem horen, draag hier bij!
 wall-of-text-start = Stem is natuurlijk, stem is menselijk. Daarom zijn we gefascineerd in het maken van een bruikbare stemtechnologie voor onze machines. Maar voor het maken van stemsystemen is een extreem grote hoeveelheid stemgegevens nodig.
-wall-of-text-more-mobile = De meeste gegevens die door grote bedrijven worden gebruikt, zijn voor de meeste mensen niet beschikbaar. We denken dat dat innovatie belemmert. Daarom hebben we Project Common Voice gestart, een project dat stemherkenning voor iedereen beschikbaar helpt te maken.
+wall-of-text-more-mobile = De meeste gegevens die door grote bedrijven worden gebruikt, zijn voor de meeste mensen niet beschikbaar. We denken dat dat innovatie belemmert. Daarom hebben we Project Common Voice gestart, een project dat spraakherkenning voor iedereen beschikbaar helpt te maken.
 wall-of-text-more-desktop = U kunt nu uw stem doneren om ons te helpen een opensource-stemdatabase te bouwen die iedereen kan gebruiken om innovatieve apps voor apparaten en het web te maken.<lineBreak></lineBreak>Lees een zin op om machines te helpen leren hoe echte mensen spreken. Controleer het werk van andere donateurs om de kwaliteit te verbeteren. Zo eenvoudig is het!
 wall-of-text-first = Stem is natuurlijk, stem is menselijk. Daarom zijn we enthousiast over het maken van bruikbare stemtechnologie voor onze machines. Maar om stemsystemen te maken, hebben ontwikkelaars een extreem grote hoeveelheid stemgegevens nodig.
-wall-of-text-second = De meeste gegevens die door grote bedrijven worden gebruikt, zijn voor de meeste mensen niet beschikbaar. We denken dat dat innovatie belemmert. Daarom hebben we Common Voice gestart, een project dat helpt stemherkenning voor iedereen open en toegankelijk te maken.
+wall-of-text-second = De meeste gegevens die door grote bedrijven worden gebruikt, zijn voor de meeste mensen niet beschikbaar. We denken dat dat innovatie belemmert. Daarom hebben we Common Voice gestart, een project dat helpt spraakherkenning voor iedereen open en toegankelijk te maken.
 show-wall-of-text = Meer lezen
 help-us-title = Help ons zinnen te valideren!
 help-us-explain = Klik op de afspeelknop, luister en vertel ons: wordt de onderstaande zin juist uitgesproken?
@@ -258,6 +255,7 @@ keep-me-posted =
     .label = Ik ontvang graag updates en wil op de hoogte blijven van wat er met Common Voice gebeurt.
 accept-privacy = Ik ga akkoord met hoe u met deze gegevens omgaat, zoals uitgelegd in Mozilla’s <privacyLink>Privacybeleid</privacyLink>
 login-identity = Aanmeldingsidentiteit
+login-signup = Aanmelden / Registreren
 edit = Bewerken
 email-subscriptions = E-mailinschrijvingen
 download-profile = Mijn gegevens downloaden
@@ -267,19 +265,22 @@ skip-submission-description = Tijdens het bijdragen wordt feedback over inzendin
 skip-submission-note = Noot: u dient nog steeds een keuze tussen Spreken en Luisteren te maken om het type bijdragen te wijzigen.
 off = Uit
 on = Aan
+add-avatar-title = Een avatar aan uw profiel toevoegen
+browse-file-title = Een afbeeldingsbestand uploaden
 browse-file = Verslepen of <browseWrap>Bladeren</browseWrap>
 connect-gravatar = Koppelen met Gravatar
 gravatar_not_found = Geen gravatar voor uw e-mailadres gevonden
 file_too_large = Het geselecteerde bestand is te groot
 manage-subscriptions = Abonnementen beheren
+email-already-used = E-mailadres wordt al voor een andere account gebruikt
 
 ## FAQ
 
 faq-title = Veelgestelde vragen
 faq-what-q = Wat is Common Voice?
-faq-what-a = Stemherkenningstechnologie kan een revolutie teweegbrengen in de manier waarop we interactie hebben met machines, maar de huidige beschikbare systemen zijn duur en gesloten. Common Voice is een project om stemherkenningstechnologie voor iedereen eenvoudig beschikbaar te maken. Mensen doneren hun stemmen aan een enorme database waarmee iedereen snel en eenvoudig stemgestuurde apps kan trainen. Alle stemgegevens zijn beschikbaar voor ontwikkelaars.
+faq-what-a = Spraakherkenningstechnologie kan een revolutie teweegbrengen in de manier waarop we interactie hebben met machines, maar de huidige beschikbare systemen zijn duur en gesloten. Common Voice is een project om spraakherkenningstechnologie voor iedereen eenvoudig toegankelijk te maken. Mensen doneren hun stemmen aan een enorme database waarmee iedereen snel en eenvoudig spraakgestuurde apps kan trainen. Alle stemgegevens zijn beschikbaar voor ontwikkelaars.
 faq-important-q = Waarom is dit belangrijk?
-faq-important-a = Stem is natuurlijk, stem is menselijk. Het is de eenvoudigste en meest natuurlijke manier van communicatie. We willen dat ontwikkelaars geweldige dingen kunnen bouwen, van realtime-vertalers tot stemgestuurde administratieve assistenten. Momenteel zijn er echter te weinig publiek toegankelijke gegevens om dit soort apps te kunnen bouwen. We hopen dat Common Voice ontwikkelaars kan geven wat ze nodig hebben om te innoveren.
+faq-important-a = Spraak is natuurlijk, spraak is menselijk. Het is de eenvoudigste en meest natuurlijke manier van communicatie. We willen dat ontwikkelaars geweldige dingen kunnen bouwen, van realtime-vertalers tot spraakgestuurde administratieve assistenten. Momenteel zijn er echter te weinig publiek toegankelijke gegevens om dit soort apps te kunnen bouwen. We hopen dat Common Voice ontwikkelaars kan geven wat ze nodig hebben om te innoveren.
 faq-get-q = Hoe krijg ik toegang tot Common Voice-gegevens?
 faq-get-a = De gegevensset is nu beschikbaar op onze <downloadLink>downloadpagina</downloadLink> onder de <licenseLink>CC-0</licenseLink>-licentie.
 faq-mission-q = Waarom is Common Voice onderdeel van de Mozilla-missie?
