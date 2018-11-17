@@ -237,6 +237,7 @@ female = Femina
 other = Altero
 why-profile-title = Perque un profilo?
 why-profile-text = Per fornir alcun informationes circa te mesme, le datos audio que tu invia a Common Voice essera plus utile pro le motores de recognition de voce que usa iste datos pro meliorar lor precision.
+dashboard = Quadro de controlo
 build-profile = Crear le profilo
 profile = Profilo
 avatar = Avatar
