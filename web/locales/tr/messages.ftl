@@ -117,9 +117,6 @@ share-title = Sesini bağışlayacak birilerini bulmamıza yardım edin!
 share-text = Makinelere gerçek insanların nasıl konuştuğunu öğretin: { $link } ile sesinizi bağışlayın
 link-copied = Bağlantı kopyalandı
 back-top = Başa dön
-contribution-banner-text = Katkıda bulunabileceğiniz yeni bir arayüz deniyoruz
-contribution-banner-button = Bir göz atın
-report-bugs-link = Hataları rapor edin
 logout = Çıkış
 
 ## Home Page
@@ -240,6 +237,7 @@ female = Kadın
 other = Diğer
 why-profile-title = Neden profil oluşturmalıyım?
 why-profile-text = kendiniz hakkında biraz bilgiler verirseniz, Common Voice’a gönderdiğiniz ses verilerini doğruluk artırma amacıyla kullanan konuşma tanıma motorları için bu veriler daha yararlı olacaktır.
+dashboard = Pano
 build-profile = Profil oluştur
 profile = Profil
 avatar = Avatar
@@ -257,6 +255,7 @@ keep-me-posted =
     .label = Common Voice hakkındaki yenilik ve gelişmelerden haberdar olmak istiyorum.
 accept-privacy = Bu bilgilerin Mozilla’nın <privacyLink>Gizlilik Politikası</privacyLink>’nda açıklandığı şekilde kullanılmasını kabul ediyorum
 login-identity = Giriş kimliği
+login-signup = Giriş / Kayıt
 edit = Düzenle
 email-subscriptions = E-posta abonelikleri
 download-profile = Verilerimi indir
@@ -266,11 +265,14 @@ skip-submission-description = Katkı gönderimi sırasında Gönder'e tıkladık
 skip-submission-note = Not: Katkı türünü değiştirmek için Konuşma veya Dinleme arasında seçim yapmanız gerekecektir.
 off = Kapalı
 on = Açık
+add-avatar-title = Profilinize avatar ekleyin
+browse-file-title = Resim dosyası yükle
 browse-file = Sürükleyip bırak veya <browseWrap>göz at</browseWrap>
 connect-gravatar = Gravatar ile bağlan
 gravatar_not_found = E-postanıza ait gravatar bulunamadı
 file_too_large = Seçilen dosya çok büyük
 manage-subscriptions = Abonelikleri yönet
+email-already-used = Bu e-posta farklı bir hesapta zaten kullanılıyor
 
 ## FAQ
 
