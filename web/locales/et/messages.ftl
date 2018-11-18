@@ -117,9 +117,6 @@ share-title = Aidake meil leida teisigi, kes meid oma häälega aitaks!
 share-text = Aidake meil õpetada masinatele inimeste moodi rääkimist, anneta meile oma hääl järgneval aadressil: { $link }
 link-copied = Link kopeeriti
 back-top = Tagasi üles
-contribution-banner-text = Oleme just käivitanud uue panustamise kogemuse
-contribution-banner-button = Vaata
-report-bugs-link = Aita raporteerida vigu
 logout = Logi välja
 
 ## Home Page
@@ -342,7 +339,7 @@ review-delete-recordings = Kustuta mu salvestised
 ## Download Modal
 
 download-title = Allalaadimine on alanud.
-download-helpus = Aidake meil luua kõntehnoloogiaga seotud kogukond, jääge meiega ühendusse e-posti teel.
+download-helpus = Aidake meil luua kõnetehnoloogiaga seotud kogukond, jääge meiega ühendusse e-posti teel.
 download-form-email =
     .label = Sisesta oma e-posti aadress
     .value = Aitäh, me võtame sinuga ühendust.
