@@ -117,9 +117,6 @@ share-title = Помогите нам, найдя других желающих 
 share-text = Помогите машинам научиться понимать реальных людей, пожертвуйте свой голос на { $link }
 link-copied = Ссылка скопирована
 back-top = Наверх
-contribution-banner-text = Мы улучшили процесс работы для наших помощников
-contribution-banner-button = Посмотрите
-report-bugs-link = Помогите, сообщив об ошибках
 logout = Выйти
 
 ## Home Page
@@ -244,6 +241,7 @@ female = Женский
 other = Другой
 why-profile-title = Зачем нужен профиль?
 why-profile-text = Предоставив некоторые данные о себе, вы сделаете аудио данные, отправляемые в Common Voice, более полезными для движков распознавания речи, которые будут использовать эти данные для улучшения своей точности.
+dashboard = Панель
 build-profile = Построить профиль
 profile = Профиль
 avatar = Аватар
@@ -261,6 +259,7 @@ keep-me-posted =
     .label = Я хочу получать рассылку, чтобы быть в курсе обо всём, что происходит с Common Voice.
 accept-privacy = Я согласен с тем, как вы обрабатываете эту информацию, согласно <privacyLink>Политики приватности</privacyLink> Mozilla
 login-identity = Идентификатор для входа
+login-signup = Войти / Зарегистрироваться
 edit = Редактировать
 email-subscriptions = Подписки по электронной почте
 download-profile = Выгрузить мои данные
@@ -270,11 +269,14 @@ skip-submission-description = Оценка работы с Common Voice буде
 skip-submission-note = Примечание: Вам по-прежнему нужно выбирать между записью и прослушиванием, чтобы изменить тип внесения вклада.
 off = Выкл.
 on = Вкл.
+add-avatar-title = Добавить аватар в свой профиль
+browse-file-title = Загрузить файл изображения
 browse-file = Перетащите или <browseWrap>выберите файл</browseWrap>
 connect-gravatar = Присоединить Gravatar
 gravatar_not_found = Данный адрес эл. почты не зарегистрирован в gravatar
 file_too_large = Выбранный файл имеет слишком большой размер
 manage-subscriptions = Управление подписками
+email-already-used = Электронная почта уже используется в другом аккаунте
 
 ## FAQ
 
