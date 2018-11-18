@@ -117,9 +117,6 @@ share-title = Pomagajte nam poiskati druge, ki bi prispevali svoj glas!
 share-text = Pomagaj stroje naučiti, kako govorijo resnični ljudje. Prispevaj svoj glas na { $link }
 link-copied = Povezava kopirana
 back-top = Nazaj na vrh
-contribution-banner-text = Pravkar smo omogočili novo izkušnjo sodelovanja
-contribution-banner-button = Razglejte se
-report-bugs-link = Pomagajte prijaviti hrošče
 logout = Odjava
 
 ## Home Page
@@ -280,11 +277,13 @@ skip-submission-description = Med oddajo prispevka bodo povratne informacije pre
 skip-submission-note = Opomba: za spremembo vrste prispevka boste še vedno morali izbrati med Govori in Poslušaj.
 off = Izklopljeno
 on = Vklopljeno
+browse-file-title = Naložite slikovno datoteko
 browse-file = Povlecite in spustite ali <browseWrap>prebrskajte</browseWrap>
 connect-gravatar = Poveži z Gravatarjem
 gravatar_not_found = Za vaš e-poštni naslov ne obstaja Gravatar
 file_too_large = Izbrana datoteka je prevelika
 manage-subscriptions = Upravljaj z naročninami
+email-already-used = E-poštni naslov je že v uporabi za drug račun
 
 ## FAQ
 
