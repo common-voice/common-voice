@@ -122,13 +122,27 @@ today = วันนี้
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
 shortcut-play-toggle-label = เล่น/หยุด
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
 shortcut-record-toggle-label = อัด/หยุด
 request-language-text = ยังไม่พบภาษาของคุณบน Common Voice งั้นหรือ?
 request-language-button = ขอภาษา
@@ -172,8 +186,11 @@ edit-profile = แก้ไขโปรไฟล์
 profile-create = สร้างโปรไฟล์
 profile-create-success = สำเร็จ สร้างโปรไฟล์แล้ว!
 profile-close = ปิด
+edit = แก้ไข
+download-profile = ดาวน์โหลดข้อมูลของฉัน
 off = ปิด
 on = เปิด
+connect-gravatar = เชื่อมต่อกับ Gravatar
 
 ## FAQ
 
