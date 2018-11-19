@@ -126,6 +126,10 @@ vote-no = ไม่
 hours-recorded = ชั่วโมงที่บันทึก
 all-languages = ภาษาทั้งหมด
 today = วันนี้
+x-weeks-short =
+    { $count ->
+       *[other] { $count } สัปดาห์
+    }
 
 ## Speak & Listen Shortcuts
 
