@@ -95,7 +95,10 @@ export const RecordingsLeaderboard = apiConnector(
               {row.valid}
             </div>
             <div className="rate">
-              <div>{row.rate}</div> <div>{'%'}</div>
+              <div className="exact">{row.rate}</div>
+              <div className="rounded">({Math.round(row.rate)}</div>
+              <div>{'%'}</div>
+              <div className="rounded">)</div>
             </div>
           </li>,
           nextPosition &&

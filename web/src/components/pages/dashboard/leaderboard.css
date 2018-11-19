@@ -59,12 +59,15 @@
 
         & .total,
         & .valid {
-            min-width: 65px;
             display: flex;
             flex-direction: row;
             align-items: center;
             font-weight: 600;
             color: var(--near-black);
+
+            @media (--sm-up) {
+                min-width: 65px;
+            }
 
             & svg {
                 margin-right: 5px;
@@ -77,16 +80,35 @@
         }
 
         & .rate {
-            padding: 0 10px;
-            flex-shrink: 0;
-            width: 60px;
-            height: 44px;
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-            color: var(--white);
             font-weight: 600;
-            background: var(--blue);
+
+            & .exact,
+            & .rounded {
+                display: none;
+            }
+
+            @media (--sm-down) {
+                color: var(--blue);
+
+                & .rounded {
+                    display: block;
+                }
+            }
+
+            @media (--sm-up) {
+                padding: 0 10px;
+                min-width: 60px;
+                height: 44px;
+                justify-content: space-between;
+                align-items: center;
+                color: var(--white);
+                background: var(--blue);
+
+                & .exact {
+                    display: block;
+                }
+            }
         }
     }
 }
