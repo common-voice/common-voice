@@ -242,7 +242,6 @@ why-profile-title = Varför behövs en profil?
 why-profile-text = Genom att ge lite information om dig själv kan det ljud du ger till Common Voice bli mer användbart för röstigenkänningsmotorer som använder denna data för att förbättra sin noggrannhet.
 dashboard = Översikt
 build-profile = Bygg profil
-profile = Profil
 avatar = Avatar
 preferences = Inställningar
 edit-profile = Redigera profil
@@ -438,3 +437,9 @@ listen-last-time-instruction = <playIcon></playIcon> Sista!
 nothing-to-validate = Vi har inget att validera på det här språket, hjälp oss att fylla kön.
 record-button-label = Spela in din röst
 share-title-new = <bold>Hjälp oss</bold> hitta mer röster
+
+## Dashboard
+
+everyone = Alla
+recorded-clips = Inspelade klipp
+validated-clips = Validerade klipp
