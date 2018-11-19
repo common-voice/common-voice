@@ -235,7 +235,6 @@ why-profile-title = 为什么要创建用户资料？
 why-profile-text = 凭借您提供一些有关本人的信息，您提交给 Common Voice 的音频数据能更有助于使用这些数据来提高其语音识别引擎的准确性。
 dashboard = 面板
 build-profile = 创建个人资料
-profile = 用户资料
 avatar = 头像
 preferences = 偏好设置
 edit-profile = 编辑用户资料
@@ -427,3 +426,12 @@ listen-last-time-instruction = <playIcon></playIcon> 最后一个了！
 nothing-to-validate = 我们没有这个语言可供验证的录音，请帮助我们多录一些。
 record-button-label = 录下您的声音
 share-title-new = <bold>请帮助我们</bold>找到更多声音
+
+## Dashboard
+
+you = 您自己
+everyone = 所有人
+contribution-activity = 贡献记录
+top-contributors = 杰出贡献者
+recorded-clips = 录制的片段
+validated-clips = 验证的片段
