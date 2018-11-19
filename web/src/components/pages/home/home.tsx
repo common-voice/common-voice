@@ -134,7 +134,7 @@ class HomePage extends React.Component<PropsFromState, State> {
 
         <div className="stats" ref={this.statsRef}>
           <ClipsStats.Root />
-          <VoiceStats.Root />
+          <VoiceStats />
         </div>
 
         <div className="mars">

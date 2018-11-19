@@ -95,7 +95,7 @@ button.card-action:focus.focus-visible path {
     fill: var(--black);
 }
 
-@media (--mobile) {
+@media (--xs-down) {
     .card-action {
         white-space: normal;
     }

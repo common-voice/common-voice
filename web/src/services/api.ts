@@ -193,11 +193,21 @@ export default class API {
     return this.fetch(API_PATH + (locale ? '/' + locale : '') + '/clips/stats');
   }
 
-  fetchClipVoices(
-    locale?: string
-  ): Promise<{ date: string; voices: number }[]> {
+  fetchClipVoices(locale?: string): Promise<{ date: string; value: number }[]> {
     return this.fetch(
       API_PATH + (locale ? '/' + locale : '') + '/clips/voices'
+    );
+  }
+
+  fetchContributionActivity(
+    from: 'you' | 'everyone',
+    locale?: string
+  ): Promise<{ date: string; value: number }[]> {
+    return this.fetch(
+      API_PATH +
+        (locale ? '/' + locale : '') +
+        '/contribution_activity?from=' +
+        from
     );
   }
 

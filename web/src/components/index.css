@@ -27,7 +27,7 @@ html {
     overflow: auto;
 }
 
-@media (--mobile) {
+@media (--md-down) {
     html {
         overflow: hidden;
     }
@@ -326,16 +326,6 @@ body:not(.focus) #scroller {
     }
     100% {
         background-position: 0% 50%;
-    }
-}
-
-.button-holder {
-    text-align: center;
-}
-
-@media (--desktop) {
-    .button-holder button {
-        margin: 0 1rem;
     }
 }
 

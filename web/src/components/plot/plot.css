@@ -1,0 +1,21 @@
+@import url('../vars.css');
+
+.plot {
+    margin-top: 28px;
+    height: 170px;
+
+    & .tick-label {
+        font-size: var(--font-size-xs);
+        fill: var(--warm-grey);
+    }
+
+    & rect {
+        &.bg {
+            fill: var(--grey);
+        }
+
+        &.current {
+            fill: var(--valid-green);
+        }
+    }
+}

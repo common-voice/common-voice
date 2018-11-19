@@ -3,9 +3,11 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import { UserClient } from '../../../../../common/user-clients';
 import StateTree from '../../../stores/tree';
-import ProgressBox from './progress-box';
+import ProgressCard from './progress-card';
 
 import './dashboard.css';
+import StatsCard from './stats-card';
+import ContributionActivity from './contribution-activity';
 
 interface PropsFromState {
   account: UserClient;
@@ -100,9 +102,35 @@ class Dashboard extends React.Component<Props, State> {
             </div>
           </div>
 
-          <div className="progress-boxes">
-            <ProgressBox key={'s' + locale} type="speak" locale={locale} />
-            <ProgressBox key={'l' + locale} type="listen" locale={locale} />
+          <div className="cards">
+            <ProgressCard key={'s' + locale} type="speak" locale={locale} />
+            <ProgressCard key={'l' + locale} type="listen" locale={locale} />
+          </div>
+          <div className="cards">
+            <StatsCard
+              key="contribution"
+              title="contribution-activity"
+              tabs={['you', 'everyone'].reduce(
+                (o: any, from: any) => ({
+                  ...o,
+                  [from]: ({ locale }: { locale: string }) => (
+                    <ContributionActivity
+                      key={locale + from}
+                      {...{ from, locale }}
+                    />
+                  ),
+                }),
+                {}
+              )}
+            />
+            <StatsCard
+              key="leaderboard"
+              title="profile"
+              tabs={{
+                profile: ({ locale }) => null,
+                you: ({ locale }) => null,
+              }}
+            />
           </div>
         </div>
       </div>

@@ -7,7 +7,7 @@ import StateTree from '../../../stores/tree';
 import { MicIcon, OldPlayIcon } from '../../ui/icons';
 import { LinkButton } from '../../ui/ui';
 
-import './progress-box.css';
+import './progress-card.css';
 
 interface PropsFromState {
   api: API;
@@ -22,7 +22,7 @@ interface State {
   overallCurrent: number;
 }
 
-class ProgressBox extends React.Component<Props, State> {
+class ProgressCard extends React.Component<Props, State> {
   state: State = { overallCurrent: null };
 
   async componentDidMount() {
@@ -44,7 +44,7 @@ class ProgressBox extends React.Component<Props, State> {
     const overallGoal = DAILY_GOAL[type];
     const isSpeak = type == 'speak';
     return (
-      <div className={'progress-box ' + type}>
+      <div className={'progress-card ' + type}>
         <div className="personal">
           <div className="numbers">
             <div className="current">{personalCurrent}</div>
@@ -104,5 +104,5 @@ class ProgressBox extends React.Component<Props, State> {
 }
 
 export default connect<PropsFromState>(({ api }: StateTree) => ({ api }))(
-  ProgressBox
+  ProgressCard
 );

@@ -427,7 +427,7 @@ export default class DB {
 
     const [rows] = await this.mysql.query(
       `
-        SELECT date, COUNT(DISTINCT client_id) AS voices
+        SELECT date, COUNT(DISTINCT client_id) AS value
         FROM (
           SELECT (TIMESTAMP(DATE_FORMAT(NOW(), '%Y-%m-%d %H:00')) - INTERVAL hour HOUR) AS date
           FROM (${hours.map(i => `SELECT ${i} AS hour`).join(' UNION ')}) hours
@@ -451,7 +451,7 @@ export default class DB {
 
     const [rows] = await this.mysql.query(
       `
-        SELECT date, COUNT(DISTINCT clips.id) + COUNT(DISTINCT votes.id) AS contributions
+        SELECT date, COUNT(DISTINCT clips.id) + COUNT(DISTINCT votes.id) AS value
         FROM (
           SELECT (TIMESTAMP(DATE_FORMAT(NOW(), '%Y-%m-%d %H:00')) - INTERVAL hour HOUR) AS date
           FROM (${hours.map(i => `SELECT ${i} AS hour`).join(' UNION ')}) hours

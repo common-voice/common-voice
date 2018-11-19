@@ -138,23 +138,29 @@
         }
     }
 
-    & .progress-boxes {
+    & .cards {
         display: flex;
+
+        & > * {
+            min-width: calc(50% - 10px);
+            margin-bottom: 20px;
+        }
 
         @media (--sm-down) {
             flex-direction: column;
-
-            & > :first-child {
-                margin-bottom: 20px;
-            }
         }
 
         @media (--md-up) {
             flex-direction: row;
 
-            & > :first-child {
+            & > :nth-child(odd) {
                 margin-right: 20px;
             }
         }
+    }
+
+    & .plot {
+        position: relative;
+        right: 10px;
     }
 }

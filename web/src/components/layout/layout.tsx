@@ -18,7 +18,7 @@ import { MenuIcon, MicIcon, OldPlayIcon } from '../ui/icons';
 import { LabeledSelect, LinkButton } from '../ui/ui';
 import Content from './content';
 import Footer from './footer';
-import LanguageSelect from './language-select';
+import LocalizationSelect from './localization-select';
 import Logo from './logo';
 import Nav from './nav';
 import UserMenu from './user-menu';
@@ -198,7 +198,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
               </React.Fragment>
             )}
             {LOCALES.length > 1 && (
-              <LanguageSelect
+              <LocalizationSelect
                 locale={locale}
                 locales={LOCALES_WITH_NAMES}
                 onChange={this.selectLocale}
@@ -228,7 +228,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
           <Nav>
             {!user.account && LOCALES.length > 1 && (
               <LabeledSelect
-                className="language-select"
+                className="localization-select"
                 value={locale}
                 onChange={(event: any) =>
                   this.selectLocale(event.target.value)

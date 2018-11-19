@@ -14,7 +14,7 @@ export default ({ locale, locales, onChange }: Props) => (
     isOpen={true}
     onChange={onChange}>
     {({ getInputProps, getItemProps, highlightedIndex }) => (
-      <div className="language-select with-down-arrow">
+      <div className="localization-select with-down-arrow">
         <div
           className="selection"
           tabIndex={0}

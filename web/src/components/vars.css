@@ -57,19 +57,12 @@
     --profile-column-margin: 30px;
 }
 
-/* [Deprecated] */
-@custom-media --small-mobile (max-width: 350px);
-@custom-media --mobile (max-width: 600px);
-@custom-media --desktop (min-width: 600px);
-/* [/Deprecated] */
-
 @custom-media --xs-up (width >= 350px);
 @custom-media --sm-up (width >= 576px);
 @custom-media --md-up (width >= 768px);
 @custom-media --lg-up (width >= 992px);
 @custom-media --xl-up (width >= 1200px);
 
-@custom-media --xxs-down (width <= 470px);
 @custom-media --xs-down (width <= 576px);
 @custom-media --sm-down (width <= 768px);
 @custom-media --md-down (width <= 992px);

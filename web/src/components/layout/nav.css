@@ -57,7 +57,7 @@ header {
         }
     }
 
-    & .language-select {
+    & .localization-select {
         display: none;
 
         @media (--lg-up) {
@@ -71,7 +71,7 @@ header {
     }
 }
 
-.language-select {
+.localization-select {
     position: relative;
 
     &::before {
@@ -162,8 +162,8 @@ header {
     }
 }
 
-.language-select:hover,
-.language-select.focus-visible:focus-within {
+.localization-select:hover,
+.localization-select.focus-visible:focus-within {
     &::before {
         background-image: url('/img/globe_black.svg');
     }

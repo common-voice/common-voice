@@ -243,7 +243,6 @@ why-profile-text =
   Recognition engines that use this data to improve their accuracy.
 dashboard = Dashboard
 build-profile = Build Profile
-profile = Profile
 avatar = Avatar
 preferences = Preferences
 edit-profile = Edit Profile
@@ -432,5 +431,10 @@ listen-last-time-instruction = <playIcon></playIcon>Last one!
 nothing-to-validate = We don't have anything to validate in this language, help us fill the queue.
 record-button-label = Record your voice
 share-title-new = <bold>Help us</bold> find more voices
+
+## Dashboard
+you = You
+everyone = Everyone
+contribution-activity = Contribution Activity
 
 

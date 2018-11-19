@@ -1,4 +1,4 @@
-@media (--mobile) {
+@media (--xs-down) {
     #common-voice-data {
         width: 100%;
 
@@ -15,7 +15,7 @@
     }
 }
 
-@media (--desktop) {
+@media (--sm-up) {
     #common-voice-license {
         text-align: end;
     }
