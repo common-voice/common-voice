@@ -243,8 +243,8 @@ female = Nő
 other = Egyéb
 why-profile-title = Miért kell a profil?
 why-profile-text = Azáltal, hogy megad néhány adatot magáról, a hangminták, amiket a Common Voice részére beküld hasznosabbak lesznek a hangfelismerő rendszerek számára, melyek a pontosságuk javítására használják a hangmintákat.
+dashboard = Vezérlőpult
 build-profile = Összeállítási profil
-profile = Profil
 avatar = Avatár
 preferences = Beállítások
 edit-profile = Profil szerkesztése
@@ -270,11 +270,14 @@ skip-submission-description = A közreműködések beküldésekor a visszajelzé
 skip-submission-note = Megjegyzés: Továbbra is ki kell választania a Beszéljen vagy Figyeljen lehetőséget a közreműködés típusának módosításához.
 off = Ki
 on = Be
+add-avatar-title = Avatár hozzáadása a profiljához
+browse-file-title = Képfájl feltöltése
 browse-file = Fogjon és vigyen elemet, vagy <browseWrap>Tallózzon</browseWrap>
 connect-gravatar = Kapcsolódás a Gravatarral
 gravatar_not_found = Nem található gravatar az e-mail címéhez
 file_too_large = A kiválasztott fájl túl nagy
 manage-subscriptions = Feliratkozások kezelése
+email-already-used = Az e-mail már használatban van egy másik fiókban
 
 ## FAQ
 
@@ -433,3 +436,12 @@ listen-last-time-instruction = <playIcon></playIcon> Utolsó!
 nothing-to-validate = Még nincs semmit ellenőrizni ezen a nyelven, segítsen feltölteni a sort.
 record-button-label = Rögzítse a hangját
 share-title-new = <bold>Segítsen nekünk</bold> további hangokat találni
+
+## Dashboard
+
+you = Ön
+everyone = Mindenki
+contribution-activity = Közreműködési tevékenység
+top-contributors = Legjobb közreműködők
+recorded-clips = Rögzített klipek
+validated-clips = Ellenőrzött klipek
