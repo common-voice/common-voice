@@ -241,7 +241,6 @@ why-profile-title = Niyə profil?
 why-profile-text = Haqqınızda bəzi məlumatları verərək Common Voice üçün göndərdiyiniz səs məlumatlarını Səs Tanıma mühərriyi üçün daha mənalı hala gətirə bilərsiz.
 dashboard = İdarə paneli
 build-profile = Profil yarat
-profile = Profil
 avatar = Avatar
 preferences = Nizamlamalar
 edit-profile = Profili Düzəlt
@@ -437,3 +436,12 @@ listen-last-time-instruction = <playIcon></playIcon>Sonuncu!
 nothing-to-validate = Bu il üçün təsdiqlənəcək məlumatlarımız yoxdur, növbəni doldurmağımıza kömək edin.
 record-button-label = Səsinizi qeyd edin
 share-title-new = Daha çox səs tapmağımıza <bold>Kömək edin</bold>
+
+## Dashboard
+
+you = Siz
+everyone = Hamı
+contribution-activity = Kömək aktivliyi
+top-contributors = Ən çox kömək edənlər
+recorded-clips = Qeyd edilmiş kliplər
+validated-clips = Təsdiqlənmiş kliplər
