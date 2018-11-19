@@ -239,7 +239,6 @@ why-profile-title = Warum ein Profil?
 why-profile-text = Indem Sie uns einige Informationen über sich geben, können die von Ihnen an Common Voice übermittelten Audiodaten besser dazu verwendet werden, die Genauigkeit von Spracherkennungssystemen zu verbessern.
 dashboard = Übersicht
 build-profile = Profil aufbauen
-profile = Profil
 avatar = Profilbild
 preferences = Einstellungen
 edit-profile = Profil bearbeiten
@@ -431,3 +430,12 @@ listen-last-time-instruction = <playIcon></playIcon> Einmal noch!
 nothing-to-validate = Es gibt momentan nichts mehr in dieser Sprache, was Sie bestätigen könnten, bitte helfen Sie uns, indem Sie die Warteschlange wieder auffüllen.
 record-button-label = Nehmen Sie Ihre Stimme auf
 share-title-new = <bold>Helfen Sie uns dabei</bold> mehr Stimmen zu finden
+
+## Dashboard
+
+you = Sie
+everyone = Alle
+contribution-activity = Aktivität der Mitwirkenden
+top-contributors = Aktivste Mitwirkende
+recorded-clips = Aufgenommene Clips
+validated-clips = Überprüfte Clips
