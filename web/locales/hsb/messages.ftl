@@ -247,7 +247,6 @@ why-profile-title = Čehodla profil?
 why-profile-text = Dajće nam někotre informacije wo sebi, zo bychu awdiodaty, kotrež na Common Voice sćeleće, wužitniše byli, zo by so dokładnosć systemow rěčenskeho spóznaća polěpšiła.
 dashboard = Přehlad
 build-profile = Profil natwarić
-profile = Profil
 avatar = Awatar
 preferences = Nastajenja
 edit-profile = Profil wobdźěłać
@@ -445,3 +444,12 @@ listen-last-time-instruction = <playIcon></playIcon> Poslednje!
 nothing-to-validate = Nimamy ničo, kotrež móžemy w tutej rěči přepruwować, prošu pomhajće nam čakanski rynk pjelnić.
 record-button-label = Nahrajće swój hłós
 share-title-new = <bold>Pomhajće nam</bold>, dalše hłosy namakać
+
+## Dashboard
+
+you = Wy
+everyone = Kóždy
+contribution-activity = Sobudźěłowa aktiwita
+top-contributors = Najaktiwniši sobuskutkowarjo
+recorded-clips = Natočene klipy
+validated-clips = Přepruwowane klipy
