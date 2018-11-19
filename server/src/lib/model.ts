@@ -238,10 +238,16 @@ export default class Model {
   );
 
   private getFullLeaderboard = lazyCache(async (locale?: string) => {
-    return (await this.db.getClipLeaderboard(locale)).map((row, i) => ({
-      position: i,
-      ...row,
-    }));
+    return (await this.db.getClipLeaderboard(locale)).map((row, i) =>
+      omit(
+        {
+          position: i,
+          rate: Number((row.valid / (row.validated || 1)).toFixed(2)),
+          ...row,
+        },
+        'validated'
+      )
+    );
   }, 10 * MINUTE);
 
   getClipLeaderboard = async ({

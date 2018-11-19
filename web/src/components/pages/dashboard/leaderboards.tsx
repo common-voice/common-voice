@@ -2,6 +2,7 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import API from '../../../services/api';
 import StateTree from '../../../stores/tree';
+import { CheckIcon, MicIcon } from '../../ui/icons';
 import { Avatar } from '../../ui/ui';
 
 import './leaderboard.css';
@@ -83,7 +84,17 @@ export const RecordingsLeaderboard = apiConnector(
               <Avatar url={row.avatar_url} />
             </div>
             <div className="username">{row.username || '???'}</div>
-            <div className="count">{row.count}</div>
+            <div className="total">
+              <MicIcon />
+              {row.total}
+            </div>
+            <div className="valid">
+              <CheckIcon />
+              {row.valid}
+            </div>
+            <div className="rate">
+              <div>{row.rate}</div> <div>{'%'}</div>
+            </div>
           </li>,
           nextPosition &&
           nextPosition - 1 > row.position &&

@@ -129,7 +129,7 @@ class Dashboard extends React.Component<Props, State> {
               title="top-contributors"
               tabs={{
                 'recorded-clips': ({ locale }) => (
-                  <RecordingsLeaderboard locale={locale} />
+                  <RecordingsLeaderboard key={locale} locale={locale} />
                 ),
                 'validated-clips': ({ locale }) => null,
               }}

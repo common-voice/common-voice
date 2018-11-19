@@ -646,16 +646,50 @@ export default class DB {
   async getClipLeaderboard(locale?: string): Promise<any[]> {
     const [rows] = await this.mysql.query(
       `
-        SELECT user_clients.client_id, avatar_url, username, COUNT(clips.id) AS count
+        SELECT
+          user_clients.client_id,
+          avatar_url,
+          username,
+          COUNT(clips.id) AS total,
+          (
+            SELECT COUNT(*)
+            FROM (
+              SELECT clips.client_id,
+                     SUM(votes.is_valid) AS upvotes,
+                     SUM(!votes.is_valid) AS downvotes
+              FROM clips
+              LEFT JOIN votes on clips.id = votes.clip_id
+              GROUP BY clips.id
+              HAVING upvotes >= 2 AND upvotes > downvotes ${
+                locale ? 'AND clips.locale_id = :locale_id' : ''
+              }
+            ) t
+            WHERE t.client_id = user_clients.client_id
+          ) AS valid,
+          (
+            SELECT COUNT(*)
+            FROM (
+              SELECT clips.client_id,
+                     SUM(votes.is_valid) AS upvotes,
+                     SUM(!votes.is_valid) AS downvotes
+              FROM clips
+              LEFT JOIN votes on clips.id = votes.clip_id
+              GROUP BY clips.id
+              HAVING (upvotes >= 2 OR downvotes >= 2) AND upvotes <> downvotes ${
+                locale ? 'AND clips.locale_id = :locale_id' : ''
+              }
+            ) t
+            WHERE t.client_id = user_clients.client_id
+          ) AS validated
         FROM user_clients
         LEFT JOIN clips ON user_clients.client_id = clips.client_id ${
-          locale ? 'AND locale_id = ?' : ''
+          locale ? 'AND locale_id = :locale_id' : ''
         }
-        WHERE 1
         GROUP BY user_clients.client_id
-        ORDER BY count DESC
+        HAVING total > 0
+        ORDER BY valid DESC, total DESC
       `,
-      locale ? [await getLocaleId(locale)] : []
+      { locale_id: locale ? await getLocaleId(locale) : null }
     );
     return rows;
   }

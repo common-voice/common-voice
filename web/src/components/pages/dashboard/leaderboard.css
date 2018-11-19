@@ -50,13 +50,32 @@
             color: var(--near-black);
         }
 
-        & .count {
+        & .total,
+        & .valid {
+            min-width: 65px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            font-weight: 600;
+            color: var(--near-black);
+
+            & svg {
+                margin-right: 5px;
+                height: 17px;
+            }
+
+            & path {
+                fill: var(--warm-grey);
+            }
+        }
+
+        & .rate {
             padding: 0 10px;
             flex-shrink: 0;
             width: 60px;
             height: 44px;
             display: flex;
-            justify-content: flex-end;
+            justify-content: space-between;
             align-items: center;
             color: var(--white);
             font-weight: 600;
