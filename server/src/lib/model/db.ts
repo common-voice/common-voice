@@ -659,10 +659,9 @@ export default class DB {
                      SUM(!votes.is_valid) AS downvotes
               FROM clips
               LEFT JOIN votes on clips.id = votes.clip_id
+              ${locale ? 'WHERE clips.locale_id = :locale_id' : ''}
               GROUP BY clips.id
-              HAVING upvotes >= 2 AND upvotes > downvotes ${
-                locale ? 'AND clips.locale_id = :locale_id' : ''
-              }
+              HAVING upvotes >= 2 AND upvotes > downvotes
             ) t
             WHERE t.client_id = user_clients.client_id
           ) AS valid,
@@ -674,10 +673,9 @@ export default class DB {
                      SUM(!votes.is_valid) AS downvotes
               FROM clips
               LEFT JOIN votes on clips.id = votes.clip_id
+              ${locale ? 'WHERE clips.locale_id = :locale_id' : ''}
               GROUP BY clips.id
-              HAVING (upvotes >= 2 OR downvotes >= 2) AND upvotes <> downvotes ${
-                locale ? 'AND clips.locale_id = :locale_id' : ''
-              }
+              HAVING (upvotes >= 2 OR downvotes >= 2) AND upvotes <> downvotes
             ) t
             WHERE t.client_id = user_clients.client_id
           ) AS validated
