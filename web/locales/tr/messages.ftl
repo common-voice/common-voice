@@ -239,7 +239,6 @@ why-profile-title = Neden profil oluşturmalıyım?
 why-profile-text = kendiniz hakkında biraz bilgiler verirseniz, Common Voice’a gönderdiğiniz ses verilerini doğruluk artırma amacıyla kullanan konuşma tanıma motorları için bu veriler daha yararlı olacaktır.
 dashboard = Pano
 build-profile = Profil oluştur
-profile = Profil
 avatar = Avatar
 preferences = Tercihler
 edit-profile = Profili düzenle
@@ -435,3 +434,8 @@ listen-last-time-instruction = <playIcon></playIcon> Son bir tane!
 nothing-to-validate = Bu dilde doğrulanacak bir şey kalmamış. Kuyruğu doldurmamıza yardımcı olun.
 record-button-label = Sesinizi kaydedin
 share-title-new = Daha fazla ses bulmamıza <bold>yardım edin</bold>
+
+## Dashboard
+
+you = Siz
+everyone = Herkes
