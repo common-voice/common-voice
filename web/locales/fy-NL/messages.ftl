@@ -117,9 +117,6 @@ share-title = Help ús oaren te finen om harren stim te donearjen!
 share-text = Help mei masinen te learen hoe't echte minsken prate, donearje jo stim op { $link }
 link-copied = Keppeling kopiearre
 back-top = Nei boppe
-contribution-banner-text = Wy hawwe krekt in nije ûnderfining foar meiwurkers lansearre
-contribution-banner-button = Sjoch ris rûn
-report-bugs-link = Rapportearje bugs
 logout = Ofmelde
 
 ## Home Page
@@ -250,6 +247,7 @@ female = Frau
 other = Oars
 why-profile-title = Wêrom in profyl?
 why-profile-text = Troch wat ynformaasje oer josels te jaan, sille de troch jo by Common Voice yntsjinne audiogegevens better brûkber wêze foar spraakwerkenningsmasinen dy't dizze gegevens brûke om de presizens te ferbetterjen.
+dashboard = Dashboerd
 build-profile = Profyl opbouwe
 profile = Profyl
 avatar = Avatar
@@ -267,6 +265,7 @@ keep-me-posted =
     .label = Ik ûntfang graach nijs en wol op de hichte bliuwe fan wat der mei Common Voice bart.
 accept-privacy = Ik gean akkoard mei hoe't jo mei dizze gegevens omgean, lykas útlein yn Mozilla’s <privacyLink>Privacybelied</privacyLink>
 login-identity = Oanmeldingsidentiteit
+login-signup = Oanmelde / Registrearje
 edit = Bewurkje
 email-subscriptions = E-mailynskriuwingen
 download-profile = Myn gegevens downloade
@@ -276,11 +275,14 @@ skip-submission-description = Wylst it bydragen wurdt kommentaar oer ynstjoering
 skip-submission-note = Noat: jo moatte noch hieltyd in kar tusken Sprekke en Lústerje meitsje om it type bydragen te wizigjen.
 off = Ut
 on = Oan
+add-avatar-title = In avatar oan jo profyl tafoegje
+browse-file-title = In ôfbyldingsbestân oplade
 browse-file = Sleep en pleats of <browseWrap>Blêdzje</browseWrap>
 connect-gravatar = Mei Gravatar ferbine
 gravatar_not_found = Foar jo e-mailadres waard gjin Gravatar fûn
 file_too_large = It selektearre bestân is te grut
 manage-subscriptions = Abonneminten beheare
+email-already-used = E-mailadres wurdt al foar in oar account brûkt
 
 ## FAQ
 
