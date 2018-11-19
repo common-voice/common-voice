@@ -238,7 +238,6 @@ why-profile-title = Zeiruang ah keimah kong cu a herh?
 why-profile-text = Nangmah konglam kan theihnak thawngin Common Voice nih AW ttha deuh le hman deuh in a theih khawh lai.
 dashboard = Innpi
 build-profile = Nangmah Kong Kan Chim
-profile = Nangmah Kong
 avatar = Hmanthlak
 preferences = Duh thimnak
 edit-profile = Nangmah kong remhnak
@@ -435,3 +434,12 @@ listen-last-time-instruction = <playIcon></playIcon>Dongh nak!
 nothing-to-validate = Zeihmanh hi holh in tunmi kan ngei rih lo, na aw rak tuun ve.
 record-button-label = Na aw tuun
 share-title-new = <bold> Kan bawm </bold> Aw tampiin kawl
+
+## Dashboard
+
+you = Nangmah
+everyone = Bawmtu dihlak
+contribution-activity = Bawmtu Cawlcanghnak
+top-contributors = Bawmtu Ṭhawngcem
+recorded-clips = Tun cangmi
+validated-clips = Check cangmi
