@@ -237,7 +237,6 @@ why-profile-title = 為什麼需要帳號？
 why-profile-text = 語音識別引擎將可使用您提供給我們的資訊，讓您送出給 Common Voice 的語音資料被更加善用，改善準確度。
 dashboard = 儀錶板
 build-profile = 建立個人資料
-profile = 帳號資料
 avatar = 頭像
 preferences = 偏好設定
 edit-profile = 編輯帳號資料
@@ -429,3 +428,12 @@ listen-last-time-instruction = <playIcon></playIcon> 最後一筆了！
 nothing-to-validate = 我們沒有這個語言可供驗證的錄音，請幫助我們多錄一些。
 record-button-label = 錄下您的聲音
 share-title-new = <bold>請幫助我們</bold>找到更多聲音
+
+## Dashboard
+
+you = 您自己
+everyone = 所有人
+contribution-activity = 貢獻紀錄
+top-contributors = 頂尖貢獻者
+recorded-clips = 錄製的片段
+validated-clips = 驗證的片段
