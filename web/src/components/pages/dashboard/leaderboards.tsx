@@ -83,7 +83,9 @@ export const RecordingsLeaderboard = apiConnector(
             <div className="avatar-container">
               <Avatar url={row.avatar_url} />
             </div>
-            <div className="username">{row.username || '???'}</div>
+            <div className="username" title={row.username}>
+              {row.username || '???'}
+            </div>
             <div className="total">
               <MicIcon />
               {row.total}

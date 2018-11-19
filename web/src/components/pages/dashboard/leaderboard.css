@@ -48,6 +48,9 @@
             line-height: 1.5;
             font-weight: 600;
             color: var(--near-black);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
         & .total,
