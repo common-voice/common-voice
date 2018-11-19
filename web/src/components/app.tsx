@@ -253,6 +253,12 @@ class App extends React.Component {
   main: HTMLElement;
   userLocales: string[];
 
+  state: { error: Error } = { error: null };
+
+  static getDerivedStateFromError(error: Error) {
+    return { error };
+  }
+
   /**
    * App will handle routing to page controllers.
    */
@@ -290,6 +296,39 @@ class App extends React.Component {
   }
 
   render() {
+    const { error } = this.state;
+    if (error) {
+      return (
+        <div>
+          An error occurred. Sorry!
+          <br />
+          <a
+            href={
+              'https://github.com/mozilla/voice-web/issues/new?title=' +
+              error.toString() +
+              '&body=' +
+              encodeURIComponent(
+                [
+                  'Can you describe what steps lead to the error happening?',
+                  '\n',
+                  '```',
+                  error.toString(),
+                  error.stack.toString(),
+                  '```',
+                ].join('\n')
+              )
+            }
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: 'blue' }}>
+            Report
+          </a>
+          <br />
+          <button onClick={() => location.reload()}>Reload</button>
+        </div>
+      );
+    }
+
     return (
       <Suspense fallback={<Spinner />}>
         <Provider store={store}>
