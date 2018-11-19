@@ -12,7 +12,7 @@ import {
   ToggleIcon,
   UserIcon,
 } from '../ui/icons';
-import { Hr } from '../ui/ui';
+import { Avatar, Hr } from '../ui/ui';
 
 import './user-menu.css';
 
@@ -37,17 +37,7 @@ class UserMenu extends React.Component<PropsFromState> {
         onMouseEnter={this.showMenu}
         onMouseLeave={this.hideMenu}>
         <button className="toggle" onClick={this.toggleMenu}>
-          <span className="avatar-wrap">
-            {account.avatar_url ? (
-              <img src={account.avatar_url} />
-            ) : (
-              <img
-                className="mars"
-                src="/img/mars-avatar.svg"
-                alt="Robot Avatar"
-              />
-            )}
-          </span>
+          <Avatar url={account.avatar_url} />
           <span className="name" title={account.username}>
             {account.username}
           </span>

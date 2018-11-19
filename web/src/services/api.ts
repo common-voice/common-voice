@@ -239,4 +239,12 @@ export default class API {
       ...(file ? { body: file } : {}),
     }).then(body => JSON.parse(body));
   }
+
+  fetchClipsLeaderboard(cursor?: [number, number]) {
+    return this.fetch(
+      this.getClipPath() +
+        '/leaderboard' +
+        (cursor ? '?cursor=' + JSON.stringify(cursor) : '')
+    );
+  }
 }

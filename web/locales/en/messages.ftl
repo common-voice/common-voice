@@ -436,5 +436,8 @@ share-title-new = <bold>Help us</bold> find more voices
 you = You
 everyone = Everyone
 contribution-activity = Contribution Activity
+top-contributors = Top Contributors
+recorded-clips = Recorded Clips
+validated-clips = Validated Clips
 
 

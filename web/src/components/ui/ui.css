@@ -1,3 +1,23 @@
+.avatar-wrap {
+    flex-shrink: 0;
+    border-radius: 100%;
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    background: #f89096;
+
+    & > img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    & .mars {
+        object-fit: contain;
+    }
+}
+
 .button {
     position: relative;
     box-sizing: border-box;

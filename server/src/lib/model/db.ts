@@ -642,4 +642,21 @@ export default class DB {
       [client_id, await getLocaleId(locale)]
     );
   }
+
+  async getClipLeaderboard(locale?: string): Promise<any[]> {
+    const [rows] = await this.mysql.query(
+      `
+        SELECT user_clients.client_id, avatar_url, username, COUNT(clips.id) AS count
+        FROM user_clients
+        LEFT JOIN clips ON user_clients.client_id = clips.client_id ${
+          locale ? 'AND locale_id = ?' : ''
+        }
+        WHERE 1
+        GROUP BY user_clients.client_id
+        ORDER BY count DESC
+      `,
+      locale ? [await getLocaleId(locale)] : []
+    );
+    return rows;
+  }
 }

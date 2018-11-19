@@ -1,4 +1,5 @@
 import * as request from 'request-promise-native';
+import omit = require('lodash.omit');
 import { LanguageStats } from 'common/language-stats';
 const locales = require('locales/all.json') as string[];
 const contributableLocales = require('locales/contributable.json') as string[];
@@ -45,6 +46,10 @@ function fetchLocalizedPercentagesByLocale() {
       {}
     )
   );
+}
+
+function omitClientId(rows: any[]) {
+  return rows.map(row => omit(row, 'client_id'));
 }
 
 function clipCountToHours(count: number) {
@@ -231,4 +236,39 @@ export default class Model {
     (locale?: string) => this.db.getContributionStats(locale),
     20 * MINUTE
   );
+
+  private getFullLeaderboard = lazyCache(async (locale?: string) => {
+    return (await this.db.getClipLeaderboard(locale)).map((row, i) => ({
+      position: i,
+      ...row,
+    }));
+  }, 10 * MINUTE);
+
+  getClipLeaderboard = async ({
+    client_id,
+    cursor,
+    locale,
+  }: {
+    client_id: string;
+    cursor?: [number, number];
+    locale: string;
+  }) => {
+    const leaderboard = await this.getFullLeaderboard(locale);
+    if (cursor) {
+      return omitClientId(leaderboard.slice(cursor[0], cursor[1]));
+    }
+
+    const podest = leaderboard.slice(0, 2);
+    const userIndex = leaderboard.findIndex(row => row.client_id == client_id);
+    const partialBoard = [
+      ...podest,
+      ...leaderboard.slice(userIndex - 1, userIndex + 2),
+    ];
+    return omitClientId(
+      partialBoard.filter(
+        ({ position }, i) =>
+          i == partialBoard.findIndex(row => row.position == position)
+      )
+    );
+  };
 }

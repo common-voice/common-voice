@@ -2,7 +2,6 @@ import * as crypto from 'crypto';
 import { PassThrough } from 'stream';
 import { S3 } from 'aws-sdk';
 import { NextFunction, Request, Response } from 'express';
-
 const PromiseRouter = require('express-promise-router');
 import { getConfig } from '../config-helper';
 import { AWS } from './aws';
@@ -61,6 +60,7 @@ export default class Clip {
     router.get('/validated_hours', this.serveValidatedHoursCount);
     router.get('/daily_count', this.serveDailyCount);
     router.get('/stats', this.serveClipsStats);
+    router.get('/leaderboard', this.serveClipLeaderboard);
     router.get('/voices', this.serveVoicesStats);
     router.get('/votes/daily_count', this.serveDailyVotesCount);
     router.get('*', this.serveRandomClips);
@@ -213,5 +213,18 @@ export default class Clip {
 
   serveVoicesStats = async ({ params }: Request, response: Response) => {
     response.json(await this.model.getVoicesStats(params.locale));
+  };
+
+  serveClipLeaderboard = async (
+    { client_id, params, query }: Request,
+    response: Response
+  ) => {
+    response.json(
+      await this.model.getClipLeaderboard({
+        client_id,
+        cursor: query.cursor ? JSON.parse(query.cursor) : null,
+        locale: params.locale,
+      })
+    );
   };
 }

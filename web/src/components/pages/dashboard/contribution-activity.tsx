@@ -22,7 +22,6 @@ class ContributionActivity extends React.Component<Props> {
 
   async componentDidMount() {
     const { api, from, locale } = this.props;
-    console.log('WAT', this.props);
     await this.setState({
       data: await api.fetchContributionActivity(from, locale),
     });

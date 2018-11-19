@@ -1,6 +1,16 @@
 import * as React from 'react';
 import { LocaleLink } from '../locale-helpers';
 
+export const Avatar = ({ url }: { url?: string }) => (
+  <span className="avatar-wrap">
+    {url ? (
+      <img src={url} />
+    ) : (
+      <img className="mars" src="/img/mars-avatar.svg" alt="Robot Avatar" />
+    )}
+  </span>
+);
+
 export const Button = ({
   className = '',
   outline = false,

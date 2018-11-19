@@ -3,11 +3,12 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import { UserClient } from '../../../../../common/user-clients';
 import StateTree from '../../../stores/tree';
+import ContributionActivity from './contribution-activity';
+import { RecordingsLeaderboard } from './leaderboards';
 import ProgressCard from './progress-card';
+import StatsCard from './stats-card';
 
 import './dashboard.css';
-import StatsCard from './stats-card';
-import ContributionActivity from './contribution-activity';
 
 interface PropsFromState {
   account: UserClient;
@@ -125,10 +126,12 @@ class Dashboard extends React.Component<Props, State> {
             />
             <StatsCard
               key="leaderboard"
-              title="profile"
+              title="top-contributors"
               tabs={{
-                profile: ({ locale }) => null,
-                you: ({ locale }) => null,
+                'recorded-clips': ({ locale }) => (
+                  <RecordingsLeaderboard locale={locale} />
+                ),
+                'validated-clips': ({ locale }) => null,
               }}
             />
           </div>

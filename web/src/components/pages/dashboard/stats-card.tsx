@@ -17,8 +17,6 @@ export default class StatsCard extends React.Component<{
     const { title, icons, tabs } = this.props;
     const { selectedTab, locale } = this.state;
 
-    const getTabContent = tabs[selectedTab];
-
     return (
       <div className="stats-card">
         <div className="title-and-icon">
@@ -30,7 +28,7 @@ export default class StatsCard extends React.Component<{
         <div className="filters">
           <div className="tabs">
             {Object.keys(tabs).map(label => (
-              <Localized id={label}>
+              <Localized key={label} id={label}>
                 <button
                   type="button"
                   className={label == selectedTab ? 'selected' : ''}
@@ -49,7 +47,7 @@ export default class StatsCard extends React.Component<{
           />
         </div>
         <div className="content">
-          {getTabContent({ locale: locale == ALL_LOCALES ? null : locale })}
+          {tabs[selectedTab]({ locale: locale == ALL_LOCALES ? null : locale })}
         </div>
       </div>
     );

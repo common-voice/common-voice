@@ -1,0 +1,66 @@
+@import url('../../vars.css');
+
+.leaderboard {
+    margin: 20px 0 0;
+    padding: 0 10px;
+    max-height: 170px;
+    box-sizing: border-box;
+    overflow: auto;
+    list-style: none;
+
+    & li {
+        border-bottom: 1px solid color(var(--black) alpha(20%));
+    }
+
+    & .more button {
+        padding: 5px 0;
+        width: 100%;
+        border: none;
+        background: none;
+
+        &:hover {
+            background: var(--light-grey);
+        }
+    }
+
+    & .row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        & > * {
+            padding: 5px 0;
+            margin-right: 10px;
+        }
+
+        & .position {
+            color: var(--warm-grey);
+            font-size: var(--font-size-xs);
+            letter-spacing: 0.4px;
+        }
+
+        & .avatar-container {
+            display: flex;
+        }
+
+        & .username {
+            width: 100%;
+            line-height: 1.5;
+            font-weight: 600;
+            color: var(--near-black);
+        }
+
+        & .count {
+            padding: 0 10px;
+            flex-shrink: 0;
+            width: 60px;
+            height: 44px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            color: var(--white);
+            font-weight: 600;
+            background: var(--blue);
+        }
+    }
+}
