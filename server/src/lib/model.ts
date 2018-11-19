@@ -1,8 +1,5 @@
 import * as request from 'request-promise-native';
-import omit = require('lodash.omit');
 import { LanguageStats } from 'common/language-stats';
-const locales = require('locales/all.json') as string[];
-const contributableLocales = require('locales/contributable.json') as string[];
 import DB, { Sentence } from './model/db';
 import { DBClipWithVoters } from './model/db/tables/clip-table';
 import {
@@ -13,6 +10,10 @@ import {
 } from './model/split';
 import { getConfig } from '../config-helper';
 import lazyCache from './lazy-cache';
+import omit = require('lodash.omit');
+
+const locales = require('locales/all.json') as string[];
+const contributableLocales = require('locales/contributable.json') as string[];
 
 const AVG_CLIP_SECONDS = 4.7; // I queried 40 recordings from prod and avg'd them
 
@@ -264,11 +265,12 @@ export default class Model {
       return omitClientId(leaderboard.slice(cursor[0], cursor[1]));
     }
 
-    const podest = leaderboard.slice(0, 2);
     const userIndex = leaderboard.findIndex(row => row.client_id == client_id);
+    const userRegion =
+      userIndex == -1 ? [] : leaderboard.slice(userIndex - 1, userIndex + 2);
     const partialBoard = [
-      ...podest,
-      ...leaderboard.slice(userIndex - 1, userIndex + 2),
+      ...leaderboard.slice(0, 2 + Math.max(0, 3 - userRegion.length)),
+      ...userRegion,
     ];
     return omitClientId(
       partialBoard.filter(
