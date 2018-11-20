@@ -237,7 +237,6 @@ why-profile-title = Untuk apa profil?
 why-profile-text = Dengan menyediakan informasi mengenai diri Anda, data audio yang Anda kirimkan ke Common Voice akan lebih berguna bagi mesin Pengenal Ucapan yang memanfaatkan data ini untuk meningkatkan akurasinya.
 dashboard = Dasbor
 build-profile = Bangun Profil
-profile = Profil
 avatar = Avatar
 preferences = Preferensi
 edit-profile = Ubah Profil
@@ -428,3 +427,7 @@ listen-last-time-instruction = <playIcon></playIcon> Satu lagi!
 nothing-to-validate = Kami tidak memiliki apa pun untuk divalidasi dalam bahasa ini, bantu kami mengisi antreannya.
 record-button-label = Rekam suara Anda
 share-title-new = <bold>Bantu kami</bold> menemukan lebih banyak suara
+
+## Dashboard
+
+you = Anda
