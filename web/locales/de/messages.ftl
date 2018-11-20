@@ -236,7 +236,7 @@ female = Weiblich
 # Gender
 other = Sonstiges
 why-profile-title = Warum ein Profil?
-why-profile-text = Indem Sie uns einige Informationen über sich geben, können die von Ihnen an Common Voice übermittelten Audiodaten besser dazu verwendet werden, die Genauigkeit von Spracherkennungssystemen zu verbessern.
+why-profile-text = Wenn Sie einige Informationen über sich selbst angeben, werden Ihre Aufzeichnungen nützlicher für Spracherkennungssoftware sein, weil sie mit den Informationen ihre Genauigkeit erhöhen können.
 dashboard = Übersicht
 build-profile = Profil erstellen
 avatar = Profilbild
@@ -248,7 +248,6 @@ profile-close = Schließen
 profile-clear-modal = Wenn Sie Ihre Profildaten löschen, werden Ihre demografischen Informationen fortan nicht mehr zusammen mit Ihren Aufzeichnungen an Common Voice übertragen.
 profile-explanation = Mit einem Profil können Sie Ihren Fortschritt im Auge behalten und unsere Sprachdaten noch genauer machen.
 why-demographic = Warum sind diese Angaben relevant?
-why-demographic-explanation = Anonymisierte Nutzerangaben wie Alter, Geschlecht und Akzent mit den Tonaufnahmen zu verknüpfen, hilft Entwicklern dabei, die Genauigkeit von Spracherkennungssoftware besser zu trainieren. Ihr Benutzername und Ihre E-Mail-Adresse werden natürlich nicht mit diesen Daten verknüpft. Außerdem können Sie wählen, ob Sie Ihren Benutzernamen öffentlich machen oder lieber anonym bleiben möchten.
 keep-me-posted =
     .label = Haltet mich auf dem Laufenden, wenn es was neues bzgl. Common Voice gibt.
 accept-privacy = Ich bin einverstanden, dass diese Daten wie in der <privacyLink>Datenschutzerklärung</privacyLink> beschrieben verwendet werden.
@@ -298,7 +297,7 @@ faq-source-a2 = Sie können sich die verwendeten Sätze in <dataLink>diesem GitH
 ## Profile
 
 profile-why-title = Warum ein Profil?
-profile-why-content = Indem Sie einige Informationen über sich bereitstellen, werden die von Ihnen an Common Voice übertragenen Tonaufnahmen für Spracherkennungssoftware nützlicher, da letztere diese Daten zur Verbesserung ihrer Genauigkeit verwenden.
+profile-why-content = Wenn Sie einige Informationen über sich selbst angeben, werden Ihre Aufzeichnungen nützlicher für Spracherkennungssoftware sein, weil sie mit den Informationen ihre Genauigkeit erhöhen können.
 
 ## NotFound
 
@@ -428,7 +427,7 @@ listen-3rd-time-instruction = Zwei erledigt, <playIcon></playIcon> weiter so!
 listen-last-time-instruction = <playIcon></playIcon> Einmal noch!
 nothing-to-validate = Es gibt momentan nichts mehr in dieser Sprache, was Sie bestätigen könnten, bitte helfen Sie uns, indem Sie die Warteschlange wieder auffüllen.
 record-button-label = Nehmen Sie Ihre Stimme auf
-share-title-new = <bold>Helfen Sie uns dabei</bold> mehr Stimmen zu finden
+share-title-new = <bold>Helfen Sie uns dabei,</bold> mehr Stimmen zu finden
 
 ## Dashboard
 
