@@ -238,16 +238,16 @@ other = Sonstiges
 why-profile-title = Warum ein Profil?
 why-profile-text = Indem Sie uns einige Informationen über sich geben, können die von Ihnen an Common Voice übermittelten Audiodaten besser dazu verwendet werden, die Genauigkeit von Spracherkennungssystemen zu verbessern.
 dashboard = Übersicht
-build-profile = Profil aufbauen
+build-profile = Profil erstellen
 avatar = Profilbild
 preferences = Einstellungen
 edit-profile = Profil bearbeiten
 profile-create = Ein Profil erstellen
 profile-create-success = Geschafft, Profil erstellt!
 profile-close = Schließen
-profile-clear-modal = Wenn Sie Ihre Profildaten löschen, werden Ihre demografischen Informationen nicht mehr zusammen mit Ihren Aufzeichnungen an Common Voice übertragen.
+profile-clear-modal = Wenn Sie Ihre Profildaten löschen, werden Ihre demografischen Informationen fortan nicht mehr zusammen mit Ihren Aufzeichnungen an Common Voice übertragen.
 profile-explanation = Mit einem Profil können Sie Ihren Fortschritt im Auge behalten und unsere Sprachdaten noch genauer machen.
-why-demographic = Warum ist das relevant?
+why-demographic = Warum sind diese Angaben relevant?
 why-demographic-explanation = Anonymisierte Nutzerangaben wie Alter, Geschlecht und Akzent mit den Tonaufnahmen zu verknüpfen, hilft Entwicklern dabei, die Genauigkeit von Spracherkennungssoftware besser zu trainieren. Ihr Benutzername und Ihre E-Mail-Adresse werden natürlich nicht mit diesen Daten verknüpft. Außerdem können Sie wählen, ob Sie Ihren Benutzernamen öffentlich machen oder lieber anonym bleiben möchten.
 keep-me-posted =
     .label = Haltet mich auf dem Laufenden, wenn es was neues bzgl. Common Voice gibt.
@@ -298,7 +298,7 @@ faq-source-a2 = Sie können sich die verwendeten Sätze in <dataLink>diesem GitH
 ## Profile
 
 profile-why-title = Warum ein Profil?
-profile-why-content = Indem Sie einige Informationen über sich bereitstellen, werden die von Ihnen an Common Voice übertragenen Tonaufnahmen für Spracherkennungs-Software nützlicher, da letztere diese Daten zur Verbesserung ihrer Genauigkeit verwenden.
+profile-why-content = Indem Sie einige Informationen über sich bereitstellen, werden die von Ihnen an Common Voice übertragenen Tonaufnahmen für Spracherkennungssoftware nützlicher, da letztere diese Daten zur Verbesserung ihrer Genauigkeit verwenden.
 
 ## NotFound
 
@@ -436,5 +436,5 @@ you = Sie
 everyone = Alle
 contribution-activity = Aktivität der Mitwirkenden
 top-contributors = Aktivste Mitwirkende
-recorded-clips = Aufgenommene Clips
-validated-clips = Überprüfte Clips
+recorded-clips = Aufgenommene Aufzeichnungen
+validated-clips = Überprüfte Aufzeichnungen
