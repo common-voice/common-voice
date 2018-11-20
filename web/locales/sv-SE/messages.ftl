@@ -440,6 +440,9 @@ share-title-new = <bold>Hjälp oss</bold> hitta mer röster
 
 ## Dashboard
 
+you = Du
 everyone = Alla
+contribution-activity = Bidragsaktivitet
+top-contributors = Bästa bidragare
 recorded-clips = Inspelade klipp
 validated-clips = Validerade klipp
