@@ -239,7 +239,6 @@ why-profile-title = Acuɣer amaɣnu?
 why-profile-text = Ma terniḍ-d ugar n yisallen ɣef yiman-ik, isefka n ṣṣut i d-tceyyɛeḍ ar usenfaṛ n Common Voice ad lhun aṭas i yiselkimen n unadi deg uɛqal n taɣect i yessexdamen isefka-ya i wakken ad snernin leqdic-nsen.
 dashboard = Tafelwit n usenqed
 build-profile = Bnu amaɣnu
-profile = Amaɣnu
 avatar = Avataṛ
 preferences = Ismenyifen
 edit-profile = Ẓreg amaɣnu
@@ -435,3 +434,12 @@ listen-last-time-instruction = <playIcon></playIcon> d aneggaru!
 nothing-to-validate = Ula kra ara nsentem deg tutlayt-a, mudd-aɣ-d afus ad neččaṛ adras.
 record-button-label = Sekles taɣect-ik
 share-title-new = <bold>Mudd-aɣ-d afus</bold> ad d-naf tuɣac timaynutin
+
+## Dashboard
+
+you = Kečč
+everyone = Yal yiwen
+contribution-activity = Armud n uttekki
+top-contributors = Imttekkiyen ifazen
+recorded-clips = Tukkisin ittwaskelsen
+validated-clips = Tukkisin yettwasentmen
