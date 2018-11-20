@@ -257,7 +257,6 @@ why-profile-title = Pam proffil?
 why-profile-text = Drwy ddarparu rhywfaint o wybodaeth amdanoch chi eich hun, bydd y data sain rydych yn ei gyflwyno i Common Voice yn fwy defnyddiol i beiriannau Adnabod Lleferydd sy'n defnyddio'r data hwn i fod yn fwy cywir.
 dashboard = Bwrdd Gwaith
 build-profile = Adeiladu Proffil
-profile = Proffil
 avatar = Afatar
 preferences = Dewisiadau
 edit-profile = Golygu Proffil
@@ -449,3 +448,12 @@ listen-last-time-instruction = <playIcon> </playIcon> Yr un olaf!
 nothing-to-validate = Nid oes gennym unrhyw beth i ddilysu'r iaith hon, helpwch ni i lanw'r ciw
 record-button-label = Recordio eich llais
 share-title-new = <bold>Helpwch ni</bold> i ganfod rhagor o leisiau
+
+## Dashboard
+
+you = Chi
+everyone = Pawb
+contribution-activity = Gweithgaredd Cyfrannu
+top-contributors = Prif Gyfrannwyr
+recorded-clips = Clipiau wedi'u Recordio
+validated-clips = Clipiau wedi'u Dilysu
