@@ -269,6 +269,7 @@ connect-gravatar = Sambungkan ke Gravatar
 gravatar_not_found = Tidak ditemukan gravatar untuk surel Anda
 file_too_large = Berkas yang dipilih terlalu besar
 manage-subscriptions = Kelola Langganan
+email-already-used = Surel telah digunakan untuk akun yang berbeda
 
 ## FAQ
 
@@ -431,3 +432,8 @@ share-title-new = <bold>Bantu kami</bold> menemukan lebih banyak suara
 ## Dashboard
 
 you = Anda
+everyone = Semua orang
+contribution-activity = Aktivitas Kontribusi
+top-contributors = Kontributor Teratas
+recorded-clips = Klip Terekam
+validated-clips = Klip Tervalidasi
